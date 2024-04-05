@@ -244,18 +244,18 @@
     - service: vk
       id: 1440
       published: 2024-03-08-18-18-36
-      updated: 2024-03-29-22-08-50
+      updated: 2024-04-05-22-13-05
       followers: 893
       likes: 32
-      views: 261
+      views: 264
       reposts: 1
     - service: tg
       id: 339
       published: 2024-03-08-18-18-42
-      updated: 2024-03-29-22-08-49
+      updated: 2024-04-05-22-13-04
       followers: 345
       likes: 59
-      views: 420
+      views: 439
       comments: !c |-
         G7UAaCwSbFsO20O4qTA3lh8ReqZaodcmXU3GtExgBpP7wXnPGaqN7g5t8jtMLE1crgHgFU02OOSQ
         D6KBYQQJtmVWC0AwnuLz/v5nI8n7big/B4eh7Sjiorj25J2WAAV0C8sFPnSGiW4nzlbNAYf4uZgO
@@ -440,10 +440,10 @@
     - service: tg
       id: 347
       published: 2024-03-15-18-58-56
-      updated: 2024-03-29-22-08-49
+      updated: 2024-04-05-22-13-04
       followers: 352
       likes: 45
-      views: 346
+      views: 372
 2024-03-16.night-guardess: 2017-03-01.night-guardess
 2024-03-17.teeth-of-pelagiad:
   title: Teeth of Pelagiad
@@ -828,24 +828,24 @@
       id: C5WWKeRRTCu
       mediaId: '17984135375500958'
       published: 2024-04-04-18-11-59
-      updated: 2024-04-05-21-12-54
+      updated: 2024-04-05-22-13-03
       followers: 1406
       likes: 92
-      views: 326
+      views: 329
       comments: !c CxaAkZPLQnjqw976AACqcXVhbnRkNzcwObZiZXN0IHRvd24gaW4gbW9ycm93aW5kAw==
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2024-04-05-21-12-54
+      updated: 2024-04-05-22-13-03
       followers: 906
       likes: 38
-      views: 240
+      views: 244
       reposts: 3
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2024-04-05-21-12-54
+      updated: 2024-04-05-22-13-04
       followers: 354
       likes: 49
-      views: 181
+      views: 182
 2024-04-05.rain-of-sparks: 2017-09-29.rain-of-sparks
