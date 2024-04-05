@@ -14,7 +14,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-05.rain-of-sparks)</code> `🚀 OpenMW` `🔗 Tribunal` `clockworkcity`
+`A2` `📍 Sotha Sil, Dome of Serlyn` `🚀 OpenMW` `🔗 Tribunal` `clockworkcity`
 
 ```
 2024-04-05.rain-of-sparks
