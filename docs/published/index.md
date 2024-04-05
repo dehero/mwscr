@@ -47,7 +47,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-03.god-of-madness-and-his-follower)</code> `🚀 OpenMW` `sheogorath` `shrine` `daedric` `statue`
+`B1` `📍 Almurbalarammi, Shrine` `🚀 OpenMW` `sheogorath` `shrine` `daedric` `statue`
 
 ```
 2024-04-03.god-of-madness-and-his-follower
