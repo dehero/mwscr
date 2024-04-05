@@ -1,0 +1,51 @@
+dehero.2020-05-19-night-guards:
+  title: Night Watch
+  titleRu: Ночной дозор
+  content:
+    - store:/shots/2020-05-19.night-guard.png
+    - store:/shots/2018-03-24.two-legioners-talking.png
+    - store:/shots/2017-01-23.when-you-meet-yourself.png
+    - store:/shots/2017-02-07.night-patrol.png
+  trash:
+    - store:/shots/2017-01-07.28-29-30-ready-or-not-here-i-come.png
+    - store:/shots/2017-03-01.night-guardess.png
+    - store:/shots/2017-05-10.slaves-of-molag-mar.png
+  type: shot-set
+  author: dehero
+  engine: OpenMW
+  tags:
+    - guards
+    - night
+  mark: A1
+dehero.2020-10-10-19-25-22:
+  location: Azura's Coast Region
+  content: store:/inbox/dehero.2020-10-10-19-25-22.1.png
+  trash: store:/inbox/dehero.2020-10-10-19-25-22.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  mark: E
+dehero.2020-11-05-20-57-47:
+  content: store:/inbox/dehero.2020-11-05-20-57-47.png
+  type: shot
+  author: dehero
+dehero.2020-11-05-21-10-08:
+  content:
+    - store:/inbox/dehero.2020-11-05-21-10-08.png
+    - store:/inbox/dehero.2020-11-05-21-10-24.png
+  type: shot
+  author: dehero
+dehero.2020-11-05-21-13-40:
+  content:
+    - store:/inbox/dehero.2020-11-05-21-13-40.png
+    - store:/inbox/dehero.2020-11-05-21-13-32.png
+  trash: store:/inbox/dehero.2020-11-05-21-13-08.png
+  type: shot
+  author: dehero
+dehero.2020-11-05-21-17-50:
+  content: store:/inbox/dehero.2020-11-05-21-17-50.1.png
+  trash: store:/inbox/dehero.2020-11-05-21-17-50.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  mark: E

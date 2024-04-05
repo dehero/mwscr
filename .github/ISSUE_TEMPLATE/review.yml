@@ -1,0 +1,31 @@
+name: Review Post
+description: Paste in the title the ID of post.
+title: POST_ID
+labels:
+  - review
+body:
+  - type: dropdown
+    id: postMark
+    attributes:
+      label: Editor's Mark
+      options:
+        - A1
+        - A2
+        - B1
+        - B2
+        - C
+        - D
+        - E
+        - F
+  - type: dropdown
+    id: postViolation
+    attributes:
+      label: Violation
+      options:
+        - Inappropriate content
+        - Graphic issues
+        - Non-vanilla look
+        - Uses or requires mods
+        - UI is visible
+        - Unreachable resource
+        - Unsupported resource

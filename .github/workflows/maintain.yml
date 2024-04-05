@@ -1,0 +1,53 @@
+name: maintain
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  maintain:
+    runs-on: ubuntu-latest
+    env:
+      DEBUG_PUBLISHING: '${{ vars.DEBUG_PUBLISHING }}'
+      GITHUB_BOT_EMAIL: '${{ secrets.BOT_EMAIL }}'
+      GITHUB_BOT_NAME: '${{ secrets.BOT_NAME }}'
+      INSTAGRAM_ACCESS_TOKEN: '${{ secrets.INSTAGRAM_ACCESS_TOKEN }}'
+      TELEGRAM_API_APP_HASH: '${{ secrets.TELEGRAM_API_APP_HASH }}'
+      TELEGRAM_API_APP_ID: '${{ secrets.TELEGRAM_API_APP_ID }}'
+      TELEGRAM_PHONE_NUMBER: '${{ secrets.TELEGRAM_PHONE_NUMBER }}'
+      TELEGRAM_SESSION: '${{ secrets.TELEGRAM_SESSION }}'
+      VK_ACCESS_TOKEN: '${{ secrets.VK_ACCESS_TOKEN }}'
+      YANDEX_DISK_STORE_PATH: '${{ secrets.YANDEX_DISK_STORE_PATH }}'
+      YANDEX_DISK_ACCESS_TOKEN: '${{ secrets.YANDEX_DISK_ACCESS_TOKEN }}'
+      YOUTUBE_API_KEY: '${{ secrets.YOUTUBE_API_KEY }}'
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run and commit maintenance
+        run: |
+          npm run maintain
+          git config user.email ${{ env.GITHUB_BOT_EMAIL }}
+          git config user.name ${{ env.GITHUB_BOT_NAME }}
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "chore(maintain): `date +'%Y-%m-%d-%H-%M'`"
+          git pull --rebase -X ours
+          git push
+
+      - name: Create and commit release
+        run: |
+          git config user.email ${{ env.GITHUB_BOT_EMAIL }}
+          git config user.name ${{ env.GITHUB_BOT_NAME }}
+          npm run release
+          git push --follow-tags origin main

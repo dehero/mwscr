@@ -1,0 +1,43 @@
+name: resolve-issue
+
+on:
+  issues:
+    types: [edited, reopened, labeled]
+
+jobs:
+  resolve-issue:
+    if:
+      contains(github.event.issue.labels.*.name, 'proposal') || contains(github.event.issue.labels.*.name, 'request') ||
+      contains(github.event.issue.labels.*.name, 'editing') || contains(github.event.issue.labels.*.name, 'location') ||
+      contains(github.event.issue.labels.*.name, 'merging') || contains(github.event.issue.labels.*.name, 'review')
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_ACTION_CONTEXT: ${{ toJson(github) }}
+      GITHUB_BOT_EMAIL: '${{ secrets.BOT_EMAIL }}'
+      GITHUB_BOT_NAME: '${{ secrets.BOT_NAME }}'
+      YANDEX_DISK_STORE_PATH: '${{ secrets.YANDEX_DISK_STORE_PATH }}'
+      YANDEX_DISK_ACCESS_TOKEN: '${{ secrets.YANDEX_DISK_ACCESS_TOKEN }}'
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Resolve issue and commit changes
+        # To use BOT user name and email
+        # git config user.email ${{ env.GITHUB_BOT_EMAIL }}
+        # git config user.name ${{ env.GITHUB_BOT_NAME }}
+        run: |
+          npm run resolve-github-issue
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "chore(resolve-issue): resolve #${{ github.event.issue.number }}"
+          git pull --rebase -X ours
+          git push

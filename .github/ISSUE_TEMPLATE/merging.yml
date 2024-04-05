@@ -1,0 +1,12 @@
+name: Merge Posts
+description: Paste in the title the ID of post from inbox or trash.
+title: POST_ID
+labels:
+  - merging
+body:
+  - type: textarea
+    id: mergeWithIds
+    attributes:
+      label: Merge with IDs
+      description: Paste post IDs which you would like to merge with
+      render: txt

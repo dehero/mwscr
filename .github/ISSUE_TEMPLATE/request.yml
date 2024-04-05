@@ -1,0 +1,45 @@
+name: Request Post
+description: Describe in the title, which post you would like to request.
+title: Cool to see, how cliffracer dies!
+labels:
+  - request
+body:
+  - type: dropdown
+    id: postType
+    attributes:
+      label: Post Type
+      options:
+        - shot
+        - shot-set
+        - video
+        - clip
+        - drawing
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: userName
+    attributes:
+      label: Name
+      description: >-
+        Create new user or force set existing user name (for administrator).
+        Leave blank if you have contributed with issues earlier.
+      placeholder: Jiub the Saint
+  - type: input
+    id: userProfileIg
+    attributes:
+      label: Instagram Profile
+      description: Write down author's Instagram profile link or name.
+      placeholder: jiub
+  - type: input
+    id: userProfileTg
+    attributes:
+      label: Telegram Profile
+      description: Write down author's Telegram profile link or name.
+      placeholder: saint_jiub
+  - type: input
+    id: userProfileVk
+    attributes:
+      label: VK Profile
+      description: Write down author's VK profile link or name.
+      placeholder: cliffracer_destroyer

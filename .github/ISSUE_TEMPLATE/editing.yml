@@ -1,0 +1,76 @@
+name: Edit Post
+description: Paste in the title the ID of post from inbox or trash.
+title: POST_ID
+labels:
+  - editing
+body:
+  - type: textarea
+    id: postContent
+    attributes:
+      label: Content
+      description: URLs of post contents
+      render: txt
+  - type: input
+    id: postTitle
+    attributes:
+      label: Title
+      description: Post title (for Instagram and Telegram)
+      placeholder: Moon and Star on Vacation
+  - type: input
+    id: postTitleRu
+    attributes:
+      label: Title on Russian
+      description: Post title (for VK)
+      placeholder: Луна и звезда на отдыхе
+  - type: input
+    id: postType
+    attributes:
+      label: Post Type
+      placeholder: shot shot-set video clip drawing
+  - type: input
+    id: postAuthor
+    attributes:
+      label: Author IDs
+  - type: input
+    id: postEngine
+    attributes:
+      label: Engine
+      placeholder: OpenMW Vanilla
+  - type: input
+    id: postAddon
+    attributes:
+      label: Addon
+      placeholder: Tribunal Bloodmoon
+  - type: input
+    id: postTags
+    attributes:
+      label: Tags
+      description: Post Tags
+      placeholder: vivec almalexia sothasil
+  - type: input
+    id: postLocation
+    attributes:
+      label: Location
+      placeholder: Loading...
+  - type: input
+    id: postMark
+    attributes:
+      label: Editor's Mark
+      placeholder: A1 A2 B1 B2 C D E F
+  - type: input
+    id: postViolation
+    attributes:
+      label: Violation
+      placeholder: >-
+        Inappropriate content Graphic issues Non-vanilla look Uses or requires
+        mods UI is visible Unreachable resource Unsupported resource
+  - type: textarea
+    id: postTrash
+    attributes:
+      label: Trash
+      description: URLs of post trash content
+      render: txt
+  - type: input
+    id: postRequest
+    attributes:
+      label: Request

@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ts-node",
+      "type": "node",
+      "request": "launch",
+      "args": [
+        "${relativeFile}",
+      ],
+      "runtimeArgs": [
+        "-r",
+        "ts-node/register",
+        "--loader",
+        "ts-node/esm"
+      ],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}
