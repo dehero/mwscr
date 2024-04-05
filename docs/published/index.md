@@ -4,7 +4,38 @@
 
 # Published in 2024
 
-`38 items`
+`39 items`
+
+## <span id="2024-04-05.rain-of-sparks">Rain of Sparks</span>
+
+`RU` Дождь из искр
+
+<a href="https://instagram.com/p/BZoftR2DJ_O/" title="2017-09-29.rain-of-sparks"><img alt="store:/shots/2017-09-29.rain-of-sparks.png" src="../../assets/previews/shots/2017-09-29.rain-of-sparks.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-05.rain-of-sparks)</code> `🚀 OpenMW` `🔗 Tribunal` `clockworkcity`
+
+```
+2024-04-05.rain-of-sparks
+```
+
+> `2017-09-29.rain-of-sparks`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BZoftR2DJ_O/)       | 2017-09-29 |       |    67 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_445)  | 2017-09-29 |   150 |    10 |        79 |     10 |
+| [`ig`](https://instagram.com/p/C5Y7jcKSfPS/)       | 2024-04-05 |       |       |      1406 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1483) | 2024-04-05 |       |       |       908 |        |
+| [`tg`](https://t.me/mwscr/369)                     | 2024-04-05 |       |       |       355 |        |
+|                                                    |            |   150 |    77 |      2669 |        |
+
+#### Comments
+
+- `ig` <ins title="2017-09-29-17-14-07">m_salashchenko</ins> 😍😍😍
 
 ## <span id="2024-04-04.view-of-elf-skerring">View of Elf-Skerring</span>
 
@@ -30,10 +61,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5WWKeRRTCu/)       | 2024-04-04 |   315 |    87 |      1406 |   6.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1480) | 2024-04-04 |   220 |    38 |       906 |   4.19 |
-| [`tg`](https://t.me/mwscr/367)                     | 2024-04-04 |   170 |    48 |       354 |  13.56 |
-|                                                    |            |   705 |   173 |      2666 |   7.98 |
+| [`ig`](https://instagram.com/p/C5WWKeRRTCu/)       | 2024-04-04 |   321 |    89 |      1406 |   6.33 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1480) | 2024-04-04 |   227 |    38 |       906 |   4.19 |
+| [`tg`](https://t.me/mwscr/367)                     | 2024-04-04 |   171 |    48 |       354 |  13.56 |
+|                                                    |            |   719 |   175 |      2666 |   8.03 |
 
 #### Comments
 
@@ -115,10 +146,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbpUVTiDuSA/)       | 2017-11-18 |       |    75 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_504)  | 2017-11-18 |   167 |    13 |       100 |     13 |
-| [`ig`](https://instagram.com/p/C5OnpxAR_W5/)       | 2024-04-01 |   334 |    89 |      1403 |   6.34 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1477) | 2024-04-01 |   205 |    26 |       906 |   2.87 |
-| [`tg`](https://t.me/mwscr/364)                     | 2024-04-01 |   154 |    55 |       354 |  15.54 |
-|                                                    |            |   860 |   258 |      2663 |   9.44 |
+| [`ig`](https://instagram.com/p/C5OnpxAR_W5/)       | 2024-04-01 |   348 |    91 |      1403 |   6.49 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1477) | 2024-04-01 |   213 |    27 |       906 |   2.98 |
+| [`tg`](https://t.me/mwscr/364)                     | 2024-04-01 |   191 |    55 |       354 |  15.54 |
+|                                                    |            |   919 |   261 |      2663 |    9.5 |
 
 #### Comments
 
@@ -149,10 +180,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5MCzuJy_65/)       | 2024-03-31 |   442 |    93 |      1403 |   6.63 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1476) | 2024-03-31 |   183 |    26 |       905 |   2.87 |
-| [`tg`](https://t.me/mwscr/363)                     | 2024-03-31 |   209 |    52 |       354 |  14.69 |
-|                                                    |            |   834 |   171 |      2662 |   8.06 |
+| [`ig`](https://instagram.com/p/C5MCzuJy_65/)       | 2024-03-31 |   452 |    93 |      1403 |   6.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1476) | 2024-03-31 |   188 |    26 |       905 |   2.87 |
+| [`tg`](https://t.me/mwscr/363)                     | 2024-03-31 |   232 |    52 |       354 |  14.69 |
+|                                                    |            |   872 |   171 |      2662 |   8.06 |
 
 ## <span id="2024-03-30.a-boxy-nightstand">A Boxy Nightstand</span>
 

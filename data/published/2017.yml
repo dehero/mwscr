@@ -7537,6 +7537,19 @@
       followers: 79
       likes: 10
       views: 150
+    - service: ig
+      id: C5Y7jcKSfPS
+      mediaId: '17985111410647919'
+      published: 2024-04-05-18-17-10
+      followers: 1406
+    - service: vk
+      id: 1483
+      published: 2024-04-05-18-17-17
+      followers: 908
+    - service: tg
+      id: 369
+      published: 2024-04-05-18-17-25
+      followers: 355
 2017-09-30.in-a-warm-hut:
   title: In a Warm Hut
   titleRu: В тёплой хижине
@@ -8870,28 +8883,28 @@
       id: C5OnpxAR_W5
       mediaId: '18032311705917542'
       published: 2024-04-01-18-10-53
-      updated: 2024-04-04-18-11-41
+      updated: 2024-04-05-18-16-55
       followers: 1403
-      likes: 89
-      views: 334
+      likes: 91
+      views: 348
       comments: !c |-
         G0sA+I3EOIZyfCqLOrJVvd/RuSc8oI/iWAtGlPgUB7QWRJSGOJL97MHR4v3ckwlHSK1xnm7pget5
         KH6WuHAf2+GGMoG9LCGFqbxhmfdDOQE=
     - service: vk
       id: 1477
       published: 2024-04-01-18-10-59
-      updated: 2024-04-04-18-11-42
+      updated: 2024-04-05-18-16-55
       followers: 906
-      likes: 26
-      views: 205
+      likes: 27
+      views: 213
       reposts: 1
     - service: tg
       id: 364
       published: 2024-04-01-18-11-06
-      updated: 2024-04-04-18-11-42
+      updated: 2024-04-05-18-16-55
       followers: 354
       likes: 55
-      views: 154
+      views: 191
       comments: !c CxOAkZPLQnjps+/8gACoQWVsbGFyaWGyVmVsZGlnIGZpbnQgYmlsZGUhAw==
 2017-11-19.bottle-collection:
   title: Bottle Collection
