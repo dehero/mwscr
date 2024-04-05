@@ -7542,24 +7542,27 @@
       id: C5Y7jcKSfPS
       mediaId: '17985111410647919'
       published: 2024-04-05-18-17-10
-      updated: 2024-04-05-19-12-31
+      updated: 2024-04-05-20-14-19
       followers: 1406
-      likes: 25
-      views: 44
+      likes: 37
+      views: 102
     - service: vk
       id: 1483
       published: 2024-04-05-18-17-17
-      updated: 2024-04-05-19-12-32
+      updated: 2024-04-05-20-14-20
       followers: 908
-      likes: 8
-      views: 41
+      likes: 10
+      views: 59
     - service: tg
       id: 369
       published: 2024-04-05-18-17-25
-      updated: 2024-04-05-19-12-32
+      updated: 2024-04-05-20-14-20
       followers: 355
-      likes: 24
-      views: 60
+      likes: 32
+      views: 78
+      comments: !c |-
+        iyWAkZTLQnjq+t6RAACoQWVsbGFyaWGt0JAg0LTQtSDRhtC1P5PLQnjq/A7EAAClbXdzY3K5U290
+        aGEgU2lsLCBEb21lIG9mIFNlcmx5bgM=
 2017-09-30.in-a-warm-hut:
   title: In a Warm Hut
   titleRu: В тёплой хижине

@@ -28,14 +28,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZoftR2DJ_O/)       | 2017-09-29 |       |    67 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_445)  | 2017-09-29 |   150 |    10 |        79 |     10 |
-| [`ig`](https://instagram.com/p/C5Y7jcKSfPS/)       | 2024-04-05 |    44 |    25 |      1406 |   1.78 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1483) | 2024-04-05 |    41 |     8 |       908 |   0.88 |
-| [`tg`](https://t.me/mwscr/369)                     | 2024-04-05 |    60 |    24 |       355 |   6.76 |
-|                                                    |            |   295 |   134 |      2669 |   4.85 |
+| [`ig`](https://instagram.com/p/C5Y7jcKSfPS/)       | 2024-04-05 |   102 |    37 |      1406 |   2.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1483) | 2024-04-05 |    59 |    10 |       908 |    1.1 |
+| [`tg`](https://t.me/mwscr/369)                     | 2024-04-05 |    78 |    32 |       355 |   9.01 |
+|                                                    |            |   389 |   156 |      2669 |   5.69 |
 
 #### Comments
 
 - `ig` <ins title="2017-09-29-17-14-07">m_salashchenko</ins> 😍😍😍
+- `tg` <ins title="2024-04-05-19-13-14">Aellaria</ins> А де це?
+  - <ins title="2024-04-05-19-34-00">mwscr</ins> Sotha Sil, Dome of Serlyn
 
 ## <span id="2024-04-04.view-of-elf-skerring">View of Elf-Skerring</span>
 
@@ -61,10 +63,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5WWKeRRTCu/)       | 2024-04-04 |   323 |    89 |      1406 |   6.33 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1480) | 2024-04-04 |   232 |    38 |       906 |   4.19 |
-| [`tg`](https://t.me/mwscr/367)                     | 2024-04-04 |   176 |    49 |       354 |  13.84 |
-|                                                    |            |   731 |   176 |      2666 |   8.12 |
+| [`ig`](https://instagram.com/p/C5WWKeRRTCu/)       | 2024-04-04 |   325 |    91 |      1406 |   6.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1480) | 2024-04-04 |   234 |    38 |       906 |   4.19 |
+| [`tg`](https://t.me/mwscr/367)                     | 2024-04-04 |   179 |    49 |       354 |  13.84 |
+|                                                    |            |   738 |   178 |      2666 |   8.17 |
 
 #### Comments
 
@@ -706,10 +708,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C4i7nMEvfEh/)       | 2024-03-15 |   393 |    95 |      1386 |   6.85 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1453) | 2024-03-15 |   248 |    30 |       896 |   3.35 |
+| [`ig`](https://instagram.com/p/C4i7nMEvfEh/)       | 2024-03-15 |   406 |    96 |      1386 |   6.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1453) | 2024-03-15 |   252 |    30 |       896 |   3.35 |
 | [`tg`](https://t.me/mwscr/347)                     | 2024-03-15 |   346 |    45 |       352 |  12.78 |
-|                                                    |            |   987 |   170 |      2634 |   7.66 |
+|                                                    |            |  1004 |   171 |      2634 |   7.69 |
 
 ## <span id="2024-03-14.night-street-of-balmora">Night Street of Balmora</span>
 
