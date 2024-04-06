@@ -792,24 +792,24 @@
       id: C5RMenFr1dt
       mediaId: '18048107179720608'
       published: 2024-04-02-18-11-09
-      updated: 2024-04-05-17-14-02
+      updated: 2024-04-06-18-16-33
       followers: 1403
-      likes: 69
-      views: 317
+      likes: 72
+      views: 330
     - service: vk
       id: 1478
       published: 2024-04-02-18-11-20
-      updated: 2024-04-05-17-14-03
+      updated: 2024-04-06-18-16-34
       followers: 906
       likes: 21
-      views: 185
+      views: 195
     - service: tg
       id: 365
       published: 2024-04-02-18-11-28
-      updated: 2024-04-05-17-14-03
+      updated: 2024-04-06-18-16-34
       followers: 355
-      likes: 48
-      views: 191
+      likes: 49
+      views: 217
 2024-04-03.god-of-madness-and-his-follower: 2017-06-07.god-of-madness-and-his-follower
 2024-04-04.view-of-elf-skerring:
   title: View of Elf-Skerring
@@ -849,3 +849,26 @@
       likes: 51
       views: 190
 2024-04-05.rain-of-sparks: 2017-09-29.rain-of-sparks
+2024-04-06.falling-towers:
+  title: Falling Towers
+  titleRu: Падающие башни
+  location: Red Mountain Region
+  content: store:/shots/2024-04-06.falling-towers.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  mark: B1
+  posts:
+    - service: ig
+      id: C5bgTjdu9Go
+      mediaId: '18180074419295799'
+      published: 2024-04-06-18-16-47
+      followers: 1406
+    - service: vk
+      id: 1484
+      published: 2024-04-06-18-16-53
+      followers: 909
+    - service: tg
+      id: 370
+      published: 2024-04-06-18-17-00
+      followers: 354

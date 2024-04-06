@@ -4,7 +4,30 @@
 
 # Published in 2024
 
-`39 items`
+`40 items`
+
+## <span id="2024-04-06.falling-towers">Falling Towers</span>
+
+`RU` Падающие башни
+
+<a href="https://instagram.com/p/C5bgTjdu9Go/" title="2024-04-06.falling-towers"><img alt="store:/shots/2024-04-06.falling-towers.png" src="../../assets/previews/shots/2024-04-06.falling-towers.avif" /></a>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B1` `📍 Red Mountain Region` `🚀 OpenMW`
+
+```
+2024-04-06.falling-towers
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C5bgTjdu9Go/)       | 2024-04-06 |      1406 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1484) | 2024-04-06 |       909 |
+| [`tg`](https://t.me/mwscr/370)                     | 2024-04-06 |       354 |
+|                                                    |            |      2669 |
 
 ## <span id="2024-04-05.rain-of-sparks">Rain of Sparks</span>
 
@@ -28,10 +51,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZoftR2DJ_O/)       | 2017-09-29 |       |    67 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_445)  | 2017-09-29 |   150 |    10 |        79 |     10 |
-| [`ig`](https://instagram.com/p/C5Y7jcKSfPS/)       | 2024-04-05 |   334 |    82 |      1406 |   5.83 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1483) | 2024-04-05 |   154 |    25 |       908 |   2.75 |
-| [`tg`](https://t.me/mwscr/369)                     | 2024-04-05 |   121 |    46 |       355 |  12.96 |
-|                                                    |            |   759 |   230 |      2669 |   7.89 |
+| [`ig`](https://instagram.com/p/C5Y7jcKSfPS/)       | 2024-04-05 |   343 |    85 |      1406 |   6.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1483) | 2024-04-05 |   155 |    25 |       908 |   2.75 |
+| [`tg`](https://t.me/mwscr/369)                     | 2024-04-05 |   122 |    47 |       355 |  13.24 |
+|                                                    |            |   770 |   234 |      2669 |   8.01 |
 
 #### Comments
 
@@ -95,10 +118,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BVCJ8xHDrD1/)       | 2017-06-07 |       |    52 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_314)  | 2017-06-07 |   213 |     9 |        61 |      9 |
-| [`ig`](https://instagram.com/p/C5TxQvku6cF/)       | 2024-04-03 |    48 |     4 |      1408 |   0.28 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1479) | 2024-04-03 |   140 |    17 |       906 |   1.88 |
-| [`tg`](https://t.me/mwscr/366)                     | 2024-04-03 |   175 |    45 |       353 |  12.75 |
-|                                                    |            |   576 |   127 |      2667 |   5.98 |
+| [`ig`](https://instagram.com/p/C5TxQvku6cF/)       | 2024-04-03 |    53 |     4 |      1408 |   0.28 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1479) | 2024-04-03 |   156 |    18 |       906 |   1.99 |
+| [`tg`](https://t.me/mwscr/366)                     | 2024-04-03 |   191 |    47 |       353 |  13.31 |
+|                                                    |            |   613 |   130 |      2667 |   6.15 |
 
 #### Comments
 
@@ -122,10 +145,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5RMenFr1dt/)       | 2024-04-02 |   317 |    69 |      1403 |   4.92 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1478) | 2024-04-02 |   185 |    21 |       906 |   2.32 |
-| [`tg`](https://t.me/mwscr/365)                     | 2024-04-02 |   191 |    48 |       355 |  13.52 |
-|                                                    |            |   693 |   138 |      2664 |   6.92 |
+| [`ig`](https://instagram.com/p/C5RMenFr1dt/)       | 2024-04-02 |   330 |    72 |      1403 |   5.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1478) | 2024-04-02 |   195 |    21 |       906 |   2.32 |
+| [`tg`](https://t.me/mwscr/365)                     | 2024-04-02 |   217 |    49 |       355 |   13.8 |
+|                                                    |            |   742 |   142 |      2664 |   7.08 |
 
 ## <span id="2024-04-01.at-the-edge-of-sheogorad">At the Edge of Sheogorad</span>
 

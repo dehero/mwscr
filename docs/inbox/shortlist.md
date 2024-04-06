@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`4 items`
+`3 items`
 
 ## <span id="natty.2024-03-28-20-25-07">Manwe</span>
 
@@ -49,26 +49,6 @@ natty.2024-03-28-20-25-07
 
 ```
 natty.2024-03-10-18-15-19
-```
-
-## <span id="natty.2024-03-10-16-17-18">Falling Towers</span>
-
-`RU` Падающие башни
-
-![store:/inbox/natty.2024-03-10-16-17-18.1.png](../../assets/previews/inbox/natty.2024-03-10-16-17-18.1.avif "natty.2024-03-10-16-17-18.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/natty.2024-03-10-16-17-18.png](../../assets/previews/inbox/natty.2024-03-10-16-17-18.avif "natty.2024-03-10-16-17-18")
-</details>
-
-`shot` by [Natty](../contributors.md#natty)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-16-17-18&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-16-17-18.1.png&amp;postTitle=Falling+Towers&amp;postTitleRu=%D0%9F%D0%B0%D0%B4%D0%B0%D1%8E%D1%89%D0%B8%D0%B5+%D0%B1%D0%B0%D1%88%D0%BD%D0%B8&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Red+Mountain+Region&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-03-10-16-17-18.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-16-17-18) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-16-17-18) `B1` `📍 Red Mountain Region` `🚀 OpenMW`
-
-```
-natty.2024-03-10-16-17-18
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
