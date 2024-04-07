@@ -24,14 +24,15 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5bgTjdu9Go/)       | 2024-04-06 |   260 |    77 |      1406 |   5.48 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1484) | 2024-04-06 |   163 |    33 |       909 |   3.63 |
+| [`ig`](https://instagram.com/p/C5bgTjdu9Go/)       | 2024-04-06 |   267 |    78 |      1406 |   5.55 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1484) | 2024-04-06 |   168 |    34 |       909 |   3.74 |
 | [`tg`](https://t.me/mwscr/370)                     | 2024-04-06 |   121 |    47 |       354 |  13.28 |
-|                                                    |            |   544 |   157 |      2669 |   7.46 |
+|                                                    |            |   556 |   159 |      2669 |   7.52 |
 
 #### Comments
 
 - `ig` <ins title="2024-04-07-12-22-08">sithknight72</ins> I’m curious if you’ve ever considered using MGE?
+- `ig` <ins title="2024-04-07-13-31-04">mwscr</ins> MGE is acceptable option for shooting. But I personally prefer OpenMW.
 
 ## <span id="2024-04-05.rain-of-sparks">Rain of Sparks</span>
 
@@ -55,10 +56,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZoftR2DJ_O/)       | 2017-09-29 |       |    67 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_445)  | 2017-09-29 |   150 |    10 |        79 |     10 |
-| [`ig`](https://instagram.com/p/C5Y7jcKSfPS/)       | 2024-04-05 |   401 |    95 |      1406 |   6.76 |
+| [`ig`](https://instagram.com/p/C5Y7jcKSfPS/)       | 2024-04-05 |   405 |    96 |      1406 |   6.83 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1483) | 2024-04-05 |   174 |    28 |       908 |   3.08 |
 | [`tg`](https://t.me/mwscr/369)                     | 2024-04-05 |   153 |    51 |       355 |  14.37 |
-|                                                    |            |   878 |   251 |      2669 |   8.55 |
+|                                                    |            |   882 |   252 |      2669 |   8.57 |
 
 #### Comments
 
