@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`69 items`
+`68 items`
 
 ## <span id="natty.2024-03-28-22-20-02">natty.2024-03-28-22-20-02</span>
 
@@ -475,24 +475,6 @@ natty.2024-03-10-16-26-48
 
 ```
 natty.2024-03-10-16-25-25
-```
-
-## <span id="natty.2024-03-10-16-22-51">natty.2024-03-10-16-22-51</span>
-
-![store:/inbox/natty.2024-03-10-16-22-51.png](../../assets/previews/inbox/natty.2024-03-10-16-22-51.avif "natty.2024-03-10-16-22-51")
-![store:/inbox/natty.2024-03-10-16-22-51.1.png](../../assets/previews/inbox/natty.2024-03-10-16-22-51.1.avif "natty.2024-03-10-16-22-51.1")
-![store:/inbox/natty.2024-03-10-16-22-51.2.png](../../assets/previews/inbox/natty.2024-03-10-16-22-51.2.avif "natty.2024-03-10-16-22-51.2")
-![store:/inbox/natty.2024-03-10-16-22-51.3.png](../../assets/previews/inbox/natty.2024-03-10-16-22-51.3.avif "natty.2024-03-10-16-22-51.3")
-
-`shot` by [Natty](../contributors.md#natty)
-
-> [!WARNING]
-> Need english title, need russian title, need mark, detected post type "shot-set", got "shot".
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-16-22-51&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-16-22-51.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-16-22-51.1.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-16-22-51.2.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-16-22-51.3.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-16-22-51) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-16-22-51) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-16-22-51)</code>
-
-```
-natty.2024-03-10-16-22-51
 ```
 
 ## <span id="natty.2024-03-10-16-17-50">natty.2024-03-10-16-17-50</span>
