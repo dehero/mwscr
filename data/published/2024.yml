@@ -828,26 +828,26 @@
       id: C5WWKeRRTCu
       mediaId: '17984135375500958'
       published: 2024-04-04-18-11-59
-      updated: 2024-04-07-18-15-49
+      updated: 2024-04-08-18-19-20
       followers: 1406
-      likes: 108
-      views: 409
+      likes: 110
+      views: 424
       comments: !c CxaAkZPLQnjqw976AACqcXVhbnRkNzcwObZiZXN0IHRvd24gaW4gbW9ycm93aW5kAw==
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2024-04-07-18-15-49
+      updated: 2024-04-08-18-19-21
       followers: 906
       likes: 48
-      views: 316
+      views: 339
       reposts: 4
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2024-04-07-18-15-49
+      updated: 2024-04-08-18-19-21
       followers: 354
-      likes: 53
-      views: 211
+      likes: 56
+      views: 229
 2024-04-05.rain-of-sparks: 2017-09-29.rain-of-sparks
 2024-04-06.falling-towers:
   title: Falling Towers
@@ -887,3 +887,34 @@
       likes: 57
       views: 164
 2024-04-07.sheogorad: 2016-11-21.sheogorad
+2024-04-08.lava-fork:
+  title: Lava Fork
+  titleRu: Лавовая развилка
+  location: Molag Amur Region
+  content: store:/shots/2024-04-08.lava-fork.png
+  trash:
+    - store:/trash/dehero.2024-02-04-23-39-03.png
+    - store:/trash/dehero.2024-02-04-23-39-03.1.png
+    - store:/trash/dehero.2024-02-04-23-38-04.2.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - lava
+    - night
+    - fork
+  mark: B1
+  posts:
+    - service: ig
+      id: C5gqOIYx--3
+      mediaId: '18054903520526028'
+      published: 2024-04-08-18-19-40
+      followers: 1409
+    - service: vk
+      id: 1487
+      published: 2024-04-08-18-19-47
+      followers: 909
+    - service: tg
+      id: 372
+      published: 2024-04-08-18-19-56
+      followers: 354

@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`6 items`
+`5 items`
 
 ## <span id="natty.2024-03-28-20-25-07">Manwe</span>
 
@@ -71,29 +71,6 @@ natty.2024-03-10-18-15-19
 
 ```
 natty.2024-03-10-16-22-51
-```
-
-## <span id="dehero.2024-02-04-23-39-03">Lava Fork</span>
-
-`RU` Лавовая развилка
-
-![store:/inbox/dehero.2024-02-04-23-38-04.1.png](../../assets/previews/inbox/dehero.2024-02-04-23-38-04.1.avif "dehero.2024-02-04-23-38-04.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2024-02-04-23-39-03.png](../../assets/previews/inbox/dehero.2024-02-04-23-39-03.avif "dehero.2024-02-04-23-39-03")
-![store:/inbox/dehero.2024-02-04-23-38-04.png](../../assets/previews/inbox/dehero.2024-02-04-23-38-04.avif "dehero.2024-02-04-23-38-04")
-![store:/inbox/dehero.2024-02-04-23-39-03.1.png](../../assets/previews/inbox/dehero.2024-02-04-23-39-03.1.avif "dehero.2024-02-04-23-39-03.1")
-![store:/inbox/dehero.2024-02-04-23-38-04.2.png](../../assets/previews/inbox/dehero.2024-02-04-23-38-04.2.avif "dehero.2024-02-04-23-38-04.2")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-04-23-39-03&amp;postContent=store%3A%2Finbox%2Fdehero.2024-02-04-23-38-04.1.png&amp;postTitle=Lava+Fork&amp;postTitleRu=%D0%9B%D0%B0%D0%B2%D0%BE%D0%B2%D0%B0%D1%8F+%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D0%BB%D0%BA%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=lava+night+fork&amp;postLocation=Molag+Amur+Region&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-02-04-23-39-03.png%0Astore%3A%2Finbox%2Fdehero.2024-02-04-23-38-04.png%0Astore%3A%2Finbox%2Fdehero.2024-02-04-23-39-03.1.png%0Astore%3A%2Finbox%2Fdehero.2024-02-04-23-38-04.2.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-04-23-39-03) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-04-23-39-03) `B1` `📍 Molag Amur Region` `🚀 OpenMW` `lava` `night` `fork`
-
-```
-dehero.2024-02-04-23-39-03
 ```
 
 ## <span id="dehero.2020-10-10-19-25-22">Sun Mushrooms</span>
