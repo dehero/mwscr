@@ -7,6 +7,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "start": "vite",
+    "build": "vite build",
     "resolve-github-issue": "node --loader ts-node/esm src/local/resolve-github-issue.ts",
     "maintain": "node --loader ts-node/esm src/local/maintain.ts",
     "validate": "node --loader ts-node/esm src/local/validate.ts",
@@ -14,8 +16,8 @@
     "script": "node --loader ts-node/esm --",
     "test": "cross-env TEST_EXTENSIONS=.test.ts ts-node-test src",
     "typecheck": "tsc --noEmit",
-    "eslint": "eslint ./src/**/*.ts ./*.md",
-    "eslint-fix": "eslint ./src/**/*.ts ./*.md --fix",
+    "eslint": "eslint ./src/**/*.{ts,tsx} ./*.md",
+    "eslint-fix": "eslint ./src/**/*.{ts,tsx} ./*.md --fix",
     "check": "npm run typecheck && npm run eslint && npm run test",
     "check-fix": "npm run typecheck && npm run eslint-fix && npm run test"
   },
@@ -35,7 +37,9 @@
     "eslint-plugin-require-extensions": "^0.1.3",
     "github-webhook-event-types": "^1.2.1",
     "prettier": "^3.0.0",
-    "ts-node-test": "^0.4.3"
+    "ts-node-test": "^0.4.3",
+    "vite": "^5.2.8",
+    "vite-plugin-solid": "^2.10.2"
   },
   "dependencies": {
     "@googleapis/youtube": "^13.1.0",
@@ -52,6 +56,7 @@
     "relateurl": "^0.2.7",
     "rimraf": "^5.0.5",
     "sharp": "^0.33.2",
+    "solid-js": "^1.8.16",
     "telegram": "2.17.10",
     "ts-node": "^10.8.1",
     "typescript": "^5.4.2",
