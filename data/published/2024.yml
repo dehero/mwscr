@@ -863,10 +863,10 @@
       id: C5bgTjdu9Go
       mediaId: '18180074419295799'
       published: 2024-04-06-18-16-47
-      updated: 2024-04-08-04-16-51
+      updated: 2024-04-08-05-14-20
       followers: 1406
-      likes: 90
-      views: 325
+      likes: 91
+      views: 327
       comments: !c |-
         G6UA4I2ULuLexDVfpDA5Gr8XiTv/bhsmbbTz2VCKpss2u2U3ONHAvKjFBg1kAF1t3Hl4vX1FTxFj
         b9fb+vC/gF8AeOhru3pN1lMLDcdUfTVyqYM8b8LMp1C9bdB5C60iI3JbuNl6R5HhQCLxrMMmiOXX
@@ -874,7 +874,7 @@
     - service: vk
       id: 1484
       published: 2024-04-06-18-16-53
-      updated: 2024-04-08-04-16-51
+      updated: 2024-04-08-05-14-21
       followers: 909
       likes: 39
       views: 195
@@ -882,8 +882,8 @@
     - service: tg
       id: 370
       published: 2024-04-06-18-17-00
-      updated: 2024-04-08-04-16-51
+      updated: 2024-04-08-05-14-21
       followers: 354
       likes: 56
-      views: 157
+      views: 158
 2024-04-07.sheogorad: 2016-11-21.sheogorad
