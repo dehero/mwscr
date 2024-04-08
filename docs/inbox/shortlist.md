@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`5 items`
+`6 items`
 
 ## <span id="natty.2024-03-28-20-25-07">Manwe</span>
 
@@ -94,6 +94,26 @@ natty.2024-03-10-16-22-51
 
 ```
 dehero.2024-02-04-23-39-03
+```
+
+## <span id="dehero.2020-10-10-19-25-22">Sun Mushrooms</span>
+
+`RU` Солнечные грибы
+
+![store:/inbox/dehero.2020-10-10-19-25-22.1.png](../../assets/previews/inbox/dehero.2020-10-10-19-25-22.1.avif "dehero.2020-10-10-19-25-22.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2020-10-10-19-25-22.png](../../assets/previews/inbox/dehero.2020-10-10-19-25-22.avif "dehero.2020-10-10-19-25-22")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2020-10-10-19-25-22&amp;postContent=store%3A%2Finbox%2Fdehero.2020-10-10-19-25-22.1.png&amp;postTitle=Sun+Mushrooms&amp;postTitleRu=%D0%A1%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B5+%D0%B3%D1%80%D0%B8%D0%B1%D1%8B&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=mushroom+sun&amp;postLocation=Azura%27s+Coast+Region&amp;postMark=E&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2020-10-10-19-25-22.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2020-10-10-19-25-22) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2020-10-10-19-25-22) `E` `📍 Azura's Coast Region` `🚀 OpenMW` `mushroom` `sun`
+
+```
+dehero.2020-10-10-19-25-22
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
