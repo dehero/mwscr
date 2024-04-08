@@ -1,10 +1,17 @@
 .app {
   display: flex;
   align-items: center;
-  justify-content: center;
   height: 100vh;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .frame {
   padding: 4px;
+}
+
+.posts {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
 }

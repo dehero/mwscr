@@ -1,0 +1,11 @@
+.postPreview {
+  flex-flow: column nowrap;
+}
+
+.infoWrapper {
+  padding: 2px;
+}
+
+.info {
+  padding: 4px;
+}

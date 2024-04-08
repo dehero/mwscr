@@ -58,7 +58,7 @@ const orderedKeys = [
 
 type SerializedComment = [datetime: number, author: string, text: string, ...replies: SerializedComment[]];
 
-const YAML_SCHEMA = yaml.JSON_SCHEMA.extend({
+export const YAML_SCHEMA = yaml.JSON_SCHEMA.extend({
   implicit: [
     new Type('tag:yaml.org,2002:timestamp', {
       kind: 'scalar',

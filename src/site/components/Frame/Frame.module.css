@@ -1,3 +1,7 @@
+.frame {
+  display: flex;
+}
+
 .thin {
   border: 2px solid var(--color-text);
   border-image-source: url(../../assets/frame-thin.png);
