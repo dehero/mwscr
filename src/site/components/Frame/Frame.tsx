@@ -9,5 +9,5 @@ interface FrameProps {
 }
 
 export const Frame: Component<FrameProps> = ({ children, variant, ...props }) => {
-  return <div class={clsx(styles[variant], props.class)}>{children}</div>;
+  return <div class={clsx(styles.frame, styles[variant], props.class)}>{children}</div>;
 };

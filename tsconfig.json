@@ -30,6 +30,7 @@
       "relateurl",
       "sharp",
       "ya-disk",
+      "@modyfi/vite-plugin-yaml/modules"
     ],
     "lib": [
       "ESNext",
