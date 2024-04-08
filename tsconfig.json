@@ -18,13 +18,24 @@
     "forceConsistentCasingInFileNames": true,
     "sourceMap": true,
     "outDir": "./dist/",
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": [
+      "node",
+      "vite/client",
+      "decompress",
+      "escape-html",
+      "js-yaml",
+      "mime",
+      "relateurl",
+      "sharp",
+      "ya-disk",
+    ],
     "lib": [
       "ESNext",
+      "DOM"
     ]
   },
-  "include": [
-    "src/**/*.ts"
-  ],
   "exclude": [
     "node_modules"
   ]
