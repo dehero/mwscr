@@ -44,6 +44,7 @@
   "dependencies": {
     "@googleapis/youtube": "^13.1.0",
     "@sindresorhus/slugify": "^2.2.1",
+    "clsx": "^2.1.0",
     "commit-and-tag-version": "^12.2.0",
     "decompress": "^4.2.1",
     "dotenv": "^16.0.0",
