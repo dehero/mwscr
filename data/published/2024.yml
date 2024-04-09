@@ -387,26 +387,28 @@
       id: C4bIiiXRrhw
       mediaId: '18027748525802590'
       published: 2024-03-12-18-17-45
-      updated: 2024-04-02-22-11-06
+      updated: 2024-04-09-22-12-07
       followers: 1379
       likes: 165
-      views: 610
-      comments: !c CxGAkZPLQnjjQZe0gACrZGVsYW5vc3BpZXOrR29hdGVkIHJvYmUD
+      views: 616
+      comments: !c |-
+        CyGAkpPLQnjrB4jBAACsbmlybndheWZhcmVyqPCflKXwn5Slk8tCeONBl7SAAKtkZWxhbm9zcGll
+        c6tHb2F0ZWQgcm9iZQM=
     - service: vk
       id: 1444
       published: 2024-03-12-18-17-53
-      updated: 2024-04-02-22-11-07
+      updated: 2024-04-09-22-12-09
       followers: 896
-      likes: 32
-      views: 249
+      likes: 33
+      views: 251
       reposts: 3
     - service: tg
       id: 343
       published: 2024-03-12-18-18-01
-      updated: 2024-04-02-22-11-07
+      updated: 2024-04-09-22-12-08
       followers: 350
-      likes: 61
-      views: 407
+      likes: 62
+      views: 427
       comments: !c CxCAkZPLQnjjPwNOAACx2YXYrdmF2K8g2K7Yp9mE2K+jV293Aw==
 2024-03-13.haze: 2017-06-23.haze
 2024-03-14.night-street-of-balmora: 2017-04-02.night-street-of-balmora
@@ -507,25 +509,25 @@
       id: C4tJXjnS_nf
       mediaId: '18027104659943282'
       published: 2024-03-19-18-11-19
-      updated: 2024-04-02-22-11-05
+      updated: 2024-04-09-22-12-07
       followers: 1388
       likes: 143
-      views: 482
+      views: 493
     - service: vk
       id: 1459
       published: 2024-03-19-18-11-25
-      updated: 2024-04-02-22-11-06
+      updated: 2024-04-09-22-12-08
       followers: 896
-      likes: 40
-      views: 240
+      likes: 41
+      views: 246
       reposts: 2
     - service: tg
       id: 351
       published: 2024-03-19-18-11-30
-      updated: 2024-04-02-22-11-07
+      updated: 2024-04-09-22-12-08
       followers: 352
-      likes: 67
-      views: 340
+      likes: 68
+      views: 369
 2024-03-20.banner-of-house-dagoth: 2017-07-05.banner-of-house-dagoth
 2024-03-21.first-stars-above-falasmaryon:
   title: First Stars Above Falasmaryon
@@ -909,14 +911,14 @@
       id: C5gqOIYx--3
       mediaId: '18054903520526028'
       published: 2024-04-08-18-19-40
-      updated: 2024-04-09-21-13-16
+      updated: 2024-04-09-22-12-07
       followers: 1409
       likes: 107
-      views: 338
+      views: 340
     - service: vk
       id: 1487
       published: 2024-04-08-18-19-47
-      updated: 2024-04-09-21-13-17
+      updated: 2024-04-09-22-12-07
       followers: 909
       likes: 25
       views: 129
@@ -924,10 +926,10 @@
     - service: tg
       id: 372
       published: 2024-04-08-18-19-56
-      updated: 2024-04-09-21-13-17
+      updated: 2024-04-09-22-12-07
       followers: 354
       likes: 49
-      views: 133
+      views: 135
 2024-04-09.telvanni-council-house:
   title: Telvanni Council House
   titleRu: Дом Совета Телванни
@@ -947,22 +949,22 @@
       id: C5jOmkLursk
       mediaId: '18015478406056496'
       published: 2024-04-09-18-16-02
-      updated: 2024-04-09-21-13-16
+      updated: 2024-04-09-22-12-07
       followers: 1410
-      likes: 50
-      views: 143
+      likes: 57
+      views: 157
       comments: !c CxCAkZPLQnjsQhK6AACtYW5nZWxwZWVwZWVfX6dNeSBjcmliAw==
     - service: vk
       id: 1488
       published: 2024-04-09-18-16-08
-      updated: 2024-04-09-21-13-16
+      updated: 2024-04-09-22-12-07
       followers: 911
-      likes: 17
-      views: 67
+      likes: 19
+      views: 79
     - service: tg
       id: 373
       published: 2024-04-09-18-16-14
-      updated: 2024-04-09-21-13-17
+      updated: 2024-04-09-22-12-07
       followers: 353
-      likes: 37
-      views: 72
+      likes: 40
+      views: 78
