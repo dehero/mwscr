@@ -24,33 +24,37 @@ interface PostPreviewProps {
   post: Post;
 }
 
-export const PostPreview: Component<PostPreviewProps> = ({ post, ...props }) => {
-  const previewUrls = asArray(post.content).map((url) => createResource(url, getPreviewUrl)[0]);
+const ImagePreview: Component<{ url: string | undefined }> = (props) => {
+  const [src] = createResource(() => props.url, getPreviewUrl, { initialValue: props.url });
+
+  return <img src={src()} class={styles.image} />;
+};
+
+export const PostPreview: Component<PostPreviewProps> = (props) => {
+  const urls = () => asArray(props.post.content);
+  const rating = () => getPostRating(props.post);
 
   return (
-    <div class={styles.postPreviewWrapper}>
-      <Frame variant="thick" class={clsx(styles.postPreview, props.class)}>
-        <Show when={previewUrls.length === 1}>
-          <img src={previewUrls[0]?.()} class={styles.image} />
-        </Show>
-        <Show when={previewUrls.length > 1}>
-          <div class={clsx(styles[post.type], styles.images)}>
-            <For each={previewUrls}>
-              {(previewUrl) => (
-                <Frame variant="thin">
-                  <img src={previewUrl()} class={styles.image} />
-                </Frame>
-              )}
-            </For>
-          </div>
-        </Show>
-        <div class={styles.infoWrapper}>
-          <Frame variant="thin" class={styles.info}>
-            {post.title}
-            <span class={styles.rating}>{getPostRating(post).toFixed(2)}</span>
-          </Frame>
+    <Frame variant="thick" class={clsx(styles.postPreview, props.class)}>
+      <Show when={urls().length > 1} fallback={<ImagePreview url={urls().at(0)} />}>
+        <div class={clsx(styles[props.post.type], styles.setContainer)}>
+          <For each={urls()}>
+            {(previewUrl) => (
+              <Frame variant="thin" class={styles.setItem}>
+                <ImagePreview url={previewUrl} />
+              </Frame>
+            )}
+          </For>
         </div>
-      </Frame>
-    </div>
+      </Show>
+      <div class={styles.infoWrapper}>
+        <Frame variant="thin" class={styles.info}>
+          <div class={styles.title}>{props.post.title}</div>
+          <Show when={rating()}>
+            <span class={styles.rating}>{rating().toFixed(2)}</span>
+          </Show>
+        </Frame>
+      </div>
+    </Frame>
   );
 };

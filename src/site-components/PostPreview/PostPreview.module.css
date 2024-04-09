@@ -14,25 +14,31 @@
   justify-content: space-between;
 }
 
-.images {
+.image {
+  max-width: 100%;
+}
+
+.setContainer {
   display: flex;
   flex-flow: row wrap;
-  height: 320px;
-  width: 320px;
+  padding: 4px;
   gap: 3px;
   box-sizing: border-box;
 }
 
-.shot-set.images {
-  padding: 4px;
+.setItem {
+  width: calc(50% - 2px);
+  height: auto;
+  box-sizing: border-box;
 }
 
-.shot-set .image {
-  height: 150px;
-  width: 150px;
-  box-sizing: border-box;
+.title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .rating {
   color: var(--color-text-light);
+  flex-shrink: 0;
 }
