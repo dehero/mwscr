@@ -9,3 +9,22 @@
 .info {
   padding: 4px;
 }
+
+.images {
+  display: flex;
+  flex-flow: row wrap;
+  height: 320px;
+  width: 320px;
+  gap: 3px;
+  box-sizing: border-box;
+}
+
+.shot-set.images {
+  padding: 4px;
+}
+
+.shot-set .image {
+  height: 150px;
+  width: 150px;
+  box-sizing: border-box;
+}
