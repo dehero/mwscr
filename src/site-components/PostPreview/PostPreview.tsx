@@ -25,7 +25,7 @@ interface PostPreviewProps {
 }
 
 const ImagePreview: Component<{ url: string | undefined }> = (props) => {
-  const [src] = createResource(() => props.url, getPreviewUrl, { initialValue: props.url });
+  const [src] = createResource(() => props.url, getPreviewUrl);
 
   return <img src={src()} class={styles.image} />;
 };
