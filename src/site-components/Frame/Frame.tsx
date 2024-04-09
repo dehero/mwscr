@@ -8,6 +8,6 @@ interface FrameProps {
   variant: 'thin' | 'thick' | 'button';
 }
 
-export const Frame: Component<FrameProps> = ({ children, variant, ...props }) => {
-  return <div class={clsx(styles.frame, styles[variant], props.class)}>{children}</div>;
+export const Frame: Component<FrameProps> = (props) => {
+  return <div class={clsx(styles.frame, styles[props.variant], props.class)}>{props.children}</div>;
 };

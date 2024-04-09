@@ -17,5 +17,13 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 8px;
+}
+
+.root {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 4px;
+  box-sizing: border-box;
 }
