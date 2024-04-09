@@ -1,4 +1,4 @@
-import { posix } from 'path/posix';
+import { posix } from 'path';
 import { pathToFileURL } from 'url';
 
 export const RESOURCE_PROTOCOLS = ['store:', 'file:', 'http:', 'https:'] as const;

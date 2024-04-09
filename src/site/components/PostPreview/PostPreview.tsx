@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import { type Component, createResource, For, Show } from 'solid-js';
-import type { Post } from '../../../entities/post.js';
+import { getPostRating, type Post } from '../../../entities/post.js';
 import { asArray } from '../../../utils/common-utils.js';
 import { Frame } from '../Frame/Frame.jsx';
 import styles from './PostPreview.module.css';
@@ -47,6 +47,7 @@ export const PostPreview: Component<PostPreviewProps> = ({ post, ...props }) => 
         <div class={styles.infoWrapper}>
           <Frame variant="thin" class={styles.info}>
             {post.title}
+            <span class={styles.rating}>{getPostRating(post).toFixed(2)}</span>
           </Frame>
         </div>
       </Frame>

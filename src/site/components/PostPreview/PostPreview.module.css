@@ -7,7 +7,11 @@
 }
 
 .info {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 4px;
   padding: 4px;
+  justify-content: space-between;
 }
 
 .images {
@@ -27,4 +31,8 @@
   height: 150px;
   width: 150px;
   box-sizing: border-box;
+}
+
+.rating {
+  color: var(--color-text-light);
 }
