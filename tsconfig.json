@@ -20,6 +20,7 @@
     "outDir": "./dist/",
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
+    "isolatedModules": true,
     "types": [
       "node",
       "vite/client",
