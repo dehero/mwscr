@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { type Component, createResource, For, Show } from 'solid-js';
-import { getPostRating, type Post } from '../../../entities/post.js';
-import { asArray } from '../../../utils/common-utils.js';
+import { getPostRating, type Post } from '../../entities/post.js';
+import { asArray } from '../../utils/common-utils.js';
 import { Frame } from '../Frame/Frame.jsx';
 import styles from './PostPreview.module.css';
 
@@ -10,8 +10,8 @@ const getPreviewUrl = async (url: string | undefined) => {
     if (!url) {
       return;
     }
-    const previews = import.meta.glob('../../../../assets/previews/**/*.avif', { query: 'url', import: 'default' });
-    const importPath = url.replace(/^store:\/(.*)\..*/, '../../../../assets/previews/$1.avif');
+    const previews = import.meta.glob('../../../assets/previews/**/*.avif', { query: 'url', import: 'default' });
+    const importPath = url.replace(/^store:\/(.*)\..*/, '../../../assets/previews/$1.avif');
     const previewUrl = (await previews[importPath]?.()) as string | undefined;
     return previewUrl ?? url;
   }

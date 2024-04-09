@@ -1,7 +1,7 @@
 import { type Component, For } from 'solid-js';
-import posts from '../../../../data/published/2023.yml';
+import posts from '../../../data/published/2023.yml';
 import { Frame } from '../Frame/Frame.js';
-import { PostPreview } from '../PostPreview/PostPreview.jsx';
+import { PostPreview } from '../PostPreview/PostPreview.js';
 import styles from './App.module.css';
 
 export const App: Component = () => {
