@@ -863,10 +863,10 @@
       id: C5bgTjdu9Go
       mediaId: '18180074419295799'
       published: 2024-04-06-18-16-47
-      updated: 2024-04-08-17-13-52
+      updated: 2024-04-09-18-15-45
       followers: 1406
-      likes: 96
-      views: 351
+      likes: 101
+      views: 374
       comments: !c |-
         G6UA4I2ULuLexDVfpDA5Gr8XiTv/bhsmbbTz2VCKpss2u2U3ONHAvKjFBg1kAF1t3Hl4vX1FTxFj
         b9fb+vC/gF8AeOhru3pN1lMLDcdUfTVyqYM8b8LMp1C9bdB5C60iI3JbuNl6R5HhQCLxrMMmiOXX
@@ -874,18 +874,18 @@
     - service: vk
       id: 1484
       published: 2024-04-06-18-16-53
-      updated: 2024-04-08-17-13-52
+      updated: 2024-04-09-18-15-45
       followers: 909
-      likes: 40
-      views: 206
+      likes: 42
+      views: 228
       reposts: 1
     - service: tg
       id: 370
       published: 2024-04-06-18-17-00
-      updated: 2024-04-08-17-13-52
+      updated: 2024-04-09-18-15-46
       followers: 354
-      likes: 57
-      views: 164
+      likes: 59
+      views: 174
 2024-04-07.sheogorad: 2016-11-21.sheogorad
 2024-04-08.lava-fork:
   title: Lava Fork
@@ -909,22 +909,50 @@
       id: C5gqOIYx--3
       mediaId: '18054903520526028'
       published: 2024-04-08-18-19-40
-      updated: 2024-04-09-17-12-26
+      updated: 2024-04-09-18-15-44
       followers: 1409
       likes: 104
-      views: 317
+      views: 322
     - service: vk
       id: 1487
       published: 2024-04-08-18-19-47
-      updated: 2024-04-09-17-12-26
+      updated: 2024-04-09-18-15-44
       followers: 909
-      likes: 24
-      views: 126
+      likes: 25
+      views: 127
       reposts: 1
     - service: tg
       id: 372
       published: 2024-04-08-18-19-56
-      updated: 2024-04-09-17-12-26
+      updated: 2024-04-09-18-15-44
       followers: 354
       likes: 46
-      views: 111
+      views: 116
+2024-04-09.telvanni-council-house:
+  title: Telvanni Council House
+  titleRu: Дом Совета Телванни
+  location: Sadrith Mora
+  content: store:/shots/2024-04-09.telvanni-council-house.png
+  trash:
+    - store:/trash/natty.2024-03-10-18-15-10.png
+    - store:/trash/natty.2024-03-10-18-15-19.1.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - night
+  mark: A2
+  posts:
+    - service: ig
+      id: C5jOmkLursk
+      mediaId: '18015478406056496'
+      published: 2024-04-09-18-16-02
+      followers: 1410
+    - service: vk
+      id: 1488
+      published: 2024-04-09-18-16-08
+      followers: 911
+    - service: tg
+      id: 373
+      published: 2024-04-09-18-16-14
+      followers: 353
