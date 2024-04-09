@@ -1,11 +1,14 @@
-.frame {
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
   padding: 4px;
 }
 
-.posts {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 4px;
+.title {
+  display: inline-flex;
 }
 
 .scrollContainer {

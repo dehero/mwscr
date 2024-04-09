@@ -21,9 +21,7 @@ body {
 
 .root {
   display: flex;
-  align-items: center;
   height: 100vh;
   flex-direction: column;
-  gap: 4px;
   box-sizing: border-box;
 }

@@ -2,7 +2,7 @@ import type { VirtualItemProps } from '@minht11/solid-virtual-container';
 import { VirtualContainer } from '@minht11/solid-virtual-container';
 import { type Component, createResource } from 'solid-js';
 import { comparePostEntriesById, type Post, type PostEntries } from '../../entities/post.js';
-import { Frame } from '../Frame/Frame.js';
+import { Button } from '../Button/Button.js';
 import { PostPreview } from '../PostPreview/PostPreview.js';
 import styles from './App.module.css';
 
@@ -60,9 +60,10 @@ export const App: Component = () => {
 
   return (
     <>
-      <Frame variant="thin" class={styles.frame}>
-        Morrowind Screenshots
-      </Frame>
+      <div class={styles.header}>
+        <div class={styles.title}>Morrowind Screenshots</div>
+        <Button>Propose</Button>
+      </div>
 
       <div ref={targetVertical} class={styles.scrollContainer}>
         <VirtualContainer
