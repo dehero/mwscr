@@ -1,0 +1,11 @@
+.tooltip {
+  display: flex;
+  align-content: center;
+  padding: 4px 8px;
+  gap: 4px;
+  position: fixed;
+  background: var(--color-background);
+  /* Compensate cursor size */
+  left: 8px;
+  top: 32px;
+}
