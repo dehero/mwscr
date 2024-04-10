@@ -1600,29 +1600,6 @@
 
 - `tg` <ins title="2023-08-01-17-48-17">Влад</ins> Нетч❤️
 
-## <span id="2022-07-08.squad">Squad</span>
-
-`RU` Отряд
-
-<a href="https://instagram.com/p/CfxD4RgsxEL/" title="2022-07-08.squad"><img alt="store:/shots/2022-07-08.squad.png" src="../../assets/previews/shots/2022-07-08.squad.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-08.squad)</code> `🚀 OpenMW`
-
-```
-2022-07-08.squad
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CfxD4RgsxEL/)       | 2022-07-08 |       |   133 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1328) | 2022-07-08 |   448 |    43 |       739 |   5.82 |
-| [`tg`](https://t.me/mwscr/268)                     | 2022-07-08 |   612 |    48 |       256 |  18.75 |
-|                                                    |            |  1060 |   224 |       995 |  12.28 |
-
 ## <span id="2024-02-28.omalen-ancestral-tomb">Omalen Ancestral Tomb</span>
 
 `RU` Родовая гробница Омаленов
@@ -1652,10 +1629,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C35xPQ9s-8q/)       | 2024-02-28 |   566 |   156 |      1373 |  11.36 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1420) | 2024-02-28 |   297 |    39 |       894 |   4.36 |
-| [`tg`](https://t.me/mwscr/330)                     | 2024-02-28 |   502 |    71 |       338 |  21.01 |
-|                                                    |            |  1365 |   266 |      2605 |  12.24 |
+| [`ig`](https://instagram.com/p/C35xPQ9s-8q/)       | 2024-02-28 |   570 |   156 |      1373 |  11.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1420) | 2024-02-28 |   299 |    39 |       894 |   4.36 |
+| [`tg`](https://t.me/mwscr/330)                     | 2024-02-28 |   518 |    72 |       338 |   21.3 |
+|                                                    |            |  1387 |   267 |      2605 |  12.34 |
 
 #### Comments
 
@@ -1667,6 +1644,29 @@
 - `tg` <ins title="2024-02-28-22-17-13">syomadyoma</ins> my favourite tg channel
 - `vk` <ins title="2024-02-28-23-23-11">thelittlebuddy</ins> Я приказываю вам жить<br>[пожалуйста]
 - `ig` <ins title="2024-02-29-19-40-54">angelpeepee__</ins> You are the greatest public service
+
+## <span id="2022-07-08.squad">Squad</span>
+
+`RU` Отряд
+
+<a href="https://instagram.com/p/CfxD4RgsxEL/" title="2022-07-08.squad"><img alt="store:/shots/2022-07-08.squad.png" src="../../assets/previews/shots/2022-07-08.squad.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-08.squad)</code> `🚀 OpenMW`
+
+```
+2022-07-08.squad
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/CfxD4RgsxEL/)       | 2022-07-08 |       |   133 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1328) | 2022-07-08 |   448 |    43 |       739 |   5.82 |
+| [`tg`](https://t.me/mwscr/268)                     | 2022-07-08 |   612 |    48 |       256 |  18.75 |
+|                                                    |            |  1060 |   224 |       995 |  12.28 |
 
 ---
 
