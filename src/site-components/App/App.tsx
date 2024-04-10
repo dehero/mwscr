@@ -62,7 +62,13 @@ export const App: Component = () => {
     <>
       <div class={styles.header}>
         <div class={styles.title}>Morrowind Screenshots</div>
-        <Button>Propose</Button>
+        <Button
+          // TODO: use github-issue-resolvers
+          href="https://github.com/dehero/mwscr/issues/new?labels=proposal&template=proposal.yml"
+          target="_blank"
+        >
+          Propose
+        </Button>
       </div>
 
       <div ref={targetVertical} class={styles.scrollContainer}>
