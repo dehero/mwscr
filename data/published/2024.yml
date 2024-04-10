@@ -865,10 +865,10 @@
       id: C5bgTjdu9Go
       mediaId: '18180074419295799'
       published: 2024-04-06-18-16-47
-      updated: 2024-04-09-18-15-45
+      updated: 2024-04-10-18-19-09
       followers: 1406
-      likes: 101
-      views: 374
+      likes: 103
+      views: 385
       comments: !c |-
         G6UA4I2ULuLexDVfpDA5Gr8XiTv/bhsmbbTz2VCKpss2u2U3ONHAvKjFBg1kAF1t3Hl4vX1FTxFj
         b9fb+vC/gF8AeOhru3pN1lMLDcdUfTVyqYM8b8LMp1C9bdB5C60iI3JbuNl6R5HhQCLxrMMmiOXX
@@ -876,18 +876,18 @@
     - service: vk
       id: 1484
       published: 2024-04-06-18-16-53
-      updated: 2024-04-09-18-15-45
+      updated: 2024-04-10-18-19-09
       followers: 909
       likes: 42
-      views: 228
+      views: 239
       reposts: 1
     - service: tg
       id: 370
       published: 2024-04-06-18-17-00
-      updated: 2024-04-09-18-15-46
+      updated: 2024-04-10-18-19-08
       followers: 354
-      likes: 59
-      views: 174
+      likes: 62
+      views: 201
 2024-04-07.sheogorad: 2016-11-21.sheogorad
 2024-04-08.lava-fork:
   title: Lava Fork
@@ -911,14 +911,14 @@
       id: C5gqOIYx--3
       mediaId: '18054903520526028'
       published: 2024-04-08-18-19-40
-      updated: 2024-04-10-17-12-05
+      updated: 2024-04-10-18-19-07
       followers: 1409
-      likes: 115
+      likes: 116
       views: 369
     - service: vk
       id: 1487
       published: 2024-04-08-18-19-47
-      updated: 2024-04-10-17-12-05
+      updated: 2024-04-10-18-19-08
       followers: 909
       likes: 26
       views: 137
@@ -926,10 +926,10 @@
     - service: tg
       id: 372
       published: 2024-04-08-18-19-56
-      updated: 2024-04-10-17-12-05
+      updated: 2024-04-10-18-19-08
       followers: 354
       likes: 51
-      views: 145
+      views: 146
 2024-04-09.telvanni-council-house:
   title: Telvanni Council House
   titleRu: Дом Совета Телванни
@@ -949,22 +949,48 @@
       id: C5jOmkLursk
       mediaId: '18015478406056496'
       published: 2024-04-09-18-16-02
-      updated: 2024-04-10-17-12-05
+      updated: 2024-04-10-18-19-07
       followers: 1410
-      likes: 86
-      views: 297
+      likes: 88
+      views: 300
       comments: !c CxCAkZPLQnjsQhK6AACtYW5nZWxwZWVwZWVfX6dNeSBjcmliAw==
     - service: vk
       id: 1488
       published: 2024-04-09-18-16-08
-      updated: 2024-04-10-17-12-05
+      updated: 2024-04-10-18-19-07
       followers: 911
-      likes: 28
-      views: 151
+      likes: 29
+      views: 154
     - service: tg
       id: 373
       published: 2024-04-09-18-16-14
-      updated: 2024-04-10-17-12-05
+      updated: 2024-04-10-18-19-07
       followers: 353
       likes: 51
-      views: 109
+      views: 110
+2024-04-10.sun-mushrooms:
+  title: Sun Mushrooms
+  titleRu: Солнечные грибы
+  location: Azura's Coast Region
+  content: store:/shots/2024-04-10.sun-mushrooms.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - mushroom
+    - sun
+  mark: E
+  posts:
+    - service: ig
+      id: C5lzx5zyeUS
+      mediaId: '18015780446252146'
+      published: 2024-04-10-18-19-23
+      followers: 1411
+    - service: vk
+      id: 1489
+      published: 2024-04-10-18-19-29
+      followers: 911
+    - service: tg
+      id: 374
+      published: 2024-04-10-18-19-36
+      followers: 353

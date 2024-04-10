@@ -4,7 +4,30 @@
 
 # Published in 2024
 
-`43 items`
+`44 items`
+
+## <span id="2024-04-10.sun-mushrooms">Sun Mushrooms</span>
+
+`RU` Солнечные грибы
+
+<a href="https://instagram.com/p/C5lzx5zyeUS/" title="2024-04-10.sun-mushrooms"><img alt="store:/shots/2024-04-10.sun-mushrooms.png" src="../../assets/previews/shots/2024-04-10.sun-mushrooms.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`E` `📍 Azura's Coast Region` `🚀 OpenMW` `mushroom` `sun`
+
+```
+2024-04-10.sun-mushrooms
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |      1411 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |       911 |
+| [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |       353 |
+|                                                    |            |      2675 |
 
 ## <span id="2024-04-09.telvanni-council-house">Telvanni Council House</span>
 
@@ -31,10 +54,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5jOmkLursk/)       | 2024-04-09 |   297 |    86 |      1410 |    6.1 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1488) | 2024-04-09 |   151 |    28 |       911 |   3.07 |
-| [`tg`](https://t.me/mwscr/373)                     | 2024-04-09 |   109 |    51 |       353 |  14.45 |
-|                                                    |            |   557 |   165 |      2674 |   7.87 |
+| [`ig`](https://instagram.com/p/C5jOmkLursk/)       | 2024-04-09 |   300 |    88 |      1410 |   6.24 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1488) | 2024-04-09 |   154 |    29 |       911 |   3.18 |
+| [`tg`](https://t.me/mwscr/373)                     | 2024-04-09 |   110 |    51 |       353 |  14.45 |
+|                                                    |            |   564 |   168 |      2674 |   7.96 |
 
 #### Comments
 
@@ -66,10 +89,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5gqOIYx--3/)       | 2024-04-08 |   369 |   115 |      1409 |   8.16 |
+| [`ig`](https://instagram.com/p/C5gqOIYx--3/)       | 2024-04-08 |   369 |   116 |      1409 |   8.23 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1487) | 2024-04-08 |   137 |    26 |       909 |   2.86 |
-| [`tg`](https://t.me/mwscr/372)                     | 2024-04-08 |   145 |    51 |       354 |  14.41 |
-|                                                    |            |   651 |   192 |      2672 |   8.48 |
+| [`tg`](https://t.me/mwscr/372)                     | 2024-04-08 |   146 |    51 |       354 |  14.41 |
+|                                                    |            |   652 |   193 |      2672 |    8.5 |
 
 ## <span id="2024-04-07.sheogorad">Sheogorad</span>
 
@@ -93,10 +116,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNER2c_FCVh/)       | 2016-11-21 |       |    20 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_8)    | 2017-01-22 |    53 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C5eFAr9gjlh/)       | 2024-04-07 |   447 |   129 |      1406 |   9.17 |
+| [`ig`](https://instagram.com/p/C5eFAr9gjlh/)       | 2024-04-07 |   461 |   132 |      1406 |   9.39 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1485) | 2024-04-07 |   246 |    51 |       909 |   5.61 |
-| [`tg`](https://t.me/mwscr/371)                     | 2024-04-07 |   156 |    57 |       353 |  16.15 |
-|                                                    |            |   902 |   260 |      2668 |   8.48 |
+| [`tg`](https://t.me/mwscr/371)                     | 2024-04-07 |   173 |    62 |       353 |  17.56 |
+|                                                    |            |   933 |   268 |      2668 |   8.89 |
 
 #### Comments
 
@@ -121,10 +144,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5bgTjdu9Go/)       | 2024-04-06 |   374 |   101 |      1406 |   7.18 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1484) | 2024-04-06 |   228 |    42 |       909 |   4.62 |
-| [`tg`](https://t.me/mwscr/370)                     | 2024-04-06 |   174 |    59 |       354 |  16.67 |
-|                                                    |            |   776 |   202 |      2669 |   9.49 |
+| [`ig`](https://instagram.com/p/C5bgTjdu9Go/)       | 2024-04-06 |   385 |   103 |      1406 |   7.33 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1484) | 2024-04-06 |   239 |    42 |       909 |   4.62 |
+| [`tg`](https://t.me/mwscr/370)                     | 2024-04-06 |   201 |    62 |       354 |  17.51 |
+|                                                    |            |   825 |   207 |      2669 |   9.82 |
 
 #### Comments
 
