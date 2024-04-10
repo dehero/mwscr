@@ -24,10 +24,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |    69 |    26 |      1411 |   1.84 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |    52 |     9 |       911 |   0.99 |
-| [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |    72 |    30 |       353 |    8.5 |
-|                                                    |            |   193 |    65 |      2675 |   3.78 |
+| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |    86 |    34 |      1411 |   2.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |    63 |    11 |       911 |   1.21 |
+| [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |    78 |    33 |       353 |   9.35 |
+|                                                    |            |   227 |    78 |      2675 |   4.32 |
 
 ## <span id="2024-04-09.telvanni-council-house">Telvanni Council House</span>
 
@@ -54,10 +54,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5jOmkLursk/)       | 2024-04-09 |   305 |    88 |      1410 |   6.24 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1488) | 2024-04-09 |   158 |    29 |       911 |   3.18 |
-| [`tg`](https://t.me/mwscr/373)                     | 2024-04-09 |   126 |    52 |       353 |  14.73 |
-|                                                    |            |   589 |   169 |      2674 |   8.05 |
+| [`ig`](https://instagram.com/p/C5jOmkLursk/)       | 2024-04-09 |   307 |    89 |      1410 |   6.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1488) | 2024-04-09 |   160 |    29 |       911 |   3.18 |
+| [`tg`](https://t.me/mwscr/373)                     | 2024-04-09 |   129 |    53 |       353 |  15.01 |
+|                                                    |            |   596 |   171 |      2674 |   8.17 |
 
 #### Comments
 
@@ -464,16 +464,17 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5Bvy5uRX3U/)       | 2024-03-27 |   318 |    80 |      1402 |   5.71 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1471) | 2024-03-27 |   229 |    29 |       905 |    3.2 |
-| [`tg`](https://t.me/mwscr/359)                     | 2024-03-27 |   281 |    61 |       354 |  17.23 |
-|                                                    |            |   828 |   170 |      2661 |   8.71 |
+| [`ig`](https://instagram.com/p/C5Bvy5uRX3U/)       | 2024-03-27 |   329 |    81 |      1402 |   5.78 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1471) | 2024-03-27 |   248 |    29 |       905 |    3.2 |
+| [`tg`](https://t.me/mwscr/359)                     | 2024-03-27 |   359 |    63 |       354 |   17.8 |
+|                                                    |            |   936 |   173 |      2661 |   8.93 |
 
 #### Comments
 
 - `tg` <ins title="2024-03-27-18-15-04">Murom518</ins> Админ опаздывает)
 - `tg` <ins title="2024-03-27-18-17-25">himmelherz</ins> 😺
 - `tg` <ins title="2024-03-27-21-28-26">alex_emsow</ins> Netches are flying high above my tower, netches have no borders anywhere. Just a line from some song or something
+  - <ins title="2024-04-04-12-51-09">ansis</ins> Netches definitely do have borders, as do all beasts
 
 ## <span id="2024-03-26.recollecting-the-first-steps">Recollecting the First Steps</span>
 
@@ -707,10 +708,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWKHtX6jJT8/)       | 2017-07-05 |       |    58 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_343)  | 2017-07-05 |   105 |    10 |        65 |     10 |
-| [`ig`](https://instagram.com/p/C4vuHKgA83_/)       | 2024-03-20 |   395 |   100 |      1393 |   7.18 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1460) | 2024-03-20 |   250 |    29 |       896 |   3.24 |
-| [`tg`](https://t.me/mwscr/352)                     | 2024-03-20 |   326 |    55 |       352 |  15.63 |
-|                                                    |            |  1076 |   252 |      2641 |   9.01 |
+| [`ig`](https://instagram.com/p/C4vuHKgA83_/)       | 2024-03-20 |   402 |   100 |      1393 |   7.18 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1460) | 2024-03-20 |   256 |    29 |       896 |   3.24 |
+| [`tg`](https://t.me/mwscr/352)                     | 2024-03-20 |   353 |    55 |       352 |  15.63 |
+|                                                    |            |  1116 |   252 |      2641 |   9.01 |
 
 ## <span id="2024-03-19.dirty-muriels-cornerclub">Dirty Muriel&#39;s Cornerclub</span>
 
