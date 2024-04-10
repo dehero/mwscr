@@ -6,6 +6,7 @@
 :root {
   --color-text: #caa560;
   --color-text-light: #dfc89e;
+  --color-text-selected: #6070ca;
   --color-background: #000000;
   font-family: MysticCards;
   font-size: 16px;
