@@ -1,6 +1,7 @@
 import type { VirtualItemProps } from '@minht11/solid-virtual-container';
 import { VirtualContainer } from '@minht11/solid-virtual-container';
 import { type Component, createResource, createSignal, Show } from 'solid-js';
+import { isNestedLocation } from '../../entities/location.js';
 import type { Post, PostEntries, PostType } from '../../entities/post.js';
 import { comparePostEntriesById, POST_TYPES } from '../../entities/post.js';
 import { Button } from '../Button/Button.js';
@@ -15,6 +16,8 @@ const postChunks = import.meta.glob('../../../data/published/*.yml', { import: '
 
 interface PostsFilter {
   type?: PostType;
+  tag?: string;
+  location?: string; // | null;
   search?: string;
 }
 
@@ -44,10 +47,49 @@ const getPosts = async (filter: PostsFilter): Promise<PostEntries> => {
   return [...result.entries()]
     .filter(
       ([, post]) =>
-        (!filter.type || post.type === filter.type) &&
-        (!filter.search || post.title?.toLocaleLowerCase()?.includes(filter.search.toLocaleLowerCase())),
+        (typeof filter.type === 'undefined' || post.type === filter.type) &&
+        (typeof filter.tag === 'undefined' || post.tags?.includes(filter.tag)) &&
+        (typeof filter.location === 'undefined' ||
+          (post.location && isNestedLocation(post.location, filter.location))) &&
+        (typeof filter.search === 'undefined' ||
+          post.title?.toLocaleLowerCase()?.includes(filter.search.toLocaleLowerCase())),
     )
     .sort(comparePostEntriesById('desc'));
+};
+
+const getTags = async (): Promise<string[]> => {
+  const result: Set<string> = new Set();
+
+  for (const chunk of Object.values(postChunks)) {
+    const posts = Object.values((await chunk()) as Record<string, Post | string>);
+    for (const post of posts) {
+      if (typeof post !== 'string') {
+        post.tags?.forEach((tag) => result.add(tag));
+      }
+    }
+  }
+
+  return [...result].sort((a, b) => a.localeCompare(b));
+};
+
+const getLocations = async (): Promise<string[]> => {
+  const result: Set<string> = new Set();
+  const { default: data } = await import('../../../data/locations.lst');
+
+  const locations: string[] = data.split(/\r?\n/);
+
+  for (const chunk of Object.values(postChunks)) {
+    const posts = Object.values((await chunk()) as Record<string, Post | string>);
+    for (const post of posts) {
+      if (typeof post !== 'string' && post.location) {
+        locations
+          .filter((location) => post.location && isNestedLocation(post.location, location))
+          .forEach((location) => result.add(location));
+      }
+    }
+  }
+
+  return [...result].sort((a, b) => a.localeCompare(b));
 };
 
 const ListItem: Component<VirtualItemProps<[string, Post | string]>> = (props) => {
@@ -73,15 +115,21 @@ const calculateGridItemSize = (crossAxisSize: number) => {
 export const App: Component = () => {
   let targetVertical;
   const [postType, setPostType] = createSignal<PostType | undefined>();
+  const [postTag, setPostTag] = createSignal<string | undefined>();
+  const [postLocation, setPostLocation] = createSignal<string | undefined>();
   const [searchTerm, setSearchTerm] = createSignal<string | undefined>();
   const [isSearching, setIsSearching] = createSignal(false);
 
   const postFilter = (): PostsFilter => ({
     type: postType(),
+    location: postLocation(),
+    tag: postTag(),
     search: searchTerm(),
   });
 
   const [posts] = createResource(postFilter, getPosts);
+  const [tags] = createResource(getTags);
+  const [locations] = createResource(getLocations);
 
   const isLoading = () => isSearching() || posts.loading;
 
@@ -98,10 +146,14 @@ export const App: Component = () => {
           }}
         />
         <Select
-          options={[{ value: undefined, label: 'All' }, ...POST_TYPES.map((value) => ({ value }))]}
-          name="postType"
-          value={postType()}
-          onChange={setPostType}
+          options={[{ value: undefined, label: 'All' }, ...(locations()?.map((value) => ({ value })) ?? [])]}
+          value={postLocation()}
+          onChange={setPostLocation}
+        />
+        <Select
+          options={[{ value: undefined, label: 'All' }, ...(tags()?.map((value) => ({ value })) ?? [])]}
+          value={postTag()}
+          onChange={setPostTag}
         />
         <RadioGroup
           options={[{ value: undefined, label: 'All' }, ...POST_TYPES.map((value) => ({ value }))]}
