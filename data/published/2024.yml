@@ -830,26 +830,26 @@
       id: C5WWKeRRTCu
       mediaId: '17984135375500958'
       published: 2024-04-04-18-11-59
-      updated: 2024-04-09-19-09-59
+      updated: 2024-04-10-19-12-03
       followers: 1406
-      likes: 111
-      views: 433
+      likes: 112
+      views: 439
       comments: !c CxaAkZPLQnjqw976AACqcXVhbnRkNzcwObZiZXN0IHRvd24gaW4gbW9ycm93aW5kAw==
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2024-04-09-19-10-01
+      updated: 2024-04-10-19-12-02
       followers: 906
-      likes: 48
-      views: 356
+      likes: 49
+      views: 367
       reposts: 4
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2024-04-09-19-10-00
+      updated: 2024-04-10-19-12-01
       followers: 354
-      likes: 56
-      views: 239
+      likes: 58
+      views: 262
 2024-04-05.rain-of-sparks: 2017-09-29.rain-of-sparks
 2024-04-06.falling-towers:
   title: Falling Towers
@@ -949,25 +949,25 @@
       id: C5jOmkLursk
       mediaId: '18015478406056496'
       published: 2024-04-09-18-16-02
-      updated: 2024-04-10-18-19-07
+      updated: 2024-04-10-19-12-00
       followers: 1410
       likes: 88
-      views: 300
+      views: 303
       comments: !c CxCAkZPLQnjsQhK6AACtYW5nZWxwZWVwZWVfX6dNeSBjcmliAw==
     - service: vk
       id: 1488
       published: 2024-04-09-18-16-08
-      updated: 2024-04-10-18-19-07
+      updated: 2024-04-10-19-12-00
       followers: 911
       likes: 29
-      views: 154
+      views: 155
     - service: tg
       id: 373
       published: 2024-04-09-18-16-14
-      updated: 2024-04-10-18-19-07
+      updated: 2024-04-10-19-12-00
       followers: 353
-      likes: 51
-      views: 110
+      likes: 52
+      views: 125
 2024-04-10.sun-mushrooms:
   title: Sun Mushrooms
   titleRu: Солнечные грибы
@@ -985,12 +985,21 @@
       id: C5lzx5zyeUS
       mediaId: '18015780446252146'
       published: 2024-04-10-18-19-23
+      updated: 2024-04-10-19-12-00
       followers: 1411
+      likes: 15
+      views: 35
     - service: vk
       id: 1489
       published: 2024-04-10-18-19-29
+      updated: 2024-04-10-19-11-59
       followers: 911
+      likes: 7
+      views: 34
     - service: tg
       id: 374
       published: 2024-04-10-18-19-36
+      updated: 2024-04-10-19-12-00
       followers: 353
+      likes: 24
+      views: 60
