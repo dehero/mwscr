@@ -1,0 +1,18 @@
+.group {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
+}
+
+.option {
+  padding: 0 8px;
+}
+
+.radio {
+  display: none;
+  cursor: pointer;
+}
+
+.radio:checked + .label {
+  color: var(--color-text-selected);
+}
