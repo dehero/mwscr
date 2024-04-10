@@ -8,6 +8,7 @@
   --color-text-light: #dfc89e;
   --color-text-selected: #6070ca;
   --color-background: #000000;
+  --color-background-selected: #2c3461;
   font-family: MysticCards;
   font-size: 16px;
 }

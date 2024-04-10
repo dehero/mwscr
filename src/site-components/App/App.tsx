@@ -1,9 +1,10 @@
 import type { VirtualItemProps } from '@minht11/solid-virtual-container';
 import { VirtualContainer } from '@minht11/solid-virtual-container';
-import { type Component, createResource, createSignal } from 'solid-js';
+import { type Component, createResource, createSignal, Show } from 'solid-js';
 import type { Post, PostEntries, PostType } from '../../entities/post.js';
 import { comparePostEntriesById, POST_TYPES } from '../../entities/post.js';
 import { Button } from '../Button/Button.js';
+import { Input } from '../Input/Input.js';
 import { PostPreview } from '../PostPreview/PostPreview.js';
 import { RadioGroup } from '../RadioGroup/RadioGroup.jsx';
 import { Select } from '../Select/Select.js';
@@ -13,6 +14,7 @@ const postChunks = import.meta.glob('../../../data/published/*.yml', { import: '
 
 interface PostsFilter {
   type?: PostType;
+  search?: string;
 }
 
 const getPosts = async (filter: PostsFilter): Promise<PostEntries> => {
@@ -39,7 +41,11 @@ const getPosts = async (filter: PostsFilter): Promise<PostEntries> => {
   }
 
   return [...result.entries()]
-    .filter(([, post]) => !filter.type || post.type === filter.type)
+    .filter(
+      ([, post]) =>
+        (!filter.type || post.type === filter.type) &&
+        (!filter.search || post.title?.toLocaleLowerCase()?.includes(filter.search.toLocaleLowerCase())),
+    )
     .sort(comparePostEntriesById('desc'));
 };
 
@@ -66,17 +72,30 @@ const calculateGridItemSize = (crossAxisSize: number) => {
 export const App: Component = () => {
   let targetVertical;
   const [postType, setPostType] = createSignal<PostType | undefined>();
+  const [searchTerm, setSearchTerm] = createSignal<string | undefined>();
+  const [isSearching, setIsSearching] = createSignal(false);
 
   const postFilter = (): PostsFilter => ({
     type: postType(),
+    search: searchTerm(),
   });
 
   const [posts] = createResource(postFilter, getPosts);
+
+  const isLoading = () => isSearching() || posts.loading;
 
   return (
     <>
       <div class={styles.header}>
         <div class={styles.title}>Morrowind Screenshots</div>
+        <Input
+          value={searchTerm()}
+          onChange={() => setIsSearching(true)}
+          onDebouncedChange={(value) => {
+            setSearchTerm(value);
+            setIsSearching(false);
+          }}
+        />
         <Select
           options={[{ value: undefined, label: 'All' }, ...POST_TYPES.map((value) => ({ value }))]}
           name="postType"
@@ -98,18 +117,20 @@ export const App: Component = () => {
         </Button>
       </div>
 
-      <div ref={targetVertical} class={styles.scrollContainer}>
-        <VirtualContainer
-          items={posts()}
-          scrollTarget={targetVertical}
-          // Calculate how many grid columns to show.
-          crossAxisCount={(measurements) => Math.floor(measurements.container.cross / measurements.itemSize.cross)}
-          // overscan={10}
-          itemSize={calculateGridItemSize}
-        >
-          {ListItem}
-        </VirtualContainer>
-      </div>
+      <Show when={!isLoading()} fallback={isSearching() ? 'Searching...' : 'Loading...'}>
+        <div ref={targetVertical} class={styles.scrollContainer}>
+          <VirtualContainer
+            items={posts()}
+            scrollTarget={targetVertical}
+            // Calculate how many grid columns to show.
+            crossAxisCount={(measurements) => Math.floor(measurements.container.cross / measurements.itemSize.cross)}
+            // overscan={10}
+            itemSize={calculateGridItemSize}
+          >
+            {ListItem}
+          </VirtualContainer>
+        </div>
+      </Show>
     </>
   );
 };
