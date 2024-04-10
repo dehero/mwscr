@@ -1,8 +1,9 @@
 .tooltip {
   display: flex;
-  align-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
   padding: 4px 8px;
-  gap: 4px;
+  gap: 2px;
   position: fixed;
   background: var(--color-background);
   /* Compensate cursor size */

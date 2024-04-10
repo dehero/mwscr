@@ -1,0 +1,8 @@
+.title {
+  color: var(--color-text-light);
+}
+
+.divider {
+  width: 100%;
+  margin: 4px 0;
+}

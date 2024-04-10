@@ -3,7 +3,7 @@ import { type Component, createResource, createSignal, For, Show } from 'solid-j
 import { getPostRating, type Post } from '../../entities/post.js';
 import { asArray } from '../../utils/common-utils.js';
 import { Frame } from '../Frame/Frame.jsx';
-import { Tooltip } from '../Tooltip/Tooltip.jsx';
+import { PostTooltip } from '../PostTooltip/PostTooltip.js';
 import styles from './PostPreview.module.css';
 
 const getPreviewUrl = async (url: string | undefined) => {
