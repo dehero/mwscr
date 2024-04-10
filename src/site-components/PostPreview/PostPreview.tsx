@@ -1,8 +1,9 @@
 import clsx from 'clsx';
-import { type Component, createResource, For, Show } from 'solid-js';
+import { type Component, createResource, createSignal, For, Show } from 'solid-js';
 import { getPostRating, type Post } from '../../entities/post.js';
 import { asArray } from '../../utils/common-utils.js';
 import { Frame } from '../Frame/Frame.jsx';
+import { Tooltip } from '../Tooltip/Tooltip.jsx';
 import styles from './PostPreview.module.css';
 
 const getPreviewUrl = async (url: string | undefined) => {
@@ -34,8 +35,10 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
   const urls = () => asArray(props.post.content);
   const rating = () => getPostRating(props.post);
 
+  const [ref, setRef] = createSignal<HTMLElement>();
+
   return (
-    <Frame variant="thick" class={clsx(styles.postPreview, props.class)}>
+    <Frame variant="thick" class={clsx(styles.postPreview, props.class)} ref={setRef}>
       <Show when={urls().length > 1} fallback={<ImagePreview url={urls().at(0)} />}>
         <div class={clsx(styles[props.post.type], styles.setContainer)}>
           <For each={urls()}>
@@ -55,6 +58,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
           </Show>
         </Frame>
       </div>
+      <Tooltip forRef={ref()}>{props.post.title}</Tooltip>
     </Frame>
   );
 };

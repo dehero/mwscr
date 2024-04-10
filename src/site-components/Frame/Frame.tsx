@@ -8,14 +8,16 @@ interface FrameProps extends JSX.CustomAttributes<HTMLElement>, JSX.DOMAttribute
   children?: JSX.Element;
   variant: 'thin' | 'thick' | 'button';
   component?: keyof JSX.IntrinsicElements;
+  style?: JSX.CSSProperties | string;
 }
 
 export const Frame: Component<FrameProps> = (props) => {
-  const [local, rest] = splitProps(props, ['class', 'children', 'variant', 'component']);
+  const [local, rest] = splitProps(props, ['class', 'children', 'variant', 'component', 'style']);
   return (
     <Dynamic
       component={local.component ?? 'div'}
       class={clsx(styles.frame, styles[local.variant], local.class)}
+      style={local.style}
       {...rest}
     >
       {local.children}
