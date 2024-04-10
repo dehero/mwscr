@@ -4,6 +4,7 @@ import { type Component, createResource, createSignal, Show } from 'solid-js';
 import type { Post, PostEntries, PostType } from '../../entities/post.js';
 import { comparePostEntriesById, POST_TYPES } from '../../entities/post.js';
 import { Button } from '../Button/Button.js';
+import { Divider } from '../Divider/Divider.js';
 import { Input } from '../Input/Input.js';
 import { PostPreview } from '../PostPreview/PostPreview.js';
 import { RadioGroup } from '../RadioGroup/RadioGroup.jsx';
@@ -116,6 +117,8 @@ export const App: Component = () => {
           Propose
         </Button>
       </div>
+
+      <Divider />
 
       <Show when={!isLoading()} fallback={isSearching() ? 'Searching...' : 'Loading...'}>
         <div ref={targetVertical} class={styles.scrollContainer}>

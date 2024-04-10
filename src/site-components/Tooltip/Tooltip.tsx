@@ -1,12 +1,13 @@
 import { createPositionToElement, useMousePosition } from '@solid-primitives/mouse';
 import { createElementSize } from '@solid-primitives/resize-observer';
 import clsx from 'clsx';
-import { type Component, createSignal, type JSX, Show } from 'solid-js';
+import type { Component, JSX } from 'solid-js';
+import { createSignal, Show } from 'solid-js';
 import { Portal } from 'solid-js/web';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Tooltip.module.css';
 
-interface TooltipProps {
+export interface TooltipProps {
   class?: string;
   children?: JSX.Element;
   forRef?: Element;

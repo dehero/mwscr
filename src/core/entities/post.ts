@@ -116,6 +116,14 @@ export function getPostRating(post: Post) {
   return ratings.reduce((acc, number) => acc + number, 0) / ratings.length;
 }
 
+export function getPostCommentCount(post: Post) {
+  return post.posts?.reduce(
+    (total, servicePost) =>
+      total + (servicePost.comments?.reduce((total, comment) => total + 1 + (comment.replies?.length ?? 0), 0) ?? 0),
+    0,
+  );
+}
+
 export function getPostFirstPublished(post: Post) {
   return post.posts ? new Date(Math.min(...post.posts.map((post) => post.published.getTime()))) : undefined;
 }
