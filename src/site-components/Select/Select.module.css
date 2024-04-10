@@ -1,0 +1,31 @@
+.wrapper {
+  align-items: center;
+}
+
+.wrapper:after {
+  display: block;
+  content: '';
+  background-image: url(../../../assets/images/select-tick.png);
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 10px;
+  margin-left: -17px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.select {
+  appearance: none;
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 1px 21px 1px 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.option {
+  background: var(--color-background);
+}

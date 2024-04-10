@@ -6,6 +6,7 @@ import { comparePostEntriesById, POST_TYPES } from '../../entities/post.js';
 import { Button } from '../Button/Button.js';
 import { PostPreview } from '../PostPreview/PostPreview.js';
 import { RadioGroup } from '../RadioGroup/RadioGroup.jsx';
+import { Select } from '../Select/Select.js';
 import styles from './App.module.css';
 
 const postChunks = import.meta.glob('../../../data/published/*.yml', { import: 'default' });
@@ -76,6 +77,12 @@ export const App: Component = () => {
     <>
       <div class={styles.header}>
         <div class={styles.title}>Morrowind Screenshots</div>
+        <Select
+          options={[{ value: undefined, label: 'All' }, ...POST_TYPES.map((value) => ({ value }))]}
+          name="postType"
+          value={postType()}
+          onChange={setPostType}
+        />
         <RadioGroup
           options={[{ value: undefined, label: 'All' }, ...POST_TYPES.map((value) => ({ value }))]}
           name="postType"
