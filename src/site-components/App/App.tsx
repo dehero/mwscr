@@ -2,7 +2,7 @@ import type { VirtualItemProps } from '@minht11/solid-virtual-container';
 import { VirtualContainer } from '@minht11/solid-virtual-container';
 import { type Component, createResource, createSignal, Show } from 'solid-js';
 import { isNestedLocation } from '../../entities/location.js';
-import type { Post, PostEntries, PostType } from '../../entities/post.js';
+import type { Post, PostEntries, PostEntry, PostType } from '../../entities/post.js';
 import { comparePostEntriesById, POST_TYPES } from '../../entities/post.js';
 import { Button } from '../Button/Button.js';
 import { Divider } from '../Divider/Divider.js';
@@ -92,7 +92,7 @@ const getLocations = async (): Promise<string[]> => {
   return [...result].sort((a, b) => a.localeCompare(b));
 };
 
-const ListItem: Component<VirtualItemProps<[string, Post | string]>> = (props) => {
+const ListItem: Component<VirtualItemProps<PostEntry<Post>>> = (props) => {
   return (
     <div style={props.style} class={styles.listItem} tabIndex={props.tabIndex} role="listitem">
       <PostPreview post={props.item[1]} />
@@ -130,8 +130,6 @@ export const App: Component = () => {
   const [posts] = createResource(postFilter, getPosts);
   const [tags] = createResource(getTags);
   const [locations] = createResource(getLocations);
-
-  const isLoading = () => isSearching() || posts.loading;
 
   return (
     <>
@@ -172,10 +170,10 @@ export const App: Component = () => {
 
       <Divider />
 
-      <Show when={!isLoading()} fallback={isSearching() ? 'Searching...' : 'Loading...'}>
+      <Show when={!posts.loading} fallback={isSearching() ? 'Searching...' : 'Loading...'}>
         <div ref={targetVertical} class={styles.scrollContainer}>
           <VirtualContainer
-            items={posts()}
+            items={posts() ?? []}
             scrollTarget={targetVertical}
             // Calculate how many grid columns to show.
             crossAxisCount={(measurements) => Math.floor(measurements.container.cross / measurements.itemSize.cross)}
