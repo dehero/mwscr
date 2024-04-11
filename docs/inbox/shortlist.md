@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`3 items`
+`2 items`
 
 ## <span id="natty.2024-03-28-20-25-07">Manwe</span>
 
@@ -27,28 +27,6 @@
 
 ```
 natty.2024-03-28-20-25-07
-```
-
-## <span id="natty.2024-03-10-16-22-51">Hero&#39;s Skeleton</span>
-
-`RU` Скелет героя
-
-![store:/inbox/natty.2024-03-10-16-22-51.3.png](../../assets/previews/inbox/natty.2024-03-10-16-22-51.3.avif "natty.2024-03-10-16-22-51.3")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/natty.2024-03-10-16-22-51.png](../../assets/previews/inbox/natty.2024-03-10-16-22-51.avif "natty.2024-03-10-16-22-51")
-![store:/inbox/natty.2024-03-10-16-22-51.1.png](../../assets/previews/inbox/natty.2024-03-10-16-22-51.1.avif "natty.2024-03-10-16-22-51.1")
-![store:/inbox/natty.2024-03-10-16-22-51.2.png](../../assets/previews/inbox/natty.2024-03-10-16-22-51.2.avif "natty.2024-03-10-16-22-51.2")
-</details>
-
-`shot` by [Natty](../contributors.md#natty)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-16-22-51&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-16-22-51.3.png&amp;postTitle=Hero%27s+Skeleton&amp;postTitleRu=%D0%A1%D0%BA%D0%B5%D0%BB%D0%B5%D1%82+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=skeleton+dwemer&amp;postLocation=Endusal%2C+Kagrenac%27s+study&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-03-10-16-22-51.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-16-22-51.1.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-16-22-51.2.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-16-22-51) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-16-22-51) `B1` `📍 Endusal, Kagrenac's study` `🚀 OpenMW` `skeleton` `dwemer`
-
-```
-natty.2024-03-10-16-22-51
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>

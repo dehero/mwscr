@@ -4,7 +4,37 @@
 
 # Published in 2024
 
-`44 items`
+`45 items`
+
+## <span id="2024-04-11.heros-skeleton">Hero&#39;s Skeleton</span>
+
+`RU` Скелет героя
+
+<a href="https://instagram.com/p/C5oYU4kunXC/" title="2024-04-11.heros-skeleton"><img alt="store:/shots/2024-04-11.heros-skeleton.png" src="../../assets/previews/shots/2024-04-11.heros-skeleton.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/natty.2024-03-10-16-22-51.1.png](../../assets/previews/trash/natty.2024-03-10-16-22-51.1.avif "natty.2024-03-10-16-22-51.1")
+![store:/trash/natty.2024-03-10-16-22-51.2.png](../../assets/previews/trash/natty.2024-03-10-16-22-51.2.avif "natty.2024-03-10-16-22-51.2")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B1` `📍 Endusal, Kagrenac's study` `🚀 OpenMW` `skeleton` `dwemer`
+
+```
+2024-04-11.heros-skeleton
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |      1412 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |       911 |
+| [`tg`](https://t.me/mwscr/375)                     | 2024-04-11 |       352 |
+|                                                    |            |      2675 |
 
 ## <span id="2024-04-10.sun-mushrooms">Sun Mushrooms</span>
 
@@ -24,10 +54,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   192 |    58 |      1411 |   4.11 |
+| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   195 |    59 |      1411 |   4.18 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |   129 |    19 |       911 |   2.09 |
 | [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   109 |    38 |       353 |  10.76 |
-|                                                    |            |   430 |   115 |      2675 |   5.65 |
+|                                                    |            |   433 |   116 |      2675 |   5.68 |
 
 ## <span id="2024-04-09.telvanni-council-house">Telvanni Council House</span>
 
