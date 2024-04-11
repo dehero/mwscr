@@ -3,7 +3,15 @@ import { VirtualContainer } from '@minht11/solid-virtual-container';
 import { type Component, createResource, createSignal, Show } from 'solid-js';
 import { isNestedLocation } from '../../entities/location.js';
 import type { Post, PostEntries, PostEntry, PostType } from '../../entities/post.js';
-import { comparePostEntriesById, POST_TYPES } from '../../entities/post.js';
+import {
+  comparePostEntriesById,
+  comparePostEntriesByLikes,
+  comparePostEntriesByRating,
+  comparePostEntriesByViews,
+  POST_TYPES,
+} from '../../entities/post.js';
+import { getUserName } from '../../site-data-managers/users.js';
+import { asArray } from '../../utils/common-utils.js';
 import { Button } from '../Button/Button.js';
 import { Divider } from '../Divider/Divider.js';
 import { Input } from '../Input/Input.js';
@@ -14,11 +22,22 @@ import styles from './App.module.css';
 
 const postChunks = import.meta.glob('../../../data/published/*.yml', { import: 'default' });
 
+const comparators = [
+  { value: 'id', label: 'ID', fn: comparePostEntriesById },
+  { value: 'likes', label: 'Likes', fn: comparePostEntriesByLikes },
+  { value: 'views', label: 'Views', fn: comparePostEntriesByViews },
+  { value: 'rating', label: 'Rating', fn: comparePostEntriesByRating },
+] as const;
+
+type ComparatorKey = (typeof comparators)[number]['value'];
+
 interface PostsFilter {
   type?: PostType;
   tag?: string;
   location?: string; // | null;
   search?: string;
+  author?: string;
+  sortKey: ComparatorKey;
 }
 
 const getPosts = async (filter: PostsFilter): Promise<PostEntries> => {
@@ -44,17 +63,21 @@ const getPosts = async (filter: PostsFilter): Promise<PostEntries> => {
     }
   }
 
+  const comparator =
+    comparators.find((comparator) => comparator.value === filter.sortKey)?.fn ?? comparePostEntriesById;
+
   return [...result.entries()]
     .filter(
       ([, post]) =>
         (typeof filter.type === 'undefined' || post.type === filter.type) &&
         (typeof filter.tag === 'undefined' || post.tags?.includes(filter.tag)) &&
+        (typeof filter.author === 'undefined' || asArray(post.author).includes(filter.author)) &&
         (typeof filter.location === 'undefined' ||
           (post.location && isNestedLocation(post.location, filter.location))) &&
         (typeof filter.search === 'undefined' ||
           post.title?.toLocaleLowerCase()?.includes(filter.search.toLocaleLowerCase())),
     )
-    .sort(comparePostEntriesById('desc'));
+    .sort(comparator('desc'));
 };
 
 const getTags = async (): Promise<string[]> => {
@@ -92,6 +115,21 @@ const getLocations = async (): Promise<string[]> => {
   return [...result].sort((a, b) => a.localeCompare(b));
 };
 
+const getUsers = async (): Promise<string[]> => {
+  const result: Set<string> = new Set();
+
+  for (const chunk of Object.values(postChunks)) {
+    const posts = Object.values((await chunk()) as Record<string, Post | string>);
+    for (const post of posts) {
+      if (typeof post !== 'string') {
+        asArray(post.author).forEach((author) => result.add(author));
+      }
+    }
+  }
+
+  return [...result].sort((a, b) => a.localeCompare(b));
+};
+
 const ListItem: Component<VirtualItemProps<PostEntry<Post>>> = (props) => {
   return (
     <div style={props.style} class={styles.listItem} tabIndex={props.tabIndex} role="listitem">
@@ -117,7 +155,9 @@ export const App: Component = () => {
   const [postType, setPostType] = createSignal<PostType | undefined>();
   const [postTag, setPostTag] = createSignal<string | undefined>();
   const [postLocation, setPostLocation] = createSignal<string | undefined>();
+  const [postAuthor, setPostAuthor] = createSignal<string | undefined>();
   const [searchTerm, setSearchTerm] = createSignal<string | undefined>();
+  const [sortKey, setSortKey] = createSignal<ComparatorKey>('id');
   const [isSearching, setIsSearching] = createSignal(false);
 
   const postFilter = (): PostsFilter => ({
@@ -125,40 +165,20 @@ export const App: Component = () => {
     location: postLocation(),
     tag: postTag(),
     search: searchTerm(),
+    sortKey: sortKey(),
+    author: postAuthor(),
   });
 
   const [posts] = createResource(postFilter, getPosts);
   const [tags] = createResource(getTags);
   const [locations] = createResource(getLocations);
+  const [users] = createResource(getUsers);
 
   return (
     <>
       <div class={styles.header}>
         <div class={styles.title}>Morrowind Screenshots</div>
-        <Input
-          value={searchTerm()}
-          onChange={() => setIsSearching(true)}
-          onDebouncedChange={(value) => {
-            setSearchTerm(value);
-            setIsSearching(false);
-          }}
-        />
-        <Select
-          options={[{ value: undefined, label: 'All' }, ...(locations()?.map((value) => ({ value })) ?? [])]}
-          value={postLocation()}
-          onChange={setPostLocation}
-        />
-        <Select
-          options={[{ value: undefined, label: 'All' }, ...(tags()?.map((value) => ({ value })) ?? [])]}
-          value={postTag()}
-          onChange={setPostTag}
-        />
-        <RadioGroup
-          options={[{ value: undefined, label: 'All' }, ...POST_TYPES.map((value) => ({ value }))]}
-          name="postType"
-          value={postType()}
-          onChange={setPostType}
-        />
+
         <Button
           // TODO: use github-issue-resolvers
           href="https://github.com/dehero/mwscr/issues/new?labels=proposal&template=proposal.yml"
@@ -167,6 +187,51 @@ export const App: Component = () => {
           Propose
         </Button>
       </div>
+
+      <form class={styles.filter}>
+        <RadioGroup
+          options={[{ value: undefined, label: 'All' }, ...POST_TYPES.map((value) => ({ value }))]}
+          name="postType"
+          value={postType()}
+          onChange={setPostType}
+        />
+        <Select
+          label="Location"
+          options={[{ value: undefined, label: 'All' }, ...(locations()?.map((value) => ({ value })) ?? [])]}
+          value={postLocation()}
+          onChange={setPostLocation}
+        />
+        <Select
+          label="Tag"
+          options={[{ value: undefined, label: 'All' }, ...(tags()?.map((value) => ({ value })) ?? [])]}
+          value={postTag()}
+          onChange={setPostTag}
+        />
+        <Select
+          label="Author"
+          options={[
+            { value: undefined, label: 'All' },
+            ...(users()?.map((value) => ({ value, label: getUserName(value) })) ?? []),
+          ]}
+          value={postAuthor()}
+          onChange={setPostAuthor}
+        />
+        <Select
+          label="Order By"
+          options={comparators.map(({ value, label }) => ({ value, label }))}
+          value={sortKey()}
+          onChange={setSortKey}
+        />
+        <Input
+          label="Search"
+          value={searchTerm()}
+          onChange={() => setIsSearching(true)}
+          onDebouncedChange={(value) => {
+            setSearchTerm(value);
+            setIsSearching(false);
+          }}
+        />
+      </form>
 
       <Divider />
 

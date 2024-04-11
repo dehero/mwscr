@@ -1,12 +1,13 @@
 import { debounce } from '@solid-primitives/scheduled';
 import clsx from 'clsx';
-import { type Component, createSignal } from 'solid-js';
+import { type Component, createSignal, Show } from 'solid-js';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Input.module.css';
 
 interface InputProps {
   class?: string;
   name?: string;
+  label?: string;
   onChange?: (value: string) => void;
   onDebouncedChange?: (value: string) => void;
   value?: string;
@@ -26,13 +27,18 @@ export const Input: Component<InputProps> = (props) => {
   };
 
   return (
-    <Frame component="label" variant="thin" class={clsx(styles.wrapper, props.class)}>
-      <input
-        class={styles.input}
-        name={props.name}
-        onInput={(e) => handleInput(e.target.value)}
-        value={localValue() || ''}
-      />
-    </Frame>
+    <label class={clsx(styles.container, props.class)}>
+      <Show when={props.label}>
+        <span class={styles.label}>{props.label}</span>
+      </Show>
+      <Frame variant="thin">
+        <input
+          class={styles.input}
+          name={props.name}
+          onInput={(e) => handleInput(e.target.value)}
+          value={localValue() || ''}
+        />
+      </Frame>
+    </label>
   );
 };

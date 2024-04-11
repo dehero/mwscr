@@ -1,3 +1,15 @@
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 6px;
+  align-items: baseline;
+}
+
+.label {
+  color: var(--color-text);
+  white-space: nowrap;
+}
+
 .wrapper {
   align-items: center;
 }
@@ -23,7 +35,6 @@
   font-family: inherit;
   padding: 1px 21px 1px 4px;
   outline: none;
-  cursor: pointer;
 }
 
 .select:focus,
