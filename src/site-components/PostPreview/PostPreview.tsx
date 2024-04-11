@@ -28,7 +28,11 @@ interface PostPreviewProps {
 const ImagePreview: Component<{ url: string | undefined }> = (props) => {
   const [src] = createResource(() => props.url, getPreviewUrl);
 
-  return <img src={src()} class={styles.image} />;
+  return (
+    <Show when={!src.loading} fallback={<div class={styles.image} />}>
+      <img src={src()} class={styles.image} />
+    </Show>
+  );
 };
 
 export const PostPreview: Component<PostPreviewProps> = (props) => {
@@ -58,7 +62,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
           </Show>
         </Frame>
       </div>
-      <Tooltip forRef={ref()}>{props.post.title}</Tooltip>
+      <PostTooltip forRef={ref()} post={props.post} />
     </Frame>
   );
 };

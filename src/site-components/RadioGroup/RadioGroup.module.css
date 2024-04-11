@@ -1,18 +1,30 @@
 .group {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   gap: 4px;
 }
 
 .option {
   padding: 0 8px;
+  flex-shrink: 0;
+  color: var(--color-text);
+  outline: none;
+}
+
+.option:focus,
+.option:hover {
+  color: var(--color-text-hover);
 }
 
 .radio {
   display: none;
-  cursor: pointer;
 }
 
 .radio:checked + .label {
   color: var(--color-text-selected);
+}
+
+.radio:checked + .label:hover,
+.radio:checked + .label:focus {
+  color: var(--color-text-selected-hover);
 }

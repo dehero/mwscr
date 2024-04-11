@@ -10,5 +10,6 @@
 }
 
 input::selection {
-  background: var(--color-background-selected);
+  background: var(--color-background);
+  color: var(--color-text-selected-input);
 }

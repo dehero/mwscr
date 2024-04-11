@@ -9,6 +9,7 @@ interface FrameProps extends JSX.CustomAttributes<HTMLElement>, JSX.DOMAttribute
   variant: 'thin' | 'thick' | 'button';
   component?: keyof JSX.IntrinsicElements;
   style?: JSX.CSSProperties | string;
+  tabIndex?: number;
 }
 
 export const Frame: Component<FrameProps> = (props) => {

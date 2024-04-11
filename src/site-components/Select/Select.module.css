@@ -26,6 +26,12 @@
   cursor: pointer;
 }
 
+.select:focus,
+.select:hover {
+  color: var(--color-text-hover);
+}
+
 .option {
   background: var(--color-background);
+  color: var(--color-text);
 }

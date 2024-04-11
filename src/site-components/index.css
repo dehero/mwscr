@@ -6,7 +6,10 @@
 :root {
   --color-text: #caa560;
   --color-text-light: #dfc89e;
+  --color-text-hover: var(--color-text-light);
   --color-text-selected: #6070ca;
+  --color-text-selected-hover: #9ea8df;
+  --color-text-selected-input: #355a9f;
   --color-background: #000000;
   --color-background-selected: #2c3461;
   font-family: MysticCards;
