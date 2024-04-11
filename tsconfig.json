@@ -21,18 +21,6 @@
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
     "isolatedModules": true,
-    "types": [
-      "node",
-      "vite/client",
-      "decompress",
-      "escape-html",
-      "js-yaml",
-      "mime",
-      "relateurl",
-      "sharp",
-      "ya-disk",
-      "@modyfi/vite-plugin-yaml/modules"
-    ],
     "lib": [
       "ESNext",
       "DOM"
