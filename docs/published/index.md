@@ -24,10 +24,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   180 |    55 |      1411 |    3.9 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |   120 |    18 |       911 |   1.98 |
-| [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   104 |    38 |       353 |  10.76 |
-|                                                    |            |   404 |   111 |      2675 |   5.55 |
+| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   182 |    57 |      1411 |   4.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |   122 |    18 |       911 |   1.98 |
+| [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   106 |    38 |       353 |  10.76 |
+|                                                    |            |   410 |   113 |      2675 |   5.59 |
 
 ## <span id="2024-04-09.telvanni-council-house">Telvanni Council House</span>
 
