@@ -1,11 +1,17 @@
 import { type Component, Show, splitProps } from 'solid-js';
+import users from '../../../data/users.yml';
 import { getPostCommentCount, getPostRating, type Post } from '../../entities/post.js';
+import { asArray } from '../../utils/common-utils.js';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './PostTooltip.module.css';
 
 interface PostTooltipProps extends Omit<TooltipProps, 'children'> {
   post: Post;
+}
+
+function getUserName(userId: string) {
+  return users[userId]?.name ?? userId;
 }
 
 export const PostTooltip: Component<PostTooltipProps> = (props) => {
@@ -20,6 +26,9 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       {/* <Divider class={styles.divider} /> */}
       <Show when={local.post.type}>
         <span class={styles.type}>Type: {local.post.type}</span>
+      </Show>
+      <Show when={local.post.author}>
+        <span class={styles.author}>Author: {asArray(local.post.author).map(getUserName).join(', ')}</span>
       </Show>
       <Show when={local.post.location}>
         <span class={styles.location}>Location: {local.post.location}</span>
