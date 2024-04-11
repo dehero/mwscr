@@ -30,3 +30,13 @@ body {
   flex-direction: column;
   box-sizing: border-box;
 }
+
+a {
+  color: var(--color-text-selected);
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: var(--color-text-selected-hover);
+}

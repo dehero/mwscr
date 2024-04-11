@@ -13,7 +13,7 @@ interface RadioGroupProps<T> {
   options: RadioGroupOption<T>[];
   name: string;
   label?: string;
-  onChange: (value: T | undefined) => void;
+  onChange?: (value: T | undefined) => void;
   value?: T | undefined;
 }
 
@@ -31,7 +31,7 @@ export function RadioGroup<T extends string>(props: RadioGroupProps<T>) {
               value={option.value ?? ''}
               name={props.name}
               checked={props.value === option.value}
-              onChange={(e) => props.onChange((e.target.value || undefined) as T | undefined)}
+              onChange={(e) => props.onChange?.((e.target.value || undefined) as T | undefined)}
               class={styles.radio}
             />
             <span class={styles.label}>{option.label || option.value}</span>

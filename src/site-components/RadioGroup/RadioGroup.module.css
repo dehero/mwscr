@@ -22,15 +22,19 @@
   color: var(--color-text-hover);
 }
 
+.optionLabel {
+  white-space: nowrap;
+}
+
 .radio {
   display: none;
 }
 
-.radio:checked + .label {
+.radio:checked + .optionLabel {
   color: var(--color-text-selected);
 }
 
-.radio:checked + .label:hover,
-.radio:checked + .label:focus {
+.radio:checked + .optionLabel:hover,
+.radio:checked + .optionLabel:focus {
   color: var(--color-text-selected-hover);
 }

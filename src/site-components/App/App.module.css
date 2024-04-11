@@ -14,31 +14,16 @@
   white-space: nowrap;
 }
 
-.filter {
+.nav {
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  gap: 16px;
-  padding: 8px 12px;
-  flex-shrink: 0;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  gap: 4px;
 }
 
-.scrollContainer {
+.main {
+  display: flex;
   flex-grow: 1;
-  overflow-y: auto;
-  width: 100%;
-  height: 100%;
-  padding: 8px 8px 8px 12px;
-  box-sizing: border-box;
-  /* Make scroller composited for faster scrolling,
-   * the downside of that is that on lower
-   * end devices Browser will scroll first and
-   * then render DOM, making some content flash white.
-   */
-  will-change: transform;
-}
-
-.listItem {
-  padding: 4px;
-  outline: none;
+  flex-direction: column;
+  overflow: hidden;
 }

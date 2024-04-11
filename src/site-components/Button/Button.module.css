@@ -15,3 +15,12 @@
 .button:hover {
   color: var(--color-text-hover);
 }
+
+.buttonActive {
+  color: var(--color-text-selected);
+}
+
+.buttonActive:focus,
+.buttonActive:hover {
+  color: var(--color-text-selected-hover);
+}
