@@ -21,7 +21,7 @@ export function RadioGroup<T extends string>(props: RadioGroupProps<T>) {
     <div class={clsx(styles.group, props.class)}>
       <For each={props.options}>
         {(option) => (
-          <Frame component="label" variant="button" class={styles.option}>
+          <Frame component="label" variant="button" class={styles.option} tabIndex={0}>
             <input
               type="radio"
               value={option.value ?? ''}

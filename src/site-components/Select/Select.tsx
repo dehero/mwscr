@@ -11,7 +11,7 @@ interface SelectOption<T> {
 interface SelectProps<T> {
   class?: string;
   options: SelectOption<T>[];
-  name: string;
+  name?: string;
   onChange: (value: T | undefined) => void;
   value?: T | undefined;
 }

@@ -7,4 +7,11 @@
   font-family: inherit;
   font-size: inherit;
   text-decoration: none;
+  outline: none;
+  color: var(--color-text);
+}
+
+.button:focus,
+.button:hover {
+  color: var(--color-text-hover);
 }
