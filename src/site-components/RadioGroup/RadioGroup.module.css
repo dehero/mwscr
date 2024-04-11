@@ -1,7 +1,13 @@
-.group {
+.container {
   display: flex;
   flex-flow: row nowrap;
   gap: 4px;
+  align-items: baseline;
+}
+
+.label {
+  color: var(--color-text);
+  white-space: nowrap;
 }
 
 .option {

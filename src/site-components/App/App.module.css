@@ -4,11 +4,23 @@
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 4px;
+  padding: 4px 12px;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 
 .title {
   display: inline-flex;
+  white-space: nowrap;
+}
+
+.filter {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 12px;
+  flex-shrink: 0;
 }
 
 .scrollContainer {

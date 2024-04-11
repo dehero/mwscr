@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { For } from 'solid-js';
+import { For, Show } from 'solid-js';
 import { Frame } from '../Frame/Frame.js';
 import styles from './RadioGroup.module.css';
 
@@ -12,13 +12,17 @@ interface RadioGroupProps<T> {
   class?: string;
   options: RadioGroupOption<T>[];
   name: string;
+  label?: string;
   onChange: (value: T | undefined) => void;
   value?: T | undefined;
 }
 
 export function RadioGroup<T extends string>(props: RadioGroupProps<T>) {
   return (
-    <div class={clsx(styles.group, props.class)}>
+    <div class={clsx(styles.container, props.class)}>
+      <Show when={props.label}>
+        <span class={styles.label}>{props.label}</span>
+      </Show>
       <For each={props.options}>
         {(option) => (
           <Frame component="label" variant="button" class={styles.option} tabIndex={0}>
