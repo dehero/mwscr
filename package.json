@@ -50,6 +50,7 @@
     "@solid-primitives/mouse": "^2.0.19",
     "@solid-primitives/resize-observer": "^2.0.25",
     "@solid-primitives/scheduled": "^1.4.3",
+    "@solidjs/router": "^0.13.2",
     "clsx": "^2.1.0",
     "commit-and-tag-version": "^12.2.0",
     "decompress": "^4.2.1",

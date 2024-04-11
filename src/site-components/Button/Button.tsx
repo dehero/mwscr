@@ -8,12 +8,18 @@ interface ButtonProps extends JSX.CustomAttributes<HTMLElement>, JSX.DOMAttribut
   children?: JSX.Element;
   href?: string;
   target?: string;
+  active?: boolean;
 }
 
 export const Button: Component<ButtonProps> = (props) => {
-  const [local, rest] = splitProps(props, ['class', 'children']);
+  const [local, rest] = splitProps(props, ['class', 'children', 'active']);
   return (
-    <Frame variant="button" component={props.href ? 'a' : 'button'} class={clsx(styles.button, local.class)} {...rest}>
+    <Frame
+      variant="button"
+      component={props.href ? 'a' : 'button'}
+      class={clsx(styles.button, local.active && styles.buttonActive, local.class)}
+      {...rest}
+    >
       {local.children}
     </Frame>
   );
