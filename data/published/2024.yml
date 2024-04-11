@@ -544,17 +544,17 @@
       id: C4yS859trAy
       mediaId: '18428112445030912'
       published: 2024-03-21-18-11-15
-      updated: 2024-04-04-21-10-44
+      updated: 2024-04-11-21-13-17
       followers: 1394
       likes: 108
-      views: 448
+      views: 456
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2024-04-04-21-10-44
+      updated: 2024-04-11-21-13-18
       followers: 896
-      likes: 40
-      views: 263
+      likes: 41
+      views: 271
       reposts: 1
       comments: !c |-
         CyeAkpPLQnjmJFLwgACnaWFtd2l0ZK7QkNC70YzQtNGA0YPQvZPLQnjmUaoeAACobW9ydHdha2W5
@@ -562,10 +562,10 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2024-04-04-21-10-44
+      updated: 2024-04-11-21-13-17
       followers: 352
       likes: 56
-      views: 346
+      views: 371
       comments: !c |-
         CymAkZTLQnjmKMfPAACpR2F0ZW1hdGU32SZ0aGlzIGlzIGEgbWFzb25pYyBsb2RnZT8gbm90IG1v
         cnJvd2luZJPLQnjmKXtAgAClYW5zaXOlaGFoYWgD
@@ -986,24 +986,24 @@
       id: C5lzx5zyeUS
       mediaId: '18015780446252146'
       published: 2024-04-10-18-19-23
-      updated: 2024-04-11-20-14-52
+      updated: 2024-04-11-21-13-15
       followers: 1411
       likes: 60
       views: 199
     - service: vk
       id: 1489
       published: 2024-04-10-18-19-29
-      updated: 2024-04-11-20-14-52
+      updated: 2024-04-11-21-13-16
       followers: 911
       likes: 20
       views: 133
     - service: tg
       id: 374
       published: 2024-04-10-18-19-36
-      updated: 2024-04-11-20-14-52
+      updated: 2024-04-11-21-13-16
       followers: 353
       likes: 41
-      views: 126
+      views: 129
 2024-04-11.heros-skeleton:
   title: Hero's Skeleton
   titleRu: Скелет героя
@@ -1024,21 +1024,21 @@
       id: C5oYU4kunXC
       mediaId: '18046854784659987'
       published: 2024-04-11-18-17-11
-      updated: 2024-04-11-20-14-51
+      updated: 2024-04-11-21-13-15
       followers: 1412
-      likes: 38
-      views: 102
+      likes: 48
+      views: 129
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2024-04-11-20-14-52
+      updated: 2024-04-11-21-13-15
       followers: 911
-      likes: 9
-      views: 47
+      likes: 10
+      views: 58
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2024-04-11-20-14-52
+      updated: 2024-04-11-21-13-16
       followers: 352
-      likes: 25
-      views: 66
+      likes: 29
+      views: 78
