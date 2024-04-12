@@ -31,10 +31,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   256 |    74 |      1412 |   5.24 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |   117 |    19 |       911 |   2.09 |
-| [`tg`](https://t.me/mwscr/375)                     | 2024-04-11 |   107 |    45 |       352 |  12.78 |
-|                                                    |            |   480 |   138 |      2675 |    6.7 |
+| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   263 |    75 |      1412 |   5.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |   118 |    19 |       911 |   2.09 |
+| [`tg`](https://t.me/mwscr/375)                     | 2024-04-11 |   109 |    46 |       352 |  13.07 |
+|                                                    |            |   490 |   140 |      2675 |   6.82 |
 
 ## <span id="2024-04-10.sun-mushrooms">Sun Mushrooms</span>
 
@@ -55,9 +55,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   212 |    60 |      1411 |   4.25 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |   140 |    21 |       911 |   2.31 |
-| [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   139 |    45 |       353 |  12.75 |
-|                                                    |            |   491 |   126 |      2675 |   6.44 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |   142 |    22 |       911 |   2.41 |
+| [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   140 |    45 |       353 |  12.75 |
+|                                                    |            |   494 |   127 |      2675 |   6.47 |
 
 ## <span id="2024-04-09.telvanni-council-house">Telvanni Council House</span>
 
@@ -782,7 +782,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-18.evening-on-azuras-coast)</code> `🚀 OpenMW` `nofilter` `coast` `mudcrab`
+`B1` `📍 Azura's Coast Region` `🚀 OpenMW` `nofilter` `coast` `mudcrab`
 
 ```
 2024-03-18.evening-on-azuras-coast
@@ -1197,7 +1197,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-05.mzahnch-at-sunset)</code> `🚀 OpenMW` `dwemer` `towers` `sunset`
+`B1` `📍 Mzahnch` `🚀 OpenMW` `dwemer` `towers` `sunset`
 
 ```
 2024-03-05.mzahnch-at-sunset
