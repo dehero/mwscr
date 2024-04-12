@@ -31,12 +31,12 @@ body {
   box-sizing: border-box;
 }
 
-a {
+.markdown-body a {
   color: var(--color-text-selected);
   text-decoration: none;
 }
 
-a:focus,
-a:hover {
+.markdown-body a:focus,
+.markdown-body a:hover {
   color: var(--color-text-selected-hover);
 }

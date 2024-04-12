@@ -38,10 +38,13 @@
     "eslint-plugin-require-extensions": "^0.1.3",
     "github-webhook-event-types": "^1.2.1",
     "prettier": "^3.0.0",
+    "remark-gfm": "^3.0.1",
     "ts-node-test": "^0.4.3",
+    "unist-util-visit": "^5.0.0",
     "vite": "^5.2.8",
     "vite-plugin-plain-text": "^1.4.2",
-    "vite-plugin-solid": "^2.10.2"
+    "vite-plugin-solid": "^2.10.2",
+    "vite-plugin-solid-markdown": "^0.0.6"
   },
   "dependencies": {
     "@googleapis/youtube": "^13.1.0",
