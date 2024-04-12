@@ -31,10 +31,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   240 |    69 |      1412 |   4.89 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |   109 |    17 |       911 |   1.87 |
+| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   248 |    71 |      1412 |   5.03 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |   113 |    17 |       911 |   1.87 |
 | [`tg`](https://t.me/mwscr/375)                     | 2024-04-11 |   105 |    45 |       352 |  12.78 |
-|                                                    |            |   454 |   131 |      2675 |   6.51 |
+|                                                    |            |   466 |   133 |      2675 |   6.56 |
 
 ## <span id="2024-04-10.sun-mushrooms">Sun Mushrooms</span>
 
@@ -54,10 +54,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   210 |    60 |      1411 |   4.25 |
+| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   211 |    60 |      1411 |   4.25 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |   139 |    21 |       911 |   2.31 |
 | [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   137 |    45 |       353 |  12.75 |
-|                                                    |            |   486 |   126 |      2675 |   6.44 |
+|                                                    |            |   487 |   126 |      2675 |   6.44 |
 
 ## <span id="2024-04-09.telvanni-council-house">Telvanni Council House</span>
 
