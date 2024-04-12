@@ -866,10 +866,10 @@
       id: C5bgTjdu9Go
       mediaId: '18180074419295799'
       published: 2024-04-06-18-16-47
-      updated: 2024-04-11-19-11-03
+      updated: 2024-04-12-19-12-29
       followers: 1406
-      likes: 103
-      views: 386
+      likes: 106
+      views: 393
       comments: !c |-
         G6UA4I2ULuLexDVfpDA5Gr8XiTv/bhsmbbTz2VCKpss2u2U3ONHAvKjFBg1kAF1t3Hl4vX1FTxFj
         b9fb+vC/gF8AeOhru3pN1lMLDcdUfTVyqYM8b8LMp1C9bdB5C60iI3JbuNl6R5HhQCLxrMMmiOXX
@@ -877,18 +877,18 @@
     - service: vk
       id: 1484
       published: 2024-04-06-18-16-53
-      updated: 2024-04-11-19-11-04
+      updated: 2024-04-12-19-12-30
       followers: 909
       likes: 43
-      views: 248
+      views: 252
       reposts: 1
     - service: tg
       id: 370
       published: 2024-04-06-18-17-00
-      updated: 2024-04-11-19-11-03
+      updated: 2024-04-12-19-12-29
       followers: 354
       likes: 62
-      views: 216
+      views: 225
 2024-04-07.sheogorad: 2016-11-21.sheogorad
 2024-04-08.lava-fork:
   title: Lava Fork
@@ -912,25 +912,25 @@
       id: C5gqOIYx--3
       mediaId: '18054903520526028'
       published: 2024-04-08-18-19-40
-      updated: 2024-04-11-19-11-02
+      updated: 2024-04-12-19-12-28
       followers: 1409
-      likes: 124
-      views: 398
+      likes: 125
+      views: 408
     - service: vk
       id: 1487
       published: 2024-04-08-18-19-47
-      updated: 2024-04-11-19-11-03
+      updated: 2024-04-12-19-12-29
       followers: 909
       likes: 27
-      views: 145
+      views: 147
       reposts: 1
     - service: tg
       id: 372
       published: 2024-04-08-18-19-56
-      updated: 2024-04-11-19-11-03
+      updated: 2024-04-12-19-12-29
       followers: 354
-      likes: 53
-      views: 171
+      likes: 54
+      views: 190
 2024-04-09.telvanni-council-house:
   title: Telvanni Council House
   titleRu: Дом Совета Телванни
@@ -1024,22 +1024,22 @@
       id: C5oYU4kunXC
       mediaId: '18046854784659987'
       published: 2024-04-11-18-17-11
-      updated: 2024-04-12-18-14-28
+      updated: 2024-04-12-19-12-28
       followers: 1412
       likes: 77
-      views: 291
+      views: 292
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2024-04-12-18-14-28
+      updated: 2024-04-12-19-12-28
       followers: 911
       likes: 21
-      views: 126
+      views: 128
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2024-04-12-18-14-28
+      updated: 2024-04-12-19-12-28
       followers: 352
-      likes: 46
-      views: 114
+      likes: 48
+      views: 122
 2024-04-12.sadrith-mora-gateway-inn: 2017-01-19.sadrith-mora-gateway-inn
