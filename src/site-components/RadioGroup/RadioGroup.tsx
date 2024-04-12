@@ -34,7 +34,7 @@ export function RadioGroup<T extends string>(props: RadioGroupProps<T>) {
               onChange={(e) => props.onChange?.((e.target.value || undefined) as T | undefined)}
               class={styles.radio}
             />
-            <span class={styles.label}>{option.label || option.value}</span>
+            <span class={styles.optionLabel}>{option.label || option.value}</span>
           </Frame>
         )}
       </For>
