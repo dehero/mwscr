@@ -1,4 +1,4 @@
 import 'dotenv/config';
-import { checkPostContents } from './functions/check-post-contents.js';
+import { checkPosts } from './functions/check-posts.js';
 
-await checkPostContents();
+await checkPosts();
