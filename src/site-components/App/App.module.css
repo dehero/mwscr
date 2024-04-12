@@ -11,6 +11,7 @@
 
 .title {
   display: inline-flex;
+  gap: 4px;
   white-space: nowrap;
 }
 

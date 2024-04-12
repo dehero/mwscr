@@ -14,7 +14,9 @@ export const App: Component<AppProps> = (props) => {
   return (
     <>
       <header class={styles.header}>
-        <span class={styles.title}>Morrowind Screenshots</span>
+        <span class={styles.title}>
+          <img src="/icon.png" width={16} height={16} /> Morrowind Screenshots
+        </span>
 
         <nav class={styles.nav}>
           <For each={routes}>

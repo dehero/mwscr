@@ -9,6 +9,7 @@ import { YAML_SCHEMA } from './src/data-managers/utils/yaml.js';
 // eslint-disable-next-line import/no-default-export
 export default defineConfig({
   root: 'src/site-components',
+  publicDir: '../../assets',
   plugins: [
     solidPlugin(),
     yamlPlugin({ schema: YAML_SCHEMA }),
