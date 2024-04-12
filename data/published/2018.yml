@@ -1,6 +1,7 @@
 2018-01-01.reloth-ancestral-tomb:
   title: Reloth Ancestral Tomb
   titleRu: Родовая гробница Релотов
+  location: Reloth Ancestral Tomb
   content: store:/shots/2018-01-01.reloth-ancestral-tomb.png
   type: shot
   author: dehero
@@ -25,6 +26,7 @@
 2018-01-02.nchuleftingth:
   title: Nchuleftingth
   titleRu: Нчулефтингт
+  location: Nchuleftingth
   content: store:/shots/2018-01-02.nchuleftingth.png
   type: shot
   author: dehero
@@ -99,6 +101,7 @@
 2018-01-05.guards-of-skyrim-mission-in-ebonheart:
   title: Guards of Skyrim Mission in Ebonheart
   titleRu: Стража миссии Скайрима в Эбенгарде
+  location: Ebonheart, Skyrim Mission
   content: store:/shots/2018-01-05.guards-of-skyrim-mission-in-ebonheart.png
   type: shot
   author: dehero
@@ -155,6 +158,7 @@
 2018-01-07.vistha-kai-warden-of-the-corprusarium:
   title: Vistha-Kai, Warden of the Corprusarium
   titleRu: Виста-Кай, смотритель Корпрусариума
+  location: Corprusarium
   content: store:/shots/2018-01-07.vistha-kai-warden-of-the-corprusarium.png
   type: shot
   author: dehero
@@ -182,6 +186,7 @@
 2018-01-08.aqueduct-of-old-mournhold:
   title: Aqueduct of Old Mournhold
   titleRu: Акведук Старого Морнхолда
+  location: 'Old Mournhold: Moril Manor, Courtyard'
   content: store:/shots/2018-01-08.aqueduct-of-old-mournhold.png
   type: shot
   author: dehero
@@ -315,6 +320,7 @@
 2018-01-13.coming-to-balmora:
   title: Coming to Balmora
   titleRu: Прибытие в Балмору
+  location: Balmora
   content: store:/shots/2018-01-13.coming-to-balmora.png
   type: shot
   author: dehero
@@ -418,6 +424,7 @@
 2018-01-17.nelas-ancestral-tomb:
   title: Nelas Ancestral Tomb
   titleRu: Родовая гробница Неласов
+  location: Nelas Ancestral Tomb
   content: store:/shots/2018-01-17.nelas-ancestral-tomb.png
   type: shot
   author: dehero
@@ -522,6 +529,7 @@
 2018-01-21.dwemer-tower-of-dagon-fel:
   title: Dwemer Tower of Dagon Fel
   titleRu: Двемерская башня Дагон Фела
+  location: Dagon Fel
   content: store:/shots/2018-01-21.dwemer-tower-of-dagon-fel.png
   type: shot
   author: dehero
@@ -689,6 +697,7 @@
 2018-01-28.teeth-of-ashlands:
   title: Teeth of Ashlands
   titleRu: Клыки Эшленда
+  location: Ashlands Region
   content: store:/shots/2018-01-28.teeth-of-ashlands.png
   type: shot
   author: dehero
@@ -843,6 +852,7 @@
 2018-02-03.omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
+  location: Omalen Ancestral Tomb
   content: store:/shots/2018-02-03.omalen-ancestral-tomb.png
   type: shot
   author: dehero
@@ -868,6 +878,7 @@
 2018-02-04.sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
+  location: Sadrith Mora
   content:
     - store:/shots/2017-01-19.sadrith-mora-gateway-inn.png
     - store:/shots/2017-01-08.dirty-muriels-cornerclub-and-tel-naga.png
@@ -998,6 +1009,7 @@
 2018-02-09.near-assemanu:
   title: Near Assemanu
   titleRu: У Ассеману
+  location: Assemanu
   content: store:/shots/2018-02-09.near-assemanu.png
   type: shot
   author: dehero
@@ -1025,6 +1037,7 @@
 2018-02-10.in-the-evening-canals-of-vivec:
   title: In the Evening Canals of Vivec
   titleRu: В вечерних каналах Вивека
+  location: Vivec
   content: store:/shots/2018-02-10.in-the-evening-canals-of-vivec.png
   type: shot
   author: dehero
@@ -1109,6 +1122,7 @@
 2018-02-13.urshilaku-camp:
   title: Urshilaku Camp
   titleRu: Лагерь Уршилаку
+  location: Urshilaku Camp
   content: store:/shots/2018-02-13.urshilaku-camp.png
   type: shot
   author: dehero
@@ -1158,6 +1172,7 @@
 2018-02-15.ald-redaynia-at-night:
   title: Ald Redaynia at Night
   titleRu: Альд Редайния в ночи
+  location: Ald Redaynia
   content: store:/shots/2018-02-15.ald-redaynia-at-night.png
   type: shot
   author: dehero
@@ -1247,6 +1262,7 @@
 2018-02-18.balmora:
   title: Balmora
   titleRu: Балмора
+  location: Balmora
   content:
     - store:/shots/2017-04-10.its-cloudy-in-balmora-with-a-chance-of-rain.png
     - store:/shots/2017-02-05.night-street-of-balmora.png
@@ -1409,6 +1425,7 @@
 2018-02-24.in-the-skaal-village:
   title: In the Skaal Village
   titleRu: В деревне Скаалов
+  location: Skaal Village
   content: store:/shots/2018-02-24.in-the-skaal-village.png
   type: shot
   author: dehero
@@ -1701,6 +1718,7 @@
 2018-03-06.near-hlormaren:
   title: Near Hlormaren
   titleRu: У Хлормарена
+  location: Hlormaren
   content: store:/shots/2018-03-06.near-hlormaren.png
   type: shot
   author: dehero
@@ -1727,6 +1745,7 @@
 2018-03-07.in-the-yard-of-wolverine-hall:
   title: In the Yard of Wolverine Hall
   titleRu: Во дворе Волверин Холла
+  location: Wolverine Hall
   content: store:/shots/2018-03-07.in-the-yard-of-wolverine-hall.png
   type: shot
   author: dehero
@@ -1993,6 +2012,7 @@
 2018-03-17.suran-temple:
   title: Suran Temple
   titleRu: Храм в Суране
+  location: Suran
   content: store:/shots/2018-03-17.suran-temple.png
   type: shot
   author: dehero
@@ -2051,6 +2071,7 @@
 2018-03-19.view-of-dren-plantation:
   title: View of Dren Plantation
   titleRu: Вид на плантацию Дрен
+  location: Dren Plantation
   content: store:/shots/2018-03-19.view-of-dren-plantation.png
   type: shot
   author: dehero
@@ -2127,6 +2148,7 @@
 2018-03-22.welcome-to-vivec-scum:
   title: Welcome to Vivec, Scum
   titleRu: Добро пожаловать в Вивек, ничтожество
+  location: Vivec
   content: store:/shots/2018-03-22.welcome-to-vivec-scum.png
   type: shot
   author: dehero
@@ -2437,6 +2459,7 @@
 2018-04-03.evening-expanse-of-ashlands:
   title: Evening Expanse of Ashlands
   titleRu: Вечерние просторы Эшленда
+  location: Ashlands Region
   content: store:/shots/2018-04-03.evening-expanse-of-ashlands.png
   type: shot
   author: dehero
@@ -2564,6 +2587,7 @@
 2018-04-08.the-symmetry-of-vivec:
   title: The Symmetry of Vivec
   titleRu: Симметрия Вивека
+  location: Vivec
   content:
     - store:/shots/2016-12-03.st-delyn-vs-st-olms.png
     - store:/shots/2017-04-26.divine-pentagon.png
@@ -2740,6 +2764,7 @@
 2018-04-15.views-of-solstheim:
   title: Views of Solstheim
   titleRu: Виды Солстхейма
+  location: Solstheim
   content:
     - store:/shots/2017-08-29.at-the-coast-of-hirstaang-forest.png
     - store:/shots/2017-09-06.dark-morning-in-the-colony.png
@@ -3104,6 +3129,7 @@
 2018-04-29.caldera:
   title: Caldera
   titleRu: Кальдера
+  location: Caldera
   content:
     - store:/shots/2016-12-28.close-to-caldera-clothier.png
     - store:/shots/2017-03-22.betty-netch-and-far-caldera.png
@@ -3288,6 +3314,7 @@
 2018-05-06.roads-of-ascadian-isles:
   title: Roads of Ascadian Isles
   titleRu: Дороги Аскадианских островов
+  location: Ascadian Isles Region
   content:
     - store:/shots/2016-11-30.the-road-most-travelled.png
     - store:/shots/2017-03-17.road-at-the-dawn.png
@@ -3348,6 +3375,7 @@
 2018-05-08.at-the-border-of-grazelands-and-ashlands:
   title: At the Border of Grazelands and Ashlands
   titleRu: На границе Грейзленда и Эшленда
+  location: Grazelands Region
   content: store:/shots/2018-05-08.at-the-border-of-grazelands-and-ashlands.png
   type: shot
   author: dehero
@@ -3427,6 +3455,7 @@
 2018-05-10.drooping-sun-of-molag-amur:
   title: Drooping Sun of Molag Amur
   titleRu: Усталое солнце Молаг Амура
+  location: Molag Amur Region
   content: store:/shots/2018-05-10.drooping-sun-of-molag-amur.png
   type: shot
   author: dehero
@@ -3451,6 +3480,7 @@
 2018-05-11.tree-crown-of-indoranyon:
   title: Tree Crown of Indoranyon
   titleRu: Древесная корона Индораниона
+  location: Indoranyon
   content: store:/shots/2018-05-11.tree-crown-of-indoranyon.png
   type: shot
   author: dehero
@@ -3627,6 +3657,7 @@
 2018-05-17.inviting-nchuleft:
   title: Inviting Nchuleft
   titleRu: Манящий Нчулефт
+  location: Nchuleft
   content: store:/shots/2018-05-17.inviting-nchuleft.png
   type: shot
   author: dehero
@@ -3708,6 +3739,7 @@
 2018-05-20.views-from-the-outskirts-of-gnisis:
   title: Views from the Outskirts of Gnisis
   titleRu: Виды с окраин Гнисиса
+  location: Gnisis
   content:
     - store:/shots/2017-04-03.gnisis.png
     - store:/shots/2017-07-12.suburb-muckspunge.png
@@ -3734,6 +3766,7 @@
 2018-05-21.lette-in-front-of-tel-mora-main-tower:
   title: Lette in Front of Tel Mora Main Tower
   titleRu: Летте перед главной башней Тель Моры
+  location: Tel Mora
   content: store:/shots/2018-05-21.lette-in-front-of-tel-mora-main-tower.png
   type: shot
   author: dehero
@@ -3925,6 +3958,7 @@
 2018-05-28.passing-by-pelagiad:
   title: Passing by Pelagiad
   titleRu: Проезжая Пелагиад
+  location: Pelagiad
   content: store:/shots/2018-05-28.passing-by-pelagiad.png
   type: shot
   author: dehero
@@ -4061,6 +4095,7 @@
 2018-06-02.mournhold-cactus:
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
+  location: "Mournhold, Royal Palace: Guards' Quarters"
   content: store:/shots/2018-06-02.mournhold-cactus.png
   type: shot
   author: dehero
@@ -4521,6 +4556,7 @@
 2018-06-19.thelas-ancestral-tomb:
   title: Thelas Ancestral Tomb
   titleRu: Родовая гробница Телас
+  location: Thelas Ancestral Tomb
   content: store:/shots/2018-06-19.thelas-ancestral-tomb.png
   type: shot
   author: dehero
@@ -4920,6 +4956,7 @@
 2018-07-04.view-of-tel-vos:
   title: View of Tel Vos
   titleRu: Вид на Тель Вос
+  location: Tel Vos
   content: store:/shots/2018-07-04.view-of-tel-vos.png
   type: shot
   author: dehero
@@ -4942,6 +4979,7 @@
 2018-07-05.a-little-rat-entering-holamayan:
   title: A Little Rat Entering Holamayan
   titleRu: Маленькая крыса входит в Холамаян
+  location: Holamayan
   content: store:/shots/2018-07-05.a-little-rat-entering-holamayan.png
   type: shot
   author: dehero
@@ -4989,6 +5027,7 @@
 2018-07-07.streets-of-vos:
   title: Streets of Vos
   titleRu: Улицы Воса
+  location: Vos
   content: store:/shots/2018-07-07.streets-of-vos.png
   type: shot
   author: dehero
@@ -5040,6 +5079,7 @@
 2018-07-09.plans-of-vivec:
   title: Plans of Vivec
   titleRu: Планы Вивека
+  location: Vivec, Palace of Vivec
   content: store:/shots/2018-07-09.plans-of-vivec.png
   type: shot
   author: dehero
@@ -5062,6 +5102,7 @@
 2018-07-10.balmora-temple:
   title: Balmora, Temple
   titleRu: Балмора, Храм
+  location: Balmora, Temple
   content: store:/shots/2018-07-10.balmora-temple.png
   type: shot
   author: dehero
@@ -5687,6 +5728,7 @@
 2018-08-03.the-road-to-hlormaren:
   title: The Road to Hlormaren
   titleRu: Дорога к Хлормарену
+  location: Bitter Coast Region
   content: store:/shots/2018-08-03.the-road-to-hlormaren.png
   type: shot
   author: dehero
@@ -5818,6 +5860,7 @@
 2018-08-08.thirsk-upstairs:
   title: Thirsk, Upstairs
   titleRu: Тирск, верхний этаж
+  location: Solstheim, Thirsk
   content: store:/shots/2018-08-08.thirsk-upstairs.png
   type: shot
   author: dehero
@@ -6047,6 +6090,7 @@
 2018-08-16.wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
+  location: Suran
   content: store:/shots/2018-08-16.wall-of-suran.png
   type: shot
   author: dehero
@@ -6180,6 +6224,7 @@
 2018-08-21.dusk-in-hla-oad:
   title: Dusk in Hla Oad
   titleRu: Закат солнца в Хла Оуд
+  location: Hla Oad
   content: store:/shots/2018-08-21.dusk-in-hla-oad.png
   type: shot
   author: dehero
@@ -6210,6 +6255,7 @@
 2018-08-22.river-bank-in-west-gash:
   title: River Bank in West Gash
   titleRu: Берег реки в Западном нагорье
+  location: West Gash Region
   content: store:/shots/2018-08-22.river-bank-in-west-gash.png
   type: shot
   author: dehero
@@ -6265,6 +6311,7 @@
 2018-08-24.nileras-farmhouse:
   title: Nilera's Farmhouse
   titleRu: Ферма Нилеры
+  location: Nilera's Farmhouse
   content: store:/shots/2018-08-24.nileras-farmhouse.png
   type: shot
   author: dehero
@@ -6343,6 +6390,7 @@
 2018-08-27.coming-to-gnaar-mok:
   title: Coming to Gnaar Mok
   titleRu: Прибытие в Гнаар Мок
+  location: Gnaar Mok
   content: store:/shots/2018-08-27.coming-to-gnaar-mok.png
   type: shot
   author: dehero
@@ -6455,6 +6503,7 @@
 2018-08-31.night-square-of-suran:
   title: Night Square of Suran
   titleRu: Ночная площадь Сурана
+  location: Suran
   content: store:/shots/2018-08-31.night-square-of-suran.png
   type: shot
   author: dehero
@@ -6483,6 +6532,7 @@
 2018-09-01.haze-in-tel-branora:
   title: Haze in Tel Branora
   titleRu: Мгла в Тель Браноре
+  location: Tel Branora
   content: store:/shots/2018-09-01.haze-in-tel-branora.png
   type: shot
   author: dehero
@@ -6569,6 +6619,7 @@
 2018-09-03.discovering-telasero:
   title: Discovering Telasero
   titleRu: Выходя к Теласеро
+  location: Telasero
   content: store:/shots/2018-09-03.discovering-telasero.png
   type: shot
   author: dehero
@@ -6602,6 +6653,7 @@
 2018-09-04.near-the-ghostgate:
   title: Near the Ghostgate
   titleRu: У Призрачных Врат
+  location: Ghostgate
   content: store:/shots/2018-09-04.near-the-ghostgate.png
   type: shot
   author: dehero
@@ -6769,6 +6821,7 @@
 2018-09-09.wild-beasts-of-solstheim:
   title: Wild Beasts of Solstheim
   titleRu: Дикие звери Солстхейма
+  location: Solstheim
   content:
     - store:/shots/2017-12-12.roar-of-a-bear.png
     - store:/shots/2017-08-07.snow-wolf-near-the-lair.png
@@ -6950,6 +7003,7 @@
 2018-09-14.serano-ancestral-tomb:
   title: Serano Ancestral Tomb
   titleRu: Родовая гробница Серано
+  location: Serano Ancestral Tomb
   content: store:/shots/2018-09-14.serano-ancestral-tomb.png
   type: shot
   author: dehero
@@ -7063,6 +7117,7 @@
 2018-09-17.dren-plantation:
   title: Dren Plantation
   titleRu: Плантация Дрен
+  location: Dren Plantation
   content: store:/shots/2018-09-17.dren-plantation.png
   type: shot
   author: dehero
@@ -7192,6 +7247,7 @@
 2018-09-21.wolverine-hall:
   title: Wolverine Hall
   titleRu: Волверин Холл
+  location: Wolverine Hall
   content: store:/shots/2018-09-21.wolverine-hall.png
   type: shot
   author: dehero
@@ -7373,6 +7429,7 @@
 2018-09-26.tribunal-temple-in-molag-mar:
   title: Tribunal Temple in Molag Mar
   titleRu: Храм Трибунала в Молаг Маре
+  location: Molag Mar
   content: store:/shots/2018-09-26.tribunal-temple-in-molag-mar.png
   type: shot
   author: dehero
@@ -7404,6 +7461,7 @@
 2018-09-27.sethan-ancestral-tomb:
   title: Sethan Ancestral Tomb
   titleRu: Родовая гробница Сетанов
+  location: Sethan Ancestral Tomb
   content: store:/shots/2018-09-27.sethan-ancestral-tomb.png
   type: shot
   author: dehero
@@ -7783,6 +7841,7 @@
 2018-10-08.evening-time-in-tel-mora:
   title: Evening Time in Tel Mora
   titleRu: Вечернее время в Тель Море
+  location: Tel Mora
   content: store:/shots/2018-10-08.evening-time-in-tel-mora.png
   type: shot
   author: dehero
@@ -8046,6 +8105,7 @@
 2018-10-16.mournhold-temple:
   title: Mournhold Temple
   titleRu: Храм Морнхолда
+  location: Mournhold, Temple Courtyard
   content: store:/shots/2018-10-16.mournhold-temple.png
   type: shot
   author: dehero
@@ -8113,6 +8173,7 @@
 2018-10-19.ghostgate:
   title: Ghostgate
   titleRu: Призрачные Врата
+  location: Ghostgate
   content: store:/shots/2018-10-19.ghostgate.png
   type: shot
   author: dehero
@@ -8347,6 +8408,7 @@
 2018-10-25.night-quay-of-tel-mora:
   title: Night Quay of Tel Mora
   titleRu: Ночная набережная Тель Моры
+  location: Tel Mora
   content: store:/shots/2018-10-25.night-quay-of-tel-mora.png
   type: shot
   author: dehero
@@ -8381,6 +8443,7 @@
 2018-10-26.tel-fyr:
   title: Tel Fyr
   titleRu: Тель Фир
+  location: Tel Fyr
   content: store:/shots/2018-10-26.tel-fyr.png
   type: shot
   author: dehero
@@ -8611,6 +8674,7 @@
 2018-11-01.mudcrab-merchant-of-mzahnch:
   title: Mudcrab Merchant of Mzahnch
   titleRu: Грязекраб-торговец из Мзанча
+  location: Mzahnch
   content: store:/shots/2018-11-01.mudcrab-merchant-of-mzahnch.png
   type: shot
   author: dehero

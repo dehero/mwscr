@@ -200,6 +200,7 @@
 2016-11-23.lanterns-of-tel-branora:
   title: Lanterns of Tel Branora
   titleRu: Фонари Тель Браноры
+  location: Tel Branora
   content: store:/shots/2016-11-23.lanterns-of-tel-branora.png
   type: shot
   author: dehero
@@ -253,6 +254,7 @@
 2016-11-25.rain-on-dren-plantation:
   title: Rain on Dren Plantation
   titleRu: Дождь на Плантации Дрена
+  location: Dren Plantation
   content: store:/shots/2016-11-25.rain-on-dren-plantation.png
   type: shot
   author: dehero
@@ -329,6 +331,7 @@
 2016-11-28.forest-on-the-border-of-ashlands:
   title: Forest on the Border of Ashlands
   titleRu: Лес на границе Эшленда
+  location: Ashlands Region
   content: store:/shots/2016-11-28.forest-on-the-border-of-ashlands.png
   type: shot
   author: dehero
@@ -352,6 +355,7 @@
 2016-11-29.nchuleftingth-expedition:
   title: Nchuleftingth Expedition
   titleRu: Экспедиция в Нчулефтингт
+  location: Nchuleftingth
   content: store:/shots/2016-11-29.nchuleftingth-expedition.png
   type: shot
   author: dehero
@@ -419,6 +423,7 @@
 2016-12-02.molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
+  location: Molag Mar
   content: store:/shots/2016-12-02.molag-mar.png
   type: shot
   author: dehero
@@ -465,6 +470,7 @@
 2016-12-04.vos-from-tel-vos:
   title: Vos from Tel Vos
   titleRu: Вос из Тель Воса
+  location: Tel Vos
   content: store:/shots/2016-12-04.vos-from-tel-vos.png
   type: shot
   author: dehero
@@ -489,6 +495,7 @@
 2016-12-05.balmora-walkthrough:
   title: Balmora Walkthrough
   titleRu: Прогулка по Балморе
+  location: Balmora
   content: store:/videos/2016-12-05.balmora-walkthrough.mp4
   type: clip
   author: dehero
@@ -514,6 +521,7 @@
 2016-12-06.redoran-stronghold-of-molag-mar:
   title: Redoran Stronghold of Molag Mar
   titleRu: Редоранская крепость Молаг Мара
+  location: Molag Mar
   content: store:/shots/2016-12-06.redoran-stronghold-of-molag-mar.png
   type: shot
   author: dehero
@@ -539,6 +547,7 @@
 2016-12-07.nchuleft-ruin:
   title: Nchuleft Ruin
   titleRu: Руины Нчулефта
+  location: Nchuleft Ruin
   content: store:/shots/2016-12-07.nchuleft-ruin.png
   type: shot
   author: dehero
@@ -564,6 +573,7 @@
 2016-12-08.manats-farmhouse:
   title: Manat's Farmhouse
   titleRu: Ферма Маната
+  location: Manat's Farmhouse
   content: store:/shots/2016-12-08.manats-farmhouse.png
   type: shot
   author: dehero
@@ -588,6 +598,7 @@
 2016-12-09.silt-strider-port-of-molag-mar:
   title: Silt Strider Port of Molag Mar
   titleRu: Порт Силт Страйдеров Молаг Мара
+  location: Molag Mar
   content: store:/shots/2016-12-09.silt-strider-port-of-molag-mar.png
   type: shot
   author: dehero
@@ -612,6 +623,7 @@
 2016-12-10.somewhere-nearby-vivec:
   title: Somewhere Nearby Vivec
   titleRu: Где-то около Вивека
+  location: Ascadian Isles Region
   content: store:/shots/2016-12-10.somewhere-nearby-vivec.png
   type: shot
   author: dehero
@@ -661,6 +673,7 @@
 2016-12-12.buckmoth-legion-fort-from-aldruhn:
   title: Buckmoth Legion Fort from Ald'ruhn
   titleRu: Форт Пёстрой Бабочки из Альд'руна
+  location: Buckmoth Legion Fort
   content: store:/shots/2016-12-12.buckmoth-legion-fort-from-aldruhn.png
   type: shot
   author: dehero
@@ -713,6 +726,7 @@
 2016-12-14.pelagiad:
   title: Pelagiad
   titleRu: Пелагиад
+  location: Pelagiad
   content: store:/shots/2016-12-14.pelagiad.png
   type: shot
   author: dehero
@@ -787,6 +801,7 @@
 2016-12-17.a-path-to-vivec:
   title: A Path to Vivec
   titleRu: Путь к Вивеку
+  location: Vivec
   content: store:/videos/2016-12-17.a-path-to-vivec.mp4
   type: clip
   author: dehero
@@ -968,6 +983,7 @@
 2016-12-23.stillness-of-vivec:
   title: Stillness of Vivec
   titleRu: Спокойствие Вивека
+  location: Vivec, Palace of Vivec
   content: store:/videos/2016-12-23.stillness-of-vivec.mp4
   type: clip
   author: dehero
@@ -1043,6 +1059,7 @@
 2016-12-26.grazelands:
   title: Grazelands
   titleRu: Грейзленд
+  location: Grazelands Region
   content: store:/shots/2016-12-26.grazelands.png
   type: shot
   author: dehero
@@ -1068,6 +1085,7 @@
 2016-12-27.mzanchend-guards:
   title: Mzanchend Guards
   titleRu: Стражи Мзанченда
+  location: Mzanchend
   content: store:/shots/2016-12-27.mzanchend-guards.png
   type: shot
   author: dehero
