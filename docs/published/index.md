@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`45 items`
+`46 items`
+
+## <span id="2024-04-12.sadrith-mora-gateway-inn">Sadrith Mora, Gateway Inn</span>
+
+`RU` Садрит Мора, Привратный трактир
+
+<a href="https://instagram.com/p/BPcBYf9lwjH/" title="2017-01-19.sadrith-mora-gateway-inn"><img alt="store:/shots/2017-01-19.sadrith-mora-gateway-inn.png" src="../../assets/previews/shots/2017-01-19.sadrith-mora-gateway-inn.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` `📍 Sadrith Mora, Gateway Inn` `🚀 OpenMW` `nofilter`
+
+```
+2024-04-12.sadrith-mora-gateway-inn
+```
+
+> `2017-01-19.sadrith-mora-gateway-inn`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BPcBYf9lwjH/)       | 2017-01-19 |       |    34 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_67)   | 2017-01-19 |   138 |     5 |         4 |      5 |
+| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |       |       |      1413 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |       |       |       911 |        |
+| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |       |       |       352 |        |
+|                                                    |            |   138 |    39 |      2676 |        |
 
 ## <span id="2024-04-11.heros-skeleton">Hero&#39;s Skeleton</span>
 
@@ -31,10 +58,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   287 |    77 |      1412 |   5.45 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |   124 |    20 |       911 |    2.2 |
+| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   291 |    77 |      1412 |   5.45 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |   126 |    21 |       911 |   2.31 |
 | [`tg`](https://t.me/mwscr/375)                     | 2024-04-11 |   114 |    46 |       352 |  13.07 |
-|                                                    |            |   525 |   143 |      2675 |   6.91 |
+|                                                    |            |   531 |   144 |      2675 |   6.94 |
 
 ## <span id="2024-04-10.sun-mushrooms">Sun Mushrooms</span>
 
@@ -54,10 +81,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   219 |    61 |      1411 |   4.32 |
+| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   220 |    61 |      1411 |   4.32 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |   143 |    22 |       911 |   2.41 |
 | [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   144 |    45 |       353 |  12.75 |
-|                                                    |            |   506 |   128 |      2675 |    6.5 |
+|                                                    |            |   507 |   128 |      2675 |    6.5 |
 
 ## <span id="2024-04-09.telvanni-council-house">Telvanni Council House</span>
 

@@ -514,6 +514,19 @@
       likes: 5
       views: 138
       reposts: 1
+    - service: ig
+      id: C5q81aSMyOO
+      mediaId: '18027378698055717'
+      published: 2024-04-12-18-14-42
+      followers: 1413
+    - service: vk
+      id: 1491
+      published: 2024-04-12-18-14-50
+      followers: 911
+    - service: tg
+      id: 376
+      published: 2024-04-12-18-15-00
+      followers: 352
 2017-01-20.sunset-at-the-crossroads:
   title: Sunset at the Crossroads
   titleRu: Закат на распутье
@@ -806,8 +819,7 @@
 2017-01-28.2.meditative-night-in-ahemmusa-camp:
   title: Meditative Night in Ahemmusa Camp
   titleRu: Ночь медитации в лагере Ахеммуза
-  description:
-    Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
+  description: Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
   descriptionRu: Камера была закреплена дождливым вечером над юртой ашхана и оставалась там до утра.
   location: Ahemmusa Camp
   content: store:/videos/2017-01-28.2.meditative-night-in-ahemmusa-camp.mp4
