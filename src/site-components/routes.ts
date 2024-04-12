@@ -1,4 +1,6 @@
 import type { RouteDefinition } from '@solidjs/router';
+import { About } from './About/About.js';
+import { Contributing } from './Contributing/Contributing.js';
 import { Posts } from './Posts/Posts.js';
 
 export interface RouteInfo {
@@ -9,6 +11,7 @@ export interface RouteInfo {
 export const routes: RouteDefinition[] = [
   {
     path: '/',
+    component: About,
     info: {
       label: 'Home',
     },
@@ -18,6 +21,13 @@ export const routes: RouteDefinition[] = [
     component: Posts,
     info: {
       label: 'Published',
+    },
+  },
+  {
+    path: '/contributing/',
+    component: Contributing,
+    info: {
+      label: 'Contributing',
     },
   },
 ];
