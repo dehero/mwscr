@@ -866,10 +866,10 @@
       id: C5bgTjdu9Go
       mediaId: '18180074419295799'
       published: 2024-04-06-18-16-47
-      updated: 2024-04-12-19-12-29
+      updated: 2024-04-13-20-11-52
       followers: 1406
-      likes: 106
-      views: 393
+      likes: 108
+      views: 400
       comments: !c |-
         G6UA4I2ULuLexDVfpDA5Gr8XiTv/bhsmbbTz2VCKpss2u2U3ONHAvKjFBg1kAF1t3Hl4vX1FTxFj
         b9fb+vC/gF8AeOhru3pN1lMLDcdUfTVyqYM8b8LMp1C9bdB5C60iI3JbuNl6R5HhQCLxrMMmiOXX
@@ -877,18 +877,18 @@
     - service: vk
       id: 1484
       published: 2024-04-06-18-16-53
-      updated: 2024-04-12-19-12-30
+      updated: 2024-04-13-20-11-53
       followers: 909
-      likes: 43
-      views: 252
+      likes: 44
+      views: 257
       reposts: 1
     - service: tg
       id: 370
       published: 2024-04-06-18-17-00
-      updated: 2024-04-12-19-12-29
+      updated: 2024-04-13-20-11-53
       followers: 354
-      likes: 62
-      views: 225
+      likes: 63
+      views: 253
 2024-04-07.sheogorad: 2016-11-21.sheogorad
 2024-04-08.lava-fork:
   title: Lava Fork
@@ -912,25 +912,25 @@
       id: C5gqOIYx--3
       mediaId: '18054903520526028'
       published: 2024-04-08-18-19-40
-      updated: 2024-04-12-19-12-28
+      updated: 2024-04-13-20-11-51
       followers: 1409
-      likes: 125
-      views: 408
+      likes: 127
+      views: 421
     - service: vk
       id: 1487
       published: 2024-04-08-18-19-47
-      updated: 2024-04-12-19-12-29
+      updated: 2024-04-13-20-11-52
       followers: 909
-      likes: 27
-      views: 147
+      likes: 28
+      views: 150
       reposts: 1
     - service: tg
       id: 372
       published: 2024-04-08-18-19-56
-      updated: 2024-04-12-19-12-29
+      updated: 2024-04-13-20-11-52
       followers: 354
-      likes: 54
-      views: 190
+      likes: 56
+      views: 212
 2024-04-09.telvanni-council-house:
   title: Telvanni Council House
   titleRu: Дом Совета Телванни
@@ -1068,24 +1068,24 @@
       id: C5thvvzynm3
       mediaId: '17862133140085301'
       published: 2024-04-13-18-15-43
-      updated: 2024-04-13-19-09-37
+      updated: 2024-04-13-20-11-50
       followers: 1412
-      likes: 36
-      views: 62
+      likes: 47
+      views: 125
     - service: vk
       id: 1492
       published: 2024-04-13-18-15-50
-      updated: 2024-04-13-19-09-37
+      updated: 2024-04-13-20-11-50
       followers: 911
-      likes: 10
-      views: 53
+      likes: 15
+      views: 74
       comments: !c |-
         G3QA+J0JdoxkjGkJdSei2j3hAaWeYZN4JMme062E/uwMmTmZKKLr7nzFi13aDofWkwq6VZAEsaZF
         e6ZDUkvpQz40Red+6kcDzNvm0iSXqFaTf34NxMC0L7+j1w1ZUQydXcgkEMdj7F6omySALZMX
     - service: tg
       id: 377
       published: 2024-04-13-18-15-57
-      updated: 2024-04-13-19-09-38
+      updated: 2024-04-13-20-11-51
       followers: 351
-      likes: 17
-      views: 50
+      likes: 24
+      views: 67
