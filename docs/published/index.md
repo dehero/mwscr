@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BPcBYf9lwjH/)       | 2017-01-19 |       |    34 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_67)   | 2017-01-19 |   138 |     5 |         4 |      5 |
-| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   152 |    46 |      1413 |   3.26 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |    98 |    19 |       911 |   2.09 |
-| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |    81 |    37 |       352 |  10.51 |
-|                                                    |            |   469 |   141 |      2676 |   5.21 |
+| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   176 |    56 |      1413 |   3.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |   105 |    20 |       911 |    2.2 |
+| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |    84 |    37 |       352 |  10.51 |
+|                                                    |            |   503 |   152 |      2676 |   5.42 |
 
 #### Comments
 
@@ -39,6 +39,7 @@
   - <ins title="2024-04-12-18-24-26">mwscr</ins> 
 - `tg` <ins title="2024-04-12-20-21-13">stasyajoystick</ins> 
 - `ig` <ins title="2024-04-12-20-29-19">lightvision11</ins> 👻
+- `ig` <ins title="2024-04-12-23-31-32">delanospies</ins> @dravenjv meet me here in 3 hours.
 
 ## <span id="2024-04-11.heros-skeleton">Hero&#39;s Skeleton</span>
 
@@ -65,10 +66,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   302 |    78 |      1412 |   5.52 |
+| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   305 |    79 |      1412 |   5.59 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |   133 |    22 |       911 |   2.41 |
-| [`tg`](https://t.me/mwscr/375)                     | 2024-04-11 |   130 |    49 |       352 |  13.92 |
-|                                                    |            |   565 |   149 |      2675 |   7.29 |
+| [`tg`](https://t.me/mwscr/375)                     | 2024-04-11 |   132 |    49 |       352 |  13.92 |
+|                                                    |            |   570 |   150 |      2675 |   7.31 |
 
 ## <span id="2024-04-10.sun-mushrooms">Sun Mushrooms</span>
 
