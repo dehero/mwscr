@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BPcBYf9lwjH/)       | 2017-01-19 |       |    34 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_67)   | 2017-01-19 |   138 |     5 |         4 |      5 |
-| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   284 |    78 |      1413 |   5.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |   159 |    26 |       911 |   2.85 |
-| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |   116 |    46 |       352 |  13.07 |
-|                                                    |            |   697 |   189 |      2676 |   6.61 |
+| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   289 |    79 |      1413 |   5.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |   161 |    26 |       911 |   2.85 |
+| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |   119 |    47 |       352 |  13.35 |
+|                                                    |            |   707 |   191 |      2676 |    6.7 |
 
 #### Comments
 
@@ -66,14 +66,15 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   324 |    84 |      1412 |   5.95 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |   142 |    22 |       911 |   2.41 |
-| [`tg`](https://t.me/mwscr/375)                     | 2024-04-11 |   145 |    53 |       352 |  15.06 |
-|                                                    |            |   611 |   159 |      2675 |   7.81 |
+| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   325 |    84 |      1412 |   5.95 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |   143 |    22 |       911 |   2.41 |
+| [`tg`](https://t.me/mwscr/375)                     | 2024-04-11 |   146 |    54 |       352 |  15.34 |
+|                                                    |            |   614 |   160 |      2675 |    7.9 |
 
 #### Comments
 
 - `ig` <ins title="2024-04-13-11-46-18">someone_simple42</ins> Nice. Who&#39;s Natty?
+  - <ins title="2024-04-13-17-02-29">mwscr</ins> Natty is anonymous project author for now.
 
 ## <span id="2024-04-10.sun-mushrooms">Sun Mushrooms</span>
 

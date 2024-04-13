@@ -1024,23 +1024,25 @@
       id: C5oYU4kunXC
       mediaId: '18046854784659987'
       published: 2024-04-11-18-17-11
-      updated: 2024-04-13-16-16-48
+      updated: 2024-04-13-17-09-24
       followers: 1412
       likes: 84
-      views: 324
-      comments: !c CxeAkZPLQnjtdHmxAACwc29tZW9uZV9zaW1wbGU0MrJOaWNlLiBXaG8ncyBOYXR0eT8D
+      views: 325
+      comments: !c |-
+        G2oA4Bypjf62XEc3j/D4/5sgi6I0HmNalC/QfIgGVJ/QfN3Jt7x2pxywJlmUtAWGffeUpYCNqdL/
+        buenT3c9AHfnyq3K7xOKtxWhRdPuulk5pPe6GQtc+a3b/AQMxgMjcwrPEAHheQ==
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2024-04-13-16-16-47
+      updated: 2024-04-13-17-09-24
       followers: 911
       likes: 22
-      views: 142
+      views: 143
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2024-04-13-16-16-47
+      updated: 2024-04-13-17-09-24
       followers: 352
-      likes: 53
-      views: 145
+      likes: 54
+      views: 146
 2024-04-12.sadrith-mora-gateway-inn: 2017-01-19.sadrith-mora-gateway-inn
