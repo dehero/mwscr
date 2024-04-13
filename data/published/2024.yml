@@ -986,24 +986,24 @@
       id: C5lzx5zyeUS
       mediaId: '18015780446252146'
       published: 2024-04-10-18-19-23
-      updated: 2024-04-12-18-14-28
+      updated: 2024-04-13-19-09-38
       followers: 1411
-      likes: 61
-      views: 220
+      likes: 66
+      views: 239
     - service: vk
       id: 1489
       published: 2024-04-10-18-19-29
-      updated: 2024-04-12-18-14-29
+      updated: 2024-04-13-19-09-39
       followers: 911
-      likes: 22
-      views: 143
+      likes: 24
+      views: 157
     - service: tg
       id: 374
       published: 2024-04-10-18-19-36
-      updated: 2024-04-12-18-14-29
+      updated: 2024-04-13-19-09-39
       followers: 353
-      likes: 45
-      views: 144
+      likes: 49
+      views: 168
 2024-04-11.heros-skeleton:
   title: Hero's Skeleton
   titleRu: Скелет героя
@@ -1068,12 +1068,24 @@
       id: C5thvvzynm3
       mediaId: '17862133140085301'
       published: 2024-04-13-18-15-43
+      updated: 2024-04-13-19-09-37
       followers: 1412
+      likes: 36
+      views: 62
     - service: vk
       id: 1492
       published: 2024-04-13-18-15-50
+      updated: 2024-04-13-19-09-37
       followers: 911
+      likes: 10
+      views: 53
+      comments: !c |-
+        G3QA+J0JdoxkjGkJdSei2j3hAaWeYZN4JMme062E/uwMmTmZKKLr7nzFi13aDofWkwq6VZAEsaZF
+        e6ZDUkvpQz40Red+6kcDzNvm0iSXqFaTf34NxMC0L7+j1w1ZUQydXcgkEMdj7F6omySALZMX
     - service: tg
       id: 377
       published: 2024-04-13-18-15-57
+      updated: 2024-04-13-19-09-38
       followers: 351
+      likes: 17
+      views: 50
