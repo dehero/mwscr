@@ -4,7 +4,38 @@
 
 # Published in 2024
 
-`46 items`
+`47 items`
+
+## <span id="2024-04-13.manwe">Manwe</span>
+
+`RU` Манве
+
+<a href="https://instagram.com/p/C5thvvzynm3/" title="2024-04-13.manwe"><img alt="store:/shots/2024-04-13.manwe.png" src="../../assets/previews/shots/2024-04-13.manwe.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/natty.2024-03-28-20-25-07.2.png](../../assets/previews/trash/natty.2024-03-28-20-25-07.2.avif "natty.2024-03-28-20-25-07.2")
+![store:/trash/natty.2024-03-28-20-25-03.png](../../assets/previews/trash/natty.2024-03-28-20-25-03.avif "natty.2024-03-28-20-25-03")
+![store:/trash/natty.2024-03-28-20-24-35.png](../../assets/previews/trash/natty.2024-03-28-20-24-35.avif "natty.2024-03-28-20-24-35")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B1` `📍 Punabi` `🚀 OpenMW` `cave` `crystal`
+
+```
+2024-04-13.manwe
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C5thvvzynm3/)       | 2024-04-13 |      1412 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1492) | 2024-04-13 |       911 |
+| [`tg`](https://t.me/mwscr/377)                     | 2024-04-13 |       351 |
+|                                                    |            |      2674 |
 
 ## <span id="2024-04-12.sadrith-mora-gateway-inn">Sadrith Mora, Gateway Inn</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BPcBYf9lwjH/)       | 2017-01-19 |       |    34 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_67)   | 2017-01-19 |   138 |     5 |         4 |      5 |
-| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   289 |    79 |      1413 |   5.59 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |   161 |    26 |       911 |   2.85 |
-| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |   119 |    47 |       352 |  13.35 |
-|                                                    |            |   707 |   191 |      2676 |    6.7 |
+| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   294 |    80 |      1413 |   5.66 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |   163 |    26 |       911 |   2.85 |
+| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |   120 |    47 |       352 |  13.35 |
+|                                                    |            |   715 |   192 |      2676 |   6.72 |
 
 #### Comments
 
@@ -66,14 +97,15 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   325 |    84 |      1412 |   5.95 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |   143 |    22 |       911 |   2.41 |
+| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   328 |    84 |      1412 |   5.95 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |   144 |    22 |       911 |   2.41 |
 | [`tg`](https://t.me/mwscr/375)                     | 2024-04-11 |   146 |    54 |       352 |  15.34 |
-|                                                    |            |   614 |   160 |      2675 |    7.9 |
+|                                                    |            |   618 |   160 |      2675 |    7.9 |
 
 #### Comments
 
 - `ig` <ins title="2024-04-13-11-46-18">someone_simple42</ins> Nice. Who&#39;s Natty?
+  - <ins title="2024-04-13-17-13-24">someone_simple42</ins> @mwscr sounds cool. Best regards to Natty and everyone involved 🤜🤛
   - <ins title="2024-04-13-17-02-29">mwscr</ins> Natty is anonymous project author for now.
 
 ## <span id="2024-04-10.sun-mushrooms">Sun Mushrooms</span>
@@ -124,10 +156,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5jOmkLursk/)       | 2024-04-09 |   365 |    97 |      1410 |   6.88 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1488) | 2024-04-09 |   180 |    31 |       911 |    3.4 |
-| [`tg`](https://t.me/mwscr/373)                     | 2024-04-09 |   160 |    56 |       353 |  15.86 |
-|                                                    |            |   705 |   184 |      2674 |   8.72 |
+| [`ig`](https://instagram.com/p/C5jOmkLursk/)       | 2024-04-09 |   374 |    99 |      1410 |   7.02 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1488) | 2024-04-09 |   190 |    32 |       911 |   3.51 |
+| [`tg`](https://t.me/mwscr/373)                     | 2024-04-09 |   186 |    59 |       353 |  16.71 |
+|                                                    |            |   750 |   190 |      2674 |   9.08 |
 
 #### Comments
 

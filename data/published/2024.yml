@@ -950,25 +950,25 @@
       id: C5jOmkLursk
       mediaId: '18015478406056496'
       published: 2024-04-09-18-16-02
-      updated: 2024-04-12-17-13-55
+      updated: 2024-04-13-18-13-49
       followers: 1410
-      likes: 97
-      views: 365
+      likes: 99
+      views: 374
       comments: !c CxCAkZPLQnjsQhK6AACtYW5nZWxwZWVwZWVfX6dNeSBjcmliAw==
     - service: vk
       id: 1488
       published: 2024-04-09-18-16-08
-      updated: 2024-04-12-17-13-56
+      updated: 2024-04-13-18-13-50
       followers: 911
-      likes: 31
-      views: 180
+      likes: 32
+      views: 190
     - service: tg
       id: 373
       published: 2024-04-09-18-16-14
-      updated: 2024-04-12-17-13-56
+      updated: 2024-04-13-18-13-49
       followers: 353
-      likes: 56
-      views: 160
+      likes: 59
+      views: 186
 2024-04-10.sun-mushrooms:
   title: Sun Mushrooms
   titleRu: Солнечные грибы
@@ -1024,25 +1024,56 @@
       id: C5oYU4kunXC
       mediaId: '18046854784659987'
       published: 2024-04-11-18-17-11
-      updated: 2024-04-13-17-09-24
+      updated: 2024-04-13-18-13-49
       followers: 1412
       likes: 84
-      views: 325
+      views: 328
       comments: !c |-
-        G2oA4Bypjf62XEc3j/D4/5sgi6I0HmNalC/QfIgGVJ/QfN3Jt7x2pxywJlmUtAWGffeUpYCNqdL/
-        buenT3c9AHfnyq3K7xOKtxWhRdPuulk5pPe6GQtc+a3b/AQMxgMjcwrPEAHheQ==
+        G88AIIyULuLe/F/zE367Si86Oj2MyM1GG98bVniYncAikSqX37axhu+IqEdBEJdPiMbp9leQ3rA8
+        hzZFSRziO7W6+HTLFwBPz7tps0X+/YritxGVSAt1u+uW0hYAbTj+mjU5H1u3afjQunjqaHCoVgu7
+        kmlDu/CKJE2y8z/d92I7O8d6sgIP0ppxYMSzTCmJ+OIRVOdIAw==
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2024-04-13-17-09-24
+      updated: 2024-04-13-18-13-49
       followers: 911
       likes: 22
-      views: 143
+      views: 144
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2024-04-13-17-09-24
+      updated: 2024-04-13-18-13-49
       followers: 352
       likes: 54
       views: 146
 2024-04-12.sadrith-mora-gateway-inn: 2017-01-19.sadrith-mora-gateway-inn
+2024-04-13.manwe:
+  title: Manwe
+  titleRu: Манве
+  location: Punabi
+  content: store:/shots/2024-04-13.manwe.png
+  trash:
+    - store:/trash/natty.2024-03-28-20-25-07.2.png
+    - store:/trash/natty.2024-03-28-20-25-03.png
+    - store:/trash/natty.2024-03-28-20-24-35.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - cave
+    - crystal
+  mark: B1
+  posts:
+    - service: ig
+      id: C5thvvzynm3
+      mediaId: '17862133140085301'
+      published: 2024-04-13-18-15-43
+      followers: 1412
+    - service: vk
+      id: 1492
+      published: 2024-04-13-18-15-50
+      followers: 911
+    - service: tg
+      id: 377
+      published: 2024-04-13-18-15-57
+      followers: 351
