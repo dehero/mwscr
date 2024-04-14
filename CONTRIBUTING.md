@@ -312,7 +312,7 @@ dehero.2024-02-17-10-53-36.2.png
 ```
 
 Processed versions will be added to [proposed posts](docs/inbox/index.md) the next time files are imported from the
-repository.
+storage.
 
 ### Preparing a post
 
