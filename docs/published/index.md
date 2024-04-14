@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`47 items`
+`48 items`
+
+## <span id="2024-04-14.palace-of-vivec">Palace of Vivec</span>
+
+`RU` Дворец Вивека
+
+<a href="https://instagram.com/p/BTgPnBsDnCq/" title="2017-04-30.palace-of-vivec"><img alt="store:/shots/2017-04-30.palace-of-vivec.png" src="../../assets/previews/shots/2017-04-30.palace-of-vivec.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Vivec, Temple` `🚀 OpenMW` `nofilter` `vivec` `palace` `castle`
+
+```
+2024-04-14.palace-of-vivec
+```
+
+> `2017-04-30.palace-of-vivec`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BTgPnBsDnCq/)       | 2017-04-30 |       |    76 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_275)  | 2017-04-30 |   177 |     5 |        54 |      5 |
+| [`ig`](https://instagram.com/p/C5wWKSEO30a/)       | 2024-04-14 |       |       |      1413 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1494) | 2024-04-14 |       |       |       911 |        |
+| [`tg`](https://t.me/mwscr/378)                     | 2024-04-14 |       |       |       351 |        |
+|                                                    |            |   177 |    81 |      2675 |        |
 
 ## <span id="2024-04-13.manwe">Manwe</span>
 
@@ -32,14 +59,15 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5thvvzynm3/)       | 2024-04-13 |   326 |    95 |      1412 |   6.73 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1492) | 2024-04-13 |   160 |    31 |       911 |    3.4 |
-| [`tg`](https://t.me/mwscr/377)                     | 2024-04-13 |   114 |    41 |       351 |  11.68 |
-|                                                    |            |   600 |   167 |      2674 |   7.27 |
+| [`ig`](https://instagram.com/p/C5thvvzynm3/)       | 2024-04-13 |   365 |   102 |      1412 |   7.22 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1492) | 2024-04-13 |   166 |    31 |       911 |    3.4 |
+| [`tg`](https://t.me/mwscr/377)                     | 2024-04-13 |   121 |    43 |       351 |  12.25 |
+|                                                    |            |   652 |   176 |      2674 |   7.63 |
 
 #### Comments
 
 - `vk` <ins title="2024-04-13-18-26-52">ilyatamrielsky</ins> Манве это прям из Властелина колец.<br>Один из айнур
+- `ig` <ins title="2024-04-14-19-36-07">spasnakrovi</ins> @hard.images
 
 ## <span id="2024-04-12.sadrith-mora-gateway-inn">Sadrith Mora, Gateway Inn</span>
 
@@ -101,10 +129,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   328 |    84 |      1412 |   5.95 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |   144 |    22 |       911 |   2.41 |
-| [`tg`](https://t.me/mwscr/375)                     | 2024-04-11 |   146 |    54 |       352 |  15.34 |
-|                                                    |            |   618 |   160 |      2675 |    7.9 |
+| [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   353 |    90 |      1412 |   6.37 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |   159 |    24 |       911 |   2.63 |
+| [`tg`](https://t.me/mwscr/375)                     | 2024-04-11 |   167 |    58 |       352 |  16.48 |
+|                                                    |            |   679 |   172 |      2675 |    8.5 |
 
 #### Comments
 
@@ -130,10 +158,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   239 |    66 |      1411 |   4.68 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |   157 |    24 |       911 |   2.63 |
-| [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   168 |    49 |       353 |  13.88 |
-|                                                    |            |   564 |   139 |      2675 |   7.06 |
+| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   244 |    68 |      1411 |   4.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |   172 |    26 |       911 |   2.85 |
+| [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   190 |    52 |       353 |  14.73 |
+|                                                    |            |   606 |   146 |      2675 |   7.47 |
 
 ## <span id="2024-04-09.telvanni-council-house">Telvanni Council House</span>
 
@@ -160,10 +188,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5jOmkLursk/)       | 2024-04-09 |   374 |    99 |      1410 |   7.02 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1488) | 2024-04-09 |   190 |    32 |       911 |   3.51 |
-| [`tg`](https://t.me/mwscr/373)                     | 2024-04-09 |   186 |    59 |       353 |  16.71 |
-|                                                    |            |   750 |   190 |      2674 |   9.08 |
+| [`ig`](https://instagram.com/p/C5jOmkLursk/)       | 2024-04-09 |   384 |   100 |      1410 |   7.09 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1488) | 2024-04-09 |   202 |    34 |       911 |   3.73 |
+| [`tg`](https://t.me/mwscr/373)                     | 2024-04-09 |   206 |    61 |       353 |  17.28 |
+|                                                    |            |   792 |   195 |      2674 |   9.37 |
 
 #### Comments
 
@@ -195,10 +223,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5gqOIYx--3/)       | 2024-04-08 |   421 |   127 |      1409 |   9.01 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1487) | 2024-04-08 |   150 |    28 |       909 |   3.08 |
-| [`tg`](https://t.me/mwscr/372)                     | 2024-04-08 |   212 |    56 |       354 |  15.82 |
-|                                                    |            |   783 |   211 |      2672 |    9.3 |
+| [`ig`](https://instagram.com/p/C5gqOIYx--3/)       | 2024-04-08 |   431 |   128 |      1409 |   9.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1487) | 2024-04-08 |   154 |    29 |       909 |   3.19 |
+| [`tg`](https://t.me/mwscr/372)                     | 2024-04-08 |   218 |    56 |       354 |  15.82 |
+|                                                    |            |   803 |   213 |      2672 |   9.36 |
 
 ## <span id="2024-04-07.sheogorad">Sheogorad</span>
 
@@ -222,10 +250,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNER2c_FCVh/)       | 2016-11-21 |       |    20 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_8)    | 2017-01-22 |    53 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C5eFAr9gjlh/)       | 2024-04-07 |   485 |   138 |      1406 |   9.82 |
+| [`ig`](https://instagram.com/p/C5eFAr9gjlh/)       | 2024-04-07 |   489 |   139 |      1406 |   9.89 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1485) | 2024-04-07 |   289 |    55 |       909 |   6.05 |
-| [`tg`](https://t.me/mwscr/371)                     | 2024-04-07 |   236 |    66 |       353 |   18.7 |
-|                                                    |            |  1063 |   282 |      2668 |   9.39 |
+| [`tg`](https://t.me/mwscr/371)                     | 2024-04-07 |   242 |    66 |       353 |   18.7 |
+|                                                    |            |  1073 |   283 |      2668 |   9.41 |
 
 #### Comments
 
@@ -437,10 +465,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5MCzuJy_65/)       | 2024-03-31 |   461 |    94 |      1403 |    6.7 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1476) | 2024-03-31 |   198 |    27 |       905 |   2.98 |
-| [`tg`](https://t.me/mwscr/363)                     | 2024-03-31 |   283 |    53 |       354 |  14.97 |
-|                                                    |            |   942 |   174 |      2662 |   8.22 |
+| [`ig`](https://instagram.com/p/C5MCzuJy_65/)       | 2024-03-31 |   483 |    97 |      1403 |   6.91 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1476) | 2024-03-31 |   223 |    28 |       905 |   3.09 |
+| [`tg`](https://t.me/mwscr/363)                     | 2024-03-31 |   341 |    55 |       354 |  15.54 |
+|                                                    |            |  1047 |   180 |      2662 |   8.51 |
 
 ## <span id="2024-03-30.a-boxy-nightstand">A Boxy Nightstand</span>
 
@@ -900,10 +928,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C4n_nFbM2Wf/)       | 2024-03-17 |   860 |   176 |      1385 |  12.71 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1455) | 2024-03-17 |   294 |    41 |       896 |   4.58 |
-| [`tg`](https://t.me/mwscr/349)                     | 2024-03-17 |   392 |    63 |       353 |  17.85 |
-|                                                    |            |  1546 |   280 |      2634 |  11.71 |
+| [`ig`](https://instagram.com/p/C4n_nFbM2Wf/)       | 2024-03-17 |   865 |   178 |      1385 |  12.85 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1455) | 2024-03-17 |   300 |    42 |       896 |   4.69 |
+| [`tg`](https://t.me/mwscr/349)                     | 2024-03-17 |   405 |    63 |       353 |  17.85 |
+|                                                    |            |  1570 |   283 |      2634 |   11.8 |
 
 #### Comments
 

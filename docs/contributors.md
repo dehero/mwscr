@@ -9,10 +9,10 @@
 [VK](https://vk.com/dehero), [Telegram](https://t.me/deherole), [GitHub](https://github.com/dehero)
 
 Roles: `admin` `author` `requester`  
-Authored: 928 published, 35 pending, 56 rejected  
+Authored: 929 published, 35 pending, 56 rejected  
 Requested: 6 pending  
 Types: `shot` `shot-set` `video` `clip` `drawing`  
-Likes: 116412  
+Likes: 116504  
 
 ```
 dehero
@@ -23,7 +23,7 @@ dehero
 Roles: `author`  
 Authored: 18 published, 44 pending, 4 rejected  
 Types: `shot`  
-Likes: 3579  
+Likes: 3614  
 
 ```
 natty
