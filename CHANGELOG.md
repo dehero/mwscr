@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.2 (2024-04-15)
+
+### Bug Fixes
+
+- add preview maintenance step after resolving GitHub issue
+  ([489ec84](https://github.com/dehero/mwscr/commit/489ec8424b3146c8a52ba3569bed21c1a2f178b2))
+
 ## 1.0.1 (2024-04-14)
 
 ### Documentation
