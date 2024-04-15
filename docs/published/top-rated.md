@@ -243,7 +243,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-19.stillness-of-vivec)</code> `🚀 OpenMW`
+`B2` `📍 Vivec` `🚀 OpenMW`
 
 ```
 2022-07-19.stillness-of-vivec
@@ -440,7 +440,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-20.norvayn-ancestral-tomb)</code> `🚀 OpenMW`
+`B2` `📍 Norvayn Ancestral Tomb` `🚀 OpenMW`
 
 ```
 2022-07-20.norvayn-ancestral-tomb
@@ -737,7 +737,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-13.cold-waters-of-west-gash)</code> `🚀 OpenMW` `bridge` `water`
+`B2` `📍 West Gash Region` `🚀 OpenMW` `bridge` `water`
 
 ```
 2022-07-13.cold-waters-of-west-gash
@@ -771,7 +771,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-03.crossing-the-edge-of-bitter-coast)</code> `🚀 OpenMW` `bridge`
+`A2` `📍 Bitter Coast Region` `🚀 OpenMW` `bridge`
 
 ```
 2022-07-03.crossing-the-edge-of-bitter-coast
@@ -1100,7 +1100,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-01.tel-aruhn-at-dawn)</code> `🚀 OpenMW`
+`B1` `📍 Tel Aruhn` `🚀 OpenMW`
 
 ```
 2022-07-01.tel-aruhn-at-dawn
@@ -1313,7 +1313,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-06-28.ordinary-day-in-nchurdamz)</code> `🚀 OpenMW` `dwemer`
+`B2` `📍 Nchurdamz` `🚀 OpenMW` `dwemer`
 
 ```
 2022-06-28.ordinary-day-in-nchurdamz
@@ -1442,7 +1442,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`C` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-06-27.going-out-of-mournhold-armory)</code> `🚀 OpenMW` `🔗 Tribunal`
+`C` `📍 Mournhold, Great Bazaar` `🚀 OpenMW` `🔗 Tribunal`
 
 ```
 2022-06-27.going-out-of-mournhold-armory
