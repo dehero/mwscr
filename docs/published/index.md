@@ -31,15 +31,16 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5yrij1LmAN/)       | 2024-04-15 |   132 |    45 |      1414 |   3.18 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1495) | 2024-04-15 |    84 |    22 |       910 |   2.42 |
-| [`tg`](https://t.me/mwscr/379)                     | 2024-04-15 |    84 |    28 |       352 |   7.95 |
-|                                                    |            |   300 |    95 |      2676 |   4.52 |
+| [`ig`](https://instagram.com/p/C5yrij1LmAN/)       | 2024-04-15 |   155 |    49 |      1414 |   3.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1495) | 2024-04-15 |    94 |    23 |       910 |   2.53 |
+| [`tg`](https://t.me/mwscr/379)                     | 2024-04-15 |    89 |    28 |       352 |   7.95 |
+|                                                    |            |   338 |   100 |      2676 |   4.65 |
 
 #### Comments
 
 - `tg` <ins title="2024-04-15-18-20-22">mongleri</ins> nutty putty
 - `ig` <ins title="2024-04-15-18-21-41">bong.iver</ins> Wichtigste Instagram Seite
+- `vk` <ins title="2024-04-15-21-49-18">mortwake</ins> 🚬🗿
 
 ## <span id="2024-04-14.palace-of-vivec">Palace of Vivec</span>
 
@@ -63,10 +64,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTgPnBsDnCq/)       | 2017-04-30 |       |    76 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_275)  | 2017-04-30 |   177 |     5 |        54 |      5 |
-| [`ig`](https://instagram.com/p/C5wWKSEO30a/)       | 2024-04-14 |   313 |    89 |      1413 |    6.3 |
+| [`ig`](https://instagram.com/p/C5wWKSEO30a/)       | 2024-04-14 |   315 |    89 |      1413 |    6.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1494) | 2024-04-14 |   160 |    29 |       911 |   3.18 |
-| [`tg`](https://t.me/mwscr/378)                     | 2024-04-14 |   150 |    51 |       351 |  14.53 |
-|                                                    |            |   800 |   250 |      2675 |   7.25 |
+| [`tg`](https://t.me/mwscr/378)                     | 2024-04-14 |   153 |    51 |       351 |  14.53 |
+|                                                    |            |   805 |   250 |      2675 |   7.25 |
 
 ## <span id="2024-04-13.manwe">Manwe</span>
 
