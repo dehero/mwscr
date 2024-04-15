@@ -1091,3 +1091,33 @@
       likes: 52
       views: 164
 2024-04-14.palace-of-vivec: 2017-04-30.palace-of-vivec
+2024-04-15.night-at-red-mountain:
+  title: Night at Red Mountain
+  titleRu: Ночь у Красной горы
+  content: store:/shots/2024-04-15.night-at-red-mountain.png
+  trash:
+    - store:/trash/natty.2024-03-24-11-56-31.png
+    - store:/trash/natty.2024-03-24-11-56-33.2.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - dwemer
+    - ruin
+    - bridge
+    - towers
+  mark: B1
+  posts:
+    - service: ig
+      id: C5yrij1LmAN
+      mediaId: '18020136608278782'
+      published: 2024-04-15-18-17-29
+      followers: 1414
+    - service: vk
+      id: 1495
+      published: 2024-04-15-18-17-46
+      followers: 910
+    - service: tg
+      id: 379
+      published: 2024-04-15-18-17-53
+      followers: 352

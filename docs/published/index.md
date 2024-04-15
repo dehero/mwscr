@@ -4,7 +4,37 @@
 
 # Published in 2024
 
-`48 items`
+`49 items`
+
+## <span id="2024-04-15.night-at-red-mountain">Night at Red Mountain</span>
+
+`RU` Ночь у Красной горы
+
+<a href="https://instagram.com/p/C5yrij1LmAN/" title="2024-04-15.night-at-red-mountain"><img alt="store:/shots/2024-04-15.night-at-red-mountain.png" src="../../assets/previews/shots/2024-04-15.night-at-red-mountain.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/natty.2024-03-24-11-56-31.png](../../assets/previews/trash/natty.2024-03-24-11-56-31.avif "natty.2024-03-24-11-56-31")
+![store:/trash/natty.2024-03-24-11-56-33.2.png](../../assets/previews/trash/natty.2024-03-24-11-56-33.2.avif "natty.2024-03-24-11-56-33.2")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-15.night-at-red-mountain)</code> `🚀 OpenMW` `dwemer` `ruin` `bridge` `towers`
+
+```
+2024-04-15.night-at-red-mountain
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C5yrij1LmAN/)       | 2024-04-15 |      1414 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1495) | 2024-04-15 |       910 |
+| [`tg`](https://t.me/mwscr/379)                     | 2024-04-15 |       352 |
+|                                                    |            |      2676 |
 
 ## <span id="2024-04-14.palace-of-vivec">Palace of Vivec</span>
 
@@ -28,10 +58,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTgPnBsDnCq/)       | 2017-04-30 |       |    76 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_275)  | 2017-04-30 |   177 |     5 |        54 |      5 |
-| [`ig`](https://instagram.com/p/C5wWKSEO30a/)       | 2024-04-14 |   299 |    86 |      1413 |   6.09 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1494) | 2024-04-14 |   153 |    29 |       911 |   3.18 |
+| [`ig`](https://instagram.com/p/C5wWKSEO30a/)       | 2024-04-14 |   303 |    87 |      1413 |   6.16 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1494) | 2024-04-14 |   154 |    29 |       911 |   3.18 |
 | [`tg`](https://t.me/mwscr/378)                     | 2024-04-14 |   124 |    49 |       351 |  13.96 |
-|                                                    |            |   753 |   245 |      2675 |   7.06 |
+|                                                    |            |   758 |   246 |      2675 |   7.08 |
 
 ## <span id="2024-04-13.manwe">Manwe</span>
 
