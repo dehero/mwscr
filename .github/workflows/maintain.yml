@@ -25,6 +25,8 @@ jobs:
       YOUTUBE_API_KEY: '${{ secrets.YOUTUBE_API_KEY }}'
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2147483647
 
       - name: Install Node.js
         uses: actions/setup-node@v3
@@ -49,5 +51,6 @@ jobs:
         run: |
           git config user.email ${{ env.GITHUB_BOT_EMAIL }}
           git config user.name ${{ env.GITHUB_BOT_NAME }}
+          git fetch --tags origin
           npm run release
           git push --follow-tags origin main
