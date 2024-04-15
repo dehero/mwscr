@@ -130,6 +130,7 @@
 2019-02-09.view-of-caldera:
   title: View of Caldera
   titleRu: Вид на Кальдеру
+  location: Caldera
   content: store:/shots/2019-02-09.view-of-caldera.png
   type: shot
   author: dehero
@@ -168,6 +169,7 @@
 2019-02-10.molag-mar-canalworks:
   title: Molag Mar, Canalworks
   titleRu: Молаг Мар, Каналы
+  location: Molag Mar, Canalworks
   content: store:/shots/2019-02-10.molag-mar-canalworks.png
   type: shot
   author: dehero
@@ -202,6 +204,7 @@
 2019-02-11.at-the-entrance-to-nchuleftingth:
   title: At the Entrance to Nchuleftingth
   titleRu: У входа в Нчулефтингт
+  location: Nchuleftingth
   content: store:/shots/2019-02-11.at-the-entrance-to-nchuleftingth.png
   type: shot
   author: dehero
@@ -231,6 +234,7 @@
 2019-02-12.in-the-temple-of-molag-mar:
   title: In the Temple of Molag Mar
   titleRu: В храме Молаг Мара
+  location: Molag Mar, Temple
   content: store:/shots/2019-02-12.in-the-temple-of-molag-mar.png
   type: shot
   author: dehero
@@ -292,6 +296,7 @@
 2019-02-14.inside-a-house-in-raven-rock:
   title: Inside a House in Raven Rock
   titleRu: Внутри дома в Вороньей Скале
+  location: Raven Rock
   content: store:/shots/2019-02-14.inside-a-house-in-raven-rock.png
   type: shot
   author: dehero
@@ -452,6 +457,7 @@
 2019-02-19.sandy-shore-of-west-gash:
   title: Sandy Shore of West Gash
   titleRu: Песчаный берег Западного нагорья
+  location: West Gash Region
   content: store:/shots/2019-02-19.sandy-shore-of-west-gash.png
   type: shot
   author: dehero
@@ -541,6 +547,7 @@
 2019-02-22.ordinator-of-mournhold:
   title: Ordinator of Mournhold
   titleRu: Ординатор Морнхолда
+  location: Mournhold Temple
   content: store:/shots/2019-02-22.ordinator-of-mournhold.png
   type: shot
   author: dehero
@@ -764,6 +771,7 @@
 2019-03-07.mzahnch:
   title: Mzahnch
   titleRu: Мзанч
+  location: Mzahnch
   content: store:/shots/2019-03-07.mzahnch.png
   type: shot
   author: dehero
@@ -968,6 +976,7 @@
 2019-04-02.towers-of-mzanchend:
   title: Towers of Mzanchend
   titleRu: Башни Мзанченда
+  location: Mzanchend
   content: store:/shots/2019-04-02.towers-of-mzanchend.png
   type: shot
   author: dehero
@@ -1232,6 +1241,7 @@
 2019-05-14.towers-of-mzanchend-by-knives-out:
   title: Towers of Mzanchend Drawn by Knives Out
   titleRu: Башни Мзанченда в исполнении Knives Out
+  location: Mzanchend
   content:
     - store:/drawings/2019-05-14.towers-of-mzanchend-by-knives-out.png
     - store:/shots/2019-04-02.towers-of-mzanchend.png
@@ -1721,6 +1731,7 @@
 2019-10-10.somewhere-under-mournhold:
   title: Somewhere Under Mournhold
   titleRu: Где-то под Морнхолдом
+  location: Old Mournhold
   content: store:/shots/2019-10-10.somewhere-under-mournhold.png
   type: shot
   author: dehero

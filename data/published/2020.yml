@@ -388,6 +388,7 @@
 2020-05-23.rainy-day-in-sadrith-mora:
   title: Rainy Day in Sadrith Mora
   titleRu: Дождливый день в Садрит Море
+  location: Sadrith Mora
   content: store:/shots/2020-05-23.rainy-day-in-sadrith-mora.png
   type: shot
   author: dehero
@@ -423,6 +424,7 @@
 2020-05-24.at-the-bitter-coast:
   title: At the Bitter Coast
   titleRu: На Горьком берегу
+  location: Bitter Coast Region
   content: store:/shots/2020-05-24.at-the-bitter-coast.png
   type: shot
   author: dehero
@@ -533,6 +535,7 @@
 2020-10-10.assurnabitashpi:
   title: Assurnabitashpi
   titleRu: Ассурнабиташпи
+  location: Assurnabitashpi
   content: store:/shots/2020-10-10.assurnabitashpi.png
   type: shot
   author: dehero
@@ -618,6 +621,7 @@
 2020-10-12.evening-lights-of-suran:
   title: Evening Lights of Suran
   titleRu: Вечерние огни Сурана
+  location: Suran
   content: store:/shots/2020-10-12.evening-lights-of-suran.png
   type: shot
   author: dehero
@@ -665,6 +669,7 @@
 2020-10-13.by-the-entrance-to-palansour:
   title: By the Entrance to Palansour
   titleRu: У входа в Палансур
+  location: Palansour
   content: store:/shots/2020-10-13.by-the-entrance-to-palansour.png
   type: shot
   author: dehero
@@ -823,6 +828,7 @@
 2020-10-17.in-urshilaku-camp:
   title: In Urshilaku Camp
   titleRu: В лагере Уршилаку
+  location: Urshilaku Camp
   content: store:/shots/2020-10-17.in-urshilaku-camp.png
   type: shot
   author: dehero
@@ -1057,6 +1063,7 @@
 2020-10-23.long-long-passageways-of-vivec:
   title: Long-Long Passageways of Vivec
   titleRu: Долгие-долгие коридоры Вивека
+  location: Vivec
   content: store:/shots/2020-10-23.long-long-passageways-of-vivec.png
   type: shot
   author: dehero
@@ -1133,6 +1140,7 @@
 2020-10-25.opening-the-doors-of-sotha-sil:
   title: Opening the Doors of Sotha Sil
   titleRu: Открывая двери Сота Сила
+  location: Sotha Sil, Outer Flooded Halls
   content: store:/shots/2020-10-25.opening-the-doors-of-sotha-sil.png
   type: shot
   author: dehero
@@ -1169,6 +1177,7 @@
 2020-10-26.nook-of-bitter-coast:
   title: Nook of Bitter Coast
   titleRu: Уголок Горького берега
+  location: Bitter Coast Region
   content: store:/shots/2020-10-26.nook-of-bitter-coast.png
   type: shot
   author: dehero
@@ -1311,6 +1320,7 @@
 2020-10-30.bthungthumz-at-dawn:
   title: Bthungthumz at Dawn
   titleRu: Бтунгтумц на рассвете
+  location: Bthungthumz
   content: store:/shots/2020-10-30.bthungthumz-at-dawn.png
   type: shot
   author: dehero
@@ -1345,6 +1355,7 @@
 2020-10-31.entrance-to-sanni:
   title: Entrance to Sanni
   titleRu: Вход в Санни
+  location: Sanni
   content: store:/shots/2020-10-31.entrance-to-sanni.png
   type: shot
   author: dehero

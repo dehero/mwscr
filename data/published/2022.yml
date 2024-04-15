@@ -190,6 +190,7 @@
 2022-06-27.going-out-of-mournhold-armory:
   title: Going Out of Mournhold Armory
   titleRu: Выходя из оружейной Морнхолда
+  location: Mournhold, Great Bazaar
   content: store:/shots/2022-06-27.going-out-of-mournhold-armory.png
   type: shot
   author: dehero
@@ -230,6 +231,7 @@
 2022-06-28.ordinary-day-in-nchurdamz:
   title: Ordinary Day in Nchurdamz
   titleRu: Обычный день в Нчурдамце
+  location: Nchurdamz
   content: store:/shots/2022-06-28.ordinary-day-in-nchurdamz.png
   type: shot
   author: dehero
@@ -342,6 +344,7 @@
 2022-07-01.tel-aruhn-at-dawn:
   title: Tel Aruhn at Dawn
   titleRu: Тель Арун на заре
+  location: Tel Aruhn
   content: store:/shots/2022-07-01.tel-aruhn-at-dawn.png
   type: shot
   author: dehero
@@ -406,6 +409,7 @@
 2022-07-03.crossing-the-edge-of-bitter-coast:
   title: Crossing the Edge of Bitter Coast
   titleRu: Пересекая край Горького берега
+  location: Bitter Coast Region
   content: store:/shots/2022-07-03.crossing-the-edge-of-bitter-coast.png
   type: shot
   author: dehero
@@ -806,6 +810,7 @@
 2022-07-13.cold-waters-of-west-gash:
   title: Cold Waters of West Gash
   titleRu: Холодные воды Западного Нагорья
+  location: West Gash Region
   content: store:/shots/2022-07-13.cold-waters-of-west-gash.png
   type: shot
   author: dehero
@@ -1030,6 +1035,7 @@
 2022-07-19.stillness-of-vivec:
   title: Stillness of Vivec
   titleRu: Тишина Вивека
+  location: Vivec
   content: store:/shots/2022-07-19.stillness-of-vivec.png
   type: shot
   author: dehero
@@ -1063,6 +1069,7 @@
 2022-07-20.norvayn-ancestral-tomb:
   title: Norvayn Ancestral Tomb
   titleRu: Родовая гробница Норвайнов
+  location: Norvayn Ancestral Tomb
   content: store:/shots/2022-07-20.norvayn-ancestral-tomb.png
   type: shot
   author: dehero
