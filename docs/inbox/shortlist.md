@@ -4,7 +4,29 @@
 
 # Shortlist
 
-`1 items`
+`2 items`
+
+## <span id="natty.2024-03-24-11-56-33">Night at Red Mountain</span>
+
+`RU` Ночь у Красной горы
+
+![store:/inbox/natty.2024-03-24-11-56-33.1.png](../../assets/previews/inbox/natty.2024-03-24-11-56-33.1.avif "natty.2024-03-24-11-56-33.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/natty.2024-03-24-11-56-33.png](../../assets/previews/inbox/natty.2024-03-24-11-56-33.avif "natty.2024-03-24-11-56-33")
+![store:/inbox/natty.2024-03-24-11-56-31.png](../../assets/previews/inbox/natty.2024-03-24-11-56-31.avif "natty.2024-03-24-11-56-31")
+![store:/inbox/natty.2024-03-24-11-56-33.2.png](../../assets/previews/inbox/natty.2024-03-24-11-56-33.2.avif "natty.2024-03-24-11-56-33.2")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-24-11-56-33&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-24-11-56-33.1.png&amp;postTitle=Night+at+Red+Mountain&amp;postTitleRu=%D0%9D%D0%BE%D1%87%D1%8C+%D1%83+%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+%D0%B3%D0%BE%D1%80%D1%8B&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=dwemer+ruin+bridge+towers&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-03-24-11-56-33.png%0Astore%3A%2Finbox%2Fnatty.2024-03-24-11-56-31.png%0Astore%3A%2Finbox%2Fnatty.2024-03-24-11-56-33.2.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-24-11-56-33) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-24-11-56-33) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-24-11-56-33)</code> `🚀 OpenMW` `dwemer` `ruin` `bridge` `towers`
+
+```
+natty.2024-03-24-11-56-33
+```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
 
