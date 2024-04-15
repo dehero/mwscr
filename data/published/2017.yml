@@ -518,28 +518,28 @@
       id: C5q81aSMyOO
       mediaId: '18027378698055717'
       published: 2024-04-12-18-14-42
-      updated: 2024-04-14-14-29-02
+      updated: 2024-04-15-15-14-33
       followers: 1413
-      likes: 92
-      views: 339
+      likes: 98
+      views: 366
       comments: !c |-
         iyuAkpPLQnjtSm6CAACrZGVsYW5vc3BpZXPZIkBkcmF2ZW5qdiBtZWV0IG1lIGhlcmUgaW4gMyBo
         b3Vycy6Ty0J47UABUYAArWxpZ2h0dmlzaW9uMTGk8J+RuwM=
     - service: vk
       id: 1491
       published: 2024-04-12-18-14-50
-      updated: 2024-04-14-14-29-03
+      updated: 2024-04-15-15-14-32
       followers: 911
-      likes: 29
-      views: 181
+      likes: 31
+      views: 190
       reposts: 1
     - service: tg
       id: 376
       published: 2024-04-12-18-15-00
-      updated: 2024-04-14-14-29-03
+      updated: 2024-04-15-15-14-33
       followers: 352
-      likes: 54
-      views: 155
+      likes: 59
+      views: 181
       comments: !c |-
         G3kCICwOeHPoJNT0dgTVz0b0TxysCP/kgSRBxlEgcVjABcGRnOxTdSMYodAkCN/vK5SzFXt/92vU
         bJIm1nd3w9venyuqqBayEqSCS7uerJZP65+m2NyG1hh0Ux8fFA7oVxM/3TgWZoElGng0tkYQYIC9
@@ -3621,24 +3621,24 @@
       id: C5wWKSEO30a
       mediaId: '17887334160012628'
       published: 2024-04-14-20-32-11
-      updated: 2024-04-15-14-12-53
+      updated: 2024-04-15-15-14-31
       followers: 1413
-      likes: 77
-      views: 269
+      likes: 82
+      views: 282
     - service: vk
       id: 1494
       published: 2024-04-14-20-32-17
-      updated: 2024-04-15-14-12-53
+      updated: 2024-04-15-15-14-30
       followers: 911
-      likes: 28
-      views: 147
+      likes: 29
+      views: 149
     - service: tg
       id: 378
       published: 2024-04-14-20-32-22
-      updated: 2024-04-15-14-12-54
+      updated: 2024-04-15-15-14-31
       followers: 351
       likes: 49
-      views: 119
+      views: 121
 2017-05-01.altmer-camp:
   title: Altmer Camp
   titleRu: Лагерь альтмеров
