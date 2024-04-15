@@ -1556,25 +1556,25 @@
       id: C4D9QbcS7Mu
       mediaId: '18043982875714235'
       published: 2024-03-03-18-16-37
-      updated: 2024-04-07-22-12-01
+      updated: 2024-04-15-00-01-15
       followers: 1377
       likes: 96
-      views: 567
+      views: 569
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2024-04-07-22-12-02
+      updated: 2024-04-15-00-01-16
       followers: 894
       likes: 34
-      views: 271
+      views: 275
       reposts: 1
     - service: tg
       id: 334
       published: 2024-03-03-18-16-50
-      updated: 2024-04-07-22-12-01
+      updated: 2024-04-15-00-01-15
       followers: 341
       likes: 61
-      views: 437
+      views: 449
 2018-03-01.guardess-of-assernerairan:
   title: Guardess of Assernerairan
   titleRu: Охранница Ассернерайрана
@@ -3429,10 +3429,10 @@
       id: C46BYvNMfp5
       mediaId: '18220300978278950'
       published: 2024-03-24-18-11-41
-      updated: 2024-04-07-22-12-00
+      updated: 2024-04-15-00-01-13
       followers: 1400
-      likes: 98
-      views: 425
+      likes: 100
+      views: 430
       comments: !c |-
         G54AaBwHdkz4sFo9UHxAHYm6Om3q3BMu9W86KrL/XhZBkRT4tHMS5FwnJ3rmGx5rC8KAEwgw5Ahz
         G1uer+D1ObtB/TOefr9x2QBEWYzSrMoDVh0uLVHL0rBVhqwpmSIDyrKmdhDEfFk/RHuyjO8uKqXj
@@ -3440,17 +3440,17 @@
     - service: vk
       id: 1468
       published: 2024-03-24-18-11-49
-      updated: 2024-04-07-22-12-00
+      updated: 2024-04-15-00-01-14
       followers: 898
-      likes: 40
-      views: 297
+      likes: 41
+      views: 307
     - service: tg
       id: 356
       published: 2024-03-24-18-11-58
-      updated: 2024-04-07-22-12-00
+      updated: 2024-04-15-00-01-14
       followers: 352
       likes: 57
-      views: 341
+      views: 359
       comments: !c iw2AkZPLQnjnGx3lAACrYm9icm92bmlrb3ak8J+VrwM=
 2018-05-10.drooping-sun-of-molag-amur:
   title: Drooping Sun of Molag Amur
@@ -4095,7 +4095,7 @@
 2018-06-02.mournhold-cactus:
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
-  location: "Mournhold, Royal Palace: Guards' Quarters"
+  location: 'Mournhold, Royal Palace: Guards'' Quarters'
   content: store:/shots/2018-06-02.mournhold-cactus.png
   type: shot
   author: dehero
