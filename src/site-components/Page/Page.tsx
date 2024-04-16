@@ -1,15 +1,16 @@
 import { useLocation } from '@solidjs/router';
-import { type Component, For, type JSX } from 'solid-js';
-import { Button } from '../Button/Button.js';
-import { Frame } from '../Frame/Frame.js';
+import { type Component, For, type JSX, Show } from 'solid-js';
+import { Button } from '../Button/Button.jsx';
+import { Frame } from '../Frame/Frame.jsx';
 import { routes } from '../routes.js';
-import styles from './App.module.css';
+import styles from './Page.module.css';
 
-export interface AppProps {
+export interface PageProps {
   children?: JSX.Element;
+  status?: string;
 }
 
-export const App: Component<AppProps> = (props) => {
+export const Page: Component<PageProps> = (props) => {
   const location = useLocation();
 
   return (
@@ -40,6 +41,12 @@ export const App: Component<AppProps> = (props) => {
       </nav>
 
       <main class={styles.main}>{props.children}</main>
+
+      <Show when={props.status}>
+        <Frame variant="thin" class={styles.status}>
+          {props.status}
+        </Frame>
+      </Show>
     </>
   );
 };
