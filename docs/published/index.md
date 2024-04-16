@@ -4,7 +4,39 @@
 
 # Published in 2024
 
-`49 items`
+`50 items`
+
+## <span id="2024-04-16.birth-of-fabricant">Birth of Fabricant</span>
+
+`RU` Рождение фабриканта
+
+<a href="https://instagram.com/p/BeBen7vj3Ii/" title="2018-01-16.birth-of-fabricant"><img alt="store:/shots/2018-01-16.birth-of-fabricant.png" src="../../assets/previews/shots/2018-01-16.birth-of-fabricant.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-16.birth-of-fabricant)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil`
+
+```
+2024-04-16.birth-of-fabricant
+```
+
+> `2018-01-16.birth-of-fabricant`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BeBen7vj3Ii/)       | 2018-01-16 |       |    81 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_579)  | 2018-01-16 |   543 |    28 |       122 |  22.95 |
+| [`ig`](https://instagram.com/p/C51QP5Urf1u/)       | 2024-04-16 |       |       |      1414 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1497) | 2024-04-16 |       |       |       910 |        |
+| [`tg`](https://t.me/mwscr/380)                     | 2024-04-16 |       |       |       353 |        |
+|                                                    |            |   543 |   109 |      2677 |        |
+
+#### Comments
+
+- `ig` <ins title="2018-01-17-15-28-45">konst.mk</ins> Расскажите, пожалуйста, где искать? А то я в трибунал почти не играл
+  - <ins title="2018-01-17-16-25-19">mwscr</ins> @konstantin.manyakhin Это в Заводом городе, купол Серлин. Туда можно телепортироваться в конце сюжетной линии Трибунала.
 
 ## <span id="2024-04-15.night-at-red-mountain">Night at Red Mountain</span>
 
@@ -31,10 +63,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5yrij1LmAN/)       | 2024-04-15 |   274 |    83 |      1414 |   5.87 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1495) | 2024-04-15 |   166 |    36 |       910 |   3.96 |
+| [`ig`](https://instagram.com/p/C5yrij1LmAN/)       | 2024-04-15 |   278 |    83 |      1414 |   5.87 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1495) | 2024-04-15 |   167 |    36 |       910 |   3.96 |
 | [`tg`](https://t.me/mwscr/379)                     | 2024-04-15 |   135 |    40 |       352 |  11.36 |
-|                                                    |            |   575 |   159 |      2676 |   7.06 |
+|                                                    |            |   580 |   159 |      2676 |   7.06 |
 
 #### Comments
 
@@ -65,10 +97,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTgPnBsDnCq/)       | 2017-04-30 |       |    76 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_275)  | 2017-04-30 |   177 |     5 |        54 |      5 |
-| [`ig`](https://instagram.com/p/C5wWKSEO30a/)       | 2024-04-14 |   363 |   100 |      1413 |   7.08 |
+| [`ig`](https://instagram.com/p/C5wWKSEO30a/)       | 2024-04-14 |   364 |   100 |      1413 |   7.08 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1494) | 2024-04-14 |   178 |    32 |       911 |   3.51 |
 | [`tg`](https://t.me/mwscr/378)                     | 2024-04-14 |   173 |    53 |       351 |   15.1 |
-|                                                    |            |   891 |   266 |      2675 |   7.67 |
+|                                                    |            |   892 |   266 |      2675 |   7.67 |
 
 ## <span id="2024-04-13.manwe">Manwe</span>
 
