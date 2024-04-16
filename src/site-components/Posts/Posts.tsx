@@ -14,6 +14,7 @@ import { getUserName } from '../../site-data-managers/users.js';
 import { asArray } from '../../utils/common-utils.js';
 import { Divider } from '../Divider/Divider.js';
 import { Input } from '../Input/Input.js';
+import { Page } from '../Page/Page.js';
 import { PostPreview } from '../PostPreview/PostPreview.js';
 import { RadioGroup } from '../RadioGroup/RadioGroup.jsx';
 import { Select } from '../Select/Select.js';
@@ -174,68 +175,70 @@ export const Posts: Component = () => {
   const [users] = createResource(getUsers);
 
   return (
-    <>
-      <form class={styles.filter}>
-        <RadioGroup
-          options={[{ value: undefined, label: 'All' }, ...POST_TYPES.map((value) => ({ value }))]}
-          name="postType"
-          value={postType()}
-          onChange={setPostType}
-        />
-        <Select
-          label="Location"
-          options={[{ value: undefined, label: 'All' }, ...(locations()?.map((value) => ({ value })) ?? [])]}
-          value={postLocation()}
-          onChange={setPostLocation}
-        />
-        <Select
-          label="Tag"
-          options={[{ value: undefined, label: 'All' }, ...(tags()?.map((value) => ({ value })) ?? [])]}
-          value={postTag()}
-          onChange={setPostTag}
-        />
-        <Select
-          label="Author"
-          options={[
-            { value: undefined, label: 'All' },
-            ...(users()?.map((value) => ({ value, label: getUserName(value) })) ?? []),
-          ]}
-          value={postAuthor()}
-          onChange={setPostAuthor}
-        />
-        <Select
-          label="Order By"
-          options={comparators.map(({ value, label }) => ({ value, label }))}
-          value={sortKey()}
-          onChange={setSortKey}
-        />
-        <Input
-          label="Search"
-          value={searchTerm()}
-          onChange={() => setIsSearching(true)}
-          onDebouncedChange={(value) => {
-            setSearchTerm(value);
-            setIsSearching(false);
-          }}
-        />
-      </form>
+    <Page status={posts.loading ? 'Loading...' : isSearching() ? 'Searching...' : undefined}>
+      <>
+        <form class={styles.filter}>
+          <RadioGroup
+            options={[{ value: undefined, label: 'All' }, ...POST_TYPES.map((value) => ({ value }))]}
+            name="postType"
+            value={postType()}
+            onChange={setPostType}
+          />
+          <Select
+            label="Location"
+            options={[{ value: undefined, label: 'All' }, ...(locations()?.map((value) => ({ value })) ?? [])]}
+            value={postLocation()}
+            onChange={setPostLocation}
+          />
+          <Select
+            label="Tag"
+            options={[{ value: undefined, label: 'All' }, ...(tags()?.map((value) => ({ value })) ?? [])]}
+            value={postTag()}
+            onChange={setPostTag}
+          />
+          <Select
+            label="Author"
+            options={[
+              { value: undefined, label: 'All' },
+              ...(users()?.map((value) => ({ value, label: getUserName(value) })) ?? []),
+            ]}
+            value={postAuthor()}
+            onChange={setPostAuthor}
+          />
+          <Select
+            label="Order By"
+            options={comparators.map(({ value, label }) => ({ value, label }))}
+            value={sortKey()}
+            onChange={setSortKey}
+          />
+          <Input
+            label="Search"
+            value={searchTerm()}
+            onChange={() => setIsSearching(true)}
+            onDebouncedChange={(value) => {
+              setSearchTerm(value);
+              setIsSearching(false);
+            }}
+          />
+        </form>
 
-      <Divider />
+        <Divider />
 
-      <Show when={!posts.loading} fallback={isSearching() ? 'Searching...' : 'Loading...'}>
-        <div ref={targetVertical} class={styles.scrollContainer}>
-          <VirtualContainer
-            items={posts() ?? []}
-            scrollTarget={targetVertical}
-            // Calculate how many grid columns to show.
-            crossAxisCount={(measurements) => Math.floor(measurements.container.cross / measurements.itemSize.cross)}
-            // overscan={10}
-            itemSize={calculateGridItemSize}
-          >
-            {ListItem}
-          </VirtualContainer>
-        </div>
-      </Show>
-    </>
+        <Show when={!posts.loading}>
+          <div ref={targetVertical} class={styles.scrollContainer}>
+            <VirtualContainer
+              items={posts() ?? []}
+              scrollTarget={targetVertical}
+              // Calculate how many grid columns to show.
+              crossAxisCount={(measurements) => Math.floor(measurements.container.cross / measurements.itemSize.cross)}
+              // overscan={10}
+              itemSize={calculateGridItemSize}
+            >
+              {ListItem}
+            </VirtualContainer>
+          </div>
+        </Show>
+      </>
+    </Page>
   );
 };
