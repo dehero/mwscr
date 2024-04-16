@@ -1,6 +1,8 @@
 import yamlPlugin from '@modyfi/vite-plugin-yaml';
 import remarkGfm from 'remark-gfm';
 import { defineConfig } from 'vite';
+// @ts-expect-error No proper typing
+import faviconPlugin from 'vite-plugin-favicons-inject';
 import { nodePolyfills } from 'vite-plugin-node-polyfills';
 import plainTextPlugin from 'vite-plugin-plain-text';
 import solidPlugin from 'vite-plugin-solid';
@@ -17,6 +19,16 @@ export default defineConfig({
   root: 'src/site-components',
   publicDir: '../../assets',
   plugins: [
+    faviconPlugin('./assets/icon.png', {
+      appName: 'Morrowind Screenshots',
+      appShortName: 'mwscr',
+      appDescription:
+        'Original screenshots and videos from The Elder Scrolls III: Morrowind. No third-party mods. No color filters. No interface.',
+      developerName: 'dehero',
+      developerURL: 'https://github.com/dehero',
+      background: '#000',
+      theme_color: '#000',
+    }),
     solidMarkdownPlugin({
       remarkPlugins: [
         remarkGfm,

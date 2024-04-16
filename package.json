@@ -44,7 +44,8 @@
     "vite": "^5.2.8",
     "vite-plugin-plain-text": "^1.4.2",
     "vite-plugin-solid": "^2.10.2",
-    "vite-plugin-solid-markdown": "^0.0.6"
+    "vite-plugin-solid-markdown": "^0.0.6",
+    "vite-plugin-favicons-inject": "^2.2.0"
   },
   "dependencies": {
     "@googleapis/youtube": "^13.1.0",
