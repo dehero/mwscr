@@ -35,6 +35,8 @@
   font-family: inherit;
   padding: 1px 21px 1px 4px;
   outline: none;
+  min-height: 20px;
+  box-sizing: border-box;
 }
 
 .select:focus,
