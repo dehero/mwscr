@@ -425,24 +425,28 @@
       id: C51QP5Urf1u
       mediaId: '18428034226010775'
       published: 2024-04-16-18-16-46
-      updated: 2024-04-16-20-13-47
+      updated: 2024-04-16-21-13-07
       followers: 1414
-      likes: 48
-      views: 136
+      likes: 57
+      views: 172
     - service: vk
       id: 1497
       published: 2024-04-16-18-16-52
-      updated: 2024-04-16-20-13-47
+      updated: 2024-04-16-21-13-07
       followers: 910
-      likes: 11
-      views: 65
+      likes: 15
+      views: 81
+      reposts: 1
     - service: tg
       id: 380
       published: 2024-04-16-18-16-59
-      updated: 2024-04-16-20-13-48
+      updated: 2024-04-16-21-13-08
       followers: 353
-      likes: 24
-      views: 67
+      likes: 29
+      views: 72
+      comments: !c |-
+        iymAkZTLQnjuiXXlAACqYWxleF9lbXNvd7pJIGp1c3QgaGF0ZSB0aGlzIHBsYWNl8J+YhZPLQnju
+        iwdDAACpR2F0ZW1hdGU3rnRoaXMgaXMgYSBtb2Q/Aw==
 2018-01-17.nelas-ancestral-tomb:
   title: Nelas Ancestral Tomb
   titleRu: Родовая гробница Неласов
