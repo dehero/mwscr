@@ -9,6 +9,8 @@
   text-decoration: none;
   outline: none;
   color: var(--color-text);
+  line-height: 1;
+  max-height: 24px;
 }
 
 .button:focus,
