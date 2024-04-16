@@ -1,24 +1,14 @@
 import clsx from 'clsx';
-import { type Component, createResource, createSignal, For, Show } from 'solid-js';
+import { type Component, createSignal, For, Show } from 'solid-js';
 import { getPostRating, type Post } from '../../entities/post.js';
 import { asArray } from '../../utils/common-utils.js';
 import { Frame } from '../Frame/Frame.jsx';
 import { PostTooltip } from '../PostTooltip/PostTooltip.js';
 import styles from './PostPreview.module.css';
 
-const getPreviewUrl = async (url: string | undefined) => {
-  if (import.meta.env.DEV) {
-    if (!url) {
-      return;
-    }
-    const previews = import.meta.glob('../../../assets/previews/**/*.avif', { query: 'url', import: 'default' });
-    const importPath = url.replace(/^store:\/(.*)\..*/, '../../../assets/previews/$1.avif');
-    const previewUrl = (await previews[importPath]?.()) as string | undefined;
-    return previewUrl ?? url;
-  }
-
-  return url?.replace(/^store:\/(.*)\..*/, 'https://github.com/dehero/mwscr/raw/main/assets/previews/$1.avif');
-};
+function getPreviewUrl(url: string | undefined) {
+  return url?.replace(/^store:\/(.*)\..*/, '/previews/$1.avif');
+}
 
 interface PostPreviewProps {
   class?: string;
@@ -26,13 +16,7 @@ interface PostPreviewProps {
 }
 
 const ImagePreview: Component<{ url: string | undefined }> = (props) => {
-  const [src] = createResource(() => props.url, getPreviewUrl);
-
-  return (
-    <Show when={!src.loading} fallback={<div class={styles.image} />}>
-      <img src={src()} class={styles.image} />
-    </Show>
-  );
+  return <img src={getPreviewUrl(props.url)} class={styles.image} />;
 };
 
 export const PostPreview: Component<PostPreviewProps> = (props) => {
