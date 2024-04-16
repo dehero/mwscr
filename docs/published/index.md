@@ -31,16 +31,17 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5yrij1LmAN/)       | 2024-04-15 |   223 |    65 |      1414 |    4.6 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1495) | 2024-04-15 |   145 |    33 |       910 |   3.63 |
-| [`tg`](https://t.me/mwscr/379)                     | 2024-04-15 |   125 |    38 |       352 |   10.8 |
-|                                                    |            |   493 |   136 |      2676 |   6.34 |
+| [`ig`](https://instagram.com/p/C5yrij1LmAN/)       | 2024-04-15 |   233 |    71 |      1414 |   5.02 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1495) | 2024-04-15 |   149 |    33 |       910 |   3.63 |
+| [`tg`](https://t.me/mwscr/379)                     | 2024-04-15 |   127 |    39 |       352 |  11.08 |
+|                                                    |            |   509 |   143 |      2676 |   6.58 |
 
 #### Comments
 
 - `tg` <ins title="2024-04-15-18-20-22">mongleri</ins> nutty putty
 - `ig` <ins title="2024-04-15-18-21-41">bong.iver</ins> Wichtigste Instagram Seite
 - `vk` <ins title="2024-04-15-21-49-18">mortwake</ins> 🚬🗿
+- `ig` <ins title="2024-04-16-10-19-36">someone_simple42</ins> I love those lands, man.
 
 ## <span id="2024-04-14.palace-of-vivec">Palace of Vivec</span>
 
@@ -64,10 +65,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTgPnBsDnCq/)       | 2017-04-30 |       |    76 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_275)  | 2017-04-30 |   177 |     5 |        54 |      5 |
-| [`ig`](https://instagram.com/p/C5wWKSEO30a/)       | 2024-04-14 |   348 |    98 |      1413 |   6.94 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1494) | 2024-04-14 |   170 |    30 |       911 |   3.29 |
-| [`tg`](https://t.me/mwscr/378)                     | 2024-04-14 |   165 |    53 |       351 |   15.1 |
-|                                                    |            |   860 |   262 |      2675 |   7.58 |
+| [`ig`](https://instagram.com/p/C5wWKSEO30a/)       | 2024-04-14 |   351 |    99 |      1413 |   7.01 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1494) | 2024-04-14 |   171 |    30 |       911 |   3.29 |
+| [`tg`](https://t.me/mwscr/378)                     | 2024-04-14 |   167 |    53 |       351 |   15.1 |
+|                                                    |            |   866 |   263 |      2675 |    7.6 |
 
 ## <span id="2024-04-13.manwe">Manwe</span>
 
