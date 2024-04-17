@@ -20,7 +20,10 @@ import { RadioGroup } from '../RadioGroup/RadioGroup.jsx';
 import { Select } from '../Select/Select.js';
 import styles from './Posts.module.css';
 
-const postChunks = import.meta.glob('../../../data/published/*.yml', { import: 'default' });
+const postChunks = import.meta.glob('../../../data/published/*.yml', {
+  import: 'default',
+  query: { transform: 'postInfo' },
+});
 
 const comparators = [
   { value: 'id', label: 'ID', fn: comparePostEntriesById },

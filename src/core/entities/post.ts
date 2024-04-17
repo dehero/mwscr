@@ -56,6 +56,10 @@ export interface Post {
   mark?: PostMark;
   violation?: PostViolation;
   posts?: ServicePost<unknown>[];
+  commentCount?: number;
+  likes?: number;
+  views?: number;
+  rating?: number;
 }
 
 export type PostEntry<TPost extends Post> = [id: string, post: TPost, refId?: string];
@@ -88,11 +92,11 @@ export function isPublishedPost(post: Post, service: string) {
 }
 
 export function getPostTotalLikes(post: Post) {
-  return post.posts?.reduce((acc, post) => acc + (post.likes ?? 0), 0) ?? 0;
+  return post.likes ?? post.posts?.reduce((acc, post) => acc + (post.likes ?? 0), 0) ?? 0;
 }
 
 export function getPostTotalViews(post: Post) {
-  return post.posts?.reduce((acc, post) => acc + (post.views ?? 0), 0) ?? 0;
+  return post.views ?? post.posts?.reduce((acc, post) => acc + (post.views ?? 0), 0) ?? 0;
 }
 
 export function getPostMaxFollowers(post: Post) {
@@ -107,6 +111,10 @@ export function getPostMaxFollowers(post: Post) {
 }
 
 export function getPostRating(post: Post) {
+  if (typeof post.rating !== 'undefined') {
+    return post.rating;
+  }
+
   const ratings: number[] = post.posts?.map((post) => getServicePostRating(post)).filter((rating) => rating > 0) ?? [];
   // Need at least 2 posting service ratings to calculate average rating
   if (ratings.length < 2) {
@@ -117,10 +125,13 @@ export function getPostRating(post: Post) {
 }
 
 export function getPostCommentCount(post: Post) {
-  return post.posts?.reduce(
-    (total, servicePost) =>
-      total + (servicePost.comments?.reduce((total, comment) => total + 1 + (comment.replies?.length ?? 0), 0) ?? 0),
-    0,
+  return (
+    post.commentCount ??
+    post.posts?.reduce(
+      (total, servicePost) =>
+        total + (servicePost.comments?.reduce((total, comment) => total + 1 + (comment.replies?.length ?? 0), 0) ?? 0),
+      0,
+    )
   );
 }
 
