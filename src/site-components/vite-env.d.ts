@@ -1,8 +1,17 @@
 /// <reference types="vite/client" />
-/// <reference types="@modyfi/vite-plugin-yaml/modules" />
 
 declare module '*.lst' {
   export = string;
+}
+
+declare module '*.yaml' {
+  const value: Record<string, unknown>;
+  export = value;
+}
+
+declare module '*.yml' {
+  const value: Record<string, unknown>;
+  export = value;
 }
 
 declare module '*.md' {
