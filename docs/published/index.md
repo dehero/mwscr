@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`50 items`
+`51 items`
+
+## <span id="2024-04-17.interior-garden">Interior Garden</span>
+
+`RU` Внутренний сад
+
+<a href="https://instagram.com/p/BSSo_M4Dm2-/" title="2017-03-31.interior-garden"><img alt="store:/shots/2017-03-31.interior-garden.png" src="../../assets/previews/shots/2017-03-31.interior-garden.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-17.interior-garden)</code> `🚀 OpenMW` `nofilter` `mushrooms` `interiorgarden`
+
+```
+2024-04-17.interior-garden
+```
+
+> `2017-03-31.interior-garden`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BSSo_M4Dm2-/)       | 2017-03-31 |       |    57 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_238)  | 2017-03-31 |   121 |     4 |        50 |      4 |
+| [`ig`](https://instagram.com/p/C531KaqsRUG/)       | 2024-04-17 |       |       |      1413 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1498) | 2024-04-17 |       |       |       910 |        |
+| [`tg`](https://t.me/mwscr/381)                     | 2024-04-17 |       |       |       354 |        |
+|                                                    |            |   121 |    61 |      2677 |        |
 
 ## <span id="2024-04-16.birth-of-fabricant">Birth of Fabricant</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BeBen7vj3Ii/)       | 2018-01-16 |       |    81 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_579)  | 2018-01-16 |   543 |    28 |       122 |  22.95 |
-| [`ig`](https://instagram.com/p/C51QP5Urf1u/)       | 2024-04-16 |   383 |    95 |      1414 |   6.72 |
+| [`ig`](https://instagram.com/p/C51QP5Urf1u/)       | 2024-04-16 |   394 |    96 |      1414 |   6.79 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1497) | 2024-04-16 |   162 |    21 |       910 |   2.31 |
-| [`tg`](https://t.me/mwscr/380)                     | 2024-04-16 |   116 |    44 |       353 |  12.46 |
-|                                                    |            |  1204 |   269 |      2677 |  11.11 |
+| [`tg`](https://t.me/mwscr/380)                     | 2024-04-16 |   117 |    44 |       353 |  12.46 |
+|                                                    |            |  1216 |   270 |      2677 |  11.13 |
 
 #### Comments
 
@@ -67,8 +94,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C5yrij1LmAN/)       | 2024-04-15 |   329 |    99 |      1414 |      7 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1495) | 2024-04-15 |   189 |    39 |       910 |   4.29 |
-| [`tg`](https://t.me/mwscr/379)                     | 2024-04-15 |   158 |    47 |       352 |  13.35 |
-|                                                    |            |   676 |   185 |      2676 |   8.21 |
+| [`tg`](https://t.me/mwscr/379)                     | 2024-04-15 |   159 |    47 |       352 |  13.35 |
+|                                                    |            |   677 |   185 |      2676 |   8.21 |
 
 #### Comments
 
@@ -130,10 +157,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5thvvzynm3/)       | 2024-04-13 |   418 |   113 |      1412 |      8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1492) | 2024-04-13 |   202 |    33 |       911 |   3.62 |
-| [`tg`](https://t.me/mwscr/377)                     | 2024-04-13 |   187 |    53 |       351 |   15.1 |
-|                                                    |            |   807 |   199 |      2674 |   8.91 |
+| [`ig`](https://instagram.com/p/C5thvvzynm3/)       | 2024-04-13 |   424 |   114 |      1412 |   8.07 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1492) | 2024-04-13 |   208 |    34 |       911 |   3.73 |
+| [`tg`](https://t.me/mwscr/377)                     | 2024-04-13 |   211 |    55 |       351 |  15.67 |
+|                                                    |            |   843 |   203 |      2674 |   9.16 |
 
 #### Comments
 
