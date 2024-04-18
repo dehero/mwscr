@@ -28,10 +28,18 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNBvXZ1lEOl/)       | 2016-11-20 |       |    16 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_3)    | 2017-01-22 |    55 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C56Z9krvS4F/)       | 2024-04-18 |       |       |      1412 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1499) | 2024-04-18 |       |       |       910 |        |
-| [`tg`](https://t.me/mwscr/382)                     | 2024-04-18 |       |       |       354 |        |
-|                                                    |            |    55 |    19 |      2676 |        |
+| [`ig`](https://instagram.com/p/C56Z9krvS4F/)       | 2024-04-18 |    46 |    20 |      1412 |   1.42 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1499) | 2024-04-18 |    41 |    10 |       910 |    1.1 |
+| [`tg`](https://t.me/mwscr/382)                     | 2024-04-18 |    58 |    24 |       354 |   6.78 |
+|                                                    |            |   200 |    73 |      2676 |   3.07 |
+
+#### Comments
+
+- `tg` <ins title="2024-04-18-18-22-18">C4H6O4</ins> I don&#39;t cry, it&#39;s just tears. ❤️‍🔥
+- `tg` <ins title="2024-04-18-18-28-01">mwscr</ins> This screenshot started the history of this channel in 2016.
+- `vk` <ins title="2024-04-18-18-29-25">mwscr</ins> С этого скриншота началась история канала в 2016 году.
+- `ig` <ins title="2024-04-18-18-31-53">mwscr</ins> This screenshot started the history of this channel in 2016.
+  - <ins title="2024-04-18-18-39-04">stevenbuitenhuis</ins> when a legend was born
 
 ## <span id="2024-04-17.interior-garden">Interior Garden</span>
 
@@ -55,10 +63,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSSo_M4Dm2-/)       | 2017-03-31 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_238)  | 2017-03-31 |   121 |     4 |        50 |      4 |
-| [`ig`](https://instagram.com/p/C531KaqsRUG/)       | 2024-04-17 |   269 |    85 |      1413 |   6.02 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1498) | 2024-04-17 |   136 |    22 |       910 |   2.42 |
-| [`tg`](https://t.me/mwscr/381)                     | 2024-04-17 |   120 |    49 |       354 |  13.84 |
-|                                                    |            |   646 |   217 |      2677 |   6.57 |
+| [`ig`](https://instagram.com/p/C531KaqsRUG/)       | 2024-04-17 |   274 |    86 |      1413 |   6.09 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1498) | 2024-04-17 |   141 |    23 |       910 |   2.53 |
+| [`tg`](https://t.me/mwscr/381)                     | 2024-04-17 |   127 |    50 |       354 |  14.12 |
+|                                                    |            |   663 |   220 |      2677 |   6.68 |
 
 ## <span id="2024-04-16.birth-of-fabricant">Birth of Fabricant</span>
 
@@ -120,9 +128,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C5yrij1LmAN/)       | 2024-04-15 |   365 |   111 |      1414 |   7.85 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1495) | 2024-04-15 |   189 |    39 |       910 |   4.29 |
-| [`tg`](https://t.me/mwscr/379)                     | 2024-04-15 |   159 |    47 |       352 |  13.35 |
-|                                                    |            |   713 |   197 |      2676 |    8.5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1495) | 2024-04-15 |   212 |    40 |       910 |    4.4 |
+| [`tg`](https://t.me/mwscr/379)                     | 2024-04-15 |   181 |    48 |       352 |  13.64 |
+|                                                    |            |   758 |   199 |      2676 |   8.63 |
 
 #### Comments
 
@@ -185,9 +193,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C5thvvzynm3/)       | 2024-04-13 |   432 |   114 |      1412 |   8.07 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1492) | 2024-04-13 |   208 |    34 |       911 |   3.73 |
-| [`tg`](https://t.me/mwscr/377)                     | 2024-04-13 |   211 |    55 |       351 |  15.67 |
-|                                                    |            |   851 |   203 |      2674 |   9.16 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1492) | 2024-04-13 |   219 |    35 |       911 |   3.84 |
+| [`tg`](https://t.me/mwscr/377)                     | 2024-04-13 |   225 |    56 |       351 |  15.95 |
+|                                                    |            |   876 |   205 |      2674 |   9.29 |
 
 #### Comments
 
