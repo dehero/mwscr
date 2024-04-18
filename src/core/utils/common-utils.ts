@@ -30,6 +30,17 @@ export function capitalizeFirstLetter(value: string) {
   return value.charAt(0).toLocaleUpperCase() + value.slice(1);
 }
 
+export function debounce(callback: (...args: unknown[]) => void, wait: number) {
+  let timeoutId: NodeJS.Timeout | undefined;
+
+  return (...args: unknown[]) => {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+      callback(...args);
+    }, wait);
+  };
+}
+
 export function greatestCommonDivisor(a: number, b: number) {
   if (!b) {
     return a;
