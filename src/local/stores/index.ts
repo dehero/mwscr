@@ -1,4 +1,162 @@
-import type { Store } from '../../core/entities/store.js';
+import type { Store, StoreItem } from '../../core/entities/store.js';
+import { storeIncludesPath } from '../../core/entities/store.js';
+import { partition } from '../../core/utils/common-utils.js';
+import * as Site from './site.js';
 import * as YandexDisk from './yandex-disk.js';
 
-export const store: Store = YandexDisk;
+const stores: Store[] = [YandexDisk, Site];
+
+export const store: Store = {
+  async copy(from: string, to: string): Promise<void> {
+    const [fromToStores, restStores] = partition(stores, storeIncludesPath(from, to));
+    const toStores = restStores.filter(storeIncludesPath(to));
+
+    if (fromToStores.length === 0 && toStores.length === 0) {
+      throw new Error(`No stores found to copy from "${from}" to "${to}"`);
+    }
+
+    try {
+      if (toStores.length > 0) {
+        const stream = await this.getStream(from);
+        if (stream) {
+          await Promise.all(toStores.map((store) => store.putStream(to, stream)));
+        }
+      }
+
+      if (fromToStores.length > 0) {
+        await Promise.all(fromToStores.map((store) => store.copy(from, to)));
+      }
+    } catch (error) {
+      await this.remove(to);
+      throw error;
+    }
+  },
+
+  async exists(path: string): Promise<boolean> {
+    const [store] = stores.filter(storeIncludesPath(path));
+    if (store) {
+      return store.exists(path);
+    }
+
+    throw new Error(`No store found for "${path}"`);
+  },
+
+  async get(path: string): Promise<Buffer> {
+    const [store] = stores.filter(storeIncludesPath(path));
+    if (store) {
+      return store.get(path);
+    }
+
+    throw new Error(`No store found for "${path}"`);
+  },
+
+  async getStream(path: string): Promise<NodeJS.ReadableStream | null> {
+    const [store] = stores.filter(storeIncludesPath(path));
+    if (store) {
+      return store.getStream(path);
+    }
+
+    throw new Error(`No store found for "${path}"`);
+  },
+
+  async getPreviewUrl(path: string, width?: number, height?: number): Promise<string | undefined> {
+    for (const store of stores) {
+      return store.getPreviewUrl(path, width, height);
+    }
+
+    throw new Error(`No store found for "${path}"`);
+  },
+
+  async getPublicUrl(path: string): Promise<string | undefined> {
+    for (const store of stores.filter(storeIncludesPath(path))) {
+      const url = await store.getPublicUrl(path);
+      if (url) {
+        return url;
+      }
+    }
+
+    return undefined;
+  },
+
+  async move(from: string, to: string): Promise<void> {
+    const [fromToStores, restStores] = partition(stores, storeIncludesPath(from, to));
+    const toStores = restStores.filter(storeIncludesPath(to));
+    const fromStores = restStores.filter(storeIncludesPath(from));
+
+    if (fromToStores.length === 0 && toStores.length === 0 && fromStores.length === 0) {
+      throw new Error(`No stores found to move from "${from}" to "${to}"`);
+    }
+
+    try {
+      if (toStores.length > 0) {
+        const stream = await this.getStream(from);
+        if (stream) {
+          await Promise.all(toStores.map((store) => store.putStream(to, stream)));
+        }
+      }
+
+      if (fromStores.length > 0) {
+        await Promise.all(fromStores.map((store) => store.remove(from)));
+      }
+
+      if (fromToStores.length > 0) {
+        await Promise.all(fromToStores.map((store) => store.move(from, to)));
+      }
+    } catch (error) {
+      await Promise.allSettled(fromToStores.map((store) => store.move(to, from)));
+
+      if (fromStores.length > 0) {
+        const stream = await Promise.any([this.getStream(from), this.getStream(to)]);
+
+        if (stream) {
+          await Promise.allSettled(fromStores.map((store) => store.putStream(from, stream)));
+        }
+      }
+
+      await Promise.allSettled(toStores.map((store) => store.remove(to)));
+
+      throw error;
+    }
+  },
+
+  async put(path: string, data: Iterable<unknown> | AsyncIterable<unknown>): Promise<void> {
+    try {
+      await Promise.all(stores.filter(storeIncludesPath(path)).map((store) => store.put(path, data)));
+    } catch (error) {
+      await this.remove(path);
+      throw error;
+    }
+  },
+
+  async putStream(path: string, stream: NodeJS.ReadableStream): Promise<void> {
+    try {
+      await Promise.all(stores.filter(storeIncludesPath(path)).map((store) => store.putStream(path, stream)));
+    } catch (error) {
+      await this.remove(path);
+      throw error;
+    }
+  },
+
+  async readdir(path: string): Promise<StoreItem[]> {
+    const [store] = stores.filter(storeIncludesPath(path));
+    if (store) {
+      return store.readdir(path);
+    }
+
+    throw new Error(`No store found for "${path}"`);
+  },
+
+  async remove(path: string): Promise<void> {
+    try {
+      await Promise.all(stores.filter(storeIncludesPath(path)).map((store) => store.remove(path)));
+    } catch (error) {
+      const stream = await this.getStream(path);
+
+      if (stream) {
+        this.putStream(path, stream);
+      }
+
+      throw error;
+    }
+  },
+};
