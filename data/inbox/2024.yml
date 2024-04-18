@@ -29,6 +29,8 @@ dehero.2024-02-05-00-09-40:
     - store:/inbox/dehero.2024-02-05-00-09-40.png
     - store:/inbox/dehero.2024-02-05-00-09-19.png
     - store:/inbox/dehero.2024-02-05-00-09-40.1.png
+    - store:/inbox/dehero.2024-02-05-00-09-40.2.png
+    - store:/inbox/dehero.2024-02-05-00-09-40.3.png
   type: shot
   author: dehero
 dehero.2024-02-05-00-20-39:
@@ -127,6 +129,7 @@ dehero.2024-03-05-19-59-55:
     - store:/inbox/dehero.2024-03-05-19-59-55.png
     - store:/inbox/dehero.2024-03-05-20-00-29.png
     - store:/inbox/dehero.2024-03-05-20-00-57.png
+    - store:/inbox/dehero.2024-03-05-20-00-57.1.png
   trash: store:/inbox/dehero.2024-03-05-20-01-36.png
   type: shot
   author: dehero
@@ -148,7 +151,10 @@ dehero.2024-03-05-20-06-06:
   type: shot
   author: dehero
 dehero.2024-03-24-11-41-57:
-  content: store:/inbox/dehero.2024-03-24-11-41-57.png
+  content:
+    - store:/inbox/dehero.2024-03-24-11-41-57.png
+    - store:/inbox/dehero.2024-03-24-11-41-57.1.png
+    - store:/inbox/dehero.2024-03-24-11-41-57.2.png
   type: shot
   author: dehero
 natty.2024-03-10-12-38-23:

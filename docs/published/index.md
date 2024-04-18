@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`51 items`
+`52 items`
+
+## <span id="2024-04-18.dren-plantation">Dren Plantation</span>
+
+`RU` Плантация Дрена
+
+<a href="https://instagram.com/p/BNBvXZ1lEOl/" title="2016-11-20.1.dren-plantation"><img alt="store:/shots/2016-11-20.1.dren-plantation.png" src="../../assets/previews/shots/2016-11-20.1.dren-plantation.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` `📍 Dren Plantation` `🚀 OpenMW`
+
+```
+2024-04-18.dren-plantation
+```
+
+> `2016-11-20.1.dren-plantation`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BNBvXZ1lEOl/)       | 2016-11-20 |       |    16 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_3)    | 2017-01-22 |    55 |     3 |         4 |      3 |
+| [`ig`](https://instagram.com/p/C56Z9krvS4F/)       | 2024-04-18 |       |       |      1412 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1499) | 2024-04-18 |       |       |       910 |        |
+| [`tg`](https://t.me/mwscr/382)                     | 2024-04-18 |       |       |       354 |        |
+|                                                    |            |    55 |    19 |      2676 |        |
 
 ## <span id="2024-04-17.interior-garden">Interior Garden</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSSo_M4Dm2-/)       | 2017-03-31 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_238)  | 2017-03-31 |   121 |     4 |        50 |      4 |
-| [`ig`](https://instagram.com/p/C531KaqsRUG/)       | 2024-04-17 |   266 |    85 |      1413 |   6.02 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1498) | 2024-04-17 |   134 |    22 |       910 |   2.42 |
+| [`ig`](https://instagram.com/p/C531KaqsRUG/)       | 2024-04-17 |   269 |    85 |      1413 |   6.02 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1498) | 2024-04-17 |   136 |    22 |       910 |   2.42 |
 | [`tg`](https://t.me/mwscr/381)                     | 2024-04-17 |   120 |    49 |       354 |  13.84 |
-|                                                    |            |   641 |   217 |      2677 |   6.57 |
+|                                                    |            |   646 |   217 |      2677 |   6.57 |
 
 ## <span id="2024-04-16.birth-of-fabricant">Birth of Fabricant</span>
 
@@ -157,10 +184,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5thvvzynm3/)       | 2024-04-13 |   424 |   114 |      1412 |   8.07 |
+| [`ig`](https://instagram.com/p/C5thvvzynm3/)       | 2024-04-13 |   432 |   114 |      1412 |   8.07 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1492) | 2024-04-13 |   208 |    34 |       911 |   3.73 |
 | [`tg`](https://t.me/mwscr/377)                     | 2024-04-13 |   211 |    55 |       351 |  15.67 |
-|                                                    |            |   843 |   203 |      2674 |   9.16 |
+|                                                    |            |   851 |   203 |      2674 |   9.16 |
 
 #### Comments
 

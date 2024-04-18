@@ -685,13 +685,15 @@ natty.2024-03-10-12-38-23
 ## <span id="dehero.2024-03-24-11-41-57">dehero.2024-03-24-11-41-57</span>
 
 ![store:/inbox/dehero.2024-03-24-11-41-57.png](../../assets/previews/inbox/dehero.2024-03-24-11-41-57.avif "dehero.2024-03-24-11-41-57")
+![store:/inbox/dehero.2024-03-24-11-41-57.1.png](../../assets/previews/inbox/dehero.2024-03-24-11-41-57.1.avif "dehero.2024-03-24-11-41-57.1")
+![store:/inbox/dehero.2024-03-24-11-41-57.2.png](../../assets/previews/inbox/dehero.2024-03-24-11-41-57.2.avif "dehero.2024-03-24-11-41-57.2")
 
 `shot` by [dehero](../contributors.md#dehero)
 
 > [!WARNING]
-> Need english title, need russian title, need mark.
+> Need english title, need russian title, need mark, unable to detect possible post type from content.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-24-11-41-57&amp;postContent=store%3A%2Finbox%2Fdehero.2024-03-24-11-41-57.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-24-11-41-57) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-24-11-41-57) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-03-24-11-41-57)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-24-11-41-57&amp;postContent=store%3A%2Finbox%2Fdehero.2024-03-24-11-41-57.png%0Astore%3A%2Finbox%2Fdehero.2024-03-24-11-41-57.1.png%0Astore%3A%2Finbox%2Fdehero.2024-03-24-11-41-57.2.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-24-11-41-57) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-24-11-41-57) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-03-24-11-41-57)</code>
 
 ```
 dehero.2024-03-24-11-41-57
@@ -754,6 +756,7 @@ dehero.2024-03-05-20-02-12
 ![store:/inbox/dehero.2024-03-05-19-59-55.png](../../assets/previews/inbox/dehero.2024-03-05-19-59-55.avif "dehero.2024-03-05-19-59-55")
 ![store:/inbox/dehero.2024-03-05-20-00-29.png](../../assets/previews/inbox/dehero.2024-03-05-20-00-29.avif "dehero.2024-03-05-20-00-29")
 ![store:/inbox/dehero.2024-03-05-20-00-57.png](../../assets/previews/inbox/dehero.2024-03-05-20-00-57.avif "dehero.2024-03-05-20-00-57")
+![store:/inbox/dehero.2024-03-05-20-00-57.1.png](../../assets/previews/inbox/dehero.2024-03-05-20-00-57.1.avif "dehero.2024-03-05-20-00-57.1")
 
 <details>
 <summary>Trash</summary>
@@ -764,9 +767,9 @@ dehero.2024-03-05-20-02-12
 `shot` by [dehero](../contributors.md#dehero)
 
 > [!WARNING]
-> Need english title, need russian title, need mark, unable to detect possible post type from content.
+> Need english title, need russian title, need mark, detected post type "shot-set", got "shot".
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-05-19-59-55&amp;postContent=store%3A%2Finbox%2Fdehero.2024-03-05-19-59-55.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-20-00-29.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-20-00-57.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-03-05-20-01-36.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-05-19-59-55) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-05-19-59-55) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-03-05-19-59-55)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-05-19-59-55&amp;postContent=store%3A%2Finbox%2Fdehero.2024-03-05-19-59-55.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-20-00-29.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-20-00-57.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-20-00-57.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-03-05-20-01-36.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-05-19-59-55) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-05-19-59-55) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-03-05-19-59-55)</code>
 
 ```
 dehero.2024-03-05-19-59-55
@@ -1012,13 +1015,15 @@ dehero.2024-02-05-00-20-39
 ![store:/inbox/dehero.2024-02-05-00-09-40.png](../../assets/previews/inbox/dehero.2024-02-05-00-09-40.avif "dehero.2024-02-05-00-09-40")
 ![store:/inbox/dehero.2024-02-05-00-09-19.png](../../assets/previews/inbox/dehero.2024-02-05-00-09-19.avif "dehero.2024-02-05-00-09-19")
 ![store:/inbox/dehero.2024-02-05-00-09-40.1.png](../../assets/previews/inbox/dehero.2024-02-05-00-09-40.1.avif "dehero.2024-02-05-00-09-40.1")
+![store:/inbox/dehero.2024-02-05-00-09-40.2.png](../../assets/previews/inbox/dehero.2024-02-05-00-09-40.2.avif "dehero.2024-02-05-00-09-40.2")
+![store:/inbox/dehero.2024-02-05-00-09-40.3.png](../../assets/previews/inbox/dehero.2024-02-05-00-09-40.3.avif "dehero.2024-02-05-00-09-40.3")
 
 `shot` by [dehero](../contributors.md#dehero)
 
 > [!WARNING]
 > Need english title, need russian title, need mark, unable to detect possible post type from content.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-05-00-09-40&amp;postContent=store%3A%2Finbox%2Fdehero.2024-02-05-00-09-40.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-09-19.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-09-40.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=Beran+Ancestral+Tomb&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-05-00-09-40) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-05-00-09-40) `📍 Beran Ancestral Tomb`
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-05-00-09-40&amp;postContent=store%3A%2Finbox%2Fdehero.2024-02-05-00-09-40.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-09-19.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-09-40.1.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-09-40.2.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-09-40.3.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=Beran+Ancestral+Tomb&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-05-00-09-40) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-05-00-09-40) `📍 Beran Ancestral Tomb`
 
 ```
 dehero.2024-02-05-00-09-40
