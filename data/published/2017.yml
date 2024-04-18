@@ -1185,10 +1185,10 @@
       id: C5EUjnouPkl
       mediaId: '18272220631200352'
       published: 2024-03-28-18-11-35
-      updated: 2024-04-11-21-13-16
+      updated: 2024-04-18-22-12-49
       followers: 1401
-      likes: 82
-      views: 368
+      likes: 85
+      views: 374
       comments: !c |-
         G7YAQIzTJXY8QiH59Dc/4QtkAnVhIPEYCwNcgGuARZJYWJNVLqPXyYke8aKR1tqi4BIG7OUxNp5N
         kWM76ppYvyI35GT4ShhlsWNktyBVSiN0S0RBNbDs+BmEHs8/GRwUhRCh/ePeeHqlA6SzuaXpYI+9
@@ -1196,17 +1196,18 @@
     - service: vk
       id: 1472
       published: 2024-03-28-18-11-42
-      updated: 2024-04-11-21-13-17
+      updated: 2024-04-18-22-12-49
       followers: 906
-      likes: 37
-      views: 280
+      likes: 38
+      views: 291
+      reposts: 1
     - service: tg
       id: 360
       published: 2024-03-28-18-11-49
-      updated: 2024-04-11-21-13-17
+      updated: 2024-04-18-22-12-49
       followers: 355
       likes: 56
-      views: 333
+      views: 355
 2017-02-09.climbing-aboard-the-elf-skerring:
   title: Climbing Aboard the Elf-Skerring
   titleRu: Поднимаясь на борт Эльфийского мореплавателя
@@ -2773,24 +2774,24 @@
       id: C531KaqsRUG
       mediaId: '18147933274309479'
       published: 2024-04-17-18-17-47
-      updated: 2024-04-18-21-12-18
+      updated: 2024-04-18-22-12-47
       followers: 1413
       likes: 87
-      views: 279
+      views: 282
     - service: vk
       id: 1498
       published: 2024-04-17-18-17-53
-      updated: 2024-04-18-21-12-18
+      updated: 2024-04-18-22-12-47
       followers: 910
-      likes: 23
-      views: 145
+      likes: 24
+      views: 146
     - service: tg
       id: 381
       published: 2024-04-17-18-17-59
-      updated: 2024-04-18-21-12-18
+      updated: 2024-04-18-22-12-48
       followers: 354
       likes: 53
-      views: 134
+      views: 137
 2017-04-01.help-me-find-my-pants-you-imperial-scum:
   title: Help Me Find My Pants You Imperial Scum!
   titleRu: Помоги найти мои штаны, ты, имперский ублюдок!
@@ -3643,25 +3644,25 @@
       id: C5wWKSEO30a
       mediaId: '17887334160012628'
       published: 2024-04-14-20-32-11
-      updated: 2024-04-17-21-13-51
+      updated: 2024-04-18-22-12-47
       followers: 1413
       likes: 105
-      views: 388
+      views: 394
     - service: vk
       id: 1494
       published: 2024-04-14-20-32-17
-      updated: 2024-04-17-21-13-52
+      updated: 2024-04-18-22-12-48
       followers: 911
-      likes: 36
-      views: 201
-      reposts: 1
+      likes: 38
+      views: 221
+      reposts: 2
     - service: tg
       id: 378
       published: 2024-04-14-20-32-22
-      updated: 2024-04-17-21-13-52
+      updated: 2024-04-18-22-12-48
       followers: 351
-      likes: 56
-      views: 217
+      likes: 57
+      views: 244
 2017-05-01.altmer-camp:
   title: Altmer Camp
   titleRu: Лагерь альтмеров
