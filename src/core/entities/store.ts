@@ -1,3 +1,4 @@
+import micromatch from 'micromatch';
 import { stringToDate } from '../utils/date-utils.js';
 import { parseResourceUrl } from './resource.js';
 
@@ -28,9 +29,11 @@ export interface StoreResourceParsedUrl {
 }
 
 export interface Store {
+  include?: string[];
+
   copy(from: string, to: string): Promise<void>;
 
-  exists(src: string): Promise<boolean>;
+  exists(path: string): Promise<boolean>;
 
   get(path: string): Promise<Buffer>;
 
@@ -38,17 +41,23 @@ export interface Store {
 
   getPreviewUrl(path: string, width?: number, height?: number): Promise<string | undefined>;
 
+  getPublicUrl(path: string): Promise<string | undefined>;
+
   move(from: string, to: string): Promise<void>;
 
   put(path: string, data: Iterable<unknown> | AsyncIterable<unknown>): Promise<void>;
 
   putStream(path: string, stream: NodeJS.ReadableStream): Promise<void>;
 
-  putUrl(path: string, url: string): Promise<void>;
-
   readdir(path: string): Promise<StoreItem[]>;
 
   remove(path: string): Promise<void>;
+}
+
+export function storeIncludesPath(...checkedPaths: string[]) {
+  return (store: Pick<Store, 'include'>) =>
+    !store.include ||
+    (store.include.length > 0 && checkedPaths.every((path) => micromatch.isMatch(path, store.include ?? [])));
 }
 
 export function parseStoreResourceUrl(url: string): StoreResourceParsedUrl {

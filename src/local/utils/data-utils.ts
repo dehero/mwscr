@@ -1,5 +1,6 @@
 import crypto from 'crypto';
 import { Packr } from 'msgpackr';
+import type { Readable } from 'stream';
 import zlib from 'zlib';
 
 const packr = new Packr();
@@ -23,4 +24,22 @@ export function compressData(data: unknown): string | undefined {
 
 export function decompressData<T>(value: string): T {
   return packr.unpack(zlib.brotliDecompressSync(Buffer.from(value, 'base64')));
+}
+
+export async function streamToBuffer(stream: Readable): Promise<Buffer> {
+  return new Promise((resolve, reject) => {
+    const data: Uint8Array[] = [];
+
+    stream.on('data', (chunk) => {
+      data.push(chunk);
+    });
+
+    stream.on('end', () => {
+      resolve(Buffer.concat(data));
+    });
+
+    stream.on('error', (err) => {
+      reject(err);
+    });
+  });
 }
