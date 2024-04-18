@@ -28,15 +28,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNBvXZ1lEOl/)       | 2016-11-20 |       |    16 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_3)    | 2017-01-22 |    55 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C56Z9krvS4F/)       | 2024-04-18 |    88 |    33 |      1412 |   2.34 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1499) | 2024-04-18 |    70 |    15 |       910 |   1.65 |
-| [`tg`](https://t.me/mwscr/382)                     | 2024-04-18 |    81 |    32 |       354 |   9.04 |
-|                                                    |            |   294 |    99 |      2676 |   4.01 |
+| [`ig`](https://instagram.com/p/C56Z9krvS4F/)       | 2024-04-18 |   119 |    45 |      1412 |   3.19 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1499) | 2024-04-18 |    85 |    18 |       910 |   1.98 |
+| [`tg`](https://t.me/mwscr/382)                     | 2024-04-18 |    89 |    34 |       354 |    9.6 |
+|                                                    |            |   348 |   116 |      2676 |   4.44 |
 
 #### Comments
 
 - `tg` <ins title="2024-04-18-18-22-18">C4H6O4</ins> I don&#39;t cry, it&#39;s just tears. ❤️‍🔥
 - `tg` <ins title="2024-04-18-18-28-01">mwscr</ins> This screenshot started the history of this channel in 2016.
+  - <ins title="2024-04-18-20-20-35">Gatemate7</ins> it is 2024 and still no graphical mods
   - <ins title="2024-04-18-19-45-00">ansis</ins> it&#39;s one big gem of an archive
 - `vk` <ins title="2024-04-18-18-29-25">mwscr</ins> С этого скриншота началась история канала в 2016 году.
 - `ig` <ins title="2024-04-18-18-31-53">mwscr</ins> This screenshot started the history of this channel in 2016.
@@ -65,10 +66,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSSo_M4Dm2-/)       | 2017-03-31 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_238)  | 2017-03-31 |   121 |     4 |        50 |      4 |
-| [`ig`](https://instagram.com/p/C531KaqsRUG/)       | 2024-04-17 |   277 |    87 |      1413 |   6.16 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1498) | 2024-04-17 |   144 |    23 |       910 |   2.53 |
-| [`tg`](https://t.me/mwscr/381)                     | 2024-04-17 |   133 |    52 |       354 |  14.69 |
-|                                                    |            |   675 |   223 |      2677 |   6.84 |
+| [`ig`](https://instagram.com/p/C531KaqsRUG/)       | 2024-04-17 |   279 |    87 |      1413 |   6.16 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1498) | 2024-04-17 |   145 |    23 |       910 |   2.53 |
+| [`tg`](https://t.me/mwscr/381)                     | 2024-04-17 |   134 |    53 |       354 |  14.97 |
+|                                                    |            |   679 |   224 |      2677 |   6.91 |
 
 ## <span id="2024-04-16.birth-of-fabricant">Birth of Fabricant</span>
 
@@ -481,10 +482,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5WWKeRRTCu/)       | 2024-04-04 |   444 |   112 |      1406 |   7.97 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1480) | 2024-04-04 |   377 |    49 |       906 |   5.41 |
-| [`tg`](https://t.me/mwscr/367)                     | 2024-04-04 |   278 |    58 |       354 |  16.38 |
-|                                                    |            |  1099 |   219 |      2666 |   9.92 |
+| [`ig`](https://instagram.com/p/C5WWKeRRTCu/)       | 2024-04-04 |   467 |   117 |      1406 |   8.32 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1480) | 2024-04-04 |   397 |    51 |       906 |   5.63 |
+| [`tg`](https://t.me/mwscr/367)                     | 2024-04-04 |   342 |    60 |       354 |  16.95 |
+|                                                    |            |  1206 |   228 |      2666 |   10.3 |
 
 #### Comments
 
