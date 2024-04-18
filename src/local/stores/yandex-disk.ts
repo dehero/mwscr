@@ -2,10 +2,9 @@ import 'dotenv/config';
 import { posix } from 'path';
 import fetch from 'node-fetch';
 import { Readable } from 'stream';
-import type { Operation, PreviewSize } from 'ya-disk';
+import type { PreviewSize } from 'ya-disk';
 import yaDisk from 'ya-disk';
 import type { StoreItem } from '../../core/entities/store.js';
-import { sleep } from '../../core/utils/common-utils.js';
 
 type FilesResourceList = Awaited<ReturnType<typeof yaDisk.list>>;
 
@@ -19,7 +18,7 @@ function diskPathToStoreUrl(path: string) {
 }
 
 async function fetchPath(path: string) {
-  const store = login();
+  const store = connect();
   const srcPath = posix.join(store.path, path);
 
   const { href, method } = await yaDisk.download.link(store.token, srcPath);
@@ -30,7 +29,7 @@ async function fetchPath(path: string) {
   });
 }
 
-export function login() {
+export function connect() {
   const { YANDEX_DISK_ACCESS_TOKEN: token, YANDEX_DISK_STORE_PATH: path } = process.env;
   if (!token) {
     throw new Error('Need Yandex Disk access token');
@@ -42,15 +41,23 @@ export function login() {
 }
 
 export async function copy(from: string, to: string) {
-  const { token, path } = login();
+  const { token, path } = connect();
   const fromPath = posix.join(path, from);
   const toPath = posix.join(path, to);
 
-  await yaDisk.resources.copy(token, fromPath, toPath);
+  try {
+    await yaDisk.resources.copy(token, fromPath, toPath);
+  } catch (error) {
+    if (error instanceof Error && error.name === 'DiskResourceAlreadyExistsError') {
+      await remove(to);
+      return copy(from, to);
+    }
+    throw error;
+  }
 }
 
-export async function exists(src: string): Promise<boolean> {
-  const { dir, base } = posix.parse(src);
+export async function exists(path: string): Promise<boolean> {
+  const { dir, base } = posix.parse(path);
   const items = await readdir(dir);
 
   return Boolean(items.find((item) => item.name === base));
@@ -85,7 +92,7 @@ export async function getPreviewUrl(path: string, width?: number, height?: numbe
     return result;
   }
 
-  const store = login();
+  const store = connect();
 
   const resource = await yaDisk.meta.get(store.token, posix.join(store.path, path), {
     limit: 1,
@@ -99,8 +106,12 @@ export async function getPreviewUrl(path: string, width?: number, height?: numbe
   return resource.preview;
 }
 
+export async function getPublicUrl(_path: string): Promise<string | undefined> {
+  return undefined;
+}
+
 export async function putStream(path: string, stream: NodeJS.ReadableStream): Promise<void> {
-  const store = login();
+  const store = connect();
   const srcPath = posix.join(store.path, path);
 
   const { href, method } = await yaDisk.upload.link(store.token, srcPath, true);
@@ -119,37 +130,20 @@ export async function put(path: string, data: Iterable<unknown> | AsyncIterable<
   return putStream(path, stream);
 }
 
-export async function putUrl(path: string, url: string): Promise<void> {
-  const store = login();
-
-  if (await exists(path)) {
-    throw new Error(`Resource "${path}" already exists`);
-  }
-
-  const { href } = await yaDisk.upload.remoteFile(store.token, url, posix.join(store.path, path));
-  const [, operationId] = /operations\/(.*)$/.exec(href) || [];
-  let status: Operation['status'];
-
-  if (!operationId) {
-    throw new Error(`Cannot get upload operation id from "${href}"`);
-  }
-
-  do {
-    ({ status } = await yaDisk.operations(store.token, operationId));
-    await sleep(100);
-  } while (status === 'in-progress');
-
-  if (status !== 'success') {
-    throw new Error(`Error writing "${url}" to "${href}"`);
-  }
-}
-
 export async function move(from: string, to: string) {
-  const { token, path } = login();
+  const { token, path } = connect();
   const fromPath = posix.join(path, from);
   const toPath = posix.join(path, to);
 
-  await yaDisk.resources.move(token, fromPath, toPath);
+  try {
+    await yaDisk.resources.move(token, fromPath, toPath);
+  } catch (error) {
+    if (error instanceof Error && error.name === 'DiskResourceAlreadyExistsError') {
+      await remove(to);
+      return move(from, to);
+    }
+    throw error;
+  }
 }
 
 export async function readdir(path: string): Promise<StoreItem[]> {
@@ -158,14 +152,13 @@ export async function readdir(path: string): Promise<StoreItem[]> {
     return result;
   }
 
-  const store = login();
+  const store = connect();
 
   const resource = await yaDisk.meta.get(store.token, posix.join(store.path, path), {
     // TODO: implement pagination
     limit: 1000,
     sort: 'name',
-    preview_size: '256x256',
-    fields: '_embedded.items.name,_embedded.items.path,_embedded.items.type,_embedded.items.preview',
+    fields: '_embedded.items.name,_embedded.items.path,_embedded.items.type',
   });
 
   if (!resource._embedded) {
@@ -177,7 +170,6 @@ export async function readdir(path: string): Promise<StoreItem[]> {
   result = items.map((item) => ({
     name: item.name,
     url: diskPathToStoreUrl(item.path),
-    previewUrl: item.preview,
     isDirectory: item.type === 'dir',
   }));
 
@@ -187,7 +179,7 @@ export async function readdir(path: string): Promise<StoreItem[]> {
 }
 
 export async function remove(path: string): Promise<void> {
-  const store = login();
+  const store = connect();
 
   await yaDisk.resources.remove(store.token, posix.join(store.path, path));
 
