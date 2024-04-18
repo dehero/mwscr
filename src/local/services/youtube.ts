@@ -2,21 +2,9 @@ import type { youtube_v3 } from '@googleapis/youtube';
 import { youtube } from '@googleapis/youtube';
 import { type Post } from '../../core/entities/post.js';
 import type { ServicePost, ServicePostComment } from '../../core/entities/service-post.js';
+import { isYouTubePost, name } from '../../core/services/youtube.js';
 
-interface YouTubeSuitablePost extends Post {
-  title: string;
-  content: string;
-  type: 'video';
-}
-
-export type YouTubePost = ServicePost<string>;
-
-function isYouTubePost(servicePost: ServicePost<unknown>): servicePost is YouTubePost {
-  return servicePost.service === id && typeof servicePost.id === 'string';
-}
-
-export const id = 'yt';
-export const name = 'YouTube';
+export * from '../../core/services/youtube.js';
 
 let yt: youtube_v3.Youtube | undefined;
 
@@ -110,10 +98,6 @@ export async function updateServicePost(servicePost: ServicePost<unknown>) {
   servicePost.updated = new Date();
 }
 
-export function canPublishPost(_post: Post, _errors?: string[]): _post is YouTubeSuitablePost {
-  return false;
-}
-
 export async function publishPost(_post: Post): Promise<void> {}
 
 export async function grabFollowerCount() {
@@ -125,15 +109,4 @@ export async function grabFollowerCount() {
 
 export async function grabPosts(_afterServicePost?: ServicePost<unknown>) {
   return [];
-}
-
-export function getServicePostUrl(servicePost: ServicePost<unknown>) {
-  if (!servicePost.id) {
-    return;
-  }
-  return `https://www.youtube.com/watch?v=${servicePost.id}`;
-}
-
-export function getUserProfileUrl(userId: string) {
-  return `https://www.youtube.com/channel/${userId}`;
 }

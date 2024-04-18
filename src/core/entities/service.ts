@@ -8,7 +8,13 @@ export interface Service {
   getUserProfileUrl: (userId: string) => string | undefined;
 }
 
-export interface PostingService extends Service {
+export interface PostingServiceInfo extends Service {
+  getServicePostUrl: (servicePost: ServicePost<unknown>) => string | undefined;
+
+  canPublishPost: (post: Post, errors?: string[]) => boolean;
+}
+
+export interface PostingService extends PostingServiceInfo {
   connect: () => Promise<unknown>;
 
   disconnect: () => Promise<void>;
@@ -16,10 +22,6 @@ export interface PostingService extends Service {
   grabFollowerCount: () => Promise<number | undefined>;
 
   grabPosts: (afterServicePost?: ServicePost<unknown>) => Promise<Post[]>;
-
-  getServicePostUrl: (servicePost: ServicePost<unknown>) => string | undefined;
-
-  canPublishPost: (post: Post, errors?: string[]) => boolean;
 
   publishPost: (post: Post) => Promise<void>;
 

@@ -7,36 +7,20 @@ import type { WallGetCommentExtendedResponse } from 'vk-io/lib/api/schemas/respo
 import { getPostFirstPublished, getPostTypesFromContent, type Post } from '../../core/entities/post.js';
 import { createPostTags } from '../../core/entities/post-tag.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
-import { checkRules } from '../../core/entities/rule.js';
 import type { ServicePost, ServicePostComment } from '../../core/entities/service-post.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
-import { needCertainType, needContent, needTitleRu } from '../../core/rules/post-rules.js';
+import type { VKPost } from '../../core/services/vk.js';
+import { canPublishPost, id, isVKPost, name, VK_GROUP_ID, VK_GROUP_NAME } from '../../core/services/vk.js';
 import { asArray, randomDelay } from '../../core/utils/common-utils.js';
 import { getDaysPassed } from '../../core/utils/date-utils.js';
 import { readResource } from '../data-managers/resources.js';
 import { findUser, getUser } from '../data-managers/users.js';
 
-interface VKSuitablePost extends Post {
-  titleRu: string;
-  content: string;
-  type: 'shot';
-}
-
-type VKPost = ServicePost<number>;
-
-function isVKPost(servicePost: ServicePost<unknown>): servicePost is VKPost {
-  return servicePost.service === id && typeof servicePost.id === 'number';
-}
-
-const VK_GROUP_NAME = 'mwscr';
-const VK_GROUP_ID = -138249959;
+export * from '../../core/services/vk.js';
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 
 let vk: VK | undefined;
-
-export const id = 'vk';
-export const name = 'VK';
 
 export async function parseMessageText(text: string) {
   const lines = text.split('\n');
@@ -125,10 +109,6 @@ export async function connect() {
 }
 
 export async function disconnect() {}
-
-export function canPublishPost(post: Post, errors: string[] = []): post is VKSuitablePost {
-  return checkRules([needCertainType('shot'), needContent, needTitleRu], post, errors);
-}
 
 export async function publishPost(post: Post): Promise<void> {
   if (!canPublishPost(post)) {
@@ -334,15 +314,4 @@ export async function grabPosts(afterServicePost?: ServicePost<unknown>) {
   }
 
   return posts;
-}
-
-export function getServicePostUrl(servicePost: ServicePost<unknown>) {
-  if (!isVKPost(servicePost)) {
-    return;
-  }
-  return `https://vk.com/${VK_GROUP_NAME}?w=wall${VK_GROUP_ID}_${servicePost.id}`;
-}
-
-export function getUserProfileUrl(profileId: string) {
-  return `https://vk.com/${profileId}`;
 }

@@ -7,38 +7,20 @@ import { Logger, LogLevel } from 'telegram/extensions/Logger.js';
 import { StringSession } from 'telegram/sessions/index.js';
 import { getPostFirstPublished, getPostTypesFromContent, type Post } from '../../core/entities/post.js';
 import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
-import { checkRules } from '../../core/entities/rule.js';
 import type { ServicePost, ServicePostComment } from '../../core/entities/service-post.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
-import { needCertainType, needContent, needTitle } from '../../core/rules/post-rules.js';
+import type { TelegramPost } from '../../core/services/telegram.js';
+import { getUserProfileUrl, id, isTelegramPost, name, TELEGRAM_CHANNEL } from '../../core/services/telegram.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { getDaysPassed } from '../../core/utils/date-utils.js';
 import { readResource } from '../data-managers/resources.js';
 import { findUser, getUser } from '../data-managers/users.js';
 
-interface TelegramSuitablePost extends Post {
-  title: string;
-  content: string;
-  type: 'shot';
-}
-
-type TelegramPost = ServicePost<number | number[]>;
-
-function isTelegramPost(servicePost: ServicePost<unknown>): servicePost is TelegramPost {
-  return (
-    servicePost.service === id &&
-    (typeof servicePost.id === 'number' ||
-      (Array.isArray(servicePost.id) && servicePost.id.every((item) => typeof item === 'number')))
-  );
-}
+export * from '../../core/services/telegram.js';
 
 let tg: TelegramClient | undefined;
 
-const TELEGRAM_CHANNEL = 'mwscr';
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
-
-export const id = 'tg';
-export const name = 'Telegram';
 
 export async function connect() {
   if (!tg) {
@@ -300,10 +282,6 @@ export async function updateServicePost(servicePost: ServicePost<unknown>) {
   servicePost.updated = new Date();
 }
 
-export function canPublishPost(post: Post, errors: string[] = []): post is TelegramSuitablePost {
-  return checkRules([needCertainType('shot'), needTitle, needContent], post, errors);
-}
-
 export async function publishPost(post: Post): Promise<void> {
   if (typeof post.content !== 'string') {
     throw new TypeError(`Cannot publish multiple images to ${name}`);
@@ -451,15 +429,4 @@ export async function grabPosts(afterServicePost?: ServicePost<unknown>) {
   }
 
   return posts;
-}
-
-export function getServicePostUrl(servicePost: ServicePost<unknown>) {
-  if (!isTelegramPost(servicePost)) {
-    return;
-  }
-  return `https://t.me/${TELEGRAM_CHANNEL}/${servicePost.id}`;
-}
-
-export function getUserProfileUrl(profileId: string) {
-  return `https://t.me/${profileId}`;
 }

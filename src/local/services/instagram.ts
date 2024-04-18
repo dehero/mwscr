@@ -17,35 +17,22 @@ import sharp from 'sharp';
 import { getPostFirstPublished, getPostTypesFromContent, type Post } from '../../core/entities/post.js';
 import { createPostTags } from '../../core/entities/post-tag.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
-import { checkRules } from '../../core/entities/rule.js';
 import type { ServicePost, ServicePostComment } from '../../core/entities/service-post.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
-import { needCertainType, needContent, needTitle } from '../../core/rules/post-rules.js';
+import type { InstagramPost } from '../../core/services/instagram.js';
+import { id, isInstagramPost, name } from '../../core/services/instagram.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { getDaysPassed } from '../../core/utils/date-utils.js';
 import { readResource } from '../data-managers/resources.js';
 import { findUser, getUser } from '../data-managers/users.js';
 
-interface InstagramSuitablePost extends Post {
-  title: string;
-  content: string;
-  type: 'shot';
-}
-
-type InstagramPost = ServicePost<string>;
-
-function isInstagramPost(servicePost: ServicePost<unknown>): servicePost is InstagramPost {
-  return servicePost.service === id && typeof servicePost.id === 'string';
-}
+export * from '../../core/services/instagram.js';
 
 const INSTAGRAM_PAGE_ID = '17841404237421312'; // Instagram Business ID
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 
 let ig: Client | undefined;
-
-export const id = 'ig';
-export const name = 'Instagram';
 
 /**
  * Parses the caption of an Instagram post.
@@ -172,16 +159,6 @@ export async function connect() {
   }
 
   return { ig };
-}
-
-/**
- * Checks if a post can be  based on certain rules.
- * @param post - The post object.
- * @param errors - An array to store any validation errors.
- * @returns True if the post can be , false otherwise.
- */
-export function canPublishPost(post: Post, errors: string[] = []): post is InstagramSuitablePost {
-  return checkRules([needCertainType('shot'), needTitle, needContent], post, errors);
 }
 
 /**
@@ -489,15 +466,4 @@ export async function grabPosts(afterServicePost?: ServicePost<unknown>) {
   } while (nextPage);
 
   return posts;
-}
-
-export function getServicePostUrl(servicePost: ServicePost<unknown>) {
-  if (!isInstagramPost(servicePost)) {
-    return;
-  }
-  return `https://instagram.com/p/${servicePost.id}/`;
-}
-
-export function getUserProfileUrl(profileId: string) {
-  return `https://instagram.com/p/${profileId}/`;
 }

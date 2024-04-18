@@ -4,8 +4,8 @@ import type { Doc } from '../../core/entities/doc.js';
 import type { PostEntries, PostType } from '../../core/entities/post.js';
 import { getPostTotalLikes, POST_TYPES } from '../../core/entities/post.js';
 import type { ReadonlyUsers, User, UserRoleId } from '../../core/entities/user.js';
+import { services } from '../../core/services/index.js';
 import { asArray, partition } from '../../core/utils/common-utils.js';
-import { services } from '../services/index.js';
 import { renderNavs } from './utils/doc-utils.js';
 
 interface UserContribution {
