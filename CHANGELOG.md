@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1](https://github.com/dehero/mwscr/compare/v1.1.0...v1.1.1) (2024-04-18)
+
+### Code Refactoring
+
+- extract basic service functions to core
+  ([22a4348](https://github.com/dehero/mwscr/commit/22a434829fffa6a33fa9fbe5bbf2482815a8aea9))
+- move all sources using node dependencies to local folder, others to core
+  ([363033c](https://github.com/dehero/mwscr/commit/363033c6e76ab94221e0c4847a64cc62862be4c0))
+
 ## [1.1.0](https://github.com/dehero/mwscr/compare/v1.0.0...v1.1.0) (2024-04-15)
 
 ### Features
