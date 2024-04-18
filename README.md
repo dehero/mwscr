@@ -114,8 +114,8 @@ variables. Other contributors are limited in their possibilities when running th
 
 #### Maintenance
 
-The [`src/maintain.ts`](src/maintain.ts) script runs every hour on a schedule, or on any change to the repository in the
-`main` branch. Manual launch is also possible:
+The [`src/local/maintain.ts`](src/local/maintain.ts) script runs every hour on a schedule, or on any change to the
+repository in the `main` branch. Manual launch is also possible:
 
 ```bash
 npm run maintain
@@ -124,28 +124,28 @@ npm run maintain
 The sequence of steps is:
 
 1. Create issue templates in [`.github/ISSUE_TEMPLATE`](.github/ISSUE_TEMPLATE) according to the descriptions in
-   [`src/github-issue-resolvers`](src/github-issue-resolvers).
+   [`src/local/github-issue-resolvers`](src/local/github-issue-resolvers).
 2. Add to [`data/published`](data/published) posts manually created in project accounts by the administrator.
 3. Import to [`data/inbox`](data/inbox) new files from the `store:/inbox` added manually by the administrator.
 4. Delete rejected posts to [`data/trash`](data/trash`), restore posts from the trash to [`data/inbox`](data/inbox`).
 5. Get reactions to posts in [`data/published`](data/published`) from project accounts.
 6. Create a new post in [`data/published`](data/published) according to the scenarios described in
-   [`src/scenarios/posting.ts`](src/scenarios/posting.ts).
+   [`src/core/scenarios/posting.ts`](src/core/scenarios/posting.ts).
 7. Publish unpublished posts from [`data/published`](data/published) to project accounts.
 8. Create missing and delete unnecessary previews in [`assets/previews`](assets/previews).
 9. Update documents [`docs`](docs/).
 
 #### Issue processing
 
-The script [`src/resolve-github-issue.ts`](src/resolve-github-issue.ts) runs on creating or modifying an Issue in the
-[Issues](https://github.com/dehero/mwscr/issues) section. Issues are the main tool for the administrator and other
-contributors to interact with the project. The use of issues is described in the
+The script [`src/local/resolve-github-issue.ts`](src/local/resolve-github-issue.ts) runs on creating or modifying an
+Issue in the [Issues](https://github.com/dehero/mwscr/issues) section. Issues are the main tool for the administrator
+and other contributors to interact with the project. The use of issues is described in the
 [contributing guidelines](CONTRIBUTING.md).
 
 #### Data validation
 
-The [`src/validate.ts`](src/validate.ts) script checks the integrity of data in the [`data`](data) folder and `store:`
-storage. Runs manually:
+The [`src/local/validate.ts`](src/local/validate.ts) script checks the integrity of data in the [`data`](data) folder
+and `store:` storage. Runs manually:
 
 ```bash
 npm run validate

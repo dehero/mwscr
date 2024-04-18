@@ -115,8 +115,8 @@ YANDEX_DISK_ACCESS_TOKEN=
 
 #### Обслуживание
 
-Скрипт [`src/maintain.ts`](src/maintain.ts) запускается каждый час по расписанию, либо при любом изменении в репозитории
-в ветке `main`. Возможен также ручной запуск:
+Скрипт [`src/local/maintain.ts`](src/local/maintain.ts) запускается каждый час по расписанию, либо при любом изменении в
+репозитории в ветке `main`. Возможен также ручной запуск:
 
 ```bash
 npm run maintain
@@ -125,7 +125,7 @@ npm run maintain
 Последовательность шагов:
 
 1. Создать в [`.github/ISSUE_TEMPLATE`](.github/ISSUE_TEMPLATE) шаблоны для заявок согласно описаниям в
-   [`src/github-issue-resolvers`](src/github-issue-resolvers).
+   [`src/local/github-issue-resolvers`](src/local/github-issue-resolvers).
 2. Добавить в [`data/published`](data/published) посты, созданные в аккаунтах проекта администратором вручную.
 3. Импортировать в [`data/inbox`](data/inbox) новые файлы из хранилища `store:/inbox`, добавленные администратором
    вручную.
@@ -133,21 +133,21 @@ npm run maintain
    [`data/inbox`](data/inbox`).
 5. Получить реакции на посты в [`data/published`](data/published) из аккаунтов проекта.
 6. Создать в [`data/published`](data/published) новый пост согласно сценариям, описанным в
-   [`src/scenarios/posting.ts`](src/scenarios/posting.ts).
+   [`src/core/scenarios/posting.ts`](src/core/scenarios/posting.ts).
 7. Опубликовать в аккаунтах проекта не опубликованные посты из [`data/published`](data/published).
 8. Создать отсутствующие и удалить ненужные превью в [`assets/previews`](assets/previews).
 9. Обновить документы [`docs`](docs/).
 
 #### Обработка заявок
 
-Скрипт [`src/resolve-github-issue.ts`](src/resolve-github-issue.ts) запускается создании или изменении зявки в разделе
-[Issues](https://github.com/dehero/mwscr/issues). Заявки - основной инструмент взаимодействия с проектом для
+Скрипт [`src/local/resolve-github-issue.ts`](src/local/resolve-github-issue.ts) запускается создании или изменении зявки
+в разделе [Issues](https://github.com/dehero/mwscr/issues). Заявки - основной инструмент взаимодействия с проектом для
 администратора и других его участников. Использование заявок описано в [руководстве для участников](CONTRIBUTING.ru.md).
 
 #### Проверка данных
 
-Скрипт [`src/validate.ts`](src/validate.ts) проверяет целостность данных в папке [`data`](data) и хранилище `store:`.
-Запускается вручную:
+Скрипт [`src/local/validate.ts`](src/local/validate.ts) проверяет целостность данных в папке [`data`](data) и хранилище
+`store:`. Запускается вручную:
 
 ```bash
 npm run validate
