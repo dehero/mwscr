@@ -1,5 +1,5 @@
-import users from '../../data/users.yml';
-import type { User } from '../entities/user.js';
+import users from '../../../data/users.yml';
+import type { User } from '../../core/entities/user.js';
 
 export function getUser(userId: string): User | undefined {
   return users[userId] as User | undefined;

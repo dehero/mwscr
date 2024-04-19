@@ -1,17 +1,17 @@
 import type { VirtualItemProps } from '@minht11/solid-virtual-container';
 import { VirtualContainer } from '@minht11/solid-virtual-container';
 import { type Component, createResource, createSignal, Show } from 'solid-js';
-import { isNestedLocation } from '../../entities/location.js';
-import type { Post, PostEntries, PostEntry, PostType } from '../../entities/post.js';
+import { isNestedLocation } from '../../../core/entities/location.js';
+import type { Post, PostEntries, PostEntry, PostType } from '../../../core/entities/post.js';
 import {
   comparePostEntriesById,
   comparePostEntriesByLikes,
   comparePostEntriesByRating,
   comparePostEntriesByViews,
   POST_TYPES,
-} from '../../entities/post.js';
-import { getUserName } from '../../site-data-managers/users.js';
-import { asArray } from '../../utils/common-utils.js';
+} from '../../../core/entities/post.js';
+import { asArray } from '../../../core/utils/common-utils.js';
+import { getUserName } from '../../data-managers/users.js';
 import { Divider } from '../Divider/Divider.js';
 import { Input } from '../Input/Input.js';
 import { Page } from '../Page/Page.js';
@@ -20,7 +20,7 @@ import { RadioGroup } from '../RadioGroup/RadioGroup.jsx';
 import { Select } from '../Select/Select.js';
 import styles from './Posts.module.css';
 
-const postChunks = import.meta.glob('../../../data/published/*.yml', {
+const postChunks = import.meta.glob('../../../../data/published/*.yml', {
   import: 'default',
   query: { transform: 'postInfo' },
 });
@@ -100,7 +100,7 @@ const getTags = async (): Promise<string[]> => {
 
 const getLocations = async (): Promise<string[]> => {
   const result: Set<string> = new Set();
-  const { default: data } = await import('../../../data/locations.lst');
+  const { default: data } = await import('../../../../data/locations.lst');
 
   const locations: string[] = data.split(/\r?\n/);
 

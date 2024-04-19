@@ -1,5 +1,5 @@
 import { type Component } from 'solid-js';
-import Content from '../../../CONTRIBUTING.md';
+import Content from '../../../../CONTRIBUTING.md';
 import { Page } from '../Page/Page.js';
 import styles from './Contributing.module.css';
 

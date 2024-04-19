@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { type Component, createSignal, For, Show } from 'solid-js';
-import { getPostRating, type Post } from '../../entities/post.js';
-import { asArray } from '../../utils/common-utils.js';
+import { getPostRating, type Post } from '../../../core/entities/post.js';
+import { asArray } from '../../../core/utils/common-utils.js';
 import { Frame } from '../Frame/Frame.jsx';
 import { PostTooltip } from '../PostTooltip/PostTooltip.js';
 import styles from './PostPreview.module.css';

@@ -1,9 +1,9 @@
 import { load } from 'js-yaml';
 import toSource from 'tosource';
 import type { Plugin } from 'vite';
+import { getPostCommentCount, getPostRating, getPostTotalLikes, getPostTotalViews } from '../../core/entities/post.js';
 // TODO: move schema outside data-managers
 import { YAML_SCHEMA } from '../data-managers/utils/yaml.js';
-import { getPostCommentCount, getPostRating, getPostTotalLikes, getPostTotalViews } from '../entities/post.js';
 
 const yamlExtension = /\.ya?ml(\?.*)?$/;
 

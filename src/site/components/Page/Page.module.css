@@ -20,10 +20,10 @@
   min-width: 20px;
   flex-grow: 1;
   border: 2px solid var(--color-text);
-  border-image-source: url(../../../assets/images/frame-header.png);
+  border-image-source: url(../../../../assets/images/frame-header.png);
   border-image-slice: 2;
   border-image-repeat: repeat;
-  background: url(../../../assets/images/bg-header.png);
+  background: url(../../../../assets/images/bg-header.png);
   box-sizing: border-box;
 }
 
