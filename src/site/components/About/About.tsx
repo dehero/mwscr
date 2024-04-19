@@ -1,5 +1,5 @@
 import { type Component } from 'solid-js';
-import Content from '../../../README.md';
+import Content from '../../../../README.md';
 import { Page } from '../Page/Page.js';
 import styles from './About.module.css';
 

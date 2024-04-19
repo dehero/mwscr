@@ -1,8 +1,8 @@
 import { useLocation } from '@solidjs/router';
 import { type Component, For, type JSX, Show } from 'solid-js';
+import { routes } from '../../routes.js';
 import { Button } from '../Button/Button.jsx';
 import { Frame } from '../Frame/Frame.jsx';
-import { routes } from '../routes.js';
 import styles from './Page.module.css';
 
 export interface PageProps {

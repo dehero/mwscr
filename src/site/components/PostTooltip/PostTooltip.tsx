@@ -1,7 +1,7 @@
 import { type Component, Show, splitProps } from 'solid-js';
-import type { Post } from '../../entities/post.js';
-import { getUserName } from '../../site-data-managers/users.js';
-import { asArray } from '../../utils/common-utils.js';
+import type { Post } from '../../../core/entities/post.js';
+import { asArray } from '../../../core/utils/common-utils.js';
+import { getUserName } from '../../data-managers/users.js';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './PostTooltip.module.css';

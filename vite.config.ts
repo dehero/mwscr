@@ -7,14 +7,14 @@ import plainTextPlugin from 'vite-plugin-plain-text';
 import solidPlugin from 'vite-plugin-solid';
 // @ts-expect-error No proper typing
 import solidMarkdownPlugin from 'vite-plugin-solid-markdown';
-import { importYamlPlugin } from './src/vite-plugins/import-yaml-plugin.js';
+import { importYamlPlugin } from './src/local/vite-plugins/import-yaml-plugin.js';
 // @ts-expect-error No proper typing
 // eslint-disable-next-line import/extensions
-import { remarkLinkRewrite } from './src/vite-plugins/remark-plugin.js';
+import { remarkLinkRewrite } from './src/local/vite-plugins/remark-plugin.js';
 
 // eslint-disable-next-line import/no-default-export
 export default defineConfig({
-  root: 'src/site-components',
+  root: 'src/site',
   publicDir: '../../assets',
   plugins: [
     faviconPlugin('./assets/icon.png', {

@@ -17,7 +17,7 @@
 .wrapper:after {
   display: block;
   content: '';
-  background-image: url(../../../assets/images/select-tick.png);
+  background-image: url(../../../../assets/images/select-tick.png);
   background-repeat: no-repeat;
   width: 17px;
   height: 10px;

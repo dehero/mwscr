@@ -1,7 +1,7 @@
 .divider {
   border: none;
   border-bottom: 2px solid var(--color-text);
-  border-image-source: url(../../../assets/images/frame-thin.png);
+  border-image-source: url(../../../../assets/images/frame-thin.png);
   border-image-slice: 2;
   border-image-repeat: repeat;
   margin: 0;
