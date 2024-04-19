@@ -1,31 +1,32 @@
-import { readFile } from 'fs/promises';
+import type { Location } from '../../core/entities/location.js';
+import { loadYaml } from './utils/yaml.js';
 
-const LOCATIONS_FILENAME = './data/locations.lst';
+const LOCATIONS_FILENAME = './data/locations.yml';
 
-let cachedLocations: string[] | undefined;
+let cachedLocations: Location[] | undefined;
 
-export async function getLocations(): Promise<string[]> {
+export async function getLocations(): Promise<Location[]> {
   const currentCachedLocations = cachedLocations;
   if (currentCachedLocations) {
     return currentCachedLocations;
   }
 
   try {
-    const data = await readFile(LOCATIONS_FILENAME, 'utf-8');
+    const data = (await loadYaml(LOCATIONS_FILENAME)) as Location[];
     if (!cachedLocations) {
-      cachedLocations = data.split(/\r?\n/).filter(Boolean);
+      cachedLocations = data;
     }
 
     return cachedLocations;
   } catch (error) {
     const message = error instanceof Error ? error.message : error;
-    throw new Error(`Error loading users: ${message}`);
+    throw new Error(`Error loading locations: ${message}`);
   }
 }
 
-export async function findLocation(searchString: string): Promise<string | undefined> {
+export async function findLocation(searchString: string): Promise<Location | undefined> {
   const locations = await getLocations();
   const lowerCaseSearchString = searchString.toLocaleLowerCase();
 
-  return locations.find((location) => location.toLocaleLowerCase() === lowerCaseSearchString);
+  return locations.find((location) => location.title.toLocaleLowerCase() === lowerCaseSearchString);
 }

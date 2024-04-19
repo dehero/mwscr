@@ -5,7 +5,7 @@ import { published } from './data-managers/posts.js';
 
 const publishedPostEntries = await getPostEntriesFromSource(published.getAllPosts);
 
-const locations = (await getLocations()).sort((a, b) => b.length - a.length);
+const locations = (await getLocations()).map(({ title }) => title).sort((a, b) => b.length - a.length);
 
 for (const [id, post] of publishedPostEntries) {
   if (post.location) {

@@ -51,6 +51,9 @@ const orderedKeys = [
   'nameRuFrom',
   'admin',
   'profiles',
+
+  // Location
+  'cell',
 ];
 
 type SerializedComment = [datetime: number, author: string, text: string, ...replies: SerializedComment[]];

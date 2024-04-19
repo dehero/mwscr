@@ -26,7 +26,7 @@ import {
 } from '../../core/entities/post.js';
 import { label } from '../../core/github-issues/editing.js';
 import { asArray } from '../../core/utils/common-utils.js';
-import { getLocations } from '../data-managers/locations.js';
+import { findLocation } from '../data-managers/locations.js';
 import { getPost, inbox, trash } from '../data-managers/posts.js';
 import {
   extractIssueFieldValue,
@@ -51,7 +51,7 @@ export async function resolve(issue: GithubIssue) {
   const addonStr = extractIssueFieldValue(postAddon, issue.body);
   const markStr = extractIssueFieldValue(postMark, issue.body);
   const violationStr = extractIssueFieldValue(postViolation, issue.body);
-  const location = extractIssueFieldValue(postLocation, issue.body);
+  const locationStr = extractIssueFieldValue(postLocation, issue.body);
   const requestText = extractIssueFieldValue(postRequestText, issue.body);
   const rawContent = extractIssueTextareaValue(postContent, issue.body)?.split(/\r?\n/).filter(Boolean);
   const rawTrash = extractIssueTextareaValue(postTrash, issue.body)?.split(/\r?\n/).filter(Boolean);
@@ -78,12 +78,12 @@ export async function resolve(issue: GithubIssue) {
     ([, title]) => title === violationStr,
   )?.[0] as PostViolation;
 
-  if (!location) {
-    post.location = location;
+  if (!locationStr) {
+    post.location = locationStr;
   } else {
-    const locations = await getLocations();
-    if (locations.includes(location)) {
-      post.location = location;
+    const location = await findLocation(locationStr);
+    if (location) {
+      post.location = location.title;
     }
   }
 

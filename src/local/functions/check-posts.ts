@@ -45,10 +45,10 @@ async function checkPostsLocation() {
       }
 
       const location = await findLocation(post.location);
-      if (location !== post.location) {
+      if (location?.title !== post.location) {
         console.error(`Location "${post.location}" not found for ${manager.title} post "${id}".`);
         if (location) {
-          console.warn(`Possible replacement: ${location}`);
+          console.warn(`Possible replacement: ${location.title}`);
         }
       }
     }

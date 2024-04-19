@@ -23,7 +23,7 @@ export async function resolve(issue: GithubIssue) {
   } else {
     const location = await findLocation(locationStr);
     if (location) {
-      post.location = location;
+      post.location = location.title;
       await manager.updatePost(id);
       console.info(`Set location "${locationStr}" for ${manager.title} post "${id}".`);
     } else {
@@ -45,7 +45,7 @@ export async function createIssueTemplate() {
         ...postLocation,
         attributes: {
           ...postLocation.attributes,
-          options: locations,
+          options: locations.map(({ title }) => title),
         },
       },
     ],
