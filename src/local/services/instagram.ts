@@ -90,7 +90,7 @@ export async function createCaption(post: Post) {
 
   lines.push('');
 
-  if (post.location) {
+  if (post.location && post.location !== post.title) {
     lines.push(post.location);
   }
 
