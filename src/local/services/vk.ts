@@ -13,6 +13,7 @@ import type { VKPost } from '../../core/services/vk.js';
 import { canPublishPost, id, isVKPost, name, VK_GROUP_ID, VK_GROUP_NAME } from '../../core/services/vk.js';
 import { asArray, randomDelay } from '../../core/utils/common-utils.js';
 import { getDaysPassed } from '../../core/utils/date-utils.js';
+import { findLocation } from '../data-managers/locations.js';
 import { readResource } from '../data-managers/resources.js';
 import { findUser, getUser } from '../data-managers/users.js';
 
@@ -79,10 +80,14 @@ export async function createCaption(post: Post) {
 
   lines.push('');
 
-  // TODO: find location on Russian
-  // if (post.location) {
-  //   lines.push(post.location);
-  // }
+  if (post.location) {
+    const location = await findLocation(post.location);
+    if (location?.titleRu && location.titleRu !== post.titleRu) {
+      lines.push(location.titleRu);
+    } else if (post.location !== post.titleRu) {
+      lines.push(post.location);
+    }
+  }
 
   const firstPublished = getPostFirstPublished(post);
   if (firstPublished && getDaysPassed(firstPublished) > 7) {
