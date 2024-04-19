@@ -371,7 +371,7 @@ Specifies one of the allowed game addons explicitly involved in the post:
 
 #### Location
 
-Specifies the game location according to [location list](data/locations.lst). If the exact location cannot be
+Specifies the game location according to [location list](data/locations.yml). If the exact location cannot be
 determined, the region of shooting is specified (for exterior shots).
 
 ### Selecting an editor's mark

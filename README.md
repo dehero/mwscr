@@ -64,7 +64,7 @@ Information about published [`data/published`](data/published), proposed [`data/
 represented by links to the `store:` external storage, which only the project administrator has access to. Other files:
 
 - [`data/users.yml`](data/users.yml) - information about project contributors in `YAML` format;
-- [`data/locations.lst`](data/locations.lst) - list of game locations.
+- [`data/locations.yml`](data/locations.yml) - list of game locations in `YAML` format.
 
 ### Documents
 

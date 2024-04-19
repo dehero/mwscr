@@ -64,7 +64,7 @@
 Другие файлы:
 
 - [`data/users.yml`](data/users.yml) - информация об участниках проекта в формате `YAML`;
-- [`data/locations.lst`](data/locations.lst) - список игровых локаций.
+- [`data/locations.yml`](data/locations.yml) - список игровых локаций в формате `YAML`.
 
 ### Документы
 
