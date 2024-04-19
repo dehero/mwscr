@@ -1,6 +1,7 @@
 import type { VirtualItemProps } from '@minht11/solid-virtual-container';
 import { VirtualContainer } from '@minht11/solid-virtual-container';
 import { type Component, createResource, createSignal, Show } from 'solid-js';
+import type { Location } from '../../../core/entities/location.js';
 import { isNestedLocation } from '../../../core/entities/location.js';
 import type { Post, PostEntries, PostEntry, PostType } from '../../../core/entities/post.js';
 import {
@@ -100,17 +101,17 @@ const getTags = async (): Promise<string[]> => {
 
 const getLocations = async (): Promise<string[]> => {
   const result: Set<string> = new Set();
-  const { default: data } = await import('../../../../data/locations.lst');
+  const { default: data } = await import('../../../../data/locations.yml');
 
-  const locations: string[] = data.split(/\r?\n/);
+  const locations = data as Location[];
 
   for (const chunk of Object.values(postChunks)) {
     const posts = Object.values((await chunk()) as Record<string, Post | string>);
     for (const post of posts) {
       if (typeof post !== 'string' && post.location) {
         locations
-          .filter((location) => post.location && isNestedLocation(post.location, location))
-          .forEach((location) => result.add(location));
+          .filter((location) => post.location && isNestedLocation(post.location, location.title))
+          .forEach((location) => result.add(location.title));
       }
     }
   }
