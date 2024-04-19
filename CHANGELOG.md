@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://github.com/dehero/mwscr/compare/v1.1.2...v1.2.0) (2024-04-19)
+
+### Features
+
+- add location mentioning to VK post captions
+  ([44e3f5a](https://github.com/dehero/mwscr/commit/44e3f5ac79b54cc673278cb7ffe0ad32d26e2870))
+- make locations more detailed
+  ([b24e501](https://github.com/dehero/mwscr/commit/b24e5012e64bc164d1e9fb7be4a4cc647257218b))
+
+### Bug Fixes
+
+- skip mentioning location same as post title in post caption
+  ([c63aa9a](https://github.com/dehero/mwscr/commit/c63aa9a4a9ff6abde480b1618f2992fa8805111a))
+
+### Documentation
+
+- update references to locations data file
+  ([0f20c0f](https://github.com/dehero/mwscr/commit/0f20c0f6f8cd004edade0aec779780c4bd78e688))
+
 ## [1.1.2](https://github.com/dehero/mwscr/compare/v1.1.1...v1.1.2) (2024-04-19)
 
 ### Code Refactoring
