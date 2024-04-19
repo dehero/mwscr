@@ -24,15 +24,23 @@ dehero.2024-02-05-00-07-46:
   type: shot
   author: dehero
 dehero.2024-02-05-00-09-40:
+  title: Fallen Sanctuary
+  titleRu: Павшее святилище
   location: Beran Ancestral Tomb
-  content:
+  content: store:/inbox/dehero.2024-02-05-00-09-40.2.png
+  trash:
     - store:/inbox/dehero.2024-02-05-00-09-40.png
     - store:/inbox/dehero.2024-02-05-00-09-19.png
     - store:/inbox/dehero.2024-02-05-00-09-40.1.png
-    - store:/inbox/dehero.2024-02-05-00-09-40.2.png
     - store:/inbox/dehero.2024-02-05-00-09-40.3.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - tomb
+    - sword
+    - skulls
+  mark: B1
 dehero.2024-02-05-00-20-39:
   location: Grazelands Region
   content: store:/inbox/dehero.2024-02-05-00-20-39.png
