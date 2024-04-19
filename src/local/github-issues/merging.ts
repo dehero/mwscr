@@ -1,12 +1,11 @@
-import type { GithubIssue } from '../../core/entities/github-issue-resolver.js';
+import { mergeWithIds } from '../../core/entities/field.js';
+import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
 import { mergePostWith } from '../../core/entities/post.js';
+import { label } from '../../core/github-issues/merging.js';
 import { getPost, inbox, trash } from '../data-managers/posts.js';
-import { mergeWithIds } from './utils/issue-fields.js';
 import { extractIssueTextareaValue, extractIssueUser } from './utils/issue-utils.js';
 
-export const label = 'merging';
-
-const DEFAULT_TITLE = 'POST_ID';
+export * from '../../core/github-issues/merging.js';
 
 export async function resolve(issue: GithubIssue) {
   const [userId, user] = await extractIssueUser(issue);
@@ -40,19 +39,10 @@ export async function createIssueTemplate(id?: string) {
   const result = {
     name: 'Merge Posts',
     description: 'Paste in the title the ID of post from inbox or trash.',
-    title: id || DEFAULT_TITLE,
+    title: id || GITHUB_ISSUE_DEFAULT_TITLE,
     labels: [label],
     body: [mergeWithIds],
   };
 
   return result;
-}
-
-export function createIssueUrl(id?: string): string {
-  const url = new URL('https://github.com/dehero/mwscr/issues/new');
-  url.searchParams.set('labels', label);
-  url.searchParams.set('template', `${label}.yml`);
-  url.searchParams.set('title', id || DEFAULT_TITLE);
-
-  return url.toString();
 }

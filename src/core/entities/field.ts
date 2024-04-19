@@ -1,4 +1,4 @@
-import { POST_ADDONS, POST_ENGINES, POST_MARKS, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
+import { POST_ADDONS, POST_ENGINES, POST_MARKS, POST_TYPES, POST_VIOLATIONS } from './post.js';
 
 export const postContent = {
   type: 'textarea',

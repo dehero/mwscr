@@ -1,7 +1,7 @@
-import type { GithubIssue } from '../../../core/entities/github-issue-resolver.js';
+import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../../core/entities/field.js';
+import type { GithubIssue } from '../../../core/entities/github-issue.js';
 import type { User } from '../../../core/entities/user.js';
 import { findUser, mergeUser } from '../../data-managers/users.js';
-import { userName, userProfileIg, userProfileTg, userProfileVk } from './issue-fields.js';
 
 const MARKDOWN_LINK_REGEX = /\[([^\]]+)\]\(([^\)]+)\)/g;
 const MARKDOWN_URL_REGEX =

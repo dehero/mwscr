@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import type { Issues } from 'github-webhook-event-types';
-import { resolvers } from '../github-issue-resolvers/index.js';
+import { githubIssueResolvers } from '../github-issues/index.js';
 
 export async function resolveGithubIssue() {
   if (!process.env.GITHUB_ACTION_CONTEXT) {
@@ -17,7 +17,7 @@ export async function resolveGithubIssue() {
   const event = context.event as Issues;
 
   for (const label of event.issue.labels) {
-    const resolver = resolvers.find((resolver) => resolver.label === label.name);
+    const resolver = githubIssueResolvers.find((resolver) => resolver.label === label.name);
 
     await resolver?.resolve(event.issue);
   }

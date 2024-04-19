@@ -1,11 +1,12 @@
-import type { GithubIssue } from '../../core/entities/github-issue-resolver.js';
+import { postType, userName, userProfileIg, userProfileTg, userProfileVk } from '../../core/entities/field.js';
+import type { GithubIssue } from '../../core/entities/github-issue.js';
 import { POST_TYPES } from '../../core/entities/post.js';
 import type { PostRequest } from '../../core/entities/post-variation.js';
+import { label } from '../../core/github-issues/request.js';
 import { createPostRequestId, inbox } from '../data-managers/posts.js';
-import { postType, userName, userProfileIg, userProfileTg, userProfileVk } from './utils/issue-fields.js';
 import { extractIssueFieldValue, extractIssueUser } from './utils/issue-utils.js';
 
-export const label = 'request';
+export * from '../../core/github-issues/request.js';
 
 export async function resolve(issue: GithubIssue) {
   const [user] = await extractIssueUser(issue);
@@ -36,12 +37,4 @@ export async function createIssueTemplate() {
   };
 
   return result;
-}
-
-export function createIssueUrl(): string {
-  const url = new URL('https://github.com/dehero/mwscr/issues/new');
-  url.searchParams.set('labels', label);
-  url.searchParams.set('template', `${label}.yml`);
-
-  return url.toString();
 }

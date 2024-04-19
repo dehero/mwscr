@@ -1,13 +1,12 @@
-import type { GithubIssue } from '../../core/entities/github-issue-resolver.js';
+import { postMark, postViolation } from '../../core/entities/field.js';
+import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
 import type { PostViolation } from '../../core/entities/post.js';
 import { POST_MARKS, POST_VIOLATIONS } from '../../core/entities/post.js';
+import { label } from '../../core/github-issues/review.js';
 import { getPost, inbox, published, trash } from '../data-managers/posts.js';
-import { postMark, postViolation } from './utils/issue-fields.js';
 import { extractIssueFieldValue, extractIssueUser } from './utils/issue-utils.js';
 
-export const label = 'review';
-
-const DEFAULT_TITLE = 'POST_ID';
+export * from '../../core/github-issues/review.js';
 
 export async function resolve(issue: GithubIssue) {
   const [userId, user] = await extractIssueUser(issue);
@@ -36,17 +35,8 @@ export async function createIssueTemplate() {
   return {
     name: 'Review Post',
     description: 'Paste in the title the ID of post.',
-    title: DEFAULT_TITLE,
+    title: GITHUB_ISSUE_DEFAULT_TITLE,
     labels: [label],
     body: [postMark, postViolation],
   };
-}
-
-export function createIssueUrl(id?: string): string {
-  const url = new URL('https://github.com/dehero/mwscr/issues/new');
-  url.searchParams.set('labels', label);
-  url.searchParams.set('template', `${label}.yml`);
-  url.searchParams.set('title', id || DEFAULT_TITLE);
-
-  return url.toString();
 }

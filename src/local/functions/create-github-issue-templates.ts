@@ -1,6 +1,6 @@
 import { writeFile } from 'fs/promises';
 import yaml from 'js-yaml';
-import { resolvers } from '../github-issue-resolvers/index.js';
+import { githubIssueResolvers } from '../github-issues/index.js';
 import { createEmptyDir } from '../utils/file-utils.js';
 
 const GITHUB_ISSUE_TEMPLATE_PATH = '.github/ISSUE_TEMPLATE';
@@ -10,7 +10,7 @@ export async function createGithubIssueTemplates() {
 
   await createEmptyDir(GITHUB_ISSUE_TEMPLATE_PATH);
 
-  for (const resolver of resolvers) {
+  for (const resolver of githubIssueResolvers) {
     try {
       const template = await resolver.createIssueTemplate();
       const filename = `${GITHUB_ISSUE_TEMPLATE_PATH}/${resolver.label}.yml`;

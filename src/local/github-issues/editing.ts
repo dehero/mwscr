@@ -1,17 +1,3 @@
-import type { GithubIssue } from '../../core/entities/github-issue-resolver.js';
-import type { Post, PostViolation } from '../../core/entities/post.js';
-import {
-  mergeAuthors,
-  mergePostContents,
-  POST_ADDONS,
-  POST_ENGINES,
-  POST_MARKS,
-  POST_TYPES,
-  POST_VIOLATIONS,
-} from '../../core/entities/post.js';
-import { asArray } from '../../core/utils/common-utils.js';
-import { getLocations } from '../data-managers/locations.js';
-import { getPost, inbox, trash } from '../data-managers/posts.js';
 import {
   postAddon,
   postAuthor,
@@ -26,7 +12,22 @@ import {
   postTrash,
   postType,
   postViolation,
-} from './utils/issue-fields.js';
+} from '../../core/entities/field.js';
+import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
+import type { PostViolation } from '../../core/entities/post.js';
+import {
+  mergeAuthors,
+  mergePostContents,
+  POST_ADDONS,
+  POST_ENGINES,
+  POST_MARKS,
+  POST_TYPES,
+  POST_VIOLATIONS,
+} from '../../core/entities/post.js';
+import { label } from '../../core/github-issues/editing.js';
+import { asArray } from '../../core/utils/common-utils.js';
+import { getLocations } from '../data-managers/locations.js';
+import { getPost, inbox, trash } from '../data-managers/posts.js';
 import {
   extractIssueFieldValue,
   extractIssueTextareaValue,
@@ -34,9 +35,7 @@ import {
   issueDropdownToInput,
 } from './utils/issue-utils.js';
 
-export const label = 'editing';
-
-const DEFAULT_TITLE = 'POST_ID';
+export * from '../../core/github-issues/editing.js';
 
 export async function resolve(issue: GithubIssue) {
   const id = issue.title;
@@ -101,7 +100,7 @@ export async function createIssueTemplate() {
   return {
     name: 'Edit Post',
     description: 'Paste in the title the ID of post from inbox or trash.',
-    title: DEFAULT_TITLE,
+    title: GITHUB_ISSUE_DEFAULT_TITLE,
     labels: [label],
     body: [
       postContent,
@@ -119,26 +118,4 @@ export async function createIssueTemplate() {
       postRequestText,
     ],
   };
-}
-
-export function createIssueUrl(id?: string, post?: Post): string {
-  const url = new URL('https://github.com/dehero/mwscr/issues/new');
-  url.searchParams.set('labels', label);
-  url.searchParams.set('template', `${label}.yml`);
-  url.searchParams.set('title', id || DEFAULT_TITLE);
-  url.searchParams.set(postContent.id, asArray(post?.content).join('\n'));
-  url.searchParams.set(postTitle.id, post?.title || '');
-  url.searchParams.set(postTitleRu.id, post?.titleRu || '');
-  url.searchParams.set(postAuthor.id, asArray(post?.author).join(' '));
-  url.searchParams.set(postType.id, post?.type || 'shot');
-  url.searchParams.set(postEngine.id, post?.engine || '');
-  url.searchParams.set(postAddon.id, post?.addon || '');
-  url.searchParams.set(postTags.id, post?.tags?.join(' ') || '');
-  url.searchParams.set(postLocation.id, post?.location || '');
-  url.searchParams.set(postMark.id, post?.mark || '');
-  url.searchParams.set(postViolation.id, post?.violation || '');
-  url.searchParams.set(postTrash.id, asArray(post?.trash).join('\n'));
-  url.searchParams.set(postRequestText.id, post?.request?.text || '');
-
-  return url.toString();
 }
