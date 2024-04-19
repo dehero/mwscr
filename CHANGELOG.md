@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.2](https://github.com/dehero/mwscr/compare/v1.1.1...v1.1.2) (2024-04-19)
+
+### Code Refactoring
+
+- extract basic GitHub issue logic to core
+  ([c2f6864](https://github.com/dehero/mwscr/commit/c2f6864b33e1ce7285b407571f87579e304d3a93))
+
 ## [1.1.1](https://github.com/dehero/mwscr/compare/v1.1.0...v1.1.1) (2024-04-18)
 
 ### Code Refactoring
