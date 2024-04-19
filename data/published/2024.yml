@@ -1139,3 +1139,30 @@
 2024-04-16.birth-of-fabricant: 2018-01-16.birth-of-fabricant
 2024-04-17.interior-garden: 2017-03-31.interior-garden
 2024-04-18.dren-plantation: 2016-11-20.1.dren-plantation
+2024-04-19.evening-shelter:
+  title: Evening Shelter
+  titleRu: Вечерний приют
+  location: Ascadian Isles Region
+  content: store:/shots/2024-04-19.evening-shelter.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - rain
+    - tree
+    - hlaalu
+  mark: B1
+  posts:
+    - service: ig
+      id: C58-rKfNvb5
+      mediaId: '18004564085596450'
+      published: 2024-04-19-18-17-06
+      followers: 1414
+    - service: vk
+      id: 1501
+      published: 2024-04-19-18-17-12
+      followers: 909
+    - service: tg
+      id: 383
+      published: 2024-04-19-18-17-19
+      followers: 354

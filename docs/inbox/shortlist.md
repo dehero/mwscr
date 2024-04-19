@@ -4,27 +4,7 @@
 
 # Shortlist
 
-`3 items`
-
-## <span id="natty.2024-03-28-20-42-06">Evening Shelter</span>
-
-`RU` Вечерний приют
-
-![store:/inbox/natty.2024-03-28-20-42-06.1.png](../../assets/previews/inbox/natty.2024-03-28-20-42-06.1.avif "natty.2024-03-28-20-42-06.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/natty.2024-03-28-20-42-06.png](../../assets/previews/inbox/natty.2024-03-28-20-42-06.avif "natty.2024-03-28-20-42-06")
-</details>
-
-`shot` by [Natty](../contributors.md#natty)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-28-20-42-06&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-28-20-42-06.1.png&amp;postTitle=Evening+Shelter&amp;postTitleRu=%D0%92%D0%B5%D1%87%D0%B5%D1%80%D0%BD%D0%B8%D0%B9+%D0%BF%D1%80%D0%B8%D1%8E%D1%82&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=rain+tree+hlaalu&amp;postLocation=Ascadian+Isles+Region&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-03-28-20-42-06.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-28-20-42-06) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-28-20-42-06) `B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `rain` `tree` `hlaalu`
-
-```
-natty.2024-03-28-20-42-06
-```
+`2 items`
 
 ## <span id="dehero.2024-02-05-00-09-40">Fallen Sanctuary</span>
 

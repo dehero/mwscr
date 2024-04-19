@@ -4,7 +4,30 @@
 
 # Published in 2024
 
-`52 items`
+`53 items`
+
+## <span id="2024-04-19.evening-shelter">Evening Shelter</span>
+
+`RU` Вечерний приют
+
+<a href="https://instagram.com/p/C58-rKfNvb5/" title="2024-04-19.evening-shelter"><img alt="store:/shots/2024-04-19.evening-shelter.png" src="../../assets/previews/shots/2024-04-19.evening-shelter.avif" /></a>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `rain` `tree` `hlaalu`
+
+```
+2024-04-19.evening-shelter
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C58-rKfNvb5/)       | 2024-04-19 |      1414 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1501) | 2024-04-19 |       909 |
+| [`tg`](https://t.me/mwscr/383)                     | 2024-04-19 |       354 |
+|                                                    |            |      2677 |
 
 ## <span id="2024-04-18.dren-plantation">Dren Plantation</span>
 
@@ -28,10 +51,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNBvXZ1lEOl/)       | 2016-11-20 |       |    16 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_3)    | 2017-01-22 |    55 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C56Z9krvS4F/)       | 2024-04-18 |   278 |    77 |      1412 |   5.45 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1499) | 2024-04-18 |   170 |    25 |       910 |   2.75 |
-| [`tg`](https://t.me/mwscr/382)                     | 2024-04-18 |   128 |    49 |       354 |  13.84 |
-|                                                    |            |   631 |   170 |      2676 |   6.26 |
+| [`ig`](https://instagram.com/p/C56Z9krvS4F/)       | 2024-04-18 |   281 |    78 |      1412 |   5.52 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1499) | 2024-04-18 |   174 |    27 |       910 |   2.97 |
+| [`tg`](https://t.me/mwscr/382)                     | 2024-04-18 |   129 |    49 |       354 |  13.84 |
+|                                                    |            |   639 |   173 |      2676 |   6.33 |
 
 #### Comments
 
@@ -66,10 +89,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSSo_M4Dm2-/)       | 2017-03-31 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_238)  | 2017-03-31 |   121 |     4 |        50 |      4 |
-| [`ig`](https://instagram.com/p/C531KaqsRUG/)       | 2024-04-17 |   300 |    90 |      1413 |   6.37 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1498) | 2024-04-17 |   161 |    26 |       910 |   2.86 |
-| [`tg`](https://t.me/mwscr/381)                     | 2024-04-17 |   149 |    56 |       354 |  15.82 |
-|                                                    |            |   731 |   233 |      2677 |   7.26 |
+| [`ig`](https://instagram.com/p/C531KaqsRUG/)       | 2024-04-17 |   301 |    92 |      1413 |   6.51 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1498) | 2024-04-17 |   162 |    26 |       910 |   2.86 |
+| [`tg`](https://t.me/mwscr/381)                     | 2024-04-17 |   150 |    56 |       354 |  15.82 |
+|                                                    |            |   734 |   235 |      2677 |    7.3 |
 
 ## <span id="2024-04-16.birth-of-fabricant">Birth of Fabricant</span>
 
