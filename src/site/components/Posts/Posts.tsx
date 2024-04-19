@@ -36,6 +36,7 @@ const comparators = [
 type ComparatorKey = (typeof comparators)[number]['value'];
 
 interface PostsFilter {
+  skipReferences?: boolean;
   type?: PostType;
   tag?: string;
   location?: string; // | null;
@@ -52,7 +53,7 @@ const getPosts = async (filter: PostsFilter): Promise<PostEntries> => {
     const entries = Object.entries((await chunk()) as Record<string, Post | string>);
     for (const [id, post] of entries) {
       if (typeof post === 'string') {
-        references.set(post, id);
+        references.set(id, post);
       } else {
         result.set(id, post);
       }
@@ -60,10 +61,12 @@ const getPosts = async (filter: PostsFilter): Promise<PostEntries> => {
   }
 
   // Resolve references
-  for (const [id, post] of references) {
-    const ref = result.get(post);
-    if (ref) {
-      result.set(id, ref);
+  if (!filter.skipReferences) {
+    for (const [id, originalId] of references) {
+      const ref = result.get(originalId);
+      if (ref) {
+        result.set(id, ref);
+      }
     }
   }
 
@@ -165,6 +168,7 @@ export const Posts: Component = () => {
   const [isSearching, setIsSearching] = createSignal(false);
 
   const postFilter = (): PostsFilter => ({
+    skipReferences: sortKey() !== 'id',
     type: postType(),
     location: postLocation(),
     tag: postTag(),
