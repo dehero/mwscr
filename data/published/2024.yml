@@ -1024,10 +1024,10 @@
       id: C5oYU4kunXC
       mediaId: '18046854784659987'
       published: 2024-04-11-18-17-11
-      updated: 2024-04-17-23-15-06
+      updated: 2024-04-19-01-00-16
       followers: 1412
       likes: 98
-      views: 374
+      views: 375
       comments: !c |-
         G88AIIyULuLe/F/zE367Si86Oj2MyM1GG98bVniYncAikSqX37axhu+IqEdBEJdPiMbp9leQ3rA8
         hzZFSRziO7W6+HTLFwBPz7tps0X+/YritxGVSAt1u+uW0hYAbTj+mjU5H1u3afjQunjqaHCoVgu7
@@ -1035,17 +1035,17 @@
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2024-04-17-23-15-06
+      updated: 2024-04-19-01-00-16
       followers: 911
-      likes: 26
-      views: 176
+      likes: 27
+      views: 188
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2024-04-17-23-15-06
+      updated: 2024-04-19-01-00-16
       followers: 352
       likes: 61
-      views: 243
+      views: 260
 2024-04-12.sadrith-mora-gateway-inn: 2017-01-19.sadrith-mora-gateway-inn
 2024-04-13.manwe:
   title: Manwe
