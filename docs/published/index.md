@@ -4,7 +4,38 @@
 
 # Published in 2024
 
-`53 items`
+`54 items`
+
+## <span id="2024-04-20.fallen-sanctuary">Fallen Sanctuary</span>
+
+`RU` Павшее святилище
+
+<a href="https://instagram.com/p/C5_jjRLxIhb/" title="2024-04-20.fallen-sanctuary"><img alt="store:/shots/2024-04-20.fallen-sanctuary.png" src="../../assets/previews/shots/2024-04-20.fallen-sanctuary.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2024-02-05-00-09-19.png](../../assets/previews/trash/dehero.2024-02-05-00-09-19.avif "dehero.2024-02-05-00-09-19")
+![store:/trash/dehero.2024-02-05-00-09-40.1.png](../../assets/previews/trash/dehero.2024-02-05-00-09-40.1.avif "dehero.2024-02-05-00-09-40.1")
+![store:/trash/dehero.2024-02-05-00-09-40.3.png](../../assets/previews/trash/dehero.2024-02-05-00-09-40.3.avif "dehero.2024-02-05-00-09-40.3")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Beran Ancestral Tomb` `🚀 OpenMW` `tomb` `sword` `skulls`
+
+```
+2024-04-20.fallen-sanctuary
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C5_jjRLxIhb/)       | 2024-04-20 |      1414 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1502) | 2024-04-20 |       909 |
+| [`tg`](https://t.me/mwscr/384)                     | 2024-04-20 |       354 |
+|                                                    |            |      2677 |
 
 ## <span id="2024-04-19.evening-shelter">Evening Shelter</span>
 
@@ -24,10 +55,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C58-rKfNvb5/)       | 2024-04-19 |   269 |    81 |      1414 |   5.73 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1501) | 2024-04-19 |   159 |    32 |       909 |   3.52 |
-| [`tg`](https://t.me/mwscr/383)                     | 2024-04-19 |   105 |    46 |       354 |  12.99 |
-|                                                    |            |   533 |   159 |      2677 |   7.41 |
+| [`ig`](https://instagram.com/p/C58-rKfNvb5/)       | 2024-04-19 |   277 |    82 |      1414 |    5.8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1501) | 2024-04-19 |   161 |    32 |       909 |   3.52 |
+| [`tg`](https://t.me/mwscr/383)                     | 2024-04-19 |   106 |    46 |       354 |  12.99 |
+|                                                    |            |   544 |   160 |      2677 |   7.44 |
 
 #### Comments
 
@@ -55,10 +86,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNBvXZ1lEOl/)       | 2016-11-20 |       |    16 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_3)    | 2017-01-22 |    55 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C56Z9krvS4F/)       | 2024-04-18 |   318 |    83 |      1412 |   5.88 |
+| [`ig`](https://instagram.com/p/C56Z9krvS4F/)       | 2024-04-18 |   319 |    83 |      1412 |   5.88 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1499) | 2024-04-18 |   194 |    29 |       910 |   3.19 |
-| [`tg`](https://t.me/mwscr/382)                     | 2024-04-18 |   152 |    56 |       354 |  15.82 |
-|                                                    |            |   719 |   187 |      2676 |   6.97 |
+| [`tg`](https://t.me/mwscr/382)                     | 2024-04-18 |   153 |    56 |       354 |  15.82 |
+|                                                    |            |   721 |   187 |      2676 |   6.97 |
 
 #### Comments
 
@@ -93,10 +124,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSSo_M4Dm2-/)       | 2017-03-31 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_238)  | 2017-03-31 |   121 |     4 |        50 |      4 |
-| [`ig`](https://instagram.com/p/C531KaqsRUG/)       | 2024-04-17 |   301 |    92 |      1413 |   6.51 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1498) | 2024-04-17 |   162 |    26 |       910 |   2.86 |
-| [`tg`](https://t.me/mwscr/381)                     | 2024-04-17 |   150 |    56 |       354 |  15.82 |
-|                                                    |            |   734 |   235 |      2677 |    7.3 |
+| [`ig`](https://instagram.com/p/C531KaqsRUG/)       | 2024-04-17 |   326 |    94 |      1413 |   6.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1498) | 2024-04-17 |   175 |    28 |       910 |   3.08 |
+| [`tg`](https://t.me/mwscr/381)                     | 2024-04-17 |   164 |    58 |       354 |  16.38 |
+|                                                    |            |   786 |   241 |      2677 |   7.53 |
 
 ## <span id="2024-04-16.birth-of-fabricant">Birth of Fabricant</span>
 
@@ -120,10 +151,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BeBen7vj3Ii/)       | 2018-01-16 |       |    81 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_579)  | 2018-01-16 |   543 |    28 |       122 |  22.95 |
-| [`ig`](https://instagram.com/p/C51QP5Urf1u/)       | 2024-04-16 |   462 |   109 |      1414 |   7.71 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1497) | 2024-04-16 |   199 |    28 |       910 |   3.08 |
-| [`tg`](https://t.me/mwscr/380)                     | 2024-04-16 |   171 |    50 |       353 |  14.16 |
-|                                                    |            |  1375 |   296 |      2677 |  11.98 |
+| [`ig`](https://instagram.com/p/C51QP5Urf1u/)       | 2024-04-16 |   475 |   112 |      1414 |   7.92 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1497) | 2024-04-16 |   211 |    31 |       910 |   3.41 |
+| [`tg`](https://t.me/mwscr/380)                     | 2024-04-16 |   191 |    51 |       353 |  14.45 |
+|                                                    |            |  1420 |   303 |      2677 |  12.18 |
 
 #### Comments
 
@@ -157,10 +188,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5yrij1LmAN/)       | 2024-04-15 |   373 |   114 |      1414 |   8.06 |
+| [`ig`](https://instagram.com/p/C5yrij1LmAN/)       | 2024-04-15 |   381 |   114 |      1414 |   8.06 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1495) | 2024-04-15 |   223 |    41 |       910 |   4.51 |
 | [`tg`](https://t.me/mwscr/379)                     | 2024-04-15 |   218 |    50 |       352 |   14.2 |
-|                                                    |            |   814 |   205 |      2676 |   8.92 |
+|                                                    |            |   822 |   205 |      2676 |   8.92 |
 
 #### Comments
 

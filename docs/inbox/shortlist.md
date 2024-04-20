@@ -4,30 +4,7 @@
 
 # Shortlist
 
-`2 items`
-
-## <span id="dehero.2024-02-05-00-09-40">Fallen Sanctuary</span>
-
-`RU` Павшее святилище
-
-![store:/inbox/dehero.2024-02-05-00-09-40.2.png](../../assets/previews/inbox/dehero.2024-02-05-00-09-40.2.avif "dehero.2024-02-05-00-09-40.2")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2024-02-05-00-09-40.png](../../assets/previews/inbox/dehero.2024-02-05-00-09-40.avif "dehero.2024-02-05-00-09-40")
-![store:/inbox/dehero.2024-02-05-00-09-19.png](../../assets/previews/inbox/dehero.2024-02-05-00-09-19.avif "dehero.2024-02-05-00-09-19")
-![store:/inbox/dehero.2024-02-05-00-09-40.1.png](../../assets/previews/inbox/dehero.2024-02-05-00-09-40.1.avif "dehero.2024-02-05-00-09-40.1")
-![store:/inbox/dehero.2024-02-05-00-09-40.3.png](../../assets/previews/inbox/dehero.2024-02-05-00-09-40.3.avif "dehero.2024-02-05-00-09-40.3")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-05-00-09-40&amp;postContent=store%3A%2Finbox%2Fdehero.2024-02-05-00-09-40.2.png&amp;postTitle=Fallen+Sanctuary&amp;postTitleRu=%D0%9F%D0%B0%D0%B2%D1%88%D0%B5%D0%B5+%D1%81%D0%B2%D1%8F%D1%82%D0%B8%D0%BB%D0%B8%D1%89%D0%B5&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=tomb+sword+skulls&amp;postLocation=Beran+Ancestral+Tomb&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-02-05-00-09-40.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-09-19.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-09-40.1.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-09-40.3.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-05-00-09-40) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-05-00-09-40) `B1` `📍 Beran Ancestral Tomb` `🚀 OpenMW` `tomb` `sword` `skulls`
-
-```
-dehero.2024-02-05-00-09-40
-```
+`1 items`
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
 
