@@ -1600,6 +1600,38 @@
 
 - `tg` <ins title="2023-08-01-17-48-17">Влад</ins> Нетч❤️
 
+## <span id="2018-01-16.birth-of-fabricant">Birth of Fabricant</span>
+
+`RU` Рождение фабриканта
+
+<a href="https://instagram.com/p/BeBen7vj3Ii/" title="2018-01-16.birth-of-fabricant"><img alt="store:/shots/2018-01-16.birth-of-fabricant.png" src="../../assets/previews/shots/2018-01-16.birth-of-fabricant.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2018-01-16.birth-of-fabricant)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil`
+
+```
+2018-01-16.birth-of-fabricant
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BeBen7vj3Ii/)       | 2018-01-16 |       |    81 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_579)  | 2018-01-16 |   543 |    28 |       122 |  22.95 |
+| [`ig`](https://instagram.com/p/C51QP5Urf1u/)       | 2024-04-16 |   484 |   113 |      1414 |   7.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1497) | 2024-04-16 |   215 |    31 |       910 |   3.41 |
+| [`tg`](https://t.me/mwscr/380)                     | 2024-04-16 |   220 |    54 |       353 |   15.3 |
+|                                                    |            |  1462 |   307 |      2677 |  12.41 |
+
+#### Comments
+
+- `ig` <ins title="2018-01-17-15-28-45">konst.mk</ins> Расскажите, пожалуйста, где искать? А то я в трибунал почти не играл
+  - <ins title="2018-01-17-16-25-19">mwscr</ins> @konstantin.manyakhin Это в Заводом городе, купол Серлин. Туда можно телепортироваться в конце сюжетной линии Трибунала.
+- `tg` <ins title="2024-04-16-20-26-58">alex_emsow</ins> I just hate this place😅
+  - <ins title="2024-04-16-20-54-22">Gatemate7</ins> this is a mod?
+
 ## <span id="2024-02-28.omalen-ancestral-tomb">Omalen Ancestral Tomb</span>
 
 `RU` Родовая гробница Омаленов
@@ -1644,29 +1676,6 @@
 - `tg` <ins title="2024-02-28-22-17-13">syomadyoma</ins> my favourite tg channel
 - `vk` <ins title="2024-02-28-23-23-11">thelittlebuddy</ins> Я приказываю вам жить<br>[пожалуйста]
 - `ig` <ins title="2024-02-29-19-40-54">angelpeepee__</ins> You are the greatest public service
-
-## <span id="2022-07-08.squad">Squad</span>
-
-`RU` Отряд
-
-<a href="https://instagram.com/p/CfxD4RgsxEL/" title="2022-07-08.squad"><img alt="store:/shots/2022-07-08.squad.png" src="../../assets/previews/shots/2022-07-08.squad.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-08.squad)</code> `🚀 OpenMW`
-
-```
-2022-07-08.squad
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CfxD4RgsxEL/)       | 2022-07-08 |       |   133 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1328) | 2022-07-08 |   449 |    43 |       739 |   5.82 |
-| [`tg`](https://t.me/mwscr/268)                     | 2022-07-08 |   613 |    48 |       256 |  18.75 |
-|                                                    |            |  1062 |   224 |       995 |  12.28 |
 
 ---
 

@@ -425,25 +425,25 @@
       id: C51QP5Urf1u
       mediaId: '18428034226010775'
       published: 2024-04-16-18-16-46
-      updated: 2024-04-20-18-17-30
+      updated: 2024-04-21-19-12-10
       followers: 1414
-      likes: 112
-      views: 475
+      likes: 113
+      views: 484
     - service: vk
       id: 1497
       published: 2024-04-16-18-16-52
-      updated: 2024-04-20-18-17-31
+      updated: 2024-04-21-19-12-11
       followers: 910
       likes: 31
-      views: 211
+      views: 215
       reposts: 2
     - service: tg
       id: 380
       published: 2024-04-16-18-16-59
-      updated: 2024-04-20-18-17-32
+      updated: 2024-04-21-19-12-12
       followers: 353
-      likes: 51
-      views: 191
+      likes: 54
+      views: 220
       comments: !c |-
         iymAkZTLQnjuiXXlAACqYWxleF9lbXNvd7pJIGp1c3QgaGF0ZSB0aGlzIHBsYWNl8J+YhZPLQnju
         iwdDAACpR2F0ZW1hdGU3rnRoaXMgaXMgYSBtb2Q/Aw==
@@ -1655,15 +1655,28 @@
       id: C6CIUEHNfDw
       mediaId: '17926435715778529'
       published: 2024-04-21-18-17-33
+      updated: 2024-04-21-19-12-07
       followers: 1414
+      likes: 22
+      views: 62
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
+      updated: 2024-04-21-19-12-08
       followers: 909
+      likes: 10
+      views: 44
     - service: tg
       id: 385
       published: 2024-04-21-18-17-47
+      updated: 2024-04-21-19-12-09
       followers: 354
+      likes: 23
+      views: 59
+      comments: !c |-
+        G5MAIIzEOBbyKLwIjYaueUSfiVGLEv6IElyAJk9wQJ9OgPCgg1O987OBBAFmAVic5TYGjuMWaZQn
+        6nN9/PfzEC7wdMou6VZT0rkhzjpq4ZRI1SJFMJgl8GKBuKuKV4JEQ9B1LFIGgb+5Cy71D4DvxemD
+        AqWs8uzEtc4mzviV+fYrpA06QvpIuQA=
 2018-03-03.cosy-bay:
   title: Cosy Bay
   titleRu: Уютный залив
