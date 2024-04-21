@@ -28,15 +28,17 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bf1SN0JDvPU/)       | 2018-03-02 |       |    73 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_634)  | 2018-03-02 |   210 |    15 |       136 |  11.03 |
-| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   135 |    38 |      1414 |   2.69 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |    78 |    21 |       909 |   2.31 |
-| [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |    75 |    29 |       354 |   8.19 |
-|                                                    |            |   498 |   176 |      2677 |   6.05 |
+| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   156 |    40 |      1414 |   2.83 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |    86 |    22 |       909 |   2.42 |
+| [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |    79 |    32 |       354 |   9.04 |
+|                                                    |            |   531 |   182 |      2677 |   6.33 |
 
 #### Comments
 
 - `tg` <ins title="2024-04-21-18-19-13">ansis</ins> what more could a man or mer (yech, or beast, i guess) need?
   - <ins title="2024-04-21-18-24-30">Gatemate7</ins> maybe bread? this game is do retarded sometimes
+- `ig` <ins title="2024-04-21-21-32-47">delanospies</ins> @dravenjv me rn
+  - <ins title="2024-04-21-21-58-20">dravenjv</ins> what I see while sitting in a bathtub somewhere in khuul
 
 ## <span id="2024-04-20.fallen-sanctuary">Fallen Sanctuary</span>
 
@@ -64,10 +66,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5_jjRLxIhb/)       | 2024-04-20 |   420 |   119 |      1414 |   8.42 |
+| [`ig`](https://instagram.com/p/C5_jjRLxIhb/)       | 2024-04-20 |   425 |   119 |      1414 |   8.42 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1502) | 2024-04-20 |   168 |    25 |       909 |   2.75 |
-| [`tg`](https://t.me/mwscr/384)                     | 2024-04-20 |   133 |    48 |       354 |  13.56 |
-|                                                    |            |   721 |   192 |      2677 |   8.24 |
+| [`tg`](https://t.me/mwscr/384)                     | 2024-04-20 |   135 |    48 |       354 |  13.56 |
+|                                                    |            |   728 |   192 |      2677 |   8.24 |
 
 ## <span id="2024-04-19.evening-shelter">Evening Shelter</span>
 
