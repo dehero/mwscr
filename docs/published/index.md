@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`54 items`
+`55 items`
+
+## <span id="2024-04-21.a-little-joy-for-hard-worker">A Little Joy for Hard Worker</span>
+
+`RU` Маленькая радость простого работяги
+
+<a href="https://instagram.com/p/Bf1SN0JDvPU/" title="2018-03-02.a-little-joy-for-hard-worker"><img alt="store:/shots/2018-03-02.a-little-joy-for-hard-worker.png" src="../../assets/previews/shots/2018-03-02.a-little-joy-for-hard-worker.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-21.a-little-joy-for-hard-worker)</code> `🚀 OpenMW` `candles` `bottle` `cup`
+
+```
+2024-04-21.a-little-joy-for-hard-worker
+```
+
+> `2018-03-02.a-little-joy-for-hard-worker`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bf1SN0JDvPU/)       | 2018-03-02 |       |    73 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_634)  | 2018-03-02 |   210 |    15 |       136 |  11.03 |
+| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |       |       |      1414 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |       |       |       909 |        |
+| [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |       |       |       354 |        |
+|                                                    |            |   210 |    88 |      2677 |        |
 
 ## <span id="2024-04-20.fallen-sanctuary">Fallen Sanctuary</span>
 
@@ -32,10 +59,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5_jjRLxIhb/)       | 2024-04-20 |   396 |   111 |      1414 |   7.85 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1502) | 2024-04-20 |   157 |    25 |       909 |   2.75 |
-| [`tg`](https://t.me/mwscr/384)                     | 2024-04-20 |   114 |    44 |       354 |  12.43 |
-|                                                    |            |   667 |   180 |      2677 |   7.68 |
+| [`ig`](https://instagram.com/p/C5_jjRLxIhb/)       | 2024-04-20 |   403 |   115 |      1414 |   8.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1502) | 2024-04-20 |   164 |    25 |       909 |   2.75 |
+| [`tg`](https://t.me/mwscr/384)                     | 2024-04-20 |   115 |    44 |       354 |  12.43 |
+|                                                    |            |   682 |   184 |      2677 |   7.77 |
 
 ## <span id="2024-04-19.evening-shelter">Evening Shelter</span>
 
