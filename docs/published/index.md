@@ -28,17 +28,19 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bf1SN0JDvPU/)       | 2018-03-02 |       |    73 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_634)  | 2018-03-02 |   210 |    15 |       136 |  11.03 |
-| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   156 |    40 |      1414 |   2.83 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |    86 |    22 |       909 |   2.42 |
-| [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |    79 |    32 |       354 |   9.04 |
-|                                                    |            |   531 |   182 |      2677 |   6.33 |
+| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   173 |    42 |      1414 |   2.97 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |    91 |    23 |       909 |   2.53 |
+| [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |    82 |    33 |       354 |   9.32 |
+|                                                    |            |   556 |   186 |      2677 |   6.46 |
 
 #### Comments
 
 - `tg` <ins title="2024-04-21-18-19-13">ansis</ins> what more could a man or mer (yech, or beast, i guess) need?
   - <ins title="2024-04-21-18-24-30">Gatemate7</ins> maybe bread? this game is do retarded sometimes
 - `ig` <ins title="2024-04-21-21-32-47">delanospies</ins> @dravenjv me rn
+  - <ins title="2024-04-21-22-18-37">delanospies</ins> @dravenjv bro...if you consume 5 bottles of skooma its enough for the night...
   - <ins title="2024-04-21-21-58-20">dravenjv</ins> what I see while sitting in a bathtub somewhere in khuul
+- `vk` <ins title="2024-04-21-22-45-35">artemius_galitzine</ins> После тяжёлого рабочего дня с целью согреть душу 😅✌🏻
 
 ## <span id="2024-04-20.fallen-sanctuary">Fallen Sanctuary</span>
 
@@ -67,9 +69,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C5_jjRLxIhb/)       | 2024-04-20 |   425 |   119 |      1414 |   8.42 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1502) | 2024-04-20 |   168 |    25 |       909 |   2.75 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1502) | 2024-04-20 |   169 |    25 |       909 |   2.75 |
 | [`tg`](https://t.me/mwscr/384)                     | 2024-04-20 |   135 |    48 |       354 |  13.56 |
-|                                                    |            |   728 |   192 |      2677 |   8.24 |
+|                                                    |            |   729 |   192 |      2677 |   8.24 |
 
 ## <span id="2024-04-19.evening-shelter">Evening Shelter</span>
 
