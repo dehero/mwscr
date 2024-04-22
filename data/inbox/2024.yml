@@ -309,14 +309,19 @@ natty.2024-03-10-18-31-21:
   type: shot
   author: natty
 natty.2024-03-24-11-44-29:
-  content:
+  title: Muckspunges on the Coast
+  titleRu: Мускпунж на побережье
+  content: store:/inbox/natty.2024-03-24-11-43-50.1.png
+  trash:
     - store:/inbox/natty.2024-03-24-11-44-29.png
     - store:/inbox/natty.2024-03-24-11-43-50.png
     - store:/inbox/natty.2024-03-24-11-43-30.png
     - store:/inbox/natty.2024-03-24-11-43-28.png
-    - store:/inbox/natty.2024-03-24-11-43-50.1.png
   type: shot
   author: natty
+  engine: OpenMW
+  tags:
+    - coast
 natty.2024-03-24-11-54-47:
   content:
     - store:/inbox/natty.2024-03-24-11-54-47.png
