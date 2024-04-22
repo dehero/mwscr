@@ -51,13 +51,21 @@ dehero.2024-02-17-10-41-10:
   type: shot
   author: dehero
 dehero.2024-02-17-10-53-36:
-  content:
+  title: Sunset over Molag Amur
+  titleRu: Закат над Молаг Амур
+  location: Molag Amur Region
+  content: store:/inbox/dehero.2024-02-17-10-53-19.1.png
+  trash:
     - store:/inbox/dehero.2024-02-17-10-53-36.png
     - store:/inbox/dehero.2024-02-17-10-53-27.png
     - store:/inbox/dehero.2024-02-17-10-53-19.png
-    - store:/inbox/dehero.2024-02-17-10-53-19.1.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - sunset
+    - lava
+  mark: B1
 dehero.2024-02-17-10-55-28:
   content:
     - store:/inbox/dehero.2024-02-17-10-55-28.png
