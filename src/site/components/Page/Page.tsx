@@ -1,5 +1,6 @@
 import { useLocation } from '@solidjs/router';
 import { type Component, For, type JSX, Show } from 'solid-js';
+import { createIssueUrl as createProposalIssueUrl } from '../../../core/github-issues/proposal.js';
 import { routes } from '../../routes.js';
 import { Button } from '../Button/Button.jsx';
 import { Frame } from '../Frame/Frame.jsx';
@@ -31,11 +32,7 @@ export const Page: Component<PageProps> = (props) => {
           )}
         </For>
 
-        <Button
-          // TODO: use github-issue-resolvers
-          href="https://github.com/dehero/mwscr/issues/new?labels=proposal&template=proposal.yml"
-          target="_blank"
-        >
+        <Button href={createProposalIssueUrl()} target="_blank">
           Propose
         </Button>
       </nav>
