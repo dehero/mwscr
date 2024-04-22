@@ -82,7 +82,7 @@
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `rain` `tree` `hlaalu`
+`B2` `📍 Ascadian Isles Region` `🚀 OpenMW` `rain` `tree` `hlaalu`
 
 ```
 2024-04-19.evening-shelter
