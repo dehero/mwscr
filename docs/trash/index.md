@@ -4,7 +4,7 @@
 
 # Trash for 2024
 
-`10 items`
+`11 items`
 
 ## <span id="natty.2024-03-28-20-37-30">natty.2024-03-28-20-37-30</span>
 
@@ -100,6 +100,22 @@ dehero.2024-03-05-19-55-53
 
 ```
 dehero.2024-02-17-10-33-47
+```
+
+## <span id="dehero.2024-02-17-10-32-49">dehero.2024-02-17-10-32-49</span>
+
+![store:/trash/dehero.2024-02-17-10-32-49.png](../../assets/previews/trash/dehero.2024-02-17-10-32-49.avif "dehero.2024-02-17-10-32-49")
+![store:/trash/dehero.2024-02-17-10-32-47.png](../../assets/previews/trash/dehero.2024-02-17-10-32-47.avif "dehero.2024-02-17-10-32-47")
+![store:/trash/dehero.2024-02-17-10-32-38.png](../../assets/previews/trash/dehero.2024-02-17-10-32-38.avif "dehero.2024-02-17-10-32-38")
+![store:/trash/dehero.2024-02-17-10-32-33.png](../../assets/previews/trash/dehero.2024-02-17-10-32-33.avif "dehero.2024-02-17-10-32-33")
+![store:/trash/dehero.2024-02-17-10-32-15.png](../../assets/previews/trash/dehero.2024-02-17-10-32-15.avif "dehero.2024-02-17-10-32-15")
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-17-10-32-49&amp;postContent=store%3A%2Ftrash%2Fdehero.2024-02-17-10-32-49.png%0Astore%3A%2Ftrash%2Fdehero.2024-02-17-10-32-47.png%0Astore%3A%2Ftrash%2Fdehero.2024-02-17-10-32-38.png%0Astore%3A%2Ftrash%2Fdehero.2024-02-17-10-32-33.png%0Astore%3A%2Ftrash%2Fdehero.2024-02-17-10-32-15.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=D&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-17-10-32-49) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-17-10-32-49) `D` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-02-17-10-32-49)</code>
+
+```
+dehero.2024-02-17-10-32-49
 ```
 
 ## <span id="dehero.2024-02-05-00-20-39">dehero.2024-02-05-00-20-39</span>
