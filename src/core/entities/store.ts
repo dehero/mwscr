@@ -28,9 +28,13 @@ export interface StoreResourceParsedUrl {
   originalUrl?: string;
 }
 
-export interface Store {
+export interface StoreDescriptor {
   include?: string[];
 
+  getPublicUrl(path: string): string | undefined;
+}
+
+export interface Store extends StoreDescriptor {
   copy(from: string, to: string): Promise<void>;
 
   exists(path: string): Promise<boolean>;
@@ -40,8 +44,6 @@ export interface Store {
   getStream(path: string): Promise<NodeJS.ReadableStream | null>;
 
   getPreviewUrl(path: string, width?: number, height?: number): Promise<string | undefined>;
-
-  getPublicUrl(path: string): Promise<string | undefined>;
 
   move(from: string, to: string): Promise<void>;
 

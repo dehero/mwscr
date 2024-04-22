@@ -24,10 +24,11 @@ import {
   POST_TYPES,
   POST_VIOLATIONS,
 } from '../../core/entities/post.js';
+import { getPost } from '../../core/entities/posts-manager.js';
 import { label } from '../../core/github-issues/editing.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { findLocation } from '../data-managers/locations.js';
-import { getPost, inbox, trash } from '../data-managers/posts.js';
+import { inbox, trash } from '../data-managers/posts.js';
 import {
   extractIssueFieldValue,
   extractIssueTextareaValue,

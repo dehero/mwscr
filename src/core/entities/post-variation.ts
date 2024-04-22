@@ -121,3 +121,16 @@ export interface NearOrdinaryPost extends Post {
 export function isNearOrdinaryPost(post: Post, errors?: string[]): post is NearOrdinaryPost {
   return checkRules([needCertainMark('C')], post, errors);
 }
+
+export function getPublishedPostChunkName(id: string) {
+  const chunkName = id.split('-')[0];
+
+  if (!chunkName) {
+    throw new Error(`Cannot get year from post id: ${id}`);
+  }
+  return chunkName;
+}
+
+export function getPostDraftChunkName(id: string) {
+  return id.split('.')[1]?.split('-')[0] ?? new Date().getFullYear().toString();
+}

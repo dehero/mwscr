@@ -106,7 +106,7 @@ export async function getPreviewUrl(path: string, width?: number, height?: numbe
   return resource.preview;
 }
 
-export async function getPublicUrl(_path: string): Promise<string | undefined> {
+export function getPublicUrl(_path: string): string | undefined {
   return undefined;
 }
 

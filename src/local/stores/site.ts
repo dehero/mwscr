@@ -4,14 +4,13 @@ import { Duplex, Readable } from 'stream';
 import type { StoreItem } from '../../core/entities/store.js';
 import { debounce } from '../../core/utils/common-utils.js';
 import { streamToBuffer } from '../utils/data-utils.js';
+import { getPublicUrl } from './yandex-disk.js';
 
-const SITE_URL = 'https://mwscr.dehero.site/';
+export * from '../../core/stores/site.js';
 
 let client: Client | undefined;
 
 const waitAndClose = debounce(() => client?.close(), 1000);
-
-export const include = ['shots/*.png', 'drawings/*.png'];
 
 async function connect() {
   const { SITE_FTP_HOST, SITE_FTP_USER, SITE_FTP_PASSWORD, SITE_FTP_STORE_PATH } = process.env;
@@ -100,10 +99,6 @@ export async function getStream(path: string): Promise<NodeJS.ReadableStream | n
 
 export async function getPreviewUrl(path: string, _width?: number, _height?: number): Promise<string | undefined> {
   return getPublicUrl(path);
-}
-
-export async function getPublicUrl(path: string): Promise<string | undefined> {
-  return `${SITE_URL}store/${path}`;
 }
 
 export async function move(from: string, to: string): Promise<void> {
