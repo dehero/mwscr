@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bf1SN0JDvPU/)       | 2018-03-02 |       |    73 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_634)  | 2018-03-02 |   210 |    15 |       136 |  11.03 |
-| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   260 |    63 |      1414 |   4.46 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |   156 |    32 |       909 |   3.52 |
-| [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |   112 |    45 |       354 |  12.71 |
-|                                                    |            |   738 |   228 |      2677 |   7.93 |
+| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   265 |    65 |      1414 |    4.6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |   163 |    34 |       909 |   3.74 |
+| [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |   116 |    46 |       354 |  12.99 |
+|                                                    |            |   754 |   233 |      2677 |   8.09 |
 
 #### Comments
 
@@ -41,6 +41,7 @@
   - <ins title="2024-04-21-22-18-37">delanospies</ins> @dravenjv bro...if you consume 5 bottles of skooma its enough for the night...
   - <ins title="2024-04-21-21-58-20">dravenjv</ins> what I see while sitting in a bathtub somewhere in khuul
 - `vk` <ins title="2024-04-21-22-45-35">artemius_galitzine</ins> После тяжёлого рабочего дня с целью согреть душу 😅✌🏻
+- `tg` <ins title="2024-04-22-13-20-45">Alexey Stepanov</ins> I don’t have much free time at work, but when I look at these photos, a certain warmth warms my soul
 
 ## <span id="2024-04-20.fallen-sanctuary">Fallen Sanctuary</span>
 
@@ -68,10 +69,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5_jjRLxIhb/)       | 2024-04-20 |   450 |   122 |      1414 |   8.63 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1502) | 2024-04-20 |   185 |    27 |       909 |   2.97 |
-| [`tg`](https://t.me/mwscr/384)                     | 2024-04-20 |   144 |    49 |       354 |  13.84 |
-|                                                    |            |   779 |   198 |      2677 |   8.48 |
+| [`ig`](https://instagram.com/p/C5_jjRLxIhb/)       | 2024-04-20 |   451 |   122 |      1414 |   8.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1502) | 2024-04-20 |   188 |    27 |       909 |   2.97 |
+| [`tg`](https://t.me/mwscr/384)                     | 2024-04-20 |   147 |    49 |       354 |  13.84 |
+|                                                    |            |   786 |   198 |      2677 |   8.48 |
 
 ## <span id="2024-04-19.evening-shelter">Evening Shelter</span>
 
