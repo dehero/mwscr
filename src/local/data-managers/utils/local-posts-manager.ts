@@ -1,28 +1,29 @@
 import { readdir } from 'fs/promises';
-import type { Post, PostEntry } from '../../../core/entities/post.js';
+import type { Post } from '../../../core/entities/post.js';
 import { isPost } from '../../../core/entities/post.js';
 import { stripPostTags } from '../../../core/entities/post-tag.js';
+import type { PostsManagerChunk } from '../../../core/entities/posts-manager.js';
+import { PostsManager } from '../../../core/entities/posts-manager.js';
 import { pathExists } from '../../utils/file-utils.js';
 import { loadYaml, saveYaml } from './yaml.js';
 
-type Chunk<TPost> = Map<string, TPost | string>;
-
-export interface PostsManagerProps<TPost extends Post> {
+export interface LocalPostsManagerProps<TPost extends Post> {
   title: string;
   dirPath: string;
   checkPost: (post: Post, errors?: string[]) => post is TPost;
   getPostChunkName: (id: string) => string;
 }
 
-export class PostsManager<TPost extends Post = Post> {
+export class LocalPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
   readonly title: string;
   readonly checkPost: (post: Post, errors?: string[]) => post is TPost;
   readonly getPostChunkName: (id: string) => string;
   readonly dirPath: string;
   private chunkNames: Set<string> | undefined;
-  private chunks: Map<string, Chunk<TPost>> = new Map();
+  private chunks: Map<string, PostsManagerChunk<TPost>> = new Map();
 
-  constructor({ title, dirPath, checkPost, getPostChunkName }: PostsManagerProps<TPost>) {
+  constructor({ title, dirPath, checkPost, getPostChunkName }: LocalPostsManagerProps<TPost>) {
+    super();
     this.title = title;
     this.checkPost = checkPost;
     this.dirPath = dirPath;
@@ -39,18 +40,6 @@ export class PostsManager<TPost extends Post = Post> {
     return this.saveChunk(chunkName);
   };
 
-  getPost = async (id: string): Promise<TPost | undefined> => {
-    const chunkName = this.getPostChunkName(id);
-    const chunk = await this.loadChunk(chunkName);
-    const post = chunk.get(id);
-
-    if (typeof post === 'string') {
-      return this.getPost(post);
-    }
-
-    return post;
-  };
-
   removePost = async (id: string) => {
     const chunkName = this.getPostChunkName(id);
     const chunk = await this.loadChunk(chunkName);
@@ -58,14 +47,6 @@ export class PostsManager<TPost extends Post = Post> {
     chunk.delete(id);
 
     return this.saveChunk(chunkName);
-  };
-
-  getAllPosts = (skipReferences?: boolean) => this.yieldAllPosts(skipReferences);
-
-  getChunkPosts = (chunkName: string, skipReferences?: boolean) => this.yieldChunkPosts(chunkName, skipReferences);
-
-  getChunk = (chunkName: string): Chunk<TPost> | undefined => {
-    return this.chunks.get(chunkName);
   };
 
   getChunkNames = async (): Promise<string[]> => {
@@ -99,7 +80,7 @@ export class PostsManager<TPost extends Post = Post> {
     return this.saveChunk(refChunkName);
   };
 
-  private async loadChunk(chunkName: string): Promise<Chunk<TPost>> {
+  protected async loadChunk(chunkName: string): Promise<PostsManagerChunk<TPost>> {
     let chunk = this.chunks.get(chunkName);
     if (chunk) {
       return chunk;
@@ -166,31 +147,5 @@ export class PostsManager<TPost extends Post = Post> {
     stripPostTags(post);
 
     return [id, post];
-  }
-
-  private async *yieldAllPosts(skipReferences?: boolean): AsyncGenerator<PostEntry<TPost>> {
-    const chunkNames = await this.getChunkNames();
-
-    for (const chunkName of chunkNames) {
-      yield* this.yieldChunkPosts(chunkName, skipReferences);
-    }
-  }
-
-  private async *yieldChunkPosts(chunkName: string, skipReferences?: boolean): AsyncGenerator<PostEntry<TPost>> {
-    const chunk = await this.loadChunk(chunkName);
-
-    for (const [key, value] of chunk) {
-      if (typeof value === 'string') {
-        if (!skipReferences) {
-          const post = await this.getPost(value);
-          if (!post) {
-            throw new Error(`Post "${value}" not found`);
-          }
-          yield [key, post, value];
-        }
-      } else {
-        yield [key, value];
-      }
-    }
   }
 }

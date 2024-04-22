@@ -1,8 +1,9 @@
 import { postLocation } from '../../core/entities/field.js';
 import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
+import { getPost } from '../../core/entities/posts-manager.js';
 import { label } from '../../core/github-issues/location.js';
 import { findLocation, getLocations } from '../data-managers/locations.js';
-import { getPost, inbox, published, trash } from '../data-managers/posts.js';
+import { inbox, published, trash } from '../data-managers/posts.js';
 import { extractIssueFieldValue, extractIssueUser } from './utils/issue-utils.js';
 
 export * from '../../core/github-issues/location.js';

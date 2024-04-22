@@ -7,7 +7,7 @@ import type { PostingScenario } from '../../core/scenarios/posting.js';
 import { postingScenarios } from '../../core/scenarios/posting.js';
 import { createPublishedPostId, createRepostId, inbox, published } from '../data-managers/posts.js';
 import { movePublishedPostResources } from '../data-managers/store-resources.js';
-import type { PostsManager } from '../data-managers/utils/posts-manager.js';
+import type { LocalPostsManager } from '../data-managers/utils/local-posts-manager.js';
 
 const DEBUG_POSTING = Boolean(process.env.DEBUG_POSTING) || false;
 
@@ -56,7 +56,7 @@ export async function createNewPost() {
 
 export async function selectPostFromScenario(
   postingScenario: PostingScenario,
-  postManagers: PostsManager[],
+  postManagers: LocalPostsManager[],
   publishedPostEntries: PostEntries,
 ): Promise<PostEntry<PublishablePost> | undefined> {
   const [title, postingRules, postCandidateRules] = postingScenario;

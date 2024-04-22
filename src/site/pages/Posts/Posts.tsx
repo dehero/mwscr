@@ -9,22 +9,19 @@ import {
   comparePostEntriesByLikes,
   comparePostEntriesByRating,
   comparePostEntriesByViews,
+  getPostEntriesFromSource,
   POST_TYPES,
 } from '../../../core/entities/post.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import { getUserName } from '../../data-managers/users.js';
 import { Divider } from '../../components/Divider/Divider.jsx';
 import { Input } from '../../components/Input/Input.jsx';
 import { Page } from '../../components/Page/Page.jsx';
 import { PostPreview } from '../../components/PostPreview/PostPreview.jsx';
 import { RadioGroup } from '../../components/RadioGroup/RadioGroup.jsx';
 import { Select } from '../../components/Select/Select.jsx';
+import { published } from '../../data-managers/posts.js';
+import { getUserName } from '../../data-managers/users.js';
 import styles from './Posts.module.css';
-
-const postChunks = import.meta.glob('../../../../data/published/*.yml', {
-  import: 'default',
-  query: { transform: 'postInfo' },
-});
 
 const comparators = [
   { value: 'id', label: 'ID', fn: comparePostEntriesById },
@@ -42,60 +39,38 @@ interface PostsFilter {
   location?: string; // | null;
   search?: string;
   author?: string;
-  sortKey: ComparatorKey;
+  sortKey?: ComparatorKey;
 }
 
 const getPosts = async (filter: PostsFilter): Promise<PostEntries> => {
-  const result: Map<string, Post> = new Map();
-  const references: Map<string, string> = new Map();
-
-  for (const chunk of Object.values(postChunks)) {
-    const entries = Object.entries((await chunk()) as Record<string, Post | string>);
-    for (const [id, post] of entries) {
-      if (typeof post === 'string') {
-        references.set(id, post);
-      } else {
-        result.set(id, post);
-      }
-    }
-  }
-
-  // Resolve references
-  if (!filter.skipReferences) {
-    for (const [id, originalId] of references) {
-      const ref = result.get(originalId);
-      if (ref) {
-        result.set(id, ref);
-      }
-    }
-  }
-
   const comparator =
     comparators.find((comparator) => comparator.value === filter.sortKey)?.fn ?? comparePostEntriesById;
 
-  return [...result.entries()]
-    .filter(
-      ([, post]) =>
+  console.log(published);
+
+  return await getPostEntriesFromSource(
+    () => published.getAllPosts(!filter.skipReferences),
+    comparator('desc'),
+    (post): post is Post =>
+      Boolean(
         (typeof filter.type === 'undefined' || post.type === filter.type) &&
-        (typeof filter.tag === 'undefined' || post.tags?.includes(filter.tag)) &&
-        (typeof filter.author === 'undefined' || asArray(post.author).includes(filter.author)) &&
-        (typeof filter.location === 'undefined' ||
-          (post.location && isNestedLocation(post.location, filter.location))) &&
-        (typeof filter.search === 'undefined' ||
-          post.title?.toLocaleLowerCase()?.includes(filter.search.toLocaleLowerCase())),
-    )
-    .sort(comparator('desc'));
+          (typeof filter.tag === 'undefined' || post.tags?.includes(filter.tag)) &&
+          (typeof filter.author === 'undefined' || asArray(post.author).includes(filter.author)) &&
+          (typeof filter.location === 'undefined' ||
+            (post.location && isNestedLocation(post.location, filter.location))) &&
+          (typeof filter.search === 'undefined' ||
+            post.title?.toLocaleLowerCase()?.includes(filter.search.toLocaleLowerCase())),
+      ),
+  );
 };
 
 const getTags = async (): Promise<string[]> => {
   const result: Set<string> = new Set();
+  const postEntries = await getPosts({ skipReferences: true });
 
-  for (const chunk of Object.values(postChunks)) {
-    const posts = Object.values((await chunk()) as Record<string, Post | string>);
-    for (const post of posts) {
-      if (typeof post !== 'string') {
-        post.tags?.forEach((tag) => result.add(tag));
-      }
+  for (const [, post] of postEntries) {
+    if (typeof post !== 'string') {
+      post.tags?.forEach((tag) => result.add(tag));
     }
   }
 
@@ -108,14 +83,13 @@ const getLocations = async (): Promise<string[]> => {
 
   const locations = data as Location[];
 
-  for (const chunk of Object.values(postChunks)) {
-    const posts = Object.values((await chunk()) as Record<string, Post | string>);
-    for (const post of posts) {
-      if (typeof post !== 'string' && post.location) {
-        locations
-          .filter((location) => post.location && isNestedLocation(post.location, location.title))
-          .forEach((location) => result.add(location.title));
-      }
+  const postEntries = await getPosts({ skipReferences: true });
+
+  for (const [, post] of postEntries) {
+    if (typeof post !== 'string' && post.location) {
+      locations
+        .filter((location) => post.location && isNestedLocation(post.location, location.title))
+        .forEach((location) => result.add(location.title));
     }
   }
 
@@ -124,13 +98,11 @@ const getLocations = async (): Promise<string[]> => {
 
 const getUsers = async (): Promise<string[]> => {
   const result: Set<string> = new Set();
+  const postEntries = await getPosts({ skipReferences: true });
 
-  for (const chunk of Object.values(postChunks)) {
-    const posts = Object.values((await chunk()) as Record<string, Post | string>);
-    for (const post of posts) {
-      if (typeof post !== 'string') {
-        asArray(post.author).forEach((author) => result.add(author));
-      }
+  for (const [, post] of postEntries) {
+    if (typeof post !== 'string') {
+      asArray(post.author).forEach((author) => result.add(author));
     }
   }
 

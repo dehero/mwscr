@@ -1,10 +1,11 @@
 import type { Store, StoreItem } from '../../core/entities/store.js';
 import { storeIncludesPath } from '../../core/entities/store.js';
+import { storeDescriptor } from '../../core/stores/index.js';
 import { partition } from '../../core/utils/common-utils.js';
-import * as Site from './site.js';
-import * as YandexDisk from './yandex-disk.js';
+import * as site from './site.js';
+import * as yandexDisk from './yandex-disk.js';
 
-const stores: Store[] = [YandexDisk, Site];
+const stores: Store[] = [yandexDisk, site];
 
 export const store: Store = {
   async copy(from: string, to: string): Promise<void> {
@@ -67,16 +68,7 @@ export const store: Store = {
     throw new Error(`No store found for "${path}"`);
   },
 
-  async getPublicUrl(path: string): Promise<string | undefined> {
-    for (const store of stores.filter(storeIncludesPath(path))) {
-      const url = await store.getPublicUrl(path);
-      if (url) {
-        return url;
-      }
-    }
-
-    return undefined;
-  },
+  getPublicUrl: storeDescriptor.getPublicUrl,
 
   async move(from: string, to: string): Promise<void> {
     const [fromToStores, restStores] = partition(stores, storeIncludesPath(from, to));
