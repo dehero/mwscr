@@ -1573,6 +1573,38 @@
 | [`tg`](https://t.me/mwscr/299)                     | 2022-07-30 |  1301 |    50 |       278 |  17.99 |
 |                                                    |            |  4918 |   221 |      1074 |  12.82 |
 
+## <span id="2018-01-16.birth-of-fabricant">Birth of Fabricant</span>
+
+`RU` Рождение фабриканта
+
+<a href="https://instagram.com/p/BeBen7vj3Ii/" title="2018-01-16.birth-of-fabricant"><img alt="store:/shots/2018-01-16.birth-of-fabricant.png" src="../../assets/previews/shots/2018-01-16.birth-of-fabricant.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2018-01-16.birth-of-fabricant)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil`
+
+```
+2018-01-16.birth-of-fabricant
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BeBen7vj3Ii/)       | 2018-01-16 |       |    81 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_579)  | 2018-01-16 |   543 |    28 |       122 |  22.95 |
+| [`ig`](https://instagram.com/p/C51QP5Urf1u/)       | 2024-04-16 |   489 |   114 |      1414 |   8.06 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1497) | 2024-04-16 |   223 |    32 |       910 |   3.52 |
+| [`tg`](https://t.me/mwscr/380)                     | 2024-04-16 |   232 |    57 |       353 |  16.15 |
+|                                                    |            |  1487 |   312 |      2677 |  12.67 |
+
+#### Comments
+
+- `ig` <ins title="2018-01-17-15-28-45">konst.mk</ins> Расскажите, пожалуйста, где искать? А то я в трибунал почти не играл
+  - <ins title="2018-01-17-16-25-19">mwscr</ins> @konstantin.manyakhin Это в Заводом городе, купол Серлин. Туда можно телепортироваться в конце сюжетной линии Трибунала.
+- `tg` <ins title="2024-04-16-20-26-58">alex_emsow</ins> I just hate this place😅
+  - <ins title="2024-04-16-20-54-22">Gatemate7</ins> this is a mod?
+
 ## <span id="2023-08-01.stillness">Stillness</span>
 
 `RU` Спокойствие
@@ -1599,38 +1631,6 @@
 #### Comments
 
 - `tg` <ins title="2023-08-01-17-48-17">Влад</ins> Нетч❤️
-
-## <span id="2018-01-16.birth-of-fabricant">Birth of Fabricant</span>
-
-`RU` Рождение фабриканта
-
-<a href="https://instagram.com/p/BeBen7vj3Ii/" title="2018-01-16.birth-of-fabricant"><img alt="store:/shots/2018-01-16.birth-of-fabricant.png" src="../../assets/previews/shots/2018-01-16.birth-of-fabricant.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2018-01-16.birth-of-fabricant)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil`
-
-```
-2018-01-16.birth-of-fabricant
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BeBen7vj3Ii/)       | 2018-01-16 |       |    81 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_579)  | 2018-01-16 |   543 |    28 |       122 |  22.95 |
-| [`ig`](https://instagram.com/p/C51QP5Urf1u/)       | 2024-04-16 |   484 |   113 |      1414 |   7.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1497) | 2024-04-16 |   215 |    31 |       910 |   3.41 |
-| [`tg`](https://t.me/mwscr/380)                     | 2024-04-16 |   220 |    54 |       353 |   15.3 |
-|                                                    |            |  1462 |   307 |      2677 |  12.41 |
-
-#### Comments
-
-- `ig` <ins title="2018-01-17-15-28-45">konst.mk</ins> Расскажите, пожалуйста, где искать? А то я в трибунал почти не играл
-  - <ins title="2018-01-17-16-25-19">mwscr</ins> @konstantin.manyakhin Это в Заводом городе, купол Серлин. Туда можно телепортироваться в конце сюжетной линии Трибунала.
-- `tg` <ins title="2024-04-16-20-26-58">alex_emsow</ins> I just hate this place😅
-  - <ins title="2024-04-16-20-54-22">Gatemate7</ins> this is a mod?
 
 ## <span id="2024-02-28.omalen-ancestral-tomb">Omalen Ancestral Tomb</span>
 
