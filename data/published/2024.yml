@@ -1159,28 +1159,28 @@
       id: C58-rKfNvb5
       mediaId: '18004564085596450'
       published: 2024-04-19-18-17-06
-      updated: 2024-04-21-17-12-35
+      updated: 2024-04-22-18-17-08
       followers: 1414
-      likes: 98
-      views: 335
+      likes: 104
+      views: 364
       comments: !c |-
         CySAkZPLQnjvfvk2gACrZGVsYW5vc3BpZXPZMEBkcmF2ZW5qdiB5b3VyZSBob21lIGkgZ3Vlc3Ms
         IGlsbCBicmluZyBzdWphbW1hIQM=
     - service: vk
       id: 1501
       published: 2024-04-19-18-17-12
-      updated: 2024-04-21-17-12-36
+      updated: 2024-04-22-18-17-06
       followers: 909
-      likes: 33
-      views: 183
+      likes: 34
+      views: 210
       reposts: 4
     - service: tg
       id: 383
       published: 2024-04-19-18-17-19
-      updated: 2024-04-21-17-12-36
+      updated: 2024-04-22-18-17-07
       followers: 354
-      likes: 57
-      views: 147
+      likes: 58
+      views: 163
 2024-04-20.fallen-sanctuary:
   title: Fallen Sanctuary
   titleRu: Павшее святилище
@@ -1203,14 +1203,14 @@
       id: C5_jjRLxIhb
       mediaId: '18015630896263097'
       published: 2024-04-20-18-17-49
-      updated: 2024-04-22-17-12-04
+      updated: 2024-04-22-18-17-07
       followers: 1414
       likes: 122
       views: 454
     - service: vk
       id: 1502
       published: 2024-04-20-18-17-56
-      updated: 2024-04-22-17-12-04
+      updated: 2024-04-22-18-17-05
       followers: 909
       likes: 27
       views: 190
@@ -1218,8 +1218,37 @@
     - service: tg
       id: 384
       published: 2024-04-20-18-18-05
-      updated: 2024-04-22-17-12-04
+      updated: 2024-04-22-18-17-06
       followers: 354
       likes: 49
       views: 148
 2024-04-21.a-little-joy-for-hard-worker: 2018-03-02.a-little-joy-for-hard-worker
+2024-04-22.sunset-over-molag-amur:
+  title: Sunset Over Molag Amur
+  titleRu: Закат над Молаг Амур
+  location: Molag Amur Region
+  content: store:/shots/2024-04-22.sunset-over-molag-amur.png
+  trash:
+    - store:/trash/dehero.2024-02-17-10-53-36.png
+    - store:/trash/dehero.2024-02-17-10-53-27.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - sunset
+    - lava
+  mark: B1
+  posts:
+    - service: ig
+      id: C6EtGaMP1-s
+      mediaId: '18045739357676420'
+      published: 2024-04-22-18-17-28
+      followers: 1416
+    - service: vk
+      id: 1505
+      published: 2024-04-22-18-17-36
+      followers: 909
+    - service: tg
+      id: 386
+      published: 2024-04-22-18-17-44
+      followers: 354

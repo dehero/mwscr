@@ -4,7 +4,37 @@
 
 # Published in 2024
 
-`55 items`
+`56 items`
+
+## <span id="2024-04-22.sunset-over-molag-amur">Sunset Over Molag Amur</span>
+
+`RU` Закат над Молаг Амур
+
+<a href="https://instagram.com/p/C6EtGaMP1-s/" title="2024-04-22.sunset-over-molag-amur"><img alt="store:/shots/2024-04-22.sunset-over-molag-amur.png" src="../../assets/previews/shots/2024-04-22.sunset-over-molag-amur.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2024-02-17-10-53-36.png](../../assets/previews/trash/dehero.2024-02-17-10-53-36.avif "dehero.2024-02-17-10-53-36")
+![store:/trash/dehero.2024-02-17-10-53-27.png](../../assets/previews/trash/dehero.2024-02-17-10-53-27.avif "dehero.2024-02-17-10-53-27")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Molag Amur Region` `🚀 OpenMW` `sunset` `lava`
+
+```
+2024-04-22.sunset-over-molag-amur
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C6EtGaMP1-s/)       | 2024-04-22 |      1416 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1505) | 2024-04-22 |       909 |
+| [`tg`](https://t.me/mwscr/386)                     | 2024-04-22 |       354 |
+|                                                    |            |      2679 |
 
 ## <span id="2024-04-21.a-little-joy-for-hard-worker">A Little Joy for Hard Worker</span>
 
@@ -28,10 +58,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bf1SN0JDvPU/)       | 2018-03-02 |       |    73 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_634)  | 2018-03-02 |   210 |    15 |       136 |  11.03 |
-| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   286 |    71 |      1414 |   5.02 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |   174 |    36 |       909 |   3.96 |
+| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   292 |    73 |      1414 |   5.16 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |   175 |    36 |       909 |   3.96 |
 | [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |   119 |    48 |       354 |  13.56 |
-|                                                    |            |   789 |   243 |      2677 |   8.39 |
+|                                                    |            |   796 |   245 |      2677 |   8.43 |
 
 #### Comments
 
@@ -92,10 +122,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C58-rKfNvb5/)       | 2024-04-19 |   335 |    98 |      1414 |   6.93 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1501) | 2024-04-19 |   183 |    33 |       909 |   3.63 |
-| [`tg`](https://t.me/mwscr/383)                     | 2024-04-19 |   147 |    57 |       354 |   16.1 |
-|                                                    |            |   665 |   188 |      2677 |   8.89 |
+| [`ig`](https://instagram.com/p/C58-rKfNvb5/)       | 2024-04-19 |   364 |   104 |      1414 |   7.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1501) | 2024-04-19 |   210 |    34 |       909 |   3.74 |
+| [`tg`](https://t.me/mwscr/383)                     | 2024-04-19 |   163 |    58 |       354 |  16.38 |
+|                                                    |            |   737 |   196 |      2677 |   9.16 |
 
 #### Comments
 
