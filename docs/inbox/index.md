@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`61 items`
+`60 items`
 
 ## <span id="natty.2024-03-28-22-20-02">natty.2024-03-28-22-20-02</span>
 
@@ -872,31 +872,6 @@ dehero.2024-02-17-10-59-12
 
 ```
 dehero.2024-02-17-10-55-28
-```
-
-## <span id="dehero.2024-02-17-10-53-36">Sunset over Molag Amur</span>
-
-`RU` Закат над Молаг Амур
-
-![store:/inbox/dehero.2024-02-17-10-53-19.1.png](../../assets/previews/inbox/dehero.2024-02-17-10-53-19.1.avif "dehero.2024-02-17-10-53-19.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2024-02-17-10-53-36.png](../../assets/previews/inbox/dehero.2024-02-17-10-53-36.avif "dehero.2024-02-17-10-53-36")
-![store:/inbox/dehero.2024-02-17-10-53-27.png](../../assets/previews/inbox/dehero.2024-02-17-10-53-27.avif "dehero.2024-02-17-10-53-27")
-![store:/inbox/dehero.2024-02-17-10-53-19.png](../../assets/previews/inbox/dehero.2024-02-17-10-53-19.avif "dehero.2024-02-17-10-53-19")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-> [!WARNING]
-> Need english title to be "Sunset Over Molag Amur", got "Sunset over Molag Amur".
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-17-10-53-36&amp;postContent=store%3A%2Finbox%2Fdehero.2024-02-17-10-53-19.1.png&amp;postTitle=Sunset+over+Molag+Amur&amp;postTitleRu=%D0%97%D0%B0%D0%BA%D0%B0%D1%82+%D0%BD%D0%B0%D0%B4+%D0%9C%D0%BE%D0%BB%D0%B0%D0%B3+%D0%90%D0%BC%D1%83%D1%80&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=sunset+lava&amp;postLocation=Molag+Amur+Region&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-02-17-10-53-36.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-10-53-27.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-10-53-19.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-17-10-53-36) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-17-10-53-36) `B1` `📍 Molag Amur Region` `🚀 OpenMW` `sunset` `lava`
-
-```
-dehero.2024-02-17-10-53-36
 ```
 
 ## <span id="dehero.2024-02-17-10-41-10">dehero.2024-02-17-10-41-10</span>
