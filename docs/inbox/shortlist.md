@@ -4,7 +4,30 @@
 
 # Shortlist
 
-`2 items`
+`3 items`
+
+## <span id="natty.2024-03-24-11-44-29">Muckspunges on the Coast</span>
+
+`RU` Мускпунж на побережье
+
+![store:/inbox/natty.2024-03-24-11-43-50.1.png](../../assets/previews/inbox/natty.2024-03-24-11-43-50.1.avif "natty.2024-03-24-11-43-50.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/natty.2024-03-24-11-44-29.png](../../assets/previews/inbox/natty.2024-03-24-11-44-29.avif "natty.2024-03-24-11-44-29")
+![store:/inbox/natty.2024-03-24-11-43-50.png](../../assets/previews/inbox/natty.2024-03-24-11-43-50.avif "natty.2024-03-24-11-43-50")
+![store:/inbox/natty.2024-03-24-11-43-30.png](../../assets/previews/inbox/natty.2024-03-24-11-43-30.avif "natty.2024-03-24-11-43-30")
+![store:/inbox/natty.2024-03-24-11-43-28.png](../../assets/previews/inbox/natty.2024-03-24-11-43-28.avif "natty.2024-03-24-11-43-28")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-24-11-44-29&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-24-11-43-50.1.png&amp;postTitle=Muckspunges+on+the+Coast&amp;postTitleRu=%D0%9C%D1%83%D1%81%D0%BA%D0%BF%D1%83%D0%BD%D0%B6+%D0%BD%D0%B0+%D0%BF%D0%BE%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D1%8C%D0%B5&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=coast&amp;postLocation=&amp;postMark=B2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-03-24-11-44-29.png%0Astore%3A%2Finbox%2Fnatty.2024-03-24-11-43-50.png%0Astore%3A%2Finbox%2Fnatty.2024-03-24-11-43-30.png%0Astore%3A%2Finbox%2Fnatty.2024-03-24-11-43-28.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-24-11-44-29) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-24-11-44-29) `B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-24-11-44-29)</code> `🚀 OpenMW` `coast`
+
+```
+natty.2024-03-24-11-44-29
+```
 
 ## <span id="dehero.2024-02-17-10-53-36">Sunset Over Molag Amur</span>
 
