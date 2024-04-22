@@ -18,7 +18,9 @@ dehero.2020-05-19-night-guards:
     - night
   mark: A1
 dehero.2020-11-05-20-57-47:
-  content: store:/inbox/dehero.2020-11-05-20-57-47.png
+  content:
+    - store:/inbox/dehero.2020-11-05-20-57-47.png
+    - store:/inbox/dehero.2020-11-05-20-57-47.1.png
   type: shot
   author: dehero
 dehero.2020-11-05-21-10-08:

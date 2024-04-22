@@ -24,7 +24,9 @@ dehero.2024-02-05-00-07-46:
   type: shot
   author: dehero
 dehero.2024-02-05-00-26-03:
-  content: store:/inbox/dehero.2024-02-05-00-26-03.png
+  content:
+    - store:/inbox/dehero.2024-02-05-00-26-03.png
+    - store:/inbox/dehero.2024-02-05-00-26-03.1.png
   type: shot
   author: dehero
 dehero.2024-02-17-10-40-10:
