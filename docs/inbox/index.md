@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`63 items`
+`62 items`
 
 ## <span id="natty.2024-03-28-22-20-02">natty.2024-03-28-22-20-02</span>
 
@@ -977,21 +977,6 @@ dehero.2024-02-17-10-32-49
 
 ```
 dehero.2024-02-05-00-26-03
-```
-
-## <span id="dehero.2024-02-05-00-20-39">dehero.2024-02-05-00-20-39</span>
-
-![store:/inbox/dehero.2024-02-05-00-20-39.png](../../assets/previews/inbox/dehero.2024-02-05-00-20-39.avif "dehero.2024-02-05-00-20-39")
-
-`shot` by [dehero](../contributors.md#dehero)
-
-> [!WARNING]
-> Need english title, need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-05-00-20-39&amp;postContent=store%3A%2Finbox%2Fdehero.2024-02-05-00-20-39.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=Grazelands+Region&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-05-00-20-39) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-05-00-20-39) `📍 Grazelands Region`
-
-```
-dehero.2024-02-05-00-20-39
 ```
 
 ## <span id="dehero.2024-02-05-00-07-46">dehero.2024-02-05-00-07-46</span>
