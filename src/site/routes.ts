@@ -1,7 +1,7 @@
 import type { RouteDefinition } from '@solidjs/router';
-import { About } from './components/About/About.jsx';
-import { Contributing } from './components/Contributing/Contributing.jsx';
-import { Posts } from './components/Posts/Posts.jsx';
+import { About } from './pages/About/About.js';
+import { Contributing } from './pages/Contributing/Contributing.js';
+import { Posts } from './pages/Posts/Posts.js';
 
 export interface RouteInfo {
   label: string;

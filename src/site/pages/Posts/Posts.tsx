@@ -13,12 +13,12 @@ import {
 } from '../../../core/entities/post.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { getUserName } from '../../data-managers/users.js';
-import { Divider } from '../Divider/Divider.js';
-import { Input } from '../Input/Input.js';
-import { Page } from '../Page/Page.js';
-import { PostPreview } from '../PostPreview/PostPreview.js';
-import { RadioGroup } from '../RadioGroup/RadioGroup.jsx';
-import { Select } from '../Select/Select.js';
+import { Divider } from '../../components/Divider/Divider.jsx';
+import { Input } from '../../components/Input/Input.jsx';
+import { Page } from '../../components/Page/Page.jsx';
+import { PostPreview } from '../../components/PostPreview/PostPreview.jsx';
+import { RadioGroup } from '../../components/RadioGroup/RadioGroup.jsx';
+import { Select } from '../../components/Select/Select.jsx';
 import styles from './Posts.module.css';
 
 const postChunks = import.meta.glob('../../../../data/published/*.yml', {

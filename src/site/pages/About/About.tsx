@@ -1,6 +1,6 @@
 import { type Component } from 'solid-js';
 import Content from '../../../../README.md';
-import { Page } from '../Page/Page.js';
+import { Page } from '../../components/Page/Page.jsx';
 import styles from './About.module.css';
 
 export const About: Component = () => {
