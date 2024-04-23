@@ -9352,6 +9352,19 @@
       comments: !c |-
         iyGAkZPLQnYBNrCTAACpa3lkaW5vdjkx2S3Qk9C+0YDQvtC0INCh0LLQtdGC0LAgLCDQs9C+0YDQ
         vtC0INC80LDQs9C40LgD
+    - service: ig
+      id: C6HR2-8v05j
+      mediaId: '18033792169767541'
+      published: 2024-04-23-18-17-09
+      followers: 1416
+    - service: vk
+      id: 1506
+      published: 2024-04-23-18-17-15
+      followers: 909
+    - service: tg
+      id: 387
+      published: 2024-04-23-18-17-22
+      followers: 355
 2017-11-29.ingmars-house:
   title: Ingmar's House
   titleRu: Дом Ингмара

@@ -4,7 +4,38 @@
 
 # Published in 2024
 
-`56 items`
+`57 items`
+
+## <span id="2024-04-23.evening-mournhold">Evening Mournhold</span>
+
+`RU` Вечерний Морнхолд
+
+<a href="https://instagram.com/p/BcDSD4FDcTL/" title="2017-11-28.evening-mournhold"><img alt="store:/shots/2017-11-28.evening-mournhold.png" src="../../assets/previews/shots/2017-11-28.evening-mournhold.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Mournhold, Temple Courtyard` `🚀 OpenMW` `🔗 Tribunal` `evening`
+
+```
+2024-04-23.evening-mournhold
+```
+
+> `2017-11-28.evening-mournhold`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BcDSD4FDcTL/)       | 2017-11-28 |       |    65 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_514)  | 2017-11-28 |   231 |    16 |       103 |  15.53 |
+| [`ig`](https://instagram.com/p/C6HR2-8v05j/)       | 2024-04-23 |       |       |      1416 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1506) | 2024-04-23 |       |       |       909 |        |
+| [`tg`](https://t.me/mwscr/387)                     | 2024-04-23 |       |       |       355 |        |
+|                                                    |            |   231 |    81 |      2680 |        |
+
+#### Comments
+
+- `vk` <ins title="2017-12-01-18-51-10">kydinov91</ins> Город Света , город магии
 
 ## <span id="2024-04-22.sunset-over-molag-amur">Sunset Over Molag Amur</span>
 
@@ -31,10 +62,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6EtGaMP1-s/)       | 2024-04-22 |   300 |    82 |      1416 |   5.79 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1505) | 2024-04-22 |   121 |    23 |       909 |   2.53 |
+| [`ig`](https://instagram.com/p/C6EtGaMP1-s/)       | 2024-04-22 |   305 |    82 |      1416 |   5.79 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1505) | 2024-04-22 |   122 |    23 |       909 |   2.53 |
 | [`tg`](https://t.me/mwscr/386)                     | 2024-04-22 |   102 |    50 |       354 |  14.12 |
-|                                                    |            |   523 |   155 |      2679 |   7.48 |
+|                                                    |            |   529 |   155 |      2679 |   7.48 |
 
 #### Comments
 
@@ -65,9 +96,9 @@
 | [`ig`](https://instagram.com/p/Bf1SN0JDvPU/)       | 2018-03-02 |       |    73 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_634)  | 2018-03-02 |   210 |    15 |       136 |  11.03 |
 | [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   333 |    81 |      1414 |   5.73 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |   198 |    36 |       909 |   3.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |   200 |    37 |       909 |   4.07 |
 | [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |   149 |    54 |       354 |  15.25 |
-|                                                    |            |   890 |   259 |      2677 |   8.99 |
+|                                                    |            |   892 |   260 |      2677 |   9.02 |
 
 #### Comments
 
