@@ -31,15 +31,16 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6EtGaMP1-s/)       | 2024-04-22 |   197 |    67 |      1416 |   4.73 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1505) | 2024-04-22 |    73 |    19 |       909 |   2.09 |
-| [`tg`](https://t.me/mwscr/386)                     | 2024-04-22 |    84 |    41 |       354 |  11.58 |
-|                                                    |            |   354 |   127 |      2679 |   6.13 |
+| [`ig`](https://instagram.com/p/C6EtGaMP1-s/)       | 2024-04-22 |   201 |    69 |      1416 |   4.87 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1505) | 2024-04-22 |    76 |    21 |       909 |   2.31 |
+| [`tg`](https://t.me/mwscr/386)                     | 2024-04-22 |    86 |    43 |       354 |  12.15 |
+|                                                    |            |   363 |   133 |      2679 |   6.44 |
 
 #### Comments
 
 - `ig` <ins title="2024-04-22-18-18-32">dji.capture.ig</ins> Forward it to us 💛
 - `ig` <ins title="2024-04-22-21-49-17">someone_simple42</ins> Not by Natty?
+  - <ins title="2024-04-23-04-11-01">mwscr</ins> No
 
 ## <span id="2024-04-21.a-little-joy-for-hard-worker">A Little Joy for Hard Worker</span>
 
@@ -63,10 +64,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bf1SN0JDvPU/)       | 2018-03-02 |       |    73 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_634)  | 2018-03-02 |   210 |    15 |       136 |  11.03 |
-| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   321 |    79 |      1414 |   5.59 |
+| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   322 |    80 |      1414 |   5.66 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |   180 |    36 |       909 |   3.96 |
 | [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |   139 |    53 |       354 |  14.97 |
-|                                                    |            |   850 |   256 |      2677 |   8.89 |
+|                                                    |            |   851 |   257 |      2677 |    8.9 |
 
 #### Comments
 
