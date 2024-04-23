@@ -9356,15 +9356,27 @@
       id: C6HR2-8v05j
       mediaId: '18033792169767541'
       published: 2024-04-23-18-17-09
+      updated: 2024-04-23-19-10-54
       followers: 1416
+      likes: 23
+      views: 27
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
+      updated: 2024-04-23-19-10-54
       followers: 909
+      likes: 10
+      views: 43
+      comments: !c |-
+        iyKAkZPLQnjwxAfQAACrbG9tYWV2X2xpdmXZLdCT0L7RgNC+0LQg0YHQstC10YLQsCwg0LPQvtGA
+        0L7QtCDQvNCw0LPQuNC4IQM=
     - service: tg
       id: 387
       published: 2024-04-23-18-17-22
+      updated: 2024-04-23-19-10-54
       followers: 355
+      likes: 15
+      views: 51
 2017-11-29.ingmars-house:
   title: Ingmar's House
   titleRu: Дом Ингмара
