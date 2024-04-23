@@ -12,7 +12,7 @@ Roles: `admin` `author` `requester`
 Authored: 935 published, 30 pending, 59 rejected  
 Requested: 6 pending  
 Types: `shot` `shot-set` `video` `clip` `drawing`  
-Likes: 119169  
+Likes: 119177  
 
 ```
 dehero
@@ -36,7 +36,7 @@ natty
 Roles: `author`  
 Authored: 8 published, 2 pending, 13 rejected  
 Types: `shot`  
-Likes: 2273  
+Likes: 2274  
 
 ```
 darkness-rifho
@@ -62,7 +62,7 @@ knives-out
 Roles: `author` `drawer`  
 Authored: 1 published, 3 pending  
 Types: `drawing`  
-Likes: 238  
+Likes: 239  
 
 ```
 irina-bystritskaya
