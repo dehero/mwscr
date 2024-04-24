@@ -1655,10 +1655,10 @@
       id: C6CIUEHNfDw
       mediaId: '17926435715778529'
       published: 2024-04-21-18-17-33
-      updated: 2024-04-23-18-16-57
+      updated: 2024-04-24-18-16-59
       followers: 1414
-      likes: 81
-      views: 333
+      likes: 84
+      views: 346
       comments: !c |-
         G9kA6J0FzqnxiIl4P93JVg0Qibq6Dcgql/39TdLWfNbALtvgfzYnBh5BxnVrsDU8nRyIZ9oKwvRW
         1jxJJIeAcoOjEOJse14Keqvje9P3cVmPxmmbG7Z9kSs62diewsCEdXyZsFPWX2LgdQKAhu9EfYmr
@@ -1666,10 +1666,11 @@
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
-      updated: 2024-04-23-18-16-56
+      updated: 2024-04-24-18-17-00
       followers: 909
-      likes: 37
-      views: 200
+      likes: 40
+      views: 214
+      reposts: 1
       comments: !c |-
         G4QA6I3EOIZyG6Y3MUKlQ1S3CI/1DLKkSZsJvO+Tm3mQZBc0oB88Z7wSGcko6pWUbWc9OOTA5fs8
         AcowwCKhkZikuNz246PlJAma5c445Z7OEibT6bTWPv+5xpudN68vxaAx4uYTKdHetQ0nOuXhFbYM
@@ -1677,10 +1678,10 @@
     - service: tg
       id: 385
       published: 2024-04-21-18-17-47
-      updated: 2024-04-23-18-16-56
+      updated: 2024-04-24-18-16-59
       followers: 354
-      likes: 54
-      views: 149
+      likes: 58
+      views: 169
       comments: !c |-
         GxUB4B2J6TY4WRjE4Mgnp1zkmUcccdHnh9N9+lNDlHuYbByrY3PPM8a2CJSsggX62iyD54f/3Ikm
         GAC/a7vtb9GHtjAN7AA0saC2ObcMzVoKdhBf9Sn9ndec8R1/Kq3Rhveo9epmJvELYVP/9xlRg7HB

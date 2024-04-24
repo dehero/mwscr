@@ -4,7 +4,38 @@
 
 # Published in 2024
 
-`57 items`
+`58 items`
+
+## <span id="2024-04-24.muckspunges-on-the-coast">Muckspunges on the Coast</span>
+
+`RU` Мускпунж на побережье
+
+<a href="https://instagram.com/p/C6J2rHdMfKT/" title="2024-04-24.muckspunges-on-the-coast"><img alt="store:/shots/2024-04-24.muckspunges-on-the-coast.png" src="../../assets/previews/shots/2024-04-24.muckspunges-on-the-coast.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/natty.2024-03-24-11-44-29.png](../../assets/previews/trash/natty.2024-03-24-11-44-29.avif "natty.2024-03-24-11-44-29")
+![store:/trash/natty.2024-03-24-11-43-30.png](../../assets/previews/trash/natty.2024-03-24-11-43-30.avif "natty.2024-03-24-11-43-30")
+![store:/trash/natty.2024-03-24-11-43-28.png](../../assets/previews/trash/natty.2024-03-24-11-43-28.avif "natty.2024-03-24-11-43-28")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-24.muckspunges-on-the-coast)</code> `🚀 OpenMW` `coast`
+
+```
+2024-04-24.muckspunges-on-the-coast
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C6J2rHdMfKT/)       | 2024-04-24 |      1416 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1508) | 2024-04-24 |       909 |
+| [`tg`](https://t.me/mwscr/388)                     | 2024-04-24 |       354 |
+|                                                    |            |      2679 |
 
 ## <span id="2024-04-23.evening-mournhold">Evening Mournhold</span>
 
@@ -28,16 +59,17 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BcDSD4FDcTL/)       | 2017-11-28 |       |    65 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_514)  | 2017-11-28 |   231 |    16 |       103 |  15.53 |
-| [`ig`](https://instagram.com/p/C6HR2-8v05j/)       | 2024-04-23 |   281 |    97 |      1416 |   6.85 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1506) | 2024-04-23 |   171 |    29 |       909 |   3.19 |
-| [`tg`](https://t.me/mwscr/387)                     | 2024-04-23 |   119 |    38 |       355 |   10.7 |
-|                                                    |            |   802 |   245 |      2680 |   9.07 |
+| [`ig`](https://instagram.com/p/C6HR2-8v05j/)       | 2024-04-23 |   284 |    97 |      1416 |   6.85 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1506) | 2024-04-23 |   173 |    29 |       909 |   3.19 |
+| [`tg`](https://t.me/mwscr/387)                     | 2024-04-23 |   120 |    38 |       355 |   10.7 |
+|                                                    |            |   808 |   245 |      2680 |   9.07 |
 
 #### Comments
 
 - `vk` <ins title="2017-12-01-18-51-10">kydinov91</ins> Город Света , город магии
 - `vk` <ins title="2024-04-23-18-38-24">lomaev_live</ins> Город света, город магии!
 - `tg` <ins title="2024-04-24-11-54-17">ansis</ins> City of Light
+- `tg` <ins title="2024-04-24-17-24-35">mongleri</ins> City of Magic
 
 ## <span id="2024-04-22.sunset-over-molag-amur">Sunset Over Molag Amur</span>
 
@@ -97,10 +129,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bf1SN0JDvPU/)       | 2018-03-02 |       |    73 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_634)  | 2018-03-02 |   210 |    15 |       136 |  11.03 |
-| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   333 |    81 |      1414 |   5.73 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |   200 |    37 |       909 |   4.07 |
-| [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |   149 |    54 |       354 |  15.25 |
-|                                                    |            |   892 |   260 |      2677 |   9.02 |
+| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   346 |    84 |      1414 |   5.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |   214 |    40 |       909 |    4.4 |
+| [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |   169 |    58 |       354 |  16.38 |
+|                                                    |            |   939 |   270 |      2677 |   9.44 |
 
 #### Comments
 

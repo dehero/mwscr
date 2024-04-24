@@ -1244,7 +1244,7 @@
       id: C6EtGaMP1-s
       mediaId: '18045739357676420'
       published: 2024-04-22-18-17-28
-      updated: 2024-04-24-17-14-36
+      updated: 2024-04-24-18-16-58
       followers: 1416
       likes: 89
       views: 343
@@ -1254,15 +1254,43 @@
     - service: vk
       id: 1505
       published: 2024-04-22-18-17-36
-      updated: 2024-04-24-17-14-36
+      updated: 2024-04-24-18-16-59
       followers: 909
       likes: 24
       views: 139
     - service: tg
       id: 386
       published: 2024-04-22-18-17-44
-      updated: 2024-04-24-17-14-36
+      updated: 2024-04-24-18-16-59
       followers: 354
       likes: 55
       views: 141
 2024-04-23.evening-mournhold: 2017-11-28.evening-mournhold
+2024-04-24.muckspunges-on-the-coast:
+  title: Muckspunges on the Coast
+  titleRu: Мускпунж на побережье
+  content: store:/shots/2024-04-24.muckspunges-on-the-coast.png
+  trash:
+    - store:/trash/natty.2024-03-24-11-44-29.png
+    - store:/trash/natty.2024-03-24-11-43-30.png
+    - store:/trash/natty.2024-03-24-11-43-28.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - coast
+  mark: B2
+  posts:
+    - service: ig
+      id: C6J2rHdMfKT
+      mediaId: '18026567543092879'
+      published: 2024-04-24-18-17-19
+      followers: 1416
+    - service: vk
+      id: 1508
+      published: 2024-04-24-18-17-29
+      followers: 909
+    - service: tg
+      id: 388
+      published: 2024-04-24-18-17-38
+      followers: 354
