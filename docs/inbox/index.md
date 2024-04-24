@@ -4,23 +4,7 @@
 
 # Inbox for 2024
 
-`59 items`
-
-## <span id="natty.2024-04-22-20-58-37">natty.2024-04-22-20-58-37</span>
-
-![store:/inbox/natty.2024-04-22-20-58-37.1.png](../../assets/previews/inbox/natty.2024-04-22-20-58-37.1.avif "natty.2024-04-22-20-58-37.1")
-![store:/inbox/natty.2024-04-22-20-58-37.png](../../assets/previews/inbox/natty.2024-04-22-20-58-37.avif "natty.2024-04-22-20-58-37")
-
-`shot` by [Natty](../contributors.md#natty)
-
-> [!WARNING]
-> Need english title, need russian title, need mark, detected post type "drawing", got "shot".
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-04-22-20-58-37&amp;postContent=store%3A%2Finbox%2Fnatty.2024-04-22-20-58-37.1.png%0Astore%3A%2Finbox%2Fnatty.2024-04-22-20-58-37.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-04-22-20-58-37) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-04-22-20-58-37) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-04-22-20-58-37)</code>
-
-```
-natty.2024-04-22-20-58-37
-```
+`58 items`
 
 ## <span id="natty.2024-03-28-22-20-02">natty.2024-03-28-22-20-02</span>
 

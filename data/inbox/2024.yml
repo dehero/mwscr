@@ -376,8 +376,16 @@ natty.2024-03-28-22-20-02:
   type: shot
   author: natty
 natty.2024-04-22-20-58-37:
-  content:
-    - store:/inbox/natty.2024-04-22-20-58-37.1.png
-    - store:/inbox/natty.2024-04-22-20-58-37.png
+  title: Winter and Summer
+  titleRu: Зима и лето
+  content: store:/inbox/natty.2024-04-22-20-58-37.1.png
+  trash: store:/inbox/natty.2024-04-22-20-58-37.png
   type: shot
   author: natty
+  engine: OpenMW
+  addon: Bloodmoon
+  tags:
+    - snow
+    - forest
+    - bear
+  mark: B1
