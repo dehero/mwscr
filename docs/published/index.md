@@ -32,10 +32,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6J2rHdMfKT/)       | 2024-04-24 |   179 |    51 |      1416 |    3.6 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1508) | 2024-04-24 |   144 |    22 |       909 |   2.42 |
+| [`ig`](https://instagram.com/p/C6J2rHdMfKT/)       | 2024-04-24 |   184 |    53 |      1416 |   3.74 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1508) | 2024-04-24 |   146 |    22 |       909 |   2.42 |
 | [`tg`](https://t.me/mwscr/388)                     | 2024-04-24 |   106 |    45 |       354 |  12.71 |
-|                                                    |            |   429 |   118 |      2679 |   6.24 |
+|                                                    |            |   436 |   120 |      2679 |   6.29 |
 
 ## <span id="2024-04-23.evening-mournhold">Evening Mournhold</span>
 
