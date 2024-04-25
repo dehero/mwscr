@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`58 items`
+`59 items`
+
+## <span id="2024-04-25.abandoned-island">Abandoned Island</span>
+
+`RU` Покинутый остров
+
+<a href="https://instagram.com/p/BZB9lx7jegT/" title="2017-09-14.abandoned-island"><img alt="store:/shots/2017-09-14.abandoned-island.png" src="../../assets/previews/shots/2017-09-14.abandoned-island.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-25.abandoned-island)</code> `🚀 OpenMW`
+
+```
+2024-04-25.abandoned-island
+```
+
+> `2017-09-14.abandoned-island`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BZB9lx7jegT/)       | 2017-09-14 |       |    54 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_427)  | 2017-09-14 |   121 |    10 |        80 |     10 |
+| [`ig`](https://instagram.com/p/C6MbiRMsSy5/)       | 2024-04-25 |       |       |      1416 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1509) | 2024-04-25 |       |       |       910 |        |
+| [`tg`](https://t.me/mwscr/389)                     | 2024-04-25 |       |       |       354 |        |
+|                                                    |            |   121 |    64 |      2680 |        |
 
 ## <span id="2024-04-24.muckspunges-on-the-coast">Muckspunges on the Coast</span>
 
@@ -32,10 +59,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6J2rHdMfKT/)       | 2024-04-24 |   198 |    54 |      1416 |   3.81 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1508) | 2024-04-24 |   160 |    25 |       909 |   2.75 |
+| [`ig`](https://instagram.com/p/C6J2rHdMfKT/)       | 2024-04-24 |   206 |    55 |      1416 |   3.88 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1508) | 2024-04-24 |   163 |    26 |       909 |   2.86 |
 | [`tg`](https://t.me/mwscr/388)                     | 2024-04-24 |   111 |    46 |       354 |  12.99 |
-|                                                    |            |   469 |   125 |      2679 |   6.52 |
+|                                                    |            |   480 |   127 |      2679 |   6.58 |
 
 ## <span id="2024-04-23.evening-mournhold">Evening Mournhold</span>
 
@@ -96,10 +123,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6EtGaMP1-s/)       | 2024-04-22 |   343 |    89 |      1416 |   6.29 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1505) | 2024-04-22 |   139 |    24 |       909 |   2.64 |
-| [`tg`](https://t.me/mwscr/386)                     | 2024-04-22 |   141 |    55 |       354 |  15.54 |
-|                                                    |            |   623 |   168 |      2679 |   8.15 |
+| [`ig`](https://instagram.com/p/C6EtGaMP1-s/)       | 2024-04-22 |   359 |    91 |      1416 |   6.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1505) | 2024-04-22 |   157 |    27 |       909 |   2.97 |
+| [`tg`](https://t.me/mwscr/386)                     | 2024-04-22 |   158 |    57 |       354 |   16.1 |
+|                                                    |            |   674 |   175 |      2679 |    8.5 |
 
 #### Comments
 
@@ -129,10 +156,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bf1SN0JDvPU/)       | 2018-03-02 |       |    73 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_634)  | 2018-03-02 |   210 |    15 |       136 |  11.03 |
-| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   346 |    84 |      1414 |   5.94 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |   214 |    40 |       909 |    4.4 |
-| [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |   169 |    58 |       354 |  16.38 |
-|                                                    |            |   939 |   270 |      2677 |   9.44 |
+| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   356 |    87 |      1414 |   6.15 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |   230 |    42 |       909 |   4.62 |
+| [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |   194 |    60 |       354 |  16.95 |
+|                                                    |            |   990 |   277 |      2677 |   9.69 |
 
 #### Comments
 
