@@ -28,10 +28,14 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZB9lx7jegT/)       | 2017-09-14 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_427)  | 2017-09-14 |   121 |    10 |        80 |     10 |
-| [`ig`](https://instagram.com/p/C6MbiRMsSy5/)       | 2024-04-25 |   240 |    78 |      1416 |   5.51 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1509) | 2024-04-25 |   151 |    39 |       910 |   4.29 |
-| [`tg`](https://t.me/mwscr/389)                     | 2024-04-25 |   104 |    48 |       354 |  13.56 |
-|                                                    |            |   616 |   229 |      2680 |   8.34 |
+| [`ig`](https://instagram.com/p/C6MbiRMsSy5/)       | 2024-04-25 |   248 |    83 |      1416 |   5.86 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1509) | 2024-04-25 |   158 |    40 |       910 |    4.4 |
+| [`tg`](https://t.me/mwscr/389)                     | 2024-04-25 |   106 |    49 |       354 |  13.84 |
+|                                                    |            |   633 |   236 |      2680 |   8.52 |
+
+#### Comments
+
+- `ig` <ins title="2024-04-26-10-04-46">boimaster28</ins> Kurt cobain&#39;s house
 
 ## <span id="2024-04-24.muckspunges-on-the-coast">Muckspunges on the Coast</span>
 
@@ -59,10 +63,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6J2rHdMfKT/)       | 2024-04-24 |   227 |    62 |      1416 |   4.38 |
+| [`ig`](https://instagram.com/p/C6J2rHdMfKT/)       | 2024-04-24 |   229 |    62 |      1416 |   4.38 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1508) | 2024-04-24 |   178 |    26 |       909 |   2.86 |
-| [`tg`](https://t.me/mwscr/388)                     | 2024-04-24 |   141 |    50 |       354 |  14.12 |
-|                                                    |            |   546 |   138 |      2679 |   7.12 |
+| [`tg`](https://t.me/mwscr/388)                     | 2024-04-24 |   142 |    50 |       354 |  14.12 |
+|                                                    |            |   549 |   138 |      2679 |   7.12 |
 
 ## <span id="2024-04-23.evening-mournhold">Evening Mournhold</span>
 
