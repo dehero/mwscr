@@ -5776,10 +5776,10 @@
     - service: tg
       id: 354
       published: 2024-03-22
-      updated: 2024-04-19-04-16-06
+      updated: 2024-04-26-04-16-15
       followers: 353
       likes: 60
-      views: 439
+      views: 454
       comments: !c |-
         G4cAgGXgnAMfSIG1VdFwmPFs4O+AVXg6UOtBjtfJiR4PJrWVBhKmtQUgAWDgHMNmyQsGOeflT+bl
         Xej9sc90BmyLaiXKg0byRX/YB8QMeW3JqDagqArlswXPXx+8tp3qtIJCm75146DROM/JXltF1W+y
@@ -7325,24 +7325,24 @@
       id: C6MbiRMsSy5
       mediaId: '18027615803054025'
       published: 2024-04-25-18-17-56
-      updated: 2024-04-26-03-15-47
+      updated: 2024-04-26-04-16-13
       followers: 1416
-      likes: 69
-      views: 202
+      likes: 71
+      views: 208
     - service: vk
       id: 1509
       published: 2024-04-25-18-18-02
-      updated: 2024-04-26-03-15-47
+      updated: 2024-04-26-04-16-13
       followers: 910
       likes: 31
-      views: 103
+      views: 111
     - service: tg
       id: 389
       published: 2024-04-25-18-18-08
-      updated: 2024-04-26-03-15-48
+      updated: 2024-04-26-04-16-14
       followers: 354
-      likes: 41
-      views: 88
+      likes: 44
+      views: 93
 2017-09-15.lava-swamps:
   title: Lava Swamps
   titleRu: Лавовые болота
