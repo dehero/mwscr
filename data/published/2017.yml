@@ -642,7 +642,7 @@
     - service: yt
       id: 8Waikj-VsSI
       published: 2017-01-22
-      updated: 2024-04-19-11-14-12
+      updated: 2024-04-26-12-25-46
       likes: 7
       views: 125
     - service: vk
@@ -851,7 +851,7 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2024-04-19-11-14-12
+      updated: 2024-04-26-12-25-46
       likes: 25
       views: 561
       comments: !c CxOAkZPLQnaO0E6sgACqQE5hcnNNY2FpbrBJIGxvdmUgdGhpcyBzaGl0Aw==
@@ -1335,9 +1335,9 @@
     - service: yt
       id: Fd77v5UL_ek
       published: 2017-02-12
-      updated: 2024-04-19-11-14-12
+      updated: 2024-04-26-12-25-45
       likes: 28
-      views: 629
+      views: 630
       comments: !c |-
         G+gAoCwK7IZjg1xnd84NfTExG8H/173ufKL3qbUU3ol5wEulDhJM54DXczGQWwslGIsxDlWEf7it
         t5QEIT7YrgRCP24zuPGiFz0mZ9esw+AcQenkQAP0rEVhywI7BwFwBRjoxlL4wrHIsHg7HF6DDo6k
@@ -7325,26 +7325,26 @@
       id: C6MbiRMsSy5
       mediaId: '18027615803054025'
       published: 2024-04-25-18-17-56
-      updated: 2024-04-26-11-11-47
+      updated: 2024-04-26-12-25-45
       followers: 1416
-      likes: 83
-      views: 255
+      likes: 85
+      views: 267
       comments: !c CxWAkZPLQnjxndUjAACrYm9pbWFzdGVyMjizS3VydCBjb2JhaW4ncyBob3VzZQM=
     - service: vk
       id: 1509
       published: 2024-04-25-18-18-02
-      updated: 2024-04-26-11-11-46
+      updated: 2024-04-26-12-25-45
       followers: 910
-      likes: 40
-      views: 163
+      likes: 41
+      views: 167
       reposts: 1
     - service: tg
       id: 389
       published: 2024-04-25-18-18-08
-      updated: 2024-04-26-11-11-47
+      updated: 2024-04-26-12-25-46
       followers: 354
-      likes: 51
-      views: 110
+      likes: 52
+      views: 114
       comments: !c |-
         CxyAkZPLQnjxnw9YgACrYm9icm92bmlrb3bZIFdoYXTigJlzIHRoZSBuYW1lIG9mIHRoYXQgaG91
         c2U/Aw==
