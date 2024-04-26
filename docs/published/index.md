@@ -4,7 +4,30 @@
 
 # Published in 2024
 
-`59 items`
+`60 items`
+
+## <span id="2024-04-26.winter-and-summer">Winter and Summer</span>
+
+`RU` Зима и лето
+
+<a href="https://instagram.com/p/C6PASWNP8me/" title="2024-04-26.winter-and-summer"><img alt="store:/shots/2024-04-26.winter-and-summer.png" src="../../assets/previews/shots/2024-04-26.winter-and-summer.avif" /></a>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-26.winter-and-summer)</code> `🚀 OpenMW` `🔗 Bloodmoon` `snow` `forest` `bear`
+
+```
+2024-04-26.winter-and-summer
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C6PASWNP8me/)       | 2024-04-26 |      1417 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1510) | 2024-04-26 |       910 |
+| [`tg`](https://t.me/mwscr/390)                     | 2024-04-26 |       354 |
+|                                                    |            |      2681 |
 
 ## <span id="2024-04-25.abandoned-island">Abandoned Island</span>
 
@@ -28,10 +51,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZB9lx7jegT/)       | 2017-09-14 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_427)  | 2017-09-14 |   121 |    10 |        80 |     10 |
-| [`ig`](https://instagram.com/p/C6MbiRMsSy5/)       | 2024-04-25 |   288 |    92 |      1416 |    6.5 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1509) | 2024-04-25 |   183 |    44 |       910 |   4.84 |
-| [`tg`](https://t.me/mwscr/389)                     | 2024-04-25 |   119 |    53 |       354 |  14.97 |
-|                                                    |            |   711 |   253 |      2680 |   9.08 |
+| [`ig`](https://instagram.com/p/C6MbiRMsSy5/)       | 2024-04-25 |   294 |    95 |      1416 |   6.71 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1509) | 2024-04-25 |   186 |    44 |       910 |   4.84 |
+| [`tg`](https://t.me/mwscr/389)                     | 2024-04-25 |   121 |    53 |       354 |  14.97 |
+|                                                    |            |   722 |   256 |      2680 |   9.13 |
 
 #### Comments
 
@@ -65,10 +88,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6J2rHdMfKT/)       | 2024-04-24 |   240 |    65 |      1416 |   4.59 |
+| [`ig`](https://instagram.com/p/C6J2rHdMfKT/)       | 2024-04-24 |   242 |    66 |      1416 |   4.66 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1508) | 2024-04-24 |   187 |    26 |       909 |   2.86 |
-| [`tg`](https://t.me/mwscr/388)                     | 2024-04-24 |   145 |    50 |       354 |  14.12 |
-|                                                    |            |   572 |   141 |      2679 |   7.19 |
+| [`tg`](https://t.me/mwscr/388)                     | 2024-04-24 |   147 |    50 |       354 |  14.12 |
+|                                                    |            |   576 |   142 |      2679 |   7.22 |
 
 ## <span id="2024-04-23.evening-mournhold">Evening Mournhold</span>
 
@@ -92,10 +115,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BcDSD4FDcTL/)       | 2017-11-28 |       |    65 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_514)  | 2017-11-28 |   231 |    16 |       103 |  15.53 |
-| [`ig`](https://instagram.com/p/C6HR2-8v05j/)       | 2024-04-23 |   335 |   107 |      1416 |   7.56 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1506) | 2024-04-23 |   204 |    33 |       909 |   3.63 |
-| [`tg`](https://t.me/mwscr/387)                     | 2024-04-23 |   156 |    49 |       355 |   13.8 |
-|                                                    |            |   926 |   270 |      2680 |  10.13 |
+| [`ig`](https://instagram.com/p/C6HR2-8v05j/)       | 2024-04-23 |   359 |   110 |      1416 |   7.77 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1506) | 2024-04-23 |   226 |    35 |       909 |   3.85 |
+| [`tg`](https://t.me/mwscr/387)                     | 2024-04-23 |   175 |    51 |       355 |  14.37 |
+|                                                    |            |   991 |   277 |      2680 |  10.38 |
 
 #### Comments
 

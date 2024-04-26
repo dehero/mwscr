@@ -1285,14 +1285,14 @@
       id: C6J2rHdMfKT
       mediaId: '18026567543092879'
       published: 2024-04-24-18-17-19
-      updated: 2024-04-26-17-14-06
+      updated: 2024-04-26-18-17-15
       followers: 1416
-      likes: 65
-      views: 240
+      likes: 66
+      views: 242
     - service: vk
       id: 1508
       published: 2024-04-24-18-17-29
-      updated: 2024-04-26-17-14-06
+      updated: 2024-04-26-18-17-15
       followers: 909
       likes: 26
       views: 187
@@ -1300,8 +1300,35 @@
     - service: tg
       id: 388
       published: 2024-04-24-18-17-38
-      updated: 2024-04-26-17-14-07
+      updated: 2024-04-26-18-17-15
       followers: 354
       likes: 50
-      views: 145
+      views: 147
 2024-04-25.abandoned-island: 2017-09-14.abandoned-island
+2024-04-26.winter-and-summer:
+  title: Winter and Summer
+  titleRu: Зима и лето
+  content: store:/shots/2024-04-26.winter-and-summer.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  addon: Bloodmoon
+  tags:
+    - snow
+    - forest
+    - bear
+  mark: B1
+  posts:
+    - service: ig
+      id: C6PASWNP8me
+      mediaId: '18033848512904440'
+      published: 2024-04-26-18-17-32
+      followers: 1417
+    - service: vk
+      id: 1510
+      published: 2024-04-26-18-17-39
+      followers: 910
+    - service: tg
+      id: 390
+      published: 2024-04-26-18-17-46
+      followers: 354
