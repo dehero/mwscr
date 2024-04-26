@@ -22,12 +22,12 @@
 
 ### Reactions
 
-|                                                    | published  | followers |
-|----------------------------------------------------|------------|----------:|
-| [`ig`](https://instagram.com/p/C6PASWNP8me/)       | 2024-04-26 |      1417 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1510) | 2024-04-26 |       910 |
-| [`tg`](https://t.me/mwscr/390)                     | 2024-04-26 |       354 |
-|                                                    |            |      2681 |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/C6PASWNP8me/)       | 2024-04-26 |    32 |    21 |      1417 |   1.48 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1510) | 2024-04-26 |    44 |     7 |       910 |   0.77 |
+| [`tg`](https://t.me/mwscr/390)                     | 2024-04-26 |    57 |    21 |       354 |   5.93 |
+|                                                    |            |   133 |    49 |      2681 |   2.73 |
 
 ## <span id="2024-04-25.abandoned-island">Abandoned Island</span>
 
@@ -51,15 +51,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZB9lx7jegT/)       | 2017-09-14 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_427)  | 2017-09-14 |   121 |    10 |        80 |     10 |
-| [`ig`](https://instagram.com/p/C6MbiRMsSy5/)       | 2024-04-25 |   294 |    95 |      1416 |   6.71 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1509) | 2024-04-25 |   186 |    44 |       910 |   4.84 |
-| [`tg`](https://t.me/mwscr/389)                     | 2024-04-25 |   121 |    53 |       354 |  14.97 |
-|                                                    |            |   722 |   256 |      2680 |   9.13 |
+| [`ig`](https://instagram.com/p/C6MbiRMsSy5/)       | 2024-04-25 |   298 |    96 |      1416 |   6.78 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1509) | 2024-04-25 |   192 |    44 |       910 |   4.84 |
+| [`tg`](https://t.me/mwscr/389)                     | 2024-04-25 |   152 |    58 |       354 |  16.38 |
+|                                                    |            |   763 |   262 |      2680 |    9.5 |
 
 #### Comments
 
 - `ig` <ins title="2024-04-26-10-04-46">boimaster28</ins> Kurt cobain&#39;s house
 - `tg` <ins title="2024-04-26-10-26-13">bobrovnikov</ins> What’s the name of that house?
+  - <ins title="2024-04-26-18-58-05">mwscr</ins> Sorry, the location of this screenshot still needs to be determined.
 - `ig` <ins title="2024-04-26-14-05-00">vamurin</ins> 🔥🔥🔥
 
 ## <span id="2024-04-24.muckspunges-on-the-coast">Muckspunges on the Coast</span>
@@ -152,10 +153,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6EtGaMP1-s/)       | 2024-04-22 |   359 |    91 |      1416 |   6.43 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1505) | 2024-04-22 |   157 |    27 |       909 |   2.97 |
-| [`tg`](https://t.me/mwscr/386)                     | 2024-04-22 |   158 |    57 |       354 |   16.1 |
-|                                                    |            |   674 |   175 |      2679 |    8.5 |
+| [`ig`](https://instagram.com/p/C6EtGaMP1-s/)       | 2024-04-22 |   361 |    91 |      1416 |   6.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1505) | 2024-04-22 |   171 |    27 |       909 |   2.97 |
+| [`tg`](https://t.me/mwscr/386)                     | 2024-04-22 |   188 |    58 |       354 |  16.38 |
+|                                                    |            |   720 |   176 |      2679 |   8.59 |
 
 #### Comments
 
@@ -185,10 +186,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bf1SN0JDvPU/)       | 2018-03-02 |       |    73 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_634)  | 2018-03-02 |   210 |    15 |       136 |  11.03 |
-| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   356 |    87 |      1414 |   6.15 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |   230 |    42 |       909 |   4.62 |
-| [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |   194 |    60 |       354 |  16.95 |
-|                                                    |            |   990 |   277 |      2677 |   9.69 |
+| [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   358 |    87 |      1414 |   6.15 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1503) | 2024-04-21 |   246 |    43 |       909 |   4.73 |
+| [`tg`](https://t.me/mwscr/385)                     | 2024-04-21 |   211 |    60 |       354 |  16.95 |
+|                                                    |            |  1025 |   278 |      2677 |   9.72 |
 
 #### Comments
 

@@ -1244,27 +1244,27 @@
       id: C6EtGaMP1-s
       mediaId: '18045739357676420'
       published: 2024-04-22-18-17-28
-      updated: 2024-04-25-18-17-40
+      updated: 2024-04-26-19-12-06
       followers: 1416
       likes: 91
-      views: 359
+      views: 361
       comments: !c |-
         izWAkpTLQnjwfI40gACwc29tZW9uZV9zaW1wbGU0Mq1Ob3QgYnkgTmF0dHk/k8tCePCSZgCAAKVt
         d3NjcqJOb5PLQnjwcH8MAACuZGppLmNhcHR1cmUuaWe1Rm9yd2FyZCBpdCB0byB1cyDwn5KbAw==
     - service: vk
       id: 1505
       published: 2024-04-22-18-17-36
-      updated: 2024-04-25-18-17-40
+      updated: 2024-04-26-19-12-05
       followers: 909
       likes: 27
-      views: 157
+      views: 171
     - service: tg
       id: 386
       published: 2024-04-22-18-17-44
-      updated: 2024-04-25-18-17-40
+      updated: 2024-04-26-19-12-06
       followers: 354
-      likes: 57
-      views: 158
+      likes: 58
+      views: 188
 2024-04-23.evening-mournhold: 2017-11-28.evening-mournhold
 2024-04-24.muckspunges-on-the-coast:
   title: Muckspunges on the Coast
@@ -1323,12 +1323,21 @@
       id: C6PASWNP8me
       mediaId: '18033848512904440'
       published: 2024-04-26-18-17-32
+      updated: 2024-04-26-19-12-03
       followers: 1417
+      likes: 21
+      views: 32
     - service: vk
       id: 1510
       published: 2024-04-26-18-17-39
+      updated: 2024-04-26-19-12-03
       followers: 910
+      likes: 7
+      views: 44
     - service: tg
       id: 390
       published: 2024-04-26-18-17-46
+      updated: 2024-04-26-19-12-04
       followers: 354
+      likes: 21
+      views: 57
