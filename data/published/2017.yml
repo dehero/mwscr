@@ -7325,23 +7325,25 @@
       id: C6MbiRMsSy5
       mediaId: '18027615803054025'
       published: 2024-04-25-18-17-56
-      updated: 2024-04-26-13-14-55
+      updated: 2024-04-26-14-12-34
       followers: 1416
-      likes: 85
-      views: 269
-      comments: !c CxWAkZPLQnjxndUjAACrYm9pbWFzdGVyMjizS3VydCBjb2JhaW4ncyBob3VzZQM=
+      likes: 88
+      views: 272
+      comments: !c |-
+        iySAkpPLQnjxq5QuAACndmFtdXJpbqzwn5Sl8J+UpfCflKWTy0J48Z3VIwAAq2JvaW1hc3RlcjI4
+        s0t1cnQgY29iYWluJ3MgaG91c2UD
     - service: vk
       id: 1509
       published: 2024-04-25-18-18-02
-      updated: 2024-04-26-13-14-55
+      updated: 2024-04-26-14-12-34
       followers: 910
       likes: 42
-      views: 171
+      views: 172
       reposts: 1
     - service: tg
       id: 389
       published: 2024-04-25-18-18-08
-      updated: 2024-04-26-13-14-56
+      updated: 2024-04-26-14-12-35
       followers: 354
       likes: 52
       views: 114

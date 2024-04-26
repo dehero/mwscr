@@ -28,15 +28,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZB9lx7jegT/)       | 2017-09-14 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_427)  | 2017-09-14 |   121 |    10 |        80 |     10 |
-| [`ig`](https://instagram.com/p/C6MbiRMsSy5/)       | 2024-04-25 |   269 |    85 |      1416 |      6 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1509) | 2024-04-25 |   171 |    42 |       910 |   4.62 |
+| [`ig`](https://instagram.com/p/C6MbiRMsSy5/)       | 2024-04-25 |   272 |    88 |      1416 |   6.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1509) | 2024-04-25 |   172 |    42 |       910 |   4.62 |
 | [`tg`](https://t.me/mwscr/389)                     | 2024-04-25 |   114 |    52 |       354 |  14.69 |
-|                                                    |            |   675 |   243 |      2680 |   8.83 |
+|                                                    |            |   679 |   246 |      2680 |   8.88 |
 
 #### Comments
 
 - `ig` <ins title="2024-04-26-10-04-46">boimaster28</ins> Kurt cobain&#39;s house
 - `tg` <ins title="2024-04-26-10-26-13">bobrovnikov</ins> What’s the name of that house?
+- `ig` <ins title="2024-04-26-14-05-00">vamurin</ins> 🔥🔥🔥
 
 ## <span id="2024-04-24.muckspunges-on-the-coast">Muckspunges on the Coast</span>
 
@@ -64,10 +65,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6J2rHdMfKT/)       | 2024-04-24 |   233 |    63 |      1416 |   4.45 |
+| [`ig`](https://instagram.com/p/C6J2rHdMfKT/)       | 2024-04-24 |   234 |    63 |      1416 |   4.45 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1508) | 2024-04-24 |   183 |    26 |       909 |   2.86 |
 | [`tg`](https://t.me/mwscr/388)                     | 2024-04-24 |   144 |    50 |       354 |  14.12 |
-|                                                    |            |   560 |   139 |      2679 |   7.14 |
+|                                                    |            |   561 |   139 |      2679 |   7.14 |
 
 ## <span id="2024-04-23.evening-mournhold">Evening Mournhold</span>
 
