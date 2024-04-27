@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`60 items`
+`61 items`
+
+## <span id="2024-04-27.sunset-over-the-lava-river">Sunset Over the Lava River</span>
+
+`RU` Закат над лавовой рекой
+
+<a href="https://instagram.com/p/BiU0CctlY3V/" title="2018-05-03.sunset-over-the-lava-river"><img alt="store:/shots/2018-05-03.sunset-over-the-lava-river.png" src="../../assets/previews/shots/2018-05-03.sunset-over-the-lava-river.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-27.sunset-over-the-lava-river)</code> `🚀 OpenMW` `lava` `sunset`
+
+```
+2024-04-27.sunset-over-the-lava-river
+```
+
+> `2018-05-03.sunset-over-the-lava-river`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BiU0CctlY3V/)       | 2018-05-03 |       |    96 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_707)  | 2018-05-03 |   249 |    12 |       156 |   7.69 |
+| [`ig`](https://instagram.com/p/C6Rk8QfhzGU/)       | 2024-04-27 |       |       |      1415 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1511) | 2024-04-27 |       |       |       911 |        |
+| [`tg`](https://t.me/mwscr/391)                     | 2024-04-27 |       |       |       354 |        |
+|                                                    |            |   249 |   108 |      2680 |        |
 
 ## <span id="2024-04-26.winter-and-summer">Winter and Summer</span>
 
@@ -24,10 +51,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6PASWNP8me/)       | 2024-04-26 |   296 |    75 |      1417 |   5.29 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1510) | 2024-04-26 |   132 |    18 |       910 |   1.98 |
+| [`ig`](https://instagram.com/p/C6PASWNP8me/)       | 2024-04-26 |   300 |    76 |      1417 |   5.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1510) | 2024-04-26 |   133 |    18 |       910 |   1.98 |
 | [`tg`](https://t.me/mwscr/390)                     | 2024-04-26 |   118 |    41 |       354 |  11.58 |
-|                                                    |            |   546 |   134 |      2681 |   6.28 |
+|                                                    |            |   551 |   135 |      2681 |   6.31 |
 
 ## <span id="2024-04-25.abandoned-island">Abandoned Island</span>
 
@@ -51,10 +78,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZB9lx7jegT/)       | 2017-09-14 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_427)  | 2017-09-14 |   121 |    10 |        80 |     10 |
-| [`ig`](https://instagram.com/p/C6MbiRMsSy5/)       | 2024-04-25 |   334 |   105 |      1416 |   7.42 |
+| [`ig`](https://instagram.com/p/C6MbiRMsSy5/)       | 2024-04-25 |   335 |   105 |      1416 |   7.42 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1509) | 2024-04-25 |   225 |    45 |       910 |   4.95 |
 | [`tg`](https://t.me/mwscr/389)                     | 2024-04-25 |   189 |    60 |       354 |  16.95 |
-|                                                    |            |   869 |   274 |      2680 |   9.83 |
+|                                                    |            |   870 |   274 |      2680 |   9.83 |
 
 #### Comments
 
