@@ -23,7 +23,7 @@ dehero
 Roles: `author`  
 Authored: 22 published, 40 pending, 5 rejected  
 Types: `shot`  
-Likes: 4412  
+Likes: 4416  
 
 ```
 natty
