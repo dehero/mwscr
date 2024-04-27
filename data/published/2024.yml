@@ -595,10 +595,10 @@
     - service: vk
       id: 1465
       published: 2024-03-23-18-10-09
-      updated: 2024-04-20-22-13-16
+      updated: 2024-04-27-23-13-50
       followers: 897
       likes: 38
-      views: 300
+      views: 303
       reposts: 2
       comments: !c |-
         G8EA6J0JdixkhJm14B4RFXFrInqg1DNsEoo42XO6lZA1JYZ+4n9R3RYek1wFqzltG8dgisZkkuGd
@@ -607,10 +607,10 @@
     - service: tg
       id: 355
       published: 2024-03-23-18-10-16
-      updated: 2024-04-20-22-13-15
+      updated: 2024-04-27-23-13-50
       followers: 352
       likes: 60
-      views: 377
+      views: 390
 2024-03-24.dark-sanctuary-of-dark: 2018-05-09.dark-sanctuary-of-dark
 2024-03-25.bridge-at-ghostfence:
   title: Bridge at Ghostfence
@@ -1330,7 +1330,7 @@
     - service: vk
       id: 1510
       published: 2024-04-26-18-17-39
-      updated: 2024-04-27-22-12-56
+      updated: 2024-04-27-23-13-49
       followers: 910
       likes: 20
       views: 141
@@ -1338,7 +1338,7 @@
     - service: tg
       id: 390
       published: 2024-04-26-18-17-46
-      updated: 2024-04-27-22-12-57
+      updated: 2024-04-27-23-13-49
       followers: 354
       likes: 47
       views: 137
