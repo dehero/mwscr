@@ -879,18 +879,18 @@
     - service: vk
       id: 1484
       published: 2024-04-06-18-16-53
-      updated: 2024-04-20-20-13-45
+      updated: 2024-04-27-21-12-01
       followers: 909
       likes: 46
-      views: 277
+      views: 280
       reposts: 1
     - service: tg
       id: 370
       published: 2024-04-06-18-17-00
-      updated: 2024-04-20-20-13-45
+      updated: 2024-04-27-21-12-01
       followers: 354
-      likes: 64
-      views: 324
+      likes: 65
+      views: 349
 2024-04-07.sheogorad: 2016-11-21.sheogorad
 2024-04-08.lava-fork:
   title: Lava Fork
@@ -1079,20 +1079,20 @@
     - service: vk
       id: 1492
       published: 2024-04-13-18-15-50
-      updated: 2024-04-20-20-13-44
+      updated: 2024-04-27-21-12-00
       followers: 911
       likes: 36
-      views: 230
+      views: 248
       comments: !c |-
         G3QA+J0JdoxkjGkJdSei2j3hAaWeYZN4JMme062E/uwMmTmZKKLr7nzFi13aDofWkwq6VZAEsaZF
         e6ZDUkvpQz40Red+6kcDzNvm0iSXqFaTf34NxMC0L7+j1w1ZUQydXcgkEMdj7F6omySALZMX
     - service: tg
       id: 377
       published: 2024-04-13-18-15-57
-      updated: 2024-04-20-20-13-44
+      updated: 2024-04-27-21-12-00
       followers: 351
-      likes: 58
-      views: 264
+      likes: 62
+      views: 328
 2024-04-14.palace-of-vivec: 2017-04-30.palace-of-vivec
 2024-04-15.night-at-red-mountain:
   title: Night at Red Mountain
@@ -1211,18 +1211,18 @@
     - service: vk
       id: 1502
       published: 2024-04-20-18-17-56
-      updated: 2024-04-26-20-15-11
+      updated: 2024-04-27-21-11-59
       followers: 909
       likes: 28
-      views: 238
+      views: 245
       reposts: 2
     - service: tg
       id: 384
       published: 2024-04-20-18-18-05
-      updated: 2024-04-26-20-15-11
+      updated: 2024-04-27-21-12-00
       followers: 354
       likes: 56
-      views: 223
+      views: 251
 2024-04-21.a-little-joy-for-hard-worker: 2018-03-02.a-little-joy-for-hard-worker
 2024-04-22.sunset-over-molag-amur:
   title: Sunset Over Molag Amur
@@ -1330,7 +1330,7 @@
     - service: vk
       id: 1510
       published: 2024-04-26-18-17-39
-      updated: 2024-04-27-20-13-29
+      updated: 2024-04-27-21-11-59
       followers: 910
       likes: 20
       views: 140
@@ -1338,8 +1338,8 @@
     - service: tg
       id: 390
       published: 2024-04-26-18-17-46
-      updated: 2024-04-27-20-13-30
+      updated: 2024-04-27-21-11-59
       followers: 354
-      likes: 45
-      views: 134
+      likes: 46
+      views: 137
 2024-04-27.sunset-over-the-lava-river: 2018-05-03.sunset-over-the-lava-river
