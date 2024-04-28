@@ -285,18 +285,18 @@
     - service: vk
       id: 1441
       published: 2024-03-09-18-16-27
-      updated: 2024-04-21-01-04-56
+      updated: 2024-04-28-01-05-23
       followers: 893
       likes: 35
-      views: 254
+      views: 256
       reposts: 1
     - service: tg
       id: 340
       published: 2024-03-09-18-16-33
-      updated: 2024-04-21-01-04-56
+      updated: 2024-04-28-01-05-23
       followers: 347
       likes: 62
-      views: 466
+      views: 472
       comments: !c |-
         G58AAGT+z/XBBzIvnUbS3kC7LujegbVmYoOetg7kQicnWmD6bl8URpZjW4DpDZ9rI5Yo5fDtdK90
         tRChSx2sBCU3AiU3iL2zR+G/gZ1lHfaJ3wCYBZVMS99IgGiO08lhJ4RlSbBcdMM20oiMSnmS0Cgc
@@ -1330,16 +1330,16 @@
     - service: vk
       id: 1510
       published: 2024-04-26-18-17-39
-      updated: 2024-04-27-23-13-49
+      updated: 2024-04-28-01-05-22
       followers: 910
       likes: 20
-      views: 141
+      views: 142
       reposts: 1
     - service: tg
       id: 390
       published: 2024-04-26-18-17-46
-      updated: 2024-04-27-23-13-49
+      updated: 2024-04-28-01-05-22
       followers: 354
       likes: 47
-      views: 137
+      views: 138
 2024-04-27.sunset-over-the-lava-river: 2018-05-03.sunset-over-the-lava-river
