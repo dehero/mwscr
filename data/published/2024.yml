@@ -1254,17 +1254,18 @@
     - service: vk
       id: 1505
       published: 2024-04-22-18-17-36
-      updated: 2024-04-28-20-14-20
+      updated: 2024-04-29-20-14-35
       followers: 909
-      likes: 27
-      views: 183
+      likes: 28
+      views: 190
+      reposts: 1
     - service: tg
       id: 386
       published: 2024-04-22-18-17-44
-      updated: 2024-04-28-20-14-19
+      updated: 2024-04-29-20-14-36
       followers: 354
-      likes: 60
-      views: 208
+      likes: 61
+      views: 225
 2024-04-23.evening-mournhold: 2017-11-28.evening-mournhold
 2024-04-24.muckspunges-on-the-coast:
   title: Muckspunges on the Coast
@@ -1359,14 +1360,14 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
-      updated: 2024-04-29-19-10-53
+      updated: 2024-04-29-20-14-34
       followers: 912
-      likes: 8
-      views: 37
+      likes: 16
+      views: 53
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2024-04-29-19-10-53
+      updated: 2024-04-29-20-14-35
       followers: 354
-      likes: 20
-      views: 50
+      likes: 25
+      views: 58
