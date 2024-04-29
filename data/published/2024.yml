@@ -1292,18 +1292,18 @@
     - service: vk
       id: 1508
       published: 2024-04-24-18-17-29
-      updated: 2024-04-28-19-10-44
+      updated: 2024-04-29-19-10-54
       followers: 909
-      likes: 26
-      views: 214
+      likes: 27
+      views: 220
       reposts: 1
     - service: tg
       id: 388
       published: 2024-04-24-18-17-38
-      updated: 2024-04-28-19-10-44
+      updated: 2024-04-29-19-10-54
       followers: 354
-      likes: 58
-      views: 194
+      likes: 60
+      views: 208
 2024-04-25.abandoned-island: 2017-09-14.abandoned-island
 2024-04-26.winter-and-summer:
   title: Winter and Summer
@@ -1359,8 +1359,14 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
+      updated: 2024-04-29-19-10-53
       followers: 912
+      likes: 8
+      views: 37
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
+      updated: 2024-04-29-19-10-53
       followers: 354
+      likes: 20
+      views: 50
