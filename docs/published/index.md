@@ -4,7 +4,29 @@
 
 # Published in 2024
 
-`62 items`
+`63 items`
+
+## <span id="2024-04-29.all-paths-lead-left">All Paths Lead Left</span>
+
+`RU` Все пути ведут налево
+
+<a href="https://vk.com/mwscr?w=wall-138249959_1513" title="2024-04-29.all-paths-lead-left"><img alt="store:/shots/2024-04-29.all-paths-lead-left.png" src="../../assets/previews/shots/2024-04-29.all-paths-lead-left.avif" /></a>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B2` `📍 Molag Amur Region` `🚀 OpenMW` `crossroads`
+
+```
+2024-04-29.all-paths-lead-left
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1513) | 2024-04-29 |       912 |
+| [`tg`](https://t.me/mwscr/393)                     | 2024-04-29 |       354 |
+|                                                    |            |      1266 |
 
 ## <span id="2024-04-28.ebonheart-towers">Ebonheart Towers</span>
 
@@ -28,9 +50,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOUENe2lalh/)       | 2016-12-22 |       |    21 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_39)   | 2017-01-22 |    76 |       |         4 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1512) | 2024-04-28 |   189 |    34 |       911 |   3.73 |
-| [`tg`](https://t.me/mwscr/392)                     | 2024-04-28 |   121 |    51 |       354 |  14.41 |
-|                                                    |            |   386 |   106 |      1265 |   9.07 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1512) | 2024-04-28 |   193 |    34 |       911 |   3.73 |
+| [`tg`](https://t.me/mwscr/392)                     | 2024-04-28 |   122 |    52 |       354 |  14.69 |
+|                                                    |            |   391 |   107 |      1265 |   9.21 |
 
 ## <span id="2024-04-27.sunset-over-the-lava-river">Sunset Over the Lava River</span>
 
@@ -82,9 +104,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C6PASWNP8me/)       | 2024-04-26 |   305 |    77 |      1417 |   5.43 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1510) | 2024-04-26 |   157 |    23 |       910 |   2.53 |
-| [`tg`](https://t.me/mwscr/390)                     | 2024-04-26 |   143 |    47 |       354 |  13.28 |
-|                                                    |            |   605 |   147 |      2681 |   7.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1510) | 2024-04-26 |   174 |    24 |       910 |   2.64 |
+| [`tg`](https://t.me/mwscr/390)                     | 2024-04-26 |   159 |    52 |       354 |  14.69 |
+|                                                    |            |   638 |   153 |      2681 |   7.59 |
 
 ## <span id="2024-04-25.abandoned-island">Abandoned Island</span>
 
@@ -109,9 +131,9 @@
 | [`ig`](https://instagram.com/p/BZB9lx7jegT/)       | 2017-09-14 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_427)  | 2017-09-14 |   121 |    10 |        80 |     10 |
 | [`ig`](https://instagram.com/p/C6MbiRMsSy5/)       | 2024-04-25 |   335 |   105 |      1416 |   7.42 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1509) | 2024-04-25 |   243 |    47 |       910 |   5.16 |
-| [`tg`](https://t.me/mwscr/389)                     | 2024-04-25 |   200 |    62 |       354 |  17.51 |
-|                                                    |            |   899 |   278 |      2680 |  10.02 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1509) | 2024-04-25 |   262 |    50 |       910 |   5.49 |
+| [`tg`](https://t.me/mwscr/389)                     | 2024-04-25 |   227 |    65 |       354 |  18.36 |
+|                                                    |            |   945 |   284 |      2680 |  10.32 |
 
 #### Comments
 
