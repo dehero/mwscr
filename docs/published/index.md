@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`63 items`
+`64 items`
+
+## <span id="2024-04-30.tree-of-magnus">Tree of Magnus</span>
+
+`RU` Дерево Магнуса
+
+<a href="https://instagram.com/p/Ben7-nSDinT/" title="2018-01-31.tree-of-magnus"><img alt="store:/shots/2018-01-31.tree-of-magnus.png" src="../../assets/previews/shots/2018-01-31.tree-of-magnus.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-30.tree-of-magnus)</code> `🚀 OpenMW` `sun` `trees`
+
+```
+2024-04-30.tree-of-magnus
+```
+
+> `2018-01-31.tree-of-magnus`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Ben7-nSDinT/)       | 2018-01-31 |       |    80 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_596)  | 2018-01-31 |   178 |    16 |       125 |   12.8 |
+| [`ig`](https://instagram.com/p/C6ZiSJrKF26/)       | 2024-04-30 |       |       |      1415 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1514) | 2024-04-30 |       |       |       911 |        |
+| [`tg`](https://t.me/mwscr/394)                     | 2024-04-30 |       |       |       363 |        |
+|                                                    |            |   178 |    96 |      2689 |        |
 
 ## <span id="2024-04-29.all-paths-lead-left">All Paths Lead Left</span>
 
