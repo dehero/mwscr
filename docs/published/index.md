@@ -25,9 +25,13 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1513) | 2024-04-29 |   150 |    30 |       912 |   3.29 |
-| [`tg`](https://t.me/mwscr/393)                     | 2024-04-29 |   115 |    40 |       354 |   11.3 |
-| [`ig`](https://instagram.com/p/C6YQR93NFJz/)       | 2024-04-30 |   157 |    53 |      1415 |   3.75 |
-|                                                    |            |   422 |   123 |      2681 |   6.11 |
+| [`tg`](https://t.me/mwscr/393)                     | 2024-04-29 |   117 |    41 |       354 |  11.58 |
+| [`ig`](https://instagram.com/p/C6YQR93NFJz/)       | 2024-04-30 |   172 |    56 |      1415 |   3.96 |
+|                                                    |            |   439 |   127 |      2681 |   6.28 |
+
+#### Comments
+
+- `tg` <ins title="2024-04-30-19-43-56">resist_it</ins> Where do they lead, actually? 🤔
 
 ## <span id="2024-04-28.ebonheart-towers">Ebonheart Towers</span>
 
@@ -53,8 +57,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_39)   | 2017-01-22 |    76 |       |         4 |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1512) | 2024-04-28 |   227 |    38 |       911 |   4.17 |
 | [`tg`](https://t.me/mwscr/392)                     | 2024-04-28 |   166 |    56 |       354 |  15.82 |
-| [`ig`](https://instagram.com/p/C6YMB6DxXL3/)       | 2024-04-30 |   127 |    47 |      1415 |   3.32 |
-|                                                    |            |   596 |   162 |      2680 |   7.77 |
+| [`ig`](https://instagram.com/p/C6YMB6DxXL3/)       | 2024-04-30 |   141 |    50 |      1415 |   3.53 |
+|                                                    |            |   610 |   165 |      2680 |   7.84 |
 
 ## <span id="2024-04-27.sunset-over-the-lava-river">Sunset Over the Lava River</span>
 
