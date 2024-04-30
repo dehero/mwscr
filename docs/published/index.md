@@ -25,9 +25,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1513) | 2024-04-29 |   136 |    26 |       912 |   2.85 |
-| [`tg`](https://t.me/mwscr/393)                     | 2024-04-29 |   103 |    39 |       354 |  11.02 |
-| [`ig`](https://instagram.com/p/C6YQR93NFJz/)       | 2024-04-30 |    86 |    34 |      1415 |    2.4 |
-|                                                    |            |   325 |    99 |      2681 |   5.42 |
+| [`tg`](https://t.me/mwscr/393)                     | 2024-04-29 |   104 |    39 |       354 |  11.02 |
+| [`ig`](https://instagram.com/p/C6YQR93NFJz/)       | 2024-04-30 |   102 |    34 |      1415 |    2.4 |
+|                                                    |            |   342 |    99 |      2681 |   5.42 |
 
 ## <span id="2024-04-28.ebonheart-towers">Ebonheart Towers</span>
 
@@ -52,9 +52,9 @@
 | [`ig`](https://instagram.com/p/BOUENe2lalh/)       | 2016-12-22 |       |    21 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_39)   | 2017-01-22 |    76 |       |         4 |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1512) | 2024-04-28 |   219 |    36 |       911 |   3.95 |
-| [`tg`](https://t.me/mwscr/392)                     | 2024-04-28 |   158 |    55 |       354 |  15.54 |
-| [`ig`](https://instagram.com/p/C6YMB6DxXL3/)       | 2024-04-30 |    78 |    34 |      1415 |    2.4 |
-|                                                    |            |   531 |   146 |      2680 |    7.3 |
+| [`tg`](https://t.me/mwscr/392)                     | 2024-04-28 |   159 |    55 |       354 |  15.54 |
+| [`ig`](https://instagram.com/p/C6YMB6DxXL3/)       | 2024-04-30 |    91 |    34 |      1415 |    2.4 |
+|                                                    |            |   545 |   146 |      2680 |    7.3 |
 
 ## <span id="2024-04-27.sunset-over-the-lava-river">Sunset Over the Lava River</span>
 
