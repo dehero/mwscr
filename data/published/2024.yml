@@ -1360,19 +1360,22 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
-      updated: 2024-04-30-08-18-07
+      updated: 2024-04-30-09-15-34
       followers: 912
       likes: 26
-      views: 116
+      views: 121
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2024-04-30-08-18-09
+      updated: 2024-04-30-09-15-34
       followers: 354
-      likes: 36
-      views: 89
+      likes: 38
+      views: 92
     - service: ig
       id: C6YQR93NFJz
       mediaId: '18019150415225634'
       published: 2024-04-30-08-30-26
+      updated: 2024-04-30-09-15-33
       followers: 1415
+      likes: 11
+      views: 23
