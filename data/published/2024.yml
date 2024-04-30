@@ -166,18 +166,18 @@
     - service: vk
       id: 1436
       published: 2024-03-04-18-18-05
-      updated: 2024-04-23-01-01-13
+      updated: 2024-04-30-03-15-03
       followers: 895
       likes: 36
-      views: 282
+      views: 284
       reposts: 2
     - service: tg
       id: 335
       published: 2024-03-04-18-18-12
-      updated: 2024-04-23-01-01-12
+      updated: 2024-04-30-03-15-02
       followers: 344
       likes: 66
-      views: 499
+      views: 506
 2024-03-05.mzahnch-at-sunset: 2017-11-15.mzahnch-at-sunset
 2024-03-06.mushroom-field: 2017-10-22.mushroom-field
 2024-03-07.night-tradeswoman:
@@ -362,18 +362,18 @@
     - service: vk
       id: 1443
       published: 2024-03-11-18-08-24
-      updated: 2024-04-23-01-01-12
+      updated: 2024-04-30-03-15-02
       followers: 896
       likes: 40
-      views: 321
+      views: 325
       reposts: 1
     - service: tg
       id: 342
       published: 2024-03-11-18-08-30
-      updated: 2024-04-23-01-01-12
+      updated: 2024-04-30-03-15-02
       followers: 350
       likes: 60
-      views: 448
+      views: 455
 2024-03-12.neloth:
   title: Neloth
   titleRu: Нелот
@@ -639,17 +639,17 @@
     - service: vk
       id: 1469
       published: 2024-03-25-18-11-40
-      updated: 2024-04-23-01-01-11
+      updated: 2024-04-30-03-15-02
       followers: 902
       likes: 43
       views: 312
     - service: tg
       id: 357
       published: 2024-03-25-18-11-47
-      updated: 2024-04-23-01-01-11
+      updated: 2024-04-30-03-15-01
       followers: 352
       likes: 63
-      views: 369
+      views: 385
       comments: !c |-
         izSAkpPLQnjnjgYngACtT2xtZXJfSXpkZXlsYaTwn4+Nk8tCeOd57CiAAKphbGV4X2Vtc2932TVP
         bmNlIEkgcmFuIGludG8gYSBtdWRjcmFiIHNvbWV3aGVyZSBhcm91bmQgdGhpcyBwbGFjZQM=
@@ -1360,14 +1360,14 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
-      updated: 2024-04-30-01-00-47
+      updated: 2024-04-30-03-15-00
       followers: 912
       likes: 20
-      views: 84
+      views: 88
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2024-04-30-01-00-47
+      updated: 2024-04-30-03-15-01
       followers: 354
-      likes: 33
-      views: 72
+      likes: 34
+      views: 77
