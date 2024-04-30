@@ -24,9 +24,9 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1513) | 2024-04-29 |    99 |    23 |       912 |   2.52 |
-| [`tg`](https://t.me/mwscr/393)                     | 2024-04-29 |    81 |    35 |       354 |   9.89 |
-|                                                    |            |   180 |    58 |      1266 |    6.2 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1513) | 2024-04-29 |   104 |    24 |       912 |   2.63 |
+| [`tg`](https://t.me/mwscr/393)                     | 2024-04-29 |    82 |    35 |       354 |   9.89 |
+|                                                    |            |   186 |    59 |      1266 |   6.26 |
 
 ## <span id="2024-04-28.ebonheart-towers">Ebonheart Towers</span>
 
@@ -51,8 +51,8 @@
 | [`ig`](https://instagram.com/p/BOUENe2lalh/)       | 2016-12-22 |       |    21 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_39)   | 2017-01-22 |    76 |       |         4 |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1512) | 2024-04-28 |   208 |    35 |       911 |   3.84 |
-| [`tg`](https://t.me/mwscr/392)                     | 2024-04-28 |   140 |    55 |       354 |  15.54 |
-|                                                    |            |   424 |   111 |      1265 |   9.69 |
+| [`tg`](https://t.me/mwscr/392)                     | 2024-04-28 |   141 |    55 |       354 |  15.54 |
+|                                                    |            |   425 |   111 |      1265 |   9.69 |
 
 ## <span id="2024-04-27.sunset-over-the-lava-river">Sunset Over the Lava River</span>
 
