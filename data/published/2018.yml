@@ -425,25 +425,25 @@
       id: C51QP5Urf1u
       mediaId: '18428034226010775'
       published: 2024-04-16-18-16-46
-      updated: 2024-04-23-21-12-20
+      updated: 2024-04-30-21-14-24
       followers: 1414
-      likes: 115
-      views: 496
+      likes: 116
+      views: 514
     - service: vk
       id: 1497
       published: 2024-04-16-18-16-52
-      updated: 2024-04-23-21-12-19
+      updated: 2024-04-30-21-14-25
       followers: 910
       likes: 32
-      views: 228
+      views: 240
       reposts: 2
     - service: tg
       id: 380
       published: 2024-04-16-18-16-59
-      updated: 2024-04-23-21-12-18
+      updated: 2024-04-30-21-14-26
       followers: 353
       likes: 57
-      views: 253
+      views: 324
       comments: !c |-
         iymAkZTLQnjuiXXlAACqYWxleF9lbXNvd7pJIGp1c3QgaGF0ZSB0aGlzIHBsYWNl8J+YhZPLQnju
         iwdDAACpR2F0ZW1hdGU3rnRoaXMgaXMgYSBtb2Q/Aw==
@@ -822,15 +822,24 @@
       id: C6ZiSJrKF26
       mediaId: '17866997010101687'
       published: 2024-04-30-20-27-13
+      updated: 2024-04-30-21-14-23
       followers: 1415
+      likes: 16
+      views: 44
     - service: vk
       id: 1514
       published: 2024-04-30-20-27-56
+      updated: 2024-04-30-21-14-23
       followers: 911
+      likes: 6
+      views: 37
     - service: tg
       id: 394
       published: 2024-04-30-20-28-22
+      updated: 2024-04-30-21-14-24
       followers: 363
+      likes: 20
+      views: 43
 2018-02-01.far-swamps:
   title: Far Swamps
   titleRu: Дальние болота
