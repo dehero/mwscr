@@ -9535,6 +9535,19 @@
       comments: !c |-
         G18A+I3UTjWWL7UIInekD9iqFUqSYUswwuQOI0/nBrlSiI18cWokVcVRTdU0yKOoMpx0DPrWvmL8
         5wedOXJrNeXS61OWSRcl2GEPHQTFMfQgg8uz6YZjNQ==
+    - service: ig
+      id: C6b4XCOPD2n
+      mediaId: '17856821751159443'
+      published: 2024-05-01-18-18-23
+      followers: 1415
+    - service: vk
+      id: 1515
+      published: 2024-05-01-18-18-32
+      followers: 911
+    - service: tg
+      id: 395
+      published: 2024-05-01-18-18-41
+      followers: 363
 2017-12-04.ruins-in-a-mountain-dead-end:
   title: Ruins in a Mountain Dead End
   titleRu: Руины в горном тупике

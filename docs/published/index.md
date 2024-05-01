@@ -4,7 +4,38 @@
 
 # Published in 2024
 
-`64 items`
+`65 items`
+
+## <span id="2024-05-01.upper-circles">Upper Circles</span>
+
+`RU` Высокие круги
+
+<a href="https://instagram.com/p/BcQE6_5jawa/" title="2017-12-03.upper-circles"><img alt="store:/shots/2017-12-03.upper-circles.png" src="../../assets/previews/shots/2017-12-03.upper-circles.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-01.upper-circles)</code> `🚀 OpenMW`
+
+```
+2024-05-01.upper-circles
+```
+
+> `2017-12-03.upper-circles`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BcQE6_5jawa/)       | 2017-12-03 |       |    94 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_521)  | 2017-12-03 |   160 |    14 |       104 |  13.46 |
+| [`ig`](https://instagram.com/p/C6b4XCOPD2n/)       | 2024-05-01 |       |       |      1415 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1515) | 2024-05-01 |       |       |       911 |        |
+| [`tg`](https://t.me/mwscr/395)                     | 2024-05-01 |       |       |       363 |        |
+|                                                    |            |   160 |   108 |      2689 |        |
+
+#### Comments
+
+- `vk` <ins title="2017-12-03-20-01-49">id266402374</ins> Только вчера у этих ребят в гостях была
 
 ## <span id="2024-04-30.tree-of-magnus">Tree of Magnus</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Ben7-nSDinT/)       | 2018-01-31 |       |    80 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_596)  | 2018-01-31 |   178 |    16 |       125 |   12.8 |
-| [`ig`](https://instagram.com/p/C6ZiSJrKF26/)       | 2024-04-30 |   220 |    58 |      1415 |    4.1 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1514) | 2024-04-30 |   119 |    19 |       911 |   2.09 |
-| [`tg`](https://t.me/mwscr/394)                     | 2024-04-30 |   108 |    46 |       363 |  12.67 |
-|                                                    |            |   625 |   219 |      2689 |   7.91 |
+| [`ig`](https://instagram.com/p/C6ZiSJrKF26/)       | 2024-04-30 |   227 |    59 |      1415 |   4.17 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1514) | 2024-04-30 |   122 |    19 |       911 |   2.09 |
+| [`tg`](https://t.me/mwscr/394)                     | 2024-04-30 |   110 |    46 |       363 |  12.67 |
+|                                                    |            |   637 |   220 |      2689 |   7.93 |
 
 ## <span id="2024-04-29.all-paths-lead-left">All Paths Lead Left</span>
 
@@ -52,9 +83,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1513) | 2024-04-29 |   169 |    31 |       912 |    3.4 |
-| [`tg`](https://t.me/mwscr/393)                     | 2024-04-29 |   151 |    48 |       354 |  13.56 |
+| [`tg`](https://t.me/mwscr/393)                     | 2024-04-29 |   153 |    48 |       354 |  13.56 |
 | [`ig`](https://instagram.com/p/C6YQR93NFJz/)       | 2024-04-30 |   234 |    65 |      1415 |   4.59 |
-|                                                    |            |   554 |   144 |      2681 |   7.18 |
+|                                                    |            |   556 |   144 |      2681 |   7.18 |
 
 #### Comments
 
@@ -84,8 +115,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_39)   | 2017-01-22 |    76 |       |         4 |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1512) | 2024-04-28 |   246 |    38 |       911 |   4.17 |
 | [`tg`](https://t.me/mwscr/392)                     | 2024-04-28 |   180 |    58 |       354 |  16.38 |
-| [`ig`](https://instagram.com/p/C6YMB6DxXL3/)       | 2024-04-30 |   199 |    59 |      1415 |   4.17 |
-|                                                    |            |   701 |   176 |      2680 |   8.24 |
+| [`ig`](https://instagram.com/p/C6YMB6DxXL3/)       | 2024-04-30 |   200 |    60 |      1415 |   4.24 |
+|                                                    |            |   702 |   177 |      2680 |   8.27 |
 
 ## <span id="2024-04-27.sunset-over-the-lava-river">Sunset Over the Lava River</span>
 
