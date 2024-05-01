@@ -1360,17 +1360,17 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
-      updated: 2024-05-01-01-05-31
+      updated: 2024-05-01-02-28-18
       followers: 912
       likes: 30
       views: 154
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2024-05-01-01-05-31
+      updated: 2024-05-01-02-28-18
       followers: 354
-      likes: 44
-      views: 137
+      likes: 45
+      views: 139
       comments: !c |-
         CxyAkZPLQnjzCJAGAACpcmVzaXN0X2l02SJXaGVyZSBkbyB0aGV5IGxlYWQsIGFjdHVhbGx5PyDw
         n6SUAw==
@@ -1378,8 +1378,8 @@
       id: C6YQR93NFJz
       mediaId: '18019150415225634'
       published: 2024-04-30-08-30-26
-      updated: 2024-05-01-01-05-31
+      updated: 2024-05-01-02-28-17
       followers: 1415
-      likes: 60
-      views: 197
+      likes: 61
+      views: 202
 2024-04-30.tree-of-magnus: 2018-01-31.tree-of-magnus
