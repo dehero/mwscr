@@ -7335,18 +7335,18 @@
     - service: vk
       id: 1509
       published: 2024-04-25-18-18-02
-      updated: 2024-04-30-18-19-50
+      updated: 2024-05-01-19-13-21
       followers: 910
       likes: 50
-      views: 279
+      views: 286
       reposts: 2
     - service: tg
       id: 389
       published: 2024-04-25-18-18-08
-      updated: 2024-04-30-18-19-50
+      updated: 2024-05-01-19-13-22
       followers: 354
-      likes: 65
-      views: 260
+      likes: 66
+      views: 277
       comments: !c |-
         G44AYGXy1sAGuvPdQJ8KrB+f57VAP4+iQAMLaILp5EQPxt/pmIaRfAFA8zxlqWMT8Pjfdn7S/F/Q
         WsHjVm5bjWWSVaNAZuz0LbFdHu30iKDoAcBr+8ddTJ3XCkWt2nbBj4kztaQ5XVz1QyZbL9wwAQ==
@@ -9539,15 +9539,24 @@
       id: C6b4XCOPD2n
       mediaId: '17856821751159443'
       published: 2024-05-01-18-18-23
+      updated: 2024-05-01-19-13-18
       followers: 1415
+      likes: 28
+      views: 41
     - service: vk
       id: 1515
       published: 2024-05-01-18-18-32
+      updated: 2024-05-01-19-13-19
       followers: 911
+      likes: 7
+      views: 40
     - service: tg
       id: 395
       published: 2024-05-01-18-18-41
+      updated: 2024-05-01-19-13-20
       followers: 363
+      likes: 21
+      views: 58
 2017-12-04.ruins-in-a-mountain-dead-end:
   title: Ruins in a Mountain Dead End
   titleRu: Руины в горном тупике
