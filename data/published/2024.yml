@@ -1367,10 +1367,10 @@
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2024-05-01-18-18-09
+      updated: 2024-05-02-18-20-45
       followers: 354
-      likes: 48
-      views: 153
+      likes: 49
+      views: 179
       comments: !c |-
         CxyAkZPLQnjzCJAGAACpcmVzaXN0X2l02SJXaGVyZSBkbyB0aGV5IGxlYWQsIGFjdHVhbGx5PyDw
         n6SUAw==
@@ -1384,3 +1384,4 @@
       views: 246
 2024-04-30.tree-of-magnus: 2018-01-31.tree-of-magnus
 2024-05-01.upper-circles: 2017-12-03.upper-circles
+2024-05-02.over-the-lava: 2017-08-02.over-the-lava

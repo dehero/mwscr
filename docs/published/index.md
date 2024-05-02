@@ -4,7 +4,39 @@
 
 # Published in 2024
 
-`65 items`
+`66 items`
+
+## <span id="2024-05-02.over-the-lava">Over the Lava</span>
+
+`RU` Над лавой
+
+<a href="https://instagram.com/p/1572346381783154677/" title="2017-08-02.over-the-lava"><img alt="store:/shots/2017-08-02.over-the-lava.png" src="../../assets/previews/shots/2017-08-02.over-the-lava.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-02.over-the-lava)</code> `🚀 OpenMW` `lava`
+
+```
+2024-05-02.over-the-lava
+```
+
+> `2017-08-02.over-the-lava`
+
+### Reactions
+
+|                                                      | published  | views | likes | followers | rating |
+|------------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/1572346381783154677/) | 2017-08-02 |       |    46 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_374)    | 2017-08-02 |   119 |     4 |        72 |      4 |
+| [`ig`](https://instagram.com/p/C6edctIvKh2/)         | 2024-05-02 |       |       |      1415 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1516)   | 2024-05-02 |       |       |       912 |        |
+| [`tg`](https://t.me/mwscr/396)                       | 2024-05-02 |       |       |       364 |        |
+|                                                      |            |   119 |    50 |      2691 |        |
+
+#### Comments
+
+- `vk` <ins title="2017-08-02-07-36-50">petrushkachord</ins> Где это находится?
+- `vk` <ins title="2017-08-02-08-08-51">dehero</ins> Данила, пещеры Маусур
 
 ## <span id="2024-05-01.upper-circles">Upper Circles</span>
 
@@ -28,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BcQE6_5jawa/)       | 2017-12-03 |       |    94 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_521)  | 2017-12-03 |   160 |    14 |       104 |  13.46 |
-| [`ig`](https://instagram.com/p/C6b4XCOPD2n/)       | 2024-05-01 |   218 |    70 |      1415 |   4.95 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1515) | 2024-05-01 |   136 |    17 |       911 |   1.87 |
-| [`tg`](https://t.me/mwscr/395)                     | 2024-05-01 |   123 |    41 |       363 |  11.29 |
-|                                                    |            |   637 |   236 |      2689 |   7.89 |
+| [`ig`](https://instagram.com/p/C6b4XCOPD2n/)       | 2024-05-01 |   221 |    71 |      1415 |   5.02 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1515) | 2024-05-01 |   137 |    18 |       911 |   1.98 |
+| [`tg`](https://t.me/mwscr/395)                     | 2024-05-01 |   124 |    41 |       363 |  11.29 |
+|                                                    |            |   642 |   238 |      2689 |   7.94 |
 
 #### Comments
 
@@ -59,10 +91,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Ben7-nSDinT/)       | 2018-01-31 |       |    80 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_596)  | 2018-01-31 |   178 |    16 |       125 |   12.8 |
-| [`ig`](https://instagram.com/p/C6ZiSJrKF26/)       | 2024-04-30 |   250 |    65 |      1415 |   4.59 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1514) | 2024-04-30 |   143 |    21 |       911 |   2.31 |
+| [`ig`](https://instagram.com/p/C6ZiSJrKF26/)       | 2024-04-30 |   251 |    65 |      1415 |   4.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1514) | 2024-04-30 |   144 |    21 |       911 |   2.31 |
 | [`tg`](https://t.me/mwscr/394)                     | 2024-04-30 |   152 |    51 |       363 |  14.05 |
-|                                                    |            |   723 |   233 |      2689 |   8.44 |
+|                                                    |            |   725 |   233 |      2689 |   8.44 |
 
 ## <span id="2024-04-29.all-paths-lead-left">All Paths Lead Left</span>
 
@@ -83,9 +115,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1513) | 2024-04-29 |   187 |    31 |       912 |    3.4 |
-| [`tg`](https://t.me/mwscr/393)                     | 2024-04-29 |   153 |    48 |       354 |  13.56 |
+| [`tg`](https://t.me/mwscr/393)                     | 2024-04-29 |   179 |    49 |       354 |  13.84 |
 | [`ig`](https://instagram.com/p/C6YQR93NFJz/)       | 2024-04-30 |   246 |    68 |      1415 |   4.81 |
-|                                                    |            |   586 |   147 |      2681 |   7.25 |
+|                                                    |            |   612 |   148 |      2681 |   7.35 |
 
 #### Comments
 
