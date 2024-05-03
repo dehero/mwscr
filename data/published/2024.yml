@@ -1367,10 +1367,10 @@
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2024-05-02-18-20-45
+      updated: 2024-05-03-19-11-27
       followers: 354
-      likes: 49
-      views: 179
+      likes: 54
+      views: 210
       comments: !c |-
         CxyAkZPLQnjzCJAGAACpcmVzaXN0X2l02SJXaGVyZSBkbyB0aGV5IGxlYWQsIGFjdHVhbGx5PyDw
         n6SUAw==
@@ -1400,12 +1400,22 @@
       id: C6hB52RP4_D
       mediaId: '17887814211020614'
       published: 2024-05-03-18-18-00
+      updated: 2024-05-03-19-11-25
       followers: 1415
+      likes: 23
+      views: 34
+      comments: !c CxeAkZPLQnjz+xuTgACrc2lyX3dhY2xvdmW3SSBjYW4gaGVhciB0aGlzIHBpY3R1cmUD
     - service: vk
       id: 1517
       published: 2024-05-03-18-18-06
+      updated: 2024-05-03-19-11-25
       followers: 912
+      likes: 7
+      views: 44
     - service: tg
       id: 397
       published: 2024-05-03-18-18-12
+      updated: 2024-05-03-19-11-25
       followers: 366
+      likes: 28
+      views: 61
