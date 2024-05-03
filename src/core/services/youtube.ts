@@ -22,9 +22,12 @@ export class YouTube implements PostingService<YouTubePost> {
     return false;
   }
 
-  getServicePostUrl(servicePost: ServicePost<unknown>) {
+  getServicePostUrl(servicePost: ServicePost<unknown>, embed?: boolean) {
     if (!servicePost.id) {
       return;
+    }
+    if (embed) {
+      return `https://www.youtube.com/embed/${servicePost.id}?rel=0`;
     }
     return `https://www.youtube.com/watch?v=${servicePost.id}`;
   }
