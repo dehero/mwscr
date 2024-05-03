@@ -11,7 +11,7 @@ export interface Service {
 export interface PostingService<TServicePost extends ServicePost<unknown> = ServicePost<unknown>> extends Service {
   isPost(servicePost: ServicePost<unknown>): servicePost is TServicePost;
 
-  getServicePostUrl: (servicePost: ServicePost<unknown>) => string | undefined;
+  getServicePostUrl: (servicePost: ServicePost<unknown>, embed?: boolean) => string | undefined;
 
   canPublishPost: (post: Post, errors?: string[]) => boolean;
 }
