@@ -1,0 +1,23 @@
+.table {
+  border-spacing: 0;
+  line-height: 1.25;
+  cursor: default;
+}
+
+.header {
+  color: var(--color-text-light);
+}
+
+.label {
+  text-align: left;
+  white-space: nowrap;
+  font-weight: normal;
+  padding: 0;
+}
+
+.value {
+  text-align: right;
+  width: 100%;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+}
