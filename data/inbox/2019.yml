@@ -1,10 +1,16 @@
 dehero.2019-02-16-21-46-47:
-  content:
+  title: Campfire
+  titleRu: У костра
+  content: store:/inbox/dehero.2019-02-16-21-46-47.1.png
+  trash:
     - store:/inbox/dehero.2019-02-16-21-46-47.png
     - store:/inbox/dehero.2019-02-16-21-46-51.png
-    - store:/inbox/dehero.2019-02-16-21-46-47.1.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - campfire
+  mark: B1
 dehero.2019-05-08-18-13-56:
   title: Alchemist Table
   titleRu: Стол алхимика

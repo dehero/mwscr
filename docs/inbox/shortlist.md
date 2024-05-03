@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`5 items`
+`6 items`
 
 ## <span id="dehero.2024-03-05-19-59-55">Lunch for Four</span>
 
@@ -93,6 +93,27 @@ dehero.2020-05-19-night-guards
 
 ```
 dehero.2019-05-08-18-13-56
+```
+
+## <span id="dehero.2019-02-16-21-46-47">Campfire</span>
+
+`RU` У костра
+
+![store:/inbox/dehero.2019-02-16-21-46-47.1.png](../../assets/previews/inbox/dehero.2019-02-16-21-46-47.1.avif "dehero.2019-02-16-21-46-47.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2019-02-16-21-46-47.png](../../assets/previews/inbox/dehero.2019-02-16-21-46-47.avif "dehero.2019-02-16-21-46-47")
+![store:/inbox/dehero.2019-02-16-21-46-51.png](../../assets/previews/inbox/dehero.2019-02-16-21-46-51.avif "dehero.2019-02-16-21-46-51")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2019-02-16-21-46-47&amp;postContent=store%3A%2Finbox%2Fdehero.2019-02-16-21-46-47.1.png&amp;postTitle=Campfire&amp;postTitleRu=%D0%A3+%D0%BA%D0%BE%D1%81%D1%82%D1%80%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=campfire&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2019-02-16-21-46-47.png%0Astore%3A%2Finbox%2Fdehero.2019-02-16-21-46-51.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2019-02-16-21-46-47) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2019-02-16-21-46-47) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2019-02-16-21-46-47)</code> `🚀 OpenMW` `campfire`
+
+```
+dehero.2019-02-16-21-46-47
 ```
 
 ## <span id="darkness-rifho.2023-07-27-19-15-35-place-to-sleep">Place to Sleep</span>
