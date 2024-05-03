@@ -155,11 +155,17 @@ natty.2024-03-10-12-40-06:
   type: shot
   author: natty
 natty.2024-03-10-12-40-58:
-  content:
-    - store:/inbox/natty.2024-03-10-12-40-58.png
-    - store:/inbox/natty.2024-03-10-12-40-58.1.png
+  title: Ahnassi
+  titleRu: Анасси
+  location: Pelagiad, Halfway Tavern
+  content: store:/inbox/natty.2024-03-10-12-40-58.1.png
+  trash: store:/inbox/natty.2024-03-10-12-40-58.png
   type: shot
   author: natty
+  engine: OpenMW
+  tags:
+    - khajiit
+  mark: B2
 natty.2024-03-10-12-44-23:
   content: store:/inbox/natty.2024-03-10-12-44-23.png
   type: shot
