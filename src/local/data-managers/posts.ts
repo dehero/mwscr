@@ -14,14 +14,14 @@ import { getDataHash } from '../utils/data-utils.js';
 import { LocalPostsManager } from './utils/local-posts-manager.js';
 
 export const published = new LocalPostsManager<PublishablePost>({
-  title: 'published',
+  name: 'published',
   dirPath: 'data/published',
   checkPost: isPublishablePost,
   getPostChunkName: getPublishedPostChunkName,
 });
 
 export const inbox = new LocalPostsManager<InboxItem>({
-  title: 'inbox',
+  name: 'inbox',
   dirPath: 'data/inbox',
   checkPost: isInboxItem,
   getPostChunkName: getPostDraftChunkName,
@@ -29,7 +29,7 @@ export const inbox = new LocalPostsManager<InboxItem>({
 
 // Allow trash to contain restorable inbox items temporarily
 export const trash = new LocalPostsManager<TrashItem | InboxItem>({
-  title: 'trash',
+  name: 'trash',
   dirPath: 'data/trash',
   checkPost: isTrashOrInboxItem,
   getPostChunkName: getPostDraftChunkName,

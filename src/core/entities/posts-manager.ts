@@ -4,7 +4,7 @@ import type { Post, PostEntry } from './post.js';
 export type PostsManagerChunk<TPost> = Map<string, TPost | string>;
 
 export abstract class PostsManager<TPost extends Post = Post> {
-  abstract readonly title: string;
+  abstract readonly name: string;
   abstract readonly getPostChunkName: (id: string) => string;
 
   abstract addPost: (id: string, post: Post | string) => Promise<void>;
@@ -69,5 +69,5 @@ export async function getPost<
     }
   }
 
-  throw new Error(`Cannot find post "${id}" through ${listItems(managers.map(({ title }) => title))} posts.`);
+  throw new Error(`Cannot find post "${id}" through ${listItems(managers.map(({ name }) => name))} posts.`);
 }

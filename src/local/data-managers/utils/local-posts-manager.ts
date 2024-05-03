@@ -8,23 +8,23 @@ import { pathExists } from '../../utils/file-utils.js';
 import { loadYaml, saveYaml } from './yaml.js';
 
 export interface LocalPostsManagerProps<TPost extends Post> {
-  title: string;
+  name: string;
   dirPath: string;
   checkPost: (post: Post, errors?: string[]) => post is TPost;
   getPostChunkName: (id: string) => string;
 }
 
 export class LocalPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
-  readonly title: string;
+  readonly name: string;
   readonly checkPost: (post: Post, errors?: string[]) => post is TPost;
   readonly getPostChunkName: (id: string) => string;
   readonly dirPath: string;
   private chunkNames: Set<string> | undefined;
   private chunks: Map<string, PostsManagerChunk<TPost>> = new Map();
 
-  constructor({ title, dirPath, checkPost, getPostChunkName }: LocalPostsManagerProps<TPost>) {
+  constructor({ name, dirPath, checkPost, getPostChunkName }: LocalPostsManagerProps<TPost>) {
     super();
-    this.title = title;
+    this.name = name;
     this.checkPost = checkPost;
     this.dirPath = dirPath;
     this.getPostChunkName = getPostChunkName;
