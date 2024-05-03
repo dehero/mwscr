@@ -4,7 +4,7 @@ import { dateToString } from '../utils/date-utils.js';
 import { areNestedLocations as areRelatedLocations } from './location.js';
 import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, resourceIsImage, resourceIsVideo } from './resource.js';
 import { checkRules, needObject, needProperty } from './rule.js';
-import type { ServicePost } from './service-post.js';
+import type { ServicePost, ServicePostComment } from './service-post.js';
 import { isServicePostEqual, mergeServicePosts } from './service-post.js';
 import { USER_DEFAULT_AUTHOR } from './user.js';
 
@@ -69,6 +69,10 @@ export type PostFilter<TPost extends Post, TFilteredPost extends TPost> = (post:
 
 export type PostSource<TPost extends Post> = () => AsyncGenerator<PostEntry<TPost>>;
 
+export interface PostComment extends ServicePostComment {
+  service: string;
+}
+
 export interface PostDistance {
   id: string | undefined;
   distance: number;
@@ -122,6 +126,16 @@ export function getPostRating(post: Post) {
   }
 
   return ratings.reduce((acc, number) => acc + number, 0) / ratings.length;
+}
+
+export function getAllPostComments(post: Post): PostComment[] {
+  return (
+    post.posts
+      ?.flatMap(
+        (servicePost) => servicePost.comments?.map((comment) => ({ ...comment, service: servicePost.service })) ?? [],
+      )
+      .sort((a, b) => a.datetime.getTime() - b.datetime.getTime()) ?? []
+  );
 }
 
 export function getPostCommentCount(post: Post) {
