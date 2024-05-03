@@ -4,7 +4,30 @@
 
 # Published in 2024
 
-`66 items`
+`67 items`
+
+## <span id="2024-05-03.coastal-silt-strider">Coastal Silt Strider</span>
+
+`RU` Прибрежный силт-страйдер
+
+<a href="https://instagram.com/p/C6hB52RP4_D/" title="2024-05-03.coastal-silt-strider"><img alt="store:/shots/2024-05-03.coastal-silt-strider.png" src="../../assets/previews/shots/2024-05-03.coastal-silt-strider.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-03.coastal-silt-strider)</code> `🚀 OpenMW` `siltstrider`
+
+```
+2024-05-03.coastal-silt-strider
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C6hB52RP4_D/)       | 2024-05-03 |      1415 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1517) | 2024-05-03 |       912 |
+| [`tg`](https://t.me/mwscr/397)                     | 2024-05-03 |       366 |
+|                                                    |            |      2693 |
 
 ## <span id="2024-05-02.over-the-lava">Over the Lava</span>
 
@@ -28,10 +51,10 @@
 |------------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/1572346381783154677/) | 2017-08-02 |       |    46 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_374)    | 2017-08-02 |   119 |     4 |        72 |      4 |
-| [`ig`](https://instagram.com/p/C6edctIvKh2/)         | 2024-05-02 |   171 |    44 |      1415 |   3.11 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1516)   | 2024-05-02 |   129 |    20 |       912 |   2.19 |
-| [`tg`](https://t.me/mwscr/396)                       | 2024-05-02 |   108 |    37 |       364 |  10.16 |
-|                                                      |            |   527 |   151 |      2691 |   4.87 |
+| [`ig`](https://instagram.com/p/C6edctIvKh2/)         | 2024-05-02 |   173 |    44 |      1415 |   3.11 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1516)   | 2024-05-02 |   131 |    20 |       912 |   2.19 |
+| [`tg`](https://t.me/mwscr/396)                       | 2024-05-02 |   109 |    38 |       364 |  10.44 |
+|                                                      |            |   532 |   152 |      2691 |   4.94 |
 
 #### Comments
 
@@ -60,10 +83,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BcQE6_5jawa/)       | 2017-12-03 |       |    94 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_521)  | 2017-12-03 |   160 |    14 |       104 |  13.46 |
-| [`ig`](https://instagram.com/p/C6b4XCOPD2n/)       | 2024-05-01 |   252 |    80 |      1415 |   5.65 |
+| [`ig`](https://instagram.com/p/C6b4XCOPD2n/)       | 2024-05-01 |   254 |    80 |      1415 |   5.65 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1515) | 2024-05-01 |   157 |    20 |       911 |    2.2 |
-| [`tg`](https://t.me/mwscr/395)                     | 2024-05-01 |   152 |    46 |       363 |  12.67 |
-|                                                    |            |   721 |   254 |      2689 |    8.5 |
+| [`tg`](https://t.me/mwscr/395)                     | 2024-05-01 |   153 |    47 |       363 |  12.95 |
+|                                                    |            |   724 |   255 |      2689 |   8.56 |
 
 #### Comments
 
@@ -114,10 +137,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1513) | 2024-04-29 |   187 |    31 |       912 |    3.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1513) | 2024-04-29 |   196 |    31 |       912 |    3.4 |
 | [`tg`](https://t.me/mwscr/393)                     | 2024-04-29 |   179 |    49 |       354 |  13.84 |
 | [`ig`](https://instagram.com/p/C6YQR93NFJz/)       | 2024-04-30 |   263 |    72 |      1415 |   5.09 |
-|                                                    |            |   629 |   152 |      2681 |   7.44 |
+|                                                    |            |   638 |   152 |      2681 |   7.44 |
 
 #### Comments
 
@@ -145,10 +168,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOUENe2lalh/)       | 2016-12-22 |       |    21 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_39)   | 2017-01-22 |    76 |       |         4 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1512) | 2024-04-28 |   259 |    38 |       911 |   4.17 |
-| [`tg`](https://t.me/mwscr/392)                     | 2024-04-28 |   214 |    58 |       354 |  16.38 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1512) | 2024-04-28 |   273 |    38 |       911 |   4.17 |
+| [`tg`](https://t.me/mwscr/392)                     | 2024-04-28 |   235 |    60 |       354 |  16.95 |
 | [`ig`](https://instagram.com/p/C6YMB6DxXL3/)       | 2024-04-30 |   217 |    64 |      1415 |   4.52 |
-|                                                    |            |   766 |   181 |      2680 |   8.36 |
+|                                                    |            |   801 |   183 |      2680 |   8.55 |
 
 ## <span id="2024-04-27.sunset-over-the-lava-river">Sunset Over the Lava River</span>
 
@@ -173,9 +196,9 @@
 | [`ig`](https://instagram.com/p/BiU0CctlY3V/)       | 2018-05-03 |       |    96 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_707)  | 2018-05-03 |   249 |    12 |       156 |   7.69 |
 | [`ig`](https://instagram.com/p/C6Rk8QfhzGU/)       | 2024-04-27 |   300 |    74 |      1415 |   5.23 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1511) | 2024-04-27 |   193 |    24 |       911 |   2.63 |
-| [`tg`](https://t.me/mwscr/391)                     | 2024-04-27 |   221 |    49 |       354 |  13.84 |
-|                                                    |            |   963 |   255 |      2680 |   7.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1511) | 2024-04-27 |   201 |    25 |       911 |   2.74 |
+| [`tg`](https://t.me/mwscr/391)                     | 2024-04-27 |   237 |    51 |       354 |  14.41 |
+|                                                    |            |   987 |   258 |      2680 |   7.52 |
 
 #### Comments
 
@@ -655,10 +678,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BPcBYf9lwjH/)       | 2017-01-19 |       |    34 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_67)   | 2017-01-19 |   138 |     5 |         4 |      5 |
-| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   393 |   104 |      1413 |   7.36 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |   240 |    35 |       911 |   3.84 |
-| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |   337 |    67 |       352 |  19.03 |
-|                                                    |            |  1108 |   245 |      2676 |   8.81 |
+| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   396 |   104 |      1413 |   7.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |   245 |    35 |       911 |   3.84 |
+| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |   376 |    67 |       352 |  19.03 |
+|                                                    |            |  1155 |   245 |      2676 |   8.81 |
 
 #### Comments
 
