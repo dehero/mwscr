@@ -134,12 +134,19 @@ dehero.2024-03-24-11-41-57:
   type: shot
   author: dehero
 natty.2024-03-10-12-38-23:
-  content:
+  title: After the Dinner
+  titleRu: После застолья
+  content: store:/inbox/natty.2024-03-10-12-38-23.1.png
+  trash:
     - store:/inbox/natty.2024-03-10-12-38-23.png
-    - store:/inbox/natty.2024-03-10-12-38-23.1.png
     - store:/inbox/natty.2024-03-10-12-38-09.png
   type: shot
   author: natty
+  engine: OpenMW
+  tags:
+    - table
+    - bottles
+  mark: B2
 natty.2024-03-10-12-40-06:
   content:
     - store:/inbox/natty.2024-03-10-12-40-06.png
