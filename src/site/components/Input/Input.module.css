@@ -10,6 +10,11 @@
   white-space: nowrap;
 }
 
+.vertical {
+  flex-flow: column nowrap;
+  align-items: normal;
+}
+
 .input {
   appearance: none;
   background: none;
@@ -21,6 +26,7 @@
   padding: 1px 2px;
   min-height: 20px;
   box-sizing: border-box;
+  width: 100%;
 }
 
 input::selection {

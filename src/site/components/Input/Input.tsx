@@ -1,6 +1,6 @@
 import { debounce } from '@solid-primitives/scheduled';
 import clsx from 'clsx';
-import { type Component, createSignal, Show } from 'solid-js';
+import { type Component, createEffect, createSignal, Show } from 'solid-js';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Input.module.css';
 
@@ -8,6 +8,7 @@ interface InputProps {
   class?: string;
   name?: string;
   label?: string;
+  vertical?: boolean;
   onChange?: (value: string) => void;
   onDebouncedChange?: (value: string) => void;
   value?: string;
@@ -26,8 +27,10 @@ export const Input: Component<InputProps> = (props) => {
     }
   };
 
+  createEffect(() => setLocalValue(props.value || ''));
+
   return (
-    <label class={clsx(styles.container, props.class)}>
+    <label class={clsx(styles.container, props.vertical && styles.vertical, props.class)}>
       <Show when={props.label}>
         <span class={styles.label}>{props.label}</span>
       </Show>
@@ -36,7 +39,7 @@ export const Input: Component<InputProps> = (props) => {
           class={styles.input}
           name={props.name}
           onInput={(e) => handleInput(e.target.value)}
-          value={localValue() || ''}
+          value={localValue()}
         />
       </Frame>
     </label>
