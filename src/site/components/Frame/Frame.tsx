@@ -10,6 +10,8 @@ interface FrameProps extends JSX.CustomAttributes<HTMLElement>, JSX.DOMAttribute
   component?: keyof JSX.IntrinsicElements;
   style?: JSX.CSSProperties | string;
   tabIndex?: number;
+  href?: string;
+  src?: string;
 }
 
 export const Frame: Component<FrameProps> = (props) => {
