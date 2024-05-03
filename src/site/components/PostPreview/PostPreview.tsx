@@ -4,6 +4,7 @@ import { getPostRating, type Post } from '../../../core/entities/post.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { Frame } from '../Frame/Frame.jsx';
 import { PostTooltip } from '../PostTooltip/PostTooltip.js';
+import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import styles from './PostPreview.module.css';
 
 function getPreviewUrl(url: string | undefined) {
@@ -29,13 +30,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
     <Frame variant="thick" class={clsx(styles.postPreview, props.class)} ref={setRef}>
       <Show when={urls().length > 1} fallback={<ImagePreview url={urls().at(0)} />}>
         <div class={clsx(styles[props.post.type], styles.setContainer)}>
-          <For each={urls()}>
-            {(previewUrl) => (
-              <Frame variant="thin" class={styles.setItem}>
-                <ImagePreview url={previewUrl} />
-              </Frame>
-            )}
-          </For>
+          <For each={urls()}>{(previewUrl) => <ResourcePreview url={previewUrl} class={styles.setItem} />}</For>
         </div>
       </Show>
       <div class={styles.infoWrapper}>
