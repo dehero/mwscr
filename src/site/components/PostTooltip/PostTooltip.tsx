@@ -1,5 +1,11 @@
 import { type Component, Show, splitProps } from 'solid-js';
-import type { Post } from '../../../core/entities/post.js';
+import {
+  getPostCommentCount,
+  getPostRating,
+  getPostTotalLikes,
+  getPostTotalViews,
+  type Post,
+} from '../../../core/entities/post.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { getUserName } from '../../data-managers/users.js';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
@@ -12,6 +18,10 @@ interface PostTooltipProps extends Omit<TooltipProps, 'children'> {
 
 export const PostTooltip: Component<PostTooltipProps> = (props) => {
   const [local, rest] = splitProps(props, ['post']);
+  const likes = () => getPostTotalLikes(local.post);
+  const views = () => getPostTotalViews(local.post);
+  const rating = () => Number(getPostRating(local.post).toFixed(2));
+  const commentCount = () => getPostCommentCount(local.post);
 
   return (
     <Tooltip {...rest}>
@@ -36,17 +46,17 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       <Show when={local.post.tags?.length}>
         <span class={styles.tags}>Tags: {local.post.tags?.join(', ')}</span>
       </Show>
-      <Show when={local.post.likes}>
-        <span class={styles.likes}>Likes: {local.post.likes}</span>
+      <Show when={likes()}>
+        <span class={styles.likes}>Likes: {likes()}</span>
       </Show>
-      <Show when={local.post.views}>
-        <span class={styles.views}>Views: {local.post.views}</span>
+      <Show when={views()}>
+        <span class={styles.views}>Views: {views()}</span>
       </Show>
-      <Show when={local.post.rating}>
-        <span class={styles.rating}>Rating: {local.post.rating}</span>
+      <Show when={rating()}>
+        <span class={styles.rating}>Rating: {rating()}</span>
       </Show>
-      <Show when={local.post.commentCount}>
-        <span class={styles.commentCount}>Comments: {local.post.commentCount}</span>
+      <Show when={commentCount()}>
+        <span class={styles.commentCount}>Comments: {commentCount()}</span>
       </Show>
     </Tooltip>
   );
