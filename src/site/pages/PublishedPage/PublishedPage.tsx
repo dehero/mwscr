@@ -1,9 +1,7 @@
-import type { VirtualItemProps } from '@minht11/solid-virtual-container';
-import { VirtualContainer } from '@minht11/solid-virtual-container';
 import { type Component, createResource, createSignal, Show } from 'solid-js';
 import type { Location } from '../../../core/entities/location.js';
 import { isNestedLocation } from '../../../core/entities/location.js';
-import type { Post, PostEntries, PostEntry, PostType } from '../../../core/entities/post.js';
+import type { Post, PostEntries, PostType } from '../../../core/entities/post.js';
 import {
   comparePostEntriesById,
   comparePostEntriesByLikes,
@@ -16,12 +14,12 @@ import { asArray } from '../../../core/utils/common-utils.js';
 import { Divider } from '../../components/Divider/Divider.jsx';
 import { Input } from '../../components/Input/Input.jsx';
 import { Page } from '../../components/Page/Page.jsx';
-import { PostPreview } from '../../components/PostPreview/PostPreview.jsx';
+import { PostPreviews } from '../../components/PostPreviews/PostPreviews.jsx';
 import { RadioGroup } from '../../components/RadioGroup/RadioGroup.jsx';
 import { Select } from '../../components/Select/Select.jsx';
 import { published } from '../../data-managers/posts.js';
 import { getUserName } from '../../data-managers/users.js';
-import styles from './Posts.module.css';
+import styles from './PublishedPage.module.css';
 
 const comparators = [
   { value: 'id', label: 'ID', fn: comparePostEntriesById },
@@ -45,8 +43,6 @@ interface PostsFilter {
 const getPosts = async (filter: PostsFilter): Promise<PostEntries> => {
   const comparator =
     comparators.find((comparator) => comparator.value === filter.sortKey)?.fn ?? comparePostEntriesById;
-
-  console.log(published);
 
   return await getPostEntriesFromSource(
     () => published.getAllPosts(!filter.skipReferences),
@@ -109,28 +105,7 @@ const getUsers = async (): Promise<string[]> => {
   return [...result].sort((a, b) => a.localeCompare(b));
 };
 
-const ListItem: Component<VirtualItemProps<PostEntry<Post>>> = (props) => {
-  return (
-    <div style={props.style} class={styles.listItem} tabIndex={props.tabIndex} role="listitem">
-      <PostPreview post={props.item[1]} />
-    </div>
-  );
-};
-
-const calculateGridItemSize = (crossAxisSize: number) => {
-  const maxWidth = 336;
-
-  const count = Math.ceil(crossAxisSize / maxWidth);
-  const width = Math.floor(crossAxisSize / count);
-
-  return {
-    width,
-    height: width + 33,
-  };
-};
-
-export const Posts: Component = () => {
-  let targetVertical;
+export const PublishedPage: Component = () => {
   const [postType, setPostType] = createSignal<PostType | undefined>();
   const [postTag, setPostTag] = createSignal<string | undefined>();
   const [postLocation, setPostLocation] = createSignal<string | undefined>();
@@ -205,18 +180,7 @@ export const Posts: Component = () => {
         <Divider />
 
         <Show when={!posts.loading}>
-          <div ref={targetVertical} class={styles.scrollContainer}>
-            <VirtualContainer
-              items={posts() ?? []}
-              scrollTarget={targetVertical}
-              // Calculate how many grid columns to show.
-              crossAxisCount={(measurements) => Math.floor(measurements.container.cross / measurements.itemSize.cross)}
-              // overscan={10}
-              itemSize={calculateGridItemSize}
-            >
-              {ListItem}
-            </VirtualContainer>
-          </div>
+          <PostPreviews postEntries={posts() ?? []} managerName={published.name} />
         </Show>
       </>
     </Page>

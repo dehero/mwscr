@@ -1,13 +1,13 @@
 import { type Component } from 'solid-js';
-import Content from '../../../../CONTRIBUTING.md';
+import Content from '../../../../README.md';
 import { Page } from '../../components/Page/Page.jsx';
-import styles from './Contributing.module.css';
+import styles from './AboutPage.module.css';
 
-export const Contributing: Component = () => {
+export const AboutPage: Component = () => {
   return (
     <Page>
       <section class={styles.container}>
-        <Content class={styles.container} />
+        <Content />
       </section>
     </Page>
   );

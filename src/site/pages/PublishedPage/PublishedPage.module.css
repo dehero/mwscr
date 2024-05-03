@@ -1,0 +1,8 @@
+.filter {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 12px;
+  flex-shrink: 0;
+}
