@@ -1,0 +1,43 @@
+.comments {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 4px 8px;
+  gap: 12px;
+}
+
+.group {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 12px;
+}
+
+.comment {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2px;
+  padding-left: 8px;
+}
+
+.reply {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2px;
+  padding-left: 16px;
+}
+
+.title {
+  color: var(--color-text-light);
+  font-weight: normal;
+  font-size: inherit;
+  margin: 0;
+  line-height: 1.25;
+}
+
+.text {
+  margin: 0;
+}
+
+.fallback {
+  color: var(--color-text-light);
+  align-self: center;
+}
