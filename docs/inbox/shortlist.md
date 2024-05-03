@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`3 items`
+`4 items`
 
 ## <span id="dehero.2024-03-05-19-59-55">Lunch for Four</span>
 
@@ -27,6 +27,26 @@
 
 ```
 dehero.2024-03-05-19-59-55
+```
+
+## <span id="dehero.2020-11-05-20-57-47">Coastal Silt Strider</span>
+
+`RU` Прибрежный силт-страйдер
+
+![store:/inbox/dehero.2020-11-05-20-57-47.1.png](../../assets/previews/inbox/dehero.2020-11-05-20-57-47.1.avif "dehero.2020-11-05-20-57-47.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2020-11-05-20-57-47.png](../../assets/previews/inbox/dehero.2020-11-05-20-57-47.avif "dehero.2020-11-05-20-57-47")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2020-11-05-20-57-47&amp;postContent=store%3A%2Finbox%2Fdehero.2020-11-05-20-57-47.1.png&amp;postTitle=Coastal+Silt+Strider&amp;postTitleRu=%D0%9F%D1%80%D0%B8%D0%B1%D1%80%D0%B5%D0%B6%D0%BD%D1%8B%D0%B9+%D1%81%D0%B8%D0%BB%D1%82-%D1%81%D1%82%D1%80%D0%B0%D0%B9%D0%B4%D0%B5%D1%80&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=siltstrider&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2020-11-05-20-57-47.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2020-11-05-20-57-47) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2020-11-05-20-57-47) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2020-11-05-20-57-47)</code> `🚀 OpenMW` `siltstrider`
+
+```
+dehero.2020-11-05-20-57-47
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
