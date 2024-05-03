@@ -23,7 +23,7 @@ export async function resolve(issue: GithubIssue) {
     for (const withId of withIds) {
       const [withPost, withManager] = await getPost(withId, [inbox, trash]);
       if (manager !== withManager) {
-        throw new Error(`Cannot merge ${manager.title} and ${withManager.title} posts.`);
+        throw new Error(`Cannot merge ${manager.name} and ${withManager.name} posts.`);
       } else {
         mergePostWith(post, withPost);
         await withManager.removePost(withId);

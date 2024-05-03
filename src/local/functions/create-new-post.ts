@@ -68,7 +68,7 @@ export async function selectPostFromScenario(
   }
 
   for (const postManager of postManagers) {
-    console.info(`Running scenario "${title}" on ${postManager.title} posts...`);
+    console.info(`Running scenario "${title}" on ${postManager.name} posts...`);
 
     const postEntries = await getPostEntriesFromSource(postManager.getAllPosts, undefined, isPublishablePost);
     const candidates: PostEntry<PublishablePost>[] = [];

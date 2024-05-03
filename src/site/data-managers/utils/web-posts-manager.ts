@@ -5,20 +5,20 @@ import { PostsManager, type PostsManagerChunk } from '../../../core/entities/pos
 type ChunkLoader = () => Promise<unknown>;
 
 export interface WebPostsManagerProps {
-  title: string;
+  name: string;
   chunksLoaders: Record<string, ChunkLoader>;
   getPostChunkName: (id: string) => string;
 }
 
 export class WebPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
-  readonly title: string;
+  readonly name: string;
   readonly chunksLoaders: Record<string, ChunkLoader>;
   readonly getPostChunkName: (id: string) => string;
   private chunks: Map<string, PostsManagerChunk<TPost>> = new Map();
 
-  constructor({ title, chunksLoaders, getPostChunkName }: WebPostsManagerProps) {
+  constructor({ name, chunksLoaders, getPostChunkName }: WebPostsManagerProps) {
     super();
-    this.title = title;
+    this.name = name;
     this.chunksLoaders = chunksLoaders;
     this.getPostChunkName = getPostChunkName;
 
