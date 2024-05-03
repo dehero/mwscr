@@ -27,7 +27,7 @@
 natty.2024-03-10-12-38-23
 ```
 
-## <span id="dehero.2024-03-05-19-59-55">Lunch for Four</span>
+## <span id="dehero.2024-03-05-19-59-55">Dinner for Four</span>
 
 `RU` Обед на четверых
 
@@ -44,7 +44,7 @@ natty.2024-03-10-12-38-23
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-05-19-59-55&amp;postContent=store%3A%2Finbox%2Fdehero.2024-03-05-20-00-57.1.png&amp;postTitle=Lunch+for+Four&amp;postTitleRu=%D0%9E%D0%B1%D0%B5%D0%B4+%D0%BD%D0%B0+%D1%87%D0%B5%D1%82%D0%B2%D0%B5%D1%80%D1%8B%D1%85&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=table&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-03-05-20-01-36.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-19-59-55.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-20-00-29.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-20-00-57.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-05-19-59-55) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-05-19-59-55) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-03-05-19-59-55)</code> `🚀 OpenMW` `table`
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-05-19-59-55&amp;postContent=store%3A%2Finbox%2Fdehero.2024-03-05-20-00-57.1.png&amp;postTitle=Dinner+for+Four&amp;postTitleRu=%D0%9E%D0%B1%D0%B5%D0%B4+%D0%BD%D0%B0+%D1%87%D0%B5%D1%82%D0%B2%D0%B5%D1%80%D1%8B%D1%85&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=table&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-03-05-20-01-36.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-19-59-55.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-20-00-29.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-20-00-57.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-05-19-59-55) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-05-19-59-55) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-03-05-19-59-55)</code> `🚀 OpenMW` `table`
 
 ```
 dehero.2024-03-05-19-59-55
