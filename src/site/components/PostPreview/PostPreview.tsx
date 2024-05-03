@@ -14,6 +14,7 @@ function getPreviewUrl(url: string | undefined) {
 interface PostPreviewProps {
   class?: string;
   post: Post;
+  url?: string;
 }
 
 const ImagePreview: Component<{ url: string | undefined }> = (props) => {
@@ -27,7 +28,13 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
   const [ref, setRef] = createSignal<HTMLElement>();
 
   return (
-    <Frame variant="thick" class={clsx(styles.postPreview, props.class)} ref={setRef}>
+    <Frame
+      variant="thick"
+      component={props.url ? 'a' : 'div'}
+      class={clsx(styles.postPreview, props.class)}
+      ref={setRef}
+      href={props.url}
+    >
       <Show when={urls().length > 1} fallback={<ImagePreview url={urls().at(0)} />}>
         <div class={clsx(styles[props.post.type], styles.setContainer)}>
           <For each={urls()}>{(previewUrl) => <ResourcePreview url={previewUrl} class={styles.setItem} />}</For>
