@@ -4,7 +4,27 @@
 
 # Shortlist
 
-`7 items`
+`8 items`
+
+## <span id="natty.2024-03-10-18-18-42">Both Gro-Durug</span>
+
+`RU` Бот гро-Дуруг
+
+![store:/inbox/natty.2024-03-10-18-18-42.1.png](../../assets/previews/inbox/natty.2024-03-10-18-18-42.1.avif "natty.2024-03-10-18-18-42.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/natty.2024-03-10-18-18-42.png](../../assets/previews/inbox/natty.2024-03-10-18-18-42.avif "natty.2024-03-10-18-18-42")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-18-18-42&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-18-18-42.1.png&amp;postTitle=Both+Gro-Durug&amp;postTitleRu=%D0%91%D0%BE%D1%82+%D0%B3%D1%80%D0%BE-%D0%94%D1%83%D1%80%D1%83%D0%B3&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=orc&amp;postLocation=Sadrith+Mora%2C+Dirty+Muriel%27s+Cornerclub&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-03-10-18-18-42.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-18-18-42) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-18-18-42) `B1` `📍 Sadrith Mora, Dirty Muriel's Cornerclub` `🚀 OpenMW` `orc`
+
+```
+natty.2024-03-10-18-18-42
+```
 
 ## <span id="natty.2024-03-10-12-38-23">After the Repast</span>
 
