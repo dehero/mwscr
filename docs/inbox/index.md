@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`58 items`
+`57 items`
 
 ## <span id="natty.2024-03-28-22-20-02">natty.2024-03-28-22-20-02</span>
 
@@ -698,30 +698,6 @@ dehero.2024-03-05-20-03-29
 
 ```
 dehero.2024-03-05-20-02-12
-```
-
-## <span id="dehero.2024-03-05-19-59-55">dehero.2024-03-05-19-59-55</span>
-
-![store:/inbox/dehero.2024-03-05-19-59-55.png](../../assets/previews/inbox/dehero.2024-03-05-19-59-55.avif "dehero.2024-03-05-19-59-55")
-![store:/inbox/dehero.2024-03-05-20-00-29.png](../../assets/previews/inbox/dehero.2024-03-05-20-00-29.avif "dehero.2024-03-05-20-00-29")
-![store:/inbox/dehero.2024-03-05-20-00-57.png](../../assets/previews/inbox/dehero.2024-03-05-20-00-57.avif "dehero.2024-03-05-20-00-57")
-![store:/inbox/dehero.2024-03-05-20-00-57.1.png](../../assets/previews/inbox/dehero.2024-03-05-20-00-57.1.avif "dehero.2024-03-05-20-00-57.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2024-03-05-20-01-36.png](../../assets/previews/inbox/dehero.2024-03-05-20-01-36.avif "dehero.2024-03-05-20-01-36")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-> [!WARNING]
-> Need english title, need russian title, need mark, detected post type "shot-set", got "shot".
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-05-19-59-55&amp;postContent=store%3A%2Finbox%2Fdehero.2024-03-05-19-59-55.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-20-00-29.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-20-00-57.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-20-00-57.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-03-05-20-01-36.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-05-19-59-55) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-05-19-59-55) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-03-05-19-59-55)</code>
-
-```
-dehero.2024-03-05-19-59-55
 ```
 
 ## <span id="dehero.2024-03-05-19-58-42">dehero.2024-03-05-19-58-42</span>

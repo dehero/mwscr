@@ -95,14 +95,20 @@ dehero.2024-03-05-19-58-42:
   type: shot
   author: dehero
 dehero.2024-03-05-19-59-55:
-  content:
+  title: Lunch for Four
+  titleRu: Обед на четверых
+  content: store:/inbox/dehero.2024-03-05-20-00-57.1.png
+  trash:
+    - store:/inbox/dehero.2024-03-05-20-01-36.png
     - store:/inbox/dehero.2024-03-05-19-59-55.png
     - store:/inbox/dehero.2024-03-05-20-00-29.png
     - store:/inbox/dehero.2024-03-05-20-00-57.png
-    - store:/inbox/dehero.2024-03-05-20-00-57.1.png
-  trash: store:/inbox/dehero.2024-03-05-20-01-36.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - table
+  mark: B1
 dehero.2024-03-05-20-02-12:
   location: Buckmoth Legion Fort, Interior
   content: store:/inbox/dehero.2024-03-05-20-02-12.png
