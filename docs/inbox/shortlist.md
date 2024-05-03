@@ -6,9 +6,9 @@
 
 `7 items`
 
-## <span id="natty.2024-03-10-12-38-23">After the Dinner</span>
+## <span id="natty.2024-03-10-12-38-23">After the Repast</span>
 
-`RU` После застолья
+`RU` После трапезы
 
 ![store:/inbox/natty.2024-03-10-12-38-23.1.png](../../assets/previews/inbox/natty.2024-03-10-12-38-23.1.avif "natty.2024-03-10-12-38-23.1")
 
@@ -21,7 +21,7 @@
 
 `shot` by [Natty](../contributors.md#natty)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-12-38-23&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-12-38-23.1.png&amp;postTitle=After+the+Dinner&amp;postTitleRu=%D0%9F%D0%BE%D1%81%D0%BB%D0%B5+%D0%B7%D0%B0%D1%81%D1%82%D0%BE%D0%BB%D1%8C%D1%8F&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=table+bottles&amp;postLocation=Pelagiad%2C+Halfway+Tavern&amp;postMark=B2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-03-10-12-38-23.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-12-38-09.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-12-38-23) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-12-38-23) `B2` `📍 Pelagiad, Halfway Tavern` `🚀 OpenMW` `table` `bottles`
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-12-38-23&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-12-38-23.1.png&amp;postTitle=After+the+Repast&amp;postTitleRu=%D0%9F%D0%BE%D1%81%D0%BB%D0%B5+%D1%82%D1%80%D0%B0%D0%BF%D0%B5%D0%B7%D1%8B&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=table+bottles&amp;postLocation=Pelagiad%2C+Halfway+Tavern&amp;postMark=B2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-03-10-12-38-23.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-12-38-09.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-12-38-23) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-12-38-23) `B2` `📍 Pelagiad, Halfway Tavern` `🚀 OpenMW` `table` `bottles`
 
 ```
 natty.2024-03-10-12-38-23
