@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`2 items`
+`3 items`
 
 ## <span id="dehero.2024-03-05-19-59-55">Lunch for Four</span>
 
@@ -52,6 +52,26 @@ dehero.2024-03-05-19-59-55
 
 ```
 dehero.2020-05-19-night-guards
+```
+
+## <span id="darkness-rifho.2023-07-27-19-15-35-place-to-sleep">Place to Sleep</span>
+
+`RU` Место для сна
+
+![store:/inbox/darkness-rifho.2023-07-27-19-15-35-place-to-sleep.1.png](../../assets/previews/inbox/darkness-rifho.2023-07-27-19-15-35-place-to-sleep.1.avif "darkness-rifho.2023-07-27-19-15-35-place-to-sleep.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/darkness-rifho.2023-07-27-19-15-35-place-to-sleep.png](../../assets/previews/inbox/darkness-rifho.2023-07-27-19-15-35-place-to-sleep.avif "darkness-rifho.2023-07-27-19-15-35-place-to-sleep")
+</details>
+
+`shot` by [Darkness Rifho](../contributors.md#darkness-rifho)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=darkness-rifho.2023-07-27-19-15-35-place-to-sleep&amp;postContent=store%3A%2Finbox%2Fdarkness-rifho.2023-07-27-19-15-35-place-to-sleep.1.png&amp;postTitle=Place+to+Sleep&amp;postTitleRu=%D0%9C%D0%B5%D1%81%D1%82%D0%BE+%D0%B4%D0%BB%D1%8F+%D1%81%D0%BD%D0%B0&amp;postAuthor=darkness-rifho&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=bed&amp;postLocation=&amp;postMark=B2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdarkness-rifho.2023-07-27-19-15-35-place-to-sleep.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=darkness-rifho.2023-07-27-19-15-35-place-to-sleep) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=darkness-rifho.2023-07-27-19-15-35-place-to-sleep) `B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=darkness-rifho.2023-07-27-19-15-35-place-to-sleep)</code> `bed`
+
+```
+darkness-rifho.2023-07-27-19-15-35-place-to-sleep
 ```
 
 ---
