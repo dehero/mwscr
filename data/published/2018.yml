@@ -3351,18 +3351,18 @@
     - service: vk
       id: 1511
       published: 2024-04-27-18-16-27
-      updated: 2024-05-03-18-17-44
+      updated: 2024-05-04-19-12-18
       followers: 911
       likes: 25
-      views: 201
+      views: 204
       reposts: 1
     - service: tg
       id: 391
       published: 2024-04-27-18-16-36
-      updated: 2024-05-03-18-17-43
+      updated: 2024-05-04-19-12-17
       followers: 354
-      likes: 51
-      views: 237
+      likes: 53
+      views: 269
 2018-05-04.table-for-two:
   title: Table for Two
   titleRu: Столик на двоих

@@ -1360,17 +1360,17 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
-      updated: 2024-05-03-18-17-43
+      updated: 2024-05-04-19-12-17
       followers: 912
-      likes: 31
-      views: 196
+      likes: 32
+      views: 201
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2024-05-03-19-11-27
+      updated: 2024-05-04-19-12-17
       followers: 354
-      likes: 54
-      views: 210
+      likes: 56
+      views: 225
       comments: !c |-
         CxyAkZPLQnjzCJAGAACpcmVzaXN0X2l02SJXaGVyZSBkbyB0aGV5IGxlYWQsIGFjdHVhbGx5PyDw
         n6SUAw==
@@ -1400,25 +1400,25 @@
       id: C6hB52RP4_D
       mediaId: '17887814211020614'
       published: 2024-05-03-18-18-00
-      updated: 2024-05-04-18-16-56
+      updated: 2024-05-04-19-12-15
       followers: 1415
       likes: 90
-      views: 268
+      views: 270
       comments: !c CxeAkZPLQnjz+xuTgACrc2lyX3dhY2xvdmW3SSBjYW4gaGVhciB0aGlzIHBpY3R1cmUD
     - service: vk
       id: 1517
       published: 2024-05-03-18-18-06
-      updated: 2024-05-04-18-16-56
+      updated: 2024-05-04-19-12-15
       followers: 912
       likes: 26
-      views: 156
+      views: 157
     - service: tg
       id: 397
       published: 2024-05-03-18-18-12
-      updated: 2024-05-04-18-16-57
+      updated: 2024-05-04-19-12-15
       followers: 366
-      likes: 48
-      views: 125
+      likes: 49
+      views: 137
       comments: !c ixOAkZPLQnj0A30VgACrYm9icm92bmlrb3awSyBQIEEgQyBVIEIg0YvQuQM=
 2024-05-04.ahnassi:
   title: Ahnassi
@@ -1436,12 +1436,21 @@
       id: C6jmnFHNynU
       mediaId: '17992169282469021'
       published: 2024-05-04-18-17-12
+      updated: 2024-05-04-19-12-14
       followers: 1417
+      likes: 16
+      views: 37
     - service: vk
       id: 1518
       published: 2024-05-04-18-17-19
+      updated: 2024-05-04-19-12-14
       followers: 912
+      likes: 5
+      views: 30
     - service: tg
       id: 398
       published: 2024-05-04-18-17-25
+      updated: 2024-05-04-19-12-15
       followers: 367
+      likes: 17
+      views: 57
