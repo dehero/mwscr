@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { type Component, For, Show } from 'solid-js';
 import type { Post } from '../../../core/entities/post.js';
-import { getAllPostComments } from '../../../core/entities/post.js';
+import { getAllPostCommentsSorted } from '../../../core/entities/post.js';
 import { groupBy } from '../../../core/utils/common-utils.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
@@ -14,7 +14,7 @@ export interface PostCommentsProps {
 
 export const PostComments: Component<PostCommentsProps> = (props) => {
   const commentGroups = () => [
-    ...groupBy(getAllPostComments(props.post), (comment) => comment.datetime.toDateString()).entries(),
+    ...groupBy(getAllPostCommentsSorted(props.post), (comment) => comment.datetime.toDateString()).entries(),
   ];
 
   return (
