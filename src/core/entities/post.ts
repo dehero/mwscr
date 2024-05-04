@@ -128,11 +128,16 @@ export function getPostRating(post: Post) {
   return ratings.reduce((acc, number) => acc + number, 0) / ratings.length;
 }
 
-export function getAllPostComments(post: Post): PostComment[] {
+export function getAllPostCommentsSorted(post: Post): PostComment[] {
   return (
     post.posts
       ?.flatMap(
-        (servicePost) => servicePost.comments?.map((comment) => ({ ...comment, service: servicePost.service })) ?? [],
+        (servicePost) =>
+          servicePost.comments?.map((comment) => ({
+            ...comment,
+            service: servicePost.service,
+            replies: [...(comment.replies ?? [])].sort((a, b) => a.datetime.getTime() - b.datetime.getTime()),
+          })) ?? [],
       )
       .sort((a, b) => a.datetime.getTime() - b.datetime.getTime()) ?? []
   );

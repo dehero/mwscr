@@ -11,7 +11,7 @@ import type {
   PostSource,
 } from '../../core/entities/post.js';
 import {
-  getAllPostComments,
+  getAllPostCommentsSorted,
   getPostEntriesFromSource,
   getPostMaxFollowers,
   getPostRating,
@@ -135,7 +135,7 @@ function renderPostReactions(post: Post) {
     lines.push('');
   }
 
-  const comments = getAllPostComments(post);
+  const comments = getAllPostCommentsSorted(post);
 
   if (comments.length > 0) {
     lines.push('#### Comments');
