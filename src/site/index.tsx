@@ -12,4 +12,8 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   );
 }
 
-render(() => <Router children={routes} />, root!);
+const cleanup = render(() => <Router children={routes} />, root!);
+
+if (import.meta.hot) {
+  import.meta.hot.dispose(cleanup);
+}
