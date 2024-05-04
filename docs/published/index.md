@@ -4,7 +4,30 @@
 
 # Published in 2024
 
-`67 items`
+`68 items`
+
+## <span id="2024-05-04.ahnassi">Ahnassi</span>
+
+`RU` Анасси
+
+<a href="https://instagram.com/p/C6jmnFHNynU/" title="2024-05-04.ahnassi"><img alt="store:/shots/2024-05-04.ahnassi.png" src="../../assets/previews/shots/2024-05-04.ahnassi.avif" /></a>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B2` `📍 Pelagiad, Halfway Tavern` `🚀 OpenMW` `khajiit`
+
+```
+2024-05-04.ahnassi
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C6jmnFHNynU/)       | 2024-05-04 |      1417 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1518) | 2024-05-04 |       912 |
+| [`tg`](https://t.me/mwscr/398)                     | 2024-05-04 |       367 |
+|                                                    |            |      2696 |
 
 ## <span id="2024-05-03.coastal-silt-strider">Coastal Silt Strider</span>
 
@@ -24,10 +47,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6hB52RP4_D/)       | 2024-05-03 |   266 |    90 |      1415 |   6.36 |
+| [`ig`](https://instagram.com/p/C6hB52RP4_D/)       | 2024-05-03 |   268 |    90 |      1415 |   6.36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1517) | 2024-05-03 |   156 |    26 |       912 |   2.85 |
 | [`tg`](https://t.me/mwscr/397)                     | 2024-05-03 |   125 |    48 |       366 |  13.11 |
-|                                                    |            |   547 |   164 |      2693 |   7.44 |
+|                                                    |            |   549 |   164 |      2693 |   7.44 |
 
 #### Comments
 
@@ -56,10 +79,10 @@
 |------------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/1572346381783154677/) | 2017-08-02 |       |    46 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_374)    | 2017-08-02 |   119 |     4 |        72 |      4 |
-| [`ig`](https://instagram.com/p/C6edctIvKh2/)         | 2024-05-02 |   195 |    49 |      1415 |   3.46 |
+| [`ig`](https://instagram.com/p/C6edctIvKh2/)         | 2024-05-02 |   196 |    49 |      1415 |   3.46 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1516)   | 2024-05-02 |   149 |    23 |       912 |   2.52 |
 | [`tg`](https://t.me/mwscr/396)                       | 2024-05-02 |   152 |    44 |       364 |  12.09 |
-|                                                      |            |   615 |   166 |      2691 |   5.52 |
+|                                                      |            |   616 |   166 |      2691 |   5.52 |
 
 #### Comments
 

@@ -1400,23 +1400,48 @@
       id: C6hB52RP4_D
       mediaId: '17887814211020614'
       published: 2024-05-03-18-18-00
-      updated: 2024-05-04-17-11-50
+      updated: 2024-05-04-18-16-56
       followers: 1415
       likes: 90
-      views: 266
+      views: 268
       comments: !c CxeAkZPLQnjz+xuTgACrc2lyX3dhY2xvdmW3SSBjYW4gaGVhciB0aGlzIHBpY3R1cmUD
     - service: vk
       id: 1517
       published: 2024-05-03-18-18-06
-      updated: 2024-05-04-17-11-50
+      updated: 2024-05-04-18-16-56
       followers: 912
       likes: 26
       views: 156
     - service: tg
       id: 397
       published: 2024-05-03-18-18-12
-      updated: 2024-05-04-17-11-50
+      updated: 2024-05-04-18-16-57
       followers: 366
       likes: 48
       views: 125
       comments: !c ixOAkZPLQnj0A30VgACrYm9icm92bmlrb3awSyBQIEEgQyBVIEIg0YvQuQM=
+2024-05-04.ahnassi:
+  title: Ahnassi
+  titleRu: Анасси
+  location: Pelagiad, Halfway Tavern
+  content: store:/shots/2024-05-04.ahnassi.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - khajiit
+  mark: B2
+  posts:
+    - service: ig
+      id: C6jmnFHNynU
+      mediaId: '17992169282469021'
+      published: 2024-05-04-18-17-12
+      followers: 1417
+    - service: vk
+      id: 1518
+      published: 2024-05-04-18-17-19
+      followers: 912
+    - service: tg
+      id: 398
+      published: 2024-05-04-18-17-25
+      followers: 367
