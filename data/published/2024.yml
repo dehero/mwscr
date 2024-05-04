@@ -879,18 +879,18 @@
     - service: vk
       id: 1484
       published: 2024-04-06-18-16-53
-      updated: 2024-04-27-21-12-01
+      updated: 2024-05-04-21-13-03
       followers: 909
       likes: 46
-      views: 280
+      views: 283
       reposts: 1
     - service: tg
       id: 370
       published: 2024-04-06-18-17-00
-      updated: 2024-04-27-21-12-01
+      updated: 2024-05-04-21-13-03
       followers: 354
       likes: 65
-      views: 349
+      views: 369
 2024-04-07.sheogorad: 2016-11-21.sheogorad
 2024-04-08.lava-fork:
   title: Lava Fork
@@ -1079,20 +1079,20 @@
     - service: vk
       id: 1492
       published: 2024-04-13-18-15-50
-      updated: 2024-04-27-21-12-00
+      updated: 2024-05-04-21-13-03
       followers: 911
       likes: 36
-      views: 248
+      views: 252
       comments: !c |-
         G3QA+J0JdoxkjGkJdSei2j3hAaWeYZN4JMme062E/uwMmTmZKKLr7nzFi13aDofWkwq6VZAEsaZF
         e6ZDUkvpQz40Red+6kcDzNvm0iSXqFaTf34NxMC0L7+j1w1ZUQydXcgkEMdj7F6omySALZMX
     - service: tg
       id: 377
       published: 2024-04-13-18-15-57
-      updated: 2024-04-27-21-12-00
+      updated: 2024-05-04-21-13-03
       followers: 351
       likes: 62
-      views: 328
+      views: 364
 2024-04-14.palace-of-vivec: 2017-04-30.palace-of-vivec
 2024-04-15.night-at-red-mountain:
   title: Night at Red Mountain
@@ -1211,18 +1211,18 @@
     - service: vk
       id: 1502
       published: 2024-04-20-18-17-56
-      updated: 2024-04-27-21-11-59
+      updated: 2024-05-04-21-13-02
       followers: 909
       likes: 28
-      views: 245
+      views: 259
       reposts: 2
     - service: tg
       id: 384
       published: 2024-04-20-18-18-05
-      updated: 2024-04-27-21-12-00
+      updated: 2024-05-04-21-13-02
       followers: 354
-      likes: 56
-      views: 251
+      likes: 58
+      views: 325
 2024-04-21.a-little-joy-for-hard-worker: 2018-03-02.a-little-joy-for-hard-worker
 2024-04-22.sunset-over-molag-amur:
   title: Sunset Over Molag Amur
@@ -1400,25 +1400,25 @@
       id: C6hB52RP4_D
       mediaId: '17887814211020614'
       published: 2024-05-03-18-18-00
-      updated: 2024-05-04-20-15-22
+      updated: 2024-05-04-21-13-00
       followers: 1415
       likes: 90
-      views: 273
+      views: 277
       comments: !c CxeAkZPLQnjz+xuTgACrc2lyX3dhY2xvdmW3SSBjYW4gaGVhciB0aGlzIHBpY3R1cmUD
     - service: vk
       id: 1517
       published: 2024-05-03-18-18-06
-      updated: 2024-05-04-20-15-22
+      updated: 2024-05-04-21-13-00
       followers: 912
       likes: 27
-      views: 160
+      views: 161
     - service: tg
       id: 397
       published: 2024-05-03-18-18-12
-      updated: 2024-05-04-20-15-22
+      updated: 2024-05-04-21-13-01
       followers: 366
-      likes: 49
-      views: 139
+      likes: 51
+      views: 144
       comments: !c ixOAkZPLQnj0A30VgACrYm9icm92bmlrb3awSyBQIEEgQyBVIEIg0YvQuQM=
 2024-05-04.ahnassi:
   title: Ahnassi
@@ -1436,21 +1436,21 @@
       id: C6jmnFHNynU
       mediaId: '17992169282469021'
       published: 2024-05-04-18-17-12
-      updated: 2024-05-04-20-15-21
+      updated: 2024-05-04-21-12-59
       followers: 1417
-      likes: 27
-      views: 75
+      likes: 31
+      views: 112
     - service: vk
       id: 1518
       published: 2024-05-04-18-17-19
-      updated: 2024-05-04-20-15-21
+      updated: 2024-05-04-21-12-59
       followers: 912
-      likes: 5
-      views: 43
+      likes: 6
+      views: 55
     - service: tg
       id: 398
       published: 2024-05-04-18-17-25
-      updated: 2024-05-04-20-15-22
+      updated: 2024-05-04-21-13-00
       followers: 367
-      likes: 19
-      views: 65
+      likes: 25
+      views: 75
