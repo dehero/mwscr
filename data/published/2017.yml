@@ -5757,10 +5757,10 @@
       id: C40350cPrJR
       mediaId: '18027992083816952'
       published: 2024-03-22-18-12-38
-      updated: 2024-04-27-01-00-21
+      updated: 2024-05-04-01-00-57
       followers: 1398
       likes: 155
-      views: 570
+      views: 571
       comments: !c |-
         G7UAIBwHuTn0ZqtDob3+/3P/CBd0QYfzCUQH4EAjtWzHP9BPpNz0BDF318kB+yugAFtBkCUpJRpQ
         UCcLSeYnUIzbvIfhRyeTbtDKiZ6vs4H4MSn4u6mBiAEDkrE9z64QRB3114jQaaq8woqGVWD/KdNJ
@@ -5768,10 +5768,10 @@
     - service: vk
       id: 1464
       published: 2024-03-22-18-12-46
-      updated: 2024-04-27-01-00-20
+      updated: 2024-05-04-01-00-57
       followers: 896
       likes: 34
-      views: 307
+      views: 308
       reposts: 1
     - service: tg
       id: 354
@@ -6236,24 +6236,24 @@
       id: C6edctIvKh2
       mediaId: '18036157327914687'
       published: 2024-05-02-18-20-57
-      updated: 2024-05-03-23-14-12
+      updated: 2024-05-04-01-00-56
       followers: 1415
-      likes: 46
-      views: 182
+      likes: 47
+      views: 184
     - service: vk
       id: 1516
       published: 2024-05-02-18-21-03
-      updated: 2024-05-03-23-14-12
+      updated: 2024-05-04-01-00-56
       followers: 912
       likes: 22
       views: 137
     - service: tg
       id: 396
       published: 2024-05-02-18-21-10
-      updated: 2024-05-03-23-14-13
+      updated: 2024-05-04-01-00-57
       followers: 364
       likes: 44
-      views: 135
+      views: 136
 2017-08-03.maelkashishi:
   title: Maelkashishi
   titleRu: Мелкашиши
