@@ -1,54 +1,68 @@
 import clsx from 'clsx';
 import { type Component, createSignal, For, Show } from 'solid-js';
-import { getPostRating, type Post } from '../../../core/entities/post.js';
+import { Dynamic } from 'solid-js/web';
+import type { Post, PostEntry } from '../../../core/entities/post.js';
+import { getPostRating } from '../../../core/entities/post.js';
 import { asArray } from '../../../core/utils/common-utils.js';
+import { Divider } from '../Divider/Divider.jsx';
 import { Frame } from '../Frame/Frame.jsx';
 import { PostTooltip } from '../PostTooltip/PostTooltip.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import styles from './PostPreview.module.css';
 
-function getPreviewUrl(url: string | undefined) {
-  return url?.replace(/^store:\/(.*)\..*/, '/previews/$1.avif');
-}
-
 interface PostPreviewProps {
   class?: string;
-  post: Post;
+  postEntry: PostEntry<Post>;
   url?: string;
 }
 
-const ImagePreview: Component<{ url: string | undefined }> = (props) => {
-  return <img src={getPreviewUrl(props.url)} class={styles.image} />;
-};
-
 export const PostPreview: Component<PostPreviewProps> = (props) => {
-  const urls = () => asArray(props.post.content);
-  const rating = () => getPostRating(props.post);
+  const title = () => props.postEntry[1].title || props.postEntry[0];
+  const rating = () => Number(getPostRating(props.postEntry[1]).toFixed(2));
+  const content = () => asArray(props.postEntry[1].content).slice(0, 4);
 
   const [ref, setRef] = createSignal<HTMLElement>();
 
   return (
-    <Frame
-      variant="thick"
+    <Dynamic
       component={props.url ? 'a' : 'div'}
-      class={clsx(styles.postPreview, props.class)}
+      class={clsx(styles.container, props.class)}
       ref={setRef}
       href={props.url}
     >
-      <Show when={urls().length > 1} fallback={<ImagePreview url={urls().at(0)} />}>
-        <div class={clsx(styles[props.post.type], styles.setContainer)}>
-          <For each={urls()}>{(previewUrl) => <ResourcePreview url={previewUrl} class={styles.setItem} />}</For>
-        </div>
+      <Show
+        when={content().length > 0}
+        fallback={
+          <Frame variant="thin" class={styles.fallback}>
+            <p>{props.postEntry[1].request?.text}</p>
+          </Frame>
+        }
+      >
+        <Show when={content().length > 2} fallback={<ResourcePreview url={content()[0] || ''} />}>
+          <div class={clsx(styles[props.postEntry[1].type], styles.setContainer)}>
+            <For each={content()}>{(url) => <ResourcePreview url={url} class={styles.setItem} />}</For>
+          </div>
+        </Show>
       </Show>
-      <div class={styles.infoWrapper}>
+      <Show when={title() || rating()}>
         <Frame variant="thin" class={styles.info}>
-          <div class={styles.title}>{props.post.title}</div>
-          <Show when={rating()}>
-            <span class={styles.rating}>{rating().toFixed(2)}</span>
+          <div class={styles.header}>
+            <Show when={title()}>
+              <div class={styles.title}>{title()}</div>
+            </Show>
+            <Show when={rating()}>
+              <span class={styles.rating}>{rating()}</span>
+            </Show>
+          </div>
+          <Show when={props.postEntry[1].description}>
+            <>
+              <Divider />
+              <div class={styles.description}>{props.postEntry[1].description}</div>
+            </>
           </Show>
         </Frame>
-      </div>
-      <PostTooltip forRef={ref()} post={props.post} />
-    </Frame>
+      </Show>
+      <PostTooltip forRef={ref()} postEntry={props.postEntry} />
+    </Dynamic>
   );
 };

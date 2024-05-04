@@ -39,7 +39,7 @@ export const PostPreviews: Component<PostPreviewsProps> = (props) => {
           <div style={itemProps.style} class={styles.listItem} tabIndex={itemProps.tabIndex} role="listitem">
             <PostPreview
               url={postRoute.createUrl({ managerName: props.managerName, id: itemProps.item[0] })}
-              post={itemProps.item[1]}
+              postEntry={itemProps.item}
             />
           </div>
         )}

@@ -19,7 +19,7 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
   return (
     <Switch
       fallback={
-        <Frame component="p" variant="thin" class={clsx(props.class)}>
+        <Frame variant="thin" class={clsx(styles.fallback, props.class)}>
           {props.url}
         </Frame>
       }

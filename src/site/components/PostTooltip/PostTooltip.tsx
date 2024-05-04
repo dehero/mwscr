@@ -1,10 +1,10 @@
 import { type Component, Show, splitProps } from 'solid-js';
+import type { Post, PostEntry } from '../../../core/entities/post.js';
 import {
   getPostCommentCount,
   getPostRating,
   getPostTotalLikes,
   getPostTotalViews,
-  type Post,
 } from '../../../core/entities/post.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { getUserName } from '../../data-managers/users.js';
@@ -13,38 +13,40 @@ import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './PostTooltip.module.css';
 
 interface PostTooltipProps extends Omit<TooltipProps, 'children'> {
-  post: Post;
+  postEntry: PostEntry<Post>;
 }
 
 export const PostTooltip: Component<PostTooltipProps> = (props) => {
-  const [local, rest] = splitProps(props, ['post']);
-  const likes = () => getPostTotalLikes(local.post);
-  const views = () => getPostTotalViews(local.post);
-  const rating = () => Number(getPostRating(local.post).toFixed(2));
-  const commentCount = () => getPostCommentCount(local.post);
+  const [local, rest] = splitProps(props, ['postEntry']);
+  const likes = () => getPostTotalLikes(local.postEntry[1]);
+  const views = () => getPostTotalViews(local.postEntry[1]);
+  const rating = () => Number(getPostRating(local.postEntry[1]).toFixed(2));
+  const commentCount = () => getPostCommentCount(local.postEntry[1]);
 
   return (
     <Tooltip {...rest}>
-      <span class={styles.title}>{local.post.title}</span>
-      <span class={styles.titleRu}>{local.post.titleRu}</span>
+      <span class={styles.title}>{local.postEntry[1].title || local.postEntry[0]}</span>
+      <Show when={local.postEntry[1].titleRu}>
+        <span class={styles.titleRu}>{local.postEntry[1].titleRu}</span>
+      </Show>
       {/* <Divider class={styles.divider} /> */}
-      <Show when={local.post.type}>
-        <span class={styles.type}>Type: {local.post.type}</span>
+      <Show when={local.postEntry[1].type}>
+        <span class={styles.type}>Type: {local.postEntry[1].type}</span>
       </Show>
-      <Show when={local.post.author}>
-        <span class={styles.author}>Author: {asArray(local.post.author).map(getUserName).join(', ')}</span>
+      <Show when={local.postEntry[1].author}>
+        <span class={styles.author}>Author: {asArray(local.postEntry[1].author).map(getUserName).join(', ')}</span>
       </Show>
-      <Show when={local.post.location}>
-        <span class={styles.location}>Location: {local.post.location}</span>
+      <Show when={local.postEntry[1].location}>
+        <span class={styles.location}>Location: {local.postEntry[1].location}</span>
       </Show>
-      <Show when={local.post.engine}>
-        <span class={styles.engine}>Engine: {local.post.engine}</span>
+      <Show when={local.postEntry[1].engine}>
+        <span class={styles.engine}>Engine: {local.postEntry[1].engine}</span>
       </Show>
-      <Show when={local.post.addon}>
-        <span class={styles.addon}>Addon: {local.post.addon}</span>
+      <Show when={local.postEntry[1].addon}>
+        <span class={styles.addon}>Addon: {local.postEntry[1].addon}</span>
       </Show>
-      <Show when={local.post.tags?.length}>
-        <span class={styles.tags}>Tags: {local.post.tags?.join(', ')}</span>
+      <Show when={local.postEntry[1].tags?.length}>
+        <span class={styles.tags}>Tags: {local.postEntry[1].tags?.join(', ')}</span>
       </Show>
       <Show when={likes()}>
         <span class={styles.likes}>Likes: {likes()}</span>

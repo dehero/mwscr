@@ -3,3 +3,10 @@
   max-height: 100%;
   box-sizing: border-box;
 }
+
+.fallback {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 4px;
+}
