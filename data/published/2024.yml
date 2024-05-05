@@ -1360,17 +1360,17 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
-      updated: 2024-05-04-19-12-17
+      updated: 2024-05-05-19-12-35
       followers: 912
-      likes: 32
-      views: 201
+      likes: 34
+      views: 208
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2024-05-04-19-12-17
+      updated: 2024-05-05-19-12-36
       followers: 354
-      likes: 56
-      views: 225
+      likes: 57
+      views: 239
       comments: !c |-
         CxyAkZPLQnjzCJAGAACpcmVzaXN0X2l02SJXaGVyZSBkbyB0aGV5IGxlYWQsIGFjdHVhbGx5PyDw
         n6SUAw==
@@ -1436,25 +1436,25 @@
       id: C6jmnFHNynU
       mediaId: '17992169282469021'
       published: 2024-05-04-18-17-12
-      updated: 2024-05-05-18-16-41
+      updated: 2024-05-05-19-12-33
       followers: 1417
       likes: 55
-      views: 207
+      views: 208
       comments: !c CxKAkZPLQnj0ie9MAACqeW9zaGlfMjNpaa5TcGVjaWFsIGZyaWVuZAM=
     - service: vk
       id: 1518
       published: 2024-05-04-18-17-19
-      updated: 2024-05-05-18-16-41
+      updated: 2024-05-05-19-12-33
       followers: 912
       likes: 20
       views: 133
     - service: tg
       id: 398
       published: 2024-05-04-18-17-25
-      updated: 2024-05-05-18-16-41
+      updated: 2024-05-05-19-12-34
       followers: 367
-      likes: 42
-      views: 123
+      likes: 46
+      views: 138
 2024-05-05.dinner-for-four:
   title: Dinner for Four
   titleRu: Обед на четверых
@@ -1474,12 +1474,28 @@
       id: C6mLYNAPoIR
       mediaId: '17893921265939451'
       published: 2024-05-05-18-16-59
+      updated: 2024-05-05-19-12-32
       followers: 1416
+      likes: 17
+      views: 51
+      comments: !c |-
+        G3gA4MWnv/kJnz2Qzy2bFNAYU7DrPMuk6zzxPODigyupnV4xATxkLV0xkc31OB9j+6+3F+KuZZO3
+        8xebCP2GE7Y6kY8I5gnsH1CNu1ty22Fo47IIBTSG2J8yWwvgXrkPeU0=
     - service: vk
       id: 1519
       published: 2024-05-05-18-17-05
+      updated: 2024-05-05-19-12-32
       followers: 913
+      likes: 9
+      views: 38
+      comments: !c |-
+        G34AkIyUbsJ8hEqH5+GaR7jg6elCNKoxIrWCMN/H0wFPT1aqUCPrQv+MDeawAQfuCQ46gAU82EmD
+        JJUGJSw+Xzxtlf/O3a8qt2zVL6yqqmZkS1KAkyEPdTxgpSoDqUPdz4/re7EryiORTnqDJbeUZmJB
+        25KWiQ6DjLQhoUMTqUrjBGY=
     - service: tg
       id: 399
       published: 2024-05-05-18-17-11
+      updated: 2024-05-05-19-12-33
       followers: 370
+      likes: 24
+      views: 57
