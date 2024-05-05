@@ -127,18 +127,18 @@
     - service: vk
       id: 1433
       published: 2024-03-02-18-18-15
-      updated: 2024-04-28-05-13-51
+      updated: 2024-05-05-06-18-57
       followers: 895
       likes: 32
-      views: 276
+      views: 278
       comments: !c CxWAkZPLQnjgl4lCgACpaWQ0OTM2NTEztdC+0YHRgtGA0L7Rg9C80L3QvuKdpAM=
     - service: tg
       id: 333
       published: 2024-03-02-18-18-22
-      updated: 2024-04-28-05-13-51
+      updated: 2024-05-05-06-18-57
       followers: 340
       likes: 68
-      views: 494
+      views: 503
 2024-03-03.exit: 2018-02-28.exit
 2024-03-04.an-old-sprout:
   title: An Old Sprout
@@ -1400,7 +1400,7 @@
       id: C6hB52RP4_D
       mediaId: '17887814211020614'
       published: 2024-05-03-18-18-00
-      updated: 2024-05-05-05-13-09
+      updated: 2024-05-05-06-18-56
       followers: 1415
       likes: 91
       views: 288
@@ -1408,17 +1408,17 @@
     - service: vk
       id: 1517
       published: 2024-05-03-18-18-06
-      updated: 2024-05-05-05-13-09
+      updated: 2024-05-05-06-18-56
       followers: 912
       likes: 27
-      views: 171
+      views: 173
     - service: tg
       id: 397
       published: 2024-05-03-18-18-12
-      updated: 2024-05-05-05-13-10
+      updated: 2024-05-05-06-18-57
       followers: 366
       likes: 52
-      views: 148
+      views: 149
       comments: !c ixOAkZPLQnj0A30VgACrYm9icm92bmlrb3awSyBQIEEgQyBVIEIg0YvQuQM=
 2024-05-04.ahnassi:
   title: Ahnassi
@@ -1436,21 +1436,21 @@
       id: C6jmnFHNynU
       mediaId: '17992169282469021'
       published: 2024-05-04-18-17-12
-      updated: 2024-05-05-05-13-08
+      updated: 2024-05-05-06-18-55
       followers: 1417
       likes: 46
-      views: 169
+      views: 172
     - service: vk
       id: 1518
       published: 2024-05-04-18-17-19
-      updated: 2024-05-05-05-13-09
+      updated: 2024-05-05-06-18-55
       followers: 912
-      likes: 11
-      views: 92
+      likes: 12
+      views: 97
     - service: tg
       id: 398
       published: 2024-05-04-18-17-25
-      updated: 2024-05-05-05-13-09
+      updated: 2024-05-05-06-18-56
       followers: 367
       likes: 33
-      views: 97
+      views: 98
