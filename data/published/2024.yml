@@ -1400,22 +1400,22 @@
       id: C6hB52RP4_D
       mediaId: '17887814211020614'
       published: 2024-05-03-18-18-00
-      updated: 2024-05-05-17-11-22
+      updated: 2024-05-05-18-16-42
       followers: 1415
-      likes: 91
-      views: 295
+      likes: 92
+      views: 297
       comments: !c CxeAkZPLQnjz+xuTgACrc2lyX3dhY2xvdmW3SSBjYW4gaGVhciB0aGlzIHBpY3R1cmUD
     - service: vk
       id: 1517
       published: 2024-05-03-18-18-06
-      updated: 2024-05-05-17-11-21
+      updated: 2024-05-05-18-16-42
       followers: 912
       likes: 29
       views: 183
     - service: tg
       id: 397
       published: 2024-05-03-18-18-12
-      updated: 2024-05-05-17-11-21
+      updated: 2024-05-05-18-16-41
       followers: 366
       likes: 53
       views: 158
@@ -1436,22 +1436,50 @@
       id: C6jmnFHNynU
       mediaId: '17992169282469021'
       published: 2024-05-04-18-17-12
-      updated: 2024-05-05-17-11-21
+      updated: 2024-05-05-18-16-41
       followers: 1417
-      likes: 54
-      views: 204
+      likes: 55
+      views: 207
       comments: !c CxKAkZPLQnj0ie9MAACqeW9zaGlfMjNpaa5TcGVjaWFsIGZyaWVuZAM=
     - service: vk
       id: 1518
       published: 2024-05-04-18-17-19
-      updated: 2024-05-05-17-11-20
+      updated: 2024-05-05-18-16-41
       followers: 912
       likes: 20
-      views: 131
+      views: 133
     - service: tg
       id: 398
       published: 2024-05-04-18-17-25
-      updated: 2024-05-05-17-11-21
+      updated: 2024-05-05-18-16-41
       followers: 367
       likes: 42
       views: 123
+2024-05-05.dinner-for-four:
+  title: Dinner for Four
+  titleRu: Обед на четверых
+  content: store:/shots/2024-05-05.dinner-for-four.png
+  trash:
+    - store:/trash/dehero.2024-03-05-20-01-36.png
+    - store:/trash/dehero.2024-03-05-19-59-55.png
+    - store:/trash/dehero.2024-03-05-20-00-29.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - table
+  mark: B1
+  posts:
+    - service: ig
+      id: C6mLYNAPoIR
+      mediaId: '17893921265939451'
+      published: 2024-05-05-18-16-59
+      followers: 1416
+    - service: vk
+      id: 1519
+      published: 2024-05-05-18-17-05
+      followers: 913
+    - service: tg
+      id: 399
+      published: 2024-05-05-18-17-11
+      followers: 370

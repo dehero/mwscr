@@ -4,7 +4,38 @@
 
 # Published in 2024
 
-`68 items`
+`69 items`
+
+## <span id="2024-05-05.dinner-for-four">Dinner for Four</span>
+
+`RU` Обед на четверых
+
+<a href="https://instagram.com/p/C6mLYNAPoIR/" title="2024-05-05.dinner-for-four"><img alt="store:/shots/2024-05-05.dinner-for-four.png" src="../../assets/previews/shots/2024-05-05.dinner-for-four.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2024-03-05-20-01-36.png](../../assets/previews/trash/dehero.2024-03-05-20-01-36.avif "dehero.2024-03-05-20-01-36")
+![store:/trash/dehero.2024-03-05-19-59-55.png](../../assets/previews/trash/dehero.2024-03-05-19-59-55.avif "dehero.2024-03-05-19-59-55")
+![store:/trash/dehero.2024-03-05-20-00-29.png](../../assets/previews/trash/dehero.2024-03-05-20-00-29.avif "dehero.2024-03-05-20-00-29")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-05.dinner-for-four)</code> `🚀 OpenMW` `table`
+
+```
+2024-05-05.dinner-for-four
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C6mLYNAPoIR/)       | 2024-05-05 |      1416 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1519) | 2024-05-05 |       913 |
+| [`tg`](https://t.me/mwscr/399)                     | 2024-05-05 |       370 |
+|                                                    |            |      2699 |
 
 ## <span id="2024-05-04.ahnassi">Ahnassi</span>
 
@@ -24,10 +55,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6jmnFHNynU/)       | 2024-05-04 |   204 |    54 |      1417 |   3.81 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1518) | 2024-05-04 |   131 |    20 |       912 |   2.19 |
+| [`ig`](https://instagram.com/p/C6jmnFHNynU/)       | 2024-05-04 |   207 |    55 |      1417 |   3.88 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1518) | 2024-05-04 |   133 |    20 |       912 |   2.19 |
 | [`tg`](https://t.me/mwscr/398)                     | 2024-05-04 |   123 |    42 |       367 |  11.44 |
-|                                                    |            |   458 |   116 |      2696 |   5.82 |
+|                                                    |            |   463 |   117 |      2696 |   5.84 |
 
 #### Comments
 
@@ -51,10 +82,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6hB52RP4_D/)       | 2024-05-03 |   295 |    91 |      1415 |   6.43 |
+| [`ig`](https://instagram.com/p/C6hB52RP4_D/)       | 2024-05-03 |   297 |    92 |      1415 |    6.5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1517) | 2024-05-03 |   183 |    29 |       912 |   3.18 |
 | [`tg`](https://t.me/mwscr/397)                     | 2024-05-03 |   158 |    53 |       366 |  14.48 |
-|                                                    |            |   636 |   173 |      2693 |   8.03 |
+|                                                    |            |   638 |   174 |      2693 |   8.05 |
 
 #### Comments
 
