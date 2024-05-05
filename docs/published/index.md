@@ -24,10 +24,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6jmnFHNynU/)       | 2024-05-04 |   159 |    45 |      1417 |   3.18 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1518) | 2024-05-04 |    81 |    10 |       912 |    1.1 |
-| [`tg`](https://t.me/mwscr/398)                     | 2024-05-04 |    96 |    33 |       367 |   8.99 |
-|                                                    |            |   336 |    88 |      2696 |   4.42 |
+| [`ig`](https://instagram.com/p/C6jmnFHNynU/)       | 2024-05-04 |   166 |    45 |      1417 |   3.18 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1518) | 2024-05-04 |    85 |    11 |       912 |   1.21 |
+| [`tg`](https://t.me/mwscr/398)                     | 2024-05-04 |    97 |    33 |       367 |   8.99 |
+|                                                    |            |   348 |    89 |      2696 |   4.46 |
 
 ## <span id="2024-05-03.coastal-silt-strider">Coastal Silt Strider</span>
 
