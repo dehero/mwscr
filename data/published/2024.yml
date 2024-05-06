@@ -921,18 +921,18 @@
     - service: vk
       id: 1487
       published: 2024-04-08-18-19-47
-      updated: 2024-04-29-23-13-21
+      updated: 2024-05-06-23-13-48
       followers: 909
       likes: 31
-      views: 174
+      views: 178
       reposts: 2
     - service: tg
       id: 372
       published: 2024-04-08-18-19-56
-      updated: 2024-04-29-23-13-20
+      updated: 2024-05-06-23-13-48
       followers: 354
       likes: 59
-      views: 347
+      views: 375
 2024-04-09.telvanni-council-house:
   title: Telvanni Council House
   titleRu: Дом Совета Телванни
@@ -1474,20 +1474,20 @@
       id: C6mLYNAPoIR
       mediaId: '17893921265939451'
       published: 2024-05-05-18-16-59
-      updated: 2024-05-06-22-13-41
+      updated: 2024-05-06-23-13-47
       followers: 1416
       likes: 69
-      views: 244
+      views: 247
       comments: !c |-
         G3gA4MWnv/kJnz2Qzy2bFNAYU7DrPMuk6zzxPODigyupnV4xATxkLV0xkc31OB9j+6+3F+KuZZO3
         8xebCP2GE7Y6kY8I5gnsH1CNu1ty22Fo47IIBTSG2J8yWwvgXrkPeU0=
     - service: vk
       id: 1519
       published: 2024-05-05-18-17-05
-      updated: 2024-05-06-22-13-41
+      updated: 2024-05-06-23-13-47
       followers: 913
       likes: 26
-      views: 154
+      views: 155
       comments: !c |-
         G7sAIBypnX6Yvuzpfi3hD4vT1QvRqMaI1ArRs5yHq6duK/WhRrUb+hg/TOVrxaB3gwOXgCLNyi3g
         gDbdU9aEiDF7f58vXrbKzt2vslv2rg7DnHOhYotEAXg0RMMSGsClKg2oDkv/fVx6+z7sjD0S6aQ3
@@ -1495,7 +1495,7 @@
     - service: tg
       id: 399
       published: 2024-05-05-18-17-11
-      updated: 2024-05-06-22-13-41
+      updated: 2024-05-06-23-13-47
       followers: 370
       likes: 54
       views: 148
@@ -1517,21 +1517,21 @@
       id: C6owokUs7Gc
       mediaId: '18259731655241654'
       published: 2024-05-06-18-20-59
-      updated: 2024-05-06-22-13-40
+      updated: 2024-05-06-23-13-46
       followers: 1416
-      likes: 43
-      views: 90
+      likes: 47
+      views: 97
     - service: vk
       id: 1523
       published: 2024-05-06-18-21-06
-      updated: 2024-05-06-22-13-40
+      updated: 2024-05-06-23-13-46
       followers: 913
-      likes: 16
-      views: 66
+      likes: 17
+      views: 71
     - service: tg
       id: 400
       published: 2024-05-06-18-21-14
-      updated: 2024-05-06-22-13-41
+      updated: 2024-05-06-23-13-46
       followers: 371
-      likes: 27
-      views: 84
+      likes: 29
+      views: 86
