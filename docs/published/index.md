@@ -4,7 +4,36 @@
 
 # Published in 2024
 
-`69 items`
+`70 items`
+
+## <span id="2024-05-06.alchemist-table">Alchemist Table</span>
+
+`RU` Стол алхимика
+
+<a href="https://instagram.com/p/C6owokUs7Gc/" title="2024-05-06.alchemist-table"><img alt="store:/shots/2024-05-06.alchemist-table.png" src="../../assets/previews/shots/2024-05-06.alchemist-table.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2019-05-08-18-13-56.png](../../assets/previews/trash/dehero.2019-05-08-18-13-56.avif "dehero.2019-05-08-18-13-56")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Vivec, Guild of Mages` `🚀 OpenMW` `alchemy` `table`
+
+```
+2024-05-06.alchemist-table
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C6owokUs7Gc/)       | 2024-05-06 |      1416 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1523) | 2024-05-06 |       913 |
+| [`tg`](https://t.me/mwscr/400)                     | 2024-05-06 |       371 |
+|                                                    |            |      2700 |
 
 ## <span id="2024-05-05.dinner-for-four">Dinner for Four</span>
 
@@ -32,10 +61,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6mLYNAPoIR/)       | 2024-05-05 |   229 |    64 |      1416 |   4.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1519) | 2024-05-05 |   148 |    25 |       913 |   2.74 |
-| [`tg`](https://t.me/mwscr/399)                     | 2024-05-05 |   125 |    52 |       370 |  14.05 |
-|                                                    |            |   502 |   141 |      2699 |    7.1 |
+| [`ig`](https://instagram.com/p/C6mLYNAPoIR/)       | 2024-05-05 |   232 |    65 |      1416 |   4.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1519) | 2024-05-05 |   149 |    25 |       913 |   2.74 |
+| [`tg`](https://t.me/mwscr/399)                     | 2024-05-05 |   126 |    52 |       370 |  14.05 |
+|                                                    |            |   507 |   142 |      2699 |   7.13 |
 
 #### Comments
 
@@ -89,10 +118,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6hB52RP4_D/)       | 2024-05-03 |   297 |    92 |      1415 |    6.5 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1517) | 2024-05-03 |   183 |    29 |       912 |   3.18 |
-| [`tg`](https://t.me/mwscr/397)                     | 2024-05-03 |   158 |    53 |       366 |  14.48 |
-|                                                    |            |   638 |   174 |      2693 |   8.05 |
+| [`ig`](https://instagram.com/p/C6hB52RP4_D/)       | 2024-05-03 |   326 |    98 |      1415 |   6.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1517) | 2024-05-03 |   200 |    30 |       912 |   3.29 |
+| [`tg`](https://t.me/mwscr/397)                     | 2024-05-03 |   174 |    53 |       366 |  14.48 |
+|                                                    |            |   700 |   181 |      2693 |   8.23 |
 
 #### Comments
 

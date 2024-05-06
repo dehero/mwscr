@@ -1400,25 +1400,25 @@
       id: C6hB52RP4_D
       mediaId: '17887814211020614'
       published: 2024-05-03-18-18-00
-      updated: 2024-05-05-18-16-42
+      updated: 2024-05-06-18-20-44
       followers: 1415
-      likes: 92
-      views: 297
+      likes: 98
+      views: 326
       comments: !c CxeAkZPLQnjz+xuTgACrc2lyX3dhY2xvdmW3SSBjYW4gaGVhciB0aGlzIHBpY3R1cmUD
     - service: vk
       id: 1517
       published: 2024-05-03-18-18-06
-      updated: 2024-05-05-18-16-42
+      updated: 2024-05-06-18-20-44
       followers: 912
-      likes: 29
-      views: 183
+      likes: 30
+      views: 200
     - service: tg
       id: 397
       published: 2024-05-03-18-18-12
-      updated: 2024-05-05-18-16-41
+      updated: 2024-05-06-18-20-44
       followers: 366
       likes: 53
-      views: 158
+      views: 174
       comments: !c ixOAkZPLQnj0A30VgACrYm9icm92bmlrb3awSyBQIEEgQyBVIEIg0YvQuQM=
 2024-05-04.ahnassi:
   title: Ahnassi
@@ -1474,20 +1474,20 @@
       id: C6mLYNAPoIR
       mediaId: '17893921265939451'
       published: 2024-05-05-18-16-59
-      updated: 2024-05-06-17-14-37
+      updated: 2024-05-06-18-20-44
       followers: 1416
-      likes: 64
-      views: 229
+      likes: 65
+      views: 232
       comments: !c |-
         G3gA4MWnv/kJnz2Qzy2bFNAYU7DrPMuk6zzxPODigyupnV4xATxkLV0xkc31OB9j+6+3F+KuZZO3
         8xebCP2GE7Y6kY8I5gnsH1CNu1ty22Fo47IIBTSG2J8yWwvgXrkPeU0=
     - service: vk
       id: 1519
       published: 2024-05-05-18-17-05
-      updated: 2024-05-06-17-14-37
+      updated: 2024-05-06-18-20-44
       followers: 913
       likes: 25
-      views: 148
+      views: 149
       comments: !c |-
         G7sAIBypnX6Yvuzpfi3hD4vT1QvRqMaI1ArRs5yHq6duK/WhRrUb+hg/TOVrxaB3gwOXgCLNyi3g
         gDbdU9aEiDF7f58vXrbKzt2vslv2rg7DnHOhYotEAXg0RMMSGsClKg2oDkv/fVx6+z7sjD0S6aQ3
@@ -1495,7 +1495,34 @@
     - service: tg
       id: 399
       published: 2024-05-05-18-17-11
-      updated: 2024-05-06-17-14-37
+      updated: 2024-05-06-18-20-44
       followers: 370
       likes: 52
-      views: 125
+      views: 126
+2024-05-06.alchemist-table:
+  title: Alchemist Table
+  titleRu: Стол алхимика
+  location: Vivec, Guild of Mages
+  content: store:/shots/2024-05-06.alchemist-table.png
+  trash: store:/trash/dehero.2019-05-08-18-13-56.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - alchemy
+    - table
+  mark: B1
+  posts:
+    - service: ig
+      id: C6owokUs7Gc
+      mediaId: '18259731655241654'
+      published: 2024-05-06-18-20-59
+      followers: 1416
+    - service: vk
+      id: 1523
+      published: 2024-05-06-18-21-06
+      followers: 913
+    - service: tg
+      id: 400
+      published: 2024-05-06-18-21-14
+      followers: 371

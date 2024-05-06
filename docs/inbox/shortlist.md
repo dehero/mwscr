@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`7 items`
+`6 items`
 
 ## <span id="natty.2024-03-10-18-18-42">Both Gro-Durug</span>
 
@@ -90,27 +90,6 @@ natty.2024-03-10-12-38-23
 
 ```
 dehero.2020-05-19-night-guards
-```
-
-## <span id="dehero.2019-05-08-18-13-56">Alchemist Table</span>
-
-`RU` Стол алхимика
-
-![store:/inbox/dehero.2019-05-08-18-13-46.1.png](../../assets/previews/inbox/dehero.2019-05-08-18-13-46.1.avif "dehero.2019-05-08-18-13-46.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2019-05-08-18-13-56.png](../../assets/previews/inbox/dehero.2019-05-08-18-13-56.avif "dehero.2019-05-08-18-13-56")
-![store:/inbox/dehero.2019-05-08-18-13-46.png](../../assets/previews/inbox/dehero.2019-05-08-18-13-46.avif "dehero.2019-05-08-18-13-46")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2019-05-08-18-13-56&amp;postContent=store%3A%2Finbox%2Fdehero.2019-05-08-18-13-46.1.png&amp;postTitle=Alchemist+Table&amp;postTitleRu=%D0%A1%D1%82%D0%BE%D0%BB+%D0%B0%D0%BB%D1%85%D0%B8%D0%BC%D0%B8%D0%BA%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=alchemy+table&amp;postLocation=Vivec%2C+Guild+of+Mages&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2019-05-08-18-13-56.png%0Astore%3A%2Finbox%2Fdehero.2019-05-08-18-13-46.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2019-05-08-18-13-56) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2019-05-08-18-13-56) `B1` `📍 Vivec, Guild of Mages` `🚀 OpenMW` `alchemy` `table`
-
-```
-dehero.2019-05-08-18-13-56
 ```
 
 ## <span id="dehero.2019-02-16-21-46-47">Campfire</span>
