@@ -10,6 +10,10 @@
   height: 100%;
 }
 
+.image {
+  max-height: calc(100% - 34px);
+}
+
 .info {
   display: flex;
   flex-flow: column nowrap;
