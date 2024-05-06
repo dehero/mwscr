@@ -1,3 +1,4 @@
+import { useSearchParams } from '@solidjs/router';
 import { type Component, createResource, createSignal, Show } from 'solid-js';
 import type { Location } from '../../../core/entities/location.js';
 import { isNestedLocation } from '../../../core/entities/location.js';
@@ -19,6 +20,7 @@ import { RadioGroup } from '../../components/RadioGroup/RadioGroup.jsx';
 import { Select } from '../../components/Select/Select.jsx';
 import { published } from '../../data-managers/posts.js';
 import { getUserName } from '../../data-managers/users.js';
+import type { PublishedRouteParams } from '../../routes/published-route.js';
 import styles from './PublishedPage.module.css';
 
 const comparators = [
@@ -106,11 +108,20 @@ const getUsers = async (): Promise<string[]> => {
 };
 
 export const PublishedPage: Component = () => {
-  const [postType, setPostType] = createSignal<PostType | undefined>();
-  const [postTag, setPostTag] = createSignal<string | undefined>();
-  const [postLocation, setPostLocation] = createSignal<string | undefined>();
-  const [postAuthor, setPostAuthor] = createSignal<string | undefined>();
-  const [searchTerm, setSearchTerm] = createSignal<string | undefined>();
+  const [searchParams, setSearchParams] = useSearchParams<Required<PublishedRouteParams>>();
+
+  const postType = () => POST_TYPES.find((type) => type === searchParams.type);
+  const postTag = () => searchParams.tag;
+  const postLocation = () => searchParams.location;
+  const postAuthor = () => searchParams.author;
+  const searchTerm = () => searchParams.search;
+
+  const setPostType = (type: PostType | undefined) => setSearchParams({ ...searchParams, type });
+  const setPostTag = (tag: string | undefined) => setSearchParams({ ...searchParams, tag });
+  const setPostLocation = (location: string | undefined) => setSearchParams({ ...searchParams, location });
+  const setPostAuthor = (author: string | undefined) => setSearchParams({ ...searchParams, author });
+  const setSearchTerm = (search: string | undefined) => setSearchParams({ ...searchParams, search });
+
   const [sortKey, setSortKey] = createSignal<ComparatorKey>('id');
   const [isSearching, setIsSearching] = createSignal(false);
 
