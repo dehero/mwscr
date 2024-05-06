@@ -1,9 +1,13 @@
-import { useLocation } from '@solidjs/router';
-import { type Component, For, type JSX, Show } from 'solid-js';
+import { type Component, type JSX, Show } from 'solid-js';
 import { createIssueUrl as createProposalIssueUrl } from '../../../core/github-issues/proposal.js';
-import { routes } from '../../routes/index.js';
+import { contributingRoute } from '../../routes/contributing-route.js';
+import { homeRoute } from '../../routes/home-route.js';
+import { inboxRoute } from '../../routes/inbox-route.js';
+import { publishedRoute } from '../../routes/published-route.js';
+import { trashRoute } from '../../routes/trash-route.js';
 import { Button } from '../Button/Button.jsx';
 import { Frame } from '../Frame/Frame.jsx';
+import { RouteButton } from '../RouteButton/RouteButton.jsx';
 import styles from './Page.module.css';
 
 export interface PageProps {
@@ -13,8 +17,6 @@ export interface PageProps {
 }
 
 export const Page: Component<PageProps> = (props) => {
-  const location = useLocation();
-
   return (
     <>
       <Frame variant="thick" component="header" class={styles.header}>
@@ -25,16 +27,14 @@ export const Page: Component<PageProps> = (props) => {
       </Frame>
 
       <nav class={styles.nav}>
-        <For each={routes}>
-          {(route) => (
-            <Button href={route.path} active={location.pathname === route.path}>
-              {route.info.label}
-            </Button>
-          )}
-        </For>
-
+        <RouteButton route={homeRoute} />
+        <RouteButton route={publishedRoute} />
+        <div class={styles.spacer} />
+        <RouteButton route={inboxRoute} />
+        <RouteButton route={trashRoute} />
+        <RouteButton route={contributingRoute} />
         <Button href={createProposalIssueUrl()} target="_blank">
-          Propose
+          +
         </Button>
       </nav>
 

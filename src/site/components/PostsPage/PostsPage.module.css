@@ -1,9 +1,18 @@
-.filter {
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 6px 8px;
+}
+
+.filters {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   gap: 16px;
-  padding: 8px 12px;
+  padding: 6px 8px;
   flex-shrink: 0;
 }
 

@@ -5,7 +5,7 @@ export const publishedRoute: SiteRoute = {
   path: '/published/',
   component: PublishedPage,
   info: {
-    label: 'Published',
+    label: 'Posts',
   },
   createUrl: () => '/published/',
 };
