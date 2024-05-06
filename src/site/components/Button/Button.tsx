@@ -3,7 +3,7 @@ import { type Component, type JSX, splitProps } from 'solid-js';
 import { Frame } from '../Frame/Frame.jsx';
 import styles from './Button.module.css';
 
-interface ButtonProps extends JSX.CustomAttributes<HTMLElement>, JSX.DOMAttributes<HTMLElement> {
+export interface ButtonProps extends JSX.CustomAttributes<HTMLElement>, JSX.DOMAttributes<HTMLElement> {
   class?: string;
   children?: JSX.Element;
   href?: string;

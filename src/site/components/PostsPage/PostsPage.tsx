@@ -1,4 +1,4 @@
-import { useNavigate, useSearchParams } from '@solidjs/router';
+import { useSearchParams } from '@solidjs/router';
 import { type Component, createResource, createSignal, Show } from 'solid-js';
 import type { Location } from '../../../core/entities/location.js';
 import { isNestedLocation } from '../../../core/entities/location.js';
@@ -184,7 +184,6 @@ const getUsedUsers = async (postsManager: PostsManager): Promise<string[]> => {
 
 export const PostsPage: Component<PostsPageProps> = (props) => {
   const [searchParams, setSearchParams] = useSearchParams<Required<PostsPageSearchParams>>();
-  const navigate = useNavigate();
 
   const sortOptions = () => comparators.filter((item) => !props.sortKeys || props.sortKeys.includes(item.value));
   const checkOptions = () => checks.filter((item) => !props.checkKeys || props.checkKeys.includes(item.value));
@@ -244,129 +243,120 @@ export const PostsPage: Component<PostsPageProps> = (props) => {
 
   return (
     <Page status={posts.loading ? 'Loading...' : isSearching() ? 'Searching...' : undefined} title={props.title}>
-      <>
-        <form class={styles.filter}>
-          <RadioGroup name="preset" options={[ALL_OPTION, ...presetOptions()]} value={preset()} onChange={setPreset} />
+      <div class={styles.header}>
+        <RadioGroup name="preset" options={[ALL_OPTION, ...presetOptions()]} value={preset()} onChange={setPreset} />
 
-          <Show when={!props.filters || props.filters.includes('type')}>
-            <RadioGroup
-              label="Type"
-              name="type"
-              options={[ALL_OPTION, ...POST_TYPES.map((value) => ({ value }))]}
-              value={postType()}
-              onChange={setPostType}
-            />
-          </Show>
-          <Show when={!props.filters || props.filters.includes('location')}>
-            <Select
-              label="Location"
-              name="location"
-              options={[ALL_OPTION, ANY_OPTION, NONE_OPTION, ...(usedLocations()?.map((value) => ({ value })) ?? [])]}
-              value={postLocation()}
-              onChange={setPostLocation}
-            />
-          </Show>
-          <Show when={!props.filters || props.filters.includes('tag')}>
-            <Select
-              label="Tag"
-              name="tag"
-              options={[ALL_OPTION, ...(usedTags()?.map((value) => ({ value })) ?? [])]}
-              value={postTag()}
-              onChange={setPostTag}
-            />
-          </Show>
-          <Show when={!props.filters || props.filters.includes('author')}>
-            <Select
-              label="Author"
-              name="author"
-              options={[ALL_OPTION, ...(usedUsers()?.map((value) => ({ value, label: getUserName(value) })) ?? [])]}
-              value={postAuthor()}
-              onChange={setPostAuthor}
-            />
-          </Show>
-          <Show when={!props.filters || props.filters.includes('mark')}>
-            <Select
-              label="Editor's Mark"
-              name="mark"
-              options={[ALL_OPTION, ...POST_MARKS.map((value) => ({ value }))]}
-              value={postMark()}
-              onChange={setPostMark}
-            />
-          </Show>
-          <Show when={!props.filters || props.filters.includes('violation')}>
-            <Select
-              label="Violation"
-              name="violation"
-              options={[
-                ALL_OPTION,
-                ANY_OPTION,
-                NONE_OPTION,
-                ...Object.entries(POST_VIOLATIONS).map(([value, label]) => ({ value, label })),
-              ]}
-              value={postViolation()}
-              onChange={setPostViolation}
-            />
-          </Show>
-          <Show when={!props.filters || props.filters.includes('check')}>
-            <Select
-              label="Check"
-              name="check"
-              options={[ALL_OPTION, ...checkOptions()]}
-              value={check()}
-              onChange={setCheck}
-            />
-          </Show>
-          <Show when={sortOptions().length > 0}>
-            <fieldset class={styles.fieldset}>
-              <Select label="Order By" options={sortOptions()} value={sortKey()} onChange={setSortKey} />
-              <Select
-                options={[
-                  { value: 'asc', label: 'Ascending' },
-                  { value: 'desc', label: 'Descending' },
-                ]}
-                value={sortDirection()}
-                onChange={setSortDirection}
-              />
-            </fieldset>
-          </Show>
-          <fieldset class={styles.fieldset}>
-            <Input
-              label="Search"
-              name="search"
-              value={searchTerm()}
-              onChange={() => setIsSearching(true)}
-              onDebouncedChange={(value) => {
-                setSearchTerm(value);
-                setIsSearching(false);
-              }}
-            />
-            <Button
-              onClick={(e) => {
-                e.preventDefault();
-                setSearchTerm('');
-                setIsSearching(false);
-              }}
-            >
-              Clear
-            </Button>
-          </fieldset>
-
+        <fieldset class={styles.fieldset}>
+          <Input
+            label="Search"
+            name="search"
+            value={searchTerm()}
+            onChange={() => setIsSearching(true)}
+            onDebouncedChange={(value) => {
+              setSearchTerm(value);
+              setIsSearching(false);
+            }}
+          />
           <Button
             onClick={(e) => {
               e.preventDefault();
-              navigate('./');
+              setSearchTerm('');
+              setIsSearching(false);
             }}
           >
-            Reset
+            Clear
           </Button>
-        </form>
-
-        <Divider />
-
-        <Show when={!posts.loading}>
-          <PostPreviews postEntries={posts() ?? []} managerName={props.manager.name} />
+        </fieldset>
+      </div>
+      <form class={styles.filters}>
+        <Show when={!props.filters || props.filters.includes('type')}>
+          <RadioGroup
+            label="Type"
+            name="type"
+            options={[{ value: undefined, label: 'Any' }, ...POST_TYPES.map((value) => ({ value }))]}
+            value={postType()}
+            onChange={setPostType}
+          />
         </Show>
-      </>
+        <Show when={!props.filters || props.filters.includes('location')}>
+          <Select
+            label="Location"
+            name="location"
+            options={[ALL_OPTION, ANY_OPTION, NONE_OPTION, ...(usedLocations()?.map((value) => ({ value })) ?? [])]}
+            value={postLocation()}
+            onChange={setPostLocation}
+          />
+        </Show>
+        <Show when={!props.filters || props.filters.includes('tag')}>
+          <Select
+            label="Tag"
+            name="tag"
+            options={[ALL_OPTION, ...(usedTags()?.map((value) => ({ value })) ?? [])]}
+            value={postTag()}
+            onChange={setPostTag}
+          />
+        </Show>
+        <Show when={!props.filters || props.filters.includes('author')}>
+          <Select
+            label="Author"
+            name="author"
+            options={[ALL_OPTION, ...(usedUsers()?.map((value) => ({ value, label: getUserName(value) })) ?? [])]}
+            value={postAuthor()}
+            onChange={setPostAuthor}
+          />
+        </Show>
+        <Show when={!props.filters || props.filters.includes('mark')}>
+          <Select
+            label="Editor's Mark"
+            name="mark"
+            options={[ALL_OPTION, ...POST_MARKS.map((value) => ({ value }))]}
+            value={postMark()}
+            onChange={setPostMark}
+          />
+        </Show>
+        <Show when={!props.filters || props.filters.includes('violation')}>
+          <Select
+            label="Violation"
+            name="violation"
+            options={[
+              ALL_OPTION,
+              ANY_OPTION,
+              NONE_OPTION,
+              ...Object.entries(POST_VIOLATIONS).map(([value, label]) => ({ value, label })),
+            ]}
+            value={postViolation()}
+            onChange={setPostViolation}
+          />
+        </Show>
+        <Show when={!props.filters || props.filters.includes('check')}>
+          <Select
+            label="Check"
+            name="check"
+            options={[ALL_OPTION, ...checkOptions()]}
+            value={check()}
+            onChange={setCheck}
+          />
+        </Show>
+        <Show when={sortOptions().length > 0}>
+          <fieldset class={styles.fieldset}>
+            <Select label="Order By" options={sortOptions()} value={sortKey()} onChange={setSortKey} />
+            <Select
+              options={[
+                { value: 'asc', label: 'Ascending' },
+                { value: 'desc', label: 'Descending' },
+              ]}
+              value={sortDirection()}
+              onChange={setSortDirection}
+            />
+          </fieldset>
+        </Show>
+      </form>
+
+      <Divider />
+
+      <Show when={!posts.loading}>
+        <PostPreviews postEntries={posts() ?? []} managerName={props.manager.name} />
+      </Show>
     </Page>
   );
 };

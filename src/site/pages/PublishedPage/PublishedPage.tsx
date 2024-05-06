@@ -6,7 +6,7 @@ export const PublishedPage: Component = () => {
   return (
     <PostsPage
       manager={published}
-      title="Published Posts"
+      title="Posts"
       presetKeys={['editors-choice', 'unlocated', 'requests']}
       filters={['author', 'location', 'mark', 'tag', 'type']}
     />
