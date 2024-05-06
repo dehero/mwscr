@@ -6,6 +6,7 @@ export interface PublishedRouteParams extends SiteRouteParams {
   tag: string;
   location: string;
   author: string;
+  mark: string;
   search: string;
 }
 

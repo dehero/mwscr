@@ -2,13 +2,14 @@ import { useSearchParams } from '@solidjs/router';
 import { type Component, createResource, createSignal, Show } from 'solid-js';
 import type { Location } from '../../../core/entities/location.js';
 import { isNestedLocation } from '../../../core/entities/location.js';
-import type { Post, PostEntries, PostType } from '../../../core/entities/post.js';
+import type { Post, PostEntries, PostMark, PostType } from '../../../core/entities/post.js';
 import {
   comparePostEntriesById,
   comparePostEntriesByLikes,
   comparePostEntriesByRating,
   comparePostEntriesByViews,
   getPostEntriesFromSource,
+  POST_MARKS,
   POST_TYPES,
 } from '../../../core/entities/post.js';
 import { asArray } from '../../../core/utils/common-utils.js';
@@ -39,6 +40,7 @@ interface PostsFilter {
   location?: string; // | null;
   search?: string;
   author?: string;
+  mark?: PostMark;
   sortKey?: ComparatorKey;
 }
 
@@ -56,6 +58,7 @@ const getPosts = async (filter: PostsFilter): Promise<PostEntries> => {
           (typeof filter.author === 'undefined' || asArray(post.author).includes(filter.author)) &&
           (typeof filter.location === 'undefined' ||
             (post.location && isNestedLocation(post.location, filter.location))) &&
+          (typeof filter.mark === 'undefined' || post.mark === filter.mark) &&
           (typeof filter.search === 'undefined' ||
             post.title?.toLocaleLowerCase()?.includes(filter.search.toLocaleLowerCase())),
       ),
@@ -114,12 +117,14 @@ export const PublishedPage: Component = () => {
   const postTag = () => searchParams.tag;
   const postLocation = () => searchParams.location;
   const postAuthor = () => searchParams.author;
+  const postMark = () => POST_MARKS.find((mark) => mark === searchParams.mark);
   const searchTerm = () => searchParams.search;
 
   const setPostType = (type: PostType | undefined) => setSearchParams({ ...searchParams, type });
   const setPostTag = (tag: string | undefined) => setSearchParams({ ...searchParams, tag });
   const setPostLocation = (location: string | undefined) => setSearchParams({ ...searchParams, location });
   const setPostAuthor = (author: string | undefined) => setSearchParams({ ...searchParams, author });
+  const setPostMark = (mark: PostMark | undefined) => setSearchParams({ ...searchParams, mark });
   const setSearchTerm = (search: string | undefined) => setSearchParams({ ...searchParams, search });
 
   const [sortKey, setSortKey] = createSignal<ComparatorKey>('id');
@@ -133,6 +138,7 @@ export const PublishedPage: Component = () => {
     search: searchTerm(),
     sortKey: sortKey(),
     author: postAuthor(),
+    mark: postMark(),
   });
 
   const [posts] = createResource(postFilter, getPosts);
@@ -170,6 +176,12 @@ export const PublishedPage: Component = () => {
             ]}
             value={postAuthor()}
             onChange={setPostAuthor}
+          />
+          <Select
+            label="Editor's Mark"
+            options={[{ value: undefined, label: 'All' }, ...POST_MARKS.map((value) => ({ value }))]}
+            value={postMark()}
+            onChange={setPostMark}
           />
           <Select
             label="Order By"
