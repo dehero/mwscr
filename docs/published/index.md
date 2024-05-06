@@ -32,16 +32,17 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6mLYNAPoIR/)       | 2024-05-05 |   170 |    50 |      1416 |   3.53 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1519) | 2024-05-05 |   101 |    18 |       913 |   1.97 |
-| [`tg`](https://t.me/mwscr/399)                     | 2024-05-05 |   103 |    45 |       370 |  12.16 |
-|                                                    |            |   374 |   113 |      2699 |   5.89 |
+| [`ig`](https://instagram.com/p/C6mLYNAPoIR/)       | 2024-05-05 |   174 |    52 |      1416 |   3.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1519) | 2024-05-05 |   109 |    18 |       913 |   1.97 |
+| [`tg`](https://t.me/mwscr/399)                     | 2024-05-05 |   106 |    46 |       370 |  12.43 |
+|                                                    |            |   389 |   116 |      2699 |   6.03 |
 
 #### Comments
 
 - `ig` <ins title="2024-05-05-18-20-58">m4niou</ins> I can&#39;t explain this but &#39;Simple screenshots from Morrowind&#39; &gt; &#39;Breathtaking screenshots from Skyrim&#39;
 - `vk` <ins title="2024-05-05-18-48-25">qirong666</ins> Идеально накрыто ❤
 - `vk` <ins title="2024-05-05-19-01-02">lomaev_live</ins> Гильдия Бойцов Альдруна?
+  - <ins title="2024-05-06-05-09-06">dehero</ins> Александр, это в Вивеке
 
 ## <span id="2024-05-04.ahnassi">Ahnassi</span>
 
@@ -62,9 +63,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C6jmnFHNynU/)       | 2024-05-04 |   214 |    57 |      1417 |   4.02 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1518) | 2024-05-04 |   142 |    21 |       912 |    2.3 |
-| [`tg`](https://t.me/mwscr/398)                     | 2024-05-04 |   147 |    46 |       367 |  12.53 |
-|                                                    |            |   503 |   124 |      2696 |   6.29 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1518) | 2024-05-04 |   144 |    21 |       912 |    2.3 |
+| [`tg`](https://t.me/mwscr/398)                     | 2024-05-04 |   148 |    46 |       367 |  12.53 |
+|                                                    |            |   506 |   124 |      2696 |   6.29 |
 
 #### Comments
 
