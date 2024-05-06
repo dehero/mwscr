@@ -1474,20 +1474,20 @@
       id: C6mLYNAPoIR
       mediaId: '17893921265939451'
       published: 2024-05-05-18-16-59
-      updated: 2024-05-06-18-20-44
+      updated: 2024-05-06-19-12-19
       followers: 1416
-      likes: 65
-      views: 232
+      likes: 67
+      views: 234
       comments: !c |-
         G3gA4MWnv/kJnz2Qzy2bFNAYU7DrPMuk6zzxPODigyupnV4xATxkLV0xkc31OB9j+6+3F+KuZZO3
         8xebCP2GE7Y6kY8I5gnsH1CNu1ty22Fo47IIBTSG2J8yWwvgXrkPeU0=
     - service: vk
       id: 1519
       published: 2024-05-05-18-17-05
-      updated: 2024-05-06-18-20-44
+      updated: 2024-05-06-19-12-19
       followers: 913
       likes: 25
-      views: 149
+      views: 151
       comments: !c |-
         G7sAIBypnX6Yvuzpfi3hD4vT1QvRqMaI1ArRs5yHq6duK/WhRrUb+hg/TOVrxaB3gwOXgCLNyi3g
         gDbdU9aEiDF7f58vXrbKzt2vslv2rg7DnHOhYotEAXg0RMMSGsClKg2oDkv/fVx6+z7sjD0S6aQ3
@@ -1495,10 +1495,10 @@
     - service: tg
       id: 399
       published: 2024-05-05-18-17-11
-      updated: 2024-05-06-18-20-44
+      updated: 2024-05-06-19-12-19
       followers: 370
-      likes: 52
-      views: 126
+      likes: 54
+      views: 145
 2024-05-06.alchemist-table:
   title: Alchemist Table
   titleRu: Стол алхимика
@@ -1517,12 +1517,21 @@
       id: C6owokUs7Gc
       mediaId: '18259731655241654'
       published: 2024-05-06-18-20-59
+      updated: 2024-05-06-19-12-18
       followers: 1416
+      likes: 26
+      views: 42
     - service: vk
       id: 1523
       published: 2024-05-06-18-21-06
+      updated: 2024-05-06-19-12-19
       followers: 913
+      likes: 7
+      views: 33
     - service: tg
       id: 400
       published: 2024-05-06-18-21-14
+      updated: 2024-05-06-19-12-19
       followers: 371
+      likes: 19
+      views: 63
