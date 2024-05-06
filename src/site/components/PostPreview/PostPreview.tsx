@@ -38,7 +38,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
           </Frame>
         }
       >
-        <Show when={content().length > 2} fallback={<ResourcePreview url={content()[0] || ''} />}>
+        <Show when={content().length > 2} fallback={<ResourcePreview url={content()[0] || ''} class={styles.image} />}>
           <div class={clsx(styles[props.postEntry[1].type], styles.setContainer)}>
             <For each={content()}>{(url) => <ResourcePreview url={url} class={styles.setItem} />}</For>
           </div>
