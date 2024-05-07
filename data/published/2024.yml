@@ -1444,17 +1444,17 @@
     - service: vk
       id: 1518
       published: 2024-05-04-18-17-19
-      updated: 2024-05-06-17-14-38
+      updated: 2024-05-07-17-43-01
       followers: 912
-      likes: 21
-      views: 149
+      likes: 22
+      views: 160
     - service: tg
       id: 398
       published: 2024-05-04-18-17-25
-      updated: 2024-05-06-17-14-38
+      updated: 2024-05-07-17-43-00
       followers: 367
-      likes: 47
-      views: 159
+      likes: 48
+      views: 179
 2024-05-05.dinner-for-four:
   title: Dinner for Four
   titleRu: Обед на четверых
@@ -1484,7 +1484,7 @@
     - service: vk
       id: 1519
       published: 2024-05-05-18-17-05
-      updated: 2024-05-07-17-12-42
+      updated: 2024-05-07-17-43-00
       followers: 913
       likes: 29
       views: 168
@@ -1495,10 +1495,10 @@
     - service: tg
       id: 399
       published: 2024-05-05-18-17-11
-      updated: 2024-05-07-17-12-43
+      updated: 2024-05-07-17-43-00
       followers: 370
       likes: 54
-      views: 161
+      views: 162
 2024-05-06.alchemist-table:
   title: Alchemist Table
   titleRu: Стол алхимика
@@ -1524,14 +1524,14 @@
     - service: vk
       id: 1523
       published: 2024-05-06-18-21-06
-      updated: 2024-05-07-17-12-42
+      updated: 2024-05-07-17-42-59
       followers: 913
       likes: 24
       views: 145
     - service: tg
       id: 400
       published: 2024-05-06-18-21-14
-      updated: 2024-05-07-17-12-42
+      updated: 2024-05-07-17-43-00
       followers: 371
       likes: 40
-      views: 122
+      views: 123
