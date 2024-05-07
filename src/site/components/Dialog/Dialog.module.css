@@ -1,0 +1,78 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  pointer-events: none;
+}
+
+/* To make the dialog centered vertically with no overflows */
+.backdrop::before,
+.backdrop::after {
+  content: '';
+  margin: auto;
+}
+
+.container {
+  background: var(--color-background);
+  pointer-events: auto;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.header:before,
+.header:after {
+  content: '';
+  display: block;
+  height: 100%;
+  min-height: 20px;
+  min-width: 20px;
+  flex-grow: 1;
+  border: 2px solid var(--color-text);
+  border-image-source: url(../../../../assets/images/frame-header.png);
+  border-image-slice: 2;
+  border-image-repeat: repeat;
+  background: url(../../../../assets/images/bg-header.png);
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  flex-flow: column nowrap;
+  overflow: hidden;
+  padding: 0 0 8px 0;
+}
+
+.content {
+  padding: 8px 8px 0 8px;
+  overflow-y: auto;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 8px 8px 0 8px;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.spacer {
+  flex-grow: 1;
+}
