@@ -1,4 +1,4 @@
-import { useSearchParams } from '@solidjs/router';
+import { useCurrentMatches, useSearchParams } from '@solidjs/router';
 import { type Component, createResource, createSignal, Show } from 'solid-js';
 import type { Location } from '../../../core/entities/location.js';
 import { isNestedLocation } from '../../../core/entities/location.js';
@@ -15,16 +15,17 @@ import {
 } from '../../../core/entities/post.js';
 import { isPostRequest, isPublishablePost } from '../../../core/entities/post-variation.js';
 import type { PostsManager } from '../../../core/entities/posts-manager.js';
+import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { asArray } from '../../../core/utils/common-utils.js';
+import { Button } from '../../components/Button/Button.jsx';
+import { Divider } from '../../components/Divider/Divider.jsx';
+import { Input } from '../../components/Input/Input.jsx';
+import { Page } from '../../components/Page/Page.jsx';
+import { PostPreviews } from '../../components/PostPreviews/PostPreviews.jsx';
+import { RadioGroup } from '../../components/RadioGroup/RadioGroup.jsx';
+import { Select } from '../../components/Select/Select.jsx';
 import { getUserName } from '../../data-managers/users.js';
-import { Button } from '../Button/Button.jsx';
-import { Divider } from '../Divider/Divider.jsx';
-import { Input } from '../Input/Input.jsx';
-import { Page } from '../Page/Page.jsx';
-import { PostPreviews } from '../PostPreviews/PostPreviews.jsx';
-import { RadioGroup } from '../RadioGroup/RadioGroup.jsx';
-import { Select } from '../Select/Select.jsx';
 import styles from './PostsPage.module.css';
 
 const ALL_OPTION = { value: undefined, label: 'All' };
@@ -75,7 +76,7 @@ type FilterKey = keyof Pick<
   'type' | 'tag' | 'location' | 'author' | 'mark' | 'violation' | 'check'
 >;
 
-export interface PostsPageProps {
+export interface PostsPageRouteInfo extends SiteRouteInfo {
   manager: PostsManager;
   title?: string;
   presetKeys?: PresetKey[];
@@ -182,12 +183,14 @@ const getUsedUsers = async (postsManager: PostsManager): Promise<string[]> => {
   return [...result].sort((a, b) => a.localeCompare(b));
 };
 
-export const PostsPage: Component<PostsPageProps> = (props) => {
+export const PostsPage: Component = () => {
   const [searchParams, setSearchParams] = useSearchParams<Required<PostsPageSearchParams>>();
 
-  const sortOptions = () => comparators.filter((item) => !props.sortKeys || props.sortKeys.includes(item.value));
-  const checkOptions = () => checks.filter((item) => !props.checkKeys || props.checkKeys.includes(item.value));
-  const presetOptions = () => presets.filter((item) => !props.presetKeys || props.presetKeys.includes(item.value));
+  const info = () => useCurrentMatches()[0]?.route.info as PostsPageRouteInfo;
+
+  const sortOptions = () => comparators.filter((item) => !info().sortKeys || info().sortKeys?.includes(item.value));
+  const checkOptions = () => checks.filter((item) => !info().checkKeys || info().checkKeys?.includes(item.value));
+  const presetOptions = () => presets.filter((item) => !info().presetKeys || info().presetKeys?.includes(item.value));
 
   const check = () => checkOptions().find((variation) => variation.value === searchParams.check)?.value;
   const postType = () => POST_TYPES.find((type) => type === searchParams.type);
@@ -222,7 +225,7 @@ export const PostsPage: Component<PostsPageProps> = (props) => {
   const [isSearching, setIsSearching] = createSignal(false);
 
   const getPostParams = (): GetPostsParams => ({
-    manager: props.manager,
+    manager: info().manager,
     skipReferences: sortKey() !== 'id',
     check: check(),
     type: postType(),
@@ -237,12 +240,12 @@ export const PostsPage: Component<PostsPageProps> = (props) => {
   });
 
   const [posts] = createResource(getPostParams, getPosts);
-  const [usedTags] = createResource(props.manager, getUsedTags);
-  const [usedLocations] = createResource(props.manager, getUsedLocations);
-  const [usedUsers] = createResource(props.manager, getUsedUsers);
+  const [usedTags] = createResource(info().manager, getUsedTags);
+  const [usedLocations] = createResource(info().manager, getUsedLocations);
+  const [usedUsers] = createResource(info().manager, getUsedUsers);
 
   return (
-    <Page status={posts.loading ? 'Loading...' : isSearching() ? 'Searching...' : undefined} title={props.title}>
+    <Page status={posts.loading ? 'Loading...' : isSearching() ? 'Searching...' : undefined} title={info().title}>
       <div class={styles.header}>
         <RadioGroup name="preset" options={[ALL_OPTION, ...presetOptions()]} value={preset()} onChange={setPreset} />
 
@@ -269,7 +272,7 @@ export const PostsPage: Component<PostsPageProps> = (props) => {
         </fieldset>
       </div>
       <form class={styles.filters}>
-        <Show when={!props.filters || props.filters.includes('type')}>
+        <Show when={!info().filters || info().filters?.includes('type')}>
           <RadioGroup
             label="Type"
             name="type"
@@ -278,7 +281,7 @@ export const PostsPage: Component<PostsPageProps> = (props) => {
             onChange={setPostType}
           />
         </Show>
-        <Show when={!props.filters || props.filters.includes('location')}>
+        <Show when={!info().filters || info().filters?.includes('location')}>
           <Select
             label="Location"
             name="location"
@@ -287,7 +290,7 @@ export const PostsPage: Component<PostsPageProps> = (props) => {
             onChange={setPostLocation}
           />
         </Show>
-        <Show when={!props.filters || props.filters.includes('tag')}>
+        <Show when={!info().filters || info().filters?.includes('tag')}>
           <Select
             label="Tag"
             name="tag"
@@ -296,7 +299,7 @@ export const PostsPage: Component<PostsPageProps> = (props) => {
             onChange={setPostTag}
           />
         </Show>
-        <Show when={!props.filters || props.filters.includes('author')}>
+        <Show when={!info().filters || info().filters?.includes('author')}>
           <Select
             label="Author"
             name="author"
@@ -305,7 +308,7 @@ export const PostsPage: Component<PostsPageProps> = (props) => {
             onChange={setPostAuthor}
           />
         </Show>
-        <Show when={!props.filters || props.filters.includes('mark')}>
+        <Show when={!info().filters || info().filters?.includes('mark')}>
           <Select
             label="Editor's Mark"
             name="mark"
@@ -314,7 +317,7 @@ export const PostsPage: Component<PostsPageProps> = (props) => {
             onChange={setPostMark}
           />
         </Show>
-        <Show when={!props.filters || props.filters.includes('violation')}>
+        <Show when={!info().filters || info().filters?.includes('violation')}>
           <Select
             label="Violation"
             name="violation"
@@ -328,7 +331,7 @@ export const PostsPage: Component<PostsPageProps> = (props) => {
             onChange={setPostViolation}
           />
         </Show>
-        <Show when={!props.filters || props.filters.includes('check')}>
+        <Show when={!info().filters || info().filters?.includes('check')}>
           <Select
             label="Check"
             name="check"
@@ -355,7 +358,7 @@ export const PostsPage: Component<PostsPageProps> = (props) => {
       <Divider />
 
       <Show when={!posts.loading}>
-        <PostPreviews postEntries={posts() ?? []} managerName={props.manager.name} />
+        <PostPreviews postEntries={posts() ?? []} managerName={info().manager.name} />
       </Show>
     </Page>
   );

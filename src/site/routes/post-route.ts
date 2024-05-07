@@ -1,5 +1,5 @@
 import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
-import { PostPage } from '../pages/PostPage/PostPage.jsx';
+import { PostPage } from '../pages/PostPage/PostPage.js';
 
 export interface PostRouteParams extends SiteRouteParams {
   managerName: string;
