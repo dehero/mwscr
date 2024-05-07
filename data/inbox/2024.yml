@@ -334,11 +334,19 @@ natty.2024-03-28-20-45-38:
   type: shot
   author: natty
 natty.2024-03-28-20-45-59:
-  content:
-    - store:/inbox/natty.2024-03-28-20-45-59.png
-    - store:/inbox/natty.2024-03-28-20-45-59.1.png
+  title: Slaves Sleep Peacefully in Their Shacks
+  titleRu: Рабы мирно спят в своих хижинах
+  content: store:/inbox/natty.2024-03-28-20-45-59.1.png
+  trash: store:/inbox/natty.2024-03-28-20-45-59.png
   type: shot
   author: natty
+  engine: OpenMW
+  tags:
+    - night
+    - stars
+    - shacks
+    - fireplace
+  mark: B1
 natty.2024-03-28-22-20-02:
   content:
     - store:/inbox/natty.2024-03-28-22-20-02.1.png
