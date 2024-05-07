@@ -39,10 +39,10 @@
     - service: tg
       id: 203
       published: 2020-05-13
-      updated: 2024-04-30-03-16-40
+      updated: 2024-05-07-04-17-57
       followers: 117
       likes: 2
-      views: 681
+      views: 682
 2020-05-14.inside-a-furnace:
   title: Inside a Furnace
   titleRu: В кузнечном горне
@@ -79,10 +79,10 @@
     - service: tg
       id: 204
       published: 2020-05-14
-      updated: 2024-04-30-03-16-40
+      updated: 2024-05-07-04-17-57
       followers: 116
       likes: 2
-      views: 681
+      views: 682
 2020-05-15.brave-riekling:
   title: Brave Riekling
   titleRu: Храбрый рьеклинг
@@ -125,10 +125,10 @@
     - service: tg
       id: 205
       published: 2020-05-15
-      updated: 2024-04-30-03-16-39
+      updated: 2024-05-07-04-17-56
       followers: 116
       likes: 4
-      views: 689
+      views: 691
 2020-05-16.tel-mora:
   title: Tel Mora
   titleRu: Тель Мора
@@ -162,10 +162,10 @@
     - service: tg
       id: 206
       published: 2020-05-16
-      updated: 2024-04-30-03-16-39
+      updated: 2024-05-07-04-17-56
       followers: 118
       likes: 5
-      views: 709
+      views: 711
 2020-05-17.ama-nin:
   title: Ama Nin
   titleRu: Ама Нин
@@ -195,10 +195,10 @@
     - service: tg
       id: 207
       published: 2020-05-17
-      updated: 2024-04-30-03-16-38
+      updated: 2024-05-07-04-17-55
       followers: 118
       likes: 4
-      views: 690
+      views: 692
 2020-05-18.behind-the-wall:
   title: Behind the Wall
   titleRu: За стеной
@@ -231,10 +231,10 @@
     - service: tg
       id: 208
       published: 2020-05-18
-      updated: 2024-04-30-03-16-38
+      updated: 2024-05-07-04-17-55
       followers: 119
       likes: 3
-      views: 715
+      views: 717
 2020-05-19.night-guard:
   title: Night Guard
   titleRu: Ночной страж
@@ -272,10 +272,10 @@
     - service: tg
       id: 209
       published: 2020-05-19
-      updated: 2024-04-30-03-16-38
+      updated: 2024-05-07-04-17-55
       followers: 120
       likes: 4
-      views: 724
+      views: 726
 2020-05-20.bridges:
   title: Bridges
   titleRu: Мосты
@@ -313,10 +313,10 @@
     - service: tg
       id: 210
       published: 2020-05-20
-      updated: 2024-04-30-03-16-37
+      updated: 2024-05-07-04-17-54
       followers: 122
       likes: 4
-      views: 779
+      views: 781
 2020-05-21.deadly-attack:
   title: Deadly Attack
   titleRu: Смертельная атака
@@ -347,10 +347,10 @@
     - service: tg
       id: 211
       published: 2020-05-21
-      updated: 2024-04-30-03-16-37
+      updated: 2024-05-07-04-17-54
       followers: 123
       likes: 3
-      views: 801
+      views: 803
 2020-05-22.apothecary-door:
   title: Apothecary Door
   titleRu: Дверь аптекаря
@@ -381,10 +381,10 @@
     - service: tg
       id: 212
       published: 2020-05-22
-      updated: 2024-04-30-03-16-37
+      updated: 2024-05-07-04-17-54
       followers: 125
       likes: 3
-      views: 805
+      views: 807
 2020-05-23.rainy-day-in-sadrith-mora:
   title: Rainy Day in Sadrith Mora
   titleRu: Дождливый день в Садрит Море
@@ -417,10 +417,10 @@
     - service: tg
       id: 213
       published: 2020-05-23
-      updated: 2024-04-30-03-16-36
+      updated: 2024-05-07-04-17-53
       followers: 126
       likes: 3
-      views: 862
+      views: 864
 2020-05-24.at-the-bitter-coast:
   title: At the Bitter Coast
   titleRu: На Горьком берегу
@@ -452,10 +452,10 @@
     - service: tg
       id: 214
       published: 2020-05-24
-      updated: 2024-04-30-03-16-36
+      updated: 2024-05-07-04-17-53
       followers: 126
       likes: 3
-      views: 1023
+      views: 1025
 2020-05-25.water-supply:
   title: Water Supply
   titleRu: Запас воды
@@ -490,10 +490,10 @@
     - service: tg
       id: 215
       published: 2020-05-25
-      updated: 2024-04-30-03-16-36
+      updated: 2024-05-07-04-17-53
       followers: 126
       likes: 3
-      views: 1028
+      views: 1030
 2020-05-26.forgotten-urns:
   title: Forgotten Urns
   titleRu: Забытые урны
@@ -529,10 +529,10 @@
     - service: tg
       id: 216
       published: 2020-05-26
-      updated: 2024-04-30-03-16-35
+      updated: 2024-05-07-04-17-52
       followers: 125
       likes: 3
-      views: 1103
+      views: 1105
 2020-10-10.assurnabitashpi:
   title: Assurnabitashpi
   titleRu: Ассурнабиташпи
@@ -567,10 +567,10 @@
     - service: tg
       id: 217
       published: 2020-10-10
-      updated: 2024-04-30-03-16-35
+      updated: 2024-05-07-04-17-52
       followers: 159
       likes: 4
-      views: 691
+      views: 693
       comments: !c |-
         GyQEQORyDUtZV7i9IvH2bg8onSQlUK+BFTDZn/cIGt1b/X4LFbH4YyT+lnfvsIeoJJJ4q0RCtKTT
         aQlUJnP+7cUb1J68Z/H7XjYsD8a3eIxdJNnM6jg99evo4fOcX/TTZNcOO2etGKZP0n48SqmCwPLR
@@ -611,10 +611,10 @@
     - service: tg
       id: 218
       published: 2020-10-11
-      updated: 2024-04-30-03-16-34
+      updated: 2024-05-07-04-17-52
       followers: 162
       likes: 5
-      views: 710
+      views: 712
       comments: !c |-
         i0GAk5PLQndRjPV7gACoYW5ub2RhcnSk8J+RjZPLQndRjMZdAACqQXJ1dG9yaXVzda1WZXJ5IG5v
         c3RhbGdpk8tCd1GMDNEAAKlsb3ZlbXl3YXnZMkFtYXppbmcgY2hhbm5lbCwgYXBwcmVjaWF0ZSBu
@@ -656,10 +656,10 @@
     - service: tg
       id: 219
       published: 2020-10-12
-      updated: 2024-04-30-03-16-34
+      updated: 2024-05-07-04-17-51
       followers: 163
       likes: 6
-      views: 763
+      views: 765
       comments: !c |-
         G50BIIzTJTanMkc+/ZzGldh/WdCkgRx6YFAdsQVENYUvahc11elVE9rgTV0WDsNCm2HnPUqzcZch
         unaeuevx2UPRcWkak6b4vbL4bqy5JYoKRe27I+FcMZANFA+VjuCeQLVUBZW+9fM7LJq6h1eZPyO4
