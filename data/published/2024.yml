@@ -1400,25 +1400,25 @@
       id: C6hB52RP4_D
       mediaId: '17887814211020614'
       published: 2024-05-03-18-18-00
-      updated: 2024-05-06-18-20-44
+      updated: 2024-05-07-19-11-34
       followers: 1415
-      likes: 98
-      views: 326
+      likes: 100
+      views: 332
       comments: !c CxeAkZPLQnjz+xuTgACrc2lyX3dhY2xvdmW3SSBjYW4gaGVhciB0aGlzIHBpY3R1cmUD
     - service: vk
       id: 1517
       published: 2024-05-03-18-18-06
-      updated: 2024-05-06-18-20-44
+      updated: 2024-05-07-19-11-34
       followers: 912
-      likes: 30
-      views: 200
+      likes: 31
+      views: 210
     - service: tg
       id: 397
       published: 2024-05-03-18-18-12
-      updated: 2024-05-06-18-20-44
+      updated: 2024-05-07-19-11-33
       followers: 366
       likes: 53
-      views: 174
+      views: 203
       comments: !c ixOAkZPLQnj0A30VgACrYm9icm92bmlrb3awSyBQIEEgQyBVIEIg0YvQuQM=
 2024-05-04.ahnassi:
   title: Ahnassi
@@ -1517,24 +1517,24 @@
       id: C6owokUs7Gc
       mediaId: '18259731655241654'
       published: 2024-05-06-18-20-59
-      updated: 2024-05-07-18-18-29
+      updated: 2024-05-07-19-11-33
       followers: 1416
-      likes: 68
-      views: 178
+      likes: 69
+      views: 180
     - service: vk
       id: 1523
       published: 2024-05-06-18-21-06
-      updated: 2024-05-07-18-18-29
+      updated: 2024-05-07-19-11-33
       followers: 913
       likes: 24
       views: 146
     - service: tg
       id: 400
       published: 2024-05-06-18-21-14
-      updated: 2024-05-07-18-18-29
+      updated: 2024-05-07-19-11-33
       followers: 371
-      likes: 40
-      views: 123
+      likes: 41
+      views: 135
 2024-05-07.campfire:
   title: Campfire
   titleRu: У костра
@@ -1551,12 +1551,21 @@
       id: C6rVKwMRUNV
       mediaId: '18027033302080792'
       published: 2024-05-07-18-18-44
+      updated: 2024-05-07-19-11-33
       followers: 1416
+      likes: 22
+      views: 37
     - service: vk
       id: 1524
       published: 2024-05-07-18-18-49
+      updated: 2024-05-07-19-11-32
       followers: 913
+      likes: 9
+      views: 39
     - service: tg
       id: 401
       published: 2024-05-07-18-18-56
+      updated: 2024-05-07-19-11-33
       followers: 371
+      likes: 19
+      views: 63
