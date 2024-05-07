@@ -12,6 +12,8 @@ interface InputProps {
   onChange?: (value: string) => void;
   onDebouncedChange?: (value: string) => void;
   value?: string;
+  multiline?: boolean;
+  rows?: number | string;
 }
 
 export const Input: Component<InputProps> = (props) => {
@@ -35,12 +37,25 @@ export const Input: Component<InputProps> = (props) => {
         <span class={styles.label}>{props.label}</span>
       </Show>
       <Frame variant="thin">
-        <input
-          class={styles.input}
-          name={props.name}
-          onInput={(e) => handleInput(e.target.value)}
-          value={localValue()}
-        />
+        <Show
+          when={props.multiline}
+          fallback={
+            <input
+              class={styles.input}
+              name={props.name}
+              onInput={(e) => handleInput(e.target.value)}
+              value={localValue()}
+            />
+          }
+        >
+          <textarea
+            class={styles.input}
+            name={props.name}
+            rows={props.rows}
+            onInput={(e) => handleInput(e.target.value)}
+            value={localValue()}
+          />
+        </Show>
       </Frame>
     </label>
   );
