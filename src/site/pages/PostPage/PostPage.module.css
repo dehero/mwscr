@@ -17,25 +17,21 @@
 .contentSelector {
   grid-area: contentSelector;
   display: grid;
-  padding: 8px;
+  padding: 4px;
   grid-template-columns: repeat(auto-fit, minmax(84px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(84px, 1fr));
-  gap: 8px;
+  gap: 4px;
 }
 
 .contentSelectorItem {
-  /* overflow: hidden;
-  min-width: 164px;
-  min-height: 164px;
-  max-width: 164px;
-  display: inline-block;
-  vertical-align: top; */
+  min-width: 84px;
+  min-height: 84px;
+  box-sizing: border-box;
 }
 
 .content {
   grid-area: content;
   display: block;
-  gap: 8px;
 }
 
 .info {
@@ -60,15 +56,25 @@
   }
 
   .container {
-    grid-template-columns: minmax(min-content, 802px) 1fr;
+    grid-template-columns: minmax(min-content, 322px) 1fr;
     grid-template-rows: auto 1fr;
     grid-template-areas: 'contentSelector info' 'content info';
     overflow: hidden;
     padding: 0 8px 8px 8px;
   }
 
-  .container.published {
+  .container.withFullSizeContent {
     grid-template-columns: fit-content(802px) 1fr 1fr;
+  }
+
+  .container.published {
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      'content info publications'
+      'content comments comments';
+  }
+
+  .container.published.withContentSelection {
     grid-template-rows: auto 1fr 1fr;
     grid-template-areas:
       'contentSelector info publications'
@@ -77,13 +83,17 @@
   }
 
   .container.published.video {
-    grid-template-columns: fit-content(802px) 1fr 1fr;
     grid-template-rows: auto 1fr;
     grid-template-areas:
       'content info publications'
       'comments info publications';
   }
 
+  .contentSelector {
+    min-height: 92px;
+  }
+
+  .contentSelector,
   .info,
   .comments,
   .publications {
@@ -99,12 +109,13 @@
 }
 
 .image {
+  /* min-width: 320px; */
   max-width: 100%;
   max-height: 100%;
   box-sizing: border-box;
 }
 
-.video {
+.youtubeVideo {
   aspect-ratio: 16 / 9;
   max-width: 100%;
 }

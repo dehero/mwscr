@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import { type Component, Match, Switch } from 'solid-js';
 import { parseResourceUrl } from '../../../core/entities/resource.js';
 import { Frame } from '../Frame/Frame.jsx';
+import frameStyles from '../Frame/Frame.module.css';
 import styles from './ResourcePreview.module.css';
 
 function getStorePreviewUrl(url: string | undefined) {
@@ -25,12 +26,7 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
       }
     >
       <Match when={parsedUrl.protocol === 'store:'}>
-        <Frame
-          component="img"
-          src={getStorePreviewUrl(props.url)}
-          variant="thin"
-          class={clsx(styles.preview, props.class)}
-        />
+        <img src={getStorePreviewUrl(props.url)} class={clsx(frameStyles.thin, styles.preview, props.class)} />
       </Match>
     </Switch>
   );
