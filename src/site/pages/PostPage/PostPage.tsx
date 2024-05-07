@@ -5,13 +5,13 @@ import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../cor
 import { getServicePostUrl } from '../../../core/services/youtube.js';
 import { storeDescriptor } from '../../../core/stores/index.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import { dateToString } from '../../../core/utils/date-utils.js';
+import { Button } from '../../components/Button/Button.jsx';
 import { Divider } from '../../components/Divider/Divider.js';
 import { Frame } from '../../components/Frame/Frame.js';
 import frameStyles from '../../components/Frame/Frame.module.css';
-import { Input } from '../../components/Input/Input.js';
 import { Page } from '../../components/Page/Page.js';
 import { PostComments } from '../../components/PostComments/PostComments.js';
+import { PostEditDialog } from '../../components/PostEditDialog/PostEditDialog.js';
 import { PostPublications } from '../../components/PostPublications/PostPublications.js';
 import { ResourcePreview } from '../../components/ResourcePreview/ResourcePreview.js';
 import { inbox, published, trash } from '../../data-managers/posts.js';
@@ -32,6 +32,8 @@ export const PostPage: Component = () => {
   const selectedContentPublicUrl = () => contentPublicUrls()[selectedContentIndex()];
 
   const youtubePost = () => post()?.posts?.find((post) => post.service === 'yt');
+
+  const [showEditDialog, setShowEditDialog] = createSignal(false);
 
   // TODO: display post trash
 
@@ -96,35 +98,7 @@ export const PostPage: Component = () => {
             </Show>
 
             <Frame component="section" variant="thin" class={styles.info}>
-              <Input label="Title" value={post().title} vertical class={styles.input} />
-              <Input label="Title on Russian" value={post().titleRu} vertical class={styles.input} />
-
-              <Input label="Description" value={post().description} vertical class={styles.input} />
-              <Input label="Description on Russian" value={post().descriptionRu} vertical class={styles.input} />
-
-              <Input label="Author" value={asArray(post().author).join(' ')} vertical class={styles.input} />
-              <Input label="Type" value={post().type} vertical class={styles.input} />
-
-              <Input label="Location" value={post().location} vertical class={styles.input} />
-              <Input label="Tags" value={asArray(post().tags).join(' ')} vertical class={styles.input} />
-
-              <Input label="Engine" value={post().engine} vertical class={styles.input} />
-              <Input label="Addon" value={post().addon} vertical class={styles.input} />
-
-              <Input label="Request Text" value={post().request?.text} vertical class={styles.input} />
-
-              <Input
-                label="Request Date"
-                value={post().request?.date ? dateToString(post()!.request!.date) : ''}
-                vertical
-                class={styles.input}
-              />
-
-              <Input label="Request User" value={post().request?.user} vertical class={styles.input} />
-
-              <Input label="Mark" value={post().mark} vertical class={styles.input} />
-
-              <Input label="Violation" value={post().violation} vertical class={styles.input} />
+              <Button onClick={() => setShowEditDialog(true)}>Edit</Button>
             </Frame>
 
             <Show when={post().posts}>
@@ -134,6 +108,12 @@ export const PostPage: Component = () => {
             <Show when={post().posts}>
               <PostPublications post={post()} class={styles.publications} />
             </Show>
+
+            <PostEditDialog
+              postEntry={[params.id, post()]}
+              show={showEditDialog()}
+              onClose={() => setShowEditDialog(false)}
+            />
           </section>
         )}
       </Show>
