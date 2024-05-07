@@ -63,7 +63,7 @@ export const PostPage: Component = () => {
                         onChange={(e) => setSelectedContentIndex(Number(e.target.value))}
                         class={styles.contentSelectorRadio}
                       />
-                      <ResourcePreview url={url} />
+                      <ResourcePreview url={url} showTooltip />
                     </label>
                   )}
                 </For>
@@ -72,7 +72,7 @@ export const PostPage: Component = () => {
 
             <Show when={selectedContent()}>
               {(url) => (
-                <Switch fallback={<ResourcePreview url={url()} />}>
+                <Switch fallback={<ResourcePreview url={url()} showTooltip />}>
                   <Match when={resourceIsVideo(url()) && youtubePost()}>
                     <iframe
                       width={800}
