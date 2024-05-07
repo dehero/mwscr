@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+}
+
+.fieldset {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+}
+
+.title {
+  width: 400px;
+}

@@ -26,11 +26,8 @@ import { PostPreviews } from '../../components/PostPreviews/PostPreviews.jsx';
 import { RadioGroup } from '../../components/RadioGroup/RadioGroup.jsx';
 import { Select } from '../../components/Select/Select.jsx';
 import { getUserName } from '../../data-managers/users.js';
+import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../utils/ui-constants.js';
 import styles from './PostsPage.module.css';
-
-const ALL_OPTION = { value: undefined, label: 'All' };
-const ANY_OPTION = { value: 'any', label: 'Any' };
-const NONE_OPTION = { value: 'none', label: 'None' };
 
 const comparators = [
   { value: 'id', label: 'ID', fn: comparePostEntriesById },
