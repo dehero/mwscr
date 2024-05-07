@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`6 items`
+`5 items`
 
 ## <span id="natty.2024-03-10-18-18-42">Both Gro-Durug</span>
 
@@ -24,26 +24,6 @@
 
 ```
 natty.2024-03-10-18-18-42
-```
-
-## <span id="natty.2024-03-10-12-40-06">Samia</span>
-
-`RU` Самия
-
-![store:/inbox/natty.2024-03-10-12-40-06.1.png](../../assets/previews/inbox/natty.2024-03-10-12-40-06.1.avif "natty.2024-03-10-12-40-06.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/natty.2024-03-10-12-40-06.png](../../assets/previews/inbox/natty.2024-03-10-12-40-06.avif "natty.2024-03-10-12-40-06")
-</details>
-
-`shot` by [Natty](../contributors.md#natty)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-12-40-06&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-12-40-06.1.png&amp;postTitle=Samia&amp;postTitleRu=%D0%A1%D0%B0%D0%BC%D0%B8%D1%8F&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Pelagiad%2C+Halfway+Tavern&amp;postMark=B2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-03-10-12-40-06.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-12-40-06) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-12-40-06) `B2` `📍 Pelagiad, Halfway Tavern` `🚀 OpenMW`
-
-```
-natty.2024-03-10-12-40-06
 ```
 
 ## <span id="natty.2024-03-10-12-38-23">After the Repast</span>

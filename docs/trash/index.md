@@ -4,7 +4,7 @@
 
 # Trash for 2024
 
-`11 items`
+`12 items`
 
 ## <span id="natty.2024-03-28-20-37-30">natty.2024-03-28-20-37-30</span>
 
@@ -74,6 +74,21 @@ natty.2024-03-10-16-09-50
 
 ```
 natty.2024-03-10-12-48-20
+```
+
+## <span id="natty.2024-03-10-12-40-06">Samia</span>
+
+`RU` Самия
+
+![store:/trash/natty.2024-03-10-12-40-06.1.png](../../assets/previews/trash/natty.2024-03-10-12-40-06.1.avif "natty.2024-03-10-12-40-06.1")
+![store:/trash/natty.2024-03-10-12-40-06.png](../../assets/previews/trash/natty.2024-03-10-12-40-06.avif "natty.2024-03-10-12-40-06")
+
+`shot` by [Natty](../contributors.md#natty)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-12-40-06&amp;postContent=store%3A%2Ftrash%2Fnatty.2024-03-10-12-40-06.1.png%0Astore%3A%2Ftrash%2Fnatty.2024-03-10-12-40-06.png&amp;postTitle=Samia&amp;postTitleRu=%D0%A1%D0%B0%D0%BC%D0%B8%D1%8F&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Pelagiad%2C+Halfway+Tavern&amp;postMark=D&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-12-40-06) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-12-40-06) `D` `📍 Pelagiad, Halfway Tavern` `🚀 OpenMW`
+
+```
+natty.2024-03-10-12-40-06
 ```
 
 ## <span id="dehero.2024-03-05-19-55-53">dehero.2024-03-05-19-55-53</span>
