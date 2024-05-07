@@ -1,5 +1,5 @@
 import type { SiteRoute } from '../../core/entities/site-route.js';
-import { AboutPage } from '../pages/AboutPage/AboutPage.jsx';
+import { AboutPage } from '../pages/AboutPage/AboutPage.js';
 
 export const homeRoute: SiteRoute = {
   path: '/',

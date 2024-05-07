@@ -21,8 +21,6 @@ export class WebPostsManager<TPost extends Post = Post> extends PostsManager<TPo
     this.name = name;
     this.chunksLoaders = chunksLoaders;
     this.getPostChunkName = getPostChunkName;
-
-    console.log(chunksLoaders);
   }
 
   addPost = async (id: string, post: string | Post) => {

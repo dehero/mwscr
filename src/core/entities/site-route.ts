@@ -7,7 +7,10 @@ export interface SiteRouteInfo {
 
 export type SiteRouteParams = Record<string, string>;
 
-export interface SiteRoute<TParams extends SiteRouteParams = SiteRouteParams> extends RouteDefinition {
+export interface SiteRoute<
+  TParams extends SiteRouteParams = SiteRouteParams,
+  TInfo extends SiteRouteInfo = SiteRouteInfo,
+> extends RouteDefinition {
   createUrl: (params: TParams) => string;
-  info: SiteRouteInfo;
+  info: TInfo;
 }
