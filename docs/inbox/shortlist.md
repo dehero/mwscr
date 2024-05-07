@@ -4,7 +4,32 @@
 
 # Shortlist
 
-`7 items`
+`8 items`
+
+## <span id="natty.2024-03-28-22-20-02">Royal Draggle-Tail</span>
+
+`RU` Королевский грязнохвостник
+
+![store:/inbox/natty.2024-03-28-20-44-00.1.png](../../assets/previews/inbox/natty.2024-03-28-20-44-00.1.avif "natty.2024-03-28-20-44-00.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/natty.2024-03-28-22-20-02.1.png](../../assets/previews/inbox/natty.2024-03-28-22-20-02.1.avif "natty.2024-03-28-22-20-02.1")
+![store:/inbox/natty.2024-03-28-22-20-02.png](../../assets/previews/inbox/natty.2024-03-28-22-20-02.avif "natty.2024-03-28-22-20-02")
+![store:/inbox/natty.2024-03-28-20-44-00.png](../../assets/previews/inbox/natty.2024-03-28-20-44-00.avif "natty.2024-03-28-20-44-00")
+![store:/inbox/natty.2024-03-28-20-43-09.png](../../assets/previews/inbox/natty.2024-03-28-20-43-09.avif "natty.2024-03-28-20-43-09")
+![store:/inbox/natty.2024-03-28-20-42-55.png](../../assets/previews/inbox/natty.2024-03-28-20-42-55.avif "natty.2024-03-28-20-42-55")
+![store:/inbox/natty.2024-03-28-20-42-37.png](../../assets/previews/inbox/natty.2024-03-28-20-42-37.avif "natty.2024-03-28-20-42-37")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-28-22-20-02&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-28-20-44-00.1.png&amp;postTitle=Royal+Draggle-Tail&amp;postTitleRu=%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%B3%D1%80%D1%8F%D0%B7%D0%BD%D0%BE%D1%85%D0%B2%D0%BE%D1%81%D1%82%D0%BD%D0%B8%D0%BA&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Ules+Manor&amp;postMark=B2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-03-28-22-20-02.1.png%0Astore%3A%2Finbox%2Fnatty.2024-03-28-22-20-02.png%0Astore%3A%2Finbox%2Fnatty.2024-03-28-20-44-00.png%0Astore%3A%2Finbox%2Fnatty.2024-03-28-20-43-09.png%0Astore%3A%2Finbox%2Fnatty.2024-03-28-20-42-55.png%0Astore%3A%2Finbox%2Fnatty.2024-03-28-20-42-37.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-28-22-20-02) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-28-22-20-02) `B2` `📍 Ules Manor` `🚀 OpenMW`
+
+```
+natty.2024-03-28-22-20-02
+```
 
 ## <span id="natty.2024-03-28-20-45-59">Slaves Sleep Peacefully in Their Shacks</span>
 
