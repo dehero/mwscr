@@ -24,10 +24,10 @@ export const Dialog: Component<DialogProps> = (props) => {
 
   createEffect(() => {
     if (props.show) {
-      document.addEventListener('click', handleClick);
+      document.addEventListener('mousedown', handleClick);
 
       onCleanup(() => {
-        document.removeEventListener('click', handleClick);
+        document.removeEventListener('mousedown', handleClick);
       });
     }
   });

@@ -33,6 +33,7 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
           ref={ref}
           src={getStorePreviewUrl(props.url)}
           class={clsx(frameStyles.thin, styles.preview, props.class)}
+          draggable="false"
         />
         <Show when={props.showTooltip}>
           <Tooltip forRef={ref}>{props.url}</Tooltip>
