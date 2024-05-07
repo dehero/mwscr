@@ -4,7 +4,27 @@
 
 # Shortlist
 
-`5 items`
+`6 items`
+
+## <span id="natty.2024-03-10-18-22-07">Road to the Well</span>
+
+`RU` Дорога к колодцу
+
+![store:/inbox/natty.2024-03-10-18-22-07.1.png](../../assets/previews/inbox/natty.2024-03-10-18-22-07.1.avif "natty.2024-03-10-18-22-07.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/natty.2024-03-10-18-22-07.png](../../assets/previews/inbox/natty.2024-03-10-18-22-07.avif "natty.2024-03-10-18-22-07")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-18-22-07&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-18-22-07.1.png&amp;postTitle=Road+to+the+Well&amp;postTitleRu=%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B0+%D0%BA+%D0%BA%D0%BE%D0%BB%D0%BE%D0%B4%D1%86%D1%83&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=well+fort+bridge&amp;postLocation=Wolverine+Hall&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-03-10-18-22-07.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-18-22-07) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-18-22-07) `B1` `📍 Wolverine Hall` `🚀 OpenMW` `well` `fort` `bridge`
+
+```
+natty.2024-03-10-18-22-07
+```
 
 ## <span id="natty.2024-03-10-18-18-42">Both Gro-Durug</span>
 

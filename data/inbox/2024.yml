@@ -268,11 +268,19 @@ natty.2024-03-10-18-19-21:
   type: shot
   author: natty
 natty.2024-03-10-18-22-07:
-  content:
-    - store:/inbox/natty.2024-03-10-18-22-07.png
-    - store:/inbox/natty.2024-03-10-18-22-07.1.png
+  title: Road to the Well
+  titleRu: Дорога к колодцу
+  location: Wolverine Hall
+  content: store:/inbox/natty.2024-03-10-18-22-07.1.png
+  trash: store:/inbox/natty.2024-03-10-18-22-07.png
   type: shot
   author: natty
+  engine: OpenMW
+  tags:
+    - well
+    - fort
+    - bridge
+  mark: B1
 natty.2024-03-10-18-30-02:
   content: store:/inbox/natty.2024-03-10-18-30-02.png
   type: shot
