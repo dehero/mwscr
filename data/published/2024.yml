@@ -1517,21 +1517,46 @@
       id: C6owokUs7Gc
       mediaId: '18259731655241654'
       published: 2024-05-06-18-20-59
-      updated: 2024-05-07-17-46-11
+      updated: 2024-05-07-18-18-29
       followers: 1416
       likes: 68
-      views: 177
+      views: 178
     - service: vk
       id: 1523
       published: 2024-05-06-18-21-06
-      updated: 2024-05-07-17-42-59
+      updated: 2024-05-07-18-18-29
       followers: 913
       likes: 24
-      views: 145
+      views: 146
     - service: tg
       id: 400
       published: 2024-05-06-18-21-14
-      updated: 2024-05-07-17-43-00
+      updated: 2024-05-07-18-18-29
       followers: 371
       likes: 40
       views: 123
+2024-05-07.campfire:
+  title: Campfire
+  titleRu: У костра
+  content: store:/shots/2024-05-07.campfire.png
+  trash: store:/trash/dehero.2019-02-16-21-46-51.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - campfire
+  mark: B1
+  posts:
+    - service: ig
+      id: C6rVKwMRUNV
+      mediaId: '18027033302080792'
+      published: 2024-05-07-18-18-44
+      followers: 1416
+    - service: vk
+      id: 1524
+      published: 2024-05-07-18-18-49
+      followers: 913
+    - service: tg
+      id: 401
+      published: 2024-05-07-18-18-56
+      followers: 371

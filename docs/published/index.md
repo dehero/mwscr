@@ -4,7 +4,36 @@
 
 # Published in 2024
 
-`70 items`
+`71 items`
+
+## <span id="2024-05-07.campfire">Campfire</span>
+
+`RU` У костра
+
+<a href="https://instagram.com/p/C6rVKwMRUNV/" title="2024-05-07.campfire"><img alt="store:/shots/2024-05-07.campfire.png" src="../../assets/previews/shots/2024-05-07.campfire.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2019-02-16-21-46-51.png](../../assets/previews/trash/dehero.2019-02-16-21-46-51.avif "dehero.2019-02-16-21-46-51")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-07.campfire)</code> `🚀 OpenMW` `campfire`
+
+```
+2024-05-07.campfire
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C6rVKwMRUNV/)       | 2024-05-07 |      1416 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1524) | 2024-05-07 |       913 |
+| [`tg`](https://t.me/mwscr/401)                     | 2024-05-07 |       371 |
+|                                                    |            |      2700 |
 
 ## <span id="2024-05-06.alchemist-table">Alchemist Table</span>
 
@@ -30,10 +59,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6owokUs7Gc/)       | 2024-05-06 |   177 |    68 |      1416 |    4.8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1523) | 2024-05-06 |   145 |    24 |       913 |   2.63 |
+| [`ig`](https://instagram.com/p/C6owokUs7Gc/)       | 2024-05-06 |   178 |    68 |      1416 |    4.8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1523) | 2024-05-06 |   146 |    24 |       913 |   2.63 |
 | [`tg`](https://t.me/mwscr/400)                     | 2024-05-06 |   123 |    40 |       371 |  10.78 |
-|                                                    |            |   445 |   132 |      2700 |   6.07 |
+|                                                    |            |   447 |   132 |      2700 |   6.07 |
 
 ## <span id="2024-05-05.dinner-for-four">Dinner for Four</span>
 
