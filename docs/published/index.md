@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6owokUs7Gc/)       | 2024-05-06 |   144 |    60 |      1416 |   4.24 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1523) | 2024-05-06 |   111 |    23 |       913 |   2.52 |
+| [`ig`](https://instagram.com/p/C6owokUs7Gc/)       | 2024-05-06 |   146 |    61 |      1416 |   4.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1523) | 2024-05-06 |   117 |    23 |       913 |   2.52 |
 | [`tg`](https://t.me/mwscr/400)                     | 2024-05-06 |   109 |    36 |       371 |    9.7 |
-|                                                    |            |   364 |   119 |      2700 |   5.49 |
+|                                                    |            |   372 |   120 |      2700 |   5.51 |
 
 ## <span id="2024-05-05.dinner-for-four">Dinner for Four</span>
 
@@ -61,10 +61,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6mLYNAPoIR/)       | 2024-05-05 |   261 |    73 |      1416 |   5.16 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1519) | 2024-05-05 |   162 |    29 |       913 |   3.18 |
+| [`ig`](https://instagram.com/p/C6mLYNAPoIR/)       | 2024-05-05 |   262 |    73 |      1416 |   5.16 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1519) | 2024-05-05 |   163 |    29 |       913 |   3.18 |
 | [`tg`](https://t.me/mwscr/399)                     | 2024-05-05 |   156 |    54 |       370 |  14.59 |
-|                                                    |            |   579 |   156 |      2699 |   7.64 |
+|                                                    |            |   581 |   156 |      2699 |   7.64 |
 
 #### Comments
 
@@ -269,8 +269,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_39)   | 2017-01-22 |    76 |       |         4 |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1512) | 2024-04-28 |   288 |    39 |       911 |   4.28 |
 | [`tg`](https://t.me/mwscr/392)                     | 2024-04-28 |   275 |    64 |       354 |  18.08 |
-| [`ig`](https://instagram.com/p/C6YMB6DxXL3/)       | 2024-04-30 |   236 |    68 |      1415 |   4.81 |
-|                                                    |            |   875 |   192 |      2680 |   9.06 |
+| [`ig`](https://instagram.com/p/C6YMB6DxXL3/)       | 2024-04-30 |   239 |    68 |      1415 |   4.81 |
+|                                                    |            |   878 |   192 |      2680 |   9.06 |
 
 ## <span id="2024-04-27.sunset-over-the-lava-river">Sunset Over the Lava River</span>
 
@@ -1061,12 +1061,12 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BVCJ8xHDrD1/)       | 2017-06-07 |       |    52 |           |        |
+| [`ig`](https://instagram.com/p/BVCJ8xHDrD1/)       | 2017-06-07 |       |    51 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_314)  | 2017-06-07 |   213 |     9 |        61 |      9 |
 | [`ig`](https://instagram.com/p/C5TxQvku6cF/)       | 2024-04-03 |    75 |     9 |      1408 |   0.64 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1479) | 2024-04-03 |   214 |    22 |       906 |   2.43 |
 | [`tg`](https://t.me/mwscr/366)                     | 2024-04-03 |   377 |    53 |       353 |  15.01 |
-|                                                    |            |   879 |   145 |      2667 |   6.77 |
+|                                                    |            |   879 |   144 |      2667 |   6.77 |
 
 #### Comments
 
