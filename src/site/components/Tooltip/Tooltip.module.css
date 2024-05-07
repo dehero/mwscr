@@ -8,5 +8,5 @@
   background: var(--color-background);
   /* Compensate cursor size */
   left: 8px;
-  top: 32px;
+  top: 0;
 }

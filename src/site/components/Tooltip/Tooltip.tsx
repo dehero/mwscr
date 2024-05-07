@@ -7,6 +7,10 @@ import { Portal } from 'solid-js/web';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Tooltip.module.css';
 
+const CURSOR_OFFSET_X = 8;
+const CURSOR_OFFSET_Y = 32;
+const CURSOR_SIZE = 16;
+
 export interface TooltipProps {
   class?: string;
   children?: JSX.Element;
@@ -39,7 +43,16 @@ export const Tooltip: Component<TooltipProps> = (props) => {
           component="div"
           variant="thin"
           class={clsx(styles.tooltip, props.class)}
-          style={{ transform: `translate(${mouse.x - (size.width ?? 0) / 2}px, ${mouse.y}px)` }}
+          style={{
+            transform: `translate(${Math.min(
+              Math.max(-CURSOR_OFFSET_X, mouse.x - (size.width ?? 0) / 2),
+              window.innerWidth - (size.width ?? 0) - CURSOR_OFFSET_X,
+            )}px, ${
+              mouse.y + CURSOR_OFFSET_Y + (size.height ?? 0) > window.innerHeight
+                ? mouse.y - CURSOR_OFFSET_Y + CURSOR_SIZE - (size.height ?? 0)
+                : mouse.y + CURSOR_OFFSET_Y
+            }px)`,
+          }}
         >
           {props.children}
         </Frame>
