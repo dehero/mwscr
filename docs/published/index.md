@@ -4,7 +4,30 @@
 
 # Published in 2024
 
-`71 items`
+`72 items`
+
+## <span id="2024-05-08.slaves-sleep-peacefully-in-their-shacks">Slaves Sleep Peacefully in Their Shacks</span>
+
+`RU` Рабы мирно спят в своих хижинах
+
+<a href="https://instagram.com/p/C6t6ArvSgR_/" title="2024-05-08.slaves-sleep-peacefully-in-their-shacks"><img alt="store:/shots/2024-05-08.slaves-sleep-peacefully-in-their-shacks.png" src="../../assets/previews/shots/2024-05-08.slaves-sleep-peacefully-in-their-shacks.avif" /></a>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-08.slaves-sleep-peacefully-in-their-shacks)</code> `🚀 OpenMW` `night` `stars` `shacks` `fireplace`
+
+```
+2024-05-08.slaves-sleep-peacefully-in-their-shacks
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C6t6ArvSgR_/)       | 2024-05-08 |      1417 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1525) | 2024-05-08 |       913 |
+| [`tg`](https://t.me/mwscr/402)                     | 2024-05-08 |       370 |
+|                                                    |            |      2700 |
 
 ## <span id="2024-05-07.campfire">Campfire</span>
 
@@ -30,10 +53,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6rVKwMRUNV/)       | 2024-05-07 |   211 |    69 |      1416 |   4.87 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1524) | 2024-05-07 |   158 |    25 |       913 |   2.74 |
-| [`tg`](https://t.me/mwscr/401)                     | 2024-05-07 |   133 |    39 |       371 |  10.51 |
-|                                                    |            |   502 |   133 |      2700 |   6.04 |
+| [`ig`](https://instagram.com/p/C6rVKwMRUNV/)       | 2024-05-07 |   217 |    70 |      1416 |   4.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1524) | 2024-05-07 |   162 |    25 |       913 |   2.74 |
+| [`tg`](https://t.me/mwscr/401)                     | 2024-05-07 |   134 |    39 |       371 |  10.51 |
+|                                                    |            |   513 |   134 |      2700 |   6.06 |
 
 ## <span id="2024-05-06.alchemist-table">Alchemist Table</span>
 
@@ -59,10 +82,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6owokUs7Gc/)       | 2024-05-06 |   203 |    76 |      1416 |   5.37 |
+| [`ig`](https://instagram.com/p/C6owokUs7Gc/)       | 2024-05-06 |   205 |    76 |      1416 |   5.37 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1523) | 2024-05-06 |   210 |    32 |       913 |    3.5 |
 | [`tg`](https://t.me/mwscr/400)                     | 2024-05-06 |   163 |    46 |       371 |   12.4 |
-|                                                    |            |   576 |   154 |      2700 |   7.09 |
+|                                                    |            |   578 |   154 |      2700 |   7.09 |
 
 ## <span id="2024-05-05.dinner-for-four">Dinner for Four</span>
 
@@ -90,10 +113,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6mLYNAPoIR/)       | 2024-05-05 |   267 |    73 |      1416 |   5.16 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1519) | 2024-05-05 |   168 |    29 |       913 |   3.18 |
-| [`tg`](https://t.me/mwscr/399)                     | 2024-05-05 |   162 |    54 |       370 |  14.59 |
-|                                                    |            |   597 |   156 |      2699 |   7.64 |
+| [`ig`](https://instagram.com/p/C6mLYNAPoIR/)       | 2024-05-05 |   284 |    78 |      1416 |   5.51 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1519) | 2024-05-05 |   181 |    29 |       913 |   3.18 |
+| [`tg`](https://t.me/mwscr/399)                     | 2024-05-05 |   179 |    54 |       370 |  14.59 |
+|                                                    |            |   644 |   161 |      2699 |   7.76 |
 
 #### Comments
 
@@ -120,10 +143,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6jmnFHNynU/)       | 2024-05-04 |   244 |    65 |      1417 |   4.59 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1518) | 2024-05-04 |   160 |    22 |       912 |   2.41 |
-| [`tg`](https://t.me/mwscr/398)                     | 2024-05-04 |   179 |    48 |       367 |  13.08 |
-|                                                    |            |   583 |   135 |      2696 |   6.69 |
+| [`ig`](https://instagram.com/p/C6jmnFHNynU/)       | 2024-05-04 |   255 |    72 |      1417 |   5.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1518) | 2024-05-04 |   167 |    22 |       912 |   2.41 |
+| [`tg`](https://t.me/mwscr/398)                     | 2024-05-04 |   211 |    50 |       367 |  13.62 |
+|                                                    |            |   633 |   144 |      2696 |   7.04 |
 
 #### Comments
 
