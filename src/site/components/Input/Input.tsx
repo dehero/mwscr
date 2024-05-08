@@ -1,7 +1,7 @@
 import { debounce } from '@solid-primitives/scheduled';
 import clsx from 'clsx';
 import { type Component, createEffect, createSignal, Show } from 'solid-js';
-import { Frame } from '../Frame/Frame.js';
+import frameStyles from '../Frame/Frame.module.css';
 import styles from './Input.module.css';
 
 interface InputProps {
@@ -13,6 +13,7 @@ interface InputProps {
   onDebouncedChange?: (value: string) => void;
   value?: string;
   multiline?: boolean;
+  readonly?: boolean;
   rows?: number | string;
 }
 
@@ -32,31 +33,31 @@ export const Input: Component<InputProps> = (props) => {
   createEffect(() => setLocalValue(props.value || ''));
 
   return (
-    <label class={clsx(styles.container, props.vertical && styles.vertical, props.class)}>
+    <label class={clsx(styles.container, props.vertical && styles.vertical)}>
       <Show when={props.label}>
         <span class={styles.label}>{props.label}</span>
       </Show>
-      <Frame variant="thin">
-        <Show
-          when={props.multiline}
-          fallback={
-            <input
-              class={styles.input}
-              name={props.name}
-              onInput={(e) => handleInput(e.target.value)}
-              value={localValue()}
-            />
-          }
-        >
-          <textarea
-            class={styles.input}
+      <Show
+        when={props.multiline}
+        fallback={
+          <input
+            class={clsx(frameStyles.thin, styles.input, props.class)}
             name={props.name}
-            rows={props.rows}
             onInput={(e) => handleInput(e.target.value)}
             value={localValue()}
+            readonly={props.readonly}
           />
-        </Show>
-      </Frame>
+        }
+      >
+        <textarea
+          class={clsx(frameStyles.thin, styles.input, props.class)}
+          name={props.name}
+          rows={props.rows}
+          onInput={(e) => handleInput(e.target.value)}
+          value={localValue()}
+          readonly={props.readonly}
+        />
+      </Show>
     </label>
   );
 };

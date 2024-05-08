@@ -10,10 +10,11 @@ export interface TableRow {
 interface TableProps extends TableRow {
   class?: string;
   rows: TableRow[];
+  lightLabels?: boolean;
 }
 
 export const Table: Component<TableProps> = (props) => {
-  const [local, rest] = splitProps(props, ['class', 'rows', 'label', 'value']);
+  const [local, rest] = splitProps(props, ['class', 'rows', 'label', 'value', 'lightLabels']);
   const rows = () => local.rows.filter((row) => row.value);
 
   return (
@@ -31,7 +32,7 @@ export const Table: Component<TableProps> = (props) => {
           <For each={rows()}>
             {(row) => (
               <tr>
-                <td class={styles.label}>{row.label}</td>
+                <td class={clsx(styles.label, local.lightLabels && styles.lightLabel)}>{row.label}</td>
                 <td class={styles.value}>{row.value}</td>
               </tr>
             )}

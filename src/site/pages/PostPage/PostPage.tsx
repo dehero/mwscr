@@ -1,3 +1,4 @@
+import { writeClipboard } from '@solid-primitives/clipboard';
 import { useParams } from '@solidjs/router';
 import clsx from 'clsx';
 import { type Component, createResource, createSignal, For, Match, Show, Switch } from 'solid-js';
@@ -9,12 +10,15 @@ import { Button } from '../../components/Button/Button.jsx';
 import { Divider } from '../../components/Divider/Divider.js';
 import { Frame } from '../../components/Frame/Frame.js';
 import frameStyles from '../../components/Frame/Frame.module.css';
+import { Input } from '../../components/Input/Input.js';
 import { Page } from '../../components/Page/Page.js';
 import { PostComments } from '../../components/PostComments/PostComments.js';
 import { PostEditDialog } from '../../components/PostEditDialog/PostEditDialog.js';
 import { PostPublications } from '../../components/PostPublications/PostPublications.js';
 import { ResourcePreview } from '../../components/ResourcePreview/ResourcePreview.js';
+import { Table } from '../../components/Table/Table.jsx';
 import { inbox, published, trash } from '../../data-managers/posts.js';
+import { getUserName } from '../../data-managers/users.js';
 import type { PostRouteParams } from '../../routes/post-route.js';
 import styles from './PostPage.module.css';
 
@@ -24,7 +28,11 @@ export const PostPage: Component = () => {
   const [selectedContentIndex, setSelectedContentIndex] = createSignal(0);
 
   const manager = [published, inbox, trash].find((m) => m.name === params.managerName);
-  const [post] = createResource(() => manager?.getPost(params.id));
+  const id = () => params.id;
+  const [post] = createResource(() => manager?.getPost(id()));
+
+  const title = () => post()?.title || 'Untitled';
+  const titleRu = () => post()?.titleRu || 'Без названия';
   const content = () => asArray(post()?.content);
   const contentPublicUrls = () => content().map((url) => storeDescriptor.getPublicUrl(parseResourceUrl(url).pathname));
 
@@ -34,11 +42,36 @@ export const PostPage: Component = () => {
   const youtubePost = () => post()?.posts?.find((post) => post.service === 'yt');
 
   const [showEditDialog, setShowEditDialog] = createSignal(false);
+  const [contentIsLoading, setContentIsLoading] = createSignal(true);
+  const [showIdCopiedMessage, setShowIdCopiedMessage] = createSignal(false);
+
+  const selectContent = (url: string) => {
+    const index = content().findIndex((u) => u === url);
+    setContentIsLoading(true);
+    setSelectedContentIndex(index);
+  };
+
+  const copyIdToClipboard = () => {
+    writeClipboard(id());
+    setShowIdCopiedMessage(true);
+    setTimeout(() => setShowIdCopiedMessage(false), 2000);
+  };
+
+  const handleContentLoad = () => setContentIsLoading(false);
 
   // TODO: display post trash
 
   return (
-    <Page title={post()?.title} status={post.loading ? 'Loading...' : undefined}>
+    <Page
+      title={title()}
+      status={
+        showIdCopiedMessage()
+          ? 'Copied post ID to clipboard'
+          : contentIsLoading() || post.loading
+            ? 'Loading...'
+            : undefined
+      }
+    >
       <Divider class={styles.divider} />
       <Show when={post()}>
         {(post) => (
@@ -55,14 +88,14 @@ export const PostPage: Component = () => {
             <Show when={content().length > 1}>
               <Frame component="section" variant="thin" class={styles.contentSelector}>
                 <For each={content()}>
-                  {(url, index) => (
+                  {(url) => (
                     <label class={styles.contentSelectorItem}>
                       <input
                         type="radio"
-                        value={index()}
+                        value={url}
                         name="selectedContent"
-                        checked={selectedContentIndex === index}
-                        onChange={(e) => setSelectedContentIndex(Number(e.target.value))}
+                        checked={selectedContent() === url}
+                        onChange={() => selectContent(url)}
                         class={styles.contentSelectorRadio}
                       />
                       <ResourcePreview url={url} showTooltip />
@@ -74,10 +107,10 @@ export const PostPage: Component = () => {
 
             <Show when={selectedContent()}>
               {(url) => (
-                <Switch fallback={<ResourcePreview url={url()} showTooltip />}>
+                <Switch fallback={<ResourcePreview url={url()} onLoad={handleContentLoad} showTooltip />}>
                   <Match when={resourceIsVideo(url()) && youtubePost()}>
                     <iframe
-                      width={800}
+                      width={804}
                       src={getServicePostUrl(youtubePost()!, true)}
                       title=""
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -85,20 +118,74 @@ export const PostPage: Component = () => {
                       // @ts-expect-error No proper typing
                       frameborder="0"
                       class={clsx(frameStyles.thin, styles.content, styles.youtubeVideo)}
+                      onLoad={handleContentLoad}
                     />
                   </Match>
                   <Match when={resourceIsImage(url()) && selectedContentPublicUrl()}>
                     <img
                       src={selectedContentPublicUrl()}
                       class={clsx(frameStyles.thin, styles.content, styles.image)}
+                      onLoad={handleContentLoad}
                     />
                   </Match>
                 </Switch>
               )}
             </Show>
 
-            <Frame component="section" variant="thin" class={styles.info}>
-              <Button onClick={() => setShowEditDialog(true)}>Edit</Button>
+            <Frame component="section" variant="thin" class={styles.main}>
+              <div class={styles.info}>
+                <section class={styles.titles}>
+                  <h1 class={styles.title}>{title()}</h1>
+                  <p class={styles.titleRu}>{titleRu()}</p>
+                </section>
+
+                <Show when={post().description || post().descriptionRu}>
+                  <section class={styles.descriptions}>
+                    <Show when={post().description}>
+                      <p class={styles.description}>{post().description}</p>
+                    </Show>
+                    <Show when={post().descriptionRu}>
+                      <p class={styles.description}>{post().descriptionRu}</p>
+                    </Show>
+                  </section>
+                </Show>
+              </div>
+
+              <Divider />
+
+              <Table
+                rows={[
+                  { label: 'Location', value: <Button class={styles.location}>{post().location || 'Locate'}</Button> },
+                  { label: 'Type', value: post().type },
+                  { label: 'Author', value: asArray(post().author).map(getUserName).join(', ') },
+                  { label: 'Engine', value: post().engine },
+                  { label: 'Addon', value: post().addon },
+                  { label: "Editor's Mark", value: post().mark },
+                  { label: 'Violation', value: post().violation },
+                ]}
+              />
+
+              <Show when={post().tags?.length}>
+                <Divider />
+
+                <Table label="Tags" rows={post().tags?.map((label) => ({ label, value: <></> })) ?? []}></Table>
+              </Show>
+
+              <div class={styles.id}>
+                <Input value={id()} readonly />
+                <Button class={styles.copy} onClick={copyIdToClipboard}>
+                  Copy
+                </Button>
+              </div>
+
+              <div class={styles.spacer} />
+
+              <div class={styles.footer}>
+                <div class={styles.spacer} />
+                <Button onClick={() => setShowEditDialog(true)} class={styles.edit}>
+                  Edit
+                </Button>
+              </div>
             </Frame>
 
             <Show when={post().posts}>
@@ -110,7 +197,7 @@ export const PostPage: Component = () => {
             </Show>
 
             <PostEditDialog
-              postEntry={[params.id, post()]}
+              postEntry={[id(), post()]}
               show={showEditDialog()}
               onClose={() => setShowEditDialog(false)}
             />

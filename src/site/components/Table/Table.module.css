@@ -15,6 +15,10 @@
   padding: 0;
 }
 
+.lightLabel {
+  color: var(--color-text-light);
+}
+
 .value {
   text-align: right;
   width: 100%;
