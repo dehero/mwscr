@@ -183,7 +183,8 @@ const getUsedUsers = async (postsManager: PostsManager): Promise<string[]> => {
 export const PostsPage: Component = () => {
   const [searchParams, setSearchParams] = useSearchParams<Required<PostsPageSearchParams>>();
 
-  const info = () => useCurrentMatches()[0]?.route.info as PostsPageRouteInfo;
+  const routeMatches = useCurrentMatches();
+  const info = () => routeMatches[0]?.route.info as PostsPageRouteInfo;
 
   const sortOptions = () => comparators.filter((item) => !info().sortKeys || info().sortKeys?.includes(item.value));
   const checkOptions = () => checks.filter((item) => !info().checkKeys || info().checkKeys?.includes(item.value));
@@ -205,8 +206,10 @@ export const PostsPage: Component = () => {
       Object.entries(preset.params).every(([key, value]) => searchParams[key as keyof PostsPageSearchParams] === value),
     )?.value;
 
-  const setPreset = (preset: PresetKey | undefined) =>
+  const setPreset = (preset: PresetKey | undefined) => {
+    console.log(presetOptions().find((item) => item.value === preset));
     setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.params });
+  };
   const setCheck = (check: CheckKey | undefined) => setSearchParams({ check });
   const setPostType = (type: PostType | undefined) => setSearchParams({ type });
   const setPostTag = (tag: string | undefined) => setSearchParams({ tag });
