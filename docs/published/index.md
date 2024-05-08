@@ -22,12 +22,16 @@
 
 ### Reactions
 
-|                                                    | published  | followers |
-|----------------------------------------------------|------------|----------:|
-| [`ig`](https://instagram.com/p/C6t6ArvSgR_/)       | 2024-05-08 |      1417 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1525) | 2024-05-08 |       913 |
-| [`tg`](https://t.me/mwscr/402)                     | 2024-05-08 |       370 |
-|                                                    |            |      2700 |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/C6t6ArvSgR_/)       | 2024-05-08 |    39 |    26 |      1417 |   1.83 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1525) | 2024-05-08 |    49 |    13 |       913 |   1.42 |
+| [`tg`](https://t.me/mwscr/402)                     | 2024-05-08 |    53 |    23 |       370 |   6.22 |
+|                                                    |            |   141 |    62 |      2700 |   3.16 |
+
+#### Comments
+
+- `tg` <ins title="2024-05-08-18-38-47">BaraFox</ins> Just wait until Twin Lamps cut the slavers and set all of those slaves free!
 
 ## <span id="2024-05-07.campfire">Campfire</span>
 
@@ -53,10 +57,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6rVKwMRUNV/)       | 2024-05-07 |   217 |    70 |      1416 |   4.94 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1524) | 2024-05-07 |   162 |    25 |       913 |   2.74 |
-| [`tg`](https://t.me/mwscr/401)                     | 2024-05-07 |   134 |    39 |       371 |  10.51 |
-|                                                    |            |   513 |   134 |      2700 |   6.06 |
+| [`ig`](https://instagram.com/p/C6rVKwMRUNV/)       | 2024-05-07 |   221 |    70 |      1416 |   4.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1524) | 2024-05-07 |   165 |    26 |       913 |   2.85 |
+| [`tg`](https://t.me/mwscr/401)                     | 2024-05-07 |   143 |    42 |       371 |  11.32 |
+|                                                    |            |   529 |   138 |      2700 |   6.37 |
 
 ## <span id="2024-05-06.alchemist-table">Alchemist Table</span>
 
