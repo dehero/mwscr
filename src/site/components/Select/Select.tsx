@@ -19,13 +19,13 @@ interface SelectProps<T> {
 
 export function Select<T extends string>(props: SelectProps<T>) {
   return (
-    <label class={clsx(styles.container, props.class)}>
+    <label class={clsx(styles.container)}>
       <Show when={props.label}>
         <span class={styles.label}>{props.label}</span>
       </Show>
       <Frame variant="thin" class={styles.wrapper}>
         <select
-          class={styles.select}
+          class={clsx(styles.select, props.class)}
           name={props.name}
           onChange={(e) => props.onChange((e.currentTarget.value || undefined) as T | undefined)}
         >

@@ -13,6 +13,7 @@ function getStorePreviewUrl(url: string | undefined) {
 export interface ResourcePreviewProps {
   url: string;
   class?: string;
+  onLoad?: () => void;
   showTooltip?: boolean;
 }
 
@@ -34,6 +35,7 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
           src={getStorePreviewUrl(props.url)}
           class={clsx(frameStyles.thin, styles.preview, props.class)}
           draggable="false"
+          onLoad={props.onLoad}
         />
         <Show when={props.showTooltip}>
           <Tooltip forRef={ref}>{props.url}</Tooltip>

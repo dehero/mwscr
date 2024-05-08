@@ -2,13 +2,13 @@
   display: grid;
   height: 100%;
   padding: 8px;
-  gap: 12px;
+  gap: 8px;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr 1fr 1fr 1fr;
   grid-template-areas:
     'contentSelector'
     'content'
-    'info'
+    'main'
     'publications'
     'comments';
   overflow-y: auto;
@@ -34,11 +34,11 @@
   display: block;
 }
 
-.info {
-  grid-area: info;
+.main {
+  grid-area: main;
   display: flex;
-  flex-direction: column;
-  gap: 8px;
+  flex-flow: column nowrap;
+  gap: 12px;
   padding: 8px;
 }
 
@@ -56,37 +56,37 @@
   }
 
   .container {
-    grid-template-columns: minmax(min-content, 322px) 1fr;
+    grid-template-columns: auto minmax(min-content, 322px) 1fr;
     grid-template-rows: auto 1fr;
-    grid-template-areas: 'contentSelector info' 'content info';
+    grid-template-areas: 'main contentSelector' 'main content';
     overflow: hidden;
     padding: 0 8px 8px 8px;
   }
 
   .container.withFullSizeContent {
-    grid-template-columns: fit-content(802px) 1fr 1fr;
+    grid-template-columns: 1fr fit-content(804px) 1fr;
   }
 
   .container.published {
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
     grid-template-areas:
-      'content info publications'
-      'content comments comments';
+      'main content publications'
+      'main content comments';
   }
 
   .container.published.withContentSelection {
     grid-template-rows: auto 1fr 1fr;
     grid-template-areas:
-      'contentSelector info publications'
-      'content info publications'
-      'content comments comments';
+      'main contentSelector publications'
+      'main content publications'
+      'main content comments';
   }
 
   .container.published.video {
     grid-template-rows: auto 1fr;
     grid-template-areas:
-      'content info publications'
-      'comments info publications';
+      'main content publications'
+      'main comments publications';
   }
 
   .contentSelector {
@@ -94,7 +94,7 @@
   }
 
   .contentSelector,
-  .info,
+  .attributes,
   .comments,
   .publications {
     overflow-y: auto;
@@ -118,10 +118,64 @@
 .youtubeVideo {
   aspect-ratio: 16 / 9;
   max-width: 100%;
+  box-sizing: border-box;
 }
 
-.input {
+.info {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 12px;
+  text-wrap: balance;
+}
+
+.titles {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4px;
+  text-align: center;
+}
+
+.title {
+  color: var(--color-text-light);
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
+.titleRu {
+  margin: 0;
+}
+
+.descriptions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.description {
+  margin: 0;
+}
+
+.id {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px;
   width: 100%;
+}
+
+.edit,
+.location {
+  display: inline-block;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 4px;
+}
+
+.spacer {
+  flex-grow: 1;
 }
 
 .contentSelectorRadio {
