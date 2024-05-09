@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`72 items`
+`73 items`
+
+## <span id="2024-05-09.strategic-stock">Strategic Stock</span>
+
+`RU` Стратегический запас
+
+<a href="https://instagram.com/p/Bi7jBPBlzUw/" title="2018-05-18.strategic-stock"><img alt="store:/shots/2018-05-18.strategic-stock.png" src="../../assets/previews/shots/2018-05-18.strategic-stock.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-09.strategic-stock)</code> `🚀 OpenMW` `barrels`
+
+```
+2024-05-09.strategic-stock
+```
+
+> `2018-05-18.strategic-stock`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bi7jBPBlzUw/)       | 2018-05-18 |       |    72 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_731)  | 2018-05-18 |   253 |    14 |       163 |   8.59 |
+| [`ig`](https://instagram.com/p/C6wetaLgomE/)       | 2024-05-09 |       |       |      1417 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1526) | 2024-05-09 |       |       |       913 |        |
+| [`tg`](https://t.me/mwscr/403)                     | 2024-05-09 |       |       |       370 |        |
+|                                                    |            |   253 |    86 |      2700 |        |
 
 ## <span id="2024-05-08.slaves-sleep-peacefully-in-their-shacks">Slaves Sleep Peacefully in Their Shacks</span>
 
@@ -24,10 +51,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6t6ArvSgR_/)       | 2024-05-08 |   272 |    83 |      1417 |   5.86 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1525) | 2024-05-08 |   159 |    29 |       913 |   3.18 |
+| [`ig`](https://instagram.com/p/C6t6ArvSgR_/)       | 2024-05-08 |   279 |    85 |      1417 |      6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1525) | 2024-05-08 |   160 |    29 |       913 |   3.18 |
 | [`tg`](https://t.me/mwscr/402)                     | 2024-05-08 |   121 |    49 |       370 |  13.24 |
-|                                                    |            |   552 |   161 |      2700 |   7.43 |
+|                                                    |            |   560 |   163 |      2700 |   7.47 |
 
 #### Comments
 
@@ -57,10 +84,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6rVKwMRUNV/)       | 2024-05-07 |   246 |    73 |      1416 |   5.16 |
+| [`ig`](https://instagram.com/p/C6rVKwMRUNV/)       | 2024-05-07 |   248 |    73 |      1416 |   5.16 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1524) | 2024-05-07 |   178 |    27 |       913 |   2.96 |
 | [`tg`](https://t.me/mwscr/401)                     | 2024-05-07 |   159 |    44 |       371 |  11.86 |
-|                                                    |            |   583 |   144 |      2700 |   6.66 |
+|                                                    |            |   585 |   144 |      2700 |   6.66 |
 
 ## <span id="2024-05-06.alchemist-table">Alchemist Table</span>
 
