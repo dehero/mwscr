@@ -24,10 +24,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6t6ArvSgR_/)       | 2024-05-08 |   132 |    50 |      1417 |   3.53 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1525) | 2024-05-08 |    91 |    23 |       913 |   2.52 |
-| [`tg`](https://t.me/mwscr/402)                     | 2024-05-08 |    86 |    37 |       370 |     10 |
-|                                                    |            |   309 |   110 |      2700 |   5.35 |
+| [`ig`](https://instagram.com/p/C6t6ArvSgR_/)       | 2024-05-08 |   153 |    53 |      1417 |   3.74 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1525) | 2024-05-08 |    97 |    23 |       913 |   2.52 |
+| [`tg`](https://t.me/mwscr/402)                     | 2024-05-08 |    93 |    40 |       370 |  10.81 |
+|                                                    |            |   343 |   116 |      2700 |   5.69 |
 
 #### Comments
 
@@ -57,10 +57,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6rVKwMRUNV/)       | 2024-05-07 |   227 |    71 |      1416 |   5.01 |
+| [`ig`](https://instagram.com/p/C6rVKwMRUNV/)       | 2024-05-07 |   228 |    71 |      1416 |   5.01 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1524) | 2024-05-07 |   168 |    27 |       913 |   2.96 |
-| [`tg`](https://t.me/mwscr/401)                     | 2024-05-07 |   151 |    43 |       371 |  11.59 |
-|                                                    |            |   546 |   141 |      2700 |   6.52 |
+| [`tg`](https://t.me/mwscr/401)                     | 2024-05-07 |   153 |    43 |       371 |  11.59 |
+|                                                    |            |   549 |   141 |      2700 |   6.52 |
 
 ## <span id="2024-05-06.alchemist-table">Alchemist Table</span>
 
@@ -900,10 +900,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   270 |    73 |      1411 |   5.17 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |   202 |    29 |       911 |   3.18 |
-| [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   355 |    57 |       353 |  16.15 |
-|                                                    |            |   827 |   159 |      2675 |   8.17 |
+| [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   274 |    73 |      1411 |   5.17 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |   205 |    29 |       911 |   3.18 |
+| [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   369 |    57 |       353 |  16.15 |
+|                                                    |            |   848 |   159 |      2675 |   8.17 |
 
 ## <span id="2024-04-09.telvanni-council-house">Telvanni Council House</span>
 
@@ -2026,16 +2026,17 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BakD8nDDT8q/)       | 2017-10-22 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_470)  | 2017-10-22 |   162 |    10 |        91 |     10 |
-| [`ig`](https://instagram.com/p/C4Lr1rqP6HP/)       | 2024-03-06 |   504 |   116 |      1380 |   8.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1438) | 2024-03-06 |   262 |    43 |       894 |   4.81 |
-| [`tg`](https://t.me/mwscr/337)                     | 2024-03-06 |   480 |    59 |       343 |   17.2 |
-|                                                    |            |  1408 |   289 |      2617 |   10.1 |
+| [`ig`](https://instagram.com/p/C4Lr1rqP6HP/)       | 2024-03-06 |   506 |   117 |      1380 |   8.48 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1438) | 2024-03-06 |   263 |    43 |       894 |   4.81 |
+| [`tg`](https://t.me/mwscr/337)                     | 2024-03-06 |   485 |    59 |       343 |   17.2 |
+|                                                    |            |  1416 |   290 |      2617 |  10.12 |
 
 #### Comments
 
 - `ig` <ins title="2024-03-06-18-20-20">someone_simple42</ins> Love these landscapes
 - `tg` <ins title="2024-03-06-18-25-12">Gatemate7</ins> whatever you do. dont take your morrowind gf to this place
   - <ins title="2024-03-06-20-38-36">ansis</ins> what he said. i made that mistake and now my relationship is no more. on the plus side, i&#39;ve gotten really good at necromancy.
+- `ig` <ins title="2024-05-02-03-57-29">nirnwayfarer</ins> 💖💖
 
 ## <span id="2024-03-05.mzahnch-at-sunset">Mzahnch at Sunset</span>
 
@@ -2266,10 +2267,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C35xPQ9s-8q/)       | 2024-02-28 |   573 |   156 |      1373 |  11.36 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1420) | 2024-02-28 |   311 |    40 |       894 |   4.47 |
-| [`tg`](https://t.me/mwscr/330)                     | 2024-02-28 |   549 |    73 |       338 |   21.6 |
-|                                                    |            |  1433 |   269 |      2605 |  12.48 |
+| [`ig`](https://instagram.com/p/C35xPQ9s-8q/)       | 2024-02-28 |   574 |   156 |      1373 |  11.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1420) | 2024-02-28 |   312 |    40 |       894 |   4.47 |
+| [`tg`](https://t.me/mwscr/330)                     | 2024-02-28 |   558 |    73 |       338 |   21.6 |
+|                                                    |            |  1444 |   269 |      2605 |  12.48 |
 
 #### Comments
 
