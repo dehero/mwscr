@@ -421,7 +421,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-25.abandoned-island)</code> `🚀 OpenMW`
+`B1` `📍 An Abandoned Shack` `🚀 OpenMW`
 
 ```
 2024-04-25.abandoned-island
