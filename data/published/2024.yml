@@ -1552,25 +1552,25 @@
       id: C6rVKwMRUNV
       mediaId: '18027033302080792'
       published: 2024-05-07-18-18-44
-      updated: 2024-05-09-18-17-56
+      updated: 2024-05-10-18-18-17
       followers: 1416
-      likes: 73
-      views: 248
+      likes: 76
+      views: 265
     - service: vk
       id: 1524
       published: 2024-05-07-18-18-49
-      updated: 2024-05-09-18-17-57
+      updated: 2024-05-10-18-18-18
       followers: 913
-      likes: 27
-      views: 178
+      likes: 30
+      views: 191
       reposts: 1
     - service: tg
       id: 401
       published: 2024-05-07-18-18-56
-      updated: 2024-05-09-18-17-57
+      updated: 2024-05-10-18-18-18
       followers: 371
-      likes: 44
-      views: 159
+      likes: 46
+      views: 179
 2024-05-08.slaves-sleep-peacefully-in-their-shacks:
   title: Slaves Sleep Peacefully in Their Shacks
   titleRu: Рабы мирно спят в своих хижинах
@@ -1589,25 +1589,52 @@
       id: C6t6ArvSgR_
       mediaId: '17864548779120942'
       published: 2024-05-08-18-19-08
-      updated: 2024-05-10-17-11-49
+      updated: 2024-05-10-18-18-17
       followers: 1417
       likes: 101
-      views: 327
+      views: 329
     - service: vk
       id: 1525
       published: 2024-05-08-18-19-16
-      updated: 2024-05-10-17-11-50
+      updated: 2024-05-10-18-18-17
       followers: 913
       likes: 32
-      views: 187
+      views: 189
     - service: tg
       id: 402
       published: 2024-05-08-18-19-25
-      updated: 2024-05-10-17-11-50
+      updated: 2024-05-10-18-18-17
       followers: 370
       likes: 58
-      views: 158
+      views: 159
       comments: !c |-
         G2AA4J2JMW64j72aESq9ASJPW7UQ4OSyGqhXtpnqTNVgEEsZIih4PN/kpvhcDw45YD+GbblnHGh5
         mtVyFLOddjw/S/BhWucvect4ORxM1LBdeN1C3YZ7gyaXzVIzFocsiQVfAQ==
 2024-05-09.strategic-stock: 2018-05-18.strategic-stock
+2024-05-10.after-the-repast:
+  title: After the Repast
+  titleRu: После трапезы
+  location: Pelagiad, Halfway Tavern
+  content: store:/shots/2024-05-10.after-the-repast.png
+  trash: store:/trash/natty.2024-03-10-12-38-09.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - table
+    - bottles
+  mark: B2
+  posts:
+    - service: ig
+      id: C6zDislvhcZ
+      mediaId: '18081732775420703'
+      published: 2024-05-10-18-18-37
+      followers: 1417
+    - service: vk
+      id: 1528
+      published: 2024-05-10-18-18-43
+      followers: 913
+    - service: tg
+      id: 404
+      published: 2024-05-10-18-18-49
+      followers: 371

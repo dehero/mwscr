@@ -4,7 +4,36 @@
 
 # Published in 2024
 
-`73 items`
+`74 items`
+
+## <span id="2024-05-10.after-the-repast">After the Repast</span>
+
+`RU` После трапезы
+
+<a href="https://instagram.com/p/C6zDislvhcZ/" title="2024-05-10.after-the-repast"><img alt="store:/shots/2024-05-10.after-the-repast.png" src="../../assets/previews/shots/2024-05-10.after-the-repast.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/natty.2024-03-10-12-38-09.png](../../assets/previews/trash/natty.2024-03-10-12-38-09.avif "natty.2024-03-10-12-38-09")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B2` `📍 Pelagiad, Halfway Tavern` `🚀 OpenMW` `table` `bottles`
+
+```
+2024-05-10.after-the-repast
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C6zDislvhcZ/)       | 2024-05-10 |      1417 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1528) | 2024-05-10 |       913 |
+| [`tg`](https://t.me/mwscr/404)                     | 2024-05-10 |       371 |
+|                                                    |            |      2701 |
 
 ## <span id="2024-05-09.strategic-stock">Strategic Stock</span>
 
@@ -29,9 +58,9 @@
 | [`ig`](https://instagram.com/p/Bi7jBPBlzUw/)       | 2018-05-18 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_731)  | 2018-05-18 |   253 |    14 |       163 |   8.59 |
 | [`ig`](https://instagram.com/p/C6wetaLgomE/)       | 2024-05-09 |   185 |    54 |      1417 |   3.81 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1526) | 2024-05-09 |   155 |    28 |       913 |   3.07 |
-| [`tg`](https://t.me/mwscr/403)                     | 2024-05-09 |   122 |    44 |       370 |  11.89 |
-|                                                    |            |   715 |   212 |      2700 |   6.84 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1526) | 2024-05-09 |   158 |    28 |       913 |   3.07 |
+| [`tg`](https://t.me/mwscr/403)                     | 2024-05-09 |   124 |    44 |       370 |  11.89 |
+|                                                    |            |   720 |   212 |      2700 |   6.84 |
 
 #### Comments
 
@@ -55,10 +84,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6t6ArvSgR_/)       | 2024-05-08 |   327 |   101 |      1417 |   7.13 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1525) | 2024-05-08 |   187 |    32 |       913 |    3.5 |
-| [`tg`](https://t.me/mwscr/402)                     | 2024-05-08 |   158 |    58 |       370 |  15.68 |
-|                                                    |            |   672 |   191 |      2700 |   8.77 |
+| [`ig`](https://instagram.com/p/C6t6ArvSgR_/)       | 2024-05-08 |   329 |   101 |      1417 |   7.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1525) | 2024-05-08 |   189 |    32 |       913 |    3.5 |
+| [`tg`](https://t.me/mwscr/402)                     | 2024-05-08 |   159 |    58 |       370 |  15.68 |
+|                                                    |            |   677 |   191 |      2700 |   8.77 |
 
 #### Comments
 
@@ -88,10 +117,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6rVKwMRUNV/)       | 2024-05-07 |   248 |    73 |      1416 |   5.16 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1524) | 2024-05-07 |   178 |    27 |       913 |   2.96 |
-| [`tg`](https://t.me/mwscr/401)                     | 2024-05-07 |   159 |    44 |       371 |  11.86 |
-|                                                    |            |   585 |   144 |      2700 |   6.66 |
+| [`ig`](https://instagram.com/p/C6rVKwMRUNV/)       | 2024-05-07 |   265 |    76 |      1416 |   5.37 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1524) | 2024-05-07 |   191 |    30 |       913 |   3.29 |
+| [`tg`](https://t.me/mwscr/401)                     | 2024-05-07 |   179 |    46 |       371 |   12.4 |
+|                                                    |            |   635 |   152 |      2700 |   7.02 |
 
 ## <span id="2024-05-06.alchemist-table">Alchemist Table</span>
 
@@ -865,10 +894,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BPcBYf9lwjH/)       | 2017-01-19 |       |    34 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_67)   | 2017-01-19 |   138 |     5 |         4 |      5 |
-| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   396 |   104 |      1413 |   7.36 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |   245 |    35 |       911 |   3.84 |
-| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |   376 |    67 |       352 |  19.03 |
-|                                                    |            |  1155 |   245 |      2676 |   8.81 |
+| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   403 |   104 |      1413 |   7.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |   247 |    35 |       911 |   3.84 |
+| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |   388 |    67 |       352 |  19.03 |
+|                                                    |            |  1176 |   245 |      2676 |   8.81 |
 
 #### Comments
 
