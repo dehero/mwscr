@@ -28,15 +28,18 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYdQtClDTdx/)       | 2017-08-31 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_411)  | 2017-08-31 |   121 |     8 |        76 |      8 |
-| [`ig`](https://instagram.com/p/C61oPzKREuZ/)       | 2024-05-11 |    75 |    35 |      1418 |   2.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1529) | 2024-05-11 |    50 |    12 |       915 |   1.31 |
-| [`tg`](https://t.me/mwscr/405)                     | 2024-05-11 |    68 |    29 |       371 |   7.82 |
-|                                                    |            |   314 |   143 |      2704 |    4.9 |
+| [`ig`](https://instagram.com/p/C61oPzKREuZ/)       | 2024-05-11 |    99 |    43 |      1418 |   3.03 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1529) | 2024-05-11 |    64 |    16 |       915 |   1.75 |
+| [`tg`](https://t.me/mwscr/405)                     | 2024-05-11 |    75 |    33 |       371 |   8.89 |
+|                                                    |            |   359 |   159 |      2704 |   5.42 |
 
 #### Comments
 
 - `ig` <ins title="2017-09-06-14-40-11">sam.m.cooley</ins> Gotta get dat Sword of White Woe
 - `tg` <ins title="2024-05-11-18-44-43">stasyajoystick</ins> очень красиво
+- `ig` <ins title="2024-05-11-20-30-42">delanospies</ins> @dravenjv my type of spot
+  - <ins title="2024-05-11-20-47-16">delanospies</ins> @dravenjv ya feel me 🔥
+  - <ins title="2024-05-11-20-36-37">dravenjv</ins> good to sit and ground yourself after a night at the house of earthly delights 🔥
 
 ## <span id="2024-05-10.after-the-repast">After the Repast</span>
 
@@ -62,10 +65,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6zDislvhcZ/)       | 2024-05-10 |   234 |    62 |      1417 |   4.38 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1528) | 2024-05-10 |   135 |    18 |       913 |   1.97 |
-| [`tg`](https://t.me/mwscr/404)                     | 2024-05-10 |   158 |    45 |       371 |  12.13 |
-|                                                    |            |   527 |   125 |      2701 |   6.16 |
+| [`ig`](https://instagram.com/p/C6zDislvhcZ/)       | 2024-05-10 |   239 |    64 |      1417 |   4.52 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1528) | 2024-05-10 |   136 |    19 |       913 |   2.08 |
+| [`tg`](https://t.me/mwscr/404)                     | 2024-05-10 |   159 |    45 |       371 |  12.13 |
+|                                                    |            |   534 |   128 |      2701 |   6.24 |
 
 #### Comments
 
