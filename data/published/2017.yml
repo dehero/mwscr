@@ -7003,11 +7003,22 @@
       id: C61oPzKREuZ
       mediaId: '18057024232604397'
       published: 2024-05-11-18-17-50
+      updated: 2024-05-11-19-11-12
       followers: 1418
+      likes: 21
+      views: 46
     - service: tg
       id: 405
       published: 2024-05-11-18-18-01
+      updated: 2024-05-11-19-11-13
       followers: 371
+      likes: 23
+      views: 56
+      comments: !c ixmAkZPLQnj2j4vXgACuc3Rhc3lham95c3RpY2u50L7Rh9C10L3RjCDQutGA0LDRgdC40LLQvgM=
+    - service: vk
+      id: 1529
+      published: 2024-05-11-19-11-21
+      followers: 915
 2017-09-01.the-last-refuge:
   title: The Last Refuge
   titleRu: Последнее прибежище

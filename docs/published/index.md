@@ -24,17 +24,19 @@
 
 ### Reactions
 
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BYdQtClDTdx/)      | 2017-08-31 |       |    59 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_411) | 2017-08-31 |   121 |     8 |        76 |      8 |
-| [`ig`](https://instagram.com/p/C61oPzKREuZ/)      | 2024-05-11 |       |       |      1418 |        |
-| [`tg`](https://t.me/mwscr/405)                    | 2024-05-11 |       |       |       371 |        |
-|                                                   |            |   121 |    67 |      1865 |        |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BYdQtClDTdx/)       | 2017-08-31 |       |    59 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_411)  | 2017-08-31 |   121 |     8 |        76 |      8 |
+| [`ig`](https://instagram.com/p/C61oPzKREuZ/)       | 2024-05-11 |    46 |    21 |      1418 |   1.48 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1529) | 2024-05-11 |       |       |       915 |        |
+| [`tg`](https://t.me/mwscr/405)                     | 2024-05-11 |    56 |    23 |       371 |    6.2 |
+|                                                    |            |   223 |   111 |      2704 |   5.23 |
 
 #### Comments
 
 - `ig` <ins title="2017-09-06-14-40-11">sam.m.cooley</ins> Gotta get dat Sword of White Woe
+- `tg` <ins title="2024-05-11-18-44-43">stasyajoystick</ins> очень красиво
 
 ## <span id="2024-05-10.after-the-repast">After the Repast</span>
 
@@ -60,10 +62,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6zDislvhcZ/)       | 2024-05-10 |   230 |    61 |      1417 |    4.3 |
+| [`ig`](https://instagram.com/p/C6zDislvhcZ/)       | 2024-05-10 |   231 |    61 |      1417 |    4.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1528) | 2024-05-10 |   133 |    17 |       913 |   1.86 |
-| [`tg`](https://t.me/mwscr/404)                     | 2024-05-10 |   145 |    45 |       371 |  12.13 |
-|                                                    |            |   508 |   123 |      2701 |    6.1 |
+| [`tg`](https://t.me/mwscr/404)                     | 2024-05-10 |   155 |    45 |       371 |  12.13 |
+|                                                    |            |   519 |   123 |      2701 |    6.1 |
 
 #### Comments
 
@@ -119,10 +121,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6t6ArvSgR_/)       | 2024-05-08 |   329 |   101 |      1417 |   7.13 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1525) | 2024-05-08 |   189 |    32 |       913 |    3.5 |
-| [`tg`](https://t.me/mwscr/402)                     | 2024-05-08 |   159 |    58 |       370 |  15.68 |
-|                                                    |            |   677 |   191 |      2700 |   8.77 |
+| [`ig`](https://instagram.com/p/C6t6ArvSgR_/)       | 2024-05-08 |   349 |   105 |      1417 |   7.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1525) | 2024-05-08 |   218 |    36 |       913 |   3.94 |
+| [`tg`](https://t.me/mwscr/402)                     | 2024-05-08 |   179 |    61 |       370 |  16.49 |
+|                                                    |            |   746 |   202 |      2700 |   9.28 |
 
 #### Comments
 
@@ -152,10 +154,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6rVKwMRUNV/)       | 2024-05-07 |   265 |    76 |      1416 |   5.37 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1524) | 2024-05-07 |   191 |    30 |       913 |   3.29 |
-| [`tg`](https://t.me/mwscr/401)                     | 2024-05-07 |   179 |    46 |       371 |   12.4 |
-|                                                    |            |   635 |   152 |      2700 |   7.02 |
+| [`ig`](https://instagram.com/p/C6rVKwMRUNV/)       | 2024-05-07 |   268 |    77 |      1416 |   5.44 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1524) | 2024-05-07 |   200 |    30 |       913 |   3.29 |
+| [`tg`](https://t.me/mwscr/401)                     | 2024-05-07 |   208 |    47 |       371 |  12.67 |
+|                                                    |            |   676 |   154 |      2700 |   7.13 |
 
 ## <span id="2024-05-06.alchemist-table">Alchemist Table</span>
 
