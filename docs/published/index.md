@@ -4,7 +4,37 @@
 
 # Published in 2024
 
-`74 items`
+`75 items`
+
+## <span id="2024-05-11.guard-tower-of-suran">Guard Tower of Suran</span>
+
+`RU` Башня стражи Сурана
+
+<a href="https://instagram.com/p/BYdQtClDTdx/" title="2017-08-31.guard-tower-of-suran"><img alt="store:/shots/2017-08-31.guard-tower-of-suran.png" src="../../assets/previews/shots/2017-08-31.guard-tower-of-suran.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Suran` `🚀 OpenMW` `tower` `night`
+
+```
+2024-05-11.guard-tower-of-suran
+```
+
+> `2017-08-31.guard-tower-of-suran`
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BYdQtClDTdx/)      | 2017-08-31 |       |    59 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_411) | 2017-08-31 |   121 |     8 |        76 |      8 |
+| [`ig`](https://instagram.com/p/C61oPzKREuZ/)      | 2024-05-11 |       |       |      1418 |        |
+| [`tg`](https://t.me/mwscr/405)                    | 2024-05-11 |       |       |       371 |        |
+|                                                   |            |   121 |    67 |      1865 |        |
+
+#### Comments
+
+- `ig` <ins title="2017-09-06-14-40-11">sam.m.cooley</ins> Gotta get dat Sword of White Woe
 
 ## <span id="2024-05-10.after-the-repast">After the Repast</span>
 
@@ -30,10 +60,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6zDislvhcZ/)       | 2024-05-10 |   227 |    60 |      1417 |   4.23 |
+| [`ig`](https://instagram.com/p/C6zDislvhcZ/)       | 2024-05-10 |   230 |    61 |      1417 |    4.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1528) | 2024-05-10 |   133 |    17 |       913 |   1.86 |
 | [`tg`](https://t.me/mwscr/404)                     | 2024-05-10 |   145 |    45 |       371 |  12.13 |
-|                                                    |            |   505 |   122 |      2701 |   6.08 |
+|                                                    |            |   508 |   123 |      2701 |    6.1 |
 
 #### Comments
 
@@ -62,10 +92,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bi7jBPBlzUw/)       | 2018-05-18 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_731)  | 2018-05-18 |   253 |    14 |       163 |   8.59 |
-| [`ig`](https://instagram.com/p/C6wetaLgomE/)       | 2024-05-09 |   216 |    59 |      1417 |   4.16 |
+| [`ig`](https://instagram.com/p/C6wetaLgomE/)       | 2024-05-09 |   217 |    59 |      1417 |   4.16 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1526) | 2024-05-09 |   180 |    31 |       913 |    3.4 |
 | [`tg`](https://t.me/mwscr/403)                     | 2024-05-09 |   159 |    51 |       370 |  13.78 |
-|                                                    |            |   808 |   227 |      2700 |   7.48 |
+|                                                    |            |   809 |   227 |      2700 |   7.48 |
 
 #### Comments
 
