@@ -7003,10 +7003,10 @@
       id: C61oPzKREuZ
       mediaId: '18057024232604397'
       published: 2024-05-11-18-17-50
-      updated: 2024-05-12-02-28-05
+      updated: 2024-05-12-03-15-25
       followers: 1418
-      likes: 74
-      views: 179
+      likes: 77
+      views: 186
       comments: !c |-
         G8gAwJwJtm2DLWjufoyywTPdnJiTGKoYmrEIzmQVDk/xLb4BAB8/qdtSfa6DL1z+K1wES7YlU7Q0
         m0wOz55OTiHTjPoKwmcJthagBc6xagk2zzkLB18STxvjcIOO7DWMdQWxmG1JbChk6eVx6zrmxvUk
@@ -7014,7 +7014,7 @@
     - service: tg
       id: 405
       published: 2024-05-11-18-18-01
-      updated: 2024-05-12-02-28-05
+      updated: 2024-05-12-03-15-25
       followers: 371
       likes: 38
       views: 87
@@ -7022,10 +7022,10 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2024-05-12-02-28-04
+      updated: 2024-05-12-03-15-24
       followers: 915
       likes: 21
-      views: 93
+      views: 94
 2017-09-01.the-last-refuge:
   title: The Last Refuge
   titleRu: Последнее прибежище
