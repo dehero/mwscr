@@ -4,7 +4,29 @@
 
 # Published in 2024
 
-`75 items`
+`76 items`
+
+## <span id="2024-05-12.road-to-the-well">Road to the Well</span>
+
+`RU` Дорога к колодцу
+
+<a href="https://instagram.com/p/C64NQM4toqC/" title="2024-05-12.road-to-the-well"><img alt="store:/shots/2024-05-12.road-to-the-well.png" src="../../assets/previews/shots/2024-05-12.road-to-the-well.avif" /></a>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B1` `📍 Wolverine Hall` `🚀 OpenMW` `well` `fort` `bridge`
+
+```
+2024-05-12.road-to-the-well
+```
+
+### Reactions
+
+|                                              | published  | followers |
+|----------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C64NQM4toqC/) | 2024-05-12 |      1417 |
+| [`tg`](https://t.me/mwscr/406)               | 2024-05-12 |       371 |
+|                                              |            |      1788 |
 
 ## <span id="2024-05-11.guard-tower-of-suran">Guard Tower of Suran</span>
 
@@ -28,10 +50,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYdQtClDTdx/)       | 2017-08-31 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_411)  | 2017-08-31 |   121 |     8 |        76 |      8 |
-| [`ig`](https://instagram.com/p/C61oPzKREuZ/)       | 2024-05-11 |   301 |   110 |      1418 |   7.76 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1529) | 2024-05-11 |   151 |    28 |       915 |   3.06 |
-| [`tg`](https://t.me/mwscr/405)                     | 2024-05-11 |   114 |    48 |       371 |  12.94 |
-|                                                    |            |   687 |   253 |      2704 |   7.94 |
+| [`ig`](https://instagram.com/p/C61oPzKREuZ/)       | 2024-05-11 |   305 |   113 |      1418 |   7.97 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1529) | 2024-05-11 |   155 |    29 |       915 |   3.17 |
+| [`tg`](https://t.me/mwscr/405)                     | 2024-05-11 |   115 |    48 |       371 |  12.94 |
+|                                                    |            |   696 |   257 |      2704 |   8.02 |
 
 #### Comments
 
@@ -98,14 +120,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bi7jBPBlzUw/)       | 2018-05-18 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_731)  | 2018-05-18 |   253 |    14 |       163 |   8.59 |
-| [`ig`](https://instagram.com/p/C6wetaLgomE/)       | 2024-05-09 |   217 |    59 |      1417 |   4.16 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1526) | 2024-05-09 |   180 |    31 |       913 |    3.4 |
-| [`tg`](https://t.me/mwscr/403)                     | 2024-05-09 |   159 |    51 |       370 |  13.78 |
-|                                                    |            |   809 |   227 |      2700 |   7.48 |
+| [`ig`](https://instagram.com/p/C6wetaLgomE/)       | 2024-05-09 |   247 |    68 |      1417 |    4.8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1526) | 2024-05-09 |   193 |    34 |       913 |   3.72 |
+| [`tg`](https://t.me/mwscr/403)                     | 2024-05-09 |   171 |    52 |       370 |  14.05 |
+|                                                    |            |   864 |   240 |      2700 |   7.79 |
 
 #### Comments
 
 - `vk` <ins title="2024-05-09-18-21-38">untergrundbahn</ins> Эх, люблю эту группу, возвращает в детство
+- `ig` <ins title="2024-05-11-21-48-01">delanospies</ins> @dravenjv you when you came sailing from England 😂
+  - <ins title="2024-05-11-21-58-18">dravenjv</ins> I&#39;m in the one beneath the lantern
 
 ## <span id="2024-05-08.slaves-sleep-peacefully-in-their-shacks">Slaves Sleep Peacefully in Their Shacks</span>
 

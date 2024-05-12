@@ -1650,3 +1650,26 @@
       views: 179
       comments: !c ixmAkZTLQnj2PdPrgACrVmVicmFuZGVub0uk8J+YrZPLQnj2QKVbAACpR2F0ZW1hdGU3o3VzPwM=
 2024-05-11.guard-tower-of-suran: 2017-08-31.guard-tower-of-suran
+2024-05-12.road-to-the-well:
+  title: Road to the Well
+  titleRu: Дорога к колодцу
+  location: Wolverine Hall
+  content: store:/shots/2024-05-12.road-to-the-well.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - well
+    - fort
+    - bridge
+  mark: B1
+  posts:
+    - service: ig
+      id: C64NQM4toqC
+      mediaId: '18025250564127397'
+      published: 2024-05-12-18-19-40
+      followers: 1417
+    - service: tg
+      id: 406
+      published: 2024-05-12-18-20-07
+      followers: 371
