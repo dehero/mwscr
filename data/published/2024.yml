@@ -127,7 +127,7 @@
     - service: vk
       id: 1433
       published: 2024-03-02-18-18-15
-      updated: 2024-05-05-06-18-57
+      updated: 2024-05-12-07-12-23
       followers: 895
       likes: 32
       views: 278
@@ -135,10 +135,10 @@
     - service: tg
       id: 333
       published: 2024-03-02-18-18-22
-      updated: 2024-05-05-06-18-57
+      updated: 2024-05-12-07-12-23
       followers: 340
-      likes: 68
-      views: 503
+      likes: 69
+      views: 508
 2024-03-03.exit: 2018-02-28.exit
 2024-03-04.an-old-sprout:
   title: An Old Sprout
@@ -1630,21 +1630,21 @@
       id: C6zDislvhcZ
       mediaId: '18081732775420703'
       published: 2024-05-10-18-18-37
-      updated: 2024-05-12-06-18-41
+      updated: 2024-05-12-07-12-23
       followers: 1417
-      likes: 66
-      views: 256
+      likes: 67
+      views: 258
     - service: vk
       id: 1528
       published: 2024-05-10-18-18-43
-      updated: 2024-05-12-06-18-40
+      updated: 2024-05-12-07-12-22
       followers: 913
       likes: 19
-      views: 139
+      views: 140
     - service: tg
       id: 404
       published: 2024-05-10-18-18-49
-      updated: 2024-05-12-06-18-40
+      updated: 2024-05-12-07-12-23
       followers: 371
       likes: 47
       views: 170
