@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYdQtClDTdx/)       | 2017-08-31 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_411)  | 2017-08-31 |   121 |     8 |        76 |      8 |
-| [`ig`](https://instagram.com/p/C61oPzKREuZ/)       | 2024-05-11 |   207 |    84 |      1418 |   5.92 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1529) | 2024-05-11 |   107 |    24 |       915 |   2.62 |
-| [`tg`](https://t.me/mwscr/405)                     | 2024-05-11 |    91 |    41 |       371 |  11.05 |
-|                                                    |            |   526 |   216 |      2704 |    6.9 |
+| [`ig`](https://instagram.com/p/C61oPzKREuZ/)       | 2024-05-11 |   217 |    88 |      1418 |   6.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1529) | 2024-05-11 |   116 |    24 |       915 |   2.62 |
+| [`tg`](https://t.me/mwscr/405)                     | 2024-05-11 |    96 |    42 |       371 |  11.32 |
+|                                                    |            |   550 |   221 |      2704 |   7.04 |
 
 #### Comments
 
@@ -40,6 +40,7 @@
 - `ig` <ins title="2024-05-11-20-30-42">delanospies</ins> @dravenjv my type of spot
   - <ins title="2024-05-11-20-47-16">delanospies</ins> @dravenjv ya feel me 🔥
   - <ins title="2024-05-11-20-36-37">dravenjv</ins> good to sit and ground yourself after a night at the house of earthly delights 🔥
+- `ig` <ins title="2024-05-12-06-01-51">someone_simple42</ins> I just love lighting and sky in this game
 
 ## <span id="2024-05-10.after-the-repast">After the Repast</span>
 
@@ -65,10 +66,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6zDislvhcZ/)       | 2024-05-10 |   255 |    65 |      1417 |   4.59 |
+| [`ig`](https://instagram.com/p/C6zDislvhcZ/)       | 2024-05-10 |   256 |    66 |      1417 |   4.66 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1528) | 2024-05-10 |   139 |    19 |       913 |   2.08 |
-| [`tg`](https://t.me/mwscr/404)                     | 2024-05-10 |   169 |    47 |       371 |  12.67 |
-|                                                    |            |   563 |   131 |      2701 |   6.45 |
+| [`tg`](https://t.me/mwscr/404)                     | 2024-05-10 |   170 |    47 |       371 |  12.67 |
+|                                                    |            |   565 |   132 |      2701 |   6.47 |
 
 #### Comments
 

@@ -7003,29 +7003,30 @@
       id: C61oPzKREuZ
       mediaId: '18057024232604397'
       published: 2024-05-11-18-17-50
-      updated: 2024-05-12-05-14-17
+      updated: 2024-05-12-06-18-40
       followers: 1418
-      likes: 84
-      views: 207
+      likes: 88
+      views: 217
       comments: !c |-
-        G8gAwJwJtm2DLWjufoyywTPdnJiTGKoYmrEIzmQVDk/xLb4BAB8/qdtSfa6DL1z+K1wES7YlU7Q0
-        m0wOz55OTiHTjPoKwmcJthagBc6xagk2zzkLB18STxvjcIOO7DWMdQWxmG1JbChk6eVx6zrmxvUk
-        g/KvPfgkHQOfPTTZZVOQCkhimhwJY3kVZnFx9KZupWuU/GsB
+        Gw4BQByHsZslNHp3P+39cfMf4dO067zLSrt4rGGB9TctWosWYWJ/J5nAcuElm+0UBmD/22DXBcsK
+        LBxklGmC2Q1p2Mxvko6kPAfDGf8rt4FL4JtoclNkR7BoAbIdN09L6tZoB8gEXsVYz+d4KgDs6Z4c
+        hGlk6+mDlsiFHjgF+vV4CXlAu3eTNomsZRwmfR2fi9HyGH+ggQ1TdvxplJXamVsaa4el1l2yDA45
+        e4GcH1hPTfeopPhcjJY=
     - service: tg
       id: 405
       published: 2024-05-11-18-18-01
-      updated: 2024-05-12-05-14-16
+      updated: 2024-05-12-06-18-40
       followers: 371
-      likes: 41
-      views: 91
+      likes: 42
+      views: 96
       comments: !c ixmAkZPLQnj2j4vXgACuc3Rhc3lham95c3RpY2u50L7Rh9C10L3RjCDQutGA0LDRgdC40LLQvgM=
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2024-05-12-05-14-16
+      updated: 2024-05-12-06-18-39
       followers: 915
       likes: 24
-      views: 107
+      views: 116
 2017-09-01.the-last-refuge:
   title: The Last Refuge
   titleRu: Последнее прибежище
