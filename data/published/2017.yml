@@ -1845,18 +1845,18 @@
     - service: vk
       id: 1454
       published: 2024-03-16-18-10-42
-      updated: 2024-05-05-01-05-37
+      updated: 2024-05-12-01-07-18
       followers: 896
       likes: 37
-      views: 282
+      views: 283
       reposts: 1
     - service: tg
       id: 348
       published: 2024-03-16-18-10-49
-      updated: 2024-05-05-01-05-36
+      updated: 2024-05-12-01-07-18
       followers: 353
       likes: 54
-      views: 403
+      views: 406
 2017-03-02.tel-vos:
   title: Tel Vos
   titleRu: Тель Вос
@@ -7003,10 +7003,10 @@
       id: C61oPzKREuZ
       mediaId: '18057024232604397'
       published: 2024-05-11-18-17-50
-      updated: 2024-05-11-23-13-54
+      updated: 2024-05-12-01-07-17
       followers: 1418
-      likes: 54
-      views: 137
+      likes: 68
+      views: 161
       comments: !c |-
         G8gAwJwJtm2DLWjufoyywTPdnJiTGKoYmrEIzmQVDk/xLb4BAB8/qdtSfa6DL1z+K1wES7YlU7Q0
         m0wOz55OTiHTjPoKwmcJthagBc6xagk2zzkLB18STxvjcIOO7DWMdQWxmG1JbChk6eVx6zrmxvUk
@@ -7014,18 +7014,18 @@
     - service: tg
       id: 405
       published: 2024-05-11-18-18-01
-      updated: 2024-05-11-23-13-53
+      updated: 2024-05-12-01-07-16
       followers: 371
-      likes: 37
-      views: 83
+      likes: 38
+      views: 87
       comments: !c ixmAkZPLQnj2j4vXgACuc3Rhc3lham95c3RpY2u50L7Rh9C10L3RjCDQutGA0LDRgdC40LLQvgM=
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2024-05-11-23-13-53
+      updated: 2024-05-12-01-07-16
       followers: 915
-      likes: 19
-      views: 81
+      likes: 20
+      views: 86
 2017-09-01.the-last-refuge:
   title: The Last Refuge
   titleRu: Последнее прибежище
