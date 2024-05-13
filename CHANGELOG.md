@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.1](https://github.com/dehero/mwscr/compare/v1.2.0...v1.2.1) (2024-05-13)
+
+### Code Refactoring
+
+- rename local github-issues folder to github-issue-resolvers
+  ([13f1298](https://github.com/dehero/mwscr/commit/13f12983f6b629f24fbf3013435aa46d546fc1d0))
+- rename local services folder to posting-service-managers
+  ([64e53dc](https://github.com/dehero/mwscr/commit/64e53dc35834c7fb0e0a558a778c66f901e2b0f9))
+- rewrite services as classes
+  ([3db1bdf](https://github.com/dehero/mwscr/commit/3db1bdfc4a545cd9d6966a01bacb367c00a637a5))
+
 ## [1.2.0](https://github.com/dehero/mwscr/compare/v1.1.2...v1.2.0) (2024-04-19)
 
 ### Features
