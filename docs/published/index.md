@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`76 items`
+`77 items`
+
+## <span id="2024-05-13.pray-with-the-saints">Pray with the Saints</span>
+
+`RU` Молиться со святыми
+
+<a href="https://instagram.com/p/BP9jdC_lEM2/" title="2017-02-01.pray-with-the-saints"><img alt="store:/shots/2017-02-01.pray-with-the-saints.png" src="../../assets/previews/shots/2017-02-01.pray-with-the-saints.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Vivec` `🚀 OpenMW` `nofilter`
+
+```
+2024-05-13.pray-with-the-saints
+```
+
+> `2017-02-01.pray-with-the-saints`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BP9jdC_lEM2/)       | 2017-02-01 |       |    25 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_113)  | 2017-02-01 |   136 |     7 |        22 |      7 |
+| [`ig`](https://instagram.com/p/C66x0k3O4BT/)       | 2024-05-13 |       |       |      1418 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1531) | 2024-05-13 |       |       |       915 |        |
+| [`tg`](https://t.me/mwscr/407)                     | 2024-05-13 |       |       |       370 |        |
+|                                                    |            |   136 |    32 |      2703 |        |
 
 ## <span id="2024-05-12.road-to-the-well">Road to the Well</span>
 
@@ -24,10 +51,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C64NQM4toqC/)       | 2024-05-12 |   217 |    71 |      1417 |   5.01 |
+| [`ig`](https://instagram.com/p/C64NQM4toqC/)       | 2024-05-12 |   217 |    72 |      1417 |   5.08 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1530) | 2024-05-12 |   149 |    21 |       915 |    2.3 |
-| [`tg`](https://t.me/mwscr/406)                     | 2024-05-12 |   141 |    39 |       371 |  10.51 |
-|                                                    |            |   507 |   131 |      2703 |   5.94 |
+| [`tg`](https://t.me/mwscr/406)                     | 2024-05-12 |   142 |    39 |       371 |  10.51 |
+|                                                    |            |   508 |   132 |      2703 |   5.96 |
 
 ## <span id="2024-05-11.guard-tower-of-suran">Guard Tower of Suran</span>
 
@@ -51,10 +78,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYdQtClDTdx/)       | 2017-08-31 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_411)  | 2017-08-31 |   121 |     8 |        76 |      8 |
-| [`ig`](https://instagram.com/p/C61oPzKREuZ/)       | 2024-05-11 |   349 |   123 |      1418 |   8.67 |
+| [`ig`](https://instagram.com/p/C61oPzKREuZ/)       | 2024-05-11 |   352 |   125 |      1418 |   8.82 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1529) | 2024-05-11 |   183 |    32 |       915 |    3.5 |
 | [`tg`](https://t.me/mwscr/405)                     | 2024-05-11 |   150 |    52 |       371 |  14.02 |
-|                                                    |            |   803 |   274 |      2704 |   8.55 |
+|                                                    |            |   806 |   276 |      2704 |   8.58 |
 
 #### Comments
 
