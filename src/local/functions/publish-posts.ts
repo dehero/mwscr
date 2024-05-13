@@ -1,10 +1,10 @@
 import type { Post, PostEntries, PostEntry } from '../../core/entities/post.js';
 import { comparePostEntriesById, getPostEntriesFromSource } from '../../core/entities/post.js';
 import type { PublishablePost } from '../../core/entities/post-variation.js';
-import type { PostingService } from '../../core/entities/service.js';
+import type { PostingServiceManager } from '../../core/entities/service.js';
 import { getDaysPassed } from '../../core/utils/date-utils.js';
 import { published } from '../data-managers/posts.js';
-import { postingServices } from '../posting-service-managers/index.js';
+import { postingServiceManagers } from '../posting-service-managers/index.js';
 
 export async function publishPosts() {
   console.group(`Publishing posts...`);
@@ -12,7 +12,7 @@ export async function publishPosts() {
   const publishedPostEntries = await getPostEntriesFromSource(published.getAllPosts, comparePostEntriesById('desc'));
 
   try {
-    for (const service of postingServices) {
+    for (const service of postingServiceManagers) {
       const entry = await findFirstUnpublishedServicePostEntry(publishedPostEntries, service);
       if (entry) {
         await publishPostToService(service, entry);
@@ -29,7 +29,7 @@ export async function publishPosts() {
   console.groupEnd();
 }
 
-export async function publishPostToService(service: PostingService, [id, post]: PostEntry<Post>) {
+export async function publishPostToService(service: PostingServiceManager, [id, post]: PostEntry<Post>) {
   if (!service.canPublishPost(post)) {
     console.info(`Cannot publish post ${id} to ${service.name}.`);
     return;
@@ -51,7 +51,7 @@ export async function publishPostToService(service: PostingService, [id, post]: 
 
 async function findFirstUnpublishedServicePostEntry(
   publishedPostEntries: PostEntries<PublishablePost>,
-  service: PostingService,
+  service: PostingServiceManager,
 ) {
   const publishablePostEntries = publishedPostEntries.filter(([, post]) => service.canPublishPost(post));
   let result: PostEntry<PublishablePost> | undefined;

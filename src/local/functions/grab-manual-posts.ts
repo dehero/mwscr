@@ -1,6 +1,6 @@
 import { isPostEqual, mergePostWith } from '../../core/entities/post.js';
 import { isPublishablePost } from '../../core/entities/post-variation.js';
-import type { PostingService } from '../../core/entities/service.js';
+import type { PostingServiceManager } from '../../core/entities/service.js';
 import { arrayFromAsync } from '../../core/utils/common-utils.js';
 import {
   createPublishedPostId,
@@ -8,12 +8,12 @@ import {
   getAllServicePosts,
   published,
 } from '../data-managers/posts.js';
-import { postingServices } from '../posting-service-managers/index.js';
+import { postingServiceManagers } from '../posting-service-managers/index.js';
 
 export async function grabManualPosts() {
   console.group('Grabbing manually created posts...');
 
-  for (const service of postingServices) {
+  for (const service of postingServiceManagers) {
     try {
       await service.connect();
     } catch (error) {
@@ -37,7 +37,7 @@ export async function grabManualPosts() {
   console.groupEnd();
 }
 
-async function grabManualServicePosts(service: PostingService) {
+async function grabManualServicePosts(service: PostingServiceManager) {
   const allServicePosts = await arrayFromAsync(getAllServicePosts(service.id));
   const lastServicePost = allServicePosts.sort((a, b) => b.published.getTime() - a.published.getTime())[0];
   const newPosts = await service.grabPosts(lastServicePost);

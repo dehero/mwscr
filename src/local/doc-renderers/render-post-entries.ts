@@ -20,7 +20,7 @@ import {
 } from '../../core/entities/post.js';
 import { isTrashItem } from '../../core/entities/post-variation.js';
 import { parseResourceUrl } from '../../core/entities/resource.js';
-import type { PostingService } from '../../core/entities/service.js';
+import type { PostingServiceManager } from '../../core/entities/service.js';
 import type { ServicePostComment } from '../../core/entities/service-post.js';
 import type { ReadonlyUsers } from '../../core/entities/user.js';
 import { USER_UNKNOWN } from '../../core/entities/user.js';
@@ -31,7 +31,7 @@ import { createIssueUrl as createEditUrl } from '../github-issue-resolvers/editi
 import { createIssueUrl as createLocateUrl } from '../github-issue-resolvers/location.js';
 import { createIssueUrl as createMergeUrl } from '../github-issue-resolvers/merging.js';
 import { createIssueUrl as createReviewUrl } from '../github-issue-resolvers/review.js';
-import { postingServices } from '../posting-service-managers/index.js';
+import { postingServiceManagers } from '../posting-service-managers/index.js';
 import { renderNavs } from './utils/doc-utils.js';
 import { renderMarkdownTable } from './utils/markdown-utils.js';
 import { relativeUrl } from './utils/url-utils.js';
@@ -109,7 +109,7 @@ function renderPostReactions(post: Post) {
   lines.push('');
 
   const serviceInfos: RenderedServicePost[] = [
-    ...postingServices
+    ...postingServiceManagers
       .flatMap((service) => mapServicePost(service, post))
       .sort((a, b) => a.published?.localeCompare(b.published ?? '') ?? 0),
     {
@@ -160,7 +160,7 @@ function mapComments(service: string, comments?: ServicePostComment[]): Rendered
     : [];
 }
 
-function mapServicePost(service: PostingService, post: Post): RenderedServicePost[] {
+function mapServicePost(service: PostingServiceManager, post: Post): RenderedServicePost[] {
   return (
     post.posts
       ?.filter((info) => info.service === service.id)
@@ -246,7 +246,7 @@ function renderPostEntry(postEntry: PostEntry<Post>, options: RenderPostsOptions
   let href;
 
   if (firstServicePost) {
-    const firstService = postingServices.find((service) => firstServicePost.service === service.id);
+    const firstService = postingServiceManagers.find((service) => firstServicePost.service === service.id);
     href = firstService?.getServicePostUrl(firstServicePost);
   }
 

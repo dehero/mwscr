@@ -8,13 +8,16 @@ export interface Service {
   getUserProfileUrl: (userId: string) => string | undefined;
 }
 
-export interface PostingServiceInfo extends Service {
+export interface PostingService<TServicePost extends ServicePost<unknown> = ServicePost<unknown>> extends Service {
+  isPost(servicePost: ServicePost<unknown>): servicePost is TServicePost;
+
   getServicePostUrl: (servicePost: ServicePost<unknown>) => string | undefined;
 
   canPublishPost: (post: Post, errors?: string[]) => boolean;
 }
 
-export interface PostingService extends PostingServiceInfo {
+export interface PostingServiceManager<TServicePost extends ServicePost<unknown> = ServicePost<unknown>>
+  extends PostingService<TServicePost> {
   connect: () => Promise<unknown>;
 
   disconnect: () => Promise<void>;

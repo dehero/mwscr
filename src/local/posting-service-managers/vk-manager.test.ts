@@ -1,7 +1,7 @@
 import assert from 'node:assert';
 import { test } from 'node:test';
 import type { Post } from '../../core/entities/post.js';
-import { createCaption } from './vk-manager.js';
+import { vkManager } from './vk-manager.js';
 
 test('createCaption', async (t) => {
   const post: Post = {
@@ -28,7 +28,7 @@ test('createCaption', async (t) => {
   };
 
   await t.test('should create proper post caption on Russian', async () => {
-    const caption = await createCaption(post);
+    const caption = await vkManager.createCaption(post);
 
     assert.strictEqual(
       caption,

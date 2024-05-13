@@ -1,10 +1,8 @@
 import type { Post } from '../entities/post.js';
 import { checkRules } from '../entities/rule.js';
+import type { PostingService } from '../entities/service.js';
 import type { ServicePost } from '../entities/service-post.js';
 import { needCertainType, needContent, needTitle } from '../rules/post-rules.js';
-
-export const id = 'ig';
-export const name = 'Instagram';
 
 export interface InstagramSuitablePost extends Post {
   title: string;
@@ -14,21 +12,28 @@ export interface InstagramSuitablePost extends Post {
 
 export type InstagramPost = ServicePost<string>;
 
-export function isInstagramPost(servicePost: ServicePost<unknown>): servicePost is InstagramPost {
-  return servicePost.service === id && typeof servicePost.id === 'string';
-}
+export class Instagram implements PostingService<InstagramPost> {
+  readonly id = 'ig';
+  readonly name = 'Instagram';
 
-export function canPublishPost(post: Post, errors: string[] = []): post is InstagramSuitablePost {
-  return checkRules([needCertainType('shot'), needTitle, needContent], post, errors);
-}
-
-export function getServicePostUrl(servicePost: ServicePost<unknown>) {
-  if (!isInstagramPost(servicePost)) {
-    return;
+  isPost(servicePost: ServicePost<unknown>): servicePost is InstagramPost {
+    return servicePost.service === this.id && typeof servicePost.id === 'string';
   }
-  return `https://instagram.com/p/${servicePost.id}/`;
+
+  canPublishPost(post: Post, errors: string[] = []): post is InstagramSuitablePost {
+    return checkRules([needCertainType('shot'), needTitle, needContent], post, errors);
+  }
+
+  getServicePostUrl(servicePost: ServicePost<unknown>) {
+    if (!this.isPost(servicePost)) {
+      return;
+    }
+    return `https://instagram.com/p/${servicePost.id}/`;
+  }
+
+  getUserProfileUrl(profileId: string) {
+    return `https://instagram.com/p/${profileId}/`;
+  }
 }
 
-export function getUserProfileUrl(profileId: string) {
-  return `https://instagram.com/p/${profileId}/`;
-}
+export const instagram = new Instagram();

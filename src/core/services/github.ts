@@ -1,6 +1,12 @@
-export const id = 'gh';
-export const name = 'GitHub';
+import type { Service } from '../entities/service.js';
 
-export function getUserProfileUrl(profileId: string) {
-  return `https://github.com/${profileId}`;
+export class GitHub implements Service {
+  readonly id = 'gh';
+  readonly name = 'GitHub';
+
+  getUserProfileUrl(profileId: string) {
+    return `https://github.com/${profileId}`;
+  }
 }
+
+export const github = new GitHub();
