@@ -1611,7 +1611,7 @@
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2024-05-06-02-28-04
+      updated: 2024-05-13-02-29-18
       followers: 894
       likes: 34
       views: 283
@@ -1619,10 +1619,10 @@
     - service: tg
       id: 334
       published: 2024-03-03-18-16-50
-      updated: 2024-05-06-02-28-02
+      updated: 2024-05-13-02-29-17
       followers: 341
       likes: 61
-      views: 474
+      views: 479
 2018-03-01.guardess-of-assernerairan:
   title: Guardess of Assernerairan
   titleRu: Охранница Ассернерайрана
@@ -3548,17 +3548,17 @@
     - service: vk
       id: 1468
       published: 2024-03-24-18-11-49
-      updated: 2024-05-06-02-28-02
+      updated: 2024-05-13-02-29-17
       followers: 898
       likes: 41
-      views: 322
+      views: 329
     - service: tg
       id: 356
       published: 2024-03-24-18-11-58
-      updated: 2024-05-06-02-28-01
+      updated: 2024-05-13-02-29-16
       followers: 352
       likes: 57
-      views: 408
+      views: 412
       comments: !c iw2AkZPLQnjnGx3lAACrYm9icm92bmlrb3ak8J+VrwM=
 2018-05-10.drooping-sun-of-molag-amur:
   title: Drooping Sun of Molag Amur
