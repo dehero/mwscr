@@ -11,7 +11,7 @@ import type { StoreItem } from '../../core/entities/store.js';
 import { parseStoreResourceUrl, STORE_INBOX_DIR } from '../../core/entities/store.js';
 import { asArray, partition } from '../../core/utils/common-utils.js';
 import { createInboxItemId, inbox } from '../data-managers/posts.js';
-import { store } from '../stores/index.js';
+import { store } from '../store-managers/index.js';
 
 export async function importStoreInbox() {
   console.group(`Importing inbox from store...`);

@@ -2,8 +2,8 @@ import type { Store, StoreItem } from '../../core/entities/store.js';
 import { storeIncludesPath } from '../../core/entities/store.js';
 import { storeDescriptor } from '../../core/stores/index.js';
 import { partition } from '../../core/utils/common-utils.js';
-import * as site from './site.js';
-import * as yandexDisk from './yandex-disk.js';
+import * as site from './site-store-manager.js';
+import * as yandexDisk from './yandex-disk-manager.js';
 
 const stores: Store[] = [yandexDisk, site];
 
