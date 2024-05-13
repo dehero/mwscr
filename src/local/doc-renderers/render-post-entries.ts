@@ -31,7 +31,7 @@ import { createIssueUrl as createEditUrl } from '../github-issue-resolvers/editi
 import { createIssueUrl as createLocateUrl } from '../github-issue-resolvers/location.js';
 import { createIssueUrl as createMergeUrl } from '../github-issue-resolvers/merging.js';
 import { createIssueUrl as createReviewUrl } from '../github-issue-resolvers/review.js';
-import { postingServices } from '../services/index.js';
+import { postingServices } from '../posting-service-managers/index.js';
 import { renderNavs } from './utils/doc-utils.js';
 import { renderMarkdownTable } from './utils/markdown-utils.js';
 import { relativeUrl } from './utils/url-utils.js';

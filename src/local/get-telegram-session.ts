@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { connect } from './services/telegram.js';
+import { connect } from './posting-service-managers/telegram-manager.js';
 
 const { tg } = await connect();
 

@@ -4,7 +4,7 @@ import type { PublishablePost } from '../../core/entities/post-variation.js';
 import type { PostingService } from '../../core/entities/service.js';
 import { getDaysPassed } from '../../core/utils/date-utils.js';
 import { published } from '../data-managers/posts.js';
-import { postingServices } from '../services/index.js';
+import { postingServices } from '../posting-service-managers/index.js';
 
 export async function publishPosts() {
   console.group(`Publishing posts...`);

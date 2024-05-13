@@ -1,7 +1,7 @@
 import assert from 'node:assert';
 import { test } from 'node:test';
 import type { Post } from '../../core/entities/post.js';
-import { createCaption } from './vk.js';
+import { createCaption } from './vk-manager.js';
 
 test('createCaption', async (t) => {
   const post: Post = {

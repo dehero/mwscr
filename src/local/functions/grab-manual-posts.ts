@@ -8,7 +8,7 @@ import {
   getAllServicePosts,
   published,
 } from '../data-managers/posts.js';
-import { postingServices } from '../services/index.js';
+import { postingServices } from '../posting-service-managers/index.js';
 
 export async function grabManualPosts() {
   console.group('Grabbing manually created posts...');

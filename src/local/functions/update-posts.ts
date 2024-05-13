@@ -3,7 +3,7 @@ import type { PostingService } from '../../core/entities/service.js';
 import type { ServicePost } from '../../core/entities/service-post.js';
 import { isServicePostUpdatable } from '../../core/entities/service-post.js';
 import { published } from '../data-managers/posts.js';
-import { postingServices } from '../services/index.js';
+import { postingServices } from '../posting-service-managers/index.js';
 
 export async function updatePosts() {
   console.group('Updating published posts reactions...');
