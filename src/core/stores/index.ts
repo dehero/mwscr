@@ -1,11 +1,11 @@
-import { type StoreDescriptor, storeIncludesPath } from '../entities/store.js';
-import * as site from './site-store.js';
+import { type Store, storeIncludesPath } from '../entities/store.js';
+import { siteStore } from './site-store.js';
 
-export const storeDescriptors: StoreDescriptor[] = [site];
+export const stores: Store[] = [siteStore];
 
-export const storeDescriptor: StoreDescriptor = {
+export const store: Store = {
   getPublicUrl(path: string): string | undefined {
-    for (const store of storeDescriptors.filter(storeIncludesPath(path))) {
+    for (const store of stores.filter(storeIncludesPath(path))) {
       const url = store.getPublicUrl(path);
       if (url) {
         return url;

@@ -1,15 +1,15 @@
-import type { Store, StoreItem } from '../../core/entities/store.js';
+import type { StoreItem, StoreManager } from '../../core/entities/store.js';
 import { storeIncludesPath } from '../../core/entities/store.js';
-import { storeDescriptor } from '../../core/stores/index.js';
+import { store } from '../../core/stores/index.js';
 import { partition } from '../../core/utils/common-utils.js';
-import * as site from './site-store-manager.js';
-import * as yandexDisk from './yandex-disk-manager.js';
+import { siteStoreManager } from './site-store-manager.js';
+import { yandexDiskManager } from './yandex-disk-manager.js';
 
-const stores: Store[] = [yandexDisk, site];
+const storeManagers: StoreManager[] = [yandexDiskManager, siteStoreManager];
 
-export const store: Store = {
+export const storeManager: StoreManager = {
   async copy(from: string, to: string): Promise<void> {
-    const [fromToStores, restStores] = partition(stores, storeIncludesPath(from, to));
+    const [fromToStores, restStores] = partition(storeManagers, storeIncludesPath(from, to));
     const toStores = restStores.filter(storeIncludesPath(to));
 
     if (fromToStores.length === 0 && toStores.length === 0) {
@@ -34,7 +34,7 @@ export const store: Store = {
   },
 
   async exists(path: string): Promise<boolean> {
-    const [store] = stores.filter(storeIncludesPath(path));
+    const [store] = storeManagers.filter(storeIncludesPath(path));
     if (store) {
       return store.exists(path);
     }
@@ -43,7 +43,7 @@ export const store: Store = {
   },
 
   async get(path: string): Promise<Buffer> {
-    const [store] = stores.filter(storeIncludesPath(path));
+    const [store] = storeManagers.filter(storeIncludesPath(path));
     if (store) {
       return store.get(path);
     }
@@ -52,7 +52,7 @@ export const store: Store = {
   },
 
   async getStream(path: string): Promise<NodeJS.ReadableStream | null> {
-    const [store] = stores.filter(storeIncludesPath(path));
+    const [store] = storeManagers.filter(storeIncludesPath(path));
     if (store) {
       return store.getStream(path);
     }
@@ -61,17 +61,17 @@ export const store: Store = {
   },
 
   async getPreviewUrl(path: string, width?: number, height?: number): Promise<string | undefined> {
-    for (const store of stores) {
+    for (const store of storeManagers) {
       return store.getPreviewUrl(path, width, height);
     }
 
     throw new Error(`No store found for "${path}"`);
   },
 
-  getPublicUrl: storeDescriptor.getPublicUrl,
+  getPublicUrl: store.getPublicUrl,
 
   async move(from: string, to: string): Promise<void> {
-    const [fromToStores, restStores] = partition(stores, storeIncludesPath(from, to));
+    const [fromToStores, restStores] = partition(storeManagers, storeIncludesPath(from, to));
     const toStores = restStores.filter(storeIncludesPath(to));
     const fromStores = restStores.filter(storeIncludesPath(from));
 
@@ -113,7 +113,7 @@ export const store: Store = {
 
   async put(path: string, data: Iterable<unknown> | AsyncIterable<unknown>): Promise<void> {
     try {
-      await Promise.all(stores.filter(storeIncludesPath(path)).map((store) => store.put(path, data)));
+      await Promise.all(storeManagers.filter(storeIncludesPath(path)).map((store) => store.put(path, data)));
     } catch (error) {
       await this.remove(path);
       throw error;
@@ -122,7 +122,7 @@ export const store: Store = {
 
   async putStream(path: string, stream: NodeJS.ReadableStream): Promise<void> {
     try {
-      await Promise.all(stores.filter(storeIncludesPath(path)).map((store) => store.putStream(path, stream)));
+      await Promise.all(storeManagers.filter(storeIncludesPath(path)).map((store) => store.putStream(path, stream)));
     } catch (error) {
       await this.remove(path);
       throw error;
@@ -130,7 +130,7 @@ export const store: Store = {
   },
 
   async readdir(path: string): Promise<StoreItem[]> {
-    const [store] = stores.filter(storeIncludesPath(path));
+    const [store] = storeManagers.filter(storeIncludesPath(path));
     if (store) {
       return store.readdir(path);
     }
@@ -140,7 +140,7 @@ export const store: Store = {
 
   async remove(path: string): Promise<void> {
     try {
-      await Promise.all(stores.filter(storeIncludesPath(path)).map((store) => store.remove(path)));
+      await Promise.all(storeManagers.filter(storeIncludesPath(path)).map((store) => store.remove(path)));
     } catch (error) {
       const stream = await this.getStream(path);
 
