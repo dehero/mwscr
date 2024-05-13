@@ -18,13 +18,14 @@ import type { PostsManager } from '../../../core/entities/posts-manager.js';
 import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import { Button } from '../../components/Button/Button.jsx';
-import { Divider } from '../../components/Divider/Divider.jsx';
-import { Input } from '../../components/Input/Input.jsx';
-import { Page } from '../../components/Page/Page.jsx';
-import { PostPreviews } from '../../components/PostPreviews/PostPreviews.jsx';
-import { RadioGroup } from '../../components/RadioGroup/RadioGroup.jsx';
-import { Select } from '../../components/Select/Select.jsx';
+import { Button } from '../../components/Button/Button.js';
+import { Divider } from '../../components/Divider/Divider.js';
+import { Input } from '../../components/Input/Input.js';
+import { Page } from '../../components/Page/Page.js';
+import { PostPreviews } from '../../components/PostPreviews/PostPreviews.js';
+import { RadioGroup } from '../../components/RadioGroup/RadioGroup.js';
+import type { SelectOption } from '../../components/Select/Select.js';
+import { Select } from '../../components/Select/Select.js';
 import { getUserName } from '../../data-managers/users.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../utils/ui-constants.js';
 import styles from './PostsPage.module.css';
@@ -139,45 +140,42 @@ const getPosts = async (params: GetPostsParams): Promise<PostEntries> => {
   );
 };
 
-const getUsedTags = async (postsManager: PostsManager): Promise<string[]> => {
-  const result: Set<string> = new Set();
+const getTagOptions = async (postsManager: PostsManager): Promise<SelectOption<string>[]> => {
+  const usedTags = await postsManager.getUsedTags();
 
-  for await (const [, post] of postsManager.getAllPosts(true)) {
-    if (typeof post !== 'string') {
-      post.tags?.forEach((tag) => result.add(tag));
-    }
-  }
-
-  return [...result].sort((a, b) => a.localeCompare(b));
+  return [...usedTags]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([value, count]) => ({ value, label: `${value} (${count})` }));
 };
 
-const getUsedLocations = async (postsManager: PostsManager): Promise<string[]> => {
-  const result: Set<string> = new Set();
+const getLocationOptions = async (postsManager: PostsManager): Promise<SelectOption<string>[]> => {
+  const usedLocations = await postsManager.getUsedLocations();
+  const usedLocationsWithNesting = new Map();
   const { default: data } = await import('../../../../data/locations.yml');
 
   const locations = data as Location[];
 
-  for await (const [, post] of postsManager.getAllPosts(true)) {
-    if (typeof post !== 'string' && post.location) {
-      locations
-        .filter((location) => post.location && isNestedLocation(post.location, location.title))
-        .forEach((location) => result.add(location.title));
+  for (const location of locations) {
+    const count = [...usedLocations]
+      .filter(([value]) => isNestedLocation(value, location.title))
+      .reduce((acc, [, count]) => acc + count, 0);
+
+    if (count > 0) {
+      usedLocationsWithNesting.set(location.title, count);
     }
   }
 
-  return [...result].sort((a, b) => a.localeCompare(b));
+  return [...usedLocationsWithNesting]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([value, count]) => ({ value, label: `${value} (${count})` }));
 };
 
-const getUsedUsers = async (postsManager: PostsManager): Promise<string[]> => {
-  const result: Set<string> = new Set();
+const getAuthorOptions = async (postsManager: PostsManager): Promise<SelectOption<string>[]> => {
+  const usedAuthors = await postsManager.getUsedAuthors();
 
-  for await (const [, post] of postsManager.getAllPosts(true)) {
-    if (typeof post !== 'string') {
-      asArray(post.author).forEach((author) => result.add(author));
-    }
-  }
-
-  return [...result].sort((a, b) => a.localeCompare(b));
+  return [...usedAuthors]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([value, count]) => ({ value, label: `${getUserName(value)} (${count})` }));
 };
 
 export const PostsPage: Component = () => {
@@ -240,9 +238,9 @@ export const PostsPage: Component = () => {
   });
 
   const [posts] = createResource(getPostParams, getPosts);
-  const [usedTags] = createResource(info().manager, getUsedTags);
-  const [usedLocations] = createResource(info().manager, getUsedLocations);
-  const [usedUsers] = createResource(info().manager, getUsedUsers);
+  const [tagOptions] = createResource(info().manager, getTagOptions);
+  const [locationOptions] = createResource(info().manager, getLocationOptions);
+  const [authorOptions] = createResource(info().manager, getAuthorOptions);
 
   return (
     <Page status={posts.loading ? 'Loading...' : isSearching() ? 'Searching...' : undefined} title={info().title}>
@@ -285,7 +283,7 @@ export const PostsPage: Component = () => {
           <Select
             label="Location"
             name="location"
-            options={[ALL_OPTION, ANY_OPTION, NONE_OPTION, ...(usedLocations()?.map((value) => ({ value })) ?? [])]}
+            options={[ALL_OPTION, ANY_OPTION, NONE_OPTION, ...(locationOptions() ?? [])]}
             value={postLocation()}
             onChange={setPostLocation}
           />
@@ -294,7 +292,7 @@ export const PostsPage: Component = () => {
           <Select
             label="Tag"
             name="tag"
-            options={[ALL_OPTION, ...(usedTags()?.map((value) => ({ value })) ?? [])]}
+            options={[ALL_OPTION, ...(tagOptions() ?? [])]}
             value={postTag()}
             onChange={setPostTag}
           />
@@ -303,7 +301,7 @@ export const PostsPage: Component = () => {
           <Select
             label="Author"
             name="author"
-            options={[ALL_OPTION, ...(usedUsers()?.map((value) => ({ value, label: getUserName(value) })) ?? [])]}
+            options={[ALL_OPTION, ...(authorOptions() ?? [])]}
             value={postAuthor()}
             onChange={setPostAuthor}
           />

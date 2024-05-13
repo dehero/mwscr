@@ -1,7 +1,9 @@
-import { listItems } from '../utils/common-utils.js';
+import { asArray, listItems } from '../utils/common-utils.js';
 import type { Post, PostEntry } from './post.js';
 
 export type PostsManagerChunk<TPost> = Map<string, TPost | string>;
+
+export type PostsManagerUsage = ReadonlyMap<string, number>;
 
 export abstract class PostsManager<TPost extends Post = Post> {
   abstract readonly name: string;
@@ -30,6 +32,42 @@ export abstract class PostsManager<TPost extends Post = Post> {
   getAllPosts = (skipReferences?: boolean) => this.yieldAllPosts(skipReferences);
 
   getChunkPosts = (chunkName: string, skipReferences?: boolean) => this.yieldChunkPosts(chunkName, skipReferences);
+
+  getUsedAuthors = async (): Promise<PostsManagerUsage> => {
+    const usedAuthors = new Map<string, number>();
+
+    for await (const [, post] of this.getAllPosts(true)) {
+      asArray(post.author).forEach((author) => {
+        usedAuthors.set(author, (usedAuthors.get(author) || 0) + 1);
+      });
+    }
+
+    return usedAuthors;
+  };
+
+  getUsedLocations = async (): Promise<PostsManagerUsage> => {
+    const usedLocations = new Map<string, number>();
+
+    for await (const [, post] of this.getAllPosts(true)) {
+      if (post.location) {
+        usedLocations.set(post.location, (usedLocations.get(post.location) || 0) + 1);
+      }
+    }
+
+    return usedLocations;
+  };
+
+  getUsedTags = async (): Promise<PostsManagerUsage> => {
+    const usedTags = new Map<string, number>();
+
+    for await (const [, post] of this.getAllPosts(true)) {
+      post.tags?.forEach((tag) => {
+        usedTags.set(tag, (usedTags.get(tag) || 0) + 1);
+      });
+    }
+
+    return usedTags;
+  };
 
   private async *yieldAllPosts(skipReferences?: boolean): AsyncGenerator<PostEntry<TPost>> {
     const chunkNames = await this.getChunkNames();

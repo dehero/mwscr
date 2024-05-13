@@ -3,12 +3,12 @@ import { For, Show } from 'solid-js';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Select.module.css';
 
-interface SelectOption<T> {
+export interface SelectOption<T> {
   value: T | undefined;
   label?: string;
 }
 
-interface SelectProps<T> {
+export interface SelectProps<T> {
   class?: string;
   options: SelectOption<T>[];
   name?: string;
