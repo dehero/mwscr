@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import { type Component, createResource, createSignal, For, Match, Show, Switch } from 'solid-js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import { youtube } from '../../../core/services/youtube.js';
-import { storeDescriptor } from '../../../core/stores/index.js';
+import { store } from '../../../core/stores/index.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { Button } from '../../components/Button/Button.jsx';
 import { Divider } from '../../components/Divider/Divider.js';
@@ -34,7 +34,7 @@ export const PostPage: Component = () => {
   const title = () => post()?.title || 'Untitled';
   const titleRu = () => post()?.titleRu || 'Без названия';
   const content = () => asArray(post()?.content);
-  const contentPublicUrls = () => content().map((url) => storeDescriptor.getPublicUrl(parseResourceUrl(url).pathname));
+  const contentPublicUrls = () => content().map((url) => store.getPublicUrl(parseResourceUrl(url).pathname));
 
   const selectedContent = () => content()[selectedContentIndex()];
   const selectedContentPublicUrl = () => contentPublicUrls()[selectedContentIndex()];

@@ -28,13 +28,13 @@ export interface StoreResourceParsedUrl {
   originalUrl?: string;
 }
 
-export interface StoreDescriptor {
+export interface Store {
   include?: string[];
 
   getPublicUrl(path: string): string | undefined;
 }
 
-export interface Store extends StoreDescriptor {
+export interface StoreManager extends Store {
   copy(from: string, to: string): Promise<void>;
 
   exists(path: string): Promise<boolean>;
@@ -57,7 +57,7 @@ export interface Store extends StoreDescriptor {
 }
 
 export function storeIncludesPath(...checkedPaths: string[]) {
-  return (store: Pick<Store, 'include'>) =>
+  return (store: Pick<StoreManager, 'include'>) =>
     !store.include ||
     (store.include.length > 0 && checkedPaths.every((path) => micromatch.isMatch(path, store.include ?? [])));
 }
