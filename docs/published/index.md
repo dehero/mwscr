@@ -28,10 +28,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BP9jdC_lEM2/)       | 2017-02-01 |       |    25 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_113)  | 2017-02-01 |   136 |     7 |        22 |      7 |
-| [`ig`](https://instagram.com/p/C66x0k3O4BT/)       | 2024-05-13 |       |       |      1418 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1531) | 2024-05-13 |       |       |       915 |        |
-| [`tg`](https://t.me/mwscr/407)                     | 2024-05-13 |       |       |       370 |        |
-|                                                    |            |   136 |    32 |      2703 |        |
+| [`ig`](https://instagram.com/p/C66x0k3O4BT/)       | 2024-05-13 |    39 |    22 |      1418 |   1.55 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1531) | 2024-05-13 |    49 |     9 |       915 |   0.98 |
+| [`tg`](https://t.me/mwscr/407)                     | 2024-05-13 |    58 |    23 |       370 |   6.22 |
+|                                                    |            |   282 |    86 |      2703 |   3.94 |
+
+#### Comments
+
+- `tg` <ins title="2024-05-13-18-19-47">Gatemate7</ins> how do i submit a screenshot?
+  - <ins title="2024-05-13-18-20-22">mwscr</ins> https://github.com/dehero/mwscr/blob/main/CONTRIBUTING.md
 
 ## <span id="2024-05-12.road-to-the-well">Road to the Well</span>
 
@@ -51,10 +56,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C64NQM4toqC/)       | 2024-05-12 |   217 |    72 |      1417 |   5.08 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1530) | 2024-05-12 |   149 |    21 |       915 |    2.3 |
-| [`tg`](https://t.me/mwscr/406)                     | 2024-05-12 |   142 |    39 |       371 |  10.51 |
-|                                                    |            |   508 |   132 |      2703 |   5.96 |
+| [`ig`](https://instagram.com/p/C64NQM4toqC/)       | 2024-05-12 |   221 |    72 |      1417 |   5.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1530) | 2024-05-12 |   151 |    21 |       915 |    2.3 |
+| [`tg`](https://t.me/mwscr/406)                     | 2024-05-12 |   154 |    42 |       371 |  11.32 |
+|                                                    |            |   526 |   135 |      2703 |   6.23 |
 
 ## <span id="2024-05-11.guard-tower-of-suran">Guard Tower of Suran</span>
 
@@ -79,9 +84,9 @@
 | [`ig`](https://instagram.com/p/BYdQtClDTdx/)       | 2017-08-31 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_411)  | 2017-08-31 |   121 |     8 |        76 |      8 |
 | [`ig`](https://instagram.com/p/C61oPzKREuZ/)       | 2024-05-11 |   352 |   125 |      1418 |   8.82 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1529) | 2024-05-11 |   183 |    32 |       915 |    3.5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1529) | 2024-05-11 |   184 |    32 |       915 |    3.5 |
 | [`tg`](https://t.me/mwscr/405)                     | 2024-05-11 |   150 |    52 |       371 |  14.02 |
-|                                                    |            |   806 |   276 |      2704 |   8.58 |
+|                                                    |            |   807 |   276 |      2704 |   8.58 |
 
 #### Comments
 
@@ -148,10 +153,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bi7jBPBlzUw/)       | 2018-05-18 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_731)  | 2018-05-18 |   253 |    14 |       163 |   8.59 |
-| [`ig`](https://instagram.com/p/C6wetaLgomE/)       | 2024-05-09 |   247 |    68 |      1417 |    4.8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1526) | 2024-05-09 |   193 |    34 |       913 |   3.72 |
-| [`tg`](https://t.me/mwscr/403)                     | 2024-05-09 |   171 |    52 |       370 |  14.05 |
-|                                                    |            |   864 |   240 |      2700 |   7.79 |
+| [`ig`](https://instagram.com/p/C6wetaLgomE/)       | 2024-05-09 |   254 |    68 |      1417 |    4.8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1526) | 2024-05-09 |   209 |    36 |       913 |   3.94 |
+| [`tg`](https://t.me/mwscr/403)                     | 2024-05-09 |   197 |    53 |       370 |  14.32 |
+|                                                    |            |   913 |   243 |      2700 |   7.91 |
 
 #### Comments
 

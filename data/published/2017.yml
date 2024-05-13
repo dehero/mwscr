@@ -980,15 +980,28 @@
       id: C66x0k3O4BT
       mediaId: '18071187556504921'
       published: 2024-05-13-18-17-41
+      updated: 2024-05-13-19-11-18
       followers: 1418
+      likes: 22
+      views: 39
     - service: vk
       id: 1531
       published: 2024-05-13-18-17-48
+      updated: 2024-05-13-19-11-19
       followers: 915
+      likes: 9
+      views: 49
     - service: tg
       id: 407
       published: 2024-05-13-18-17-54
+      updated: 2024-05-13-19-11-19
       followers: 370
+      likes: 23
+      views: 58
+      comments: !c |-
+        iz6AkZTLQnj3MuobgACpR2F0ZW1hdGU3vWhvdyBkbyBpIHN1Ym1pdCBhIHNjcmVlbnNob3Q/k8tC
+        ePcy8qcAAKVtd3Njctk5aHR0cHM6Ly9naXRodWIuY29tL2RlaGVyby9td3Njci9ibG9iL21haW4v
+        Q09OVFJJQlVUSU5HLm1kAw==
 2017-02-02.selling-some-stuff-in-sadrith-mora:
   title: Selling Some Stuff in Sadrith Mora
   titleRu: Продажа всякой всячины в Садрид Море
@@ -7036,10 +7049,10 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2024-05-13-18-17-29
+      updated: 2024-05-13-19-11-21
       followers: 915
       likes: 32
-      views: 183
+      views: 184
 2017-09-01.the-last-refuge:
   title: The Last Refuge
   titleRu: Последнее прибежище
