@@ -3652,18 +3652,18 @@
     - service: vk
       id: 1494
       published: 2024-04-14-20-32-17
-      updated: 2024-05-06-03-16-49
+      updated: 2024-05-13-04-17-42
       followers: 911
       likes: 41
-      views: 264
+      views: 267
       reposts: 2
     - service: tg
       id: 378
       published: 2024-04-14-20-32-22
-      updated: 2024-05-06-03-16-49
+      updated: 2024-05-13-04-17-42
       followers: 351
       likes: 63
-      views: 435
+      views: 447
 2017-05-01.altmer-camp:
   title: Altmer Camp
   titleRu: Лагерь альтмеров
@@ -7003,10 +7003,10 @@
       id: C61oPzKREuZ
       mediaId: '18057024232604397'
       published: 2024-05-11-18-17-50
-      updated: 2024-05-13-03-15-39
+      updated: 2024-05-13-04-17-41
       followers: 1418
       likes: 118
-      views: 331
+      views: 332
       comments: !c |-
         Gw4BQByHsZslNHp3P+39cfMf4dO067zLSrt4rGGB9TctWosWYWJ/J5nAcuElm+0UBmD/22DXBcsK
         LBxklGmC2Q1p2Mxvko6kPAfDGf8rt4FL4JtoclNkR7BoAbIdN09L6tZoB8gEXsVYz+d4KgDs6Z4c
@@ -7015,18 +7015,18 @@
     - service: tg
       id: 405
       published: 2024-05-11-18-18-01
-      updated: 2024-05-13-03-15-38
+      updated: 2024-05-13-04-17-41
       followers: 371
       likes: 51
-      views: 140
+      views: 141
       comments: !c ixmAkZPLQnj2j4vXgACuc3Rhc3lham95c3RpY2u50L7Rh9C10L3RjCDQutGA0LDRgdC40LLQvgM=
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2024-05-13-03-15-38
+      updated: 2024-05-13-04-17-41
       followers: 915
       likes: 32
-      views: 169
+      views: 170
 2017-09-01.the-last-refuge:
   title: The Last Refuge
   titleRu: Последнее прибежище
