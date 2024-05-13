@@ -1125,10 +1125,10 @@
     - service: vk
       id: 1495
       published: 2024-04-15-18-17-46
-      updated: 2024-05-06-22-13-42
+      updated: 2024-05-13-22-13-58
       followers: 910
-      likes: 45
-      views: 253
+      likes: 46
+      views: 255
       reposts: 2
       comments: !c Cw6AkZPLQnjuO8YzAACobW9ydHdha2Wo8J+arPCfl78D
     - service: tg
@@ -1668,21 +1668,21 @@
       id: C64NQM4toqC
       mediaId: '18025250564127397'
       published: 2024-05-12-18-19-40
-      updated: 2024-05-13-21-14-50
+      updated: 2024-05-13-22-13-57
       followers: 1417
       likes: 72
-      views: 224
+      views: 226
     - service: tg
       id: 406
       published: 2024-05-12-18-20-07
-      updated: 2024-05-13-21-14-51
+      updated: 2024-05-13-22-13-57
       followers: 371
       likes: 43
-      views: 160
+      views: 161
     - service: vk
       id: 1530
       published: 2024-05-12-19-11-11
-      updated: 2024-05-13-21-14-51
+      updated: 2024-05-13-22-13-57
       followers: 915
       likes: 21
       views: 154
