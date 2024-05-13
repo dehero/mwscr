@@ -1,5 +1,5 @@
 import { type StoreDescriptor, storeIncludesPath } from '../entities/store.js';
-import * as site from './site.js';
+import * as site from './site-store.js';
 
 export const storeDescriptors: StoreDescriptor[] = [site];
 

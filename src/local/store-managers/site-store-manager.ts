@@ -4,9 +4,9 @@ import { Duplex, Readable } from 'stream';
 import type { StoreItem } from '../../core/entities/store.js';
 import { debounce } from '../../core/utils/common-utils.js';
 import { streamToBuffer } from '../utils/data-utils.js';
-import { getPublicUrl } from './yandex-disk.js';
+import { getPublicUrl } from './yandex-disk-manager.js';
 
-export * from '../../core/stores/site.js';
+export * from '../../core/stores/site-store.js';
 
 let client: Client | undefined;
 

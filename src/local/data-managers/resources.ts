@@ -9,7 +9,7 @@ import type { MediaMetadata } from '../../core/entities/media.js';
 import type { Resource } from '../../core/entities/resource.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../core/entities/resource.js';
 import { textToId } from '../../core/utils/common-utils.js';
-import { store } from '../stores/index.js';
+import { store } from '../store-managers/index.js';
 import { pathExists } from '../utils/file-utils.js';
 
 const DEBUG_RESOURCES = Boolean(process.env.DEBUG_RESOURCES) || false;
