@@ -3,7 +3,7 @@ import { useParams } from '@solidjs/router';
 import clsx from 'clsx';
 import { type Component, createResource, createSignal, For, Match, Show, Switch } from 'solid-js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
-import { getServicePostUrl } from '../../../core/services/youtube.js';
+import { youtube } from '../../../core/services/youtube.js';
 import { storeDescriptor } from '../../../core/stores/index.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { Button } from '../../components/Button/Button.jsx';
@@ -111,7 +111,7 @@ export const PostPage: Component = () => {
                   <Match when={resourceIsVideo(url()) && youtubePost()}>
                     <iframe
                       width={804}
-                      src={getServicePostUrl(youtubePost()!, true)}
+                      src={youtube.getServicePostUrl(youtubePost()!, true)}
                       title=""
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowfullscreen
