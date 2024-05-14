@@ -980,14 +980,14 @@
       id: C66x0k3O4BT
       mediaId: '18071187556504921'
       published: 2024-05-13-18-17-41
-      updated: 2024-05-14-18-18-17
+      updated: 2024-05-14-19-11-18
       followers: 1418
-      likes: 72
-      views: 215
+      likes: 75
+      views: 220
     - service: vk
       id: 1531
       published: 2024-05-13-18-17-48
-      updated: 2024-05-14-18-18-17
+      updated: 2024-05-14-19-11-18
       followers: 915
       likes: 27
       views: 147
@@ -995,10 +995,10 @@
     - service: tg
       id: 407
       published: 2024-05-13-18-17-54
-      updated: 2024-05-14-18-18-18
+      updated: 2024-05-14-19-11-19
       followers: 370
-      likes: 49
-      views: 120
+      likes: 50
+      views: 130
       comments: !c |-
         iz6AkZTLQnj3MuobgACpR2F0ZW1hdGU3vWhvdyBkbyBpIHN1Ym1pdCBhIHNjcmVlbnNob3Q/k8tC
         ePcy8qcAAKVtd3Njctk5aHR0cHM6Ly9naXRodWIuY29tL2RlaGVyby9td3Njci9ibG9iL21haW4v
@@ -1265,15 +1265,28 @@
       id: C69WtfesuXe
       mediaId: '18350955172097155'
       published: 2024-05-14-18-18-31
+      updated: 2024-05-14-19-11-17
       followers: 1417
+      likes: 21
+      views: 38
     - service: vk
       id: 1532
       published: 2024-05-14-18-18-38
+      updated: 2024-05-14-19-11-17
       followers: 915
+      likes: 11
+      views: 43
+      reposts: 1
     - service: tg
       id: 408
       published: 2024-05-14-18-18-46
+      updated: 2024-05-14-19-11-18
       followers: 370
+      likes: 20
+      views: 52
+      comments: !c |-
+        izOAkZTLQnj3hUVcAACpR2F0ZW1hdGU32SJpdCB3b3VsZCBsb29rIGJldHRlciBpZiBhZGRlZCBt
+        b2Rzk8tCePeFSMcAAKVhbnNpc75tb2RzIGJhbmlzaCB0aGlzIG4nd2FoIGFscmVhZHkD
 2017-02-10.cold-rain-of-dagon-fel:
   title: Cold Rain of Dagon Fel
   titleRu: Холодный дождь Дагон Фела
