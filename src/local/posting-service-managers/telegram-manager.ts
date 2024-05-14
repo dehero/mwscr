@@ -15,7 +15,7 @@ import { Telegram, TELEGRAM_CHANNEL } from '../../core/services/telegram.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { getDaysPassed } from '../../core/utils/date-utils.js';
 import { readResource } from '../data-managers/resources.js';
-import { findUser, getUser } from '../data-managers/users.js';
+import { users } from '../data-managers/users.js';
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 
@@ -74,12 +74,12 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     await currentTg.destroy();
   }
 
-  async mentionUsers(users: string | string[]) {
+  async mentionUsers(user: string | string[]) {
     const mentions: string[] = [];
-    const userIds = asArray(users);
+    const userIds = asArray(user);
 
     for (const userId of userIds) {
-      const user = await getUser(userId);
+      const user = await users.getItem(userId);
       const name = user?.name || userId;
       const profile = user?.profiles?.[this.id];
 
@@ -337,7 +337,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     let author: string | undefined;
 
     if (authorName) {
-      [author] = (await findUser({ name: authorName })) || [];
+      [author] = (await users.findEntry({ name: authorName })) || [];
     }
 
     return { title: message, author: author || USER_DEFAULT_AUTHOR };

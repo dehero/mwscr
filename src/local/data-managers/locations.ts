@@ -1,32 +1,39 @@
+import type { DataReaderChunk } from '../../core/entities/data-manager.js';
 import type { Location } from '../../core/entities/location.js';
+import { LocationsReader } from '../../core/entities/locations-reader.js';
 import { loadYaml } from './utils/yaml.js';
 
 const LOCATIONS_FILENAME = './data/locations.yml';
 
-let cachedLocations: Location[] | undefined;
+class LocalLocationsReader extends LocationsReader {
+  private cache: DataReaderChunk<Location> | undefined;
 
-export async function getLocations(): Promise<Location[]> {
-  const currentCachedLocations = cachedLocations;
-  if (currentCachedLocations) {
-    return currentCachedLocations;
+  getChunkNames = async () => [LOCATIONS_FILENAME];
+
+  getItemChunkName = () => LOCATIONS_FILENAME;
+
+  protected isItemEqual(a: Location, b: Partial<Location>): boolean {
+    return Boolean(b.title && a.title.toLocaleLowerCase() === b.title.toLocaleLowerCase());
   }
 
-  try {
-    const data = (await loadYaml(LOCATIONS_FILENAME)) as Location[];
-    if (!cachedLocations) {
-      cachedLocations = data;
+  protected async loadChunk(chunkName: string) {
+    const currentCache = this.cache;
+    if (currentCache) {
+      return currentCache;
     }
 
-    return cachedLocations;
-  } catch (error) {
-    const message = error instanceof Error ? error.message : error;
-    throw new Error(`Error loading locations: ${message}`);
+    try {
+      const data = (await loadYaml(chunkName)) as Location[];
+      if (!this.cache) {
+        this.cache = new Map(data.map((location) => [location.title, location]));
+      }
+
+      return this.cache;
+    } catch (error) {
+      const message = error instanceof Error ? error.message : error;
+      throw new Error(`Error loading locations: ${message}`);
+    }
   }
 }
 
-export async function findLocation(searchString: string): Promise<Location | undefined> {
-  const locations = await getLocations();
-  const lowerCaseSearchString = searchString.toLocaleLowerCase();
-
-  return locations.find((location) => location.title.toLocaleLowerCase() === lowerCaseSearchString);
-}
+export const locations = new LocalLocationsReader();

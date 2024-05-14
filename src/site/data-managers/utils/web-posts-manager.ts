@@ -1,37 +1,38 @@
 import { posix } from 'path';
+import type { DataReaderChunk } from '../../../core/entities/data-manager.js';
 import type { Post } from '../../../core/entities/post.js';
-import { PostsManager, type PostsManagerChunk } from '../../../core/entities/posts-manager.js';
+import { PostsManager } from '../../../core/entities/posts-manager.js';
 
 type ChunkLoader = () => Promise<unknown>;
 
 export interface WebPostsManagerProps {
   name: string;
   chunksLoaders: Record<string, ChunkLoader>;
-  getPostChunkName: (id: string) => string;
+  getItemChunkName: (id: string) => string;
 }
 
 export class WebPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
   readonly name: string;
   readonly chunksLoaders: Record<string, ChunkLoader>;
-  readonly getPostChunkName: (id: string) => string;
-  private chunks: Map<string, PostsManagerChunk<TPost>> = new Map();
+  readonly getItemChunkName: (id: string) => string;
+  private chunks: Map<string, DataReaderChunk<TPost>> = new Map();
 
-  constructor({ name, chunksLoaders, getPostChunkName }: WebPostsManagerProps) {
+  constructor({ name, chunksLoaders, getItemChunkName }: WebPostsManagerProps) {
     super();
     this.name = name;
     this.chunksLoaders = chunksLoaders;
-    this.getPostChunkName = getPostChunkName;
+    this.getItemChunkName = getItemChunkName;
   }
 
-  addPost = async (id: string, post: string | Post) => {
+  addItem = async (post: string | Post, id: string | undefined) => {
     console.log('addPost', id, post);
   };
 
-  removePost = async (id: string) => {
+  removeItem = async (id: string) => {
     console.log('removePost', id);
   };
 
-  updatePost = async (id: string) => {
+  updateItem = async (id: string) => {
     console.log('updatePost', id);
   };
 
@@ -39,7 +40,7 @@ export class WebPostsManager<TPost extends Post = Post> extends PostsManager<TPo
     return Object.keys(this.chunksLoaders).map((name) => posix.parse(name).name);
   };
 
-  protected async loadChunk(chunkName: string): Promise<PostsManagerChunk<TPost>> {
+  protected async loadChunk(chunkName: string) {
     let chunk = this.chunks.get(chunkName);
     if (chunk) {
       return chunk;
@@ -71,5 +72,9 @@ export class WebPostsManager<TPost extends Post = Post> extends PostsManager<TPo
     this.chunks.set(chunkName, chunk);
 
     return chunk;
+  }
+
+  protected async saveChunk(chunkName: string) {
+    console.log('Saving chunk', chunkName);
   }
 }

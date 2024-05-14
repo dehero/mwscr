@@ -14,7 +14,7 @@ export async function maintainPreviews() {
   console.info('Creating previews, searching for deletable previews...');
 
   for (const manager of [published, inbox, trash]) {
-    for await (const [, post] of manager.getAllPosts(true)) {
+    for await (const [, post] of manager.readAllEntries(true)) {
       if (post.violation === 'inappropriate-content') {
         // Force delete previews of inappropriate content
         continue;

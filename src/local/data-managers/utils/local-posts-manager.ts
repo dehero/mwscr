@@ -1,8 +1,8 @@
 import { readdir } from 'fs/promises';
+import type { DataReaderChunk } from '../../../core/entities/data-manager.js';
 import type { Post } from '../../../core/entities/post.js';
 import { isPost } from '../../../core/entities/post.js';
 import { stripPostTags } from '../../../core/entities/post-tag.js';
-import type { PostsManagerChunk } from '../../../core/entities/posts-manager.js';
 import { PostsManager } from '../../../core/entities/posts-manager.js';
 import { pathExists } from '../../utils/file-utils.js';
 import { loadYaml, saveYaml } from './yaml.js';
@@ -11,43 +11,30 @@ export interface LocalPostsManagerProps<TPost extends Post> {
   name: string;
   dirPath: string;
   checkPost: (post: Post, errors?: string[]) => post is TPost;
-  getPostChunkName: (id: string) => string;
+  getItemChunkName: (id: string) => string;
 }
 
 export class LocalPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
   readonly name: string;
   readonly checkPost: (post: Post, errors?: string[]) => post is TPost;
-  readonly getPostChunkName: (id: string) => string;
+  readonly getItemChunkName: (id: string) => string;
   readonly dirPath: string;
   private chunkNames: Set<string> | undefined;
-  private chunks: Map<string, PostsManagerChunk<TPost>> = new Map();
+  private chunks: Map<string, DataReaderChunk<TPost>> = new Map();
 
-  constructor({ name, dirPath, checkPost, getPostChunkName }: LocalPostsManagerProps<TPost>) {
+  constructor({ name, dirPath, checkPost, getItemChunkName }: LocalPostsManagerProps<TPost>) {
     super();
     this.name = name;
     this.checkPost = checkPost;
     this.dirPath = dirPath;
-    this.getPostChunkName = getPostChunkName;
+    this.getItemChunkName = getItemChunkName;
   }
 
-  addPost = async (id: string, post: Post | string) => {
+  async addItem(post: Post | string, id: string) {
     const [, validPost] = this.validatePost([id, post]);
-    const chunkName = this.getPostChunkName(id);
 
-    const chunk = await this.loadChunk(chunkName);
-    chunk.set(id, validPost);
-
-    return this.saveChunk(chunkName);
-  };
-
-  removePost = async (id: string) => {
-    const chunkName = this.getPostChunkName(id);
-    const chunk = await this.loadChunk(chunkName);
-
-    chunk.delete(id);
-
-    return this.saveChunk(chunkName);
-  };
+    return super.addItem(validPost, id);
+  }
 
   getChunkNames = async (): Promise<string[]> => {
     const currentChunkNames = this.chunkNames;
@@ -69,18 +56,7 @@ export class LocalPostsManager<TPost extends Post = Post> extends PostsManager<T
     return this.chunkNames ? [...this.chunkNames.values()] : [];
   };
 
-  updatePost = async (id: string) => {
-    const chunkName = this.getPostChunkName(id);
-    const chunk = await this.loadChunk(chunkName);
-    const post = chunk.get(id);
-
-    const refId = typeof post === 'string' ? post : id;
-    const refChunkName = this.getPostChunkName(refId);
-
-    return this.saveChunk(refChunkName);
-  };
-
-  protected async loadChunk(chunkName: string): Promise<PostsManagerChunk<TPost>> {
+  protected async loadChunk(chunkName: string): Promise<DataReaderChunk<TPost>> {
     let chunk = this.chunks.get(chunkName);
     if (chunk) {
       return chunk;
@@ -115,7 +91,7 @@ export class LocalPostsManager<TPost extends Post = Post> extends PostsManager<T
     return chunk;
   }
 
-  private async saveChunk(chunkName: string) {
+  protected async saveChunk(chunkName: string) {
     const chunkPosts = this.chunks.get(chunkName);
     const filename = `${this.dirPath}/${chunkName}.yml`;
 

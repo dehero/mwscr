@@ -1,8 +1,9 @@
+import { searchDataReaderItem } from '../../core/entities/data-manager.js';
 import { postLocation } from '../../core/entities/field.js';
 import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
-import { getPost } from '../../core/entities/posts-manager.js';
 import { label } from '../../core/github-issues/location.js';
-import { findLocation, getLocations } from '../data-managers/locations.js';
+import { arrayFromAsync } from '../../core/utils/common-utils.js';
+import { locations } from '../data-managers/locations.js';
 import { inbox, published, trash } from '../data-managers/posts.js';
 import { extractIssueFieldValue, extractIssueUser } from './utils/issue-utils.js';
 
@@ -16,16 +17,16 @@ export async function resolve(issue: GithubIssue) {
   }
 
   const id = issue.title;
-  const [post, manager] = await getPost(id, [published, inbox, trash]);
+  const [post, manager] = await searchDataReaderItem(id, [published, inbox, trash]);
   const locationStr = extractIssueFieldValue(postLocation, issue.body);
 
   if (!locationStr) {
     console.error(`Location was not selected.`);
   } else {
-    const location = await findLocation(locationStr);
+    const [location] = (await locations.findEntry({ title: locationStr })) ?? [];
     if (location) {
-      post.location = location.title;
-      await manager.updatePost(id);
+      post.location = location;
+      await manager.updateItem(id);
       console.info(`Set location "${locationStr}" for ${manager.name} post "${id}".`);
     } else {
       console.error(`Location "${locationStr}" not found.`);
@@ -34,7 +35,7 @@ export async function resolve(issue: GithubIssue) {
 }
 
 export async function createIssueTemplate() {
-  const locations = await getLocations();
+  const options = (await arrayFromAsync(locations.readAllEntries(true))).map(([, { title }]) => title);
 
   const result = {
     name: 'Locate Post',
@@ -46,7 +47,7 @@ export async function createIssueTemplate() {
         ...postLocation,
         attributes: {
           ...postLocation.attributes,
-          options: locations.map(({ title }) => title),
+          options,
         },
       },
     ],
