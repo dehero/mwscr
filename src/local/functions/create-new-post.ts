@@ -2,12 +2,12 @@ import type { PostEntries, PostEntry } from '../../core/entities/post.js';
 import { comparePostEntriesById, getPostEntriesFromSource } from '../../core/entities/post.js';
 import type { PublishablePost } from '../../core/entities/post-variation.js';
 import { isPublishablePost } from '../../core/entities/post-variation.js';
+import type { PostsManager } from '../../core/entities/posts-manager.js';
 import { checkRules } from '../../core/entities/rule.js';
 import type { PostingScenario } from '../../core/scenarios/posting.js';
 import { postingScenarios } from '../../core/scenarios/posting.js';
 import { createPublishedPostId, createRepostId, inbox, published } from '../data-managers/posts.js';
 import { movePublishedPostResources } from '../data-managers/store-resources.js';
-import type { LocalPostsManager } from '../data-managers/utils/local-posts-manager.js';
 
 const DEBUG_POSTING = Boolean(process.env.DEBUG_POSTING) || false;
 
@@ -15,7 +15,10 @@ export async function createNewPost() {
   console.group(`Creating new post...`);
 
   try {
-    const publishedPostEntries = await getPostEntriesFromSource(published.getAllPosts, comparePostEntriesById('desc'));
+    const publishedPostEntries = await getPostEntriesFromSource(
+      published.readAllEntries,
+      comparePostEntriesById('desc'),
+    );
 
     const postsManagers = [inbox, published];
 
@@ -31,14 +34,14 @@ export async function createNewPost() {
         const newId = createPublishedPostId(post);
 
         await movePublishedPostResources([newId, post]);
-        await published.addPost(newId, post);
-        await inbox.removePost(id);
+        await published.addItem(post, newId);
+        await inbox.removeItem(id);
 
         console.info(`Created post "${newId}" from inbox item "${id}".`);
       } else {
         const newId = createRepostId(post);
 
-        await published.addPost(newId, id);
+        await published.addItem(id, newId);
 
         console.info(`Reposted "${id}" as "${newId}".`);
       }
@@ -56,7 +59,7 @@ export async function createNewPost() {
 
 export async function selectPostFromScenario(
   postingScenario: PostingScenario,
-  postManagers: LocalPostsManager[],
+  postManagers: PostsManager[],
   publishedPostEntries: PostEntries,
 ): Promise<PostEntry<PublishablePost> | undefined> {
   const [title, postingRules, postCandidateRules] = postingScenario;
@@ -70,7 +73,7 @@ export async function selectPostFromScenario(
   for (const postManager of postManagers) {
     console.info(`Running scenario "${title}" on ${postManager.name} posts...`);
 
-    const postEntries = await getPostEntriesFromSource(postManager.getAllPosts, undefined, isPublishablePost);
+    const postEntries = await getPostEntriesFromSource(postManager.readAllEntries, undefined, isPublishablePost);
     const candidates: PostEntry<PublishablePost>[] = [];
 
     for (const [id, post] of postEntries) {

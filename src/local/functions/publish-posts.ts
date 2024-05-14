@@ -9,7 +9,7 @@ import { postingServiceManagers } from '../posting-service-managers/index.js';
 export async function publishPosts() {
   console.group(`Publishing posts...`);
 
-  const publishedPostEntries = await getPostEntriesFromSource(published.getAllPosts, comparePostEntriesById('desc'));
+  const publishedPostEntries = await getPostEntriesFromSource(published.readAllEntries, comparePostEntriesById('desc'));
 
   try {
     for (const service of postingServiceManagers) {
@@ -39,7 +39,7 @@ export async function publishPostToService(service: PostingServiceManager, [id, 
     console.info(`Publishing post "${id}" to ${service.name}...`);
     await service.connect();
     await service.publishPost(post);
-    await published.updatePost(id);
+    await published.updateItem(id);
     await service.disconnect();
     console.info(`Published post "${id}" to ${service.name}.`);
   } catch (error) {

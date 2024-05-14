@@ -38,7 +38,7 @@ export async function importStoreInbox() {
 }
 
 async function importNewItems(items: StoreItem[]) {
-  const inboxItems = await getPostEntriesFromSource(inbox.getAllPosts);
+  const inboxItems = await getPostEntriesFromSource(inbox.readAllEntries);
   let addedItems = 0;
 
   for (const item of items) {
@@ -77,13 +77,13 @@ async function importNewItems(items: StoreItem[]) {
       id = createInboxItemId(author, date, key);
     }
 
-    const inboxItem = await inbox.getPost(id);
+    const inboxItem = await inbox.getItem(id);
 
     if (inboxItem) {
       mergePostWith(inboxItem, draft);
-      await inbox.updatePost(id);
+      await inbox.updateItem(id);
     } else {
-      await inbox.addPost(id, draft);
+      await inbox.addItem(draft, id);
     }
 
     console.info(`Imported new inbox item "${item.url}" to "${id}".`);
@@ -99,7 +99,7 @@ async function moveDeletedItemsToTrash(items: StoreItem[]) {
   const storeUrls = new Set(items.map(({ url }) => url));
   let processedItems = 0;
 
-  for await (const [id, item] of inbox.getAllPosts()) {
+  for await (const [id, item] of inbox.readAllEntries()) {
     if (!item.content || item.content.length === 0) {
       continue;
     }
@@ -112,7 +112,7 @@ async function moveDeletedItemsToTrash(items: StoreItem[]) {
     if (content.length === 0 && !item.request) {
       item.mark = 'D';
 
-      await inbox.updatePost(id);
+      await inbox.updateItem(id);
 
       console.info(`Rejected inbox item "${id}".`);
       processedItems++;
@@ -120,7 +120,7 @@ async function moveDeletedItemsToTrash(items: StoreItem[]) {
       item.content = mergePostContents(content);
       item.trash = mergePostContents(item.trash, trash);
 
-      await inbox.updatePost(id);
+      await inbox.updateItem(id);
 
       console.info(`Moved "${trash.join('", "')}" to trash for inbox item "${id}".`);
       processedItems++;

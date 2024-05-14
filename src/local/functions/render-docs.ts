@@ -13,7 +13,7 @@ import {
   isTrashItem,
 } from '../../core/entities/post-variation.js';
 import { inbox, published, trash } from '../data-managers/posts.js';
-import * as Users from '../data-managers/users.js';
+import { users } from '../data-managers/users.js';
 import type { PostEntriesDoc } from '../doc-renderers/render-post-entries.js';
 import { renderPostEntriesDoc } from '../doc-renderers/render-post-entries.js';
 import { renderUsers } from '../doc-renderers/render-users.js';
@@ -101,14 +101,13 @@ export async function renderDocs() {
 async function renderPublishedPosts() {
   await createEmptyDir(PUBLISHED_DOCS_PATH);
 
-  const users = await Users.load();
   const years = await published.getChunkNames();
   const docs: PostEntriesDoc[] = [
     {
       title: 'Top Rated',
       linkText: 'Top Rated',
       filename: `${PUBLISHED_DOCS_PATH}/top-rated.md`,
-      source: () => published.getAllPosts(true),
+      source: () => published.readAllEntries(true),
       compareFn: comparePostEntriesByRating('desc'),
       size: 50,
     },
@@ -119,7 +118,7 @@ async function renderPublishedPosts() {
           title: `Published in ${year}`,
           linkText: year,
           filename: `${PUBLISHED_DOCS_PATH}/${index === 0 ? 'index' : year}.md`,
-          source: () => published.getChunkPosts(year),
+          source: () => published.readChunkEntries(year),
           compareFn: comparePostEntriesById('desc'),
         }),
       ),
@@ -130,9 +129,9 @@ async function renderPublishedPosts() {
       await renderPostEntriesDoc({
         doc,
         navs: [...navs, docs],
-        users,
         postActions: ['locate'],
         postCheck: isPublishablePost,
+        users,
       });
       console.info(`Rendered "${doc.filename}".`);
     } catch (error) {
@@ -146,7 +145,6 @@ async function renderPublishedPosts() {
 async function renderInbox() {
   await createEmptyDir(INBOX_DOCS_PATH);
 
-  const users = await Users.load();
   const years = await inbox.getChunkNames();
 
   const docs: PostEntriesDoc[] = [
@@ -154,7 +152,7 @@ async function renderInbox() {
       title: 'Shortlist',
       linkText: 'Shortlist',
       filename: `${INBOX_DOCS_PATH}/shortlist.md`,
-      source: inbox.getAllPosts,
+      source: inbox.readAllEntries,
       compareFn: comparePostEntriesById('desc'),
       filterFn: isPublishablePost,
     },
@@ -162,7 +160,7 @@ async function renderInbox() {
       title: 'Requests',
       linkText: 'Requests',
       filename: `${INBOX_DOCS_PATH}/requests.md`,
-      source: inbox.getAllPosts,
+      source: inbox.readAllEntries,
       filterFn: isPostRequest,
       compareFn: comparePostEntriesById('desc'),
     },
@@ -173,7 +171,7 @@ async function renderInbox() {
           title: `Inbox for ${year}`,
           linkText: year,
           filename: `${INBOX_DOCS_PATH}/${index === 0 ? 'index' : year}.md`,
-          source: () => inbox.getChunkPosts(year),
+          source: () => inbox.readChunkEntries(year),
           filterFn: (post): post is Post => !isPublishablePost(post),
           compareFn: comparePostEntriesById('desc'),
         }),
@@ -186,8 +184,8 @@ async function renderInbox() {
         doc,
         navs: [...navs, docs],
         postActions: ['review', 'edit', 'merge', 'locate'],
-        users,
         postCheck: isPublishablePost,
+        users,
       });
       console.info(`Rendered "${doc.filename}".`);
     } catch (error) {
@@ -201,14 +199,13 @@ async function renderInbox() {
 async function renderTrash() {
   await createEmptyDir(TRASH_DOCS_PATH);
 
-  const users = await Users.load();
   const years = await trash.getChunkNames();
   const docs: PostEntriesDoc[] = [
     {
       title: 'Revisit',
       linkText: 'Revisit',
       filename: `${TRASH_DOCS_PATH}/revisit.md`,
-      source: trash.getAllPosts,
+      source: trash.readAllEntries,
       compareFn: comparePostEntriesById('desc'),
       filterFn: isRevisitablePost,
     },
@@ -219,7 +216,7 @@ async function renderTrash() {
           title: `Trash for ${year}`,
           linkText: year,
           filename: `${TRASH_DOCS_PATH}/${index === 0 ? 'index' : year}.md`,
-          source: () => trash.getChunkPosts(year),
+          source: () => trash.readChunkEntries(year),
           compareFn: comparePostEntriesById('desc'),
         }),
       ),
@@ -230,9 +227,9 @@ async function renderTrash() {
       await renderPostEntriesDoc({
         doc,
         navs: [...navs, docs],
-        users,
         postActions: ['review', 'edit', 'merge', 'locate'],
         postCheck: isTrashItem,
+        users,
       });
       console.info(`Rendered "${doc.filename}".`);
     } catch (error) {
@@ -245,10 +242,9 @@ async function renderTrash() {
 
 async function renderContributors() {
   const filename = CONTRIBUTORS_DOCS_FILENAME;
-  const publishedPosts = await getPostEntriesFromSource(published.getAllPosts);
-  const inboxPosts = await getPostEntriesFromSource(inbox.getAllPosts);
-  const trashPosts = await getPostEntriesFromSource(trash.getAllPosts);
-  const users = await Users.load();
+  const publishedPosts = await getPostEntriesFromSource(published.readAllEntries);
+  const inboxPosts = await getPostEntriesFromSource(inbox.readAllEntries);
+  const trashPosts = await getPostEntriesFromSource(trash.readAllEntries);
 
   try {
     await renderUsers({

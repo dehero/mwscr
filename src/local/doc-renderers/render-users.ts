@@ -3,7 +3,8 @@ import esc from 'escape-html';
 import type { Doc } from '../../core/entities/doc.js';
 import type { PostEntries, PostType } from '../../core/entities/post.js';
 import { getPostTotalLikes, POST_TYPES } from '../../core/entities/post.js';
-import type { ReadonlyUsers, User, UserRoleId } from '../../core/entities/user.js';
+import type { User, UserRoleId } from '../../core/entities/user.js';
+import type { UsersManager } from '../../core/entities/users-manager.js';
 import { services } from '../../core/services/index.js';
 import { asArray, partition } from '../../core/utils/common-utils.js';
 import { renderNavs } from './utils/doc-utils.js';
@@ -44,7 +45,7 @@ function compareUserInfos(a: RenderedUser, b: RenderedUser) {
 }
 
 export interface RenderUsersOptions {
-  users: ReadonlyUsers;
+  users: UsersManager;
   published: PostEntries;
   inbox: PostEntries;
   trash: PostEntries;
@@ -53,7 +54,7 @@ export interface RenderUsersOptions {
 }
 
 export async function renderUsers(options: RenderUsersOptions) {
-  let users = [...options.users].map((item) => grabUserInfo(item, options)).sort(compareUserInfos);
+  let users = [...(await options.users.getMap())].map((item) => grabUserInfo(item, options)).sort(compareUserInfos);
   const { navs, doc } = options;
   const { filename, title } = doc;
   const lines: string[] = [];

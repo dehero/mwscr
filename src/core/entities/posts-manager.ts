@@ -1,42 +1,20 @@
-import { asArray, listItems } from '../utils/common-utils.js';
-import type { Post, PostEntry } from './post.js';
-
-export type PostsManagerChunk<TPost> = Map<string, TPost | string>;
+import { asArray } from '../utils/common-utils.js';
+import { DataManager } from './data-manager.js';
+import { isPostEqual, mergePostWith, type Post } from './post.js';
 
 export type PostsManagerUsage = ReadonlyMap<string, number>;
 
-export abstract class PostsManager<TPost extends Post = Post> {
-  abstract readonly name: string;
-  abstract readonly getPostChunkName: (id: string) => string;
+export abstract class PostsManager<TPost extends Post = Post> extends DataManager<TPost> {
+  // TODO: maybe remove isPostEqual and mergePostWith as separate functions
 
-  abstract addPost: (id: string, post: Post | string) => Promise<void>;
+  protected isItemEqual = isPostEqual;
 
-  abstract getChunkNames: () => Promise<string[]>;
-
-  abstract updatePost: (id: string) => Promise<void>;
-
-  protected abstract loadChunk(chunkName: string): Promise<PostsManagerChunk<TPost>>;
-
-  getPost = async (id: string): Promise<TPost | undefined> => {
-    const chunkName = this.getPostChunkName(id);
-    const chunk = await this.loadChunk(chunkName);
-    const post = chunk.get(id);
-
-    if (typeof post === 'string') {
-      return this.getPost(post);
-    }
-
-    return post;
-  };
-
-  getAllPosts = (skipReferences?: boolean) => this.yieldAllPosts(skipReferences);
-
-  getChunkPosts = (chunkName: string, skipReferences?: boolean) => this.yieldChunkPosts(chunkName, skipReferences);
+  protected mergeItemWith = mergePostWith;
 
   getUsedAuthors = async (): Promise<PostsManagerUsage> => {
     const usedAuthors = new Map<string, number>();
 
-    for await (const [, post] of this.getAllPosts(true)) {
+    for await (const [, post] of this.readAllEntries(true)) {
       asArray(post.author).forEach((author) => {
         usedAuthors.set(author, (usedAuthors.get(author) || 0) + 1);
       });
@@ -48,7 +26,7 @@ export abstract class PostsManager<TPost extends Post = Post> {
   getUsedLocations = async (): Promise<PostsManagerUsage> => {
     const usedLocations = new Map<string, number>();
 
-    for await (const [, post] of this.getAllPosts(true)) {
+    for await (const [, post] of this.readAllEntries(true)) {
       if (post.location) {
         usedLocations.set(post.location, (usedLocations.get(post.location) || 0) + 1);
       }
@@ -60,7 +38,7 @@ export abstract class PostsManager<TPost extends Post = Post> {
   getUsedTags = async (): Promise<PostsManagerUsage> => {
     const usedTags = new Map<string, number>();
 
-    for await (const [, post] of this.getAllPosts(true)) {
+    for await (const [, post] of this.readAllEntries(true)) {
       post.tags?.forEach((tag) => {
         usedTags.set(tag, (usedTags.get(tag) || 0) + 1);
       });
@@ -68,44 +46,4 @@ export abstract class PostsManager<TPost extends Post = Post> {
 
     return usedTags;
   };
-
-  private async *yieldAllPosts(skipReferences?: boolean): AsyncGenerator<PostEntry<TPost>> {
-    const chunkNames = await this.getChunkNames();
-
-    for (const chunkName of chunkNames) {
-      yield* this.yieldChunkPosts(chunkName, skipReferences);
-    }
-  }
-
-  private async *yieldChunkPosts(chunkName: string, skipReferences?: boolean): AsyncGenerator<PostEntry<TPost>> {
-    const chunk = await this.loadChunk(chunkName);
-
-    for (const [key, value] of chunk) {
-      if (typeof value === 'string') {
-        if (!skipReferences) {
-          const post = await this.getPost(value);
-          if (!post) {
-            throw new Error(`Post "${value}" not found`);
-          }
-          yield [key, post, value];
-        }
-      } else {
-        yield [key, value];
-      }
-    }
-  }
-}
-
-export async function getPost<
-  TPostsManager extends PostsManager,
-  TPost extends TPostsManager extends PostsManager<infer T> ? T : Post,
->(id: string, managers: TPostsManager[]): Promise<[TPost, TPostsManager]> {
-  for (const manager of managers) {
-    const post = await manager.getPost(id);
-    if (post) {
-      return [post as TPost, manager];
-    }
-  }
-
-  throw new Error(`Cannot find post "${id}" through ${listItems(managers.map(({ name }) => name))} posts.`);
 }

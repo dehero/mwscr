@@ -26,7 +26,7 @@ export async function resolve(issue: GithubIssue) {
     const draftEntries = await importResourceToStore(url, { title: text || issueTitle, author }, issueDate);
 
     for (const [id, post] of draftEntries) {
-      await inbox.addPost(id, post);
+      await inbox.addItem(post, id);
 
       console.info(`Created inbox item "${id}" from "${url}".`);
     }

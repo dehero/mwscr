@@ -154,11 +154,11 @@ export function getPostCommentCount(post: Post) {
   );
 }
 
-export function getPostFirstPublished(post: Post) {
+export function getPostFirstPublished(post: Pick<Post, 'posts'>) {
   return post.posts ? new Date(Math.min(...post.posts.map((post) => post.published.getTime()))) : undefined;
 }
 
-export function getPostLastPublished(post: Post) {
+export function getPostLastPublished(post: Pick<Post, 'posts'>) {
   return post.posts ? new Date(Math.max(...post.posts.map((post) => post.published.getTime()))) : undefined;
 }
 
@@ -170,7 +170,7 @@ export function getServicePostRating(info?: ServicePost<unknown>) {
   return info.followers >= 100 ? (info.likes / info.followers) * 100 : info.likes;
 }
 
-export function isPostEqual(a: Post, b: Post): boolean {
+export function isPostEqual(a: Post, b: Partial<Post>): boolean {
   const date1 = getPostFirstPublished(b);
   const date2 = getPostFirstPublished(a);
 

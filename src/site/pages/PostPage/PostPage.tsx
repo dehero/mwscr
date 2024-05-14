@@ -29,7 +29,7 @@ export const PostPage: Component = () => {
 
   const manager = [published, inbox, trash].find((m) => m.name === params.managerName);
   const id = () => params.id;
-  const [post] = createResource(() => manager?.getPost(id()));
+  const [post] = createResource(() => manager?.getItem(id()));
 
   const title = () => post()?.title || 'Untitled';
   const titleRu = () => post()?.titleRu || 'Без названия';

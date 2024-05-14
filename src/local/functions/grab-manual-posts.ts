@@ -61,7 +61,7 @@ async function grabManualServicePosts(service: PostingServiceManager) {
         }
 
         const newId = createPublishedPostId(newPost);
-        await published.addPost(newId, newPost);
+        await published.addItem(newPost, newId);
 
         console.info(`Imported manual ${service.name} post "${newId}".`);
       } catch (error) {
@@ -71,7 +71,7 @@ async function grabManualServicePosts(service: PostingServiceManager) {
       }
     } else {
       mergePostWith(post, newPost);
-      await published.updatePost(id);
+      await published.updateItem(id);
       console.info(`Merged manual ${service.name} post with existing post "${id}".`);
     }
   }
@@ -83,7 +83,7 @@ async function findLastPublishedPostEntry(
   const years = (await published.getChunkNames()).reverse();
 
   for (const year of years) {
-    const postEntries = await getPostEntriesFromSource(() => published.getChunkPosts(year));
+    const postEntries = await getPostEntriesFromSource(() => published.readChunkEntries(year));
     const postEntry = [...postEntries].reverse().find(([_, post]) => filter(post));
     if (postEntry) {
       return postEntry;
@@ -94,7 +94,7 @@ async function findLastPublishedPostEntry(
 }
 
 async function* getAllServicePosts(service: string): AsyncGenerator<ServicePost<unknown>> {
-  for await (const [, post] of published.getAllPosts()) {
+  for await (const [, post] of published.readAllEntries()) {
     if (!post.posts) {
       continue;
     }

@@ -117,7 +117,7 @@ const getPosts = async (params: GetPostsParams): Promise<PostEntries> => {
   const checker = checks.find((variation) => variation.value === params.check)?.fn;
 
   return await getPostEntriesFromSource(
-    () => params.manager.getAllPosts(params.skipReferences),
+    () => params.manager.readAllEntries(params.skipReferences),
     comparator(params.sortDirection),
     (post): post is Post =>
       Boolean(

@@ -23,8 +23,8 @@ import {
 import { isTrashItem } from '../../core/entities/post-variation.js';
 import { parseResourceUrl } from '../../core/entities/resource.js';
 import type { PostingService } from '../../core/entities/service.js';
-import type { ReadonlyUsers } from '../../core/entities/user.js';
 import { USER_UNKNOWN } from '../../core/entities/user.js';
+import type { UsersManager } from '../../core/entities/users-manager.js';
 import { asArray, capitalizeFirstLetter } from '../../core/utils/common-utils.js';
 import { dateToString } from '../../core/utils/date-utils.js';
 import { getResourcePreviewPath } from '../data-managers/resources.js';
@@ -61,7 +61,7 @@ export interface RenderPostsOptions {
   postActions?: RenderedPostAction[];
   postCheck?: (post: Post, errors?: string[]) => boolean;
   navs: Array<Doc[]>;
-  users: ReadonlyUsers;
+  users: UsersManager;
 }
 
 export async function renderPostEntriesDoc(options: RenderPostsOptions) {
@@ -82,7 +82,9 @@ export async function renderPostEntriesDoc(options: RenderPostsOptions) {
     lines.push(`\`${postEntries.length} items\``);
     lines.push('');
 
-    lines.push(...postEntries.flatMap((postEntry) => renderPostEntry(postEntry, options)));
+    for (const postEntry of postEntries) {
+      lines.push(...(await renderPostEntry(postEntry, options)));
+    }
 
     const lastNavs = navs[navs.length - 1];
 
@@ -204,14 +206,14 @@ function renderPostContent(
   return lines;
 }
 
-function renderPostAttributes(post: Post, options: RenderPostsOptions): string[] {
+async function renderPostAttributes(post: Post, options: RenderPostsOptions): Promise<string[]> {
   const lines: string[] = [];
 
   if (post.author) {
     lines.push(
-      `by ${asArray(post.author)
-        .map((author) => renderPostContributor(author, undefined, options))
-        .join(', ')}`,
+      `by ${(
+        await Promise.all(asArray(post.author).map((author) => renderPostContributor(author, undefined, options)))
+      ).join(', ')}`,
     );
   } else if (isTrashItem(post)) {
     lines.push(`_cancelled_`);
@@ -224,7 +226,7 @@ function renderPostAttributes(post: Post, options: RenderPostsOptions): string[]
   return lines;
 }
 
-function renderPostEntry(postEntry: PostEntry<Post>, options: RenderPostsOptions): string[] {
+async function renderPostEntry(postEntry: PostEntry<Post>, options: RenderPostsOptions): Promise<string[]> {
   const [id, post, originalId] = postEntry;
   const lines: string[] = [];
   const { postActions } = options;
@@ -261,12 +263,12 @@ function renderPostEntry(postEntry: PostEntry<Post>, options: RenderPostsOptions
     lines.push('');
   }
 
-  lines.push([`\`${esc(post.type)}\``, ...renderPostAttributes(post, options)].join(' '));
+  lines.push([`\`${esc(post.type)}\``, ...(await renderPostAttributes(post, options))].join(' '));
   lines.push('');
 
   if (post.request) {
     lines.push(`> ${esc(post.request.text)}  `);
-    lines.push(`> ${renderPostContributor(post.request.user, post.request.date, options)}`);
+    lines.push(`> ${await renderPostContributor(post.request.user, post.request.date, options)}`);
     lines.push('');
   }
 
@@ -352,8 +354,8 @@ function renderPostEntry(postEntry: PostEntry<Post>, options: RenderPostsOptions
   return lines;
 }
 
-function renderPostContributor(id: string, date: Date | undefined, options: RenderPostsOptions): string {
-  const user = options.users.get(id);
+async function renderPostContributor(id: string, date: Date | undefined, options: RenderPostsOptions): Promise<string> {
+  const user = await options.users.getItem(id);
 
   return `[${esc(user?.name || id)}](${`../contributors.md#${esc(id)}`}${date ? ` "${dateToString(date)}"` : ''})`;
 }

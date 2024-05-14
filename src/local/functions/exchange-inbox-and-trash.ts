@@ -16,12 +16,12 @@ async function cleanupInbox() {
   console.info('Cleaning inbox...');
 
   try {
-    for await (const [id, item] of inbox.getAllPosts()) {
+    for await (const [id, item] of inbox.readAllEntries()) {
       if (isTrashItem(item)) {
         try {
           await moveInboxItemResourcesToTrash(item);
-          await inbox.removePost(id);
-          await trash.addPost(id, item);
+          await inbox.removeItem(id);
+          await trash.addItem(item, id);
 
           console.info(`Moved rejected inbox item "${id}" to trash.`);
         } catch (error) {
@@ -42,12 +42,12 @@ async function tryRestoreTrashItems() {
   console.info('Searching for trash items to restore...');
 
   try {
-    for await (const [id, item] of trash.getAllPosts()) {
+    for await (const [id, item] of trash.readAllEntries()) {
       if (!isTrashItem(item)) {
         try {
           await restoreTrashItemResources(item);
-          await trash.removePost(id);
-          await inbox.addPost(id, item);
+          await trash.removeItem(id);
+          await inbox.addItem(item, id);
 
           console.info(`Restored trash item "${id}".`);
         } catch (error) {

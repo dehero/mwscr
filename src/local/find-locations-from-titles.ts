@@ -1,11 +1,14 @@
 import 'dotenv/config';
 import { getPostEntriesFromSource } from '../core/entities/post.js';
-import { getLocations } from './data-managers/locations.js';
+import { arrayFromAsync } from '../core/utils/common-utils.js';
+import { locations } from './data-managers/locations.js';
 import { published } from './data-managers/posts.js';
 
-const publishedPostEntries = await getPostEntriesFromSource(published.getAllPosts);
+const publishedPostEntries = await getPostEntriesFromSource(published.readAllEntries);
 
-const locations = (await getLocations()).map(({ title }) => title).sort((a, b) => b.length - a.length);
+const locationIds = (await arrayFromAsync(locations.readAllEntries(true)))
+  .map(([id]) => id)
+  .sort((a, b) => b.length - a.length);
 
 for (const [id, post] of publishedPostEntries) {
   if (post.location) {
@@ -14,12 +17,12 @@ for (const [id, post] of publishedPostEntries) {
 
   const lowerCaseTitle = post.title.toLocaleLowerCase();
 
-  for (const location of locations) {
+  for (const location of locationIds) {
     const locationRegex = new RegExp(`\\b${location.replace(/ Region$/, '').toLocaleLowerCase()}\\b`);
 
     if (locationRegex.test(lowerCaseTitle)) {
       post.location = location;
-      await published.updatePost(id);
+      await published.updateItem(id);
       break;
     }
   }

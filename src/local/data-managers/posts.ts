@@ -17,14 +17,14 @@ export const published = new LocalPostsManager<PublishablePost>({
   name: 'published',
   dirPath: 'data/published',
   checkPost: isPublishablePost,
-  getPostChunkName: getPublishedPostChunkName,
+  getItemChunkName: getPublishedPostChunkName,
 });
 
 export const inbox = new LocalPostsManager<InboxItem>({
   name: 'inbox',
   dirPath: 'data/inbox',
   checkPost: isInboxItem,
-  getPostChunkName: getPostDraftChunkName,
+  getItemChunkName: getPostDraftChunkName,
 });
 
 // Allow trash to contain restorable inbox items temporarily
@@ -32,7 +32,7 @@ export const trash = new LocalPostsManager<TrashItem | InboxItem>({
   name: 'trash',
   dirPath: 'data/trash',
   checkPost: isTrashOrInboxItem,
-  getPostChunkName: getPostDraftChunkName,
+  getItemChunkName: getPostDraftChunkName,
 });
 
 export function createPublishedPostId(post: PublishablePost, index?: number) {
