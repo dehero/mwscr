@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`77 items`
+`78 items`
+
+## <span id="2024-05-14.climbing-aboard-the-elf-skerring">Climbing Aboard the Elf-Skerring</span>
+
+`RU` Поднимаясь на борт Эльфийского мореплавателя
+
+<a href="https://instagram.com/p/BQR6xN3FKNo/" title="2017-02-09.climbing-aboard-the-elf-skerring"><img alt="store:/shots/2017-02-09.climbing-aboard-the-elf-skerring.png" src="../../assets/previews/shots/2017-02-09.climbing-aboard-the-elf-skerring.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` `📍 Sadrith Mora` `🚀 OpenMW` `nofilter` `ship`
+
+```
+2024-05-14.climbing-aboard-the-elf-skerring
+```
+
+> `2017-02-09.climbing-aboard-the-elf-skerring`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BQR6xN3FKNo/)       | 2017-02-09 |       |    31 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_132)  | 2017-02-09 |   159 |    13 |        30 |     13 |
+| [`ig`](https://instagram.com/p/C69WtfesuXe/)       | 2024-05-14 |       |       |      1417 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1532) | 2024-05-14 |       |       |       915 |        |
+| [`tg`](https://t.me/mwscr/408)                     | 2024-05-14 |       |       |       370 |        |
+|                                                    |            |   159 |    44 |      2702 |        |
 
 ## <span id="2024-05-13.pray-with-the-saints">Pray with the Saints</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BP9jdC_lEM2/)       | 2017-02-01 |       |    25 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_113)  | 2017-02-01 |   136 |     7 |        22 |      7 |
-| [`ig`](https://instagram.com/p/C66x0k3O4BT/)       | 2024-05-13 |   214 |    71 |      1418 |   5.01 |
+| [`ig`](https://instagram.com/p/C66x0k3O4BT/)       | 2024-05-13 |   215 |    72 |      1418 |   5.08 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1531) | 2024-05-13 |   147 |    27 |       915 |   2.95 |
 | [`tg`](https://t.me/mwscr/407)                     | 2024-05-13 |   120 |    49 |       370 |  13.24 |
-|                                                    |            |   617 |   179 |      2703 |   7.05 |
+|                                                    |            |   618 |   180 |      2703 |   7.07 |
 
 #### Comments
 
@@ -56,10 +83,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C64NQM4toqC/)       | 2024-05-12 |   253 |    77 |      1417 |   5.43 |
+| [`ig`](https://instagram.com/p/C64NQM4toqC/)       | 2024-05-12 |   254 |    78 |      1417 |    5.5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1530) | 2024-05-12 |   164 |    22 |       915 |    2.4 |
 | [`tg`](https://t.me/mwscr/406)                     | 2024-05-12 |   178 |    47 |       371 |  12.67 |
-|                                                    |            |   595 |   146 |      2703 |   6.84 |
+|                                                    |            |   596 |   147 |      2703 |   6.86 |
 
 ## <span id="2024-05-11.guard-tower-of-suran">Guard Tower of Suran</span>
 
@@ -83,10 +110,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYdQtClDTdx/)       | 2017-08-31 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_411)  | 2017-08-31 |   121 |     8 |        76 |      8 |
-| [`ig`](https://instagram.com/p/C61oPzKREuZ/)       | 2024-05-11 |   352 |   125 |      1418 |   8.82 |
+| [`ig`](https://instagram.com/p/C61oPzKREuZ/)       | 2024-05-11 |   369 |   127 |      1418 |   8.96 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1529) | 2024-05-11 |   184 |    32 |       915 |    3.5 |
-| [`tg`](https://t.me/mwscr/405)                     | 2024-05-11 |   150 |    52 |       371 |  14.02 |
-|                                                    |            |   807 |   276 |      2704 |   8.58 |
+| [`tg`](https://t.me/mwscr/405)                     | 2024-05-11 |   168 |    57 |       371 |  15.36 |
+|                                                    |            |   842 |   283 |      2704 |   8.95 |
 
 #### Comments
 
@@ -121,10 +148,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6zDislvhcZ/)       | 2024-05-10 |   289 |    71 |      1417 |   5.01 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1528) | 2024-05-10 |   159 |    21 |       913 |    2.3 |
-| [`tg`](https://t.me/mwscr/404)                     | 2024-05-10 |   199 |    52 |       371 |  14.02 |
-|                                                    |            |   647 |   144 |      2701 |   7.11 |
+| [`ig`](https://instagram.com/p/C6zDislvhcZ/)       | 2024-05-10 |   293 |    72 |      1417 |   5.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1528) | 2024-05-10 |   165 |    22 |       913 |   2.41 |
+| [`tg`](https://t.me/mwscr/404)                     | 2024-05-10 |   226 |    54 |       371 |  14.56 |
+|                                                    |            |   684 |   148 |      2701 |   7.35 |
 
 #### Comments
 
