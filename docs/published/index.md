@@ -4,7 +4,40 @@
 
 # Published in 2024
 
-`78 items`
+`79 items`
+
+## <span id="2024-05-15.royal-draggle-tail">Royal Draggle-Tail</span>
+
+`RU` Королевский грязнохвостник
+
+<a href="https://instagram.com/p/C6_7fthhz2f/" title="2024-05-15.royal-draggle-tail"><img alt="store:/shots/2024-05-15.royal-draggle-tail.png" src="../../assets/previews/shots/2024-05-15.royal-draggle-tail.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/natty.2024-03-28-22-20-02.1.png](../../assets/previews/trash/natty.2024-03-28-22-20-02.1.avif "natty.2024-03-28-22-20-02.1")
+![store:/trash/natty.2024-03-28-22-20-02.png](../../assets/previews/trash/natty.2024-03-28-22-20-02.avif "natty.2024-03-28-22-20-02")
+![store:/trash/natty.2024-03-28-20-43-09.png](../../assets/previews/trash/natty.2024-03-28-20-43-09.avif "natty.2024-03-28-20-43-09")
+![store:/trash/natty.2024-03-28-20-42-55.png](../../assets/previews/trash/natty.2024-03-28-20-42-55.avif "natty.2024-03-28-20-42-55")
+![store:/trash/natty.2024-03-28-20-42-37.png](../../assets/previews/trash/natty.2024-03-28-20-42-37.avif "natty.2024-03-28-20-42-37")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B2` `📍 Ules Manor` `🚀 OpenMW`
+
+```
+2024-05-15.royal-draggle-tail
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C6_7fthhz2f/)       | 2024-05-15 |      1419 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1533) | 2024-05-15 |       915 |
+| [`tg`](https://t.me/mwscr/409)                     | 2024-05-15 |       370 |
+|                                                    |            |      2704 |
 
 ## <span id="2024-05-14.climbing-aboard-the-elf-skerring">Climbing Aboard the Elf-Skerring</span>
 
@@ -28,10 +61,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQR6xN3FKNo/)       | 2017-02-09 |       |    31 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_132)  | 2017-02-09 |   159 |    13 |        30 |     13 |
-| [`ig`](https://instagram.com/p/C69WtfesuXe/)       | 2024-05-14 |   192 |    75 |      1417 |   5.29 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1532) | 2024-05-14 |   183 |    34 |       915 |   3.72 |
+| [`ig`](https://instagram.com/p/C69WtfesuXe/)       | 2024-05-14 |   198 |    79 |      1417 |   5.58 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1532) | 2024-05-14 |   189 |    35 |       915 |   3.83 |
 | [`tg`](https://t.me/mwscr/408)                     | 2024-05-14 |   119 |    48 |       370 |  12.97 |
-|                                                    |            |   653 |   201 |      2702 |   8.75 |
+|                                                    |            |   665 |   206 |      2702 |   8.84 |
 
 #### Comments
 
