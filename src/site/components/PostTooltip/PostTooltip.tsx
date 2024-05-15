@@ -1,4 +1,4 @@
-import { type Component, Show, splitProps } from 'solid-js';
+import { type Component, createResource, Show, splitProps } from 'solid-js';
 import type { Post, PostEntry } from '../../../core/entities/post.js';
 import {
   getPostCommentCount,
@@ -6,8 +6,9 @@ import {
   getPostTotalLikes,
   getPostTotalViews,
 } from '../../../core/entities/post.js';
+import { getUserEntryName } from '../../../core/entities/user.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import { getUserName } from '../../data-managers/users.js';
+import { users } from '../../data-managers/users.js';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './PostTooltip.module.css';
@@ -22,6 +23,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
   const views = () => getPostTotalViews(local.postEntry[1]);
   const rating = () => Number(getPostRating(local.postEntry[1]).toFixed(2));
   const commentCount = () => getPostCommentCount(local.postEntry[1]);
+  const [authors] = createResource(() => asArray(local.postEntry[1].author), users.getEntries.bind(users));
 
   return (
     <Tooltip {...rest}>
@@ -33,8 +35,8 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       <Show when={local.postEntry[1].type}>
         <span class={styles.type}>Type: {local.postEntry[1].type}</span>
       </Show>
-      <Show when={local.postEntry[1].author}>
-        <span class={styles.author}>Author: {asArray(local.postEntry[1].author).map(getUserName).join(', ')}</span>
+      <Show when={authors()?.length}>
+        <span class={styles.author}>Author: {authors()?.map(getUserEntryName).join(', ')}</span>
       </Show>
       <Show when={local.postEntry[1].location}>
         <span class={styles.location}>Location: {local.postEntry[1].location}</span>

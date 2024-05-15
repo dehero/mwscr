@@ -1,13 +1,20 @@
-import users from '../../../data/users.yml';
 import type { User } from '../../core/entities/user.js';
+import { UsersManager } from '../../core/entities/users-manager.js';
 
-export function getUser(userId: string): User | undefined {
-  if (typeof users !== 'object' || Array.isArray(users)) {
-    return undefined;
+class SiteUsersManager extends UsersManager {
+  getChunkNames = async () => [''];
+
+  getItemChunkName = () => '';
+
+  protected async loadChunk() {
+    const { default: data } = await import('../../../data/users.yml');
+
+    return new Map(Object.entries(data as Record<string, User>));
   }
-  return users[userId] as User | undefined;
+
+  protected async saveChunk(chunkName: string) {
+    console.log('Saving chunk', chunkName);
+  }
 }
 
-export function getUserName(userId: string) {
-  return getUser(userId)?.name ?? userId;
-}
+export const users = new SiteUsersManager();

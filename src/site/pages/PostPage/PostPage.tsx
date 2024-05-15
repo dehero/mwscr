@@ -3,6 +3,7 @@ import { useParams } from '@solidjs/router';
 import clsx from 'clsx';
 import { type Component, createResource, createSignal, For, Match, Show, Switch } from 'solid-js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
+import { getUserEntryName } from '../../../core/entities/user.js';
 import { youtube } from '../../../core/services/youtube.js';
 import { store } from '../../../core/stores/index.js';
 import { asArray } from '../../../core/utils/common-utils.js';
@@ -18,7 +19,7 @@ import { PostPublications } from '../../components/PostPublications/PostPublicat
 import { ResourcePreview } from '../../components/ResourcePreview/ResourcePreview.js';
 import { Table } from '../../components/Table/Table.jsx';
 import { inbox, published, trash } from '../../data-managers/posts.js';
-import { getUserName } from '../../data-managers/users.js';
+import { users } from '../../data-managers/users.js';
 import type { PostRouteParams } from '../../routes/post-route.js';
 import styles from './PostPage.module.css';
 
@@ -35,6 +36,7 @@ export const PostPage: Component = () => {
   const titleRu = () => post()?.titleRu || 'Без названия';
   const content = () => asArray(post()?.content);
   const contentPublicUrls = () => content().map((url) => store.getPublicUrl(parseResourceUrl(url).pathname));
+  const [authors] = createResource(() => asArray(post()?.author), users.getEntries.bind(users));
 
   const selectedContent = () => content()[selectedContentIndex()];
   const selectedContentPublicUrl = () => contentPublicUrls()[selectedContentIndex()];
@@ -157,7 +159,10 @@ export const PostPage: Component = () => {
                 rows={[
                   { label: 'Location', value: <Button class={styles.location}>{post().location || 'Locate'}</Button> },
                   { label: 'Type', value: post().type },
-                  { label: 'Author', value: asArray(post().author).map(getUserName).join(', ') },
+                  {
+                    label: 'Author',
+                    value: authors()?.map(getUserEntryName).join(', '),
+                  },
                   { label: 'Engine', value: post().engine },
                   { label: 'Addon', value: post().addon },
                   { label: "Editor's Mark", value: post().mark },

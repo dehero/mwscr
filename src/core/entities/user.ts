@@ -12,3 +12,7 @@ export interface User {
   admin?: boolean;
   profiles?: UserProfiles;
 }
+
+export function getUserEntryName(entry: [string, User | undefined, ...unknown[]]) {
+  return entry[1]?.name || entry[0];
+}

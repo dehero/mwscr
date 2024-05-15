@@ -9,21 +9,31 @@ export abstract class DataReader<TItem> {
 
   abstract getChunkNames: () => Promise<string[]>;
 
-  async getMap(): Promise<ReadonlyMap<string, TItem>> {
-    return new Map((await arrayFromAsync(this.readAllEntries(true))).map(([id, item]) => [id, item]));
+  async getItem(id: string): Promise<TItem | undefined> {
+    return (await this.getEntry(id))[1];
   }
 
-  getItem = async (id: string): Promise<TItem | undefined> => {
+  async getAllEntries(skipReferences?: boolean): Promise<DataReaderEntry<TItem>[]> {
+    return arrayFromAsync(this.readAllEntries(skipReferences));
+  }
+
+  async getEntry(id: string): Promise<DataReaderEntry<TItem | undefined>> {
     const chunkName = this.getItemChunkName(id);
     const chunk = await this.loadChunk(chunkName);
     const item = chunk.get(id);
 
     if (typeof item === 'string') {
-      return this.getItem(item);
+      const entry = await this.getEntry(item);
+
+      return [id, entry[1], entry[2]];
     }
 
-    return item;
-  };
+    return [id, item];
+  }
+
+  async getEntries(ids: string[]): Promise<DataReaderEntry<TItem | undefined>[]> {
+    return Promise.all(ids.map((id) => this.getEntry(id)));
+  }
 
   async findEntry(value: Partial<TItem>): Promise<DataReaderEntry<TItem> | undefined> {
     for await (const entry of this.readAllEntries(true)) {
