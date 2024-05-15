@@ -3,7 +3,6 @@ import { defineConfig } from 'vite';
 // @ts-expect-error No proper typing
 import faviconPlugin from 'vite-plugin-favicons-inject';
 import { nodePolyfills } from 'vite-plugin-node-polyfills';
-import plainTextPlugin from 'vite-plugin-plain-text';
 import solidPlugin from 'vite-plugin-solid';
 // @ts-expect-error No proper typing
 import solidMarkdownPlugin from 'vite-plugin-solid-markdown';
@@ -52,8 +51,6 @@ export default defineConfig({
     importYamlPlugin(),
     // TODO: don't use node's built-in modules for cross-platform code
     nodePolyfills({ include: ['path', 'url'] }),
-    // @ts-expect-error No proper typing
-    plainTextPlugin(['**/*.lst'], { namedExport: false }),
   ],
   server: {
     port: 3000,
