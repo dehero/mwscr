@@ -1,4 +1,3 @@
-import type { DataReaderChunk } from '../../core/entities/data-manager.js';
 import type { User } from '../../core/entities/user.js';
 import { UsersManager } from '../../core/entities/users-manager.js';
 import { loadYaml, saveYaml } from './utils/yaml.js';
@@ -6,38 +5,18 @@ import { loadYaml, saveYaml } from './utils/yaml.js';
 export const USERS_FILENAME = 'data/users.yml';
 
 class LocalUsersManager extends UsersManager {
-  private cache: DataReaderChunk<User> | undefined;
+  protected async loadChunkData() {
+    const data = await loadYaml(USERS_FILENAME);
 
-  getChunkNames = async () => [USERS_FILENAME];
-
-  getItemChunkName = () => USERS_FILENAME;
-
-  protected async loadChunk(chunkName: string) {
-    const currentCachedUsers = this.cache;
-    if (currentCachedUsers) {
-      return currentCachedUsers;
+    if (typeof data !== 'object' || data === null) {
+      throw new TypeError('Users data must be an object');
     }
 
-    try {
-      const entries = Object.entries((await loadYaml(chunkName)) as object);
-
-      if (!this.cache) {
-        this.cache = new Map(entries);
-      }
-
-      return this.cache;
-    } catch (error) {
-      const message = error instanceof Error ? error.message : error;
-      throw new Error(`Error loading users: ${message}`);
-    }
+    return Object.entries(data as Record<string, User>);
   }
 
   protected async saveChunk(chunkName: string) {
-    if (!this.cache) {
-      return;
-    }
-
-    const data = Object.fromEntries(this.cache.entries());
+    const data = Object.fromEntries(await this.getAllEntries());
     return saveYaml(chunkName, data);
   }
 }

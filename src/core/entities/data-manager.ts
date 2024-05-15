@@ -1,5 +1,7 @@
 import { arrayFromAsync, listItems } from '../utils/common-utils.js';
 
+export const DATA_READER_CHUNK_NAME_DEFAULT = 'default';
+
 export type DataReaderEntry<TItem> = [id: string, item: TItem, refId?: string];
 
 export type DataReaderChunk<TItem> = Map<string, TItem | string>;
@@ -7,7 +9,20 @@ export type DataReaderChunk<TItem> = Map<string, TItem | string>;
 export abstract class DataReader<TItem> {
   abstract readonly name: string;
 
-  abstract getChunkNames: () => Promise<string[]>;
+  protected loadedChunkNames: string[] | undefined;
+  protected chunks: Map<string, DataReaderChunk<TItem>> = new Map();
+
+  async getChunkNames(): Promise<string[]> {
+    if (!this.loadedChunkNames) {
+      this.loadedChunkNames = await this.loadChunkNames();
+    }
+
+    return [...new Set([...this.loadedChunkNames, ...this.chunks.keys()])];
+  }
+
+  protected getItemChunkName(_id: string) {
+    return DATA_READER_CHUNK_NAME_DEFAULT;
+  }
 
   async getItem(id: string): Promise<TItem | undefined> {
     return (await this.getEntry(id))[1];
@@ -50,9 +65,32 @@ export abstract class DataReader<TItem> {
 
   protected abstract isItemEqual(a: TItem, b: Partial<TItem>): boolean;
 
-  protected abstract getItemChunkName: (id: string) => string;
+  protected async loadChunk(chunkName: string): Promise<DataReaderChunk<TItem>> {
+    let chunk = this.chunks.get(chunkName);
+    if (chunk) {
+      return chunk;
+    }
 
-  protected abstract loadChunk(chunkName: string): Promise<Map<string, TItem | string>>;
+    try {
+      const data = await this.loadChunkData(chunkName);
+
+      chunk = new Map(data);
+    } catch (error) {
+      throw new TypeError(
+        `Cannot load ${this.name} chunk "${chunkName}" data: ${error instanceof Error ? error.message : error}`,
+      );
+    }
+
+    this.chunks.set(chunkName, chunk);
+
+    return chunk;
+  }
+
+  protected abstract loadChunkData(chunkName: string): Promise<Array<[string, TItem | string]>>;
+
+  protected async loadChunkNames(): Promise<string[]> {
+    return [DATA_READER_CHUNK_NAME_DEFAULT];
+  }
 
   protected async *yieldAllEntries(skipReferences?: boolean): AsyncGenerator<DataReaderEntry<TItem>> {
     const chunkNames = await this.getChunkNames();
