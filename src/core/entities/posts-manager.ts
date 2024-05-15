@@ -11,28 +11,28 @@ export abstract class PostsManager<TPost extends Post = Post> extends DataManage
 
   protected mergeItemWith = mergePostWith;
 
-  getUsedAuthors = async (): Promise<PostsManagerUsage> => {
-    const usedAuthors = new Map<string, number>();
+  getUsedAuthorIds = async (): Promise<PostsManagerUsage> => {
+    const usedAuthorIds = new Map<string, number>();
 
     for await (const [, post] of this.readAllEntries(true)) {
       asArray(post.author).forEach((author) => {
-        usedAuthors.set(author, (usedAuthors.get(author) || 0) + 1);
+        usedAuthorIds.set(author, (usedAuthorIds.get(author) || 0) + 1);
       });
     }
 
-    return usedAuthors;
+    return usedAuthorIds;
   };
 
-  getUsedLocations = async (): Promise<PostsManagerUsage> => {
-    const usedLocations = new Map<string, number>();
+  getUsedLocationIds = async (): Promise<PostsManagerUsage> => {
+    const usedLocationIds = new Map<string, number>();
 
     for await (const [, post] of this.readAllEntries(true)) {
       if (post.location) {
-        usedLocations.set(post.location, (usedLocations.get(post.location) || 0) + 1);
+        usedLocationIds.set(post.location, (usedLocationIds.get(post.location) || 0) + 1);
       }
     }
 
-    return usedLocations;
+    return usedLocationIds;
   };
 
   getUsedTags = async (): Promise<PostsManagerUsage> => {

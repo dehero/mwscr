@@ -1,6 +1,5 @@
 import { useCurrentMatches, useSearchParams } from '@solidjs/router';
 import { type Component, createResource, createSignal, Show } from 'solid-js';
-import type { Location } from '../../../core/entities/location.js';
 import { isNestedLocation } from '../../../core/entities/location.js';
 import type { Post, PostEntries, PostMark, PostType, PostViolation } from '../../../core/entities/post.js';
 import {
@@ -16,6 +15,7 @@ import {
 import { isPostRequest, isPublishablePost } from '../../../core/entities/post-variation.js';
 import type { PostsManager } from '../../../core/entities/posts-manager.js';
 import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
+import { getUserEntryName } from '../../../core/entities/user.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { Button } from '../../components/Button/Button.js';
@@ -26,7 +26,8 @@ import { PostPreviews } from '../../components/PostPreviews/PostPreviews.js';
 import { RadioGroup } from '../../components/RadioGroup/RadioGroup.js';
 import type { SelectOption } from '../../components/Select/Select.js';
 import { Select } from '../../components/Select/Select.js';
-import { getUserName } from '../../data-managers/users.js';
+import { locations } from '../../data-managers/locations.js';
+import { users } from '../../data-managers/users.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../utils/ui-constants.js';
 import styles from './PostsPage.module.css';
 
@@ -149,19 +150,16 @@ const getTagOptions = async (postsManager: PostsManager): Promise<SelectOption<s
 };
 
 const getLocationOptions = async (postsManager: PostsManager): Promise<SelectOption<string>[]> => {
-  const usedLocations = await postsManager.getUsedLocations();
+  const usedLocationIds = await postsManager.getUsedLocationIds();
   const usedLocationsWithNesting = new Map();
-  const { default: data } = await import('../../../../data/locations.yml');
 
-  const locations = data as Location[];
-
-  for (const location of locations) {
-    const count = [...usedLocations]
-      .filter(([value]) => isNestedLocation(value, location.title))
+  for await (const [location] of locations.readAllEntries(true)) {
+    const count = [...usedLocationIds]
+      .filter(([value]) => isNestedLocation(value, location))
       .reduce((acc, [, count]) => acc + count, 0);
 
     if (count > 0) {
-      usedLocationsWithNesting.set(location.title, count);
+      usedLocationsWithNesting.set(location, count);
     }
   }
 
@@ -171,11 +169,12 @@ const getLocationOptions = async (postsManager: PostsManager): Promise<SelectOpt
 };
 
 const getAuthorOptions = async (postsManager: PostsManager): Promise<SelectOption<string>[]> => {
-  const usedAuthors = await postsManager.getUsedAuthors();
+  const usedAuthorIds = await postsManager.getUsedAuthorIds();
+  const authors = await users.getEntries([...usedAuthorIds.keys()]);
 
-  return [...usedAuthors]
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(([value, count]) => ({ value, label: `${getUserName(value)} (${count})` }));
+  return authors
+    .map((entry) => ({ value: entry[0], label: `${getUserEntryName(entry)} (${usedAuthorIds.get(entry[0])})` }))
+    .sort((a, b) => a.label.localeCompare(b.label));
 };
 
 export const PostsPage: Component = () => {

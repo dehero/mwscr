@@ -1,5 +1,6 @@
 import { writeFile } from 'fs/promises';
 import esc from 'escape-html';
+import type { DataReaderEntry } from '../../core/entities/data-manager.js';
 import type { Doc } from '../../core/entities/doc.js';
 import type { PostEntries, PostType } from '../../core/entities/post.js';
 import { getPostTotalLikes, POST_TYPES } from '../../core/entities/post.js';
@@ -54,7 +55,9 @@ export interface RenderUsersOptions {
 }
 
 export async function renderUsers(options: RenderUsersOptions) {
-  let users = [...(await options.users.getMap())].map((item) => grabUserInfo(item, options)).sort(compareUserInfos);
+  let users = (await options.users.getAllEntries(true))
+    .map((item) => grabUserInfo(item, options))
+    .sort(compareUserInfos);
   const { navs, doc } = options;
   const { filename, title } = doc;
   const lines: string[] = [];
@@ -91,7 +94,7 @@ export async function renderUsers(options: RenderUsersOptions) {
   return writeFile(filename, data);
 }
 
-function grabUserInfo([id, user]: [string, User], options: RenderUsersOptions): RenderedUser {
+function grabUserInfo([id, user]: DataReaderEntry<User>, options: RenderUsersOptions): RenderedUser {
   const { published, inbox, trash } = options;
 
   const authored: UserContribution = {
