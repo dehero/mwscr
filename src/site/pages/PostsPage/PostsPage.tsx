@@ -21,6 +21,7 @@ import { asArray } from '../../../core/utils/common-utils.js';
 import { Button } from '../../components/Button/Button.js';
 import { Divider } from '../../components/Divider/Divider.js';
 import { Input } from '../../components/Input/Input.js';
+import { Label } from '../../components/Label/Label.js';
 import { Page } from '../../components/Page/Page.js';
 import { PostPreviews } from '../../components/PostPreviews/PostPreviews.js';
 import { RadioGroup } from '../../components/RadioGroup/RadioGroup.js';
@@ -203,10 +204,8 @@ export const PostsPage: Component = () => {
       Object.entries(preset.params).every(([key, value]) => searchParams[key as keyof PostsPageSearchParams] === value),
     )?.value;
 
-  const setPreset = (preset: PresetKey | undefined) => {
-    console.log(presetOptions().find((item) => item.value === preset));
+  const setPreset = (preset: PresetKey | undefined) =>
     setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.params });
-  };
   const setCheck = (check: CheckKey | undefined) => setSearchParams({ check });
   const setPostType = (type: PostType | undefined) => setSearchParams({ type });
   const setPostTag = (tag: string | undefined) => setSearchParams({ tag });
@@ -247,16 +246,17 @@ export const PostsPage: Component = () => {
         <RadioGroup name="preset" options={[ALL_OPTION, ...presetOptions()]} value={preset()} onChange={setPreset} />
 
         <fieldset class={styles.fieldset}>
-          <Input
-            label="Search"
-            name="search"
-            value={searchTerm()}
-            onChange={() => setIsSearching(true)}
-            onDebouncedChange={(value) => {
-              setSearchTerm(value);
-              setIsSearching(false);
-            }}
-          />
+          <Label label="Search">
+            <Input
+              name="search"
+              value={searchTerm()}
+              onChange={() => setIsSearching(true)}
+              onDebouncedChange={(value) => {
+                setSearchTerm(value);
+                setIsSearching(false);
+              }}
+            />
+          </Label>
           <Button
             onClick={(e) => {
               e.preventDefault();
@@ -271,7 +271,6 @@ export const PostsPage: Component = () => {
       <form class={styles.filters}>
         <Show when={!info().filters || info().filters?.includes('type')}>
           <RadioGroup
-            label="Type"
             name="type"
             options={[{ value: undefined, label: 'Any' }, ...POST_TYPES.map((value) => ({ value }))]}
             value={postType()}
@@ -279,67 +278,70 @@ export const PostsPage: Component = () => {
           />
         </Show>
         <Show when={!info().filters || info().filters?.includes('location')}>
-          <Select
-            label="Location"
-            name="location"
-            options={[ALL_OPTION, ANY_OPTION, NONE_OPTION, ...(locationOptions() ?? [])]}
-            value={postLocation()}
-            onChange={setPostLocation}
-          />
+          <Label label="Location">
+            <Select
+              name="location"
+              options={[ALL_OPTION, ANY_OPTION, NONE_OPTION, ...(locationOptions() ?? [])]}
+              value={postLocation()}
+              onChange={setPostLocation}
+            />
+          </Label>
         </Show>
         <Show when={!info().filters || info().filters?.includes('tag')}>
-          <Select
-            label="Tag"
-            name="tag"
-            options={[ALL_OPTION, ...(tagOptions() ?? [])]}
-            value={postTag()}
-            onChange={setPostTag}
-          />
+          <Label label="Tag">
+            <Select
+              name="tag"
+              options={[ALL_OPTION, ...(tagOptions() ?? [])]}
+              value={postTag()}
+              onChange={setPostTag}
+            />
+          </Label>
         </Show>
         <Show when={!info().filters || info().filters?.includes('author')}>
-          <Select
-            label="Author"
-            name="author"
-            options={[ALL_OPTION, ...(authorOptions() ?? [])]}
-            value={postAuthor()}
-            onChange={setPostAuthor}
-          />
+          <Label label="Author">
+            <Select
+              name="author"
+              options={[ALL_OPTION, ...(authorOptions() ?? [])]}
+              value={postAuthor()}
+              onChange={setPostAuthor}
+            />
+          </Label>
         </Show>
         <Show when={!info().filters || info().filters?.includes('mark')}>
-          <Select
-            label="Editor's Mark"
-            name="mark"
-            options={[ALL_OPTION, ...POST_MARKS.map((value) => ({ value }))]}
-            value={postMark()}
-            onChange={setPostMark}
-          />
+          <Label label="Editor's Mark">
+            <Select
+              name="mark"
+              options={[ALL_OPTION, ...POST_MARKS.map((value) => ({ value }))]}
+              value={postMark()}
+              onChange={setPostMark}
+            />
+          </Label>
         </Show>
         <Show when={!info().filters || info().filters?.includes('violation')}>
-          <Select
-            label="Violation"
-            name="violation"
-            options={[
-              ALL_OPTION,
-              ANY_OPTION,
-              NONE_OPTION,
-              ...Object.entries(POST_VIOLATIONS).map(([value, label]) => ({ value, label })),
-            ]}
-            value={postViolation()}
-            onChange={setPostViolation}
-          />
+          <Label label="Violation">
+            <Select
+              name="violation"
+              options={[
+                ALL_OPTION,
+                ANY_OPTION,
+                NONE_OPTION,
+                ...Object.entries(POST_VIOLATIONS).map(([value, label]) => ({ value, label })),
+              ]}
+              value={postViolation()}
+              onChange={setPostViolation}
+            />
+          </Label>
         </Show>
         <Show when={!info().filters || info().filters?.includes('check')}>
-          <Select
-            label="Check"
-            name="check"
-            options={[ALL_OPTION, ...checkOptions()]}
-            value={check()}
-            onChange={setCheck}
-          />
+          <Label label="Check">
+            <Select name="check" options={[ALL_OPTION, ...checkOptions()]} value={check()} onChange={setCheck} />
+          </Label>
         </Show>
         <Show when={sortOptions().length > 0}>
           <fieldset class={styles.fieldset}>
-            <Select label="Order By" options={sortOptions()} value={sortKey()} onChange={setSortKey} />
+            <Label label="Order By">
+              <Select options={sortOptions()} value={sortKey()} onChange={setSortKey} />
+            </Label>
             <Select
               options={[
                 { value: 'asc', label: 'Ascending' },
