@@ -11,6 +11,7 @@
   color: var(--color-text);
   line-height: 1;
   max-height: 24px;
+  white-space: nowrap;
 }
 
 .button:focus,

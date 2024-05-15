@@ -14,7 +14,8 @@ import frameStyles from '../../components/Frame/Frame.module.css';
 import { Input } from '../../components/Input/Input.js';
 import { Page } from '../../components/Page/Page.js';
 import { PostComments } from '../../components/PostComments/PostComments.js';
-import { PostEditDialog } from '../../components/PostEditDialog/PostEditDialog.js';
+import { PostEditingDialog } from '../../components/PostEditingDialog/PostEditingDialog.jsx';
+import { PostLocationDialog } from '../../components/PostLocationDialog/PostLocationDialog.jsx';
 import { PostPublications } from '../../components/PostPublications/PostPublications.js';
 import { ResourcePreview } from '../../components/ResourcePreview/ResourcePreview.js';
 import { Table } from '../../components/Table/Table.jsx';
@@ -43,7 +44,8 @@ export const PostPage: Component = () => {
 
   const youtubePost = () => post()?.posts?.find((post) => post.service === 'yt');
 
-  const [showEditDialog, setShowEditDialog] = createSignal(false);
+  const [showEditingDialog, setShowEditingDialog] = createSignal(false);
+  const [showLocationDialog, setShowLocationDialog] = createSignal(false);
   const [contentIsLoading, setContentIsLoading] = createSignal(true);
   const [showIdCopiedMessage, setShowIdCopiedMessage] = createSignal(false);
 
@@ -157,7 +159,14 @@ export const PostPage: Component = () => {
 
               <Table
                 rows={[
-                  { label: 'Location', value: <Button class={styles.location}>{post().location || 'Locate'}</Button> },
+                  {
+                    label: 'Location',
+                    value: (
+                      <Button class={styles.location} onClick={() => setShowLocationDialog(true)}>
+                        {post().location || 'Locate'}
+                      </Button>
+                    ),
+                  },
                   { label: 'Type', value: post().type },
                   {
                     label: 'Author',
@@ -187,7 +196,7 @@ export const PostPage: Component = () => {
 
               <div class={styles.footer}>
                 <div class={styles.spacer} />
-                <Button onClick={() => setShowEditDialog(true)} class={styles.edit}>
+                <Button onClick={() => setShowEditingDialog(true)} class={styles.edit}>
                   Edit
                 </Button>
               </div>
@@ -201,10 +210,16 @@ export const PostPage: Component = () => {
               <PostPublications post={post()} class={styles.publications} />
             </Show>
 
-            <PostEditDialog
+            <PostEditingDialog
               postEntry={[id(), post()]}
-              show={showEditDialog()}
-              onClose={() => setShowEditDialog(false)}
+              show={showEditingDialog()}
+              onClose={() => setShowEditingDialog(false)}
+            />
+
+            <PostLocationDialog
+              postEntry={[id(), post()]}
+              show={showLocationDialog()}
+              onClose={() => setShowLocationDialog(false)}
             />
           </section>
         )}
