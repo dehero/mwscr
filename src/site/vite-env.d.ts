@@ -5,12 +5,12 @@ declare module '*.lst' {
 }
 
 declare module '*.yaml' {
-  const value: [unknown] | Record<string, unknown>;
+  const value: unknown;
   export = value;
 }
 
 declare module '*.yml' {
-  const value: [unknown] | Record<string, unknown>;
+  const value: unknown;
   export = value;
 }
 
