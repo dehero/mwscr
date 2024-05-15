@@ -1,18 +1,17 @@
 import clsx from 'clsx';
-import { For, Show } from 'solid-js';
-import { Frame } from '../Frame/Frame.js';
+import { For } from 'solid-js';
+import frameStyles from '../Frame/Frame.module.css';
 import styles from './RadioGroup.module.css';
 
-interface RadioGroupOption<T> {
+export interface RadioGroupOption<T> {
   value: T | undefined;
   label?: string;
 }
 
-interface RadioGroupProps<T> {
+export interface RadioGroupProps<T> {
   class?: string;
   options: RadioGroupOption<T>[];
   name: string;
-  label?: string;
   onChange?: (value: T | undefined) => void;
   value?: T | undefined;
 }
@@ -20,12 +19,9 @@ interface RadioGroupProps<T> {
 export function RadioGroup<T extends string>(props: RadioGroupProps<T>) {
   return (
     <div class={clsx(styles.container, props.class)}>
-      <Show when={props.label}>
-        <span class={styles.label}>{props.label}</span>
-      </Show>
       <For each={props.options}>
         {(option) => (
-          <Frame component="label" variant="button" class={styles.option} tabIndex={0}>
+          <label class={clsx(frameStyles.button, styles.option)} tabIndex={0}>
             <input
               type="radio"
               value={option.value ?? ''}
@@ -35,7 +31,7 @@ export function RadioGroup<T extends string>(props: RadioGroupProps<T>) {
               class={styles.radio}
             />
             <span class={styles.optionLabel}>{option.label || option.value}</span>
-          </Frame>
+          </label>
         )}
       </For>
     </div>
