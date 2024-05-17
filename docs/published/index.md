@@ -22,12 +22,17 @@
 
 ### Reactions
 
-|                                                    | published  | followers |
-|----------------------------------------------------|------------|----------:|
-| [`ig`](https://instagram.com/p/C7FFN7INkg3/)       | 2024-05-17 |      1419 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1535) | 2024-05-17 |       915 |
-| [`tg`](https://t.me/mwscr/411)                     | 2024-05-17 |       372 |
-|                                                    |            |      2706 |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/C7FFN7INkg3/)       | 2024-05-17 |    21 |    20 |      1419 |   1.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1535) | 2024-05-17 |    38 |     6 |       915 |   0.66 |
+| [`tg`](https://t.me/mwscr/411)                     | 2024-05-17 |    56 |    21 |       372 |   5.65 |
+|                                                    |            |   115 |    47 |      2706 |   2.57 |
+
+#### Comments
+
+- `tg` <ins title="2024-05-17-18-20-19">Gatemate7</ins> i am enjoying tea and thinking about morrowind rn.. thank you
+  - <ins title="2024-05-17-18-20-55">ansis</ins> you&#39;re even in the screenshot! congrats! 👏
 
 ## <span id="2024-05-16.evening-expanse-of-ashlands">Evening Expanse of Ashlands</span>
 
@@ -51,10 +56,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BhHr_a4DlEo/)       | 2018-04-03 |       |    92 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_676)  | 2018-04-03 |   199 |    17 |       148 |  11.49 |
-| [`ig`](https://instagram.com/p/C7CgQu_S-7L/)       | 2024-05-16 |   192 |    65 |      1418 |   4.58 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1534) | 2024-05-16 |   171 |    31 |       915 |   3.39 |
-| [`tg`](https://t.me/mwscr/410)                     | 2024-05-16 |   153 |    40 |       370 |  10.81 |
-|                                                    |            |   715 |   245 |      2703 |   7.57 |
+| [`ig`](https://instagram.com/p/C7CgQu_S-7L/)       | 2024-05-16 |   194 |    66 |      1418 |   4.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1534) | 2024-05-16 |   174 |    31 |       915 |   3.39 |
+| [`tg`](https://t.me/mwscr/410)                     | 2024-05-16 |   164 |    43 |       370 |  11.62 |
+|                                                    |            |   731 |   249 |      2703 |   7.79 |
 
 #### Comments
 
