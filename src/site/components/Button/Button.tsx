@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import { type Component, type JSX, splitProps } from 'solid-js';
-import { Frame } from '../Frame/Frame.jsx';
+import { Frame } from '../Frame/Frame.js';
 import styles from './Button.module.css';
 
 export interface ButtonProps extends JSX.CustomAttributes<HTMLElement>, JSX.DOMAttributes<HTMLElement> {
