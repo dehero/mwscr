@@ -1,0 +1,67 @@
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  overflow-clip-margin: padding-box;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: var(--color-background);
+  vertical-align: top;
+}
+
+.small {
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  padding: 2px;
+}
+
+.medium {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  padding: 3px;
+}
+
+.large {
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+  padding: 4px;
+}
+
+.stealth {
+  background-color: #fdf6ba;
+  background-image: url(../../../../assets/images/icon-stealth.png);
+}
+
+.health {
+  background-color: #c64139;
+  background-image: url(../../../../assets/images/icon-health.png);
+}
+
+.attribute {
+  background-color: #b766d3;
+  background-image: url(../../../../assets/images/icon-attribute.png);
+}
+
+.combat {
+  background-color: #a7b7e9;
+  background-image: url(../../../../assets/images/icon-combat.png);
+}
+
+.fatigue {
+  background-color: #e4fce0;
+  background-image: url(../../../../assets/images/icon-fatigue.png);
+}
+
+.magic {
+  background-color: #fde3fc;
+  background-image: url(../../../../assets/images/icon-magic.png);
+}
+
+.flat {
+  background-image: none;
+}
