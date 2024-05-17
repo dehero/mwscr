@@ -14,15 +14,15 @@ export const POST_ENGINES = ['OpenMW', 'Vanilla'] as const;
 export const POST_MARKS = ['A1', 'A2', 'B1', 'B2', 'C', 'D', 'E', 'F'] as const;
 
 export const POST_VIOLATIONS = {
-  'inappropriate-content': 'Inappropriate content',
-  'jpeg-artifacts': 'JPEG artifacts',
-  'graphic-issues': 'Graphic issues',
-  'no-anti-aliasing': 'No anti-aliasing',
-  'non-vanilla-look': 'Non-vanilla look',
-  'uses-mods': 'Uses or requires mods',
-  'ui-visible': 'UI is visible',
-  'unreachable-resource': 'Unreachable resource',
-  'unsupported-resource': 'Unsupported resource',
+  'inappropriate-content': { title: 'Inappropriate content', letter: 'C' },
+  'jpeg-artifacts': { title: 'JPEG artifacts', letter: 'J' },
+  'graphic-issues': { title: 'Graphic issues', letter: 'G' },
+  'no-anti-aliasing': { title: 'No anti-aliasing', letter: 'A' },
+  'non-vanilla-look': { title: 'Non-vanilla look', letter: 'N' },
+  'uses-mods': { title: 'Uses or requires mods', letter: 'M' },
+  'ui-visible': { title: 'UI is visible', letter: 'U' },
+  'unreachable-resource': { title: 'Unreachable resource', letter: 'R' },
+  'unsupported-resource': { title: 'Unsupported resource', letter: 'R' },
 } as const;
 
 export type PostType = (typeof POST_TYPES)[number];
@@ -283,6 +283,10 @@ export function getPostRelatedLocationDistance(location: string, postEntries: Po
   }
 
   return { id: undefined, distance: Infinity, message: 'location not used before' };
+}
+
+export function getPostDrawer(post: Post) {
+  return post.type === 'drawing' ? asArray(post.author)[0] : undefined;
 }
 
 export function mergePostWith(post: Post, withPost: Post) {

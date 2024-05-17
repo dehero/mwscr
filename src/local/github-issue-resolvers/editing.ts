@@ -76,7 +76,7 @@ export async function resolve(issue: GithubIssue) {
   post.addon = POST_ADDONS.find((addon) => addon === addonStr);
   post.mark = POST_MARKS.find((mark) => mark === markStr);
   post.violation = [...Object.entries(POST_VIOLATIONS)].find(
-    ([, title]) => title === violationStr,
+    ([, violation]) => violation.title === violationStr,
   )?.[0] as PostViolation;
 
   if (!locationStr) {
