@@ -1853,25 +1853,27 @@
       id: C7Hp4OxN4vS
       mediaId: '18335139937142384'
       published: 2024-05-18-18-18-25
-      updated: 2024-05-18-22-12-56
+      updated: 2024-05-18-23-13-18
       followers: 1418
-      likes: 31
-      views: 108
-      comments: !c ixeAkZPLQnj42tQUgACrZGVsYW5vc3BpZXO4TXkgbGl2aW5nIHJvb20gQGRyYXZlbmp2Aw==
+      likes: 32
+      views: 116
+      comments: !c |-
+        G3QAwByJcYzKiuVHl6dvFg1gLjYFku5tBV0CC6TgBVpJgUmdIHL4Tjlgr4AibYt/1gvfefj8SV0R
+        o32m9ab970Y4bSfWaVblgVNdaiCKAnMQO906adgu5PobADYgHsxQYrZEtozQHnYdf92ceoch
     - service: vk
       id: 1537
       published: 2024-05-18-18-18-31
-      updated: 2024-05-18-22-12-55
+      updated: 2024-05-18-23-13-17
       followers: 915
       likes: 11
-      views: 83
+      views: 86
     - service: tg
       id: 412
       published: 2024-05-18-18-18-39
-      updated: 2024-05-18-22-12-56
+      updated: 2024-05-18-23-13-18
       followers: 372
-      likes: 26
-      views: 77
+      likes: 27
+      views: 80
       comments: !c iw2AkZPLQnj40RlbgACrYm9icm92bmlrb3akY296eQM=
 2018-03-08.dead-guar:
   title: Dead Guar

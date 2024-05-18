@@ -28,15 +28,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BgCGM8QBMHa/)       | 2018-03-07 |       |    86 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_642)  | 2018-03-07 |   213 |    15 |       139 |  10.79 |
-| [`ig`](https://instagram.com/p/C7Hp4OxN4vS/)       | 2024-05-18 |   108 |    31 |      1418 |   2.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1537) | 2024-05-18 |    83 |    11 |       915 |    1.2 |
-| [`tg`](https://t.me/mwscr/412)                     | 2024-05-18 |    77 |    26 |       372 |   6.99 |
-|                                                    |            |   481 |   169 |      2705 |   5.29 |
+| [`ig`](https://instagram.com/p/C7Hp4OxN4vS/)       | 2024-05-18 |   116 |    32 |      1418 |   2.26 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1537) | 2024-05-18 |    86 |    11 |       915 |    1.2 |
+| [`tg`](https://t.me/mwscr/412)                     | 2024-05-18 |    80 |    27 |       372 |   7.26 |
+|                                                    |            |   495 |   171 |      2705 |   5.38 |
 
 #### Comments
 
 - `tg` <ins title="2024-05-18-18-58-11">bobrovnikov</ins> cozy
 - `ig` <ins title="2024-05-18-21-48-13">delanospies</ins> My living room @dravenjv
+  - <ins title="2024-05-18-22-19-06">dravenjv</ins> I&#39;m going to follow you for more decorating tips
 
 ## <span id="2024-05-17.both-gro-durug">Both Gro-Durug</span>
 
@@ -56,10 +57,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C7FFN7INkg3/)       | 2024-05-17 |   211 |    64 |      1419 |   4.51 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1535) | 2024-05-17 |   149 |    15 |       915 |   1.64 |
-| [`tg`](https://t.me/mwscr/411)                     | 2024-05-17 |   132 |    45 |       372 |   12.1 |
-|                                                    |            |   492 |   124 |      2706 |   6.08 |
+| [`ig`](https://instagram.com/p/C7FFN7INkg3/)       | 2024-05-17 |   214 |    65 |      1419 |   4.58 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1535) | 2024-05-17 |   151 |    15 |       915 |   1.64 |
+| [`tg`](https://t.me/mwscr/411)                     | 2024-05-17 |   134 |    45 |       372 |   12.1 |
+|                                                    |            |   499 |   125 |      2706 |   6.11 |
 
 #### Comments
 
