@@ -32,6 +32,10 @@ export abstract class DataReader<TItem> {
     return arrayFromAsync(this.readAllEntries(skipReferences));
   }
 
+  async getChunkEntries(chunkName: string, skipReferences?: boolean): Promise<DataReaderEntry<TItem>[]> {
+    return arrayFromAsync(this.readChunkEntries(chunkName, skipReferences));
+  }
+
   async getEntry(id: string): Promise<DataReaderEntry<TItem | undefined>> {
     const chunkName = this.getItemChunkName(id);
     const chunk = await this.loadChunk(chunkName);

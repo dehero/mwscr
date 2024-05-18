@@ -1,5 +1,6 @@
 import { posix } from 'path';
 import type { Post } from '../../core/entities/post.js';
+import type { InboxItem, PublishablePost, TrashItem } from '../../core/entities/post-variation.js';
 import { getPostDraftChunkName, getPublishedPostChunkName } from '../../core/entities/post-variation.js';
 import { PostsManager } from '../../core/entities/posts-manager.js';
 
@@ -64,19 +65,19 @@ class SitePostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
   }
 }
 
-export const published = new SitePostsManager({
+export const published = new SitePostsManager<PublishablePost>({
   name: 'published',
   chunksLoaders: import.meta.glob('../../../data/published/*.yml', { import: 'default' }),
   getItemChunkName: getPublishedPostChunkName,
 });
 
-export const inbox = new SitePostsManager({
+export const inbox = new SitePostsManager<InboxItem>({
   name: 'inbox',
   chunksLoaders: import.meta.glob('../../../data/inbox/*.yml', { import: 'default' }),
   getItemChunkName: getPostDraftChunkName,
 });
 
-export const trash = new SitePostsManager({
+export const trash = new SitePostsManager<TrashItem | InboxItem>({
   name: 'trash',
   chunksLoaders: import.meta.glob('../../../data/trash/*.yml', { import: 'default' }),
   getItemChunkName: getPostDraftChunkName,

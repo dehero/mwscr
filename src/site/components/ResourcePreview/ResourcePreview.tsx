@@ -1,9 +1,9 @@
 import clsx from 'clsx';
 import { type Component, Match, Show, Switch } from 'solid-js';
 import { parseResourceUrl } from '../../../core/entities/resource.js';
-import { Frame } from '../Frame/Frame.jsx';
+import { Frame } from '../Frame/Frame.js';
 import frameStyles from '../Frame/Frame.module.css';
-import { Tooltip } from '../Tooltip/Tooltip.jsx';
+import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './ResourcePreview.module.css';
 
 function getStorePreviewUrl(url: string | undefined) {

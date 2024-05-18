@@ -1,10 +1,9 @@
 import 'dotenv/config';
-import { getPostEntriesFromSource } from '../core/entities/post.js';
 import { arrayFromAsync } from '../core/utils/common-utils.js';
 import { locations } from './data-managers/locations.js';
 import { published } from './data-managers/posts.js';
 
-const publishedPostEntries = await getPostEntriesFromSource(published.readAllEntries);
+const publishedPostEntries = await published.getAllEntries(true);
 
 const locationIds = (await arrayFromAsync(locations.readAllEntries(true)))
   .map(([id]) => id)

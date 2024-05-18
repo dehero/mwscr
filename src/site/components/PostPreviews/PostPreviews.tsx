@@ -1,8 +1,7 @@
 import { VirtualContainer } from '@minht11/solid-virtual-container';
 import { type Component } from 'solid-js';
 import type { PostEntries } from '../../../core/entities/post.js';
-import { postRoute } from '../../routes/post-route.js';
-import { PostPreview } from '../PostPreview/PostPreview.jsx';
+import { PostPreview } from '../PostPreview/PostPreview.js';
 import styles from './PostPreviews.module.css';
 
 export interface PostPreviewsProps {
@@ -18,7 +17,7 @@ const calculateGridItemSize = (crossAxisSize: number) => {
 
   return {
     width,
-    height: width + 33,
+    height: width + 34,
   };
 };
 
@@ -37,10 +36,7 @@ export const PostPreviews: Component<PostPreviewsProps> = (props) => {
       >
         {(itemProps) => (
           <div style={itemProps.style} class={styles.listItem} tabIndex={itemProps.tabIndex} role="listitem">
-            <PostPreview
-              url={postRoute.createUrl({ managerName: props.managerName, id: itemProps.item[0] })}
-              postEntry={itemProps.item}
-            />
+            <PostPreview managerName={props.managerName} postEntry={itemProps.item} />
           </div>
         )}
       </VirtualContainer>

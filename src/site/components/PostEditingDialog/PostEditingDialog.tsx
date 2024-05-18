@@ -182,7 +182,10 @@ export const PostEditingDialog: Component<PostEditingDialogProps> = (props) => {
               name="violation"
               options={[
                 EMPTY_OPTION,
-                ...Object.entries(POST_VIOLATIONS).map(([value, label]) => ({ value: value as PostViolation, label })),
+                ...Object.entries(POST_VIOLATIONS).map(([value, violation]) => ({
+                  value: value as PostViolation,
+                  label: violation.title,
+                })),
               ]}
               value={post().violation}
               onChange={setPostViolation}

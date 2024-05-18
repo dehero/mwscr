@@ -5,9 +5,10 @@ import { homeRoute } from '../../routes/home-route.js';
 import { inboxRoute } from '../../routes/inbox-route.js';
 import { publishedRoute } from '../../routes/published-route.js';
 import { trashRoute } from '../../routes/trash-route.js';
-import { Button } from '../Button/Button.jsx';
-import { Frame } from '../Frame/Frame.jsx';
-import { RouteButton } from '../RouteButton/RouteButton.jsx';
+import { usersRoute } from '../../routes/users-route.js';
+import { Button } from '../Button/Button.js';
+import { Frame } from '../Frame/Frame.js';
+import { RouteButton } from '../RouteButton/RouteButton.js';
 import styles from './Page.module.css';
 
 export interface PageProps {
@@ -29,6 +30,7 @@ export const Page: Component<PageProps> = (props) => {
       <nav class={styles.nav}>
         <RouteButton route={homeRoute} />
         <RouteButton route={publishedRoute} />
+        <RouteButton route={usersRoute} />
         <div class={styles.spacer} />
         <RouteButton route={inboxRoute} />
         <RouteButton route={trashRoute} />

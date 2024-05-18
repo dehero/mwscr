@@ -38,7 +38,7 @@
   grid-area: main;
   display: flex;
   flex-flow: column nowrap;
-  gap: 12px;
+  gap: 10px;
   padding: 8px;
 }
 
@@ -94,6 +94,7 @@
     min-height: 92px;
   }
 
+  .main,
   .contentSelector,
   .attributes,
   .comments,

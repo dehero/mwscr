@@ -1,6 +1,5 @@
 import {
   getPostContentDistance,
-  getPostEntriesFromSource,
   getPostTypesFromContent,
   mergePostContents,
   mergePostWith,
@@ -38,7 +37,7 @@ export async function importStoreInbox() {
 }
 
 async function importNewItems(items: StoreItem[]) {
-  const inboxItems = await getPostEntriesFromSource(inbox.readAllEntries);
+  const inboxEntries = await inbox.getAllEntries(true);
   let addedItems = 0;
 
   for (const item of items) {
@@ -51,7 +50,7 @@ async function importNewItems(items: StoreItem[]) {
       continue;
     }
 
-    const { distance } = getPostContentDistance(item.url, inboxItems);
+    const { distance } = getPostContentDistance(item.url, inboxEntries);
     if (distance !== Infinity) {
       continue;
     }
@@ -70,7 +69,7 @@ async function importNewItems(items: StoreItem[]) {
     let id;
 
     if (originalUrl) {
-      ({ id } = getPostContentDistance(originalUrl, inboxItems));
+      ({ id } = getPostContentDistance(originalUrl, inboxEntries));
     }
 
     if (!id) {
