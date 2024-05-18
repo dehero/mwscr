@@ -879,7 +879,7 @@
     - service: vk
       id: 1484
       published: 2024-04-06-18-16-53
-      updated: 2024-05-11-22-12-00
+      updated: 2024-05-18-22-12-59
       followers: 909
       likes: 47
       views: 286
@@ -887,10 +887,10 @@
     - service: tg
       id: 370
       published: 2024-04-06-18-17-00
-      updated: 2024-05-11-22-11-59
+      updated: 2024-05-18-22-12-58
       followers: 354
       likes: 65
-      views: 381
+      views: 390
 2024-04-07.sheogorad: 2016-11-21.sheogorad
 2024-04-08.lava-fork:
   title: Lava Fork
@@ -1079,7 +1079,7 @@
     - service: vk
       id: 1492
       published: 2024-04-13-18-15-50
-      updated: 2024-05-11-22-12-00
+      updated: 2024-05-18-22-12-58
       followers: 911
       likes: 36
       views: 254
@@ -1089,10 +1089,10 @@
     - service: tg
       id: 377
       published: 2024-04-13-18-15-57
-      updated: 2024-05-11-22-11-59
+      updated: 2024-05-18-22-12-57
       followers: 351
       likes: 62
-      views: 378
+      views: 387
 2024-04-14.palace-of-vivec: 2017-04-30.palace-of-vivec
 2024-04-15.night-at-red-mountain:
   title: Night at Red Mountain
@@ -1211,18 +1211,18 @@
     - service: vk
       id: 1502
       published: 2024-04-20-18-17-56
-      updated: 2024-05-11-22-11-59
+      updated: 2024-05-18-22-12-57
       followers: 909
-      likes: 28
-      views: 266
+      likes: 29
+      views: 268
       reposts: 2
     - service: tg
       id: 384
       published: 2024-04-20-18-18-05
-      updated: 2024-05-11-22-11-59
+      updated: 2024-05-18-22-12-57
       followers: 354
       likes: 58
-      views: 346
+      views: 363
 2024-04-21.a-little-joy-for-hard-worker: 2018-03-02.a-little-joy-for-hard-worker
 2024-04-22.sunset-over-molag-amur:
   title: Sunset Over Molag Amur
@@ -1746,27 +1746,27 @@
       id: C7FFN7INkg3
       mediaId: '18036682060909908'
       published: 2024-05-17-18-19-37
-      updated: 2024-05-18-21-12-08
+      updated: 2024-05-18-22-12-57
       followers: 1419
-      likes: 63
-      views: 210
+      likes: 64
+      views: 211
     - service: vk
       id: 1535
       published: 2024-05-17-18-19-43
-      updated: 2024-05-18-21-12-09
+      updated: 2024-05-18-22-12-56
       followers: 915
       likes: 15
-      views: 146
+      views: 149
       comments: !c |-
         iyWAkZPLQnj4jc+HAACudW50ZXJncnVuZGJhaG7ZMNCh0LXQs9C+0LTQvdGPINGBINC90LjQvCDQ
         v9C10YDQtdGB0LXQutCw0LvRgdGPKQM=
     - service: tg
       id: 411
       published: 2024-05-17-18-19-48
-      updated: 2024-05-18-21-12-09
+      updated: 2024-05-18-22-12-57
       followers: 372
       likes: 45
-      views: 131
+      views: 132
       comments: !c |-
         G9AAoBwHuZnlPm4xQkGoTf7HqSHMxROwOYQivtrSmrRpjAk03wcuNvHhw9Q5lc3V3eydPIGXMc5a
         SHvYhZLTyekBA+MKuKXVksACkFByGztT9BhCNaLH9cZTW1K/aYpZ+aoib7E7Ze/m0KIU1pTGGVsq
