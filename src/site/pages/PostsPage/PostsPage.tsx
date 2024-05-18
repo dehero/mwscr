@@ -15,7 +15,7 @@ import {
 import { isPostRequest, isPublishablePost } from '../../../core/entities/post-variation.js';
 import type { PostsManager } from '../../../core/entities/posts-manager.js';
 import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
-import { getUserEntryName } from '../../../core/entities/user.js';
+import { getUserEntryTitle } from '../../../core/entities/user.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { Button } from '../../components/Button/Button.js';
@@ -39,7 +39,7 @@ const comparators = [
   { value: 'rating', label: 'Rating', fn: comparePostEntriesByRating },
 ] as const;
 
-type ComparatorKey = (typeof comparators)[number]['value'];
+export type PostsPageSortKey = (typeof comparators)[number]['value'];
 
 const checks = [
   { value: 'publishable', label: 'Publishable', fn: isPublishablePost },
@@ -68,7 +68,7 @@ export interface PostsPageSearchParams {
   violation?: PostViolation;
   check?: CheckKey;
   search?: string;
-  sort?: `${ComparatorKey},${SortDirection}`;
+  sort?: `${PostsPageSortKey},${SortDirection}`;
 }
 
 type FilterKey = keyof Pick<
@@ -82,7 +82,7 @@ export interface PostsPageRouteInfo extends SiteRouteInfo {
   presetKeys?: PresetKey[];
   filters?: FilterKey[];
   checkKeys?: CheckKey[];
-  sortKeys?: ComparatorKey[];
+  sortKeys?: PostsPageSortKey[];
 }
 
 interface GetPostsParams {
@@ -96,7 +96,7 @@ interface GetPostsParams {
   mark?: PostMark;
   violation?: PostViolation;
   check?: CheckKey;
-  sortKey: ComparatorKey;
+  sortKey: PostsPageSortKey;
   sortDirection: SortDirection;
 }
 
@@ -174,7 +174,7 @@ const getAuthorOptions = async (postsManager: PostsManager): Promise<SelectOptio
   const authors = await users.getEntries([...usedAuthorIds.keys()]);
 
   return authors
-    .map((entry) => ({ value: entry[0], label: `${getUserEntryName(entry)} (${usedAuthorIds.get(entry[0])})` }))
+    .map((entry) => ({ value: entry[0], label: `${getUserEntryTitle(entry)} (${usedAuthorIds.get(entry[0])})` }))
     .sort((a, b) => a.label.localeCompare(b.label));
 };
 
@@ -214,7 +214,7 @@ export const PostsPage: Component = () => {
   const setPostMark = (mark: PostMark | undefined) => setSearchParams({ mark });
   const setPostViolation = (violation: string | undefined) => setSearchParams({ violation });
   const setSearchTerm = (search: string | undefined) => setSearchParams({ search });
-  const setSortKey = (key: ComparatorKey | undefined) => setSearchParams({ sort: `${key},${sortDirection()}` });
+  const setSortKey = (key: PostsPageSortKey | undefined) => setSearchParams({ sort: `${key},${sortDirection()}` });
   const setSortDirection = (direction: SortDirection | undefined) =>
     setSearchParams({ sort: `${sortKey()},${direction}` });
 
@@ -325,7 +325,7 @@ export const PostsPage: Component = () => {
                 ALL_OPTION,
                 ANY_OPTION,
                 NONE_OPTION,
-                ...Object.entries(POST_VIOLATIONS).map(([value, label]) => ({ value, label })),
+                ...Object.entries(POST_VIOLATIONS).map(([value, violation]) => ({ value, label: violation.title })),
               ]}
               value={postViolation()}
               onChange={setPostViolation}

@@ -1,5 +1,5 @@
 import type { Post, PostEntry } from '../../core/entities/post.js';
-import { getPostEntriesFromSource, isPostEqual, mergePostWith } from '../../core/entities/post.js';
+import { isPostEqual, mergePostWith } from '../../core/entities/post.js';
 import type { PublishablePost } from '../../core/entities/post-variation.js';
 import { isPublishablePost } from '../../core/entities/post-variation.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
@@ -83,7 +83,7 @@ async function findLastPublishedPostEntry(
   const years = (await published.getChunkNames()).reverse();
 
   for (const year of years) {
-    const postEntries = await getPostEntriesFromSource(() => published.readChunkEntries(year));
+    const postEntries = await published.getChunkEntries(year);
     const postEntry = [...postEntries].reverse().find(([_, post]) => filter(post));
     if (postEntry) {
       return postEntry;

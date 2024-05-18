@@ -9,9 +9,9 @@ import {
   getServicePostRating,
 } from '../../../core/entities/post.js';
 import { services } from '../../../core/services/index.js';
-import { Divider } from '../Divider/Divider.jsx';
-import { Frame } from '../Frame/Frame.jsx';
-import { Table } from '../Table/Table.jsx';
+import { Divider } from '../Divider/Divider.js';
+import { Frame } from '../Frame/Frame.js';
+import { Table } from '../Table/Table.js';
 import styles from './PostPublications.module.css';
 
 export interface PostPublicationsProps {

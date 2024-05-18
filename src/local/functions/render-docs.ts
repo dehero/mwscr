@@ -1,11 +1,7 @@
 import { unlink } from 'fs/promises';
 import type { Doc } from '../../core/entities/doc.js';
 import type { Post } from '../../core/entities/post.js';
-import {
-  comparePostEntriesById,
-  comparePostEntriesByRating,
-  getPostEntriesFromSource,
-} from '../../core/entities/post.js';
+import { comparePostEntriesById, comparePostEntriesByRating } from '../../core/entities/post.js';
 import {
   isPostRequest,
   isPublishablePost,
@@ -242,16 +238,13 @@ async function renderTrash() {
 
 async function renderContributors() {
   const filename = CONTRIBUTORS_DOCS_FILENAME;
-  const publishedPosts = await getPostEntriesFromSource(published.readAllEntries);
-  const inboxPosts = await getPostEntriesFromSource(inbox.readAllEntries);
-  const trashPosts = await getPostEntriesFromSource(trash.readAllEntries);
 
   try {
     await renderUsers({
       users,
-      published: publishedPosts,
-      inbox: inboxPosts,
-      trash: trashPosts,
+      published,
+      inbox,
+      trash,
       doc: {
         filename,
         title: 'Contributors',

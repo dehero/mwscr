@@ -3,22 +3,22 @@ import { useParams } from '@solidjs/router';
 import clsx from 'clsx';
 import { type Component, createResource, createSignal, For, Match, Show, Switch } from 'solid-js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
-import { getUserEntryName } from '../../../core/entities/user.js';
+import { getUserEntryTitle } from '../../../core/entities/user.js';
 import { youtube } from '../../../core/services/youtube.js';
 import { store } from '../../../core/stores/index.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import { Button } from '../../components/Button/Button.jsx';
+import { Button } from '../../components/Button/Button.js';
 import { Divider } from '../../components/Divider/Divider.js';
 import { Frame } from '../../components/Frame/Frame.js';
 import frameStyles from '../../components/Frame/Frame.module.css';
 import { Input } from '../../components/Input/Input.js';
 import { Page } from '../../components/Page/Page.js';
 import { PostComments } from '../../components/PostComments/PostComments.js';
-import { PostEditingDialog } from '../../components/PostEditingDialog/PostEditingDialog.jsx';
-import { PostLocationDialog } from '../../components/PostLocationDialog/PostLocationDialog.jsx';
+import { PostEditingDialog } from '../../components/PostEditingDialog/PostEditingDialog.js';
+import { PostLocationDialog } from '../../components/PostLocationDialog/PostLocationDialog.js';
 import { PostPublications } from '../../components/PostPublications/PostPublications.js';
 import { ResourcePreview } from '../../components/ResourcePreview/ResourcePreview.js';
-import { Table } from '../../components/Table/Table.jsx';
+import { Table } from '../../components/Table/Table.js';
 import { inbox, published, trash } from '../../data-managers/posts.js';
 import { users } from '../../data-managers/users.js';
 import type { PostRouteParams } from '../../routes/post-route.js';
@@ -170,7 +170,7 @@ export const PostPage: Component = () => {
                   { label: 'Type', value: post().type },
                   {
                     label: 'Author',
-                    value: authors()?.map(getUserEntryName).join(', '),
+                    value: authors()?.map(getUserEntryTitle).join(', '),
                   },
                   { label: 'Engine', value: post().engine },
                   { label: 'Addon', value: post().addon },

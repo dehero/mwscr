@@ -21,6 +21,7 @@
   padding: 4px;
   flex-grow: 1;
   flex-shrink: 0;
+  position: relative;
 }
 
 .header {
@@ -55,6 +56,12 @@
   box-sizing: border-box;
 }
 
+.attributes {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  gap: 4px;
+}
+
 .title {
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -64,4 +71,12 @@
 .rating {
   color: var(--color-text-light);
   flex-shrink: 0;
+}
+
+.icons {
+  position: absolute;
+  top: -29px;
+  right: 2px;
+  display: inline-flex;
+  flex-flow: row nowrap;
 }
