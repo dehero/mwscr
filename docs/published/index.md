@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`81 items`
+`82 items`
+
+## <span id="2024-05-18.in-the-yard-of-wolverine-hall">In the Yard of Wolverine Hall</span>
+
+`RU` Во дворе Волверин Холла
+
+<a href="https://instagram.com/p/BgCGM8QBMHa/" title="2018-03-07.in-the-yard-of-wolverine-hall"><img alt="store:/shots/2018-03-07.in-the-yard-of-wolverine-hall.png" src="../../assets/previews/shots/2018-03-07.in-the-yard-of-wolverine-hall.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Wolverine Hall` `🚀 OpenMW`
+
+```
+2024-05-18.in-the-yard-of-wolverine-hall
+```
+
+> `2018-03-07.in-the-yard-of-wolverine-hall`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BgCGM8QBMHa/)       | 2018-03-07 |       |    86 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_642)  | 2018-03-07 |   213 |    15 |       139 |  10.79 |
+| [`ig`](https://instagram.com/p/C7Hp4OxN4vS/)       | 2024-05-18 |       |       |      1418 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1537) | 2024-05-18 |       |       |       915 |        |
+| [`tg`](https://t.me/mwscr/412)                     | 2024-05-18 |       |       |       372 |        |
+|                                                    |            |   213 |   101 |      2705 |        |
 
 ## <span id="2024-05-17.both-gro-durug">Both Gro-Durug</span>
 
@@ -24,10 +51,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C7FFN7INkg3/)       | 2024-05-17 |   198 |    58 |      1419 |   4.09 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1535) | 2024-05-17 |   142 |    15 |       915 |   1.64 |
-| [`tg`](https://t.me/mwscr/411)                     | 2024-05-17 |   114 |    43 |       372 |  11.56 |
-|                                                    |            |   454 |   116 |      2706 |   5.76 |
+| [`ig`](https://instagram.com/p/C7FFN7INkg3/)       | 2024-05-17 |   200 |    59 |      1419 |   4.16 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1535) | 2024-05-17 |   144 |    15 |       915 |   1.64 |
+| [`tg`](https://t.me/mwscr/411)                     | 2024-05-17 |   116 |    43 |       372 |  11.56 |
+|                                                    |            |   460 |   117 |      2706 |   5.79 |
 
 #### Comments
 
@@ -59,9 +86,9 @@
 | [`ig`](https://instagram.com/p/BhHr_a4DlEo/)       | 2018-04-03 |       |    92 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_676)  | 2018-04-03 |   199 |    17 |       148 |  11.49 |
 | [`ig`](https://instagram.com/p/C7CgQu_S-7L/)       | 2024-05-16 |   221 |    76 |      1418 |   5.36 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1534) | 2024-05-16 |   202 |    33 |       915 |   3.61 |
-| [`tg`](https://t.me/mwscr/410)                     | 2024-05-16 |   180 |    48 |       370 |  12.97 |
-|                                                    |            |   802 |   266 |      2703 |   8.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1534) | 2024-05-16 |   203 |    33 |       915 |   3.61 |
+| [`tg`](https://t.me/mwscr/410)                     | 2024-05-16 |   182 |    48 |       370 |  12.97 |
+|                                                    |            |   805 |   266 |      2703 |   8.36 |
 
 #### Comments
 
@@ -96,10 +123,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6_7fthhz2f/)       | 2024-05-15 |   180 |    53 |      1419 |   3.74 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1533) | 2024-05-15 |   173 |    33 |       915 |   3.61 |
-| [`tg`](https://t.me/mwscr/409)                     | 2024-05-15 |   151 |    46 |       370 |  12.43 |
-|                                                    |            |   504 |   132 |      2704 |   6.59 |
+| [`ig`](https://instagram.com/p/C6_7fthhz2f/)       | 2024-05-15 |   186 |    55 |      1419 |   3.88 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1533) | 2024-05-15 |   185 |    33 |       915 |   3.61 |
+| [`tg`](https://t.me/mwscr/409)                     | 2024-05-15 |   167 |    49 |       370 |  13.24 |
+|                                                    |            |   538 |   137 |      2704 |   6.91 |
 
 #### Comments
 
