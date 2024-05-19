@@ -285,7 +285,7 @@
     - service: vk
       id: 1441
       published: 2024-03-09-18-16-27
-      updated: 2024-05-12-01-07-19
+      updated: 2024-05-19-01-07-50
       followers: 893
       likes: 35
       views: 259
@@ -293,10 +293,10 @@
     - service: tg
       id: 340
       published: 2024-03-09-18-16-33
-      updated: 2024-05-12-01-07-18
+      updated: 2024-05-19-01-07-49
       followers: 347
       likes: 62
-      views: 487
+      views: 490
       comments: !c |-
         G58AAGT+z/XBBzIvnUbS3kC7LujegbVmYoOetg7kQicnWmD6bl8URpZjW4DpDZ9rI5Yo5fDtdK90
         tRChSx2sBCU3AiU3iL2zR+G/gZ1lHfaJ3wCYBZVMS99IgGiO08lhJ4RlSbBcdMM20oiMSnmS0Cgc
@@ -595,7 +595,7 @@
     - service: vk
       id: 1465
       published: 2024-03-23-18-10-09
-      updated: 2024-05-12-01-07-18
+      updated: 2024-05-19-01-07-49
       followers: 897
       likes: 38
       views: 306
@@ -607,10 +607,10 @@
     - service: tg
       id: 355
       published: 2024-03-23-18-10-16
-      updated: 2024-05-12-01-07-17
+      updated: 2024-05-19-01-07-48
       followers: 352
       likes: 60
-      views: 411
+      views: 415
 2024-03-24.dark-sanctuary-of-dark: 2018-05-09.dark-sanctuary-of-dark
 2024-03-25.bridge-at-ghostfence:
   title: Bridge at Ghostfence
@@ -1746,14 +1746,14 @@
       id: C7FFN7INkg3
       mediaId: '18036682060909908'
       published: 2024-05-17-18-19-37
-      updated: 2024-05-18-23-13-18
+      updated: 2024-05-19-01-07-47
       followers: 1419
-      likes: 65
-      views: 214
+      likes: 67
+      views: 216
     - service: vk
       id: 1535
       published: 2024-05-17-18-19-43
-      updated: 2024-05-18-23-13-18
+      updated: 2024-05-19-01-07-46
       followers: 915
       likes: 15
       views: 151
@@ -1763,10 +1763,10 @@
     - service: tg
       id: 411
       published: 2024-05-17-18-19-48
-      updated: 2024-05-18-23-13-18
+      updated: 2024-05-19-01-07-47
       followers: 372
       likes: 45
-      views: 134
+      views: 135
       comments: !c |-
         G9AAoBwHuZnlPm4xQkGoTf7HqSHMxROwOYQivtrSmrRpjAk03wcuNvHhw9Q5lc3V3eydPIGXMc5a
         SHvYhZLTyekBA+MKuKXVksACkFByGztT9BhCNaLH9cZTW1K/aYpZ+aoib7E7Ze/m0KIU1pTGGVsq
