@@ -4,7 +4,38 @@
 
 # Published in 2024
 
-`82 items`
+`83 items`
+
+## <span id="2024-05-19.druscashti">Druscashti</span>
+
+`RU` Друскашти
+
+<a href="https://instagram.com/p/C7KOqOwrxAi/" title="2024-05-19.druscashti"><img alt="store:/shots/2024-05-19.druscashti.png" src="../../assets/previews/shots/2024-05-19.druscashti.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/natty.2024-03-10-17-59-36.png](../../assets/previews/trash/natty.2024-03-10-17-59-36.avif "natty.2024-03-10-17-59-36")
+![store:/trash/natty.2024-03-10-17-59-31.png](../../assets/previews/trash/natty.2024-03-10-17-59-31.avif "natty.2024-03-10-17-59-31")
+![store:/trash/natty.2024-03-10-17-59-41.2.png](../../assets/previews/trash/natty.2024-03-10-17-59-41.2.avif "natty.2024-03-10-17-59-41.2")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-19.druscashti)</code> `🚀 OpenMW` `dwemer` `ruin`
+
+```
+2024-05-19.druscashti
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C7KOqOwrxAi/)       | 2024-05-19 |      1418 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1538) | 2024-05-19 |       916 |
+| [`tg`](https://t.me/mwscr/413)                     | 2024-05-19 |       372 |
+|                                                    |            |      2706 |
 
 ## <span id="2024-05-18.in-the-yard-of-wolverine-hall">In the Yard of Wolverine Hall</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BgCGM8QBMHa/)       | 2018-03-07 |       |    86 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_642)  | 2018-03-07 |   213 |    15 |       139 |  10.79 |
-| [`ig`](https://instagram.com/p/C7Hp4OxN4vS/)       | 2024-05-18 |   188 |    49 |      1418 |   3.46 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1537) | 2024-05-18 |   153 |    20 |       915 |   2.19 |
+| [`ig`](https://instagram.com/p/C7Hp4OxN4vS/)       | 2024-05-18 |   193 |    49 |      1418 |   3.46 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1537) | 2024-05-18 |   156 |    20 |       915 |   2.19 |
 | [`tg`](https://t.me/mwscr/412)                     | 2024-05-18 |   109 |    37 |       372 |   9.95 |
-|                                                    |            |   663 |   207 |      2705 |   6.59 |
+|                                                    |            |   671 |   207 |      2705 |   6.59 |
 
 #### Comments
 
@@ -57,10 +88,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C7FFN7INkg3/)       | 2024-05-17 |   226 |    69 |      1419 |   4.86 |
+| [`ig`](https://instagram.com/p/C7FFN7INkg3/)       | 2024-05-17 |   227 |    70 |      1419 |   4.93 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1535) | 2024-05-17 |   169 |    18 |       915 |   1.97 |
 | [`tg`](https://t.me/mwscr/411)                     | 2024-05-17 |   143 |    45 |       372 |   12.1 |
-|                                                    |            |   538 |   132 |      2706 |   6.31 |
+|                                                    |            |   539 |   133 |      2706 |   6.33 |
 
 #### Comments
 

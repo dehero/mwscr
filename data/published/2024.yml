@@ -1746,14 +1746,14 @@
       id: C7FFN7INkg3
       mediaId: '18036682060909908'
       published: 2024-05-17-18-19-37
-      updated: 2024-05-19-17-12-29
+      updated: 2024-05-19-18-17-57
       followers: 1419
-      likes: 69
-      views: 226
+      likes: 70
+      views: 227
     - service: vk
       id: 1535
       published: 2024-05-17-18-19-43
-      updated: 2024-05-19-17-12-29
+      updated: 2024-05-19-18-17-56
       followers: 915
       likes: 18
       views: 169
@@ -1763,7 +1763,7 @@
     - service: tg
       id: 411
       published: 2024-05-17-18-19-48
-      updated: 2024-05-19-17-12-30
+      updated: 2024-05-19-18-17-56
       followers: 372
       likes: 45
       views: 143
@@ -1773,3 +1773,32 @@
         4MDiijWlKIMzHrjiLDSf2hJm/ylmYrNssuza4gAnwryGd5QR9Gchk7Y0M6QYNiFvTQQLf3x+KKwd
         1iDwHLl5rk8ZLoy1Eo7IDjxhd1aCvF+rAA==
 2024-05-18.in-the-yard-of-wolverine-hall: 2018-03-07.in-the-yard-of-wolverine-hall
+2024-05-19.druscashti:
+  title: Druscashti
+  titleRu: Друскашти
+  content: store:/shots/2024-05-19.druscashti.png
+  trash:
+    - store:/trash/natty.2024-03-10-17-59-36.png
+    - store:/trash/natty.2024-03-10-17-59-31.png
+    - store:/trash/natty.2024-03-10-17-59-41.2.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - dwemer
+    - ruin
+  mark: B1
+  posts:
+    - service: ig
+      id: C7KOqOwrxAi
+      mediaId: '18247469962247704'
+      published: 2024-05-19-18-18-18
+      followers: 1418
+    - service: vk
+      id: 1538
+      published: 2024-05-19-18-18-25
+      followers: 916
+    - service: tg
+      id: 413
+      published: 2024-05-19-18-18-32
+      followers: 372
