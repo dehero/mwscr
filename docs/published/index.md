@@ -32,10 +32,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C7KOqOwrxAi/)       | 2024-05-19 |    98 |    37 |      1418 |   2.61 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1538) | 2024-05-19 |    69 |    18 |       916 |   1.97 |
-| [`tg`](https://t.me/mwscr/413)                     | 2024-05-19 |    82 |    34 |       372 |   9.14 |
-|                                                    |            |   249 |    89 |      2706 |   4.57 |
+| [`ig`](https://instagram.com/p/C7KOqOwrxAi/)       | 2024-05-19 |   109 |    38 |      1418 |   2.68 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1538) | 2024-05-19 |    75 |    18 |       916 |   1.97 |
+| [`tg`](https://t.me/mwscr/413)                     | 2024-05-19 |    87 |    34 |       372 |   9.14 |
+|                                                    |            |   271 |    90 |      2706 |   4.59 |
 
 ## <span id="2024-05-18.in-the-yard-of-wolverine-hall">In the Yard of Wolverine Hall</span>
 
@@ -60,9 +60,9 @@
 | [`ig`](https://instagram.com/p/BgCGM8QBMHa/)       | 2018-03-07 |       |    86 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_642)  | 2018-03-07 |   213 |    15 |       139 |  10.79 |
 | [`ig`](https://instagram.com/p/C7Hp4OxN4vS/)       | 2024-05-18 |   200 |    50 |      1418 |   3.53 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1537) | 2024-05-18 |   161 |    22 |       915 |    2.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1537) | 2024-05-18 |   162 |    22 |       915 |    2.4 |
 | [`tg`](https://t.me/mwscr/412)                     | 2024-05-18 |   126 |    40 |       372 |  10.75 |
-|                                                    |            |   700 |   213 |      2705 |   6.87 |
+|                                                    |            |   701 |   213 |      2705 |   6.87 |
 
 #### Comments
 
