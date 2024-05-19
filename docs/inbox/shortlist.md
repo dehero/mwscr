@@ -4,7 +4,30 @@
 
 # Shortlist
 
-`2 items`
+`3 items`
+
+## <span id="natty.2024-03-10-17-59-41">Druscashti</span>
+
+`RU` Друскашти
+
+![store:/inbox/natty.2024-03-10-17-59-41.1.png](../../assets/previews/inbox/natty.2024-03-10-17-59-41.1.avif "natty.2024-03-10-17-59-41.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/natty.2024-03-10-17-59-41.png](../../assets/previews/inbox/natty.2024-03-10-17-59-41.avif "natty.2024-03-10-17-59-41")
+![store:/inbox/natty.2024-03-10-17-59-36.png](../../assets/previews/inbox/natty.2024-03-10-17-59-36.avif "natty.2024-03-10-17-59-36")
+![store:/inbox/natty.2024-03-10-17-59-31.png](../../assets/previews/inbox/natty.2024-03-10-17-59-31.avif "natty.2024-03-10-17-59-31")
+![store:/inbox/natty.2024-03-10-17-59-41.2.png](../../assets/previews/inbox/natty.2024-03-10-17-59-41.2.avif "natty.2024-03-10-17-59-41.2")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-17-59-41&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-17-59-41.1.png&amp;postTitle=Druscashti&amp;postTitleRu=%D0%94%D1%80%D1%83%D1%81%D0%BA%D0%B0%D1%88%D1%82%D0%B8&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=dwemer+ruin&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-03-10-17-59-41.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-17-59-36.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-17-59-31.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-17-59-41.2.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-17-59-41) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-17-59-41) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-17-59-41)</code> `🚀 OpenMW` `dwemer` `ruin`
+
+```
+natty.2024-03-10-17-59-41
+```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
 
