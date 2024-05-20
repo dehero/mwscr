@@ -598,7 +598,7 @@ dehero.2024-03-05-20-03-29
 <details>
 <summary>Trash</summary>
 
-![store:/inbox/dehero.2024-03-05-20-01-36.png](../../assets/previews/inbox/dehero.2024-03-05-20-01-36.avif "dehero.2024-03-05-20-01-36")
+![store:/trash/dehero.2024-03-05-20-01-36.png](../../assets/previews/trash/dehero.2024-03-05-20-01-36.avif "dehero.2024-03-05-20-01-36")
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
@@ -606,7 +606,7 @@ dehero.2024-03-05-20-03-29
 > [!WARNING]
 > Need english title, need russian title, need mark.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-05-20-02-12&amp;postContent=store%3A%2Finbox%2Fdehero.2024-03-05-20-02-12.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=Buckmoth+Legion+Fort%2C+Interior&amp;postMark=&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-03-05-20-01-36.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-05-20-02-12) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-05-20-02-12) `📍 Buckmoth Legion Fort, Interior`
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-05-20-02-12&amp;postContent=store%3A%2Finbox%2Fdehero.2024-03-05-20-02-12.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=Buckmoth+Legion+Fort%2C+Interior&amp;postMark=&amp;postViolation=&amp;postTrash=store%3A%2Ftrash%2Fdehero.2024-03-05-20-01-36.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-05-20-02-12) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-05-20-02-12) `📍 Buckmoth Legion Fort, Interior`
 
 ```
 dehero.2024-03-05-20-02-12
