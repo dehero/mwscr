@@ -23,7 +23,7 @@ dehero
 Roles: `author`  
 Authored: 30 published, 30 pending, 7 rejected  
 Types: `shot`  
-Likes: 5783  
+Likes: 5788  
 
 ```
 natty
@@ -34,7 +34,7 @@ natty
 [Telegram](https://t.me/midnight_in_mind)
 
 Roles: `author`  
-Authored: 8 published, 2 pending, 13 rejected  
+Authored: 9 published, 1 pending, 13 rejected  
 Types: `shot`  
 Likes: 2278  
 

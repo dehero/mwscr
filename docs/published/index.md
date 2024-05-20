@@ -4,7 +4,30 @@
 
 # Published in 2024
 
-`83 items`
+`84 items`
+
+## <span id="2024-05-20.place-to-sleep">Place to Sleep</span>
+
+`RU` Место для сна
+
+<a href="https://instagram.com/p/C7MzkoNNPlO/" title="2024-05-20.place-to-sleep"><img alt="store:/shots/2024-05-20.place-to-sleep.png" src="../../assets/previews/shots/2024-05-20.place-to-sleep.avif" /></a>
+
+`shot` by [Darkness Rifho](../contributors.md#darkness-rifho)
+
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-20.place-to-sleep)</code> `bed`
+
+```
+2024-05-20.place-to-sleep
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C7MzkoNNPlO/)       | 2024-05-20 |      1418 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1539) | 2024-05-20 |       916 |
+| [`tg`](https://t.me/mwscr/414)                     | 2024-05-20 |       372 |
+|                                                    |            |      2706 |
 
 ## <span id="2024-05-19.druscashti">Druscashti</span>
 
@@ -32,10 +55,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C7KOqOwrxAi/)       | 2024-05-19 |   219 |    58 |      1418 |   4.09 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1538) | 2024-05-19 |   135 |    28 |       916 |   3.06 |
+| [`ig`](https://instagram.com/p/C7KOqOwrxAi/)       | 2024-05-19 |   222 |    59 |      1418 |   4.16 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1538) | 2024-05-19 |   136 |    28 |       916 |   3.06 |
 | [`tg`](https://t.me/mwscr/413)                     | 2024-05-19 |   119 |    43 |       372 |  11.56 |
-|                                                    |            |   473 |   129 |      2706 |   6.24 |
+|                                                    |            |   477 |   130 |      2706 |   6.26 |
 
 #### Comments
 
@@ -92,10 +115,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C7FFN7INkg3/)       | 2024-05-17 |   227 |    70 |      1419 |   4.93 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1535) | 2024-05-17 |   169 |    18 |       915 |   1.97 |
-| [`tg`](https://t.me/mwscr/411)                     | 2024-05-17 |   143 |    45 |       372 |   12.1 |
-|                                                    |            |   539 |   133 |      2706 |   6.33 |
+| [`ig`](https://instagram.com/p/C7FFN7INkg3/)       | 2024-05-17 |   242 |    71 |      1419 |      5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1535) | 2024-05-17 |   193 |    21 |       915 |    2.3 |
+| [`tg`](https://t.me/mwscr/411)                     | 2024-05-17 |   160 |    45 |       372 |   12.1 |
+|                                                    |            |   595 |   137 |      2706 |   6.47 |
 
 #### Comments
 
