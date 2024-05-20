@@ -23,7 +23,7 @@ dehero
 Roles: `author`  
 Authored: 30 published, 30 pending, 7 rejected  
 Types: `shot`  
-Likes: 5798  
+Likes: 5800  
 
 ```
 natty
@@ -36,7 +36,7 @@ natty
 Roles: `author`  
 Authored: 9 published, 1 pending, 13 rejected  
 Types: `shot`  
-Likes: 2372  
+Likes: 2379  
 
 ```
 darkness-rifho

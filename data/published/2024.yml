@@ -921,18 +921,18 @@
     - service: vk
       id: 1487
       published: 2024-04-08-18-19-47
-      updated: 2024-05-13-23-13-56
+      updated: 2024-05-20-23-14-56
       followers: 909
       likes: 31
-      views: 179
+      views: 181
       reposts: 2
     - service: tg
       id: 372
       published: 2024-04-08-18-19-56
-      updated: 2024-05-13-23-13-56
+      updated: 2024-05-20-23-14-55
       followers: 354
       likes: 59
-      views: 387
+      views: 392
 2024-04-09.telvanni-council-house:
   title: Telvanni Council House
   titleRu: Дом Совета Телванни
@@ -1125,10 +1125,10 @@
     - service: vk
       id: 1495
       published: 2024-04-15-18-17-46
-      updated: 2024-05-13-22-13-58
+      updated: 2024-05-20-23-14-55
       followers: 910
-      likes: 46
-      views: 255
+      likes: 47
+      views: 258
       reposts: 2
       comments: !c Cw6AkZPLQnjuO8YzAACobW9ydHdha2Wo8J+arPCfl78D
     - service: tg
@@ -1793,24 +1793,24 @@
       id: C7KOqOwrxAi
       mediaId: '18247469962247704'
       published: 2024-05-19-18-18-18
-      updated: 2024-05-20-22-12-52
+      updated: 2024-05-20-23-14-55
       followers: 1418
       likes: 61
-      views: 227
+      views: 228
     - service: vk
       id: 1538
       published: 2024-05-19-18-18-25
-      updated: 2024-05-20-22-12-52
+      updated: 2024-05-20-23-14-54
       followers: 916
       likes: 29
-      views: 141
+      views: 142
     - service: tg
       id: 413
       published: 2024-05-19-18-18-32
-      updated: 2024-05-20-22-12-52
+      updated: 2024-05-20-23-14-55
       followers: 372
-      likes: 46
-      views: 133
+      likes: 47
+      views: 135
       comments: !c CxiAkZPLQnj5MWNCgACrYm9icm92bmlrb3a5SSB3YW50IHRvIGhpYmVybmF0ZSB0aGVyZQM=
 2024-05-20.place-to-sleep:
   title: Place to Sleep
@@ -1826,22 +1826,24 @@
       id: C7MzkoNNPlO
       mediaId: '18018481940063824'
       published: 2024-05-20-18-19-20
-      updated: 2024-05-20-22-12-52
+      updated: 2024-05-20-23-14-54
       followers: 1418
-      likes: 42
-      views: 127
-      comments: !c ixaAkZPLQnj5dV2agACtNjYuY2FyYXQuZ29sZLRJJ2QgbmFwIHNvIGhhcmQgaGVyZQM=
+      likes: 47
+      views: 141
+      comments: !c |-
+        iyqAkpPLQnj5gvIqgACqYXVzdGVyaW9uX7JBbGwgSSBuZWVkIGluIGxpZmWTy0J4+XVdmoAArTY2
+        LmNhcmF0LmdvbGS0SSdkIG5hcCBzbyBoYXJkIGhlcmUD
     - service: vk
       id: 1539
       published: 2024-05-20-18-19-27
-      updated: 2024-05-20-22-12-51
+      updated: 2024-05-20-23-14-54
       followers: 916
       likes: 16
-      views: 81
+      views: 85
     - service: tg
       id: 414
       published: 2024-05-20-18-19-34
-      updated: 2024-05-20-22-12-52
+      updated: 2024-05-20-23-14-54
       followers: 372
-      likes: 36
-      views: 87
+      likes: 38
+      views: 90
