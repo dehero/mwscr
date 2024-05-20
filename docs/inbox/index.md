@@ -4,7 +4,67 @@
 
 # Inbox for 2024
 
-`48 items`
+`52 items`
+
+## <span id="vladyslav-zhuk.2024-05-20-ee4ce05b-69de-4611-8928-5b436ab21c0a-shots-from-vladyslav-zhuk-715f7a34">Ee4ce05b-69de-4611-8928-5b436ab21c0a Shots from Vladyslav Zhuk</span>
+
+![store:/inbox/vladyslav-zhuk.2024-05-20-ee4ce05b-69de-4611-8928-5b436ab21c0a-shots-from-vladyslav-zhuk-715f7a34](../../assets/previews/inbox/vladyslav-zhuk.avif "vladyslav-zhuk")
+
+`shot` by [Vladyslav Zhuk](../contributors.md#vladyslav-zhuk)
+
+> [!WARNING]
+> Need russian title, need mark, unable to detect possible post type from content.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=vladyslav-zhuk.2024-05-20-ee4ce05b-69de-4611-8928-5b436ab21c0a-shots-from-vladyslav-zhuk-715f7a34&amp;postContent=store%3A%2Finbox%2Fvladyslav-zhuk.2024-05-20-ee4ce05b-69de-4611-8928-5b436ab21c0a-shots-from-vladyslav-zhuk-715f7a34&amp;postTitle=Ee4ce05b-69de-4611-8928-5b436ab21c0a+Shots+from+Vladyslav+Zhuk&amp;postTitleRu=&amp;postAuthor=vladyslav-zhuk&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=vladyslav-zhuk.2024-05-20-ee4ce05b-69de-4611-8928-5b436ab21c0a-shots-from-vladyslav-zhuk-715f7a34) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=vladyslav-zhuk.2024-05-20-ee4ce05b-69de-4611-8928-5b436ab21c0a-shots-from-vladyslav-zhuk-715f7a34) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=vladyslav-zhuk.2024-05-20-ee4ce05b-69de-4611-8928-5b436ab21c0a-shots-from-vladyslav-zhuk-715f7a34)</code>
+
+```
+vladyslav-zhuk.2024-05-20-ee4ce05b-69de-4611-8928-5b436ab21c0a-shots-from-vladyslav-zhuk-715f7a34
+```
+
+## <span id="vladyslav-zhuk.2024-05-20-ca964b9c-35db-4830-88d1-6b3d9d8fa360-shots-from-vladyslav-zhuk-90ebbbeb">Ca964b9c-35db-4830-88d1-6b3d9d8fa360 Shots from Vladyslav Zhuk</span>
+
+![store:/inbox/vladyslav-zhuk.2024-05-20-ca964b9c-35db-4830-88d1-6b3d9d8fa360-shots-from-vladyslav-zhuk-90ebbbeb](../../assets/previews/inbox/vladyslav-zhuk.avif "vladyslav-zhuk")
+
+`shot` by [Vladyslav Zhuk](../contributors.md#vladyslav-zhuk)
+
+> [!WARNING]
+> Need russian title, need mark, unable to detect possible post type from content.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=vladyslav-zhuk.2024-05-20-ca964b9c-35db-4830-88d1-6b3d9d8fa360-shots-from-vladyslav-zhuk-90ebbbeb&amp;postContent=store%3A%2Finbox%2Fvladyslav-zhuk.2024-05-20-ca964b9c-35db-4830-88d1-6b3d9d8fa360-shots-from-vladyslav-zhuk-90ebbbeb&amp;postTitle=Ca964b9c-35db-4830-88d1-6b3d9d8fa360+Shots+from+Vladyslav+Zhuk&amp;postTitleRu=&amp;postAuthor=vladyslav-zhuk&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=vladyslav-zhuk.2024-05-20-ca964b9c-35db-4830-88d1-6b3d9d8fa360-shots-from-vladyslav-zhuk-90ebbbeb) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=vladyslav-zhuk.2024-05-20-ca964b9c-35db-4830-88d1-6b3d9d8fa360-shots-from-vladyslav-zhuk-90ebbbeb) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=vladyslav-zhuk.2024-05-20-ca964b9c-35db-4830-88d1-6b3d9d8fa360-shots-from-vladyslav-zhuk-90ebbbeb)</code>
+
+```
+vladyslav-zhuk.2024-05-20-ca964b9c-35db-4830-88d1-6b3d9d8fa360-shots-from-vladyslav-zhuk-90ebbbeb
+```
+
+## <span id="vladyslav-zhuk.2024-05-20-aab47d63-4df6-4974-b848-fd92a294857f-shots-from-vladyslav-zhuk-d3c543d1">Aab47d63-4df6-4974-B848-Fd92a294857f Shots from Vladyslav Zhuk</span>
+
+![store:/inbox/vladyslav-zhuk.2024-05-20-aab47d63-4df6-4974-b848-fd92a294857f-shots-from-vladyslav-zhuk-d3c543d1](../../assets/previews/inbox/vladyslav-zhuk.avif "vladyslav-zhuk")
+
+`shot` by [Vladyslav Zhuk](../contributors.md#vladyslav-zhuk)
+
+> [!WARNING]
+> Need russian title, need mark, unable to detect possible post type from content.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=vladyslav-zhuk.2024-05-20-aab47d63-4df6-4974-b848-fd92a294857f-shots-from-vladyslav-zhuk-d3c543d1&amp;postContent=store%3A%2Finbox%2Fvladyslav-zhuk.2024-05-20-aab47d63-4df6-4974-b848-fd92a294857f-shots-from-vladyslav-zhuk-d3c543d1&amp;postTitle=Aab47d63-4df6-4974-B848-Fd92a294857f+Shots+from+Vladyslav+Zhuk&amp;postTitleRu=&amp;postAuthor=vladyslav-zhuk&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=vladyslav-zhuk.2024-05-20-aab47d63-4df6-4974-b848-fd92a294857f-shots-from-vladyslav-zhuk-d3c543d1) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=vladyslav-zhuk.2024-05-20-aab47d63-4df6-4974-b848-fd92a294857f-shots-from-vladyslav-zhuk-d3c543d1) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=vladyslav-zhuk.2024-05-20-aab47d63-4df6-4974-b848-fd92a294857f-shots-from-vladyslav-zhuk-d3c543d1)</code>
+
+```
+vladyslav-zhuk.2024-05-20-aab47d63-4df6-4974-b848-fd92a294857f-shots-from-vladyslav-zhuk-d3c543d1
+```
+
+## <span id="vladyslav-zhuk.2024-05-20-730e6211-c18b-4d44-932f-f28de5e55371-shots-from-vladyslav-zhuk-4039c778">730e6211-C18b-4d44-932f-F28de5e55371 Shots from Vladyslav Zhuk</span>
+
+![store:/inbox/vladyslav-zhuk.2024-05-20-730e6211-c18b-4d44-932f-f28de5e55371-shots-from-vladyslav-zhuk-4039c778](../../assets/previews/inbox/vladyslav-zhuk.avif "vladyslav-zhuk")
+
+`shot` by [Vladyslav Zhuk](../contributors.md#vladyslav-zhuk)
+
+> [!WARNING]
+> Need russian title, need mark, unable to detect possible post type from content.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=vladyslav-zhuk.2024-05-20-730e6211-c18b-4d44-932f-f28de5e55371-shots-from-vladyslav-zhuk-4039c778&amp;postContent=store%3A%2Finbox%2Fvladyslav-zhuk.2024-05-20-730e6211-c18b-4d44-932f-f28de5e55371-shots-from-vladyslav-zhuk-4039c778&amp;postTitle=730e6211-C18b-4d44-932f-F28de5e55371+Shots+from+Vladyslav+Zhuk&amp;postTitleRu=&amp;postAuthor=vladyslav-zhuk&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=vladyslav-zhuk.2024-05-20-730e6211-c18b-4d44-932f-f28de5e55371-shots-from-vladyslav-zhuk-4039c778) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=vladyslav-zhuk.2024-05-20-730e6211-c18b-4d44-932f-f28de5e55371-shots-from-vladyslav-zhuk-4039c778) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=vladyslav-zhuk.2024-05-20-730e6211-c18b-4d44-932f-f28de5e55371-shots-from-vladyslav-zhuk-4039c778)</code>
+
+```
+vladyslav-zhuk.2024-05-20-730e6211-c18b-4d44-932f-f28de5e55371-shots-from-vladyslav-zhuk-4039c778
+```
 
 ## <span id="natty.2024-03-28-20-45-38">natty.2024-03-28-20-45-38</span>
 

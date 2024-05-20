@@ -68,6 +68,16 @@ Likes: 239
 irina-bystritskaya
 ```
 
+### Vladyslav Zhuk
+
+Roles: `author` `beginner`  
+Authored: 4 pending  
+Types: `shot`  
+
+```
+vladyslav-zhuk
+```
+
 ## Requesters
 
 ### buck-the-cuck
