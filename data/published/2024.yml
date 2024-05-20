@@ -1360,17 +1360,17 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
-      updated: 2024-05-13-20-14-43
+      updated: 2024-05-20-20-14-55
       followers: 912
-      likes: 34
-      views: 232
+      likes: 35
+      views: 236
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2024-05-13-20-14-42
+      updated: 2024-05-20-20-14-54
       followers: 354
-      likes: 59
-      views: 345
+      likes: 60
+      views: 371
       comments: !c |-
         CxyAkZPLQnjzCJAGAACpcmVzaXN0X2l02SJXaGVyZSBkbyB0aGV5IGxlYWQsIGFjdHVhbGx5PyDw
         n6SUAw==
@@ -1793,24 +1793,24 @@
       id: C7KOqOwrxAi
       mediaId: '18247469962247704'
       published: 2024-05-19-18-18-18
-      updated: 2024-05-20-19-11-43
+      updated: 2024-05-20-20-14-55
       followers: 1418
-      likes: 59
+      likes: 60
       views: 223
     - service: vk
       id: 1538
       published: 2024-05-19-18-18-25
-      updated: 2024-05-20-19-11-43
+      updated: 2024-05-20-20-14-54
       followers: 916
       likes: 28
-      views: 137
+      views: 138
     - service: tg
       id: 413
       published: 2024-05-19-18-18-32
-      updated: 2024-05-20-19-11-44
+      updated: 2024-05-20-20-14-54
       followers: 372
       likes: 45
-      views: 125
+      views: 129
       comments: !c CxiAkZPLQnj5MWNCgACrYm9icm92bmlrb3a5SSB3YW50IHRvIGhpYmVybmF0ZSB0aGVyZQM=
 2024-05-20.place-to-sleep:
   title: Place to Sleep
@@ -1826,22 +1826,22 @@
       id: C7MzkoNNPlO
       mediaId: '18018481940063824'
       published: 2024-05-20-18-19-20
-      updated: 2024-05-20-19-11-43
+      updated: 2024-05-20-20-14-54
       followers: 1418
-      likes: 18
-      views: 38
+      likes: 31
+      views: 69
       comments: !c ixaAkZPLQnj5dV2agACtNjYuY2FyYXQuZ29sZLRJJ2QgbmFwIHNvIGhhcmQgaGVyZQM=
     - service: vk
       id: 1539
       published: 2024-05-20-18-19-27
-      updated: 2024-05-20-19-11-43
+      updated: 2024-05-20-20-14-53
       followers: 916
-      likes: 8
-      views: 41
+      likes: 12
+      views: 61
     - service: tg
       id: 414
       published: 2024-05-20-18-19-34
-      updated: 2024-05-20-19-11-43
+      updated: 2024-05-20-20-14-54
       followers: 372
-      likes: 23
-      views: 51
+      likes: 28
+      views: 74
