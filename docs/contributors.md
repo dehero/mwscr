@@ -36,7 +36,7 @@ natty
 Roles: `author`  
 Authored: 9 published, 1 pending, 13 rejected  
 Types: `shot`  
-Likes: 2436  
+Likes: 2437  
 
 ```
 darkness-rifho
