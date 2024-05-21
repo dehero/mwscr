@@ -24,15 +24,16 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C7MzkoNNPlO/)       | 2024-05-20 |   141 |    47 |      1418 |   3.31 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1539) | 2024-05-20 |    85 |    16 |       916 |   1.75 |
-| [`tg`](https://t.me/mwscr/414)                     | 2024-05-20 |    90 |    38 |       372 |  10.22 |
-|                                                    |            |   316 |   101 |      2706 |   5.09 |
+| [`ig`](https://instagram.com/p/C7MzkoNNPlO/)       | 2024-05-20 |   168 |    60 |      1418 |   4.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1539) | 2024-05-20 |    94 |    18 |       916 |   1.97 |
+| [`tg`](https://t.me/mwscr/414)                     | 2024-05-20 |    93 |    39 |       372 |  10.48 |
+|                                                    |            |   355 |   117 |      2706 |   5.56 |
 
 #### Comments
 
 - `ig` <ins title="2024-05-20-18-48-57">66.carat.gold</ins> I&#39;d nap so hard here
 - `ig` <ins title="2024-05-20-22-46-17">austerion_</ins> All I need in life
+- `ig` <ins title="2024-05-20-23-22-16">eastcoast_lg</ins> Can you post some peoples caches and hideouts?
 
 ## <span id="2024-05-19.druscashti">Druscashti</span>
 
@@ -60,10 +61,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C7KOqOwrxAi/)       | 2024-05-19 |   228 |    61 |      1418 |    4.3 |
+| [`ig`](https://instagram.com/p/C7KOqOwrxAi/)       | 2024-05-19 |   228 |    62 |      1418 |   4.37 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1538) | 2024-05-19 |   142 |    29 |       916 |   3.17 |
-| [`tg`](https://t.me/mwscr/413)                     | 2024-05-19 |   135 |    47 |       372 |  12.63 |
-|                                                    |            |   505 |   137 |      2706 |    6.7 |
+| [`tg`](https://t.me/mwscr/413)                     | 2024-05-19 |   138 |    48 |       372 |   12.9 |
+|                                                    |            |   508 |   139 |      2706 |   6.81 |
 
 #### Comments
 
