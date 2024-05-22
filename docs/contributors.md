@@ -9,10 +9,10 @@
 [VK](https://vk.com/dehero), [Telegram](https://t.me/deherole), [GitHub](https://github.com/dehero)
 
 Roles: `admin` `author` `requester`  
-Authored: 953 published, 25 pending, 60 rejected  
+Authored: 954 published, 25 pending, 60 rejected  
 Requested: 6 pending  
 Types: `shot` `shot-set` `video` `clip` `drawing`  
-Likes: 126152  
+Likes: 126202  
 
 ```
 dehero
@@ -23,7 +23,7 @@ dehero
 Roles: `author`  
 Authored: 30 published, 30 pending, 7 rejected  
 Types: `shot`  
-Likes: 5810  
+Likes: 5818  
 
 ```
 natty
@@ -36,7 +36,7 @@ natty
 Roles: `author`  
 Authored: 9 published, 1 pending, 13 rejected  
 Types: `shot`  
-Likes: 2453  
+Likes: 2454  
 
 ```
 darkness-rifho
