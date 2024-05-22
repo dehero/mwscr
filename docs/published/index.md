@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bh17npDFlIH/)       | 2018-04-21 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_695)  | 2018-04-21 |   287 |    19 |       154 |  12.34 |
-| [`ig`](https://instagram.com/p/C7PYTPsx11H/)       | 2024-05-21 |   122 |    40 |      1418 |   2.82 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1540) | 2024-05-21 |    75 |    14 |       916 |   1.53 |
+| [`ig`](https://instagram.com/p/C7PYTPsx11H/)       | 2024-05-21 |   145 |    47 |      1418 |   3.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1540) | 2024-05-21 |    81 |    14 |       916 |   1.53 |
 | [`tg`](https://t.me/mwscr/415)                     | 2024-05-21 |    97 |    34 |       373 |   9.12 |
-|                                                    |            |   581 |   196 |      2707 |   6.45 |
+|                                                    |            |   610 |   203 |      2707 |   6.57 |
 
 #### Comments
 
@@ -56,10 +56,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C7MzkoNNPlO/)       | 2024-05-20 |   303 |    90 |      1418 |   6.35 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1539) | 2024-05-20 |   160 |    29 |       916 |   3.17 |
+| [`ig`](https://instagram.com/p/C7MzkoNNPlO/)       | 2024-05-20 |   307 |    90 |      1418 |   6.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1539) | 2024-05-20 |   162 |    29 |       916 |   3.17 |
 | [`tg`](https://t.me/mwscr/414)                     | 2024-05-20 |   139 |    50 |       372 |  13.44 |
-|                                                    |            |   602 |   169 |      2706 |   7.65 |
+|                                                    |            |   608 |   169 |      2706 |   7.65 |
 
 #### Comments
 
@@ -688,10 +688,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Ben7-nSDinT/)       | 2018-01-31 |       |    80 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_596)  | 2018-01-31 |   178 |    16 |       125 |   12.8 |
-| [`ig`](https://instagram.com/p/C6ZiSJrKF26/)       | 2024-04-30 |   297 |    74 |      1415 |   5.23 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1514) | 2024-04-30 |   205 |    28 |       911 |   3.07 |
-| [`tg`](https://t.me/mwscr/394)                     | 2024-04-30 |   346 |    61 |       363 |   16.8 |
-|                                                    |            |  1026 |   259 |      2689 |   9.48 |
+| [`ig`](https://instagram.com/p/C6ZiSJrKF26/)       | 2024-04-30 |   301 |    74 |      1415 |   5.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1514) | 2024-04-30 |   212 |    29 |       911 |   3.18 |
+| [`tg`](https://t.me/mwscr/394)                     | 2024-04-30 |   378 |    62 |       363 |  17.08 |
+|                                                    |            |  1069 |   261 |      2689 |   9.57 |
 
 ## <span id="2024-04-29.all-paths-lead-left">All Paths Lead Left</span>
 
@@ -1350,10 +1350,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5jOmkLursk/)       | 2024-04-09 |   406 |   104 |      1410 |   7.38 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1488) | 2024-04-09 |   238 |    38 |       911 |   4.17 |
-| [`tg`](https://t.me/mwscr/373)                     | 2024-04-09 |   385 |    65 |       353 |  18.41 |
-|                                                    |            |  1029 |   207 |      2674 |   9.99 |
+| [`ig`](https://instagram.com/p/C5jOmkLursk/)       | 2024-04-09 |   409 |   104 |      1410 |   7.38 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1488) | 2024-04-09 |   241 |    38 |       911 |   4.17 |
+| [`tg`](https://t.me/mwscr/373)                     | 2024-04-09 |   391 |    65 |       353 |  18.41 |
+|                                                    |            |  1041 |   207 |      2674 |   9.99 |
 
 #### Comments
 
@@ -1566,10 +1566,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C5RMenFr1dt/)       | 2024-04-02 |   370 |    78 |      1403 |   5.56 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1478) | 2024-04-02 |   247 |    25 |       906 |   2.76 |
-| [`tg`](https://t.me/mwscr/365)                     | 2024-04-02 |   413 |    54 |       355 |  15.21 |
-|                                                    |            |  1030 |   157 |      2664 |   7.84 |
+| [`ig`](https://instagram.com/p/C5RMenFr1dt/)       | 2024-04-02 |   372 |    78 |      1403 |   5.56 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1478) | 2024-04-02 |   249 |    25 |       906 |   2.76 |
+| [`tg`](https://t.me/mwscr/365)                     | 2024-04-02 |   418 |    54 |       355 |  15.21 |
+|                                                    |            |  1039 |   157 |      2664 |   7.84 |
 
 ## <span id="2024-04-01.at-the-edge-of-sheogorad">At the Edge of Sheogorad</span>
 
@@ -1794,17 +1794,13 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaZ0xeKjyf4/)       | 2017-10-18 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_464)  | 2017-10-18 |   147 |    16 |        91 |     16 |
-| [`ig`](https://instagram.com/p/C4_K2XMuLSk/)       | 2024-03-26 |   493 |   121 |      1401 |   8.64 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1470) | 2024-03-26 |   285 |    44 |       904 |   4.87 |
-| [`tg`](https://t.me/mwscr/358)                     | 2024-03-26 |   412 |    65 |       352 |  18.47 |
-|                                                    |            |  1337 |   318 |      2657 |  11.99 |
+| [`ig`](https://instagram.com/p/C4_K2XMuLSk/)       | 2024-03-26 |   495 |   121 |      1401 |   8.64 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1470) | 2024-03-26 |   286 |    44 |       904 |   4.87 |
+| [`tg`](https://t.me/mwscr/358)                     | 2024-03-26 |   419 |    66 |       352 |  18.75 |
+|                                                    |            |  1347 |   319 |      2657 |  12.06 |
 
 #### Comments
 
-- `tg` <ins title="2024-03-26-18-26-32">intravenously</ins> &quot;You finally arrived, but our records don&#39;t show from where.&quot;
-- `tg` <ins title="2024-03-26-18-26-42">intravenously</ins> ✋
-- `tg` <ins title="2024-03-26-18-49-32">eIisabeth</ins> Дальше вы не пройдёте, пока не получите бумаги
-  - <ins title="2024-03-26-18-53-03">Gatemate7</ins> WTF A MORROWIND GIRL?!
 - `ig` <ins title="2024-03-26-19-24-24">f0rb1dd3ngxd</ins> The beginning of the beginning
   - <ins title="2024-03-28-10-56-31">delanospies</ins> FOOL! 😂
   - <ins title="2024-03-27-13-10-35">someone_simple42</ins> @delanospies what a grand and intoxicating innocence
@@ -1812,6 +1808,8 @@
   - <ins title="2024-03-26-19-28-10">delanospies</ins> &#39;Ah yes we&#39;ve been expecting you, Dagoth Ur&#39;
 - `tg` <ins title="2024-03-26-22-53-39">bobrovnikov</ins> What if we kissed… in the Andrano Ancestral Tomb 🥵
 - `tg` <ins title="2024-03-27-06-13-31">Alexey Stepanov</ins> I&#39;m crying with a smile on my face
+- `tg` <ins title="2024-05-18-06-51-36">FeroniaFelix</ins> An italian &quot;girl&quot; here too... 👋🏻😊<br>(not really a girl though, I am old! I played Morrowind for the first time when it came out and I wasn&#39;t already a &quot;girl&quot; then... 😂 But I enjoyed it like a child, it was absolutely GREAT and I still love it 🥰 )
+  - <ins title="2024-05-18-06-55-07">Gatemate7</ins> girls play morrowind? 😍
 
 ## <span id="2024-03-25.bridge-at-ghostfence">Bridge at Ghostfence</span>
 
@@ -2038,9 +2036,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C4tJXjnS_nf/)       | 2024-03-19 |   506 |   144 |      1388 |  10.37 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1459) | 2024-03-19 |   265 |    43 |       896 |    4.8 |
-| [`tg`](https://t.me/mwscr/351)                     | 2024-03-19 |   433 |    68 |       352 |  19.32 |
-|                                                    |            |  1204 |   255 |      2636 |   11.5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1459) | 2024-03-19 |   266 |    43 |       896 |    4.8 |
+| [`tg`](https://t.me/mwscr/351)                     | 2024-03-19 |   438 |    68 |       352 |  19.32 |
+|                                                    |            |  1210 |   255 |      2636 |   11.5 |
 
 ## <span id="2024-03-18.evening-on-azuras-coast">Evening on Azura&#39;s Coast</span>
 
@@ -2260,9 +2258,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C4bIiiXRrhw/)       | 2024-03-12 |   625 |   168 |      1379 |  12.18 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1444) | 2024-03-12 |   260 |    33 |       896 |   3.68 |
-| [`tg`](https://t.me/mwscr/343)                     | 2024-03-12 |   471 |    62 |       350 |  17.71 |
-|                                                    |            |  1356 |   263 |      2625 |  11.19 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1444) | 2024-03-12 |   262 |    33 |       896 |   3.68 |
+| [`tg`](https://t.me/mwscr/343)                     | 2024-03-12 |   476 |    62 |       350 |  17.71 |
+|                                                    |            |  1363 |   263 |      2625 |  11.19 |
 
 #### Comments
 
@@ -2480,10 +2478,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbhoFInDfSD/)       | 2017-11-15 |       |    69 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_501)  | 2017-11-15 |   225 |    14 |        98 |     14 |
-| [`ig`](https://instagram.com/p/C4JG71rslqo/)       | 2024-03-05 |   590 |   131 |      1380 |   9.49 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1437) | 2024-03-05 |   274 |    35 |       895 |   3.91 |
-| [`tg`](https://t.me/mwscr/336)                     | 2024-03-05 |   487 |    67 |       343 |  19.53 |
-|                                                    |            |  1576 |   316 |      2618 |  11.73 |
+| [`ig`](https://instagram.com/p/C4JG71rslqo/)       | 2024-03-05 |   591 |   131 |      1380 |   9.49 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1437) | 2024-03-05 |   275 |    35 |       895 |   3.91 |
+| [`tg`](https://t.me/mwscr/336)                     | 2024-03-05 |   491 |    67 |       343 |  19.53 |
+|                                                    |            |  1582 |   316 |      2618 |  11.73 |
 
 #### Comments
 
@@ -2726,9 +2724,9 @@
 | [`ig`](https://instagram.com/p/BO6INdEF_CJ/)       | 2017-01-06 |       |    32 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_54)   | 2017-01-22 |    93 |     3 |         4 |      3 |
 | [`ig`](https://instagram.com/p/C33Su8Dq3KP/)       | 2024-02-27 |   883 |   236 |      1373 |  17.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1418) | 2024-02-27 |   357 |    47 |       894 |   5.26 |
-| [`tg`](https://t.me/mwscr/329)                     | 2024-02-27 |   566 |    90 |       337 |  26.71 |
-|                                                    |            |  1899 |   408 |      2604 |  13.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1418) | 2024-02-27 |   358 |    47 |       894 |   5.26 |
+| [`tg`](https://t.me/mwscr/329)                     | 2024-02-27 |   573 |    90 |       337 |  26.71 |
+|                                                    |            |  1907 |   408 |      2604 |  13.04 |
 
 #### Comments
 
