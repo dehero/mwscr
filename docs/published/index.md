@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`86 items`
+`87 items`
+
+## <span id="2024-05-23.death-and-life">Death and Life</span>
+
+`RU` Смерть и жизнь
+
+<a href="https://instagram.com/p/BixKH3Qnw6p/" title="2018-05-14.death-and-life"><img alt="store:/shots/2018-05-14.death-and-life.png" src="../../assets/previews/shots/2018-05-14.death-and-life.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-23.death-and-life)</code> `🚀 OpenMW` `sunset` `shores`
+
+```
+2024-05-23.death-and-life
+```
+
+> `2018-05-14.death-and-life`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BixKH3Qnw6p/)       | 2018-05-14 |       |    82 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_721)  | 2018-05-14 |   256 |    18 |       159 |  11.32 |
+| [`ig`](https://instagram.com/p/C7Uh5jVPaMt/)       | 2024-05-23 |       |       |      1421 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1543) | 2024-05-23 |       |       |       917 |        |
+| [`tg`](https://t.me/mwscr/417)                     | 2024-05-23 |       |       |       376 |        |
+|                                                    |            |   256 |   100 |      2714 |        |
 
 ## <span id="2024-05-22.the-road-through-lava">The Road Through Lava</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRU4-LiDTW9/)       | 2017-03-07 |       |    38 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_187)  | 2017-03-07 |   136 |     4 |        44 |      4 |
-| [`ig`](https://instagram.com/p/C7R9KGOPhnl/)       | 2024-05-22 |   214 |    56 |      1418 |   3.95 |
+| [`ig`](https://instagram.com/p/C7R9KGOPhnl/)       | 2024-05-22 |   215 |    56 |      1418 |   3.95 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1541) | 2024-05-22 |   124 |    21 |       917 |   2.29 |
-| [`tg`](https://t.me/mwscr/416)                     | 2024-05-22 |   110 |    38 |       375 |  10.13 |
-|                                                    |            |   584 |   157 |      2710 |   5.09 |
+| [`tg`](https://t.me/mwscr/416)                     | 2024-05-22 |   111 |    38 |       375 |  10.13 |
+|                                                    |            |   586 |   157 |      2710 |   5.09 |
 
 #### Comments
 
@@ -59,10 +86,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bh17npDFlIH/)       | 2018-04-21 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_695)  | 2018-04-21 |   287 |    19 |       154 |  12.34 |
-| [`ig`](https://instagram.com/p/C7PYTPsx11H/)       | 2024-05-21 |   305 |    85 |      1418 |   5.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1540) | 2024-05-21 |   154 |    20 |       916 |   2.18 |
-| [`tg`](https://t.me/mwscr/415)                     | 2024-05-21 |   159 |    49 |       373 |  13.14 |
-|                                                    |            |   905 |   262 |      2707 |   8.41 |
+| [`ig`](https://instagram.com/p/C7PYTPsx11H/)       | 2024-05-21 |   307 |    86 |      1418 |   6.06 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1540) | 2024-05-21 |   155 |    20 |       916 |   2.18 |
+| [`tg`](https://t.me/mwscr/415)                     | 2024-05-21 |   160 |    49 |       373 |  13.14 |
+|                                                    |            |   909 |   263 |      2707 |   8.43 |
 
 #### Comments
 
