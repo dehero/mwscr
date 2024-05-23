@@ -1853,27 +1853,27 @@
       id: C7Hp4OxN4vS
       mediaId: '18335139937142384'
       published: 2024-05-18-18-18-25
-      updated: 2024-05-22-18-19-04
+      updated: 2024-05-23-19-13-37
       followers: 1418
-      likes: 60
-      views: 241
+      likes: 62
+      views: 246
       comments: !c |-
         G3QAwByJcYzKiuVHl6dvFg1gLjYFku5tBV0CC6TgBVpJgUmdIHL4Tjlgr4AibYt/1gvfefj8SV0R
         o32m9ab970Y4bSfWaVblgVNdaiCKAnMQO906adgu5PobADYgHsxQYrZEtozQHnYdf92ceoch
     - service: vk
       id: 1537
       published: 2024-05-18-18-18-31
-      updated: 2024-05-22-18-19-03
+      updated: 2024-05-23-19-13-38
       followers: 915
-      likes: 23
-      views: 196
+      likes: 24
+      views: 208
     - service: tg
       id: 412
       published: 2024-05-18-18-18-39
-      updated: 2024-05-22-18-19-03
+      updated: 2024-05-23-19-13-36
       followers: 372
-      likes: 47
-      views: 189
+      likes: 48
+      views: 208
       comments: !c iw2AkZPLQnj40RlbgACrYm9icm92bmlrb3akY296eQM=
 2018-03-08.dead-guar:
   title: Dead Guar
@@ -2596,10 +2596,10 @@
       id: C7CgQu_S-7L
       mediaId: '18043316743764056'
       published: 2024-05-16-18-18-11
-      updated: 2024-05-22-18-19-04
+      updated: 2024-05-23-19-13-38
       followers: 1418
-      likes: 87
-      views: 263
+      likes: 88
+      views: 266
     - service: vk
       id: 1534
       published: 2024-05-16-18-18-18
@@ -3787,15 +3787,27 @@
       id: C7Uh5jVPaMt
       mediaId: '17898968894916051'
       published: 2024-05-23-18-18-51
+      updated: 2024-05-23-19-13-34
       followers: 1421
+      likes: 16
+      views: 48
     - service: vk
       id: 1543
       published: 2024-05-23-18-18-57
+      updated: 2024-05-23-19-13-34
       followers: 917
+      likes: 10
+      views: 34
+      comments: !c |-
+        CyiAkZPLQnj6bH5AgACtY2x1YjEyODU3NDk4N9k20KPRgdGC0YzQtSDQndCw0LHQuNC4LCDQvtCx
+        0L7QttCw0Y4g0Y3RgtC+INC80LXRgdGC0L4hAw==
     - service: tg
       id: 417
       published: 2024-05-23-18-19-02
+      updated: 2024-05-23-19-13-35
       followers: 376
+      likes: 19
+      views: 56
 2018-05-15.night-patrol-of-the-coast:
   title: Night Patrol of the Coast
   titleRu: Ночной патруль побережья
