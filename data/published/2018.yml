@@ -3787,17 +3787,17 @@
       id: C7Uh5jVPaMt
       mediaId: '17898968894916051'
       published: 2024-05-23-18-18-51
-      updated: 2024-05-24-18-19-01
+      updated: 2024-05-24-19-11-51
       followers: 1421
       likes: 64
-      views: 453
+      views: 460
     - service: vk
       id: 1543
       published: 2024-05-23-18-18-57
-      updated: 2024-05-24-18-19-02
+      updated: 2024-05-24-19-11-52
       followers: 917
       likes: 38
-      views: 179
+      views: 180
       reposts: 1
       comments: !c |-
         CyiAkZPLQnj6bH5AgACtY2x1YjEyODU3NDk4N9k20KPRgdGC0YzQtSDQndCw0LHQuNC4LCDQvtCx
@@ -3805,11 +3805,13 @@
     - service: tg
       id: 417
       published: 2024-05-23-18-19-02
-      updated: 2024-05-24-18-19-03
+      updated: 2024-05-24-19-11-53
       followers: 376
-      likes: 48
-      views: 131
-      comments: !c ixSAkZPLQnj6iQJNAACnbWxlbm5pY7Z3aHkgdGhlIGNhcHRpb24gdGhvdWdoAw==
+      likes: 49
+      views: 137
+      comments: !c |-
+        G2oAQCwS7JgUo4JbFLbXSSe3HeXg9+/KYQItsUDKNkr9BMBz1MmRfp5K+w5JbUUYeeQlGtudUy7B
+        wLwlLaTTmQ9+z+FzUiKPXXt1ry6YlTKDt9dsp6hVlso7Yzzs571EH2zjEEa1DC64MAcA
 2018-05-15.night-patrol-of-the-coast:
   title: Night Patrol of the Coast
   titleRu: Ночной патруль побережья

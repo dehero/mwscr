@@ -28,10 +28,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTalkVND0Lj/)       | 2017-04-28 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_273)  | 2017-04-28 |   131 |     8 |        54 |      8 |
-| [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |       |       |      1423 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1545) | 2024-05-24 |       |       |       917 |        |
-| [`tg`](https://t.me/mwscr/418)                     | 2024-05-24 |       |       |       376 |        |
-|                                                    |            |   131 |    65 |      2716 |        |
+| [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |    29 |    22 |      1423 |   1.55 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1545) | 2024-05-24 |    37 |     8 |       917 |   0.87 |
+| [`tg`](https://t.me/mwscr/418)                     | 2024-05-24 |    49 |    17 |       376 |   4.52 |
+|                                                    |            |   246 |   112 |      2716 |   3.73 |
+
+#### Comments
+
+- `tg` <ins title="2024-05-24-18-21-22">Kratos_ragnarek</ins> Солхстейм?
+  - <ins title="2024-05-24-18-40-58">mwscr</ins> Да
 
 ## <span id="2024-05-23.death-and-life">Death and Life</span>
 
@@ -55,15 +60,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BixKH3Qnw6p/)       | 2018-05-14 |       |    82 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_721)  | 2018-05-14 |   256 |    18 |       159 |  11.32 |
-| [`ig`](https://instagram.com/p/C7Uh5jVPaMt/)       | 2024-05-23 |   453 |    64 |      1421 |    4.5 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1543) | 2024-05-23 |   179 |    38 |       917 |   4.14 |
-| [`tg`](https://t.me/mwscr/417)                     | 2024-05-23 |   131 |    48 |       376 |  12.77 |
-|                                                    |            |  1019 |   250 |      2714 |   8.18 |
+| [`ig`](https://instagram.com/p/C7Uh5jVPaMt/)       | 2024-05-23 |   460 |    64 |      1421 |    4.5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1543) | 2024-05-23 |   180 |    38 |       917 |   4.14 |
+| [`tg`](https://t.me/mwscr/417)                     | 2024-05-23 |   137 |    49 |       376 |  13.03 |
+|                                                    |            |  1033 |   251 |      2714 |   8.25 |
 
 #### Comments
 
 - `vk` <ins title="2024-05-23-18-47-49">club128574987</ins> Устье Набии, обожаю это место!
 - `tg` <ins title="2024-05-24-03-06-10">mlennic</ins> why the caption though
+  - <ins title="2024-05-24-18-41-58">mwscr</ins> Dead trees on one shore, alive trees on another
 
 ## <span id="2024-05-22.the-road-through-lava">The Road Through Lava</span>
 
@@ -1345,10 +1351,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BPcBYf9lwjH/)       | 2017-01-19 |       |    34 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_67)   | 2017-01-19 |   138 |     5 |         4 |      5 |
-| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   406 |   104 |      1413 |   7.36 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |   247 |    35 |       911 |   3.84 |
-| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |   399 |    67 |       352 |  19.03 |
-|                                                    |            |  1190 |   245 |      2676 |   8.81 |
+| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   409 |   104 |      1413 |   7.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |   250 |    35 |       911 |   3.84 |
+| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |   407 |    67 |       352 |  19.03 |
+|                                                    |            |  1204 |   245 |      2676 |   8.81 |
 
 #### Comments
 
