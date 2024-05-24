@@ -2091,24 +2091,24 @@
       id: C7R9KGOPhnl
       mediaId: '18065916250531051'
       published: 2024-05-22-18-19-18
-      updated: 2024-05-24-17-14-18
+      updated: 2024-05-24-18-19-02
       followers: 1418
-      likes: 65
-      views: 247
+      likes: 67
+      views: 249
     - service: vk
       id: 1541
       published: 2024-05-22-18-19-25
-      updated: 2024-05-24-17-14-18
+      updated: 2024-05-24-18-19-03
       followers: 917
       likes: 22
-      views: 150
+      views: 152
       comments: !c |-
         ixyAkZPLQnj6MWl/AACudW50ZXJncnVuZGJhaG6/0J7QvdC4INC/0L7QutCw0LbRg9GCINC/0YPR
         gtGMKQM=
     - service: tg
       id: 416
       published: 2024-05-22-18-19-31
-      updated: 2024-05-24-17-14-18
+      updated: 2024-05-24-18-19-04
       followers: 375
       likes: 45
       views: 154
@@ -3664,6 +3664,19 @@
       followers: 54
       likes: 8
       views: 131
+    - service: ig
+      id: C7XGvzNRHLG
+      mediaId: '18070047514519484'
+      published: 2024-05-24-18-19-17
+      followers: 1423
+    - service: vk
+      id: 1545
+      published: 2024-05-24-18-19-24
+      followers: 917
+    - service: tg
+      id: 418
+      published: 2024-05-24-18-19-31
+      followers: 376
 2017-04-29.exploring-bethamez:
   title: Exploring Bethamez
   titleRu: Исследуя Бетамец
