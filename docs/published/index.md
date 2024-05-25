@@ -4,7 +4,38 @@
 
 # Published in 2024
 
-`88 items`
+`89 items`
+
+## <span id="2024-05-25.table-for-two">Table for Two</span>
+
+`RU` Столик на двоих
+
+<a href="https://instagram.com/p/BiXQhHwlwzn/" title="2018-05-04.table-for-two"><img alt="store:/shots/2018-05-04.table-for-two.png" src="../../assets/previews/shots/2018-05-04.table-for-two.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-25.table-for-two)</code> `🚀 OpenMW` `tablefortwo` `bar`
+
+```
+2024-05-25.table-for-two
+```
+
+> `2018-05-04.table-for-two`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BiXQhHwlwzn/)       | 2018-05-04 |       |   102 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_708)  | 2018-05-04 |   294 |    23 |       157 |  14.65 |
+| [`ig`](https://instagram.com/p/C7ZrYhctLaK/)       | 2024-05-25 |       |       |      1423 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1546) | 2024-05-25 |       |       |       918 |        |
+| [`tg`](https://t.me/mwscr/419)                     | 2024-05-25 |       |       |       377 |        |
+|                                                    |            |   294 |   125 |      2718 |        |
+
+#### Comments
+
+- `ig` <ins title="2018-05-05-06-09-58">mshahrim94</ins> Classy
 
 ## <span id="2024-05-24.gloomy-barrow">Gloomy Barrow</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTalkVND0Lj/)       | 2017-04-28 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_273)  | 2017-04-28 |   131 |     8 |        54 |      8 |
-| [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |   243 |    65 |      1423 |   4.57 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1545) | 2024-05-24 |   134 |    26 |       917 |   2.84 |
-| [`tg`](https://t.me/mwscr/418)                     | 2024-05-24 |   110 |    39 |       376 |  10.37 |
-|                                                    |            |   618 |   195 |      2716 |   6.44 |
+| [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |   247 |    65 |      1423 |   4.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1545) | 2024-05-24 |   137 |    27 |       917 |   2.94 |
+| [`tg`](https://t.me/mwscr/418)                     | 2024-05-24 |   112 |    39 |       376 |  10.37 |
+|                                                    |            |   627 |   196 |      2716 |   6.47 |
 
 #### Comments
 
@@ -60,10 +91,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BixKH3Qnw6p/)       | 2018-05-14 |       |    82 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_721)  | 2018-05-14 |   256 |    18 |       159 |  11.32 |
-| [`ig`](https://instagram.com/p/C7Uh5jVPaMt/)       | 2024-05-23 |   495 |    71 |      1421 |      5 |
+| [`ig`](https://instagram.com/p/C7Uh5jVPaMt/)       | 2024-05-23 |   496 |    71 |      1421 |      5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1543) | 2024-05-23 |   204 |    39 |       917 |   4.25 |
-| [`tg`](https://t.me/mwscr/417)                     | 2024-05-23 |   151 |    52 |       376 |  13.83 |
-|                                                    |            |  1106 |   262 |      2714 |    8.6 |
+| [`tg`](https://t.me/mwscr/417)                     | 2024-05-23 |   152 |    52 |       376 |  13.83 |
+|                                                    |            |  1108 |   262 |      2714 |    8.6 |
 
 #### Comments
 
