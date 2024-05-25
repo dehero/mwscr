@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTalkVND0Lj/)       | 2017-04-28 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_273)  | 2017-04-28 |   131 |     8 |        54 |      8 |
-| [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |   210 |    63 |      1423 |   4.43 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1545) | 2024-05-24 |   118 |    25 |       917 |   2.73 |
-| [`tg`](https://t.me/mwscr/418)                     | 2024-05-24 |   100 |    38 |       376 |  10.11 |
-|                                                    |            |   559 |   191 |      2716 |   6.31 |
+| [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |   218 |    63 |      1423 |   4.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1545) | 2024-05-24 |   119 |    25 |       917 |   2.73 |
+| [`tg`](https://t.me/mwscr/418)                     | 2024-05-24 |   103 |    38 |       376 |  10.11 |
+|                                                    |            |   571 |   191 |      2716 |   6.31 |
 
 #### Comments
 
@@ -60,16 +60,17 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BixKH3Qnw6p/)       | 2018-05-14 |       |    82 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_721)  | 2018-05-14 |   256 |    18 |       159 |  11.32 |
-| [`ig`](https://instagram.com/p/C7Uh5jVPaMt/)       | 2024-05-23 |   483 |    69 |      1421 |   4.86 |
+| [`ig`](https://instagram.com/p/C7Uh5jVPaMt/)       | 2024-05-23 |   486 |    70 |      1421 |   4.93 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1543) | 2024-05-23 |   196 |    38 |       917 |   4.14 |
 | [`tg`](https://t.me/mwscr/417)                     | 2024-05-23 |   148 |    51 |       376 |  13.56 |
-|                                                    |            |  1083 |   258 |      2714 |   8.47 |
+|                                                    |            |  1086 |   259 |      2714 |   8.49 |
 
 #### Comments
 
 - `vk` <ins title="2024-05-23-18-47-49">club128574987</ins> Устье Набии, обожаю это место!
 - `tg` <ins title="2024-05-24-03-06-10">mlennic</ins> why the caption though
   - <ins title="2024-05-24-18-41-58">mwscr</ins> Dead trees on one shore, alive trees on another
+- `ig` <ins title="2024-05-25-10-53-40">alariacostaynedragonborn</ins> Ah the simple beauty of Morrowind ✨️ lovely shot!
 
 ## <span id="2024-05-22.the-road-through-lava">The Road Through Lava</span>
 
@@ -894,10 +895,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C6PASWNP8me/)       | 2024-04-26 |   450 |   101 |      1417 |   7.13 |
+| [`ig`](https://instagram.com/p/C6PASWNP8me/)       | 2024-04-26 |   453 |   101 |      1417 |   7.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1510) | 2024-04-26 |   240 |    27 |       910 |   2.97 |
 | [`tg`](https://t.me/mwscr/390)                     | 2024-04-26 |   387 |    59 |       354 |  16.67 |
-|                                                    |            |  1077 |   187 |      2681 |   8.92 |
+|                                                    |            |  1080 |   187 |      2681 |   8.92 |
 
 ## <span id="2024-04-25.abandoned-island">Abandoned Island</span>
 
