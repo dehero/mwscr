@@ -1688,10 +1688,10 @@
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
-      updated: 2024-05-19-21-13-34
+      updated: 2024-05-26-22-12-56
       followers: 909
       likes: 45
-      views: 282
+      views: 288
       reposts: 1
       comments: !c |-
         G4QA6I3EOIZyG6Y3MUKlQ1S3CI/1DLKkSZsJvO+Tm3mQZBc0oB88Z7wSGcko6pWUbWc9OOTA5fs8
@@ -1700,10 +1700,10 @@
     - service: tg
       id: 385
       published: 2024-04-21-18-17-47
-      updated: 2024-05-19-21-13-34
+      updated: 2024-05-26-22-12-55
       followers: 354
       likes: 62
-      views: 378
+      views: 392
       comments: !c |-
         GxUB4B2J6TY4WRjE4Mgnp1zkmUcccdHnh9N9+lNDlHuYbByrY3PPM8a2CJSsggX62iyD54f/3Ikm
         GAC/a7vtb9GHtjAN7AA0saC2ObcMzVoKdhBf9Sn9ndec8R1/Kq3Rhveo9epmJvELYVP/9xlRg7HB
@@ -3471,24 +3471,24 @@
       id: C7ZrYhctLaK
       mediaId: '17993574506467121'
       published: 2024-05-25-18-17-55
-      updated: 2024-05-26-21-13-30
+      updated: 2024-05-26-22-12-53
       followers: 1423
-      likes: 64
-      views: 262
+      likes: 65
+      views: 264
     - service: vk
       id: 1546
       published: 2024-05-25-18-18-01
-      updated: 2024-05-26-21-13-31
+      updated: 2024-05-26-22-12-53
       followers: 918
       likes: 31
-      views: 182
+      views: 187
     - service: tg
       id: 419
       published: 2024-05-25-18-18-08
-      updated: 2024-05-26-21-13-31
+      updated: 2024-05-26-22-12-53
       followers: 377
-      likes: 40
-      views: 128
+      likes: 41
+      views: 135
 2018-05-05.uncle-sweetshares-workshop:
   title: Uncle Sweetshare's Workshop
   titleRu: Мастерская Дядюшки Сладкая Доля
