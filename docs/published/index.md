@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`89 items`
+`90 items`
+
+## <span id="2024-05-26.shore-shroom">Shore Shroom</span>
+
+`RU` Прибрежный гриб
+
+<a href="https://instagram.com/p/BbKswDeDVyl/" title="2017-11-06.shore-shroom"><img alt="store:/shots/2017-11-06.shore-shroom.png" src="../../assets/previews/shots/2017-11-06.shore-shroom.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-26.shore-shroom)</code> `🚀 OpenMW` `mushrooms` `shore`
+
+```
+2024-05-26.shore-shroom
+```
+
+> `2017-11-06.shore-shroom`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BbKswDeDVyl/)       | 2017-11-06 |       |    75 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_490)  | 2017-11-06 |   182 |    11 |        94 |     11 |
+| [`ig`](https://instagram.com/p/C7cQJmHN_aW/)       | 2024-05-26 |       |       |      1424 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1547) | 2024-05-26 |       |       |       918 |        |
+| [`tg`](https://t.me/mwscr/420)                     | 2024-05-26 |       |       |       377 |        |
+|                                                    |            |   182 |    86 |      2719 |        |
 
 ## <span id="2024-05-25.table-for-two">Table for Two</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BiXQhHwlwzn/)       | 2018-05-04 |       |   102 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_708)  | 2018-05-04 |   294 |    23 |       157 |  14.65 |
-| [`ig`](https://instagram.com/p/C7ZrYhctLaK/)       | 2024-05-25 |   246 |    63 |      1423 |   4.43 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1546) | 2024-05-25 |   177 |    31 |       918 |   3.38 |
-| [`tg`](https://t.me/mwscr/419)                     | 2024-05-25 |   107 |    36 |       377 |   9.55 |
-|                                                    |            |   824 |   255 |      2718 |      8 |
+| [`ig`](https://instagram.com/p/C7ZrYhctLaK/)       | 2024-05-25 |   250 |    63 |      1423 |   4.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1546) | 2024-05-25 |   180 |    31 |       918 |   3.38 |
+| [`tg`](https://t.me/mwscr/419)                     | 2024-05-25 |   108 |    37 |       377 |   9.81 |
+|                                                    |            |   832 |   256 |      2718 |   8.07 |
 
 #### Comments
 
@@ -59,10 +86,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTalkVND0Lj/)       | 2017-04-28 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_273)  | 2017-04-28 |   131 |     8 |        54 |      8 |
-| [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |   276 |    74 |      1423 |    5.2 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1545) | 2024-05-24 |   175 |    32 |       917 |   3.49 |
+| [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |   279 |    74 |      1423 |    5.2 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1545) | 2024-05-24 |   177 |    32 |       917 |   3.49 |
 | [`tg`](https://t.me/mwscr/418)                     | 2024-05-24 |   169 |    42 |       376 |  11.17 |
-|                                                    |            |   751 |   213 |      2716 |   6.97 |
+|                                                    |            |   756 |   213 |      2716 |   6.97 |
 
 #### Comments
 
