@@ -30,6 +30,12 @@ export function capitalizeFirstLetter(value: string) {
   return value.charAt(0).toLocaleUpperCase() + value.slice(1);
 }
 
+export function cleanupUndefinedProps<T extends Record<string, unknown>>(value: T): T {
+  Object.keys(value).forEach((key) => value[key] === undefined && delete value[key]);
+
+  return value;
+}
+
 export function debounce(callback: (...args: unknown[]) => void, wait: number) {
   let timeoutId: NodeJS.Timeout | undefined;
 
@@ -114,4 +120,16 @@ export function partition<T>(array: T[], callback: (element: T, index: number, a
 
 export function compareRandomly(): number {
   return Math.random() - 0.5;
+}
+
+export function stringToBool(value?: string): boolean | undefined {
+  try {
+    return Boolean(JSON.parse(value || ''));
+  } catch {
+    return undefined;
+  }
+}
+
+export function boolToString(value?: boolean): string | undefined {
+  return JSON.stringify(value);
 }

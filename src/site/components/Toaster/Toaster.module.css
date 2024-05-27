@@ -1,0 +1,20 @@
+.container {
+  position: fixed;
+  z-index: 9999;
+  inset: 16px;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-flow: column nowrap;
+  gap: 4px;
+}
+
+.item {
+  display: flex;
+  max-width: 300px;
+  width: 100%;
+  padding: 8px;
+  background: var(--color-background);
+  justify-content: center;
+}

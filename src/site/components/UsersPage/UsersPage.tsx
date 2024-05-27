@@ -1,26 +1,19 @@
-import { useCurrentMatches, useSearchParams } from '@solidjs/router';
-import { type Component, createResource, createSignal, For, Show } from 'solid-js';
-import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
-import type { UserRole } from '../../../core/entities/user.js';
-import {
-  compareUserInfosByContribution,
-  compareUserInfosById,
-  createUserInfo,
-  USER_ROLES,
-} from '../../../core/entities/user.js';
+import { type Component, createSignal, For } from 'solid-js';
+import { useData } from 'vike-solid/useData';
+import type { UserInfo, UserRole } from '../../../core/entities/user.js';
+import { compareUserInfosByContribution, compareUserInfosById, USER_ROLES } from '../../../core/entities/user.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
-import { Button } from '../../components/Button/Button.js';
-import { Divider } from '../../components/Divider/Divider.js';
-import { Input } from '../../components/Input/Input.js';
-import { Label } from '../../components/Label/Label.js';
-import { Page } from '../../components/Page/Page.js';
-import { RadioGroup } from '../../components/RadioGroup/RadioGroup.js';
-import { Select } from '../../components/Select/Select.js';
-import { UserPreview } from '../../components/UserPreview/UserPreview.js';
-import { inbox, published, trash } from '../../data-managers/posts.js';
-import { users } from '../../data-managers/users.js';
+import { useSearchParams } from '../../hooks/useSearchParams.js';
 import { userRoute } from '../../routes/user-route.js';
 import { ALL_OPTION } from '../../utils/ui-constants.js';
+import { Button } from '../Button/Button.js';
+import { Divider } from '../Divider/Divider.js';
+import { Input } from '../Input/Input.js';
+import { Label } from '../Label/Label.js';
+import { RadioGroup } from '../RadioGroup/RadioGroup.js';
+import { Select } from '../Select/Select.js';
+import { Toast } from '../Toaster/Toaster.js';
+import { UserPreview } from '../UserPreview/UserPreview.js';
 import styles from './UsersPage.module.css';
 
 const comparators = [
@@ -43,14 +36,11 @@ interface GetUserInfosParams {
   sortDirection: SortDirection;
 }
 
-async function getUserInfos(params: GetUserInfosParams) {
+function getUserInfos(params: GetUserInfosParams) {
   const comparator = comparators.find((comparator) => comparator.value === params.sortKey)?.fn ?? compareUserInfosById;
+  const data = useData<UserInfo[]>();
 
-  return (
-    await Promise.all(
-      (await users.getAllEntries()).map((userEntry) => createUserInfo(userEntry, published, inbox, trash)),
-    )
-  )
+  return data
     .filter(
       (info) =>
         (typeof params.role === 'undefined' || info.roles.includes(params.role)) &&
@@ -61,9 +51,7 @@ async function getUserInfos(params: GetUserInfosParams) {
 }
 
 export const UsersPage: Component = () => {
-  const [searchParams, setSearchParams] = useSearchParams<Required<UsersPageSearchParams>>();
-  const routeMatches = useCurrentMatches();
-  const info = () => routeMatches[0]?.route.info as SiteRouteInfo;
+  const [searchParams, setSearchParams] = useSearchParams<UsersPageSearchParams>();
 
   const sortOptions = () => comparators.map(({ value, label }) => ({ value, label }));
 
@@ -75,9 +63,10 @@ export const UsersPage: Component = () => {
 
   const setUserRole = (role: UserRole | undefined) => setSearchParams({ role });
   const setSearchTerm = (search: string | undefined) => setSearchParams({ search });
-  const setSortKey = (key: UsersPageSortKey | undefined) => setSearchParams({ sort: `${key},${sortDirection()}` });
+  const setSortKey = (key: UsersPageSortKey | undefined) =>
+    setSearchParams({ sort: `${key || sortKey()},${sortDirection()}` });
   const setSortDirection = (direction: SortDirection | undefined) =>
-    setSearchParams({ sort: `${sortKey()},${direction}` });
+    setSearchParams({ sort: `${sortKey()},${direction || sortDirection()}` });
 
   const [isSearching, setIsSearching] = createSignal(false);
 
@@ -88,10 +77,10 @@ export const UsersPage: Component = () => {
     sortDirection: sortDirection(),
   });
 
-  const [userInfos] = createResource(getUserInfoParams, getUserInfos);
+  const userInfos = () => getUserInfos(getUserInfoParams());
 
   return (
-    <Page status={userInfos.loading ? 'Loading...' : isSearching() ? 'Searching...' : undefined} title={info().title}>
+    <>
       <div class={styles.header}>
         <RadioGroup
           name="role"
@@ -135,18 +124,18 @@ export const UsersPage: Component = () => {
           >
             Clear
           </Button>
+
+          <Toast message="Searching..." show={isSearching()} />
         </fieldset>
       </div>
 
       <Divider />
 
-      <Show when={!userInfos.loading}>
-        <div class={styles.container}>
-          <For each={userInfos() ?? []}>
-            {(info) => <UserPreview userInfo={info} url={userRoute.createUrl({ id: info.id })} />}
-          </For>
-        </div>
-      </Show>
-    </Page>
+      <div class={styles.container}>
+        <For each={userInfos()}>
+          {(info) => <UserPreview userInfo={info} url={userRoute.createUrl({ id: info.id })} />}
+        </For>
+      </div>
+    </>
   );
 };

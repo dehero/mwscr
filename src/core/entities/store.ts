@@ -1,4 +1,4 @@
-import micromatch from 'micromatch';
+import picomatch from 'picomatch';
 import { stringToDate } from '../utils/date-utils.js';
 import { parseResourceUrl } from './resource.js';
 
@@ -59,7 +59,7 @@ export interface StoreManager extends Store {
 export function storeIncludesPath(...checkedPaths: string[]) {
   return (store: Pick<StoreManager, 'include'>) =>
     !store.include ||
-    (store.include.length > 0 && checkedPaths.every((path) => micromatch.isMatch(path, store.include ?? [])));
+    (store.include.length > 0 && checkedPaths.every((path) => picomatch.isMatch(path, store.include ?? [])));
 }
 
 export function parseStoreResourceUrl(url: string): StoreResourceParsedUrl {

@@ -1,83 +1,78 @@
 import { writeClipboard } from '@solid-primitives/clipboard';
-import { useParams } from '@solidjs/router';
 import clsx from 'clsx';
-import { type Component, createResource, createSignal, For, Match, Show, Switch } from 'solid-js';
+import { type Component, createSignal, For, Match, Show, Switch } from 'solid-js';
+import { useData } from 'vike-solid/useData';
+import { usePageContext } from 'vike-solid/usePageContext';
+import { getPostTypeAspectRatio, type Post } from '../../../core/entities/post.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
+import type { UserEntry } from '../../../core/entities/user.js';
 import { getUserEntryTitle } from '../../../core/entities/user.js';
 import { youtube } from '../../../core/services/youtube.js';
 import { store } from '../../../core/stores/index.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import { Button } from '../../components/Button/Button.js';
-import { Divider } from '../../components/Divider/Divider.js';
-import { Frame } from '../../components/Frame/Frame.js';
-import frameStyles from '../../components/Frame/Frame.module.css';
-import { Input } from '../../components/Input/Input.js';
-import { Page } from '../../components/Page/Page.js';
-import { PostComments } from '../../components/PostComments/PostComments.js';
-import { PostEditingDialog } from '../../components/PostEditingDialog/PostEditingDialog.js';
-import { PostLocationDialog } from '../../components/PostLocationDialog/PostLocationDialog.js';
-import { PostPublications } from '../../components/PostPublications/PostPublications.js';
-import { ResourcePreview } from '../../components/ResourcePreview/ResourcePreview.js';
-import { Table } from '../../components/Table/Table.js';
-import { inbox, published, trash } from '../../data-managers/posts.js';
-import { users } from '../../data-managers/users.js';
 import type { PostRouteParams } from '../../routes/post-route.js';
+import { Button } from '../Button/Button.js';
+import { Divider } from '../Divider/Divider.js';
+import { Frame } from '../Frame/Frame.js';
+import frameStyles from '../Frame/Frame.module.css';
+import { Input } from '../Input/Input.js';
+import { PostComments } from '../PostComments/PostComments.js';
+import { PostEditingDialog } from '../PostEditingDialog/PostEditingDialog.js';
+import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.js';
+import { PostPublications } from '../PostPublications/PostPublications.js';
+import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
+import { Table } from '../Table/Table.js';
+import { Toast, useToaster } from '../Toaster/Toaster.js';
 import styles from './PostPage.module.css';
 
+export interface PostPageData {
+  post: Post | undefined;
+  authorEntries: UserEntry[];
+}
+
 export const PostPage: Component = () => {
-  const params = useParams<PostRouteParams>();
+  const { addToast } = useToaster();
+  const params = usePageContext().routeParams as PostRouteParams;
 
   const [selectedContentIndex, setSelectedContentIndex] = createSignal(0);
 
-  const manager = [published, inbox, trash].find((m) => m.name === params.managerName);
   const id = () => params.id;
-  const [post] = createResource(() => manager?.getItem(id()));
+  const { post, authorEntries } = useData<PostPageData>();
 
-  const title = () => post()?.title || 'Untitled';
-  const titleRu = () => post()?.titleRu || 'Без названия';
-  const content = () => asArray(post()?.content);
+  const title = () => post?.title || 'Untitled';
+  const titleRu = () => post?.titleRu || 'Без названия';
+  const content = () => asArray(post?.content);
   const contentPublicUrls = () => content().map((url) => store.getPublicUrl(parseResourceUrl(url).pathname));
-  const [authors] = createResource(() => asArray(post()?.author), users.getEntries.bind(users));
+  const aspectRatio = () => (post ? getPostTypeAspectRatio(post.type) : '1/1');
 
   const selectedContent = () => content()[selectedContentIndex()];
   const selectedContentPublicUrl = () => contentPublicUrls()[selectedContentIndex()];
 
-  const youtubePost = () => post()?.posts?.find((post) => post.service === 'yt');
+  const youtubePost = () => post?.posts?.find((post) => post.service === 'yt');
 
   const [showEditingDialog, setShowEditingDialog] = createSignal(false);
   const [showLocationDialog, setShowLocationDialog] = createSignal(false);
-  const [contentIsLoading, setContentIsLoading] = createSignal(true);
-  const [showIdCopiedMessage, setShowIdCopiedMessage] = createSignal(false);
+  const [isLoading, setIsLoading] = createSignal(true);
 
   const selectContent = (url: string) => {
     const index = content().findIndex((u) => u === url);
-    setContentIsLoading(true);
     setSelectedContentIndex(index);
   };
 
   const copyIdToClipboard = () => {
     writeClipboard(id());
-    setShowIdCopiedMessage(true);
-    setTimeout(() => setShowIdCopiedMessage(false), 2000);
+    addToast('Post ID copied to clipboard');
   };
 
-  const handleContentLoad = () => setContentIsLoading(false);
+  const handleContentLoad = () => setIsLoading(false);
 
   // TODO: display post trash
 
   return (
-    <Page
-      title={title()}
-      status={
-        showIdCopiedMessage()
-          ? 'Copied post ID to clipboard'
-          : contentIsLoading() || post.loading
-            ? 'Loading...'
-            : undefined
-      }
-    >
+    <>
+      <Toast message="Loading..." show={isLoading()} />
       <Divider class={styles.divider} />
-      <Show when={post()}>
+      <Show when={post}>
         {(post) => (
           <section
             class={clsx(
@@ -102,7 +97,7 @@ export const PostPage: Component = () => {
                         onChange={() => selectContent(url)}
                         class={styles.contentSelectorRadio}
                       />
-                      <ResourcePreview url={url} showTooltip />
+                      <ResourcePreview url={url} aspectRatio={aspectRatio()} showTooltip />
                     </label>
                   )}
                 </For>
@@ -111,7 +106,11 @@ export const PostPage: Component = () => {
 
             <Show when={selectedContent()}>
               {(url) => (
-                <Switch fallback={<ResourcePreview url={url()} onLoad={handleContentLoad} showTooltip />}>
+                <Switch
+                  fallback={
+                    <ResourcePreview url={url()} aspectRatio={aspectRatio()} onLoad={handleContentLoad} showTooltip />
+                  }
+                >
                   <Match when={resourceIsVideo(url()) && youtubePost()}>
                     <iframe
                       width={804}
@@ -123,6 +122,7 @@ export const PostPage: Component = () => {
                       frameborder="0"
                       class={clsx(frameStyles.thin, styles.content, styles.youtubeVideo)}
                       onLoad={handleContentLoad}
+                      style={{ 'aspect-ratio': aspectRatio() }}
                     />
                   </Match>
                   <Match when={resourceIsImage(url()) && selectedContentPublicUrl()}>
@@ -130,6 +130,7 @@ export const PostPage: Component = () => {
                       src={selectedContentPublicUrl()}
                       class={clsx(frameStyles.thin, styles.content, styles.image)}
                       onLoad={handleContentLoad}
+                      style={{ 'aspect-ratio': aspectRatio() }}
                     />
                   </Match>
                 </Switch>
@@ -170,7 +171,7 @@ export const PostPage: Component = () => {
                   { label: 'Type', value: post().type },
                   {
                     label: 'Author',
-                    value: authors()?.map(getUserEntryTitle).join(', '),
+                    value: authorEntries.map(getUserEntryTitle).join(', '),
                   },
                   { label: 'Engine', value: post().engine },
                   { label: 'Addon', value: post().addon },
@@ -224,6 +225,6 @@ export const PostPage: Component = () => {
           </section>
         )}
       </Show>
-    </Page>
+    </>
   );
 };

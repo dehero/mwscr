@@ -154,3 +154,5 @@ export function createPostRequestId(request: PostRequest) {
 
   return createInboxItemId(request.request.user, request.request.date, hash);
 }
+
+export const postsManagers: PostsManager[] = [published, inbox, trash];

@@ -1,11 +1,10 @@
 import type { SiteRoute } from '../../core/entities/site-route.js';
-import { AboutPage } from '../pages/AboutPage/AboutPage.js';
 
-export const homeRoute: SiteRoute = {
+export const homeRoute: SiteRoute<undefined> = {
   path: '/',
-  component: AboutPage,
-  info: {
+  info: () => ({
     label: 'Home',
-  },
+    title: '',
+  }),
   createUrl: () => '/',
 };

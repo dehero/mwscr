@@ -1,19 +1,29 @@
-import { useLocation } from '@solidjs/router';
-import type { Component } from 'solid-js';
-import type { SiteRoute } from '../../../core/entities/site-route.js';
+import { usePageContext } from 'vike-solid/usePageContext';
+import type { SiteRoute, SiteRouteParams } from '../../../core/entities/site-route.js';
 import type { ButtonProps } from '../Button/Button.js';
 import { Button } from '../Button/Button.js';
 
-export interface RouteButtonProps extends Omit<ButtonProps, 'href' | 'children' | 'active'> {
-  route: SiteRoute;
+export interface RouteButtonPropsWithParams<TParams extends SiteRouteParams> {
+  route: SiteRoute<TParams>;
+  params: TParams;
 }
 
-export const RouteButton: Component<RouteButtonProps> = (props) => {
-  const location = useLocation();
+export interface RouteButtonPropsWithoutParams {
+  route: SiteRoute<undefined>;
+}
+
+export type RouteButtonProps<TParams extends SiteRouteParams> = Omit<ButtonProps, 'href' | 'children' | 'active'> &
+  (RouteButtonPropsWithParams<TParams> | RouteButtonPropsWithoutParams);
+
+export function RouteButton<TParams extends SiteRouteParams>(props: RouteButtonProps<TParams>) {
+  const location = usePageContext().urlParsed;
+  const params = () => ('params' in props ? props.params : undefined);
+  const info = () => props.route.info(params() as never);
+  const url = () => props.route.createUrl(params() as never);
 
   return (
-    <Button href={props.route.path} active={location.pathname === props.route.path}>
-      {props.route.info.label}
+    <Button href={url()} active={location.pathname === url()}>
+      {info().label || info().title}
     </Button>
   );
-};
+}

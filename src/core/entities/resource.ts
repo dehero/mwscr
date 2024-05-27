@@ -1,6 +1,3 @@
-import { posix } from 'path';
-import { pathToFileURL } from 'url';
-
 export const RESOURCE_PROTOCOLS = ['store:', 'file:', 'http:', 'https:'] as const;
 
 export const RESOURCE_TYPES = ['image', 'video', 'archive'] as const;
@@ -32,8 +29,9 @@ export interface ResourceParsedUrl {
 export type Resource = [data: Buffer, mimeType: string | null, filename: string];
 
 export function parseResourceUrl(url: string): ResourceParsedUrl {
-  const { protocol, host, pathname } = new URL(url, pathToFileURL(process.cwd() + '/'));
-  const { ext, name, base, dir } = posix.parse(pathname);
+  const { protocol, host, pathname } = new URL(url, 'file://');
+  const [, dir = '', base = ''] = /^(\/.+)?\/([^\/]+)$/.exec(pathname) ?? [];
+  const [, name = '', ext = ''] = /^(.*)(\.[^.]+)$/.exec(base) ?? [];
 
   if (!isResourceProtocol(protocol)) {
     throw new Error(`Unknown protocol ${protocol}`);
@@ -45,7 +43,7 @@ export function parseResourceUrl(url: string): ResourceParsedUrl {
     ext,
     base,
     protocol,
-    pathname: posix.join(host, pathname.replace(/^\//, '')),
+    pathname: [host, pathname.replace(/^\//, '')].filter(Boolean).join('/'),
   };
 }
 

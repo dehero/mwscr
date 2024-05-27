@@ -59,16 +59,3 @@
   flex-direction: column;
   overflow: hidden;
 }
-
-.status {
-  display: flex;
-  position: fixed;
-  max-width: 300px;
-  width: 100%;
-  padding: 8px;
-  bottom: 16px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  background: var(--color-background);
-  justify-content: center;
-}
