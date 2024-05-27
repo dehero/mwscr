@@ -1,16 +1,12 @@
-import type { RouteDefinition } from '@solidjs/router';
-
 export interface SiteRouteInfo {
-  label: string;
-  title?: string;
+  title: string;
+  label?: string;
 }
 
 export type SiteRouteParams = Record<string, string>;
 
-export interface SiteRoute<
-  TParams extends SiteRouteParams = SiteRouteParams,
-  TInfo extends SiteRouteInfo = SiteRouteInfo,
-> extends RouteDefinition {
+export interface SiteRoute<TParams extends SiteRouteParams | undefined, TInfo extends SiteRouteInfo = SiteRouteInfo> {
+  path: string;
   createUrl: (params: TParams) => string;
-  info: TInfo;
+  info: (params: TParams) => TInfo;
 }

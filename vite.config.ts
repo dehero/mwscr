@@ -1,9 +1,8 @@
 import remarkGfm from 'remark-gfm';
+import vike from 'vike/plugin';
+import vikeSolid from 'vike-solid/vite';
 import { defineConfig } from 'vite';
-// @ts-expect-error No proper typing
-import faviconPlugin from 'vite-plugin-favicons-inject';
-import { nodePolyfills } from 'vite-plugin-node-polyfills';
-import solidPlugin from 'vite-plugin-solid';
+// import faviconPlugin from 'vite-plugin-favicons-inject';
 // @ts-expect-error No proper typing
 import solidMarkdownPlugin from 'vite-plugin-solid-markdown';
 import { importYamlPlugin } from './src/local/vite-plugins/import-yaml-plugin.js';
@@ -16,16 +15,6 @@ export default defineConfig({
   root: 'src/site',
   publicDir: '../../assets',
   plugins: [
-    faviconPlugin('./assets/icon.png', {
-      appName: 'Morrowind Screenshots',
-      appShortName: 'mwscr',
-      appDescription:
-        'Original screenshots and videos from The Elder Scrolls III: Morrowind. No third-party mods. No color filters. No interface.',
-      developerName: 'dehero',
-      developerURL: 'https://github.com/dehero',
-      background: '#000',
-      theme_color: '#000',
-    }),
     solidMarkdownPlugin({
       remarkPlugins: [
         remarkGfm,
@@ -45,12 +34,21 @@ export default defineConfig({
         ],
       ],
     }),
-    solidPlugin({
+    importYamlPlugin(),
+    vike({ prerender: true, trailingSlash: true }),
+    vikeSolid({
       extensions: ['.mdx', '.md'],
     }),
-    importYamlPlugin(),
-    // TODO: don't use node's built-in modules for cross-platform code
-    nodePolyfills({ include: ['path', 'url'] }),
+    //   faviconPlugin('./assets/icon.png', {
+    //     appName: 'Morrowind Screenshots',
+    //     appShortName: 'mwscr',
+    //     appDescription:
+    //       'Original screenshots and videos from The Elder Scrolls III: Morrowind. No third-party mods. No color filters. No interface.',
+    //     developerName: 'dehero',
+    //     developerURL: 'https://github.com/dehero',
+    //     background: '#000',
+    //     theme_color: '#000',
+    //   }),
   ],
   server: {
     port: 3000,
@@ -58,5 +56,7 @@ export default defineConfig({
   build: {
     target: 'esnext',
     outDir: '../../dist',
+    cssCodeSplit: false,
+    emptyOutDir: true,
   },
 });

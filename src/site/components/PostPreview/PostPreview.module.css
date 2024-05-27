@@ -7,11 +7,12 @@
   text-decoration: none;
   color: inherit;
   gap: 3px;
-  height: 100%;
+  max-width: 324px;
+  aspect-ratio: 324 / 357;
 }
 
 .image {
-  max-height: calc(100% - 34px);
+  /* max-height: calc(100% - 33px); */
 }
 
 .info {
@@ -22,6 +23,8 @@
   flex-grow: 1;
   flex-shrink: 0;
   position: relative;
+  min-height: 30px;
+  box-sizing: border-box;
 }
 
 .header {

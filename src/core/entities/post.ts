@@ -2,6 +2,7 @@ import type { SortDirection } from '../utils/common-types.js';
 import { arrayFromAsync, asArray } from '../utils/common-utils.js';
 import { dateToString } from '../utils/date-utils.js';
 import { areNestedLocations as areRelatedLocations } from './location.js';
+import type { MediaAspectRatio } from './media.js';
 import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, resourceIsImage, resourceIsVideo } from './resource.js';
 import { checkRules, needObject, needProperty } from './rule.js';
 import type { ServicePost, ServicePostComment } from './service-post.js';
@@ -56,10 +57,6 @@ export interface Post {
   mark?: PostMark;
   violation?: PostViolation;
   posts?: ServicePost<unknown>[];
-  commentCount?: number;
-  likes?: number;
-  views?: number;
-  rating?: number;
 }
 
 export type PostEntry<TPost extends Post> = [id: string, post: TPost, refId?: string];
@@ -96,11 +93,11 @@ export function isPublishedPost(post: Post, service: string) {
 }
 
 export function getPostTotalLikes(post: Post) {
-  return post.likes ?? post.posts?.reduce((acc, post) => acc + (post.likes ?? 0), 0) ?? 0;
+  return post.posts?.reduce((acc, post) => acc + (post.likes ?? 0), 0) ?? 0;
 }
 
 export function getPostTotalViews(post: Post) {
-  return post.views ?? post.posts?.reduce((acc, post) => acc + (post.views ?? 0), 0) ?? 0;
+  return post.posts?.reduce((acc, post) => acc + (post.views ?? 0), 0) ?? 0;
 }
 
 export function getPostMaxFollowers(post: Post) {
@@ -115,10 +112,6 @@ export function getPostMaxFollowers(post: Post) {
 }
 
 export function getPostRating(post: Post) {
-  if (typeof post.rating !== 'undefined') {
-    return post.rating;
-  }
-
   const ratings: number[] = post.posts?.map((post) => getServicePostRating(post)).filter((rating) => rating > 0) ?? [];
   // Need at least 2 posting service ratings to calculate average rating
   if (ratings.length < 2) {
@@ -145,12 +138,11 @@ export function getAllPostCommentsSorted(post: Post): PostComment[] {
 
 export function getPostCommentCount(post: Post) {
   return (
-    post.commentCount ??
     post.posts?.reduce(
       (total, servicePost) =>
         total + (servicePost.comments?.reduce((total, comment) => total + 1 + (comment.replies?.length ?? 0), 0) ?? 0),
       0,
-    )
+    ) || 0
   );
 }
 
@@ -201,6 +193,14 @@ export function getPostTypesFromContent(content?: PostContent): PostType[] {
   }
 
   return [];
+}
+
+export function getPostTypeAspectRatio(type: PostType): MediaAspectRatio {
+  if (type === 'video') {
+    return '16/9';
+  }
+
+  return '1/1';
 }
 
 export function getPostContentDistance(content: PostContent, postEntries: PostEntries): PostDistance {

@@ -1,11 +1,9 @@
 import type { SiteRoute } from '../../core/entities/site-route.js';
-import { ContributingPage } from '../pages/ContributingPage/ContributingPage.js';
 
-export const contributingRoute: SiteRoute = {
-  path: '/contributing/',
-  component: ContributingPage,
-  info: {
-    label: 'Contributing',
-  },
+export const contributingRoute: SiteRoute<undefined> = {
+  path: '/contributing',
+  info: () => ({
+    title: 'Contributing',
+  }),
   createUrl: () => '/contributing/',
 };

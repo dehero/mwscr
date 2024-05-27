@@ -1,11 +1,4 @@
-import { asArray } from '../utils/common-utils.js';
-import type { Post, PostEntry } from './post.js';
-import {
-  comparePostEntriesById,
-  comparePostEntriesByLikes,
-  comparePostEntriesByRating,
-  getPostEntriesFromSource,
-} from './post.js';
+import { cleanupUndefinedProps } from '../utils/common-utils.js';
 import type { PostsManager } from './posts-manager.js';
 
 export const USER_ROLES = ['admin', 'author', 'requester', 'drawer', 'beginner'] as const;
@@ -40,11 +33,6 @@ export interface UserInfo {
   requested: UserContribution;
   likes: number;
   roles: UserRole[];
-  lastPostEntry?: PostEntry<Post>;
-  firstPostEntry?: PostEntry<Post>;
-  topRatedPostEntry?: PostEntry<Post>;
-  topLikedPostEntry?: PostEntry<Post>;
-  lessLikedPostEntry?: PostEntry<Post>;
 }
 
 export async function createUserInfo(
@@ -75,43 +63,6 @@ export async function createUserInfo(
 
   const likes = (await published.getLikedAuthorIds()).get(id) || 0;
 
-  const checkAuthor = (post: Post): post is Post => asArray(post.author).includes(id);
-
-  const [lastPostEntry] = await getPostEntriesFromSource(
-    () => published.readAllEntries(),
-    comparePostEntriesById('desc'),
-    checkAuthor,
-    1,
-  );
-
-  const [firstPostEntry] = await getPostEntriesFromSource(
-    () => published.readAllEntries(),
-    comparePostEntriesById('asc'),
-    checkAuthor,
-    1,
-  );
-
-  const [topRatedPostEntry] = await getPostEntriesFromSource(
-    () => published.readAllEntries(),
-    comparePostEntriesByRating('desc'),
-    checkAuthor,
-    1,
-  );
-
-  const [topLikedPostEntry] = await getPostEntriesFromSource(
-    () => published.readAllEntries(),
-    comparePostEntriesByLikes('desc'),
-    checkAuthor,
-    1,
-  );
-
-  const [lessLikedPostEntry] = await getPostEntriesFromSource(
-    () => published.readAllEntries(),
-    comparePostEntriesByLikes('asc'),
-    checkAuthor,
-    1,
-  );
-
   const roles: UserRole[] = [];
 
   if (user?.admin) {
@@ -134,19 +85,14 @@ export async function createUserInfo(
     roles.push('beginner');
   }
 
-  return {
+  return cleanupUndefinedProps({
     id,
     title: getUserEntryTitle(userEntry),
     authored,
     requested,
     likes,
     roles,
-    lastPostEntry,
-    firstPostEntry,
-    topRatedPostEntry,
-    topLikedPostEntry,
-    lessLikedPostEntry,
-  };
+  });
 }
 
 export function getUserEntryTitle(entry: UserEntry) {

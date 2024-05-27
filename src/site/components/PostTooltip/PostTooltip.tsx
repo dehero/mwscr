@@ -1,15 +1,7 @@
-import { type Component, createResource, For, Show, splitProps } from 'solid-js';
-import type { Post, PostEntry } from '../../../core/entities/post.js';
-import {
-  getPostCommentCount,
-  getPostRating,
-  getPostTotalLikes,
-  getPostTotalViews,
-  POST_VIOLATIONS,
-} from '../../../core/entities/post.js';
+import { type Component, For, Show, splitProps } from 'solid-js';
+import { POST_VIOLATIONS } from '../../../core/entities/post.js';
+import type { PostInfo } from '../../../core/entities/post-info.js';
 import { getUserEntryTitle } from '../../../core/entities/user.js';
-import { asArray } from '../../../core/utils/common-utils.js';
-import { users } from '../../data-managers/users.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
@@ -17,31 +9,25 @@ import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './PostTooltip.module.css';
 
 interface PostTooltipProps extends Omit<TooltipProps, 'children'> {
-  postEntry: PostEntry<Post>;
+  postInfo: PostInfo;
 }
 
 export const PostTooltip: Component<PostTooltipProps> = (props) => {
-  const [local, rest] = splitProps(props, ['postEntry']);
-  const likes = () => getPostTotalLikes(local.postEntry[1]);
-  const views = () => getPostTotalViews(local.postEntry[1]);
-  const rating = () => Number(getPostRating(local.postEntry[1]).toFixed(2));
-  const commentCount = () => getPostCommentCount(local.postEntry[1]);
-  const [authors] = createResource(() => asArray(local.postEntry[1].author), users.getEntries.bind(users));
-  const [requesters] = createResource(() => asArray(local.postEntry[1].request?.user), users.getEntries.bind(users));
+  const [local, rest] = splitProps(props, ['postInfo']);
 
   return (
     <Tooltip {...rest}>
-      <span class={styles.title}>{local.postEntry[1].title || local.postEntry[0]}</span>
-      <Show when={local.postEntry[1].titleRu}>
-        <span class={styles.titleRu}>{local.postEntry[1].titleRu}</span>
+      <span class={styles.title}>{local.postInfo.title || local.postInfo.id}</span>
+      <Show when={local.postInfo.titleRu}>
+        <span class={styles.titleRu}>{local.postInfo.titleRu}</span>
       </Show>
-      <Show when={local.postEntry[1].type}>
-        <span class={styles.type}>Type: {local.postEntry[1].type}</span>
+      <Show when={local.postInfo.type}>
+        <span class={styles.type}>Type: {local.postInfo.type}</span>
       </Show>
-      <Show when={authors()?.length}>
+      <Show when={local.postInfo.authorEntries.length}>
         <span class={styles.author}>
           {'Author: '}
-          <For each={authors()}>
+          <For each={local.postInfo.authorEntries}>
             {(entry, index) => (
               <>
                 {index() > 0 ? ', ' : ''}
@@ -54,41 +40,36 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
           </For>
         </span>
       </Show>
-      <Show when={requesters()?.length}>
-        <span class={styles.author}>
-          {'Requester: '}
-          <For each={requesters()}>
-            {(entry, index) => (
-              <>
-                {index() > 0 ? ', ' : ''}
-                <Icon color="magic" size="small" variant="flat" class={styles.icon}>
-                  {getUserEntryTitle(entry)[0]?.toLocaleUpperCase() ?? '?'}
-                </Icon>
-                {getUserEntryTitle(entry)}
-              </>
-            )}
-          </For>
-        </span>
+      <Show when={local.postInfo.requesterEntry}>
+        {(entry) => (
+          <span class={styles.author}>
+            {'Requester: '}
+            <Icon color="magic" size="small" variant="flat" class={styles.icon}>
+              {getUserEntryTitle(entry())[0]?.toLocaleUpperCase() ?? '?'}
+            </Icon>
+            {getUserEntryTitle(entry())}
+          </span>
+        )}
       </Show>
-      <Show when={local.postEntry[1].location}>
-        <span class={styles.location}>Location: {local.postEntry[1].location}</span>
+      <Show when={local.postInfo.location?.title}>
+        <span class={styles.location}>Location: {local.postInfo.location?.title}</span>
       </Show>
-      <Show when={local.postEntry[1].engine}>
-        <span class={styles.engine}>Engine: {local.postEntry[1].engine}</span>
+      <Show when={local.postInfo.engine}>
+        <span class={styles.engine}>Engine: {local.postInfo.engine}</span>
       </Show>
-      <Show when={local.postEntry[1].addon}>
-        <span class={styles.addon}>Addon: {local.postEntry[1].addon}</span>
+      <Show when={local.postInfo.addon}>
+        <span class={styles.addon}>Addon: {local.postInfo.addon}</span>
       </Show>
-      <Show when={local.postEntry[1].mark}>
+      <Show when={local.postInfo.mark}>
         <span class={styles.mark}>
           {"Editor's Mark: "}
           <Icon color="combat" size="small" variant="flat" class={styles.icon}>
-            {props.postEntry[1].mark?.[0]}
+            {props.postInfo.mark?.[0]}
           </Icon>
-          {local.postEntry[1].mark?.[1]}
+          {local.postInfo.mark?.[1]}
         </span>
       </Show>
-      <Show when={local.postEntry[1].violation}>
+      <Show when={local.postInfo.violation}>
         {(violation) => (
           <span class={styles.addon}>
             {'Violation: '}
@@ -99,26 +80,26 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
           </span>
         )}
       </Show>
-      <Show when={local.postEntry[1].tags?.length}>
-        <span class={styles.tags}>Tags: {local.postEntry[1].tags?.join(', ')}</span>
+      <Show when={local.postInfo.tags?.length}>
+        <span class={styles.tags}>Tags: {local.postInfo.tags?.join(', ')}</span>
       </Show>
-      <Show when={local.postEntry[1].posts}>
+      <Show when={local.postInfo.published}>
         <span class={styles.published}>
           <GoldIcon class={styles.icon} />
           Published
         </span>
       </Show>
-      <Show when={likes()}>
-        <span class={styles.likes}>Likes: {likes()}</span>
+      <Show when={local.postInfo.likes}>
+        <span class={styles.likes}>Likes: {local.postInfo.likes}</span>
       </Show>
-      <Show when={views()}>
-        <span class={styles.views}>Views: {views()}</span>
+      <Show when={local.postInfo.views}>
+        <span class={styles.views}>Views: {local.postInfo.views}</span>
       </Show>
-      <Show when={rating()}>
-        <span class={styles.rating}>Rating: {rating()}</span>
+      <Show when={local.postInfo.rating}>
+        <span class={styles.rating}>Rating: {local.postInfo.rating}</span>
       </Show>
-      <Show when={commentCount()}>
-        <span class={styles.commentCount}>Comments: {commentCount()}</span>
+      <Show when={local.postInfo.commentCount}>
+        <span class={styles.commentCount}>Comments: {local.postInfo.commentCount}</span>
       </Show>
     </Tooltip>
   );

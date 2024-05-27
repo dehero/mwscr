@@ -1,45 +1,50 @@
 import { writeClipboard } from '@solid-primitives/clipboard';
-import { useParams } from '@solidjs/router';
 import clsx from 'clsx';
-import { type Component, createResource, createSignal, Show } from 'solid-js';
-import { createUserInfo, isUserContributionEmpty } from '../../../core/entities/user.js';
-import { Button } from '../../components/Button/Button.js';
-import { Divider } from '../../components/Divider/Divider.js';
-import { Frame } from '../../components/Frame/Frame.js';
-import { GoldIcon } from '../../components/GoldIcon/GoldIcon.js';
-import { Icon } from '../../components/Icon/Icon.js';
-import { Input } from '../../components/Input/Input.js';
-import { Label } from '../../components/Label/Label.jsx';
-import { Page } from '../../components/Page/Page.js';
-import { PostPreview } from '../../components/PostPreview/PostPreview.jsx';
-import { Table } from '../../components/Table/Table.js';
-import { inbox, published, trash } from '../../data-managers/posts.js';
-import { users } from '../../data-managers/users.js';
+import { type Component, Show } from 'solid-js';
+import { useData } from 'vike-solid/useData';
+import type { PostInfo } from '../../../core/entities/post-info.js';
+import type { UserInfo } from '../../../core/entities/user.js';
+import { isUserContributionEmpty } from '../../../core/entities/user.js';
+import { useParams } from '../../hooks/useParams.js';
 import type { UserRouteParams } from '../../routes/user-route.js';
+import { Button } from '../Button/Button.js';
+import { Divider } from '../Divider/Divider.js';
+import { Frame } from '../Frame/Frame.js';
+import { GoldIcon } from '../GoldIcon/GoldIcon.js';
+import { Icon } from '../Icon/Icon.js';
+import { Input } from '../Input/Input.js';
+import { Label } from '../Label/Label.js';
+import { PostPreview } from '../PostPreview/PostPreview.js';
+import { Table } from '../Table/Table.js';
+import { useToaster } from '../Toaster/Toaster.jsx';
 import styles from './UserPage.module.css';
 
-async function getUserInfo(id: string) {
-  return createUserInfo(await users.getEntry(id), published, inbox, trash);
+export interface UserPageData {
+  userInfo?: UserInfo;
+  lastPostInfo?: PostInfo;
+  firstPostInfo?: PostInfo;
+  topRatedPostInfo?: PostInfo;
+  topLikedPostInfo?: PostInfo;
+  lessLikedPostInfo?: PostInfo;
 }
 
 export const UserPage: Component = () => {
+  const { addToast } = useToaster();
   const params = useParams<UserRouteParams>();
+  const { userInfo, lastPostInfo, firstPostInfo, topRatedPostInfo, topLikedPostInfo, lessLikedPostInfo } =
+    useData<UserPageData>();
 
   const id = () => params.id;
-  const [userInfo] = createResource(id, getUserInfo);
-
-  const [showIdCopiedMessage, setShowIdCopiedMessage] = createSignal(false);
 
   const copyIdToClipboard = () => {
     writeClipboard(id());
-    setShowIdCopiedMessage(true);
-    setTimeout(() => setShowIdCopiedMessage(false), 2000);
+    addToast('User ID copied to clipboard');
   };
 
   return (
-    <Page title={userInfo()?.title || id()} status={showIdCopiedMessage() ? 'Copied user ID to clipboard' : undefined}>
+    <>
       <Divider class={styles.divider} />
-      <Show when={userInfo()}>
+      <Show when={userInfo}>
         {(userInfo) => (
           <section class={styles.container}>
             <Frame component="section" variant="thin" class={styles.main}>
@@ -111,41 +116,41 @@ export const UserPage: Component = () => {
             </Frame>
 
             <Frame component="section" variant="thin" class={styles.posts}>
-              <Show when={userInfo().lastPostEntry}>
-                {(postEntry) => (
+              <Show when={lastPostInfo}>
+                {(postInfo) => (
                   <Label label="Last Post" vertical class={clsx(styles.post, styles.primary)}>
-                    <PostPreview postEntry={postEntry()} managerName="published" />
+                    <PostPreview postInfo={postInfo()} managerName="published" />
                   </Label>
                 )}
               </Show>
 
-              <Show when={userInfo().topRatedPostEntry}>
-                {(postEntry) => (
+              <Show when={topRatedPostInfo}>
+                {(postInfo) => (
                   <Label label="Top Rated Post" vertical class={clsx(styles.post, styles.primary)}>
-                    <PostPreview postEntry={postEntry()} managerName="published" />
+                    <PostPreview postInfo={postInfo()} managerName="published" />
                   </Label>
                 )}
               </Show>
 
-              <Show when={userInfo().topLikedPostEntry}>
-                {(postEntry) => (
+              <Show when={topLikedPostInfo}>
+                {(postInfo) => (
                   <Label label="Top Liked Post" vertical class={clsx(styles.post)}>
-                    <PostPreview postEntry={postEntry()} managerName="published" />
+                    <PostPreview postInfo={postInfo()} managerName="published" />
                   </Label>
                 )}
               </Show>
-              <Show when={userInfo().firstPostEntry}>
-                {(postEntry) => (
+              <Show when={firstPostInfo}>
+                {(postInfo) => (
                   <Label label="First Post" vertical class={styles.post}>
-                    <PostPreview postEntry={postEntry()} managerName="published" />
+                    <PostPreview postInfo={postInfo()} managerName="published" />
                   </Label>
                 )}
               </Show>
 
-              <Show when={userInfo().lessLikedPostEntry}>
-                {(postEntry) => (
+              <Show when={lessLikedPostInfo}>
+                {(postInfo) => (
                   <Label label="Less Liked Post" vertical class={styles.post}>
-                    <PostPreview postEntry={postEntry()} managerName="published" />
+                    <PostPreview postInfo={postInfo()} managerName="published" />
                   </Label>
                 )}
               </Show>
@@ -153,6 +158,6 @@ export const UserPage: Component = () => {
           </section>
         )}
       </Show>
-    </Page>
+    </>
   );
 };

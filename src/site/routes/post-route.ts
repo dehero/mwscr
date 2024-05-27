@@ -1,5 +1,4 @@
 import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
-import { PostPage } from '../pages/PostPage/PostPage.js';
 
 export interface PostRouteParams extends SiteRouteParams {
   managerName: string;
@@ -7,10 +6,9 @@ export interface PostRouteParams extends SiteRouteParams {
 }
 
 export const postRoute: SiteRoute<PostRouteParams> = {
-  path: '/:managerName/:id/',
-  component: PostPage,
-  info: {
-    label: 'Post',
-  },
+  path: '/@managerName/@id',
+  info: () => ({
+    title: 'Post',
+  }),
   createUrl: ({ managerName, id }) => `/${managerName}/${id}/`,
 };

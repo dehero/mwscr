@@ -1,45 +1,29 @@
-import { VirtualContainer } from '@minht11/solid-virtual-container';
-import { type Component } from 'solid-js';
-import type { PostEntries } from '../../../core/entities/post.js';
+import { type Component, For } from 'solid-js';
+import { clientOnly } from 'vike-solid/ClientOnly';
+import type { PostInfo } from '../../../core/entities/post-info.js';
 import { PostPreview } from '../PostPreview/PostPreview.js';
 import styles from './PostPreviews.module.css';
 
+const VirtualScrollContainer = clientOnly(() => import('./ClientVirtualScrollContainer.js'));
+
 export interface PostPreviewsProps {
-  postEntries: PostEntries;
+  postInfos: PostInfo[];
   managerName: string;
 }
 
-const calculateGridItemSize = (crossAxisSize: number) => {
-  const maxWidth = 336;
-
-  const count = Math.ceil(crossAxisSize / maxWidth);
-  const width = Math.floor(crossAxisSize / count);
-
-  return {
-    width,
-    height: width + 34,
-  };
-};
-
 export const PostPreviews: Component<PostPreviewsProps> = (props) => {
-  let targetVertical;
-
+  const lastPostInfos = () => props.postInfos.slice(0, 18);
   return (
-    <div ref={targetVertical} class={styles.scrollContainer}>
-      <VirtualContainer
-        items={props.postEntries}
-        scrollTarget={targetVertical}
-        // Calculate how many grid columns to show.
-        crossAxisCount={(measurements) => Math.floor(measurements.container.cross / measurements.itemSize.cross)}
-        // overscan={10}
-        itemSize={calculateGridItemSize}
-      >
-        {(itemProps) => (
-          <div style={itemProps.style} class={styles.listItem} tabIndex={itemProps.tabIndex} role="listitem">
-            <PostPreview managerName={props.managerName} postEntry={itemProps.item} />
-          </div>
-        )}
-      </VirtualContainer>
-    </div>
+    <VirtualScrollContainer
+      fallback={
+        <div class={styles.container}>
+          <For each={lastPostInfos()}>
+            {(postInfo) => <PostPreview postInfo={postInfo} managerName={props.managerName} class={styles.item} />}
+          </For>
+        </div>
+      }
+      postInfos={props.postInfos}
+      managerName={props.managerName}
+    />
   );
 };

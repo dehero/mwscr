@@ -1,4 +1,3 @@
-import { posix } from 'path';
 import type { Post } from '../../core/entities/post.js';
 import type { InboxItem, PublishablePost, TrashItem } from '../../core/entities/post-variation.js';
 import { getPostDraftChunkName, getPublishedPostChunkName } from '../../core/entities/post-variation.js';
@@ -37,7 +36,7 @@ class SitePostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
   };
 
   async loadChunkNames() {
-    return Object.keys(this.chunksLoaders).map((name) => posix.parse(name).name);
+    return Object.keys(this.chunksLoaders).map((pathname) => /\/([^/]+)\.yml$/.exec(pathname)?.[1] || '');
   }
 
   protected async loadChunkData(chunkName: string) {
@@ -82,3 +81,5 @@ export const trash = new SitePostsManager<TrashItem | InboxItem>({
   chunksLoaders: import.meta.glob('../../../data/trash/*.yml', { import: 'default' }),
   getItemChunkName: getPostDraftChunkName,
 });
+
+export const postsManagers: PostsManager[] = [published, inbox, trash];
