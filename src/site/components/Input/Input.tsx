@@ -16,7 +16,7 @@ export interface InputProps {
 }
 
 export const Input: Component<InputProps> = (props) => {
-  const [localValue, setLocalValue] = createSignal<string>('');
+  const [localValue, setLocalValue] = createSignal<string>(props.value || '');
 
   const debouncedChange = debounce((value: string) => props.onDebouncedChange?.(value), 800);
 

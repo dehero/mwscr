@@ -43,6 +43,7 @@ export const PostPage: Component = () => {
   const titleRu = () => post?.titleRu || 'Без названия';
   const content = () => asArray(post?.content);
   const contentPublicUrls = () => content().map((url) => store.getPublicUrl(parseResourceUrl(url).pathname));
+  const locationButtonTitle = () => post?.location || 'Locate';
   const aspectRatio = () => (post ? getPostTypeAspectRatio(post.type) : '1/1');
 
   const selectedContent = () => content()[selectedContentIndex()];
@@ -162,9 +163,9 @@ export const PostPage: Component = () => {
                 rows={[
                   {
                     label: 'Location',
-                    value: (
+                    value: () => (
                       <Button class={styles.location} onClick={() => setShowLocationDialog(true)}>
-                        {post().location || 'Locate'}
+                        {locationButtonTitle()}
                       </Button>
                     ),
                   },
@@ -183,7 +184,7 @@ export const PostPage: Component = () => {
               <Show when={post().tags?.length}>
                 <Divider />
 
-                <Table label="Tags" rows={post().tags?.map((label) => ({ label, value: <></> })) ?? []}></Table>
+                <Table label="Tags" rows={post().tags?.map((label) => ({ label, value: () => <></> })) ?? []}></Table>
               </Show>
 
               <div class={styles.id}>
