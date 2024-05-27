@@ -4260,10 +4260,10 @@
     - service: vk
       id: 1456
       published: 2024-03-18-18-11-07
-      updated: 2024-05-20-23-14-57
+      updated: 2024-05-27-23-15-35
       followers: 896
       likes: 32
-      views: 269
+      views: 271
       reposts: 1
       comments: !c |-
         G7oAIJwJ8ebKLrTB5tyPeOK9jSd08ynGkfcKOIFAk39QN7RMq2H7RJ2C9Sbnp2Ts24t/829oTCFp
@@ -4272,10 +4272,10 @@
     - service: tg
       id: 350
       published: 2024-03-18-18-11-16
-      updated: 2024-05-20-23-14-56
+      updated: 2024-05-27-23-15-33
       followers: 353
       likes: 53
-      views: 438
+      views: 442
 2017-05-19.queen-mother-in-her-chambers:
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
@@ -7698,28 +7698,28 @@
       id: C7e1GWkSjKh
       mediaId: '18025264844319132'
       published: 2024-05-27-18-19-00
-      updated: 2024-05-27-22-13-17
+      updated: 2024-05-27-23-15-31
       followers: 1424
-      likes: 41
-      views: 126
+      likes: 44
+      views: 147
       comments: !c |-
         CyCAkpPLQnj7v4JWgACpcGllX2Jhcm1zqEZseXl5eWluk8tCePu5BbGAAKxtb3VudGN5ZG9uaWGr
         QWFhYWFhYXJnaCED
     - service: vk
       id: 1548
       published: 2024-05-27-18-19-06
-      updated: 2024-05-27-22-13-17
+      updated: 2024-05-27-23-15-31
       followers: 918
-      likes: 13
-      views: 89
+      likes: 16
+      views: 95
       comments: !c ixaAkZPLQnj7tpQ0gACmamVybW9yu9Cf0LDQsNGA0LjRgiDQstGL0YHQsNC60L7QvgM=
     - service: tg
       id: 421
       published: 2024-05-27-18-19-15
-      updated: 2024-05-27-22-13-18
+      updated: 2024-05-27-23-15-32
       followers: 377
       likes: 30
-      views: 124
+      views: 131
 2017-09-22.near-gnisis-eggmine:
   title: Near Gnisis Eggmine
   titleRu: У яичной шахты Гнисиса
@@ -8954,25 +8954,25 @@
       id: C7cQJmHN_aW
       mediaId: '18060721837564598'
       published: 2024-05-26-18-17-39
-      updated: 2024-05-27-22-13-18
+      updated: 2024-05-27-23-15-32
       followers: 1424
       likes: 46
       views: 175
     - service: vk
       id: 1547
       published: 2024-05-26-18-17-46
-      updated: 2024-05-27-22-13-18
+      updated: 2024-05-27-23-15-32
       followers: 918
-      likes: 23
-      views: 191
+      likes: 24
+      views: 192
       reposts: 2
     - service: tg
       id: 420
       published: 2024-05-26-18-17-52
-      updated: 2024-05-27-22-13-19
+      updated: 2024-05-27-23-15-32
       followers: 377
       likes: 47
-      views: 140
+      views: 142
 2017-11-07.corridor-keeper:
   title: Corridor Keeper
   titleRu: Хранитель прохода
