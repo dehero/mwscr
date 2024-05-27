@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZUB0A-jEc7/)       | 2017-09-21 |       |    80 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_437)  | 2017-09-21 |   125 |    10 |        81 |     10 |
-| [`ig`](https://instagram.com/p/C7e1GWkSjKh/)       | 2024-05-27 |    29 |    19 |      1424 |   1.33 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1548) | 2024-05-27 |    44 |     7 |       918 |   0.76 |
-| [`tg`](https://t.me/mwscr/421)                     | 2024-05-27 |    61 |    16 |       377 |   4.24 |
-|                                                    |            |   259 |   132 |      2719 |   4.09 |
+| [`ig`](https://instagram.com/p/C7e1GWkSjKh/)       | 2024-05-27 |    71 |    31 |      1424 |   2.18 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1548) | 2024-05-27 |    70 |    10 |       918 |   1.09 |
+| [`tg`](https://t.me/mwscr/421)                     | 2024-05-27 |    86 |    26 |       377 |    6.9 |
+|                                                    |            |   352 |   157 |      2719 |   5.04 |
 
 #### Comments
 
@@ -40,6 +40,7 @@
 - `ig` <ins title="2017-09-21-20-00-29">medolya</ins> When I see this picture, the scream of this fckn cliffracer sounds in my head 😩
 - `ig` <ins title="2017-09-21-20-24-37">vvardenfell</ins> FLLLLLYIN&#39; IN THE SKY, CLIFFRACER FLY, SO HIGH, FLLLLYYY!
 - `vk` <ins title="2024-05-27-18-56-29">jermor</ins> Паарит высакоо
+- `ig` <ins title="2024-05-27-19-39-11">mountcydonia</ins> Aaaaaaargh!
 
 ## <span id="2024-05-26.shore-shroom">Shore Shroom</span>
 
@@ -64,9 +65,9 @@
 | [`ig`](https://instagram.com/p/BbKswDeDVyl/)       | 2017-11-06 |       |    75 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_490)  | 2017-11-06 |   182 |    11 |        94 |     11 |
 | [`ig`](https://instagram.com/p/C7cQJmHN_aW/)       | 2024-05-26 |   175 |    46 |      1424 |   3.23 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1547) | 2024-05-26 |   185 |    23 |       918 |   2.51 |
-| [`tg`](https://t.me/mwscr/420)                     | 2024-05-26 |   133 |    46 |       377 |   12.2 |
-|                                                    |            |   675 |   201 |      2719 |   7.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1547) | 2024-05-26 |   188 |    23 |       918 |   2.51 |
+| [`tg`](https://t.me/mwscr/420)                     | 2024-05-26 |   136 |    46 |       377 |   12.2 |
+|                                                    |            |   681 |   201 |      2719 |   7.23 |
 
 ## <span id="2024-05-25.table-for-two">Table for Two</span>
 
@@ -187,10 +188,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRU4-LiDTW9/)       | 2017-03-07 |       |    38 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_187)  | 2017-03-07 |   136 |     4 |        44 |      4 |
-| [`ig`](https://instagram.com/p/C7R9KGOPhnl/)       | 2024-05-22 |   349 |    77 |      1418 |   5.43 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1541) | 2024-05-22 |   189 |    26 |       917 |   2.84 |
-| [`tg`](https://t.me/mwscr/416)                     | 2024-05-22 |   196 |    49 |       375 |  13.07 |
-|                                                    |            |   870 |   194 |      2710 |   6.33 |
+| [`ig`](https://instagram.com/p/C7R9KGOPhnl/)       | 2024-05-22 |   360 |    78 |      1418 |    5.5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1541) | 2024-05-22 |   197 |    27 |       917 |   2.94 |
+| [`tg`](https://t.me/mwscr/416)                     | 2024-05-22 |   214 |    49 |       375 |  13.07 |
+|                                                    |            |   907 |   196 |      2710 |   6.38 |
 
 #### Comments
 
@@ -219,10 +220,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bh17npDFlIH/)       | 2018-04-21 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_695)  | 2018-04-21 |   287 |    19 |       154 |  12.34 |
-| [`ig`](https://instagram.com/p/C7PYTPsx11H/)       | 2024-05-21 |   340 |    93 |      1418 |   6.56 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1540) | 2024-05-21 |   189 |    24 |       916 |   2.62 |
-| [`tg`](https://t.me/mwscr/415)                     | 2024-05-21 |   227 |    52 |       373 |  13.94 |
-|                                                    |            |  1043 |   277 |      2707 |   8.86 |
+| [`ig`](https://instagram.com/p/C7PYTPsx11H/)       | 2024-05-21 |   345 |    94 |      1418 |   6.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1540) | 2024-05-21 |   201 |    24 |       916 |   2.62 |
+| [`tg`](https://t.me/mwscr/415)                     | 2024-05-21 |   243 |    52 |       373 |  13.94 |
+|                                                    |            |  1076 |   278 |      2707 |   8.88 |
 
 #### Comments
 

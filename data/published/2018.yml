@@ -3087,10 +3087,10 @@
       id: C7PYTPsx11H
       mediaId: '17973618944704049'
       published: 2024-05-21-18-18-46
-      updated: 2024-05-26-20-13-55
+      updated: 2024-05-27-20-14-32
       followers: 1418
-      likes: 93
-      views: 340
+      likes: 94
+      views: 345
       comments: !c |-
         G4oAgDRC5vSDc90E5qMJp3hU2EC+wt7aIzmFHqTKDQ5Y4wADzQJKIZBJr8UkNQFTalSsz3rzSGV/
         5IkCTEKPDx3eDNxEnxEmH+W8w2p8JAeh6joOHxt6gJ+iAqYg++fu4jKvuOO3ExmAMR+HrLsOu03R
@@ -3098,17 +3098,17 @@
     - service: vk
       id: 1540
       published: 2024-05-21-18-18-53
-      updated: 2024-05-26-20-13-54
+      updated: 2024-05-27-20-14-32
       followers: 916
       likes: 24
-      views: 189
+      views: 201
     - service: tg
       id: 415
       published: 2024-05-21-18-18-59
-      updated: 2024-05-26-20-13-53
+      updated: 2024-05-27-20-14-32
       followers: 373
       likes: 52
-      views: 227
+      views: 243
 2018-04-22.evening-dwemer-architecture:
   title: Evening Dwemer Architecture
   titleRu: Вечерняя двемерская архитектура
