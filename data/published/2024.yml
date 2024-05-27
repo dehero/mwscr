@@ -1360,17 +1360,17 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
-      updated: 2024-05-20-20-14-55
+      updated: 2024-05-27-21-14-38
       followers: 912
       likes: 35
-      views: 236
+      views: 242
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2024-05-20-20-14-54
+      updated: 2024-05-27-21-14-37
       followers: 354
       likes: 60
-      views: 371
+      views: 392
       comments: !c |-
         CxyAkZPLQnjzCJAGAACpcmVzaXN0X2l02SJXaGVyZSBkbyB0aGV5IGxlYWQsIGFjdHVhbGx5PyDw
         n6SUAw==
@@ -1826,10 +1826,10 @@
       id: C7MzkoNNPlO
       mediaId: '18018481940063824'
       published: 2024-05-20-18-19-20
-      updated: 2024-05-26-21-13-31
+      updated: 2024-05-27-21-14-38
       followers: 1418
       likes: 106
-      views: 373
+      views: 374
       comments: !c |-
         G5wAYOXnr/mP7Nld42mFQPcSG+hsgBViA5robKCDEz1hzrthnJTEfL3hdW9mhyglcRw/8vK/x1SE
         zoo2c9wq/XKK35QAIf8iaUwg9MOso5F5t7PpROCXzY9aoaM/y/GQt437lKoKLDhdgI4BmtmHfeF5
@@ -1837,17 +1837,17 @@
     - service: vk
       id: 1539
       published: 2024-05-20-18-19-27
-      updated: 2024-05-26-21-13-32
+      updated: 2024-05-27-21-14-37
       followers: 916
       likes: 33
-      views: 224
+      views: 232
     - service: tg
       id: 414
       published: 2024-05-20-18-19-34
-      updated: 2024-05-26-21-13-31
+      updated: 2024-05-27-21-14-37
       followers: 372
       likes: 57
-      views: 233
+      views: 264
 2024-05-21.in-the-cage: 2018-04-21.in-the-cage
 2024-05-22.the-road-through-lava: 2017-03-07.the-road-through-lava
 2024-05-23.death-and-life: 2018-05-14.death-and-life
