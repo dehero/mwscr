@@ -4,7 +4,41 @@
 
 # Published in 2024
 
-`90 items`
+`91 items`
+
+## <span id="2024-05-27.flight">Flight</span>
+
+`RU` Полёт
+
+<a href="https://instagram.com/p/BZUB0A-jEc7/" title="2017-09-21.flight"><img alt="store:/shots/2017-09-21.flight.png" src="../../assets/previews/shots/2017-09-21.flight.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-27.flight)</code> `🚀 OpenMW`
+
+```
+2024-05-27.flight
+```
+
+> `2017-09-21.flight`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BZUB0A-jEc7/)       | 2017-09-21 |       |    80 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_437)  | 2017-09-21 |   125 |    10 |        81 |     10 |
+| [`ig`](https://instagram.com/p/C7e1GWkSjKh/)       | 2024-05-27 |       |       |      1424 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1548) | 2024-05-27 |       |       |       918 |        |
+| [`tg`](https://t.me/mwscr/421)                     | 2024-05-27 |       |       |       377 |        |
+|                                                    |            |   125 |    90 |      2719 |        |
+
+#### Comments
+
+- `ig` <ins title="2017-09-21-18-41-05">sir_waclove</ins> I hear this damn battlemusic in my head right now :/
+- `ig` <ins title="2017-09-21-19-32-04">phil_the_burn_</ins> More like cancer
+- `ig` <ins title="2017-09-21-20-00-29">medolya</ins> When I see this picture, the scream of this fckn cliffracer sounds in my head 😩
+- `ig` <ins title="2017-09-21-20-24-37">vvardenfell</ins> FLLLLLYIN&#39; IN THE SKY, CLIFFRACER FLY, SO HIGH, FLLLLYYY!
 
 ## <span id="2024-05-26.shore-shroom">Shore Shroom</span>
 
@@ -28,10 +62,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbKswDeDVyl/)       | 2017-11-06 |       |    75 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_490)  | 2017-11-06 |   182 |    11 |        94 |     11 |
-| [`ig`](https://instagram.com/p/C7cQJmHN_aW/)       | 2024-05-26 |   171 |    45 |      1424 |   3.16 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1547) | 2024-05-26 |   182 |    23 |       918 |   2.51 |
-| [`tg`](https://t.me/mwscr/420)                     | 2024-05-26 |   120 |    45 |       377 |  11.94 |
-|                                                    |            |   655 |   199 |      2719 |   7.15 |
+| [`ig`](https://instagram.com/p/C7cQJmHN_aW/)       | 2024-05-26 |   174 |    46 |      1424 |   3.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1547) | 2024-05-26 |   183 |    23 |       918 |   2.51 |
+| [`tg`](https://t.me/mwscr/420)                     | 2024-05-26 |   121 |    45 |       377 |  11.94 |
+|                                                    |            |   660 |   200 |      2719 |   7.17 |
 
 ## <span id="2024-05-25.table-for-two">Table for Two</span>
 
@@ -86,10 +120,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTalkVND0Lj/)       | 2017-04-28 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_273)  | 2017-04-28 |   131 |     8 |        54 |      8 |
-| [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |   279 |    74 |      1423 |    5.2 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1545) | 2024-05-24 |   177 |    32 |       917 |   3.49 |
-| [`tg`](https://t.me/mwscr/418)                     | 2024-05-24 |   169 |    42 |       376 |  11.17 |
-|                                                    |            |   756 |   213 |      2716 |   6.97 |
+| [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |   294 |    77 |      1423 |   5.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1545) | 2024-05-24 |   198 |    34 |       917 |   3.71 |
+| [`tg`](https://t.me/mwscr/418)                     | 2024-05-24 |   197 |    44 |       376 |   11.7 |
+|                                                    |            |   820 |   220 |      2716 |   7.21 |
 
 #### Comments
 

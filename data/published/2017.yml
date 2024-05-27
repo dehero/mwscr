@@ -3670,24 +3670,24 @@
       id: C7XGvzNRHLG
       mediaId: '18070047514519484'
       published: 2024-05-24-18-19-17
-      updated: 2024-05-26-18-17-29
+      updated: 2024-05-27-18-18-47
       followers: 1423
-      likes: 74
-      views: 279
+      likes: 77
+      views: 294
     - service: vk
       id: 1545
       published: 2024-05-24-18-19-24
-      updated: 2024-05-26-18-17-30
+      updated: 2024-05-27-18-18-48
       followers: 917
-      likes: 32
-      views: 177
+      likes: 34
+      views: 198
     - service: tg
       id: 418
       published: 2024-05-24-18-19-31
-      updated: 2024-05-26-18-17-30
+      updated: 2024-05-27-18-18-48
       followers: 376
-      likes: 42
-      views: 169
+      likes: 44
+      views: 197
       comments: !c |-
         iyGAkZTLQnj6vWCNAACvS3JhdG9zX3JhZ25hcmVrs9Ch0L7Qu9GF0YHRgtC10LnQvD+Ty0J4+r5/
         qQAApW13c2NypNCU0LAD
@@ -7694,6 +7694,19 @@
       followers: 81
       likes: 10
       views: 125
+    - service: ig
+      id: C7e1GWkSjKh
+      mediaId: '18025264844319132'
+      published: 2024-05-27-18-19-00
+      followers: 1424
+    - service: vk
+      id: 1548
+      published: 2024-05-27-18-19-06
+      followers: 918
+    - service: tg
+      id: 421
+      published: 2024-05-27-18-19-15
+      followers: 377
 2017-09-22.near-gnisis-eggmine:
   title: Near Gnisis Eggmine
   titleRu: У яичной шахты Гнисиса
@@ -8928,25 +8941,25 @@
       id: C7cQJmHN_aW
       mediaId: '18060721837564598'
       published: 2024-05-26-18-17-39
-      updated: 2024-05-27-17-12-44
+      updated: 2024-05-27-18-18-47
       followers: 1424
-      likes: 45
-      views: 171
+      likes: 46
+      views: 174
     - service: vk
       id: 1547
       published: 2024-05-26-18-17-46
-      updated: 2024-05-27-17-12-44
+      updated: 2024-05-27-18-18-47
       followers: 918
       likes: 23
-      views: 182
+      views: 183
       reposts: 2
     - service: tg
       id: 420
       published: 2024-05-26-18-17-52
-      updated: 2024-05-27-17-12-45
+      updated: 2024-05-27-18-18-47
       followers: 377
       likes: 45
-      views: 120
+      views: 121
 2017-11-07.corridor-keeper:
   title: Corridor Keeper
   titleRu: Хранитель прохода
