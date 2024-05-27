@@ -69,12 +69,14 @@ export const UserPage: Component = () => {
                   rows={[
                     {
                       label: 'Published',
-                      value: userInfo().authored.published ? (
-                        <>
-                          <GoldIcon class={styles.goldIcon} />
-                          {userInfo().authored.published}
-                        </>
-                      ) : undefined,
+                      value: userInfo().authored.published
+                        ? () => (
+                            <>
+                              <GoldIcon class={styles.goldIcon} />
+                              {userInfo().authored.published}
+                            </>
+                          )
+                        : undefined,
                     },
                     { label: 'Pending', value: userInfo().authored.pending },
                     { label: 'Rejected', value: userInfo().authored.rejected },

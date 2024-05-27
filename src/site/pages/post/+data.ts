@@ -7,6 +7,8 @@ import type { PostPageData } from '../../components/PostPage/PostPage.js';
 export async function data(pageContext: PageContext): Promise<PostPageData> {
   const manager = postsManagers.find((manager) => manager.name === pageContext.routeParams?.managerName);
 
+  console.log(pageContext);
+
   const post = pageContext.routeParams?.id ? await manager?.getItem(pageContext.routeParams.id) : undefined;
   const authorEntries = await users.getEntries(asArray(post?.author));
 
