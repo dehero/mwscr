@@ -20,6 +20,18 @@ export abstract class DataReader<TItem> {
     return [...new Set([...this.loadedChunkNames, ...this.chunks.keys()])];
   }
 
+  async getItemCount(): Promise<number> {
+    const chunkNames = await this.getChunkNames();
+    let count = 0;
+
+    for (const chunkName of chunkNames) {
+      const chunk = await this.loadChunk(chunkName);
+      count += chunk.size;
+    }
+
+    return count;
+  }
+
   protected getItemChunkName(_id: string) {
     return DATA_READER_CHUNK_NAME_DEFAULT;
   }

@@ -1,0 +1,95 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 'about' 'posts' 'statistics';
+  height: 100%;
+  padding: 8px;
+  gap: 8px;
+  overflow-y: auto;
+}
+
+.about {
+  grid-area: about;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  padding: 12px;
+  align-items: center;
+}
+
+@media only screen and (min-width: 812px) {
+  .divider {
+    display: none;
+  }
+
+  .container {
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 'about posts' 'statistics posts';
+    overflow: hidden;
+    padding: 0 8px 8px 8px;
+  }
+
+  .statistics,
+  .posts {
+    overflow-y: auto;
+  }
+}
+
+.title {
+  margin: 0;
+  color: var(--color-text-light);
+}
+
+.description {
+  margin: 0;
+  text-wrap: balance;
+  text-align: center;
+}
+
+.links {
+  margin: 0;
+  text-wrap: balance;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text-selected);
+}
+
+.statistics {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+  padding: 8px;
+}
+
+.goldIcon {
+  margin-right: 4px;
+  vertical-align: text-top;
+}
+
+.posts {
+  grid-area: posts;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
+  gap: 12px;
+  padding: 8px;
+}
+
+.post {
+  flex: 1 1 164px;
+  min-width: 164px;
+  max-width: 324px;
+  box-sizing: border-box;
+}
+
+.post.primary {
+  flex-basis: 324px;
+}
