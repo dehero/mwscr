@@ -1,10 +1,10 @@
 import type { Config } from 'vike/types';
 import { config as vikeSolidConfig } from 'vike-solid/config';
-import { AboutPage } from '../components/AboutPage/AboutPage.js';
+import { HomePage } from '../components/HomePage/HomePage.js';
 import { Page } from '../components/Page/Page.js';
 
 const config: Config = {
-  Page: AboutPage,
+  Page: HomePage,
   Layout: Page,
 
   passToClient: ['routeInfo'],

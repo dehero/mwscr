@@ -14,3 +14,8 @@
   flex-flow: column nowrap;
   align-items: normal;
 }
+
+.vertical > .label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

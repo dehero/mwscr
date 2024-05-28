@@ -9,6 +9,7 @@
   border-left: 0;
   border-right: 0;
   margin: 0 -2px;
+  max-height: 20px;
 }
 
 .header:before,
