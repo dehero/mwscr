@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZUB0A-jEc7/)       | 2017-09-21 |       |    80 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_437)  | 2017-09-21 |   125 |    10 |        81 |     10 |
-| [`ig`](https://instagram.com/p/C7e1GWkSjKh/)       | 2024-05-27 |   234 |    60 |      1424 |   4.21 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1548) | 2024-05-27 |   155 |    24 |       918 |   2.61 |
-| [`tg`](https://t.me/mwscr/421)                     | 2024-05-27 |   176 |    40 |       377 |  10.61 |
-|                                                    |            |   690 |   214 |      2719 |   6.86 |
+| [`ig`](https://instagram.com/p/C7e1GWkSjKh/)       | 2024-05-27 |   240 |    62 |      1424 |   4.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1548) | 2024-05-27 |   160 |    24 |       918 |   2.61 |
+| [`tg`](https://t.me/mwscr/421)                     | 2024-05-27 |   178 |    41 |       377 |  10.88 |
+|                                                    |            |   703 |   217 |      2719 |   6.96 |
 
 #### Comments
 
@@ -42,6 +42,7 @@
 - `vk` <ins title="2024-05-27-18-56-29">jermor</ins> Паарит высакоо
 - `ig` <ins title="2024-05-27-19-39-11">mountcydonia</ins> Aaaaaaargh!
 - `ig` <ins title="2024-05-27-21-32-33">pie_barms</ins> Flyyyyin
+  - <ins title="2024-05-28-12-42-08">someone_simple42</ins> flyyyin in the skyyyy
 
 ## <span id="2024-05-26.shore-shroom">Shore Shroom</span>
 
@@ -66,9 +67,9 @@
 | [`ig`](https://instagram.com/p/BbKswDeDVyl/)       | 2017-11-06 |       |    75 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_490)  | 2017-11-06 |   182 |    11 |        94 |     11 |
 | [`ig`](https://instagram.com/p/C7cQJmHN_aW/)       | 2024-05-26 |   185 |    50 |      1424 |   3.51 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1547) | 2024-05-26 |   204 |    25 |       918 |   2.72 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1547) | 2024-05-26 |   206 |    25 |       918 |   2.72 |
 | [`tg`](https://t.me/mwscr/420)                     | 2024-05-26 |   152 |    51 |       377 |  13.53 |
-|                                                    |            |   723 |   212 |      2719 |   7.69 |
+|                                                    |            |   725 |   212 |      2719 |   7.69 |
 
 ## <span id="2024-05-25.table-for-two">Table for Two</span>
 
