@@ -1,6 +1,6 @@
 import { writeClipboard } from '@solid-primitives/clipboard';
 import clsx from 'clsx';
-import { type Component, createSignal, For, Match, Show, Switch } from 'solid-js';
+import { type Component, createSignal, For, Match, onMount, Show, Switch } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import { usePageContext } from 'vike-solid/usePageContext';
 import { getPostTypeAspectRatio, type Post } from '../../../core/entities/post.js';
@@ -33,6 +33,7 @@ export interface PostPageData {
 export const PostPage: Component = () => {
   const { addToast } = useToaster();
   const params = usePageContext().routeParams as PostRouteParams;
+  let imageRef: HTMLImageElement | undefined;
 
   const [selectedContentIndex, setSelectedContentIndex] = createSignal(0);
 
@@ -66,6 +67,11 @@ export const PostPage: Component = () => {
   };
 
   const handleContentLoad = () => setIsLoading(false);
+
+  onMount(() => {
+    // Check if image is already loaded
+    setIsLoading(!imageRef?.complete);
+  });
 
   // TODO: display post trash
 
@@ -132,6 +138,7 @@ export const PostPage: Component = () => {
                       class={clsx(frameStyles.thin, styles.content, styles.image)}
                       onLoad={handleContentLoad}
                       style={{ 'aspect-ratio': aspectRatio() }}
+                      ref={imageRef}
                     />
                   </Match>
                 </Switch>
