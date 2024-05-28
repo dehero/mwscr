@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
@@ -47,10 +47,6 @@
   align-items: baseline;
   gap: 4px;
   padding: 8px;
-}
-
-.spacer {
-  flex-grow: 1;
 }
 
 .main {
