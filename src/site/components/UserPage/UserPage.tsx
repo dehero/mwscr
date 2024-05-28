@@ -16,7 +16,7 @@ import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
 import { PostPreview } from '../PostPreview/PostPreview.js';
 import { Table } from '../Table/Table.js';
-import { useToaster } from '../Toaster/Toaster.jsx';
+import { useToaster } from '../Toaster/Toaster.js';
 import styles from './UserPage.module.css';
 
 export interface UserPageData {

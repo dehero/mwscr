@@ -2,9 +2,15 @@
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-between;
   gap: 16px;
   padding: 6px 8px;
+}
+
+.nav {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  gap: 4px;
 }
 
 .filters {

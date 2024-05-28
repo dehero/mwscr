@@ -1,4 +1,4 @@
-import { type Component, createSignal, Show } from 'solid-js';
+import { type Component, createSignal, For, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import { isNestedLocation } from '../../../core/entities/location.js';
 import type { PostMark, PostType, PostViolation } from '../../../core/entities/post.js';
@@ -11,13 +11,14 @@ import {
   comparePostInfosByViews,
 } from '../../../core/entities/post-info.js';
 import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
+import { createIssueUrl as createProposalIssueUrl } from '../../../core/github-issues/proposal.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { boolToString, stringToBool } from '../../../core/utils/common-utils.js';
 import { useParams } from '../../hooks/useParams.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
 import type { PostsPageData } from '../../pages/posts/+data.js';
-import type { PostsRouteParams } from '../../routes/posts-route.js';
+import { postsRoute, postsRouteInfos, type PostsRouteParams } from '../../routes/posts-route.js';
 import { ALL_OPTION, ANY_OPTION, NO_OPTION, NONE_OPTION, YES_OPTION } from '../../utils/ui-constants.js';
 import { Button } from '../Button/Button.js';
 import { Divider } from '../Divider/Divider.js';
@@ -25,7 +26,9 @@ import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
 import { PostPreviews } from '../PostPreviews/PostPreviews.js';
 import { RadioGroup } from '../RadioGroup/RadioGroup.js';
+import { RouteButton } from '../RouteButton/RouteButton.js';
 import { Select } from '../Select/Select.js';
+import { Spacer } from '../Spacer/Spacer.js';
 import { Toast } from '../Toaster/Toaster.js';
 import styles from './PostsPage.module.css';
 
@@ -40,8 +43,8 @@ export type PostsPageSortKey = (typeof comparators)[number]['value'];
 
 const presets = [
   { value: 'editors-choice', label: "Editor's Choice", params: { mark: 'A1', sort: 'rating,desc' } },
-  { value: 'shortlist', label: 'Shortlist', params: { check: 'publishable' } },
-  { value: 'requests', label: 'Requests', params: { check: 'requested' } },
+  { value: 'shortlist', label: 'Shortlist', params: { publishable: 'true' } },
+  { value: 'requests', label: 'Requests', params: { requested: 'true' } },
   { value: 'revisit', label: 'Revisit', params: { mark: 'F' } },
   { value: 'unlocated', label: 'Unlocated', params: { location: NONE_OPTION.value } },
   { value: 'violations', label: 'Violations', params: { violation: ANY_OPTION.value } },
@@ -72,29 +75,6 @@ export interface PostsPageInfo extends SiteRouteInfo {
   filters?: FilterKey[];
   sortKeys?: PostsPageSortKey[];
 }
-
-export const postsPageInfos: Record<string, PostsPageInfo> = {
-  published: {
-    label: 'Posts',
-    title: 'Posts',
-    presetKeys: ['editors-choice', 'unlocated', 'requests'],
-    filters: ['author', 'location', 'mark', 'tag', 'type'],
-  },
-  inbox: {
-    label: 'Inbox',
-    title: 'Inbox',
-    sortKeys: ['id'],
-    presetKeys: ['shortlist', 'requests'],
-    filters: ['author', 'publishable', 'requested', 'location', 'mark', 'type'],
-  },
-  trash: {
-    label: 'Trash',
-    title: 'Trash',
-    sortKeys: ['id'],
-    presetKeys: ['revisit', 'violations'],
-    filters: ['mark', 'violation', 'location', 'type'],
-  },
-};
 
 interface SelectPostInfosParams {
   skipReferences?: boolean;
@@ -219,6 +199,25 @@ export const PostsPage: Component = () => {
       <div class={styles.header}>
         <RadioGroup name="preset" options={[ALL_OPTION, ...presetOptions()]} value={preset()} onChange={setPreset} />
 
+        <Show when={sortOptions().length > 0}>
+          <fieldset class={styles.fieldset}>
+            <Label label="Order By">
+              <Select options={sortOptions()} value={sortKey()} onChange={setSortKey} />
+            </Label>
+            <RadioGroup
+              name="sortDirection"
+              options={[
+                { value: 'asc', label: 'Asc' },
+                { value: 'desc', label: 'Desc' },
+              ]}
+              value={sortDirection()}
+              onChange={setSortDirection}
+            />
+          </fieldset>
+        </Show>
+
+        <Spacer />
+
         <fieldset class={styles.fieldset}>
           <Label label="Search">
             <Input
@@ -243,6 +242,16 @@ export const PostsPage: Component = () => {
 
           <Toast message="Searching..." show={isSearching()} />
         </fieldset>
+
+        <nav class={styles.nav}>
+          <For each={Object.keys(postsRouteInfos)}>
+            {(managerName) => <RouteButton route={postsRoute} params={{ managerName }} matchParams />}
+          </For>
+
+          <Button href={createProposalIssueUrl()} target="_blank">
+            +
+          </Button>
+        </nav>
       </div>
       <form class={styles.filters}>
         <Show when={!info.filters || info.filters.includes('type')}>
@@ -325,22 +334,6 @@ export const PostsPage: Component = () => {
               onChange={setPostPublishable}
             />
           </Label>
-        </Show>
-        <Show when={sortOptions().length > 0}>
-          <fieldset class={styles.fieldset}>
-            <Label label="Order By">
-              <Select options={sortOptions()} value={sortKey()} onChange={setSortKey} />
-            </Label>
-            <RadioGroup
-              name="sortDirection"
-              options={[
-                { value: 'asc', label: 'Asc' },
-                { value: 'desc', label: 'Desc' },
-              ]}
-              value={sortDirection()}
-              onChange={setSortDirection}
-            />
-          </fieldset>
         </Show>
       </form>
 
