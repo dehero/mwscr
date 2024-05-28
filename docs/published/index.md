@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`91 items`
+`92 items`
+
+## <span id="2024-05-28.two-legioners-talking">Two Legioners Talking</span>
+
+`RU` Беседа двух легионеров
+
+<a href="https://instagram.com/p/Bgt0r9hj2bV/" title="2018-03-24.two-legioners-talking"><img alt="store:/shots/2018-03-24.two-legioners-talking.png" src="../../assets/previews/shots/2018-03-24.two-legioners-talking.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-28.two-legioners-talking)</code> `🚀 OpenMW` `encounter`
+
+```
+2024-05-28.two-legioners-talking
+```
+
+> `2018-03-24.two-legioners-talking`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bgt0r9hj2bV/)       | 2018-03-24 |       |    98 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_665)  | 2018-03-24 |   206 |    13 |       145 |   8.97 |
+| [`ig`](https://instagram.com/p/C7hZ5lRJxZi/)       | 2024-05-28 |       |       |      1424 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1550) | 2024-05-28 |       |       |       917 |        |
+| [`tg`](https://t.me/mwscr/422)                     | 2024-05-28 |       |       |       378 |        |
+|                                                    |            |   206 |   111 |      2719 |        |
 
 ## <span id="2024-05-27.flight">Flight</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZUB0A-jEc7/)       | 2017-09-21 |       |    80 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_437)  | 2017-09-21 |   125 |    10 |        81 |     10 |
-| [`ig`](https://instagram.com/p/C7e1GWkSjKh/)       | 2024-05-27 |   272 |    71 |      1424 |   4.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1548) | 2024-05-27 |   169 |    25 |       918 |   2.72 |
-| [`tg`](https://t.me/mwscr/421)                     | 2024-05-27 |   183 |    42 |       377 |  11.14 |
-|                                                    |            |   749 |   228 |      2719 |   7.21 |
+| [`ig`](https://instagram.com/p/C7e1GWkSjKh/)       | 2024-05-27 |   287 |    71 |      1424 |   4.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1548) | 2024-05-27 |   170 |    25 |       918 |   2.72 |
+| [`tg`](https://t.me/mwscr/421)                     | 2024-05-27 |   186 |    43 |       377 |  11.41 |
+|                                                    |            |   768 |   229 |      2719 |   7.28 |
 
 #### Comments
 
@@ -124,10 +151,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTalkVND0Lj/)       | 2017-04-28 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_273)  | 2017-04-28 |   131 |     8 |        54 |      8 |
-| [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |   294 |    77 |      1423 |   5.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1545) | 2024-05-24 |   198 |    34 |       917 |   3.71 |
-| [`tg`](https://t.me/mwscr/418)                     | 2024-05-24 |   197 |    44 |       376 |   11.7 |
-|                                                    |            |   820 |   220 |      2716 |   7.21 |
+| [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |   303 |    78 |      1423 |   5.48 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1545) | 2024-05-24 |   212 |    34 |       917 |   3.71 |
+| [`tg`](https://t.me/mwscr/418)                     | 2024-05-24 |   229 |    47 |       376 |   12.5 |
+|                                                    |            |   875 |   224 |      2716 |   7.42 |
 
 #### Comments
 
