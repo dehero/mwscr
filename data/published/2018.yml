@@ -425,25 +425,25 @@
       id: C51QP5Urf1u
       mediaId: '18428034226010775'
       published: 2024-04-16-18-16-46
-      updated: 2024-05-21-23-15-12
+      updated: 2024-05-28-23-16-07
       followers: 1414
       likes: 117
-      views: 530
+      views: 534
     - service: vk
       id: 1497
       published: 2024-04-16-18-16-52
-      updated: 2024-05-21-23-15-11
+      updated: 2024-05-28-23-16-07
       followers: 910
       likes: 32
-      views: 248
+      views: 254
       reposts: 3
     - service: tg
       id: 380
       published: 2024-04-16-18-16-59
-      updated: 2024-05-21-23-15-11
+      updated: 2024-05-28-23-16-07
       followers: 353
       likes: 57
-      views: 379
+      views: 387
       comments: !c |-
         iymAkZTLQnjuiXXlAACqYWxleF9lbXNvd7pJIGp1c3QgaGF0ZSB0aGlzIHBsYWNl8J+YhZPLQnju
         iwdDAACpR2F0ZW1hdGU3rnRoaXMgaXMgYSBtb2Q/Aw==
@@ -2338,18 +2338,18 @@
       id: C7hZ5lRJxZi
       mediaId: '18023073928997019'
       published: 2024-05-28-18-19-04
-      updated: 2024-05-28-22-13-53
+      updated: 2024-05-28-23-16-05
       followers: 1424
-      likes: 45
-      views: 107
+      likes: 47
+      views: 120
       comments: !c CxaAkZPLQnj8CM95gACtamlyaV9hbGVrc2lpabPigJxXaGF0IHNheSB5b3U/4oCcAw==
     - service: vk
       id: 1550
       published: 2024-05-28-18-19-10
-      updated: 2024-05-28-22-13-53
+      updated: 2024-05-28-23-16-04
       followers: 917
-      likes: 17
-      views: 111
+      likes: 18
+      views: 118
       reposts: 1
       comments: !c |-
         CxyAkZPLQnj8B1VNAACmamVybW9y2SXQn9GA0L4g0LHRg9C80LDQs9C4LCDQvdCw0LLQtdGA0L3Q
@@ -2357,10 +2357,10 @@
     - service: tg
       id: 422
       published: 2024-05-28-18-19-16
-      updated: 2024-05-28-22-13-54
+      updated: 2024-05-28-23-16-05
       followers: 378
-      likes: 35
-      views: 84
+      likes: 37
+      views: 88
 2018-03-25.ships:
   title: Ships
   titleRu: Корабли
