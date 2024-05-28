@@ -1,4 +1,5 @@
 import type { PageContext } from 'vike/types';
+import { dateToString } from '../../core/utils/date-utils.js';
 import { resolveFirstRoute } from '../routes/index.js';
 
 export function onBeforeRender(pageContext: PageContext) {
@@ -7,6 +8,7 @@ export function onBeforeRender(pageContext: PageContext) {
 
   return {
     pageContext: {
+      buildDate: dateToString(new Date()),
       routeInfo,
     },
   };

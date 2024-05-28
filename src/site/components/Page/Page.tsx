@@ -1,6 +1,7 @@
 import './Page.css';
-import type { Component, JSX } from 'solid-js';
+import { type Component, type JSX } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
+import pkg from '../../../../package.json';
 import { contributingRoute } from '../../routes/contributing-route.js';
 import { homeRoute } from '../../routes/home-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
@@ -17,6 +18,7 @@ export interface PageProps {
 
 export const Page: Component<PageProps> = (props) => {
   const info = usePageContext().routeInfo;
+  const buildDate = usePageContext().buildDate;
 
   return (
     <Toaster>
@@ -36,6 +38,11 @@ export const Page: Component<PageProps> = (props) => {
       </nav>
 
       <main class={styles.main}>{props.children}</main>
+
+      <div class={styles.version}>
+        {typeof pkg === 'object' && 'version' in pkg && typeof pkg.version === 'string' ? pkg.version : undefined}{' '}
+        {buildDate}
+      </div>
     </Toaster>
   );
 };
