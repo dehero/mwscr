@@ -1,5 +1,5 @@
 import type { Component, JSX } from 'solid-js';
-import { createContext, createEffect, createSignal, For, useContext } from 'solid-js';
+import { createContext, createEffect, createSignal, For, onCleanup, useContext } from 'solid-js';
 import { Portal } from 'solid-js/web';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Toaster.module.css';
@@ -65,7 +65,14 @@ export const Toast: Component<ToastProps> = (props) => {
       removeToast(id);
       setToastId(undefined);
     } else if (!id && props.show) {
-      setToastId(addToast(props.message));
+      setToastId(addToast(props.message, Infinity));
+    }
+  });
+
+  onCleanup(() => {
+    const id = toastId();
+    if (id) {
+      removeToast(id);
     }
   });
 
