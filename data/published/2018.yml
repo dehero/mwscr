@@ -2338,15 +2338,29 @@
       id: C7hZ5lRJxZi
       mediaId: '18023073928997019'
       published: 2024-05-28-18-19-04
+      updated: 2024-05-28-19-12-12
       followers: 1424
+      likes: 19
+      views: 37
+      comments: !c CxaAkZPLQnj8CM95gACtamlyaV9hbGVrc2lpabPigJxXaGF0IHNheSB5b3U/4oCcAw==
     - service: vk
       id: 1550
       published: 2024-05-28-18-19-10
+      updated: 2024-05-28-19-12-11
       followers: 917
+      likes: 8
+      views: 54
+      reposts: 1
+      comments: !c |-
+        CxyAkZPLQnj8B1VNAACmamVybW9y2SXQn9GA0L4g0LHRg9C80LDQs9C4LCDQvdCw0LLQtdGA0L3Q
+        vtC1Aw==
     - service: tg
       id: 422
       published: 2024-05-28-18-19-16
+      updated: 2024-05-28-19-12-12
       followers: 378
+      likes: 17
+      views: 51
 2018-03-25.ships:
   title: Ships
   titleRu: Корабли
