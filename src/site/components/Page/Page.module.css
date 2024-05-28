@@ -55,3 +55,11 @@
   flex-direction: column;
   overflow: hidden;
 }
+
+.version {
+  position: fixed;
+  left: 4px;
+  bottom: 0;
+  padding: 2px 4px;
+  background: var(--color-background);
+}
