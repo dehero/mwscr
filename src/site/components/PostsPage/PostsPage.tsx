@@ -133,7 +133,7 @@ const selectPostInfos = (postInfos: PostInfo[], params: SelectPostInfosParams): 
 
 export const PostsPage: Component = () => {
   const [searchParams, setSearchParams] = useSearchParams<PostsPageSearchParams>();
-  const { managerName } = useParams<PostsRouteParams>();
+  const params = useParams<PostsRouteParams>();
 
   const info = useRouteInfo<PostsPageInfo>();
 
@@ -339,7 +339,7 @@ export const PostsPage: Component = () => {
 
       <Divider />
 
-      <PostPreviews postInfos={filteredPostInfos()} managerName={managerName} />
+      <PostPreviews postInfos={filteredPostInfos()} managerName={params.managerName} />
     </>
   );
 };

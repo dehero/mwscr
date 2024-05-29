@@ -1,0 +1,77 @@
+.container {
+  display: grid;
+  height: 100%;
+  padding: 8px;
+  gap: 8px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 'messages' 'topics';
+  overflow-y: auto;
+}
+
+.messages {
+  grid-area: messages;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+  padding: 8px;
+}
+
+.topics {
+  display: flex;
+  flex-flow: column nowrap;
+  grid-area: topics;
+  gap: 8px;
+  padding: 8px;
+  margin: 0;
+  list-style: none;
+}
+
+@media only screen and (min-width: 812px) {
+  .divider {
+    display: none;
+  }
+
+  .container {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'messages topics';
+    overflow: hidden;
+    padding: 0 8px 8px 8px;
+  }
+
+  .messages,
+  .topics {
+    overflow-y: auto;
+  }
+}
+
+.title {
+  color: var(--color-text-light);
+  font-weight: inherit;
+  font-size: inherit;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.text {
+  margin: 0;
+}
+
+.text a {
+  color: var(--color-text-selected);
+  text-decoration: none;
+}
+
+.text a:hover {
+  color: var(--color-text-selected-hover);
+}
+
+.topic a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.topic a:hover {
+  color: var(--color-text-selected);
+}
