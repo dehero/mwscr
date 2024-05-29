@@ -7698,10 +7698,10 @@
       id: C7e1GWkSjKh
       mediaId: '18025264844319132'
       published: 2024-05-27-18-19-00
-      updated: 2024-05-29-07-13-59
+      updated: 2024-05-29-08-19-19
       followers: 1424
       likes: 78
-      views: 325
+      views: 328
       comments: !c |-
         i0aAk5PLQnj8CvaAAACnaWFtamJyZalPaCBHb2Qgbm+Uy0J4+7+CVoAAqXBpZV9iYXJtc6hGbHl5
         eXlpbpPLQnj7845QAACwc29tZW9uZV9zaW1wbGU0MrVmbHl5eWluIGluIHRoZSBza3l5eXmTy0J4
@@ -7709,7 +7709,7 @@
     - service: vk
       id: 1548
       published: 2024-05-27-18-19-06
-      updated: 2024-05-29-07-13-59
+      updated: 2024-05-29-08-19-18
       followers: 918
       likes: 26
       views: 180
@@ -7717,7 +7717,7 @@
     - service: tg
       id: 421
       published: 2024-05-27-18-19-15
-      updated: 2024-05-29-07-13-59
+      updated: 2024-05-29-08-19-19
       followers: 377
       likes: 50
       views: 214
