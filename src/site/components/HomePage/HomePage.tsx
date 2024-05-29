@@ -11,7 +11,6 @@ import { Label } from '../Label/Label.js';
 import { PostPreview } from '../PostPreview/PostPreview.js';
 import { Table } from '../Table/Table.js';
 import styles from './HomePage.module.css';
-import { Button } from '../Button/Button.jsx';
 
 export interface HomePageData {
   totalPosts: UserContribution;
