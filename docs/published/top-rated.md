@@ -83,9 +83,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cf4jg83s0fl/)       | 2022-07-11 |       |   363 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1334) | 2022-07-11 |  1206 |   128 |       767 |  16.69 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1334) | 2022-07-11 |  1208 |   128 |       767 |  16.69 |
 | [`tg`](https://t.me/mwscr/271,272,273,274)         | 2022-07-11 |   714 |    56 |       257 |  21.79 |
-|                                                    |            |  1920 |   547 |      1024 |  19.24 |
+|                                                    |            |  1922 |   547 |      1024 |  19.24 |
 
 #### Comments
 
@@ -118,9 +118,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cg0Aep3MNmi/)       | 2022-08-03 |       |   385 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1381) | 2022-08-03 |  1204 |    74 |       800 |   9.25 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1381) | 2022-08-03 |  1205 |    74 |       800 |   9.25 |
 | [`tg`](https://t.me/mwscr/306)                     | 2022-08-03 |  2188 |    80 |       281 |  28.47 |
-|                                                    |            |  3392 |   539 |      1081 |  18.86 |
+|                                                    |            |  3393 |   539 |      1081 |  18.86 |
 
 #### Comments
 
@@ -170,9 +170,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cgxa9ZeMd46/)       | 2022-08-02 |       |   181 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1379) | 2022-08-02 |  1564 |    82 |       798 |  10.28 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1379) | 2022-08-02 |  1565 |    82 |       798 |  10.28 |
 | [`tg`](https://t.me/mwscr/305)                     | 2022-08-02 |  2149 |    68 |       281 |   24.2 |
-|                                                    |            |  3713 |   331 |      1079 |  17.24 |
+|                                                    |            |  3714 |   331 |      1079 |  17.24 |
 
 #### Comments
 
@@ -254,9 +254,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgNJV67smXO/)       | 2022-07-19 |       |   200 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1351) | 2022-07-19 |   758 |    81 |       783 |  10.34 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1351) | 2022-07-19 |   759 |    81 |       783 |  10.34 |
 | [`tg`](https://t.me/mwscr/282)                     | 2022-07-19 |   797 |    62 |       267 |  23.22 |
-|                                                    |            |  1555 |   343 |      1050 |  16.78 |
+|                                                    |            |  1556 |   343 |      1050 |  16.78 |
 
 #### Comments
 
@@ -285,9 +285,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfmolBKM0ih/)       | 2022-07-04 |       |   211 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1324) | 2022-07-04 |   481 |    64 |       738 |   8.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1324) | 2022-07-04 |   482 |    64 |       738 |   8.67 |
 | [`tg`](https://t.me/mwscr/261,262,263,264)         | 2022-07-04 |   679 |    62 |       253 |  24.51 |
-|                                                    |            |  1160 |   337 |       991 |  16.59 |
+|                                                    |            |  1161 |   337 |       991 |  16.59 |
 
 #### Comments
 
@@ -324,9 +324,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cf2L3gis24B/)       | 2022-07-10 |       |   220 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1333) | 2022-07-10 |   565 |    80 |       759 |  10.54 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1333) | 2022-07-10 |   566 |    80 |       759 |  10.54 |
 | [`tg`](https://t.me/mwscr/270)                     | 2022-07-10 |   744 |    57 |       257 |  22.18 |
-|                                                    |            |  1309 |   357 |      1016 |  16.36 |
+|                                                    |            |  1310 |   357 |      1016 |  16.36 |
 
 #### Comments
 
@@ -353,9 +353,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfuSW2iMP_z/)       | 2022-07-07 |       |   196 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1327) | 2022-07-07 |   668 |    85 |       739 |   11.5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1327) | 2022-07-07 |   669 |    85 |       739 |   11.5 |
 | [`tg`](https://t.me/mwscr/267)                     | 2022-07-07 |   673 |    54 |       256 |  21.09 |
-|                                                    |            |  1341 |   335 |       995 |   16.3 |
+|                                                    |            |  1342 |   335 |       995 |   16.3 |
 
 #### Comments
 
@@ -419,9 +419,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CHYa0d6hhUT/)       | 2020-11-09 |       |   222 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1290) | 2020-11-09 |  2255 |   108 |       459 |  23.53 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1290) | 2020-11-09 |  2256 |   108 |       459 |  23.53 |
 | [`tg`](https://t.me/mwscr/244)                     | 2020-11-09 |  2478 |    14 |       169 |   8.28 |
-|                                                    |            |  4733 |   344 |       628 |  15.91 |
+|                                                    |            |  4734 |   344 |       628 |  15.91 |
 
 #### Comments
 
@@ -451,9 +451,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgP8EBIM2GT/)       | 2022-07-20 |       |   188 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1352) | 2022-07-20 |   747 |    79 |       784 |  10.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1352) | 2022-07-20 |   748 |    79 |       784 |  10.08 |
 | [`tg`](https://t.me/mwscr/283)                     | 2022-07-20 |   802 |    55 |       266 |  20.68 |
-|                                                    |            |  1549 |   322 |      1050 |  15.38 |
+|                                                    |            |  1550 |   322 |      1050 |  15.38 |
 
 #### Comments
 
@@ -526,9 +526,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgnHcDMs8Iy/)       | 2022-07-29 |       |   250 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1371) | 2022-07-29 |   770 |    73 |       796 |   9.17 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1371) | 2022-07-29 |   771 |    73 |       796 |   9.17 |
 | [`tg`](https://t.me/mwscr/298)                     | 2022-07-29 |  1312 |    58 |       274 |  21.17 |
-|                                                    |            |  2082 |   381 |      1070 |  15.17 |
+|                                                    |            |  2083 |   381 |      1070 |  15.17 |
 
 #### Comments
 
@@ -555,9 +555,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CvP6u9As_bK/)       | 2023-07-28 |       |   309 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1387) | 2023-07-28 |   540 |    49 |       891 |    5.5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1387) | 2023-07-28 |   541 |    49 |       891 |    5.5 |
 | [`tg`](https://t.me/mwscr/308)                     | 2023-07-28 |   889 |    78 |       316 |  24.68 |
-|                                                    |            |  1429 |   436 |      1207 |  15.09 |
+|                                                    |            |  1430 |   436 |      1207 |  15.09 |
 
 #### Comments
 
@@ -612,9 +612,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfSI8dls49R/)       | 2022-06-26 |       |   218 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1314) | 2022-06-26 |   488 |    48 |       732 |   6.56 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1314) | 2022-06-26 |   489 |    48 |       732 |   6.56 |
 | [`tg`](https://t.me/mwscr/250,251,252,253)         | 2022-06-26 |   662 |    57 |       242 |  23.55 |
-|                                                    |            |  1150 |   323 |       974 |  15.06 |
+|                                                    |            |  1151 |   323 |       974 |  15.06 |
 
 #### Comments
 
@@ -628,41 +628,6 @@
 - `tg` <ins title="2022-06-27-20-23-33">Lann1_2</ins> 
   - <ins title="2023-05-07-11-47-26">Bruvilt</ins> Схитрил
 - `tg` <ins title="2022-07-03-06-58-31">mwscr</ins> That silver might turn out to be pricey tho
-
-## <span id="2022-07-31.alchemy">Alchemy</span>
-
-`RU` Алхимия
-
-<a href="https://instagram.com/p/CgsUNREMkK7/" title="2017-01-05.alchemy-corner"><img alt="store:/shots/2017-01-05.alchemy-corner.png" src="../../assets/previews/shots/2017-01-05.alchemy-corner.avif" /></a>
-<a href="https://instagram.com/p/CgsUNREMkK7/" title="2017-05-21.table-in-magic-shop"><img alt="store:/shots/2017-05-21.table-in-magic-shop.png" src="../../assets/previews/shots/2017-05-21.table-in-magic-shop.avif" /></a>
-<a href="https://instagram.com/p/CgsUNREMkK7/" title="2017-09-07.wise-womans-table"><img alt="store:/shots/2017-09-07.wise-womans-table.png" src="../../assets/previews/shots/2017-09-07.wise-womans-table.avif" /></a>
-<a href="https://instagram.com/p/CgsUNREMkK7/" title="2018-05-31.clandestine-lab"><img alt="store:/shots/2018-05-31.clandestine-lab.png" src="../../assets/previews/shots/2018-05-31.clandestine-lab.avif" /></a>
-
-`shot-set` by [dehero](../contributors.md#dehero)
-
-`B1` `🚀 OpenMW` `alchemy`
-
-```
-2022-07-31.alchemy
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CgsUNREMkK7/)       | 2022-07-31 |       |   251 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1376) | 2022-07-31 |  1255 |    77 |       797 |   9.66 |
-| [`tg`](https://t.me/mwscr/300,301,302,303)         | 2022-07-31 |  1555 |    56 |       277 |  20.22 |
-|                                                    |            |  2810 |   384 |      1074 |  14.94 |
-
-#### Comments
-
-- `ig` <ins title="2022-07-31-21-55-22">sir_waclove</ins> this detail that they&#39;ve put parchment under ingredients is just incredible.
-- `ig` <ins title="2022-08-01-02-09-52">_lijee__</ins> Is that moon sugar under the table 😂
-- `ig` <ins title="2022-08-01-05-00-02">quantd7709</ins> never got into alchemy in mw, just seemed redundant with enchanting being so powerful
-- `ig` <ins title="2022-08-02-08-42-21">vldmrrrr_</ins> So relaxing and cozy
-- `vk` <ins title="2022-08-02-09-48-22">id134482858</ins> Очень атмосферно! Кто знает что за рецепты на столах?
-- `ig` <ins title="2022-08-03-15-37-14">someone_simple42</ins> Perhaps I should replay Morrowind and create an alchemy based build
 
 ## <span id="2022-07-22.lonely-towers">Lonely Towers</span>
 
@@ -686,9 +651,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgVJNG9MwMe/)       | 2022-07-22 |       |   342 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1361) | 2022-07-22 |   745 |    66 |       787 |   8.39 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1361) | 2022-07-22 |   748 |    67 |       787 |   8.51 |
 | [`tg`](https://t.me/mwscr/285,286,287,288)         | 2022-07-22 |   844 |    58 |       271 |   21.4 |
-|                                                    |            |  1589 |   466 |      1058 |  14.89 |
+|                                                    |            |  1592 |   467 |      1058 |  14.96 |
 
 #### Comments
 
@@ -697,6 +662,41 @@
 - `ig` <ins title="2022-07-22-22-50-35">istsieliz</ins> Love your pics and captions!!
   - <ins title="2022-07-23-05-35-20">mwscr</ins> Thanks!
 - `vk` <ins title="2022-07-23-02-15-57">self_creating</ins> Лучшие жилища)
+
+## <span id="2022-07-31.alchemy">Alchemy</span>
+
+`RU` Алхимия
+
+<a href="https://instagram.com/p/CgsUNREMkK7/" title="2017-01-05.alchemy-corner"><img alt="store:/shots/2017-01-05.alchemy-corner.png" src="../../assets/previews/shots/2017-01-05.alchemy-corner.avif" /></a>
+<a href="https://instagram.com/p/CgsUNREMkK7/" title="2017-05-21.table-in-magic-shop"><img alt="store:/shots/2017-05-21.table-in-magic-shop.png" src="../../assets/previews/shots/2017-05-21.table-in-magic-shop.avif" /></a>
+<a href="https://instagram.com/p/CgsUNREMkK7/" title="2017-09-07.wise-womans-table"><img alt="store:/shots/2017-09-07.wise-womans-table.png" src="../../assets/previews/shots/2017-09-07.wise-womans-table.avif" /></a>
+<a href="https://instagram.com/p/CgsUNREMkK7/" title="2018-05-31.clandestine-lab"><img alt="store:/shots/2018-05-31.clandestine-lab.png" src="../../assets/previews/shots/2018-05-31.clandestine-lab.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+`B1` `🚀 OpenMW` `alchemy`
+
+```
+2022-07-31.alchemy
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/CgsUNREMkK7/)       | 2022-07-31 |       |   251 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1376) | 2022-07-31 |  1256 |    77 |       797 |   9.66 |
+| [`tg`](https://t.me/mwscr/300,301,302,303)         | 2022-07-31 |  1555 |    56 |       277 |  20.22 |
+|                                                    |            |  2811 |   384 |      1074 |  14.94 |
+
+#### Comments
+
+- `ig` <ins title="2022-07-31-21-55-22">sir_waclove</ins> this detail that they&#39;ve put parchment under ingredients is just incredible.
+- `ig` <ins title="2022-08-01-02-09-52">_lijee__</ins> Is that moon sugar under the table 😂
+- `ig` <ins title="2022-08-01-05-00-02">quantd7709</ins> never got into alchemy in mw, just seemed redundant with enchanting being so powerful
+- `ig` <ins title="2022-08-02-08-42-21">vldmrrrr_</ins> So relaxing and cozy
+- `vk` <ins title="2022-08-02-09-48-22">id134482858</ins> Очень атмосферно! Кто знает что за рецепты на столах?
+- `ig` <ins title="2022-08-03-15-37-14">someone_simple42</ins> Perhaps I should replay Morrowind and create an alchemy based build
 
 ## <span id="2022-07-09.three-coins-for-the-bard">Three Coins for the Bard</span>
 
@@ -717,9 +717,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfzmJ3rsxLN/)       | 2022-07-09 |       |   204 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1330) | 2022-07-09 |   524 |    61 |       742 |   8.22 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1330) | 2022-07-09 |   525 |    61 |       742 |   8.22 |
 | [`tg`](https://t.me/mwscr/269)                     | 2022-07-09 |   633 |    54 |       257 |  21.01 |
-|                                                    |            |  1157 |   319 |       999 |  14.62 |
+|                                                    |            |  1158 |   319 |       999 |  14.62 |
 
 #### Comments
 
@@ -748,9 +748,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cf91rD0MUsB/)       | 2022-07-13 |       |   143 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1341) | 2022-07-13 |   643 |    77 |       771 |   9.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1341) | 2022-07-13 |   645 |    77 |       771 |   9.99 |
 | [`tg`](https://t.me/mwscr/276)                     | 2022-07-13 |   721 |    50 |       260 |  19.23 |
-|                                                    |            |  1364 |   270 |      1031 |  14.61 |
+|                                                    |            |  1366 |   270 |      1031 |  14.61 |
 
 #### Comments
 
@@ -782,9 +782,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfkOkyxM56I/)       | 2022-07-03 |       |   226 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1321) | 2022-07-03 |   581 |    71 |       738 |   9.62 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1321) | 2022-07-03 |   582 |    71 |       738 |   9.62 |
 | [`tg`](https://t.me/mwscr/260)                     | 2022-07-03 |   642 |    49 |       252 |  19.44 |
-|                                                    |            |  1223 |   346 |       990 |  14.53 |
+|                                                    |            |  1224 |   346 |       990 |  14.53 |
 
 #### Comments
 
@@ -814,9 +814,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cf7QmlXsoVy/)       | 2022-07-12 |       |   163 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1337) | 2022-07-12 |   620 |    79 |       769 |  10.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1337) | 2022-07-12 |   621 |    79 |       769 |  10.27 |
 | [`tg`](https://t.me/mwscr/275)                     | 2022-07-12 |   690 |    48 |       258 |   18.6 |
-|                                                    |            |  1310 |   290 |      1027 |  14.44 |
+|                                                    |            |  1311 |   290 |      1027 |  14.44 |
 
 #### Comments
 
@@ -844,9 +844,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cgc2ek9sPt3/)       | 2022-07-25 |       |   279 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1365) | 2022-07-25 |   739 |    69 |       791 |   8.72 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1365) | 2022-07-25 |   740 |    69 |       791 |   8.72 |
 | [`tg`](https://t.me/mwscr/291)                     | 2022-07-25 |   995 |    54 |       272 |  19.85 |
-|                                                    |            |  1734 |   402 |      1063 |  14.29 |
+|                                                    |            |  1735 |   402 |      1063 |  14.29 |
 
 ## <span id="2022-08-01.caravaneers-workplace">Caravaneer&#39;s Workplace</span>
 
@@ -867,9 +867,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cgu9T1AsAWT/)       | 2022-08-01 |       |   175 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1377) | 2022-08-01 |   920 |    70 |       797 |   8.78 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1377) | 2022-08-01 |   921 |    70 |       797 |   8.78 |
 | [`tg`](https://t.me/mwscr/304)                     | 2022-08-01 |  1629 |    55 |       279 |  19.71 |
-|                                                    |            |  2549 |   300 |      1076 |  14.25 |
+|                                                    |            |  2550 |   300 |      1076 |  14.25 |
 
 #### Comments
 
@@ -899,9 +899,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgDCUOIs8g_/)       | 2022-07-15 |       |   139 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1345) | 2022-07-15 |   701 |    72 |       771 |   9.34 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1345) | 2022-07-15 |   702 |    72 |       771 |   9.34 |
 | [`tg`](https://t.me/mwscr/278)                     | 2022-07-15 |   747 |    50 |       262 |  19.08 |
-|                                                    |            |  1448 |   261 |      1033 |  14.21 |
+|                                                    |            |  1449 |   261 |      1033 |  14.21 |
 
 #### Comments
 
@@ -926,9 +926,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgXsRanMl8c/)       | 2022-07-23 |       |   105 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1363) | 2022-07-23 |   717 |    70 |       790 |   8.86 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1363) | 2022-07-23 |   718 |    70 |       790 |   8.86 |
 | [`tg`](https://t.me/mwscr/289)                     | 2022-07-23 |   886 |    53 |       272 |  19.49 |
-|                                                    |            |  1603 |   228 |      1062 |  14.17 |
+|                                                    |            |  1604 |   228 |      1062 |  14.17 |
 
 #### Comments
 
@@ -954,9 +954,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgSe7SJM4ba/)       | 2022-07-21 |       |   116 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1358) | 2022-07-21 |   999 |    77 |       786 |    9.8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1358) | 2022-07-21 |  1000 |    77 |       786 |    9.8 |
 | [`tg`](https://t.me/mwscr/284)                     | 2022-07-21 |  1479 |    49 |       267 |  18.35 |
-|                                                    |            |  2478 |   242 |      1053 |  14.07 |
+|                                                    |            |  2479 |   242 |      1053 |  14.07 |
 
 #### Comments
 
@@ -1047,9 +1047,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgkkWXgsk6c/)       | 2022-07-28 |       |   235 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1368) | 2022-07-28 |   710 |    62 |       796 |   7.79 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1368) | 2022-07-28 |   711 |    62 |       796 |   7.79 |
 | [`tg`](https://t.me/mwscr/297)                     | 2022-07-28 |  1154 |    54 |       274 |  19.71 |
-|                                                    |            |  1864 |   351 |      1070 |  13.75 |
+|                                                    |            |  1865 |   351 |      1070 |  13.75 |
 
 #### Comments
 
@@ -1111,9 +1111,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cfe829FstUf/)       | 2022-07-01 |       |   132 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1319) | 2022-07-01 |   536 |    58 |       738 |   7.86 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1319) | 2022-07-01 |   537 |    58 |       738 |   7.86 |
 | [`tg`](https://t.me/mwscr/258)                     | 2022-07-01 |   612 |    47 |       247 |  19.03 |
-|                                                    |            |  1148 |   237 |       985 |  13.44 |
+|                                                    |            |  1149 |   237 |       985 |  13.44 |
 
 #### Comments
 
@@ -1139,9 +1139,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgaYDbOsek_/)       | 2022-07-24 |       |   134 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1364) | 2022-07-24 |   658 |    61 |       790 |   7.72 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1364) | 2022-07-24 |   659 |    61 |       790 |   7.72 |
 | [`tg`](https://t.me/mwscr/290)                     | 2022-07-24 |   926 |    52 |       272 |  19.12 |
-|                                                    |            |  1584 |   247 |      1062 |  13.42 |
+|                                                    |            |  1585 |   247 |      1062 |  13.42 |
 
 ## <span id="2022-07-27.camp-by-the-old-tree">Camp by the Old Tree</span>
 
@@ -1162,9 +1162,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cgh-wvuM6kc/)       | 2022-07-27 |       |   138 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1367) | 2022-07-27 |   687 |    58 |       795 |    7.3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1367) | 2022-07-27 |   688 |    58 |       795 |    7.3 |
 | [`tg`](https://t.me/mwscr/296)                     | 2022-07-27 |  1103 |    53 |       272 |  19.49 |
-|                                                    |            |  1790 |   249 |      1067 |  13.39 |
+|                                                    |            |  1791 |   249 |      1067 |  13.39 |
 
 #### Comments
 
@@ -1264,9 +1264,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgIVDUJModN/)       | 2022-07-17 |       |   166 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1347) | 2022-07-17 |   650 |    60 |       779 |    7.7 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1347) | 2022-07-17 |   651 |    60 |       779 |    7.7 |
 | [`tg`](https://t.me/mwscr/280)                     | 2022-07-17 |   754 |    49 |       262 |   18.7 |
-|                                                    |            |  1404 |   275 |      1041 |   13.2 |
+|                                                    |            |  1405 |   275 |      1041 |   13.2 |
 
 #### Comments
 
@@ -1295,9 +1295,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgfVAmNMnk5/)       | 2022-07-26 |       |   230 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1366) | 2022-07-26 |   741 |    52 |       793 |   6.56 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1366) | 2022-07-26 |   742 |    52 |       793 |   6.56 |
 | [`tg`](https://t.me/mwscr/292,293,294,295)         | 2022-07-26 |  1037 |    54 |       273 |  19.78 |
-|                                                    |            |  1778 |   336 |      1066 |  13.17 |
+|                                                    |            |  1779 |   336 |      1066 |  13.17 |
 
 #### Comments
 
@@ -1324,9 +1324,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfXAIy7MoQp/)       | 2022-06-28 |       |   188 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1316) | 2022-06-28 |   483 |    47 |       734 |    6.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1316) | 2022-06-28 |   484 |    47 |       734 |    6.4 |
 | [`tg`](https://t.me/mwscr/255)                     | 2022-06-28 |   651 |    48 |       242 |  19.83 |
-|                                                    |            |  1134 |   283 |       976 |  13.12 |
+|                                                    |            |  1135 |   283 |       976 |  13.12 |
 
 #### Comments
 
@@ -1351,9 +1351,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CvSgwuXs7Q5/)       | 2023-07-29 |       |   247 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1391) | 2023-07-29 |   415 |    43 |       891 |   4.83 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1391) | 2023-07-29 |   416 |    43 |       891 |   4.83 |
 | [`tg`](https://t.me/mwscr/309)                     | 2023-07-29 |   675 |    68 |       319 |  21.32 |
-|                                                    |            |  1090 |   358 |      1210 |  13.07 |
+|                                                    |            |  1091 |   358 |      1210 |  13.07 |
 
 #### Comments
 
@@ -1405,35 +1405,6 @@
 - `vk` <ins title="2024-02-28-06-48-12">vladkr114</ins> Эх😔
 - `ig` <ins title="2024-02-29-19-40-42">angelpeepee__</ins> Incredibke
 
-## <span id="2022-07-18.long-talk">Long Talk</span>
-
-`RU` Долгий разговор
-
-<a href="https://instagram.com/p/CgKsbg9MV6e/" title="2022-07-18.long-talk"><img alt="store:/shots/2022-07-18.long-talk.png" src="../../assets/previews/shots/2022-07-18.long-talk.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-18.long-talk)</code> `🚀 OpenMW` `candles` `bottle`
-
-```
-2022-07-18.long-talk
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CgKsbg9MV6e/)       | 2022-07-18 |       |   160 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1349) | 2022-07-18 |   614 |    57 |       781 |    7.3 |
-| [`tg`](https://t.me/mwscr/281)                     | 2022-07-18 |   775 |    50 |       267 |  18.73 |
-|                                                    |            |  1389 |   267 |      1048 |  13.01 |
-
-#### Comments
-
-- `vk` <ins title="2022-07-19-01-57-06">mentos100</ins> Любой долгий разговор в Морровинде заканчиваеться либо [*Никакие слова не могут описать того, что вы видите. Или того, что вы думаете, что видите*] либо убийством одного из членов диалога.
-- `ig` <ins title="2022-07-19-08-33-53">gloves_finne</ins> ❤️❤️❤️
-- `ig` <ins title="2022-07-19-13-02-25">quantd7709</ins> always a chore to remove these bad boys from the house i store my weapons in 😂
-
 ## <span id="2022-06-27.going-out-of-mournhold-armory">Going Out of Mournhold Armory</span>
 
 `RU` Выходя из оружейной Морнхолда
@@ -1453,9 +1424,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfUrA4Zs0dz/)       | 2022-06-27 |       |   156 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1315) | 2022-06-27 |   489 |    44 |       732 |   6.01 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1315) | 2022-06-27 |   492 |    45 |       732 |   6.15 |
 | [`tg`](https://t.me/mwscr/254)                     | 2022-06-27 |   637 |    48 |       241 |  19.92 |
-|                                                    |            |  1126 |   248 |       973 |  12.96 |
+|                                                    |            |  1129 |   249 |       973 |  13.03 |
 
 #### Comments
 
@@ -1464,6 +1435,35 @@
 - `tg` <ins title="2022-06-28-00-13-59">Metolkin</ins> Nice work! How about expanding to the Tamriel Rebuilt?
   - <ins title="2022-06-28-05-14-38">mwscr</ins> They do nice job, but for my opinion Tamriel Rebuild does not naturally follow look and feel of vanilla Morrowind.
 - `tg` <ins title="2022-07-03-06-57-37">mwscr</ins> Let&#39;s be honest, Mournhold has been done like it was one model copypasted over the entire city.
+
+## <span id="2022-07-18.long-talk">Long Talk</span>
+
+`RU` Долгий разговор
+
+<a href="https://instagram.com/p/CgKsbg9MV6e/" title="2022-07-18.long-talk"><img alt="store:/shots/2022-07-18.long-talk.png" src="../../assets/previews/shots/2022-07-18.long-talk.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-18.long-talk)</code> `🚀 OpenMW` `candles` `bottle`
+
+```
+2022-07-18.long-talk
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/CgKsbg9MV6e/)       | 2022-07-18 |       |   160 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1349) | 2022-07-18 |   615 |    57 |       781 |    7.3 |
+| [`tg`](https://t.me/mwscr/281)                     | 2022-07-18 |   775 |    50 |       267 |  18.73 |
+|                                                    |            |  1390 |   267 |      1048 |  13.01 |
+
+#### Comments
+
+- `vk` <ins title="2022-07-19-01-57-06">mentos100</ins> Любой долгий разговор в Морровинде заканчиваеться либо [*Никакие слова не могут описать того, что вы видите. Или того, что вы думаете, что видите*] либо убийством одного из членов диалога.
+- `ig` <ins title="2022-07-19-08-33-53">gloves_finne</ins> ❤️❤️❤️
+- `ig` <ins title="2022-07-19-13-02-25">quantd7709</ins> always a chore to remove these bad boys from the house i store my weapons in 😂
 
 ## <span id="2023-08-09.night-on-suran-square">Night on Suran Square</span>
 
@@ -1513,9 +1513,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfZ666ussoY/)       | 2022-06-29 |       |   128 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1317) | 2022-06-29 |   447 |    49 |       736 |   6.66 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1317) | 2022-06-29 |   448 |    49 |       736 |   6.66 |
 | [`tg`](https://t.me/mwscr/256)                     | 2022-06-29 |   591 |    47 |       245 |  19.18 |
-|                                                    |            |  1038 |   224 |       981 |  12.92 |
+|                                                    |            |  1039 |   224 |       981 |  12.92 |
 
 #### Comments
 
@@ -1542,9 +1542,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgFmGYPs7yT/)       | 2022-07-16 |       |   239 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1346) | 2022-07-16 |   524 |    60 |       778 |   7.71 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1346) | 2022-07-16 |   525 |    60 |       778 |   7.71 |
 | [`tg`](https://t.me/mwscr/279)                     | 2022-07-16 |   751 |    47 |       262 |  17.94 |
-|                                                    |            |  1275 |   346 |      1040 |  12.83 |
+|                                                    |            |  1276 |   346 |      1040 |  12.83 |
 
 #### Comments
 
@@ -1569,9 +1569,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgpqbBYsY7l/)       | 2022-07-30 |       |   111 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1374) | 2022-07-30 |  3620 |    61 |       796 |   7.66 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1374) | 2022-07-30 |  3621 |    61 |       796 |   7.66 |
 | [`tg`](https://t.me/mwscr/299)                     | 2022-07-30 |  1306 |    50 |       278 |  17.99 |
-|                                                    |            |  4926 |   222 |      1074 |  12.82 |
+|                                                    |            |  4927 |   222 |      1074 |  12.82 |
 
 ## <span id="2018-01-16.birth-of-fabricant">Birth of Fabricant</span>
 
@@ -1624,9 +1624,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CvaP_PTsYwd/)       | 2023-08-01 |       |   130 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1396) | 2023-08-01 |   426 |    41 |       893 |   4.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1396) | 2023-08-01 |   427 |    41 |       893 |   4.59 |
 | [`tg`](https://t.me/mwscr/312)                     | 2023-08-01 |   729 |    65 |       317 |   20.5 |
-|                                                    |            |  1155 |   236 |      1210 |  12.55 |
+|                                                    |            |  1156 |   236 |      1210 |  12.55 |
 
 #### Comments
 
