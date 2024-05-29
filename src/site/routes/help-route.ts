@@ -5,9 +5,9 @@ export interface HelpRouteParams extends SiteRouteParams {
 }
 
 export const helpRoute: SiteRoute<HelpRouteParams> = {
-  path: '/help/*',
+  path: '/help*',
   info: () => ({
     title: 'Help',
   }),
-  createUrl: ({ topicId }) => `/help/${topicId}/`,
+  createUrl: ({ topicId }) => `/help/${topicId ? `${topicId}/` : ''}`,
 };

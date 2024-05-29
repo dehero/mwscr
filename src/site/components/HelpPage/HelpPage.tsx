@@ -15,7 +15,7 @@ export interface HelpPageData {
 export const HelpPage: Component = () => {
   const { topics } = useData<HelpPageData>();
   const params = useParams<HelpRouteParams>();
-  const topicId = () => params['*']?.replace(/\/$/, '') || '';
+  const topicId = () => params['*']?.replace(/\//g, '') || '';
 
   let messagesRef: HTMLDivElement | undefined;
 
