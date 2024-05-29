@@ -8,6 +8,7 @@ import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { Frame } from '../Frame/Frame.js';
 import { RouteButton } from '../RouteButton/RouteButton.js';
+import { Spacer } from '../Spacer/Spacer.js';
 import { Toaster } from '../Toaster/Toaster.js';
 import styles from './Page.module.css';
 
@@ -32,15 +33,17 @@ export const Page: Component<PageProps> = (props) => {
         <RouteButton route={homeRoute} />
         <RouteButton route={postsRoute} params={{ managerName: 'published' }} title="Posts" />
         <RouteButton route={usersRoute} />
-        <RouteButton route={helpRoute} params={{ topicId: 'mwscr' }} />
+        <RouteButton route={helpRoute} params={{ topicId: '' }} />
+
+        <Spacer />
+
+        <div class={styles.version}>
+          v{typeof pkg === 'object' && 'version' in pkg && typeof pkg.version === 'string' ? pkg.version : undefined}{' '}
+          {buildDate}
+        </div>
       </nav>
 
       <main class={styles.main}>{props.children}</main>
-
-      <div class={styles.version}>
-        {typeof pkg === 'object' && 'version' in pkg && typeof pkg.version === 'string' ? pkg.version : undefined}{' '}
-        {buildDate}
-      </div>
     </Toaster>
   );
 };
