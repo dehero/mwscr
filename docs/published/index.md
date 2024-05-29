@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`92 items`
+`93 items`
+
+## <span id="2024-05-29.lord-gothren">Lord Gothren</span>
+
+`RU` Лорд Готрен
+
+<a href="https://instagram.com/p/BNGr80KFru6/" title="2016-11-22.lord-gothren"><img alt="store:/shots/2016-11-22.lord-gothren.png" src="../../assets/previews/shots/2016-11-22.lord-gothren.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-29.lord-gothren)</code> `🚀 OpenMW` `guard` `encounter`
+
+```
+2024-05-29.lord-gothren
+```
+
+> `2016-11-22.lord-gothren`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BNGr80KFru6/)       | 2016-11-22 |       |    19 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_9)    | 2017-01-22 |    51 |     2 |         4 |      2 |
+| [`ig`](https://instagram.com/p/C7j-qgXsfuy/)       | 2024-05-29 |       |       |      1426 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1553) | 2024-05-29 |       |       |       917 |        |
+| [`tg`](https://t.me/mwscr/423)                     | 2024-05-29 |       |       |       378 |        |
+|                                                    |            |    51 |    21 |      2721 |        |
 
 ## <span id="2024-05-28.two-legioners-talking">Two Legioners Talking</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bgt0r9hj2bV/)       | 2018-03-24 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_665)  | 2018-03-24 |   206 |    13 |       145 |   8.97 |
-| [`ig`](https://instagram.com/p/C7hZ5lRJxZi/)       | 2024-05-28 |   227 |    68 |      1424 |   4.78 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1550) | 2024-05-28 |   179 |    20 |       917 |   2.18 |
-| [`tg`](https://t.me/mwscr/422)                     | 2024-05-28 |   118 |    45 |       378 |   11.9 |
-|                                                    |            |   730 |   244 |      2719 |   6.96 |
+| [`ig`](https://instagram.com/p/C7hZ5lRJxZi/)       | 2024-05-28 |   229 |    68 |      1424 |   4.78 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1550) | 2024-05-28 |   183 |    20 |       917 |   2.18 |
+| [`tg`](https://t.me/mwscr/422)                     | 2024-05-28 |   119 |    45 |       378 |   11.9 |
+|                                                    |            |   737 |   244 |      2719 |   6.96 |
 
 #### Comments
 
@@ -60,10 +87,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZUB0A-jEc7/)       | 2017-09-21 |       |    80 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_437)  | 2017-09-21 |   125 |    10 |        81 |     10 |
-| [`ig`](https://instagram.com/p/C7e1GWkSjKh/)       | 2024-05-27 |   339 |    80 |      1424 |   5.62 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1548) | 2024-05-27 |   186 |    26 |       918 |   2.83 |
-| [`tg`](https://t.me/mwscr/421)                     | 2024-05-27 |   218 |    51 |       377 |  13.53 |
-|                                                    |            |   868 |   247 |      2719 |   7.99 |
+| [`ig`](https://instagram.com/p/C7e1GWkSjKh/)       | 2024-05-27 |   340 |    80 |      1424 |   5.62 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1548) | 2024-05-27 |   188 |    26 |       918 |   2.83 |
+| [`tg`](https://t.me/mwscr/421)                     | 2024-05-27 |   219 |    51 |       377 |  13.53 |
+|                                                    |            |   872 |   247 |      2719 |   7.99 |
 
 #### Comments
 
@@ -99,10 +126,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbKswDeDVyl/)       | 2017-11-06 |       |    75 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_490)  | 2017-11-06 |   182 |    11 |        94 |     11 |
-| [`ig`](https://instagram.com/p/C7cQJmHN_aW/)       | 2024-05-26 |   188 |    51 |      1424 |   3.58 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1547) | 2024-05-26 |   208 |    25 |       918 |   2.72 |
-| [`tg`](https://t.me/mwscr/420)                     | 2024-05-26 |   156 |    52 |       377 |  13.79 |
-|                                                    |            |   734 |   214 |      2719 |   7.77 |
+| [`ig`](https://instagram.com/p/C7cQJmHN_aW/)       | 2024-05-26 |   203 |    57 |      1424 |      4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1547) | 2024-05-26 |   224 |    26 |       918 |   2.83 |
+| [`tg`](https://t.me/mwscr/420)                     | 2024-05-26 |   172 |    53 |       377 |  14.06 |
+|                                                    |            |   781 |   222 |      2719 |   7.97 |
 
 ## <span id="2024-05-25.table-for-two">Table for Two</span>
 
@@ -126,10 +153,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BiXQhHwlwzn/)       | 2018-05-04 |       |   102 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_708)  | 2018-05-04 |   294 |    23 |       157 |  14.65 |
-| [`ig`](https://instagram.com/p/C7ZrYhctLaK/)       | 2024-05-25 |   300 |    70 |      1423 |   4.92 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1546) | 2024-05-25 |   219 |    33 |       918 |   3.59 |
-| [`tg`](https://t.me/mwscr/419)                     | 2024-05-25 |   176 |    48 |       377 |  12.73 |
-|                                                    |            |   989 |   276 |      2718 |   8.97 |
+| [`ig`](https://instagram.com/p/C7ZrYhctLaK/)       | 2024-05-25 |   310 |    73 |      1423 |   5.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1546) | 2024-05-25 |   231 |    34 |       918 |    3.7 |
+| [`tg`](https://t.me/mwscr/419)                     | 2024-05-25 |   210 |    51 |       377 |  13.53 |
+|                                                    |            |  1045 |   283 |      2718 |   9.25 |
 
 #### Comments
 
