@@ -808,6 +808,19 @@
       followers: 8
       likes: 7
       views: 163
+    - service: ig
+      id: C7mjqSQM94n
+      mediaId: '18032443918976591'
+      published: 2024-05-30-18-20-35
+      followers: 1427
+    - service: vk
+      id: 1554
+      published: 2024-05-30-18-20-43
+      followers: 916
+    - service: tg
+      id: 424
+      published: 2024-05-30-18-20-52
+      followers: 378
 2017-01-28.1.meditative-evening-in-ahemmusa-camp:
   title: Meditative Evening in Ahemmusa Camp
   titleRu: Медитативный вечер в лагере Ахеммуза
@@ -7698,10 +7711,10 @@
       id: C7e1GWkSjKh
       mediaId: '18025264844319132'
       published: 2024-05-27-18-19-00
-      updated: 2024-05-29-18-18-36
+      updated: 2024-05-30-18-20-19
       followers: 1424
-      likes: 80
-      views: 340
+      likes: 83
+      views: 357
       comments: !c |-
         i0aAk5PLQnj8CvaAAACnaWFtamJyZalPaCBHb2Qgbm+Uy0J4+7+CVoAAqXBpZV9iYXJtc6hGbHl5
         eXlpbpPLQnj7845QAACwc29tZW9uZV9zaW1wbGU0MrVmbHl5eWluIGluIHRoZSBza3l5eXmTy0J4
@@ -7709,18 +7722,21 @@
     - service: vk
       id: 1548
       published: 2024-05-27-18-19-06
-      updated: 2024-05-29-18-18-34
+      updated: 2024-05-30-18-20-17
       followers: 918
       likes: 26
-      views: 188
+      views: 198
       comments: !c ixaAkZPLQnj7tpQ0gACmamVybW9yu9Cf0LDQsNGA0LjRgiDQstGL0YHQsNC60L7QvgM=
     - service: tg
       id: 421
       published: 2024-05-27-18-19-15
-      updated: 2024-05-29-18-18-35
+      updated: 2024-05-30-18-20-18
       followers: 377
-      likes: 51
-      views: 219
+      likes: 54
+      views: 240
+      comments: !c |-
+        CxyAkpPLQnj8Xwd/AACraGVhcnRfZm9ybXOk8J+RipPLQnj8XwUOAACraGVhcnRfZm9ybXOmRmln
+        aHQhAw==
 2017-09-22.near-gnisis-eggmine:
   title: Near Gnisis Eggmine
   titleRu: У яичной шахты Гнисиса
@@ -8955,25 +8971,25 @@
       id: C7cQJmHN_aW
       mediaId: '18060721837564598'
       published: 2024-05-26-18-17-39
-      updated: 2024-05-29-18-18-36
+      updated: 2024-05-30-18-20-19
       followers: 1424
-      likes: 57
-      views: 203
+      likes: 58
+      views: 207
     - service: vk
       id: 1547
       published: 2024-05-26-18-17-46
-      updated: 2024-05-29-18-18-35
+      updated: 2024-05-30-18-20-18
       followers: 918
       likes: 26
-      views: 224
+      views: 233
       reposts: 2
     - service: tg
       id: 420
       published: 2024-05-26-18-17-52
-      updated: 2024-05-29-18-18-35
+      updated: 2024-05-30-18-20-19
       followers: 377
       likes: 53
-      views: 172
+      views: 206
 2017-11-07.corridor-keeper:
   title: Corridor Keeper
   titleRu: Хранитель прохода
