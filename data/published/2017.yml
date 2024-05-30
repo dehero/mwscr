@@ -812,23 +812,29 @@
       id: C7mjqSQM94n
       mediaId: '18032443918976591'
       published: 2024-05-30-18-20-35
-      updated: 2024-05-30-19-13-30
+      updated: 2024-05-30-20-16-45
       followers: 1427
-      likes: 19
+      likes: 35
+      views: 18
     - service: vk
       id: 1554
       published: 2024-05-30-18-20-43
-      updated: 2024-05-30-19-13-30
+      updated: 2024-05-30-20-16-45
       followers: 916
-      likes: 10
-      views: 47
+      likes: 12
+      views: 63
+      comments: !c |-
+        GwoBIByJcYzKSixfRMiN9Oep1NqKgigNsCUeSXKPiXV4WpnLdEm0C2sFzR5mHf/BDzU50sDg5tFz
+        AlFLYk4sEA3hZBMFWSQ8sV73Ox9s3DA98+fLnnmexnX7/lL+DFZCFstRUExg+ZAUV1SMs8WU0EWS
+        UyRQJFscBo0oydwQRS4qZos3BdqPU31iFYDpAb26dzaKS3Le+zYHeWOlIYQcPKJcKJSEQSswNkpR
+        9/86Tw==
     - service: tg
       id: 424
       published: 2024-05-30-18-20-52
-      updated: 2024-05-30-19-13-31
+      updated: 2024-05-30-20-16-46
       followers: 378
-      likes: 23
-      views: 56
+      likes: 28
+      views: 66
 2017-01-28.1.meditative-evening-in-ahemmusa-camp:
   title: Meditative Evening in Ahemmusa Camp
   titleRu: Медитативный вечер в лагере Ахеммуза
