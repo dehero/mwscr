@@ -4,7 +4,30 @@
 
 # Published in 2024
 
-`94 items`
+`95 items`
+
+## <span id="2024-05-31.in-fir-branches">In Fir Branches</span>
+
+`RU` В ветвях ели
+
+<a href="https://instagram.com/p/C7pISR-N9hL/" title="2024-05-31.in-fir-branches"><img alt="store:/shots/2024-05-31.in-fir-branches.png" src="../../assets/previews/shots/2024-05-31.in-fir-branches.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-31.in-fir-branches)</code> `🚀 OpenMW` `🔗 Bloodmoon` `firtree` `snow`
+
+```
+2024-05-31.in-fir-branches
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C7pISR-N9hL/)       | 2024-05-31 |      1427 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1556) | 2024-05-31 |       915 |
+| [`tg`](https://t.me/mwscr/425)                     | 2024-05-31 |       379 |
+|                                                    |            |      2721 |
 
 ## <span id="2024-05-30.telvanni-council-house">Telvanni Council House</span>
 
@@ -28,10 +51,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BPwYG90Fn8f/)       | 2017-01-27 |       |    33 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_99)   | 2017-01-27 |   163 |     7 |         8 |      7 |
-| [`ig`](https://instagram.com/p/C7mjqSQM94n/)       | 2024-05-30 |   357 |    74 |      1427 |   5.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1554) | 2024-05-30 |   236 |    39 |       916 |   4.26 |
-| [`tg`](https://t.me/mwscr/424)                     | 2024-05-30 |   110 |    38 |       378 |  10.05 |
-|                                                    |            |   866 |   191 |      2721 |   6.62 |
+| [`ig`](https://instagram.com/p/C7mjqSQM94n/)       | 2024-05-30 |   364 |    77 |      1427 |    5.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1554) | 2024-05-30 |   240 |    39 |       916 |   4.26 |
+| [`tg`](https://t.me/mwscr/424)                     | 2024-05-30 |   115 |    39 |       378 |  10.32 |
+|                                                    |            |   882 |   195 |      2721 |   6.74 |
 
 #### Comments
 
@@ -59,10 +82,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNGr80KFru6/)       | 2016-11-22 |       |    19 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_9)    | 2017-01-22 |    51 |     2 |         4 |      2 |
-| [`ig`](https://instagram.com/p/C7j-qgXsfuy/)       | 2024-05-29 |   330 |    83 |      1426 |   5.82 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1553) | 2024-05-29 |   186 |    22 |       917 |    2.4 |
-| [`tg`](https://t.me/mwscr/423)                     | 2024-05-29 |   152 |    49 |       378 |  12.96 |
-|                                                    |            |   719 |   175 |      2721 |    5.8 |
+| [`ig`](https://instagram.com/p/C7j-qgXsfuy/)       | 2024-05-29 |   331 |    85 |      1426 |   5.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1553) | 2024-05-29 |   187 |    22 |       917 |    2.4 |
+| [`tg`](https://t.me/mwscr/423)                     | 2024-05-29 |   156 |    49 |       378 |  12.96 |
+|                                                    |            |   725 |   177 |      2721 |   5.83 |
 
 ## <span id="2024-05-28.two-legioners-talking">Two Legioners Talking</span>
 

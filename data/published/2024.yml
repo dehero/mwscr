@@ -1858,3 +1858,29 @@
 2024-05-28.two-legioners-talking: 2018-03-24.two-legioners-talking
 2024-05-29.lord-gothren: 2016-11-22.lord-gothren
 2024-05-30.telvanni-council-house: 2017-01-27.telvanni-council-house
+2024-05-31.in-fir-branches:
+  title: In Fir Branches
+  titleRu: В ветвях ели
+  content: store:/shots/2024-05-31.in-fir-branches.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  addon: Bloodmoon
+  tags:
+    - firtree
+    - snow
+  mark: E
+  posts:
+    - service: ig
+      id: C7pISR-N9hL
+      mediaId: '18000110936372498'
+      published: 2024-05-31-18-19-06
+      followers: 1427
+    - service: vk
+      id: 1556
+      published: 2024-05-31-18-19-13
+      followers: 915
+    - service: tg
+      id: 425
+      published: 2024-05-31-18-19-20
+      followers: 379

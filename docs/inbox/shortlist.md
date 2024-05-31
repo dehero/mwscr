@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`3 items`
+`2 items`
 
 ## <span id="dehero.2024-03-05-20-03-29">Visiting Imperial Fort</span>
 
@@ -24,26 +24,6 @@
 
 ```
 dehero.2024-03-05-20-03-29
-```
-
-## <span id="dehero.2024-02-05-00-26-03">In Fir Branches</span>
-
-`RU` В ветвях ели
-
-![store:/inbox/dehero.2024-02-05-00-26-03.1.png](../../assets/previews/inbox/dehero.2024-02-05-00-26-03.1.avif "dehero.2024-02-05-00-26-03.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2024-02-05-00-26-03.png](../../assets/previews/inbox/dehero.2024-02-05-00-26-03.avif "dehero.2024-02-05-00-26-03")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-05-00-26-03&amp;postContent=store%3A%2Finbox%2Fdehero.2024-02-05-00-26-03.1.png&amp;postTitle=In+Fir+Branches&amp;postTitleRu=%D0%92+%D0%B2%D0%B5%D1%82%D0%B2%D1%8F%D1%85+%D0%B5%D0%BB%D0%B8&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Bloodmoon&amp;postTags=firtree+snow&amp;postLocation=&amp;postMark=E&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-02-05-00-26-03.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-05-00-26-03) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-05-00-26-03) `E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-02-05-00-26-03)</code> `🚀 OpenMW` `🔗 Bloodmoon` `firtree` `snow`
-
-```
-dehero.2024-02-05-00-26-03
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
