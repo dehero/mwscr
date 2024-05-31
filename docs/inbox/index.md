@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`52 items`
+`51 items`
 
 ## <span id="vladyslav-zhuk.2024-05-20-d3c543d1">vladyslav-zhuk.2024-05-20-d3c543d1</span>
 
@@ -573,22 +573,6 @@ dehero.2024-03-24-11-41-57
 
 ```
 dehero.2024-03-05-20-06-06
-```
-
-## <span id="dehero.2024-03-05-20-03-29">dehero.2024-03-05-20-03-29</span>
-
-![store:/inbox/dehero.2024-03-05-20-03-29.png](../../assets/previews/inbox/dehero.2024-03-05-20-03-29.avif "dehero.2024-03-05-20-03-29")
-![store:/inbox/dehero.2024-03-05-20-03-29.1.png](../../assets/previews/inbox/dehero.2024-03-05-20-03-29.1.avif "dehero.2024-03-05-20-03-29.1")
-
-`shot` by [dehero](../contributors.md#dehero)
-
-> [!WARNING]
-> Need english title, need russian title, need mark, detected post type "drawing", got "shot".
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-05-20-03-29&amp;postContent=store%3A%2Finbox%2Fdehero.2024-03-05-20-03-29.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-20-03-29.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=Buckmoth+Legion+Fort%2C+Interior&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-05-20-03-29) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-05-20-03-29) `📍 Buckmoth Legion Fort, Interior`
-
-```
-dehero.2024-03-05-20-03-29
 ```
 
 ## <span id="dehero.2024-03-05-20-02-12">dehero.2024-03-05-20-02-12</span>
