@@ -7726,10 +7726,10 @@
       id: C7e1GWkSjKh
       mediaId: '18025264844319132'
       published: 2024-05-27-18-19-00
-      updated: 2024-05-31-19-12-38
+      updated: 2024-06-01-19-14-13
       followers: 1424
-      likes: 88
-      views: 372
+      likes: 90
+      views: 381
       comments: !c |-
         i0aAk5PLQnj8CvaAAACnaWFtamJyZalPaCBHb2Qgbm+Uy0J4+7+CVoAAqXBpZV9iYXJtc6hGbHl5
         eXlpbpPLQnj7845QAACwc29tZW9uZV9zaW1wbGU0MrVmbHl5eWluIGluIHRoZSBza3l5eXmTy0J4
@@ -7737,18 +7737,18 @@
     - service: vk
       id: 1548
       published: 2024-05-27-18-19-06
-      updated: 2024-05-31-19-12-37
+      updated: 2024-06-01-19-14-12
       followers: 918
-      likes: 29
-      views: 209
+      likes: 31
+      views: 217
       comments: !c ixaAkZPLQnj7tpQ0gACmamVybW9yu9Cf0LDQsNGA0LjRgiDQstGL0YHQsNC60L7QvgM=
     - service: tg
       id: 421
       published: 2024-05-27-18-19-15
-      updated: 2024-05-31-19-12-37
+      updated: 2024-06-01-19-14-12
       followers: 377
-      likes: 55
-      views: 265
+      likes: 57
+      views: 280
       comments: !c |-
         CxyAkpPLQnj8Xwd/AACraGVhcnRfZm9ybXOk8J+RipPLQnj8XwUOAACraGVhcnRfZm9ybXOmRmln
         aHQhAw==
@@ -8986,25 +8986,25 @@
       id: C7cQJmHN_aW
       mediaId: '18060721837564598'
       published: 2024-05-26-18-17-39
-      updated: 2024-05-31-19-12-38
+      updated: 2024-06-01-19-14-14
       followers: 1424
       likes: 61
-      views: 216
+      views: 219
     - service: vk
       id: 1547
       published: 2024-05-26-18-17-46
-      updated: 2024-05-31-19-12-38
+      updated: 2024-06-01-19-14-13
       followers: 918
       likes: 27
-      views: 240
+      views: 242
       reposts: 2
     - service: tg
       id: 420
       published: 2024-05-26-18-17-52
-      updated: 2024-05-31-19-12-38
+      updated: 2024-06-01-19-14-13
       followers: 377
-      likes: 53
-      views: 220
+      likes: 54
+      views: 230
 2017-11-07.corridor-keeper:
   title: Corridor Keeper
   titleRu: Хранитель прохода
