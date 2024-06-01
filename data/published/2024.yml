@@ -1875,17 +1875,17 @@
       id: C7pISR-N9hL
       mediaId: '18000110936372498'
       published: 2024-05-31-18-19-06
-      updated: 2024-06-01-17-12-56
+      updated: 2024-06-01-18-18-14
       followers: 1427
       likes: 85
-      views: 286
+      views: 294
     - service: vk
       id: 1556
       published: 2024-05-31-18-19-13
-      updated: 2024-06-01-17-12-56
+      updated: 2024-06-01-18-18-14
       followers: 915
       likes: 34
-      views: 171
+      views: 173
       reposts: 1
       comments: !c |-
         G94BAC0O7IbPG+0ezgxd+kiI/0fuWdw8fvNfoKFG2go4TCRMztVssmmFEHohCAwa2/1ft8vf2hOW
@@ -1896,7 +1896,34 @@
     - service: tg
       id: 425
       published: 2024-05-31-18-19-20
-      updated: 2024-06-01-17-12-57
+      updated: 2024-06-01-18-18-15
       followers: 379
-      likes: 45
-      views: 113
+      likes: 47
+      views: 116
+2024-06-01.visiting-imperial-fort:
+  title: Visiting Imperial Fort
+  titleRu: Посещение имперского форта
+  location: Buckmoth Legion Fort, Interior
+  content: store:/shots/2024-06-01.visiting-imperial-fort.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - candles
+    - fort
+    - table
+  mark: B1
+  posts:
+    - service: ig
+      id: C7rtBEqvlv8
+      mediaId: '17959104698769673'
+      published: 2024-06-01-18-18-31
+      followers: 1428
+    - service: vk
+      id: 1559
+      published: 2024-06-01-18-18-37
+      followers: 915
+    - service: tg
+      id: 426
+      published: 2024-06-01-18-18-43
+      followers: 380

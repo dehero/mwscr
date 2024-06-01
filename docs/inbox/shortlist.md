@@ -4,27 +4,7 @@
 
 # Shortlist
 
-`2 items`
-
-## <span id="dehero.2024-03-05-20-03-29">Visiting Imperial Fort</span>
-
-`RU` Посещение имперского форта
-
-![store:/inbox/dehero.2024-03-05-20-03-29.1.png](../../assets/previews/inbox/dehero.2024-03-05-20-03-29.1.avif "dehero.2024-03-05-20-03-29.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2024-03-05-20-03-29.png](../../assets/previews/inbox/dehero.2024-03-05-20-03-29.avif "dehero.2024-03-05-20-03-29")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-05-20-03-29&amp;postContent=store%3A%2Finbox%2Fdehero.2024-03-05-20-03-29.1.png&amp;postTitle=Visiting+Imperial+Fort&amp;postTitleRu=%D0%9F%D0%BE%D1%81%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B8%D0%BC%D0%BF%D0%B5%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE+%D1%84%D0%BE%D1%80%D1%82%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=candles+fort+table&amp;postLocation=Buckmoth+Legion+Fort%2C+Interior&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-03-05-20-03-29.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-05-20-03-29) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-05-20-03-29) `B1` `📍 Buckmoth Legion Fort, Interior` `🚀 OpenMW` `candles` `fort` `table`
-
-```
-dehero.2024-03-05-20-03-29
-```
+`1 items`
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
 

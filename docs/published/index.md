@@ -4,7 +4,30 @@
 
 # Published in 2024
 
-`95 items`
+`96 items`
+
+## <span id="2024-06-01.visiting-imperial-fort">Visiting Imperial Fort</span>
+
+`RU` Посещение имперского форта
+
+<a href="https://instagram.com/p/C7rtBEqvlv8/" title="2024-06-01.visiting-imperial-fort"><img alt="store:/shots/2024-06-01.visiting-imperial-fort.png" src="../../assets/previews/shots/2024-06-01.visiting-imperial-fort.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Buckmoth Legion Fort, Interior` `🚀 OpenMW` `candles` `fort` `table`
+
+```
+2024-06-01.visiting-imperial-fort
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C7rtBEqvlv8/)       | 2024-06-01 |      1428 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1559) | 2024-06-01 |       915 |
+| [`tg`](https://t.me/mwscr/426)                     | 2024-06-01 |       380 |
+|                                                    |            |      2723 |
 
 ## <span id="2024-05-31.in-fir-branches">In Fir Branches</span>
 
@@ -24,10 +47,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C7pISR-N9hL/)       | 2024-05-31 |   286 |    85 |      1427 |   5.96 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1556) | 2024-05-31 |   171 |    34 |       915 |   3.72 |
-| [`tg`](https://t.me/mwscr/425)                     | 2024-05-31 |   113 |    45 |       379 |  11.87 |
-|                                                    |            |   570 |   164 |      2721 |   7.18 |
+| [`ig`](https://instagram.com/p/C7pISR-N9hL/)       | 2024-05-31 |   294 |    85 |      1427 |   5.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1556) | 2024-05-31 |   173 |    34 |       915 |   3.72 |
+| [`tg`](https://t.me/mwscr/425)                     | 2024-05-31 |   116 |    47 |       379 |   12.4 |
+|                                                    |            |   583 |   166 |      2721 |   7.36 |
 
 #### Comments
 
@@ -114,10 +137,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bgt0r9hj2bV/)       | 2018-03-24 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_665)  | 2018-03-24 |   206 |    13 |       145 |   8.97 |
-| [`ig`](https://instagram.com/p/C7hZ5lRJxZi/)       | 2024-05-28 |   279 |    79 |      1424 |   5.55 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1550) | 2024-05-28 |   221 |    22 |       917 |    2.4 |
-| [`tg`](https://t.me/mwscr/422)                     | 2024-05-28 |   172 |    51 |       378 |  13.49 |
-|                                                    |            |   878 |   263 |      2719 |    7.6 |
+| [`ig`](https://instagram.com/p/C7hZ5lRJxZi/)       | 2024-05-28 |   294 |    82 |      1424 |   5.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1550) | 2024-05-28 |   230 |    23 |       917 |   2.51 |
+| [`tg`](https://t.me/mwscr/422)                     | 2024-05-28 |   196 |    53 |       378 |  14.02 |
+|                                                    |            |   926 |   269 |      2719 |   7.81 |
 
 #### Comments
 
