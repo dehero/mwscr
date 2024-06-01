@@ -244,15 +244,15 @@
     - service: vk
       id: 1440
       published: 2024-03-08-18-18-36
-      updated: 2024-05-25-02-26-17
+      updated: 2024-06-01-02-32-57
       followers: 893
       likes: 33
-      views: 283
+      views: 285
       reposts: 2
     - service: tg
       id: 339
       published: 2024-03-08-18-18-42
-      updated: 2024-05-25-02-26-16
+      updated: 2024-06-01-02-32-56
       followers: 345
       likes: 59
       views: 491
@@ -429,24 +429,24 @@
       id: C4i7nMEvfEh
       mediaId: '18272931199202580'
       published: 2024-03-15-18-58-44
-      updated: 2024-05-25-02-26-15
+      updated: 2024-06-01-02-32-55
       followers: 1386
       likes: 97
-      views: 425
+      views: 428
     - service: vk
       id: 1453
       published: 2024-03-15-18-58-50
-      updated: 2024-05-25-02-26-17
+      updated: 2024-06-01-02-32-57
       followers: 896
       likes: 30
-      views: 267
+      views: 269
     - service: tg
       id: 347
       published: 2024-03-15-18-58-56
-      updated: 2024-05-25-02-26-16
+      updated: 2024-06-01-02-32-56
       followers: 352
       likes: 45
-      views: 443
+      views: 444
 2024-03-16.night-guardess: 2017-03-01.night-guardess
 2024-03-17.teeth-of-pelagiad:
   title: Teeth of Pelagiad
@@ -1875,17 +1875,17 @@
       id: C7pISR-N9hL
       mediaId: '18000110936372498'
       published: 2024-05-31-18-19-06
-      updated: 2024-06-01-01-08-09
+      updated: 2024-06-01-02-32-54
       followers: 1427
-      likes: 59
-      views: 164
+      likes: 64
+      views: 170
     - service: vk
       id: 1556
       published: 2024-05-31-18-19-13
-      updated: 2024-06-01-01-08-09
+      updated: 2024-06-01-02-32-54
       followers: 915
-      likes: 27
-      views: 114
+      likes: 29
+      views: 119
       reposts: 1
       comments: !c |-
         G94BAC0O7IbPG+0ezgxd+kiI/0fuWdw8fvNfoKFG2go4TCRMztVssmmFEHohCAwa2/1ft8vf2hOW
@@ -1896,7 +1896,7 @@
     - service: tg
       id: 425
       published: 2024-05-31-18-19-20
-      updated: 2024-06-01-01-08-10
+      updated: 2024-06-01-02-32-55
       followers: 379
-      likes: 33
-      views: 80
+      likes: 36
+      views: 86
