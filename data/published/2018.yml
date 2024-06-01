@@ -1853,27 +1853,27 @@
       id: C7Hp4OxN4vS
       mediaId: '18335139937142384'
       published: 2024-05-18-18-18-25
-      updated: 2024-05-25-21-12-37
+      updated: 2024-06-01-21-14-14
       followers: 1418
-      likes: 65
-      views: 254
+      likes: 67
+      views: 258
       comments: !c |-
         G3QAwByJcYzKiuVHl6dvFg1gLjYFku5tBV0CC6TgBVpJgUmdIHL4Tjlgr4AibYt/1gvfefj8SV0R
         o32m9ab970Y4bSfWaVblgVNdaiCKAnMQO906adgu5PobADYgHsxQYrZEtozQHnYdf92ceoch
     - service: vk
       id: 1537
       published: 2024-05-18-18-18-31
-      updated: 2024-05-25-21-12-38
+      updated: 2024-06-01-21-14-14
       followers: 915
       likes: 24
-      views: 225
+      views: 246
     - service: tg
       id: 412
       published: 2024-05-18-18-18-39
-      updated: 2024-05-25-21-12-37
+      updated: 2024-06-01-21-14-14
       followers: 372
       likes: 49
-      views: 234
+      views: 309
       comments: !c iw2AkZPLQnj40RlbgACrYm9icm92bmlrb3akY296eQM=
 2018-03-08.dead-guar:
   title: Dead Guar
@@ -3456,18 +3456,18 @@
     - service: vk
       id: 1511
       published: 2024-04-27-18-16-27
-      updated: 2024-05-25-21-12-40
+      updated: 2024-06-01-21-14-16
       followers: 911
       likes: 29
-      views: 232
+      views: 236
       reposts: 1
     - service: tg
       id: 391
       published: 2024-04-27-18-16-36
-      updated: 2024-05-25-21-12-39
+      updated: 2024-06-01-21-14-16
       followers: 354
-      likes: 55
-      views: 396
+      likes: 56
+      views: 409
 2018-05-04.table-for-two:
   title: Table for Two
   titleRu: Столик на двоих
