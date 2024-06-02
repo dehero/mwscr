@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`96 items`
+`97 items`
+
+## <span id="2024-06-02.vos-from-tel-vos">Vos from Tel Vos</span>
+
+`RU` Вос из Тель Воса
+
+<a href="https://instagram.com/p/BNlu5umFeXZ/" title="2016-12-04.vos-from-tel-vos"><img alt="store:/shots/2016-12-04.vos-from-tel-vos.png" src="../../assets/previews/shots/2016-12-04.vos-from-tel-vos.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Tel Vos` `🚀 OpenMW` `nofilter`
+
+```
+2024-06-02.vos-from-tel-vos
+```
+
+> `2016-12-04.vos-from-tel-vos`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BNlu5umFeXZ/)       | 2016-12-04 |       |    19 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_21)   | 2017-01-22 |    59 |     2 |         4 |      2 |
+| [`ig`](https://instagram.com/p/C7uR50dPL4F/)       | 2024-06-02 |       |       |      1427 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1560) | 2024-06-02 |       |       |       915 |        |
+| [`tg`](https://t.me/mwscr/427)                     | 2024-06-02 |       |       |       380 |        |
+|                                                    |            |    59 |    21 |      2722 |        |
 
 ## <span id="2024-06-01.visiting-imperial-fort">Visiting Imperial Fort</span>
 
@@ -24,10 +51,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C7rtBEqvlv8/)       | 2024-06-01 |   265 |    55 |      1428 |   3.85 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1559) | 2024-06-01 |   121 |    17 |       915 |   1.86 |
-| [`tg`](https://t.me/mwscr/426)                     | 2024-06-01 |   116 |    39 |       380 |  10.26 |
-|                                                    |            |   502 |   111 |      2723 |   5.32 |
+| [`ig`](https://instagram.com/p/C7rtBEqvlv8/)       | 2024-06-01 |   276 |    56 |      1428 |   3.92 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1559) | 2024-06-01 |   122 |    17 |       915 |   1.86 |
+| [`tg`](https://t.me/mwscr/426)                     | 2024-06-01 |   117 |    39 |       380 |  10.26 |
+|                                                    |            |   515 |   112 |      2723 |   5.35 |
 
 #### Comments
 
@@ -52,10 +79,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C7pISR-N9hL/)       | 2024-05-31 |   350 |    93 |      1427 |   6.52 |
+| [`ig`](https://instagram.com/p/C7pISR-N9hL/)       | 2024-05-31 |   356 |    94 |      1427 |   6.59 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1556) | 2024-05-31 |   195 |    38 |       915 |   4.15 |
 | [`tg`](https://t.me/mwscr/425)                     | 2024-05-31 |   157 |    53 |       379 |  13.98 |
-|                                                    |            |   702 |   184 |      2721 |   8.22 |
+|                                                    |            |   708 |   185 |      2721 |   8.24 |
 
 #### Comments
 
@@ -84,10 +111,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BPwYG90Fn8f/)       | 2017-01-27 |       |    33 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_99)   | 2017-01-27 |   163 |     7 |         8 |      7 |
-| [`ig`](https://instagram.com/p/C7mjqSQM94n/)       | 2024-05-30 |   403 |    80 |      1427 |   5.61 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1554) | 2024-05-30 |   283 |    41 |       916 |   4.48 |
-| [`tg`](https://t.me/mwscr/424)                     | 2024-05-30 |   148 |    43 |       378 |  11.38 |
-|                                                    |            |   997 |   204 |      2721 |   7.11 |
+| [`ig`](https://instagram.com/p/C7mjqSQM94n/)       | 2024-05-30 |   430 |    89 |      1427 |   6.24 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1554) | 2024-05-30 |   305 |    43 |       916 |   4.69 |
+| [`tg`](https://t.me/mwscr/424)                     | 2024-05-30 |   166 |    47 |       378 |  12.43 |
+|                                                    |            |  1064 |   219 |      2721 |   7.59 |
 
 #### Comments
 
@@ -142,10 +169,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bgt0r9hj2bV/)       | 2018-03-24 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_665)  | 2018-03-24 |   206 |    13 |       145 |   8.97 |
-| [`ig`](https://instagram.com/p/C7hZ5lRJxZi/)       | 2024-05-28 |   294 |    82 |      1424 |   5.76 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1550) | 2024-05-28 |   230 |    23 |       917 |   2.51 |
-| [`tg`](https://t.me/mwscr/422)                     | 2024-05-28 |   196 |    53 |       378 |  14.02 |
-|                                                    |            |   926 |   269 |      2719 |   7.81 |
+| [`ig`](https://instagram.com/p/C7hZ5lRJxZi/)       | 2024-05-28 |   306 |    85 |      1424 |   5.97 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1550) | 2024-05-28 |   236 |    23 |       917 |   2.51 |
+| [`tg`](https://t.me/mwscr/422)                     | 2024-05-28 |   211 |    55 |       378 |  14.55 |
+|                                                    |            |   959 |   274 |      2719 |      8 |
 
 #### Comments
 
