@@ -127,18 +127,18 @@
     - service: vk
       id: 1433
       published: 2024-03-02-18-18-15
-      updated: 2024-05-26-07-13-38
+      updated: 2024-06-02-07-14-02
       followers: 895
       likes: 32
-      views: 280
+      views: 281
       comments: !c CxWAkZPLQnjgl4lCgACpaWQ0OTM2NTEztdC+0YHRgtGA0L7Rg9C80L3QvuKdpAM=
     - service: tg
       id: 333
       published: 2024-03-02-18-18-22
-      updated: 2024-05-26-07-13-38
+      updated: 2024-06-02-07-14-02
       followers: 340
       likes: 69
-      views: 516
+      views: 519
 2024-03-03.exit: 2018-02-28.exit
 2024-03-04.an-old-sprout:
   title: An Old Sprout
@@ -1875,17 +1875,17 @@
       id: C7pISR-N9hL
       mediaId: '18000110936372498'
       published: 2024-05-31-18-19-06
-      updated: 2024-06-02-06-20-15
+      updated: 2024-06-02-07-14-00
       followers: 1427
       likes: 91
-      views: 330
+      views: 333
     - service: vk
       id: 1556
       published: 2024-05-31-18-19-13
-      updated: 2024-06-02-06-20-15
+      updated: 2024-06-02-07-14-01
       followers: 915
-      likes: 36
-      views: 183
+      likes: 37
+      views: 185
       reposts: 1
       comments: !c |-
         G94BAC0O7IbPG+0ezgxd+kiI/0fuWdw8fvNfoKFG2go4TCRMztVssmmFEHohCAwa2/1ft8vf2hOW
@@ -1896,7 +1896,7 @@
     - service: tg
       id: 425
       published: 2024-05-31-18-19-20
-      updated: 2024-06-02-06-20-15
+      updated: 2024-06-02-07-14-02
       followers: 379
       likes: 51
       views: 150
@@ -1918,24 +1918,24 @@
       id: C7rtBEqvlv8
       mediaId: '17959104698769673'
       published: 2024-06-01-18-18-31
-      updated: 2024-06-02-06-20-14
+      updated: 2024-06-02-07-14-00
       followers: 1428
       likes: 43
-      views: 163
+      views: 175
     - service: vk
       id: 1559
       published: 2024-06-01-18-18-37
-      updated: 2024-06-02-06-20-14
+      updated: 2024-06-02-07-14-00
       followers: 915
       likes: 12
-      views: 87
+      views: 91
     - service: tg
       id: 426
       published: 2024-06-01-18-18-43
-      updated: 2024-06-02-06-20-15
+      updated: 2024-06-02-07-14-01
       followers: 380
-      likes: 30
-      views: 98
+      likes: 31
+      views: 101
       comments: !c |-
         G24BAKwObLdpFGJid4jmoQiT+lFPf2IIH9A3SVgyFS5RZc+8NttCrgZDsWvoJ4P9DeAAdY5re+Eu
         XduIDTZ4FuFBJxlbf3+FyWnTyTEcxBK8BhR7i6IEwsDbEgpqh8P+RNRyPir3/fxuv/99Xd+rQAmS
