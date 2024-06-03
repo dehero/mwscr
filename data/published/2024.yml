@@ -1134,10 +1134,10 @@
     - service: tg
       id: 379
       published: 2024-04-15-18-17-53
-      updated: 2024-05-27-22-13-21
+      updated: 2024-06-03-22-14-59
       followers: 352
       likes: 57
-      views: 399
+      views: 405
       comments: !c iw+AkZPLQnjuL9GnAACobW9uZ2xlcmmrbnV0dHkgcHV0dHkD
 2024-04-16.birth-of-fabricant: 2018-01-16.birth-of-fabricant
 2024-04-17.interior-garden: 2017-03-31.interior-garden
@@ -1254,18 +1254,18 @@
     - service: vk
       id: 1505
       published: 2024-04-22-18-17-36
-      updated: 2024-05-27-22-13-20
+      updated: 2024-06-03-22-15-00
       followers: 909
-      likes: 30
-      views: 231
+      likes: 31
+      views: 235
       reposts: 2
     - service: tg
       id: 386
       published: 2024-04-22-18-17-44
-      updated: 2024-05-27-22-13-20
+      updated: 2024-06-03-22-14-59
       followers: 354
       likes: 63
-      views: 377
+      views: 385
 2024-04-23.evening-mournhold: 2017-11-28.evening-mournhold
 2024-04-24.muckspunges-on-the-coast:
   title: Muckspunges on the Coast
@@ -1360,17 +1360,17 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
-      updated: 2024-05-27-21-14-38
+      updated: 2024-06-03-22-14-59
       followers: 912
-      likes: 35
-      views: 242
+      likes: 36
+      views: 247
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2024-05-27-21-14-37
+      updated: 2024-06-03-22-14-59
       followers: 354
       likes: 60
-      views: 392
+      views: 414
       comments: !c |-
         CxyAkZPLQnjzCJAGAACpcmVzaXN0X2l02SJXaGVyZSBkbyB0aGV5IGxlYWQsIGFjdHVhbGx5PyDw
         n6SUAw==
@@ -1517,25 +1517,25 @@
       id: C6owokUs7Gc
       mediaId: '18259731655241654'
       published: 2024-05-06-18-20-59
-      updated: 2024-05-27-22-13-19
+      updated: 2024-06-03-22-14-58
       followers: 1416
-      likes: 82
-      views: 249
+      likes: 83
+      views: 250
     - service: vk
       id: 1523
       published: 2024-05-06-18-21-06
-      updated: 2024-05-27-22-13-19
+      updated: 2024-06-03-22-14-59
       followers: 913
-      likes: 42
-      views: 297
+      likes: 43
+      views: 303
       reposts: 2
     - service: tg
       id: 400
       published: 2024-05-06-18-21-14
-      updated: 2024-05-27-22-13-20
+      updated: 2024-06-03-22-14-58
       followers: 371
       likes: 55
-      views: 364
+      views: 388
 2024-05-07.campfire:
   title: Campfire
   titleRu: У костра
@@ -1826,10 +1826,10 @@
       id: C7MzkoNNPlO
       mediaId: '18018481940063824'
       published: 2024-05-20-18-19-20
-      updated: 2024-05-27-21-14-38
+      updated: 2024-06-03-22-14-57
       followers: 1418
-      likes: 106
-      views: 374
+      likes: 108
+      views: 381
       comments: !c |-
         G5wAYOXnr/mP7Nld42mFQPcSG+hsgBViA5robKCDEz1hzrthnJTEfL3hdW9mhyglcRw/8vK/x1SE
         zoo2c9wq/XKK35QAIf8iaUwg9MOso5F5t7PpROCXzY9aoaM/y/GQt437lKoKLDhdgI4BmtmHfeF5
@@ -1837,17 +1837,20 @@
     - service: vk
       id: 1539
       published: 2024-05-20-18-19-27
-      updated: 2024-05-27-21-14-37
+      updated: 2024-06-03-22-14-58
       followers: 916
-      likes: 33
-      views: 232
+      likes: 34
+      views: 247
     - service: tg
       id: 414
       published: 2024-05-20-18-19-34
-      updated: 2024-05-27-21-14-37
+      updated: 2024-06-03-22-14-58
       followers: 372
-      likes: 57
-      views: 264
+      likes: 59
+      views: 340
+      comments: !c |-
+        izKAkZTLQnj8XdeKgACoZ2xpZGVyMTPZI0h1aCB3aGVyZSdzIHRoaXM/IE11cnVkaXVzIEZsYWNl
+        dXM/k8tCePxd3p8AAKlHYXRlbWF0ZTe4eW91ciBwZnAgaXMgc28gY3V0ZSDwn5izAw==
 2024-05-21.in-the-cage: 2018-04-21.in-the-cage
 2024-05-22.the-road-through-lava: 2017-03-07.the-road-through-lava
 2024-05-23.death-and-life: 2018-05-14.death-and-life
