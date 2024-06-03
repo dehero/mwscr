@@ -1875,17 +1875,17 @@
       id: C7pISR-N9hL
       mediaId: '18000110936372498'
       published: 2024-05-31-18-19-06
-      updated: 2024-06-02-18-19-05
+      updated: 2024-06-03-18-20-20
       followers: 1427
-      likes: 94
-      views: 356
+      likes: 97
+      views: 382
     - service: vk
       id: 1556
       published: 2024-05-31-18-19-13
-      updated: 2024-06-02-18-19-05
+      updated: 2024-06-03-18-20-21
       followers: 915
       likes: 38
-      views: 195
+      views: 212
       reposts: 1
       comments: !c |-
         G94BAC0O7IbPG+0ezgxd+kiI/0fuWdw8fvNfoKFG2go4TCRMztVssmmFEHohCAwa2/1ft8vf2hOW
@@ -1896,10 +1896,10 @@
     - service: tg
       id: 425
       published: 2024-05-31-18-19-20
-      updated: 2024-06-02-18-19-06
+      updated: 2024-06-03-18-20-21
       followers: 379
-      likes: 53
-      views: 157
+      likes: 56
+      views: 174
 2024-06-01.visiting-imperial-fort:
   title: Visiting Imperial Fort
   titleRu: Посещение имперского форта
@@ -1944,3 +1944,4 @@
         aeKPOWYBakM6zUYI6cyVuMhncQrEKBOx5VVaoYskuGERyzp2zzzQpMRVAJoXEoxNYSETl2NJuZm0
         RwhRIAY6Wq4wk88B
 2024-06-02.vos-from-tel-vos: 2016-12-04.vos-from-tel-vos
+2024-06-03.somewhere-nearby-vivec: 2016-12-10.somewhere-nearby-vivec
