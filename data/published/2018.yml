@@ -3114,10 +3114,10 @@
       id: C7PYTPsx11H
       mediaId: '17973618944704049'
       published: 2024-05-21-18-18-46
-      updated: 2024-05-28-20-15-57
+      updated: 2024-06-04-21-13-45
       followers: 1418
-      likes: 94
-      views: 347
+      likes: 96
+      views: 356
       comments: !c |-
         G4oAgDRC5vSDc90E5qMJp3hU2EC+wt7aIzmFHqTKDQ5Y4wADzQJKIZBJr8UkNQFTalSsz3rzSGV/
         5IkCTEKPDx3eDNxEnxEmH+W8w2p8JAeh6joOHxt6gJ+iAqYg++fu4jKvuOO3ExmAMR+HrLsOu03R
@@ -3132,10 +3132,10 @@
     - service: tg
       id: 415
       published: 2024-05-21-18-18-59
-      updated: 2024-05-28-20-15-55
+      updated: 2024-06-04-21-13-46
       followers: 373
-      likes: 53
-      views: 261
+      likes: 54
+      views: 340
 2018-04-22.evening-dwemer-architecture:
   title: Evening Dwemer Architecture
   titleRu: Вечерняя двемерская архитектура
