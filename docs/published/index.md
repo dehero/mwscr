@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`98 items`
+`99 items`
+
+## <span id="2024-06-04.hla-oad">Hla Oad</span>
+
+`RU` Хла Оуд
+
+<a href="https://instagram.com/p/BOMCwTbFtv8/" title="2016-12-19.hla-oad"><img alt="store:/shots/2016-12-19.hla-oad.png" src="../../assets/previews/shots/2016-12-19.hla-oad.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Hla Oad` `🚀 OpenMW` `nofilter` `ship`
+
+```
+2024-06-04.hla-oad
+```
+
+> `2016-12-19.hla-oad`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers |
+|----------------------------------------------------|------------|------:|------:|----------:|
+| [`ig`](https://instagram.com/p/BOMCwTbFtv8/)       | 2016-12-19 |       |    23 |           |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_36)   | 2017-01-22 |    71 |       |         4 |
+| [`ig`](https://instagram.com/p/C7zbiOkvtTq/)       | 2024-06-04 |       |       |      1426 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1564) | 2024-06-04 |       |       |       915 |
+| [`tg`](https://t.me/mwscr/429)                     | 2024-06-04 |       |       |       383 |
+|                                                    |            |    71 |    23 |      2724 |
 
 ## <span id="2024-06-03.somewhere-nearby-vivec">Somewhere Nearby Vivec</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BN1LSAClh3d/)       | 2016-12-10 |       |    19 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_27)   | 2017-01-22 |    64 |     1 |         4 |      1 |
-| [`ig`](https://instagram.com/p/C7w22D9vfx2/)       | 2024-06-03 |   215 |    64 |      1426 |   4.49 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1561) | 2024-06-03 |   159 |    23 |       915 |   2.51 |
-| [`tg`](https://t.me/mwscr/428)                     | 2024-06-03 |   115 |    39 |       383 |  10.18 |
-|                                                    |            |   553 |   146 |      2724 |   4.55 |
+| [`ig`](https://instagram.com/p/C7w22D9vfx2/)       | 2024-06-03 |   223 |    66 |      1426 |   4.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1561) | 2024-06-03 |   160 |    24 |       915 |   2.62 |
+| [`tg`](https://t.me/mwscr/428)                     | 2024-06-03 |   116 |    39 |       383 |  10.18 |
+|                                                    |            |   563 |   149 |      2724 |   4.61 |
 
 #### Comments
 
@@ -61,8 +88,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_21)   | 2017-01-22 |    59 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/C7uR50dPL4F/)       | 2024-06-02 |   284 |    90 |      1427 |   6.31 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1560) | 2024-06-02 |   266 |    39 |       915 |   4.26 |
-| [`tg`](https://t.me/mwscr/427)                     | 2024-06-02 |   154 |    53 |       380 |  13.95 |
-|                                                    |            |   763 |   203 |      2722 |   6.63 |
+| [`tg`](https://t.me/mwscr/427)                     | 2024-06-02 |   155 |    53 |       380 |  13.95 |
+|                                                    |            |   764 |   203 |      2722 |   6.63 |
 
 #### Comments
 
@@ -86,10 +113,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C7rtBEqvlv8/)       | 2024-06-01 |   315 |    62 |      1428 |   4.34 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1559) | 2024-06-01 |   139 |    18 |       915 |   1.97 |
-| [`tg`](https://t.me/mwscr/426)                     | 2024-06-01 |   155 |    47 |       380 |  12.37 |
-|                                                    |            |   609 |   127 |      2723 |   6.23 |
+| [`ig`](https://instagram.com/p/C7rtBEqvlv8/)       | 2024-06-01 |   327 |    66 |      1428 |   4.62 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1559) | 2024-06-01 |   146 |    19 |       915 |   2.08 |
+| [`tg`](https://t.me/mwscr/426)                     | 2024-06-01 |   172 |    48 |       380 |  12.63 |
+|                                                    |            |   645 |   133 |      2723 |   6.44 |
 
 #### Comments
 
