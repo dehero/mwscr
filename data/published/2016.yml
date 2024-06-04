@@ -731,26 +731,26 @@
       id: C7w22D9vfx2
       mediaId: '17851169739208234'
       published: 2024-06-03-18-20-36
-      updated: 2024-06-04-18-19-28
+      updated: 2024-06-04-19-13-10
       followers: 1426
       likes: 66
-      views: 223
+      views: 236
     - service: vk
       id: 1561
       published: 2024-06-03-18-20-43
-      updated: 2024-06-04-18-19-28
+      updated: 2024-06-04-19-13-11
       followers: 915
       likes: 24
-      views: 160
+      views: 161
       reposts: 1
       comments: !c CxWAkZPLQnj+EW8EAACqaWQyOTQ3NzQ0NbTQndCw0L/QvtC80LjQvdCw0LXRggM=
     - service: tg
       id: 428
       published: 2024-06-03-18-20-51
-      updated: 2024-06-04-18-19-28
+      updated: 2024-06-04-19-13-12
       followers: 383
-      likes: 39
-      views: 116
+      likes: 40
+      views: 131
 2016-12-11.khajiit-gives-away:
   title: Khajiit Gives Away
   titleRu: Каджит себя выдал
@@ -986,15 +986,28 @@
       id: C7zbiOkvtTq
       mediaId: '18267474631171249'
       published: 2024-06-04-18-19-40
+      updated: 2024-06-04-19-13-10
       followers: 1426
+      likes: 22
+      views: 35
     - service: vk
       id: 1564
       published: 2024-06-04-18-19-46
+      updated: 2024-06-04-19-13-10
       followers: 915
+      likes: 8
+      views: 41
     - service: tg
       id: 429
       published: 2024-06-04-18-19-52
+      updated: 2024-06-04-19-13-11
       followers: 383
+      likes: 14
+      views: 53
+      comments: !c |-
+        G40AQBwJNs5xjWRQJ0JUPF/djvDzzc2iHmfYJBQEEmjyFrO85a6JicjMZhPKt0/6ww37mYSn8/eA
+        mzgzUqwRMSbNA49h87v1K4/7vD7jt5PGuD8bfB/9Drd3IK8epCMFu+tKovfoA1BUwPLgRu/UwYkR
+        kxKbdK6qYHoE
 2016-12-20.a-boxy-nightstand:
   title: A Boxy Nightstand
   titleRu: Ящик-тумбочка
