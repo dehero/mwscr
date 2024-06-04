@@ -6,6 +6,8 @@ export interface Topic {
 
 export type TopicEntry = [string, Topic];
 
+const TOPIC_DOUBLE_BR_REGEX = /(?:\r?\n){2}/gm;
+const TOPIC_BR_REGEX = /\s\s$/gm;
 const TOPIC_TITLE_REGEX = /#\s*(.*)/m;
 const TOPIC_ID_REGEX = /([^\/]+).md$/;
 
@@ -37,7 +39,8 @@ export function createTopicEntryFromMarkdown(code: string, filename: string): To
       return `<a href="${href}"${external ? ' target="_blank"' : ''}>${title}</a>`;
     })
     .trim()
-    .replaceAll(/(?:\r?\n){2}/gm, '<br><br>');
+    .replaceAll(TOPIC_DOUBLE_BR_REGEX, '<br /><br />')
+    .replaceAll(TOPIC_BR_REGEX, '<br />');
 
   return [id, { title, html, relatedTopicIds }];
 }

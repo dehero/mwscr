@@ -33,7 +33,7 @@
   }
 
   .container {
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr min(300px);
     grid-template-rows: 1fr;
     grid-template-areas: 'messages topics';
     overflow: hidden;
