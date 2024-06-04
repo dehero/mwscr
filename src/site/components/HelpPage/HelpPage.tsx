@@ -1,6 +1,6 @@
 import { type Component, createEffect, createSignal, For, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
-import type { Topic } from '../../../core/entities/topic.js';
+import type { Topic, TopicEntry } from '../../../core/entities/topic.js';
 import { useParams } from '../../hooks/useParams.js';
 import type { HelpRouteParams } from '../../routes/help-route.js';
 import { helpRoute } from '../../routes/help-route.js';
@@ -20,11 +20,11 @@ export const HelpPage: Component = () => {
   let messagesRef: HTMLDivElement | undefined;
 
   const [historyTopicIds, setHistoryTopicIds] = createSignal<string[]>([...new Set(['', topicId()])]);
-  const historyTopicInfos = () => historyTopicIds().map((id) => topics[id]);
+  const historyTopicEntries = (): TopicEntry[] =>
+    historyTopicIds().map((id) => [id, topics[id] ?? { relatedTopicIds: [] }]);
+  const openTopicIds = (): Set<string> =>
+    new Set(historyTopicEntries().flatMap(([id, topic]) => [id, ...topic.relatedTopicIds]));
 
-  const [openTopicIds, setOpenTopicIds] = createSignal<Set<string>>(
-    new Set([topicId(), ...historyTopicInfos().flatMap((topicInfo) => topicInfo?.relatedTopicIds || [])]),
-  );
   const openTopicEntries = () =>
     [...Object.entries(topics)]
       .filter(([id]) => id && openTopicIds().has(id))
@@ -34,8 +34,6 @@ export const HelpPage: Component = () => {
     if (historyTopicIds().at(-1) !== topicId()) {
       setHistoryTopicIds((ids) => [...ids, topicId()]);
     }
-
-    setOpenTopicIds((ids) => new Set([...ids, topicId()]));
 
     if (messagesRef) {
       messagesRef.scrollTop = messagesRef.scrollHeight;
@@ -47,18 +45,23 @@ export const HelpPage: Component = () => {
       <Divider class={styles.divider} />
       <section class={styles.container}>
         <Frame class={styles.messages} ref={messagesRef}>
-          <For each={historyTopicInfos()}>
-            {(topic) => (
+          <For each={historyTopicEntries()}>
+            {([_, topic]) => (
               <section class={styles.message}>
-                <Show when={topic?.title}>
-                  <h2 class={styles.title}>{topic?.title}</h2>
+                <Show when={topic.title}>
+                  <h2 class={styles.title}>{topic.title}</h2>
                 </Show>
-                <p class={styles.text} innerHTML={topic?.html} />
+                <p class={styles.text} innerHTML={topic.html} />
               </section>
             )}
           </For>
         </Frame>
         <Frame class={styles.topics} component="ul">
+          <li>Propose work</li>
+          <li>Request post</li>
+          <li>
+            <Divider />
+          </li>
           <For each={openTopicEntries()}>
             {([topicId, topic]) => (
               <li class={styles.topic}>
