@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BToBhOEDGBg/)       | 2017-05-03 |       |    67 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_278)  | 2017-05-03 |   239 |    18 |        56 |     18 |
-| [`ig`](https://instagram.com/p/C72ATH0ODB8/)       | 2024-06-05 |   132 |    42 |      1424 |   2.95 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1569) | 2024-06-05 |    72 |    18 |       916 |   1.97 |
-| [`tg`](https://t.me/mwscr/430)                     | 2024-06-05 |    90 |    30 |       385 |   7.79 |
-|                                                    |            |   533 |   175 |      2725 |   7.68 |
+| [`ig`](https://instagram.com/p/C72ATH0ODB8/)       | 2024-06-05 |   142 |    46 |      1424 |   3.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1569) | 2024-06-05 |    77 |    20 |       916 |   2.18 |
+| [`tg`](https://t.me/mwscr/430)                     | 2024-06-05 |    96 |    33 |       385 |   8.57 |
+|                                                    |            |   554 |   184 |      2725 |      8 |
 
 #### Comments
 
@@ -61,15 +61,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOMCwTbFtv8/)       | 2016-12-19 |       |    23 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_36)   | 2017-01-22 |    71 |       |         4 |        |
-| [`ig`](https://instagram.com/p/C7zbiOkvtTq/)       | 2024-06-04 |   224 |    67 |      1426 |    4.7 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1564) | 2024-06-04 |   202 |    35 |       915 |   3.83 |
-| [`tg`](https://t.me/mwscr/429)                     | 2024-06-04 |   154 |    48 |       383 |  12.53 |
-|                                                    |            |   651 |   173 |      2724 |   7.02 |
+| [`ig`](https://instagram.com/p/C7zbiOkvtTq/)       | 2024-06-04 |   224 |    68 |      1426 |   4.77 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1564) | 2024-06-04 |   204 |    35 |       915 |   3.83 |
+| [`tg`](https://t.me/mwscr/429)                     | 2024-06-04 |   155 |    49 |       383 |  12.79 |
+|                                                    |            |   654 |   175 |      2724 |   7.13 |
 
 #### Comments
 
 - `tg` <ins title="2024-06-04-18-46-08">resist_it</ins> 🥺 это не слезы, это просто пепел прошедшей бури в глазах... 😭😭😭
 - `ig` <ins title="2024-06-04-20-45-04">someone_simple42</ins> Always loved that coast
+  - <ins title="2024-06-05-21-16-53">delanospies</ins> Very true my friend. They feel warm and make you want to stay haning around. Best region hands down. Not to mention they many tiny islands or shipwrecks to explore.
   - <ins title="2024-06-05-03-53-03">someone_simple42</ins> @delanospies that&#39;s one of the best thing about that game, in my opinion
   - <ins title="2024-06-04-22-35-36">delanospies</ins> Facts. All these fishing villages are so cozy
 - `vk` <ins title="2024-06-04-21-31-45">vasya_molch</ins> Ооо, оригинальный графон без модов, давненько же я его не видел!<br>Точнее, почти без модов.
