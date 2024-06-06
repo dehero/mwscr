@@ -8,7 +8,6 @@ const VirtualScrollContainer = clientOnly(() => import('./ClientVirtualScrollCon
 
 export interface PostPreviewsProps {
   postInfos: PostInfo[];
-  managerName: string;
 }
 
 export const PostPreviews: Component<PostPreviewsProps> = (props) => {
@@ -17,13 +16,10 @@ export const PostPreviews: Component<PostPreviewsProps> = (props) => {
     <VirtualScrollContainer
       fallback={
         <div class={styles.container}>
-          <For each={lastPostInfos()}>
-            {(postInfo) => <PostPreview postInfo={postInfo} managerName={props.managerName} class={styles.item} />}
-          </For>
+          <For each={lastPostInfos()}>{(postInfo) => <PostPreview postInfo={postInfo} class={styles.item} />}</For>
         </div>
       }
       postInfos={props.postInfos}
-      managerName={props.managerName}
     />
   );
 };

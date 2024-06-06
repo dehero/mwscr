@@ -21,7 +21,6 @@ export const POST_PREVIEW_GAP = 3;
 export interface PostPreviewProps {
   class?: string;
   postInfo: PostInfo;
-  managerName: string;
 }
 
 function getUserLetter(userEntry: UserEntry) {
@@ -34,7 +33,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
   const authorLetters = () => props.postInfo.authorEntries.map(getUserLetter);
   const requesterLetter = () =>
     props.postInfo.requesterEntry ? getUserLetter(props.postInfo.requesterEntry) : undefined;
-  const url = () => postRoute.createUrl({ managerName: props.managerName, id: props.postInfo.id });
+  const url = () => postRoute.createUrl({ managerName: props.postInfo.managerName, id: props.postInfo.id });
   const aspectRatio = () => getPostTypeAspectRatio(props.postInfo.type);
 
   const [ref, setRef] = createSignal<HTMLElement>();

@@ -14,11 +14,10 @@ import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
 import { createIssueUrl as createProposalIssueUrl } from '../../../core/github-issues/proposal.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { boolToString, stringToBool } from '../../../core/utils/common-utils.js';
-import { useParams } from '../../hooks/useParams.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
 import type { PostsPageData } from '../../pages/posts/+data.js';
-import { postsRoute, postsRouteInfos, type PostsRouteParams } from '../../routes/posts-route.js';
+import { postsRoute, postsRouteInfos } from '../../routes/posts-route.js';
 import { ALL_OPTION, ANY_OPTION, NO_OPTION, NONE_OPTION, YES_OPTION } from '../../utils/ui-constants.js';
 import { Button } from '../Button/Button.js';
 import { Divider } from '../Divider/Divider.js';
@@ -133,7 +132,6 @@ const selectPostInfos = (postInfos: PostInfo[], params: SelectPostInfosParams): 
 
 export const PostsPage: Component = () => {
   const [searchParams, setSearchParams] = useSearchParams<PostsPageSearchParams>();
-  const params = useParams<PostsRouteParams>();
 
   const info = useRouteInfo<PostsPageInfo>();
 
@@ -339,7 +337,7 @@ export const PostsPage: Component = () => {
 
       <Divider />
 
-      <PostPreviews postInfos={filteredPostInfos()} managerName={params.managerName} />
+      <PostPreviews postInfos={filteredPostInfos()} />
     </>
   );
 };

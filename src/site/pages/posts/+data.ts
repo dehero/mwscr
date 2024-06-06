@@ -59,7 +59,7 @@ export async function data(pageContext: PageContext): Promise<PostsPageData> {
   }
 
   const postInfos = await Promise.all(
-    (await manager.getAllEntries()).map((entry) => createPostInfo(entry, locations, users)),
+    (await manager.getAllEntries()).map((entry) => createPostInfo(entry, locations, users, manager.name)),
   );
   const authorOptions = await getAuthorOptions(manager);
   const locationOptions = await getLocationOptions(manager);

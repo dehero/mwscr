@@ -40,12 +40,14 @@ export interface PostInfo {
   likes: number;
   views: number;
   rating: number;
+  managerName: string;
 }
 
 export async function createPostInfo(
   [id, post]: PostEntry<Post>,
   locationsReader: LocationsReader,
   usersManager: UsersManager,
+  managerName: string,
 ): Promise<PostInfo> {
   const location = post.location ? await locationsReader.getItem(post.location) : undefined;
   const errors: string[] = [];
@@ -73,6 +75,7 @@ export async function createPostInfo(
     likes: getPostTotalLikes(post),
     views: getPostTotalViews(post),
     rating: Number(getPostRating(post).toFixed(2)),
+    managerName,
   });
 }
 

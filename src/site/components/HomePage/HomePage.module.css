@@ -19,6 +19,14 @@
   text-overflow: ellipsis;
 }
 
+.posts {
+  grid-area: posts;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 12px;
+  padding: 8px;
+}
+
 @media only screen and (min-height: 750px) and (min-width: 750px),
   only screen and (max-height: 750px) and (min-width: 925px) {
   .divider {
@@ -93,26 +101,4 @@
 .goldIcon {
   margin-right: 4px;
   vertical-align: text-top;
-}
-
-.posts {
-  grid-area: posts;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-content: flex-start;
-  gap: 12px;
-  padding: 8px;
-}
-
-.post {
-  flex: 1 1 164px;
-  min-width: 164px;
-  max-width: 324px;
-  box-sizing: border-box;
-}
-
-.post.primary {
-  flex-basis: 324px;
 }

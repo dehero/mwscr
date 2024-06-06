@@ -1,26 +1,14 @@
-import type { Post, PostEntriesComparator, PostFilter } from '../../core/entities/post.js';
 import {
   comparePostEntriesById,
   comparePostEntriesByLikes,
   comparePostEntriesByRating,
-  getPostEntriesFromSource,
 } from '../../core/entities/post.js';
-import type { PostInfo } from '../../core/entities/post-info.js';
-import { createPostInfo } from '../../core/entities/post-info.js';
+import { isPostDraft, isPostRequest } from '../../core/entities/post-variation.js';
 import { createUserInfo } from '../../core/entities/user.js';
-import { locations } from '../../local/data-managers/locations.js';
 import { inbox, published, trash } from '../../local/data-managers/posts.js';
 import { users } from '../../local/data-managers/users.js';
 import type { HomePageData } from '../components/HomePage/HomePage.jsx';
-
-export async function getPostInfo(
-  compareFn?: PostEntriesComparator,
-  filterFn?: PostFilter<Post, Post>,
-): Promise<PostInfo | undefined> {
-  const [entry] = await getPostEntriesFromSource(() => published.readAllEntries(), compareFn, filterFn, 1);
-
-  return entry ? createPostInfo(entry, locations, users) : undefined;
-}
+import { getPostInfo } from '../utils/data-utils.js';
 
 export async function data(): Promise<HomePageData> {
   const userInfos = await Promise.all(
@@ -38,8 +26,11 @@ export async function data(): Promise<HomePageData> {
     },
     authorCount,
     requesterCount,
-    lastPostInfo: await getPostInfo(comparePostEntriesById('desc')),
-    topRatedPostInfo: await getPostInfo(comparePostEntriesByRating('desc')),
-    topLikedPostInfo: await getPostInfo(comparePostEntriesByLikes('desc')),
+    lastPostInfo: await getPostInfo(published, comparePostEntriesById('desc')),
+    topRatedPostInfo: await getPostInfo(published, comparePostEntriesByRating('desc')),
+    topLikedPostInfo: await getPostInfo(published, comparePostEntriesByLikes('desc')),
+    lastFulfilledPostInfo: await getPostInfo(published, comparePostEntriesById('desc'), isPostRequest),
+    lastProposedPostInfo: await getPostInfo(inbox, comparePostEntriesById('desc'), isPostDraft),
+    lastRequestedPostInfo: await getPostInfo(inbox, comparePostEntriesById('desc'), isPostRequest),
   };
 }
