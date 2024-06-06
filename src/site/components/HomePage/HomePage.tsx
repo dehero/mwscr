@@ -30,10 +30,10 @@ export const HomePage: Component = () => {
       <Divider class={styles.divider} />
       <section class={styles.container}>
         <Frame class={styles.about}>
-          <img src={icon} />
+          <img src={icon} class={styles.icon} />
           <p class={styles.title}>Morrowind Screenshots</p>
           <p class={styles.description}>
-            Original screenshots and videos from&nbsp;The&nbsp;Elder&nbsp;Scrolls&nbsp;III:&nbsp;Morrowind.
+            Original screenshots and videos from The&nbsp;Elder&nbsp;Scrolls&nbsp;III:&nbsp;Morrowind.
             No&nbsp;third-party mods. No&nbsp;color filters. No&nbsp;interface.
           </p>
           <p class={styles.links}>
