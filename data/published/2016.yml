@@ -986,10 +986,10 @@
       id: C7zbiOkvtTq
       mediaId: '18267474631171249'
       published: 2024-06-04-18-19-40
-      updated: 2024-06-06-11-12-51
+      updated: 2024-06-06-12-28-23
       followers: 1426
       likes: 73
-      views: 238
+      views: 239
       comments: !c |-
         G5kBQJwJ8XYvY7Drioj2+vubHzSwZ1HWeRdFZelYS2ys829NSyCg3wAwgMhaZokdX9n5wz/tFEgC
         4/f7UiVd1AU03A1oYLN45AOZueurPF7idppr0cTnsP58W3rQa/iqdLlYvo0RSkcr0Hlq9Ae7hw7T
@@ -999,10 +999,10 @@
     - service: vk
       id: 1564
       published: 2024-06-04-18-19-46
-      updated: 2024-06-06-11-12-50
+      updated: 2024-06-06-12-28-23
       followers: 915
       likes: 37
-      views: 231
+      views: 233
       reposts: 2
       comments: !c |-
         G0YCACwOzPM+xcBYL+86HQrG6Pn+nkV48zcftPGEGv9aGngBFjVNBMkeVbcLLTGakAuEavYNysaK
@@ -1015,14 +1015,14 @@
     - service: tg
       id: 429
       published: 2024-06-04-18-19-52
-      updated: 2024-06-06-11-12-50
+      updated: 2024-06-06-12-28-23
       followers: 383
-      likes: 52
-      views: 166
+      likes: 53
+      views: 167
       comments: !c |-
-        G40AQBwJNs5xjWRQJ0JUPF/djvDzzc2iHmfYJBQEEmjyFrO85a6JicjMZhPKt0/6ww37mYSn8/eA
-        mzgzUqwRMSbNA49h87v1K4/7vD7jt5PGuD8bfB/9Drd3IK8epCMFu+tKovfoA1BUwPLgRu/UwYkR
-        kxKbdK6qYHoE
+        G5YAQBwHdoy80u2QpAn617OEj5vmC9RqXii2mSwZLZOCDAYDGejkPlnddCVFQ0WV+Y/99Fdatj8P
+        uIkzI8UaEWPSPPAYNr9bv/K4z+vP7RJnCM9ng2Otr7i/gbzyoHwgyPqRkug9YgiEdsh4eUX65p0j
+        zMcAiRKNAAvMTCvmKw==
 2016-12-20.a-boxy-nightstand:
   title: A Boxy Nightstand
   titleRu: Ящик-тумбочка
