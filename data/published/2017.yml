@@ -3881,26 +3881,28 @@
       id: C72ATH0ODB8
       mediaId: '18037855006905425'
       published: 2024-06-05-18-19-25
-      updated: 2024-06-06-05-15-21
+      updated: 2024-06-06-06-20-22
       followers: 1424
-      likes: 55
-      views: 217
+      likes: 56
+      views: 224
     - service: vk
       id: 1569
       published: 2024-06-05-18-19-31
-      updated: 2024-06-06-05-15-21
+      updated: 2024-06-06-06-20-22
       followers: 916
-      likes: 24
-      views: 106
+      likes: 25
+      views: 110
       reposts: 1
-      comments: !c CxGAkZPLQnj+mpjJAACqcGtlbGxlcm1hbqzQm9GD0YfRiNC40LkD
+      comments: !c |-
+        G1UA4I3UTvXUFJq8NpSJjKQ+gzCD/3b+YW8VhecPG3CiA3LbSoPioMMO2BvteLyCcEcW2QpA7xqS
+        aUq+RW2+kvGItfw13NMFM2qKkmbPT5fQgnf+DB2QZwQ=
     - service: tg
       id: 430
       published: 2024-06-05-18-19-36
-      updated: 2024-06-06-05-15-22
+      updated: 2024-06-06-06-20-23
       followers: 385
-      likes: 39
-      views: 113
+      likes: 40
+      views: 116
       comments: !c ixWAkZPLQnj+mhYrgACpR2F0ZW1hdGU3tml0IGlzIHNvIGJlYXV0aWZ1bC4uLi4D
 2017-05-04.neighboring-towers:
   title: Neighboring Towers
