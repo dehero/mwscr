@@ -16,25 +16,48 @@
   gap: 8px;
   padding: 12px;
   align-items: center;
+  text-overflow: ellipsis;
 }
 
-@media only screen and (min-width: 812px) {
+@media only screen and (min-height: 750px) and (min-width: 750px),
+  only screen and (max-height: 750px) and (min-width: 925px) {
   .divider {
     display: none;
   }
 
   .container {
-    grid-template-columns: min-content 1fr;
-    grid-template-rows: auto 1fr;
-    grid-template-areas: 'about posts' 'statistics posts';
     overflow: hidden;
     padding: 0 8px 8px 8px;
   }
 
+  .about,
   .statistics,
   .posts {
     overflow-y: auto;
   }
+}
+
+@media only screen and (min-height: 750px) and (min-width: 750px) {
+  .container {
+    grid-template-columns: minmax(var(--size-panel-min-width), max-content) minmax(var(--size-panel-min-width), 1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 'about posts' 'statistics posts';
+  }
+}
+
+@media only screen and (max-height: 750px) and (min-width: 925px) {
+  .container {
+    grid-template-columns: minmax(var(--size-panel-min-width), max-content) min(var(--size-panel-min-width)) minmax(
+        361px,
+        1fr
+      );
+    grid-template-rows: 1fr;
+    grid-template-areas: 'about statistics posts';
+  }
+}
+
+.icon {
+  max-width: 100%;
 }
 
 .title {
@@ -46,13 +69,13 @@
   margin: 0;
   text-wrap: balance;
   text-align: center;
+  max-width: 320px;
 }
 
 .links {
   margin: 0;
   text-wrap: balance;
   text-align: center;
-  white-space: nowrap;
 }
 
 .link {
