@@ -71,12 +71,12 @@ export function groupBy<K, V>(list: Array<V>, keyGetter: (input: V) => K): Map<K
   return map;
 }
 
-export function listItems(items: string[], quote?: boolean) {
+export function listItems(items: string[], quote?: boolean, union = 'or'): string {
   const parts: string[] = [];
 
   for (let i = 0; i < items.length; i++) {
     const item = items[i] ?? '';
-    const separator = i < items.length - 1 ? ', ' : ' or ';
+    const separator = i < items.length - 1 ? ', ' : ` ${union} `;
 
     if (i > 0) {
       parts.push(separator);

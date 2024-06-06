@@ -1,5 +1,4 @@
-import clsx from 'clsx';
-import { type Component, Show } from 'solid-js';
+import { type Component } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import icon from '../../../../assets/icon.png';
 import type { PostInfo } from '../../../core/entities/post-info.js';
@@ -7,8 +6,7 @@ import type { UserContribution } from '../../../core/entities/user.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
-import { Label } from '../Label/Label.js';
-import { PostPreview } from '../PostPreview/PostPreview.js';
+import { PostHighlights } from '../PostHighlights/PostHighlights.jsx';
 import { Table } from '../Table/Table.js';
 import styles from './HomePage.module.css';
 
@@ -19,11 +17,23 @@ export interface HomePageData {
   lastPostInfo?: PostInfo;
   topRatedPostInfo?: PostInfo;
   topLikedPostInfo?: PostInfo;
+  lastFulfilledPostInfo?: PostInfo;
+  lastProposedPostInfo?: PostInfo;
+  lastRequestedPostInfo?: PostInfo;
 }
 
 export const HomePage: Component = () => {
-  const { totalPosts, authorCount, requesterCount, lastPostInfo, topRatedPostInfo, topLikedPostInfo } =
-    useData<HomePageData>();
+  const {
+    totalPosts,
+    authorCount,
+    requesterCount,
+    lastPostInfo,
+    topRatedPostInfo,
+    topLikedPostInfo,
+    lastRequestedPostInfo,
+    lastProposedPostInfo,
+    lastFulfilledPostInfo,
+  } = useData<HomePageData>();
 
   return (
     <>
@@ -87,37 +97,24 @@ export const HomePage: Component = () => {
             ]}
           />
         </Frame>
+
         <Frame class={styles.posts}>
-          <Show when={lastPostInfo}>
-            {(postInfo) => (
-              <Label label="Last Post" vertical class={clsx(styles.post, styles.primary)}>
-                <PostPreview postInfo={postInfo()} managerName="published" />
-              </Label>
-            )}
-          </Show>
-          <Show when={topRatedPostInfo}>
-            {(postInfo) => (
-              <Label label="Top Rated Post" vertical class={styles.post}>
-                <PostPreview postInfo={postInfo()} managerName="published" />
-              </Label>
-            )}
-          </Show>
-          <Show when={topLikedPostInfo}>
-            {(postInfo) => (
-              <Label label="Top Liked Post" vertical class={styles.post}>
-                <PostPreview postInfo={postInfo()} managerName="published" />
-              </Label>
-            )}
-          </Show>
-          {/* <Label label="Last Week Top Rated Post" vertical class={styles.post}>
-          TODO
-        </Label>
-        <Label label="Current Month Top Rated Post" vertical class={styles.post}>
-          TODO
-        </Label>
-        <Label label="Previous Month Top Rated Post" vertical class={styles.post}>
-          TODO
-        </Label> */}
+          <PostHighlights
+            items={[
+              { label: 'Last', primary: true, postInfo: lastPostInfo },
+              { label: 'Top Rated', postInfo: topRatedPostInfo },
+              { label: 'Top Liked', postInfo: topLikedPostInfo },
+              { label: 'Last Fulfilled Requested', postInfo: lastFulfilledPostInfo },
+              // TODO: Last Week Top Rated Post, Current Month Top Rated Post, Previous Month Top Rated Post etc
+            ]}
+          />
+
+          <PostHighlights
+            items={[
+              { label: 'Last Proposed', primary: true, postInfo: lastProposedPostInfo },
+              { label: 'Last Requested', postInfo: lastRequestedPostInfo },
+            ]}
+          />
         </Frame>
       </section>
     </>

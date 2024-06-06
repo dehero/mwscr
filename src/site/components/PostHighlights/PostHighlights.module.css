@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
+  gap: 12px;
+}
+
+.item {
+  flex: 1 1 164px;
+  min-width: 164px;
+  max-width: 324px;
+  box-sizing: border-box;
+}
+
+.item.primary {
+  flex-basis: 324px;
+}

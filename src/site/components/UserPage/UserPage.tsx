@@ -1,5 +1,4 @@
 import { writeClipboard } from '@solid-primitives/clipboard';
-import clsx from 'clsx';
 import { type Component, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import type { PostInfo } from '../../../core/entities/post-info.js';
@@ -13,8 +12,7 @@ import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import { Input } from '../Input/Input.js';
-import { Label } from '../Label/Label.js';
-import { PostPreview } from '../PostPreview/PostPreview.js';
+import { PostHighlights } from '../PostHighlights/PostHighlights.js';
 import { Table } from '../Table/Table.js';
 import { useToaster } from '../Toaster/Toaster.js';
 import styles from './UserPage.module.css';
@@ -26,13 +24,25 @@ export interface UserPageData {
   topRatedPostInfo?: PostInfo;
   topLikedPostInfo?: PostInfo;
   lessLikedPostInfo?: PostInfo;
+  lastFulfilledPostInfo?: PostInfo;
+  lastProposedPostInfo?: PostInfo;
+  lastRequestedPostInfo?: PostInfo;
 }
 
 export const UserPage: Component = () => {
   const { addToast } = useToaster();
   const params = useParams<UserRouteParams>();
-  const { userInfo, lastPostInfo, firstPostInfo, topRatedPostInfo, topLikedPostInfo, lessLikedPostInfo } =
-    useData<UserPageData>();
+  const {
+    userInfo,
+    lastPostInfo,
+    firstPostInfo,
+    topRatedPostInfo,
+    topLikedPostInfo,
+    lessLikedPostInfo,
+    lastFulfilledPostInfo,
+    lastProposedPostInfo,
+    lastRequestedPostInfo,
+  } = useData<UserPageData>();
 
   const id = () => params.id;
 
@@ -117,45 +127,24 @@ export const UserPage: Component = () => {
               <div class={styles.spacer} />
             </Frame>
 
-            <Frame component="section" variant="thin" class={styles.posts}>
-              <Show when={lastPostInfo}>
-                {(postInfo) => (
-                  <Label label="Last Post" vertical class={clsx(styles.post, styles.primary)}>
-                    <PostPreview postInfo={postInfo()} managerName="published" />
-                  </Label>
-                )}
-              </Show>
+            <Frame component="section" class={styles.posts}>
+              <PostHighlights
+                items={[
+                  { label: 'Last', primary: true, postInfo: lastPostInfo },
+                  { label: 'First', primary: true, postInfo: firstPostInfo },
+                  { label: 'Top Rated', postInfo: topRatedPostInfo },
+                  { label: 'Top Liked', postInfo: topLikedPostInfo },
+                  { label: 'Less Liked', postInfo: lessLikedPostInfo },
+                  { label: 'Last Fulfilled', type: 'Request', postInfo: lastFulfilledPostInfo },
+                ]}
+              />
 
-              <Show when={topRatedPostInfo}>
-                {(postInfo) => (
-                  <Label label="Top Rated Post" vertical class={clsx(styles.post, styles.primary)}>
-                    <PostPreview postInfo={postInfo()} managerName="published" />
-                  </Label>
-                )}
-              </Show>
-
-              <Show when={topLikedPostInfo}>
-                {(postInfo) => (
-                  <Label label="Top Liked Post" vertical class={clsx(styles.post)}>
-                    <PostPreview postInfo={postInfo()} managerName="published" />
-                  </Label>
-                )}
-              </Show>
-              <Show when={firstPostInfo}>
-                {(postInfo) => (
-                  <Label label="First Post" vertical class={styles.post}>
-                    <PostPreview postInfo={postInfo()} managerName="published" />
-                  </Label>
-                )}
-              </Show>
-
-              <Show when={lessLikedPostInfo}>
-                {(postInfo) => (
-                  <Label label="Less Liked Post" vertical class={styles.post}>
-                    <PostPreview postInfo={postInfo()} managerName="published" />
-                  </Label>
-                )}
-              </Show>
+              <PostHighlights
+                items={[
+                  { label: 'Last', type: 'Proposal', primary: true, postInfo: lastProposedPostInfo },
+                  { label: 'Last Pending', type: 'Request', postInfo: lastRequestedPostInfo },
+                ]}
+              />
             </Frame>
           </section>
         )}
