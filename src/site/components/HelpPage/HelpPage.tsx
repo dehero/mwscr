@@ -1,3 +1,4 @@
+import { makePersisted } from '@solid-primitives/storage';
 import { type Component, createEffect, createSignal, For, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import type { Topic, TopicEntry } from '../../../core/entities/topic.js';
@@ -17,13 +18,32 @@ export const HelpPage: Component = () => {
   const params = useParams<HelpRouteParams>();
   const topicId = () => params['*']?.replace(/\//g, '') || '';
 
+  const [messageTopicIds, setMessageTopicIds] = createSignal<string[]>([...new Set(['', topicId()])]);
+  const messageTopicEntries = (): TopicEntry[] =>
+    messageTopicIds().map((id) => [id, topics[id] ?? { relatedTopicIds: [] }]);
+
   let messagesRef: HTMLDivElement | undefined;
 
-  const [historyTopicIds, setHistoryTopicIds] = createSignal<string[]>([...new Set(['', topicId()])]);
-  const historyTopicEntries = (): TopicEntry[] =>
-    historyTopicIds().map((id) => [id, topics[id] ?? { relatedTopicIds: [] }]);
-  const openTopicIds = (): Set<string> =>
-    new Set(historyTopicEntries().flatMap(([id, topic]) => [id, ...topic.relatedTopicIds]));
+  const openTopicIdsFromMessages = () =>
+    new Set(
+      messageTopicEntries()
+        .flatMap(([id, topic]) => [id, ...topic.relatedTopicIds])
+        .filter(Boolean),
+    );
+
+  const [discoveredTopicIds, setDiscoveredTopicIds] = makePersisted(createSignal(openTopicIdsFromMessages()), {
+    name: 'help.discoveredTopicIds',
+    serialize: (data) => JSON.stringify([...data]),
+    deserialize: (data) => {
+      try {
+        return new Set(JSON.parse(data));
+      } catch {
+        return new Set();
+      }
+    },
+  });
+
+  const [openTopicIds, setOpenTopicIds] = createSignal(openTopicIdsFromMessages());
 
   const openTopicEntries = () =>
     [...Object.entries(topics)]
@@ -31,8 +51,8 @@ export const HelpPage: Component = () => {
       .sort((a, b) => a[1].title?.localeCompare(b[1].title || '') || a[0].localeCompare(b[0]));
 
   createEffect(() => {
-    if (historyTopicIds().at(-1) !== topicId()) {
-      setHistoryTopicIds((ids) => [...ids, topicId()]);
+    if (messageTopicIds().at(-1) !== topicId()) {
+      setMessageTopicIds((ids) => [...ids, topicId()]);
     }
 
     if (messagesRef) {
@@ -40,12 +60,23 @@ export const HelpPage: Component = () => {
     }
   });
 
+  createEffect(() => {
+    const topicIds = discoveredTopicIds();
+    setOpenTopicIds((ids) => new Set([...ids, ...topicIds]));
+  });
+
+  createEffect(() => {
+    const topicIds = openTopicIdsFromMessages();
+    setOpenTopicIds((ids) => new Set([...ids, ...topicIds]));
+    setDiscoveredTopicIds((ids) => new Set([...ids, ...topicIds]));
+  });
+
   return (
     <>
       <Divider class={styles.divider} />
       <section class={styles.container}>
         <Frame class={styles.messages} ref={messagesRef}>
-          <For each={historyTopicEntries()}>
+          <For each={messageTopicEntries()}>
             {([_, topic]) => (
               <section class={styles.message}>
                 <Show when={topic.title}>
