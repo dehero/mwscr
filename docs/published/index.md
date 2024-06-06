@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`100 items`
+`101 items`
+
+## <span id="2024-06-06.shipwreck-at-the-estuary-of-foyada">Shipwreck at the Estuary of Foyada</span>
+
+`RU` Кораблекрушение в устье фояды
+
+<a href="https://instagram.com/p/BfL8-iCHZJn/" title="2018-02-14.shipwreck-at-the-estuary-of-foyada"><img alt="store:/shots/2018-02-14.shipwreck-at-the-estuary-of-foyada.png" src="../../assets/previews/shots/2018-02-14.shipwreck-at-the-estuary-of-foyada.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-06.shipwreck-at-the-estuary-of-foyada)</code> `🚀 OpenMW` `shipwreck` `ship`
+
+```
+2024-06-06.shipwreck-at-the-estuary-of-foyada
+```
+
+> `2018-02-14.shipwreck-at-the-estuary-of-foyada`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BfL8-iCHZJn/)       | 2018-02-14 |       |    90 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_613)  | 2018-02-14 |   198 |    17 |       131 |  12.98 |
+| [`ig`](https://instagram.com/p/C74lFspy6fE/)       | 2024-06-06 |       |       |      1424 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1573) | 2024-06-06 |       |       |       916 |        |
+| [`tg`](https://t.me/mwscr/431)                     | 2024-06-06 |       |       |       384 |        |
+|                                                    |            |   198 |   107 |      2724 |        |
 
 ## <span id="2024-06-05.near-seyda-neen">Near Seyda Neen</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BToBhOEDGBg/)       | 2017-05-03 |       |    67 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_278)  | 2017-05-03 |   239 |    18 |        56 |     18 |
-| [`ig`](https://instagram.com/p/C72ATH0ODB8/)       | 2024-06-05 |   336 |    64 |      1424 |   4.49 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1569) | 2024-06-05 |   152 |    30 |       916 |   3.28 |
-| [`tg`](https://t.me/mwscr/430)                     | 2024-06-05 |   138 |    46 |       385 |  11.95 |
-|                                                    |            |   865 |   225 |      2725 |   9.43 |
+| [`ig`](https://instagram.com/p/C72ATH0ODB8/)       | 2024-06-05 |   345 |    65 |      1424 |   4.56 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1569) | 2024-06-05 |   153 |    31 |       916 |   3.38 |
+| [`tg`](https://t.me/mwscr/430)                     | 2024-06-05 |   140 |    46 |       385 |  11.95 |
+|                                                    |            |   877 |   227 |      2725 |   9.47 |
 
 #### Comments
 
@@ -62,10 +89,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOMCwTbFtv8/)       | 2016-12-19 |       |    23 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_36)   | 2017-01-22 |    71 |       |         4 |        |
-| [`ig`](https://instagram.com/p/C7zbiOkvtTq/)       | 2024-06-04 |   242 |    74 |      1426 |   5.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1564) | 2024-06-04 |   243 |    38 |       915 |   4.15 |
-| [`tg`](https://t.me/mwscr/429)                     | 2024-06-04 |   167 |    53 |       383 |  13.84 |
-|                                                    |            |   723 |   188 |      2724 |   7.73 |
+| [`ig`](https://instagram.com/p/C7zbiOkvtTq/)       | 2024-06-04 |   244 |    75 |      1426 |   5.26 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1564) | 2024-06-04 |   244 |    39 |       915 |   4.26 |
+| [`tg`](https://t.me/mwscr/429)                     | 2024-06-04 |   168 |    53 |       383 |  13.84 |
+|                                                    |            |   727 |   190 |      2724 |   7.79 |
 
 #### Comments
 
