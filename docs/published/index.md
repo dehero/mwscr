@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BfL8-iCHZJn/)       | 2018-02-14 |       |    90 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_613)  | 2018-02-14 |   198 |    17 |       131 |  12.98 |
-| [`ig`](https://instagram.com/p/C74lFspy6fE/)       | 2024-06-06 |   177 |    53 |      1424 |   3.72 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1573) | 2024-06-06 |   111 |    22 |       916 |    2.4 |
-| [`tg`](https://t.me/mwscr/431)                     | 2024-06-06 |   105 |    46 |       384 |  11.98 |
-|                                                    |            |   591 |   228 |      2724 |   7.77 |
+| [`ig`](https://instagram.com/p/C74lFspy6fE/)       | 2024-06-06 |   181 |    56 |      1424 |   3.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1573) | 2024-06-06 |   118 |    22 |       916 |    2.4 |
+| [`tg`](https://t.me/mwscr/431)                     | 2024-06-06 |   107 |    47 |       384 |  12.24 |
+|                                                    |            |   604 |   232 |      2724 |   7.89 |
 
 #### Comments
 
@@ -60,9 +60,9 @@
 | [`ig`](https://instagram.com/p/BToBhOEDGBg/)       | 2017-05-03 |       |    67 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_278)  | 2017-05-03 |   239 |    18 |        56 |     18 |
 | [`ig`](https://instagram.com/p/C72ATH0ODB8/)       | 2024-06-05 |   376 |    72 |      1424 |   5.06 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1569) | 2024-06-05 |   165 |    32 |       916 |   3.49 |
-| [`tg`](https://t.me/mwscr/430)                     | 2024-06-05 |   163 |    56 |       385 |  14.55 |
-|                                                    |            |   943 |   245 |      2725 |  10.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1569) | 2024-06-05 |   166 |    32 |       916 |   3.49 |
+| [`tg`](https://t.me/mwscr/430)                     | 2024-06-05 |   165 |    57 |       385 |  14.81 |
+|                                                    |            |   946 |   246 |      2725 |  10.34 |
 
 #### Comments
 
@@ -70,6 +70,7 @@
 - `tg` <ins title="2024-06-05-18-20-19">Gatemate7</ins> it is so beautiful....
 - `vk` <ins title="2024-06-05-18-29-14">pkellerman</ins> Лучший
 - `vk` <ins title="2024-06-06-06-12-18">jeff_baldein</ins> Родной-любимый
+- `tg` <ins title="2024-06-07-07-09-27">Alexey Stepanov</ins> My heart started beating faster
 
 ## <span id="2024-06-04.hla-oad">Hla Oad</span>
 
