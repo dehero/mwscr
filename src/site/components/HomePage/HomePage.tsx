@@ -101,18 +101,18 @@ export const HomePage: Component = () => {
         <Frame class={styles.posts}>
           <PostHighlights
             items={[
-              { label: 'Last', primary: true, postInfo: lastPostInfo },
-              { label: 'Top Rated', postInfo: topRatedPostInfo },
-              { label: 'Top Liked', postInfo: topLikedPostInfo },
-              { label: 'Last Fulfilled Requested', postInfo: lastFulfilledPostInfo },
-              // TODO: Last Week Top Rated Post, Current Month Top Rated Post, Previous Month Top Rated Post etc
+              { label: 'Last Post', primary: true, postInfo: lastPostInfo },
+              { label: 'Top Rated Post', postInfo: topRatedPostInfo },
+              { label: 'Top Liked Post', postInfo: topLikedPostInfo },
+              { label: 'Last Fulfilled Request', postInfo: lastFulfilledPostInfo },
+              // TODO: Last Week Top Rated Post, Current Month Top Rated Post, Previous Month Top Rated Post etc.
             ]}
           />
 
           <PostHighlights
             items={[
-              { label: 'Last Proposed', primary: true, postInfo: lastProposedPostInfo },
-              { label: 'Last Requested', postInfo: lastRequestedPostInfo },
+              { label: 'Last Proposal', primary: true, postInfo: lastProposedPostInfo },
+              { label: 'Last Pending Request', postInfo: lastRequestedPostInfo },
             ]}
           />
         </Frame>
