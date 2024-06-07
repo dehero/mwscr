@@ -27,6 +27,8 @@ export interface UserPageData {
   lastFulfilledPostInfo?: PostInfo;
   lastProposedPostInfo?: PostInfo;
   lastRequestedPostInfo?: PostInfo;
+  lastRejectedPostInfo?: PostInfo;
+  lastRejectedRequestInfo?: PostInfo;
 }
 
 export const UserPage: Component = () => {
@@ -42,6 +44,8 @@ export const UserPage: Component = () => {
     lastFulfilledPostInfo,
     lastProposedPostInfo,
     lastRequestedPostInfo,
+    lastRejectedPostInfo,
+    lastRejectedRequestInfo,
   } = useData<UserPageData>();
 
   const id = () => params.id;
@@ -143,6 +147,8 @@ export const UserPage: Component = () => {
                 items={[
                   { label: 'Last Proposal', primary: true, postInfo: lastProposedPostInfo },
                   { label: 'Last Pending Request', postInfo: lastRequestedPostInfo },
+                  { label: 'Last Rejected Proposal', postInfo: lastRejectedPostInfo },
+                  { label: 'Last Rejected Request', postInfo: lastRejectedRequestInfo },
                 ]}
               />
             </Frame>

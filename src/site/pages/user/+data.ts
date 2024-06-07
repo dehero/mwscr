@@ -31,5 +31,7 @@ export async function data(pageContext: PageContext): Promise<UserPageData> {
     lastFulfilledPostInfo: await getPostInfo(published, comparePostEntriesById('desc'), checkRequester),
     lastProposedPostInfo: await getPostInfo(inbox, comparePostEntriesById('desc'), [isPostDraft, checkAuthor]),
     lastRequestedPostInfo: await getPostInfo(inbox, comparePostEntriesById('desc'), [isPostRequest, checkRequester]),
+    lastRejectedPostInfo: await getPostInfo(trash, comparePostEntriesById('desc'), [isPostDraft, checkAuthor]),
+    lastRejectedRequestInfo: await getPostInfo(trash, comparePostEntriesById('desc'), [isPostRequest, checkRequester]),
   };
 }
