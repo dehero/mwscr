@@ -518,7 +518,7 @@
       id: C5q81aSMyOO
       mediaId: '18027378698055717'
       published: 2024-04-12-18-14-42
-      updated: 2024-05-31-19-12-40
+      updated: 2024-06-07-19-13-54
       followers: 1413
       likes: 104
       views: 411
@@ -528,18 +528,18 @@
     - service: vk
       id: 1491
       published: 2024-04-12-18-14-50
-      updated: 2024-05-31-19-12-40
+      updated: 2024-06-07-19-13-55
       followers: 911
       likes: 35
-      views: 257
+      views: 258
       reposts: 2
     - service: tg
       id: 376
       published: 2024-04-12-18-15-00
-      updated: 2024-05-31-19-12-40
+      updated: 2024-06-07-19-13-55
       followers: 352
       likes: 67
-      views: 415
+      views: 419
       comments: !c |-
         G3kCICwOeHPoJNT0dgTVz0b0TxysCP/kgSRBxlEgcVjABcGRnOxTdSMYodAkCN/vK5SzFXt/92vU
         bJIm1nd3w9venyuqqBayEqSCS7uerJZP65+m2NyG1hh0Ux8fFA7oVxM/3TgWZoElGng0tkYQYIC9
@@ -9855,15 +9855,24 @@
       id: C77KBjfsZOX
       mediaId: '17890185219029651'
       published: 2024-06-07-18-20-36
+      updated: 2024-06-07-19-13-53
       followers: 1424
+      likes: 13
+      views: 30
     - service: vk
       id: 1574
       published: 2024-06-07-18-20-42
+      updated: 2024-06-07-19-13-53
       followers: 916
+      likes: 10
+      views: 40
     - service: tg
       id: 432
       published: 2024-06-07-18-20-49
+      updated: 2024-06-07-19-13-54
       followers: 384
+      likes: 15
+      views: 44
 2017-12-05.in-the-boat-by-the-pier:
   title: In the Boat by the Pier
   titleRu: В лодке у причала
