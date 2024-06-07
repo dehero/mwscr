@@ -39,6 +39,11 @@ export async function onBeforePrerenderStart(): ReturnType<OnBeforePrerenderStar
               isPostRequest,
               checkRequester,
             ]),
+            lastRejectedPostInfo: await getPostInfo(trash, comparePostEntriesById('desc'), [isPostDraft, checkAuthor]),
+            lastRejectedRequestInfo: await getPostInfo(trash, comparePostEntriesById('desc'), [
+              isPostRequest,
+              checkRequester,
+            ]),
           },
         },
       };
