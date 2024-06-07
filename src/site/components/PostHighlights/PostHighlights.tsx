@@ -6,14 +6,17 @@ import { Label } from '../Label/Label.jsx';
 import { PostPreview } from '../PostPreview/PostPreview.js';
 import styles from './PostHighlights.module.css';
 
+export const POST_HIGHIGHT_CHARACTERISTICS = ['First', 'Last', 'Less', 'Top'] as const;
+export const POST_HIGHIGHT_TYPES = ['Post', 'Proposal', 'Request'] as const;
+
+export type PostHighlightCharacteristic = (typeof POST_HIGHIGHT_CHARACTERISTICS)[number];
+export type PostHighlightType = (typeof POST_HIGHIGHT_TYPES)[number];
+
 export interface PostHighlightsItem {
-  label: string;
-  type?: PostHighlightType;
+  label: `${`${PostHighlightCharacteristic | string}` | PostHighlightCharacteristic} ${PostHighlightType}`;
   primary?: boolean;
   postInfo?: PostInfo;
 }
-
-export type PostHighlightType = 'Post' | 'Proposal' | 'Request';
 
 interface PostHighlightsGroup {
   labels: Partial<Record<PostHighlightType, string[]>>;
@@ -32,17 +35,28 @@ function createGroupLabel(labels: Partial<Record<PostHighlightType, string[]>>) 
     .join(', ');
 }
 
+function splitPostLabel(label: string) {
+  const parts = label.split(' ');
+  const typeStr = parts[parts.length - 1] as PostHighlightType;
+
+  if (POST_HIGHIGHT_TYPES.includes(typeStr)) {
+    return { label: parts.slice(0, -1).join(' '), type: typeStr };
+  }
+  return { label, type: 'Post' as PostHighlightType };
+}
+
 export const PostHighlights: Component<PostPreviewsProps> = (props) => {
   const groups = (): PostHighlightsGroup[] =>
     Object.values(
       props.items.reduce(
         (acc, item) => {
-          const { label, postInfo, primary, type = 'Post' } = item;
+          const { postInfo, primary } = item;
 
           if (!postInfo) {
             return acc;
           }
 
+          const { label, type } = splitPostLabel(item.label);
           const id = `${postInfo.managerName}-${postInfo.id}`;
           const existing = acc[id];
 

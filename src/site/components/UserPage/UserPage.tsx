@@ -130,19 +130,19 @@ export const UserPage: Component = () => {
             <Frame component="section" class={styles.posts}>
               <PostHighlights
                 items={[
-                  { label: 'Last', primary: true, postInfo: lastPostInfo },
-                  { label: 'First', primary: true, postInfo: firstPostInfo },
-                  { label: 'Top Rated', postInfo: topRatedPostInfo },
-                  { label: 'Top Liked', postInfo: topLikedPostInfo },
-                  { label: 'Less Liked', postInfo: lessLikedPostInfo },
-                  { label: 'Last Fulfilled', type: 'Request', postInfo: lastFulfilledPostInfo },
+                  { label: 'Last Post', primary: true, postInfo: lastPostInfo },
+                  { label: 'First Post', primary: true, postInfo: firstPostInfo },
+                  { label: 'Top Rated Post', postInfo: topRatedPostInfo },
+                  { label: 'Top Liked Post', postInfo: topLikedPostInfo },
+                  { label: 'Less Liked Post', postInfo: lessLikedPostInfo },
+                  { label: 'Last Fulfilled Request', postInfo: lastFulfilledPostInfo },
                 ]}
               />
 
               <PostHighlights
                 items={[
-                  { label: 'Last', type: 'Proposal', primary: true, postInfo: lastProposedPostInfo },
-                  { label: 'Last Pending', type: 'Request', postInfo: lastRequestedPostInfo },
+                  { label: 'Last Proposal', primary: true, postInfo: lastProposedPostInfo },
+                  { label: 'Last Pending Request', postInfo: lastRequestedPostInfo },
                 ]}
               />
             </Frame>
