@@ -19,6 +19,7 @@ import type { UsersManager } from './users-manager.js';
 
 export interface PostInfo {
   id: string;
+  refId?: string;
   title?: string;
   titleRu?: string;
   description?: string;
@@ -44,7 +45,7 @@ export interface PostInfo {
 }
 
 export async function createPostInfo(
-  [id, post]: PostEntry<Post>,
+  [id, post, refId]: PostEntry<Post>,
   locationsReader: LocationsReader,
   usersManager: UsersManager,
   managerName: string,
@@ -55,6 +56,7 @@ export async function createPostInfo(
 
   return cleanupUndefinedProps({
     id,
+    refId,
     title: post.title,
     titleRu: post.titleRu,
     description: post.description,

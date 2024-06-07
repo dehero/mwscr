@@ -30,8 +30,6 @@
 .header {
   display: flex;
   flex-flow: row nowrap;
-  gap: 4px;
-  justify-content: space-between;
   flex-shrink: 0;
 }
 
@@ -74,6 +72,7 @@
 .rating {
   color: var(--color-text-light);
   flex-shrink: 0;
+  margin-left: 4px;
 }
 
 .icons {

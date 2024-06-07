@@ -4,13 +4,21 @@ import styles from './Table.module.css';
 
 export interface TableRow {
   label?: string;
-  value?: string | number | (() => JSX.Element);
+  value?: string | number | Date | (() => JSX.Element);
+  link?: string;
 }
 
 interface TableProps extends TableRow {
   class?: string;
   rows: TableRow[];
   lightLabels?: boolean;
+}
+
+function valueToString(value: string | number | Date | undefined): string {
+  if (value instanceof Date) {
+    return value.toLocaleDateString('en-GB');
+  }
+  return value?.toString() || '';
 }
 
 export const Table: Component<TableProps> = (props) => {
@@ -23,7 +31,9 @@ export const Table: Component<TableProps> = (props) => {
         <thead class={styles.header}>
           <tr>
             <th class={styles.label}>{local.label}</th>
-            <th class={styles.value}>{typeof local.value === 'function' ? local.value() : local.value}</th>
+            <th class={styles.value}>
+              {typeof local.value === 'function' ? local.value() : valueToString(local.value)}
+            </th>
           </tr>
         </thead>
       </Show>
@@ -33,7 +43,16 @@ export const Table: Component<TableProps> = (props) => {
             {(row) => (
               <tr>
                 <td class={clsx(styles.label, local.lightLabels && styles.lightLabel)}>{row.label}</td>
-                <td class={styles.value}>{typeof row.value === 'function' ? row.value() : row.value}</td>
+                <td class={styles.value}>
+                  <Show
+                    when={row.link}
+                    fallback={typeof row.value === 'function' ? row.value() : valueToString(row.value)}
+                  >
+                    <a href={row.link} class={styles.link}>
+                      {typeof row.value === 'function' ? row.value() : valueToString(row.value)}
+                    </a>
+                  </Show>
+                </td>
               </tr>
             )}
           </For>

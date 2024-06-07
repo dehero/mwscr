@@ -25,3 +25,12 @@
   font-weight: normal;
   padding: 0 0 0 8px;
 }
+
+.link {
+  color: var(--color-text-selected);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-text-selected-hover);
+}

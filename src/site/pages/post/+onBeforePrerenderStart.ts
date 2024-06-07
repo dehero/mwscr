@@ -12,11 +12,12 @@ export async function onBeforePrerenderStart(): ReturnType<OnBeforePrerenderStar
         const entries = await manager.getAllEntries();
 
         return await Promise.all(
-          entries.map(async ([id, post]) => ({
+          entries.map(async ([id, post, refId]) => ({
             url: postRoute.createUrl({ managerName: manager.name, id }),
             pageContext: {
               data: {
                 post,
+                refId,
                 authorEntries: await users.getEntries(asArray(post.author)),
               },
             },

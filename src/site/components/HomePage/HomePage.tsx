@@ -15,6 +15,7 @@ export interface HomePageData {
   authorCount: number;
   requesterCount: number;
   lastPostInfo?: PostInfo;
+  lastOriginalPostInfo?: PostInfo;
   topRatedPostInfo?: PostInfo;
   topLikedPostInfo?: PostInfo;
   lastFulfilledPostInfo?: PostInfo;
@@ -33,6 +34,7 @@ export const HomePage: Component = () => {
     lastRequestedPostInfo,
     lastProposedPostInfo,
     lastFulfilledPostInfo,
+    lastOriginalPostInfo,
   } = useData<HomePageData>();
 
   return (
@@ -102,6 +104,7 @@ export const HomePage: Component = () => {
           <PostHighlights
             items={[
               { label: 'Last Post', primary: true, postInfo: lastPostInfo },
+              { label: 'Last Original Post', primary: true, postInfo: lastOriginalPostInfo },
               { label: 'Top Rated Post', postInfo: topRatedPostInfo },
               { label: 'Top Liked Post', postInfo: topLikedPostInfo },
               { label: 'Last Fulfilled Request', postInfo: lastFulfilledPostInfo },

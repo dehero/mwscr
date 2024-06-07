@@ -20,6 +20,7 @@ import styles from './UserPage.module.css';
 export interface UserPageData {
   userInfo?: UserInfo;
   lastPostInfo?: PostInfo;
+  lastOriginalPostInfo?: PostInfo;
   firstPostInfo?: PostInfo;
   topRatedPostInfo?: PostInfo;
   topLikedPostInfo?: PostInfo;
@@ -37,6 +38,7 @@ export const UserPage: Component = () => {
   const {
     userInfo,
     lastPostInfo,
+    lastOriginalPostInfo,
     firstPostInfo,
     topRatedPostInfo,
     topLikedPostInfo,
@@ -48,7 +50,7 @@ export const UserPage: Component = () => {
     lastRejectedRequestInfo,
   } = useData<UserPageData>();
 
-  const id = () => params.id;
+  const id = () => params().id;
 
   const copyIdToClipboard = () => {
     writeClipboard(id());
@@ -135,6 +137,7 @@ export const UserPage: Component = () => {
               <PostHighlights
                 items={[
                   { label: 'Last Post', primary: true, postInfo: lastPostInfo },
+                  { label: 'Last Original Post', primary: true, postInfo: lastOriginalPostInfo },
                   { label: 'First Post', primary: true, postInfo: firstPostInfo },
                   { label: 'Top Rated Post', postInfo: topRatedPostInfo },
                   { label: 'Top Liked Post', postInfo: topLikedPostInfo },

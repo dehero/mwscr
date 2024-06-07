@@ -41,11 +41,11 @@ const comparators = [
 export type PostsPageSortKey = (typeof comparators)[number]['value'];
 
 const presets = [
-  { value: 'editors-choice', label: "Editor's Choice", params: { mark: 'A1', sort: 'rating,desc' } },
+  { value: 'editors-choice', label: "Editor's Choice", params: { mark: 'A1', sort: 'rating,desc', reposted: 'false' } },
   { value: 'shortlist', label: 'Shortlist', params: { publishable: 'true' } },
-  { value: 'requests', label: 'Requests', params: { requested: 'true' } },
+  { value: 'requests', label: 'Requests', params: { requested: 'true' }, reposted: 'false' },
   { value: 'revisit', label: 'Revisit', params: { mark: 'F' } },
-  { value: 'unlocated', label: 'Unlocated', params: { location: NONE_OPTION.value } },
+  { value: 'unlocated', label: 'Unlocated', params: { location: NONE_OPTION.value, reposted: 'false' } },
   { value: 'violations', label: 'Violations', params: { violation: ANY_OPTION.value } },
 ] as const;
 
@@ -60,13 +60,14 @@ export interface PostsPageSearchParams {
   violation?: string;
   publishable?: string;
   requested?: string;
+  reposted?: string;
   search?: string;
   sort?: string;
 }
 
 type FilterKey = keyof Pick<
   PostsPageSearchParams,
-  'type' | 'tag' | 'location' | 'author' | 'mark' | 'violation' | 'publishable' | 'requested'
+  'type' | 'tag' | 'location' | 'author' | 'mark' | 'violation' | 'publishable' | 'requested' | 'reposted'
 >;
 
 export interface PostsPageInfo extends SiteRouteInfo {
@@ -86,6 +87,7 @@ interface SelectPostInfosParams {
   violation?: string; // PostViolation | typeof ANY_OPTION.value | typeof NONE_OPTION.value;
   publishable?: boolean;
   requested?: boolean;
+  reposted?: boolean;
   sortKey: PostsPageSortKey;
   sortDirection: SortDirection;
 }
@@ -99,6 +101,7 @@ const emptySearchParams: PostsPageSearchParams = {
   violation: undefined,
   publishable: undefined,
   requested: undefined,
+  reposted: undefined,
   search: undefined,
   sort: undefined,
 };
@@ -112,6 +115,7 @@ const selectPostInfos = (postInfos: PostInfo[], params: SelectPostInfosParams): 
       Boolean(
         (typeof params.publishable === 'undefined' || params.publishable !== Boolean(info.publishableCheck)) &&
           (typeof params.requested === 'undefined' || params.requested === Boolean(info.request)) &&
+          (typeof params.reposted === 'undefined' || params.reposted === Boolean(info.refId)) &&
           (typeof params.type === 'undefined' || info.type === params.type) &&
           (typeof params.tag === 'undefined' || info.tags?.includes(params.tag)) &&
           (typeof params.author === 'undefined' || info.authorEntries.some(([id]) => id === params.author)) &&
@@ -139,6 +143,7 @@ export const PostsPage: Component = () => {
   const presetOptions = () => presets.filter((item) => !info.presetKeys || info.presetKeys.includes(item.value));
 
   const postRequested = () => stringToBool(searchParams.requested);
+  const postReposted = () => stringToBool(searchParams.reposted);
   const postPublishable = () => stringToBool(searchParams.publishable);
   const postType = () => POST_TYPES.find((type) => type === searchParams.type);
   const postTag = () => searchParams.tag;
@@ -158,6 +163,7 @@ export const PostsPage: Component = () => {
   const setPreset = (preset: PresetKey | undefined) =>
     setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.params });
   const setPostRequested = (requested: string | undefined) => setSearchParams({ requested });
+  const setPostReposted = (reposted: string | undefined) => setSearchParams({ reposted });
   const setPostPublishable = (publishable: string | undefined) => setSearchParams({ publishable });
   const setPostType = (type: PostType | undefined) => setSearchParams({ type });
   const setPostTag = (tag: string | undefined) => setSearchParams({ tag });
@@ -182,6 +188,7 @@ export const PostsPage: Component = () => {
     mark: postMark(),
     violation: postViolation(),
     requested: postRequested(),
+    reposted: postReposted(),
     publishable: postPublishable(),
     search: searchTerm(),
     sortKey: sortKey(),
@@ -320,6 +327,16 @@ export const PostsPage: Component = () => {
               options={[ALL_OPTION, YES_OPTION, NO_OPTION]}
               value={boolToString(postRequested())}
               onChange={setPostRequested}
+            />
+          </Label>
+        </Show>
+        <Show when={!info.filters || info.filters.includes('reposted')}>
+          <Label label="Repost">
+            <RadioGroup
+              name="reposted"
+              options={[ALL_OPTION, YES_OPTION, NO_OPTION]}
+              value={boolToString(postReposted())}
+              onChange={setPostReposted}
             />
           </Label>
         </Show>

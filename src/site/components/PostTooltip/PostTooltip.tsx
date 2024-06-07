@@ -1,7 +1,9 @@
 import { type Component, For, Show, splitProps } from 'solid-js';
-import { POST_VIOLATIONS } from '../../../core/entities/post.js';
+import { getPostDateById, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { getUserEntryTitle } from '../../../core/entities/user.js';
+import { isValidDate } from '../../../core/utils/date-utils.js';
+import { Divider } from '../Divider/Divider.jsx';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
@@ -14,12 +16,20 @@ interface PostTooltipProps extends Omit<TooltipProps, 'children'> {
 
 export const PostTooltip: Component<PostTooltipProps> = (props) => {
   const [local, rest] = splitProps(props, ['postInfo']);
+  const date = () => getPostDateById(local.postInfo.id);
+  const refDate = () => (local.postInfo.refId ? getPostDateById(local.postInfo.refId) : undefined);
 
   return (
     <Tooltip {...rest}>
       <span class={styles.title}>{local.postInfo.title || local.postInfo.id}</span>
       <Show when={local.postInfo.titleRu}>
         <span class={styles.titleRu}>{local.postInfo.titleRu}</span>
+      </Show>
+      <Show when={isValidDate(date())}>
+        <span class={styles.date}>
+          Date: {date()?.toLocaleDateString('en-GB')}
+          <Show when={isValidDate(refDate())}>*</Show>
+        </span>
       </Show>
       <Show when={local.postInfo.type}>
         <span class={styles.type}>Type: {local.postInfo.type}</span>
@@ -100,6 +110,10 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       </Show>
       <Show when={local.postInfo.commentCount}>
         <span class={styles.commentCount}>Comments: {local.postInfo.commentCount}</span>
+      </Show>
+      <Show when={isValidDate(refDate())}>
+        <Divider class={styles.divider} />
+        <span class={styles.date}>* {refDate()?.toLocaleDateString('en-GB')}</span>
       </Show>
     </Tooltip>
   );

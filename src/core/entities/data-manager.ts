@@ -56,7 +56,7 @@ export abstract class DataReader<TItem> {
     if (typeof item === 'string') {
       const entry = await this.getEntry(item);
 
-      return [id, entry[1], entry[2]];
+      return [id, entry[1], entry[2] || item];
     }
 
     return [id, item];

@@ -24,6 +24,7 @@ export async function data(pageContext: PageContext): Promise<UserPageData> {
   return {
     userInfo: await createUserInfo(await users.getEntry(pageContext.routeParams.id), published, inbox, trash),
     lastPostInfo: await getPostInfo(published, comparePostEntriesById('desc'), checkAuthor),
+    lastOriginalPostInfo: await getPostInfo(published, comparePostEntriesById('desc'), checkAuthor, true),
     firstPostInfo: await getPostInfo(published, comparePostEntriesById('asc'), checkAuthor),
     topRatedPostInfo: await getPostInfo(published, comparePostEntriesByRating('desc'), checkAuthor),
     topLikedPostInfo: await getPostInfo(published, comparePostEntriesByLikes('desc'), checkAuthor),

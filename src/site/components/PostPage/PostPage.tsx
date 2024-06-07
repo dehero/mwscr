@@ -2,15 +2,15 @@ import { writeClipboard } from '@solid-primitives/clipboard';
 import clsx from 'clsx';
 import { type Component, createSignal, For, Match, onMount, Show, Switch } from 'solid-js';
 import { useData } from 'vike-solid/useData';
-import { usePageContext } from 'vike-solid/usePageContext';
-import { getPostTypeAspectRatio, type Post } from '../../../core/entities/post.js';
+import { getPostDateById, getPostTypeAspectRatio, type Post } from '../../../core/entities/post.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import type { UserEntry } from '../../../core/entities/user.js';
 import { getUserEntryTitle } from '../../../core/entities/user.js';
 import { youtube } from '../../../core/services/youtube.js';
 import { store } from '../../../core/stores/index.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import type { PostRouteParams } from '../../routes/post-route.js';
+import { useParams } from '../../hooks/useParams.js';
+import { postRoute, type PostRouteParams } from '../../routes/post-route.js';
 import { Button } from '../Button/Button.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
@@ -27,30 +27,34 @@ import styles from './PostPage.module.css';
 
 export interface PostPageData {
   post: Post | undefined;
+  refId: string | undefined;
   authorEntries: UserEntry[];
 }
 
 export const PostPage: Component = () => {
   const { addToast } = useToaster();
-  const params = usePageContext().routeParams as PostRouteParams;
+  const params = useParams<PostRouteParams>();
   let imageRef: HTMLImageElement | undefined;
 
   const [selectedContentIndex, setSelectedContentIndex] = createSignal(0);
 
-  const id = () => params.id;
-  const { post, authorEntries } = useData<PostPageData>();
+  const id = () => params().id;
+  const data = useData<PostPageData>();
 
-  const title = () => post?.title || 'Untitled';
-  const titleRu = () => post?.titleRu || 'Без названия';
-  const content = () => asArray(post?.content);
+  const date = () => getPostDateById(id());
+  const refDate = () => (data.refId ? getPostDateById(data.refId) : undefined);
+
+  const title = () => data.post?.title || 'Untitled';
+  const titleRu = () => data.post?.titleRu || 'Без названия';
+  const content = () => asArray(data.post?.content);
   const contentPublicUrls = () => content().map((url) => store.getPublicUrl(parseResourceUrl(url).pathname));
-  const locationButtonTitle = () => post?.location || 'Locate';
-  const aspectRatio = () => (post ? getPostTypeAspectRatio(post.type) : '1/1');
+  const locationButtonTitle = () => data.post?.location || 'Locate';
+  const aspectRatio = () => (data.post ? getPostTypeAspectRatio(data.post.type) : '1/1');
 
   const selectedContent = () => content()[selectedContentIndex()];
   const selectedContentPublicUrl = () => contentPublicUrls()[selectedContentIndex()];
 
-  const youtubePost = () => post?.posts?.find((post) => post.service === 'yt');
+  const youtubePost = () => data.post?.posts?.find((post) => post.service === 'yt');
 
   const [showEditingDialog, setShowEditingDialog] = createSignal(false);
   const [showLocationDialog, setShowLocationDialog] = createSignal(false);
@@ -79,7 +83,7 @@ export const PostPage: Component = () => {
     <>
       <Toast message="Loading..." show={isLoading()} />
       <Divider class={styles.divider} />
-      <Show when={post}>
+      <Show when={data.post}>
         {(post) => (
           <section
             class={clsx(
@@ -176,10 +180,18 @@ export const PostPage: Component = () => {
                       </Button>
                     ),
                   },
+                  { label: 'Date', value: date() },
+                  {
+                    label: 'Original Post Date',
+                    value: refDate(),
+                    link: data.refId
+                      ? postRoute.createUrl({ managerName: params().managerName, id: data.refId })
+                      : undefined,
+                  },
                   { label: 'Type', value: post().type },
                   {
                     label: 'Author',
-                    value: authorEntries.map(getUserEntryTitle).join(', '),
+                    value: data.authorEntries.map(getUserEntryTitle).join(', '),
                   },
                   { label: 'Engine', value: post().engine },
                   { label: 'Addon', value: post().addon },
