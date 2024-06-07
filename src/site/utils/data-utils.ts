@@ -10,13 +10,14 @@ export async function getPostInfo(
   manager: PostsManager,
   compareFn?: PostEntriesComparator,
   filterFns?: PostFilter<Post, Post> | PostFilter<Post, Post>[],
+  skipReferences?: boolean,
 ): Promise<PostInfo | undefined> {
   const filterFn = filterFns
     ? Array.isArray(filterFns)
       ? (post: Post): post is Post => filterFns.every((fn) => fn(post))
       : filterFns
     : undefined;
-  const [entry] = await getPostEntriesFromSource(() => manager.readAllEntries(), compareFn, filterFn, 1);
+  const [entry] = await getPostEntriesFromSource(() => manager.readAllEntries(skipReferences), compareFn, filterFn, 1);
 
   return entry ? createPostInfo(entry, locations, users, manager.name) : undefined;
 }

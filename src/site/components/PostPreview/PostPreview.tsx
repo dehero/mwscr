@@ -12,6 +12,7 @@ import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import { PostTooltip } from '../PostTooltip/PostTooltip.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
+import { Spacer } from '../Spacer/Spacer.jsx';
 import styles from './PostPreview.module.css';
 
 export const POST_PREVIEW_MAX_WIDTH = 324;
@@ -63,6 +64,8 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
         <Frame variant="thin" class={styles.info}>
           <div class={styles.header}>
             <div class={styles.title}>{title()}</div>
+            <Show when={props.postInfo.refId}>*</Show>
+            <Spacer />
             <span class={styles.attributes}>
               <Show when={props.postInfo.published}>
                 <GoldIcon />

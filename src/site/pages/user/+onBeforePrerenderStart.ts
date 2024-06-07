@@ -29,6 +29,7 @@ export async function onBeforePrerenderStart(): ReturnType<OnBeforePrerenderStar
           data: {
             userInfo,
             lastPostInfo: await getPostInfo(published, comparePostEntriesById('desc'), checkAuthor),
+            lastOriginalPostInfo: await getPostInfo(published, comparePostEntriesById('desc'), checkAuthor, true),
             firstPostInfo: await getPostInfo(published, comparePostEntriesById('asc'), checkAuthor),
             topRatedPostInfo: await getPostInfo(published, comparePostEntriesByRating('desc'), checkAuthor),
             topLikedPostInfo: await getPostInfo(published, comparePostEntriesByLikes('desc'), checkAuthor),

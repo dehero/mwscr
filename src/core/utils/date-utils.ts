@@ -71,3 +71,7 @@ export function getSecondOfDay(date: Date) {
 export function getVersionFromDate(date: Date) {
   return `${date.getUTCFullYear()}.${getDayOfYear(date)}.${getSecondOfDay(date)}`;
 }
+
+export function isValidDate(value: unknown) {
+  return value instanceof Date && !Number.isNaN(value.getTime());
+}

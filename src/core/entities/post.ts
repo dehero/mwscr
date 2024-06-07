@@ -1,6 +1,6 @@
 import type { SortDirection } from '../utils/common-types.js';
 import { arrayFromAsync, asArray } from '../utils/common-utils.js';
-import { dateToString } from '../utils/date-utils.js';
+import { dateToString, stringToDate } from '../utils/date-utils.js';
 import { areNestedLocations as areRelatedLocations } from './location.js';
 import type { MediaAspectRatio } from './media.js';
 import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, resourceIsImage, resourceIsVideo } from './resource.js';
@@ -359,6 +359,12 @@ export function mergePostTags(tags1: string[] | undefined, tags2?: string[] | un
   const result = new Set([...(tags1 ?? []), ...(tags2 ?? [])]);
 
   return result.size > 0 ? [...result] : undefined;
+}
+
+export function getPostDateById(id: string) {
+  const dateStr = id.split('.')[0];
+
+  return dateStr ? stringToDate(dateStr) : undefined;
 }
 
 export async function getPostEntriesFromSource<TPost extends Post, TFilteredPost extends TPost = TPost>(

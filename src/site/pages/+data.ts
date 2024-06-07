@@ -27,6 +27,7 @@ export async function data(): Promise<HomePageData> {
     authorCount,
     requesterCount,
     lastPostInfo: await getPostInfo(published, comparePostEntriesById('desc')),
+    lastOriginalPostInfo: await getPostInfo(published, comparePostEntriesById('desc'), undefined, true),
     topRatedPostInfo: await getPostInfo(published, comparePostEntriesByRating('desc')),
     topLikedPostInfo: await getPostInfo(published, comparePostEntriesByLikes('desc')),
     lastFulfilledPostInfo: await getPostInfo(published, comparePostEntriesById('desc'), isPostRequest),

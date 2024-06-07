@@ -10,7 +10,7 @@ export const postsRouteInfos: Record<string, PostsPageInfo> = {
     label: 'Published',
     title: 'Published',
     presetKeys: ['editors-choice', 'unlocated', 'requests'],
-    filters: ['author', 'location', 'mark', 'tag', 'type'],
+    filters: ['author', 'location', 'mark', 'tag', 'type', 'requested', 'reposted'],
   },
   inbox: {
     label: 'Inbox',
