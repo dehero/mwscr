@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BcSn8EqD5nv/)       | 2017-12-04 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_523)  | 2017-12-04 |   220 |    17 |       105 |  16.19 |
-| [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   194 |    46 |      1424 |   3.23 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   142 |    24 |       916 |   2.62 |
-| [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   100 |    37 |       384 |   9.64 |
-|                                                    |            |   656 |   198 |      2724 |   7.92 |
+| [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   198 |    47 |      1424 |    3.3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   146 |    24 |       916 |   2.62 |
+| [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   101 |    37 |       384 |   9.64 |
+|                                                    |            |   665 |   199 |      2724 |   7.94 |
 
 ## <span id="2024-06-06.shipwreck-at-the-estuary-of-foyada">Shipwreck at the Estuary of Foyada</span>
 
