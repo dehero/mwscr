@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`102 items`
+`103 items`
+
+## <span id="2024-06-08.in-khuul">In Khuul</span>
+
+`RU` В Хууле
+
+<a href="https://instagram.com/p/BTYfIxOjZg3/" title="2017-04-27.in-khuul"><img alt="store:/shots/2017-04-27.in-khuul.png" src="../../assets/previews/shots/2017-04-27.in-khuul.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Khuul` `🚀 OpenMW` `nofilter` `guard`
+
+```
+2024-06-08.in-khuul
+```
+
+> `2017-04-27.in-khuul`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BTYfIxOjZg3/)       | 2017-04-27 |       |    60 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_272)  | 2017-04-27 |   112 |     6 |        54 |      6 |
+| [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |       |       |      1422 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |       |       |       916 |        |
+| [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |       |       |       384 |        |
+|                                                    |            |   112 |    66 |      2722 |        |
 
 ## <span id="2024-06-07.ruins-in-a-mountain-dead-end">Ruins in a Mountain Dead End</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BcSn8EqD5nv/)       | 2017-12-04 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_523)  | 2017-12-04 |   220 |    17 |       105 |  16.19 |
-| [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   232 |    52 |      1424 |   3.65 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   154 |    25 |       916 |   2.73 |
+| [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   233 |    52 |      1424 |   3.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   157 |    26 |       916 |   2.84 |
 | [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   106 |    39 |       384 |  10.16 |
-|                                                    |            |   712 |   207 |      2724 |   8.18 |
+|                                                    |            |   716 |   208 |      2724 |   8.21 |
 
 ## <span id="2024-06-06.shipwreck-at-the-estuary-of-foyada">Shipwreck at the Estuary of Foyada</span>
 
@@ -56,9 +83,9 @@
 | [`ig`](https://instagram.com/p/BfL8-iCHZJn/)       | 2018-02-14 |       |    90 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_613)  | 2018-02-14 |   198 |    17 |       131 |  12.98 |
 | [`ig`](https://instagram.com/p/C74lFspy6fE/)       | 2024-06-06 |   235 |    68 |      1424 |   4.78 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1573) | 2024-06-06 |   167 |    27 |       916 |   2.95 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1573) | 2024-06-06 |   168 |    27 |       916 |   2.95 |
 | [`tg`](https://t.me/mwscr/431)                     | 2024-06-06 |   148 |    51 |       384 |  13.28 |
-|                                                    |            |   748 |   253 |      2724 |    8.5 |
+|                                                    |            |   749 |   253 |      2724 |    8.5 |
 
 #### Comments
 
@@ -88,10 +115,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BToBhOEDGBg/)       | 2017-05-03 |       |    67 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_278)  | 2017-05-03 |   239 |    18 |        56 |     18 |
-| [`ig`](https://instagram.com/p/C72ATH0ODB8/)       | 2024-06-05 |   384 |    77 |      1424 |   5.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1569) | 2024-06-05 |   184 |    35 |       916 |   3.82 |
-| [`tg`](https://t.me/mwscr/430)                     | 2024-06-05 |   168 |    58 |       385 |  15.06 |
-|                                                    |            |   975 |   255 |      2725 |  10.57 |
+| [`ig`](https://instagram.com/p/C72ATH0ODB8/)       | 2024-06-05 |   396 |    80 |      1424 |   5.62 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1569) | 2024-06-05 |   200 |    36 |       916 |   3.93 |
+| [`tg`](https://t.me/mwscr/430)                     | 2024-06-05 |   184 |    60 |       385 |  15.58 |
+|                                                    |            |  1019 |   261 |      2725 |  10.78 |
 
 #### Comments
 
