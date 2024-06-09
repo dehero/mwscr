@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTYfIxOjZg3/)       | 2017-04-27 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_272)  | 2017-04-27 |   112 |     6 |        54 |      6 |
-| [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   150 |    49 |      1422 |   3.45 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   129 |    24 |       916 |   2.62 |
-| [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |    88 |    31 |       384 |   8.07 |
-|                                                    |            |   479 |   170 |      2722 |   5.03 |
+| [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   154 |    49 |      1422 |   3.45 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   133 |    24 |       916 |   2.62 |
+| [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |    92 |    31 |       384 |   8.07 |
+|                                                    |            |   491 |   170 |      2722 |   5.03 |
 
 ## <span id="2024-06-07.ruins-in-a-mountain-dead-end">Ruins in a Mountain Dead End</span>
 
@@ -56,9 +56,9 @@
 | [`ig`](https://instagram.com/p/BcSn8EqD5nv/)       | 2017-12-04 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_523)  | 2017-12-04 |   220 |    17 |       105 |  16.19 |
 | [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   252 |    57 |      1424 |      4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   172 |    28 |       916 |   3.06 |
-| [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   131 |    44 |       384 |  11.46 |
-|                                                    |            |   775 |   220 |      2724 |   8.68 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   174 |    28 |       916 |   3.06 |
+| [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   132 |    44 |       384 |  11.46 |
+|                                                    |            |   778 |   220 |      2724 |   8.68 |
 
 ## <span id="2024-06-06.shipwreck-at-the-estuary-of-foyada">Shipwreck at the Estuary of Foyada</span>
 
