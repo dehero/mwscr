@@ -15,7 +15,9 @@ export const POST_MARKS = ['A1', 'A2', 'B1', 'B2', 'C', 'D', 'E', 'F'] as const;
 
 export const POST_VIOLATIONS = {
   'inappropriate-content': 'Inappropriate content',
+  'jpeg-artifacts': 'JPEG artifacts',
   'graphic-issues': 'Graphic issues',
+  'no-anti-aliasing': 'No anti-aliasing',
   'non-vanilla-look': 'Non-vanilla look',
   'uses-mods': 'Uses or requires mods',
   'ui-visible': 'UI is visible',
