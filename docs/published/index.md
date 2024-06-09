@@ -4,7 +4,37 @@
 
 # Published in 2024
 
-`103 items`
+`104 items`
+
+## <span id="2024-06-09.endusal">Endusal</span>
+
+`RU` Endusal
+
+<a href="https://instagram.com/p/C8ATY5evIhm/" title="2024-06-09.endusal"><img alt="store:/shots/2024-06-09.endusal.png" src="../../assets/previews/shots/2024-06-09.endusal.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/natty.2024-03-10-16-18-43.png](../../assets/previews/trash/natty.2024-03-10-16-18-43.avif "natty.2024-03-10-16-18-43")
+![store:/trash/natty.2024-03-10-16-18-35.png](../../assets/previews/trash/natty.2024-03-10-16-18-35.avif "natty.2024-03-10-16-18-35")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-09.endusal)</code> `🚀 OpenMW` `dwemer` `ruin`
+
+```
+2024-06-09.endusal
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C8ATY5evIhm/)       | 2024-06-09 |      1421 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1576) | 2024-06-09 |       916 |
+| [`tg`](https://t.me/mwscr/434)                     | 2024-06-09 |       384 |
+|                                                    |            |      2721 |
 
 ## <span id="2024-06-08.in-khuul">In Khuul</span>
 
@@ -28,10 +58,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTYfIxOjZg3/)       | 2017-04-27 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_272)  | 2017-04-27 |   112 |     6 |        54 |      6 |
-| [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   220 |    59 |      1422 |   4.15 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   185 |    31 |       916 |   3.38 |
+| [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   221 |    59 |      1422 |   4.15 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   187 |    31 |       916 |   3.38 |
 | [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |   114 |    35 |       384 |   9.11 |
-|                                                    |            |   631 |   191 |      2722 |   5.66 |
+|                                                    |            |   634 |   191 |      2722 |   5.66 |
 
 ## <span id="2024-06-07.ruins-in-a-mountain-dead-end">Ruins in a Mountain Dead End</span>
 
@@ -56,9 +86,9 @@
 | [`ig`](https://instagram.com/p/BcSn8EqD5nv/)       | 2017-12-04 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_523)  | 2017-12-04 |   220 |    17 |       105 |  16.19 |
 | [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   255 |    57 |      1424 |      4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   190 |    32 |       916 |   3.49 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   192 |    33 |       916 |    3.6 |
 | [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   146 |    46 |       384 |  11.98 |
-|                                                    |            |   811 |   226 |      2724 |   8.92 |
+|                                                    |            |   813 |   227 |      2724 |   8.94 |
 
 ## <span id="2024-06-06.shipwreck-at-the-estuary-of-foyada">Shipwreck at the Estuary of Foyada</span>
 

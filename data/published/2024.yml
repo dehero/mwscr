@@ -1954,3 +1954,31 @@
 2024-06-06.shipwreck-at-the-estuary-of-foyada: 2018-02-14.shipwreck-at-the-estuary-of-foyada
 2024-06-07.ruins-in-a-mountain-dead-end: 2017-12-04.ruins-in-a-mountain-dead-end
 2024-06-08.in-khuul: 2017-04-27.in-khuul
+2024-06-09.endusal:
+  title: Endusal
+  titleRu: Endusal
+  content: store:/shots/2024-06-09.endusal.png
+  trash:
+    - store:/trash/natty.2024-03-10-16-18-43.png
+    - store:/trash/natty.2024-03-10-16-18-35.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - dwemer
+    - ruin
+  mark: B1
+  posts:
+    - service: ig
+      id: C8ATY5evIhm
+      mediaId: '18152738755309488'
+      published: 2024-06-09-18-18-38
+      followers: 1421
+    - service: vk
+      id: 1576
+      published: 2024-06-09-18-18-45
+      followers: 916
+    - service: tg
+      id: 434
+      published: 2024-06-09-18-18-52
+      followers: 384
