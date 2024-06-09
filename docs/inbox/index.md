@@ -4,58 +4,7 @@
 
 # Inbox for 2024
 
-`49 items`
-
-## <span id="vladyslav-zhuk.2024-05-20-d3c543d1">vladyslav-zhuk.2024-05-20-d3c543d1</span>
-
-![store:/inbox/vladyslav-zhuk.2024-05-20-d3c543d1.png](../../assets/previews/inbox/vladyslav-zhuk.2024-05-20-d3c543d1.avif "vladyslav-zhuk.2024-05-20-d3c543d1")
-
-`shot` by [Vladyslav Zhuk](../contributors.md#vladyslav-zhuk)
-
-> [!CAUTION]
-> JPEG artifacts.
-
-> [!WARNING]
-> Need english title, need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=vladyslav-zhuk.2024-05-20-d3c543d1&amp;postContent=store%3A%2Finbox%2Fvladyslav-zhuk.2024-05-20-d3c543d1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=vladyslav-zhuk&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=jpeg-artifacts&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=vladyslav-zhuk.2024-05-20-d3c543d1) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=vladyslav-zhuk.2024-05-20-d3c543d1) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=vladyslav-zhuk.2024-05-20-d3c543d1)</code>
-
-```
-vladyslav-zhuk.2024-05-20-d3c543d1
-```
-
-## <span id="vladyslav-zhuk.2024-05-20-90ebbbeb">vladyslav-zhuk.2024-05-20-90ebbbeb</span>
-
-![store:/inbox/vladyslav-zhuk.2024-05-20-90ebbbeb.png](../../assets/previews/inbox/vladyslav-zhuk.2024-05-20-90ebbbeb.avif "vladyslav-zhuk.2024-05-20-90ebbbeb")
-
-`shot` by [Vladyslav Zhuk](../contributors.md#vladyslav-zhuk)
-
-> [!WARNING]
-> Need english title, need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=vladyslav-zhuk.2024-05-20-90ebbbeb&amp;postContent=store%3A%2Finbox%2Fvladyslav-zhuk.2024-05-20-90ebbbeb.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=vladyslav-zhuk&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=vladyslav-zhuk.2024-05-20-90ebbbeb) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=vladyslav-zhuk.2024-05-20-90ebbbeb) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=vladyslav-zhuk.2024-05-20-90ebbbeb)</code>
-
-```
-vladyslav-zhuk.2024-05-20-90ebbbeb
-```
-
-## <span id="vladyslav-zhuk.2024-05-20-4039c778">vladyslav-zhuk.2024-05-20-4039c778</span>
-
-![store:/inbox/vladyslav-zhuk.2024-05-20-4039c778.png](../../assets/previews/inbox/vladyslav-zhuk.2024-05-20-4039c778.avif "vladyslav-zhuk.2024-05-20-4039c778")
-
-`shot` by [Vladyslav Zhuk](../contributors.md#vladyslav-zhuk)
-
-> [!CAUTION]
-> JPEG artifacts.
-
-> [!WARNING]
-> Need english title, need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=vladyslav-zhuk.2024-05-20-4039c778&amp;postContent=store%3A%2Finbox%2Fvladyslav-zhuk.2024-05-20-4039c778.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=vladyslav-zhuk&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=jpeg-artifacts&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=vladyslav-zhuk.2024-05-20-4039c778) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=vladyslav-zhuk.2024-05-20-4039c778) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=vladyslav-zhuk.2024-05-20-4039c778)</code>
-
-```
-vladyslav-zhuk.2024-05-20-4039c778
-```
+`46 items`
 
 ## <span id="natty.2024-03-28-20-45-38">natty.2024-03-28-20-45-38</span>
 

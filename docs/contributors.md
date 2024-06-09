@@ -12,7 +12,7 @@ Roles: `admin` `author` `requester`
 Authored: 971 published, 23 pending, 60 rejected  
 Requested: 6 pending  
 Types: `shot` `shot-set` `video` `clip` `drawing`  
-Likes: 133179  
+Likes: 133183  
 
 ```
 dehero
@@ -66,16 +66,6 @@ Likes: 239
 
 ```
 irina-bystritskaya
-```
-
-### Vladyslav Zhuk
-
-Roles: `author` `beginner`  
-Authored: 3 pending, 1 rejected  
-Types: `shot`  
-
-```
-vladyslav-zhuk
 ```
 
 ## Requesters
@@ -136,6 +126,15 @@ mighty-markyys
 ```
 
 ## Other
+
+### Vladyslav Zhuk
+
+Roles: `beginner`  
+Authored: 4 rejected  
+
+```
+vladyslav-zhuk
+```
 
 ### RemmLah
 
