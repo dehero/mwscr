@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`45 items`
+`44 items`
 
 ## <span id="natty.2024-03-28-20-45-38">natty.2024-03-28-20-45-38</span>
 
@@ -717,28 +717,6 @@ dehero.2024-02-05-00-07-46
 
 ```
 dehero.2024-02-05-00-02-12
-```
-
-## <span id="dehero.2024-02-05-00-01-00">dehero.2024-02-05-00-01-00</span>
-
-![store:/inbox/dehero.2024-02-05-00-01-00.png](../../assets/previews/inbox/dehero.2024-02-05-00-01-00.avif "dehero.2024-02-05-00-01-00")
-![store:/inbox/dehero.2024-02-05-00-00-43.png](../../assets/previews/inbox/dehero.2024-02-05-00-00-43.avif "dehero.2024-02-05-00-00-43")
-![store:/inbox/dehero.2024-02-04-23-58-11.png](../../assets/previews/inbox/dehero.2024-02-04-23-58-11.avif "dehero.2024-02-04-23-58-11")
-![store:/inbox/dehero.2024-02-04-23-57-31.png](../../assets/previews/inbox/dehero.2024-02-04-23-57-31.avif "dehero.2024-02-04-23-57-31")
-![store:/inbox/dehero.2024-02-05-00-00-43.1.png](../../assets/previews/inbox/dehero.2024-02-05-00-00-43.1.avif "dehero.2024-02-05-00-00-43.1")
-![store:/inbox/dehero.2024-02-05-00-00-55.png](../../assets/previews/inbox/dehero.2024-02-05-00-00-55.avif "dehero.2024-02-05-00-00-55")
-![store:/inbox/dehero.2024-02-04-23-58-30.png](../../assets/previews/inbox/dehero.2024-02-04-23-58-30.avif "dehero.2024-02-04-23-58-30")
-![store:/inbox/dehero.2024-02-05-00-01-16.png](../../assets/previews/inbox/dehero.2024-02-05-00-01-16.avif "dehero.2024-02-05-00-01-16")
-
-`shot` by [dehero](../contributors.md#dehero)
-
-> [!WARNING]
-> Need english title, need russian title, need mark, unable to detect possible post type from content.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-05-00-01-00&amp;postContent=store%3A%2Finbox%2Fdehero.2024-02-05-00-01-00.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-00-43.png%0Astore%3A%2Finbox%2Fdehero.2024-02-04-23-58-11.png%0Astore%3A%2Finbox%2Fdehero.2024-02-04-23-57-31.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-00-43.1.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-00-55.png%0Astore%3A%2Finbox%2Fdehero.2024-02-04-23-58-30.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-01-16.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=Azura%27s+Coast+Region&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-05-00-01-00) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-05-00-01-00) `📍 Azura's Coast Region`
-
-```
-dehero.2024-02-05-00-01-00
 ```
 
 ---

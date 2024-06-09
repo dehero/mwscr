@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`2 items`
+`3 items`
 
 ## <span id="dehero.2024-03-24-11-41-57">Propylon</span>
 
@@ -25,6 +25,32 @@
 
 ```
 dehero.2024-03-24-11-41-57
+```
+
+## <span id="dehero.2024-02-05-00-01-00">Beran Ancestral Tomb</span>
+
+`RU` Родовая гробница Беранов
+
+![store:/inbox/dehero.2024-02-05-00-00-43.1.png](../../assets/previews/inbox/dehero.2024-02-05-00-00-43.1.avif "dehero.2024-02-05-00-00-43.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2024-02-05-00-01-00.png](../../assets/previews/inbox/dehero.2024-02-05-00-01-00.avif "dehero.2024-02-05-00-01-00")
+![store:/inbox/dehero.2024-02-05-00-00-43.png](../../assets/previews/inbox/dehero.2024-02-05-00-00-43.avif "dehero.2024-02-05-00-00-43")
+![store:/inbox/dehero.2024-02-04-23-58-11.png](../../assets/previews/inbox/dehero.2024-02-04-23-58-11.avif "dehero.2024-02-04-23-58-11")
+![store:/inbox/dehero.2024-02-04-23-57-31.png](../../assets/previews/inbox/dehero.2024-02-04-23-57-31.avif "dehero.2024-02-04-23-57-31")
+![store:/inbox/dehero.2024-02-05-00-00-55.png](../../assets/previews/inbox/dehero.2024-02-05-00-00-55.avif "dehero.2024-02-05-00-00-55")
+![store:/inbox/dehero.2024-02-04-23-58-30.png](../../assets/previews/inbox/dehero.2024-02-04-23-58-30.avif "dehero.2024-02-04-23-58-30")
+![store:/inbox/dehero.2024-02-05-00-01-16.png](../../assets/previews/inbox/dehero.2024-02-05-00-01-16.avif "dehero.2024-02-05-00-01-16")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-05-00-01-00&amp;postContent=store%3A%2Finbox%2Fdehero.2024-02-05-00-00-43.1.png&amp;postTitle=Beran+Ancestral+Tomb&amp;postTitleRu=%D0%A0%D0%BE%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F+%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D0%B0+%D0%91%D0%B5%D1%80%D0%B0%D0%BD%D0%BE%D0%B2&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=tomb+sunset&amp;postLocation=Azura%27s+Coast+Region&amp;postMark=A2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-02-05-00-01-00.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-00-43.png%0Astore%3A%2Finbox%2Fdehero.2024-02-04-23-58-11.png%0Astore%3A%2Finbox%2Fdehero.2024-02-04-23-57-31.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-00-55.png%0Astore%3A%2Finbox%2Fdehero.2024-02-04-23-58-30.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-01-16.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-05-00-01-00) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-05-00-01-00) `A2` `📍 Azura's Coast Region` `🚀 OpenMW` `tomb` `sunset`
+
+```
+dehero.2024-02-05-00-01-00
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
