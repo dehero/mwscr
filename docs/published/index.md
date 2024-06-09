@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTYfIxOjZg3/)       | 2017-04-27 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_272)  | 2017-04-27 |   112 |     6 |        54 |      6 |
-| [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   173 |    52 |      1422 |   3.66 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   153 |    26 |       916 |   2.84 |
+| [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   175 |    53 |      1422 |   3.73 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   159 |    28 |       916 |   3.06 |
 | [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |    98 |    31 |       384 |   8.07 |
-|                                                    |            |   536 |   175 |      2722 |   5.14 |
+|                                                    |            |   544 |   178 |      2722 |   5.21 |
 
 ## <span id="2024-06-07.ruins-in-a-mountain-dead-end">Ruins in a Mountain Dead End</span>
 
@@ -56,9 +56,9 @@
 | [`ig`](https://instagram.com/p/BcSn8EqD5nv/)       | 2017-12-04 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_523)  | 2017-12-04 |   220 |    17 |       105 |  16.19 |
 | [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   254 |    57 |      1424 |      4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   175 |    28 |       916 |   3.06 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   177 |    29 |       916 |   3.17 |
 | [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   135 |    44 |       384 |  11.46 |
-|                                                    |            |   784 |   220 |      2724 |   8.68 |
+|                                                    |            |   786 |   221 |      2724 |    8.7 |
 
 ## <span id="2024-06-06.shipwreck-at-the-estuary-of-foyada">Shipwreck at the Estuary of Foyada</span>
 
