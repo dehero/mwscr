@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`50 items`
+`49 items`
 
 ## <span id="vladyslav-zhuk.2024-05-20-d3c543d1">vladyslav-zhuk.2024-05-20-d3c543d1</span>
 
@@ -34,21 +34,6 @@ vladyslav-zhuk.2024-05-20-d3c543d1
 
 ```
 vladyslav-zhuk.2024-05-20-90ebbbeb
-```
-
-## <span id="vladyslav-zhuk.2024-05-20-715f7a34">Daedric Chaos</span>
-
-![store:/inbox/vladyslav-zhuk.2024-05-20-715f7a34.png](../../assets/previews/inbox/vladyslav-zhuk.2024-05-20-715f7a34.avif "vladyslav-zhuk.2024-05-20-715f7a34")
-
-`shot` by [Vladyslav Zhuk](../contributors.md#vladyslav-zhuk)
-
-> [!WARNING]
-> Need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=vladyslav-zhuk.2024-05-20-715f7a34&amp;postContent=store%3A%2Finbox%2Fvladyslav-zhuk.2024-05-20-715f7a34.png&amp;postTitle=Daedric+Chaos&amp;postTitleRu=&amp;postAuthor=vladyslav-zhuk&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=vladyslav-zhuk.2024-05-20-715f7a34) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=vladyslav-zhuk.2024-05-20-715f7a34) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=vladyslav-zhuk.2024-05-20-715f7a34)</code>
-
-```
-vladyslav-zhuk.2024-05-20-715f7a34
 ```
 
 ## <span id="vladyslav-zhuk.2024-05-20-4039c778">vladyslav-zhuk.2024-05-20-4039c778</span>

@@ -4,7 +4,22 @@
 
 # Trash for 2024
 
-`13 items`
+`14 items`
+
+## <span id="vladyslav-zhuk.2024-05-20-715f7a34">Daedric Chaos</span>
+
+![store:/trash/vladyslav-zhuk.2024-05-20-715f7a34.png](../../assets/previews/trash/vladyslav-zhuk.2024-05-20-715f7a34.avif "vladyslav-zhuk.2024-05-20-715f7a34")
+
+`shot` by [Vladyslav Zhuk](../contributors.md#vladyslav-zhuk)
+
+> [!CAUTION]
+> JPEG artifacts.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=vladyslav-zhuk.2024-05-20-715f7a34&amp;postContent=store%3A%2Ftrash%2Fvladyslav-zhuk.2024-05-20-715f7a34.png&amp;postTitle=Daedric+Chaos&amp;postTitleRu=&amp;postAuthor=vladyslav-zhuk&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=jpeg-artifacts&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=vladyslav-zhuk.2024-05-20-715f7a34) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=vladyslav-zhuk.2024-05-20-715f7a34) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=vladyslav-zhuk.2024-05-20-715f7a34)</code>
+
+```
+vladyslav-zhuk.2024-05-20-715f7a34
+```
 
 ## <span id="natty.2024-03-28-20-37-30">natty.2024-03-28-20-37-30</span>
 

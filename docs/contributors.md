@@ -71,7 +71,7 @@ irina-bystritskaya
 ### Vladyslav Zhuk
 
 Roles: `author` `beginner`  
-Authored: 4 pending  
+Authored: 3 pending, 1 rejected  
 Types: `shot`  
 
 ```
