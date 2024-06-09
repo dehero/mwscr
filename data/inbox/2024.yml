@@ -130,12 +130,20 @@ natty.2024-03-10-12-54-07:
   type: shot
   author: natty
 natty.2024-03-10-12-54-50:
-  content:
+  title: Emperor Parasols Under the Rain of Stars
+  titleRu: Императорские зонтики под звёздным дождем
+  location: Ascadian Isles Region
+  content: store:/inbox/natty.2024-03-10-12-54-50.1.png
+  trash:
     - store:/inbox/natty.2024-03-10-12-54-50.png
     - store:/inbox/natty.2024-03-10-12-54-37.png
-    - store:/inbox/natty.2024-03-10-12-54-50.1.png
   type: shot
   author: natty
+  engine: OpenMW
+  tags:
+    - night
+    - mushrooms
+  mark: B1
 natty.2024-03-10-15-55-15:
   content:
     - store:/inbox/natty.2024-03-10-15-55-15.png
