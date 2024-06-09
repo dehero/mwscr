@@ -31,7 +31,11 @@ dehero.2024-02-05-00-07-46:
   type: shot
   author: dehero
 dehero.2024-02-17-10-40-10:
-  content:
+  title: Sleeping Silt Strider
+  titleRu: Спящий Силт Страйдер
+  location: Ashlands Region
+  content: store:/inbox/dehero.2024-02-17-10-40-10.1.png
+  trash:
     - store:/inbox/dehero.2024-02-17-10-40-10.png
     - store:/inbox/dehero.2024-02-17-10-39-58.png
     - store:/inbox/dehero.2024-02-17-10-39-53.png
@@ -40,9 +44,14 @@ dehero.2024-02-17-10-40-10:
     - store:/inbox/dehero.2024-02-17-10-38-22.png
     - store:/inbox/dehero.2024-02-17-10-38-00.png
     - store:/inbox/dehero.2024-02-17-10-39-58.1.png
-    - store:/inbox/dehero.2024-02-17-10-40-10.1.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - siltstrider
+    - night
+    - stars
+  mark: A2
 dehero.2024-02-17-10-40-24:
   content: store:/inbox/dehero.2024-02-17-10-40-24.png
   type: shot
