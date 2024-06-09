@@ -99,12 +99,18 @@ dehero.2024-03-05-20-06-06:
   type: shot
   author: dehero
 dehero.2024-03-24-11-41-57:
-  content:
+  title: Propylon
+  titleRu: Пропильон
+  content: store:/inbox/dehero.2024-03-24-11-41-57.1.png
+  trash:
     - store:/inbox/dehero.2024-03-24-11-41-57.png
-    - store:/inbox/dehero.2024-03-24-11-41-57.1.png
     - store:/inbox/dehero.2024-03-24-11-41-57.2.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - propylon
+  mark: B1
 natty.2024-03-10-12-44-23:
   content: store:/inbox/natty.2024-03-10-12-44-23.png
   type: shot

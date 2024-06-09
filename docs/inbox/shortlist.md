@@ -4,7 +4,28 @@
 
 # Shortlist
 
-`1 items`
+`2 items`
+
+## <span id="dehero.2024-03-24-11-41-57">Propylon</span>
+
+`RU` Пропильон
+
+![store:/inbox/dehero.2024-03-24-11-41-57.1.png](../../assets/previews/inbox/dehero.2024-03-24-11-41-57.1.avif "dehero.2024-03-24-11-41-57.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2024-03-24-11-41-57.png](../../assets/previews/inbox/dehero.2024-03-24-11-41-57.avif "dehero.2024-03-24-11-41-57")
+![store:/inbox/dehero.2024-03-24-11-41-57.2.png](../../assets/previews/inbox/dehero.2024-03-24-11-41-57.2.avif "dehero.2024-03-24-11-41-57.2")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-24-11-41-57&amp;postContent=store%3A%2Finbox%2Fdehero.2024-03-24-11-41-57.1.png&amp;postTitle=Propylon&amp;postTitleRu=%D0%9F%D1%80%D0%BE%D0%BF%D0%B8%D0%BB%D1%8C%D0%BE%D0%BD&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=propylon&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-03-24-11-41-57.png%0Astore%3A%2Finbox%2Fdehero.2024-03-24-11-41-57.2.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-24-11-41-57) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-24-11-41-57) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-03-24-11-41-57)</code> `🚀 OpenMW` `propylon`
+
+```
+dehero.2024-03-24-11-41-57
+```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
 
