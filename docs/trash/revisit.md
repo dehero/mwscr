@@ -4,7 +4,7 @@
 
 # Revisit
 
-`26 items`
+`27 items`
 
 ## <span id="remmlah.2022-07-26-two-ways">Two Ways Drawn by RemmLah</span>
 
@@ -51,6 +51,19 @@ natty.2024-03-10-16-44-06
 
 ```
 natty.2024-03-10-16-09-50
+```
+
+## <span id="dehero.2024-03-05-19-51-30">dehero.2024-03-05-19-51-30</span>
+
+![store:/trash/dehero.2024-03-05-19-51-30.png](../../assets/previews/trash/dehero.2024-03-05-19-51-30.avif "dehero.2024-03-05-19-51-30")
+![store:/trash/dehero.2024-03-05-19-51-30.1.png](../../assets/previews/trash/dehero.2024-03-05-19-51-30.1.avif "dehero.2024-03-05-19-51-30.1")
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-05-19-51-30&amp;postContent=store%3A%2Ftrash%2Fdehero.2024-03-05-19-51-30.png%0Astore%3A%2Ftrash%2Fdehero.2024-03-05-19-51-30.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-05-19-51-30) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-05-19-51-30) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-03-05-19-51-30)</code>
+
+```
+dehero.2024-03-05-19-51-30
 ```
 
 ## <span id="dehero.2024-02-05-00-03-32">dehero.2024-02-05-00-03-32</span>

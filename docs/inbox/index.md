@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`43 items`
+`42 items`
 
 ## <span id="natty.2024-03-28-20-45-38">natty.2024-03-28-20-45-38</span>
 
@@ -548,22 +548,6 @@ dehero.2024-03-05-19-58-42
 
 ```
 dehero.2024-03-05-19-56-44
-```
-
-## <span id="dehero.2024-03-05-19-51-30">dehero.2024-03-05-19-51-30</span>
-
-![store:/inbox/dehero.2024-03-05-19-51-30.png](../../assets/previews/inbox/dehero.2024-03-05-19-51-30.avif "dehero.2024-03-05-19-51-30")
-![store:/inbox/dehero.2024-03-05-19-51-30.1.png](../../assets/previews/inbox/dehero.2024-03-05-19-51-30.1.avif "dehero.2024-03-05-19-51-30.1")
-
-`shot` by [dehero](../contributors.md#dehero)
-
-> [!WARNING]
-> Need english title, need russian title, need mark, detected post type "drawing", got "shot".
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-05-19-51-30&amp;postContent=store%3A%2Finbox%2Fdehero.2024-03-05-19-51-30.png%0Astore%3A%2Finbox%2Fdehero.2024-03-05-19-51-30.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-05-19-51-30) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-05-19-51-30) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-03-05-19-51-30)</code>
-
-```
-dehero.2024-03-05-19-51-30
 ```
 
 ## <span id="dehero.2024-03-05-19-49-27">dehero.2024-03-05-19-49-27</span>
