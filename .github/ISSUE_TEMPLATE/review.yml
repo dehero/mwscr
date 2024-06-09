@@ -23,7 +23,9 @@ body:
       label: Violation
       options:
         - Inappropriate content
+        - JPEG artifacts
         - Graphic issues
+        - No anti-aliasing
         - Non-vanilla look
         - Uses or requires mods
         - UI is visible

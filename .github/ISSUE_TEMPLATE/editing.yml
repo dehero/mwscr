@@ -62,8 +62,9 @@ body:
     attributes:
       label: Violation
       placeholder: >-
-        Inappropriate content Graphic issues Non-vanilla look Uses or requires
-        mods UI is visible Unreachable resource Unsupported resource
+        Inappropriate content JPEG artifacts Graphic issues No anti-aliasing
+        Non-vanilla look Uses or requires mods UI is visible Unreachable
+        resource Unsupported resource
   - type: textarea
     id: postTrash
     attributes:
