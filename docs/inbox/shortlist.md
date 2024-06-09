@@ -4,7 +4,29 @@
 
 # Shortlist
 
-`5 items`
+`6 items`
+
+## <span id="natty.2024-03-10-16-26-48">Endusal</span>
+
+`RU` Endusal
+
+![store:/inbox/natty.2024-03-10-16-26-48.1.png](../../assets/previews/inbox/natty.2024-03-10-16-26-48.1.avif "natty.2024-03-10-16-26-48.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/natty.2024-03-10-16-26-48.png](../../assets/previews/inbox/natty.2024-03-10-16-26-48.avif "natty.2024-03-10-16-26-48")
+![store:/inbox/natty.2024-03-10-16-18-43.png](../../assets/previews/inbox/natty.2024-03-10-16-18-43.avif "natty.2024-03-10-16-18-43")
+![store:/inbox/natty.2024-03-10-16-18-35.png](../../assets/previews/inbox/natty.2024-03-10-16-18-35.avif "natty.2024-03-10-16-18-35")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-16-26-48&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-16-26-48.1.png&amp;postTitle=Endusal&amp;postTitleRu=Endusal&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=dwemer+ruin&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-03-10-16-26-48.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-16-18-43.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-16-18-35.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-16-26-48) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-16-26-48) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-16-26-48)</code> `🚀 OpenMW` `dwemer` `ruin`
+
+```
+natty.2024-03-10-16-26-48
+```
 
 ## <span id="natty.2024-03-10-12-54-50">Emperor Parasols Under the Rain of Stars</span>
 

@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`40 items`
+`39 items`
 
 ## <span id="natty.2024-03-28-20-45-38">natty.2024-03-28-20-45-38</span>
 
@@ -273,24 +273,6 @@ natty.2024-03-10-16-37-07
 
 ```
 natty.2024-03-10-16-31-58
-```
-
-## <span id="natty.2024-03-10-16-26-48">natty.2024-03-10-16-26-48</span>
-
-![store:/inbox/natty.2024-03-10-16-26-48.png](../../assets/previews/inbox/natty.2024-03-10-16-26-48.avif "natty.2024-03-10-16-26-48")
-![store:/inbox/natty.2024-03-10-16-26-48.1.png](../../assets/previews/inbox/natty.2024-03-10-16-26-48.1.avif "natty.2024-03-10-16-26-48.1")
-![store:/inbox/natty.2024-03-10-16-18-43.png](../../assets/previews/inbox/natty.2024-03-10-16-18-43.avif "natty.2024-03-10-16-18-43")
-![store:/inbox/natty.2024-03-10-16-18-35.png](../../assets/previews/inbox/natty.2024-03-10-16-18-35.avif "natty.2024-03-10-16-18-35")
-
-`shot` by [Natty](../contributors.md#natty)
-
-> [!WARNING]
-> Need english title, need russian title, need mark, detected post type "shot-set", got "shot".
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-16-26-48&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-16-26-48.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-16-26-48.1.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-16-18-43.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-16-18-35.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-16-26-48) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-16-26-48) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-16-26-48)</code>
-
-```
-natty.2024-03-10-16-26-48
 ```
 
 ## <span id="natty.2024-03-10-16-25-25">natty.2024-03-10-16-25-25</span>

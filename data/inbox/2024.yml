@@ -191,13 +191,20 @@ natty.2024-03-10-16-25-25:
   type: shot
   author: natty
 natty.2024-03-10-16-26-48:
-  content:
+  title: Endusal
+  titleRu: Endusal
+  content: store:/inbox/natty.2024-03-10-16-26-48.1.png
+  trash:
     - store:/inbox/natty.2024-03-10-16-26-48.png
-    - store:/inbox/natty.2024-03-10-16-26-48.1.png
     - store:/inbox/natty.2024-03-10-16-18-43.png
     - store:/inbox/natty.2024-03-10-16-18-35.png
   type: shot
   author: natty
+  engine: OpenMW
+  tags:
+    - dwemer
+    - ruin
+  mark: B1
 natty.2024-03-10-16-31-58:
   content: store:/inbox/natty.2024-03-10-16-31-58.png
   type: shot
