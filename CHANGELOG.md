@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0](https://github.com/dehero/mwscr/compare/v1.2.1...v1.3.0) (2024-06-09)
+
+### Features
+
+- **site:** add "JPEG artifacts" and "No anti-aliasing" violations
+  ([5cd4c31](https://github.com/dehero/mwscr/commit/5cd4c318962cd2835b72d9d9694d8d6ab0aa608c))
+
 ## [1.2.1](https://github.com/dehero/mwscr/compare/v1.2.0...v1.2.1) (2024-05-13)
 
 ### Code Refactoring
