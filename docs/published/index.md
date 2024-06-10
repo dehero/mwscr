@@ -31,10 +31,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8ATY5evIhm/)       | 2024-06-09 |   285 |    68 |      1421 |   4.79 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1576) | 2024-06-09 |   152 |    24 |       916 |   2.62 |
-| [`tg`](https://t.me/mwscr/434)                     | 2024-06-09 |   131 |    44 |       384 |  11.46 |
-|                                                    |            |   568 |   136 |      2721 |   6.29 |
+| [`ig`](https://instagram.com/p/C8ATY5evIhm/)       | 2024-06-09 |   293 |    70 |      1421 |   4.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1576) | 2024-06-09 |   153 |    24 |       916 |   2.62 |
+| [`tg`](https://t.me/mwscr/434)                     | 2024-06-09 |   134 |    44 |       384 |  11.46 |
+|                                                    |            |   580 |   138 |      2721 |   6.33 |
 
 ## <span id="2024-06-08.in-khuul">In Khuul</span>
 
@@ -59,9 +59,9 @@
 | [`ig`](https://instagram.com/p/BTYfIxOjZg3/)       | 2017-04-27 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_272)  | 2017-04-27 |   112 |     6 |        54 |      6 |
 | [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   254 |    66 |      1422 |   4.64 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   210 |    31 |       916 |   3.38 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   211 |    31 |       916 |   3.38 |
 | [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |   167 |    44 |       384 |  11.46 |
-|                                                    |            |   743 |   207 |      2722 |   6.37 |
+|                                                    |            |   744 |   207 |      2722 |   6.37 |
 
 ## <span id="2024-06-07.ruins-in-a-mountain-dead-end">Ruins in a Mountain Dead End</span>
 
