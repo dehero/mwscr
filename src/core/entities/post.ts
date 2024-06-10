@@ -386,19 +386,33 @@ export function comparePostEntriesById(direction: SortDirection): PostEntriesCom
 }
 
 export function comparePostEntriesByRating(direction: SortDirection): PostEntriesComparator {
+  const byId = comparePostEntriesById(direction);
+
   return direction === 'asc'
-    ? (a, b) => getPostRating(a[1]) - getPostRating(b[1])
-    : (a, b) => getPostRating(b[1]) - getPostRating(a[1]);
+    ? (a, b) => getPostRating(a[1]) - getPostRating(b[1]) || byId(a, b)
+    : (a, b) => getPostRating(b[1]) - getPostRating(a[1]) || byId(a, b);
 }
 
 export function comparePostEntriesByLikes(direction: SortDirection): PostEntriesComparator {
+  const byId = comparePostEntriesById(direction);
+
   return direction === 'asc'
-    ? (a, b) => getPostTotalLikes(a[1]) - getPostTotalLikes(b[1])
-    : (a, b) => getPostTotalLikes(b[1]) - getPostTotalLikes(a[1]);
+    ? (a, b) => getPostTotalLikes(a[1]) - getPostTotalLikes(b[1]) || byId(a, b)
+    : (a, b) => getPostTotalLikes(b[1]) - getPostTotalLikes(a[1]) || byId(a, b);
 }
 
 export function comparePostEntriesByViews(direction: SortDirection): PostEntriesComparator {
+  const byId = comparePostEntriesById(direction);
+
   return direction === 'asc'
-    ? (a, b) => getPostTotalViews(a[1]) - getPostTotalViews(b[1])
-    : (a, b) => getPostTotalViews(b[1]) - getPostTotalViews(a[1]);
+    ? (a, b) => getPostTotalViews(a[1]) - getPostTotalViews(b[1]) || byId(a, b)
+    : (a, b) => getPostTotalViews(b[1]) - getPostTotalViews(a[1]) || byId(a, b);
+}
+
+export function comparePostEntriesByMark(direction: SortDirection): PostEntriesComparator {
+  const byRating = comparePostEntriesByRating(direction);
+
+  return direction === 'asc'
+    ? (a, b) => b[1].mark?.localeCompare(a[1].mark || '') || byRating(a, b)
+    : (a, b) => a[1].mark?.localeCompare(b[1].mark || '') || byRating(a, b);
 }

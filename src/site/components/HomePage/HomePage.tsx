@@ -21,6 +21,7 @@ export interface HomePageData {
   lastFulfilledPostInfo?: PostInfo;
   lastProposedPostInfo?: PostInfo;
   lastRequestedPostInfo?: PostInfo;
+  editorsChoicePostInfo?: PostInfo;
 }
 
 export const HomePage: Component = () => {
@@ -35,6 +36,7 @@ export const HomePage: Component = () => {
     lastProposedPostInfo,
     lastFulfilledPostInfo,
     lastOriginalPostInfo,
+    editorsChoicePostInfo,
   } = useData<HomePageData>();
 
   return (
@@ -106,6 +108,7 @@ export const HomePage: Component = () => {
               { label: 'Last Post', primary: true, postInfo: lastPostInfo },
               { label: 'Last Original Post', primary: true, postInfo: lastOriginalPostInfo },
               { label: 'Top Rated Post', postInfo: topRatedPostInfo },
+              { label: "Editor's Choice Post", postInfo: editorsChoicePostInfo },
               { label: 'Top Liked Post', postInfo: topLikedPostInfo },
               { label: 'Last Fulfilled Request', postInfo: lastFulfilledPostInfo },
               // TODO: Last Week Top Rated Post, Current Month Top Rated Post, Previous Month Top Rated Post etc.
