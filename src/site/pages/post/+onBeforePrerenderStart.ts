@@ -19,6 +19,7 @@ export async function onBeforePrerenderStart(): ReturnType<OnBeforePrerenderStar
                 post,
                 refId,
                 authorEntries: await users.getEntries(asArray(post.author)),
+                requesterEntry: post.request?.user ? await users.getEntry(post.request.user) : undefined,
               },
             },
           })),

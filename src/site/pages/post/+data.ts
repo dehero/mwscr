@@ -11,10 +11,12 @@ export async function data(pageContext: PageContext): Promise<PostPageData> {
     ? (await manager?.getEntry(pageContext.routeParams.id)) || []
     : [];
   const authorEntries = await users.getEntries(asArray(post?.author));
+  const requesterEntry = post?.request?.user ? await users.getEntry(post.request.user) : undefined;
 
   return {
     post,
     refId,
     authorEntries,
+    requesterEntry,
   };
 }

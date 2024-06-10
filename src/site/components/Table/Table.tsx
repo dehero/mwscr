@@ -22,7 +22,7 @@ function valueToString(value: string | number | Date | undefined): string {
 }
 
 export const Table: Component<TableProps> = (props) => {
-  const [local, rest] = splitProps(props, ['class', 'rows', 'label', 'value', 'lightLabels']);
+  const [local, rest] = splitProps(props, ['class', 'rows', 'label', 'value', 'lightLabels', 'link']);
   const rows = () => local.rows.filter((row) => row.value);
 
   return (
@@ -32,7 +32,14 @@ export const Table: Component<TableProps> = (props) => {
           <tr>
             <th class={styles.label}>{local.label}</th>
             <th class={styles.value}>
-              {typeof local.value === 'function' ? local.value() : valueToString(local.value)}
+              <Show
+                when={local.link}
+                fallback={typeof local.value === 'function' ? local.value() : valueToString(local.value)}
+              >
+                <a href={local.link} class={styles.link}>
+                  {typeof local.value === 'function' ? local.value() : valueToString(local.value)}
+                </a>
+              </Show>
             </th>
           </tr>
         </thead>

@@ -99,6 +99,10 @@ export function getUserEntryTitle(entry: UserEntry) {
   return entry[1]?.name || entry[0];
 }
 
+export function getUserEntryLetter(entry: UserEntry) {
+  return getUserEntryTitle(entry)[0]?.toLocaleUpperCase() || '?';
+}
+
 export function compareUserContributions(a: UserContribution, b: UserContribution) {
   return a.published - b.published || a.pending - b.pending || a.rejected - b.rejected;
 }

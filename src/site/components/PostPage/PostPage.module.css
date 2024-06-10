@@ -158,6 +158,10 @@
   margin: 0;
 }
 
+.publishedIcon {
+  text-align: center;
+}
+
 .id {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -182,4 +186,18 @@
 
 .contentSelectorRadio {
   display: none;
+}
+
+.icon {
+  margin-right: 4px;
+}
+
+.tableIcon {
+  vertical-align: baseline;
+}
+
+.authors {
+  display: flex;
+  align-items: flex-end;
+  flex-flow: row nowrap;
 }

@@ -2,8 +2,7 @@ import clsx from 'clsx';
 import { type Component, createSignal, For, Show } from 'solid-js';
 import { getPostTypeAspectRatio, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
-import type { UserEntry } from '../../../core/entities/user.js';
-import { getUserEntryTitle } from '../../../core/entities/user.js';
+import { getUserEntryLetter } from '../../../core/entities/user.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { postRoute } from '../../routes/post-route.js';
 import { Divider } from '../Divider/Divider.js';
@@ -24,16 +23,12 @@ export interface PostPreviewProps {
   postInfo: PostInfo;
 }
 
-function getUserLetter(userEntry: UserEntry) {
-  return getUserEntryTitle(userEntry)[0]?.toLocaleUpperCase() || '?';
-}
-
 export const PostPreview: Component<PostPreviewProps> = (props) => {
   const title = () => props.postInfo.title || props.postInfo.id;
   const content = () => asArray(props.postInfo.content).slice(0, 4);
-  const authorLetters = () => props.postInfo.authorEntries.map(getUserLetter);
+  const authorLetters = () => props.postInfo.authorEntries.map(getUserEntryLetter);
   const requesterLetter = () =>
-    props.postInfo.requesterEntry ? getUserLetter(props.postInfo.requesterEntry) : undefined;
+    props.postInfo.requesterEntry ? getUserEntryLetter(props.postInfo.requesterEntry) : undefined;
   const url = () => postRoute.createUrl({ managerName: props.postInfo.managerName, id: props.postInfo.id });
   const aspectRatio = () => getPostTypeAspectRatio(props.postInfo.type);
 
@@ -68,7 +63,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
             <Spacer />
             <span class={styles.attributes}>
               <Show when={props.postInfo.published}>
-                <GoldIcon />
+                <GoldIcon class={styles.publishedIcon} />
               </Show>
 
               <Show when={props.postInfo.rating}>

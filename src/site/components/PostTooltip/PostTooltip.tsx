@@ -1,7 +1,7 @@
 import { type Component, For, Show, splitProps } from 'solid-js';
 import { getPostDateById, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
-import { getUserEntryTitle } from '../../../core/entities/user.js';
+import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/user.js';
 import { isValidDate } from '../../../core/utils/date-utils.js';
 import { Divider } from '../Divider/Divider.jsx';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
@@ -25,6 +25,12 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       <Show when={local.postInfo.titleRu}>
         <span class={styles.titleRu}>{local.postInfo.titleRu}</span>
       </Show>
+      <Show when={local.postInfo.published}>
+        <span class={styles.published}>
+          <GoldIcon class={styles.icon} />
+          Published
+        </span>
+      </Show>
       <Show when={isValidDate(date())}>
         <span class={styles.date}>
           Date: {date()?.toLocaleDateString('en-GB')}
@@ -42,7 +48,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
               <>
                 {index() > 0 ? ', ' : ''}
                 <Icon color="stealth" size="small" variant="flat" class={styles.icon}>
-                  {getUserEntryTitle(entry)[0]?.toLocaleUpperCase() ?? '?'}
+                  {getUserEntryLetter(entry)}
                 </Icon>
                 {getUserEntryTitle(entry)}
               </>
@@ -92,12 +98,6 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       </Show>
       <Show when={local.postInfo.tags?.length}>
         <span class={styles.tags}>Tags: {local.postInfo.tags?.join(', ')}</span>
-      </Show>
-      <Show when={local.postInfo.published}>
-        <span class={styles.published}>
-          <GoldIcon class={styles.icon} />
-          Published
-        </span>
       </Show>
       <Show when={local.postInfo.likes}>
         <span class={styles.likes}>Likes: {local.postInfo.likes}</span>

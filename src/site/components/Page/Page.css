@@ -32,13 +32,3 @@ body {
   flex-direction: column;
   box-sizing: border-box;
 }
-
-.markdown-body a {
-  color: var(--color-text-selected);
-  text-decoration: none;
-}
-
-.markdown-body a:focus,
-.markdown-body a:hover {
-  color: var(--color-text-selected-hover);
-}
