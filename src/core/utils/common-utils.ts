@@ -133,3 +133,13 @@ export function stringToBool(value?: string): boolean | undefined {
 export function boolToString(value?: boolean): string | undefined {
   return JSON.stringify(value);
 }
+
+export function unknownToString(value?: unknown): string | undefined {
+  if (typeof value === 'undefined') {
+    return undefined;
+  }
+  if (typeof value === 'string') {
+    return value;
+  }
+  return JSON.stringify(value);
+}

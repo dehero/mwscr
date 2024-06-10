@@ -13,13 +13,14 @@ import {
 import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
 import { createIssueUrl as createProposalIssueUrl } from '../../../core/github-issues/proposal.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
-import { boolToString, stringToBool } from '../../../core/utils/common-utils.js';
+import { stringToBool } from '../../../core/utils/common-utils.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
 import type { PostsPageData } from '../../pages/posts/+data.js';
 import { postsRoute, postsRouteInfos } from '../../routes/posts-route.js';
-import { ALL_OPTION, ANY_OPTION, NO_OPTION, NONE_OPTION, YES_OPTION } from '../../utils/ui-constants.js';
+import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../utils/ui-constants.js';
 import { Button } from '../Button/Button.js';
+import { Checkbox } from '../Checkbox/Checkbox.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
@@ -162,9 +163,9 @@ export const PostsPage: Component = () => {
 
   const setPreset = (preset: PresetKey | undefined) =>
     setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.params });
-  const setPostRequested = (requested: string | undefined) => setSearchParams({ requested });
-  const setPostReposted = (reposted: string | undefined) => setSearchParams({ reposted });
-  const setPostPublishable = (publishable: string | undefined) => setSearchParams({ publishable });
+  const setPostRequested = (requested: boolean | undefined) => setSearchParams({ requested });
+  const setPostReposted = (reposted: boolean | undefined) => setSearchParams({ reposted });
+  const setPostPublishable = (publishable: boolean | undefined) => setSearchParams({ publishable });
   const setPostType = (type: PostType | undefined) => setSearchParams({ type });
   const setPostTag = (tag: string | undefined) => setSearchParams({ tag });
   const setPostLocation = (location: string | undefined) => setSearchParams({ location });
@@ -321,33 +322,18 @@ export const PostsPage: Component = () => {
           </Label>
         </Show>
         <Show when={!info.filters || info.filters.includes('requested')}>
-          <Label label="Requested">
-            <RadioGroup
-              name="requested"
-              options={[ALL_OPTION, YES_OPTION, NO_OPTION]}
-              value={boolToString(postRequested())}
-              onChange={setPostRequested}
-            />
+          <Label label="Requested" position="end">
+            <Checkbox name="requested" value={postRequested()} tristate onChange={setPostRequested} />
           </Label>
         </Show>
         <Show when={!info.filters || info.filters.includes('reposted')}>
-          <Label label="Repost">
-            <RadioGroup
-              name="reposted"
-              options={[ALL_OPTION, YES_OPTION, NO_OPTION]}
-              value={boolToString(postReposted())}
-              onChange={setPostReposted}
-            />
+          <Label label="Reposted" position="end">
+            <Checkbox name="reposted" value={postReposted()} tristate onChange={setPostReposted} />
           </Label>
         </Show>
         <Show when={!info.filters || info.filters.includes('publishable')}>
-          <Label label="Publishable">
-            <RadioGroup
-              name="publishable"
-              options={[ALL_OPTION, YES_OPTION, NO_OPTION]}
-              value={boolToString(postPublishable())}
-              onChange={setPostPublishable}
-            />
+          <Label label="Publishable" position="end">
+            <Checkbox name="publishable" value={postPublishable()} tristate onChange={setPostPublishable} />
           </Label>
         </Show>
       </form>
