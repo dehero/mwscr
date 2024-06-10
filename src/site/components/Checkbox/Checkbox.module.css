@@ -1,0 +1,27 @@
+.checkbox {
+  padding: 0 8px;
+  color: var(--color-text);
+  outline: none;
+}
+
+.checkbox:focus,
+.checkbox:hover {
+  color: var(--color-text-hover);
+}
+
+.input,
+.label {
+  display: none;
+}
+
+.input:indeterminate ~ .labelIndeterminate {
+  display: inline-block;
+}
+
+.input:checked:not(:indeterminate) ~ .labelChecked {
+  display: inline-block;
+}
+
+.input:not(:checked):not(:indeterminate) ~ .labelNotChecked {
+  display: inline-block;
+}
