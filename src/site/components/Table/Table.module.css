@@ -27,10 +27,10 @@
 }
 
 .link {
-  color: var(--color-text-selected);
   text-decoration: none;
+  color: inherit;
 }
 
 .link:hover {
-  color: var(--color-text-selected-hover);
+  color: var(--color-text-selected);
 }

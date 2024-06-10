@@ -2,19 +2,22 @@ import { writeClipboard } from '@solid-primitives/clipboard';
 import clsx from 'clsx';
 import { type Component, createSignal, For, Match, onMount, Show, Switch } from 'solid-js';
 import { useData } from 'vike-solid/useData';
-import { getPostDateById, getPostTypeAspectRatio, type Post } from '../../../core/entities/post.js';
+import { getPostDateById, getPostTypeAspectRatio, type Post, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import type { UserEntry } from '../../../core/entities/user.js';
-import { getUserEntryTitle } from '../../../core/entities/user.js';
+import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/user.js';
 import { youtube } from '../../../core/services/youtube.js';
 import { store } from '../../../core/stores/index.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { useParams } from '../../hooks/useParams.js';
 import { postRoute, type PostRouteParams } from '../../routes/post-route.js';
+import { userRoute } from '../../routes/user-route.js';
 import { Button } from '../Button/Button.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import frameStyles from '../Frame/Frame.module.css';
+import { GoldIcon } from '../GoldIcon/GoldIcon.jsx';
+import { Icon } from '../Icon/Icon.jsx';
 import { Input } from '../Input/Input.js';
 import { PostComments } from '../PostComments/PostComments.js';
 import { PostEditingDialog } from '../PostEditingDialog/PostEditingDialog.js';
@@ -29,6 +32,7 @@ export interface PostPageData {
   post: Post | undefined;
   refId: string | undefined;
   authorEntries: UserEntry[];
+  requesterEntry: UserEntry | undefined;
 }
 
 export const PostPage: Component = () => {
@@ -168,6 +172,13 @@ export const PostPage: Component = () => {
                 </Show>
               </div>
 
+              <Show when={post().posts}>
+                <span class={styles.publishedIcon}>
+                  <GoldIcon class={styles.icon} />
+                  Published
+                </span>
+              </Show>
+
               <Divider />
 
               <Table
@@ -189,14 +200,70 @@ export const PostPage: Component = () => {
                       : undefined,
                   },
                   { label: 'Type', value: post().type },
-                  {
+                  ...data.authorEntries.map((entry) => ({
                     label: 'Author',
-                    value: data.authorEntries.map(getUserEntryTitle).join(', '),
+                    value: () => (
+                      <>
+                        <Icon color="stealth" size="small" variant="flat" class={clsx(styles.icon, styles.tableIcon)}>
+                          {getUserEntryLetter(entry)}
+                        </Icon>
+                        {getUserEntryTitle(entry)}
+                      </>
+                    ),
+                    link: userRoute.createUrl({ id: entry[0] }),
+                  })),
+                  {
+                    label: 'Requester',
+                    value: data.requesterEntry
+                      ? () => (
+                          <>
+                            <Icon color="magic" size="small" variant="flat" class={clsx(styles.icon, styles.tableIcon)}>
+                              {getUserEntryLetter(data.requesterEntry!)}
+                            </Icon>
+                            {getUserEntryTitle(data.requesterEntry!)}
+                          </>
+                        )
+                      : undefined,
+                    link: data.requesterEntry ? userRoute.createUrl({ id: data.requesterEntry[0] }) : undefined,
                   },
                   { label: 'Engine', value: post().engine },
                   { label: 'Addon', value: post().addon },
-                  { label: "Editor's Mark", value: post().mark },
-                  { label: 'Violation', value: post().violation },
+                  {
+                    label: "Editor's Mark",
+                    value: post().mark
+                      ? () => (
+                          <>
+                            <Icon
+                              color="combat"
+                              size="small"
+                              variant="flat"
+                              class={clsx(styles.icon, styles.tableIcon)}
+                            >
+                              {post().mark?.[0]}
+                            </Icon>
+                            {post().mark?.[1]}
+                          </>
+                        )
+                      : undefined,
+                  },
+                  {
+                    label: 'Violation',
+                    value: post().violation
+                      ? () => (
+                          <>
+                            <Icon
+                              color="health"
+                              size="small"
+                              variant="flat"
+                              class={clsx(styles.icon, styles.tableIcon)}
+                            >
+                              {POST_VIOLATIONS[post().violation!].letter}
+                            </Icon>
+                            {POST_VIOLATIONS[post().violation!].title}
+                          </>
+                        )
+                      : undefined,
+                  },
                 ]}
               />
 

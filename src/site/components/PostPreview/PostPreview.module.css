@@ -61,6 +61,7 @@
   display: inline-flex;
   flex-flow: row nowrap;
   gap: 4px;
+  margin-left: 4px;
 }
 
 .title {
@@ -72,7 +73,6 @@
 .rating {
   color: var(--color-text-light);
   flex-shrink: 0;
-  margin-left: 4px;
 }
 
 .icons {
