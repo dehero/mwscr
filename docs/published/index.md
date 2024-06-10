@@ -4,7 +4,36 @@
 
 # Published in 2024
 
-`104 items`
+`105 items`
+
+## <span id="2024-06-10.utensil">Utensil</span>
+
+`RU` Утварь
+
+<a href="https://instagram.com/p/C8C4XSlR7Tf/" title="2024-06-10.utensil"><img alt="store:/shots/2024-06-10.utensil.png" src="../../assets/previews/shots/2024-06-10.utensil.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2022-06-29-23-10-27.png](../../assets/previews/trash/dehero.2022-06-29-23-10-27.avif "dehero.2022-06-29-23-10-27")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-10.utensil)</code> `🚀 OpenMW` `table`
+
+```
+2024-06-10.utensil
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C8C4XSlR7Tf/)       | 2024-06-10 |      1421 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1577) | 2024-06-10 |       916 |
+| [`tg`](https://t.me/mwscr/435)                     | 2024-06-10 |       383 |
+|                                                    |            |      2720 |
 
 ## <span id="2024-06-09.endusal">Endusal</span>
 
@@ -31,10 +60,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8ATY5evIhm/)       | 2024-06-09 |   310 |    71 |      1421 |      5 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1576) | 2024-06-09 |   154 |    24 |       916 |   2.62 |
-| [`tg`](https://t.me/mwscr/434)                     | 2024-06-09 |   137 |    47 |       384 |  12.24 |
-|                                                    |            |   601 |   142 |      2721 |   6.62 |
+| [`ig`](https://instagram.com/p/C8ATY5evIhm/)       | 2024-06-09 |   318 |    71 |      1421 |      5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1576) | 2024-06-09 |   155 |    24 |       916 |   2.62 |
+| [`tg`](https://t.me/mwscr/434)                     | 2024-06-09 |   139 |    47 |       384 |  12.24 |
+|                                                    |            |   612 |   142 |      2721 |   6.62 |
 
 ## <span id="2024-06-08.in-khuul">In Khuul</span>
 
@@ -85,10 +114,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BcSn8EqD5nv/)       | 2017-12-04 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_523)  | 2017-12-04 |   220 |    17 |       105 |  16.19 |
-| [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   255 |    57 |      1424 |      4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   192 |    33 |       916 |    3.6 |
-| [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   146 |    46 |       384 |  11.98 |
-|                                                    |            |   813 |   227 |      2724 |   8.94 |
+| [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   269 |    60 |      1424 |   4.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   217 |    36 |       916 |   3.93 |
+| [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   183 |    51 |       384 |  13.28 |
+|                                                    |            |   889 |   238 |      2724 |    9.4 |
 
 ## <span id="2024-06-06.shipwreck-at-the-estuary-of-foyada">Shipwreck at the Estuary of Foyada</span>
 

@@ -1973,21 +1973,46 @@
       id: C8ATY5evIhm
       mediaId: '18152738755309488'
       published: 2024-06-09-18-18-38
-      updated: 2024-06-10-17-12-45
+      updated: 2024-06-10-18-19-54
       followers: 1421
       likes: 71
-      views: 310
+      views: 318
     - service: vk
       id: 1576
       published: 2024-06-09-18-18-45
-      updated: 2024-06-10-17-12-45
+      updated: 2024-06-10-18-19-54
       followers: 916
       likes: 24
-      views: 154
+      views: 155
     - service: tg
       id: 434
       published: 2024-06-09-18-18-52
-      updated: 2024-06-10-17-12-46
+      updated: 2024-06-10-18-19-55
       followers: 384
       likes: 47
-      views: 137
+      views: 139
+2024-06-10.utensil:
+  title: Utensil
+  titleRu: Утварь
+  content: store:/shots/2024-06-10.utensil.png
+  trash: store:/trash/dehero.2022-06-29-23-10-27.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - table
+  mark: B2
+  posts:
+    - service: ig
+      id: C8C4XSlR7Tf
+      mediaId: '17990200238508247'
+      published: 2024-06-10-18-20-12
+      followers: 1421
+    - service: vk
+      id: 1577
+      published: 2024-06-10-18-20-20
+      followers: 916
+    - service: tg
+      id: 435
+      published: 2024-06-10-18-20-28
+      followers: 383

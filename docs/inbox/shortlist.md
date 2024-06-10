@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`6 items`
+`5 items`
 
 ## <span id="natty.2024-03-10-12-54-50">Emperor Parasols Under the Rain of Stars</span>
 
@@ -99,27 +99,6 @@ dehero.2024-02-17-10-40-10
 
 ```
 dehero.2024-02-05-00-01-00
-```
-
-## <span id="dehero.2022-06-29-23-10-34">Utensil</span>
-
-`RU` Утварь
-
-![store:/inbox/dehero.2022-06-29-23-10-34.1.png](../../assets/previews/inbox/dehero.2022-06-29-23-10-34.1.avif "dehero.2022-06-29-23-10-34.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2022-06-29-23-10-27.png](../../assets/previews/inbox/dehero.2022-06-29-23-10-27.avif "dehero.2022-06-29-23-10-27")
-![store:/inbox/dehero.2022-06-29-23-10-34.png](../../assets/previews/inbox/dehero.2022-06-29-23-10-34.avif "dehero.2022-06-29-23-10-34")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2022-06-29-23-10-34&amp;postContent=store%3A%2Finbox%2Fdehero.2022-06-29-23-10-34.1.png&amp;postTitle=Utensil&amp;postTitleRu=%D0%A3%D1%82%D0%B2%D0%B0%D1%80%D1%8C&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=table&amp;postLocation=&amp;postMark=B2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2022-06-29-23-10-27.png%0Astore%3A%2Finbox%2Fdehero.2022-06-29-23-10-34.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2022-06-29-23-10-34) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2022-06-29-23-10-34) `B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2022-06-29-23-10-34)</code> `🚀 OpenMW` `table`
-
-```
-dehero.2022-06-29-23-10-34
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
