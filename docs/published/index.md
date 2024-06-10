@@ -8,7 +8,7 @@
 
 ## <span id="2024-06-09.endusal">Endusal</span>
 
-`RU` Endusal
+`RU` Эндусал
 
 <a href="https://instagram.com/p/C8ATY5evIhm/" title="2024-06-09.endusal"><img alt="store:/shots/2024-06-09.endusal.png" src="../../assets/previews/shots/2024-06-09.endusal.avif" /></a>
 
@@ -31,10 +31,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8ATY5evIhm/)       | 2024-06-09 |   218 |    56 |      1421 |   3.94 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1576) | 2024-06-09 |   125 |    18 |       916 |   1.97 |
-| [`tg`](https://t.me/mwscr/434)                     | 2024-06-09 |   116 |    42 |       384 |  10.94 |
-|                                                    |            |   459 |   116 |      2721 |   5.61 |
+| [`ig`](https://instagram.com/p/C8ATY5evIhm/)       | 2024-06-09 |   234 |    59 |      1421 |   4.15 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1576) | 2024-06-09 |   131 |    20 |       916 |   2.18 |
+| [`tg`](https://t.me/mwscr/434)                     | 2024-06-09 |   121 |    43 |       384 |   11.2 |
+|                                                    |            |   486 |   122 |      2721 |   5.84 |
 
 ## <span id="2024-06-08.in-khuul">In Khuul</span>
 
@@ -58,10 +58,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTYfIxOjZg3/)       | 2017-04-27 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_272)  | 2017-04-27 |   112 |     6 |        54 |      6 |
-| [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   244 |    62 |      1422 |   4.36 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   205 |    31 |       916 |   3.38 |
-| [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |   156 |    43 |       384 |   11.2 |
-|                                                    |            |   717 |   202 |      2722 |   6.24 |
+| [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   245 |    62 |      1422 |   4.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   207 |    31 |       916 |   3.38 |
+| [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |   160 |    43 |       384 |   11.2 |
+|                                                    |            |   724 |   202 |      2722 |   6.24 |
 
 ## <span id="2024-06-07.ruins-in-a-mountain-dead-end">Ruins in a Mountain Dead End</span>
 
