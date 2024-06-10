@@ -86,17 +86,37 @@ export function comparePostInfosById(direction: 'asc' | 'desc'): (a: PostInfo, b
 }
 
 export function comparePostInfosByCommentCount(direction: 'asc' | 'desc'): (a: PostInfo, b: PostInfo) => number {
-  return direction === 'asc' ? (a, b) => a.commentCount - b.commentCount : (a, b) => b.commentCount - a.commentCount;
+  const byId = comparePostInfosById(direction);
+
+  return direction === 'asc'
+    ? (a, b) => a.commentCount - b.commentCount || byId(a, b)
+    : (a, b) => b.commentCount - a.commentCount || byId(a, b);
 }
 
 export function comparePostInfosByRating(direction: 'asc' | 'desc'): (a: PostInfo, b: PostInfo) => number {
-  return direction === 'asc' ? (a, b) => a.rating - b.rating : (a, b) => b.rating - a.rating;
+  const byId = comparePostInfosById(direction);
+
+  return direction === 'asc'
+    ? (a, b) => a.rating - b.rating || byId(a, b)
+    : (a, b) => b.rating - a.rating || byId(a, b);
 }
 
 export function comparePostInfosByLikes(direction: 'asc' | 'desc'): (a: PostInfo, b: PostInfo) => number {
-  return direction === 'asc' ? (a, b) => a.likes - b.likes : (a, b) => b.likes - a.likes;
+  const byId = comparePostInfosById(direction);
+
+  return direction === 'asc' ? (a, b) => a.likes - b.likes || byId(a, b) : (a, b) => b.likes - a.likes || byId(a, b);
 }
 
 export function comparePostInfosByViews(direction: 'asc' | 'desc'): (a: PostInfo, b: PostInfo) => number {
-  return direction === 'asc' ? (a, b) => a.views - b.views : (a, b) => b.views - a.views;
+  const byId = comparePostInfosById(direction);
+
+  return direction === 'asc' ? (a, b) => a.views - b.views || byId(a, b) : (a, b) => b.views - a.views || byId(a, b);
+}
+
+export function comparePostInfosByMark(direction: 'asc' | 'desc'): (a: PostInfo, b: PostInfo) => number {
+  const byRating = comparePostInfosByRating(direction);
+
+  return direction === 'asc'
+    ? (a, b) => b.mark?.localeCompare(a.mark || '') || byRating(a, b)
+    : (a, b) => a.mark?.localeCompare(b.mark || '') || byRating(a, b);
 }

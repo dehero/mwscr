@@ -30,6 +30,7 @@ export interface UserPageData {
   lastRequestedPostInfo?: PostInfo;
   lastRejectedPostInfo?: PostInfo;
   lastRejectedRequestInfo?: PostInfo;
+  editorsChoicePostInfo?: PostInfo;
 }
 
 export const UserPage: Component = () => {
@@ -48,6 +49,7 @@ export const UserPage: Component = () => {
     lastRequestedPostInfo,
     lastRejectedPostInfo,
     lastRejectedRequestInfo,
+    editorsChoicePostInfo,
   } = useData<UserPageData>();
 
   const id = () => params().id;
@@ -140,6 +142,7 @@ export const UserPage: Component = () => {
                   { label: 'Last Original Post', primary: true, postInfo: lastOriginalPostInfo },
                   { label: 'First Post', primary: true, postInfo: firstPostInfo },
                   { label: 'Top Rated Post', postInfo: topRatedPostInfo },
+                  { label: "Editor's Choice Post", postInfo: editorsChoicePostInfo },
                   { label: 'Top Liked Post', postInfo: topLikedPostInfo },
                   { label: 'Less Liked Post', postInfo: lessLikedPostInfo },
                   { label: 'Last Fulfilled Request', postInfo: lastFulfilledPostInfo },

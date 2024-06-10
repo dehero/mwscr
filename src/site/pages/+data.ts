@@ -1,6 +1,7 @@
 import {
   comparePostEntriesById,
   comparePostEntriesByLikes,
+  comparePostEntriesByMark,
   comparePostEntriesByRating,
 } from '../../core/entities/post.js';
 import { isPostDraft, isPostRequest } from '../../core/entities/post-variation.js';
@@ -29,6 +30,7 @@ export async function data(): Promise<HomePageData> {
     lastPostInfo: await getPostInfo(published, comparePostEntriesById('desc')),
     lastOriginalPostInfo: await getPostInfo(published, comparePostEntriesById('desc'), undefined, true),
     topRatedPostInfo: await getPostInfo(published, comparePostEntriesByRating('desc')),
+    editorsChoicePostInfo: await getPostInfo(published, comparePostEntriesByMark('desc'), undefined, true),
     topLikedPostInfo: await getPostInfo(published, comparePostEntriesByLikes('desc')),
     lastFulfilledPostInfo: await getPostInfo(published, comparePostEntriesById('desc'), isPostRequest),
     lastProposedPostInfo: await getPostInfo(inbox, comparePostEntriesById('desc'), isPostDraft),

@@ -7,6 +7,7 @@ import type { PostInfo } from '../../../core/entities/post-info.js';
 import {
   comparePostInfosById,
   comparePostInfosByLikes,
+  comparePostInfosByMark,
   comparePostInfosByRating,
   comparePostInfosByViews,
 } from '../../../core/entities/post-info.js';
@@ -37,12 +38,13 @@ const comparators = [
   { value: 'likes', label: 'Likes', fn: comparePostInfosByLikes },
   { value: 'views', label: 'Views', fn: comparePostInfosByViews },
   { value: 'rating', label: 'Rating', fn: comparePostInfosByRating },
+  { value: 'mark', label: "Editor's Mark", fn: comparePostInfosByMark },
 ] as const;
 
 export type PostsPageSortKey = (typeof comparators)[number]['value'];
 
 const presets = [
-  { value: 'editors-choice', label: "Editor's Choice", params: { mark: 'A1', sort: 'rating,desc', reposted: 'false' } },
+  { value: 'editors-choice', label: "Editor's Choice", params: { sort: 'mark,desc', reposted: 'false' } },
   { value: 'shortlist', label: 'Shortlist', params: { publishable: 'true' } },
   { value: 'requests', label: 'Requests', params: { requested: 'true' }, reposted: 'false' },
   { value: 'revisit', label: 'Revisit', params: { mark: 'F' } },
