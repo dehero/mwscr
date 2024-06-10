@@ -31,10 +31,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8ATY5evIhm/)       | 2024-06-09 |   186 |    51 |      1421 |   3.59 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1576) | 2024-06-09 |   109 |    16 |       916 |   1.75 |
-| [`tg`](https://t.me/mwscr/434)                     | 2024-06-09 |   108 |    36 |       384 |   9.38 |
-|                                                    |            |   403 |   103 |      2721 |    4.9 |
+| [`ig`](https://instagram.com/p/C8ATY5evIhm/)       | 2024-06-09 |   199 |    54 |      1421 |    3.8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1576) | 2024-06-09 |   117 |    17 |       916 |   1.86 |
+| [`tg`](https://t.me/mwscr/434)                     | 2024-06-09 |   109 |    37 |       384 |   9.64 |
+|                                                    |            |   425 |   108 |      2721 |    5.1 |
 
 ## <span id="2024-06-08.in-khuul">In Khuul</span>
 
@@ -59,9 +59,9 @@
 | [`ig`](https://instagram.com/p/BTYfIxOjZg3/)       | 2017-04-27 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_272)  | 2017-04-27 |   112 |     6 |        54 |      6 |
 | [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   242 |    61 |      1422 |   4.29 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   199 |    31 |       916 |   3.38 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   202 |    31 |       916 |   3.38 |
 | [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |   154 |    41 |       384 |  10.68 |
-|                                                    |            |   707 |   199 |      2722 |   6.09 |
+|                                                    |            |   710 |   199 |      2722 |   6.09 |
 
 ## <span id="2024-06-07.ruins-in-a-mountain-dead-end">Ruins in a Mountain Dead End</span>
 
@@ -1794,9 +1794,9 @@
 | [`ig`](https://instagram.com/p/BTgPnBsDnCq/)       | 2017-04-30 |       |    76 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_275)  | 2017-04-30 |   177 |     5 |        54 |      5 |
 | [`ig`](https://instagram.com/p/C5wWKSEO30a/)       | 2024-04-14 |   444 |   112 |      1413 |   7.93 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1494) | 2024-04-14 |   279 |    41 |       911 |    4.5 |
-| [`tg`](https://t.me/mwscr/378)                     | 2024-04-14 |   476 |    63 |       351 |  17.95 |
-|                                                    |            |  1376 |   297 |      2675 |   8.84 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1494) | 2024-04-14 |   282 |    41 |       911 |    4.5 |
+| [`tg`](https://t.me/mwscr/378)                     | 2024-04-14 |   484 |    63 |       351 |  17.95 |
+|                                                    |            |  1387 |   297 |      2675 |   8.84 |
 
 ## <span id="2024-04-13.manwe">Manwe</span>
 
