@@ -1221,25 +1221,25 @@
       id: C74lFspy6fE
       mediaId: '18042865570701793'
       published: 2024-06-06-18-19-24
-      updated: 2024-06-10-20-15-32
+      updated: 2024-06-11-22-06-42
       followers: 1424
-      likes: 70
-      views: 260
+      likes: 71
+      views: 268
     - service: vk
       id: 1573
       published: 2024-06-06-18-19-32
-      updated: 2024-06-10-20-15-33
+      updated: 2024-06-11-22-06-43
       followers: 916
       likes: 32
-      views: 207
+      views: 216
       reposts: 1
     - service: tg
       id: 431
       published: 2024-06-06-18-19-42
-      updated: 2024-06-10-20-15-33
+      updated: 2024-06-11-22-06-43
       followers: 384
       likes: 55
-      views: 216
+      views: 222
       comments: !c |-
         G7MAqIzEOBZy8KVYyKo5o1zeZ3w8oYwHKoIkVhG2QMrhnqzw1c0ZarYVsVsUBqJozH8ov1MOwEMs
         8uZxcNbzAeRuY+BaXh3eoqDXURRPafh5Ezju7if2ndQb9uHI4UGA1vzzaLrBC0E7gCaN+0RjFBJg
@@ -3141,10 +3141,10 @@
       id: C7PYTPsx11H
       mediaId: '17973618944704049'
       published: 2024-05-21-18-18-46
-      updated: 2024-06-04-21-13-45
+      updated: 2024-06-11-22-06-46
       followers: 1418
       likes: 96
-      views: 356
+      views: 361
       comments: !c |-
         G4oAgDRC5vSDc90E5qMJp3hU2EC+wt7aIzmFHqTKDQ5Y4wADzQJKIZBJr8UkNQFTalSsz3rzSGV/
         5IkCTEKPDx3eDNxEnxEmH+W8w2p8JAeh6joOHxt6gJ+iAqYg++fu4jKvuOO3ExmAMR+HrLsOu03R
@@ -3159,10 +3159,10 @@
     - service: tg
       id: 415
       published: 2024-05-21-18-18-59
-      updated: 2024-06-04-21-13-46
+      updated: 2024-06-11-22-06-45
       followers: 373
-      likes: 54
-      views: 340
+      likes: 56
+      views: 371
 2018-04-22.evening-dwemer-architecture:
   title: Evening Dwemer Architecture
   titleRu: Вечерняя двемерская архитектура
