@@ -43,14 +43,14 @@
     - service: tg
       id: 246
       published: 2022-06-23
-      updated: 2024-06-04-06-20-19
+      updated: 2024-06-11-06-21-28
       followers: 226
       likes: 85
-      views: 1084
+      views: 1088
       comments: !c |-
         G9cCIBwHdtMWJhbhaWnpTxDVmp2SE2HWqKDD8ohCxqIChjcGe5T6n7w2YBxY13l85Xz7q//6bnOD
         osAIzizR6HavL0I9hr516lV44ly6TJvwyDbDCkqaRdI+inYP9OgZ4E9vbu2hH/0ESSOPOAe7QkY/
-        HLc+jT1qi+DCwN7jsFuCfIfdjpy3CCPaaFQwVvCEq38QHA2OwAgaRgbTqAIVPJFMJkLRBLgxpgnx
+        HLc+jT1qi+DCwN7jsFuCPofdjpy3CCPaaFQwVvCEq38QHA2OwAgaRgbTqAIVPJFMJkLRBLgxpgnx
         6BjCla1tAuZgVchHQHuP9vtUQ/eS7S9lBPlb9hauCafwMfrsz8rPnL0vZv4IoI3sqXId6QZebGqN
         wd5U5vSdjg+LkD+/eQeXHcSz5Wa125CzEOJxNtfhShM2XyDtZ7c0FsxXK6Yf60XwfVyB/WS8BFud
         bKPCtw17FA+sbantH6faSHpb2ZkZ2iVkH1U8DHlzV4fcOuDk0wW/jg5JWAaDvQHQyaYBOH2nu57l
@@ -88,16 +88,16 @@
     - service: tg
       id: 247
       published: 2022-06-24
-      updated: 2024-06-04-06-20-19
+      updated: 2024-06-11-06-21-28
       followers: 236
       likes: 58
       views: 695
       comments: !c |-
-        GysBQJyHsYOjETNJXNm8/Jc1veoK3QRZsSISmgAdjR2ikIvH9+UZt0xPJgcl61Won7HdxgtJKjOm
-        qW12GgYakHZLJKFqi2J64LfmL68nm0Yo8Cn/FOuj4097p3/fCfMQLZXKiWitwep8/HY9PAwPH12/
-        ikl+vcwvleuNaCGdjfP/8uzp8NPemdP/ZpjbaKmerV9qD3E5eOnRE20kixaMj7FaWevOt8jrVcNu
-        YOyJMo/hZLFebrMynNMEoiWEBtV8PEhrGRg0pRkKQhcN7sfG5+Oq9/GyNhwAWC1fpTCSQBs+EHSF
-        prTAXCdI3CY0gVAgHg1s1Ori0MTeNe0UticL5WK59sJ+
+        GysBQJyFscNtEXSJekkpI3n5L2t61RW6CbJiRSwkAboBO0QhF4/vyzNumW5uOViyvRrqEA8T7jIJ
+        SSozpqltdhoGGpB2SyShaotieuC35i+vJ5tGKPAp/xTro+NPe6//2BnzEK9Uqql4o8Xq8Nv18DA8
+        fHT9Kqf5zSq/Um224qVsPsn/q7Onw097b87wm2Fu45VmvnmpPcTl5KVHT7yVLlswPiYaVa073yKv
+        Vy27AXiizGM0XW5Wu6wM5zSDaQ1jIDUfB9FWBgbNaYGG0UWL+7HxyXVEXtaGAxCr5asURhJphw8G
+        /UJzWuFdJ0jcZjSD0RAOA27UmuLQDO+adora06Vqudp4YT8=
 2022-06-25.night-pasture-by-irina-bystritskaya:
   title: Night Pasture by Irina Bystritskaya
   titleRu: Ночной выпас от Ирины Быстрицкой
@@ -132,10 +132,10 @@
         - 248
         - 249
       published: 2022-06-25
-      updated: 2024-06-04-06-20-18
+      updated: 2024-06-11-06-21-27
       followers: 238
       likes: 52
-      views: 659
+      views: 660
       comments: !c CxGAkZPLQngZxDRBgACmdXNybm5lsNCS0L7Qu9GI0LXQsdC90L4D
 2022-06-26.candelabra:
   title: Candelabra
@@ -179,7 +179,7 @@
         - 252
         - 253
       published: 2022-06-26
-      updated: 2024-06-04-06-20-17
+      updated: 2024-06-11-06-21-26
       followers: 242
       likes: 57
       views: 662
@@ -220,7 +220,7 @@
     - service: tg
       id: 254
       published: 2022-06-27
-      updated: 2024-06-04-06-20-17
+      updated: 2024-06-11-06-21-25
       followers: 241
       likes: 48
       views: 638
@@ -259,7 +259,7 @@
     - service: tg
       id: 255
       published: 2022-06-28
-      updated: 2024-06-04-06-20-16
+      updated: 2024-06-11-06-21-10
       followers: 242
       likes: 48
       views: 652
@@ -293,7 +293,7 @@
     - service: tg
       id: 256
       published: 2022-06-29
-      updated: 2024-06-04-06-20-15
+      updated: 2024-06-11-06-21-09
       followers: 245
       likes: 47
       views: 592
@@ -327,7 +327,7 @@
     - service: tg
       id: 257
       published: 2022-06-30
-      updated: 2024-06-04-05-19-07
+      updated: 2024-06-11-06-21-09
       followers: 246
       likes: 45
       views: 627
@@ -373,7 +373,7 @@
     - service: tg
       id: 258
       published: 2022-07-01
-      updated: 2024-06-04-05-19-06
+      updated: 2024-06-11-06-21-08
       followers: 247
       likes: 47
       views: 613
@@ -404,10 +404,10 @@
     - service: tg
       id: 259
       published: 2022-07-02
-      updated: 2024-06-04-05-19-06
+      updated: 2024-06-11-06-21-07
       followers: 248
       likes: 44
-      views: 664
+      views: 665
 2022-07-03.crossing-the-edge-of-bitter-coast:
   title: Crossing the Edge of Bitter Coast
   titleRu: Пересекая край Горького берега
@@ -443,10 +443,10 @@
     - service: tg
       id: 260
       published: 2022-07-03
-      updated: 2024-06-04-05-19-06
+      updated: 2024-06-11-06-21-07
       followers: 252
       likes: 49
-      views: 643
+      views: 644
       comments: !c |-
         G9EAEJwHdqxl4MKCDUtCKR5PvLcRDE4ntACwXoGHEST/IK7ZMo5/joigbovhpb2/hMNtWgxi/HdE
         BC3m21c2OOGMA/Eo43B09oOc8G5wommYp2EQ/Ho9P8+pcp7x5b7FpWr6o68rPWis3w3Dhe8DAfJR
@@ -492,10 +492,10 @@
         - 263
         - 264
       published: 2022-07-04
-      updated: 2024-06-04-05-19-05
+      updated: 2024-06-11-06-21-06
       followers: 253
       likes: 62
-      views: 680
+      views: 681
       comments: !c |-
         GyYBQGRsTU+JAkA8kq18AJQFV9eOAISdRqFmZ7YDHU4x5P/ZrMSmK2kkqXUXppsLlqAuTBFh8r8t
         L3yUbWcB/RyCU0ESKZ5QmTM2oUL5orsdrI/f0Jg1OPAEUbJqNIITquZh5BNDFujv50xAVF3SGBG7
@@ -526,10 +526,10 @@
     - service: tg
       id: 265
       published: 2022-07-05
-      updated: 2024-06-04-05-19-04
+      updated: 2024-06-11-06-21-06
       followers: 253
       likes: 43
-      views: 624
+      views: 625
       comments: !c ixKAkZPLQngdP0rogACobW9uZ2xlcmmxcHJldHR5IG5pY2Ugcm9ib3QD
 2022-07-06.still-life-with-orc:
   title: Still Life with Orc
@@ -565,10 +565,10 @@
     - service: tg
       id: 266
       published: 2022-07-06
-      updated: 2024-06-04-05-19-04
+      updated: 2024-06-11-06-21-05
       followers: 255
       likes: 42
-      views: 601
+      views: 602
 2022-07-07.misty-peaks:
   title: Misty Peaks
   titleRu: Туманные пики
@@ -597,10 +597,10 @@
     - service: tg
       id: 267
       published: 2022-07-07
-      updated: 2024-06-04-05-19-04
+      updated: 2024-06-11-06-21-05
       followers: 256
       likes: 54
-      views: 674
+      views: 676
       comments: !c |-
         G7EAoMXq99tL5UuoCk1TN08MyaKIJ9dQdC9SGtN54/gaFp7WBVddeJFxXPG6YU/ZxihdIT79LBUf
         ljA31B8Zm3xx3xzWkMfvHv26tUQy6f5RNnY4vV6rRx4xpqyaTF8DCpTEgc8aS+woLuJKSYpdCBp3
@@ -630,10 +630,10 @@
     - service: tg
       id: 268
       published: 2022-07-08
-      updated: 2024-06-04-05-19-03
+      updated: 2024-06-11-06-21-04
       followers: 256
       likes: 48
-      views: 619
+      views: 620
 2022-07-09.three-coins-for-the-bard:
   title: Three Coins for the Bard
   titleRu: Три монеты для барда
@@ -668,10 +668,10 @@
     - service: tg
       id: 269
       published: 2022-07-09
-      updated: 2024-06-04-05-19-03
+      updated: 2024-06-11-06-21-04
       followers: 257
       likes: 54
-      views: 634
+      views: 635
       comments: !c |-
         G3IAMGTomkf01eCtTw8UFVsDFWiRTxtwsAEH7Om2bgPqoMMGnPD8OqeyPR7OD2WAVs8/APc0z/zE
         rcIfsZSnIcRWRPJKEzYIw84p+e3Xyw24pH1tVz/aMJ0qbAJEzytTQLSwakZEb6vQTej6TQwA
@@ -707,10 +707,10 @@
     - service: tg
       id: 270
       published: 2022-07-10
-      updated: 2024-06-04-05-19-02
+      updated: 2024-06-11-06-21-03
       followers: 257
       likes: 57
-      views: 745
+      views: 746
       comments: !c |-
         G9IA4C0PuHOPAjgZWKbBTH3lYT6e8G+f6O/mLdBYA22lLQwjSN6p20rphi7sg+kY6kNVT5a7nPDB
         xqYE06pScMkyNrwka5PrrzfQbG5wIp54QZRq3mC+x9iznsERwzyun553P2O8nprXrNXubKpawd79
@@ -756,10 +756,10 @@
         - 273
         - 274
       published: 2022-07-11
-      updated: 2024-06-04-05-19-02
+      updated: 2024-06-11-06-21-03
       followers: 257
       likes: 56
-      views: 715
+      views: 716
       comments: !c |-
         G4IBAKwOeHMoL9maWoSkkwjmPp7wb6SnbR881URbBdxqiyh5RxZI8L/c1pqxm7N3hvq2A/3CQPjP
         3SkfHnAI9/52yyqB5qnXSrI0uvJ4rK9sy12ggQUagN5OszCh38+/JRZZ8SeJRpRz89zxOJZFVJLH
@@ -805,10 +805,10 @@
     - service: tg
       id: 275
       published: 2022-07-12
-      updated: 2024-06-04-05-19-02
+      updated: 2024-06-11-06-21-02
       followers: 258
       likes: 48
-      views: 690
+      views: 691
 2022-07-13.cold-waters-of-west-gash:
   title: Cold Waters of West Gash
   titleRu: Холодные воды Западного Нагорья
@@ -843,10 +843,10 @@
     - service: tg
       id: 276
       published: 2022-07-13
-      updated: 2024-06-04-05-19-01
+      updated: 2024-06-11-06-21-01
       followers: 260
       likes: 50
-      views: 721
+      views: 722
       comments: !c |-
         G3YCQIyUbsI8iGQtT7nb5BWwMGwUY4EdAElG4YFnW3YVqqpuN0ZhyBNQ2LGlUPavF5bBmzwLBxgI
         36/naVb4Oe1rYAGei6FGcRBu2iQK4iwxfgQ13NA+W1x6DPWay59mv7Hb6OnIte83+kSEX6sJbmgY
@@ -887,10 +887,10 @@
     - service: tg
       id: 277
       published: 2022-07-14
-      updated: 2024-06-04-05-19-01
+      updated: 2024-06-11-06-21-01
       followers: 260
       likes: 39
-      views: 721
+      views: 722
 2022-07-15.sail-on:
   title: Sail On
   titleRu: Плыть дальше
@@ -923,10 +923,10 @@
     - service: tg
       id: 278
       published: 2022-07-15
-      updated: 2024-06-04-05-19-00
+      updated: 2024-06-11-06-21-00
       followers: 262
       likes: 50
-      views: 747
+      views: 748
 2022-07-16.two-at-the-lantern:
   title: Two at the Lantern
   titleRu: Двое у фонаря
@@ -956,10 +956,10 @@
     - service: tg
       id: 279
       published: 2022-07-16
-      updated: 2024-06-04-05-19-00
+      updated: 2024-06-11-06-21-00
       followers: 262
       likes: 47
-      views: 751
+      views: 752
 2022-07-17.slaves-sight:
   title: Slave's Sight
   titleRu: Взгляд раба
@@ -988,10 +988,10 @@
     - service: tg
       id: 280
       published: 2022-07-17
-      updated: 2024-06-04-05-19-00
+      updated: 2024-06-11-06-20-59
       followers: 262
       likes: 49
-      views: 754
+      views: 755
 2022-07-18.long-talk:
   title: Long Talk
   titleRu: Долгий разговор
@@ -1030,10 +1030,10 @@
     - service: tg
       id: 281
       published: 2022-07-18
-      updated: 2024-06-04-05-18-59
+      updated: 2024-06-11-06-20-59
       followers: 267
       likes: 50
-      views: 776
+      views: 777
 2022-07-19.stillness-of-vivec:
   title: Stillness of Vivec
   titleRu: Тишина Вивека
@@ -1064,7 +1064,7 @@
     - service: tg
       id: 282
       published: 2022-07-19
-      updated: 2024-06-04-05-18-59
+      updated: 2024-06-11-06-20-58
       followers: 267
       likes: 62
       views: 798
@@ -1096,7 +1096,7 @@
     - service: tg
       id: 283
       published: 2022-07-20
-      updated: 2024-06-04-05-18-59
+      updated: 2024-06-11-06-20-58
       followers: 266
       likes: 55
       views: 803
@@ -1139,10 +1139,10 @@
     - service: tg
       id: 284
       published: 2022-07-21
-      updated: 2024-06-04-05-18-58
+      updated: 2024-06-11-06-20-57
       followers: 267
       likes: 49
-      views: 1481
+      views: 1486
       comments: !c ixmAkpPLQngiXaFxAACnZGVsZXRlZKjQmNC80LHQsJPLQngiKf06AAClbXdzY3KnQUxNU0lWSQM=
 2022-07-22.lonely-towers:
   title: Lonely Towers
@@ -1185,7 +1185,7 @@
         - 287
         - 288
       published: 2022-07-22
-      updated: 2024-06-04-05-18-58
+      updated: 2024-06-11-06-20-57
       followers: 271
       likes: 58
       views: 845
@@ -1220,7 +1220,7 @@
     - service: tg
       id: 289
       published: 2022-07-23
-      updated: 2024-06-04-05-18-57
+      updated: 2024-06-11-06-20-56
       followers: 272
       likes: 53
       views: 887
@@ -1251,7 +1251,7 @@
     - service: tg
       id: 290
       published: 2022-07-24
-      updated: 2024-06-04-05-18-57
+      updated: 2024-06-11-06-20-56
       followers: 272
       likes: 52
       views: 926
@@ -1281,7 +1281,7 @@
     - service: tg
       id: 291
       published: 2022-07-25
-      updated: 2024-06-04-05-18-57
+      updated: 2024-06-11-06-20-55
       followers: 272
       likes: 54
       views: 995
@@ -1325,7 +1325,7 @@
         - 294
         - 295
       published: 2022-07-26
-      updated: 2024-06-04-05-18-56
+      updated: 2024-06-11-06-20-55
       followers: 273
       likes: 54
       views: 1037
@@ -1358,7 +1358,7 @@
     - service: tg
       id: 296
       published: 2022-07-27
-      updated: 2024-06-04-05-18-56
+      updated: 2024-06-11-06-20-54
       followers: 272
       likes: 53
       views: 1103
@@ -1406,7 +1406,7 @@
     - service: tg
       id: 297
       published: 2022-07-28
-      updated: 2024-06-04-05-18-36
+      updated: 2024-06-11-06-20-38
       followers: 274
       likes: 54
       views: 1154
@@ -1447,7 +1447,7 @@
     - service: tg
       id: 298
       published: 2022-07-29
-      updated: 2024-06-04-05-18-35
+      updated: 2024-06-11-06-20-38
       followers: 274
       likes: 58
       views: 1313
@@ -1477,7 +1477,7 @@
     - service: tg
       id: 299
       published: 2022-07-30
-      updated: 2024-06-04-05-18-35
+      updated: 2024-06-11-06-20-37
       followers: 278
       likes: 50
       views: 1307
@@ -1526,7 +1526,7 @@
         - 302
         - 303
       published: 2022-07-31
-      updated: 2024-06-04-05-18-34
+      updated: 2024-06-11-06-20-37
       followers: 277
       likes: 56
       views: 1557
@@ -1561,7 +1561,7 @@
     - service: tg
       id: 304
       published: 2022-08-01
-      updated: 2024-06-04-05-18-34
+      updated: 2024-06-11-06-20-36
       followers: 279
       likes: 55
       views: 1631
@@ -1600,10 +1600,10 @@
     - service: tg
       id: 305
       published: 2022-08-02
-      updated: 2024-06-04-05-18-34
+      updated: 2024-06-11-06-20-36
       followers: 281
       likes: 68
-      views: 2151
+      views: 2152
       comments: !c |-
         C0SAlJPLQnjqgZW9AACrVmVicmFuZGVub0u60L3QsCDQutCw0YDQsNC9INC/0L7RhdC+0LaTy0J4
         Jobp2AAAqWFuYWtpbmVyc6VncmVhdJPLQngmLFQlgACrcnl1a2VuZGVuXzmu0KjQuNC60LDRgNC9
@@ -1647,10 +1647,10 @@
     - service: tg
       id: 306
       published: 2022-08-03
-      updated: 2024-06-04-05-18-33
+      updated: 2024-06-11-06-20-35
       followers: 281
       likes: 80
-      views: 2190
+      views: 2191
       comments: !c |-
         G5MFACwKbGPp4IFFbsbnZdQldZ5HsrBFFBzmg35Aco9pVdMxItVKo9ADpWtvQAGps8IxcTmsRwqU
         xFLLFPKvIzRtlhGwHYr5zv2BTGQ4m+4dzTKNunC0/QSKEogUyP851wgGvMY9r3q+q14HHx9QtDWf
