@@ -8,3 +8,8 @@
 .table {
   width: 100%;
 }
+
+.fallback {
+  color: var(--color-text-light);
+  align-self: center;
+}

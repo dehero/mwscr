@@ -2,6 +2,7 @@ import { writeClipboard } from '@solid-primitives/clipboard';
 import clsx from 'clsx';
 import { type Component, createSignal, For, Match, onMount, Show, Switch } from 'solid-js';
 import { useData } from 'vike-solid/useData';
+import YellowExclamationMark from '../../../../assets/images/exclamation.svg';
 import { getPostDateById, getPostTypeAspectRatio, type Post, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import type { UserEntry } from '../../../core/entities/user.js';
@@ -24,6 +25,7 @@ import { PostEditingDialog } from '../PostEditingDialog/PostEditingDialog.js';
 import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.js';
 import { PostPublications } from '../PostPublications/PostPublications.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
+import { ResourcePreviews } from '../ResourcePreviews/ResourcePreviews.jsx';
 import { Table } from '../Table/Table.js';
 import { Toast, useToaster } from '../Toaster/Toaster.js';
 import styles from './PostPage.module.css';
@@ -38,7 +40,7 @@ export interface PostPageData {
 export const PostPage: Component = () => {
   const { addToast } = useToaster();
   const params = useParams<PostRouteParams>();
-  let imageRef: HTMLImageElement | undefined;
+  let fallbackImageRef: HTMLImageElement | undefined;
 
   const [selectedContentIndex, setSelectedContentIndex] = createSignal(0);
 
@@ -60,6 +62,11 @@ export const PostPage: Component = () => {
 
   const youtubePost = () => data.post?.posts?.find((post) => post.service === 'yt');
 
+  const published = () => Boolean(data.post?.posts);
+  const withFullSizeContent = () =>
+    Boolean(published() || contentPublicUrls().find((url) => typeof url === 'string') || youtubePost());
+  const withContentSelection = () => withFullSizeContent() && content().length > 1;
+
   const [showEditingDialog, setShowEditingDialog] = createSignal(false);
   const [showLocationDialog, setShowLocationDialog] = createSignal(false);
   const [isLoading, setIsLoading] = createSignal(true);
@@ -76,9 +83,15 @@ export const PostPage: Component = () => {
 
   const handleContentLoad = () => setIsLoading(false);
 
+  const handleContentError = () => {
+    setIsLoading(false);
+  };
+
   onMount(() => {
     // Check if image is already loaded
-    setIsLoading(!imageRef?.complete);
+    if (fallbackImageRef) {
+      setIsLoading(!fallbackImageRef.complete);
+    }
   });
 
   // TODO: display post trash
@@ -92,65 +105,91 @@ export const PostPage: Component = () => {
           <section
             class={clsx(
               styles.container,
-              content().length > 1 && styles.withContentSelection,
-              (contentPublicUrls().find((url) => typeof url === 'string') || youtubePost()) &&
-                styles.withFullSizeContent,
-              post().posts && styles.published,
+              published() && styles.published,
+              withContentSelection() && styles.withContentSelection,
+              withFullSizeContent() && styles.withFullSizeContent,
               styles[post().type],
             )}
           >
-            <Show when={content().length > 1}>
-              <Frame component="section" variant="thin" class={styles.contentSelector}>
-                <For each={content()}>
-                  {(url) => (
-                    <label class={styles.contentSelectorItem}>
-                      <input
-                        type="radio"
-                        value={url}
-                        name="selectedContent"
-                        checked={selectedContent() === url}
-                        onChange={() => selectContent(url)}
-                        class={styles.contentSelectorRadio}
-                      />
-                      <ResourcePreview url={url} aspectRatio={aspectRatio()} showTooltip />
-                    </label>
-                  )}
-                </For>
-              </Frame>
-            </Show>
+            <Show
+              when={withFullSizeContent()}
+              fallback={
+                <ResourcePreviews
+                  urls={content()}
+                  showTooltip
+                  onLoad={handleContentLoad}
+                  class={clsx(frameStyles.thin, styles.contentPreviews)}
+                />
+              }
+            >
+              <Show when={content().length > 1}>
+                <Frame component="section" variant="thin" class={styles.contentSelector}>
+                  <For each={content()}>
+                    {(url) => (
+                      <label class={styles.contentSelectorItem}>
+                        <input
+                          type="radio"
+                          value={url}
+                          name="selectedContent"
+                          checked={selectedContent() === url}
+                          onChange={() => selectContent(url)}
+                          class={styles.contentSelectorRadio}
+                        />
+                        <ResourcePreview url={url} aspectRatio={aspectRatio()} showTooltip />
+                      </label>
+                    )}
+                  </For>
+                </Frame>
+              </Show>
 
-            <Show when={selectedContent()}>
-              {(url) => (
-                <Switch
-                  fallback={
-                    <ResourcePreview url={url()} aspectRatio={aspectRatio()} onLoad={handleContentLoad} showTooltip />
-                  }
-                >
-                  <Match when={resourceIsVideo(url()) && youtubePost()}>
-                    <iframe
-                      width={804}
-                      src={youtube.getServicePostUrl(youtubePost()!, true)}
-                      title=""
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                      // @ts-expect-error No proper typing
-                      frameborder="0"
-                      class={clsx(frameStyles.thin, styles.content, styles.youtubeVideo)}
-                      onLoad={handleContentLoad}
-                      style={{ 'aspect-ratio': aspectRatio() }}
-                    />
-                  </Match>
-                  <Match when={resourceIsImage(url()) && selectedContentPublicUrl()}>
-                    <img
-                      src={selectedContentPublicUrl()}
-                      class={clsx(frameStyles.thin, styles.content, styles.image)}
-                      onLoad={handleContentLoad}
-                      style={{ 'aspect-ratio': aspectRatio() }}
-                      ref={imageRef}
-                    />
-                  </Match>
-                </Switch>
-              )}
+              <Show when={selectedContent()}>
+                {(url) => (
+                  <Switch
+                    fallback={
+                      <ResourcePreview
+                        url={url()}
+                        aspectRatio={aspectRatio()}
+                        onLoad={handleContentLoad}
+                        showTooltip
+                        class={styles.selectedContent}
+                      />
+                    }
+                  >
+                    <Match when={resourceIsVideo(url()) && youtubePost()}>
+                      <iframe
+                        width={804}
+                        src={youtube.getServicePostUrl(youtubePost()!, true)}
+                        title=""
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        // @ts-expect-error No proper typing
+                        frameborder="0"
+                        class={clsx(frameStyles.thin, styles.selectedContent, styles.youtubeVideo)}
+                        onLoad={handleContentLoad}
+                        style={{ 'aspect-ratio': aspectRatio() }}
+                      />
+                    </Match>
+                    <Match when={resourceIsImage(url()) && selectedContentPublicUrl()}>
+                      <>
+                        <object
+                          data={selectedContentPublicUrl()}
+                          class={clsx(
+                            frameStyles.thin,
+                            styles.selectedContent,
+                            styles.image,
+                            isLoading() && styles.loading,
+                          )}
+                          onLoad={handleContentLoad}
+                          onError={handleContentError}
+                          style={{ 'aspect-ratio': aspectRatio() }}
+                        >
+                          <img src={YellowExclamationMark} class={styles.image} ref={fallbackImageRef} />
+                        </object>
+                      </>
+                    </Match>
+                  </Switch>
+                )}
+              </Show>
             </Show>
 
             <Frame component="section" variant="thin" class={styles.main}>
@@ -292,9 +331,7 @@ export const PostPage: Component = () => {
 
             <Show when={post().posts}>
               <PostComments post={post()} class={styles.comments} />
-            </Show>
 
-            <Show when={post().posts}>
               <PostPublications post={post()} class={styles.publications} />
             </Show>
 
