@@ -40,7 +40,12 @@
 .selectedContent.loading {
   height: 100%;
 } */
-.content {
+
+.downloadButtonWrapper {
+  grid-area: content;
+  position: relative;
+}
+
 .contentPreviews {
   grid-area: content;
   padding: 8px;
@@ -201,6 +206,12 @@
 
 .contentSelectorRadio {
   display: none;
+}
+
+.downloadButton {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 .icon {
