@@ -67,11 +67,18 @@
   color: var(--color-text-selected-hover);
 }
 
-.topic a {
+.topic {
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
   text-decoration: none;
   color: inherit;
 }
 
-.topic a:hover {
+.topic:hover {
   color: var(--color-text-selected);
 }
