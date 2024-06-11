@@ -2,6 +2,7 @@ import './Page.css';
 import { type Component, type JSX } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import pkg from '../../../../package.json';
+import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { homeRoute } from '../../routes/home-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
@@ -17,16 +18,16 @@ export interface PageProps {
 }
 
 export const Page: Component<PageProps> = (props) => {
-  const info = usePageContext().routeInfo;
+  const info = useRouteInfo();
   const buildDate = usePageContext().buildDate;
 
   return (
     <Toaster>
       <Frame variant="thick" component="header" class={styles.header}>
-        <div class={styles.title}>
+        <h1 class={styles.title}>
           {/* <img src="/icon.png" width={16} height={16} class={styles.icon} /> */}
-          {info?.title || 'Morrowind Screenshots'}
-        </div>
+          {info.title || 'Morrowind Screenshots'}
+        </h1>
       </Frame>
 
       <nav class={styles.nav}>

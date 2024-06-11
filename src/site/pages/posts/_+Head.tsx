@@ -1,9 +1,9 @@
 import { For } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import { asArray } from '../../../core/utils/common-utils.js';
+import type { PostsPageData } from '../../components/PostsPage/PostsPage.jsx';
 import { getStorePreviewUrl } from '../../components/ResourcePreview/ResourcePreview.js';
 import LayoutHead from '../+Head.js';
-import type { PostsPageData } from './+data.js';
 
 export function Head() {
   const { postInfos } = useData<PostsPageData>();

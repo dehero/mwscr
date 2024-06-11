@@ -16,7 +16,6 @@ import type { SortDirection } from '../../../core/utils/common-types.js';
 import { stringToBool } from '../../../core/utils/common-utils.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
-import type { PostsPageData } from '../../pages/posts/+data.js';
 import { postsRoute, postsRouteInfos } from '../../routes/posts-route.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../utils/ui-constants.js';
 import { Button } from '../Button/Button.js';
@@ -27,6 +26,7 @@ import { Label } from '../Label/Label.js';
 import { PostPreviews } from '../PostPreviews/PostPreviews.js';
 import { RadioGroup } from '../RadioGroup/RadioGroup.js';
 import { RouteButton } from '../RouteButton/RouteButton.js';
+import type { SelectOption } from '../Select/Select.js';
 import { Select } from '../Select/Select.js';
 import { Spacer } from '../Spacer/Spacer.js';
 import { Toast } from '../Toaster/Toaster.js';
@@ -107,6 +107,13 @@ const emptySearchParams: PostsPageSearchParams = {
   search: undefined,
   sort: undefined,
 };
+
+export interface PostsPageData {
+  postInfos: PostInfo[];
+  authorOptions: SelectOption<string>[];
+  locationOptions: SelectOption<string>[];
+  tagOptions: SelectOption<string>[];
+}
 
 const selectPostInfos = (postInfos: PostInfo[], params: SelectPostInfosParams): PostInfo[] => {
   const comparator = comparators.find((comparator) => comparator.value === params.sortKey)?.fn ?? comparePostInfosById;

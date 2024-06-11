@@ -1,7 +1,9 @@
 import { usePageContext } from 'vike-solid/usePageContext';
+import { resolveFirstRoute } from '../routes/index.js';
 
 export function useParams<TParams extends object>() {
-  const context = usePageContext();
+  const location = usePageContext().urlParsed;
+  const current = () => resolveFirstRoute(location.pathname);
 
-  return () => context.routeParams as TParams;
+  return () => current().params as TParams;
 }

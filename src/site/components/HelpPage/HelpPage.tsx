@@ -18,7 +18,7 @@ export interface HelpPageData {
 export const HelpPage: Component = () => {
   const { topics } = useData<HelpPageData>();
   const params = useParams<HelpRouteParams>();
-  const topicId = () => params()['*']?.replace(/\//g, '') || '';
+  const topicId = () => params().topicId;
 
   const [messageTopicIds, setMessageTopicIds] = createSignal<string[]>([...new Set(['', topicId()])]);
   const messageTopicEntries = (): TopicEntry[] =>
