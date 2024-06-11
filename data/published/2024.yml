@@ -2007,22 +2007,49 @@
       id: C8C4XSlR7Tf
       mediaId: '17990200238508247'
       published: 2024-06-10-18-20-12
-      updated: 2024-06-11-17-14-09
+      updated: 2024-06-11-18-20-33
       followers: 1421
-      likes: 42
-      views: 217
+      likes: 43
+      views: 222
     - service: vk
       id: 1577
       published: 2024-06-10-18-20-20
-      updated: 2024-06-11-17-14-09
+      updated: 2024-06-11-18-20-33
       followers: 916
       likes: 22
-      views: 140
+      views: 142
       reposts: 1
     - service: tg
       id: 435
       published: 2024-06-10-18-20-28
-      updated: 2024-06-11-17-14-10
+      updated: 2024-06-11-18-20-34
       followers: 383
       likes: 47
-      views: 112
+      views: 113
+2024-06-11.emperor-parasols-under-the-rain-of-stars:
+  title: Emperor Parasols Under the Rain of Stars
+  titleRu: Императорские зонтики под звёздным дождем
+  location: Ascadian Isles Region
+  content: store:/shots/2024-06-11.emperor-parasols-under-the-rain-of-stars.png
+  trash: store:/trash/natty.2024-03-10-12-54-37.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - night
+    - mushrooms
+  mark: B1
+  posts:
+    - service: ig
+      id: C8FdO8RvcLp
+      mediaId: '18041245594810091'
+      published: 2024-06-11-18-20-52
+      followers: 1420
+    - service: vk
+      id: 1578
+      published: 2024-06-11-18-21-03
+      followers: 916
+    - service: tg
+      id: 436
+      published: 2024-06-11-18-21-09
+      followers: 384

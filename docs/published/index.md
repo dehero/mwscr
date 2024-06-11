@@ -4,7 +4,36 @@
 
 # Published in 2024
 
-`105 items`
+`106 items`
+
+## <span id="2024-06-11.emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
+
+`RU` Императорские зонтики под звёздным дождем
+
+<a href="https://instagram.com/p/C8FdO8RvcLp/" title="2024-06-11.emperor-parasols-under-the-rain-of-stars"><img alt="store:/shots/2024-06-11.emperor-parasols-under-the-rain-of-stars.png" src="../../assets/previews/shots/2024-06-11.emperor-parasols-under-the-rain-of-stars.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/natty.2024-03-10-12-54-37.png](../../assets/previews/trash/natty.2024-03-10-12-54-37.avif "natty.2024-03-10-12-54-37")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `night` `mushrooms`
+
+```
+2024-06-11.emperor-parasols-under-the-rain-of-stars
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C8FdO8RvcLp/)       | 2024-06-11 |      1420 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1578) | 2024-06-11 |       916 |
+| [`tg`](https://t.me/mwscr/436)                     | 2024-06-11 |       384 |
+|                                                    |            |      2720 |
 
 ## <span id="2024-06-10.utensil">Utensil</span>
 
@@ -30,10 +59,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8C4XSlR7Tf/)       | 2024-06-10 |   217 |    42 |      1421 |   2.96 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1577) | 2024-06-10 |   140 |    22 |       916 |    2.4 |
-| [`tg`](https://t.me/mwscr/435)                     | 2024-06-10 |   112 |    47 |       383 |  12.27 |
-|                                                    |            |   469 |   111 |      2720 |   5.88 |
+| [`ig`](https://instagram.com/p/C8C4XSlR7Tf/)       | 2024-06-10 |   222 |    43 |      1421 |   3.03 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1577) | 2024-06-10 |   142 |    22 |       916 |    2.4 |
+| [`tg`](https://t.me/mwscr/435)                     | 2024-06-10 |   113 |    47 |       383 |  12.27 |
+|                                                    |            |   477 |   112 |      2720 |    5.9 |
 
 ## <span id="2024-06-09.endusal">Endusal</span>
 
@@ -114,10 +143,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BcSn8EqD5nv/)       | 2017-12-04 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_523)  | 2017-12-04 |   220 |    17 |       105 |  16.19 |
-| [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   269 |    60 |      1424 |   4.21 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   217 |    36 |       916 |   3.93 |
-| [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   183 |    51 |       384 |  13.28 |
-|                                                    |            |   889 |   238 |      2724 |    9.4 |
+| [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   273 |    62 |      1424 |   4.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   230 |    36 |       916 |   3.93 |
+| [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   205 |    54 |       384 |  14.06 |
+|                                                    |            |   928 |   243 |      2724 |   9.63 |
 
 ## <span id="2024-06-06.shipwreck-at-the-estuary-of-foyada">Shipwreck at the Estuary of Foyada</span>
 
