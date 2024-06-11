@@ -1300,10 +1300,10 @@
     - service: vk
       id: 1532
       published: 2024-05-14-18-18-38
-      updated: 2024-06-04-22-15-07
+      updated: 2024-06-11-23-14-29
       followers: 915
       likes: 44
-      views: 303
+      views: 304
       reposts: 1
     - service: tg
       id: 408
@@ -9686,7 +9686,7 @@
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
-      updated: 2024-06-04-22-15-09
+      updated: 2024-06-11-23-14-31
       followers: 909
       likes: 40
       views: 291
@@ -9697,10 +9697,10 @@
     - service: tg
       id: 387
       published: 2024-04-23-18-17-22
-      updated: 2024-06-04-22-15-07
+      updated: 2024-06-11-23-14-30
       followers: 355
-      likes: 59
-      views: 1062
+      likes: 60
+      views: 1074
       comments: !c |-
         ix+AkpPLQnjxEjRDgACobW9uZ2xlcmmtQ2l0eSBvZiBNYWdpY5PLQnjw/03igAClYW5zaXOtQ2l0
         eSBvZiBMaWdodAM=
