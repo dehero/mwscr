@@ -18,7 +18,7 @@
   grid-area: contentSelector;
   display: grid;
   padding: 4px;
-  grid-template-columns: repeat(auto-fit, minmax(84px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(84px, 1fr));
   gap: 4px;
 }
@@ -29,9 +29,21 @@
   box-sizing: border-box;
 }
 
-.content {
+.selectedContent {
   grid-area: content;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+/* 
+.selectedContent.loading {
+  height: 100%;
+} */
+.content {
+.contentPreviews {
+  grid-area: content;
+  padding: 8px;
 }
 
 .main {
@@ -56,26 +68,28 @@
   }
 
   .container {
-    grid-template-columns: auto minmax(min-content, 322px) 1fr;
-    grid-template-rows: auto 1fr;
-    grid-template-areas: 'main contentSelector' 'main content';
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 'main content';
     overflow: hidden;
     padding: 0 8px 8px 8px;
   }
 
-  .container.withFullSizeContent {
-    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, max-content) minmax(min-content, 1fr);
+  .container.withContentSelection {
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 'main contentSelector' 'main content';
   }
 
   .container.published {
-    grid-template-rows: auto 1fr;
+    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, max-content) minmax(min-content, 1fr);
+    grid-template-rows: minmax(var(--size-panel-min-height), 1fr) minmax(var(--size-panel-min-height), auto);
     grid-template-areas:
       'main content publications'
       'main content comments';
   }
 
   .container.published.withContentSelection {
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: auto minmax(min-content, max-content) 1fr;
     grid-template-areas:
       'main contentSelector publications'
       'main content publications'
@@ -95,6 +109,7 @@
   }
 
   .main,
+  .contentPreviews,
   .contentSelector,
   .attributes,
   .comments,

@@ -1,5 +1,7 @@
 import { usePageContext } from 'vike-solid/usePageContext';
 
 export function useParams<TParams extends object>() {
-  return () => usePageContext().routeParams as TParams;
+  const context = usePageContext();
+
+  return () => context.routeParams as TParams;
 }

@@ -6,4 +6,4 @@ import { vk } from './vk.js';
 import { youtube } from './youtube.js';
 
 export const services: Service[] = [instagram, youtube, vk, telegram, github];
-export const postingServiceInfos: PostingService[] = [instagram, youtube, vk, telegram];
+export const postingServices: PostingService[] = [instagram, youtube, vk, telegram];

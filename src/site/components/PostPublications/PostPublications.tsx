@@ -8,7 +8,7 @@ import {
   getPostTotalViews,
   getServicePostRating,
 } from '../../../core/entities/post.js';
-import { services } from '../../../core/services/index.js';
+import { postingServices } from '../../../core/services/index.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { Table } from '../Table/Table.js';
@@ -44,9 +44,12 @@ export const PostPublications: Component<PostPublicationsProps> = (props) => {
         ]}
       />
 
-      <For each={props.post.posts}>
+      <For
+        each={[...(props.post.posts ?? [])].sort((a, b) => b.published.getTime() - a.published.getTime())}
+        fallback={<span class={styles.fallback}>No publications yet</span>}
+      >
         {(servicePost) => {
-          const service = services.find((s) => s.id === servicePost.service);
+          const service = postingServices.find((s) => s.id === servicePost.service);
 
           return (
             <>
@@ -55,6 +58,7 @@ export const PostPublications: Component<PostPublicationsProps> = (props) => {
                 class={styles.table}
                 label={service?.name}
                 value={servicePost.published.toLocaleDateString('en-GB')}
+                link={service?.getServicePostUrl(servicePost)}
                 rows={[
                   {
                     label: 'Likes',

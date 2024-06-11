@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { type Component, Match, Show, Switch } from 'solid-js';
+import { type Component, Match, onMount, Show, Switch } from 'solid-js';
 import type { MediaAspectRatio } from '../../../core/entities/media.js';
 import { parseResourceUrl } from '../../../core/entities/resource.js';
 import { Frame } from '../Frame/Frame.js';
@@ -22,6 +22,13 @@ export interface ResourcePreviewProps {
 export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
   const parsedUrl = parseResourceUrl(props.url);
   let ref: HTMLImageElement | undefined;
+
+  onMount(() => {
+    // Check if image is already loaded
+    if (props.onLoad && ref?.complete) {
+      props.onLoad();
+    }
+  });
 
   return (
     <Switch
