@@ -7,8 +7,8 @@ export interface PostsRouteParams extends SiteRouteParams {
 
 export const postsRouteInfos: Record<string, PostsPageInfo> = {
   published: {
-    label: 'Published',
-    title: 'Published',
+    label: 'Feed',
+    title: 'Feed',
     presetKeys: ['editors-choice', 'unlocated', 'requests'],
     filters: ['author', 'location', 'mark', 'tag', 'type', 'requested', 'reposted'],
   },

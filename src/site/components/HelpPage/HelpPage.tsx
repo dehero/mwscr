@@ -7,6 +7,8 @@ import type { HelpRouteParams } from '../../routes/help-route.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
+import { PostProposalDialog } from '../PostProposalDialog/PostProposalDialog.jsx';
+import { PostRequestDialog } from '../PostRequestDialog/PostRequestDialog.jsx';
 import styles from './HelpPage.module.css';
 
 export interface HelpPageData {
@@ -21,6 +23,8 @@ export const HelpPage: Component = () => {
   const [messageTopicIds, setMessageTopicIds] = createSignal<string[]>([...new Set(['', topicId()])]);
   const messageTopicEntries = (): TopicEntry[] =>
     messageTopicIds().map((id) => [id, topics[id] ?? { relatedTopicIds: [] }]);
+
+  const [showDialog, setShowDialog] = createSignal<'proposal' | 'request' | undefined>();
 
   let messagesRef: HTMLDivElement | undefined;
 
@@ -74,6 +78,7 @@ export const HelpPage: Component = () => {
   return (
     <>
       <Divider class={styles.divider} />
+
       <section class={styles.container}>
         <Frame class={styles.messages} ref={messagesRef}>
           <For each={messageTopicEntries()}>
@@ -88,20 +93,34 @@ export const HelpPage: Component = () => {
           </For>
         </Frame>
         <Frame class={styles.topics} component="ul">
-          <li>Propose work</li>
-          <li>Request post</li>
+          <li>
+            <button class={styles.topic} onClick={() => setShowDialog('proposal')}>
+              Propose work
+            </button>
+          </li>
+          <li>
+            <button class={styles.topic} onClick={() => setShowDialog('request')}>
+              Request post
+            </button>
+          </li>
           <li>
             <Divider />
           </li>
           <For each={openTopicEntries()}>
             {([topicId, topic]) => (
-              <li class={styles.topic}>
-                <a href={helpRoute.createUrl({ topicId })}>{topic.title}</a>
+              <li>
+                <a class={styles.topic} href={helpRoute.createUrl({ topicId })}>
+                  {topic.title}
+                </a>
               </li>
             )}
           </For>
         </Frame>
       </section>
+
+      <PostProposalDialog show={showDialog() === 'proposal'} onClose={() => setShowDialog(undefined)} />
+
+      <PostRequestDialog show={showDialog() === 'request'} onClose={() => setShowDialog(undefined)} />
     </>
   );
 };

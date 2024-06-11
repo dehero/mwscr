@@ -11,6 +11,7 @@ export interface DialogProps {
   show: boolean;
   onClose: () => void;
   actions?: JSX.Element;
+  modal?: boolean;
 }
 
 export const Dialog: Component<DialogProps> = (props) => {
@@ -23,7 +24,7 @@ export const Dialog: Component<DialogProps> = (props) => {
   };
 
   createEffect(() => {
-    if (props.show) {
+    if (props.show && !props.modal) {
       document.addEventListener('mousedown', handleClick);
 
       onCleanup(() => {
@@ -35,7 +36,7 @@ export const Dialog: Component<DialogProps> = (props) => {
   return (
     <Show when={props.show}>
       <Portal>
-        <div class={styles.backdrop}>
+        <div class={clsx(styles.backdrop, props.modal && styles.modal)}>
           <div ref={ref} class={clsx(props.title && frameStyles.thick, styles.container, props.class)}>
             <Show when={props.title}>
               <div class={styles.header}>{props.title}</div>

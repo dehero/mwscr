@@ -12,7 +12,6 @@ import {
   comparePostInfosByViews,
 } from '../../../core/entities/post-info.js';
 import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
-import { createIssueUrl as createProposalIssueUrl } from '../../../core/github-issues/proposal.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { stringToBool } from '../../../core/utils/common-utils.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
@@ -255,10 +254,6 @@ export const PostsPage: Component = () => {
           <For each={Object.keys(postsRouteInfos)}>
             {(managerName) => <RouteButton route={postsRoute} params={{ managerName }} matchParams />}
           </For>
-
-          <Button href={createProposalIssueUrl()} target="_blank">
-            +
-          </Button>
         </nav>
       </div>
       <form class={styles.filters}>

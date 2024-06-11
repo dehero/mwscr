@@ -1,9 +1,16 @@
 import type { Post } from './post.js';
 import type { ServicePost } from './service-post.js';
 
+export interface ServiceMessagingOptions {
+  subject?: string;
+  body?: string;
+}
+
 export interface Service {
   id: string;
   name: string;
+
+  getUserMessagingUrl?: (userId: string, options?: ServiceMessagingOptions) => string | undefined;
 
   getUserProfileUrl: (userId: string) => string | undefined;
 }
