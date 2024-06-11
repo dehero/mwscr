@@ -1,5 +1,6 @@
 import { writeClipboard } from '@solid-primitives/clipboard';
 import clsx from 'clsx';
+import JsFileDownloader from 'js-file-downloader';
 import { type Component, createSignal, For, Match, onMount, Show, Switch } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import YellowExclamationMark from '../../../../assets/images/exclamation.svg';
@@ -85,6 +86,21 @@ export const PostPage: Component = () => {
 
   const handleContentError = () => {
     setIsLoading(false);
+  };
+
+  const handleContentDownload = async (e: Event) => {
+    e.preventDefault();
+
+    const href = selectedContentPublicUrl();
+    if (href) {
+      const downloader = new JsFileDownloader({ url: href, autoStart: false, nativeFallbackOnError: true });
+      try {
+        await downloader.start();
+      } catch (error) {
+        const message = error instanceof Error ? error.message : error ? error.toString() : 'Failed to download';
+        addToast(message);
+      }
+    }
   };
 
   onMount(() => {
@@ -185,6 +201,17 @@ export const PostPage: Component = () => {
                         >
                           <img src={YellowExclamationMark} class={styles.image} ref={fallbackImageRef} />
                         </object>
+
+                        <div class={styles.downloadButtonWrapper}>
+                          <Button
+                            href={selectedContentPublicUrl()}
+                            onClick={handleContentDownload}
+                            class={styles.downloadButton}
+                            target="_blank"
+                          >
+                            Download
+                          </Button>
+                        </div>
                       </>
                     </Match>
                   </Switch>
