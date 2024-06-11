@@ -10,9 +10,9 @@ export const routes = [homeRoute, helpRoute, usersRoute, userRoute, postRoute, p
 
 export function resolveFirstRoute(pathname: string) {
   for (const route of routes) {
-    const { match, routeParams: params } = resolveRoute(route.path, pathname);
+    const { match, routeParams } = resolveRoute(route.path, pathname);
     if (match) {
-      return { route, params };
+      return { route, params: route.mapParams ? route.mapParams(routeParams) : routeParams };
     }
   }
 

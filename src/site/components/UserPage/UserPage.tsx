@@ -71,7 +71,7 @@ export const UserPage: Component = () => {
                   {userInfo().title[0]?.toLocaleUpperCase()}
                 </Icon>
 
-                <h1 class={styles.title}>{userInfo().title}</h1>
+                <p class={styles.title}>{userInfo().title}</p>
 
                 <Show when={userInfo().roles.length > 0}>
                   <p class={styles.roles}>{userInfo().roles.join(', ')}</p>

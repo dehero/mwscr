@@ -222,7 +222,7 @@ export const PostPage: Component = () => {
             <Frame component="section" variant="thin" class={styles.main}>
               <div class={styles.info}>
                 <section class={styles.titles}>
-                  <h1 class={styles.title}>{title()}</h1>
+                  <p class={styles.title}>{title()}</p>
                   <p class={styles.titleRu}>{titleRu()}</p>
                 </section>
 

@@ -1,5 +1,5 @@
 import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
-import { type PostsPageInfo } from '../components/PostsPage/PostsPage.js';
+import type { PostsPageData, PostsPageInfo } from '../components/PostsPage/PostsPage.js';
 
 export interface PostsRouteParams extends SiteRouteParams {
   managerName: string;
@@ -28,7 +28,7 @@ export const postsRouteInfos: Record<string, PostsPageInfo> = {
   },
 };
 
-export const postsRoute: SiteRoute<PostsRouteParams, PostsPageInfo> = {
+export const postsRoute: SiteRoute<PostsRouteParams, PostsPageData, PostsPageInfo> = {
   path: '/@managerName',
   info: ({ managerName }) =>
     postsRouteInfos[managerName] ?? {
