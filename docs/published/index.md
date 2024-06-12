@@ -33,12 +33,12 @@
 
 ### Reactions
 
-|                                                    | published  | followers |
-|----------------------------------------------------|------------|----------:|
-| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |      1419 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |       915 |
-| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |       384 |
-|                                                    |            |      2718 |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |    23 |    21 |      1419 |   1.48 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |    35 |     7 |       915 |   0.77 |
+| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |    44 |    19 |       384 |   4.95 |
+|                                                    |            |   102 |    47 |      2718 |    2.4 |
 
 ## <span id="2024-06-11.emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
 
@@ -64,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8FdO8RvcLp/)       | 2024-06-11 |   281 |    67 |      1420 |   4.72 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1578) | 2024-06-11 |   142 |    25 |       916 |   2.73 |
-| [`tg`](https://t.me/mwscr/436)                     | 2024-06-11 |   115 |    46 |       384 |  11.98 |
-|                                                    |            |   538 |   138 |      2720 |   6.48 |
+| [`ig`](https://instagram.com/p/C8FdO8RvcLp/)       | 2024-06-11 |   286 |    67 |      1420 |   4.72 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1578) | 2024-06-11 |   144 |    25 |       916 |   2.73 |
+| [`tg`](https://t.me/mwscr/436)                     | 2024-06-11 |   121 |    48 |       384 |   12.5 |
+|                                                    |            |   551 |   140 |      2720 |   6.65 |
 
 #### Comments
 
@@ -181,10 +181,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BcSn8EqD5nv/)       | 2017-12-04 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_523)  | 2017-12-04 |   220 |    17 |       105 |  16.19 |
-| [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   273 |    62 |      1424 |   4.35 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   230 |    36 |       916 |   3.93 |
-| [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   205 |    54 |       384 |  14.06 |
-|                                                    |            |   928 |   243 |      2724 |   9.63 |
+| [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   283 |    64 |      1424 |   4.49 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   239 |    36 |       916 |   3.93 |
+| [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   217 |    55 |       384 |  14.32 |
+|                                                    |            |   959 |   246 |      2724 |   9.73 |
 
 ## <span id="2024-06-06.shipwreck-at-the-estuary-of-foyada">Shipwreck at the Estuary of Foyada</span>
 
