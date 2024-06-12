@@ -35,10 +35,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |    23 |    21 |      1419 |   1.48 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |    35 |     7 |       915 |   0.77 |
-| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |    44 |    19 |       384 |   4.95 |
-|                                                    |            |   102 |    47 |      2718 |    2.4 |
+| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |    66 |    30 |      1419 |   2.11 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |    53 |     8 |       915 |   0.87 |
+| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |    65 |    24 |       384 |   6.25 |
+|                                                    |            |   184 |    62 |      2718 |   3.08 |
 
 ## <span id="2024-06-11.emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
 
@@ -64,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8FdO8RvcLp/)       | 2024-06-11 |   286 |    67 |      1420 |   4.72 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1578) | 2024-06-11 |   144 |    25 |       916 |   2.73 |
-| [`tg`](https://t.me/mwscr/436)                     | 2024-06-11 |   121 |    48 |       384 |   12.5 |
-|                                                    |            |   551 |   140 |      2720 |   6.65 |
+| [`ig`](https://instagram.com/p/C8FdO8RvcLp/)       | 2024-06-11 |   289 |    67 |      1420 |   4.72 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1578) | 2024-06-11 |   145 |    25 |       916 |   2.73 |
+| [`tg`](https://t.me/mwscr/436)                     | 2024-06-11 |   130 |    48 |       384 |   12.5 |
+|                                                    |            |   564 |   140 |      2720 |   6.65 |
 
 #### Comments
 
