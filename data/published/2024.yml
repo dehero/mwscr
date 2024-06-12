@@ -1973,24 +1973,24 @@
       id: C8ATY5evIhm
       mediaId: '18152738755309488'
       published: 2024-06-09-18-18-38
-      updated: 2024-06-11-17-14-09
+      updated: 2024-06-12-18-19-58
       followers: 1421
-      likes: 82
-      views: 353
+      likes: 85
+      views: 369
     - service: vk
       id: 1576
       published: 2024-06-09-18-18-45
-      updated: 2024-06-11-17-14-10
+      updated: 2024-06-12-18-19-59
       followers: 916
-      likes: 24
-      views: 167
+      likes: 26
+      views: 186
     - service: tg
       id: 434
       published: 2024-06-09-18-18-52
-      updated: 2024-06-11-17-14-10
+      updated: 2024-06-12-18-19-59
       followers: 384
-      likes: 51
-      views: 162
+      likes: 52
+      views: 169
 2024-06-10.utensil:
   title: Utensil
   titleRu: Утварь
@@ -2007,14 +2007,14 @@
       id: C8C4XSlR7Tf
       mediaId: '17990200238508247'
       published: 2024-06-10-18-20-12
-      updated: 2024-06-12-17-12-56
+      updated: 2024-06-12-18-19-58
       followers: 1421
       likes: 52
       views: 283
     - service: vk
       id: 1577
       published: 2024-06-10-18-20-20
-      updated: 2024-06-12-17-12-56
+      updated: 2024-06-12-18-19-58
       followers: 916
       likes: 25
       views: 164
@@ -2022,7 +2022,7 @@
     - service: tg
       id: 435
       published: 2024-06-10-18-20-28
-      updated: 2024-06-12-17-12-56
+      updated: 2024-06-12-18-19-58
       followers: 383
       likes: 50
       views: 148
@@ -2044,24 +2044,57 @@
       id: C8FdO8RvcLp
       mediaId: '18041245594810091'
       published: 2024-06-11-18-20-52
-      updated: 2024-06-12-17-12-56
+      updated: 2024-06-12-18-19-58
       followers: 1420
-      likes: 66
-      views: 277
+      likes: 67
+      views: 281
       comments: !c |-
         ix2AkZPLQnkAz6gPAACqa2F0bGluY2FzZdkkQGJlZWJlZTE5OTlfICBnaWFudCBzaHJvb20gdHJl
         ZXMg4pi7Aw==
     - service: vk
       id: 1578
       published: 2024-06-11-18-21-03
-      updated: 2024-06-12-17-12-55
+      updated: 2024-06-12-18-19-58
       followers: 916
       likes: 25
-      views: 139
+      views: 142
     - service: tg
       id: 436
       published: 2024-06-11-18-21-09
-      updated: 2024-06-12-17-12-56
+      updated: 2024-06-12-18-19-58
       followers: 384
-      likes: 44
-      views: 113
+      likes: 46
+      views: 115
+2024-06-12.beran-ancestral-tomb:
+  title: Beran Ancestral Tomb
+  titleRu: Родовая гробница Беранов
+  location: Azura's Coast Region
+  content: store:/shots/2024-06-12.beran-ancestral-tomb.png
+  trash:
+    - store:/trash/dehero.2024-02-05-00-01-00.png
+    - store:/trash/dehero.2024-02-04-23-58-11.png
+    - store:/trash/dehero.2024-02-04-23-57-31.png
+    - store:/trash/dehero.2024-02-05-00-00-55.png
+    - store:/trash/dehero.2024-02-04-23-58-30.png
+    - store:/trash/dehero.2024-02-05-00-01-16.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - tomb
+    - sunset
+  mark: A2
+  posts:
+    - service: ig
+      id: C8IB9hKveMP
+      mediaId: '18029653523035053'
+      published: 2024-06-12-18-20-17
+      followers: 1419
+    - service: vk
+      id: 1579
+      published: 2024-06-12-18-20-23
+      followers: 915
+    - service: tg
+      id: 437
+      published: 2024-06-12-18-20-29
+      followers: 384
