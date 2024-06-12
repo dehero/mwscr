@@ -2007,25 +2007,25 @@
       id: C8C4XSlR7Tf
       mediaId: '17990200238508247'
       published: 2024-06-10-18-20-12
-      updated: 2024-06-12-14-13-46
+      updated: 2024-06-12-15-14-42
       followers: 1421
       likes: 52
-      views: 279
+      views: 280
     - service: vk
       id: 1577
       published: 2024-06-10-18-20-20
-      updated: 2024-06-12-14-13-46
+      updated: 2024-06-12-15-14-42
       followers: 916
       likes: 25
-      views: 162
+      views: 163
       reposts: 1
     - service: tg
       id: 435
       published: 2024-06-10-18-20-28
-      updated: 2024-06-12-14-13-47
+      updated: 2024-06-12-15-14-43
       followers: 383
       likes: 50
-      views: 145
+      views: 148
 2024-06-11.emperor-parasols-under-the-rain-of-stars:
   title: Emperor Parasols Under the Rain of Stars
   titleRu: Императорские зонтики под звёздным дождем
@@ -2044,21 +2044,24 @@
       id: C8FdO8RvcLp
       mediaId: '18041245594810091'
       published: 2024-06-11-18-20-52
-      updated: 2024-06-12-14-13-45
+      updated: 2024-06-12-15-14-42
       followers: 1420
-      likes: 63
-      views: 260
+      likes: 64
+      views: 266
+      comments: !c |-
+        ix2AkZPLQnkAz6gPAACqa2F0bGluY2FzZdkkQGJlZWJlZTE5OTlfICBnaWFudCBzaHJvb20gdHJl
+        ZXMg4pi7Aw==
     - service: vk
       id: 1578
       published: 2024-06-11-18-21-03
-      updated: 2024-06-12-14-13-45
+      updated: 2024-06-12-15-14-42
       followers: 916
       likes: 24
-      views: 125
+      views: 129
     - service: tg
       id: 436
       published: 2024-06-11-18-21-09
-      updated: 2024-06-12-14-13-46
+      updated: 2024-06-12-15-14-43
       followers: 384
-      likes: 43
-      views: 108
+      likes: 44
+      views: 111
