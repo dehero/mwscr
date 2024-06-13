@@ -35,10 +35,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   216 |    63 |      1419 |   4.44 |
+| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   220 |    64 |      1419 |   4.51 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   130 |    22 |       915 |    2.4 |
-| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   113 |    40 |       384 |  10.42 |
-|                                                    |            |   459 |   125 |      2718 |   5.75 |
+| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   114 |    40 |       384 |  10.42 |
+|                                                    |            |   464 |   126 |      2718 |   5.78 |
 
 ## <span id="2024-06-11.emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
 
