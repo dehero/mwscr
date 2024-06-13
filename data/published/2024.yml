@@ -22,7 +22,7 @@
       id: C35xPQ9s-8q
       mediaId: '18043104526641400'
       published: 2024-02-28-19-19-14
-      updated: 2024-06-06-02-30-05
+      updated: 2024-06-13-02-30-58
       followers: 1373
       likes: 156
       views: 578
@@ -32,7 +32,7 @@
     - service: vk
       id: 1420
       published: 2024-02-28-19-19-28
-      updated: 2024-06-06-02-30-06
+      updated: 2024-06-13-02-31-01
       followers: 894
       likes: 40
       views: 314
@@ -51,7 +51,7 @@
     - service: tg
       id: 330
       published: 2024-02-28-19-19-34
-      updated: 2024-06-06-02-30-06
+      updated: 2024-06-13-02-30-57
       followers: 338
       likes: 73
       views: 574
@@ -674,14 +674,14 @@
       id: C5Bvy5uRX3U
       mediaId: '18015119423034765'
       published: 2024-03-27-18-11-53
-      updated: 2024-06-06-02-30-03
+      updated: 2024-06-13-02-30-56
       followers: 1402
       likes: 83
       views: 348
     - service: vk
       id: 1471
       published: 2024-03-27-18-11-59
-      updated: 2024-06-06-02-30-04
+      updated: 2024-06-13-02-30-58
       followers: 905
       likes: 30
       views: 266
@@ -689,10 +689,10 @@
     - service: tg
       id: 359
       published: 2024-03-27-18-12-06
-      updated: 2024-06-06-02-30-04
+      updated: 2024-06-13-02-30-56
       followers: 354
       likes: 63
-      views: 437
+      views: 440
       comments: !c |-
         Gx8BAIxUNX9/v7a2kaHhr6KSaSbTxSwxVBE9T65NP3H7Tb90ha6ubkv1IeWdn3N40SoIj5akPYpd
         ui2pJ6tkGCaZwF92uh+qPDpBjWFHjrAnb/NEUrEcnjB40i6/JwWOpAe84UIg6oPwPJTUSAFSRkR9
@@ -989,24 +989,24 @@
       id: C5lzx5zyeUS
       mediaId: '18015780446252146'
       published: 2024-04-10-18-19-23
-      updated: 2024-06-06-02-30-02
+      updated: 2024-06-13-02-30-55
       followers: 1411
       likes: 73
       views: 284
     - service: vk
       id: 1489
       published: 2024-04-10-18-19-29
-      updated: 2024-06-06-02-30-02
+      updated: 2024-06-13-02-30-57
       followers: 911
       likes: 30
       views: 214
     - service: tg
       id: 374
       published: 2024-04-10-18-19-36
-      updated: 2024-06-06-02-30-02
+      updated: 2024-06-13-02-30-55
       followers: 353
       likes: 57
-      views: 399
+      views: 406
 2024-04-11.heros-skeleton:
   title: Hero's Skeleton
   titleRu: Скелет героя
@@ -2044,24 +2044,24 @@
       id: C8FdO8RvcLp
       mediaId: '18041245594810091'
       published: 2024-06-11-18-20-52
-      updated: 2024-06-13-01-05-44
+      updated: 2024-06-13-02-30-53
       followers: 1420
       likes: 68
-      views: 305
+      views: 307
       comments: !c |-
         ix2AkZPLQnkAz6gPAACqa2F0bGluY2FzZdkkQGJlZWJlZTE5OTlfICBnaWFudCBzaHJvb20gdHJl
         ZXMg4pi7Aw==
     - service: vk
       id: 1578
       published: 2024-06-11-18-21-03
-      updated: 2024-06-13-01-05-44
+      updated: 2024-06-13-02-30-53
       followers: 916
       likes: 25
       views: 148
     - service: tg
       id: 436
       published: 2024-06-11-18-21-09
-      updated: 2024-06-13-01-05-45
+      updated: 2024-06-13-02-30-53
       followers: 384
       likes: 48
       views: 136
@@ -2089,21 +2089,21 @@
       id: C8IB9hKveMP
       mediaId: '18029653523035053'
       published: 2024-06-12-18-20-17
-      updated: 2024-06-13-01-05-43
+      updated: 2024-06-13-02-30-53
       followers: 1419
-      likes: 47
-      views: 132
+      likes: 48
+      views: 144
     - service: vk
       id: 1579
       published: 2024-06-12-18-20-23
-      updated: 2024-06-13-01-05-43
+      updated: 2024-06-13-02-30-52
       followers: 915
-      likes: 12
-      views: 78
+      likes: 14
+      views: 83
     - service: tg
       id: 437
       published: 2024-06-12-18-20-29
-      updated: 2024-06-13-01-05-44
+      updated: 2024-06-13-02-30-53
       followers: 384
-      likes: 30
-      views: 86
+      likes: 31
+      views: 87
