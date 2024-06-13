@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |    28 |    22 |      1420 |   1.55 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |    59 |    12 |       915 |   1.31 |
-| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |    61 |    25 |       385 |   6.49 |
-|                                                    |            |   148 |    59 |      2720 |   3.12 |
+| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   106 |    39 |      1420 |   2.75 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |    79 |    13 |       915 |   1.42 |
+| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |    79 |    30 |       385 |   7.79 |
+|                                                    |            |   264 |    82 |      2720 |   3.99 |
 
 ## <span id="2024-06-12.beran-ancestral-tomb">Beran Ancestral Tomb</span>
 
@@ -64,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   247 |    66 |      1419 |   4.65 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   143 |    22 |       915 |    2.4 |
-| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   131 |    44 |       384 |  11.46 |
-|                                                    |            |   521 |   132 |      2718 |   6.17 |
+| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   252 |    68 |      1419 |   4.79 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   145 |    22 |       915 |    2.4 |
+| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   136 |    44 |       384 |  11.46 |
+|                                                    |            |   533 |   134 |      2718 |   6.22 |
 
 ## <span id="2024-06-11.emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
 
@@ -210,10 +210,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BcSn8EqD5nv/)       | 2017-12-04 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_523)  | 2017-12-04 |   220 |    17 |       105 |  16.19 |
-| [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   283 |    64 |      1424 |   4.49 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   239 |    36 |       916 |   3.93 |
-| [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   217 |    55 |       384 |  14.32 |
-|                                                    |            |   959 |   246 |      2724 |   9.73 |
+| [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   294 |    66 |      1424 |   4.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   247 |    36 |       916 |   3.93 |
+| [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   230 |    55 |       384 |  14.32 |
+|                                                    |            |   991 |   248 |      2724 |   9.77 |
 
 ## <span id="2024-06-06.shipwreck-at-the-estuary-of-foyada">Shipwreck at the Estuary of Foyada</span>
 
