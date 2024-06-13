@@ -35,10 +35,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   194 |    59 |      1419 |   4.16 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   118 |    21 |       915 |    2.3 |
-| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   103 |    37 |       384 |   9.64 |
-|                                                    |            |   415 |   117 |      2718 |   5.36 |
+| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   199 |    59 |      1419 |   4.16 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   120 |    21 |       915 |    2.3 |
+| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   106 |    37 |       384 |   9.64 |
+|                                                    |            |   425 |   117 |      2718 |   5.36 |
 
 ## <span id="2024-06-11.emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
 
@@ -64,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8FdO8RvcLp/)       | 2024-06-11 |   313 |    70 |      1420 |   4.93 |
+| [`ig`](https://instagram.com/p/C8FdO8RvcLp/)       | 2024-06-11 |   315 |    71 |      1420 |      5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1578) | 2024-06-11 |   152 |    25 |       916 |   2.73 |
-| [`tg`](https://t.me/mwscr/436)                     | 2024-06-11 |   142 |    49 |       384 |  12.76 |
-|                                                    |            |   607 |   144 |      2720 |   6.81 |
+| [`tg`](https://t.me/mwscr/436)                     | 2024-06-11 |   144 |    49 |       384 |  12.76 |
+|                                                    |            |   611 |   145 |      2720 |   6.83 |
 
 #### Comments
 
