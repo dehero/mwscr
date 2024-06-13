@@ -35,10 +35,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   212 |    62 |      1419 |   4.37 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   126 |    22 |       915 |    2.4 |
-| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   110 |    38 |       384 |    9.9 |
-|                                                    |            |   448 |   122 |      2718 |   5.56 |
+| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   216 |    63 |      1419 |   4.44 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   130 |    22 |       915 |    2.4 |
+| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   113 |    40 |       384 |  10.42 |
+|                                                    |            |   459 |   125 |      2718 |   5.75 |
 
 ## <span id="2024-06-11.emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
 
@@ -64,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8FdO8RvcLp/)       | 2024-06-11 |   320 |    73 |      1420 |   5.14 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1578) | 2024-06-11 |   155 |    25 |       916 |   2.73 |
+| [`ig`](https://instagram.com/p/C8FdO8RvcLp/)       | 2024-06-11 |   324 |    73 |      1420 |   5.14 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1578) | 2024-06-11 |   157 |    25 |       916 |   2.73 |
 | [`tg`](https://t.me/mwscr/436)                     | 2024-06-11 |   144 |    49 |       384 |  12.76 |
-|                                                    |            |   619 |   147 |      2720 |   6.88 |
+|                                                    |            |   625 |   147 |      2720 |   6.88 |
 
 #### Comments
 
