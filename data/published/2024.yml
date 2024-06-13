@@ -1973,24 +1973,24 @@
       id: C8ATY5evIhm
       mediaId: '18152738755309488'
       published: 2024-06-09-18-18-38
-      updated: 2024-06-12-18-19-58
+      updated: 2024-06-13-18-20-15
       followers: 1421
-      likes: 85
-      views: 369
+      likes: 89
+      views: 379
     - service: vk
       id: 1576
       published: 2024-06-09-18-18-45
-      updated: 2024-06-12-18-19-59
+      updated: 2024-06-13-18-20-16
       followers: 916
       likes: 26
-      views: 186
+      views: 193
     - service: tg
       id: 434
       published: 2024-06-09-18-18-52
-      updated: 2024-06-12-18-19-59
+      updated: 2024-06-13-18-20-15
       followers: 384
       likes: 52
-      views: 169
+      views: 200
 2024-06-10.utensil:
   title: Utensil
   titleRu: Утварь
@@ -2007,25 +2007,25 @@
       id: C8C4XSlR7Tf
       mediaId: '17990200238508247'
       published: 2024-06-10-18-20-12
-      updated: 2024-06-12-18-19-58
+      updated: 2024-06-13-18-20-15
       followers: 1421
-      likes: 52
-      views: 283
+      likes: 56
+      views: 310
     - service: vk
       id: 1577
       published: 2024-06-10-18-20-20
-      updated: 2024-06-12-18-19-58
+      updated: 2024-06-13-18-20-15
       followers: 916
       likes: 25
-      views: 164
+      views: 178
       reposts: 1
     - service: tg
       id: 435
       published: 2024-06-10-18-20-28
-      updated: 2024-06-12-18-19-58
+      updated: 2024-06-13-18-20-14
       followers: 383
       likes: 50
-      views: 148
+      views: 167
 2024-06-11.emperor-parasols-under-the-rain-of-stars:
   title: Emperor Parasols Under the Rain of Stars
   titleRu: Императорские зонтики под звёздным дождем
@@ -2044,27 +2044,27 @@
       id: C8FdO8RvcLp
       mediaId: '18041245594810091'
       published: 2024-06-11-18-20-52
-      updated: 2024-06-13-17-13-47
+      updated: 2024-06-13-18-20-14
       followers: 1420
       likes: 74
-      views: 329
+      views: 330
       comments: !c |-
         ix2AkZPLQnkAz6gPAACqa2F0bGluY2FzZdkkQGJlZWJlZTE5OTlfICBnaWFudCBzaHJvb20gdHJl
         ZXMg4pi7Aw==
     - service: vk
       id: 1578
       published: 2024-06-11-18-21-03
-      updated: 2024-06-13-17-13-47
+      updated: 2024-06-13-18-20-14
       followers: 916
       likes: 25
-      views: 157
+      views: 161
     - service: tg
       id: 436
       published: 2024-06-11-18-21-09
-      updated: 2024-06-13-17-13-47
+      updated: 2024-06-13-18-20-14
       followers: 384
       likes: 49
-      views: 147
+      views: 148
 2024-06-12.beran-ancestral-tomb:
   title: Beran Ancestral Tomb
   titleRu: Родовая гробница Беранов
@@ -2089,21 +2089,46 @@
       id: C8IB9hKveMP
       mediaId: '18029653523035053'
       published: 2024-06-12-18-20-17
-      updated: 2024-06-13-17-13-46
+      updated: 2024-06-13-18-20-13
       followers: 1419
       likes: 65
-      views: 235
+      views: 246
     - service: vk
       id: 1579
       published: 2024-06-12-18-20-23
-      updated: 2024-06-13-17-13-46
+      updated: 2024-06-13-18-20-13
       followers: 915
       likes: 22
-      views: 140
+      views: 142
     - service: tg
       id: 437
       published: 2024-06-12-18-20-29
-      updated: 2024-06-13-17-13-47
+      updated: 2024-06-13-18-20-14
       followers: 384
       likes: 41
-      views: 117
+      views: 118
+2024-06-13.propylon:
+  title: Propylon
+  titleRu: Пропильон
+  content: store:/shots/2024-06-13.propylon.png
+  trash: store:/trash/dehero.2024-03-24-11-41-57.2.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - propylon
+  mark: B1
+  posts:
+    - service: ig
+      id: C8KmyYss4M8
+      mediaId: '18059395417593270'
+      published: 2024-06-13-18-20-32
+      followers: 1420
+    - service: vk
+      id: 1580
+      published: 2024-06-13-18-20-39
+      followers: 915
+    - service: tg
+      id: 438
+      published: 2024-06-13-18-20-46
+      followers: 385
