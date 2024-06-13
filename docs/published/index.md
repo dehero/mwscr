@@ -35,10 +35,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   144 |    48 |      1419 |   3.38 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |    83 |    14 |       915 |   1.53 |
+| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   151 |    48 |      1419 |   3.38 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |    87 |    15 |       915 |   1.64 |
 | [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |    87 |    31 |       384 |   8.07 |
-|                                                    |            |   314 |    93 |      2718 |   4.33 |
+|                                                    |            |   325 |    94 |      2718 |   4.36 |
 
 ## <span id="2024-06-11.emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
 
@@ -64,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8FdO8RvcLp/)       | 2024-06-11 |   307 |    68 |      1420 |   4.79 |
+| [`ig`](https://instagram.com/p/C8FdO8RvcLp/)       | 2024-06-11 |   308 |    69 |      1420 |   4.86 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1578) | 2024-06-11 |   148 |    25 |       916 |   2.73 |
 | [`tg`](https://t.me/mwscr/436)                     | 2024-06-11 |   136 |    48 |       384 |   12.5 |
-|                                                    |            |   591 |   141 |      2720 |   6.67 |
+|                                                    |            |   592 |   142 |      2720 |    6.7 |
 
 #### Comments
 
