@@ -21,7 +21,11 @@
   text-align: center;
 }
 
-.item {
+.virtualItem {
   padding: 4px;
   outline: none;
+}
+
+.item {
+  height: 100%;
 }

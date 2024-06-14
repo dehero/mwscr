@@ -186,33 +186,31 @@ export const PostPage: Component = () => {
                       />
                     </Match>
                     <Match when={resourceIsImage(url()) && selectedContentPublicUrl()}>
-                      <>
-                        <object
-                          data={selectedContentPublicUrl()}
-                          class={clsx(
-                            frameStyles.thin,
-                            styles.selectedContent,
-                            styles.image,
-                            isLoading() && styles.loading,
-                          )}
-                          onLoad={handleContentLoad}
-                          onError={handleContentError}
-                          style={{ 'aspect-ratio': aspectRatio() }}
-                        >
-                          <img src={YellowExclamationMark} class={styles.image} ref={fallbackImageRef} />
-                        </object>
+                      <object
+                        data={selectedContentPublicUrl()}
+                        class={clsx(
+                          frameStyles.thin,
+                          styles.selectedContent,
+                          styles.image,
+                          isLoading() && styles.loading,
+                        )}
+                        onLoad={handleContentLoad}
+                        onError={handleContentError}
+                        style={{ 'aspect-ratio': aspectRatio() }}
+                      >
+                        <img src={YellowExclamationMark} class={styles.image} ref={fallbackImageRef} />
+                      </object>
 
-                        <div class={styles.downloadButtonWrapper}>
-                          <Button
-                            href={selectedContentPublicUrl()}
-                            onClick={handleContentDownload}
-                            class={styles.downloadButton}
-                            target="_blank"
-                          >
-                            Download
-                          </Button>
-                        </div>
-                      </>
+                      <div class={styles.downloadButtonWrapper}>
+                        <Button
+                          href={selectedContentPublicUrl()}
+                          onClick={handleContentDownload}
+                          class={styles.downloadButton}
+                          target="_blank"
+                        >
+                          Download
+                        </Button>
+                      </div>
                     </Match>
                   </Switch>
                 )}

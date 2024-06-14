@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import { type Component, createSignal, For, Show } from 'solid-js';
 import { getPostTypeAspectRatio, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
-import { getUserEntryLetter } from '../../../core/entities/user.js';
+import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/user.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { postRoute } from '../../routes/post-route.js';
 import { Divider } from '../Divider/Divider.js';
@@ -39,9 +39,17 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
       <Show
         when={content().length > 0}
         fallback={
-          <Frame variant="thin" class={styles.fallback}>
-            <p>{props.postInfo.request?.text}</p>
-          </Frame>
+          <Show when={props.postInfo.request}>
+            {(request) => (
+              <Frame variant="thin" class={styles.request} style={{ 'aspect-ratio': aspectRatio() }}>
+                <p class={styles.requestText}>{request().text}</p>
+
+                <Show when={props.postInfo.requesterEntry}>
+                  {(entry) => <p class={styles.requestUser}>{getUserEntryTitle(entry())}</p>}
+                </Show>
+              </Frame>
+            )}
+          </Show>
         }
       >
         <Show
@@ -106,10 +114,8 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
             </span>
           </div>
           <Show when={props.postInfo.description}>
-            <>
-              <Divider />
-              <div class={styles.description}>{props.postInfo.description}</div>
-            </>
+            <Divider />
+            <div class={styles.description}>{props.postInfo.description}</div>
           </Show>
         </Frame>
       </Show>
