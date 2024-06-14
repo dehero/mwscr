@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   321 |    73 |      1420 |   5.14 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   165 |    28 |       915 |   3.06 |
+| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   328 |    75 |      1420 |   5.28 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   171 |    29 |       915 |   3.17 |
 | [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   121 |    47 |       385 |  12.21 |
-|                                                    |            |   607 |   148 |      2720 |    6.8 |
+|                                                    |            |   620 |   151 |      2720 |   6.89 |
 
 ## <span id="2024-06-12.beran-ancestral-tomb">Beran Ancestral Tomb</span>
 
@@ -64,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   274 |    73 |      1419 |   5.14 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   159 |    24 |       915 |   2.62 |
+| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   275 |    73 |      1419 |   5.14 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   161 |    25 |       915 |   2.73 |
 | [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   149 |    47 |       384 |  12.24 |
-|                                                    |            |   582 |   144 |      2718 |   6.67 |
+|                                                    |            |   585 |   145 |      2718 |   6.71 |
 
 ## <span id="2024-06-11.emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
 
