@@ -9,11 +9,13 @@ export interface RouteButtonPropsWithParams<TParams extends SiteRouteParams, TDa
   params: TParams;
   title?: string;
   matchParams?: boolean;
+  activeRoutes?: Pick<SiteRoute<TParams>, 'path'>[];
 }
 
 export interface RouteButtonPropsWithoutParams {
   route: SiteRoute<undefined>;
   title?: string;
+  activeRoutes?: Pick<SiteRoute<undefined>, 'path'>[];
 }
 
 export type RouteButtonProps<TParams extends SiteRouteParams, TData> = Omit<
@@ -28,12 +30,13 @@ export function RouteButton<TParams extends SiteRouteParams, TData = unknown>(pr
   const info = () => props.route.info(params() as never, undefined as never);
   const url = () => props.route.createUrl(params() as never);
   const current = () => resolveFirstRoute(location.pathname);
+  const activeRoutes = () => props.activeRoutes || [props.route];
 
   return (
     <Button
       href={url()}
       active={
-        props.route.path === current().route?.path &&
+        activeRoutes().some((route) => route.path === current().route?.path) &&
         (!('matchParams' in props) ||
           !props.matchParams ||
           Object.entries(params() || {}).every(([key, value]) => current().params?.[key] === value))

@@ -118,6 +118,16 @@ export function partition<T>(array: T[], callback: (element: T, index: number, a
   return [trueArray, falseArray];
 }
 
+export function search(tokens?: string[], values?: Array<string | null | undefined>): boolean {
+  return Boolean(
+    !tokens || tokens.every((token) => values?.some((value) => value?.toLocaleLowerCase().includes(token))),
+  );
+}
+
+export function getSearchTokens(value?: string): string[] | undefined {
+  return value?.split(/\s/).map((token) => token.toLocaleLowerCase());
+}
+
 export function compareRandomly(): number {
   return Math.random() - 0.5;
 }

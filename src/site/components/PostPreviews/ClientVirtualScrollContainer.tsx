@@ -1,5 +1,5 @@
 import { VirtualContainer } from '@minht11/solid-virtual-container';
-import { type Component } from 'solid-js';
+import { type Component, Show } from 'solid-js';
 import {
   POST_PREVIEW_GAP,
   POST_PREVIEW_INFO_MIN_HEIGHT,
@@ -29,6 +29,9 @@ export const ClientVirtualScrollContainer: Component<PostPreviewsProps> = (props
 
   return (
     <div ref={targetVertical} class={styles.container}>
+      <Show when={props.label}>
+        <p class={styles.label}>{props.label}</p>
+      </Show>
       <VirtualContainer
         items={props.postInfos}
         scrollTarget={targetVertical}

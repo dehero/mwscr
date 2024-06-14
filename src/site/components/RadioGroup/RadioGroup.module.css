@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   gap: 4px;
   align-items: baseline;
 }

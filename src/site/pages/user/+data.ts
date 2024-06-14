@@ -9,10 +9,9 @@ import {
 import { isPostDraft, isPostRequest } from '../../../core/entities/post-variation.js';
 import { createUserInfo } from '../../../core/entities/user.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import { inbox, published, trash } from '../../../local/data-managers/posts.js';
+import { getPostInfo, inbox, published, trash } from '../../../local/data-managers/posts.js';
 import { users } from '../../../local/data-managers/users.js';
 import type { UserPageData } from '../../components/UserPage/UserPage.js';
-import { getPostInfo } from '../../utils/data-utils.js';
 
 export async function data(pageContext: PageContext): Promise<UserPageData> {
   if (!pageContext.routeParams?.id) {

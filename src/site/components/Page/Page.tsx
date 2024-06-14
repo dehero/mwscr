@@ -5,6 +5,7 @@ import pkg from '../../../../package.json';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { homeRoute } from '../../routes/home-route.js';
+import { postRoute } from '../../routes/post-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { Frame } from '../Frame/Frame.js';
@@ -32,7 +33,28 @@ export const Page: Component<PageProps> = (props) => {
 
       <nav class={styles.nav}>
         <RouteButton route={homeRoute} />
-        <RouteButton route={postsRoute} params={{ managerName: 'published' }} title="Posts" />
+        {/* <RouteButton
+          route={postsRoute}
+          activeRoutes={[postRoute, postsRoute]}
+          params={{ managerName: 'published' }}
+          title="Posts"
+        /> */}
+        {/* <For each={Object.keys(postsRouteInfos)}>
+          {(managerName) => (
+            <RouteButton
+              route={postsRoute}
+              activeRoutes={[postRoute, postsRoute]}
+              params={{ managerName }}
+              matchParams
+            />
+          )}
+        </For> */}
+        <RouteButton
+          route={postsRoute}
+          activeRoutes={[postRoute, postsRoute]}
+          params={{ managerName: 'published' }}
+          matchParams
+        />
         <RouteButton route={usersRoute} />
         <RouteButton route={helpRoute} params={{ topicId: '' }} />
 
@@ -42,6 +64,20 @@ export const Page: Component<PageProps> = (props) => {
           v{typeof pkg === 'object' && 'version' in pkg && typeof pkg.version === 'string' ? pkg.version : undefined}{' '}
           {buildDate}
         </div>
+
+        <RouteButton
+          route={postsRoute}
+          activeRoutes={[postRoute, postsRoute]}
+          params={{ managerName: 'inbox' }}
+          matchParams
+        />
+
+        <RouteButton
+          route={postsRoute}
+          activeRoutes={[postRoute, postsRoute]}
+          params={{ managerName: 'trash' }}
+          matchParams
+        />
       </nav>
 
       <main class={styles.main}>{props.children}</main>

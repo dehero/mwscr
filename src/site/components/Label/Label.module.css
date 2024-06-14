@@ -16,7 +16,7 @@
 
 .vertical {
   flex-flow: column nowrap;
-  align-items: normal;
+  align-items: initial;
 }
 
 .vertical > .label {
