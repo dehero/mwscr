@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   300 |    69 |      1420 |   4.86 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   160 |    26 |       915 |   2.84 |
-| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   116 |    44 |       385 |  11.43 |
-|                                                    |            |   576 |   139 |      2720 |   6.38 |
+| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   308 |    71 |      1420 |      5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   161 |    27 |       915 |   2.95 |
+| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   118 |    45 |       385 |  11.69 |
+|                                                    |            |   587 |   143 |      2720 |   6.55 |
 
 ## <span id="2024-06-12.beran-ancestral-tomb">Beran Ancestral Tomb</span>
 
@@ -64,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   273 |    73 |      1419 |   5.14 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   155 |    23 |       915 |   2.51 |
-| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   148 |    47 |       384 |  12.24 |
-|                                                    |            |   576 |   143 |      2718 |   6.63 |
+| [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   274 |    73 |      1419 |   5.14 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   156 |    24 |       915 |   2.62 |
+| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   149 |    47 |       384 |  12.24 |
+|                                                    |            |   579 |   144 |      2718 |   6.67 |
 
 ## <span id="2024-06-11.emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
 
