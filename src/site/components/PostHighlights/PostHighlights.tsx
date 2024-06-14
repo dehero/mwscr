@@ -82,7 +82,7 @@ export const PostHighlights: Component<PostPreviewsProps> = (props) => {
         <For each={groups()}>
           {({ labels, postInfo, primary }) => (
             <Label label={createGroupLabel(labels)} vertical class={clsx(styles.item, primary && styles.primary)}>
-              <PostPreview postInfo={postInfo} />
+              <PostPreview postInfo={postInfo} class={styles.preview} />
             </Label>
           )}
         </For>

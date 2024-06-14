@@ -6,8 +6,18 @@
 }
 
 .fallback {
-  display: block;
   overflow: hidden;
   text-overflow: ellipsis;
   padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  text-align: center;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+
+.url {
+  margin: auto;
 }

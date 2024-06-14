@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import { type Component, Match, onMount, Show, Switch } from 'solid-js';
+import YellowExclamationMark from '../../../../assets/images/exclamation.svg';
 import type { MediaAspectRatio } from '../../../core/entities/media.js';
 import { parseResourceUrl } from '../../../core/entities/resource.js';
 import { Frame } from '../Frame/Frame.js';
@@ -20,12 +21,14 @@ export interface ResourcePreviewProps {
 }
 
 export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
-  const parsedUrl = parseResourceUrl(props.url);
-  let ref: HTMLImageElement | undefined;
+  const parsedUrl = () => parseResourceUrl(props.url);
+  const src = () => getStorePreviewUrl(props.url);
+  let ref: HTMLObjectElement | undefined;
+  let fallbackImageRef: HTMLImageElement | undefined;
 
   onMount(() => {
     // Check if image is already loaded
-    if (props.onLoad && ref?.complete) {
+    if (props.onLoad && !fallbackImageRef?.complete) {
       props.onLoad();
     }
   });
@@ -33,20 +36,27 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
   return (
     <Switch
       fallback={
-        <Frame variant="thin" class={clsx(styles.fallback, props.class)}>
-          {props.url}
+        <Frame
+          variant="thin"
+          class={clsx(styles.fallback, props.class)}
+          style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
+        >
+          <span class={styles.url}>{props.url}</span>
         </Frame>
       }
     >
-      <Match when={parsedUrl.protocol === 'store:'}>
-        <img
+      <Match when={parsedUrl().protocol === 'store:'}>
+        <object
+          data={src()}
           ref={ref}
-          src={getStorePreviewUrl(props.url)}
           class={clsx(frameStyles.thin, styles.preview, props.class)}
           draggable="false"
           onLoad={props.onLoad}
           style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
-        />
+        >
+          <img src={YellowExclamationMark} class={styles.preview} ref={fallbackImageRef} />
+        </object>
+
         <Show when={props.showTooltip}>
           <Tooltip forRef={ref}>{props.url}</Tooltip>
         </Show>

@@ -41,8 +41,8 @@ export const ClientVirtualScrollContainer: Component<PostPreviewsProps> = (props
         itemSize={calculateGridItemSize}
       >
         {(itemProps) => (
-          <div style={itemProps.style} class={styles.item} tabIndex={itemProps.tabIndex} role="listitem">
-            <PostPreview postInfo={itemProps.item} />
+          <div style={itemProps.style} class={styles.virtualItem} tabIndex={itemProps.tabIndex} role="listitem">
+            <PostPreview postInfo={itemProps.item} class={styles.item} />
           </div>
         )}
       </VirtualContainer>

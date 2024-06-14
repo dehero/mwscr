@@ -17,3 +17,7 @@
 .item.primary {
   flex-basis: 324px;
 }
+
+.preview {
+  height: 100%;
+}
