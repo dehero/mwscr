@@ -34,12 +34,16 @@
 
 ### Reactions
 
-|                                                    | published  | followers |
-|----------------------------------------------------|------------|----------:|
-| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |      1419 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |       915 |
-| [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |       386 |
-|                                                    |            |      2720 |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |    31 |    19 |      1419 |   1.34 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |    37 |     8 |       915 |   0.87 |
+| [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |    48 |    22 |       386 |    5.7 |
+|                                                    |            |   116 |    49 |      2720 |   2.64 |
+
+#### Comments
+
+- `tg` <ins title="2024-06-14-18-30-31">VebrandenoK</ins> 😭
 
 ## <span id="2024-06-13.propylon">Propylon</span>
 
@@ -65,10 +69,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   371 |    81 |      1420 |    5.7 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   184 |    30 |       915 |   3.28 |
-| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   127 |    48 |       385 |  12.47 |
-|                                                    |            |   682 |   159 |      2720 |   7.15 |
+| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   377 |    81 |      1420 |    5.7 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   185 |    30 |       915 |   3.28 |
+| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   140 |    48 |       385 |  12.47 |
+|                                                    |            |   702 |   159 |      2720 |   7.15 |
 
 ## <span id="2024-06-12.beran-ancestral-tomb">Beran Ancestral Tomb</span>
 
