@@ -4,7 +4,42 @@
 
 # Published in 2024
 
-`108 items`
+`109 items`
+
+## <span id="2024-06-14.sleeping-silt-strider">Sleeping Silt Strider</span>
+
+`RU` Спящий Силт Страйдер
+
+<a href="https://instagram.com/p/C8NLlsCNat6/" title="2024-06-14.sleeping-silt-strider"><img alt="store:/shots/2024-06-14.sleeping-silt-strider.png" src="../../assets/previews/shots/2024-06-14.sleeping-silt-strider.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2024-02-17-10-39-58.png](../../assets/previews/trash/dehero.2024-02-17-10-39-58.avif "dehero.2024-02-17-10-39-58")
+![store:/trash/dehero.2024-02-17-10-39-53.png](../../assets/previews/trash/dehero.2024-02-17-10-39-53.avif "dehero.2024-02-17-10-39-53")
+![store:/trash/dehero.2024-02-17-10-39-29.png](../../assets/previews/trash/dehero.2024-02-17-10-39-29.avif "dehero.2024-02-17-10-39-29")
+![store:/trash/dehero.2024-02-17-10-38-44.png](../../assets/previews/trash/dehero.2024-02-17-10-38-44.avif "dehero.2024-02-17-10-38-44")
+![store:/trash/dehero.2024-02-17-10-38-22.png](../../assets/previews/trash/dehero.2024-02-17-10-38-22.avif "dehero.2024-02-17-10-38-22")
+![store:/trash/dehero.2024-02-17-10-38-00.png](../../assets/previews/trash/dehero.2024-02-17-10-38-00.avif "dehero.2024-02-17-10-38-00")
+![store:/trash/dehero.2024-02-17-10-39-58.1.png](../../assets/previews/trash/dehero.2024-02-17-10-39-58.1.avif "dehero.2024-02-17-10-39-58.1")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Ashlands Region` `🚀 OpenMW` `siltstrider` `night` `stars`
+
+```
+2024-06-14.sleeping-silt-strider
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |      1419 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |       915 |
+| [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |       386 |
+|                                                    |            |      2720 |
 
 ## <span id="2024-06-13.propylon">Propylon</span>
 
@@ -30,10 +65,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   357 |    81 |      1420 |    5.7 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   181 |    30 |       915 |   3.28 |
-| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   125 |    48 |       385 |  12.47 |
-|                                                    |            |   663 |   159 |      2720 |   7.15 |
+| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   371 |    81 |      1420 |    5.7 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   184 |    30 |       915 |   3.28 |
+| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   127 |    48 |       385 |  12.47 |
+|                                                    |            |   682 |   159 |      2720 |   7.15 |
 
 ## <span id="2024-06-12.beran-ancestral-tomb">Beran Ancestral Tomb</span>
 
@@ -65,9 +100,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   277 |    73 |      1419 |   5.14 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   166 |    26 |       915 |   2.84 |
-| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   151 |    48 |       384 |   12.5 |
-|                                                    |            |   594 |   147 |      2718 |   6.83 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   167 |    26 |       915 |   2.84 |
+| [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   153 |    48 |       384 |   12.5 |
+|                                                    |            |   597 |   147 |      2718 |   6.83 |
 
 ## <span id="2024-06-11.emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
 
@@ -93,10 +128,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8FdO8RvcLp/)       | 2024-06-11 |   330 |    74 |      1420 |   5.21 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1578) | 2024-06-11 |   161 |    25 |       916 |   2.73 |
-| [`tg`](https://t.me/mwscr/436)                     | 2024-06-11 |   148 |    49 |       384 |  12.76 |
-|                                                    |            |   639 |   148 |      2720 |    6.9 |
+| [`ig`](https://instagram.com/p/C8FdO8RvcLp/)       | 2024-06-11 |   351 |    81 |      1420 |    5.7 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1578) | 2024-06-11 |   186 |    28 |       916 |   3.06 |
+| [`tg`](https://t.me/mwscr/436)                     | 2024-06-11 |   169 |    50 |       384 |  13.02 |
+|                                                    |            |   706 |   159 |      2720 |   7.26 |
 
 #### Comments
 
@@ -126,10 +161,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8C4XSlR7Tf/)       | 2024-06-10 |   310 |    56 |      1421 |   3.94 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1577) | 2024-06-10 |   178 |    25 |       916 |   2.73 |
-| [`tg`](https://t.me/mwscr/435)                     | 2024-06-10 |   167 |    50 |       383 |  13.05 |
-|                                                    |            |   655 |   131 |      2720 |   6.57 |
+| [`ig`](https://instagram.com/p/C8C4XSlR7Tf/)       | 2024-06-10 |   318 |    58 |      1421 |   4.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1577) | 2024-06-10 |   193 |    27 |       916 |   2.95 |
+| [`tg`](https://t.me/mwscr/435)                     | 2024-06-10 |   196 |    50 |       383 |  13.05 |
+|                                                    |            |   707 |   135 |      2720 |   6.69 |
 
 ## <span id="2024-06-09.endusal">Endusal</span>
 
@@ -156,10 +191,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8ATY5evIhm/)       | 2024-06-09 |   379 |    89 |      1421 |   6.26 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1576) | 2024-06-09 |   193 |    26 |       916 |   2.84 |
-| [`tg`](https://t.me/mwscr/434)                     | 2024-06-09 |   200 |    52 |       384 |  13.54 |
-|                                                    |            |   772 |   167 |      2721 |   7.55 |
+| [`ig`](https://instagram.com/p/C8ATY5evIhm/)       | 2024-06-09 |   385 |    91 |      1421 |    6.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1576) | 2024-06-09 |   202 |    27 |       916 |   2.95 |
+| [`tg`](https://t.me/mwscr/434)                     | 2024-06-09 |   212 |    52 |       384 |  13.54 |
+|                                                    |            |   799 |   170 |      2721 |   7.63 |
 
 ## <span id="2024-06-08.in-khuul">In Khuul</span>
 
@@ -183,10 +218,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTYfIxOjZg3/)       | 2017-04-27 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_272)  | 2017-04-27 |   112 |     6 |        54 |      6 |
-| [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   284 |    72 |      1422 |   5.06 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   248 |    32 |       916 |   3.49 |
-| [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |   214 |    49 |       384 |  12.76 |
-|                                                    |            |   858 |   219 |      2722 |   6.83 |
+| [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   294 |    74 |      1422 |    5.2 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   252 |    33 |       916 |    3.6 |
+| [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |   225 |    49 |       384 |  12.76 |
+|                                                    |            |   883 |   222 |      2722 |   6.89 |
 
 ## <span id="2024-06-07.ruins-in-a-mountain-dead-end">Ruins in a Mountain Dead End</span>
 

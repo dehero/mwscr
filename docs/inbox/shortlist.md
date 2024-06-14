@@ -4,34 +4,7 @@
 
 # Shortlist
 
-`2 items`
-
-## <span id="dehero.2024-02-17-10-40-10">Sleeping Silt Strider</span>
-
-`RU` Спящий Силт Страйдер
-
-![store:/inbox/dehero.2024-02-17-10-40-10.1.png](../../assets/previews/inbox/dehero.2024-02-17-10-40-10.1.avif "dehero.2024-02-17-10-40-10.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2024-02-17-10-40-10.png](../../assets/previews/inbox/dehero.2024-02-17-10-40-10.avif "dehero.2024-02-17-10-40-10")
-![store:/inbox/dehero.2024-02-17-10-39-58.png](../../assets/previews/inbox/dehero.2024-02-17-10-39-58.avif "dehero.2024-02-17-10-39-58")
-![store:/inbox/dehero.2024-02-17-10-39-53.png](../../assets/previews/inbox/dehero.2024-02-17-10-39-53.avif "dehero.2024-02-17-10-39-53")
-![store:/inbox/dehero.2024-02-17-10-39-29.png](../../assets/previews/inbox/dehero.2024-02-17-10-39-29.avif "dehero.2024-02-17-10-39-29")
-![store:/inbox/dehero.2024-02-17-10-38-44.png](../../assets/previews/inbox/dehero.2024-02-17-10-38-44.avif "dehero.2024-02-17-10-38-44")
-![store:/inbox/dehero.2024-02-17-10-38-22.png](../../assets/previews/inbox/dehero.2024-02-17-10-38-22.avif "dehero.2024-02-17-10-38-22")
-![store:/inbox/dehero.2024-02-17-10-38-00.png](../../assets/previews/inbox/dehero.2024-02-17-10-38-00.avif "dehero.2024-02-17-10-38-00")
-![store:/inbox/dehero.2024-02-17-10-39-58.1.png](../../assets/previews/inbox/dehero.2024-02-17-10-39-58.1.avif "dehero.2024-02-17-10-39-58.1")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-17-10-40-10&amp;postContent=store%3A%2Finbox%2Fdehero.2024-02-17-10-40-10.1.png&amp;postTitle=Sleeping+Silt+Strider&amp;postTitleRu=%D0%A1%D0%BF%D1%8F%D1%89%D0%B8%D0%B9+%D0%A1%D0%B8%D0%BB%D1%82+%D0%A1%D1%82%D1%80%D0%B0%D0%B9%D0%B4%D0%B5%D1%80&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=siltstrider+night+stars&amp;postLocation=Ashlands+Region&amp;postMark=A2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-02-17-10-40-10.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-10-39-58.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-10-39-53.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-10-39-29.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-10-38-44.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-10-38-22.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-10-38-00.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-10-39-58.1.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-17-10-40-10) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-17-10-40-10) `A2` `📍 Ashlands Region` `🚀 OpenMW` `siltstrider` `night` `stars`
-
-```
-dehero.2024-02-17-10-40-10
-```
+`1 items`
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
 

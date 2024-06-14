@@ -1973,24 +1973,24 @@
       id: C8ATY5evIhm
       mediaId: '18152738755309488'
       published: 2024-06-09-18-18-38
-      updated: 2024-06-13-18-20-15
+      updated: 2024-06-14-18-20-17
       followers: 1421
-      likes: 89
-      views: 379
+      likes: 91
+      views: 385
     - service: vk
       id: 1576
       published: 2024-06-09-18-18-45
-      updated: 2024-06-13-18-20-16
+      updated: 2024-06-14-18-20-20
       followers: 916
-      likes: 26
-      views: 193
+      likes: 27
+      views: 202
     - service: tg
       id: 434
       published: 2024-06-09-18-18-52
-      updated: 2024-06-13-18-20-15
+      updated: 2024-06-14-18-20-18
       followers: 384
       likes: 52
-      views: 200
+      views: 212
 2024-06-10.utensil:
   title: Utensil
   titleRu: Утварь
@@ -2007,25 +2007,25 @@
       id: C8C4XSlR7Tf
       mediaId: '17990200238508247'
       published: 2024-06-10-18-20-12
-      updated: 2024-06-13-18-20-15
+      updated: 2024-06-14-18-20-17
       followers: 1421
-      likes: 56
-      views: 310
+      likes: 58
+      views: 318
     - service: vk
       id: 1577
       published: 2024-06-10-18-20-20
-      updated: 2024-06-13-18-20-15
+      updated: 2024-06-14-18-20-19
       followers: 916
-      likes: 25
-      views: 178
+      likes: 27
+      views: 193
       reposts: 1
     - service: tg
       id: 435
       published: 2024-06-10-18-20-28
-      updated: 2024-06-13-18-20-14
+      updated: 2024-06-14-18-20-18
       followers: 383
       likes: 50
-      views: 167
+      views: 196
 2024-06-11.emperor-parasols-under-the-rain-of-stars:
   title: Emperor Parasols Under the Rain of Stars
   titleRu: Императорские зонтики под звёздным дождем
@@ -2044,27 +2044,27 @@
       id: C8FdO8RvcLp
       mediaId: '18041245594810091'
       published: 2024-06-11-18-20-52
-      updated: 2024-06-13-18-20-14
+      updated: 2024-06-14-18-20-17
       followers: 1420
-      likes: 74
-      views: 330
+      likes: 81
+      views: 351
       comments: !c |-
         ix2AkZPLQnkAz6gPAACqa2F0bGluY2FzZdkkQGJlZWJlZTE5OTlfICBnaWFudCBzaHJvb20gdHJl
         ZXMg4pi7Aw==
     - service: vk
       id: 1578
       published: 2024-06-11-18-21-03
-      updated: 2024-06-13-18-20-14
+      updated: 2024-06-14-18-20-18
       followers: 916
-      likes: 25
-      views: 161
+      likes: 28
+      views: 186
     - service: tg
       id: 436
       published: 2024-06-11-18-21-09
-      updated: 2024-06-13-18-20-14
+      updated: 2024-06-14-18-20-18
       followers: 384
-      likes: 49
-      views: 148
+      likes: 50
+      views: 169
 2024-06-12.beran-ancestral-tomb:
   title: Beran Ancestral Tomb
   titleRu: Родовая гробница Беранов
@@ -2089,24 +2089,24 @@
       id: C8IB9hKveMP
       mediaId: '18029653523035053'
       published: 2024-06-12-18-20-17
-      updated: 2024-06-14-17-15-05
+      updated: 2024-06-14-18-20-16
       followers: 1419
       likes: 73
       views: 277
     - service: vk
       id: 1579
       published: 2024-06-12-18-20-23
-      updated: 2024-06-14-17-15-06
+      updated: 2024-06-14-18-20-17
       followers: 915
       likes: 26
-      views: 166
+      views: 167
     - service: tg
       id: 437
       published: 2024-06-12-18-20-29
-      updated: 2024-06-14-17-15-06
+      updated: 2024-06-14-18-20-17
       followers: 384
       likes: 48
-      views: 151
+      views: 153
 2024-06-13.propylon:
   title: Propylon
   titleRu: Пропильон
@@ -2123,21 +2123,56 @@
       id: C8KmyYss4M8
       mediaId: '18059395417593270'
       published: 2024-06-13-18-20-32
-      updated: 2024-06-14-17-15-05
+      updated: 2024-06-14-18-20-16
       followers: 1420
       likes: 81
-      views: 357
+      views: 371
     - service: vk
       id: 1580
       published: 2024-06-13-18-20-39
-      updated: 2024-06-14-17-15-05
+      updated: 2024-06-14-18-20-16
       followers: 915
       likes: 30
-      views: 181
+      views: 184
     - service: tg
       id: 438
       published: 2024-06-13-18-20-46
-      updated: 2024-06-14-17-15-06
+      updated: 2024-06-14-18-20-17
       followers: 385
       likes: 48
-      views: 125
+      views: 127
+2024-06-14.sleeping-silt-strider:
+  title: Sleeping Silt Strider
+  titleRu: Спящий Силт Страйдер
+  location: Ashlands Region
+  content: store:/shots/2024-06-14.sleeping-silt-strider.png
+  trash:
+    - store:/trash/dehero.2024-02-17-10-39-58.png
+    - store:/trash/dehero.2024-02-17-10-39-53.png
+    - store:/trash/dehero.2024-02-17-10-39-29.png
+    - store:/trash/dehero.2024-02-17-10-38-44.png
+    - store:/trash/dehero.2024-02-17-10-38-22.png
+    - store:/trash/dehero.2024-02-17-10-38-00.png
+    - store:/trash/dehero.2024-02-17-10-39-58.1.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - siltstrider
+    - night
+    - stars
+  mark: A2
+  posts:
+    - service: ig
+      id: C8NLlsCNat6
+      mediaId: '18039231256898843'
+      published: 2024-06-14-18-20-35
+      followers: 1419
+    - service: vk
+      id: 1581
+      published: 2024-06-14-18-20-42
+      followers: 915
+    - service: tg
+      id: 439
+      published: 2024-06-14-18-20-48
+      followers: 386
