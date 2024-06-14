@@ -14,6 +14,13 @@
   will-change: transform;
 }
 
+.label {
+  color: var(--color-text-light);
+  padding: 4px;
+  margin: 0;
+  text-align: center;
+}
+
 .item {
   padding: 4px;
   outline: none;

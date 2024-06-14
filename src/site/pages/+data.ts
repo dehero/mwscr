@@ -6,10 +6,9 @@ import {
 } from '../../core/entities/post.js';
 import { isPostDraft, isPostRequest } from '../../core/entities/post-variation.js';
 import { createUserInfo } from '../../core/entities/user.js';
-import { inbox, published, trash } from '../../local/data-managers/posts.js';
+import { getPostInfo, inbox, published, trash } from '../../local/data-managers/posts.js';
 import { users } from '../../local/data-managers/users.js';
 import type { HomePageData } from '../components/HomePage/HomePage.jsx';
-import { getPostInfo } from '../utils/data-utils.js';
 
 export async function data(): Promise<HomePageData> {
   const userInfos = await Promise.all(

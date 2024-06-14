@@ -1,4 +1,4 @@
-import { asArray, capitalizeFirstLetter, cleanupUndefinedProps } from '../utils/common-utils.js';
+import { asArray, cleanupUndefinedProps } from '../utils/common-utils.js';
 import { createLocationInfo, type LocationInfo } from './location-info.js';
 import type { LocationsReader } from './locations-reader.js';
 import type {
@@ -36,13 +36,15 @@ export interface PostInfo {
   mark?: PostMark;
   violation?: PostViolation;
   published: boolean;
-  publishableCheck?: string;
+  publishableErrors?: string[];
   commentCount: number;
   likes: number;
   views: number;
   rating: number;
   managerName: string;
 }
+
+export type PostInfoComparator = (a: PostInfo, b: PostInfo) => number;
 
 export async function createPostInfo(
   [id, post, refId]: PostEntry<Post>,
@@ -72,7 +74,7 @@ export async function createPostInfo(
     mark: post.mark,
     violation: post.violation,
     published: Boolean(post.posts),
-    publishableCheck: errors.length > 0 ? capitalizeFirstLetter(errors.join(', ')) : undefined,
+    publishableErrors: errors.length > 0 ? errors : undefined,
     commentCount: getPostCommentCount(post),
     likes: getPostTotalLikes(post),
     views: getPostTotalViews(post),
@@ -81,11 +83,11 @@ export async function createPostInfo(
   });
 }
 
-export function comparePostInfosById(direction: 'asc' | 'desc'): (a: PostInfo, b: PostInfo) => number {
+export function comparePostInfosById(direction: 'asc' | 'desc'): PostInfoComparator {
   return direction === 'asc' ? (a, b) => a.id.localeCompare(b.id) : (a, b) => b.id.localeCompare(a.id);
 }
 
-export function comparePostInfosByCommentCount(direction: 'asc' | 'desc'): (a: PostInfo, b: PostInfo) => number {
+export function comparePostInfosByCommentCount(direction: 'asc' | 'desc'): PostInfoComparator {
   const byId = comparePostInfosById(direction);
 
   return direction === 'asc'
@@ -93,7 +95,7 @@ export function comparePostInfosByCommentCount(direction: 'asc' | 'desc'): (a: P
     : (a, b) => b.commentCount - a.commentCount || byId(a, b);
 }
 
-export function comparePostInfosByRating(direction: 'asc' | 'desc'): (a: PostInfo, b: PostInfo) => number {
+export function comparePostInfosByRating(direction: 'asc' | 'desc'): PostInfoComparator {
   const byId = comparePostInfosById(direction);
 
   return direction === 'asc'
@@ -101,19 +103,19 @@ export function comparePostInfosByRating(direction: 'asc' | 'desc'): (a: PostInf
     : (a, b) => b.rating - a.rating || byId(a, b);
 }
 
-export function comparePostInfosByLikes(direction: 'asc' | 'desc'): (a: PostInfo, b: PostInfo) => number {
+export function comparePostInfosByLikes(direction: 'asc' | 'desc'): PostInfoComparator {
   const byId = comparePostInfosById(direction);
 
   return direction === 'asc' ? (a, b) => a.likes - b.likes || byId(a, b) : (a, b) => b.likes - a.likes || byId(a, b);
 }
 
-export function comparePostInfosByViews(direction: 'asc' | 'desc'): (a: PostInfo, b: PostInfo) => number {
+export function comparePostInfosByViews(direction: 'asc' | 'desc'): PostInfoComparator {
   const byId = comparePostInfosById(direction);
 
   return direction === 'asc' ? (a, b) => a.views - b.views || byId(a, b) : (a, b) => b.views - a.views || byId(a, b);
 }
 
-export function comparePostInfosByMark(direction: 'asc' | 'desc'): (a: PostInfo, b: PostInfo) => number {
+export function comparePostInfosByMark(direction: 'asc' | 'desc'): PostInfoComparator {
   const byRating = comparePostInfosByRating(direction);
 
   return direction === 'asc'

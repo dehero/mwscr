@@ -1,4 +1,4 @@
-import { type Component, For } from 'solid-js';
+import { type Component, For, Show } from 'solid-js';
 import { clientOnly } from 'vike-solid/ClientOnly';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { PostPreview } from '../PostPreview/PostPreview.js';
@@ -7,6 +7,7 @@ import styles from './PostPreviews.module.css';
 const VirtualScrollContainer = clientOnly(() => import('./ClientVirtualScrollContainer.js'));
 
 export interface PostPreviewsProps {
+  label?: string;
   postInfos: PostInfo[];
 }
 
@@ -16,9 +17,15 @@ export const PostPreviews: Component<PostPreviewsProps> = (props) => {
     <VirtualScrollContainer
       fallback={
         <div class={styles.container}>
-          <For each={lastPostInfos()}>{(postInfo) => <PostPreview postInfo={postInfo} class={styles.item} />}</For>
+          <Show when={props.label}>
+            <p class={styles.label}>{props.label}</p>
+          </Show>
+          <div class={styles.items}>
+            <For each={lastPostInfos()}>{(postInfo) => <PostPreview postInfo={postInfo} class={styles.item} />}</For>
+          </div>
         </div>
       }
+      label={props.label}
       postInfos={props.postInfos}
     />
   );

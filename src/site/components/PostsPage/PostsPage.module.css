@@ -6,22 +6,6 @@
   padding: 6px 8px;
 }
 
-.nav {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: baseline;
-  gap: 4px;
-}
-
-.filters {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  gap: 16px;
-  padding: 6px 8px;
-  flex-shrink: 0;
-}
-
 .fieldset {
   display: flex;
   flex-flow: row nowrap;
@@ -30,4 +14,51 @@
   padding: 0;
   margin: 0;
   border: none;
+}
+
+.collapsedOptions {
+  color: var(--color-text-light);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  /* grid-template-rows: auto 1fr; */
+  /* grid-template-areas: 'parameters info' 'parameters posts'; */
+  grid-template-areas: 'parameters posts';
+  gap: 8px;
+  padding: 0 8px 8px 8px;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.parameters {
+  grid-area: parameters;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: flex-start;
+  gap: 12px;
+  padding: 12px;
+  flex-shrink: 0;
+  overflow: hidden auto;
+}
+
+.presets {
+  grid-area: presets;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 8px;
+}
+
+.posts {
+  grid-area: posts;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  overflow-y: auto;
+}
+
+.select {
+  align-self: baseline;
+  max-width: 100%;
 }
