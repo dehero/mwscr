@@ -12,7 +12,7 @@ Roles: `admin` `author` `requester`
 Authored: 975 published, 17 pending, 62 rejected  
 Requested: 6 pending  
 Types: `shot` `shot-set` `video` `clip` `drawing`  
-Likes: 134056  
+Likes: 134070  
 
 ```
 dehero
@@ -23,7 +23,7 @@ dehero
 Roles: `author`  
 Authored: 32 published, 28 pending, 7 rejected  
 Types: `shot`  
-Likes: 6236  
+Likes: 6237  
 
 ```
 natty
