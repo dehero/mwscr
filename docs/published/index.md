@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   351 |    79 |      1420 |   5.56 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   180 |    29 |       915 |   3.17 |
+| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   357 |    81 |      1420 |    5.7 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   181 |    30 |       915 |   3.28 |
 | [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   125 |    48 |       385 |  12.47 |
-|                                                    |            |   656 |   156 |      2720 |   7.07 |
+|                                                    |            |   663 |   159 |      2720 |   7.15 |
 
 ## <span id="2024-06-12.beran-ancestral-tomb">Beran Ancestral Tomb</span>
 
@@ -65,9 +65,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   277 |    73 |      1419 |   5.14 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   164 |    25 |       915 |   2.73 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   166 |    26 |       915 |   2.84 |
 | [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   151 |    48 |       384 |   12.5 |
-|                                                    |            |   592 |   146 |      2718 |   6.79 |
+|                                                    |            |   594 |   147 |      2718 |   6.83 |
 
 ## <span id="2024-06-11.emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
 
