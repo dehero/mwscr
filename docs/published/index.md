@@ -36,10 +36,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |   160 |    59 |      1419 |   4.16 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |   112 |    26 |       915 |   2.84 |
-| [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |   106 |    42 |       386 |  10.88 |
-|                                                    |            |   378 |   127 |      2720 |   5.96 |
+| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |   166 |    61 |      1419 |    4.3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |   122 |    26 |       915 |   2.84 |
+| [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |   108 |    42 |       386 |  10.88 |
+|                                                    |            |   396 |   129 |      2720 |   6.01 |
 
 #### Comments
 
@@ -47,6 +47,7 @@
 - `ig` <ins title="2024-06-14-20-01-41">markbcg</ins> Not sleeping. 😢
 - `tg` <ins title="2024-06-14-23-36-12">Ivan</ins> Sleeping? I always thought they were dead.
 - `tg` <ins title="2024-06-15-01-00-54">.</ins> Ну он и соня
+- `tg` <ins title="2024-06-15-07-31-34">mongleri</ins> any proof for that she is sleeping?
 
 ## <span id="2024-06-13.propylon">Propylon</span>
 
@@ -72,10 +73,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   403 |    87 |      1420 |   6.13 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   197 |    30 |       915 |   3.28 |
-| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   157 |    48 |       385 |  12.47 |
-|                                                    |            |   757 |   165 |      2720 |   7.29 |
+| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   404 |    88 |      1420 |    6.2 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   198 |    30 |       915 |   3.28 |
+| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   158 |    48 |       385 |  12.47 |
+|                                                    |            |   760 |   166 |      2720 |   7.31 |
 
 ## <span id="2024-06-12.beran-ancestral-tomb">Beran Ancestral Tomb</span>
 
