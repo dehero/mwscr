@@ -718,7 +718,7 @@
       id: C5G5RZDukt4
       mediaId: '18247634146217121'
       published: 2024-03-29-18-10-54
-      updated: 2024-06-07-23-15-54
+      updated: 2024-06-15-01-06-06
       followers: 1401
       likes: 103
       views: 471
@@ -726,10 +726,10 @@
     - service: vk
       id: 1473
       published: 2024-03-29-18-11-02
-      updated: 2024-06-07-23-15-55
+      updated: 2024-06-15-01-06-05
       followers: 906
       likes: 33
-      views: 432
+      views: 433
       reposts: 3
       comments: !c |-
         G5oAQJwJtq2E85rgmcFiHo0e+htF+CdOmir0wMJAmxM64pN9eJDTkfAeiVKXpmTs15PVrIpq+k8g
@@ -738,7 +738,7 @@
     - service: tg
       id: 361
       published: 2024-03-29-18-11-09
-      updated: 2024-06-07-23-15-53
+      updated: 2024-06-15-01-06-05
       followers: 354
       likes: 54
       views: 419
@@ -1160,7 +1160,7 @@
       id: C58-rKfNvb5
       mediaId: '18004564085596450'
       published: 2024-04-19-18-17-06
-      updated: 2024-06-07-23-15-54
+      updated: 2024-06-15-01-06-05
       followers: 1414
       likes: 108
       views: 427
@@ -1170,7 +1170,7 @@
     - service: vk
       id: 1501
       published: 2024-04-19-18-17-12
-      updated: 2024-06-07-23-15-54
+      updated: 2024-06-15-01-06-04
       followers: 909
       likes: 37
       views: 275
@@ -1178,10 +1178,10 @@
     - service: tg
       id: 383
       published: 2024-04-19-18-17-19
-      updated: 2024-06-07-23-15-53
+      updated: 2024-06-15-01-06-05
       followers: 354
       likes: 63
-      views: 387
+      views: 393
 2024-04-20.fallen-sanctuary:
   title: Fallen Sanctuary
   titleRu: Павшее святилище
@@ -1204,7 +1204,7 @@
       id: C5_jjRLxIhb
       mediaId: '18015630896263097'
       published: 2024-04-20-18-17-49
-      updated: 2024-06-07-23-15-53
+      updated: 2024-06-15-01-06-05
       followers: 1414
       likes: 145
       views: 572
@@ -1331,7 +1331,7 @@
     - service: vk
       id: 1510
       published: 2024-04-26-18-17-39
-      updated: 2024-06-07-23-15-53
+      updated: 2024-06-15-01-06-04
       followers: 910
       likes: 28
       views: 248
@@ -1339,10 +1339,10 @@
     - service: tg
       id: 390
       published: 2024-04-26-18-17-46
-      updated: 2024-06-07-23-15-53
+      updated: 2024-06-15-01-06-04
       followers: 354
       likes: 60
-      views: 418
+      views: 426
 2024-04-27.sunset-over-the-lava-river: 2018-05-03.sunset-over-the-lava-river
 2024-04-28.ebonheart-towers: 2016-12-22.ebonheart-towers
 2024-04-29.all-paths-lead-left:
@@ -2123,24 +2123,24 @@
       id: C8KmyYss4M8
       mediaId: '18059395417593270'
       published: 2024-06-13-18-20-32
-      updated: 2024-06-14-23-14-26
+      updated: 2024-06-15-01-06-03
       followers: 1420
-      likes: 82
-      views: 387
+      likes: 84
+      views: 392
     - service: vk
       id: 1580
       published: 2024-06-13-18-20-39
-      updated: 2024-06-14-23-14-26
+      updated: 2024-06-15-01-06-03
       followers: 915
       likes: 30
-      views: 189
+      views: 191
     - service: tg
       id: 438
       published: 2024-06-13-18-20-46
-      updated: 2024-06-14-23-14-26
+      updated: 2024-06-15-01-06-03
       followers: 385
       likes: 48
-      views: 148
+      views: 150
 2024-06-14.sleeping-silt-strider:
   title: Sleeping Silt Strider
   titleRu: Спящий Силт Страйдер
@@ -2167,23 +2167,26 @@
       id: C8NLlsCNat6
       mediaId: '18039231256898843'
       published: 2024-06-14-18-20-35
-      updated: 2024-06-14-23-14-25
+      updated: 2024-06-15-01-06-02
       followers: 1419
-      likes: 43
-      views: 100
+      likes: 49
+      views: 118
       comments: !c ixKAkZPLQnkBhXbIgACnbWFya2JjZ7JOb3Qgc2xlZXBpbmcuIPCfmKID
     - service: vk
       id: 1581
       published: 2024-06-14-18-20-42
-      updated: 2024-06-14-23-14-25
+      updated: 2024-06-15-01-06-02
       followers: 915
-      likes: 19
-      views: 81
+      likes: 20
+      views: 84
     - service: tg
       id: 439
       published: 2024-06-14-18-20-48
-      updated: 2024-06-14-23-14-25
+      updated: 2024-06-15-01-06-03
       followers: 386
-      likes: 38
-      views: 87
-      comments: !c iw2AkZPLQnkBgD9VgACrVmVicmFuZGVub0uk8J+YrQM=
+      likes: 39
+      views: 95
+      comments: !c |-
+        CzyAk5PLQnkBlpXXAAChLrXQndGDINC+0L0g0Lgg0YHQvtC90Y+Ty0J5AZG9HgAApEl2YW7ZKlNs
+        ZWVwaW5nPyBJIGFsd2F5cyB0aG91Z2h0IHRoZXkgd2VyZSBkZWFkLpPLQnkBgD9VgACrVmVicmFu
+        ZGVub0uk8J+YrQM=
