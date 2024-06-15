@@ -4,7 +4,40 @@
 
 # Published in 2024
 
-`109 items`
+`110 items`
+
+## <span id="2024-06-15.waterfall-camp">Waterfall Camp</span>
+
+`RU` Лагерь у водопада
+
+<a href="https://instagram.com/p/BQt-jKGjtaW/" title="2017-02-20.waterfall-camp"><img alt="store:/shots/2017-02-20.waterfall-camp.png" src="../../assets/previews/shots/2017-02-20.waterfall-camp.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-15.waterfall-camp)</code> `🚀 OpenMW` `nofilter` `waterfall` `camp` `campfire`
+
+```
+2024-06-15.waterfall-camp
+```
+
+> `2017-02-20.waterfall-camp`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BQt-jKGjtaW/)       | 2017-02-20 |       |    32 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_161)  | 2017-02-20 |   226 |    20 |        38 |     20 |
+| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |       |       |      1420 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |       |       |       916 |        |
+| [`tg`](https://t.me/mwscr/440)                     | 2024-06-15 |       |       |       386 |        |
+|                                                    |            |   226 |    52 |      2722 |        |
+
+#### Comments
+
+- `vk` <ins title="2017-02-20-04-30-55">id227500203</ins> Атмосфера, с освещением всё-таки поработали?)
+- `vk` <ins title="2017-02-20-04-39-46">dehero</ins> Алексей, просто удачное время суток 😊
+- `vk` <ins title="2017-02-20-09-12-33">id227500203</ins> Антон, поверю на слово)
 
 ## <span id="2024-06-14.sleeping-silt-strider">Sleeping Silt Strider</span>
 
@@ -36,10 +69,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |   206 |    73 |      1419 |   5.14 |
+| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |   224 |    75 |      1419 |   5.29 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |   155 |    30 |       915 |   3.28 |
 | [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |   123 |    45 |       386 |  11.66 |
-|                                                    |            |   484 |   148 |      2720 |   6.69 |
+|                                                    |            |   502 |   150 |      2720 |   6.74 |
 
 #### Comments
 
@@ -73,10 +106,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   407 |    88 |      1420 |    6.2 |
+| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   410 |    88 |      1420 |    6.2 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   206 |    30 |       915 |   3.28 |
 | [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   166 |    48 |       385 |  12.47 |
-|                                                    |            |   779 |   166 |      2720 |   7.31 |
+|                                                    |            |   782 |   166 |      2720 |   7.31 |
 
 ## <span id="2024-06-12.beran-ancestral-tomb">Beran Ancestral Tomb</span>
 
