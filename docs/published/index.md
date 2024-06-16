@@ -4,7 +4,40 @@
 
 # Published in 2024
 
-`110 items`
+`111 items`
+
+## <span id="2024-06-16.exploring-bitter-coast">Exploring Bitter Coast</span>
+
+`RU` На горьком берегу
+
+<a href="https://instagram.com/p/BSGIbOAj8ET/" title="2017-03-26.exploring-bitter-coast"><img alt="store:/shots/2017-03-26.exploring-bitter-coast.png" src="../../assets/previews/shots/2017-03-26.exploring-bitter-coast.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Bitter Coast Region` `🚀 OpenMW` `nofilter`
+
+```
+2024-06-16.exploring-bitter-coast
+```
+
+> `2017-03-26.exploring-bitter-coast`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BSGIbOAj8ET/)       | 2017-03-26 |       |    71 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_231)  | 2017-03-26 |   118 |     7 |        48 |      7 |
+| [`ig`](https://instagram.com/p/C8SVEv1MIXI/)       | 2024-06-16 |       |       |      1419 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1583) | 2024-06-16 |       |       |       918 |        |
+| [`tg`](https://t.me/mwscr/441)                     | 2024-06-16 |       |       |       386 |        |
+|                                                    |            |   118 |    78 |      2723 |        |
+
+#### Comments
+
+- `ig` <ins title="2017-03-26-12-09-49">syntax3rrur</ins> ❤️ your feed. Keep it up!
+- `ig` <ins title="2017-03-26-12-37-18">mwscr</ins> @syntax_pc Thanks for your support!
+- `ig` <ins title="2017-03-26-20-54-49">house.dagoth</ins> Greatest game ever made
 
 ## <span id="2024-06-15.waterfall-camp">Waterfall Camp</span>
 
@@ -28,10 +61,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQt-jKGjtaW/)       | 2017-02-20 |       |    32 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_161)  | 2017-02-20 |   226 |    20 |        38 |     20 |
-| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   299 |    92 |      1420 |   6.48 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |   165 |    30 |       916 |   3.28 |
-| [`tg`](https://t.me/mwscr/440)                     | 2024-06-15 |   109 |    50 |       386 |  12.95 |
-|                                                    |            |   799 |   224 |      2722 |  10.68 |
+| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   305 |    94 |      1420 |   6.62 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |   170 |    31 |       916 |   3.38 |
+| [`tg`](https://t.me/mwscr/440)                     | 2024-06-15 |   110 |    50 |       386 |  12.95 |
+|                                                    |            |   811 |   227 |      2722 |  10.74 |
 
 #### Comments
 
@@ -69,10 +102,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |   323 |    84 |      1419 |   5.92 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |   192 |    33 |       915 |   3.61 |
-| [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |   154 |    50 |       386 |  12.95 |
-|                                                    |            |   669 |   167 |      2720 |   7.49 |
+| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |   325 |    84 |      1419 |   5.92 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |   194 |    33 |       915 |   3.61 |
+| [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |   155 |    50 |       386 |  12.95 |
+|                                                    |            |   674 |   167 |      2720 |   7.49 |
 
 #### Comments
 
@@ -106,10 +139,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   410 |    88 |      1420 |    6.2 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   206 |    30 |       915 |   3.28 |
-| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   166 |    48 |       385 |  12.47 |
-|                                                    |            |   782 |   166 |      2720 |   7.31 |
+| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   433 |    96 |      1420 |   6.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   216 |    31 |       915 |   3.39 |
+| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   179 |    50 |       385 |  12.99 |
+|                                                    |            |   828 |   177 |      2720 |   7.71 |
 
 ## <span id="2024-06-12.beran-ancestral-tomb">Beran Ancestral Tomb</span>
 
