@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSGIbOAj8ET/)       | 2017-03-26 |       |    71 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_231)  | 2017-03-26 |   118 |     7 |        48 |      7 |
-| [`ig`](https://instagram.com/p/C8SVEv1MIXI/)       | 2024-06-16 |   136 |    42 |      1419 |   2.96 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1583) | 2024-06-16 |    80 |    21 |       918 |   2.29 |
-| [`tg`](https://t.me/mwscr/441)                     | 2024-06-16 |    78 |    37 |       386 |   9.59 |
-|                                                    |            |   412 |   178 |      2723 |   5.46 |
+| [`ig`](https://instagram.com/p/C8SVEv1MIXI/)       | 2024-06-16 |   172 |    45 |      1419 |   3.17 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1583) | 2024-06-16 |    85 |    21 |       918 |   2.29 |
+| [`tg`](https://t.me/mwscr/441)                     | 2024-06-16 |    80 |    37 |       386 |   9.59 |
+|                                                    |            |   455 |   181 |      2723 |   5.51 |
 
 #### Comments
 
@@ -61,10 +61,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQt-jKGjtaW/)       | 2017-02-20 |       |    32 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_161)  | 2017-02-20 |   226 |    20 |        38 |     20 |
-| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   322 |    95 |      1420 |   6.69 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |   184 |    31 |       916 |   3.38 |
-| [`tg`](https://t.me/mwscr/440)                     | 2024-06-15 |   127 |    56 |       386 |  14.51 |
-|                                                    |            |   859 |   234 |      2722 |  11.15 |
+| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   325 |    96 |      1420 |   6.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |   186 |    31 |       916 |   3.38 |
+| [`tg`](https://t.me/mwscr/440)                     | 2024-06-15 |   128 |    56 |       386 |  14.51 |
+|                                                    |            |   865 |   235 |      2722 |  11.16 |
 
 #### Comments
 
@@ -74,6 +74,7 @@
 - `tg` <ins title="2024-06-16-19-36-31">Aellaria</ins> А где это?
   - <ins title="2024-06-16-21-00-35">mwscr</ins> Островок севернее Хуула, насколько я помню
 - `ig` <ins title="2024-06-16-20-33-25">delanospies</ins> Location?
+  - <ins title="2024-06-16-21-55-21">delanospies</ins> @mwscr amazing thanks!
   - <ins title="2024-06-16-20-59-15">mwscr</ins> Some island north of Khuul as I can remember
 
 ## <span id="2024-06-14.sleeping-silt-strider">Sleeping Silt Strider</span>

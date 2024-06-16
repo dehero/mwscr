@@ -1668,28 +1668,29 @@
       id: C8PwRZSSUsF
       mediaId: '17893803972018495'
       published: 2024-06-15-18-19-37
-      updated: 2024-06-16-21-15-37
+      updated: 2024-06-16-22-14-55
       followers: 1420
-      likes: 95
-      views: 322
+      likes: 96
+      views: 325
       comments: !c |-
-        Cy+AkZTLQnkCLBMggACrZGVsYW5vc3BpZXOpTG9jYXRpb24/k8tCeQItjYuAAKVtd3NjctksU29t
-        ZSBpc2xhbmQgbm9ydGggb2YgS2h1dWwgYXMgSSBjYW4gcmVtZW1iZXID
+        G4sAaOTi1FxAA/LxCbYsF0uAxtgUH7uA3V6QYoHqlBONOdMwSzggbMeDQ26RFB8CTXtvl5/QogQG
+        PfI2zECN4jxxzfzJDXsEhPnK88OFda5noIZq50Y21DPug5wGX9U/ocThhZG2iEtyyjIANQcRdDUC
+        CA==
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-06-16-21-15-36
+      updated: 2024-06-16-22-14-55
       followers: 916
       likes: 31
-      views: 184
+      views: 186
       reposts: 1
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-06-16-21-15-38
+      updated: 2024-06-16-22-14-55
       followers: 386
       likes: 56
-      views: 127
+      views: 128
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -2740,24 +2741,24 @@
       id: C8SVEv1MIXI
       mediaId: '17891639763037907'
       published: 2024-06-16-18-19-42
-      updated: 2024-06-16-21-15-36
+      updated: 2024-06-16-22-14-54
       followers: 1419
-      likes: 42
-      views: 136
+      likes: 45
+      views: 172
     - service: vk
       id: 1583
       published: 2024-06-16-18-19-48
-      updated: 2024-06-16-21-15-36
+      updated: 2024-06-16-22-14-54
       followers: 918
       likes: 21
-      views: 80
+      views: 85
     - service: tg
       id: 441
       published: 2024-06-16-18-19-56
-      updated: 2024-06-16-21-15-37
+      updated: 2024-06-16-22-14-54
       followers: 386
       likes: 37
-      views: 78
+      views: 80
 2017-03-27.on-the-edge-of-a-dead-forest:
   title: On the Edge of a Dead Forest
   titleRu: На краю мёртвого леса
