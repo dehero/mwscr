@@ -2123,24 +2123,24 @@
       id: C8KmyYss4M8
       mediaId: '18059395417593270'
       published: 2024-06-13-18-20-32
-      updated: 2024-06-16-18-19-29
+      updated: 2024-06-17-18-19-39
       followers: 1420
-      likes: 96
-      views: 433
+      likes: 97
+      views: 445
     - service: vk
       id: 1580
       published: 2024-06-13-18-20-39
-      updated: 2024-06-16-18-19-29
+      updated: 2024-06-17-18-19-39
       followers: 915
-      likes: 31
-      views: 216
+      likes: 33
+      views: 229
     - service: tg
       id: 438
       published: 2024-06-13-18-20-46
-      updated: 2024-06-16-18-19-29
+      updated: 2024-06-17-18-19-38
       followers: 385
-      likes: 50
-      views: 179
+      likes: 52
+      views: 205
 2024-06-14.sleeping-silt-strider:
   title: Sleeping Silt Strider
   titleRu: Спящий Силт Страйдер
@@ -2167,28 +2167,33 @@
       id: C8NLlsCNat6
       mediaId: '18039231256898843'
       published: 2024-06-14-18-20-35
-      updated: 2024-06-16-18-19-29
+      updated: 2024-06-17-18-19-39
       followers: 1419
-      likes: 84
-      views: 325
+      likes: 92
+      views: 354
       comments: !c ixKAkZPLQnkBhXbIgACnbWFya2JjZ7JOb3Qgc2xlZXBpbmcuIPCfmKID
     - service: vk
       id: 1581
       published: 2024-06-14-18-20-42
-      updated: 2024-06-16-18-19-28
+      updated: 2024-06-17-18-19-38
       followers: 915
-      likes: 33
-      views: 194
+      likes: 34
+      views: 213
+      comments: !c |-
+        CyGAkZPLQnkCafcfAACtY2x1YjEyODU3NDk4N9ko0KHQutC+0YDQtdC1LCDQv9GA0L7RgdGC0L4g
+        0LTQvtGF0LvRi9C5KQM=
     - service: tg
       id: 439
       published: 2024-06-14-18-20-48
-      updated: 2024-06-16-18-19-28
+      updated: 2024-06-17-18-19-38
       followers: 386
-      likes: 50
-      views: 155
+      likes: 55
+      views: 176
       comments: !c |-
-        G7AAIGT+z/VH0pagZXvD8rwOuh1QtGVgJNA13ZvYdHKigfFba16UZmF5QJJResNnx6ns04LCod16
-        iGVo61cAWMaTiWDMyYQ9wkiU0bstkLeRDTloODvpynAiyFGp2/nHiN1LA8qA+p7QX9WwX82JGnd4
-        TaWCkfBIhe6o1HORKNIkEFsYGW+X01yw0R0zYyQeKWjy1B/0dw==
+        G9cAAIzEdGOPPIh6Imo0/+f6G0FbgpbtDcujLotuBxRtGRgJdHR0b2LTyZHe9CaXb+fAAw008dK5
+        lUpo+cDYqJAIDaNGNzdDybbiO8TniJLIth4Gg6/UgE5xE4BdJpf1024xEZGmGtjhFti3pRS4WMKt
+        rk5kfb5p/2H2MgzBOlMr2cWrP4EAgu59FjQa/mvOrQlBujDujn0Lil8bi7of5FjJMbMRpbJJsDaj
+        2mbBIrY1MvkW8nqBo+GOX9wPF0zKxNPJGQ==
 2024-06-15.waterfall-camp: 2017-02-20.waterfall-camp
 2024-06-16.exploring-bitter-coast: 2017-03-26.exploring-bitter-coast
+2024-06-17.28-29-30-ready-or-not-here-i-come: 2017-01-07.28-29-30-ready-or-not-here-i-come

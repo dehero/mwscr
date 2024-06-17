@@ -201,6 +201,19 @@
       followers: 4
       likes: 4
       views: 95
+    - service: ig
+      id: C8U54_gyDzI
+      mediaId: '17975345048713350'
+      published: 2024-06-17-18-19-52
+      followers: 1419
+    - service: vk
+      id: 1585
+      published: 2024-06-17-18-19-59
+      followers: 918
+    - service: tg
+      id: 442
+      published: 2024-06-17-18-20-05
+      followers: 385
 2017-01-08.dirty-muriels-cornerclub-and-tel-naga:
   title: Dirty Muriel's Cornerclub and Tel Naga
   titleRu: Трактир Грязной Мюриэль и Тель Нага
@@ -1668,10 +1681,10 @@
       id: C8PwRZSSUsF
       mediaId: '17893803972018495'
       published: 2024-06-15-18-19-37
-      updated: 2024-06-17-17-14-12
+      updated: 2024-06-17-18-19-38
       followers: 1420
       likes: 110
-      views: 386
+      views: 389
       comments: !c |-
         G4sAaOTi1FxAA/LxCbYsF0uAxtgUH7uA3V6QYoHqlBONOdMwSzggbMeDQ26RFB8CTXtvl5/QogQG
         PfI2zECN4jxxzfzJDXsEhPnK88OFda5noIZq50Y21DPug5wGX9U/ocThhZG2iEtyyjIANQcRdDUC
@@ -1679,15 +1692,15 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-06-17-17-14-11
+      updated: 2024-06-17-18-19-37
       followers: 916
-      likes: 32
-      views: 237
+      likes: 33
+      views: 241
       reposts: 2
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-06-17-17-14-13
+      updated: 2024-06-17-18-19-37
       followers: 386
       likes: 59
       views: 147
@@ -2741,25 +2754,25 @@
       id: C8SVEv1MIXI
       mediaId: '17891639763037907'
       published: 2024-06-16-18-19-42
-      updated: 2024-06-17-17-14-11
+      updated: 2024-06-17-18-19-37
       followers: 1419
-      likes: 66
-      views: 343
+      likes: 67
+      views: 352
       comments: !c CwyAkZPLQnkCao67gACoem9yYW4uaHOk8J+luQM=
     - service: vk
       id: 1583
       published: 2024-06-16-18-19-48
-      updated: 2024-06-17-17-14-10
+      updated: 2024-06-17-18-19-36
       followers: 918
       likes: 31
-      views: 170
+      views: 172
     - service: tg
       id: 441
       published: 2024-06-16-18-19-56
-      updated: 2024-06-17-17-14-11
+      updated: 2024-06-17-18-19-36
       followers: 386
-      likes: 44
-      views: 112
+      likes: 45
+      views: 113
 2017-03-27.on-the-edge-of-a-dead-forest:
   title: On the Edge of a Dead Forest
   titleRu: На краю мёртвого леса

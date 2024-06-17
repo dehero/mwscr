@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`111 items`
+`112 items`
+
+## <span id="2024-06-17.28-29-30-ready-or-not-here-i-come">...28, 29, 30. Ready or Not, Here I Come!</span>
+
+`RU` ...28, 29, 30. Кто не спрятался, я не виноват!
+
+<a href="https://instagram.com/p/BO9ApuClPs8/" title="2017-01-07.28-29-30-ready-or-not-here-i-come"><img alt="store:/shots/2017-01-07.28-29-30-ready-or-not-here-i-come.png" src="../../assets/previews/shots/2017-01-07.28-29-30-ready-or-not-here-i-come.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-17.28-29-30-ready-or-not-here-i-come)</code> `🚀 OpenMW` `nofilter`
+
+```
+2024-06-17.28-29-30-ready-or-not-here-i-come
+```
+
+> `2017-01-07.28-29-30-ready-or-not-here-i-come`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BO9ApuClPs8/)       | 2017-01-07 |       |    29 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_55)   | 2017-01-22 |    95 |     4 |         4 |      4 |
+| [`ig`](https://instagram.com/p/C8U54_gyDzI/)       | 2024-06-17 |       |       |      1419 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1585) | 2024-06-17 |       |       |       918 |        |
+| [`tg`](https://t.me/mwscr/442)                     | 2024-06-17 |       |       |       385 |        |
+|                                                    |            |    95 |    33 |      2722 |        |
 
 ## <span id="2024-06-16.exploring-bitter-coast">Exploring Bitter Coast</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSGIbOAj8ET/)       | 2017-03-26 |       |    71 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_231)  | 2017-03-26 |   118 |     7 |        48 |      7 |
-| [`ig`](https://instagram.com/p/C8SVEv1MIXI/)       | 2024-06-16 |   343 |    66 |      1419 |   4.65 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1583) | 2024-06-16 |   170 |    31 |       918 |   3.38 |
-| [`tg`](https://t.me/mwscr/441)                     | 2024-06-16 |   112 |    44 |       386 |   11.4 |
-|                                                    |            |   743 |   219 |      2723 |   6.61 |
+| [`ig`](https://instagram.com/p/C8SVEv1MIXI/)       | 2024-06-16 |   352 |    67 |      1419 |   4.72 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1583) | 2024-06-16 |   172 |    31 |       918 |   3.38 |
+| [`tg`](https://t.me/mwscr/441)                     | 2024-06-16 |   113 |    45 |       386 |  11.66 |
+|                                                    |            |   755 |   221 |      2723 |   6.69 |
 
 #### Comments
 
@@ -62,10 +89,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQt-jKGjtaW/)       | 2017-02-20 |       |    32 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_161)  | 2017-02-20 |   226 |    20 |        38 |     20 |
-| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   386 |   110 |      1420 |   7.75 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |   237 |    32 |       916 |   3.49 |
+| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   389 |   110 |      1420 |   7.75 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |   241 |    33 |       916 |    3.6 |
 | [`tg`](https://t.me/mwscr/440)                     | 2024-06-15 |   147 |    59 |       386 |  15.28 |
-|                                                    |            |   996 |   253 |      2722 |  11.63 |
+|                                                    |            |  1003 |   254 |      2722 |  11.66 |
 
 #### Comments
 
@@ -108,10 +135,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |   325 |    84 |      1419 |   5.92 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |   194 |    33 |       915 |   3.61 |
-| [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |   155 |    50 |       386 |  12.95 |
-|                                                    |            |   674 |   167 |      2720 |   7.49 |
+| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |   354 |    92 |      1419 |   6.48 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |   213 |    34 |       915 |   3.72 |
+| [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |   176 |    55 |       386 |  14.25 |
+|                                                    |            |   743 |   181 |      2720 |   8.15 |
 
 #### Comments
 
@@ -120,6 +147,8 @@
 - `tg` <ins title="2024-06-14-23-36-12">Ivan</ins> Sleeping? I always thought they were dead.
 - `tg` <ins title="2024-06-15-01-00-54">.</ins> Ну он и соня
 - `tg` <ins title="2024-06-15-07-31-34">mongleri</ins> any proof for that she is sleeping?
+  - <ins title="2024-06-16-21-01-59">mwscr</ins> This is the last sleep
+- `vk` <ins title="2024-06-17-14-35-02">club128574987</ins> Скорее, просто дохлый)
 
 ## <span id="2024-06-13.propylon">Propylon</span>
 
@@ -145,10 +174,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   433 |    96 |      1420 |   6.76 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   216 |    31 |       915 |   3.39 |
-| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   179 |    50 |       385 |  12.99 |
-|                                                    |            |   828 |   177 |      2720 |   7.71 |
+| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   445 |    97 |      1420 |   6.83 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   229 |    33 |       915 |   3.61 |
+| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   205 |    52 |       385 |  13.51 |
+|                                                    |            |   879 |   182 |      2720 |   7.98 |
 
 ## <span id="2024-06-12.beran-ancestral-tomb">Beran Ancestral Tomb</span>
 
