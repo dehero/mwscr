@@ -1668,10 +1668,10 @@
       id: C8PwRZSSUsF
       mediaId: '17893803972018495'
       published: 2024-06-15-18-19-37
-      updated: 2024-06-17-04-19-19
+      updated: 2024-06-17-05-18-01
       followers: 1420
-      likes: 102
-      views: 347
+      likes: 104
+      views: 350
       comments: !c |-
         G4sAaOTi1FxAA/LxCbYsF0uAxtgUH7uA3V6QYoHqlBONOdMwSzggbMeDQ26RFB8CTXtvl5/QogQG
         PfI2zECN4jxxzfzJDXsEhPnK88OFda5noIZq50Y21DPug5wGX9U/ocThhZG2iEtyyjIANQcRdDUC
@@ -1679,7 +1679,7 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-06-17-04-19-18
+      updated: 2024-06-17-05-18-01
       followers: 916
       likes: 31
       views: 191
@@ -1687,10 +1687,10 @@
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-06-17-04-19-18
+      updated: 2024-06-17-05-18-01
       followers: 386
       likes: 57
-      views: 134
+      views: 135
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -2741,24 +2741,24 @@
       id: C8SVEv1MIXI
       mediaId: '17891639763037907'
       published: 2024-06-16-18-19-42
-      updated: 2024-06-17-04-19-17
+      updated: 2024-06-17-05-17-59
       followers: 1419
-      likes: 54
-      views: 250
+      likes: 55
+      views: 258
     - service: vk
       id: 1583
       published: 2024-06-16-18-19-48
-      updated: 2024-06-17-04-19-17
+      updated: 2024-06-17-05-18-00
       followers: 918
       likes: 25
-      views: 111
+      views: 118
     - service: tg
       id: 441
       published: 2024-06-16-18-19-56
-      updated: 2024-06-17-04-19-18
+      updated: 2024-06-17-05-18-00
       followers: 386
       likes: 40
-      views: 90
+      views: 92
 2017-03-27.on-the-edge-of-a-dead-forest:
   title: On the Edge of a Dead Forest
   titleRu: На краю мёртвого леса
@@ -3861,7 +3861,7 @@
     - service: vk
       id: 1494
       published: 2024-04-14-20-32-17
-      updated: 2024-06-10-05-15-18
+      updated: 2024-06-17-05-18-02
       followers: 911
       likes: 41
       views: 282
@@ -3869,10 +3869,10 @@
     - service: tg
       id: 378
       published: 2024-04-14-20-32-22
-      updated: 2024-06-10-05-15-18
+      updated: 2024-06-17-05-18-02
       followers: 351
       likes: 63
-      views: 484
+      views: 487
 2017-05-01.altmer-camp:
   title: Altmer Camp
   titleRu: Лагерь альтмеров
