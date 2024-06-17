@@ -1668,10 +1668,10 @@
       id: C8PwRZSSUsF
       mediaId: '17893803972018495'
       published: 2024-06-15-18-19-37
-      updated: 2024-06-17-14-14-29
+      updated: 2024-06-17-15-16-56
       followers: 1420
-      likes: 109
-      views: 376
+      likes: 110
+      views: 383
       comments: !c |-
         G4sAaOTi1FxAA/LxCbYsF0uAxtgUH7uA3V6QYoHqlBONOdMwSzggbMeDQ26RFB8CTXtvl5/QogQG
         PfI2zECN4jxxzfzJDXsEhPnK88OFda5noIZq50Y21DPug5wGX9U/ocThhZG2iEtyyjIANQcRdDUC
@@ -1679,18 +1679,18 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-06-17-14-14-30
+      updated: 2024-06-17-15-16-53
       followers: 916
-      likes: 31
-      views: 218
+      likes: 32
+      views: 227
       reposts: 2
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-06-17-14-14-30
+      updated: 2024-06-17-15-16-54
       followers: 386
       likes: 59
-      views: 143
+      views: 145
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -2741,24 +2741,25 @@
       id: C8SVEv1MIXI
       mediaId: '17891639763037907'
       published: 2024-06-16-18-19-42
-      updated: 2024-06-17-14-14-28
+      updated: 2024-06-17-15-16-53
       followers: 1419
-      likes: 61
-      views: 322
+      likes: 62
+      views: 326
+      comments: !c CwyAkZPLQnkCao67gACoem9yYW4uaHOk8J+luQM=
     - service: vk
       id: 1583
       published: 2024-06-16-18-19-48
-      updated: 2024-06-17-14-14-29
+      updated: 2024-06-17-15-16-52
       followers: 918
       likes: 30
-      views: 164
+      views: 166
     - service: tg
       id: 441
       published: 2024-06-16-18-19-56
-      updated: 2024-06-17-14-14-29
+      updated: 2024-06-17-15-16-54
       followers: 386
       likes: 44
-      views: 107
+      views: 109
 2017-03-27.on-the-edge-of-a-dead-forest:
   title: On the Edge of a Dead Forest
   titleRu: На краю мёртвого леса

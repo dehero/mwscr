@@ -28,16 +28,17 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSGIbOAj8ET/)       | 2017-03-26 |       |    71 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_231)  | 2017-03-26 |   118 |     7 |        48 |      7 |
-| [`ig`](https://instagram.com/p/C8SVEv1MIXI/)       | 2024-06-16 |   322 |    61 |      1419 |    4.3 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1583) | 2024-06-16 |   164 |    30 |       918 |   3.27 |
-| [`tg`](https://t.me/mwscr/441)                     | 2024-06-16 |   107 |    44 |       386 |   11.4 |
-|                                                    |            |   711 |   213 |      2723 |   6.49 |
+| [`ig`](https://instagram.com/p/C8SVEv1MIXI/)       | 2024-06-16 |   326 |    62 |      1419 |   4.37 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1583) | 2024-06-16 |   166 |    30 |       918 |   3.27 |
+| [`tg`](https://t.me/mwscr/441)                     | 2024-06-16 |   109 |    44 |       386 |   11.4 |
+|                                                    |            |   719 |   214 |      2723 |   6.51 |
 
 #### Comments
 
 - `ig` <ins title="2017-03-26-12-09-49">syntax3rrur</ins> ❤️ your feed. Keep it up!
 - `ig` <ins title="2017-03-26-12-37-18">mwscr</ins> @syntax_pc Thanks for your support!
 - `ig` <ins title="2017-03-26-20-54-49">house.dagoth</ins> Greatest game ever made
+- `ig` <ins title="2024-06-17-14-45-23">zoran.hs</ins> 🥹
 
 ## <span id="2024-06-15.waterfall-camp">Waterfall Camp</span>
 
@@ -61,10 +62,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQt-jKGjtaW/)       | 2017-02-20 |       |    32 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_161)  | 2017-02-20 |   226 |    20 |        38 |     20 |
-| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   376 |   109 |      1420 |   7.68 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |   218 |    31 |       916 |   3.38 |
-| [`tg`](https://t.me/mwscr/440)                     | 2024-06-15 |   143 |    59 |       386 |  15.28 |
-|                                                    |            |   963 |   251 |      2722 |  11.59 |
+| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   383 |   110 |      1420 |   7.75 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |   227 |    32 |       916 |   3.49 |
+| [`tg`](https://t.me/mwscr/440)                     | 2024-06-15 |   145 |    59 |       386 |  15.28 |
+|                                                    |            |   981 |   253 |      2722 |  11.63 |
 
 #### Comments
 
