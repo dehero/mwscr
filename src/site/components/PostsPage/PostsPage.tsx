@@ -1,3 +1,5 @@
+import { createMediaQuery } from '@solid-primitives/media';
+import clsx from 'clsx';
 import { type Component, createSignal, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import type { PostMark, PostType, PostViolation } from '../../../core/entities/post.js';
@@ -15,6 +17,7 @@ import { Button } from '../Button/Button.js';
 import { Checkbox } from '../Checkbox/Checkbox.jsx';
 import { Divider } from '../Divider/Divider.jsx';
 import { Frame } from '../Frame/Frame.jsx';
+import frameStyles from '../Frame/Frame.module.css';
 import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
 import { PostPreviews } from '../PostPreviews/PostPreviews.js';
@@ -89,6 +92,11 @@ export interface PostsPageData {
 }
 
 export const PostsPage: Component = () => {
+  let containerRef: HTMLDivElement | undefined;
+  let postsRef: HTMLDivElement | undefined;
+  const containerScrollable = createMediaQuery('(max-width: 811px)');
+  const postsScrollTarget = () => (containerScrollable() ? containerRef : postsRef);
+
   const [searchParams, setSearchParams] = useSearchParams<PostsPageSearchParams>();
 
   const info = useRouteInfo<PostsPageInfo>();
@@ -158,7 +166,7 @@ export const PostsPage: Component = () => {
   const filteredPostInfos = () => selectPostInfos(postInfos, selectParams());
 
   return (
-    <div class={styles.container}>
+    <div class={clsx(frameStyles.thin, styles.container)} ref={containerRef}>
       <Frame variant="thin" component="form" class={styles.parameters}>
         {/* <Label label="Parameters" position="end">
               <Checkbox name="showParameters" value={showParameters()} onChange={setShowParameters} />
@@ -322,8 +330,9 @@ export const PostsPage: Component = () => {
         </Show>
       </Frame>
 
-      <Frame variant="thin" class={styles.posts}>
+      <Frame variant="thin" class={styles.posts} ref={postsRef}>
         <PostPreviews
+          scrollTarget={postsScrollTarget()}
           postInfos={filteredPostInfos()}
           label={selectPostInfosResultToString(filteredPostInfos().length, selectParams())}
         />

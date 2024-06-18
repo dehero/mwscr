@@ -25,19 +25,18 @@ const calculateGridItemSize = (crossAxisSize: number) => {
 };
 
 export const ClientVirtualScrollContainer: Component<PostPreviewsProps> = (props) => {
-  let targetVertical;
+  let containerRef;
 
   return (
-    <div ref={targetVertical} class={styles.container}>
+    <div class={styles.container}>
       <Show when={props.label}>
         <p class={styles.label}>{props.label}</p>
       </Show>
       <VirtualContainer
         items={props.postInfos}
-        scrollTarget={targetVertical}
-        // Calculate how many grid columns to show.
+        scrollTarget={props.scrollTarget || containerRef}
+        // Calculate how many grid columns to show
         crossAxisCount={(measurements) => Math.floor(measurements.container.cross / measurements.itemSize.cross)}
-        // overscan={10}
         itemSize={calculateGridItemSize}
       >
         {(itemProps) => (

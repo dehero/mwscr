@@ -9,6 +9,7 @@ const VirtualScrollContainer = clientOnly(() => import('./ClientVirtualScrollCon
 export interface PostPreviewsProps {
   label?: string;
   postInfos: PostInfo[];
+  scrollTarget?: HTMLElement;
 }
 
 export const PostPreviews: Component<PostPreviewsProps> = (props) => {
@@ -27,6 +28,7 @@ export const PostPreviews: Component<PostPreviewsProps> = (props) => {
       }
       label={props.label}
       postInfos={props.postInfos}
+      scrollTarget={props.scrollTarget}
     />
   );
 };
