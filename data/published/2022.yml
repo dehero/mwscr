@@ -1477,10 +1477,10 @@
     - service: tg
       id: 299
       published: 2022-07-30
-      updated: 2024-06-11-06-20-37
+      updated: 2024-06-18-06-20-50
       followers: 278
       likes: 50
-      views: 1307
+      views: 1308
 2022-07-31.alchemy:
   title: Alchemy
   titleRu: Алхимия
@@ -1526,10 +1526,10 @@
         - 302
         - 303
       published: 2022-07-31
-      updated: 2024-06-11-06-20-37
+      updated: 2024-06-18-06-20-49
       followers: 277
       likes: 56
-      views: 1557
+      views: 1558
 2022-08-01.caravaneers-workplace:
   title: Caravaneer's Workplace
   titleRu: Рабочее место караванщика
@@ -1561,10 +1561,10 @@
     - service: tg
       id: 304
       published: 2022-08-01
-      updated: 2024-06-11-06-20-36
+      updated: 2024-06-18-06-20-49
       followers: 279
       likes: 55
-      views: 1631
+      views: 1632
       comments: !c |-
         G9MAwJwHtvOUgIXxaVq5c5CWz3OuiU0zaG/cF3wclVaAO9AWuef5L8ptrDOnREGYmm196lVmqJMj
         jTXSdsojye78KMAM0x2ya8c/UUSVncLw5E5EK0nNiEO2UZyk6bfH68Swl20JJnyT4z7bytarrWKv
@@ -1600,10 +1600,10 @@
     - service: tg
       id: 305
       published: 2022-08-02
-      updated: 2024-06-11-06-20-36
+      updated: 2024-06-18-06-20-48
       followers: 281
       likes: 68
-      views: 2152
+      views: 2153
       comments: !c |-
         C0SAlJPLQnjqgZW9AACrVmVicmFuZGVub0u60L3QsCDQutCw0YDQsNC9INC/0L7RhdC+0LaTy0J4
         Jobp2AAAqWFuYWtpbmVyc6VncmVhdJPLQngmLFQlgACrcnl1a2VuZGVuXzmu0KjQuNC60LDRgNC9
@@ -1647,10 +1647,10 @@
     - service: tg
       id: 306
       published: 2022-08-03
-      updated: 2024-06-11-06-20-35
+      updated: 2024-06-18-06-20-48
       followers: 281
       likes: 80
-      views: 2191
+      views: 2192
       comments: !c |-
         G5MFACwKbGPp4IFFbsbnZdQldZ5HsrBFFBzmg35Aco9pVdMxItVKo9ADpWtvQAGps8IxcTmsRwqU
         xFLLFPKvIzRtlhGwHYr5zv2BTGQ4m+4dzTKNunC0/QSKEogUyP851wgGvMY9r3q+q14HHx9QtDWf
