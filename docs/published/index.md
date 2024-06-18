@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`112 items`
+`113 items`
+
+## <span id="2024-06-18.near-suran">Near Suran</span>
+
+`RU` У Сурана
+
+<a href="https://instagram.com/p/BYNmZg3jhfJ/" title="2017-08-25.near-suran"><img alt="store:/shots/2017-08-25.near-suran.png" src="../../assets/previews/shots/2017-08-25.near-suran.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Ascadian Isles Region` `🚀 OpenMW`
+
+```
+2024-06-18.near-suran
+```
+
+> `2017-08-25.near-suran`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BYNmZg3jhfJ/)       | 2017-08-25 |       |    51 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_405)  | 2017-08-25 |   116 |     4 |        75 |      4 |
+| [`ig`](https://instagram.com/p/C8XezQrSdW2/)       | 2024-06-18 |       |       |      1419 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1587) | 2024-06-18 |       |       |       917 |        |
+| [`tg`](https://t.me/mwscr/443)                     | 2024-06-18 |       |       |       385 |        |
+|                                                    |            |   116 |    55 |      2721 |        |
 
 ## <span id="2024-06-17.28-29-30-ready-or-not-here-i-come">...28, 29, 30. Ready or Not, Here I Come!</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BO9ApuClPs8/)       | 2017-01-07 |       |    29 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_55)   | 2017-01-22 |    95 |     4 |         4 |      4 |
-| [`ig`](https://instagram.com/p/C8U54_gyDzI/)       | 2024-06-17 |   192 |    60 |      1419 |   4.23 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1585) | 2024-06-17 |   146 |    22 |       918 |    2.4 |
+| [`ig`](https://instagram.com/p/C8U54_gyDzI/)       | 2024-06-17 |   196 |    61 |      1419 |    4.3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1585) | 2024-06-17 |   148 |    22 |       918 |    2.4 |
 | [`tg`](https://t.me/mwscr/442)                     | 2024-06-17 |   126 |    45 |       385 |  11.69 |
-|                                                    |            |   559 |   160 |      2722 |   5.58 |
+|                                                    |            |   565 |   161 |      2722 |    5.6 |
 
 ## <span id="2024-06-16.exploring-bitter-coast">Exploring Bitter Coast</span>
 
@@ -90,10 +117,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQt-jKGjtaW/)       | 2017-02-20 |       |    32 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_161)  | 2017-02-20 |   226 |    20 |        38 |     20 |
-| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   389 |   110 |      1420 |   7.75 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |   241 |    33 |       916 |    3.6 |
-| [`tg`](https://t.me/mwscr/440)                     | 2024-06-15 |   147 |    59 |       386 |  15.28 |
-|                                                    |            |  1003 |   254 |      2722 |  11.66 |
+| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   422 |   116 |      1420 |   8.17 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |   284 |    39 |       916 |   4.26 |
+| [`tg`](https://t.me/mwscr/440)                     | 2024-06-15 |   169 |    63 |       386 |  16.32 |
+|                                                    |            |  1101 |   270 |      2722 |  12.19 |
 
 #### Comments
 
@@ -136,10 +163,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |   354 |    92 |      1419 |   6.48 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |   213 |    34 |       915 |   3.72 |
-| [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |   176 |    55 |       386 |  14.25 |
-|                                                    |            |   743 |   181 |      2720 |   8.15 |
+| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |   371 |    94 |      1419 |   6.62 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |   224 |    34 |       915 |   3.72 |
+| [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |   208 |    57 |       386 |  14.77 |
+|                                                    |            |   803 |   185 |      2720 |   8.37 |
 
 #### Comments
 
@@ -175,10 +202,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   445 |    97 |      1420 |   6.83 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   229 |    33 |       915 |   3.61 |
-| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   205 |    52 |       385 |  13.51 |
-|                                                    |            |   879 |   182 |      2720 |   7.98 |
+| [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   451 |    98 |      1420 |    6.9 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   239 |    33 |       915 |   3.61 |
+| [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   228 |    52 |       385 |  13.51 |
+|                                                    |            |   918 |   183 |      2720 |      8 |
 
 ## <span id="2024-06-12.beran-ancestral-tomb">Beran Ancestral Tomb</span>
 

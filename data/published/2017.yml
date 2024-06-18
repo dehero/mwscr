@@ -205,21 +205,21 @@
       id: C8U54_gyDzI
       mediaId: '17975345048713350'
       published: 2024-06-17-18-19-52
-      updated: 2024-06-18-17-15-20
+      updated: 2024-06-18-18-20-38
       followers: 1419
-      likes: 60
-      views: 192
+      likes: 61
+      views: 196
     - service: vk
       id: 1585
       published: 2024-06-17-18-19-59
-      updated: 2024-06-18-17-15-20
+      updated: 2024-06-18-18-20-38
       followers: 918
       likes: 22
-      views: 146
+      views: 148
     - service: tg
       id: 442
       published: 2024-06-17-18-20-05
-      updated: 2024-06-18-17-15-21
+      updated: 2024-06-18-18-20-39
       followers: 385
       likes: 45
       views: 126
@@ -1690,10 +1690,10 @@
       id: C8PwRZSSUsF
       mediaId: '17893803972018495'
       published: 2024-06-15-18-19-37
-      updated: 2024-06-17-18-19-38
+      updated: 2024-06-18-18-20-40
       followers: 1420
-      likes: 110
-      views: 389
+      likes: 116
+      views: 422
       comments: !c |-
         G4sAaOTi1FxAA/LxCbYsF0uAxtgUH7uA3V6QYoHqlBONOdMwSzggbMeDQ26RFB8CTXtvl5/QogQG
         PfI2zECN4jxxzfzJDXsEhPnK88OFda5noIZq50Y21DPug5wGX9U/ocThhZG2iEtyyjIANQcRdDUC
@@ -1701,18 +1701,18 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-06-17-18-19-37
+      updated: 2024-06-18-18-20-39
       followers: 916
-      likes: 33
-      views: 241
-      reposts: 2
+      likes: 39
+      views: 284
+      reposts: 3
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-06-17-18-19-37
+      updated: 2024-06-18-18-20-39
       followers: 386
-      likes: 59
-      views: 147
+      likes: 63
+      views: 169
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -7103,6 +7103,19 @@
       followers: 75
       likes: 4
       views: 116
+    - service: ig
+      id: C8XezQrSdW2
+      mediaId: '18058634863538330'
+      published: 2024-06-18-18-20-53
+      followers: 1419
+    - service: vk
+      id: 1587
+      published: 2024-06-18-18-20-59
+      followers: 917
+    - service: tg
+      id: 443
+      published: 2024-06-18-18-21-06
+      followers: 385
 2017-08-26.raven-rock:
   title: Raven Rock
   titleRu: Воронья Скала
