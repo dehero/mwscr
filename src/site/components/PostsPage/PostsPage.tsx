@@ -102,8 +102,8 @@ export const PostsPage: Component = () => {
   const info = useRouteInfo<PostsPageInfo>();
 
   const sortOptions = () =>
-    selectPostInfosSortOptions.filter((item) => !info.sortKeys || info.sortKeys.includes(item.value));
-  const presetOptions = () => presets.filter((item) => !info.presetKeys || info.presetKeys.includes(item.value));
+    selectPostInfosSortOptions.filter((item) => !info?.sortKeys || info.sortKeys.includes(item.value));
+  const presetOptions = () => presets.filter((item) => !info?.presetKeys || info.presetKeys.includes(item.value));
 
   const postRequested = () => stringToBool(searchParams.requested);
   const postOriginal = () => stringToBool(searchParams.original);
@@ -188,25 +188,25 @@ export const PostsPage: Component = () => {
         <Show when={showParameters()}>
           <Divider />
 
-          <Show when={!info.filters || info.filters.includes('original')}>
+          <Show when={!info?.filters || info.filters.includes('original')}>
             <Label label="Original" position="end">
               <Checkbox name="original" value={postOriginal()} tristate onChange={setPostOriginal} />
             </Label>
           </Show>
 
-          <Show when={!info.filters || info.filters.includes('publishable')}>
+          <Show when={!info?.filters || info.filters.includes('publishable')}>
             <Label label="Publishable" position="end">
               <Checkbox name="publishable" value={postPublishable()} tristate onChange={setPostPublishable} />
             </Label>
           </Show>
 
-          <Show when={!info.filters || info.filters.includes('requested')}>
+          <Show when={!info?.filters || info.filters.includes('requested')}>
             <Label label="Requested" position="end">
               <Checkbox name="requested" value={postRequested()} tristate onChange={setPostRequested} />
             </Label>
           </Show>
 
-          <Show when={!info.filters || info.filters.includes('type')}>
+          <Show when={!info?.filters || info.filters.includes('type')}>
             <Label label="Type" vertical>
               <RadioGroup
                 name="type"
@@ -243,7 +243,7 @@ export const PostsPage: Component = () => {
             </fieldset>
           </Label>
 
-          <Show when={!info.filters || info.filters.includes('location')}>
+          <Show when={!info?.filters || info.filters.includes('location')}>
             <Label label="Location" vertical>
               <Select
                 name="location"
@@ -255,7 +255,7 @@ export const PostsPage: Component = () => {
             </Label>
           </Show>
 
-          <Show when={!info.filters || info.filters.includes('tag')}>
+          <Show when={!info?.filters || info.filters.includes('tag')}>
             <Label label="Tag" vertical>
               <Select
                 name="tag"
@@ -267,7 +267,7 @@ export const PostsPage: Component = () => {
             </Label>
           </Show>
 
-          <Show when={!info.filters || info.filters.includes('author')}>
+          <Show when={!info?.filters || info.filters.includes('author')}>
             <Label label="Author" vertical>
               <Select
                 name="author"
@@ -279,7 +279,7 @@ export const PostsPage: Component = () => {
             </Label>
           </Show>
 
-          <Show when={!info.filters || info.filters.includes('mark')}>
+          <Show when={!info?.filters || info.filters.includes('mark')}>
             <Label label="Editor's Mark" vertical>
               <Select
                 name="mark"
@@ -291,7 +291,7 @@ export const PostsPage: Component = () => {
             </Label>
           </Show>
 
-          <Show when={!info.filters || info.filters.includes('violation')}>
+          <Show when={!info?.filters || info.filters.includes('violation')}>
             <Label label="Violation" vertical>
               <Select
                 name="violation"

@@ -24,7 +24,7 @@ export const Page: Component<PageProps> = (props) => {
       <Frame variant="thick" component="header" class={styles.header}>
         <h1 class={styles.title}>
           {/* <img src="/icon.png" width={16} height={16} class={styles.icon} /> */}
-          {info.title || 'Morrowind Screenshots'}
+          {info?.title || 'Morrowind Screenshots'}
         </h1>
       </Frame>
 
