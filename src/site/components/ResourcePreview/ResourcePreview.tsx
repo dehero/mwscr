@@ -1,8 +1,8 @@
 import clsx from 'clsx';
 import { type Component, Match, onMount, Show, Switch } from 'solid-js';
-import YellowExclamationMark from '../../../../assets/images/exclamation.svg';
 import type { MediaAspectRatio } from '../../../core/entities/media.js';
 import { parseResourceUrl } from '../../../core/entities/resource.js';
+import YellowExclamationMark from '../../images/exclamation.svg';
 import { Frame } from '../Frame/Frame.js';
 import frameStyles from '../Frame/Frame.module.css';
 import { Tooltip } from '../Tooltip/Tooltip.js';
