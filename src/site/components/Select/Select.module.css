@@ -8,7 +8,7 @@
   outline: none;
   min-height: 20px;
   box-sizing: border-box;
-  background-image: url(../../../../assets/images/select-tick.png);
+  background-image: url(../../images/tick.png);
   background-repeat: no-repeat;
   background-position-x: calc(100% - 4px);
   background-position-y: 4px;

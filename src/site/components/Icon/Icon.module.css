@@ -34,32 +34,32 @@
 
 .stealth {
   background-color: #fdf6ba;
-  background-image: url(../../../../assets/images/icon-stealth.png);
+  background-image: url(../../images/icon-stealth.png);
 }
 
 .health {
   background-color: #c64139;
-  background-image: url(../../../../assets/images/icon-health.png);
+  background-image: url(../../images/icon-health.png);
 }
 
 .attribute {
   background-color: #b766d3;
-  background-image: url(../../../../assets/images/icon-attribute.png);
+  background-image: url(../../images/icon-attribute.png);
 }
 
 .combat {
   background-color: #a7b7e9;
-  background-image: url(../../../../assets/images/icon-combat.png);
+  background-image: url(../../images/icon-combat.png);
 }
 
 .fatigue {
   background-color: #e4fce0;
-  background-image: url(../../../../assets/images/icon-fatigue.png);
+  background-image: url(../../images/icon-fatigue.png);
 }
 
 .magic {
   background-color: #fde3fc;
-  background-image: url(../../../../assets/images/icon-magic.png);
+  background-image: url(../../images/icon-magic.png);
 }
 
 .flat {
