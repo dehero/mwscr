@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'MysticCards';
   src: url(../../../../assets/fonts/MysticCards.ttf) format('truetype');
+  font-display: swap;
 }
 
 :root {
@@ -14,7 +15,7 @@
   --color-background-selected: #2c3461;
   --size-panel-min-width: 250px;
   --size-panel-min-height: 200px;
-  font-family: MysticCards;
+  font-family: MysticCards, serif;
   font-size: 16px;
 }
 

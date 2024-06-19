@@ -1,7 +1,7 @@
 import { type Component } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import { usePageContext } from 'vike-solid/usePageContext';
-import icon from '../../../../assets/icon.png';
+import icon from '../../../../assets/icon.png?format=avif&imagetools';
 import pkg from '../../../../package.json';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import type { UserContribution } from '../../../core/entities/user.js';

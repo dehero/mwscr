@@ -55,8 +55,10 @@ export const HelpPage: Component = () => {
       .sort((a, b) => a[1].title?.localeCompare(b[1].title || '') || a[0].localeCompare(b[0]));
 
   createEffect(() => {
-    if (messageTopicIds().at(-1) !== topicId()) {
-      setMessageTopicIds((ids) => [...ids, topicId()]);
+    const id = topicId();
+
+    if (messageTopicIds().at(-1) !== id) {
+      setMessageTopicIds((ids) => [...ids, id]);
     }
 
     if (messagesRef) {
