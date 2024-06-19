@@ -57,6 +57,7 @@ export const PostPage: Component = () => {
   const contentPublicUrls = () => content().map((url) => store.getPublicUrl(parseResourceUrl(url).pathname));
   const locationButtonTitle = () => data.post?.location || 'Locate';
   const aspectRatio = () => (data.post ? getPostTypeAspectRatio(data.post.type) : '1/1');
+  const alt = () => data.post?.tags?.join(' ');
 
   const selectedContent = () => content()[selectedContentIndex()];
   const selectedContentPublicUrl = () => contentPublicUrls()[selectedContentIndex()];
@@ -168,6 +169,7 @@ export const PostPage: Component = () => {
                         onLoad={handleContentLoad}
                         showTooltip
                         class={styles.selectedContent}
+                        alt={alt() || url()}
                       />
                     }
                   >
@@ -175,7 +177,7 @@ export const PostPage: Component = () => {
                       <iframe
                         width={804}
                         src={youtube.getServicePostUrl(youtubePost()!, true)}
-                        title=""
+                        title={alt() || url()}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen
                         // @ts-expect-error No proper typing
@@ -197,8 +199,14 @@ export const PostPage: Component = () => {
                         onLoad={handleContentLoad}
                         onError={handleContentError}
                         style={{ 'aspect-ratio': aspectRatio() }}
+                        aria-label={alt() || url()}
                       >
-                        <img src={YellowExclamationMark} class={styles.image} ref={fallbackImageRef} />
+                        <img
+                          src={YellowExclamationMark}
+                          class={styles.image}
+                          ref={fallbackImageRef}
+                          alt="yellow exclamation mark"
+                        />
                       </object>
 
                       <div class={styles.downloadButtonWrapper}>
