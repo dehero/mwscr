@@ -1,6 +1,8 @@
 import { type Component } from 'solid-js';
 import { useData } from 'vike-solid/useData';
+import { usePageContext } from 'vike-solid/usePageContext';
 import icon from '../../../../assets/icon.png';
+import pkg from '../../../../package.json';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import type { UserContribution } from '../../../core/entities/user.js';
 import { Divider } from '../Divider/Divider.js';
@@ -25,6 +27,8 @@ export interface HomePageData {
 }
 
 export const HomePage: Component = () => {
+  const buildDate = usePageContext().buildDate;
+
   const {
     totalPosts,
     authorCount,
@@ -70,6 +74,11 @@ export const HomePage: Component = () => {
             <a href="https://github.com/dehero/mwscr" class={styles.link}>
               GitHub
             </a>
+          </p>
+          <p class={styles.version}>
+            v{typeof pkg === 'object' && 'version' in pkg && typeof pkg.version === 'string' ? pkg.version : undefined}
+            {', '}
+            {buildDate.toLocaleDateString('en-GB')}
           </p>
         </Frame>
         <Frame class={styles.statistics}>

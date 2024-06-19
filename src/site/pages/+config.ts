@@ -6,7 +6,7 @@ import { Page } from '../components/Page/Page.js';
 const config: Config = {
   Page: HomePage,
   Layout: Page,
-  passToClient: ['routeInfo'],
+  passToClient: ['routeInfo', 'buildDate'],
   extends: [vikeSolidConfig],
 };
 
