@@ -1690,10 +1690,10 @@
       id: C8PwRZSSUsF
       mediaId: '17893803972018495'
       published: 2024-06-15-18-19-37
-      updated: 2024-06-18-18-20-40
+      updated: 2024-06-19-19-12-51
       followers: 1420
-      likes: 116
-      views: 422
+      likes: 117
+      views: 434
       comments: !c |-
         G4sAaOTi1FxAA/LxCbYsF0uAxtgUH7uA3V6QYoHqlBONOdMwSzggbMeDQ26RFB8CTXtvl5/QogQG
         PfI2zECN4jxxzfzJDXsEhPnK88OFda5noIZq50Y21DPug5wGX9U/ocThhZG2iEtyyjIANQcRdDUC
@@ -1701,18 +1701,18 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-06-18-18-20-39
+      updated: 2024-06-19-19-12-51
       followers: 916
-      likes: 39
-      views: 284
-      reposts: 3
+      likes: 42
+      views: 300
+      reposts: 4
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-06-18-18-20-39
+      updated: 2024-06-19-19-12-52
       followers: 386
-      likes: 63
-      views: 169
+      likes: 65
+      views: 200
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -3259,15 +3259,28 @@
       id: C8aDacDqO5Q
       mediaId: '18049356379705460'
       published: 2024-06-19-18-19-22
+      updated: 2024-06-19-19-12-49
       followers: 1420
+      likes: 15
+      views: 29
     - service: vk
       id: 1588
       published: 2024-06-19-18-19-29
+      updated: 2024-06-19-19-12-49
       followers: 917
+      likes: 10
+      views: 51
+      reposts: 2
+      comments: !c |-
+        CyGAkZPLQnkDG+XnAACmamVybW9y2S/QoNGD0L3QsCDQvdCw0YHRgtC+0Y/RidCw0Y8g0LbQtdC8
+        0YfRg9C20LjQvdCwIQM=
     - service: tg
       id: 444
       published: 2024-06-19-18-19-35
+      updated: 2024-06-19-19-12-51
       followers: 387
+      likes: 24
+      views: 57
 2017-04-10.its-cloudy-in-balmora-with-a-chance-of-rain:
   title: It's Cloudy in Balmora with a Chance of Rain
   titleRu: В Балморе пасмурно, возможны дожди
@@ -7120,25 +7133,25 @@
       id: C8XezQrSdW2
       mediaId: '18058634863538330'
       published: 2024-06-18-18-20-53
-      updated: 2024-06-19-18-19-03
+      updated: 2024-06-19-19-12-50
       followers: 1419
-      likes: 61
-      views: 243
+      likes: 62
+      views: 249
       comments: !c iw6AkZPLQnkCyXcegACpaXN0c2llbGl6qPCfq7bwn4+7Aw==
     - service: vk
       id: 1587
       published: 2024-06-18-18-20-59
-      updated: 2024-06-19-18-19-02
+      updated: 2024-06-19-19-12-50
       followers: 917
       likes: 27
-      views: 136
+      views: 138
     - service: tg
       id: 443
       published: 2024-06-18-18-21-06
-      updated: 2024-06-19-18-19-03
+      updated: 2024-06-19-19-12-51
       followers: 385
-      likes: 42
-      views: 107
+      likes: 45
+      views: 121
 2017-08-26.raven-rock:
   title: Raven Rock
   titleRu: Воронья Скала
