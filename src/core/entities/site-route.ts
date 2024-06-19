@@ -1,5 +1,6 @@
 export interface SiteRouteInfo {
   title: string;
+  description?: string;
   label?: string;
 }
 

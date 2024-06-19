@@ -6,6 +6,7 @@ declare global {
       buildDate: Date;
       routeInfo?: {
         title: string;
+        description?: string;
         label?: string;
       };
     }

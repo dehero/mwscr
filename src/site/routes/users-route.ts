@@ -4,6 +4,7 @@ export const usersRoute: SiteRoute<undefined> = {
   path: '/users',
   info: () => ({
     title: 'Users',
+    description: 'List of users of Morrowind Screenshots project.',
   }),
   createUrl: () => `/users/`,
 };
