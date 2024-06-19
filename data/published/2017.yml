@@ -205,21 +205,21 @@
       id: C8U54_gyDzI
       mediaId: '17975345048713350'
       published: 2024-06-17-18-19-52
-      updated: 2024-06-19-17-15-28
+      updated: 2024-06-19-18-19-03
       followers: 1419
-      likes: 68
+      likes: 69
       views: 224
     - service: vk
       id: 1585
       published: 2024-06-17-18-19-59
-      updated: 2024-06-19-17-15-27
+      updated: 2024-06-19-18-19-02
       followers: 918
       likes: 25
-      views: 173
+      views: 174
     - service: tg
       id: 442
       published: 2024-06-17-18-20-05
-      updated: 2024-06-19-17-15-28
+      updated: 2024-06-19-18-19-03
       followers: 385
       likes: 51
       views: 153
@@ -3255,6 +3255,19 @@
       followers: 51
       likes: 6
       views: 132
+    - service: ig
+      id: C8aDacDqO5Q
+      mediaId: '18049356379705460'
+      published: 2024-06-19-18-19-22
+      followers: 1420
+    - service: vk
+      id: 1588
+      published: 2024-06-19-18-19-29
+      followers: 917
+    - service: tg
+      id: 444
+      published: 2024-06-19-18-19-35
+      followers: 387
 2017-04-10.its-cloudy-in-balmora-with-a-chance-of-rain:
   title: It's Cloudy in Balmora with a Chance of Rain
   titleRu: В Балморе пасмурно, возможны дожди
@@ -7107,22 +7120,22 @@
       id: C8XezQrSdW2
       mediaId: '18058634863538330'
       published: 2024-06-18-18-20-53
-      updated: 2024-06-19-17-15-27
+      updated: 2024-06-19-18-19-03
       followers: 1419
-      likes: 59
-      views: 242
+      likes: 61
+      views: 243
       comments: !c iw6AkZPLQnkCyXcegACpaXN0c2llbGl6qPCfq7bwn4+7Aw==
     - service: vk
       id: 1587
       published: 2024-06-18-18-20-59
-      updated: 2024-06-19-17-15-26
+      updated: 2024-06-19-18-19-02
       followers: 917
       likes: 27
       views: 136
     - service: tg
       id: 443
       published: 2024-06-18-18-21-06
-      updated: 2024-06-19-17-15-27
+      updated: 2024-06-19-18-19-03
       followers: 385
       likes: 42
       views: 107
