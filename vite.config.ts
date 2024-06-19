@@ -1,6 +1,7 @@
 import vike from 'vike/plugin';
 import vikeSolid from 'vike-solid/vite';
 import { defineConfig } from 'vite';
+import { imagetools } from 'vite-imagetools';
 // import { importTopicPlugin } from './src/local/vite-plugins/import-topic-plugin.js';
 // import faviconPlugin from 'vite-plugin-favicons-inject';
 import { importYamlPlugin } from './src/local/vite-plugins/import-yaml-plugin.js';
@@ -10,6 +11,7 @@ export default defineConfig({
   root: 'src/site',
   publicDir: '../../assets',
   plugins: [
+    imagetools(),
     importYamlPlugin(),
     // importTopicPlugin(),
     vike({ prerender: true, trailingSlash: true }),
@@ -35,5 +37,6 @@ export default defineConfig({
     outDir: '../../dist',
     cssCodeSplit: false,
     emptyOutDir: true,
+    minify: true,
   },
 });
