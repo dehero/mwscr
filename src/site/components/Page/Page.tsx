@@ -22,10 +22,7 @@ export const Page: Component<PageProps> = (props) => {
   return (
     <Toaster>
       <Frame variant="thick" component="header" class={styles.header}>
-        <h1 class={styles.title}>
-          {/* <img src="/icon.png" width={16} height={16} class={styles.icon} /> */}
-          {info?.title || 'Morrowind Screenshots'}
-        </h1>
+        <h1 class={styles.title}>{info?.title || 'Morrowind Screenshots'}</h1>
       </Frame>
 
       <nav class={styles.nav}>

@@ -31,6 +31,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
     props.postInfo.requesterEntry ? getUserEntryLetter(props.postInfo.requesterEntry) : undefined;
   const url = () => postRoute.createUrl({ managerName: props.postInfo.managerName, id: props.postInfo.id });
   const aspectRatio = () => getPostTypeAspectRatio(props.postInfo.type);
+  const alt = () => props.postInfo.tags?.join(' ');
 
   const [ref, setRef] = createSignal<HTMLElement>();
 
@@ -54,7 +55,9 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
       >
         <Show
           when={content().length > 2}
-          fallback={<ResourcePreview url={content()[0] || ''} aspectRatio={aspectRatio()} class={styles.image} />}
+          fallback={
+            <ResourcePreview url={content()[0] || ''} aspectRatio={aspectRatio()} class={styles.image} alt={alt()} />
+          }
         >
           <div class={clsx(styles[props.postInfo.type], styles.setContainer)}>
             <For each={content()}>

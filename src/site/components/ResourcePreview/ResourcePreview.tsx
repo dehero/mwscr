@@ -18,6 +18,7 @@ export interface ResourcePreviewProps {
   onLoad?: () => void;
   showTooltip?: boolean;
   aspectRatio?: MediaAspectRatio;
+  alt?: string;
 }
 
 export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
@@ -53,8 +54,14 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
           draggable="false"
           onLoad={props.onLoad}
           style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
+          aria-label={props.alt || props.url}
         >
-          <img src={YellowExclamationMark} class={styles.preview} ref={fallbackImageRef} />
+          <img
+            src={YellowExclamationMark}
+            class={styles.preview}
+            ref={fallbackImageRef}
+            alt="yellow exclamation mark"
+          />
         </object>
 
         <Show when={props.showTooltip}>
