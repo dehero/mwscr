@@ -1,5 +1,5 @@
 import { type Component, For, Show } from 'solid-js';
-import { clientOnly } from 'vike-solid/ClientOnly';
+import { clientOnly } from 'vike-solid/clientOnly';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { PostPreview } from '../PostPreview/PostPreview.js';
 import styles from './PostPreviews.module.css';
