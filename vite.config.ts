@@ -2,32 +2,20 @@ import vike from 'vike/plugin';
 import vikeSolid from 'vike-solid/vite';
 import { defineConfig } from 'vite';
 import { imagetools } from 'vite-imagetools';
-// import { importTopicPlugin } from './src/local/vite-plugins/import-topic-plugin.js';
-// import faviconPlugin from 'vite-plugin-favicons-inject';
+import multiplePublicDirPlugin from 'vite-multiple-assets';
 import { importYamlPlugin } from './src/local/vite-plugins/import-yaml-plugin.js';
 
-// eslint-disable-next-line import/no-default-export
-export default defineConfig({
+export default defineConfig(({ isSsrBuild }) => ({
   root: 'src/site',
-  publicDir: '../../assets',
   plugins: [
     imagetools(),
     importYamlPlugin(),
-    // importTopicPlugin(),
+    // TODO: add sitemap after https://github.com/vikejs/vike/issues/1451 gets resolved
     vike({ prerender: true, trailingSlash: true }),
-    vikeSolid({
-      extensions: ['.mdx', '.md'],
+    vikeSolid(),
+    multiplePublicDirPlugin(['assets', 'src/site/public'], {
+      ssr: isSsrBuild,
     }),
-    //   faviconPlugin('./assets/icon.png', {
-    //     appName: 'Morrowind Screenshots',
-    //     appShortName: 'mwscr',
-    //     appDescription:
-    //       'Original screenshots and videos from The Elder Scrolls III: Morrowind. No third-party mods. No color filters. No interface.',
-    //     developerName: 'dehero',
-    //     developerURL: 'https://github.com/dehero',
-    //     background: '#000',
-    //     theme_color: '#000',
-    //   }),
   ],
   server: {
     port: 3000,
@@ -39,4 +27,4 @@ export default defineConfig({
     emptyOutDir: true,
     minify: true,
   },
-});
+}));
