@@ -66,9 +66,14 @@
   will-change: transform;
 }
 
+.selectWrapper {
+  display: inline-block;
+  max-width: 100%;
+}
+
 .select {
   align-self: baseline;
-  max-width: 100%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 812px) {

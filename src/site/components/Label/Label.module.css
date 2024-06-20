@@ -1,25 +1,24 @@
 .container {
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 4px;
-  align-items: baseline;
+  display: inline-block;
 }
 
 .label {
   color: var(--color-text);
   white-space: nowrap;
+  margin: 0 4px 0 0;
 }
 
 .label.alignEnd {
-  order: 1;
+  margin: 0 0 0 4px;
 }
 
 .vertical {
-  flex-flow: column nowrap;
-  align-items: initial;
+  display: block;
 }
 
 .vertical > .label {
+  display: block;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin: 0 0 4px 0;
 }
