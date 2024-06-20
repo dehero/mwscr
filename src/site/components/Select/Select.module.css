@@ -12,6 +12,7 @@
   background-repeat: no-repeat;
   background-position-x: calc(100% - 4px);
   background-position-y: 4px;
+  image-rendering: pixelated;
 }
 
 .select:focus,
