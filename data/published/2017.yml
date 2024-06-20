@@ -205,24 +205,24 @@
       id: C8U54_gyDzI
       mediaId: '17975345048713350'
       published: 2024-06-17-18-19-52
-      updated: 2024-06-19-18-19-03
+      updated: 2024-06-20-18-20-54
       followers: 1419
-      likes: 69
-      views: 224
+      likes: 76
+      views: 241
     - service: vk
       id: 1585
       published: 2024-06-17-18-19-59
-      updated: 2024-06-19-18-19-02
+      updated: 2024-06-20-18-20-55
       followers: 918
-      likes: 25
-      views: 174
+      likes: 27
+      views: 184
     - service: tg
       id: 442
       published: 2024-06-17-18-20-05
-      updated: 2024-06-19-18-19-03
+      updated: 2024-06-20-18-20-55
       followers: 385
       likes: 51
-      views: 153
+      views: 164
 2017-01-08.dirty-muriels-cornerclub-and-tel-naga:
   title: Dirty Muriel's Cornerclub and Tel Naga
   titleRu: Трактир Грязной Мюриэль и Тель Нага
@@ -2525,6 +2525,19 @@
       followers: 46
       likes: 8
       views: 127
+    - service: ig
+      id: C8coa5yxQAC
+      mediaId: '18052051345662653'
+      published: 2024-06-20-18-21-07
+      followers: 1420
+    - service: vk
+      id: 1592
+      published: 2024-06-20-18-21-13
+      followers: 919
+    - service: tg
+      id: 445
+      published: 2024-06-20-18-21-20
+      followers: 387
 2017-03-19.stairs-in-vansunalit-egg-mine:
   title: Stairs in Vansunalit Egg Mine
   titleRu: Лестница в яичной шахте Вансуналит
@@ -2763,27 +2776,25 @@
       id: C8SVEv1MIXI
       mediaId: '17891639763037907'
       published: 2024-06-16-18-19-42
-      updated: 2024-06-19-17-15-29
+      updated: 2024-06-20-18-20-55
       followers: 1419
       likes: 82
-      views: 437
-      comments: !c |-
-        CyWAkpPLQnkCvNpcAACxYmVkcm9vbXNwYWdoZXR0aWm1TXkgZmF2b3JpdGUgZ2FtZSDwn6W6k8tC
-        eQJqjruAAKh6b3Jhbi5oc6Twn6W5Aw==
+      views: 449
+      comments: !c CwyAkZPLQnkCao67gACoem9yYW4uaHOk8J+luQM=
     - service: vk
       id: 1583
       published: 2024-06-16-18-19-48
-      updated: 2024-06-19-17-15-28
+      updated: 2024-06-20-18-20-56
       followers: 918
-      likes: 37
-      views: 215
+      likes: 39
+      views: 229
     - service: tg
       id: 441
       published: 2024-06-16-18-19-56
-      updated: 2024-06-19-17-15-29
+      updated: 2024-06-20-18-20-55
       followers: 386
-      likes: 52
-      views: 161
+      likes: 53
+      views: 181
 2017-03-27.on-the-edge-of-a-dead-forest:
   title: On the Edge of a Dead Forest
   titleRu: На краю мёртвого леса
@@ -3259,10 +3270,10 @@
       id: C8aDacDqO5Q
       mediaId: '18049356379705460'
       published: 2024-06-19-18-19-22
-      updated: 2024-06-20-17-12-54
+      updated: 2024-06-20-18-20-53
       followers: 1420
       likes: 76
-      views: 257
+      views: 263
       comments: !c |-
         G6sAKI3UTvdRLDR18wmzB82WpYGMNexBG4vaVCRdQIl11YC4Tg7Aj9gl/hZYQGEUYeQRpydr7fXb
         BZJHDQ9V/dAFgWABOGXFFlwv8g0lenFSDoVUcc30ub0XXhIqmKjIXTw36rcuyEXdIhpKgdqPwKXP
@@ -3270,10 +3281,10 @@
     - service: vk
       id: 1588
       published: 2024-06-19-18-19-29
-      updated: 2024-06-20-17-12-54
+      updated: 2024-06-20-18-20-53
       followers: 917
       likes: 34
-      views: 192
+      views: 193
       reposts: 2
       comments: !c |-
         G6gAiJwHto1qPbB46yLlKwFRgLcIl2tCAVfAWYHHk3uBLG9iJTbGKNg+JSlewAT/mqxab0qXVDYK
@@ -3282,7 +3293,7 @@
     - service: tg
       id: 444
       published: 2024-06-19-18-19-35
-      updated: 2024-06-20-17-12-55
+      updated: 2024-06-20-18-20-53
       followers: 387
       likes: 44
       views: 111
@@ -7139,7 +7150,7 @@
       id: C8XezQrSdW2
       mediaId: '18058634863538330'
       published: 2024-06-18-18-20-53
-      updated: 2024-06-20-17-12-56
+      updated: 2024-06-20-18-20-54
       followers: 1419
       likes: 67
       views: 271
@@ -7147,14 +7158,14 @@
     - service: vk
       id: 1587
       published: 2024-06-18-18-20-59
-      updated: 2024-06-20-17-12-55
+      updated: 2024-06-20-18-20-54
       followers: 917
       likes: 30
-      views: 161
+      views: 162
     - service: tg
       id: 443
       published: 2024-06-18-18-21-06
-      updated: 2024-06-20-17-12-55
+      updated: 2024-06-20-18-20-54
       followers: 385
       likes: 48
       views: 138

@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`114 items`
+`115 items`
+
+## <span id="2024-06-20.arrival-in-dagon-fel">Arrival in Dagon Fel</span>
+
+`RU` Прибытие в Дагон Фел
+
+<a href="https://instagram.com/p/BRxjL05jQuG/" title="2017-03-18.arrival-in-dagon-fel"><img alt="store:/shots/2017-03-18.arrival-in-dagon-fel.png" src="../../assets/previews/shots/2017-03-18.arrival-in-dagon-fel.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Dagon Fel` `🚀 OpenMW` `nofilter`
+
+```
+2024-06-20.arrival-in-dagon-fel
+```
+
+> `2017-03-18.arrival-in-dagon-fel`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BRxjL05jQuG/)       | 2017-03-18 |       |    66 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_218)  | 2017-03-18 |   127 |     8 |        46 |      8 |
+| [`ig`](https://instagram.com/p/C8coa5yxQAC/)       | 2024-06-20 |       |       |      1420 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1592) | 2024-06-20 |       |       |       919 |        |
+| [`tg`](https://t.me/mwscr/445)                     | 2024-06-20 |       |       |       387 |        |
+|                                                    |            |   127 |    74 |      2726 |        |
 
 ## <span id="2024-06-19.deseles-house-of-earthly-delights">Desele&#39;s House of Earthly Delights</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSqDBvDjJ9m/)       | 2017-04-09 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_247)  | 2017-04-09 |   132 |     6 |        51 |      6 |
-| [`ig`](https://instagram.com/p/C8aDacDqO5Q/)       | 2024-06-19 |   257 |    76 |      1420 |   5.35 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1588) | 2024-06-19 |   192 |    34 |       917 |   3.71 |
+| [`ig`](https://instagram.com/p/C8aDacDqO5Q/)       | 2024-06-19 |   263 |    76 |      1420 |   5.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1588) | 2024-06-19 |   193 |    34 |       917 |   3.71 |
 | [`tg`](https://t.me/mwscr/444)                     | 2024-06-19 |   111 |    44 |       387 |  11.37 |
-|                                                    |            |   692 |   219 |      2724 |   6.61 |
+|                                                    |            |   699 |   219 |      2724 |   6.61 |
 
 #### Comments
 
@@ -66,9 +93,9 @@
 | [`ig`](https://instagram.com/p/BYNmZg3jhfJ/)       | 2017-08-25 |       |    51 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_405)  | 2017-08-25 |   116 |     4 |        75 |      4 |
 | [`ig`](https://instagram.com/p/C8XezQrSdW2/)       | 2024-06-18 |   271 |    67 |      1419 |   4.72 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1587) | 2024-06-18 |   161 |    30 |       917 |   3.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1587) | 2024-06-18 |   162 |    30 |       917 |   3.27 |
 | [`tg`](https://t.me/mwscr/443)                     | 2024-06-18 |   138 |    48 |       385 |  12.47 |
-|                                                    |            |   686 |   200 |      2721 |   6.12 |
+|                                                    |            |   687 |   200 |      2721 |   6.12 |
 
 #### Comments
 
@@ -96,10 +123,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BO9ApuClPs8/)       | 2017-01-07 |       |    29 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_55)   | 2017-01-22 |    95 |     4 |         4 |      4 |
-| [`ig`](https://instagram.com/p/C8U54_gyDzI/)       | 2024-06-17 |   224 |    69 |      1419 |   4.86 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1585) | 2024-06-17 |   174 |    25 |       918 |   2.72 |
-| [`tg`](https://t.me/mwscr/442)                     | 2024-06-17 |   153 |    51 |       385 |  13.25 |
-|                                                    |            |   646 |   178 |      2722 |   6.21 |
+| [`ig`](https://instagram.com/p/C8U54_gyDzI/)       | 2024-06-17 |   241 |    76 |      1419 |   5.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1585) | 2024-06-17 |   184 |    27 |       918 |   2.94 |
+| [`tg`](https://t.me/mwscr/442)                     | 2024-06-17 |   164 |    51 |       385 |  13.25 |
+|                                                    |            |   684 |   187 |      2722 |   6.39 |
 
 ## <span id="2024-06-16.exploring-bitter-coast">Exploring Bitter Coast</span>
 
@@ -123,10 +150,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSGIbOAj8ET/)       | 2017-03-26 |       |    71 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_231)  | 2017-03-26 |   118 |     7 |        48 |      7 |
-| [`ig`](https://instagram.com/p/C8SVEv1MIXI/)       | 2024-06-16 |   437 |    82 |      1419 |   5.78 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1583) | 2024-06-16 |   215 |    37 |       918 |   4.03 |
-| [`tg`](https://t.me/mwscr/441)                     | 2024-06-16 |   161 |    52 |       386 |  13.47 |
-|                                                    |            |   931 |   249 |      2723 |   7.57 |
+| [`ig`](https://instagram.com/p/C8SVEv1MIXI/)       | 2024-06-16 |   449 |    82 |      1419 |   5.78 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1583) | 2024-06-16 |   229 |    39 |       918 |   4.25 |
+| [`tg`](https://t.me/mwscr/441)                     | 2024-06-16 |   181 |    53 |       386 |  13.73 |
+|                                                    |            |   977 |   252 |      2723 |   7.69 |
 
 #### Comments
 
@@ -134,7 +161,6 @@
 - `ig` <ins title="2017-03-26-12-37-18">mwscr</ins> @syntax_pc Thanks for your support!
 - `ig` <ins title="2017-03-26-20-54-49">house.dagoth</ins> Greatest game ever made
 - `ig` <ins title="2024-06-17-14-45-23">zoran.hs</ins> 🥹
-- `ig` <ins title="2024-06-18-14-43-36">bedroomspaghettii</ins> My favorite game 🥺
 
 ## <span id="2024-06-15.waterfall-camp">Waterfall Camp</span>
 
