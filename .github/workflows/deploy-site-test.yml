@@ -39,4 +39,3 @@ jobs:
           server-dir: ${{ secrets.SITE_FTP_PATH }}
           local-dir: ./dist/client/
           exclude: ./store/**
-          dry-run: true
