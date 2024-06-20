@@ -55,6 +55,7 @@
   border-image-repeat: repeat;
   background: url(../../images/background-header.png);
   box-sizing: border-box;
+  image-rendering: pixelated;
 }
 
 .body {

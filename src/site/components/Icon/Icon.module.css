@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   color: var(--color-background);
   vertical-align: top;
+  image-rendering: pixelated;
 }
 
 .small {

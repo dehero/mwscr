@@ -7,6 +7,7 @@
   border-image-source: url(../../images/frame-thin.png);
   border-image-slice: 2;
   border-image-repeat: repeat;
+  image-rendering: pixelated;
 }
 
 .thick {
@@ -14,6 +15,7 @@
   border-image-source: url(../../images/frame-thick.png);
   border-image-slice: 4;
   border-image-repeat: repeat;
+  image-rendering: pixelated;
 }
 
 .button {
@@ -21,4 +23,5 @@
   border-image-source: url(../../images/frame-button.png);
   border-image-slice: 4;
   border-image-repeat: repeat;
+  image-rendering: pixelated;
 }
