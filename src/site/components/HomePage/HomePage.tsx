@@ -47,7 +47,7 @@ export const HomePage: Component = () => {
       <Divider class={styles.divider} />
       <section class={styles.container}>
         <Frame class={styles.about}>
-          <img src={icon} class={styles.icon} alt="screenshot of a tree" width={320} height={320} />
+          <img src={icon} class={styles.icon} alt="screenshot of a tree" width={320} />
           <p class={styles.title}>Morrowind Screenshots</p>
           <p class={styles.description}>
             Original screenshots and videos from The&nbsp;Elder&nbsp;Scrolls&nbsp;III:&nbsp;Morrowind.
