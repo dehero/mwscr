@@ -39,22 +39,22 @@
 
 .health {
   background-color: #c64139;
-  background-image: url(../../images/icon-health.png);
+  /* background-image: url(../../images/icon-health.png); */
 }
 
 .attribute {
   background-color: #b766d3;
-  background-image: url(../../images/icon-attribute.png);
+  /* background-image: url(../../images/icon-attribute.png); */
 }
 
 .combat {
   background-color: #a7b7e9;
-  background-image: url(../../images/icon-combat.png);
+  /* background-image: url(../../images/icon-combat.png); */
 }
 
 .fatigue {
   background-color: #e4fce0;
-  background-image: url(../../images/icon-fatigue.png);
+  /* background-image: url(../../images/icon-fatigue.png); */
 }
 
 .magic {
