@@ -1,0 +1,42 @@
+name: deploy-site-test
+
+on:
+  push:
+    branches:
+      - site
+
+jobs:
+  deploy-site-test:
+    runs-on: ubuntu-latest
+    env:
+      SITE_FTP_HOST: '${{ secrets.SITE_FTP_HOST }}'
+      SITE_FTP_USER: '${{ secrets.SITE_FTP_USER }}'
+      SITE_FTP_PASSWORD: '${{ secrets.SITE_FTP_PASSWORD }}'
+      SITE_FTP_STORE_PATH: '${{ secrets.SITE_FTP_STORE_PATH }}'
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2147483647
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Deploy site
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.SITE_FTP_HOST }}
+          username: ${{ secrets.SITE_FTP_USER }}
+          password: ${{ secrets.SITE_FTP_PASSWORD }}
+          server-dir: ${{ secrets.SITE_FTP_PATH }}
+          local-dir: ./dist/client/
+          exclude: ./store/**
+          dry-run: true
