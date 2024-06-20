@@ -19,6 +19,7 @@ export async function data(): Promise<HomePageData> {
   const requesterCount = userInfos.reduce((acc, userInfo) => acc + (userInfo.roles.includes('requester') ? 1 : 0), 0);
 
   return {
+    buildDate: new Date(),
     totalPosts: {
       published: await published.getItemCount(),
       pending: await inbox.getItemCount(),

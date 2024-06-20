@@ -3,7 +3,6 @@
 declare global {
   namespace Vike {
     interface PageContext {
-      buildDate: Date;
       routeInfo?: {
         title: string;
         description?: string;

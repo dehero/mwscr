@@ -7,7 +7,6 @@ export function onBeforeRender(pageContext: PageContext) {
 
   return {
     pageContext: {
-      buildDate: new Date(),
       routeInfo,
     },
   };
