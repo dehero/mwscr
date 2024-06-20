@@ -36,7 +36,7 @@ export const Tooltip: Component<TooltipProps> = (props) => {
   });
 
   return (
-    <Show when={relative.isInside && !isOverlapped()}>
+    <Show when={relative.isInside && mouse.sourceType === 'mouse' && !isOverlapped()}>
       <Portal>
         <Frame
           ref={setTarget}
