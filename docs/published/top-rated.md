@@ -1605,6 +1605,42 @@
 - `tg` <ins title="2024-04-16-20-26-58">alex_emsow</ins> I just hate this place😅
   - <ins title="2024-04-16-20-54-22">Gatemate7</ins> this is a mod?
 
+## <span id="2017-02-20.waterfall-camp">Waterfall Camp</span>
+
+`RU` Лагерь у водопада
+
+<a href="https://instagram.com/p/BQt-jKGjtaW/" title="2017-02-20.waterfall-camp"><img alt="store:/shots/2017-02-20.waterfall-camp.png" src="../../assets/previews/shots/2017-02-20.waterfall-camp.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2017-02-20.waterfall-camp)</code> `🚀 OpenMW` `nofilter` `waterfall` `camp` `campfire`
+
+```
+2017-02-20.waterfall-camp
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BQt-jKGjtaW/)       | 2017-02-20 |       |    32 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_161)  | 2017-02-20 |   226 |    20 |        38 |     20 |
+| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   437 |   120 |      1420 |   8.45 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |   319 |    45 |       916 |   4.91 |
+| [`tg`](https://t.me/mwscr/440)                     | 2024-06-15 |   214 |    65 |       386 |  16.84 |
+|                                                    |            |  1196 |   282 |      2722 |  12.55 |
+
+#### Comments
+
+- `vk` <ins title="2017-02-20-04-30-55">id227500203</ins> Атмосфера, с освещением всё-таки поработали?)
+- `vk` <ins title="2017-02-20-04-39-46">dehero</ins> Алексей, просто удачное время суток 😊
+- `vk` <ins title="2017-02-20-09-12-33">id227500203</ins> Антон, поверю на слово)
+- `tg` <ins title="2024-06-16-19-36-31">Aellaria</ins> А где это?
+  - <ins title="2024-06-16-21-00-35">mwscr</ins> Островок севернее Хуула, насколько я помню
+- `ig` <ins title="2024-06-16-20-33-25">delanospies</ins> Location?
+  - <ins title="2024-06-16-21-55-21">delanospies</ins> @mwscr amazing thanks!
+  - <ins title="2024-06-16-20-59-15">mwscr</ins> Some island north of Khuul as I can remember
+
 ## <span id="2023-08-01.stillness">Stillness</span>
 
 `RU` Спокойствие
@@ -1631,51 +1667,6 @@
 #### Comments
 
 - `tg` <ins title="2023-08-01-17-48-17">Влад</ins> Нетч❤️
-
-## <span id="2024-02-28.omalen-ancestral-tomb">Omalen Ancestral Tomb</span>
-
-`RU` Родовая гробница Омаленов
-
-<a href="https://instagram.com/p/C35xPQ9s-8q/" title="2024-02-28.omalen-ancestral-tomb"><img alt="store:/shots/2024-02-28.omalen-ancestral-tomb.png" src="../../assets/previews/shots/2024-02-28.omalen-ancestral-tomb.avif" /></a>
-
-<details>
-<summary>Trash</summary>
-
-![store:/trash/dehero.2024-02-17-10-37-02.png](../../assets/previews/trash/dehero.2024-02-17-10-37-02.avif "dehero.2024-02-17-10-37-02")
-![store:/trash/dehero.2024-02-17-10-36-27.png](../../assets/previews/trash/dehero.2024-02-17-10-36-27.avif "dehero.2024-02-17-10-36-27")
-![store:/trash/dehero.2024-02-17-10-35-48.png](../../assets/previews/trash/dehero.2024-02-17-10-35-48.avif "dehero.2024-02-17-10-35-48")
-![store:/trash/dehero.2024-02-17-10-35-41.png](../../assets/previews/trash/dehero.2024-02-17-10-35-41.avif "dehero.2024-02-17-10-35-41")
-![store:/trash/dehero.2024-02-17-10-35-39.png](../../assets/previews/trash/dehero.2024-02-17-10-35-39.avif "dehero.2024-02-17-10-35-39")
-![store:/trash/dehero.2024-02-17-10-35-41.1.png](../../assets/previews/trash/dehero.2024-02-17-10-35-41.1.avif "dehero.2024-02-17-10-35-41.1")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`A2` `📍 Molag Amur Region` `🚀 OpenMW` `tomb`
-
-```
-2024-02-28.omalen-ancestral-tomb
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C35xPQ9s-8q/)       | 2024-02-28 |   579 |   156 |      1373 |  11.36 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1420) | 2024-02-28 |   316 |    40 |       894 |   4.47 |
-| [`tg`](https://t.me/mwscr/330)                     | 2024-02-28 |   576 |    73 |       338 |   21.6 |
-|                                                    |            |  1471 |   269 |      2605 |  12.48 |
-
-#### Comments
-
-- `vk` <ins title="2024-02-28-19-30-32">vovach99</ins> Ура, паблик жив!!!
-- `vk` <ins title="2024-02-28-19-53-20">allor</ins> Йихиги-йихиги-йихихигииг!
-- `vk` <ins title="2024-02-28-21-24-06">artyom_melikhoff</ins> Это место хрен найдёшь, если не знаешь, где искать.<br>Поместили &quot;родовую гробницу&quot; (за которой так-то регулярный уход нужен) в такие места грёбаные гении левел-дизайна.
-  - <ins title="2024-03-01-23-26-58">id35868942</ins> Артём, &quot;Это место хрен найдёшь, если не знаешь, где искать&quot; - как доп. защита от лишних посетителей) Ну и живые члены семьи Омаленов достаточно хорошо устроились чтобы иметь возможность оплатить морскую прогулку к берегам эшленда...
-  - <ins title="2024-03-01-23-29-33">artyom_melikhoff</ins> Макс, так ладно к берегам, в Эшленде ж ориентации никакой, а территория немаленькая.
-- `tg` <ins title="2024-02-28-22-17-13">syomadyoma</ins> my favourite tg channel
-- `vk` <ins title="2024-02-28-23-23-11">thelittlebuddy</ins> Я приказываю вам жить<br>[пожалуйста]
-- `ig` <ins title="2024-02-29-19-40-54">angelpeepee__</ins> You are the greatest public service
 
 ---
 
