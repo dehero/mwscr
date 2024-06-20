@@ -14,10 +14,13 @@ export interface LabelProps {
 export const Label: Component<LabelProps> = (props) => {
   return (
     <label class={clsx(styles.container, props.vertical && styles.vertical, props.class)}>
-      <Show when={props.label}>
-        <span class={clsx(styles.label, props.position === 'end' && styles.alignEnd)}>{props.label}</span>
+      <Show when={props.label && props.position !== 'end'}>
+        <span class={styles.label}>{props.label}</span>
       </Show>
       {props.children}
+      <Show when={props.label && props.position === 'end'}>
+        <span class={clsx(styles.label, styles.alignEnd)}>{props.label}</span>
+      </Show>
     </label>
   );
 };

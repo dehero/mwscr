@@ -244,70 +244,80 @@ export const PostsPage: Component = () => {
           </Label>
 
           <Show when={!info?.filters || info.filters.includes('location')}>
-            <Label label="Location" vertical>
-              <Select
-                name="location"
-                options={[ALL_OPTION, ANY_OPTION, NONE_OPTION, ...locationOptions]}
-                value={postLocation()}
-                onChange={setPostLocation}
-                class={styles.select}
-              />
+            <Label label="Location" vertical class={styles.label}>
+              <div class={styles.selectWrapper}>
+                <Select
+                  name="location"
+                  options={[ALL_OPTION, ANY_OPTION, NONE_OPTION, ...locationOptions]}
+                  value={postLocation()}
+                  onChange={setPostLocation}
+                  class={styles.select}
+                />
+              </div>
             </Label>
           </Show>
 
           <Show when={!info?.filters || info.filters.includes('tag')}>
             <Label label="Tag" vertical>
-              <Select
-                name="tag"
-                options={[ALL_OPTION, ...tagOptions]}
-                value={postTag()}
-                onChange={setPostTag}
-                class={styles.select}
-              />
+              <div class={styles.selectWrapper}>
+                <Select
+                  name="tag"
+                  options={[ALL_OPTION, ...tagOptions]}
+                  value={postTag()}
+                  onChange={setPostTag}
+                  class={styles.select}
+                />
+              </div>
             </Label>
           </Show>
 
           <Show when={!info?.filters || info.filters.includes('author')}>
             <Label label="Author" vertical>
-              <Select
-                name="author"
-                options={[ALL_OPTION, ...authorOptions]}
-                value={postAuthor()}
-                onChange={setPostAuthor}
-                class={styles.select}
-              />
+              <div class={styles.selectWrapper}>
+                <Select
+                  name="author"
+                  options={[ALL_OPTION, ...authorOptions]}
+                  value={postAuthor()}
+                  onChange={setPostAuthor}
+                  class={styles.select}
+                />
+              </div>
             </Label>
           </Show>
 
           <Show when={!info?.filters || info.filters.includes('mark')}>
             <Label label="Editor's Mark" vertical>
-              <Select
-                name="mark"
-                options={[ALL_OPTION, ...POST_MARKS.map((value) => ({ value }))]}
-                value={postMark()}
-                onChange={setPostMark}
-                class={styles.select}
-              />
+              <div class={styles.selectWrapper}>
+                <Select
+                  name="mark"
+                  options={[ALL_OPTION, ...POST_MARKS.map((value) => ({ value }))]}
+                  value={postMark()}
+                  onChange={setPostMark}
+                  class={styles.select}
+                />
+              </div>
             </Label>
           </Show>
 
           <Show when={!info?.filters || info.filters.includes('violation')}>
             <Label label="Violation" vertical>
-              <Select
-                name="violation"
-                options={[
-                  ALL_OPTION,
-                  ANY_OPTION,
-                  NONE_OPTION,
-                  ...Object.entries(POST_VIOLATIONS).map(([value, violation]) => ({
-                    value: value as PostViolation,
-                    label: violation.title,
-                  })),
-                ]}
-                value={postViolation()}
-                onChange={setPostViolation}
-                class={styles.select}
-              />
+              <div class={styles.selectWrapper}>
+                <Select
+                  name="violation"
+                  options={[
+                    ALL_OPTION,
+                    ANY_OPTION,
+                    NONE_OPTION,
+                    ...Object.entries(POST_VIOLATIONS).map(([value, violation]) => ({
+                      value: value as PostViolation,
+                      label: violation.title,
+                    })),
+                  ]}
+                  value={postViolation()}
+                  onChange={setPostViolation}
+                  class={styles.select}
+                />
+              </div>
             </Label>
           </Show>
 
