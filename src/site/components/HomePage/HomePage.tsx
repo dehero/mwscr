@@ -1,6 +1,5 @@
 import { type Component } from 'solid-js';
 import { useData } from 'vike-solid/useData';
-import { usePageContext } from 'vike-solid/usePageContext';
 import icon from '../../../../assets/icon.png?format=avif&imagetools';
 import pkg from '../../../../package.json';
 import type { PostInfo } from '../../../core/entities/post-info.js';
@@ -13,6 +12,7 @@ import { Table } from '../Table/Table.js';
 import styles from './HomePage.module.css';
 
 export interface HomePageData {
+  buildDate: Date;
   totalPosts: UserContribution;
   authorCount: number;
   requesterCount: number;
@@ -27,9 +27,8 @@ export interface HomePageData {
 }
 
 export const HomePage: Component = () => {
-  const buildDate = usePageContext().buildDate;
-
   const {
+    buildDate,
     totalPosts,
     authorCount,
     requesterCount,
