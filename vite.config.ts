@@ -23,7 +23,8 @@ export default defineConfig(({ isSsrBuild }) => ({
   build: {
     target: 'esnext',
     outDir: '../../dist',
-    cssCodeSplit: false,
+    // Leave CSS code split enabled for consistent CSS chunk hashes
+    // cssCodeSplit: false,
     emptyOutDir: true,
     minify: true,
   },
