@@ -24,18 +24,22 @@
   font-size: 16px;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   background: var(--color-background);
   color: var(--color-text);
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
 }
 
 #page-view {
   display: flex;
-  height: 100vh;
+  height: 100%;
   flex-direction: column;
   box-sizing: border-box;
   overflow: hidden;
