@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`115 items`
+`116 items`
+
+## <span id="2024-06-21.lava-lake-near-mzanchend">Lava Lake Near Mzanchend</span>
+
+`RU` Озеро лавы вблизи Мзанченда
+
+<a href="https://instagram.com/p/BOojKoolo1u/" title="2016-12-30.lava-lake-near-mzanchend"><img alt="store:/shots/2016-12-30.lava-lake-near-mzanchend.png" src="../../assets/previews/shots/2016-12-30.lava-lake-near-mzanchend.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Mzanchend` `🚀 OpenMW` `nofilter`
+
+```
+2024-06-21.lava-lake-near-mzanchend
+```
+
+> `2016-12-30.lava-lake-near-mzanchend`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BOojKoolo1u/)       | 2016-12-30 |       |    35 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_47)   | 2017-01-22 |    92 |     3 |         4 |      3 |
+| [`ig`](https://instagram.com/p/C8fNH04tqd6/)       | 2024-06-21 |       |       |      1419 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |       |       |       919 |        |
+| [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |       |       |       386 |        |
+|                                                    |            |    92 |    38 |      2724 |        |
 
 ## <span id="2024-06-20.arrival-in-dagon-fel">Arrival in Dagon Fel</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRxjL05jQuG/)       | 2017-03-18 |       |    66 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_218)  | 2017-03-18 |   127 |     8 |        46 |      8 |
-| [`ig`](https://instagram.com/p/C8coa5yxQAC/)       | 2024-06-20 |   305 |    82 |      1420 |   5.77 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1592) | 2024-06-20 |   160 |    34 |       919 |    3.7 |
+| [`ig`](https://instagram.com/p/C8coa5yxQAC/)       | 2024-06-20 |   314 |    82 |      1420 |   5.77 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1592) | 2024-06-20 |   164 |    35 |       919 |   3.81 |
 | [`tg`](https://t.me/mwscr/445)                     | 2024-06-20 |   120 |    45 |       387 |  11.63 |
-|                                                    |            |   712 |   235 |      2726 |   7.28 |
+|                                                    |            |   725 |   236 |      2726 |    7.3 |
 
 #### Comments
 
