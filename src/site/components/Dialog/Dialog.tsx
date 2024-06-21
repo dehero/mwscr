@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import { type Component, createEffect, type JSX, onCleanup, Show } from 'solid-js';
 import { Portal } from 'solid-js/web';
 import frameStyles from '../Frame/Frame.module.css';
+import { Spacer } from '../Spacer/Spacer.js';
 import styles from './Dialog.module.css';
 
 export interface DialogProps {
@@ -45,10 +46,10 @@ export const Dialog: Component<DialogProps> = (props) => {
               <div class={styles.content}>{props.children}</div>
               <Show when={props.actions}>
                 <div class={styles.footer}>
-                  <div class={styles.spacer} />
+                  <Spacer />
                   {props.actions}
                   <Show when={!props.title}>
-                    <div class={styles.spacer} />
+                    <Spacer />
                   </Show>
                 </div>
               </Show>

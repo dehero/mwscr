@@ -1,3 +1,3 @@
-import { ErrorPage } from '../../components/ErrorPage/ErrorPage.jsx';
+import { ErrorPage } from '../../components/ErrorPage/ErrorPage.js';
 
 export default ErrorPage;

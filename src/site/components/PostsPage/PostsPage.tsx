@@ -14,9 +14,9 @@ import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../utils/
 import { selectPostInfos, selectPostInfosResultToString, selectPostInfosSortOptions } from '../../utils/data-utils.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../utils/ui-constants.js';
 import { Button } from '../Button/Button.js';
-import { Checkbox } from '../Checkbox/Checkbox.jsx';
-import { Divider } from '../Divider/Divider.jsx';
-import { Frame } from '../Frame/Frame.jsx';
+import { Checkbox } from '../Checkbox/Checkbox.js';
+import { Divider } from '../Divider/Divider.js';
+import { Frame } from '../Frame/Frame.js';
 import frameStyles from '../Frame/Frame.module.css';
 import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
@@ -166,7 +166,7 @@ export const PostsPage: Component = () => {
   const filteredPostInfos = () => selectPostInfos(postInfos, selectParams());
 
   return (
-    <div class={clsx(frameStyles.thin, styles.container)} ref={containerRef}>
+    <main class={clsx(frameStyles.thin, styles.container)} ref={containerRef}>
       <Frame variant="thin" component="form" class={styles.parameters}>
         {/* <Label label="Parameters" position="end">
               <Checkbox name="showParameters" value={showParameters()} onChange={setShowParameters} />
@@ -347,6 +347,6 @@ export const PostsPage: Component = () => {
           label={selectPostInfosResultToString(filteredPostInfos().length, selectParams())}
         />
       </Frame>
-    </div>
+    </main>
   );
 };

@@ -1,11 +1,13 @@
 .container {
+  flex-grow: 1;
   display: grid;
   height: 100%;
   padding: 8px;
+  margin: 0 -2px -2px -2px;
   gap: 8px;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-template-areas: 'messages' 'topics';
+  grid-template-areas: 'topics' 'messages';
   overflow-y: auto;
 }
 
@@ -25,25 +27,6 @@
   padding: 8px;
   margin: 0;
   list-style: none;
-}
-
-@media only screen and (min-width: 812px) {
-  .divider {
-    display: none;
-  }
-
-  .container {
-    grid-template-columns: 1fr min(300px);
-    grid-template-rows: 1fr;
-    grid-template-areas: 'messages topics';
-    overflow: hidden;
-    padding: 0 8px 8px 8px;
-  }
-
-  .messages,
-  .topics {
-    overflow-y: auto;
-  }
 }
 
 .title {
@@ -81,4 +64,21 @@
 
 .topic:hover {
   color: var(--color-text-selected);
+}
+
+@media only screen and (min-width: 812px) {
+  .container {
+    grid-template-columns: 1fr min(300px);
+    grid-template-rows: 1fr;
+    grid-template-areas: 'messages topics';
+    overflow: hidden;
+    padding: 0 8px 8px 8px;
+    margin: 0;
+    border: none;
+  }
+
+  .messages,
+  .topics {
+    overflow-y: auto;
+  }
 }

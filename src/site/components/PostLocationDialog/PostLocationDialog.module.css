@@ -3,3 +3,13 @@
   flex-flow: column nowrap;
   gap: 8px;
 }
+
+.selectWrapper {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.select {
+  align-self: baseline;
+  width: 100%;
+}

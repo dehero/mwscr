@@ -11,7 +11,7 @@ import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import { PostTooltip } from '../PostTooltip/PostTooltip.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
-import { Spacer } from '../Spacer/Spacer.jsx';
+import { Spacer } from '../Spacer/Spacer.js';
 import styles from './PostPreview.module.css';
 
 export const POST_PREVIEW_MAX_WIDTH = 324;

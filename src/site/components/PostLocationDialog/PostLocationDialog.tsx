@@ -45,13 +45,15 @@ export const PostLocationDialog: Component<PostLocationDialogProps> = (props) =>
     >
       <form id={form} class={styles.form}>
         <Label label="Location" vertical>
-          <Select
-            name="location"
-            options={[EMPTY_OPTION, ...(locationOptions() ?? [])]}
-            value={post().location}
-            onChange={setPostLocation}
-            class={styles.location}
-          />
+          <div class={styles.selectWrapper}>
+            <Select
+              name="location"
+              options={[EMPTY_OPTION, ...(locationOptions() ?? [])]}
+              value={post().location}
+              onChange={setPostLocation}
+              class={styles.select}
+            />
+          </div>
         </Label>
       </form>
     </Dialog>

@@ -1,7 +1,9 @@
 .container {
+  flex-grow: 1;
   display: grid;
   height: 100%;
   padding: 8px;
+  margin: 0 -2px -2px -2px;
   gap: 8px;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr 1fr 1fr 1fr;
@@ -9,8 +11,8 @@
     'contentSelector'
     'content'
     'main'
-    'publications'
-    'comments';
+    'comments'
+    'publications';
   overflow-y: auto;
 }
 
@@ -66,62 +68,6 @@
 
 .publications {
   grid-area: publications;
-}
-
-@media only screen and (min-width: 812px) {
-  .divider {
-    display: none;
-  }
-
-  .container {
-    grid-template-columns: max-content 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 'main content';
-    overflow: hidden;
-    padding: 0 8px 8px 8px;
-  }
-
-  .container.withContentSelection {
-    grid-template-rows: auto 1fr;
-    grid-template-areas: 'main contentSelector' 'main content';
-  }
-
-  .container.published {
-    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, max-content) minmax(min-content, 1fr);
-    grid-template-rows: minmax(var(--size-panel-min-height), 1fr) minmax(var(--size-panel-min-height), auto);
-    grid-template-areas:
-      'main content publications'
-      'main content comments';
-  }
-
-  .container.published.withContentSelection {
-    grid-template-rows: auto minmax(min-content, max-content) 1fr;
-    grid-template-areas:
-      'main contentSelector publications'
-      'main content publications'
-      'main content comments';
-  }
-
-  .container.published.video {
-    grid-template-columns: minmax(min-content, 1fr) fit-content(804px) minmax(min-content, 1fr);
-    grid-template-rows: auto 1fr;
-    grid-template-areas:
-      'main content publications'
-      'main comments publications';
-  }
-
-  .contentSelector {
-    min-height: 92px;
-  }
-
-  .main,
-  .contentPreviews,
-  .contentSelector,
-  .attributes,
-  .comments,
-  .publications {
-    overflow-y: auto;
-  }
 }
 
 .selectedContentWrapper {
@@ -227,4 +173,58 @@
   display: flex;
   align-items: flex-end;
   flex-flow: row nowrap;
+}
+
+@media only screen and (min-width: 812px) {
+  .container {
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 'main content';
+    overflow: hidden;
+    padding: 0 8px 8px 8px;
+    margin: 0;
+    border: none;
+  }
+
+  .container.withContentSelection {
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 'main contentSelector' 'main content';
+  }
+
+  .container.published {
+    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, max-content) minmax(min-content, 1fr);
+    grid-template-rows: minmax(var(--size-panel-min-height), 1fr) minmax(var(--size-panel-min-height), auto);
+    grid-template-areas:
+      'main content publications'
+      'main content comments';
+  }
+
+  .container.published.withContentSelection {
+    grid-template-rows: auto minmax(min-content, max-content) 1fr;
+    grid-template-areas:
+      'main contentSelector publications'
+      'main content publications'
+      'main content comments';
+  }
+
+  .container.published.video {
+    grid-template-columns: minmax(min-content, 1fr) fit-content(804px) minmax(min-content, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      'main content publications'
+      'main comments publications';
+  }
+
+  .contentSelector {
+    min-height: 92px;
+  }
+
+  .main,
+  .contentPreviews,
+  .contentSelector,
+  .attributes,
+  .comments,
+  .publications {
+    overflow-y: auto;
+  }
 }

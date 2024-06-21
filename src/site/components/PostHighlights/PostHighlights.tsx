@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import { type Component, For, Show } from 'solid-js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { listItems } from '../../../core/utils/common-utils.js';
-import { Label } from '../Label/Label.jsx';
+import { Label } from '../Label/Label.js';
 import { PostPreview } from '../PostPreview/PostPreview.js';
 import styles from './PostHighlights.module.css';
 

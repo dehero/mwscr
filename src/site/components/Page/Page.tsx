@@ -60,7 +60,7 @@ export const Page: Component<PageProps> = (props) => {
           />
         </nav>
 
-        <main class={styles.main}>{props.children}</main>
+        {props.children}
       </Toaster>
     </>
   );

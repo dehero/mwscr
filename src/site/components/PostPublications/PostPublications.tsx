@@ -1,13 +1,7 @@
 import clsx from 'clsx';
-import { type Component, For } from 'solid-js';
+import { type Component, For, Show } from 'solid-js';
 import type { Post } from '../../../core/entities/post.js';
-import {
-  getPostCommentCount,
-  getPostRating,
-  getPostTotalLikes,
-  getPostTotalViews,
-  getServicePostRating,
-} from '../../../core/entities/post.js';
+import { getServicePostRating } from '../../../core/entities/post.js';
 import { postingServices } from '../../../core/services/index.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
@@ -22,38 +16,18 @@ export interface PostPublicationsProps {
 export const PostPublications: Component<PostPublicationsProps> = (props) => {
   return (
     <Frame variant="thin" class={clsx(styles.container, props.class)}>
-      <Table
-        class={styles.table}
-        rows={[
-          {
-            label: 'Likes',
-            value: getPostTotalLikes(props.post),
-          },
-          {
-            label: 'Views',
-            value: getPostTotalViews(props.post),
-          },
-          {
-            label: 'Rating',
-            value: Number(getPostRating(props.post).toFixed(2)),
-          },
-          {
-            label: 'Comments',
-            value: getPostCommentCount(props.post),
-          },
-        ]}
-      />
-
       <For
         each={[...(props.post.posts ?? [])].sort((a, b) => b.published.getTime() - a.published.getTime())}
         fallback={<span class={styles.fallback}>No publications yet</span>}
       >
-        {(servicePost) => {
+        {(servicePost, index) => {
           const service = postingServices.find((s) => s.id === servicePost.service);
 
           return (
             <>
-              <Divider />
+              <Show when={index() > 0}>
+                <Divider />
+              </Show>
               <Table
                 class={styles.table}
                 label={service?.name}

@@ -8,7 +8,7 @@ import { isPostDraft, isPostRequest } from '../../core/entities/post-variation.j
 import { createUserInfo } from '../../core/entities/user.js';
 import { getPostInfo, inbox, published, trash } from '../../local/data-managers/posts.js';
 import { users } from '../../local/data-managers/users.js';
-import type { HomePageData } from '../components/HomePage/HomePage.jsx';
+import type { HomePageData } from '../components/HomePage/HomePage.js';
 
 export async function data(): Promise<HomePageData> {
   const userInfos = await Promise.all(

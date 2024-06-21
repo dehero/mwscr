@@ -4,6 +4,12 @@ import JsFileDownloader from 'js-file-downloader';
 import { type Component, createSignal, For, Match, onMount, Show, Switch } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import { getPostDateById, getPostTypeAspectRatio, type Post, POST_VIOLATIONS } from '../../../core/entities/post.js';
+import {
+  getPostCommentCount,
+  getPostRating,
+  getPostTotalLikes,
+  getPostTotalViews,
+} from '../../../core/entities/post.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import type { UserEntry } from '../../../core/entities/user.js';
 import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/user.js';
@@ -13,20 +19,22 @@ import { asArray } from '../../../core/utils/common-utils.js';
 import { useParams } from '../../hooks/useParams.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { postRoute, type PostRouteParams } from '../../routes/post-route.js';
+import { postsRoute } from '../../routes/posts-route.js';
 import { userRoute } from '../../routes/user-route.js';
 import { Button } from '../Button/Button.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import frameStyles from '../Frame/Frame.module.css';
-import { GoldIcon } from '../GoldIcon/GoldIcon.jsx';
-import { Icon } from '../Icon/Icon.jsx';
+import { GoldIcon } from '../GoldIcon/GoldIcon.js';
+import { Icon } from '../Icon/Icon.js';
 import { Input } from '../Input/Input.js';
 import { PostComments } from '../PostComments/PostComments.js';
 import { PostEditingDialog } from '../PostEditingDialog/PostEditingDialog.js';
 import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.js';
 import { PostPublications } from '../PostPublications/PostPublications.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
-import { ResourcePreviews } from '../ResourcePreviews/ResourcePreviews.jsx';
+import { ResourcePreviews } from '../ResourcePreviews/ResourcePreviews.js';
+import { Spacer } from '../Spacer/Spacer.js';
 import { Table } from '../Table/Table.js';
 import { Toast, useToaster } from '../Toaster/Toaster.js';
 import styles from './PostPage.module.css';
@@ -114,20 +122,19 @@ export const PostPage: Component = () => {
   // TODO: display post trash
 
   return (
-    <>
+    <Frame
+      class={clsx(
+        styles.container,
+        published() && styles.published,
+        withContentSelection() && styles.withContentSelection,
+        withFullSizeContent() && styles.withFullSizeContent,
+        data.post?.type && styles[data.post.type],
+      )}
+    >
       <Toast message="Loading..." show={isLoading()} />
-      <Divider class={styles.divider} />
       <Show when={data.post}>
         {(post) => (
-          <section
-            class={clsx(
-              styles.container,
-              published() && styles.published,
-              withContentSelection() && styles.withContentSelection,
-              withFullSizeContent() && styles.withFullSizeContent,
-              styles[post().type],
-            )}
-          >
+          <>
             <Show
               when={withFullSizeContent()}
               fallback={
@@ -271,7 +278,11 @@ export const PostPage: Component = () => {
                       ? postRoute.createUrl({ managerName: params().managerName, id: data.refId })
                       : undefined,
                   },
-                  { label: 'Type', value: post().type },
+                  {
+                    label: 'Type',
+                    value: post().type,
+                    link: postsRoute.createUrl({ managerName: params().managerName, type: post().type }),
+                  },
                   ...data.authorEntries.map((entry) => ({
                     label: 'Author',
                     value: () => (
@@ -345,20 +356,45 @@ export const PostPage: Component = () => {
                 <Table label="Tags" rows={post().tags?.map((label) => ({ label, value: () => <></> })) ?? []}></Table>
               </Show>
 
-              <div class={styles.id}>
-                <Input value={id()} readonly />
-                <Button class={styles.copy} onClick={copyIdToClipboard}>
-                  Copy
-                </Button>
-              </div>
+              <Show when={post().posts}>
+                <Divider />
 
-              <div class={styles.spacer} />
+                <Table
+                  class={styles.table}
+                  label="Reactions"
+                  rows={[
+                    {
+                      label: 'Likes',
+                      value: getPostTotalLikes(post()),
+                    },
+                    {
+                      label: 'Views',
+                      value: getPostTotalViews(post()),
+                    },
+                    {
+                      label: 'Rating',
+                      value: Number(getPostRating(post()).toFixed(2)),
+                    },
+                    {
+                      label: 'Comments',
+                      value: getPostCommentCount(post()),
+                    },
+                  ]}
+                />
+              </Show>
+
+              <Spacer />
 
               <div class={styles.footer}>
-                <div class={styles.spacer} />
-                <Button onClick={() => setShowEditingDialog(true)} class={styles.edit}>
+                <div class={styles.id}>
+                  <Input value={id()} readonly />
+                  <Button class={styles.copy} onClick={copyIdToClipboard}>
+                    Copy
+                  </Button>
+                </div>
+                {/* <Button onClick={() => setShowEditingDialog(true)} class={styles.edit}>
                   Edit
-                </Button>
+                </Button> */}
               </div>
             </Frame>
 
@@ -379,9 +415,9 @@ export const PostPage: Component = () => {
               show={showLocationDialog()}
               onClose={() => setShowLocationDialog(false)}
             />
-          </section>
+          </>
         )}
       </Show>
-    </>
+    </Frame>
   );
 };

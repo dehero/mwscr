@@ -1,6 +1,6 @@
 import { readdir, readFile } from 'fs/promises';
 import { createTopicEntryFromMarkdown } from '../../../core/entities/topic.js';
-import type { HelpPageData } from '../../components/HelpPage/HelpPage.jsx';
+import type { HelpPageData } from '../../components/HelpPage/HelpPage.js';
 
 export const TOPICS_DIR = './src/site/topics';
 
