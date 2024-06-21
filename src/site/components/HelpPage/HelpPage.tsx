@@ -7,8 +7,8 @@ import type { HelpRouteParams } from '../../routes/help-route.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
-import { PostProposalDialog } from '../PostProposalDialog/PostProposalDialog.jsx';
-import { PostRequestDialog } from '../PostRequestDialog/PostRequestDialog.jsx';
+import { PostProposalDialog } from '../PostProposalDialog/PostProposalDialog.js';
+import { PostRequestDialog } from '../PostRequestDialog/PostRequestDialog.js';
 import styles from './HelpPage.module.css';
 
 export interface HelpPageData {
@@ -26,6 +26,7 @@ export const HelpPage: Component = () => {
 
   const [showDialog, setShowDialog] = createSignal<'proposal' | 'request' | undefined>();
 
+  let containerRef: HTMLDivElement | undefined;
   let messagesRef: HTMLDivElement | undefined;
 
   const openTopicIdsFromMessages = () =>
@@ -64,6 +65,10 @@ export const HelpPage: Component = () => {
     if (messagesRef) {
       messagesRef.scrollTop = messagesRef.scrollHeight;
     }
+
+    if (containerRef) {
+      containerRef.scrollTop = containerRef.scrollHeight;
+    }
   });
 
   createEffect(() => {
@@ -79,9 +84,7 @@ export const HelpPage: Component = () => {
 
   return (
     <>
-      <Divider class={styles.divider} />
-
-      <section class={styles.container}>
+      <Frame component="main" class={styles.container} ref={containerRef}>
         <Frame class={styles.messages} ref={messagesRef}>
           <For each={messageTopicEntries()}>
             {([_, topic]) => (
@@ -118,7 +121,7 @@ export const HelpPage: Component = () => {
             )}
           </For>
         </Frame>
-      </section>
+      </Frame>
 
       <PostProposalDialog show={showDialog() === 'proposal'} onClose={() => setShowDialog(undefined)} />
 

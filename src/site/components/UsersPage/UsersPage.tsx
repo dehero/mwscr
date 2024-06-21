@@ -3,11 +3,12 @@ import { useData } from 'vike-solid/useData';
 import type { UserInfo, UserRole } from '../../../core/entities/user.js';
 import { compareUserInfosByContribution, compareUserInfosById, USER_ROLES } from '../../../core/entities/user.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
+import { getSearchTokens, search } from '../../../core/utils/common-utils.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
 import { userRoute } from '../../routes/user-route.js';
 import { ALL_OPTION } from '../../utils/ui-constants.js';
 import { Button } from '../Button/Button.js';
-import { Divider } from '../Divider/Divider.js';
+import { Frame } from '../Frame/Frame.js';
 import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
 import { RadioGroup } from '../RadioGroup/RadioGroup.js';
@@ -39,13 +40,13 @@ interface GetUserInfosParams {
 function getUserInfos(params: GetUserInfosParams) {
   const comparator = comparators.find((comparator) => comparator.value === params.sortKey)?.fn ?? compareUserInfosById;
   const data = useData<UserInfo[]>();
+  const searchTokens = getSearchTokens(params.search);
 
   return data
     .filter(
       (info) =>
         (typeof params.role === 'undefined' || info.roles.includes(params.role)) &&
-        (typeof params.search === 'undefined' ||
-          info.title.toLocaleLowerCase().includes(params.search.toLocaleLowerCase())),
+        search(searchTokens, [info.title, info.id]),
     )
     .sort(comparator);
 }
@@ -65,8 +66,8 @@ export const UsersPage: Component = () => {
   const setSearchTerm = (search: string | undefined) => setSearchParams({ search });
   const setSortKey = (key: UsersPageSortKey | undefined) =>
     setSearchParams({ sort: `${key || sortKey()},${sortDirection()}` });
-  const setSortDirection = (direction: SortDirection | undefined) =>
-    setSearchParams({ sort: `${sortKey()},${direction || sortDirection()}` });
+  // const setSortDirection = (direction: SortDirection | undefined) =>
+  //   setSearchParams({ sort: `${sortKey()},${direction || sortDirection()}` });
 
   const [isSearching, setIsSearching] = createSignal(false);
 
@@ -80,8 +81,8 @@ export const UsersPage: Component = () => {
   const userInfos = () => getUserInfos(getUserInfoParams());
 
   return (
-    <>
-      <div class={styles.header}>
+    <Frame component="main" class={styles.container}>
+      <Frame class={styles.parameters}>
         <RadioGroup
           name="role"
           options={[ALL_OPTION, ...USER_ROLES.map((value) => ({ value }))]}
@@ -89,22 +90,8 @@ export const UsersPage: Component = () => {
           onChange={setUserRole}
         />
 
-        <fieldset class={styles.fieldset}>
-          <Label label="Order By">
-            <Select options={sortOptions()} value={sortKey()} onChange={setSortKey} />
-          </Label>
-          <Select
-            options={[
-              { value: 'asc', label: 'Ascending' },
-              { value: 'desc', label: 'Descending' },
-            ]}
-            value={sortDirection()}
-            onChange={setSortDirection}
-          />
-        </fieldset>
-
-        <fieldset class={styles.fieldset}>
-          <Label label="Search">
+        <Label label="Search by Name and ID" vertical>
+          <fieldset class={styles.fieldset}>
             <Input
               name="search"
               value={searchTerm()}
@@ -114,28 +101,31 @@ export const UsersPage: Component = () => {
                 setIsSearching(false);
               }}
             />
-          </Label>
-          <Button
-            onClick={(e) => {
-              e.preventDefault();
-              setSearchTerm('');
-              setIsSearching(false);
-            }}
-          >
-            Clear
-          </Button>
 
-          <Toast message="Searching..." show={isSearching()} />
-        </fieldset>
-      </div>
+            <Button
+              onClick={(e) => {
+                e.preventDefault();
+                setSearchTerm('');
+                setIsSearching(false);
+              }}
+            >
+              Clear
+            </Button>
 
-      <Divider />
+            <Toast message="Searching..." show={isSearching()} />
+          </fieldset>
+        </Label>
 
-      <div class={styles.container}>
+        <Label label="Order By" vertical>
+          <Select options={sortOptions()} value={sortKey()} onChange={setSortKey} />
+        </Label>
+      </Frame>
+
+      <Frame class={styles.users}>
         <For each={userInfos()}>
           {(info) => <UserPreview userInfo={info} url={userRoute.createUrl({ id: info.id })} />}
         </For>
-      </div>
-    </>
+      </Frame>
+    </Frame>
   );
 };

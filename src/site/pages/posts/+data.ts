@@ -6,7 +6,7 @@ import { getUserEntryTitle } from '../../../core/entities/user.js';
 import { locations } from '../../../local/data-managers/locations.js';
 import { postsManagers } from '../../../local/data-managers/posts.js';
 import { users } from '../../../local/data-managers/users.js';
-import type { PostsPageData } from '../../components/PostsPage/PostsPage.jsx';
+import type { PostsPageData } from '../../components/PostsPage/PostsPage.js';
 import type { SelectOption } from '../../components/Select/Select.js';
 
 export const getTagOptions = async (postsManager: PostsManager): Promise<SelectOption<string>[]> => {

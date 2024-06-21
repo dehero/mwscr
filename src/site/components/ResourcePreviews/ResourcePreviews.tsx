@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import { type Component, createSignal, For } from 'solid-js';
-import { ResourcePreview } from '../ResourcePreview/ResourcePreview.jsx';
+import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import styles from './ResourcePreviews.module.css';
 
 export interface ResourcePreviewsProps {

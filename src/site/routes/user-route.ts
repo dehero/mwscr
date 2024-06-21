@@ -1,5 +1,5 @@
 import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
-import type { UserPageData } from '../components/UserPage/UserPage.jsx';
+import type { UserPageData } from '../components/UserPage/UserPage.js';
 
 export interface UserRouteParams extends SiteRouteParams {
   id: string;

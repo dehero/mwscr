@@ -39,5 +39,11 @@ export const postsRoute: SiteRoute<PostsRouteParams, PostsPageData, PostsPageInf
       title: 'Posts',
       description: 'Posts of Morrowind Screenshots project.',
     },
-  createUrl: ({ managerName }) => `/${managerName}/`,
+  createUrl: ({ managerName, ...rest }) => {
+    const searchParams = new URLSearchParams(
+      Object.entries(rest).filter((item): item is [string, string] => typeof item[1] === 'string'),
+    );
+
+    return `/${managerName}/${searchParams.size > 0 ? '?' : ''}${searchParams.toString()}`;
+  },
 };

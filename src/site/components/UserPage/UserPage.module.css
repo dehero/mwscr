@@ -1,7 +1,9 @@
 .container {
+  flex-grow: 1;
   display: grid;
   height: 100%;
   padding: 8px;
+  margin: 0 -2px -2px -2px;
   gap: 8px;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
@@ -23,25 +25,6 @@
   flex-flow: column nowrap;
   gap: 12px;
   padding: 8px;
-}
-
-@media only screen and (min-width: 812px) {
-  .divider {
-    display: none;
-  }
-
-  .container {
-    grid-template-columns: auto 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 'main posts';
-    overflow: hidden;
-    padding: 0 8px 8px 8px;
-  }
-
-  .main,
-  .posts {
-    overflow-y: auto;
-  }
 }
 
 .info {
@@ -76,4 +59,21 @@
 .goldIcon {
   margin-right: 4px;
   vertical-align: text-top;
+}
+
+@media only screen and (min-width: 812px) {
+  .container {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'main posts';
+    overflow: hidden;
+    padding: 0 8px 8px 8px;
+    margin: 0;
+    border: none;
+  }
+
+  .main,
+  .posts {
+    overflow-y: auto;
+  }
 }

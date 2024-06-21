@@ -4,8 +4,8 @@ import { email } from '../../../core/services/email.js';
 import { Button } from '../Button/Button.js';
 import type { DialogProps } from '../Dialog/Dialog.js';
 import { Dialog } from '../Dialog/Dialog.js';
-import { Input } from '../Input/Input.jsx';
-import { Label } from '../Label/Label.jsx';
+import { Input } from '../Input/Input.js';
+import { Label } from '../Label/Label.js';
 
 type PostRequestDialogProps = Omit<DialogProps, 'title' | 'modal'>;
 

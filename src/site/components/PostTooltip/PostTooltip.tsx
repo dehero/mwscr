@@ -3,7 +3,7 @@ import { getPostDateById, POST_VIOLATIONS } from '../../../core/entities/post.js
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/user.js';
 import { isValidDate } from '../../../core/utils/date-utils.js';
-import { Divider } from '../Divider/Divider.jsx';
+import { Divider } from '../Divider/Divider.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';

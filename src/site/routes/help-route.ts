@@ -1,5 +1,5 @@
 import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
-import type { HelpPageData } from '../components/HelpPage/HelpPage.jsx';
+import type { HelpPageData } from '../components/HelpPage/HelpPage.js';
 
 export interface HelpRouteParams extends SiteRouteParams {
   topicId: string;

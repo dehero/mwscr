@@ -1,7 +1,7 @@
 import type { Component } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import YellowExclamationMark from '../../images/exclamation.svg';
-import { Frame } from '../Frame/Frame.jsx';
+import { Frame } from '../Frame/Frame.js';
 import styles from './ErrorPage.module.css';
 
 export const ErrorPage: Component = () => {
