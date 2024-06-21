@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  flex-grow: 1;
+  margin: 0 -2px -2px -2px;
+  overflow-y: auto;
+}
+
+.info {
+  margin: auto;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.message {
+  text-align: center;
+  margin: 0;
+}

@@ -4,7 +4,7 @@ export interface SiteRouteInfo {
   label?: string;
 }
 
-export type SiteRouteParams = Record<string, string>;
+export type SiteRouteParams = Record<string, string | undefined>;
 
 export interface SiteRoute<
   TParams extends SiteRouteParams | never,
@@ -12,6 +12,7 @@ export interface SiteRoute<
   TInfo extends SiteRouteInfo = SiteRouteInfo,
 > {
   path: string;
+  guard?: (params: TParams) => boolean;
   createUrl: (params: TParams) => string;
   info: (params: TParams, data?: TData) => TInfo;
   mapParams?: (params: Record<string, string>) => TParams;
