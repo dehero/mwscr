@@ -7,7 +7,7 @@ export interface SiteRouteInfo {
 export type SiteRouteParams = Record<string, string>;
 
 export interface SiteRoute<
-  TParams extends SiteRouteParams | undefined,
+  TParams extends SiteRouteParams | never,
   TData extends unknown = unknown,
   TInfo extends SiteRouteInfo = SiteRouteInfo,
 > {

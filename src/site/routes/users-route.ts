@@ -1,6 +1,6 @@
 import type { SiteRoute } from '../../core/entities/site-route.js';
 
-export const usersRoute: SiteRoute<undefined> = {
+export const usersRoute: SiteRoute<never> = {
   path: '/users',
   info: () => ({
     title: 'Users',
