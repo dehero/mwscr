@@ -1,7 +1,7 @@
 import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
-import type { PostsPageData, PostsPageInfo } from '../components/PostsPage/PostsPage.js';
+import type { PostsPageData, PostsPageInfo, PostsPageSearchParams } from '../components/PostsPage/PostsPage.js';
 
-export interface PostsRouteParams extends SiteRouteParams {
+export interface PostsRouteParams extends SiteRouteParams, PostsPageSearchParams {
   managerName: string;
 }
 
@@ -33,6 +33,7 @@ export const postsRouteInfos: Record<string, PostsPageInfo> = {
 
 export const postsRoute: SiteRoute<PostsRouteParams, PostsPageData, PostsPageInfo> = {
   path: '/@managerName',
+  guard: ({ managerName }) => Object.keys(postsRouteInfos).includes(managerName),
   info: ({ managerName }) =>
     postsRouteInfos[managerName] ?? {
       title: 'Posts',
