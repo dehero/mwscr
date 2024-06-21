@@ -28,14 +28,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRxjL05jQuG/)       | 2017-03-18 |       |    66 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_218)  | 2017-03-18 |   127 |     8 |        46 |      8 |
-| [`ig`](https://instagram.com/p/C8coa5yxQAC/)       | 2024-06-20 |   158 |    58 |      1420 |   4.08 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1592) | 2024-06-20 |    85 |    19 |       919 |   2.07 |
-| [`tg`](https://t.me/mwscr/445)                     | 2024-06-20 |    87 |    35 |       387 |   9.04 |
-|                                                    |            |   457 |   186 |      2726 |    5.8 |
+| [`ig`](https://instagram.com/p/C8coa5yxQAC/)       | 2024-06-20 |   199 |    64 |      1420 |   4.51 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1592) | 2024-06-20 |    89 |    21 |       919 |   2.29 |
+| [`tg`](https://t.me/mwscr/445)                     | 2024-06-20 |    90 |    35 |       387 |   9.04 |
+|                                                    |            |   505 |   194 |      2726 |   5.96 |
 
 #### Comments
 
 - `ig` <ins title="2024-06-20-22-33-13">delanospies</ins> @dravenjv amazing village
+- `tg` <ins title="2024-06-21-01-56-52">Jiel Aron Molina</ins> Don&#39;t wait and take one now https://ruwum.com
 
 ## <span id="2024-06-19.deseles-house-of-earthly-delights">Desele&#39;s House of Earthly Delights</span>
 
@@ -59,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSqDBvDjJ9m/)       | 2017-04-09 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_247)  | 2017-04-09 |   132 |     6 |        51 |      6 |
-| [`ig`](https://instagram.com/p/C8aDacDqO5Q/)       | 2024-06-19 |   273 |    80 |      1420 |   5.63 |
+| [`ig`](https://instagram.com/p/C8aDacDqO5Q/)       | 2024-06-19 |   278 |    81 |      1420 |    5.7 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1588) | 2024-06-19 |   208 |    35 |       917 |   3.82 |
-| [`tg`](https://t.me/mwscr/444)                     | 2024-06-19 |   136 |    47 |       387 |  12.14 |
-|                                                    |            |   749 |   227 |      2724 |    6.9 |
+| [`tg`](https://t.me/mwscr/444)                     | 2024-06-19 |   137 |    47 |       387 |  12.14 |
+|                                                    |            |   755 |   228 |      2724 |   6.92 |
 
 #### Comments
 
@@ -1389,10 +1390,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bi7jBPBlzUw/)       | 2018-05-18 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_731)  | 2018-05-18 |   253 |    14 |       163 |   8.59 |
-| [`ig`](https://instagram.com/p/C6wetaLgomE/)       | 2024-05-09 |   281 |    72 |      1417 |   5.08 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1526) | 2024-05-09 |   258 |    38 |       913 |   4.16 |
-| [`tg`](https://t.me/mwscr/403)                     | 2024-05-09 |   389 |    59 |       370 |  15.95 |
-|                                                    |            |  1181 |   255 |      2700 |   8.44 |
+| [`ig`](https://instagram.com/p/C6wetaLgomE/)       | 2024-05-09 |   282 |    72 |      1417 |   5.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1526) | 2024-05-09 |   262 |    38 |       913 |   4.16 |
+| [`tg`](https://t.me/mwscr/403)                     | 2024-05-09 |   397 |    59 |       370 |  15.95 |
+|                                                    |            |  1194 |   255 |      2700 |   8.44 |
 
 #### Comments
 

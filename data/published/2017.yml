@@ -2529,26 +2529,29 @@
       id: C8coa5yxQAC
       mediaId: '18052051345662653'
       published: 2024-06-20-18-21-07
-      updated: 2024-06-21-01-05-19
+      updated: 2024-06-21-02-30-50
       followers: 1420
-      likes: 58
-      views: 158
+      likes: 64
+      views: 199
       comments: !c CxiAkZPLQnkDfIUCgACrZGVsYW5vc3BpZXO5QGRyYXZlbmp2IGFtYXppbmcgdmlsbGFnZQM=
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2024-06-21-01-05-20
+      updated: 2024-06-21-02-30-50
       followers: 919
-      likes: 19
-      views: 85
+      likes: 21
+      views: 89
       reposts: 2
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2024-06-21-01-05-21
+      updated: 2024-06-21-02-30-51
       followers: 387
       likes: 35
-      views: 87
+      views: 90
+      comments: !c |-
+        CyWAkZPLQnkDiCwqAACwSmllbCBBcm9uIE1vbGluYdktRG9uJ3Qgd2FpdCBhbmQgdGFrZSBvbmUg
+        bm93IGh0dHBzOi8vcnV3dW0uY29tAw==
 2017-03-19.stairs-in-vansunalit-egg-mine:
   title: Stairs in Vansunalit Egg Mine
   titleRu: Лестница в яичной шахте Вансуналит
@@ -3281,10 +3284,10 @@
       id: C8aDacDqO5Q
       mediaId: '18049356379705460'
       published: 2024-06-19-18-19-22
-      updated: 2024-06-21-01-05-21
+      updated: 2024-06-21-02-30-52
       followers: 1420
-      likes: 80
-      views: 273
+      likes: 81
+      views: 278
       comments: !c |-
         G6sAKI3UTvdRLDR18wmzB82WpYGMNexBG4vaVCRdQIl11YC4Tg7Aj9gl/hZYQGEUYeQRpydr7fXb
         BZJHDQ9V/dAFgWABOGXFFlwv8g0lenFSDoVUcc30ub0XXhIqmKjIXTw36rcuyEXdIhpKgdqPwKXP
@@ -3292,7 +3295,7 @@
     - service: vk
       id: 1588
       published: 2024-06-19-18-19-29
-      updated: 2024-06-21-01-05-20
+      updated: 2024-06-21-02-30-51
       followers: 917
       likes: 35
       views: 208
@@ -3304,10 +3307,10 @@
     - service: tg
       id: 444
       published: 2024-06-19-18-19-35
-      updated: 2024-06-21-01-05-21
+      updated: 2024-06-21-02-30-52
       followers: 387
       likes: 47
-      views: 136
+      views: 137
       comments: !c ixCAkZPLQnkDJCOFgACqYWxleF9lbXNvd6tCZWVuIHRoZXJlKQM=
 2017-04-10.its-cloudy-in-balmora-with-a-chance-of-rain:
   title: It's Cloudy in Balmora with a Chance of Rain
