@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOojKoolo1u/)       | 2016-12-30 |       |    35 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_47)   | 2017-01-22 |    92 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C8fNH04tqd6/)       | 2024-06-21 |   236 |    70 |      1419 |   4.93 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |   144 |    23 |       919 |    2.5 |
-| [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |   115 |    38 |       386 |   9.84 |
-|                                                    |            |   587 |   169 |      2724 |   5.07 |
+| [`ig`](https://instagram.com/p/C8fNH04tqd6/)       | 2024-06-21 |   241 |    70 |      1419 |   4.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |   145 |    23 |       919 |    2.5 |
+| [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |   118 |    39 |       386 |   10.1 |
+|                                                    |            |   596 |   170 |      2724 |   5.13 |
 
 ## <span id="2024-06-20.arrival-in-dagon-fel">Arrival in Dagon Fel</span>
 
@@ -55,14 +55,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRxjL05jQuG/)       | 2017-03-18 |       |    66 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_218)  | 2017-03-18 |   127 |     8 |        46 |      8 |
-| [`ig`](https://instagram.com/p/C8coa5yxQAC/)       | 2024-06-20 |   346 |    89 |      1420 |   6.27 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1592) | 2024-06-20 |   193 |    37 |       919 |   4.03 |
-| [`tg`](https://t.me/mwscr/445)                     | 2024-06-20 |   155 |    51 |       387 |  13.18 |
-|                                                    |            |   821 |   251 |      2726 |   7.87 |
+| [`ig`](https://instagram.com/p/C8coa5yxQAC/)       | 2024-06-20 |   348 |    89 |      1420 |   6.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1592) | 2024-06-20 |   194 |    37 |       919 |   4.03 |
+| [`tg`](https://t.me/mwscr/445)                     | 2024-06-20 |   157 |    52 |       387 |  13.44 |
+|                                                    |            |   826 |   252 |      2726 |   7.93 |
 
 #### Comments
 
 - `ig` <ins title="2024-06-20-22-33-13">delanospies</ins> @dravenjv amazing village
+- `tg` <ins title="2024-06-22-15-37-19">Roberto_8841</ins> Это выглядит так прекрасно
 
 ## <span id="2024-06-19.deseles-house-of-earthly-delights">Desele&#39;s House of Earthly Delights</span>
 
