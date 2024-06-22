@@ -2529,26 +2529,26 @@
       id: C8coa5yxQAC
       mediaId: '18052051345662653'
       published: 2024-06-20-18-21-07
-      updated: 2024-06-22-17-11-59
+      updated: 2024-06-22-18-18-25
       followers: 1420
-      likes: 89
-      views: 349
+      likes: 90
+      views: 350
       comments: !c CxiAkZPLQnkDfIUCgACrZGVsYW5vc3BpZXO5QGRyYXZlbmp2IGFtYXppbmcgdmlsbGFnZQM=
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2024-06-22-17-11-59
+      updated: 2024-06-22-18-18-25
       followers: 919
       likes: 38
-      views: 196
+      views: 197
       reposts: 2
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2024-06-22-17-12-00
+      updated: 2024-06-22-18-18-26
       followers: 387
       likes: 52
-      views: 157
+      views: 158
       comments: !c |-
         CyWAkZPLQnkECYQ5gACsUm9iZXJ0b184ODQx2THQrdGC0L4g0LLRi9Cz0LvRj9C00LjRgiDRgtCw
         0Log0L/RgNC10LrRgNCw0YHQvdC+Aw==
@@ -3286,10 +3286,10 @@
       id: C8aDacDqO5Q
       mediaId: '18049356379705460'
       published: 2024-06-19-18-19-22
-      updated: 2024-06-21-17-15-29
+      updated: 2024-06-22-18-18-27
       followers: 1420
-      likes: 89
-      views: 306
+      likes: 103
+      views: 340
       comments: !c |-
         G6sAKI3UTvdRLDR18wmzB82WpYGMNexBG4vaVCRdQIl11YC4Tg7Aj9gl/hZYQGEUYeQRpydr7fXb
         BZJHDQ9V/dAFgWABOGXFFlwv8g0lenFSDoVUcc30ub0XXhIqmKjIXTw36rcuyEXdIhpKgdqPwKXP
@@ -3297,10 +3297,10 @@
     - service: vk
       id: 1588
       published: 2024-06-19-18-19-29
-      updated: 2024-06-21-17-15-28
+      updated: 2024-06-22-18-18-26
       followers: 917
-      likes: 35
-      views: 222
+      likes: 36
+      views: 237
       reposts: 2
       comments: !c |-
         G6gAiJwHto1qPbB46yLlKwFRgLcIl2tCAVfAWYHHk3uBLG9iJTbGKNg+JSlewAT/mqxab0qXVDYK
@@ -3309,10 +3309,10 @@
     - service: tg
       id: 444
       published: 2024-06-19-18-19-35
-      updated: 2024-06-21-17-15-29
+      updated: 2024-06-22-18-18-26
       followers: 387
-      likes: 47
-      views: 150
+      likes: 48
+      views: 171
       comments: !c ixCAkZPLQnkDJCOFgACqYWxleF9lbXNvd6tCZWVuIHRoZXJlKQM=
 2017-04-10.its-cloudy-in-balmora-with-a-chance-of-rain:
   title: It's Cloudy in Balmora with a Chance of Rain
@@ -5296,6 +5296,19 @@
       followers: 65
       likes: 7
       views: 116
+    - service: ig
+      id: C8hxumczkEX
+      mediaId: '18026235872329176'
+      published: 2024-06-22-18-18-42
+      followers: 1421
+    - service: vk
+      id: 1594
+      published: 2024-06-22-18-18-49
+      followers: 920
+    - service: tg
+      id: 447
+      published: 2024-06-22-18-18-57
+      followers: 387
 2017-06-18.manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой

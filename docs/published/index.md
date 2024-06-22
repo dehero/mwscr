@@ -4,7 +4,38 @@
 
 # Published in 2024
 
-`116 items`
+`117 items`
+
+## <span id="2024-06-22.valbrandr-barrow">Valbrandr Barrow</span>
+
+`RU` Курган Валбрандр
+
+<a href="https://instagram.com/p/BVb7U63j0AD/" title="2017-06-17.valbrandr-barrow"><img alt="store:/shots/2017-06-17.valbrandr-barrow.png" src="../../assets/previews/shots/2017-06-17.valbrandr-barrow.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-22.valbrandr-barrow)</code> `🚀 OpenMW` `🔗 Bloodmoon` `arc`
+
+```
+2024-06-22.valbrandr-barrow
+```
+
+> `2017-06-17.valbrandr-barrow`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BVb7U63j0AD/)       | 2017-06-17 |       |    63 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_325)  | 2017-06-17 |   116 |     7 |        65 |      7 |
+| [`ig`](https://instagram.com/p/C8hxumczkEX/)       | 2024-06-22 |       |       |      1421 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1594) | 2024-06-22 |       |       |       920 |        |
+| [`tg`](https://t.me/mwscr/447)                     | 2024-06-22 |       |       |       387 |        |
+|                                                    |            |   116 |    70 |      2728 |        |
+
+#### Comments
+
+- `ig` <ins title="2017-06-17-10-46-12">l3nku</ins> its Great
 
 ## <span id="2024-06-21.lava-lake-near-mzanchend">Lava Lake Near Mzanchend</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOojKoolo1u/)       | 2016-12-30 |       |    35 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_47)   | 2017-01-22 |    92 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C8fNH04tqd6/)       | 2024-06-21 |   244 |    71 |      1419 |      5 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |   147 |    24 |       919 |   2.61 |
-| [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |   120 |    39 |       386 |   10.1 |
-|                                                    |            |   603 |   172 |      2724 |   5.18 |
+| [`ig`](https://instagram.com/p/C8fNH04tqd6/)       | 2024-06-21 |   250 |    72 |      1419 |   5.07 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |   152 |    24 |       919 |   2.61 |
+| [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |   122 |    39 |       386 |   10.1 |
+|                                                    |            |   616 |   173 |      2724 |    5.2 |
 
 ## <span id="2024-06-20.arrival-in-dagon-fel">Arrival in Dagon Fel</span>
 
@@ -55,10 +86,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRxjL05jQuG/)       | 2017-03-18 |       |    66 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_218)  | 2017-03-18 |   127 |     8 |        46 |      8 |
-| [`ig`](https://instagram.com/p/C8coa5yxQAC/)       | 2024-06-20 |   349 |    89 |      1420 |   6.27 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1592) | 2024-06-20 |   196 |    38 |       919 |   4.13 |
-| [`tg`](https://t.me/mwscr/445)                     | 2024-06-20 |   157 |    52 |       387 |  13.44 |
-|                                                    |            |   829 |   253 |      2726 |   7.96 |
+| [`ig`](https://instagram.com/p/C8coa5yxQAC/)       | 2024-06-20 |   350 |    90 |      1420 |   6.34 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1592) | 2024-06-20 |   197 |    38 |       919 |   4.13 |
+| [`tg`](https://t.me/mwscr/445)                     | 2024-06-20 |   158 |    52 |       387 |  13.44 |
+|                                                    |            |   832 |   254 |      2726 |   7.98 |
 
 #### Comments
 
@@ -87,10 +118,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSqDBvDjJ9m/)       | 2017-04-09 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_247)  | 2017-04-09 |   132 |     6 |        51 |      6 |
-| [`ig`](https://instagram.com/p/C8aDacDqO5Q/)       | 2024-06-19 |   306 |    89 |      1420 |   6.27 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1588) | 2024-06-19 |   222 |    35 |       917 |   3.82 |
-| [`tg`](https://t.me/mwscr/444)                     | 2024-06-19 |   150 |    47 |       387 |  12.14 |
-|                                                    |            |   810 |   236 |      2724 |   7.06 |
+| [`ig`](https://instagram.com/p/C8aDacDqO5Q/)       | 2024-06-19 |   340 |   103 |      1420 |   7.25 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1588) | 2024-06-19 |   237 |    36 |       917 |   3.93 |
+| [`tg`](https://t.me/mwscr/444)                     | 2024-06-19 |   171 |    48 |       387 |   12.4 |
+|                                                    |            |   880 |   252 |      2724 |    7.4 |
 
 #### Comments
 
