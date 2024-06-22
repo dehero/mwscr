@@ -244,18 +244,18 @@
     - service: vk
       id: 1440
       published: 2024-03-08-18-18-36
-      updated: 2024-06-15-03-16-13
+      updated: 2024-06-22-03-18-23
       followers: 893
       likes: 33
-      views: 285
+      views: 287
       reposts: 2
     - service: tg
       id: 339
       published: 2024-03-08-18-18-42
-      updated: 2024-06-15-03-16-11
+      updated: 2024-06-22-03-18-22
       followers: 345
       likes: 59
-      views: 495
+      views: 496
       comments: !c |-
         G7UAaCwSbFsO20O4qTA3lh8ReqZaodcmXU3GtExgBpP7wXnPGaqN7g5t8jtMLE1crgHgFU02OOSQ
         D6KBYQQJtmVWC0AwnuLz/v5nI8n7big/B4eh7Sjiorj25J2WAAV0C8sFPnSGiW4nzlbNAYf4uZgO
@@ -429,24 +429,24 @@
       id: C4i7nMEvfEh
       mediaId: '18272931199202580'
       published: 2024-03-15-18-58-44
-      updated: 2024-06-15-03-16-10
+      updated: 2024-06-22-03-18-22
       followers: 1386
       likes: 96
       views: 428
     - service: vk
       id: 1453
       published: 2024-03-15-18-58-50
-      updated: 2024-06-15-03-16-12
+      updated: 2024-06-22-03-18-23
       followers: 896
       likes: 30
-      views: 269
+      views: 271
     - service: tg
       id: 347
       published: 2024-03-15-18-58-56
-      updated: 2024-06-15-03-16-11
+      updated: 2024-06-22-03-18-22
       followers: 352
       likes: 45
-      views: 447
+      views: 448
 2024-03-16.night-guardess: 2017-03-01.night-guardess
 2024-03-17.teeth-of-pelagiad:
   title: Teeth of Pelagiad
@@ -1400,7 +1400,7 @@
       id: C6hB52RP4_D
       mediaId: '17887814211020614'
       published: 2024-05-03-18-18-00
-      updated: 2024-06-15-02-30-05
+      updated: 2024-06-22-03-18-20
       followers: 1415
       likes: 107
       views: 382
@@ -1408,17 +1408,17 @@
     - service: vk
       id: 1517
       published: 2024-05-03-18-18-06
-      updated: 2024-06-15-02-30-06
+      updated: 2024-06-22-03-18-20
       followers: 912
       likes: 33
-      views: 258
+      views: 263
     - service: tg
       id: 397
       published: 2024-05-03-18-18-12
-      updated: 2024-06-15-02-30-05
+      updated: 2024-06-22-03-18-21
       followers: 366
       likes: 56
-      views: 403
+      views: 407
       comments: !c ixOAkZPLQnj0A30VgACrYm9icm92bmlrb3awSyBQIEEgQyBVIEIg0YvQuQM=
 2024-05-04.ahnassi:
   title: Ahnassi
