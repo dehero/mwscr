@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`117 items`
+`118 items`
+
+## <span id="2024-06-23.dont-go-this-way">Don&#39;t Go This Way</span>
+
+`RU` Сюда не ходи
+
+<a href="https://instagram.com/p/BhR6cwGD0eZ/" title="2018-04-07.dont-go-this-way"><img alt="store:/shots/2018-04-07.dont-go-this-way.png" src="../../assets/previews/shots/2018-04-07.dont-go-this-way.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-23.dont-go-this-way)</code> `🚀 OpenMW` `🔗 Bloodmoon` `beast`
+
+```
+2024-06-23.dont-go-this-way
+```
+
+> `2018-04-07.dont-go-this-way`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BhR6cwGD0eZ/)       | 2018-04-07 |       |    97 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_680)  | 2018-04-07 |   217 |    17 |       150 |  11.33 |
+| [`ig`](https://instagram.com/p/C8kWiR1tHZ3/)       | 2024-06-23 |       |       |      1422 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1595) | 2024-06-23 |       |       |       918 |        |
+| [`tg`](https://t.me/mwscr/448)                     | 2024-06-23 |       |       |       389 |        |
+|                                                    |            |   217 |   114 |      2729 |        |
 
 ## <span id="2024-06-22.valbrandr-barrow">Valbrandr Barrow</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BVb7U63j0AD/)       | 2017-06-17 |       |    63 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_325)  | 2017-06-17 |   116 |     7 |        65 |      7 |
-| [`ig`](https://instagram.com/p/C8hxumczkEX/)       | 2024-06-22 |   244 |    68 |      1421 |   4.79 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1594) | 2024-06-22 |   145 |    25 |       920 |   2.72 |
-| [`tg`](https://t.me/mwscr/447)                     | 2024-06-22 |   113 |    38 |       387 |   9.82 |
-|                                                    |            |   618 |   201 |      2728 |   6.08 |
+| [`ig`](https://instagram.com/p/C8hxumczkEX/)       | 2024-06-22 |   256 |    69 |      1421 |   4.86 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1594) | 2024-06-22 |   148 |    27 |       920 |   2.93 |
+| [`tg`](https://t.me/mwscr/447)                     | 2024-06-22 |   114 |    39 |       387 |  10.08 |
+|                                                    |            |   634 |   205 |      2728 |   6.22 |
 
 #### Comments
 
@@ -59,10 +86,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOojKoolo1u/)       | 2016-12-30 |       |    35 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_47)   | 2017-01-22 |    92 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C8fNH04tqd6/)       | 2024-06-21 |   276 |    79 |      1419 |   5.57 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |   184 |    29 |       919 |   3.16 |
+| [`ig`](https://instagram.com/p/C8fNH04tqd6/)       | 2024-06-21 |   278 |    79 |      1419 |   5.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |   185 |    29 |       919 |   3.16 |
 | [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |   158 |    45 |       386 |  11.66 |
-|                                                    |            |   710 |   191 |      2724 |   5.85 |
+|                                                    |            |   713 |   191 |      2724 |   5.85 |
 
 ## <span id="2024-06-20.arrival-in-dagon-fel">Arrival in Dagon Fel</span>
 
@@ -86,10 +113,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRxjL05jQuG/)       | 2017-03-18 |       |    66 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_218)  | 2017-03-18 |   127 |     8 |        46 |      8 |
-| [`ig`](https://instagram.com/p/C8coa5yxQAC/)       | 2024-06-20 |   350 |    90 |      1420 |   6.34 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1592) | 2024-06-20 |   197 |    38 |       919 |   4.13 |
-| [`tg`](https://t.me/mwscr/445)                     | 2024-06-20 |   158 |    52 |       387 |  13.44 |
-|                                                    |            |   832 |   254 |      2726 |   7.98 |
+| [`ig`](https://instagram.com/p/C8coa5yxQAC/)       | 2024-06-20 |   373 |    95 |      1420 |   6.69 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1592) | 2024-06-20 |   228 |    40 |       919 |   4.35 |
+| [`tg`](https://t.me/mwscr/445)                     | 2024-06-20 |   180 |    56 |       387 |  14.47 |
+|                                                    |            |   908 |   265 |      2726 |   8.38 |
 
 #### Comments
 
@@ -119,9 +146,9 @@
 | [`ig`](https://instagram.com/p/BSqDBvDjJ9m/)       | 2017-04-09 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_247)  | 2017-04-09 |   132 |     6 |        51 |      6 |
 | [`ig`](https://instagram.com/p/C8aDacDqO5Q/)       | 2024-06-19 |   340 |   103 |      1420 |   7.25 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1588) | 2024-06-19 |   237 |    36 |       917 |   3.93 |
-| [`tg`](https://t.me/mwscr/444)                     | 2024-06-19 |   171 |    48 |       387 |   12.4 |
-|                                                    |            |   880 |   252 |      2724 |    7.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1588) | 2024-06-19 |   252 |    38 |       917 |   4.14 |
+| [`tg`](https://t.me/mwscr/444)                     | 2024-06-19 |   203 |    50 |       387 |  12.92 |
+|                                                    |            |   927 |   256 |      2724 |   7.58 |
 
 #### Comments
 
