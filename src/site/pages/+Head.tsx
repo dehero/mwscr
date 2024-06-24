@@ -1,7 +1,9 @@
+import { usePageContext } from 'vike-solid/usePageContext';
 import { useRouteInfo } from '../hooks/useRouteInfo.js';
 
 export default function Head() {
-  const routeInfo = useRouteInfo();
+  const pageContext = usePageContext();
+  const routeInfo = useRouteInfo(pageContext);
 
   return (
     <>
