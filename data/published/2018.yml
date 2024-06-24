@@ -1638,18 +1638,18 @@
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2024-06-17-05-18-05
+      updated: 2024-06-24-06-20-57
       followers: 894
       likes: 34
-      views: 288
+      views: 290
       reposts: 1
     - service: tg
       id: 334
       published: 2024-03-03-18-16-50
-      updated: 2024-06-17-05-18-04
+      updated: 2024-06-24-06-20-56
       followers: 341
       likes: 61
-      views: 491
+      views: 492
 2018-03-01.guardess-of-assernerairan:
   title: Guardess of Assernerairan
   titleRu: Охранница Ассернерайрана
@@ -2778,17 +2778,17 @@
       id: C8kWiR1tHZ3
       mediaId: '18015029045457829'
       published: 2024-06-23-18-18-47
-      updated: 2024-06-24-05-14-49
+      updated: 2024-06-24-06-20-51
       followers: 1422
       likes: 54
-      views: 184
+      views: 198
     - service: vk
       id: 1595
       published: 2024-06-23-18-18-57
-      updated: 2024-06-24-05-14-49
+      updated: 2024-06-24-06-20-51
       followers: 918
       likes: 21
-      views: 112
+      views: 119
       reposts: 1
       comments: !c |-
         G58AQJwJdizEZBha7pZA9HzdjvCf5xI1CTYJRZzsA91YiVlBkA+nnqzISepK/ylsn7fNmXF2pxy4
@@ -2797,10 +2797,10 @@
     - service: tg
       id: 448
       published: 2024-06-23-18-19-06
-      updated: 2024-06-24-05-14-50
+      updated: 2024-06-24-06-20-52
       followers: 389
-      likes: 33
-      views: 96
+      likes: 35
+      views: 100
 2018-04-08.the-symmetry-of-vivec:
   title: The Symmetry of Vivec
   titleRu: Симметрия Вивека
@@ -3729,17 +3729,17 @@
     - service: vk
       id: 1468
       published: 2024-03-24-18-11-49
-      updated: 2024-06-17-05-18-03
+      updated: 2024-06-24-06-20-55
       followers: 898
       likes: 41
-      views: 338
+      views: 340
     - service: tg
       id: 356
       published: 2024-03-24-18-11-58
-      updated: 2024-06-17-05-18-03
+      updated: 2024-06-24-06-20-55
       followers: 352
-      likes: 57
-      views: 427
+      likes: 58
+      views: 429
       comments: !c iw2AkZPLQnjnGx3lAACrYm9icm92bmlrb3ak8J+VrwM=
 2018-05-10.drooping-sun-of-molag-amur:
   title: Drooping Sun of Molag Amur
