@@ -2778,14 +2778,14 @@
       id: C8kWiR1tHZ3
       mediaId: '18015029045457829'
       published: 2024-06-23-18-18-47
-      updated: 2024-06-24-17-13-17
+      updated: 2024-06-24-18-19-42
       followers: 1422
       likes: 69
-      views: 269
+      views: 280
     - service: vk
       id: 1595
       published: 2024-06-23-18-18-57
-      updated: 2024-06-24-17-13-17
+      updated: 2024-06-24-18-19-43
       followers: 918
       likes: 25
       views: 157
@@ -2797,7 +2797,7 @@
     - service: tg
       id: 448
       published: 2024-06-23-18-19-06
-      updated: 2024-06-24-17-13-18
+      updated: 2024-06-24-18-19-43
       followers: 389
       likes: 39
       views: 119
@@ -6879,6 +6879,19 @@
       followers: 219
       likes: 33
       views: 380
+    - service: ig
+      id: C8m7dsXsDjD
+      mediaId: '18012269351204521'
+      published: 2024-06-24-18-19-57
+      followers: 1421
+    - service: vk
+      id: 1597
+      published: 2024-06-24-18-20-03
+      followers: 917
+    - service: tg
+      id: 449
+      published: 2024-06-24-18-20-11
+      followers: 388
 2018-09-01.haze-in-tel-branora:
   title: Haze in Tel Branora
   titleRu: Мгла в Тель Браноре
