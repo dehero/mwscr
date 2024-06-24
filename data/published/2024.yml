@@ -475,16 +475,16 @@
     - service: vk
       id: 1455
       published: 2024-03-17-18-09-55
-      updated: 2024-06-17-01-08-08
+      updated: 2024-06-24-02-32-26
       followers: 896
       likes: 42
-      views: 319
+      views: 321
       reposts: 2
       comments: !c Cw+AkZPLQnjnA8uuAACpaWQ0OTM2NTEzqeKdpOKdpOKdpAM=
     - service: tg
       id: 349
       published: 2024-03-17-18-10-02
-      updated: 2024-06-17-01-08-07
+      updated: 2024-06-24-02-32-26
       followers: 353
       likes: 63
       views: 462
@@ -768,18 +768,18 @@
     - service: vk
       id: 1476
       published: 2024-03-31-18-10-32
-      updated: 2024-06-17-01-08-07
+      updated: 2024-06-24-02-32-25
       followers: 905
       likes: 29
-      views: 248
+      views: 251
       reposts: 1
     - service: tg
       id: 363
       published: 2024-03-31-18-10-38
-      updated: 2024-06-17-01-08-07
+      updated: 2024-06-24-02-32-26
       followers: 354
-      likes: 56
-      views: 448
+      likes: 57
+      views: 451
 2024-04-01.at-the-edge-of-sheogorad: 2017-11-18.at-the-edge-of-sheogorad
 2024-04-02.hanged-man:
   title: Hanged Man
