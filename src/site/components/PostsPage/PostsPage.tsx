@@ -2,6 +2,7 @@ import { createMediaQuery } from '@solid-primitives/media';
 import clsx from 'clsx';
 import { type Component, createSignal, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
+import { usePageContext } from 'vike-solid/usePageContext';
 import type { PostMark, PostType, PostViolation } from '../../../core/entities/post.js';
 import { POST_MARKS, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
@@ -99,7 +100,8 @@ export const PostsPage: Component = () => {
 
   const [searchParams, setSearchParams] = useSearchParams<PostsPageSearchParams>();
 
-  const info = useRouteInfo<PostsPageInfo>();
+  const pageContext = usePageContext();
+  const info = useRouteInfo<PostsPageInfo>(pageContext);
 
   const sortOptions = () =>
     selectPostInfosSortOptions.filter((item) => !info?.sortKeys || info.sortKeys.includes(item.value));

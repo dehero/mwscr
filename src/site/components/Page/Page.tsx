@@ -1,6 +1,7 @@
 import './Page.css';
 import clsx from 'clsx';
 import { type Component, type JSX } from 'solid-js';
+import { usePageContext } from 'vike-solid/usePageContext';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { homeRoute } from '../../routes/home-route.js';
@@ -19,14 +20,15 @@ export interface PageProps {
 }
 
 export const Page: Component<PageProps> = (props) => {
-  const info = useRouteInfo();
+  const pageContext = usePageContext();
+  const info = () => useRouteInfo(pageContext);
 
   return (
     <>
       <YandexMetrikaCounter />
       <Toaster>
         <Frame variant="thick" component="header" class={styles.header}>
-          <h1 class={styles.title}>{info?.title || 'Morrowind Screenshots'}</h1>
+          <h1 class={styles.title}>{info()?.title || 'Morrowind Screenshots'}</h1>
         </Frame>
 
         <nav class={styles.nav}>

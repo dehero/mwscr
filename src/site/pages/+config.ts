@@ -6,7 +6,7 @@ import { Page } from '../components/Page/Page.js';
 const config: Config = {
   Page: HomePage,
   Layout: Page,
-  passToClient: ['routeInfo', 'is404', 'pageProps'],
+  passToClient: ['is404', 'pageProps'],
   extends: [vikeSolidConfig],
 };
 
