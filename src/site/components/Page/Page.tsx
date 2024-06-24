@@ -6,6 +6,7 @@ import { helpRoute } from '../../routes/help-route.js';
 import { homeRoute } from '../../routes/home-route.js';
 import { postRoute } from '../../routes/post-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
+import { userRoute } from '../../routes/user-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { Frame } from '../Frame/Frame.js';
 import { RouteButton } from '../RouteButton/RouteButton.js';
@@ -29,19 +30,18 @@ export const Page: Component<PageProps> = (props) => {
         </Frame>
 
         <nav class={styles.nav}>
-          <RouteButton route={homeRoute} class={styles.navItem} />
+          <RouteButton route={homeRoute} />
 
           <RouteButton
             route={postsRoute}
             activeRoutes={[postRoute, postsRoute]}
             params={{ managerName: 'published' }}
             matchParams
-            class={styles.navItem}
           />
 
-          <RouteButton route={usersRoute} class={styles.navItem} />
+          <RouteButton route={usersRoute} activeRoutes={[userRoute, usersRoute]} />
 
-          <RouteButton route={helpRoute} params={{ topicId: '' }} class={styles.navItem} />
+          <RouteButton route={helpRoute} params={{ topicId: '' }} />
 
           <RouteButton
             route={postsRoute}
@@ -56,7 +56,6 @@ export const Page: Component<PageProps> = (props) => {
             activeRoutes={[postRoute, postsRoute]}
             params={{ managerName: 'trash' }}
             matchParams
-            class={styles.navItem}
           />
         </nav>
 
