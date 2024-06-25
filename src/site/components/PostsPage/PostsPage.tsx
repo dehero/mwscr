@@ -1,4 +1,5 @@
 import { createMediaQuery } from '@solid-primitives/media';
+import { makePersisted } from '@solid-primitives/storage';
 import clsx from 'clsx';
 import { type Component, createSignal, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
@@ -8,14 +9,14 @@ import { POST_MARKS, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
-import { stringToBool } from '../../../core/utils/common-utils.js';
+import { boolToString, stringToBool } from '../../../core/utils/common-utils.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
 import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../utils/data-utils.js';
 import { selectPostInfos, selectPostInfosResultToString, selectPostInfosSortOptions } from '../../utils/data-utils.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../utils/ui-constants.js';
 import { Button } from '../Button/Button.js';
-import { Checkbox } from '../Checkbox/Checkbox.js';
+import { Checkbox } from '../Checkbox/Checkbox.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import frameStyles from '../Frame/Frame.module.css';
@@ -29,19 +30,40 @@ import { Spacer } from '../Spacer/Spacer.js';
 import { Toast } from '../Toaster/Toaster.js';
 import styles from './PostsPage.module.css';
 
-interface PostsPagePreset {
-  value: string;
-  label: string;
-  params: PostsPageSearchParams;
+interface PostsPagePreset extends SelectOption<string | undefined> {
+  searchParams: PostsPageSearchParams;
 }
 
+const emptySearchParams: PostsPageSearchParams = {
+  type: undefined,
+  tag: undefined,
+  location: undefined,
+  author: undefined,
+  mark: undefined,
+  violation: undefined,
+  publishable: undefined,
+  requested: undefined,
+  original: undefined,
+  search: undefined,
+  sort: undefined,
+};
+
 const presets = [
-  { value: 'editors-choice', label: "Editor's Choice", params: { sort: 'mark,desc', original: 'true' } },
-  { value: 'shortlist', label: 'Shortlist', params: { publishable: 'true' } },
-  { value: 'requests', label: 'Requests', params: { requested: 'true', original: 'true' } },
-  { value: 'revisit', label: 'Revisit', params: { mark: 'F' } },
-  { value: 'unlocated', label: 'Unlocated', params: { location: NONE_OPTION.value, original: 'true' } },
-  { value: 'violations', label: 'Violations', params: { violation: ANY_OPTION.value } },
+  { value: undefined, label: 'All', searchParams: {} },
+  {
+    value: 'editors-choice',
+    label: "Editor's Choice",
+    searchParams: { sort: 'mark,desc', original: 'true' },
+  },
+  { value: 'shortlist', label: 'Shortlist', searchParams: { publishable: 'true' } },
+  { value: 'requests', label: 'Requests', searchParams: { requested: 'true', original: 'true' } },
+  { value: 'revisit', label: 'Revisit', searchParams: { mark: 'F' } },
+  {
+    value: 'unlocated',
+    label: 'Unlocated',
+    searchParams: { location: NONE_OPTION.value, original: 'true' },
+  },
+  { value: 'violations', label: 'Violations', searchParams: { violation: ANY_OPTION.value } },
 ] as const satisfies PostsPagePreset[];
 
 type PresetKey = (typeof presets)[number]['value'];
@@ -66,24 +88,20 @@ type FilterKey = keyof Pick<
 >;
 
 export interface PostsPageInfo extends SiteRouteInfo {
-  presetKeys?: PresetKey[];
+  presetKeys?: PresetKey extends undefined ? never : PresetKey[];
   filters?: FilterKey[];
   sortKeys?: SelectPostInfosSortKey[];
 }
 
-const emptySearchParams: PostsPageSearchParams = {
-  type: undefined,
-  tag: undefined,
-  location: undefined,
-  author: undefined,
-  mark: undefined,
-  violation: undefined,
-  publishable: undefined,
-  requested: undefined,
-  original: undefined,
-  search: undefined,
-  sort: undefined,
-};
+function findPreset(presets: PostsPagePreset[], searchParams: PostsPageSearchParams) {
+  return presets.find(
+    (preset) =>
+      Object.keys(preset.searchParams).length === Object.keys(searchParams).length &&
+      Object.entries(preset.searchParams).every(
+        ([key, value]) => searchParams[key as keyof PostsPageSearchParams] === value,
+      ),
+  );
+}
 
 export interface PostsPageData {
   postInfos: PostInfo[];
@@ -95,17 +113,28 @@ export interface PostsPageData {
 export const PostsPage: Component = () => {
   let containerRef: HTMLDivElement | undefined;
   let postsRef: HTMLDivElement | undefined;
-  const containerScrollable = createMediaQuery('(max-width: 811px)');
-  const postsScrollTarget = () => (containerScrollable() ? containerRef : postsRef);
+  const narrowScreen = createMediaQuery('(max-width: 811px)');
+  const postsScrollTarget = () => (narrowScreen() ? containerRef : postsRef);
 
   const [searchParams, setSearchParams] = useSearchParams<PostsPageSearchParams>();
 
   const pageContext = usePageContext();
-  const info = useRouteInfo<PostsPageInfo>(pageContext);
+  const info = () => useRouteInfo<PostsPageInfo>(pageContext);
 
   const sortOptions = () =>
-    selectPostInfosSortOptions.filter((item) => !info?.sortKeys || info.sortKeys.includes(item.value));
-  const presetOptions = () => presets.filter((item) => !info?.presetKeys || info.presetKeys.includes(item.value));
+    selectPostInfosSortOptions.filter((item) => !info()?.sortKeys || info()?.sortKeys?.includes(item.value));
+  const presetOptions = (): PostsPagePreset[] => {
+    const allowedPresets: PostsPagePreset[] = presets.filter(
+      (item) => !item.value || !info()?.presetKeys || info()?.presetKeys?.includes(item.value),
+    );
+    const currentPreset = findPreset(allowedPresets, searchParams);
+
+    if (!currentPreset) {
+      allowedPresets.push({ value: 'custom', label: 'Custom Selection', searchParams });
+    }
+
+    return allowedPresets;
+  };
 
   const postRequested = () => stringToBool(searchParams.requested);
   const postOriginal = () => stringToBool(searchParams.original);
@@ -123,13 +152,10 @@ export const PostsPage: Component = () => {
     sortOptions().find((sortOption) => sortOption.value === searchParams.sort?.split(',')[0])?.value || 'id';
   const sortDirection = () => (searchParams.sort?.split(',')[1] === 'asc' ? 'asc' : 'desc');
   const searchTerm = () => searchParams.search;
-  const preset = () =>
-    presetOptions().find((preset) =>
-      Object.entries(preset.params).every(([key, value]) => searchParams[key as keyof PostsPageSearchParams] === value),
-    )?.value;
+  const preset = () => findPreset(presetOptions(), searchParams)?.value;
 
-  const setPreset = (preset: PresetKey | undefined) =>
-    setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.params });
+  const setPreset = (preset: string | undefined) =>
+    setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.searchParams });
   const setPostRequested = (requested: boolean | undefined) => setSearchParams({ requested });
   const setPostOriginal = (original: boolean | undefined) => setSearchParams({ original });
   const setPostPublishable = (publishable: boolean | undefined) => setSearchParams({ publishable });
@@ -146,7 +172,9 @@ export const PostsPage: Component = () => {
     setSearchParams({ sort: `${sortKey()},${direction || sortDirection()}` });
 
   const [isSearching, setIsSearching] = createSignal(false);
-  const [showParameters, _setShowParameters] = createSignal(true);
+  const [expandParametersOnNarrowScreen, setExpandParamatersOnNarrowScreen] = makePersisted(createSignal(false), {
+    name: 'posts.expandParametersOnNarrowScreen',
+  });
 
   const selectParams = (): SelectPostInfosParams => ({
     type: postType(),
@@ -170,13 +198,8 @@ export const PostsPage: Component = () => {
   return (
     <main class={clsx(frameStyles.thin, styles.container)} ref={containerRef}>
       <Frame variant="thin" component="form" class={styles.parameters}>
-        {/* <Label label="Parameters" position="end">
-              <Checkbox name="showParameters" value={showParameters()} onChange={setShowParameters} />
-            </Label> */}
-
-        <div class={styles.presets}>
-          <RadioGroup name="preset" options={presetOptions()} value={preset()} onChange={setPreset} />
-          <Spacer />
+        <fieldset class={styles.presets}>
+          <Select options={presetOptions()} value={preset()} onChange={setPreset} />
           <Button
             onClick={(e) => {
               e.preventDefault();
@@ -185,34 +208,59 @@ export const PostsPage: Component = () => {
           >
             Reset
           </Button>
-        </div>
+          <Show when={narrowScreen()}>
+            <Spacer />
+            <Checkbox
+              name="showParameters"
+              value={expandParametersOnNarrowScreen()}
+              onChange={setExpandParamatersOnNarrowScreen}
+              trueLabel="Collapse"
+              falseLabel="Expand"
+            />
+          </Show>
+        </fieldset>
 
-        <Show when={showParameters()}>
+        <Show when={!narrowScreen() || expandParametersOnNarrowScreen()}>
           <Divider />
 
-          <Show when={!info?.filters || info.filters.includes('original')}>
-            <Label label="Original" position="end">
-              <Checkbox name="original" value={postOriginal()} tristate onChange={setPostOriginal} />
-            </Label>
-          </Show>
-
-          <Show when={!info?.filters || info.filters.includes('publishable')}>
-            <Label label="Publishable" position="end">
-              <Checkbox name="publishable" value={postPublishable()} tristate onChange={setPostPublishable} />
-            </Label>
-          </Show>
-
-          <Show when={!info?.filters || info.filters.includes('requested')}>
-            <Label label="Requested" position="end">
-              <Checkbox name="requested" value={postRequested()} tristate onChange={setPostRequested} />
-            </Label>
-          </Show>
-
-          <Show when={!info?.filters || info.filters.includes('type')}>
-            <Label label="Type" vertical>
+          <Show when={!info()?.filters || info()?.filters?.includes('original')}>
+            <Label label="Original" component="div" vertical>
               <RadioGroup
+                name="original"
+                options={[ALL_OPTION, { value: 'true', label: 'Originals' }, { value: 'false', label: 'Reposts' }]}
+                value={boolToString(postOriginal())}
+                onChange={(value) => setPostOriginal(stringToBool(value))}
+              />
+            </Label>
+          </Show>
+
+          <Show when={!info()?.filters || info()?.filters?.includes('publishable')}>
+            <Label label="Publishable" component="div" vertical>
+              <RadioGroup
+                name="publishable"
+                options={[ALL_OPTION, { value: 'true', label: 'Shortlist' }, { value: 'false', label: 'Drafts' }]}
+                value={boolToString(postPublishable())}
+                onChange={(value) => setPostPublishable(stringToBool(value))}
+              />
+            </Label>
+          </Show>
+
+          <Show when={!info()?.filters || info()?.filters?.includes('requested')}>
+            <Label label="Request" component="div" vertical>
+              <RadioGroup
+                name="requested"
+                options={[ALL_OPTION, { value: 'true', label: 'Requested' }, { value: 'false', label: 'Unprompted' }]}
+                value={boolToString(postRequested())}
+                onChange={(value) => setPostRequested(stringToBool(value))}
+              />
+            </Label>
+          </Show>
+
+          <Show when={!info()?.filters || info()?.filters?.includes('type')}>
+            <Label label="Type" vertical>
+              <Select
                 name="type"
-                options={[{ value: undefined, label: 'Any' }, ...POST_TYPES.map((value) => ({ value }))]}
+                options={[ALL_OPTION, ...POST_TYPES.map((value) => ({ value }))]}
                 value={postType()}
                 onChange={setPostType}
               />
@@ -245,7 +293,7 @@ export const PostsPage: Component = () => {
             </fieldset>
           </Label>
 
-          <Show when={!info?.filters || info.filters.includes('location')}>
+          <Show when={!info()?.filters || info()?.filters?.includes('location')}>
             <Label label="Location" vertical class={styles.label}>
               <div class={styles.selectWrapper}>
                 <Select
@@ -259,7 +307,7 @@ export const PostsPage: Component = () => {
             </Label>
           </Show>
 
-          <Show when={!info?.filters || info.filters.includes('tag')}>
+          <Show when={!info()?.filters || info()?.filters?.includes('tag')}>
             <Label label="Tag" vertical>
               <div class={styles.selectWrapper}>
                 <Select
@@ -273,7 +321,7 @@ export const PostsPage: Component = () => {
             </Label>
           </Show>
 
-          <Show when={!info?.filters || info.filters.includes('author')}>
+          <Show when={!info()?.filters || info()?.filters?.includes('author')}>
             <Label label="Author" vertical>
               <div class={styles.selectWrapper}>
                 <Select
@@ -287,7 +335,7 @@ export const PostsPage: Component = () => {
             </Label>
           </Show>
 
-          <Show when={!info?.filters || info.filters.includes('mark')}>
+          <Show when={!info()?.filters || info()?.filters?.includes('mark')}>
             <Label label="Editor's Mark" vertical>
               <div class={styles.selectWrapper}>
                 <Select
@@ -301,7 +349,7 @@ export const PostsPage: Component = () => {
             </Label>
           </Show>
 
-          <Show when={!info?.filters || info.filters.includes('violation')}>
+          <Show when={!info()?.filters || info()?.filters?.includes('violation')}>
             <Label label="Violation" vertical>
               <div class={styles.selectWrapper}>
                 <Select

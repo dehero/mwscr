@@ -10,6 +10,8 @@ export interface CheckboxProps {
   value: boolean | undefined;
   onChange: (value: boolean | undefined) => void;
   tristate?: boolean;
+  trueLabel?: string;
+  falseLabel?: string;
 }
 
 export const Checkbox: Component<CheckboxProps> = (props) => {
@@ -48,14 +50,14 @@ export const Checkbox: Component<CheckboxProps> = (props) => {
         when={props.tristate}
         fallback={
           <>
-            <span class={clsx(styles.label, styles.labelChecked)}>On</span>
-            <span class={clsx(styles.label, styles.labelNotChecked)}>Off</span>
+            <span class={clsx(styles.label, styles.labelChecked)}>{props.trueLabel || 'On'}</span>
+            <span class={clsx(styles.label, styles.labelNotChecked)}>{props.falseLabel || 'Off'}</span>
           </>
         }
       >
         <span class={clsx(styles.label, styles.labelIndeterminate)}>Off</span>
-        <span class={clsx(styles.label, styles.labelChecked)}>Yes</span>
-        <span class={clsx(styles.label, styles.labelNotChecked)}>No</span>
+        <span class={clsx(styles.label, styles.labelChecked)}>{props.trueLabel || 'Yes'}</span>
+        <span class={clsx(styles.label, styles.labelNotChecked)}>{props.falseLabel || 'No'}</span>
       </Show>
     </label>
   );
