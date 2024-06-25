@@ -6,7 +6,8 @@
   font-family: inherit;
   padding: 1px 21px 1px 4px;
   outline: none;
-  min-height: 20px;
+  min-height: 23px;
+  height: 23px;
   box-sizing: border-box;
   background-image: url(../../images/tick.png);
   background-repeat: no-repeat;
