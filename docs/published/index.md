@@ -4,7 +4,39 @@
 
 # Published in 2024
 
-`119 items`
+`120 items`
+
+## <span id="2024-06-25.night-street-of-balmora">Night Street of Balmora</span>
+
+`RU` Ночная улица Балморы
+
+<a href="https://instagram.com/p/BQHvvvZl6c9/" title="2017-02-05.night-street-of-balmora"><img alt="store:/shots/2017-02-05.night-street-of-balmora.png" src="../../assets/previews/shots/2017-02-05.night-street-of-balmora.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Balmora` `🚀 OpenMW` `nofilter` `nightstreet` `lantern`
+
+```
+2024-06-25.night-street-of-balmora
+```
+
+> `2017-02-05.night-street-of-balmora`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BQHvvvZl6c9/)       | 2017-02-05 |       |    34 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_118)  | 2017-02-05 |   167 |    11 |        24 |     11 |
+| [`ig`](https://instagram.com/p/C8pgYD7TvbS/)       | 2024-06-25 |       |       |      1421 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1598) | 2024-06-25 |       |       |       917 |        |
+| [`tg`](https://t.me/mwscr/450)                     | 2024-06-25 |       |       |       388 |        |
+|                                                    |            |   167 |    45 |      2726 |        |
+
+#### Comments
+
+- `ig` <ins title="2017-02-05-07-20-16">eugen_goldobin</ins> Очень круто!!!
+- `ig` <ins title="2017-02-05-20-45-31">j0shua.m</ins> Thats really a great pic! 😁👌🏻
 
 ## <span id="2024-06-24.night-square-of-suran">Night Square of Suran</span>
 
@@ -28,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BnJzjADFUuS/)       | 2018-08-31 |       |   107 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_887)  | 2018-08-31 |   380 |    33 |       219 |  15.07 |
-| [`ig`](https://instagram.com/p/C8m7dsXsDjD/)       | 2024-06-24 |   253 |    70 |      1421 |   4.93 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1597) | 2024-06-24 |   159 |    34 |       917 |   3.71 |
+| [`ig`](https://instagram.com/p/C8m7dsXsDjD/)       | 2024-06-24 |   257 |    71 |      1421 |      5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1597) | 2024-06-24 |   164 |    35 |       917 |   3.82 |
 | [`tg`](https://t.me/mwscr/449)                     | 2024-06-24 |   149 |    46 |       388 |  11.86 |
-|                                                    |            |   941 |   290 |      2726 |   8.89 |
+|                                                    |            |   950 |   292 |      2726 |   8.93 |
 
 #### Comments
 
@@ -122,10 +154,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOojKoolo1u/)       | 2016-12-30 |       |    35 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_47)   | 2017-01-22 |    92 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C8fNH04tqd6/)       | 2024-06-21 |   294 |    82 |      1419 |   5.78 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |   202 |    30 |       919 |   3.26 |
-| [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |   171 |    48 |       386 |  12.44 |
-|                                                    |            |   759 |   198 |      2724 |   6.12 |
+| [`ig`](https://instagram.com/p/C8fNH04tqd6/)       | 2024-06-21 |   301 |    85 |      1419 |   5.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |   211 |    30 |       919 |   3.26 |
+| [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |   196 |    48 |       386 |  12.44 |
+|                                                    |            |   800 |   201 |      2724 |   6.17 |
 
 ## <span id="2024-06-20.arrival-in-dagon-fel">Arrival in Dagon Fel</span>
 
@@ -149,15 +181,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRxjL05jQuG/)       | 2017-03-18 |       |    66 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_218)  | 2017-03-18 |   127 |     8 |        46 |      8 |
-| [`ig`](https://instagram.com/p/C8coa5yxQAC/)       | 2024-06-20 |   381 |    98 |      1420 |    6.9 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1592) | 2024-06-20 |   247 |    41 |       919 |   4.46 |
-| [`tg`](https://t.me/mwscr/445)                     | 2024-06-20 |   196 |    58 |       387 |  14.99 |
-|                                                    |            |   951 |   271 |      2726 |   8.59 |
+| [`ig`](https://instagram.com/p/C8coa5yxQAC/)       | 2024-06-20 |   391 |   100 |      1420 |   7.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1592) | 2024-06-20 |   255 |    41 |       919 |   4.46 |
+| [`tg`](https://t.me/mwscr/445)                     | 2024-06-20 |   207 |    58 |       387 |  14.99 |
+|                                                    |            |   980 |   273 |      2726 |   8.62 |
 
 #### Comments
 
 - `ig` <ins title="2024-06-20-22-33-13">delanospies</ins> @dravenjv amazing village
-- `tg` <ins title="2024-06-22-15-37-19">Roberto_8841</ins> Это выглядит так прекрасно
+- `tg` <ins title="2024-06-22-15-37-19">Rober_555949</ins> Это выглядит так прекрасно
 
 ## <span id="2024-06-19.deseles-house-of-earthly-delights">Desele&#39;s House of Earthly Delights</span>
 
@@ -182,9 +214,9 @@
 | [`ig`](https://instagram.com/p/BSqDBvDjJ9m/)       | 2017-04-09 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_247)  | 2017-04-09 |   132 |     6 |        51 |      6 |
 | [`ig`](https://instagram.com/p/C8aDacDqO5Q/)       | 2024-06-19 |   432 |   109 |      1420 |   7.68 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1588) | 2024-06-19 |   259 |    38 |       917 |   4.14 |
-| [`tg`](https://t.me/mwscr/444)                     | 2024-06-19 |   218 |    51 |       387 |  13.18 |
-|                                                    |            |  1041 |   263 |      2724 |   7.75 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1588) | 2024-06-19 |   263 |    38 |       917 |   4.14 |
+| [`tg`](https://t.me/mwscr/444)                     | 2024-06-19 |   231 |    51 |       387 |  13.18 |
+|                                                    |            |  1058 |   263 |      2724 |   7.75 |
 
 #### Comments
 

@@ -1159,6 +1159,19 @@
       followers: 24
       likes: 11
       views: 167
+    - service: ig
+      id: C8pgYD7TvbS
+      mediaId: '17968895897741807'
+      published: 2024-06-25-18-20-59
+      followers: 1421
+    - service: vk
+      id: 1598
+      published: 2024-06-25-18-21-05
+      followers: 917
+    - service: tg
+      id: 450
+      published: 2024-06-25-18-21-11
+      followers: 388
 2017-02-06.maurrie-is-waiting-for-nelos:
   title: Maurrie Is Waiting for Nelos
   titleRu: Морри ждёт Нелоса
@@ -2529,28 +2542,28 @@
       id: C8coa5yxQAC
       mediaId: '18052051345662653'
       published: 2024-06-20-18-21-07
-      updated: 2024-06-24-18-19-44
+      updated: 2024-06-25-18-20-45
       followers: 1420
-      likes: 98
-      views: 381
+      likes: 100
+      views: 391
       comments: !c CxiAkZPLQnkDfIUCgACrZGVsYW5vc3BpZXO5QGRyYXZlbmp2IGFtYXppbmcgdmlsbGFnZQM=
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2024-06-24-18-19-45
+      updated: 2024-06-25-18-20-45
       followers: 919
       likes: 41
-      views: 247
+      views: 255
       reposts: 2
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2024-06-24-18-19-44
+      updated: 2024-06-25-18-20-45
       followers: 387
       likes: 58
-      views: 196
+      views: 207
       comments: !c |-
-        CyWAkZPLQnkECYQ5gACsUm9iZXJ0b184ODQx2THQrdGC0L4g0LLRi9Cz0LvRj9C00LjRgiDRgtCw
+        CyWAkZPLQnkECYQ5gACsUm9iZXJfNTU1OTQ52THQrdGC0L4g0LLRi9Cz0LvRj9C00LjRgiDRgtCw
         0Log0L/RgNC10LrRgNCw0YHQvdC+Aw==
 2017-03-19.stairs-in-vansunalit-egg-mine:
   title: Stairs in Vansunalit Egg Mine
@@ -3297,10 +3310,10 @@
     - service: vk
       id: 1588
       published: 2024-06-19-18-19-29
-      updated: 2024-06-24-18-19-45
+      updated: 2024-06-25-18-20-46
       followers: 917
       likes: 38
-      views: 259
+      views: 263
       reposts: 2
       comments: !c |-
         G6gAiJwHto1qPbB46yLlKwFRgLcIl2tCAVfAWYHHk3uBLG9iJTbGKNg+JSlewAT/mqxab0qXVDYK
@@ -3309,10 +3322,10 @@
     - service: tg
       id: 444
       published: 2024-06-19-18-19-35
-      updated: 2024-06-24-18-19-45
+      updated: 2024-06-25-18-20-45
       followers: 387
       likes: 51
-      views: 218
+      views: 231
       comments: !c ixCAkZPLQnkDJCOFgACqYWxleF9lbXNvd6tCZWVuIHRoZXJlKQM=
 2017-04-10.its-cloudy-in-balmora-with-a-chance-of-rain:
   title: It's Cloudy in Balmora with a Chance of Rain
