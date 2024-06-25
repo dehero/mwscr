@@ -3168,10 +3168,10 @@
       id: C7PYTPsx11H
       mediaId: '17973618944704049'
       published: 2024-05-21-18-18-46
-      updated: 2024-06-18-22-14-01
+      updated: 2024-06-25-23-14-28
       followers: 1418
       likes: 96
-      views: 363
+      views: 366
       comments: !c |-
         G4oAgDRC5vSDc90E5qMJp3hU2EC+wt7aIzmFHqTKDQ5Y4wADzQJKIZBJr8UkNQFTalSsz3rzSGV/
         5IkCTEKPDx3eDNxEnxEmH+W8w2p8JAeh6joOHxt6gJ+iAqYg++fu4jKvuOO3ExmAMR+HrLsOu03R
@@ -3186,10 +3186,10 @@
     - service: tg
       id: 415
       published: 2024-05-21-18-18-59
-      updated: 2024-06-18-22-13-59
+      updated: 2024-06-25-23-14-27
       followers: 373
       likes: 56
-      views: 389
+      views: 400
 2018-04-22.evening-dwemer-architecture:
   title: Evening Dwemer Architecture
   titleRu: Вечерняя двемерская архитектура
@@ -6883,28 +6883,28 @@
       id: C8m7dsXsDjD
       mediaId: '18012269351204521'
       published: 2024-06-24-18-19-57
-      updated: 2024-06-25-22-13-34
+      updated: 2024-06-25-23-14-25
       followers: 1421
       likes: 74
-      views: 269
+      views: 273
       comments: !c |-
         iyaAkZPLQnkE7VvcgACwc29tZW9uZV9zaW1wbGU0MtkwTWFuLCBJIGxvdmUgdGhvc2Ugc2V0dGxl
         bWVudHMgYW5kIG1pZG5pZ2h0IHNraWVzAw==
     - service: vk
       id: 1597
       published: 2024-06-24-18-20-03
-      updated: 2024-06-25-22-13-33
+      updated: 2024-06-25-23-14-26
       followers: 917
       likes: 36
-      views: 172
+      views: 175
       reposts: 1
     - service: tg
       id: 449
       published: 2024-06-24-18-20-11
-      updated: 2024-06-25-22-13-34
+      updated: 2024-06-25-23-14-26
       followers: 388
       likes: 48
-      views: 166
+      views: 167
 2018-09-01.haze-in-tel-branora:
   title: Haze in Tel Branora
   titleRu: Мгла в Тель Браноре
