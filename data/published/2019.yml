@@ -1691,9 +1691,9 @@
     - service: tg
       id: 192
       published: 2019-10-08
-      updated: 2024-06-18-08-20-09
+      updated: 2024-06-25-09-16-14
       likes: 2
-      views: 675
+      views: 676
 2019-10-09.yellow-mile:
   title: Yellow Mile
   titleRu: Жёлтая миля
@@ -1725,9 +1725,9 @@
     - service: tg
       id: 193
       published: 2019-10-09
-      updated: 2024-06-18-08-20-09
+      updated: 2024-06-25-09-16-14
       likes: 2
-      views: 691
+      views: 692
 2019-10-10.somewhere-under-mournhold:
   title: Somewhere Under Mournhold
   titleRu: Где-то под Морнхолдом
@@ -1762,9 +1762,9 @@
     - service: tg
       id: 194
       published: 2019-10-10
-      updated: 2024-06-18-08-20-09
+      updated: 2024-06-25-09-16-13
       likes: 3
-      views: 675
+      views: 676
 2019-10-11.red-threat:
   title: Red Threat
   titleRu: Красная угроза
@@ -1791,9 +1791,9 @@
     - service: tg
       id: 195
       published: 2019-10-11
-      updated: 2024-06-18-08-20-08
+      updated: 2024-06-25-09-16-13
       likes: 3
-      views: 715
+      views: 716
 2019-10-12.imperial-candelabrum:
   title: Imperial Candelabrum
   titleRu: Имперский канделябр
@@ -1829,9 +1829,9 @@
     - service: tg
       id: 196
       published: 2019-10-12
-      updated: 2024-06-18-08-20-08
+      updated: 2024-06-25-09-16-12
       likes: 3
-      views: 747
+      views: 748
 2019-10-13.gray-distance:
   title: Gray Distance
   titleRu: Серая даль
@@ -1867,9 +1867,9 @@
     - service: tg
       id: 197
       published: 2019-10-13
-      updated: 2024-06-18-08-20-08
+      updated: 2024-06-25-09-16-12
       likes: 2
-      views: 801
+      views: 802
 2019-10-14.quiet-mooring:
   title: Quiet Mooring
   titleRu: Тихий причал
@@ -1907,9 +1907,9 @@
     - service: tg
       id: 198
       published: 2019-10-14
-      updated: 2024-06-18-08-20-07
+      updated: 2024-06-25-09-16-12
       likes: 2
-      views: 909
+      views: 910
 2019-10-15.no-name-club:
   title: No Name Club
   titleRu: Клуб "Никаких Имён"
@@ -1942,9 +1942,9 @@
     - service: tg
       id: 199
       published: 2019-10-15
-      updated: 2024-06-18-08-20-07
+      updated: 2024-06-25-09-16-11
       likes: 2
-      views: 911
+      views: 912
 2019-10-20.sunset-ridge:
   title: Sunset Ridge
   titleRu: Закатный хребет
@@ -1973,9 +1973,9 @@
     - service: tg
       id: 200
       published: 2019-10-20
-      updated: 2024-06-18-08-20-06
+      updated: 2024-06-25-09-16-11
       likes: 2
-      views: 933
+      views: 934
 2019-10-21.skaal-circle:
   title: Skaal Circle
   titleRu: Круг Скаалов
@@ -2013,7 +2013,7 @@
     - service: tg
       id: 201
       published: 2019-10-21
-      updated: 2024-06-18-08-20-06
+      updated: 2024-06-25-09-16-11
       likes: 2
       views: 1090
 2019-10-22.the-wind-is-getting-stronger:
@@ -2053,6 +2053,6 @@
     - service: tg
       id: 202
       published: 2019-10-22
-      updated: 2024-06-18-08-20-05
+      updated: 2024-06-25-09-16-10
       likes: 2
       views: 1078
