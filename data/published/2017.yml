@@ -1163,25 +1163,25 @@
       id: C8pgYD7TvbS
       mediaId: '17968895897741807'
       published: 2024-06-25-18-20-59
-      updated: 2024-06-26-17-13-08
+      updated: 2024-06-26-18-19-16
       followers: 1421
-      likes: 74
-      views: 252
+      likes: 76
+      views: 253
     - service: vk
       id: 1598
       published: 2024-06-25-18-21-05
-      updated: 2024-06-26-17-13-08
+      updated: 2024-06-26-18-19-16
       followers: 917
-      likes: 31
-      views: 157
+      likes: 32
+      views: 164
       reposts: 1
     - service: tg
       id: 450
       published: 2024-06-25-18-21-11
-      updated: 2024-06-26-17-13-09
+      updated: 2024-06-26-18-19-17
       followers: 388
       likes: 42
-      views: 109
+      views: 112
 2017-02-06.maurrie-is-waiting-for-nelos:
   title: Maurrie Is Waiting for Nelos
   titleRu: Морри ждёт Нелоса
@@ -5323,24 +5323,24 @@
       id: C8hxumczkEX
       mediaId: '18026235872329176'
       published: 2024-06-22-18-18-42
-      updated: 2024-06-25-17-14-21
+      updated: 2024-06-26-18-19-18
       followers: 1421
-      likes: 78
-      views: 297
+      likes: 79
+      views: 301
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2024-06-25-17-14-22
+      updated: 2024-06-26-18-19-20
       followers: 920
-      likes: 31
-      views: 185
+      likes: 32
+      views: 202
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2024-06-25-17-14-22
+      updated: 2024-06-26-18-19-19
       followers: 387
-      likes: 51
-      views: 164
+      likes: 53
+      views: 193
 2017-06-18.manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
@@ -8512,6 +8512,19 @@
       followers: 89
       likes: 10
       views: 171
+    - service: ig
+      id: C8sFAeaNJ8f
+      mediaId: '17893372440023109'
+      published: 2024-06-26-18-19-33
+      followers: 1422
+    - service: vk
+      id: 1603
+      published: 2024-06-26-18-19-40
+      followers: 917
+    - service: tg
+      id: 451
+      published: 2024-06-26-18-19-49
+      followers: 388
 2017-10-12.gnaar-mok:
   title: Gnaar Mok
   titleRu: Гнаар Мок
