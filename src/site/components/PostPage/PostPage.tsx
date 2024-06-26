@@ -34,7 +34,6 @@ import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.js'
 import { PostPublications } from '../PostPublications/PostPublications.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import { ResourcePreviews } from '../ResourcePreviews/ResourcePreviews.js';
-import { RouteButton } from '../RouteButton/RouteButton.jsx';
 import { Spacer } from '../Spacer/Spacer.js';
 import { Table } from '../Table/Table.js';
 import { Toast, useToaster } from '../Toaster/Toaster.js';
@@ -238,12 +237,7 @@ export const PostPage: Component = () => {
               <nav class={styles.navigation}>
                 {postsRouteInfo()?.title}
                 <Spacer />
-                <RouteButton
-                  title="Back"
-                  route={postsRoute}
-                  params={{ managerName: params().managerName }}
-                  activeRoutes={[]}
-                />
+                <Button href={postsRoute.createUrl({ managerName: params().managerName })}>Return</Button>
               </nav>
 
               <Divider />

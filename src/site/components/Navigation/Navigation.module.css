@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  gap: 4px;
+  padding: 8px;
+}
+
+.menu {
+  flex-grow: 1;
+}
+
+.button {
+  display: none;
+}
+
+@media only screen and (min-width: 416px) {
+  .menu {
+    display: none;
+  }
+
+  .button {
+    display: block;
+  }
+
+  .button:nth-last-child(3) {
+    margin-left: auto;
+  }
+}

@@ -48,14 +48,6 @@
   margin-right: 8px;
 }
 
-.nav {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: baseline;
-  gap: 4px;
-  padding: 8px;
-}
-
-.pullRight {
-  margin-left: auto;
+.menuButton {
+  margin: 8px;
 }
