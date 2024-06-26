@@ -19,7 +19,7 @@ import { asArray } from '../../../core/utils/common-utils.js';
 import { useParams } from '../../hooks/useParams.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { postRoute, type PostRouteParams } from '../../routes/post-route.js';
-import { postsRoute } from '../../routes/posts-route.js';
+import { postsRoute, postsRouteInfos } from '../../routes/posts-route.js';
 import { userRoute } from '../../routes/user-route.js';
 import { Button } from '../Button/Button.js';
 import { Divider } from '../Divider/Divider.js';
@@ -34,6 +34,7 @@ import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.js'
 import { PostPublications } from '../PostPublications/PostPublications.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import { ResourcePreviews } from '../ResourcePreviews/ResourcePreviews.js';
+import { RouteButton } from '../RouteButton/RouteButton.jsx';
 import { Spacer } from '../Spacer/Spacer.js';
 import { Table } from '../Table/Table.js';
 import { Toast, useToaster } from '../Toaster/Toaster.js';
@@ -55,6 +56,7 @@ export const PostPage: Component = () => {
 
   const id = () => params().id;
   const data = useData<PostPageData>();
+  const postsRouteInfo = () => postsRouteInfos[params().managerName];
 
   const date = () => getPostDateById(id());
   const refDate = () => (data.refId ? getPostDateById(data.refId) : undefined);
@@ -233,6 +235,19 @@ export const PostPage: Component = () => {
             </Show>
 
             <Frame component="section" variant="thin" class={styles.main}>
+              <nav class={styles.navigation}>
+                {postsRouteInfo()?.title}
+                <Spacer />
+                <RouteButton
+                  title="Back"
+                  route={postsRoute}
+                  params={{ managerName: params().managerName }}
+                  activeRoutes={[]}
+                />
+              </nav>
+
+              <Divider />
+
               <div class={styles.info}>
                 <section class={styles.titles}>
                   <p class={styles.title}>{title()}</p>

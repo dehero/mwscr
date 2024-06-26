@@ -16,6 +16,14 @@
   overflow-y: auto;
 }
 
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
 .contentSelector {
   grid-area: contentSelector;
   display: grid;
