@@ -12,7 +12,7 @@ Roles: `admin` `author` `requester`
 Authored: 987 published, 17 pending, 62 rejected  
 Requested: 6 pending  
 Types: `shot` `shot-set` `video` `clip` `drawing`  
-Likes: 139230  
+Likes: 139256  
 
 ```
 dehero
