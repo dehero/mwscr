@@ -1420,10 +1420,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BO6INdEF_CJ/)       | 2017-01-06 |       |    32 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_54)   | 2017-01-22 |    93 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C33Su8Dq3KP/)       | 2024-02-27 |   887 |   235 |      1373 |  17.12 |
+| [`ig`](https://instagram.com/p/C33Su8Dq3KP/)       | 2024-02-27 |   888 |   235 |      1373 |  17.12 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1418) | 2024-02-27 |   362 |    47 |       894 |   5.26 |
-| [`tg`](https://t.me/mwscr/329)                     | 2024-02-27 |   579 |    90 |       337 |  26.71 |
-|                                                    |            |  1921 |   407 |      2604 |  13.02 |
+| [`tg`](https://t.me/mwscr/329)                     | 2024-02-27 |   580 |    90 |       337 |  26.71 |
+|                                                    |            |  1923 |   407 |      2604 |  13.02 |
 
 #### Comments
 
@@ -1431,6 +1431,7 @@
 - `tg` <ins title="2024-02-27-20-56-06">quintus_fabius</ins> We&#39;re so back
   - <ins title="2024-02-27-20-58-08">ansis</ins> .
 - `ig` <ins title="2024-02-27-22-46-56">yoshi_23ii</ins> What happened to these creatures in the next games?
+  - <ins title="2024-02-27-23-49-37">yoshi_23ii</ins> @jaymescallen I think there&#39;s some in ESO
   - <ins title="2024-02-27-23-48-53">jaymescallen</ins> Daedroths were in Oblivion but not Skyrim.
 - `ig` <ins title="2024-02-27-23-28-32">swekg</ins> Me when it’s raining
 - `vk` <ins title="2024-02-28-06-48-12">vladkr114</ins> Эх😔
