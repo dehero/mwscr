@@ -4,6 +4,7 @@ import { Dynamic } from 'solid-js/web';
 import styles from './Frame.module.css';
 
 interface FrameProps extends JSX.CustomAttributes<HTMLElement>, JSX.DOMAttributes<HTMLElement> {
+  id?: string;
   class?: string;
   children?: JSX.Element;
   variant?: 'thin' | 'thick' | 'button';

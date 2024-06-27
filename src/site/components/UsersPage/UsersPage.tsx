@@ -112,7 +112,7 @@ export const UsersPage: Component = () => {
               Clear
             </Button>
 
-            <Toast message="Searching..." show={isSearching()} />
+            <Toast message="Searching Users" show={isSearching()} loading />
           </fieldset>
         </Label>
 

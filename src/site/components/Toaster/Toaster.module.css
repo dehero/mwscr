@@ -12,9 +12,12 @@
 
 .item {
   display: flex;
+  flex-flow: column nowrap;
   max-width: 300px;
   width: 100%;
   padding: 8px;
+  gap: 4px;
   background: var(--color-background);
   justify-content: center;
+  align-items: center;
 }

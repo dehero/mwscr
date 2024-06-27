@@ -1,38 +1,49 @@
+import { ReactiveMap } from '@solid-primitives/map';
 import type { Component, JSX } from 'solid-js';
-import { createContext, createEffect, createSignal, For, onCleanup, useContext } from 'solid-js';
-import { Portal } from 'solid-js/web';
+import { createContext, createEffect, createSignal, For, onCleanup, Show, useContext } from 'solid-js';
+import { isServer } from 'solid-js/web';
 import { Frame } from '../Frame/Frame.js';
+import { Loader } from '../Loader/Loader.jsx';
 import styles from './Toaster.module.css';
 
 export interface ToasterContext {
-  addToast: (message: string, duration?: number) => string;
+  addToast: (message: string, duration?: number, loading?: boolean) => string;
   removeToast: (id: string) => void;
 }
 
-export const ToasterContext = createContext<ToasterContext>({ addToast: () => '', removeToast: () => {} });
+export const ToasterContext = createContext<ToasterContext>({
+  addToast: () => '',
+  removeToast: () => {},
+});
 
 export const useToaster = () => useContext(ToasterContext);
 
 export interface Toast {
-  id: string;
   message: string;
+  loading?: boolean;
 }
 
-export interface ToastProps {
-  message: string;
+export interface ToastProps extends Toast {
   show: boolean;
 }
 
 export interface ToasterProps {
   children?: JSX.Element;
+  initialToasts?: Array<[string, ToastProps]>;
+}
+
+function createToastId() {
+  return Math.random().toString();
 }
 
 export const Toaster: Component<ToasterProps> = (props) => {
-  const [toasts, setToasts] = createSignal<Toast[]>();
+  const toasts = new ReactiveMap<string, Toast>(props.initialToasts?.filter(([, props]) => props.show) || []);
+  const [toastIdsWaitingForAnimationEnd, setToastIdsWaitingForAnimationEnd] = createSignal<string[]>([]);
+  const [isAnimatingLoader, setIsAnimatingLoader] = createSignal(true);
 
-  const addToast = (message: string, duration = 3000) => {
-    const id = Math.random().toString();
-    setToasts([...(toasts() ?? []), { id, message }]);
+  const addToast = (message: string, duration = 3000, loading = false) => {
+    const id = createToastId();
+    toasts.set(id, { message, loading });
     if (duration > 0 && duration !== Infinity) {
       setTimeout(() => removeToast(id), duration);
     }
@@ -40,17 +51,63 @@ export const Toaster: Component<ToasterProps> = (props) => {
   };
 
   const removeToast = (id: string) => {
-    setToasts(toasts()?.filter((toast) => toast.id !== id));
+    if (toasts.get(id)?.loading && isAnimatingLoader()) {
+      setToastIdsWaitingForAnimationEnd((ids) => [...ids, id]);
+    } else {
+      toasts.delete(id);
+    }
   };
+
+  const hints = () => [...toasts].filter(([, toast]) => !toast.loading);
+  const activeLoaderEntry = () => [...toasts].filter(([, toast]) => toast.loading)[0];
+
+  const handleLoaderAnimationEnd = () => {
+    setIsAnimatingLoader(false);
+
+    const ids = toastIdsWaitingForAnimationEnd();
+    setToastIdsWaitingForAnimationEnd([]);
+    for (const id of ids) {
+      if (id) {
+        toasts.delete(id);
+      }
+    }
+  };
+
+  createEffect(() => {
+    const entries = props.initialToasts;
+
+    if (entries) {
+      for (const [id, toast] of entries) {
+        if (toast.show) {
+          toasts.set(id, toast);
+        } else {
+          removeToast(id);
+        }
+      }
+    }
+  });
 
   return (
     <ToasterContext.Provider value={{ addToast, removeToast }}>
       {props.children}
-      <Portal>
-        <div class={styles.container}>
-          <For each={toasts()}>{(toast) => <Frame class={styles.item}>{toast.message}</Frame>}</For>
-        </div>
-      </Portal>
+      <div class={styles.container}>
+        <For each={hints()}>{([, toast]) => <Frame class={styles.item}>{toast.message}</Frame>}</For>
+        <Show when={activeLoaderEntry()}>
+          {(entry) => (
+            <Frame variant="thick" class={styles.item}>
+              {entry()[1].message}
+              <Loader
+                initialPercent={isServer ? 50 : 0}
+                onAnimationStart={() => {
+                  console.log('handleLoaderAnimationStart');
+                  setIsAnimatingLoader(true);
+                }}
+                onAnimationEnd={handleLoaderAnimationEnd}
+              />
+            </Frame>
+          )}
+        </Show>
+      </div>
     </ToasterContext.Provider>
   );
 };
@@ -65,7 +122,7 @@ export const Toast: Component<ToastProps> = (props) => {
       removeToast(id);
       setToastId(undefined);
     } else if (!id && props.show) {
-      setToastId(addToast(props.message, Infinity));
+      setToastId(addToast(props.message, Infinity, props.loading));
     }
   });
 

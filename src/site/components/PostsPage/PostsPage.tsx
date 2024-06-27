@@ -289,7 +289,7 @@ export const PostsPage: Component = () => {
                 Clear
               </Button>
 
-              <Toast message="Searching..." show={isSearching()} />
+              <Toast message="Searching Posts" show={isSearching()} loading />
             </fieldset>
           </Label>
 
