@@ -6,10 +6,6 @@
   padding: 8px;
 }
 
-.menu {
-  flex-grow: 1;
-}
-
 .button {
   display: none;
 }
