@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`121 items`
+`122 items`
+
+## <span id="2024-06-27.crates-and-pillows">Crates and Pillows</span>
+
+`RU` Подушки и ящики
+
+<a href="https://instagram.com/p/BciJJ7NDkQ3/" title="2017-12-10.crates-and-pillows"><img alt="store:/shots/2017-12-10.crates-and-pillows.png" src="../../assets/previews/shots/2017-12-10.crates-and-pillows.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-27.crates-and-pillows)</code> `🚀 OpenMW` `water`
+
+```
+2024-06-27.crates-and-pillows
+```
+
+> `2017-12-10.crates-and-pillows`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BciJJ7NDkQ3/)       | 2017-12-10 |       |    61 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_533)  | 2017-12-10 |   174 |    15 |       108 |  13.89 |
+| [`ig`](https://instagram.com/p/C8upuzOxups/)       | 2024-06-27 |       |       |      1421 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |       |       |       917 |        |
+| [`tg`](https://t.me/mwscr/452)                     | 2024-06-27 |       |       |       388 |        |
+|                                                    |            |   174 |    76 |      2726 |        |
 
 ## <span id="2024-06-26.in-an-ice-cave">In an Ice Cave</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaHizgWjxSW/)       | 2017-10-11 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_457)  | 2017-10-11 |   171 |    10 |        89 |     10 |
-| [`ig`](https://instagram.com/p/C8sFAeaNJ8f/)       | 2024-06-26 |   181 |    65 |      1422 |   4.57 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1603) | 2024-06-26 |   136 |    29 |       917 |   3.16 |
-| [`tg`](https://t.me/mwscr/451)                     | 2024-06-26 |   124 |    43 |       388 |  11.08 |
-|                                                    |            |   612 |   201 |      2727 |    7.2 |
+| [`ig`](https://instagram.com/p/C8sFAeaNJ8f/)       | 2024-06-26 |   184 |    66 |      1422 |   4.64 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1603) | 2024-06-26 |   139 |    29 |       917 |   3.16 |
+| [`tg`](https://t.me/mwscr/451)                     | 2024-06-26 |   125 |    43 |       388 |  11.08 |
+|                                                    |            |   619 |   202 |      2727 |   7.22 |
 
 ## <span id="2024-06-25.night-street-of-balmora">Night Street of Balmora</span>
 
@@ -56,9 +83,9 @@
 | [`ig`](https://instagram.com/p/BQHvvvZl6c9/)       | 2017-02-05 |       |    34 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_118)  | 2017-02-05 |   167 |    11 |        24 |     11 |
 | [`ig`](https://instagram.com/p/C8pgYD7TvbS/)       | 2024-06-25 |   285 |    89 |      1421 |   6.26 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1598) | 2024-06-25 |   196 |    34 |       917 |   3.71 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1598) | 2024-06-25 |   198 |    34 |       917 |   3.71 |
 | [`tg`](https://t.me/mwscr/450)                     | 2024-06-25 |   150 |    52 |       388 |   13.4 |
-|                                                    |            |   798 |   220 |      2726 |   8.59 |
+|                                                    |            |   800 |   220 |      2726 |   8.59 |
 
 #### Comments
 
