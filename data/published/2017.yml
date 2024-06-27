@@ -2552,26 +2552,26 @@
       id: C8coa5yxQAC
       mediaId: '18052051345662653'
       published: 2024-06-20-18-21-07
-      updated: 2024-06-26-19-11-47
+      updated: 2024-06-27-19-13-50
       followers: 1420
       likes: 100
-      views: 399
+      views: 401
       comments: !c CxiAkZPLQnkDfIUCgACrZGVsYW5vc3BpZXO5QGRyYXZlbmp2IGFtYXppbmcgdmlsbGFnZQM=
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2024-06-26-19-11-48
+      updated: 2024-06-27-19-13-52
       followers: 919
       likes: 43
-      views: 263
+      views: 272
       reposts: 2
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2024-06-26-19-11-48
+      updated: 2024-06-27-19-13-50
       followers: 387
       likes: 59
-      views: 226
+      views: 240
       comments: !c |-
         CyWAkZPLQnkECYQ5gACsUm9iZXJfNTU1OTQ52THQrdGC0L4g0LLRi9Cz0LvRj9C00LjRgiDRgtCw
         0Log0L/RgNC10LrRgNCw0YHQvdC+Aw==
@@ -5324,24 +5324,24 @@
       id: C8hxumczkEX
       mediaId: '18026235872329176'
       published: 2024-06-22-18-18-42
-      updated: 2024-06-26-18-19-18
+      updated: 2024-06-27-19-13-48
       followers: 1421
       likes: 79
-      views: 301
+      views: 307
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2024-06-26-18-19-20
+      updated: 2024-06-27-19-13-50
       followers: 920
-      likes: 32
-      views: 202
+      likes: 33
+      views: 213
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2024-06-26-18-19-19
+      updated: 2024-06-27-19-13-49
       followers: 387
-      likes: 53
-      views: 193
+      likes: 54
+      views: 213
 2017-06-18.manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
@@ -8517,24 +8517,24 @@
       id: C8sFAeaNJ8f
       mediaId: '17893372440023109'
       published: 2024-06-26-18-19-33
-      updated: 2024-06-27-18-18-40
+      updated: 2024-06-27-19-13-45
       followers: 1422
       likes: 66
       views: 184
     - service: vk
       id: 1603
       published: 2024-06-26-18-19-40
-      updated: 2024-06-27-18-18-41
+      updated: 2024-06-27-19-13-46
       followers: 917
       likes: 29
-      views: 139
+      views: 143
     - service: tg
       id: 451
       published: 2024-06-26-18-19-49
-      updated: 2024-06-27-18-18-42
+      updated: 2024-06-27-19-13-47
       followers: 388
-      likes: 43
-      views: 125
+      likes: 47
+      views: 131
 2017-10-12.gnaar-mok:
   title: Gnaar Mok
   titleRu: Гнаар Мок
@@ -10284,15 +10284,25 @@
       id: C8upuzOxups
       mediaId: '18031796495309217'
       published: 2024-06-27-18-18-54
+      updated: 2024-06-27-19-13-45
       followers: 1421
+      likes: 19
+      views: 31
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
+      updated: 2024-06-27-19-13-45
       followers: 917
+      likes: 7
+      views: 53
+      reposts: 1
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
+      updated: 2024-06-27-19-13-46
       followers: 388
+      likes: 24
+      views: 47
 2017-12-11.princess-of-dusk-and-dawn:
   title: Princess of Dusk and Dawn
   titleRu: Принцесса рассвета и заката
