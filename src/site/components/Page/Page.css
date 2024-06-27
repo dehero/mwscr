@@ -20,6 +20,8 @@
   --color-background-selected: #2c3461;
   --size-panel-min-width: 250px;
   --size-panel-min-height: 200px;
+  --color-loader-top: #00a0a3;
+  --color-loader-bottom: #00a1a3;
   font-family: MysticCards, serif;
   font-size: 16px;
 }

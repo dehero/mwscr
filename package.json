@@ -52,6 +52,8 @@
     "@minht11/solid-virtual-container": "^0.2.1",
     "@sindresorhus/slugify": "^2.2.1",
     "@solid-primitives/clipboard": "^1.5.10",
+    "@solid-primitives/event-listener": "^2.3.3",
+    "@solid-primitives/map": "^0.4.11",
     "@solid-primitives/media": "^2.2.9",
     "@solid-primitives/mouse": "^2.0.19",
     "@solid-primitives/resize-observer": "^2.0.25",

@@ -132,7 +132,7 @@ export const PostPage: Component = () => {
         data.post?.type && styles[data.post.type],
       )}
     >
-      <Toast message="Loading..." show={isLoading()} />
+      <Toast message="Loading Content" show={isLoading()} loading />
       <Show when={data.post}>
         {(post) => (
           <>
