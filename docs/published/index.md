@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BdvHCYojafJ/)       | 2018-01-09 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_572)  | 2018-01-09 |   179 |    15 |       119 |  12.61 |
-| [`ig`](https://instagram.com/p/C8xOkhoJ1Rz/)       | 2024-06-28 |       |       |      1421 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |       |       |       917 |        |
-| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |       |       |       387 |        |
-|                                                    |            |   179 |   113 |      2725 |        |
+| [`ig`](https://instagram.com/p/C8xOkhoJ1Rz/)       | 2024-06-28 |       |    16 |      1421 |   1.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |    47 |    12 |       917 |   1.31 |
+| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |    38 |    19 |       387 |   4.91 |
+|                                                    |            |   264 |   160 |      2725 |   4.99 |
 
 ## <span id="2024-06-27.crates-and-pillows">Crates and Pillows</span>
 
@@ -56,9 +56,9 @@
 | [`ig`](https://instagram.com/p/BciJJ7NDkQ3/)       | 2017-12-10 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_533)  | 2017-12-10 |   174 |    15 |       108 |  13.89 |
 | [`ig`](https://instagram.com/p/C8upuzOxups/)       | 2024-06-27 |   284 |    68 |      1421 |   4.79 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |   176 |    30 |       917 |   3.27 |
-| [`tg`](https://t.me/mwscr/452)                     | 2024-06-27 |   119 |    43 |       388 |  11.08 |
-|                                                    |            |   753 |   217 |      2726 |   8.26 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |   179 |    30 |       917 |   3.27 |
+| [`tg`](https://t.me/mwscr/452)                     | 2024-06-27 |   127 |    44 |       388 |  11.34 |
+|                                                    |            |   764 |   218 |      2726 |   8.32 |
 
 ## <span id="2024-06-26.in-an-ice-cave">In an Ice Cave</span>
 
