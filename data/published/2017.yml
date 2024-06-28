@@ -5324,24 +5324,24 @@
       id: C8hxumczkEX
       mediaId: '18026235872329176'
       published: 2024-06-22-18-18-42
-      updated: 2024-06-27-19-13-48
+      updated: 2024-06-28-20-15-18
       followers: 1421
       likes: 79
-      views: 307
+      views: 312
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2024-06-27-19-13-50
+      updated: 2024-06-28-20-15-18
       followers: 920
       likes: 33
-      views: 213
+      views: 222
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2024-06-27-19-13-49
+      updated: 2024-06-28-20-15-16
       followers: 387
-      likes: 54
-      views: 213
+      likes: 55
+      views: 224
 2017-06-18.manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
@@ -10284,25 +10284,29 @@
       id: C8upuzOxups
       mediaId: '18031796495309217'
       published: 2024-06-27-18-18-54
-      updated: 2024-06-28-19-11-42
+      updated: 2024-06-28-20-15-15
       followers: 1421
-      likes: 68
-      views: 284
+      likes: 69
+      views: 288
+      comments: !c |-
+        G80ASOToZlv47EHiSfbf2HeNaVm8BBZhQOnkQAPkamHwLEzaSiQwD3JxxIOttLv3KOhxOz9vNvTE
+        WqQ3CAuO1FZp2P6mEzR8CDEbYExChCANoEvCGaq+g5n6JiQFUrwlGfaho1X2S4C/MDUs3tnNkuMe
+        aQNC1rGnqO8ga1gLhD8lcVUBTHdJ2Dho7w==
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
-      updated: 2024-06-28-19-11-42
+      updated: 2024-06-28-20-15-14
       followers: 917
       likes: 30
-      views: 179
+      views: 181
       reposts: 1
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
-      updated: 2024-06-28-19-11-43
+      updated: 2024-06-28-20-15-14
       followers: 388
       likes: 44
-      views: 127
+      views: 132
 2017-12-11.princess-of-dusk-and-dawn:
   title: Princess of Dusk and Dawn
   titleRu: Принцесса рассвета и заката
