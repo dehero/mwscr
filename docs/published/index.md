@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`122 items`
+`123 items`
+
+## <span id="2024-06-28.dead-trees-of-the-east-coast">Dead Trees of the East Coast</span>
+
+`RU` Мёртвые деревья восточного побережья
+
+<a href="https://instagram.com/p/BdvHCYojafJ/" title="2018-01-09.dead-trees-of-the-east-coast"><img alt="store:/shots/2018-01-09.dead-trees-of-the-east-coast.png" src="../../assets/previews/shots/2018-01-09.dead-trees-of-the-east-coast.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-28.dead-trees-of-the-east-coast)</code> `🚀 OpenMW`
+
+```
+2024-06-28.dead-trees-of-the-east-coast
+```
+
+> `2018-01-09.dead-trees-of-the-east-coast`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BdvHCYojafJ/)       | 2018-01-09 |       |    98 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_572)  | 2018-01-09 |   179 |    15 |       119 |  12.61 |
+| [`ig`](https://instagram.com/p/C8xOkhoJ1Rz/)       | 2024-06-28 |       |       |      1421 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |       |       |       917 |        |
+| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |       |       |       387 |        |
+|                                                    |            |   179 |   113 |      2725 |        |
 
 ## <span id="2024-06-27.crates-and-pillows">Crates and Pillows</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BciJJ7NDkQ3/)       | 2017-12-10 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_533)  | 2017-12-10 |   174 |    15 |       108 |  13.89 |
-| [`ig`](https://instagram.com/p/C8upuzOxups/)       | 2024-06-27 |   284 |    66 |      1421 |   4.64 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |   175 |    30 |       917 |   3.27 |
+| [`ig`](https://instagram.com/p/C8upuzOxups/)       | 2024-06-27 |   284 |    68 |      1421 |   4.79 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |   176 |    30 |       917 |   3.27 |
 | [`tg`](https://t.me/mwscr/452)                     | 2024-06-27 |   119 |    43 |       388 |  11.08 |
-|                                                    |            |   752 |   215 |      2726 |   8.22 |
+|                                                    |            |   753 |   217 |      2726 |   8.26 |
 
 ## <span id="2024-06-26.in-an-ice-cave">In an Ice Cave</span>
 
@@ -55,10 +82,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaHizgWjxSW/)       | 2017-10-11 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_457)  | 2017-10-11 |   171 |    10 |        89 |     10 |
-| [`ig`](https://instagram.com/p/C8sFAeaNJ8f/)       | 2024-06-26 |   201 |    68 |      1422 |   4.78 |
+| [`ig`](https://instagram.com/p/C8sFAeaNJ8f/)       | 2024-06-26 |   201 |    69 |      1422 |   4.85 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1603) | 2024-06-26 |   161 |    30 |       917 |   3.27 |
 | [`tg`](https://t.me/mwscr/451)                     | 2024-06-26 |   149 |    48 |       388 |  12.37 |
-|                                                    |            |   682 |   210 |      2727 |   7.61 |
+|                                                    |            |   682 |   211 |      2727 |   7.62 |
 
 ## <span id="2024-06-25.night-street-of-balmora">Night Street of Balmora</span>
 
@@ -82,10 +109,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQHvvvZl6c9/)       | 2017-02-05 |       |    34 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_118)  | 2017-02-05 |   167 |    11 |        24 |     11 |
-| [`ig`](https://instagram.com/p/C8pgYD7TvbS/)       | 2024-06-25 |   285 |    89 |      1421 |   6.26 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1598) | 2024-06-25 |   198 |    34 |       917 |   3.71 |
-| [`tg`](https://t.me/mwscr/450)                     | 2024-06-25 |   150 |    52 |       388 |   13.4 |
-|                                                    |            |   800 |   220 |      2726 |   8.59 |
+| [`ig`](https://instagram.com/p/C8pgYD7TvbS/)       | 2024-06-25 |   300 |    92 |      1421 |   6.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1598) | 2024-06-25 |   218 |    34 |       917 |   3.71 |
+| [`tg`](https://t.me/mwscr/450)                     | 2024-06-25 |   165 |    54 |       388 |  13.92 |
+|                                                    |            |   850 |   225 |      2726 |   8.77 |
 
 #### Comments
 
