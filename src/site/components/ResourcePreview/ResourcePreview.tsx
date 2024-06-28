@@ -1,10 +1,12 @@
 import clsx from 'clsx';
-import { type Component, Match, onMount, Show, Switch } from 'solid-js';
+import type { Component } from 'solid-js';
+import { Match, onMount, Show, Switch } from 'solid-js';
 import type { MediaAspectRatio } from '../../../core/entities/media.js';
 import { parseResourceUrl } from '../../../core/entities/resource.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { Frame } from '../Frame/Frame.js';
 import frameStyles from '../Frame/Frame.module.css';
+import { useToaster } from '../Toaster/Toaster.jsx';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './ResourcePreview.module.css';
 
@@ -16,21 +18,28 @@ export interface ResourcePreviewProps {
   url: string;
   class?: string;
   onLoad?: () => void;
+  onError?: () => void;
   showTooltip?: boolean;
   aspectRatio?: MediaAspectRatio;
   alt?: string;
 }
 
 export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
+  const { addToast } = useToaster();
   const parsedUrl = () => parseResourceUrl(props.url);
   const src = () => getStorePreviewUrl(props.url);
   let ref: HTMLObjectElement | undefined;
-  let fallbackImageRef: HTMLImageElement | undefined;
+
+  const handleError = () => {
+    addToast(`Failed to load preview: ${src()}`);
+    props.onError?.();
+  };
 
   onMount(() => {
-    // Check if image is already loaded
-    if (props.onLoad && !fallbackImageRef?.complete) {
-      props.onLoad();
+    const data = src();
+    if (ref && data) {
+      // Force trigger onLoad event after hydration by changing data
+      ref.data = data;
     }
   });
 
@@ -53,15 +62,11 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
           class={clsx(frameStyles.thin, styles.preview, props.class)}
           draggable="false"
           onLoad={props.onLoad}
+          onError={handleError}
           style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
           aria-label={props.alt || props.url}
         >
-          <img
-            src={YellowExclamationMark}
-            class={styles.preview}
-            ref={fallbackImageRef}
-            alt="yellow exclamation mark"
-          />
+          <img src={YellowExclamationMark} class={styles.preview} alt="yellow exclamation mark" />
         </object>
 
         <Show when={props.showTooltip}>

@@ -65,12 +65,10 @@ export const Toaster: Component<ToasterProps> = (props) => {
     setIsAnimatingLoader(false);
 
     const ids = toastIdsWaitingForAnimationEnd();
-    setToastIdsWaitingForAnimationEnd([]);
     for (const id of ids) {
-      if (id) {
-        toasts.delete(id);
-      }
+      toasts.delete(id);
     }
+    setToastIdsWaitingForAnimationEnd([]);
   };
 
   createEffect(() => {
@@ -99,7 +97,6 @@ export const Toaster: Component<ToasterProps> = (props) => {
               <Loader
                 initialPercent={isServer ? 50 : 0}
                 onAnimationStart={() => {
-                  console.log('handleLoaderAnimationStart');
                   setIsAnimatingLoader(true);
                 }}
                 onAnimationEnd={handleLoaderAnimationEnd}

@@ -26,6 +26,7 @@ export const Loader: Component<LoaderProps> = (props) => {
         onAnimationEnd={props.onAnimationEnd}
         onTransitionStart={props.onAnimationStart}
         onTransitionEnd={props.onAnimationEnd}
+        onTransitionCancel={props.onAnimationEnd}
       />
     </Frame>
   );
