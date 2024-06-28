@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BdvHCYojafJ/)       | 2018-01-09 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_572)  | 2018-01-09 |   179 |    15 |       119 |  12.61 |
-| [`ig`](https://instagram.com/p/C8xOkhoJ1Rz/)       | 2024-06-28 |     1 |    31 |      1421 |   2.18 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |    69 |    14 |       917 |   1.53 |
-| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |    54 |    25 |       387 |   6.46 |
-|                                                    |            |   303 |   183 |      2725 |   5.69 |
+| [`ig`](https://instagram.com/p/C8xOkhoJ1Rz/)       | 2024-06-28 |    60 |    38 |      1421 |   2.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |    89 |    19 |       917 |   2.07 |
+| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |    62 |    27 |       387 |   6.98 |
+|                                                    |            |   390 |   197 |      2725 |   6.08 |
 
 ## <span id="2024-06-27.crates-and-pillows">Crates and Pillows</span>
 
@@ -55,14 +55,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BciJJ7NDkQ3/)       | 2017-12-10 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_533)  | 2017-12-10 |   174 |    15 |       108 |  13.89 |
-| [`ig`](https://instagram.com/p/C8upuzOxups/)       | 2024-06-27 |   288 |    69 |      1421 |   4.86 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |   181 |    30 |       917 |   3.27 |
+| [`ig`](https://instagram.com/p/C8upuzOxups/)       | 2024-06-27 |   291 |    70 |      1421 |   4.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |   186 |    31 |       917 |   3.38 |
 | [`tg`](https://t.me/mwscr/452)                     | 2024-06-27 |   132 |    44 |       388 |  11.34 |
-|                                                    |            |   775 |   219 |      2726 |   8.34 |
+|                                                    |            |   783 |   221 |      2726 |   8.38 |
 
 #### Comments
 
 - `ig` <ins title="2024-06-28-19-33-21">delanospies</ins> @dravenjv when did they put youre house in the game?
+  - <ins title="2024-06-28-20-22-13">delanospies</ins> @dravenjv let me guess....you &#39;found&#39; another skeleton of a dunmer &#39;specimen&#39;?
   - <ins title="2024-06-28-19-35-27">dravenjv</ins> make yourself comfortable man, just don&#39;t check out what&#39;s on the back of the post right there in the middle
 
 ## <span id="2024-06-26.in-an-ice-cave">In an Ice Cave</span>
@@ -478,10 +479,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |   386 |    94 |      1419 |   6.62 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |   243 |    36 |       915 |   3.93 |
-| [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |   286 |    58 |       386 |  15.03 |
-|                                                    |            |   915 |   188 |      2720 |   8.53 |
+| [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |   396 |    96 |      1419 |   6.77 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |   257 |    37 |       915 |   4.04 |
+| [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |   367 |    59 |       386 |  15.28 |
+|                                                    |            |  1020 |   192 |      2720 |    8.7 |
 
 #### Comments
 
@@ -1146,10 +1147,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTalkVND0Lj/)       | 2017-04-28 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_273)  | 2017-04-28 |   131 |     8 |        54 |      8 |
-| [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |   351 |    86 |      1423 |   6.04 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1545) | 2024-05-24 |   263 |    37 |       917 |   4.03 |
-| [`tg`](https://t.me/mwscr/418)                     | 2024-05-24 |   418 |    54 |       376 |  14.36 |
-|                                                    |            |  1163 |   242 |      2716 |   8.11 |
+| [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |   352 |    86 |      1423 |   6.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1545) | 2024-05-24 |   268 |    38 |       917 |   4.14 |
+| [`tg`](https://t.me/mwscr/418)                     | 2024-05-24 |   428 |    55 |       376 |  14.63 |
+|                                                    |            |  1179 |   244 |      2716 |    8.2 |
 
 #### Comments
 
@@ -2474,10 +2475,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BPcBYf9lwjH/)       | 2017-01-19 |       |    34 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_67)   | 2017-01-19 |   138 |     5 |         4 |      5 |
-| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   411 |   104 |      1413 |   7.36 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |   260 |    35 |       911 |   3.84 |
-| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |   427 |    67 |       352 |  19.03 |
-|                                                    |            |  1236 |   245 |      2676 |   8.81 |
+| [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   413 |   104 |      1413 |   7.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1491) | 2024-04-12 |   261 |    35 |       911 |   3.84 |
+| [`tg`](https://t.me/mwscr/376)                     | 2024-04-12 |   433 |    68 |       352 |  19.32 |
+|                                                    |            |  1245 |   246 |      2676 |   8.88 |
 
 #### Comments
 
