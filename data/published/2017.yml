@@ -664,7 +664,7 @@
     - service: yt
       id: 8Waikj-VsSI
       published: 2017-01-22
-      updated: 2024-06-21-16-17-57
+      updated: 2024-06-28-16-18-16
       likes: 7
       views: 125
     - service: vk
@@ -901,7 +901,7 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2024-06-21-16-17-57
+      updated: 2024-06-28-16-18-15
       likes: 25
       views: 563
       comments: !c CxOAkZPLQnaO0E6sgACqQE5hcnNNY2FpbrBJIGxvdmUgdGhpcyBzaGl0Aw==
@@ -1461,7 +1461,7 @@
     - service: yt
       id: Fd77v5UL_ek
       published: 2017-02-12
-      updated: 2024-06-21-16-17-56
+      updated: 2024-06-28-16-18-15
       likes: 29
       views: 641
       comments: !c |-
@@ -8517,21 +8517,21 @@
       id: C8sFAeaNJ8f
       mediaId: '17893372440023109'
       published: 2024-06-26-18-19-33
-      updated: 2024-06-28-15-15-32
+      updated: 2024-06-28-16-18-16
       followers: 1422
       likes: 68
       views: 200
     - service: vk
       id: 1603
       published: 2024-06-26-18-19-40
-      updated: 2024-06-28-15-15-32
+      updated: 2024-06-28-16-18-17
       followers: 917
       likes: 30
-      views: 159
+      views: 161
     - service: tg
       id: 451
       published: 2024-06-26-18-19-49
-      updated: 2024-06-28-15-15-32
+      updated: 2024-06-28-16-18-16
       followers: 388
       likes: 48
       views: 149
@@ -10284,25 +10284,25 @@
       id: C8upuzOxups
       mediaId: '18031796495309217'
       published: 2024-06-27-18-18-54
-      updated: 2024-06-28-15-15-31
+      updated: 2024-06-28-16-18-15
       followers: 1421
-      likes: 64
-      views: 272
+      likes: 65
+      views: 278
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
-      updated: 2024-06-28-15-15-31
+      updated: 2024-06-28-16-18-15
       followers: 917
-      likes: 28
-      views: 171
+      likes: 30
+      views: 174
       reposts: 1
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
-      updated: 2024-06-28-15-15-32
+      updated: 2024-06-28-16-18-16
       followers: 388
       likes: 42
-      views: 117
+      views: 118
 2017-12-11.princess-of-dusk-and-dawn:
   title: Princess of Dusk and Dawn
   titleRu: Принцесса рассвета и заката

@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BciJJ7NDkQ3/)       | 2017-12-10 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_533)  | 2017-12-10 |   174 |    15 |       108 |  13.89 |
-| [`ig`](https://instagram.com/p/C8upuzOxups/)       | 2024-06-27 |   272 |    64 |      1421 |    4.5 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |   171 |    28 |       917 |   3.05 |
-| [`tg`](https://t.me/mwscr/452)                     | 2024-06-27 |   117 |    42 |       388 |  10.82 |
-|                                                    |            |   734 |   210 |      2726 |   8.07 |
+| [`ig`](https://instagram.com/p/C8upuzOxups/)       | 2024-06-27 |   278 |    65 |      1421 |   4.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |   174 |    30 |       917 |   3.27 |
+| [`tg`](https://t.me/mwscr/452)                     | 2024-06-27 |   118 |    42 |       388 |  10.82 |
+|                                                    |            |   744 |   213 |      2726 |   8.14 |
 
 ## <span id="2024-06-26.in-an-ice-cave">In an Ice Cave</span>
 
@@ -56,9 +56,9 @@
 | [`ig`](https://instagram.com/p/BaHizgWjxSW/)       | 2017-10-11 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_457)  | 2017-10-11 |   171 |    10 |        89 |     10 |
 | [`ig`](https://instagram.com/p/C8sFAeaNJ8f/)       | 2024-06-26 |   200 |    68 |      1422 |   4.78 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1603) | 2024-06-26 |   159 |    30 |       917 |   3.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1603) | 2024-06-26 |   161 |    30 |       917 |   3.27 |
 | [`tg`](https://t.me/mwscr/451)                     | 2024-06-26 |   149 |    48 |       388 |  12.37 |
-|                                                    |            |   679 |   210 |      2727 |   7.61 |
+|                                                    |            |   681 |   210 |      2727 |   7.61 |
 
 ## <span id="2024-06-25.night-street-of-balmora">Night Street of Balmora</span>
 
