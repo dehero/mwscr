@@ -49,7 +49,7 @@ export interface PostPageData {
 export const PostPage: Component = () => {
   const { addToast } = useToaster();
   const params = useParams<PostRouteParams>();
-  let fallbackImageRef: HTMLImageElement | undefined;
+  let selectedContentRef: HTMLObjectElement | undefined;
 
   const [selectedContentIndex, setSelectedContentIndex] = createSignal(0);
 
@@ -72,6 +72,7 @@ export const PostPage: Component = () => {
   const selectedContentPublicUrl = () => contentPublicUrls()[selectedContentIndex()];
 
   const youtubePost = () => data.post?.posts?.find((post) => post.service === 'yt');
+  const youtubeUrl = () => (youtubePost() ? youtube.getServicePostUrl(youtubePost()!, true) : undefined);
 
   const published = () => Boolean(data.post?.posts);
   const withFullSizeContent = () =>
@@ -92,9 +93,12 @@ export const PostPage: Component = () => {
     addToast('Post ID copied to clipboard');
   };
 
-  const handleContentLoad = () => setIsLoading(false);
+  const handleContentLoad = () => {
+    setIsLoading(false);
+  };
 
-  const handleContentError = () => {
+  const handleContentError = (url: string) => {
+    addToast(`Failed to load content: ${url}`);
     setIsLoading(false);
   };
 
@@ -114,9 +118,10 @@ export const PostPage: Component = () => {
   };
 
   onMount(() => {
-    // Check if image is already loaded
-    if (fallbackImageRef) {
-      setIsLoading(!fallbackImageRef.complete);
+    const data = selectedContentPublicUrl();
+    if (selectedContentRef && data) {
+      // Force trigger onLoad event after hydration by changing data
+      selectedContentRef.data = data;
     }
   });
 
@@ -132,7 +137,7 @@ export const PostPage: Component = () => {
         data.post?.type && styles[data.post.type],
       )}
     >
-      <Toast message="Loading Content" show={isLoading()} loading />
+      <Toast message="Loading Content" show={content().length > 0 && isLoading()} loading />
       <Show when={data.post}>
         {(post) => (
           <>
@@ -181,10 +186,10 @@ export const PostPage: Component = () => {
                       />
                     }
                   >
-                    <Match when={resourceIsVideo(url()) && youtubePost()}>
+                    <Match when={resourceIsVideo(url()) && youtubeUrl()}>
                       <iframe
                         width={804}
-                        src={youtube.getServicePostUrl(youtubePost()!, true)}
+                        src={youtubeUrl()}
                         title={alt() || url()}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen
@@ -192,11 +197,13 @@ export const PostPage: Component = () => {
                         frameborder="0"
                         class={clsx(frameStyles.thin, styles.selectedContent, styles.youtubeVideo)}
                         onLoad={handleContentLoad}
+                        onError={() => handleContentError(youtubeUrl()!)}
                         style={{ 'aspect-ratio': aspectRatio() }}
                       />
                     </Match>
                     <Match when={resourceIsImage(url()) && selectedContentPublicUrl()}>
                       <object
+                        ref={selectedContentRef}
                         data={selectedContentPublicUrl()}
                         class={clsx(
                           frameStyles.thin,
@@ -205,16 +212,11 @@ export const PostPage: Component = () => {
                           isLoading() && styles.loading,
                         )}
                         onLoad={handleContentLoad}
-                        onError={handleContentError}
+                        onError={() => handleContentError(selectedContentPublicUrl()!)}
                         style={{ 'aspect-ratio': aspectRatio() }}
                         aria-label={alt() || url()}
                       >
-                        <img
-                          src={YellowExclamationMark}
-                          class={styles.image}
-                          ref={fallbackImageRef}
-                          alt="yellow exclamation mark"
-                        />
+                        <img src={YellowExclamationMark} class={styles.image} alt="yellow exclamation mark" />
                       </object>
 
                       <div class={styles.downloadButtonWrapper}>

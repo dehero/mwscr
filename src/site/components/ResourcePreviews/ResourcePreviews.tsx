@@ -14,17 +14,26 @@ export const ResourcePreviews: Component<ResourcePreviewsProps> = (props) => {
   const [loadedCount, setLoadedCount] = createSignal<number>(0);
 
   const handleLoad = () => {
-    setLoadedCount(loadedCount() + 1);
+    const count = loadedCount() + 1;
+    setLoadedCount(count);
 
-    if (props.onLoad && props.urls.length === loadedCount()) {
-      props.onLoad();
+    if (props.urls.length === count) {
+      props.onLoad?.();
     }
   };
 
   return (
     <div class={clsx(styles.container, props.class)}>
       <For each={props.urls}>
-        {(url) => <ResourcePreview url={url} class={styles.item} showTooltip={props.showTooltip} onLoad={handleLoad} />}
+        {(url) => (
+          <ResourcePreview
+            url={url}
+            class={styles.item}
+            showTooltip={props.showTooltip}
+            onLoad={handleLoad}
+            onError={handleLoad}
+          />
+        )}
       </For>
     </div>
   );
