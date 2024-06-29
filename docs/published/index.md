@@ -4,7 +4,39 @@
 
 # Published in 2024
 
-`123 items`
+`124 items`
+
+## <span id="2024-06-29.lich">Lich</span>
+
+`RU` Лич
+
+<a href="https://instagram.com/p/Bj-eugYlTzR/" title="2018-06-13.lich"><img alt="store:/shots/2018-06-13.lich.png" src="../../assets/previews/shots/2018-06-13.lich.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-29.lich)</code> `🚀 OpenMW` `🔗 Tribunal` `lich`
+
+```
+2024-06-29.lich
+```
+
+> `2018-06-13.lich`
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bj-eugYlTzR/)      | 2018-06-13 |       |   119 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_765) | 2018-06-13 |   346 |    20 |       173 |  11.56 |
+| [`tg`](https://t.me/mwscr/454)                    | 2024-06-29 |       |       |       388 |        |
+|                                                   |            |   346 |   139 |       561 |        |
+
+#### Comments
+
+- `ig` <ins title="2018-06-15-04-22-28">fryjohans_irk</ins> Rat be sneakin. Smart.
+- `vk` <ins title="2018-06-28-05-18-48">peteevandrew</ins> Ого, а такого не встречал ни разу. В каком-то дополнении?
+- `vk` <ins title="2018-06-30-10-40-15">dehero</ins> Андрей, в дополнении Tribunal, в Старом Морнхолде.
+- `vk` <ins title="2018-06-30-10-48-47">peteevandrew</ins> Антон, спасибо! Туда не спускался. Сильный он?
 
 ## <span id="2024-06-28.dead-trees-of-the-east-coast">Dead Trees of the East Coast</span>
 
@@ -29,9 +61,9 @@
 | [`ig`](https://instagram.com/p/BdvHCYojafJ/)       | 2018-01-09 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_572)  | 2018-01-09 |   179 |    15 |       119 |  12.61 |
 | [`ig`](https://instagram.com/p/C8xOkhoJ1Rz/)       | 2024-06-28 |   157 |    50 |      1421 |   3.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |   160 |    28 |       917 |   3.05 |
-| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |    98 |    43 |       387 |  11.11 |
-|                                                    |            |   594 |   234 |      2725 |   7.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |   163 |    28 |       917 |   3.05 |
+| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |    99 |    43 |       387 |  11.11 |
+|                                                    |            |   598 |   234 |      2725 |   7.57 |
 
 ## <span id="2024-06-27.crates-and-pillows">Crates and Pillows</span>
 
@@ -56,9 +88,9 @@
 | [`ig`](https://instagram.com/p/BciJJ7NDkQ3/)       | 2017-12-10 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_533)  | 2017-12-10 |   174 |    15 |       108 |  13.89 |
 | [`ig`](https://instagram.com/p/C8upuzOxups/)       | 2024-06-27 |   314 |    74 |      1421 |   5.21 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |   212 |    34 |       917 |   3.71 |
-| [`tg`](https://t.me/mwscr/452)                     | 2024-06-27 |   143 |    48 |       388 |  12.37 |
-|                                                    |            |   843 |   232 |      2726 |   8.79 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |   213 |    34 |       917 |   3.71 |
+| [`tg`](https://t.me/mwscr/452)                     | 2024-06-27 |   144 |    48 |       388 |  12.37 |
+|                                                    |            |   845 |   232 |      2726 |   8.79 |
 
 #### Comments
 

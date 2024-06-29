@@ -247,18 +247,18 @@
     - service: vk
       id: 1607
       published: 2024-06-28-18-19-25
-      updated: 2024-06-29-17-12-51
+      updated: 2024-06-29-18-18-31
       followers: 917
       likes: 28
-      views: 160
+      views: 163
       reposts: 1
     - service: tg
       id: 453
       published: 2024-06-28-18-19-31
-      updated: 2024-06-29-17-12-52
+      updated: 2024-06-29-18-18-32
       followers: 387
       likes: 43
-      views: 98
+      views: 99
 2018-01-10.rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
@@ -4791,6 +4791,10 @@
         EDUkwQOTgojW+3/EsMFCW+1WWapOTq8HlaAFFGCCsQYWaKlFgXOsRIfahLe/uK6//5yP+2txv7cB
         zFRzx7rwe2kExvImirBKtRQ9oIIyJfhqM86YuN7aqxRONikUiMsjwPXbeuTyfSro7UYNeSmMEcbK
         ex+CRQ/JslxxUYndFNymEf6s5mDQsEo4UrGhIj20xV3jEBQC1voTVKXfjC5VX+xjnEH1AA==
+    - service: tg
+      id: 454
+      published: 2024-06-29-18-18-56
+      followers: 388
 2018-06-14.the-blue-corridor:
   title: The Blue Corridor
   titleRu: Синий коридор
