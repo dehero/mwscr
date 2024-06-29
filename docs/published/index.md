@@ -29,9 +29,9 @@
 | [`ig`](https://instagram.com/p/BdvHCYojafJ/)       | 2018-01-09 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_572)  | 2018-01-09 |   179 |    15 |       119 |  12.61 |
 | [`ig`](https://instagram.com/p/C8xOkhoJ1Rz/)       | 2024-06-28 |   157 |    50 |      1421 |   3.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |   145 |    28 |       917 |   3.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |   151 |    28 |       917 |   3.05 |
 | [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |    89 |    41 |       387 |  10.59 |
-|                                                    |            |   570 |   232 |      2725 |   7.44 |
+|                                                    |            |   576 |   232 |      2725 |   7.44 |
 
 ## <span id="2024-06-27.crates-and-pillows">Crates and Pillows</span>
 
@@ -56,9 +56,9 @@
 | [`ig`](https://instagram.com/p/BciJJ7NDkQ3/)       | 2017-12-10 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_533)  | 2017-12-10 |   174 |    15 |       108 |  13.89 |
 | [`ig`](https://instagram.com/p/C8upuzOxups/)       | 2024-06-27 |   314 |    74 |      1421 |   5.21 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |   205 |    33 |       917 |    3.6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |   207 |    33 |       917 |    3.6 |
 | [`tg`](https://t.me/mwscr/452)                     | 2024-06-27 |   138 |    48 |       388 |  12.37 |
-|                                                    |            |   831 |   231 |      2726 |   8.77 |
+|                                                    |            |   833 |   231 |      2726 |   8.77 |
 
 #### Comments
 
