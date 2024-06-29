@@ -1724,18 +1724,18 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-06-22-21-14-02
+      updated: 2024-06-29-22-15-01
       followers: 916
-      likes: 46
-      views: 334
-      reposts: 5
+      likes: 48
+      views: 353
+      reposts: 6
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-06-22-21-14-02
+      updated: 2024-06-29-22-15-02
       followers: 386
-      likes: 65
-      views: 249
+      likes: 67
+      views: 319
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
