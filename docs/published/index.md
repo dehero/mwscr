@@ -24,12 +24,13 @@
 
 ### Reactions
 
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/Bj-eugYlTzR/)      | 2018-06-13 |       |   119 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_765) | 2018-06-13 |   346 |    20 |       173 |  11.56 |
-| [`tg`](https://t.me/mwscr/454)                    | 2024-06-29 |       |       |       388 |        |
-|                                                   |            |   346 |   139 |       561 |        |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bj-eugYlTzR/)       | 2018-06-13 |       |   119 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_765)  | 2018-06-13 |   346 |    20 |       173 |  11.56 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1608) | 2024-06-29 |       |       |       918 |        |
+| [`tg`](https://t.me/mwscr/454)                     | 2024-06-29 |    71 |    24 |       388 |   6.19 |
+|                                                    |            |   417 |   163 |      1306 |   8.87 |
 
 #### Comments
 
@@ -61,9 +62,9 @@
 | [`ig`](https://instagram.com/p/BdvHCYojafJ/)       | 2018-01-09 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_572)  | 2018-01-09 |   179 |    15 |       119 |  12.61 |
 | [`ig`](https://instagram.com/p/C8xOkhoJ1Rz/)       | 2024-06-28 |   157 |    50 |      1421 |   3.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |   163 |    28 |       917 |   3.05 |
-| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |    99 |    43 |       387 |  11.11 |
-|                                                    |            |   598 |   234 |      2725 |   7.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |   164 |    28 |       917 |   3.05 |
+| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |   111 |    44 |       387 |  11.37 |
+|                                                    |            |   611 |   235 |      2725 |   7.64 |
 
 ## <span id="2024-06-27.crates-and-pillows">Crates and Pillows</span>
 
@@ -121,9 +122,9 @@
 | [`ig`](https://instagram.com/p/BaHizgWjxSW/)       | 2017-10-11 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_457)  | 2017-10-11 |   171 |    10 |        89 |     10 |
 | [`ig`](https://instagram.com/p/C8sFAeaNJ8f/)       | 2024-06-26 |   201 |    69 |      1422 |   4.85 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1603) | 2024-06-26 |   161 |    30 |       917 |   3.27 |
-| [`tg`](https://t.me/mwscr/451)                     | 2024-06-26 |   149 |    48 |       388 |  12.37 |
-|                                                    |            |   682 |   211 |      2727 |   7.62 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1603) | 2024-06-26 |   176 |    32 |       917 |   3.49 |
+| [`tg`](https://t.me/mwscr/451)                     | 2024-06-26 |   170 |    51 |       388 |  13.14 |
+|                                                    |            |   718 |   216 |      2727 |   7.87 |
 
 ## <span id="2024-06-25.night-street-of-balmora">Night Street of Balmora</span>
 
@@ -148,9 +149,9 @@
 | [`ig`](https://instagram.com/p/BQHvvvZl6c9/)       | 2017-02-05 |       |    34 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_118)  | 2017-02-05 |   167 |    11 |        24 |     11 |
 | [`ig`](https://instagram.com/p/C8pgYD7TvbS/)       | 2024-06-25 |   300 |    92 |      1421 |   6.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1598) | 2024-06-25 |   218 |    34 |       917 |   3.71 |
-| [`tg`](https://t.me/mwscr/450)                     | 2024-06-25 |   165 |    54 |       388 |  13.92 |
-|                                                    |            |   850 |   225 |      2726 |   8.77 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1598) | 2024-06-25 |   231 |    35 |       917 |   3.82 |
+| [`tg`](https://t.me/mwscr/450)                     | 2024-06-25 |   195 |    57 |       388 |  14.69 |
+|                                                    |            |   893 |   229 |      2726 |      9 |
 
 #### Comments
 
