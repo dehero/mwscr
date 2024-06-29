@@ -247,18 +247,18 @@
     - service: vk
       id: 1607
       published: 2024-06-28-18-19-25
-      updated: 2024-06-29-20-14-30
+      updated: 2024-06-29-21-13-46
       followers: 917
       likes: 28
-      views: 165
+      views: 166
       reposts: 1
     - service: tg
       id: 453
       published: 2024-06-28-18-19-31
-      updated: 2024-06-29-20-14-31
+      updated: 2024-06-29-21-13-47
       followers: 387
       likes: 44
-      views: 112
+      views: 114
 2018-01-10.rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
@@ -2812,11 +2812,11 @@
     - service: vk
       id: 1595
       published: 2024-06-23-18-18-57
-      updated: 2024-06-28-20-15-17
+      updated: 2024-06-29-21-13-48
       followers: 918
-      likes: 29
-      views: 216
-      reposts: 1
+      likes: 30
+      views: 227
+      reposts: 2
       comments: !c |-
         G4gBAKwSbBsG2w8bynXAGZ7iZETfb+wHKP1RmT/MUGidRNCiQUs2WAKpWCh7XTfnc76uYpEEqtti
         s4SnYNLStx9R8TC0VdvCRGVS0WRHHvznDlw+fTpILPDWAssu07cDagFAuk08lO6OHRpBm0TEn+9l
@@ -2826,10 +2826,10 @@
     - service: tg
       id: 448
       published: 2024-06-23-18-19-06
-      updated: 2024-06-28-20-15-16
+      updated: 2024-06-29-21-13-48
       followers: 389
       likes: 47
-      views: 220
+      views: 231
 2018-04-08.the-symmetry-of-vivec:
   title: The Symmetry of Vivec
   titleRu: Симметрия Вивека
@@ -4794,17 +4794,17 @@
     - service: tg
       id: 454
       published: 2024-06-29-18-18-56
-      updated: 2024-06-29-20-14-31
+      updated: 2024-06-29-21-13-46
       followers: 388
-      likes: 27
-      views: 82
+      likes: 28
+      views: 90
     - service: vk
       id: 1608
       published: 2024-06-29-19-11-46
-      updated: 2024-06-29-20-14-29
+      updated: 2024-06-29-21-13-45
       followers: 918
-      likes: 6
-      views: 35
+      likes: 9
+      views: 55
       reposts: 1
 2018-06-14.the-blue-corridor:
   title: The Blue Corridor
@@ -6937,18 +6937,18 @@
     - service: vk
       id: 1597
       published: 2024-06-24-18-20-03
-      updated: 2024-06-28-20-15-15
+      updated: 2024-06-29-21-13-47
       followers: 917
-      likes: 43
-      views: 246
-      reposts: 1
+      likes: 44
+      views: 257
+      reposts: 2
     - service: tg
       id: 449
       published: 2024-06-24-18-20-11
-      updated: 2024-06-28-20-15-15
+      updated: 2024-06-29-21-13-47
       followers: 388
       likes: 60
-      views: 243
+      views: 258
 2018-09-01.haze-in-tel-branora:
   title: Haze in Tel Branora
   titleRu: Мгла в Тель Браноре
