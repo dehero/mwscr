@@ -1800,17 +1800,18 @@
     - service: vk
       id: 1538
       published: 2024-05-19-18-18-25
-      updated: 2024-06-23-22-13-06
+      updated: 2024-06-30-22-13-36
       followers: 916
-      likes: 34
-      views: 226
+      likes: 36
+      views: 233
+      reposts: 1
     - service: tg
       id: 413
       published: 2024-05-19-18-18-32
-      updated: 2024-06-23-22-13-07
+      updated: 2024-06-30-22-13-36
       followers: 372
       likes: 59
-      views: 389
+      views: 402
       comments: !c CxiAkZPLQnj5MWNCgACrYm9icm92bmlrb3a5SSB3YW50IHRvIGhpYmVybmF0ZSB0aGVyZQM=
 2024-05-20.place-to-sleep:
   title: Place to Sleep
