@@ -1170,18 +1170,18 @@
     - service: vk
       id: 1598
       published: 2024-06-25-18-21-05
-      updated: 2024-06-29-19-11-29
+      updated: 2024-06-30-19-12-33
       followers: 917
-      likes: 35
-      views: 231
+      likes: 36
+      views: 240
       reposts: 1
     - service: tg
       id: 450
       published: 2024-06-25-18-21-11
-      updated: 2024-06-29-19-11-30
+      updated: 2024-06-30-19-12-34
       followers: 388
-      likes: 57
-      views: 195
+      likes: 58
+      views: 209
 2017-02-06.maurrie-is-waiting-for-nelos:
   title: Maurrie Is Waiting for Nelos
   titleRu: Морри ждёт Нелоса
@@ -8524,17 +8524,17 @@
     - service: vk
       id: 1603
       published: 2024-06-26-18-19-40
-      updated: 2024-06-29-19-11-28
+      updated: 2024-06-30-19-12-32
       followers: 917
-      likes: 32
-      views: 176
+      likes: 33
+      views: 194
     - service: tg
       id: 451
       published: 2024-06-26-18-19-49
-      updated: 2024-06-29-19-11-29
+      updated: 2024-06-30-19-12-33
       followers: 388
       likes: 51
-      views: 170
+      views: 192
 2017-10-12.gnaar-mok:
   title: Gnaar Mok
   titleRu: Гнаар Мок
@@ -9444,11 +9444,17 @@
     - service: vk
       id: 1609
       published: 2024-06-30-18-20-32
+      updated: 2024-06-30-19-12-30
       followers: 918
+      likes: 11
+      views: 49
     - service: tg
       id: 455
       published: 2024-06-30-18-20-40
+      updated: 2024-06-30-19-12-31
       followers: 388
+      likes: 23
+      views: 58
 2017-11-13.three-guars-at-the-crossroads:
   title: Three Guars at the Crossroads
   titleRu: Три гуара на распутье
