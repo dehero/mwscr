@@ -4,7 +4,33 @@
 
 # Published in 2024
 
-`124 items`
+`125 items`
+
+## <span id="2024-06-30.ice-shivers">Ice Shivers</span>
+
+`RU` Ледяные обломки
+
+<a href="https://instagram.com/p/BbZ220NDivK/" title="2017-11-12.ice-shivers"><img alt="store:/shots/2017-11-12.ice-shivers.png" src="../../assets/previews/shots/2017-11-12.ice-shivers.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-30.ice-shivers)</code> `🚀 OpenMW` `🔗 Bloodmoon` `ice`
+
+```
+2024-06-30.ice-shivers
+```
+
+> `2017-11-12.ice-shivers`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BbZ220NDivK/)       | 2017-11-12 |       |    66 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_497)  | 2017-11-12 |   170 |    14 |        99 |     14 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1609) | 2024-06-30 |       |       |       918 |        |
+| [`tg`](https://t.me/mwscr/455)                     | 2024-06-30 |       |       |       388 |        |
+|                                                    |            |   170 |    80 |      1306 |        |
 
 ## <span id="2024-06-29.lich">Lich</span>
 
@@ -28,9 +54,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bj-eugYlTzR/)       | 2018-06-13 |       |   119 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_765)  | 2018-06-13 |   346 |    20 |       173 |  11.56 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1608) | 2024-06-29 |   198 |    28 |       918 |   3.05 |
-| [`tg`](https://t.me/mwscr/454)                     | 2024-06-29 |   147 |    40 |       388 |  10.31 |
-|                                                    |            |   691 |   207 |      1306 |   8.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1608) | 2024-06-29 |   200 |    28 |       918 |   3.05 |
+| [`tg`](https://t.me/mwscr/454)                     | 2024-06-29 |   148 |    40 |       388 |  10.31 |
+|                                                    |            |   694 |   207 |      1306 |   8.31 |
 
 #### Comments
 
@@ -89,9 +115,9 @@
 | [`ig`](https://instagram.com/p/BciJJ7NDkQ3/)       | 2017-12-10 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_533)  | 2017-12-10 |   174 |    15 |       108 |  13.89 |
 | [`ig`](https://instagram.com/p/C8upuzOxups/)       | 2024-06-27 |   314 |    74 |      1421 |   5.21 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |   213 |    34 |       917 |   3.71 |
-| [`tg`](https://t.me/mwscr/452)                     | 2024-06-27 |   144 |    48 |       388 |  12.37 |
-|                                                    |            |   845 |   232 |      2726 |   8.79 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1606) | 2024-06-27 |   242 |    36 |       917 |   3.93 |
+| [`tg`](https://t.me/mwscr/452)                     | 2024-06-27 |   163 |    50 |       388 |  12.89 |
+|                                                    |            |   893 |   236 |      2726 |   8.98 |
 
 #### Comments
 

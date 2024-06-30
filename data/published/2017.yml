@@ -9441,6 +9441,14 @@
       followers: 99
       likes: 14
       views: 170
+    - service: vk
+      id: 1609
+      published: 2024-06-30-18-20-32
+      followers: 918
+    - service: tg
+      id: 455
+      published: 2024-06-30-18-20-40
+      followers: 388
 2017-11-13.three-guars-at-the-crossroads:
   title: Three Guars at the Crossroads
   titleRu: Три гуара на распутье
@@ -10296,18 +10304,18 @@
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
-      updated: 2024-06-29-18-18-32
+      updated: 2024-06-30-18-20-17
       followers: 917
-      likes: 34
-      views: 213
+      likes: 36
+      views: 242
       reposts: 1
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
-      updated: 2024-06-29-18-18-33
+      updated: 2024-06-30-18-20-17
       followers: 388
-      likes: 48
-      views: 144
+      likes: 50
+      views: 163
 2017-12-11.princess-of-dusk-and-dawn:
   title: Princess of Dusk and Dawn
   titleRu: Принцесса рассвета и заката
