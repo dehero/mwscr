@@ -1980,17 +1980,17 @@
     - service: vk
       id: 1576
       published: 2024-06-09-18-18-45
-      updated: 2024-06-23-20-15-04
+      updated: 2024-06-30-20-15-26
       followers: 916
-      likes: 29
-      views: 230
+      likes: 30
+      views: 245
     - service: tg
       id: 434
       published: 2024-06-09-18-18-52
-      updated: 2024-06-23-20-15-03
+      updated: 2024-06-30-20-15-27
       followers: 384
-      likes: 54
-      views: 310
+      likes: 56
+      views: 357
 2024-06-10.utensil:
   title: Utensil
   titleRu: Утварь

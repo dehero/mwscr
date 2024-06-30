@@ -2823,17 +2823,18 @@
     - service: vk
       id: 1583
       published: 2024-06-16-18-19-48
-      updated: 2024-06-23-20-15-04
+      updated: 2024-06-30-20-15-25
       followers: 918
-      likes: 40
-      views: 252
+      likes: 49
+      views: 332
+      reposts: 2
     - service: tg
       id: 441
       published: 2024-06-16-18-19-56
-      updated: 2024-06-23-20-15-03
+      updated: 2024-06-30-20-15-26
       followers: 386
-      likes: 53
-      views: 246
+      likes: 57
+      views: 322
 2017-03-27.on-the-edge-of-a-dead-forest:
   title: On the Edge of a Dead Forest
   titleRu: На краю мёртвого леса
@@ -9444,17 +9445,17 @@
     - service: vk
       id: 1609
       published: 2024-06-30-18-20-32
-      updated: 2024-06-30-19-12-30
+      updated: 2024-06-30-20-15-23
       followers: 918
-      likes: 11
-      views: 49
+      likes: 12
+      views: 62
     - service: tg
       id: 455
       published: 2024-06-30-18-20-40
-      updated: 2024-06-30-19-12-31
+      updated: 2024-06-30-20-15-24
       followers: 388
-      likes: 23
-      views: 58
+      likes: 29
+      views: 74
 2017-11-13.three-guars-at-the-crossroads:
   title: Three Guars at the Crossroads
   titleRu: Три гуара на распутье
