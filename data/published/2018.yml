@@ -2813,10 +2813,10 @@
     - service: vk
       id: 1595
       published: 2024-06-23-18-18-57
-      updated: 2024-06-29-21-13-48
+      updated: 2024-06-30-21-15-01
       followers: 918
       likes: 30
-      views: 227
+      views: 235
       reposts: 2
       comments: !c |-
         G4gBAKwSbBsG2w8bynXAGZ7iZETfb+wHKP1RmT/MUGidRNCiQUs2WAKpWCh7XTfnc76uYpEEqtti
@@ -2827,10 +2827,10 @@
     - service: tg
       id: 448
       published: 2024-06-23-18-19-06
-      updated: 2024-06-29-21-13-48
+      updated: 2024-06-30-21-15-01
       followers: 389
       likes: 47
-      views: 231
+      views: 252
 2018-04-08.the-symmetry-of-vivec:
   title: The Symmetry of Vivec
   titleRu: Симметрия Вивека
@@ -4795,17 +4795,17 @@
     - service: tg
       id: 454
       published: 2024-06-29-18-18-56
-      updated: 2024-06-30-20-15-25
+      updated: 2024-06-30-21-14-59
       followers: 388
-      likes: 42
-      views: 178
+      likes: 43
+      views: 185
     - service: vk
       id: 1608
       published: 2024-06-29-19-11-46
-      updated: 2024-06-30-20-15-24
+      updated: 2024-06-30-21-14-59
       followers: 918
       likes: 28
-      views: 208
+      views: 209
       reposts: 2
 2018-06-14.the-blue-corridor:
   title: The Blue Corridor
@@ -6938,18 +6938,18 @@
     - service: vk
       id: 1597
       published: 2024-06-24-18-20-03
-      updated: 2024-06-29-21-13-47
+      updated: 2024-06-30-21-15-00
       followers: 917
-      likes: 44
-      views: 257
+      likes: 45
+      views: 264
       reposts: 2
     - service: tg
       id: 449
       published: 2024-06-24-18-20-11
-      updated: 2024-06-29-21-13-47
+      updated: 2024-06-30-21-15-00
       followers: 388
-      likes: 60
-      views: 258
+      likes: 62
+      views: 293
 2018-09-01.haze-in-tel-branora:
   title: Haze in Tel Branora
   titleRu: Мгла в Тель Браноре
