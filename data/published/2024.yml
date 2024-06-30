@@ -1444,17 +1444,17 @@
     - service: vk
       id: 1518
       published: 2024-05-04-18-17-19
-      updated: 2024-06-23-01-10-26
+      updated: 2024-06-30-01-12-10
       followers: 912
-      likes: 24
-      views: 239
+      likes: 25
+      views: 243
     - service: tg
       id: 398
       published: 2024-05-04-18-17-25
-      updated: 2024-06-23-01-10-27
+      updated: 2024-06-30-01-12-10
       followers: 367
       likes: 56
-      views: 426
+      views: 434
 2024-05-05.dinner-for-four:
   title: Dinner for Four
   titleRu: Обед на четверых

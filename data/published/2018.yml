@@ -247,18 +247,18 @@
     - service: vk
       id: 1607
       published: 2024-06-28-18-19-25
-      updated: 2024-06-29-23-14-55
+      updated: 2024-06-30-01-12-08
       followers: 917
       likes: 28
-      views: 169
+      views: 170
       reposts: 1
     - service: tg
       id: 453
       published: 2024-06-28-18-19-31
-      updated: 2024-06-29-23-14-55
+      updated: 2024-06-30-01-12-08
       followers: 387
       likes: 44
-      views: 116
+      views: 118
 2018-01-10.rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
@@ -1913,17 +1913,18 @@
     - service: vk
       id: 1537
       published: 2024-05-18-18-18-31
-      updated: 2024-06-23-01-10-24
+      updated: 2024-06-30-01-12-09
       followers: 915
-      likes: 25
-      views: 253
+      likes: 27
+      views: 259
+      reposts: 1
     - service: tg
       id: 412
       published: 2024-05-18-18-18-39
-      updated: 2024-06-23-01-10-25
+      updated: 2024-06-30-01-12-09
       followers: 372
       likes: 51
-      views: 364
+      views: 374
       comments: !c iw2AkZPLQnj40RlbgACrYm9icm92bmlrb3akY296eQM=
 2018-03-08.dead-guar:
   title: Dead Guar
@@ -3539,18 +3540,18 @@
     - service: vk
       id: 1511
       published: 2024-04-27-18-16-27
-      updated: 2024-06-23-01-10-26
+      updated: 2024-06-30-01-12-11
       followers: 911
       likes: 30
-      views: 242
+      views: 245
       reposts: 1
     - service: tg
       id: 391
       published: 2024-04-27-18-16-36
-      updated: 2024-06-23-01-10-27
+      updated: 2024-06-30-01-12-10
       followers: 354
       likes: 57
-      views: 431
+      views: 436
 2018-05-04.table-for-two:
   title: Table for Two
   titleRu: Столик на двоих
@@ -4794,17 +4795,17 @@
     - service: tg
       id: 454
       published: 2024-06-29-18-18-56
-      updated: 2024-06-29-23-14-54
+      updated: 2024-06-30-01-12-07
       followers: 388
       likes: 32
-      views: 104
+      views: 111
     - service: vk
       id: 1608
       published: 2024-06-29-19-11-46
-      updated: 2024-06-29-23-14-54
+      updated: 2024-06-30-01-12-07
       followers: 918
       likes: 14
-      views: 76
+      views: 88
       reposts: 1
 2018-06-14.the-blue-corridor:
   title: The Blue Corridor
