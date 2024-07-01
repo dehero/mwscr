@@ -4,7 +4,33 @@
 
 # Published in 2024
 
-`125 items`
+`126 items`
+
+## <span id="2024-07-01.near-the-ancient-dwelling">Near the Ancient Dwelling</span>
+
+`RU` У древнего жилища
+
+<a href="https://instagram.com/p/BUd_0EqDzzK/" title="2017-05-24.near-the-ancient-dwelling"><img alt="store:/shots/2017-05-24.near-the-ancient-dwelling.png" src="../../assets/previews/shots/2017-05-24.near-the-ancient-dwelling.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-01.near-the-ancient-dwelling)</code> `🚀 OpenMW`
+
+```
+2024-07-01.near-the-ancient-dwelling
+```
+
+> `2017-05-24.near-the-ancient-dwelling`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BUd_0EqDzzK/)       | 2017-05-24 |       |    59 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_300)  | 2017-05-24 |   110 |     4 |        57 |      4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1610) | 2024-07-01 |       |       |       918 |        |
+| [`tg`](https://t.me/mwscr/456)                     | 2024-07-01 |       |       |       390 |        |
+|                                                    |            |   110 |    63 |      1308 |        |
 
 ## <span id="2024-06-30.ice-shivers">Ice Shivers</span>
 
@@ -28,9 +54,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbZ220NDivK/)       | 2017-11-12 |       |    66 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_497)  | 2017-11-12 |   170 |    14 |        99 |     14 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1609) | 2024-06-30 |   148 |    26 |       918 |   2.83 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1609) | 2024-06-30 |   150 |    26 |       918 |   2.83 |
 | [`tg`](https://t.me/mwscr/455)                     | 2024-06-30 |   136 |    46 |       388 |  11.86 |
-|                                                    |            |   454 |   152 |      1306 |   9.56 |
+|                                                    |            |   456 |   152 |      1306 |   9.56 |
 
 ## <span id="2024-06-29.lich">Lich</span>
 
