@@ -1480,7 +1480,7 @@
     - service: tg
       id: 299
       published: 2022-07-30
-      updated: 2024-06-25-07-14-07
+      updated: 2024-07-02-07-15-26
       followers: 278
       likes: 50
       views: 1308
@@ -1529,7 +1529,7 @@
         - 302
         - 303
       published: 2022-07-31
-      updated: 2024-06-25-07-14-07
+      updated: 2024-07-02-07-15-26
       followers: 277
       likes: 56
       views: 1558
@@ -1564,15 +1564,15 @@
     - service: tg
       id: 304
       published: 2022-08-01
-      updated: 2024-06-25-07-14-06
+      updated: 2024-07-02-07-15-26
       followers: 279
       likes: 55
-      views: 1632
+      views: 1633
       comments: !c |-
-        G9MAwJwHtvOUgIXxaVq5c5CWz3OuiU0zaG/cF3wclVaAO9AWuef5L8ptrDOnREGYmm196lVmqJMj
-        jTXSdsojye78KMAM0x2ya8c/UUSVncLw5E5EK0nNiEO2UZyk6bfH68Swl20JJnyT4z7bytarrWKv
-        /xfvZsxZPNsbhNxnYDQOxqxCPb//0QQR6L6kvAXr3ucwQmmUrd3rtftPtikQgAF8EiSTqE28xRoc
-        XToqS3nTXrtQbVTzy1RUlQY=
+        G9QAwJwHtuOVBcnhoxXSwUkQuUsszZIwoAosoCerBVjgrUiTe8htrDOnREGY2jZAgOoGz40wyobW
+        j2gd2YUvfJ0c6Vkjbac8kpbkXEJlltsYeK4I1qnC1Zwv7QIFM1fqZDdJM3XbW5fRtQR4+HY80rqq
+        aJNx+v3dzDnLZ3tARBsqzWFmSSW7hMcICdLhsgXn1Y6JC9CmG8duK9q4gxBgwJtIyRNB7fZ7/MV0
+        OoH5GLu4qItom9KyTAI=
 2022-08-02.dark-spells:
   title: Dark Spells
   titleRu: Тёмные заклинания
@@ -1603,14 +1603,14 @@
     - service: tg
       id: 305
       published: 2022-08-02
-      updated: 2024-06-25-07-14-05
+      updated: 2024-07-02-07-15-25
       followers: 281
       likes: 68
-      views: 2153
+      views: 2156
       comments: !c |-
-        C0SAlJPLQnjqgZW9AACrVmVicmFuZGVub0u60L3QsCDQutCw0YDQsNC9INC/0L7RhdC+0LaTy0J4
-        Jobp2AAAqWFuYWtpbmVyc6VncmVhdJPLQngmLFQlgACrcnl1a2VuZGVuXzmu0KjQuNC60LDRgNC9
-        0L6Ty0J4JgdnRAAAqG1vbmdsZXJppG5pY2UD
+        C0WAlJPLQnjqgZW9AACrVmVicmFuZGVub0u60L3QsCDQutCw0YDQsNC9INC/0L7RhdC+0LaTy0J4
+        Jobp2AAAqWFuYWtpbmVyc6VncmVhdJPLQngmLFQlgACtQnVzaGlkb2thUmlkZa7QqNC40LrQsNGA
+        0L3QvpPLQngmB2dEAACobW9uZ2xlcmmkbmljZQM=
 2022-08-03.a-haven-on-bad-weather:
   title: A Haven on Bad Weather
   titleRu: Пристанище в ненастье
@@ -1650,22 +1650,21 @@
     - service: tg
       id: 306
       published: 2022-08-03
-      updated: 2024-06-25-07-14-05
+      updated: 2024-07-02-07-15-25
       followers: 281
       likes: 80
-      views: 2192
+      views: 2195
       comments: !c |-
-        G5MFACwKbGPp4IFFbsbnZdQldZ5HsrBFFBzmg35Aco9pVdMxItVKo9ADpWtvQAGps8IxcTmsRwqU
-        xFLLFPKvIzRtlhGwHYr5zv2BTGQ4m+4dzTKNunC0/QSKEogUyP851wgGvMY9r3q+q14HHx9QtDWf
-        0E+co6j7P1UTC1hC9ZLlFfH+da2fbOwcGbixlBaoBZ/YDVTApSKbd61mBsU+cXryRSbb2x8Bjfsd
-        L3T6wxmg5jwOT4KNmPl1ATLB5jGne/dem83qZYEMd2wLhoSjhaVWS/Lj0KziK+U+kaKDvyfiSz0D
-        iTDu0o9olVEcv8NZCJ+KX9pxQM9E4qaO68upJwi0EDB2+yGlxFVfPoZD9MMtT872PLtZRAAhZyBq
-        ols4uMlYUW+MKHOmIO69ufC8YA88O9rMl3fzdNrbVZqgELrTtkP/mEl3t0fz+crKs1Nn7D2iWOYk
-        3AznAWJnfJf/TuM+51lG+/+le/zrgl+8QMDHvL3Zdb1xuv5MwepAw6hHrvMJUErFjbehqxbjUWNA
-        zODoyjiJWJ0I13hbKbq6NAse+vrmDPoDUA5IRUyDOAxSF1bjQO/9padmjJfSQ5ejpakgvSDBYaDd
-        eNpN+yvyQQYYpcFuNhPXIc1QxTW1vsQl9q6VcrENrbJZkOBq9dHdDMONqwwQxuk9MXuV+owjQHFx
-        KBOCE4aiqhwyORszeCuzJUktFpxHdqsnjp94EwfKylZqYKGCbuZcF2+og1iOW1iitpWw+G4qG1wg
-        562riXrrlJwdJbsCH3KqEQ5RN9eyLZX2iVS920QBu66tY/4dAlPFwgX0kzSl8QXkaLHk5XrP8TcE
-        OzINXYms2mY7n4YzlLeUCGag4kA8OW7BdaVgyWFoIx20GZs4JiDrSWwhSGYFilqJLIQ6HwpdL7M6
-        IeG0xOELGsnfNtueH2ajxFcKvjuTm7ibnr/4BwyYfcpXC0pY3ajBoZ06nifMcHclvilh/fSzoNPF
-        Hg==
+        G5MFAJwFdsN14ZDQz0UmzTY0wXJFFBzmg35Aco9pVdMxItVKo9ADpWtvQAGps8IxcTmsRwqUxFLL
+        FPKvIzRtlhGwHYr5zv2BTGQ4m+4dzTKNunC0/QSKEogUyP+55hEc8FGkRy6eX/ayeDygaGue0L//
+        UzWxgCVUL1leEe/fu479k42dIwPThaUB1IJP7AYq4FIZzrtWIHjnnzg9+SJH29sfAY37nU6/st0I
+        UHMehyfBhs38ugCZYPOYM7x7r5XV6mWBzEom8eJlcAaOljYBTclvEpGKr6T7lRQV/oaIL/UMJMK4
+        pj+nVUd2/BpnJnwufqnGAT09iZvarq+nHiDQQ8DY7YeUEld99hgO1Q/3PLmy0ymLRQQQYgaiprqF
+        rZuMFfUmiDrXFiS9NxeeF0qnUw6KOL27p9PeXZkJCmVz2nbYHzPj3W0vjjNT6JTjyu88rFjuSr/o
+        zgPEweFd/juN+5jn8fb/S/f414XurJkg4GO+LHb1jj/OP3OwKmho9aDqE6AUixtvQ1dNxqPAgLjB
+        0dVxEInaE67xVlJ0dWlWOujrSw76A1AOSEVMgzgMUhdW40Dv/aWnZoyX0qAjWp4K0gsqHAbajafd
+        sb1iH3SAVhqss7m4DnGGKq6r9QUuc+9aKS9WoVVuVlS4Wn10N4OL48YoEMbhPTF6Zfocx4CS4nAm
+        BAcMRVWEDLkxgbcyWJLUYsHzyO71xPETbxaBsrQVGpiooM5MNd6ZCrEeN7HMuy2DyXdzzeACOW9d
+        TdRbp+TsKNkV+IFUIxyqbq5iWyrsV1I1t5kCcd3Kh/w7BIaKhQvoZ2HK4wsgWkx51DzH3xDsuWHo
+        MuSqbb7zaThCRUuJYAYqdsTT4ybcUAqWHIYq0kEbsIltAroexB6CZFagKBTLwkz1IdX1MqgTEg5L
+        PHtBR8q3zXbkh9ko8ZWC34PJTdxNL1/8AwHcPuWrByWsbtTgUE0dzyfCCHclvilh/fQzofPFHg==
