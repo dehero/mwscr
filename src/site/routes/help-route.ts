@@ -16,7 +16,7 @@ export const helpRoute: SiteRoute<HelpRouteParams, HelpPageData> = {
         : 'Information about Morrowind Screenshots project.',
     };
   },
-  createUrl: ({ topicId }) => `/help/${topicId ? `${topicId}/` : ''}`,
+  createUrl: (params) => `/help/${params.topicId ? `${params.topicId}/` : ''}`,
   mapParams: (params) => ({
     topicId: params['*']?.replace(/\//g, '') || '',
   }),

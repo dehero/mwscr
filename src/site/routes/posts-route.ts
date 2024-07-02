@@ -11,7 +11,7 @@ export const postsRouteInfos: Record<string, PostsPageInfo> = {
     title: 'Posts',
     description: 'Published posts of Morrowind Screenshots project.',
     presetKeys: ['editors-choice', 'unlocated', 'requests'],
-    filters: ['author', 'location', 'mark', 'tag', 'type', 'requested', 'original'],
+    filters: ['author', 'location', 'mark', 'tag', 'type', 'requester', 'original'],
   },
   inbox: {
     label: 'Inbox',
@@ -19,7 +19,7 @@ export const postsRouteInfos: Record<string, PostsPageInfo> = {
     description: 'Pending posts of Morrowind Screenshots project.',
     sortKeys: ['id'],
     presetKeys: ['requests'],
-    filters: ['author', 'publishable', 'requested', 'location', 'mark', 'type'],
+    filters: ['author', 'publishable', 'requester', 'location', 'mark', 'type'],
   },
   trash: {
     label: 'Trash',
@@ -39,7 +39,8 @@ export const postsRoute: SiteRoute<PostsRouteParams, PostsPageData, PostsPageInf
       title: 'Posts',
       description: 'Posts of Morrowind Screenshots project.',
     },
-  createUrl: ({ managerName, ...rest }) => {
+  createUrl: (params) => {
+    const { managerName, ...rest } = params;
     const searchParams = new URLSearchParams(
       Object.entries(rest).filter((item): item is [string, string] => typeof item[1] === 'string'),
     );

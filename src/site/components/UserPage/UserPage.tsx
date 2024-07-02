@@ -5,6 +5,7 @@ import type { PostInfo } from '../../../core/entities/post-info.js';
 import type { UserInfo } from '../../../core/entities/user.js';
 import { isUserContributionEmpty } from '../../../core/entities/user.js';
 import { useParams } from '../../hooks/useParams.js';
+import { postsRoute } from '../../routes/posts-route.js';
 import type { UserRouteParams } from '../../routes/user-route.js';
 import { Button } from '../Button/Button.js';
 import { Divider } from '../Divider/Divider.js';
@@ -94,9 +95,18 @@ export const UserPage: Component = () => {
                           </>
                         )
                       : undefined,
+                    link: postsRoute.createUrl({ managerName: 'published', author: id() }),
                   },
-                  { label: 'Pending', value: userInfo().authored.pending },
-                  { label: 'Rejected', value: userInfo().authored.rejected },
+                  {
+                    label: 'Pending',
+                    value: userInfo().authored.pending,
+                    link: postsRoute.createUrl({ managerName: 'index', author: id() }),
+                  },
+                  {
+                    label: 'Rejected',
+                    value: userInfo().authored.rejected,
+                    link: postsRoute.createUrl({ managerName: 'trash', author: id() }),
+                  },
                 ]}
               />
             </Show>
@@ -111,9 +121,18 @@ export const UserPage: Component = () => {
                   {
                     label: 'Published',
                     value: userInfo().requested.published,
+                    link: postsRoute.createUrl({ managerName: 'published', requester: id() }),
                   },
-                  { label: 'Pending', value: userInfo().requested.pending },
-                  { label: 'Rejected', value: userInfo().requested.rejected },
+                  {
+                    label: 'Pending',
+                    value: userInfo().requested.pending,
+                    link: postsRoute.createUrl({ managerName: 'inbox', requester: id() }),
+                  },
+                  {
+                    label: 'Rejected',
+                    value: userInfo().requested.rejected,
+                    link: postsRoute.createUrl({ managerName: 'trash', requester: id() }),
+                  },
                 ]}
               />
             </Show>
@@ -136,6 +155,7 @@ export const UserPage: Component = () => {
 
           <Frame component="section" class={styles.posts}>
             <PostHighlights
+              class={styles.postHighlights}
               items={[
                 { label: 'Last Post', primary: true, postInfo: lastPostInfo },
                 { label: 'Last Original Post', primary: true, postInfo: lastOriginalPostInfo },
@@ -149,6 +169,7 @@ export const UserPage: Component = () => {
             />
 
             <PostHighlights
+              class={styles.postHighlights}
               items={[
                 { label: 'Last Proposal', primary: true, postInfo: lastProposedPostInfo },
                 { label: 'Last Pending Request', postInfo: lastRequestedPostInfo },

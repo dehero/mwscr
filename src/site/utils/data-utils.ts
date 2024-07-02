@@ -34,10 +34,10 @@ export interface SelectPostInfosParams {
   location?: string;
   search?: string;
   author?: string;
+  requester?: string;
   mark?: PostMark;
   violation?: PostViolation | typeof ANY_OPTION.value | typeof NONE_OPTION.value;
   publishable?: boolean;
-  requested?: boolean;
   original?: boolean;
   sortKey: SelectPostInfosSortKey;
   sortDirection: SortDirection;
@@ -53,7 +53,10 @@ export const selectPostInfos = (postInfos: PostInfo[], params: SelectPostInfosPa
     .filter((info) =>
       Boolean(
         (typeof params.publishable === 'undefined' || params.publishable !== Boolean(info.publishableErrors?.length)) &&
-          (typeof params.requested === 'undefined' || params.requested === Boolean(info.request)) &&
+          (typeof params.requester === 'undefined' ||
+            (params.requester === ANY_OPTION.value && info.requesterEntry) ||
+            (params.requester === NONE_OPTION.value && !info.requesterEntry) ||
+            info.requesterEntry?.[0] === params.requester) &&
           (typeof params.original === 'undefined' || params.original !== Boolean(info.refId)) &&
           (typeof params.type === 'undefined' || info.type === params.type) &&
           (typeof params.tag === 'undefined' || info.tags?.includes(params.tag)) &&
@@ -84,10 +87,6 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
     result.push(params.publishable ? 'publishable' : 'not publishable');
   }
 
-  if (typeof params.requested !== 'undefined') {
-    result.push(params.requested ? 'requested' : 'not requested');
-  }
-
   if (params.type) {
     result.push(`${params.type}${count !== 1 ? 's' : ''}`);
   } else {
@@ -116,6 +115,16 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
     result.push(`by "${params.author}"`);
   }
 
+  if (params.requester) {
+    if (params.requester === ANY_OPTION.value) {
+      result.push('requested');
+    } else if (params.requester === NONE_OPTION.value) {
+      result.push('unprompted');
+    } else {
+      result.push(`requested by "${params.requester}"`);
+    }
+  }
+
   if (params.mark) {
     result.push(`marked with ${params.mark}`);
   }
@@ -126,7 +135,7 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
     } else if (params.violation === NONE_OPTION.value) {
       result.push('with no violations');
     } else {
-      result.push(`with "${POST_VIOLATIONS[params.violation]}" violation`);
+      result.push(`with "${POST_VIOLATIONS[params.violation].title}" violation`);
     }
   }
 

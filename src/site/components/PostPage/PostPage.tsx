@@ -16,6 +16,7 @@ import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/us
 import { youtube } from '../../../core/services/youtube.js';
 import { store } from '../../../core/stores/index.js';
 import { asArray } from '../../../core/utils/common-utils.js';
+import { isValidDate } from '../../../core/utils/date-utils.js';
 import { useParams } from '../../hooks/useParams.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { postRoute, type PostRouteParams } from '../../routes/post-route.js';
@@ -64,7 +65,6 @@ export const PostPage: Component = () => {
   const titleRu = () => data.post?.titleRu || 'Без названия';
   const content = () => asArray(data.post?.content);
   const contentPublicUrls = () => content().map((url) => store.getPublicUrl(parseResourceUrl(url).pathname));
-  const locationButtonTitle = () => data.post?.location || 'Locate';
   const aspectRatio = () => (data.post ? getPostTypeAspectRatio(data.post.type) : '1/1');
   const alt = () => data.post?.tags?.join(' ');
 
@@ -210,7 +210,6 @@ export const PostPage: Component = () => {
                             <img src={YellowExclamationMark} class={styles.image} alt="yellow exclamation mark" />
                           </object>
 
-                          {/* <div class={styles.downloadButtonWrapper}> */}
                           <Button
                             href={selectedContentPublicUrl()}
                             onClick={handleContentDownload}
@@ -219,7 +218,6 @@ export const PostPage: Component = () => {
                           >
                             Download
                           </Button>
-                          {/* </div> */}
                         </Match>
                       </Switch>
                     </section>
@@ -234,7 +232,11 @@ export const PostPage: Component = () => {
                   <p class={styles.requestText}>{request().text}</p>
 
                   <Show when={data.requesterEntry}>
-                    {(entry) => <p class={styles.requestUser}>{getUserEntryTitle(entry())}</p>}
+                    {(entry) => (
+                      <p class={styles.requestUser}>
+                        {getUserEntryTitle(entry())}, {post().request?.date.toLocaleDateString('en-GB')}
+                      </p>
+                    )}
                   </Show>
                 </Frame>
               )}
@@ -272,16 +274,21 @@ export const PostPage: Component = () => {
                 rows={[
                   {
                     label: 'Location',
-                    value: () => (
-                      <Button class={styles.location} onClick={() => setShowLocationDialog(true)}>
-                        {locationButtonTitle()}
-                      </Button>
-                    ),
+                    value: !post().location
+                      ? () => (
+                          <Button class={styles.location} onClick={() => setShowLocationDialog(true)}>
+                            Locate
+                          </Button>
+                        )
+                      : post().location,
+                    link: post().location
+                      ? postsRoute.createUrl({ managerName: 'published', location: post().location, original: 'true' })
+                      : undefined,
                   },
-                  { label: 'Date', value: date() },
+                  { label: 'Date', value: isValidDate(date()) ? date() : undefined },
                   {
                     label: 'Original Post Date',
-                    value: refDate(),
+                    value: isValidDate(refDate()) ? refDate() : undefined,
                     link: data.refId
                       ? postRoute.createUrl({ managerName: params().managerName, id: data.refId })
                       : undefined,
@@ -336,6 +343,9 @@ export const PostPage: Component = () => {
                           </>
                         )
                       : undefined,
+                    link: post().mark
+                      ? postsRoute.createUrl({ managerName: 'published', mark: post().mark, original: 'true' })
+                      : undefined,
                   },
                   {
                     label: 'Violation',
@@ -353,6 +363,9 @@ export const PostPage: Component = () => {
                             {POST_VIOLATIONS[post().violation!].title}
                           </>
                         )
+                      : undefined,
+                    link: post().violation
+                      ? postsRoute.createUrl({ managerName: 'trash', violation: post().violation })
                       : undefined,
                   },
                 ]}

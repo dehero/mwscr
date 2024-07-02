@@ -11,9 +11,9 @@ import { Select } from '../Select/Select.js';
 import styles from './Navigation.module.css';
 
 const navigationItems = [
-  { route: homeRoute },
+  { route: homeRoute, params: {} },
   { route: postsRoute, params: { managerName: 'published' } },
-  { route: usersRoute },
+  { route: usersRoute, params: {} },
   { route: helpRoute, params: { topicId: '' } },
   { route: postsRoute, params: { managerName: 'inbox' } },
   { route: postsRoute, params: { managerName: 'trash' } },

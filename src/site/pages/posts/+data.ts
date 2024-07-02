@@ -45,22 +45,33 @@ export const getAuthorOptions = async (postsManager: PostsManager): Promise<Sele
     .sort((a, b) => a.label.localeCompare(b.label));
 };
 
+export const getRequesterOptions = async (postsManager: PostsManager): Promise<SelectOption<string>[]> => {
+  const usedRequesterIds = await postsManager.getUsedRequesterIds();
+  const requesters = await users.getEntries([...usedRequesterIds.keys()]);
+
+  return requesters
+    .map((entry) => ({ value: entry[0], label: `${getUserEntryTitle(entry)} (${usedRequesterIds.get(entry[0])})` }))
+    .sort((a, b) => a.label.localeCompare(b.label));
+};
+
 export async function data(pageContext: PageContext): Promise<PostsPageData> {
   const manager = postsManagers.find((manager) => manager.name === pageContext.routeParams?.managerName);
   if (!manager) {
-    return { postInfos: [], authorOptions: [], locationOptions: [], tagOptions: [] };
+    return { postInfos: [], authorOptions: [], requesterOptions: [], locationOptions: [], tagOptions: [] };
   }
 
   const postInfos = await Promise.all(
     (await manager.getAllEntries()).map((entry) => createPostInfo(entry, locations, users, manager.name)),
   );
   const authorOptions = await getAuthorOptions(manager);
+  const requesterOptions = await getRequesterOptions(manager);
   const locationOptions = await getLocationOptions(manager);
   const tagOptions = await getTagOptions(manager);
 
   return {
     postInfos,
     authorOptions,
+    requesterOptions,
     locationOptions,
     tagOptions,
   };

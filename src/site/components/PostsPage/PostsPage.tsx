@@ -39,10 +39,10 @@ const emptySearchParams: PostsPageSearchParams = {
   tag: undefined,
   location: undefined,
   author: undefined,
+  requester: undefined,
   mark: undefined,
   violation: undefined,
   publishable: undefined,
-  requested: undefined,
   original: undefined,
   search: undefined,
   sort: undefined,
@@ -56,7 +56,7 @@ const presets = [
     searchParams: { sort: 'mark,desc', original: 'true' },
   },
   { value: 'shortlist', label: 'Shortlist', searchParams: { publishable: 'true' } },
-  { value: 'requests', label: 'Requests', searchParams: { requested: 'true', original: 'true' } },
+  { value: 'requests', label: 'Requests', searchParams: { requester: 'any', original: 'true' } },
   { value: 'revisit', label: 'Revisit', searchParams: { mark: 'F' } },
   {
     value: 'unlocated',
@@ -73,10 +73,10 @@ export interface PostsPageSearchParams {
   tag?: string;
   location?: string;
   author?: string;
+  requester?: string;
   mark?: string;
   violation?: string;
   publishable?: string;
-  requested?: string;
   original?: string;
   search?: string;
   sort?: string;
@@ -84,7 +84,7 @@ export interface PostsPageSearchParams {
 
 type FilterKey = keyof Pick<
   PostsPageSearchParams,
-  'type' | 'tag' | 'location' | 'author' | 'mark' | 'violation' | 'publishable' | 'requested' | 'original'
+  'type' | 'tag' | 'location' | 'author' | 'mark' | 'violation' | 'publishable' | 'original' | 'requester'
 >;
 
 export interface PostsPageInfo extends SiteRouteInfo {
@@ -106,6 +106,7 @@ function findPreset(presets: PostsPagePreset[], searchParams: PostsPageSearchPar
 export interface PostsPageData {
   postInfos: PostInfo[];
   authorOptions: SelectOption<string>[];
+  requesterOptions: SelectOption<string>[];
   locationOptions: SelectOption<string>[];
   tagOptions: SelectOption<string>[];
 }
@@ -136,13 +137,13 @@ export const PostsPage: Component = () => {
     return allowedPresets;
   };
 
-  const postRequested = () => stringToBool(searchParams.requested);
   const postOriginal = () => stringToBool(searchParams.original);
   const postPublishable = () => stringToBool(searchParams.publishable);
   const postType = () => POST_TYPES.find((type) => type === searchParams.type);
   const postTag = () => searchParams.tag;
   const postLocation = () => searchParams.location;
   const postAuthor = () => searchParams.author;
+  const postRequester = () => searchParams.requester;
   const postMark = () => POST_MARKS.find((mark) => mark === searchParams.mark);
   const postViolation = () =>
     [ANY_OPTION.value, NONE_OPTION.value, ...Object.keys(POST_VIOLATIONS)].find(
@@ -156,13 +157,13 @@ export const PostsPage: Component = () => {
 
   const setPreset = (preset: string | undefined) =>
     setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.searchParams });
-  const setPostRequested = (requested: boolean | undefined) => setSearchParams({ requested });
   const setPostOriginal = (original: boolean | undefined) => setSearchParams({ original });
   const setPostPublishable = (publishable: boolean | undefined) => setSearchParams({ publishable });
   const setPostType = (type: PostType | undefined) => setSearchParams({ type });
   const setPostTag = (tag: string | undefined) => setSearchParams({ tag });
   const setPostLocation = (location: string | undefined) => setSearchParams({ location });
   const setPostAuthor = (author: string | undefined) => setSearchParams({ author });
+  const setPostRequester = (requester: string | undefined) => setSearchParams({ requester });
   const setPostMark = (mark: PostMark | undefined) => setSearchParams({ mark });
   const setPostViolation = (violation: ReturnType<typeof postViolation>) => setSearchParams({ violation });
   const setSearchTerm = (search: string | undefined) => setSearchParams({ search });
@@ -181,9 +182,9 @@ export const PostsPage: Component = () => {
     location: postLocation(),
     tag: postTag(),
     author: postAuthor(),
+    requester: postRequester(),
     mark: postMark(),
     violation: postViolation(),
-    requested: postRequested(),
     original: postOriginal(),
     publishable: postPublishable(),
     search: searchTerm(),
@@ -191,7 +192,7 @@ export const PostsPage: Component = () => {
     sortDirection: sortDirection(),
   });
 
-  const { postInfos, tagOptions, locationOptions, authorOptions } = useData<PostsPageData>();
+  const { postInfos, tagOptions, locationOptions, authorOptions, requesterOptions } = useData<PostsPageData>();
 
   const filteredPostInfos = () => selectPostInfos(postInfos, selectParams());
 
@@ -241,17 +242,6 @@ export const PostsPage: Component = () => {
                 options={[ALL_OPTION, { value: 'true', label: 'Shortlist' }, { value: 'false', label: 'Drafts' }]}
                 value={boolToString(postPublishable())}
                 onChange={(value) => setPostPublishable(stringToBool(value))}
-              />
-            </Label>
-          </Show>
-
-          <Show when={!info()?.filters || info()?.filters?.includes('requested')}>
-            <Label label="Request" component="div" vertical>
-              <RadioGroup
-                name="requested"
-                options={[ALL_OPTION, { value: 'true', label: 'Requested' }, { value: 'false', label: 'Unprompted' }]}
-                value={boolToString(postRequested())}
-                onChange={(value) => setPostRequested(stringToBool(value))}
               />
             </Label>
           </Show>
@@ -329,6 +319,20 @@ export const PostsPage: Component = () => {
                   options={[ALL_OPTION, ...authorOptions]}
                   value={postAuthor()}
                   onChange={setPostAuthor}
+                  class={styles.select}
+                />
+              </div>
+            </Label>
+          </Show>
+
+          <Show when={!info()?.filters || info()?.filters?.includes('requester')}>
+            <Label label="Requester" vertical>
+              <div class={styles.selectWrapper}>
+                <Select
+                  name="requester"
+                  options={[ALL_OPTION, ANY_OPTION, NONE_OPTION, ...requesterOptions]}
+                  value={postRequester()}
+                  onChange={setPostRequester}
                   class={styles.select}
                 />
               </div>

@@ -4,6 +4,8 @@ import icon from '../../../../assets/icon.png?format=avif&imagetools';
 import pkg from '../../../../package.json';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import type { UserContribution } from '../../../core/entities/user.js';
+import { postsRoute } from '../../routes/posts-route.js';
+import { usersRoute } from '../../routes/users-route.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
@@ -76,12 +78,20 @@ export const HomePage: Component = () => {
           v{typeof pkg === 'object' && 'version' in pkg && typeof pkg.version === 'string' ? pkg.version : undefined}
           {', '}
           {buildDate.toLocaleDateString('en-GB')}
+          {', '}
+          <a href="https://dehero.site" class={styles.link}>
+            dehero
+          </a>
+          {' and '}
+          <a href={usersRoute.createUrl({})} class={styles.link}>
+            contributors
+          </a>
         </p>
       </Frame>
+
       <Frame class={styles.statistics}>
         <Table
           label="Posts"
-          // value={() => <Button>Submit</Button>}
           rows={[
             {
               label: 'Published',
@@ -93,23 +103,26 @@ export const HomePage: Component = () => {
                     </>
                   )
                 : undefined,
+              link: postsRoute.createUrl({ managerName: 'published' }),
             },
-            { label: 'Pending', value: totalPosts.pending },
-            { label: 'Rejected', value: totalPosts.rejected },
+            { label: 'Pending', value: totalPosts.pending, link: postsRoute.createUrl({ managerName: 'inbox' }) },
+            { label: 'Rejected', value: totalPosts.rejected, link: postsRoute.createUrl({ managerName: 'trash' }) },
           ]}
         />
         <Divider />
         <Table
           label="Contributors"
+          link={usersRoute.createUrl({})}
           rows={[
-            { label: 'Authors', value: authorCount },
-            { label: 'Requesters', value: requesterCount },
+            { label: 'Authors', value: authorCount, link: usersRoute.createUrl({ role: 'author' }) },
+            { label: 'Requesters', value: requesterCount, link: usersRoute.createUrl({ role: 'requester' }) },
           ]}
         />
       </Frame>
 
       <Frame class={styles.posts}>
         <PostHighlights
+          class={styles.postHighlights}
           items={[
             { label: 'Last Post', primary: true, postInfo: lastPostInfo },
             { label: 'Last Original Post', primary: true, postInfo: lastOriginalPostInfo },
@@ -122,6 +135,7 @@ export const HomePage: Component = () => {
         />
 
         <PostHighlights
+          class={styles.postHighlights}
           items={[
             { label: 'Last Proposal', primary: true, postInfo: lastProposedPostInfo },
             { label: 'Last Pending Request', postInfo: lastRequestedPostInfo },

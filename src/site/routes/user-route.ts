@@ -13,5 +13,5 @@ export const userRoute: SiteRoute<UserRouteParams, UserPageData> = {
       data?.userInfo?.title || params.id
     }" in Morrowind Screenshots project.`,
   }),
-  createUrl: ({ id }) => `/users/${id}/`,
+  createUrl: (params) => `/users/${params.id}/`,
 };

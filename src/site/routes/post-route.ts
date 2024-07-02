@@ -14,5 +14,5 @@ export const postRoute: SiteRoute<PostRouteParams, PostPageData> = {
       data?.post?.title || params.id
     }" in Morrowind Screenshots project.`,
   }),
-  createUrl: ({ managerName, id }) => `/${managerName}/${id}/`,
+  createUrl: (params) => `/${params.managerName}/${params.id}/`,
 };
