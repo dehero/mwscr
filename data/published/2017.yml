@@ -4675,17 +4675,17 @@
     - service: vk
       id: 1610
       published: 2024-07-01-18-20-13
-      updated: 2024-07-01-23-15-04
+      updated: 2024-07-02-01-06-49
       followers: 918
-      likes: 21
-      views: 81
+      likes: 22
+      views: 89
     - service: tg
       id: 456
       published: 2024-07-01-18-20-19
-      updated: 2024-07-01-23-15-05
+      updated: 2024-07-02-01-06-49
       followers: 390
       likes: 33
-      views: 84
+      views: 87
 2017-05-25.arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас
@@ -9459,17 +9459,17 @@
     - service: vk
       id: 1609
       published: 2024-06-30-18-20-32
-      updated: 2024-07-01-23-15-05
+      updated: 2024-07-02-01-06-50
       followers: 918
       likes: 26
       views: 153
     - service: tg
       id: 455
       published: 2024-06-30-18-20-40
-      updated: 2024-07-01-23-15-05
+      updated: 2024-07-02-01-06-50
       followers: 388
       likes: 47
-      views: 192
+      views: 194
 2017-11-13.three-guars-at-the-crossroads:
   title: Three Guars at the Crossroads
   titleRu: Три гуара на распутье
@@ -9664,17 +9664,17 @@
     - service: vk
       id: 1477
       published: 2024-04-01-18-10-59
-      updated: 2024-06-24-23-17-34
+      updated: 2024-07-02-01-06-54
       followers: 906
       likes: 33
-      views: 303
+      views: 305
     - service: tg
       id: 364
       published: 2024-04-01-18-11-06
-      updated: 2024-06-24-23-17-34
+      updated: 2024-07-02-01-06-52
       followers: 354
       likes: 60
-      views: 429
+      views: 433
       comments: !c CxOAkZPLQnjps+/8gACoQWVsbGFyaWGyVmVsZGlnIGZpbnQgYmlsZGUhAw==
 2017-11-19.bottle-collection:
   title: Bottle Collection
