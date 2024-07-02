@@ -4675,18 +4675,18 @@
     - service: vk
       id: 1610
       published: 2024-07-01-18-20-13
-      updated: 2024-07-02-20-17-19
+      updated: 2024-07-02-21-14-22
       followers: 918
-      likes: 41
-      views: 183
+      likes: 42
+      views: 187
       reposts: 1
     - service: tg
       id: 456
       published: 2024-07-01-18-20-19
-      updated: 2024-07-02-20-17-19
+      updated: 2024-07-02-21-14-23
       followers: 390
-      likes: 44
-      views: 126
+      likes: 47
+      views: 130
 2017-05-25.arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас
@@ -7236,17 +7236,17 @@
     - service: vk
       id: 1587
       published: 2024-06-18-18-20-59
-      updated: 2024-06-25-21-14-16
+      updated: 2024-07-02-21-14-23
       followers: 917
       likes: 33
-      views: 209
+      views: 229
     - service: tg
       id: 443
       published: 2024-06-18-18-21-06
-      updated: 2024-06-25-21-14-16
+      updated: 2024-07-02-21-14-24
       followers: 385
-      likes: 51
-      views: 248
+      likes: 54
+      views: 327
 2017-08-26.raven-rock:
   title: Raven Rock
   titleRu: Воронья Скала
