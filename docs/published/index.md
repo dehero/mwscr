@@ -4,7 +4,33 @@
 
 # Published in 2024
 
-`126 items`
+`127 items`
+
+## <span id="2024-07-02.the-skar">The Skar</span>
+
+`RU` Скар
+
+<a href="https://instagram.com/p/Bj0GPQElSQl/" title="2018-06-09.the-skar"><img alt="store:/shots/2018-06-09.the-skar.png" src="../../assets/previews/shots/2018-06-09.the-skar.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-02.the-skar)</code> `🚀 OpenMW` `redoran`
+
+```
+2024-07-02.the-skar
+```
+
+> `2018-06-09.the-skar`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bj0GPQElSQl/)       | 2018-06-09 |       |    99 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_761)  | 2018-06-09 |   255 |    23 |       173 |  13.29 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1611) | 2024-07-02 |       |       |       918 |        |
+| [`tg`](https://t.me/mwscr/457)                     | 2024-07-02 |       |       |       391 |        |
+|                                                    |            |   255 |   122 |      1309 |        |
 
 ## <span id="2024-07-01.near-the-ancient-dwelling">Near the Ancient Dwelling</span>
 
@@ -28,9 +54,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BUd_0EqDzzK/)       | 2017-05-24 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_300)  | 2017-05-24 |   110 |     4 |        57 |      4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1610) | 2024-07-01 |   173 |    40 |       918 |   4.36 |
-| [`tg`](https://t.me/mwscr/456)                     | 2024-07-01 |   118 |    41 |       390 |  10.51 |
-|                                                    |            |   401 |   144 |      1308 |   6.29 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1610) | 2024-07-01 |   176 |    40 |       918 |   4.36 |
+| [`tg`](https://t.me/mwscr/456)                     | 2024-07-01 |   119 |    41 |       390 |  10.51 |
+|                                                    |            |   405 |   144 |      1308 |   6.29 |
 
 ## <span id="2024-06-30.ice-shivers">Ice Shivers</span>
 
@@ -80,9 +106,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bj-eugYlTzR/)       | 2018-06-13 |       |   119 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_765)  | 2018-06-13 |   346 |    20 |       173 |  11.56 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1608) | 2024-06-29 |   235 |    30 |       918 |   3.27 |
-| [`tg`](https://t.me/mwscr/454)                     | 2024-06-29 |   213 |    47 |       388 |  12.11 |
-|                                                    |            |   794 |   216 |      1306 |   8.98 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1608) | 2024-06-29 |   255 |    31 |       918 |   3.38 |
+| [`tg`](https://t.me/mwscr/454)                     | 2024-06-29 |   271 |    49 |       388 |  12.63 |
+|                                                    |            |   872 |   219 |      1306 |   9.19 |
 
 #### Comments
 
@@ -114,9 +140,9 @@
 | [`ig`](https://instagram.com/p/BdvHCYojafJ/)       | 2018-01-09 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_572)  | 2018-01-09 |   179 |    15 |       119 |  12.61 |
 | [`ig`](https://instagram.com/p/C8xOkhoJ1Rz/)       | 2024-06-28 |   157 |    50 |      1421 |   3.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |   218 |    31 |       917 |   3.38 |
-| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |   200 |    50 |       387 |  12.92 |
-|                                                    |            |   754 |   244 |      2725 |   8.11 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |   229 |    32 |       917 |   3.49 |
+| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |   246 |    51 |       387 |  13.18 |
+|                                                    |            |   811 |   246 |      2725 |    8.2 |
 
 ## <span id="2024-06-27.crates-and-pillows">Crates and Pillows</span>
 

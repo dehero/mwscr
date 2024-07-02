@@ -247,18 +247,18 @@
     - service: vk
       id: 1607
       published: 2024-06-28-18-19-25
-      updated: 2024-07-01-17-14-32
+      updated: 2024-07-02-18-20-05
       followers: 917
-      likes: 31
-      views: 218
+      likes: 32
+      views: 229
       reposts: 1
     - service: tg
       id: 453
       published: 2024-06-28-18-19-31
-      updated: 2024-07-01-17-14-30
+      updated: 2024-07-02-18-20-05
       followers: 387
-      likes: 50
-      views: 200
+      likes: 51
+      views: 246
 2018-01-10.rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
@@ -4675,6 +4675,14 @@
       followers: 173
       likes: 23
       views: 255
+    - service: vk
+      id: 1611
+      published: 2024-07-02-18-20-16
+      followers: 918
+    - service: tg
+      id: 457
+      published: 2024-07-02-18-20-23
+      followers: 391
 2018-06-10.left-side-portraits:
   title: Left-Side Portraits
   titleRu: Левосторонние портреты
@@ -4795,17 +4803,17 @@
     - service: tg
       id: 454
       published: 2024-06-29-18-18-56
-      updated: 2024-07-01-17-14-30
+      updated: 2024-07-02-18-20-04
       followers: 388
-      likes: 47
-      views: 213
+      likes: 49
+      views: 271
     - service: vk
       id: 1608
       published: 2024-06-29-19-11-46
-      updated: 2024-07-01-18-20-01
+      updated: 2024-07-02-18-20-04
       followers: 918
-      likes: 30
-      views: 235
+      likes: 31
+      views: 255
       reposts: 2
 2018-06-14.the-blue-corridor:
   title: The Blue Corridor
