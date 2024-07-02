@@ -1,7 +1,7 @@
 import { writeClipboard } from '@solid-primitives/clipboard';
 import clsx from 'clsx';
 import JsFileDownloader from 'js-file-downloader';
-import { type Component, createSignal, For, Match, onMount, Show, Switch } from 'solid-js';
+import { type Component, createSignal, Match, onMount, Show, Switch } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import { getPostDateById, getPostTypeAspectRatio, type Post, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import {
@@ -19,7 +19,7 @@ import { asArray } from '../../../core/utils/common-utils.js';
 import { useParams } from '../../hooks/useParams.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { postRoute, type PostRouteParams } from '../../routes/post-route.js';
-import { postsRoute, postsRouteInfos } from '../../routes/posts-route.js';
+import { postsRoute } from '../../routes/posts-route.js';
 import { userRoute } from '../../routes/user-route.js';
 import { Button } from '../Button/Button.js';
 import { Divider } from '../Divider/Divider.js';
@@ -34,6 +34,7 @@ import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.js'
 import { PostPublications } from '../PostPublications/PostPublications.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import { ResourcePreviews } from '../ResourcePreviews/ResourcePreviews.js';
+import { ResourceSelector } from '../ResourceSelector/ResourceSelector.js';
 import { Spacer } from '../Spacer/Spacer.js';
 import { Table } from '../Table/Table.js';
 import { Toast, useToaster } from '../Toaster/Toaster.js';
@@ -55,7 +56,6 @@ export const PostPage: Component = () => {
 
   const id = () => params().id;
   const data = useData<PostPageData>();
-  const postsRouteInfo = () => postsRouteInfos[params().managerName];
 
   const date = () => getPostDateById(id());
   const refDate = () => (data.refId ? getPostDateById(data.refId) : undefined);
@@ -75,9 +75,11 @@ export const PostPage: Component = () => {
   const youtubeUrl = () => (youtubePost() ? youtube.getServicePostUrl(youtubePost()!, true) : undefined);
 
   const published = () => Boolean(data.post?.posts);
+  const withContent = () => content().length > 0;
   const withFullSizeContent = () =>
     Boolean(published() || contentPublicUrls().find((url) => typeof url === 'string') || youtubePost());
   const withContentSelection = () => withFullSizeContent() && content().length > 1;
+  const withRequest = () => Boolean(data.post?.request);
 
   const [showEditingDialog, setShowEditingDialog] = createSignal(false);
   const [showLocationDialog, setShowLocationDialog] = createSignal(false);
@@ -132,8 +134,10 @@ export const PostPage: Component = () => {
       class={clsx(
         styles.container,
         published() && styles.published,
+        withContent() && styles.withContent,
         withContentSelection() && styles.withContentSelection,
         withFullSizeContent() && styles.withFullSizeContent,
+        withRequest() && styles.withRequest,
         data.post?.type && styles[data.post.type],
       )}
     >
@@ -141,109 +145,102 @@ export const PostPage: Component = () => {
       <Show when={data.post}>
         {(post) => (
           <>
-            <Show
-              when={withFullSizeContent()}
-              fallback={
-                <ResourcePreviews
-                  urls={content()}
-                  showTooltip
-                  onLoad={handleContentLoad}
-                  class={clsx(frameStyles.thin, styles.contentPreviews)}
-                />
-              }
-            >
-              <Show when={content().length > 1}>
-                <Frame component="section" variant="thin" class={styles.contentSelector}>
-                  <For each={content()}>
-                    {(url) => (
-                      <label class={styles.contentSelectorItem}>
-                        <input
-                          type="radio"
-                          value={url}
-                          name="selectedContent"
-                          checked={selectedContent() === url}
-                          onChange={() => selectContent(url)}
-                          class={styles.contentSelectorRadio}
-                        />
-                        <ResourcePreview url={url} aspectRatio={aspectRatio()} showTooltip />
-                      </label>
-                    )}
-                  </For>
-                </Frame>
-              </Show>
+            <Show when={withContent()}>
+              <Show
+                when={withFullSizeContent()}
+                fallback={
+                  <ResourcePreviews
+                    urls={content()}
+                    showTooltip
+                    onLoad={handleContentLoad}
+                    class={clsx(frameStyles.thin, styles.contentPreviews)}
+                  />
+                }
+              >
+                <Show when={content().length > 1}>
+                  <ResourceSelector
+                    urls={content()}
+                    aspectRatio={aspectRatio()}
+                    onSelect={selectContent}
+                    selected={selectedContent()}
+                    class={styles.contentSelector}
+                  />
+                </Show>
 
-              <Show when={selectedContent()}>
-                {(url) => (
-                  <Switch
-                    fallback={
-                      <ResourcePreview
-                        url={url()}
-                        aspectRatio={aspectRatio()}
-                        onLoad={handleContentLoad}
-                        showTooltip
-                        class={styles.selectedContent}
-                        alt={alt() || url()}
-                      />
-                    }
-                  >
-                    <Match when={resourceIsVideo(url()) && youtubeUrl()}>
-                      <iframe
-                        width={804}
-                        src={youtubeUrl()}
-                        title={alt() || url()}
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                        // @ts-expect-error No proper typing
-                        frameborder="0"
-                        class={clsx(frameStyles.thin, styles.selectedContent, styles.youtubeVideo)}
-                        onLoad={handleContentLoad}
-                        onError={() => handleContentError(youtubeUrl()!)}
-                        style={{ 'aspect-ratio': aspectRatio() }}
-                      />
-                    </Match>
-                    <Match when={resourceIsImage(url()) && selectedContentPublicUrl()}>
-                      <object
-                        ref={selectedContentRef}
-                        data={selectedContentPublicUrl()}
-                        class={clsx(
-                          frameStyles.thin,
-                          styles.selectedContent,
-                          styles.image,
-                          isLoading() && styles.loading,
-                        )}
-                        onLoad={handleContentLoad}
-                        onError={() => handleContentError(selectedContentPublicUrl()!)}
-                        style={{ 'aspect-ratio': aspectRatio() }}
-                        aria-label={alt() || url()}
+                <Show when={selectedContent()}>
+                  {(url) => (
+                    <section class={styles.selectedContentWrapper}>
+                      <Switch
+                        fallback={
+                          <ResourcePreview
+                            url={url()}
+                            aspectRatio={aspectRatio()}
+                            onLoad={handleContentLoad}
+                            showTooltip
+                            class={styles.selectedContent}
+                            alt={alt() || url()}
+                          />
+                        }
                       >
-                        <img src={YellowExclamationMark} class={styles.image} alt="yellow exclamation mark" />
-                      </object>
+                        <Match when={resourceIsVideo(url()) && youtubeUrl()}>
+                          <iframe
+                            width={804}
+                            src={youtubeUrl()}
+                            title={alt() || url()}
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                            // @ts-expect-error No proper typing
+                            frameborder="0"
+                            class={clsx(frameStyles.thin, styles.selectedContent, styles.youtubeVideo)}
+                            onLoad={handleContentLoad}
+                            onError={() => handleContentError(youtubeUrl()!)}
+                            style={{ 'aspect-ratio': aspectRatio() }}
+                          />
+                        </Match>
+                        <Match when={resourceIsImage(url()) && selectedContentPublicUrl()}>
+                          <object
+                            ref={selectedContentRef}
+                            data={selectedContentPublicUrl()}
+                            class={clsx(frameStyles.thin, styles.selectedContent, styles.image)}
+                            onLoad={handleContentLoad}
+                            onError={() => handleContentError(selectedContentPublicUrl()!)}
+                            style={{ 'aspect-ratio': aspectRatio() }}
+                            aria-label={alt() || url()}
+                          >
+                            <img src={YellowExclamationMark} class={styles.image} alt="yellow exclamation mark" />
+                          </object>
 
-                      <div class={styles.downloadButtonWrapper}>
-                        <Button
-                          href={selectedContentPublicUrl()}
-                          onClick={handleContentDownload}
-                          class={styles.downloadButton}
-                          target="_blank"
-                        >
-                          Download
-                        </Button>
-                      </div>
-                    </Match>
-                  </Switch>
-                )}
+                          {/* <div class={styles.downloadButtonWrapper}> */}
+                          <Button
+                            href={selectedContentPublicUrl()}
+                            onClick={handleContentDownload}
+                            class={styles.downloadButton}
+                            target="_blank"
+                          >
+                            Download
+                          </Button>
+                          {/* </div> */}
+                        </Match>
+                      </Switch>
+                    </section>
+                  )}
+                </Show>
               </Show>
             </Show>
 
+            <Show when={post().request}>
+              {(request) => (
+                <Frame variant="thin" class={styles.request}>
+                  <p class={styles.requestText}>{request().text}</p>
+
+                  <Show when={data.requesterEntry}>
+                    {(entry) => <p class={styles.requestUser}>{getUserEntryTitle(entry())}</p>}
+                  </Show>
+                </Frame>
+              )}
+            </Show>
+
             <Frame component="section" variant="thin" class={styles.main}>
-              <nav class={styles.navigation}>
-                {postsRouteInfo()?.title}
-                <Spacer />
-                <Button href={postsRoute.createUrl({ managerName: params().managerName })}>Return</Button>
-              </nav>
-
-              <Divider />
-
               <div class={styles.info}>
                 <section class={styles.titles}>
                   <p class={styles.title}>{title()}</p>
@@ -409,7 +406,7 @@ export const PostPage: Component = () => {
               </div>
             </Frame>
 
-            <Show when={post().posts}>
+            <Show when={published()}>
               <PostComments post={post()} class={styles.comments} />
 
               <PostPublications post={post()} class={styles.publications} />

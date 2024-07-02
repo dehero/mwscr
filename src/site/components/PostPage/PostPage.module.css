@@ -1,65 +1,63 @@
 .container {
   flex-grow: 1;
-  display: grid;
+  display: flex;
+  flex-flow: column nowrap;
   height: 100%;
   padding: 8px;
   margin: 0 -2px -2px -2px;
   gap: 8px;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-    'contentSelector'
-    'content'
-    'main'
-    'comments'
-    'publications';
   overflow-y: auto;
-}
-
-.navigation {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  gap: 4px;
-  flex-shrink: 0;
 }
 
 .contentSelector {
   grid-area: contentSelector;
-  display: grid;
-  padding: 4px;
-  grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(84px, 1fr));
-  gap: 4px;
 }
 
-.contentSelectorItem {
-  min-width: 84px;
-  min-height: 84px;
-  box-sizing: border-box;
+.selectedContentWrapper {
+  grid-area: content;
+  position: relative;
 }
 
 .selectedContent {
-  grid-area: content;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
+  width: 100%;
   image-rendering: auto;
 }
-/* 
-.selectedContent.loading {
-  height: 100%;
-} */
 
-.downloadButtonWrapper {
-  grid-area: content;
-  position: relative;
+.downloadButton {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 .contentPreviews {
   grid-area: content;
   padding: 8px;
+}
+
+.request {
+  grid-area: request;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 8px;
+  text-align: center;
+  text-wrap: balance;
+  gap: 4px;
+}
+
+.requestText {
+  margin: 0;
+}
+
+.requestUser {
+  color: var(--color-text-light);
+  margin: 0;
 }
 
 .main {
@@ -76,13 +74,6 @@
 
 .publications {
   grid-area: publications;
-}
-
-.selectedContentWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
 }
 
 .image {
@@ -155,20 +146,6 @@
   gap: 4px;
 }
 
-.spacer {
-  flex-grow: 1;
-}
-
-.contentSelectorRadio {
-  display: none;
-}
-
-.downloadButton {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-}
-
 .icon {
   margin-right: 4px;
 }
@@ -183,19 +160,113 @@
   flex-flow: row nowrap;
 }
 
-@media only screen and (min-width: 812px) {
+@media only screen and (max-height: 483px) and (min-width: 812px) {
   .container {
-    grid-template-columns: max-content 1fr;
-    grid-template-rows: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'main';
+  }
+
+  .container.withContent {
+    grid-template-columns: 1fr minmax(min-content, 1fr);
+    grid-template-rows: 1fr;
     grid-template-areas: 'main content';
+  }
+
+  .container.withRequest {
+    grid-template-columns: 1fr minmax(min-content, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 'main request';
+  }
+
+  .container.withContent.withRequest {
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      'request content'
+      'main content';
+  }
+
+  .container.withContentSelection {
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      'main contentSelector'
+      'main content';
+  }
+
+  .container.withContentSelection.withRequest {
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      'request contentSelector'
+      'main content';
+  }
+
+  .container.published.withContent {
+    display: grid;
+    grid-template-columns: 1fr minmax(min-content, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      'main content'
+      'publications comments';
+  }
+
+  .container.published.withContent.withRequest {
+    grid-template-rows: auto 1fr 1fr;
+    grid-template-areas:
+      'request content'
+      'main content'
+      'publications comments';
+  }
+
+  .container.published.withContentSelection {
+    grid-template-rows: min-content 1fr 1fr;
+    grid-template-areas:
+      'main contentSelector'
+      'main content'
+      'publications comments';
+  }
+
+  .container.published.withContentSelection.withRequest {
+    grid-template-rows: min-content 1fr 1fr 1fr;
+    grid-template-areas:
+      'main contentSelector'
+      'main content'
+      'request request'
+      'publications comments';
+  }
+}
+
+@media only screen and (min-height: 484px) and (min-width: 812px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 'main';
     overflow: hidden;
     padding: 0 8px 8px 8px;
     margin: 0;
     border: none;
   }
 
-  .container.withContentSelection {
+  .container.withRequest {
+    grid-template-columns: max-content 1fr;
+    grid-template-areas: 'main request';
+  }
+
+  .container.withContent {
+    grid-template-columns: max-content 1fr;
+    grid-template-areas: 'main content';
+  }
+
+  .container.withContent.withRequest {
+    grid-template-columns: max-content 1fr;
     grid-template-rows: auto 1fr;
+    grid-template-areas: 'request content' 'main content';
+  }
+
+  .container.withContentSelection {
+    grid-template-columns: auto minmax(min-content, max-content);
+    grid-template-rows: min-content 1fr;
     grid-template-areas: 'main contentSelector' 'main content';
   }
 
@@ -207,10 +278,27 @@
       'main content comments';
   }
 
+  .container.published.withRequest {
+    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, max-content) minmax(min-content, 1fr);
+    grid-template-rows: auto auto minmax(var(--size-panel-min-height), 1fr);
+    grid-template-areas:
+      'request content publications'
+      'main content publications'
+      'main content comments';
+  }
+
   .container.published.withContentSelection {
-    grid-template-rows: auto minmax(min-content, max-content) 1fr;
+    grid-template-rows: min-content minmax(min-content, max-content) 1fr;
     grid-template-areas:
       'main contentSelector publications'
+      'main content publications'
+      'main content comments';
+  }
+
+  .container.published.withRequest.withContentSelection {
+    grid-template-rows: auto minmax(min-content, max-content) 1fr;
+    grid-template-areas:
+      'request contentSelector publications'
       'main content publications'
       'main content comments';
   }
@@ -221,10 +309,6 @@
     grid-template-areas:
       'main content publications'
       'main comments publications';
-  }
-
-  .contentSelector {
-    min-height: 92px;
   }
 
   .main,

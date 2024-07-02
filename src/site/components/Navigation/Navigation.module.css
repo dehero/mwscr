@@ -10,7 +10,11 @@
   display: none;
 }
 
-@media only screen and (min-width: 416px) {
+.returnButton {
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 512px) {
   .menu {
     display: none;
   }
@@ -19,7 +23,7 @@
     display: block;
   }
 
-  .button:nth-last-child(3) {
-    margin-left: auto;
+  .button:nth-child(5) {
+    margin-left: 8px;
   }
 }

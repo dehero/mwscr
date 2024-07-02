@@ -16,7 +16,7 @@ import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../utils/
 import { selectPostInfos, selectPostInfosResultToString, selectPostInfosSortOptions } from '../../utils/data-utils.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../utils/ui-constants.js';
 import { Button } from '../Button/Button.js';
-import { Checkbox } from '../Checkbox/Checkbox.jsx';
+import { Checkbox } from '../Checkbox/Checkbox.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import frameStyles from '../Frame/Frame.module.css';

@@ -6,7 +6,7 @@ import { parseResourceUrl } from '../../../core/entities/resource.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { Frame } from '../Frame/Frame.js';
 import frameStyles from '../Frame/Frame.module.css';
-import { useToaster } from '../Toaster/Toaster.jsx';
+import { useToaster } from '../Toaster/Toaster.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './ResourcePreview.module.css';
 

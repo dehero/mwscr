@@ -5,9 +5,9 @@ import { helpRoute } from '../../routes/help-route.js';
 import { homeRoute } from '../../routes/home-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
-import { Button } from '../Button/Button.jsx';
-import type { SelectOption } from '../Select/Select.jsx';
-import { Select } from '../Select/Select.jsx';
+import { Button } from '../Button/Button.js';
+import type { SelectOption } from '../Select/Select.js';
+import { Select } from '../Select/Select.js';
 import styles from './Navigation.module.css';
 
 const navigationItems = [
@@ -44,6 +44,12 @@ export const Navigation: Component = () => {
           : undefined,
     );
 
+  const returnUrl = () => {
+    const parts = location.pathname.split('/').filter(Boolean);
+
+    return `/${parts.slice(0, -1).map((part) => `${part}/`)}`;
+  };
+
   return (
     <nav class={styles.nav}>
       <For each={options()}>
@@ -61,6 +67,10 @@ export const Navigation: Component = () => {
         value={selectedOption()?.value}
         class={styles.menu}
       />
+
+      <Button href={returnUrl()} class={styles.returnButton}>
+        Return
+      </Button>
     </nav>
   );
 };

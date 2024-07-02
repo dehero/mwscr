@@ -1,5 +1,5 @@
 import { type Component, createRenderEffect, createSignal } from 'solid-js';
-import { Frame } from '../Frame/Frame.jsx';
+import { Frame } from '../Frame/Frame.js';
 import styles from './Loader.module.css';
 
 export interface LoaderProps {

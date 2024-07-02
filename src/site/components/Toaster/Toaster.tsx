@@ -3,7 +3,7 @@ import type { Component, JSX } from 'solid-js';
 import { createContext, createEffect, createSignal, For, onCleanup, Show, useContext } from 'solid-js';
 import { isServer } from 'solid-js/web';
 import { Frame } from '../Frame/Frame.js';
-import { Loader } from '../Loader/Loader.jsx';
+import { Loader } from '../Loader/Loader.js';
 import styles from './Toaster.module.css';
 
 export interface ToasterContext {
