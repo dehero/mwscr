@@ -43,10 +43,10 @@
     - service: tg
       id: 246
       published: 2022-06-23
-      updated: 2024-06-25-08-19-57
+      updated: 2024-07-02-09-16-34
       followers: 226
       likes: 85
-      views: 1093
+      views: 1099
       comments: !c |-
         G9cCIBwHdtMWJhbhaWnpTxDVmp2SE2HWqKDD8ohCxqIChjcGe5T6n7w2YBxY13l85Xz7q//6bnOD
         osAIzizR6HavL0I9hr516lV44ly6TJvwyDbDCkqaRdI+inYP9OgZ4E9vbu2hH/0ESSOPOAe7QkY/
@@ -88,7 +88,7 @@
     - service: tg
       id: 247
       published: 2022-06-24
-      updated: 2024-06-25-08-19-57
+      updated: 2024-07-02-09-16-33
       followers: 236
       likes: 58
       views: 698
@@ -132,7 +132,7 @@
         - 248
         - 249
       published: 2022-06-25
-      updated: 2024-06-25-08-19-56
+      updated: 2024-07-02-09-16-33
       followers: 238
       likes: 52
       views: 664
@@ -179,7 +179,7 @@
         - 252
         - 253
       published: 2022-06-26
-      updated: 2024-06-25-08-19-56
+      updated: 2024-07-02-09-16-32
       followers: 242
       likes: 57
       views: 665
@@ -220,7 +220,7 @@
     - service: tg
       id: 254
       published: 2022-06-27
-      updated: 2024-06-25-08-19-55
+      updated: 2024-07-02-09-16-32
       followers: 241
       likes: 48
       views: 641
@@ -259,7 +259,7 @@
     - service: tg
       id: 255
       published: 2022-06-28
-      updated: 2024-06-25-08-19-55
+      updated: 2024-07-02-09-16-31
       followers: 242
       likes: 48
       views: 655
@@ -293,7 +293,7 @@
     - service: tg
       id: 256
       published: 2022-06-29
-      updated: 2024-06-25-08-19-54
+      updated: 2024-07-02-09-16-31
       followers: 245
       likes: 47
       views: 595
@@ -327,7 +327,7 @@
     - service: tg
       id: 257
       published: 2022-06-30
-      updated: 2024-06-25-08-19-54
+      updated: 2024-07-02-09-16-31
       followers: 246
       likes: 45
       views: 631
@@ -374,7 +374,7 @@
     - service: tg
       id: 258
       published: 2022-07-01
-      updated: 2024-06-25-08-19-53
+      updated: 2024-07-02-09-16-30
       followers: 247
       likes: 47
       views: 616
@@ -405,7 +405,7 @@
     - service: tg
       id: 259
       published: 2022-07-02
-      updated: 2024-06-25-08-19-35
+      updated: 2024-07-02-09-16-12
       followers: 248
       likes: 44
       views: 668
@@ -444,7 +444,7 @@
     - service: tg
       id: 260
       published: 2022-07-03
-      updated: 2024-06-25-08-19-35
+      updated: 2024-07-02-09-16-11
       followers: 252
       likes: 49
       views: 647
@@ -493,15 +493,15 @@
         - 263
         - 264
       published: 2022-07-04
-      updated: 2024-06-25-08-19-34
+      updated: 2024-07-02-09-16-11
       followers: 253
       likes: 62
       views: 687
       comments: !c |-
-        GyYBQGRsTU+JAkA8kq18AJQFV9eOAISdRqFmZ7YDHU4x5P/ZrMSmK2kkqXUXppsLlqAuTBFh8r8t
-        L3yUbWcB/RyCU0ESKZ5QmTM2oUL5orsdrI/f0Jg1OPAEUbJqNIITquZh5BNDFujv50xAVF3SGBG7
-        7UsJD6OHNY+JiAzPI2Gz43ErD8AJuwk//N+ZTR33B9feEJwjPGFDhKBJ1vu53SqJhIfRPH+mhM5g
-        3sWM43r1Eqi/tfYdvn0QgqSqUncTXW8nB+W4JYqEqh+dydHS9fgBgIu6O0T7flpFMBpJpVI=
+        GycBQGRsTU+JAkA8kq18AJQFV9eOAISdRqFmZ7kDDVMM+e6XnJXY65cUSWptYW7T57Q8LCIwtrfl
+        hY+y7Sygn0NwKkgixRMqc6YmXCgtwuVgvf+GxqzRQSeYkrtGIzihah7GPjHmBP39nAmIqksaI2K3
+        fSnhYfSw5jERkeF5JGx0PG7lAThRN+CH/zuzKXB/cO0NwTnCEzZECJpkvZ/bzZJIeBjN82eK6wzm
+        Xcw4rlcvidpba9/h2wcuSKoqdTfZ8+3koEbr6E6OSLgePwBwUXhBuq+nVQSjkVQqBQ==
 2022-07-05.iron-enemy:
   title: Iron Enemy
   titleRu: Железный противник
@@ -527,7 +527,7 @@
     - service: tg
       id: 265
       published: 2022-07-05
-      updated: 2024-06-25-08-19-34
+      updated: 2024-07-02-09-16-11
       followers: 253
       likes: 43
       views: 633
@@ -566,7 +566,7 @@
     - service: tg
       id: 266
       published: 2022-07-06
-      updated: 2024-06-25-08-19-34
+      updated: 2024-07-02-09-16-10
       followers: 255
       likes: 42
       views: 611
@@ -599,10 +599,10 @@
     - service: tg
       id: 267
       published: 2022-07-07
-      updated: 2024-06-25-08-19-33
+      updated: 2024-07-02-09-16-10
       followers: 256
       likes: 54
-      views: 684
+      views: 685
       comments: !c |-
         G+YA4C0PbCdsQEoGblB9aZrixc8IlW7BtY5wQa8tyeoz6Kmw2juEchZP7N3GHHt2dhCNK5J0ogqC
         zjy8s17sxOVXZWkZ0AHy9LgtSDhKE0w14RZ4GKbY9h0u/B4UDDGNEohuv4yHL4fnrFsVNm42mwvc
@@ -633,7 +633,7 @@
     - service: tg
       id: 268
       published: 2022-07-08
-      updated: 2024-06-25-08-19-33
+      updated: 2024-07-02-09-16-09
       followers: 256
       likes: 48
       views: 626
@@ -671,7 +671,7 @@
     - service: tg
       id: 269
       published: 2022-07-09
-      updated: 2024-06-25-08-19-33
+      updated: 2024-07-02-09-16-09
       followers: 257
       likes: 55
       views: 642
@@ -710,10 +710,10 @@
     - service: tg
       id: 270
       published: 2022-07-10
-      updated: 2024-06-25-08-19-32
+      updated: 2024-07-02-09-16-08
       followers: 257
       likes: 59
-      views: 753
+      views: 754
       comments: !c |-
         G9IA4C0PuHOPAjgZWKbBTH3lYT6e8G+f6O/mLdBYA22lLQwjSN6p20rphi7sg+kY6kNVT5a7nPDB
         xqYE06pScMkyNrwka5PrrzfQbG5wIp54QZRq3mC+x9iznsERwzyun553P2O8nprXrNXubKpawd79
@@ -759,7 +759,7 @@
         - 273
         - 274
       published: 2022-07-11
-      updated: 2024-06-25-08-19-32
+      updated: 2024-07-02-09-16-08
       followers: 257
       likes: 56
       views: 719
@@ -808,7 +808,7 @@
     - service: tg
       id: 275
       published: 2022-07-12
-      updated: 2024-06-25-08-19-31
+      updated: 2024-07-02-09-16-07
       followers: 258
       likes: 48
       views: 694
@@ -846,17 +846,18 @@
     - service: tg
       id: 276
       published: 2022-07-13
-      updated: 2024-06-25-08-19-31
+      updated: 2024-07-02-09-16-07
       followers: 260
       likes: 50
       views: 724
       comments: !c |-
-        G3YCQIyUbsI8iGQtT7nb5BWwMGwUY4EdAElG4YFnW3YVqqpuN0ZhyBNQ2LGlUPavF5bBmzwLBxgI
-        36/naVb4Oe1rYAGei6FGcRBu2iQK4iwxfgQ13NA+W1x6DPWay59mv7Hb6OnIte83+kSEX6sJbmgY
-        hx+ZxreQEJ9+//8DcOucDjpE506/URIB56U6xoIMnX1iv2Ui7dd+hEOKJDagXM5zuE+p+cJuOEmM
-        B+ogYA9nIKH9GEghwYWphY4ThMKETTDEfPk/xCiCAflql3SOV6dI4J+d9//2l2ZsRn59dEwo4RIu
-        QIybMl2639oCvFi3cEem4ZepQqOjpee3xAJi6LSOgw5iLGXBAhHuiypULyg8UsP/iRCuH66Yq/5+
-        e6WFjxq+pqsjdgDytYnn9txJhQr1MNbS/hsVEFzekx4U7mmPlA7oII5WhVfR3ZHBQknpKDYwzgU=
+        G3sCQIyUbsI8eIq136V2O/OTeChWophDE7FIUgld/C14IyRU3W6MwpAnoLBjS6HsXy8sgzd5Fg4w
+        EL5fz9Os8HPa18ACPBdTiwfhpk2iIM4S40dQww3tt7X1x9CQufFpjhi7tUEn096vDYuIuF0T3dAw
+        Dj8yTWyQEL9+//8DcOuyjjlEl0+/SRIB56U6xYIMXXpif2UiHdERhEOKJLagXM5LuE+t+cJeOEmM
+        B+oYYA9XIKEjGEgxwYWphY0LhMKETbDEfPm/xCiCAflqt3SZV+dJ4J8dhP/2l2bstVP1XCr766Nj
+        khmXcAFi8Iz9Mv3WZuDFjkU4sg9IJnK1TmPwW2AVMXRBZ0AvCaCyYoYoH0YTqhcMI2ngP0aI1A83
+        za1wv11qQFLT13R11DbAvjb53Kh7iVCuGuYa7d+wgORyoYygwE9npHRUx3C0NKKK6Y4MFk5Kp4iB
+        CS4=
 2022-07-14.blue-lit-basket:
   title: Blue Lit Basket
   titleRu: Корзина в голубом свете
@@ -890,7 +891,7 @@
     - service: tg
       id: 277
       published: 2022-07-14
-      updated: 2024-06-25-08-19-31
+      updated: 2024-07-02-09-16-07
       followers: 260
       likes: 39
       views: 725
@@ -926,7 +927,7 @@
     - service: tg
       id: 278
       published: 2022-07-15
-      updated: 2024-06-25-08-19-30
+      updated: 2024-07-02-09-16-06
       followers: 262
       likes: 50
       views: 750
@@ -959,7 +960,7 @@
     - service: tg
       id: 279
       published: 2022-07-16
-      updated: 2024-06-25-08-19-30
+      updated: 2024-07-02-09-16-06
       followers: 262
       likes: 47
       views: 754
@@ -991,7 +992,7 @@
     - service: tg
       id: 280
       published: 2022-07-17
-      updated: 2024-06-25-08-19-29
+      updated: 2024-07-02-09-16-05
       followers: 262
       likes: 49
       views: 758
@@ -1033,7 +1034,7 @@
     - service: tg
       id: 281
       published: 2022-07-18
-      updated: 2024-06-25-08-19-29
+      updated: 2024-07-02-09-16-05
       followers: 267
       likes: 50
       views: 780
@@ -1067,7 +1068,7 @@
     - service: tg
       id: 282
       published: 2022-07-19
-      updated: 2024-06-25-08-19-28
+      updated: 2024-07-02-09-16-05
       followers: 267
       likes: 62
       views: 801
@@ -1099,7 +1100,7 @@
     - service: tg
       id: 283
       published: 2022-07-20
-      updated: 2024-06-25-08-19-28
+      updated: 2024-07-02-09-16-04
       followers: 266
       likes: 55
       views: 807
@@ -1142,10 +1143,10 @@
     - service: tg
       id: 284
       published: 2022-07-21
-      updated: 2024-06-25-08-19-27
+      updated: 2024-07-02-09-16-04
       followers: 267
       likes: 49
-      views: 1496
+      views: 1501
       comments: !c ixmAkpPLQngiXaFxAACnZGVsZXRlZKjQmNC80LHQsJPLQngiKf06AAClbXdzY3KnQUxNU0lWSQM=
 2022-07-22.lonely-towers:
   title: Lonely Towers
@@ -1188,7 +1189,7 @@
         - 287
         - 288
       published: 2022-07-22
-      updated: 2024-06-25-08-19-27
+      updated: 2024-07-02-09-16-03
       followers: 271
       likes: 58
       views: 847
@@ -1223,7 +1224,7 @@
     - service: tg
       id: 289
       published: 2022-07-23
-      updated: 2024-06-25-08-19-26
+      updated: 2024-07-02-09-16-03
       followers: 272
       likes: 53
       views: 890
@@ -1254,10 +1255,10 @@
     - service: tg
       id: 290
       published: 2022-07-24
-      updated: 2024-06-25-08-19-26
+      updated: 2024-07-02-09-16-02
       followers: 272
       likes: 52
-      views: 928
+      views: 929
 2022-07-25.rainy-coast:
   title: Rainy Coast
   titleRu: Дождливое побережье
@@ -1284,10 +1285,10 @@
     - service: tg
       id: 291
       published: 2022-07-25
-      updated: 2024-06-25-08-19-26
+      updated: 2024-07-02-09-16-02
       followers: 272
       likes: 54
-      views: 997
+      views: 998
 2022-07-26.imperial-castles:
   title: Imperial Castles
   titleRu: Имперские замки
@@ -1328,10 +1329,10 @@
         - 294
         - 295
       published: 2022-07-26
-      updated: 2024-06-25-08-19-25
+      updated: 2024-07-02-09-16-01
       followers: 273
       likes: 54
-      views: 1039
+      views: 1040
       comments: !c |-
         G7YA6C0OeHPIJcUQzaDc/dyERgTeRvi4hFKJpEogimRyjznnSgkvL1EYcnVsN9uNeWTBrt3VJZX/
         umAQRBxIoEsSp+LEizqBDTjkQDRYZSBd8JTiwdqcz2J1IXod6Kr9GjcFmJ46ShwC3kXbWk/qJFAY
@@ -1361,7 +1362,7 @@
     - service: tg
       id: 296
       published: 2022-07-27
-      updated: 2024-06-25-08-19-25
+      updated: 2024-07-02-09-16-01
       followers: 272
       likes: 53
       views: 1105
@@ -1409,7 +1410,7 @@
     - service: tg
       id: 297
       published: 2022-07-28
-      updated: 2024-06-25-08-19-24
+      updated: 2024-07-02-09-16-00
       followers: 274
       likes: 54
       views: 1155
@@ -1450,7 +1451,7 @@
     - service: tg
       id: 298
       published: 2022-07-29
-      updated: 2024-06-25-08-19-24
+      updated: 2024-07-02-09-16-00
       followers: 274
       likes: 58
       views: 1316
