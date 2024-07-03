@@ -161,19 +161,19 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2024-06-26-03-17-31
+      updated: 2024-07-03-04-17-48
       followers: 894
       likes: 47
-      views: 362
+      views: 363
       reposts: 2
       comments: !c iw6AkZPLQnje54g+AACpdmxhZGtyMTE0qNCt0YXwn5iUAw==
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2024-06-26-03-17-28
+      updated: 2024-07-03-04-17-48
       followers: 337
       likes: 90
-      views: 580
+      views: 581
       comments: !c |-
         ixyAkZTLQnjexabnAACucXVpbnR1c19mYWJpdXOtV2UncmUgc28gYmFja5PLQnjexcSwAAClYW5z
         aXOhLgM=
@@ -4675,7 +4675,7 @@
     - service: vk
       id: 1610
       published: 2024-07-01-18-20-13
-      updated: 2024-07-03-03-16-50
+      updated: 2024-07-03-04-17-42
       followers: 918
       likes: 42
       views: 191
@@ -4683,10 +4683,10 @@
     - service: tg
       id: 456
       published: 2024-07-01-18-20-19
-      updated: 2024-07-03-03-16-50
+      updated: 2024-07-03-04-17-43
       followers: 390
       likes: 49
-      views: 140
+      views: 141
 2017-05-25.arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас
@@ -8739,18 +8739,18 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2024-06-26-03-17-27
+      updated: 2024-07-03-04-17-45
       followers: 904
       likes: 44
-      views: 290
+      views: 291
       reposts: 3
     - service: tg
       id: 358
       published: 2024-03-26-18-10-55
-      updated: 2024-06-26-03-17-25
+      updated: 2024-07-03-04-17-45
       followers: 352
       likes: 66
-      views: 432
+      views: 434
       comments: !c |-
         G9kBAIzDdOMtD8uLoNCb/uY3rEvgXRaFcVs8ojGmRePvATimyLdobakOeKISVRqhnL/uvmhIEaJX
         IlM39fHx8YF4jiaXdWGcZZLo0n0eQm8T8ZGeji5LY4lh62Ne3NjmP1g4BM1EkzH5Ymsiv7nDKENw
@@ -9565,18 +9565,18 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2024-06-26-03-17-30
+      updated: 2024-07-03-04-17-48
       followers: 895
       likes: 35
-      views: 280
+      views: 281
       reposts: 2
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2024-06-26-03-17-27
+      updated: 2024-07-03-04-17-47
       followers: 343
       likes: 67
-      views: 500
+      views: 502
       comments: !c ixOAkZPLQnjhAF9lAACucXVpbnR1c19mYWJpdXOt8J+Pg+KAjeKZgu+4jwM=
 2017-11-16.cozy-workplace-in-the-basement:
   title: Cozy Workplace in the Basement
