@@ -2,6 +2,7 @@ import { type Component, For, Show, splitProps } from 'solid-js';
 import { getPostDateById, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/user.js';
+import { capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { isValidDate } from '../../../core/utils/date-utils.js';
 import { Divider } from '../Divider/Divider.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
@@ -114,6 +115,19 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       <Show when={isValidDate(refDate())}>
         <Divider class={styles.divider} />
         <span class={styles.date}>* {refDate()?.toLocaleDateString('en-GB')}</span>
+      </Show>
+      <Show when={local.postInfo.publishableErrors}>
+        {(errors) => (
+          <>
+            <Divider class={styles.divider} />
+            <p class={styles.publishableErrors}>
+              <Icon color="attribute" size="small" variant="flat">
+                !
+              </Icon>{' '}
+              {capitalizeFirstLetter(errors().join(', '))}
+            </p>
+          </>
+        )}
       </Show>
     </Tooltip>
   );

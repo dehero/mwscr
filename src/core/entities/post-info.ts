@@ -13,7 +13,7 @@ import type {
   PostViolation,
 } from './post.js';
 import { getPostCommentCount, getPostRating, getPostTotalLikes, getPostTotalViews } from './post.js';
-import { isPublishablePost } from './post-variation.js';
+import { isPublishablePost, isTrashItem } from './post-variation.js';
 import type { UserEntry } from './user.js';
 import type { UsersManager } from './users-manager.js';
 
@@ -54,7 +54,10 @@ export async function createPostInfo(
 ): Promise<PostInfo> {
   const location = post.location ? await locationsReader.getItem(post.location) : undefined;
   const errors: string[] = [];
-  isPublishablePost(post, errors);
+
+  if (!isTrashItem(post)) {
+    isPublishablePost(post, errors);
+  }
 
   return cleanupUndefinedProps({
     id,

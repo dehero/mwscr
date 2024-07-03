@@ -9,3 +9,10 @@
 .divider {
   width: 100%;
 }
+
+.publishableErrors {
+  max-width: 240px;
+  margin: 0;
+  text-align: center;
+  text-wrap: balance;
+}

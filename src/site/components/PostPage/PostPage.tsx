@@ -10,12 +10,13 @@ import {
   getPostTotalLikes,
   getPostTotalViews,
 } from '../../../core/entities/post.js';
+import { isPublishablePost, isTrashItem } from '../../../core/entities/post-variation.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import type { UserEntry } from '../../../core/entities/user.js';
 import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/user.js';
 import { youtube } from '../../../core/services/youtube.js';
 import { store } from '../../../core/stores/index.js';
-import { asArray } from '../../../core/utils/common-utils.js';
+import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { isValidDate } from '../../../core/utils/date-utils.js';
 import { useParams } from '../../hooks/useParams.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
@@ -66,6 +67,14 @@ export const PostPage: Component = () => {
   const contentPublicUrls = () => content().map((url) => store.getPublicUrl(parseResourceUrl(url).pathname));
   const aspectRatio = () => (data.post ? getPostTypeAspectRatio(data.post.type) : '1/1');
   const alt = () => data.post?.tags?.join(' ');
+  const publishableErrors = () => {
+    const errors: string[] = [];
+    if (data.post && !isTrashItem(data.post)) {
+      isPublishablePost(data.post, errors);
+    }
+
+    return errors;
+  };
 
   const selectedContent = () => content()[selectedContentIndex()];
   const selectedContentPublicUrl = () => contentPublicUrls()[selectedContentIndex()];
@@ -376,6 +385,20 @@ export const PostPage: Component = () => {
                 <Divider />
 
                 <Table label="Tags" rows={post().tags?.map((label) => ({ label, value: () => <></> })) ?? []}></Table>
+              </Show>
+
+              <Show when={publishableErrors()}>
+                {(errors) => (
+                  <>
+                    <Divider class={styles.divider} />
+                    <p class={styles.publishableErrors}>
+                      <Icon color="attribute" size="small" variant="flat">
+                        !
+                      </Icon>{' '}
+                      {capitalizeFirstLetter(errors().join(', '))}
+                    </p>
+                  </>
+                )}
               </Show>
 
               <Show when={post().posts}>

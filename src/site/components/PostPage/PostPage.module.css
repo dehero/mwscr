@@ -159,6 +159,12 @@
   flex-flow: row nowrap;
 }
 
+.publishableErrors {
+  max-width: 320px;
+  margin: 0;
+  text-align: center;
+}
+
 @media only screen and (max-height: 483px) and (min-width: 812px) {
   .container {
     display: grid;
