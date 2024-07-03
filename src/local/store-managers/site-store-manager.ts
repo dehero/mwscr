@@ -96,10 +96,6 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
     }
   }
 
-  async getPreviewUrl(path: string, _width?: number, _height?: number): Promise<string | undefined> {
-    return this.getPublicUrl(path);
-  }
-
   async move(from: string, to: string): Promise<void> {
     try {
       const { client, path } = await this.connect();

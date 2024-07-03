@@ -3,15 +3,12 @@ import type { Component } from 'solid-js';
 import { Match, onMount, Show, Switch } from 'solid-js';
 import type { MediaAspectRatio } from '../../../core/entities/media.js';
 import { parseResourceUrl } from '../../../core/entities/resource.js';
+import { getResourcePreviewUrl } from '../../data-managers/resources.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { Frame } from '../Frame/Frame.js';
 import { useToaster } from '../Toaster/Toaster.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './ResourcePreview.module.css';
-
-export function getStorePreviewUrl(url: string | undefined) {
-  return url?.replace(/^store:\/(.*)\..*/, '/previews/$1.avif');
-}
 
 export interface ResourcePreviewProps {
   url: string;
@@ -26,7 +23,7 @@ export interface ResourcePreviewProps {
 export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
   const { addToast } = useToaster();
   const parsedUrl = () => parseResourceUrl(props.url);
-  const src = () => getStorePreviewUrl(props.url);
+  const src = () => getResourcePreviewUrl(props.url);
   let ref: HTMLObjectElement | undefined;
 
   const handleError = () => {

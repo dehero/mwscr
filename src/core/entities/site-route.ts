@@ -2,6 +2,7 @@ export interface SiteRouteInfo {
   title: string;
   description?: string;
   label?: string;
+  imageUrl?: string | string[];
 }
 
 export type SiteRouteParams = Record<string, string | undefined>;

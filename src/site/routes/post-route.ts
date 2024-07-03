@@ -13,6 +13,7 @@ export const postRoute: SiteRoute<PostRouteParams, PostPageData> = {
     description: `Information, content, statistics and comments of ${params.managerName} post "${
       data?.post?.title || params.id
     }" in Morrowind Screenshots project.`,
+    imageUrl: data?.post?.content,
   }),
   createUrl: (params) => `/${params.managerName}/${params.id}/`,
 };

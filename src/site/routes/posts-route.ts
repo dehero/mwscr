@@ -34,11 +34,13 @@ export const postsRouteInfos: Record<string, PostsPageInfo> = {
 export const postsRoute: SiteRoute<PostsRouteParams, PostsPageData, PostsPageInfo> = {
   path: '/@managerName',
   guard: ({ managerName }) => Object.keys(postsRouteInfos).includes(managerName),
-  info: ({ managerName }) =>
-    postsRouteInfos[managerName] ?? {
+  info: ({ managerName }, data) => ({
+    ...(postsRouteInfos[managerName] ?? {
       title: 'Posts',
       description: 'Posts of Morrowind Screenshots project.',
-    },
+    }),
+    imageUrl: data?.postInfos[0]?.content,
+  }),
   createUrl: (params) => {
     const { managerName, ...rest } = params;
     const searchParams = new URLSearchParams(

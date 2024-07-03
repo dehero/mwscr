@@ -32,6 +32,8 @@ export interface Store {
   include?: string[];
 
   getPublicUrl(path: string): string | undefined;
+
+  getPreviewUrl(path: string, width?: number, height?: number): string | undefined | Promise<string | undefined>;
 }
 
 export interface StoreManager extends Store {
@@ -42,8 +44,6 @@ export interface StoreManager extends Store {
   get(path: string): Promise<Buffer>;
 
   getStream(path: string): Promise<NodeJS.ReadableStream | null>;
-
-  getPreviewUrl(path: string, width?: number, height?: number): Promise<string | undefined>;
 
   move(from: string, to: string): Promise<void>;
 

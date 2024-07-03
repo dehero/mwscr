@@ -14,4 +14,12 @@ export const store: Store = {
 
     return undefined;
   },
+
+  async getPreviewUrl(path: string, width?: number, height?: number): Promise<string | undefined> {
+    for (const store of stores.filter(storeIncludesPath(path))) {
+      return store.getPreviewUrl(path, width, height);
+    }
+
+    throw new Error(`No store found for "${path}"`);
+  },
 };

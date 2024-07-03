@@ -8,6 +8,8 @@ import { yandexDiskManager } from './yandex-disk-manager.js';
 const storeManagers: StoreManager[] = [yandexDiskManager, siteStoreManager];
 
 export const storeManager: StoreManager = {
+  ...store,
+
   async copy(from: string, to: string): Promise<void> {
     const [fromToStores, restStores] = partition(storeManagers, storeIncludesPath(from, to));
     const toStores = restStores.filter(storeIncludesPath(to));
@@ -55,14 +57,6 @@ export const storeManager: StoreManager = {
     const [store] = storeManagers.filter(storeIncludesPath(path));
     if (store) {
       return store.getStream(path);
-    }
-
-    throw new Error(`No store found for "${path}"`);
-  },
-
-  async getPreviewUrl(path: string, width?: number, height?: number): Promise<string | undefined> {
-    for (const store of storeManagers) {
-      return store.getPreviewUrl(path, width, height);
     }
 
     throw new Error(`No store found for "${path}"`);
