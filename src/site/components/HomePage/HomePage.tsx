@@ -78,7 +78,9 @@ export const HomePage: Component = () => {
           v{typeof pkg === 'object' && 'version' in pkg && typeof pkg.version === 'string' ? pkg.version : undefined}
           {', '}
           {buildDate.toLocaleDateString('en-GB')}
-          {', '}
+        </p>
+        <p class={styles.copyright}>
+          <GoldIcon />{' '}
           <a href="https://dehero.site" class={styles.link}>
             dehero
           </a>

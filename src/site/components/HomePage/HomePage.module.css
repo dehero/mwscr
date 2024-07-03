@@ -1,9 +1,7 @@
 .container {
   flex-grow: 1;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: 'about' 'posts' 'statistics';
+  display: flex;
+  flex-flow: column nowrap;
   height: 100%;
   padding: 8px;
   margin: 0 -2px -2px -2px;
@@ -83,9 +81,15 @@
   text-align: center;
 }
 
+.copyright {
+  margin: 0;
+  text-align: center;
+}
+
 @media only screen and (min-height: 750px) and (min-width: 750px),
   only screen and (max-height: 750px) and (min-width: 925px) {
   .container {
+    display: grid;
     overflow: hidden;
     padding: 0 8px 8px 8px;
     margin: 0;
