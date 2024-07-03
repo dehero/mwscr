@@ -455,18 +455,18 @@
     - service: vk
       id: 1497
       published: 2024-04-16-18-16-52
-      updated: 2024-06-26-02-30-53
+      updated: 2024-07-03-03-16-51
       followers: 910
-      likes: 32
-      views: 260
+      likes: 33
+      views: 265
       reposts: 3
     - service: tg
       id: 380
       published: 2024-04-16-18-16-59
-      updated: 2024-06-26-02-30-52
+      updated: 2024-07-03-03-16-51
       followers: 353
       likes: 57
-      views: 411
+      views: 416
       comments: !c |-
         iymAkZTLQnjuiXXlAACqYWxleF9lbXNvd7pJIGp1c3QgaGF0ZSB0aGlzIHBsYWNl8J+YhZPLQnju
         iwdDAACpR2F0ZW1hdGU3rnRoaXMgaXMgYSBtb2Q/Aw==
@@ -4678,17 +4678,17 @@
     - service: vk
       id: 1611
       published: 2024-07-02-18-20-16
-      updated: 2024-07-03-02-30-48
+      updated: 2024-07-03-03-16-49
       followers: 918
       likes: 18
-      views: 91
+      views: 92
     - service: tg
       id: 457
       published: 2024-07-02-18-20-23
-      updated: 2024-07-03-02-30-49
+      updated: 2024-07-03-03-16-50
       followers: 391
-      likes: 33
-      views: 82
+      likes: 35
+      views: 84
 2018-06-10.left-side-portraits:
   title: Left-Side Portraits
   titleRu: Левосторонние портреты
