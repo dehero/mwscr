@@ -3321,11 +3321,11 @@
     - service: vk
       id: 1588
       published: 2024-06-19-18-19-29
-      updated: 2024-06-26-19-11-48
+      updated: 2024-07-03-19-12-13
       followers: 917
       likes: 39
-      views: 270
-      reposts: 2
+      views: 289
+      reposts: 3
       comments: !c |-
         G6gAiJwHto1qPbB46yLlKwFRgLcIl2tCAVfAWYHHk3uBLG9iJTbGKNg+JSlewAT/mqxab0qXVDYK
         +9Xn9n9m0kOlmVzUQB5swIkO6MsIO4YbDRtwgIHO2zQM9tlxTcr/36l7C5Qr/WKnGAaGOCFZC7Jh
@@ -3333,10 +3333,10 @@
     - service: tg
       id: 444
       published: 2024-06-19-18-19-35
-      updated: 2024-06-26-19-11-49
+      updated: 2024-07-03-19-12-12
       followers: 387
-      likes: 52
-      views: 257
+      likes: 54
+      views: 341
       comments: !c ixCAkZPLQnkDJCOFgACqYWxleF9lbXNvd6tCZWVuIHRoZXJlKQM=
 2017-04-10.its-cloudy-in-balmora-with-a-chance-of-rain:
   title: It's Cloudy in Balmora with a Chance of Rain
@@ -4929,11 +4929,20 @@
     - service: vk
       id: 1612
       published: 2024-07-03-18-19-45
+      updated: 2024-07-03-19-12-08
       followers: 917
+      likes: 6
+      views: 35
     - service: tg
       id: 458
       published: 2024-07-03-18-19-53
+      updated: 2024-07-03-19-12-09
       followers: 391
+      likes: 18
+      views: 44
+      comments: !c |-
+        CyGAkZTLQnkHndcVAACrYm9icm92bmlrb3azUklQIEQuIEJyeWFudCAg8J+qppPLQnkHngW2gACp
+        R2F0ZW1hdGU3oz8/PwM=
 2017-06-03.almalexia-pierces-dagon:
   title: Almalexia Pierces Dagon
   titleRu: Альмалексия пронзает Дагона
@@ -9468,17 +9477,17 @@
     - service: vk
       id: 1609
       published: 2024-06-30-18-20-32
-      updated: 2024-07-02-18-20-03
+      updated: 2024-07-03-19-12-10
       followers: 918
-      likes: 27
-      views: 165
+      likes: 28
+      views: 175
     - service: tg
       id: 455
       published: 2024-06-30-18-20-40
-      updated: 2024-07-02-18-20-03
+      updated: 2024-07-03-19-12-11
       followers: 388
-      likes: 47
-      views: 214
+      likes: 52
+      views: 248
 2017-11-13.three-guars-at-the-crossroads:
   title: Three Guars at the Crossroads
   titleRu: Три гуара на распутье
