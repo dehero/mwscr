@@ -73,7 +73,7 @@ export const PostPage: Component = () => {
       isPublishablePost(data.post, errors);
     }
 
-    return errors;
+    return errors.length > 0 ? errors : undefined;
   };
 
   const selectedContent = () => content()[selectedContentIndex()];
@@ -391,12 +391,14 @@ export const PostPage: Component = () => {
                 {(errors) => (
                   <>
                     <Divider class={styles.divider} />
-                    <p class={styles.publishableErrors}>
-                      <Icon color="attribute" size="small" variant="flat">
-                        !
-                      </Icon>{' '}
-                      {capitalizeFirstLetter(errors().join(', '))}
-                    </p>
+                    <section class={styles.publishableErrors}>
+                      <p class={styles.publishableErrorsText}>
+                        <Icon color="attribute" size="small" variant="flat">
+                          !
+                        </Icon>{' '}
+                        {capitalizeFirstLetter(errors().join(', '))}
+                      </p>
+                    </section>
                   </>
                 )}
               </Show>

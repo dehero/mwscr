@@ -35,6 +35,7 @@
 
 .contentPreviews {
   grid-area: content;
+  justify-content: center;
 }
 
 .request {
@@ -160,6 +161,11 @@
 }
 
 .publishableErrors {
+  display: flex;
+  justify-content: center;
+}
+
+.publishableErrorsText {
   max-width: 320px;
   margin: 0;
   text-align: center;
@@ -238,6 +244,10 @@
       'main content'
       'request request'
       'publications comments';
+  }
+
+  .contentPreviews {
+    justify-content: flex-start;
   }
 }
 
@@ -323,5 +333,9 @@
   .comments,
   .publications {
     overflow-y: auto;
+  }
+
+  .contentPreviews {
+    justify-content: flex-start;
   }
 }

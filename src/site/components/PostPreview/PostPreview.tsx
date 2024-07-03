@@ -105,18 +105,18 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
                     </Icon>
                   </Show>
 
-                  <Show when={props.postInfo.publishableErrors}>
-                    <Icon color="attribute" size="small" variant="flat">
-                      !
-                    </Icon>
-                  </Show>
-
                   <Show when={props.postInfo.violation}>
                     {(violation) => (
                       <Icon color="health" size="small" variant="flat">
                         {POST_VIOLATIONS[violation()].letter}
                       </Icon>
                     )}
+                  </Show>
+
+                  <Show when={props.postInfo.publishableErrors}>
+                    <Icon color="attribute" size="small" variant="flat">
+                      !
+                    </Icon>
                   </Show>
                 </Frame>
               </Show>
