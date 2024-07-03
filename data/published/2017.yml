@@ -4675,18 +4675,18 @@
     - service: vk
       id: 1610
       published: 2024-07-01-18-20-13
-      updated: 2024-07-03-17-13-38
+      updated: 2024-07-03-18-19-29
       followers: 918
       likes: 44
-      views: 214
+      views: 216
       reposts: 1
     - service: tg
       id: 456
       published: 2024-07-01-18-20-19
-      updated: 2024-07-03-17-13-39
+      updated: 2024-07-03-18-19-30
       followers: 390
       likes: 53
-      views: 156
+      views: 158
 2017-05-25.arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас
@@ -4926,6 +4926,14 @@
       followers: 60
       likes: 5
       views: 104
+    - service: vk
+      id: 1612
+      published: 2024-07-03-18-19-45
+      followers: 917
+    - service: tg
+      id: 458
+      published: 2024-07-03-18-19-53
+      followers: 391
 2017-06-03.almalexia-pierces-dagon:
   title: Almalexia Pierces Dagon
   titleRu: Альмалексия пронзает Дагона

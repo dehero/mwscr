@@ -4,7 +4,33 @@
 
 # Published in 2024
 
-`127 items`
+`128 items`
+
+## <span id="2024-07-03.ashes-of-d-bryant">Ashes of D. Bryant</span>
+
+`RU` Прах Д. Бриянта
+
+<a href="https://instagram.com/p/BU1WeeEjfN2/" title="2017-06-02.ashes-of-d-bryant"><img alt="store:/shots/2017-06-02.ashes-of-d-bryant.png" src="../../assets/previews/shots/2017-06-02.ashes-of-d-bryant.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-03.ashes-of-d-bryant)</code> `🚀 OpenMW` `farewell`
+
+```
+2024-07-03.ashes-of-d-bryant
+```
+
+> `2017-06-02.ashes-of-d-bryant`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BU1WeeEjfN2/)       | 2017-06-02 |       |    50 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_309)  | 2017-06-02 |   104 |     5 |        60 |      5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1612) | 2024-07-03 |       |       |       917 |        |
+| [`tg`](https://t.me/mwscr/458)                     | 2024-07-03 |       |       |       391 |        |
+|                                                    |            |   104 |    55 |      1308 |        |
 
 ## <span id="2024-07-02.the-skar">The Skar</span>
 
@@ -28,9 +54,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bj0GPQElSQl/)       | 2018-06-09 |       |    99 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_761)  | 2018-06-09 |   255 |    23 |       173 |  13.29 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1611) | 2024-07-02 |   158 |    28 |       918 |   3.05 |
-| [`tg`](https://t.me/mwscr/457)                     | 2024-07-02 |   116 |    47 |       391 |  12.02 |
-|                                                    |            |   529 |   197 |      1309 |   9.46 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1611) | 2024-07-02 |   160 |    29 |       918 |   3.16 |
+| [`tg`](https://t.me/mwscr/457)                     | 2024-07-02 |   117 |    47 |       391 |  12.02 |
+|                                                    |            |   532 |   198 |      1309 |   9.49 |
 
 ## <span id="2024-07-01.near-the-ancient-dwelling">Near the Ancient Dwelling</span>
 
@@ -54,9 +80,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BUd_0EqDzzK/)       | 2017-05-24 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_300)  | 2017-05-24 |   110 |     4 |        57 |      4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1610) | 2024-07-01 |   214 |    44 |       918 |   4.79 |
-| [`tg`](https://t.me/mwscr/456)                     | 2024-07-01 |   156 |    53 |       390 |  13.59 |
-|                                                    |            |   480 |   160 |      1308 |   7.46 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1610) | 2024-07-01 |   216 |    44 |       918 |   4.79 |
+| [`tg`](https://t.me/mwscr/456)                     | 2024-07-01 |   158 |    53 |       390 |  13.59 |
+|                                                    |            |   484 |   160 |      1308 |   7.46 |
 
 ## <span id="2024-06-30.ice-shivers">Ice Shivers</span>
 
