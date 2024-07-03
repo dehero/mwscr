@@ -1,7 +1,7 @@
 import { debounce } from '@solid-primitives/scheduled';
 import clsx from 'clsx';
 import { type Component, createEffect, createSignal, Show } from 'solid-js';
-import frameStyles from '../Frame/Frame.module.css';
+import { Frame } from '../Frame/Frame.js';
 import styles from './Input.module.css';
 
 export interface InputProps {
@@ -34,8 +34,9 @@ export const Input: Component<InputProps> = (props) => {
     <Show
       when={props.multiline}
       fallback={
-        <input
-          class={clsx(frameStyles.thin, styles.input, props.class)}
+        <Frame<'input'>
+          component="input"
+          class={clsx(styles.input, props.class)}
           name={props.name}
           onInput={(e) => handleInput(e.target.value)}
           value={localValue()}
@@ -43,8 +44,9 @@ export const Input: Component<InputProps> = (props) => {
         />
       }
     >
-      <textarea
-        class={clsx(frameStyles.thin, styles.input, props.class)}
+      <Frame<'textarea'>
+        component="textarea"
+        class={clsx(styles.input, props.class)}
         name={props.name}
         rows={props.rows}
         onInput={(e) => handleInput(e.target.value)}

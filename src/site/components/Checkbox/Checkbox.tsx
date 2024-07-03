@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
 import { createEffect, Show } from 'solid-js';
-import frameStyles from '../Frame/Frame.module.css';
+import { Frame } from '../Frame/Frame.js';
 import styles from './Checkbox.module.css';
 
 export interface CheckboxProps {
@@ -36,7 +36,7 @@ export const Checkbox: Component<CheckboxProps> = (props) => {
   };
 
   return (
-    <label class={clsx(frameStyles.button, styles.checkbox, props.class)} tabIndex={0}>
+    <Frame component="label" variant="button" class={clsx(styles.checkbox, props.class)} tabIndex={0}>
       <input
         type="checkbox"
         name={props.name}
@@ -59,6 +59,6 @@ export const Checkbox: Component<CheckboxProps> = (props) => {
         <span class={clsx(styles.label, styles.labelChecked)}>{props.trueLabel || 'Yes'}</span>
         <span class={clsx(styles.label, styles.labelNotChecked)}>{props.falseLabel || 'No'}</span>
       </Show>
-    </label>
+    </Frame>
   );
 };

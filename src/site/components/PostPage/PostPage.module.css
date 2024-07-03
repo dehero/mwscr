@@ -35,7 +35,6 @@
 
 .contentPreviews {
   grid-area: content;
-  padding: 8px;
 }
 
 .request {

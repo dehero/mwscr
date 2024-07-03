@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { type Component, createEffect, type JSX, onCleanup, Show } from 'solid-js';
 import { Portal } from 'solid-js/web';
-import frameStyles from '../Frame/Frame.module.css';
+import { Frame } from '../Frame/Frame.js';
 import { Spacer } from '../Spacer/Spacer.js';
 import styles from './Dialog.module.css';
 
@@ -38,11 +38,11 @@ export const Dialog: Component<DialogProps> = (props) => {
     <Show when={props.show}>
       <Portal>
         <div class={clsx(styles.backdrop, props.modal && styles.modal)}>
-          <div ref={ref} class={clsx(props.title && frameStyles.thick, styles.container, props.class)}>
+          <Frame ref={ref} variant={props.title ? 'thick' : null} class={clsx(styles.container, props.class)}>
             <Show when={props.title}>
               <div class={styles.header}>{props.title}</div>
             </Show>
-            <div class={clsx(frameStyles.thick, styles.body)}>
+            <Frame variant="thick" class={styles.body}>
               <div class={styles.content}>{props.children}</div>
               <Show when={props.actions}>
                 <div class={styles.footer}>
@@ -53,8 +53,8 @@ export const Dialog: Component<DialogProps> = (props) => {
                   </Show>
                 </div>
               </Show>
-            </div>
-          </div>
+            </Frame>
+          </Frame>
         </div>
       </Portal>
     </Show>

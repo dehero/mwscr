@@ -1,6 +1,5 @@
 import { createMediaQuery } from '@solid-primitives/media';
 import { makePersisted } from '@solid-primitives/storage';
-import clsx from 'clsx';
 import { type Component, createSignal, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import { usePageContext } from 'vike-solid/usePageContext';
@@ -19,7 +18,6 @@ import { Button } from '../Button/Button.js';
 import { Checkbox } from '../Checkbox/Checkbox.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
-import frameStyles from '../Frame/Frame.module.css';
 import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
 import { PostPreviews } from '../PostPreviews/PostPreviews.js';
@@ -197,12 +195,12 @@ export const PostsPage: Component = () => {
   const filteredPostInfos = () => selectPostInfos(postInfos, selectParams());
 
   return (
-    <main class={clsx(frameStyles.thin, styles.container)} ref={containerRef}>
-      <Frame variant="thin" component="form" class={styles.parameters}>
+    <Frame component="main" class={styles.container} ref={containerRef}>
+      <Frame component="form" class={styles.parameters}>
         <fieldset class={styles.presets}>
           <Select options={presetOptions()} value={preset()} onChange={setPreset} />
           <Button
-            onClick={(e) => {
+            onClick={(e: Event) => {
               e.preventDefault();
               setPreset(undefined);
             }}
@@ -270,7 +268,7 @@ export const PostsPage: Component = () => {
               />
 
               <Button
-                onClick={(e) => {
+                onClick={(e: Event) => {
                   e.preventDefault();
                   setSearchTerm('');
                   setIsSearching(false);
@@ -401,6 +399,6 @@ export const PostsPage: Component = () => {
           label={selectPostInfosResultToString(filteredPostInfos().length, selectParams())}
         />
       </Frame>
-    </main>
+    </Frame>
   );
 };

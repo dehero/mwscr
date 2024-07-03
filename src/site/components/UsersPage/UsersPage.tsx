@@ -5,7 +5,6 @@ import { compareUserInfosByContribution, compareUserInfosById, USER_ROLES } from
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { getSearchTokens, search } from '../../../core/utils/common-utils.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
-import { userRoute } from '../../routes/user-route.js';
 import { ALL_OPTION } from '../../utils/ui-constants.js';
 import { Button } from '../Button/Button.js';
 import { Frame } from '../Frame/Frame.js';
@@ -103,7 +102,7 @@ export const UsersPage: Component = () => {
             />
 
             <Button
-              onClick={(e) => {
+              onClick={(e: Event) => {
                 e.preventDefault();
                 setSearchTerm('');
                 setIsSearching(false);
@@ -122,9 +121,7 @@ export const UsersPage: Component = () => {
       </Frame>
 
       <Frame class={styles.users}>
-        <For each={userInfos()}>
-          {(info) => <UserPreview userInfo={info} url={userRoute.createUrl({ id: info.id })} />}
-        </For>
+        <For each={userInfos()}>{(info) => <UserPreview userInfo={info} />}</For>
       </Frame>
     </Frame>
   );

@@ -14,7 +14,7 @@ import type { Component } from 'solid-js';
 import { batch, For } from 'solid-js';
 import { mergePostContents, type Post } from '../../../core/entities/post.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import frameStyles from '../Frame/Frame.module.css';
+import { Frame } from '../Frame/Frame.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import styles from './PostContentEditor.module.css';
 
@@ -60,11 +60,11 @@ const List: Component<ListProps> = (props) => {
   return (
     <label>
       <span class={styles.label}>{getContainerLabel(props.id)}</span>
-      <div ref={droppable} class={clsx(frameStyles.thin, styles.list)}>
+      <Frame ref={droppable} class={styles.list}>
         <SortableProvider ids={props.urls}>
           <For each={props.urls}>{(url) => <Item url={url} />}</For>
         </SortableProvider>
-      </div>
+      </Frame>
     </label>
   );
 };

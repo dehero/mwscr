@@ -5,6 +5,7 @@
   justify-content: flex-start;
   align-content: flex-start;
   gap: 8px;
+  padding: 8px;
 }
 
 .item {

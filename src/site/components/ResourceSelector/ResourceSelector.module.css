@@ -14,8 +14,6 @@
 }
 
 .radio:checked + .preview {
-  border: 2px solid var(--color-text-selected);
+  border-color: var(--color-text-selected);
   border-image-source: url(../../images/frame-thin-select.png);
-  border-image-slice: 2;
-  border-image-repeat: repeat;
 }

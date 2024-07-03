@@ -25,7 +25,6 @@ import { userRoute } from '../../routes/user-route.js';
 import { Button } from '../Button/Button.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
-import frameStyles from '../Frame/Frame.module.css';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import { Input } from '../Input/Input.js';
@@ -153,7 +152,7 @@ export const PostPage: Component = () => {
                     urls={content()}
                     showTooltip
                     onLoad={handleContentLoad}
-                    class={clsx(frameStyles.thin, styles.contentPreviews)}
+                    class={styles.contentPreviews}
                   />
                 }
               >
@@ -183,7 +182,8 @@ export const PostPage: Component = () => {
                         }
                       >
                         <Match when={resourceIsVideo(url()) && youtubeUrl()}>
-                          <iframe
+                          <Frame
+                            component="iframe"
                             width={804}
                             src={youtubeUrl()}
                             title={alt() || url()}
@@ -191,24 +191,25 @@ export const PostPage: Component = () => {
                             allowfullscreen
                             // @ts-expect-error No proper typing
                             frameborder="0"
-                            class={clsx(frameStyles.thin, styles.selectedContent, styles.youtubeVideo)}
+                            class={clsx(styles.selectedContent, styles.youtubeVideo)}
                             onLoad={handleContentLoad}
                             onError={() => handleContentError(youtubeUrl()!)}
                             style={{ 'aspect-ratio': aspectRatio() }}
                           />
                         </Match>
                         <Match when={resourceIsImage(url()) && selectedContentPublicUrl()}>
-                          <object
+                          <Frame
+                            component="object"
                             ref={selectedContentRef}
                             data={selectedContentPublicUrl()}
-                            class={clsx(frameStyles.thin, styles.selectedContent, styles.image)}
+                            class={clsx(styles.selectedContent, styles.image)}
                             onLoad={handleContentLoad}
                             onError={() => handleContentError(selectedContentPublicUrl()!)}
                             style={{ 'aspect-ratio': aspectRatio() }}
                             aria-label={alt() || url()}
                           >
                             <img src={YellowExclamationMark} class={styles.image} alt="yellow exclamation mark" />
-                          </object>
+                          </Frame>
 
                           <Button
                             href={selectedContentPublicUrl()}

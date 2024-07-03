@@ -19,7 +19,7 @@ import { EMPTY_OPTION } from '../../utils/ui-constants.js';
 import { Button } from '../Button/Button.js';
 import type { DialogProps } from '../Dialog/Dialog.js';
 import { Dialog } from '../Dialog/Dialog.js';
-import frameStyles from '../Frame/Frame.module.css';
+import { Frame } from '../Frame/Frame.js';
 import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
 import { PostContentEditor } from '../PostContentEditor/PostContentEditor.js';
@@ -150,7 +150,7 @@ export const PostEditingDialog: Component<PostEditingDialogProps> = (props) => {
             <Input name="postTags" value={asArray(post().tags).join(' ')} class={styles.input} />
           </Label>
 
-          <fieldset class={clsx(frameStyles.thin, styles.request)}>
+          <Frame component="fieldset" class={styles.request}>
             <Label label="Request" vertical>
               <Input name="request[text]" value={post().request?.text} multiline rows={3} class={styles.requestText} />
             </Label>
@@ -166,7 +166,7 @@ export const PostEditingDialog: Component<PostEditingDialogProps> = (props) => {
             <Label label="By">
               <Input name="request[user]" value={post().request?.user} class={styles.requestUser} />
             </Label>
-          </fieldset>
+          </Frame>
 
           <Label label="Editor's Mark">
             <Select

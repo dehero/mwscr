@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import { type Component, createSignal, For } from 'solid-js';
+import { Frame } from '../Frame/Frame.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import styles from './ResourcePreviews.module.css';
 
@@ -23,7 +24,7 @@ export const ResourcePreviews: Component<ResourcePreviewsProps> = (props) => {
   };
 
   return (
-    <div class={clsx(styles.container, props.class)}>
+    <Frame class={clsx(styles.container, props.class)}>
       <For each={props.urls}>
         {(url) => (
           <ResourcePreview
@@ -35,6 +36,6 @@ export const ResourcePreviews: Component<ResourcePreviewsProps> = (props) => {
           />
         )}
       </For>
-    </div>
+    </Frame>
   );
 };

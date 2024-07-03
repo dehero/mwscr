@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import { For } from 'solid-js';
-import frameStyles from '../Frame/Frame.module.css';
+import { Frame } from '../Frame/Frame.js';
 import styles from './Select.module.css';
 
 export interface SelectOption<T> {
@@ -18,8 +18,9 @@ export interface SelectProps<T> {
 
 export function Select<T extends string>(props: SelectProps<T>) {
   return (
-    <select
-      class={clsx(frameStyles.thin, styles.select, props.class)}
+    <Frame<'select'>
+      component="select"
+      class={clsx(styles.select, props.class)}
       name={props.name}
       onChange={(e) => props.onChange((e.currentTarget.value || undefined) as T | undefined)}
     >
@@ -30,6 +31,6 @@ export function Select<T extends string>(props: SelectProps<T>) {
           </option>
         )}
       </For>
-    </select>
+    </Frame>
   );
 }

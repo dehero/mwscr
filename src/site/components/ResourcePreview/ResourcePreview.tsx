@@ -5,7 +5,6 @@ import type { MediaAspectRatio } from '../../../core/entities/media.js';
 import { parseResourceUrl } from '../../../core/entities/resource.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { Frame } from '../Frame/Frame.js';
-import frameStyles from '../Frame/Frame.module.css';
 import { useToaster } from '../Toaster/Toaster.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './ResourcePreview.module.css';
@@ -56,10 +55,11 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
       }
     >
       <Match when={parsedUrl().protocol === 'store:'}>
-        <object
+        <Frame
+          component="object"
           data={src()}
           ref={ref}
-          class={clsx(frameStyles.thin, styles.preview, props.class)}
+          class={clsx(styles.preview, props.class)}
           draggable="false"
           onLoad={props.onLoad}
           onError={handleError}
@@ -67,7 +67,7 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
           aria-label={props.alt || props.url}
         >
           <img src={YellowExclamationMark} class={styles.preview} alt="yellow exclamation mark" />
-        </object>
+        </Frame>
 
         <Show when={props.showTooltip}>
           <Tooltip forRef={ref}>{props.url}</Tooltip>

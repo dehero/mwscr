@@ -1,30 +1,25 @@
 import clsx from 'clsx';
-import { type Component, type JSX, mergeProps, splitProps } from 'solid-js';
+import type { ValidComponent } from 'solid-js';
+import { mergeProps, splitProps } from 'solid-js';
+import type { DynamicProps } from 'solid-js/web';
 import { Dynamic } from 'solid-js/web';
 import styles from './Frame.module.css';
 
-interface FrameProps extends JSX.CustomAttributes<HTMLElement>, JSX.DOMAttributes<HTMLElement> {
-  id?: string;
+export type FrameProps<T extends ValidComponent> = Omit<DynamicProps<T>, 'class' | 'component'> & {
+  component?: T;
   class?: string;
-  children?: JSX.Element;
-  variant?: 'thin' | 'thick' | 'button';
-  component?: keyof JSX.IntrinsicElements;
-  style?: JSX.CSSProperties | string;
-  tabIndex?: number;
-}
+  variant?: 'thin' | 'thick' | 'button' | null;
+};
 
-export const Frame: Component<FrameProps> = (props) => {
+export function Frame<T extends ValidComponent>(props: FrameProps<T>) {
   const merged = mergeProps({ variant: 'thin', component: 'div' }, props);
-  const [local, rest] = splitProps(merged, ['class', 'children', 'variant', 'component', 'style']);
+  const [local, rest] = splitProps(merged, ['class', 'variant', 'component']);
 
   return (
-    <Dynamic
-      component={local.component}
-      class={clsx(styles.frame, styles[local.variant], local.class)}
-      style={local.style}
+    <Dynamic<typeof local.component | 'div'>
+      component={local.component ?? 'div'}
+      class={clsx(styles.frame, local.variant && styles[local.variant], local.class)}
       {...rest}
-    >
-      {local.children}
-    </Dynamic>
+    />
   );
-};
+}
