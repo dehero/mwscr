@@ -1,40 +1,43 @@
-import { type Component, For } from 'solid-js';
+import { type Component, For, Show } from 'solid-js';
 import { navigate } from 'vike/client/router';
+import { useData } from 'vike-solid/useData';
 import { usePageContext } from 'vike-solid/usePageContext';
 import { helpRoute } from '../../routes/help-route.js';
 import { homeRoute } from '../../routes/home-route.js';
+import type { RouteMatch } from '../../routes/index.js';
+import { resolveFirstRoute } from '../../routes/index.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { Button } from '../Button/Button.js';
 import type { SelectOption } from '../Select/Select.js';
 import { Select } from '../Select/Select.js';
+import { Spacer } from '../Spacer/Spacer.jsx';
 import styles from './Navigation.module.css';
 
 const navigationItems = [
   { route: homeRoute, params: {} },
   { route: postsRoute, params: { managerName: 'published' } },
-  { route: usersRoute, params: {} },
-  { route: helpRoute, params: { topicId: '' } },
   { route: postsRoute, params: { managerName: 'inbox' } },
   { route: postsRoute, params: { managerName: 'trash' } },
-];
+  { route: usersRoute, params: {} },
+  { route: helpRoute, params: { topicId: '' } },
+] as RouteMatch[];
 
-type NavigationItem = (typeof navigationItems)[number];
-
-export function createOption({ route, params }: NavigationItem): SelectOption<string> {
-  const info = route.info(params as never, undefined as never);
-  const url = route.createUrl(params as never);
+export function createOption({ route, params }: RouteMatch, data?: unknown): SelectOption<string> {
+  const info = route?.info(params as never, data as never);
+  const url = route?.createUrl(params as never);
 
   return {
-    label: info.label || info.title,
+    label: info?.label || info?.title || 'unknown',
     value: url,
   };
 }
 
 export const Navigation: Component = () => {
   const location = usePageContext().urlParsed;
+  const data = useData();
 
-  const options = () => navigationItems.map(createOption);
+  const options = () => navigationItems.map((item) => createOption(item));
   const selectedOption = () =>
     options().find((option) =>
       location.pathname === '/'
@@ -44,10 +47,19 @@ export const Navigation: Component = () => {
           : undefined,
     );
 
-  const returnUrl = () => {
-    const parts = location.pathname.split('/').filter(Boolean);
+  const breadcrumbs = () => {
+    const parts = ['', ...location.pathname.split('/').filter(Boolean)];
+    const options: SelectOption<string>[] = [];
+    let url = '';
 
-    return `/${parts.slice(0, -1).map((part) => `${part}/`)}`;
+    for (let i = 0; i < parts.length; i++) {
+      url += `${parts[i]}/`;
+
+      const item = resolveFirstRoute(url);
+      options.push(createOption(item, i === parts.length - 1 ? data : undefined));
+    }
+
+    return options;
   };
 
   return (
@@ -68,9 +80,23 @@ export const Navigation: Component = () => {
         class={styles.menu}
       />
 
-      <Button href={returnUrl()} class={styles.returnButton}>
-        Return
-      </Button>
+      <Show when={breadcrumbs().length > 1}>
+        <Spacer />
+        <span class={styles.breadcrumbs}>
+          <For each={breadcrumbs()}>
+            {(breadcrumb, index) => (
+              <>
+                {index() > 0 && ' / '}
+                <Show when={index() < breadcrumbs().length - 1} fallback={breadcrumb.label}>
+                  <a href={breadcrumb.value} class={styles.link}>
+                    {breadcrumb.label}
+                  </a>
+                </Show>
+              </>
+            )}
+          </For>
+        </span>
+      </Show>
     </nav>
   );
 };
