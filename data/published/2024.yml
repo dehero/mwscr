@@ -2137,17 +2137,18 @@
     - service: vk
       id: 1580
       published: 2024-06-13-18-20-39
-      updated: 2024-06-27-20-15-34
+      updated: 2024-07-04-21-14-02
       followers: 915
-      likes: 35
-      views: 261
+      likes: 36
+      views: 277
+      reposts: 1
     - service: tg
       id: 438
       published: 2024-06-13-18-20-46
-      updated: 2024-06-27-20-15-33
+      updated: 2024-07-04-21-14-02
       followers: 385
-      likes: 54
-      views: 331
+      likes: 55
+      views: 359
 2024-06-14.sleeping-silt-strider:
   title: Sleeping Silt Strider
   titleRu: Спящий Силт Страйдер
