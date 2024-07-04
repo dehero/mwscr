@@ -4,7 +4,33 @@
 
 # Published in 2024
 
-`128 items`
+`129 items`
+
+## <span id="2024-07-04.elven-nations-cornerclub">Elven Nations Cornerclub</span>
+
+`RU` Клуб &quot;Эльфийские Народы&quot;
+
+<a href="https://instagram.com/p/BQxBGyzjfy0/" title="2017-02-21.elven-nations-cornerclub"><img alt="store:/shots/2017-02-21.elven-nations-cornerclub.png" src="../../assets/previews/shots/2017-02-21.elven-nations-cornerclub.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-04.elven-nations-cornerclub)</code> `🚀 OpenMW` `nofilter` `bar` `women`
+
+```
+2024-07-04.elven-nations-cornerclub
+```
+
+> `2017-02-21.elven-nations-cornerclub`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BQxBGyzjfy0/)       | 2017-02-21 |       |    29 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_165)  | 2017-02-21 |   145 |    10 |        38 |     10 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1613) | 2024-07-04 |       |       |       919 |        |
+| [`tg`](https://t.me/mwscr/459)                     | 2024-07-04 |       |       |       391 |        |
+|                                                    |            |   145 |    39 |      1310 |        |
 
 ## <span id="2024-07-03.ashes-of-d-bryant">Ashes of D. Bryant</span>
 
@@ -29,8 +55,8 @@
 | [`ig`](https://instagram.com/p/BU1WeeEjfN2/)       | 2017-06-02 |       |    50 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_309)  | 2017-06-02 |   104 |     5 |        60 |      5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1612) | 2024-07-03 |   136 |    19 |       917 |   2.07 |
-| [`tg`](https://t.me/mwscr/458)                     | 2024-07-03 |   116 |    37 |       391 |   9.46 |
-|                                                    |            |   356 |   111 |      1308 |   5.51 |
+| [`tg`](https://t.me/mwscr/458)                     | 2024-07-03 |   118 |    37 |       391 |   9.46 |
+|                                                    |            |   358 |   111 |      1308 |   5.51 |
 
 #### Comments
 
@@ -59,9 +85,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bj0GPQElSQl/)       | 2018-06-09 |       |    99 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_761)  | 2018-06-09 |   255 |    23 |       173 |  13.29 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1611) | 2024-07-02 |   184 |    30 |       918 |   3.27 |
-| [`tg`](https://t.me/mwscr/457)                     | 2024-07-02 |   149 |    50 |       391 |  12.79 |
-|                                                    |            |   588 |   202 |      1309 |   9.78 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1611) | 2024-07-02 |   185 |    30 |       918 |   3.27 |
+| [`tg`](https://t.me/mwscr/457)                     | 2024-07-02 |   151 |    50 |       391 |  12.79 |
+|                                                    |            |   591 |   202 |      1309 |   9.78 |
 
 ## <span id="2024-07-01.near-the-ancient-dwelling">Near the Ancient Dwelling</span>
 
@@ -85,9 +111,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BUd_0EqDzzK/)       | 2017-05-24 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_300)  | 2017-05-24 |   110 |     4 |        57 |      4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1610) | 2024-07-01 |   216 |    44 |       918 |   4.79 |
-| [`tg`](https://t.me/mwscr/456)                     | 2024-07-01 |   158 |    53 |       390 |  13.59 |
-|                                                    |            |   484 |   160 |      1308 |   7.46 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1610) | 2024-07-01 |   254 |    46 |       918 |   5.01 |
+| [`tg`](https://t.me/mwscr/456)                     | 2024-07-01 |   180 |    55 |       390 |   14.1 |
+|                                                    |            |   544 |   164 |      1308 |    7.7 |
 
 ## <span id="2024-06-30.ice-shivers">Ice Shivers</span>
 

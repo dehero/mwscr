@@ -1766,6 +1766,14 @@
       followers: 38
       likes: 10
       views: 145
+    - service: vk
+      id: 1613
+      published: 2024-07-04-18-19-51
+      followers: 919
+    - service: tg
+      id: 459
+      published: 2024-07-04-18-19-57
+      followers: 391
 2017-02-22.strider-in-the-storm:
   title: Strider in the Storm
   titleRu: Страйдер внутри бури
@@ -4675,18 +4683,18 @@
     - service: vk
       id: 1610
       published: 2024-07-01-18-20-13
-      updated: 2024-07-03-18-19-29
+      updated: 2024-07-04-18-19-40
       followers: 918
-      likes: 44
-      views: 216
+      likes: 46
+      views: 254
       reposts: 1
     - service: tg
       id: 456
       published: 2024-07-01-18-20-19
-      updated: 2024-07-03-18-19-30
+      updated: 2024-07-04-18-19-41
       followers: 390
-      likes: 53
-      views: 158
+      likes: 55
+      views: 180
 2017-05-25.arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас
@@ -4929,17 +4937,17 @@
     - service: vk
       id: 1612
       published: 2024-07-03-18-19-45
-      updated: 2024-07-04-17-14-00
+      updated: 2024-07-04-18-19-38
       followers: 917
       likes: 19
       views: 136
     - service: tg
       id: 458
       published: 2024-07-03-18-19-53
-      updated: 2024-07-04-17-14-01
+      updated: 2024-07-04-18-19-39
       followers: 391
       likes: 37
-      views: 116
+      views: 118
       comments: !c |-
         CyGAkZTLQnkHndcVAACrYm9icm92bmlrb3azUklQIEQuIEJyeWFudCAg8J+qppPLQnkHngW2gACp
         R2F0ZW1hdGU3oz8/PwM=
