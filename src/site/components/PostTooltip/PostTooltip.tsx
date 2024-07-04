@@ -3,7 +3,7 @@ import { getPostDateById, POST_VIOLATIONS } from '../../../core/entities/post.js
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/user.js';
 import { capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
-import { isValidDate } from '../../../core/utils/date-utils.js';
+import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
 import { Divider } from '../Divider/Divider.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
@@ -34,7 +34,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       </Show>
       <Show when={isValidDate(date())}>
         <span class={styles.date}>
-          Date: {date()?.toLocaleDateString('en-GB')}
+          Date: {formatDate(date()!)}
           <Show when={isValidDate(refDate())}>*</Show>
         </span>
       </Show>
@@ -114,7 +114,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       </Show>
       <Show when={isValidDate(refDate())}>
         <Divider class={styles.divider} />
-        <span class={styles.date}>* {refDate()?.toLocaleDateString('en-GB')}</span>
+        <span class={styles.date}>* {formatDate(refDate()!)}</span>
       </Show>
       <Show when={local.postInfo.publishableErrors}>
         {(errors) => (

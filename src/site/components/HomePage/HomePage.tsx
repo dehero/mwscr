@@ -4,6 +4,7 @@ import icon from '../../../../assets/icon.png?format=avif&imagetools';
 import pkg from '../../../../package.json';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import type { UserContribution } from '../../../core/entities/user.js';
+import { formatDate } from '../../../core/utils/date-utils.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { Divider } from '../Divider/Divider.js';
@@ -77,7 +78,7 @@ export const HomePage: Component = () => {
         <p class={styles.version}>
           v{typeof pkg === 'object' && 'version' in pkg && typeof pkg.version === 'string' ? pkg.version : undefined}
           {', '}
-          {buildDate.toLocaleDateString('en-GB')}
+          {formatDate(buildDate)}
         </p>
         <p class={styles.copyright}>
           <GoldIcon />{' '}

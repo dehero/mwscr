@@ -3,6 +3,7 @@ import { type Component, For, Show } from 'solid-js';
 import type { Post } from '../../../core/entities/post.js';
 import { getAllPostCommentsSorted } from '../../../core/entities/post.js';
 import { groupBy } from '../../../core/utils/common-utils.js';
+import { dateToString, formatDate, formatTime } from '../../../core/utils/date-utils.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import styles from './PostComments.module.css';
@@ -14,7 +15,7 @@ export interface PostCommentsProps {
 
 export const PostComments: Component<PostCommentsProps> = (props) => {
   const commentGroups = () => [
-    ...groupBy(getAllPostCommentsSorted(props.post), (comment) => comment.datetime.toDateString()).entries(),
+    ...groupBy(getAllPostCommentsSorted(props.post), (comment) => dateToString(comment.datetime)).entries(),
   ];
 
   return (
@@ -26,13 +27,13 @@ export const PostComments: Component<PostCommentsProps> = (props) => {
               <Divider />
             </Show>
             <section class={styles.group}>
-              <h3 class={styles.title}>{new Date(dateStr).toLocaleDateString('en-GB')}</h3>
+              <h3 class={styles.title}>{formatDate(new Date(dateStr))}</h3>
               <For each={comments}>
                 {(comment) => (
                   <>
                     <section class={styles.comment}>
                       <h4 class={styles.title}>
-                        [{comment.service}] {comment.datetime.toLocaleTimeString('en-GB')} {comment.author}
+                        [{comment.service}] {formatTime(comment.datetime)} {comment.author}
                       </h4>
                       <p class={styles.text}>{comment.text}</p>
                     </section>
@@ -40,7 +41,7 @@ export const PostComments: Component<PostCommentsProps> = (props) => {
                       {(reply) => (
                         <section class={styles.reply}>
                           <h5 class={styles.title}>
-                            {reply.datetime.toLocaleTimeString('en-GB')} {reply.author}
+                            {formatTime(comment.datetime)} {reply.author}
                           </h5>
                           <p class={styles.text}>{reply.text}</p>
                         </section>

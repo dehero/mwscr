@@ -75,3 +75,11 @@ export function getVersionFromDate(date: Date) {
 export function isValidDate(value: unknown) {
   return value instanceof Date && !Number.isNaN(value.getTime());
 }
+
+export function formatDate(date: Date, locale = 'en-GB') {
+  return date.toLocaleDateString(locale, { timeZone: 'UTC' });
+}
+
+export function formatTime(date: Date, locale = 'en-GB') {
+  return date.toLocaleTimeString(locale, { timeZone: 'UTC' });
+}

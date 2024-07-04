@@ -17,7 +17,7 @@ import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/us
 import { youtube } from '../../../core/services/youtube.js';
 import { store } from '../../../core/stores/index.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
-import { isValidDate } from '../../../core/utils/date-utils.js';
+import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
 import { useParams } from '../../hooks/useParams.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { postRoute, type PostRouteParams } from '../../routes/post-route.js';
@@ -244,7 +244,7 @@ export const PostPage: Component = () => {
                   <Show when={data.requesterEntry}>
                     {(entry) => (
                       <p class={styles.requestUser}>
-                        {getUserEntryTitle(entry())}, {post().request?.date.toLocaleDateString('en-GB')}
+                        {getUserEntryTitle(entry())}, {formatDate(post().request?.date!)}
                       </p>
                     )}
                   </Show>

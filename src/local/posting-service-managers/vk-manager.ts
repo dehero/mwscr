@@ -13,7 +13,7 @@ import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import type { VKPost } from '../../core/services/vk.js';
 import { VK as VKService, VK_GROUP_ID, VK_GROUP_NAME } from '../../core/services/vk.js';
 import { asArray, randomDelay } from '../../core/utils/common-utils.js';
-import { getDaysPassed } from '../../core/utils/date-utils.js';
+import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
 import { locations } from '../data-managers/locations.js';
 import { readResource } from '../data-managers/resources.js';
 import { users } from '../data-managers/users.js';
@@ -91,7 +91,7 @@ export class VKManager extends VKService implements PostingServiceManager {
 
     const firstPublished = getPostFirstPublished(post);
     if (firstPublished && getDaysPassed(firstPublished) > 7) {
-      lines.push(firstPublished.toLocaleDateString('ru-RU'));
+      lines.push(formatDate(firstPublished, 'ru-RU'));
     }
 
     return lines.join('\n');

@@ -3,6 +3,7 @@ import { type Component, For, Show } from 'solid-js';
 import type { Post } from '../../../core/entities/post.js';
 import { getServicePostRating } from '../../../core/entities/post.js';
 import { postingServices } from '../../../core/services/index.js';
+import { formatDate } from '../../../core/utils/date-utils.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { Table } from '../Table/Table.js';
@@ -31,7 +32,7 @@ export const PostPublications: Component<PostPublicationsProps> = (props) => {
               <Table
                 class={styles.table}
                 label={service?.name}
-                value={servicePost.published.toLocaleDateString('en-GB')}
+                value={formatDate(servicePost.published)}
                 link={service?.getServicePostUrl(servicePost)}
                 rows={[
                   {

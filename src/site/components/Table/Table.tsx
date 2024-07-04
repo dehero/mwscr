@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import { type Component, For, type JSX, Show, splitProps } from 'solid-js';
+import { formatDate } from '../../../core/utils/date-utils.js';
 import styles from './Table.module.css';
 
 export interface TableRow {
@@ -16,7 +17,7 @@ interface TableProps extends TableRow {
 
 function valueToString(value: string | number | Date | undefined): string {
   if (value instanceof Date) {
-    return value.toLocaleDateString('en-GB');
+    return formatDate(value);
   }
   return value?.toString() || '';
 }

@@ -23,7 +23,7 @@ import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import type { InstagramPost } from '../../core/services/instagram.js';
 import { Instagram } from '../../core/services/instagram.js';
 import { asArray } from '../../core/utils/common-utils.js';
-import { getDaysPassed } from '../../core/utils/date-utils.js';
+import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
 import { readResource } from '../data-managers/resources.js';
 import { users } from '../data-managers/users.js';
 
@@ -86,7 +86,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
     const firstPublished = getPostFirstPublished(post);
     if (firstPublished && getDaysPassed(firstPublished) > 7) {
-      lines.push(firstPublished.toLocaleDateString('en-GB'));
+      lines.push(formatDate(firstPublished));
     }
 
     return lines.join('\n');
