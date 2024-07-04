@@ -1769,18 +1769,18 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2024-07-04-19-13-10
+      updated: 2024-07-04-20-15-18
       followers: 919
-      likes: 6
-      views: 32
+      likes: 10
+      views: 54
       reposts: 1
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2024-07-04-19-13-11
+      updated: 2024-07-04-20-15-19
       followers: 391
-      likes: 21
-      views: 67
+      likes: 24
+      views: 81
 2017-02-22.strider-in-the-storm:
   title: Strider in the Storm
   titleRu: Страйдер внутри бури
@@ -2575,18 +2575,18 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2024-06-27-19-13-52
+      updated: 2024-07-04-20-15-20
       followers: 919
-      likes: 43
-      views: 272
-      reposts: 2
+      likes: 44
+      views: 294
+      reposts: 3
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2024-06-27-19-13-50
+      updated: 2024-07-04-20-15-20
       followers: 387
-      likes: 59
-      views: 240
+      likes: 63
+      views: 344
       comments: !c |-
         CyWAkZPLQnkECYQ5gACsUm9iZXJfNTU1OTQ52THQrdGC0L4g0LLRi9Cz0LvRj9C00LjRgiDRgtCw
         0Log0L/RgNC10LrRgNCw0YHQvdC+Aw==
@@ -4944,17 +4944,17 @@
     - service: vk
       id: 1612
       published: 2024-07-03-18-19-45
-      updated: 2024-07-04-19-13-10
+      updated: 2024-07-04-20-15-19
       followers: 917
       likes: 19
       views: 137
     - service: tg
       id: 458
       published: 2024-07-03-18-19-53
-      updated: 2024-07-04-19-13-11
+      updated: 2024-07-04-20-15-20
       followers: 391
-      likes: 39
-      views: 132
+      likes: 40
+      views: 134
       comments: !c |-
         CyGAkZTLQnkHndcVAACrYm9icm92bmlrb3azUklQIEQuIEJyeWFudCAg8J+qppPLQnkHngW2gACp
         R2F0ZW1hdGU3oz8/PwM=
