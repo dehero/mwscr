@@ -4,7 +4,33 @@
 
 # Published in 2024
 
-`129 items`
+`130 items`
+
+## <span id="2024-07-05.another-coven">Another Coven</span>
+
+`RU` Новое сборище
+
+<a href="https://instagram.com/p/Bnrb6krFZm5/" title="2018-09-13.another-coven"><img alt="store:/shots/2018-09-13.another-coven.png" src="../../assets/previews/shots/2018-09-13.another-coven.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-05.another-coven)</code> `🚀 OpenMW` `campfire`
+
+```
+2024-07-05.another-coven
+```
+
+> `2018-09-13.another-coven`
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bnrb6krFZm5/)      | 2018-09-13 |       |   119 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_923) | 2018-09-13 |   331 |    22 |       228 |   9.65 |
+| [`tg`](https://t.me/mwscr/29)                     | 2018-09-13 |   197 |     2 |           |        |
+| [`tg`](https://t.me/mwscr/460)                    | 2024-07-05 |       |       |       393 |        |
+|                                                   |            |   528 |   143 |       621 |        |
 
 ## <span id="2024-07-04.elven-nations-cornerclub">Elven Nations Cornerclub</span>
 
@@ -28,9 +54,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQxBGyzjfy0/)       | 2017-02-21 |       |    29 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_165)  | 2017-02-21 |   145 |    10 |        38 |     10 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1613) | 2024-07-04 |   159 |    26 |       919 |   2.83 |
-| [`tg`](https://t.me/mwscr/459)                     | 2024-07-04 |   157 |    43 |       391 |     11 |
-|                                                    |            |   461 |   108 |      1310 |   7.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1613) | 2024-07-04 |   160 |    26 |       919 |   2.83 |
+| [`tg`](https://t.me/mwscr/459)                     | 2024-07-04 |   161 |    43 |       391 |     11 |
+|                                                    |            |   466 |   108 |      1310 |   7.94 |
 
 ## <span id="2024-07-03.ashes-of-d-bryant">Ashes of D. Bryant</span>
 
