@@ -4071,20 +4071,20 @@
     - service: vk
       id: 1526
       published: 2024-05-09-18-18-25
-      updated: 2024-06-28-02-32-38
+      updated: 2024-07-05-03-16-47
       followers: 913
       likes: 39
-      views: 264
+      views: 266
       comments: !c |-
         G2cAWByJsY2KPTRnzG+ESqdQj7Txgsky8ZFM7gfPjXk8kXhRBWaQZQNfD/iqqYeJnJBHFnNi30tB
         iiQDiVWe+6H9FwHwxIdXDZEhWBA/9NaFO84qvbOqdk1m83cMHqshR1eqM+eNYUzIzQs=
     - service: tg
       id: 403
       published: 2024-05-09-18-18-32
-      updated: 2024-06-28-02-32-38
+      updated: 2024-07-05-03-16-48
       followers: 370
       likes: 59
-      views: 401
+      views: 407
 2018-05-19.keep-calm-and-wait-for-nerevarine:
   title: Keep Calm and Wait for Nerevarine
   titleRu: Будь спокоен и жди Нереварина
