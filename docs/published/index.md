@@ -29,9 +29,9 @@
 | [`ig`](https://instagram.com/p/Bnrb6krFZm5/)       | 2018-09-13 |       |   119 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_923)  | 2018-09-13 |   331 |    22 |       228 |   9.65 |
 | [`tg`](https://t.me/mwscr/29)                      | 2018-09-13 |   197 |     2 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1615) | 2024-07-05 |    66 |     6 |       919 |   0.65 |
-| [`tg`](https://t.me/mwscr/460)                     | 2024-07-05 |    78 |    26 |       393 |   6.62 |
-|                                                    |            |   672 |   175 |      1312 |   5.64 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1615) | 2024-07-05 |    72 |     8 |       919 |   0.87 |
+| [`tg`](https://t.me/mwscr/460)                     | 2024-07-05 |    83 |    27 |       393 |   6.87 |
+|                                                    |            |   683 |   178 |      1312 |    5.8 |
 
 ## <span id="2024-07-04.elven-nations-cornerclub">Elven Nations Cornerclub</span>
 
@@ -56,8 +56,8 @@
 | [`ig`](https://instagram.com/p/BQxBGyzjfy0/)       | 2017-02-21 |       |    29 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_165)  | 2017-02-21 |   145 |    10 |        38 |     10 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1613) | 2024-07-04 |   165 |    26 |       919 |   2.83 |
-| [`tg`](https://t.me/mwscr/459)                     | 2024-07-04 |   183 |    46 |       391 |  11.76 |
-|                                                    |            |   493 |   111 |      1310 |    8.2 |
+| [`tg`](https://t.me/mwscr/459)                     | 2024-07-04 |   185 |    46 |       391 |  11.76 |
+|                                                    |            |   495 |   111 |      1310 |    8.2 |
 
 ## <span id="2024-07-03.ashes-of-d-bryant">Ashes of D. Bryant</span>
 
