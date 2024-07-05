@@ -247,18 +247,18 @@
     - service: vk
       id: 1607
       published: 2024-06-28-18-19-25
-      updated: 2024-07-04-19-13-14
+      updated: 2024-07-05-20-16-41
       followers: 917
-      likes: 32
-      views: 244
+      likes: 33
+      views: 247
       reposts: 1
     - service: tg
       id: 453
       published: 2024-06-28-18-19-31
-      updated: 2024-07-04-19-13-13
+      updated: 2024-07-05-20-16-40
       followers: 387
       likes: 53
-      views: 292
+      views: 309
 2018-01-10.rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
@@ -4814,17 +4814,17 @@
     - service: tg
       id: 454
       published: 2024-06-29-18-18-56
-      updated: 2024-07-04-19-13-12
+      updated: 2024-07-05-20-16-40
       followers: 388
-      likes: 51
-      views: 342
+      likes: 52
+      views: 359
     - service: vk
       id: 1608
       published: 2024-06-29-19-11-46
-      updated: 2024-07-04-19-13-13
+      updated: 2024-07-05-20-16-40
       followers: 918
       likes: 32
-      views: 274
+      views: 279
       reposts: 2
 2018-06-14.the-blue-corridor:
   title: The Blue Corridor
@@ -7443,14 +7443,18 @@
     - service: tg
       id: 460
       published: 2024-07-05-18-19-50
-      updated: 2024-07-05-19-11-50
+      updated: 2024-07-05-20-16-38
       followers: 393
-      likes: 19
-      views: 52
+      likes: 23
+      views: 65
     - service: vk
       id: 1615
       published: 2024-07-05-19-12-06
+      updated: 2024-07-05-20-16-37
       followers: 919
+      likes: 3
+      views: 41
+      reposts: 1
 2018-09-14.serano-ancestral-tomb:
   title: Serano Ancestral Tomb
   titleRu: Родовая гробница Серано
