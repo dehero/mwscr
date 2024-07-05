@@ -205,17 +205,17 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2024-06-28-04-17-40
+      updated: 2024-07-05-04-19-54
       followers: 893
       likes: 35
-      views: 256
+      views: 257
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2024-06-28-04-17-37
+      updated: 2024-07-05-04-19-53
       followers: 345
       likes: 57
-      views: 501
+      views: 505
 2024-03-08.a-bridge-to-ascadian-isles:
   title: A Bridge to Ascadian Isles
   titleRu: Мост к Аскадианским островам
@@ -552,10 +552,10 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2024-06-28-04-17-39
+      updated: 2024-07-05-04-19-52
       followers: 896
       likes: 42
-      views: 295
+      views: 296
       reposts: 2
       comments: !c |-
         CyeAkpPLQnjmJFLwgACnaWFtd2l0ZK7QkNC70YzQtNGA0YPQvZPLQnjmUaoeAACobW9ydHdha2W5
@@ -563,10 +563,10 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2024-06-28-04-17-36
+      updated: 2024-07-05-04-19-52
       followers: 352
       likes: 57
-      views: 447
+      views: 449
       comments: !c |-
         CymAkZTLQnjmKMfPAACpR2F0ZW1hdGU32SZ0aGlzIGlzIGEgbWFzb25pYyBsb2RnZT8gbm90IG1v
         cnJvd2luZJPLQnjmKXtAgAClYW5zaXOlaGFoYWgD
@@ -841,18 +841,18 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2024-06-28-04-17-37
+      updated: 2024-07-05-04-19-51
       followers: 906
       likes: 51
-      views: 423
+      views: 424
       reposts: 4
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2024-06-28-04-17-35
+      updated: 2024-07-05-04-19-51
       followers: 354
       likes: 61
-      views: 445
+      views: 449
 2024-04-05.rain-of-sparks: 2017-09-29.rain-of-sparks
 2024-04-06.falling-towers:
   title: Falling Towers
