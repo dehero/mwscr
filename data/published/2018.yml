@@ -4678,18 +4678,22 @@
     - service: vk
       id: 1611
       published: 2024-07-02-18-20-16
-      updated: 2024-07-04-18-19-39
+      updated: 2024-07-05-19-11-50
       followers: 918
-      likes: 30
-      views: 185
+      likes: 32
+      views: 201
       reposts: 1
+      comments: !c |-
+        G7oA+B2JsY2aLays8sOF+H+ek+kEv012hj7ETpJg4sl9RqnbLCF6DMViH+fi9Hxa3tQsSkXyY/xs
+        pmiHkX4z63LQktiSEV7ygGhO2nu9f6Yd+vNX7fuU2jJbdilEn4n+s6iRDKfs+YFaJFDOgZm2oADq
+        mi4TcYamGq93F4ArmgfewvKLSQim0JmBMhGIY+S24Tc=
     - service: tg
       id: 457
       published: 2024-07-02-18-20-23
-      updated: 2024-07-04-18-19-40
+      updated: 2024-07-05-19-11-52
       followers: 391
-      likes: 50
-      views: 151
+      likes: 53
+      views: 169
 2018-06-10.left-side-portraits:
   title: Left-Side Portraits
   titleRu: Левосторонние портреты
@@ -7439,7 +7443,14 @@
     - service: tg
       id: 460
       published: 2024-07-05-18-19-50
+      updated: 2024-07-05-19-11-50
       followers: 393
+      likes: 19
+      views: 52
+    - service: vk
+      id: 1615
+      published: 2024-07-05-19-12-06
+      followers: 919
 2018-09-14.serano-ancestral-tomb:
   title: Serano Ancestral Tomb
   titleRu: Родовая гробница Серано
