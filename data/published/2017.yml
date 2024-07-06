@@ -4690,18 +4690,18 @@
     - service: vk
       id: 1610
       published: 2024-07-01-18-20-13
-      updated: 2024-07-05-19-11-51
+      updated: 2024-07-06-19-12-02
       followers: 918
-      likes: 47
-      views: 270
+      likes: 48
+      views: 280
       reposts: 1
     - service: tg
       id: 456
       published: 2024-07-01-18-20-19
-      updated: 2024-07-05-19-11-52
+      updated: 2024-07-06-19-12-03
       followers: 390
-      likes: 56
-      views: 207
+      likes: 57
+      views: 224
 2017-05-25.arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас
@@ -4944,17 +4944,17 @@
     - service: vk
       id: 1612
       published: 2024-07-03-18-19-45
-      updated: 2024-07-05-18-19-35
+      updated: 2024-07-06-19-12-00
       followers: 917
-      likes: 21
-      views: 153
+      likes: 22
+      views: 164
     - service: tg
       id: 458
       published: 2024-07-03-18-19-53
-      updated: 2024-07-05-18-19-36
+      updated: 2024-07-06-19-12-01
       followers: 391
-      likes: 42
-      views: 154
+      likes: 45
+      views: 176
       comments: !c |-
         CyGAkZTLQnkHndcVAACrYm9icm92bmlrb3azUklQIEQuIEJyeWFudCAg8J+qppPLQnkHngW2gACp
         R2F0ZW1hdGU3oz8/PwM=
@@ -10446,11 +10446,22 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
+      updated: 2024-07-06-19-11-59
       followers: 919
+      likes: 15
+      views: 45
+      reposts: 1
+      comments: !c |-
+        G9MA4J0JdqwVwwx2PQ4aRXlGLPrOmZh0SlCCyh7U3EpKhA7qbaL+C7U6TTmm3auZwJ70Ky/bDQ7Y
+        00DjAIcdY9tehzrZPkhNxO6S+Lx/q3c261tv3qeUGHT5BfTcXNAM1P8IeDILYggwaFnYzeYaC0ms
+        JX+S4yNwayL9g2IYDmvNTvaYIdsC
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
+      updated: 2024-07-06-19-11-59
       followers: 393
+      likes: 18
+      views: 46
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
