@@ -10446,10 +10446,10 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-07-06-21-14-53
+      updated: 2024-07-06-22-14-31
       followers: 919
-      likes: 20
-      views: 85
+      likes: 21
+      views: 97
       reposts: 1
       comments: !c |-
         G9MA4J0JdqwVwwx2PQ4aRXlGLPrOmZh0SlCCyh7U3EpKhA7qbaL+C7U6TTmm3auZwJ70Ky/bDQ7Y
@@ -10458,10 +10458,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-07-06-21-14-53
+      updated: 2024-07-06-22-14-32
       followers: 393
-      likes: 25
-      views: 64
+      likes: 27
+      views: 69
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
