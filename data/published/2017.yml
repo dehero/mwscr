@@ -1724,18 +1724,18 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-06-29-22-15-01
+      updated: 2024-07-06-23-13-43
       followers: 916
-      likes: 48
-      views: 353
-      reposts: 6
+      likes: 49
+      views: 370
+      reposts: 7
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-06-29-22-15-02
+      updated: 2024-07-06-23-13-44
       followers: 386
-      likes: 67
-      views: 319
+      likes: 69
+      views: 399
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -10446,22 +10446,23 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-07-06-22-14-31
+      updated: 2024-07-06-23-13-41
       followers: 919
       likes: 21
-      views: 97
+      views: 99
       reposts: 1
       comments: !c |-
-        G9MA4J0JdqwVwwx2PQ4aRXlGLPrOmZh0SlCCyh7U3EpKhA7qbaL+C7U6TTmm3auZwJ70Ky/bDQ7Y
-        00DjAIcdY9tehzrZPkhNxO6S+Lx/q3c261tv3qeUGHT5BfTcXNAM1P8IeDILYggwaFnYzeYaC0ms
-        JX+S4yNwayL9g2IYDmvNTvaYIdsC
+        GzwBYBwJdizLwsNXJCsj/ut2eGCnXwPONKkJJMGmhJIIkn1GQbmtpDQMdSoHm/qv2Q59q25pgBmF
+        /1t3gXWeSMRbd6IH0//f4be25PMsjTMNLP489DANZJugXhLdVhEl7io9728c/W4D7X3qvn9QSZc+
+        5BdA9cbxNCXq/yOAJ8M4giIUBo6GXYmT8E1IrIH/JiwfAfKu0tgHk2E5rJE7U2UHMlvtOhO8f52f
+        ddFqzXqRnAYzh1R+nCrWi7DqvNeaKBXUjq3MEw==
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-07-06-22-14-32
+      updated: 2024-07-06-23-13-42
       followers: 393
-      likes: 27
-      views: 69
+      likes: 30
+      views: 76
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет

@@ -1466,6 +1466,42 @@
 - `ig` <ins title="2022-07-19-08-33-53">gloves_finne</ins> ❤️❤️❤️
 - `ig` <ins title="2022-07-19-13-02-25">quantd7709</ins> always a chore to remove these bad boys from the house i store my weapons in 😂
 
+## <span id="2017-02-20.waterfall-camp">Waterfall Camp</span>
+
+`RU` Лагерь у водопада
+
+<a href="https://instagram.com/p/BQt-jKGjtaW/" title="2017-02-20.waterfall-camp"><img alt="store:/shots/2017-02-20.waterfall-camp.png" src="../../assets/previews/shots/2017-02-20.waterfall-camp.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2017-02-20.waterfall-camp)</code> `🚀 OpenMW` `nofilter` `waterfall` `camp` `campfire`
+
+```
+2017-02-20.waterfall-camp
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BQt-jKGjtaW/)       | 2017-02-20 |       |    32 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_161)  | 2017-02-20 |   226 |    20 |        38 |     20 |
+| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   449 |   122 |      1420 |   8.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |   370 |    49 |       916 |   5.35 |
+| [`tg`](https://t.me/mwscr/440)                     | 2024-06-15 |   399 |    69 |       386 |  17.88 |
+|                                                    |            |  1444 |   292 |      2722 |  12.95 |
+
+#### Comments
+
+- `vk` <ins title="2017-02-20-04-30-55">id227500203</ins> Атмосфера, с освещением всё-таки поработали?)
+- `vk` <ins title="2017-02-20-04-39-46">dehero</ins> Алексей, просто удачное время суток 😊
+- `vk` <ins title="2017-02-20-09-12-33">id227500203</ins> Антон, поверю на слово)
+- `tg` <ins title="2024-06-16-19-36-31">Aellaria</ins> А где это?
+  - <ins title="2024-06-16-21-00-35">mwscr</ins> Островок севернее Хуула, насколько я помню
+- `ig` <ins title="2024-06-16-20-33-25">delanospies</ins> Location?
+  - <ins title="2024-06-16-21-55-21">delanospies</ins> @mwscr amazing thanks!
+  - <ins title="2024-06-16-20-59-15">mwscr</ins> Some island north of Khuul as I can remember
+
 ## <span id="2023-08-09.night-on-suran-square">Night on Suran Square</span>
 
 `RU` Ночь на площади Сурана
@@ -1573,42 +1609,6 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1374) | 2022-07-30 |  3622 |    61 |       796 |   7.66 |
 | [`tg`](https://t.me/mwscr/299)                     | 2022-07-30 |  1308 |    50 |       278 |  17.99 |
 |                                                    |            |  4930 |   222 |      1074 |  12.82 |
-
-## <span id="2017-02-20.waterfall-camp">Waterfall Camp</span>
-
-`RU` Лагерь у водопада
-
-<a href="https://instagram.com/p/BQt-jKGjtaW/" title="2017-02-20.waterfall-camp"><img alt="store:/shots/2017-02-20.waterfall-camp.png" src="../../assets/previews/shots/2017-02-20.waterfall-camp.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2017-02-20.waterfall-camp)</code> `🚀 OpenMW` `nofilter` `waterfall` `camp` `campfire`
-
-```
-2017-02-20.waterfall-camp
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BQt-jKGjtaW/)       | 2017-02-20 |       |    32 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_161)  | 2017-02-20 |   226 |    20 |        38 |     20 |
-| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   449 |   122 |      1420 |   8.59 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |   353 |    48 |       916 |   5.24 |
-| [`tg`](https://t.me/mwscr/440)                     | 2024-06-15 |   319 |    67 |       386 |  17.36 |
-|                                                    |            |  1347 |   289 |      2722 |   12.8 |
-
-#### Comments
-
-- `vk` <ins title="2017-02-20-04-30-55">id227500203</ins> Атмосфера, с освещением всё-таки поработали?)
-- `vk` <ins title="2017-02-20-04-39-46">dehero</ins> Алексей, просто удачное время суток 😊
-- `vk` <ins title="2017-02-20-09-12-33">id227500203</ins> Антон, поверю на слово)
-- `tg` <ins title="2024-06-16-19-36-31">Aellaria</ins> А где это?
-  - <ins title="2024-06-16-21-00-35">mwscr</ins> Островок севернее Хуула, насколько я помню
-- `ig` <ins title="2024-06-16-20-33-25">delanospies</ins> Location?
-  - <ins title="2024-06-16-21-55-21">delanospies</ins> @mwscr amazing thanks!
-  - <ins title="2024-06-16-20-59-15">mwscr</ins> Some island north of Khuul as I can remember
 
 ## <span id="2018-01-16.birth-of-fabricant">Birth of Fabricant</span>
 
