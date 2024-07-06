@@ -1769,7 +1769,7 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2024-07-06-17-12-16
+      updated: 2024-07-06-18-18-28
       followers: 919
       likes: 27
       views: 182
@@ -1777,10 +1777,10 @@
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2024-07-06-17-12-16
+      updated: 2024-07-06-18-18-28
       followers: 391
-      likes: 47
-      views: 193
+      likes: 48
+      views: 194
 2017-02-22.strider-in-the-storm:
   title: Strider in the Storm
   titleRu: Страйдер внутри бури
@@ -10443,6 +10443,14 @@
       followers: 108
       likes: 14
       views: 162
+    - service: vk
+      id: 1616
+      published: 2024-07-06-18-18-40
+      followers: 919
+    - service: tg
+      id: 461
+      published: 2024-07-06-18-18-45
+      followers: 393
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет

@@ -4,7 +4,33 @@
 
 # Published in 2024
 
-`130 items`
+`131 items`
+
+## <span id="2024-07-06.docks-of-ald-velothi">Docks of Ald Velothi</span>
+
+`RU` В доках Альд Велоти
+
+<a href="https://instagram.com/p/Bcpnsgqj68f/" title="2017-12-13.docks-of-ald-velothi"><img alt="store:/shots/2017-12-13.docks-of-ald-velothi.png" src="../../assets/previews/shots/2017-12-13.docks-of-ald-velothi.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Ald Velothi` `🚀 OpenMW`
+
+```
+2024-07-06.docks-of-ald-velothi
+```
+
+> `2017-12-13.docks-of-ald-velothi`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bcpnsgqj68f/)       | 2017-12-13 |       |    84 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_539)  | 2017-12-13 |   162 |    14 |       108 |  12.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1616) | 2024-07-06 |       |       |       919 |        |
+| [`tg`](https://t.me/mwscr/461)                     | 2024-07-06 |       |       |       393 |        |
+|                                                    |            |   162 |    98 |      1312 |        |
 
 ## <span id="2024-07-05.another-coven">Another Coven</span>
 
@@ -29,9 +55,9 @@
 | [`ig`](https://instagram.com/p/Bnrb6krFZm5/)       | 2018-09-13 |       |   119 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_923)  | 2018-09-13 |   331 |    22 |       228 |   9.65 |
 | [`tg`](https://t.me/mwscr/29)                      | 2018-09-13 |   197 |     2 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1615) | 2024-07-05 |   161 |    22 |       919 |   2.39 |
-| [`tg`](https://t.me/mwscr/460)                     | 2024-07-05 |   108 |    35 |       393 |   8.91 |
-|                                                    |            |   797 |   200 |      1312 |   6.98 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1615) | 2024-07-05 |   162 |    22 |       919 |   2.39 |
+| [`tg`](https://t.me/mwscr/460)                     | 2024-07-05 |   109 |    35 |       393 |   8.91 |
+|                                                    |            |   799 |   200 |      1312 |   6.98 |
 
 ## <span id="2024-07-04.elven-nations-cornerclub">Elven Nations Cornerclub</span>
 
@@ -56,8 +82,8 @@
 | [`ig`](https://instagram.com/p/BQxBGyzjfy0/)       | 2017-02-21 |       |    29 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_165)  | 2017-02-21 |   145 |    10 |        38 |     10 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1613) | 2024-07-04 |   182 |    27 |       919 |   2.94 |
-| [`tg`](https://t.me/mwscr/459)                     | 2024-07-04 |   193 |    47 |       391 |  12.02 |
-|                                                    |            |   520 |   113 |      1310 |   8.32 |
+| [`tg`](https://t.me/mwscr/459)                     | 2024-07-04 |   194 |    48 |       391 |  12.28 |
+|                                                    |            |   521 |   114 |      1310 |    8.4 |
 
 ## <span id="2024-07-03.ashes-of-d-bryant">Ashes of D. Bryant</span>
 
