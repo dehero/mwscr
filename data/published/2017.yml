@@ -5379,17 +5379,17 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2024-06-29-21-13-49
+      updated: 2024-07-06-21-14-57
       followers: 920
-      likes: 34
-      views: 233
+      likes: 35
+      views: 251
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2024-06-29-21-13-49
+      updated: 2024-07-06-21-14-55
       followers: 387
-      likes: 55
-      views: 250
+      likes: 56
+      views: 332
 2017-06-18.manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
@@ -9492,17 +9492,17 @@
     - service: vk
       id: 1609
       published: 2024-06-30-18-20-32
-      updated: 2024-07-05-20-16-39
+      updated: 2024-07-06-21-14-55
       followers: 918
-      likes: 29
-      views: 193
+      likes: 30
+      views: 203
     - service: tg
       id: 455
       published: 2024-06-30-18-20-40
-      updated: 2024-07-05-20-16-39
+      updated: 2024-07-06-21-14-54
       followers: 388
-      likes: 53
-      views: 287
+      likes: 54
+      views: 297
 2017-11-13.three-guars-at-the-crossroads:
   title: Three Guars at the Crossroads
   titleRu: Три гуара на распутье
@@ -10446,10 +10446,10 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-07-06-20-15-07
+      updated: 2024-07-06-21-14-53
       followers: 919
-      likes: 17
-      views: 72
+      likes: 20
+      views: 85
       reposts: 1
       comments: !c |-
         G9MA4J0JdqwVwwx2PQ4aRXlGLPrOmZh0SlCCyh7U3EpKhA7qbaL+C7U6TTmm3auZwJ70Ky/bDQ7Y
@@ -10458,10 +10458,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-07-06-20-15-07
+      updated: 2024-07-06-21-14-53
       followers: 393
-      likes: 22
-      views: 59
+      likes: 25
+      views: 64
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
