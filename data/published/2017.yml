@@ -4690,18 +4690,18 @@
     - service: vk
       id: 1610
       published: 2024-07-01-18-20-13
-      updated: 2024-07-06-19-12-02
+      updated: 2024-07-07-19-12-16
       followers: 918
-      likes: 48
-      views: 280
+      likes: 49
+      views: 284
       reposts: 1
     - service: tg
       id: 456
       published: 2024-07-01-18-20-19
-      updated: 2024-07-06-19-12-03
+      updated: 2024-07-07-19-12-15
       followers: 390
       likes: 57
-      views: 224
+      views: 234
 2017-05-25.arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас
@@ -4944,17 +4944,17 @@
     - service: vk
       id: 1612
       published: 2024-07-03-18-19-45
-      updated: 2024-07-06-19-12-00
+      updated: 2024-07-07-19-12-14
       followers: 917
-      likes: 22
-      views: 164
+      likes: 23
+      views: 168
     - service: tg
       id: 458
       published: 2024-07-03-18-19-53
-      updated: 2024-07-06-19-12-01
+      updated: 2024-07-07-19-12-14
       followers: 391
       likes: 45
-      views: 176
+      views: 201
       comments: !c |-
         CyGAkZTLQnkHndcVAACrYm9icm92bmlrb3azUklQIEQuIEJyeWFudCAg8J+qppPLQnkHngW2gACp
         R2F0ZW1hdGU3oz8/PwM=
@@ -10263,11 +10263,17 @@
     - service: vk
       id: 1621
       published: 2024-07-07-18-18-57
+      updated: 2024-07-07-19-12-12
       followers: 919
+      likes: 6
+      views: 40
     - service: tg
       id: 462
       published: 2024-07-07-18-19-06
+      updated: 2024-07-07-19-12-13
       followers: 393
+      likes: 18
+      views: 51
 2017-12-08.lower-circle:
   title: Lower Circle
   titleRu: Низший круг
@@ -10454,10 +10460,10 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-07-07-18-18-39
+      updated: 2024-07-07-19-12-13
       followers: 919
       likes: 38
-      views: 165
+      views: 166
       reposts: 1
       comments: !c |-
         G48BYCwO7IbPGw3duxki4Z+q6Pm4UYQ/4ZAKLMGmSaSZmyM42Wd0kLpljMUQhB2QSwasfSMf/m2n
@@ -10468,10 +10474,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-07-07-18-18-40
+      updated: 2024-07-07-19-12-13
       followers: 393
-      likes: 41
-      views: 112
+      likes: 46
+      views: 126
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
