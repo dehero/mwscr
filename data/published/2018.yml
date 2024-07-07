@@ -2813,10 +2813,10 @@
     - service: vk
       id: 1595
       published: 2024-06-23-18-18-57
-      updated: 2024-06-30-21-15-01
+      updated: 2024-07-07-21-15-07
       followers: 918
-      likes: 30
-      views: 235
+      likes: 32
+      views: 249
       reposts: 2
       comments: !c |-
         G4gBAKwSbBsG2w8bynXAGZ7iZETfb+wHKP1RmT/MUGidRNCiQUs2WAKpWCh7XTfnc76uYpEEqtti
@@ -2827,10 +2827,10 @@
     - service: tg
       id: 448
       published: 2024-06-23-18-19-06
-      updated: 2024-06-30-21-15-01
+      updated: 2024-07-07-21-15-08
       followers: 389
-      likes: 47
-      views: 252
+      likes: 49
+      views: 336
 2018-04-08.the-symmetry-of-vivec:
   title: The Symmetry of Vivec
   titleRu: Симметрия Вивека
