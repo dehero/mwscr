@@ -1913,7 +1913,7 @@
     - service: vk
       id: 1537
       published: 2024-05-18-18-18-31
-      updated: 2024-06-30-01-12-09
+      updated: 2024-07-07-01-12-41
       followers: 915
       likes: 27
       views: 259
@@ -1921,10 +1921,10 @@
     - service: tg
       id: 412
       published: 2024-05-18-18-18-39
-      updated: 2024-06-30-01-12-09
+      updated: 2024-07-07-01-12-41
       followers: 372
       likes: 51
-      views: 374
+      views: 387
       comments: !c iw2AkZPLQnj40RlbgACrYm9icm92bmlrb3akY296eQM=
 2018-03-08.dead-guar:
   title: Dead Guar
@@ -3540,7 +3540,7 @@
     - service: vk
       id: 1511
       published: 2024-04-27-18-16-27
-      updated: 2024-06-30-01-12-11
+      updated: 2024-07-07-01-12-42
       followers: 911
       likes: 30
       views: 245
@@ -3548,10 +3548,10 @@
     - service: tg
       id: 391
       published: 2024-04-27-18-16-36
-      updated: 2024-06-30-01-12-10
+      updated: 2024-07-07-01-12-44
       followers: 354
       likes: 57
-      views: 436
+      views: 444
 2018-05-04.table-for-two:
   title: Table for Two
   titleRu: Столик на двоих
@@ -7443,14 +7443,14 @@
     - service: tg
       id: 460
       published: 2024-07-05-18-19-50
-      updated: 2024-07-06-23-13-43
+      updated: 2024-07-07-01-12-40
       followers: 393
-      likes: 39
-      views: 133
+      likes: 40
+      views: 134
     - service: vk
       id: 1615
       published: 2024-07-05-19-12-06
-      updated: 2024-07-06-23-13-42
+      updated: 2024-07-07-01-12-39
       followers: 919
       likes: 22
       views: 169
