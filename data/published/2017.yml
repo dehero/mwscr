@@ -10263,17 +10263,17 @@
     - service: vk
       id: 1621
       published: 2024-07-07-18-18-57
-      updated: 2024-07-07-19-12-12
+      updated: 2024-07-07-20-14-39
       followers: 919
-      likes: 6
-      views: 40
+      likes: 11
+      views: 60
     - service: tg
       id: 462
       published: 2024-07-07-18-19-06
-      updated: 2024-07-07-19-12-13
+      updated: 2024-07-07-20-14-39
       followers: 393
-      likes: 18
-      views: 51
+      likes: 25
+      views: 65
 2017-12-08.lower-circle:
   title: Lower Circle
   titleRu: Низший круг
@@ -10460,10 +10460,10 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-07-07-19-12-13
+      updated: 2024-07-07-20-14-40
       followers: 919
       likes: 38
-      views: 166
+      views: 167
       reposts: 1
       comments: !c |-
         G48BYCwO7IbPGw3duxki4Z+q6Pm4UYQ/4ZAKLMGmSaSZmyM42Wd0kLpljMUQhB2QSwasfSMf/m2n
@@ -10474,10 +10474,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-07-07-19-12-13
+      updated: 2024-07-07-20-14-40
       followers: 393
       likes: 46
-      views: 126
+      views: 129
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
