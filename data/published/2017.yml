@@ -9322,18 +9322,18 @@
     - service: vk
       id: 1547
       published: 2024-05-26-18-17-46
-      updated: 2024-06-30-22-13-35
+      updated: 2024-07-07-22-14-07
       followers: 918
       likes: 30
-      views: 270
+      views: 271
       reposts: 2
     - service: tg
       id: 420
       published: 2024-05-26-18-17-52
-      updated: 2024-06-30-22-13-36
+      updated: 2024-07-07-22-14-08
       followers: 377
       likes: 62
-      views: 377
+      views: 392
 2017-11-07.corridor-keeper:
   title: Corridor Keeper
   titleRu: Хранитель прохода
@@ -10263,17 +10263,17 @@
     - service: vk
       id: 1621
       published: 2024-07-07-18-18-57
-      updated: 2024-07-07-21-15-05
+      updated: 2024-07-07-22-14-05
       followers: 919
-      likes: 13
-      views: 73
+      likes: 14
+      views: 78
     - service: tg
       id: 462
       published: 2024-07-07-18-19-06
-      updated: 2024-07-07-21-15-06
+      updated: 2024-07-07-22-14-06
       followers: 393
-      likes: 27
-      views: 71
+      likes: 29
+      views: 77
 2017-12-08.lower-circle:
   title: Lower Circle
   titleRu: Низший круг
@@ -10460,10 +10460,10 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-07-07-21-15-06
+      updated: 2024-07-07-22-14-06
       followers: 919
       likes: 38
-      views: 168
+      views: 169
       reposts: 1
       comments: !c |-
         G48BYCwO7IbPGw3duxki4Z+q6Pm4UYQ/4ZAKLMGmSaSZmyM42Wd0kLpljMUQhB2QSwasfSMf/m2n
@@ -10474,10 +10474,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-07-07-21-15-06
+      updated: 2024-07-07-22-14-07
       followers: 393
       likes: 48
-      views: 131
+      views: 132
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
