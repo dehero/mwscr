@@ -4,7 +4,33 @@
 
 # Published in 2024
 
-`131 items`
+`132 items`
+
+## <span id="2024-07-07.puzzled-ashlanders">Puzzled Ashlanders</span>
+
+`RU` Озадаченные эшлендеры
+
+<a href="https://instagram.com/p/BcaYUeUjTFx/" title="2017-12-07.puzzled-ashlanders"><img alt="store:/shots/2017-12-07.puzzled-ashlanders.png" src="../../assets/previews/shots/2017-12-07.puzzled-ashlanders.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-07.puzzled-ashlanders)</code> `🚀 OpenMW`
+
+```
+2024-07-07.puzzled-ashlanders
+```
+
+> `2017-12-07.puzzled-ashlanders`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BcaYUeUjTFx/)       | 2017-12-07 |       |    99 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_526)  | 2017-12-07 |   177 |    20 |       106 |  18.87 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1621) | 2024-07-07 |       |       |       919 |        |
+| [`tg`](https://t.me/mwscr/462)                     | 2024-07-07 |       |       |       393 |        |
+|                                                    |            |   177 |   119 |      1312 |        |
 
 ## <span id="2024-07-06.docks-of-ald-velothi">Docks of Ald Velothi</span>
 
@@ -28,9 +54,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bcpnsgqj68f/)       | 2017-12-13 |       |    84 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_539)  | 2017-12-13 |   162 |    14 |       108 |  12.96 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1616) | 2024-07-06 |   161 |    38 |       919 |   4.13 |
-| [`tg`](https://t.me/mwscr/461)                     | 2024-07-06 |   110 |    40 |       393 |  10.18 |
-|                                                    |            |   433 |   176 |      1312 |   9.09 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1616) | 2024-07-06 |   165 |    38 |       919 |   4.13 |
+| [`tg`](https://t.me/mwscr/461)                     | 2024-07-06 |   112 |    41 |       393 |  10.43 |
+|                                                    |            |   439 |   177 |      1312 |   9.18 |
 
 #### Comments
 
@@ -61,9 +87,9 @@
 | [`ig`](https://instagram.com/p/Bnrb6krFZm5/)       | 2018-09-13 |       |   119 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_923)  | 2018-09-13 |   331 |    22 |       228 |   9.65 |
 | [`tg`](https://t.me/mwscr/29)                      | 2018-09-13 |   197 |     2 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1615) | 2024-07-05 |   186 |    24 |       919 |   2.61 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1615) | 2024-07-05 |   187 |    24 |       919 |   2.61 |
 | [`tg`](https://t.me/mwscr/460)                     | 2024-07-05 |   144 |    43 |       393 |  10.94 |
-|                                                    |            |   858 |   210 |      1312 |   7.73 |
+|                                                    |            |   859 |   210 |      1312 |   7.73 |
 
 ## <span id="2024-07-04.elven-nations-cornerclub">Elven Nations Cornerclub</span>
 
@@ -87,9 +113,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQxBGyzjfy0/)       | 2017-02-21 |       |    29 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_165)  | 2017-02-21 |   145 |    10 |        38 |     10 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1613) | 2024-07-04 |   182 |    27 |       919 |   2.94 |
-| [`tg`](https://t.me/mwscr/459)                     | 2024-07-04 |   194 |    48 |       391 |  12.28 |
-|                                                    |            |   521 |   114 |      1310 |    8.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1613) | 2024-07-04 |   202 |    28 |       919 |   3.05 |
+| [`tg`](https://t.me/mwscr/459)                     | 2024-07-04 |   209 |    51 |       391 |  13.04 |
+|                                                    |            |   556 |   118 |      1310 |    8.7 |
 
 ## <span id="2024-07-03.ashes-of-d-bryant">Ashes of D. Bryant</span>
 
