@@ -32,7 +32,7 @@ export interface RenderUsersOptions {
 export async function renderUsers(options: RenderUsersOptions) {
   let userInfos = (
     await Promise.all((await options.users.getAllEntries(true)).map(async (item) => mapUserEntry(item, options)))
-  ).sort(compareUserInfosByContribution);
+  ).sort(compareUserInfosByContribution('desc'));
   const { navs, doc } = options;
   const { filename, title } = doc;
   const lines: string[] = [];

@@ -1,16 +1,12 @@
 import clsx from 'clsx';
 import { For } from 'solid-js';
+import type { Option } from '../../../core/entities/option.js';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Select.module.css';
 
-export interface SelectOption<T> {
-  value: T | undefined;
-  label?: string;
-}
-
 export interface SelectProps<T> {
   class?: string;
-  options: SelectOption<T>[];
+  options: Option<T>[];
   name?: string;
   onChange: (value: T | undefined) => void;
   value?: T | undefined;

@@ -1,6 +1,7 @@
 import { type Component, For, Show } from 'solid-js';
 import { navigate } from 'vike/client/router';
 import { usePageContext } from 'vike-solid/usePageContext';
+import type { Option } from '../../../core/entities/option.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { homeRoute } from '../../routes/home-route.js';
@@ -9,9 +10,8 @@ import { resolveFirstRoute } from '../../routes/index.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { Button } from '../Button/Button.js';
-import type { SelectOption } from '../Select/Select.js';
 import { Select } from '../Select/Select.js';
-import { Spacer } from '../Spacer/Spacer.jsx';
+import { Spacer } from '../Spacer/Spacer.js';
 import styles from './Navigation.module.css';
 
 const navigationItems = [
@@ -23,7 +23,7 @@ const navigationItems = [
   { route: helpRoute, params: { topicId: '' } },
 ] as RouteMatch[];
 
-export function createOption({ route, params }: RouteMatch): SelectOption<string> {
+export function createOption({ route, params }: RouteMatch): Option {
   const info = route?.info(params as never);
   const url = route?.createUrl(params as never);
 
@@ -50,7 +50,7 @@ export const Navigation: Component = () => {
 
   const breadcrumbs = () => {
     const parts = ['', ...location.pathname.split('/').filter(Boolean)];
-    const options: SelectOption<string>[] = [];
+    const options: Option[] = [];
     const locationInfo = currentRouteInfo();
 
     let url = '';

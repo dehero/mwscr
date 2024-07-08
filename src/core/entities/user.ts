@@ -1,3 +1,4 @@
+import type { SortDirection } from '../utils/common-types.js';
 import { cleanupUndefinedProps } from '../utils/common-utils.js';
 import type { Link } from './link.js';
 import type { PostsManager } from './posts-manager.js';
@@ -36,6 +37,8 @@ export interface UserInfo {
   likes: number;
   roles: UserRole[];
 }
+
+export type UserInfoComparator = (a: UserInfo, b: UserInfo) => number;
 
 export async function createUserInfo(
   userEntry: UserEntry,
@@ -125,16 +128,30 @@ export function compareUserContributions(a: UserContribution, b: UserContributio
   return a.published - b.published || a.pending - b.pending || a.rejected - b.rejected;
 }
 
-export function compareUserInfosByContribution(a: UserInfo, b: UserInfo) {
-  return (
-    compareUserContributions(b.authored, a.authored) ||
-    compareUserContributions(b.requested, a.requested) ||
-    compareUserInfosById(a, b)
-  );
+export function compareUserInfosById(direction: SortDirection): UserInfoComparator {
+  return direction === 'asc' ? (a, b) => a.id.localeCompare(b.id) : (a, b) => b.id.localeCompare(a.id);
 }
 
-export function compareUserInfosById(a: UserInfo, b: UserInfo) {
-  return a.title.localeCompare(b.title, 'en');
+export function compareUserInfosByTitle(direction: SortDirection): UserInfoComparator {
+  const byId = compareUserInfosById(direction);
+
+  return direction === 'asc'
+    ? (a, b) => a.title.localeCompare(b.title) || byId(a, b)
+    : (a, b) => b.title.localeCompare(a.title) || byId(a, b);
+}
+
+export function compareUserInfosByContribution(direction: SortDirection): UserInfoComparator {
+  const byId = compareUserInfosById(direction);
+
+  return direction === 'asc'
+    ? (a, b) =>
+        compareUserContributions(a.authored, b.authored) ||
+        compareUserContributions(a.requested, b.requested) ||
+        byId(a, b)
+    : (a, b) =>
+        compareUserContributions(b.authored, a.authored) ||
+        compareUserContributions(b.requested, a.requested) ||
+        byId(b, a);
 }
 
 export function userContributionToString({ published, pending, rejected }: UserContribution) {

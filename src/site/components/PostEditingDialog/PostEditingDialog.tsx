@@ -1,6 +1,8 @@
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
 import { createResource, createSignal, createUniqueId, splitProps } from 'solid-js';
+import type { Option } from '../../../core/entities/option.js';
+import { EMPTY_OPTION } from '../../../core/entities/option.js';
 import type {
   Post,
   PostAddon,
@@ -15,7 +17,6 @@ import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issue
 import { asArray } from '../../../core/utils/common-utils.js';
 import { dateToString } from '../../../core/utils/date-utils.js';
 import { locations } from '../../data-managers/locations.js';
-import { EMPTY_OPTION } from '../../utils/ui-constants.js';
 import { Button } from '../Button/Button.js';
 import type { DialogProps } from '../Dialog/Dialog.js';
 import { Dialog } from '../Dialog/Dialog.js';
@@ -23,11 +24,10 @@ import { Frame } from '../Frame/Frame.js';
 import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
 import { PostContentEditor } from '../PostContentEditor/PostContentEditor.js';
-import type { SelectOption } from '../Select/Select.js';
 import { Select } from '../Select/Select.js';
 import styles from './PostEditingDialog.module.css';
 
-async function getLocationOptions(): Promise<SelectOption<string>[]> {
+async function getLocationOptions(): Promise<Option[]> {
   return (await locations.getAllEntries())
     .sort((a, b) => a[1].title.localeCompare(b[1].title))
     .map((location) => ({ value: location[0], label: location[1].title }));

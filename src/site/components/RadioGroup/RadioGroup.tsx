@@ -1,16 +1,12 @@
 import clsx from 'clsx';
 import { For } from 'solid-js';
+import type { Option } from '../../../core/entities/option.js';
 import { Frame } from '../Frame/Frame.js';
 import styles from './RadioGroup.module.css';
 
-export interface RadioGroupOption<T> {
-  value: T | undefined;
-  label?: string;
-}
-
 export interface RadioGroupProps<T> {
   class?: string;
-  options: RadioGroupOption<T>[];
+  options: Option<T>[];
   name: string;
   onChange?: (value: T | undefined) => void;
   value?: T | undefined;

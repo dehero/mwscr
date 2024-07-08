@@ -1,127 +1,200 @@
-import { type Component, createSignal, For } from 'solid-js';
+import { createMediaQuery } from '@solid-primitives/media';
+import { makePersisted } from '@solid-primitives/storage';
+import { type Component, createSignal, For, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
+import type { Option } from '../../../core/entities/option.js';
+import { ALL_OPTION } from '../../../core/entities/option.js';
 import type { UserInfo, UserRole } from '../../../core/entities/user.js';
-import { compareUserInfosByContribution, compareUserInfosById, USER_ROLES } from '../../../core/entities/user.js';
+import { USER_ROLES } from '../../../core/entities/user.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
-import { getSearchTokens, search } from '../../../core/utils/common-utils.js';
+import { isObjectEqual } from '../../../core/utils/common-utils.js';
+import {
+  selectUserInfos,
+  type SelectUserInfosParams,
+  selectUserInfosResultToString,
+  type SelectUserInfosSortKey,
+  selectUserInfosSortOptions,
+} from '../../data-utils/user-infos.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
-import { ALL_OPTION } from '../../utils/ui-constants.js';
 import { Button } from '../Button/Button.js';
+import { Checkbox } from '../Checkbox/Checkbox.jsx';
+import { Divider } from '../Divider/Divider.jsx';
 import { Frame } from '../Frame/Frame.js';
 import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
 import { RadioGroup } from '../RadioGroup/RadioGroup.js';
 import { Select } from '../Select/Select.js';
+import { Spacer } from '../Spacer/Spacer.jsx';
 import { Toast } from '../Toaster/Toaster.js';
 import { UserPreview } from '../UserPreview/UserPreview.js';
 import styles from './UsersPage.module.css';
 
-const comparators = [
-  { value: 'id', label: 'ID', fn: compareUserInfosById },
-  { value: 'contribution', label: 'Contrbution', fn: compareUserInfosByContribution },
-] as const;
-
-export type UsersPageSortKey = (typeof comparators)[number]['value'];
-
 export interface UsersPageSearchParams {
   role?: UserRole;
   search?: string;
-  sort?: `${UsersPageSortKey},${SortDirection}`;
+  sort?: `${SelectUserInfosSortKey},${SortDirection}`;
 }
 
-interface GetUserInfosParams {
-  role?: UserRole;
-  search?: string;
-  sortKey: UsersPageSortKey;
-  sortDirection: SortDirection;
+const emptySearchParams: UsersPageSearchParams = {
+  role: undefined,
+  search: undefined,
+  sort: undefined,
+};
+
+interface UsersPagePreset extends Option {
+  searchParams: UsersPageSearchParams;
 }
 
-function getUserInfos(params: GetUserInfosParams) {
-  const comparator = comparators.find((comparator) => comparator.value === params.sortKey)?.fn ?? compareUserInfosById;
-  const data = useData<UserInfo[]>();
-  const searchTokens = getSearchTokens(params.search);
+const presets = [
+  { value: undefined, label: 'All', searchParams: {} },
+  {
+    value: 'authors',
+    label: 'Authors',
+    searchParams: { sort: 'contribution,desc', role: 'author' },
+  },
+  {
+    value: 'requesters',
+    label: 'Requesters',
+    searchParams: { sort: 'contribution,desc', role: 'requester' },
+  },
+] as const satisfies UsersPagePreset[];
 
-  return data
-    .filter(
-      (info) =>
-        (typeof params.role === 'undefined' || info.roles.includes(params.role)) &&
-        search(searchTokens, [info.title, info.id]),
-    )
-    .sort(comparator);
+export interface UsersPageData {
+  userInfos: UserInfo[];
 }
 
 export const UsersPage: Component = () => {
   const [searchParams, setSearchParams] = useSearchParams<UsersPageSearchParams>();
+  const { userInfos } = useData<UsersPageData>();
+  const narrowScreen = createMediaQuery('(max-width: 811px)');
 
-  const sortOptions = () => comparators.map(({ value, label }) => ({ value, label }));
+  const presetOptions = (): UsersPagePreset[] => {
+    const options: UsersPagePreset[] = [...presets];
+    const currentPreset = presets.find((preset) => isObjectEqual(preset.searchParams, searchParams));
+
+    if (!currentPreset) {
+      options.push({ value: 'custom', label: 'Custom Selection', searchParams });
+    }
+
+    return options;
+  };
 
   const userRole = () => USER_ROLES.find((type) => type === searchParams.role);
   const sortKey = () =>
-    sortOptions().find((sortOption) => sortOption.value === searchParams.sort?.split(',')[0])?.value || 'contribution';
+    selectUserInfosSortOptions.find((sortOption) => sortOption.value === searchParams.sort?.split(',')[0])?.value ||
+    'contribution';
   const sortDirection = () => (searchParams.sort?.split(',')[1] === 'asc' ? 'asc' : 'desc');
   const searchTerm = () => searchParams.search;
+  const preset = () => presetOptions().find((preset) => isObjectEqual(preset.searchParams, searchParams))?.value;
 
   const setUserRole = (role: UserRole | undefined) => setSearchParams({ role });
   const setSearchTerm = (search: string | undefined) => setSearchParams({ search });
-  const setSortKey = (key: UsersPageSortKey | undefined) =>
+  const setSortKey = (key: SelectUserInfosSortKey | undefined) =>
     setSearchParams({ sort: `${key || sortKey()},${sortDirection()}` });
-  // const setSortDirection = (direction: SortDirection | undefined) =>
-  //   setSearchParams({ sort: `${sortKey()},${direction || sortDirection()}` });
+  const setSortDirection = (direction: SortDirection | undefined) =>
+    setSearchParams({ sort: `${sortKey()},${direction || sortDirection()}` });
+  const setPreset = (preset: string | undefined) =>
+    setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.searchParams });
 
   const [isSearching, setIsSearching] = createSignal(false);
+  const [expandParametersOnNarrowScreen, setExpandParamatersOnNarrowScreen] = makePersisted(createSignal(false), {
+    name: 'users.expandParametersOnNarrowScreen',
+  });
 
-  const getUserInfoParams = (): GetUserInfosParams => ({
+  const selectParams = (): SelectUserInfosParams => ({
     role: userRole(),
     search: searchTerm(),
     sortKey: sortKey(),
     sortDirection: sortDirection(),
   });
 
-  const userInfos = () => getUserInfos(getUserInfoParams());
+  const selectedUserInfos = () => selectUserInfos(userInfos, selectParams());
 
   return (
     <Frame component="main" class={styles.container}>
       <Frame class={styles.parameters}>
-        <RadioGroup
-          name="role"
-          options={[ALL_OPTION, ...USER_ROLES.map((value) => ({ value }))]}
-          value={userRole()}
-          onChange={setUserRole}
-        />
-
-        <Label label="Search by Name and ID" vertical>
-          <fieldset class={styles.fieldset}>
-            <Input
-              name="search"
-              value={searchTerm()}
-              onChange={() => setIsSearching(true)}
-              onDebouncedChange={(value) => {
-                setSearchTerm(value);
-                setIsSearching(false);
-              }}
+        <fieldset class={styles.presets}>
+          <Select options={presetOptions()} value={preset()} onChange={setPreset} />
+          <Button
+            onClick={(e: Event) => {
+              e.preventDefault();
+              setPreset(undefined);
+            }}
+          >
+            Reset
+          </Button>
+          <Show when={narrowScreen()}>
+            <Spacer />
+            <Checkbox
+              name="showParameters"
+              value={expandParametersOnNarrowScreen()}
+              onChange={setExpandParamatersOnNarrowScreen}
+              trueLabel="Collapse"
+              falseLabel="Expand"
             />
+          </Show>
+        </fieldset>
 
-            <Button
-              onClick={(e: Event) => {
-                e.preventDefault();
-                setSearchTerm('');
-                setIsSearching(false);
-              }}
-            >
-              Clear
-            </Button>
+        <Show when={!narrowScreen() || expandParametersOnNarrowScreen()}>
+          <Divider />
 
-            <Toast message="Searching Users" show={isSearching()} loading />
-          </fieldset>
-        </Label>
+          <Label label="Role" vertical>
+            <Select
+              name="role"
+              options={[ALL_OPTION, ...USER_ROLES.map((value) => ({ value }))]}
+              value={userRole()}
+              onChange={setUserRole}
+            />
+          </Label>
 
-        <Label label="Order By" vertical>
-          <Select options={sortOptions()} value={sortKey()} onChange={setSortKey} />
-        </Label>
+          <Label label="Search by Name or ID" vertical>
+            <fieldset class={styles.fieldset}>
+              <Input
+                name="search"
+                value={searchTerm()}
+                onChange={() => setIsSearching(true)}
+                onDebouncedChange={(value) => {
+                  setSearchTerm(value);
+                  setIsSearching(false);
+                }}
+              />
+
+              <Button
+                onClick={(e: Event) => {
+                  e.preventDefault();
+                  setSearchTerm('');
+                  setIsSearching(false);
+                }}
+              >
+                Clear
+              </Button>
+
+              <Toast message="Searching Users" show={isSearching()} loading />
+            </fieldset>
+          </Label>
+
+          <Label label="Order By" vertical>
+            <fieldset class={styles.fieldset}>
+              <Select options={selectUserInfosSortOptions} value={sortKey()} onChange={setSortKey} />
+              <RadioGroup
+                name="sortDirection"
+                options={[
+                  { value: 'asc', label: 'Asc' },
+                  { value: 'desc', label: 'Desc' },
+                ]}
+                value={sortDirection()}
+                onChange={setSortDirection}
+              />
+            </fieldset>
+          </Label>
+        </Show>
       </Frame>
 
-      <Frame class={styles.users}>
-        <For each={userInfos()}>{(info) => <UserPreview userInfo={info} />}</For>
+      <Frame class={styles.usersWrapper}>
+        <p class={styles.label}>{selectUserInfosResultToString(selectedUserInfos().length, selectParams())}</p>
+        <div class={styles.users}>
+          <For each={selectedUserInfos()}>{(info) => <UserPreview userInfo={info} />}</For>
+        </div>
       </Frame>
     </Frame>
   );

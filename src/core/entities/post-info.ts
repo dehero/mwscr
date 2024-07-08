@@ -1,3 +1,4 @@
+import type { SortDirection } from '../utils/common-types.js';
 import { asArray, cleanupUndefinedProps } from '../utils/common-utils.js';
 import { createLocationInfo, type LocationInfo } from './location-info.js';
 import type { LocationsReader } from './locations-reader.js';
@@ -86,11 +87,11 @@ export async function createPostInfo(
   });
 }
 
-export function comparePostInfosById(direction: 'asc' | 'desc'): PostInfoComparator {
+export function comparePostInfosById(direction: SortDirection): PostInfoComparator {
   return direction === 'asc' ? (a, b) => a.id.localeCompare(b.id) : (a, b) => b.id.localeCompare(a.id);
 }
 
-export function comparePostInfosByCommentCount(direction: 'asc' | 'desc'): PostInfoComparator {
+export function comparePostInfosByCommentCount(direction: SortDirection): PostInfoComparator {
   const byId = comparePostInfosById(direction);
 
   return direction === 'asc'
@@ -98,7 +99,7 @@ export function comparePostInfosByCommentCount(direction: 'asc' | 'desc'): PostI
     : (a, b) => b.commentCount - a.commentCount || byId(a, b);
 }
 
-export function comparePostInfosByRating(direction: 'asc' | 'desc'): PostInfoComparator {
+export function comparePostInfosByRating(direction: SortDirection): PostInfoComparator {
   const byId = comparePostInfosById(direction);
 
   return direction === 'asc'
@@ -106,19 +107,19 @@ export function comparePostInfosByRating(direction: 'asc' | 'desc'): PostInfoCom
     : (a, b) => b.rating - a.rating || byId(a, b);
 }
 
-export function comparePostInfosByLikes(direction: 'asc' | 'desc'): PostInfoComparator {
+export function comparePostInfosByLikes(direction: SortDirection): PostInfoComparator {
   const byId = comparePostInfosById(direction);
 
   return direction === 'asc' ? (a, b) => a.likes - b.likes || byId(a, b) : (a, b) => b.likes - a.likes || byId(a, b);
 }
 
-export function comparePostInfosByViews(direction: 'asc' | 'desc'): PostInfoComparator {
+export function comparePostInfosByViews(direction: SortDirection): PostInfoComparator {
   const byId = comparePostInfosById(direction);
 
   return direction === 'asc' ? (a, b) => a.views - b.views || byId(a, b) : (a, b) => b.views - a.views || byId(a, b);
 }
 
-export function comparePostInfosByMark(direction: 'asc' | 'desc'): PostInfoComparator {
+export function comparePostInfosByMark(direction: SortDirection): PostInfoComparator {
   const byRating = comparePostInfosByRating(direction);
 
   return direction === 'asc'

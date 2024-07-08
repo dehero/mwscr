@@ -3,17 +3,22 @@ import { makePersisted } from '@solid-primitives/storage';
 import { type Component, createSignal, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import { usePageContext } from 'vike-solid/usePageContext';
+import type { Option } from '../../../core/entities/option.js';
+import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../core/entities/option.js';
 import type { PostMark, PostType, PostViolation } from '../../../core/entities/post.js';
 import { POST_MARKS, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
-import { boolToString, stringToBool } from '../../../core/utils/common-utils.js';
+import { boolToString, isObjectEqual, stringToBool } from '../../../core/utils/common-utils.js';
+import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../data-utils/post-infos.js';
+import {
+  selectPostInfos,
+  selectPostInfosResultToString,
+  selectPostInfosSortOptions,
+} from '../../data-utils/post-infos.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
-import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../utils/data-utils.js';
-import { selectPostInfos, selectPostInfosResultToString, selectPostInfosSortOptions } from '../../utils/data-utils.js';
-import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../utils/ui-constants.js';
 import { Button } from '../Button/Button.js';
 import { Checkbox } from '../Checkbox/Checkbox.js';
 import { Divider } from '../Divider/Divider.js';
@@ -22,14 +27,23 @@ import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
 import { PostPreviews } from '../PostPreviews/PostPreviews.js';
 import { RadioGroup } from '../RadioGroup/RadioGroup.js';
-import type { SelectOption } from '../Select/Select.js';
 import { Select } from '../Select/Select.js';
 import { Spacer } from '../Spacer/Spacer.js';
 import { Toast } from '../Toaster/Toaster.js';
 import styles from './PostsPage.module.css';
 
-interface PostsPagePreset extends SelectOption<string | undefined> {
-  searchParams: PostsPageSearchParams;
+export interface PostsPageSearchParams {
+  type?: string;
+  tag?: string;
+  location?: string;
+  author?: string;
+  requester?: string;
+  mark?: string;
+  violation?: string;
+  publishable?: string;
+  original?: string;
+  search?: string;
+  sort?: string;
 }
 
 const emptySearchParams: PostsPageSearchParams = {
@@ -45,6 +59,10 @@ const emptySearchParams: PostsPageSearchParams = {
   search: undefined,
   sort: undefined,
 };
+
+interface PostsPagePreset extends Option {
+  searchParams: PostsPageSearchParams;
+}
 
 const presets = [
   { value: undefined, label: 'All', searchParams: {} },
@@ -66,20 +84,6 @@ const presets = [
 
 type PresetKey = (typeof presets)[number]['value'];
 
-export interface PostsPageSearchParams {
-  type?: string;
-  tag?: string;
-  location?: string;
-  author?: string;
-  requester?: string;
-  mark?: string;
-  violation?: string;
-  publishable?: string;
-  original?: string;
-  search?: string;
-  sort?: string;
-}
-
 type FilterKey = keyof Pick<
   PostsPageSearchParams,
   'type' | 'tag' | 'location' | 'author' | 'mark' | 'violation' | 'publishable' | 'original' | 'requester'
@@ -91,22 +95,12 @@ export interface PostsPageInfo extends SiteRouteInfo {
   sortKeys?: SelectPostInfosSortKey[];
 }
 
-function findPreset(presets: PostsPagePreset[], searchParams: PostsPageSearchParams) {
-  return presets.find(
-    (preset) =>
-      Object.keys(preset.searchParams).length === Object.keys(searchParams).length &&
-      Object.entries(preset.searchParams).every(
-        ([key, value]) => searchParams[key as keyof PostsPageSearchParams] === value,
-      ),
-  );
-}
-
 export interface PostsPageData {
   postInfos: PostInfo[];
-  authorOptions: SelectOption<string>[];
-  requesterOptions: SelectOption<string>[];
-  locationOptions: SelectOption<string>[];
-  tagOptions: SelectOption<string>[];
+  authorOptions: Option[];
+  requesterOptions: Option[];
+  locationOptions: Option[];
+  tagOptions: Option[];
 }
 
 export const PostsPage: Component = () => {
@@ -123,16 +117,16 @@ export const PostsPage: Component = () => {
   const sortOptions = () =>
     selectPostInfosSortOptions.filter((item) => !info()?.sortKeys || info()?.sortKeys?.includes(item.value));
   const presetOptions = (): PostsPagePreset[] => {
-    const allowedPresets: PostsPagePreset[] = presets.filter(
+    const options: PostsPagePreset[] = presets.filter(
       (item) => !item.value || !info()?.presetKeys || info()?.presetKeys?.includes(item.value),
     );
-    const currentPreset = findPreset(allowedPresets, searchParams);
+    const currentPreset = options.find((preset) => isObjectEqual(preset.searchParams, searchParams));
 
     if (!currentPreset) {
-      allowedPresets.push({ value: 'custom', label: 'Custom Selection', searchParams });
+      options.push({ value: 'custom', label: 'Custom Selection', searchParams });
     }
 
-    return allowedPresets;
+    return options;
   };
 
   const postOriginal = () => stringToBool(searchParams.original);
@@ -151,7 +145,7 @@ export const PostsPage: Component = () => {
     sortOptions().find((sortOption) => sortOption.value === searchParams.sort?.split(',')[0])?.value || 'id';
   const sortDirection = () => (searchParams.sort?.split(',')[1] === 'asc' ? 'asc' : 'desc');
   const searchTerm = () => searchParams.search;
-  const preset = () => findPreset(presetOptions(), searchParams)?.value;
+  const preset = () => presetOptions().find((preset) => isObjectEqual(preset.searchParams, searchParams))?.value;
 
   const setPreset = (preset: string | undefined) =>
     setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.searchParams });
@@ -192,7 +186,7 @@ export const PostsPage: Component = () => {
 
   const { postInfos, tagOptions, locationOptions, authorOptions, requesterOptions } = useData<PostsPageData>();
 
-  const filteredPostInfos = () => selectPostInfos(postInfos, selectParams());
+  const selectedPostInfos = () => selectPostInfos(postInfos, selectParams());
 
   return (
     <Frame component="main" class={styles.container} ref={containerRef}>
@@ -255,7 +249,7 @@ export const PostsPage: Component = () => {
             </Label>
           </Show>
 
-          <Label label="Search in Title or Description" vertical>
+          <Label label="Search by Title or Description" vertical>
             <fieldset class={styles.fieldset}>
               <Input
                 name="search"
@@ -395,8 +389,8 @@ export const PostsPage: Component = () => {
       <Frame variant="thin" class={styles.posts} ref={postsRef}>
         <PostPreviews
           scrollTarget={postsScrollTarget()}
-          postInfos={filteredPostInfos()}
-          label={selectPostInfosResultToString(filteredPostInfos().length, selectParams())}
+          postInfos={selectedPostInfos()}
+          label={selectPostInfosResultToString(selectedPostInfos().length, selectParams())}
         />
       </Frame>
     </Frame>

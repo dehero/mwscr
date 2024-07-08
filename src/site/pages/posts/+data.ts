@@ -1,58 +1,15 @@
 import type { PageContext } from 'vike/types';
-import { isNestedLocation } from '../../../core/entities/location.js';
 import { createPostInfo } from '../../../core/entities/post-info.js';
-import type { PostsManager } from '../../../core/entities/posts-manager.js';
-import { getUserEntryTitle } from '../../../core/entities/user.js';
 import { locations } from '../../../local/data-managers/locations.js';
 import { postsManagers } from '../../../local/data-managers/posts.js';
 import { users } from '../../../local/data-managers/users.js';
 import type { PostsPageData } from '../../components/PostsPage/PostsPage.js';
-import type { SelectOption } from '../../components/Select/Select.js';
-
-export const getTagOptions = async (postsManager: PostsManager): Promise<SelectOption<string>[]> => {
-  const usedTags = await postsManager.getUsedTags();
-
-  return [...usedTags]
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(([value, count]) => ({ value, label: `${value} (${count})` }));
-};
-
-export const getLocationOptions = async (postsManager: PostsManager): Promise<SelectOption<string>[]> => {
-  const usedLocationIds = await postsManager.getUsedLocationIds();
-  const usedLocationsWithNesting = new Map();
-
-  for await (const [location] of locations.readAllEntries(true)) {
-    const count = [...usedLocationIds]
-      .filter(([value]) => isNestedLocation(value, location))
-      .reduce((acc, [, count]) => acc + count, 0);
-
-    if (count > 0) {
-      usedLocationsWithNesting.set(location, count);
-    }
-  }
-
-  return [...usedLocationsWithNesting]
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(([value, count]) => ({ value, label: `${value} (${count})` }));
-};
-
-export const getAuthorOptions = async (postsManager: PostsManager): Promise<SelectOption<string>[]> => {
-  const usedAuthorIds = await postsManager.getUsedAuthorIds();
-  const authors = await users.getEntries([...usedAuthorIds.keys()]);
-
-  return authors
-    .map((entry) => ({ value: entry[0], label: `${getUserEntryTitle(entry)} (${usedAuthorIds.get(entry[0])})` }))
-    .sort((a, b) => a.label.localeCompare(b.label));
-};
-
-export const getRequesterOptions = async (postsManager: PostsManager): Promise<SelectOption<string>[]> => {
-  const usedRequesterIds = await postsManager.getUsedRequesterIds();
-  const requesters = await users.getEntries([...usedRequesterIds.keys()]);
-
-  return requesters
-    .map((entry) => ({ value: entry[0], label: `${getUserEntryTitle(entry)} (${usedRequesterIds.get(entry[0])})` }))
-    .sort((a, b) => a.label.localeCompare(b.label));
-};
+import {
+  getAuthorOptions,
+  getLocationOptions,
+  getRequesterOptions,
+  getTagOptions,
+} from '../../data-utils/post-infos.js';
 
 export async function data(pageContext: PageContext): Promise<PostsPageData> {
   const manager = postsManagers.find((manager) => manager.name === pageContext.routeParams?.managerName);
@@ -63,9 +20,9 @@ export async function data(pageContext: PageContext): Promise<PostsPageData> {
   const postInfos = await Promise.all(
     (await manager.getAllEntries()).map((entry) => createPostInfo(entry, locations, users, manager.name)),
   );
-  const authorOptions = await getAuthorOptions(manager);
-  const requesterOptions = await getRequesterOptions(manager);
-  const locationOptions = await getLocationOptions(manager);
+  const authorOptions = await getAuthorOptions(manager, users);
+  const requesterOptions = await getRequesterOptions(manager, users);
+  const locationOptions = await getLocationOptions(manager, locations);
   const tagOptions = await getTagOptions(manager);
 
   return {
