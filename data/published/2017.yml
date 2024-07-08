@@ -5969,10 +5969,10 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2024-07-08-20-17-14
+      updated: 2024-07-08-21-15-06
       followers: 919
-      likes: 7
-      views: 62
+      likes: 9
+      views: 79
       reposts: 2
       comments: !c |-
         iySAkZPLQnkJPnfSAACmcDQwamxh2TY3INC70LXRgiDRjdGC0L7QvNGDINGE0L7RgtC+INC40YHQ
@@ -5980,10 +5980,10 @@
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2024-07-08-20-17-15
+      updated: 2024-07-08-21-15-07
       followers: 395
-      likes: 28
-      views: 65
+      likes: 29
+      views: 71
 2017-07-08.saint-sotha:
   title: Saint Sotha
   titleRu: Святой Сота
@@ -10283,17 +10283,17 @@
     - service: vk
       id: 1621
       published: 2024-07-07-18-18-57
-      updated: 2024-07-08-20-17-15
+      updated: 2024-07-08-21-15-07
       followers: 919
-      likes: 28
-      views: 159
+      likes: 29
+      views: 160
     - service: tg
       id: 462
       published: 2024-07-07-18-19-06
-      updated: 2024-07-08-20-17-16
+      updated: 2024-07-08-21-15-08
       followers: 393
       likes: 41
-      views: 128
+      views: 130
 2017-12-08.lower-circle:
   title: Lower Circle
   titleRu: Низший круг
