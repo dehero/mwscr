@@ -1,6 +1,7 @@
 import { writeClipboard } from '@solid-primitives/clipboard';
-import { type Component, Show } from 'solid-js';
+import { type Component, For, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
+import type { Link } from '../../../core/entities/link.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import type { UserInfo } from '../../../core/entities/user.js';
 import { isUserContributionEmpty } from '../../../core/entities/user.js';
@@ -21,6 +22,7 @@ import styles from './UserPage.module.css';
 
 export interface UserPageData {
   userInfo?: UserInfo;
+  userLinks?: Link[];
   lastPostInfo?: PostInfo;
   lastOriginalPostInfo?: PostInfo;
   firstPostInfo?: PostInfo;
@@ -40,6 +42,7 @@ export const UserPage: Component = () => {
   const params = useParams<UserRouteParams>();
   const {
     userInfo,
+    userLinks,
     lastPostInfo,
     lastOriginalPostInfo,
     firstPostInfo,
@@ -141,6 +144,23 @@ export const UserPage: Component = () => {
               <Divider />
 
               <Table class={styles.attributes} rows={[{ label: 'Likes', value: userInfo().likes }]} />
+            </Show>
+
+            <Show when={userLinks && userLinks.length > 0}>
+              <Divider />
+
+              <p class={styles.links}>
+                <For each={userLinks}>
+                  {(link, index) => (
+                    <>
+                      <Show when={index() > 0}> • </Show>
+                      <a href={link.url} class={styles.link}>
+                        {link.text}
+                      </a>
+                    </>
+                  )}
+                </For>
+              </p>
             </Show>
 
             <Spacer />

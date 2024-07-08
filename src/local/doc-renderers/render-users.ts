@@ -1,11 +1,13 @@
 import { writeFile } from 'fs/promises';
 import esc from 'escape-html';
 import type { Doc } from '../../core/entities/doc.js';
+import type { Link } from '../../core/entities/link.js';
 import type { PostsManager } from '../../core/entities/posts-manager.js';
 import type { UserContribution, UserEntry, UserInfo } from '../../core/entities/user.js';
 import {
   compareUserInfosByContribution,
   createUserInfo,
+  createUserLinks,
   isUserContributionEmpty,
   userContributionToString,
 } from '../../core/entities/user.js';
@@ -14,13 +16,8 @@ import { services } from '../../core/services/index.js';
 import { partition } from '../../core/utils/common-utils.js';
 import { renderNavs } from './utils/doc-utils.js';
 
-interface RenderedLink {
-  text: string;
-  url: string;
-}
-
-interface RenderedUser extends UserInfo {
-  links: RenderedLink[];
+interface RenderUserInfo extends UserInfo {
+  links: Link[];
 }
 
 export interface RenderUsersOptions {
@@ -34,7 +31,7 @@ export interface RenderUsersOptions {
 
 export async function renderUsers(options: RenderUsersOptions) {
   let userInfos = (
-    await Promise.all((await options.users.getAllEntries(true)).map(async (item) => grabUserInfo(item, options)))
+    await Promise.all((await options.users.getAllEntries(true)).map(async (item) => mapUserEntry(item, options)))
   ).sort(compareUserInfosByContribution);
   const { navs, doc } = options;
   const { filename, title } = doc;
@@ -72,24 +69,12 @@ export async function renderUsers(options: RenderUsersOptions) {
   return writeFile(filename, data);
 }
 
-async function grabUserInfo(userEntry: UserEntry, options: RenderUsersOptions): Promise<RenderedUser> {
+async function mapUserEntry(userEntry: UserEntry, options: RenderUsersOptions): Promise<RenderUserInfo> {
   const { published, inbox, trash } = options;
-
-  const links: RenderedLink[] = [];
-
-  for (const service of services) {
-    const userId = userEntry[1]?.profiles?.[service.id];
-    if (userId) {
-      const url = service.getUserProfileUrl(userId);
-      if (url) {
-        links.push({ text: service.name, url });
-      }
-    }
-  }
 
   return {
     ...(await createUserInfo(userEntry, published, inbox, trash)),
-    links,
+    links: createUserLinks(userEntry, services),
   };
 }
 
@@ -101,7 +86,7 @@ function renderUserContribution(title: string, contribution: UserContribution): 
   return [`${esc(title)}: ${userContributionToString(contribution)}  `];
 }
 
-function renderUserInfo(info: RenderedUser) {
+function renderUserInfo(info: RenderUserInfo) {
   const lines: string[] = [];
 
   lines.push(`### ${esc(info.title)}`);

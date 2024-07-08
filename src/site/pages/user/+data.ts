@@ -7,7 +7,8 @@ import {
   comparePostEntriesByRating,
 } from '../../../core/entities/post.js';
 import { isPostDraft, isPostRequest } from '../../../core/entities/post-variation.js';
-import { createUserInfo } from '../../../core/entities/user.js';
+import { createUserInfo, createUserLinks } from '../../../core/entities/user.js';
+import { services } from '../../../core/services/index.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { getPostInfo, inbox, published, trash } from '../../../local/data-managers/posts.js';
 import { users } from '../../../local/data-managers/users.js';
@@ -18,11 +19,13 @@ export async function data(pageContext: PageContext): Promise<UserPageData> {
     return {};
   }
 
+  const userEntry = await users.getEntry(pageContext.routeParams.id);
   const checkAuthor = (post: Post): post is Post => asArray(post.author).includes(pageContext.routeParams?.id || '');
   const checkRequester = (post: Post): post is Post => post.request?.user === pageContext.routeParams?.id;
 
   return {
-    userInfo: await createUserInfo(await users.getEntry(pageContext.routeParams.id), published, inbox, trash),
+    userInfo: await createUserInfo(userEntry, published, inbox, trash),
+    userLinks: await createUserLinks(userEntry, services),
     lastPostInfo: await getPostInfo(published, comparePostEntriesById('desc'), checkAuthor),
     lastOriginalPostInfo: await getPostInfo(published, comparePostEntriesById('desc'), checkAuthor, true),
     firstPostInfo: await getPostInfo(published, comparePostEntriesById('asc'), checkAuthor),

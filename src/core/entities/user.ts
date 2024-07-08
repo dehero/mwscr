@@ -1,5 +1,7 @@
 import { cleanupUndefinedProps } from '../utils/common-utils.js';
+import type { Link } from './link.js';
 import type { PostsManager } from './posts-manager.js';
+import type { Service } from './service.js';
 
 export const USER_ROLES = ['admin', 'author', 'requester', 'drawer', 'beginner'] as const;
 
@@ -93,6 +95,22 @@ export async function createUserInfo(
     likes,
     roles,
   });
+}
+
+export function createUserLinks(userEntry: UserEntry, services: Service[]): Link[] {
+  const links = [];
+
+  for (const service of services) {
+    const userId = userEntry[1]?.profiles?.[service.id];
+    if (userId) {
+      const url = service.getUserProfileUrl(userId);
+      if (url) {
+        links.push({ text: service.name, url });
+      }
+    }
+  }
+
+  return links;
 }
 
 export function getUserEntryTitle(entry: UserEntry) {

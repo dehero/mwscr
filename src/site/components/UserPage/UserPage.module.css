@@ -65,6 +65,19 @@
   vertical-align: text-top;
 }
 
+.links {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text-selected);
+}
+
+.link:hover {
+  color: var(--color-text-selected-hover);
+}
+
 @media only screen and (min-width: 812px) {
   .container {
     grid-template-columns: auto 1fr;
