@@ -1,7 +1,7 @@
 import { type Component, For, Show } from 'solid-js';
 import { navigate } from 'vike/client/router';
-import { useData } from 'vike-solid/useData';
 import { usePageContext } from 'vike-solid/usePageContext';
+import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { homeRoute } from '../../routes/home-route.js';
 import type { RouteMatch } from '../../routes/index.js';
@@ -23,8 +23,8 @@ const navigationItems = [
   { route: helpRoute, params: { topicId: '' } },
 ] as RouteMatch[];
 
-export function createOption({ route, params }: RouteMatch, data?: unknown): SelectOption<string> {
-  const info = route?.info(params as never, data as never);
+export function createOption({ route, params }: RouteMatch): SelectOption<string> {
+  const info = route?.info(params as never);
   const url = route?.createUrl(params as never);
 
   return {
@@ -35,7 +35,8 @@ export function createOption({ route, params }: RouteMatch, data?: unknown): Sel
 
 export const Navigation: Component = () => {
   const location = usePageContext().urlParsed;
-  const data = useData();
+  const pageContent = usePageContext();
+  const currentRouteInfo = () => useRouteInfo(pageContent);
 
   const options = () => navigationItems.map((item) => createOption(item));
   const selectedOption = () =>
@@ -50,14 +51,20 @@ export const Navigation: Component = () => {
   const breadcrumbs = () => {
     const parts = ['', ...location.pathname.split('/').filter(Boolean)];
     const options: SelectOption<string>[] = [];
+    const locationInfo = currentRouteInfo();
+
     let url = '';
 
-    for (let i = 0; i < parts.length; i++) {
-      url += `${parts[i]}/`;
+    parts.pop();
+
+    for (const part of parts) {
+      url += `${part}/`;
 
       const item = resolveFirstRoute(url);
-      options.push(createOption(item, i === parts.length - 1 ? data : undefined));
+      options.push(createOption(item));
     }
+
+    options.push({ label: locationInfo?.label || locationInfo?.title || 'unknown', value: location.pathname });
 
     return options;
   };
