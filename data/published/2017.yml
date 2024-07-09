@@ -4519,10 +4519,10 @@
     - service: vk
       id: 1456
       published: 2024-03-18-18-11-07
-      updated: 2024-07-02-02-31-52
+      updated: 2024-07-09-02-33-26
       followers: 896
       likes: 32
-      views: 276
+      views: 277
       reposts: 1
       comments: !c |-
         G7oAIJwJ8ebKLrTB5tyPeOK9jSd08ynGkfcKOIFAk39QN7RMq2H7RJ2C9Sbnp2Ts24t/829oTCFp
@@ -4531,10 +4531,10 @@
     - service: tg
       id: 350
       published: 2024-03-18-18-11-16
-      updated: 2024-07-02-02-31-52
+      updated: 2024-07-09-02-33-26
       followers: 353
       likes: 54
-      views: 452
+      views: 455
 2017-05-19.queen-mother-in-her-chambers:
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
@@ -5969,10 +5969,10 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2024-07-09-01-07-32
+      updated: 2024-07-09-02-33-22
       followers: 919
       likes: 12
-      views: 88
+      views: 91
       reposts: 2
       comments: !c |-
         G7QA4C0KbGcXycJOZ9o5lOp9UMWmKIkrXTicR2ExrgmPamn1GZ+2Fz2ZGowmiKKY/plm02V2d9kq
@@ -5981,10 +5981,10 @@
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2024-07-09-01-07-32
+      updated: 2024-07-09-02-33-23
       followers: 395
-      likes: 36
-      views: 84
+      likes: 37
+      views: 86
 2017-07-08.saint-sotha:
   title: Saint Sotha
   titleRu: Святой Сота
@@ -10284,14 +10284,14 @@
     - service: vk
       id: 1621
       published: 2024-07-07-18-18-57
-      updated: 2024-07-09-01-07-32
+      updated: 2024-07-09-02-33-23
       followers: 919
       likes: 30
       views: 163
     - service: tg
       id: 462
       published: 2024-07-07-18-19-06
-      updated: 2024-07-09-01-07-33
+      updated: 2024-07-09-02-33-24
       followers: 393
       likes: 44
       views: 132
