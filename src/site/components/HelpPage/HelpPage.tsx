@@ -62,13 +62,7 @@ export const HelpPage: Component = () => {
       setMessageTopicIds((ids) => [...ids, id]);
     }
 
-    if (messagesRef) {
-      messagesRef.scrollTop = messagesRef.scrollHeight;
-    }
-
-    if (containerRef) {
-      containerRef.scrollTop = containerRef.scrollHeight;
-    }
+    messagesRef?.lastElementChild?.scrollIntoView({ behavior: 'smooth' });
   });
 
   createEffect(() => {

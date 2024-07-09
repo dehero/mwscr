@@ -1,13 +1,11 @@
 .container {
   flex-grow: 1;
-  display: grid;
+  display: flex;
+  flex-flow: column nowrap;
   height: 100%;
   padding: 8px;
   margin: 0 -2px -2px -2px;
   gap: 8px;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: 'topics' 'messages';
   overflow-y: auto;
 }
 
@@ -68,6 +66,7 @@
 
 @media only screen and (min-width: 812px) {
   .container {
+    display: grid;
     grid-template-columns: 1fr min(300px);
     grid-template-rows: 1fr;
     grid-template-areas: 'messages topics';
