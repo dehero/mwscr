@@ -10,6 +10,7 @@
 Original screenshots and videos from The Elder Scrolls III: Morrowind. No third-party mods. No color filters. No
 interface.
 
+- [Site](https://mwscr.dehero.site)
 - [Instagram](https://instagram.com/mwscr/)
 - [VK](https://vk.com/mwscr)
 - [Telegram](https://t.me/mwscr)
@@ -173,14 +174,14 @@ release, incrementing the version in [package.json](package.json) and updating [
 
 As the project develops, it is planned to implement:
 
-- support for publishing post types `shot-set`, `drawing`, `clip` and `video` to project accounts;
-- lists of tags and locations with the number of posts in them;
-- adding multiple locations to a single post;
-- `wallpaper`, `wallpaper-v` and `video-v` post types;
-- support for accessing storage via a local file system;
-- Telegram bot for accepting requests and works;
-- monthly releases of the archive with works for the previous month;
-- project site for quick search of works by author, location, tags, etc.
+- [ ] support for publishing post types `shot-set`, `drawing`, `clip` and `video` to project accounts;
+- [ ] lists of tags and locations with the number of posts in them;
+- [ ] adding multiple locations to a single post;
+- [ ] `wallpaper`, `wallpaper-v` and `video-v` post types;
+- [ ] support for accessing storage via a local file system;
+- [ ] Telegram bot for accepting requests and works;
+- [ ] monthly releases of the archive with works for the previous month;
+- [x] project site for quick search of works by author, location, tags, etc.
 
 ## License
 
