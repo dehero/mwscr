@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.1](https://github.com/dehero/mwscr/compare/v1.3.0...v1.3.1) (2024-07-09)
+
+### Bug Fixes
+
+- find right first unpublished post after the publishing gap
+  ([cbc7873](https://github.com/dehero/mwscr/commit/cbc787319f9f95f1bfe402cd9592be4cb5085f32))
+
 ## [1.3.0](https://github.com/dehero/mwscr/compare/v1.2.1...v1.3.0) (2024-06-09)
 
 ### Features
