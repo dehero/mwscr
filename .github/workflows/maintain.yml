@@ -15,6 +15,10 @@ jobs:
       GITHUB_BOT_EMAIL: '${{ secrets.BOT_EMAIL }}'
       GITHUB_BOT_NAME: '${{ secrets.BOT_NAME }}'
       INSTAGRAM_ACCESS_TOKEN: '${{ secrets.INSTAGRAM_ACCESS_TOKEN }}'
+      SITE_FTP_HOST: '${{ secrets.SITE_FTP_HOST }}'
+      SITE_FTP_USER: '${{ secrets.SITE_FTP_USER }}'
+      SITE_FTP_PASSWORD: '${{ secrets.SITE_FTP_PASSWORD }}'
+      SITE_FTP_STORE_PATH: '${{ secrets.SITE_FTP_STORE_PATH }}'
       TELEGRAM_API_APP_HASH: '${{ secrets.TELEGRAM_API_APP_HASH }}'
       TELEGRAM_API_APP_ID: '${{ secrets.TELEGRAM_API_APP_ID }}'
       TELEGRAM_PHONE_NUMBER: '${{ secrets.TELEGRAM_PHONE_NUMBER }}'
@@ -54,3 +58,16 @@ jobs:
           git fetch --tags origin
           npm run release
           git push --follow-tags origin main
+
+      - name: Build site
+        run: npm run build
+
+      - name: Deploy site
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.SITE_FTP_HOST }}
+          username: ${{ secrets.SITE_FTP_USER }}
+          password: ${{ secrets.SITE_FTP_PASSWORD }}
+          server-dir: ${{ secrets.SITE_FTP_PATH }}
+          local-dir: ./dist/client/
+          exclude: ./store/**
