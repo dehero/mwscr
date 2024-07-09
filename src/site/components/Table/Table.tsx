@@ -37,7 +37,7 @@ export const Table: Component<TableProps> = (props) => {
       <Show when={props.label || props.value}>
         <div class={styles.header} role="rowgroup">
           <Dynamic
-            component={props.link ? 'a' : 'tr'}
+            component={props.link ? 'a' : 'div'}
             href={props.link}
             class={clsx(styles.row, props.link && styles.link)}
             role="row"
@@ -56,7 +56,7 @@ export const Table: Component<TableProps> = (props) => {
           <For each={rows()}>
             {(row) => (
               <Dynamic
-                component={row.link ? 'a' : 'tr'}
+                component={row.link ? 'a' : 'div'}
                 href={row.link}
                 class={clsx(styles.row, row.link && styles.link)}
                 role="row"

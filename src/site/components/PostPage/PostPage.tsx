@@ -46,6 +46,7 @@ export interface PostPageData {
   refId: string | undefined;
   authorEntries: UserEntry[];
   requesterEntry: UserEntry | undefined;
+  usedTags: Array<[string, number]> | undefined;
 }
 
 export const PostPage: Component = () => {
@@ -381,10 +382,19 @@ export const PostPage: Component = () => {
                 ]}
               />
 
-              <Show when={post().tags?.length}>
+              <Show when={data.usedTags?.length}>
                 <Divider />
 
-                <Table label="Tags" rows={post().tags?.map((label) => ({ label, value: () => <></> })) ?? []}></Table>
+                <Table
+                  label="Tags"
+                  rows={
+                    data.usedTags?.map(([label, count]) => ({
+                      label,
+                      value: () => <>{count}</>,
+                      link: postsRoute.createUrl({ managerName: 'published', tag: label, original: 'true' }),
+                    })) ?? []
+                  }
+                />
               </Show>
 
               <Show when={publishableErrors()}>
