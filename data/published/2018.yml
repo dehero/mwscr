@@ -2397,10 +2397,10 @@
     - service: vk
       id: 1550
       published: 2024-05-28-18-19-10
-      updated: 2024-07-02-21-14-25
+      updated: 2024-07-09-21-16-02
       followers: 917
       likes: 25
-      views: 269
+      views: 270
       reposts: 1
       comments: !c |-
         CxyAkZPLQnj8B1VNAACmamVybW9y2SXQn9GA0L4g0LHRg9C80LDQs9C4LCDQvdCw0LLQtdGA0L3Q
@@ -2408,10 +2408,10 @@
     - service: tg
       id: 422
       published: 2024-05-28-18-19-16
-      updated: 2024-07-02-21-14-25
+      updated: 2024-07-09-21-16-02
       followers: 378
       likes: 63
-      views: 375
+      views: 389
 2018-03-25.ships:
   title: Ships
   titleRu: Корабли
@@ -3799,17 +3799,17 @@
     - service: vk
       id: 1628
       published: 2024-07-09-18-20-20
-      updated: 2024-07-09-20-16-16
+      updated: 2024-07-09-21-15-55
       followers: 920
-      likes: 10
-      views: 56
+      likes: 12
+      views: 73
     - service: tg
       id: 464
       published: 2024-07-09-18-20-26
-      updated: 2024-07-09-20-16-17
+      updated: 2024-07-09-21-15-57
       followers: 396
-      likes: 23
-      views: 55
+      likes: 26
+      views: 64
 2018-05-11.tree-crown-of-indoranyon:
   title: Tree Crown of Indoranyon
   titleRu: Древесная корона Индораниона
@@ -4692,10 +4692,10 @@
     - service: vk
       id: 1611
       published: 2024-07-02-18-20-16
-      updated: 2024-07-08-20-17-17
+      updated: 2024-07-09-21-15-58
       followers: 918
       likes: 36
-      views: 233
+      views: 243
       reposts: 1
       comments: !c |-
         G7oA+B2JsY2aLays8sOF+H+ek+kEv012hj7ETpJg4sl9RqnbLCF6DMViH+fi9Hxa3tQsSkXyY/xs
@@ -4704,10 +4704,10 @@
     - service: tg
       id: 457
       published: 2024-07-02-18-20-23
-      updated: 2024-07-08-20-17-18
+      updated: 2024-07-09-21-15-59
       followers: 391
       likes: 54
-      views: 213
+      views: 236
 2018-06-10.left-side-portraits:
   title: Left-Side Portraits
   titleRu: Левосторонние портреты
@@ -4844,10 +4844,10 @@
       id: C9MOc3uo650
       mediaId: '18054168718726961'
       published: 2024-07-09-05-57-48
-      updated: 2024-07-09-20-16-17
+      updated: 2024-07-09-21-15-56
       followers: 1421
-      likes: 111
-      views: 422
+      likes: 113
+      views: 436
       comments: !c |-
         ix2AkZPLQnkJesCugACubGVvZW1hbnVlbGVfMjDZIFRoaXMgbWYgY2FuIHNvbG8gYWxtb3N0IGV2
         ZXJ5b25lAw==

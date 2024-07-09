@@ -1170,18 +1170,18 @@
     - service: vk
       id: 1598
       published: 2024-06-25-18-21-05
-      updated: 2024-07-02-20-17-22
+      updated: 2024-07-09-21-15-59
       followers: 917
-      likes: 38
-      views: 256
+      likes: 40
+      views: 274
       reposts: 2
     - service: tg
       id: 450
       published: 2024-06-25-18-21-11
-      updated: 2024-07-02-20-17-21
+      updated: 2024-07-09-21-16-00
       followers: 388
-      likes: 58
-      views: 255
+      likes: 59
+      views: 339
 2017-02-06.maurrie-is-waiting-for-nelos:
   title: Maurrie Is Waiting for Nelos
   titleRu: Морри ждёт Нелоса
@@ -4945,17 +4945,17 @@
     - service: vk
       id: 1612
       published: 2024-07-03-18-19-45
-      updated: 2024-07-08-20-17-16
+      updated: 2024-07-09-21-15-57
       followers: 917
-      likes: 24
-      views: 179
+      likes: 25
+      views: 184
     - service: tg
       id: 458
       published: 2024-07-03-18-19-53
-      updated: 2024-07-08-20-17-17
+      updated: 2024-07-09-21-15-58
       followers: 391
       likes: 45
-      views: 208
+      views: 222
       comments: !c |-
         CyGAkZTLQnkHndcVAACrYm9icm92bmlrb3azUklQIEQuIEJyeWFudCAg8J+qppPLQnkHngW2gACp
         R2F0ZW1hdGU3oz8/PwM=
@@ -5969,10 +5969,10 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2024-07-09-20-16-17
+      updated: 2024-07-09-21-15-56
       followers: 919
       likes: 19
-      views: 145
+      views: 147
       reposts: 2
       comments: !c |-
         GwcBKJwHtg1rG44r7Dz5IIUTwT912mrEdjyzGks8IqVeraIF+KgCHUh9/2x1bi0aWmUzJZVvAP6A
@@ -5982,10 +5982,10 @@
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2024-07-09-20-16-17
+      updated: 2024-07-09-21-15-57
       followers: 395
       likes: 43
-      views: 129
+      views: 132
 2017-07-08.saint-sotha:
   title: Saint Sotha
   titleRu: Святой Сота
@@ -7289,17 +7289,17 @@
     - service: vk
       id: 1587
       published: 2024-06-18-18-20-59
-      updated: 2024-07-02-21-14-23
+      updated: 2024-07-09-21-16-00
       followers: 917
-      likes: 33
-      views: 229
+      likes: 34
+      views: 240
     - service: tg
       id: 443
       published: 2024-06-18-18-21-06
-      updated: 2024-07-02-21-14-24
+      updated: 2024-07-09-21-16-01
       followers: 385
-      likes: 54
-      views: 327
+      likes: 55
+      views: 359
 2017-08-26.raven-rock:
   title: Raven Rock
   titleRu: Воронья Скала
@@ -9529,10 +9529,10 @@
       id: C9NHQl1t7nN
       mediaId: '18003207311373105'
       published: 2024-07-09-14-14-09
-      updated: 2024-07-09-20-16-16
+      updated: 2024-07-09-21-15-55
       followers: 1421
-      likes: 41
-      views: 140
+      likes: 43
+      views: 143
 2017-11-13.three-guars-at-the-crossroads:
   title: Three Guars at the Crossroads
   titleRu: Три гуара на распутье
