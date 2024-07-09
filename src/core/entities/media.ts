@@ -9,12 +9,12 @@ export interface MediaMetadata {
   format?: MediaFormat;
 }
 
-export type MediaAspectRatio = `${number}:${number}`;
+export type MediaAspectRatio = `${number}/${number}`;
 
 export function aspectRatioFromSize(width: number, height: number): MediaAspectRatio {
   const divider = greatestCommonDivisor(width, height);
 
-  return `${width / divider}:${height / divider}`;
+  return `${width / divider}/${height / divider}`;
 }
 
 export function checkMediaAspectRatio(aspectRatio: MediaAspectRatio, metadata: MediaMetadata) {
@@ -22,7 +22,7 @@ export function checkMediaAspectRatio(aspectRatio: MediaAspectRatio, metadata: M
     return false;
   }
 
-  const [w, h] = aspectRatio.split(':');
+  const [w, h] = aspectRatio.split('/');
 
   return metadata.width / metadata.height === Number(w) / Number(h);
 }

@@ -1,3 +1,4 @@
+import picomatch from 'picomatch';
 import { stringToDate } from '../utils/date-utils.js';
 import { parseResourceUrl } from './resource.js';
 
@@ -28,15 +29,21 @@ export interface StoreResourceParsedUrl {
 }
 
 export interface Store {
+  include?: string[];
+
+  getPublicUrl(path: string): string | undefined;
+
+  getPreviewUrl(path: string, width?: number, height?: number): string | undefined | Promise<string | undefined>;
+}
+
+export interface StoreManager extends Store {
   copy(from: string, to: string): Promise<void>;
 
-  exists(src: string): Promise<boolean>;
+  exists(path: string): Promise<boolean>;
 
   get(path: string): Promise<Buffer>;
 
   getStream(path: string): Promise<NodeJS.ReadableStream | null>;
-
-  getPreviewUrl(path: string, width?: number, height?: number): Promise<string | undefined>;
 
   move(from: string, to: string): Promise<void>;
 
@@ -44,11 +51,15 @@ export interface Store {
 
   putStream(path: string, stream: NodeJS.ReadableStream): Promise<void>;
 
-  putUrl(path: string, url: string): Promise<void>;
-
   readdir(path: string): Promise<StoreItem[]>;
 
   remove(path: string): Promise<void>;
+}
+
+export function storeIncludesPath(...checkedPaths: string[]) {
+  return (store: Pick<StoreManager, 'include'>) =>
+    !store.include ||
+    (store.include.length > 0 && checkedPaths.every((path) => picomatch.isMatch(path, store.include ?? [])));
 }
 
 export function parseStoreResourceUrl(url: string): StoreResourceParsedUrl {

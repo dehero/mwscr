@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+  border-left: 0;
+  border-right: 0;
+  margin: 0 -2px;
+  max-height: 20px;
+}
+
+.header:before,
+.header:after {
+  content: '';
+  display: block;
+  height: 100%;
+  min-height: 20px;
+  min-width: 20px;
+  flex-grow: 1;
+  border: 2px solid var(--color-text);
+  border-image-source: url(../../images/frame-header.png);
+  border-image-slice: 2;
+  border-image-repeat: repeat;
+  background: url(../../images/background-header.png);
+  box-sizing: border-box;
+  image-rendering: pixelated;
+}
+
+.title {
+  display: block;
+  white-space: nowrap;
+  flex-shrink: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin-right: 8px;
+}
+
+.menuButton {
+  margin: 8px;
+}

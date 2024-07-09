@@ -12,7 +12,7 @@ const imageResourceRules: ResourceRule[] = [
   needMaxSize(5 * 1024 * 1024),
 ];
 
-const shotMediaRules: MediaRule[] = [needAspectRatio('1:1'), needMinWidth(800), needMinHeight(800)];
+const shotMediaRules: MediaRule[] = [needAspectRatio('1/1'), needMinWidth(800), needMinHeight(800)];
 
 const videoResourceRules: ResourceRule[] = [
   needCertainMimeType(['video/mp4', 'video/x-msvideo']),
@@ -25,6 +25,6 @@ export const validatingScenarios: Array<ValidatingScenario> = [
   ['shot', imageResourceRules, shotMediaRules],
   ['shot-set', imageResourceRules, shotMediaRules],
   ['drawing', imageResourceRules, shotMediaRules],
-  ['clip', videoResourceRules, [needAspectRatio('1:1'), needMinWidth(1080), needMinHeight(1080)]],
-  ['video', videoResourceRules, [needAspectRatio('16:9'), needMinWidth(1920), needMinHeight(1080)]],
+  ['clip', videoResourceRules, [needAspectRatio('1/1'), needMinWidth(1080), needMinHeight(1080)]],
+  ['video', videoResourceRules, [needAspectRatio('16/9'), needMinWidth(1920), needMinHeight(1080)]],
 ];

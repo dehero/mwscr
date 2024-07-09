@@ -3,6 +3,7 @@ import esc from 'escape-html';
 import type { Doc } from '../../core/entities/doc.js';
 import type {
   Post,
+  PostComment,
   PostContent,
   PostEntriesComparator,
   PostEntry,
@@ -10,6 +11,7 @@ import type {
   PostSource,
 } from '../../core/entities/post.js';
 import {
+  getAllPostCommentsSorted,
   getPostEntriesFromSource,
   getPostMaxFollowers,
   getPostRating,
@@ -20,10 +22,9 @@ import {
 } from '../../core/entities/post.js';
 import { isTrashItem } from '../../core/entities/post-variation.js';
 import { parseResourceUrl } from '../../core/entities/resource.js';
-import type { PostingServiceManager } from '../../core/entities/service.js';
-import type { ServicePostComment } from '../../core/entities/service-post.js';
-import type { ReadonlyUsers } from '../../core/entities/user.js';
+import type { PostingService } from '../../core/entities/service.js';
 import { USER_UNKNOWN } from '../../core/entities/user.js';
+import type { UsersManager } from '../../core/entities/users-manager.js';
 import { asArray, capitalizeFirstLetter } from '../../core/utils/common-utils.js';
 import { dateToString } from '../../core/utils/date-utils.js';
 import { getResourcePreviewPath } from '../data-managers/resources.js';
@@ -35,11 +36,6 @@ import { postingServiceManagers } from '../posting-service-managers/index.js';
 import { renderNavs } from './utils/doc-utils.js';
 import { renderMarkdownTable } from './utils/markdown-utils.js';
 import { relativeUrl } from './utils/url-utils.js';
-
-interface RenderedComment extends ServicePostComment {
-  service: string;
-  replies: RenderedComment[];
-}
 
 export interface PostEntriesDoc extends Doc {
   source: PostSource<Post>;
@@ -65,7 +61,7 @@ export interface RenderPostsOptions {
   postActions?: RenderedPostAction[];
   postCheck?: (post: Post, errors?: string[]) => boolean;
   navs: Array<Doc[]>;
-  users: ReadonlyUsers;
+  users: UsersManager;
 }
 
 export async function renderPostEntriesDoc(options: RenderPostsOptions) {
@@ -86,7 +82,9 @@ export async function renderPostEntriesDoc(options: RenderPostsOptions) {
     lines.push(`\`${postEntries.length} items\``);
     lines.push('');
 
-    lines.push(...postEntries.flatMap((postEntry) => renderPostEntry(postEntry, options)));
+    for (const postEntry of postEntries) {
+      lines.push(...(await renderPostEntry(postEntry, options)));
+    }
 
     const lastNavs = navs[navs.length - 1];
 
@@ -139,10 +137,7 @@ function renderPostReactions(post: Post) {
     lines.push('');
   }
 
-  const comments: RenderedComment[] =
-    post.posts
-      ?.flatMap((post) => mapComments(post.service, post.comments))
-      .sort((comment1, comment2) => comment1.datetime.getTime() - comment2.datetime.getTime()) ?? [];
+  const comments = getAllPostCommentsSorted(post);
 
   if (comments.length > 0) {
     lines.push('#### Comments');
@@ -154,13 +149,7 @@ function renderPostReactions(post: Post) {
   return lines;
 }
 
-function mapComments(service: string, comments?: ServicePostComment[]): RenderedComment[] {
-  return Array.isArray(comments)
-    ? comments.map((comment) => ({ ...comment, service, replies: mapComments(service, comment.replies) }))
-    : [];
-}
-
-function mapServicePost(service: PostingServiceManager, post: Post): RenderedServicePost[] {
+function mapServicePost(service: PostingService, post: Post): RenderedServicePost[] {
   return (
     post.posts
       ?.filter((info) => info.service === service.id)
@@ -173,8 +162,8 @@ function mapServicePost(service: PostingServiceManager, post: Post): RenderedSer
   );
 }
 
-function renderComment(comment: RenderedComment, level = 0): string[] {
-  const { author, datetime, text, service, replies } = comment;
+function renderComment(comment: PostComment, level = 0): string[] {
+  const { author, datetime, text, service, replies = [] } = comment;
   const indent = ' '.repeat(level * 2);
 
   return [
@@ -182,7 +171,7 @@ function renderComment(comment: RenderedComment, level = 0): string[] {
       datetime,
       true,
     )}">${author}</ins> ${esc(text).replace(/(?:\r?\n)+/g, '<br>')}`,
-    ...replies.flatMap((comment) => renderComment(comment, level + 1)),
+    ...replies.flatMap((comment) => renderComment({ service, ...comment }, level + 1)),
   ];
 }
 
@@ -217,14 +206,14 @@ function renderPostContent(
   return lines;
 }
 
-function renderPostAttributes(post: Post, options: RenderPostsOptions): string[] {
+async function renderPostAttributes(post: Post, options: RenderPostsOptions): Promise<string[]> {
   const lines: string[] = [];
 
   if (post.author) {
     lines.push(
-      `by ${asArray(post.author)
-        .map((author) => renderPostContributor(author, undefined, options))
-        .join(', ')}`,
+      `by ${(
+        await Promise.all(asArray(post.author).map((author) => renderPostContributor(author, undefined, options)))
+      ).join(', ')}`,
     );
   } else if (isTrashItem(post)) {
     lines.push(`_cancelled_`);
@@ -237,7 +226,7 @@ function renderPostAttributes(post: Post, options: RenderPostsOptions): string[]
   return lines;
 }
 
-function renderPostEntry(postEntry: PostEntry<Post>, options: RenderPostsOptions): string[] {
+async function renderPostEntry(postEntry: PostEntry<Post>, options: RenderPostsOptions): Promise<string[]> {
   const [id, post, originalId] = postEntry;
   const lines: string[] = [];
   const { postActions } = options;
@@ -274,12 +263,12 @@ function renderPostEntry(postEntry: PostEntry<Post>, options: RenderPostsOptions
     lines.push('');
   }
 
-  lines.push([`\`${esc(post.type)}\``, ...renderPostAttributes(post, options)].join(' '));
+  lines.push([`\`${esc(post.type)}\``, ...(await renderPostAttributes(post, options))].join(' '));
   lines.push('');
 
   if (post.request) {
     lines.push(`> ${esc(post.request.text)}  `);
-    lines.push(`> ${renderPostContributor(post.request.user, post.request.date, options)}`);
+    lines.push(`> ${await renderPostContributor(post.request.user, post.request.date, options)}`);
     lines.push('');
   }
 
@@ -365,8 +354,8 @@ function renderPostEntry(postEntry: PostEntry<Post>, options: RenderPostsOptions
   return lines;
 }
 
-function renderPostContributor(id: string, date: Date | undefined, options: RenderPostsOptions): string {
-  const user = options.users.get(id);
+async function renderPostContributor(id: string, date: Date | undefined, options: RenderPostsOptions): Promise<string> {
+  const user = await options.users.getItem(id);
 
   return `[${esc(user?.name || id)}](${`../contributors.md#${esc(id)}`}${date ? ` "${dateToString(date)}"` : ''})`;
 }

@@ -1,3 +1,4 @@
+import { searchDataReaderItem } from '../../core/entities/data-manager.js';
 import {
   postAddon,
   postAuthor,
@@ -26,8 +27,8 @@ import {
 } from '../../core/entities/post.js';
 import { label } from '../../core/github-issues/editing.js';
 import { asArray } from '../../core/utils/common-utils.js';
-import { findLocation } from '../data-managers/locations.js';
-import { getPost, inbox, trash } from '../data-managers/posts.js';
+import { locations } from '../data-managers/locations.js';
+import { inbox, trash } from '../data-managers/posts.js';
 import {
   extractIssueFieldValue,
   extractIssueTextareaValue,
@@ -39,7 +40,7 @@ export * from '../../core/github-issues/editing.js';
 
 export async function resolve(issue: GithubIssue) {
   const id = issue.title;
-  const [post, manager] = await getPost(id, [inbox, trash]);
+  const [post, manager] = await searchDataReaderItem(id, [inbox, trash]);
   const [userId, user] = await extractIssueUser(issue);
 
   if (!user.admin) {
@@ -75,15 +76,15 @@ export async function resolve(issue: GithubIssue) {
   post.addon = POST_ADDONS.find((addon) => addon === addonStr);
   post.mark = POST_MARKS.find((mark) => mark === markStr);
   post.violation = [...Object.entries(POST_VIOLATIONS)].find(
-    ([, title]) => title === violationStr,
+    ([, violation]) => violation.title === violationStr,
   )?.[0] as PostViolation;
 
   if (!locationStr) {
     post.location = locationStr;
   } else {
-    const location = await findLocation(locationStr);
+    const [location] = (await locations.findEntry({ title: locationStr })) ?? [];
     if (location) {
-      post.location = location.title;
+      post.location = location;
     }
   }
 
@@ -91,7 +92,7 @@ export async function resolve(issue: GithubIssue) {
     post.request.text = requestText;
   }
 
-  await manager.updatePost(id);
+  await manager.updateItem(id);
 
   console.info(`Post "${id}" updated".`);
 }

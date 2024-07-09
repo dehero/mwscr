@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
+  gap: 8px;
+  padding: 8px;
+}
+
+.item {
+  flex: 1 1 324px;
+  min-width: 164px;
+  max-width: 324px;
+  box-sizing: border-box;
+}

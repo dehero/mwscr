@@ -1,0 +1,9 @@
+.divider {
+  border: none;
+  border-bottom: 2px solid var(--color-text);
+  border-image-source: url(../../images/frame-thin.png);
+  border-image-slice: 2;
+  border-image-repeat: repeat;
+  image-rendering: pixelated;
+  margin: 0;
+}

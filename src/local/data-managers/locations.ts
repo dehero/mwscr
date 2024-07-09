@@ -1,32 +1,23 @@
 import type { Location } from '../../core/entities/location.js';
+import { LocationsReader } from '../../core/entities/locations-reader.js';
 import { loadYaml } from './utils/yaml.js';
 
 const LOCATIONS_FILENAME = './data/locations.yml';
 
-let cachedLocations: Location[] | undefined;
-
-export async function getLocations(): Promise<Location[]> {
-  const currentCachedLocations = cachedLocations;
-  if (currentCachedLocations) {
-    return currentCachedLocations;
+class LocalLocationsReader extends LocationsReader {
+  protected isItemEqual(a: Location, b: Partial<Location>): boolean {
+    return Boolean(b.title && a.title.toLocaleLowerCase() === b.title.toLocaleLowerCase());
   }
 
-  try {
-    const data = (await loadYaml(LOCATIONS_FILENAME)) as Location[];
-    if (!cachedLocations) {
-      cachedLocations = data;
+  protected async loadChunkData() {
+    const data = await loadYaml(LOCATIONS_FILENAME);
+
+    if (!Array.isArray(data)) {
+      throw new TypeError('Locations data must be an array');
     }
 
-    return cachedLocations;
-  } catch (error) {
-    const message = error instanceof Error ? error.message : error;
-    throw new Error(`Error loading locations: ${message}`);
+    return data.map((location): [string, Location] => [location.title, location]);
   }
 }
 
-export async function findLocation(searchString: string): Promise<Location | undefined> {
-  const locations = await getLocations();
-  const lowerCaseSearchString = searchString.toLocaleLowerCase();
-
-  return locations.find((location) => location.title.toLocaleLowerCase() === lowerCaseSearchString);
-}
+export const locations = new LocalLocationsReader();

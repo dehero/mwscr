@@ -22,7 +22,7 @@ export async function resolve(issue: GithubIssue) {
   };
 
   const id = createPostRequestId(request);
-  await inbox.addPost(id, request);
+  await inbox.addItem(request, id);
 
   console.info(`Created post request "${id}".`);
 }

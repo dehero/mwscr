@@ -1,95 +1,136 @@
-import type { Post, PostEntry } from '../../core/entities/post.js';
-import { getPostEntriesFromSource, getPostFirstPublished } from '../../core/entities/post.js';
+import { readdir } from 'fs/promises';
+import type { Post, PostEntriesComparator, PostFilter } from '../../core/entities/post.js';
+import { getPostEntriesFromSource, getPostFirstPublished, isPost } from '../../core/entities/post.js';
+import type { PostInfo } from '../../core/entities/post-info.js';
+import { createPostInfo } from '../../core/entities/post-info.js';
+import { stripPostTags } from '../../core/entities/post-tag.js';
 import { postNameFromTitle } from '../../core/entities/post-title.js';
 import type { InboxItem, PostRequest, PublishablePost, TrashItem } from '../../core/entities/post-variation.js';
-import { isInboxItem, isPublishablePost, isTrashOrInboxItem } from '../../core/entities/post-variation.js';
-import type { ServicePost } from '../../core/entities/service-post.js';
-import { asArray, listItems, textToId } from '../../core/utils/common-utils.js';
+import {
+  getPostDraftChunkName,
+  getPublishedPostChunkName,
+  isInboxItem,
+  isPublishablePost,
+  isTrashOrInboxItem,
+} from '../../core/entities/post-variation.js';
+import { PostsManager } from '../../core/entities/posts-manager.js';
+import { asArray, textToId } from '../../core/utils/common-utils.js';
 import { dateToString } from '../../core/utils/date-utils.js';
 import { getDataHash } from '../utils/data-utils.js';
-import { PostsManager } from './utils/posts-manager.js';
+import { pathExists } from '../utils/file-utils.js';
+import { locations } from './locations.js';
+import { users } from './users.js';
+import { loadYaml, saveYaml } from './utils/yaml.js';
 
-export const POSTS_PUBLISHED_PATH = 'data/published';
-export const POSTS_INBOX_PATH = 'data/inbox';
-export const POSTS_TRASH_PATH = 'data/trash';
+interface LocalPostsManagerProps<TPost extends Post> {
+  name: string;
+  dirPath: string;
+  checkPost: (post: Post, errors?: string[]) => post is TPost;
+  getItemChunkName: (id: string) => string;
+}
 
-export const published = new PostsManager<PublishablePost>({
-  title: 'published',
-  dirPath: POSTS_PUBLISHED_PATH,
+class LocalPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
+  readonly name: string;
+  readonly checkPost: (post: Post, errors?: string[]) => post is TPost;
+  readonly getItemChunkName: (id: string) => string;
+  readonly dirPath: string;
+
+  constructor({ name, dirPath, checkPost, getItemChunkName }: LocalPostsManagerProps<TPost>) {
+    super();
+    this.name = name;
+    this.checkPost = checkPost;
+    this.dirPath = dirPath;
+    this.getItemChunkName = getItemChunkName;
+  }
+
+  async addItem(post: Post | string, id: string) {
+    const [, validPost] = this.validatePost([id, post]);
+
+    return super.addItem(validPost, id);
+  }
+
+  protected async loadChunkNames(): Promise<string[]> {
+    const files = await readdir(this.dirPath);
+
+    return files
+      .map((file) => /^(.*)\.yml$/.exec(file)?.[1])
+      .filter((name): name is string => typeof name === 'string');
+  }
+
+  protected async loadChunkData(chunkName: string) {
+    const filename = `${this.dirPath}/${chunkName}.yml`;
+
+    if (!(await pathExists(filename))) {
+      return [];
+    }
+
+    const data = await loadYaml(filename);
+
+    if (typeof data !== 'object' || data === null) {
+      throw new TypeError(`File "${filename}" expected to be the map of posts`);
+    }
+
+    return [...Object.entries(data)]
+      .map((entry) => this.validatePost(entry))
+      .sort(([id1], [id2]) => id1.localeCompare(id2));
+  }
+
+  protected async saveChunk(chunkName: string) {
+    const chunk = this.chunks.get(chunkName);
+    const filename = `${this.dirPath}/${chunkName}.yml`;
+
+    if (!chunk) {
+      return;
+    }
+
+    const data = Object.fromEntries(chunk.entries());
+
+    return saveYaml(filename, data);
+  }
+
+  private validatePost(value: [string, unknown]): [id: string, post: TPost | string] {
+    const [id, post] = value;
+    if (typeof post === 'string') {
+      return [id, post];
+    }
+
+    const errors: string[] = [];
+
+    if (!isPost(post, errors)) {
+      throw new TypeError(`Post "${id}" is not valid: ${errors.join(', ')}`);
+    }
+
+    if (!this.checkPost(post, errors)) {
+      throw new TypeError(`Post "${id}" is not valid: ${errors.join(', ')}`);
+    }
+
+    stripPostTags(post);
+
+    return [id, post];
+  }
+}
+
+export const published = new LocalPostsManager<PublishablePost>({
+  name: 'published',
+  dirPath: 'data/published',
   checkPost: isPublishablePost,
-  getPostChunkName: getPublishedPostChunkName,
+  getItemChunkName: getPublishedPostChunkName,
 });
 
-export const inbox = new PostsManager<InboxItem>({
-  title: 'inbox',
-  dirPath: POSTS_INBOX_PATH,
+export const inbox = new LocalPostsManager<InboxItem>({
+  name: 'inbox',
+  dirPath: 'data/inbox',
   checkPost: isInboxItem,
-  getPostChunkName: getPostDraftChunkName,
+  getItemChunkName: getPostDraftChunkName,
 });
 
 // Allow trash to contain restorable inbox items temporarily
-export const trash = new PostsManager<TrashItem | InboxItem>({
-  title: 'trash',
-  dirPath: POSTS_TRASH_PATH,
+export const trash = new LocalPostsManager<TrashItem | InboxItem>({
+  name: 'trash',
+  dirPath: 'data/trash',
   checkPost: isTrashOrInboxItem,
-  getPostChunkName: getPostDraftChunkName,
+  getItemChunkName: getPostDraftChunkName,
 });
-
-export async function findLastPublishedPostEntry(
-  filter: (post: Post) => boolean,
-): Promise<PostEntry<PublishablePost> | undefined> {
-  const years = (await published.getChunkNames()).reverse();
-
-  for (const year of years) {
-    const postEntries = await getPostEntriesFromSource(() => published.getChunkPosts(year));
-    const postEntry = [...postEntries].reverse().find(([_, post]) => filter(post));
-    if (postEntry) {
-      return postEntry;
-    }
-  }
-
-  return undefined;
-}
-
-export async function* getAllServicePosts(service: string): AsyncGenerator<ServicePost<unknown>> {
-  for await (const [, post] of published.getAllPosts()) {
-    if (!post.posts) {
-      continue;
-    }
-    for (const servicePost of post.posts) {
-      if (servicePost.service === service) {
-        yield servicePost;
-      }
-    }
-  }
-}
-
-export async function getPost<
-  TPostsManager extends PostsManager,
-  TPost extends TPostsManager extends PostsManager<infer T> ? T : Post,
->(id: string, managers: TPostsManager[]): Promise<[TPost, TPostsManager]> {
-  for (const manager of managers) {
-    const post = await manager.getPost(id);
-    if (post) {
-      return [post as TPost, manager];
-    }
-  }
-
-  throw new Error(`Cannot find post "${id}" through ${listItems(managers.map(({ title }) => title))} posts.`);
-}
-
-function getPublishedPostChunkName(id: string) {
-  const chunkName = id.split('-')[0];
-
-  if (!chunkName) {
-    throw new Error(`Cannot get year from post id: ${id}`);
-  }
-  return chunkName;
-}
-
-function getPostDraftChunkName(id: string) {
-  return id.split('.')[1]?.split('-')[0] ?? new Date().getFullYear().toString();
-}
 
 export function createPublishedPostId(post: PublishablePost, index?: number) {
   const created = getPostFirstPublished(post) ?? new Date();
@@ -116,4 +157,22 @@ export function createPostRequestId(request: PostRequest) {
   const hash = getDataHash(request.request.text);
 
   return createInboxItemId(request.request.user, request.request.date, hash);
+}
+
+export const postsManagers: PostsManager[] = [published, inbox, trash];
+
+export async function getPostInfo(
+  manager: PostsManager,
+  compareFn?: PostEntriesComparator,
+  filterFns?: PostFilter<Post, Post> | PostFilter<Post, Post>[],
+  skipReferences?: boolean,
+): Promise<PostInfo | undefined> {
+  const filterFn = filterFns
+    ? Array.isArray(filterFns)
+      ? (post: Post): post is Post => filterFns.every((fn) => fn(post))
+      : filterFns
+    : undefined;
+  const [entry] = await getPostEntriesFromSource(() => manager.readAllEntries(skipReferences), compareFn, filterFn, 1);
+
+  return entry ? createPostInfo(entry, locations, users, manager.name) : undefined;
 }

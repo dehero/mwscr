@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 6px;
+  padding: 4px 6px;
+}
+
+.table {
+  width: 100%;
+}
+
+.fallback {
+  color: var(--color-text-light);
+  align-self: center;
+}

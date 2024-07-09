@@ -1,0 +1,9 @@
+.title {
+  color: var(--color-text-light);
+  display: inline-flex;
+  gap: 4px;
+}
+
+.icon {
+  margin-right: 4px;
+}

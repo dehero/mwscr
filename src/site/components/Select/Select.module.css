@@ -1,0 +1,27 @@
+.select {
+  appearance: none;
+  background: none;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 1px 21px 1px 4px;
+  outline: none;
+  min-height: 23px;
+  height: 23px;
+  box-sizing: border-box;
+  background-image: url(../../images/tick.png);
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 4px);
+  background-position-y: 4px;
+  image-rendering: pixelated;
+}
+
+.select:focus,
+.select:hover {
+  color: var(--color-text-hover);
+}
+
+.option {
+  background: var(--color-background);
+  color: var(--color-text);
+}

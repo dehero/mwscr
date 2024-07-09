@@ -1,0 +1,48 @@
+.table {
+  display: table;
+  border-spacing: 0;
+  line-height: 1.25;
+  cursor: default;
+}
+
+.header {
+  display: table-header-group;
+  color: var(--color-text-light);
+}
+
+.body {
+  display: table-row-group;
+}
+
+.row {
+  display: table-row;
+}
+
+.label {
+  display: table-cell;
+  text-align: left;
+  white-space: nowrap;
+  font-weight: normal;
+  padding: 0;
+}
+
+.lightLabel {
+  color: var(--color-text-light);
+}
+
+.value {
+  display: table-cell;
+  text-align: right;
+  width: 100%;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  color: var(--color-text-selected);
+}

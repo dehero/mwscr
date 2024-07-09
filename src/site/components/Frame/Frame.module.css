@@ -1,0 +1,24 @@
+.frame {
+  border-color: var(--color-text);
+  border-style: solid;
+  border-image-repeat: repeat;
+  image-rendering: pixelated;
+}
+
+.thin {
+  border-width: 2px;
+  border-image-source: url(../../images/frame-thin.png);
+  border-image-slice: 2;
+}
+
+.thick {
+  border-width: 4px;
+  border-image-source: url(../../images/frame-thick.png);
+  border-image-slice: 4;
+}
+
+.button {
+  border-width: 4px;
+  border-image-source: url(../../images/frame-button.png);
+  border-image-slice: 4;
+}

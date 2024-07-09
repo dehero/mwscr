@@ -23,9 +23,9 @@ import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import type { InstagramPost } from '../../core/services/instagram.js';
 import { Instagram } from '../../core/services/instagram.js';
 import { asArray } from '../../core/utils/common-utils.js';
-import { getDaysPassed } from '../../core/utils/date-utils.js';
+import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
 import { readResource } from '../data-managers/resources.js';
-import { findUser, getUser } from '../data-managers/users.js';
+import { users } from '../data-managers/users.js';
 
 const INSTAGRAM_PAGE_ID = '17841404237421312'; // Instagram Business ID
 
@@ -47,7 +47,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     let author: string | undefined;
 
     if (authorName) {
-      [author] = (await findUser({ name: authorName })) || [];
+      [author] = (await users.findEntry({ name: authorName })) || [];
     }
 
     return { title, tags, request, author: author || USER_DEFAULT_AUTHOR };
@@ -86,18 +86,18 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
     const firstPublished = getPostFirstPublished(post);
     if (firstPublished && getDaysPassed(firstPublished) > 7) {
-      lines.push(firstPublished.toLocaleDateString('en-GB'));
+      lines.push(formatDate(firstPublished));
     }
 
     return lines.join('\n');
   }
 
-  async mentionUsers(users: string | string[]) {
+  async mentionUsers(user: string | string[]) {
     const mentions: string[] = [];
-    const userIds = asArray(users);
+    const userIds = asArray(user);
 
     for (const userId of userIds) {
-      const user = await getUser(userId);
+      const user = await users.getItem(userId);
       const name = user?.name || userId;
       const profile = user?.profiles?.[this.id];
 

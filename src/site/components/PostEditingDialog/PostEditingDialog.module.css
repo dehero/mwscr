@@ -1,0 +1,60 @@
+.form {
+  display: grid;
+  grid-template-columns: minmax(180px, 360px) minmax(180px, 360px);
+  gap: 8px;
+}
+
+.legend {
+  color: var(--color-text-light);
+}
+
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.secondary {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.request {
+  display: grid;
+  border: none;
+  gap: 4px;
+  padding: 0;
+  margin: 0;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: 'requestText requestText' 'requestDate requestUser';
+}
+
+.requestText {
+  grid-area: requestText;
+}
+
+.requestUser {
+  grid-area: requestUser;
+  width: 100%;
+}
+
+.requestDate {
+  grid-area: requestDate;
+  width: 120px;
+}
+
+.title {
+  width: 100%;
+}
+
+.location {
+  grid-column: span 2;
+}

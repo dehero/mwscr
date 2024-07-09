@@ -1,0 +1,127 @@
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  padding: 8px;
+  margin: 0 -2px -2px -2px;
+  gap: 8px;
+  overflow-y: auto;
+}
+
+.about {
+  grid-area: about;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  padding: 12px;
+  align-items: center;
+  text-overflow: ellipsis;
+}
+
+.posts {
+  grid-area: posts;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 12px;
+  padding: 8px;
+}
+
+.postHighlights {
+  justify-content: center;
+}
+
+.icon {
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  image-rendering: auto;
+}
+
+.title {
+  margin: 0;
+  color: var(--color-text-light);
+}
+
+.description {
+  margin: 0;
+  text-wrap: balance;
+  text-align: center;
+  max-width: 320px;
+}
+
+.links {
+  margin: 0;
+  text-wrap: balance;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text-selected);
+}
+
+.link:hover {
+  color: var(--color-text-selected-hover);
+}
+
+.statistics {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+  padding: 8px;
+}
+
+.goldIcon {
+  margin-right: 4px;
+  vertical-align: text-top;
+}
+
+.version {
+  margin: 0;
+  text-align: center;
+}
+
+.copyright {
+  margin: 0;
+  text-align: center;
+}
+
+@media only screen and (min-height: 750px) and (min-width: 750px),
+  only screen and (max-height: 750px) and (min-width: 925px) {
+  .container {
+    display: grid;
+    overflow: hidden;
+    padding: 0 8px 8px 8px;
+    margin: 0;
+    border: none;
+  }
+
+  .postHighlights {
+    justify-content: flex-start;
+  }
+
+  .about,
+  .statistics,
+  .posts {
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-height: 750px) and (min-width: 750px) {
+  .container {
+    grid-template-columns: minmax(var(--size-panel-min-width), max-content) minmax(var(--size-panel-min-width), 1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 'about posts' 'statistics posts';
+  }
+}
+
+@media only screen and (max-height: 750px) and (min-width: 925px) {
+  .container {
+    grid-template-columns: minmax(var(--size-panel-min-width), max-content) min(var(--size-panel-min-width)) minmax(
+        361px,
+        1fr
+      );
+    grid-template-rows: 1fr;
+    grid-template-areas: 'about statistics posts';
+  }
+}

@@ -23,6 +23,7 @@ module.exports = configure({
     rules: {
       /* Project preferences */
 
+      'import/no-default-export': 'off',
       'no-console': 'off',
       'no-irregular-whitespace': 'off',
       'no-useless-escape': 'off',

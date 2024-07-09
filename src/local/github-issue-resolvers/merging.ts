@@ -1,8 +1,9 @@
+import { searchDataReaderItem } from '../../core/entities/data-manager.js';
 import { mergeWithIds } from '../../core/entities/field.js';
 import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
 import { mergePostWith } from '../../core/entities/post.js';
 import { label } from '../../core/github-issues/merging.js';
-import { getPost, inbox, trash } from '../data-managers/posts.js';
+import { inbox, trash } from '../data-managers/posts.js';
 import { extractIssueTextareaValue, extractIssueUser } from './utils/issue-utils.js';
 
 export * from '../../core/github-issues/merging.js';
@@ -14,22 +15,22 @@ export async function resolve(issue: GithubIssue) {
   }
 
   const id = issue.title;
-  const [post, manager] = await getPost(issue.title, [inbox, trash]);
+  const [post, manager] = await searchDataReaderItem(issue.title, [inbox, trash]);
 
   const withIds = extractIssueTextareaValue(mergeWithIds, issue.body)?.split(/\r?\n/).filter(Boolean);
 
   if (withIds) {
     for (const withId of withIds) {
-      const [withPost, withManager] = await getPost(withId, [inbox, trash]);
+      const [withPost, withManager] = await searchDataReaderItem(withId, [inbox, trash]);
       if (manager !== withManager) {
-        throw new Error(`Cannot merge ${manager.title} and ${withManager.title} posts.`);
+        throw new Error(`Cannot merge ${manager.name} and ${withManager.name} posts.`);
       } else {
         mergePostWith(post, withPost);
-        await withManager.removePost(withId);
+        await withManager.removeItem(withId);
         console.info(`Post "${id}" merged with "${withId}".`);
       }
     }
-    await manager.updatePost(id);
+    await manager.updateItem(id);
   } else {
     console.info(`No posts to merge with "${id}".`);
   }

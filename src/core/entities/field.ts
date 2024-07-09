@@ -75,7 +75,7 @@ export const postViolation = {
   id: 'postViolation',
   attributes: {
     label: 'Violation',
-    options: Object.values(POST_VIOLATIONS),
+    options: Object.values(POST_VIOLATIONS).map(({ title }) => title),
   },
 } as const;
 

@@ -1,13 +1,11 @@
+import type { Post, PostEntry } from '../../core/entities/post.js';
 import { isPostEqual, mergePostWith } from '../../core/entities/post.js';
+import type { PublishablePost } from '../../core/entities/post-variation.js';
 import { isPublishablePost } from '../../core/entities/post-variation.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
+import type { ServicePost } from '../../core/entities/service-post.js';
 import { arrayFromAsync } from '../../core/utils/common-utils.js';
-import {
-  createPublishedPostId,
-  findLastPublishedPostEntry,
-  getAllServicePosts,
-  published,
-} from '../data-managers/posts.js';
+import { createPublishedPostId, published } from '../data-managers/posts.js';
 import { postingServiceManagers } from '../posting-service-managers/index.js';
 
 export async function grabManualPosts() {
@@ -63,7 +61,7 @@ async function grabManualServicePosts(service: PostingServiceManager) {
         }
 
         const newId = createPublishedPostId(newPost);
-        await published.addPost(newId, newPost);
+        await published.addItem(newPost, newId);
 
         console.info(`Imported manual ${service.name} post "${newId}".`);
       } catch (error) {
@@ -73,8 +71,37 @@ async function grabManualServicePosts(service: PostingServiceManager) {
       }
     } else {
       mergePostWith(post, newPost);
-      await published.updatePost(id);
+      await published.updateItem(id);
       console.info(`Merged manual ${service.name} post with existing post "${id}".`);
+    }
+  }
+}
+
+async function findLastPublishedPostEntry(
+  filter: (post: Post) => boolean,
+): Promise<PostEntry<PublishablePost> | undefined> {
+  const years = (await published.getChunkNames()).reverse();
+
+  for (const year of years) {
+    const postEntries = await published.getChunkEntries(year);
+    const postEntry = [...postEntries].reverse().find(([_, post]) => filter(post));
+    if (postEntry) {
+      return postEntry;
+    }
+  }
+
+  return undefined;
+}
+
+async function* getAllServicePosts(service: string): AsyncGenerator<ServicePost<unknown>> {
+  for await (const [, post] of published.readAllEntries()) {
+    if (!post.posts) {
+      continue;
+    }
+    for (const servicePost of post.posts) {
+      if (servicePost.service === service) {
+        yield servicePost;
+      }
     }
   }
 }

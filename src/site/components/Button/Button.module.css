@@ -1,0 +1,29 @@
+.button {
+  padding: 0 8px;
+  appearance: none;
+  background: none;
+  cursor: default;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  outline: none;
+  color: var(--color-text);
+  line-height: 1;
+  max-height: 24px;
+  white-space: nowrap;
+}
+
+.button:focus,
+.button:hover {
+  color: var(--color-text-hover);
+}
+
+.buttonActive {
+  color: var(--color-text-selected);
+}
+
+.buttonActive:focus,
+.buttonActive:hover {
+  color: var(--color-text-selected-hover);
+}

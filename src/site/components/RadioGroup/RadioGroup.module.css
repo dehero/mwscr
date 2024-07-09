@@ -1,0 +1,35 @@
+.container {
+  display: inline-flex;
+  flex-flow: row wrap;
+  gap: 4px;
+  align-items: baseline;
+}
+
+.option {
+  padding: 0 8px;
+  flex-shrink: 0;
+  color: var(--color-text);
+  outline: none;
+}
+
+.option:focus,
+.option:hover {
+  color: var(--color-text-hover);
+}
+
+.optionLabel {
+  white-space: nowrap;
+}
+
+.radio {
+  display: none;
+}
+
+.radio:checked + .optionLabel {
+  color: var(--color-text-selected);
+}
+
+.radio:checked + .optionLabel:hover,
+.radio:checked + .optionLabel:focus {
+  color: var(--color-text-selected-hover);
+}

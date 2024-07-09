@@ -9,7 +9,7 @@ import type { MediaMetadata } from '../../core/entities/media.js';
 import type { Resource } from '../../core/entities/resource.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../core/entities/resource.js';
 import { textToId } from '../../core/utils/common-utils.js';
-import { store } from '../stores/index.js';
+import { storeManager } from '../store-managers/index.js';
 import { pathExists } from '../utils/file-utils.js';
 
 const DEBUG_RESOURCES = Boolean(process.env.DEBUG_RESOURCES) || false;
@@ -22,7 +22,7 @@ export async function resourceExists(url: string): Promise<boolean> {
 
   switch (protocol) {
     case 'store:':
-      return store.exists(pathname);
+      return storeManager.exists(pathname);
     case 'file:':
       return pathExists(pathname);
     case 'http:':
@@ -67,17 +67,17 @@ export async function copyResource(fromUrl: string, toUrl: string): Promise<void
             }
           }
 
-          return store.copy(from.pathname, to.pathname);
+          return storeManager.copy(from.pathname, to.pathname);
         }
         case 'file:':
-          return fs.writeFile(to.pathname, await store.get(from.pathname));
+          return fs.writeFile(to.pathname, await storeManager.get(from.pathname));
         default:
       }
       break;
     case 'file:':
       switch (to.protocol) {
         case 'store:':
-          return store.put(to.pathname, await fs.readFile(from.pathname));
+          return storeManager.put(to.pathname, await fs.readFile(from.pathname));
         case 'file:':
           return fs.copyFile(from.pathname, to.pathname);
         default:
@@ -92,7 +92,7 @@ export async function copyResource(fromUrl: string, toUrl: string): Promise<void
             throw new Error(`Unable to get body for "${fromUrl}"`);
           }
 
-          return store.putStream(to.pathname, response.body);
+          return storeManager.putStream(to.pathname, response.body);
         }
         case 'file:': {
           const response = await fetch(fromUrl);
@@ -144,11 +144,11 @@ export async function moveResource(fromUrl: string, toUrl: string) {
             }
           }
 
-          return store.move(from.pathname, to.pathname);
+          return storeManager.move(from.pathname, to.pathname);
         }
         case 'file:':
           await copyResource(fromUrl, toUrl);
-          return store.remove(from.pathname);
+          return storeManager.remove(from.pathname);
         default:
       }
       break;
@@ -177,7 +177,7 @@ export async function readResource(url: string): Promise<Resource> {
 
   switch (protocol) {
     case 'store:': {
-      const data = await store.get(pathname);
+      const data = await storeManager.get(pathname);
       const mimeType = mime.getType(ext);
 
       return [data, mimeType, base];
@@ -224,7 +224,7 @@ export async function removeResource(url: string): Promise<void> {
           }
         }
       }
-      return store.remove(pathname);
+      return storeManager.remove(pathname);
     }
     case 'file:':
       return fs.rm(pathname);
@@ -239,7 +239,7 @@ export async function writeResource(url: string, data: Buffer) {
 
   switch (protocol) {
     case 'store:':
-      return store.put(pathname, data);
+      return storeManager.put(pathname, data);
     case 'file:':
       return fs.writeFile(pathname, data);
     default:
@@ -263,7 +263,7 @@ export async function getResourcePreviewUrl(url: string, width?: number, height?
 
   switch (protocol) {
     case 'store:':
-      return store.getPreviewUrl(pathname, width, height);
+      return storeManager.getPreviewUrl(pathname, width, height);
     case 'http:':
     case 'https:':
       return url;

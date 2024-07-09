@@ -1,0 +1,18 @@
+.input {
+  appearance: none;
+  background: none;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  outline: none;
+  padding: 1px 2px;
+  min-height: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  resize: none;
+}
+
+input::selection {
+  background: var(--color-background);
+  color: var(--color-text-selected-input);
+}

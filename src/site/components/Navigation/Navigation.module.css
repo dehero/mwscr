@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  gap: 8px 4px;
+  padding: 8px;
+}
+
+.button {
+  display: none;
+}
+
+.breadcrumbs {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text-selected);
+}
+
+.link:hover {
+  color: var(--color-text-selected-hover);
+}
+
+@media only screen and (min-width: 512px) {
+  .nav {
+    flex-flow: row wrap;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .button {
+    display: block;
+  }
+}

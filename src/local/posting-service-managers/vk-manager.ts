@@ -13,10 +13,10 @@ import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import type { VKPost } from '../../core/services/vk.js';
 import { VK as VKService, VK_GROUP_ID, VK_GROUP_NAME } from '../../core/services/vk.js';
 import { asArray, randomDelay } from '../../core/utils/common-utils.js';
-import { getDaysPassed } from '../../core/utils/date-utils.js';
-import { findLocation } from '../data-managers/locations.js';
+import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
+import { locations } from '../data-managers/locations.js';
 import { readResource } from '../data-managers/resources.js';
-import { findUser, getUser } from '../data-managers/users.js';
+import { users } from '../data-managers/users.js';
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 
@@ -32,18 +32,18 @@ export class VKManager extends VKService implements PostingServiceManager {
     let author: string | undefined;
 
     if (authorName) {
-      [author] = (await findUser({ name: authorName, nameRu: authorName, nameRuFrom: authorName })) || [];
+      [author] = (await users.findEntry({ name: authorName, nameRu: authorName, nameRuFrom: authorName })) || [];
     }
 
     return { title, tags, author: author || USER_DEFAULT_AUTHOR };
   }
 
-  async mentionUsers(users: string | string[]) {
+  async mentionUsers(user: string | string[]) {
     const mentions: string[] = [];
-    const userIds = asArray(users);
+    const userIds = asArray(user);
 
     for (const userId of userIds) {
-      const user = await getUser(userId);
+      const user = await users.getItem(userId);
       const name = user?.nameRuFrom || user?.name || userId;
       const profile = user?.profiles?.[this.id];
 
@@ -81,7 +81,7 @@ export class VKManager extends VKService implements PostingServiceManager {
     lines.push('');
 
     if (post.location) {
-      const location = await findLocation(post.location);
+      const location = await locations.getItem(post.location);
       if (location?.titleRu && location.titleRu !== post.titleRu) {
         lines.push(location.titleRu);
       } else if (post.location !== post.titleRu) {
@@ -91,7 +91,7 @@ export class VKManager extends VKService implements PostingServiceManager {
 
     const firstPublished = getPostFirstPublished(post);
     if (firstPublished && getDaysPassed(firstPublished) > 7) {
-      lines.push(firstPublished.toLocaleDateString('ru-RU'));
+      lines.push(formatDate(firstPublished, 'ru-RU'));
     }
 
     return lines.join('\n');

@@ -1,10 +1,11 @@
 import type { SortDirection } from '../utils/common-types.js';
 import { arrayFromAsync, asArray } from '../utils/common-utils.js';
-import { dateToString } from '../utils/date-utils.js';
+import { dateToString, stringToDate } from '../utils/date-utils.js';
 import { areNestedLocations as areRelatedLocations } from './location.js';
+import type { MediaAspectRatio } from './media.js';
 import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, resourceIsImage, resourceIsVideo } from './resource.js';
 import { checkRules, needObject, needProperty } from './rule.js';
-import type { ServicePost } from './service-post.js';
+import type { ServicePost, ServicePostComment } from './service-post.js';
 import { isServicePostEqual, mergeServicePosts } from './service-post.js';
 import { USER_DEFAULT_AUTHOR } from './user.js';
 
@@ -14,15 +15,15 @@ export const POST_ENGINES = ['OpenMW', 'Vanilla'] as const;
 export const POST_MARKS = ['A1', 'A2', 'B1', 'B2', 'C', 'D', 'E', 'F'] as const;
 
 export const POST_VIOLATIONS = {
-  'inappropriate-content': 'Inappropriate content',
-  'jpeg-artifacts': 'JPEG artifacts',
-  'graphic-issues': 'Graphic issues',
-  'no-anti-aliasing': 'No anti-aliasing',
-  'non-vanilla-look': 'Non-vanilla look',
-  'uses-mods': 'Uses or requires mods',
-  'ui-visible': 'UI is visible',
-  'unreachable-resource': 'Unreachable resource',
-  'unsupported-resource': 'Unsupported resource',
+  'inappropriate-content': { title: 'Inappropriate content', letter: 'C' },
+  'jpeg-artifacts': { title: 'JPEG artifacts', letter: 'J' },
+  'graphic-issues': { title: 'Graphic issues', letter: 'G' },
+  'no-anti-aliasing': { title: 'No anti-aliasing', letter: 'A' },
+  'non-vanilla-look': { title: 'Non-vanilla look', letter: 'N' },
+  'uses-mods': { title: 'Uses or requires mods', letter: 'M' },
+  'ui-visible': { title: 'UI is visible', letter: 'U' },
+  'unreachable-resource': { title: 'Unreachable resource', letter: 'R' },
+  'unsupported-resource': { title: 'Unsupported resource', letter: 'R' },
 } as const;
 
 export type PostType = (typeof POST_TYPES)[number];
@@ -64,6 +65,10 @@ export type PostEntriesComparator = (a: PostEntry<Post>, b: PostEntry<Post>) => 
 export type PostFilter<TPost extends Post, TFilteredPost extends TPost> = (post: Post) => post is TFilteredPost;
 
 export type PostSource<TPost extends Post> = () => AsyncGenerator<PostEntry<TPost>>;
+
+export interface PostComment extends ServicePostComment {
+  service: string;
+}
 
 export interface PostDistance {
   id: string | undefined;
@@ -116,11 +121,36 @@ export function getPostRating(post: Post) {
   return ratings.reduce((acc, number) => acc + number, 0) / ratings.length;
 }
 
-export function getPostFirstPublished(post: Post) {
+export function getAllPostCommentsSorted(post: Post): PostComment[] {
+  return (
+    post.posts
+      ?.flatMap(
+        (servicePost) =>
+          servicePost.comments?.map((comment) => ({
+            ...comment,
+            service: servicePost.service,
+            replies: [...(comment.replies ?? [])].sort((a, b) => a.datetime.getTime() - b.datetime.getTime()),
+          })) ?? [],
+      )
+      .sort((a, b) => a.datetime.getTime() - b.datetime.getTime()) ?? []
+  );
+}
+
+export function getPostCommentCount(post: Post) {
+  return (
+    post.posts?.reduce(
+      (total, servicePost) =>
+        total + (servicePost.comments?.reduce((total, comment) => total + 1 + (comment.replies?.length ?? 0), 0) ?? 0),
+      0,
+    ) || 0
+  );
+}
+
+export function getPostFirstPublished(post: Pick<Post, 'posts'>) {
   return post.posts ? new Date(Math.min(...post.posts.map((post) => post.published.getTime()))) : undefined;
 }
 
-export function getPostLastPublished(post: Post) {
+export function getPostLastPublished(post: Pick<Post, 'posts'>) {
   return post.posts ? new Date(Math.max(...post.posts.map((post) => post.published.getTime()))) : undefined;
 }
 
@@ -132,7 +162,7 @@ export function getServicePostRating(info?: ServicePost<unknown>) {
   return info.followers >= 100 ? (info.likes / info.followers) * 100 : info.likes;
 }
 
-export function isPostEqual(a: Post, b: Post): boolean {
+export function isPostEqual(a: Post, b: Partial<Post>): boolean {
   const date1 = getPostFirstPublished(b);
   const date2 = getPostFirstPublished(a);
 
@@ -163,6 +193,14 @@ export function getPostTypesFromContent(content?: PostContent): PostType[] {
   }
 
   return [];
+}
+
+export function getPostTypeAspectRatio(type: PostType): MediaAspectRatio {
+  if (type === 'video') {
+    return '16/9';
+  }
+
+  return '1/1';
 }
 
 export function getPostContentDistance(content: PostContent, postEntries: PostEntries): PostDistance {
@@ -247,6 +285,10 @@ export function getPostRelatedLocationDistance(location: string, postEntries: Po
   return { id: undefined, distance: Infinity, message: 'location not used before' };
 }
 
+export function getPostDrawer(post: Post) {
+  return post.type === 'drawing' ? asArray(post.author)[0] : undefined;
+}
+
 export function mergePostWith(post: Post, withPost: Post) {
   post.title = post.title || withPost.title;
   post.titleRu = post.titleRu || withPost.titleRu;
@@ -319,6 +361,12 @@ export function mergePostTags(tags1: string[] | undefined, tags2?: string[] | un
   return result.size > 0 ? [...result] : undefined;
 }
 
+export function getPostDateById(id: string) {
+  const dateStr = id.split('.')[0];
+
+  return dateStr ? stringToDate(dateStr) : undefined;
+}
+
 export async function getPostEntriesFromSource<TPost extends Post, TFilteredPost extends TPost = TPost>(
   source: PostSource<TPost>,
   compareFn?: PostEntriesComparator,
@@ -338,19 +386,33 @@ export function comparePostEntriesById(direction: SortDirection): PostEntriesCom
 }
 
 export function comparePostEntriesByRating(direction: SortDirection): PostEntriesComparator {
+  const byId = comparePostEntriesById(direction);
+
   return direction === 'asc'
-    ? (a, b) => getPostRating(a[1]) - getPostRating(b[1])
-    : (a, b) => getPostRating(b[1]) - getPostRating(a[1]);
+    ? (a, b) => getPostRating(a[1]) - getPostRating(b[1]) || byId(a, b)
+    : (a, b) => getPostRating(b[1]) - getPostRating(a[1]) || byId(a, b);
 }
 
 export function comparePostEntriesByLikes(direction: SortDirection): PostEntriesComparator {
+  const byId = comparePostEntriesById(direction);
+
   return direction === 'asc'
-    ? (a, b) => getPostTotalLikes(a[1]) - getPostTotalLikes(b[1])
-    : (a, b) => getPostTotalLikes(b[1]) - getPostTotalLikes(a[1]);
+    ? (a, b) => getPostTotalLikes(a[1]) - getPostTotalLikes(b[1]) || byId(a, b)
+    : (a, b) => getPostTotalLikes(b[1]) - getPostTotalLikes(a[1]) || byId(a, b);
 }
 
 export function comparePostEntriesByViews(direction: SortDirection): PostEntriesComparator {
+  const byId = comparePostEntriesById(direction);
+
   return direction === 'asc'
-    ? (a, b) => getPostTotalViews(a[1]) - getPostTotalViews(b[1])
-    : (a, b) => getPostTotalViews(b[1]) - getPostTotalViews(a[1]);
+    ? (a, b) => getPostTotalViews(a[1]) - getPostTotalViews(b[1]) || byId(a, b)
+    : (a, b) => getPostTotalViews(b[1]) - getPostTotalViews(a[1]) || byId(a, b);
+}
+
+export function comparePostEntriesByMark(direction: SortDirection): PostEntriesComparator {
+  const byRating = comparePostEntriesByRating(direction);
+
+  return direction === 'asc'
+    ? (a, b) => b[1].mark?.localeCompare(a[1].mark || '') || byRating(a, b)
+    : (a, b) => a[1].mark?.localeCompare(b[1].mark || '') || byRating(a, b);
 }

@@ -1,7 +1,8 @@
+import type { DataReaderEntry } from '../../../core/entities/data-manager.js';
 import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../../core/entities/field.js';
 import type { GithubIssue } from '../../../core/entities/github-issue.js';
 import type { User } from '../../../core/entities/user.js';
-import { findUser, mergeUser } from '../../data-managers/users.js';
+import { users } from '../../data-managers/users.js';
 
 const MARKDOWN_LINK_REGEX = /\[([^\]]+)\]\(([^\)]+)\)/g;
 const MARKDOWN_URL_REGEX =
@@ -57,12 +58,12 @@ export function extractIssueTextareaValue(field: IssueFieldWithLabel, text: stri
   return value?.replace('_No response_', '').trim() || undefined;
 }
 
-export async function extractIssueUser(issue: GithubIssue): Promise<[string, User]> {
-  const [issueUserId, issueUser] = await mergeUser({ profiles: { gh: issue.user.login } });
+export async function extractIssueUser(issue: GithubIssue): Promise<DataReaderEntry<User>> {
+  const [issueUserId, issueUser] = await users.mergeItem({ profiles: { gh: issue.user.login } });
 
   const name = extractIssueFieldValue(userName, issue.body);
   if (name) {
-    const [userId] = (await findUser({ name })) ?? [];
+    const [userId] = (await users.findEntry({ name })) ?? [];
     // Administrator can override issue user, his name and profiles
     // New user can set his own name and profiles
     if (!userId || userId === issueUserId || issueUser.admin) {
@@ -70,7 +71,7 @@ export async function extractIssueUser(issue: GithubIssue): Promise<[string, Use
       const tg = extractIssueFieldValue(userProfileTg, issue.body);
       const vk = extractIssueFieldValue(userProfileVk, issue.body);
 
-      return mergeUser({ name, profiles: { ig, tg, vk } });
+      return users.mergeItem({ name, profiles: { ig, tg, vk } });
     }
   }
 

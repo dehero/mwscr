@@ -15,5 +15,9 @@ export interface Location {
 }
 
 export function areNestedLocations(location1: string, location2: string) {
-  return location1.startsWith(location2) || location2.startsWith(location1);
+  return isNestedLocation(location1, location2) || isNestedLocation(location2, location1);
+}
+
+export function isNestedLocation(location1: string, location2: string) {
+  return location1.startsWith(location2);
 }

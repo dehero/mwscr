@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-auto-columns: fit-content(110px);
+  grid-auto-flow: column;
+  padding: 4px;
+  gap: 4px;
+  overflow: initial;
+  box-sizing: border-box;
+  min-height: min-content;
+}
+
+.radio {
+  display: none;
+}
+
+.radio:checked + .preview {
+  border-color: var(--color-text-selected);
+  border-image-source: url(../../images/frame-thin-select.png);
+}

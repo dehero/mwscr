@@ -3,7 +3,7 @@ import { getPostTypesFromContent } from '../entities/post.js';
 import { postTitleFromString } from '../entities/post-title.js';
 import type { Rule } from '../entities/rule.js';
 import { needObject, needProperty } from '../entities/rule.js';
-import { listItems } from '../utils/common-utils.js';
+import { asArray, listItems } from '../utils/common-utils.js';
 import type { AugmentedRequired } from '../utils/type-utils.js';
 
 export type PostRule = Rule<Post>;
@@ -41,6 +41,16 @@ export function needAuthor(post: Post): post is AugmentedRequired<Post, 'author'
     throw new Error('need author');
   }
   return true;
+}
+
+export function needCertainAuthor<T extends Post>(postAuthor: string) {
+  return (post: T): post is T & { author: string | string[] } => {
+    const authors = asArray(post.author);
+    if (!authors.includes(postAuthor)) {
+      throw new Error(`need one of authors to be "${postAuthor}", got ${listItems(authors, true)}`);
+    }
+    return true;
+  };
 }
 
 export function needRequest(post: Post): post is AugmentedRequired<Post, 'request'> {

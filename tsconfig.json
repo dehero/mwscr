@@ -18,13 +18,14 @@
     "forceConsistentCasingInFileNames": true,
     "sourceMap": true,
     "outDir": "./dist/",
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "isolatedModules": true,
     "lib": [
       "ESNext",
+      "DOM"
     ]
   },
-  "include": [
-    "src/**/*.ts"
-  ],
   "exclude": [
     "node_modules"
   ]

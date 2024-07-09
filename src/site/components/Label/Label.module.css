@@ -1,0 +1,24 @@
+.container {
+  display: inline-block;
+}
+
+.label {
+  color: var(--color-text);
+  white-space: nowrap;
+  margin: 0 4px 0 0;
+}
+
+.label.alignEnd {
+  margin: 0 0 0 4px;
+}
+
+.vertical {
+  display: block;
+}
+
+.vertical > .label {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 0 4px 0;
+}

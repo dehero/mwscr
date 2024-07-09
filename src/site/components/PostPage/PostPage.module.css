@@ -1,0 +1,341 @@
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  padding: 8px;
+  margin: 0 -2px -2px -2px;
+  gap: 8px;
+  overflow-y: auto;
+}
+
+.contentSelector {
+  grid-area: contentSelector;
+}
+
+.selectedContentWrapper {
+  grid-area: content;
+  position: relative;
+}
+
+.selectedContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  image-rendering: auto;
+}
+
+.downloadButton {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.contentPreviews {
+  grid-area: content;
+  justify-content: center;
+}
+
+.request {
+  grid-area: request;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 8px;
+  text-align: center;
+  text-wrap: balance;
+  gap: 4px;
+}
+
+.requestText {
+  margin: 0;
+}
+
+.requestUser {
+  color: var(--color-text-light);
+  margin: 0;
+}
+
+.main {
+  grid-area: main;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+  padding: 8px;
+}
+
+.comments {
+  grid-area: comments;
+}
+
+.publications {
+  grid-area: publications;
+}
+
+.image {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+.youtubeVideo {
+  aspect-ratio: 16 / 9;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.info {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 12px;
+}
+
+.titles {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4px;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.title {
+  color: var(--color-text-light);
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
+.titleRu {
+  margin: 0;
+}
+
+.descriptions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.description {
+  margin: 0;
+}
+
+.publishedIcon {
+  text-align: center;
+}
+
+.id {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px;
+  width: 100%;
+}
+
+.edit,
+.location {
+  display: inline-block;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 4px;
+}
+
+.icon {
+  margin-right: 4px;
+}
+
+.tableIcon {
+  vertical-align: baseline;
+}
+
+.authors {
+  display: flex;
+  align-items: flex-end;
+  flex-flow: row nowrap;
+}
+
+.publishableErrors {
+  display: flex;
+  justify-content: center;
+}
+
+.publishableErrorsText {
+  max-width: 320px;
+  margin: 0;
+  text-align: center;
+}
+
+@media only screen and (max-height: 483px) and (min-width: 812px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'main';
+  }
+
+  .container.withContent {
+    grid-template-columns: 1fr minmax(min-content, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 'main content';
+  }
+
+  .container.withRequest {
+    grid-template-columns: 1fr minmax(min-content, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 'main request';
+  }
+
+  .container.withContent.withRequest {
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      'request content'
+      'main content';
+  }
+
+  .container.withContentSelection {
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      'main contentSelector'
+      'main content';
+  }
+
+  .container.withContentSelection.withRequest {
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      'request contentSelector'
+      'main content';
+  }
+
+  .container.published.withContent {
+    display: grid;
+    grid-template-columns: 1fr minmax(min-content, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      'main content'
+      'publications comments';
+  }
+
+  .container.published.withContent.withRequest {
+    grid-template-rows: auto 1fr 1fr;
+    grid-template-areas:
+      'request content'
+      'main content'
+      'publications comments';
+  }
+
+  .container.published.withContentSelection {
+    grid-template-rows: min-content 1fr 1fr;
+    grid-template-areas:
+      'main contentSelector'
+      'main content'
+      'publications comments';
+  }
+
+  .container.published.withContentSelection.withRequest {
+    grid-template-rows: min-content 1fr 1fr 1fr;
+    grid-template-areas:
+      'main contentSelector'
+      'main content'
+      'request request'
+      'publications comments';
+  }
+
+  .contentPreviews {
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (min-height: 484px) and (min-width: 812px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 'main';
+    overflow: hidden;
+    padding: 0 8px 8px 8px;
+    margin: 0;
+    border: none;
+  }
+
+  .container.withRequest {
+    grid-template-columns: max-content 1fr;
+    grid-template-areas: 'main request';
+  }
+
+  .container.withContent {
+    grid-template-columns: max-content 1fr;
+    grid-template-areas: 'main content';
+  }
+
+  .container.withContent.withRequest {
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 'request content' 'main content';
+  }
+
+  .container.withContentSelection {
+    grid-template-columns: auto minmax(min-content, max-content);
+    grid-template-rows: min-content 1fr;
+    grid-template-areas: 'main contentSelector' 'main content';
+  }
+
+  .container.published {
+    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, max-content) minmax(min-content, 1fr);
+    grid-template-rows: minmax(var(--size-panel-min-height), 1fr) minmax(var(--size-panel-min-height), auto);
+    grid-template-areas:
+      'main content publications'
+      'main content comments';
+  }
+
+  .container.published.withRequest {
+    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, max-content) minmax(min-content, 1fr);
+    grid-template-rows: auto auto minmax(var(--size-panel-min-height), 1fr);
+    grid-template-areas:
+      'request content publications'
+      'main content publications'
+      'main content comments';
+  }
+
+  .container.published.withContentSelection {
+    grid-template-rows: min-content minmax(min-content, max-content) 1fr;
+    grid-template-areas:
+      'main contentSelector publications'
+      'main content publications'
+      'main content comments';
+  }
+
+  .container.published.withRequest.withContentSelection {
+    grid-template-rows: auto minmax(min-content, max-content) 1fr;
+    grid-template-areas:
+      'request contentSelector publications'
+      'main content publications'
+      'main content comments';
+  }
+
+  .container.published.video {
+    grid-template-columns: minmax(min-content, 1fr) fit-content(804px) minmax(min-content, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      'main content publications'
+      'main comments publications';
+  }
+
+  .main,
+  .contentPreviews,
+  .contentSelector,
+  .attributes,
+  .comments,
+  .publications {
+    overflow-y: auto;
+  }
+
+  .contentPreviews {
+    justify-content: flex-start;
+  }
+}

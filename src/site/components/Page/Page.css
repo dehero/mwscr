@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'MysticCards';
+  src:
+    url('../../fonts/MysticCards.woff2') format('woff2'),
+    url('../../fonts/MysticCards.woff') format('woff'),
+    url(../../fonts/MysticCards.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-text: #caa560;
+  --color-text-light: #dfc89e;
+  --color-text-hover: var(--color-text-light);
+  --color-text-selected: #6070ca;
+  --color-text-selected-hover: #9ea8df;
+  --color-text-selected-input: #355a9f;
+  --color-background: #000000;
+  --color-background-selected: #2c3461;
+  --size-panel-min-width: 250px;
+  --size-panel-min-height: 200px;
+  --color-loader-top: #00a0a3;
+  --color-loader-bottom: #00a1a3;
+  font-family: MysticCards, serif;
+  font-size: 16px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#page-view {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+}

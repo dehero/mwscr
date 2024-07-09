@@ -1,6 +1,5 @@
 import {
   getPostContentDistance,
-  getPostEntriesFromSource,
   getPostTypesFromContent,
   mergePostContents,
   mergePostWith,
@@ -11,12 +10,12 @@ import type { StoreItem } from '../../core/entities/store.js';
 import { parseStoreResourceUrl, STORE_INBOX_DIR } from '../../core/entities/store.js';
 import { asArray, partition } from '../../core/utils/common-utils.js';
 import { createInboxItemId, inbox } from '../data-managers/posts.js';
-import { store } from '../stores/index.js';
+import { storeManager } from '../store-managers/index.js';
 
 export async function importStoreInbox() {
   console.group(`Importing inbox from store...`);
 
-  const items = await store.readdir(STORE_INBOX_DIR);
+  const items = await storeManager.readdir(STORE_INBOX_DIR);
 
   try {
     await importNewItems(items);
@@ -38,7 +37,7 @@ export async function importStoreInbox() {
 }
 
 async function importNewItems(items: StoreItem[]) {
-  const inboxItems = await getPostEntriesFromSource(inbox.getAllPosts);
+  const inboxEntries = await inbox.getAllEntries(true);
   let addedItems = 0;
 
   for (const item of items) {
@@ -51,7 +50,7 @@ async function importNewItems(items: StoreItem[]) {
       continue;
     }
 
-    const { distance } = getPostContentDistance(item.url, inboxItems);
+    const { distance } = getPostContentDistance(item.url, inboxEntries);
     if (distance !== Infinity) {
       continue;
     }
@@ -70,20 +69,20 @@ async function importNewItems(items: StoreItem[]) {
     let id;
 
     if (originalUrl) {
-      ({ id } = getPostContentDistance(originalUrl, inboxItems));
+      ({ id } = getPostContentDistance(originalUrl, inboxEntries));
     }
 
     if (!id) {
       id = createInboxItemId(author, date, key);
     }
 
-    const inboxItem = await inbox.getPost(id);
+    const inboxItem = await inbox.getItem(id);
 
     if (inboxItem) {
       mergePostWith(inboxItem, draft);
-      await inbox.updatePost(id);
+      await inbox.updateItem(id);
     } else {
-      await inbox.addPost(id, draft);
+      await inbox.addItem(draft, id);
     }
 
     console.info(`Imported new inbox item "${item.url}" to "${id}".`);
@@ -99,7 +98,7 @@ async function moveDeletedItemsToTrash(items: StoreItem[]) {
   const storeUrls = new Set(items.map(({ url }) => url));
   let processedItems = 0;
 
-  for await (const [id, item] of inbox.getAllPosts()) {
+  for await (const [id, item] of inbox.readAllEntries()) {
     if (!item.content || item.content.length === 0) {
       continue;
     }
@@ -112,7 +111,7 @@ async function moveDeletedItemsToTrash(items: StoreItem[]) {
     if (content.length === 0 && !item.request) {
       item.mark = 'D';
 
-      await inbox.updatePost(id);
+      await inbox.updateItem(id);
 
       console.info(`Rejected inbox item "${id}".`);
       processedItems++;
@@ -120,7 +119,7 @@ async function moveDeletedItemsToTrash(items: StoreItem[]) {
       item.content = mergePostContents(content);
       item.trash = mergePostContents(item.trash, trash);
 
-      await inbox.updatePost(id);
+      await inbox.updateItem(id);
 
       console.info(`Moved "${trash.join('", "')}" to trash for inbox item "${id}".`);
       processedItems++;
