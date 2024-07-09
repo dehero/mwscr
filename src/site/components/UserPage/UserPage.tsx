@@ -103,7 +103,7 @@ export const UserPage: Component = () => {
                   {
                     label: 'Pending',
                     value: userInfo().authored.pending,
-                    link: postsRoute.createUrl({ managerName: 'index', author: id() }),
+                    link: postsRoute.createUrl({ managerName: 'inbox', author: id() }),
                   },
                   {
                     label: 'Rejected',
