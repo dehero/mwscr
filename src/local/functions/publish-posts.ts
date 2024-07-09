@@ -2,7 +2,7 @@ import type { Post, PostEntries, PostEntry } from '../../core/entities/post.js';
 import { comparePostEntriesById, getPostEntriesFromSource } from '../../core/entities/post.js';
 import type { PublishablePost } from '../../core/entities/post-variation.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
-import { getDaysPassed } from '../../core/utils/date-utils.js';
+import { getDaysPassed, getHoursPassed } from '../../core/utils/date-utils.js';
 import { published } from '../data-managers/posts.js';
 import { postingServiceManagers } from '../posting-service-managers/index.js';
 
@@ -57,8 +57,16 @@ async function findFirstUnpublishedServicePostEntry(
   let result: PostEntry<PublishablePost> | undefined;
 
   for (const entry of publishablePostEntries) {
-    // Treat service post as already published for 7 days
-    if (entry[1].posts?.some((post) => post.service === service.id && getDaysPassed(post.published) <= 7)) {
+    // Treat service post as already published for 30 days
+    // TODO: fix for publishing gap more than 30 days
+    const lastPublishedPost = entry[1].posts?.find(
+      (post) => post.service === service.id && getDaysPassed(post.published) <= 30,
+    );
+    if (lastPublishedPost) {
+      // Do not publish too often
+      if (getHoursPassed(lastPublishedPost.published) < 8) {
+        return undefined;
+      }
       break;
     }
     result = entry;
