@@ -1037,7 +1037,7 @@
     - service: vk
       id: 1531
       published: 2024-05-13-18-17-48
-      updated: 2024-07-01-23-15-08
+      updated: 2024-07-09-01-07-36
       followers: 915
       likes: 35
       views: 244
@@ -1045,10 +1045,10 @@
     - service: tg
       id: 407
       published: 2024-05-13-18-17-54
-      updated: 2024-07-01-23-15-07
+      updated: 2024-07-09-01-07-34
       followers: 370
       likes: 61
-      views: 385
+      views: 395
       comments: !c |-
         iz6AkZTLQnj3MuobgACpR2F0ZW1hdGU3vWhvdyBkbyBpIHN1Ym1pdCBhIHNjcmVlbnNob3Q/k8tC
         ePcy8qcAAKVtd3Njctk5aHR0cHM6Ly9naXRodWIuY29tL2RlaGVyby9td3Njci9ibG9iL21haW4v
@@ -5969,21 +5969,22 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2024-07-08-23-14-48
+      updated: 2024-07-09-01-07-32
       followers: 919
-      likes: 10
-      views: 84
+      likes: 12
+      views: 88
       reposts: 2
       comments: !c |-
-        iySAkZPLQnkJPnfSAACmcDQwamxh2TY3INC70LXRgiDRjdGC0L7QvNGDINGE0L7RgtC+INC40YHQ
-        v9C+0LvQvdC40LvQvtGB0YwuLi4D
+        G7QA4C0KbGcXycJOZ9o5lOp9UMWmKIkrXTicR2ExrgmPamn1GZ+2Fz2ZGowmiKKY/plm02V2d9kq
+        gS3DyrJ1cqoHgD/AINE+D8BLcxt7T12CCFHduv6VtegvzlBpXrZ5PT4MHMl7z0Vkxbjz5MIdE3Vp
+        mqJbmQdnnOFIvCrV6qbp2UGLcdBz554YHjeMK08sdlkxlx4TdNxEjS1H4VG/0hQ=
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2024-07-08-23-14-49
+      updated: 2024-07-09-01-07-32
       followers: 395
-      likes: 34
-      views: 78
+      likes: 36
+      views: 84
 2017-07-08.saint-sotha:
   title: Saint Sotha
   titleRu: Святой Сота
@@ -8063,18 +8064,18 @@
     - service: vk
       id: 1548
       published: 2024-05-27-18-19-06
-      updated: 2024-07-01-23-15-07
+      updated: 2024-07-09-01-07-34
       followers: 918
       likes: 35
-      views: 249
+      views: 250
       comments: !c ixaAkZPLQnj7tpQ0gACmamVybW9yu9Cf0LDQsNGA0LjRgiDQstGL0YHQsNC60L7QvgM=
     - service: tg
       id: 421
       published: 2024-05-27-18-19-15
-      updated: 2024-07-01-23-15-06
+      updated: 2024-07-09-01-07-34
       followers: 377
       likes: 64
-      views: 444
+      views: 457
       comments: !c |-
         CxyAkpPLQnj8Xwd/AACraGVhcnRfZm9ybXOk8J+RipPLQnj8XwUOAACraGVhcnRfZm9ybXOmRmln
         aHQhAw==
@@ -9717,17 +9718,17 @@
     - service: vk
       id: 1477
       published: 2024-04-01-18-10-59
-      updated: 2024-07-02-01-06-54
+      updated: 2024-07-09-01-07-39
       followers: 906
       likes: 33
       views: 305
     - service: tg
       id: 364
       published: 2024-04-01-18-11-06
-      updated: 2024-07-02-01-06-52
+      updated: 2024-07-09-01-07-37
       followers: 354
       likes: 60
-      views: 433
+      views: 438
       comments: !c CxOAkZPLQnjps+/8gACoQWVsbGFyaWGyVmVsZGlnIGZpbnQgYmlsZGUhAw==
 2017-11-19.bottle-collection:
   title: Bottle Collection
@@ -10283,16 +10284,16 @@
     - service: vk
       id: 1621
       published: 2024-07-07-18-18-57
-      updated: 2024-07-08-23-14-49
+      updated: 2024-07-09-01-07-32
       followers: 919
       likes: 30
       views: 163
     - service: tg
       id: 462
       published: 2024-07-07-18-19-06
-      updated: 2024-07-08-23-14-50
+      updated: 2024-07-09-01-07-33
       followers: 393
-      likes: 42
+      likes: 44
       views: 132
 2017-12-08.lower-circle:
   title: Lower Circle
