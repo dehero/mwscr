@@ -1,11 +1,14 @@
 import clsx from 'clsx';
-import { type Component, For, type JSX, Show, splitProps } from 'solid-js';
+import { type Component, For, type JSX, Show } from 'solid-js';
+import { Dynamic } from 'solid-js/web';
 import { formatDate } from '../../../core/utils/date-utils.js';
 import styles from './Table.module.css';
 
+type TableValue = string | number | Date | (() => JSX.Element) | undefined;
+
 export interface TableRow {
   label?: string;
-  value?: string | number | Date | (() => JSX.Element);
+  value?: TableValue;
   link?: string;
 }
 
@@ -15,57 +18,60 @@ interface TableProps extends TableRow {
   lightLabels?: boolean;
 }
 
-function valueToString(value: string | number | Date | undefined): string {
+function renderValue(value: TableValue) {
+  if (typeof value === 'function') {
+    return value();
+  }
   if (value instanceof Date) {
     return formatDate(value);
   }
+
   return value?.toString() || '';
 }
 
 export const Table: Component<TableProps> = (props) => {
-  const [local, rest] = splitProps(props, ['class', 'rows', 'label', 'value', 'lightLabels', 'link']);
-  const rows = () => local.rows.filter((row) => row.value);
+  const rows = () => props.rows.filter((row) => row.value);
 
   return (
-    <table class={clsx(styles.table, local.class)} {...rest}>
-      <Show when={local.label || local.value}>
-        <thead class={styles.header}>
-          <tr>
-            <th class={styles.label}>{local.label}</th>
-            <th class={styles.value}>
-              <Show
-                when={local.link}
-                fallback={typeof local.value === 'function' ? local.value() : valueToString(local.value)}
-              >
-                <a href={local.link} class={styles.link}>
-                  {typeof local.value === 'function' ? local.value() : valueToString(local.value)}
-                </a>
-              </Show>
-            </th>
-          </tr>
-        </thead>
+    <div class={clsx(styles.table, props.class)} role="table">
+      <Show when={props.label || props.value}>
+        <div class={styles.header} role="rowgroup">
+          <Dynamic
+            component={props.link ? 'a' : 'tr'}
+            href={props.link}
+            class={clsx(styles.row, props.link && styles.link)}
+            role="row"
+          >
+            <div class={styles.label} role="columnheader">
+              {props.label}
+            </div>
+            <div class={styles.value} role="columnheader">
+              {renderValue(props.value)}
+            </div>
+          </Dynamic>
+        </div>
       </Show>
       <Show when={rows().length > 0}>
-        <tbody>
+        <div class={styles.body} role="rowgroup">
           <For each={rows()}>
             {(row) => (
-              <tr>
-                <td class={clsx(styles.label, local.lightLabels && styles.lightLabel)}>{row.label}</td>
-                <td class={styles.value}>
-                  <Show
-                    when={row.link}
-                    fallback={typeof row.value === 'function' ? row.value() : valueToString(row.value)}
-                  >
-                    <a href={row.link} class={styles.link}>
-                      {typeof row.value === 'function' ? row.value() : valueToString(row.value)}
-                    </a>
-                  </Show>
-                </td>
-              </tr>
+              <Dynamic
+                component={row.link ? 'a' : 'tr'}
+                href={row.link}
+                class={clsx(styles.row, row.link && styles.link)}
+                role="row"
+              >
+                <div class={clsx(styles.label, props.lightLabels && styles.lightLabel)} role="cell">
+                  {row.label}
+                </div>
+                <div class={styles.value} role="cell">
+                  {renderValue(row.value)}
+                </div>
+              </Dynamic>
             )}
           </For>
-        </tbody>
+        </div>
       </Show>
-    </table>
+    </div>
   );
 };

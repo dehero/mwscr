@@ -117,8 +117,16 @@ export const HomePage: Component = () => {
           label="Contributors"
           link={usersRoute.createUrl({})}
           rows={[
-            { label: 'Authors', value: authorCount, link: usersRoute.createUrl({ role: 'author' }) },
-            { label: 'Requesters', value: requesterCount, link: usersRoute.createUrl({ role: 'requester' }) },
+            {
+              label: 'Authors',
+              value: authorCount,
+              link: usersRoute.createUrl({ role: 'author', sort: 'contribution,desc' }),
+            },
+            {
+              label: 'Requesters',
+              value: requesterCount,
+              link: usersRoute.createUrl({ role: 'requester', sort: 'contribution,desc' }),
+            },
           ]}
         />
       </Frame>
