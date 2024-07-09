@@ -5969,10 +5969,10 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2024-07-09-14-13-56
+      updated: 2024-07-09-15-15-53
       followers: 919
       likes: 18
-      views: 139
+      views: 141
       reposts: 2
       comments: !c |-
         GwcBKJwHtg1rG44r7Dz5IIUTwT912mrEdjyzGks8IqVeraIF+KgCHUh9/2x1bi0aWmUzJZVvAP6A
@@ -5982,7 +5982,7 @@
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2024-07-09-14-13-57
+      updated: 2024-07-09-15-15-53
       followers: 395
       likes: 43
       views: 117
@@ -9529,7 +9529,10 @@
       id: C9NHQl1t7nN
       mediaId: '18003207311373105'
       published: 2024-07-09-14-14-09
+      updated: 2024-07-09-15-15-52
       followers: 1421
+      likes: 13
+      views: 49
 2017-11-13.three-guars-at-the-crossroads:
   title: Three Guars at the Crossroads
   titleRu: Три гуара на распутье
@@ -10290,14 +10293,18 @@
     - service: vk
       id: 1621
       published: 2024-07-07-18-18-57
-      updated: 2024-07-09-14-13-57
+      updated: 2024-07-09-15-15-54
       followers: 919
       likes: 30
       views: 171
+      comments: !c |-
+        G60A4B0Hdiyz8PBedh9P7CdbXWlHHz8umbqgDmzCQGEliiWbkuVd1G36nGcVGsKW6cme82sX3GwC
+        L2ADTsQDogB3nga8P68YzcH78+Mxx50wfW+Py348z6/tet/2/4tQO44t+bIexT4wgJ1uPKw4jrN+
+        PkG9RIZ9gQ7VFqOw6ZRM0KoCbICMMQA=
     - service: tg
       id: 462
       published: 2024-07-07-18-19-06
-      updated: 2024-07-09-14-13-57
+      updated: 2024-07-09-15-15-54
       followers: 393
       likes: 45
       views: 146
