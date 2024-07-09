@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.0](https://github.com/dehero/mwscr/compare/v1.3.1...v1.4.0) (2024-07-09)
+
+### Features
+
+- **site:** implement project's site ([#61](https://github.com/dehero/mwscr/issues/61))
+  ([286e271](https://github.com/dehero/mwscr/commit/286e271196fc784c7a2885b1f276aeb46409d246))
+
 ## [1.3.1](https://github.com/dehero/mwscr/compare/v1.3.0...v1.3.1) (2024-07-09)
 
 ### Bug Fixes
