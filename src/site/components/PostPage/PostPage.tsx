@@ -10,7 +10,7 @@ import {
   getPostTotalLikes,
   getPostTotalViews,
 } from '../../../core/entities/post.js';
-import { isPublishablePost, isTrashItem } from '../../../core/entities/post-variation.js';
+import { isPostDraft, isPublishablePost, isTrashItem } from '../../../core/entities/post-variation.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import type { UserEntry } from '../../../core/entities/user.js';
 import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/user.js';
@@ -70,7 +70,7 @@ export const PostPage: Component = () => {
   const alt = () => data.post?.tags?.join(' ');
   const publishableErrors = () => {
     const errors: string[] = [];
-    if (data.post && !isTrashItem(data.post)) {
+    if (data.post && isPostDraft(data.post) && !isTrashItem(data.post)) {
       isPublishablePost(data.post, errors);
     }
 

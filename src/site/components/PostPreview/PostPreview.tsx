@@ -81,7 +81,15 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
                 <span class={styles.rating}>{props.postInfo.rating}</span>
               </Show>
 
-              <Show when={props.postInfo.mark || props.postInfo.violation || authorLetters().length > 0}>
+              <Show
+                when={
+                  authorLetters().length > 0 ||
+                  requesterLetter() ||
+                  props.postInfo.mark ||
+                  props.postInfo.violation ||
+                  props.postInfo.publishableErrors
+                }
+              >
                 <Frame class={styles.icons}>
                   <For each={authorLetters()}>
                     {(letter) => (
