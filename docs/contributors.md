@@ -6,13 +6,12 @@
 
 ### dehero
 
-[VK](https://vk.com/dehero), [Telegram](https://t.me/deherole), [GitHub](https://github.com/dehero)
+[VK](https://vk.com/dehero), [Telegram](https://t.me/deherole), [GitHub](https://github.com/dehero), [E-mail](mailto:dehero@outlook.com)
 
 Roles: `admin` `author` `requester`  
-Authored: 999 published, 17 pending, 62 rejected  
+Authored: 920 published, 17 pending, 62 rejected  
 Requested: 6 pending  
-Types: `shot` `shot-set` `video` `clip` `drawing`  
-Likes: 143360  
+Likes: 123061  
 
 ```
 dehero
@@ -22,7 +21,6 @@ dehero
 
 Roles: `author`  
 Authored: 32 published, 28 pending, 7 rejected  
-Types: `shot`  
 Likes: 6288  
 
 ```
@@ -35,7 +33,6 @@ natty
 
 Roles: `author`  
 Authored: 9 published, 1 pending, 13 rejected  
-Types: `shot`  
 Likes: 2483  
 
 ```
@@ -48,7 +45,6 @@ darkness-rifho
 
 Roles: `author` `drawer`  
 Authored: 3 published  
-Types: `drawing`  
 Likes: 632  
 
 ```
@@ -61,7 +57,6 @@ knives-out
 
 Roles: `author` `drawer`  
 Authored: 1 published, 3 pending  
-Types: `drawing`  
 Likes: 239  
 
 ```
@@ -81,17 +76,6 @@ Requested: 3 published, 1 pending, 1 rejected
 buck-the-cuck
 ```
 
-### Владимир
-
-[VK](https://vk.com/id172608176)
-
-Roles: `requester`  
-Requested: 1 published  
-
-```
-id172608176
-```
-
 ### Макс Лис
 
 [VK](https://vk.com/i_love_the_night)
@@ -101,6 +85,17 @@ Requested: 1 published
 
 ```
 i-love-the-night
+```
+
+### Владимир
+
+[VK](https://vk.com/id172608176)
+
+Roles: `requester`  
+Requested: 1 published  
+
+```
+id172608176
 ```
 
 ### Luke Gordon

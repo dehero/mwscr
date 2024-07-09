@@ -13,7 +13,7 @@
 `shot` by [Vladyslav Zhuk](../contributors.md#vladyslav-zhuk)
 
 > [!CAUTION]
-> JPEG artifacts.
+> [object Object].
 
 [`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=vladyslav-zhuk.2024-05-20-d3c543d1&amp;postContent=store%3A%2Ftrash%2Fvladyslav-zhuk.2024-05-20-d3c543d1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=vladyslav-zhuk&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=jpeg-artifacts&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=vladyslav-zhuk.2024-05-20-d3c543d1) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=vladyslav-zhuk.2024-05-20-d3c543d1) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=vladyslav-zhuk.2024-05-20-d3c543d1)</code>
 
@@ -28,7 +28,7 @@ vladyslav-zhuk.2024-05-20-d3c543d1
 `shot` by [Vladyslav Zhuk](../contributors.md#vladyslav-zhuk)
 
 > [!CAUTION]
-> JPEG artifacts.
+> [object Object].
 
 [`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=vladyslav-zhuk.2024-05-20-90ebbbeb&amp;postContent=store%3A%2Ftrash%2Fvladyslav-zhuk.2024-05-20-90ebbbeb.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=vladyslav-zhuk&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=jpeg-artifacts&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=vladyslav-zhuk.2024-05-20-90ebbbeb) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=vladyslav-zhuk.2024-05-20-90ebbbeb) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=vladyslav-zhuk.2024-05-20-90ebbbeb)</code>
 
@@ -43,7 +43,7 @@ vladyslav-zhuk.2024-05-20-90ebbbeb
 `shot` by [Vladyslav Zhuk](../contributors.md#vladyslav-zhuk)
 
 > [!CAUTION]
-> JPEG artifacts.
+> [object Object].
 
 [`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=vladyslav-zhuk.2024-05-20-715f7a34&amp;postContent=store%3A%2Ftrash%2Fvladyslav-zhuk.2024-05-20-715f7a34.png&amp;postTitle=Daedric+Chaos&amp;postTitleRu=&amp;postAuthor=vladyslav-zhuk&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=jpeg-artifacts&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=vladyslav-zhuk.2024-05-20-715f7a34) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=vladyslav-zhuk.2024-05-20-715f7a34) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=vladyslav-zhuk.2024-05-20-715f7a34)</code>
 
@@ -58,7 +58,7 @@ vladyslav-zhuk.2024-05-20-715f7a34
 `shot` by [Vladyslav Zhuk](../contributors.md#vladyslav-zhuk)
 
 > [!CAUTION]
-> JPEG artifacts.
+> [object Object].
 
 [`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=vladyslav-zhuk.2024-05-20-4039c778&amp;postContent=store%3A%2Ftrash%2Fvladyslav-zhuk.2024-05-20-4039c778.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=vladyslav-zhuk&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=jpeg-artifacts&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=vladyslav-zhuk.2024-05-20-4039c778) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=vladyslav-zhuk.2024-05-20-4039c778) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=vladyslav-zhuk.2024-05-20-4039c778)</code>
 
@@ -116,7 +116,7 @@ natty.2024-03-10-16-20-08
 `shot` by [Natty](../contributors.md#natty)
 
 > [!CAUTION]
-> Graphic issues.
+> [object Object].
 
 [`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-16-09-50&amp;postContent=store%3A%2Ftrash%2Fnatty.2024-03-10-16-09-50.png%0Astore%3A%2Ftrash%2Fnatty.2024-03-10-16-09-52.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=graphic-issues&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-16-09-50) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-16-09-50) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-16-09-50)</code>
 

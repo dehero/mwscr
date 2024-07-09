@@ -90,8 +90,8 @@
 #### Comments
 
 - `tg` <ins title="2022-07-11-19-31-37">deleted</ins> Интересно, а почему на пассажиров во время поездки на силт страйдере, не нападают  птеродактели )
-  - <ins title="2023-06-26-16-12-50">resist_it</ins> А кто сказал, что не нападают? 🤔
   - <ins title="2022-07-11-19-35-32">abandonreason</ins> Мб блоха отмахивается от них передними лапами
+  - <ins title="2023-06-26-16-12-50">resist_it</ins> А кто сказал, что не нападают? 🤔
 - `ig` <ins title="2022-07-11-19-44-23">m_salashchenko</ins> 😻😻😻
 - `ig` <ins title="2022-07-11-19-46-04">wolvtongue</ins> Make OpenMW great again
 - `ig` <ins title="2022-07-11-19-55-29">chris.gruchacz</ins> Why walk when you could ride?
@@ -125,10 +125,10 @@
 #### Comments
 
 - `ig` <ins title="2022-08-20-16-58-14">angelpeepee__</ins> More post please
-  - <ins title="2023-03-30-08-10-45">xavierrbird</ins> @mwscr yayy ❤️❤️
-  - <ins title="2023-03-29-05-02-40">mwscr</ins> @xavierrbird Sorry :( But I&#39;ll return, I hope pretty soon
-  - <ins title="2023-03-15-11-17-09">xavierrbird</ins> @mwscr :(
   - <ins title="2022-08-21-10-50-48">mwscr</ins> Sure, in a couple of days
+  - <ins title="2023-03-15-11-17-09">xavierrbird</ins> @mwscr :(
+  - <ins title="2023-03-29-05-02-40">mwscr</ins> @xavierrbird Sorry :( But I&#39;ll return, I hope pretty soon
+  - <ins title="2023-03-30-08-10-45">xavierrbird</ins> @mwscr yayy ❤️❤️
 - `tg` <ins title="2022-10-10-12-58-41">deleted</ins> 🦎
 - `tg` <ins title="2022-10-10-12-58-54">deleted</ins> Кэээех *невнятный звук*
 - `tg` <ins title="2022-10-10-12-59-11">deleted</ins> *звуки музыки*
@@ -217,8 +217,8 @@
   - <ins title="2021-09-19-04-51-56">mwscr</ins> Planned
 - `vk` <ins title="2021-09-25-18-31-52">soulilight</ins> Ждём нового контента:3
 - `tg` <ins title="2021-10-12-12-50-42">NoeldWizard</ins> каналу гг?
-  - <ins title="2021-10-12-13-00-45">LuluZero</ins> https://t.me/TES3MPChat
   - <ins title="2021-10-12-13-00-38">LuluZero</ins> заходи к нам
+  - <ins title="2021-10-12-13-00-45">LuluZero</ins> https://t.me/TES3MPChat
 - `tg` <ins title="2021-11-30-14-55-35">Redoranar</ins> https://t.me/MorrowindTelegram
 - `vk` <ins title="2021-12-05-09-52-22">id347018094</ins> Очень красивые скриншоты, у вас есть вкус
   - <ins title="2021-12-05-11-55-59">mwscr</ins> Анастасия, спасибо!
@@ -398,8 +398,8 @@
 - `ig` <ins title="2022-06-24-21-01-08">m_salashchenko</ins> 😻😻😻
 - `ig` <ins title="2022-06-25-04-47-05">quantd7709</ins> chill town
 - `tg` <ins title="2024-01-25-05-42-07">annodart</ins> I love this channel, makes me so nostalgic 😪
-  - <ins title="2024-01-25-10-08-34">ansis</ins> .
   - <ins title="2024-01-25-05-43-51">Gatemate7</ins> bro... :(
+  - <ins title="2024-01-25-10-08-34">ansis</ins> .
 
 ## <span id="2020-11-09.erna-the-quiets-house">Erna the Quiet&#39;s House</span>
 
@@ -492,12 +492,12 @@
 
 - `tg` <ins title="2020-11-03-00-01-22">Alberto</ins> Nice reflection!
 - `ig` <ins title="2020-11-03-05-47-04">insta.grus</ins> hey, that&#39;s not the original morrowind pixelshader water! where do i complain to get my money back?
-  - <ins title="2020-11-03-06-25-27">mwscr</ins> Maybe I should make a post called Old Water in future 🙂
-  - <ins title="2020-11-03-06-05-25">insta.grus</ins> @mwscr i really like the openmw water shader, but there&#39;s few things that make me as nostalgic as the old mw water
   - <ins title="2020-11-03-06-03-39">mwscr</ins> This is water shader from OpenMW engine and I&#39;m ok with it. Doesn&#39;t spoil vanilla spirit as for me.
+  - <ins title="2020-11-03-06-05-25">insta.grus</ins> @mwscr i really like the openmw water shader, but there&#39;s few things that make me as nostalgic as the old mw water
+  - <ins title="2020-11-03-06-25-27">mwscr</ins> Maybe I should make a post called Old Water in future 🙂
 - `tg` <ins title="2020-11-05-01-59-11">Johnny Veretti</ins> Which mod gives such detailed reflections? I thought you only post vanilla screenshots
-  - <ins title="2020-11-05-17-24-34">mwscr</ins> I use OpenMW engine to make screenshots. You see default water shader from this engine.
   - <ins title="2020-11-05-08-08-50">CJ3795</ins> I know morrowind graphics extender did that. It also increason the render distabce a lot.
+  - <ins title="2020-11-05-17-24-34">mwscr</ins> I use OpenMW engine to make screenshots. You see default water shader from this engine.
 - `vk` <ins title="2020-11-09-08-31-05">id4936513</ins> ❤
 
 ## <span id="2022-07-29.sunset-cypresses">Sunset Cypresses</span>
@@ -756,10 +756,10 @@
 #### Comments
 
 - `tg` <ins title="2022-07-13-20-42-24">martosinc</ins> Ребят, я сейчас кое-что пилю для морровинда, и мне нужна информация. Скажите, вы играете в мроовинд на русском или английском языке?
-  - <ins title="2022-07-14-18-47-40">ranead</ins> На английском. Чего пилишь?)
-  - <ins title="2022-07-14-04-49-02">alex_emsow</ins> Больше на русском, но первый раз на английском, году в 2003.
-  - <ins title="2022-07-13-20-48-28">riovent</ins> На русском
   - <ins title="2022-07-13-20-43-29">Russian_Belomor</ins> На русском. Как и большинство игроков, в принципе.
+  - <ins title="2022-07-13-20-48-28">riovent</ins> На русском
+  - <ins title="2022-07-14-04-49-02">alex_emsow</ins> Больше на русском, но первый раз на английском, году в 2003.
+  - <ins title="2022-07-14-18-47-40">ranead</ins> На английском. Чего пилишь?)
 - `tg` <ins title="2022-07-13-20-43-23">mwscr</ins> my home
 - `vk` <ins title="2022-07-13-21-36-29">pkellerman</ins> Почему так атмосферно?
 - `ig` <ins title="2022-07-19-20-23-04">theknightofflowers</ins> Brilliant👏
@@ -1170,8 +1170,8 @@
 #### Comments
 
 - `tg` <ins title="2022-07-28-08-19-37">deleted</ins> Я бы к этим ребят не подходил, выглядят слишком подозрительно
-  - <ins title="2022-07-28-22-01-48">heart_forms</ins> Так а как он тогда сфоткал
   - <ins title="2022-07-28-08-40-15">trupach</ins> Если я правильно узнал, то они правда атакуют при приближении
+  - <ins title="2022-07-28-22-01-48">heart_forms</ins> Так а как он тогда сфоткал
 - `tg` <ins title="2022-07-29-06-12-58">Sebulba518</ins> HESOYAM
 
 ## <span id="2020-11-05.night-pasture">Night Pasture</span>
@@ -1431,8 +1431,8 @@
 - `tg` <ins title="2024-02-27-20-56-06">quintus_fabius</ins> We&#39;re so back
   - <ins title="2024-02-27-20-58-08">ansis</ins> .
 - `ig` <ins title="2024-02-27-22-46-56">yoshi_23ii</ins> What happened to these creatures in the next games?
-  - <ins title="2024-02-27-23-49-37">yoshi_23ii</ins> @jaymescallen I think there&#39;s some in ESO
   - <ins title="2024-02-27-23-48-53">jaymescallen</ins> Daedroths were in Oblivion but not Skyrim.
+  - <ins title="2024-02-27-23-49-37">yoshi_23ii</ins> @jaymescallen I think there&#39;s some in ESO
 - `ig` <ins title="2024-02-27-23-28-32">swekg</ins> Me when it’s raining
 - `vk` <ins title="2024-02-28-06-48-12">vladkr114</ins> Эх😔
 - `ig` <ins title="2024-02-29-19-40-42">angelpeepee__</ins> Incredibke
@@ -1499,8 +1499,8 @@
 - `tg` <ins title="2024-06-16-19-36-31">Aellaria</ins> А где это?
   - <ins title="2024-06-16-21-00-35">mwscr</ins> Островок севернее Хуула, насколько я помню
 - `ig` <ins title="2024-06-16-20-33-25">delanospies</ins> Location?
-  - <ins title="2024-06-16-21-55-21">delanospies</ins> @mwscr amazing thanks!
   - <ins title="2024-06-16-20-59-15">mwscr</ins> Some island north of Khuul as I can remember
+  - <ins title="2024-06-16-21-55-21">delanospies</ins> @mwscr amazing thanks!
 
 ## <span id="2023-08-09.night-on-suran-square">Night on Suran Square</span>
 

@@ -29,8 +29,8 @@
 | [`ig`](https://instagram.com/p/BWPUM15j2T1/)       | 2017-07-07 |       |    71 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_345)  | 2017-07-07 |   112 |     7 |        66 |      7 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1622) | 2024-07-08 |   124 |    16 |       919 |   1.74 |
-| [`tg`](https://t.me/mwscr/463)                     | 2024-07-08 |   110 |    42 |       395 |  10.63 |
-|                                                    |            |   346 |   136 |      1314 |   6.46 |
+| [`tg`](https://t.me/mwscr/463)                     | 2024-07-08 |   112 |    43 |       395 |  10.89 |
+|                                                    |            |   348 |   137 |      1314 |   6.54 |
 
 #### Comments
 
@@ -60,9 +60,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BcaYUeUjTFx/)       | 2017-12-07 |       |    99 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_526)  | 2017-12-07 |   177 |    20 |       106 |  18.87 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1621) | 2024-07-07 |   165 |    30 |       919 |   3.26 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1621) | 2024-07-07 |   166 |    30 |       919 |   3.26 |
 | [`tg`](https://t.me/mwscr/462)                     | 2024-07-07 |   143 |    45 |       393 |  11.45 |
-|                                                    |            |   485 |   194 |      1312 |  11.19 |
+|                                                    |            |   486 |   194 |      1312 |  11.19 |
 
 ## <span id="2024-07-06.docks-of-ald-velothi">Docks of Ald Velothi</span>
 
@@ -286,8 +286,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_765)  | 2018-06-13 |   346 |    20 |       173 |  11.56 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1608) | 2024-06-29 |   284 |    33 |       918 |   3.59 |
 | [`tg`](https://t.me/mwscr/454)                     | 2024-06-29 |   380 |    53 |       388 |  13.66 |
-| [`ig`](https://instagram.com/p/C9MOc3uo650/)       | 2024-07-09 |   181 |    56 |      1421 |   3.94 |
-|                                                    |            |  1191 |   281 |      2727 |   8.19 |
+| [`ig`](https://instagram.com/p/C9MOc3uo650/)       | 2024-07-09 |   195 |    59 |      1421 |   4.15 |
+|                                                    |            |  1205 |   284 |      2727 |   8.24 |
 
 #### Comments
 
@@ -353,8 +353,8 @@
 #### Comments
 
 - `ig` <ins title="2024-06-28-19-33-21">delanospies</ins> @dravenjv when did they put youre house in the game?
-  - <ins title="2024-06-28-20-22-13">delanospies</ins> @dravenjv let me guess....you &#39;found&#39; another skeleton of a dunmer &#39;specimen&#39;?
   - <ins title="2024-06-28-19-35-27">dravenjv</ins> make yourself comfortable man, just don&#39;t check out what&#39;s on the back of the post right there in the middle
+  - <ins title="2024-06-28-20-22-13">delanospies</ins> @dravenjv let me guess....you &#39;found&#39; another skeleton of a dunmer &#39;specimen&#39;?
 
 ## <span id="2024-06-26.in-an-ice-cave">In an Ice Cave</span>
 
@@ -740,8 +740,8 @@
 - `tg` <ins title="2024-06-16-19-36-31">Aellaria</ins> А где это?
   - <ins title="2024-06-16-21-00-35">mwscr</ins> Островок севернее Хуула, насколько я помню
 - `ig` <ins title="2024-06-16-20-33-25">delanospies</ins> Location?
-  - <ins title="2024-06-16-21-55-21">delanospies</ins> @mwscr amazing thanks!
   - <ins title="2024-06-16-20-59-15">mwscr</ins> Some island north of Khuul as I can remember
+  - <ins title="2024-06-16-21-55-21">delanospies</ins> @mwscr amazing thanks!
 
 ## <span id="2024-06-14.sleeping-silt-strider">Sleeping Silt Strider</span>
 
@@ -1102,9 +1102,9 @@
 
 - `tg` <ins title="2024-06-04-18-46-08">resist_it</ins> 🥺 это не слезы, это просто пепел прошедшей бури попал в глаза... 😭😭😭
 - `ig` <ins title="2024-06-04-20-45-04">someone_simple42</ins> Always loved that coast
-  - <ins title="2024-06-05-21-16-53">delanospies</ins> Very true my friend. They feel warm and make you want to stay haning around. Best region hands down. Not to mention they many tiny islands or shipwrecks to explore.
-  - <ins title="2024-06-05-03-53-03">someone_simple42</ins> @delanospies that&#39;s one of the best thing about that game, in my opinion
   - <ins title="2024-06-04-22-35-36">delanospies</ins> Facts. All these fishing villages are so cozy
+  - <ins title="2024-06-05-03-53-03">someone_simple42</ins> @delanospies that&#39;s one of the best thing about that game, in my opinion
+  - <ins title="2024-06-05-21-16-53">delanospies</ins> Very true my friend. They feel warm and make you want to stay haning around. Best region hands down. Not to mention they many tiny islands or shipwrecks to explore.
 - `vk` <ins title="2024-06-04-21-31-45">vasya_molch</ins> Ооо, оригинальный графон без модов, давненько же я его не видел!<br>Точнее, почти без модов.
 - `vk` <ins title="2024-06-05-09-40-24">demolition.atom</ins> С такой графой ваще беспалевно ништяки на дне валяются
 - `vk` <ins title="2024-06-05-13-14-54">club128574987</ins> Ччёрт, я всегда топил за ваниль, но вот это реально круто, что за моды?
@@ -1870,8 +1870,8 @@
 - `ig` <ins title="2017-09-06-14-40-11">sam.m.cooley</ins> Gotta get dat Sword of White Woe
 - `tg` <ins title="2024-05-11-18-44-43">stasyajoystick</ins> очень красиво
 - `ig` <ins title="2024-05-11-20-30-42">delanospies</ins> @dravenjv my type of spot
-  - <ins title="2024-05-11-20-47-16">delanospies</ins> @dravenjv ya feel me 🔥
   - <ins title="2024-05-11-20-36-37">dravenjv</ins> good to sit and ground yourself after a night at the house of earthly delights 🔥
+  - <ins title="2024-05-11-20-47-16">delanospies</ins> @dravenjv ya feel me 🔥
 - `ig` <ins title="2024-05-12-06-01-51">someone_simple42</ins> I just love lighting and sky in this game
 
 ## <span id="2024-05-10.after-the-repast">After the Repast</span>
@@ -2350,8 +2350,8 @@
 
 - `ig` <ins title="2024-04-26-10-04-46">boimaster28</ins> Kurt cobain&#39;s house
 - `tg` <ins title="2024-04-26-10-26-13">bobrovnikov</ins> What’s the name of that house?
-  - <ins title="2024-05-06-07-22-55">Sczakal</ins> The Abandoned Shack (предполагаю)
   - <ins title="2024-04-26-18-58-05">mwscr</ins> Sorry, the location of this screenshot still needs to be determined.
+  - <ins title="2024-05-06-07-22-55">Sczakal</ins> The Abandoned Shack (предполагаю)
 - `ig` <ins title="2024-04-26-14-05-00">vamurin</ins> 🔥🔥🔥
 
 ## <span id="2024-04-24.muckspunges-on-the-coast">Muckspunges on the Coast</span>
@@ -2487,8 +2487,8 @@
 - `tg` <ins title="2024-04-21-18-19-13">ansis</ins> what more could a man or mer (yech, or beast, i guess) need?
   - <ins title="2024-04-21-18-24-30">Gatemate7</ins> maybe bread? this game is do retarded sometimes
 - `ig` <ins title="2024-04-21-21-32-47">delanospies</ins> @dravenjv me rn
-  - <ins title="2024-04-21-22-18-37">delanospies</ins> @dravenjv bro...if you consume 5 bottles of skooma its enough for the night...
   - <ins title="2024-04-21-21-58-20">dravenjv</ins> what I see while sitting in a bathtub somewhere in khuul
+  - <ins title="2024-04-21-22-18-37">delanospies</ins> @dravenjv bro...if you consume 5 bottles of skooma its enough for the night...
 - `vk` <ins title="2024-04-21-22-45-35">artemius_galitzine</ins> После тяжёлого рабочего дня с целью согреть душу 😅✌🏻
 - `tg` <ins title="2024-04-22-13-20-45">Alexey Stepanov</ins> I don’t have much free time at work, but when I look at these photos, a certain warmth warms my soul
 
@@ -2581,8 +2581,8 @@
 
 - `tg` <ins title="2024-04-18-18-22-18">C4H6O4</ins> I don&#39;t cry, it&#39;s just tears. ❤️‍🔥
 - `tg` <ins title="2024-04-18-18-28-01">mwscr</ins> This screenshot started the history of this channel in 2016.
-  - <ins title="2024-04-18-20-20-35">Gatemate7</ins> it is 2024 and still no graphical mods
   - <ins title="2024-04-18-19-45-00">ansis</ins> it&#39;s one big gem of an archive
+  - <ins title="2024-04-18-20-20-35">Gatemate7</ins> it is 2024 and still no graphical mods
 - `vk` <ins title="2024-04-18-18-29-25">mwscr</ins> С этого скриншота началась история канала в 2016 году.
 - `ig` <ins title="2024-04-18-18-31-53">mwscr</ins> This screenshot started the history of this channel in 2016.
   - <ins title="2024-04-18-18-39-04">stevenbuitenhuis</ins> when a legend was born
@@ -2817,8 +2817,8 @@
 #### Comments
 
 - `ig` <ins title="2024-04-13-11-46-18">someone_simple42</ins> Nice. Who&#39;s Natty?
-  - <ins title="2024-04-13-17-13-24">someone_simple42</ins> @mwscr sounds cool. Best regards to Natty and everyone involved 🤜🤛
   - <ins title="2024-04-13-17-02-29">mwscr</ins> Natty is anonymous project author for now.
+  - <ins title="2024-04-13-17-13-24">someone_simple42</ins> @mwscr sounds cool. Best regards to Natty and everyone involved 🤜🤛
 
 ## <span id="2024-04-10.sun-mushrooms">Sun Mushrooms</span>
 
@@ -3180,8 +3180,8 @@
 #### Comments
 
 - `ig` <ins title="2024-03-30-23-18-23">delanospies</ins> @dravenjv you?
-  - <ins title="2024-03-30-23-35-37">delanospies</ins> @dravenjv i feel ya. Meet me in the House of earthly delights...
   - <ins title="2024-03-30-23-20-38">dravenjv</ins> can&#39;t get to sleep without my 36 lessons of vivec
+  - <ins title="2024-03-30-23-35-37">delanospies</ins> @dravenjv i feel ya. Meet me in the House of earthly delights...
 - `tg` <ins title="2024-03-31-05-59-06">heart_forms</ins> Можно оригинал в комменты? 🤲
   - <ins title="2024-03-31-06-01-52">mwscr</ins> 
 
@@ -3250,8 +3250,8 @@
 
 - `vk` <ins title="2017-02-08-20-47-34">id227500203</ins> Туман войны блин)
 - `ig` <ins title="2024-03-28-23-47-39">delanospies</ins> @dravenjv omw
-  - <ins title="2024-03-29-12-46-10">delanospies</ins> @dravenjv thats dangerous!!!
   - <ins title="2024-03-29-07-14-40">dravenjv</ins> careful brother..m there are 2 kwama foragers and a nix hound out there...
+  - <ins title="2024-03-29-12-46-10">delanospies</ins> @dravenjv thats dangerous!!!
 
 ## <span id="2024-03-27.evening-flight">Evening Flight</span>
 
@@ -3320,10 +3320,10 @@
 #### Comments
 
 - `ig` <ins title="2024-03-26-19-24-24">f0rb1dd3ngxd</ins> The beginning of the beginning
-  - <ins title="2024-03-28-10-56-31">delanospies</ins> FOOL! 😂
-  - <ins title="2024-03-27-13-10-35">someone_simple42</ins> @delanospies what a grand and intoxicating innocence
-  - <ins title="2024-03-27-13-09-48">someone_simple42</ins> @delanospies what a grand and intoxicating innocence
   - <ins title="2024-03-26-19-28-10">delanospies</ins> &#39;Ah yes we&#39;ve been expecting you, Dagoth Ur&#39;
+  - <ins title="2024-03-27-13-09-48">someone_simple42</ins> @delanospies what a grand and intoxicating innocence
+  - <ins title="2024-03-27-13-10-35">someone_simple42</ins> @delanospies what a grand and intoxicating innocence
+  - <ins title="2024-03-28-10-56-31">delanospies</ins> FOOL! 😂
 - `tg` <ins title="2024-03-26-22-53-39">bobrovnikov</ins> What if we kissed… in the Andrano Ancestral Tomb 🥵
 - `tg` <ins title="2024-03-27-06-13-31">Alexey Stepanov</ins> I&#39;m crying with a smile on my face
 - `tg` <ins title="2024-05-18-06-51-36">FeroniaFelix</ins> An italian &quot;girl&quot; here too... 👋🏻😊<br>(not really a girl though, I am old! I played Morrowind for the first time when it came out and I wasn&#39;t already a &quot;girl&quot; then... 😂 But I enjoyed it like a child, it was absolutely GREAT and I still love it 🥰 )
@@ -3398,8 +3398,8 @@
 - `vk` <ins title="2018-05-10-17-25-50">dropnz</ins> Красиво. Я бы вступил в их культ из-за такого красивого освещения
 - `tg` <ins title="2024-03-24-18-21-06">bobrovnikov</ins> 🕯
 - `ig` <ins title="2024-03-24-21-10-50">delanospies</ins> @dravenjv youre hideout?
-  - <ins title="2024-03-24-21-28-16">delanospies</ins> @dravenjv Ah ofcourse, you blighted kwama egg.
   - <ins title="2024-03-24-21-23-44">dravenjv</ins> mine has more candles
+  - <ins title="2024-03-24-21-28-16">delanospies</ins> @dravenjv Ah ofcourse, you blighted kwama egg.
 
 ## <span id="2024-03-23.sunrise-over-molag-amur-coast">Sunrise Over Molag Amur Coast</span>
 
@@ -3744,12 +3744,12 @@
 #### Comments
 
 - `ig` <ins title="2024-03-13-18-37-18">k.ardzhanovskiy</ins> Caldera is my favorite town. I always made the base in it.
-  - <ins title="2024-03-13-19-01-31">delanospies</ins> i always used Leoriane&#39;s house 😁  i remember fontly to restyle the dining with silverware, nice foods and ecpensive brandrys
   - <ins title="2024-03-13-18-39-07">delanospies</ins> same bro fr. Where exactly did you set up?
+  - <ins title="2024-03-13-19-01-31">delanospies</ins> i always used Leoriane&#39;s house 😁  i remember fontly to restyle the dining with silverware, nice foods and ecpensive brandrys
 - `vk` <ins title="2024-03-13-19-50-13">lomaev_live</ins> Дорога на Бальмору
 - `tg` <ins title="2024-03-14-03-46-19">Georrrrrg</ins> Куда вам свои скриншоты можно отправить?
-  - <ins title="2024-03-14-04-01-27">mwscr</ins> Отправлять можно на dehero@outlook.com<br>Требования описаны здесь https://vk.com/@mwscr-usloviya-publikacii-skrinshotov-dlya-podpischikov
   - <ins title="2024-03-14-03-53-51">mrrzer0</ins> Через страницу ВК вроде как + только с оригинального Морровинда скрины должны быть, без модов и прочего
+  - <ins title="2024-03-14-04-01-27">mwscr</ins> Отправлять можно на dehero@outlook.com<br>Требования описаны здесь https://vk.com/@mwscr-usloviya-publikacii-skrinshotov-dlya-podpischikov
 - `tg` <ins title="2024-03-14-03-54-27">Georrrrrg</ins> Без модов очень грустно игра выглядит
 - `tg` <ins title="2024-03-14-04-04-43">Georrrrrg</ins> Интересно, нужно делать своë сообщество скриншотов морра с нормальными графическими улучшениями
 - `tg` <ins title="2024-03-14-04-05-06">Georrrrrg</ins> Я не понимаю, зачем такое пуританство
@@ -4252,8 +4252,8 @@
 - `tg` <ins title="2024-02-27-20-56-06">quintus_fabius</ins> We&#39;re so back
   - <ins title="2024-02-27-20-58-08">ansis</ins> .
 - `ig` <ins title="2024-02-27-22-46-56">yoshi_23ii</ins> What happened to these creatures in the next games?
-  - <ins title="2024-02-27-23-49-37">yoshi_23ii</ins> @jaymescallen I think there&#39;s some in ESO
   - <ins title="2024-02-27-23-48-53">jaymescallen</ins> Daedroths were in Oblivion but not Skyrim.
+  - <ins title="2024-02-27-23-49-37">yoshi_23ii</ins> @jaymescallen I think there&#39;s some in ESO
 - `ig` <ins title="2024-02-27-23-28-32">swekg</ins> Me when it’s raining
 - `vk` <ins title="2024-02-28-06-48-12">vladkr114</ins> Эх😔
 - `ig` <ins title="2024-02-29-19-40-42">angelpeepee__</ins> Incredibke

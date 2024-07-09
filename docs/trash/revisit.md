@@ -14,7 +14,7 @@
 `drawing` by [RemmLah](../contributors.md#remmlah)
 
 > [!CAUTION]
-> Unsupported resource.
+> [object Object].
 
 [`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=remmlah.2022-07-26-two-ways&amp;postContent=https%3A%2F%2Fwww.reddit.com%2Fr%2FMorrowind%2Fcomments%2Fw83bac%2Fsilt_strider_art_posca_pens_based_on_a_picture%2F%0Astore%3A%2Fshots%2F2018-09-22.two-ways.png&amp;postTitle=Two+Ways+Drawn+by+RemmLah&amp;postTitleRu=&amp;postAuthor=remmlah&amp;postType=drawing&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=unsupported-resource&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=remmlah.2022-07-26-two-ways) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=remmlah.2022-07-26-two-ways) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=remmlah.2022-07-26-two-ways)</code>
 
@@ -45,7 +45,7 @@ natty.2024-03-10-16-44-06
 `shot` by [Natty](../contributors.md#natty)
 
 > [!CAUTION]
-> Graphic issues.
+> [object Object].
 
 [`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-16-09-50&amp;postContent=store%3A%2Ftrash%2Fnatty.2024-03-10-16-09-50.png%0Astore%3A%2Ftrash%2Fnatty.2024-03-10-16-09-52.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=graphic-issues&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-16-09-50) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-16-09-50) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-16-09-50)</code>
 
