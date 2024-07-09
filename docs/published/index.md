@@ -4,7 +4,33 @@
 
 # Published in 2024
 
-`133 items`
+`134 items`
+
+## <span id="2024-07-09.drooping-sun-of-molag-amur">Drooping Sun of Molag Amur</span>
+
+`RU` Усталое солнце Молаг Амура
+
+<a href="https://instagram.com/p/Bim1govnP18/" title="2018-05-10.drooping-sun-of-molag-amur"><img alt="store:/shots/2018-05-10.drooping-sun-of-molag-amur.png" src="../../assets/previews/shots/2018-05-10.drooping-sun-of-molag-amur.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` `📍 Molag Amur Region` `🚀 OpenMW` `sunset`
+
+```
+2024-07-09.drooping-sun-of-molag-amur
+```
+
+> `2018-05-10.drooping-sun-of-molag-amur`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bim1govnP18/)       | 2018-05-10 |       |    89 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_716)  | 2018-05-10 |   264 |    20 |       160 |   12.5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1628) | 2024-07-09 |       |       |       920 |        |
+| [`tg`](https://t.me/mwscr/464)                     | 2024-07-09 |       |       |       396 |        |
+|                                                    |            |   264 |   109 |      1316 |        |
 
 ## <span id="2024-07-08.sneaking-scamp-at-bitter-coast">Sneaking Scamp at Bitter Coast</span>
 
@@ -28,9 +54,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWPUM15j2T1/)       | 2017-07-07 |       |    71 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_345)  | 2017-07-07 |   112 |     7 |        66 |      7 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1622) | 2024-07-08 |   142 |    18 |       919 |   1.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1622) | 2024-07-08 |   145 |    19 |       919 |   2.07 |
 | [`tg`](https://t.me/mwscr/463)                     | 2024-07-08 |   121 |    43 |       395 |  10.89 |
-|                                                    |            |   375 |   139 |      1314 |   6.61 |
+|                                                    |            |   378 |   140 |      1314 |   6.65 |
 
 #### Comments
 
@@ -123,9 +149,9 @@
 | [`ig`](https://instagram.com/p/Bnrb6krFZm5/)       | 2018-09-13 |       |   119 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_923)  | 2018-09-13 |   331 |    22 |       228 |   9.65 |
 | [`tg`](https://t.me/mwscr/29)                      | 2018-09-13 |   197 |     2 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1615) | 2024-07-05 |   210 |    27 |       919 |   2.94 |
-| [`tg`](https://t.me/mwscr/460)                     | 2024-07-05 |   155 |    44 |       393 |   11.2 |
-|                                                    |            |   893 |   214 |      1312 |   7.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1615) | 2024-07-05 |   221 |    27 |       919 |   2.94 |
+| [`tg`](https://t.me/mwscr/460)                     | 2024-07-05 |   187 |    46 |       393 |   11.7 |
+|                                                    |            |   936 |   216 |      1312 |    8.1 |
 
 ## <span id="2024-07-04.elven-nations-cornerclub">Elven Nations Cornerclub</span>
 
@@ -264,8 +290,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_497)  | 2017-11-12 |   170 |    14 |        99 |     14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1609) | 2024-06-30 |   206 |    30 |       918 |   3.27 |
 | [`tg`](https://t.me/mwscr/455)                     | 2024-06-30 |   316 |    54 |       388 |  13.92 |
-| [`ig`](https://instagram.com/p/C9NHQl1t7nN/)       | 2024-07-09 |    97 |    27 |      1421 |    1.9 |
-|                                                    |            |   789 |   191 |      2727 |   8.27 |
+| [`ig`](https://instagram.com/p/C9NHQl1t7nN/)       | 2024-07-09 |   114 |    38 |      1421 |   2.67 |
+|                                                    |            |   806 |   202 |      2727 |   8.46 |
 
 ## <span id="2024-06-29.lich">Lich</span>
 
@@ -291,8 +317,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_765)  | 2018-06-13 |   346 |    20 |       173 |  11.56 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1608) | 2024-06-29 |   284 |    33 |       918 |   3.59 |
 | [`tg`](https://t.me/mwscr/454)                     | 2024-06-29 |   380 |    53 |       388 |  13.66 |
-| [`ig`](https://instagram.com/p/C9MOc3uo650/)       | 2024-07-09 |   374 |   102 |      1421 |   7.18 |
-|                                                    |            |  1384 |   327 |      2727 |      9 |
+| [`ig`](https://instagram.com/p/C9MOc3uo650/)       | 2024-07-09 |   398 |   108 |      1421 |    7.6 |
+|                                                    |            |  1408 |   333 |      2727 |    9.1 |
 
 #### Comments
 
