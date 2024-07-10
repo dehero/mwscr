@@ -98,7 +98,7 @@ export const UserPage: Component = () => {
                           </>
                         )
                       : undefined,
-                    link: postsRoute.createUrl({ managerName: 'published', author: id() }),
+                    link: postsRoute.createUrl({ managerName: 'published', author: id(), original: 'true' }),
                   },
                   {
                     label: 'Pending',
