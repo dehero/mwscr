@@ -33,7 +33,7 @@ export const PostComments: Component<PostCommentsProps> = (props) => {
                   <>
                     <section class={styles.comment}>
                       <h4 class={styles.title}>
-                        [{comment.service}] {formatTime(comment.datetime)} {comment.author}
+                        [{comment.service}] {formatTime(comment.datetime, true)} {comment.author}
                       </h4>
                       <p class={styles.text}>{comment.text}</p>
                     </section>
@@ -41,7 +41,7 @@ export const PostComments: Component<PostCommentsProps> = (props) => {
                       {(reply) => (
                         <section class={styles.reply}>
                           <h5 class={styles.title}>
-                            {formatTime(comment.datetime)} {reply.author}
+                            {formatTime(comment.datetime, true)} {reply.author}
                           </h5>
                           <p class={styles.text}>{reply.text}</p>
                         </section>

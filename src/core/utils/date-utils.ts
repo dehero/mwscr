@@ -80,6 +80,6 @@ export function formatDate(date: Date, locale = 'en-GB') {
   return date.toLocaleDateString(locale, { timeZone: 'UTC' });
 }
 
-export function formatTime(date: Date, locale = 'en-GB') {
-  return date.toLocaleTimeString(locale, { timeZone: 'UTC' });
+export function formatTime(date: Date, includeSeconds?: boolean, locale = 'en-GB') {
+  return date.toLocaleTimeString(locale, { timeZone: 'UTC', timeStyle: !includeSeconds ? 'short' : undefined });
 }
