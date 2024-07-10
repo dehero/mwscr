@@ -455,18 +455,18 @@
     - service: vk
       id: 1497
       published: 2024-04-16-18-16-52
-      updated: 2024-07-03-03-16-51
+      updated: 2024-07-10-03-17-43
       followers: 910
       likes: 33
-      views: 265
+      views: 267
       reposts: 3
     - service: tg
       id: 380
       published: 2024-04-16-18-16-59
-      updated: 2024-07-03-03-16-51
+      updated: 2024-07-10-03-17-43
       followers: 353
       likes: 57
-      views: 416
+      views: 419
       comments: !c |-
         iymAkZTLQnjuiXXlAACqYWxleF9lbXNvd7pJIGp1c3QgaGF0ZSB0aGlzIHBsYWNl8J+YhZPLQnju
         iwdDAACpR2F0ZW1hdGU3rnRoaXMgaXMgYSBtb2Q/Aw==
@@ -3799,14 +3799,14 @@
     - service: vk
       id: 1628
       published: 2024-07-09-18-20-20
-      updated: 2024-07-10-02-32-45
+      updated: 2024-07-10-03-17-40
       followers: 920
       likes: 15
-      views: 88
+      views: 89
     - service: tg
       id: 464
       published: 2024-07-09-18-20-26
-      updated: 2024-07-10-02-32-46
+      updated: 2024-07-10-03-17-41
       followers: 396
       likes: 33
       views: 81
@@ -4844,10 +4844,10 @@
       id: C9MOc3uo650
       mediaId: '18054168718726961'
       published: 2024-07-09-05-57-48
-      updated: 2024-07-10-02-32-48
+      updated: 2024-07-10-03-17-43
       followers: 1421
       likes: 120
-      views: 491
+      views: 497
       comments: !c |-
         ix2AkZPLQnkJesCugACubGVvZW1hbnVlbGVfMjDZIFRoaXMgbWYgY2FuIHNvbG8gYWxtb3N0IGV2
         ZXJ5b25lAw==
