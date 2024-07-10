@@ -4430,6 +4430,14 @@
       followers: 55
       likes: 9
       views: 117
+    - service: vk
+      id: 1629
+      published: 2024-07-10-18-22-25
+      followers: 919
+    - service: tg
+      id: 465
+      published: 2024-07-10-18-22-34
+      followers: 396
 2017-05-16.in-the-yurt:
   title: In the Yurt
   titleRu: В юрте
@@ -4707,10 +4715,10 @@
       id: C9N-Whvuckx
       mediaId: '18031847912032202'
       published: 2024-07-09-22-15-33
-      updated: 2024-07-10-17-13-20
+      updated: 2024-07-10-18-22-13
       followers: 1423
-      likes: 62
-      views: 251
+      likes: 63
+      views: 258
       comments: !c CxGAkZPLQnkJmb+9gACwam9hb3dvaWNoaW5ldnNraaZhbGVmdD8D
 2017-05-25.arvela-falas:
   title: Arvela Falas
@@ -4972,10 +4980,10 @@
       id: C9PzWs1toCv
       mediaId: '18108123997397779'
       published: 2024-07-10-15-17-58
-      updated: 2024-07-10-17-13-18
+      updated: 2024-07-10-18-22-10
       followers: 1425
-      likes: 25
-      views: 86
+      likes: 31
+      views: 130
       comments: !c ixKAkZPLQnkJ1cyLAACoem9yYW4uaHOxQXdlc29tZSBzaG90IPCfkY8D
 2017-06-03.almalexia-pierces-dagon:
   title: Almalexia Pierces Dagon
@@ -9551,7 +9559,7 @@
       id: C9NHQl1t7nN
       mediaId: '18003207311373105'
       published: 2024-07-09-14-14-09
-      updated: 2024-07-10-17-13-20
+      updated: 2024-07-10-18-22-13
       followers: 1421
       likes: 62
       views: 227
@@ -10315,10 +10323,10 @@
     - service: vk
       id: 1621
       published: 2024-07-07-18-18-57
-      updated: 2024-07-09-17-14-36
+      updated: 2024-07-10-18-22-11
       followers: 919
-      likes: 30
-      views: 173
+      likes: 31
+      views: 184
       comments: !c |-
         G60A4B0Hdiyz8PBedh9P7CdbXWlHHz8umbqgDmzCQGEliiWbkuVd1G36nGcVGsKW6cme82sX3GwC
         L2ADTsQDogB3nga8P68YzcH78+Mxx50wfW+Py348z6/tet/2/4tQO44t+bIexT4wgJ1uPKw4jrN+
@@ -10326,10 +10334,10 @@
     - service: tg
       id: 462
       published: 2024-07-07-18-19-06
-      updated: 2024-07-09-17-14-36
+      updated: 2024-07-10-18-22-12
       followers: 393
-      likes: 45
-      views: 147
+      likes: 46
+      views: 161
 2017-12-08.lower-circle:
   title: Lower Circle
   titleRu: Низший круг
@@ -10516,10 +10524,10 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-07-09-17-14-37
+      updated: 2024-07-10-18-22-12
       followers: 919
       likes: 45
-      views: 200
+      views: 214
       reposts: 1
       comments: !c |-
         G48BYCwO7IbPGw3duxki4Z+q6Pm4UYQ/4ZAKLMGmSaSZmyM42Wd0kLpljMUQhB2QSwasfSMf/m2n
@@ -10530,10 +10538,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-07-09-17-14-37
+      updated: 2024-07-10-18-22-12
       followers: 393
-      likes: 53
-      views: 165
+      likes: 54
+      views: 190
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
