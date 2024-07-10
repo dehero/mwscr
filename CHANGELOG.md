@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.5.0](https://github.com/dehero/mwscr/compare/v1.4.0...v1.5.0) (2024-07-10)
+
+### Features
+
+- **site:** add build time to home page
+  ([24a7bdd](https://github.com/dehero/mwscr/commit/24a7bdd52cb5a2819f56294918c14e610486e1ef))
+
+### Bug Fixes
+
+- **site:** add correct link to user's pending posts
+  ([dfa4f5e](https://github.com/dehero/mwscr/commit/dfa4f5eff3a6017f7444358a1b8d01ad16c0f0ac))
+- **site:** don't show first user's post as primary
+  ([518115b](https://github.com/dehero/mwscr/commit/518115b25a15272310f170bce0d2856f8a374c2c))
+- **site:** use correct link to user's published posts
+  ([e2eb30b](https://github.com/dehero/mwscr/commit/e2eb30bf964acbe73ae0a15276f3507f2a16299b))
+
 ## [1.4.0](https://github.com/dehero/mwscr/compare/v1.3.1...v1.4.0) (2024-07-09)
 
 ### Features
