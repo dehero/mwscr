@@ -179,7 +179,7 @@ export const UserPage: Component = () => {
               items={[
                 { label: 'Last Post', primary: true, postInfo: lastPostInfo },
                 { label: 'Last Original Post', primary: true, postInfo: lastOriginalPostInfo },
-                { label: 'First Post', primary: true, postInfo: firstPostInfo },
+                { label: 'First Post', postInfo: firstPostInfo },
                 { label: 'Top Rated Post', postInfo: topRatedPostInfo },
                 { label: "Editor's Choice Post", postInfo: editorsChoicePostInfo },
                 { label: 'Top Liked Post', postInfo: topLikedPostInfo },
