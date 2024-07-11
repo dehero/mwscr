@@ -28,9 +28,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTLoxf1jfRQ/)       | 2017-04-22 |       |    62 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_267)  | 2017-04-22 |   118 |     7 |        54 |      7 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1630) | 2024-07-11 |    71 |    14 |       920 |   1.52 |
-| [`tg`](https://t.me/mwscr/466)                     | 2024-07-11 |    67 |    28 |       397 |   7.05 |
-|                                                    |            |   256 |   111 |      1317 |   5.19 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1630) | 2024-07-11 |    75 |    15 |       920 |   1.63 |
+| [`tg`](https://t.me/mwscr/466)                     | 2024-07-11 |    74 |    29 |       397 |    7.3 |
+|                                                    |            |   267 |   113 |      1317 |   5.31 |
 
 ## <span id="2024-07-10.in-the-courtyard-of-royal-palace">In the Courtyard of Royal Palace</span>
 
@@ -55,8 +55,8 @@
 | [`ig`](https://instagram.com/p/BUG3cZnD1DK/)       | 2017-05-15 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_291)  | 2017-05-15 |   117 |     9 |        55 |      9 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1629) | 2024-07-10 |   143 |    27 |       919 |   2.94 |
-| [`tg`](https://t.me/mwscr/465)                     | 2024-07-10 |   168 |    42 |       396 |  10.61 |
-|                                                    |            |   428 |   132 |      1315 |   7.51 |
+| [`tg`](https://t.me/mwscr/465)                     | 2024-07-10 |   170 |    43 |       396 |  10.86 |
+|                                                    |            |   430 |   133 |      1315 |    7.6 |
 
 ## <span id="2024-07-09.drooping-sun-of-molag-amur">Drooping Sun of Molag Amur</span>
 
@@ -170,8 +170,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_539)  | 2017-12-13 |   162 |    14 |       108 |  12.96 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1616) | 2024-07-06 |   224 |    45 |       919 |    4.9 |
 | [`tg`](https://t.me/mwscr/461)                     | 2024-07-06 |   206 |    56 |       393 |  14.25 |
-| [`ig`](https://instagram.com/p/C9StBG6pd7s/)       | 2024-07-11 |   111 |    31 |      1427 |   2.17 |
-|                                                    |            |   703 |   230 |      2739 |   8.57 |
+| [`ig`](https://instagram.com/p/C9StBG6pd7s/)       | 2024-07-11 |   129 |    35 |      1427 |   2.45 |
+|                                                    |            |   721 |   234 |      2739 |   8.64 |
 
 #### Comments
 
@@ -204,8 +204,8 @@
 | [`tg`](https://t.me/mwscr/29)                      | 2018-09-13 |   197 |     2 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1615) | 2024-07-05 |   239 |    28 |       919 |   3.05 |
 | [`tg`](https://t.me/mwscr/460)                     | 2024-07-05 |   211 |    48 |       393 |  12.21 |
-| [`ig`](https://instagram.com/p/C9Ru5oGNV8s/)       | 2024-07-11 |   222 |    64 |      1427 |   4.48 |
-|                                                    |            |  1200 |   283 |      2739 |   7.35 |
+| [`ig`](https://instagram.com/p/C9Ru5oGNV8s/)       | 2024-07-11 |   230 |    66 |      1427 |   4.63 |
+|                                                    |            |  1208 |   285 |      2739 |   7.38 |
 
 ## <span id="2024-07-04.elven-nations-cornerclub">Elven Nations Cornerclub</span>
 
@@ -231,8 +231,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_165)  | 2017-02-21 |   145 |    10 |        38 |     10 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1613) | 2024-07-04 |   232 |    30 |       919 |   3.26 |
 | [`tg`](https://t.me/mwscr/459)                     | 2024-07-04 |   289 |    53 |       391 |  13.55 |
-| [`ig`](https://instagram.com/p/C9Q29Eus5LH/)       | 2024-07-11 |   192 |    59 |      1427 |   4.13 |
-|                                                    |            |   858 |   181 |      2737 |   7.74 |
+| [`ig`](https://instagram.com/p/C9Q29Eus5LH/)       | 2024-07-11 |   196 |    59 |      1427 |   4.13 |
+|                                                    |            |   862 |   181 |      2737 |   7.74 |
 
 ## <span id="2024-07-03.ashes-of-d-bryant">Ashes of D. Bryant</span>
 
@@ -258,8 +258,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_309)  | 2017-06-02 |   104 |     5 |        60 |      5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1612) | 2024-07-03 |   187 |    25 |       917 |   2.73 |
 | [`tg`](https://t.me/mwscr/458)                     | 2024-07-03 |   240 |    46 |       391 |  11.76 |
-| [`ig`](https://instagram.com/p/C9PzWs1toCv/)       | 2024-07-10 |   318 |    55 |      1425 |   3.86 |
-|                                                    |            |   849 |   181 |      2733 |   5.84 |
+| [`ig`](https://instagram.com/p/C9PzWs1toCv/)       | 2024-07-10 |   321 |    55 |      1425 |   3.86 |
+|                                                    |            |   852 |   181 |      2733 |   5.84 |
 
 #### Comments
 
@@ -291,8 +291,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_761)  | 2018-06-09 |   255 |    23 |       173 |  13.29 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1611) | 2024-07-02 |   243 |    36 |       918 |   3.92 |
 | [`tg`](https://t.me/mwscr/457)                     | 2024-07-02 |   236 |    54 |       391 |  13.81 |
-| [`ig`](https://instagram.com/p/C9O19DjtjrY/)       | 2024-07-10 |   376 |    79 |      1423 |   5.55 |
-|                                                    |            |  1110 |   291 |      2732 |   9.14 |
+| [`ig`](https://instagram.com/p/C9O19DjtjrY/)       | 2024-07-10 |   378 |    79 |      1423 |   5.55 |
+|                                                    |            |  1112 |   291 |      2732 |   9.14 |
 
 #### Comments
 
@@ -324,8 +324,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_300)  | 2017-05-24 |   110 |     4 |        57 |      4 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1610) | 2024-07-01 |   286 |    50 |       918 |   5.45 |
 | [`tg`](https://t.me/mwscr/456)                     | 2024-07-01 |   248 |    57 |       390 |  14.62 |
-| [`ig`](https://instagram.com/p/C9N-Whvuckx/)       | 2024-07-09 |   320 |    71 |      1423 |   4.99 |
-|                                                    |            |   964 |   241 |      2731 |   7.26 |
+| [`ig`](https://instagram.com/p/C9N-Whvuckx/)       | 2024-07-09 |   321 |    71 |      1423 |   4.99 |
+|                                                    |            |   965 |   241 |      2731 |   7.26 |
 
 #### Comments
 
