@@ -1785,10 +1785,10 @@
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
       published: 2024-07-11-01-08-39
-      updated: 2024-07-11-18-20-01
+      updated: 2024-07-11-19-12-50
       followers: 1427
-      likes: 57
-      views: 184
+      likes: 58
+      views: 188
 2017-02-22.strider-in-the-storm:
   title: Strider in the Storm
   titleRu: Страйдер внутри бури
@@ -3725,11 +3725,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
+      updated: 2024-07-11-19-12-49
       followers: 920
+      likes: 7
+      views: 44
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
+      updated: 2024-07-11-19-12-49
       followers: 397
+      likes: 21
+      views: 45
 2017-04-23.ald-sotha-in-rainy-haze:
   title: Ald Sotha in Rainy Haze
   titleRu: Альд Сота в дождливой мгле
@@ -4449,17 +4455,17 @@
     - service: vk
       id: 1629
       published: 2024-07-10-18-22-25
-      updated: 2024-07-11-18-20-00
+      updated: 2024-07-11-19-12-50
       followers: 919
-      likes: 26
-      views: 138
+      likes: 27
+      views: 139
     - service: tg
       id: 465
       published: 2024-07-10-18-22-34
-      updated: 2024-07-11-18-20-02
+      updated: 2024-07-11-19-12-50
       followers: 396
-      likes: 39
-      views: 150
+      likes: 41
+      views: 162
 2017-05-16.in-the-yurt:
   title: In the Yurt
   titleRu: В юрте
@@ -4737,10 +4743,10 @@
       id: C9N-Whvuckx
       mediaId: '18031847912032202'
       published: 2024-07-09-22-15-33
-      updated: 2024-07-11-18-20-04
+      updated: 2024-07-11-19-12-54
       followers: 1423
       likes: 71
-      views: 313
+      views: 314
       comments: !c CxGAkZPLQnkJmb+9gACwam9hb3dvaWNoaW5ldnNraaZhbGVmdD8D
 2017-05-25.arvela-falas:
   title: Arvela Falas
@@ -5002,10 +5008,10 @@
       id: C9PzWs1toCv
       mediaId: '18108123997397779'
       published: 2024-07-10-15-17-58
-      updated: 2024-07-11-18-20-02
+      updated: 2024-07-11-19-12-51
       followers: 1425
       likes: 52
-      views: 312
+      views: 314
       comments: !c ixKAkZPLQnkJ1cyLAACoem9yYW4uaHOxQXdlc29tZSBzaG90IPCfkY8D
 2017-06-03.almalexia-pierces-dagon:
   title: Almalexia Pierces Dagon
@@ -10345,10 +10351,10 @@
     - service: vk
       id: 1621
       published: 2024-07-07-18-18-57
-      updated: 2024-07-10-18-22-11
+      updated: 2024-07-11-19-12-51
       followers: 919
       likes: 31
-      views: 184
+      views: 195
       comments: !c |-
         G60A4B0Hdiyz8PBedh9P7CdbXWlHHz8umbqgDmzCQGEliiWbkuVd1G36nGcVGsKW6cme82sX3GwC
         L2ADTsQDogB3nga8P68YzcH78+Mxx50wfW+Py348z6/tet/2/4tQO44t+bIexT4wgJ1uPKw4jrN+
@@ -10356,10 +10362,10 @@
     - service: tg
       id: 462
       published: 2024-07-07-18-19-06
-      updated: 2024-07-10-18-22-12
+      updated: 2024-07-11-19-12-51
       followers: 393
-      likes: 46
-      views: 161
+      likes: 48
+      views: 189
 2017-12-08.lower-circle:
   title: Lower Circle
   titleRu: Низший круг
@@ -10546,10 +10552,10 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-07-10-18-22-12
+      updated: 2024-07-11-19-12-52
       followers: 919
       likes: 45
-      views: 214
+      views: 224
       reposts: 1
       comments: !c |-
         G48BYCwO7IbPGw3duxki4Z+q6Pm4UYQ/4ZAKLMGmSaSZmyM42Wd0kLpljMUQhB2QSwasfSMf/m2n
@@ -10560,15 +10566,18 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-07-10-18-22-12
+      updated: 2024-07-11-19-12-51
       followers: 393
-      likes: 54
-      views: 190
+      likes: 56
+      views: 206
     - service: ig
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
       published: 2024-07-11-18-20-18
+      updated: 2024-07-11-19-12-48
       followers: 1427
+      likes: 17
+      views: 39
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
