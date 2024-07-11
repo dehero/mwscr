@@ -1769,26 +1769,26 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2024-07-10-19-15-28
+      updated: 2024-07-11-20-15-42
       followers: 919
       likes: 30
-      views: 225
+      views: 232
       reposts: 1
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2024-07-10-19-15-28
+      updated: 2024-07-11-20-15-42
       followers: 391
-      likes: 51
-      views: 267
+      likes: 53
+      views: 289
     - service: ig
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
       published: 2024-07-11-01-08-39
-      updated: 2024-07-11-19-12-50
+      updated: 2024-07-11-20-15-40
       followers: 1427
-      likes: 58
-      views: 188
+      likes: 59
+      views: 191
 2017-02-22.strider-in-the-storm:
   title: Strider in the Storm
   titleRu: Страйдер внутри бури
@@ -2583,18 +2583,18 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2024-07-04-20-15-20
+      updated: 2024-07-11-20-15-43
       followers: 919
-      likes: 44
-      views: 294
+      likes: 45
+      views: 299
       reposts: 3
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2024-07-04-20-15-20
+      updated: 2024-07-11-20-15-42
       followers: 387
       likes: 63
-      views: 344
+      views: 375
       comments: !c |-
         CyWAkZPLQnkECYQ5gACsUm9iZXJfNTU1OTQ52THQrdGC0L4g0LLRi9Cz0LvRj9C00LjRgiDRgtCw
         0Log0L/RgNC10LrRgNCw0YHQvdC+Aw==
@@ -3725,17 +3725,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-07-11-19-12-49
+      updated: 2024-07-11-20-15-40
       followers: 920
-      likes: 7
-      views: 44
+      likes: 13
+      views: 62
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-07-11-19-12-49
+      updated: 2024-07-11-20-15-40
       followers: 397
-      likes: 21
-      views: 45
+      likes: 26
+      views: 61
 2017-04-23.ald-sotha-in-rainy-haze:
   title: Ald Sotha in Rainy Haze
   titleRu: Альд Сота в дождливой мгле
@@ -4455,17 +4455,17 @@
     - service: vk
       id: 1629
       published: 2024-07-10-18-22-25
-      updated: 2024-07-11-19-12-50
+      updated: 2024-07-11-20-15-41
       followers: 919
       likes: 27
-      views: 139
+      views: 141
     - service: tg
       id: 465
       published: 2024-07-10-18-22-34
-      updated: 2024-07-11-19-12-50
+      updated: 2024-07-11-20-15-41
       followers: 396
       likes: 41
-      views: 162
+      views: 165
 2017-05-16.in-the-yurt:
   title: In the Yurt
   titleRu: В юрте
@@ -4743,10 +4743,10 @@
       id: C9N-Whvuckx
       mediaId: '18031847912032202'
       published: 2024-07-09-22-15-33
-      updated: 2024-07-11-19-12-54
+      updated: 2024-07-11-20-15-44
       followers: 1423
       likes: 71
-      views: 314
+      views: 318
       comments: !c CxGAkZPLQnkJmb+9gACwam9hb3dvaWNoaW5ldnNraaZhbGVmdD8D
 2017-05-25.arvela-falas:
   title: Arvela Falas
@@ -5008,10 +5008,10 @@
       id: C9PzWs1toCv
       mediaId: '18108123997397779'
       published: 2024-07-10-15-17-58
-      updated: 2024-07-11-19-12-51
+      updated: 2024-07-11-20-15-42
       followers: 1425
-      likes: 52
-      views: 314
+      likes: 55
+      views: 316
       comments: !c ixKAkZPLQnkJ1cyLAACoem9yYW4uaHOxQXdlc29tZSBzaG90IPCfkY8D
 2017-06-03.almalexia-pierces-dagon:
   title: Almalexia Pierces Dagon
@@ -10574,10 +10574,10 @@
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
       published: 2024-07-11-18-20-18
-      updated: 2024-07-11-19-12-48
+      updated: 2024-07-11-20-15-39
       followers: 1427
-      likes: 17
-      views: 39
+      likes: 26
+      views: 82
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
