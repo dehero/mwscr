@@ -2681,10 +2681,10 @@
     - service: vk
       id: 1534
       published: 2024-05-16-18-18-18
-      updated: 2024-07-04-22-14-30
+      updated: 2024-07-11-23-17-17
       followers: 915
       likes: 40
-      views: 302
+      views: 304
       reposts: 1
       comments: !c |-
         G5AAqB2HcSyy8PJqYKMTI1Q6PV+3I/zjd6GH2ESSeLLPOZf6SkjuXPAXXW9JUaNUJB/j+4bydrPZ
@@ -2693,10 +2693,10 @@
     - service: tg
       id: 410
       published: 2024-05-16-18-18-25
-      updated: 2024-07-04-22-14-31
+      updated: 2024-07-11-23-17-16
       followers: 370
-      likes: 56
-      views: 419
+      likes: 57
+      views: 427
       comments: !c |-
         iyuAkpPLQnj4TMeUAACpR2F0ZW1hdGU3tXRoZSBob29kIG9mIG1vcnJvd2luZJPLQnj4K14cgACr
         Ym9icm92bmlrb3a2R29vZCBldmVuaW5nLCBldmVyeW9uZQM=
@@ -4712,7 +4712,7 @@
       id: C9O19DjtjrY
       mediaId: '17907523406989990'
       published: 2024-07-10-06-21-24
-      updated: 2024-07-11-22-14-19
+      updated: 2024-07-11-23-17-16
       followers: 1423
       likes: 79
       views: 378
@@ -7496,10 +7496,10 @@
       id: C9Ru5oGNV8s
       mediaId: '18357955564098159'
       published: 2024-07-11-09-17-31
-      updated: 2024-07-11-22-14-16
+      updated: 2024-07-11-23-17-12
       followers: 1427
-      likes: 66
-      views: 230
+      likes: 67
+      views: 238
 2018-09-14.serano-ancestral-tomb:
   title: Serano Ancestral Tomb
   titleRu: Родовая гробница Серано
