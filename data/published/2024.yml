@@ -32,10 +32,10 @@
     - service: vk
       id: 1420
       published: 2024-02-28-19-19-28
-      updated: 2024-07-04-03-18-24
+      updated: 2024-07-11-03-19-12
       followers: 894
       likes: 40
-      views: 318
+      views: 319
       reposts: 2
       comments: !c |-
         G4cEAKwOeDPTKSGxilFh42qgn0k8AYe/+AvdH7sCiqyN+SIYQGuLz3fkmboYCO0QkngCAk1ya3f7
@@ -51,10 +51,10 @@
     - service: tg
       id: 330
       published: 2024-02-28-19-19-34
-      updated: 2024-07-04-03-18-21
+      updated: 2024-07-11-03-19-09
       followers: 338
       likes: 73
-      views: 580
+      views: 588
       comments: !c ixaAkZPLQnjfHLDigACqc3lvbWFkeW9tYbdteSBmYXZvdXJpdGUgdGcgY2hhbm5lbAM=
 2024-02-29.morning-hunt: 2017-03-30.morning-hunt
 2024-03-01.rat-in-the-pasture:
@@ -681,7 +681,7 @@
     - service: vk
       id: 1471
       published: 2024-03-27-18-11-59
-      updated: 2024-07-04-03-18-21
+      updated: 2024-07-11-03-19-09
       followers: 905
       likes: 30
       views: 270
@@ -689,10 +689,10 @@
     - service: tg
       id: 359
       published: 2024-03-27-18-12-06
-      updated: 2024-07-04-03-18-19
+      updated: 2024-07-11-03-19-08
       followers: 354
       likes: 64
-      views: 448
+      views: 450
       comments: !c |-
         Gx8BAIxUNX9/v7a2kaHhr6KSaSbTxSwxVBE9T65NP3H7Tb90ha6ubkv1IeWdn3N40SoIj5akPYpd
         ui2pJ6tkGCaZwF92uh+qPDpBjWFHjrAnb/NEUrEcnjB40i6/JwWOpAe84UIg6oPwPJTUSAFSRkR9
@@ -996,17 +996,17 @@
     - service: vk
       id: 1489
       published: 2024-04-10-18-19-29
-      updated: 2024-07-04-03-18-20
+      updated: 2024-07-11-03-19-07
       followers: 911
       likes: 30
       views: 219
     - service: tg
       id: 374
       published: 2024-04-10-18-19-36
-      updated: 2024-07-04-03-18-18
+      updated: 2024-07-11-03-19-07
       followers: 353
       likes: 58
-      views: 417
+      views: 419
 2024-04-11.heros-skeleton:
   title: Hero's Skeleton
   titleRu: Скелет героя
