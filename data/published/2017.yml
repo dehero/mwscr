@@ -1785,10 +1785,10 @@
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
       published: 2024-07-11-01-08-39
-      updated: 2024-07-11-17-15-18
+      updated: 2024-07-11-18-20-01
       followers: 1427
-      likes: 56
-      views: 178
+      likes: 57
+      views: 184
 2017-02-22.strider-in-the-storm:
   title: Strider in the Storm
   titleRu: Страйдер внутри бури
@@ -3722,6 +3722,14 @@
       followers: 54
       likes: 7
       views: 118
+    - service: vk
+      id: 1630
+      published: 2024-07-11-18-20-26
+      followers: 920
+    - service: tg
+      id: 466
+      published: 2024-07-11-18-20-33
+      followers: 397
 2017-04-23.ald-sotha-in-rainy-haze:
   title: Ald Sotha in Rainy Haze
   titleRu: Альд Сота в дождливой мгле
@@ -4441,17 +4449,17 @@
     - service: vk
       id: 1629
       published: 2024-07-10-18-22-25
-      updated: 2024-07-11-17-15-18
+      updated: 2024-07-11-18-20-00
       followers: 919
       likes: 26
-      views: 136
+      views: 138
     - service: tg
       id: 465
       published: 2024-07-10-18-22-34
-      updated: 2024-07-11-17-15-19
+      updated: 2024-07-11-18-20-02
       followers: 396
       likes: 39
-      views: 147
+      views: 150
 2017-05-16.in-the-yurt:
   title: In the Yurt
   titleRu: В юрте
@@ -4729,10 +4737,10 @@
       id: C9N-Whvuckx
       mediaId: '18031847912032202'
       published: 2024-07-09-22-15-33
-      updated: 2024-07-11-17-15-22
+      updated: 2024-07-11-18-20-04
       followers: 1423
-      likes: 70
-      views: 312
+      likes: 71
+      views: 313
       comments: !c CxGAkZPLQnkJmb+9gACwam9hb3dvaWNoaW5ldnNraaZhbGVmdD8D
 2017-05-25.arvela-falas:
   title: Arvela Falas
@@ -4994,10 +5002,10 @@
       id: C9PzWs1toCv
       mediaId: '18108123997397779'
       published: 2024-07-10-15-17-58
-      updated: 2024-07-11-17-15-19
+      updated: 2024-07-11-18-20-02
       followers: 1425
-      likes: 50
-      views: 305
+      likes: 52
+      views: 312
       comments: !c ixKAkZPLQnkJ1cyLAACoem9yYW4uaHOxQXdlc29tZSBzaG90IPCfkY8D
 2017-06-03.almalexia-pierces-dagon:
   title: Almalexia Pierces Dagon
@@ -10556,6 +10564,11 @@
       followers: 393
       likes: 54
       views: 190
+    - service: ig
+      id: C9StBG6pd7s
+      mediaId: '18023598689200233'
+      published: 2024-07-11-18-20-18
+      followers: 1427
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
