@@ -247,18 +247,18 @@
     - service: vk
       id: 1607
       published: 2024-06-28-18-19-25
-      updated: 2024-07-05-20-16-41
+      updated: 2024-07-12-21-15-13
       followers: 917
-      likes: 33
-      views: 247
+      likes: 36
+      views: 259
       reposts: 1
     - service: tg
       id: 453
       published: 2024-06-28-18-19-31
-      updated: 2024-07-05-20-16-40
+      updated: 2024-07-12-21-15-13
       followers: 387
-      likes: 53
-      views: 309
+      likes: 56
+      views: 388
 2018-01-10.rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
@@ -3814,7 +3814,10 @@
       id: C9VfE-NtTXs
       mediaId: '18072831043475404'
       published: 2024-07-12-20-16-12
+      updated: 2024-07-12-21-15-10
       followers: 1427
+      likes: 29
+      views: 52
 2018-05-11.tree-crown-of-indoranyon:
   title: Tree Crown of Indoranyon
   titleRu: Древесная корона Индораниона
@@ -7501,7 +7504,7 @@
       id: C9Ru5oGNV8s
       mediaId: '18357955564098159'
       published: 2024-07-11-09-17-31
-      updated: 2024-07-12-20-15-59
+      updated: 2024-07-12-21-15-14
       followers: 1427
       likes: 74
       views: 293

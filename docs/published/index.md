@@ -28,9 +28,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWuBkI6j7il/)       | 2017-07-19 |       |    53 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_358)  | 2017-07-19 |   132 |     8 |        69 |      8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1631) | 2024-07-12 |    59 |    10 |       920 |   1.09 |
-| [`tg`](https://t.me/mwscr/467)                     | 2024-07-12 |    54 |    25 |       397 |    6.3 |
-|                                                    |            |   245 |    96 |      1317 |   5.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1631) | 2024-07-12 |    66 |    10 |       920 |   1.09 |
+| [`tg`](https://t.me/mwscr/467)                     | 2024-07-12 |    64 |    30 |       397 |   7.56 |
+|                                                    |            |   262 |   101 |      1317 |   5.55 |
 
 #### Comments
 
@@ -60,8 +60,8 @@
 | [`ig`](https://instagram.com/p/BTLoxf1jfRQ/)       | 2017-04-22 |       |    62 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_267)  | 2017-04-22 |   118 |     7 |        54 |      7 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1630) | 2024-07-11 |   151 |    28 |       920 |   3.04 |
-| [`tg`](https://t.me/mwscr/466)                     | 2024-07-11 |   136 |    47 |       397 |  11.84 |
-|                                                    |            |   405 |   144 |      1317 |   7.29 |
+| [`tg`](https://t.me/mwscr/466)                     | 2024-07-11 |   138 |    47 |       397 |  11.84 |
+|                                                    |            |   407 |   144 |      1317 |   7.29 |
 
 ## <span id="2024-07-10.in-the-courtyard-of-royal-palace">In the Courtyard of Royal Palace</span>
 
@@ -113,8 +113,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_716)  | 2018-05-10 |   264 |    20 |       160 |   12.5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1628) | 2024-07-09 |   183 |    28 |       920 |   3.04 |
 | [`tg`](https://t.me/mwscr/464)                     | 2024-07-09 |   164 |    57 |       396 |  14.39 |
-| [`ig`](https://instagram.com/p/C9VfE-NtTXs/)       | 2024-07-12 |       |       |      1427 |        |
-|                                                    |            |   611 |   194 |      2743 |   9.98 |
+| [`ig`](https://instagram.com/p/C9VfE-NtTXs/)       | 2024-07-12 |    52 |    29 |      1427 |   2.03 |
+|                                                    |            |   663 |   223 |      2743 |   7.99 |
 
 ## <span id="2024-07-08.sneaking-scamp-at-bitter-coast">Sneaking Scamp at Bitter Coast</span>
 
@@ -140,8 +140,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_345)  | 2017-07-07 |   113 |     8 |        66 |      8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1622) | 2024-07-08 |   212 |    32 |       919 |   3.48 |
 | [`tg`](https://t.me/mwscr/463)                     | 2024-07-08 |   192 |    49 |       395 |  12.41 |
-| [`ig`](https://instagram.com/p/C9Ug-PYxnq2/)       | 2024-07-12 |   158 |    51 |      1427 |   3.57 |
-|                                                    |            |   675 |   211 |      2741 |   6.87 |
+| [`ig`](https://instagram.com/p/C9Ug-PYxnq2/)       | 2024-07-12 |   168 |    54 |      1427 |   3.78 |
+|                                                    |            |   685 |   214 |      2741 |   6.92 |
 
 #### Comments
 
@@ -174,12 +174,13 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_526)  | 2017-12-07 |   177 |    20 |       106 |  18.87 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1621) | 2024-07-07 |   209 |    33 |       919 |   3.59 |
 | [`tg`](https://t.me/mwscr/462)                     | 2024-07-07 |   206 |    50 |       393 |  12.72 |
-| [`ig`](https://instagram.com/p/C9TlW1WTRtX/)       | 2024-07-12 |   228 |    73 |      1426 |   5.12 |
-|                                                    |            |   820 |   275 |      2738 |  10.08 |
+| [`ig`](https://instagram.com/p/C9TlW1WTRtX/)       | 2024-07-12 |   232 |    76 |      1426 |   5.33 |
+|                                                    |            |   824 |   278 |      2738 |  10.13 |
 
 #### Comments
 
 - `vk` <ins title="2024-07-09-14-14-48">dobryu_vecher</ins> Я их понимаю. Когда ждешь лето по 6 месяцев, а потом в июне бесконечно идут дожди...
+- `ig` <ins title="2024-07-12-20-21-28">befriended_stranger</ins> Cosy.
 
 ## <span id="2024-07-06.docks-of-ald-velothi">Docks of Ald Velothi</span>
 
@@ -205,8 +206,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_539)  | 2017-12-13 |   162 |    14 |       108 |  12.96 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1616) | 2024-07-06 |   233 |    46 |       919 |   5.01 |
 | [`tg`](https://t.me/mwscr/461)                     | 2024-07-06 |   222 |    57 |       393 |   14.5 |
-| [`ig`](https://instagram.com/p/C9StBG6pd7s/)       | 2024-07-11 |   251 |    51 |      1427 |   3.57 |
-|                                                    |            |   868 |   252 |      2739 |   9.01 |
+| [`ig`](https://instagram.com/p/C9StBG6pd7s/)       | 2024-07-11 |   253 |    52 |      1427 |   3.64 |
+|                                                    |            |   870 |   253 |      2739 |   9.03 |
 
 #### Comments
 
@@ -452,9 +453,9 @@
 | [`ig`](https://instagram.com/p/BdvHCYojafJ/)       | 2018-01-09 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_572)  | 2018-01-09 |   180 |    16 |       119 |  13.45 |
 | [`ig`](https://instagram.com/p/C8xOkhoJ1Rz/)       | 2024-06-28 |   273 |    75 |      1421 |   5.28 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |   247 |    33 |       917 |    3.6 |
-| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |   309 |    53 |       387 |   13.7 |
-|                                                    |            |  1009 |   275 |      2725 |      9 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |   259 |    36 |       917 |   3.93 |
+| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |   388 |    56 |       387 |  14.47 |
+|                                                    |            |  1100 |   281 |      2725 |   9.28 |
 
 ## <span id="2024-06-27.crates-and-pillows">Crates and Pillows</span>
 
@@ -671,9 +672,9 @@
 | [`ig`](https://instagram.com/p/BOojKoolo1u/)       | 2016-12-30 |       |    35 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_47)   | 2017-01-22 |    92 |     3 |         4 |      3 |
 | [`ig`](https://instagram.com/p/C8fNH04tqd6/)       | 2024-06-21 |   319 |    87 |      1419 |   6.13 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |   259 |    32 |       919 |   3.48 |
-| [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |   374 |    52 |       386 |  13.47 |
-|                                                    |            |  1044 |   209 |      2724 |   6.52 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |   264 |    33 |       919 |   3.59 |
+| [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |   407 |    52 |       386 |  13.47 |
+|                                                    |            |  1082 |   210 |      2724 |   6.55 |
 
 ## <span id="2024-06-20.arrival-in-dagon-fel">Arrival in Dagon Fel</span>
 
