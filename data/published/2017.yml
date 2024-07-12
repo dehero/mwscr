@@ -550,18 +550,18 @@
     - service: vk
       id: 1491
       published: 2024-04-12-18-14-50
-      updated: 2024-07-05-22-15-12
+      updated: 2024-07-12-23-14-35
       followers: 911
       likes: 35
-      views: 263
+      views: 264
       reposts: 2
     - service: tg
       id: 376
       published: 2024-04-12-18-15-00
-      updated: 2024-07-05-22-15-12
+      updated: 2024-07-12-23-14-34
       followers: 352
       likes: 68
-      views: 438
+      views: 442
       comments: !c |-
         G3kCICwOeHPoJNT0dgTVz0b0TxysCP/kgSRBxlEgcVjABcGRnOxTdSMYodAkCN/vK5SzFXt/92vU
         bJIm1nd3w9venyuqqBayEqSCS7uerJZP65+m2NyG1hh0Ux8fFA7oVxM/3TgWZoElGng0tkYQYIC9
@@ -1785,7 +1785,7 @@
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
       published: 2024-07-11-01-08-39
-      updated: 2024-07-12-22-14-03
+      updated: 2024-07-12-23-14-35
       followers: 1427
       likes: 62
       views: 224
@@ -3725,14 +3725,14 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-07-12-22-14-01
+      updated: 2024-07-12-23-14-32
       followers: 920
       likes: 28
-      views: 151
+      views: 152
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-07-12-22-14-01
+      updated: 2024-07-12-23-14-32
       followers: 397
       likes: 48
       views: 141
@@ -3927,17 +3927,17 @@
     - service: vk
       id: 1545
       published: 2024-05-24-18-19-24
-      updated: 2024-07-05-22-15-11
+      updated: 2024-07-12-23-14-34
       followers: 917
       likes: 38
-      views: 272
+      views: 274
     - service: tg
       id: 418
       published: 2024-05-24-18-19-31
-      updated: 2024-07-05-22-15-11
+      updated: 2024-07-12-23-14-33
       followers: 376
       likes: 55
-      views: 441
+      views: 450
       comments: !c |-
         iyGAkZTLQnj6vWCNAACvS3JhdG9zX3JhZ25hcmVrs9Ch0L7Qu9GF0YHRgtC10LnQvD+Ty0J4+r5/
         qQAApW13c2NypNCU0LAD
@@ -4743,10 +4743,10 @@
       id: C9N-Whvuckx
       mediaId: '18031847912032202'
       published: 2024-07-09-22-15-33
-      updated: 2024-07-11-22-14-20
+      updated: 2024-07-12-23-14-36
       followers: 1423
-      likes: 71
-      views: 321
+      likes: 75
+      views: 347
       comments: !c CxGAkZPLQnkJmb+9gACwam9hb3dvaWNoaW5ldnNraaZhbGVmdD8D
 2017-05-25.arvela-falas:
   title: Arvela Falas
@@ -6044,10 +6044,10 @@
       id: C9Ug-PYxnq2
       mediaId: '18034610213051067'
       published: 2024-07-12-11-13-31
-      updated: 2024-07-12-22-14-01
+      updated: 2024-07-12-23-14-32
       followers: 1427
       likes: 55
-      views: 173
+      views: 177
       comments: !c CxGAkZPLQnkKdu/DgACqeW9zaGlfMjNpaaxJJ20gY3JlZXBpbmcD
 2017-07-08.saint-sotha:
   title: Saint Sotha
@@ -6387,17 +6387,17 @@
     - service: vk
       id: 1631
       published: 2024-07-12-18-21-28
-      updated: 2024-07-12-22-14-00
+      updated: 2024-07-12-23-14-31
       followers: 920
       likes: 12
-      views: 77
+      views: 81
     - service: tg
       id: 467
       published: 2024-07-12-18-21-35
-      updated: 2024-07-12-22-14-00
+      updated: 2024-07-12-23-14-31
       followers: 397
-      likes: 33
-      views: 72
+      likes: 34
+      views: 77
 2017-07-20.fort-darius:
   title: Fort Darius
   titleRu: Форт Дариус
@@ -10393,10 +10393,10 @@
       id: C9TlW1WTRtX
       mediaId: '18036502003995219'
       published: 2024-07-12-02-32-37
-      updated: 2024-07-12-22-14-02
+      updated: 2024-07-12-23-14-33
       followers: 1426
       likes: 76
-      views: 238
+      views: 243
       comments: !c CxKAkZPLQnkKibmUAACzYmVmcmllbmRlZF9zdHJhbmdlcqVDb3N5LgM=
 2017-12-08.lower-circle:
   title: Lower Circle
@@ -10606,7 +10606,7 @@
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
       published: 2024-07-11-18-20-18
-      updated: 2024-07-12-22-14-02
+      updated: 2024-07-12-23-14-33
       followers: 1427
       likes: 52
       views: 254
