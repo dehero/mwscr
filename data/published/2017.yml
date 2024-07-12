@@ -1785,7 +1785,7 @@
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
       published: 2024-07-11-01-08-39
-      updated: 2024-07-12-17-14-50
+      updated: 2024-07-12-18-21-22
       followers: 1427
       likes: 62
       views: 220
@@ -3725,17 +3725,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-07-12-17-14-47
+      updated: 2024-07-12-18-21-18
       followers: 920
       likes: 27
-      views: 146
+      views: 148
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-07-12-17-14-48
+      updated: 2024-07-12-18-21-19
       followers: 397
       likes: 45
-      views: 117
+      views: 118
 2017-04-23.ald-sotha-in-rainy-haze:
   title: Ald Sotha in Rainy Haze
   titleRu: Альд Сота в дождливой мгле
@@ -4455,14 +4455,14 @@
     - service: vk
       id: 1629
       published: 2024-07-10-18-22-25
-      updated: 2024-07-12-17-14-48
+      updated: 2024-07-12-18-21-19
       followers: 919
       likes: 27
       views: 164
     - service: tg
       id: 465
       published: 2024-07-10-18-22-34
-      updated: 2024-07-12-17-14-49
+      updated: 2024-07-12-18-21-20
       followers: 396
       likes: 47
       views: 189
@@ -6023,10 +6023,10 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2024-07-11-17-15-20
+      updated: 2024-07-12-18-21-22
       followers: 919
-      likes: 28
-      views: 194
+      likes: 32
+      views: 212
       reposts: 2
       comments: !c |-
         GwcBKJwHtg1rG44r7Dz5IIUTwT912mrEdjyzGks8IqVeraIF+KgCHUh9/2x1bi0aWmUzJZVvAP6A
@@ -6036,18 +6036,18 @@
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2024-07-11-17-15-20
+      updated: 2024-07-12-18-21-21
       followers: 395
-      likes: 47
-      views: 161
+      likes: 49
+      views: 192
     - service: ig
       id: C9Ug-PYxnq2
       mediaId: '18034610213051067'
       published: 2024-07-12-11-13-31
-      updated: 2024-07-12-17-14-47
+      updated: 2024-07-12-18-21-18
       followers: 1427
-      likes: 47
-      views: 131
+      likes: 48
+      views: 144
       comments: !c CxGAkZPLQnkKdu/DgACqeW9zaGlfMjNpaaxJJ20gY3JlZXBpbmcD
 2017-07-08.saint-sotha:
   title: Saint Sotha
@@ -6384,6 +6384,14 @@
       comments: !c |-
         Cx+AkZPLQnXVm1jmgACpa3lkaW5vdjkx2SjQodCw0LzQsNGPINC70Y7QsdC40LzQsNGPINC70L7Q
         utCw0YbQuNGPAw==
+    - service: vk
+      id: 1631
+      published: 2024-07-12-18-21-28
+      followers: 920
+    - service: tg
+      id: 467
+      published: 2024-07-12-18-21-35
+      followers: 397
 2017-07-20.fort-darius:
   title: Fort Darius
   titleRu: Форт Дариус
@@ -10379,10 +10387,10 @@
       id: C9TlW1WTRtX
       mediaId: '18036502003995219'
       published: 2024-07-12-02-32-37
-      updated: 2024-07-12-17-14-48
+      updated: 2024-07-12-18-21-20
       followers: 1426
-      likes: 69
-      views: 212
+      likes: 71
+      views: 220
 2017-12-08.lower-circle:
   title: Lower Circle
   titleRu: Низший круг
@@ -10591,10 +10599,10 @@
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
       published: 2024-07-11-18-20-18
-      updated: 2024-07-12-17-14-49
+      updated: 2024-07-12-18-21-21
       followers: 1427
-      likes: 50
-      views: 241
+      likes: 51
+      views: 245
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет

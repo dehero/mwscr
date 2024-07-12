@@ -4,7 +4,38 @@
 
 # Published in 2024
 
-`136 items`
+`137 items`
+
+## <span id="2024-07-12.the-main-tower-of-tel-mora">The Main Tower of Tel Mora</span>
+
+`RU` Главная башня Тель Моры
+
+<a href="https://instagram.com/p/BWuBkI6j7il/" title="2017-07-19.the-main-tower-of-tel-mora"><img alt="store:/shots/2017-07-19.the-main-tower-of-tel-mora.png" src="../../assets/previews/shots/2017-07-19.the-main-tower-of-tel-mora.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Tel Mora` `🚀 OpenMW`
+
+```
+2024-07-12.the-main-tower-of-tel-mora
+```
+
+> `2017-07-19.the-main-tower-of-tel-mora`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BWuBkI6j7il/)       | 2017-07-19 |       |    53 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_358)  | 2017-07-19 |   132 |     8 |        69 |      8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1631) | 2024-07-12 |       |       |       920 |        |
+| [`tg`](https://t.me/mwscr/467)                     | 2024-07-12 |       |       |       397 |        |
+|                                                    |            |   132 |    61 |      1317 |        |
+
+#### Comments
+
+- `vk` <ins title="2017-07-19-07-17-37">kydinov91</ins> Самая любимая локация
+- `ig` <ins title="2017-07-19-08-07-14">polaroids_of_tarkovsky</ins> #бич
 
 ## <span id="2024-07-11.entrance-to-cavern-of-the-incarnate">Entrance to Cavern of the Incarnate</span>
 
@@ -28,9 +59,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTLoxf1jfRQ/)       | 2017-04-22 |       |    62 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_267)  | 2017-04-22 |   118 |     7 |        54 |      7 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1630) | 2024-07-11 |   146 |    27 |       920 |   2.93 |
-| [`tg`](https://t.me/mwscr/466)                     | 2024-07-11 |   117 |    45 |       397 |  11.34 |
-|                                                    |            |   381 |   141 |      1317 |   7.09 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1630) | 2024-07-11 |   148 |    27 |       920 |   2.93 |
+| [`tg`](https://t.me/mwscr/466)                     | 2024-07-11 |   118 |    45 |       397 |  11.34 |
+|                                                    |            |   384 |   141 |      1317 |   7.09 |
 
 ## <span id="2024-07-10.in-the-courtyard-of-royal-palace">In the Courtyard of Royal Palace</span>
 
@@ -80,9 +111,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bim1govnP18/)       | 2018-05-10 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_716)  | 2018-05-10 |   264 |    20 |       160 |   12.5 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1628) | 2024-07-09 |   162 |    26 |       920 |   2.83 |
-| [`tg`](https://t.me/mwscr/464)                     | 2024-07-09 |   144 |    53 |       396 |  13.38 |
-|                                                    |            |   570 |   188 |      1316 |   9.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1628) | 2024-07-09 |   183 |    28 |       920 |   3.04 |
+| [`tg`](https://t.me/mwscr/464)                     | 2024-07-09 |   164 |    57 |       396 |  14.39 |
+|                                                    |            |   611 |   194 |      1316 |   9.98 |
 
 ## <span id="2024-07-08.sneaking-scamp-at-bitter-coast">Sneaking Scamp at Bitter Coast</span>
 
@@ -106,10 +137,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWPUM15j2T1/)       | 2017-07-07 |       |    71 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_345)  | 2017-07-07 |   113 |     8 |        66 |      8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1622) | 2024-07-08 |   194 |    28 |       919 |   3.05 |
-| [`tg`](https://t.me/mwscr/463)                     | 2024-07-08 |   161 |    47 |       395 |   11.9 |
-| [`ig`](https://instagram.com/p/C9Ug-PYxnq2/)       | 2024-07-12 |   131 |    47 |      1427 |   3.29 |
-|                                                    |            |   599 |   201 |      2741 |   6.56 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1622) | 2024-07-08 |   212 |    32 |       919 |   3.48 |
+| [`tg`](https://t.me/mwscr/463)                     | 2024-07-08 |   192 |    49 |       395 |  12.41 |
+| [`ig`](https://instagram.com/p/C9Ug-PYxnq2/)       | 2024-07-12 |   144 |    48 |      1427 |   3.36 |
+|                                                    |            |   661 |   208 |      2741 |   6.81 |
 
 #### Comments
 
@@ -142,8 +173,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_526)  | 2017-12-07 |   177 |    20 |       106 |  18.87 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1621) | 2024-07-07 |   195 |    31 |       919 |   3.37 |
 | [`tg`](https://t.me/mwscr/462)                     | 2024-07-07 |   189 |    48 |       393 |  12.21 |
-| [`ig`](https://instagram.com/p/C9TlW1WTRtX/)       | 2024-07-12 |   212 |    69 |      1426 |   4.84 |
-|                                                    |            |   773 |   267 |      2738 |   9.82 |
+| [`ig`](https://instagram.com/p/C9TlW1WTRtX/)       | 2024-07-12 |   220 |    71 |      1426 |   4.98 |
+|                                                    |            |   781 |   269 |      2738 |   9.86 |
 
 #### Comments
 
@@ -173,8 +204,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_539)  | 2017-12-13 |   162 |    14 |       108 |  12.96 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1616) | 2024-07-06 |   224 |    45 |       919 |    4.9 |
 | [`tg`](https://t.me/mwscr/461)                     | 2024-07-06 |   206 |    56 |       393 |  14.25 |
-| [`ig`](https://instagram.com/p/C9StBG6pd7s/)       | 2024-07-11 |   241 |    50 |      1427 |    3.5 |
-|                                                    |            |   833 |   249 |      2739 |    8.9 |
+| [`ig`](https://instagram.com/p/C9StBG6pd7s/)       | 2024-07-11 |   245 |    51 |      1427 |   3.57 |
+|                                                    |            |   837 |   250 |      2739 |   8.92 |
 
 #### Comments
 
