@@ -28,9 +28,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWuBkI6j7il/)       | 2017-07-19 |       |    53 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_358)  | 2017-07-19 |   132 |     8 |        69 |      8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1631) | 2024-07-12 |   140 |    23 |       920 |    2.5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1631) | 2024-07-12 |   146 |    24 |       920 |   2.61 |
 | [`tg`](https://t.me/mwscr/467)                     | 2024-07-12 |   114 |    42 |       397 |  10.58 |
-|                                                    |            |   386 |   126 |      1317 |   7.03 |
+|                                                    |            |   392 |   127 |      1317 |   7.06 |
 
 #### Comments
 
@@ -59,10 +59,14 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTLoxf1jfRQ/)       | 2017-04-22 |       |    62 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_267)  | 2017-04-22 |   118 |     7 |        54 |      7 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1630) | 2024-07-11 |   168 |    30 |       920 |   3.26 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1630) | 2024-07-11 |   169 |    30 |       920 |   3.26 |
 | [`tg`](https://t.me/mwscr/466)                     | 2024-07-11 |   155 |    51 |       397 |  12.85 |
-| [`ig`](https://instagram.com/p/C9XOKgcRpUF/)       | 2024-07-13 |   114 |    27 |      1427 |   1.89 |
-|                                                    |            |   555 |   177 |      2744 |   6.25 |
+| [`ig`](https://instagram.com/p/C9XOKgcRpUF/)       | 2024-07-13 |   131 |    33 |      1427 |   2.31 |
+|                                                    |            |   573 |   183 |      2744 |   6.35 |
+
+#### Comments
+
+- `ig` <ins title="2024-07-13-17-07-22">bedroomspaghettii</ins> I use to love doing this one at night because of the scenery
 
 ## <span id="2024-07-10.in-the-courtyard-of-royal-palace">In the Courtyard of Royal Palace</span>
 
@@ -88,8 +92,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_291)  | 2017-05-15 |   117 |     9 |        55 |      9 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1629) | 2024-07-10 |   164 |    27 |       919 |   2.94 |
 | [`tg`](https://t.me/mwscr/465)                     | 2024-07-10 |   189 |    47 |       396 |  11.87 |
-| [`ig`](https://instagram.com/p/C9WWNUkOIO0/)       | 2024-07-13 |   183 |    50 |      1427 |    3.5 |
-|                                                    |            |   653 |   187 |      2742 |   6.83 |
+| [`ig`](https://instagram.com/p/C9WWNUkOIO0/)       | 2024-07-13 |   194 |    53 |      1427 |   3.71 |
+|                                                    |            |   664 |   190 |      2742 |   6.88 |
 
 ## <span id="2024-07-09.drooping-sun-of-molag-amur">Drooping Sun of Molag Amur</span>
 
@@ -115,8 +119,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_716)  | 2018-05-10 |   264 |    20 |       160 |   12.5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1628) | 2024-07-09 |   183 |    28 |       920 |   3.04 |
 | [`tg`](https://t.me/mwscr/464)                     | 2024-07-09 |   164 |    57 |       396 |  14.39 |
-| [`ig`](https://instagram.com/p/C9VfE-NtTXs/)       | 2024-07-12 |   187 |    53 |      1427 |   3.71 |
-|                                                    |            |   798 |   247 |      2743 |   8.41 |
+| [`ig`](https://instagram.com/p/C9VfE-NtTXs/)       | 2024-07-12 |   190 |    54 |      1427 |   3.78 |
+|                                                    |            |   801 |   248 |      2743 |   8.43 |
 
 ## <span id="2024-07-08.sneaking-scamp-at-bitter-coast">Sneaking Scamp at Bitter Coast</span>
 
@@ -142,8 +146,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_345)  | 2017-07-07 |   113 |     8 |        66 |      8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1622) | 2024-07-08 |   212 |    32 |       919 |   3.48 |
 | [`tg`](https://t.me/mwscr/463)                     | 2024-07-08 |   192 |    49 |       395 |  12.41 |
-| [`ig`](https://instagram.com/p/C9Ug-PYxnq2/)       | 2024-07-12 |   222 |    64 |      1427 |   4.48 |
-|                                                    |            |   739 |   224 |      2741 |   7.09 |
+| [`ig`](https://instagram.com/p/C9Ug-PYxnq2/)       | 2024-07-12 |   223 |    66 |      1427 |   4.63 |
+|                                                    |            |   740 |   226 |      2741 |   7.13 |
 
 #### Comments
 
@@ -176,8 +180,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_526)  | 2017-12-07 |   177 |    20 |       106 |  18.87 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1621) | 2024-07-07 |   209 |    33 |       919 |   3.59 |
 | [`tg`](https://t.me/mwscr/462)                     | 2024-07-07 |   206 |    50 |       393 |  12.72 |
-| [`ig`](https://instagram.com/p/C9TlW1WTRtX/)       | 2024-07-12 |   276 |    85 |      1426 |   5.96 |
-|                                                    |            |   868 |   287 |      2738 |  10.29 |
+| [`ig`](https://instagram.com/p/C9TlW1WTRtX/)       | 2024-07-12 |   277 |    86 |      1426 |   6.03 |
+|                                                    |            |   869 |   288 |      2738 |   10.3 |
 
 #### Comments
 
@@ -208,8 +212,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_539)  | 2017-12-13 |   162 |    14 |       108 |  12.96 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1616) | 2024-07-06 |   233 |    46 |       919 |   5.01 |
 | [`tg`](https://t.me/mwscr/461)                     | 2024-07-06 |   222 |    57 |       393 |   14.5 |
-| [`ig`](https://instagram.com/p/C9StBG6pd7s/)       | 2024-07-11 |   267 |    56 |      1427 |   3.92 |
-|                                                    |            |   884 |   257 |      2739 |    9.1 |
+| [`ig`](https://instagram.com/p/C9StBG6pd7s/)       | 2024-07-11 |   268 |    56 |      1427 |   3.92 |
+|                                                    |            |   885 |   257 |      2739 |    9.1 |
 
 #### Comments
 
