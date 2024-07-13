@@ -3725,14 +3725,14 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-07-13-01-08-16
+      updated: 2024-07-13-02-31-25
       followers: 920
       likes: 28
       views: 153
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-07-13-01-08-17
+      updated: 2024-07-13-02-31-26
       followers: 397
       likes: 48
       views: 143
@@ -6044,10 +6044,10 @@
       id: C9Ug-PYxnq2
       mediaId: '18034610213051067'
       published: 2024-07-12-11-13-31
-      updated: 2024-07-13-01-08-16
+      updated: 2024-07-13-02-31-26
       followers: 1427
       likes: 57
-      views: 184
+      views: 187
       comments: !c CxGAkZPLQnkKdu/DgACqeW9zaGlfMjNpaaxJJ20gY3JlZXBpbmcD
 2017-07-08.saint-sotha:
   title: Saint Sotha
@@ -6387,17 +6387,20 @@
     - service: vk
       id: 1631
       published: 2024-07-12-18-21-28
-      updated: 2024-07-13-01-08-15
+      updated: 2024-07-13-02-31-24
       followers: 920
       likes: 13
       views: 85
     - service: tg
       id: 467
       published: 2024-07-12-18-21-35
-      updated: 2024-07-13-01-08-16
+      updated: 2024-07-13-02-31-25
       followers: 397
       likes: 35
-      views: 81
+      views: 83
+      comments: !c |-
+        CyKAkZPLQnkKnjZzgAClNDA1NTfZMkdyYWIgaXQgbm93IG9yIHJlZ3JldCBsYXRlciBib2kgaHR0
+        cHM6Ly92dXdpbS5jb20vAw==
 2017-07-20.fort-darius:
   title: Fort Darius
   titleRu: Форт Дариус
@@ -10393,10 +10396,10 @@
       id: C9TlW1WTRtX
       mediaId: '18036502003995219'
       published: 2024-07-12-02-32-37
-      updated: 2024-07-13-01-08-17
+      updated: 2024-07-13-02-31-27
       followers: 1426
-      likes: 78
-      views: 251
+      likes: 79
+      views: 259
       comments: !c CxKAkZPLQnkKibmUAACzYmVmcmllbmRlZF9zdHJhbmdlcqVDb3N5LgM=
 2017-12-08.lower-circle:
   title: Lower Circle
@@ -10606,10 +10609,10 @@
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
       published: 2024-07-11-18-20-18
-      updated: 2024-07-13-01-08-17
+      updated: 2024-07-13-02-31-28
       followers: 1427
       likes: 52
-      views: 255
+      views: 256
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
