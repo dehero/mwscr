@@ -1724,18 +1724,18 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-07-06-23-13-43
+      updated: 2024-07-13-23-13-48
       followers: 916
       likes: 49
-      views: 370
+      views: 376
       reposts: 7
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-07-06-23-13-44
+      updated: 2024-07-13-23-13-49
       followers: 386
       likes: 69
-      views: 399
+      views: 420
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -3740,10 +3740,10 @@
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
       published: 2024-07-13-12-26-53
-      updated: 2024-07-13-22-13-10
+      updated: 2024-07-13-23-13-48
       followers: 1427
-      likes: 46
-      views: 210
+      likes: 48
+      views: 217
       comments: !c |-
         G1oA4I2UqJ2vASIiY623IinpKUiaEo+PF7f9gpLVKIk84KKfsyrF+XUYA85weUhenRu3f044U93e
         M7F1MmP+IcFSAhMwsCEIJGQQoJmiRVvLN0cb
@@ -4481,10 +4481,10 @@
       id: C9WWNUkOIO0
       mediaId: '18014944706197372'
       published: 2024-07-13-04-17-56
-      updated: 2024-07-13-22-13-11
+      updated: 2024-07-13-23-13-49
       followers: 1427
       likes: 59
-      views: 234
+      views: 246
 2017-05-16.in-the-yurt:
   title: In the Yurt
   titleRu: В юрте
@@ -6063,10 +6063,10 @@
       id: C9Ug-PYxnq2
       mediaId: '18034610213051067'
       published: 2024-07-12-11-13-31
-      updated: 2024-07-13-22-13-13
+      updated: 2024-07-13-23-13-51
       followers: 1427
-      likes: 67
-      views: 229
+      likes: 68
+      views: 230
       comments: !c CxGAkZPLQnkKdu/DgACqeW9zaGlfMjNpaaxJJ20gY3JlZXBpbmcD
 2017-07-08.saint-sotha:
   title: Saint Sotha
@@ -6406,25 +6406,26 @@
     - service: vk
       id: 1631
       published: 2024-07-12-18-21-28
-      updated: 2024-07-13-22-13-10
+      updated: 2024-07-13-23-13-47
       followers: 920
       likes: 24
-      views: 154
+      views: 155
+      reposts: 1
     - service: tg
       id: 467
       published: 2024-07-12-18-21-35
-      updated: 2024-07-13-22-13-10
+      updated: 2024-07-13-23-13-48
       followers: 397
       likes: 44
-      views: 136
+      views: 137
     - service: ig
       id: C9YKgzryToO
       mediaId: '17930722637791965'
       published: 2024-07-13-21-14-14
-      updated: 2024-07-13-22-13-09
+      updated: 2024-07-13-23-13-46
       followers: 1427
-      likes: 23
-      views: 40
+      likes: 33
+      views: 104
 2017-07-20.fort-darius:
   title: Fort Darius
   titleRu: Форт Дариус
@@ -10420,7 +10421,7 @@
       id: C9TlW1WTRtX
       mediaId: '18036502003995219'
       published: 2024-07-12-02-32-37
-      updated: 2024-07-13-22-13-14
+      updated: 2024-07-13-23-13-52
       followers: 1426
       likes: 87
       views: 283
