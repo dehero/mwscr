@@ -28,9 +28,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWuBkI6j7il/)       | 2017-07-19 |       |    53 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_358)  | 2017-07-19 |   132 |     8 |        69 |      8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1631) | 2024-07-12 |   101 |    15 |       920 |   1.63 |
-| [`tg`](https://t.me/mwscr/467)                     | 2024-07-12 |    92 |    39 |       397 |   9.82 |
-|                                                    |            |   325 |   115 |      1317 |   6.48 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1631) | 2024-07-12 |   108 |    17 |       920 |   1.85 |
+| [`tg`](https://t.me/mwscr/467)                     | 2024-07-12 |    96 |    39 |       397 |   9.82 |
+|                                                    |            |   336 |   117 |      1317 |   6.56 |
 
 #### Comments
 
@@ -59,9 +59,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTLoxf1jfRQ/)       | 2017-04-22 |       |    62 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_267)  | 2017-04-22 |   118 |     7 |        54 |      7 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1630) | 2024-07-11 |   155 |    28 |       920 |   3.04 |
-| [`tg`](https://t.me/mwscr/466)                     | 2024-07-11 |   145 |    49 |       397 |  12.34 |
-|                                                    |            |   418 |   146 |      1317 |   7.46 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1630) | 2024-07-11 |   158 |    29 |       920 |   3.15 |
+| [`tg`](https://t.me/mwscr/466)                     | 2024-07-11 |   147 |    49 |       397 |  12.34 |
+|                                                    |            |   423 |   147 |      1317 |    7.5 |
 
 ## <span id="2024-07-10.in-the-courtyard-of-royal-palace">In the Courtyard of Royal Palace</span>
 
@@ -87,8 +87,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_291)  | 2017-05-15 |   117 |     9 |        55 |      9 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1629) | 2024-07-10 |   164 |    27 |       919 |   2.94 |
 | [`tg`](https://t.me/mwscr/465)                     | 2024-07-10 |   189 |    47 |       396 |  11.87 |
-| [`ig`](https://instagram.com/p/C9WWNUkOIO0/)       | 2024-07-13 |    60 |    17 |      1427 |   1.19 |
-|                                                    |            |   530 |   154 |      2742 |   6.25 |
+| [`ig`](https://instagram.com/p/C9WWNUkOIO0/)       | 2024-07-13 |    71 |    23 |      1427 |   1.61 |
+|                                                    |            |   541 |   160 |      2742 |   6.35 |
 
 ## <span id="2024-07-09.drooping-sun-of-molag-amur">Drooping Sun of Molag Amur</span>
 
@@ -114,8 +114,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_716)  | 2018-05-10 |   264 |    20 |       160 |   12.5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1628) | 2024-07-09 |   183 |    28 |       920 |   3.04 |
 | [`tg`](https://t.me/mwscr/464)                     | 2024-07-09 |   164 |    57 |       396 |  14.39 |
-| [`ig`](https://instagram.com/p/C9VfE-NtTXs/)       | 2024-07-12 |   154 |    45 |      1427 |   3.15 |
-|                                                    |            |   765 |   239 |      2743 |   8.27 |
+| [`ig`](https://instagram.com/p/C9VfE-NtTXs/)       | 2024-07-12 |   160 |    47 |      1427 |   3.29 |
+|                                                    |            |   771 |   241 |      2743 |   8.31 |
 
 ## <span id="2024-07-08.sneaking-scamp-at-bitter-coast">Sneaking Scamp at Bitter Coast</span>
 
@@ -141,8 +141,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_345)  | 2017-07-07 |   113 |     8 |        66 |      8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1622) | 2024-07-08 |   212 |    32 |       919 |   3.48 |
 | [`tg`](https://t.me/mwscr/463)                     | 2024-07-08 |   192 |    49 |       395 |  12.41 |
-| [`ig`](https://instagram.com/p/C9Ug-PYxnq2/)       | 2024-07-12 |   200 |    61 |      1427 |   4.27 |
-|                                                    |            |   717 |   221 |      2741 |   7.04 |
+| [`ig`](https://instagram.com/p/C9Ug-PYxnq2/)       | 2024-07-12 |   203 |    62 |      1427 |   4.34 |
+|                                                    |            |   720 |   222 |      2741 |   7.06 |
 
 #### Comments
 
@@ -175,8 +175,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_526)  | 2017-12-07 |   177 |    20 |       106 |  18.87 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1621) | 2024-07-07 |   209 |    33 |       919 |   3.59 |
 | [`tg`](https://t.me/mwscr/462)                     | 2024-07-07 |   206 |    50 |       393 |  12.72 |
-| [`ig`](https://instagram.com/p/C9TlW1WTRtX/)       | 2024-07-12 |   271 |    85 |      1426 |   5.96 |
-|                                                    |            |   863 |   287 |      2738 |  10.29 |
+| [`ig`](https://instagram.com/p/C9TlW1WTRtX/)       | 2024-07-12 |   272 |    85 |      1426 |   5.96 |
+|                                                    |            |   864 |   287 |      2738 |  10.29 |
 
 #### Comments
 
@@ -328,8 +328,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_761)  | 2018-06-09 |   255 |    23 |       173 |  13.29 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1611) | 2024-07-02 |   243 |    36 |       918 |   3.92 |
 | [`tg`](https://t.me/mwscr/457)                     | 2024-07-02 |   236 |    54 |       391 |  13.81 |
-| [`ig`](https://instagram.com/p/C9O19DjtjrY/)       | 2024-07-10 |   385 |    79 |      1423 |   5.55 |
-|                                                    |            |  1119 |   291 |      2732 |   9.14 |
+| [`ig`](https://instagram.com/p/C9O19DjtjrY/)       | 2024-07-10 |   407 |    86 |      1423 |   6.04 |
+|                                                    |            |  1141 |   298 |      2732 |   9.27 |
 
 #### Comments
 
@@ -419,8 +419,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_765)  | 2018-06-13 |   346 |    20 |       173 |  11.56 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1608) | 2024-06-29 |   284 |    33 |       918 |   3.59 |
 | [`tg`](https://t.me/mwscr/454)                     | 2024-06-29 |   380 |    53 |       388 |  13.66 |
-| [`ig`](https://instagram.com/p/C9MOc3uo650/)       | 2024-07-09 |   596 |   138 |      1421 |   9.71 |
-|                                                    |            |  1606 |   363 |      2727 |   9.63 |
+| [`ig`](https://instagram.com/p/C9MOc3uo650/)       | 2024-07-09 |   619 |   143 |      1421 |  10.06 |
+|                                                    |            |  1629 |   368 |      2727 |   9.72 |
 
 #### Comments
 
@@ -430,6 +430,7 @@
 - `vk` <ins title="2018-06-30-10-48-47">peteevandrew</ins> Антон, спасибо! Туда не спускался. Сильный он?
 - `ig` <ins title="2024-07-09-13-25-53">leoemanuele_20</ins> This mf can solo almost everyone
 - `ig` <ins title="2024-07-11-04-43-14">befriended_stranger</ins> Bad. Ass. 🔥💀
+- `ig` <ins title="2024-07-12-14-45-59">spasnakrovi</ins> @hardposes
 
 ## <span id="2024-06-28.dead-trees-of-the-east-coast">Dead Trees of the East Coast</span>
 
