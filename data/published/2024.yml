@@ -244,7 +244,7 @@
     - service: vk
       id: 1440
       published: 2024-03-08-18-18-36
-      updated: 2024-07-06-05-14-45
+      updated: 2024-07-13-05-14-56
       followers: 893
       likes: 33
       views: 288
@@ -252,10 +252,10 @@
     - service: tg
       id: 339
       published: 2024-03-08-18-18-42
-      updated: 2024-07-06-05-14-44
+      updated: 2024-07-13-05-14-54
       followers: 345
       likes: 60
-      views: 502
+      views: 504
       comments: !c |-
         G7UAaCwSbFsO20O4qTA3lh8ReqZaodcmXU3GtExgBpP7wXnPGaqN7g5t8jtMLE1crgHgFU02OOSQ
         D6KBYQQJtmVWC0AwnuLz/v5nI8n7big/B4eh7Sjiorj25J2WAAV0C8sFPnSGiW4nzlbNAYf4uZgO
@@ -436,17 +436,17 @@
     - service: vk
       id: 1453
       published: 2024-03-15-18-58-50
-      updated: 2024-07-06-05-14-45
+      updated: 2024-07-13-05-14-55
       followers: 896
       likes: 30
       views: 273
     - service: tg
       id: 347
       published: 2024-03-15-18-58-56
-      updated: 2024-07-06-05-14-43
+      updated: 2024-07-13-05-14-54
       followers: 352
       likes: 45
-      views: 453
+      views: 455
 2024-03-16.night-guardess: 2017-03-01.night-guardess
 2024-03-17.teeth-of-pelagiad:
   title: Teeth of Pelagiad
@@ -1408,18 +1408,18 @@
     - service: vk
       id: 1517
       published: 2024-05-03-18-18-06
-      updated: 2024-07-06-05-14-42
+      updated: 2024-07-13-05-14-52
       followers: 912
       likes: 35
-      views: 269
+      views: 270
       reposts: 1
     - service: tg
       id: 397
       published: 2024-05-03-18-18-12
-      updated: 2024-07-06-05-14-42
+      updated: 2024-07-13-05-14-53
       followers: 366
       likes: 57
-      views: 420
+      views: 427
       comments: !c ixOAkZPLQnj0A30VgACrYm9icm92bmlrb3awSyBQIEEgQyBVIEIg0YvQuQM=
 2024-05-04.ahnassi:
   title: Ahnassi
