@@ -2911,11 +2911,17 @@
     - service: vk
       id: 1633
       published: 2024-07-13-18-18-57
+      updated: 2024-07-13-19-12-19
       followers: 919
+      likes: 6
+      views: 37
     - service: tg
       id: 468
       published: 2024-07-13-18-19-05
+      updated: 2024-07-13-19-12-20
       followers: 398
+      likes: 15
+      views: 41
 2018-04-11.fatal-rocks:
   title: Fatal Rocks
   titleRu: У гибельных скал
@@ -3807,25 +3813,25 @@
     - service: vk
       id: 1628
       published: 2024-07-09-18-20-20
-      updated: 2024-07-12-18-21-20
+      updated: 2024-07-13-19-12-22
       followers: 920
-      likes: 28
-      views: 183
+      likes: 31
+      views: 194
     - service: tg
       id: 464
       published: 2024-07-09-18-20-26
-      updated: 2024-07-12-18-21-20
+      updated: 2024-07-13-19-12-23
       followers: 396
-      likes: 57
-      views: 164
+      likes: 60
+      views: 198
     - service: ig
       id: C9VfE-NtTXs
       mediaId: '18072831043475404'
       published: 2024-07-12-20-16-12
-      updated: 2024-07-13-18-18-45
+      updated: 2024-07-13-19-12-20
       followers: 1427
       likes: 54
-      views: 191
+      views: 194
 2018-05-11.tree-crown-of-indoranyon:
   title: Tree Crown of Indoranyon
   titleRu: Древесная корона Индораниона
