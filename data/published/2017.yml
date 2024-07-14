@@ -2025,7 +2025,7 @@
     - service: vk
       id: 1454
       published: 2024-03-16-18-10-42
-      updated: 2024-07-07-04-17-13
+      updated: 2024-07-14-04-20-23
       followers: 896
       likes: 37
       views: 290
@@ -2033,10 +2033,10 @@
     - service: tg
       id: 348
       published: 2024-03-16-18-10-49
-      updated: 2024-07-07-04-17-10
+      updated: 2024-07-14-04-20-21
       followers: 353
       likes: 54
-      views: 424
+      views: 426
 2017-03-02.tel-vos:
   title: Tel Vos
   titleRu: Тель Вос
@@ -3740,10 +3740,10 @@
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
       published: 2024-07-13-12-26-53
-      updated: 2024-07-14-03-18-30
+      updated: 2024-07-14-04-20-17
       followers: 1427
-      likes: 55
-      views: 249
+      likes: 56
+      views: 255
       comments: !c |-
         G1oA4I2UqJ2vASIiY623IinpKUiaEo+PF7f9gpLVKIk84KKfsyrF+XUYA85weUhenRu3f044U93e
         M7F1MmP+IcFSAhMwsCEIJGQQoJmiRVvLN0cb
@@ -4481,10 +4481,10 @@
       id: C9WWNUkOIO0
       mediaId: '18014944706197372'
       published: 2024-07-13-04-17-56
-      updated: 2024-07-14-03-18-30
+      updated: 2024-07-14-04-20-17
       followers: 1427
       likes: 66
-      views: 287
+      views: 294
 2017-05-16.in-the-yurt:
   title: In the Yurt
   titleRu: В юрте
@@ -6063,7 +6063,7 @@
       id: C9Ug-PYxnq2
       mediaId: '18034610213051067'
       published: 2024-07-12-11-13-31
-      updated: 2024-07-14-03-18-32
+      updated: 2024-07-14-04-20-19
       followers: 1427
       likes: 70
       views: 234
@@ -6406,26 +6406,26 @@
     - service: vk
       id: 1631
       published: 2024-07-12-18-21-28
-      updated: 2024-07-14-03-18-31
+      updated: 2024-07-14-04-20-17
       followers: 920
       likes: 25
-      views: 159
+      views: 160
       reposts: 1
     - service: tg
       id: 467
       published: 2024-07-12-18-21-35
-      updated: 2024-07-14-03-18-31
+      updated: 2024-07-14-04-20-18
       followers: 397
       likes: 44
-      views: 138
+      views: 139
     - service: ig
       id: C9YKgzryToO
       mediaId: '17930722637791965'
       published: 2024-07-13-21-14-14
-      updated: 2024-07-14-03-18-29
+      updated: 2024-07-14-04-20-15
       followers: 1427
-      likes: 46
-      views: 164
+      likes: 48
+      views: 175
 2017-07-20.fort-darius:
   title: Fort Darius
   titleRu: Форт Дариус
@@ -7593,10 +7593,10 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2024-07-07-04-17-08
+      updated: 2024-07-14-04-20-18
       followers: 915
       likes: 41
-      views: 273
+      views: 275
 2017-09-01.the-last-refuge:
   title: The Last Refuge
   titleRu: Последнее прибежище
