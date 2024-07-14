@@ -3725,25 +3725,25 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-07-13-18-18-45
+      updated: 2024-07-14-18-21-39
       followers: 920
       likes: 30
-      views: 170
+      views: 188
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-07-13-18-18-46
+      updated: 2024-07-14-18-21-39
       followers: 397
-      likes: 51
-      views: 156
+      likes: 53
+      views: 172
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
       published: 2024-07-13-12-26-53
-      updated: 2024-07-14-17-21-46
+      updated: 2024-07-14-18-21-39
       followers: 1427
       likes: 63
-      views: 309
+      views: 311
       comments: !c |-
         G1oA4I2UqJ2vASIiY623IinpKUiaEo+PF7f9gpLVKIk84KKfsyrF+XUYA85weUhenRu3f044U93e
         M7F1MmP+IcFSAhMwsCEIJGQQoJmiRVvLN0cb
@@ -4481,10 +4481,10 @@
       id: C9WWNUkOIO0
       mediaId: '18014944706197372'
       published: 2024-07-13-04-17-56
-      updated: 2024-07-14-17-21-46
+      updated: 2024-07-14-18-21-40
       followers: 1427
       likes: 72
-      views: 319
+      views: 321
 2017-05-16.in-the-yurt:
   title: In the Yurt
   titleRu: В юрте
@@ -6422,10 +6422,10 @@
       id: C9YKgzryToO
       mediaId: '17930722637791965'
       published: 2024-07-13-21-14-14
-      updated: 2024-07-14-17-21-45
+      updated: 2024-07-14-18-21-38
       followers: 1427
       likes: 61
-      views: 255
+      views: 257
 2017-07-20.fort-darius:
   title: Fort Darius
   titleRu: Форт Дариус
@@ -6673,6 +6673,19 @@
       followers: 71
       likes: 6
       views: 134
+    - service: ig
+      id: C9ablVcRfHp
+      mediaId: '18030604346321050'
+      published: 2024-07-14-18-21-52
+      followers: 1427
+    - service: vk
+      id: 1635
+      published: 2024-07-14-18-21-58
+      followers: 919
+    - service: tg
+      id: 469
+      published: 2024-07-14-18-22-05
+      followers: 398
 2017-07-30.in-the-sanctuary:
   title: In the Sanctuary
   titleRu: В святилище
@@ -10637,10 +10650,10 @@
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
       published: 2024-07-11-18-20-18
-      updated: 2024-07-13-18-18-48
+      updated: 2024-07-14-18-21-40
       followers: 1427
-      likes: 56
-      views: 269
+      likes: 62
+      views: 286
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
