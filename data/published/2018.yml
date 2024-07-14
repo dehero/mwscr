@@ -2911,17 +2911,22 @@
     - service: vk
       id: 1633
       published: 2024-07-13-18-18-57
-      updated: 2024-07-14-04-20-16
+      updated: 2024-07-14-05-16-34
       followers: 919
-      likes: 17
-      views: 95
+      likes: 18
+      views: 101
     - service: tg
       id: 468
       published: 2024-07-13-18-19-05
-      updated: 2024-07-14-04-20-16
+      updated: 2024-07-14-05-16-35
       followers: 398
-      likes: 36
-      views: 83
+      likes: 37
+      views: 85
+    - service: ig
+      id: C9ZBvgVxQqH
+      mediaId: '17951687612696908'
+      published: 2024-07-14-05-16-50
+      followers: 1427
 2018-04-11.fatal-rocks:
   title: Fatal Rocks
   titleRu: У гибельных скал
@@ -3828,7 +3833,7 @@
       id: C9VfE-NtTXs
       mediaId: '18072831043475404'
       published: 2024-07-12-20-16-12
-      updated: 2024-07-14-04-20-18
+      updated: 2024-07-14-05-16-37
       followers: 1427
       likes: 57
       views: 212
