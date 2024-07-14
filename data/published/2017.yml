@@ -3740,10 +3740,10 @@
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
       published: 2024-07-13-12-26-53
-      updated: 2024-07-14-18-21-39
+      updated: 2024-07-14-19-13-27
       followers: 1427
       likes: 63
-      views: 311
+      views: 312
       comments: !c |-
         G1oA4I2UqJ2vASIiY623IinpKUiaEo+PF7f9gpLVKIk84KKfsyrF+XUYA85weUhenRu3f044U93e
         M7F1MmP+IcFSAhMwsCEIJGQQoJmiRVvLN0cb
@@ -4466,25 +4466,25 @@
     - service: vk
       id: 1629
       published: 2024-07-10-18-22-25
-      updated: 2024-07-13-19-12-21
+      updated: 2024-07-14-19-13-27
       followers: 919
-      likes: 29
-      views: 174
+      likes: 31
+      views: 191
     - service: tg
       id: 465
       published: 2024-07-10-18-22-34
-      updated: 2024-07-13-19-12-22
+      updated: 2024-07-14-19-13-28
       followers: 396
-      likes: 52
-      views: 221
+      likes: 53
+      views: 247
     - service: ig
       id: C9WWNUkOIO0
       mediaId: '18014944706197372'
       published: 2024-07-13-04-17-56
-      updated: 2024-07-14-18-21-40
+      updated: 2024-07-14-19-13-28
       followers: 1427
       likes: 72
-      views: 321
+      views: 322
 2017-05-16.in-the-yurt:
   title: In the Yurt
   titleRu: В юрте
@@ -6042,23 +6042,24 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2024-07-13-19-12-23
+      updated: 2024-07-14-19-13-30
       followers: 919
-      likes: 33
-      views: 223
+      likes: 34
+      views: 237
       reposts: 2
       comments: !c |-
-        GwcBKJwHtg1rG44r7Dz5IIUTwT912mrEdjyzGks8IqVeraIF+KgCHUh9/2x1bi0aWmUzJZVvAP6A
-        nEwNJklCFNPNNCNh5NifnoYYAFTQ4kTCmseexad/dwcbs7F02o6BYeDscHzFPoi3fzHnmRqMCm9R
-        Xd4cLVH8glAxiIYEjVRa59yJl9LnwlxGHd5sfqaWZusTS96RBuF6WuFj5kchEqLQMsiykdBSEjMH
-        CMBTJ+KPxY55FK3203E2bkb9YW/att4wiBssz/4CAgv4iy60XIFw0GuqAw==
+        G2kBQCwKbBu2NSy3aG+yVz+UohPxD3WxJdzxm9XDIz4P0oQv4KQgoECS93VuLRpaZbNZEiJMQLkh
+        CuW2tWJosmQyGo3pniEoDPe27bojfueIQ6lSPKE0zu1ZwsixW+70BR8wLNdWURA1fw1rceSR3S+w
+        LJPslqvNSNdR6lOeu+v6z0dp8Wy87t0STN975Us1p2f4hqc/DrA7kMq11hOq67/G+Ax0VPITUweK
+        3KjpbnWAVmEBX4QzE4TyQ4QHHaKUDHSTBbOKg/UjPhjfs3NNQUnmHsacjhT1zrHpryk2lS7sb5ME
+        UIMoXqBc/2/lfRNBckiak8sIjKLHRapo64ldb5s2jmZy0uX0ZUVlM3naLA==
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2024-07-13-19-12-24
+      updated: 2024-07-14-19-13-29
       followers: 395
-      likes: 52
-      views: 218
+      likes: 53
+      views: 224
     - service: ig
       id: C9Ug-PYxnq2
       mediaId: '18034610213051067'
@@ -6422,10 +6423,10 @@
       id: C9YKgzryToO
       mediaId: '17930722637791965'
       published: 2024-07-13-21-14-14
-      updated: 2024-07-14-18-21-38
+      updated: 2024-07-14-19-13-26
       followers: 1427
-      likes: 61
-      views: 257
+      likes: 64
+      views: 264
 2017-07-20.fort-darius:
   title: Fort Darius
   titleRu: Форт Дариус
@@ -6677,15 +6678,25 @@
       id: C9ablVcRfHp
       mediaId: '18030604346321050'
       published: 2024-07-14-18-21-52
+      updated: 2024-07-14-19-13-24
       followers: 1427
+      likes: 18
+      views: 48
     - service: vk
       id: 1635
       published: 2024-07-14-18-21-58
+      updated: 2024-07-14-19-13-25
       followers: 919
+      likes: 6
+      views: 45
     - service: tg
       id: 469
       published: 2024-07-14-18-22-05
+      updated: 2024-07-14-19-13-26
       followers: 398
+      likes: 19
+      views: 51
+      comments: !c ixOAkZPLQnkLJ8TOgAClYW5zaXO2QmVhdXRpZnVsIGFuY2llbnQgc2l0ZQM=
 2017-07-30.in-the-sanctuary:
   title: In the Sanctuary
   titleRu: В святилище
