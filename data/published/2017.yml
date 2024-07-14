@@ -3740,10 +3740,10 @@
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
       published: 2024-07-13-12-26-53
-      updated: 2024-07-14-22-14-39
+      updated: 2024-07-14-23-14-50
       followers: 1427
       likes: 63
-      views: 314
+      views: 315
       comments: !c |-
         G1oA4I2UqJ2vASIiY623IinpKUiaEo+PF7f9gpLVKIk84KKfsyrF+XUYA85weUhenRu3f044U93e
         M7F1MmP+IcFSAhMwsCEIJGQQoJmiRVvLN0cb
@@ -4481,7 +4481,7 @@
       id: C9WWNUkOIO0
       mediaId: '18014944706197372'
       published: 2024-07-13-04-17-56
-      updated: 2024-07-14-22-14-39
+      updated: 2024-07-14-23-14-50
       followers: 1427
       likes: 73
       views: 326
@@ -6423,10 +6423,10 @@
       id: C9YKgzryToO
       mediaId: '17930722637791965'
       published: 2024-07-13-21-14-14
-      updated: 2024-07-14-22-14-38
+      updated: 2024-07-14-23-14-49
       followers: 1427
       likes: 64
-      views: 269
+      views: 272
 2017-07-20.fort-darius:
   title: Fort Darius
   titleRu: Форт Дариус
@@ -6678,24 +6678,29 @@
       id: C9ablVcRfHp
       mediaId: '18030604346321050'
       published: 2024-07-14-18-21-52
-      updated: 2024-07-14-22-14-37
+      updated: 2024-07-14-23-14-48
       followers: 1427
-      likes: 28
-      views: 184
+      likes: 29
+      views: 201
     - service: vk
       id: 1635
       published: 2024-07-14-18-21-58
-      updated: 2024-07-14-22-14-37
+      updated: 2024-07-14-23-14-48
       followers: 919
-      likes: 13
-      views: 84
+      likes: 15
+      views: 93
+      comments: !c |-
+        G1sBAJwFzrmcjkH4LpGb3KLx/zwnG+G3yc7AZhBZoJ1IEk/uU900wj751Q25cGVZ88KgwPfeJmtZ
+        k+T07sz+jPmh0ZOFFCUf4/tmipAqNziOMBCPAtEM4sEXHnnYATsLX4dnPt//uNp6vo/fa/ZEo3dW
+        CPjy+NdEgQGLUrI1J7jFktQEN/RAaQ4BtAQ2UFjbKjBlAfOhRfOwHiwxo0LjsE80f8kPJtsFqaVp
+        2MZgY14GBaPZ4AQIVapUzpxLdeUZTbt5TYLeGWcQKQ4bmbIzQ/Tm5pCcMvkG
     - service: tg
       id: 469
       published: 2024-07-14-18-22-05
-      updated: 2024-07-14-22-14-37
+      updated: 2024-07-14-23-14-49
       followers: 398
-      likes: 28
-      views: 80
+      likes: 29
+      views: 85
       comments: !c ixOAkZPLQnkLJ8TOgAClYW5zaXO2QmVhdXRpZnVsIGFuY2llbnQgc2l0ZQM=
 2017-07-30.in-the-sanctuary:
   title: In the Sanctuary
