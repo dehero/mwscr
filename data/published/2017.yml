@@ -3725,17 +3725,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-07-14-18-21-39
+      updated: 2024-07-15-19-13-36
       followers: 920
-      likes: 30
-      views: 188
+      likes: 33
+      views: 204
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-07-14-18-21-39
+      updated: 2024-07-15-19-13-36
       followers: 397
-      likes: 53
-      views: 172
+      likes: 57
+      views: 208
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
@@ -4466,17 +4466,20 @@
     - service: vk
       id: 1629
       published: 2024-07-10-18-22-25
-      updated: 2024-07-14-19-13-27
+      updated: 2024-07-15-19-13-37
       followers: 919
-      likes: 31
-      views: 191
+      likes: 32
+      views: 205
+      comments: !c |-
+        iyyAkZPLQnkLdtlvgACraWQ2NDQ2NjUzMjLZQdCc0L7RgNC90YXQvtC70LQuINCT0L7RgNC+0LQg
+        0YHQstC10YLQsCwg0LPQvtGA0L7QtCDQvNCw0LPQuNC4Li4uAw==
     - service: tg
       id: 465
       published: 2024-07-10-18-22-34
-      updated: 2024-07-14-19-13-28
+      updated: 2024-07-15-19-13-36
       followers: 396
-      likes: 53
-      views: 247
+      likes: 54
+      views: 272
     - service: ig
       id: C9WWNUkOIO0
       mediaId: '18014944706197372'
@@ -6042,10 +6045,10 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2024-07-14-19-13-30
+      updated: 2024-07-15-19-13-39
       followers: 919
       likes: 34
-      views: 237
+      views: 247
       reposts: 2
       comments: !c |-
         G2kBQCwKbBu2NSy3aG+yVz+UohPxD3WxJdzxm9XDIz4P0oQv4KQgoECS93VuLRpaZbNZEiJMQLkh
@@ -6056,10 +6059,10 @@
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2024-07-14-19-13-29
+      updated: 2024-07-15-19-13-38
       followers: 395
-      likes: 53
-      views: 224
+      likes: 54
+      views: 248
     - service: ig
       id: C9Ug-PYxnq2
       mediaId: '18034610213051067'
@@ -6423,7 +6426,7 @@
       id: C9YKgzryToO
       mediaId: '17930722637791965'
       published: 2024-07-13-21-14-14
-      updated: 2024-07-15-18-20-21
+      updated: 2024-07-15-19-13-36
       followers: 1427
       likes: 70
       views: 296
@@ -6678,17 +6681,17 @@
       id: C9ablVcRfHp
       mediaId: '18030604346321050'
       published: 2024-07-14-18-21-52
-      updated: 2024-07-15-18-20-20
+      updated: 2024-07-15-19-13-34
       followers: 1427
       likes: 54
-      views: 381
+      views: 389
     - service: vk
       id: 1635
       published: 2024-07-14-18-21-58
-      updated: 2024-07-15-18-20-20
+      updated: 2024-07-15-19-13-35
       followers: 919
       likes: 22
-      views: 154
+      views: 155
       reposts: 1
       comments: !c |-
         G1sBAJwFzrmcjkH4LpGb3KLx/zwnG+G3yc7AZhBZoJ1IEk/uU900wj751Q25cGVZ88KgwPfeJmtZ
@@ -6698,10 +6701,10 @@
     - service: tg
       id: 469
       published: 2024-07-14-18-22-05
-      updated: 2024-07-15-18-20-21
+      updated: 2024-07-15-19-13-35
       followers: 398
-      likes: 38
-      views: 115
+      likes: 41
+      views: 130
       comments: !c ixOAkZPLQnkLJ8TOgAClYW5zaXO2QmVhdXRpZnVsIGFuY2llbnQgc2l0ZQM=
 2017-07-30.in-the-sanctuary:
   title: In the Sanctuary
@@ -8822,15 +8825,24 @@
       id: C9dAO1WgNlT
       mediaId: '18051784897742770'
       published: 2024-07-15-18-20-37
+      updated: 2024-07-15-19-13-34
       followers: 1427
+      likes: 22
+      views: 30
     - service: vk
       id: 1638
       published: 2024-07-15-18-20-44
+      updated: 2024-07-15-19-13-34
       followers: 919
+      likes: 8
+      views: 39
     - service: tg
       id: 470
       published: 2024-07-15-18-20-51
+      updated: 2024-07-15-19-13-34
       followers: 399
+      likes: 16
+      views: 50
 2017-10-15.mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров
@@ -10680,10 +10692,10 @@
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
       published: 2024-07-11-18-20-18
-      updated: 2024-07-14-18-21-40
+      updated: 2024-07-15-19-13-37
       followers: 1427
-      likes: 62
-      views: 286
+      likes: 66
+      views: 301
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
