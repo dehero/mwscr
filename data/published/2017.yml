@@ -6407,23 +6407,23 @@
     - service: vk
       id: 1631
       published: 2024-07-12-18-21-28
-      updated: 2024-07-14-17-21-46
+      updated: 2024-07-15-18-20-21
       followers: 920
-      likes: 26
-      views: 184
+      likes: 27
+      views: 206
       reposts: 1
     - service: tg
       id: 467
       published: 2024-07-12-18-21-35
-      updated: 2024-07-14-17-21-47
+      updated: 2024-07-15-18-20-22
       followers: 397
-      likes: 46
-      views: 147
+      likes: 48
+      views: 166
     - service: ig
       id: C9YKgzryToO
       mediaId: '17930722637791965'
       published: 2024-07-13-21-14-14
-      updated: 2024-07-15-17-13-55
+      updated: 2024-07-15-18-20-21
       followers: 1427
       likes: 70
       views: 296
@@ -6678,17 +6678,17 @@
       id: C9ablVcRfHp
       mediaId: '18030604346321050'
       published: 2024-07-14-18-21-52
-      updated: 2024-07-15-17-13-51
+      updated: 2024-07-15-18-20-20
       followers: 1427
       likes: 54
-      views: 373
+      views: 381
     - service: vk
       id: 1635
       published: 2024-07-14-18-21-58
-      updated: 2024-07-15-17-13-50
+      updated: 2024-07-15-18-20-20
       followers: 919
       likes: 22
-      views: 152
+      views: 154
       reposts: 1
       comments: !c |-
         G1sBAJwFzrmcjkH4LpGb3KLx/zwnG+G3yc7AZhBZoJ1IEk/uU900wj751Q25cGVZ88KgwPfeJmtZ
@@ -6698,10 +6698,10 @@
     - service: tg
       id: 469
       published: 2024-07-14-18-22-05
-      updated: 2024-07-15-17-13-50
+      updated: 2024-07-15-18-20-21
       followers: 398
       likes: 38
-      views: 114
+      views: 115
       comments: !c ixOAkZPLQnkLJ8TOgAClYW5zaXO2QmVhdXRpZnVsIGFuY2llbnQgc2l0ZQM=
 2017-07-30.in-the-sanctuary:
   title: In the Sanctuary
@@ -8818,6 +8818,19 @@
       followers: 91
       likes: 10
       views: 154
+    - service: ig
+      id: C9dAO1WgNlT
+      mediaId: '18051784897742770'
+      published: 2024-07-15-18-20-37
+      followers: 1427
+    - service: vk
+      id: 1638
+      published: 2024-07-15-18-20-44
+      followers: 919
+    - service: tg
+      id: 470
+      published: 2024-07-15-18-20-51
+      followers: 399
 2017-10-15.mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров

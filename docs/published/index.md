@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`139 items`
+`140 items`
+
+## <span id="2024-07-15.land-of-ruins">Land of Ruins</span>
+
+`RU` Земля руин
+
+<a href="https://instagram.com/p/BaPYN2kjbff/" title="2017-10-14.land-of-ruins"><img alt="store:/shots/2017-10-14.land-of-ruins.png" src="../../assets/previews/shots/2017-10-14.land-of-ruins.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-15.land-of-ruins)</code> `🚀 OpenMW` `ruin`
+
+```
+2024-07-15.land-of-ruins
+```
+
+> `2017-10-14.land-of-ruins`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BaPYN2kjbff/)       | 2017-10-14 |       |    74 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_460)  | 2017-10-14 |   154 |    10 |        91 |     10 |
+| [`ig`](https://instagram.com/p/C9dAO1WgNlT/)       | 2024-07-15 |       |       |      1427 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1638) | 2024-07-15 |       |       |       919 |        |
+| [`tg`](https://t.me/mwscr/470)                     | 2024-07-15 |       |       |       399 |        |
+|                                                    |            |   154 |    84 |      2745 |        |
 
 ## <span id="2024-07-14.near-berandas">Near Berandas</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BXICNkUDVx8/)       | 2017-07-29 |       |    50 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_370)  | 2017-07-29 |   134 |     6 |        71 |      6 |
-| [`ig`](https://instagram.com/p/C9ablVcRfHp/)       | 2024-07-14 |   373 |    54 |      1427 |   3.78 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1635) | 2024-07-14 |   152 |    22 |       919 |   2.39 |
-| [`tg`](https://t.me/mwscr/469)                     | 2024-07-14 |   114 |    38 |       398 |   9.55 |
-|                                                    |            |   773 |   170 |      2744 |   5.43 |
+| [`ig`](https://instagram.com/p/C9ablVcRfHp/)       | 2024-07-14 |   381 |    54 |      1427 |   3.78 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1635) | 2024-07-14 |   154 |    22 |       919 |   2.39 |
+| [`tg`](https://t.me/mwscr/469)                     | 2024-07-14 |   115 |    38 |       398 |   9.55 |
+|                                                    |            |   784 |   170 |      2744 |   5.43 |
 
 #### Comments
 
@@ -91,10 +118,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWuBkI6j7il/)       | 2017-07-19 |       |    53 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_358)  | 2017-07-19 |   132 |     8 |        69 |      8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1631) | 2024-07-12 |   184 |    26 |       920 |   2.83 |
-| [`tg`](https://t.me/mwscr/467)                     | 2024-07-12 |   147 |    46 |       397 |  11.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1631) | 2024-07-12 |   206 |    27 |       920 |   2.93 |
+| [`tg`](https://t.me/mwscr/467)                     | 2024-07-12 |   166 |    48 |       397 |  12.09 |
 | [`ig`](https://instagram.com/p/C9YKgzryToO/)       | 2024-07-13 |   296 |    70 |      1427 |   4.91 |
-|                                                    |            |   759 |   203 |      2744 |   6.83 |
+|                                                    |            |   800 |   206 |      2744 |   6.98 |
 
 #### Comments
 
