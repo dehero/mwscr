@@ -212,17 +212,17 @@
     - service: vk
       id: 1585
       published: 2024-06-17-18-19-59
-      updated: 2024-07-08-20-17-19
+      updated: 2024-07-15-21-15-12
       followers: 918
-      likes: 30
-      views: 237
+      likes: 31
+      views: 242
     - service: tg
       id: 442
       published: 2024-06-17-18-20-05
-      updated: 2024-07-08-20-17-19
+      updated: 2024-07-15-21-15-12
       followers: 385
       likes: 57
-      views: 365
+      views: 383
 2017-01-08.dirty-muriels-cornerclub-and-tel-naga:
   title: Dirty Muriel's Cornerclub and Tel Naga
   titleRu: Трактир Грязной Мюриэль и Тель Нага
@@ -4749,18 +4749,18 @@
     - service: vk
       id: 1610
       published: 2024-07-01-18-20-13
-      updated: 2024-07-08-20-17-18
+      updated: 2024-07-15-21-15-11
       followers: 918
-      likes: 50
-      views: 286
+      likes: 51
+      views: 299
       reposts: 1
     - service: tg
       id: 456
       published: 2024-07-01-18-20-19
-      updated: 2024-07-08-20-17-19
+      updated: 2024-07-15-21-15-12
       followers: 390
-      likes: 57
-      views: 248
+      likes: 59
+      views: 326
     - service: ig
       id: C9N-Whvuckx
       mediaId: '18031847912032202'
@@ -6681,17 +6681,17 @@
       id: C9ablVcRfHp
       mediaId: '18030604346321050'
       published: 2024-07-14-18-21-52
-      updated: 2024-07-15-20-15-46
+      updated: 2024-07-15-21-15-09
       followers: 1427
       likes: 55
-      views: 389
+      views: 390
     - service: vk
       id: 1635
       published: 2024-07-14-18-21-58
-      updated: 2024-07-15-20-15-47
+      updated: 2024-07-15-21-15-10
       followers: 919
       likes: 23
-      views: 156
+      views: 157
       reposts: 1
       comments: !c |-
         G1sBAJwFzrmcjkH4LpGb3KLx/zwnG+G3yc7AZhBZoJ1IEk/uU900wj751Q25cGVZ88KgwPfeJmtZ
@@ -6701,10 +6701,10 @@
     - service: tg
       id: 469
       published: 2024-07-14-18-22-05
-      updated: 2024-07-15-20-15-48
+      updated: 2024-07-15-21-15-11
       followers: 398
       likes: 41
-      views: 132
+      views: 133
       comments: !c ixOAkZPLQnkLJ8TOgAClYW5zaXO2QmVhdXRpZnVsIGFuY2llbnQgc2l0ZQM=
 2017-07-30.in-the-sanctuary:
   title: In the Sanctuary
@@ -8825,24 +8825,24 @@
       id: C9dAO1WgNlT
       mediaId: '18051784897742770'
       published: 2024-07-15-18-20-37
-      updated: 2024-07-15-20-15-46
+      updated: 2024-07-15-21-15-08
       followers: 1427
-      likes: 36
-      views: 98
+      likes: 40
+      views: 125
     - service: vk
       id: 1638
       published: 2024-07-15-18-20-44
-      updated: 2024-07-15-20-15-46
+      updated: 2024-07-15-21-15-09
       followers: 919
-      likes: 15
-      views: 69
+      likes: 18
+      views: 84
     - service: tg
       id: 470
       published: 2024-07-15-18-20-51
-      updated: 2024-07-15-20-15-47
+      updated: 2024-07-15-21-15-10
       followers: 399
-      likes: 25
-      views: 66
+      likes: 27
+      views: 73
 2017-10-15.mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров
