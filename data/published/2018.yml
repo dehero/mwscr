@@ -1738,10 +1738,10 @@
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
-      updated: 2024-07-08-02-33-35
+      updated: 2024-07-15-02-36-56
       followers: 909
       likes: 46
-      views: 297
+      views: 298
       reposts: 1
       comments: !c |-
         G4QA6I3EOIZyG6Y3MUKlQ1S3CI/1DLKkSZsJvO+Tm3mQZBc0oB88Z7wSGcko6pWUbWc9OOTA5fs8
@@ -1750,10 +1750,10 @@
     - service: tg
       id: 385
       published: 2024-04-21-18-17-47
-      updated: 2024-07-08-02-33-34
+      updated: 2024-07-15-02-36-55
       followers: 354
       likes: 62
-      views: 426
+      views: 430
       comments: !c |-
         GxUB4B2J6TY4WRjE4Mgnp1zkmUcccdHnh9N9+lNDlHuYbByrY3PPM8a2CJSsggX62iyD54f/3Ikm
         GAC/a7vtb9GHtjAN7AA0saC2ObcMzVoKdhBf9Sn9ndec8R1/Kq3Rhveo9epmJvELYVP/9xlRg7HB
@@ -2911,25 +2911,25 @@
     - service: vk
       id: 1633
       published: 2024-07-13-18-18-57
-      updated: 2024-07-15-01-09-58
+      updated: 2024-07-15-02-36-53
       followers: 919
       likes: 33
       views: 175
     - service: tg
       id: 468
       published: 2024-07-13-18-19-05
-      updated: 2024-07-15-01-09-58
+      updated: 2024-07-15-02-36-53
       followers: 398
       likes: 47
-      views: 118
+      views: 119
     - service: ig
       id: C9ZBvgVxQqH
       mediaId: '17951687612696908'
       published: 2024-07-14-05-16-50
-      updated: 2024-07-15-01-09-57
+      updated: 2024-07-15-02-36-53
       followers: 1427
       likes: 70
-      views: 275
+      views: 279
 2018-04-11.fatal-rocks:
   title: Fatal Rocks
   titleRu: У гибельных скал
