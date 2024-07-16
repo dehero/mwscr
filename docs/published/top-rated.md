@@ -171,8 +171,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cgxa9ZeMd46/)       | 2022-08-02 |       |   181 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1379) | 2022-08-02 |  1583 |    82 |       798 |  10.28 |
-| [`tg`](https://t.me/mwscr/305)                     | 2022-08-02 |  2162 |    68 |       281 |   24.2 |
-|                                                    |            |  3745 |   331 |      1079 |  17.24 |
+| [`tg`](https://t.me/mwscr/305)                     | 2022-08-02 |  2163 |    68 |       281 |   24.2 |
+|                                                    |            |  3746 |   331 |      1079 |  17.24 |
 
 #### Comments
 
@@ -565,7 +565,7 @@
 - `tg` <ins title="2023-07-28-17-04-06">yoursherlok</ins> you are still alive ffs brooooooo 🥰
 - `tg` <ins title="2023-07-28-17-04-41">fifio20</ins> сто лет ничего не постил
 - `ig` <ins title="2023-07-28-17-05-36">christos.g</ins> Welcome Back
-- `tg` <ins title="2023-07-28-17-06-19">ecxat</ins> оно живое!
+- `tg` <ins title="2023-07-28-17-06-19">deleted</ins> оно живое!
 - `ig` <ins title="2023-07-28-17-10-58">mwscr</ins> Thank you all for being so patient and my apologies for long absence. This is the first screenshot made by subscribers.
   - <ins title="2023-07-29-02-25-30">angelpeepee__</ins> I love you
 - `tg` <ins title="2023-07-28-17-14-07">mwscr</ins> Thank you all for being so patient and my apologies for long absence. This is the first screenshot made by subscribers.
@@ -1522,8 +1522,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CvvTMtXsME8/)       | 2023-08-09 |   708 |   170 |      1401 |  12.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1406) | 2023-08-09 |   496 |    42 |       896 |   4.69 |
-| [`tg`](https://t.me/mwscr/320)                     | 2023-08-09 |   972 |    70 |       319 |  21.94 |
-|                                                    |            |  2176 |   282 |      2616 |  12.92 |
+| [`tg`](https://t.me/mwscr/320)                     | 2023-08-09 |   973 |    70 |       319 |  21.94 |
+|                                                    |            |  2177 |   282 |      2616 |  12.92 |
 
 #### Comments
 
