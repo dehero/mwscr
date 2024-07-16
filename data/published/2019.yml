@@ -1343,7 +1343,7 @@
     - service: tg
       id: 183
       published: 2019-05-16
-      updated: 2024-07-09-10-35-59
+      updated: 2024-07-16-11-14-31
       likes: 2
       views: 838
 2019-05-17.three-trees-by-the-road:
@@ -1378,7 +1378,7 @@
     - service: tg
       id: 184
       published: 2019-05-17
-      updated: 2024-07-09-10-35-58
+      updated: 2024-07-16-11-14-31
       likes: 2
       views: 898
 2019-10-01.a-new-rise:
@@ -1421,7 +1421,7 @@
     - service: tg
       id: 185
       published: 2019-10-01
-      updated: 2024-07-09-10-35-58
+      updated: 2024-07-16-11-14-31
       likes: 3
       views: 597
 2019-10-02.dreamer:
@@ -1451,7 +1451,7 @@
     - service: tg
       id: 186
       published: 2019-10-02
-      updated: 2024-07-09-10-35-57
+      updated: 2024-07-16-11-14-30
       likes: 2
       views: 609
 2019-10-03.maiden-and-knight:
@@ -1482,7 +1482,7 @@
     - service: tg
       id: 187
       published: 2019-10-03
-      updated: 2024-07-09-10-35-57
+      updated: 2024-07-16-11-14-30
       likes: 2
       views: 598
 2019-10-04.rainy-welcome:
@@ -1528,7 +1528,7 @@
     - service: tg
       id: 188
       published: 2019-10-04
-      updated: 2024-07-09-10-35-57
+      updated: 2024-07-16-11-14-30
       likes: 2
       views: 629
 2019-10-05.saber-and-heart:
@@ -1577,7 +1577,7 @@
     - service: tg
       id: 189
       published: 2019-10-05
-      updated: 2024-07-09-10-35-56
+      updated: 2024-07-16-11-14-29
       likes: 2
       views: 610
 2019-10-06.dwemer-telescope:
@@ -1616,7 +1616,7 @@
     - service: tg
       id: 190
       published: 2019-10-06
-      updated: 2024-07-09-10-35-56
+      updated: 2024-07-16-11-14-29
       likes: 5
       views: 635
 2019-10-07.ancestral-web:
@@ -1653,7 +1653,7 @@
     - service: tg
       id: 191
       published: 2019-10-07
-      updated: 2024-07-09-10-35-55
+      updated: 2024-07-16-11-14-29
       likes: 2
       views: 642
 2019-10-08.dead-road:
@@ -1691,7 +1691,7 @@
     - service: tg
       id: 192
       published: 2019-10-08
-      updated: 2024-07-09-10-35-55
+      updated: 2024-07-16-11-14-28
       likes: 2
       views: 676
 2019-10-09.yellow-mile:
@@ -1725,7 +1725,7 @@
     - service: tg
       id: 193
       published: 2019-10-09
-      updated: 2024-07-09-10-35-55
+      updated: 2024-07-16-11-14-28
       likes: 2
       views: 693
 2019-10-10.somewhere-under-mournhold:
@@ -1762,7 +1762,7 @@
     - service: tg
       id: 194
       published: 2019-10-10
-      updated: 2024-07-09-10-35-54
+      updated: 2024-07-16-11-14-28
       likes: 3
       views: 676
 2019-10-11.red-threat:
@@ -1791,7 +1791,7 @@
     - service: tg
       id: 195
       published: 2019-10-11
-      updated: 2024-07-09-10-35-54
+      updated: 2024-07-16-11-14-27
       likes: 3
       views: 716
 2019-10-12.imperial-candelabrum:
@@ -1829,7 +1829,7 @@
     - service: tg
       id: 196
       published: 2019-10-12
-      updated: 2024-07-09-10-35-54
+      updated: 2024-07-16-11-14-27
       likes: 3
       views: 748
 2019-10-13.gray-distance:
@@ -1867,7 +1867,7 @@
     - service: tg
       id: 197
       published: 2019-10-13
-      updated: 2024-07-09-10-35-53
+      updated: 2024-07-16-11-14-27
       likes: 2
       views: 802
 2019-10-14.quiet-mooring:
@@ -1907,7 +1907,7 @@
     - service: tg
       id: 198
       published: 2019-10-14
-      updated: 2024-07-09-10-35-53
+      updated: 2024-07-16-11-14-26
       likes: 2
       views: 910
 2019-10-15.no-name-club:
@@ -1942,7 +1942,7 @@
     - service: tg
       id: 199
       published: 2019-10-15
-      updated: 2024-07-09-10-35-52
+      updated: 2024-07-16-11-14-26
       likes: 2
       views: 912
 2019-10-20.sunset-ridge:
@@ -1973,7 +1973,7 @@
     - service: tg
       id: 200
       published: 2019-10-20
-      updated: 2024-07-09-10-35-52
+      updated: 2024-07-16-11-14-25
       likes: 2
       views: 934
 2019-10-21.skaal-circle:
@@ -2013,9 +2013,9 @@
     - service: tg
       id: 201
       published: 2019-10-21
-      updated: 2024-07-09-10-35-51
+      updated: 2024-07-16-11-14-25
       likes: 2
-      views: 1091
+      views: 1092
 2019-10-22.the-wind-is-getting-stronger:
   title: The Wind Is Getting Stronger
   titleRu: Ветер крепчает
@@ -2053,6 +2053,6 @@
     - service: tg
       id: 202
       published: 2019-10-22
-      updated: 2024-07-09-10-35-51
+      updated: 2024-07-16-11-14-24
       likes: 2
-      views: 1078
+      views: 1079

@@ -43,10 +43,10 @@
     - service: tg
       id: 246
       published: 2022-06-23
-      updated: 2024-07-09-10-16-42
+      updated: 2024-07-16-11-13-49
       followers: 226
       likes: 85
-      views: 1108
+      views: 1112
       comments: !c |-
         G9cCIBwHdtMWJhbhaWnpTxDVmp2SE2HWqKDD8ohCxqIChjcGe5T6n7w2YBxY13l85Xz7q//6bnOD
         osAIzizR6HavL0I9hr516lV44ly6TJvwyDbDCkqaRdI+inYP9OgZ4E9vbu2hH/0ESSOPOAe7QkY/
@@ -88,10 +88,10 @@
     - service: tg
       id: 247
       published: 2022-06-24
-      updated: 2024-07-09-10-16-41
+      updated: 2024-07-16-11-13-48
       followers: 236
       likes: 58
-      views: 701
+      views: 702
       comments: !c |-
         GysBQJyFscNtEXSJekkpI3n5L2t61RW6CbJiRSwkAboBO0QhF4/vyzNumW5uOViyvRrqEA8T7jIJ
         SSozpqltdhoGGpB2SyShaotieuC35i+vJ5tGKPAp/xTro+NPe6//2BnzEK9Uqql4o8Xq8Nv18DA8
@@ -132,10 +132,10 @@
         - 248
         - 249
       published: 2022-06-25
-      updated: 2024-07-09-10-16-41
+      updated: 2024-07-16-11-13-48
       followers: 238
       likes: 52
-      views: 669
+      views: 671
       comments: !c CxGAkZPLQngZxDRBgACmdXNybm5lsNCS0L7Qu9GI0LXQsdC90L4D
 2022-06-26.candelabra:
   title: Candelabra
@@ -179,10 +179,10 @@
         - 252
         - 253
       published: 2022-06-26
-      updated: 2024-07-09-10-16-41
+      updated: 2024-07-16-11-13-47
       followers: 242
       likes: 57
-      views: 668
+      views: 669
       comments: !c |-
         G90AAOTnr/mFL2dVgEcrnkYFrYG66dsaMN/DE9vT4yywwkC4Agw4aIkcL3rC+HTUg2wMSxFuuWX4
         0uu+pAqnP83rZJ8s5/05WXvO8GRtEtJad0gXCwqirTmvqqIQSRtgJukafTg6vamU2W1Z9cTQlZpn
@@ -220,10 +220,10 @@
     - service: tg
       id: 254
       published: 2022-06-27
-      updated: 2024-07-09-10-16-40
+      updated: 2024-07-16-11-13-47
       followers: 241
       likes: 48
-      views: 644
+      views: 645
       comments: !c |-
         G0ABQI2UqO14C3N7KYgP00i1hCf6VXbx9IQ2aWSL9d3mprsM/nOHdiDwrva3j0l0gnmLMdLY0m0i
         Xl/YKBkmCz//eL4My+O3CfEhcFg7JXe823WA4UFCg3fcEezRsw0JNQ7ee9kWFGLTTscz74ARA1Mp
@@ -259,7 +259,7 @@
     - service: tg
       id: 255
       published: 2022-06-28
-      updated: 2024-07-09-10-16-40
+      updated: 2024-07-16-11-13-46
       followers: 242
       likes: 48
       views: 658
@@ -293,7 +293,7 @@
     - service: tg
       id: 256
       published: 2022-06-29
-      updated: 2024-07-09-10-16-39
+      updated: 2024-07-16-11-13-46
       followers: 245
       likes: 47
       views: 598
@@ -327,7 +327,7 @@
     - service: tg
       id: 257
       published: 2022-06-30
-      updated: 2024-07-09-10-16-39
+      updated: 2024-07-16-11-13-46
       followers: 246
       likes: 45
       views: 635
@@ -374,7 +374,7 @@
     - service: tg
       id: 258
       published: 2022-07-01
-      updated: 2024-07-09-10-16-38
+      updated: 2024-07-16-11-13-45
       followers: 247
       likes: 47
       views: 618
@@ -405,7 +405,7 @@
     - service: tg
       id: 259
       published: 2022-07-02
-      updated: 2024-07-09-10-16-19
+      updated: 2024-07-16-11-13-26
       followers: 248
       likes: 44
       views: 671
@@ -444,7 +444,7 @@
     - service: tg
       id: 260
       published: 2022-07-03
-      updated: 2024-07-09-10-16-18
+      updated: 2024-07-16-11-13-25
       followers: 252
       likes: 49
       views: 650
@@ -493,7 +493,7 @@
         - 263
         - 264
       published: 2022-07-04
-      updated: 2024-07-09-10-16-18
+      updated: 2024-07-16-11-13-25
       followers: 253
       likes: 62
       views: 690
@@ -527,7 +527,7 @@
     - service: tg
       id: 265
       published: 2022-07-05
-      updated: 2024-07-09-10-16-17
+      updated: 2024-07-16-11-13-25
       followers: 253
       likes: 43
       views: 636
@@ -566,7 +566,7 @@
     - service: tg
       id: 266
       published: 2022-07-06
-      updated: 2024-07-09-10-16-17
+      updated: 2024-07-16-11-13-24
       followers: 255
       likes: 42
       views: 614
@@ -599,7 +599,7 @@
     - service: tg
       id: 267
       published: 2022-07-07
-      updated: 2024-07-09-10-16-17
+      updated: 2024-07-16-11-13-24
       followers: 256
       likes: 55
       views: 688
@@ -633,7 +633,7 @@
     - service: tg
       id: 268
       published: 2022-07-08
-      updated: 2024-07-09-10-16-16
+      updated: 2024-07-16-11-13-23
       followers: 256
       likes: 48
       views: 629
@@ -671,7 +671,7 @@
     - service: tg
       id: 269
       published: 2022-07-09
-      updated: 2024-07-09-10-16-16
+      updated: 2024-07-16-11-13-23
       followers: 257
       likes: 55
       views: 646
@@ -710,7 +710,7 @@
     - service: tg
       id: 270
       published: 2022-07-10
-      updated: 2024-07-09-10-16-15
+      updated: 2024-07-16-11-13-22
       followers: 257
       likes: 59
       views: 758
@@ -759,7 +759,7 @@
         - 273
         - 274
       published: 2022-07-11
-      updated: 2024-07-09-10-16-15
+      updated: 2024-07-16-11-13-22
       followers: 257
       likes: 56
       views: 723
@@ -808,7 +808,7 @@
     - service: tg
       id: 275
       published: 2022-07-12
-      updated: 2024-07-09-10-16-15
+      updated: 2024-07-16-11-13-21
       followers: 258
       likes: 48
       views: 698
@@ -846,7 +846,7 @@
     - service: tg
       id: 276
       published: 2022-07-13
-      updated: 2024-07-09-10-16-14
+      updated: 2024-07-16-11-13-21
       followers: 260
       likes: 51
       views: 729
@@ -891,7 +891,7 @@
     - service: tg
       id: 277
       published: 2022-07-14
-      updated: 2024-07-09-10-16-14
+      updated: 2024-07-16-11-13-20
       followers: 260
       likes: 40
       views: 730
@@ -927,7 +927,7 @@
     - service: tg
       id: 278
       published: 2022-07-15
-      updated: 2024-07-09-10-16-13
+      updated: 2024-07-16-11-13-20
       followers: 262
       likes: 50
       views: 755
@@ -960,7 +960,7 @@
     - service: tg
       id: 279
       published: 2022-07-16
-      updated: 2024-07-09-10-16-13
+      updated: 2024-07-16-11-13-20
       followers: 262
       likes: 47
       views: 758
@@ -992,7 +992,7 @@
     - service: tg
       id: 280
       published: 2022-07-17
-      updated: 2024-07-09-10-16-13
+      updated: 2024-07-16-11-13-19
       followers: 262
       likes: 49
       views: 763
@@ -1034,7 +1034,7 @@
     - service: tg
       id: 281
       published: 2022-07-18
-      updated: 2024-07-09-10-16-12
+      updated: 2024-07-16-11-13-19
       followers: 267
       likes: 50
       views: 785
@@ -1068,7 +1068,7 @@
     - service: tg
       id: 282
       published: 2022-07-19
-      updated: 2024-07-09-10-16-12
+      updated: 2024-07-16-11-13-19
       followers: 267
       likes: 62
       views: 806
@@ -1100,7 +1100,7 @@
     - service: tg
       id: 283
       published: 2022-07-20
-      updated: 2024-07-09-10-16-12
+      updated: 2024-07-16-11-13-18
       followers: 266
       likes: 55
       views: 813
@@ -1143,10 +1143,10 @@
     - service: tg
       id: 284
       published: 2022-07-21
-      updated: 2024-07-09-10-16-11
+      updated: 2024-07-16-11-13-18
       followers: 267
       likes: 49
-      views: 1516
+      views: 1523
       comments: !c ixmAkpPLQngiXaFxAACnZGVsZXRlZKjQmNC80LHQsJPLQngiKf06AAClbXdzY3KnQUxNU0lWSQM=
 2022-07-22.lonely-towers:
   title: Lonely Towers
@@ -1189,7 +1189,7 @@
         - 287
         - 288
       published: 2022-07-22
-      updated: 2024-07-09-10-16-11
+      updated: 2024-07-16-11-13-17
       followers: 271
       likes: 58
       views: 852
@@ -1224,7 +1224,7 @@
     - service: tg
       id: 289
       published: 2022-07-23
-      updated: 2024-07-09-10-16-10
+      updated: 2024-07-16-11-13-17
       followers: 272
       likes: 53
       views: 896
@@ -1255,7 +1255,7 @@
     - service: tg
       id: 290
       published: 2022-07-24
-      updated: 2024-07-09-10-16-10
+      updated: 2024-07-16-11-13-17
       followers: 272
       likes: 52
       views: 935
@@ -1285,7 +1285,7 @@
     - service: tg
       id: 291
       published: 2022-07-25
-      updated: 2024-07-09-10-16-10
+      updated: 2024-07-16-11-13-16
       followers: 272
       likes: 54
       views: 1004
@@ -1329,14 +1329,14 @@
         - 294
         - 295
       published: 2022-07-26
-      updated: 2024-07-09-10-16-09
+      updated: 2024-07-16-11-13-16
       followers: 273
       likes: 54
       views: 1046
       comments: !c |-
-        G7YA6C0OeHPIJcUQzaDc/dyERgTeRvi4hFKJpEogimRyjznnSgkvL1EYcnVsN9uNeWTBrt3VJZX/
-        umAQRBxIoEsSp+LEizqBDTjkQDRYZSBd8JTiwdqcz2J1IXod6Kr9GjcFmJ46ShwC3kXbWk/qJFAY
-        5DpySBWWM+PF12AwqoBuEtruxXZNjO9QkZSrDJU+249L+LInosId
+        G7oA6C0OeHPIJcUQzaDc/dyExhPvbYSHSyiVSKoEe5FM/mHOuVLq60MThlwd2812Yx5ZsGt3dUnl
+        XxcMBhEHEuiSxKk48aJOYAMOORANVhlIFzyleLB257NYXYheV1Bj969xU4Cp19DiEPAu2nbVUyOB
+        wiDXkEOqsJwZL74Gg1EF9JDQdi+2a2J8h4qkXGWo9Nl+HMSXQREV7g==
 2022-07-27.camp-by-the-old-tree:
   title: Camp by the Old Tree
   titleRu: Лагерь у старого дерева
@@ -1362,7 +1362,7 @@
     - service: tg
       id: 296
       published: 2022-07-27
-      updated: 2024-07-09-10-16-09
+      updated: 2024-07-16-11-13-16
       followers: 272
       likes: 53
       views: 1111
@@ -1410,7 +1410,7 @@
     - service: tg
       id: 297
       published: 2022-07-28
-      updated: 2024-07-09-10-16-09
+      updated: 2024-07-16-11-13-15
       followers: 274
       likes: 54
       views: 1161
@@ -1451,7 +1451,7 @@
     - service: tg
       id: 298
       published: 2022-07-29
-      updated: 2024-07-09-10-16-08
+      updated: 2024-07-16-11-13-15
       followers: 274
       likes: 58
       views: 1323
