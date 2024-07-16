@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BT0zP5AjPDU/)       | 2017-05-08 |       |    69 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_283)  | 2017-05-08 |   123 |     7 |        55 |      7 |
-| [`ig`](https://instagram.com/p/C9flCaxPoS8/)       | 2024-07-16 |    73 |    24 |      1427 |   1.68 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1639) | 2024-07-16 |    56 |     5 |       919 |   0.54 |
-| [`tg`](https://t.me/mwscr/471)                     | 2024-07-16 |    65 |    26 |       400 |    6.5 |
-|                                                    |            |   317 |   131 |      2746 |   3.93 |
+| [`ig`](https://instagram.com/p/C9flCaxPoS8/)       | 2024-07-16 |   102 |    33 |      1427 |   2.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1639) | 2024-07-16 |    67 |     7 |       919 |   0.76 |
+| [`tg`](https://t.me/mwscr/471)                     | 2024-07-16 |    74 |    26 |       400 |    6.5 |
+|                                                    |            |   366 |   142 |      2746 |   4.14 |
 
 ## <span id="2024-07-15.land-of-ruins">Land of Ruins</span>
 
@@ -56,9 +56,9 @@
 | [`ig`](https://instagram.com/p/BaPYN2kjbff/)       | 2017-10-14 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_460)  | 2017-10-14 |   154 |    10 |        91 |     10 |
 | [`ig`](https://instagram.com/p/C9dAO1WgNlT/)       | 2024-07-15 |   342 |    65 |      1427 |   4.56 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1638) | 2024-07-15 |   162 |    31 |       919 |   3.37 |
-| [`tg`](https://t.me/mwscr/470)                     | 2024-07-15 |   166 |    47 |       399 |  11.78 |
-|                                                    |            |   824 |   227 |      2745 |   7.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1638) | 2024-07-15 |   164 |    31 |       919 |   3.37 |
+| [`tg`](https://t.me/mwscr/470)                     | 2024-07-15 |   178 |    47 |       399 |  11.78 |
+|                                                    |            |   838 |   227 |      2745 |   7.43 |
 
 ## <span id="2024-07-14.near-berandas">Near Berandas</span>
 
@@ -147,8 +147,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_358)  | 2017-07-19 |   132 |     8 |        69 |      8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1631) | 2024-07-12 |   211 |    28 |       920 |   3.04 |
 | [`tg`](https://t.me/mwscr/467)                     | 2024-07-12 |   194 |    49 |       397 |  12.34 |
-| [`ig`](https://instagram.com/p/C9YKgzryToO/)       | 2024-07-13 |   296 |    70 |      1427 |   4.91 |
-|                                                    |            |   833 |   208 |      2744 |   7.07 |
+| [`ig`](https://instagram.com/p/C9YKgzryToO/)       | 2024-07-13 |   306 |    71 |      1427 |   4.98 |
+|                                                    |            |   843 |   209 |      2744 |   7.09 |
 
 #### Comments
 
@@ -241,8 +241,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_716)  | 2018-05-10 |   264 |    20 |       160 |   12.5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1628) | 2024-07-09 |   211 |    31 |       920 |   3.37 |
 | [`tg`](https://t.me/mwscr/464)                     | 2024-07-09 |   247 |    62 |       396 |  15.66 |
-| [`ig`](https://instagram.com/p/C9VfE-NtTXs/)       | 2024-07-12 |   239 |    63 |      1427 |   4.41 |
-|                                                    |            |   961 |   265 |      2743 |   8.99 |
+| [`ig`](https://instagram.com/p/C9VfE-NtTXs/)       | 2024-07-12 |   240 |    63 |      1427 |   4.41 |
+|                                                    |            |   962 |   265 |      2743 |   8.99 |
 
 ## <span id="2024-07-08.sneaking-scamp-at-bitter-coast">Sneaking Scamp at Bitter Coast</span>
 
