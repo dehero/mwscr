@@ -3725,17 +3725,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-07-15-19-13-36
+      updated: 2024-07-16-20-15-27
       followers: 920
-      likes: 33
-      views: 204
+      likes: 35
+      views: 207
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-07-15-19-13-36
+      updated: 2024-07-16-20-15-27
       followers: 397
-      likes: 57
-      views: 208
+      likes: 58
+      views: 227
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
@@ -4275,24 +4275,24 @@
       id: C9flCaxPoS8
       mediaId: '18304655026082601'
       published: 2024-07-16-18-20-42
-      updated: 2024-07-16-19-13-15
+      updated: 2024-07-16-20-15-24
       followers: 1427
-      likes: 17
-      views: 37
+      likes: 24
+      views: 73
     - service: vk
       id: 1639
       published: 2024-07-16-18-20-48
-      updated: 2024-07-16-19-13-15
+      updated: 2024-07-16-20-15-25
       followers: 919
-      likes: 2
-      views: 35
+      likes: 5
+      views: 56
     - service: tg
       id: 471
       published: 2024-07-16-18-20-54
-      updated: 2024-07-16-19-13-16
+      updated: 2024-07-16-20-15-25
       followers: 400
-      likes: 18
-      views: 49
+      likes: 26
+      views: 65
 2017-05-09.youd-better-do-what-they-say:
   title: You'd Better Do What They Say
   titleRu: Вам лучше сделать, как они говорят
@@ -4488,20 +4488,20 @@
     - service: vk
       id: 1629
       published: 2024-07-10-18-22-25
-      updated: 2024-07-15-19-13-37
+      updated: 2024-07-16-20-15-28
       followers: 919
       likes: 32
-      views: 205
+      views: 206
       comments: !c |-
         iyyAkZPLQnkLdtlvgACraWQ2NDQ2NjUzMjLZQdCc0L7RgNC90YXQvtC70LQuINCT0L7RgNC+0LQg
         0YHQstC10YLQsCwg0LPQvtGA0L7QtCDQvNCw0LPQuNC4Li4uAw==
     - service: tg
       id: 465
       published: 2024-07-10-18-22-34
-      updated: 2024-07-15-19-13-36
+      updated: 2024-07-16-20-15-27
       followers: 396
-      likes: 54
-      views: 272
+      likes: 55
+      views: 290
     - service: ig
       id: C9WWNUkOIO0
       mediaId: '18014944706197372'
@@ -8847,24 +8847,24 @@
       id: C9dAO1WgNlT
       mediaId: '18051784897742770'
       published: 2024-07-15-18-20-37
-      updated: 2024-07-16-19-13-16
+      updated: 2024-07-16-20-15-25
       followers: 1427
       likes: 65
-      views: 338
+      views: 342
     - service: vk
       id: 1638
       published: 2024-07-15-18-20-44
-      updated: 2024-07-16-19-13-16
+      updated: 2024-07-16-20-15-26
       followers: 919
       likes: 31
-      views: 161
+      views: 162
     - service: tg
       id: 470
       published: 2024-07-15-18-20-51
-      updated: 2024-07-16-19-13-17
+      updated: 2024-07-16-20-15-26
       followers: 399
       likes: 47
-      views: 160
+      views: 166
 2017-10-15.mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров
@@ -10714,10 +10714,10 @@
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
       published: 2024-07-11-18-20-18
-      updated: 2024-07-15-19-13-37
+      updated: 2024-07-16-20-15-26
       followers: 1427
       likes: 66
-      views: 301
+      views: 304
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
