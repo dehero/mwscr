@@ -2100,10 +2100,10 @@
     - service: vk
       id: 1579
       published: 2024-06-12-18-20-23
-      updated: 2024-07-10-23-15-03
+      updated: 2024-07-17-23-16-25
       followers: 915
-      likes: 32
-      views: 260
+      likes: 33
+      views: 264
       comments: !c |-
         G6QA+J0Hto1t61goNPZjtMioiFuEnzaBSZNwRMmezq20pPkCdyJy3cagPbuvEahLIog8xuYmwllT
         KyKQSTJpSrY5Rx36vH9W9DWP42ME1tGajxFQT4MUfW7vwetbgOiTAg6YYje2SBGFRm+UZinHBpmR
@@ -2111,10 +2111,10 @@
     - service: tg
       id: 437
       published: 2024-06-12-18-20-29
-      updated: 2024-07-10-23-15-03
+      updated: 2024-07-17-23-16-24
       followers: 384
       likes: 53
-      views: 381
+      views: 393
 2024-06-13.propylon:
   title: Propylon
   titleRu: Пропильон
