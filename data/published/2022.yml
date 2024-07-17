@@ -1553,7 +1553,7 @@
     - service: vk
       id: 1377
       published: 2022-08-01
-      updated: 2024-07-10-06-21-14
+      updated: 2024-07-17-06-21-51
       followers: 797
       likes: 70
       views: 922
@@ -1596,10 +1596,10 @@
     - service: vk
       id: 1379
       published: 2022-08-02
-      updated: 2024-07-10-06-21-13
+      updated: 2024-07-17-06-21-51
       followers: 798
       likes: 82
-      views: 1583
+      views: 1589
       reposts: 7
     - service: tg
       id: 305
@@ -1638,7 +1638,7 @@
     - service: vk
       id: 1381
       published: 2022-08-03
-      updated: 2024-07-10-06-21-13
+      updated: 2024-07-17-06-21-50
       followers: 800
       likes: 74
       views: 1206
