@@ -4,7 +4,38 @@
 
 # Published in 2024
 
-`141 items`
+`142 items`
+
+## <span id="2024-07-17.tel-vos">Tel Vos</span>
+
+`RU` Тель Вос
+
+<a href="https://instagram.com/p/BRIQS42DXMy/" title="2017-03-02.tel-vos"><img alt="store:/shots/2017-03-02.tel-vos.png" src="../../assets/previews/shots/2017-03-02.tel-vos.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Tel Vos` `🚀 OpenMW` `nofilter` `castle` `towers` `fort`
+
+```
+2024-07-17.tel-vos
+```
+
+> `2017-03-02.tel-vos`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BRIQS42DXMy/)       | 2017-03-02 |       |    35 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_179)  | 2017-03-02 |   146 |    11 |        43 |     11 |
+| [`ig`](https://instagram.com/p/C9iJyhxNvPi/)       | 2024-07-17 |       |       |      1426 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1641) | 2024-07-17 |       |       |       919 |        |
+| [`tg`](https://t.me/mwscr/472)                     | 2024-07-17 |       |       |       401 |        |
+|                                                    |            |   146 |    46 |      2746 |        |
+
+#### Comments
+
+- `ig` <ins title="2017-03-02-13-11-11">syntax3rrur</ins> Takes me back. Keep it up! 😍
 
 ## <span id="2024-07-16.snowy-waiting">Snowy Waiting</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BT0zP5AjPDU/)       | 2017-05-08 |       |    69 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_283)  | 2017-05-08 |   123 |     7 |        55 |      7 |
-| [`ig`](https://instagram.com/p/C9flCaxPoS8/)       | 2024-07-16 |   339 |    62 |      1427 |   4.34 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1639) | 2024-07-16 |   136 |    15 |       919 |   1.63 |
-| [`tg`](https://t.me/mwscr/471)                     | 2024-07-16 |   113 |    37 |       400 |   9.25 |
-|                                                    |            |   711 |   190 |      2746 |   5.56 |
+| [`ig`](https://instagram.com/p/C9flCaxPoS8/)       | 2024-07-16 |   342 |    63 |      1427 |   4.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1639) | 2024-07-16 |   141 |    18 |       919 |   1.96 |
+| [`tg`](https://t.me/mwscr/471)                     | 2024-07-16 |   113 |    38 |       400 |    9.5 |
+|                                                    |            |   719 |   195 |      2746 |   5.72 |
 
 ## <span id="2024-07-15.land-of-ruins">Land of Ruins</span>
 
@@ -55,10 +86,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaPYN2kjbff/)       | 2017-10-14 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_460)  | 2017-10-14 |   154 |    10 |        91 |     10 |
-| [`ig`](https://instagram.com/p/C9dAO1WgNlT/)       | 2024-07-15 |   370 |    68 |      1427 |   4.77 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1638) | 2024-07-15 |   174 |    31 |       919 |   3.37 |
-| [`tg`](https://t.me/mwscr/470)                     | 2024-07-15 |   221 |    49 |       399 |  12.28 |
-|                                                    |            |   919 |   232 |      2745 |    7.6 |
+| [`ig`](https://instagram.com/p/C9dAO1WgNlT/)       | 2024-07-15 |   371 |    68 |      1427 |   4.77 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1638) | 2024-07-15 |   176 |    32 |       919 |   3.48 |
+| [`tg`](https://t.me/mwscr/470)                     | 2024-07-15 |   222 |    49 |       399 |  12.28 |
+|                                                    |            |   923 |   233 |      2745 |   7.63 |
 
 ## <span id="2024-07-14.near-berandas">Near Berandas</span>
 
