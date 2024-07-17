@@ -1345,18 +1345,18 @@
     - service: vk
       id: 1532
       published: 2024-05-14-18-18-38
-      updated: 2024-07-10-01-08-08
+      updated: 2024-07-17-01-08-27
       followers: 915
       likes: 45
-      views: 313
+      views: 315
       reposts: 1
     - service: tg
       id: 408
       published: 2024-05-14-18-18-46
-      updated: 2024-07-10-01-08-07
+      updated: 2024-07-17-01-08-26
       followers: 370
       likes: 60
-      views: 392
+      views: 397
       comments: !c |-
         izOAkZTLQnj3hUVcAACpR2F0ZW1hdGU32SJpdCB3b3VsZCBsb29rIGJldHRlciBpZiBhZGRlZCBt
         b2Rzk8tCePeFSMcAAKVhbnNpc75tb2RzIGJhbmlzaCB0aGlzIG4nd2FoIGFscmVhZHkD
@@ -4275,24 +4275,24 @@
       id: C9flCaxPoS8
       mediaId: '18304655026082601'
       published: 2024-07-16-18-20-42
-      updated: 2024-07-16-23-16-37
+      updated: 2024-07-17-01-08-23
       followers: 1427
-      likes: 43
-      views: 145
+      likes: 48
+      views: 167
     - service: vk
       id: 1639
       published: 2024-07-16-18-20-48
-      updated: 2024-07-16-23-16-37
+      updated: 2024-07-17-01-08-23
       followers: 919
       likes: 8
-      views: 74
+      views: 77
     - service: tg
       id: 471
       published: 2024-07-16-18-20-54
-      updated: 2024-07-16-23-16-38
+      updated: 2024-07-17-01-08-24
       followers: 400
-      likes: 30
-      views: 82
+      likes: 31
+      views: 87
 2017-05-09.youd-better-do-what-they-say:
   title: You'd Better Do What They Say
   titleRu: Вам лучше сделать, как они говорят
@@ -8847,24 +8847,24 @@
       id: C9dAO1WgNlT
       mediaId: '18051784897742770'
       published: 2024-07-15-18-20-37
-      updated: 2024-07-16-23-16-38
+      updated: 2024-07-17-01-08-24
       followers: 1427
-      likes: 65
-      views: 347
+      likes: 66
+      views: 352
     - service: vk
       id: 1638
       published: 2024-07-15-18-20-44
-      updated: 2024-07-16-23-16-38
+      updated: 2024-07-17-01-08-24
       followers: 919
       likes: 31
       views: 165
     - service: tg
       id: 470
       published: 2024-07-15-18-20-51
-      updated: 2024-07-16-23-16-38
+      updated: 2024-07-17-01-08-25
       followers: 399
       likes: 48
-      views: 191
+      views: 194
 2017-10-15.mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров
@@ -10191,10 +10191,10 @@
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
-      updated: 2024-07-10-01-08-09
+      updated: 2024-07-17-01-08-29
       followers: 909
       likes: 40
-      views: 297
+      views: 298
       reposts: 2
       comments: !c |-
         iyKAkZPLQnjwxAfQAACrbG9tYWV2X2xpdmXZLdCT0L7RgNC+0LQg0YHQstC10YLQsCwg0LPQvtGA
@@ -10202,10 +10202,10 @@
     - service: tg
       id: 387
       published: 2024-04-23-18-17-22
-      updated: 2024-07-10-01-08-08
+      updated: 2024-07-17-01-08-27
       followers: 355
       likes: 60
-      views: 1099
+      views: 1105
       comments: !c |-
         ix+AkpPLQnjxEjRDgACobW9uZ2xlcmmtQ2l0eSBvZiBNYWdpY5PLQnjw/03igAClYW5zaXOtQ2l0
         eSBvZiBMaWdodAM=
