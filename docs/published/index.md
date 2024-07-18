@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`142 items`
+`143 items`
+
+## <span id="2024-07-18.along-the-street">Along the Street</span>
+
+`RU` Вдоль по улице
+
+<a href="https://instagram.com/p/BlldXcqF7SD/" title="2018-07-23.along-the-street"><img alt="store:/shots/2018-07-23.along-the-street.png" src="../../assets/previews/shots/2018-07-23.along-the-street.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-18.along-the-street)</code> `🚀 OpenMW` `street`
+
+```
+2024-07-18.along-the-street
+```
+
+> `2018-07-23.along-the-street`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BlldXcqF7SD/)       | 2018-07-23 |       |    81 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_822)  | 2018-07-23 |   258 |    18 |       191 |   9.42 |
+| [`ig`](https://instagram.com/p/C9kur6MPT8G/)       | 2024-07-18 |       |       |      1426 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1642) | 2024-07-18 |       |       |       919 |        |
+| [`tg`](https://t.me/mwscr/473)                     | 2024-07-18 |       |       |       402 |        |
+|                                                    |            |   258 |    99 |      2747 |        |
 
 ## <span id="2024-07-17.tel-vos">Tel Vos</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRIQS42DXMy/)       | 2017-03-02 |       |    35 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_179)  | 2017-03-02 |   146 |    11 |        43 |     11 |
-| [`ig`](https://instagram.com/p/C9iJyhxNvPi/)       | 2024-07-17 |   357 |    78 |      1426 |   5.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1641) | 2024-07-17 |   164 |    31 |       919 |   3.37 |
-| [`tg`](https://t.me/mwscr/472)                     | 2024-07-17 |   168 |    49 |       401 |  12.22 |
-|                                                    |            |   835 |   204 |      2746 |   8.02 |
+| [`ig`](https://instagram.com/p/C9iJyhxNvPi/)       | 2024-07-17 |   362 |    80 |      1426 |   5.61 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1641) | 2024-07-17 |   169 |    32 |       919 |   3.48 |
+| [`tg`](https://t.me/mwscr/472)                     | 2024-07-17 |   169 |    49 |       401 |  12.22 |
+|                                                    |            |   846 |   207 |      2746 |   8.08 |
 
 #### Comments
 
@@ -92,10 +119,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaPYN2kjbff/)       | 2017-10-14 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_460)  | 2017-10-14 |   154 |    10 |        91 |     10 |
-| [`ig`](https://instagram.com/p/C9dAO1WgNlT/)       | 2024-07-15 |   371 |    68 |      1427 |   4.77 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1638) | 2024-07-15 |   176 |    32 |       919 |   3.48 |
-| [`tg`](https://t.me/mwscr/470)                     | 2024-07-15 |   222 |    49 |       399 |  12.28 |
-|                                                    |            |   923 |   233 |      2745 |   7.63 |
+| [`ig`](https://instagram.com/p/C9dAO1WgNlT/)       | 2024-07-15 |   399 |    71 |      1427 |   4.98 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1638) | 2024-07-15 |   188 |    36 |       919 |   3.92 |
+| [`tg`](https://t.me/mwscr/470)                     | 2024-07-15 |   258 |    53 |       399 |  13.28 |
+|                                                    |            |   999 |   244 |      2745 |   8.04 |
 
 ## <span id="2024-07-14.near-berandas">Near Berandas</span>
 
