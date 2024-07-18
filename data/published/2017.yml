@@ -1769,18 +1769,18 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2024-07-11-20-15-42
+      updated: 2024-07-18-20-16-16
       followers: 919
-      likes: 30
-      views: 232
+      likes: 32
+      views: 243
       reposts: 1
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2024-07-11-20-15-42
+      updated: 2024-07-18-20-16-17
       followers: 391
-      likes: 53
-      views: 289
+      likes: 55
+      views: 401
     - service: ig
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
@@ -2072,25 +2072,25 @@
       id: C9iJyhxNvPi
       mediaId: '18048176152834427'
       published: 2024-07-17-18-20-18
-      updated: 2024-07-18-19-13-15
+      updated: 2024-07-18-20-16-13
       followers: 1426
-      likes: 80
-      views: 365
+      likes: 81
+      views: 370
       comments: !c CxqAkZPLQnkMJuaHAACrZGVsYW5vc3BpZXO9QGRyYXZlbmp2IG9uZSBvZiBteSBmYXZvcml0ZXMD
     - service: vk
       id: 1641
       published: 2024-07-17-18-20-24
-      updated: 2024-07-18-19-13-14
+      updated: 2024-07-18-20-16-14
       followers: 919
       likes: 32
-      views: 171
+      views: 173
     - service: tg
       id: 472
       published: 2024-07-17-18-20-31
-      updated: 2024-07-18-19-13-16
+      updated: 2024-07-18-20-16-15
       followers: 401
-      likes: 49
-      views: 178
+      likes: 50
+      views: 186
       comments: !c ixeAkZPLQnkMHzc+AACrQXJ0b3JpYXM5MDG4bXkgZHJlYW0gaXMgdG8gbGl2ZSBoZXJlAw==
 2017-03-03.grazelands:
   title: Grazelands
@@ -2607,18 +2607,18 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2024-07-11-20-15-43
+      updated: 2024-07-18-20-16-17
       followers: 919
-      likes: 45
-      views: 299
+      likes: 47
+      views: 305
       reposts: 3
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2024-07-11-20-15-42
+      updated: 2024-07-18-20-16-18
       followers: 387
       likes: 63
-      views: 375
+      views: 388
       comments: !c |-
         CyWAkZPLQnkECYQ5gACsUm9iZXJfNTU1OTQ52THQrdGC0L4g0LLRi9Cz0LvRj9C00LjRgiDRgtCw
         0Log0L/RgNC10LrRgNCw0YHQvdC+Aw==
@@ -3749,17 +3749,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-07-17-20-16-11
+      updated: 2024-07-18-20-16-15
       followers: 920
-      likes: 36
-      views: 210
+      likes: 37
+      views: 216
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-07-17-20-16-11
+      updated: 2024-07-18-20-16-16
       followers: 397
       likes: 58
-      views: 238
+      views: 263
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
@@ -10740,10 +10740,10 @@
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
       published: 2024-07-11-18-20-18
-      updated: 2024-07-17-20-16-10
+      updated: 2024-07-18-20-16-14
       followers: 1427
-      likes: 67
-      views: 310
+      likes: 68
+      views: 313
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
