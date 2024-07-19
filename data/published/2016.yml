@@ -436,24 +436,25 @@
       id: C9nTZbKNLvv
       mediaId: '18057727063715097'
       published: 2024-07-19-18-20-27
-      updated: 2024-07-19-21-13-53
+      updated: 2024-07-19-22-15-53
       followers: 1427
-      likes: 36
-      views: 121
+      likes: 40
+      views: 140
     - service: vk
       id: 1644
       published: 2024-07-19-18-20-33
-      updated: 2024-07-19-21-13-53
+      updated: 2024-07-19-22-15-53
       followers: 919
-      likes: 19
-      views: 73
+      likes: 21
+      views: 84
+      reposts: 1
     - service: tg
       id: 474
       published: 2024-07-19-18-20-40
-      updated: 2024-07-19-21-13-55
+      updated: 2024-07-19-22-15-54
       followers: 400
-      likes: 29
-      views: 89
+      likes: 34
+      views: 94
 2016-11-30.the-road-most-travelled:
   title: The Road Most Travelled
   titleRu: Самая знакомая дорога
@@ -1386,17 +1387,17 @@
     - service: vk
       id: 1593
       published: 2024-06-21-18-20-26
-      updated: 2024-07-12-21-15-14
+      updated: 2024-07-19-22-15-56
       followers: 919
-      likes: 33
-      views: 264
+      likes: 34
+      views: 268
     - service: tg
       id: 446
       published: 2024-06-21-18-20-33
-      updated: 2024-07-12-21-15-13
+      updated: 2024-07-19-22-15-56
       followers: 386
       likes: 52
-      views: 407
+      views: 421
 2016-12-31.far-friends:
   title: Far Friends
   titleRu: Далёкие друзья
