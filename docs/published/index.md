@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`143 items`
+`144 items`
+
+## <span id="2024-07-19.nchuleftingth-expedition">Nchuleftingth Expedition</span>
+
+`RU` Экспедиция в Нчулефтингт
+
+<a href="https://instagram.com/p/BNYupn2lJSA/" title="2016-11-29.nchuleftingth-expedition"><img alt="store:/shots/2016-11-29.nchuleftingth-expedition.png" src="../../assets/previews/shots/2016-11-29.nchuleftingth-expedition.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Nchuleftingth` `🚀 OpenMW`
+
+```
+2024-07-19.nchuleftingth-expedition
+```
+
+> `2016-11-29.nchuleftingth-expedition`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BNYupn2lJSA/)       | 2016-11-29 |       |    15 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_16)   | 2017-01-22 |    54 |     1 |         4 |      1 |
+| [`ig`](https://instagram.com/p/C9nTZbKNLvv/)       | 2024-07-19 |       |       |      1427 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1644) | 2024-07-19 |       |       |       919 |        |
+| [`tg`](https://t.me/mwscr/474)                     | 2024-07-19 |       |       |       400 |        |
+|                                                    |            |    54 |    16 |      2746 |        |
 
 ## <span id="2024-07-18.along-the-street">Along the Street</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BlldXcqF7SD/)       | 2018-07-23 |       |    81 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_822)  | 2018-07-23 |   258 |    18 |       191 |   9.42 |
-| [`ig`](https://instagram.com/p/C9kur6MPT8G/)       | 2024-07-18 |   338 |    72 |      1426 |   5.05 |
+| [`ig`](https://instagram.com/p/C9kur6MPT8G/)       | 2024-07-18 |   344 |    74 |      1426 |   5.19 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1642) | 2024-07-18 |   153 |    27 |       919 |   2.94 |
-| [`tg`](https://t.me/mwscr/473)                     | 2024-07-18 |   131 |    41 |       402 |   10.2 |
-|                                                    |            |   880 |   239 |      2747 |    6.9 |
+| [`tg`](https://t.me/mwscr/473)                     | 2024-07-18 |   132 |    41 |       402 |   10.2 |
+|                                                    |            |   887 |   241 |      2747 |   6.94 |
 
 #### Comments
 
