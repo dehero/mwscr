@@ -6458,18 +6458,18 @@
     - service: vk
       id: 1631
       published: 2024-07-12-18-21-28
-      updated: 2024-07-18-19-13-18
+      updated: 2024-07-19-20-17-29
       followers: 920
       likes: 30
-      views: 217
+      views: 225
       reposts: 1
     - service: tg
       id: 467
       published: 2024-07-12-18-21-35
-      updated: 2024-07-18-19-13-18
+      updated: 2024-07-19-20-17-27
       followers: 397
-      likes: 50
-      views: 227
+      likes: 51
+      views: 244
     - service: ig
       id: C9YKgzryToO
       mediaId: '17930722637791965'
@@ -6729,17 +6729,17 @@
       id: C9ablVcRfHp
       mediaId: '18030604346321050'
       published: 2024-07-14-18-21-52
-      updated: 2024-07-18-19-13-15
+      updated: 2024-07-19-20-17-25
       followers: 1427
-      likes: 59
-      views: 412
+      likes: 60
+      views: 417
     - service: vk
       id: 1635
       published: 2024-07-14-18-21-58
-      updated: 2024-07-18-19-13-16
+      updated: 2024-07-19-20-17-26
       followers: 919
       likes: 28
-      views: 191
+      views: 199
       reposts: 1
       comments: !c |-
         G1sBAJwFzrmcjkH4LpGb3KLx/zwnG+G3yc7AZhBZoJ1IEk/uU900wj751Q25cGVZ88KgwPfeJmtZ
@@ -6749,10 +6749,10 @@
     - service: tg
       id: 469
       published: 2024-07-14-18-22-05
-      updated: 2024-07-18-19-13-17
+      updated: 2024-07-19-20-17-26
       followers: 398
-      likes: 46
-      views: 197
+      likes: 48
+      views: 212
       comments: !c ixOAkZPLQnkLJ8TOgAClYW5zaXO2QmVhdXRpZnVsIGFuY2llbnQgc2l0ZQM=
 2017-07-30.in-the-sanctuary:
   title: In the Sanctuary
