@@ -550,7 +550,7 @@
     - service: vk
       id: 1491
       published: 2024-04-12-18-14-50
-      updated: 2024-07-12-23-14-35
+      updated: 2024-07-19-23-15-25
       followers: 911
       likes: 35
       views: 264
@@ -558,10 +558,10 @@
     - service: tg
       id: 376
       published: 2024-04-12-18-15-00
-      updated: 2024-07-12-23-14-34
+      updated: 2024-07-19-23-15-26
       followers: 352
       likes: 68
-      views: 442
+      views: 443
       comments: !c |-
         G3kCICwOeHPoJNT0dgTVz0b0TxysCP/kgSRBxlEgcVjABcGRnOxTdSMYodAkCN/vK5SzFXt/92vU
         bJIm1nd3w9venyuqqBayEqSCS7uerJZP65+m2NyG1hh0Ux8fFA7oVxM/3TgWZoElGng0tkYQYIC9
@@ -3962,20 +3962,20 @@
     - service: vk
       id: 1545
       published: 2024-05-24-18-19-24
-      updated: 2024-07-12-23-14-34
+      updated: 2024-07-19-23-15-25
       followers: 917
       likes: 38
       views: 274
     - service: tg
       id: 418
       published: 2024-05-24-18-19-31
-      updated: 2024-07-12-23-14-33
+      updated: 2024-07-19-23-15-25
       followers: 376
       likes: 55
-      views: 450
+      views: 454
       comments: !c |-
-        iyGAkZTLQnj6vWCNAACvS3JhdG9zX3JhZ25hcmVrs9Ch0L7Qu9GF0YHRgtC10LnQvD+Ty0J4+r5/
-        qQAApW13c2NypNCU0LAD
+        CyKAkZTLQnj6vWCNAACwVWR6dW1ha2lfbmFydXRvMLPQodC+0LvRhdGB0YLQtdC50Lw/k8tCePq+
+        f6kAAKVtd3NjcqTQlNCwAw==
 2017-04-29.exploring-bethamez:
   title: Exploring Bethamez
   titleRu: Исследуя Бетамец
@@ -6474,10 +6474,10 @@
       id: C9YKgzryToO
       mediaId: '17930722637791965'
       published: 2024-07-13-21-14-14
-      updated: 2024-07-18-23-15-07
+      updated: 2024-07-19-23-15-22
       followers: 1427
       likes: 71
-      views: 313
+      views: 315
 2017-07-20.fort-darius:
   title: Fort Darius
   titleRu: Форт Дариус
