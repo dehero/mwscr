@@ -1251,18 +1251,18 @@
     - service: vk
       id: 1573
       published: 2024-06-06-18-19-32
-      updated: 2024-07-12-01-07-02
+      updated: 2024-07-19-01-08-34
       followers: 916
-      likes: 34
-      views: 263
+      likes: 35
+      views: 265
       reposts: 1
     - service: tg
       id: 431
       published: 2024-06-06-18-19-42
-      updated: 2024-07-12-01-07-02
+      updated: 2024-07-19-01-08-32
       followers: 384
       likes: 57
-      views: 379
+      views: 385
       comments: !c |-
         G7MAqIzEOBZy8KVYyKo5o1zeZ3w8oYwHKoIkVhG2QMrhnqzw1c0ZarYVsVsUBqJozH8ov1MOwEMs
         8uZxcNbzAeRuY+BaXh3eoqDXURRPafh5Ezju7if2ndQb9uHI4UGA1vzzaLrBC0E7gCaN+0RjFBJg
@@ -2681,10 +2681,10 @@
     - service: vk
       id: 1534
       published: 2024-05-16-18-18-18
-      updated: 2024-07-11-23-17-17
+      updated: 2024-07-19-01-08-36
       followers: 915
       likes: 40
-      views: 304
+      views: 305
       reposts: 1
       comments: !c |-
         G5AAqB2HcSyy8PJqYKMTI1Q6PV+3I/zjd6GH2ESSeLLPOZf6SkjuXPAXXW9JUaNUJB/j+4bydrPZ
@@ -2693,10 +2693,10 @@
     - service: tg
       id: 410
       published: 2024-05-16-18-18-25
-      updated: 2024-07-11-23-17-16
+      updated: 2024-07-19-01-08-34
       followers: 370
       likes: 57
-      views: 427
+      views: 430
       comments: !c |-
         iyuAkpPLQnj4TMeUAACpR2F0ZW1hdGU3tXRoZSBob29kIG9mIG1vcnJvd2luZJPLQnj4K14cgACr
         Ym9icm92bmlrb3a2R29vZCBldmVuaW5nLCBldmVyeW9uZQM=
@@ -3975,7 +3975,7 @@
     - service: vk
       id: 1543
       published: 2024-05-23-18-18-57
-      updated: 2024-07-12-01-07-04
+      updated: 2024-07-19-01-08-35
       followers: 917
       likes: 45
       views: 278
@@ -3986,10 +3986,10 @@
     - service: tg
       id: 417
       published: 2024-05-23-18-19-02
-      updated: 2024-07-12-01-07-03
+      updated: 2024-07-19-01-08-33
       followers: 376
       likes: 61
-      views: 444
+      views: 448
       comments: !c |-
         G2oAQCwS7JgUo4JbFLbXSSe3HeXg9+/KYQItsUDKNkr9BMBz1MmRfp5K+w5JbUUYeeQlGtudUy7B
         wLwlLaTTmQ9+z+FzUiKPXXt1ry6YlTKDt9dsp6hVlso7Yzzs571EH2zjEEa1DC64MAcA
@@ -5952,26 +5952,26 @@
       id: C9kur6MPT8G
       mediaId: '18044941120917928'
       published: 2024-07-18-18-21-13
-      updated: 2024-07-18-23-15-05
+      updated: 2024-07-19-01-08-30
       followers: 1426
-      likes: 49
-      views: 174
+      likes: 55
+      views: 194
     - service: vk
       id: 1642
       published: 2024-07-18-18-21-19
-      updated: 2024-07-18-23-15-05
+      updated: 2024-07-19-01-08-30
       followers: 919
       likes: 17
-      views: 92
+      views: 96
       reposts: 1
       comments: !c ixKAkZPLQnkMd+OugACqcGtlbGxlcm1hbq/QmtCw0Log0LTQvtC80LAD
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2024-07-18-23-15-06
+      updated: 2024-07-19-01-08-30
       followers: 402
       likes: 34
-      views: 98
+      views: 100
 2018-07-24.flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
