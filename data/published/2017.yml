@@ -5504,17 +5504,17 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2024-07-13-22-13-13
+      updated: 2024-07-20-22-14-16
       followers: 920
-      likes: 36
-      views: 256
+      likes: 37
+      views: 260
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2024-07-13-22-13-12
+      updated: 2024-07-20-22-14-15
       followers: 387
       likes: 58
-      views: 363
+      views: 372
 2017-06-18.manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
@@ -10715,10 +10715,10 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-07-13-21-14-01
+      updated: 2024-07-20-22-14-14
       followers: 919
-      likes: 46
-      views: 238
+      likes: 47
+      views: 252
       reposts: 1
       comments: !c |-
         GwkDICwOeNMnhJTV1OIP4sZdED0fFzvCf3gQUKRJWGZNMwk0NSWe7AMNLEpXW8j1S7RazBOZBw/M
@@ -10732,10 +10732,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-07-13-21-14-00
+      updated: 2024-07-20-22-14-14
       followers: 393
       likes: 58
-      views: 252
+      views: 322
     - service: ig
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
