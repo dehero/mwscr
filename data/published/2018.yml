@@ -2911,18 +2911,18 @@
     - service: vk
       id: 1633
       published: 2024-07-13-18-18-57
-      updated: 2024-07-19-20-17-28
+      updated: 2024-07-20-21-13-28
       followers: 919
       likes: 43
-      views: 264
+      views: 267
       reposts: 1
     - service: tg
       id: 468
       published: 2024-07-13-18-19-05
-      updated: 2024-07-19-20-17-27
+      updated: 2024-07-20-21-13-28
       followers: 398
-      likes: 54
-      views: 208
+      likes: 55
+      views: 227
     - service: ig
       id: C9ZBvgVxQqH
       mediaId: '17951687612696908'
@@ -4054,25 +4054,25 @@
       id: C9p4OKHt-4Z
       mediaId: '18062996623596268'
       published: 2024-07-20-18-20-46
-      updated: 2024-07-20-20-15-24
+      updated: 2024-07-20-21-13-26
       followers: 1426
-      likes: 45
-      views: 145
+      likes: 51
+      views: 190
       comments: !c ixeAkZPLQnkNGzlnAACsaG9uZXN0dGhpZWY1t0RhbW4gaXQgKHJlaW5zdGFsbHMgTVcpAw==
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2024-07-20-20-15-23
+      updated: 2024-07-20-21-13-25
       followers: 919
       likes: 11
-      views: 47
+      views: 56
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2024-07-20-20-15-26
+      updated: 2024-07-20-21-13-26
       followers: 400
-      likes: 26
-      views: 80
+      likes: 29
+      views: 88
       comments: !c CxWAkZPLQnkNGo4EAACpR2F0ZW1hdGU3tXRoaXMgaXMgZnJvbSAyMDE4IHRobwM=
 2018-05-17.inviting-nchuleft:
   title: Inviting Nchuleft
