@@ -4,7 +4,41 @@
 
 # Published in 2024
 
-`144 items`
+`145 items`
+
+## <span id="2024-07-20.let-the-sun-rise">Let the Sun Rise</span>
+
+`RU` Пусть восходит солнце
+
+<a href="https://instagram.com/p/Bi2ZlSinZJ_/" title="2018-05-16.let-the-sun-rise"><img alt="store:/shots/2018-05-16.let-the-sun-rise.png" src="../../assets/previews/shots/2018-05-16.let-the-sun-rise.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-20.let-the-sun-rise)</code> `🚀 OpenMW` `sun` `statue` `silouette`
+
+```
+2024-07-20.let-the-sun-rise
+```
+
+> `2018-05-16.let-the-sun-rise`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bi2ZlSinZJ_/)       | 2018-05-16 |       |   125 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_729)  | 2018-05-16 |   261 |    18 |       163 |  11.04 |
+| [`ig`](https://instagram.com/p/C9p4OKHt-4Z/)       | 2024-07-20 |       |       |      1426 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1646) | 2024-07-20 |       |       |       919 |        |
+| [`tg`](https://t.me/mwscr/475)                     | 2024-07-20 |       |       |       400 |        |
+|                                                    |            |   261 |   143 |      2745 |        |
+
+#### Comments
+
+- `ig` <ins title="2018-05-16-20-31-30">verian21</ins> This page should have way more viewers... Great work!
+  - <ins title="2018-05-16-21-03-39">mwscr</ins> Thanks!
+- `ig` <ins title="2018-05-17-12-51-43">rachilleart</ins> I&#39;m going to paint one of your screenshots one day I swear, they&#39;re so inspiring
+  - <ins title="2018-05-17-13-14-10">mwscr</ins> Thank you! I&#39;d like to see your painting.
 
 ## <span id="2024-07-19.nchuleftingth-expedition">Nchuleftingth Expedition</span>
 
@@ -28,10 +62,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNYupn2lJSA/)       | 2016-11-29 |       |    15 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_16)   | 2017-01-22 |    54 |     1 |         4 |      1 |
-| [`ig`](https://instagram.com/p/C9nTZbKNLvv/)       | 2024-07-19 |   327 |    75 |      1427 |   5.26 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1644) | 2024-07-19 |   179 |    40 |       919 |   4.35 |
-| [`tg`](https://t.me/mwscr/474)                     | 2024-07-19 |   143 |    44 |       400 |     11 |
-|                                                    |            |   703 |   175 |      2746 |    5.4 |
+| [`ig`](https://instagram.com/p/C9nTZbKNLvv/)       | 2024-07-19 |   335 |    76 |      1427 |   5.33 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1644) | 2024-07-19 |   182 |    41 |       919 |   4.46 |
+| [`tg`](https://t.me/mwscr/474)                     | 2024-07-19 |   149 |    45 |       400 |  11.25 |
+|                                                    |            |   720 |   178 |      2746 |   5.51 |
 
 ## <span id="2024-07-18.along-the-street">Along the Street</span>
 
@@ -55,10 +89,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BlldXcqF7SD/)       | 2018-07-23 |       |    81 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_822)  | 2018-07-23 |   258 |    18 |       191 |   9.42 |
-| [`ig`](https://instagram.com/p/C9kur6MPT8G/)       | 2024-07-18 |   371 |    79 |      1426 |   5.54 |
+| [`ig`](https://instagram.com/p/C9kur6MPT8G/)       | 2024-07-18 |   372 |    80 |      1426 |   5.61 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1642) | 2024-07-18 |   174 |    30 |       919 |   3.26 |
 | [`tg`](https://t.me/mwscr/473)                     | 2024-07-18 |   154 |    46 |       402 |  11.44 |
-|                                                    |            |   957 |   254 |      2747 |   7.42 |
+|                                                    |            |   958 |   255 |      2747 |   7.44 |
 
 #### Comments
 
@@ -87,10 +121,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRIQS42DXMy/)       | 2017-03-02 |       |    35 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_179)  | 2017-03-02 |   146 |    11 |        43 |     11 |
-| [`ig`](https://instagram.com/p/C9iJyhxNvPi/)       | 2024-07-17 |   398 |    81 |      1426 |   5.68 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1641) | 2024-07-17 |   193 |    34 |       919 |    3.7 |
-| [`tg`](https://t.me/mwscr/472)                     | 2024-07-17 |   206 |    54 |       401 |  13.47 |
-|                                                    |            |   943 |   215 |      2746 |   8.46 |
+| [`ig`](https://instagram.com/p/C9iJyhxNvPi/)       | 2024-07-17 |   416 |    83 |      1426 |   5.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1641) | 2024-07-17 |   210 |    34 |       919 |    3.7 |
+| [`tg`](https://t.me/mwscr/472)                     | 2024-07-17 |   214 |    56 |       401 |  13.97 |
+|                                                    |            |   986 |   219 |      2746 |   8.62 |
 
 #### Comments
 
@@ -120,10 +154,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BT0zP5AjPDU/)       | 2017-05-08 |       |    69 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_283)  | 2017-05-08 |   123 |     7 |        55 |      7 |
-| [`ig`](https://instagram.com/p/C9flCaxPoS8/)       | 2024-07-16 |   404 |    74 |      1427 |   5.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1639) | 2024-07-16 |   176 |    23 |       919 |    2.5 |
-| [`tg`](https://t.me/mwscr/471)                     | 2024-07-16 |   169 |    48 |       400 |     12 |
-|                                                    |            |   872 |   221 |      2746 |   6.67 |
+| [`ig`](https://instagram.com/p/C9flCaxPoS8/)       | 2024-07-16 |   409 |    75 |      1427 |   5.26 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1639) | 2024-07-16 |   184 |    24 |       919 |   2.61 |
+| [`tg`](https://t.me/mwscr/471)                     | 2024-07-16 |   195 |    48 |       400 |     12 |
+|                                                    |            |   911 |   223 |      2746 |   6.72 |
 
 #### Comments
 
