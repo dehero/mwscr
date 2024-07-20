@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bi2ZlSinZJ_/)       | 2018-05-16 |       |   125 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_729)  | 2018-05-16 |   261 |    18 |       163 |  11.04 |
-| [`ig`](https://instagram.com/p/C9p4OKHt-4Z/)       | 2024-07-20 |    63 |    34 |      1426 |   2.38 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1646) | 2024-07-20 |    33 |     6 |       919 |   0.65 |
-| [`tg`](https://t.me/mwscr/475)                     | 2024-07-20 |    56 |    19 |       400 |   4.75 |
-|                                                    |            |   413 |   202 |      2745 |   4.71 |
+| [`ig`](https://instagram.com/p/C9p4OKHt-4Z/)       | 2024-07-20 |   145 |    45 |      1426 |   3.16 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1646) | 2024-07-20 |    47 |    11 |       919 |    1.2 |
+| [`tg`](https://t.me/mwscr/475)                     | 2024-07-20 |    80 |    26 |       400 |    6.5 |
+|                                                    |            |   533 |   225 |      2745 |   5.47 |
 
 #### Comments
 
@@ -39,6 +39,8 @@
   - <ins title="2018-05-16-21-03-39">mwscr</ins> Thanks!
 - `ig` <ins title="2018-05-17-12-51-43">rachilleart</ins> I&#39;m going to paint one of your screenshots one day I swear, they&#39;re so inspiring
   - <ins title="2018-05-17-13-14-10">mwscr</ins> Thank you! I&#39;d like to see your painting.
+- `tg` <ins title="2024-07-20-19-40-24">Gatemate7</ins> this is from 2018 tho
+- `ig` <ins title="2024-07-20-19-52-06">honestthief5</ins> Damn it (reinstalls MW)
 
 ## <span id="2024-07-19.nchuleftingth-expedition">Nchuleftingth Expedition</span>
 
@@ -62,10 +64,14 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNYupn2lJSA/)       | 2016-11-29 |       |    15 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_16)   | 2017-01-22 |    54 |     1 |         4 |      1 |
-| [`ig`](https://instagram.com/p/C9nTZbKNLvv/)       | 2024-07-19 |   344 |    77 |      1427 |    5.4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1644) | 2024-07-19 |   183 |    41 |       919 |   4.46 |
-| [`tg`](https://t.me/mwscr/474)                     | 2024-07-19 |   159 |    49 |       400 |  12.25 |
-|                                                    |            |   740 |   183 |      2746 |   5.78 |
+| [`ig`](https://instagram.com/p/C9nTZbKNLvv/)       | 2024-07-19 |   348 |    77 |      1427 |    5.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1644) | 2024-07-19 |   186 |    42 |       919 |   4.57 |
+| [`tg`](https://t.me/mwscr/474)                     | 2024-07-19 |   166 |    50 |       400 |   12.5 |
+|                                                    |            |   754 |   185 |      2746 |   5.87 |
+
+#### Comments
+
+- `vk` <ins title="2024-07-20-19-49-28">lomaev_live</ins> «Эй, меня подождите!»
 
 ## <span id="2024-07-18.along-the-street">Along the Street</span>
 
@@ -185,10 +191,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaPYN2kjbff/)       | 2017-10-14 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_460)  | 2017-10-14 |   154 |    10 |        91 |     10 |
-| [`ig`](https://instagram.com/p/C9dAO1WgNlT/)       | 2024-07-15 |   406 |    71 |      1427 |   4.98 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1638) | 2024-07-15 |   198 |    36 |       919 |   3.92 |
-| [`tg`](https://t.me/mwscr/470)                     | 2024-07-15 |   289 |    55 |       399 |  13.78 |
-|                                                    |            |  1047 |   246 |      2745 |   8.17 |
+| [`ig`](https://instagram.com/p/C9dAO1WgNlT/)       | 2024-07-15 |   410 |    72 |      1427 |   5.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1638) | 2024-07-15 |   202 |    37 |       919 |   4.03 |
+| [`tg`](https://t.me/mwscr/470)                     | 2024-07-15 |   324 |    56 |       399 |  14.04 |
+|                                                    |            |  1090 |   249 |      2745 |   8.28 |
 
 ## <span id="2024-07-14.near-berandas">Near Berandas</span>
 
@@ -1365,9 +1371,9 @@
 | [`ig`](https://instagram.com/p/BTYfIxOjZg3/)       | 2017-04-27 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_272)  | 2017-04-27 |   112 |     6 |        54 |      6 |
 | [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   321 |    80 |      1422 |   5.63 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   295 |    34 |       916 |   3.71 |
-| [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |   384 |    53 |       384 |   13.8 |
-|                                                    |            |  1112 |   233 |      2722 |   7.28 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   297 |    35 |       916 |   3.82 |
+| [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |   391 |    53 |       384 |   13.8 |
+|                                                    |            |  1121 |   234 |      2722 |   7.31 |
 
 ## <span id="2024-06-07.ruins-in-a-mountain-dead-end">Ruins in a Mountain Dead End</span>
 
