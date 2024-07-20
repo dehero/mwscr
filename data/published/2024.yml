@@ -84,7 +84,7 @@
     - service: vk
       id: 1429
       published: 2024-03-01-18-32-46
-      updated: 2024-07-13-06-20-22
+      updated: 2024-07-20-06-21-34
       followers: 894
       likes: 30
       views: 275
@@ -95,10 +95,10 @@
     - service: tg
       id: 332
       published: 2024-03-01-18-32-52
-      updated: 2024-07-13-06-20-22
+      updated: 2024-07-20-06-21-32
       followers: 339
       likes: 58
-      views: 543
+      views: 545
       comments: !c |-
         CzOAkpPLQnjgqw2ZAACrYmh1dmFuYXNyaWmzaGVzIGp1c3QgbGlrZSBtZSBmcpTLQnjftezpgACu
         cXVpbnR1c19mYWJpdXOtT2ggc2hpdCBhIHJhdJPLQnjfyl1VgAClYW5zaXOk8J+QgAM=
@@ -244,7 +244,7 @@
     - service: vk
       id: 1440
       published: 2024-03-08-18-18-36
-      updated: 2024-07-13-05-14-56
+      updated: 2024-07-20-06-21-33
       followers: 893
       likes: 33
       views: 288
@@ -252,10 +252,10 @@
     - service: tg
       id: 339
       published: 2024-03-08-18-18-42
-      updated: 2024-07-13-05-14-54
+      updated: 2024-07-20-06-21-31
       followers: 345
       likes: 60
-      views: 504
+      views: 505
       comments: !c |-
         G7UAaCwSbFsO20O4qTA3lh8ReqZaodcmXU3GtExgBpP7wXnPGaqN7g5t8jtMLE1crgHgFU02OOSQ
         D6KBYQQJtmVWC0AwnuLz/v5nI8n7big/B4eh7Sjiorj25J2WAAV0C8sFPnSGiW4nzlbNAYf4uZgO
@@ -436,17 +436,17 @@
     - service: vk
       id: 1453
       published: 2024-03-15-18-58-50
-      updated: 2024-07-13-05-14-55
+      updated: 2024-07-20-06-21-33
       followers: 896
       likes: 30
       views: 273
     - service: tg
       id: 347
       published: 2024-03-15-18-58-56
-      updated: 2024-07-13-05-14-54
+      updated: 2024-07-20-06-21-31
       followers: 352
       likes: 45
-      views: 455
+      views: 457
 2024-03-16.night-guardess: 2017-03-01.night-guardess
 2024-03-17.teeth-of-pelagiad:
   title: Teeth of Pelagiad
@@ -1408,7 +1408,7 @@
     - service: vk
       id: 1517
       published: 2024-05-03-18-18-06
-      updated: 2024-07-13-05-14-52
+      updated: 2024-07-20-06-21-30
       followers: 912
       likes: 35
       views: 270
@@ -1416,10 +1416,10 @@
     - service: tg
       id: 397
       published: 2024-05-03-18-18-12
-      updated: 2024-07-13-05-14-53
+      updated: 2024-07-20-06-21-30
       followers: 366
       likes: 57
-      views: 427
+      views: 429
       comments: !c ixOAkZPLQnj0A30VgACrYm9icm92bmlrb3awSyBQIEEgQyBVIEIg0YvQuQM=
 2024-05-04.ahnassi:
   title: Ahnassi
