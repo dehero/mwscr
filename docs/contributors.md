@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 920 published, 17 pending, 62 rejected  
 Requested: 6 pending  
-Likes: 125776  
+Likes: 125778  
 
 ```
 dehero
