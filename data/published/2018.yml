@@ -4054,26 +4054,26 @@
       id: C9p4OKHt-4Z
       mediaId: '18062996623596268'
       published: 2024-07-20-18-20-46
-      updated: 2024-07-21-17-12-33
+      updated: 2024-07-21-18-18-42
       followers: 1426
       likes: 79
-      views: 372
+      views: 377
       comments: !c ixeAkZPLQnkNGzlnAACsaG9uZXN0dGhpZWY1t0RhbW4gaXQgKHJlaW5zdGFsbHMgTVcpAw==
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2024-07-21-17-12-33
+      updated: 2024-07-21-18-18-41
       followers: 919
       likes: 35
-      views: 423
+      views: 445
       reposts: 3
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2024-07-21-17-12-34
+      updated: 2024-07-21-18-18-42
       followers: 400
-      likes: 42
-      views: 146
+      likes: 45
+      views: 149
       comments: !c CxWAkZPLQnkNGo4EAACpR2F0ZW1hdGU3tXRoaXMgaXMgZnJvbSAyMDE4IHRobwM=
 2018-05-17.inviting-nchuleft:
   title: Inviting Nchuleft
@@ -7973,6 +7973,19 @@
       updated: 2024-07-16-13-15-01
       likes: 2
       views: 195
+    - service: ig
+      id: C9sczv1M3FM
+      mediaId: '18002206568418684'
+      published: 2024-07-21-18-18-55
+      followers: 1426
+    - service: vk
+      id: 1648
+      published: 2024-07-21-18-19-00
+      followers: 919
+    - service: tg
+      id: 476
+      published: 2024-07-21-18-19-07
+      followers: 400
 2018-09-25.what-do-you-know-about-comfort:
   title: What Do You Know About Comfort?
   titleRu: Что вы знаете о комфорте?

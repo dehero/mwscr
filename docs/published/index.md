@@ -4,7 +4,39 @@
 
 # Published in 2024
 
-`145 items`
+`146 items`
+
+## <span id="2024-07-21.verminous-fabricant">Verminous Fabricant</span>
+
+`RU` Мерзкий фабрикант
+
+<a href="https://instagram.com/p/BoHsR7lh0cz/" title="2018-09-24.verminous-fabricant"><img alt="store:/shots/2018-09-24.verminous-fabricant.png" src="../../assets/previews/shots/2018-09-24.verminous-fabricant.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-21.verminous-fabricant)</code> `🚀 OpenMW` `🔗 Tribunal`
+
+```
+2024-07-21.verminous-fabricant
+```
+
+> `2018-09-24.verminous-fabricant`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BoHsR7lh0cz/)       | 2018-09-24 |       |   108 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_941)  | 2018-09-24 |   361 |    23 |       241 |   9.54 |
+| [`tg`](https://t.me/mwscr/49)                      | 2018-09-24 |   195 |     2 |           |        |
+| [`ig`](https://instagram.com/p/C9sczv1M3FM/)       | 2024-07-21 |       |       |      1426 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1648) | 2024-07-21 |       |       |       919 |        |
+| [`tg`](https://t.me/mwscr/476)                     | 2024-07-21 |       |       |       400 |        |
+|                                                    |            |   556 |   133 |      2745 |        |
+
+#### Comments
+
+- `vk` <ins title="2018-09-25-21-19-57">id380363858</ins> И вовсе он не мерзкий, а очень даже милый!
 
 ## <span id="2024-07-20.let-the-sun-rise">Let the Sun Rise</span>
 
@@ -28,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bi2ZlSinZJ_/)       | 2018-05-16 |       |   125 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_729)  | 2018-05-16 |   261 |    18 |       163 |  11.04 |
-| [`ig`](https://instagram.com/p/C9p4OKHt-4Z/)       | 2024-07-20 |   372 |    79 |      1426 |   5.54 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1646) | 2024-07-20 |   423 |    35 |       919 |   3.81 |
-| [`tg`](https://t.me/mwscr/475)                     | 2024-07-20 |   146 |    42 |       400 |   10.5 |
-|                                                    |            |  1202 |   299 |      2745 |   7.72 |
+| [`ig`](https://instagram.com/p/C9p4OKHt-4Z/)       | 2024-07-20 |   377 |    79 |      1426 |   5.54 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1646) | 2024-07-20 |   445 |    35 |       919 |   3.81 |
+| [`tg`](https://t.me/mwscr/475)                     | 2024-07-20 |   149 |    45 |       400 |  11.25 |
+|                                                    |            |  1232 |   302 |      2745 |   7.91 |
 
 #### Comments
 
@@ -64,10 +96,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNYupn2lJSA/)       | 2016-11-29 |       |    15 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_16)   | 2017-01-22 |    54 |     1 |         4 |      1 |
-| [`ig`](https://instagram.com/p/C9nTZbKNLvv/)       | 2024-07-19 |   371 |    83 |      1427 |   5.82 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1644) | 2024-07-19 |   225 |    44 |       919 |   4.79 |
+| [`ig`](https://instagram.com/p/C9nTZbKNLvv/)       | 2024-07-19 |   373 |    83 |      1427 |   5.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1644) | 2024-07-19 |   228 |    44 |       919 |   4.79 |
 | [`tg`](https://t.me/mwscr/474)                     | 2024-07-19 |   183 |    52 |       400 |     13 |
-|                                                    |            |   833 |   195 |      2746 |   6.15 |
+|                                                    |            |   838 |   195 |      2746 |   6.15 |
 
 #### Comments
 
