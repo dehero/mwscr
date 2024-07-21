@@ -2871,18 +2871,18 @@
     - service: vk
       id: 1583
       published: 2024-06-16-18-19-48
-      updated: 2024-07-14-22-14-43
+      updated: 2024-07-21-23-15-29
       followers: 918
-      likes: 50
-      views: 351
+      likes: 51
+      views: 354
       reposts: 2
     - service: tg
       id: 441
       published: 2024-06-16-18-19-56
-      updated: 2024-07-14-22-14-41
+      updated: 2024-07-21-23-15-30
       followers: 386
       likes: 58
-      views: 384
+      views: 392
 2017-03-27.on-the-edge-of-a-dead-forest:
   title: On the Edge of a Dead Forest
   titleRu: На краю мёртвого леса
@@ -9556,18 +9556,18 @@
     - service: vk
       id: 1547
       published: 2024-05-26-18-17-46
-      updated: 2024-07-14-22-14-45
+      updated: 2024-07-21-23-15-32
       followers: 918
       likes: 30
-      views: 273
+      views: 274
       reposts: 2
     - service: tg
       id: 420
       published: 2024-05-26-18-17-52
-      updated: 2024-07-14-22-14-42
+      updated: 2024-07-21-23-15-32
       followers: 377
       likes: 62
-      views: 401
+      views: 403
 2017-11-07.corridor-keeper:
   title: Corridor Keeper
   titleRu: Хранитель прохода
@@ -9726,17 +9726,17 @@
     - service: vk
       id: 1609
       published: 2024-06-30-18-20-32
-      updated: 2024-07-14-22-14-41
+      updated: 2024-07-21-23-15-28
       followers: 918
-      likes: 33
-      views: 216
+      likes: 34
+      views: 221
     - service: tg
       id: 455
       published: 2024-06-30-18-20-40
-      updated: 2024-07-14-22-14-40
+      updated: 2024-07-21-23-15-28
       followers: 388
       likes: 55
-      views: 393
+      views: 416
     - service: ig
       id: C9NHQl1t7nN
       mediaId: '18003207311373105'
@@ -10505,10 +10505,10 @@
     - service: vk
       id: 1621
       published: 2024-07-07-18-18-57
-      updated: 2024-07-14-22-14-39
+      updated: 2024-07-21-23-15-27
       followers: 919
-      likes: 33
-      views: 234
+      likes: 34
+      views: 243
       comments: !c |-
         G60A4B0Hdiyz8PBedh9P7CdbXWlHHz8umbqgDmzCQGEliiWbkuVd1G36nGcVGsKW6cme82sX3GwC
         L2ADTsQDogB3nga8P68YzcH78+Mxx50wfW+Py348z6/tet/2/4tQO44t+bIexT4wgJ1uPKw4jrN+
@@ -10516,10 +10516,10 @@
     - service: tg
       id: 462
       published: 2024-07-07-18-19-06
-      updated: 2024-07-14-22-14-39
+      updated: 2024-07-21-23-15-27
       followers: 393
-      likes: 50
-      views: 246
+      likes: 53
+      views: 310
     - service: ig
       id: C9TlW1WTRtX
       mediaId: '18036502003995219'
