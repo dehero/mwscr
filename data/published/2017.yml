@@ -2072,25 +2072,25 @@
       id: C9iJyhxNvPi
       mediaId: '18048176152834427'
       published: 2024-07-17-18-20-18
-      updated: 2024-07-21-19-11-32
+      updated: 2024-07-22-19-13-08
       followers: 1426
-      likes: 86
-      views: 423
+      likes: 87
+      views: 431
       comments: !c CxqAkZPLQnkMJuaHAACrZGVsYW5vc3BpZXO9QGRyYXZlbmp2IG9uZSBvZiBteSBmYXZvcml0ZXMD
     - service: vk
       id: 1641
       published: 2024-07-17-18-20-24
-      updated: 2024-07-21-19-11-32
+      updated: 2024-07-22-19-13-09
       followers: 919
-      likes: 34
-      views: 220
+      likes: 36
+      views: 228
     - service: tg
       id: 472
       published: 2024-07-17-18-20-31
-      updated: 2024-07-21-19-11-33
+      updated: 2024-07-22-19-13-08
       followers: 401
-      likes: 59
-      views: 248
+      likes: 61
+      views: 266
       comments: !c ixeAkZPLQnkMHzc+AACrQXJ0b3JpYXM5MDG4bXkgZHJlYW0gaXMgdG8gbGl2ZSBoZXJlAw==
 2017-03-03.grazelands:
   title: Grazelands
@@ -4300,26 +4300,26 @@
       id: C9flCaxPoS8
       mediaId: '18304655026082601'
       published: 2024-07-16-18-20-42
-      updated: 2024-07-21-19-11-34
+      updated: 2024-07-22-19-13-09
       followers: 1427
       likes: 76
-      views: 416
+      views: 418
       comments: !c ixCAkZPLQnkMSBF+gACrc3Bhc25ha3JvdmmqQGhhcmRwb3NlcwM=
     - service: vk
       id: 1639
       published: 2024-07-16-18-20-48
-      updated: 2024-07-21-19-11-33
+      updated: 2024-07-22-19-13-10
       followers: 919
       likes: 24
-      views: 194
+      views: 200
       reposts: 1
     - service: tg
       id: 471
       published: 2024-07-16-18-20-54
-      updated: 2024-07-21-19-11-34
+      updated: 2024-07-22-19-13-09
       followers: 400
-      likes: 50
-      views: 215
+      likes: 51
+      views: 224
 2017-05-09.youd-better-do-what-they-say:
   title: You'd Better Do What They Say
   titleRu: Вам лучше сделать, как они говорят
@@ -8422,15 +8422,27 @@
       id: C9vBxUSMCKV
       mediaId: '18042682087897687'
       published: 2024-07-22-18-20-23
+      updated: 2024-07-22-19-13-05
       followers: 1426
+      likes: 22
+      views: 42
     - service: vk
       id: 1650
       published: 2024-07-22-18-20-29
+      updated: 2024-07-22-19-13-05
       followers: 920
+      likes: 10
+      views: 48
+      comments: !c |-
+        CyOAkZPLQnkNu7XgAACmamVybW9y2TMuLiDQnNGLINC70LXQvdC40LLQviDRgNGL0LEg0YPQsdC4
+        0LnRhiDQu9C+0LLQuNC70LgD
     - service: tg
       id: 477
       published: 2024-07-22-18-20-38
+      updated: 2024-07-22-19-13-06
       followers: 400
+      likes: 25
+      views: 55
 2017-09-28.mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
