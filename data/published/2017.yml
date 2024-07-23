@@ -1170,18 +1170,18 @@
     - service: vk
       id: 1598
       published: 2024-06-25-18-21-05
-      updated: 2024-07-16-22-14-40
+      updated: 2024-07-23-23-17-08
       followers: 917
-      likes: 41
-      views: 281
+      likes: 42
+      views: 285
       reposts: 2
     - service: tg
       id: 450
       published: 2024-06-25-18-21-11
-      updated: 2024-07-16-22-14-39
+      updated: 2024-07-23-23-17-06
       followers: 388
       likes: 60
-      views: 371
+      views: 383
 2017-02-06.maurrie-is-waiting-for-nelos:
   title: Maurrie Is Waiting for Nelos
   titleRu: Морри ждёт Нелоса
@@ -7480,17 +7480,17 @@
     - service: vk
       id: 1587
       published: 2024-06-18-18-20-59
-      updated: 2024-07-16-22-14-41
+      updated: 2024-07-23-23-17-09
       followers: 917
-      likes: 35
-      views: 245
+      likes: 36
+      views: 248
     - service: tg
       id: 443
       published: 2024-06-18-18-21-06
-      updated: 2024-07-16-22-14-40
+      updated: 2024-07-23-23-17-07
       followers: 385
       likes: 55
-      views: 374
+      views: 379
 2017-08-26.raven-rock:
   title: Raven Rock
   titleRu: Воронья Скала
@@ -8422,17 +8422,17 @@
       id: C9vBxUSMCKV
       mediaId: '18042682087897687'
       published: 2024-07-22-18-20-23
-      updated: 2024-07-23-22-14-39
+      updated: 2024-07-23-23-17-05
       followers: 1426
       likes: 73
-      views: 407
+      views: 410
     - service: vk
       id: 1650
       published: 2024-07-22-18-20-29
-      updated: 2024-07-23-22-14-40
+      updated: 2024-07-23-23-17-06
       followers: 920
       likes: 29
-      views: 176
+      views: 177
       reposts: 1
       comments: !c |-
         G6kAIKwOeDOWKwkaNpHUgwF3nX5E4I30Bzr0yQwXeBYmlNyDBbU5SwqykKdDOHk09tnZasAwTaMm
@@ -8441,10 +8441,10 @@
     - service: tg
       id: 477
       published: 2024-07-22-18-20-38
-      updated: 2024-07-23-22-14-40
+      updated: 2024-07-23-23-17-06
       followers: 400
       likes: 48
-      views: 125
+      views: 126
 2017-09-28.mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
