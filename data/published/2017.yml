@@ -1037,18 +1037,18 @@
     - service: vk
       id: 1531
       published: 2024-05-13-18-17-48
-      updated: 2024-07-16-01-09-25
+      updated: 2024-07-23-02-33-33
       followers: 915
       likes: 35
-      views: 246
+      views: 248
       reposts: 1
     - service: tg
       id: 407
       published: 2024-05-13-18-17-54
-      updated: 2024-07-16-01-09-24
+      updated: 2024-07-23-02-33-32
       followers: 370
       likes: 61
-      views: 400
+      views: 405
       comments: !c |-
         iz6AkZTLQnj3MuobgACpR2F0ZW1hdGU3vWhvdyBkbyBpIHN1Ym1pdCBhIHNjcmVlbnNob3Q/k8tC
         ePcy8qcAAKVtd3Njctk5aHR0cHM6Ly9naXRodWIuY29tL2RlaGVyby9td3Njci9ibG9iL21haW4v
@@ -8256,18 +8256,18 @@
     - service: vk
       id: 1548
       published: 2024-05-27-18-19-06
-      updated: 2024-07-16-01-09-23
+      updated: 2024-07-23-02-33-31
       followers: 918
       likes: 35
-      views: 252
+      views: 254
       comments: !c ixaAkZPLQnj7tpQ0gACmamVybW9yu9Cf0LDQsNGA0LjRgiDQstGL0YHQsNC60L7QvgM=
     - service: tg
       id: 421
       published: 2024-05-27-18-19-15
-      updated: 2024-07-16-01-09-22
+      updated: 2024-07-23-02-33-31
       followers: 377
       likes: 64
-      views: 466
+      views: 469
       comments: !c |-
         CxyAkpPLQnj8Xwd/AACraGVhcnRfZm9ybXOk8J+RipPLQnj8XwUOAACraGVhcnRfZm9ybXOmRmln
         aHQhAw==
@@ -8422,27 +8422,27 @@
       id: C9vBxUSMCKV
       mediaId: '18042682087897687'
       published: 2024-07-22-18-20-23
-      updated: 2024-07-23-01-08-43
+      updated: 2024-07-23-02-33-28
       followers: 1426
-      likes: 55
-      views: 237
+      likes: 57
+      views: 252
     - service: vk
       id: 1650
       published: 2024-07-22-18-20-29
-      updated: 2024-07-23-01-08-41
+      updated: 2024-07-23-02-33-28
       followers: 920
       likes: 21
-      views: 106
+      views: 108
       comments: !c |-
         CyOAkZPLQnkNu7XgAACmamVybW9y2TMuLiDQnNGLINC70LXQvdC40LLQviDRgNGL0LEg0YPQsdC4
         0LnRhiDQu9C+0LLQuNC70LgD
     - service: tg
       id: 477
       published: 2024-07-22-18-20-38
-      updated: 2024-07-23-01-08-41
+      updated: 2024-07-23-02-33-29
       followers: 400
-      likes: 35
-      views: 80
+      likes: 37
+      views: 82
 2017-09-28.mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
@@ -9966,14 +9966,14 @@
     - service: vk
       id: 1477
       published: 2024-04-01-18-10-59
-      updated: 2024-07-16-01-09-28
+      updated: 2024-07-23-02-33-36
       followers: 906
       likes: 33
       views: 306
     - service: tg
       id: 364
       published: 2024-04-01-18-11-06
-      updated: 2024-07-16-01-09-26
+      updated: 2024-07-23-02-33-34
       followers: 354
       likes: 60
       views: 441
