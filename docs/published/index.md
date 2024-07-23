@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`147 items`
+`148 items`
+
+## <span id="2024-07-23.buckmoth-legion-fort-from-ald-ruhn">Buckmoth Legion Fort from Ald&#39;ruhn</span>
+
+`RU` Форт Пёстрой Бабочки из Альд&#39;руна
+
+<a href="https://instagram.com/p/BN5ti6llKES/" title="2016-12-12.buckmoth-legion-fort-from-aldruhn"><img alt="store:/shots/2016-12-12.buckmoth-legion-fort-from-aldruhn.png" src="../../assets/previews/shots/2016-12-12.buckmoth-legion-fort-from-aldruhn.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` `📍 Buckmoth Legion Fort` `🚀 OpenMW` `nofilter` `fort`
+
+```
+2024-07-23.buckmoth-legion-fort-from-ald-ruhn
+```
+
+> `2016-12-12.buckmoth-legion-fort-from-aldruhn`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BN5ti6llKES/)       | 2016-12-12 |       |    22 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_29)   | 2017-01-22 |    63 |     2 |         4 |      2 |
+| [`ig`](https://instagram.com/p/C9xmndhv1oc/)       | 2024-07-23 |       |       |      1426 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1653) | 2024-07-23 |       |       |       921 |        |
+| [`tg`](https://t.me/mwscr/478)                     | 2024-07-23 |       |       |       400 |        |
+|                                                    |            |    63 |    24 |      2747 |        |
 
 ## <span id="2024-07-22.aground">Aground</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZjamDHD31v/)       | 2017-09-27 |       |    70 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_443)  | 2017-09-27 |   132 |    12 |        79 |     12 |
-| [`ig`](https://instagram.com/p/C9vBxUSMCKV/)       | 2024-07-22 |   383 |    70 |      1426 |   4.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1650) | 2024-07-22 |   165 |    28 |       920 |   3.04 |
-| [`tg`](https://t.me/mwscr/477)                     | 2024-07-22 |   105 |    45 |       400 |  11.25 |
-|                                                    |            |   785 |   225 |      2746 |    7.8 |
+| [`ig`](https://instagram.com/p/C9vBxUSMCKV/)       | 2024-07-22 |   394 |    72 |      1426 |   5.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1650) | 2024-07-22 |   167 |    28 |       920 |   3.04 |
+| [`tg`](https://t.me/mwscr/477)                     | 2024-07-22 |   108 |    45 |       400 |  11.25 |
+|                                                    |            |   801 |   227 |      2746 |   7.84 |
 
 #### Comments
 
@@ -93,10 +120,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bi2ZlSinZJ_/)       | 2018-05-16 |       |   125 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_729)  | 2018-05-16 |   261 |    18 |       163 |  11.04 |
-| [`ig`](https://instagram.com/p/C9p4OKHt-4Z/)       | 2024-07-20 |   419 |    90 |      1426 |   6.31 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1646) | 2024-07-20 |   588 |    41 |       919 |   4.46 |
-| [`tg`](https://t.me/mwscr/475)                     | 2024-07-20 |   216 |    56 |       400 |     14 |
-|                                                    |            |  1484 |   330 |      2745 |   8.95 |
+| [`ig`](https://instagram.com/p/C9p4OKHt-4Z/)       | 2024-07-20 |   469 |    95 |      1426 |   6.66 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1646) | 2024-07-20 |   622 |    45 |       919 |    4.9 |
+| [`tg`](https://t.me/mwscr/475)                     | 2024-07-20 |   230 |    60 |       400 |     15 |
+|                                                    |            |  1582 |   343 |      2745 |    9.4 |
 
 #### Comments
 
@@ -129,10 +156,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNYupn2lJSA/)       | 2016-11-29 |       |    15 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_16)   | 2017-01-22 |    54 |     1 |         4 |      1 |
-| [`ig`](https://instagram.com/p/C9nTZbKNLvv/)       | 2024-07-19 |   390 |    85 |      1427 |   5.96 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1644) | 2024-07-19 |   246 |    46 |       919 |   5.01 |
-| [`tg`](https://t.me/mwscr/474)                     | 2024-07-19 |   209 |    55 |       400 |  13.75 |
-|                                                    |            |   899 |   202 |      2746 |   6.43 |
+| [`ig`](https://instagram.com/p/C9nTZbKNLvv/)       | 2024-07-19 |   400 |    87 |      1427 |    6.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1644) | 2024-07-19 |   255 |    46 |       919 |   5.01 |
+| [`tg`](https://t.me/mwscr/474)                     | 2024-07-19 |   229 |    56 |       400 |     14 |
+|                                                    |            |   938 |   205 |      2746 |   6.53 |
 
 #### Comments
 
@@ -722,8 +749,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_497)  | 2017-11-12 |   170 |    14 |        99 |     14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1609) | 2024-06-30 |   221 |    34 |       918 |    3.7 |
 | [`tg`](https://t.me/mwscr/455)                     | 2024-06-30 |   416 |    55 |       388 |  14.18 |
-| [`ig`](https://instagram.com/p/C9NHQl1t7nN/)       | 2024-07-09 |   289 |    75 |      1421 |   5.28 |
-|                                                    |            |  1096 |   244 |      2727 |   9.29 |
+| [`ig`](https://instagram.com/p/C9NHQl1t7nN/)       | 2024-07-09 |   301 |    76 |      1421 |   5.35 |
+|                                                    |            |  1108 |   245 |      2727 |   9.31 |
 
 ## <span id="2024-06-29.lich">Lich</span>
 

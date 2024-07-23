@@ -436,17 +436,17 @@
       id: C9nTZbKNLvv
       mediaId: '18057727063715097'
       published: 2024-07-19-18-20-27
-      updated: 2024-07-22-18-20-11
+      updated: 2024-07-23-18-20-36
       followers: 1427
-      likes: 85
-      views: 390
+      likes: 87
+      views: 400
     - service: vk
       id: 1644
       published: 2024-07-19-18-20-33
-      updated: 2024-07-22-18-20-11
+      updated: 2024-07-23-18-20-36
       followers: 919
       likes: 46
-      views: 246
+      views: 255
       reposts: 1
       comments: !c |-
         Cx+AkZPLQnkNGxLUAACrbG9tYWV2X2xpdmXZJsKr0K3QuSwg0LzQtdC90Y8g0L/QvtC00L7QttC0
@@ -454,10 +454,10 @@
     - service: tg
       id: 474
       published: 2024-07-19-18-20-40
-      updated: 2024-07-22-18-20-11
+      updated: 2024-07-23-18-20-36
       followers: 400
-      likes: 55
-      views: 209
+      likes: 56
+      views: 229
 2016-11-30.the-road-most-travelled:
   title: The Road Most Travelled
   titleRu: Самая знакомая дорога
@@ -827,6 +827,19 @@
       followers: 4
       likes: 2
       views: 63
+    - service: ig
+      id: C9xmndhv1oc
+      mediaId: '17926779506919376'
+      published: 2024-07-23-18-20-48
+      followers: 1426
+    - service: vk
+      id: 1653
+      published: 2024-07-23-18-20-55
+      followers: 921
+    - service: tg
+      id: 478
+      published: 2024-07-23-18-21-00
+      followers: 400
 2016-12-13.seyda-neen-lighthouse:
   title: Seyda Neen Lighthouse
   titleRu: Маяк Сейда Нина
