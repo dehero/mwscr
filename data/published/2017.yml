@@ -1345,18 +1345,18 @@
     - service: vk
       id: 1532
       published: 2024-05-14-18-18-38
-      updated: 2024-07-17-01-08-27
+      updated: 2024-07-24-01-09-17
       followers: 915
-      likes: 45
-      views: 315
+      likes: 46
+      views: 317
       reposts: 1
     - service: tg
       id: 408
       published: 2024-05-14-18-18-46
-      updated: 2024-07-17-01-08-26
+      updated: 2024-07-24-01-09-16
       followers: 370
       likes: 60
-      views: 397
+      views: 401
       comments: !c |-
         izOAkZTLQnj3hUVcAACpR2F0ZW1hdGU32SJpdCB3b3VsZCBsb29rIGJldHRlciBpZiBhZGRlZCBt
         b2Rzk8tCePeFSMcAAKVhbnNpc75tb2RzIGJhbmlzaCB0aGlzIG4nd2FoIGFscmVhZHkD
@@ -8422,17 +8422,17 @@
       id: C9vBxUSMCKV
       mediaId: '18042682087897687'
       published: 2024-07-22-18-20-23
-      updated: 2024-07-23-23-17-05
+      updated: 2024-07-24-01-09-14
       followers: 1426
-      likes: 73
-      views: 410
+      likes: 74
+      views: 414
     - service: vk
       id: 1650
       published: 2024-07-22-18-20-29
-      updated: 2024-07-23-23-17-06
+      updated: 2024-07-24-01-09-15
       followers: 920
       likes: 29
-      views: 177
+      views: 179
       reposts: 1
       comments: !c |-
         G6kAIKwOeDOWKwkaNpHUgwF3nX5E4I30Bzr0yQwXeBYmlNyDBbU5SwqykKdDOHk09tnZasAwTaMm
@@ -8441,10 +8441,10 @@
     - service: tg
       id: 477
       published: 2024-07-22-18-20-38
-      updated: 2024-07-23-23-17-06
+      updated: 2024-07-24-01-09-14
       followers: 400
-      likes: 48
-      views: 126
+      likes: 49
+      views: 128
 2017-09-28.mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
@@ -10246,7 +10246,7 @@
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
-      updated: 2024-07-17-01-08-29
+      updated: 2024-07-24-01-09-19
       followers: 909
       likes: 40
       views: 298
@@ -10257,10 +10257,10 @@
     - service: tg
       id: 387
       published: 2024-04-23-18-17-22
-      updated: 2024-07-17-01-08-27
+      updated: 2024-07-24-01-09-17
       followers: 355
       likes: 60
-      views: 1105
+      views: 1106
       comments: !c |-
         ix+AkpPLQnjxEjRDgACobW9uZ2xlcmmtQ2l0eSBvZiBNYWdpY5PLQnjw/03igAClYW5zaXOtQ2l0
         eSBvZiBMaWdodAM=
