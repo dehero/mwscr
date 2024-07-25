@@ -363,6 +363,19 @@
       followers: 121
       likes: 19
       views: 187
+    - service: ig
+      id: C92wJd9PEVU
+      mediaId: '18062175985541627'
+      published: 2024-07-25-18-20-19
+      followers: 1430
+    - service: vk
+      id: 1656
+      published: 2024-07-25-18-20-25
+      followers: 921
+    - service: tg
+      id: 480
+      published: 2024-07-25-18-20-32
+      followers: 399
 2018-01-14.clothiers-table:
   title: Clothier's Table
   titleRu: Столик портнихи
@@ -7977,27 +7990,27 @@
       id: C9sczv1M3FM
       mediaId: '18002206568418684'
       published: 2024-07-21-18-18-55
-      updated: 2024-07-24-17-13-42
+      updated: 2024-07-25-18-20-07
       followers: 1426
-      likes: 79
-      views: 310
+      likes: 80
+      views: 312
     - service: vk
       id: 1648
       published: 2024-07-21-18-19-00
-      updated: 2024-07-24-17-13-44
+      updated: 2024-07-25-18-20-05
       followers: 919
       likes: 21
-      views: 200
+      views: 214
       comments: !c |-
         G4AA4B0JNs5xjUHoYYS0i3BAoUcWaBdJ4skPnGMl1iGoh6PlLf6Xr0Uqgvkxbr+Z8g2qEArYgAOX
         aLVBfIOATxzMNZ77gwuY9nhrTDdE5F5bMdWfGN3KBSfvQpEeQldfnGKQRtiQ7oMbikevMX6Z
     - service: tg
       id: 476
       published: 2024-07-21-18-19-07
-      updated: 2024-07-24-17-13-43
+      updated: 2024-07-25-18-20-04
       followers: 400
-      likes: 46
-      views: 162
+      likes: 47
+      views: 188
 2018-09-25.what-do-you-know-about-comfort:
   title: What Do You Know About Comfort?
   titleRu: Что вы знаете о комфорте?

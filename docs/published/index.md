@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`149 items`
+`150 items`
+
+## <span id="2024-07-25.coming-to-balmora">Coming to Balmora</span>
+
+`RU` Прибытие в Балмору
+
+<a href="https://instagram.com/p/Bd57gi7Dlsh/" title="2018-01-13.coming-to-balmora"><img alt="store:/shots/2018-01-13.coming-to-balmora.png" src="../../assets/previews/shots/2018-01-13.coming-to-balmora.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Balmora` `🚀 OpenMW`
+
+```
+2024-07-25.coming-to-balmora
+```
+
+> `2018-01-13.coming-to-balmora`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bd57gi7Dlsh/)       | 2018-01-13 |       |    76 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_576)  | 2018-01-13 |   187 |    19 |       121 |   15.7 |
+| [`ig`](https://instagram.com/p/C92wJd9PEVU/)       | 2024-07-25 |       |       |      1430 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1656) | 2024-07-25 |       |       |       921 |        |
+| [`tg`](https://t.me/mwscr/480)                     | 2024-07-25 |       |       |       399 |        |
+|                                                    |            |   187 |    95 |      2750 |        |
 
 ## <span id="2024-07-24.in-the-yurt">In the Yurt</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BUJVeyhjb-N/)       | 2017-05-16 |       |    66 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_292)  | 2017-05-16 |    94 |     5 |        55 |      5 |
-| [`ig`](https://instagram.com/p/C90LbJUTPJo/)       | 2024-07-24 |   240 |    86 |      1429 |   6.02 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1655) | 2024-07-24 |   238 |    37 |       921 |   4.02 |
-| [`tg`](https://t.me/mwscr/479)                     | 2024-07-24 |   109 |    43 |       400 |  10.75 |
-|                                                    |            |   681 |   237 |      2750 |   6.45 |
+| [`ig`](https://instagram.com/p/C90LbJUTPJo/)       | 2024-07-24 |   245 |    87 |      1429 |   6.09 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1655) | 2024-07-24 |   242 |    38 |       921 |   4.13 |
+| [`tg`](https://t.me/mwscr/479)                     | 2024-07-24 |   111 |    43 |       400 |  10.75 |
+|                                                    |            |   692 |   239 |      2750 |   6.49 |
 
 #### Comments
 
@@ -59,10 +86,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BN5ti6llKES/)       | 2016-12-12 |       |    22 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_29)   | 2017-01-22 |    63 |     2 |         4 |      2 |
-| [`ig`](https://instagram.com/p/C9xmndhv1oc/)       | 2024-07-23 |   202 |    81 |      1426 |   5.68 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1653) | 2024-07-23 |   193 |    35 |       921 |    3.8 |
-| [`tg`](https://t.me/mwscr/478)                     | 2024-07-23 |   138 |    53 |       400 |  13.25 |
-|                                                    |            |   596 |   193 |      2747 |   6.18 |
+| [`ig`](https://instagram.com/p/C9xmndhv1oc/)       | 2024-07-23 |   204 |    81 |      1426 |   5.68 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1653) | 2024-07-23 |   195 |    35 |       921 |    3.8 |
+| [`tg`](https://t.me/mwscr/478)                     | 2024-07-23 |   139 |    53 |       400 |  13.25 |
+|                                                    |            |   601 |   193 |      2747 |   6.18 |
 
 #### Comments
 
@@ -90,10 +117,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZjamDHD31v/)       | 2017-09-27 |       |    70 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_443)  | 2017-09-27 |   132 |    12 |        79 |     12 |
-| [`ig`](https://instagram.com/p/C9vBxUSMCKV/)       | 2024-07-22 |   436 |    85 |      1426 |   5.96 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1650) | 2024-07-22 |   199 |    32 |       920 |   3.48 |
-| [`tg`](https://t.me/mwscr/477)                     | 2024-07-22 |   139 |    51 |       400 |  12.75 |
-|                                                    |            |   906 |   250 |      2746 |   8.55 |
+| [`ig`](https://instagram.com/p/C9vBxUSMCKV/)       | 2024-07-22 |   451 |    87 |      1426 |    6.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1650) | 2024-07-22 |   219 |    34 |       920 |    3.7 |
+| [`tg`](https://t.me/mwscr/477)                     | 2024-07-22 |   158 |    53 |       400 |  13.25 |
+|                                                    |            |   960 |   256 |      2746 |   8.76 |
 
 #### Comments
 
@@ -123,10 +150,10 @@
 | [`ig`](https://instagram.com/p/BoHsR7lh0cz/)       | 2018-09-24 |       |   108 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_941)  | 2018-09-24 |   361 |    23 |       241 |   9.54 |
 | [`tg`](https://t.me/mwscr/49)                      | 2018-09-24 |   196 |     2 |           |        |
-| [`ig`](https://instagram.com/p/C9sczv1M3FM/)       | 2024-07-21 |   310 |    79 |      1426 |   5.54 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1648) | 2024-07-21 |   200 |    21 |       919 |   2.29 |
-| [`tg`](https://t.me/mwscr/476)                     | 2024-07-21 |   162 |    46 |       400 |   11.5 |
-|                                                    |            |  1229 |   279 |      2745 |   7.22 |
+| [`ig`](https://instagram.com/p/C9sczv1M3FM/)       | 2024-07-21 |   312 |    80 |      1426 |   5.61 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1648) | 2024-07-21 |   214 |    21 |       919 |   2.29 |
+| [`tg`](https://t.me/mwscr/476)                     | 2024-07-21 |   188 |    47 |       400 |  11.75 |
+|                                                    |            |  1271 |   281 |      2745 |    7.3 |
 
 #### Comments
 
