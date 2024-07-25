@@ -367,15 +367,27 @@
       id: C92wJd9PEVU
       mediaId: '18062175985541627'
       published: 2024-07-25-18-20-19
+      updated: 2024-07-25-19-12-59
       followers: 1430
+      likes: 23
+      views: 33
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
+      updated: 2024-07-25-19-12-59
       followers: 921
+      likes: 15
+      views: 52
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
+      updated: 2024-07-25-19-13-00
       followers: 399
+      likes: 21
+      views: 64
+      comments: !c |-
+        ixuAkpPLQnkOsjRqAAClYW5zaXOqbXkgaG9tZS4uLpPLQnkOsgwhgACpR2F0ZW1hdGU3p3BlcmZl
+        Y3QD
 2018-01-14.clothiers-table:
   title: Clothier's Table
   titleRu: Столик портнихи
@@ -4067,26 +4079,26 @@
       id: C9p4OKHt-4Z
       mediaId: '18062996623596268'
       published: 2024-07-20-18-20-46
-      updated: 2024-07-24-18-20-43
+      updated: 2024-07-25-19-13-02
       followers: 1426
-      likes: 97
-      views: 484
+      likes: 99
+      views: 490
       comments: !c ixeAkZPLQnkNGzlnAACsaG9uZXN0dGhpZWY1t0RhbW4gaXQgKHJlaW5zdGFsbHMgTVcpAw==
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2024-07-24-18-20-43
+      updated: 2024-07-25-19-13-01
       followers: 919
-      likes: 45
-      views: 640
+      likes: 47
+      views: 662
       reposts: 4
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2024-07-24-18-20-43
+      updated: 2024-07-25-19-13-02
       followers: 400
       likes: 61
-      views: 251
+      views: 272
       comments: !c CxWAkZPLQnkNGo4EAACpR2F0ZW1hdGU3tXRoaXMgaXMgZnJvbSAyMDE4IHRobwM=
 2018-05-17.inviting-nchuleft:
   title: Inviting Nchuleft
