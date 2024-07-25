@@ -1769,18 +1769,18 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2024-07-18-20-16-16
+      updated: 2024-07-25-20-16-25
       followers: 919
-      likes: 32
-      views: 243
+      likes: 31
+      views: 247
       reposts: 1
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2024-07-18-20-16-17
+      updated: 2024-07-25-20-16-24
       followers: 391
       likes: 55
-      views: 401
+      views: 418
     - service: ig
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
@@ -2607,18 +2607,18 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2024-07-18-20-16-17
+      updated: 2024-07-25-20-16-25
       followers: 919
       likes: 47
-      views: 305
+      views: 307
       reposts: 3
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2024-07-18-20-16-18
+      updated: 2024-07-25-20-16-24
       followers: 387
       likes: 63
-      views: 388
+      views: 397
       comments: !c |-
         CyWAkZPLQnkECYQ5gACsUm9iZXJfNTU1OTQ52THQrdGC0L4g0LLRi9Cz0LvRj9C00LjRgiDRgtCw
         0Log0L/RgNC10LrRgNCw0YHQvdC+Aw==
@@ -3750,17 +3750,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-07-18-20-16-15
+      updated: 2024-07-25-20-16-24
       followers: 920
-      likes: 37
-      views: 216
+      likes: 38
+      views: 227
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-07-18-20-16-16
+      updated: 2024-07-25-20-16-23
       followers: 397
-      likes: 58
-      views: 263
+      likes: 59
+      views: 329
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
@@ -4566,28 +4566,28 @@
       id: C90LbJUTPJo
       mediaId: '18440437924065493'
       published: 2024-07-24-18-20-56
-      updated: 2024-07-25-19-13-01
+      updated: 2024-07-25-20-16-23
       followers: 1429
       likes: 89
-      views: 248
+      views: 253
       comments: !c |-
         Cx2AkZPLQnkOY1HVgACqaW52b2thdGlvbtkjSG90IGJveCB0aGUgc2tvb21hIHl1cnQg4piB77iP
         IPCfm5YD
     - service: vk
       id: 1655
       published: 2024-07-24-18-21-03
-      updated: 2024-07-25-19-13-00
+      updated: 2024-07-25-20-16-22
       followers: 921
       likes: 38
-      views: 246
+      views: 248
       reposts: 1
     - service: tg
       id: 479
       published: 2024-07-24-18-21-09
-      updated: 2024-07-25-19-13-01
+      updated: 2024-07-25-20-16-23
       followers: 400
       likes: 47
-      views: 124
+      views: 128
 2017-05-17.nice-time-to-go-boating:
   title: Nice Time to Go Boating
   titleRu: Хорошее время, чтобы поплавать на лодке
@@ -10795,10 +10795,10 @@
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
       published: 2024-07-11-18-20-18
-      updated: 2024-07-18-20-16-14
+      updated: 2024-07-25-20-16-24
       followers: 1427
-      likes: 68
-      views: 313
+      likes: 70
+      views: 332
 2017-12-14.northern-light:
   title: Northern Light
   titleRu: Северный свет
