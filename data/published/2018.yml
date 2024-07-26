@@ -367,28 +367,28 @@
       id: C92wJd9PEVU
       mediaId: '18062175985541627'
       published: 2024-07-25-18-20-19
-      updated: 2024-07-26-17-13-51
+      updated: 2024-07-26-18-20-11
       followers: 1430
       likes: 84
-      views: 262
+      views: 265
       comments: !c |-
         G3MA4K0S6G1dBmhh7LPR4+mNm3lbBxrkpwmWdbmFJrkml4sOvvJ+iwatHNLAIQfsrYuEkQbgdYyW
         4/lS5DjAKuvxQjRhIIz94WBIvlUTrKDKmFg0dtcA
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2024-07-26-17-13-50
+      updated: 2024-07-26-18-20-09
       followers: 921
       likes: 34
-      views: 173
+      views: 175
       reposts: 2
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2024-07-26-17-13-51
+      updated: 2024-07-26-18-20-10
       followers: 399
       likes: 49
-      views: 167
+      views: 168
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -4679,6 +4679,19 @@
         iX6294ZLz5g2S1vTppNDPQg8glrcPMfPozj33MagzpQIRyiO5PX6r2dcj2X58rPAu059TOL4Im/y
         wUjgDmlwmuwWWIx1tWSdyngBhILU2YdNJBZS7n5ycDRSbDTGKQ2ODbLUExWlABJjyen8HvPuy2fd
         skfSZpDGGpcOjigce9sqY9KFdVF+0S841IsYQJLwsI0QBg7NzIrRFveYHw==
+    - service: ig
+      id: C95U9yItRqn
+      mediaId: '17924417234825588'
+      published: 2024-07-26-18-20-32
+      followers: 1430
+    - service: vk
+      id: 1657
+      published: 2024-07-26-18-20-40
+      followers: 923
+    - service: tg
+      id: 481
+      published: 2024-07-26-18-20-48
+      followers: 400
 2018-06-06.i-think-i-got-sick:
   title: I Think I Got Sick
   titleRu: Кажется, я заболела
@@ -8006,27 +8019,27 @@
       id: C9sczv1M3FM
       mediaId: '18002206568418684'
       published: 2024-07-21-18-18-55
-      updated: 2024-07-25-18-20-07
+      updated: 2024-07-26-18-20-16
       followers: 1426
-      likes: 80
-      views: 312
+      likes: 81
+      views: 321
     - service: vk
       id: 1648
       published: 2024-07-21-18-19-00
-      updated: 2024-07-25-18-20-05
+      updated: 2024-07-26-18-20-13
       followers: 919
-      likes: 21
-      views: 214
+      likes: 22
+      views: 223
       comments: !c |-
         G4AA4B0JNs5xjUHoYYS0i3BAoUcWaBdJ4skPnGMl1iGoh6PlLf6Xr0Uqgvkxbr+Z8g2qEArYgAOX
         aLVBfIOATxzMNZ77gwuY9nhrTDdE5F5bMdWfGN3KBSfvQpEeQldfnGKQRtiQ7oMbikevMX6Z
     - service: tg
       id: 476
       published: 2024-07-21-18-19-07
-      updated: 2024-07-25-18-20-04
+      updated: 2024-07-26-18-20-13
       followers: 400
       likes: 47
-      views: 188
+      views: 211
 2018-09-25.what-do-you-know-about-comfort:
   title: What Do You Know About Comfort?
   titleRu: Что вы знаете о комфорте?
