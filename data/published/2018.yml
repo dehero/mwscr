@@ -367,28 +367,28 @@
       id: C92wJd9PEVU
       mediaId: '18062175985541627'
       published: 2024-07-25-18-20-19
-      updated: 2024-07-26-18-20-11
+      updated: 2024-07-26-19-13-58
       followers: 1430
-      likes: 84
-      views: 265
+      likes: 86
+      views: 273
       comments: !c |-
         G3MA4K0S6G1dBmhh7LPR4+mNm3lbBxrkpwmWdbmFJrkml4sOvvJ+iwatHNLAIQfsrYuEkQbgdYyW
         4/lS5DjAKuvxQjRhIIz94WBIvlUTrKDKmFg0dtcA
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2024-07-26-18-20-09
+      updated: 2024-07-26-19-13-57
       followers: 921
       likes: 34
-      views: 175
+      views: 176
       reposts: 2
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2024-07-26-18-20-10
+      updated: 2024-07-26-19-13-57
       followers: 399
-      likes: 49
-      views: 168
+      likes: 52
+      views: 182
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -4083,26 +4083,26 @@
       id: C9p4OKHt-4Z
       mediaId: '18062996623596268'
       published: 2024-07-20-18-20-46
-      updated: 2024-07-25-19-13-02
+      updated: 2024-07-26-19-14-00
       followers: 1426
-      likes: 99
-      views: 490
+      likes: 101
+      views: 496
       comments: !c ixeAkZPLQnkNGzlnAACsaG9uZXN0dGhpZWY1t0RhbW4gaXQgKHJlaW5zdGFsbHMgTVcpAw==
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2024-07-25-19-13-01
+      updated: 2024-07-26-19-13-58
       followers: 919
-      likes: 47
-      views: 662
-      reposts: 4
+      likes: 50
+      views: 680
+      reposts: 5
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2024-07-25-19-13-02
+      updated: 2024-07-26-19-13-58
       followers: 400
       likes: 61
-      views: 272
+      views: 290
       comments: !c CxWAkZPLQnkNGo4EAACpR2F0ZW1hdGU3tXRoaXMgaXMgZnJvbSAyMDE4IHRobwM=
 2018-05-17.inviting-nchuleft:
   title: Inviting Nchuleft
@@ -4683,15 +4683,24 @@
       id: C95U9yItRqn
       mediaId: '17924417234825588'
       published: 2024-07-26-18-20-32
+      updated: 2024-07-26-19-13-55
       followers: 1430
+      likes: 21
+      views: 33
     - service: vk
       id: 1657
       published: 2024-07-26-18-20-40
+      updated: 2024-07-26-19-13-56
       followers: 923
+      likes: 13
+      views: 43
     - service: tg
       id: 481
       published: 2024-07-26-18-20-48
+      updated: 2024-07-26-19-13-56
       followers: 400
+      likes: 22
+      views: 68
 2018-06-06.i-think-i-got-sick:
   title: I Think I Got Sick
   titleRu: Кажется, я заболела
