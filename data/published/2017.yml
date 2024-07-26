@@ -4566,9 +4566,9 @@
       id: C90LbJUTPJo
       mediaId: '18440437924065493'
       published: 2024-07-24-18-20-56
-      updated: 2024-07-26-10-16-23
+      updated: 2024-07-26-11-14-29
       followers: 1429
-      likes: 96
+      likes: 97
       views: 275
       comments: !c |-
         Cx2AkZPLQnkOY1HVgACqaW52b2thdGlvbtkjSG90IGJveCB0aGUgc2tvb21hIHl1cnQg4piB77iP
@@ -4576,7 +4576,7 @@
     - service: vk
       id: 1655
       published: 2024-07-24-18-21-03
-      updated: 2024-07-26-10-16-23
+      updated: 2024-07-26-11-14-29
       followers: 921
       likes: 39
       views: 267
@@ -4584,10 +4584,10 @@
     - service: tg
       id: 479
       published: 2024-07-24-18-21-09
-      updated: 2024-07-26-10-16-23
+      updated: 2024-07-26-11-14-30
       followers: 400
       likes: 48
-      views: 146
+      views: 147
 2017-05-17.nice-time-to-go-boating:
   title: Nice Time to Go Boating
   titleRu: Хорошее время, чтобы поплавать на лодке
@@ -6375,7 +6375,7 @@
     - service: tg
       id: 354
       published: 2024-03-22
-      updated: 2024-07-19-11-13-51
+      updated: 2024-07-26-11-14-31
       followers: 353
       likes: 63
       views: 513
