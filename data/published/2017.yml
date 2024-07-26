@@ -1296,7 +1296,7 @@
     - service: vk
       id: 1472
       published: 2024-03-28-18-11-42
-      updated: 2024-07-19-05-16-15
+      updated: 2024-07-26-06-22-03
       followers: 906
       likes: 38
       views: 306
@@ -1304,7 +1304,7 @@
     - service: tg
       id: 360
       published: 2024-03-28-18-11-49
-      updated: 2024-07-19-05-16-13
+      updated: 2024-07-26-06-22-02
       followers: 355
       likes: 58
       views: 443
@@ -3015,7 +3015,7 @@
     - service: vk
       id: 1426
       published: 2024-02-29-18-00-56
-      updated: 2024-07-19-05-16-18
+      updated: 2024-07-26-06-22-06
       followers: 894
       likes: 52
       views: 370
@@ -3026,7 +3026,7 @@
     - service: tg
       id: 331
       published: 2024-02-29-18-01-07
-      updated: 2024-07-19-05-16-15
+      updated: 2024-07-26-06-22-04
       followers: 338
       likes: 80
       views: 611
@@ -3146,7 +3146,7 @@
     - service: vk
       id: 1448
       published: 2024-03-14-18-12-16
-      updated: 2024-07-19-05-16-16
+      updated: 2024-07-26-06-22-04
       followers: 896
       likes: 51
       views: 368
@@ -3160,7 +3160,7 @@
     - service: tg
       id: 346
       published: 2024-03-14-18-12-22
-      updated: 2024-07-19-05-16-14
+      updated: 2024-07-26-06-22-03
       followers: 351
       likes: 66
       views: 486
@@ -4566,28 +4566,28 @@
       id: C90LbJUTPJo
       mediaId: '18440437924065493'
       published: 2024-07-24-18-20-56
-      updated: 2024-07-26-05-15-51
+      updated: 2024-07-26-06-21-58
       followers: 1429
       likes: 95
-      views: 268
+      views: 270
       comments: !c |-
         Cx2AkZPLQnkOY1HVgACqaW52b2thdGlvbtkjSG90IGJveCB0aGUgc2tvb21hIHl1cnQg4piB77iP
         IPCfm5YD
     - service: vk
       id: 1655
       published: 2024-07-24-18-21-03
-      updated: 2024-07-26-05-15-51
+      updated: 2024-07-26-06-21-58
       followers: 921
       likes: 39
-      views: 259
+      views: 261
       reposts: 1
     - service: tg
       id: 479
       published: 2024-07-24-18-21-09
-      updated: 2024-07-26-05-15-51
+      updated: 2024-07-26-06-21-59
       followers: 400
       likes: 47
-      views: 135
+      views: 139
 2017-05-17.nice-time-to-go-boating:
   title: Nice Time to Go Boating
   titleRu: Хорошее время, чтобы поплавать на лодке
@@ -6898,17 +6898,17 @@
     - service: vk
       id: 1516
       published: 2024-05-02-18-21-03
-      updated: 2024-07-19-05-16-11
+      updated: 2024-07-26-06-21-59
       followers: 912
       likes: 29
-      views: 231
+      views: 232
     - service: tg
       id: 396
       published: 2024-05-02-18-21-10
-      updated: 2024-07-19-05-16-11
+      updated: 2024-07-26-06-22-00
       followers: 364
       likes: 53
-      views: 436
+      views: 437
 2017-08-03.maelkashishi:
   title: Maelkashishi
   titleRu: Мелкашиши
@@ -8064,7 +8064,7 @@
     - service: vk
       id: 1509
       published: 2024-04-25-18-18-02
-      updated: 2024-07-19-05-16-12
+      updated: 2024-07-26-06-22-00
       followers: 910
       likes: 53
       views: 355
@@ -8072,10 +8072,10 @@
     - service: tg
       id: 389
       published: 2024-04-25-18-18-08
-      updated: 2024-07-19-05-16-12
+      updated: 2024-07-26-06-22-00
       followers: 354
       likes: 72
-      views: 498
+      views: 499
       comments: !c |-
         G84AYOXgmgMb6OMatMHW+F0rmlfwKJOS1zd8wYVOTvQYELcoi8NIvlyy5ncbW1+VRtZopDU6t1Du
         07WnirYJJmOanJFYXs5YSJJBjZTYNo9GDYSg/C2A/e+lyz2I4gWURwXLE2PIU2Y1yqA4jzjg/C7C
