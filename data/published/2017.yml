@@ -4273,24 +4273,25 @@
       id: C975vMSNVQ0
       mediaId: '18039704743818919'
       published: 2024-07-27-18-20-17
-      updated: 2024-07-27-19-12-12
+      updated: 2024-07-27-20-15-11
       followers: 1432
-      likes: 21
-      views: 31
+      likes: 28
+      views: 54
     - service: vk
       id: 1658
       published: 2024-07-27-18-20-23
-      updated: 2024-07-27-19-12-13
+      updated: 2024-07-27-20-15-11
       followers: 923
-      likes: 11
-      views: 45
+      likes: 16
+      views: 64
+      reposts: 1
     - service: tg
       id: 482
       published: 2024-07-27-18-20-29
-      updated: 2024-07-27-19-12-13
+      updated: 2024-07-27-20-15-12
       followers: 401
-      likes: 17
-      views: 44
+      likes: 22
+      views: 67
 2017-05-08.snowy-waiting:
   title: Snowy Waiting
   titleRu: Снежное ожидание
