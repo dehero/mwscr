@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`151 items`
+`152 items`
+
+## <span id="2024-07-27.maar-gan-outpost">Maar Gan, Outpost</span>
+
+`RU` Маар Ган, Аванпост
+
+<a href="https://instagram.com/p/1509343262644597514/" title="2017-05-07.maar-gan-outpost"><img alt="store:/shots/2017-05-07.maar-gan-outpost.png" src="../../assets/previews/shots/2017-05-07.maar-gan-outpost.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` `📍 Maar Gan` `🚀 OpenMW` `nofilter`
+
+```
+2024-07-27.maar-gan-outpost
+```
+
+> `2017-05-07.maar-gan-outpost`
+
+### Reactions
+
+|                                                      | published  | views | likes | followers | rating |
+|------------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/1509343262644597514/) | 2017-05-07 |       |    55 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_282)    | 2017-05-07 |    98 |     4 |        55 |      4 |
+| [`ig`](https://instagram.com/p/C975vMSNVQ0/)         | 2024-07-27 |       |       |      1432 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1658)   | 2024-07-27 |       |       |       923 |        |
+| [`tg`](https://t.me/mwscr/482)                       | 2024-07-27 |       |       |       401 |        |
+|                                                      |            |    98 |    59 |      2756 |        |
 
 ## <span id="2024-07-26.some-scrolls">Some Scrolls</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BjpwqFgF69a/)       | 2018-06-05 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_756)  | 2018-06-05 |   267 |    17 |       172 |   9.88 |
-| [`ig`](https://instagram.com/p/C95U9yItRqn/)       | 2024-07-26 |   364 |    69 |      1430 |   4.83 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1657) | 2024-07-26 |   161 |    26 |       923 |   2.82 |
-| [`tg`](https://t.me/mwscr/481)                     | 2024-07-26 |   151 |    51 |       400 |  12.75 |
-|                                                    |            |   943 |   252 |      2753 |   7.57 |
+| [`ig`](https://instagram.com/p/C95U9yItRqn/)       | 2024-07-26 |   374 |    70 |      1430 |    4.9 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1657) | 2024-07-26 |   164 |    26 |       923 |   2.82 |
+| [`tg`](https://t.me/mwscr/481)                     | 2024-07-26 |   152 |    51 |       400 |  12.75 |
+|                                                    |            |   957 |   253 |      2753 |   7.59 |
 
 #### Comments
 
@@ -60,10 +87,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bd57gi7Dlsh/)       | 2018-01-13 |       |    76 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_576)  | 2018-01-13 |   187 |    19 |       121 |   15.7 |
-| [`ig`](https://instagram.com/p/C92wJd9PEVU/)       | 2024-07-25 |   315 |    95 |      1430 |   6.64 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1656) | 2024-07-25 |   195 |    37 |       921 |   4.02 |
+| [`ig`](https://instagram.com/p/C92wJd9PEVU/)       | 2024-07-25 |   316 |    95 |      1430 |   6.64 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1656) | 2024-07-25 |   199 |    37 |       921 |   4.02 |
 | [`tg`](https://t.me/mwscr/480)                     | 2024-07-25 |   209 |    58 |       399 |  14.54 |
-|                                                    |            |   906 |   285 |      2750 |  10.22 |
+|                                                    |            |   911 |   285 |      2750 |  10.22 |
 
 #### Comments
 
