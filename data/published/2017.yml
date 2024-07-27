@@ -4273,15 +4273,24 @@
       id: C975vMSNVQ0
       mediaId: '18039704743818919'
       published: 2024-07-27-18-20-17
+      updated: 2024-07-27-19-12-12
       followers: 1432
+      likes: 21
+      views: 31
     - service: vk
       id: 1658
       published: 2024-07-27-18-20-23
+      updated: 2024-07-27-19-12-13
       followers: 923
+      likes: 11
+      views: 45
     - service: tg
       id: 482
       published: 2024-07-27-18-20-29
+      updated: 2024-07-27-19-12-13
       followers: 401
+      likes: 17
+      views: 44
 2017-05-08.snowy-waiting:
   title: Snowy Waiting
   titleRu: Снежное ожидание
@@ -4579,28 +4588,28 @@
       id: C90LbJUTPJo
       mediaId: '18440437924065493'
       published: 2024-07-24-18-20-56
-      updated: 2024-07-26-18-20-13
+      updated: 2024-07-27-19-12-14
       followers: 1429
-      likes: 98
-      views: 282
+      likes: 102
+      views: 304
       comments: !c |-
         Cx2AkZPLQnkOY1HVgACqaW52b2thdGlvbtkjSG90IGJveCB0aGUgc2tvb21hIHl1cnQg4piB77iP
         IPCfm5YD
     - service: vk
       id: 1655
       published: 2024-07-24-18-21-03
-      updated: 2024-07-26-18-20-10
+      updated: 2024-07-27-19-12-15
       followers: 921
       likes: 40
-      views: 281
+      views: 300
       reposts: 1
     - service: tg
       id: 479
       published: 2024-07-24-18-21-09
-      updated: 2024-07-26-18-20-11
+      updated: 2024-07-27-19-12-14
       followers: 400
-      likes: 49
-      views: 151
+      likes: 53
+      views: 179
 2017-05-17.nice-time-to-go-boating:
   title: Nice Time to Go Boating
   titleRu: Хорошее время, чтобы поплавать на лодке
@@ -8461,17 +8470,17 @@
       id: C9vBxUSMCKV
       mediaId: '18042682087897687'
       published: 2024-07-22-18-20-23
-      updated: 2024-07-26-18-20-15
+      updated: 2024-07-27-19-12-16
       followers: 1426
       likes: 89
-      views: 458
+      views: 464
     - service: vk
       id: 1650
       published: 2024-07-22-18-20-29
-      updated: 2024-07-26-18-20-12
+      updated: 2024-07-27-19-12-17
       followers: 920
       likes: 35
-      views: 236
+      views: 241
       reposts: 1
       comments: !c |-
         G6kAIKwOeDOWKwkaNpHUgwF3nX5E4I30Bzr0yQwXeBYmlNyDBbU5SwqykKdDOHk09tnZasAwTaMm
@@ -8480,10 +8489,10 @@
     - service: tg
       id: 477
       published: 2024-07-22-18-20-38
-      updated: 2024-07-26-18-20-12
+      updated: 2024-07-27-19-12-15
       followers: 400
-      likes: 53
-      views: 198
+      likes: 55
+      views: 227
 2017-09-28.mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
