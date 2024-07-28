@@ -4,7 +4,34 @@
 
 # Published in 2024
 
-`152 items`
+`153 items`
+
+## <span id="2024-07-28.indoranyon">Indoranyon</span>
+
+`RU` Индоранион
+
+<a href="https://instagram.com/p/BV9WXw3DKxY/" title="2017-06-30.indoranyon"><img alt="store:/shots/2017-06-30.indoranyon.png" src="../../assets/previews/shots/2017-06-30.indoranyon.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Indoranyon` `🚀 OpenMW` `stronghold` `castle`
+
+```
+2024-07-28.indoranyon
+```
+
+> `2017-06-30.indoranyon`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BV9WXw3DKxY/)       | 2017-06-30 |       |    54 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_338)  | 2017-06-30 |   104 |     7 |        66 |      7 |
+| [`ig`](https://instagram.com/p/C9-elACupvr/)       | 2024-07-28 |       |       |      1432 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1659) | 2024-07-28 |       |       |       923 |        |
+| [`tg`](https://t.me/mwscr/483)                     | 2024-07-28 |       |       |       402 |        |
+|                                                    |            |   104 |    61 |      2757 |        |
 
 ## <span id="2024-07-27.maar-gan-outpost">Maar Gan, Outpost</span>
 
@@ -28,10 +55,10 @@
 |------------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/1509343262644597514/) | 2017-05-07 |       |    55 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_282)    | 2017-05-07 |    98 |     4 |        55 |      4 |
-| [`ig`](https://instagram.com/p/C975vMSNVQ0/)         | 2024-07-27 |   180 |    65 |      1432 |   4.54 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1658)   | 2024-07-27 |   173 |    28 |       923 |   3.03 |
-| [`tg`](https://t.me/mwscr/482)                       | 2024-07-27 |   113 |    40 |       401 |   9.98 |
-|                                                      |            |   564 |   192 |      2756 |   5.39 |
+| [`ig`](https://instagram.com/p/C975vMSNVQ0/)         | 2024-07-27 |   187 |    65 |      1432 |   4.54 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1658)   | 2024-07-27 |   175 |    28 |       923 |   3.03 |
+| [`tg`](https://t.me/mwscr/482)                       | 2024-07-27 |   117 |    42 |       401 |  10.47 |
+|                                                      |            |   577 |   194 |      2756 |   5.51 |
 
 #### Comments
 
@@ -62,10 +89,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BjpwqFgF69a/)       | 2018-06-05 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_756)  | 2018-06-05 |   267 |    17 |       172 |   9.88 |
-| [`ig`](https://instagram.com/p/C95U9yItRqn/)       | 2024-07-26 |   426 |    78 |      1430 |   5.45 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1657) | 2024-07-26 |   176 |    26 |       923 |   2.82 |
-| [`tg`](https://t.me/mwscr/481)                     | 2024-07-26 |   184 |    56 |       400 |     14 |
-|                                                    |            |  1053 |   266 |      2753 |   8.04 |
+| [`ig`](https://instagram.com/p/C95U9yItRqn/)       | 2024-07-26 |   432 |    78 |      1430 |   5.45 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1657) | 2024-07-26 |   177 |    26 |       923 |   2.82 |
+| [`tg`](https://t.me/mwscr/481)                     | 2024-07-26 |   185 |    57 |       400 |  14.25 |
+|                                                    |            |  1061 |   267 |      2753 |    8.1 |
 
 #### Comments
 
@@ -94,10 +121,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bd57gi7Dlsh/)       | 2018-01-13 |       |    76 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_576)  | 2018-01-13 |   187 |    19 |       121 |   15.7 |
-| [`ig`](https://instagram.com/p/C92wJd9PEVU/)       | 2024-07-25 |   316 |    95 |      1430 |   6.64 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1656) | 2024-07-25 |   199 |    37 |       921 |   4.02 |
-| [`tg`](https://t.me/mwscr/480)                     | 2024-07-25 |   209 |    58 |       399 |  14.54 |
-|                                                    |            |   911 |   285 |      2750 |  10.22 |
+| [`ig`](https://instagram.com/p/C92wJd9PEVU/)       | 2024-07-25 |   347 |    99 |      1430 |   6.92 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1656) | 2024-07-25 |   216 |    38 |       921 |   4.13 |
+| [`tg`](https://t.me/mwscr/480)                     | 2024-07-25 |   227 |    61 |       399 |  15.29 |
+|                                                    |            |   977 |   293 |      2750 |  10.51 |
 
 #### Comments
 
