@@ -28,15 +28,16 @@
 |------------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/1509343262644597514/) | 2017-05-07 |       |    55 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_282)    | 2017-05-07 |    98 |     4 |        55 |      4 |
-| [`ig`](https://instagram.com/p/C975vMSNVQ0/)         | 2024-07-27 |   153 |    56 |      1432 |   3.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1658)   | 2024-07-27 |   156 |    27 |       923 |   2.93 |
-| [`tg`](https://t.me/mwscr/482)                       | 2024-07-27 |   106 |    38 |       401 |   9.48 |
-|                                                      |            |   513 |   180 |      2756 |   5.08 |
+| [`ig`](https://instagram.com/p/C975vMSNVQ0/)         | 2024-07-27 |   155 |    56 |      1432 |   3.91 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1658)   | 2024-07-27 |   162 |    28 |       923 |   3.03 |
+| [`tg`](https://t.me/mwscr/482)                       | 2024-07-27 |   109 |    39 |       401 |   9.73 |
+|                                                      |            |   524 |   182 |      2756 |   5.17 |
 
 #### Comments
 
 - `tg` <ins title="2024-07-28-10-56-16">bobrovnikov</ins> Why can’t we build houses like this irl??
   - <ins title="2024-07-28-10-59-08">PuddlesPk</ins> Reject modernity, became morrowind
+  - <ins title="2024-07-28-12-23-45">ansis</ins> we will once the massive crabs with huge exoskeletons to turn into concrete show up
 - `tg` <ins title="2024-07-28-11-00-19">Skab4ik</ins> ☺️
 
 ## <span id="2024-07-26.some-scrolls">Some Scrolls</span>
@@ -61,10 +62,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BjpwqFgF69a/)       | 2018-06-05 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_756)  | 2018-06-05 |   267 |    17 |       172 |   9.88 |
-| [`ig`](https://instagram.com/p/C95U9yItRqn/)       | 2024-07-26 |   415 |    74 |      1430 |   5.17 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1657) | 2024-07-26 |   173 |    26 |       923 |   2.82 |
-| [`tg`](https://t.me/mwscr/481)                     | 2024-07-26 |   178 |    55 |       400 |  13.75 |
-|                                                    |            |  1033 |   261 |      2753 |   7.91 |
+| [`ig`](https://instagram.com/p/C95U9yItRqn/)       | 2024-07-26 |   418 |    75 |      1430 |   5.24 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1657) | 2024-07-26 |   174 |    26 |       923 |   2.82 |
+| [`tg`](https://t.me/mwscr/481)                     | 2024-07-26 |   181 |    55 |       400 |  13.75 |
+|                                                    |            |  1040 |   262 |      2753 |   7.92 |
 
 #### Comments
 
