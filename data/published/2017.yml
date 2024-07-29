@@ -4289,10 +4289,10 @@
     - service: tg
       id: 482
       published: 2024-07-27-18-20-29
-      updated: 2024-07-29-17-14-17
+      updated: 2024-07-29-18-20-30
       followers: 401
       likes: 48
-      views: 162
+      views: 163
       comments: !c |-
         G/kAgByHcSyxjmBicU1/f/MRp4m1cSwu4M4/WGtxG2Qs22JRFvd/NwML9D8P80ADvTEWSuinVRma
         Tk40MH47SAuowMKQIo6zdIfPHSOmprQ+rncT67T+DEEpGYRvZb4nHr7OCgLfhTugNQLOoXtlQt+4
@@ -5957,28 +5957,28 @@
       id: C9-elACupvr
       mediaId: '17928218450806863'
       published: 2024-07-28-18-20-45
-      updated: 2024-07-29-17-14-16
+      updated: 2024-07-29-18-20-28
       followers: 1432
-      likes: 72
-      views: 253
+      likes: 75
+      views: 258
       comments: !c |-
         iyGAkZPLQnkPtu5DgACrZGVsYW5vc3BpZXPZK0V2ZXJ5dGhpbmcgYmV0dGVyIHRoZW4gS29nb3J1
         bi4uLiBAZHJhdmVuanYD
     - service: vk
       id: 1659
       published: 2024-07-28-18-20-53
-      updated: 2024-07-29-17-14-16
+      updated: 2024-07-29-18-20-28
       followers: 923
       likes: 30
-      views: 175
+      views: 177
       reposts: 1
     - service: tg
       id: 483
       published: 2024-07-28-18-21-02
-      updated: 2024-07-29-17-14-17
+      updated: 2024-07-29-18-20-29
       followers: 402
       likes: 42
-      views: 752
+      views: 766
 2017-07-01.training-room:
   title: Training Room
   titleRu: Тренировочная комната
