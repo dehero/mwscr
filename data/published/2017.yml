@@ -4043,18 +4043,18 @@
     - service: vk
       id: 1494
       published: 2024-04-14-20-32-17
-      updated: 2024-07-22-08-20-37
+      updated: 2024-07-29-09-17-20
       followers: 911
       likes: 41
-      views: 289
+      views: 290
       reposts: 2
     - service: tg
       id: 378
       published: 2024-04-14-20-32-22
-      updated: 2024-07-22-08-20-38
+      updated: 2024-07-29-09-17-20
       followers: 351
       likes: 63
-      views: 508
+      views: 509
 2017-05-01.altmer-camp:
   title: Altmer Camp
   titleRu: Лагерь альтмеров
@@ -4273,14 +4273,14 @@
       id: C975vMSNVQ0
       mediaId: '18039704743818919'
       published: 2024-07-27-18-20-17
-      updated: 2024-07-29-08-19-55
+      updated: 2024-07-29-09-17-19
       followers: 1432
       likes: 69
-      views: 213
+      views: 214
     - service: vk
       id: 1658
       published: 2024-07-27-18-20-23
-      updated: 2024-07-29-08-19-55
+      updated: 2024-07-29-09-17-19
       followers: 923
       likes: 30
       views: 193
@@ -4288,10 +4288,10 @@
     - service: tg
       id: 482
       published: 2024-07-27-18-20-29
-      updated: 2024-07-29-08-19-56
+      updated: 2024-07-29-09-17-19
       followers: 401
       likes: 46
-      views: 155
+      views: 156
       comments: !c |-
         G/kAgByHcSyxjmBicU1/f/MRp4m1cSwu4M4/WGtxG2Qs22JRFvd/NwML9D8P80ADvTEWSuinVRma
         Tk40MH47SAuowMKQIo6zdIfPHSOmprQ+rncT67T+DEEpGYRvZb4nHr7OCgLfhTugNQLOoXtlQt+4
@@ -5956,28 +5956,28 @@
       id: C9-elACupvr
       mediaId: '17928218450806863'
       published: 2024-07-28-18-20-45
-      updated: 2024-07-29-08-19-54
+      updated: 2024-07-29-09-17-18
       followers: 1432
-      likes: 67
-      views: 205
+      likes: 68
+      views: 212
       comments: !c |-
         iyGAkZPLQnkPtu5DgACrZGVsYW5vc3BpZXPZK0V2ZXJ5dGhpbmcgYmV0dGVyIHRoZW4gS29nb3J1
         bi4uLiBAZHJhdmVuanYD
     - service: vk
       id: 1659
       published: 2024-07-28-18-20-53
-      updated: 2024-07-29-08-19-54
+      updated: 2024-07-29-09-17-18
       followers: 923
-      likes: 24
-      views: 144
+      likes: 26
+      views: 149
       reposts: 1
     - service: tg
       id: 483
       published: 2024-07-28-18-21-02
-      updated: 2024-07-29-08-19-55
+      updated: 2024-07-29-09-17-18
       followers: 402
-      likes: 36
-      views: 571
+      likes: 37
+      views: 597
 2017-07-01.training-room:
   title: Training Room
   titleRu: Тренировочная комната
