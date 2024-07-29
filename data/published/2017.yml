@@ -5957,10 +5957,10 @@
       id: C9-elACupvr
       mediaId: '17928218450806863'
       published: 2024-07-28-18-20-45
-      updated: 2024-07-29-18-20-28
+      updated: 2024-07-29-19-12-41
       followers: 1432
-      likes: 75
-      views: 258
+      likes: 77
+      views: 264
       comments: !c |-
         iyGAkZPLQnkPtu5DgACrZGVsYW5vc3BpZXPZK0V2ZXJ5dGhpbmcgYmV0dGVyIHRoZW4gS29nb3J1
         bi4uLiBAZHJhdmVuanYD
@@ -5975,10 +5975,10 @@
     - service: tg
       id: 483
       published: 2024-07-28-18-21-02
-      updated: 2024-07-29-18-20-29
+      updated: 2024-07-29-19-12-40
       followers: 402
       likes: 42
-      views: 766
+      views: 782
 2017-07-01.training-room:
   title: Training Room
   titleRu: Тренировочная комната

@@ -367,10 +367,10 @@
       id: C92wJd9PEVU
       mediaId: '18062175985541627'
       published: 2024-07-25-18-20-19
-      updated: 2024-07-28-18-20-29
+      updated: 2024-07-29-19-12-42
       followers: 1430
       likes: 99
-      views: 347
+      views: 358
       comments: !c |-
         G3MA4K0S6G1dBmhh7LPR4+mNm3lbBxrkpwmWdbmFJrkml4sOvvJ+iwatHNLAIQfsrYuEkQbgdYyW
         4/lS5DjAKuvxQjRhIIz94WBIvlUTrKDKmFg0dtcA
@@ -385,10 +385,10 @@
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2024-07-28-18-20-29
+      updated: 2024-07-29-19-12-41
       followers: 399
-      likes: 61
-      views: 227
+      likes: 63
+      views: 266
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -4698,10 +4698,10 @@
     - service: tg
       id: 481
       published: 2024-07-26-18-20-48
-      updated: 2024-07-28-18-20-28
+      updated: 2024-07-29-19-12-40
       followers: 400
-      likes: 57
-      views: 185
+      likes: 60
+      views: 222
       comments: !c CwuAkZPLQnkPIJkoAACmQzRINk80pPCfmI4D
 2018-06-06.i-think-i-got-sick:
   title: I Think I Got Sick
@@ -5357,15 +5357,29 @@
       id: C-BDYFOzGbE
       mediaId: '17855726970227801'
       published: 2024-07-29-18-20-45
+      updated: 2024-07-29-19-12-38
       followers: 1432
+      likes: 24
+      views: 49
+      comments: !c |-
+        G9sAwIyE3ETrEcMf7UJmuwcLLZhFgWeDxMKSGgykrsJyLYNukr5AooH/2teYFlmgYeDpFuvThR7M
+        dKJiGjbBJoQgv11v6HW7SZHWCu/aDprN2+cFm/OAUAT5LMszkiJtwjPS1QYgMeK9KjTCLjkhUKt/
+        zUlC/tETGLHIjP7zxGJCw4hTNqrrZogCszFYNlFp6yJpBlB0fN5dp8i9gizRNGhQSPr49wAzqKYV
+        VZsDlfav0o21AA==
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
+      updated: 2024-07-29-19-12-38
       followers: 924
+      likes: 12
+      views: 48
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
+      updated: 2024-07-29-19-12-39
       followers: 414
+      likes: 16
+      views: 49
 2018-06-28.light-on-the-water:
   title: Light on the Water
   titleRu: Свет над водой
