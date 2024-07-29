@@ -1485,10 +1485,10 @@
     - service: vk
       id: 1519
       published: 2024-05-05-18-17-05
-      updated: 2024-07-22-03-18-29
+      updated: 2024-07-29-04-18-29
       followers: 913
       likes: 38
-      views: 266
+      views: 268
       comments: !c |-
         G4oBoBypnX6YvuB5uFbDK1RUbS0U2bYXEZolcJbv4+gBnbqtVEONaheb+RwP87q1YhXQm+1Epz60
         v91g1IUBTuviIg0sznYBRphtkzbRYZUX4woiLD48/oxMX2Q258pDb02lio+/VQ2cswmMK9sQaSFG
@@ -1498,10 +1498,10 @@
     - service: tg
       id: 399
       published: 2024-05-05-18-17-11
-      updated: 2024-07-22-03-18-28
+      updated: 2024-07-29-04-18-29
       followers: 370
       likes: 59
-      views: 439
+      views: 441
 2024-05-06.alchemist-table:
   title: Alchemist Table
   titleRu: Стол алхимика
@@ -1678,17 +1678,17 @@
     - service: tg
       id: 406
       published: 2024-05-12-18-20-07
-      updated: 2024-07-22-03-18-27
+      updated: 2024-07-29-04-18-29
       followers: 371
       likes: 56
-      views: 418
+      views: 420
     - service: vk
       id: 1530
       published: 2024-05-12-19-11-11
-      updated: 2024-07-22-03-18-28
+      updated: 2024-07-29-04-18-28
       followers: 915
       likes: 28
-      views: 242
+      views: 245
 2024-05-13.pray-with-the-saints: 2017-02-01.pray-with-the-saints
 2024-05-14.climbing-aboard-the-elf-skerring: 2017-02-09.climbing-aboard-the-elf-skerring
 2024-05-15.royal-draggle-tail:
