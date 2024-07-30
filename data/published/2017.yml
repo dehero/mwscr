@@ -4274,17 +4274,17 @@
       id: C975vMSNVQ0
       mediaId: '18039704743818919'
       published: 2024-07-27-18-20-17
-      updated: 2024-07-29-17-14-16
+      updated: 2024-07-30-18-20-13
       followers: 1432
-      likes: 70
-      views: 223
+      likes: 76
+      views: 247
     - service: vk
       id: 1658
       published: 2024-07-27-18-20-23
-      updated: 2024-07-29-17-14-17
+      updated: 2024-07-30-18-20-12
       followers: 923
       likes: 30
-      views: 203
+      views: 222
       reposts: 1
     - service: tg
       id: 482
@@ -5957,28 +5957,28 @@
       id: C9-elACupvr
       mediaId: '17928218450806863'
       published: 2024-07-28-18-20-45
-      updated: 2024-07-30-17-13-35
+      updated: 2024-07-30-18-20-12
       followers: 1432
-      likes: 83
-      views: 286
+      likes: 84
+      views: 289
       comments: !c |-
         iyGAkZPLQnkPtu5DgACrZGVsYW5vc3BpZXPZK0V2ZXJ5dGhpbmcgYmV0dGVyIHRoZW4gS29nb3J1
         bi4uLiBAZHJhdmVuanYD
     - service: vk
       id: 1659
       published: 2024-07-28-18-20-53
-      updated: 2024-07-30-17-13-33
+      updated: 2024-07-30-18-20-11
       followers: 923
       likes: 30
-      views: 207
+      views: 209
       reposts: 1
     - service: tg
       id: 483
       published: 2024-07-28-18-21-02
-      updated: 2024-07-30-17-13-34
+      updated: 2024-07-30-18-20-11
       followers: 402
       likes: 46
-      views: 1026
+      views: 1029
 2017-07-01.training-room:
   title: Training Room
   titleRu: Тренировочная комната
@@ -8083,6 +8083,19 @@
       followers: 79
       likes: 6
       views: 119
+    - service: ig
+      id: C-DoImWBS96
+      mediaId: '18325847011177785'
+      published: 2024-07-30-18-20-25
+      followers: 1433
+    - service: vk
+      id: 1661
+      published: 2024-07-30-18-20-32
+      followers: 924
+    - service: tg
+      id: 485
+      published: 2024-07-30-18-20-38
+      followers: 418
 2017-09-14.abandoned-island:
   title: Abandoned Island
   titleRu: Покинутый остров
