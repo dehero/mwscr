@@ -5357,10 +5357,10 @@
       id: C-BDYFOzGbE
       mediaId: '17855726970227801'
       published: 2024-07-29-18-20-45
-      updated: 2024-07-29-23-14-58
+      updated: 2024-07-30-01-08-43
       followers: 1432
-      likes: 54
-      views: 160
+      likes: 58
+      views: 177
       comments: !c |-
         G9sAwIyE3ETrEcMf7UJmuwcLLZhFgWeDxMKSGgykrsJyLYNukr5AooH/2teYFlmgYeDpFuvThR7M
         dKJiGjbBJoQgv11v6HW7SZHWCu/aDprN2+cFm/OAUAT5LMszkiJtwjPS1QYgMeK9KjTCLjkhUKt/
@@ -5369,17 +5369,17 @@
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
-      updated: 2024-07-29-23-14-57
+      updated: 2024-07-30-01-08-43
       followers: 924
       likes: 19
-      views: 96
+      views: 105
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
-      updated: 2024-07-29-23-14-58
+      updated: 2024-07-30-01-08-45
       followers: 414
-      likes: 28
-      views: 85
+      likes: 30
+      views: 88
 2018-06-28.light-on-the-water:
   title: Light on the Water
   titleRu: Свет над водой
@@ -7157,18 +7157,18 @@
     - service: vk
       id: 1597
       published: 2024-06-24-18-20-03
-      updated: 2024-07-23-01-08-43
+      updated: 2024-07-30-01-08-45
       followers: 917
       likes: 49
-      views: 294
+      views: 297
       reposts: 2
     - service: tg
       id: 449
       published: 2024-06-24-18-20-11
-      updated: 2024-07-23-01-08-42
+      updated: 2024-07-30-01-08-46
       followers: 388
       likes: 63
-      views: 459
+      views: 472
 2018-09-01.haze-in-tel-branora:
   title: Haze in Tel Branora
   titleRu: Мгла в Тель Браноре
