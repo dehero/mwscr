@@ -765,19 +765,19 @@
     - service: vk
       id: 1561
       published: 2024-06-03-18-20-43
-      updated: 2024-07-23-02-33-30
+      updated: 2024-07-30-02-34-00
       followers: 915
       likes: 34
-      views: 271
+      views: 272
       reposts: 2
       comments: !c CxWAkZPLQnj+EW8EAACqaWQyOTQ3NzQ0NbTQndCw0L/QvtC80LjQvdCw0LXRggM=
     - service: tg
       id: 428
       published: 2024-06-03-18-20-51
-      updated: 2024-07-23-02-33-30
+      updated: 2024-07-30-02-33-59
       followers: 383
       likes: 57
-      views: 404
+      views: 411
 2016-12-11.khajiit-gives-away:
   title: Khajiit Gives Away
   titleRu: Каджит себя выдал
