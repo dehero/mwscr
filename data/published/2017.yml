@@ -4681,10 +4681,10 @@
     - service: vk
       id: 1456
       published: 2024-03-18-18-11-07
-      updated: 2024-07-23-03-19-12
+      updated: 2024-07-30-03-19-22
       followers: 896
       likes: 32
-      views: 277
+      views: 278
       reposts: 1
       comments: !c |-
         G7oAIJwJ8ebKLrTB5tyPeOK9jSd08ynGkfcKOIFAk39QN7RMq2H7RJ2C9Sbnp2Ts24t/829oTCFp
@@ -4693,10 +4693,10 @@
     - service: tg
       id: 350
       published: 2024-03-18-18-11-16
-      updated: 2024-07-23-03-19-10
+      updated: 2024-07-30-03-19-21
       followers: 353
       likes: 54
-      views: 459
+      views: 460
 2017-05-19.queen-mother-in-her-chambers:
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
@@ -5957,28 +5957,28 @@
       id: C9-elACupvr
       mediaId: '17928218450806863'
       published: 2024-07-28-18-20-45
-      updated: 2024-07-30-02-33-59
+      updated: 2024-07-30-03-19-21
       followers: 1432
-      likes: 78
-      views: 271
+      likes: 79
+      views: 272
       comments: !c |-
         iyGAkZPLQnkPtu5DgACrZGVsYW5vc3BpZXPZK0V2ZXJ5dGhpbmcgYmV0dGVyIHRoZW4gS29nb3J1
         bi4uLiBAZHJhdmVuanYD
     - service: vk
       id: 1659
       published: 2024-07-28-18-20-53
-      updated: 2024-07-30-02-33-59
+      updated: 2024-07-30-03-19-19
       followers: 923
       likes: 30
-      views: 190
+      views: 191
       reposts: 1
     - service: tg
       id: 483
       published: 2024-07-28-18-21-02
-      updated: 2024-07-30-02-33-59
+      updated: 2024-07-30-03-19-20
       followers: 402
       likes: 44
-      views: 869
+      views: 878
 2017-07-01.training-room:
   title: Training Room
   titleRu: Тренировочная комната
