@@ -4289,10 +4289,10 @@
     - service: tg
       id: 482
       published: 2024-07-27-18-20-29
-      updated: 2024-07-29-18-20-30
+      updated: 2024-07-30-19-13-14
       followers: 401
-      likes: 48
-      views: 163
+      likes: 50
+      views: 187
       comments: !c |-
         G/kAgByHcSyxjmBicU1/f/MRp4m1cSwu4M4/WGtxG2Qs22JRFvd/NwML9D8P80ADvTEWSuinVRma
         Tk40MH47SAuowMKQIo6zdIfPHSOmprQ+rncT67T+DEEpGYRvZb4nHr7OCgLfhTugNQLOoXtlQt+4
@@ -8087,15 +8087,24 @@
       id: C-DoImWBS96
       mediaId: '18325847011177785'
       published: 2024-07-30-18-20-25
+      updated: 2024-07-30-19-13-10
       followers: 1433
+      likes: 15
+      views: 30
     - service: vk
       id: 1661
       published: 2024-07-30-18-20-32
+      updated: 2024-07-30-19-13-11
       followers: 924
+      likes: 10
+      views: 53
     - service: tg
       id: 485
       published: 2024-07-30-18-20-38
+      updated: 2024-07-30-19-13-12
       followers: 418
+      likes: 19
+      views: 58
 2017-09-14.abandoned-island:
   title: Abandoned Island
   titleRu: Покинутый остров
@@ -9865,10 +9874,10 @@
       id: C9NHQl1t7nN
       mediaId: '18003207311373105'
       published: 2024-07-09-14-14-09
-      updated: 2024-07-23-18-20-36
+      updated: 2024-07-30-19-13-15
       followers: 1421
-      likes: 76
-      views: 301
+      likes: 77
+      views: 305
 2017-11-13.three-guars-at-the-crossroads:
   title: Three Guars at the Crossroads
   titleRu: Три гуара на распутье
