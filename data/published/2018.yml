@@ -5357,10 +5357,10 @@
       id: C-BDYFOzGbE
       mediaId: '17855726970227801'
       published: 2024-07-29-18-20-45
-      updated: 2024-07-30-03-19-20
+      updated: 2024-07-30-04-18-15
       followers: 1432
-      likes: 66
-      views: 202
+      likes: 72
+      views: 213
       comments: !c |-
         G9sAwIyE3ETrEcMf7UJmuwcLLZhFgWeDxMKSGgykrsJyLYNukr5AooH/2teYFlmgYeDpFuvThR7M
         dKJiGjbBJoQgv11v6HW7SZHWCu/aDprN2+cFm/OAUAT5LMszkiJtwjPS1QYgMeK9KjTCLjkhUKt/
@@ -5369,17 +5369,17 @@
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
-      updated: 2024-07-30-03-19-18
+      updated: 2024-07-30-04-18-14
       followers: 924
       likes: 20
-      views: 110
+      views: 116
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
-      updated: 2024-07-30-03-19-19
+      updated: 2024-07-30-04-18-15
       followers: 414
-      likes: 30
-      views: 92
+      likes: 32
+      views: 95
 2018-06-28.light-on-the-water:
   title: Light on the Water
   titleRu: Свет над водой
