@@ -237,7 +237,7 @@
     - service: vk
       id: 56
       published: 2017-01-22
-      updated: 2024-07-23-08-20-46
+      updated: 2024-07-30-09-17-03
       likes: 5
       views: 72
     - service: ig
@@ -5957,7 +5957,7 @@
       id: C9-elACupvr
       mediaId: '17928218450806863'
       published: 2024-07-28-18-20-45
-      updated: 2024-07-30-08-19-46
+      updated: 2024-07-30-09-17-00
       followers: 1432
       likes: 79
       views: 278
@@ -5967,18 +5967,18 @@
     - service: vk
       id: 1659
       published: 2024-07-28-18-20-53
-      updated: 2024-07-30-08-19-46
+      updated: 2024-07-30-09-16-59
       followers: 923
       likes: 30
-      views: 196
+      views: 197
       reposts: 1
     - service: tg
       id: 483
       published: 2024-07-28-18-21-02
-      updated: 2024-07-30-08-19-47
+      updated: 2024-07-30-09-17-00
       followers: 402
       likes: 45
-      views: 928
+      views: 946
 2017-07-01.training-room:
   title: Training Room
   titleRu: Тренировочная комната

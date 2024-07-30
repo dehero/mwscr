@@ -4965,10 +4965,10 @@
       id: C9MOc3uo650
       mediaId: '18054168718726961'
       published: 2024-07-09-05-57-48
-      updated: 2024-07-23-08-20-42
+      updated: 2024-07-30-09-17-01
       followers: 1421
-      likes: 148
-      views: 653
+      likes: 150
+      views: 675
       comments: !c |-
         G40AgIzURneRC9kbutmFJXQgTaAtPNais7ze9wR5/wzKhnfKgUtrngeUxXc8XPxuY3iuOkSo6GGe
         /2JPNKOCwLXM9DLRwyJt/Avv6YWVpaVdEga2IwH4Gra1bUst0Vl8RN2ioLKk4MvFHpqQYMOH3wOB
@@ -5357,10 +5357,10 @@
       id: C-BDYFOzGbE
       mediaId: '17855726970227801'
       published: 2024-07-29-18-20-45
-      updated: 2024-07-30-08-19-45
+      updated: 2024-07-30-09-16-59
       followers: 1432
       likes: 80
-      views: 242
+      views: 248
       comments: !c |-
         G9sAwIyE3ETrEcMf7UJmuwcLLZhFgWeDxMKSGgykrsJyLYNukr5AooH/2teYFlmgYeDpFuvThR7M
         dKJiGjbBJoQgv11v6HW7SZHWCu/aDprN2+cFm/OAUAT5LMszkiJtwjPS1QYgMeK9KjTCLjkhUKt/
@@ -5369,17 +5369,17 @@
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
-      updated: 2024-07-30-08-19-45
+      updated: 2024-07-30-09-16-58
       followers: 924
-      likes: 22
-      views: 133
+      likes: 23
+      views: 138
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
-      updated: 2024-07-30-08-19-46
+      updated: 2024-07-30-09-16-59
       followers: 414
       likes: 35
-      views: 104
+      views: 105
 2018-06-28.light-on-the-water:
   title: Light on the Water
   titleRu: Свет над водой

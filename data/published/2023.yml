@@ -43,7 +43,7 @@
     - service: tg
       id: 308
       published: 2023-07-28
-      updated: 2024-07-23-08-20-51
+      updated: 2024-07-30-09-17-08
       followers: 316
       likes: 78
       views: 903
@@ -96,7 +96,7 @@
     - service: tg
       id: 309
       published: 2023-07-29
-      updated: 2024-07-23-08-20-50
+      updated: 2024-07-30-09-17-07
       followers: 319
       likes: 68
       views: 688
@@ -131,7 +131,7 @@
     - service: tg
       id: 310
       published: 2023-07-30
-      updated: 2024-07-23-08-20-50
+      updated: 2024-07-30-09-17-07
       followers: 319
       likes: 56
       views: 682
@@ -169,7 +169,7 @@
     - service: tg
       id: 311
       published: 2023-07-31
-      updated: 2024-07-23-08-20-50
+      updated: 2024-07-30-09-17-06
       followers: 317
       likes: 60
       views: 733
@@ -207,7 +207,7 @@
     - service: tg
       id: 312
       published: 2023-08-01
-      updated: 2024-07-23-08-20-49
+      updated: 2024-07-30-09-17-06
       followers: 317
       likes: 65
       views: 740
@@ -242,7 +242,7 @@
     - service: tg
       id: 313
       published: 2023-08-02
-      updated: 2024-07-23-08-20-49
+      updated: 2024-07-30-09-17-06
       followers: 316
       likes: 53
       views: 865
@@ -280,7 +280,7 @@
     - service: tg
       id: 314
       published: 2023-08-03
-      updated: 2024-07-23-08-20-49
+      updated: 2024-07-30-09-17-05
       followers: 317
       likes: 44
       views: 865
@@ -316,7 +316,7 @@
     - service: tg
       id: 315
       published: 2023-08-04
-      updated: 2024-07-23-08-20-48
+      updated: 2024-07-30-09-17-05
       followers: 320
       likes: 60
       views: 828
@@ -351,7 +351,7 @@
     - service: tg
       id: 316
       published: 2023-08-05
-      updated: 2024-07-23-08-20-48
+      updated: 2024-07-30-09-17-05
       followers: 321
       likes: 55
       views: 725
@@ -390,7 +390,7 @@
     - service: tg
       id: 317
       published: 2023-08-06
-      updated: 2024-07-23-08-20-47
+      updated: 2024-07-30-09-17-04
       followers: 320
       likes: 50
       views: 793
@@ -428,7 +428,7 @@
     - service: tg
       id: 318
       published: 2023-08-07
-      updated: 2024-07-23-08-20-47
+      updated: 2024-07-30-09-17-04
       followers: 319
       likes: 63
       views: 817
@@ -464,7 +464,7 @@
     - service: tg
       id: 319
       published: 2023-08-08
-      updated: 2024-07-23-08-20-47
+      updated: 2024-07-30-09-17-04
       followers: 319
       likes: 54
       views: 891
@@ -503,7 +503,7 @@
     - service: tg
       id: 320
       published: 2023-08-09
-      updated: 2024-07-23-08-20-46
+      updated: 2024-07-30-09-17-03
       followers: 319
       likes: 70
       views: 973
@@ -538,14 +538,14 @@
     - service: tg
       id: 321
       published: 2023-08-10
-      updated: 2024-07-23-08-20-46
+      updated: 2024-07-30-09-17-03
       followers: 320
       likes: 52
       views: 1160
       comments: !c |-
-        G8gAUIzUTjcc2oLnbXf5QhFdkJKSlSLo/glsbDZCUmxSVt4zu4WUBdECAa0I+Qlu47ZFIdPJiZ7x
-        xhe92Nc85oDjgHLKUeJRUapZO3y8779v42m7lD66S72G/gcDBwbMxLa8BwPFWKDgmGGF3TxyRoFR
-        WO64i2H1tJ72hOKKYjE315yb6Qxcq0BmRKAZ3+2dSiaKwrByYVfUHSkc8BUL
+        G8YAEBwJdgzlC/1jE40CulEcSNhBABJYwAWaBJgmDy+zbrqSmqG5oQn/AZY7wTd/4aR5XG/dBd/2
+        bQEnknCaTk70jDe+6MW+5jEHHAeUpywpzchq0ez7eF1/bXXWbZoesitWs/0UBAIaXvMeArGFIRwi
+        NlvzTBCGLaQRYjse94SSEwd4OY+8b+rgWwkynYTsv8v99devij7mVLjhwV8s
 2023-08-11.waterside-encounters:
   title: Waterside Encounters
   titleRu: Встречи у берега
@@ -590,10 +590,10 @@
         - 324
         - 325
       published: 2023-08-11
-      updated: 2024-07-23-08-20-46
+      updated: 2024-07-30-09-17-03
       followers: 322
       likes: 59
-      views: 1305
+      views: 1306
       comments: !c ixCAkZPLQnifD8WOgACx2YXYrdmF2K8g2K7Yp9mE2K+kQ29vbAM=
 2023-09-16.hanging-lanterns-by-darkness-rifho:
   title: Hanging Lanterns
@@ -626,10 +626,10 @@
     - service: tg
       id: 326
       published: 2023-09-16
-      updated: 2024-07-23-08-20-45
+      updated: 2024-07-30-09-17-02
       followers: 325
       likes: 61
-      views: 1073
+      views: 1076
       comments: !c |-
         G30BoJwHdsOLFRFnPJCXOE0NEVE30htvAn3ABIPMvgTLAguTPZ1bCdWuZusFGEzkA+cccAJPh9E2
         oS4KWlPb9mg62lKBBt5sJzrnEf9t40Ek3eWBRmGAEXwW5ZTe8HTcCA5hJb/N6xfzP3N2ALgPNXMj
@@ -666,10 +666,10 @@
     - service: tg
       id: 327
       published: 2023-09-17
-      updated: 2024-07-23-08-20-45
+      updated: 2024-07-30-09-17-02
       followers: 326
       likes: 54
-      views: 1270
+      views: 1272
       comments: !c |-
         iy+AkZTLQniqYT+1AACtT2xtZXJfSXpkZXlsYaTwn5iNk8tCeKqcFEEAALJzb2xkaWVyX29mX2hl
         YXZlbm7ZI9Ch0L/QsNGB0LjQsdC+INC30LAg0YHRgtC40LrQtdGA0YspAw==
@@ -707,10 +707,10 @@
     - service: tg
       id: 328
       published: 2023-09-18
-      updated: 2024-07-23-08-20-45
+      updated: 2024-07-30-09-17-02
       followers: 327
       likes: 86
-      views: 2987
+      views: 2996
       comments: !c |-
         Cy+Ak5PLQnjfEx14AACsdmlvbGV0c3BpZGVyqkFhYWFoIPCfjJmTy0J4vdqE9IAAr0FsZXhleSBT
         dGVwYW5vdqTwn5Kpk8tCeKq60WUAAK1PbG1lcl9JemRleWxhpPCfmLsD
