@@ -1345,18 +1345,18 @@
     - service: vk
       id: 1532
       published: 2024-05-14-18-18-38
-      updated: 2024-07-24-01-09-17
+      updated: 2024-07-31-01-43-07
       followers: 915
       likes: 46
-      views: 317
+      views: 318
       reposts: 1
     - service: tg
       id: 408
       published: 2024-05-14-18-18-46
-      updated: 2024-07-24-01-09-16
+      updated: 2024-07-31-01-43-07
       followers: 370
       likes: 60
-      views: 401
+      views: 404
       comments: !c |-
         izOAkZTLQnj3hUVcAACpR2F0ZW1hdGU32SJpdCB3b3VsZCBsb29rIGJldHRlciBpZiBhZGRlZCBt
         b2Rzk8tCePeFSMcAAKVhbnNpc75tb2RzIGJhbmlzaCB0aGlzIG4nd2FoIGFscmVhZHkD
@@ -8087,24 +8087,24 @@
       id: C-DoImWBS96
       mediaId: '18325847011177785'
       published: 2024-07-30-18-20-25
-      updated: 2024-07-31-00-57-33
+      updated: 2024-07-31-01-43-03
       followers: 1433
-      likes: 31
-      views: 99
+      likes: 32
+      views: 101
     - service: vk
       id: 1661
       published: 2024-07-30-18-20-32
-      updated: 2024-07-31-00-57-34
+      updated: 2024-07-31-01-43-03
       followers: 924
       likes: 17
-      views: 97
+      views: 98
     - service: tg
       id: 485
       published: 2024-07-30-18-20-38
-      updated: 2024-07-31-00-57-34
+      updated: 2024-07-31-01-43-04
       followers: 418
-      likes: 25
-      views: 87
+      likes: 26
+      views: 89
 2017-09-14.abandoned-island:
   title: Abandoned Island
   titleRu: Покинутый остров
@@ -10350,10 +10350,10 @@
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
-      updated: 2024-07-24-01-09-19
+      updated: 2024-07-31-01-43-08
       followers: 909
       likes: 40
-      views: 298
+      views: 299
       reposts: 2
       comments: !c |-
         iyKAkZPLQnjwxAfQAACrbG9tYWV2X2xpdmXZLdCT0L7RgNC+0LQg0YHQstC10YLQsCwg0LPQvtGA
@@ -10361,10 +10361,10 @@
     - service: tg
       id: 387
       published: 2024-04-23-18-17-22
-      updated: 2024-07-24-01-09-17
+      updated: 2024-07-31-01-43-09
       followers: 355
       likes: 60
-      views: 1106
+      views: 1111
       comments: !c |-
         ix+AkpPLQnjxEjRDgACobW9uZ2xlcmmtQ2l0eSBvZiBNYWdpY5PLQnjw/03igAClYW5zaXOtQ2l0
         eSBvZiBMaWdodAM=
