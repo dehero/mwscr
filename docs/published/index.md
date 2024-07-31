@@ -4,7 +4,36 @@
 
 # Published in 2024
 
-`155 items`
+`156 items`
+
+## <span id="2024-07-31.vanilla-sunset">Vanilla Sunset</span>
+
+`RU` Ванильный закат
+
+<a href="https://instagram.com/p/BR5NP4Gj3HZ/" title="2017-03-21.vanilla-sunset"><img alt="store:/shots/2017-03-21.vanilla-sunset.png" src="../../assets/previews/shots/2017-03-21.vanilla-sunset.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31.vanilla-sunset)</code> `🚀 OpenMW` `nofilter` `sunset` `water` `mudcrab`
+
+```
+2024-07-31.vanilla-sunset
+```
+
+> `2017-03-21.vanilla-sunset`
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BR5NP4Gj3HZ/)      | 2017-03-21 |       |    71 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_225) | 2017-03-21 |   124 |     7 |        46 |      7 |
+|                                                   |            |   124 |    78 |        46 |        |
+
+#### Comments
+
+- `ig` <ins title="2017-03-21-09-50-31">slowplimsole</ins> Perfection ⚖️
+- `ig` <ins title="2017-03-22-16-32-55">adventures_of_the_dovah</ins> Cool af to see a morrowind account!
 
 ## <span id="2024-07-30.netches-have-fallen-out">Netches Have Fallen Out</span>
 
@@ -28,10 +57,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BY_CeRojNOg/)       | 2017-09-13 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_426)  | 2017-09-13 |   119 |     6 |        79 |      6 |
-| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   164 |    48 |      1433 |   3.35 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   139 |    22 |       924 |   2.38 |
-| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   121 |    36 |       418 |   8.61 |
-|                                                    |            |   543 |   172 |      2775 |   5.09 |
+| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   167 |    48 |      1433 |   3.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   142 |    22 |       924 |   2.38 |
+| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   123 |    37 |       418 |   8.85 |
+|                                                    |            |   551 |   173 |      2775 |   5.15 |
 
 ## <span id="2024-07-29.arch-with-a-canopy">Arch with a Canopy</span>
 
@@ -57,8 +86,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_784)  | 2018-06-27 |   286 |    20 |       178 |  11.24 |
 | [`ig`](https://instagram.com/p/C-BDYFOzGbE/)       | 2024-07-29 |   339 |   108 |      1432 |   7.54 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1660) | 2024-07-29 |   171 |    28 |       924 |   3.03 |
-| [`tg`](https://t.me/mwscr/484)                     | 2024-07-29 |   153 |    46 |       414 |  11.11 |
-|                                                    |            |   949 |   302 |      2770 |   8.23 |
+| [`tg`](https://t.me/mwscr/484)                     | 2024-07-29 |   154 |    46 |       414 |  11.11 |
+|                                                    |            |   950 |   302 |      2770 |   8.23 |
 
 #### Comments
 
