@@ -4,7 +4,35 @@
 
 # Published in 2024
 
-`160 items`
+`161 items`
+
+## <span id="2024-07-31.waterfalls-of-puzzle-canal">Waterfalls of Puzzle Canal</span>
+
+`RU` Водопады Канала Загадок
+
+<a href="https://instagram.com/p/BjffbFTF-bl/" title="2018-06-01.waterfalls-of-puzzle-canal"><img alt="store:/shots/2018-06-01.waterfalls-of-puzzle-canal.png" src="../../assets/previews/shots/2018-06-01.waterfalls-of-puzzle-canal.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31.waterfalls-of-puzzle-canal)</code> `🚀 OpenMW` `waterfall`
+
+```
+2024-07-31.waterfalls-of-puzzle-canal
+```
+
+> `2018-06-01.waterfalls-of-puzzle-canal`
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BjffbFTF-bl/)      | 2018-06-01 |       |    92 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_752) | 2018-06-01 |   270 |    20 |       168 |   11.9 |
+|                                                   |            |   270 |   112 |       168 |        |
+
+#### Comments
+
+- `ig` <ins title="2018-06-02-04-05-47">sam.m.cooley</ins> Oh god the puzzle canal
 
 ## <span id="2024-07-31.vanilla-sunset">Vanilla Sunset</span>
 
@@ -115,10 +143,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BhKJllaDKQo/)       | 2018-04-04 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_677)  | 2018-04-04 |   176 |    17 |       149 |  11.41 |
-| [`ig`](https://instagram.com/p/C-GS_cMAUNx/)       | 2024-07-31 |   147 |    49 |      1433 |   3.42 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |    73 |    14 |       924 |   1.52 |
-| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |   185 |    26 |       419 |   6.21 |
-|                                                    |            |   581 |   178 |      2776 |   5.64 |
+| [`ig`](https://instagram.com/p/C-GS_cMAUNx/)       | 2024-07-31 |   178 |    53 |      1433 |    3.7 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |    78 |    14 |       924 |   1.52 |
+| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |   194 |    26 |       419 |   6.21 |
+|                                                    |            |   626 |   182 |      2776 |   5.71 |
 
 ## <span id="2024-07-31.berth-near-grotto">Berth Near Grotto</span>
 
@@ -175,10 +203,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BY_CeRojNOg/)       | 2017-09-13 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_426)  | 2017-09-13 |   119 |     6 |        79 |      6 |
-| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   172 |    50 |      1433 |   3.49 |
+| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   174 |    50 |      1433 |   3.49 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   145 |    23 |       924 |   2.49 |
-| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   141 |    40 |       418 |   9.57 |
-|                                                    |            |   577 |   179 |      2775 |   5.39 |
+| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   143 |    40 |       418 |   9.57 |
+|                                                    |            |   581 |   179 |      2775 |   5.39 |
 
 ## <span id="2024-07-29.arch-with-a-canopy">Arch with a Canopy</span>
 
