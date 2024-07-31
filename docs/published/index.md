@@ -4,7 +4,7 @@
 
 # Published in 2024
 
-`159 items`
+`160 items`
 
 ## <span id="2024-07-31.vanilla-sunset">Vanilla Sunset</span>
 
@@ -65,6 +65,34 @@
 - `ig` <ins title="2017-03-27-20-04-32">oefengod1</ins> Could you do one of Balmora or Suran? They always were my favorite cities.
 - `ig` <ins title="2017-03-27-20-25-03">mwscr</ins> @the_telvanni_mouth Of course, these cities were in the past and will appear in future posts.
 
+## <span id="2024-07-31.in-a-fishermans-hut">In a Fisherman&#39;s Hut</span>
+
+`RU` В рыбацкой хижине
+
+<a href="https://instagram.com/p/BVmJpE9jSWG/" title="2017-06-21.in-a-fishermans-hut"><img alt="store:/shots/2017-06-21.in-a-fishermans-hut.png" src="../../assets/previews/shots/2017-06-21.in-a-fishermans-hut.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31.in-a-fishermans-hut)</code> `🚀 OpenMW` `candles`
+
+```
+2024-07-31.in-a-fishermans-hut
+```
+
+> `2017-06-21.in-a-fishermans-hut`
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BVmJpE9jSWG/)      | 2017-06-21 |       |    60 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_329) | 2017-06-21 |   104 |     3 |        65 |      3 |
+|                                                   |            |   104 |    63 |        65 |        |
+
+#### Comments
+
+- `ig` <ins title="2017-06-21-11-31-17">l3nku</ins> moody
+
 ## <span id="2024-07-31.comprehension-of-sciences">Comprehension of Sciences</span>
 
 `RU` Постижение наук
@@ -87,10 +115,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BhKJllaDKQo/)       | 2018-04-04 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_677)  | 2018-04-04 |   176 |    17 |       149 |  11.41 |
-| [`ig`](https://instagram.com/p/C-GS_cMAUNx/)       | 2024-07-31 |   119 |    42 |      1433 |   2.93 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |    61 |    13 |       924 |   1.41 |
-| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |   163 |    26 |       419 |   6.21 |
-|                                                    |            |   519 |   170 |      2776 |   5.49 |
+| [`ig`](https://instagram.com/p/C-GS_cMAUNx/)       | 2024-07-31 |   147 |    49 |      1433 |   3.42 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |    73 |    14 |       924 |   1.52 |
+| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |   185 |    26 |       419 |   6.21 |
+|                                                    |            |   581 |   178 |      2776 |   5.64 |
 
 ## <span id="2024-07-31.berth-near-grotto">Berth Near Grotto</span>
 
@@ -147,10 +175,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BY_CeRojNOg/)       | 2017-09-13 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_426)  | 2017-09-13 |   119 |     6 |        79 |      6 |
-| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   171 |    50 |      1433 |   3.49 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   144 |    23 |       924 |   2.49 |
-| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   137 |    40 |       418 |   9.57 |
-|                                                    |            |   571 |   179 |      2775 |   5.39 |
+| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   172 |    50 |      1433 |   3.49 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   145 |    23 |       924 |   2.49 |
+| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   141 |    40 |       418 |   9.57 |
+|                                                    |            |   577 |   179 |      2775 |   5.39 |
 
 ## <span id="2024-07-29.arch-with-a-canopy">Arch with a Canopy</span>
 
