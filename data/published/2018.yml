@@ -2426,10 +2426,10 @@
     - service: vk
       id: 1550
       published: 2024-05-28-18-19-10
-      updated: 2024-07-23-23-17-10
+      updated: 2024-07-31-00-57-39
       followers: 917
       likes: 25
-      views: 275
+      views: 276
       reposts: 1
       comments: !c |-
         CxyAkZPLQnj8B1VNAACmamVybW9y2SXQn9GA0L4g0LHRg9C80LDQs9C4LCDQvdCw0LLQtdGA0L3Q
@@ -2437,10 +2437,10 @@
     - service: tg
       id: 422
       published: 2024-05-28-18-19-16
-      updated: 2024-07-23-23-17-08
+      updated: 2024-07-31-00-57-37
       followers: 378
       likes: 63
-      views: 398
+      views: 404
 2018-03-25.ships:
   title: Ships
   titleRu: Корабли
@@ -4801,10 +4801,10 @@
     - service: vk
       id: 1611
       published: 2024-07-02-18-20-16
-      updated: 2024-07-23-23-17-07
+      updated: 2024-07-31-00-57-36
       followers: 918
       likes: 40
-      views: 275
+      views: 284
       reposts: 1
       comments: !c |-
         G7oA+B2JsY2aLays8sOF+H+ek+kEv012hj7ETpJg4sl9RqnbLCF6DMViH+fi9Hxa3tQsSkXyY/xs
@@ -5357,10 +5357,10 @@
       id: C-BDYFOzGbE
       mediaId: '17855726970227801'
       published: 2024-07-29-18-20-45
-      updated: 2024-07-30-23-13-33
+      updated: 2024-07-31-00-57-35
       followers: 1432
-      likes: 102
-      views: 313
+      likes: 103
+      views: 317
       comments: !c |-
         G9sAwIyE3ETrEcMf7UJmuwcLLZhFgWeDxMKSGgykrsJyLYNukr5AooH/2teYFlmgYeDpFuvThR7M
         dKJiGjbBJoQgv11v6HW7SZHWCu/aDprN2+cFm/OAUAT5LMszkiJtwjPS1QYgMeK9KjTCLjkhUKt/
@@ -5369,17 +5369,17 @@
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
-      updated: 2024-07-30-23-13-32
+      updated: 2024-07-31-00-57-34
       followers: 924
       likes: 25
-      views: 160
+      views: 161
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
-      updated: 2024-07-30-23-13-32
+      updated: 2024-07-31-00-57-35
       followers: 414
       likes: 44
-      views: 141
+      views: 142
 2018-06-28.light-on-the-water:
   title: Light on the Water
   titleRu: Свет над водой
