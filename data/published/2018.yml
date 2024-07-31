@@ -5357,10 +5357,10 @@
       id: C-BDYFOzGbE
       mediaId: '17855726970227801'
       published: 2024-07-29-18-20-45
-      updated: 2024-07-31-16-18-56
+      updated: 2024-07-31-17-15-48
       followers: 1432
       likes: 108
-      views: 337
+      views: 339
       comments: !c |-
         G9sAwIyE3ETrEcMf7UJmuwcLLZhFgWeDxMKSGgykrsJyLYNukr5AooH/2teYFlmgYeDpFuvThR7M
         dKJiGjbBJoQgv11v6HW7SZHWCu/aDprN2+cFm/OAUAT5LMszkiJtwjPS1QYgMeK9KjTCLjkhUKt/
@@ -5369,14 +5369,14 @@
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
-      updated: 2024-07-31-16-18-56
+      updated: 2024-07-31-17-15-47
       followers: 924
-      likes: 27
-      views: 170
+      likes: 28
+      views: 171
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
-      updated: 2024-07-31-16-18-56
+      updated: 2024-07-31-17-15-48
       followers: 414
       likes: 46
       views: 153
