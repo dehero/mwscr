@@ -161,19 +161,19 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2024-07-24-05-15-20
+      updated: 2024-07-31-06-18-14
       followers: 894
       likes: 47
-      views: 363
+      views: 364
       reposts: 2
       comments: !c iw6AkZPLQnje54g+AACpdmxhZGtyMTE0qNCt0YXwn5iUAw==
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2024-07-24-05-15-19
+      updated: 2024-07-31-06-18-11
       followers: 337
       likes: 90
-      views: 591
+      views: 592
       comments: !c |-
         ixyAkZTLQnjexabnAACucXVpbnR1c19mYWJpdXOtV2UncmUgc28gYmFja5PLQnjexcSwAAClYW5z
         aXOhLgM=
@@ -4869,10 +4869,10 @@
       id: C9N-Whvuckx
       mediaId: '18031847912032202'
       published: 2024-07-09-22-15-33
-      updated: 2024-07-24-05-15-14
+      updated: 2024-07-31-06-18-08
       followers: 1423
-      likes: 81
-      views: 382
+      likes: 82
+      views: 388
       comments: !c CxGAkZPLQnkJmb+9gACwam9hb3dvaWNoaW5ldnNraaZhbGVmdD8D
 2017-05-25.arvela-falas:
   title: Arvela Falas
@@ -8087,24 +8087,24 @@
       id: C-DoImWBS96
       mediaId: '18325847011177785'
       published: 2024-07-30-18-20-25
-      updated: 2024-07-31-05-13-34
+      updated: 2024-07-31-06-18-05
       followers: 1433
-      likes: 35
-      views: 113
+      likes: 38
+      views: 118
     - service: vk
       id: 1661
       published: 2024-07-30-18-20-32
-      updated: 2024-07-31-05-13-34
+      updated: 2024-07-31-06-18-06
       followers: 924
       likes: 18
-      views: 108
+      views: 110
     - service: tg
       id: 485
       published: 2024-07-30-18-20-38
-      updated: 2024-07-31-05-13-35
+      updated: 2024-07-31-06-18-06
       followers: 418
-      likes: 26
-      views: 94
+      likes: 29
+      views: 100
 2017-09-14.abandoned-island:
   title: Abandoned Island
   titleRu: Покинутый остров
@@ -9138,18 +9138,18 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2024-07-24-05-15-17
+      updated: 2024-07-31-06-18-11
       followers: 904
       likes: 44
-      views: 292
+      views: 293
       reposts: 3
     - service: tg
       id: 358
       published: 2024-03-26-18-10-55
-      updated: 2024-07-24-05-15-17
+      updated: 2024-07-31-06-18-09
       followers: 352
       likes: 66
-      views: 445
+      views: 448
       comments: !c |-
         G9kBAIzDdOMtD8uLoNCb/uY3rEvgXRaFcVs8ojGmRePvATimyLdobakOeKISVRqhnL/uvmhIEaJX
         IlM39fHx8YF4jiaXdWGcZZLo0n0eQm8T8ZGeji5LY4lh62Ne3NjmP1g4BM1EkzH5Ymsiv7nDKENw
@@ -9972,18 +9972,18 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2024-07-24-05-15-20
+      updated: 2024-07-31-06-18-13
       followers: 895
       likes: 35
-      views: 281
+      views: 282
       reposts: 2
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2024-07-24-05-15-19
+      updated: 2024-07-31-06-18-11
       followers: 343
       likes: 67
-      views: 510
+      views: 511
       comments: !c ixOAkZPLQnjhAF9lAACucXVpbnR1c19mYWJpdXOt8J+Pg+KAjeKZgu+4jwM=
 2017-11-16.cozy-workplace-in-the-basement:
   title: Cozy Workplace in the Basement
