@@ -4,7 +4,7 @@
 
 # Published in 2024
 
-`157 items`
+`158 items`
 
 ## <span id="2024-07-31.vanilla-sunset">Vanilla Sunset</span>
 
@@ -35,6 +35,36 @@
 - `ig` <ins title="2017-03-21-09-50-31">slowplimsole</ins> Perfection ⚖️
 - `ig` <ins title="2017-03-22-16-32-55">adventures_of_the_dovah</ins> Cool af to see a morrowind account!
 
+## <span id="2024-07-31.on-the-edge-of-a-dead-forest">On the Edge of a Dead Forest</span>
+
+`RU` На краю мёртвого леса
+
+<a href="https://instagram.com/p/BSIisrCDPfE/" title="2017-03-27.on-the-edge-of-a-dead-forest"><img alt="store:/shots/2017-03-27.on-the-edge-of-a-dead-forest.png" src="../../assets/previews/shots/2017-03-27.on-the-edge-of-a-dead-forest.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31.on-the-edge-of-a-dead-forest)</code> `🚀 OpenMW` `nofilter` `campfire` `deadforest` `night`
+
+```
+2024-07-31.on-the-edge-of-a-dead-forest
+```
+
+> `2017-03-27.on-the-edge-of-a-dead-forest`
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BSIisrCDPfE/)      | 2017-03-27 |       |    66 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_232) | 2017-03-27 |   119 |     6 |        48 |      6 |
+|                                                   |            |   119 |    72 |        48 |        |
+
+#### Comments
+
+- `ig` <ins title="2017-03-27-18-24-53">digitalboyare</ins> Now you&#39;ll die!
+- `ig` <ins title="2017-03-27-20-04-32">oefengod1</ins> Could you do one of Balmora or Suran? They always were my favorite cities.
+- `ig` <ins title="2017-03-27-20-25-03">mwscr</ins> @the_telvanni_mouth Of course, these cities were in the past and will appear in future posts.
+
 ## <span id="2024-07-31.comprehension-of-sciences">Comprehension of Sciences</span>
 
 `RU` Постижение наук
@@ -57,10 +87,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BhKJllaDKQo/)       | 2018-04-04 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_677)  | 2018-04-04 |   176 |    17 |       149 |  11.41 |
-| [`ig`](https://instagram.com/p/C-GS_cMAUNx/)       | 2024-07-31 |       |       |      1433 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |       |       |       924 |        |
-| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |       |       |       419 |        |
-|                                                    |            |   176 |    89 |      2776 |        |
+| [`ig`](https://instagram.com/p/C-GS_cMAUNx/)       | 2024-07-31 |    53 |    32 |      1433 |   2.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |    48 |    10 |       924 |   1.08 |
+| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |    93 |    19 |       419 |   4.53 |
+|                                                    |            |   370 |   150 |      2776 |   4.81 |
 
 ## <span id="2024-07-30.netches-have-fallen-out">Netches Have Fallen Out</span>
 
@@ -84,10 +114,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BY_CeRojNOg/)       | 2017-09-13 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_426)  | 2017-09-13 |   119 |     6 |        79 |      6 |
-| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   167 |    49 |      1433 |   3.42 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   143 |    23 |       924 |   2.49 |
-| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   123 |    37 |       418 |   8.85 |
-|                                                    |            |   552 |   175 |      2775 |   5.19 |
+| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   168 |    49 |      1433 |   3.42 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   144 |    23 |       924 |   2.49 |
+| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   134 |    40 |       418 |   9.57 |
+|                                                    |            |   565 |   178 |      2775 |   5.37 |
 
 ## <span id="2024-07-29.arch-with-a-canopy">Arch with a Canopy</span>
 
@@ -177,8 +207,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_282)    | 2017-05-07 |    98 |     4 |        55 |      4 |
 | [`ig`](https://instagram.com/p/C975vMSNVQ0/)         | 2024-07-27 |   254 |    77 |      1432 |   5.38 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1658)   | 2024-07-27 |   224 |    30 |       923 |   3.25 |
-| [`tg`](https://t.me/mwscr/482)                       | 2024-07-27 |   187 |    50 |       401 |  12.47 |
-|                                                      |            |   763 |   216 |      2756 |   6.27 |
+| [`tg`](https://t.me/mwscr/482)                       | 2024-07-27 |   208 |    52 |       401 |  12.97 |
+|                                                      |            |   784 |   218 |      2756 |    6.4 |
 
 #### Comments
 
@@ -209,10 +239,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BjpwqFgF69a/)       | 2018-06-05 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_756)  | 2018-06-05 |   267 |    17 |       172 |   9.88 |
-| [`ig`](https://instagram.com/p/C95U9yItRqn/)       | 2024-07-26 |   463 |    86 |      1430 |   6.01 |
+| [`ig`](https://instagram.com/p/C95U9yItRqn/)       | 2024-07-26 |   471 |    87 |      1430 |   6.08 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1657) | 2024-07-26 |   208 |    27 |       923 |   2.93 |
-| [`tg`](https://t.me/mwscr/481)                     | 2024-07-26 |   259 |    62 |       400 |   15.5 |
-|                                                    |            |  1197 |   281 |      2753 |   8.58 |
+| [`tg`](https://t.me/mwscr/481)                     | 2024-07-26 |   273 |    63 |       400 |  15.75 |
+|                                                    |            |  1219 |   283 |      2753 |   8.66 |
 
 #### Comments
 
@@ -241,10 +271,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bd57gi7Dlsh/)       | 2018-01-13 |       |    76 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_576)  | 2018-01-13 |   187 |    19 |       121 |   15.7 |
-| [`ig`](https://instagram.com/p/C92wJd9PEVU/)       | 2024-07-25 |   365 |   101 |      1430 |   7.06 |
+| [`ig`](https://instagram.com/p/C92wJd9PEVU/)       | 2024-07-25 |   372 |   101 |      1430 |   7.06 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1656) | 2024-07-25 |   243 |    40 |       921 |   4.34 |
-| [`tg`](https://t.me/mwscr/480)                     | 2024-07-25 |   285 |    64 |       399 |  16.04 |
-|                                                    |            |  1080 |   300 |      2750 |  10.79 |
+| [`tg`](https://t.me/mwscr/480)                     | 2024-07-25 |   304 |    65 |       399 |  16.29 |
+|                                                    |            |  1106 |   301 |      2750 |  10.85 |
 
 #### Comments
 

@@ -367,17 +367,17 @@
       id: C92wJd9PEVU
       mediaId: '18062175985541627'
       published: 2024-07-25-18-20-19
-      updated: 2024-07-30-19-13-14
+      updated: 2024-07-31-20-16-00
       followers: 1430
       likes: 101
-      views: 365
+      views: 372
       comments: !c |-
         G3MA4K0S6G1dBmhh7LPR4+mNm3lbBxrkpwmWdbmFJrkml4sOvvJ+iwatHNLAIQfsrYuEkQbgdYyW
         4/lS5DjAKuvxQjRhIIz94WBIvlUTrKDKmFg0dtcA
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2024-07-30-19-13-14
+      updated: 2024-07-31-20-16-02
       followers: 921
       likes: 40
       views: 243
@@ -385,10 +385,10 @@
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2024-07-30-19-13-15
+      updated: 2024-07-31-20-16-02
       followers: 399
-      likes: 64
-      views: 285
+      likes: 65
+      views: 304
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -2759,15 +2759,24 @@
       id: C-GS_cMAUNx
       mediaId: '18038112679858729'
       published: 2024-07-31-19-13-23
+      updated: 2024-07-31-20-15-58
       followers: 1433
+      likes: 32
+      views: 53
     - service: vk
       id: 1662
       published: 2024-07-31-19-13-29
+      updated: 2024-07-31-20-15-58
       followers: 924
+      likes: 10
+      views: 48
     - service: tg
       id: 486
       published: 2024-07-31-19-13-35
+      updated: 2024-07-31-20-15-59
       followers: 419
+      likes: 19
+      views: 93
 2018-04-05.under-the-eaves:
   title: Under the Eaves
   titleRu: Под срезом крыши
@@ -4696,14 +4705,14 @@
       id: C95U9yItRqn
       mediaId: '17924417234825588'
       published: 2024-07-26-18-20-32
-      updated: 2024-07-30-19-13-13
+      updated: 2024-07-31-20-15-59
       followers: 1430
-      likes: 86
-      views: 463
+      likes: 87
+      views: 471
     - service: vk
       id: 1657
       published: 2024-07-26-18-20-40
-      updated: 2024-07-30-19-13-13
+      updated: 2024-07-31-20-16-01
       followers: 923
       likes: 27
       views: 208
@@ -4711,10 +4720,10 @@
     - service: tg
       id: 481
       published: 2024-07-26-18-20-48
-      updated: 2024-07-30-19-13-15
+      updated: 2024-07-31-20-16-01
       followers: 400
-      likes: 62
-      views: 259
+      likes: 63
+      views: 273
       comments: !c CwuAkZPLQnkPIJkoAACmQzRINk80pPCfmI4D
 2018-06-06.i-think-i-got-sick:
   title: I Think I Got Sick
