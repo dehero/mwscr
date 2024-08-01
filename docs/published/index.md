@@ -4,96 +4,9 @@
 
 # Published in 2024
 
-`161 items`
+`157 items`
 
-## <span id="2024-07-31.waterfalls-of-puzzle-canal">Waterfalls of Puzzle Canal</span>
-
-`RU` Водопады Канала Загадок
-
-<a href="https://instagram.com/p/BjffbFTF-bl/" title="2018-06-01.waterfalls-of-puzzle-canal"><img alt="store:/shots/2018-06-01.waterfalls-of-puzzle-canal.png" src="../../assets/previews/shots/2018-06-01.waterfalls-of-puzzle-canal.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31.waterfalls-of-puzzle-canal)</code> `🚀 OpenMW` `waterfall`
-
-```
-2024-07-31.waterfalls-of-puzzle-canal
-```
-
-> `2018-06-01.waterfalls-of-puzzle-canal`
-
-### Reactions
-
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BjffbFTF-bl/)      | 2018-06-01 |       |    92 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_752) | 2018-06-01 |   270 |    20 |       168 |   11.9 |
-|                                                   |            |   270 |   112 |       168 |        |
-
-#### Comments
-
-- `ig` <ins title="2018-06-02-04-05-47">sam.m.cooley</ins> Oh god the puzzle canal
-
-## <span id="2024-07-31.vanilla-sunset">Vanilla Sunset</span>
-
-`RU` Ванильный закат
-
-<a href="https://instagram.com/p/BR5NP4Gj3HZ/" title="2017-03-21.vanilla-sunset"><img alt="store:/shots/2017-03-21.vanilla-sunset.png" src="../../assets/previews/shots/2017-03-21.vanilla-sunset.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31.vanilla-sunset)</code> `🚀 OpenMW` `nofilter` `sunset` `water` `mudcrab`
-
-```
-2024-07-31.vanilla-sunset
-```
-
-> `2017-03-21.vanilla-sunset`
-
-### Reactions
-
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BR5NP4Gj3HZ/)      | 2017-03-21 |       |    71 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_225) | 2017-03-21 |   124 |     7 |        46 |      7 |
-|                                                   |            |   124 |    78 |        46 |        |
-
-#### Comments
-
-- `ig` <ins title="2017-03-21-09-50-31">slowplimsole</ins> Perfection ⚖️
-- `ig` <ins title="2017-03-22-16-32-55">adventures_of_the_dovah</ins> Cool af to see a morrowind account!
-
-## <span id="2024-07-31.on-the-edge-of-a-dead-forest">On the Edge of a Dead Forest</span>
-
-`RU` На краю мёртвого леса
-
-<a href="https://instagram.com/p/BSIisrCDPfE/" title="2017-03-27.on-the-edge-of-a-dead-forest"><img alt="store:/shots/2017-03-27.on-the-edge-of-a-dead-forest.png" src="../../assets/previews/shots/2017-03-27.on-the-edge-of-a-dead-forest.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31.on-the-edge-of-a-dead-forest)</code> `🚀 OpenMW` `nofilter` `campfire` `deadforest` `night`
-
-```
-2024-07-31.on-the-edge-of-a-dead-forest
-```
-
-> `2017-03-27.on-the-edge-of-a-dead-forest`
-
-### Reactions
-
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BSIisrCDPfE/)      | 2017-03-27 |       |    66 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_232) | 2017-03-27 |   119 |     6 |        48 |      6 |
-|                                                   |            |   119 |    72 |        48 |        |
-
-#### Comments
-
-- `ig` <ins title="2017-03-27-18-24-53">digitalboyare</ins> Now you&#39;ll die!
-- `ig` <ins title="2017-03-27-20-04-32">oefengod1</ins> Could you do one of Balmora or Suran? They always were my favorite cities.
-- `ig` <ins title="2017-03-27-20-25-03">mwscr</ins> @the_telvanni_mouth Of course, these cities were in the past and will appear in future posts.
-
-## <span id="2024-07-31.in-a-fishermans-hut">In a Fisherman&#39;s Hut</span>
+## <span id="2024-08-01.in-a-fishermans-hut">In a Fisherman&#39;s Hut</span>
 
 `RU` В рыбацкой хижине
 
@@ -101,10 +14,10 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31.in-a-fishermans-hut)</code> `🚀 OpenMW` `candles`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-01.in-a-fishermans-hut)</code> `🚀 OpenMW` `candles`
 
 ```
-2024-07-31.in-a-fishermans-hut
+2024-08-01.in-a-fishermans-hut
 ```
 
 > `2017-06-21.in-a-fishermans-hut`
@@ -115,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BVmJpE9jSWG/)       | 2017-06-21 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_329)  | 2017-06-21 |   104 |     3 |        65 |      3 |
-| [`ig`](https://instagram.com/p/C-HKdRnqQ1E/)       | 2024-08-01 |    24 |    15 |      1434 |   1.05 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1663) | 2024-08-01 |       |       |       924 |        |
-| [`tg`](https://t.me/mwscr/487)                     | 2024-08-01 |    25 |     7 |       423 |   1.65 |
-|                                                    |            |   153 |    85 |      2781 |    1.9 |
+| [`ig`](https://instagram.com/p/C-HKdRnqQ1E/)       | 2024-08-01 |    77 |    36 |      1434 |   2.51 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1663) | 2024-08-01 |    57 |     7 |       924 |   0.76 |
+| [`tg`](https://t.me/mwscr/487)                     | 2024-08-01 |    61 |    27 |       423 |   6.38 |
+|                                                    |            |   299 |   133 |      2781 |   3.16 |
 
 #### Comments
 
@@ -146,43 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BhKJllaDKQo/)       | 2018-04-04 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_677)  | 2018-04-04 |   176 |    17 |       149 |  11.41 |
-| [`ig`](https://instagram.com/p/C-GS_cMAUNx/)       | 2024-07-31 |   263 |    69 |      1433 |   4.82 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |    95 |    15 |       924 |   1.62 |
-| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |   230 |    33 |       419 |   7.88 |
-|                                                    |            |   764 |   206 |      2776 |   6.43 |
-
-## <span id="2024-07-31.berth-near-grotto">Berth Near Grotto</span>
-
-`RU` Причал у грота
-
-<a href="https://instagram.com/p/Bcfq-RYjP1T/" title="2017-12-09.berth-near-grotto"><img alt="store:/shots/2017-12-09.berth-near-grotto.png" src="../../assets/previews/shots/2017-12-09.berth-near-grotto.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31.berth-near-grotto)</code> `🚀 OpenMW` `water` `boating`
-
-```
-2024-07-31.berth-near-grotto
-```
-
-> `2017-12-09.berth-near-grotto`
-
-### Reactions
-
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/Bcfq-RYjP1T/)      | 2017-12-09 |       |    79 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_529) | 2017-12-09 |   203 |    20 |       108 |  18.52 |
-|                                                   |            |   203 |    99 |       108 |        |
-
-#### Comments
-
-- `vk` <ins title="2017-12-09-21-03-17">id266402374</ins> Это где такое?
-- `vk` <ins title="2017-12-09-21-13-29">mwscr</ins> Ипполита, грот Акимаэс, юго-восточнее Сейда Нина.
-- `vk` <ins title="2017-12-09-21-14-01">id266402374</ins> Morrowind Screenshots, спасибо.
-- `vk` <ins title="2017-12-11-12-53-20">crazycyrodiliccat</ins> Morrowind Screenshots, Как насчёт Project Tamriel&#39;я?
-- `vk` <ins title="2017-12-11-17-06-32">mwscr</ins> Александр, один из основных принципов проекта, вынесенный в описание: моды, созданные третьими лицами не используются.
-- `vk` <ins title="2017-12-11-17-07-05">crazycyrodiliccat</ins> Morrowind Screenshots, Зря. Ну ладно.
+| [`ig`](https://instagram.com/p/C-GS_cMAUNx/)       | 2024-07-31 |   289 |    75 |      1433 |   5.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |   111 |    19 |       924 |   2.06 |
+| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |   262 |    40 |       419 |   9.55 |
+|                                                    |            |   838 |   223 |      2776 |   7.06 |
 
 ## <span id="2024-07-30.netches-have-fallen-out">Netches Have Fallen Out</span>
 
@@ -206,10 +86,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BY_CeRojNOg/)       | 2017-09-13 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_426)  | 2017-09-13 |   119 |     6 |        79 |      6 |
-| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   181 |    52 |      1433 |   3.63 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   146 |    23 |       924 |   2.49 |
-| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   147 |    40 |       418 |   9.57 |
-|                                                    |            |   593 |   181 |      2775 |   5.42 |
+| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   183 |    53 |      1433 |    3.7 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   147 |    24 |       924 |    2.6 |
+| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   153 |    40 |       418 |   9.57 |
+|                                                    |            |   602 |   183 |      2775 |   5.47 |
 
 ## <span id="2024-07-29.arch-with-a-canopy">Arch with a Canopy</span>
 
@@ -1030,8 +910,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_165)  | 2017-02-21 |   145 |    10 |        38 |     10 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1613) | 2024-07-04 |   247 |    31 |       919 |   3.37 |
 | [`tg`](https://t.me/mwscr/459)                     | 2024-07-04 |   418 |    55 |       391 |  14.07 |
-| [`ig`](https://instagram.com/p/C9Q29Eus5LH/)       | 2024-07-11 |   287 |    75 |      1427 |   5.26 |
-|                                                    |            |  1097 |   200 |      2737 |   8.17 |
+| [`ig`](https://instagram.com/p/C9Q29Eus5LH/)       | 2024-07-11 |   302 |    77 |      1427 |    5.4 |
+|                                                    |            |  1112 |   202 |      2737 |   8.21 |
 
 ## <span id="2024-07-03.ashes-of-d-bryant">Ashes of D. Bryant</span>
 
@@ -2861,9 +2741,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C6t6ArvSgR_/)       | 2024-05-08 |   403 |   116 |      1417 |   8.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1525) | 2024-05-08 |   291 |    42 |       913 |    4.6 |
-| [`tg`](https://t.me/mwscr/402)                     | 2024-05-08 |   415 |    67 |       370 |  18.11 |
-|                                                    |            |  1109 |   225 |      2700 |   10.3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1525) | 2024-05-08 |   292 |    42 |       913 |    4.6 |
+| [`tg`](https://t.me/mwscr/402)                     | 2024-05-08 |   418 |    67 |       370 |  18.11 |
+|                                                    |            |  1113 |   225 |      2700 |   10.3 |
 
 #### Comments
 
@@ -3077,9 +2957,9 @@
 | [`ig`](https://instagram.com/p/BcQE6_5jawa/)       | 2017-12-03 |       |    94 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_521)  | 2017-12-03 |   160 |    14 |       104 |  13.46 |
 | [`ig`](https://instagram.com/p/C6b4XCOPD2n/)       | 2024-05-01 |   332 |    95 |      1415 |   6.71 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1515) | 2024-05-01 |   249 |    28 |       911 |   3.07 |
-| [`tg`](https://t.me/mwscr/395)                     | 2024-05-01 |   435 |    56 |       363 |  15.43 |
-|                                                    |            |  1176 |   287 |      2689 |   9.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1515) | 2024-05-01 |   250 |    28 |       911 |   3.07 |
+| [`tg`](https://t.me/mwscr/395)                     | 2024-05-01 |   437 |    56 |       363 |  15.43 |
+|                                                    |            |  1179 |   287 |      2689 |   9.67 |
 
 #### Comments
 
@@ -3282,9 +3162,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C6J2rHdMfKT/)       | 2024-04-24 |   310 |    77 |      1416 |   5.44 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1508) | 2024-04-24 |   270 |    31 |       909 |   3.41 |
-| [`tg`](https://t.me/mwscr/388)                     | 2024-04-24 |   433 |    63 |       354 |   17.8 |
-|                                                    |            |  1013 |   171 |      2679 |   8.88 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1508) | 2024-04-24 |   271 |    31 |       909 |   3.41 |
+| [`tg`](https://t.me/mwscr/388)                     | 2024-04-24 |   436 |    63 |       354 |   17.8 |
+|                                                    |            |  1017 |   171 |      2679 |   8.88 |
 
 ## <span id="2024-04-23.evening-mournhold">Evening Mournhold</span>
 
@@ -3516,9 +3396,9 @@
 | [`ig`](https://instagram.com/p/BSSo_M4Dm2-/)       | 2017-03-31 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_238)  | 2017-03-31 |   121 |     4 |        50 |      4 |
 | [`ig`](https://instagram.com/p/C531KaqsRUG/)       | 2024-04-17 |   397 |    97 |      1413 |   6.86 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1498) | 2024-04-17 |   240 |    31 |       910 |   3.41 |
-| [`tg`](https://t.me/mwscr/381)                     | 2024-04-17 |   418 |    68 |       354 |  19.21 |
-|                                                    |            |  1176 |   257 |      2677 |   8.37 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1498) | 2024-04-17 |   241 |    31 |       910 |   3.41 |
+| [`tg`](https://t.me/mwscr/381)                     | 2024-04-17 |   421 |    68 |       354 |  19.21 |
+|                                                    |            |  1180 |   257 |      2677 |   8.37 |
 
 ## <span id="2024-04-16.birth-of-fabricant">Birth of Fabricant</span>
 
@@ -3744,9 +3624,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   287 |    73 |      1411 |   5.17 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |   220 |    30 |       911 |   3.29 |
-| [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   422 |    58 |       353 |  16.43 |
-|                                                    |            |   929 |   161 |      2675 |    8.3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |   221 |    30 |       911 |   3.29 |
+| [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   426 |    58 |       353 |  16.43 |
+|                                                    |            |   934 |   161 |      2675 |    8.3 |
 
 ## <span id="2024-04-09.telvanni-council-house">Telvanni Council House</span>
 
@@ -3963,13 +3843,13 @@
 | [`ig`](https://instagram.com/p/BVCJ8xHDrD1/)       | 2017-06-07 |       |    51 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_314)  | 2017-06-07 |   213 |     9 |        61 |      9 |
 | [`ig`](https://instagram.com/p/C5TxQvku6cF/)       | 2024-04-03 |    87 |     9 |      1408 |   0.64 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1479) | 2024-04-03 |   237 |    22 |       906 |   2.43 |
-| [`tg`](https://t.me/mwscr/366)                     | 2024-04-03 |   434 |    53 |       353 |  15.01 |
-|                                                    |            |   971 |   144 |      2667 |   6.77 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1479) | 2024-04-03 |   242 |    22 |       906 |   2.43 |
+| [`tg`](https://t.me/mwscr/366)                     | 2024-04-03 |   436 |    53 |       353 |  15.01 |
+|                                                    |            |   978 |   144 |      2667 |   6.77 |
 
 #### Comments
 
-- `tg` <ins title="2024-04-04-14-36-02">Rober_555949</ins> Вау эта игра такая красивая 😍
+- `tg` <ins title="2024-04-04-14-36-02">Jesse_Pinkman2008</ins> Вау эта игра такая красивая 😍
 
 ## <span id="2024-04-02.hanged-man">Hanged Man</span>
 
@@ -4184,9 +4064,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C5Bvy5uRX3U/)       | 2024-03-27 |   349 |    83 |      1402 |   5.92 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1471) | 2024-03-27 |   270 |    30 |       905 |   3.31 |
-| [`tg`](https://t.me/mwscr/359)                     | 2024-03-27 |   455 |    64 |       354 |  18.08 |
-|                                                    |            |  1074 |   177 |      2661 |    9.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1471) | 2024-03-27 |   271 |    30 |       905 |   3.31 |
+| [`tg`](https://t.me/mwscr/359)                     | 2024-03-27 |   459 |    64 |       354 |  18.08 |
+|                                                    |            |  1079 |   177 |      2661 |    9.1 |
 
 #### Comments
 
@@ -4428,9 +4308,9 @@
 | [`ig`](https://instagram.com/p/BWKHtX6jJT8/)       | 2017-07-05 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_343)  | 2017-07-05 |   105 |    10 |        65 |     10 |
 | [`ig`](https://instagram.com/p/C4vuHKgA83_/)       | 2024-03-20 |   421 |    99 |      1393 |   7.11 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1460) | 2024-03-20 |   274 |    30 |       896 |   3.35 |
-| [`tg`](https://t.me/mwscr/352)                     | 2024-03-20 |   434 |    57 |       352 |  16.19 |
-|                                                    |            |  1234 |   253 |      2641 |   9.16 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1460) | 2024-03-20 |   275 |    30 |       896 |   3.35 |
+| [`tg`](https://t.me/mwscr/352)                     | 2024-03-20 |   435 |    57 |       352 |  16.19 |
+|                                                    |            |  1236 |   253 |      2641 |   9.16 |
 
 ## <span id="2024-03-19.dirty-muriels-cornerclub">Dirty Muriel&#39;s Cornerclub</span>
 
@@ -4868,9 +4748,9 @@
 | [`ig`](https://instagram.com/p/BakD8nDDT8q/)       | 2017-10-22 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_470)  | 2017-10-22 |   162 |    10 |        91 |     10 |
 | [`ig`](https://instagram.com/p/C4Lr1rqP6HP/)       | 2024-03-06 |   510 |   117 |      1380 |   8.48 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1438) | 2024-03-06 |   269 |    43 |       894 |   4.81 |
-| [`tg`](https://t.me/mwscr/337)                     | 2024-03-06 |   512 |    60 |       343 |  17.49 |
-|                                                    |            |  1453 |   291 |      2617 |   10.2 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1438) | 2024-03-06 |   270 |    43 |       894 |   4.81 |
+| [`tg`](https://t.me/mwscr/337)                     | 2024-03-06 |   515 |    60 |       343 |  17.49 |
+|                                                    |            |  1457 |   291 |      2617 |   10.2 |
 
 #### Comments
 
@@ -5109,9 +4989,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C35xPQ9s-8q/)       | 2024-02-28 |   581 |   156 |      1373 |  11.36 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1420) | 2024-02-28 |   319 |    40 |       894 |   4.47 |
-| [`tg`](https://t.me/mwscr/330)                     | 2024-02-28 |   593 |    73 |       338 |   21.6 |
-|                                                    |            |  1493 |   269 |      2605 |  12.48 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1420) | 2024-02-28 |   320 |    40 |       894 |   4.47 |
+| [`tg`](https://t.me/mwscr/330)                     | 2024-02-28 |   594 |    73 |       338 |   21.6 |
+|                                                    |            |  1495 |   269 |      2605 |  12.48 |
 
 #### Comments
 
