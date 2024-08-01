@@ -9,9 +9,9 @@
 [VK](https://vk.com/dehero), [Telegram](https://t.me/deherole), [GitHub](https://github.com/dehero), [E-mail](mailto:dehero@outlook.com)
 
 Roles: `admin` `author` `requester`  
-Authored: 920 published, 17 pending, 62 rejected  
+Authored: 920 published, 1 pending, 78 rejected  
 Requested: 6 pending  
-Likes: 128208  
+Likes: 128212  
 
 ```
 dehero
@@ -20,7 +20,7 @@ dehero
 ### Natty
 
 Roles: `author`  
-Authored: 32 published, 28 pending, 7 rejected  
+Authored: 32 published, 35 rejected  
 Likes: 6293  
 
 ```
@@ -32,7 +32,7 @@ natty
 [Telegram](https://t.me/midnight_in_mind)
 
 Roles: `author`  
-Authored: 9 published, 1 pending, 13 rejected  
+Authored: 9 published, 14 rejected  
 Likes: 2485  
 
 ```
@@ -56,7 +56,7 @@ knives-out
 [VK](https://vk.com/club207258733)
 
 Roles: `author` `drawer`  
-Authored: 1 published, 3 pending  
+Authored: 1 published, 3 rejected  
 Likes: 239  
 
 ```
