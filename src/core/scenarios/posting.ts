@@ -9,19 +9,19 @@ import {
 } from '../rules/post-candidate-rules.js';
 import { needCertainType } from '../rules/post-rules.js';
 import type { PostingRule } from '../rules/posting-rules.js';
-import { afterHour, lastPostedHoursAgo /*onWeekDay*/ } from '../rules/posting-rules.js';
+import { afterHour, lastPostedDaysAgo, lastPublishedHoursAgo /*onWeekDay*/ } from '../rules/posting-rules.js';
 
 export type PostingScenario = [title: string, postingRules: PostingRule[], postCandidateRules: PostCandidateRule[]];
 
 // const shotSet: PostingScenario = [
 //   'set of shots on Sunday',
-//   [onWeekDay(0), afterHour(6), lastPostedHoursAgo(12)],
+//   [onWeekDay(0), afterHour(6), lastPostedHoursAgo(12), lastPostedDaysAgo(1)],
 //   [needCertainType('shot-set'), needMinTypeDistance(7), needMinContentDistance(91)],
 // ];
 
 const shot: PostingScenario = [
   'shot',
-  [afterHour(18), lastPostedHoursAgo(12)],
+  [afterHour(18), lastPublishedHoursAgo(12), lastPostedDaysAgo(1)],
   [
     needCertainType('shot'),
     needMinMarkDistance('C', 14),

@@ -32,10 +32,10 @@
     - service: vk
       id: 1420
       published: 2024-02-28-19-19-28
-      updated: 2024-07-25-04-19-06
+      updated: 2024-08-01-06-57-12
       followers: 894
       likes: 40
-      views: 319
+      views: 320
       reposts: 2
       comments: !c |-
         G4cEAKwOeDPTKSGxilFh42qgn0k8AYe/+AvdH7sCiqyN+SIYQGuLz3fkmboYCO0QkngCAk1ya3f7
@@ -51,10 +51,10 @@
     - service: tg
       id: 330
       published: 2024-02-28-19-19-34
-      updated: 2024-07-25-04-19-04
+      updated: 2024-08-01-06-57-08
       followers: 338
       likes: 73
-      views: 593
+      views: 594
       comments: !c ixaAkZPLQnjfHLDigACqc3lvbWFkeW9tYbdteSBmYXZvdXJpdGUgdGcgY2hhbm5lbAM=
 2024-02-29.morning-hunt: 2017-03-30.morning-hunt
 2024-03-01.rat-in-the-pasture:
@@ -681,18 +681,18 @@
     - service: vk
       id: 1471
       published: 2024-03-27-18-11-59
-      updated: 2024-07-25-04-19-03
+      updated: 2024-08-01-06-57-09
       followers: 905
       likes: 30
-      views: 270
+      views: 271
       reposts: 2
     - service: tg
       id: 359
       published: 2024-03-27-18-12-06
-      updated: 2024-07-25-04-19-02
+      updated: 2024-08-01-06-57-07
       followers: 354
       likes: 64
-      views: 455
+      views: 459
       comments: !c |-
         Gx8BAIxUNX9/v7a2kaHhr6KSaSbTxSwxVBE9T65NP3H7Tb90ha6ubkv1IeWdn3N40SoIj5akPYpd
         ui2pJ6tkGCaZwF92uh+qPDpBjWFHjrAnb/NEUrEcnjB40i6/JwWOpAe84UIg6oPwPJTUSAFSRkR9
@@ -996,17 +996,17 @@
     - service: vk
       id: 1489
       published: 2024-04-10-18-19-29
-      updated: 2024-07-25-04-19-02
+      updated: 2024-08-01-06-57-07
       followers: 911
       likes: 30
-      views: 220
+      views: 221
     - service: tg
       id: 374
       published: 2024-04-10-18-19-36
-      updated: 2024-07-25-04-19-01
+      updated: 2024-08-01-06-57-05
       followers: 353
       likes: 58
-      views: 422
+      views: 426
 2024-04-11.heros-skeleton:
   title: Hero's Skeleton
   titleRu: Скелет героя
@@ -1294,18 +1294,18 @@
     - service: vk
       id: 1508
       published: 2024-04-24-18-17-29
-      updated: 2024-07-25-04-19-00
+      updated: 2024-08-01-06-57-05
       followers: 909
       likes: 31
-      views: 270
+      views: 271
       reposts: 1
     - service: tg
       id: 388
       published: 2024-04-24-18-17-38
-      updated: 2024-07-25-04-19-00
+      updated: 2024-08-01-06-57-03
       followers: 354
       likes: 63
-      views: 433
+      views: 436
 2024-04-25.abandoned-island: 2017-09-14.abandoned-island
 2024-04-26.winter-and-summer:
   title: Winter and Summer
@@ -1600,18 +1600,18 @@
     - service: vk
       id: 1525
       published: 2024-05-08-18-19-16
-      updated: 2024-07-25-04-18-58
+      updated: 2024-08-01-06-57-02
       followers: 913
       likes: 42
-      views: 291
+      views: 292
       reposts: 1
     - service: tg
       id: 402
       published: 2024-05-08-18-19-25
-      updated: 2024-07-25-04-18-58
+      updated: 2024-08-01-06-57-01
       followers: 370
       likes: 67
-      views: 415
+      views: 418
       comments: !c |-
         G2AA4J2JMW64j72aESq9ASJPW7UQ4OSyGqhXtpnqTNVgEEsZIih4PN/kpvhcDw45YD+GbblnHGh5
         mtVyFLOddjw/S/BhWucvect4ORxM1LBdeN1C3YZ7gyaXzVIzFocsiQVfAQ==
@@ -2250,9 +2250,5 @@
 2024-07-28.indoranyon: 2017-06-30.indoranyon
 2024-07-29.arch-with-a-canopy: 2018-06-27.arch-with-a-canopy
 2024-07-30.netches-have-fallen-out: 2017-09-13.netches-have-fallen-out
-2024-07-31.berth-near-grotto: 2017-12-09.berth-near-grotto
 2024-07-31.comprehension-of-sciences: 2018-04-04.comprehension-of-sciences
-2024-07-31.in-a-fishermans-hut: 2017-06-21.in-a-fishermans-hut
-2024-07-31.on-the-edge-of-a-dead-forest: 2017-03-27.on-the-edge-of-a-dead-forest
-2024-07-31.vanilla-sunset: 2017-03-21.vanilla-sunset
-2024-07-31.waterfalls-of-puzzle-canal: 2018-06-01.waterfalls-of-puzzle-canal
+2024-08-01.in-a-fishermans-hut: 2017-06-21.in-a-fishermans-hut

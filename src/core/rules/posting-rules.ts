@@ -1,7 +1,7 @@
 import type { PostEntries } from '../entities/post.js';
-import { getPostLastPublished } from '../entities/post.js';
+import { getPostDateById, getPostLastPublished } from '../entities/post.js';
 import type { Rule } from '../entities/rule.js';
-import { getHoursPassed } from '../utils/date-utils.js';
+import { getDaysPassed, getHoursPassed, isValidDate } from '../utils/date-utils.js';
 
 export type PostingRule = Rule<undefined, PostEntries>;
 
@@ -28,7 +28,7 @@ export function afterHour(hour: number) {
   };
 }
 
-export function lastPostedHoursAgo(hours: number) {
+export function lastPublishedHoursAgo(hours: number) {
   return (_value: unknown, postEntries?: PostEntries): _value is undefined => {
     if (!postEntries) {
       return false;
@@ -47,6 +47,31 @@ export function lastPostedHoursAgo(hours: number) {
     const hoursPassed = getHoursPassed(lastPublished);
     if (hoursPassed < hours) {
       throw new Error(`need last publication to be older than ${hours} hours, got ${hoursPassed}`);
+    }
+
+    return true;
+  };
+}
+
+export function lastPostedDaysAgo(days: number) {
+  return (_value: unknown, postEntries?: PostEntries): _value is undefined => {
+    if (!postEntries) {
+      return false;
+    }
+
+    const [id] = postEntries[0] ?? [];
+    if (!id) {
+      return true;
+    }
+
+    const date = getPostDateById(id);
+    if (!isValidDate(date)) {
+      return true;
+    }
+
+    const daysPassed = getDaysPassed(date);
+    if (daysPassed < days) {
+      throw new Error(`need last post to be older than ${days} days, got ${daysPassed}`);
     }
 
     return true;
