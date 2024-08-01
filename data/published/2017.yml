@@ -5681,11 +5681,21 @@
       id: C-HKdRnqQ1E
       mediaId: '17902972628934171'
       published: 2024-08-01-03-18-07
+      updated: 2024-08-01-04-18-41
       followers: 1434
+      likes: 15
+      views: 24
     - service: tg
       id: 487
       published: 2024-08-01-03-18-14
+      updated: 2024-08-01-04-18-42
       followers: 423
+      likes: 7
+      views: 25
+    - service: vk
+      id: 1663
+      published: 2024-08-01-04-18-52
+      followers: 924
 2017-06-22.the-dreamer-is:
   title: The Dreamer Is...
   titleRu: Спящий просыпается...
@@ -8096,24 +8106,24 @@
       id: C-DoImWBS96
       mediaId: '18325847011177785'
       published: 2024-07-30-18-20-25
-      updated: 2024-08-01-03-17-48
+      updated: 2024-08-01-04-18-43
       followers: 1433
-      likes: 50
-      views: 179
+      likes: 52
+      views: 181
     - service: vk
       id: 1661
       published: 2024-07-30-18-20-32
-      updated: 2024-08-01-03-17-47
+      updated: 2024-08-01-04-18-42
       followers: 924
       likes: 23
-      views: 145
+      views: 146
     - service: tg
       id: 485
       published: 2024-07-30-18-20-38
-      updated: 2024-08-01-03-17-47
+      updated: 2024-08-01-04-18-44
       followers: 418
       likes: 40
-      views: 144
+      views: 147
 2017-09-14.abandoned-island:
   title: Abandoned Island
   titleRu: Покинутый остров
