@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.5.1](https://github.com/dehero/mwscr/compare/v1.5.0...v1.5.1) (2024-08-01)
+
+### Bug Fixes
+
+- stop generating repeating reposts on total publishing fail caused by store read error
+  ([c3cff54](https://github.com/dehero/mwscr/commit/c3cff542b4f35f58caefa166a154d9b0599d906d))
+
 ## [1.5.0](https://github.com/dehero/mwscr/compare/v1.4.0...v1.5.0) (2024-07-10)
 
 ### Features
