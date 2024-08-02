@@ -890,7 +890,8 @@
 2017-01-28.2.meditative-night-in-ahemmusa-camp:
   title: Meditative Night in Ahemmusa Camp
   titleRu: Ночь медитации в лагере Ахеммуза
-  description: Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
+  description:
+    Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
   descriptionRu: Камера была закреплена дождливым вечером над юртой ашхана и оставалась там до утра.
   location: Ahemmusa Camp
   content: store:/videos/2017-01-28.2.meditative-night-in-ahemmusa-camp.mp4
@@ -8113,7 +8114,7 @@
       updated: 2024-08-01-17-19-06
       followers: 1433
       likes: 55
-      views: 187
+      views: 186
     - service: vk
       id: 1661
       published: 2024-07-30-18-20-32
