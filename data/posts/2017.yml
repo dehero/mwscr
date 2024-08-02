@@ -5681,21 +5681,21 @@
       id: C-HKdRnqQ1E
       mediaId: '17902972628934171'
       published: 2024-08-01-03-18-07
-      updated: 2024-08-02-17-13-43
+      updated: 2024-08-02-18-19-39
       followers: 1434
       likes: 79
-      views: 209
+      views: 210
     - service: tg
       id: 487
       published: 2024-08-01-03-18-14
-      updated: 2024-08-02-17-13-43
+      updated: 2024-08-02-18-19-40
       followers: 423
       likes: 44
       views: 133
     - service: vk
       id: 1663
       published: 2024-08-01-04-18-52
-      updated: 2024-08-02-17-13-43
+      updated: 2024-08-02-18-19-39
       followers: 924
       likes: 23
       views: 177
@@ -7931,6 +7931,19 @@
       followers: 79
       likes: 10
       views: 235
+    - service: ig
+      id: C-LWdiVhvTs
+      mediaId: '18239347024283548'
+      published: 2024-08-02-18-19-56
+      followers: 1434
+    - service: vk
+      id: 1664
+      published: 2024-08-02-18-20-03
+      followers: 925
+    - service: tg
+      id: 488
+      published: 2024-08-02-18-20-10
+      followers: 428
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки
@@ -8110,24 +8123,24 @@
       id: C-DoImWBS96
       mediaId: '18325847011177785'
       published: 2024-07-30-18-20-25
-      updated: 2024-08-01-17-19-06
+      updated: 2024-08-02-18-19-40
       followers: 1433
-      likes: 55
-      views: 186
+      likes: 58
+      views: 198
     - service: vk
       id: 1661
       published: 2024-07-30-18-20-32
-      updated: 2024-08-01-17-19-07
+      updated: 2024-08-02-18-19-41
       followers: 924
-      likes: 25
-      views: 162
+      likes: 27
+      views: 180
     - service: tg
       id: 485
       published: 2024-07-30-18-20-38
-      updated: 2024-08-01-17-19-07
+      updated: 2024-08-02-18-19-41
       followers: 418
-      likes: 41
-      views: 168
+      likes: 43
+      views: 181
 2017-09-14-abandoned-island:
   title: Abandoned Island
   titleRu: Покинутый остров

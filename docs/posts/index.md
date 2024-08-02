@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`157 items`
+`158 items`
+
+## <span id="2024-08-02-dark-morning-in-the-colony">Dark Morning in the Colony</span>
+
+`RU` Мрачное утро в колонии
+
+<a href="https://instagram.com/p/BYsmppVj_HI/" title="2017-09-06-dark-morning-in-the-colony"><img alt="store:/shots/2017-09-06-dark-morning-in-the-colony.png" src="../../assets/previews/shots/2017-09-06-dark-morning-in-the-colony.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-02-dark-morning-in-the-colony)</code> `🚀 OpenMW` `🔗 Bloodmoon`
+
+```
+2024-08-02-dark-morning-in-the-colony
+```
+
+> `2017-09-06-dark-morning-in-the-colony`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BYsmppVj_HI/)       | 2017-09-06 |       |    69 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_419)  | 2017-09-06 |   235 |    10 |        79 |     10 |
+| [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |       |       |      1434 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |       |       |       925 |        |
+| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |       |       |       428 |        |
+|                                                    |            |   235 |    79 |      2787 |        |
 
 ## <span id="2024-08-01-in-a-fishermans-hut">In a Fisherman&#39;s Hut</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BVmJpE9jSWG/)       | 2017-06-21 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_329)  | 2017-06-21 |   104 |     3 |        65 |      3 |
-| [`ig`](https://instagram.com/p/C-HKdRnqQ1E/)       | 2024-08-01 |   209 |    79 |      1434 |   5.51 |
+| [`ig`](https://instagram.com/p/C-HKdRnqQ1E/)       | 2024-08-01 |   210 |    79 |      1434 |   5.51 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1663) | 2024-08-01 |   177 |    23 |       924 |   2.49 |
 | [`tg`](https://t.me/mwscr/487)                     | 2024-08-01 |   133 |    44 |       423 |   10.4 |
-|                                                    |            |   623 |   209 |      2781 |   5.35 |
+|                                                    |            |   624 |   209 |      2781 |   5.35 |
 
 #### Comments
 
@@ -60,9 +87,9 @@
 | [`ig`](https://instagram.com/p/BhKJllaDKQo/)       | 2018-04-04 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_677)  | 2018-04-04 |   176 |    17 |       149 |  11.41 |
 | [`ig`](https://instagram.com/p/C-GS_cMAUNx/)       | 2024-07-31 |   445 |   102 |      1433 |   7.12 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |   180 |    30 |       924 |   3.25 |
-| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |   442 |    48 |       419 |  11.46 |
-|                                                    |            |  1243 |   269 |      2776 |   8.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |   181 |    30 |       924 |   3.25 |
+| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |   443 |    48 |       419 |  11.46 |
+|                                                    |            |  1245 |   269 |      2776 |   8.31 |
 
 ## <span id="2024-07-30-netches-have-fallen-out">Netches Have Fallen Out</span>
 
@@ -86,10 +113,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BY_CeRojNOg/)       | 2017-09-13 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_426)  | 2017-09-13 |   119 |     6 |        79 |      6 |
-| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   186 |    55 |      1433 |   3.84 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   162 |    25 |       924 |   2.71 |
-| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   168 |    41 |       418 |   9.81 |
-|                                                    |            |   635 |   187 |      2775 |   5.59 |
+| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   198 |    58 |      1433 |   4.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   180 |    27 |       924 |   2.92 |
+| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   181 |    43 |       418 |  10.29 |
+|                                                    |            |   678 |   194 |      2775 |   5.81 |
 
 ## <span id="2024-07-29-arch-with-a-canopy">Arch with a Canopy</span>
 
