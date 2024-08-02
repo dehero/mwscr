@@ -2766,17 +2766,17 @@
     - service: vk
       id: 1662
       published: 2024-07-31-19-13-29
-      updated: 2024-08-02-05-20-04
+      updated: 2024-08-02-07-13-50
       followers: 924
       likes: 28
-      views: 163
+      views: 165
     - service: tg
       id: 486
       published: 2024-07-31-19-13-35
-      updated: 2024-08-02-05-20-05
+      updated: 2024-08-02-07-13-49
       followers: 419
       likes: 44
-      views: 399
+      views: 402
 2018-04-05.under-the-eaves:
   title: Under the Eaves
   titleRu: Под срезом крыши
@@ -4596,7 +4596,7 @@
 2018-06-02.mournhold-cactus:
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
-  location: "Mournhold, Royal Palace: Guards' Quarters"
+  location: 'Mournhold, Royal Palace: Guards'' Quarters'
   content: store:/shots/2018-06-02.mournhold-cactus.png
   type: shot
   author: dehero
