@@ -22,7 +22,7 @@ interface RenderUserInfo extends UserInfo {
 
 export interface RenderUsersOptions {
   users: UsersManager;
-  published: PostsManager;
+  posts: PostsManager;
   inbox: PostsManager;
   trash: PostsManager;
   doc: Doc;
@@ -70,10 +70,10 @@ export async function renderUsers(options: RenderUsersOptions) {
 }
 
 async function mapUserEntry(userEntry: UserEntry, options: RenderUsersOptions): Promise<RenderUserInfo> {
-  const { published, inbox, trash } = options;
+  const { posts, inbox, trash } = options;
 
   return {
-    ...(await createUserInfo(userEntry, published, inbox, trash)),
+    ...(await createUserInfo(userEntry, posts, inbox, trash)),
     links: createUserLinks(userEntry, services),
   };
 }

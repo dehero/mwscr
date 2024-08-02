@@ -1,9 +1,9 @@
 import 'dotenv/config';
 import { arrayFromAsync } from '../core/utils/common-utils.js';
 import { locations } from './data-managers/locations.js';
-import { published } from './data-managers/posts.js';
+import { posts } from './data-managers/posts.js';
 
-const publishedPostEntries = await published.getAllEntries(true);
+const publishedPostEntries = await posts.getAllEntries(true);
 
 const locationIds = (await arrayFromAsync(locations.readAllEntries(true)))
   .map(([id]) => id)
@@ -21,7 +21,7 @@ for (const [id, post] of publishedPostEntries) {
 
     if (locationRegex.test(lowerCaseTitle)) {
       post.location = location;
-      await published.updateItem(id);
+      await posts.updateItem(id);
       break;
     }
   }

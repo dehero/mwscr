@@ -7,5 +7,5 @@ or as part of a different [post type](./post-types.md). The text of the post inc
 description (if any), [author](./post-author.md) (if the author is not the project administrator), requester (if the
 post was made by request), [tags](./post-tags.md), [location](./post-location.md) (if available).
 
-[Published posts](/published/)  
+[Published posts](/posts/)  
 [Shortlist](/inbox/?publishable=true)

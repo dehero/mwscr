@@ -98,7 +98,7 @@ export const UserPage: Component = () => {
                           </>
                         )
                       : undefined,
-                    link: postsRoute.createUrl({ managerName: 'published', author: id(), original: 'true' }),
+                    link: postsRoute.createUrl({ managerName: 'posts', author: id(), original: 'true' }),
                   },
                   {
                     label: 'Pending',
@@ -124,7 +124,7 @@ export const UserPage: Component = () => {
                   {
                     label: 'Published',
                     value: userInfo().requested.published,
-                    link: postsRoute.createUrl({ managerName: 'published', requester: id() }),
+                    link: postsRoute.createUrl({ managerName: 'posts', requester: id() }),
                   },
                   {
                     label: 'Pending',

@@ -1,4 +1,4 @@
-`README` [`CONTRIBUTING`](CONTRIBUTING.ru.md) [`Published`](docs/published/index.md) [`Inbox`](docs/inbox/index.md)
+`README` [`CONTRIBUTING`](CONTRIBUTING.ru.md) [`Posts`](docs/posts/index.md) [`Inbox`](docs/inbox/index.md)
 [`Trash`](docs/trash/index.md) [`Contributors`](docs/contributors.md)
 
 [`EN`](README.md) `RU`
@@ -23,7 +23,7 @@
 [Bethesda Softworks](https://elderscrolls.bethesda.net/en/morrowind). Большинство работ создано с помощью движка
 [OpenMW](https://openmw.org/), создаваемого на открытых началах. Основные материалы:
 
-- [Опубликованные посты](docs/published/index.md)
+- [Опубликованные посты](docs/posts/index.md)
 - [Предлагаемые посты](docs/inbox/index.md)
 - [Корзина](docs/trash/index.md)
 - [Участники проекта](docs/contributors.md)
@@ -59,7 +59,7 @@
 
 ### Данные
 
-Информация об опубликованных [`data/published`](data/published), предлагаемых [`data/inbox`](data/inbox) и отклонённых
+Информация об опубликованных [`data/posts`](data/posts), предлагаемых [`data/inbox`](data/inbox) и отклонённых
 [`data/trash`](data/trash) постах хранится в разбивке по годам в формате `YAML`. Оригиналы работ из-за своего большого
 размера представлены ссылками на внешнее хранилище `store:`, доступ к которому есть только у администратора проекта.
 Другие файлы:
@@ -127,15 +127,15 @@ npm run maintain
 
 1. Создать в [`.github/ISSUE_TEMPLATE`](.github/ISSUE_TEMPLATE) шаблоны для заявок согласно описаниям в
    [`src/local/github-issue-resolvers`](src/local/github-issue-resolvers).
-2. Добавить в [`data/published`](data/published) посты, созданные в аккаунтах проекта администратором вручную.
+2. Добавить в [`data/posts`](data/posts) посты, созданные в аккаунтах проекта администратором вручную.
 3. Импортировать в [`data/inbox`](data/inbox) новые файлы из хранилища `store:/inbox`, добавленные администратором
    вручную.
 4. Удалить отклонённые посты в корзину [`data/trash`](data/trash`), восстановить посты из корзины в предлагаемые
    [`data/inbox`](data/inbox`).
-5. Получить реакции на посты в [`data/published`](data/published) из аккаунтов проекта.
-6. Создать в [`data/published`](data/published) новый пост согласно сценариям, описанным в
+5. Получить реакции на посты в [`data/posts`](data/posts) из аккаунтов проекта.
+6. Создать в [`data/posts`](data/posts) новый пост согласно сценариям, описанным в
    [`src/core/scenarios/posting.ts`](src/core/scenarios/posting.ts).
-7. Опубликовать в аккаунтах проекта не опубликованные посты из [`data/published`](data/published).
+7. Опубликовать в аккаунтах проекта не опубликованные посты из [`data/posts`](data/posts).
 8. Создать отсутствующие и удалить ненужные превью в [`assets/previews`](assets/previews).
 9. Обновить документы [`docs`](docs/).
 

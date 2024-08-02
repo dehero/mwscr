@@ -1,11 +1,11 @@
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { locations } from '../data-managers/locations.js';
-import { inbox, published, trash } from '../data-managers/posts.js';
+import { inbox, posts, trash } from '../data-managers/posts.js';
 import { resourceExists } from '../data-managers/resources.js';
 
 export async function checkPosts() {
-  console.group('Checking published and inbox posts...');
+  console.group('Checking published and pending posts...');
 
   await checkPostsContent();
   await checkPostsLocation();
@@ -14,9 +14,9 @@ export async function checkPosts() {
 }
 
 async function checkPostsContent() {
-  console.info('Checking availability of published and inbox content...');
+  console.info('Checking availability of published and pending posts content...');
 
-  for (const manager of [published, inbox]) {
+  for (const manager of [posts, inbox]) {
     for await (const [id, post] of manager.readAllEntries()) {
       const content = asArray(post.content);
 
@@ -38,7 +38,7 @@ async function checkPostsContent() {
 async function checkPostsLocation() {
   console.info('Checking if posts location exists in locations list...');
 
-  for (const manager of [published, inbox, trash]) {
+  for (const manager of [posts, inbox, trash]) {
     for await (const [id, post] of manager.readAllEntries()) {
       if (!post.location) {
         continue;
@@ -54,5 +54,5 @@ async function checkPostsLocation() {
     }
   }
 
-  console.info(`Checked posts location.`);
+  console.info(`Checked posts locations.`);
 }

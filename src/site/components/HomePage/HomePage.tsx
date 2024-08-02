@@ -106,7 +106,7 @@ export const HomePage: Component = () => {
                     </>
                   )
                 : undefined,
-              link: postsRoute.createUrl({ managerName: 'published' }),
+              link: postsRoute.createUrl({ managerName: 'posts' }),
             },
             { label: 'Pending', value: totalPosts.pending, link: postsRoute.createUrl({ managerName: 'inbox' }) },
             { label: 'Rejected', value: totalPosts.rejected, link: postsRoute.createUrl({ managerName: 'trash' }) },

@@ -5,7 +5,7 @@ import { isPublishablePost } from '../../core/entities/post-variation.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import type { ServicePost } from '../../core/entities/service-post.js';
 import { arrayFromAsync } from '../../core/utils/common-utils.js';
-import { createPublishedPostId, published } from '../data-managers/posts.js';
+import { createPublishedPostId, posts } from '../data-managers/posts.js';
 import { postingServiceManagers } from '../posting-service-managers/index.js';
 
 export async function grabManualPosts() {
@@ -57,11 +57,11 @@ async function grabManualServicePosts(service: PostingServiceManager) {
 
         const errors: string[] = [];
         if (!isPublishablePost(newPost, errors)) {
-          throw new Error(errors.join(', ') || 'cannot add published post');
+          throw new Error(errors.join(', ') || 'cannot add post');
         }
 
         const newId = createPublishedPostId(newPost);
-        await published.addItem(newPost, newId);
+        await posts.addItem(newPost, newId);
 
         console.info(`Imported manual ${service.name} post "${newId}".`);
       } catch (error) {
@@ -71,7 +71,7 @@ async function grabManualServicePosts(service: PostingServiceManager) {
       }
     } else {
       mergePostWith(post, newPost);
-      await published.updateItem(id);
+      await posts.updateItem(id);
       console.info(`Merged manual ${service.name} post with existing post "${id}".`);
     }
   }
@@ -80,10 +80,10 @@ async function grabManualServicePosts(service: PostingServiceManager) {
 async function findLastPublishedPostEntry(
   filter: (post: Post) => boolean,
 ): Promise<PostEntry<PublishablePost> | undefined> {
-  const years = (await published.getChunkNames()).reverse();
+  const years = (await posts.getChunkNames()).reverse();
 
   for (const year of years) {
-    const postEntries = await published.getChunkEntries(year);
+    const postEntries = await posts.getChunkEntries(year);
     const postEntry = [...postEntries].reverse().find(([_, post]) => filter(post));
     if (postEntry) {
       return postEntry;
@@ -94,7 +94,7 @@ async function findLastPublishedPostEntry(
 }
 
 async function* getAllServicePosts(service: string): AsyncGenerator<ServicePost<unknown>> {
-  for await (const [, post] of published.readAllEntries()) {
+  for await (const [, post] of posts.readAllEntries()) {
     if (!post.posts) {
       continue;
     }

@@ -4,4 +4,4 @@ The drawing [post type](./post-types.md) must be based on a previously published
 second image for comparison, with a credit to [the original author](./post-author.md). Best size is 1080x1080, minimum
 size is 800x800.
 
-[Drawings](/published/?type=drawing)
+[Drawings](/posts/?type=drawing)

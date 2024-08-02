@@ -3,13 +3,13 @@ import { comparePostEntriesById, getPostEntriesFromSource } from '../../core/ent
 import type { PublishablePost } from '../../core/entities/post-variation.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { getDaysPassed, getHoursPassed } from '../../core/utils/date-utils.js';
-import { published } from '../data-managers/posts.js';
+import { posts } from '../data-managers/posts.js';
 import { postingServiceManagers } from '../posting-service-managers/index.js';
 
 export async function publishPosts() {
   console.group(`Publishing posts...`);
 
-  const publishedPostEntries = await getPostEntriesFromSource(published.readAllEntries, comparePostEntriesById('desc'));
+  const publishedPostEntries = await getPostEntriesFromSource(posts.readAllEntries, comparePostEntriesById('desc'));
 
   try {
     for (const service of postingServiceManagers) {
@@ -39,7 +39,7 @@ export async function publishPostToService(service: PostingServiceManager, [id, 
     console.info(`Publishing post "${id}" to ${service.name}...`);
     await service.connect();
     await service.publishPost(post);
-    await published.updateItem(id);
+    await posts.updateItem(id);
     await service.disconnect();
     console.info(`Published post "${id}" to ${service.name}.`);
   } catch (error) {

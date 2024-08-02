@@ -1,4 +1,4 @@
-[`README`](README.ru.md) `CONTRIBUTING` [`Published`](./docs/published/index.md) [`Inbox`](./docs/inbox/index.md)
+[`README`](README.ru.md) `CONTRIBUTING` [`Posts`](./docs/posts/index.md) [`Inbox`](./docs/inbox/index.md)
 [`Trash`](./docs/trash/index.md) [`Contributors`](./docs/contributors.md)
 
 [`EN`](CONTRIBUTING.md) `RU`

@@ -1,4 +1,4 @@
-`README` [`CONTRIBUTING`](CONTRIBUTING.md) [`Published`](docs/published/index.md) [`Inbox`](docs/inbox/index.md)
+`README` [`CONTRIBUTING`](CONTRIBUTING.md) [`Posts`](docs/posts/index.md) [`Inbox`](docs/inbox/index.md)
 [`Trash`](docs/trash/index.md) [`Contributors`](docs/contributors.md)
 
 `EN` [`RU`](README.ru.md)
@@ -23,7 +23,7 @@ The goal of the project is to seek out the hidden beauty and celebrate the visua
 game from [Bethesda Softworks](https://elderscrolls.bethesda.net/en/morrowind). Most of the content is created using the
 [OpenMW](https://openmw.org/) open source engine. Main materials:
 
-- [Published posts](docs/published/index.md)
+- [Published posts](docs/posts/index.md)
 - [Proposed posts](docs/inbox/index.md)
 - [Trash](docs/trash/index.md)
 - [Contributors](docs/contributors.md)
@@ -60,7 +60,7 @@ Previously published posts may be published again, without changes, or as part o
 
 ### Data
 
-Information about published [`data/published`](data/published), proposed [`data/inbox`](data/inbox) and rejected
+Information about published [`data/posts`](data/posts), proposed [`data/inbox`](data/inbox) and rejected
 [`data/trash`](data/trash) posts is stored by year in `YAML` format. The original works, due to their large size, are
 represented by links to the `store:` external storage, which only the project administrator has access to. Other files:
 
@@ -126,13 +126,13 @@ The sequence of steps is:
 
 1. Create issue templates in [`.github/ISSUE_TEMPLATE`](.github/ISSUE_TEMPLATE) according to the descriptions in
    [`src/local/github-issue-resolvers`](src/local/github-issue-resolvers).
-2. Add to [`data/published`](data/published) posts manually created in project accounts by the administrator.
+2. Add to [`data/posts`](data/posts) posts manually created in project accounts by the administrator.
 3. Import to [`data/inbox`](data/inbox) new files from the `store:/inbox` added manually by the administrator.
 4. Delete rejected posts to [`data/trash`](data/trash`), restore posts from the trash to [`data/inbox`](data/inbox`).
-5. Get reactions to posts in [`data/published`](data/published`) from project accounts.
-6. Create a new post in [`data/published`](data/published) according to the scenarios described in
+5. Get reactions to posts in [`data/posts`](data/posts`) from project accounts.
+6. Create a new post in [`data/posts`](data/posts) according to the scenarios described in
    [`src/core/scenarios/posting.ts`](src/core/scenarios/posting.ts).
-7. Publish unpublished posts from [`data/published`](data/published) to project accounts.
+7. Publish unpublished posts from [`data/posts`](data/posts) to project accounts.
 8. Create missing and delete unnecessary previews in [`assets/previews`](assets/previews).
 9. Update documents [`docs`](docs/).
 

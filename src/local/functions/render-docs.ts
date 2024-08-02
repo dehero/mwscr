@@ -8,7 +8,7 @@ import {
   isRevisitablePost,
   isTrashItem,
 } from '../../core/entities/post-variation.js';
-import { inbox, published, trash } from '../data-managers/posts.js';
+import { inbox, posts, trash } from '../data-managers/posts.js';
 import { users } from '../data-managers/users.js';
 import type { PostEntriesDoc } from '../doc-renderers/render-post-entries.js';
 import { renderPostEntriesDoc } from '../doc-renderers/render-post-entries.js';
@@ -16,7 +16,7 @@ import { renderUsers } from '../doc-renderers/render-users.js';
 import { createEmptyDir } from '../utils/file-utils.js';
 
 const DOCS_PATH = 'docs';
-const PUBLISHED_DOCS_PATH = `${DOCS_PATH}/published`;
+const POSTS_DOCS_PATH = `${DOCS_PATH}/posts`;
 const INBOX_DOCS_PATH = `${DOCS_PATH}/inbox`;
 const TRASH_DOCS_PATH = `${DOCS_PATH}/trash`;
 const CONTRIBUTORS_DOCS_FILENAME = `${DOCS_PATH}/contributors.md`;
@@ -36,7 +36,7 @@ const navs: Array<Doc[]> = [
     {
       title: 'Published',
       linkText: 'Published',
-      filename: `${PUBLISHED_DOCS_PATH}/index.md`,
+      filename: `${POSTS_DOCS_PATH}/index.md`,
     },
     {
       title: 'Inbox',
@@ -68,10 +68,10 @@ export async function renderDocs() {
   }
 
   try {
-    await renderPublishedPosts();
+    await renderPosts();
   } catch (error) {
     if (error instanceof Error) {
-      console.error(`Error rendering published posts: ${error.message}`);
+      console.error(`Error rendering posts: ${error.message}`);
     }
   }
 
@@ -94,16 +94,16 @@ export async function renderDocs() {
   console.groupEnd();
 }
 
-async function renderPublishedPosts() {
-  await createEmptyDir(PUBLISHED_DOCS_PATH);
+async function renderPosts() {
+  await createEmptyDir(POSTS_DOCS_PATH);
 
-  const years = await published.getChunkNames();
+  const years = await posts.getChunkNames();
   const docs: PostEntriesDoc[] = [
     {
       title: 'Top Rated',
       linkText: 'Top Rated',
-      filename: `${PUBLISHED_DOCS_PATH}/top-rated.md`,
-      source: () => published.readAllEntries(true),
+      filename: `${POSTS_DOCS_PATH}/top-rated.md`,
+      source: () => posts.readAllEntries(true),
       compareFn: comparePostEntriesByRating('desc'),
       size: 50,
     },
@@ -111,10 +111,10 @@ async function renderPublishedPosts() {
       .sort((a, b) => Number(b) - Number(a))
       .map(
         (year, index): PostEntriesDoc => ({
-          title: `Published in ${year}`,
+          title: `Posted in ${year}`,
           linkText: year,
-          filename: `${PUBLISHED_DOCS_PATH}/${index === 0 ? 'index' : year}.md`,
-          source: () => published.readChunkEntries(year),
+          filename: `${POSTS_DOCS_PATH}/${index === 0 ? 'index' : year}.md`,
+          source: () => posts.readChunkEntries(year),
           compareFn: comparePostEntriesById('desc'),
         }),
       ),
@@ -242,7 +242,7 @@ async function renderContributors() {
   try {
     await renderUsers({
       users,
-      published,
+      posts,
       inbox,
       trash,
       doc: {

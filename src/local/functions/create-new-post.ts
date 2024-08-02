@@ -6,7 +6,7 @@ import type { PostsManager } from '../../core/entities/posts-manager.js';
 import { checkRules } from '../../core/entities/rule.js';
 import type { PostingScenario } from '../../core/scenarios/posting.js';
 import { postingScenarios } from '../../core/scenarios/posting.js';
-import { createPublishedPostId, createRepostId, inbox, published } from '../data-managers/posts.js';
+import { createPublishedPostId, createRepostId, inbox, posts } from '../data-managers/posts.js';
 import { movePublishedPostResources } from '../data-managers/store-resources.js';
 
 const DEBUG_POSTING = Boolean(process.env.DEBUG_POSTING) || false;
@@ -15,12 +15,9 @@ export async function createNewPost() {
   console.group(`Creating new post...`);
 
   try {
-    const publishedPostEntries = await getPostEntriesFromSource(
-      published.readAllEntries,
-      comparePostEntriesById('desc'),
-    );
+    const publishedPostEntries = await getPostEntriesFromSource(posts.readAllEntries, comparePostEntriesById('desc'));
 
-    const postsManagers = [inbox, published];
+    const postsManagers = [inbox, posts];
 
     for (const postingScenario of postingScenarios) {
       const entry = await selectPostFromScenario(postingScenario, postsManagers, publishedPostEntries);
@@ -34,14 +31,14 @@ export async function createNewPost() {
         const newId = createPublishedPostId(post);
 
         await movePublishedPostResources([newId, post]);
-        await published.addItem(post, newId);
+        await posts.addItem(post, newId);
         await inbox.removeItem(id);
 
         console.info(`Created post "${newId}" from inbox item "${id}".`);
       } else {
         const newId = createRepostId(post);
 
-        await published.addItem(id, newId);
+        await posts.addItem(id, newId);
 
         console.info(`Reposted "${id}" as "${newId}".`);
       }

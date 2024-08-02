@@ -2,14 +2,14 @@ import type { PostEntries } from '../../core/entities/post.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import type { ServicePost } from '../../core/entities/service-post.js';
 import { isServicePostUpdatable } from '../../core/entities/service-post.js';
-import { published } from '../data-managers/posts.js';
+import { posts } from '../data-managers/posts.js';
 import { postingServiceManagers } from '../posting-service-managers/index.js';
 
 export async function updatePosts() {
   console.group('Updating published posts reactions...');
 
   try {
-    const postEntries = await published.getAllEntries(true);
+    const postEntries = await posts.getAllEntries(true);
 
     await Promise.all(postingServiceManagers.map((service) => updateServicePosts(service, postEntries)));
   } catch (error) {
@@ -50,7 +50,7 @@ async function updateServicePosts(service: PostingServiceManager, postEntries: P
   for (const [id, servicePost] of updatableServicePosts) {
     try {
       await service.updateServicePost(servicePost);
-      await published.updateItem(id);
+      await posts.updateItem(id);
       console.info(`Updated ${service.name} reactions for post "${id}".`);
     } catch (error) {
       if (error instanceof Error) {

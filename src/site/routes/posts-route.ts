@@ -6,7 +6,7 @@ export interface PostsRouteParams extends SiteRouteParams, PostsPageSearchParams
 }
 
 export const postsRouteInfos: Record<string, PostsPageInfo> = {
-  published: {
+  posts: {
     label: 'Posts',
     title: 'Posts',
     description: 'Published posts of Morrowind Screenshots project.',

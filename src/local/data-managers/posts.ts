@@ -110,9 +110,9 @@ class LocalPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
   }
 }
 
-export const published = new LocalPostsManager<PublishablePost>({
-  name: 'published',
-  dirPath: 'data/published',
+export const posts = new LocalPostsManager<PublishablePost>({
+  name: 'posts',
+  dirPath: 'data/posts',
   checkPost: isPublishablePost,
   getItemChunkName: getPublishedPostChunkName,
 });
@@ -159,7 +159,7 @@ export function createPostRequestId(request: PostRequest) {
   return createInboxItemId(request.request.user, request.request.date, hash);
 }
 
-export const postsManagers: PostsManager[] = [published, inbox, trash];
+export const postsManagers: PostsManager[] = [posts, inbox, trash];
 
 export async function getPostInfo(
   manager: PostsManager,

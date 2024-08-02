@@ -64,9 +64,9 @@ class SitePostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
   }
 }
 
-export const published = new SitePostsManager<PublishablePost>({
-  name: 'published',
-  chunksLoaders: import.meta.glob('../../../data/published/*.yml', { import: 'default' }),
+export const posts = new SitePostsManager<PublishablePost>({
+  name: 'posts',
+  chunksLoaders: import.meta.glob('../../../data/posts/*.yml', { import: 'default' }),
   getItemChunkName: getPublishedPostChunkName,
 });
 
@@ -82,4 +82,4 @@ export const trash = new SitePostsManager<TrashItem | InboxItem>({
   getItemChunkName: getPostDraftChunkName,
 });
 
-export const postsManagers: PostsManager[] = [published, inbox, trash];
+export const postsManagers: PostsManager[] = [posts, inbox, trash];

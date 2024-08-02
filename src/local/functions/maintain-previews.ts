@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import { posix } from 'path';
 import { asArray } from '../../core/utils/common-utils.js';
-import { inbox, published, trash } from '../data-managers/posts.js';
+import { inbox, posts, trash } from '../data-managers/posts.js';
 import { createResourcePreview, RESOURCES_PREVIEWS_EXT, RESOURCES_PREVIEWS_PATH } from '../data-managers/resources.js';
 
 export async function maintainPreviews() {
@@ -13,7 +13,7 @@ export async function maintainPreviews() {
 
   console.info('Creating previews, searching for deletable previews...');
 
-  for (const manager of [published, inbox, trash]) {
+  for (const manager of [posts, inbox, trash]) {
     for await (const [, post] of manager.readAllEntries(true)) {
       if (post.violation === 'inappropriate-content') {
         // Force delete previews of inappropriate content

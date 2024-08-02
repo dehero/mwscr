@@ -293,7 +293,7 @@ export const PostPage: Component = () => {
                         )
                       : post().location,
                     link: post().location
-                      ? postsRoute.createUrl({ managerName: 'published', location: post().location, original: 'true' })
+                      ? postsRoute.createUrl({ managerName: 'posts', location: post().location, original: 'true' })
                       : undefined,
                   },
                   { label: 'Date', value: isValidDate(date()) ? date() : undefined },
@@ -355,7 +355,7 @@ export const PostPage: Component = () => {
                         )
                       : undefined,
                     link: post().mark
-                      ? postsRoute.createUrl({ managerName: 'published', mark: post().mark, original: 'true' })
+                      ? postsRoute.createUrl({ managerName: 'posts', mark: post().mark, original: 'true' })
                       : undefined,
                   },
                   {
@@ -391,7 +391,7 @@ export const PostPage: Component = () => {
                     data.usedTags?.map(([label, count]) => ({
                       label,
                       value: () => <>{count}</>,
-                      link: postsRoute.createUrl({ managerName: 'published', tag: label, original: 'true' }),
+                      link: postsRoute.createUrl({ managerName: 'posts', tag: label, original: 'true' }),
                     })) ?? []
                   }
                 />
