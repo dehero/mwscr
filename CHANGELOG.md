@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.5.2](https://github.com/dehero/mwscr/compare/v1.5.1...v1.5.2) (2024-08-02)
+
+### Code Refactoring
+
+- remove dots from published post names
+  ([b990c80](https://github.com/dehero/mwscr/commit/b990c80885985111dd84e946c357461644ad4635))
+- rename "published" posts manager to "posts" with all links and mentions
+  ([7a56f8e](https://github.com/dehero/mwscr/commit/7a56f8eafcfd4275d3e7487f3b91372b577f93a0))
+
 ## [1.5.1](https://github.com/dehero/mwscr/compare/v1.5.0...v1.5.1) (2024-08-01)
 
 ### Bug Fixes
