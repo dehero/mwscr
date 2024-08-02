@@ -6,21 +6,21 @@
 
 `157 items`
 
-## <span id="2024-08-01.in-a-fishermans-hut">In a Fisherman&#39;s Hut</span>
+## <span id="2024-08-01-in-a-fishermans-hut">In a Fisherman&#39;s Hut</span>
 
 `RU` В рыбацкой хижине
 
-<a href="https://instagram.com/p/BVmJpE9jSWG/" title="2017-06-21.in-a-fishermans-hut"><img alt="store:/shots/2017-06-21.in-a-fishermans-hut.png" src="../../assets/previews/shots/2017-06-21.in-a-fishermans-hut.avif" /></a>
+<a href="https://instagram.com/p/BVmJpE9jSWG/" title="2017-06-21-in-a-fishermans-hut"><img alt="store:/shots/2017-06-21-in-a-fishermans-hut.png" src="../../assets/previews/shots/2017-06-21-in-a-fishermans-hut.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-01.in-a-fishermans-hut)</code> `🚀 OpenMW` `candles`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-01-in-a-fishermans-hut)</code> `🚀 OpenMW` `candles`
 
 ```
-2024-08-01.in-a-fishermans-hut
+2024-08-01-in-a-fishermans-hut
 ```
 
-> `2017-06-21.in-a-fishermans-hut`
+> `2017-06-21-in-a-fishermans-hut`
 
 ### Reactions
 
@@ -29,29 +29,29 @@
 | [`ig`](https://instagram.com/p/BVmJpE9jSWG/)       | 2017-06-21 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_329)  | 2017-06-21 |   104 |     3 |        65 |      3 |
 | [`ig`](https://instagram.com/p/C-HKdRnqQ1E/)       | 2024-08-01 |   192 |    76 |      1434 |    5.3 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1663) | 2024-08-01 |   164 |    22 |       924 |   2.38 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1663) | 2024-08-01 |   165 |    22 |       924 |   2.38 |
 | [`tg`](https://t.me/mwscr/487)                     | 2024-08-01 |   119 |    40 |       423 |   9.46 |
-|                                                    |            |   579 |   201 |      2781 |   5.03 |
+|                                                    |            |   580 |   201 |      2781 |   5.03 |
 
 #### Comments
 
 - `ig` <ins title="2017-06-21-11-31-17">l3nku</ins> moody
 
-## <span id="2024-07-31.comprehension-of-sciences">Comprehension of Sciences</span>
+## <span id="2024-07-31-comprehension-of-sciences">Comprehension of Sciences</span>
 
 `RU` Постижение наук
 
-<a href="https://instagram.com/p/BhKJllaDKQo/" title="2018-04-04.comprehension-of-sciences"><img alt="store:/shots/2018-04-04.comprehension-of-sciences.png" src="../../assets/previews/shots/2018-04-04.comprehension-of-sciences.avif" /></a>
+<a href="https://instagram.com/p/BhKJllaDKQo/" title="2018-04-04-comprehension-of-sciences"><img alt="store:/shots/2018-04-04-comprehension-of-sciences.png" src="../../assets/previews/shots/2018-04-04-comprehension-of-sciences.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31.comprehension-of-sciences)</code> `🚀 OpenMW` `desk` `candles` `books`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31-comprehension-of-sciences)</code> `🚀 OpenMW` `desk` `candles` `books`
 
 ```
-2024-07-31.comprehension-of-sciences
+2024-07-31-comprehension-of-sciences
 ```
 
-> `2018-04-04.comprehension-of-sciences`
+> `2018-04-04-comprehension-of-sciences`
 
 ### Reactions
 
@@ -60,25 +60,25 @@
 | [`ig`](https://instagram.com/p/BhKJllaDKQo/)       | 2018-04-04 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_677)  | 2018-04-04 |   176 |    17 |       149 |  11.41 |
 | [`ig`](https://instagram.com/p/C-GS_cMAUNx/)       | 2024-07-31 |   422 |    94 |      1433 |   6.56 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |   165 |    28 |       924 |   3.03 |
-| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |   402 |    44 |       419 |   10.5 |
-|                                                    |            |  1165 |   255 |      2776 |   7.88 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |   166 |    28 |       924 |   3.03 |
+| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |   404 |    44 |       419 |   10.5 |
+|                                                    |            |  1168 |   255 |      2776 |   7.88 |
 
-## <span id="2024-07-30.netches-have-fallen-out">Netches Have Fallen Out</span>
+## <span id="2024-07-30-netches-have-fallen-out">Netches Have Fallen Out</span>
 
 `RU` Нетчи в ссоре
 
-<a href="https://instagram.com/p/BY_CeRojNOg/" title="2017-09-13.netches-have-fallen-out"><img alt="store:/shots/2017-09-13.netches-have-fallen-out.png" src="../../assets/previews/shots/2017-09-13.netches-have-fallen-out.avif" /></a>
+<a href="https://instagram.com/p/BY_CeRojNOg/" title="2017-09-13-netches-have-fallen-out"><img alt="store:/shots/2017-09-13-netches-have-fallen-out.png" src="../../assets/previews/shots/2017-09-13-netches-have-fallen-out.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-30.netches-have-fallen-out)</code> `🚀 OpenMW`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-30-netches-have-fallen-out)</code> `🚀 OpenMW`
 
 ```
-2024-07-30.netches-have-fallen-out
+2024-07-30-netches-have-fallen-out
 ```
 
-> `2017-09-13.netches-have-fallen-out`
+> `2017-09-13-netches-have-fallen-out`
 
 ### Reactions
 
@@ -91,21 +91,21 @@
 | [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   168 |    41 |       418 |   9.81 |
 |                                                    |            |   635 |   187 |      2775 |   5.59 |
 
-## <span id="2024-07-29.arch-with-a-canopy">Arch with a Canopy</span>
+## <span id="2024-07-29-arch-with-a-canopy">Arch with a Canopy</span>
 
 `RU` Арка с навесом
 
-<a href="https://instagram.com/p/Bkiba9VFSl5/" title="2018-06-27.arch-with-a-canopy"><img alt="store:/shots/2018-06-27.arch-with-a-canopy.png" src="../../assets/previews/shots/2018-06-27.arch-with-a-canopy.avif" /></a>
+<a href="https://instagram.com/p/Bkiba9VFSl5/" title="2018-06-27-arch-with-a-canopy"><img alt="store:/shots/2018-06-27-arch-with-a-canopy.png" src="../../assets/previews/shots/2018-06-27-arch-with-a-canopy.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-29.arch-with-a-canopy)</code> `🚀 OpenMW` `arch`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-29-arch-with-a-canopy)</code> `🚀 OpenMW` `arch`
 
 ```
-2024-07-29.arch-with-a-canopy
+2024-07-29-arch-with-a-canopy
 ```
 
-> `2018-06-27.arch-with-a-canopy`
+> `2018-06-27-arch-with-a-canopy`
 
 ### Reactions
 
@@ -124,21 +124,21 @@
   - <ins title="2024-07-29-18-57-56">berskate</ins> I agree 🔥😍
 - `ig` <ins title="2024-07-29-18-40-47">invokation</ins> Catch me smoking that skooma on this porch, early morning 🌄
 
-## <span id="2024-07-28.indoranyon">Indoranyon</span>
+## <span id="2024-07-28-indoranyon">Indoranyon</span>
 
 `RU` Индоранион
 
-<a href="https://instagram.com/p/BV9WXw3DKxY/" title="2017-06-30.indoranyon"><img alt="store:/shots/2017-06-30.indoranyon.png" src="../../assets/previews/shots/2017-06-30.indoranyon.avif" /></a>
+<a href="https://instagram.com/p/BV9WXw3DKxY/" title="2017-06-30-indoranyon"><img alt="store:/shots/2017-06-30-indoranyon.png" src="../../assets/previews/shots/2017-06-30-indoranyon.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Indoranyon` `🚀 OpenMW` `stronghold` `castle`
 
 ```
-2024-07-28.indoranyon
+2024-07-28-indoranyon
 ```
 
-> `2017-06-30.indoranyon`
+> `2017-06-30-indoranyon`
 
 ### Reactions
 
@@ -155,21 +155,21 @@
 
 - `ig` <ins title="2024-07-28-22-21-07">delanospies</ins> Everything better then Kogorun... @dravenjv
 
-## <span id="2024-07-27.maar-gan-outpost">Maar Gan, Outpost</span>
+## <span id="2024-07-27-maar-gan-outpost">Maar Gan, Outpost</span>
 
 `RU` Маар Ган, Аванпост
 
-<a href="https://instagram.com/p/1509343262644597514/" title="2017-05-07.maar-gan-outpost"><img alt="store:/shots/2017-05-07.maar-gan-outpost.png" src="../../assets/previews/shots/2017-05-07.maar-gan-outpost.avif" /></a>
+<a href="https://instagram.com/p/1509343262644597514/" title="2017-05-07-maar-gan-outpost"><img alt="store:/shots/2017-05-07-maar-gan-outpost.png" src="../../assets/previews/shots/2017-05-07-maar-gan-outpost.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A1` `📍 Maar Gan` `🚀 OpenMW` `nofilter`
 
 ```
-2024-07-27.maar-gan-outpost
+2024-07-27-maar-gan-outpost
 ```
 
-> `2017-05-07.maar-gan-outpost`
+> `2017-05-07-maar-gan-outpost`
 
 ### Reactions
 
@@ -189,21 +189,21 @@
   - <ins title="2024-07-28-12-23-45">ansis</ins> we will once the massive crabs with huge exoskeletons to turn into concrete show up
 - `tg` <ins title="2024-07-28-11-00-19">Skab4ik</ins> ☺️
 
-## <span id="2024-07-26.some-scrolls">Some Scrolls</span>
+## <span id="2024-07-26-some-scrolls">Some Scrolls</span>
 
 `RU` Немного свитков
 
-<a href="https://instagram.com/p/BjpwqFgF69a/" title="2018-06-05.some-scrolls"><img alt="store:/shots/2018-06-05.some-scrolls.png" src="../../assets/previews/shots/2018-06-05.some-scrolls.avif" /></a>
+<a href="https://instagram.com/p/BjpwqFgF69a/" title="2018-06-05-some-scrolls"><img alt="store:/shots/2018-06-05-some-scrolls.png" src="../../assets/previews/shots/2018-06-05-some-scrolls.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-26.some-scrolls)</code> `🚀 OpenMW` `scrolls` `potion`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-26-some-scrolls)</code> `🚀 OpenMW` `scrolls` `potion`
 
 ```
-2024-07-26.some-scrolls
+2024-07-26-some-scrolls
 ```
 
-> `2018-06-05.some-scrolls`
+> `2018-06-05-some-scrolls`
 
 ### Reactions
 
@@ -221,21 +221,21 @@
 - `vk` <ins title="2018-06-05-20-52-38">songfick</ins> О боги, как же легко было там расставлять предметы, а как статуэтки Дома Дагот и зелья смотрелись вместе😔😢<br>*уползает в ностальгию*<br>Вы не пройдёте... пока не подпишите эти бумаги😭
 - `tg` <ins title="2024-07-27-02-33-52">C4H6O4</ins> 😎
 
-## <span id="2024-07-25.coming-to-balmora">Coming to Balmora</span>
+## <span id="2024-07-25-coming-to-balmora">Coming to Balmora</span>
 
 `RU` Прибытие в Балмору
 
-<a href="https://instagram.com/p/Bd57gi7Dlsh/" title="2018-01-13.coming-to-balmora"><img alt="store:/shots/2018-01-13.coming-to-balmora.png" src="../../assets/previews/shots/2018-01-13.coming-to-balmora.avif" /></a>
+<a href="https://instagram.com/p/Bd57gi7Dlsh/" title="2018-01-13-coming-to-balmora"><img alt="store:/shots/2018-01-13-coming-to-balmora.png" src="../../assets/previews/shots/2018-01-13-coming-to-balmora.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A2` `📍 Balmora` `🚀 OpenMW`
 
 ```
-2024-07-25.coming-to-balmora
+2024-07-25-coming-to-balmora
 ```
 
-> `2018-01-13.coming-to-balmora`
+> `2018-01-13-coming-to-balmora`
 
 ### Reactions
 
@@ -255,21 +255,21 @@
 - `ig` <ins title="2024-07-25-21-21-26">m4niou</ins> I remember seeing this view for the first time and instantly falling in love with this city 🖤
 - `tg` <ins title="2024-07-26-05-55-51">machine_V2</ins> У меня флешбеки
 
-## <span id="2024-07-24.in-the-yurt">In the Yurt</span>
+## <span id="2024-07-24-in-the-yurt">In the Yurt</span>
 
 `RU` В юрте
 
-<a href="https://instagram.com/p/BUJVeyhjb-N/" title="2017-05-16.in-the-yurt"><img alt="store:/shots/2017-05-16.in-the-yurt.png" src="../../assets/previews/shots/2017-05-16.in-the-yurt.avif" /></a>
+<a href="https://instagram.com/p/BUJVeyhjb-N/" title="2017-05-16-in-the-yurt"><img alt="store:/shots/2017-05-16-in-the-yurt.png" src="../../assets/previews/shots/2017-05-16-in-the-yurt.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-24.in-the-yurt)</code> `🚀 OpenMW` `nofilter` `yurt`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-24-in-the-yurt)</code> `🚀 OpenMW` `nofilter` `yurt`
 
 ```
-2024-07-24.in-the-yurt
+2024-07-24-in-the-yurt
 ```
 
-> `2017-05-16.in-the-yurt`
+> `2017-05-16-in-the-yurt`
 
 ### Reactions
 
@@ -286,21 +286,21 @@
 
 - `ig` <ins title="2024-07-24-19-25-59">invokation</ins> Hot box the skooma yurt ☁️ 🛖
 
-## <span id="2024-07-23.buckmoth-legion-fort-from-ald-ruhn">Buckmoth Legion Fort from Ald&#39;ruhn</span>
+## <span id="2024-07-23-buckmoth-legion-fort-from-ald-ruhn">Buckmoth Legion Fort from Ald&#39;ruhn</span>
 
 `RU` Форт Пёстрой Бабочки из Альд&#39;руна
 
-<a href="https://instagram.com/p/BN5ti6llKES/" title="2016-12-12.buckmoth-legion-fort-from-aldruhn"><img alt="store:/shots/2016-12-12.buckmoth-legion-fort-from-aldruhn.png" src="../../assets/previews/shots/2016-12-12.buckmoth-legion-fort-from-aldruhn.avif" /></a>
+<a href="https://instagram.com/p/BN5ti6llKES/" title="2016-12-12-buckmoth-legion-fort-from-aldruhn"><img alt="store:/shots/2016-12-12-buckmoth-legion-fort-from-aldruhn.png" src="../../assets/previews/shots/2016-12-12-buckmoth-legion-fort-from-aldruhn.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B2` `📍 Buckmoth Legion Fort` `🚀 OpenMW` `nofilter` `fort`
 
 ```
-2024-07-23.buckmoth-legion-fort-from-ald-ruhn
+2024-07-23-buckmoth-legion-fort-from-ald-ruhn
 ```
 
-> `2016-12-12.buckmoth-legion-fort-from-aldruhn`
+> `2016-12-12-buckmoth-legion-fort-from-aldruhn`
 
 ### Reactions
 
@@ -317,21 +317,21 @@
 
 - `vk` <ins title="2024-07-24-10-15-43">moranremar</ins> Даже не думай
 
-## <span id="2024-07-22.aground">Aground</span>
+## <span id="2024-07-22-aground">Aground</span>
 
 `RU` На мели
 
-<a href="https://instagram.com/p/BZjamDHD31v/" title="2017-09-27.aground"><img alt="store:/shots/2017-09-27.aground.png" src="../../assets/previews/shots/2017-09-27.aground.avif" /></a>
+<a href="https://instagram.com/p/BZjamDHD31v/" title="2017-09-27-aground"><img alt="store:/shots/2017-09-27-aground.png" src="../../assets/previews/shots/2017-09-27-aground.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-22.aground)</code> `🚀 OpenMW` `shipwreck` `water` `ship`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-22-aground)</code> `🚀 OpenMW` `shipwreck` `water` `ship`
 
 ```
-2024-07-22.aground
+2024-07-22-aground
 ```
 
-> `2017-09-27.aground`
+> `2017-09-27-aground`
 
 ### Reactions
 
@@ -349,21 +349,21 @@
 - `vk` <ins title="2024-07-22-18-36-48">jermor</ins> .. Мы лениво рыб убийц ловили
 - `vk` <ins title="2024-07-23-10-12-09">club128574987</ins> О, это то самое место у покинутой лачуги!
 
-## <span id="2024-07-21.verminous-fabricant">Verminous Fabricant</span>
+## <span id="2024-07-21-verminous-fabricant">Verminous Fabricant</span>
 
 `RU` Мерзкий фабрикант
 
-<a href="https://instagram.com/p/BoHsR7lh0cz/" title="2018-09-24.verminous-fabricant"><img alt="store:/shots/2018-09-24.verminous-fabricant.png" src="../../assets/previews/shots/2018-09-24.verminous-fabricant.avif" /></a>
+<a href="https://instagram.com/p/BoHsR7lh0cz/" title="2018-09-24-verminous-fabricant"><img alt="store:/shots/2018-09-24-verminous-fabricant.png" src="../../assets/previews/shots/2018-09-24-verminous-fabricant.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-21.verminous-fabricant)</code> `🚀 OpenMW` `🔗 Tribunal`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-21-verminous-fabricant)</code> `🚀 OpenMW` `🔗 Tribunal`
 
 ```
-2024-07-21.verminous-fabricant
+2024-07-21-verminous-fabricant
 ```
 
-> `2018-09-24.verminous-fabricant`
+> `2018-09-24-verminous-fabricant`
 
 ### Reactions
 
@@ -382,21 +382,21 @@
 - `vk` <ins title="2018-09-25-21-19-57">id380363858</ins> И вовсе он не мерзкий, а очень даже милый!
 - `vk` <ins title="2024-07-21-19-41-47">artyom_melikhoff</ins> Вот, значит, что за тварь изображена справа в лаунчере.
 
-## <span id="2024-07-20.let-the-sun-rise">Let the Sun Rise</span>
+## <span id="2024-07-20-let-the-sun-rise">Let the Sun Rise</span>
 
 `RU` Пусть восходит солнце
 
-<a href="https://instagram.com/p/Bi2ZlSinZJ_/" title="2018-05-16.let-the-sun-rise"><img alt="store:/shots/2018-05-16.let-the-sun-rise.png" src="../../assets/previews/shots/2018-05-16.let-the-sun-rise.avif" /></a>
+<a href="https://instagram.com/p/Bi2ZlSinZJ_/" title="2018-05-16-let-the-sun-rise"><img alt="store:/shots/2018-05-16-let-the-sun-rise.png" src="../../assets/previews/shots/2018-05-16-let-the-sun-rise.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-20.let-the-sun-rise)</code> `🚀 OpenMW` `sun` `statue` `silouette`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-20-let-the-sun-rise)</code> `🚀 OpenMW` `sun` `statue` `silouette`
 
 ```
-2024-07-20.let-the-sun-rise
+2024-07-20-let-the-sun-rise
 ```
 
-> `2018-05-16.let-the-sun-rise`
+> `2018-05-16-let-the-sun-rise`
 
 ### Reactions
 
@@ -418,21 +418,21 @@
 - `tg` <ins title="2024-07-20-19-40-24">Gatemate7</ins> this is from 2018 tho
 - `ig` <ins title="2024-07-20-19-52-06">honestthief5</ins> Damn it (reinstalls MW)
 
-## <span id="2024-07-19.nchuleftingth-expedition">Nchuleftingth Expedition</span>
+## <span id="2024-07-19-nchuleftingth-expedition">Nchuleftingth Expedition</span>
 
 `RU` Экспедиция в Нчулефтингт
 
-<a href="https://instagram.com/p/BNYupn2lJSA/" title="2016-11-29.nchuleftingth-expedition"><img alt="store:/shots/2016-11-29.nchuleftingth-expedition.png" src="../../assets/previews/shots/2016-11-29.nchuleftingth-expedition.avif" /></a>
+<a href="https://instagram.com/p/BNYupn2lJSA/" title="2016-11-29-nchuleftingth-expedition"><img alt="store:/shots/2016-11-29-nchuleftingth-expedition.png" src="../../assets/previews/shots/2016-11-29-nchuleftingth-expedition.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Nchuleftingth` `🚀 OpenMW`
 
 ```
-2024-07-19.nchuleftingth-expedition
+2024-07-19-nchuleftingth-expedition
 ```
 
-> `2016-11-29.nchuleftingth-expedition`
+> `2016-11-29-nchuleftingth-expedition`
 
 ### Reactions
 
@@ -449,21 +449,21 @@
 
 - `vk` <ins title="2024-07-20-19-49-28">lomaev_live</ins> «Эй, меня подождите!»
 
-## <span id="2024-07-18.along-the-street">Along the Street</span>
+## <span id="2024-07-18-along-the-street">Along the Street</span>
 
 `RU` Вдоль по улице
 
-<a href="https://instagram.com/p/BlldXcqF7SD/" title="2018-07-23.along-the-street"><img alt="store:/shots/2018-07-23.along-the-street.png" src="../../assets/previews/shots/2018-07-23.along-the-street.avif" /></a>
+<a href="https://instagram.com/p/BlldXcqF7SD/" title="2018-07-23-along-the-street"><img alt="store:/shots/2018-07-23-along-the-street.png" src="../../assets/previews/shots/2018-07-23-along-the-street.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-18.along-the-street)</code> `🚀 OpenMW` `street`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-18-along-the-street)</code> `🚀 OpenMW` `street`
 
 ```
-2024-07-18.along-the-street
+2024-07-18-along-the-street
 ```
 
-> `2018-07-23.along-the-street`
+> `2018-07-23-along-the-street`
 
 ### Reactions
 
@@ -481,21 +481,21 @@
 - `vk` <ins title="2024-07-18-20-17-37">pkellerman</ins> Как дома
   - <ins title="2024-07-19-21-01-26">artyom_melikhoff</ins> Антон, 🤝🏻
 
-## <span id="2024-07-17.tel-vos">Tel Vos</span>
+## <span id="2024-07-17-tel-vos">Tel Vos</span>
 
 `RU` Тель Вос
 
-<a href="https://instagram.com/p/BRIQS42DXMy/" title="2017-03-02.tel-vos"><img alt="store:/shots/2017-03-02.tel-vos.png" src="../../assets/previews/shots/2017-03-02.tel-vos.avif" /></a>
+<a href="https://instagram.com/p/BRIQS42DXMy/" title="2017-03-02-tel-vos"><img alt="store:/shots/2017-03-02-tel-vos.png" src="../../assets/previews/shots/2017-03-02-tel-vos.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Tel Vos` `🚀 OpenMW` `nofilter` `castle` `towers` `fort`
 
 ```
-2024-07-17.tel-vos
+2024-07-17-tel-vos
 ```
 
-> `2017-03-02.tel-vos`
+> `2017-03-02-tel-vos`
 
 ### Reactions
 
@@ -514,21 +514,21 @@
 - `tg` <ins title="2024-07-17-18-27-56">Artorias901</ins> my dream is to live here
 - `ig` <ins title="2024-07-17-20-42-14">delanospies</ins> @dravenjv one of my favorites
 
-## <span id="2024-07-16.snowy-waiting">Snowy Waiting</span>
+## <span id="2024-07-16-snowy-waiting">Snowy Waiting</span>
 
 `RU` Снежное ожидание
 
-<a href="https://instagram.com/p/BT0zP5AjPDU/" title="2017-05-08.snowy-waiting"><img alt="store:/shots/2017-05-08.snowy-waiting.png" src="../../assets/previews/shots/2017-05-08.snowy-waiting.avif" /></a>
+<a href="https://instagram.com/p/BT0zP5AjPDU/" title="2017-05-08-snowy-waiting"><img alt="store:/shots/2017-05-08-snowy-waiting.png" src="../../assets/previews/shots/2017-05-08-snowy-waiting.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-16.snowy-waiting)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `snowflakes` `campfire`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-16-snowy-waiting)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `snowflakes` `campfire`
 
 ```
-2024-07-16.snowy-waiting
+2024-07-16-snowy-waiting
 ```
 
-> `2017-05-08.snowy-waiting`
+> `2017-05-08-snowy-waiting`
 
 ### Reactions
 
@@ -545,21 +545,21 @@
 
 - `ig` <ins title="2024-07-18-06-21-53">spasnakrovi</ins> @hardposes
 
-## <span id="2024-07-15.land-of-ruins">Land of Ruins</span>
+## <span id="2024-07-15-land-of-ruins">Land of Ruins</span>
 
 `RU` Земля руин
 
-<a href="https://instagram.com/p/BaPYN2kjbff/" title="2017-10-14.land-of-ruins"><img alt="store:/shots/2017-10-14.land-of-ruins.png" src="../../assets/previews/shots/2017-10-14.land-of-ruins.avif" /></a>
+<a href="https://instagram.com/p/BaPYN2kjbff/" title="2017-10-14-land-of-ruins"><img alt="store:/shots/2017-10-14-land-of-ruins.png" src="../../assets/previews/shots/2017-10-14-land-of-ruins.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-15.land-of-ruins)</code> `🚀 OpenMW` `ruin`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-15-land-of-ruins)</code> `🚀 OpenMW` `ruin`
 
 ```
-2024-07-15.land-of-ruins
+2024-07-15-land-of-ruins
 ```
 
-> `2017-10-14.land-of-ruins`
+> `2017-10-14-land-of-ruins`
 
 ### Reactions
 
@@ -572,21 +572,21 @@
 | [`tg`](https://t.me/mwscr/470)                     | 2024-07-15 |   462 |    59 |       399 |  14.79 |
 |                                                    |            |  1279 |   257 |      2745 |   8.57 |
 
-## <span id="2024-07-14.near-berandas">Near Berandas</span>
+## <span id="2024-07-14-near-berandas">Near Berandas</span>
 
 `RU` У Берандаса
 
-<a href="https://instagram.com/p/BXICNkUDVx8/" title="2017-07-29.near-berandas"><img alt="store:/shots/2017-07-29.near-berandas.png" src="../../assets/previews/shots/2017-07-29.near-berandas.avif" /></a>
+<a href="https://instagram.com/p/BXICNkUDVx8/" title="2017-07-29-near-berandas"><img alt="store:/shots/2017-07-29-near-berandas.png" src="../../assets/previews/shots/2017-07-29-near-berandas.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Berandas` `🚀 OpenMW` `stronghold` `trees`
 
 ```
-2024-07-14.near-berandas
+2024-07-14-near-berandas
 ```
 
-> `2017-07-29.near-berandas`
+> `2017-07-29-near-berandas`
 
 ### Reactions
 
@@ -604,21 +604,21 @@
 - `tg` <ins title="2024-07-14-18-23-29">ansis</ins> Beautiful ancient site
 - `vk` <ins title="2024-07-14-22-18-51">artyom_melikhoff</ins> О, вчера рядом проходил во время исполнения Паломничества Семи Добродетелей, как раз закончил с Пещерой Коала и направлялся к Альд&#39;руну, дабы от него пойти к Алтарю Гордости.
 
-## <span id="2024-07-13.shipping-house">Shipping House</span>
+## <span id="2024-07-13-shipping-house">Shipping House</span>
 
 `RU` Дом Отправки
 
-<a href="https://instagram.com/p/BhZqkfvlo9y/" title="2018-04-10.shipping-house"><img alt="store:/shots/2018-04-10.shipping-house.png" src="../../assets/previews/shots/2018-04-10.shipping-house.avif" /></a>
+<a href="https://instagram.com/p/BhZqkfvlo9y/" title="2018-04-10-shipping-house"><img alt="store:/shots/2018-04-10-shipping-house.png" src="../../assets/previews/shots/2018-04-10-shipping-house.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-13.shipping-house)</code> `🚀 OpenMW`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-13-shipping-house)</code> `🚀 OpenMW`
 
 ```
-2024-07-13.shipping-house
+2024-07-13-shipping-house
 ```
 
-> `2018-04-10.shipping-house`
+> `2018-04-10-shipping-house`
 
 ### Reactions
 
@@ -635,21 +635,21 @@
 
 - `ig` <ins title="2018-04-10-19-41-11">l3nku</ins> thank you
 
-## <span id="2024-07-12.the-main-tower-of-tel-mora">The Main Tower of Tel Mora</span>
+## <span id="2024-07-12-the-main-tower-of-tel-mora">The Main Tower of Tel Mora</span>
 
 `RU` Главная башня Тель Моры
 
-<a href="https://instagram.com/p/BWuBkI6j7il/" title="2017-07-19.the-main-tower-of-tel-mora"><img alt="store:/shots/2017-07-19.the-main-tower-of-tel-mora.png" src="../../assets/previews/shots/2017-07-19.the-main-tower-of-tel-mora.avif" /></a>
+<a href="https://instagram.com/p/BWuBkI6j7il/" title="2017-07-19-the-main-tower-of-tel-mora"><img alt="store:/shots/2017-07-19-the-main-tower-of-tel-mora.png" src="../../assets/previews/shots/2017-07-19-the-main-tower-of-tel-mora.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A2` `📍 Tel Mora` `🚀 OpenMW`
 
 ```
-2024-07-12.the-main-tower-of-tel-mora
+2024-07-12-the-main-tower-of-tel-mora
 ```
 
-> `2017-07-19.the-main-tower-of-tel-mora`
+> `2017-07-19-the-main-tower-of-tel-mora`
 
 ### Reactions
 
@@ -667,21 +667,21 @@
 - `vk` <ins title="2017-07-19-07-17-37">kydinov91</ins> Самая любимая локация
 - `ig` <ins title="2017-07-19-08-07-14">polaroids_of_tarkovsky</ins> #бич
 
-## <span id="2024-07-11.entrance-to-cavern-of-the-incarnate">Entrance to Cavern of the Incarnate</span>
+## <span id="2024-07-11-entrance-to-cavern-of-the-incarnate">Entrance to Cavern of the Incarnate</span>
 
 `RU` Вход в Пещеру Воплощения
 
-<a href="https://instagram.com/p/BTLoxf1jfRQ/" title="2017-04-22.entrance-to-cavern-of-the-incarnate"><img alt="store:/shots/2017-04-22.entrance-to-cavern-of-the-incarnate.png" src="../../assets/previews/shots/2017-04-22.entrance-to-cavern-of-the-incarnate.avif" /></a>
+<a href="https://instagram.com/p/BTLoxf1jfRQ/" title="2017-04-22-entrance-to-cavern-of-the-incarnate"><img alt="store:/shots/2017-04-22-entrance-to-cavern-of-the-incarnate.png" src="../../assets/previews/shots/2017-04-22-entrance-to-cavern-of-the-incarnate.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A1` `📍 Cavern of the Incarnate` `🚀 OpenMW` `nofilter` `moon` `door`
 
 ```
-2024-07-11.entrance-to-cavern-of-the-incarnate
+2024-07-11-entrance-to-cavern-of-the-incarnate
 ```
 
-> `2017-04-22.entrance-to-cavern-of-the-incarnate`
+> `2017-04-22-entrance-to-cavern-of-the-incarnate`
 
 ### Reactions
 
@@ -698,21 +698,21 @@
 
 - `ig` <ins title="2024-07-13-17-07-22">bedroomspaghettii</ins> I use to love doing this one at night because of the scenery
 
-## <span id="2024-07-10.in-the-courtyard-of-royal-palace">In the Courtyard of Royal Palace</span>
+## <span id="2024-07-10-in-the-courtyard-of-royal-palace">In the Courtyard of Royal Palace</span>
 
 `RU` Во внутреннем дворе Королевского дворца
 
-<a href="https://instagram.com/p/BUG3cZnD1DK/" title="2017-05-15.in-the-courtyard-of-royal-palace"><img alt="store:/shots/2017-05-15.in-the-courtyard-of-royal-palace.png" src="../../assets/previews/shots/2017-05-15.in-the-courtyard-of-royal-palace.avif" /></a>
+<a href="https://instagram.com/p/BUG3cZnD1DK/" title="2017-05-15-in-the-courtyard-of-royal-palace"><img alt="store:/shots/2017-05-15-in-the-courtyard-of-royal-palace.png" src="../../assets/previews/shots/2017-05-15-in-the-courtyard-of-royal-palace.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A2` `📍 Mournhold, Royal Palace: Courtyard` `🚀 OpenMW` `🔗 Tribunal` `nofilter` `night`
 
 ```
-2024-07-10.in-the-courtyard-of-royal-palace
+2024-07-10-in-the-courtyard-of-royal-palace
 ```
 
-> `2017-05-15.in-the-courtyard-of-royal-palace`
+> `2017-05-15-in-the-courtyard-of-royal-palace`
 
 ### Reactions
 
@@ -729,21 +729,21 @@
 
 - `vk` <ins title="2024-07-15-17-25-31">id644665322</ins> Морнхолд. Город света, город магии...
 
-## <span id="2024-07-09.drooping-sun-of-molag-amur">Drooping Sun of Molag Amur</span>
+## <span id="2024-07-09-drooping-sun-of-molag-amur">Drooping Sun of Molag Amur</span>
 
 `RU` Усталое солнце Молаг Амура
 
-<a href="https://instagram.com/p/Bim1govnP18/" title="2018-05-10.drooping-sun-of-molag-amur"><img alt="store:/shots/2018-05-10.drooping-sun-of-molag-amur.png" src="../../assets/previews/shots/2018-05-10.drooping-sun-of-molag-amur.avif" /></a>
+<a href="https://instagram.com/p/Bim1govnP18/" title="2018-05-10-drooping-sun-of-molag-amur"><img alt="store:/shots/2018-05-10-drooping-sun-of-molag-amur.png" src="../../assets/previews/shots/2018-05-10-drooping-sun-of-molag-amur.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B2` `📍 Molag Amur Region` `🚀 OpenMW` `sunset`
 
 ```
-2024-07-09.drooping-sun-of-molag-amur
+2024-07-09-drooping-sun-of-molag-amur
 ```
 
-> `2018-05-10.drooping-sun-of-molag-amur`
+> `2018-05-10-drooping-sun-of-molag-amur`
 
 ### Reactions
 
@@ -756,21 +756,21 @@
 | [`ig`](https://instagram.com/p/C9VfE-NtTXs/)       | 2024-07-12 |   261 |    67 |      1427 |    4.7 |
 |                                                    |            |  1089 |   272 |      2743 |   9.17 |
 
-## <span id="2024-07-08.sneaking-scamp-at-bitter-coast">Sneaking Scamp at Bitter Coast</span>
+## <span id="2024-07-08-sneaking-scamp-at-bitter-coast">Sneaking Scamp at Bitter Coast</span>
 
 `RU` Крадущийся скамп на Горьком берегу
 
-<a href="https://instagram.com/p/BWPUM15j2T1/" title="2017-07-07.sneaking-scamp-at-bitter-coast"><img alt="store:/shots/2017-07-07.sneaking-scamp-at-bitter-coast.png" src="../../assets/previews/shots/2017-07-07.sneaking-scamp-at-bitter-coast.avif" /></a>
+<a href="https://instagram.com/p/BWPUM15j2T1/" title="2017-07-07-sneaking-scamp-at-bitter-coast"><img alt="store:/shots/2017-07-07-sneaking-scamp-at-bitter-coast.png" src="../../assets/previews/shots/2017-07-07-sneaking-scamp-at-bitter-coast.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A2` `📍 Bitter Coast Region` `🚀 OpenMW`
 
 ```
-2024-07-08.sneaking-scamp-at-bitter-coast
+2024-07-08-sneaking-scamp-at-bitter-coast
 ```
 
-> `2017-07-07.sneaking-scamp-at-bitter-coast`
+> `2017-07-07-sneaking-scamp-at-bitter-coast`
 
 ### Reactions
 
@@ -792,21 +792,21 @@
 - `vk` <ins title="2024-07-13-19-58-31">lomaev_live</ins> Крадущийся скамп, затаившийся грязекраб
 - `tg` <ins title="2024-07-29-07-57-57">Gatemate7</ins> hatw these mother fuckers..
 
-## <span id="2024-07-07.puzzled-ashlanders">Puzzled Ashlanders</span>
+## <span id="2024-07-07-puzzled-ashlanders">Puzzled Ashlanders</span>
 
 `RU` Озадаченные эшлендеры
 
-<a href="https://instagram.com/p/BcaYUeUjTFx/" title="2017-12-07.puzzled-ashlanders"><img alt="store:/shots/2017-12-07.puzzled-ashlanders.png" src="../../assets/previews/shots/2017-12-07.puzzled-ashlanders.avif" /></a>
+<a href="https://instagram.com/p/BcaYUeUjTFx/" title="2017-12-07-puzzled-ashlanders"><img alt="store:/shots/2017-12-07-puzzled-ashlanders.png" src="../../assets/previews/shots/2017-12-07-puzzled-ashlanders.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-07.puzzled-ashlanders)</code> `🚀 OpenMW`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-07-puzzled-ashlanders)</code> `🚀 OpenMW`
 
 ```
-2024-07-07.puzzled-ashlanders
+2024-07-07-puzzled-ashlanders
 ```
 
-> `2017-12-07.puzzled-ashlanders`
+> `2017-12-07-puzzled-ashlanders`
 
 ### Reactions
 
@@ -824,21 +824,21 @@
 - `vk` <ins title="2024-07-09-14-14-48">dobryu_vecher</ins> Я их понимаю. Когда ждешь лето по 6 месяцев, а потом в июне бесконечно идут дожди...
 - `ig` <ins title="2024-07-12-20-21-28">befriended_stranger</ins> Cosy.
 
-## <span id="2024-07-06.docks-of-ald-velothi">Docks of Ald Velothi</span>
+## <span id="2024-07-06-docks-of-ald-velothi">Docks of Ald Velothi</span>
 
 `RU` В доках Альд Велоти
 
-<a href="https://instagram.com/p/Bcpnsgqj68f/" title="2017-12-13.docks-of-ald-velothi"><img alt="store:/shots/2017-12-13.docks-of-ald-velothi.png" src="../../assets/previews/shots/2017-12-13.docks-of-ald-velothi.avif" /></a>
+<a href="https://instagram.com/p/Bcpnsgqj68f/" title="2017-12-13-docks-of-ald-velothi"><img alt="store:/shots/2017-12-13-docks-of-ald-velothi.png" src="../../assets/previews/shots/2017-12-13-docks-of-ald-velothi.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Ald Velothi` `🚀 OpenMW`
 
 ```
-2024-07-06.docks-of-ald-velothi
+2024-07-06-docks-of-ald-velothi
 ```
 
-> `2017-12-13.docks-of-ald-velothi`
+> `2017-12-13-docks-of-ald-velothi`
 
 ### Reactions
 
@@ -858,21 +858,21 @@
   - <ins title="2024-07-07-11-21-33">club128574987</ins> Именно, она про лор и атмосферу!
   - <ins title="2024-07-13-06-36-58">artyom_melikhoff</ins> Вадим, ну, боёвку уже можно изменить с помощью Next Generation Combat. Что до ремастера, то ждём Скайвинд, если он когда-нибудь выйдет… Из более реальных проектов есть ещё разрабатываемый Beyond Skyrim: Morrowind.
 
-## <span id="2024-07-05.another-coven">Another Coven</span>
+## <span id="2024-07-05-another-coven">Another Coven</span>
 
 `RU` Новое сборище
 
-<a href="https://instagram.com/p/Bnrb6krFZm5/" title="2018-09-13.another-coven"><img alt="store:/shots/2018-09-13.another-coven.png" src="../../assets/previews/shots/2018-09-13.another-coven.avif" /></a>
+<a href="https://instagram.com/p/Bnrb6krFZm5/" title="2018-09-13-another-coven"><img alt="store:/shots/2018-09-13-another-coven.png" src="../../assets/previews/shots/2018-09-13-another-coven.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-05.another-coven)</code> `🚀 OpenMW` `campfire`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-05-another-coven)</code> `🚀 OpenMW` `campfire`
 
 ```
-2024-07-05.another-coven
+2024-07-05-another-coven
 ```
 
-> `2018-09-13.another-coven`
+> `2018-09-13-another-coven`
 
 ### Reactions
 
@@ -886,21 +886,21 @@
 | [`ig`](https://instagram.com/p/C9Ru5oGNV8s/)       | 2024-07-11 |   361 |    85 |      1427 |   5.96 |
 |                                                    |            |  1487 |   309 |      2739 |   7.96 |
 
-## <span id="2024-07-04.elven-nations-cornerclub">Elven Nations Cornerclub</span>
+## <span id="2024-07-04-elven-nations-cornerclub">Elven Nations Cornerclub</span>
 
 `RU` Клуб &quot;Эльфийские Народы&quot;
 
-<a href="https://instagram.com/p/BQxBGyzjfy0/" title="2017-02-21.elven-nations-cornerclub"><img alt="store:/shots/2017-02-21.elven-nations-cornerclub.png" src="../../assets/previews/shots/2017-02-21.elven-nations-cornerclub.avif" /></a>
+<a href="https://instagram.com/p/BQxBGyzjfy0/" title="2017-02-21-elven-nations-cornerclub"><img alt="store:/shots/2017-02-21-elven-nations-cornerclub.png" src="../../assets/previews/shots/2017-02-21-elven-nations-cornerclub.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-04.elven-nations-cornerclub)</code> `🚀 OpenMW` `nofilter` `bar` `women`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-04-elven-nations-cornerclub)</code> `🚀 OpenMW` `nofilter` `bar` `women`
 
 ```
-2024-07-04.elven-nations-cornerclub
+2024-07-04-elven-nations-cornerclub
 ```
 
-> `2017-02-21.elven-nations-cornerclub`
+> `2017-02-21-elven-nations-cornerclub`
 
 ### Reactions
 
@@ -913,21 +913,21 @@
 | [`ig`](https://instagram.com/p/C9Q29Eus5LH/)       | 2024-07-11 |   302 |    77 |      1427 |    5.4 |
 |                                                    |            |  1167 |   204 |      2737 |    8.3 |
 
-## <span id="2024-07-03.ashes-of-d-bryant">Ashes of D. Bryant</span>
+## <span id="2024-07-03-ashes-of-d-bryant">Ashes of D. Bryant</span>
 
 `RU` Прах Д. Бриянта
 
-<a href="https://instagram.com/p/BU1WeeEjfN2/" title="2017-06-02.ashes-of-d-bryant"><img alt="store:/shots/2017-06-02.ashes-of-d-bryant.png" src="../../assets/previews/shots/2017-06-02.ashes-of-d-bryant.avif" /></a>
+<a href="https://instagram.com/p/BU1WeeEjfN2/" title="2017-06-02-ashes-of-d-bryant"><img alt="store:/shots/2017-06-02-ashes-of-d-bryant.png" src="../../assets/previews/shots/2017-06-02-ashes-of-d-bryant.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-03.ashes-of-d-bryant)</code> `🚀 OpenMW` `farewell`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-03-ashes-of-d-bryant)</code> `🚀 OpenMW` `farewell`
 
 ```
-2024-07-03.ashes-of-d-bryant
+2024-07-03-ashes-of-d-bryant
 ```
 
-> `2017-06-02.ashes-of-d-bryant`
+> `2017-06-02-ashes-of-d-bryant`
 
 ### Reactions
 
@@ -946,21 +946,21 @@
   - <ins title="2024-07-03-18-34-25">Gatemate7</ins> ???
 - `ig` <ins title="2024-07-10-15-57-02">zoran.hs</ins> Awesome shot 👏
 
-## <span id="2024-07-02.the-skar">The Skar</span>
+## <span id="2024-07-02-the-skar">The Skar</span>
 
 `RU` Скар
 
-<a href="https://instagram.com/p/Bj0GPQElSQl/" title="2018-06-09.the-skar"><img alt="store:/shots/2018-06-09.the-skar.png" src="../../assets/previews/shots/2018-06-09.the-skar.avif" /></a>
+<a href="https://instagram.com/p/Bj0GPQElSQl/" title="2018-06-09-the-skar"><img alt="store:/shots/2018-06-09-the-skar.png" src="../../assets/previews/shots/2018-06-09-the-skar.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-02.the-skar)</code> `🚀 OpenMW` `redoran`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-02-the-skar)</code> `🚀 OpenMW` `redoran`
 
 ```
-2024-07-02.the-skar
+2024-07-02-the-skar
 ```
 
-> `2018-06-09.the-skar`
+> `2018-06-09-the-skar`
 
 ### Reactions
 
@@ -979,21 +979,21 @@
 - `ig` <ins title="2024-07-10-12-14-18">delanospies</ins> @dravenjv come hang out tonight here
   - <ins title="2024-07-10-12-27-41">dravenjv</ins> I&#39;ll bring the netch jelly and a 6 pack of sujamma
 
-## <span id="2024-07-01.near-the-ancient-dwelling">Near the Ancient Dwelling</span>
+## <span id="2024-07-01-near-the-ancient-dwelling">Near the Ancient Dwelling</span>
 
 `RU` У древнего жилища
 
-<a href="https://instagram.com/p/BUd_0EqDzzK/" title="2017-05-24.near-the-ancient-dwelling"><img alt="store:/shots/2017-05-24.near-the-ancient-dwelling.png" src="../../assets/previews/shots/2017-05-24.near-the-ancient-dwelling.avif" /></a>
+<a href="https://instagram.com/p/BUd_0EqDzzK/" title="2017-05-24-near-the-ancient-dwelling"><img alt="store:/shots/2017-05-24-near-the-ancient-dwelling.png" src="../../assets/previews/shots/2017-05-24-near-the-ancient-dwelling.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-01.near-the-ancient-dwelling)</code> `🚀 OpenMW`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-01-near-the-ancient-dwelling)</code> `🚀 OpenMW`
 
 ```
-2024-07-01.near-the-ancient-dwelling
+2024-07-01-near-the-ancient-dwelling
 ```
 
-> `2017-05-24.near-the-ancient-dwelling`
+> `2017-05-24-near-the-ancient-dwelling`
 
 ### Reactions
 
@@ -1010,21 +1010,21 @@
 
 - `ig` <ins title="2024-07-09-22-27-35">joaowoichinevski</ins> aleft?
 
-## <span id="2024-06-30.ice-shivers">Ice Shivers</span>
+## <span id="2024-06-30-ice-shivers">Ice Shivers</span>
 
 `RU` Ледяные обломки
 
-<a href="https://instagram.com/p/BbZ220NDivK/" title="2017-11-12.ice-shivers"><img alt="store:/shots/2017-11-12.ice-shivers.png" src="../../assets/previews/shots/2017-11-12.ice-shivers.avif" /></a>
+<a href="https://instagram.com/p/BbZ220NDivK/" title="2017-11-12-ice-shivers"><img alt="store:/shots/2017-11-12-ice-shivers.png" src="../../assets/previews/shots/2017-11-12-ice-shivers.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-30.ice-shivers)</code> `🚀 OpenMW` `🔗 Bloodmoon` `ice`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-30-ice-shivers)</code> `🚀 OpenMW` `🔗 Bloodmoon` `ice`
 
 ```
-2024-06-30.ice-shivers
+2024-06-30-ice-shivers
 ```
 
-> `2017-11-12.ice-shivers`
+> `2017-11-12-ice-shivers`
 
 ### Reactions
 
@@ -1037,21 +1037,21 @@
 | [`ig`](https://instagram.com/p/C9NHQl1t7nN/)       | 2024-07-09 |   305 |    77 |      1421 |   5.42 |
 |                                                    |            |  1127 |   247 |      2727 |   9.35 |
 
-## <span id="2024-06-29.lich">Lich</span>
+## <span id="2024-06-29-lich">Lich</span>
 
 `RU` Лич
 
-<a href="https://instagram.com/p/Bj-eugYlTzR/" title="2018-06-13.lich"><img alt="store:/shots/2018-06-13.lich.png" src="../../assets/previews/shots/2018-06-13.lich.avif" /></a>
+<a href="https://instagram.com/p/Bj-eugYlTzR/" title="2018-06-13-lich"><img alt="store:/shots/2018-06-13-lich.png" src="../../assets/previews/shots/2018-06-13-lich.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-29.lich)</code> `🚀 OpenMW` `🔗 Tribunal` `lich`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-29-lich)</code> `🚀 OpenMW` `🔗 Tribunal` `lich`
 
 ```
-2024-06-29.lich
+2024-06-29-lich
 ```
 
-> `2018-06-13.lich`
+> `2018-06-13-lich`
 
 ### Reactions
 
@@ -1074,21 +1074,21 @@
 - `ig` <ins title="2024-07-11-04-43-14">befriended_stranger</ins> Bad. Ass. 🔥💀
 - `ig` <ins title="2024-07-12-14-45-59">spasnakrovi</ins> @hardposes
 
-## <span id="2024-06-28.dead-trees-of-the-east-coast">Dead Trees of the East Coast</span>
+## <span id="2024-06-28-dead-trees-of-the-east-coast">Dead Trees of the East Coast</span>
 
 `RU` Мёртвые деревья восточного побережья
 
-<a href="https://instagram.com/p/BdvHCYojafJ/" title="2018-01-09.dead-trees-of-the-east-coast"><img alt="store:/shots/2018-01-09.dead-trees-of-the-east-coast.png" src="../../assets/previews/shots/2018-01-09.dead-trees-of-the-east-coast.avif" /></a>
+<a href="https://instagram.com/p/BdvHCYojafJ/" title="2018-01-09-dead-trees-of-the-east-coast"><img alt="store:/shots/2018-01-09-dead-trees-of-the-east-coast.png" src="../../assets/previews/shots/2018-01-09-dead-trees-of-the-east-coast.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-28.dead-trees-of-the-east-coast)</code> `🚀 OpenMW`
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-28-dead-trees-of-the-east-coast)</code> `🚀 OpenMW`
 
 ```
-2024-06-28.dead-trees-of-the-east-coast
+2024-06-28-dead-trees-of-the-east-coast
 ```
 
-> `2018-01-09.dead-trees-of-the-east-coast`
+> `2018-01-09-dead-trees-of-the-east-coast`
 
 ### Reactions
 
@@ -1101,21 +1101,21 @@
 | [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |   420 |    56 |       387 |  14.47 |
 |                                                    |            |  1168 |   284 |      2725 |   9.34 |
 
-## <span id="2024-06-27.crates-and-pillows">Crates and Pillows</span>
+## <span id="2024-06-27-crates-and-pillows">Crates and Pillows</span>
 
 `RU` Подушки и ящики
 
-<a href="https://instagram.com/p/BciJJ7NDkQ3/" title="2017-12-10.crates-and-pillows"><img alt="store:/shots/2017-12-10.crates-and-pillows.png" src="../../assets/previews/shots/2017-12-10.crates-and-pillows.avif" /></a>
+<a href="https://instagram.com/p/BciJJ7NDkQ3/" title="2017-12-10-crates-and-pillows"><img alt="store:/shots/2017-12-10-crates-and-pillows.png" src="../../assets/previews/shots/2017-12-10-crates-and-pillows.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-27.crates-and-pillows)</code> `🚀 OpenMW` `water`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-27-crates-and-pillows)</code> `🚀 OpenMW` `water`
 
 ```
-2024-06-27.crates-and-pillows
+2024-06-27-crates-and-pillows
 ```
 
-> `2017-12-10.crates-and-pillows`
+> `2017-12-10-crates-and-pillows`
 
 ### Reactions
 
@@ -1134,21 +1134,21 @@
   - <ins title="2024-06-28-19-35-27">dravenjv</ins> make yourself comfortable man, just don&#39;t check out what&#39;s on the back of the post right there in the middle
   - <ins title="2024-06-28-20-22-13">delanospies</ins> @dravenjv let me guess....you &#39;found&#39; another skeleton of a dunmer &#39;specimen&#39;?
 
-## <span id="2024-06-26.in-an-ice-cave">In an Ice Cave</span>
+## <span id="2024-06-26-in-an-ice-cave">In an Ice Cave</span>
 
 `RU` В ледяной пещере
 
-<a href="https://instagram.com/p/BaHizgWjxSW/" title="2017-10-11.in-an-ice-cave"><img alt="store:/shots/2017-10-11.in-an-ice-cave.png" src="../../assets/previews/shots/2017-10-11.in-an-ice-cave.avif" /></a>
+<a href="https://instagram.com/p/BaHizgWjxSW/" title="2017-10-11-in-an-ice-cave"><img alt="store:/shots/2017-10-11-in-an-ice-cave.png" src="../../assets/previews/shots/2017-10-11-in-an-ice-cave.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-26.in-an-ice-cave)</code> `🚀 OpenMW` `🔗 Bloodmoon` `cave`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-26-in-an-ice-cave)</code> `🚀 OpenMW` `🔗 Bloodmoon` `cave`
 
 ```
-2024-06-26.in-an-ice-cave
+2024-06-26-in-an-ice-cave
 ```
 
-> `2017-10-11.in-an-ice-cave`
+> `2017-10-11-in-an-ice-cave`
 
 ### Reactions
 
@@ -1165,21 +1165,21 @@
 
 - `ig` <ins title="2024-06-29-16-28-09">uuuuumki</ins> so smooth
 
-## <span id="2024-06-25.night-street-of-balmora">Night Street of Balmora</span>
+## <span id="2024-06-25-night-street-of-balmora">Night Street of Balmora</span>
 
 `RU` Ночная улица Балморы
 
-<a href="https://instagram.com/p/BQHvvvZl6c9/" title="2017-02-05.night-street-of-balmora"><img alt="store:/shots/2017-02-05.night-street-of-balmora.png" src="../../assets/previews/shots/2017-02-05.night-street-of-balmora.avif" /></a>
+<a href="https://instagram.com/p/BQHvvvZl6c9/" title="2017-02-05-night-street-of-balmora"><img alt="store:/shots/2017-02-05-night-street-of-balmora.png" src="../../assets/previews/shots/2017-02-05-night-street-of-balmora.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A2` `📍 Balmora` `🚀 OpenMW` `nofilter` `nightstreet` `lantern`
 
 ```
-2024-06-25.night-street-of-balmora
+2024-06-25-night-street-of-balmora
 ```
 
-> `2017-02-05.night-street-of-balmora`
+> `2017-02-05-night-street-of-balmora`
 
 ### Reactions
 
@@ -1197,21 +1197,21 @@
 - `ig` <ins title="2017-02-05-07-20-16">eugen_goldobin</ins> Очень круто!!!
 - `ig` <ins title="2017-02-05-20-45-31">j0shua.m</ins> Thats really a great pic! 😁👌🏻
 
-## <span id="2024-06-24.night-square-of-suran">Night Square of Suran</span>
+## <span id="2024-06-24-night-square-of-suran">Night Square of Suran</span>
 
 `RU` Ночная площадь Сурана
 
-<a href="https://instagram.com/p/BnJzjADFUuS/" title="2018-08-31.night-square-of-suran"><img alt="store:/shots/2018-08-31.night-square-of-suran.png" src="../../assets/previews/shots/2018-08-31.night-square-of-suran.avif" /></a>
+<a href="https://instagram.com/p/BnJzjADFUuS/" title="2018-08-31-night-square-of-suran"><img alt="store:/shots/2018-08-31-night-square-of-suran.png" src="../../assets/previews/shots/2018-08-31-night-square-of-suran.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Suran` `🚀 OpenMW`
 
 ```
-2024-06-24.night-square-of-suran
+2024-06-24-night-square-of-suran
 ```
 
-> `2018-08-31.night-square-of-suran`
+> `2018-08-31-night-square-of-suran`
 
 ### Reactions
 
@@ -1229,21 +1229,21 @@
 - `ig` <ins title="2018-09-02-00-04-22">deleted.erased.dbdhh</ins> Эти улицы, эти лица,разве это то, среди чего я мог высоты добиться, здесь родиться, чтобы в усмерть убиться, чтобы не смотреть в эти лица... Где-то там где кончается улица начинается свет, you, попробуй поднимись выше. (многоточие)
 - `ig` <ins title="2024-06-25-09-59-09">someone_simple42</ins> Man, I love those settlements and midnight skies
 
-## <span id="2024-06-23.dont-go-this-way">Don&#39;t Go This Way</span>
+## <span id="2024-06-23-dont-go-this-way">Don&#39;t Go This Way</span>
 
 `RU` Сюда не ходи
 
-<a href="https://instagram.com/p/BhR6cwGD0eZ/" title="2018-04-07.dont-go-this-way"><img alt="store:/shots/2018-04-07.dont-go-this-way.png" src="../../assets/previews/shots/2018-04-07.dont-go-this-way.avif" /></a>
+<a href="https://instagram.com/p/BhR6cwGD0eZ/" title="2018-04-07-dont-go-this-way"><img alt="store:/shots/2018-04-07-dont-go-this-way.png" src="../../assets/previews/shots/2018-04-07-dont-go-this-way.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-23.dont-go-this-way)</code> `🚀 OpenMW` `🔗 Bloodmoon` `beast`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-23-dont-go-this-way)</code> `🚀 OpenMW` `🔗 Bloodmoon` `beast`
 
 ```
-2024-06-23.dont-go-this-way
+2024-06-23-dont-go-this-way
 ```
 
-> `2018-04-07.dont-go-this-way`
+> `2018-04-07-dont-go-this-way`
 
 ### Reactions
 
@@ -1262,21 +1262,21 @@
   - <ins title="2024-06-26-18-49-12">vladkr114</ins> помни когда мелкий был и не умел качаться, пиз**лей отхватывал постоянно от них
   - <ins title="2024-06-26-18-50-21">qirong666</ins> Влад, да, серьёзные парни.
 
-## <span id="2024-06-22.valbrandr-barrow">Valbrandr Barrow</span>
+## <span id="2024-06-22-valbrandr-barrow">Valbrandr Barrow</span>
 
 `RU` Курган Валбрандр
 
-<a href="https://instagram.com/p/BVb7U63j0AD/" title="2017-06-17.valbrandr-barrow"><img alt="store:/shots/2017-06-17.valbrandr-barrow.png" src="../../assets/previews/shots/2017-06-17.valbrandr-barrow.avif" /></a>
+<a href="https://instagram.com/p/BVb7U63j0AD/" title="2017-06-17-valbrandr-barrow"><img alt="store:/shots/2017-06-17-valbrandr-barrow.png" src="../../assets/previews/shots/2017-06-17-valbrandr-barrow.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-22.valbrandr-barrow)</code> `🚀 OpenMW` `🔗 Bloodmoon` `arc`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-22-valbrandr-barrow)</code> `🚀 OpenMW` `🔗 Bloodmoon` `arc`
 
 ```
-2024-06-22.valbrandr-barrow
+2024-06-22-valbrandr-barrow
 ```
 
-> `2017-06-17.valbrandr-barrow`
+> `2017-06-17-valbrandr-barrow`
 
 ### Reactions
 
@@ -1293,21 +1293,21 @@
 
 - `ig` <ins title="2017-06-17-10-46-12">l3nku</ins> its Great
 
-## <span id="2024-06-21.lava-lake-near-mzanchend">Lava Lake Near Mzanchend</span>
+## <span id="2024-06-21-lava-lake-near-mzanchend">Lava Lake Near Mzanchend</span>
 
 `RU` Озеро лавы вблизи Мзанченда
 
-<a href="https://instagram.com/p/BOojKoolo1u/" title="2016-12-30.lava-lake-near-mzanchend"><img alt="store:/shots/2016-12-30.lava-lake-near-mzanchend.png" src="../../assets/previews/shots/2016-12-30.lava-lake-near-mzanchend.avif" /></a>
+<a href="https://instagram.com/p/BOojKoolo1u/" title="2016-12-30-lava-lake-near-mzanchend"><img alt="store:/shots/2016-12-30-lava-lake-near-mzanchend.png" src="../../assets/previews/shots/2016-12-30-lava-lake-near-mzanchend.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A2` `📍 Mzanchend` `🚀 OpenMW` `nofilter`
 
 ```
-2024-06-21.lava-lake-near-mzanchend
+2024-06-21-lava-lake-near-mzanchend
 ```
 
-> `2016-12-30.lava-lake-near-mzanchend`
+> `2016-12-30-lava-lake-near-mzanchend`
 
 ### Reactions
 
@@ -1320,21 +1320,21 @@
 | [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |   431 |    52 |       386 |  13.47 |
 |                                                    |            |  1123 |   212 |      2724 |   6.59 |
 
-## <span id="2024-06-20.arrival-in-dagon-fel">Arrival in Dagon Fel</span>
+## <span id="2024-06-20-arrival-in-dagon-fel">Arrival in Dagon Fel</span>
 
 `RU` Прибытие в Дагон Фел
 
-<a href="https://instagram.com/p/BRxjL05jQuG/" title="2017-03-18.arrival-in-dagon-fel"><img alt="store:/shots/2017-03-18.arrival-in-dagon-fel.png" src="../../assets/previews/shots/2017-03-18.arrival-in-dagon-fel.avif" /></a>
+<a href="https://instagram.com/p/BRxjL05jQuG/" title="2017-03-18-arrival-in-dagon-fel"><img alt="store:/shots/2017-03-18-arrival-in-dagon-fel.png" src="../../assets/previews/shots/2017-03-18-arrival-in-dagon-fel.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Dagon Fel` `🚀 OpenMW` `nofilter`
 
 ```
-2024-06-20.arrival-in-dagon-fel
+2024-06-20-arrival-in-dagon-fel
 ```
 
-> `2017-03-18.arrival-in-dagon-fel`
+> `2017-03-18-arrival-in-dagon-fel`
 
 ### Reactions
 
@@ -1352,21 +1352,21 @@
 - `ig` <ins title="2024-06-20-22-33-13">delanospies</ins> @dravenjv amazing village
 - `tg` <ins title="2024-06-22-15-37-19">Jesse_Pinkman2008</ins> Это выглядит так прекрасно
 
-## <span id="2024-06-19.deseles-house-of-earthly-delights">Desele&#39;s House of Earthly Delights</span>
+## <span id="2024-06-19-deseles-house-of-earthly-delights">Desele&#39;s House of Earthly Delights</span>
 
 `RU` Дом Земных Наслаждений Дезель
 
-<a href="https://instagram.com/p/BSqDBvDjJ9m/" title="2017-04-09.deseles-house-of-earthly-delights"><img alt="store:/shots/2017-04-09.deseles-house-of-earthly-delights.png" src="../../assets/previews/shots/2017-04-09.deseles-house-of-earthly-delights.avif" /></a>
+<a href="https://instagram.com/p/BSqDBvDjJ9m/" title="2017-04-09-deseles-house-of-earthly-delights"><img alt="store:/shots/2017-04-09-deseles-house-of-earthly-delights.png" src="../../assets/previews/shots/2017-04-09-deseles-house-of-earthly-delights.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-19.deseles-house-of-earthly-delights)</code> `🚀 OpenMW` `nofilter` `redlightdistrict` `night`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-19-deseles-house-of-earthly-delights)</code> `🚀 OpenMW` `nofilter` `redlightdistrict` `night`
 
 ```
-2024-06-19.deseles-house-of-earthly-delights
+2024-06-19-deseles-house-of-earthly-delights
 ```
 
-> `2017-04-09.deseles-house-of-earthly-delights`
+> `2017-04-09-deseles-house-of-earthly-delights`
 
 ### Reactions
 
@@ -1391,21 +1391,21 @@
 - `ig` <ins title="2024-06-20-14-36-36">delanospies</ins> @dravenjv Is that youre bedroll in the shady background?
 - `ig` <ins title="2024-06-23-03-30-20">holyvexy</ins> Beautiful
 
-## <span id="2024-06-18.near-suran">Near Suran</span>
+## <span id="2024-06-18-near-suran">Near Suran</span>
 
 `RU` У Сурана
 
-<a href="https://instagram.com/p/BYNmZg3jhfJ/" title="2017-08-25.near-suran"><img alt="store:/shots/2017-08-25.near-suran.png" src="../../assets/previews/shots/2017-08-25.near-suran.avif" /></a>
+<a href="https://instagram.com/p/BYNmZg3jhfJ/" title="2017-08-25-near-suran"><img alt="store:/shots/2017-08-25-near-suran.png" src="../../assets/previews/shots/2017-08-25-near-suran.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Ascadian Isles Region` `🚀 OpenMW`
 
 ```
-2024-06-18.near-suran
+2024-06-18-near-suran
 ```
 
-> `2017-08-25.near-suran`
+> `2017-08-25-near-suran`
 
 ### Reactions
 
@@ -1426,7 +1426,7 @@
 
 `RU` ...28, 29, 30. Кто не спрятался, я не виноват!
 
-<a href="https://instagram.com/p/BO9ApuClPs8/" title="2017-01-07.28-29-30-ready-or-not-here-i-come"><img alt="store:/shots/2017-01-07.28-29-30-ready-or-not-here-i-come.png" src="../../assets/previews/shots/2017-01-07.28-29-30-ready-or-not-here-i-come.avif" /></a>
+<a href="https://instagram.com/p/BO9ApuClPs8/" title="2017-01-07-28-29-30-ready-or-not-here-i-come"><img alt="store:/shots/2017-01-07-28-29-30-ready-or-not-here-i-come.png" src="../../assets/previews/shots/2017-01-07-28-29-30-ready-or-not-here-i-come.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
@@ -1436,7 +1436,7 @@
 2024-06-17.28-29-30-ready-or-not-here-i-come
 ```
 
-> `2017-01-07.28-29-30-ready-or-not-here-i-come`
+> `2017-01-07-28-29-30-ready-or-not-here-i-come`
 
 ### Reactions
 
@@ -1449,21 +1449,21 @@
 | [`tg`](https://t.me/mwscr/442)                     | 2024-06-17 |   402 |    57 |       385 |  14.81 |
 |                                                    |            |  1031 |   205 |      2722 |   7.04 |
 
-## <span id="2024-06-16.exploring-bitter-coast">Exploring Bitter Coast</span>
+## <span id="2024-06-16-exploring-bitter-coast">Exploring Bitter Coast</span>
 
 `RU` На горьком берегу
 
-<a href="https://instagram.com/p/BSGIbOAj8ET/" title="2017-03-26.exploring-bitter-coast"><img alt="store:/shots/2017-03-26.exploring-bitter-coast.png" src="../../assets/previews/shots/2017-03-26.exploring-bitter-coast.avif" /></a>
+<a href="https://instagram.com/p/BSGIbOAj8ET/" title="2017-03-26-exploring-bitter-coast"><img alt="store:/shots/2017-03-26-exploring-bitter-coast.png" src="../../assets/previews/shots/2017-03-26-exploring-bitter-coast.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Bitter Coast Region` `🚀 OpenMW` `nofilter`
 
 ```
-2024-06-16.exploring-bitter-coast
+2024-06-16-exploring-bitter-coast
 ```
 
-> `2017-03-26.exploring-bitter-coast`
+> `2017-03-26-exploring-bitter-coast`
 
 ### Reactions
 
@@ -1485,21 +1485,21 @@
 - `ig` <ins title="2024-06-18-14-43-36">bedroomspaghettii</ins> My favorite game 🥺
 - `ig` <ins title="2024-07-24-17-16-06">berskate</ins> There must be a sack. Somewhere near the tree
 
-## <span id="2024-06-15.waterfall-camp">Waterfall Camp</span>
+## <span id="2024-06-15-waterfall-camp">Waterfall Camp</span>
 
 `RU` Лагерь у водопада
 
-<a href="https://instagram.com/p/BQt-jKGjtaW/" title="2017-02-20.waterfall-camp"><img alt="store:/shots/2017-02-20.waterfall-camp.png" src="../../assets/previews/shots/2017-02-20.waterfall-camp.avif" /></a>
+<a href="https://instagram.com/p/BQt-jKGjtaW/" title="2017-02-20-waterfall-camp"><img alt="store:/shots/2017-02-20-waterfall-camp.png" src="../../assets/previews/shots/2017-02-20-waterfall-camp.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-15.waterfall-camp)</code> `🚀 OpenMW` `nofilter` `waterfall` `camp` `campfire`
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-15-waterfall-camp)</code> `🚀 OpenMW` `nofilter` `waterfall` `camp` `campfire`
 
 ```
-2024-06-15.waterfall-camp
+2024-06-15-waterfall-camp
 ```
 
-> `2017-02-20.waterfall-camp`
+> `2017-02-20-waterfall-camp`
 
 ### Reactions
 
@@ -1523,11 +1523,11 @@
   - <ins title="2024-06-16-20-59-15">mwscr</ins> Some island north of Khuul as I can remember
   - <ins title="2024-06-16-21-55-21">delanospies</ins> @mwscr amazing thanks!
 
-## <span id="2024-06-14.sleeping-silt-strider">Sleeping Silt Strider</span>
+## <span id="2024-06-14-sleeping-silt-strider">Sleeping Silt Strider</span>
 
 `RU` Спящий Силт Страйдер
 
-<a href="https://instagram.com/p/C8NLlsCNat6/" title="2024-06-14.sleeping-silt-strider"><img alt="store:/shots/2024-06-14.sleeping-silt-strider.png" src="../../assets/previews/shots/2024-06-14.sleeping-silt-strider.avif" /></a>
+<a href="https://instagram.com/p/C8NLlsCNat6/" title="2024-06-14-sleeping-silt-strider"><img alt="store:/shots/2024-06-14-sleeping-silt-strider.png" src="../../assets/previews/shots/2024-06-14-sleeping-silt-strider.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -1546,7 +1546,7 @@
 `A2` `📍 Ashlands Region` `🚀 OpenMW` `siltstrider` `night` `stars`
 
 ```
-2024-06-14.sleeping-silt-strider
+2024-06-14-sleeping-silt-strider
 ```
 
 ### Reactions
@@ -1568,11 +1568,11 @@
   - <ins title="2024-06-16-21-01-59">mwscr</ins> This is the last sleep
 - `vk` <ins title="2024-06-17-14-35-02">club128574987</ins> Скорее, просто дохлый)
 
-## <span id="2024-06-13.propylon">Propylon</span>
+## <span id="2024-06-13-propylon">Propylon</span>
 
 `RU` Пропильон
 
-<a href="https://instagram.com/p/C8KmyYss4M8/" title="2024-06-13.propylon"><img alt="store:/shots/2024-06-13.propylon.png" src="../../assets/previews/shots/2024-06-13.propylon.avif" /></a>
+<a href="https://instagram.com/p/C8KmyYss4M8/" title="2024-06-13-propylon"><img alt="store:/shots/2024-06-13-propylon.png" src="../../assets/previews/shots/2024-06-13-propylon.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -1582,10 +1582,10 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-13.propylon)</code> `🚀 OpenMW` `propylon`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-13-propylon)</code> `🚀 OpenMW` `propylon`
 
 ```
-2024-06-13.propylon
+2024-06-13-propylon
 ```
 
 ### Reactions
@@ -1597,11 +1597,11 @@
 | [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   405 |    55 |       385 |  14.29 |
 |                                                    |            |  1173 |   197 |      2720 |   8.59 |
 
-## <span id="2024-06-12.beran-ancestral-tomb">Beran Ancestral Tomb</span>
+## <span id="2024-06-12-beran-ancestral-tomb">Beran Ancestral Tomb</span>
 
 `RU` Родовая гробница Беранов
 
-<a href="https://instagram.com/p/C8IB9hKveMP/" title="2024-06-12.beran-ancestral-tomb"><img alt="store:/shots/2024-06-12.beran-ancestral-tomb.png" src="../../assets/previews/shots/2024-06-12.beran-ancestral-tomb.avif" /></a>
+<a href="https://instagram.com/p/C8IB9hKveMP/" title="2024-06-12-beran-ancestral-tomb"><img alt="store:/shots/2024-06-12-beran-ancestral-tomb.png" src="../../assets/previews/shots/2024-06-12-beran-ancestral-tomb.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -1619,7 +1619,7 @@
 `A2` `📍 Azura's Coast Region` `🚀 OpenMW` `tomb` `sunset`
 
 ```
-2024-06-12.beran-ancestral-tomb
+2024-06-12-beran-ancestral-tomb
 ```
 
 ### Reactions
@@ -1635,11 +1635,11 @@
 
 - `vk` <ins title="2024-06-17-20-10-36">club128574987</ins> Хрен найдёшь, а ведь располагается в соседнем от ближайшего порта квадрате!
 
-## <span id="2024-06-11.emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
+## <span id="2024-06-11-emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
 
 `RU` Императорские зонтики под звёздным дождем
 
-<a href="https://instagram.com/p/C8FdO8RvcLp/" title="2024-06-11.emperor-parasols-under-the-rain-of-stars"><img alt="store:/shots/2024-06-11.emperor-parasols-under-the-rain-of-stars.png" src="../../assets/previews/shots/2024-06-11.emperor-parasols-under-the-rain-of-stars.avif" /></a>
+<a href="https://instagram.com/p/C8FdO8RvcLp/" title="2024-06-11-emperor-parasols-under-the-rain-of-stars"><img alt="store:/shots/2024-06-11-emperor-parasols-under-the-rain-of-stars.png" src="../../assets/previews/shots/2024-06-11-emperor-parasols-under-the-rain-of-stars.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -1652,7 +1652,7 @@
 `B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `night` `mushrooms`
 
 ```
-2024-06-11.emperor-parasols-under-the-rain-of-stars
+2024-06-11-emperor-parasols-under-the-rain-of-stars
 ```
 
 ### Reactions
@@ -1668,11 +1668,11 @@
 
 - `ig` <ins title="2024-06-12-15-04-22">katlincase</ins> @beebee1999_  giant shroom trees ☻
 
-## <span id="2024-06-10.utensil">Utensil</span>
+## <span id="2024-06-10-utensil">Utensil</span>
 
 `RU` Утварь
 
-<a href="https://instagram.com/p/C8C4XSlR7Tf/" title="2024-06-10.utensil"><img alt="store:/shots/2024-06-10.utensil.png" src="../../assets/previews/shots/2024-06-10.utensil.avif" /></a>
+<a href="https://instagram.com/p/C8C4XSlR7Tf/" title="2024-06-10-utensil"><img alt="store:/shots/2024-06-10-utensil.png" src="../../assets/previews/shots/2024-06-10-utensil.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -1682,10 +1682,10 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-10.utensil)</code> `🚀 OpenMW` `table`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-10-utensil)</code> `🚀 OpenMW` `table`
 
 ```
-2024-06-10.utensil
+2024-06-10-utensil
 ```
 
 ### Reactions
@@ -1697,11 +1697,11 @@
 | [`tg`](https://t.me/mwscr/435)                     | 2024-06-10 |   385 |    54 |       383 |   14.1 |
 |                                                    |            |   988 |   147 |      2720 |   7.28 |
 
-## <span id="2024-06-09.endusal">Endusal</span>
+## <span id="2024-06-09-endusal">Endusal</span>
 
 `RU` Эндусал
 
-<a href="https://instagram.com/p/C8ATY5evIhm/" title="2024-06-09.endusal"><img alt="store:/shots/2024-06-09.endusal.png" src="../../assets/previews/shots/2024-06-09.endusal.avif" /></a>
+<a href="https://instagram.com/p/C8ATY5evIhm/" title="2024-06-09-endusal"><img alt="store:/shots/2024-06-09-endusal.png" src="../../assets/previews/shots/2024-06-09-endusal.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -1712,10 +1712,10 @@
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-09.endusal)</code> `🚀 OpenMW` `dwemer` `ruin`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-09-endusal)</code> `🚀 OpenMW` `dwemer` `ruin`
 
 ```
-2024-06-09.endusal
+2024-06-09-endusal
 ```
 
 ### Reactions
@@ -1727,21 +1727,21 @@
 | [`tg`](https://t.me/mwscr/434)                     | 2024-06-09 |   431 |    57 |       384 |  14.84 |
 |                                                    |            |  1103 |   184 |      2721 |   8.33 |
 
-## <span id="2024-06-08.in-khuul">In Khuul</span>
+## <span id="2024-06-08-in-khuul">In Khuul</span>
 
 `RU` В Хууле
 
-<a href="https://instagram.com/p/BTYfIxOjZg3/" title="2017-04-27.in-khuul"><img alt="store:/shots/2017-04-27.in-khuul.png" src="../../assets/previews/shots/2017-04-27.in-khuul.avif" /></a>
+<a href="https://instagram.com/p/BTYfIxOjZg3/" title="2017-04-27-in-khuul"><img alt="store:/shots/2017-04-27-in-khuul.png" src="../../assets/previews/shots/2017-04-27-in-khuul.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Khuul` `🚀 OpenMW` `nofilter` `guard`
 
 ```
-2024-06-08.in-khuul
+2024-06-08-in-khuul
 ```
 
-> `2017-04-27.in-khuul`
+> `2017-04-27-in-khuul`
 
 ### Reactions
 
@@ -1754,21 +1754,21 @@
 | [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |   399 |    53 |       384 |   13.8 |
 |                                                    |            |  1134 |   234 |      2722 |   7.31 |
 
-## <span id="2024-06-07.ruins-in-a-mountain-dead-end">Ruins in a Mountain Dead End</span>
+## <span id="2024-06-07-ruins-in-a-mountain-dead-end">Ruins in a Mountain Dead End</span>
 
 `RU` Руины в горном тупике
 
-<a href="https://instagram.com/p/BcSn8EqD5nv/" title="2017-12-04.ruins-in-a-mountain-dead-end"><img alt="store:/shots/2017-12-04.ruins-in-a-mountain-dead-end.png" src="../../assets/previews/shots/2017-12-04.ruins-in-a-mountain-dead-end.avif" /></a>
+<a href="https://instagram.com/p/BcSn8EqD5nv/" title="2017-12-04-ruins-in-a-mountain-dead-end"><img alt="store:/shots/2017-12-04-ruins-in-a-mountain-dead-end.png" src="../../assets/previews/shots/2017-12-04-ruins-in-a-mountain-dead-end.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-07.ruins-in-a-mountain-dead-end)</code> `🚀 OpenMW` `ruin` `dwemer`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-07-ruins-in-a-mountain-dead-end)</code> `🚀 OpenMW` `ruin` `dwemer`
 
 ```
-2024-06-07.ruins-in-a-mountain-dead-end
+2024-06-07-ruins-in-a-mountain-dead-end
 ```
 
-> `2017-12-04.ruins-in-a-mountain-dead-end`
+> `2017-12-04-ruins-in-a-mountain-dead-end`
 
 ### Reactions
 
@@ -1781,21 +1781,21 @@
 | [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   411 |    57 |       384 |  14.84 |
 |                                                    |            |  1244 |   255 |      2724 |  10.01 |
 
-## <span id="2024-06-06.shipwreck-at-the-estuary-of-foyada">Shipwreck at the Estuary of Foyada</span>
+## <span id="2024-06-06-shipwreck-at-the-estuary-of-foyada">Shipwreck at the Estuary of Foyada</span>
 
 `RU` Кораблекрушение в устье фояды
 
-<a href="https://instagram.com/p/BfL8-iCHZJn/" title="2018-02-14.shipwreck-at-the-estuary-of-foyada"><img alt="store:/shots/2018-02-14.shipwreck-at-the-estuary-of-foyada.png" src="../../assets/previews/shots/2018-02-14.shipwreck-at-the-estuary-of-foyada.avif" /></a>
+<a href="https://instagram.com/p/BfL8-iCHZJn/" title="2018-02-14-shipwreck-at-the-estuary-of-foyada"><img alt="store:/shots/2018-02-14-shipwreck-at-the-estuary-of-foyada.png" src="../../assets/previews/shots/2018-02-14-shipwreck-at-the-estuary-of-foyada.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-06.shipwreck-at-the-estuary-of-foyada)</code> `🚀 OpenMW` `shipwreck` `ship`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-06-shipwreck-at-the-estuary-of-foyada)</code> `🚀 OpenMW` `shipwreck` `ship`
 
 ```
-2024-06-06.shipwreck-at-the-estuary-of-foyada
+2024-06-06-shipwreck-at-the-estuary-of-foyada
 ```
 
-> `2018-02-14.shipwreck-at-the-estuary-of-foyada`
+> `2018-02-14-shipwreck-at-the-estuary-of-foyada`
 
 ### Reactions
 
@@ -1814,21 +1814,21 @@
 - `tg` <ins title="2024-06-07-09-14-10">VebrandenoK</ins> у меня вьетнамские флешбэки от этого места
 - `tg` <ins title="2024-06-07-09-14-54">VebrandenoK</ins> 🤬
 
-## <span id="2024-06-05.near-seyda-neen">Near Seyda Neen</span>
+## <span id="2024-06-05-near-seyda-neen">Near Seyda Neen</span>
 
 `RU` В окрестностях Сейда Нина
 
-<a href="https://instagram.com/p/BToBhOEDGBg/" title="2017-05-03.near-seyda-neen"><img alt="store:/shots/2017-05-03.near-seyda-neen.png" src="../../assets/previews/shots/2017-05-03.near-seyda-neen.avif" /></a>
+<a href="https://instagram.com/p/BToBhOEDGBg/" title="2017-05-03-near-seyda-neen"><img alt="store:/shots/2017-05-03-near-seyda-neen.png" src="../../assets/previews/shots/2017-05-03-near-seyda-neen.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Seyda Neen` `🚀 OpenMW` `nofilter`
 
 ```
-2024-06-05.near-seyda-neen
+2024-06-05-near-seyda-neen
 ```
 
-> `2017-05-03.near-seyda-neen`
+> `2017-05-03-near-seyda-neen`
 
 ### Reactions
 
@@ -1851,21 +1851,21 @@
 - `ig` <ins title="2024-06-08-19-49-31">oldshitatmosphere</ins> Beautiful
 - `vk` <ins title="2024-06-25-18-48-33">artyom_melikhoff</ins> Ты помнишь, как всё начиналось…
 
-## <span id="2024-06-04.hla-oad">Hla Oad</span>
+## <span id="2024-06-04-hla-oad">Hla Oad</span>
 
 `RU` Хла Оуд
 
-<a href="https://instagram.com/p/BOMCwTbFtv8/" title="2016-12-19.hla-oad"><img alt="store:/shots/2016-12-19.hla-oad.png" src="../../assets/previews/shots/2016-12-19.hla-oad.avif" /></a>
+<a href="https://instagram.com/p/BOMCwTbFtv8/" title="2016-12-19-hla-oad"><img alt="store:/shots/2016-12-19-hla-oad.png" src="../../assets/previews/shots/2016-12-19-hla-oad.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A2` `📍 Hla Oad` `🚀 OpenMW` `nofilter` `ship`
 
 ```
-2024-06-04.hla-oad
+2024-06-04-hla-oad
 ```
 
-> `2016-12-19.hla-oad`
+> `2016-12-19-hla-oad`
 
 ### Reactions
 
@@ -1890,21 +1890,21 @@
 - `vk` <ins title="2024-06-05-13-14-54">club128574987</ins> Ччёрт, я всегда топил за ваниль, но вот это реально круто, что за моды?
   - <ins title="2024-06-05-17-42-41">mwscr</ins> Дядюшка Крассиус, модов нет, но используется движок OpenMW.
 
-## <span id="2024-06-03.somewhere-nearby-vivec">Somewhere Nearby Vivec</span>
+## <span id="2024-06-03-somewhere-nearby-vivec">Somewhere Nearby Vivec</span>
 
 `RU` Где-то около Вивека
 
-<a href="https://instagram.com/p/BN1LSAClh3d/" title="2016-12-10.somewhere-nearby-vivec"><img alt="store:/shots/2016-12-10.somewhere-nearby-vivec.png" src="../../assets/previews/shots/2016-12-10.somewhere-nearby-vivec.avif" /></a>
+<a href="https://instagram.com/p/BN1LSAClh3d/" title="2016-12-10-somewhere-nearby-vivec"><img alt="store:/shots/2016-12-10-somewhere-nearby-vivec.png" src="../../assets/previews/shots/2016-12-10-somewhere-nearby-vivec.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B2` `📍 Ascadian Isles Region` `🚀 OpenMW` `nofilter` `road`
 
 ```
-2024-06-03.somewhere-nearby-vivec
+2024-06-03-somewhere-nearby-vivec
 ```
 
-> `2016-12-10.somewhere-nearby-vivec`
+> `2016-12-10-somewhere-nearby-vivec`
 
 ### Reactions
 
@@ -1922,21 +1922,21 @@
 - `vk` <ins title="2024-06-04-02-32-08">id29477445</ins> Напоминает
 - `ig` <ins title="2024-07-24-17-22-52">berskate</ins> He has a request for you..
 
-## <span id="2024-06-02.vos-from-tel-vos">Vos from Tel Vos</span>
+## <span id="2024-06-02-vos-from-tel-vos">Vos from Tel Vos</span>
 
 `RU` Вос из Тель Воса
 
-<a href="https://instagram.com/p/BNlu5umFeXZ/" title="2016-12-04.vos-from-tel-vos"><img alt="store:/shots/2016-12-04.vos-from-tel-vos.png" src="../../assets/previews/shots/2016-12-04.vos-from-tel-vos.avif" /></a>
+<a href="https://instagram.com/p/BNlu5umFeXZ/" title="2016-12-04-vos-from-tel-vos"><img alt="store:/shots/2016-12-04-vos-from-tel-vos.png" src="../../assets/previews/shots/2016-12-04-vos-from-tel-vos.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A2` `📍 Tel Vos` `🚀 OpenMW` `nofilter`
 
 ```
-2024-06-02.vos-from-tel-vos
+2024-06-02-vos-from-tel-vos
 ```
 
-> `2016-12-04.vos-from-tel-vos`
+> `2016-12-04-vos-from-tel-vos`
 
 ### Reactions
 
@@ -1953,18 +1953,18 @@
 
 - `tg` <ins title="2024-06-02-20-02-50">Влад</ins> Красивое место
 
-## <span id="2024-06-01.visiting-imperial-fort">Visiting Imperial Fort</span>
+## <span id="2024-06-01-visiting-imperial-fort">Visiting Imperial Fort</span>
 
 `RU` Посещение имперского форта
 
-<a href="https://instagram.com/p/C7rtBEqvlv8/" title="2024-06-01.visiting-imperial-fort"><img alt="store:/shots/2024-06-01.visiting-imperial-fort.png" src="../../assets/previews/shots/2024-06-01.visiting-imperial-fort.avif" /></a>
+<a href="https://instagram.com/p/C7rtBEqvlv8/" title="2024-06-01-visiting-imperial-fort"><img alt="store:/shots/2024-06-01-visiting-imperial-fort.png" src="../../assets/previews/shots/2024-06-01-visiting-imperial-fort.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Buckmoth Legion Fort, Interior` `🚀 OpenMW` `candles` `fort` `table`
 
 ```
-2024-06-01.visiting-imperial-fort
+2024-06-01-visiting-imperial-fort
 ```
 
 ### Reactions
@@ -1982,18 +1982,18 @@
 - `tg` <ins title="2024-06-02-13-47-04">Gatemate7</ins> i fucking hate altmers so much..
   - <ins title="2024-06-02-18-20-19">ansis</ins> dunmer or bust
 
-## <span id="2024-05-31.in-fir-branches">In Fir Branches</span>
+## <span id="2024-05-31-in-fir-branches">In Fir Branches</span>
 
 `RU` В ветвях ели
 
-<a href="https://instagram.com/p/C7pISR-N9hL/" title="2024-05-31.in-fir-branches"><img alt="store:/shots/2024-05-31.in-fir-branches.png" src="../../assets/previews/shots/2024-05-31.in-fir-branches.avif" /></a>
+<a href="https://instagram.com/p/C7pISR-N9hL/" title="2024-05-31-in-fir-branches"><img alt="store:/shots/2024-05-31-in-fir-branches.png" src="../../assets/previews/shots/2024-05-31-in-fir-branches.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-31.in-fir-branches)</code> `🚀 OpenMW` `🔗 Bloodmoon` `firtree` `snow`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-31-in-fir-branches)</code> `🚀 OpenMW` `🔗 Bloodmoon` `firtree` `snow`
 
 ```
-2024-05-31.in-fir-branches
+2024-05-31-in-fir-branches
 ```
 
 ### Reactions
@@ -2011,21 +2011,21 @@
   - <ins title="2024-05-31-19-07-45">p40jla</ins> Артём, дополнение bloodmoon. <br>Да, там снег идет, но очень похож пепельную бурю в Вварденфелле. Не заметить ее будет сложно, так как при начале запускает ошибку
 - `vk` <ins title="2024-06-04-13-57-53">peteevandrew</ins> Пурга на Солстхейме..
 
-## <span id="2024-05-30.telvanni-council-house">Telvanni Council House</span>
+## <span id="2024-05-30-telvanni-council-house">Telvanni Council House</span>
 
 `RU` Дом Совета Телванни
 
-<a href="https://instagram.com/p/BPwYG90Fn8f/" title="2017-01-27.telvanni-council-house"><img alt="store:/shots/2017-01-27.telvanni-council-house.png" src="../../assets/previews/shots/2017-01-27.telvanni-council-house.avif" /></a>
+<a href="https://instagram.com/p/BPwYG90Fn8f/" title="2017-01-27-telvanni-council-house"><img alt="store:/shots/2017-01-27-telvanni-council-house.png" src="../../assets/previews/shots/2017-01-27-telvanni-council-house.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A1` `📍 Sadrith Mora` `🚀 OpenMW` `nofilter`
 
 ```
-2024-05-30.telvanni-council-house
+2024-05-30-telvanni-council-house
 ```
 
-> `2017-01-27.telvanni-council-house`
+> `2017-01-27-telvanni-council-house`
 
 ### Reactions
 
@@ -2042,21 +2042,21 @@
 
 - `vk` <ins title="2024-05-30-20-06-17">untergrundbahn</ins> Как будто паблик действительно следит за мной, постит последние две недели фото там где я недавно был<br>Админ, го в морру зарубимся😁
 
-## <span id="2024-05-29.lord-gothren">Lord Gothren</span>
+## <span id="2024-05-29-lord-gothren">Lord Gothren</span>
 
 `RU` Лорд Готрен
 
-<a href="https://instagram.com/p/BNGr80KFru6/" title="2016-11-22.lord-gothren"><img alt="store:/shots/2016-11-22.lord-gothren.png" src="../../assets/previews/shots/2016-11-22.lord-gothren.avif" /></a>
+<a href="https://instagram.com/p/BNGr80KFru6/" title="2016-11-22-lord-gothren"><img alt="store:/shots/2016-11-22-lord-gothren.png" src="../../assets/previews/shots/2016-11-22-lord-gothren.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-29.lord-gothren)</code> `🚀 OpenMW` `guard` `encounter`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-29-lord-gothren)</code> `🚀 OpenMW` `guard` `encounter`
 
 ```
-2024-05-29.lord-gothren
+2024-05-29-lord-gothren
 ```
 
-> `2016-11-22.lord-gothren`
+> `2016-11-22-lord-gothren`
 
 ### Reactions
 
@@ -2069,21 +2069,21 @@
 | [`tg`](https://t.me/mwscr/423)                     | 2024-05-29 |   406 |    60 |       378 |  15.87 |
 |                                                    |            |  1125 |   201 |      2721 |   6.83 |
 
-## <span id="2024-05-28.two-legioners-talking">Two Legioners Talking</span>
+## <span id="2024-05-28-two-legioners-talking">Two Legioners Talking</span>
 
 `RU` Беседа двух легионеров
 
-<a href="https://instagram.com/p/Bgt0r9hj2bV/" title="2018-03-24.two-legioners-talking"><img alt="store:/shots/2018-03-24.two-legioners-talking.png" src="../../assets/previews/shots/2018-03-24.two-legioners-talking.avif" /></a>
+<a href="https://instagram.com/p/Bgt0r9hj2bV/" title="2018-03-24-two-legioners-talking"><img alt="store:/shots/2018-03-24-two-legioners-talking.png" src="../../assets/previews/shots/2018-03-24-two-legioners-talking.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-28.two-legioners-talking)</code> `🚀 OpenMW` `encounter`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-28-two-legioners-talking)</code> `🚀 OpenMW` `encounter`
 
 ```
-2024-05-28.two-legioners-talking
+2024-05-28-two-legioners-talking
 ```
 
-> `2018-03-24.two-legioners-talking`
+> `2018-03-24-two-legioners-talking`
 
 ### Reactions
 
@@ -2101,21 +2101,21 @@
 - `vk` <ins title="2024-05-28-18-27-46">jermor</ins> Про бумаги, наверное
 - `ig` <ins title="2024-05-28-18-53-35">jiri_aleksiii</ins> “What say you?“
 
-## <span id="2024-05-27.flight">Flight</span>
+## <span id="2024-05-27-flight">Flight</span>
 
 `RU` Полёт
 
-<a href="https://instagram.com/p/BZUB0A-jEc7/" title="2017-09-21.flight"><img alt="store:/shots/2017-09-21.flight.png" src="../../assets/previews/shots/2017-09-21.flight.avif" /></a>
+<a href="https://instagram.com/p/BZUB0A-jEc7/" title="2017-09-21-flight"><img alt="store:/shots/2017-09-21-flight.png" src="../../assets/previews/shots/2017-09-21-flight.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-27.flight)</code> `🚀 OpenMW`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-27-flight)</code> `🚀 OpenMW`
 
 ```
-2024-05-27.flight
+2024-05-27-flight
 ```
 
-> `2017-09-21.flight`
+> `2017-09-21-flight`
 
 ### Reactions
 
@@ -2142,21 +2142,21 @@
 - `tg` <ins title="2024-05-29-20-00-12">heart_forms</ins> Fight!
 - `tg` <ins title="2024-05-29-20-00-22">heart_forms</ins> 👊
 
-## <span id="2024-05-26.shore-shroom">Shore Shroom</span>
+## <span id="2024-05-26-shore-shroom">Shore Shroom</span>
 
 `RU` Прибрежный гриб
 
-<a href="https://instagram.com/p/BbKswDeDVyl/" title="2017-11-06.shore-shroom"><img alt="store:/shots/2017-11-06.shore-shroom.png" src="../../assets/previews/shots/2017-11-06.shore-shroom.avif" /></a>
+<a href="https://instagram.com/p/BbKswDeDVyl/" title="2017-11-06-shore-shroom"><img alt="store:/shots/2017-11-06-shore-shroom.png" src="../../assets/previews/shots/2017-11-06-shore-shroom.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-26.shore-shroom)</code> `🚀 OpenMW` `mushrooms` `shore`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-26-shore-shroom)</code> `🚀 OpenMW` `mushrooms` `shore`
 
 ```
-2024-05-26.shore-shroom
+2024-05-26-shore-shroom
 ```
 
-> `2017-11-06.shore-shroom`
+> `2017-11-06-shore-shroom`
 
 ### Reactions
 
@@ -2169,21 +2169,21 @@
 | [`tg`](https://t.me/mwscr/420)                     | 2024-05-26 |   407 |    62 |       377 |  16.45 |
 |                                                    |            |  1115 |   245 |      2719 |   8.85 |
 
-## <span id="2024-05-25.table-for-two">Table for Two</span>
+## <span id="2024-05-25-table-for-two">Table for Two</span>
 
 `RU` Столик на двоих
 
-<a href="https://instagram.com/p/BiXQhHwlwzn/" title="2018-05-04.table-for-two"><img alt="store:/shots/2018-05-04.table-for-two.png" src="../../assets/previews/shots/2018-05-04.table-for-two.avif" /></a>
+<a href="https://instagram.com/p/BiXQhHwlwzn/" title="2018-05-04-table-for-two"><img alt="store:/shots/2018-05-04-table-for-two.png" src="../../assets/previews/shots/2018-05-04-table-for-two.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-25.table-for-two)</code> `🚀 OpenMW` `tablefortwo` `bar`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-25-table-for-two)</code> `🚀 OpenMW` `tablefortwo` `bar`
 
 ```
-2024-05-25.table-for-two
+2024-05-25-table-for-two
 ```
 
-> `2018-05-04.table-for-two`
+> `2018-05-04-table-for-two`
 
 ### Reactions
 
@@ -2200,21 +2200,21 @@
 
 - `ig` <ins title="2018-05-05-06-09-58">mshahrim94</ins> Classy
 
-## <span id="2024-05-24.gloomy-barrow">Gloomy Barrow</span>
+## <span id="2024-05-24-gloomy-barrow">Gloomy Barrow</span>
 
 `RU` Мрачный курган
 
-<a href="https://instagram.com/p/BTalkVND0Lj/" title="2017-04-28.gloomy-barrow"><img alt="store:/shots/2017-04-28.gloomy-barrow.png" src="../../assets/previews/shots/2017-04-28.gloomy-barrow.avif" /></a>
+<a href="https://instagram.com/p/BTalkVND0Lj/" title="2017-04-28-gloomy-barrow"><img alt="store:/shots/2017-04-28-gloomy-barrow.png" src="../../assets/previews/shots/2017-04-28-gloomy-barrow.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-24.gloomy-barrow)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `barrow`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-24-gloomy-barrow)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `barrow`
 
 ```
-2024-05-24.gloomy-barrow
+2024-05-24-gloomy-barrow
 ```
 
-> `2017-04-28.gloomy-barrow`
+> `2017-04-28-gloomy-barrow`
 
 ### Reactions
 
@@ -2232,21 +2232,21 @@
 - `tg` <ins title="2024-05-24-18-21-22">Udzumaki_naruto0</ins> Солхстейм?
   - <ins title="2024-05-24-18-40-58">mwscr</ins> Да
 
-## <span id="2024-05-23.death-and-life">Death and Life</span>
+## <span id="2024-05-23-death-and-life">Death and Life</span>
 
 `RU` Смерть и жизнь
 
-<a href="https://instagram.com/p/BixKH3Qnw6p/" title="2018-05-14.death-and-life"><img alt="store:/shots/2018-05-14.death-and-life.png" src="../../assets/previews/shots/2018-05-14.death-and-life.avif" /></a>
+<a href="https://instagram.com/p/BixKH3Qnw6p/" title="2018-05-14-death-and-life"><img alt="store:/shots/2018-05-14-death-and-life.png" src="../../assets/previews/shots/2018-05-14-death-and-life.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-23.death-and-life)</code> `🚀 OpenMW` `sunset` `shores`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-23-death-and-life)</code> `🚀 OpenMW` `sunset` `shores`
 
 ```
-2024-05-23.death-and-life
+2024-05-23-death-and-life
 ```
 
-> `2018-05-14.death-and-life`
+> `2018-05-14-death-and-life`
 
 ### Reactions
 
@@ -2266,21 +2266,21 @@
   - <ins title="2024-05-24-18-41-58">mwscr</ins> Dead trees on one shore, alive trees on another
 - `ig` <ins title="2024-05-25-10-53-40">alariacostaynedragonborn</ins> Ah the simple beauty of Morrowind ✨️ lovely shot!
 
-## <span id="2024-05-22.the-road-through-lava">The Road Through Lava</span>
+## <span id="2024-05-22-the-road-through-lava">The Road Through Lava</span>
 
 `RU` Дорога сквозь лаву
 
-<a href="https://instagram.com/p/BRU4-LiDTW9/" title="2017-03-07.the-road-through-lava"><img alt="store:/shots/2017-03-07.the-road-through-lava.png" src="../../assets/previews/shots/2017-03-07.the-road-through-lava.avif" /></a>
+<a href="https://instagram.com/p/BRU4-LiDTW9/" title="2017-03-07-the-road-through-lava"><img alt="store:/shots/2017-03-07-the-road-through-lava.png" src="../../assets/previews/shots/2017-03-07-the-road-through-lava.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-22.the-road-through-lava)</code> `🚀 OpenMW` `nofilter` `roadfork` `lava`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-22-the-road-through-lava)</code> `🚀 OpenMW` `nofilter` `roadfork` `lava`
 
 ```
-2024-05-22.the-road-through-lava
+2024-05-22-the-road-through-lava
 ```
 
-> `2017-03-07.the-road-through-lava`
+> `2017-03-07-the-road-through-lava`
 
 ### Reactions
 
@@ -2298,21 +2298,21 @@
 - `vk` <ins title="2024-05-23-01-35-18">untergrundbahn</ins> Они покажут путь)
 - `ig` <ins title="2024-05-26-03-23-00">jawknee.h</ins> loooove this one
 
-## <span id="2024-05-21.in-the-cage">In the Cage</span>
+## <span id="2024-05-21-in-the-cage">In the Cage</span>
 
 `RU` В клетке
 
-<a href="https://instagram.com/p/Bh17npDFlIH/" title="2018-04-21.in-the-cage"><img alt="store:/shots/2018-04-21.in-the-cage.png" src="../../assets/previews/shots/2018-04-21.in-the-cage.avif" /></a>
+<a href="https://instagram.com/p/Bh17npDFlIH/" title="2018-04-21-in-the-cage"><img alt="store:/shots/2018-04-21-in-the-cage.png" src="../../assets/previews/shots/2018-04-21-in-the-cage.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-21.in-the-cage)</code> `🚀 OpenMW` `cage` `slave`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-21-in-the-cage)</code> `🚀 OpenMW` `cage` `slave`
 
 ```
-2024-05-21.in-the-cage
+2024-05-21-in-the-cage
 ```
 
-> `2018-04-21.in-the-cage`
+> `2018-04-21-in-the-cage`
 
 ### Reactions
 
@@ -2332,18 +2332,18 @@
 - `ig` <ins title="2024-05-22-11-45-54">spasnakrovi</ins> @katyan_hatersgonnahate
   - <ins title="2024-05-22-22-29-49">katyan_hatersgonnahate</ins> ☹️
 
-## <span id="2024-05-20.place-to-sleep">Place to Sleep</span>
+## <span id="2024-05-20-place-to-sleep">Place to Sleep</span>
 
 `RU` Место для сна
 
-<a href="https://instagram.com/p/C7MzkoNNPlO/" title="2024-05-20.place-to-sleep"><img alt="store:/shots/2024-05-20.place-to-sleep.png" src="../../assets/previews/shots/2024-05-20.place-to-sleep.avif" /></a>
+<a href="https://instagram.com/p/C7MzkoNNPlO/" title="2024-05-20-place-to-sleep"><img alt="store:/shots/2024-05-20-place-to-sleep.png" src="../../assets/previews/shots/2024-05-20-place-to-sleep.avif" /></a>
 
 `shot` by [Darkness Rifho](../contributors.md#darkness-rifho)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-20.place-to-sleep)</code> `bed`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-20-place-to-sleep)</code> `bed`
 
 ```
-2024-05-20.place-to-sleep
+2024-05-20-place-to-sleep
 ```
 
 ### Reactions
@@ -2363,11 +2363,11 @@
 - `tg` <ins title="2024-05-29-19-39-37">glider13</ins> Huh where&#39;s this? Murudius Flaceus?
   - <ins title="2024-05-29-19-40-06">Gatemate7</ins> your pfp is so cute 😳
 
-## <span id="2024-05-19.druscashti">Druscashti</span>
+## <span id="2024-05-19-druscashti">Druscashti</span>
 
 `RU` Друскашти
 
-<a href="https://instagram.com/p/C7KOqOwrxAi/" title="2024-05-19.druscashti"><img alt="store:/shots/2024-05-19.druscashti.png" src="../../assets/previews/shots/2024-05-19.druscashti.avif" /></a>
+<a href="https://instagram.com/p/C7KOqOwrxAi/" title="2024-05-19-druscashti"><img alt="store:/shots/2024-05-19-druscashti.png" src="../../assets/previews/shots/2024-05-19-druscashti.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -2379,10 +2379,10 @@
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-19.druscashti)</code> `🚀 OpenMW` `dwemer` `ruin`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-19-druscashti)</code> `🚀 OpenMW` `dwemer` `ruin`
 
 ```
-2024-05-19.druscashti
+2024-05-19-druscashti
 ```
 
 ### Reactions
@@ -2398,21 +2398,21 @@
 
 - `tg` <ins title="2024-05-19-23-00-57">bobrovnikov</ins> I want to hibernate there
 
-## <span id="2024-05-18.in-the-yard-of-wolverine-hall">In the Yard of Wolverine Hall</span>
+## <span id="2024-05-18-in-the-yard-of-wolverine-hall">In the Yard of Wolverine Hall</span>
 
 `RU` Во дворе Волверин Холла
 
-<a href="https://instagram.com/p/BgCGM8QBMHa/" title="2018-03-07.in-the-yard-of-wolverine-hall"><img alt="store:/shots/2018-03-07.in-the-yard-of-wolverine-hall.png" src="../../assets/previews/shots/2018-03-07.in-the-yard-of-wolverine-hall.avif" /></a>
+<a href="https://instagram.com/p/BgCGM8QBMHa/" title="2018-03-07-in-the-yard-of-wolverine-hall"><img alt="store:/shots/2018-03-07-in-the-yard-of-wolverine-hall.png" src="../../assets/previews/shots/2018-03-07-in-the-yard-of-wolverine-hall.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Wolverine Hall` `🚀 OpenMW`
 
 ```
-2024-05-18.in-the-yard-of-wolverine-hall
+2024-05-18-in-the-yard-of-wolverine-hall
 ```
 
-> `2018-03-07.in-the-yard-of-wolverine-hall`
+> `2018-03-07-in-the-yard-of-wolverine-hall`
 
 ### Reactions
 
@@ -2431,18 +2431,18 @@
 - `ig` <ins title="2024-05-18-21-48-13">delanospies</ins> My living room @dravenjv
   - <ins title="2024-05-18-22-19-06">dravenjv</ins> I&#39;m going to follow you for more decorating tips
 
-## <span id="2024-05-17.both-gro-durug">Both Gro-Durug</span>
+## <span id="2024-05-17-both-gro-durug">Both Gro-Durug</span>
 
 `RU` Бот гро-Дуруг
 
-<a href="https://instagram.com/p/C7FFN7INkg3/" title="2024-05-17.both-gro-durug"><img alt="store:/shots/2024-05-17.both-gro-durug.png" src="../../assets/previews/shots/2024-05-17.both-gro-durug.avif" /></a>
+<a href="https://instagram.com/p/C7FFN7INkg3/" title="2024-05-17-both-gro-durug"><img alt="store:/shots/2024-05-17-both-gro-durug.png" src="../../assets/previews/shots/2024-05-17-both-gro-durug.avif" /></a>
 
 `shot` by [Natty](../contributors.md#natty)
 
 `B1` `📍 Sadrith Mora, Dirty Muriel's Cornerclub` `🚀 OpenMW` `orc`
 
 ```
-2024-05-17.both-gro-durug
+2024-05-17-both-gro-durug
 ```
 
 ### Reactions
@@ -2461,21 +2461,21 @@
 - `tg` <ins title="2024-05-17-19-36-25">Udzumaki_naruto0</ins> Красивые картинки.
 - `vk` <ins title="2024-05-17-23-22-14">untergrundbahn</ins> Сегодня с ним пересекался)
 
-## <span id="2024-05-16.evening-expanse-of-ashlands">Evening Expanse of Ashlands</span>
+## <span id="2024-05-16-evening-expanse-of-ashlands">Evening Expanse of Ashlands</span>
 
 `RU` Вечерние просторы Эшленда
 
-<a href="https://instagram.com/p/BhHr_a4DlEo/" title="2018-04-03.evening-expanse-of-ashlands"><img alt="store:/shots/2018-04-03.evening-expanse-of-ashlands.png" src="../../assets/previews/shots/2018-04-03.evening-expanse-of-ashlands.avif" /></a>
+<a href="https://instagram.com/p/BhHr_a4DlEo/" title="2018-04-03-evening-expanse-of-ashlands"><img alt="store:/shots/2018-04-03-evening-expanse-of-ashlands.png" src="../../assets/previews/shots/2018-04-03-evening-expanse-of-ashlands.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A2` `📍 Ashlands Region` `🚀 OpenMW` `hills` `rocks`
 
 ```
-2024-05-16.evening-expanse-of-ashlands
+2024-05-16-evening-expanse-of-ashlands
 ```
 
-> `2018-04-03.evening-expanse-of-ashlands`
+> `2018-04-03-evening-expanse-of-ashlands`
 
 ### Reactions
 
@@ -2494,11 +2494,11 @@
 - `tg` <ins title="2024-05-17-04-25-44">Gatemate7</ins> the hood of morrowind
 - `vk` <ins title="2024-06-25-18-33-13">artyom_melikhoff</ins> Красиво, но блин, душнейшая локация, найти там что-то нереально.
 
-## <span id="2024-05-15.royal-draggle-tail">Royal Draggle-Tail</span>
+## <span id="2024-05-15-royal-draggle-tail">Royal Draggle-Tail</span>
 
 `RU` Королевский грязнохвостник
 
-<a href="https://instagram.com/p/C6_7fthhz2f/" title="2024-05-15.royal-draggle-tail"><img alt="store:/shots/2024-05-15.royal-draggle-tail.png" src="../../assets/previews/shots/2024-05-15.royal-draggle-tail.avif" /></a>
+<a href="https://instagram.com/p/C6_7fthhz2f/" title="2024-05-15-royal-draggle-tail"><img alt="store:/shots/2024-05-15-royal-draggle-tail.png" src="../../assets/previews/shots/2024-05-15-royal-draggle-tail.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -2515,7 +2515,7 @@
 `B2` `📍 Ules Manor` `🚀 OpenMW`
 
 ```
-2024-05-15.royal-draggle-tail
+2024-05-15-royal-draggle-tail
 ```
 
 ### Reactions
@@ -2532,21 +2532,21 @@
 - `tg` <ins title="2024-05-15-18-19-03">محمد خالد</ins> First
   - <ins title="2024-05-15-18-20-45">ansis</ins> wgaf
 
-## <span id="2024-05-14.climbing-aboard-the-elf-skerring">Climbing Aboard the Elf-Skerring</span>
+## <span id="2024-05-14-climbing-aboard-the-elf-skerring">Climbing Aboard the Elf-Skerring</span>
 
 `RU` Поднимаясь на борт Эльфийского мореплавателя
 
-<a href="https://instagram.com/p/BQR6xN3FKNo/" title="2017-02-09.climbing-aboard-the-elf-skerring"><img alt="store:/shots/2017-02-09.climbing-aboard-the-elf-skerring.png" src="../../assets/previews/shots/2017-02-09.climbing-aboard-the-elf-skerring.avif" /></a>
+<a href="https://instagram.com/p/BQR6xN3FKNo/" title="2017-02-09-climbing-aboard-the-elf-skerring"><img alt="store:/shots/2017-02-09-climbing-aboard-the-elf-skerring.png" src="../../assets/previews/shots/2017-02-09-climbing-aboard-the-elf-skerring.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A1` `📍 Sadrith Mora` `🚀 OpenMW` `nofilter` `ship`
 
 ```
-2024-05-14.climbing-aboard-the-elf-skerring
+2024-05-14-climbing-aboard-the-elf-skerring
 ```
 
-> `2017-02-09.climbing-aboard-the-elf-skerring`
+> `2017-02-09-climbing-aboard-the-elf-skerring`
 
 ### Reactions
 
@@ -2564,21 +2564,21 @@
 - `tg` <ins title="2024-05-14-18-19-04">Gatemate7</ins> it would look better if added mods
   - <ins title="2024-05-14-18-19-18">ansis</ins> mods banish this n&#39;wah already
 
-## <span id="2024-05-13.pray-with-the-saints">Pray with the Saints</span>
+## <span id="2024-05-13-pray-with-the-saints">Pray with the Saints</span>
 
 `RU` Молиться со святыми
 
-<a href="https://instagram.com/p/BP9jdC_lEM2/" title="2017-02-01.pray-with-the-saints"><img alt="store:/shots/2017-02-01.pray-with-the-saints.png" src="../../assets/previews/shots/2017-02-01.pray-with-the-saints.avif" /></a>
+<a href="https://instagram.com/p/BP9jdC_lEM2/" title="2017-02-01-pray-with-the-saints"><img alt="store:/shots/2017-02-01-pray-with-the-saints.png" src="../../assets/previews/shots/2017-02-01-pray-with-the-saints.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A2` `📍 Vivec` `🚀 OpenMW` `nofilter`
 
 ```
-2024-05-13.pray-with-the-saints
+2024-05-13-pray-with-the-saints
 ```
 
-> `2017-02-01.pray-with-the-saints`
+> `2017-02-01-pray-with-the-saints`
 
 ### Reactions
 
@@ -2596,18 +2596,18 @@
 - `tg` <ins title="2024-05-13-18-19-47">Gatemate7</ins> how do i submit a screenshot?
   - <ins title="2024-05-13-18-20-22">mwscr</ins> https://github.com/dehero/mwscr/blob/main/CONTRIBUTING.md
 
-## <span id="2024-05-12.road-to-the-well">Road to the Well</span>
+## <span id="2024-05-12-road-to-the-well">Road to the Well</span>
 
 `RU` Дорога к колодцу
 
-<a href="https://instagram.com/p/C64NQM4toqC/" title="2024-05-12.road-to-the-well"><img alt="store:/shots/2024-05-12.road-to-the-well.png" src="../../assets/previews/shots/2024-05-12.road-to-the-well.avif" /></a>
+<a href="https://instagram.com/p/C64NQM4toqC/" title="2024-05-12-road-to-the-well"><img alt="store:/shots/2024-05-12-road-to-the-well.png" src="../../assets/previews/shots/2024-05-12-road-to-the-well.avif" /></a>
 
 `shot` by [Natty](../contributors.md#natty)
 
 `B1` `📍 Wolverine Hall` `🚀 OpenMW` `well` `fort` `bridge`
 
 ```
-2024-05-12.road-to-the-well
+2024-05-12-road-to-the-well
 ```
 
 ### Reactions
@@ -2619,21 +2619,21 @@
 | [`tg`](https://t.me/mwscr/406)                     | 2024-05-12 |   420 |    56 |       371 |  15.09 |
 |                                                    |            |   972 |   172 |      2703 |   8.12 |
 
-## <span id="2024-05-11.guard-tower-of-suran">Guard Tower of Suran</span>
+## <span id="2024-05-11-guard-tower-of-suran">Guard Tower of Suran</span>
 
 `RU` Башня стражи Сурана
 
-<a href="https://instagram.com/p/BYdQtClDTdx/" title="2017-08-31.guard-tower-of-suran"><img alt="store:/shots/2017-08-31.guard-tower-of-suran.png" src="../../assets/previews/shots/2017-08-31.guard-tower-of-suran.avif" /></a>
+<a href="https://instagram.com/p/BYdQtClDTdx/" title="2017-08-31-guard-tower-of-suran"><img alt="store:/shots/2017-08-31-guard-tower-of-suran.png" src="../../assets/previews/shots/2017-08-31-guard-tower-of-suran.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Suran` `🚀 OpenMW` `tower` `night`
 
 ```
-2024-05-11.guard-tower-of-suran
+2024-05-11-guard-tower-of-suran
 ```
 
-> `2017-08-31.guard-tower-of-suran`
+> `2017-08-31-guard-tower-of-suran`
 
 ### Reactions
 
@@ -2655,11 +2655,11 @@
   - <ins title="2024-05-11-20-47-16">delanospies</ins> @dravenjv ya feel me 🔥
 - `ig` <ins title="2024-05-12-06-01-51">someone_simple42</ins> I just love lighting and sky in this game
 
-## <span id="2024-05-10.after-the-repast">After the Repast</span>
+## <span id="2024-05-10-after-the-repast">After the Repast</span>
 
 `RU` После трапезы
 
-<a href="https://instagram.com/p/C6zDislvhcZ/" title="2024-05-10.after-the-repast"><img alt="store:/shots/2024-05-10.after-the-repast.png" src="../../assets/previews/shots/2024-05-10.after-the-repast.avif" /></a>
+<a href="https://instagram.com/p/C6zDislvhcZ/" title="2024-05-10-after-the-repast"><img alt="store:/shots/2024-05-10-after-the-repast.png" src="../../assets/previews/shots/2024-05-10-after-the-repast.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -2672,7 +2672,7 @@
 `B2` `📍 Pelagiad, Halfway Tavern` `🚀 OpenMW` `table` `bottles`
 
 ```
-2024-05-10.after-the-repast
+2024-05-10-after-the-repast
 ```
 
 ### Reactions
@@ -2689,21 +2689,21 @@
 - `tg` <ins title="2024-05-10-18-56-35">VebrandenoK</ins> 😭
   - <ins title="2024-05-10-19-45-50">Gatemate7</ins> us?
 
-## <span id="2024-05-09.strategic-stock">Strategic Stock</span>
+## <span id="2024-05-09-strategic-stock">Strategic Stock</span>
 
 `RU` Стратегический запас
 
-<a href="https://instagram.com/p/Bi7jBPBlzUw/" title="2018-05-18.strategic-stock"><img alt="store:/shots/2018-05-18.strategic-stock.png" src="../../assets/previews/shots/2018-05-18.strategic-stock.avif" /></a>
+<a href="https://instagram.com/p/Bi7jBPBlzUw/" title="2018-05-18-strategic-stock"><img alt="store:/shots/2018-05-18-strategic-stock.png" src="../../assets/previews/shots/2018-05-18-strategic-stock.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-09.strategic-stock)</code> `🚀 OpenMW` `barrels`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-09-strategic-stock)</code> `🚀 OpenMW` `barrels`
 
 ```
-2024-05-09.strategic-stock
+2024-05-09-strategic-stock
 ```
 
-> `2018-05-18.strategic-stock`
+> `2018-05-18-strategic-stock`
 
 ### Reactions
 
@@ -2722,18 +2722,18 @@
 - `ig` <ins title="2024-05-11-21-48-01">delanospies</ins> @dravenjv you when you came sailing from England 😂
   - <ins title="2024-05-11-21-58-18">dravenjv</ins> I&#39;m in the one beneath the lantern
 
-## <span id="2024-05-08.slaves-sleep-peacefully-in-their-shacks">Slaves Sleep Peacefully in Their Shacks</span>
+## <span id="2024-05-08-slaves-sleep-peacefully-in-their-shacks">Slaves Sleep Peacefully in Their Shacks</span>
 
 `RU` Рабы мирно спят в своих хижинах
 
-<a href="https://instagram.com/p/C6t6ArvSgR_/" title="2024-05-08.slaves-sleep-peacefully-in-their-shacks"><img alt="store:/shots/2024-05-08.slaves-sleep-peacefully-in-their-shacks.png" src="../../assets/previews/shots/2024-05-08.slaves-sleep-peacefully-in-their-shacks.avif" /></a>
+<a href="https://instagram.com/p/C6t6ArvSgR_/" title="2024-05-08-slaves-sleep-peacefully-in-their-shacks"><img alt="store:/shots/2024-05-08-slaves-sleep-peacefully-in-their-shacks.png" src="../../assets/previews/shots/2024-05-08-slaves-sleep-peacefully-in-their-shacks.avif" /></a>
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-08.slaves-sleep-peacefully-in-their-shacks)</code> `🚀 OpenMW` `night` `stars` `shacks` `fireplace`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-08-slaves-sleep-peacefully-in-their-shacks)</code> `🚀 OpenMW` `night` `stars` `shacks` `fireplace`
 
 ```
-2024-05-08.slaves-sleep-peacefully-in-their-shacks
+2024-05-08-slaves-sleep-peacefully-in-their-shacks
 ```
 
 ### Reactions
@@ -2749,11 +2749,11 @@
 
 - `tg` <ins title="2024-05-08-18-38-47">BaraFox</ins> Just wait until Twin Lamps cut the slavers and set all of those slaves free!
 
-## <span id="2024-05-07.campfire">Campfire</span>
+## <span id="2024-05-07-campfire">Campfire</span>
 
 `RU` У костра
 
-<a href="https://instagram.com/p/C6rVKwMRUNV/" title="2024-05-07.campfire"><img alt="store:/shots/2024-05-07.campfire.png" src="../../assets/previews/shots/2024-05-07.campfire.avif" /></a>
+<a href="https://instagram.com/p/C6rVKwMRUNV/" title="2024-05-07-campfire"><img alt="store:/shots/2024-05-07-campfire.png" src="../../assets/previews/shots/2024-05-07-campfire.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -2763,10 +2763,10 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-07.campfire)</code> `🚀 OpenMW` `campfire`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-07-campfire)</code> `🚀 OpenMW` `campfire`
 
 ```
-2024-05-07.campfire
+2024-05-07-campfire
 ```
 
 ### Reactions
@@ -2778,11 +2778,11 @@
 | [`tg`](https://t.me/mwscr/401)                     | 2024-05-07 |   423 |    53 |       371 |  14.29 |
 |                                                    |            |   992 |   172 |      2700 |      8 |
 
-## <span id="2024-05-06.alchemist-table">Alchemist Table</span>
+## <span id="2024-05-06-alchemist-table">Alchemist Table</span>
 
 `RU` Стол алхимика
 
-<a href="https://instagram.com/p/C6owokUs7Gc/" title="2024-05-06.alchemist-table"><img alt="store:/shots/2024-05-06.alchemist-table.png" src="../../assets/previews/shots/2024-05-06.alchemist-table.avif" /></a>
+<a href="https://instagram.com/p/C6owokUs7Gc/" title="2024-05-06-alchemist-table"><img alt="store:/shots/2024-05-06-alchemist-table.png" src="../../assets/previews/shots/2024-05-06-alchemist-table.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -2795,7 +2795,7 @@
 `B1` `📍 Vivec, Guild of Mages` `🚀 OpenMW` `alchemy` `table`
 
 ```
-2024-05-06.alchemist-table
+2024-05-06-alchemist-table
 ```
 
 ### Reactions
@@ -2807,11 +2807,11 @@
 | [`tg`](https://t.me/mwscr/400)                     | 2024-05-06 |   440 |    57 |       371 |  15.36 |
 |                                                    |            |  1009 |   184 |      2700 |   8.68 |
 
-## <span id="2024-05-05.dinner-for-four">Dinner for Four</span>
+## <span id="2024-05-05-dinner-for-four">Dinner for Four</span>
 
 `RU` Обед на четверых
 
-<a href="https://instagram.com/p/C6mLYNAPoIR/" title="2024-05-05.dinner-for-four"><img alt="store:/shots/2024-05-05.dinner-for-four.png" src="../../assets/previews/shots/2024-05-05.dinner-for-four.avif" /></a>
+<a href="https://instagram.com/p/C6mLYNAPoIR/" title="2024-05-05-dinner-for-four"><img alt="store:/shots/2024-05-05-dinner-for-four.png" src="../../assets/previews/shots/2024-05-05-dinner-for-four.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -2823,10 +2823,10 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-05.dinner-for-four)</code> `🚀 OpenMW` `table`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-05-dinner-for-four)</code> `🚀 OpenMW` `table`
 
 ```
-2024-05-05.dinner-for-four
+2024-05-05-dinner-for-four
 ```
 
 ### Reactions
@@ -2847,18 +2847,18 @@
   - <ins title="2024-05-06-05-09-06">dehero</ins> Александр, это в Вивеке
   - <ins title="2024-06-25-18-28-47">artyom_melikhoff</ins> Антон, в любом отделении как дома)
 
-## <span id="2024-05-04.ahnassi">Ahnassi</span>
+## <span id="2024-05-04-ahnassi">Ahnassi</span>
 
 `RU` Анасси
 
-<a href="https://instagram.com/p/C6jmnFHNynU/" title="2024-05-04.ahnassi"><img alt="store:/shots/2024-05-04.ahnassi.png" src="../../assets/previews/shots/2024-05-04.ahnassi.avif" /></a>
+<a href="https://instagram.com/p/C6jmnFHNynU/" title="2024-05-04-ahnassi"><img alt="store:/shots/2024-05-04-ahnassi.png" src="../../assets/previews/shots/2024-05-04-ahnassi.avif" /></a>
 
 `shot` by [Natty](../contributors.md#natty)
 
 `B2` `📍 Pelagiad, Halfway Tavern` `🚀 OpenMW` `khajiit`
 
 ```
-2024-05-04.ahnassi
+2024-05-04-ahnassi
 ```
 
 ### Reactions
@@ -2874,18 +2874,18 @@
 
 - `ig` <ins title="2024-05-05-11-58-48">yoshi_23ii</ins> Special friend
 
-## <span id="2024-05-03.coastal-silt-strider">Coastal Silt Strider</span>
+## <span id="2024-05-03-coastal-silt-strider">Coastal Silt Strider</span>
 
 `RU` Прибрежный силт-страйдер
 
-<a href="https://instagram.com/p/C6hB52RP4_D/" title="2024-05-03.coastal-silt-strider"><img alt="store:/shots/2024-05-03.coastal-silt-strider.png" src="../../assets/previews/shots/2024-05-03.coastal-silt-strider.avif" /></a>
+<a href="https://instagram.com/p/C6hB52RP4_D/" title="2024-05-03-coastal-silt-strider"><img alt="store:/shots/2024-05-03-coastal-silt-strider.png" src="../../assets/previews/shots/2024-05-03-coastal-silt-strider.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-03.coastal-silt-strider)</code> `🚀 OpenMW` `siltstrider`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-03-coastal-silt-strider)</code> `🚀 OpenMW` `siltstrider`
 
 ```
-2024-05-03.coastal-silt-strider
+2024-05-03-coastal-silt-strider
 ```
 
 ### Reactions
@@ -2902,21 +2902,21 @@
 - `ig` <ins title="2024-05-03-18-22-43">sir_waclove</ins> I can hear this picture
 - `tg` <ins title="2024-05-03-20-49-11">bobrovnikov</ins> K P A C U B ый
 
-## <span id="2024-05-02.over-the-lava">Over the Lava</span>
+## <span id="2024-05-02-over-the-lava">Over the Lava</span>
 
 `RU` Над лавой
 
-<a href="https://instagram.com/p/1572346381783154677/" title="2017-08-02.over-the-lava"><img alt="store:/shots/2017-08-02.over-the-lava.png" src="../../assets/previews/shots/2017-08-02.over-the-lava.avif" /></a>
+<a href="https://instagram.com/p/1572346381783154677/" title="2017-08-02-over-the-lava"><img alt="store:/shots/2017-08-02-over-the-lava.png" src="../../assets/previews/shots/2017-08-02-over-the-lava.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-02.over-the-lava)</code> `🚀 OpenMW` `lava`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-02-over-the-lava)</code> `🚀 OpenMW` `lava`
 
 ```
-2024-05-02.over-the-lava
+2024-05-02-over-the-lava
 ```
 
-> `2017-08-02.over-the-lava`
+> `2017-08-02-over-the-lava`
 
 ### Reactions
 
@@ -2934,21 +2934,21 @@
 - `vk` <ins title="2017-08-02-07-36-50">petrushkachord</ins> Где это находится?
 - `vk` <ins title="2017-08-02-08-08-51">dehero</ins> Данила, пещеры Маусур
 
-## <span id="2024-05-01.upper-circles">Upper Circles</span>
+## <span id="2024-05-01-upper-circles">Upper Circles</span>
 
 `RU` Высокие круги
 
-<a href="https://instagram.com/p/BcQE6_5jawa/" title="2017-12-03.upper-circles"><img alt="store:/shots/2017-12-03.upper-circles.png" src="../../assets/previews/shots/2017-12-03.upper-circles.avif" /></a>
+<a href="https://instagram.com/p/BcQE6_5jawa/" title="2017-12-03-upper-circles"><img alt="store:/shots/2017-12-03-upper-circles.png" src="../../assets/previews/shots/2017-12-03-upper-circles.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-01.upper-circles)</code> `🚀 OpenMW`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-01-upper-circles)</code> `🚀 OpenMW`
 
 ```
-2024-05-01.upper-circles
+2024-05-01-upper-circles
 ```
 
-> `2017-12-03.upper-circles`
+> `2017-12-03-upper-circles`
 
 ### Reactions
 
@@ -2965,21 +2965,21 @@
 
 - `vk` <ins title="2017-12-03-20-01-49">id266402374</ins> Только вчера у этих ребят в гостях была
 
-## <span id="2024-04-30.tree-of-magnus">Tree of Magnus</span>
+## <span id="2024-04-30-tree-of-magnus">Tree of Magnus</span>
 
 `RU` Дерево Магнуса
 
-<a href="https://instagram.com/p/Ben7-nSDinT/" title="2018-01-31.tree-of-magnus"><img alt="store:/shots/2018-01-31.tree-of-magnus.png" src="../../assets/previews/shots/2018-01-31.tree-of-magnus.avif" /></a>
+<a href="https://instagram.com/p/Ben7-nSDinT/" title="2018-01-31-tree-of-magnus"><img alt="store:/shots/2018-01-31-tree-of-magnus.png" src="../../assets/previews/shots/2018-01-31-tree-of-magnus.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-30.tree-of-magnus)</code> `🚀 OpenMW` `sun` `trees`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-30-tree-of-magnus)</code> `🚀 OpenMW` `sun` `trees`
 
 ```
-2024-04-30.tree-of-magnus
+2024-04-30-tree-of-magnus
 ```
 
-> `2018-01-31.tree-of-magnus`
+> `2018-01-31-tree-of-magnus`
 
 ### Reactions
 
@@ -2992,18 +2992,18 @@
 | [`tg`](https://t.me/mwscr/394)                     | 2024-04-30 |   462 |    64 |       363 |  17.63 |
 |                                                    |            |  1182 |   266 |      2689 |   9.77 |
 
-## <span id="2024-04-29.all-paths-lead-left">All Paths Lead Left</span>
+## <span id="2024-04-29-all-paths-lead-left">All Paths Lead Left</span>
 
 `RU` Все пути ведут налево
 
-<a href="https://vk.com/mwscr?w=wall-138249959_1513" title="2024-04-29.all-paths-lead-left"><img alt="store:/shots/2024-04-29.all-paths-lead-left.png" src="../../assets/previews/shots/2024-04-29.all-paths-lead-left.avif" /></a>
+<a href="https://vk.com/mwscr?w=wall-138249959_1513" title="2024-04-29-all-paths-lead-left"><img alt="store:/shots/2024-04-29-all-paths-lead-left.png" src="../../assets/previews/shots/2024-04-29-all-paths-lead-left.avif" /></a>
 
 `shot` by [Natty](../contributors.md#natty)
 
 `B2` `📍 Molag Amur Region` `🚀 OpenMW` `crossroads`
 
 ```
-2024-04-29.all-paths-lead-left
+2024-04-29-all-paths-lead-left
 ```
 
 ### Reactions
@@ -3019,21 +3019,21 @@
 
 - `tg` <ins title="2024-04-30-19-43-56">resist_it</ins> Where do they lead, actually? 🤔
 
-## <span id="2024-04-28.ebonheart-towers">Ebonheart Towers</span>
+## <span id="2024-04-28-ebonheart-towers">Ebonheart Towers</span>
 
 `RU` Башни Эбенгарда
 
-<a href="https://instagram.com/p/BOUENe2lalh/" title="2016-12-22.ebonheart-towers"><img alt="store:/shots/2016-12-22.ebonheart-towers.png" src="../../assets/previews/shots/2016-12-22.ebonheart-towers.avif" /></a>
+<a href="https://instagram.com/p/BOUENe2lalh/" title="2016-12-22-ebonheart-towers"><img alt="store:/shots/2016-12-22-ebonheart-towers.png" src="../../assets/previews/shots/2016-12-22-ebonheart-towers.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A1` `📍 Ebonheart` `🚀 OpenMW` `nofilter` `fort` `castle`
 
 ```
-2024-04-28.ebonheart-towers
+2024-04-28-ebonheart-towers
 ```
 
-> `2016-12-22.ebonheart-towers`
+> `2016-12-22-ebonheart-towers`
 
 ### Reactions
 
@@ -3046,21 +3046,21 @@
 | [`ig`](https://instagram.com/p/C6YMB6DxXL3/)       | 2024-04-30 |   262 |    71 |      1415 |   5.02 |
 |                                                    |            |  1144 |   203 |      2680 |   9.65 |
 
-## <span id="2024-04-27.sunset-over-the-lava-river">Sunset Over the Lava River</span>
+## <span id="2024-04-27-sunset-over-the-lava-river">Sunset Over the Lava River</span>
 
 `RU` Закат над лавовой рекой
 
-<a href="https://instagram.com/p/BiU0CctlY3V/" title="2018-05-03.sunset-over-the-lava-river"><img alt="store:/shots/2018-05-03.sunset-over-the-lava-river.png" src="../../assets/previews/shots/2018-05-03.sunset-over-the-lava-river.avif" /></a>
+<a href="https://instagram.com/p/BiU0CctlY3V/" title="2018-05-03-sunset-over-the-lava-river"><img alt="store:/shots/2018-05-03-sunset-over-the-lava-river.png" src="../../assets/previews/shots/2018-05-03-sunset-over-the-lava-river.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-27.sunset-over-the-lava-river)</code> `🚀 OpenMW` `lava` `sunset`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-27-sunset-over-the-lava-river)</code> `🚀 OpenMW` `lava` `sunset`
 
 ```
-2024-04-27.sunset-over-the-lava-river
+2024-04-27-sunset-over-the-lava-river
 ```
 
-> `2018-05-03.sunset-over-the-lava-river`
+> `2018-05-03-sunset-over-the-lava-river`
 
 ### Reactions
 
@@ -3077,18 +3077,18 @@
 
 - `ig` <ins title="2024-04-27-18-19-23">wild.life.ig</ins> Forward it to us 💛
 
-## <span id="2024-04-26.winter-and-summer">Winter and Summer</span>
+## <span id="2024-04-26-winter-and-summer">Winter and Summer</span>
 
 `RU` Зима и лето
 
-<a href="https://instagram.com/p/C6PASWNP8me/" title="2024-04-26.winter-and-summer"><img alt="store:/shots/2024-04-26.winter-and-summer.png" src="../../assets/previews/shots/2024-04-26.winter-and-summer.avif" /></a>
+<a href="https://instagram.com/p/C6PASWNP8me/" title="2024-04-26-winter-and-summer"><img alt="store:/shots/2024-04-26-winter-and-summer.png" src="../../assets/previews/shots/2024-04-26-winter-and-summer.avif" /></a>
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-26.winter-and-summer)</code> `🚀 OpenMW` `🔗 Bloodmoon` `snow` `forest` `bear`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-26-winter-and-summer)</code> `🚀 OpenMW` `🔗 Bloodmoon` `snow` `forest` `bear`
 
 ```
-2024-04-26.winter-and-summer
+2024-04-26-winter-and-summer
 ```
 
 ### Reactions
@@ -3100,21 +3100,21 @@
 | [`tg`](https://t.me/mwscr/390)                     | 2024-04-26 |   449 |    60 |       354 |  16.95 |
 |                                                    |            |  1167 |   190 |      2681 |   9.07 |
 
-## <span id="2024-04-25.abandoned-island">Abandoned Island</span>
+## <span id="2024-04-25-abandoned-island">Abandoned Island</span>
 
 `RU` Покинутый остров
 
-<a href="https://instagram.com/p/BZB9lx7jegT/" title="2017-09-14.abandoned-island"><img alt="store:/shots/2017-09-14.abandoned-island.png" src="../../assets/previews/shots/2017-09-14.abandoned-island.avif" /></a>
+<a href="https://instagram.com/p/BZB9lx7jegT/" title="2017-09-14-abandoned-island"><img alt="store:/shots/2017-09-14-abandoned-island.png" src="../../assets/previews/shots/2017-09-14-abandoned-island.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 An Abandoned Shack` `🚀 OpenMW`
 
 ```
-2024-04-25.abandoned-island
+2024-04-25-abandoned-island
 ```
 
-> `2017-09-14.abandoned-island`
+> `2017-09-14-abandoned-island`
 
 ### Reactions
 
@@ -3135,11 +3135,11 @@
   - <ins title="2024-05-06-07-22-55">Sczakal</ins> The Abandoned Shack (предполагаю)
 - `ig` <ins title="2024-04-26-14-05-00">vamurin</ins> 🔥🔥🔥
 
-## <span id="2024-04-24.muckspunges-on-the-coast">Muckspunges on the Coast</span>
+## <span id="2024-04-24-muckspunges-on-the-coast">Muckspunges on the Coast</span>
 
 `RU` Мускпунж на побережье
 
-<a href="https://instagram.com/p/C6J2rHdMfKT/" title="2024-04-24.muckspunges-on-the-coast"><img alt="store:/shots/2024-04-24.muckspunges-on-the-coast.png" src="../../assets/previews/shots/2024-04-24.muckspunges-on-the-coast.avif" /></a>
+<a href="https://instagram.com/p/C6J2rHdMfKT/" title="2024-04-24-muckspunges-on-the-coast"><img alt="store:/shots/2024-04-24-muckspunges-on-the-coast.png" src="../../assets/previews/shots/2024-04-24-muckspunges-on-the-coast.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -3151,10 +3151,10 @@
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-24.muckspunges-on-the-coast)</code> `🚀 OpenMW` `coast`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-24-muckspunges-on-the-coast)</code> `🚀 OpenMW` `coast`
 
 ```
-2024-04-24.muckspunges-on-the-coast
+2024-04-24-muckspunges-on-the-coast
 ```
 
 ### Reactions
@@ -3166,21 +3166,21 @@
 | [`tg`](https://t.me/mwscr/388)                     | 2024-04-24 |   436 |    63 |       354 |   17.8 |
 |                                                    |            |  1017 |   171 |      2679 |   8.88 |
 
-## <span id="2024-04-23.evening-mournhold">Evening Mournhold</span>
+## <span id="2024-04-23-evening-mournhold">Evening Mournhold</span>
 
 `RU` Вечерний Морнхолд
 
-<a href="https://instagram.com/p/BcDSD4FDcTL/" title="2017-11-28.evening-mournhold"><img alt="store:/shots/2017-11-28.evening-mournhold.png" src="../../assets/previews/shots/2017-11-28.evening-mournhold.avif" /></a>
+<a href="https://instagram.com/p/BcDSD4FDcTL/" title="2017-11-28-evening-mournhold"><img alt="store:/shots/2017-11-28-evening-mournhold.png" src="../../assets/previews/shots/2017-11-28-evening-mournhold.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A2` `📍 Mournhold, Temple Courtyard` `🚀 OpenMW` `🔗 Tribunal` `evening`
 
 ```
-2024-04-23.evening-mournhold
+2024-04-23-evening-mournhold
 ```
 
-> `2017-11-28.evening-mournhold`
+> `2017-11-28-evening-mournhold`
 
 ### Reactions
 
@@ -3200,11 +3200,11 @@
 - `tg` <ins title="2024-04-24-11-54-17">ansis</ins> City of Light
 - `tg` <ins title="2024-04-24-17-24-35">mongleri</ins> City of Magic
 
-## <span id="2024-04-22.sunset-over-molag-amur">Sunset Over Molag Amur</span>
+## <span id="2024-04-22-sunset-over-molag-amur">Sunset Over Molag Amur</span>
 
 `RU` Закат над Молаг Амур
 
-<a href="https://instagram.com/p/C6EtGaMP1-s/" title="2024-04-22.sunset-over-molag-amur"><img alt="store:/shots/2024-04-22.sunset-over-molag-amur.png" src="../../assets/previews/shots/2024-04-22.sunset-over-molag-amur.avif" /></a>
+<a href="https://instagram.com/p/C6EtGaMP1-s/" title="2024-04-22-sunset-over-molag-amur"><img alt="store:/shots/2024-04-22-sunset-over-molag-amur.png" src="../../assets/previews/shots/2024-04-22-sunset-over-molag-amur.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -3218,7 +3218,7 @@
 `B1` `📍 Molag Amur Region` `🚀 OpenMW` `sunset` `lava`
 
 ```
-2024-04-22.sunset-over-molag-amur
+2024-04-22-sunset-over-molag-amur
 ```
 
 ### Reactions
@@ -3236,21 +3236,21 @@
 - `ig` <ins title="2024-04-22-21-49-17">someone_simple42</ins> Not by Natty?
   - <ins title="2024-04-23-04-11-01">mwscr</ins> No
 
-## <span id="2024-04-21.a-little-joy-for-hard-worker">A Little Joy for Hard Worker</span>
+## <span id="2024-04-21-a-little-joy-for-hard-worker">A Little Joy for Hard Worker</span>
 
 `RU` Маленькая радость простого работяги
 
-<a href="https://instagram.com/p/Bf1SN0JDvPU/" title="2018-03-02.a-little-joy-for-hard-worker"><img alt="store:/shots/2018-03-02.a-little-joy-for-hard-worker.png" src="../../assets/previews/shots/2018-03-02.a-little-joy-for-hard-worker.avif" /></a>
+<a href="https://instagram.com/p/Bf1SN0JDvPU/" title="2018-03-02-a-little-joy-for-hard-worker"><img alt="store:/shots/2018-03-02-a-little-joy-for-hard-worker.png" src="../../assets/previews/shots/2018-03-02-a-little-joy-for-hard-worker.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-21.a-little-joy-for-hard-worker)</code> `🚀 OpenMW` `candles` `bottle` `cup`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-21-a-little-joy-for-hard-worker)</code> `🚀 OpenMW` `candles` `bottle` `cup`
 
 ```
-2024-04-21.a-little-joy-for-hard-worker
+2024-04-21-a-little-joy-for-hard-worker
 ```
 
-> `2018-03-02.a-little-joy-for-hard-worker`
+> `2018-03-02-a-little-joy-for-hard-worker`
 
 ### Reactions
 
@@ -3273,11 +3273,11 @@
 - `vk` <ins title="2024-04-21-22-45-35">artemius_galitzine</ins> После тяжёлого рабочего дня с целью согреть душу 😅✌🏻
 - `tg` <ins title="2024-04-22-13-20-45">Alexey Stepanov</ins> I don’t have much free time at work, but when I look at these photos, a certain warmth warms my soul
 
-## <span id="2024-04-20.fallen-sanctuary">Fallen Sanctuary</span>
+## <span id="2024-04-20-fallen-sanctuary">Fallen Sanctuary</span>
 
 `RU` Павшее святилище
 
-<a href="https://instagram.com/p/C5_jjRLxIhb/" title="2024-04-20.fallen-sanctuary"><img alt="store:/shots/2024-04-20.fallen-sanctuary.png" src="../../assets/previews/shots/2024-04-20.fallen-sanctuary.avif" /></a>
+<a href="https://instagram.com/p/C5_jjRLxIhb/" title="2024-04-20-fallen-sanctuary"><img alt="store:/shots/2024-04-20-fallen-sanctuary.png" src="../../assets/previews/shots/2024-04-20-fallen-sanctuary.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -3292,7 +3292,7 @@
 `B1` `📍 Beran Ancestral Tomb` `🚀 OpenMW` `tomb` `sword` `skulls`
 
 ```
-2024-04-20.fallen-sanctuary
+2024-04-20-fallen-sanctuary
 ```
 
 ### Reactions
@@ -3308,18 +3308,18 @@
 
 - `ig` <ins title="2024-07-24-17-28-18">berskate</ins> Wow. I never seen it
 
-## <span id="2024-04-19.evening-shelter">Evening Shelter</span>
+## <span id="2024-04-19-evening-shelter">Evening Shelter</span>
 
 `RU` Вечерний приют
 
-<a href="https://instagram.com/p/C58-rKfNvb5/" title="2024-04-19.evening-shelter"><img alt="store:/shots/2024-04-19.evening-shelter.png" src="../../assets/previews/shots/2024-04-19.evening-shelter.avif" /></a>
+<a href="https://instagram.com/p/C58-rKfNvb5/" title="2024-04-19-evening-shelter"><img alt="store:/shots/2024-04-19-evening-shelter.png" src="../../assets/previews/shots/2024-04-19-evening-shelter.avif" /></a>
 
 `shot` by [Natty](../contributors.md#natty)
 
 `B2` `📍 Ascadian Isles Region` `🚀 OpenMW` `rain` `tree` `hlaalu`
 
 ```
-2024-04-19.evening-shelter
+2024-04-19-evening-shelter
 ```
 
 ### Reactions
@@ -3335,21 +3335,21 @@
 
 - `ig` <ins title="2024-04-19-19-57-37">delanospies</ins> @dravenjv youre home i guess, ill bring sujamma!
 
-## <span id="2024-04-18.dren-plantation">Dren Plantation</span>
+## <span id="2024-04-18-dren-plantation">Dren Plantation</span>
 
 `RU` Плантация Дрена
 
-<a href="https://instagram.com/p/BNBvXZ1lEOl/" title="2016-11-20.1.dren-plantation"><img alt="store:/shots/2016-11-20.1.dren-plantation.png" src="../../assets/previews/shots/2016-11-20.1.dren-plantation.avif" /></a>
+<a href="https://instagram.com/p/BNBvXZ1lEOl/" title="2016-11-20-1-dren-plantation"><img alt="store:/shots/2016-11-20-1-dren-plantation.png" src="../../assets/previews/shots/2016-11-20-1-dren-plantation.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B2` `📍 Dren Plantation` `🚀 OpenMW`
 
 ```
-2024-04-18.dren-plantation
+2024-04-18-dren-plantation
 ```
 
-> `2016-11-20.1.dren-plantation`
+> `2016-11-20-1-dren-plantation`
 
 ### Reactions
 
@@ -3373,21 +3373,21 @@
   - <ins title="2024-04-18-18-39-04">stevenbuitenhuis</ins> when a legend was born
 - `tg` <ins title="2024-04-18-19-43-03">dismasterfrane</ins> I recently discovered this channel but I immediately fell in love with it
 
-## <span id="2024-04-17.interior-garden">Interior Garden</span>
+## <span id="2024-04-17-interior-garden">Interior Garden</span>
 
 `RU` Внутренний сад
 
-<a href="https://instagram.com/p/BSSo_M4Dm2-/" title="2017-03-31.interior-garden"><img alt="store:/shots/2017-03-31.interior-garden.png" src="../../assets/previews/shots/2017-03-31.interior-garden.avif" /></a>
+<a href="https://instagram.com/p/BSSo_M4Dm2-/" title="2017-03-31-interior-garden"><img alt="store:/shots/2017-03-31-interior-garden.png" src="../../assets/previews/shots/2017-03-31-interior-garden.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-17.interior-garden)</code> `🚀 OpenMW` `nofilter` `mushrooms` `interiorgarden`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-17-interior-garden)</code> `🚀 OpenMW` `nofilter` `mushrooms` `interiorgarden`
 
 ```
-2024-04-17.interior-garden
+2024-04-17-interior-garden
 ```
 
-> `2017-03-31.interior-garden`
+> `2017-03-31-interior-garden`
 
 ### Reactions
 
@@ -3400,21 +3400,21 @@
 | [`tg`](https://t.me/mwscr/381)                     | 2024-04-17 |   421 |    68 |       354 |  19.21 |
 |                                                    |            |  1180 |   257 |      2677 |   8.37 |
 
-## <span id="2024-04-16.birth-of-fabricant">Birth of Fabricant</span>
+## <span id="2024-04-16-birth-of-fabricant">Birth of Fabricant</span>
 
 `RU` Рождение фабриканта
 
-<a href="https://instagram.com/p/BeBen7vj3Ii/" title="2018-01-16.birth-of-fabricant"><img alt="store:/shots/2018-01-16.birth-of-fabricant.png" src="../../assets/previews/shots/2018-01-16.birth-of-fabricant.avif" /></a>
+<a href="https://instagram.com/p/BeBen7vj3Ii/" title="2018-01-16-birth-of-fabricant"><img alt="store:/shots/2018-01-16-birth-of-fabricant.png" src="../../assets/previews/shots/2018-01-16-birth-of-fabricant.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-16.birth-of-fabricant)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-16-birth-of-fabricant)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil`
 
 ```
-2024-04-16.birth-of-fabricant
+2024-04-16-birth-of-fabricant
 ```
 
-> `2018-01-16.birth-of-fabricant`
+> `2018-01-16-birth-of-fabricant`
 
 ### Reactions
 
@@ -3434,11 +3434,11 @@
 - `tg` <ins title="2024-04-16-20-26-58">alex_emsow</ins> I just hate this place😅
   - <ins title="2024-04-16-20-54-22">Gatemate7</ins> this is a mod?
 
-## <span id="2024-04-15.night-at-red-mountain">Night at Red Mountain</span>
+## <span id="2024-04-15-night-at-red-mountain">Night at Red Mountain</span>
 
 `RU` Ночь у Красной горы
 
-<a href="https://instagram.com/p/C5yrij1LmAN/" title="2024-04-15.night-at-red-mountain"><img alt="store:/shots/2024-04-15.night-at-red-mountain.png" src="../../assets/previews/shots/2024-04-15.night-at-red-mountain.avif" /></a>
+<a href="https://instagram.com/p/C5yrij1LmAN/" title="2024-04-15-night-at-red-mountain"><img alt="store:/shots/2024-04-15-night-at-red-mountain.png" src="../../assets/previews/shots/2024-04-15-night-at-red-mountain.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -3449,10 +3449,10 @@
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-15.night-at-red-mountain)</code> `🚀 OpenMW` `dwemer` `ruin` `bridge` `towers`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-15-night-at-red-mountain)</code> `🚀 OpenMW` `dwemer` `ruin` `bridge` `towers`
 
 ```
-2024-04-15.night-at-red-mountain
+2024-04-15-night-at-red-mountain
 ```
 
 ### Reactions
@@ -3471,21 +3471,21 @@
 - `vk` <ins title="2024-04-15-21-49-18">mortwake</ins> 🚬🗿
 - `ig` <ins title="2024-04-16-10-19-36">someone_simple42</ins> I love those lands, man.
 
-## <span id="2024-04-14.palace-of-vivec">Palace of Vivec</span>
+## <span id="2024-04-14-palace-of-vivec">Palace of Vivec</span>
 
 `RU` Дворец Вивека
 
-<a href="https://instagram.com/p/BTgPnBsDnCq/" title="2017-04-30.palace-of-vivec"><img alt="store:/shots/2017-04-30.palace-of-vivec.png" src="../../assets/previews/shots/2017-04-30.palace-of-vivec.avif" /></a>
+<a href="https://instagram.com/p/BTgPnBsDnCq/" title="2017-04-30-palace-of-vivec"><img alt="store:/shots/2017-04-30-palace-of-vivec.png" src="../../assets/previews/shots/2017-04-30-palace-of-vivec.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A2` `📍 Vivec, Temple` `🚀 OpenMW` `nofilter` `vivec` `palace` `castle`
 
 ```
-2024-04-14.palace-of-vivec
+2024-04-14-palace-of-vivec
 ```
 
-> `2017-04-30.palace-of-vivec`
+> `2017-04-30-palace-of-vivec`
 
 ### Reactions
 
@@ -3498,11 +3498,11 @@
 | [`tg`](https://t.me/mwscr/378)                     | 2024-04-14 |   509 |    63 |       351 |  17.95 |
 |                                                    |            |  1428 |   297 |      2675 |   8.84 |
 
-## <span id="2024-04-13.manwe">Manwe</span>
+## <span id="2024-04-13-manwe">Manwe</span>
 
 `RU` Манве
 
-<a href="https://instagram.com/p/C5thvvzynm3/" title="2024-04-13.manwe"><img alt="store:/shots/2024-04-13.manwe.png" src="../../assets/previews/shots/2024-04-13.manwe.avif" /></a>
+<a href="https://instagram.com/p/C5thvvzynm3/" title="2024-04-13-manwe"><img alt="store:/shots/2024-04-13-manwe.png" src="../../assets/previews/shots/2024-04-13-manwe.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -3517,7 +3517,7 @@
 `B1` `📍 Punabi` `🚀 OpenMW` `cave` `crystal`
 
 ```
-2024-04-13.manwe
+2024-04-13-manwe
 ```
 
 ### Reactions
@@ -3534,21 +3534,21 @@
 - `vk` <ins title="2024-04-13-18-26-52">ilyatamrielsky</ins> Манве это прям из Властелина колец.<br>Один из айнур
 - `ig` <ins title="2024-04-14-19-36-07">spasnakrovi</ins> @hard.images
 
-## <span id="2024-04-12.sadrith-mora-gateway-inn">Sadrith Mora, Gateway Inn</span>
+## <span id="2024-04-12-sadrith-mora-gateway-inn">Sadrith Mora, Gateway Inn</span>
 
 `RU` Садрит Мора, Привратный трактир
 
-<a href="https://instagram.com/p/BPcBYf9lwjH/" title="2017-01-19.sadrith-mora-gateway-inn"><img alt="store:/shots/2017-01-19.sadrith-mora-gateway-inn.png" src="../../assets/previews/shots/2017-01-19.sadrith-mora-gateway-inn.avif" /></a>
+<a href="https://instagram.com/p/BPcBYf9lwjH/" title="2017-01-19-sadrith-mora-gateway-inn"><img alt="store:/shots/2017-01-19-sadrith-mora-gateway-inn.png" src="../../assets/previews/shots/2017-01-19-sadrith-mora-gateway-inn.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A1` `📍 Sadrith Mora, Gateway Inn` `🚀 OpenMW` `nofilter`
 
 ```
-2024-04-12.sadrith-mora-gateway-inn
+2024-04-12-sadrith-mora-gateway-inn
 ```
 
-> `2017-01-19.sadrith-mora-gateway-inn`
+> `2017-01-19-sadrith-mora-gateway-inn`
 
 ### Reactions
 
@@ -3569,11 +3569,11 @@
 - `ig` <ins title="2024-04-12-20-29-19">lightvision11</ins> 👻
 - `ig` <ins title="2024-04-12-23-31-32">delanospies</ins> @dravenjv meet me here in 3 hours.
 
-## <span id="2024-04-11.heros-skeleton">Hero&#39;s Skeleton</span>
+## <span id="2024-04-11-heros-skeleton">Hero&#39;s Skeleton</span>
 
 `RU` Скелет героя
 
-<a href="https://instagram.com/p/C5oYU4kunXC/" title="2024-04-11.heros-skeleton"><img alt="store:/shots/2024-04-11.heros-skeleton.png" src="../../assets/previews/shots/2024-04-11.heros-skeleton.avif" /></a>
+<a href="https://instagram.com/p/C5oYU4kunXC/" title="2024-04-11-heros-skeleton"><img alt="store:/shots/2024-04-11-heros-skeleton.png" src="../../assets/previews/shots/2024-04-11-heros-skeleton.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -3587,7 +3587,7 @@
 `B1` `📍 Endusal, Kagrenac's study` `🚀 OpenMW` `skeleton` `dwemer`
 
 ```
-2024-04-11.heros-skeleton
+2024-04-11-heros-skeleton
 ```
 
 ### Reactions
@@ -3605,18 +3605,18 @@
   - <ins title="2024-04-13-17-02-29">mwscr</ins> Natty is anonymous project author for now.
   - <ins title="2024-04-13-17-13-24">someone_simple42</ins> @mwscr sounds cool. Best regards to Natty and everyone involved 🤜🤛
 
-## <span id="2024-04-10.sun-mushrooms">Sun Mushrooms</span>
+## <span id="2024-04-10-sun-mushrooms">Sun Mushrooms</span>
 
 `RU` Солнечные грибы
 
-<a href="https://instagram.com/p/C5lzx5zyeUS/" title="2024-04-10.sun-mushrooms"><img alt="store:/shots/2024-04-10.sun-mushrooms.png" src="../../assets/previews/shots/2024-04-10.sun-mushrooms.avif" /></a>
+<a href="https://instagram.com/p/C5lzx5zyeUS/" title="2024-04-10-sun-mushrooms"><img alt="store:/shots/2024-04-10-sun-mushrooms.png" src="../../assets/previews/shots/2024-04-10-sun-mushrooms.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `E` `📍 Azura's Coast Region` `🚀 OpenMW` `mushroom` `sun`
 
 ```
-2024-04-10.sun-mushrooms
+2024-04-10-sun-mushrooms
 ```
 
 ### Reactions
@@ -3628,11 +3628,11 @@
 | [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   426 |    58 |       353 |  16.43 |
 |                                                    |            |   934 |   161 |      2675 |    8.3 |
 
-## <span id="2024-04-09.telvanni-council-house">Telvanni Council House</span>
+## <span id="2024-04-09-telvanni-council-house">Telvanni Council House</span>
 
 `RU` Дом Совета Телванни
 
-<a href="https://instagram.com/p/C5jOmkLursk/" title="2024-04-09.telvanni-council-house"><img alt="store:/shots/2024-04-09.telvanni-council-house.png" src="../../assets/previews/shots/2024-04-09.telvanni-council-house.avif" /></a>
+<a href="https://instagram.com/p/C5jOmkLursk/" title="2024-04-09-telvanni-council-house"><img alt="store:/shots/2024-04-09-telvanni-council-house.png" src="../../assets/previews/shots/2024-04-09-telvanni-council-house.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -3646,7 +3646,7 @@
 `A2` `📍 Sadrith Mora` `🚀 OpenMW` `night`
 
 ```
-2024-04-09.telvanni-council-house
+2024-04-09-telvanni-council-house
 ```
 
 ### Reactions
@@ -3662,11 +3662,11 @@
 
 - `ig` <ins title="2024-04-09-18-31-32">angelpeepee__</ins> My crib
 
-## <span id="2024-04-08.lava-fork">Lava Fork</span>
+## <span id="2024-04-08-lava-fork">Lava Fork</span>
 
 `RU` Лавовая развилка
 
-<a href="https://instagram.com/p/C5gqOIYx--3/" title="2024-04-08.lava-fork"><img alt="store:/shots/2024-04-08.lava-fork.png" src="../../assets/previews/shots/2024-04-08.lava-fork.avif" /></a>
+<a href="https://instagram.com/p/C5gqOIYx--3/" title="2024-04-08-lava-fork"><img alt="store:/shots/2024-04-08-lava-fork.png" src="../../assets/previews/shots/2024-04-08-lava-fork.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -3681,7 +3681,7 @@
 `B1` `📍 Molag Amur Region` `🚀 OpenMW` `lava` `night` `fork`
 
 ```
-2024-04-08.lava-fork
+2024-04-08-lava-fork
 ```
 
 ### Reactions
@@ -3693,21 +3693,21 @@
 | [`tg`](https://t.me/mwscr/372)                     | 2024-04-08 |   430 |    59 |       354 |  16.67 |
 |                                                    |            |  1092 |   222 |      2672 |   9.82 |
 
-## <span id="2024-04-07.sheogorad">Sheogorad</span>
+## <span id="2024-04-07-sheogorad">Sheogorad</span>
 
 `RU` Шигорад
 
-<a href="https://instagram.com/p/BNER2c_FCVh/" title="2016-11-21.sheogorad"><img alt="store:/shots/2016-11-21.sheogorad.png" src="../../assets/previews/shots/2016-11-21.sheogorad.avif" /></a>
+<a href="https://instagram.com/p/BNER2c_FCVh/" title="2016-11-21-sheogorad"><img alt="store:/shots/2016-11-21-sheogorad.png" src="../../assets/previews/shots/2016-11-21-sheogorad.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Sheogorad Region` `🚀 OpenMW`
 
 ```
-2024-04-07.sheogorad
+2024-04-07-sheogorad
 ```
 
-> `2016-11-21.sheogorad`
+> `2016-11-21-sheogorad`
 
 ### Reactions
 
@@ -3725,18 +3725,18 @@
 - `vk` <ins title="2024-04-07-21-18-02">pkellerman</ins> Картинка со звуком
 - `ig` <ins title="2024-04-08-12-48-03">fragabaglio</ins> One of the best regions in the game
 
-## <span id="2024-04-06.falling-towers">Falling Towers</span>
+## <span id="2024-04-06-falling-towers">Falling Towers</span>
 
 `RU` Падающие башни
 
-<a href="https://instagram.com/p/C5bgTjdu9Go/" title="2024-04-06.falling-towers"><img alt="store:/shots/2024-04-06.falling-towers.png" src="../../assets/previews/shots/2024-04-06.falling-towers.avif" /></a>
+<a href="https://instagram.com/p/C5bgTjdu9Go/" title="2024-04-06-falling-towers"><img alt="store:/shots/2024-04-06-falling-towers.png" src="../../assets/previews/shots/2024-04-06-falling-towers.avif" /></a>
 
 `shot` by [Natty](../contributors.md#natty)
 
 `B1` `📍 Red Mountain Region` `🚀 OpenMW`
 
 ```
-2024-04-06.falling-towers
+2024-04-06-falling-towers
 ```
 
 ### Reactions
@@ -3753,21 +3753,21 @@
 - `ig` <ins title="2024-04-07-12-22-08">sithknight72</ins> I’m curious if you’ve ever considered using MGE?
 - `ig` <ins title="2024-04-07-13-31-04">mwscr</ins> MGE is acceptable option for shooting. But I personally prefer OpenMW.
 
-## <span id="2024-04-05.rain-of-sparks">Rain of Sparks</span>
+## <span id="2024-04-05-rain-of-sparks">Rain of Sparks</span>
 
 `RU` Дождь из искр
 
-<a href="https://instagram.com/p/BZoftR2DJ_O/" title="2017-09-29.rain-of-sparks"><img alt="store:/shots/2017-09-29.rain-of-sparks.png" src="../../assets/previews/shots/2017-09-29.rain-of-sparks.avif" /></a>
+<a href="https://instagram.com/p/BZoftR2DJ_O/" title="2017-09-29-rain-of-sparks"><img alt="store:/shots/2017-09-29-rain-of-sparks.png" src="../../assets/previews/shots/2017-09-29-rain-of-sparks.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A2` `📍 Sotha Sil, Dome of Serlyn` `🚀 OpenMW` `🔗 Tribunal` `clockworkcity`
 
 ```
-2024-04-05.rain-of-sparks
+2024-04-05-rain-of-sparks
 ```
 
-> `2017-09-29.rain-of-sparks`
+> `2017-09-29-rain-of-sparks`
 
 ### Reactions
 
@@ -3787,11 +3787,11 @@
   - <ins title="2024-04-05-19-34-00">mwscr</ins> Sotha Sil, Dome of Serlyn
 - `tg` <ins title="2024-04-06-07-55-58">Alexey Stepanov</ins> як Новий рік прям😂😂😂
 
-## <span id="2024-04-04.view-of-elf-skerring">View of Elf-Skerring</span>
+## <span id="2024-04-04-view-of-elf-skerring">View of Elf-Skerring</span>
 
 `RU` Вид на Эльфийский Мореплаватель
 
-<a href="https://instagram.com/p/C5WWKeRRTCu/" title="2024-04-04.view-of-elf-skerring"><img alt="store:/shots/2024-04-04.view-of-elf-skerring.png" src="../../assets/previews/shots/2024-04-04.view-of-elf-skerring.avif" /></a>
+<a href="https://instagram.com/p/C5WWKeRRTCu/" title="2024-04-04-view-of-elf-skerring"><img alt="store:/shots/2024-04-04-view-of-elf-skerring.png" src="../../assets/previews/shots/2024-04-04-view-of-elf-skerring.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -3804,7 +3804,7 @@
 `B1` `📍 Sadrith Mora` `🚀 OpenMW` `ship`
 
 ```
-2024-04-04.view-of-elf-skerring
+2024-04-04-view-of-elf-skerring
 ```
 
 ### Reactions
@@ -3820,21 +3820,21 @@
 
 - `ig` <ins title="2024-04-05-03-12-04">quantd7709</ins> best town in morrowind
 
-## <span id="2024-04-03.god-of-madness-and-his-follower">God of Madness and His Follower</span>
+## <span id="2024-04-03-god-of-madness-and-his-follower">God of Madness and His Follower</span>
 
 `RU` Бог безумия и его последователь
 
-<a href="https://instagram.com/p/BVCJ8xHDrD1/" title="2017-06-07.god-of-madness-and-his-follower"><img alt="store:/shots/2017-06-07.god-of-madness-and-his-follower.png" src="../../assets/previews/shots/2017-06-07.god-of-madness-and-his-follower.avif" /></a>
+<a href="https://instagram.com/p/BVCJ8xHDrD1/" title="2017-06-07-god-of-madness-and-his-follower"><img alt="store:/shots/2017-06-07-god-of-madness-and-his-follower.png" src="../../assets/previews/shots/2017-06-07-god-of-madness-and-his-follower.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Almurbalarammi, Shrine` `🚀 OpenMW` `sheogorath` `shrine` `daedric` `statue`
 
 ```
-2024-04-03.god-of-madness-and-his-follower
+2024-04-03-god-of-madness-and-his-follower
 ```
 
-> `2017-06-07.god-of-madness-and-his-follower`
+> `2017-06-07-god-of-madness-and-his-follower`
 
 ### Reactions
 
@@ -3851,18 +3851,18 @@
 
 - `tg` <ins title="2024-04-04-14-36-02">Jesse_Pinkman2008</ins> Вау эта игра такая красивая 😍
 
-## <span id="2024-04-02.hanged-man">Hanged Man</span>
+## <span id="2024-04-02-hanged-man">Hanged Man</span>
 
 `RU` Висельник
 
-<a href="https://instagram.com/p/C5RMenFr1dt/" title="2024-04-02.hanged-man"><img alt="store:/shots/2024-04-02.hanged-man.png" src="../../assets/previews/shots/2024-04-02.hanged-man.avif" /></a>
+<a href="https://instagram.com/p/C5RMenFr1dt/" title="2024-04-02-hanged-man"><img alt="store:/shots/2024-04-02-hanged-man.png" src="../../assets/previews/shots/2024-04-02-hanged-man.avif" /></a>
 
 `shot` by [Natty](../contributors.md#natty)
 
 `B1` `📍 Wolverine Hall` `🚀 OpenMW` `fort`
 
 ```
-2024-04-02.hanged-man
+2024-04-02-hanged-man
 ```
 
 ### Reactions
@@ -3874,21 +3874,21 @@
 | [`tg`](https://t.me/mwscr/365)                     | 2024-04-02 |   450 |    55 |       355 |  15.49 |
 |                                                    |            |  1087 |   158 |      2664 |   7.94 |
 
-## <span id="2024-04-01.at-the-edge-of-sheogorad">At the Edge of Sheogorad</span>
+## <span id="2024-04-01-at-the-edge-of-sheogorad">At the Edge of Sheogorad</span>
 
 `RU` На краю Шигорада
 
-<a href="https://instagram.com/p/BbpUVTiDuSA/" title="2017-11-18.at-the-edge-of-sheogorad"><img alt="store:/shots/2017-11-18.at-the-edge-of-sheogorad.png" src="../../assets/previews/shots/2017-11-18.at-the-edge-of-sheogorad.avif" /></a>
+<a href="https://instagram.com/p/BbpUVTiDuSA/" title="2017-11-18-at-the-edge-of-sheogorad"><img alt="store:/shots/2017-11-18-at-the-edge-of-sheogorad.png" src="../../assets/previews/shots/2017-11-18-at-the-edge-of-sheogorad.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B2` `📍 Sheogorad Region` `🚀 OpenMW` `shore` `moon`
 
 ```
-2024-04-01.at-the-edge-of-sheogorad
+2024-04-01-at-the-edge-of-sheogorad
 ```
 
-> `2017-11-18.at-the-edge-of-sheogorad`
+> `2017-11-18-at-the-edge-of-sheogorad`
 
 ### Reactions
 
@@ -3906,11 +3906,11 @@
 - `tg` <ins title="2024-04-01-19-59-41">Aellaria</ins> Veldig fint bilde!
 - `ig` <ins title="2024-04-03-12-52-18">66.carat.gold</ins> I always smile when I see a new post on this page
 
-## <span id="2024-03-31.fire-river">Fire River</span>
+## <span id="2024-03-31-fire-river">Fire River</span>
 
 `RU` Огненная река
 
-<a href="https://instagram.com/p/C5MCzuJy_65/" title="2024-03-31.fire-river"><img alt="store:/shots/2024-03-31.fire-river.png" src="../../assets/previews/shots/2024-03-31.fire-river.avif" /></a>
+<a href="https://instagram.com/p/C5MCzuJy_65/" title="2024-03-31-fire-river"><img alt="store:/shots/2024-03-31-fire-river.png" src="../../assets/previews/shots/2024-03-31-fire-river.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -3923,7 +3923,7 @@
 `B1` `📍 Mzanchend` `🚀 OpenMW` `dwemer` `lava`
 
 ```
-2024-03-31.fire-river
+2024-03-31-fire-river
 ```
 
 ### Reactions
@@ -3935,21 +3935,21 @@
 | [`tg`](https://t.me/mwscr/363)                     | 2024-03-31 |   465 |    57 |       354 |   16.1 |
 |                                                    |            |  1225 |   185 |      2662 |   8.79 |
 
-## <span id="2024-03-30.a-boxy-nightstand">A Boxy Nightstand</span>
+## <span id="2024-03-30-a-boxy-nightstand">A Boxy Nightstand</span>
 
 `RU` Ящик-тумбочка
 
-<a href="https://instagram.com/p/BOOhX9klh6x/" title="2016-12-20.a-boxy-nightstand"><img alt="store:/shots/2016-12-20.a-boxy-nightstand.png" src="../../assets/previews/shots/2016-12-20.a-boxy-nightstand.avif" /></a>
+<a href="https://instagram.com/p/BOOhX9klh6x/" title="2016-12-20-a-boxy-nightstand"><img alt="store:/shots/2016-12-20-a-boxy-nightstand.png" src="../../assets/previews/shots/2016-12-20-a-boxy-nightstand.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-30.a-boxy-nightstand)</code> `🚀 OpenMW` `nofilter`
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-30-a-boxy-nightstand)</code> `🚀 OpenMW` `nofilter`
 
 ```
-2024-03-30.a-boxy-nightstand
+2024-03-30-a-boxy-nightstand
 ```
 
-> `2016-12-20.a-boxy-nightstand`
+> `2016-12-20-a-boxy-nightstand`
 
 ### Reactions
 
@@ -3970,11 +3970,11 @@
 - `tg` <ins title="2024-03-31-05-59-06">heart_forms</ins> Можно оригинал в комменты? 🤲
   - <ins title="2024-03-31-06-01-52">mwscr</ins> 
 
-## <span id="2024-03-29.sneaking-scamp">Sneaking Scamp</span>
+## <span id="2024-03-29-sneaking-scamp">Sneaking Scamp</span>
 
 `RU` Крадущийся скамп
 
-<a href="https://instagram.com/p/C5G5RZDukt4/" title="2024-03-29.sneaking-scamp"><img alt="store:/shots/2024-03-29.sneaking-scamp.png" src="../../assets/previews/shots/2024-03-29.sneaking-scamp.avif" /></a>
+<a href="https://instagram.com/p/C5G5RZDukt4/" title="2024-03-29-sneaking-scamp"><img alt="store:/shots/2024-03-29-sneaking-scamp.png" src="../../assets/previews/shots/2024-03-29-sneaking-scamp.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -3987,7 +3987,7 @@
 `B1` `📍 Punabi` `🚀 OpenMW` `cave` `scamp`
 
 ```
-2024-03-29.sneaking-scamp
+2024-03-29-sneaking-scamp
 ```
 
 ### Reactions
@@ -4004,21 +4004,21 @@
 - `ig` <ins title="2024-03-29-20-56-21">rogierwashier</ins> I can hear this
 - `vk` <ins title="2024-03-31-13-17-45">id4936513</ins> во всех кинотеатрах Вварденфела &quot;крадущийся скамп, затаившийся даэдрот&quot;
 
-## <span id="2024-03-28.moonmoth-legion-fort">Moonmoth Legion Fort</span>
+## <span id="2024-03-28-moonmoth-legion-fort">Moonmoth Legion Fort</span>
 
 `RU` Форт Легиона Лунной Бабочки
 
-<a href="https://instagram.com/p/BQPiYoUF7W7/" title="2017-02-08.moonmoth-legion-fort"><img alt="store:/shots/2017-02-08.moonmoth-legion-fort.png" src="../../assets/previews/shots/2017-02-08.moonmoth-legion-fort.avif" /></a>
+<a href="https://instagram.com/p/BQPiYoUF7W7/" title="2017-02-08-moonmoth-legion-fort"><img alt="store:/shots/2017-02-08-moonmoth-legion-fort.png" src="../../assets/previews/shots/2017-02-08-moonmoth-legion-fort.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Moonmoth Legion Fort` `🚀 OpenMW` `nofilter` `fort`
 
 ```
-2024-03-28.moonmoth-legion-fort
+2024-03-28-moonmoth-legion-fort
 ```
 
-> `2017-02-08.moonmoth-legion-fort`
+> `2017-02-08-moonmoth-legion-fort`
 
 ### Reactions
 
@@ -4038,11 +4038,11 @@
   - <ins title="2024-03-29-07-14-40">dravenjv</ins> careful brother..m there are 2 kwama foragers and a nix hound out there...
   - <ins title="2024-03-29-12-46-10">delanospies</ins> @dravenjv thats dangerous!!!
 
-## <span id="2024-03-27.evening-flight">Evening Flight</span>
+## <span id="2024-03-27-evening-flight">Evening Flight</span>
 
 `RU` Вечерний полёт
 
-<a href="https://instagram.com/p/C5Bvy5uRX3U/" title="2024-03-27.evening-flight"><img alt="store:/shots/2024-03-27.evening-flight.png" src="../../assets/previews/shots/2024-03-27.evening-flight.avif" /></a>
+<a href="https://instagram.com/p/C5Bvy5uRX3U/" title="2024-03-27-evening-flight"><img alt="store:/shots/2024-03-27-evening-flight.png" src="../../assets/previews/shots/2024-03-27-evening-flight.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -4056,7 +4056,7 @@
 `A2` `📍 Ascadian Isles Region` `🚀 OpenMW` `netch` `flight`
 
 ```
-2024-03-27.evening-flight
+2024-03-27-evening-flight
 ```
 
 ### Reactions
@@ -4075,21 +4075,21 @@
 - `tg` <ins title="2024-03-27-21-28-26">alex_emsow</ins> Netches are flying high above my tower, netches have no borders anywhere. Just a line from some song or something
   - <ins title="2024-04-04-12-51-09">ansis</ins> Netches definitely do have borders, as do all beasts
 
-## <span id="2024-03-26.recollecting-the-first-steps">Recollecting the First Steps</span>
+## <span id="2024-03-26-recollecting-the-first-steps">Recollecting the First Steps</span>
 
 `RU` Вспоминая первые шаги
 
-<a href="https://instagram.com/p/BaZ0xeKjyf4/" title="2017-10-18.recollecting-the-first-steps"><img alt="store:/shots/2017-10-18.recollecting-the-first-steps.png" src="../../assets/previews/shots/2017-10-18.recollecting-the-first-steps.avif" /></a>
+<a href="https://instagram.com/p/BaZ0xeKjyf4/" title="2017-10-18-recollecting-the-first-steps"><img alt="store:/shots/2017-10-18-recollecting-the-first-steps.png" src="../../assets/previews/shots/2017-10-18-recollecting-the-first-steps.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Seyda Neen` `🚀 OpenMW`
 
 ```
-2024-03-26.recollecting-the-first-steps
+2024-03-26-recollecting-the-first-steps
 ```
 
-> `2017-10-18.recollecting-the-first-steps`
+> `2017-10-18-recollecting-the-first-steps`
 
 ### Reactions
 
@@ -4114,11 +4114,11 @@
 - `tg` <ins title="2024-05-18-06-51-36">FeroniaFelix</ins> An italian &quot;girl&quot; here too... 👋🏻😊<br>(not really a girl though, I am old! I played Morrowind for the first time when it came out and I wasn&#39;t already a &quot;girl&quot; then... 😂 But I enjoyed it like a child, it was absolutely GREAT and I still love it 🥰 )
   - <ins title="2024-05-18-06-55-07">Gatemate7</ins> girls play morrowind? 😍
 
-## <span id="2024-03-25.bridge-at-ghostfence">Bridge at Ghostfence</span>
+## <span id="2024-03-25-bridge-at-ghostfence">Bridge at Ghostfence</span>
 
 `RU` Мост у Призрачного Предела
 
-<a href="https://instagram.com/p/C48mK6cMquA/" title="2024-03-25.bridge-at-ghostfence"><img alt="store:/shots/2024-03-25.bridge-at-ghostfence.png" src="../../assets/previews/shots/2024-03-25.bridge-at-ghostfence.avif" /></a>
+<a href="https://instagram.com/p/C48mK6cMquA/" title="2024-03-25-bridge-at-ghostfence"><img alt="store:/shots/2024-03-25-bridge-at-ghostfence.png" src="../../assets/previews/shots/2024-03-25-bridge-at-ghostfence.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -4133,7 +4133,7 @@
 `A2` `📍 Red Mountain Region` `🚀 OpenMW` `bridge`
 
 ```
-2024-03-25.bridge-at-ghostfence
+2024-03-25-bridge-at-ghostfence
 ```
 
 ### Reactions
@@ -4150,21 +4150,21 @@
 - `tg` <ins title="2024-03-25-21-57-57">alex_emsow</ins> Once I ran into a mudcrab somewhere around this place
 - `tg` <ins title="2024-03-26-03-49-15">Olmer_Izdeyla</ins> 🏍
 
-## <span id="2024-03-24.dark-sanctuary-of-dark">Dark Sanctuary of Dark</span>
+## <span id="2024-03-24-dark-sanctuary-of-dark">Dark Sanctuary of Dark</span>
 
 `RU` Святилище тьмы во тьме
 
-<a href="https://instagram.com/p/BikPGV3H0hC/" title="2018-05-09.dark-sanctuary-of-dark"><img alt="store:/shots/2018-05-09.dark-sanctuary-of-dark.png" src="../../assets/previews/shots/2018-05-09.dark-sanctuary-of-dark.avif" /></a>
+<a href="https://instagram.com/p/BikPGV3H0hC/" title="2018-05-09-dark-sanctuary-of-dark"><img alt="store:/shots/2018-05-09-dark-sanctuary-of-dark.png" src="../../assets/previews/shots/2018-05-09-dark-sanctuary-of-dark.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-24.dark-sanctuary-of-dark)</code> `🚀 OpenMW` `candles` `sanctuary`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-24-dark-sanctuary-of-dark)</code> `🚀 OpenMW` `candles` `sanctuary`
 
 ```
-2024-03-24.dark-sanctuary-of-dark
+2024-03-24-dark-sanctuary-of-dark
 ```
 
-> `2018-05-09.dark-sanctuary-of-dark`
+> `2018-05-09-dark-sanctuary-of-dark`
 
 ### Reactions
 
@@ -4186,11 +4186,11 @@
   - <ins title="2024-03-24-21-23-44">dravenjv</ins> mine has more candles
   - <ins title="2024-03-24-21-28-16">delanospies</ins> @dravenjv Ah ofcourse, you blighted kwama egg.
 
-## <span id="2024-03-23.sunrise-over-molag-amur-coast">Sunrise Over Molag Amur Coast</span>
+## <span id="2024-03-23-sunrise-over-molag-amur-coast">Sunrise Over Molag Amur Coast</span>
 
 `RU` Восход над побережьем Молаг Амур
 
-<a href="https://instagram.com/p/C43cZnlpPuJ/" title="2024-03-23.sunrise-over-molag-amur-coast"><img alt="store:/shots/2024-03-23.sunrise-over-molag-amur-coast.png" src="../../assets/previews/shots/2024-03-23.sunrise-over-molag-amur-coast.avif" /></a>
+<a href="https://instagram.com/p/C43cZnlpPuJ/" title="2024-03-23-sunrise-over-molag-amur-coast"><img alt="store:/shots/2024-03-23-sunrise-over-molag-amur-coast.png" src="../../assets/previews/shots/2024-03-23-sunrise-over-molag-amur-coast.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -4203,7 +4203,7 @@
 `E` `📍 Ascadian Isles Region` `🚀 OpenMW` `sunrise`
 
 ```
-2024-03-23.sunrise-over-molag-amur-coast
+2024-03-23-sunrise-over-molag-amur-coast
 ```
 
 ### Reactions
@@ -4219,21 +4219,21 @@
 
 - `vk` <ins title="2024-03-24-11-32-36">id4936513</ins> Безумно красиво. В прихотливом свете восхода даже скромный аргалит чувствует себя малахитом.
 
-## <span id="2024-03-22.i-greet-you-in-pelagiad-traveler">I Greet You in Pelagiad, Traveler</span>
+## <span id="2024-03-22-i-greet-you-in-pelagiad-traveler">I Greet You in Pelagiad, Traveler</span>
 
 `RU` Приветствую тебя в Пелагиаде, странник
 
-<a href="https://instagram.com/p/BWj_fIWDghu/" title="2017-07-15.i-greet-you-in-pelagiad-traveler"><img alt="store:/shots/2017-07-15.i-greet-you-in-pelagiad-traveler.png" src="../../assets/previews/shots/2017-07-15.i-greet-you-in-pelagiad-traveler.avif" /></a>
+<a href="https://instagram.com/p/BWj_fIWDghu/" title="2017-07-15-i-greet-you-in-pelagiad-traveler"><img alt="store:/shots/2017-07-15-i-greet-you-in-pelagiad-traveler.png" src="../../assets/previews/shots/2017-07-15-i-greet-you-in-pelagiad-traveler.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Pelagiad` `🚀 OpenMW`
 
 ```
-2024-03-22.i-greet-you-in-pelagiad-traveler
+2024-03-22-i-greet-you-in-pelagiad-traveler
 ```
 
-> `2017-07-15.i-greet-you-in-pelagiad-traveler`
+> `2017-07-15-i-greet-you-in-pelagiad-traveler`
 
 ### Reactions
 
@@ -4255,18 +4255,18 @@
 - `ig` <ins title="2024-04-15-14-41-19">berskate</ins> My favourite place in Morrowind
 - `tg` <ins title="2024-04-15-19-12-43">mongleri</ins> more like &gt;speak quickly or go away
 
-## <span id="2024-03-21.first-stars-above-falasmaryon">First Stars Above Falasmaryon</span>
+## <span id="2024-03-21-first-stars-above-falasmaryon">First Stars Above Falasmaryon</span>
 
 `RU` Первые звёзды над Фаласмарионом
 
-<a href="https://instagram.com/p/C4yS859trAy/" title="2024-03-21.first-stars-above-falasmaryon"><img alt="store:/shots/2024-03-21.first-stars-above-falasmaryon.png" src="../../assets/previews/shots/2024-03-21.first-stars-above-falasmaryon.avif" /></a>
+<a href="https://instagram.com/p/C4yS859trAy/" title="2024-03-21-first-stars-above-falasmaryon"><img alt="store:/shots/2024-03-21-first-stars-above-falasmaryon.png" src="../../assets/previews/shots/2024-03-21-first-stars-above-falasmaryon.avif" /></a>
 
 `shot` by [Natty](../contributors.md#natty)
 
 `A2` `📍 Falasmaryon` `stronghold`
 
 ```
-2024-03-21.first-stars-above-falasmaryon
+2024-03-21-first-stars-above-falasmaryon
 ```
 
 ### Reactions
@@ -4285,21 +4285,21 @@
   - <ins title="2024-03-21-19-58-13">ansis</ins> hahah
 - `vk` <ins title="2024-03-22-07-40-28">mortwake</ins> О дыры в нирне
 
-## <span id="2024-03-20.banner-of-house-dagoth">Banner of House Dagoth</span>
+## <span id="2024-03-20-banner-of-house-dagoth">Banner of House Dagoth</span>
 
 `RU` Знамя Дома Дагот
 
-<a href="https://instagram.com/p/BWKHtX6jJT8/" title="2017-07-05.banner-of-house-dagoth"><img alt="store:/shots/2017-07-05.banner-of-house-dagoth.png" src="../../assets/previews/shots/2017-07-05.banner-of-house-dagoth.avif" /></a>
+<a href="https://instagram.com/p/BWKHtX6jJT8/" title="2017-07-05-banner-of-house-dagoth"><img alt="store:/shots/2017-07-05-banner-of-house-dagoth.png" src="../../assets/previews/shots/2017-07-05-banner-of-house-dagoth.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-20.banner-of-house-dagoth)</code> `🚀 OpenMW`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-20-banner-of-house-dagoth)</code> `🚀 OpenMW`
 
 ```
-2024-03-20.banner-of-house-dagoth
+2024-03-20-banner-of-house-dagoth
 ```
 
-> `2017-07-05.banner-of-house-dagoth`
+> `2017-07-05-banner-of-house-dagoth`
 
 ### Reactions
 
@@ -4312,11 +4312,11 @@
 | [`tg`](https://t.me/mwscr/352)                     | 2024-03-20 |   435 |    57 |       352 |  16.19 |
 |                                                    |            |  1236 |   253 |      2641 |   9.16 |
 
-## <span id="2024-03-19.dirty-muriels-cornerclub">Dirty Muriel&#39;s Cornerclub</span>
+## <span id="2024-03-19-dirty-muriels-cornerclub">Dirty Muriel&#39;s Cornerclub</span>
 
 `RU` Трактир Грязной Мюриэль
 
-<a href="https://instagram.com/p/C4tJXjnS_nf/" title="2024-03-19.dirty-muriels-cornerclub"><img alt="store:/shots/2024-03-19.dirty-muriels-cornerclub.png" src="../../assets/previews/shots/2024-03-19.dirty-muriels-cornerclub.avif" /></a>
+<a href="https://instagram.com/p/C4tJXjnS_nf/" title="2024-03-19-dirty-muriels-cornerclub"><img alt="store:/shots/2024-03-19-dirty-muriels-cornerclub.png" src="../../assets/previews/shots/2024-03-19-dirty-muriels-cornerclub.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -4331,7 +4331,7 @@
 `A2` `📍 Wolverine Hall` `🚀 OpenMW` `tavern`
 
 ```
-2024-03-19.dirty-muriels-cornerclub
+2024-03-19-dirty-muriels-cornerclub
 ```
 
 ### Reactions
@@ -4343,21 +4343,21 @@
 | [`tg`](https://t.me/mwscr/351)                     | 2024-03-19 |   457 |    68 |       352 |  19.32 |
 |                                                    |            |  1241 |   255 |      2636 |   11.5 |
 
-## <span id="2024-03-18.evening-on-azuras-coast">Evening on Azura&#39;s Coast</span>
+## <span id="2024-03-18-evening-on-azuras-coast">Evening on Azura&#39;s Coast</span>
 
 `RU` Вечер на побережье Азуры
 
-<a href="https://instagram.com/p/BUOlqpUDVgf/" title="2017-05-18.evening-on-azuras-coast"><img alt="store:/shots/2017-05-18.evening-on-azuras-coast.png" src="../../assets/previews/shots/2017-05-18.evening-on-azuras-coast.avif" /></a>
+<a href="https://instagram.com/p/BUOlqpUDVgf/" title="2017-05-18-evening-on-azuras-coast"><img alt="store:/shots/2017-05-18-evening-on-azuras-coast.png" src="../../assets/previews/shots/2017-05-18-evening-on-azuras-coast.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Azura's Coast Region` `🚀 OpenMW` `nofilter` `coast` `mudcrab`
 
 ```
-2024-03-18.evening-on-azuras-coast
+2024-03-18-evening-on-azuras-coast
 ```
 
-> `2017-05-18.evening-on-azuras-coast`
+> `2017-05-18-evening-on-azuras-coast`
 
 ### Reactions
 
@@ -4375,18 +4375,18 @@
 - `vk` <ins title="2024-03-19-09-23-46">nobodywontbreakmyquietness</ins> эта группа — пристанище моей души<br>админу любви и счастья
   - <ins title="2024-03-19-10-19-21">dehero</ins> Саша, спасибо!
 
-## <span id="2024-03-17.teeth-of-pelagiad">Teeth of Pelagiad</span>
+## <span id="2024-03-17-teeth-of-pelagiad">Teeth of Pelagiad</span>
 
 `RU` Зубы Пелагиада
 
-<a href="https://instagram.com/p/C4n_nFbM2Wf/" title="2024-03-17.teeth-of-pelagiad"><img alt="store:/shots/2024-03-17.teeth-of-pelagiad.png" src="../../assets/previews/shots/2024-03-17.teeth-of-pelagiad.avif" /></a>
+<a href="https://instagram.com/p/C4n_nFbM2Wf/" title="2024-03-17-teeth-of-pelagiad"><img alt="store:/shots/2024-03-17-teeth-of-pelagiad.png" src="../../assets/previews/shots/2024-03-17-teeth-of-pelagiad.avif" /></a>
 
 `shot` by [Natty](../contributors.md#natty)
 
 `B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `teeth` `fence`
 
 ```
-2024-03-17.teeth-of-pelagiad
+2024-03-17-teeth-of-pelagiad
 ```
 
 ### Reactions
@@ -4405,21 +4405,21 @@
 - `ig` <ins title="2024-03-17-21-42-08">mountcydonia</ins> I enjoyed jumping across these
 - `vk` <ins title="2024-03-24-11-33-32">id4936513</ins> ❤❤❤
 
-## <span id="2024-03-16.night-guardess">Night Guardess</span>
+## <span id="2024-03-16-night-guardess">Night Guardess</span>
 
 `RU` Ночная стражница
 
-<a href="https://instagram.com/p/BRFKAbfDT2K/" title="2017-03-01.night-guardess"><img alt="store:/shots/2017-03-01.night-guardess.png" src="../../assets/previews/shots/2017-03-01.night-guardess.avif" /></a>
+<a href="https://instagram.com/p/BRFKAbfDT2K/" title="2017-03-01-night-guardess"><img alt="store:/shots/2017-03-01-night-guardess.png" src="../../assets/previews/shots/2017-03-01-night-guardess.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A2` `📍 Ald-ruhn` `🚀 OpenMW` `nofilter` `night`
 
 ```
-2024-03-16.night-guardess
+2024-03-16-night-guardess
 ```
 
-> `2017-03-01.night-guardess`
+> `2017-03-01-night-guardess`
 
 ### Reactions
 
@@ -4439,18 +4439,18 @@
 - `ig` <ins title="2024-03-16-20-33-32">delanospies</ins> Soothing sound of fire
 - `ig` <ins title="2024-03-16-21-11-18">zac_spryn</ins> Pic goes hard
 
-## <span id="2024-03-15.bonemold-shield-seller">Bonemold Shield Seller</span>
+## <span id="2024-03-15-bonemold-shield-seller">Bonemold Shield Seller</span>
 
 `RU` Продавец костяного щита
 
-<a href="https://instagram.com/p/C4i7nMEvfEh/" title="2024-03-15.bonemold-shield-seller"><img alt="store:/shots/2024-03-15.bonemold-shield-seller.png" src="../../assets/previews/shots/2024-03-15.bonemold-shield-seller.avif" /></a>
+<a href="https://instagram.com/p/C4i7nMEvfEh/" title="2024-03-15-bonemold-shield-seller"><img alt="store:/shots/2024-03-15-bonemold-shield-seller.png" src="../../assets/previews/shots/2024-03-15-bonemold-shield-seller.avif" /></a>
 
 `shot` by [Natty](../contributors.md#natty)
 
 `B1` `📍 Pelagiad, Mebestien Ence: Trader` `🚀 OpenMW` `trader`
 
 ```
-2024-03-15.bonemold-shield-seller
+2024-03-15-bonemold-shield-seller
 ```
 
 ### Reactions
@@ -4462,21 +4462,21 @@
 | [`tg`](https://t.me/mwscr/347)                     | 2024-03-15 |   457 |    45 |       352 |  12.78 |
 |                                                    |            |  1161 |   171 |      2634 |   7.69 |
 
-## <span id="2024-03-14.night-street-of-balmora">Night Street of Balmora</span>
+## <span id="2024-03-14-night-street-of-balmora">Night Street of Balmora</span>
 
 `RU` Ночная улица Балморы
 
-<a href="https://instagram.com/p/BSX8Vtyj2jW/" title="2017-04-02.night-street-of-balmora"><img alt="store:/shots/2017-04-02.night-street-of-balmora.png" src="../../assets/previews/shots/2017-04-02.night-street-of-balmora.avif" /></a>
+<a href="https://instagram.com/p/BSX8Vtyj2jW/" title="2017-04-02-night-street-of-balmora"><img alt="store:/shots/2017-04-02-night-street-of-balmora.png" src="../../assets/previews/shots/2017-04-02-night-street-of-balmora.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A1` `📍 Balmora` `🚀 OpenMW` `nofilter` `nightstreet` `lantern`
 
 ```
-2024-03-14.night-street-of-balmora
+2024-03-14-night-street-of-balmora
 ```
 
-> `2017-04-02.night-street-of-balmora`
+> `2017-04-02-night-street-of-balmora`
 
 ### Reactions
 
@@ -4499,21 +4499,21 @@
   - <ins title="2024-03-14-19-48-36">lomaev_live</ins> Николай, точно. Не заметил силт-страйдера
 - `tg` <ins title="2024-03-14-21-22-07">himmelherz</ins> ☺️
 
-## <span id="2024-03-13.haze">Haze</span>
+## <span id="2024-03-13-haze">Haze</span>
 
 `RU` Мгла
 
-<a href="https://instagram.com/p/BVrSHbUj-IW/" title="2017-06-23.haze"><img alt="store:/shots/2017-06-23.haze.png" src="../../assets/previews/shots/2017-06-23.haze.avif" /></a>
+<a href="https://instagram.com/p/BVrSHbUj-IW/" title="2017-06-23-haze"><img alt="store:/shots/2017-06-23-haze.png" src="../../assets/previews/shots/2017-06-23-haze.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Caldera` `🚀 OpenMW`
 
 ```
-2024-03-13.haze
+2024-03-13-haze
 ```
 
-> `2017-06-23.haze`
+> `2017-06-23-haze`
 
 ### Reactions
 
@@ -4542,18 +4542,18 @@
 - `tg` <ins title="2024-03-14-21-47-22">Skab4ik</ins> В этом же вся соль, что классика)
 - `ig` <ins title="2024-03-21-18-21-02">nirnwayfarer</ins> ❄❄
 
-## <span id="2024-03-12.neloth">Neloth</span>
+## <span id="2024-03-12-neloth">Neloth</span>
 
 `RU` Нелот
 
-<a href="https://instagram.com/p/C4bIiiXRrhw/" title="2024-03-12.neloth"><img alt="store:/shots/2024-03-12.neloth.png" src="../../assets/previews/shots/2024-03-12.neloth.avif" /></a>
+<a href="https://instagram.com/p/C4bIiiXRrhw/" title="2024-03-12-neloth"><img alt="store:/shots/2024-03-12-neloth.png" src="../../assets/previews/shots/2024-03-12-neloth.avif" /></a>
 
 `shot` by [Natty](../contributors.md#natty)
 
 `B1` `📍 Sadrith Mora, Tel Naga Upper Tower` `🚀 OpenMW`
 
 ```
-2024-03-12.neloth
+2024-03-12-neloth
 ```
 
 ### Reactions
@@ -4571,11 +4571,11 @@
 - `ig` <ins title="2024-03-12-19-17-49">delanospies</ins> Goated robe
 - `ig` <ins title="2024-04-05-22-54-34">nirnwayfarer</ins> 🔥🔥
 
-## <span id="2024-03-11.gray-thorns">Gray Thorns</span>
+## <span id="2024-03-11-gray-thorns">Gray Thorns</span>
 
 `RU` Серые шипы
 
-<a href="https://instagram.com/p/C4Yiqd-vXTa/" title="2024-03-11.gray-thorns"><img alt="store:/shots/2024-03-11.gray-thorns.png" src="../../assets/previews/shots/2024-03-11.gray-thorns.avif" /></a>
+<a href="https://instagram.com/p/C4Yiqd-vXTa/" title="2024-03-11-gray-thorns"><img alt="store:/shots/2024-03-11-gray-thorns.png" src="../../assets/previews/shots/2024-03-11-gray-thorns.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -4590,7 +4590,7 @@
 `B1` `📍 Molag Amur Region` `🚀 OpenMW`
 
 ```
-2024-03-11.gray-thorns
+2024-03-11-gray-thorns
 ```
 
 ### Reactions
@@ -4602,18 +4602,18 @@
 | [`tg`](https://t.me/mwscr/342)                     | 2024-03-11 |   489 |    61 |       350 |  17.43 |
 |                                                    |            |  1403 |   218 |      2625 |  10.13 |
 
-## <span id="2024-03-10.fortresss-face">Fortress&#39;s Face</span>
+## <span id="2024-03-10-fortresss-face">Fortress&#39;s Face</span>
 
 `RU` Лицо крепости
 
-<a href="https://instagram.com/p/C4V9AM5OKnT/" title="2024-03-10.fortresss-face"><img alt="store:/shots/2024-03-10.fortresss-face.png" src="../../assets/previews/shots/2024-03-10.fortresss-face.avif" /></a>
+<a href="https://instagram.com/p/C4V9AM5OKnT/" title="2024-03-10-fortresss-face"><img alt="store:/shots/2024-03-10-fortresss-face.png" src="../../assets/previews/shots/2024-03-10-fortresss-face.avif" /></a>
 
 `shot` by [Natty](../contributors.md#natty)
 
 `B1` `📍 Pelagiad` `🚀 OpenMW` `fortress` `face`
 
 ```
-2024-03-10.fortresss-face
+2024-03-10-fortresss-face
 ```
 
 ### Reactions
@@ -4625,11 +4625,11 @@
 | [`tg`](https://t.me/mwscr/341)                     | 2024-03-10 |   479 |    59 |       349 |  16.91 |
 |                                                    |            |  1314 |   223 |      2623 |  10.04 |
 
-## <span id="2024-03-09.wandering-around-the-fort">Wandering Around the Fort</span>
+## <span id="2024-03-09-wandering-around-the-fort">Wandering Around the Fort</span>
 
 `RU` Прогулка по форту
 
-<a href="https://instagram.com/p/C4TZ_qUPGns/" title="2024-03-09.wandering-around-the-fort"><img alt="store:/shots/2024-03-09.wandering-around-the-fort.png" src="../../assets/previews/shots/2024-03-09.wandering-around-the-fort.avif" /></a>
+<a href="https://instagram.com/p/C4TZ_qUPGns/" title="2024-03-09-wandering-around-the-fort"><img alt="store:/shots/2024-03-09-wandering-around-the-fort.png" src="../../assets/previews/shots/2024-03-09-wandering-around-the-fort.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -4642,7 +4642,7 @@
 `A2` `📍 Buckmoth Legion Fort, Towers` `🚀 OpenMW` `fort` `candles`
 
 ```
-2024-03-09.wandering-around-the-fort
+2024-03-09-wandering-around-the-fort
 ```
 
 ### Reactions
@@ -4661,11 +4661,11 @@
 - `tg` <ins title="2024-03-09-18-37-13">Gatemate7</ins> i want to submit a ss
   - <ins title="2024-03-09-18-39-04">mwscr</ins> Please send it in PNG to dehero@outlook.com
 
-## <span id="2024-03-08.a-bridge-to-ascadian-isles">A Bridge to Ascadian Isles</span>
+## <span id="2024-03-08-a-bridge-to-ascadian-isles">A Bridge to Ascadian Isles</span>
 
 `RU` Мост к Аскадианским островам
 
-<a href="https://instagram.com/p/C4Q1cnVxp_f/" title="2024-03-08.a-bridge-to-ascadian-isles"><img alt="store:/shots/2024-03-08.a-bridge-to-ascadian-isles.png" src="../../assets/previews/shots/2024-03-08.a-bridge-to-ascadian-isles.avif" /></a>
+<a href="https://instagram.com/p/C4Q1cnVxp_f/" title="2024-03-08-a-bridge-to-ascadian-isles"><img alt="store:/shots/2024-03-08-a-bridge-to-ascadian-isles.png" src="../../assets/previews/shots/2024-03-08-a-bridge-to-ascadian-isles.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -4680,7 +4680,7 @@
 `B1` `📍 Bitter Coast Region` `🚀 OpenMW` `bridge` `river`
 
 ```
-2024-03-08.a-bridge-to-ascadian-isles
+2024-03-08-a-bridge-to-ascadian-isles
 ```
 
 ### Reactions
@@ -4696,11 +4696,11 @@
 
 - `tg` <ins title="2024-03-09-18-53-26">Skab4ik</ins> Божечки-кошечки, такая ностальгия. Мурашечки по коже пробежали.<br> Админ, спасибо за канал)
 
-## <span id="2024-03-07.night-tradeswoman">Night Tradeswoman</span>
+## <span id="2024-03-07-night-tradeswoman">Night Tradeswoman</span>
 
 `RU` Ночная торговка
 
-<a href="https://instagram.com/p/C4OQkOFuSrr/" title="2024-03-07.night-tradeswoman"><img alt="store:/shots/2024-03-07.night-tradeswoman.png" src="../../assets/previews/shots/2024-03-07.night-tradeswoman.avif" /></a>
+<a href="https://instagram.com/p/C4OQkOFuSrr/" title="2024-03-07-night-tradeswoman"><img alt="store:/shots/2024-03-07-night-tradeswoman.png" src="../../assets/previews/shots/2024-03-07-night-tradeswoman.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -4713,7 +4713,7 @@
 `B1` `📍 Gnisis` `🚀 OpenMW` `trader` `night`
 
 ```
-2024-03-07.night-tradeswoman
+2024-03-07-night-tradeswoman
 ```
 
 ### Reactions
@@ -4725,21 +4725,21 @@
 | [`tg`](https://t.me/mwscr/338)                     | 2024-03-07 |   521 |    57 |       345 |  16.52 |
 |                                                    |            |  1400 |   244 |      2616 |  10.49 |
 
-## <span id="2024-03-06.mushroom-field">Mushroom Field</span>
+## <span id="2024-03-06-mushroom-field">Mushroom Field</span>
 
 `RU` Грибное поле
 
-<a href="https://instagram.com/p/BakD8nDDT8q/" title="2017-10-22.mushroom-field"><img alt="store:/shots/2017-10-22.mushroom-field.png" src="../../assets/previews/shots/2017-10-22.mushroom-field.avif" /></a>
+<a href="https://instagram.com/p/BakD8nDDT8q/" title="2017-10-22-mushroom-field"><img alt="store:/shots/2017-10-22-mushroom-field.png" src="../../assets/previews/shots/2017-10-22-mushroom-field.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-06.mushroom-field)</code> `🚀 OpenMW` `mushrooms`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-06-mushroom-field)</code> `🚀 OpenMW` `mushrooms`
 
 ```
-2024-03-06.mushroom-field
+2024-03-06-mushroom-field
 ```
 
-> `2017-10-22.mushroom-field`
+> `2017-10-22-mushroom-field`
 
 ### Reactions
 
@@ -4759,21 +4759,21 @@
   - <ins title="2024-03-06-20-38-36">ansis</ins> what he said. i made that mistake and now my relationship is no more. on the plus side, i&#39;ve gotten really good at necromancy.
 - `ig` <ins title="2024-05-02-03-57-29">nirnwayfarer</ins> 💖💖
 
-## <span id="2024-03-05.mzahnch-at-sunset">Mzahnch at Sunset</span>
+## <span id="2024-03-05-mzahnch-at-sunset">Mzahnch at Sunset</span>
 
 `RU` Мзанч на закате
 
-<a href="https://instagram.com/p/BbhoFInDfSD/" title="2017-11-15.mzahnch-at-sunset"><img alt="store:/shots/2017-11-15.mzahnch-at-sunset.png" src="../../assets/previews/shots/2017-11-15.mzahnch-at-sunset.avif" /></a>
+<a href="https://instagram.com/p/BbhoFInDfSD/" title="2017-11-15-mzahnch-at-sunset"><img alt="store:/shots/2017-11-15-mzahnch-at-sunset.png" src="../../assets/previews/shots/2017-11-15-mzahnch-at-sunset.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `B1` `📍 Mzahnch` `🚀 OpenMW` `dwemer` `towers` `sunset`
 
 ```
-2024-03-05.mzahnch-at-sunset
+2024-03-05-mzahnch-at-sunset
 ```
 
-> `2017-11-15.mzahnch-at-sunset`
+> `2017-11-15-mzahnch-at-sunset`
 
 ### Reactions
 
@@ -4791,11 +4791,11 @@
 - `tg` <ins title="2024-03-05-19-10-10">quintus_fabius</ins> 🏃‍♂️
 - `ig` <ins title="2024-03-05-19-41-23">66.carat.gold</ins> MUDCRAB MERCHANT ❤️❤️❤️❤️❤️
 
-## <span id="2024-03-04.an-old-sprout">An Old Sprout</span>
+## <span id="2024-03-04-an-old-sprout">An Old Sprout</span>
 
 `RU` Старый росток
 
-<a href="https://instagram.com/p/C4GiM_jxf6C/" title="2024-03-04.an-old-sprout"><img alt="store:/shots/2024-03-04.an-old-sprout.png" src="../../assets/previews/shots/2024-03-04.an-old-sprout.avif" /></a>
+<a href="https://instagram.com/p/C4GiM_jxf6C/" title="2024-03-04-an-old-sprout"><img alt="store:/shots/2024-03-04-an-old-sprout.png" src="../../assets/previews/shots/2024-03-04-an-old-sprout.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -4809,7 +4809,7 @@
 `A2` `📍 Grazelands Region` `🚀 OpenMW` `tree`
 
 ```
-2024-03-04.an-old-sprout
+2024-03-04-an-old-sprout
 ```
 
 ### Reactions
@@ -4821,21 +4821,21 @@
 | [`tg`](https://t.me/mwscr/335)                     | 2024-03-04 |   546 |    67 |       344 |  19.48 |
 |                                                    |            |  1300 |   209 |      2619 |  10.39 |
 
-## <span id="2024-03-03.exit">Exit</span>
+## <span id="2024-03-03-exit">Exit</span>
 
 `RU` Выход
 
-<a href="https://instagram.com/p/Bfv-fhCDrzz/" title="2018-02-28.exit"><img alt="store:/shots/2018-02-28.exit.png" src="../../assets/previews/shots/2018-02-28.exit.avif" /></a>
+<a href="https://instagram.com/p/Bfv-fhCDrzz/" title="2018-02-28-exit"><img alt="store:/shots/2018-02-28-exit.png" src="../../assets/previews/shots/2018-02-28-exit.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-03.exit)</code> `🚀 OpenMW` `tomb` `exit` `door`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-03-exit)</code> `🚀 OpenMW` `tomb` `exit` `door`
 
 ```
-2024-03-03.exit
+2024-03-03-exit
 ```
 
-> `2018-02-28.exit`
+> `2018-02-28-exit`
 
 ### Reactions
 
@@ -4855,11 +4855,11 @@
 - `ig` <ins title="2018-02-28-23-29-33">fainebrayne</ins> TRAPPED
 - `ig` <ins title="2018-03-18-06-27-35">thenazzaro</ins> Dope
 
-## <span id="2024-03-02.queue">Queue</span>
+## <span id="2024-03-02-queue">Queue</span>
 
 `RU` Очередь
 
-<a href="https://instagram.com/p/C4BYodLOsVg/" title="2024-03-02.queue"><img alt="store:/shots/2024-03-02.queue.png" src="../../assets/previews/shots/2024-03-02.queue.avif" /></a>
+<a href="https://instagram.com/p/C4BYodLOsVg/" title="2024-03-02-queue"><img alt="store:/shots/2024-03-02-queue.png" src="../../assets/previews/shots/2024-03-02-queue.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -4872,7 +4872,7 @@
 `A2` `📍 Ascadian Isles Region` `🚀 OpenMW` `trees` `mushrooms`
 
 ```
-2024-03-02.queue
+2024-03-02-queue
 ```
 
 ### Reactions
@@ -4888,11 +4888,11 @@
 
 - `vk` <ins title="2024-03-04-12-38-01">id4936513</ins> остроумно❤
 
-## <span id="2024-03-01.rat-in-the-pasture">Rat in the Pasture</span>
+## <span id="2024-03-01-rat-in-the-pasture">Rat in the Pasture</span>
 
 `RU` Крыса на пастбище
 
-<a href="https://instagram.com/p/C3-1gG2slOU/" title="2024-03-01.rat-in-the-pasture"><img alt="store:/shots/2024-03-01.rat-in-the-pasture.png" src="../../assets/previews/shots/2024-03-01.rat-in-the-pasture.avif" /></a>
+<a href="https://instagram.com/p/C3-1gG2slOU/" title="2024-03-01-rat-in-the-pasture"><img alt="store:/shots/2024-03-01-rat-in-the-pasture.png" src="../../assets/previews/shots/2024-03-01-rat-in-the-pasture.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -4907,7 +4907,7 @@
 `B1` `📍 Grazelands Region` `🚀 OpenMW` `rat`
 
 ```
-2024-03-01.rat-in-the-pasture
+2024-03-01-rat-in-the-pasture
 ```
 
 ### Reactions
@@ -4926,21 +4926,21 @@
 - `vk` <ins title="2024-03-02-14-40-41">thelittlebuddy</ins> Это замена Кагути на полянке?
 - `tg` <ins title="2024-03-04-18-19-06">bhuvanasrii</ins> hes just like me fr
 
-## <span id="2024-02-29.morning-hunt">Morning Hunt</span>
+## <span id="2024-02-29-morning-hunt">Morning Hunt</span>
 
 `RU` Утренняя охота
 
-<a href="https://instagram.com/p/BSQTsAwDzL9/" title="2017-03-30.morning-hunt"><img alt="store:/shots/2017-03-30.morning-hunt.png" src="../../assets/previews/shots/2017-03-30.morning-hunt.avif" /></a>
+<a href="https://instagram.com/p/BSQTsAwDzL9/" title="2017-03-30-morning-hunt"><img alt="store:/shots/2017-03-30-morning-hunt.png" src="../../assets/previews/shots/2017-03-30-morning-hunt.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-02-29.morning-hunt)</code> `🚀 OpenMW` `nofilter` `hunt` `skeleton` `morning` `guard`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-02-29-morning-hunt)</code> `🚀 OpenMW` `nofilter` `hunt` `skeleton` `morning` `guard`
 
 ```
-2024-02-29.morning-hunt
+2024-02-29-morning-hunt
 ```
 
-> `2017-03-30.morning-hunt`
+> `2017-03-30-morning-hunt`
 
 ### Reactions
 
@@ -4959,11 +4959,11 @@
 - `vk` <ins title="2024-02-29-20-53-18">id134482858</ins> Всегда хотел поиграть за скелета в Морровинде)
 - `vk` <ins title="2024-03-01-01-21-46">dobryu_vecher</ins> Когда ты мертв внутри, но квесты выполнять надо
 
-## <span id="2024-02-28.omalen-ancestral-tomb">Omalen Ancestral Tomb</span>
+## <span id="2024-02-28-omalen-ancestral-tomb">Omalen Ancestral Tomb</span>
 
 `RU` Родовая гробница Омаленов
 
-<a href="https://instagram.com/p/C35xPQ9s-8q/" title="2024-02-28.omalen-ancestral-tomb"><img alt="store:/shots/2024-02-28.omalen-ancestral-tomb.png" src="../../assets/previews/shots/2024-02-28.omalen-ancestral-tomb.avif" /></a>
+<a href="https://instagram.com/p/C35xPQ9s-8q/" title="2024-02-28-omalen-ancestral-tomb"><img alt="store:/shots/2024-02-28-omalen-ancestral-tomb.png" src="../../assets/previews/shots/2024-02-28-omalen-ancestral-tomb.avif" /></a>
 
 <details>
 <summary>Trash</summary>
@@ -4981,7 +4981,7 @@
 `A2` `📍 Molag Amur Region` `🚀 OpenMW` `tomb`
 
 ```
-2024-02-28.omalen-ancestral-tomb
+2024-02-28-omalen-ancestral-tomb
 ```
 
 ### Reactions
@@ -5004,21 +5004,21 @@
 - `vk` <ins title="2024-02-28-23-23-11">thelittlebuddy</ins> Я приказываю вам жить<br>[пожалуйста]
 - `ig` <ins title="2024-02-29-19-40-54">angelpeepee__</ins> You are the greatest public service
 
-## <span id="2024-02-27.daedroth-in-grazelands">Daedroth in Grazelands</span>
+## <span id="2024-02-27-daedroth-in-grazelands">Daedroth in Grazelands</span>
 
 `RU` Даэдрот в Грейзленде
 
-<a href="https://instagram.com/p/BO6INdEF_CJ/" title="2017-01-06.daedroth-in-grazelands"><img alt="store:/shots/2017-01-06.daedroth-in-grazelands.png" src="../../assets/previews/shots/2017-01-06.daedroth-in-grazelands.avif" /></a>
+<a href="https://instagram.com/p/BO6INdEF_CJ/" title="2017-01-06-daedroth-in-grazelands"><img alt="store:/shots/2017-01-06-daedroth-in-grazelands.png" src="../../assets/previews/shots/2017-01-06-daedroth-in-grazelands.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
 `A1` `📍 Grazelands Region` `🚀 OpenMW` `nofilter`
 
 ```
-2024-02-27.daedroth-in-grazelands
+2024-02-27-daedroth-in-grazelands
 ```
 
-> `2017-01-06.daedroth-in-grazelands`
+> `2017-01-06-daedroth-in-grazelands`
 
 ### Reactions
 

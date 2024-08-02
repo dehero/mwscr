@@ -1,7 +1,7 @@
-2022-06-23.a-new-sight:
+2022-06-23-a-new-sight:
   title: A New Sight
   titleRu: Новый взгляд
-  content: store:/shots/2022-06-23.a-new-sight.png
+  content: store:/shots/2022-06-23-a-new-sight.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -57,11 +57,11 @@
         G+5DFsPOwXYlWaumk6V+rZm104cPgfGv9I9r2I8vIdnlFb5/96gl0GOsybl5E3Ss50JO9P7n0/0M
         Kg7wHyNTyGSpsB3mxAx7hy74OLlEF0+SDXjpMKKuUc6G/ORp4t9yc6F18CY72ZIXFltVVoKGUSEt
         YyGiR5sRM9LpT8c8OtT9fzo/T8athGC9ubcn89UWoEVYCHcV
-2022-06-24.evening-talk-in-vos:
+2022-06-24-evening-talk-in-vos:
   title: Evening Talk in Vos
   titleRu: Вечерняя беседа в Восе
   location: Vos
-  content: store:/shots/2022-06-24.evening-talk-in-vos.png
+  content: store:/shots/2022-06-24-evening-talk-in-vos.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -98,12 +98,12 @@
         fHT9Kqf5zSq/Um224qVsPsn/q7Onw097b87wm2Fu45VmvnmpPcTl5KVHT7yVLlswPiYaVa073yKv
         Vy27AXiizGM0XW5Wu6wM5zSDaQ1jIDUfB9FWBgbNaYGG0UWL+7HxyXVEXtaGAxCr5asURhJphw8G
         /UJzWuFdJ0jcZjSD0RAOA27UmuLQDO+adora06Vqudp4YT8=
-2022-06-25.night-pasture-by-irina-bystritskaya:
+2022-06-25-night-pasture-by-irina-bystritskaya:
   title: Night Pasture by Irina Bystritskaya
   titleRu: Ночной выпас от Ирины Быстрицкой
   content:
-    - store:/drawings/2022-06-25.night-pasture-by-irina-bystritskaya.png
-    - store:/shots/2020-11-05.night-pasture.png
+    - store:/drawings/2022-06-25-night-pasture-by-irina-bystritskaya.png
+    - store:/shots/2020-11-05-night-pasture.png
   type: drawing
   author: irina-bystritskaya
   engine: OpenMW
@@ -137,14 +137,14 @@
       likes: 52
       views: 672
       comments: !c CxCAkZPLQngZxDRBgACkwq3CrbDQktC+0LvRiNC10LHQvdC+Aw==
-2022-06-26.candelabra:
+2022-06-26-candelabra:
   title: Candelabra
   titleRu: Канделябры
   content:
-    - store:/shots/2017-10-24.valvius-mevurenius-fireplace.png
-    - store:/shots/2017-06-14.supper-in-seyda-neen.png
-    - store:/shots/2019-10-12.imperial-candelabrum.png
-    - store:/shots/2017-11-19.bottle-collection.png
+    - store:/shots/2017-10-24-valvius-mevurenius-fireplace.png
+    - store:/shots/2017-06-14-supper-in-seyda-neen.png
+    - store:/shots/2019-10-12-imperial-candelabrum.png
+    - store:/shots/2017-11-19-bottle-collection.png
   type: shot-set
   author: dehero
   engine: OpenMW
@@ -188,11 +188,11 @@
         0uu+pAqnP83rZJ8s5/05WXvO8GRtEtJad0gXCwqirTmvqqIQSRtgJukafTg6vamU2W1Z9cTQlZpn
         +iIXKVcsRRMFCmvswK1rBzz1yEpJykpYkAFnuGETzgp4Ygub68XykH/XsQnnKLDV3imEYXYXc8V4
         xBvd/Ze7Lg==
-2022-06-27.going-out-of-mournhold-armory:
+2022-06-27-going-out-of-mournhold-armory:
   title: Going Out of Mournhold Armory
   titleRu: Выходя из оружейной Морнхолда
   location: Mournhold, Great Bazaar
-  content: store:/shots/2022-06-27.going-out-of-mournhold-armory.png
+  content: store:/shots/2022-06-27-going-out-of-mournhold-armory.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -229,11 +229,11 @@
         Xl/YKBkmCz//eL4My+O3CfEhcFg7JXe823WA4UFCg3fcEezRsw0JNQ7ee9kWFGLTTscz74ARA1Mp
         vJ6LUBx88XoZFuNTJiH+e95FTZWNdHqQWR4CtNU6rDCgLFKxYYH1SOu2zGvzXnsWdRTvNQnbhazB
         IXUuBZnf8EqPAMaTTQ4w10lrZRMaM2kGufu0IWsaDXu0bbwkngA=
-2022-06-28.ordinary-day-in-nchurdamz:
+2022-06-28-ordinary-day-in-nchurdamz:
   title: Ordinary Day in Nchurdamz
   titleRu: Обычный день в Нчурдамце
   location: Nchurdamz
-  content: store:/shots/2022-06-28.ordinary-day-in-nchurdamz.png
+  content: store:/shots/2022-06-28-ordinary-day-in-nchurdamz.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -263,10 +263,10 @@
       followers: 242
       likes: 48
       views: 659
-2022-06-29.window-plant:
+2022-06-29-window-plant:
   title: Window Plant
   titleRu: Оконное растение
-  content: store:/shots/2022-06-29.window-plant.png
+  content: store:/shots/2022-06-29-window-plant.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -301,10 +301,10 @@
         G5gAgIzTFXOUdPQL+p/bSl95sY++IIMflIlBLFU0dKMpWO7Fha65LUtTDNWQLeY0D8ya2h/sH4bs
         Bw45hgPYzQKBiNrqDGeUUs/7G0fOsab01nyto8196dtoPOJ6GtDABC1eGA5RAl93Xpp5/Yukp8Te
         pojROfIW19OABibUAvl5cQjwWYQToTIIrgI=
-2022-06-30.rivals:
+2022-06-30-rivals:
   title: Rivals
   titleRu: Соперники
-  content: store:/shots/2022-06-30.rivals.png
+  content: store:/shots/2022-06-30-rivals.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -344,11 +344,11 @@
         70SoyYmGtUjW6BTO96h65JyRTmb1RmOLt0iokYnZ/QzjYcqXuYTltS0X8GTDdKNcuZ3Cq0dj1Sq3
         KJwgI+V88EqLWM4J3JBiGV/5yCjUaFg6c1vnrr5n8sMymBI+wx7g73Lh+5XdaDt/+tgQIj++2oDg
         TP55/utBo8hSNt/e7zP/r6/XU/zDwYOnR0oDAA==
-2022-07-01.tel-aruhn-at-dawn:
+2022-07-01-tel-aruhn-at-dawn:
   title: Tel Aruhn at Dawn
   titleRu: Тель Арун на заре
   location: Tel Aruhn
-  content: store:/shots/2022-07-01.tel-aruhn-at-dawn.png
+  content: store:/shots/2022-07-01-tel-aruhn-at-dawn.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -378,10 +378,10 @@
       followers: 247
       likes: 47
       views: 620
-2022-07-02.niras-farys-priest:
+2022-07-02-niras-farys-priest:
   title: Niras Farys, Priest
   titleRu: Нирас Фарис, священник
-  content: store:/shots/2022-07-02.niras-farys-priest.png
+  content: store:/shots/2022-07-02-niras-farys-priest.png
   trash: store:/inbox/dehero.2022-06-29-23-14-14.png
   type: shot
   author: dehero
@@ -409,11 +409,11 @@
       followers: 248
       likes: 44
       views: 673
-2022-07-03.crossing-the-edge-of-bitter-coast:
+2022-07-03-crossing-the-edge-of-bitter-coast:
   title: Crossing the Edge of Bitter Coast
   titleRu: Пересекая край Горького берега
   location: Bitter Coast Region
-  content: store:/shots/2022-07-03.crossing-the-edge-of-bitter-coast.png
+  content: store:/shots/2022-07-03-crossing-the-edge-of-bitter-coast.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -452,14 +452,14 @@
         G9EAEJwHdqxl4MKCDUtCKR5PvLcRDE4ntACwXoGHEST/IK7ZMo5/joigbovhpb2/hMNtWgxi/HdE
         BC3m21c2OOGMA/Eo43B09oOc8G5wommYp2EQ/Ho9P8+pcp7x5b7FpWr6o68rPWis3w3Dhe8DAfJR
         dwuZiJDYepM2QwxXLA3mUUQLHWusAkHRewvL1uHjNYBNftTFszDh+PuBywY=
-2022-07-04.boats:
+2022-07-04-boats:
   title: Boats
   titleRu: Лодки
   content:
-    - store:/shots/2017-05-17.nice-time-to-go-boating.png
-    - store:/shots/2017-02-23.surroundings-of-pelagiad.png
-    - store:/shots/2018-05-12.two-sheds.png
-    - store:/shots/2018-03-13.to-the-sunset.png
+    - store:/shots/2017-05-17-nice-time-to-go-boating.png
+    - store:/shots/2017-02-23-surroundings-of-pelagiad.png
+    - store:/shots/2018-05-12-two-sheds.png
+    - store:/shots/2018-03-13-to-the-sunset.png
   type: shot-set
   author: dehero
   engine: OpenMW
@@ -502,10 +502,10 @@
         hY+y7Sygn0NwKkgixRMqc6YmXCgtwuVgvf+GxqzRQSeYkrtGIzihah7GPjHmBP39nAmIqksaI2K3
         fSnhYfSw5jERkeF5JGx0PG7lAThRN+CH/zuzKXB/cO0NwTnCEzZECJpkvZ/bzZJIeBjN82eK6wzm
         Xcw4rlcvidpba9/h2wcuSKoqdTfZ8+3koEbr6E6OSLgePwBwUXhBuq+nVQSjkVQqBQ==
-2022-07-05.iron-enemy:
+2022-07-05-iron-enemy:
   title: Iron Enemy
   titleRu: Железный противник
-  content: store:/shots/2022-07-05.iron-enemy.png
+  content: store:/shots/2022-07-05-iron-enemy.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -532,11 +532,11 @@
       likes: 43
       views: 638
       comments: !c ixKAkZPLQngdP0rogACobW9uZ2xlcmmxcHJldHR5IG5pY2Ugcm9ib3QD
-2022-07-06.still-life-with-orc:
+2022-07-06-still-life-with-orc:
   title: Still Life with Orc
   titleRu: Натюрморт с орком
   location: Sadrith Mora, Dirty Muriel's Cornerclub
-  content: store:/shots/2022-07-06.still-life-with-orc.png
+  content: store:/shots/2022-07-06-still-life-with-orc.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -571,10 +571,10 @@
       likes: 42
       views: 616
       comments: !c ixWAkZPLQnkBtZF7AACoYW5ub2RhcnS3VGhlIG9yYyBpcyBhbGl2ZSB0aG91Z2gD
-2022-07-07.misty-peaks:
+2022-07-07-misty-peaks:
   title: Misty Peaks
   titleRu: Туманные пики
-  content: store:/shots/2022-07-07.misty-peaks.png
+  content: store:/shots/2022-07-07-misty-peaks.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -608,10 +608,10 @@
         zjy8s17sxOVXZWkZ0AHy9LgtSDhKE0w14RZ4GKbY9h0u/B4UDDGNEohuv4yHL4fnrFsVNm42mwvc
         Yjkk8SlRM/lIQEomsjFSbsOXc3M9CPvj91M8UkznUot/zxp70w7s4jOZSFqvhC2rUELjgJtYHgJh
         rtPjJtemQn9aMMSDx0maICa4Dhsk2ni4jHY=
-2022-07-08.squad:
+2022-07-08-squad:
   title: Squad
   titleRu: Отряд
-  content: store:/shots/2022-07-08.squad.png
+  content: store:/shots/2022-07-08-squad.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -637,10 +637,10 @@
       followers: 256
       likes: 48
       views: 632
-2022-07-09.three-coins-for-the-bard:
+2022-07-09-three-coins-for-the-bard:
   title: Three Coins for the Bard
   titleRu: Три монеты для барда
-  content: store:/shots/2022-07-09.three-coins-for-the-bard.png
+  content: store:/shots/2022-07-09-three-coins-for-the-bard.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -678,10 +678,10 @@
       comments: !c |-
         G3IAMGTomkf01eCtTw8UFVsDFWiRTxtwsAEH7Om2bgPqoMMGnPD8OqeyPR7OD2WAVs8/APc0z/zE
         rcIfsZSnIcRWRPJKEzYIw84p+e3Xyw24pH1tVz/aMJ0qbAJEzytTQLSwakZEb6vQTej6TQwA
-2022-07-10.snowy-coziness:
+2022-07-10-snowy-coziness:
   title: Snowy Coziness
   titleRu: Снежный уют
-  content: store:/shots/2022-07-10.snowy-coziness.png
+  content: store:/shots/2022-07-10-snowy-coziness.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -718,14 +718,14 @@
         G9IA4C0PuHOPAjgZWKbBTH3lYT6e8G+f6O/mLdBYA22lLQwjSN6p20rphi7sg+kY6kNVT5a7nPDB
         xqYE06pScMkyNrwka5PrrzfQbG5wIp54QZRq3mC+x9iznsERwzyun553P2O8nprXrNXubKpawd79
         ENuqaAot0Z4FZa62g9HUEEqH6xBBcGAdo1KFwGa4UIpKCn4C2U6t9P/u40seh2Qe
-2022-07-11.silt-striders:
+2022-07-11-silt-striders:
   title: Silt Striders
   titleRu: Силт-страйдеры
   content:
-    - store:/shots/2018-09-22.two-ways.png
-    - store:/shots/2018-08-16.wall-of-suran.png
-    - store:/shots/2018-02-17.cry-of-silt-strider-in-morning-mist.png
-    - store:/shots/2016-12-09.silt-strider-port-of-molag-mar.png
+    - store:/shots/2018-09-22-two-ways.png
+    - store:/shots/2018-08-16-wall-of-suran.png
+    - store:/shots/2018-02-17-cry-of-silt-strider-in-morning-mist.png
+    - store:/shots/2016-12-09-silt-strider-port-of-molag-mar.png
   type: shot-set
   author: dehero
   engine: OpenMW
@@ -769,11 +769,11 @@
         3PV4Y3H/meNc4tTj/YcVSo9AKleF3ikFHmpqyxg0Uh2lDvcyQbFbSFbxOtrHSONI5lE4w9BRJf55
         yWYQCJTI97S9sez3b+PqPKF1t/7/u8PMrn9jJjHnu/c+ZvKOKM+DzN1+uLnMmFK3EF3ZaJEFXpXO
         JM0Hc7MB1DZFcgMA
-2022-07-12.leaving-holamayan:
+2022-07-12-leaving-holamayan:
   title: Leaving Holamayan
   titleRu: Покидая Холамаян
   location: Holamayan
-  content: store:/shots/2022-07-12.leaving-holamayan.png
+  content: store:/shots/2022-07-12-leaving-holamayan.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -812,11 +812,11 @@
       followers: 258
       likes: 48
       views: 699
-2022-07-13.cold-waters-of-west-gash:
+2022-07-13-cold-waters-of-west-gash:
   title: Cold Waters of West Gash
   titleRu: Холодные воды Западного Нагорья
   location: West Gash Region
-  content: store:/shots/2022-07-13.cold-waters-of-west-gash.png
+  content: store:/shots/2022-07-13-cold-waters-of-west-gash.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -858,10 +858,10 @@
         khmXcAFi8Iz9Mv3WZuDFjkU4sg9IJnK1TmPwW2AVMXRBZ0AvCaCyYoYoH0YTqhcMI2ngP0aI1A83
         za1wv11qQFLT13R11DbAvjb53Kh7iVCuGuYa7d+wgORyoYygwE9npHRUx3C0NKKK6Y4MFk5Kp4iB
         CS4=
-2022-07-14.blue-lit-basket:
+2022-07-14-blue-lit-basket:
   title: Blue Lit Basket
   titleRu: Корзина в голубом свете
-  content: store:/shots/2022-07-14.blue-lit-basket.png
+  content: store:/shots/2022-07-14-blue-lit-basket.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -895,10 +895,10 @@
       followers: 260
       likes: 40
       views: 731
-2022-07-15.sail-on:
+2022-07-15-sail-on:
   title: Sail On
   titleRu: Плыть дальше
-  content: store:/shots/2022-07-15.sail-on.png
+  content: store:/shots/2022-07-15-sail-on.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -931,10 +931,10 @@
       followers: 262
       likes: 50
       views: 756
-2022-07-16.two-at-the-lantern:
+2022-07-16-two-at-the-lantern:
   title: Two at the Lantern
   titleRu: Двое у фонаря
-  content: store:/shots/2022-07-16.two-at-the-lantern.png
+  content: store:/shots/2022-07-16-two-at-the-lantern.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -964,10 +964,10 @@
       followers: 262
       likes: 48
       views: 761
-2022-07-17.slaves-sight:
+2022-07-17-slaves-sight:
   title: Slave's Sight
   titleRu: Взгляд раба
-  content: store:/shots/2022-07-17.slaves-sight.png
+  content: store:/shots/2022-07-17-slaves-sight.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -996,10 +996,10 @@
       followers: 262
       likes: 49
       views: 764
-2022-07-18.long-talk:
+2022-07-18-long-talk:
   title: Long Talk
   titleRu: Долгий разговор
-  content: store:/shots/2022-07-18.long-talk.png
+  content: store:/shots/2022-07-18-long-talk.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -1038,11 +1038,11 @@
       followers: 267
       likes: 50
       views: 786
-2022-07-19.stillness-of-vivec:
+2022-07-19-stillness-of-vivec:
   title: Stillness of Vivec
   titleRu: Тишина Вивека
   location: Vivec
-  content: store:/shots/2022-07-19.stillness-of-vivec.png
+  content: store:/shots/2022-07-19-stillness-of-vivec.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -1072,11 +1072,11 @@
       followers: 267
       likes: 62
       views: 808
-2022-07-20.norvayn-ancestral-tomb:
+2022-07-20-norvayn-ancestral-tomb:
   title: Norvayn Ancestral Tomb
   titleRu: Родовая гробница Норвайнов
   location: Norvayn Ancestral Tomb
-  content: store:/shots/2022-07-20.norvayn-ancestral-tomb.png
+  content: store:/shots/2022-07-20-norvayn-ancestral-tomb.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -1110,10 +1110,10 @@
         cfYWvf+/yjZWQ/aIJ4HJQibklzb8vLsHJ5/ReuahBY5/TUNJAoICJ3CDwJAAC5c0HqECcIxhiooE
         al7gy7gX5ReATA7BklEXU1fDzSIqECVpP1bx3eJHrwNTnoXdAF5hqGYqVWgyYjSfUU0jNVRdIoSh
         xysLu+m4zBgdPT1L76I13I32ohg=
-2022-07-21.three-gods-one-true-faith:
+2022-07-21-three-gods-one-true-faith:
   title: Three Gods, One True Faith
   titleRu: Три бога, одна истинная вера
-  content: store:/shots/2022-07-21.three-gods-one-true-faith.png
+  content: store:/shots/2022-07-21-three-gods-one-true-faith.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -1148,14 +1148,14 @@
       likes: 49
       views: 1529
       comments: !c ixmAkpPLQngiXaFxAACnZGVsZXRlZKjQmNC80LHQsJPLQngiKf06AAClbXdzY3KnQUxNU0lWSQM=
-2022-07-22.lonely-towers:
+2022-07-22-lonely-towers:
   title: Lonely Towers
   titleRu: Одинокие башни
   content:
-    - store:/shots/2018-06-29.road-to-a-dwemer-tower.png
-    - store:/shots/2017-02-19.first-stars-on-the-quay-of-suran.png
-    - store:/shots/2020-05-18.behind-the-wall.png
-    - store:/shots/2017-07-31.at-the-coast.png
+    - store:/shots/2018-06-29-road-to-a-dwemer-tower.png
+    - store:/shots/2017-02-19-first-stars-on-the-quay-of-suran.png
+    - store:/shots/2020-05-18-behind-the-wall.png
+    - store:/shots/2017-07-31-at-the-coast.png
   type: shot-set
   author: dehero
   engine: OpenMW
@@ -1193,10 +1193,10 @@
       followers: 271
       likes: 58
       views: 852
-2022-07-23.draggle-tail-sunrise:
+2022-07-23-draggle-tail-sunrise:
   title: Draggle-Tail Sunrise
   titleRu: Рассвет грязнохвостника
-  content: store:/shots/2022-07-23.draggle-tail-sunrise.png
+  content: store:/shots/2022-07-23-draggle-tail-sunrise.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -1229,10 +1229,10 @@
       likes: 53
       views: 896
       comments: !c Cw2AkZPLQngi0DtVAAClbXdzY3KpYmVhdXRpZnVsAw==
-2022-07-24.thorny-lamps:
+2022-07-24-thorny-lamps:
   title: Thorny Lamps
   titleRu: Колючие светильники
-  content: store:/shots/2022-07-24.thorny-lamps.png
+  content: store:/shots/2022-07-24-thorny-lamps.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -1259,10 +1259,10 @@
       followers: 272
       likes: 52
       views: 935
-2022-07-25.rainy-coast:
+2022-07-25-rainy-coast:
   title: Rainy Coast
   titleRu: Дождливое побережье
-  content: store:/shots/2022-07-25.rainy-coast.png
+  content: store:/shots/2022-07-25-rainy-coast.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -1289,14 +1289,14 @@
       followers: 272
       likes: 54
       views: 1004
-2022-07-26.imperial-castles:
+2022-07-26-imperial-castles:
   title: Imperial Castles
   titleRu: Имперские замки
   content:
-    - store:/shots/2017-03-22.betty-netch-and-far-caldera.png
-    - store:/shots/2017-04-25.castle-ebonheart.png
-    - store:/shots/2016-12-18.the-governors-hall-in-caldera-from-distance.png
-    - store:/shots/2017-09-08.sky-castle.png
+    - store:/shots/2017-03-22-betty-netch-and-far-caldera.png
+    - store:/shots/2017-04-25-castle-ebonheart.png
+    - store:/shots/2016-12-18-the-governors-hall-in-caldera-from-distance.png
+    - store:/shots/2017-09-08-sky-castle.png
   type: shot-set
   author: dehero
   engine: OpenMW
@@ -1337,10 +1337,10 @@
         G7oA6C0OeHPIJcUQzaDc/dyExhPvbYSHSyiVSKoEe5FM/mHOuVLq60MThlwd2812Yx5ZsGt3dUnl
         XxcMBhEHEuiSxKk48aJOYAMOORANVhlIFzyleLB257NYXYheV1Bj969xU4Cp19DiEPAu2nbVUyOB
         wiDXkEOqsJwZL74Gg1EF9JDQdi+2a2J8h4qkXGWo9Nl+HMSXQREV7g==
-2022-07-27.camp-by-the-old-tree:
+2022-07-27-camp-by-the-old-tree:
   title: Camp by the Old Tree
   titleRu: Лагерь у старого дерева
-  content: store:/shots/2022-07-27.camp-by-the-old-tree.png
+  content: store:/shots/2022-07-27-camp-by-the-old-tree.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -1372,10 +1372,10 @@
         o3rmti61LdIPVZlbTAOIjmtVzz9cKP2sH4a3J+m1lS+jCtCfFlm8O01dsXCxKZ+DvWQgzG7EHxWK
         lx4zarzfLJuUTOx9E9NX0gHL/AnF9LawpkAG+5AP0FQvtt839Ty60nJCKOkE8hUkgYtnJZPHQA7H
         gzDC6UABOkGZ8maMymZoEbqasxA=
-2022-07-28.steady-dinner:
+2022-07-28-steady-dinner:
   title: Steady Dinner
   titleRu: Надёжный ужин
-  content: store:/shots/2022-07-28.steady-dinner.png
+  content: store:/shots/2022-07-28-steady-dinner.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -1414,11 +1414,11 @@
       followers: 274
       likes: 54
       views: 1161
-2022-07-29.sunset-cypresses:
+2022-07-29-sunset-cypresses:
   title: Sunset Cypresses
   titleRu: Закатные кипарисы
   location: Bitter Coast Region
-  content: store:/shots/2022-07-29.sunset-cypresses.png
+  content: store:/shots/2022-07-29-sunset-cypresses.png
   trash:
     - store:/inbox/dehero.2022-06-29-22-51-07.1.png
     - store:/inbox/dehero.2022-06-29-22-50-55.png
@@ -1455,10 +1455,10 @@
       followers: 274
       likes: 58
       views: 1324
-2022-07-30.sorority:
+2022-07-30-sorority:
   title: Sorority
   titleRu: Женское общество
-  content: store:/shots/2022-07-30.sorority.png
+  content: store:/shots/2022-07-30-sorority.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -1485,14 +1485,14 @@
       followers: 278
       likes: 50
       views: 1314
-2022-07-31.alchemy:
+2022-07-31-alchemy:
   title: Alchemy
   titleRu: Алхимия
   content:
-    - store:/shots/2017-01-05.alchemy-corner.png
-    - store:/shots/2017-05-21.table-in-magic-shop.png
-    - store:/shots/2017-09-07.wise-womans-table.png
-    - store:/shots/2018-05-31.clandestine-lab.png
+    - store:/shots/2017-01-05-alchemy-corner.png
+    - store:/shots/2017-05-21-table-in-magic-shop.png
+    - store:/shots/2017-09-07-wise-womans-table.png
+    - store:/shots/2018-05-31-clandestine-lab.png
   type: shot-set
   author: dehero
   engine: OpenMW
@@ -1534,11 +1534,11 @@
       followers: 277
       likes: 56
       views: 1564
-2022-08-01.caravaneers-workplace:
+2022-08-01-caravaneers-workplace:
   title: Caravaneer's Workplace
   titleRu: Рабочее место караванщика
   location: Suran
-  content: store:/shots/2022-08-01.caravaneers-workplace.png
+  content: store:/shots/2022-08-01-caravaneers-workplace.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -1574,10 +1574,10 @@
         j2gd2YUvfJ0c6Vkjbac8kpbkXEJlltsYeK4I1qnC1Zwv7QIFM1fqZDdJM3XbW5fRtQR4+HY80rqq
         aJNx+v3dzDnLZ3tARBsqzWFmSSW7hMcICdLhsgXn1Y6JC9CmG8duK9q4gxBgwJtIyRNB7fZ7/MV0
         OoH5GLu4qItom9KyTAI=
-2022-08-02.dark-spells:
+2022-08-02-dark-spells:
   title: Dark Spells
   titleRu: Тёмные заклинания
-  content: store:/shots/2022-08-02.dark-spells.png
+  content: store:/shots/2022-08-02-dark-spells.png
   type: shot
   author: dehero
   engine: OpenMW
@@ -1612,10 +1612,10 @@
         C0WAlJPLQnjqgZW9AACrVmVicmFuZGVub0u60L3QsCDQutCw0YDQsNC9INC/0L7RhdC+0LaTy0J4
         Jobp2AAAqWFuYWtpbmVyc6VncmVhdJPLQngmLFQlgACtQnVzaGlkb2thUmlkZa7QqNC40LrQsNGA
         0L3QvpPLQngmB2dEAACobW9uZ2xlcmmkbmljZQM=
-2022-08-03.a-haven-on-bad-weather:
+2022-08-03-a-haven-on-bad-weather:
   title: A Haven on Bad Weather
   titleRu: Пристанище в ненастье
-  content: store:/shots/2022-08-03.a-haven-on-bad-weather.png
+  content: store:/shots/2022-08-03-a-haven-on-bad-weather.png
   type: shot
   author: dehero
   engine: OpenMW

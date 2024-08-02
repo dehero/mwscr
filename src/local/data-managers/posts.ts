@@ -137,7 +137,7 @@ export function createPublishedPostId(post: PublishablePost, index?: number) {
   const dateStr = dateToString(created);
   const name = postNameFromTitle(post.title);
 
-  return [dateStr, index, name].filter((item) => Boolean(item)).join('.');
+  return [dateStr, index, name].filter((item) => Boolean(item)).join('-');
 }
 
 export function createRepostId(post: PublishablePost) {
@@ -145,7 +145,7 @@ export function createRepostId(post: PublishablePost) {
   const dateStr = dateToString(created);
   const name = postNameFromTitle(post.title);
 
-  return [dateStr, name].filter((item) => Boolean(item)).join('.');
+  return [dateStr, name].filter((item) => Boolean(item)).join('-');
 }
 
 export function createInboxItemId(creator: string | string[], date: Date, key: string, hash?: string): string {
