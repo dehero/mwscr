@@ -3915,18 +3915,18 @@
     - service: vk
       id: 1575
       published: 2024-06-08-18-18-38
-      updated: 2024-07-27-21-13-19
+      updated: 2024-08-03-21-13-46
       followers: 916
-      likes: 35
-      views: 300
+      likes: 36
+      views: 303
       reposts: 1
     - service: tg
       id: 433
       published: 2024-06-08-18-18-44
-      updated: 2024-07-27-21-13-18
+      updated: 2024-08-03-21-13-43
       followers: 384
-      likes: 53
-      views: 399
+      likes: 55
+      views: 407
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
   titleRu: Мрачный курган
@@ -4274,17 +4274,17 @@
       id: C975vMSNVQ0
       mediaId: '18039704743818919'
       published: 2024-07-27-18-20-17
-      updated: 2024-08-02-20-15-56
+      updated: 2024-08-03-21-13-44
       followers: 1432
       likes: 79
-      views: 270
+      views: 271
     - service: vk
       id: 1658
       published: 2024-07-27-18-20-23
-      updated: 2024-08-02-20-15-55
+      updated: 2024-08-03-21-13-44
       followers: 923
       likes: 32
-      views: 234
+      views: 242
       reposts: 1
     - service: tg
       id: 482
@@ -5980,28 +5980,28 @@
       id: C9-elACupvr
       mediaId: '17928218450806863'
       published: 2024-07-28-18-20-45
-      updated: 2024-08-02-20-15-56
+      updated: 2024-08-03-21-13-43
       followers: 1432
       likes: 89
-      views: 313
+      views: 316
       comments: !c |-
         iyGAkZPLQnkPtu5DgACrZGVsYW5vc3BpZXPZK0V2ZXJ5dGhpbmcgYmV0dGVyIHRoZW4gS29nb3J1
         bi4uLiBAZHJhdmVuanYD
     - service: vk
       id: 1659
       published: 2024-07-28-18-20-53
-      updated: 2024-08-02-20-15-55
+      updated: 2024-08-03-21-13-42
       followers: 923
-      likes: 34
-      views: 232
-      reposts: 1
+      likes: 35
+      views: 239
+      reposts: 2
     - service: tg
       id: 483
       published: 2024-07-28-18-21-02
-      updated: 2024-08-02-20-15-54
+      updated: 2024-08-03-21-13-42
       followers: 402
-      likes: 50
-      views: 1362
+      likes: 52
+      views: 1424
 2017-07-01-training-room:
   title: Training Room
   titleRu: Тренировочная комната
@@ -7935,17 +7935,17 @@
       id: C-LWdiVhvTs
       mediaId: '18239347024283548'
       published: 2024-08-02-18-19-56
-      updated: 2024-08-03-20-14-21
+      updated: 2024-08-03-21-13-41
       followers: 1434
-      likes: 72
-      views: 242
+      likes: 73
+      views: 247
     - service: vk
       id: 1664
       published: 2024-08-02-18-20-03
-      updated: 2024-08-03-20-14-23
+      updated: 2024-08-03-21-13-41
       followers: 925
       likes: 30
-      views: 181
+      views: 183
       reposts: 1
       comments: !c |-
         G1UA+I2Ubuaig3ONcDrQ4ciiqMraSzwTZPv/O/yMgAIEhxzpwfgAlHlbQDUz0qizj1pUDxOw8idq
@@ -7953,10 +7953,10 @@
     - service: tg
       id: 488
       published: 2024-08-02-18-20-10
-      updated: 2024-08-03-20-14-22
+      updated: 2024-08-03-21-13-41
       followers: 428
       likes: 51
-      views: 141
+      views: 142
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки
