@@ -6446,10 +6446,10 @@
     - service: vk
       id: 1464
       published: 2024-03-22-18-12-46
-      updated: 2024-07-27-07-14-48
+      updated: 2024-08-03-08-18-22
       followers: 896
       likes: 34
-      views: 317
+      views: 318
       reposts: 1
     - service: tg
       id: 354
@@ -7935,24 +7935,27 @@
       id: C-LWdiVhvTs
       mediaId: '18239347024283548'
       published: 2024-08-02-18-19-56
-      updated: 2024-08-03-07-12-46
+      updated: 2024-08-03-08-18-19
       followers: 1434
-      likes: 60
-      views: 165
+      likes: 65
+      views: 178
     - service: vk
       id: 1664
       published: 2024-08-02-18-20-03
-      updated: 2024-08-03-07-12-48
+      updated: 2024-08-03-08-18-20
       followers: 925
-      likes: 25
-      views: 132
+      likes: 26
+      views: 140
+      comments: !c |-
+        G1UA+I2Ubuaig3ONcDrQ4ciiqMraSzwTZPv/O/yMgAIEhxzpwfgAlHlbQDUz0qizj1pUDxOw8idq
+        yJZNRxU4VlH/NOShD4zghgMjjDGDCTY47wZ2aIPEUCYF
     - service: tg
       id: 488
       published: 2024-08-02-18-20-10
-      updated: 2024-08-03-07-12-46
+      updated: 2024-08-03-08-18-21
       followers: 428
-      likes: 44
-      views: 101
+      likes: 45
+      views: 105
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки
@@ -8654,17 +8657,17 @@
     - service: vk
       id: 1483
       published: 2024-04-05-18-17-17
-      updated: 2024-07-27-07-14-47
+      updated: 2024-08-03-08-18-21
       followers: 908
       likes: 36
-      views: 266
+      views: 267
     - service: tg
       id: 369
       published: 2024-04-05-18-17-25
-      updated: 2024-07-27-07-14-47
+      updated: 2024-08-03-08-18-22
       followers: 355
       likes: 63
-      views: 448
+      views: 449
       comments: !c |-
         C0mAkpPLQnjrJoNrAACvQWxleGV5IFN0ZXBhbm922SvRj9C6INCd0L7QstC40Lkg0YDRltC6INC/
         0YDRj9C88J+YgvCfmILwn5iClMtCeOr63pEAAKhBZWxsYXJpYa3QkCDQtNC1INGG0LU/k8tCeOr8
