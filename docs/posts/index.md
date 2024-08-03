@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`158 items`
+`159 items`
+
+## <span id="2024-08-03-drulene-falen-and-her-guars">Drulene Falen and Her Guars</span>
+
+`RU` Друлен Фален и её гуары
+
+<a href="https://instagram.com/p/BldrEnAle_Z/" title="2018-07-20-drulene-falen-and-her-guars"><img alt="store:/shots/2018-07-20-drulene-falen-and-her-guars.png" src="../../assets/previews/shots/2018-07-20-drulene-falen-and-her-guars.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-03-drulene-falen-and-her-guars)</code> `🚀 OpenMW` `women`
+
+```
+2024-08-03-drulene-falen-and-her-guars
+```
+
+> `2018-07-20-drulene-falen-and-her-guars`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BldrEnAle_Z/)       | 2018-07-20 |       |    98 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_816)  | 2018-07-20 |   260 |    16 |       188 |   8.51 |
+| [`ig`](https://instagram.com/p/C-N7Ma0tkLR/)       | 2024-08-03 |       |       |      1434 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1666) | 2024-08-03 |       |       |       925 |        |
+| [`tg`](https://t.me/mwscr/489)                     | 2024-08-03 |       |       |       428 |        |
+|                                                    |            |   260 |   114 |      2787 |        |
+
+#### Comments
+
+- `vk` <ins title="2018-07-22-04-19-08">peteevandrew</ins> Весь Дом Редоран кормит!
 
 ## <span id="2024-08-02-dark-morning-in-the-colony">Dark Morning in the Colony</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYsmppVj_HI/)       | 2017-09-06 |       |    69 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_419)  | 2017-09-06 |   235 |    10 |        79 |     10 |
-| [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   230 |    70 |      1434 |   4.88 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |   170 |    29 |       925 |   3.14 |
-| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |   114 |    46 |       428 |  10.75 |
-|                                                    |            |   749 |   224 |      2787 |   7.19 |
+| [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   235 |    71 |      1434 |   4.95 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |   174 |    29 |       925 |   3.14 |
+| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |   115 |    47 |       428 |  10.98 |
+|                                                    |            |   759 |   226 |      2787 |   7.27 |
 
 #### Comments
 
