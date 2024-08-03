@@ -550,18 +550,18 @@
     - service: vk
       id: 1491
       published: 2024-04-12-18-14-50
-      updated: 2024-07-27-01-07-19
+      updated: 2024-08-03-02-31-46
       followers: 911
       likes: 35
-      views: 264
+      views: 265
       reposts: 2
     - service: tg
       id: 376
       published: 2024-04-12-18-15-00
-      updated: 2024-07-27-01-07-18
+      updated: 2024-08-03-02-31-46
       followers: 352
       likes: 68
-      views: 444
+      views: 446
       comments: !c |-
         G3kCICwOeHPoJNT0dgTVz0b0TxysCP/kgSRBxlEgcVjABcGRnOxTdSMYodAkCN/vK5SzFXt/92vU
         bJIm1nd3w9venyuqqBayEqSCS7uerJZP65+m2NyG1hh0Ux8fFA7oVxM/3TgWZoElGng0tkYQYIC9
@@ -3964,17 +3964,17 @@
     - service: vk
       id: 1545
       published: 2024-05-24-18-19-24
-      updated: 2024-07-27-01-07-18
+      updated: 2024-08-03-02-31-45
       followers: 917
       likes: 38
-      views: 276
+      views: 277
     - service: tg
       id: 418
       published: 2024-05-24-18-19-31
-      updated: 2024-07-27-01-07-17
+      updated: 2024-08-03-02-31-45
       followers: 376
-      likes: 55
-      views: 458
+      likes: 56
+      views: 463
       comments: !c |-
         CyKAkZTLQnj6vWCNAACwVWR6dW1ha2lfbmFydXRvMLPQodC+0LvRhdGB0YLQtdC50Lw/k8tCePq+
         f6kAAKVtd3NjcqTQlNCwAw==
@@ -5681,21 +5681,21 @@
       id: C-HKdRnqQ1E
       mediaId: '17902972628934171'
       published: 2024-08-01-03-18-07
-      updated: 2024-08-03-01-04-26
+      updated: 2024-08-03-02-31-44
       followers: 1434
       likes: 81
       views: 213
     - service: tg
       id: 487
       published: 2024-08-01-03-18-14
-      updated: 2024-08-03-01-04-27
+      updated: 2024-08-03-02-31-44
       followers: 423
-      likes: 48
-      views: 152
+      likes: 50
+      views: 155
     - service: vk
       id: 1663
       published: 2024-08-01-04-18-52
-      updated: 2024-08-03-01-04-26
+      updated: 2024-08-03-02-31-43
       followers: 924
       likes: 23
       views: 178
@@ -7935,24 +7935,24 @@
       id: C-LWdiVhvTs
       mediaId: '18239347024283548'
       published: 2024-08-02-18-19-56
-      updated: 2024-08-03-01-04-25
+      updated: 2024-08-03-02-31-42
       followers: 1434
-      likes: 44
-      views: 122
+      likes: 48
+      views: 128
     - service: vk
       id: 1664
       published: 2024-08-02-18-20-03
-      updated: 2024-08-03-01-04-25
+      updated: 2024-08-03-02-31-42
       followers: 925
       likes: 20
-      views: 101
+      views: 104
     - service: tg
       id: 488
       published: 2024-08-02-18-20-10
-      updated: 2024-08-03-01-04-26
+      updated: 2024-08-03-02-31-43
       followers: 428
-      likes: 36
-      views: 83
+      likes: 38
+      views: 87
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки
