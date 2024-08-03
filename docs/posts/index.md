@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYsmppVj_HI/)       | 2017-09-06 |       |    69 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_419)  | 2017-09-06 |   235 |    10 |        79 |     10 |
-| [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   111 |    40 |      1434 |   2.79 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |    94 |    19 |       925 |   2.05 |
-| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |    82 |    35 |       428 |   8.18 |
-|                                                    |            |   522 |   173 |      2787 |   5.76 |
+| [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   122 |    44 |      1434 |   3.07 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |   101 |    20 |       925 |   2.16 |
+| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |    83 |    36 |       428 |   8.41 |
+|                                                    |            |   541 |   179 |      2787 |   5.91 |
 
 ## <span id="2024-08-01-in-a-fishermans-hut">In a Fisherman&#39;s Hut</span>
 
@@ -1124,9 +1124,9 @@
 | [`ig`](https://instagram.com/p/BdvHCYojafJ/)       | 2018-01-09 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_572)  | 2018-01-09 |   181 |    16 |       119 |  13.45 |
 | [`ig`](https://instagram.com/p/C8xOkhoJ1Rz/)       | 2024-06-28 |   301 |    77 |      1421 |   5.42 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |   266 |    37 |       917 |   4.03 |
-| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |   420 |    56 |       387 |  14.47 |
-|                                                    |            |  1168 |   284 |      2725 |   9.34 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |   270 |    38 |       917 |   4.14 |
+| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |   431 |    57 |       387 |  14.73 |
+|                                                    |            |  1183 |   286 |      2725 |   9.43 |
 
 ## <span id="2024-06-27-crates-and-pillows">Crates and Pillows</span>
 
@@ -1343,9 +1343,9 @@
 | [`ig`](https://instagram.com/p/BOojKoolo1u/)       | 2016-12-30 |       |    35 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_47)   | 2017-01-22 |    92 |     3 |         4 |      3 |
 | [`ig`](https://instagram.com/p/C8fNH04tqd6/)       | 2024-06-21 |   329 |    88 |      1419 |    6.2 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |   271 |    34 |       919 |    3.7 |
-| [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |   431 |    52 |       386 |  13.47 |
-|                                                    |            |  1123 |   212 |      2724 |   6.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |   274 |    35 |       919 |   3.81 |
+| [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |   442 |    53 |       386 |  13.73 |
+|                                                    |            |  1137 |   214 |      2724 |   6.69 |
 
 ## <span id="2024-06-20-arrival-in-dagon-fel">Arrival in Dagon Fel</span>
 
