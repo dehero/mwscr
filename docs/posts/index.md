@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`159 items`
+`160 items`
+
+## <span id="2024-08-04-ice-cave-in-the-ice-bay">Ice Cave in the Ice Bay</span>
+
+`RU` Ледяная пещера в ледяном заливе
+
+<a href="https://instagram.com/p/BkTFAeJlRHU/" title="2018-06-21-ice-cave-in-the-ice-bay"><img alt="store:/shots/2018-06-21-ice-cave-in-the-ice-bay.png" src="../../assets/previews/shots/2018-06-21-ice-cave-in-the-ice-bay.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`C` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-04-ice-cave-in-the-ice-bay)</code> `🚀 OpenMW` `🔗 Bloodmoon`
+
+```
+2024-08-04-ice-cave-in-the-ice-bay
+```
+
+> `2018-06-21-ice-cave-in-the-ice-bay`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BkTFAeJlRHU/)       | 2018-06-21 |       |    96 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_775)  | 2018-06-21 |   285 |    19 |       176 |   10.8 |
+| [`ig`](https://instagram.com/p/C-Qf406SXhK/)       | 2024-08-04 |       |       |      1434 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1667) | 2024-08-04 |       |       |       927 |        |
+| [`tg`](https://t.me/mwscr/490)                     | 2024-08-04 |       |       |       476 |        |
+|                                                    |            |   285 |   115 |      2837 |        |
 
 ## <span id="2024-08-03-drulene-falen-and-her-guars">Drulene Falen and Her Guars</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BldrEnAle_Z/)       | 2018-07-20 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_816)  | 2018-07-20 |   260 |    16 |       188 |   8.51 |
-| [`ig`](https://instagram.com/p/C-N7Ma0tkLR/)       | 2024-08-03 |   223 |    66 |      1434 |    4.6 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1666) | 2024-08-03 |   168 |    26 |       925 |   2.81 |
-| [`tg`](https://t.me/mwscr/489)                     | 2024-08-03 |  3398 |    40 |       428 |   9.35 |
-|                                                    |            |  4049 |   246 |      2787 |   6.32 |
+| [`ig`](https://instagram.com/p/C-N7Ma0tkLR/)       | 2024-08-03 |   228 |    68 |      1434 |   4.74 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1666) | 2024-08-03 |   170 |    26 |       925 |   2.81 |
+| [`tg`](https://t.me/mwscr/489)                     | 2024-08-03 |  3438 |    40 |       428 |   9.35 |
+|                                                    |            |  4096 |   248 |      2787 |   6.35 |
 
 #### Comments
 
@@ -61,10 +88,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYsmppVj_HI/)       | 2017-09-06 |       |    69 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_419)  | 2017-09-06 |   235 |    10 |        79 |     10 |
-| [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   275 |    80 |      1434 |   5.58 |
+| [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   277 |    80 |      1434 |   5.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |   207 |    35 |       925 |   3.78 |
-| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |   258 |    55 |       428 |  12.85 |
-|                                                    |            |   975 |   249 |      2787 |   8.05 |
+| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |   261 |    55 |       428 |  12.85 |
+|                                                    |            |   980 |   249 |      2787 |   8.05 |
 
 #### Comments
 

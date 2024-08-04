@@ -5212,6 +5212,19 @@
       followers: 176
       likes: 19
       views: 285
+    - service: ig
+      id: C-Qf406SXhK
+      mediaId: '18036187178042222'
+      published: 2024-08-04-18-18-29
+      followers: 1434
+    - service: vk
+      id: 1667
+      published: 2024-08-04-18-18-36
+      followers: 927
+    - service: tg
+      id: 490
+      published: 2024-08-04-18-18-43
+      followers: 476
 2018-06-22-time-to-write:
   title: Time to Write
   titleRu: Время писать
@@ -6000,24 +6013,24 @@
       id: C-N7Ma0tkLR
       mediaId: '18002253002427793'
       published: 2024-08-03-18-19-21
-      updated: 2024-08-04-17-12-39
+      updated: 2024-08-04-18-18-15
       followers: 1434
-      likes: 66
-      views: 223
+      likes: 68
+      views: 228
     - service: vk
       id: 1666
       published: 2024-08-03-18-19-32
-      updated: 2024-08-04-17-12-39
+      updated: 2024-08-04-18-18-15
       followers: 925
       likes: 26
-      views: 168
+      views: 170
     - service: tg
       id: 489
       published: 2024-08-03-18-19-41
-      updated: 2024-08-04-17-12-40
+      updated: 2024-08-04-18-18-16
       followers: 428
       likes: 40
-      views: 3398
+      views: 3438
       comments: !c |-
         izGAkZTLQnkRxbvWAACrVmVicmFuZGVub0uk8J+YjZPLQnkRxdocAAClYW5zaXPZNmV2ZXJ5IGdy
         YXplbGFuZGVyIGJveSBsb3ZlcyBoaW1zZWxmIGEgZ3VhciBoZXJkZXIgZ2lybAM=
