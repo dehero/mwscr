@@ -28,10 +28,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BkTFAeJlRHU/)       | 2018-06-21 |       |    96 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_775)  | 2018-06-21 |   285 |    19 |       176 |   10.8 |
-| [`ig`](https://instagram.com/p/C-Qf406SXhK/)       | 2024-08-04 |       |       |      1434 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1667) | 2024-08-04 |       |       |       927 |        |
-| [`tg`](https://t.me/mwscr/490)                     | 2024-08-04 |       |       |       476 |        |
-|                                                    |            |   285 |   115 |      2837 |        |
+| [`ig`](https://instagram.com/p/C-Qf406SXhK/)       | 2024-08-04 |    65 |    25 |      1434 |   1.74 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1667) | 2024-08-04 |    34 |     6 |       927 |   0.65 |
+| [`tg`](https://t.me/mwscr/490)                     | 2024-08-04 |    75 |    22 |       476 |   4.62 |
+|                                                    |            |   459 |   168 |      2837 |   4.45 |
+
+#### Comments
+
+- `ig` <ins title="2024-08-04-18-22-41">joaowoichinevski</ins> real
+- `tg` <ins title="2024-08-04-18-29-12">damir_gibaev</ins> I don&#39;t remember that. Is it from some DLC?
+  - <ins title="2024-08-04-18-40-42">ansis</ins> Bloodmoon, on Solstheim
 
 ## <span id="2024-08-03-drulene-falen-and-her-guars">Drulene Falen and Her Guars</span>
 
@@ -55,10 +61,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BldrEnAle_Z/)       | 2018-07-20 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_816)  | 2018-07-20 |   260 |    16 |       188 |   8.51 |
-| [`ig`](https://instagram.com/p/C-N7Ma0tkLR/)       | 2024-08-03 |   228 |    68 |      1434 |   4.74 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1666) | 2024-08-03 |   170 |    26 |       925 |   2.81 |
-| [`tg`](https://t.me/mwscr/489)                     | 2024-08-03 |  3438 |    40 |       428 |   9.35 |
-|                                                    |            |  4096 |   248 |      2787 |   6.35 |
+| [`ig`](https://instagram.com/p/C-N7Ma0tkLR/)       | 2024-08-03 |   232 |    69 |      1434 |   4.81 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1666) | 2024-08-03 |   174 |    26 |       925 |   2.81 |
+| [`tg`](https://t.me/mwscr/489)                     | 2024-08-03 |  3493 |    43 |       428 |  10.05 |
+|                                                    |            |  4159 |   252 |      2787 |   6.54 |
 
 #### Comments
 
@@ -177,10 +183,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BY_CeRojNOg/)       | 2017-09-13 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_426)  | 2017-09-13 |   119 |     6 |        79 |      6 |
-| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   202 |    58 |      1433 |   4.05 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   191 |    28 |       924 |   3.03 |
-| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   219 |    46 |       418 |     11 |
-|                                                    |            |   731 |   198 |      2775 |   6.02 |
+| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   208 |    58 |      1433 |   4.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   199 |    28 |       924 |   3.03 |
+| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   337 |    47 |       418 |  11.24 |
+|                                                    |            |   863 |   199 |      2775 |   6.08 |
 
 ## <span id="2024-07-29-arch-with-a-canopy">Arch with a Canopy</span>
 
