@@ -4,7 +4,39 @@
 
 # Posted in 2024
 
-`160 items`
+`161 items`
+
+## <span id="2024-08-05-in-the-evening-canals-of-vivec">In the Evening Canals of Vivec</span>
+
+`RU` В вечерних каналах Вивека
+
+<a href="https://instagram.com/p/BfBulIkjs5N/" title="2018-02-10-in-the-evening-canals-of-vivec"><img alt="store:/shots/2018-02-10-in-the-evening-canals-of-vivec.png" src="../../assets/previews/shots/2018-02-10-in-the-evening-canals-of-vivec.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Vivec` `🚀 OpenMW` `canals` `bridge`
+
+```
+2024-08-05-in-the-evening-canals-of-vivec
+```
+
+> `2018-02-10-in-the-evening-canals-of-vivec`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BfBulIkjs5N/)       | 2018-02-10 |       |    90 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_609)  | 2018-02-10 |   186 |    10 |       130 |   7.69 |
+| [`ig`](https://instagram.com/p/C-TE6hwpIqR/)       | 2024-08-05 |       |       |      1434 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1668) | 2024-08-05 |       |       |       926 |        |
+| [`tg`](https://t.me/mwscr/491)                     | 2024-08-05 |       |       |       490 |        |
+|                                                    |            |   186 |   100 |      2850 |        |
+
+#### Comments
+
+- `ig` <ins title="2018-02-11-14-36-31">tommytoja</ins> Can&#39;t explain how important is your work, and how right you are artistically. Keep it up, your posts make my days!
+  - <ins title="2018-02-11-15-55-42">mwscr</ins> @znakomicie I&#39;m so excited that my humble works find such a response! Thank you!
 
 ## <span id="2024-08-04-ice-cave-in-the-ice-bay">Ice Cave in the Ice Bay</span>
 
@@ -28,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BkTFAeJlRHU/)       | 2018-06-21 |       |    96 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_775)  | 2018-06-21 |   285 |    19 |       176 |   10.8 |
-| [`ig`](https://instagram.com/p/C-Qf406SXhK/)       | 2024-08-04 |   368 |    78 |      1434 |   5.44 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1667) | 2024-08-04 |   167 |    26 |       927 |    2.8 |
-| [`tg`](https://t.me/mwscr/490)                     | 2024-08-04 |   224 |    47 |       476 |   9.87 |
-|                                                    |            |  1044 |   266 |      2837 |   7.23 |
+| [`ig`](https://instagram.com/p/C-Qf406SXhK/)       | 2024-08-04 |   372 |    80 |      1434 |   5.58 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1667) | 2024-08-04 |   168 |    26 |       927 |    2.8 |
+| [`tg`](https://t.me/mwscr/490)                     | 2024-08-04 |   232 |    47 |       476 |   9.87 |
+|                                                    |            |  1057 |   268 |      2837 |   7.26 |
 
 #### Comments
 
@@ -95,10 +127,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYsmppVj_HI/)       | 2017-09-06 |       |    69 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_419)  | 2017-09-06 |   235 |    10 |        79 |     10 |
-| [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   277 |    80 |      1434 |   5.58 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |   207 |    35 |       925 |   3.78 |
-| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |   261 |    55 |       428 |  12.85 |
-|                                                    |            |   980 |   249 |      2787 |   8.05 |
+| [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   294 |    87 |      1434 |   6.07 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |   228 |    37 |       925 |      4 |
+| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |   307 |    57 |       428 |  13.32 |
+|                                                    |            |  1064 |   260 |      2787 |   8.35 |
 
 #### Comments
 
