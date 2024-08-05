@@ -28,15 +28,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BfBulIkjs5N/)       | 2018-02-10 |       |    90 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_609)  | 2018-02-10 |   186 |    10 |       130 |   7.69 |
-| [`ig`](https://instagram.com/p/C-TE6hwpIqR/)       | 2024-08-05 |       |       |      1434 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1668) | 2024-08-05 |       |       |       926 |        |
-| [`tg`](https://t.me/mwscr/491)                     | 2024-08-05 |       |       |       490 |        |
-|                                                    |            |   186 |   100 |      2850 |        |
+| [`ig`](https://instagram.com/p/C-TE6hwpIqR/)       | 2024-08-05 |    42 |    24 |      1434 |   1.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1668) | 2024-08-05 |    52 |    21 |       926 |   2.27 |
+| [`tg`](https://t.me/mwscr/491)                     | 2024-08-05 |    79 |    24 |       490 |    4.9 |
+|                                                    |            |   359 |   169 |      2850 |   4.13 |
 
 #### Comments
 
 - `ig` <ins title="2018-02-11-14-36-31">tommytoja</ins> Can&#39;t explain how important is your work, and how right you are artistically. Keep it up, your posts make my days!
   - <ins title="2018-02-11-15-55-42">mwscr</ins> @znakomicie I&#39;m so excited that my humble works find such a response! Thank you!
+- `ig` <ins title="2024-08-05-19-13-50">jaece3000</ins> can you post more videos
 
 ## <span id="2024-08-04-ice-cave-in-the-ice-bay">Ice Cave in the Ice Bay</span>
 
@@ -60,10 +61,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BkTFAeJlRHU/)       | 2018-06-21 |       |    96 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_775)  | 2018-06-21 |   285 |    19 |       176 |   10.8 |
-| [`ig`](https://instagram.com/p/C-Qf406SXhK/)       | 2024-08-04 |   372 |    80 |      1434 |   5.58 |
+| [`ig`](https://instagram.com/p/C-Qf406SXhK/)       | 2024-08-04 |   376 |    80 |      1434 |   5.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1667) | 2024-08-04 |   168 |    26 |       927 |    2.8 |
-| [`tg`](https://t.me/mwscr/490)                     | 2024-08-04 |   232 |    47 |       476 |   9.87 |
-|                                                    |            |  1057 |   268 |      2837 |   7.26 |
+| [`tg`](https://t.me/mwscr/490)                     | 2024-08-04 |   254 |    51 |       476 |  10.71 |
+|                                                    |            |  1083 |   272 |      2837 |   7.47 |
 
 #### Comments
 
@@ -216,10 +217,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BY_CeRojNOg/)       | 2017-09-13 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_426)  | 2017-09-13 |   119 |     6 |        79 |      6 |
-| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   208 |    58 |      1433 |   4.05 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   199 |    28 |       924 |   3.03 |
-| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   337 |    47 |       418 |  11.24 |
-|                                                    |            |   863 |   199 |      2775 |   6.08 |
+| [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   211 |    59 |      1433 |   4.12 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1661) | 2024-07-30 |   205 |    29 |       924 |   3.14 |
+| [`tg`](https://t.me/mwscr/485)                     | 2024-07-30 |   380 |    49 |       418 |  11.72 |
+|                                                    |            |   915 |   203 |      2775 |   6.24 |
 
 ## <span id="2024-07-29-arch-with-a-canopy">Arch with a Canopy</span>
 
