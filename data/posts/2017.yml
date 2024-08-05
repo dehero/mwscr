@@ -6198,10 +6198,10 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2024-07-29-20-16-31
+      updated: 2024-08-05-21-16-20
       followers: 919
-      likes: 35
-      views: 258
+      likes: 36
+      views: 266
       reposts: 2
       comments: !c |-
         G2kBQCwKbBu2NSy3aG+yVz+UohPxD3WxJdzxm9XDIz4P0oQv4KQgoECS93VuLRpaZbNZEiJMQLkh
@@ -6212,10 +6212,10 @@
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2024-07-29-20-16-31
+      updated: 2024-08-05-21-16-18
       followers: 395
-      likes: 56
-      views: 345
+      likes: 58
+      views: 402
       comments: !c CxiAkZPLQnkP1+/4gACpR2F0ZW1hdGU3u2hhdHcgdGhlc2UgbW90aGVyIGZ1Y2tlcnMuLgM=
     - service: ig
       id: C9Ug-PYxnq2
@@ -8575,17 +8575,17 @@
       id: C9vBxUSMCKV
       mediaId: '18042682087897687'
       published: 2024-07-22-18-20-23
-      updated: 2024-07-29-20-16-32
+      updated: 2024-08-05-21-16-19
       followers: 1426
-      likes: 90
-      views: 478
+      likes: 91
+      views: 489
     - service: vk
       id: 1650
       published: 2024-07-22-18-20-29
-      updated: 2024-07-29-20-16-30
+      updated: 2024-08-05-21-16-19
       followers: 920
-      likes: 35
-      views: 254
+      likes: 36
+      views: 268
       reposts: 1
       comments: !c |-
         G6kAIKwOeDOWKwkaNpHUgwF3nX5E4I30Bzr0yQwXeBYmlNyDBbU5SwqykKdDOHk09tnZasAwTaMm
@@ -8594,10 +8594,10 @@
     - service: tg
       id: 477
       published: 2024-07-22-18-20-38
-      updated: 2024-07-29-20-16-30
+      updated: 2024-08-05-21-16-18
       followers: 400
-      likes: 57
-      views: 274
+      likes: 59
+      views: 436
 2017-09-28-mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
