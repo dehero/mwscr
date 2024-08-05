@@ -968,37 +968,6 @@
 - `tg` <ins title="2022-07-22-12-20-26">deleted</ins> Имба
 - `vk` <ins title="2022-07-22-18-49-50">gloryoftamriel</ins> зачем его тереть?
 
-## <span id="2017-03-30-morning-hunt">Morning Hunt</span>
-
-`RU` Утренняя охота
-
-<a href="https://instagram.com/p/BSQTsAwDzL9/" title="2017-03-30-morning-hunt"><img alt="store:/shots/2017-03-30-morning-hunt.png" src="../../assets/previews/shots/2017-03-30-morning-hunt.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2017-03-30-morning-hunt)</code> `🚀 OpenMW` `nofilter` `hunt` `skeleton` `morning` `guard`
-
-```
-2017-03-30-morning-hunt
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BSQTsAwDzL9/)       | 2017-03-30 |       |    91 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_237)  | 2017-03-30 |   141 |    10 |        50 |     10 |
-| [`ig`](https://instagram.com/p/C38NDKXINQS/)       | 2024-02-29 |   867 |   222 |      1376 |  16.13 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1426) | 2024-02-29 |   371 |    52 |       894 |   5.82 |
-| [`tg`](https://t.me/mwscr/331)                     | 2024-02-29 |   612 |    80 |       338 |  23.67 |
-|                                                    |            |  1991 |   455 |      2608 |   13.9 |
-
-#### Comments
-
-- `ig` <ins title="2024-02-29-19-41-05">angelpeepee__</ins> 🤌🏻🤌🏻
-- `vk` <ins title="2024-02-29-20-53-18">id134482858</ins> Всегда хотел поиграть за скелета в Морровинде)
-- `vk` <ins title="2024-03-01-01-21-46">dobryu_vecher</ins> Когда ты мертв внутри, но квесты выполнять надо
-
 ## <span id="2022-06-25-night-pasture-by-irina-bystritskaya">Night Pasture by Irina Bystritskaya</span>
 
 `RU` Ночной выпас от Ирины Быстрицкой
@@ -1028,6 +997,37 @@
 - `tg` <ins title="2022-06-25-19-07-43">­­</ins> Волшебно
 - `vk` <ins title="2022-06-26-00-31-57">id56690300</ins> спасибо 🖐🏻😊
 - `ig` <ins title="2022-06-26-08-13-42">66.carat.gold</ins> ❤️❤️❤️
+
+## <span id="2017-03-30-morning-hunt">Morning Hunt</span>
+
+`RU` Утренняя охота
+
+<a href="https://instagram.com/p/BSQTsAwDzL9/" title="2017-03-30-morning-hunt"><img alt="store:/shots/2017-03-30-morning-hunt.png" src="../../assets/previews/shots/2017-03-30-morning-hunt.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2017-03-30-morning-hunt)</code> `🚀 OpenMW` `nofilter` `hunt` `skeleton` `morning` `guard`
+
+```
+2017-03-30-morning-hunt
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BSQTsAwDzL9/)       | 2017-03-30 |       |    91 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_237)  | 2017-03-30 |   141 |    10 |        50 |     10 |
+| [`ig`](https://instagram.com/p/C38NDKXINQS/)       | 2024-02-29 |   868 |   221 |      1376 |  16.06 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1426) | 2024-02-29 |   371 |    52 |       894 |   5.82 |
+| [`tg`](https://t.me/mwscr/331)                     | 2024-02-29 |   612 |    80 |       338 |  23.67 |
+|                                                    |            |  1992 |   454 |      2608 |  13.89 |
+
+#### Comments
+
+- `ig` <ins title="2024-02-29-19-41-05">angelpeepee__</ins> 🤌🏻🤌🏻
+- `vk` <ins title="2024-02-29-20-53-18">id134482858</ins> Всегда хотел поиграть за скелета в Морровинде)
+- `vk` <ins title="2024-03-01-01-21-46">dobryu_vecher</ins> Когда ты мертв внутри, но квесты выполнять надо
 
 ## <span id="2022-07-28-steady-dinner">Steady Dinner</span>
 
@@ -1235,10 +1235,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/Cv0e0OdMZ-3/)       | 2023-08-11 |  1007 |   234 |      1402 |  16.69 |
+| [`ig`](https://instagram.com/p/Cv0e0OdMZ-3/)       | 2023-08-11 |  1007 |   233 |      1402 |  16.62 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1409) | 2023-08-11 |   498 |    43 |       895 |    4.8 |
 | [`tg`](https://t.me/mwscr/322,323,324,325)         | 2023-08-11 |  1306 |    59 |       322 |  18.32 |
-|                                                    |            |  2811 |   336 |      2619 |  13.27 |
+|                                                    |            |  2811 |   335 |      2619 |  13.25 |
 
 #### Comments
 
@@ -1326,10 +1326,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQt-jKGjtaW/)       | 2017-02-20 |       |    32 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_161)  | 2017-02-20 |   226 |    20 |        38 |     20 |
-| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   467 |   125 |      1420 |    8.8 |
+| [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   468 |   125 |      1420 |    8.8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1582) | 2024-06-15 |   391 |    51 |       916 |   5.57 |
 | [`tg`](https://t.me/mwscr/440)                     | 2024-06-15 |   457 |    70 |       386 |  18.13 |
-|                                                    |            |  1541 |   298 |      2722 |  13.13 |
+|                                                    |            |  1542 |   298 |      2722 |  13.13 |
 
 #### Comments
 
@@ -1387,10 +1387,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CvSgwuXs7Q5/)       | 2023-07-29 |       |   247 |           |        |
+| [`ig`](https://instagram.com/p/CvSgwuXs7Q5/)       | 2023-07-29 |       |   246 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1391) | 2023-07-29 |   418 |    43 |       891 |   4.83 |
 | [`tg`](https://t.me/mwscr/309)                     | 2023-07-29 |   688 |    68 |       319 |  21.32 |
-|                                                    |            |  1106 |   358 |      1210 |  13.07 |
+|                                                    |            |  1106 |   357 |      1210 |  13.07 |
 
 #### Comments
 
