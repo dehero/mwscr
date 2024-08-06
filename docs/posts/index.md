@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`161 items`
+`162 items`
+
+## <span id="2024-08-06-omalen-ancestral-tomb">Omalen Ancestral Tomb</span>
+
+`RU` Родовая гробница Омаленов
+
+<a href="https://instagram.com/p/BevuGotDVRo/" title="2018-02-03-omalen-ancestral-tomb"><img alt="store:/shots/2018-02-03-omalen-ancestral-tomb.png" src="../../assets/previews/shots/2018-02-03-omalen-ancestral-tomb.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Omalen Ancestral Tomb` `🚀 OpenMW` `tomb` `stones`
+
+```
+2024-08-06-omalen-ancestral-tomb
+```
+
+> `2018-02-03-omalen-ancestral-tomb`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BevuGotDVRo/)       | 2018-02-03 |       |    77 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_600)  | 2018-02-03 |   194 |    12 |       127 |   9.45 |
+| [`ig`](https://instagram.com/p/C-VpvfoNu-W/)       | 2024-08-06 |       |       |      1435 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1669) | 2024-08-06 |       |       |       926 |        |
+| [`tg`](https://t.me/mwscr/492)                     | 2024-08-06 |       |       |       502 |        |
+|                                                    |            |   194 |    89 |      2863 |        |
 
 ## <span id="2024-08-05-in-the-evening-canals-of-vivec">In the Evening Canals of Vivec</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BfBulIkjs5N/)       | 2018-02-10 |       |    90 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_609)  | 2018-02-10 |   186 |    10 |       130 |   7.69 |
-| [`ig`](https://instagram.com/p/C-TE6hwpIqR/)       | 2024-08-05 |   329 |   105 |      1434 |   7.32 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1668) | 2024-08-05 |   188 |    34 |       926 |   3.67 |
-| [`tg`](https://t.me/mwscr/491)                     | 2024-08-05 |   177 |    53 |       490 |  10.82 |
-|                                                    |            |   880 |   292 |      2850 |   7.38 |
+| [`ig`](https://instagram.com/p/C-TE6hwpIqR/)       | 2024-08-05 |   331 |   106 |      1434 |   7.39 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1668) | 2024-08-05 |   190 |    34 |       926 |   3.67 |
+| [`tg`](https://t.me/mwscr/491)                     | 2024-08-05 |   180 |    53 |       490 |  10.82 |
+|                                                    |            |   887 |   293 |      2850 |   7.39 |
 
 #### Comments
 
@@ -128,10 +155,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYsmppVj_HI/)       | 2017-09-06 |       |    69 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_419)  | 2017-09-06 |   235 |    10 |        79 |     10 |
-| [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   294 |    87 |      1434 |   6.07 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |   228 |    37 |       925 |      4 |
-| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |   307 |    57 |       428 |  13.32 |
-|                                                    |            |  1064 |   260 |      2787 |   8.35 |
+| [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   306 |    91 |      1434 |   6.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |   241 |    37 |       925 |      4 |
+| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |   347 |    58 |       428 |  13.55 |
+|                                                    |            |  1129 |   265 |      2787 |   8.47 |
 
 #### Comments
 

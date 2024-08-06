@@ -975,6 +975,19 @@
       followers: 127
       likes: 12
       views: 194
+    - service: ig
+      id: C-VpvfoNu-W
+      mediaId: '17979463679710227'
+      published: 2024-08-06-18-20-47
+      followers: 1435
+    - service: vk
+      id: 1669
+      published: 2024-08-06-18-20-57
+      followers: 926
+    - service: tg
+      id: 492
+      published: 2024-08-06-18-21-04
+      followers: 502
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -1169,26 +1182,26 @@
       id: C-TE6hwpIqR
       mediaId: '17977294379733597'
       published: 2024-08-05-18-20-30
-      updated: 2024-08-06-17-14-34
+      updated: 2024-08-06-18-20-34
       followers: 1434
-      likes: 105
-      views: 329
+      likes: 106
+      views: 331
       comments: !c ixaAkZPLQnkSP2TbAACpamFlY2UzMDAwuGNhbiB5b3UgcG9zdCBtb3JlIHZpZGVvcwM=
     - service: vk
       id: 1668
       published: 2024-08-05-18-20-39
-      updated: 2024-08-06-17-14-34
+      updated: 2024-08-06-18-20-34
       followers: 926
       likes: 34
-      views: 188
+      views: 190
       reposts: 2
     - service: tg
       id: 491
       published: 2024-08-05-18-20-53
-      updated: 2024-08-06-17-14-35
+      updated: 2024-08-06-18-20-34
       followers: 490
       likes: 53
-      views: 177
+      views: 180
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
