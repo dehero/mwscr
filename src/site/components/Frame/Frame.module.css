@@ -1,4 +1,5 @@
 .frame {
+  border-width: 0;
   border-color: var(--color-text);
   border-style: solid;
   border-image-repeat: repeat;
