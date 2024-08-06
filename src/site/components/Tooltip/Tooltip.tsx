@@ -2,7 +2,7 @@ import { createPositionToElement, useMousePosition } from '@solid-primitives/mou
 import { createElementSize } from '@solid-primitives/resize-observer';
 import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
-import { createEffect, createSignal, Show } from 'solid-js';
+import { createSignal, Show } from 'solid-js';
 import { Portal } from 'solid-js/web';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Tooltip.module.css';
@@ -19,21 +19,15 @@ export interface TooltipProps {
 
 export const Tooltip: Component<TooltipProps> = (props) => {
   const [target, setTarget] = createSignal<HTMLElement>();
-  const [isOverlapped, setIsOverlapped] = createSignal(false);
 
   const size = createElementSize(target);
-
   const mouse = useMousePosition();
   const relative = createPositionToElement(
     () => props.forRef,
     () => mouse,
   );
 
-  createEffect(() => {
-    if (props.forRef) {
-      setIsOverlapped(!document.elementsFromPoint(mouse.x, mouse.y).includes(props.forRef));
-    }
-  });
+  const isOverlapped = () => !props.forRef?.contains(document.elementFromPoint(mouse.x, mouse.y));
 
   return (
     <Show when={relative.isInside && mouse.sourceType === 'mouse' && !isOverlapped()}>
