@@ -9,8 +9,9 @@ import type { PostMark, PostType, PostViolation } from '../../../core/entities/p
 import { POST_MARKS, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
-import type { SortDirection } from '../../../core/utils/common-types.js';
+import type { DateRange, SortDirection } from '../../../core/utils/common-types.js';
 import { boolToString, isObjectEqual, stringToBool } from '../../../core/utils/common-utils.js';
+import { dateRangeToString, stringToDateRange } from '../../../core/utils/date-utils.js';
 import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../data-utils/post-infos.js';
 import {
   selectPostInfos,
@@ -21,6 +22,7 @@ import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
 import { Button } from '../Button/Button.js';
 import { Checkbox } from '../Checkbox/Checkbox.js';
+import { DatePicker } from '../DatePicker/DatePicker.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { Input } from '../Input/Input.js';
@@ -44,6 +46,7 @@ export interface PostsPageSearchParams {
   original?: string;
   search?: string;
   sort?: string;
+  date?: string;
 }
 
 const emptySearchParams: PostsPageSearchParams = {
@@ -58,6 +61,7 @@ const emptySearchParams: PostsPageSearchParams = {
   original: undefined,
   search: undefined,
   sort: undefined,
+  date: undefined,
 };
 
 interface PostsPagePreset extends Option {
@@ -86,7 +90,7 @@ type PresetKey = (typeof presets)[number]['value'];
 
 type FilterKey = keyof Pick<
   PostsPageSearchParams,
-  'type' | 'tag' | 'location' | 'author' | 'mark' | 'violation' | 'publishable' | 'original' | 'requester'
+  'type' | 'tag' | 'location' | 'author' | 'mark' | 'violation' | 'publishable' | 'original' | 'requester' | 'date'
 >;
 
 export interface PostsPageInfo extends SiteRouteInfo {
@@ -142,10 +146,11 @@ export const PostsPage: Component = () => {
       (violation) => violation === searchParams.violation,
     ) as SelectPostInfosParams['violation'];
   const sortKey = () =>
-    sortOptions().find((sortOption) => sortOption.value === searchParams.sort?.split(',')[0])?.value || 'id';
+    sortOptions().find((sortOption) => sortOption.value === searchParams.sort?.split(',')[0])?.value || 'date';
   const sortDirection = () => (searchParams.sort?.split(',')[1] === 'asc' ? 'asc' : 'desc');
   const searchTerm = () => searchParams.search;
   const preset = () => presetOptions().find((preset) => isObjectEqual(preset.searchParams, searchParams))?.value;
+  const date = (): DateRange | undefined => (searchParams.date ? stringToDateRange(searchParams.date) : undefined);
 
   const setPreset = (preset: string | undefined) =>
     setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.searchParams });
@@ -163,6 +168,9 @@ export const PostsPage: Component = () => {
     setSearchParams({ sort: `${key || sortKey()},${sortDirection()}` });
   const setSortDirection = (direction: SortDirection | undefined) =>
     setSearchParams({ sort: `${sortKey()},${direction || sortDirection()}` });
+  const setDate = (date: DateRange | undefined) => {
+    setSearchParams({ date: date ? dateRangeToString(date) : undefined });
+  };
 
   const [isSearching, setIsSearching] = createSignal(false);
   const [expandParametersOnNarrowScreen, setExpandParamatersOnNarrowScreen] = makePersisted(createSignal(false), {
@@ -182,6 +190,7 @@ export const PostsPage: Component = () => {
     search: searchTerm(),
     sortKey: sortKey(),
     sortDirection: sortDirection(),
+    date: date(),
   });
 
   const { postInfos, tagOptions, locationOptions, authorOptions, requesterOptions } = useData<PostsPageData>();
@@ -235,6 +244,12 @@ export const PostsPage: Component = () => {
                 value={boolToString(postPublishable())}
                 onChange={(value) => setPostPublishable(stringToBool(value))}
               />
+            </Label>
+          </Show>
+
+          <Show when={!info()?.filters || info()?.filters?.includes('date')}>
+            <Label label="Date" vertical>
+              <DatePicker value={date()} onChange={setDate} period emptyLabel="All" />
             </Label>
           </Show>
 
@@ -368,7 +383,7 @@ export const PostsPage: Component = () => {
           </Show>
 
           <Show when={sortOptions().length > 0}>
-            <Label label="Order By" vertical>
+            <Label label="Sort By" vertical>
               <fieldset class={styles.fieldset}>
                 <Select options={sortOptions()} value={sortKey()} onChange={setSortKey} />
                 <RadioGroup

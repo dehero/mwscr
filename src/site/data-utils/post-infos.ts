@@ -2,9 +2,16 @@ import { isNestedLocation } from '../../core/entities/location.js';
 import type { LocationsReader } from '../../core/entities/locations-reader.js';
 import type { Option } from '../../core/entities/option.js';
 import { ANY_OPTION, NONE_OPTION } from '../../core/entities/option.js';
-import { POST_VIOLATIONS, type PostMark, type PostType, type PostViolation } from '../../core/entities/post.js';
+import {
+  getPostDateById,
+  POST_VIOLATIONS,
+  type PostMark,
+  type PostType,
+  type PostViolation,
+} from '../../core/entities/post.js';
 import type { PostInfo, PostInfoComparator } from '../../core/entities/post-info.js';
 import {
+  comparePostInfosByDate,
   comparePostInfosById,
   comparePostInfosByLikes,
   comparePostInfosByMark,
@@ -14,14 +21,16 @@ import {
 import type { PostsManager } from '../../core/entities/posts-manager.js';
 import { getUserEntryTitle } from '../../core/entities/user.js';
 import type { UsersManager } from '../../core/entities/users-manager.js';
-import type { SortDirection } from '../../core/utils/common-types.js';
+import type { DateRange, SortDirection } from '../../core/utils/common-types.js';
 import { getSearchTokens, search } from '../../core/utils/common-utils.js';
+import { dateToString, formatDate, isDateInRange, isValidDate } from '../../core/utils/date-utils.js';
 
 export interface SelectPostInfoSortOption extends Option {
   fn: (direction: SortDirection) => PostInfoComparator;
 }
 
 export const selectPostInfosSortOptions = [
+  { value: 'date', label: 'Date', fn: comparePostInfosByDate },
   { value: 'id', label: 'ID', fn: comparePostInfosById },
   { value: 'likes', label: 'Likes', fn: comparePostInfosByLikes },
   { value: 'views', label: 'Views', fn: comparePostInfosByViews },
@@ -44,6 +53,7 @@ export interface SelectPostInfosParams {
   original?: boolean;
   sortKey: SelectPostInfosSortKey;
   sortDirection: SortDirection;
+  date?: DateRange;
 }
 
 export const selectPostInfos = (postInfos: PostInfo[], params: SelectPostInfosParams): PostInfo[] => {
@@ -51,31 +61,33 @@ export const selectPostInfos = (postInfos: PostInfo[], params: SelectPostInfosPa
     selectPostInfosSortOptions.find((comparator) => comparator.value === params.sortKey)?.fn ?? comparePostInfosById;
   const searchTokens = getSearchTokens(params.search);
 
-  return [...postInfos]
-    .sort(comparator(params.sortDirection))
-    .filter((info) =>
-      Boolean(
-        (typeof params.publishable === 'undefined' || params.publishable !== Boolean(info.publishableErrors?.length)) &&
-          (typeof params.requester === 'undefined' ||
-            (params.requester === ANY_OPTION.value && info.requesterEntry) ||
-            (params.requester === NONE_OPTION.value && !info.requesterEntry) ||
-            info.requesterEntry?.[0] === params.requester) &&
-          (typeof params.original === 'undefined' || params.original !== Boolean(info.refId)) &&
-          (typeof params.type === 'undefined' || info.type === params.type) &&
-          (typeof params.tag === 'undefined' || info.tags?.includes(params.tag)) &&
-          (typeof params.author === 'undefined' || info.authorEntries.some(([id]) => id === params.author)) &&
-          (typeof params.location === 'undefined' ||
-            (params.location === ANY_OPTION.value && info.location) ||
-            (params.location === NONE_OPTION.value && !info.location) ||
-            (info.location && isNestedLocation(info.location.title, params.location))) &&
-          (typeof params.mark === 'undefined' || info.mark === params.mark) &&
-          (typeof params.violation === 'undefined' ||
-            (params.violation === ANY_OPTION.value && info.violation) ||
-            (params.violation === NONE_OPTION.value && !info.violation) ||
-            info.violation === params.violation) &&
-          search(searchTokens, [info.title, info.titleRu, info.description, info.descriptionRu]),
-      ),
+  return [...postInfos].sort(comparator(params.sortDirection)).filter((info) => {
+    const date = getPostDateById(info.id);
+
+    return Boolean(
+      (typeof params.publishable === 'undefined' || params.publishable !== Boolean(info.publishableErrors?.length)) &&
+        (typeof params.requester === 'undefined' ||
+          (params.requester === ANY_OPTION.value && info.requesterEntry) ||
+          (params.requester === NONE_OPTION.value && !info.requesterEntry) ||
+          info.requesterEntry?.[0] === params.requester) &&
+        (typeof params.date === 'undefined' ||
+          (isValidDate(date) ? isDateInRange(date, params.date, 'date') : false)) &&
+        (typeof params.original === 'undefined' || params.original !== Boolean(info.refId)) &&
+        (typeof params.type === 'undefined' || info.type === params.type) &&
+        (typeof params.tag === 'undefined' || info.tags?.includes(params.tag)) &&
+        (typeof params.author === 'undefined' || info.authorEntries.some(([id]) => id === params.author)) &&
+        (typeof params.location === 'undefined' ||
+          (params.location === ANY_OPTION.value && info.location) ||
+          (params.location === NONE_OPTION.value && !info.location) ||
+          (info.location && isNestedLocation(info.location.title, params.location))) &&
+        (typeof params.mark === 'undefined' || info.mark === params.mark) &&
+        (typeof params.violation === 'undefined' ||
+          (params.violation === ANY_OPTION.value && info.violation) ||
+          (params.violation === NONE_OPTION.value && !info.violation) ||
+          info.violation === params.violation) &&
+        search(searchTokens, [info.title, info.titleRu, info.description, info.descriptionRu]),
     );
+  });
 };
 
 export function selectPostInfosResultToString(count: number, params: SelectPostInfosParams) {
@@ -139,6 +151,14 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
       result.push('with no violations');
     } else {
       result.push(`with "${POST_VIOLATIONS[params.violation].title}" violation`);
+    }
+  }
+
+  if (params.date) {
+    if (params.date[1] && dateToString(params.date[0]) !== dateToString(params.date[1])) {
+      result.push(`from ${formatDate(params.date[0])} to ${formatDate(params.date[1])}`);
+    } else {
+      result.push(`on ${formatDate(params.date[0])}`);
     }
   }
 

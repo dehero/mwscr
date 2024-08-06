@@ -13,7 +13,7 @@ import type {
   PostType,
   PostViolation,
 } from './post.js';
-import { getPostCommentCount, getPostRating, getPostTotalLikes, getPostTotalViews } from './post.js';
+import { getPostCommentCount, getPostDateById, getPostRating, getPostTotalLikes, getPostTotalViews } from './post.js';
 import { isPostDraft, isPublishablePost, isTrashItem } from './post-variation.js';
 import type { UserEntry } from './user.js';
 import type { UsersManager } from './users-manager.js';
@@ -125,4 +125,12 @@ export function comparePostInfosByMark(direction: SortDirection): PostInfoCompar
   return direction === 'asc'
     ? (a, b) => b.mark?.localeCompare(a.mark || '') || byRating(a, b)
     : (a, b) => a.mark?.localeCompare(b.mark || '') || byRating(a, b);
+}
+
+export function comparePostInfosByDate(direction: SortDirection): PostInfoComparator {
+  const byId = comparePostInfosById(direction);
+
+  return direction === 'asc'
+    ? (a, b) => (getPostDateById(a.id)?.getTime() || 0) - (getPostDateById(b.id)?.getTime() || 0) || byId(a, b)
+    : (a, b) => (getPostDateById(b.id)?.getTime() || 0) - (getPostDateById(a.id)?.getTime() || 0) || byId(a, b);
 }
