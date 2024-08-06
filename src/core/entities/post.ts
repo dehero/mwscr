@@ -363,7 +363,7 @@ export function mergePostTags(tags1: string[] | undefined, tags2?: string[] | un
 
 export function getPostDateById(id: string) {
   const parts = id.split('.');
-  const dateStr = (parts.length === 0 ? parts[0] : parts[1])?.slice(0, 10);
+  const dateStr = (parts.length === 1 ? parts[0] : parts[1])?.slice(0, 10);
 
   return dateStr ? stringToDate(dateStr) : undefined;
 }
