@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.6.0](https://github.com/dehero/mwscr/compare/v1.5.2...v1.6.0) (2024-08-06)
+
+### Features
+
+- implement Calendar component
+  ([e1657f3](https://github.com/dehero/mwscr/commit/e1657f38807bef41cd2ba23fd819125dbdd73484))
+- implement DatePicker component
+  ([213d2bc](https://github.com/dehero/mwscr/commit/213d2bc409b3253a2f4ac1c94040ec59652d1dbd))
+- implement post date filtering and sorting
+  ([31ee535](https://github.com/dehero/mwscr/commit/31ee5357a326adbcecabfd0b59e8804b9ea1f5dc))
+
+### Bug Fixes
+
+- correctly find published post date by id
+  ([3823d20](https://github.com/dehero/mwscr/commit/3823d205824bd3971038b0002aca2a66672bb916))
+- don't trigger Tooltip visibility through Dialog
+  ([4db91fd](https://github.com/dehero/mwscr/commit/4db91fd3fee7720847c4b8c3824a1610754eddfa))
+- improve original and publishable post filter labels
+  ([298789b](https://github.com/dehero/mwscr/commit/298789b2545b7492d17044f756364fad49e9bb00))
+- remove border on Frame for null variant
+  ([f037d9d](https://github.com/dehero/mwscr/commit/f037d9dcfe11a14d97fcac18edfe77b6bf6fb0e0))
+
 ## [1.5.2](https://github.com/dehero/mwscr/compare/v1.5.1...v1.5.2) (2024-08-02)
 
 ### Code Refactoring
