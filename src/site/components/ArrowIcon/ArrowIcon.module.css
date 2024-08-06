@@ -1,0 +1,22 @@
+.icon {
+  display: inline-block;
+  width: 13px;
+  height: 10px;
+  vertical-align: baseline;
+  background: url(../../images/tick.png) no-repeat;
+  background-size: 100% 100%;
+  image-rendering: pixelated;
+  transform-origin: center;
+}
+
+.left {
+  transform: scaleY(-1) rotate(90deg);
+}
+
+.up {
+  transform: scaleY(-1);
+}
+
+.right {
+  transform: rotate(270deg);
+}

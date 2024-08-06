@@ -1,0 +1,43 @@
+.calendar {
+  width: 292px;
+  gap: 4px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.label {
+  text-align: center;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 2px;
+}
+
+.month {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+.weekDay {
+  display: flex;
+  color: var(--color-text-light);
+  align-items: center;
+  justify-content: center;
+}
+
+.year {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+}
+
+.decade {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+}

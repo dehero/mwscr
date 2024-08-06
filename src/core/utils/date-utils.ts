@@ -1,3 +1,5 @@
+import type { DateRange } from './common-types.js';
+
 const DATE_EXTRACT_REGEX_YYYYMMDD = /^(.*)(2\d{3})[^\d]?([0-1]\d)[^\d]?([0-3]\d)(.*)$/;
 const DATE_EXTRACT_REGEX_DDMMYYYY = /^(.*)([0-3]\d)[^\d]?([0-1]\d)[^\d]?(2\d{3})(.*)$/;
 
@@ -82,4 +84,81 @@ export function formatDate(date: Date, locale = 'en-GB') {
 
 export function formatTime(date: Date, includeSeconds?: boolean, locale = 'en-GB') {
   return date.toLocaleTimeString(locale, { timeZone: 'UTC', timeStyle: !includeSeconds ? 'short' : undefined });
+}
+
+export function getDecade(date: Date) {
+  return Math.floor(date.getUTCFullYear() / 10);
+}
+
+export function getDecadeYearRange(decade: number): [number, number] {
+  return [decade * 10, decade * 10 + 9];
+}
+
+export function isDateInRange(date: Date, range: DateRange, granularity: 'year' | 'month' | 'date') {
+  const year = date.getUTCFullYear();
+  const month = date.getUTCMonth();
+  const day = date.getUTCDate();
+
+  const startYear = range[0].getUTCFullYear();
+  const startMonth = range[0].getUTCMonth();
+  const startDay = range[0].getUTCDate();
+
+  if (!range[1]) {
+    switch (granularity) {
+      case 'year':
+        return year === startYear;
+      case 'month':
+        return year === startYear && month === startMonth;
+      case 'date':
+        return year === startYear && month === startMonth && day === startDay;
+      default:
+        return false;
+    }
+  }
+
+  const endYear = range[1].getUTCFullYear();
+  const endMonth = range[1].getUTCMonth();
+  const endDay = range[1].getUTCDate();
+
+  switch (granularity) {
+    case 'year':
+      return year >= startYear && year <= endYear;
+    case 'month':
+      return (
+        (year > startYear || (year === startYear && month >= startMonth)) &&
+        (year < endYear || (year === endYear && month <= endMonth))
+      );
+    case 'date':
+      return (
+        (year > startYear ||
+          (year === startYear && month > startMonth) ||
+          (year === startYear && month === startMonth && day >= startDay)) &&
+        (year < endYear ||
+          (year === endYear && month < endMonth) ||
+          (year === endYear && month === endMonth && day <= endDay))
+      );
+    default:
+  }
+
+  return false;
+}
+
+export function dateRangeToString(range: DateRange) {
+  const startStr = dateToString(range[0]);
+  const endStr = range[1] ? dateToString(range[1]) : undefined;
+
+  if (!endStr || startStr === endStr) {
+    return startStr;
+  }
+
+  return `${startStr},${endStr}`;
+}
+
+export function stringToDateRange(value: string): DateRange | undefined {
+  const parts = value
+    .split(',')
+    .map((string) => stringToDate(string))
+    .filter(isValidDate);
+
+  return parts[0] ? [parts[0], parts[1] || undefined] : undefined;
 }
