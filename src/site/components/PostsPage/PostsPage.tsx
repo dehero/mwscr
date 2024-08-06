@@ -226,7 +226,7 @@ export const PostsPage: Component = () => {
           <Divider />
 
           <Show when={!info()?.filters || info()?.filters?.includes('original')}>
-            <Label label="Original" component="div" vertical>
+            <Label label="Originality" component="div" vertical>
               <RadioGroup
                 name="original"
                 options={[ALL_OPTION, { value: 'true', label: 'Originals' }, { value: 'false', label: 'Reposts' }]}
@@ -237,7 +237,7 @@ export const PostsPage: Component = () => {
           </Show>
 
           <Show when={!info()?.filters || info()?.filters?.includes('publishable')}>
-            <Label label="Publishable" component="div" vertical>
+            <Label label="Publishability" component="div" vertical>
               <RadioGroup
                 name="publishable"
                 options={[ALL_OPTION, { value: 'true', label: 'Shortlist' }, { value: 'false', label: 'Drafts' }]}
