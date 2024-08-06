@@ -1,6 +1,8 @@
-[`README`](../../README.md) [`CONTRIBUTING`](../../CONTRIBUTING.md) `Published` [`Inbox`](../inbox/index.md) [`Trash`](../trash/index.md) [`Contributors`](../contributors.md)
+[`README`](../../README.md) [`CONTRIBUTING`](../../CONTRIBUTING.md) `Published` [`Inbox`](../inbox/index.md)
+[`Trash`](../trash/index.md) [`Contributors`](../contributors.md)
 
-[`Top Rated`](top-rated.md) `2024` [`2023`](2023.md) [`2022`](2022.md) [`2020`](2020.md) [`2019`](2019.md) [`2018`](2018.md) [`2017`](2017.md) [`2016`](2016.md)
+[`Top Rated`](top-rated.md) `2024` [`2023`](2023.md) [`2022`](2022.md) [`2020`](2020.md) [`2019`](2019.md)
+[`2018`](2018.md) [`2017`](2017.md) [`2016`](2016.md)
 
 # Posted in 2024
 
@@ -25,7 +27,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BfBulIkjs5N/)       | 2018-02-10 |       |    90 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_609)  | 2018-02-10 |   186 |    10 |       130 |   7.69 |
 | [`ig`](https://instagram.com/p/C-TE6hwpIqR/)       | 2024-08-05 |   277 |    87 |      1434 |   6.07 |
@@ -35,8 +37,10 @@
 
 #### Comments
 
-- `ig` <ins title="2018-02-11-14-36-31">tommytoja</ins> Can&#39;t explain how important is your work, and how right you are artistically. Keep it up, your posts make my days!
-  - <ins title="2018-02-11-15-55-42">mwscr</ins> @znakomicie I&#39;m so excited that my humble works find such a response! Thank you!
+- `ig` <ins title="2018-02-11-14-36-31">tommytoja</ins> Can&#39;t explain how important is your work, and how right you
+  are artistically. Keep it up, your posts make my days!
+  - <ins title="2018-02-11-15-55-42">mwscr</ins> @znakomicie I&#39;m so excited that my humble works find such a
+    response! Thank you!
 - `ig` <ins title="2024-08-05-19-13-50">jaece3000</ins> can you post more videos
 
 ## <span id="2024-08-04-ice-cave-in-the-ice-bay">Ice Cave in the Ice Bay</span>
@@ -47,7 +51,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`C` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-04-ice-cave-in-the-ice-bay)</code> `🚀 OpenMW` `🔗 Bloodmoon`
+`C`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-04-ice-cave-in-the-ice-bay)</code>
+`🚀 OpenMW` `🔗 Bloodmoon`
 
 ```
 2024-08-04-ice-cave-in-the-ice-bay
@@ -58,7 +64,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BkTFAeJlRHU/)       | 2018-06-21 |       |    96 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_775)  | 2018-06-21 |   285 |    19 |       176 |   10.8 |
 | [`ig`](https://instagram.com/p/C-Qf406SXhK/)       | 2024-08-04 |   409 |    85 |      1434 |   5.93 |
@@ -81,7 +87,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-03-drulene-falen-and-her-guars)</code> `🚀 OpenMW` `women`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-03-drulene-falen-and-her-guars)</code>
+`🚀 OpenMW` `women`
 
 ```
 2024-08-03-drulene-falen-and-her-guars
@@ -92,7 +100,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BldrEnAle_Z/)       | 2018-07-20 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_816)  | 2018-07-20 |   260 |    16 |       188 |   8.51 |
 | [`ig`](https://instagram.com/p/C-N7Ma0tkLR/)       | 2024-08-03 |   256 |    72 |      1434 |   5.02 |
@@ -114,7 +122,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-02-dark-morning-in-the-colony)</code> `🚀 OpenMW` `🔗 Bloodmoon`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-02-dark-morning-in-the-colony)</code>
+`🚀 OpenMW` `🔗 Bloodmoon`
 
 ```
 2024-08-02-dark-morning-in-the-colony
@@ -125,7 +135,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BYsmppVj_HI/)       | 2017-09-06 |       |    69 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_419)  | 2017-09-06 |   235 |    10 |        79 |     10 |
 | [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   294 |    87 |      1434 |   6.07 |
@@ -145,7 +155,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-01-in-a-fishermans-hut)</code> `🚀 OpenMW` `candles`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-01-in-a-fishermans-hut)</code>
+`🚀 OpenMW` `candles`
 
 ```
 2024-08-01-in-a-fishermans-hut
@@ -156,7 +168,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BVmJpE9jSWG/)       | 2017-06-21 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_329)  | 2017-06-21 |   104 |     3 |        65 |      3 |
 | [`ig`](https://instagram.com/p/C-HKdRnqQ1E/)       | 2024-08-01 |   243 |    87 |      1434 |   6.07 |
@@ -176,7 +188,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31-comprehension-of-sciences)</code> `🚀 OpenMW` `desk` `candles` `books`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31-comprehension-of-sciences)</code>
+`🚀 OpenMW` `desk` `candles` `books`
 
 ```
 2024-07-31-comprehension-of-sciences
@@ -187,7 +201,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BhKJllaDKQo/)       | 2018-04-04 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_677)  | 2018-04-04 |   176 |    17 |       149 |  11.41 |
 | [`ig`](https://instagram.com/p/C-GS_cMAUNx/)       | 2024-07-31 |   482 |   111 |      1433 |   7.75 |
@@ -203,7 +217,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-30-netches-have-fallen-out)</code> `🚀 OpenMW`
+`B2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-30-netches-have-fallen-out)</code>
+`🚀 OpenMW`
 
 ```
 2024-07-30-netches-have-fallen-out
@@ -214,7 +230,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BY_CeRojNOg/)       | 2017-09-13 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_426)  | 2017-09-13 |   119 |     6 |        79 |      6 |
 | [`ig`](https://instagram.com/p/C-DoImWBS96/)       | 2024-07-30 |   211 |    59 |      1433 |   4.12 |
@@ -230,7 +246,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-29-arch-with-a-canopy)</code> `🚀 OpenMW` `arch`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-29-arch-with-a-canopy)</code>
+`🚀 OpenMW` `arch`
 
 ```
 2024-07-29-arch-with-a-canopy
@@ -241,7 +259,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/Bkiba9VFSl5/)       | 2018-06-27 |       |   100 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_784)  | 2018-06-27 |   286 |    20 |       178 |  11.24 |
 | [`ig`](https://instagram.com/p/C-BDYFOzGbE/)       | 2024-07-29 |   387 |   116 |      1432 |    8.1 |
@@ -251,7 +269,8 @@
 
 #### Comments
 
-- `ig` <ins title="2024-07-29-18-34-48">m4niou</ins> Balmora is pretty from every angle 😩 my absolute favourite city in Morrowind
+- `ig` <ins title="2024-07-29-18-34-48">m4niou</ins> Balmora is pretty from every angle 😩 my absolute favourite city in
+  Morrowind
   - <ins title="2024-07-29-18-57-56">berskate</ins> I agree 🔥😍
 - `ig` <ins title="2024-07-29-18-40-47">invokation</ins> Catch me smoking that skooma on this porch, early morning 🌄
 
@@ -274,7 +293,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BV9WXw3DKxY/)       | 2017-06-30 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_338)  | 2017-06-30 |   104 |     7 |        66 |      7 |
 | [`ig`](https://instagram.com/p/C9-elACupvr/)       | 2024-07-28 |   318 |    89 |      1432 |   6.22 |
@@ -305,7 +324,7 @@
 ### Reactions
 
 |                                                      | published  | views | likes | followers | rating |
-|------------------------------------------------------|------------|------:|------:|----------:|-------:|
+| ---------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/1509343262644597514/) | 2017-05-07 |       |    55 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_282)    | 2017-05-07 |    98 |     4 |        55 |      4 |
 | [`ig`](https://instagram.com/p/C975vMSNVQ0/)         | 2024-07-27 |   271 |    79 |      1432 |   5.52 |
@@ -317,7 +336,8 @@
 
 - `tg` <ins title="2024-07-28-10-56-16">bobrovnikov</ins> Why can’t we build houses like this irl??
   - <ins title="2024-07-28-10-59-08">PuddlesPk</ins> Reject modernity, became morrowind
-  - <ins title="2024-07-28-12-23-45">ansis</ins> we will once the massive crabs with huge exoskeletons to turn into concrete show up
+  - <ins title="2024-07-28-12-23-45">ansis</ins> we will once the massive crabs with huge exoskeletons to turn into
+    concrete show up
 - `tg` <ins title="2024-07-28-11-00-19">Skab4ik</ins> ☺️
 
 ## <span id="2024-07-26-some-scrolls">Some Scrolls</span>
@@ -328,7 +348,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-26-some-scrolls)</code> `🚀 OpenMW` `scrolls` `potion`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-26-some-scrolls)</code>
+`🚀 OpenMW` `scrolls` `potion`
 
 ```
 2024-07-26-some-scrolls
@@ -339,7 +361,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BjpwqFgF69a/)       | 2018-06-05 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_756)  | 2018-06-05 |   267 |    17 |       172 |   9.88 |
 | [`ig`](https://instagram.com/p/C95U9yItRqn/)       | 2024-07-26 |   482 |    87 |      1430 |   6.08 |
@@ -349,7 +371,9 @@
 
 #### Comments
 
-- `vk` <ins title="2018-06-05-20-52-38">songfick</ins> О боги, как же легко было там расставлять предметы, а как статуэтки Дома Дагот и зелья смотрелись вместе😔😢<br>*уползает в ностальгию*<br>Вы не пройдёте... пока не подпишите эти бумаги😭
+- `vk` <ins title="2018-06-05-20-52-38">songfick</ins> О боги, как же легко было там расставлять предметы, а как
+  статуэтки Дома Дагот и зелья смотрелись вместе😔😢<br>_уползает в ностальгию_<br>Вы не пройдёте... пока не подпишите
+  эти бумаги😭
 - `tg` <ins title="2024-07-27-02-33-52">C4H6O4</ins> 😎
 
 ## <span id="2024-07-25-coming-to-balmora">Coming to Balmora</span>
@@ -371,7 +395,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/Bd57gi7Dlsh/)       | 2018-01-13 |       |    76 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_576)  | 2018-01-13 |   187 |    19 |       121 |   15.7 |
 | [`ig`](https://instagram.com/p/C92wJd9PEVU/)       | 2024-07-25 |   383 |   102 |      1430 |   7.13 |
@@ -383,7 +407,8 @@
 
 - `tg` <ins title="2024-07-25-18-21-51">Gatemate7</ins> perfect
 - `tg` <ins title="2024-07-25-18-24-36">ansis</ins> my home...
-- `ig` <ins title="2024-07-25-21-21-26">m4niou</ins> I remember seeing this view for the first time and instantly falling in love with this city 🖤
+- `ig` <ins title="2024-07-25-21-21-26">m4niou</ins> I remember seeing this view for the first time and instantly
+  falling in love with this city 🖤
 - `tg` <ins title="2024-07-26-05-55-51">machine_V2</ins> У меня флешбеки
 
 ## <span id="2024-07-24-in-the-yurt">In the Yurt</span>
@@ -394,7 +419,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-24-in-the-yurt)</code> `🚀 OpenMW` `nofilter` `yurt`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-24-in-the-yurt)</code>
+`🚀 OpenMW` `nofilter` `yurt`
 
 ```
 2024-07-24-in-the-yurt
@@ -405,7 +432,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BUJVeyhjb-N/)       | 2017-05-16 |       |    66 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_292)  | 2017-05-16 |    94 |     5 |        55 |      5 |
 | [`ig`](https://instagram.com/p/C90LbJUTPJo/)       | 2024-07-24 |   327 |   105 |      1429 |   7.35 |
@@ -436,7 +463,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BN5ti6llKES/)       | 2016-12-12 |       |    22 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_29)   | 2017-01-22 |    63 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/C9xmndhv1oc/)       | 2024-07-23 |   247 |    91 |      1426 |   6.38 |
@@ -456,7 +483,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-22-aground)</code> `🚀 OpenMW` `shipwreck` `water` `ship`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-22-aground)</code>
+`🚀 OpenMW` `shipwreck` `water` `ship`
 
 ```
 2024-07-22-aground
@@ -467,7 +496,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BZjamDHD31v/)       | 2017-09-27 |       |    70 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_443)  | 2017-09-27 |   132 |    12 |        79 |     12 |
 | [`ig`](https://instagram.com/p/C9vBxUSMCKV/)       | 2024-07-22 |   489 |    91 |      1426 |   6.38 |
@@ -488,7 +517,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-21-verminous-fabricant)</code> `🚀 OpenMW` `🔗 Tribunal`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-21-verminous-fabricant)</code>
+`🚀 OpenMW` `🔗 Tribunal`
 
 ```
 2024-07-21-verminous-fabricant
@@ -499,7 +530,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BoHsR7lh0cz/)       | 2018-09-24 |       |   108 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_941)  | 2018-09-24 |   362 |    23 |       241 |   9.54 |
 | [`tg`](https://t.me/mwscr/49)                      | 2018-09-24 |   196 |     2 |           |        |
@@ -521,7 +552,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-20-let-the-sun-rise)</code> `🚀 OpenMW` `sun` `statue` `silouette`
+`E`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-20-let-the-sun-rise)</code>
+`🚀 OpenMW` `sun` `statue` `silouette`
 
 ```
 2024-07-20-let-the-sun-rise
@@ -532,7 +565,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/Bi2ZlSinZJ_/)       | 2018-05-16 |       |   125 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_729)  | 2018-05-16 |   261 |    18 |       163 |  11.04 |
 | [`ig`](https://instagram.com/p/C9p4OKHt-4Z/)       | 2024-07-20 |   520 |   103 |      1426 |   7.22 |
@@ -544,7 +577,8 @@
 
 - `ig` <ins title="2018-05-16-20-31-30">verian21</ins> This page should have way more viewers... Great work!
   - <ins title="2018-05-16-21-03-39">mwscr</ins> Thanks!
-- `ig` <ins title="2018-05-17-12-51-43">rachilleart</ins> I&#39;m going to paint one of your screenshots one day I swear, they&#39;re so inspiring
+- `ig` <ins title="2018-05-17-12-51-43">rachilleart</ins> I&#39;m going to paint one of your screenshots one day I
+  swear, they&#39;re so inspiring
   - <ins title="2018-05-17-13-14-10">mwscr</ins> Thank you! I&#39;d like to see your painting.
 - `tg` <ins title="2024-07-20-19-40-24">Gatemate7</ins> this is from 2018 tho
 - `ig` <ins title="2024-07-20-19-52-06">honestthief5</ins> Damn it (reinstalls MW)
@@ -568,7 +602,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BNYupn2lJSA/)       | 2016-11-29 |       |    15 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_16)   | 2017-01-22 |    54 |     1 |         4 |      1 |
 | [`ig`](https://instagram.com/p/C9nTZbKNLvv/)       | 2024-07-19 |   448 |    98 |      1427 |   6.87 |
@@ -588,7 +622,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-18-along-the-street)</code> `🚀 OpenMW` `street`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-18-along-the-street)</code>
+`🚀 OpenMW` `street`
 
 ```
 2024-07-18-along-the-street
@@ -599,7 +635,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BlldXcqF7SD/)       | 2018-07-23 |       |    81 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_822)  | 2018-07-23 |   259 |    18 |       191 |   9.42 |
 | [`ig`](https://instagram.com/p/C9kur6MPT8G/)       | 2024-07-18 |   448 |    89 |      1426 |   6.24 |
@@ -631,7 +667,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BRIQS42DXMy/)       | 2017-03-02 |       |    35 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_179)  | 2017-03-02 |   146 |    11 |        43 |     11 |
 | [`ig`](https://instagram.com/p/C9iJyhxNvPi/)       | 2024-07-17 |   468 |    91 |      1426 |   6.38 |
@@ -653,7 +689,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-16-snowy-waiting)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `snowflakes` `campfire`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-16-snowy-waiting)</code>
+`🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `snowflakes` `campfire`
 
 ```
 2024-07-16-snowy-waiting
@@ -664,7 +702,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BT0zP5AjPDU/)       | 2017-05-08 |       |    69 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_283)  | 2017-05-08 |   123 |     7 |        55 |      7 |
 | [`ig`](https://instagram.com/p/C9flCaxPoS8/)       | 2024-07-16 |   443 |    85 |      1427 |   5.96 |
@@ -684,7 +722,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-15-land-of-ruins)</code> `🚀 OpenMW` `ruin`
+`B2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-15-land-of-ruins)</code>
+`🚀 OpenMW` `ruin`
 
 ```
 2024-07-15-land-of-ruins
@@ -695,7 +735,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BaPYN2kjbff/)       | 2017-10-14 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_460)  | 2017-10-14 |   154 |    10 |        91 |     10 |
 | [`ig`](https://instagram.com/p/C9dAO1WgNlT/)       | 2024-07-15 |   445 |    75 |      1427 |   5.26 |
@@ -722,7 +762,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BXICNkUDVx8/)       | 2017-07-29 |       |    50 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_370)  | 2017-07-29 |   134 |     6 |        71 |      6 |
 | [`ig`](https://instagram.com/p/C9ablVcRfHp/)       | 2024-07-14 |   452 |    66 |      1427 |   4.63 |
@@ -733,7 +773,9 @@
 #### Comments
 
 - `tg` <ins title="2024-07-14-18-23-29">ansis</ins> Beautiful ancient site
-- `vk` <ins title="2024-07-14-22-18-51">artyom_melikhoff</ins> О, вчера рядом проходил во время исполнения Паломничества Семи Добродетелей, как раз закончил с Пещерой Коала и направлялся к Альд&#39;руну, дабы от него пойти к Алтарю Гордости.
+- `vk` <ins title="2024-07-14-22-18-51">artyom_melikhoff</ins> О, вчера рядом проходил во время исполнения Паломничества
+  Семи Добродетелей, как раз закончил с Пещерой Коала и направлялся к Альд&#39;руну, дабы от него пойти к Алтарю
+  Гордости.
 
 ## <span id="2024-07-13-shipping-house">Shipping House</span>
 
@@ -743,7 +785,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-13-shipping-house)</code> `🚀 OpenMW`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-13-shipping-house)</code>
+`🚀 OpenMW`
 
 ```
 2024-07-13-shipping-house
@@ -754,7 +798,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BhZqkfvlo9y/)       | 2018-04-10 |       |   113 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_684)  | 2018-04-10 |   202 |    13 |       149 |   8.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1633) | 2024-07-13 |   285 |    43 |       919 |   4.68 |
@@ -785,7 +829,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BWuBkI6j7il/)       | 2017-07-19 |       |    53 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_358)  | 2017-07-19 |   132 |     8 |        69 |      8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1631) | 2024-07-12 |   241 |    32 |       920 |   3.48 |
@@ -817,7 +861,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BTLoxf1jfRQ/)       | 2017-04-22 |       |    62 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_267)  | 2017-04-22 |   118 |     7 |        54 |      7 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1630) | 2024-07-11 |   234 |    39 |       920 |   4.24 |
@@ -827,7 +871,8 @@
 
 #### Comments
 
-- `ig` <ins title="2024-07-13-17-07-22">bedroomspaghettii</ins> I use to love doing this one at night because of the scenery
+- `ig` <ins title="2024-07-13-17-07-22">bedroomspaghettii</ins> I use to love doing this one at night because of the
+  scenery
 
 ## <span id="2024-07-10-in-the-courtyard-of-royal-palace">In the Courtyard of Royal Palace</span>
 
@@ -848,7 +893,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BUG3cZnD1DK/)       | 2017-05-15 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_291)  | 2017-05-15 |   117 |     9 |        55 |      9 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1629) | 2024-07-10 |   227 |    35 |       919 |   3.81 |
@@ -879,7 +924,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/Bim1govnP18/)       | 2018-05-10 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_716)  | 2018-05-10 |   264 |    20 |       160 |   12.5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1628) | 2024-07-09 |   227 |    33 |       920 |   3.59 |
@@ -906,7 +951,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BWPUM15j2T1/)       | 2017-07-07 |       |    71 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_345)  | 2017-07-07 |   114 |     8 |        66 |      8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1622) | 2024-07-08 |   266 |    36 |       919 |   3.92 |
@@ -931,7 +976,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-07-puzzled-ashlanders)</code> `🚀 OpenMW`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-07-puzzled-ashlanders)</code>
+`🚀 OpenMW`
 
 ```
 2024-07-07-puzzled-ashlanders
@@ -942,7 +989,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BcaYUeUjTFx/)       | 2017-12-07 |       |    99 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_526)  | 2017-12-07 |   177 |    20 |       106 |  18.87 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1621) | 2024-07-07 |   254 |    35 |       919 |   3.81 |
@@ -952,7 +999,8 @@
 
 #### Comments
 
-- `vk` <ins title="2024-07-09-14-14-48">dobryu_vecher</ins> Я их понимаю. Когда ждешь лето по 6 месяцев, а потом в июне бесконечно идут дожди...
+- `vk` <ins title="2024-07-09-14-14-48">dobryu_vecher</ins> Я их понимаю. Когда ждешь лето по 6 месяцев, а потом в июне
+  бесконечно идут дожди...
 - `ig` <ins title="2024-07-12-20-21-28">befriended_stranger</ins> Cosy.
 
 ## <span id="2024-07-06-docks-of-ald-velothi">Docks of Ald Velothi</span>
@@ -974,7 +1022,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/Bcpnsgqj68f/)       | 2017-12-13 |       |    84 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_539)  | 2017-12-13 |   162 |    14 |       108 |  12.96 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1616) | 2024-07-06 |   266 |    49 |       919 |   5.33 |
@@ -984,10 +1032,13 @@
 
 #### Comments
 
-- `vk` <ins title="2024-07-06-18-55-23">demolition.atom</ins> Не знаю отчего бы ремастер не сделать столь чудесной части с переработанной боевкой просто и графой
+- `vk` <ins title="2024-07-06-18-55-23">demolition.atom</ins> Не знаю отчего бы ремастер не сделать столь чудесной части
+  с переработанной боевкой просто и графой
   - <ins title="2024-07-06-22-34-45">id35868942</ins> Потому что игра не про боевку и не про графу ;)
   - <ins title="2024-07-07-11-21-33">club128574987</ins> Именно, она про лор и атмосферу!
-  - <ins title="2024-07-13-06-36-58">artyom_melikhoff</ins> Вадим, ну, боёвку уже можно изменить с помощью Next Generation Combat. Что до ремастера, то ждём Скайвинд, если он когда-нибудь выйдет… Из более реальных проектов есть ещё разрабатываемый Beyond Skyrim: Morrowind.
+  - <ins title="2024-07-13-06-36-58">artyom_melikhoff</ins> Вадим, ну, боёвку уже можно изменить с помощью Next
+    Generation Combat. Что до ремастера, то ждём Скайвинд, если он когда-нибудь выйдет… Из более реальных проектов есть
+    ещё разрабатываемый Beyond Skyrim: Morrowind.
 
 ## <span id="2024-07-05-another-coven">Another Coven</span>
 
@@ -997,7 +1048,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-05-another-coven)</code> `🚀 OpenMW` `campfire`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-05-another-coven)</code>
+`🚀 OpenMW` `campfire`
 
 ```
 2024-07-05-another-coven
@@ -1008,7 +1061,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/Bnrb6krFZm5/)       | 2018-09-13 |       |   119 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_923)  | 2018-09-13 |   332 |    22 |       228 |   9.65 |
 | [`tg`](https://t.me/mwscr/29)                      | 2018-09-13 |   199 |     2 |           |        |
@@ -1025,7 +1078,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-04-elven-nations-cornerclub)</code> `🚀 OpenMW` `nofilter` `bar` `women`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-04-elven-nations-cornerclub)</code>
+`🚀 OpenMW` `nofilter` `bar` `women`
 
 ```
 2024-07-04-elven-nations-cornerclub
@@ -1036,7 +1091,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BQxBGyzjfy0/)       | 2017-02-21 |       |    29 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_165)  | 2017-02-21 |   145 |    10 |        38 |     10 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1613) | 2024-07-04 |   252 |    32 |       919 |   3.48 |
@@ -1052,7 +1107,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-03-ashes-of-d-bryant)</code> `🚀 OpenMW` `farewell`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-03-ashes-of-d-bryant)</code>
+`🚀 OpenMW` `farewell`
 
 ```
 2024-07-03-ashes-of-d-bryant
@@ -1063,7 +1120,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BU1WeeEjfN2/)       | 2017-06-02 |       |    50 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_309)  | 2017-06-02 |   104 |     5 |        60 |      5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1612) | 2024-07-03 |   212 |    27 |       917 |   2.94 |
@@ -1073,7 +1130,7 @@
 
 #### Comments
 
-- `tg` <ins title="2024-07-03-18-31-14">bobrovnikov</ins> RIP D. Bryant  🪦
+- `tg` <ins title="2024-07-03-18-31-14">bobrovnikov</ins> RIP D. Bryant 🪦
   - <ins title="2024-07-03-18-34-25">Gatemate7</ins> ???
 - `ig` <ins title="2024-07-10-15-57-02">zoran.hs</ins> Awesome shot 👏
 
@@ -1085,7 +1142,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-02-the-skar)</code> `🚀 OpenMW` `redoran`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-02-the-skar)</code>
+`🚀 OpenMW` `redoran`
 
 ```
 2024-07-02-the-skar
@@ -1096,7 +1155,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/Bj0GPQElSQl/)       | 2018-06-09 |       |    99 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_761)  | 2018-06-09 |   256 |    23 |       173 |  13.29 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1611) | 2024-07-02 |   284 |    40 |       918 |   4.36 |
@@ -1106,7 +1165,8 @@
 
 #### Comments
 
-- `vk` <ins title="2024-07-05-16-10-46">artyom_melikhoff</ins> Хоть и не проходил за Редоран, Альд&#39;рун всё равно как родной. Благодаря Гильдии Бойцов.
+- `vk` <ins title="2024-07-05-16-10-46">artyom_melikhoff</ins> Хоть и не проходил за Редоран, Альд&#39;рун всё равно как
+  родной. Благодаря Гильдии Бойцов.
 - `ig` <ins title="2024-07-10-12-14-18">delanospies</ins> @dravenjv come hang out tonight here
   - <ins title="2024-07-10-12-27-41">dravenjv</ins> I&#39;ll bring the netch jelly and a 6 pack of sujamma
 
@@ -1118,7 +1178,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-01-near-the-ancient-dwelling)</code> `🚀 OpenMW`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-01-near-the-ancient-dwelling)</code>
+`🚀 OpenMW`
 
 ```
 2024-07-01-near-the-ancient-dwelling
@@ -1129,7 +1191,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BUd_0EqDzzK/)       | 2017-05-24 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_300)  | 2017-05-24 |   110 |     4 |        57 |      4 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1610) | 2024-07-01 |   309 |    54 |       918 |   5.88 |
@@ -1149,7 +1211,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-30-ice-shivers)</code> `🚀 OpenMW` `🔗 Bloodmoon` `ice`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-30-ice-shivers)</code>
+`🚀 OpenMW` `🔗 Bloodmoon` `ice`
 
 ```
 2024-06-30-ice-shivers
@@ -1160,7 +1224,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BbZ220NDivK/)       | 2017-11-12 |       |    66 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_497)  | 2017-11-12 |   170 |    14 |        99 |     14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1609) | 2024-06-30 |   230 |    36 |       918 |   3.92 |
@@ -1176,7 +1240,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-29-lich)</code> `🚀 OpenMW` `🔗 Tribunal` `lich`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-29-lich)</code>
+`🚀 OpenMW` `🔗 Tribunal` `lich`
 
 ```
 2024-06-29-lich
@@ -1187,7 +1253,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/Bj-eugYlTzR/)       | 2018-06-13 |       |   119 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_765)  | 2018-06-13 |   347 |    20 |       173 |  11.56 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1608) | 2024-06-29 |   319 |    37 |       918 |   4.03 |
@@ -1213,7 +1279,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-28-dead-trees-of-the-east-coast)</code> `🚀 OpenMW`
+`A1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-28-dead-trees-of-the-east-coast)</code>
+`🚀 OpenMW`
 
 ```
 2024-06-28-dead-trees-of-the-east-coast
@@ -1224,7 +1292,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BdvHCYojafJ/)       | 2018-01-09 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_572)  | 2018-01-09 |   181 |    16 |       119 |  13.45 |
 | [`ig`](https://instagram.com/p/C8xOkhoJ1Rz/)       | 2024-06-28 |   307 |    77 |      1421 |   5.42 |
@@ -1240,7 +1308,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-27-crates-and-pillows)</code> `🚀 OpenMW` `water`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-27-crates-and-pillows)</code>
+`🚀 OpenMW` `water`
 
 ```
 2024-06-27-crates-and-pillows
@@ -1251,7 +1321,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BciJJ7NDkQ3/)       | 2017-12-10 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_533)  | 2017-12-10 |   174 |    15 |       108 |  13.89 |
 | [`ig`](https://instagram.com/p/C8upuzOxups/)       | 2024-06-27 |   419 |    93 |      1421 |   6.54 |
@@ -1262,8 +1332,10 @@
 #### Comments
 
 - `ig` <ins title="2024-06-28-19-33-21">delanospies</ins> @dravenjv when did they put youre house in the game?
-  - <ins title="2024-06-28-19-35-27">dravenjv</ins> make yourself comfortable man, just don&#39;t check out what&#39;s on the back of the post right there in the middle
-  - <ins title="2024-06-28-20-22-13">delanospies</ins> @dravenjv let me guess....you &#39;found&#39; another skeleton of a dunmer &#39;specimen&#39;?
+  - <ins title="2024-06-28-19-35-27">dravenjv</ins> make yourself comfortable man, just don&#39;t check out what&#39;s
+    on the back of the post right there in the middle
+  - <ins title="2024-06-28-20-22-13">delanospies</ins> @dravenjv let me guess....you &#39;found&#39; another skeleton of
+    a dunmer &#39;specimen&#39;?
 
 ## <span id="2024-06-26-in-an-ice-cave">In an Ice Cave</span>
 
@@ -1273,7 +1345,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-26-in-an-ice-cave)</code> `🚀 OpenMW` `🔗 Bloodmoon` `cave`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-26-in-an-ice-cave)</code>
+`🚀 OpenMW` `🔗 Bloodmoon` `cave`
 
 ```
 2024-06-26-in-an-ice-cave
@@ -1284,7 +1358,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BaHizgWjxSW/)       | 2017-10-11 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_457)  | 2017-10-11 |   171 |    10 |        89 |     10 |
 | [`ig`](https://instagram.com/p/C8sFAeaNJ8f/)       | 2024-06-26 |   262 |    82 |      1422 |   5.77 |
@@ -1315,7 +1389,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BQHvvvZl6c9/)       | 2017-02-05 |       |    34 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_118)  | 2017-02-05 |   167 |    11 |        24 |     11 |
 | [`ig`](https://instagram.com/p/C8pgYD7TvbS/)       | 2024-06-25 |   350 |    98 |      1421 |    6.9 |
@@ -1347,7 +1421,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BnJzjADFUuS/)       | 2018-08-31 |       |   107 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_887)  | 2018-08-31 |   381 |    33 |       219 |  15.07 |
 | [`ig`](https://instagram.com/p/C8m7dsXsDjD/)       | 2024-06-24 |   387 |    95 |      1421 |   6.69 |
@@ -1357,7 +1431,9 @@
 
 #### Comments
 
-- `ig` <ins title="2018-09-02-00-04-22">deleted.erased.dbdhh</ins> Эти улицы, эти лица,разве это то, среди чего я мог высоты добиться, здесь родиться, чтобы в усмерть убиться, чтобы не смотреть в эти лица... Где-то там где кончается улица начинается свет, you, попробуй поднимись выше. (многоточие)
+- `ig` <ins title="2018-09-02-00-04-22">deleted.erased.dbdhh</ins> Эти улицы, эти лица,разве это то, среди чего я мог
+  высоты добиться, здесь родиться, чтобы в усмерть убиться, чтобы не смотреть в эти лица... Где-то там где кончается
+  улица начинается свет, you, попробуй поднимись выше. (многоточие)
 - `ig` <ins title="2024-06-25-09-59-09">someone_simple42</ins> Man, I love those settlements and midnight skies
 
 ## <span id="2024-06-23-dont-go-this-way">Don&#39;t Go This Way</span>
@@ -1368,7 +1444,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-23-dont-go-this-way)</code> `🚀 OpenMW` `🔗 Bloodmoon` `beast`
+`B2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-23-dont-go-this-way)</code>
+`🚀 OpenMW` `🔗 Bloodmoon` `beast`
 
 ```
 2024-06-23-dont-go-this-way
@@ -1379,7 +1457,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BhR6cwGD0eZ/)       | 2018-04-07 |       |    97 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_680)  | 2018-04-07 |   217 |    17 |       150 |  11.33 |
 | [`ig`](https://instagram.com/p/C8kWiR1tHZ3/)       | 2024-06-23 |   429 |    93 |      1422 |   6.54 |
@@ -1389,8 +1467,10 @@
 
 #### Comments
 
-- `vk` <ins title="2024-06-23-18-24-17">qirong666</ins> Как я любил просто шляться по этому острову, сколько там всего интересного!
-  - <ins title="2024-06-26-18-49-12">vladkr114</ins> помни когда мелкий был и не умел качаться, пиз**лей отхватывал постоянно от них
+- `vk` <ins title="2024-06-23-18-24-17">qirong666</ins> Как я любил просто шляться по этому острову, сколько там всего
+  интересного!
+  - <ins title="2024-06-26-18-49-12">vladkr114</ins> помни когда мелкий был и не умел качаться, пиз\*\*лей отхватывал
+    постоянно от них
   - <ins title="2024-06-26-18-50-21">qirong666</ins> Влад, да, серьёзные парни.
 
 ## <span id="2024-06-22-valbrandr-barrow">Valbrandr Barrow</span>
@@ -1401,7 +1481,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-22-valbrandr-barrow)</code> `🚀 OpenMW` `🔗 Bloodmoon` `arc`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-22-valbrandr-barrow)</code>
+`🚀 OpenMW` `🔗 Bloodmoon` `arc`
 
 ```
 2024-06-22-valbrandr-barrow
@@ -1412,7 +1494,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BVb7U63j0AD/)       | 2017-06-17 |       |    63 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_325)  | 2017-06-17 |   116 |     7 |        65 |      7 |
 | [`ig`](https://instagram.com/p/C8hxumczkEX/)       | 2024-06-22 |   336 |    81 |      1421 |    5.7 |
@@ -1443,7 +1525,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BOojKoolo1u/)       | 2016-12-30 |       |    35 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_47)   | 2017-01-22 |    92 |     3 |         4 |      3 |
 | [`ig`](https://instagram.com/p/C8fNH04tqd6/)       | 2024-06-21 |   332 |    89 |      1419 |   6.27 |
@@ -1470,7 +1552,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BRxjL05jQuG/)       | 2017-03-18 |       |    66 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_218)  | 2017-03-18 |   127 |     8 |        46 |      8 |
 | [`ig`](https://instagram.com/p/C8coa5yxQAC/)       | 2024-06-20 |   428 |   101 |      1420 |   7.11 |
@@ -1491,7 +1573,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-19-deseles-house-of-earthly-delights)</code> `🚀 OpenMW` `nofilter` `redlightdistrict` `night`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-19-deseles-house-of-earthly-delights)</code>
+`🚀 OpenMW` `nofilter` `redlightdistrict` `night`
 
 ```
 2024-06-19-deseles-house-of-earthly-delights
@@ -1502,7 +1586,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BSqDBvDjJ9m/)       | 2017-04-09 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_247)  | 2017-04-09 |   132 |     6 |        51 |      6 |
 | [`ig`](https://instagram.com/p/C8aDacDqO5Q/)       | 2024-06-19 |   467 |   115 |      1420 |    8.1 |
@@ -1541,7 +1625,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BYNmZg3jhfJ/)       | 2017-08-25 |       |    51 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_405)  | 2017-08-25 |   116 |     4 |        75 |      4 |
 | [`ig`](https://instagram.com/p/C8XezQrSdW2/)       | 2024-06-18 |   331 |    76 |      1419 |   5.36 |
@@ -1553,7 +1637,7 @@
 
 - `ig` <ins title="2024-06-18-18-24-01">istsieliz</ins> 🫶🏻
 
-## <span id="2024-06-17.28-29-30-ready-or-not-here-i-come">...28, 29, 30. Ready or Not, Here I Come!</span>
+## <span id="2024-06-17-28-29-30-ready-or-not-here-i-come">...28, 29, 30. Ready or Not, Here I Come!</span>
 
 `RU` ...28, 29, 30. Кто не спрятался, я не виноват!
 
@@ -1561,10 +1645,12 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-17.28-29-30-ready-or-not-here-i-come)</code> `🚀 OpenMW` `nofilter`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-17-28-29-30-ready-or-not-here-i-come)</code>
+`🚀 OpenMW` `nofilter`
 
 ```
-2024-06-17.28-29-30-ready-or-not-here-i-come
+2024-06-17-28-29-30-ready-or-not-here-i-come
 ```
 
 > `2017-01-07-28-29-30-ready-or-not-here-i-come`
@@ -1572,7 +1658,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BO9ApuClPs8/)       | 2017-01-07 |       |    29 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_55)   | 2017-01-22 |    95 |     4 |         4 |      4 |
 | [`ig`](https://instagram.com/p/C8U54_gyDzI/)       | 2024-06-17 |   288 |    83 |      1419 |   5.85 |
@@ -1599,7 +1685,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BSGIbOAj8ET/)       | 2017-03-26 |       |    71 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_231)  | 2017-03-26 |   120 |     8 |        48 |      8 |
 | [`ig`](https://instagram.com/p/C8SVEv1MIXI/)       | 2024-06-16 |   481 |    88 |      1419 |    6.2 |
@@ -1624,7 +1710,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-15-waterfall-camp)</code> `🚀 OpenMW` `nofilter` `waterfall` `camp` `campfire`
+`A1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-15-waterfall-camp)</code>
+`🚀 OpenMW` `nofilter` `waterfall` `camp` `campfire`
 
 ```
 2024-06-15-waterfall-camp
@@ -1635,7 +1723,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BQt-jKGjtaW/)       | 2017-02-20 |       |    32 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_161)  | 2017-02-20 |   226 |    20 |        38 |     20 |
 | [`ig`](https://instagram.com/p/C8PwRZSSUsF/)       | 2024-06-15 |   468 |   125 |      1420 |    8.8 |
@@ -1663,13 +1751,14 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2024-02-17-10-39-58.png](../../assets/previews/trash/dehero.2024-02-17-10-39-58.avif "dehero.2024-02-17-10-39-58")
-![store:/trash/dehero.2024-02-17-10-39-53.png](../../assets/previews/trash/dehero.2024-02-17-10-39-53.avif "dehero.2024-02-17-10-39-53")
-![store:/trash/dehero.2024-02-17-10-39-29.png](../../assets/previews/trash/dehero.2024-02-17-10-39-29.avif "dehero.2024-02-17-10-39-29")
-![store:/trash/dehero.2024-02-17-10-38-44.png](../../assets/previews/trash/dehero.2024-02-17-10-38-44.avif "dehero.2024-02-17-10-38-44")
-![store:/trash/dehero.2024-02-17-10-38-22.png](../../assets/previews/trash/dehero.2024-02-17-10-38-22.avif "dehero.2024-02-17-10-38-22")
-![store:/trash/dehero.2024-02-17-10-38-00.png](../../assets/previews/trash/dehero.2024-02-17-10-38-00.avif "dehero.2024-02-17-10-38-00")
-![store:/trash/dehero.2024-02-17-10-39-58.1.png](../../assets/previews/trash/dehero.2024-02-17-10-39-58.1.avif "dehero.2024-02-17-10-39-58.1")
+![store:/trash/dehero.2024-02-17-10-39-58.png](../../assets/previews/trash/dehero.2024-02-17-10-39-58.avif 'dehero.2024-02-17-10-39-58')
+![store:/trash/dehero.2024-02-17-10-39-53.png](../../assets/previews/trash/dehero.2024-02-17-10-39-53.avif 'dehero.2024-02-17-10-39-53')
+![store:/trash/dehero.2024-02-17-10-39-29.png](../../assets/previews/trash/dehero.2024-02-17-10-39-29.avif 'dehero.2024-02-17-10-39-29')
+![store:/trash/dehero.2024-02-17-10-38-44.png](../../assets/previews/trash/dehero.2024-02-17-10-38-44.avif 'dehero.2024-02-17-10-38-44')
+![store:/trash/dehero.2024-02-17-10-38-22.png](../../assets/previews/trash/dehero.2024-02-17-10-38-22.avif 'dehero.2024-02-17-10-38-22')
+![store:/trash/dehero.2024-02-17-10-38-00.png](../../assets/previews/trash/dehero.2024-02-17-10-38-00.avif 'dehero.2024-02-17-10-38-00')
+![store:/trash/dehero.2024-02-17-10-39-58.1.png](../../assets/previews/trash/dehero.2024-02-17-10-39-58.1.avif 'dehero.2024-02-17-10-39-58.1')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
@@ -1683,7 +1772,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C8NLlsCNat6/)       | 2024-06-14 |   410 |   100 |      1419 |   7.05 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1581) | 2024-06-14 |   283 |    40 |       915 |   4.37 |
 | [`tg`](https://t.me/mwscr/439)                     | 2024-06-14 |   440 |    61 |       386 |   15.8 |
@@ -1709,12 +1798,15 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2024-03-24-11-41-57.2.png](../../assets/previews/trash/dehero.2024-03-24-11-41-57.2.avif "dehero.2024-03-24-11-41-57.2")
+![store:/trash/dehero.2024-03-24-11-41-57.2.png](../../assets/previews/trash/dehero.2024-03-24-11-41-57.2.avif 'dehero.2024-03-24-11-41-57.2')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-13-propylon)</code> `🚀 OpenMW` `propylon`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-13-propylon)</code>
+`🚀 OpenMW` `propylon`
 
 ```
 2024-06-13-propylon
@@ -1723,7 +1815,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   481 |   105 |      1420 |   7.39 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   288 |    38 |       915 |   4.15 |
 | [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   405 |    55 |       385 |  14.29 |
@@ -1738,12 +1830,13 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2024-02-05-00-01-00.png](../../assets/previews/trash/dehero.2024-02-05-00-01-00.avif "dehero.2024-02-05-00-01-00")
-![store:/trash/dehero.2024-02-04-23-58-11.png](../../assets/previews/trash/dehero.2024-02-04-23-58-11.avif "dehero.2024-02-04-23-58-11")
-![store:/trash/dehero.2024-02-04-23-57-31.png](../../assets/previews/trash/dehero.2024-02-04-23-57-31.avif "dehero.2024-02-04-23-57-31")
-![store:/trash/dehero.2024-02-05-00-00-55.png](../../assets/previews/trash/dehero.2024-02-05-00-00-55.avif "dehero.2024-02-05-00-00-55")
-![store:/trash/dehero.2024-02-04-23-58-30.png](../../assets/previews/trash/dehero.2024-02-04-23-58-30.avif "dehero.2024-02-04-23-58-30")
-![store:/trash/dehero.2024-02-05-00-01-16.png](../../assets/previews/trash/dehero.2024-02-05-00-01-16.avif "dehero.2024-02-05-00-01-16")
+![store:/trash/dehero.2024-02-05-00-01-00.png](../../assets/previews/trash/dehero.2024-02-05-00-01-00.avif 'dehero.2024-02-05-00-01-00')
+![store:/trash/dehero.2024-02-04-23-58-11.png](../../assets/previews/trash/dehero.2024-02-04-23-58-11.avif 'dehero.2024-02-04-23-58-11')
+![store:/trash/dehero.2024-02-04-23-57-31.png](../../assets/previews/trash/dehero.2024-02-04-23-57-31.avif 'dehero.2024-02-04-23-57-31')
+![store:/trash/dehero.2024-02-05-00-00-55.png](../../assets/previews/trash/dehero.2024-02-05-00-00-55.avif 'dehero.2024-02-05-00-00-55')
+![store:/trash/dehero.2024-02-04-23-58-30.png](../../assets/previews/trash/dehero.2024-02-04-23-58-30.avif 'dehero.2024-02-04-23-58-30')
+![store:/trash/dehero.2024-02-05-00-01-16.png](../../assets/previews/trash/dehero.2024-02-05-00-01-16.avif 'dehero.2024-02-05-00-01-16')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
@@ -1757,7 +1850,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C8IB9hKveMP/)       | 2024-06-12 |   340 |    87 |      1419 |   6.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1579) | 2024-06-12 |   267 |    33 |       915 |   3.61 |
 | [`tg`](https://t.me/mwscr/437)                     | 2024-06-12 |   410 |    53 |       384 |   13.8 |
@@ -1765,7 +1858,8 @@
 
 #### Comments
 
-- `vk` <ins title="2024-06-17-20-10-36">club128574987</ins> Хрен найдёшь, а ведь располагается в соседнем от ближайшего порта квадрате!
+- `vk` <ins title="2024-06-17-20-10-36">club128574987</ins> Хрен найдёшь, а ведь располагается в соседнем от ближайшего
+  порта квадрате!
 
 ## <span id="2024-06-11-emperor-parasols-under-the-rain-of-stars">Emperor Parasols Under the Rain of Stars</span>
 
@@ -1776,7 +1870,8 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-10-12-54-37.png](../../assets/previews/trash/natty.2024-03-10-12-54-37.avif "natty.2024-03-10-12-54-37")
+![store:/trash/natty.2024-03-10-12-54-37.png](../../assets/previews/trash/natty.2024-03-10-12-54-37.avif 'natty.2024-03-10-12-54-37')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
@@ -1790,7 +1885,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C8FdO8RvcLp/)       | 2024-06-11 |   400 |    88 |      1420 |    6.2 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1578) | 2024-06-11 |   262 |    33 |       916 |    3.6 |
 | [`tg`](https://t.me/mwscr/436)                     | 2024-06-11 |   384 |    55 |       384 |  14.32 |
@@ -1798,7 +1893,7 @@
 
 #### Comments
 
-- `ig` <ins title="2024-06-12-15-04-22">katlincase</ins> @beebee1999_  giant shroom trees ☻
+- `ig` <ins title="2024-06-12-15-04-22">katlincase</ins> @beebee1999\_ giant shroom trees ☻
 
 ## <span id="2024-06-10-utensil">Utensil</span>
 
@@ -1809,12 +1904,15 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2022-06-29-23-10-27.png](../../assets/previews/trash/dehero.2022-06-29-23-10-27.avif "dehero.2022-06-29-23-10-27")
+![store:/trash/dehero.2022-06-29-23-10-27.png](../../assets/previews/trash/dehero.2022-06-29-23-10-27.avif 'dehero.2022-06-29-23-10-27')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-10-utensil)</code> `🚀 OpenMW` `table`
+`B2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-10-utensil)</code>
+`🚀 OpenMW` `table`
 
 ```
 2024-06-10-utensil
@@ -1823,7 +1921,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C8C4XSlR7Tf/)       | 2024-06-10 |   344 |    63 |      1421 |   4.43 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1577) | 2024-06-10 |   263 |    32 |       916 |   3.49 |
 | [`tg`](https://t.me/mwscr/435)                     | 2024-06-10 |   401 |    55 |       383 |  14.36 |
@@ -1838,13 +1936,16 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-10-16-18-43.png](../../assets/previews/trash/natty.2024-03-10-16-18-43.avif "natty.2024-03-10-16-18-43")
-![store:/trash/natty.2024-03-10-16-18-35.png](../../assets/previews/trash/natty.2024-03-10-16-18-35.avif "natty.2024-03-10-16-18-35")
+![store:/trash/natty.2024-03-10-16-18-43.png](../../assets/previews/trash/natty.2024-03-10-16-18-43.avif 'natty.2024-03-10-16-18-43')
+![store:/trash/natty.2024-03-10-16-18-35.png](../../assets/previews/trash/natty.2024-03-10-16-18-35.avif 'natty.2024-03-10-16-18-35')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-09-endusal)</code> `🚀 OpenMW` `dwemer` `ruin`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-09-endusal)</code>
+`🚀 OpenMW` `dwemer` `ruin`
 
 ```
 2024-06-09-endusal
@@ -1853,7 +1954,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C8ATY5evIhm/)       | 2024-06-09 |   416 |    96 |      1421 |   6.76 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1576) | 2024-06-09 |   260 |    32 |       916 |   3.49 |
 | [`tg`](https://t.me/mwscr/434)                     | 2024-06-09 |   445 |    58 |       384 |   15.1 |
@@ -1878,7 +1979,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BTYfIxOjZg3/)       | 2017-04-27 |       |    60 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_272)  | 2017-04-27 |   112 |     6 |        54 |      6 |
 | [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   324 |    80 |      1422 |   5.63 |
@@ -1894,7 +1995,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-07-ruins-in-a-mountain-dead-end)</code> `🚀 OpenMW` `ruin` `dwemer`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-07-ruins-in-a-mountain-dead-end)</code>
+`🚀 OpenMW` `ruin` `dwemer`
 
 ```
 2024-06-07-ruins-in-a-mountain-dead-end
@@ -1905,7 +2008,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BcSn8EqD5nv/)       | 2017-12-04 |       |    74 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_523)  | 2017-12-04 |   220 |    17 |       105 |  16.19 |
 | [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   324 |    69 |      1424 |   4.85 |
@@ -1921,7 +2024,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-06-shipwreck-at-the-estuary-of-foyada)</code> `🚀 OpenMW` `shipwreck` `ship`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-06-shipwreck-at-the-estuary-of-foyada)</code>
+`🚀 OpenMW` `shipwreck` `ship`
 
 ```
 2024-06-06-shipwreck-at-the-estuary-of-foyada
@@ -1932,7 +2037,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BfL8-iCHZJn/)       | 2018-02-14 |       |    90 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_613)  | 2018-02-14 |   198 |    17 |       131 |  12.98 |
 | [`ig`](https://instagram.com/p/C74lFspy6fE/)       | 2024-06-06 |   305 |    77 |      1424 |   5.41 |
@@ -1965,7 +2070,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BToBhOEDGBg/)       | 2017-05-03 |       |    67 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_278)  | 2017-05-03 |   239 |    18 |        56 |     18 |
 | [`ig`](https://instagram.com/p/C72ATH0ODB8/)       | 2024-06-05 |   438 |    91 |      1424 |   6.39 |
@@ -2002,7 +2107,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BOMCwTbFtv8/)       | 2016-12-19 |       |    23 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_36)   | 2017-01-22 |    71 |       |         4 |        |
 | [`ig`](https://instagram.com/p/C7zbiOkvtTq/)       | 2024-06-04 |   299 |    89 |      1426 |   6.24 |
@@ -2012,14 +2117,19 @@
 
 #### Comments
 
-- `tg` <ins title="2024-06-04-18-46-08">resist_it</ins> 🥺 это не слезы, это просто пепел прошедшей бури попал в глаза... 😭😭😭
+- `tg` <ins title="2024-06-04-18-46-08">resist_it</ins> 🥺 это не слезы, это просто пепел прошедшей бури попал в
+  глаза... 😭😭😭
 - `ig` <ins title="2024-06-04-20-45-04">someone_simple42</ins> Always loved that coast
   - <ins title="2024-06-04-22-35-36">delanospies</ins> Facts. All these fishing villages are so cozy
-  - <ins title="2024-06-05-03-53-03">someone_simple42</ins> @delanospies that&#39;s one of the best thing about that game, in my opinion
-  - <ins title="2024-06-05-21-16-53">delanospies</ins> Very true my friend. They feel warm and make you want to stay haning around. Best region hands down. Not to mention they many tiny islands or shipwrecks to explore.
-- `vk` <ins title="2024-06-04-21-31-45">vasya_molch</ins> Ооо, оригинальный графон без модов, давненько же я его не видел!<br>Точнее, почти без модов.
+  - <ins title="2024-06-05-03-53-03">someone_simple42</ins> @delanospies that&#39;s one of the best thing about that
+    game, in my opinion
+  - <ins title="2024-06-05-21-16-53">delanospies</ins> Very true my friend. They feel warm and make you want to stay
+    haning around. Best region hands down. Not to mention they many tiny islands or shipwrecks to explore.
+- `vk` <ins title="2024-06-04-21-31-45">vasya_molch</ins> Ооо, оригинальный графон без модов, давненько же я его не
+  видел!<br>Точнее, почти без модов.
 - `vk` <ins title="2024-06-05-09-40-24">demolition.atom</ins> С такой графой ваще беспалевно ништяки на дне валяются
-- `vk` <ins title="2024-06-05-13-14-54">club128574987</ins> Ччёрт, я всегда топил за ваниль, но вот это реально круто, что за моды?
+- `vk` <ins title="2024-06-05-13-14-54">club128574987</ins> Ччёрт, я всегда топил за ваниль, но вот это реально круто,
+  что за моды?
   - <ins title="2024-06-05-17-42-41">mwscr</ins> Дядюшка Крассиус, модов нет, но используется движок OpenMW.
 
 ## <span id="2024-06-03-somewhere-nearby-vivec">Somewhere Nearby Vivec</span>
@@ -2041,7 +2151,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BN1LSAClh3d/)       | 2016-12-10 |       |    19 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_27)   | 2017-01-22 |    64 |     1 |         4 |      1 |
 | [`ig`](https://instagram.com/p/C7w22D9vfx2/)       | 2024-06-03 |   372 |    89 |      1426 |   6.24 |
@@ -2073,7 +2183,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BNlu5umFeXZ/)       | 2016-12-04 |       |    19 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_21)   | 2017-01-22 |    59 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/C7uR50dPL4F/)       | 2024-06-02 |   347 |   106 |      1427 |   7.43 |
@@ -2102,7 +2212,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C7rtBEqvlv8/)       | 2024-06-01 |   366 |    75 |      1428 |   5.25 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1559) | 2024-06-01 |   221 |    24 |       915 |   2.62 |
 | [`tg`](https://t.me/mwscr/426)                     | 2024-06-01 |   414 |    55 |       380 |  14.47 |
@@ -2110,7 +2220,9 @@
 
 #### Comments
 
-- `tg` <ins title="2024-06-01-18-46-21">Master_Eldrad</ins> Мы тут с админами других каналов по TES планируем организовать подборку каналов к взаимному пиару. Будет здорово, если ты присоединишься. Напиши тут или в личку — скину ссылку на наш чат..
+- `tg` <ins title="2024-06-01-18-46-21">Master_Eldrad</ins> Мы тут с админами других каналов по TES планируем
+  организовать подборку каналов к взаимному пиару. Будет здорово, если ты присоединишься. Напиши тут или в личку — скину
+  ссылку на наш чат..
 - `tg` <ins title="2024-06-02-13-47-04">Gatemate7</ins> i fucking hate altmers so much..
   - <ins title="2024-06-02-18-20-19">ansis</ins> dunmer or bust
 
@@ -2122,7 +2234,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-31-in-fir-branches)</code> `🚀 OpenMW` `🔗 Bloodmoon` `firtree` `snow`
+`E`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-31-in-fir-branches)</code>
+`🚀 OpenMW` `🔗 Bloodmoon` `firtree` `snow`
 
 ```
 2024-05-31-in-fir-branches
@@ -2131,7 +2245,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C7pISR-N9hL/)       | 2024-05-31 |   433 |   109 |      1427 |   7.64 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1556) | 2024-05-31 |   277 |    45 |       915 |   4.92 |
 | [`tg`](https://t.me/mwscr/425)                     | 2024-05-31 |   432 |    63 |       379 |  16.62 |
@@ -2139,8 +2253,10 @@
 
 #### Comments
 
-- `vk` <ins title="2024-05-31-18-33-00">untergrundbahn</ins> А в ориге снег идëт?<br>Играл в дополнение, Что-то не попадался, может мод на дополнение?
-  - <ins title="2024-05-31-19-07-45">p40jla</ins> Артём, дополнение bloodmoon. <br>Да, там снег идет, но очень похож пепельную бурю в Вварденфелле. Не заметить ее будет сложно, так как при начале запускает ошибку
+- `vk` <ins title="2024-05-31-18-33-00">untergrundbahn</ins> А в ориге снег идëт?<br>Играл в дополнение, Что-то не
+  попадался, может мод на дополнение?
+  - <ins title="2024-05-31-19-07-45">p40jla</ins> Артём, дополнение bloodmoon. <br>Да, там снег идет, но очень похож
+    пепельную бурю в Вварденфелле. Не заметить ее будет сложно, так как при начале запускает ошибку
 - `vk` <ins title="2024-06-04-13-57-53">peteevandrew</ins> Пурга на Солстхейме..
 
 ## <span id="2024-05-30-telvanni-council-house">Telvanni Council House</span>
@@ -2162,7 +2278,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BPwYG90Fn8f/)       | 2017-01-27 |       |    33 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_99)   | 2017-01-27 |   163 |     7 |         8 |      7 |
 | [`ig`](https://instagram.com/p/C7mjqSQM94n/)       | 2024-05-30 |   480 |    95 |      1427 |   6.66 |
@@ -2172,7 +2288,8 @@
 
 #### Comments
 
-- `vk` <ins title="2024-05-30-20-06-17">untergrundbahn</ins> Как будто паблик действительно следит за мной, постит последние две недели фото там где я недавно был<br>Админ, го в морру зарубимся😁
+- `vk` <ins title="2024-05-30-20-06-17">untergrundbahn</ins> Как будто паблик действительно следит за мной, постит
+  последние две недели фото там где я недавно был<br>Админ, го в морру зарубимся😁
 
 ## <span id="2024-05-29-lord-gothren">Lord Gothren</span>
 
@@ -2182,7 +2299,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-29-lord-gothren)</code> `🚀 OpenMW` `guard` `encounter`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-29-lord-gothren)</code>
+`🚀 OpenMW` `guard` `encounter`
 
 ```
 2024-05-29-lord-gothren
@@ -2193,7 +2312,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BNGr80KFru6/)       | 2016-11-22 |       |    19 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_9)    | 2017-01-22 |    51 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/C7j-qgXsfuy/)       | 2024-05-29 |   409 |    95 |      1426 |   6.66 |
@@ -2209,7 +2328,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-28-two-legioners-talking)</code> `🚀 OpenMW` `encounter`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-28-two-legioners-talking)</code>
+`🚀 OpenMW` `encounter`
 
 ```
 2024-05-28-two-legioners-talking
@@ -2220,7 +2341,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/Bgt0r9hj2bV/)       | 2018-03-24 |       |    98 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_665)  | 2018-03-24 |   206 |    13 |       145 |   8.97 |
 | [`ig`](https://instagram.com/p/C7hZ5lRJxZi/)       | 2024-05-28 |   351 |    90 |      1424 |   6.32 |
@@ -2241,7 +2362,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-27-flight)</code> `🚀 OpenMW`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-27-flight)</code>
+`🚀 OpenMW`
 
 ```
 2024-05-27-flight
@@ -2252,7 +2375,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BZUB0A-jEc7/)       | 2017-09-21 |       |    79 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_437)  | 2017-09-21 |   125 |    10 |        81 |     10 |
 | [`ig`](https://instagram.com/p/C7e1GWkSjKh/)       | 2024-05-27 |   423 |    98 |      1424 |   6.88 |
@@ -2263,8 +2386,9 @@
 #### Comments
 
 - `ig` <ins title="2017-09-21-18-41-05">sir_waclove</ins> I hear this damn battlemusic in my head right now :/
-- `ig` <ins title="2017-09-21-19-32-04">phil_the_burn_</ins> More like cancer
-- `ig` <ins title="2017-09-21-20-00-29">medolya</ins> When I see this picture, the scream of this fckn cliffracer sounds in my head 😩
+- `ig` <ins title="2017-09-21-19-32-04">phil*the_burn*</ins> More like cancer
+- `ig` <ins title="2017-09-21-20-00-29">medolya</ins> When I see this picture, the scream of this fckn cliffracer sounds
+  in my head 😩
 - `ig` <ins title="2017-09-21-20-24-37">vvardenfell</ins> FLLLLLYIN&#39; IN THE SKY, CLIFFRACER FLY, SO HIGH, FLLLLYYY!
 - `vk` <ins title="2024-05-27-18-56-29">jermor</ins> Паарит высакоо
 - `ig` <ins title="2024-05-27-19-39-11">mountcydonia</ins> Aaaaaaargh!
@@ -2282,7 +2406,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-26-shore-shroom)</code> `🚀 OpenMW` `mushrooms` `shore`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-26-shore-shroom)</code>
+`🚀 OpenMW` `mushrooms` `shore`
 
 ```
 2024-05-26-shore-shroom
@@ -2293,7 +2419,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BbKswDeDVyl/)       | 2017-11-06 |       |    75 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_490)  | 2017-11-06 |   182 |    11 |        94 |     11 |
 | [`ig`](https://instagram.com/p/C7cQJmHN_aW/)       | 2024-05-26 |   251 |    68 |      1424 |   4.78 |
@@ -2309,7 +2435,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-25-table-for-two)</code> `🚀 OpenMW` `tablefortwo` `bar`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-25-table-for-two)</code>
+`🚀 OpenMW` `tablefortwo` `bar`
 
 ```
 2024-05-25-table-for-two
@@ -2320,7 +2448,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BiXQhHwlwzn/)       | 2018-05-04 |       |   102 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_708)  | 2018-05-04 |   294 |    23 |       157 |  14.65 |
 | [`ig`](https://instagram.com/p/C7ZrYhctLaK/)       | 2024-05-25 |   354 |    81 |      1423 |   5.69 |
@@ -2340,7 +2468,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-24-gloomy-barrow)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `barrow`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-24-gloomy-barrow)</code>
+`🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `barrow`
 
 ```
 2024-05-24-gloomy-barrow
@@ -2351,7 +2481,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BTalkVND0Lj/)       | 2017-04-28 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_273)  | 2017-04-28 |   131 |     8 |        54 |      8 |
 | [`ig`](https://instagram.com/p/C7XGvzNRHLG/)       | 2024-05-24 |   358 |    86 |      1423 |   6.04 |
@@ -2372,7 +2502,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-23-death-and-life)</code> `🚀 OpenMW` `sunset` `shores`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-23-death-and-life)</code>
+`🚀 OpenMW` `sunset` `shores`
 
 ```
 2024-05-23-death-and-life
@@ -2383,7 +2515,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BixKH3Qnw6p/)       | 2018-05-14 |       |    82 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_721)  | 2018-05-14 |   256 |    18 |       159 |  11.32 |
 | [`ig`](https://instagram.com/p/C7Uh5jVPaMt/)       | 2024-05-23 |   585 |    89 |      1421 |   6.26 |
@@ -2406,7 +2538,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-22-the-road-through-lava)</code> `🚀 OpenMW` `nofilter` `roadfork` `lava`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-22-the-road-through-lava)</code>
+`🚀 OpenMW` `nofilter` `roadfork` `lava`
 
 ```
 2024-05-22-the-road-through-lava
@@ -2417,7 +2551,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BRU4-LiDTW9/)       | 2017-03-07 |       |    38 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_187)  | 2017-03-07 |   136 |     4 |        44 |      4 |
 | [`ig`](https://instagram.com/p/C7R9KGOPhnl/)       | 2024-05-22 |   401 |    85 |      1418 |   5.99 |
@@ -2438,7 +2572,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-21-in-the-cage)</code> `🚀 OpenMW` `cage` `slave`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-21-in-the-cage)</code>
+`🚀 OpenMW` `cage` `slave`
 
 ```
 2024-05-21-in-the-cage
@@ -2449,7 +2585,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/Bh17npDFlIH/)       | 2018-04-21 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_695)  | 2018-04-21 |   287 |    19 |       154 |  12.34 |
 | [`ig`](https://instagram.com/p/C7PYTPsx11H/)       | 2024-05-21 |   374 |    97 |      1418 |   6.84 |
@@ -2460,7 +2596,7 @@
 #### Comments
 
 - `ig` <ins title="2018-04-21-19-45-39">vvardenfell</ins> Free Him
-- `ig` <ins title="2024-05-21-18-59-52">austerion_</ins> Sharpest tool in the shed 😍
+- `ig` <ins title="2024-05-21-18-59-52">austerion\_</ins> Sharpest tool in the shed 😍
 - `ig` <ins title="2024-05-22-11-45-54">spasnakrovi</ins> @katyan_hatersgonnahate
   - <ins title="2024-05-22-22-29-49">katyan_hatersgonnahate</ins> ☹️
 
@@ -2472,7 +2608,9 @@
 
 `shot` by [Darkness Rifho](../contributors.md#darkness-rifho)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-20-place-to-sleep)</code> `bed`
+`B2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-20-place-to-sleep)</code>
+`bed`
 
 ```
 2024-05-20-place-to-sleep
@@ -2481,7 +2619,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C7MzkoNNPlO/)       | 2024-05-20 |   400 |   108 |      1418 |   7.62 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1539) | 2024-05-20 |   265 |    36 |       916 |   3.93 |
 | [`tg`](https://t.me/mwscr/414)                     | 2024-05-20 |   465 |    63 |       372 |  16.94 |
@@ -2490,7 +2628,7 @@
 #### Comments
 
 - `ig` <ins title="2024-05-20-18-48-57">66.carat.gold</ins> I&#39;d nap so hard here
-- `ig` <ins title="2024-05-20-22-46-17">austerion_</ins> All I need in life
+- `ig` <ins title="2024-05-20-22-46-17">austerion\_</ins> All I need in life
 - `ig` <ins title="2024-05-20-23-22-16">eastcoast_lg</ins> Can you post some peoples caches and hideouts?
 - `tg` <ins title="2024-05-29-19-39-37">glider13</ins> Huh where&#39;s this? Murudius Flaceus?
   - <ins title="2024-05-29-19-40-06">Gatemate7</ins> your pfp is so cute 😳
@@ -2504,14 +2642,17 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-10-17-59-36.png](../../assets/previews/trash/natty.2024-03-10-17-59-36.avif "natty.2024-03-10-17-59-36")
-![store:/trash/natty.2024-03-10-17-59-31.png](../../assets/previews/trash/natty.2024-03-10-17-59-31.avif "natty.2024-03-10-17-59-31")
-![store:/trash/natty.2024-03-10-17-59-41.2.png](../../assets/previews/trash/natty.2024-03-10-17-59-41.2.avif "natty.2024-03-10-17-59-41.2")
+![store:/trash/natty.2024-03-10-17-59-36.png](../../assets/previews/trash/natty.2024-03-10-17-59-36.avif 'natty.2024-03-10-17-59-36')
+![store:/trash/natty.2024-03-10-17-59-31.png](../../assets/previews/trash/natty.2024-03-10-17-59-31.avif 'natty.2024-03-10-17-59-31')
+![store:/trash/natty.2024-03-10-17-59-41.2.png](../../assets/previews/trash/natty.2024-03-10-17-59-41.2.avif 'natty.2024-03-10-17-59-41.2')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-19-druscashti)</code> `🚀 OpenMW` `dwemer` `ruin`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-19-druscashti)</code>
+`🚀 OpenMW` `dwemer` `ruin`
 
 ```
 2024-05-19-druscashti
@@ -2520,7 +2661,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C7KOqOwrxAi/)       | 2024-05-19 |   304 |    84 |      1418 |   5.92 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1538) | 2024-05-19 |   239 |    37 |       916 |   4.04 |
 | [`tg`](https://t.me/mwscr/413)                     | 2024-05-19 |   435 |    61 |       372 |   16.4 |
@@ -2549,7 +2690,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BgCGM8QBMHa/)       | 2018-03-07 |       |    86 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_642)  | 2018-03-07 |   213 |    15 |       139 |  10.79 |
 | [`ig`](https://instagram.com/p/C7Hp4OxN4vS/)       | 2024-05-18 |   274 |    68 |      1418 |    4.8 |
@@ -2580,7 +2721,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C7FFN7INkg3/)       | 2024-05-17 |   289 |    81 |      1419 |   5.71 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1535) | 2024-05-17 |   300 |    23 |       915 |   2.51 |
 | [`tg`](https://t.me/mwscr/411)                     | 2024-05-17 |   397 |    50 |       372 |  13.44 |
@@ -2612,7 +2753,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BhHr_a4DlEo/)       | 2018-04-03 |       |    91 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_676)  | 2018-04-03 |   199 |    17 |       148 |  11.49 |
 | [`ig`](https://instagram.com/p/C7CgQu_S-7L/)       | 2024-05-16 |   291 |    91 |      1418 |   6.42 |
@@ -2624,7 +2765,8 @@
 
 - `tg` <ins title="2024-05-16-18-41-49">bobrovnikov</ins> Good evening, everyone
 - `tg` <ins title="2024-05-17-04-25-44">Gatemate7</ins> the hood of morrowind
-- `vk` <ins title="2024-06-25-18-33-13">artyom_melikhoff</ins> Красиво, но блин, душнейшая локация, найти там что-то нереально.
+- `vk` <ins title="2024-06-25-18-33-13">artyom_melikhoff</ins> Красиво, но блин, душнейшая локация, найти там что-то
+  нереально.
 
 ## <span id="2024-05-15-royal-draggle-tail">Royal Draggle-Tail</span>
 
@@ -2635,11 +2777,12 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-28-22-20-02.1.png](../../assets/previews/trash/natty.2024-03-28-22-20-02.1.avif "natty.2024-03-28-22-20-02.1")
-![store:/trash/natty.2024-03-28-22-20-02.png](../../assets/previews/trash/natty.2024-03-28-22-20-02.avif "natty.2024-03-28-22-20-02")
-![store:/trash/natty.2024-03-28-20-43-09.png](../../assets/previews/trash/natty.2024-03-28-20-43-09.avif "natty.2024-03-28-20-43-09")
-![store:/trash/natty.2024-03-28-20-42-55.png](../../assets/previews/trash/natty.2024-03-28-20-42-55.avif "natty.2024-03-28-20-42-55")
-![store:/trash/natty.2024-03-28-20-42-37.png](../../assets/previews/trash/natty.2024-03-28-20-42-37.avif "natty.2024-03-28-20-42-37")
+![store:/trash/natty.2024-03-28-22-20-02.1.png](../../assets/previews/trash/natty.2024-03-28-22-20-02.1.avif 'natty.2024-03-28-22-20-02.1')
+![store:/trash/natty.2024-03-28-22-20-02.png](../../assets/previews/trash/natty.2024-03-28-22-20-02.avif 'natty.2024-03-28-22-20-02')
+![store:/trash/natty.2024-03-28-20-43-09.png](../../assets/previews/trash/natty.2024-03-28-20-43-09.avif 'natty.2024-03-28-20-43-09')
+![store:/trash/natty.2024-03-28-20-42-55.png](../../assets/previews/trash/natty.2024-03-28-20-42-55.avif 'natty.2024-03-28-20-42-55')
+![store:/trash/natty.2024-03-28-20-42-37.png](../../assets/previews/trash/natty.2024-03-28-20-42-37.avif 'natty.2024-03-28-20-42-37')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
@@ -2653,7 +2796,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C6_7fthhz2f/)       | 2024-05-15 |   231 |    63 |      1419 |   4.44 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1533) | 2024-05-15 |   249 |    38 |       915 |   4.15 |
 | [`tg`](https://t.me/mwscr/409)                     | 2024-05-15 |   428 |    56 |       370 |  15.14 |
@@ -2683,7 +2826,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BQR6xN3FKNo/)       | 2017-02-09 |       |    31 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_132)  | 2017-02-09 |   159 |    13 |        30 |     13 |
 | [`ig`](https://instagram.com/p/C69WtfesuXe/)       | 2024-05-14 |   277 |    90 |      1417 |   6.35 |
@@ -2715,7 +2858,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BP9jdC_lEM2/)       | 2017-02-01 |       |    25 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_113)  | 2017-02-01 |   136 |     7 |        22 |      7 |
 | [`ig`](https://instagram.com/p/C66x0k3O4BT/)       | 2024-05-13 |   296 |    88 |      1418 |   6.21 |
@@ -2745,7 +2888,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C64NQM4toqC/)       | 2024-05-12 |   307 |    88 |      1417 |   6.21 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1530) | 2024-05-12 |   245 |    28 |       915 |   3.06 |
 | [`tg`](https://t.me/mwscr/406)                     | 2024-05-12 |   426 |    57 |       371 |  15.36 |
@@ -2770,7 +2913,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BYdQtClDTdx/)       | 2017-08-31 |       |    59 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_411)  | 2017-08-31 |   121 |     8 |        76 |      8 |
 | [`ig`](https://instagram.com/p/C61oPzKREuZ/)       | 2024-05-11 |   413 |   134 |      1418 |   9.45 |
@@ -2783,7 +2926,8 @@
 - `ig` <ins title="2017-09-06-14-40-11">sam.m.cooley</ins> Gotta get dat Sword of White Woe
 - `tg` <ins title="2024-05-11-18-44-43">stasyajoystick</ins> очень красиво
 - `ig` <ins title="2024-05-11-20-30-42">delanospies</ins> @dravenjv my type of spot
-  - <ins title="2024-05-11-20-36-37">dravenjv</ins> good to sit and ground yourself after a night at the house of earthly delights 🔥
+  - <ins title="2024-05-11-20-36-37">dravenjv</ins> good to sit and ground yourself after a night at the house of
+    earthly delights 🔥
   - <ins title="2024-05-11-20-47-16">delanospies</ins> @dravenjv ya feel me 🔥
 - `ig` <ins title="2024-05-12-06-01-51">someone_simple42</ins> I just love lighting and sky in this game
 
@@ -2796,7 +2940,8 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-10-12-38-09.png](../../assets/previews/trash/natty.2024-03-10-12-38-09.avif "natty.2024-03-10-12-38-09")
+![store:/trash/natty.2024-03-10-12-38-09.png](../../assets/previews/trash/natty.2024-03-10-12-38-09.avif 'natty.2024-03-10-12-38-09')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
@@ -2810,7 +2955,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C6zDislvhcZ/)       | 2024-05-10 |   325 |    78 |      1417 |    5.5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1528) | 2024-05-10 |   233 |    26 |       913 |   2.85 |
 | [`tg`](https://t.me/mwscr/404)                     | 2024-05-10 |   451 |    61 |       371 |  16.44 |
@@ -2829,7 +2974,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-09-strategic-stock)</code> `🚀 OpenMW` `barrels`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-09-strategic-stock)</code>
+`🚀 OpenMW` `barrels`
 
 ```
 2024-05-09-strategic-stock
@@ -2840,7 +2987,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/Bi7jBPBlzUw/)       | 2018-05-18 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_731)  | 2018-05-18 |   253 |    14 |       163 |   8.59 |
 | [`ig`](https://instagram.com/p/C6wetaLgomE/)       | 2024-05-09 |   286 |    72 |      1417 |   5.08 |
@@ -2862,7 +3009,9 @@
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-08-slaves-sleep-peacefully-in-their-shacks)</code> `🚀 OpenMW` `night` `stars` `shacks` `fireplace`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-08-slaves-sleep-peacefully-in-their-shacks)</code>
+`🚀 OpenMW` `night` `stars` `shacks` `fireplace`
 
 ```
 2024-05-08-slaves-sleep-peacefully-in-their-shacks
@@ -2871,7 +3020,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C6t6ArvSgR_/)       | 2024-05-08 |   403 |   116 |      1417 |   8.19 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1525) | 2024-05-08 |   292 |    42 |       913 |    4.6 |
 | [`tg`](https://t.me/mwscr/402)                     | 2024-05-08 |   418 |    67 |       370 |  18.11 |
@@ -2879,7 +3028,8 @@
 
 #### Comments
 
-- `tg` <ins title="2024-05-08-18-38-47">BaraFox</ins> Just wait until Twin Lamps cut the slavers and set all of those slaves free!
+- `tg` <ins title="2024-05-08-18-38-47">BaraFox</ins> Just wait until Twin Lamps cut the slavers and set all of those
+  slaves free!
 
 ## <span id="2024-05-07-campfire">Campfire</span>
 
@@ -2890,12 +3040,15 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2019-02-16-21-46-51.png](../../assets/previews/trash/dehero.2019-02-16-21-46-51.avif "dehero.2019-02-16-21-46-51")
+![store:/trash/dehero.2019-02-16-21-46-51.png](../../assets/previews/trash/dehero.2019-02-16-21-46-51.avif 'dehero.2019-02-16-21-46-51')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-07-campfire)</code> `🚀 OpenMW` `campfire`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-07-campfire)</code>
+`🚀 OpenMW` `campfire`
 
 ```
 2024-05-07-campfire
@@ -2904,7 +3057,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C6rVKwMRUNV/)       | 2024-05-07 |   308 |    85 |      1416 |      6 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1524) | 2024-05-07 |   261 |    34 |       913 |   3.72 |
 | [`tg`](https://t.me/mwscr/401)                     | 2024-05-07 |   423 |    53 |       371 |  14.29 |
@@ -2919,7 +3072,8 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2019-05-08-18-13-56.png](../../assets/previews/trash/dehero.2019-05-08-18-13-56.avif "dehero.2019-05-08-18-13-56")
+![store:/trash/dehero.2019-05-08-18-13-56.png](../../assets/previews/trash/dehero.2019-05-08-18-13-56.avif 'dehero.2019-05-08-18-13-56')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
@@ -2933,7 +3087,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C6owokUs7Gc/)       | 2024-05-06 |   254 |    83 |      1416 |   5.86 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1523) | 2024-05-06 |   315 |    44 |       913 |   4.82 |
 | [`tg`](https://t.me/mwscr/400)                     | 2024-05-06 |   446 |    58 |       371 |  15.63 |
@@ -2948,14 +3102,17 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2024-03-05-20-01-36.png](../../assets/previews/trash/dehero.2024-03-05-20-01-36.avif "dehero.2024-03-05-20-01-36")
-![store:/trash/dehero.2024-03-05-19-59-55.png](../../assets/previews/trash/dehero.2024-03-05-19-59-55.avif "dehero.2024-03-05-19-59-55")
-![store:/trash/dehero.2024-03-05-20-00-29.png](../../assets/previews/trash/dehero.2024-03-05-20-00-29.avif "dehero.2024-03-05-20-00-29")
+![store:/trash/dehero.2024-03-05-20-01-36.png](../../assets/previews/trash/dehero.2024-03-05-20-01-36.avif 'dehero.2024-03-05-20-01-36')
+![store:/trash/dehero.2024-03-05-19-59-55.png](../../assets/previews/trash/dehero.2024-03-05-19-59-55.avif 'dehero.2024-03-05-19-59-55')
+![store:/trash/dehero.2024-03-05-20-00-29.png](../../assets/previews/trash/dehero.2024-03-05-20-00-29.avif 'dehero.2024-03-05-20-00-29')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-05-dinner-for-four)</code> `🚀 OpenMW` `table`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-05-dinner-for-four)</code>
+`🚀 OpenMW` `table`
 
 ```
 2024-05-05-dinner-for-four
@@ -2964,7 +3121,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C6mLYNAPoIR/)       | 2024-05-05 |   333 |    86 |      1416 |   6.07 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1519) | 2024-05-05 |   268 |    38 |       913 |   4.16 |
 | [`tg`](https://t.me/mwscr/399)                     | 2024-05-05 |   446 |    60 |       370 |  16.22 |
@@ -2972,7 +3129,8 @@
 
 #### Comments
 
-- `ig` <ins title="2024-05-05-18-20-58">m4niou</ins> I can&#39;t explain this but &#39;Simple screenshots from Morrowind&#39; &gt; &#39;Breathtaking screenshots from Skyrim&#39;
+- `ig` <ins title="2024-05-05-18-20-58">m4niou</ins> I can&#39;t explain this but &#39;Simple screenshots from
+  Morrowind&#39; &gt; &#39;Breathtaking screenshots from Skyrim&#39;
 - `vk` <ins title="2024-05-05-18-48-25">qirong666</ins> Идеально накрыто ❤
   - <ins title="2024-06-25-18-29-17">artyom_melikhoff</ins> Ци, учитывая, что технически ничего не накрыто🤭
 - `vk` <ins title="2024-05-05-19-01-02">lomaev_live</ins> Гильдия Бойцов Альдруна?
@@ -2996,7 +3154,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C6jmnFHNynU/)       | 2024-05-04 |   302 |    78 |      1417 |    5.5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1518) | 2024-05-04 |   255 |    25 |       912 |   2.74 |
 | [`tg`](https://t.me/mwscr/398)                     | 2024-05-04 |   455 |    57 |       367 |  15.53 |
@@ -3014,7 +3172,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-03-coastal-silt-strider)</code> `🚀 OpenMW` `siltstrider`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-03-coastal-silt-strider)</code>
+`🚀 OpenMW` `siltstrider`
 
 ```
 2024-05-03-coastal-silt-strider
@@ -3023,7 +3183,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C6hB52RP4_D/)       | 2024-05-03 |   393 |   108 |      1415 |   7.63 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1517) | 2024-05-03 |   272 |    35 |       912 |   3.84 |
 | [`tg`](https://t.me/mwscr/397)                     | 2024-05-03 |   433 |    57 |       366 |  15.57 |
@@ -3042,7 +3202,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-02-over-the-lava)</code> `🚀 OpenMW` `lava`
+`E`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-02-over-the-lava)</code>
+`🚀 OpenMW` `lava`
 
 ```
 2024-05-02-over-the-lava
@@ -3053,7 +3215,7 @@
 ### Reactions
 
 |                                                      | published  | views | likes | followers | rating |
-|------------------------------------------------------|------------|------:|------:|----------:|-------:|
+| ---------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/1572346381783154677/) | 2017-08-02 |       |    46 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_374)    | 2017-08-02 |   119 |     4 |        72 |      4 |
 | [`ig`](https://instagram.com/p/C6edctIvKh2/)         | 2024-05-02 |   270 |    57 |      1415 |   4.03 |
@@ -3074,7 +3236,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-01-upper-circles)</code> `🚀 OpenMW`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-01-upper-circles)</code>
+`🚀 OpenMW`
 
 ```
 2024-05-01-upper-circles
@@ -3085,7 +3249,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BcQE6_5jawa/)       | 2017-12-03 |       |    94 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_521)  | 2017-12-03 |   160 |    14 |       104 |  13.46 |
 | [`ig`](https://instagram.com/p/C6b4XCOPD2n/)       | 2024-05-01 |   332 |    95 |      1415 |   6.71 |
@@ -3105,7 +3269,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-30-tree-of-magnus)</code> `🚀 OpenMW` `sun` `trees`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-30-tree-of-magnus)</code>
+`🚀 OpenMW` `sun` `trees`
 
 ```
 2024-04-30-tree-of-magnus
@@ -3116,7 +3282,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/Ben7-nSDinT/)       | 2018-01-31 |       |    80 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_596)  | 2018-01-31 |   178 |    16 |       125 |   12.8 |
 | [`ig`](https://instagram.com/p/C6ZiSJrKF26/)       | 2024-04-30 |   309 |    76 |      1415 |   5.37 |
@@ -3141,7 +3307,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1513) | 2024-04-29 |   260 |    36 |       912 |   3.95 |
 | [`tg`](https://t.me/mwscr/393)                     | 2024-04-29 |   462 |    63 |       354 |   17.8 |
 | [`ig`](https://instagram.com/p/C6YQR93NFJz/)       | 2024-04-30 |   306 |    79 |      1415 |   5.58 |
@@ -3170,7 +3336,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BOUENe2lalh/)       | 2016-12-22 |       |    21 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_39)   | 2017-01-22 |    76 |       |         4 |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1512) | 2024-04-28 |   343 |    43 |       911 |   4.72 |
@@ -3186,7 +3352,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-27-sunset-over-the-lava-river)</code> `🚀 OpenMW` `lava` `sunset`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-27-sunset-over-the-lava-river)</code>
+`🚀 OpenMW` `lava` `sunset`
 
 ```
 2024-04-27-sunset-over-the-lava-river
@@ -3197,7 +3365,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BiU0CctlY3V/)       | 2018-05-03 |       |    96 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_707)  | 2018-05-03 |   249 |    12 |       156 |   7.69 |
 | [`ig`](https://instagram.com/p/C6Rk8QfhzGU/)       | 2024-04-27 |   327 |    77 |      1415 |   5.44 |
@@ -3217,7 +3385,9 @@
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-26-winter-and-summer)</code> `🚀 OpenMW` `🔗 Bloodmoon` `snow` `forest` `bear`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-26-winter-and-summer)</code>
+`🚀 OpenMW` `🔗 Bloodmoon` `snow` `forest` `bear`
 
 ```
 2024-04-26-winter-and-summer
@@ -3226,7 +3396,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C6PASWNP8me/)       | 2024-04-26 |   462 |   102 |      1417 |    7.2 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1510) | 2024-04-26 |   257 |    28 |       910 |   3.08 |
 | [`tg`](https://t.me/mwscr/390)                     | 2024-04-26 |   451 |    60 |       354 |  16.95 |
@@ -3251,7 +3421,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BZB9lx7jegT/)       | 2017-09-14 |       |    54 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_427)  | 2017-09-14 |   121 |    10 |        80 |     10 |
 | [`ig`](https://instagram.com/p/C6MbiRMsSy5/)       | 2024-04-25 |   427 |   126 |      1416 |    8.9 |
@@ -3276,14 +3446,17 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-24-11-44-29.png](../../assets/previews/trash/natty.2024-03-24-11-44-29.avif "natty.2024-03-24-11-44-29")
-![store:/trash/natty.2024-03-24-11-43-30.png](../../assets/previews/trash/natty.2024-03-24-11-43-30.avif "natty.2024-03-24-11-43-30")
-![store:/trash/natty.2024-03-24-11-43-28.png](../../assets/previews/trash/natty.2024-03-24-11-43-28.avif "natty.2024-03-24-11-43-28")
+![store:/trash/natty.2024-03-24-11-44-29.png](../../assets/previews/trash/natty.2024-03-24-11-44-29.avif 'natty.2024-03-24-11-44-29')
+![store:/trash/natty.2024-03-24-11-43-30.png](../../assets/previews/trash/natty.2024-03-24-11-43-30.avif 'natty.2024-03-24-11-43-30')
+![store:/trash/natty.2024-03-24-11-43-28.png](../../assets/previews/trash/natty.2024-03-24-11-43-28.avif 'natty.2024-03-24-11-43-28')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-24-muckspunges-on-the-coast)</code> `🚀 OpenMW` `coast`
+`B2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-24-muckspunges-on-the-coast)</code>
+`🚀 OpenMW` `coast`
 
 ```
 2024-04-24-muckspunges-on-the-coast
@@ -3292,7 +3465,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C6J2rHdMfKT/)       | 2024-04-24 |   310 |    77 |      1416 |   5.44 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1508) | 2024-04-24 |   271 |    31 |       909 |   3.41 |
 | [`tg`](https://t.me/mwscr/388)                     | 2024-04-24 |   436 |    63 |       354 |   17.8 |
@@ -3317,7 +3490,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BcDSD4FDcTL/)       | 2017-11-28 |       |    65 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_514)  | 2017-11-28 |   231 |    16 |       103 |  15.53 |
 | [`ig`](https://instagram.com/p/C6HR2-8v05j/)       | 2024-04-23 |   416 |   118 |      1416 |   8.33 |
@@ -3341,8 +3514,9 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2024-02-17-10-53-36.png](../../assets/previews/trash/dehero.2024-02-17-10-53-36.avif "dehero.2024-02-17-10-53-36")
-![store:/trash/dehero.2024-02-17-10-53-27.png](../../assets/previews/trash/dehero.2024-02-17-10-53-27.avif "dehero.2024-02-17-10-53-27")
+![store:/trash/dehero.2024-02-17-10-53-36.png](../../assets/previews/trash/dehero.2024-02-17-10-53-36.avif 'dehero.2024-02-17-10-53-36')
+![store:/trash/dehero.2024-02-17-10-53-27.png](../../assets/previews/trash/dehero.2024-02-17-10-53-27.avif 'dehero.2024-02-17-10-53-27')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
@@ -3356,7 +3530,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C6EtGaMP1-s/)       | 2024-04-22 |   399 |    93 |      1416 |   6.57 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1505) | 2024-04-22 |   242 |    31 |       909 |   3.41 |
 | [`tg`](https://t.me/mwscr/386)                     | 2024-04-22 |   424 |    64 |       354 |  18.08 |
@@ -3376,7 +3550,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-21-a-little-joy-for-hard-worker)</code> `🚀 OpenMW` `candles` `bottle` `cup`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-21-a-little-joy-for-hard-worker)</code>
+`🚀 OpenMW` `candles` `bottle` `cup`
 
 ```
 2024-04-21-a-little-joy-for-hard-worker
@@ -3387,7 +3563,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/Bf1SN0JDvPU/)       | 2018-03-02 |       |    73 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_634)  | 2018-03-02 |   210 |    15 |       136 |  11.03 |
 | [`ig`](https://instagram.com/p/C6CIUEHNfDw/)       | 2024-04-21 |   405 |    89 |      1414 |   6.29 |
@@ -3401,9 +3577,11 @@
   - <ins title="2024-04-21-18-24-30">Gatemate7</ins> maybe bread? this game is do retarded sometimes
 - `ig` <ins title="2024-04-21-21-32-47">delanospies</ins> @dravenjv me rn
   - <ins title="2024-04-21-21-58-20">dravenjv</ins> what I see while sitting in a bathtub somewhere in khuul
-  - <ins title="2024-04-21-22-18-37">delanospies</ins> @dravenjv bro...if you consume 5 bottles of skooma its enough for the night...
+  - <ins title="2024-04-21-22-18-37">delanospies</ins> @dravenjv bro...if you consume 5 bottles of skooma its enough for
+    the night...
 - `vk` <ins title="2024-04-21-22-45-35">artemius_galitzine</ins> После тяжёлого рабочего дня с целью согреть душу 😅✌🏻
-- `tg` <ins title="2024-04-22-13-20-45">Alexey Stepanov</ins> I don’t have much free time at work, but when I look at these photos, a certain warmth warms my soul
+- `tg` <ins title="2024-04-22-13-20-45">Alexey Stepanov</ins> I don’t have much free time at work, but when I look at
+  these photos, a certain warmth warms my soul
 
 ## <span id="2024-04-20-fallen-sanctuary">Fallen Sanctuary</span>
 
@@ -3414,9 +3592,10 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2024-02-05-00-09-19.png](../../assets/previews/trash/dehero.2024-02-05-00-09-19.avif "dehero.2024-02-05-00-09-19")
-![store:/trash/dehero.2024-02-05-00-09-40.1.png](../../assets/previews/trash/dehero.2024-02-05-00-09-40.1.avif "dehero.2024-02-05-00-09-40.1")
-![store:/trash/dehero.2024-02-05-00-09-40.3.png](../../assets/previews/trash/dehero.2024-02-05-00-09-40.3.avif "dehero.2024-02-05-00-09-40.3")
+![store:/trash/dehero.2024-02-05-00-09-19.png](../../assets/previews/trash/dehero.2024-02-05-00-09-19.avif 'dehero.2024-02-05-00-09-19')
+![store:/trash/dehero.2024-02-05-00-09-40.1.png](../../assets/previews/trash/dehero.2024-02-05-00-09-40.1.avif 'dehero.2024-02-05-00-09-40.1')
+![store:/trash/dehero.2024-02-05-00-09-40.3.png](../../assets/previews/trash/dehero.2024-02-05-00-09-40.3.avif 'dehero.2024-02-05-00-09-40.3')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
@@ -3430,7 +3609,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C5_jjRLxIhb/)       | 2024-04-20 |   584 |   145 |      1414 |  10.25 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1502) | 2024-04-20 |   290 |    31 |       909 |   3.41 |
 | [`tg`](https://t.me/mwscr/384)                     | 2024-04-20 |   424 |    58 |       354 |  16.38 |
@@ -3457,7 +3636,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C58-rKfNvb5/)       | 2024-04-19 |   441 |   108 |      1414 |   7.64 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1501) | 2024-04-19 |   283 |    37 |       909 |   4.07 |
 | [`tg`](https://t.me/mwscr/383)                     | 2024-04-19 |   412 |    64 |       354 |  18.08 |
@@ -3486,7 +3665,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BNBvXZ1lEOl/)       | 2016-11-20 |       |    16 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_3)    | 2017-01-22 |    55 |     3 |         4 |      3 |
 | [`ig`](https://instagram.com/p/C56Z9krvS4F/)       | 2024-04-18 |   394 |    90 |      1412 |   6.37 |
@@ -3503,7 +3682,8 @@
 - `vk` <ins title="2024-04-18-18-29-25">mwscr</ins> С этого скриншота началась история канала в 2016 году.
 - `ig` <ins title="2024-04-18-18-31-53">mwscr</ins> This screenshot started the history of this channel in 2016.
   - <ins title="2024-04-18-18-39-04">stevenbuitenhuis</ins> when a legend was born
-- `tg` <ins title="2024-04-18-19-43-03">dismasterfrane</ins> I recently discovered this channel but I immediately fell in love with it
+- `tg` <ins title="2024-04-18-19-43-03">dismasterfrane</ins> I recently discovered this channel but I immediately fell
+  in love with it
 
 ## <span id="2024-04-17-interior-garden">Interior Garden</span>
 
@@ -3513,7 +3693,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-17-interior-garden)</code> `🚀 OpenMW` `nofilter` `mushrooms` `interiorgarden`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-17-interior-garden)</code>
+`🚀 OpenMW` `nofilter` `mushrooms` `interiorgarden`
 
 ```
 2024-04-17-interior-garden
@@ -3524,7 +3706,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BSSo_M4Dm2-/)       | 2017-03-31 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_238)  | 2017-03-31 |   121 |     4 |        50 |      4 |
 | [`ig`](https://instagram.com/p/C531KaqsRUG/)       | 2024-04-17 |   397 |    97 |      1413 |   6.86 |
@@ -3540,7 +3722,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-16-birth-of-fabricant)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-16-birth-of-fabricant)</code>
+`🚀 OpenMW` `🔗 Tribunal` `sothasil`
 
 ```
 2024-04-16-birth-of-fabricant
@@ -3551,7 +3735,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BeBen7vj3Ii/)       | 2018-01-16 |       |    81 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_579)  | 2018-01-16 |   543 |    28 |       122 |  22.95 |
 | [`ig`](https://instagram.com/p/C51QP5Urf1u/)       | 2024-04-16 |   540 |   117 |      1414 |   8.27 |
@@ -3561,8 +3745,10 @@
 
 #### Comments
 
-- `ig` <ins title="2018-01-17-15-28-45">konst.mk</ins> Расскажите, пожалуйста, где искать? А то я в трибунал почти не играл
-  - <ins title="2018-01-17-16-25-19">mwscr</ins> @konstantin.manyakhin Это в Заводом городе, купол Серлин. Туда можно телепортироваться в конце сюжетной линии Трибунала.
+- `ig` <ins title="2018-01-17-15-28-45">konst.mk</ins> Расскажите, пожалуйста, где искать? А то я в трибунал почти не
+  играл
+  - <ins title="2018-01-17-16-25-19">mwscr</ins> @konstantin.manyakhin Это в Заводом городе, купол Серлин. Туда можно
+    телепортироваться в конце сюжетной линии Трибунала.
 - `tg` <ins title="2024-04-16-20-26-58">alex_emsow</ins> I just hate this place😅
   - <ins title="2024-04-16-20-54-22">Gatemate7</ins> this is a mod?
 
@@ -3575,13 +3761,16 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-24-11-56-31.png](../../assets/previews/trash/natty.2024-03-24-11-56-31.avif "natty.2024-03-24-11-56-31")
-![store:/trash/natty.2024-03-24-11-56-33.2.png](../../assets/previews/trash/natty.2024-03-24-11-56-33.2.avif "natty.2024-03-24-11-56-33.2")
+![store:/trash/natty.2024-03-24-11-56-31.png](../../assets/previews/trash/natty.2024-03-24-11-56-31.avif 'natty.2024-03-24-11-56-31')
+![store:/trash/natty.2024-03-24-11-56-33.2.png](../../assets/previews/trash/natty.2024-03-24-11-56-33.2.avif 'natty.2024-03-24-11-56-33.2')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-15-night-at-red-mountain)</code> `🚀 OpenMW` `dwemer` `ruin` `bridge` `towers`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-15-night-at-red-mountain)</code>
+`🚀 OpenMW` `dwemer` `ruin` `bridge` `towers`
 
 ```
 2024-04-15-night-at-red-mountain
@@ -3590,7 +3779,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C5yrij1LmAN/)       | 2024-04-15 |   416 |   117 |      1414 |   8.27 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1495) | 2024-04-15 |   277 |    47 |       910 |   5.16 |
 | [`tg`](https://t.me/mwscr/379)                     | 2024-04-15 |   451 |    59 |       352 |  16.76 |
@@ -3622,7 +3811,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BTgPnBsDnCq/)       | 2017-04-30 |       |    76 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_275)  | 2017-04-30 |   177 |     5 |        54 |      5 |
 | [`ig`](https://instagram.com/p/C5wWKSEO30a/)       | 2024-04-14 |   452 |   112 |      1413 |   7.93 |
@@ -3639,9 +3828,10 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-28-20-25-07.2.png](../../assets/previews/trash/natty.2024-03-28-20-25-07.2.avif "natty.2024-03-28-20-25-07.2")
-![store:/trash/natty.2024-03-28-20-25-03.png](../../assets/previews/trash/natty.2024-03-28-20-25-03.avif "natty.2024-03-28-20-25-03")
-![store:/trash/natty.2024-03-28-20-24-35.png](../../assets/previews/trash/natty.2024-03-28-20-24-35.avif "natty.2024-03-28-20-24-35")
+![store:/trash/natty.2024-03-28-20-25-07.2.png](../../assets/previews/trash/natty.2024-03-28-20-25-07.2.avif 'natty.2024-03-28-20-25-07.2')
+![store:/trash/natty.2024-03-28-20-25-03.png](../../assets/previews/trash/natty.2024-03-28-20-25-03.avif 'natty.2024-03-28-20-25-03')
+![store:/trash/natty.2024-03-28-20-24-35.png](../../assets/previews/trash/natty.2024-03-28-20-24-35.avif 'natty.2024-03-28-20-24-35')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
@@ -3655,7 +3845,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C5thvvzynm3/)       | 2024-04-13 |   477 |   119 |      1412 |   8.43 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1492) | 2024-04-13 |   277 |    36 |       911 |   3.95 |
 | [`tg`](https://t.me/mwscr/377)                     | 2024-04-13 |   430 |    63 |       351 |  17.95 |
@@ -3685,7 +3875,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BPcBYf9lwjH/)       | 2017-01-19 |       |    34 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_67)   | 2017-01-19 |   138 |     5 |         4 |      5 |
 | [`ig`](https://instagram.com/p/C5q81aSMyOO/)       | 2024-04-12 |   414 |   104 |      1413 |   7.36 |
@@ -3695,9 +3885,12 @@
 
 #### Comments
 
-- `tg` <ins title="2024-04-12-18-18-58">C4H6O4</ins> Не знаю почему, но моя душа будто искала такой скриншот всю жизнь.. Настолько как-то  подсознательно, что я сама не догадывалась его сделать.<br>Интересно, какая реакция будет  за семейным столом, когда у меня спросят &quot;чего хочешь добиться? Куда поступать?&quot; А я отвечу -Хочу жить в огромном грибе и быть магом разрушения
-  - <ins title="2024-04-12-18-24-26">mwscr</ins> 
-- `tg` <ins title="2024-04-12-20-21-13">stasyajoystick</ins> 
+- `tg` <ins title="2024-04-12-18-18-58">C4H6O4</ins> Не знаю почему, но моя душа будто искала такой скриншот всю жизнь..
+  Настолько как-то подсознательно, что я сама не догадывалась его сделать.<br>Интересно, какая реакция будет за семейным
+  столом, когда у меня спросят &quot;чего хочешь добиться? Куда поступать?&quot; А я отвечу -Хочу жить в огромном грибе
+  и быть магом разрушения
+  - <ins title="2024-04-12-18-24-26">mwscr</ins>
+- `tg` <ins title="2024-04-12-20-21-13">stasyajoystick</ins>
 - `ig` <ins title="2024-04-12-20-29-19">lightvision11</ins> 👻
 - `ig` <ins title="2024-04-12-23-31-32">delanospies</ins> @dravenjv meet me here in 3 hours.
 
@@ -3710,8 +3903,9 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-10-16-22-51.1.png](../../assets/previews/trash/natty.2024-03-10-16-22-51.1.avif "natty.2024-03-10-16-22-51.1")
-![store:/trash/natty.2024-03-10-16-22-51.2.png](../../assets/previews/trash/natty.2024-03-10-16-22-51.2.avif "natty.2024-03-10-16-22-51.2")
+![store:/trash/natty.2024-03-10-16-22-51.1.png](../../assets/previews/trash/natty.2024-03-10-16-22-51.1.avif 'natty.2024-03-10-16-22-51.1')
+![store:/trash/natty.2024-03-10-16-22-51.2.png](../../assets/previews/trash/natty.2024-03-10-16-22-51.2.avif 'natty.2024-03-10-16-22-51.2')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
@@ -3725,7 +3919,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C5oYU4kunXC/)       | 2024-04-11 |   402 |   102 |      1412 |   7.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1490) | 2024-04-11 |   224 |    27 |       911 |   2.96 |
 | [`tg`](https://t.me/mwscr/375)                     | 2024-04-11 |  1083 |    66 |       352 |  18.75 |
@@ -3735,7 +3929,8 @@
 
 - `ig` <ins title="2024-04-13-11-46-18">someone_simple42</ins> Nice. Who&#39;s Natty?
   - <ins title="2024-04-13-17-02-29">mwscr</ins> Natty is anonymous project author for now.
-  - <ins title="2024-04-13-17-13-24">someone_simple42</ins> @mwscr sounds cool. Best regards to Natty and everyone involved 🤜🤛
+  - <ins title="2024-04-13-17-13-24">someone_simple42</ins> @mwscr sounds cool. Best regards to Natty and everyone
+    involved 🤜🤛
 
 ## <span id="2024-04-10-sun-mushrooms">Sun Mushrooms</span>
 
@@ -3754,7 +3949,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C5lzx5zyeUS/)       | 2024-04-10 |   287 |    73 |      1411 |   5.17 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1489) | 2024-04-10 |   221 |    30 |       911 |   3.29 |
 | [`tg`](https://t.me/mwscr/374)                     | 2024-04-10 |   426 |    58 |       353 |  16.43 |
@@ -3769,8 +3964,9 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-10-18-15-10.png](../../assets/previews/trash/natty.2024-03-10-18-15-10.avif "natty.2024-03-10-18-15-10")
-![store:/trash/natty.2024-03-10-18-15-19.1.png](../../assets/previews/trash/natty.2024-03-10-18-15-19.1.avif "natty.2024-03-10-18-15-19.1")
+![store:/trash/natty.2024-03-10-18-15-10.png](../../assets/previews/trash/natty.2024-03-10-18-15-10.avif 'natty.2024-03-10-18-15-10')
+![store:/trash/natty.2024-03-10-18-15-19.1.png](../../assets/previews/trash/natty.2024-03-10-18-15-19.1.avif 'natty.2024-03-10-18-15-19.1')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
@@ -3784,7 +3980,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C5jOmkLursk/)       | 2024-04-09 |   418 |   104 |      1410 |   7.38 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1488) | 2024-04-09 |   254 |    39 |       911 |   4.28 |
 | [`tg`](https://t.me/mwscr/373)                     | 2024-04-09 |   430 |    66 |       353 |   18.7 |
@@ -3792,7 +3988,7 @@
 
 #### Comments
 
-- `ig` <ins title="2024-04-09-18-31-32">angelpeepee__</ins> My crib
+- `ig` <ins title="2024-04-09-18-31-32">angelpeepee\_\_</ins> My crib
 
 ## <span id="2024-04-08-lava-fork">Lava Fork</span>
 
@@ -3803,9 +3999,10 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2024-02-04-23-39-03.png](../../assets/previews/trash/dehero.2024-02-04-23-39-03.avif "dehero.2024-02-04-23-39-03")
-![store:/trash/dehero.2024-02-04-23-39-03.1.png](../../assets/previews/trash/dehero.2024-02-04-23-39-03.1.avif "dehero.2024-02-04-23-39-03.1")
-![store:/trash/dehero.2024-02-04-23-38-04.2.png](../../assets/previews/trash/dehero.2024-02-04-23-38-04.2.avif "dehero.2024-02-04-23-38-04.2")
+![store:/trash/dehero.2024-02-04-23-39-03.png](../../assets/previews/trash/dehero.2024-02-04-23-39-03.avif 'dehero.2024-02-04-23-39-03')
+![store:/trash/dehero.2024-02-04-23-39-03.1.png](../../assets/previews/trash/dehero.2024-02-04-23-39-03.1.avif 'dehero.2024-02-04-23-39-03.1')
+![store:/trash/dehero.2024-02-04-23-38-04.2.png](../../assets/previews/trash/dehero.2024-02-04-23-38-04.2.avif 'dehero.2024-02-04-23-38-04.2')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
@@ -3819,7 +4016,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C5gqOIYx--3/)       | 2024-04-08 |   468 |   132 |      1409 |   9.37 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1487) | 2024-04-08 |   194 |    31 |       909 |   3.41 |
 | [`tg`](https://t.me/mwscr/372)                     | 2024-04-08 |   435 |    60 |       354 |  16.95 |
@@ -3844,7 +4041,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BNER2c_FCVh/)       | 2016-11-21 |       |    20 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_8)    | 2017-01-22 |    53 |     3 |         4 |      3 |
 | [`ig`](https://instagram.com/p/C5eFAr9gjlh/)       | 2024-04-07 |   528 |   141 |      1406 |  10.03 |
@@ -3874,7 +4071,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C5bgTjdu9Go/)       | 2024-04-06 |   431 |   111 |      1406 |   7.89 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1484) | 2024-04-06 |   300 |    47 |       909 |   5.17 |
 | [`tg`](https://t.me/mwscr/370)                     | 2024-04-06 |   432 |    67 |       354 |  18.93 |
@@ -3883,7 +4080,8 @@
 #### Comments
 
 - `ig` <ins title="2024-04-07-12-22-08">sithknight72</ins> I’m curious if you’ve ever considered using MGE?
-- `ig` <ins title="2024-04-07-13-31-04">mwscr</ins> MGE is acceptable option for shooting. But I personally prefer OpenMW.
+- `ig` <ins title="2024-04-07-13-31-04">mwscr</ins> MGE is acceptable option for shooting. But I personally prefer
+  OpenMW.
 
 ## <span id="2024-04-05-rain-of-sparks">Rain of Sparks</span>
 
@@ -3904,7 +4102,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BZoftR2DJ_O/)       | 2017-09-29 |       |    67 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_445)  | 2017-09-29 |   150 |    10 |        79 |     10 |
 | [`ig`](https://instagram.com/p/C5Y7jcKSfPS/)       | 2024-04-05 |   518 |   105 |      1406 |   7.47 |
@@ -3928,7 +4126,8 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-10-18-14-27.png](../../assets/previews/trash/natty.2024-03-10-18-14-27.avif "natty.2024-03-10-18-14-27")
+![store:/trash/natty.2024-03-10-18-14-27.png](../../assets/previews/trash/natty.2024-03-10-18-14-27.avif 'natty.2024-03-10-18-14-27')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
@@ -3942,7 +4141,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C5WWKeRRTCu/)       | 2024-04-04 |   510 |   118 |      1406 |   8.39 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1480) | 2024-04-04 |   427 |    51 |       906 |   5.63 |
 | [`tg`](https://t.me/mwscr/367)                     | 2024-04-04 |   457 |    61 |       354 |  17.23 |
@@ -3971,7 +4170,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BVCJ8xHDrD1/)       | 2017-06-07 |       |    51 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_314)  | 2017-06-07 |   213 |     9 |        61 |      9 |
 | [`ig`](https://instagram.com/p/C5TxQvku6cF/)       | 2024-04-03 |    88 |     9 |      1408 |   0.64 |
@@ -4000,7 +4199,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C5RMenFr1dt/)       | 2024-04-02 |   377 |    78 |      1403 |   5.56 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1478) | 2024-04-02 |   260 |    25 |       906 |   2.76 |
 | [`tg`](https://t.me/mwscr/365)                     | 2024-04-02 |   450 |    55 |       355 |  15.49 |
@@ -4025,7 +4224,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BbpUVTiDuSA/)       | 2017-11-18 |       |    75 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_504)  | 2017-11-18 |   167 |    13 |       100 |     13 |
 | [`ig`](https://instagram.com/p/C5OnpxAR_W5/)       | 2024-04-01 |   405 |    99 |      1403 |   7.06 |
@@ -4047,7 +4246,8 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-10-18-31-53.png](../../assets/previews/trash/natty.2024-03-10-18-31-53.avif "natty.2024-03-10-18-31-53")
+![store:/trash/natty.2024-03-10-18-31-53.png](../../assets/previews/trash/natty.2024-03-10-18-31-53.avif 'natty.2024-03-10-18-31-53')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
@@ -4061,7 +4261,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C5MCzuJy_65/)       | 2024-03-31 |   506 |    99 |      1403 |   7.06 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1476) | 2024-03-31 |   255 |    29 |       905 |    3.2 |
 | [`tg`](https://t.me/mwscr/363)                     | 2024-03-31 |   471 |    58 |       354 |  16.38 |
@@ -4075,7 +4275,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-30-a-boxy-nightstand)</code> `🚀 OpenMW` `nofilter`
+`A1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-30-a-boxy-nightstand)</code>
+`🚀 OpenMW` `nofilter`
 
 ```
 2024-03-30-a-boxy-nightstand
@@ -4086,7 +4288,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BOOhX9klh6x/)       | 2016-12-20 |       |    25 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_37)   | 2017-01-22 |    75 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/C5JeKzqs_SW/)       | 2024-03-30 |   580 |   146 |      1401 |  10.42 |
@@ -4100,7 +4302,7 @@
   - <ins title="2024-03-30-23-20-38">dravenjv</ins> can&#39;t get to sleep without my 36 lessons of vivec
   - <ins title="2024-03-30-23-35-37">delanospies</ins> @dravenjv i feel ya. Meet me in the House of earthly delights...
 - `tg` <ins title="2024-03-31-05-59-06">heart_forms</ins> Можно оригинал в комменты? 🤲
-  - <ins title="2024-03-31-06-01-52">mwscr</ins> 
+  - <ins title="2024-03-31-06-01-52">mwscr</ins>
 
 ## <span id="2024-03-29-sneaking-scamp">Sneaking Scamp</span>
 
@@ -4111,7 +4313,8 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-28-20-30-57.2.png](../../assets/previews/trash/natty.2024-03-28-20-30-57.2.avif "natty.2024-03-28-20-30-57.2")
+![store:/trash/natty.2024-03-28-20-30-57.2.png](../../assets/previews/trash/natty.2024-03-28-20-30-57.2.avif 'natty.2024-03-28-20-30-57.2')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
@@ -4125,7 +4328,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C5G5RZDukt4/)       | 2024-03-29 |   479 |   103 |      1401 |   7.35 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1473) | 2024-03-29 |   439 |    33 |       906 |   3.64 |
 | [`tg`](https://t.me/mwscr/361)                     | 2024-03-29 |   440 |    55 |       354 |  15.54 |
@@ -4134,7 +4337,8 @@
 #### Comments
 
 - `ig` <ins title="2024-03-29-20-56-21">rogierwashier</ins> I can hear this
-- `vk` <ins title="2024-03-31-13-17-45">id4936513</ins> во всех кинотеатрах Вварденфела &quot;крадущийся скамп, затаившийся даэдрот&quot;
+- `vk` <ins title="2024-03-31-13-17-45">id4936513</ins> во всех кинотеатрах Вварденфела &quot;крадущийся скамп,
+  затаившийся даэдрот&quot;
 
 ## <span id="2024-03-28-moonmoth-legion-fort">Moonmoth Legion Fort</span>
 
@@ -4155,7 +4359,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BQPiYoUF7W7/)       | 2017-02-08 |       |    28 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_128)  | 2017-02-08 |   162 |     8 |        29 |      8 |
 | [`ig`](https://instagram.com/p/C5EUjnouPkl/)       | 2024-03-28 |   392 |    85 |      1401 |   6.07 |
@@ -4167,7 +4371,8 @@
 
 - `vk` <ins title="2017-02-08-20-47-34">id227500203</ins> Туман войны блин)
 - `ig` <ins title="2024-03-28-23-47-39">delanospies</ins> @dravenjv omw
-  - <ins title="2024-03-29-07-14-40">dravenjv</ins> careful brother..m there are 2 kwama foragers and a nix hound out there...
+  - <ins title="2024-03-29-07-14-40">dravenjv</ins> careful brother..m there are 2 kwama foragers and a nix hound out
+    there...
   - <ins title="2024-03-29-12-46-10">delanospies</ins> @dravenjv thats dangerous!!!
 
 ## <span id="2024-03-27-evening-flight">Evening Flight</span>
@@ -4179,8 +4384,9 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-10-12-52-24.png](../../assets/previews/trash/natty.2024-03-10-12-52-24.avif "natty.2024-03-10-12-52-24")
-![store:/trash/natty.2024-03-10-12-52-53.1.png](../../assets/previews/trash/natty.2024-03-10-12-52-53.1.avif "natty.2024-03-10-12-52-53.1")
+![store:/trash/natty.2024-03-10-12-52-24.png](../../assets/previews/trash/natty.2024-03-10-12-52-24.avif 'natty.2024-03-10-12-52-24')
+![store:/trash/natty.2024-03-10-12-52-53.1.png](../../assets/previews/trash/natty.2024-03-10-12-52-53.1.avif 'natty.2024-03-10-12-52-53.1')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
@@ -4194,7 +4400,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C5Bvy5uRX3U/)       | 2024-03-27 |   349 |    83 |      1402 |   5.92 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1471) | 2024-03-27 |   271 |    30 |       905 |   3.31 |
 | [`tg`](https://t.me/mwscr/359)                     | 2024-03-27 |   459 |    64 |       354 |  18.08 |
@@ -4204,7 +4410,8 @@
 
 - `tg` <ins title="2024-03-27-18-15-04">Sebulba518</ins> Админ опаздывает)
 - `tg` <ins title="2024-03-27-18-17-25">himmelherz</ins> 😺
-- `tg` <ins title="2024-03-27-21-28-26">alex_emsow</ins> Netches are flying high above my tower, netches have no borders anywhere. Just a line from some song or something
+- `tg` <ins title="2024-03-27-21-28-26">alex_emsow</ins> Netches are flying high above my tower, netches have no borders
+  anywhere. Just a line from some song or something
   - <ins title="2024-04-04-12-51-09">ansis</ins> Netches definitely do have borders, as do all beasts
 
 ## <span id="2024-03-26-recollecting-the-first-steps">Recollecting the First Steps</span>
@@ -4226,7 +4433,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BaZ0xeKjyf4/)       | 2017-10-18 |       |    71 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_464)  | 2017-10-18 |   147 |    16 |        91 |     16 |
 | [`ig`](https://instagram.com/p/C4_K2XMuLSk/)       | 2024-03-26 |   503 |   120 |      1401 |   8.57 |
@@ -4243,7 +4450,9 @@
   - <ins title="2024-03-28-10-56-31">delanospies</ins> FOOL! 😂
 - `tg` <ins title="2024-03-26-22-53-39">bobrovnikov</ins> What if we kissed… in the Andrano Ancestral Tomb 🥵
 - `tg` <ins title="2024-03-27-06-13-31">Alexey Stepanov</ins> I&#39;m crying with a smile on my face
-- `tg` <ins title="2024-05-18-06-51-36">FeroniaFelix</ins> An italian &quot;girl&quot; here too... 👋🏻😊<br>(not really a girl though, I am old! I played Morrowind for the first time when it came out and I wasn&#39;t already a &quot;girl&quot; then... 😂 But I enjoyed it like a child, it was absolutely GREAT and I still love it 🥰 )
+- `tg` <ins title="2024-05-18-06-51-36">FeroniaFelix</ins> An italian &quot;girl&quot; here too... 👋🏻😊<br>(not really a
+  girl though, I am old! I played Morrowind for the first time when it came out and I wasn&#39;t already a
+  &quot;girl&quot; then... 😂 But I enjoyed it like a child, it was absolutely GREAT and I still love it 🥰 )
   - <ins title="2024-05-18-06-55-07">Gatemate7</ins> girls play morrowind? 😍
 
 ## <span id="2024-03-25-bridge-at-ghostfence">Bridge at Ghostfence</span>
@@ -4255,9 +4464,10 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-10-16-09-09.png](../../assets/previews/trash/natty.2024-03-10-16-09-09.avif "natty.2024-03-10-16-09-09")
-![store:/trash/natty.2024-03-10-16-09-23.png](../../assets/previews/trash/natty.2024-03-10-16-09-23.avif "natty.2024-03-10-16-09-23")
-![store:/trash/natty.2024-03-10-16-09-02.png](../../assets/previews/trash/natty.2024-03-10-16-09-02.avif "natty.2024-03-10-16-09-02")
+![store:/trash/natty.2024-03-10-16-09-09.png](../../assets/previews/trash/natty.2024-03-10-16-09-09.avif 'natty.2024-03-10-16-09-09')
+![store:/trash/natty.2024-03-10-16-09-23.png](../../assets/previews/trash/natty.2024-03-10-16-09-23.avif 'natty.2024-03-10-16-09-23')
+![store:/trash/natty.2024-03-10-16-09-02.png](../../assets/previews/trash/natty.2024-03-10-16-09-02.avif 'natty.2024-03-10-16-09-02')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
@@ -4271,7 +4481,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C48mK6cMquA/)       | 2024-03-25 |   356 |    82 |      1400 |   5.86 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1469) | 2024-03-25 |   328 |    43 |       902 |   4.77 |
 | [`tg`](https://t.me/mwscr/357)                     | 2024-03-25 |   435 |    63 |       352 |   17.9 |
@@ -4290,7 +4500,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-24-dark-sanctuary-of-dark)</code> `🚀 OpenMW` `candles` `sanctuary`
+`E`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-24-dark-sanctuary-of-dark)</code>
+`🚀 OpenMW` `candles` `sanctuary`
 
 ```
 2024-03-24-dark-sanctuary-of-dark
@@ -4301,7 +4513,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BikPGV3H0hC/)       | 2018-05-09 |       |    95 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_714)  | 2018-05-09 |   272 |    22 |       161 |  13.66 |
 | [`ig`](https://instagram.com/p/C46BYvNMfp5/)       | 2024-03-24 |   446 |   100 |      1400 |   7.14 |
@@ -4327,7 +4539,8 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-10-12-56-43.png](../../assets/previews/trash/natty.2024-03-10-12-56-43.avif "natty.2024-03-10-12-56-43")
+![store:/trash/natty.2024-03-10-12-56-43.png](../../assets/previews/trash/natty.2024-03-10-12-56-43.avif 'natty.2024-03-10-12-56-43')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
@@ -4341,7 +4554,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C43cZnlpPuJ/)       | 2024-03-23 |   357 |    80 |      1398 |   5.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1465) | 2024-03-23 |   315 |    38 |       897 |   4.24 |
 | [`tg`](https://t.me/mwscr/355)                     | 2024-03-23 |   443 |    60 |       352 |  17.05 |
@@ -4349,7 +4562,8 @@
 
 #### Comments
 
-- `vk` <ins title="2024-03-24-11-32-36">id4936513</ins> Безумно красиво. В прихотливом свете восхода даже скромный аргалит чувствует себя малахитом.
+- `vk` <ins title="2024-03-24-11-32-36">id4936513</ins> Безумно красиво. В прихотливом свете восхода даже скромный
+  аргалит чувствует себя малахитом.
 
 ## <span id="2024-03-22-i-greet-you-in-pelagiad-traveler">I Greet You in Pelagiad, Traveler</span>
 
@@ -4370,7 +4584,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BWj_fIWDghu/)       | 2017-07-15 |       |    75 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_354)  | 2017-07-15 |   111 |     9 |        67 |      9 |
 | [`ig`](https://instagram.com/p/C40350cPrJR/)       | 2024-03-22 |   581 |   155 |      1398 |  11.09 |
@@ -4383,7 +4597,7 @@
 - `tg` <ins title="2024-03-22-19-09-15">Gatemate7</ins> wherr are the graphic mods???
   - <ins title="2024-03-23-10-56-35">Olmer_Izdeyla</ins> Why?
 - `ig` <ins title="2024-03-22-20-40-15">imjustgazin</ins> Make it quick, outlander
-- `ig` <ins title="2024-03-22-22-15-04">michaelichto</ins> morrowindonline.ru  waiting for you))) Morrowind online ))
+- `ig` <ins title="2024-03-22-22-15-04">michaelichto</ins> morrowindonline.ru waiting for you))) Morrowind online ))
 - `ig` <ins title="2024-04-15-14-41-19">berskate</ins> My favourite place in Morrowind
 - `tg` <ins title="2024-04-15-19-12-43">mongleri</ins> more like &gt;speak quickly or go away
 
@@ -4404,7 +4618,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C4yS859trAy/)       | 2024-03-21 |   478 |   108 |      1394 |   7.75 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1461) | 2024-03-21 |   297 |    42 |       896 |   4.69 |
 | [`tg`](https://t.me/mwscr/353)                     | 2024-03-21 |   455 |    57 |       352 |  16.19 |
@@ -4425,7 +4639,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-20-banner-of-house-dagoth)</code> `🚀 OpenMW`
+`B1`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-20-banner-of-house-dagoth)</code>
+`🚀 OpenMW`
 
 ```
 2024-03-20-banner-of-house-dagoth
@@ -4436,7 +4652,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BWKHtX6jJT8/)       | 2017-07-05 |       |    57 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_343)  | 2017-07-05 |   105 |    10 |        65 |     10 |
 | [`ig`](https://instagram.com/p/C4vuHKgA83_/)       | 2024-03-20 |   421 |    99 |      1393 |   7.11 |
@@ -4453,9 +4669,10 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-10-18-17-46.png](../../assets/previews/trash/natty.2024-03-10-18-17-46.avif "natty.2024-03-10-18-17-46")
-![store:/trash/natty.2024-03-10-18-17-57.png](../../assets/previews/trash/natty.2024-03-10-18-17-57.avif "natty.2024-03-10-18-17-57")
-![store:/trash/natty.2024-03-10-18-18-21.png](../../assets/previews/trash/natty.2024-03-10-18-18-21.avif "natty.2024-03-10-18-18-21")
+![store:/trash/natty.2024-03-10-18-17-46.png](../../assets/previews/trash/natty.2024-03-10-18-17-46.avif 'natty.2024-03-10-18-17-46')
+![store:/trash/natty.2024-03-10-18-17-57.png](../../assets/previews/trash/natty.2024-03-10-18-17-57.avif 'natty.2024-03-10-18-17-57')
+![store:/trash/natty.2024-03-10-18-18-21.png](../../assets/previews/trash/natty.2024-03-10-18-18-21.avif 'natty.2024-03-10-18-18-21')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
@@ -4469,7 +4686,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C4tJXjnS_nf/)       | 2024-03-19 |   512 |   144 |      1388 |  10.37 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1459) | 2024-03-19 |   273 |    43 |       896 |    4.8 |
 | [`tg`](https://t.me/mwscr/351)                     | 2024-03-19 |   457 |    68 |       352 |  19.32 |
@@ -4494,7 +4711,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BUOlqpUDVgf/)       | 2017-05-18 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_294)  | 2017-05-18 |   110 |     4 |        56 |      4 |
 | [`ig`](https://instagram.com/p/C4qkh6-x4WG/)       | 2024-03-18 |   454 |   100 |      1387 |   7.21 |
@@ -4504,7 +4721,8 @@
 
 #### Comments
 
-- `vk` <ins title="2024-03-19-09-23-46">nobodywontbreakmyquietness</ins> эта группа — пристанище моей души<br>админу любви и счастья
+- `vk` <ins title="2024-03-19-09-23-46">nobodywontbreakmyquietness</ins> эта группа — пристанище моей души<br>админу
+  любви и счастья
   - <ins title="2024-03-19-10-19-21">dehero</ins> Саша, спасибо!
 
 ## <span id="2024-03-17-teeth-of-pelagiad">Teeth of Pelagiad</span>
@@ -4524,7 +4742,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C4n_nFbM2Wf/)       | 2024-03-17 |   882 |   178 |      1385 |  12.85 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1455) | 2024-03-17 |   324 |    42 |       896 |   4.69 |
 | [`tg`](https://t.me/mwscr/349)                     | 2024-03-17 |   476 |    64 |       353 |  18.13 |
@@ -4533,7 +4751,7 @@
 #### Comments
 
 - `tg` <ins title="2024-03-17-18-14-19">محمد خالد</ins> Cool
-- `ig` <ins title="2024-03-17-19-32-17">angelpeepee__</ins> Love it
+- `ig` <ins title="2024-03-17-19-32-17">angelpeepee\_\_</ins> Love it
 - `ig` <ins title="2024-03-17-21-42-08">mountcydonia</ins> I enjoyed jumping across these
 - `vk` <ins title="2024-03-24-11-33-32">id4936513</ins> ❤❤❤
 
@@ -4556,7 +4774,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BRFKAbfDT2K/)       | 2017-03-01 |       |    36 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_178)  | 2017-03-01 |   126 |    10 |        43 |     10 |
 | [`ig`](https://instagram.com/p/C4la578MmI8/)       | 2024-03-16 |   612 |   127 |      1386 |   9.16 |
@@ -4588,7 +4806,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C4i7nMEvfEh/)       | 2024-03-15 |   431 |    96 |      1386 |   6.93 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1453) | 2024-03-15 |   274 |    30 |       896 |   3.35 |
 | [`tg`](https://t.me/mwscr/347)                     | 2024-03-15 |   458 |    45 |       352 |  12.78 |
@@ -4613,7 +4831,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BSX8Vtyj2jW/)       | 2017-04-02 |       |    56 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_240)  | 2017-04-02 |   130 |     7 |        49 |      7 |
 | [`ig`](https://instagram.com/p/C4gRfi-MivK/)       | 2024-03-14 |   620 |   139 |      1385 |  10.04 |
@@ -4650,7 +4868,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BVrSHbUj-IW/)       | 2017-06-23 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_331)  | 2017-06-23 |   101 |     8 |        65 |      8 |
 | [`ig`](https://instagram.com/p/C4dtTNvJ31s/)       | 2024-03-13 |   497 |   134 |      1385 |   9.68 |
@@ -4662,13 +4880,17 @@
 
 - `ig` <ins title="2024-03-13-18-37-18">k.ardzhanovskiy</ins> Caldera is my favorite town. I always made the base in it.
   - <ins title="2024-03-13-18-39-07">delanospies</ins> same bro fr. Where exactly did you set up?
-  - <ins title="2024-03-13-19-01-31">delanospies</ins> i always used Leoriane&#39;s house 😁  i remember fontly to restyle the dining with silverware, nice foods and ecpensive brandrys
+  - <ins title="2024-03-13-19-01-31">delanospies</ins> i always used Leoriane&#39;s house 😁 i remember fontly to
+    restyle the dining with silverware, nice foods and ecpensive brandrys
 - `vk` <ins title="2024-03-13-19-50-13">lomaev_live</ins> Дорога на Бальмору
 - `tg` <ins title="2024-03-14-03-46-19">Georrrrrg</ins> Куда вам свои скриншоты можно отправить?
-  - <ins title="2024-03-14-03-53-51">mrrzer0</ins> Через страницу ВК вроде как + только с оригинального Морровинда скрины должны быть, без модов и прочего
-  - <ins title="2024-03-14-04-01-27">mwscr</ins> Отправлять можно на dehero@outlook.com<br>Требования описаны здесь https://vk.com/@mwscr-usloviya-publikacii-skrinshotov-dlya-podpischikov
+  - <ins title="2024-03-14-03-53-51">mrrzer0</ins> Через страницу ВК вроде как + только с оригинального Морровинда
+    скрины должны быть, без модов и прочего
+  - <ins title="2024-03-14-04-01-27">mwscr</ins> Отправлять можно на dehero@outlook.com<br>Требования описаны здесь
+    https://vk.com/@mwscr-usloviya-publikacii-skrinshotov-dlya-podpischikov
 - `tg` <ins title="2024-03-14-03-54-27">Georrrrrg</ins> Без модов очень грустно игра выглядит
-- `tg` <ins title="2024-03-14-04-04-43">Georrrrrg</ins> Интересно, нужно делать своë сообщество скриншотов морра с нормальными графическими улучшениями
+- `tg` <ins title="2024-03-14-04-04-43">Georrrrrg</ins> Интересно, нужно делать своë сообщество скриншотов морра с
+  нормальными графическими улучшениями
 - `tg` <ins title="2024-03-14-04-05-06">Georrrrrg</ins> Я не понимаю, зачем такое пуританство
   - <ins title="2024-03-14-04-30-59">heart_forms</ins> Классика, бро
 - `tg` <ins title="2024-03-14-21-47-22">Skab4ik</ins> В этом же вся соль, что классика)
@@ -4691,7 +4913,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C4bIiiXRrhw/)       | 2024-03-12 |   631 |   168 |      1379 |  12.18 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1444) | 2024-03-12 |   271 |    33 |       896 |   3.68 |
 | [`tg`](https://t.me/mwscr/343)                     | 2024-03-12 |   492 |    63 |       350 |     18 |
@@ -4712,9 +4934,10 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2024-02-17-10-35-00.png](../../assets/previews/trash/dehero.2024-02-17-10-35-00.avif "dehero.2024-02-17-10-35-00")
-![store:/trash/dehero.2024-02-17-10-34-26.png](../../assets/previews/trash/dehero.2024-02-17-10-34-26.avif "dehero.2024-02-17-10-34-26")
-![store:/trash/dehero.2024-02-17-10-34-15.png](../../assets/previews/trash/dehero.2024-02-17-10-34-15.avif "dehero.2024-02-17-10-34-15")
+![store:/trash/dehero.2024-02-17-10-35-00.png](../../assets/previews/trash/dehero.2024-02-17-10-35-00.avif 'dehero.2024-02-17-10-35-00')
+![store:/trash/dehero.2024-02-17-10-34-26.png](../../assets/previews/trash/dehero.2024-02-17-10-34-26.avif 'dehero.2024-02-17-10-34-26')
+![store:/trash/dehero.2024-02-17-10-34-15.png](../../assets/previews/trash/dehero.2024-02-17-10-34-15.avif 'dehero.2024-02-17-10-34-15')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
@@ -4728,7 +4951,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C4Yiqd-vXTa/)       | 2024-03-11 |   561 |   117 |      1379 |   8.48 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1443) | 2024-03-11 |   353 |    40 |       896 |   4.46 |
 | [`tg`](https://t.me/mwscr/342)                     | 2024-03-11 |   489 |    61 |       350 |  17.43 |
@@ -4751,7 +4974,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C4V9AM5OKnT/)       | 2024-03-10 |   586 |   130 |      1379 |   9.43 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1442) | 2024-03-10 |   249 |    34 |       895 |    3.8 |
 | [`tg`](https://t.me/mwscr/341)                     | 2024-03-10 |   486 |    60 |       349 |  17.19 |
@@ -4766,7 +4989,8 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2024-03-05-20-04-27.1.png](../../assets/previews/trash/dehero.2024-03-05-20-04-27.1.avif "dehero.2024-03-05-20-04-27.1")
+![store:/trash/dehero.2024-03-05-20-04-27.1.png](../../assets/previews/trash/dehero.2024-03-05-20-04-27.1.avif 'dehero.2024-03-05-20-04-27.1')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
@@ -4780,7 +5004,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C4TZ_qUPGns/)       | 2024-03-09 |   487 |   114 |      1379 |   8.27 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1441) | 2024-03-09 |   267 |    35 |       893 |   3.92 |
 | [`tg`](https://t.me/mwscr/340)                     | 2024-03-09 |   519 |    62 |       347 |  17.87 |
@@ -4789,7 +5013,7 @@
 #### Comments
 
 - `tg` <ins title="2024-03-09-18-17-28">unchainutopia</ins> ❤️
-- `tg` <ins title="2024-03-09-18-27-02">abandonreason</ins> 
+- `tg` <ins title="2024-03-09-18-27-02">abandonreason</ins>
 - `tg` <ins title="2024-03-09-18-37-13">Gatemate7</ins> i want to submit a ss
   - <ins title="2024-03-09-18-39-04">mwscr</ins> Please send it in PNG to dehero@outlook.com
 
@@ -4802,9 +5026,10 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/natty.2024-03-05-20-28-33.3.png](../../assets/previews/trash/natty.2024-03-05-20-28-33.3.avif "natty.2024-03-05-20-28-33.3")
-![store:/trash/natty.2024-03-05-20-28-33.1.png](../../assets/previews/trash/natty.2024-03-05-20-28-33.1.avif "natty.2024-03-05-20-28-33.1")
-![store:/trash/natty.2024-03-05-20-28-33.4.png](../../assets/previews/trash/natty.2024-03-05-20-28-33.4.avif "natty.2024-03-05-20-28-33.4")
+![store:/trash/natty.2024-03-05-20-28-33.3.png](../../assets/previews/trash/natty.2024-03-05-20-28-33.3.avif 'natty.2024-03-05-20-28-33.3')
+![store:/trash/natty.2024-03-05-20-28-33.1.png](../../assets/previews/trash/natty.2024-03-05-20-28-33.1.avif 'natty.2024-03-05-20-28-33.1')
+![store:/trash/natty.2024-03-05-20-28-33.4.png](../../assets/previews/trash/natty.2024-03-05-20-28-33.4.avif 'natty.2024-03-05-20-28-33.4')
+
 </details>
 
 `shot` by [Natty](../contributors.md#natty)
@@ -4818,7 +5043,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C4Q1cnVxp_f/)       | 2024-03-08 |   452 |   103 |      1379 |   7.47 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1440) | 2024-03-08 |   289 |    33 |       893 |    3.7 |
 | [`tg`](https://t.me/mwscr/339)                     | 2024-03-08 |   509 |    60 |       345 |  17.39 |
@@ -4826,7 +5051,8 @@
 
 #### Comments
 
-- `tg` <ins title="2024-03-09-18-53-26">Skab4ik</ins> Божечки-кошечки, такая ностальгия. Мурашечки по коже пробежали.<br> Админ, спасибо за канал)
+- `tg` <ins title="2024-03-09-18-53-26">Skab4ik</ins> Божечки-кошечки, такая ностальгия. Мурашечки по коже
+  пробежали.<br> Админ, спасибо за канал)
 
 ## <span id="2024-03-07-night-tradeswoman">Night Tradeswoman</span>
 
@@ -4837,7 +5063,8 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/darkness-rifho.2023-09-13-12-39-27-72112358.png](../../assets/previews/trash/darkness-rifho.2023-09-13-12-39-27-72112358.avif "darkness-rifho.2023-09-13-12-39-27-72112358")
+![store:/trash/darkness-rifho.2023-09-13-12-39-27-72112358.png](../../assets/previews/trash/darkness-rifho.2023-09-13-12-39-27-72112358.avif 'darkness-rifho.2023-09-13-12-39-27-72112358')
+
 </details>
 
 `shot` by [Darkness Rifho](../contributors.md#darkness-rifho)
@@ -4851,7 +5078,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C4OQkOFuSrr/)       | 2024-03-07 |   621 |   152 |      1378 |  11.03 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1439) | 2024-03-07 |   258 |    35 |       893 |   3.92 |
 | [`tg`](https://t.me/mwscr/338)                     | 2024-03-07 |   521 |    57 |       345 |  16.52 |
@@ -4865,7 +5092,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-06-mushroom-field)</code> `🚀 OpenMW` `mushrooms`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-06-mushroom-field)</code>
+`🚀 OpenMW` `mushrooms`
 
 ```
 2024-03-06-mushroom-field
@@ -4876,7 +5105,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BakD8nDDT8q/)       | 2017-10-22 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_470)  | 2017-10-22 |   162 |    10 |        91 |     10 |
 | [`ig`](https://instagram.com/p/C4Lr1rqP6HP/)       | 2024-03-06 |   510 |   117 |      1380 |   8.48 |
@@ -4888,7 +5117,8 @@
 
 - `ig` <ins title="2024-03-06-18-20-20">someone_simple42</ins> Love these landscapes
 - `tg` <ins title="2024-03-06-18-25-12">Gatemate7</ins> whatever you do. dont take your morrowind gf to this place
-  - <ins title="2024-03-06-20-38-36">ansis</ins> what he said. i made that mistake and now my relationship is no more. on the plus side, i&#39;ve gotten really good at necromancy.
+  - <ins title="2024-03-06-20-38-36">ansis</ins> what he said. i made that mistake and now my relationship is no more.
+    on the plus side, i&#39;ve gotten really good at necromancy.
 - `ig` <ins title="2024-05-02-03-57-29">nirnwayfarer</ins> 💖💖
 
 ## <span id="2024-03-05-mzahnch-at-sunset">Mzahnch at Sunset</span>
@@ -4910,7 +5140,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BbhoFInDfSD/)       | 2017-11-15 |       |    69 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_501)  | 2017-11-15 |   225 |    14 |        98 |     14 |
 | [`ig`](https://instagram.com/p/C4JG71rslqo/)       | 2024-03-05 |   595 |   131 |      1380 |   9.49 |
@@ -4932,8 +5162,9 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2024-02-05-00-14-39.png](../../assets/previews/trash/dehero.2024-02-05-00-14-39.avif "dehero.2024-02-05-00-14-39")
-![store:/trash/dehero.2024-02-05-00-14-21.png](../../assets/previews/trash/dehero.2024-02-05-00-14-21.avif "dehero.2024-02-05-00-14-21")
+![store:/trash/dehero.2024-02-05-00-14-39.png](../../assets/previews/trash/dehero.2024-02-05-00-14-39.avif 'dehero.2024-02-05-00-14-39')
+![store:/trash/dehero.2024-02-05-00-14-21.png](../../assets/previews/trash/dehero.2024-02-05-00-14-21.avif 'dehero.2024-02-05-00-14-21')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
@@ -4947,7 +5178,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C4GiM_jxf6C/)       | 2024-03-04 |   458 |   106 |      1380 |   7.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1436) | 2024-03-04 |   296 |    36 |       895 |   4.02 |
 | [`tg`](https://t.me/mwscr/335)                     | 2024-03-04 |   546 |    67 |       344 |  19.48 |
@@ -4961,7 +5192,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-03-exit)</code> `🚀 OpenMW` `tomb` `exit` `door`
+`B2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-03-exit)</code>
+`🚀 OpenMW` `tomb` `exit` `door`
 
 ```
 2024-03-03-exit
@@ -4972,7 +5205,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/Bfv-fhCDrzz/)       | 2018-02-28 |       |    67 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_632)  | 2018-02-28 |   169 |     7 |       136 |   5.15 |
 | [`ig`](https://instagram.com/p/C4D9QbcS7Mu/)       | 2024-03-03 |   579 |    96 |      1377 |   6.97 |
@@ -4996,7 +5229,8 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2022-06-29-22-45-03.1.png](../../assets/previews/trash/dehero.2022-06-29-22-45-03.1.avif "dehero.2022-06-29-22-45-03.1")
+![store:/trash/dehero.2022-06-29-22-45-03.1.png](../../assets/previews/trash/dehero.2022-06-29-22-45-03.1.avif 'dehero.2022-06-29-22-45-03.1')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
@@ -5010,7 +5244,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C4BYodLOsVg/)       | 2024-03-02 |   478 |   108 |      1378 |   7.84 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1433) | 2024-03-02 |   285 |    32 |       895 |   3.58 |
 | [`tg`](https://t.me/mwscr/333)                     | 2024-03-02 |   543 |    69 |       340 |  20.29 |
@@ -5029,9 +5263,10 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2024-02-05-00-19-03.png](../../assets/previews/trash/dehero.2024-02-05-00-19-03.avif "dehero.2024-02-05-00-19-03")
-![store:/trash/dehero.2024-02-05-00-20-45.png](../../assets/previews/trash/dehero.2024-02-05-00-20-45.avif "dehero.2024-02-05-00-20-45")
-![store:/trash/dehero.2024-02-05-00-20-45.1.png](../../assets/previews/trash/dehero.2024-02-05-00-20-45.1.avif "dehero.2024-02-05-00-20-45.1")
+![store:/trash/dehero.2024-02-05-00-19-03.png](../../assets/previews/trash/dehero.2024-02-05-00-19-03.avif 'dehero.2024-02-05-00-19-03')
+![store:/trash/dehero.2024-02-05-00-20-45.png](../../assets/previews/trash/dehero.2024-02-05-00-20-45.avif 'dehero.2024-02-05-00-20-45')
+![store:/trash/dehero.2024-02-05-00-20-45.1.png](../../assets/previews/trash/dehero.2024-02-05-00-20-45.1.avif 'dehero.2024-02-05-00-20-45.1')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
@@ -5045,7 +5280,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C3-1gG2slOU/)       | 2024-03-01 |   586 |   152 |      1377 |  11.04 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1429) | 2024-03-01 |   276 |    30 |       894 |   3.36 |
 | [`tg`](https://t.me/mwscr/332)                     | 2024-03-01 |   547 |    58 |       339 |  17.11 |
@@ -5066,7 +5301,9 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-02-29-morning-hunt)</code> `🚀 OpenMW` `nofilter` `hunt` `skeleton` `morning` `guard`
+`A2`
+<code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-02-29-morning-hunt)</code>
+`🚀 OpenMW` `nofilter` `hunt` `skeleton` `morning` `guard`
 
 ```
 2024-02-29-morning-hunt
@@ -5077,7 +5314,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BSQTsAwDzL9/)       | 2017-03-30 |       |    91 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_237)  | 2017-03-30 |   141 |    10 |        50 |     10 |
 | [`ig`](https://instagram.com/p/C38NDKXINQS/)       | 2024-02-29 |   868 |   221 |      1376 |  16.06 |
@@ -5087,7 +5324,7 @@
 
 #### Comments
 
-- `ig` <ins title="2024-02-29-19-41-05">angelpeepee__</ins> 🤌🏻🤌🏻
+- `ig` <ins title="2024-02-29-19-41-05">angelpeepee\_\_</ins> 🤌🏻🤌🏻
 - `vk` <ins title="2024-02-29-20-53-18">id134482858</ins> Всегда хотел поиграть за скелета в Морровинде)
 - `vk` <ins title="2024-03-01-01-21-46">dobryu_vecher</ins> Когда ты мертв внутри, но квесты выполнять надо
 
@@ -5100,12 +5337,13 @@
 <details>
 <summary>Trash</summary>
 
-![store:/trash/dehero.2024-02-17-10-37-02.png](../../assets/previews/trash/dehero.2024-02-17-10-37-02.avif "dehero.2024-02-17-10-37-02")
-![store:/trash/dehero.2024-02-17-10-36-27.png](../../assets/previews/trash/dehero.2024-02-17-10-36-27.avif "dehero.2024-02-17-10-36-27")
-![store:/trash/dehero.2024-02-17-10-35-48.png](../../assets/previews/trash/dehero.2024-02-17-10-35-48.avif "dehero.2024-02-17-10-35-48")
-![store:/trash/dehero.2024-02-17-10-35-41.png](../../assets/previews/trash/dehero.2024-02-17-10-35-41.avif "dehero.2024-02-17-10-35-41")
-![store:/trash/dehero.2024-02-17-10-35-39.png](../../assets/previews/trash/dehero.2024-02-17-10-35-39.avif "dehero.2024-02-17-10-35-39")
-![store:/trash/dehero.2024-02-17-10-35-41.1.png](../../assets/previews/trash/dehero.2024-02-17-10-35-41.1.avif "dehero.2024-02-17-10-35-41.1")
+![store:/trash/dehero.2024-02-17-10-37-02.png](../../assets/previews/trash/dehero.2024-02-17-10-37-02.avif 'dehero.2024-02-17-10-37-02')
+![store:/trash/dehero.2024-02-17-10-36-27.png](../../assets/previews/trash/dehero.2024-02-17-10-36-27.avif 'dehero.2024-02-17-10-36-27')
+![store:/trash/dehero.2024-02-17-10-35-48.png](../../assets/previews/trash/dehero.2024-02-17-10-35-48.avif 'dehero.2024-02-17-10-35-48')
+![store:/trash/dehero.2024-02-17-10-35-41.png](../../assets/previews/trash/dehero.2024-02-17-10-35-41.avif 'dehero.2024-02-17-10-35-41')
+![store:/trash/dehero.2024-02-17-10-35-39.png](../../assets/previews/trash/dehero.2024-02-17-10-35-39.avif 'dehero.2024-02-17-10-35-39')
+![store:/trash/dehero.2024-02-17-10-35-41.1.png](../../assets/previews/trash/dehero.2024-02-17-10-35-41.1.avif 'dehero.2024-02-17-10-35-41.1')
+
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
@@ -5119,7 +5357,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/C35xPQ9s-8q/)       | 2024-02-28 |   581 |   156 |      1373 |  11.36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1420) | 2024-02-28 |   320 |    40 |       894 |   4.47 |
 | [`tg`](https://t.me/mwscr/330)                     | 2024-02-28 |   594 |    73 |       338 |   21.6 |
@@ -5129,12 +5367,17 @@
 
 - `vk` <ins title="2024-02-28-19-30-32">vovach99</ins> Ура, паблик жив!!!
 - `vk` <ins title="2024-02-28-19-53-20">allor</ins> Йихиги-йихиги-йихихигииг!
-- `vk` <ins title="2024-02-28-21-24-06">artyom_melikhoff</ins> Это место хрен найдёшь, если не знаешь, где искать.<br>Поместили &quot;родовую гробницу&quot; (за которой так-то регулярный уход нужен) в такие места грёбаные гении левел-дизайна.
-  - <ins title="2024-03-01-23-26-58">id35868942</ins> Артём, &quot;Это место хрен найдёшь, если не знаешь, где искать&quot; - как доп. защита от лишних посетителей) Ну и живые члены семьи Омаленов достаточно хорошо устроились чтобы иметь возможность оплатить морскую прогулку к берегам эшленда...
-  - <ins title="2024-03-01-23-29-33">artyom_melikhoff</ins> Макс, так ладно к берегам, в Эшленде ж ориентации никакой, а территория немаленькая.
+- `vk` <ins title="2024-02-28-21-24-06">artyom_melikhoff</ins> Это место хрен найдёшь, если не знаешь, где
+  искать.<br>Поместили &quot;родовую гробницу&quot; (за которой так-то регулярный уход нужен) в такие места грёбаные
+  гении левел-дизайна.
+  - <ins title="2024-03-01-23-26-58">id35868942</ins> Артём, &quot;Это место хрен найдёшь, если не знаешь, где
+    искать&quot; - как доп. защита от лишних посетителей) Ну и живые члены семьи Омаленов достаточно хорошо устроились
+    чтобы иметь возможность оплатить морскую прогулку к берегам эшленда...
+  - <ins title="2024-03-01-23-29-33">artyom_melikhoff</ins> Макс, так ладно к берегам, в Эшленде ж ориентации никакой, а
+    территория немаленькая.
 - `tg` <ins title="2024-02-28-22-17-13">syomadyoma</ins> my favourite tg channel
 - `vk` <ins title="2024-02-28-23-23-11">thelittlebuddy</ins> Я приказываю вам жить<br>[пожалуйста]
-- `ig` <ins title="2024-02-29-19-40-54">angelpeepee__</ins> You are the greatest public service
+- `ig` <ins title="2024-02-29-19-40-54">angelpeepee\_\_</ins> You are the greatest public service
 
 ## <span id="2024-02-27-daedroth-in-grazelands">Daedroth in Grazelands</span>
 
@@ -5155,7 +5398,7 @@
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| -------------------------------------------------- | ---------- | ----: | ----: | --------: | -----: |
 | [`ig`](https://instagram.com/p/BO6INdEF_CJ/)       | 2017-01-06 |       |    32 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_54)   | 2017-01-22 |    93 |     3 |         4 |      3 |
 | [`ig`](https://instagram.com/p/C33Su8Dq3KP/)       | 2024-02-27 |   889 |   235 |      1373 |  17.12 |
@@ -5173,8 +5416,9 @@
   - <ins title="2024-02-27-23-49-37">yoshi_23ii</ins> @jaymescallen I think there&#39;s some in ESO
 - `ig` <ins title="2024-02-27-23-28-32">swekg</ins> Me when it’s raining
 - `vk` <ins title="2024-02-28-06-48-12">vladkr114</ins> Эх😔
-- `ig` <ins title="2024-02-29-19-40-42">angelpeepee__</ins> Incredibke
+- `ig` <ins title="2024-02-29-19-40-42">angelpeepee\_\_</ins> Incredibke
 
 ---
 
-[`Top Rated`](top-rated.md) `2024` [`2023`](2023.md) [`2022`](2022.md) [`2020`](2020.md) [`2019`](2019.md) [`2018`](2018.md) [`2017`](2017.md) [`2016`](2016.md)
+[`Top Rated`](top-rated.md) `2024` [`2023`](2023.md) [`2022`](2022.md) [`2020`](2020.md) [`2019`](2019.md)
+[`2018`](2018.md) [`2017`](2017.md) [`2016`](2016.md)
