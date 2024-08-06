@@ -119,8 +119,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cg0Aep3MNmi/)       | 2022-08-03 |       |   383 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1381) | 2022-08-03 |  1207 |    74 |       800 |   9.25 |
-| [`tg`](https://t.me/mwscr/306)                     | 2022-08-03 |  2201 |    80 |       281 |  28.47 |
-|                                                    |            |  3408 |   537 |      1081 |  18.86 |
+| [`tg`](https://t.me/mwscr/306)                     | 2022-08-03 |  2205 |    81 |       281 |  28.83 |
+|                                                    |            |  3412 |   538 |      1081 |  19.04 |
 
 #### Comments
 
@@ -149,7 +149,7 @@
   - <ins title="2023-06-18-06-59-50">bobrovnikov</ins> Кто?
 - `tg` <ins title="2023-06-18-07-00-26">trupach</ins> Morrowind screenshot
 - `tg` <ins title="2023-06-18-07-00-50">trupach</ins> Хороший был паблик
-  - <ins title="2023-07-19-15-27-47">Jesse_Pinkman2008</ins> Я бы хотел увидеть новые публикации этого паблике мне он так понравился что я пролайкал все публикации
+  - <ins title="2023-07-19-15-27-47">Jesse_Pinkman2_yung</ins> Я бы хотел увидеть новые публикации этого паблике мне он так понравился что я пролайкал все публикации
 
 ## <span id="2022-08-02-dark-spells">Dark Spells</span>
 
@@ -171,8 +171,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cgxa9ZeMd46/)       | 2022-08-02 |       |   181 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1379) | 2022-08-02 |  1593 |    82 |       798 |  10.28 |
-| [`tg`](https://t.me/mwscr/305)                     | 2022-08-02 |  2163 |    68 |       281 |   24.2 |
-|                                                    |            |  3756 |   331 |      1079 |  17.24 |
+| [`tg`](https://t.me/mwscr/305)                     | 2022-08-02 |  2166 |    69 |       281 |  24.56 |
+|                                                    |            |  3759 |   332 |      1079 |  17.42 |
 
 #### Comments
 
@@ -500,6 +500,60 @@
   - <ins title="2020-11-05-17-24-34">mwscr</ins> I use OpenMW engine to make screenshots. You see default water shader from this engine.
 - `vk` <ins title="2020-11-09-08-31-05">id4936513</ins> ❤
 
+## <span id="2023-07-28-sunset-at-vivec-by-darkness-rifho">Sunset at Vivec</span>
+
+`RU` Закат у Вивека
+
+<a href="https://instagram.com/p/CvP6u9As_bK/" title="2023-07-28-sunset-at-vivec-by-darkness-rifho"><img alt="store:/shots/2023-07-28-sunset-at-vivec-by-darkness-rifho.png" src="../../assets/previews/shots/2023-07-28-sunset-at-vivec-by-darkness-rifho.avif" /></a>
+
+`shot` by [Darkness Rifho](../contributors.md#darkness-rifho)
+
+`B1` `📍 Vivec, Foreign Quarter` `vivec` `sunset` `shadows`
+
+```
+2023-07-28-sunset-at-vivec-by-darkness-rifho
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/CvP6u9As_bK/)       | 2023-07-28 |       |   309 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1387) | 2023-07-28 |   545 |    49 |       891 |    5.5 |
+| [`tg`](https://t.me/mwscr/308)                     | 2023-07-28 |   908 |    79 |       316 |     25 |
+|                                                    |            |  1453 |   437 |      1207 |  15.25 |
+
+#### Comments
+
+- `tg` <ins title="2023-07-28-17-04-06">yoursherlok</ins> you are still alive ffs brooooooo 🥰
+- `tg` <ins title="2023-07-28-17-04-41">fifio20</ins> сто лет ничего не постил
+- `ig` <ins title="2023-07-28-17-05-36">christos.g</ins> Welcome Back
+- `tg` <ins title="2023-07-28-17-06-19">deleted</ins> оно живое!
+- `ig` <ins title="2023-07-28-17-10-58">mwscr</ins> Thank you all for being so patient and my apologies for long absence. This is the first screenshot made by subscribers.
+  - <ins title="2023-07-29-02-25-30">angelpeepee__</ins> I love you
+- `tg` <ins title="2023-07-28-17-14-07">mwscr</ins> Thank you all for being so patient and my apologies for long absence. This is the first screenshot made by subscribers.
+- `vk` <ins title="2023-07-28-17-15-50">mwscr</ins> Спасибо всем за терпение и приношу свои извинения за долгое отсутствие.  Это первый скриншот, сделанный подписчиками.
+  - <ins title="2023-07-28-23-12-20">morrowind_trashy_stories</ins> С возвращением 💀🖤
+- `ig` <ins title="2023-07-28-17-27-51">rogierwashier</ins> Welcome back🙌🙌🙌🙌
+- `tg` <ins title="2023-07-28-17-35-48">riovent</ins> Ура)
+- `tg` <ins title="2023-07-28-17-39-32">C4H6O4</ins> Я так счастлива, что мой скриншот дошёл до публикации :)
+  - <ins title="2023-07-28-18-26-06">bobrovnikov</ins> Спасибо!!
+- `ig` <ins title="2023-07-28-17-58-03">perfectbydancegavindance</ins> a triumphant return 🙌
+- `tg` <ins title="2023-07-28-18-06-01">quintus_fabius</ins> We&#39;re so back
+- `ig` <ins title="2023-07-28-18-34-08">andrewmarotti</ins> Welcome back! Great post. 🔥❤️
+- `tg` <ins title="2023-07-28-18-46-11">syomadyoma</ins> чтоо я не зря сюда подписался
+- `ig` <ins title="2023-07-28-20-11-46">alonso.igomez</ins> Was sad I started following in the last 2 posts, so happy seeing you posting again
+- `tg` <ins title="2023-07-28-20-45-03">Crawford_Tillinghast1</ins> we are so back
+- `tg` <ins title="2023-07-28-21-08-34">alex_emsow</ins> Great to see the group&#39;s still up.:)
+- `ig` <ins title="2023-07-28-21-25-18">bosmerblood</ins> So happy to see you&#39;re back! :) 🤎
+- `ig` <ins title="2023-07-28-22-40-54">tommytoja</ins> ❤️
+- `ig` <ins title="2023-07-29-02-25-22">angelpeepee__</ins> YES
+- `tg` <ins title="2023-07-29-04-15-10">.</ins> Ну ты и соня
+- `tg` <ins title="2023-07-29-04-16-19">.</ins> 😴
+- `ig` <ins title="2023-07-29-10-17-05">mystirioux</ins> Vv pretty
+- `vk` <ins title="2023-07-30-12-02-19">id4936513</ins> Вы снова вернулись❤
+- `ig` <ins title="2023-07-31-19-43-30">stanislawlyszczarz</ins> I&#39;m so glad that you are back! 🫡
+
 ## <span id="2022-07-29-sunset-cypresses">Sunset Cypresses</span>
 
 `RU` Закатные кипарисы
@@ -537,59 +591,40 @@
 - `ig` <ins title="2022-07-30-03-03-30">dakota_duffy</ins> I&#39;ve been so happy seeing you on my feed again
   - <ins title="2022-07-30-12-55-56">mwscr</ins> ❤️
 
-## <span id="2023-07-28-sunset-at-vivec-by-darkness-rifho">Sunset at Vivec</span>
+## <span id="2022-07-31-alchemy">Alchemy</span>
 
-`RU` Закат у Вивека
+`RU` Алхимия
 
-<a href="https://instagram.com/p/CvP6u9As_bK/" title="2023-07-28-sunset-at-vivec-by-darkness-rifho"><img alt="store:/shots/2023-07-28-sunset-at-vivec-by-darkness-rifho.png" src="../../assets/previews/shots/2023-07-28-sunset-at-vivec-by-darkness-rifho.avif" /></a>
+<a href="https://instagram.com/p/CgsUNREMkK7/" title="2017-01-05-alchemy-corner"><img alt="store:/shots/2017-01-05-alchemy-corner.png" src="../../assets/previews/shots/2017-01-05-alchemy-corner.avif" /></a>
+<a href="https://instagram.com/p/CgsUNREMkK7/" title="2017-05-21-table-in-magic-shop"><img alt="store:/shots/2017-05-21-table-in-magic-shop.png" src="../../assets/previews/shots/2017-05-21-table-in-magic-shop.avif" /></a>
+<a href="https://instagram.com/p/CgsUNREMkK7/" title="2017-09-07-wise-womans-table"><img alt="store:/shots/2017-09-07-wise-womans-table.png" src="../../assets/previews/shots/2017-09-07-wise-womans-table.avif" /></a>
+<a href="https://instagram.com/p/CgsUNREMkK7/" title="2018-05-31-clandestine-lab"><img alt="store:/shots/2018-05-31-clandestine-lab.png" src="../../assets/previews/shots/2018-05-31-clandestine-lab.avif" /></a>
 
-`shot` by [Darkness Rifho](../contributors.md#darkness-rifho)
+`shot-set` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Vivec, Foreign Quarter` `vivec` `sunset` `shadows`
+`B1` `🚀 OpenMW` `alchemy`
 
 ```
-2023-07-28-sunset-at-vivec-by-darkness-rifho
+2022-07-31-alchemy
 ```
 
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CvP6u9As_bK/)       | 2023-07-28 |       |   309 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1387) | 2023-07-28 |   545 |    49 |       891 |    5.5 |
-| [`tg`](https://t.me/mwscr/308)                     | 2023-07-28 |   903 |    78 |       316 |  24.68 |
-|                                                    |            |  1448 |   436 |      1207 |  15.09 |
+| [`ig`](https://instagram.com/p/CgsUNREMkK7/)       | 2022-07-31 |       |   251 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1376) | 2022-07-31 |  1258 |    77 |       797 |   9.66 |
+| [`tg`](https://t.me/mwscr/300,301,302,303)         | 2022-07-31 |  1567 |    57 |       277 |  20.58 |
+|                                                    |            |  2825 |   385 |      1074 |  15.12 |
 
 #### Comments
 
-- `tg` <ins title="2023-07-28-17-04-06">yoursherlok</ins> you are still alive ffs brooooooo 🥰
-- `tg` <ins title="2023-07-28-17-04-41">fifio20</ins> сто лет ничего не постил
-- `ig` <ins title="2023-07-28-17-05-36">christos.g</ins> Welcome Back
-- `tg` <ins title="2023-07-28-17-06-19">deleted</ins> оно живое!
-- `ig` <ins title="2023-07-28-17-10-58">mwscr</ins> Thank you all for being so patient and my apologies for long absence. This is the first screenshot made by subscribers.
-  - <ins title="2023-07-29-02-25-30">angelpeepee__</ins> I love you
-- `tg` <ins title="2023-07-28-17-14-07">mwscr</ins> Thank you all for being so patient and my apologies for long absence. This is the first screenshot made by subscribers.
-- `vk` <ins title="2023-07-28-17-15-50">mwscr</ins> Спасибо всем за терпение и приношу свои извинения за долгое отсутствие.  Это первый скриншот, сделанный подписчиками.
-  - <ins title="2023-07-28-23-12-20">morrowind_trashy_stories</ins> С возвращением 💀🖤
-- `ig` <ins title="2023-07-28-17-27-51">rogierwashier</ins> Welcome back🙌🙌🙌🙌
-- `tg` <ins title="2023-07-28-17-35-48">riovent</ins> Ура)
-- `tg` <ins title="2023-07-28-17-39-32">C4H6O4</ins> Я так счастлива, что мой скриншот дошёл до публикации :)
-  - <ins title="2023-07-28-18-26-06">bobrovnikov</ins> Спасибо!!
-- `ig` <ins title="2023-07-28-17-58-03">perfectbydancegavindance</ins> a triumphant return 🙌
-- `tg` <ins title="2023-07-28-18-06-01">quintus_fabius</ins> We&#39;re so back
-- `ig` <ins title="2023-07-28-18-34-08">andrewmarotti</ins> Welcome back! Great post. 🔥❤️
-- `tg` <ins title="2023-07-28-18-46-11">syomadyoma</ins> чтоо я не зря сюда подписался
-- `ig` <ins title="2023-07-28-20-11-46">alonso.igomez</ins> Was sad I started following in the last 2 posts, so happy seeing you posting again
-- `tg` <ins title="2023-07-28-20-45-03">Crawford_Tillinghast1</ins> we are so back
-- `tg` <ins title="2023-07-28-21-08-34">alex_emsow</ins> Great to see the group&#39;s still up.:)
-- `ig` <ins title="2023-07-28-21-25-18">bosmerblood</ins> So happy to see you&#39;re back! :) 🤎
-- `ig` <ins title="2023-07-28-22-40-54">tommytoja</ins> ❤️
-- `ig` <ins title="2023-07-29-02-25-22">angelpeepee__</ins> YES
-- `tg` <ins title="2023-07-29-04-15-10">.</ins> Ну ты и соня
-- `tg` <ins title="2023-07-29-04-16-19">.</ins> 😴
-- `ig` <ins title="2023-07-29-10-17-05">mystirioux</ins> Vv pretty
-- `vk` <ins title="2023-07-30-12-02-19">id4936513</ins> Вы снова вернулись❤
-- `ig` <ins title="2023-07-31-19-43-30">stanislawlyszczarz</ins> I&#39;m so glad that you are back! 🫡
+- `ig` <ins title="2022-07-31-21-55-22">sir_waclove</ins> this detail that they&#39;ve put parchment under ingredients is just incredible.
+- `ig` <ins title="2022-08-01-02-09-52">_lijee__</ins> Is that moon sugar under the table 😂
+- `ig` <ins title="2022-08-01-05-00-02">quantd7709</ins> never got into alchemy in mw, just seemed redundant with enchanting being so powerful
+- `ig` <ins title="2022-08-02-08-42-21">vldmrrrr_</ins> So relaxing and cozy
+- `vk` <ins title="2022-08-02-09-48-22">id134482858</ins> Очень атмосферно! Кто знает что за рецепты на столах?
+- `ig` <ins title="2022-08-03-15-37-14">someone_simple42</ins> Perhaps I should replay Morrowind and create an alchemy based build
 
 ## <span id="2022-06-26-candelabra">Candelabra</span>
 
@@ -663,41 +698,6 @@
 - `ig` <ins title="2022-07-22-22-50-35">istsieliz</ins> Love your pics and captions!!
   - <ins title="2022-07-23-05-35-20">mwscr</ins> Thanks!
 - `vk` <ins title="2022-07-23-02-15-57">self_creating</ins> Лучшие жилища)
-
-## <span id="2022-07-31-alchemy">Alchemy</span>
-
-`RU` Алхимия
-
-<a href="https://instagram.com/p/CgsUNREMkK7/" title="2017-01-05-alchemy-corner"><img alt="store:/shots/2017-01-05-alchemy-corner.png" src="../../assets/previews/shots/2017-01-05-alchemy-corner.avif" /></a>
-<a href="https://instagram.com/p/CgsUNREMkK7/" title="2017-05-21-table-in-magic-shop"><img alt="store:/shots/2017-05-21-table-in-magic-shop.png" src="../../assets/previews/shots/2017-05-21-table-in-magic-shop.avif" /></a>
-<a href="https://instagram.com/p/CgsUNREMkK7/" title="2017-09-07-wise-womans-table"><img alt="store:/shots/2017-09-07-wise-womans-table.png" src="../../assets/previews/shots/2017-09-07-wise-womans-table.avif" /></a>
-<a href="https://instagram.com/p/CgsUNREMkK7/" title="2018-05-31-clandestine-lab"><img alt="store:/shots/2018-05-31-clandestine-lab.png" src="../../assets/previews/shots/2018-05-31-clandestine-lab.avif" /></a>
-
-`shot-set` by [dehero](../contributors.md#dehero)
-
-`B1` `🚀 OpenMW` `alchemy`
-
-```
-2022-07-31-alchemy
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CgsUNREMkK7/)       | 2022-07-31 |       |   251 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1376) | 2022-07-31 |  1258 |    77 |       797 |   9.66 |
-| [`tg`](https://t.me/mwscr/300,301,302,303)         | 2022-07-31 |  1564 |    56 |       277 |  20.22 |
-|                                                    |            |  2822 |   384 |      1074 |  14.94 |
-
-#### Comments
-
-- `ig` <ins title="2022-07-31-21-55-22">sir_waclove</ins> this detail that they&#39;ve put parchment under ingredients is just incredible.
-- `ig` <ins title="2022-08-01-02-09-52">_lijee__</ins> Is that moon sugar under the table 😂
-- `ig` <ins title="2022-08-01-05-00-02">quantd7709</ins> never got into alchemy in mw, just seemed redundant with enchanting being so powerful
-- `ig` <ins title="2022-08-02-08-42-21">vldmrrrr_</ins> So relaxing and cozy
-- `vk` <ins title="2022-08-02-09-48-22">id134482858</ins> Очень атмосферно! Кто знает что за рецепты на столах?
-- `ig` <ins title="2022-08-03-15-37-14">someone_simple42</ins> Perhaps I should replay Morrowind and create an alchemy based build
 
 ## <span id="2022-07-09-three-coins-for-the-bard">Three Coins for the Bard</span>
 
@@ -826,6 +826,38 @@
 - `ig` <ins title="2022-07-12-23-15-58">all_downhill_from_here</ins> Muth&#39;sera.
 - `vk` <ins title="2022-07-12-23-20-31">peteevandrew</ins> Не понимаю зачем покидать его.
 
+## <span id="2022-08-01-caravaneers-workplace">Caravaneer&#39;s Workplace</span>
+
+`RU` Рабочее место караванщика
+
+<a href="https://instagram.com/p/Cgu9T1AsAWT/" title="2022-08-01-caravaneers-workplace"><img alt="store:/shots/2022-08-01-caravaneers-workplace.png" src="../../assets/previews/shots/2022-08-01-caravaneers-workplace.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` `📍 Suran` `🚀 OpenMW`
+
+```
+2022-08-01-caravaneers-workplace
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Cgu9T1AsAWT/)       | 2022-08-01 |       |   175 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1377) | 2022-08-01 |   923 |    70 |       797 |   8.78 |
+| [`tg`](https://t.me/mwscr/304)                     | 2022-08-01 |  1642 |    56 |       279 |  20.07 |
+|                                                    |            |  2565 |   301 |      1076 |  14.43 |
+
+#### Comments
+
+- `tg` <ins title="2022-08-02-13-00-01">anakiners</ins> кому интересно , @morrowindo канал
+  - <ins title="2022-08-04-00-53-28">deleted</ins> This is a Cyrodilic forum only.
+- `vk` <ins title="2022-08-02-23-57-51">artemius_galitzine</ins> До тех пор, пока он оттуда не свалится. Кстати, а чем обусловлен этот феномен? :)
+  - <ins title="2022-10-13-07-33-57">omfgwtfuseethesewords</ins> Артём, при каждой новой загрузке локации нпс чуть-чуть смещаются
+- `tg` <ins title="2022-08-04-10-36-11">anakiners</ins> так тут про морровинд
+- `tg` <ins title="2022-08-06-13-43-49">alex_emsow</ins> Suran
+
 ## <span id="2022-07-25-rainy-coast">Rainy Coast</span>
 
 `RU` Дождливое побережье
@@ -848,38 +880,6 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1365) | 2022-07-25 |   744 |    69 |       791 |   8.72 |
 | [`tg`](https://t.me/mwscr/291)                     | 2022-07-25 |  1004 |    54 |       272 |  19.85 |
 |                                                    |            |  1748 |   403 |      1063 |  14.29 |
-
-## <span id="2022-08-01-caravaneers-workplace">Caravaneer&#39;s Workplace</span>
-
-`RU` Рабочее место караванщика
-
-<a href="https://instagram.com/p/Cgu9T1AsAWT/" title="2022-08-01-caravaneers-workplace"><img alt="store:/shots/2022-08-01-caravaneers-workplace.png" src="../../assets/previews/shots/2022-08-01-caravaneers-workplace.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B2` `📍 Suran` `🚀 OpenMW`
-
-```
-2022-08-01-caravaneers-workplace
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/Cgu9T1AsAWT/)       | 2022-08-01 |       |   175 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1377) | 2022-08-01 |   923 |    70 |       797 |   8.78 |
-| [`tg`](https://t.me/mwscr/304)                     | 2022-08-01 |  1639 |    55 |       279 |  19.71 |
-|                                                    |            |  2562 |   300 |      1076 |  14.25 |
-
-#### Comments
-
-- `tg` <ins title="2022-08-02-13-00-01">anakiners</ins> кому интересно , @morrowindo канал
-  - <ins title="2022-08-04-00-53-28">deleted</ins> This is a Cyrodilic forum only.
-- `vk` <ins title="2022-08-02-23-57-51">artemius_galitzine</ins> До тех пор, пока он оттуда не свалится. Кстати, а чем обусловлен этот феномен? :)
-  - <ins title="2022-10-13-07-33-57">omfgwtfuseethesewords</ins> Артём, при каждой новой загрузке локации нпс чуть-чуть смещаются
-- `tg` <ins title="2022-08-04-10-36-11">anakiners</ins> так тут про морровинд
-- `tg` <ins title="2022-08-06-13-43-49">alex_emsow</ins> Suran
 
 ## <span id="2022-07-15-sail-on">Sail On</span>
 
@@ -1029,6 +1029,38 @@
 - `vk` <ins title="2024-02-29-20-53-18">id134482858</ins> Всегда хотел поиграть за скелета в Морровинде)
 - `vk` <ins title="2024-03-01-01-21-46">dobryu_vecher</ins> Когда ты мертв внутри, но квесты выполнять надо
 
+## <span id="2023-09-18-red-moon-over-the-rocks-by-darkness-rifho">Red Moon Over the Rocks</span>
+
+`RU` Красная луна над скалами
+
+<a href="https://instagram.com/p/CxWEAqaMDEF/" title="2023-09-18-red-moon-over-the-rocks-by-darkness-rifho"><img alt="store:/shots/2023-09-18-red-moon-over-the-rocks-by-darkness-rifho.png" src="../../assets/previews/shots/2023-09-18-red-moon-over-the-rocks-by-darkness-rifho.avif" /></a>
+
+`shot` by [Darkness Rifho](../contributors.md#darkness-rifho)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2023-09-18-red-moon-over-the-rocks-by-darkness-rifho)</code> `🚀 OpenMW` `redmoon`
+
+```
+2023-09-18-red-moon-over-the-rocks-by-darkness-rifho
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/CxWEAqaMDEF/)       | 2023-09-18 |   771 |   141 |      1403 |  10.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1413) | 2023-09-18 |   460 |    42 |       895 |   4.69 |
+| [`tg`](https://t.me/mwscr/328)                     | 2023-09-18 |  3010 |    87 |       327 |  26.61 |
+|                                                    |            |  4241 |   270 |      2625 |  13.78 |
+
+#### Comments
+
+- `ig` <ins title="2023-09-18-20-49-29">eastcoast_lg</ins> Can someone post one from the little village at the first of the game
+  - <ins title="2023-09-19-05-02-10">mwscr</ins> Took it to backlog, thanks
+- `tg` <ins title="2023-09-19-04-22-42">Olmer_Izdeyla</ins> 😻
+- `vk` <ins title="2023-10-16-08-28-20">vovach99</ins> 😍
+- `tg` <ins title="2023-11-17-14-21-17">Alexey Stepanov</ins> 💩
+- `tg` <ins title="2024-02-28-19-29-52">violetspider</ins> Aaaah 🌙
+
 ## <span id="2022-07-28-steady-dinner">Steady Dinner</span>
 
 `RU` Надёжный ужин
@@ -1060,38 +1092,6 @@
   - <ins title="2022-07-31-12-39-20">id4936513</ins> Артём, На столе скрибовое желе и солёный рис - довольно простые и часто встречающиеся пищевые ингредиенты. Т.е. это то что &quot;надёжно&quot; может оказаться на столе любого жителя Вварденфела вне зависимости от его статуса и финансового положения
   - <ins title="2022-08-23-18-31-22">dehero</ins> Светлана, спасибо
 - `ig` <ins title="2022-07-29-11-21-38">verian21</ins> Always loved Morrowind interiors 😍
-
-## <span id="2023-09-18-red-moon-over-the-rocks-by-darkness-rifho">Red Moon Over the Rocks</span>
-
-`RU` Красная луна над скалами
-
-<a href="https://instagram.com/p/CxWEAqaMDEF/" title="2023-09-18-red-moon-over-the-rocks-by-darkness-rifho"><img alt="store:/shots/2023-09-18-red-moon-over-the-rocks-by-darkness-rifho.png" src="../../assets/previews/shots/2023-09-18-red-moon-over-the-rocks-by-darkness-rifho.avif" /></a>
-
-`shot` by [Darkness Rifho](../contributors.md#darkness-rifho)
-
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2023-09-18-red-moon-over-the-rocks-by-darkness-rifho)</code> `🚀 OpenMW` `redmoon`
-
-```
-2023-09-18-red-moon-over-the-rocks-by-darkness-rifho
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CxWEAqaMDEF/)       | 2023-09-18 |   771 |   141 |      1403 |  10.05 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1413) | 2023-09-18 |   460 |    42 |       895 |   4.69 |
-| [`tg`](https://t.me/mwscr/328)                     | 2023-09-18 |  2996 |    86 |       327 |   26.3 |
-|                                                    |            |  4227 |   269 |      2625 |  13.68 |
-
-#### Comments
-
-- `ig` <ins title="2023-09-18-20-49-29">eastcoast_lg</ins> Can someone post one from the little village at the first of the game
-  - <ins title="2023-09-19-05-02-10">mwscr</ins> Took it to backlog, thanks
-- `tg` <ins title="2023-09-19-04-22-42">Olmer_Izdeyla</ins> 😻
-- `vk` <ins title="2023-10-16-08-28-20">vovach99</ins> 😍
-- `tg` <ins title="2023-11-17-14-21-17">Alexey Stepanov</ins> 💩
-- `tg` <ins title="2024-02-28-19-29-52">violetspider</ins> Aaaah 🌙
 
 ## <span id="2022-07-01-tel-aruhn-at-dawn">Tel Aruhn at Dawn</span>
 
@@ -1174,6 +1174,38 @@
   - <ins title="2022-07-28-22-01-48">heart_forms</ins> Так а как он тогда сфоткал
 - `tg` <ins title="2022-07-29-06-12-58">Sebulba518</ins> HESOYAM
 
+## <span id="2023-08-11-waterside-encounters">Waterside Encounters</span>
+
+`RU` Встречи у берега
+
+<a href="https://instagram.com/p/Cv0e0OdMZ-3/" title="2018-04-24-did-you-hear-that-cry"><img alt="store:/shots/2018-04-24-did-you-hear-that-cry.png" src="../../assets/previews/shots/2018-04-24-did-you-hear-that-cry.avif" /></a>
+<a href="https://instagram.com/p/Cv0e0OdMZ-3/" title="2017-08-14-maiq-the-liar"><img alt="store:/shots/2017-08-14-maiq-the-liar.png" src="../../assets/previews/shots/2017-08-14-maiq-the-liar.avif" /></a>
+<a href="https://instagram.com/p/Cv0e0OdMZ-3/" title="2017-06-19-hentus-still-looks-for-his-pants"><img alt="store:/shots/2017-06-19-hentus-still-looks-for-his-pants.png" src="../../assets/previews/shots/2017-06-19-hentus-still-looks-for-his-pants.avif" /></a>
+<a href="https://instagram.com/p/Cv0e0OdMZ-3/" title="2019-02-16-vevrana-aryon"><img alt="store:/shots/2019-02-16-vevrana-aryon.png" src="../../assets/previews/shots/2019-02-16-vevrana-aryon.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+`B2` `🚀 OpenMW` `🔗 Bloodmoon` `water` `npc`
+
+```
+2023-08-11-waterside-encounters
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Cv0e0OdMZ-3/)       | 2023-08-11 |  1007 |   233 |      1402 |  16.62 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1409) | 2023-08-11 |   498 |    43 |       895 |    4.8 |
+| [`tg`](https://t.me/mwscr/322,323,324,325)         | 2023-08-11 |  1312 |    60 |       322 |  18.63 |
+|                                                    |            |  2817 |   336 |      2619 |  13.35 |
+
+#### Comments
+
+- `ig` <ins title="2023-08-11-22-37-02">yoshi_23ii</ins> Get him some pants
+- `ig` <ins title="2023-08-12-01-24-04">eeanmann.art</ins> chief keef got a white boy posted up like this
+- `tg` <ins title="2023-08-13-22-20-17">محمد خالد</ins> Cool
+
 ## <span id="2020-11-05-night-pasture">Night Pasture</span>
 
 `RU` Ночной выпас
@@ -1214,37 +1246,41 @@
 - `tg` <ins title="2020-11-06-05-29-53">Redoranar</ins> ❤️
 - `tg` <ins title="2021-03-15-09-44-55">Lufendo</ins> whoah
 
-## <span id="2023-08-11-waterside-encounters">Waterside Encounters</span>
+## <span id="2023-07-29-evening-at-the-suran-street-by-darkness-rifho">Evening at the Suran Street</span>
 
-`RU` Встречи у берега
+`RU` Вечер на улице Сурана
 
-<a href="https://instagram.com/p/Cv0e0OdMZ-3/" title="2018-04-24-did-you-hear-that-cry"><img alt="store:/shots/2018-04-24-did-you-hear-that-cry.png" src="../../assets/previews/shots/2018-04-24-did-you-hear-that-cry.avif" /></a>
-<a href="https://instagram.com/p/Cv0e0OdMZ-3/" title="2017-08-14-maiq-the-liar"><img alt="store:/shots/2017-08-14-maiq-the-liar.png" src="../../assets/previews/shots/2017-08-14-maiq-the-liar.avif" /></a>
-<a href="https://instagram.com/p/Cv0e0OdMZ-3/" title="2017-06-19-hentus-still-looks-for-his-pants"><img alt="store:/shots/2017-06-19-hentus-still-looks-for-his-pants.png" src="../../assets/previews/shots/2017-06-19-hentus-still-looks-for-his-pants.avif" /></a>
-<a href="https://instagram.com/p/Cv0e0OdMZ-3/" title="2019-02-16-vevrana-aryon"><img alt="store:/shots/2019-02-16-vevrana-aryon.png" src="../../assets/previews/shots/2019-02-16-vevrana-aryon.avif" /></a>
+<a href="https://instagram.com/p/CvSgwuXs7Q5/" title="2023-07-29-evening-at-the-suran-street-by-darkness-rifho"><img alt="store:/shots/2023-07-29-evening-at-the-suran-street-by-darkness-rifho.png" src="../../assets/previews/shots/2023-07-29-evening-at-the-suran-street-by-darkness-rifho.avif" /></a>
 
-`shot-set` by [dehero](../contributors.md#dehero)
+`shot` by [Darkness Rifho](../contributors.md#darkness-rifho)
 
-`B2` `🚀 OpenMW` `🔗 Bloodmoon` `water` `npc`
+`A2` `📍 Suran` `lantern` `street` `evening`
 
 ```
-2023-08-11-waterside-encounters
+2023-07-29-evening-at-the-suran-street-by-darkness-rifho
 ```
 
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/Cv0e0OdMZ-3/)       | 2023-08-11 |  1007 |   233 |      1402 |  16.62 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1409) | 2023-08-11 |   498 |    43 |       895 |    4.8 |
-| [`tg`](https://t.me/mwscr/322,323,324,325)         | 2023-08-11 |  1306 |    59 |       322 |  18.32 |
-|                                                    |            |  2811 |   335 |      2619 |  13.25 |
+| [`ig`](https://instagram.com/p/CvSgwuXs7Q5/)       | 2023-07-29 |       |   246 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1391) | 2023-07-29 |   418 |    43 |       891 |   4.83 |
+| [`tg`](https://t.me/mwscr/309)                     | 2023-07-29 |   692 |    69 |       319 |  21.63 |
+|                                                    |            |  1110 |   358 |      1210 |  13.23 |
 
 #### Comments
 
-- `ig` <ins title="2023-08-11-22-37-02">yoshi_23ii</ins> Get him some pants
-- `ig` <ins title="2023-08-12-01-24-04">eeanmann.art</ins> chief keef got a white boy posted up like this
-- `tg` <ins title="2023-08-13-22-20-17">محمد خالد</ins> Cool
+- `tg` <ins title="2023-07-29-17-14-21">wilywils</ins> УРААА КАНАЛ СНОВА ЖИВВВВ.
+- `tg` <ins title="2023-07-29-17-16-14">martosinc</ins> 😍
+  - <ins title="2023-07-29-17-40-29">StripedBear</ins> ❤️
+- `tg` <ins title="2023-07-29-17-16-54">syomadyoma</ins> а как сюда предлагать картинки
+- `tg` <ins title="2023-07-29-17-46-08">eIisabeth</ins> 😀
+- `ig` <ins title="2023-07-29-20-45-58">redmisstletoe</ins> Best clothes are for sale at left corner
+- `ig` <ins title="2023-07-29-23-52-38">walter_nyqvist</ins> Loved robbing all the houses there!
+  - <ins title="2023-07-30-21-47-25">someone_simple42</ins> Let&#39;s not make this official, move along
+- `ig` <ins title="2023-07-31-13-47-20">quantd7709</ins> memories
+- `vk` <ins title="2023-08-02-18-53-26">grapplerbaki</ins> Верните меня в Сейда Нин
 
 ## <span id="2022-07-17-slaves-sight">Slave&#39;s Sight</span>
 
@@ -1369,42 +1405,6 @@
 
 - `ig` <ins title="2022-06-28-19-03-26">m_salashchenko</ins> 👍🏻
 
-## <span id="2023-07-29-evening-at-the-suran-street-by-darkness-rifho">Evening at the Suran Street</span>
-
-`RU` Вечер на улице Сурана
-
-<a href="https://instagram.com/p/CvSgwuXs7Q5/" title="2023-07-29-evening-at-the-suran-street-by-darkness-rifho"><img alt="store:/shots/2023-07-29-evening-at-the-suran-street-by-darkness-rifho.png" src="../../assets/previews/shots/2023-07-29-evening-at-the-suran-street-by-darkness-rifho.avif" /></a>
-
-`shot` by [Darkness Rifho](../contributors.md#darkness-rifho)
-
-`A2` `📍 Suran` `lantern` `street` `evening`
-
-```
-2023-07-29-evening-at-the-suran-street-by-darkness-rifho
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CvSgwuXs7Q5/)       | 2023-07-29 |       |   246 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1391) | 2023-07-29 |   418 |    43 |       891 |   4.83 |
-| [`tg`](https://t.me/mwscr/309)                     | 2023-07-29 |   688 |    68 |       319 |  21.32 |
-|                                                    |            |  1106 |   357 |      1210 |  13.07 |
-
-#### Comments
-
-- `tg` <ins title="2023-07-29-17-14-21">wilywils</ins> УРААА КАНАЛ СНОВА ЖИВВВВ.
-- `tg` <ins title="2023-07-29-17-16-14">martosinc</ins> 😍
-  - <ins title="2023-07-29-17-40-29">StripedBear</ins> ❤️
-- `tg` <ins title="2023-07-29-17-16-54">syomadyoma</ins> а как сюда предлагать картинки
-- `tg` <ins title="2023-07-29-17-46-08">eIisabeth</ins> 😀
-- `ig` <ins title="2023-07-29-20-45-58">redmisstletoe</ins> Best clothes are for sale at left corner
-- `ig` <ins title="2023-07-29-23-52-38">walter_nyqvist</ins> Loved robbing all the houses there!
-  - <ins title="2023-07-30-21-47-25">someone_simple42</ins> Let&#39;s not make this official, move along
-- `ig` <ins title="2023-07-31-13-47-20">quantd7709</ins> memories
-- `vk` <ins title="2023-08-02-18-53-26">grapplerbaki</ins> Верните меня в Сейда Нин
-
 ## <span id="2022-06-27-going-out-of-mournhold-armory">Going Out of Mournhold Armory</span>
 
 `RU` Выходя из оружейной Морнхолда
@@ -1435,6 +1435,35 @@
 - `tg` <ins title="2022-06-28-00-13-59">Metolkin</ins> Nice work! How about expanding to the Tamriel Rebuilt?
   - <ins title="2022-06-28-05-14-38">mwscr</ins> They do nice job, but for my opinion Tamriel Rebuild does not naturally follow look and feel of vanilla Morrowind.
 - `tg` <ins title="2022-07-03-06-57-37">mwscr</ins> Let&#39;s be honest, Mournhold has been done like it was one model copypasted over the entire city.
+
+## <span id="2023-08-09-night-on-suran-square">Night on Suran Square</span>
+
+`RU` Ночь на площади Сурана
+
+<a href="https://instagram.com/p/CvvTMtXsME8/" title="2023-08-09-night-on-suran-square"><img alt="store:/shots/2023-08-09-night-on-suran-square.png" src="../../assets/previews/shots/2023-08-09-night-on-suran-square.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Suran` `🚀 OpenMW` `nightcitylights`
+
+```
+2023-08-09-night-on-suran-square
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/CvvTMtXsME8/)       | 2023-08-09 |   709 |   170 |      1401 |  12.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1406) | 2023-08-09 |   497 |    42 |       896 |   4.69 |
+| [`tg`](https://t.me/mwscr/320)                     | 2023-08-09 |   976 |    71 |       319 |  22.26 |
+|                                                    |            |  2182 |   283 |      2616 |  13.03 |
+
+#### Comments
+
+- `ig` <ins title="2023-08-09-21-48-44">eastcoast_lg</ins> I’ve spend many nights there myself
+  - <ins title="2023-08-10-11-39-06">someone_simple42</ins> those were good times.
+- `ig` <ins title="2023-08-10-11-38-39">someone_simple42</ins> What a vibe, man.
 
 ## <span id="2017-01-06-daedroth-in-grazelands">Daedroth in Grazelands</span>
 
@@ -1529,34 +1558,28 @@
 - `ig` <ins title="2022-07-19-08-33-53">gloves_finne</ins> ❤️❤️❤️
 - `ig` <ins title="2022-07-19-13-02-25">quantd7709</ins> always a chore to remove these bad boys from the house i store my weapons in 😂
 
-## <span id="2023-08-09-night-on-suran-square">Night on Suran Square</span>
+## <span id="2022-07-30-sorority">Sorority</span>
 
-`RU` Ночь на площади Сурана
+`RU` Женское общество
 
-<a href="https://instagram.com/p/CvvTMtXsME8/" title="2023-08-09-night-on-suran-square"><img alt="store:/shots/2023-08-09-night-on-suran-square.png" src="../../assets/previews/shots/2023-08-09-night-on-suran-square.avif" /></a>
+<a href="https://instagram.com/p/CgpqbBYsY7l/" title="2022-07-30-sorority"><img alt="store:/shots/2022-07-30-sorority.png" src="../../assets/previews/shots/2022-07-30-sorority.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Suran` `🚀 OpenMW` `nightcitylights`
+`C` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-30-sorority)</code> `🚀 OpenMW`
 
 ```
-2023-08-09-night-on-suran-square
+2022-07-30-sorority
 ```
 
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CvvTMtXsME8/)       | 2023-08-09 |   709 |   170 |      1401 |  12.13 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1406) | 2023-08-09 |   497 |    42 |       896 |   4.69 |
-| [`tg`](https://t.me/mwscr/320)                     | 2023-08-09 |   973 |    70 |       319 |  21.94 |
-|                                                    |            |  2179 |   282 |      2616 |  12.92 |
-
-#### Comments
-
-- `ig` <ins title="2023-08-09-21-48-44">eastcoast_lg</ins> I’ve spend many nights there myself
-  - <ins title="2023-08-10-11-39-06">someone_simple42</ins> those were good times.
-- `ig` <ins title="2023-08-10-11-38-39">someone_simple42</ins> What a vibe, man.
+| [`ig`](https://instagram.com/p/CgpqbBYsY7l/)       | 2022-07-30 |       |   111 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1374) | 2022-07-30 |  3623 |    61 |       796 |   7.66 |
+| [`tg`](https://t.me/mwscr/299)                     | 2022-07-30 |  1319 |    51 |       278 |  18.35 |
+|                                                    |            |  4942 |   223 |      1074 |     13 |
 
 ## <span id="2022-06-29-window-plant">Window Plant</span>
 
@@ -1586,29 +1609,6 @@
 - `tg` <ins title="2022-06-29-21-55-44">Russian_Belomor</ins> Я кстати архимагом стал
   - <ins title="2022-06-29-22-57-09">Shvechh</ins> А я кстати грандмастер мораг тонг
 - `ig` <ins title="2022-06-29-23-08-38">ccoteb</ins> Window plant 👏
-
-## <span id="2022-07-30-sorority">Sorority</span>
-
-`RU` Женское общество
-
-<a href="https://instagram.com/p/CgpqbBYsY7l/" title="2022-07-30-sorority"><img alt="store:/shots/2022-07-30-sorority.png" src="../../assets/previews/shots/2022-07-30-sorority.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`C` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-30-sorority)</code> `🚀 OpenMW`
-
-```
-2022-07-30-sorority
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CgpqbBYsY7l/)       | 2022-07-30 |       |   111 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1374) | 2022-07-30 |  3623 |    61 |       796 |   7.66 |
-| [`tg`](https://t.me/mwscr/299)                     | 2022-07-30 |  1314 |    50 |       278 |  17.99 |
-|                                                    |            |  4937 |   222 |      1074 |  12.82 |
 
 ## <span id="2018-01-16-birth-of-fabricant">Birth of Fabricant</span>
 
@@ -1662,8 +1662,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CvaP_PTsYwd/)       | 2023-08-01 |       |   130 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1396) | 2023-08-01 |   429 |    41 |       893 |   4.59 |
-| [`tg`](https://t.me/mwscr/312)                     | 2023-08-01 |   740 |    65 |       317 |   20.5 |
-|                                                    |            |  1169 |   236 |      1210 |  12.55 |
+| [`tg`](https://t.me/mwscr/312)                     | 2023-08-01 |   743 |    66 |       317 |  20.82 |
+|                                                    |            |  1172 |   237 |      1210 |  12.71 |
 
 #### Comments
 
