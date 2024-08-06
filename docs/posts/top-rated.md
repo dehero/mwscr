@@ -26,8 +26,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfKLDX6sxiS/)       | 2022-06-23 |       |   266 |      1088 |  24.45 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1303) | 2022-06-23 |   985 |    79 |       700 |  11.29 |
-| [`tg`](https://t.me/mwscr/246)                     | 2022-06-23 |  1119 |    85 |       226 |  37.61 |
-|                                                    |            |  2104 |   430 |      2014 |  24.45 |
+| [`tg`](https://t.me/mwscr/246)                     | 2022-06-23 |  1121 |    85 |       226 |  37.61 |
+|                                                    |            |  2106 |   430 |      2014 |  24.45 |
 
 #### Comments
 
@@ -84,8 +84,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cf4jg83s0fl/)       | 2022-07-11 |       |   362 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1334) | 2022-07-11 |  1211 |   128 |       767 |  16.69 |
-| [`tg`](https://t.me/mwscr/271,272,273,274)         | 2022-07-11 |   725 |    56 |       257 |  21.79 |
-|                                                    |            |  1936 |   546 |      1024 |  19.24 |
+| [`tg`](https://t.me/mwscr/271,272,273,274)         | 2022-07-11 |   727 |    56 |       257 |  21.79 |
+|                                                    |            |  1938 |   546 |      1024 |  19.24 |
 
 #### Comments
 
@@ -201,8 +201,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CHdr_lXBR5J/)       | 2020-11-11 |       |   186 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1291) | 2020-11-11 |  2092 |   108 |       459 |  23.53 |
-| [`tg`](https://t.me/mwscr/245)                     | 2020-11-11 |  2548 |    18 |       169 |  10.65 |
-|                                                    |            |  4640 |   312 |       628 |  17.09 |
+| [`tg`](https://t.me/mwscr/245)                     | 2020-11-11 |  2549 |    18 |       169 |  10.65 |
+|                                                    |            |  4641 |   312 |       628 |  17.09 |
 
 #### Comments
 
@@ -255,8 +255,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgNJV67smXO/)       | 2022-07-19 |       |   199 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1351) | 2022-07-19 |   761 |    81 |       783 |  10.34 |
-| [`tg`](https://t.me/mwscr/282)                     | 2022-07-19 |   808 |    62 |       267 |  23.22 |
-|                                                    |            |  1569 |   342 |      1050 |  16.78 |
+| [`tg`](https://t.me/mwscr/282)                     | 2022-07-19 |   811 |    62 |       267 |  23.22 |
+|                                                    |            |  1572 |   342 |      1050 |  16.78 |
 
 #### Comments
 
@@ -283,8 +283,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cf2L3gis24B/)       | 2022-07-10 |       |   220 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1333) | 2022-07-10 |   567 |    80 |       759 |  10.54 |
-| [`tg`](https://t.me/mwscr/270)                     | 2022-07-10 |   760 |    59 |       257 |  22.96 |
-|                                                    |            |  1327 |   359 |      1016 |  16.75 |
+| [`tg`](https://t.me/mwscr/270)                     | 2022-07-10 |   761 |    59 |       257 |  22.96 |
+|                                                    |            |  1328 |   359 |      1016 |  16.75 |
 
 #### Comments
 
@@ -315,8 +315,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfmolBKM0ih/)       | 2022-07-04 |       |   210 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1324) | 2022-07-04 |   483 |    64 |       738 |   8.67 |
-| [`tg`](https://t.me/mwscr/261,262,263,264)         | 2022-07-04 |   692 |    62 |       253 |  24.51 |
-|                                                    |            |  1175 |   336 |       991 |  16.59 |
+| [`tg`](https://t.me/mwscr/261,262,263,264)         | 2022-07-04 |   693 |    62 |       253 |  24.51 |
+|                                                    |            |  1176 |   336 |       991 |  16.59 |
 
 #### Comments
 
@@ -354,8 +354,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfuSW2iMP_z/)       | 2022-07-07 |       |   195 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1327) | 2022-07-07 |   671 |    85 |       739 |   11.5 |
-| [`tg`](https://t.me/mwscr/267)                     | 2022-07-07 |   690 |    55 |       256 |  21.48 |
-|                                                    |            |  1361 |   335 |       995 |  16.49 |
+| [`tg`](https://t.me/mwscr/267)                     | 2022-07-07 |   691 |    55 |       256 |  21.48 |
+|                                                    |            |  1362 |   335 |       995 |  16.49 |
 
 #### Comments
 
@@ -385,8 +385,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfMyXajMpIO/)       | 2022-06-24 |       |   192 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1310) | 2022-06-24 |   540 |    54 |       699 |   7.73 |
-| [`tg`](https://t.me/mwscr/247)                     | 2022-06-24 |   703 |    58 |       236 |  24.58 |
-|                                                    |            |  1243 |   304 |       935 |  16.15 |
+| [`tg`](https://t.me/mwscr/247)                     | 2022-06-24 |   704 |    58 |       236 |  24.58 |
+|                                                    |            |  1244 |   304 |       935 |  16.15 |
 
 #### Comments
 
@@ -421,8 +421,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CHYa0d6hhUT/)       | 2020-11-09 |       |   222 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1290) | 2020-11-09 |  2259 |   108 |       459 |  23.53 |
-| [`tg`](https://t.me/mwscr/244)                     | 2020-11-09 |  2484 |    14 |       169 |   8.28 |
-|                                                    |            |  4743 |   344 |       628 |  15.91 |
+| [`tg`](https://t.me/mwscr/244)                     | 2020-11-09 |  2485 |    14 |       169 |   8.28 |
+|                                                    |            |  4744 |   344 |       628 |  15.91 |
 
 #### Comments
 
@@ -453,8 +453,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgP8EBIM2GT/)       | 2022-07-20 |       |   187 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1352) | 2022-07-20 |   750 |    79 |       784 |  10.08 |
-| [`tg`](https://t.me/mwscr/283)                     | 2022-07-20 |   814 |    55 |       266 |  20.68 |
-|                                                    |            |  1564 |   321 |      1050 |  15.38 |
+| [`tg`](https://t.me/mwscr/283)                     | 2022-07-20 |   817 |    55 |       266 |  20.68 |
+|                                                    |            |  1567 |   321 |      1050 |  15.38 |
 
 #### Comments
 
@@ -464,6 +464,43 @@
   - <ins title="2022-07-21-09-12-15">mwscr</ins> На русском канал ведётся здесь https://vk.com/mwscr
 - `tg` <ins title="2022-07-21-06-26-29">mongleri</ins> norway! yay!
 - `ig` <ins title="2022-07-28-19-31-14">shade.watches</ins> Best game
+
+## <span id="2022-07-29-sunset-cypresses">Sunset Cypresses</span>
+
+`RU` Закатные кипарисы
+
+<a href="https://instagram.com/p/CgnHcDMs8Iy/" title="2022-07-29-sunset-cypresses"><img alt="store:/shots/2022-07-29-sunset-cypresses.png" src="../../assets/previews/shots/2022-07-29-sunset-cypresses.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2022-06-29-22-51-07.1.png](../../assets/previews/inbox/dehero.2022-06-29-22-51-07.1.avif "dehero.2022-06-29-22-51-07.1")
+![store:/inbox/dehero.2022-06-29-22-50-55.png](../../assets/previews/inbox/dehero.2022-06-29-22-50-55.avif "dehero.2022-06-29-22-50-55")
+![store:/inbox/dehero.2022-06-29-22-51-07.png](../../assets/previews/inbox/dehero.2022-06-29-22-51-07.avif "dehero.2022-06-29-22-51-07")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` `📍 Bitter Coast Region` `🚀 OpenMW`
+
+```
+2022-07-29-sunset-cypresses
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/CgnHcDMs8Iy/)       | 2022-07-29 |       |   250 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1371) | 2022-07-29 |   773 |    73 |       796 |   9.17 |
+| [`tg`](https://t.me/mwscr/298)                     | 2022-07-29 |  1331 |    59 |       274 |  21.53 |
+|                                                    |            |  2104 |   382 |      1070 |  15.35 |
+
+#### Comments
+
+- `vk` <ins title="2022-07-29-21-44-14">thelittlebuddy</ins> Господи как же это красиво.
+- `ig` <ins title="2022-07-30-03-03-30">dakota_duffy</ins> I&#39;ve been so happy seeing you on my feed again
+  - <ins title="2022-07-30-12-55-56">mwscr</ins> ❤️
 
 ## <span id="2020-11-02-dead-reflections">Dead Reflections</span>
 
@@ -485,8 +522,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CHGbml3BBmP/)       | 2020-11-02 |       |   191 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1285) | 2020-11-02 |  1792 |   107 |       457 |  23.41 |
-| [`tg`](https://t.me/mwscr/240)                     | 2020-11-02 |  1374 |    12 |       166 |   7.23 |
-|                                                    |            |  3166 |   310 |       623 |  15.32 |
+| [`tg`](https://t.me/mwscr/240)                     | 2020-11-02 |  1375 |    12 |       166 |   7.23 |
+|                                                    |            |  3167 |   310 |       623 |  15.32 |
 
 #### Comments
 
@@ -554,43 +591,6 @@
 - `vk` <ins title="2023-07-30-12-02-19">id4936513</ins> Вы снова вернулись❤
 - `ig` <ins title="2023-07-31-19-43-30">stanislawlyszczarz</ins> I&#39;m so glad that you are back! 🫡
 
-## <span id="2022-07-29-sunset-cypresses">Sunset Cypresses</span>
-
-`RU` Закатные кипарисы
-
-<a href="https://instagram.com/p/CgnHcDMs8Iy/" title="2022-07-29-sunset-cypresses"><img alt="store:/shots/2022-07-29-sunset-cypresses.png" src="../../assets/previews/shots/2022-07-29-sunset-cypresses.avif" /></a>
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2022-06-29-22-51-07.1.png](../../assets/previews/inbox/dehero.2022-06-29-22-51-07.1.avif "dehero.2022-06-29-22-51-07.1")
-![store:/inbox/dehero.2022-06-29-22-50-55.png](../../assets/previews/inbox/dehero.2022-06-29-22-50-55.avif "dehero.2022-06-29-22-50-55")
-![store:/inbox/dehero.2022-06-29-22-51-07.png](../../assets/previews/inbox/dehero.2022-06-29-22-51-07.avif "dehero.2022-06-29-22-51-07")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B2` `📍 Bitter Coast Region` `🚀 OpenMW`
-
-```
-2022-07-29-sunset-cypresses
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CgnHcDMs8Iy/)       | 2022-07-29 |       |   250 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1371) | 2022-07-29 |   773 |    73 |       796 |   9.17 |
-| [`tg`](https://t.me/mwscr/298)                     | 2022-07-29 |  1324 |    58 |       274 |  21.17 |
-|                                                    |            |  2097 |   381 |      1070 |  15.17 |
-
-#### Comments
-
-- `vk` <ins title="2022-07-29-21-44-14">thelittlebuddy</ins> Господи как же это красиво.
-- `ig` <ins title="2022-07-30-03-03-30">dakota_duffy</ins> I&#39;ve been so happy seeing you on my feed again
-  - <ins title="2022-07-30-12-55-56">mwscr</ins> ❤️
-
 ## <span id="2022-07-31-alchemy">Alchemy</span>
 
 `RU` Алхимия
@@ -649,8 +649,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfSI8dls49R/)       | 2022-06-26 |       |   218 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1314) | 2022-06-26 |   491 |    48 |       732 |   6.56 |
-| [`tg`](https://t.me/mwscr/250,251,252,253)         | 2022-06-26 |   670 |    57 |       242 |  23.55 |
-|                                                    |            |  1161 |   323 |       974 |  15.06 |
+| [`tg`](https://t.me/mwscr/250,251,252,253)         | 2022-06-26 |   671 |    57 |       242 |  23.55 |
+|                                                    |            |  1162 |   323 |       974 |  15.06 |
 
 #### Comments
 
@@ -688,8 +688,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgVJNG9MwMe/)       | 2022-07-22 |       |   342 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1361) | 2022-07-22 |   751 |    67 |       787 |   8.51 |
-| [`tg`](https://t.me/mwscr/285,286,287,288)         | 2022-07-22 |   852 |    58 |       271 |   21.4 |
-|                                                    |            |  1603 |   467 |      1058 |  14.96 |
+| [`tg`](https://t.me/mwscr/285,286,287,288)         | 2022-07-22 |   854 |    58 |       271 |   21.4 |
+|                                                    |            |  1605 |   467 |      1058 |  14.96 |
 
 #### Comments
 
@@ -719,8 +719,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfzmJ3rsxLN/)       | 2022-07-09 |       |   201 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1330) | 2022-07-09 |   526 |    61 |       742 |   8.22 |
-| [`tg`](https://t.me/mwscr/269)                     | 2022-07-09 |   648 |    55 |       257 |   21.4 |
-|                                                    |            |  1174 |   317 |       999 |  14.81 |
+| [`tg`](https://t.me/mwscr/269)                     | 2022-07-09 |   649 |    55 |       257 |   21.4 |
+|                                                    |            |  1175 |   317 |       999 |  14.81 |
 
 #### Comments
 
@@ -750,8 +750,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cf91rD0MUsB/)       | 2022-07-13 |       |   142 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1341) | 2022-07-13 |   649 |    77 |       771 |   9.99 |
-| [`tg`](https://t.me/mwscr/276)                     | 2022-07-13 |   730 |    51 |       260 |  19.62 |
-|                                                    |            |  1379 |   270 |      1031 |   14.8 |
+| [`tg`](https://t.me/mwscr/276)                     | 2022-07-13 |   731 |    51 |       260 |  19.62 |
+|                                                    |            |  1380 |   270 |      1031 |   14.8 |
 
 #### Comments
 
@@ -784,8 +784,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfkOkyxM56I/)       | 2022-07-03 |       |   226 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1321) | 2022-07-03 |   584 |    71 |       738 |   9.62 |
-| [`tg`](https://t.me/mwscr/260)                     | 2022-07-03 |   652 |    49 |       252 |  19.44 |
-|                                                    |            |  1236 |   346 |       990 |  14.53 |
+| [`tg`](https://t.me/mwscr/260)                     | 2022-07-03 |   653 |    49 |       252 |  19.44 |
+|                                                    |            |  1237 |   346 |       990 |  14.53 |
 
 #### Comments
 
@@ -795,6 +795,29 @@
 - `vk` <ins title="2022-07-03-22-42-09">theoyra</ins> Какая красота
 - `ig` <ins title="2022-07-03-23-10-05">hopkick</ins> Oh man I miss this game
 - `ig` <ins title="2022-07-04-01-46-47">middleirongate</ins> This is genuinely the greatest screenshots page I’ve come across
+
+## <span id="2022-07-25-rainy-coast">Rainy Coast</span>
+
+`RU` Дождливое побережье
+
+<a href="https://instagram.com/p/Cgc2ek9sPt3/" title="2022-07-25-rainy-coast"><img alt="store:/shots/2022-07-25-rainy-coast.png" src="../../assets/previews/shots/2022-07-25-rainy-coast.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-25-rainy-coast)</code> `🚀 OpenMW`
+
+```
+2022-07-25-rainy-coast
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Cgc2ek9sPt3/)       | 2022-07-25 |       |   280 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1365) | 2022-07-25 |   744 |    69 |       791 |   8.72 |
+| [`tg`](https://t.me/mwscr/291)                     | 2022-07-25 |  1006 |    55 |       272 |  20.22 |
+|                                                    |            |  1750 |   404 |      1063 |  14.47 |
 
 ## <span id="2022-07-12-leaving-holamayan">Leaving Holamayan</span>
 
@@ -816,8 +839,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cf7QmlXsoVy/)       | 2022-07-12 |       |   161 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1337) | 2022-07-12 |   622 |    79 |       769 |  10.27 |
-| [`tg`](https://t.me/mwscr/275)                     | 2022-07-12 |   699 |    48 |       258 |   18.6 |
-|                                                    |            |  1321 |   288 |      1027 |  14.44 |
+| [`tg`](https://t.me/mwscr/275)                     | 2022-07-12 |   700 |    48 |       258 |   18.6 |
+|                                                    |            |  1322 |   288 |      1027 |  14.44 |
 
 #### Comments
 
@@ -858,28 +881,33 @@
 - `tg` <ins title="2022-08-04-10-36-11">anakiners</ins> так тут про морровинд
 - `tg` <ins title="2022-08-06-13-43-49">alex_emsow</ins> Suran
 
-## <span id="2022-07-25-rainy-coast">Rainy Coast</span>
+## <span id="2022-07-23-draggle-tail-sunrise">Draggle-Tail Sunrise</span>
 
-`RU` Дождливое побережье
+`RU` Рассвет грязнохвостника
 
-<a href="https://instagram.com/p/Cgc2ek9sPt3/" title="2022-07-25-rainy-coast"><img alt="store:/shots/2022-07-25-rainy-coast.png" src="../../assets/previews/shots/2022-07-25-rainy-coast.avif" /></a>
+<a href="https://instagram.com/p/CgXsRanMl8c/" title="2022-07-23-draggle-tail-sunrise"><img alt="store:/shots/2022-07-23-draggle-tail-sunrise.png" src="../../assets/previews/shots/2022-07-23-draggle-tail-sunrise.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-25-rainy-coast)</code> `🚀 OpenMW`
+`C` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-23-draggle-tail-sunrise)</code> `🚀 OpenMW` `el`
 
 ```
-2022-07-25-rainy-coast
+2022-07-23-draggle-tail-sunrise
 ```
 
 ### Reactions
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/Cgc2ek9sPt3/)       | 2022-07-25 |       |   280 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1365) | 2022-07-25 |   744 |    69 |       791 |   8.72 |
-| [`tg`](https://t.me/mwscr/291)                     | 2022-07-25 |  1004 |    54 |       272 |  19.85 |
-|                                                    |            |  1748 |   403 |      1063 |  14.29 |
+| [`ig`](https://instagram.com/p/CgXsRanMl8c/)       | 2022-07-23 |       |   106 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1363) | 2022-07-23 |   720 |    70 |       790 |   8.86 |
+| [`tg`](https://t.me/mwscr/289)                     | 2022-07-23 |   898 |    54 |       272 |  19.85 |
+|                                                    |            |  1618 |   230 |      1062 |  14.36 |
+
+#### Comments
+
+- `tg` <ins title="2022-07-23-21-43-14">mwscr</ins> beautiful
+- `ig` <ins title="2022-07-24-03-37-07">theknightofflowers</ins> Sell those coda flowers
 
 ## <span id="2022-07-15-sail-on">Sail On</span>
 
@@ -901,40 +929,12 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgDCUOIs8g_/)       | 2022-07-15 |       |   139 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1345) | 2022-07-15 |   707 |    72 |       771 |   9.34 |
-| [`tg`](https://t.me/mwscr/278)                     | 2022-07-15 |   756 |    50 |       262 |  19.08 |
-|                                                    |            |  1463 |   261 |      1033 |  14.21 |
+| [`tg`](https://t.me/mwscr/278)                     | 2022-07-15 |   759 |    50 |       262 |  19.08 |
+|                                                    |            |  1466 |   261 |      1033 |  14.21 |
 
 #### Comments
 
 - `ig` <ins title="2022-07-16-00-21-56">andrewmarotti</ins> I love this account so much. Thanks for these calming screenshots.
-
-## <span id="2022-07-23-draggle-tail-sunrise">Draggle-Tail Sunrise</span>
-
-`RU` Рассвет грязнохвостника
-
-<a href="https://instagram.com/p/CgXsRanMl8c/" title="2022-07-23-draggle-tail-sunrise"><img alt="store:/shots/2022-07-23-draggle-tail-sunrise.png" src="../../assets/previews/shots/2022-07-23-draggle-tail-sunrise.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`C` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-23-draggle-tail-sunrise)</code> `🚀 OpenMW` `el`
-
-```
-2022-07-23-draggle-tail-sunrise
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CgXsRanMl8c/)       | 2022-07-23 |       |   106 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1363) | 2022-07-23 |   720 |    70 |       790 |   8.86 |
-| [`tg`](https://t.me/mwscr/289)                     | 2022-07-23 |   896 |    53 |       272 |  19.49 |
-|                                                    |            |  1616 |   229 |      1062 |  14.17 |
-
-#### Comments
-
-- `tg` <ins title="2022-07-23-21-43-14">mwscr</ins> beautiful
-- `ig` <ins title="2022-07-24-03-37-07">theknightofflowers</ins> Sell those coda flowers
 
 ## <span id="2022-07-21-three-gods-one-true-faith">Three Gods, One True Faith</span>
 
@@ -956,8 +956,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgSe7SJM4ba/)       | 2022-07-21 |       |   115 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1358) | 2022-07-21 |  1002 |    77 |       786 |    9.8 |
-| [`tg`](https://t.me/mwscr/284)                     | 2022-07-21 |  1529 |    49 |       267 |  18.35 |
-|                                                    |            |  2531 |   241 |      1053 |  14.07 |
+| [`tg`](https://t.me/mwscr/284)                     | 2022-07-21 |  1532 |    49 |       267 |  18.35 |
+|                                                    |            |  2534 |   241 |      1053 |  14.07 |
 
 #### Comments
 
@@ -967,6 +967,38 @@
   - <ins title="2022-07-22-13-02-20">mwscr</ins> Right
 - `tg` <ins title="2022-07-22-12-20-26">deleted</ins> Имба
 - `vk` <ins title="2022-07-22-18-49-50">gloryoftamriel</ins> зачем его тереть?
+
+## <span id="2022-07-28-steady-dinner">Steady Dinner</span>
+
+`RU` Надёжный ужин
+
+<a href="https://instagram.com/p/CgkkWXgsk6c/" title="2022-07-28-steady-dinner"><img alt="store:/shots/2022-07-28-steady-dinner.png" src="../../assets/previews/shots/2022-07-28-steady-dinner.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-28-steady-dinner)</code> `🚀 OpenMW`
+
+```
+2022-07-28-steady-dinner
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/CgkkWXgsk6c/)       | 2022-07-28 |       |   235 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1368) | 2022-07-28 |   713 |    62 |       796 |   7.79 |
+| [`tg`](https://t.me/mwscr/297)                     | 2022-07-28 |  1165 |    55 |       274 |  20.07 |
+|                                                    |            |  1878 |   352 |      1070 |  13.93 |
+
+#### Comments
+
+- `ig` <ins title="2022-07-28-21-46-10">epicgamingphotographer</ins> That scuttle is to die for (from my understanding)! 😍
+- `vk` <ins title="2022-07-29-07-30-02">mentos100</ins> Надежный?🤔
+  - <ins title="2022-07-29-18-40-07">dehero</ins> Артём, честно, сам не всегда понимаю смысл названий. Приходят как-то сами.
+  - <ins title="2022-07-31-12-39-20">id4936513</ins> Артём, На столе скрибовое желе и солёный рис - довольно простые и часто встречающиеся пищевые ингредиенты. Т.е. это то что &quot;надёжно&quot; может оказаться на столе любого жителя Вварденфела вне зависимости от его статуса и финансового положения
+  - <ins title="2022-08-23-18-31-22">dehero</ins> Светлана, спасибо
+- `ig` <ins title="2022-07-29-11-21-38">verian21</ins> Always loved Morrowind interiors 😍
 
 ## <span id="2022-06-25-night-pasture-by-irina-bystritskaya">Night Pasture by Irina Bystritskaya</span>
 
@@ -989,8 +1021,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfPSbTyM2Va/)       | 2022-06-25 |       |   144 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1312) | 2022-06-25 |   623 |    43 |       723 |   5.95 |
-| [`tg`](https://t.me/mwscr/248,249)                 | 2022-06-25 |   672 |    52 |       238 |  21.85 |
-|                                                    |            |  1295 |   239 |       961 |   13.9 |
+| [`tg`](https://t.me/mwscr/248,249)                 | 2022-06-25 |   674 |    52 |       238 |  21.85 |
+|                                                    |            |  1297 |   239 |       961 |   13.9 |
 
 #### Comments
 
@@ -1061,66 +1093,6 @@
 - `tg` <ins title="2023-11-17-14-21-17">Alexey Stepanov</ins> 💩
 - `tg` <ins title="2024-02-28-19-29-52">violetspider</ins> Aaaah 🌙
 
-## <span id="2022-07-28-steady-dinner">Steady Dinner</span>
-
-`RU` Надёжный ужин
-
-<a href="https://instagram.com/p/CgkkWXgsk6c/" title="2022-07-28-steady-dinner"><img alt="store:/shots/2022-07-28-steady-dinner.png" src="../../assets/previews/shots/2022-07-28-steady-dinner.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2022-07-28-steady-dinner)</code> `🚀 OpenMW`
-
-```
-2022-07-28-steady-dinner
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CgkkWXgsk6c/)       | 2022-07-28 |       |   235 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1368) | 2022-07-28 |   713 |    62 |       796 |   7.79 |
-| [`tg`](https://t.me/mwscr/297)                     | 2022-07-28 |  1161 |    54 |       274 |  19.71 |
-|                                                    |            |  1874 |   351 |      1070 |  13.75 |
-
-#### Comments
-
-- `ig` <ins title="2022-07-28-21-46-10">epicgamingphotographer</ins> That scuttle is to die for (from my understanding)! 😍
-- `vk` <ins title="2022-07-29-07-30-02">mentos100</ins> Надежный?🤔
-  - <ins title="2022-07-29-18-40-07">dehero</ins> Артём, честно, сам не всегда понимаю смысл названий. Приходят как-то сами.
-  - <ins title="2022-07-31-12-39-20">id4936513</ins> Артём, На столе скрибовое желе и солёный рис - довольно простые и часто встречающиеся пищевые ингредиенты. Т.е. это то что &quot;надёжно&quot; может оказаться на столе любого жителя Вварденфела вне зависимости от его статуса и финансового положения
-  - <ins title="2022-08-23-18-31-22">dehero</ins> Светлана, спасибо
-- `ig` <ins title="2022-07-29-11-21-38">verian21</ins> Always loved Morrowind interiors 😍
-
-## <span id="2022-07-01-tel-aruhn-at-dawn">Tel Aruhn at Dawn</span>
-
-`RU` Тель Арун на заре
-
-<a href="https://instagram.com/p/Cfe829FstUf/" title="2022-07-01-tel-aruhn-at-dawn"><img alt="store:/shots/2022-07-01-tel-aruhn-at-dawn.png" src="../../assets/previews/shots/2022-07-01-tel-aruhn-at-dawn.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B1` `📍 Tel Aruhn` `🚀 OpenMW`
-
-```
-2022-07-01-tel-aruhn-at-dawn
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/Cfe829FstUf/)       | 2022-07-01 |       |   132 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1319) | 2022-07-01 |   538 |    58 |       738 |   7.86 |
-| [`tg`](https://t.me/mwscr/258)                     | 2022-07-01 |   620 |    47 |       247 |  19.03 |
-|                                                    |            |  1158 |   237 |       985 |  13.44 |
-
-#### Comments
-
-- `ig` <ins title="2022-07-02-09-38-48">m_salashchenko</ins> Atnosphere
-- `ig` <ins title="2022-07-02-13-37-22">ruslanfivsky</ins> ❤️
-
 ## <span id="2022-07-24-thorny-lamps">Thorny Lamps</span>
 
 `RU` Колючие светильники
@@ -1141,8 +1113,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgaYDbOsek_/)       | 2022-07-24 |       |   135 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1364) | 2022-07-24 |   661 |    61 |       790 |   7.72 |
-| [`tg`](https://t.me/mwscr/290)                     | 2022-07-24 |   935 |    52 |       272 |  19.12 |
-|                                                    |            |  1596 |   248 |      1062 |  13.42 |
+| [`tg`](https://t.me/mwscr/290)                     | 2022-07-24 |   937 |    53 |       272 |  19.49 |
+|                                                    |            |  1598 |   249 |      1062 |   13.6 |
 
 ## <span id="2022-07-27-camp-by-the-old-tree">Camp by the Old Tree</span>
 
@@ -1164,8 +1136,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Cgh-wvuM6kc/)       | 2022-07-27 |       |   137 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1367) | 2022-07-27 |   690 |    58 |       795 |    7.3 |
-| [`tg`](https://t.me/mwscr/296)                     | 2022-07-27 |  1111 |    53 |       272 |  19.49 |
-|                                                    |            |  1801 |   248 |      1067 |  13.39 |
+| [`tg`](https://t.me/mwscr/296)                     | 2022-07-27 |  1114 |    54 |       272 |  19.85 |
+|                                                    |            |  1804 |   249 |      1067 |  13.57 |
 
 #### Comments
 
@@ -1173,6 +1145,34 @@
   - <ins title="2022-07-28-08-40-15">trupach</ins> Если я правильно узнал, то они правда атакуют при приближении
   - <ins title="2022-07-28-22-01-48">heart_forms</ins> Так а как он тогда сфоткал
 - `tg` <ins title="2022-07-29-06-12-58">Sebulba518</ins> HESOYAM
+
+## <span id="2022-07-01-tel-aruhn-at-dawn">Tel Aruhn at Dawn</span>
+
+`RU` Тель Арун на заре
+
+<a href="https://instagram.com/p/Cfe829FstUf/" title="2022-07-01-tel-aruhn-at-dawn"><img alt="store:/shots/2022-07-01-tel-aruhn-at-dawn.png" src="../../assets/previews/shots/2022-07-01-tel-aruhn-at-dawn.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Tel Aruhn` `🚀 OpenMW`
+
+```
+2022-07-01-tel-aruhn-at-dawn
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Cfe829FstUf/)       | 2022-07-01 |       |   132 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1319) | 2022-07-01 |   538 |    58 |       738 |   7.86 |
+| [`tg`](https://t.me/mwscr/258)                     | 2022-07-01 |   621 |    47 |       247 |  19.03 |
+|                                                    |            |  1159 |   237 |       985 |  13.44 |
+
+#### Comments
+
+- `ig` <ins title="2022-07-02-09-38-48">m_salashchenko</ins> Atnosphere
+- `ig` <ins title="2022-07-02-13-37-22">ruslanfivsky</ins> ❤️
 
 ## <span id="2023-08-11-waterside-encounters">Waterside Encounters</span>
 
@@ -1206,6 +1206,38 @@
 - `ig` <ins title="2023-08-12-01-24-04">eeanmann.art</ins> chief keef got a white boy posted up like this
 - `tg` <ins title="2023-08-13-22-20-17">محمد خالد</ins> Cool
 
+## <span id="2022-07-26-imperial-castles">Imperial Castles</span>
+
+`RU` Имперские замки
+
+<a href="https://instagram.com/p/CgfVAmNMnk5/" title="2017-03-22-betty-netch-and-far-caldera"><img alt="store:/shots/2017-03-22-betty-netch-and-far-caldera.png" src="../../assets/previews/shots/2017-03-22-betty-netch-and-far-caldera.avif" /></a>
+<a href="https://instagram.com/p/CgfVAmNMnk5/" title="2017-04-25-castle-ebonheart"><img alt="store:/shots/2017-04-25-castle-ebonheart.png" src="../../assets/previews/shots/2017-04-25-castle-ebonheart.avif" /></a>
+<a href="https://instagram.com/p/CgfVAmNMnk5/" title="2016-12-18-the-governors-hall-in-caldera-from-distance"><img alt="store:/shots/2016-12-18-the-governors-hall-in-caldera-from-distance.png" src="../../assets/previews/shots/2016-12-18-the-governors-hall-in-caldera-from-distance.avif" /></a>
+<a href="https://instagram.com/p/CgfVAmNMnk5/" title="2017-09-08-sky-castle"><img alt="store:/shots/2017-09-08-sky-castle.png" src="../../assets/previews/shots/2017-09-08-sky-castle.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+`A2` `🚀 OpenMW` `castle`
+
+```
+2022-07-26-imperial-castles
+```
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/CgfVAmNMnk5/)       | 2022-07-26 |       |   230 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1366) | 2022-07-26 |   744 |    52 |       793 |   6.56 |
+| [`tg`](https://t.me/mwscr/292,293,294,295)         | 2022-07-26 |  1049 |    55 |       273 |  20.15 |
+|                                                    |            |  1793 |   337 |      1066 |  13.35 |
+
+#### Comments
+
+- `ig` <ins title="2022-07-26-23-18-37">quantd7709</ins> cool thing you can do in ebonheart at any point in the game: grab 20 sujamma go to the underground water cave and kill the guy with the lords mail
+- `tg` <ins title="2022-08-06-20-50-22">Скелет</ins> А раньше это казалось шикарнейшей игрой (в плане графики)
+  - <ins title="2022-12-14-20-17-41">theeaglethesun</ins> И что изменилось?
+
 ## <span id="2020-11-05-night-pasture">Night Pasture</span>
 
 `RU` Ночной выпас
@@ -1232,8 +1264,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CHODTMgB4_L/)       | 2020-11-05 |       |   176 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1287) | 2020-11-05 |  1531 |    91 |       456 |  19.96 |
-| [`tg`](https://t.me/mwscr/242)                     | 2020-11-05 |  1803 |    11 |       166 |   6.63 |
-|                                                    |            |  3334 |   278 |       622 |  13.29 |
+| [`tg`](https://t.me/mwscr/242)                     | 2020-11-05 |  1804 |    11 |       166 |   6.63 |
+|                                                    |            |  3335 |   278 |       622 |  13.29 |
 
 #### Comments
 
@@ -1302,45 +1334,13 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgIVDUJModN/)       | 2022-07-17 |       |   165 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1347) | 2022-07-17 |   653 |    60 |       779 |    7.7 |
-| [`tg`](https://t.me/mwscr/280)                     | 2022-07-17 |   764 |    49 |       262 |   18.7 |
-|                                                    |            |  1417 |   274 |      1041 |   13.2 |
+| [`tg`](https://t.me/mwscr/280)                     | 2022-07-17 |   766 |    49 |       262 |   18.7 |
+|                                                    |            |  1419 |   274 |      1041 |   13.2 |
 
 #### Comments
 
 - `ig` <ins title="2022-07-18-00-08-33">andrewmarotti</ins> Wonderful
 - `ig` <ins title="2022-07-18-09-01-49">myownsol</ins> So good to see you back! :)
-
-## <span id="2022-07-26-imperial-castles">Imperial Castles</span>
-
-`RU` Имперские замки
-
-<a href="https://instagram.com/p/CgfVAmNMnk5/" title="2017-03-22-betty-netch-and-far-caldera"><img alt="store:/shots/2017-03-22-betty-netch-and-far-caldera.png" src="../../assets/previews/shots/2017-03-22-betty-netch-and-far-caldera.avif" /></a>
-<a href="https://instagram.com/p/CgfVAmNMnk5/" title="2017-04-25-castle-ebonheart"><img alt="store:/shots/2017-04-25-castle-ebonheart.png" src="../../assets/previews/shots/2017-04-25-castle-ebonheart.avif" /></a>
-<a href="https://instagram.com/p/CgfVAmNMnk5/" title="2016-12-18-the-governors-hall-in-caldera-from-distance"><img alt="store:/shots/2016-12-18-the-governors-hall-in-caldera-from-distance.png" src="../../assets/previews/shots/2016-12-18-the-governors-hall-in-caldera-from-distance.avif" /></a>
-<a href="https://instagram.com/p/CgfVAmNMnk5/" title="2017-09-08-sky-castle"><img alt="store:/shots/2017-09-08-sky-castle.png" src="../../assets/previews/shots/2017-09-08-sky-castle.avif" /></a>
-
-`shot-set` by [dehero](../contributors.md#dehero)
-
-`A2` `🚀 OpenMW` `castle`
-
-```
-2022-07-26-imperial-castles
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/CgfVAmNMnk5/)       | 2022-07-26 |       |   230 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1366) | 2022-07-26 |   744 |    52 |       793 |   6.56 |
-| [`tg`](https://t.me/mwscr/292,293,294,295)         | 2022-07-26 |  1046 |    54 |       273 |  19.78 |
-|                                                    |            |  1790 |   336 |      1066 |  13.17 |
-
-#### Comments
-
-- `ig` <ins title="2022-07-26-23-18-37">quantd7709</ins> cool thing you can do in ebonheart at any point in the game: grab 20 sujamma go to the underground water cave and kill the guy with the lords mail
-- `tg` <ins title="2022-08-06-20-50-22">Скелет</ins> А раньше это казалось шикарнейшей игрой (в плане графики)
-  - <ins title="2022-12-14-20-17-41">theeaglethesun</ins> И что изменилось?
 
 ## <span id="2017-02-20-waterfall-camp">Waterfall Camp</span>
 
@@ -1398,8 +1398,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfXAIy7MoQp/)       | 2022-06-28 |       |   187 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1316) | 2022-06-28 |   485 |    47 |       734 |    6.4 |
-| [`tg`](https://t.me/mwscr/255)                     | 2022-06-28 |   659 |    48 |       242 |  19.83 |
-|                                                    |            |  1144 |   282 |       976 |  13.12 |
+| [`tg`](https://t.me/mwscr/255)                     | 2022-06-28 |   660 |    48 |       242 |  19.83 |
+|                                                    |            |  1145 |   282 |       976 |  13.12 |
 
 #### Comments
 
@@ -1425,8 +1425,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfUrA4Zs0dz/)       | 2022-06-27 |       |   156 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1315) | 2022-06-27 |   493 |    45 |       732 |   6.15 |
-| [`tg`](https://t.me/mwscr/254)                     | 2022-06-27 |   646 |    48 |       241 |  19.92 |
-|                                                    |            |  1139 |   249 |       973 |  13.03 |
+| [`tg`](https://t.me/mwscr/254)                     | 2022-06-27 |   647 |    48 |       241 |  19.92 |
+|                                                    |            |  1140 |   249 |       973 |  13.03 |
 
 #### Comments
 
@@ -1522,8 +1522,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgFmGYPs7yT/)       | 2022-07-16 |       |   238 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1346) | 2022-07-16 |   527 |    60 |       778 |   7.71 |
-| [`tg`](https://t.me/mwscr/279)                     | 2022-07-16 |   761 |    48 |       262 |  18.32 |
-|                                                    |            |  1288 |   346 |      1040 |  13.02 |
+| [`tg`](https://t.me/mwscr/279)                     | 2022-07-16 |   765 |    48 |       262 |  18.32 |
+|                                                    |            |  1292 |   346 |      1040 |  13.02 |
 
 #### Comments
 
@@ -1549,8 +1549,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CgKsbg9MV6e/)       | 2022-07-18 |       |   160 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1349) | 2022-07-18 |   617 |    57 |       781 |    7.3 |
-| [`tg`](https://t.me/mwscr/281)                     | 2022-07-18 |   786 |    50 |       267 |  18.73 |
-|                                                    |            |  1403 |   267 |      1048 |  13.01 |
+| [`tg`](https://t.me/mwscr/281)                     | 2022-07-18 |   789 |    50 |       267 |  18.73 |
+|                                                    |            |  1406 |   267 |      1048 |  13.01 |
 
 #### Comments
 
@@ -1601,8 +1601,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/CfZ666ussoY/)       | 2022-06-29 |       |   128 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1317) | 2022-06-29 |   449 |    49 |       736 |   6.66 |
-| [`tg`](https://t.me/mwscr/256)                     | 2022-06-29 |   599 |    47 |       245 |  19.18 |
-|                                                    |            |  1048 |   224 |       981 |  12.92 |
+| [`tg`](https://t.me/mwscr/256)                     | 2022-06-29 |   600 |    47 |       245 |  19.18 |
+|                                                    |            |  1049 |   224 |       981 |  12.92 |
 
 #### Comments
 
