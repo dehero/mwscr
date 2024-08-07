@@ -3371,10 +3371,10 @@
     - service: vk
       id: 1588
       published: 2024-06-19-18-19-29
-      updated: 2024-07-31-21-15-43
+      updated: 2024-08-07-22-14-11
       followers: 917
-      likes: 43
-      views: 308
+      likes: 44
+      views: 312
       reposts: 4
       comments: !c |-
         G6gAiJwHto1qPbB46yLlKwFRgLcIl2tCAVfAWYHHk3uBLG9iJTbGKNg+JSlewAT/mqxab0qXVDYK
@@ -3383,10 +3383,10 @@
     - service: tg
       id: 444
       published: 2024-06-19-18-19-35
-      updated: 2024-07-31-21-15-44
+      updated: 2024-08-07-22-14-11
       followers: 387
-      likes: 54
-      views: 408
+      likes: 55
+      views: 438
       comments: !c ixCAkZPLQnkDJCOFgACqYWxleF9lbXNvd6tCZWVuIHRoZXJlKQM=
 2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain:
   title: It's Cloudy in Balmora with a Chance of Rain
@@ -4554,10 +4554,10 @@
     - service: tg
       id: 465
       published: 2024-07-10-18-22-34
-      updated: 2024-07-31-21-15-43
+      updated: 2024-08-07-22-14-11
       followers: 396
-      likes: 55
-      views: 403
+      likes: 56
+      views: 481
     - service: ig
       id: C9WWNUkOIO0
       mediaId: '18014944706197372'
