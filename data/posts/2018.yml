@@ -881,17 +881,17 @@
     - service: vk
       id: 1514
       published: 2024-04-30-20-27-56
-      updated: 2024-07-31-06-18-08
+      updated: 2024-08-07-06-20-43
       followers: 911
       likes: 30
       views: 233
     - service: tg
       id: 394
       published: 2024-04-30-20-28-22
-      updated: 2024-07-31-06-18-08
+      updated: 2024-08-07-06-20-44
       followers: 363
-      likes: 64
-      views: 462
+      likes: 65
+      views: 469
 2018-02-01-far-swamps:
   title: Far Swamps
   titleRu: Дальние болота
@@ -979,24 +979,24 @@
       id: C-VpvfoNu-W
       mediaId: '17979463679710227'
       published: 2024-08-06-18-20-47
-      updated: 2024-08-07-05-14-28
+      updated: 2024-08-07-06-20-42
       followers: 1435
-      likes: 50
-      views: 224
+      likes: 51
+      views: 229
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2024-08-07-05-14-28
+      updated: 2024-08-07-06-20-41
       followers: 926
       likes: 17
-      views: 120
+      views: 126
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2024-08-07-05-14-29
+      updated: 2024-08-07-06-20-42
       followers: 502
       likes: 44
-      views: 130
+      views: 133
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -1191,15 +1191,15 @@
       id: C-TE6hwpIqR
       mediaId: '17977294379733597'
       published: 2024-08-05-18-20-30
-      updated: 2024-08-07-05-14-29
+      updated: 2024-08-07-06-20-44
       followers: 1434
       likes: 112
-      views: 362
+      views: 363
       comments: !c ixaAkZPLQnkSP2TbAACpamFlY2UzMDAwuGNhbiB5b3UgcG9zdCBtb3JlIHZpZGVvcwM=
     - service: vk
       id: 1668
       published: 2024-08-05-18-20-39
-      updated: 2024-08-07-05-14-29
+      updated: 2024-08-07-06-20-42
       followers: 926
       likes: 35
       views: 202
@@ -1207,10 +1207,10 @@
     - service: tg
       id: 491
       published: 2024-08-05-18-20-53
-      updated: 2024-08-07-05-14-30
+      updated: 2024-08-07-06-20-43
       followers: 490
       likes: 58
-      views: 225
+      views: 226
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
