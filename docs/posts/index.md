@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`162 items`
+`163 items`
+
+## <span id="2024-08-07-dance-of-dagoth">Dance of Dagoth</span>
+
+`RU` Танец Дагота
+
+<a href="https://instagram.com/p/Bd0Y040DxzP/" title="2018-01-11-dance-of-dagoth"><img alt="store:/shots/2018-01-11-dance-of-dagoth.png" src="../../assets/previews/shots/2018-01-11-dance-of-dagoth.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-07-dance-of-dagoth)</code> `🚀 OpenMW`
+
+```
+2024-08-07-dance-of-dagoth
+```
+
+> `2018-01-11-dance-of-dagoth`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bd0Y040DxzP/)       | 2018-01-11 |       |   114 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_574)  | 2018-01-11 |   170 |    16 |       120 |  13.33 |
+| [`ig`](https://instagram.com/p/C-YOaKVtdQ9/)       | 2024-08-07 |       |       |      1437 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1673) | 2024-08-07 |       |       |       927 |        |
+| [`tg`](https://t.me/mwscr/493)                     | 2024-08-07 |       |       |       504 |        |
+|                                                    |            |   170 |   130 |      2868 |        |
+
+#### Comments
+
+- `ig` <ins title="2018-01-12-03-20-09">ysndr.a</ins> That feel when you wander around this forsaken places
 
 ## <span id="2024-08-06-omalen-ancestral-tomb">Omalen Ancestral Tomb</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BevuGotDVRo/)       | 2018-02-03 |       |    77 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_600)  | 2018-02-03 |   194 |    12 |       127 |   9.45 |
-| [`ig`](https://instagram.com/p/C-VpvfoNu-W/)       | 2024-08-06 |   283 |    61 |      1435 |   4.25 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1669) | 2024-08-06 |   168 |    20 |       926 |   2.16 |
-| [`tg`](https://t.me/mwscr/492)                     | 2024-08-06 |   166 |    51 |       502 |  10.16 |
-|                                                    |            |   811 |   221 |      2863 |    6.5 |
+| [`ig`](https://instagram.com/p/C-VpvfoNu-W/)       | 2024-08-06 |   284 |    61 |      1435 |   4.25 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1669) | 2024-08-06 |   172 |    20 |       926 |   2.16 |
+| [`tg`](https://t.me/mwscr/492)                     | 2024-08-06 |   168 |    52 |       502 |  10.36 |
+|                                                    |            |   818 |   222 |      2863 |   6.55 |
 
 ## <span id="2024-08-05-in-the-evening-canals-of-vivec">In the Evening Canals of Vivec</span>
 
@@ -56,9 +87,9 @@
 | [`ig`](https://instagram.com/p/BfBulIkjs5N/)       | 2018-02-10 |       |    90 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_609)  | 2018-02-10 |   186 |    10 |       130 |   7.69 |
 | [`ig`](https://instagram.com/p/C-TE6hwpIqR/)       | 2024-08-05 |   375 |   113 |      1434 |   7.88 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1668) | 2024-08-05 |   218 |    36 |       926 |   3.89 |
-| [`tg`](https://t.me/mwscr/491)                     | 2024-08-05 |   236 |    60 |       490 |  12.24 |
-|                                                    |            |  1015 |   309 |      2850 |   7.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1668) | 2024-08-05 |   221 |    36 |       926 |   3.89 |
+| [`tg`](https://t.me/mwscr/491)                     | 2024-08-05 |   237 |    61 |       490 |  12.45 |
+|                                                    |            |  1019 |   310 |      2850 |   7.98 |
 
 #### Comments
 

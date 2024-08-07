@@ -313,6 +313,19 @@
       followers: 120
       likes: 16
       views: 170
+    - service: ig
+      id: C-YOaKVtdQ9
+      mediaId: '18017034962210431'
+      published: 2024-08-07-18-19-41
+      followers: 1437
+    - service: vk
+      id: 1673
+      published: 2024-08-07-18-19-48
+      followers: 927
+    - service: tg
+      id: 493
+      published: 2024-08-07-18-19-54
+      followers: 504
 2018-01-12-dark-brotherhood-apprentice:
   title: Dark Brotherhood Apprentice
   titleRu: Ученик Тёмного Братства
@@ -979,24 +992,24 @@
       id: C-VpvfoNu-W
       mediaId: '17979463679710227'
       published: 2024-08-06-18-20-47
-      updated: 2024-08-07-17-15-28
+      updated: 2024-08-07-18-19-27
       followers: 1435
       likes: 61
-      views: 283
+      views: 284
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2024-08-07-17-15-28
+      updated: 2024-08-07-18-19-27
       followers: 926
       likes: 20
-      views: 168
+      views: 172
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2024-08-07-17-15-29
+      updated: 2024-08-07-18-19-28
       followers: 502
-      likes: 51
-      views: 166
+      likes: 52
+      views: 168
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -1191,7 +1204,7 @@
       id: C-TE6hwpIqR
       mediaId: '17977294379733597'
       published: 2024-08-05-18-20-30
-      updated: 2024-08-07-17-15-29
+      updated: 2024-08-07-18-19-28
       followers: 1434
       likes: 113
       views: 375
@@ -1199,18 +1212,18 @@
     - service: vk
       id: 1668
       published: 2024-08-05-18-20-39
-      updated: 2024-08-07-17-15-29
+      updated: 2024-08-07-18-19-28
       followers: 926
       likes: 36
-      views: 218
+      views: 221
       reposts: 2
     - service: tg
       id: 491
       published: 2024-08-05-18-20-53
-      updated: 2024-08-07-17-15-30
+      updated: 2024-08-07-18-19-29
       followers: 490
-      likes: 60
-      views: 236
+      likes: 61
+      views: 237
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
