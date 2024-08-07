@@ -317,25 +317,28 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-41
-      updated: 2024-08-07-22-14-08
+      updated: 2024-08-07-23-14-16
       followers: 1437
-      likes: 72
-      views: 238
+      likes: 77
+      views: 265
+      comments: !c |-
+        CyCAkZPLQnkS7pMMAACtY2hlbWljYWx0YWludNkmVHJ1bXBldHkgc2xlZXBlcnMgYXJlIG15IGZh
+        dm9yaXRlIPCfjroD
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-08-07-22-14-09
+      updated: 2024-08-07-23-14-15
       followers: 927
       likes: 23
-      views: 94
+      views: 101
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-08-07-22-14-09
+      updated: 2024-08-07-23-14-16
       followers: 504
-      likes: 44
-      views: 140
+      likes: 45
+      views: 143
       comments: !c CxaAkZPLQnkS4WNQgAClQWRlbGW7aGUgZGFuY2VzIHRvIHRoZSBkYWdvdGh3YXZlAw==
 2018-01-12-dark-brotherhood-apprentice:
   title: Dark Brotherhood Apprentice
@@ -1003,24 +1006,24 @@
       id: C-VpvfoNu-W
       mediaId: '17979463679710227'
       published: 2024-08-06-18-20-47
-      updated: 2024-08-07-22-14-10
+      updated: 2024-08-07-23-14-17
       followers: 1435
       likes: 64
       views: 295
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2024-08-07-22-14-10
+      updated: 2024-08-07-23-14-16
       followers: 926
       likes: 21
       views: 177
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2024-08-07-22-14-10
+      updated: 2024-08-07-23-14-17
       followers: 502
-      likes: 59
-      views: 212
+      likes: 60
+      views: 214
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -2829,24 +2832,24 @@
       id: C-GS_cMAUNx
       mediaId: '18038112679858729'
       published: 2024-07-31-19-13-23
-      updated: 2024-08-06-22-14-16
+      updated: 2024-08-07-23-14-17
       followers: 1433
       likes: 111
-      views: 486
+      views: 492
     - service: vk
       id: 1662
       published: 2024-07-31-19-13-29
-      updated: 2024-08-06-22-14-18
+      updated: 2024-08-07-23-14-17
       followers: 924
-      likes: 35
-      views: 234
+      likes: 36
+      views: 239
     - service: tg
       id: 486
       published: 2024-07-31-19-13-35
-      updated: 2024-08-06-22-14-17
+      updated: 2024-08-07-23-14-18
       followers: 419
-      likes: 55
-      views: 726
+      likes: 57
+      views: 777
 2018-04-05-under-the-eaves:
   title: Under the Eaves
   titleRu: Под срезом крыши

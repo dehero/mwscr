@@ -28,15 +28,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bd0Y040DxzP/)       | 2018-01-11 |       |   114 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_574)  | 2018-01-11 |   170 |    16 |       120 |  13.33 |
-| [`ig`](https://instagram.com/p/C-YOaKVtdQ9/)       | 2024-08-07 |   238 |    72 |      1437 |   5.01 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1673) | 2024-08-07 |    94 |    23 |       927 |   2.48 |
-| [`tg`](https://t.me/mwscr/493)                     | 2024-08-07 |   140 |    44 |       504 |   8.73 |
-|                                                    |            |   642 |   269 |      2868 |   7.39 |
+| [`ig`](https://instagram.com/p/C-YOaKVtdQ9/)       | 2024-08-07 |   265 |    77 |      1437 |   5.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1673) | 2024-08-07 |   101 |    23 |       927 |   2.48 |
+| [`tg`](https://t.me/mwscr/493)                     | 2024-08-07 |   143 |    45 |       504 |   8.93 |
+|                                                    |            |   679 |   275 |      2868 |   7.53 |
 
 #### Comments
 
 - `ig` <ins title="2018-01-12-03-20-09">ysndr.a</ins> That feel when you wander around this forsaken places
 - `tg` <ins title="2024-08-07-18-24-53">Adele</ins> he dances to the dagothwave
+- `ig` <ins title="2024-08-07-22-15-20">chemicaltaint</ins> Trumpety sleepers are my favorite 🎺
 
 ## <span id="2024-08-06-omalen-ancestral-tomb">Omalen Ancestral Tomb</span>
 
@@ -62,8 +63,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_600)  | 2018-02-03 |   194 |    12 |       127 |   9.45 |
 | [`ig`](https://instagram.com/p/C-VpvfoNu-W/)       | 2024-08-06 |   295 |    64 |      1435 |   4.46 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1669) | 2024-08-06 |   177 |    21 |       926 |   2.27 |
-| [`tg`](https://t.me/mwscr/492)                     | 2024-08-06 |   212 |    59 |       502 |  11.75 |
-|                                                    |            |   878 |   233 |      2863 |   6.98 |
+| [`tg`](https://t.me/mwscr/492)                     | 2024-08-06 |   214 |    60 |       502 |  11.95 |
+|                                                    |            |   880 |   234 |      2863 |   7.03 |
 
 ## <span id="2024-08-05-in-the-evening-canals-of-vivec">In the Evening Canals of Vivec</span>
 
@@ -249,10 +250,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BhKJllaDKQo/)       | 2018-04-04 |       |    72 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_677)  | 2018-04-04 |   176 |    17 |       149 |  11.41 |
-| [`ig`](https://instagram.com/p/C-GS_cMAUNx/)       | 2024-07-31 |   486 |   111 |      1433 |   7.75 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |   234 |    35 |       924 |   3.79 |
-| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |   726 |    55 |       419 |  13.13 |
-|                                                    |            |  1622 |   290 |      2776 |   9.02 |
+| [`ig`](https://instagram.com/p/C-GS_cMAUNx/)       | 2024-07-31 |   492 |   111 |      1433 |   7.75 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |   239 |    36 |       924 |    3.9 |
+| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |   777 |    57 |       419 |   13.6 |
+|                                                    |            |  1684 |   293 |      2776 |   9.16 |
 
 ## <span id="2024-07-30-netches-have-fallen-out">Netches Have Fallen Out</span>
 
