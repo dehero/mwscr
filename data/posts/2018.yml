@@ -317,15 +317,26 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-41
+      updated: 2024-08-07-19-12-23
       followers: 1437
+      likes: 40
+      views: 51
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
+      updated: 2024-08-07-19-12-24
       followers: 927
+      likes: 14
+      views: 42
+      reposts: 1
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
+      updated: 2024-08-07-19-12-25
       followers: 504
+      likes: 27
+      views: 94
+      comments: !c CxaAkZPLQnkS4WNQgAClQWRlbGW7aGUgZGFuY2VzIHRvIHRoZSBkYWdvdGh3YXZlAw==
 2018-01-12-dark-brotherhood-apprentice:
   title: Dark Brotherhood Apprentice
   titleRu: Ученик Тёмного Братства
@@ -992,24 +1003,24 @@
       id: C-VpvfoNu-W
       mediaId: '17979463679710227'
       published: 2024-08-06-18-20-47
-      updated: 2024-08-07-18-19-27
+      updated: 2024-08-07-19-12-24
       followers: 1435
-      likes: 61
-      views: 284
+      likes: 63
+      views: 286
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2024-08-07-18-19-27
+      updated: 2024-08-07-19-12-25
       followers: 926
       likes: 20
-      views: 172
+      views: 174
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2024-08-07-18-19-28
+      updated: 2024-08-07-19-12-25
       followers: 502
-      likes: 52
-      views: 168
+      likes: 55
+      views: 192
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора

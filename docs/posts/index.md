@@ -28,14 +28,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bd0Y040DxzP/)       | 2018-01-11 |       |   114 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_574)  | 2018-01-11 |   170 |    16 |       120 |  13.33 |
-| [`ig`](https://instagram.com/p/C-YOaKVtdQ9/)       | 2024-08-07 |       |       |      1437 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1673) | 2024-08-07 |       |       |       927 |        |
-| [`tg`](https://t.me/mwscr/493)                     | 2024-08-07 |       |       |       504 |        |
-|                                                    |            |   170 |   130 |      2868 |        |
+| [`ig`](https://instagram.com/p/C-YOaKVtdQ9/)       | 2024-08-07 |    51 |    40 |      1437 |   2.78 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1673) | 2024-08-07 |    42 |    14 |       927 |   1.51 |
+| [`tg`](https://t.me/mwscr/493)                     | 2024-08-07 |    94 |    27 |       504 |   5.36 |
+|                                                    |            |   357 |   211 |      2868 |   5.75 |
 
 #### Comments
 
 - `ig` <ins title="2018-01-12-03-20-09">ysndr.a</ins> That feel when you wander around this forsaken places
+- `tg` <ins title="2024-08-07-18-24-53">Adele</ins> he dances to the dagothwave
 
 ## <span id="2024-08-06-omalen-ancestral-tomb">Omalen Ancestral Tomb</span>
 
@@ -59,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BevuGotDVRo/)       | 2018-02-03 |       |    77 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_600)  | 2018-02-03 |   194 |    12 |       127 |   9.45 |
-| [`ig`](https://instagram.com/p/C-VpvfoNu-W/)       | 2024-08-06 |   284 |    61 |      1435 |   4.25 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1669) | 2024-08-06 |   172 |    20 |       926 |   2.16 |
-| [`tg`](https://t.me/mwscr/492)                     | 2024-08-06 |   168 |    52 |       502 |  10.36 |
-|                                                    |            |   818 |   222 |      2863 |   6.55 |
+| [`ig`](https://instagram.com/p/C-VpvfoNu-W/)       | 2024-08-06 |   286 |    63 |      1435 |   4.39 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1669) | 2024-08-06 |   174 |    20 |       926 |   2.16 |
+| [`tg`](https://t.me/mwscr/492)                     | 2024-08-06 |   192 |    55 |       502 |  10.96 |
+|                                                    |            |   846 |   227 |      2863 |   6.74 |
 
 ## <span id="2024-08-05-in-the-evening-canals-of-vivec">In the Evening Canals of Vivec</span>
 
@@ -186,10 +187,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYsmppVj_HI/)       | 2017-09-06 |       |    69 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_419)  | 2017-09-06 |   235 |    10 |        79 |     10 |
-| [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   306 |    91 |      1434 |   6.35 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |   241 |    37 |       925 |      4 |
-| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |   347 |    58 |       428 |  13.55 |
-|                                                    |            |  1129 |   265 |      2787 |   8.47 |
+| [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   313 |    95 |      1434 |   6.62 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |   256 |    38 |       925 |   4.11 |
+| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |   379 |    61 |       428 |  14.25 |
+|                                                    |            |  1183 |   273 |      2787 |   8.75 |
 
 #### Comments
 
