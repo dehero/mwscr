@@ -317,10 +317,10 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-41
-      updated: 2024-08-08-22-13-51
+      updated: 2024-08-08-23-15-13
       followers: 1437
-      likes: 133
-      views: 580
+      likes: 134
+      views: 596
       comments: !c |-
         G5YAIB2JcUzJQuGdnXRynyecUBRTax7UPKBAUgiz5YEPKNaguwXVrv3gAXhAE1tQ6eRIA+K/lQdp
         W5YGoi3n4dP1RJmJTW/WVY4fNwymwvGd9YR1coYPPfaSEvDjpYJSEB+OXiIYQUK5IpiAC+qJx31i
@@ -328,18 +328,18 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-08-08-22-13-50
+      updated: 2024-08-08-23-15-13
       followers: 927
       likes: 38
-      views: 204
+      views: 205
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-08-08-22-13-50
+      updated: 2024-08-08-23-15-13
       followers: 504
       likes: 61
-      views: 233
+      views: 236
       comments: !c |-
         CzmAkpPLQnkTD+n1gAClVG9kb3LZNFdhaXQsIGRvIHRoZXkgcmVhbGx5IGRhbmNlIGxpa2UgdGhh
         dCBpbiB0aGUgdmFuaWxsYT+Ty0J5EuFjUIAApUFkZWxlu2hlIGRhbmNlcyB0byB0aGUgZGFnb3Ro
@@ -6210,17 +6210,17 @@
       id: C9kur6MPT8G
       mediaId: '18044941120917928'
       published: 2024-07-18-18-21-13
-      updated: 2024-08-01-22-18-28
+      updated: 2024-08-08-23-15-14
       followers: 1426
       likes: 89
-      views: 448
+      views: 456
     - service: vk
       id: 1642
       published: 2024-07-18-18-21-19
-      updated: 2024-08-01-22-18-29
+      updated: 2024-08-08-23-15-14
       followers: 919
       likes: 36
-      views: 237
+      views: 249
       reposts: 1
       comments: !c |-
         iyqAkZTLQnkMd+OugACqcGtlbGxlcm1hbq/QmtCw0Log0LTQvtC80LCTy0J5DMzLRwAAsGFydHlv
@@ -6228,10 +6228,10 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2024-08-01-22-18-29
+      updated: 2024-08-08-23-15-14
       followers: 402
       likes: 57
-      views: 444
+      views: 589
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
@@ -7214,10 +7214,10 @@
       id: C-azUnhJNPE
       mediaId: '18042652126778108'
       published: 2024-08-08-18-20-42
-      updated: 2024-08-08-22-13-50
+      updated: 2024-08-08-23-15-12
       followers: 1437
-      likes: 46
-      views: 147
+      likes: 50
+      views: 166
       comments: !c |-
         G5gBYCwObHA/xQFloVdeO77TEAij/z2tC6wg/9WTdIKUZKxhwdMxn49FdkDVaxggqiz9k5TWBjbg
         SAPZRxq33e6KpkVvljvRKDC4+x5+UVlbIElbGoWBZtqW5LeTn2QxmST3S08un/tuTz9zEfUfDPMN
@@ -7227,10 +7227,10 @@
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2024-08-08-22-13-49
+      updated: 2024-08-08-23-15-12
       followers: 927
-      likes: 17
-      views: 98
+      likes: 18
+      views: 100
       reposts: 1
       comments: !c |-
         CyKAkZPLQnkTND+3gACxY2xpZmZyYWNlcnNraWxsZXLZJtCl0L7RgNC60LXRgDog0LzRj9C90Y8g
@@ -7238,10 +7238,10 @@
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2024-08-08-22-13-49
+      updated: 2024-08-08-23-15-12
       followers: 508
-      likes: 37
-      views: 113
+      likes: 38
+      views: 120
 2018-08-29-darius:
   title: Darius
   titleRu: Дариус
