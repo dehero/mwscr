@@ -1,6 +1,7 @@
 /**
  * This module provides functions for interacting with the Instagram API.
  */
+import type { AbstractRequest, CreatedObjectIdResponse, GetMediaInfoResponse } from 'instagram-graph-api';
 import {
   Client,
   CommentField,
@@ -14,7 +15,8 @@ import {
 } from 'instagram-graph-api';
 import fetch, { File, FormData } from 'node-fetch';
 import sharp from 'sharp';
-import { getPostFirstPublished, getPostTypesFromContent, type Post } from '../../core/entities/post.js';
+import type { Post, PostEntry } from '../../core/entities/post.js';
+import { getPostFirstPublished, getPostTypesFromContent, POST_TYPES } from '../../core/entities/post.js';
 import { createPostTags } from '../../core/entities/post-tag.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
@@ -22,6 +24,7 @@ import type { ServicePost, ServicePostComment } from '../../core/entities/servic
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import type { InstagramPost } from '../../core/services/instagram.js';
 import { Instagram } from '../../core/services/instagram.js';
+import { site } from '../../core/services/site.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
 import { readResource } from '../data-managers/resources.js';
@@ -53,13 +56,17 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     return { title, tags, request, author: author || USER_DEFAULT_AUTHOR };
   }
 
-  async createCaption(post: Post) {
+  async createCaption(entry: PostEntry) {
+    const [id, post] = entry;
     const lines: string[] = [];
     const tags = createPostTags(post);
     const contributors: string[] = [];
+    const titlePrefix = post.type !== 'shot' ? POST_TYPES.find(({ id }) => id === post.type)?.title : undefined;
 
     if (post.title) {
-      lines.push(post.title);
+      lines.push([titlePrefix, post.title].filter(Boolean).join(': '));
+    } else if (titlePrefix) {
+      lines.push(titlePrefix);
     }
 
     if (post.author && post.author !== USER_DEFAULT_AUTHOR) {
@@ -88,6 +95,8 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     if (firstPublished && getDaysPassed(firstPublished) > 7) {
       lines.push(formatDate(firstPublished));
     }
+
+    lines.push(`View and Download: ${site.getPostUrl(id)}`);
 
     return lines.join('\n');
   }
@@ -142,13 +151,15 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     return { ig: this.ig };
   }
 
-  async publishPost(post: Post): Promise<void> {
+  async publishPostEntry(entry: PostEntry): Promise<void> {
+    const [, post] = entry;
+
     if (typeof post.content !== 'string') {
       throw new TypeError(`Cannot publish multiple images to ${this.name}`);
     }
 
     if (DEBUG_PUBLISHING) {
-      console.log(`Published to ${this.name} with caption:\n${await this.createCaption(post)}`);
+      console.log(`Published to ${this.name} with caption:\n${await this.createCaption(entry)}`);
       return;
     }
 
@@ -159,10 +170,37 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     const [file] = await readResource(post.content);
     const jpeg = await sharp(file).jpeg({ quality: 100 }).toBuffer();
     const imageUrl = await this.getUploadUrl(jpeg);
-    const caption = await this.createCaption(post);
+    const caption = await this.createCaption(entry);
 
-    // Create a new post container
-    const createContainerResponse = await ig.newPostPagePhotoMediaRequest(imageUrl, caption).execute();
+    const [mediaId, mediaInfo] = await this.createMedia(ig.newPostPagePhotoMediaRequest(imageUrl, caption));
+    const id = mediaInfo.getShortcode() || mediaInfo.getIgId();
+
+    if (!id) {
+      throw new Error(`Cannot get post ${this.name} id`);
+    }
+
+    const followers = await this.grabFollowerCount();
+
+    const newServicePosts: InstagramPost[] = [{ service: 'ig', id, mediaId, followers, published: new Date() }];
+
+    if (post.type === 'wallpaper-v') {
+      const [mediaId, mediaInfo] = await this.createMedia(ig.newPostPageStoriesPhotoMediaRequest(imageUrl));
+      const id = mediaInfo.getShortcode() || mediaInfo.getIgId();
+
+      if (!id) {
+        throw new Error(`Cannot get post ${this.name} story id`);
+      }
+
+      newServicePosts.push({ service: 'ig', id, mediaId, followers, published: new Date() });
+    }
+
+    post.posts = [...(post.posts ?? []), ...newServicePosts];
+  }
+
+  async createMedia(request: AbstractRequest<CreatedObjectIdResponse>): Promise<[string, GetMediaInfoResponse]> {
+    const { ig } = await this.connect();
+
+    const createContainerResponse = await request.execute();
     const containerId = createContainerResponse.getId();
 
     // Wait for the container to finish uploading
@@ -175,29 +213,15 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       }
     }
 
-    // Publish the post
     const mediaResponse = await ig.newPostPublishMediaRequest(containerId).execute();
     const mediaId = mediaResponse.getId();
 
-    // Get post information from Instagram
-    const mediaInfoRespose = await ig
+    // Get media information from Instagram
+    const mediaInfo = await ig
       .newGetMediaInfoRequest(mediaId, PrivateMediaField.SHORTCODE, PrivateMediaField.IG_ID)
       .execute();
 
-    const id = mediaInfoRespose.getShortcode() || mediaInfoRespose.getIgId();
-
-    // Throw an error if the post ID cannot be retrieved
-    if (!id) {
-      throw new Error(`Cannot get post ${this.name} id`);
-    }
-
-    // Get the follower count
-    const followers = await this.grabFollowerCount();
-
-    // Update the post object with Instagram information
-    const servicePost: InstagramPost = { service: 'ig', id, mediaId, followers, published: new Date() };
-
-    post.posts = [...(post.posts ?? []), servicePost];
+    return [mediaId, mediaInfo];
   }
 
   async disconnect() {}

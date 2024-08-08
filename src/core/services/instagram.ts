@@ -21,7 +21,7 @@ export class Instagram implements PostingService<InstagramPost> {
   }
 
   canPublishPost(post: Post, errors: string[] = []): post is InstagramSuitablePost {
-    return checkRules([needCertainType('shot'), needTitle, needContent], post, errors);
+    return checkRules([needCertainType('shot', 'wallpaper', 'wallpaper-v'), needTitle, needContent], post, errors);
   }
 
   getServicePostUrl(servicePost: ServicePost<unknown>) {

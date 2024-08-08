@@ -25,6 +25,7 @@ export const POST_TYPES = [
   { id: 'wallpaper', title: 'Wallpaper', titleRu: 'Обои', letter: 'W' },
   { id: 'wallpaper-v', title: 'Vertical Wallpaper', titleRu: 'Вертикальные обои', letter: 'M' },
 ] as const satisfies PostTypeInfo[];
+
 export const POST_ADDONS = ['Tribunal', 'Bloodmoon'] as const;
 export const POST_ENGINES = ['OpenMW', 'Vanilla'] as const;
 export const POST_MARKS = ['A1', 'A2', 'B1', 'B2', 'C', 'D', 'E', 'F'] as const;
@@ -74,9 +75,9 @@ export interface Post {
   posts?: ServicePost<unknown>[];
 }
 
-export type PostEntry<TPost extends Post> = [id: string, post: TPost, refId?: string];
+export type PostEntry<TPost extends Post = Post> = [id: string, post: TPost, refId?: string];
 export type PostEntries<TPost extends Post = Post> = ReadonlyArray<PostEntry<TPost>>;
-export type PostEntriesComparator = (a: PostEntry<Post>, b: PostEntry<Post>) => number;
+export type PostEntriesComparator = (a: PostEntry, b: PostEntry) => number;
 export type PostFilter<TPost extends Post, TFilteredPost extends TPost> = (post: Post) => post is TFilteredPost;
 
 export type PostSource<TPost extends Post> = () => AsyncGenerator<PostEntry<TPost>>;

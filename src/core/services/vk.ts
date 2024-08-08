@@ -24,7 +24,7 @@ export class VK implements PostingService<VKPost> {
   }
 
   canPublishPost(post: Post): post is VKSuitablePost {
-    return checkRules([needCertainType('shot'), needContent, needTitleRu], post);
+    return checkRules([needCertainType('shot', 'wallpaper', 'wallpaper-v'), needContent, needTitleRu], post);
   }
 
   getServicePostUrl(servicePost: ServicePost<unknown>) {

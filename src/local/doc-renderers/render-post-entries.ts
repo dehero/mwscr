@@ -226,7 +226,7 @@ async function renderPostAttributes(post: Post, options: RenderPostsOptions): Pr
   return lines;
 }
 
-async function renderPostEntry(postEntry: PostEntry<Post>, options: RenderPostsOptions): Promise<string[]> {
+async function renderPostEntry(postEntry: PostEntry, options: RenderPostsOptions): Promise<string[]> {
   const [id, post, originalId] = postEntry;
   const lines: string[] = [];
   const { postActions } = options;

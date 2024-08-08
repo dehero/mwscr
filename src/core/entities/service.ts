@@ -1,4 +1,4 @@
-import type { Post } from './post.js';
+import type { Post, PostEntry } from './post.js';
 import type { ServicePost } from './service-post.js';
 
 export interface ServiceMessagingOptions {
@@ -36,7 +36,7 @@ export interface PostingServiceManager<TServicePost extends ServicePost<unknown>
 
   grabPosts: (afterServicePost?: ServicePost<unknown>) => Promise<Post[]>;
 
-  publishPost: (post: Post) => Promise<void>;
+  publishPostEntry: (entry: PostEntry) => Promise<void>;
 
   updateServicePost: (servicePost: ServicePost<unknown>) => Promise<void>;
 }
