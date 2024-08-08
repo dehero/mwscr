@@ -5,11 +5,13 @@ import { Api, TelegramClient } from 'telegram';
 import { Logger, LogLevel } from 'telegram/extensions/Logger.js';
 // eslint-disable-next-line import/extensions
 import { StringSession } from 'telegram/sessions/index.js';
-import { getPostFirstPublished, getPostTypesFromContent, type Post } from '../../core/entities/post.js';
+import type { Post, PostEntry } from '../../core/entities/post.js';
+import { getPostFirstPublished, getPostTypesFromContent, POST_TYPES } from '../../core/entities/post.js';
 import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import type { ServicePost, ServicePostComment } from '../../core/entities/service-post.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
+import { site } from '../../core/services/site.js';
 import type { TelegramPost } from '../../core/services/telegram.js';
 import { Telegram, TELEGRAM_CHANNEL } from '../../core/services/telegram.js';
 import { asArray } from '../../core/utils/common-utils.js';
@@ -89,12 +91,17 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     return mentions.join(', ');
   }
 
-  async createCaption(post: Post) {
+  async createCaption(entry: PostEntry) {
+    const [id, post] = entry;
+
     const lines: string[] = [];
     const contributors: string[] = [];
+    const titlePrefix = post.type !== 'shot' ? POST_TYPES.find(({ id }) => id === post.type)?.title : undefined;
 
     if (post.title) {
-      lines.push(post.title);
+      lines.push([titlePrefix, post.title].filter(Boolean).join(': '));
+    } else if (titlePrefix) {
+      lines.push(titlePrefix);
     }
 
     if (post.author && post.author !== USER_DEFAULT_AUTHOR) {
@@ -119,6 +126,8 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     if (firstPublished && getDaysPassed(firstPublished) > 7) {
       lines.push(formatDate(firstPublished));
     }
+
+    lines.push(`<a href="${site.getPostUrl(id)}">View and Download</a>`);
 
     return lines.join('\n');
   }
@@ -282,13 +291,15 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     servicePost.updated = new Date();
   }
 
-  async publishPost(post: Post): Promise<void> {
+  async publishPostEntry(entry: PostEntry): Promise<void> {
+    const [, post] = entry;
+
     if (typeof post.content !== 'string') {
       throw new TypeError(`Cannot publish multiple images to ${this.name}`);
     }
 
     if (DEBUG_PUBLISHING) {
-      console.log(`Published to ${this.name} with caption:\n${await this.createCaption(post)}`);
+      console.log(`Published to ${this.name} with caption:\n${await this.createCaption(entry)}`);
       return;
     }
 
@@ -301,7 +312,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     file.name = base;
 
     const result = await tg.sendFile(TELEGRAM_CHANNEL, {
-      caption: await this.createCaption(post),
+      caption: await this.createCaption(entry),
       file,
       parseMode: 'html',
     });

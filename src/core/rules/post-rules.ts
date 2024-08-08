@@ -58,10 +58,10 @@ export function needRequest(post: Post): post is AugmentedRequired<Post, 'reques
   return needObject(post.request) && needProperty('user', 'string')(post.request);
 }
 
-export function needCertainType<T extends Post>(postType: PostType) {
+export function needCertainType<T extends Post>(...postTypes: PostType[]) {
   return (post: T): post is T => {
-    if (post.type !== postType) {
-      throw new Error(`need post type to be "${postType}", got "${post.type}"`);
+    if (!postTypes.includes(post.type)) {
+      throw new Error(`need post type to be ${listItems(postTypes, true)}, got "${post.type}"`);
     }
     return true;
   };

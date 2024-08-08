@@ -1,5 +1,6 @@
 import picomatch from 'picomatch';
 import { stringToDate } from '../utils/date-utils.js';
+import type { PostType } from './post.js';
 import { parseResourceUrl } from './resource.js';
 
 export const STORE_SHOTS_DIR = 'shots';
@@ -96,4 +97,20 @@ export function parseStoreResourceUrl(url: string): StoreResourceParsedUrl {
     ext,
     originalUrl,
   };
+}
+
+export function getTargetStoreDirFromPostType(type: PostType) {
+  switch (type) {
+    case 'shot':
+      return STORE_SHOTS_DIR;
+    case 'clip':
+    case 'video':
+      return STORE_VIDEOS_DIR;
+    case 'wallpaper':
+    case 'wallpaper-v':
+      return STORE_WALLPAPERS_DIR;
+    default:
+  }
+
+  return undefined;
 }

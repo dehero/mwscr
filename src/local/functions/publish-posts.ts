@@ -1,4 +1,4 @@
-import type { Post, PostEntries, PostEntry } from '../../core/entities/post.js';
+import type { PostEntries, PostEntry } from '../../core/entities/post.js';
 import { comparePostEntriesById, getPostEntriesFromSource } from '../../core/entities/post.js';
 import type { PublishablePost } from '../../core/entities/post-variation.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
@@ -29,7 +29,9 @@ export async function publishPosts() {
   console.groupEnd();
 }
 
-export async function publishPostToService(service: PostingServiceManager, [id, post]: PostEntry<Post>) {
+export async function publishPostToService(service: PostingServiceManager, entry: PostEntry) {
+  const [id, post] = entry;
+
   if (!service.canPublishPost(post)) {
     console.info(`Cannot publish post ${id} to ${service.name}.`);
     return;
@@ -38,7 +40,7 @@ export async function publishPostToService(service: PostingServiceManager, [id, 
   try {
     console.info(`Publishing post "${id}" to ${service.name}...`);
     await service.connect();
-    await service.publishPost(post);
+    await service.publishPostEntry(entry);
     await posts.updateItem(id);
     await service.disconnect();
     console.info(`Published post "${id}" to ${service.name}.`);

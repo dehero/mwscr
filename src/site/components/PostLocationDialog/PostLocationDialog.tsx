@@ -1,7 +1,7 @@
 import type { Component } from 'solid-js';
 import { createResource, createSignal, createUniqueId, splitProps } from 'solid-js';
 import { EMPTY_OPTION, type Option } from '../../../core/entities/option.js';
-import type { Post, PostEntry } from '../../../core/entities/post.js';
+import type { PostEntry } from '../../../core/entities/post.js';
 import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/editing.js';
 import { locations } from '../../data-managers/locations.js';
 import { Button } from '../Button/Button.js';
@@ -18,7 +18,7 @@ async function getLocationOptions(): Promise<Option[]> {
 }
 
 export interface PostLocationDialogProps extends Omit<DialogProps, 'title'> {
-  postEntry: PostEntry<Post>;
+  postEntry: PostEntry;
 }
 
 export const PostLocationDialog: Component<PostLocationDialogProps> = (props) => {

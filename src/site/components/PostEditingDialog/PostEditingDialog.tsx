@@ -34,7 +34,7 @@ async function getLocationOptions(): Promise<Option[]> {
 }
 
 export interface PostEditingDialogProps extends Omit<DialogProps, 'title'> {
-  postEntry: PostEntry<Post>;
+  postEntry: PostEntry;
 }
 
 export const PostEditingDialog: Component<PostEditingDialogProps> = (props) => {

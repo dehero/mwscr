@@ -54,6 +54,7 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
 
       await client.downloadTo(stream, fromPath);
       await client.ensureDir(posix.dirname(toPath));
+      await client.cd('/');
       await client.uploadFrom(stream, toPath);
     } finally {
       this.waitAndClose();
@@ -104,6 +105,7 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
       const toPath = posix.join(path, to);
 
       await client.ensureDir(posix.dirname(toPath));
+      await client.cd('/');
       await client.rename(fromPath, toPath);
     } finally {
       this.waitAndClose();

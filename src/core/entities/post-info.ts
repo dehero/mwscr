@@ -3,7 +3,6 @@ import { asArray, cleanupUndefinedProps } from '../utils/common-utils.js';
 import { createLocationInfo, type LocationInfo } from './location-info.js';
 import type { LocationsReader } from './locations-reader.js';
 import type {
-  Post,
   PostAddon,
   PostContent,
   PostEngine,
@@ -48,7 +47,7 @@ export interface PostInfo {
 export type PostInfoComparator = (a: PostInfo, b: PostInfo) => number;
 
 export async function createPostInfo(
-  [id, post, refId]: PostEntry<Post>,
+  [id, post, refId]: PostEntry,
   locationsReader: LocationsReader,
   usersManager: UsersManager,
   managerName: string,

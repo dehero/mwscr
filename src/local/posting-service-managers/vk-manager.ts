@@ -4,12 +4,14 @@ import { VK } from 'vk-io';
 import type { WallWallComment } from 'vk-io/lib/api/schemas/objects';
 // @ts-expect-error No proper typing
 import type { WallGetCommentExtendedResponse } from 'vk-io/lib/api/schemas/responses';
-import { getPostFirstPublished, getPostTypesFromContent, type Post } from '../../core/entities/post.js';
+import type { Post, PostEntry } from '../../core/entities/post.js';
+import { getPostFirstPublished, getPostTypesFromContent, POST_TYPES } from '../../core/entities/post.js';
 import { createPostTags } from '../../core/entities/post-tag.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import type { ServicePost, ServicePostComment } from '../../core/entities/service-post.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
+import { site } from '../../core/services/site.js';
 import type { VKPost } from '../../core/services/vk.js';
 import { VK as VKService, VK_GROUP_ID, VK_GROUP_NAME } from '../../core/services/vk.js';
 import { asArray, randomDelay } from '../../core/utils/common-utils.js';
@@ -53,13 +55,18 @@ export class VKManager extends VKService implements PostingServiceManager {
     return mentions.join(', ');
   }
 
-  async createCaption(post: Post) {
+  async createCaption(entry: PostEntry) {
+    const [id, post] = entry;
+
     const lines: string[] = [];
     const tags = createPostTags(post);
     const contributors: string[] = [];
+    const titlePrefix = post.type !== 'shot' ? POST_TYPES.find(({ id }) => id === post.type)?.titleRu : undefined;
 
     if (post.titleRu) {
-      lines.push(post.titleRu);
+      lines.push([titlePrefix, post.titleRu].filter(Boolean).join(': '));
+    } else if (titlePrefix) {
+      lines.push(titlePrefix);
     }
 
     if (post.author && post.author !== USER_DEFAULT_AUTHOR) {
@@ -94,6 +101,8 @@ export class VKManager extends VKService implements PostingServiceManager {
       lines.push(formatDate(firstPublished, 'ru-RU'));
     }
 
+    lines.push(`Посмотреть и скачать: ${site.getPostUrl(id)}`);
+
     return lines.join('\n');
   }
 
@@ -115,13 +124,15 @@ export class VKManager extends VKService implements PostingServiceManager {
 
   async disconnect() {}
 
-  async publishPost(post: Post): Promise<void> {
+  async publishPostEntry(entry: PostEntry): Promise<void> {
+    const [, post] = entry;
+
     if (!this.canPublishPost(post)) {
       throw new Error(`Cannot publish post to ${this.name}`);
     }
 
     if (DEBUG_PUBLISHING) {
-      console.log(`Published to ${this.name} with caption:\n${await this.createCaption(post)}`);
+      console.log(`Published to ${this.name} with caption:\n${await this.createCaption(entry)}`);
       return;
     }
 
@@ -139,7 +150,7 @@ export class VKManager extends VKService implements PostingServiceManager {
       owner_id: VK_GROUP_ID,
       from_group: true,
       attachments: photo.toString(),
-      message: await this.createCaption(post),
+      message: await this.createCaption(entry),
     });
     const followers = await this.grabFollowerCount();
 

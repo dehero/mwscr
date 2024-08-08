@@ -1,6 +1,6 @@
 import type { youtube_v3 } from '@googleapis/youtube';
 import { youtube } from '@googleapis/youtube';
-import { type Post } from '../../core/entities/post.js';
+import type { PostEntry } from '../../core/entities/post.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import type { ServicePost, ServicePostComment } from '../../core/entities/service-post.js';
 import { YouTube } from '../../core/services/youtube.js';
@@ -98,7 +98,7 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
     servicePost.updated = new Date();
   }
 
-  async publishPost(_post: Post): Promise<void> {}
+  async publishPostEntry(_entry: PostEntry): Promise<void> {}
 
   async grabFollowerCount() {
     const { yt } = await this.connect();
