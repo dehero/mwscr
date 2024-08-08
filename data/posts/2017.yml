@@ -1769,18 +1769,18 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2024-08-01-20-21-31
+      updated: 2024-08-08-21-13-56
       followers: 919
       likes: 32
-      views: 252
+      views: 257
       reposts: 1
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2024-08-01-20-21-30
+      updated: 2024-08-08-21-13-56
       followers: 391
       likes: 56
-      views: 468
+      views: 516
     - service: ig
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
@@ -2607,21 +2607,21 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2024-08-01-20-21-31
+      updated: 2024-08-08-21-13-57
       followers: 919
       likes: 48
-      views: 311
+      views: 314
       reposts: 3
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2024-08-01-20-21-30
+      updated: 2024-08-08-21-13-57
       followers: 387
       likes: 64
-      views: 411
+      views: 445
       comments: !c |-
-        iyeAkZPLQnkECYQ5gACxSmVzc2VfUGlua21hbjIwMDjZMdCt0YLQviDQstGL0LPQu9GP0LTQuNGC
-        INGC0LDQuiDQv9GA0LXQutGA0LDRgdC90L4D
+        iyiAkZPLQnkECYQ5gACzSmVzc2VfUGlua21hbjJfeXVuZ9kx0K3RgtC+INCy0YvQs9C70Y/QtNC4
+        0YIg0YLQsNC6INC/0YDQtdC60YDQsNGB0L3QvgM=
 2017-03-19-stairs-in-vansunalit-egg-mine:
   title: Stairs in Vansunalit Egg Mine
   titleRu: Лестница в яичной шахте Вансуналит
@@ -3751,17 +3751,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-08-01-20-21-30
+      updated: 2024-08-08-21-13-55
       followers: 920
       likes: 39
-      views: 234
+      views: 243
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-08-01-20-21-29
+      updated: 2024-08-08-21-13-55
       followers: 397
       likes: 60
-      views: 356
+      views: 432
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
@@ -10922,10 +10922,10 @@
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
       published: 2024-07-11-18-20-18
-      updated: 2024-08-01-20-21-28
+      updated: 2024-08-08-21-13-55
       followers: 1427
       likes: 72
-      views: 342
+      views: 345
 2017-12-14-northern-light:
   title: Northern Light
   titleRu: Северный свет
