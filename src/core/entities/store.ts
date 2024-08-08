@@ -8,6 +8,7 @@ export const STORE_DRAWINGS_DIR = 'drawings';
 export const STORE_VIDEOS_DIR = 'videos';
 export const STORE_INBOX_DIR = 'inbox';
 export const STORE_TRASH_DIR = 'trash';
+export const STORE_WALLPAPERS_DIR = 'wallpapers';
 
 export const STORE_INBOX_ITEM_NAME_REGEX = /^([^.]+)\.(\d{4}-\d{2}-\d{2})-([^.]+)(?:\.(\d+))?$/;
 export const STORE_SHOTS_NAME_REGEX = /^(\d{4}-\d{2}-\d{2})-(.+)$/;
@@ -79,6 +80,7 @@ export function parseStoreResourceUrl(url: string): StoreResourceParsedUrl {
     case STORE_DRAWINGS_DIR:
     case STORE_SHOTS_DIR:
     case STORE_VIDEOS_DIR:
+    case STORE_WALLPAPERS_DIR:
       [, dateStr, key] = STORE_SHOTS_NAME_REGEX.exec(name) || [];
       originalUrl = `store:/${dir}/${STORE_ORIGINAL_DIR}/${dateStr}-${key}.original${ext}`;
       break;

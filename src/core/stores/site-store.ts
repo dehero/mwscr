@@ -1,16 +1,15 @@
 import type { Store } from '../entities/store.js';
-
-export const SITE_URL = 'https://mwscr.dehero.site';
+import { site } from '../services/site.js';
 
 export class SiteStore implements Store {
-  include = ['shots/*.png', 'drawings/*.png'];
+  include = ['shots/*.png', 'drawings/*.png', 'wallpapers/*.png'];
 
   getPublicUrl(path: string): string | undefined {
-    return `${SITE_URL}/store/${path}`;
+    return `${site.origin}/store/${path}`;
   }
 
   getPreviewUrl(path: string) {
-    return `${SITE_URL}/previews/${path.replace(/(.*)\..*/, '/previews/$1.avif')}`;
+    return `${site.origin}/previews/${path.replace(/(.*)\..*/, '/previews/$1.avif')}`;
   }
 }
 

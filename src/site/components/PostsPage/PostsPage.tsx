@@ -135,7 +135,7 @@ export const PostsPage: Component = () => {
 
   const postOriginal = () => stringToBool(searchParams.original);
   const postPublishable = () => stringToBool(searchParams.publishable);
-  const postType = () => POST_TYPES.find((type) => type === searchParams.type);
+  const postType = () => POST_TYPES.find((info) => info.id === searchParams.type)?.id;
   const postTag = () => searchParams.tag;
   const postLocation = () => searchParams.location;
   const postAuthor = () => searchParams.author;
@@ -257,7 +257,7 @@ export const PostsPage: Component = () => {
             <Label label="Type" vertical>
               <Select
                 name="type"
-                options={[ALL_OPTION, ...POST_TYPES.map((value) => ({ value }))]}
+                options={[ALL_OPTION, ...POST_TYPES.map((info) => ({ value: info.id }))]}
                 value={postType()}
                 onChange={setPostType}
               />

@@ -175,19 +175,19 @@
   .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 100%;
     grid-template-areas: 'main';
   }
 
   .container.withContent {
     grid-template-columns: 1fr minmax(min-content, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: 100%;
     grid-template-areas: 'main content';
   }
 
   .container.withRequest {
     grid-template-columns: 1fr minmax(min-content, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: 100%;
     grid-template-areas: 'main request';
   }
 
@@ -255,7 +255,7 @@
   .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 100%;
     grid-template-areas: 'main';
     overflow: hidden;
     padding: 0 8px 8px 8px;

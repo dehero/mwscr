@@ -9,6 +9,9 @@ export interface ServiceMessagingOptions {
 export interface Service {
   id: string;
   name: string;
+  origin?: string;
+
+  getPostUrl?: (postId: string) => string | undefined;
 
   getUserMessagingUrl?: (userId: string, options?: ServiceMessagingOptions) => string | undefined;
 

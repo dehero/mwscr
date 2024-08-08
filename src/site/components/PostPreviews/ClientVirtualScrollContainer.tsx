@@ -20,7 +20,7 @@ const calculateGridItemSize = (crossAxisSize: number) => {
 
   return {
     width,
-    height: width + POST_PREVIEW_GAP + POST_PREVIEW_INFO_MIN_HEIGHT,
+    height: width + POST_PREVIEW_GAP + POST_PREVIEW_INFO_MIN_HEIGHT - 1,
   };
 };
 

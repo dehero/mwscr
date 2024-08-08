@@ -300,6 +300,11 @@ export async function createResourcePreview(url: string): Promise<string | undef
     if (isVideo) {
       preview.composite([{ input: './assets/play.png' }]);
     }
+    try {
+      await fs.mkdir(posix.dirname(filename), { recursive: true });
+    } catch {
+      // Ignore
+    }
     await preview.avif({ effort: 9, quality: 70, chromaSubsampling: '4:2:0' }).toFile(filename);
     console.info(`Created preview "${filename}" for "${url}"`);
   } catch (error) {

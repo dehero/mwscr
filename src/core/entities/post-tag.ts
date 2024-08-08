@@ -16,6 +16,11 @@ export const DEFAULT_TAGS: PostTagDescriptor[] = [
     (post) => ['clip', 'video'].includes(post.type),
     (post) => (post.type = ['clip', 'video'].includes(post.type) ? post.type : 'clip'),
   ],
+  [
+    'wallpaper',
+    (post) => ['wallpaper', 'wallpaper-v'].includes(post.type),
+    (post) => (post.type = ['wallpaper', 'wallpaper-v'].includes(post.type) ? post.type : 'wallpaper'),
+  ],
   ...POST_ADDONS.map(
     (tag): PostTagDescriptor => [tag, (post) => post.addon === tag, (post) => (post.addon = post.addon || tag)],
   ),

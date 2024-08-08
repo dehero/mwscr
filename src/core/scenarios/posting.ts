@@ -5,11 +5,16 @@ import {
   needMinContentDistance,
   needMinMarkDistance,
   needMinRelatedLocationDistance,
-  // needMinTypeDistance,
+  needMinTypeDistance,
 } from '../rules/post-candidate-rules.js';
 import { needCertainType } from '../rules/post-rules.js';
 import type { PostingRule } from '../rules/posting-rules.js';
-import { afterHour, lastPostedDaysAgo, lastPublishedHoursAgo /*onWeekDay*/ } from '../rules/posting-rules.js';
+import {
+  afterHour,
+  lastPostedDaysAgo,
+  lastPublishedHoursAgo,
+  // onWeekDay
+} from '../rules/posting-rules.js';
 
 export type PostingScenario = [title: string, postingRules: PostingRule[], postCandidateRules: PostCandidateRule[]];
 
@@ -36,4 +41,11 @@ const shot: PostingScenario = [
   ],
 ];
 
-export const postingScenarios: PostingScenario[] = [/*shotSet*/ shot];
+const wallpaperV: PostingScenario = [
+  'wallpaper-v',
+  // [onWeekDay(6),
+  [afterHour(9), lastPublishedHoursAgo(12), lastPostedDaysAgo(1)],
+  [needCertainType('wallpaper-v'), needMinTypeDistance(14), needMinContentDistance(365)],
+];
+
+export const postingScenarios: PostingScenario[] = [wallpaperV, /*shotSet*/ shot];
