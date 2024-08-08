@@ -317,10 +317,10 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-41
-      updated: 2024-08-08-07-13-49
+      updated: 2024-08-08-08-18-42
       followers: 1437
-      likes: 111
-      views: 414
+      likes: 113
+      views: 418
       comments: !c |-
         G5YAIB2JcUzJQuGdnXRynyecUBRTax7UPKBAUgiz5YEPKNaguwXVrv3gAXhAE1tQ6eRIA+K/lQdp
         W5YGoi3n4dP1RJmJTW/WVY4fNwymwvGd9YR1coYPPfaSEvDjpYJSEB+OXiIYQUK5IpiAC+qJx31i
@@ -328,19 +328,22 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-08-08-07-13-49
+      updated: 2024-08-08-08-18-42
       followers: 927
-      likes: 30
-      views: 146
+      likes: 31
+      views: 157
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-08-08-07-13-50
+      updated: 2024-08-08-08-18-43
       followers: 504
-      likes: 52
-      views: 171
-      comments: !c CxaAkZPLQnkS4WNQgAClQWRlbGW7aGUgZGFuY2VzIHRvIHRoZSBkYWdvdGh3YXZlAw==
+      likes: 53
+      views: 174
+      comments: !c |-
+        CzmAkpPLQnkTD+n1gAClVG9kb3LZNFdhaXQsIGRvIHRoZXkgcmVhbGx5IGRhbmNlIGxpa2UgdGhh
+        dCBpbiB0aGUgdmFuaWxsYT+Ty0J5EuFjUIAApUFkZWxlu2hlIGRhbmNlcyB0byB0aGUgZGFnb3Ro
+        d2F2ZQM=
 2018-01-12-dark-brotherhood-apprentice:
   title: Dark Brotherhood Apprentice
   titleRu: Ученик Тёмного Братства
@@ -1007,24 +1010,24 @@
       id: C-VpvfoNu-W
       mediaId: '17979463679710227'
       published: 2024-08-06-18-20-47
-      updated: 2024-08-08-07-13-50
+      updated: 2024-08-08-08-18-43
       followers: 1435
       likes: 67
-      views: 307
+      views: 308
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2024-08-08-07-13-50
+      updated: 2024-08-08-08-18-44
       followers: 926
       likes: 21
       views: 181
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2024-08-08-07-13-51
+      updated: 2024-08-08-08-18-44
       followers: 502
-      likes: 61
-      views: 224
+      likes: 62
+      views: 227
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
