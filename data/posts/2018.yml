@@ -317,28 +317,29 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-41
-      updated: 2024-08-07-23-14-16
+      updated: 2024-08-08-01-06-00
       followers: 1437
-      likes: 77
-      views: 265
+      likes: 85
+      views: 300
       comments: !c |-
-        CyCAkZPLQnkS7pMMAACtY2hlbWljYWx0YWludNkmVHJ1bXBldHkgc2xlZXBlcnMgYXJlIG15IGZh
-        dm9yaXRlIPCfjroD
+        G5YAIB2JcUzJQuGdnXRynyecUBRTax7UPKBAUgiz5YEPKNaguwXVrv3gAXhAE1tQ6eRIA+K/lQdp
+        W5YGoi3n4dP1RJmJTW/WVY4fNwymwvGd9YR1coYPPfaSEvDjpYJSEB+OXiIYQUK5IpiAC+qJx31i
+        GXgrG+stigxGkv4dCw==
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-08-07-23-14-15
+      updated: 2024-08-08-01-06-00
       followers: 927
-      likes: 23
-      views: 101
+      likes: 24
+      views: 110
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-08-07-23-14-16
+      updated: 2024-08-08-01-06-01
       followers: 504
-      likes: 45
-      views: 143
+      likes: 46
+      views: 146
       comments: !c CxaAkZPLQnkS4WNQgAClQWRlbGW7aGUgZGFuY2VzIHRvIHRoZSBkYWdvdGh3YXZlAw==
 2018-01-12-dark-brotherhood-apprentice:
   title: Dark Brotherhood Apprentice
@@ -1006,24 +1007,24 @@
       id: C-VpvfoNu-W
       mediaId: '17979463679710227'
       published: 2024-08-06-18-20-47
-      updated: 2024-08-07-23-14-17
+      updated: 2024-08-08-01-06-01
       followers: 1435
-      likes: 64
-      views: 295
+      likes: 65
+      views: 300
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2024-08-07-23-14-16
+      updated: 2024-08-08-01-06-02
       followers: 926
       likes: 21
       views: 177
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2024-08-07-23-14-17
+      updated: 2024-08-08-01-06-02
       followers: 502
       likes: 60
-      views: 214
+      views: 215
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
