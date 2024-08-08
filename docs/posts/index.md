@@ -28,16 +28,21 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BnCJCoeF4b6/)       | 2018-08-28 |       |   108 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_880)  | 2018-08-28 |   355 |    28 |       217 |   12.9 |
-| [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |       |       |      1437 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |       |       |       927 |        |
-| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |       |       |       508 |        |
-|                                                    |            |   355 |   136 |      2872 |        |
+| [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |    54 |    29 |      1437 |   2.02 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |    51 |     8 |       927 |   0.86 |
+| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |    83 |    25 |       508 |   4.92 |
+|                                                    |            |   543 |   198 |      2872 |   5.18 |
 
 #### Comments
 
 - `ig` <ins title="2018-08-28-20-25-20">tommytoja</ins> wow
 - `ig` <ins title="2018-08-28-20-45-36">tommytoja</ins> wow
 - `ig` <ins title="2019-04-23-11-08-07">anonym201904</ins> Morrowind - best Elder Scrolls ever! True Love 💕
+- `vk` <ins title="2024-08-08-18-32-59">cliffracerskiller</ins> Хоркер: мяня покажи...
+- `ig` <ins title="2024-08-08-18-43-50">eastcoast_lg</ins> I want a print of this for my wall
+  - <ins title="2024-08-08-18-47-35">mwscr</ins> Secret link to download this image in best possible quality: https://mwscr.dehero.site/posts/2024-08-08-southern-shore-of-northern-land/
+  - <ins title="2024-08-08-18-51-25">eastcoast_lg</ins> @mwscr the link doesn’t work ?
+  - <ins title="2024-08-08-18-55-36">mwscr</ins> Maybe some issues with posting links to Instagram. Try link in the profile. You should be able to find this image there.
 
 ## <span id="2024-08-07-dance-of-dagoth">Dance of Dagoth</span>
 
@@ -61,10 +66,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bd0Y040DxzP/)       | 2018-01-11 |       |   114 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_574)  | 2018-01-11 |   170 |    16 |       120 |  13.33 |
-| [`ig`](https://instagram.com/p/C-YOaKVtdQ9/)       | 2024-08-07 |   521 |   128 |      1437 |   8.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1673) | 2024-08-07 |   197 |    38 |       927 |    4.1 |
-| [`tg`](https://t.me/mwscr/493)                     | 2024-08-07 |   197 |    57 |       504 |  11.31 |
-|                                                    |            |  1085 |   353 |      2868 |   9.41 |
+| [`ig`](https://instagram.com/p/C-YOaKVtdQ9/)       | 2024-08-07 |   522 |   130 |      1437 |   9.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1673) | 2024-08-07 |   198 |    38 |       927 |    4.1 |
+| [`tg`](https://t.me/mwscr/493)                     | 2024-08-07 |   221 |    59 |       504 |  11.71 |
+|                                                    |            |  1111 |   357 |      2868 |   9.55 |
 
 #### Comments
 
