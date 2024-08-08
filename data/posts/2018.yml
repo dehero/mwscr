@@ -317,10 +317,10 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-41
-      updated: 2024-08-08-09-15-49
+      updated: 2024-08-08-10-15-32
       followers: 1437
-      likes: 115
-      views: 425
+      likes: 116
+      views: 438
       comments: !c |-
         G5YAIB2JcUzJQuGdnXRynyecUBRTax7UPKBAUgiz5YEPKNaguwXVrv3gAXhAE1tQ6eRIA+K/lQdp
         W5YGoi3n4dP1RJmJTW/WVY4fNwymwvGd9YR1coYPPfaSEvDjpYJSEB+OXiIYQUK5IpiAC+qJx31i
@@ -328,18 +328,18 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-08-08-09-15-49
+      updated: 2024-08-08-10-15-32
       followers: 927
       likes: 32
-      views: 160
+      views: 164
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-08-08-09-15-50
+      updated: 2024-08-08-10-15-33
       followers: 504
-      likes: 53
-      views: 177
+      likes: 54
+      views: 180
       comments: !c |-
         CzmAkpPLQnkTD+n1gAClVG9kb3LZNFdhaXQsIGRvIHRoZXkgcmVhbGx5IGRhbmNlIGxpa2UgdGhh
         dCBpbiB0aGUgdmFuaWxsYT+Ty0J5EuFjUIAApUFkZWxlu2hlIGRhbmNlcyB0byB0aGUgZGFnb3Ro
@@ -1010,24 +1010,24 @@
       id: C-VpvfoNu-W
       mediaId: '17979463679710227'
       published: 2024-08-06-18-20-47
-      updated: 2024-08-08-09-15-50
+      updated: 2024-08-08-10-15-33
       followers: 1435
       likes: 67
       views: 309
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2024-08-08-09-15-51
+      updated: 2024-08-08-10-15-33
       followers: 926
       likes: 22
       views: 183
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2024-08-08-09-15-51
+      updated: 2024-08-08-10-15-33
       followers: 502
-      likes: 62
-      views: 230
+      likes: 63
+      views: 233
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
