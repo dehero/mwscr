@@ -1,7 +1,7 @@
 import { For, Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import icon from '../../../assets/icon.png?format=avif&imagetools';
-import { SITE_URL } from '../../core/stores/site-store.js';
+import { site } from '../../core/services/site.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { getResourcePreviewUrl } from '../data-managers/resources.js';
 import { useRouteInfo } from '../hooks/useRouteInfo.js';
@@ -26,15 +26,15 @@ export default function Head() {
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <link rel="manifest" href="/site.webmanifest" />
-      <meta property="og:title" content={routeInfo?.title || 'Morrowind Screenshots'} />
+      <meta property="og:title" content={routeInfo?.title || site.name} />
       <Show when={routeInfo?.description}>
         <meta property="og:description" content={routeInfo?.description} />
       </Show>
       <meta property="og:type" content="website" />
       <For each={asArray(routeInfo?.imageUrl ?? icon)}>
-        {(url) => <meta property="og:image" content={`${SITE_URL}${getResourcePreviewUrl(url)}`} />}
+        {(url) => <meta property="og:image" content={`${site.origin}${getResourcePreviewUrl(url)}`} />}
       </For>
-      <meta property="og:url" content={`${SITE_URL}${pageContext.urlPathname}`} />
+      <meta property="og:url" content={`${site.origin}${pageContext.urlPathname}`} />
     </>
   );
 }

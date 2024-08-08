@@ -9,7 +9,22 @@ import type { ServicePost, ServicePostComment } from './service-post.js';
 import { isServicePostEqual, mergeServicePosts } from './service-post.js';
 import { USER_DEFAULT_AUTHOR } from './user.js';
 
-export const POST_TYPES = ['shot', 'shot-set', 'video', 'clip', 'drawing'] as const;
+interface PostTypeInfo {
+  id: string;
+  title: string;
+  titleRu: string;
+  letter: string;
+}
+
+export const POST_TYPES = [
+  { id: 'shot', title: 'Shot', titleRu: 'Кадр', letter: 'S' },
+  { id: 'shot-set', title: 'Shot-Set', titleRu: 'Набор кадров', letter: 'H' },
+  { id: 'video', title: 'Video', titleRu: 'Видео', letter: 'V' },
+  { id: 'clip', title: 'Clip', titleRu: 'Клип', letter: 'C' },
+  { id: 'drawing', title: 'Drawing', titleRu: 'Рисунок', letter: 'D' },
+  { id: 'wallpaper', title: 'Wallpaper', titleRu: 'Обои', letter: 'W' },
+  { id: 'wallpaper-v', title: 'Vertical Wallpaper', titleRu: 'Вертикальные обои', letter: 'M' },
+] as const satisfies PostTypeInfo[];
 export const POST_ADDONS = ['Tribunal', 'Bloodmoon'] as const;
 export const POST_ENGINES = ['OpenMW', 'Vanilla'] as const;
 export const POST_MARKS = ['A1', 'A2', 'B1', 'B2', 'C', 'D', 'E', 'F'] as const;
@@ -26,7 +41,7 @@ export const POST_VIOLATIONS = {
   'unsupported-resource': { title: 'Unsupported resource', letter: 'R' },
 } as const;
 
-export type PostType = (typeof POST_TYPES)[number];
+export type PostType = (typeof POST_TYPES)[number]['id'];
 export type PostAddon = (typeof POST_ADDONS)[number];
 export type PostEngine = (typeof POST_ENGINES)[number];
 export type PostMark = (typeof POST_MARKS)[number];
@@ -186,7 +201,7 @@ export function getPostTypesFromContent(content?: PostContent): PostType[] {
     return ['drawing'];
   }
   if (urls.length === 1 && urls[0] && (resourceIsImage(urls[0]) || RESOURCE_MISSING_IMAGE === urls[0])) {
-    return ['shot'];
+    return ['shot', 'wallpaper', 'wallpaper-v'];
   }
   if (urls.length === 1 && urls[0] && (resourceIsVideo(urls[0]) || RESOURCE_MISSING_VIDEO === urls[0])) {
     return ['clip', 'video'];
@@ -196,8 +211,12 @@ export function getPostTypesFromContent(content?: PostContent): PostType[] {
 }
 
 export function getPostTypeAspectRatio(type: PostType): MediaAspectRatio {
-  if (type === 'video') {
+  if (type === 'video' || type === 'wallpaper') {
     return '16/9';
+  }
+
+  if (type === 'wallpaper-v') {
+    return '9/19.5';
   }
 
   return '1/1';

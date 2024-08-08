@@ -70,7 +70,7 @@ export async function resolve(issue: GithubIssue) {
     asArray(oldContent).filter((url) => !rawContent?.includes(url)),
   );
   post.author = mergeAuthors(extractIssueFieldValue(postAuthor, issue.body)?.split(/\s+/).filter(Boolean));
-  post.type = POST_TYPES.find((type) => type === typeStr) ?? 'shot';
+  post.type = POST_TYPES.find((info) => info.id === typeStr)?.id ?? 'shot';
   post.tags = extractIssueFieldValue(postTags, issue.body)?.split(/\s+/).filter(Boolean);
   post.engine = POST_ENGINES.find((engine) => engine === engineStr);
   post.addon = POST_ADDONS.find((addon) => addon === addonStr);

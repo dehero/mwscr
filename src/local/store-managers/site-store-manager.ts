@@ -53,6 +53,7 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
       const stream = new Duplex();
 
       await client.downloadTo(stream, fromPath);
+      await client.ensureDir(posix.dirname(toPath));
       await client.uploadFrom(stream, toPath);
     } finally {
       this.waitAndClose();
@@ -102,6 +103,7 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
       const fromPath = posix.join(path, from);
       const toPath = posix.join(path, to);
 
+      await client.ensureDir(posix.dirname(toPath));
       await client.rename(fromPath, toPath);
     } finally {
       this.waitAndClose();
@@ -121,8 +123,11 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
   async putStream(path: string, stream: NodeJS.ReadableStream): Promise<void> {
     try {
       const site = await this.connect();
+      const filename = posix.join(site.path, path);
 
-      await site.client.uploadFrom(new Readable().wrap(stream), posix.join(site.path, path));
+      await site.client.ensureDir(posix.dirname(filename));
+      await site.client.cd('/');
+      await site.client.uploadFrom(new Readable().wrap(stream), filename);
     } finally {
       this.waitAndClose();
     }

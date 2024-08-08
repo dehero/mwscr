@@ -61,7 +61,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
         >
           <div class={clsx(styles[props.postInfo.type], styles.setContainer)}>
             <For each={content()}>
-              {(url) => <ResourcePreview url={url} class={styles.setItem} aspectRatio={aspectRatio()} />}
+              {(url) => <ResourcePreview url={url} class={styles.setItem} aspectRatio="1/1" />}
             </For>
           </div>
         </Show>

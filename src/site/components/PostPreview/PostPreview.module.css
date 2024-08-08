@@ -13,6 +13,7 @@
 
 .image {
   flex-grow: 0;
+  max-height: calc(100% - 33px);
 }
 
 .info {

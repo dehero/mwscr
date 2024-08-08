@@ -14,6 +14,7 @@ import {
   STORE_INBOX_DIR,
   STORE_SHOTS_DIR,
   STORE_TRASH_DIR,
+  STORE_WALLPAPERS_DIR,
 } from '../../core/entities/store.js';
 import { USER_UNKNOWN } from '../../core/entities/user.js';
 import { importingScenarios } from '../../core/scenarios/importing.js';
@@ -236,6 +237,31 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
         await moveResource(oldDrawingUrl, newDrawingUrl);
       }
       post.content = [newDrawingUrl, shotUrl];
+      break;
+    }
+    case 'wallpaper':
+    case 'wallpaper-v': {
+      if (typeof post.content !== 'string') {
+        throw new TypeError(
+          `Need content to be of type "string" for post type "${post.type}", got "${typeof post.content}"`,
+        );
+      }
+
+      const { ext, originalUrl } = parseStoreResourceUrl(post.content);
+      const newUrl = `store:/${STORE_WALLPAPERS_DIR}/${id}${ext}`;
+      const { originalUrl: newOriginalUrl } = parseStoreResourceUrl(newUrl);
+
+      if (post.content !== RESOURCE_MISSING_IMAGE) {
+        await moveResource(post.content, newUrl);
+      }
+
+      if (originalUrl && newOriginalUrl) {
+        // TODO: find usage for original preview (now not represented in docs)
+        await moveResource(originalUrl, newOriginalUrl);
+        post.trash = mergePostContents(asArray(post.trash).filter((url) => url !== originalUrl));
+      }
+
+      post.content = newUrl;
       break;
     }
     default:

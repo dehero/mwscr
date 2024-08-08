@@ -18,7 +18,7 @@ export async function resolve(issue: GithubIssue) {
       user,
       date: new Date(issue.created_at),
     },
-    type: POST_TYPES.find((type) => type === typeStr) ?? 'shot',
+    type: POST_TYPES.find((info) => info.id === typeStr)?.id ?? 'shot',
   };
 
   const id = createPostRequestId(request);

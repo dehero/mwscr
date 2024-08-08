@@ -85,7 +85,7 @@ export const PostEditingDialog: Component<PostEditingDialogProps> = (props) => {
           <Label label="Type">
             <Select
               name="type"
-              options={POST_TYPES.map((value) => ({ value }))}
+              options={POST_TYPES.map((info) => ({ value: info.id }))}
               value={post().type}
               onChange={setPostType}
             />

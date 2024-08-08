@@ -35,7 +35,7 @@ export const postType = {
   id: 'postType',
   attributes: {
     label: 'Post Type',
-    options: POST_TYPES,
+    options: POST_TYPES.map(({ id }) => id),
     default: 0,
   },
   validations: {

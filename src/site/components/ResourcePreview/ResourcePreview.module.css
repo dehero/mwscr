@@ -4,6 +4,7 @@
   max-height: 100%;
   box-sizing: border-box;
   image-rendering: auto;
+  object-fit: cover;
 }
 
 .fallback {
