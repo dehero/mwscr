@@ -179,7 +179,7 @@ As the project develops, it is planned to implement:
 - [ ] support for publishing post types `shot-set`, `redrawing`, `clip` and `video` to project accounts;
 - [ ] lists of tags and locations with the number of posts in them;
 - [ ] adding multiple locations to a single post;
-- [ ] `wallpaper`, `wallpaper-v` and `video-v` post types;
+- [ ] ~~`wallpaper`~~, ~~`wallpaper-v`~~ and `video-v` post types;
 - [ ] support for accessing storage via a local file system;
 - [ ] Telegram bot for accepting requests and works;
 - [ ] monthly releases of the archive with works for the previous month;
