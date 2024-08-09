@@ -1,4 +1,4 @@
-[`README`](../../README.md) [`CONTRIBUTING`](../../CONTRIBUTING.md) [`Published`](../posts/index.md) `Inbox` [`Trash`](../trash/index.md) [`Contributors`](../contributors.md)
+[`README`](../../README.md) [`CONTRIBUTING`](../../CONTRIBUTING.md) [`Posts`](../posts/index.md) `Inbox` [`Trash`](../trash/index.md) [`Contributors`](../contributors.md)
 
 [`Shortlist`](shortlist.md) `Requests` [`2024`](index.md) [`2023`](2023.md) [`2022`](2022.md) [`2020`](2020.md) [`2019`](2019.md) [`2018`](2018.md) [`2017`](2017.md)
 
@@ -16,7 +16,7 @@
 > [!WARNING]
 > Need english title, need russian title, need author, need content, need mark, unable to detect possible post type from content.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=mighty-markyys.2017-06-26&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=Hands+of+almalexia+screens%3F+They+are+hardest+battle+in+game+imo.+Cool+shining+armors.) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=mighty-markyys.2017-06-26) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=mighty-markyys.2017-06-26) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=mighty-markyys.2017-06-26)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=mighty-markyys.2017-06-26&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=Hands+of+almalexia+screens%3F+They+are+hardest+battle+in+game+imo.+Cool+shining+armors.) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=mighty-markyys.2017-06-26) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=mighty-markyys.2017-06-26) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=mighty-markyys.2017-06-26&postLocation=)</code>
 
 ```
 mighty-markyys.2017-06-26
@@ -48,7 +48,7 @@ eastcoast-lg.2023-09-18
 > [!WARNING]
 > Need english title, need russian title, need author, need content, need mark, unable to detect possible post type from content.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2022-06-21-fa64acb9&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=clip&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=Shoot+imperial+guard%27s+look+at+player+when+he+switches+races+at+the+beginning+of+the+game.) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2022-06-21-fa64acb9) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2022-06-21-fa64acb9) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2022-06-21-fa64acb9)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2022-06-21-fa64acb9&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=clip&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=Shoot+imperial+guard%27s+look+at+player+when+he+switches+races+at+the+beginning+of+the+game.) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2022-06-21-fa64acb9) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2022-06-21-fa64acb9) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2022-06-21-fa64acb9&postLocation=)</code>
 
 ```
 dehero.2022-06-21-fa64acb9
@@ -96,7 +96,7 @@ dehero.2018-01-08-fabricants
 > [!WARNING]
 > Need english title, need russian title, need author, need content, need mark, unable to detect possible post type from content.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2017-04-02&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=video&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=Recreate+Morrowind+trailer+in+HD.) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2017-04-02) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2017-04-02) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2017-04-02)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2017-04-02&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=video&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=Recreate+Morrowind+trailer+in+HD.) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2017-04-02) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2017-04-02) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2017-04-02&postLocation=)</code>
 
 ```
 dehero.2017-04-02
@@ -112,7 +112,7 @@ dehero.2017-04-02
 > [!WARNING]
 > Need english title, need russian title, need author, need content, need mark, unable to detect possible post type from content.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2017-01-27-engines&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=video&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=Compare+OpenMW+and+Vanilla+engines.) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2017-01-27-engines) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2017-01-27-engines) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2017-01-27-engines)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2017-01-27-engines&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=video&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=Compare+OpenMW+and+Vanilla+engines.) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2017-01-27-engines) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2017-01-27-engines) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2017-01-27-engines&postLocation=)</code>
 
 ```
 dehero.2017-01-27-engines
@@ -128,7 +128,7 @@ dehero.2017-01-27-engines
 > [!WARNING]
 > Need english title, need russian title, need author, need content, need mark, unable to detect possible post type from content.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2017-01-27-building&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=video&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=Timelapse+of+player%27s+Great+House+manor+building.) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2017-01-27-building) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2017-01-27-building) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2017-01-27-building)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2017-01-27-building&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=video&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=Timelapse+of+player%27s+Great+House+manor+building.) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2017-01-27-building) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2017-01-27-building) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2017-01-27-building&postLocation=)</code>
 
 ```
 dehero.2017-01-27-building
@@ -144,7 +144,7 @@ dehero.2017-01-27-building
 > [!WARNING]
 > Need english title, need russian title, need author, need content, need mark, unable to detect possible post type from content.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=buck-the-cuck.2017-10-26&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=A+lonely+dwarven+phantom+alone+in+his+decrepit+brass+ruins.) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=buck-the-cuck.2017-10-26) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=buck-the-cuck.2017-10-26) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=buck-the-cuck.2017-10-26)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=buck-the-cuck.2017-10-26&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=A+lonely+dwarven+phantom+alone+in+his+decrepit+brass+ruins.) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=buck-the-cuck.2017-10-26) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=buck-the-cuck.2017-10-26) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=buck-the-cuck.2017-10-26&postLocation=)</code>
 
 ```
 buck-the-cuck.2017-10-26

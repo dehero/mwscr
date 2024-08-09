@@ -1,4 +1,4 @@
-[`README`](../../README.md) [`CONTRIBUTING`](../../CONTRIBUTING.md) [`Published`](../posts/index.md) [`Inbox`](../inbox/index.md) `Trash` [`Contributors`](../contributors.md)
+[`README`](../../README.md) [`CONTRIBUTING`](../../CONTRIBUTING.md) [`Posts`](../posts/index.md) [`Inbox`](../inbox/index.md) `Trash` [`Contributors`](../contributors.md)
 
 `Revisit` [`2024`](index.md) [`2023`](2023.md) [`2022`](2022.md) [`2020`](2020.md) [`2019`](2019.md) [`2018`](2018.md) [`2017`](2017.md)
 
@@ -11,12 +11,12 @@
 [https://www.reddit.com/r/Morrowind/comments/w83bac/silt_strider_art_posca_pens_based_on_a_picture/](https://www.reddit.com/r/Morrowind/comments/w83bac/silt_strider_art_posca_pens_based_on_a_picture/)
 ![store:/shots/2018-09-22-two-ways.png](../../assets/previews/shots/2018-09-22-two-ways.avif "2018-09-22-two-ways")
 
-`drawing` by [RemmLah](../contributors.md#remmlah)
+`redrawing` by [RemmLah](../contributors.md#remmlah)
 
 > [!CAUTION]
 > [object Object].
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=remmlah.2022-07-26-two-ways&amp;postContent=https%3A%2F%2Fwww.reddit.com%2Fr%2FMorrowind%2Fcomments%2Fw83bac%2Fsilt_strider_art_posca_pens_based_on_a_picture%2F%0Astore%3A%2Fshots%2F2018-09-22-two-ways.png&amp;postTitle=Two+Ways+Drawn+by+RemmLah&amp;postTitleRu=&amp;postAuthor=remmlah&amp;postType=drawing&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=unsupported-resource&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=remmlah.2022-07-26-two-ways) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=remmlah.2022-07-26-two-ways) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=remmlah.2022-07-26-two-ways)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=remmlah.2022-07-26-two-ways&amp;postContent=https%3A%2F%2Fwww.reddit.com%2Fr%2FMorrowind%2Fcomments%2Fw83bac%2Fsilt_strider_art_posca_pens_based_on_a_picture%2F%0Astore%3A%2Fshots%2F2018-09-22-two-ways.png&amp;postTitle=Two+Ways+Drawn+by+RemmLah&amp;postTitleRu=&amp;postAuthor=remmlah&amp;postType=redrawing&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=unsupported-resource&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=remmlah.2022-07-26-two-ways) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=remmlah.2022-07-26-two-ways) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=remmlah.2022-07-26-two-ways&postLocation=)</code>
 
 ```
 remmlah.2022-07-26-two-ways
@@ -47,7 +47,7 @@ natty.2024-03-10-16-44-06
 > [!CAUTION]
 > [object Object].
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-16-09-50&amp;postContent=store%3A%2Ftrash%2Fnatty.2024-03-10-16-09-50.png%0Astore%3A%2Ftrash%2Fnatty.2024-03-10-16-09-52.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=graphic-issues&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-16-09-50) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-16-09-50) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-16-09-50)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-16-09-50&amp;postContent=store%3A%2Ftrash%2Fnatty.2024-03-10-16-09-50.png%0Astore%3A%2Ftrash%2Fnatty.2024-03-10-16-09-52.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=graphic-issues&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-16-09-50) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-16-09-50) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-16-09-50&postLocation=)</code>
 
 ```
 natty.2024-03-10-16-09-50
@@ -60,7 +60,7 @@ natty.2024-03-10-16-09-50
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-05-19-51-30&amp;postContent=store%3A%2Ftrash%2Fdehero.2024-03-05-19-51-30.png%0Astore%3A%2Ftrash%2Fdehero.2024-03-05-19-51-30.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-05-19-51-30) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-05-19-51-30) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-03-05-19-51-30)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-05-19-51-30&amp;postContent=store%3A%2Ftrash%2Fdehero.2024-03-05-19-51-30.png%0Astore%3A%2Ftrash%2Fdehero.2024-03-05-19-51-30.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-05-19-51-30) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-05-19-51-30) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-03-05-19-51-30&postLocation=)</code>
 
 ```
 dehero.2024-03-05-19-51-30
@@ -98,7 +98,7 @@ dehero.2022-06-29-23-01-05
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2022-06-29-22-46-49&amp;postContent=store%3A%2Ftrash%2Fdehero.2022-06-29-22-46-49.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2022-06-29-22-46-49) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2022-06-29-22-46-49) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2022-06-29-22-46-49)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2022-06-29-22-46-49&amp;postContent=store%3A%2Ftrash%2Fdehero.2022-06-29-22-46-49.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2022-06-29-22-46-49) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2022-06-29-22-46-49) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2022-06-29-22-46-49&postLocation=)</code>
 
 ```
 dehero.2022-06-29-22-46-49
@@ -111,7 +111,7 @@ dehero.2022-06-29-22-46-49
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2022-06-29-22-19-34&amp;postContent=store%3A%2Ftrash%2Fdehero.2022-06-29-22-19-34.png%0Astore%3A%2Ftrash%2Fdehero.2022-06-29-22-20-03.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2022-06-29-22-19-34) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2022-06-29-22-19-34) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2022-06-29-22-19-34)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2022-06-29-22-19-34&amp;postContent=store%3A%2Ftrash%2Fdehero.2022-06-29-22-19-34.png%0Astore%3A%2Ftrash%2Fdehero.2022-06-29-22-20-03.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2022-06-29-22-19-34) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2022-06-29-22-19-34) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2022-06-29-22-19-34&postLocation=)</code>
 
 ```
 dehero.2022-06-29-22-19-34
@@ -123,7 +123,7 @@ dehero.2022-06-29-22-19-34
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2022-06-27-22-02-38&amp;postContent=store%3A%2Ftrash%2Fdehero.2022-06-27-22-02-38.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2022-06-27-22-02-38) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2022-06-27-22-02-38) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2022-06-27-22-02-38)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2022-06-27-22-02-38&amp;postContent=store%3A%2Ftrash%2Fdehero.2022-06-27-22-02-38.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2022-06-27-22-02-38) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2022-06-27-22-02-38) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2022-06-27-22-02-38&postLocation=)</code>
 
 ```
 dehero.2022-06-27-22-02-38
@@ -168,7 +168,7 @@ dehero.2020-11-05-21-20-48
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2020-11-05-21-08-26&amp;postContent=store%3A%2Ftrash%2Fdehero.2020-11-05-21-08-26.png%0Astore%3A%2Ftrash%2Fdehero.2020-11-05-21-08-12.png%0Astore%3A%2Ftrash%2Fdehero.2020-11-05-21-08-07.png%0Astore%3A%2Ftrash%2Fdehero.2020-11-05-21-05-02.png%0Astore%3A%2Ftrash%2Fdehero.2020-11-05-21-04-24.png%0Astore%3A%2Ftrash%2Fdehero.2020-11-05-21-03-55.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2020-11-05-21-08-26) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2020-11-05-21-08-26) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2020-11-05-21-08-26)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2020-11-05-21-08-26&amp;postContent=store%3A%2Ftrash%2Fdehero.2020-11-05-21-08-26.png%0Astore%3A%2Ftrash%2Fdehero.2020-11-05-21-08-12.png%0Astore%3A%2Ftrash%2Fdehero.2020-11-05-21-08-07.png%0Astore%3A%2Ftrash%2Fdehero.2020-11-05-21-05-02.png%0Astore%3A%2Ftrash%2Fdehero.2020-11-05-21-04-24.png%0Astore%3A%2Ftrash%2Fdehero.2020-11-05-21-03-55.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2020-11-05-21-08-26) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2020-11-05-21-08-26) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2020-11-05-21-08-26&postLocation=)</code>
 
 ```
 dehero.2020-11-05-21-08-26
@@ -181,7 +181,7 @@ dehero.2020-11-05-21-08-26
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2020-11-05-20-49-21&amp;postContent=store%3A%2Ftrash%2Fdehero.2020-11-05-20-49-21.png%0Astore%3A%2Ftrash%2Fdehero.2020-11-05-20-49-21.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2020-11-05-20-49-21) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2020-11-05-20-49-21) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2020-11-05-20-49-21)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2020-11-05-20-49-21&amp;postContent=store%3A%2Ftrash%2Fdehero.2020-11-05-20-49-21.png%0Astore%3A%2Ftrash%2Fdehero.2020-11-05-20-49-21.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2020-11-05-20-49-21) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2020-11-05-20-49-21) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2020-11-05-20-49-21&postLocation=)</code>
 
 ```
 dehero.2020-11-05-20-49-21
@@ -193,7 +193,7 @@ dehero.2020-11-05-20-49-21
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2020-11-05-20-44-17&amp;postContent=store%3A%2Ftrash%2Fdehero.2020-11-05-20-44-17.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2020-11-05-20-44-17) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2020-11-05-20-44-17) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2020-11-05-20-44-17)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2020-11-05-20-44-17&amp;postContent=store%3A%2Ftrash%2Fdehero.2020-11-05-20-44-17.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2020-11-05-20-44-17) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2020-11-05-20-44-17) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2020-11-05-20-44-17&postLocation=)</code>
 
 ```
 dehero.2020-11-05-20-44-17
@@ -205,7 +205,7 @@ dehero.2020-11-05-20-44-17
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2020-10-18-22-13-34&amp;postContent=store%3A%2Ftrash%2Fdehero.2020-10-18-22-13-34.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2020-10-18-22-13-34) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2020-10-18-22-13-34) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2020-10-18-22-13-34)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2020-10-18-22-13-34&amp;postContent=store%3A%2Ftrash%2Fdehero.2020-10-18-22-13-34.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2020-10-18-22-13-34) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2020-10-18-22-13-34) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2020-10-18-22-13-34&postLocation=)</code>
 
 ```
 dehero.2020-10-18-22-13-34
@@ -217,7 +217,7 @@ dehero.2020-10-18-22-13-34
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2020-05-19-17-32-13&amp;postContent=store%3A%2Ftrash%2Fdehero.2020-05-19-17-32-13.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2020-05-19-17-32-13) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2020-05-19-17-32-13) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2020-05-19-17-32-13)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2020-05-19-17-32-13&amp;postContent=store%3A%2Ftrash%2Fdehero.2020-05-19-17-32-13.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2020-05-19-17-32-13) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2020-05-19-17-32-13) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2020-05-19-17-32-13&postLocation=)</code>
 
 ```
 dehero.2020-05-19-17-32-13
@@ -255,7 +255,7 @@ dehero.2020-05-12-18-23-34
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2020-05-12-18-16-31&amp;postContent=store%3A%2Ftrash%2Fdehero.2020-05-12-18-16-31.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2020-05-12-18-16-31) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2020-05-12-18-16-31) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2020-05-12-18-16-31)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2020-05-12-18-16-31&amp;postContent=store%3A%2Ftrash%2Fdehero.2020-05-12-18-16-31.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2020-05-12-18-16-31) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2020-05-12-18-16-31) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2020-05-12-18-16-31&postLocation=)</code>
 
 ```
 dehero.2020-05-12-18-16-31
@@ -285,7 +285,7 @@ dehero.2019-05-08-17-56-24
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2018-11-08-20-34-19&amp;postContent=store%3A%2Ftrash%2Fdehero.2018-11-08-20-34-19.png%0Astore%3A%2Ftrash%2Fdehero.2018-11-08-20-36-45.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2018-11-08-20-34-19) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2018-11-08-20-34-19) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2018-11-08-20-34-19)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2018-11-08-20-34-19&amp;postContent=store%3A%2Ftrash%2Fdehero.2018-11-08-20-34-19.png%0Astore%3A%2Ftrash%2Fdehero.2018-11-08-20-36-45.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2018-11-08-20-34-19) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2018-11-08-20-34-19) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2018-11-08-20-34-19&postLocation=)</code>
 
 ```
 dehero.2018-11-08-20-34-19
@@ -297,7 +297,7 @@ dehero.2018-11-08-20-34-19
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2018-11-02-23-17-24&amp;postContent=store%3A%2Ftrash%2Fdehero.2018-11-02-23-17-24.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2018-11-02-23-17-24) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2018-11-02-23-17-24) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2018-11-02-23-17-24)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2018-11-02-23-17-24&amp;postContent=store%3A%2Ftrash%2Fdehero.2018-11-02-23-17-24.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2018-11-02-23-17-24) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2018-11-02-23-17-24) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2018-11-02-23-17-24&postLocation=)</code>
 
 ```
 dehero.2018-11-02-23-17-24
@@ -336,7 +336,7 @@ dehero.2018-09-19-22-10-47
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2018-09-19-22-01-03&amp;postContent=store%3A%2Ftrash%2Fdehero.2018-09-19-22-01-03.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2018-09-19-22-01-03) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2018-09-19-22-01-03) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2018-09-19-22-01-03)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2018-09-19-22-01-03&amp;postContent=store%3A%2Ftrash%2Fdehero.2018-09-19-22-01-03.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2018-09-19-22-01-03) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2018-09-19-22-01-03) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2018-09-19-22-01-03&postLocation=)</code>
 
 ```
 dehero.2018-09-19-22-01-03
@@ -349,7 +349,7 @@ dehero.2018-09-19-22-01-03
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2018-09-04-23-22-10&amp;postContent=store%3A%2Ftrash%2Fdehero.2018-09-04-23-22-10.png%0Astore%3A%2Ftrash%2Fdehero.2018-09-04-23-22-23.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2018-09-04-23-22-10) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2018-09-04-23-22-10) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2018-09-04-23-22-10)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2018-09-04-23-22-10&amp;postContent=store%3A%2Ftrash%2Fdehero.2018-09-04-23-22-10.png%0Astore%3A%2Ftrash%2Fdehero.2018-09-04-23-22-23.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2018-09-04-23-22-10) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2018-09-04-23-22-10) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2018-09-04-23-22-10&postLocation=)</code>
 
 ```
 dehero.2018-09-04-23-22-10
@@ -361,7 +361,7 @@ dehero.2018-09-04-23-22-10
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2018-09-04-23-02-45&amp;postContent=store%3A%2Ftrash%2Fdehero.2018-09-04-23-02-45.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2018-09-04-23-02-45) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2018-09-04-23-02-45) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2018-09-04-23-02-45)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2018-09-04-23-02-45&amp;postContent=store%3A%2Ftrash%2Fdehero.2018-09-04-23-02-45.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2018-09-04-23-02-45) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2018-09-04-23-02-45) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2018-09-04-23-02-45&postLocation=)</code>
 
 ```
 dehero.2018-09-04-23-02-45

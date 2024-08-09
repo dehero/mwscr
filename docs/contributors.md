@@ -1,4 +1,4 @@
-[`README`](../README.md) [`CONTRIBUTING`](../CONTRIBUTING.md) [`Published`](posts/index.md) [`Inbox`](inbox/index.md) [`Trash`](trash/index.md) `Contributors`
+[`README`](../README.md) [`CONTRIBUTING`](../CONTRIBUTING.md) [`Posts`](posts/index.md) [`Inbox`](inbox/index.md) [`Trash`](trash/index.md) `Contributors`
 
 # Contributors
 
@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 920 published, 17 pending, 62 rejected  
 Requested: 6 pending  
-Likes: 129905  
+Likes: 129908  
 
 ```
 dehero
@@ -33,7 +33,7 @@ natty
 
 Roles: `author`  
 Authored: 9 published, 1 pending, 13 rejected  
-Likes: 2491  
+Likes: 2492  
 
 ```
 darkness-rifho

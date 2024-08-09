@@ -1,4 +1,4 @@
-[`README`](../../README.md) [`CONTRIBUTING`](../../CONTRIBUTING.md) `Published` [`Inbox`](../inbox/index.md) [`Trash`](../trash/index.md) [`Contributors`](../contributors.md)
+[`README`](../../README.md) [`CONTRIBUTING`](../../CONTRIBUTING.md) `Posts` [`Inbox`](../inbox/index.md) [`Trash`](../trash/index.md) [`Contributors`](../contributors.md)
 
 [`Top Rated`](top-rated.md) `2024` [`2023`](2023.md) [`2022`](2022.md) [`2020`](2020.md) [`2019`](2019.md) [`2018`](2018.md) [`2017`](2017.md) [`2016`](2016.md)
 
@@ -14,7 +14,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-08-southern-shore-of-northern-land)</code> `🚀 OpenMW` `🔗 Bloodmoon`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-08-southern-shore-of-northern-land&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon`
 
 ```
 2024-08-08-southern-shore-of-northern-land
@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BnCJCoeF4b6/)       | 2018-08-28 |       |   108 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_880)  | 2018-08-28 |   355 |    28 |       217 |   12.9 |
-| [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |   232 |    64 |      1437 |   4.45 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   151 |    20 |       927 |   2.16 |
-| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   139 |    46 |       508 |   9.06 |
-|                                                    |            |   877 |   266 |      2872 |   7.14 |
+| [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |   236 |    64 |      1437 |   4.45 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   152 |    21 |       927 |   2.27 |
+| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   141 |    47 |       508 |   9.25 |
+|                                                    |            |   884 |   268 |      2872 |   7.22 |
 
 #### Comments
 
@@ -52,7 +52,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-07-dance-of-dagoth)</code> `🚀 OpenMW`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-07-dance-of-dagoth&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-08-07-dance-of-dagoth
@@ -66,10 +66,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bd0Y040DxzP/)       | 2018-01-11 |       |   114 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_574)  | 2018-01-11 |   170 |    16 |       120 |  13.33 |
-| [`ig`](https://instagram.com/p/C-YOaKVtdQ9/)       | 2024-08-07 |   638 |   143 |      1437 |   9.95 |
+| [`ig`](https://instagram.com/p/C-YOaKVtdQ9/)       | 2024-08-07 |   646 |   143 |      1437 |   9.95 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1673) | 2024-08-07 |   210 |    39 |       927 |   4.21 |
-| [`tg`](https://t.me/mwscr/493)                     | 2024-08-07 |   243 |    63 |       504 |   12.5 |
-|                                                    |            |  1261 |   375 |      2868 |     10 |
+| [`tg`](https://t.me/mwscr/493)                     | 2024-08-07 |   244 |    63 |       504 |   12.5 |
+|                                                    |            |  1270 |   375 |      2868 |     10 |
 
 #### Comments
 
@@ -147,7 +147,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`C` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-04-ice-cave-in-the-ice-bay)</code> `🚀 OpenMW` `🔗 Bloodmoon`
+`C` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-04-ice-cave-in-the-ice-bay&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon`
 
 ```
 2024-08-04-ice-cave-in-the-ice-bay
@@ -181,7 +181,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-03-drulene-falen-and-her-guars)</code> `🚀 OpenMW` `women`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-03-drulene-falen-and-her-guars&postLocation=)</code> `🚀 OpenMW` `women`
 
 ```
 2024-08-03-drulene-falen-and-her-guars
@@ -214,7 +214,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-02-dark-morning-in-the-colony)</code> `🚀 OpenMW` `🔗 Bloodmoon`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-02-dark-morning-in-the-colony&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon`
 
 ```
 2024-08-02-dark-morning-in-the-colony
@@ -245,7 +245,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-01-in-a-fishermans-hut)</code> `🚀 OpenMW` `candles`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-01-in-a-fishermans-hut&postLocation=)</code> `🚀 OpenMW` `candles`
 
 ```
 2024-08-01-in-a-fishermans-hut
@@ -276,7 +276,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31-comprehension-of-sciences)</code> `🚀 OpenMW` `desk` `candles` `books`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31-comprehension-of-sciences&postLocation=)</code> `🚀 OpenMW` `desk` `candles` `books`
 
 ```
 2024-07-31-comprehension-of-sciences
@@ -303,7 +303,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-30-netches-have-fallen-out)</code> `🚀 OpenMW`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-30-netches-have-fallen-out&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-07-30-netches-have-fallen-out
@@ -330,7 +330,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-29-arch-with-a-canopy)</code> `🚀 OpenMW` `arch`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-29-arch-with-a-canopy&postLocation=)</code> `🚀 OpenMW` `arch`
 
 ```
 2024-07-29-arch-with-a-canopy
@@ -428,7 +428,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-26-some-scrolls)</code> `🚀 OpenMW` `scrolls` `potion`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-26-some-scrolls&postLocation=)</code> `🚀 OpenMW` `scrolls` `potion`
 
 ```
 2024-07-26-some-scrolls
@@ -494,7 +494,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-24-in-the-yurt)</code> `🚀 OpenMW` `nofilter` `yurt`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-24-in-the-yurt&postLocation=)</code> `🚀 OpenMW` `nofilter` `yurt`
 
 ```
 2024-07-24-in-the-yurt
@@ -556,7 +556,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-22-aground)</code> `🚀 OpenMW` `shipwreck` `water` `ship`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-22-aground&postLocation=)</code> `🚀 OpenMW` `shipwreck` `water` `ship`
 
 ```
 2024-07-22-aground
@@ -588,7 +588,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-21-verminous-fabricant)</code> `🚀 OpenMW` `🔗 Tribunal`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-21-verminous-fabricant&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal`
 
 ```
 2024-07-21-verminous-fabricant
@@ -621,7 +621,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-20-let-the-sun-rise)</code> `🚀 OpenMW` `sun` `statue` `silouette`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-20-let-the-sun-rise&postLocation=)</code> `🚀 OpenMW` `sun` `statue` `silouette`
 
 ```
 2024-07-20-let-the-sun-rise
@@ -688,7 +688,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-18-along-the-street)</code> `🚀 OpenMW` `street`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-18-along-the-street&postLocation=)</code> `🚀 OpenMW` `street`
 
 ```
 2024-07-18-along-the-street
@@ -753,7 +753,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-16-snowy-waiting)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `snowflakes` `campfire`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-16-snowy-waiting&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `snowflakes` `campfire`
 
 ```
 2024-07-16-snowy-waiting
@@ -784,7 +784,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-15-land-of-ruins)</code> `🚀 OpenMW` `ruin`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-15-land-of-ruins&postLocation=)</code> `🚀 OpenMW` `ruin`
 
 ```
 2024-07-15-land-of-ruins
@@ -843,7 +843,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-13-shipping-house)</code> `🚀 OpenMW`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-13-shipping-house&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-07-13-shipping-house
@@ -1031,7 +1031,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-07-puzzled-ashlanders)</code> `🚀 OpenMW`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-07-puzzled-ashlanders&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-07-07-puzzled-ashlanders
@@ -1097,7 +1097,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-05-another-coven)</code> `🚀 OpenMW` `campfire`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-05-another-coven&postLocation=)</code> `🚀 OpenMW` `campfire`
 
 ```
 2024-07-05-another-coven
@@ -1125,7 +1125,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-04-elven-nations-cornerclub)</code> `🚀 OpenMW` `nofilter` `bar` `women`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-04-elven-nations-cornerclub&postLocation=)</code> `🚀 OpenMW` `nofilter` `bar` `women`
 
 ```
 2024-07-04-elven-nations-cornerclub
@@ -1152,7 +1152,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-03-ashes-of-d-bryant)</code> `🚀 OpenMW` `farewell`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-03-ashes-of-d-bryant&postLocation=)</code> `🚀 OpenMW` `farewell`
 
 ```
 2024-07-03-ashes-of-d-bryant
@@ -1185,7 +1185,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-02-the-skar)</code> `🚀 OpenMW` `redoran`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-02-the-skar&postLocation=)</code> `🚀 OpenMW` `redoran`
 
 ```
 2024-07-02-the-skar
@@ -1218,7 +1218,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-01-near-the-ancient-dwelling)</code> `🚀 OpenMW`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-01-near-the-ancient-dwelling&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-07-01-near-the-ancient-dwelling
@@ -1249,7 +1249,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-30-ice-shivers)</code> `🚀 OpenMW` `🔗 Bloodmoon` `ice`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-30-ice-shivers&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `ice`
 
 ```
 2024-06-30-ice-shivers
@@ -1276,7 +1276,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-29-lich)</code> `🚀 OpenMW` `🔗 Tribunal` `lich`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-29-lich&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `lich`
 
 ```
 2024-06-29-lich
@@ -1313,7 +1313,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-28-dead-trees-of-the-east-coast)</code> `🚀 OpenMW`
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-28-dead-trees-of-the-east-coast&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-06-28-dead-trees-of-the-east-coast
@@ -1340,7 +1340,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-27-crates-and-pillows)</code> `🚀 OpenMW` `water`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-27-crates-and-pillows&postLocation=)</code> `🚀 OpenMW` `water`
 
 ```
 2024-06-27-crates-and-pillows
@@ -1373,7 +1373,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-26-in-an-ice-cave)</code> `🚀 OpenMW` `🔗 Bloodmoon` `cave`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-26-in-an-ice-cave&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `cave`
 
 ```
 2024-06-26-in-an-ice-cave
@@ -1468,7 +1468,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-23-dont-go-this-way)</code> `🚀 OpenMW` `🔗 Bloodmoon` `beast`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-23-dont-go-this-way&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `beast`
 
 ```
 2024-06-23-dont-go-this-way
@@ -1501,7 +1501,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-22-valbrandr-barrow)</code> `🚀 OpenMW` `🔗 Bloodmoon` `arc`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-22-valbrandr-barrow&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `arc`
 
 ```
 2024-06-22-valbrandr-barrow
@@ -1591,7 +1591,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-19-deseles-house-of-earthly-delights)</code> `🚀 OpenMW` `nofilter` `redlightdistrict` `night`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-19-deseles-house-of-earthly-delights&postLocation=)</code> `🚀 OpenMW` `nofilter` `redlightdistrict` `night`
 
 ```
 2024-06-19-deseles-house-of-earthly-delights
@@ -1661,7 +1661,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-17-28-29-30-ready-or-not-here-i-come)</code> `🚀 OpenMW` `nofilter`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-17-28-29-30-ready-or-not-here-i-come&postLocation=)</code> `🚀 OpenMW` `nofilter`
 
 ```
 2024-06-17-28-29-30-ready-or-not-here-i-come
@@ -1724,7 +1724,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-15-waterfall-camp)</code> `🚀 OpenMW` `nofilter` `waterfall` `camp` `campfire`
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-15-waterfall-camp&postLocation=)</code> `🚀 OpenMW` `nofilter` `waterfall` `camp` `campfire`
 
 ```
 2024-06-15-waterfall-camp
@@ -1814,7 +1814,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-13-propylon)</code> `🚀 OpenMW` `propylon`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-13-propylon&postLocation=)</code> `🚀 OpenMW` `propylon`
 
 ```
 2024-06-13-propylon
@@ -1914,7 +1914,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-10-utensil)</code> `🚀 OpenMW` `table`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-10-utensil&postLocation=)</code> `🚀 OpenMW` `table`
 
 ```
 2024-06-10-utensil
@@ -1944,7 +1944,7 @@
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-09-endusal)</code> `🚀 OpenMW` `dwemer` `ruin`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-09-endusal&postLocation=)</code> `🚀 OpenMW` `dwemer` `ruin`
 
 ```
 2024-06-09-endusal
@@ -1994,7 +1994,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-07-ruins-in-a-mountain-dead-end)</code> `🚀 OpenMW` `ruin` `dwemer`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-07-ruins-in-a-mountain-dead-end&postLocation=)</code> `🚀 OpenMW` `ruin` `dwemer`
 
 ```
 2024-06-07-ruins-in-a-mountain-dead-end
@@ -2021,7 +2021,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-06-shipwreck-at-the-estuary-of-foyada)</code> `🚀 OpenMW` `shipwreck` `ship`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-06-shipwreck-at-the-estuary-of-foyada&postLocation=)</code> `🚀 OpenMW` `shipwreck` `ship`
 
 ```
 2024-06-06-shipwreck-at-the-estuary-of-foyada
@@ -2222,7 +2222,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-31-in-fir-branches)</code> `🚀 OpenMW` `🔗 Bloodmoon` `firtree` `snow`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-31-in-fir-branches&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `firtree` `snow`
 
 ```
 2024-05-31-in-fir-branches
@@ -2282,7 +2282,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-29-lord-gothren)</code> `🚀 OpenMW` `guard` `encounter`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-29-lord-gothren&postLocation=)</code> `🚀 OpenMW` `guard` `encounter`
 
 ```
 2024-05-29-lord-gothren
@@ -2309,7 +2309,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-28-two-legioners-talking)</code> `🚀 OpenMW` `encounter`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-28-two-legioners-talking&postLocation=)</code> `🚀 OpenMW` `encounter`
 
 ```
 2024-05-28-two-legioners-talking
@@ -2341,7 +2341,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-27-flight)</code> `🚀 OpenMW`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-27-flight&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-05-27-flight
@@ -2382,7 +2382,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-26-shore-shroom)</code> `🚀 OpenMW` `mushrooms` `shore`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-26-shore-shroom&postLocation=)</code> `🚀 OpenMW` `mushrooms` `shore`
 
 ```
 2024-05-26-shore-shroom
@@ -2409,7 +2409,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-25-table-for-two)</code> `🚀 OpenMW` `tablefortwo` `bar`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-25-table-for-two&postLocation=)</code> `🚀 OpenMW` `tablefortwo` `bar`
 
 ```
 2024-05-25-table-for-two
@@ -2440,7 +2440,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-24-gloomy-barrow)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `barrow`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-24-gloomy-barrow&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `barrow`
 
 ```
 2024-05-24-gloomy-barrow
@@ -2472,7 +2472,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-23-death-and-life)</code> `🚀 OpenMW` `sunset` `shores`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-23-death-and-life&postLocation=)</code> `🚀 OpenMW` `sunset` `shores`
 
 ```
 2024-05-23-death-and-life
@@ -2506,7 +2506,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-22-the-road-through-lava)</code> `🚀 OpenMW` `nofilter` `roadfork` `lava`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-22-the-road-through-lava&postLocation=)</code> `🚀 OpenMW` `nofilter` `roadfork` `lava`
 
 ```
 2024-05-22-the-road-through-lava
@@ -2538,7 +2538,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-21-in-the-cage)</code> `🚀 OpenMW` `cage` `slave`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-21-in-the-cage&postLocation=)</code> `🚀 OpenMW` `cage` `slave`
 
 ```
 2024-05-21-in-the-cage
@@ -2572,7 +2572,7 @@
 
 `shot` by [Darkness Rifho](../contributors.md#darkness-rifho)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-20-place-to-sleep)</code> `bed`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-20-place-to-sleep&postLocation=)</code> `bed`
 
 ```
 2024-05-20-place-to-sleep
@@ -2611,7 +2611,7 @@
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-19-druscashti)</code> `🚀 OpenMW` `dwemer` `ruin`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-19-druscashti&postLocation=)</code> `🚀 OpenMW` `dwemer` `ruin`
 
 ```
 2024-05-19-druscashti
@@ -2929,7 +2929,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-09-strategic-stock)</code> `🚀 OpenMW` `barrels`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-09-strategic-stock&postLocation=)</code> `🚀 OpenMW` `barrels`
 
 ```
 2024-05-09-strategic-stock
@@ -2962,7 +2962,7 @@
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-08-slaves-sleep-peacefully-in-their-shacks)</code> `🚀 OpenMW` `night` `stars` `shacks` `fireplace`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-08-slaves-sleep-peacefully-in-their-shacks&postLocation=)</code> `🚀 OpenMW` `night` `stars` `shacks` `fireplace`
 
 ```
 2024-05-08-slaves-sleep-peacefully-in-their-shacks
@@ -2995,7 +2995,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-07-campfire)</code> `🚀 OpenMW` `campfire`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-07-campfire&postLocation=)</code> `🚀 OpenMW` `campfire`
 
 ```
 2024-05-07-campfire
@@ -3055,7 +3055,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-05-dinner-for-four)</code> `🚀 OpenMW` `table`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-05-dinner-for-four&postLocation=)</code> `🚀 OpenMW` `table`
 
 ```
 2024-05-05-dinner-for-four
@@ -3114,7 +3114,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-03-coastal-silt-strider)</code> `🚀 OpenMW` `siltstrider`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-03-coastal-silt-strider&postLocation=)</code> `🚀 OpenMW` `siltstrider`
 
 ```
 2024-05-03-coastal-silt-strider
@@ -3142,7 +3142,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-02-over-the-lava)</code> `🚀 OpenMW` `lava`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-02-over-the-lava&postLocation=)</code> `🚀 OpenMW` `lava`
 
 ```
 2024-05-02-over-the-lava
@@ -3174,7 +3174,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-01-upper-circles)</code> `🚀 OpenMW`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-01-upper-circles&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-05-01-upper-circles
@@ -3205,7 +3205,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-30-tree-of-magnus)</code> `🚀 OpenMW` `sun` `trees`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-30-tree-of-magnus&postLocation=)</code> `🚀 OpenMW` `sun` `trees`
 
 ```
 2024-04-30-tree-of-magnus
@@ -3286,7 +3286,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-27-sunset-over-the-lava-river)</code> `🚀 OpenMW` `lava` `sunset`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-27-sunset-over-the-lava-river&postLocation=)</code> `🚀 OpenMW` `lava` `sunset`
 
 ```
 2024-04-27-sunset-over-the-lava-river
@@ -3317,7 +3317,7 @@
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-26-winter-and-summer)</code> `🚀 OpenMW` `🔗 Bloodmoon` `snow` `forest` `bear`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-26-winter-and-summer&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `snow` `forest` `bear`
 
 ```
 2024-04-26-winter-and-summer
@@ -3383,7 +3383,7 @@
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-24-muckspunges-on-the-coast)</code> `🚀 OpenMW` `coast`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-24-muckspunges-on-the-coast&postLocation=)</code> `🚀 OpenMW` `coast`
 
 ```
 2024-04-24-muckspunges-on-the-coast
@@ -3476,7 +3476,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-21-a-little-joy-for-hard-worker)</code> `🚀 OpenMW` `candles` `bottle` `cup`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-21-a-little-joy-for-hard-worker&postLocation=)</code> `🚀 OpenMW` `candles` `bottle` `cup`
 
 ```
 2024-04-21-a-little-joy-for-hard-worker
@@ -3613,7 +3613,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-17-interior-garden)</code> `🚀 OpenMW` `nofilter` `mushrooms` `interiorgarden`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-17-interior-garden&postLocation=)</code> `🚀 OpenMW` `nofilter` `mushrooms` `interiorgarden`
 
 ```
 2024-04-17-interior-garden
@@ -3640,7 +3640,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-16-birth-of-fabricant)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-16-birth-of-fabricant&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil`
 
 ```
 2024-04-16-birth-of-fabricant
@@ -3681,7 +3681,7 @@
 
 `shot` by [Natty](../contributors.md#natty)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-15-night-at-red-mountain)</code> `🚀 OpenMW` `dwemer` `ruin` `bridge` `towers`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-15-night-at-red-mountain&postLocation=)</code> `🚀 OpenMW` `dwemer` `ruin` `bridge` `towers`
 
 ```
 2024-04-15-night-at-red-mountain
@@ -4175,7 +4175,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-30-a-boxy-nightstand)</code> `🚀 OpenMW` `nofilter`
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-30-a-boxy-nightstand&postLocation=)</code> `🚀 OpenMW` `nofilter`
 
 ```
 2024-03-30-a-boxy-nightstand
@@ -4390,7 +4390,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-24-dark-sanctuary-of-dark)</code> `🚀 OpenMW` `candles` `sanctuary`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-24-dark-sanctuary-of-dark&postLocation=)</code> `🚀 OpenMW` `candles` `sanctuary`
 
 ```
 2024-03-24-dark-sanctuary-of-dark
@@ -4506,9 +4506,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C4yS859trAy/)       | 2024-03-21 |   478 |   108 |      1394 |   7.75 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1461) | 2024-03-21 |   297 |    42 |       896 |   4.69 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1461) | 2024-03-21 |   298 |    42 |       896 |   4.69 |
 | [`tg`](https://t.me/mwscr/353)                     | 2024-03-21 |   458 |    58 |       352 |  16.48 |
-|                                                    |            |  1233 |   208 |      2642 |   9.64 |
+|                                                    |            |  1234 |   208 |      2642 |   9.64 |
 
 #### Comments
 
@@ -4525,7 +4525,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-20-banner-of-house-dagoth)</code> `🚀 OpenMW`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-20-banner-of-house-dagoth&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-03-20-banner-of-house-dagoth
@@ -4954,8 +4954,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C4OQkOFuSrr/)       | 2024-03-07 |   621 |   152 |      1378 |  11.03 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1439) | 2024-03-07 |   258 |    35 |       893 |   3.92 |
-| [`tg`](https://t.me/mwscr/338)                     | 2024-03-07 |   521 |    57 |       345 |  16.52 |
-|                                                    |            |  1400 |   244 |      2616 |  10.49 |
+| [`tg`](https://t.me/mwscr/338)                     | 2024-03-07 |   535 |    58 |       345 |  16.81 |
+|                                                    |            |  1414 |   245 |      2616 |  10.59 |
 
 ## <span id="2024-03-06-mushroom-field">Mushroom Field</span>
 
@@ -4965,7 +4965,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-06-mushroom-field)</code> `🚀 OpenMW` `mushrooms`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-06-mushroom-field&postLocation=)</code> `🚀 OpenMW` `mushrooms`
 
 ```
 2024-03-06-mushroom-field
@@ -5061,7 +5061,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-03-exit)</code> `🚀 OpenMW` `tomb` `exit` `door`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-03-exit&postLocation=)</code> `🚀 OpenMW` `tomb` `exit` `door`
 
 ```
 2024-03-03-exit
@@ -5166,7 +5166,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-02-29-morning-hunt)</code> `🚀 OpenMW` `nofilter` `hunt` `skeleton` `morning` `guard`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-02-29-morning-hunt&postLocation=)</code> `🚀 OpenMW` `nofilter` `hunt` `skeleton` `morning` `guard`
 
 ```
 2024-02-29-morning-hunt
@@ -5181,9 +5181,9 @@
 | [`ig`](https://instagram.com/p/BSQTsAwDzL9/)       | 2017-03-30 |       |    91 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_237)  | 2017-03-30 |   141 |    10 |        50 |     10 |
 | [`ig`](https://instagram.com/p/C38NDKXINQS/)       | 2024-02-29 |   868 |   221 |      1376 |  16.06 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1426) | 2024-02-29 |   371 |    52 |       894 |   5.82 |
-| [`tg`](https://t.me/mwscr/331)                     | 2024-02-29 |   612 |    80 |       338 |  23.67 |
-|                                                    |            |  1992 |   454 |      2608 |  13.89 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1426) | 2024-02-29 |   372 |    52 |       894 |   5.82 |
+| [`tg`](https://t.me/mwscr/331)                     | 2024-02-29 |   617 |    81 |       338 |  23.96 |
+|                                                    |            |  1998 |   455 |      2608 |  13.96 |
 
 #### Comments
 

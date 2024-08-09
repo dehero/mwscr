@@ -3016,10 +3016,10 @@
     - service: vk
       id: 1426
       published: 2024-02-29-18-00-56
-      updated: 2024-08-02-07-14-02
+      updated: 2024-08-09-07-50-07
       followers: 894
       likes: 52
-      views: 371
+      views: 372
       comments: !c |-
         G90A4J0Jtg2FbTSZdiAkoQ9RETfS19STTEuwiSjZ07mV0M2W8B0+mcgdPLchRvHAf63CKFvSy3n0
         THozdYMLNAswIAokwcF0s0GGDTiL+Cnt2P386vhHFQDvdSJCqcSSyZhYGRISVuAs6fmsRBqy3XNg
@@ -3027,10 +3027,10 @@
     - service: tg
       id: 331
       published: 2024-02-29-18-01-07
-      updated: 2024-08-02-07-13-59
+      updated: 2024-08-09-07-50-06
       followers: 338
-      likes: 80
-      views: 612
+      likes: 81
+      views: 617
 2017-03-31-interior-garden:
   title: Interior Garden
   titleRu: Внутренний сад
@@ -3147,7 +3147,7 @@
     - service: vk
       id: 1448
       published: 2024-03-14-18-12-16
-      updated: 2024-08-02-07-14-00
+      updated: 2024-08-09-07-50-05
       followers: 896
       likes: 51
       views: 370

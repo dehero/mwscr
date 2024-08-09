@@ -13,7 +13,7 @@ body:
         - shot-set
         - video
         - clip
-        - drawing
+        - redrawing
         - wallpaper
         - wallpaper-v
       default: 0
