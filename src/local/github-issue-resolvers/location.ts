@@ -26,7 +26,7 @@ export async function resolve(issue: GithubIssue) {
     if (location) {
       post.location = location;
       await manager.updateItem(id);
-      console.info(`Set location "${locationStr}" for ${manager.name} post "${id}".`);
+      console.info(`Set location "${locationStr}" for ${manager.name} item "${id}".`);
     } else {
       console.error(`Location "${locationStr}" not found.`);
     }

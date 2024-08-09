@@ -23,16 +23,16 @@ export async function resolve(issue: GithubIssue) {
     for (const withId of withIds) {
       const [withPost, withManager] = await searchDataReaderItem(withId, [inbox, trash]);
       if (manager !== withManager) {
-        throw new Error(`Cannot merge ${manager.name} and ${withManager.name} posts.`);
+        throw new Error(`Cannot merge ${manager.name} and ${withManager.name} items.`);
       } else {
         mergePostWith(post, withPost);
         await withManager.removeItem(withId);
-        console.info(`Post "${id}" merged with "${withId}".`);
+        console.info(`Item "${id}" merged with "${withId}".`);
       }
     }
     await manager.updateItem(id);
   } else {
-    console.info(`No posts to merge with "${id}".`);
+    console.info(`No items to merge with "${id}".`);
   }
 }
 

@@ -34,8 +34,8 @@ const navs: Array<Doc[]> = [
       filename: 'CONTRIBUTING.md',
     },
     {
-      title: 'Published',
-      linkText: 'Published',
+      title: 'Posts',
+      linkText: 'Posts',
       filename: `${POSTS_DOCS_PATH}/index.md`,
     },
     {

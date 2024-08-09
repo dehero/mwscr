@@ -26,7 +26,7 @@ async function checkPostsContent() {
 
       for (const url of content) {
         if (url === RESOURCE_MISSING_IMAGE || !(await resourceExists(url))) {
-          console.error(`Resource "${url}" not found for ${manager.name} post "${id}".`);
+          console.error(`Resource "${url}" not found for ${manager.name} item "${id}".`);
         }
       }
     }
@@ -46,7 +46,7 @@ async function checkPostsLocation() {
 
       const [, location] = (await locations.findEntry({ title: post.location })) ?? [];
       if (location?.title !== post.location) {
-        console.error(`Location "${post.location}" not found for ${manager.name} post "${id}".`);
+        console.error(`Location "${post.location}" not found for ${manager.name} item "${id}".`);
         if (location) {
           console.warn(`Possible replacement: ${location.title}`);
         }
