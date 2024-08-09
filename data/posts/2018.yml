@@ -317,10 +317,10 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-41
-      updated: 2024-08-09-02-35-32
+      updated: 2024-08-09-03-16-40
       followers: 1437
       likes: 139
-      views: 615
+      views: 622
       comments: !c |-
         G5YAIB2JcUzJQuGdnXRynyecUBRTax7UPKBAUgiz5YEPKNaguwXVrv3gAXhAE1tQ6eRIA+K/lQdp
         W5YGoi3n4dP1RJmJTW/WVY4fNwymwvGd9YR1coYPPfaSEvDjpYJSEB+OXiIYQUK5IpiAC+qJx31i
@@ -328,7 +328,7 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-08-09-02-35-31
+      updated: 2024-08-09-03-16-38
       followers: 927
       likes: 38
       views: 206
@@ -336,10 +336,10 @@
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-08-09-02-35-32
+      updated: 2024-08-09-03-16-38
       followers: 504
-      likes: 61
-      views: 237
+      likes: 62
+      views: 238
       comments: !c |-
         CzmAkpPLQnkTD+n1gAClVG9kb3LZNFdhaXQsIGRvIHRoZXkgcmVhbGx5IGRhbmNlIGxpa2UgdGhh
         dCBpbiB0aGUgdmFuaWxsYT+Ty0J5EuFjUIAApUFkZWxlu2hlIGRhbmNlcyB0byB0aGUgZGFnb3Ro
@@ -1357,18 +1357,18 @@
     - service: vk
       id: 1573
       published: 2024-06-06-18-19-32
-      updated: 2024-08-02-02-37-41
+      updated: 2024-08-09-03-16-41
       followers: 916
       likes: 36
-      views: 269
+      views: 271
       reposts: 1
     - service: tg
       id: 431
       published: 2024-06-06-18-19-42
-      updated: 2024-08-02-02-37-41
+      updated: 2024-08-09-03-16-40
       followers: 384
-      likes: 57
-      views: 396
+      likes: 58
+      views: 415
       comments: !c |-
         G7MAqIzEOBZy8KVYyKo5o1zeZ3w8oYwHKoIkVhG2QMrhnqzw1c0ZarYVsVsUBqJozH8ov1MOwEMs
         8uZxcNbzAeRuY+BaXh3eoqDXURRPafh5Ezju7if2ndQb9uHI4UGA1vzzaLrBC0E7gCaN+0RjFBJg
@@ -2787,7 +2787,7 @@
     - service: vk
       id: 1534
       published: 2024-05-16-18-18-18
-      updated: 2024-08-02-02-37-44
+      updated: 2024-08-09-03-16-43
       followers: 915
       likes: 41
       views: 311
@@ -2799,10 +2799,10 @@
     - service: tg
       id: 410
       published: 2024-05-16-18-18-25
-      updated: 2024-08-02-02-37-43
+      updated: 2024-08-09-03-16-42
       followers: 370
-      likes: 57
-      views: 439
+      likes: 58
+      views: 452
       comments: !c |-
         iyuAkpPLQnj4TMeUAACpR2F0ZW1hdGU3tXRoZSBob29kIG9mIG1vcnJvd2luZJPLQnj4K14cgACr
         Ym9icm92bmlrb3a2R29vZCBldmVuaW5nLCBldmVyeW9uZQM=
@@ -4103,10 +4103,10 @@
     - service: vk
       id: 1543
       published: 2024-05-23-18-18-57
-      updated: 2024-08-02-02-37-43
+      updated: 2024-08-09-03-16-43
       followers: 917
       likes: 46
-      views: 282
+      views: 283
       reposts: 1
       comments: !c |-
         CyiAkZPLQnj6bH5AgACtY2x1YjEyODU3NDk4N9k20KPRgdGC0YzQtSDQndCw0LHQuNC4LCDQvtCx
@@ -4114,10 +4114,10 @@
     - service: tg
       id: 417
       published: 2024-05-23-18-19-02
-      updated: 2024-08-02-02-37-42
+      updated: 2024-08-09-03-16-41
       followers: 376
-      likes: 62
-      views: 458
+      likes: 63
+      views: 471
       comments: !c |-
         G2oAQCwS7JgUo4JbFLbXSSe3HeXg9+/KYQItsUDKNkr9BMBz1MmRfp5K+w5JbUUYeeQlGtudUy7B
         wLwlLaTTmQ9+z+FzUiKPXXt1ry6YlTKDt9dsp6hVlso7Yzzs571EH2zjEEa1DC64MAcA
@@ -7214,10 +7214,10 @@
       id: C-azUnhJNPE
       mediaId: '18042652126778108'
       published: 2024-08-08-18-20-42
-      updated: 2024-08-09-02-35-31
+      updated: 2024-08-09-03-16-38
       followers: 1437
-      likes: 57
-      views: 199
+      likes: 58
+      views: 201
       comments: !c |-
         G5gBYCwObHA/xQFloVdeO77TEAij/z2tC6wg/9WTdIKUZKxhwdMxn49FdkDVaxggqiz9k5TWBjbg
         SAPZRxq33e6KpkVvljvRKDC4+x5+UVlbIElbGoWBZtqW5LeTn2QxmST3S08un/tuTz9zEfUfDPMN
@@ -7227,10 +7227,10 @@
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2024-08-09-02-35-30
+      updated: 2024-08-09-03-16-37
       followers: 927
-      likes: 18
-      views: 108
+      likes: 19
+      views: 115
       reposts: 1
       comments: !c |-
         CyKAkZPLQnkTND+3gACxY2xpZmZyYWNlcnNraWxsZXLZJtCl0L7RgNC60LXRgDog0LzRj9C90Y8g
@@ -7238,10 +7238,10 @@
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2024-08-09-02-35-31
+      updated: 2024-08-09-03-16-38
       followers: 508
-      likes: 39
-      views: 123
+      likes: 40
+      views: 125
 2018-08-29-darius:
   title: Darius
   titleRu: Дариус
