@@ -323,13 +323,15 @@ fill in the post fields.
 
 Depending on the content of the post and its characteristics, the appropriate post type is selected:
 
-| Type        | Ratio  | Files  | Best size | Min. size  |  Duration | Additional requirements                                                    |
-| ----------- | :----: | -----: | :-------: | :--------: | --------: | -------------------------------------------------------------------------- |
-| `shot`      |   1:1  |      1 | 1080x1080 |  800x800   |           |                                                                            |
-| `shot‑set`  |   1:1  |      4 | 1080x1080 |  800x800   |           | All images must have been previously published with the `shot` type.       |
-| `drawing`   |   1:1  |      2 | 1080x1080 |  800x800   |           | The second image must have been previously published with the `shot` type. |
-| `clip`      |  1:1   |      1 | 1080x1080 |  800x800   |   ≤ 1 min |                                                                            |
-| `video`     | 16:9   |      1 | 1920x1080 | 1920x1080  |  ≤ 60 min |                                                                            |
+| Type          | Ratio  | Files  | Best size | Min. size  |  Duration | Additional requirements                                                    |
+| ------------- | :----: | -----: | :-------: | :--------: | --------: | -------------------------------------------------------------------------- |
+| `shot`        |   1:1  |      1 | 1080x1080 |  800x800   |           |                                                                            |
+| `shot‑set`    |   1:1  |      4 | 1080x1080 |  800x800   |           | All images must have been previously published with the `shot` type.       |
+| `drawing`     |   1:1  |      2 | 1080x1080 |  800x800   |           | The second image must have been previously published with the `shot` type. |
+| `wallpaper`   |  16:9  |      1 | 1920x1080 | 1920x1080  |           |                                                                            |
+| `wallpaper-v` | 9:19.5 |      1 | 1080x2340 | 1080x2340  |           |                                                                            |
+| `clip`        |   1:1  |      1 | 1080x1080 |  800x800   |   ≤ 1 min |                                                                            |
+| `video`       |  16:9  |      1 | 1920x1080 | 1920x1080  |  ≤ 60 min |                                                                            |
 
 The content is adjusted to the selected post type, and any rejected files go into the post's trash.
 
