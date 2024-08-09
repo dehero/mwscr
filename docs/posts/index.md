@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BnCJCoeF4b6/)       | 2018-08-28 |       |   108 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_880)  | 2018-08-28 |   355 |    28 |       217 |   12.9 |
-| [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |   243 |    64 |      1437 |   4.45 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   160 |    22 |       927 |   2.37 |
-| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   145 |    47 |       508 |   9.25 |
-|                                                    |            |   903 |   269 |      2872 |   7.25 |
+| [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |   251 |    67 |      1437 |   4.66 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   162 |    23 |       927 |   2.48 |
+| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   146 |    49 |       508 |   9.65 |
+|                                                    |            |   914 |   275 |      2872 |   7.42 |
 
 #### Comments
 
@@ -43,6 +43,8 @@
   - <ins title="2024-08-08-18-47-35">mwscr</ins> Secret link to download this image in best possible quality: https://mwscr.dehero.site/posts/2024-08-08-southern-shore-of-northern-land/
   - <ins title="2024-08-08-18-51-25">eastcoast_lg</ins> @mwscr the link doesn’t work ?
   - <ins title="2024-08-08-18-55-36">mwscr</ins> Maybe some issues with posting links to Instagram. Try link in the profile. You should be able to find this image there.
+  - <ins title="2024-08-09-09-20-26">sombersobriety</ins> @mwscr the website is absolutely beautiful! 😍
+  - <ins title="2024-08-09-10-06-00">mwscr</ins> @sombersobriety Thank you!
 
 ## <span id="2024-08-07-dance-of-dagoth">Dance of Dagoth</span>
 
@@ -66,10 +68,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bd0Y040DxzP/)       | 2018-01-11 |       |   114 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_574)  | 2018-01-11 |   170 |    16 |       120 |  13.33 |
-| [`ig`](https://instagram.com/p/C-YOaKVtdQ9/)       | 2024-08-07 |   658 |   146 |      1437 |  10.16 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1673) | 2024-08-07 |   211 |    39 |       927 |   4.21 |
-| [`tg`](https://t.me/mwscr/493)                     | 2024-08-07 |   245 |    63 |       504 |   12.5 |
-|                                                    |            |  1284 |   378 |      2868 |  10.05 |
+| [`ig`](https://instagram.com/p/C-YOaKVtdQ9/)       | 2024-08-07 |   666 |   146 |      1437 |  10.16 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1673) | 2024-08-07 |   213 |    39 |       927 |   4.21 |
+| [`tg`](https://t.me/mwscr/493)                     | 2024-08-07 |   246 |    63 |       504 |   12.5 |
+|                                                    |            |  1295 |   378 |      2868 |  10.05 |
 
 #### Comments
 

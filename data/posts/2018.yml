@@ -317,10 +317,10 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-41
-      updated: 2024-08-09-09-17-07
+      updated: 2024-08-09-10-15-45
       followers: 1437
       likes: 146
-      views: 658
+      views: 666
       comments: !c |-
         G5YAIB2JcUzJQuGdnXRynyecUBRTax7UPKBAUgiz5YEPKNaguwXVrv3gAXhAE1tQ6eRIA+K/lQdp
         W5YGoi3n4dP1RJmJTW/WVY4fNwymwvGd9YR1coYPPfaSEvDjpYJSEB+OXiIYQUK5IpiAC+qJx31i
@@ -328,18 +328,18 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-08-09-09-17-06
+      updated: 2024-08-09-10-15-45
       followers: 927
       likes: 39
-      views: 211
+      views: 213
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-08-09-09-17-07
+      updated: 2024-08-09-10-15-46
       followers: 504
       likes: 63
-      views: 245
+      views: 246
       comments: !c |-
         CzmAkpPLQnkTD+n1gAClVG9kb3LZNFdhaXQsIGRvIHRoZXkgcmVhbGx5IGRhbmNlIGxpa2UgdGhh
         dCBpbiB0aGUgdmFuaWxsYT+Ty0J5EuFjUIAApUFkZWxlu2hlIGRhbmNlcyB0byB0aGUgZGFnb3Ro
@@ -7214,23 +7214,24 @@
       id: C-azUnhJNPE
       mediaId: '18042652126778108'
       published: 2024-08-08-18-20-42
-      updated: 2024-08-09-09-17-05
+      updated: 2024-08-09-10-15-44
       followers: 1437
-      likes: 64
-      views: 243
+      likes: 67
+      views: 251
       comments: !c |-
-        G5gBYCwObHA/xQFloVdeO77TEAij/z2tC6wg/9WTdIKUZKxhwdMxn49FdkDVaxggqiz9k5TWBjbg
-        SAPZRxq33e6KpkVvljvRKDC4+x5+UVlbIElbGoWBZtqW5LeTn2QxmST3S08un/tuTz9zEfUfDPMN
-        nK5narTyaJXkakQ6HeAekvICcrN9X2ckTLdi6rx2nV3kAHAk4jD8kwVPMPnYrnei1ikw1C4NFSqj
-        EdkxXA3AhiUZeBJKyDQDsyPp5CkXGaQM77HE3lMr//TaA6FI8Rxp3PhlBDSv4l0GTZUoTcWrH+PZ
-        eM0q8x37QRy0Fe6SPiBmaWROKsJVbfSBurhqA1QFqdWQGo0A
+        Gw4CIIzEOKZwIx5Y9Mt+C3yd0R900WxNQ/bv1ojqSW39dqFdSOIhX+JQwfufpwEMBoz/y1iU2jwv
+        NkC1tIA1HdP6PE+3h6SUBRM+B/OXlOGKfh1NphtSkmSyxgUae/WmwTkith2QJ5KaMYBzfgQtiM3/
+        zz2jSRXxKSFxTBkRJa4sEohsODXOKDA4xZNbYE5j4ZGteQ0mwPVFNwtiWdsQmXng5bxTWh9r2RBX
+        r/rUHGsZBH46Bm/BwMkpH2lWkkuYWGL8kGgkdUCwvyDp/c6njeaomWDiJTgAWwsSEf2VWcs/17hX
+        AlXAQ0I/sH+1hWyAxTgsd08UFbG+H0SNInSzTtAmgrUOdbPqB/nM4BatCNv+KoIjIueXCBkJqIMP
+        9IW1LyjWunHik3BORHwc6hMn7xMfHwA=
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2024-08-09-09-17-05
+      updated: 2024-08-09-10-15-44
       followers: 927
-      likes: 22
-      views: 160
+      likes: 23
+      views: 162
       reposts: 1
       comments: !c |-
         CyKAkZPLQnkTND+3gACxY2xpZmZyYWNlcnNraWxsZXLZJtCl0L7RgNC60LXRgDog0LzRj9C90Y8g
@@ -7238,10 +7239,10 @@
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2024-08-09-09-17-06
+      updated: 2024-08-09-10-15-45
       followers: 508
-      likes: 47
-      views: 145
+      likes: 49
+      views: 146
 2018-08-29-darius:
   title: Darius
   titleRu: Дариус
