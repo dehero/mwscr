@@ -317,10 +317,10 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-41
-      updated: 2024-08-09-14-14-14
+      updated: 2024-08-09-15-16-53
       followers: 1437
-      likes: 151
-      views: 684
+      likes: 153
+      views: 689
       comments: !c |-
         G5YAIB2JcUzJQuGdnXRynyecUBRTax7UPKBAUgiz5YEPKNaguwXVrv3gAXhAE1tQ6eRIA+K/lQdp
         W5YGoi3n4dP1RJmJTW/WVY4fNwymwvGd9YR1coYPPfaSEvDjpYJSEB+OXiIYQUK5IpiAC+qJx31i
@@ -328,18 +328,18 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-08-09-14-14-12
+      updated: 2024-08-09-15-16-51
       followers: 927
       likes: 40
-      views: 219
+      views: 220
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-08-09-14-14-13
+      updated: 2024-08-09-15-16-52
       followers: 504
-      likes: 63
-      views: 252
+      likes: 64
+      views: 255
       comments: !c |-
         CzmAkpPLQnkTD+n1gAClVG9kb3LZNFdhaXQsIGRvIHRoZXkgcmVhbGx5IGRhbmNlIGxpa2UgdGhh
         dCBpbiB0aGUgdmFuaWxsYT+Ty0J5EuFjUIAApUFkZWxlu2hlIGRhbmNlcyB0byB0aGUgZGFnb3Ro
@@ -7214,10 +7214,10 @@
       id: C-azUnhJNPE
       mediaId: '18042652126778108'
       published: 2024-08-08-18-20-42
-      updated: 2024-08-09-14-14-12
+      updated: 2024-08-09-15-16-52
       followers: 1437
       likes: 73
-      views: 280
+      views: 283
       comments: !c |-
         Gw4CIIzEOKZwIx5Y9Mt+C3yd0R900WxNQ/bv1ojqSW39dqFdSOIhX+JQwfufpwEMBoz/y1iU2jwv
         NkC1tIA1HdP6PE+3h6SUBRM+B/OXlOGKfh1NphtSkmSyxgUae/WmwTkith2QJ5KaMYBzfgQtiM3/
@@ -7228,10 +7228,10 @@
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2024-08-09-14-14-11
+      updated: 2024-08-09-15-16-50
       followers: 927
       likes: 27
-      views: 180
+      views: 183
       reposts: 1
       comments: !c |-
         CyKAkZPLQnkTND+3gACxY2xpZmZyYWNlcnNraWxsZXLZJtCl0L7RgNC60LXRgDog0LzRj9C90Y8g
@@ -7239,10 +7239,10 @@
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2024-08-09-14-14-12
+      updated: 2024-08-09-15-16-51
       followers: 508
-      likes: 50
-      views: 160
+      likes: 53
+      views: 188
 2018-08-29-darius:
   title: Darius
   titleRu: Дариус
