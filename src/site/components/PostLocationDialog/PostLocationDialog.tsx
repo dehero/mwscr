@@ -2,7 +2,7 @@ import type { Component } from 'solid-js';
 import { createResource, createSignal, createUniqueId, splitProps } from 'solid-js';
 import { EMPTY_OPTION, type Option } from '../../../core/entities/option.js';
 import type { PostEntry } from '../../../core/entities/post.js';
-import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/editing.js';
+import { createIssueUrl as createLocateIssueUrl } from '../../../core/github-issues/location.js';
 import { locations } from '../../data-managers/locations.js';
 import { Button } from '../Button/Button.js';
 import type { DialogProps } from '../Dialog/Dialog.js';
@@ -24,10 +24,8 @@ export interface PostLocationDialogProps extends Omit<DialogProps, 'title'> {
 export const PostLocationDialog: Component<PostLocationDialogProps> = (props) => {
   const [local, rest] = splitProps(props, ['postEntry']);
   const id = () => local.postEntry[0];
-  const [post, setPost] = createSignal(local.postEntry[1]);
+  const [postLocation, setPostLocation] = createSignal(local.postEntry[1].location);
   const form = createUniqueId();
-
-  const setPostLocation = (location: string | undefined) => setPost({ ...post(), location });
 
   const [locationOptions] = createResource(getLocationOptions);
 
@@ -36,7 +34,7 @@ export const PostLocationDialog: Component<PostLocationDialogProps> = (props) =>
       title="Locate Post"
       {...rest}
       actions={[
-        <Button href={createEditIssueUrl(id(), post())} target="_blank">
+        <Button href={createLocateIssueUrl(id(), postLocation())} target="_blank">
           Create Issue
         </Button>,
         <Button onClick={props.onClose}>Cancel</Button>,
@@ -48,7 +46,7 @@ export const PostLocationDialog: Component<PostLocationDialogProps> = (props) =>
             <Select
               name="location"
               options={[EMPTY_OPTION, ...(locationOptions() ?? [])]}
-              value={post().location}
+              value={postLocation()}
               onChange={setPostLocation}
               class={styles.select}
             />

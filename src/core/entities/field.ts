@@ -102,7 +102,7 @@ export const postLocation = {
   id: 'postLocation',
   attributes: {
     label: 'Location',
-    options: ['Loading...'],
+    options: [],
     default: 0,
   },
   validations: {
