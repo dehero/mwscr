@@ -317,10 +317,10 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-41
-      updated: 2024-08-09-03-16-40
+      updated: 2024-08-09-04-17-51
       followers: 1437
-      likes: 139
-      views: 622
+      likes: 140
+      views: 624
       comments: !c |-
         G5YAIB2JcUzJQuGdnXRynyecUBRTax7UPKBAUgiz5YEPKNaguwXVrv3gAXhAE1tQ6eRIA+K/lQdp
         W5YGoi3n4dP1RJmJTW/WVY4fNwymwvGd9YR1coYPPfaSEvDjpYJSEB+OXiIYQUK5IpiAC+qJx31i
@@ -328,15 +328,15 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-08-09-03-16-38
+      updated: 2024-08-09-04-17-48
       followers: 927
-      likes: 38
-      views: 206
+      likes: 39
+      views: 207
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-08-09-03-16-38
+      updated: 2024-08-09-04-17-50
       followers: 504
       likes: 62
       views: 238
@@ -7214,10 +7214,10 @@
       id: C-azUnhJNPE
       mediaId: '18042652126778108'
       published: 2024-08-08-18-20-42
-      updated: 2024-08-09-03-16-38
+      updated: 2024-08-09-04-17-49
       followers: 1437
       likes: 58
-      views: 201
+      views: 211
       comments: !c |-
         G5gBYCwObHA/xQFloVdeO77TEAij/z2tC6wg/9WTdIKUZKxhwdMxn49FdkDVaxggqiz9k5TWBjbg
         SAPZRxq33e6KpkVvljvRKDC4+x5+UVlbIElbGoWBZtqW5LeTn2QxmST3S08un/tuTz9zEfUfDPMN
@@ -7227,10 +7227,10 @@
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2024-08-09-03-16-37
+      updated: 2024-08-09-04-17-47
       followers: 927
       likes: 19
-      views: 115
+      views: 119
       reposts: 1
       comments: !c |-
         CyKAkZPLQnkTND+3gACxY2xpZmZyYWNlcnNraWxsZXLZJtCl0L7RgNC60LXRgDog0LzRj9C90Y8g
@@ -7238,10 +7238,10 @@
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2024-08-09-03-16-38
+      updated: 2024-08-09-04-17-49
       followers: 508
-      likes: 40
-      views: 125
+      likes: 41
+      views: 127
 2018-08-29-darius:
   title: Darius
   titleRu: Дариус
