@@ -102,6 +102,14 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
     result.push(params.publishable ? 'publishable' : 'not publishable');
   }
 
+  if (params.requester) {
+    if (params.requester === ANY_OPTION.value) {
+      result.push('requested');
+    } else if (params.requester === NONE_OPTION.value) {
+      result.push('unprompted');
+    }
+  }
+
   if (params.type) {
     result.push(`${params.type}${count !== 1 ? 's' : ''}`);
   } else {
@@ -130,14 +138,8 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
     result.push(`by "${params.author}"`);
   }
 
-  if (params.requester) {
-    if (params.requester === ANY_OPTION.value) {
-      result.push('requested');
-    } else if (params.requester === NONE_OPTION.value) {
-      result.push('unprompted');
-    } else {
-      result.push(`requested by "${params.requester}"`);
-    }
+  if (params.requester && params.requester !== ANY_OPTION.value && params.requester !== NONE_OPTION.value) {
+    result.push(`requested by "${params.requester}"`);
   }
 
   if (params.mark) {
