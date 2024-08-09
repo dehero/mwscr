@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.7.0](https://github.com/dehero/mwscr/compare/v1.6.1...v1.7.0) (2024-08-09)
+
+### Features
+
+- **wallpaper:** add basic support for wallpaper and wallpaper-v post types
+  ([cb586e1](https://github.com/dehero/mwscr/commit/cb586e162548709f5e536698901faf0a7d825bce))
+- **wallpaper:** implement wallpaper publishing
+  ([88eeba2](https://github.com/dehero/mwscr/commit/88eeba22014a444ee1b7250e05bf0047f0051c9b))
+
+### Documentation
+
+- **wallpaper:** add information about wallpaper and wallpaper-v post types
+  ([e29791e](https://github.com/dehero/mwscr/commit/e29791eefc7616af3b6acef9ca4a415fc9ca5090))
+
 ## [1.6.1](https://github.com/dehero/mwscr/compare/v1.6.0...v1.6.1) (2024-08-06)
 
 ### Bug Fixes
