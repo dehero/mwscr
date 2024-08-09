@@ -317,10 +317,10 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-41
-      updated: 2024-08-09-01-07-04
+      updated: 2024-08-09-02-35-32
       followers: 1437
-      likes: 136
-      views: 605
+      likes: 139
+      views: 615
       comments: !c |-
         G5YAIB2JcUzJQuGdnXRynyecUBRTax7UPKBAUgiz5YEPKNaguwXVrv3gAXhAE1tQ6eRIA+K/lQdp
         W5YGoi3n4dP1RJmJTW/WVY4fNwymwvGd9YR1coYPPfaSEvDjpYJSEB+OXiIYQUK5IpiAC+qJx31i
@@ -328,15 +328,15 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-08-09-01-07-04
+      updated: 2024-08-09-02-35-31
       followers: 927
       likes: 38
-      views: 205
+      views: 206
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-08-09-01-07-05
+      updated: 2024-08-09-02-35-32
       followers: 504
       likes: 61
       views: 237
@@ -7214,10 +7214,10 @@
       id: C-azUnhJNPE
       mediaId: '18042652126778108'
       published: 2024-08-08-18-20-42
-      updated: 2024-08-09-01-07-03
+      updated: 2024-08-09-02-35-31
       followers: 1437
-      likes: 54
-      views: 182
+      likes: 57
+      views: 199
       comments: !c |-
         G5gBYCwObHA/xQFloVdeO77TEAij/z2tC6wg/9WTdIKUZKxhwdMxn49FdkDVaxggqiz9k5TWBjbg
         SAPZRxq33e6KpkVvljvRKDC4+x5+UVlbIElbGoWBZtqW5LeTn2QxmST3S08un/tuTz9zEfUfDPMN
@@ -7227,10 +7227,10 @@
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2024-08-09-01-07-03
+      updated: 2024-08-09-02-35-30
       followers: 927
       likes: 18
-      views: 104
+      views: 108
       reposts: 1
       comments: !c |-
         CyKAkZPLQnkTND+3gACxY2xpZmZyYWNlcnNraWxsZXLZJtCl0L7RgNC60LXRgDog0LzRj9C90Y8g
@@ -7238,10 +7238,10 @@
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2024-08-09-01-07-04
+      updated: 2024-08-09-02-35-31
       followers: 508
       likes: 39
-      views: 122
+      views: 123
 2018-08-29-darius:
   title: Darius
   titleRu: Дариус
