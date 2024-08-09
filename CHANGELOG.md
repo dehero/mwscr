@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.7.2](https://github.com/dehero/mwscr/compare/v1.7.1...v1.7.2) (2024-08-09)
+
+### Bug Fixes
+
+- pre-render links on user site page
+  ([1a4ba42](https://github.com/dehero/mwscr/commit/1a4ba427ab7fc700ada03152aa010a0571157088))
+
 ## [1.7.1](https://github.com/dehero/mwscr/compare/v1.7.0...v1.7.1) (2024-08-09)
 
 ### Bug Fixes
