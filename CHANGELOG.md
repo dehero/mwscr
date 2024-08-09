@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.7.1](https://github.com/dehero/mwscr/compare/v1.7.0...v1.7.1) (2024-08-09)
+
+### Bug Fixes
+
+- adjust references after renaming published to posts
+  ([d844cef](https://github.com/dehero/mwscr/commit/d844cefa4dd2f78cb515e73b67dbda3f77988e0b))
+- don't show post requests in the shortlist
+  ([382819b](https://github.com/dehero/mwscr/commit/382819ba7e3d9145286afa465b18c6ac00c49abc))
+- improve requested posts filter description
+  ([12b73a3](https://github.com/dehero/mwscr/commit/12b73a334ce41008da71df5a04ee44da5c0fe00c))
+- use location GitHub issues to locate posts on site
+  ([d8180c3](https://github.com/dehero/mwscr/commit/d8180c3b46afed7e7149d8a596d4e005fb971d60))
+
+### Code Refactoring
+
+- rename drawing post type to redrawing
+  ([d87459b](https://github.com/dehero/mwscr/commit/d87459b8336c7296913a574c5585418703a85762))
+
+### Documentation
+
+- mark wallpaper and wallpaper-v post types as implemented
+  ([70a00b7](https://github.com/dehero/mwscr/commit/70a00b7e00b2e47491a2e8858123ce843713cdf7))
+
 ## [1.7.0](https://github.com/dehero/mwscr/compare/v1.6.1...v1.7.0) (2024-08-09)
 
 ### Features
