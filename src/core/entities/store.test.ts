@@ -3,7 +3,7 @@ import { test } from 'node:test';
 import { storeIncludesPath } from './store.js';
 
 test('storeIncludesPath', async (t) => {
-  const paths = ['shots/2016-11-20.1.dren-plantation.png', 'drawings/2019-05-08.an-old-bridge-by-knives-out.png'];
+  const paths = ['shots/2016-11-20.1.dren-plantation.png', 'drawings/2019-05-08.an-old-bridge.png'];
 
   await t.test('should return true if store.include is undefined', () => {
     const store = { include: undefined };

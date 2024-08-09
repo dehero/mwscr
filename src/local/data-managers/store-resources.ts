@@ -215,7 +215,7 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
       }
       break;
     }
-    case 'drawing': {
+    case 'redrawing': {
       if (!Array.isArray(post.content)) {
         throw new TypeError(
           `Need content to be of type "Array" for post type "${post.type}", got "${typeof post.content}"`,

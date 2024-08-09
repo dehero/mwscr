@@ -21,7 +21,7 @@ export const POST_TYPES = [
   { id: 'shot-set', title: 'Shot-Set', titleRu: 'Набор кадров', letter: 'H' },
   { id: 'video', title: 'Video', titleRu: 'Видео', letter: 'V' },
   { id: 'clip', title: 'Clip', titleRu: 'Клип', letter: 'C' },
-  { id: 'drawing', title: 'Drawing', titleRu: 'Рисунок', letter: 'D' },
+  { id: 'redrawing', title: 'Redrawing', titleRu: 'Перерисовка', letter: 'R' },
   { id: 'wallpaper', title: 'Wallpaper', titleRu: 'Обои', letter: 'W' },
   { id: 'wallpaper-v', title: 'Vertical Wallpaper', titleRu: 'Вертикальные обои', letter: 'M' },
 ] as const satisfies PostTypeInfo[];
@@ -199,7 +199,7 @@ export function getPostTypesFromContent(content?: PostContent): PostType[] {
     return ['shot-set'];
   }
   if (urls.length === 2 && urls.every((url) => resourceIsImage(url) || RESOURCE_MISSING_IMAGE === url)) {
-    return ['drawing'];
+    return ['redrawing'];
   }
   if (urls.length === 1 && urls[0] && (resourceIsImage(urls[0]) || RESOURCE_MISSING_IMAGE === urls[0])) {
     return ['shot', 'wallpaper', 'wallpaper-v'];
@@ -306,7 +306,7 @@ export function getPostRelatedLocationDistance(location: string, postEntries: Po
 }
 
 export function getPostDrawer(post: Post) {
-  return post.type === 'drawing' ? asArray(post.author)[0] : undefined;
+  return post.type === 'redrawing' ? asArray(post.author)[0] : undefined;
 }
 
 export function mergePostWith(post: Post, withPost: Post) {

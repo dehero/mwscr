@@ -8,8 +8,8 @@ export const DEFAULT_TAGS: PostTagDescriptor[] = [
   ['elderscrolls', () => true],
   [
     'screenshot',
-    (post) => ['shot', 'shot-set', 'drawing'].includes(post.type),
-    (post) => (post.type = ['shot', 'shot-set', 'drawing'].includes(post.type) ? post.type : 'shot'),
+    (post) => ['shot', 'shot-set', 'redrawing'].includes(post.type),
+    (post) => (post.type = ['shot', 'shot-set', 'redrawing'].includes(post.type) ? post.type : 'shot'),
   ],
   [
     'footage',

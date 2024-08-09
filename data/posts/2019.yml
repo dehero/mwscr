@@ -1019,13 +1019,13 @@
       updated: 2024-08-06-13-20-03
       likes: 2
       views: 650
-2019-05-08-an-old-bridge-by-knives-out:
-  title: An Old Bridge Drawn by Knives Out
-  titleRu: Старый мост в исполнении Knives Out
+2019-05-08-an-old-bridge:
+  title: An Old Bridge
+  titleRu: Старый мост
   content:
-    - store:/drawings/2019-05-08-an-old-bridge-by-knives-out.png
+    - store:/drawings/2019-05-08-an-old-bridge.png
     - store:/shots/2019-03-19-an-old-bridge.png
-  type: drawing
+  type: redrawing
   author:
     - knives-out
     - dehero
@@ -1129,13 +1129,13 @@
       updated: 2024-08-06-13-20-01
       likes: 2
       views: 642
-2019-05-11-misty-pairs-by-knives-out:
-  title: Misty Pairs Drawn by Knives Out
-  titleRu: Туманные пары в исполнении Knives Out
+2019-05-11-misty-pairs:
+  title: Misty Pairs
+  titleRu: Туманные пары
   content:
-    - store:/drawings/2019-05-11-misty-pairs-by-knives-out.png
+    - store:/drawings/2019-05-11-misty-pairs.png
     - store:/shots/2019-03-18-misty-pairs.png
-  type: drawing
+  type: redrawing
   author:
     - knives-out
     - dehero
@@ -1239,13 +1239,13 @@
       likes: 2
       views: 705
 2019-05-14-towers-of-mzanchend-by-knives-out:
-  title: Towers of Mzanchend Drawn by Knives Out
-  titleRu: Башни Мзанченда в исполнении Knives Out
+  title: Towers of Mzanchend
+  titleRu: Башни Мзанченда
   location: Mzanchend
   content:
-    - store:/drawings/2019-05-14-towers-of-mzanchend-by-knives-out.png
+    - store:/drawings/2019-05-14-towers-of-mzanchend.png
     - store:/shots/2019-04-02-towers-of-mzanchend.png
-  type: drawing
+  type: redrawing
   author:
     - knives-out
     - dehero

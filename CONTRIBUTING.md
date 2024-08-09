@@ -327,7 +327,7 @@ Depending on the content of the post and its characteristics, the appropriate po
 | ------------- | :----: | -----: | :-------: | :--------: | --------: | -------------------------------------------------------------------------- |
 | `shot`        |   1:1  |      1 | 1080x1080 |  800x800   |           |                                                                            |
 | `shot‑set`    |   1:1  |      4 | 1080x1080 |  800x800   |           | All images must have been previously published with the `shot` type.       |
-| `drawing`     |   1:1  |      2 | 1080x1080 |  800x800   |           | The second image must have been previously published with the `shot` type. |
+| `redrawing`   |   1:1  |      2 | 1080x1080 |  800x800   |           | The second image must have been previously published with the `shot` type. |
 | `wallpaper`   |  16:9  |      1 | 1920x1080 | 1920x1080  |           |                                                                            |
 | `wallpaper-v` | 9:19.5 |      1 | 1080x2340 | 1080x2340  |           |                                                                            |
 | `clip`        |   1:1  |      1 | 1080x1080 |  800x800   |   ≤ 1 min |                                                                            |
@@ -345,7 +345,7 @@ The title should be filled in English and translated into Russian (for publicati
 
 #### Author
 
-The project contributor who proposed the original work for publication. For `drawing` type posts, the first author is
+The project contributor who proposed the original work for publication. For `redrawing` type posts, the first author is
 the author of the drawing, and the second author is the author of the original post. For `shot-set' posts, the authors
 of all images in the set are listed.
 
