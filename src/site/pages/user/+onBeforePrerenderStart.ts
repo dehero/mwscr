@@ -7,7 +7,8 @@ import {
   comparePostEntriesByRating,
 } from '../../../core/entities/post.js';
 import { isPostDraft, isPostRequest } from '../../../core/entities/post-variation.js';
-import { createUserInfo } from '../../../core/entities/user.js';
+import { createUserInfo, createUserLinks } from '../../../core/entities/user.js';
+import { services } from '../../../core/services/index.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { getPostInfo, inbox, posts, trash } from '../../../local/data-managers/posts.js';
 import { users } from '../../../local/data-managers/users.js';
@@ -16,10 +17,11 @@ import { userRoute } from '../../routes/user-route.js';
 
 export async function onBeforePrerenderStart(): ReturnType<OnBeforePrerenderStartAsync<UserPageData>> {
   const entries = await users.getAllEntries(true);
-  const userInfos = await Promise.all(entries.map((entry) => createUserInfo(entry, posts, inbox, trash)));
 
   return Promise.all(
-    userInfos.map(async (userInfo) => {
+    entries.map(async (userEntry) => {
+      const userInfo = await createUserInfo(userEntry, posts, inbox, trash);
+      const userLinks = await createUserLinks(userEntry, services);
       const checkAuthor = (post: Post): post is Post => asArray(post.author).includes(userInfo.id);
       const checkRequester = (post: Post): post is Post => post.request?.user === userInfo.id;
 
@@ -28,6 +30,7 @@ export async function onBeforePrerenderStart(): ReturnType<OnBeforePrerenderStar
         pageContext: {
           data: {
             userInfo,
+            userLinks,
             lastPostInfo: await getPostInfo(posts, comparePostEntriesById('desc'), checkAuthor),
             lastOriginalPostInfo: await getPostInfo(posts, comparePostEntriesById('desc'), checkAuthor, true),
             firstPostInfo: await getPostInfo(posts, comparePostEntriesById('asc'), checkAuthor),
