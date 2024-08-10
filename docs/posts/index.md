@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`165 items`
+`166 items`
+
+## <span id="2024-08-10-uthrel-sarys">Uthrel Sarys</span>
+
+`RU` Утрель Сарис
+
+<a href="https://instagram.com/p/Bfi7nwfD_uv/" title="2018-02-23-uthrel-sarys"><img alt="store:/shots/2018-02-23-uthrel-sarys.png" src="../../assets/previews/shots/2018-02-23-uthrel-sarys.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-10-uthrel-sarys&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-08-10-uthrel-sarys
+```
+
+> `2018-02-23-uthrel-sarys`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bfi7nwfD_uv/)       | 2018-02-23 |       |    89 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_627)  | 2018-02-23 |   212 |    12 |       133 |   9.02 |
+| [`ig`](https://instagram.com/p/C-f8spUt9pE/)       | 2024-08-10 |       |       |      1436 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1686) | 2024-08-10 |       |       |       927 |        |
+| [`tg`](https://t.me/mwscr/497)                     | 2024-08-10 |       |       |       514 |        |
+|                                                    |            |   212 |   101 |      2877 |        |
 
 ## <span id="2024-08-09-mushroom-stairs">Mushroom Stairs</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BhezsallGko/)       | 2018-04-12 |       |    81 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_686)  | 2018-04-12 |   210 |    15 |       150 |     10 |
-| [`ig`](https://instagram.com/p/C-dYCEEz5hV/)       | 2024-08-09 |   291 |    72 |      1437 |   5.01 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1683) | 2024-08-09 |   151 |    23 |       927 |   2.48 |
-| [`tg`](https://t.me/mwscr/496)                     | 2024-08-09 |   193 |    53 |       513 |  10.33 |
-|                                                    |            |   845 |   244 |      2877 |   6.96 |
+| [`ig`](https://instagram.com/p/C-dYCEEz5hV/)       | 2024-08-09 |   291 |    73 |      1437 |   5.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1683) | 2024-08-09 |   155 |    23 |       927 |   2.48 |
+| [`tg`](https://t.me/mwscr/496)                     | 2024-08-09 |   198 |    53 |       513 |  10.33 |
+|                                                    |            |   854 |   245 |      2877 |   6.97 |
 
 ## <span id="2024-08-08-southern-shore-of-northern-land">Southern Shore of Northern Land</span>
 
@@ -55,10 +82,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BnCJCoeF4b6/)       | 2018-08-28 |       |   108 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_880)  | 2018-08-28 |   355 |    28 |       217 |   12.9 |
-| [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |   374 |    87 |      1437 |   6.05 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   220 |    32 |       927 |   3.45 |
-| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   254 |    59 |       508 |  11.61 |
-|                                                    |            |  1203 |   314 |      2872 |   8.51 |
+| [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |   376 |    87 |      1437 |   6.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   222 |    32 |       927 |   3.45 |
+| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   255 |    59 |       508 |  11.61 |
+|                                                    |            |  1208 |   314 |      2872 |   8.51 |
 
 #### Comments
 
