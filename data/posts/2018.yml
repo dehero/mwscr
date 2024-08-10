@@ -317,10 +317,10 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-41
-      updated: 2024-08-09-18-19-43
+      updated: 2024-08-10-19-11-32
       followers: 1437
-      likes: 154
-      views: 709
+      likes: 169
+      views: 757
       comments: !c |-
         G5YAIB2JcUzJQuGdnXRynyecUBRTax7UPKBAUgiz5YEPKNaguwXVrv3gAXhAE1tQ6eRIA+K/lQdp
         W5YGoi3n4dP1RJmJTW/WVY4fNwymwvGd9YR1coYPPfaSEvDjpYJSEB+OXiIYQUK5IpiAC+qJx31i
@@ -328,18 +328,18 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-08-09-18-19-40
+      updated: 2024-08-10-19-11-33
       followers: 927
       likes: 41
-      views: 226
+      views: 245
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-08-09-18-19-41
+      updated: 2024-08-10-19-11-32
       followers: 504
-      likes: 64
-      views: 266
+      likes: 67
+      views: 306
       comments: !c |-
         CzmAkpPLQnkTD+n1gAClVG9kb3LZNFdhaXQsIGRvIHRoZXkgcmVhbGx5IGRhbmNlIGxpa2UgdGhh
         dCBpbiB0aGUgdmFuaWxsYT+Ty0J5EuFjUIAApUFkZWxlu2hlIGRhbmNlcyB0byB0aGUgZGFnb3Ro
@@ -1630,15 +1630,28 @@
       id: C-f8spUt9pE
       mediaId: '17898003072024605'
       published: 2024-08-10-18-18-49
+      updated: 2024-08-10-19-11-30
       followers: 1436
+      likes: 25
+      views: 33
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
+      updated: 2024-08-10-19-11-30
       followers: 927
+      likes: 6
+      views: 30
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
+      updated: 2024-08-10-19-11-30
       followers: 514
+      likes: 19
+      views: 83
+      comments: !c |-
+        G4wA6I3UTnf0YBFhhEr3/7lXv0JOdE6NRmCPDTLa+6wV+z0B4gbIA25XxDu1Yk7ZtAogoHWKnrLc
+        soW30MpfXs8wIxFHztVx/pVokj+/Aw7Y4IkHjuSheNABN/JgQ96IHYUozpNtV6Zse5DAPONl18zS
+        mCiNx6IynMiDIza4UwJPvNh2NV3pOw==
 2018-02-24-in-the-skaal-village:
   title: In the Skaal Village
   titleRu: В деревне Скаалов
@@ -3122,24 +3135,24 @@
       id: C-dYCEEz5hV
       mediaId: '17879270427099815'
       published: 2024-08-09-18-19-57
-      updated: 2024-08-10-18-18-34
+      updated: 2024-08-10-19-11-31
       followers: 1437
       likes: 73
-      views: 291
+      views: 293
     - service: vk
       id: 1683
       published: 2024-08-09-18-20-05
-      updated: 2024-08-10-18-18-35
+      updated: 2024-08-10-19-11-31
       followers: 927
       likes: 23
       views: 155
     - service: tg
       id: 496
       published: 2024-08-09-18-20-14
-      updated: 2024-08-10-18-18-36
+      updated: 2024-08-10-19-11-31
       followers: 513
-      likes: 53
-      views: 198
+      likes: 57
+      views: 225
 2018-04-13-solitary-pier:
   title: Solitary Pier
   titleRu: Уединённый причал
