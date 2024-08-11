@@ -28,16 +28,17 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bfi7nwfD_uv/)       | 2018-02-23 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_627)  | 2018-02-23 |   212 |    12 |       133 |   9.02 |
-| [`ig`](https://instagram.com/p/C-f8spUt9pE/)       | 2024-08-10 |   148 |    47 |      1436 |   3.27 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1686) | 2024-08-10 |    77 |    12 |       927 |   1.29 |
-| [`tg`](https://t.me/mwscr/497)                     | 2024-08-10 |   127 |    30 |       514 |   5.84 |
-|                                                    |            |   564 |   190 |      2877 |   4.86 |
+| [`ig`](https://instagram.com/p/C-f8spUt9pE/)       | 2024-08-10 |   154 |    50 |      1436 |   3.48 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1686) | 2024-08-10 |    80 |    12 |       927 |   1.29 |
+| [`tg`](https://t.me/mwscr/497)                     | 2024-08-10 |   130 |    30 |       514 |   5.84 |
+|                                                    |            |   576 |   193 |      2877 |   4.91 |
 
 #### Comments
 
 - `tg` <ins title="2024-08-10-18-24-48">C4H6O4</ins> Ну почему данмеры такие красавцы? 😩🤌🤌
   - <ins title="2024-08-10-18-25-05">unchainutopia</ins> реально🙏🏻
   - <ins title="2024-08-10-19-48-25">VebrandenoK</ins> 🧠
+- `tg` <ins title="2024-08-11-02-05-45">lOyToHfb6tZIkp8</ins> I am happy I was able to mint one so cheap https://fipuf.com/
 
 ## <span id="2024-08-09-mushroom-stairs">Mushroom Stairs</span>
 
@@ -61,10 +62,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BhezsallGko/)       | 2018-04-12 |       |    81 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_686)  | 2018-04-12 |   210 |    15 |       150 |     10 |
-| [`ig`](https://instagram.com/p/C-dYCEEz5hV/)       | 2024-08-09 |   310 |    76 |      1437 |   5.29 |
+| [`ig`](https://instagram.com/p/C-dYCEEz5hV/)       | 2024-08-09 |   312 |    77 |      1437 |   5.36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1683) | 2024-08-09 |   164 |    23 |       927 |   2.48 |
-| [`tg`](https://t.me/mwscr/496)                     | 2024-08-09 |   238 |    59 |       513 |   11.5 |
-|                                                    |            |   922 |   254 |      2877 |   7.32 |
+| [`tg`](https://t.me/mwscr/496)                     | 2024-08-09 |   241 |    59 |       513 |   11.5 |
+|                                                    |            |   927 |   255 |      2877 |   7.34 |
 
 ## <span id="2024-08-08-southern-shore-of-northern-land">Southern Shore of Northern Land</span>
 
@@ -953,8 +954,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_358)  | 2017-07-19 |   132 |     8 |        69 |      8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1631) | 2024-07-12 |   250 |    32 |       920 |   3.48 |
 | [`tg`](https://t.me/mwscr/467)                     | 2024-07-12 |   417 |    57 |       397 |  14.36 |
-| [`ig`](https://instagram.com/p/C9YKgzryToO/)       | 2024-07-13 |   358 |    78 |      1427 |   5.47 |
-|                                                    |            |  1157 |   228 |      2744 |   7.83 |
+| [`ig`](https://instagram.com/p/C9YKgzryToO/)       | 2024-07-13 |   367 |    78 |      1427 |   5.47 |
+|                                                    |            |  1166 |   228 |      2744 |   7.83 |
 
 #### Comments
 
