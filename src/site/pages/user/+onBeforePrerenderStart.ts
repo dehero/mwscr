@@ -1,7 +1,7 @@
 import type { OnBeforePrerenderStartAsync } from 'vike/types';
 import type { Post } from '../../../core/entities/post.js';
 import {
-  comparePostEntriesById,
+  comparePostEntriesByDate,
   comparePostEntriesByLikes,
   comparePostEntriesByMark,
   comparePostEntriesByRating,
@@ -31,21 +31,27 @@ export async function onBeforePrerenderStart(): ReturnType<OnBeforePrerenderStar
           data: {
             userInfo,
             userLinks,
-            lastPostInfo: await getPostInfo(posts, comparePostEntriesById('desc'), checkAuthor),
-            lastOriginalPostInfo: await getPostInfo(posts, comparePostEntriesById('desc'), checkAuthor, true),
-            firstPostInfo: await getPostInfo(posts, comparePostEntriesById('asc'), checkAuthor),
+            lastPostInfo: await getPostInfo(posts, comparePostEntriesByDate('desc'), checkAuthor),
+            lastOriginalPostInfo: await getPostInfo(posts, comparePostEntriesByDate('desc'), checkAuthor, true),
+            firstPostInfo: await getPostInfo(posts, comparePostEntriesByDate('asc'), checkAuthor),
             topRatedPostInfo: await getPostInfo(posts, comparePostEntriesByRating('desc'), checkAuthor),
             editorsChoicePostInfo: await getPostInfo(posts, comparePostEntriesByMark('desc'), checkAuthor, true),
             topLikedPostInfo: await getPostInfo(posts, comparePostEntriesByLikes('desc'), checkAuthor),
             lessLikedPostInfo: await getPostInfo(posts, comparePostEntriesByLikes('asc'), checkAuthor),
-            lastFulfilledPostInfo: await getPostInfo(posts, comparePostEntriesById('desc'), checkRequester),
-            lastProposedPostInfo: await getPostInfo(inbox, comparePostEntriesById('desc'), [isPostDraft, checkAuthor]),
-            lastRequestedPostInfo: await getPostInfo(inbox, comparePostEntriesById('desc'), [
+            lastFulfilledPostInfo: await getPostInfo(posts, comparePostEntriesByDate('desc'), checkRequester),
+            lastProposedPostInfo: await getPostInfo(inbox, comparePostEntriesByDate('desc'), [
+              isPostDraft,
+              checkAuthor,
+            ]),
+            lastRequestedPostInfo: await getPostInfo(inbox, comparePostEntriesByDate('desc'), [
               isPostRequest,
               checkRequester,
             ]),
-            lastRejectedPostInfo: await getPostInfo(trash, comparePostEntriesById('desc'), [isPostDraft, checkAuthor]),
-            lastRejectedRequestInfo: await getPostInfo(trash, comparePostEntriesById('desc'), [
+            lastRejectedPostInfo: await getPostInfo(trash, comparePostEntriesByDate('desc'), [
+              isPostDraft,
+              checkAuthor,
+            ]),
+            lastRejectedRequestInfo: await getPostInfo(trash, comparePostEntriesByDate('desc'), [
               isPostRequest,
               checkRequester,
             ]),

@@ -1,5 +1,5 @@
 import {
-  comparePostEntriesById,
+  comparePostEntriesByDate,
   comparePostEntriesByLikes,
   comparePostEntriesByMark,
   comparePostEntriesByRating,
@@ -27,13 +27,13 @@ export async function data(): Promise<HomePageData> {
     },
     authorCount,
     requesterCount,
-    lastPostInfo: await getPostInfo(posts, comparePostEntriesById('desc')),
-    lastOriginalPostInfo: await getPostInfo(posts, comparePostEntriesById('desc'), undefined, true),
+    lastPostInfo: await getPostInfo(posts, comparePostEntriesByDate('desc')),
+    lastOriginalPostInfo: await getPostInfo(posts, comparePostEntriesByDate('desc'), undefined, true),
     topRatedPostInfo: await getPostInfo(posts, comparePostEntriesByRating('desc')),
     editorsChoicePostInfo: await getPostInfo(posts, comparePostEntriesByMark('desc'), undefined, true),
     topLikedPostInfo: await getPostInfo(posts, comparePostEntriesByLikes('desc')),
-    lastFulfilledPostInfo: await getPostInfo(posts, comparePostEntriesById('desc'), isPostRequest),
-    lastProposedPostInfo: await getPostInfo(inbox, comparePostEntriesById('desc'), isPostDraft),
-    lastRequestedPostInfo: await getPostInfo(inbox, comparePostEntriesById('desc'), isPostRequest),
+    lastFulfilledPostInfo: await getPostInfo(posts, comparePostEntriesByDate('desc'), isPostRequest),
+    lastProposedPostInfo: await getPostInfo(inbox, comparePostEntriesByDate('desc'), isPostDraft),
+    lastRequestedPostInfo: await getPostInfo(inbox, comparePostEntriesByDate('desc'), isPostRequest),
   };
 }

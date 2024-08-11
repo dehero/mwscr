@@ -437,3 +437,11 @@ export function comparePostEntriesByMark(direction: SortDirection): PostEntriesC
     ? (a, b) => b[1].mark?.localeCompare(a[1].mark || '') || byRating(a, b)
     : (a, b) => a[1].mark?.localeCompare(b[1].mark || '') || byRating(a, b);
 }
+
+export function comparePostEntriesByDate(direction: SortDirection): PostEntriesComparator {
+  const byId = comparePostEntriesById(direction);
+
+  return direction === 'asc'
+    ? (a, b) => (getPostDateById(a[0])?.getTime() || 0) - (getPostDateById(b[0])?.getTime() || 0) || byId(a, b)
+    : (a, b) => (getPostDateById(b[0])?.getTime() || 0) - (getPostDateById(a[0])?.getTime() || 0) || byId(a, b);
+}
