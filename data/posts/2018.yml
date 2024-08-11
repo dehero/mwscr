@@ -317,10 +317,10 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-41
-      updated: 2024-08-10-19-11-32
+      updated: 2024-08-11-19-12-48
       followers: 1437
-      likes: 169
-      views: 757
+      likes: 175
+      views: 773
       comments: !c |-
         G5YAIB2JcUzJQuGdnXRynyecUBRTax7UPKBAUgiz5YEPKNaguwXVrv3gAXhAE1tQ6eRIA+K/lQdp
         W5YGoi3n4dP1RJmJTW/WVY4fNwymwvGd9YR1coYPPfaSEvDjpYJSEB+OXiIYQUK5IpiAC+qJx31i
@@ -328,18 +328,18 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-08-10-19-11-33
+      updated: 2024-08-11-19-12-49
       followers: 927
-      likes: 41
-      views: 245
+      likes: 43
+      views: 254
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-08-10-19-11-32
+      updated: 2024-08-11-19-12-49
       followers: 504
-      likes: 67
-      views: 306
+      likes: 68
+      views: 339
       comments: !c |-
         CzmAkpPLQnkTD+n1gAClVG9kb3LZNFdhaXQsIGRvIHRoZXkgcmVhbGx5IGRhbmNlIGxpa2UgdGhh
         dCBpbiB0aGUgdmFuaWxsYT+Ty0J5EuFjUIAApUFkZWxlu2hlIGRhbmNlcyB0byB0aGUgZGFnb3Ro
@@ -1630,28 +1630,29 @@
       id: C-f8spUt9pE
       mediaId: '17898003072024605'
       published: 2024-08-10-18-18-49
-      updated: 2024-08-11-18-20-02
+      updated: 2024-08-11-19-12-47
       followers: 1436
       likes: 60
-      views: 212
+      views: 217
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2024-08-11-18-20-06
+      updated: 2024-08-11-19-12-48
       followers: 927
-      likes: 18
-      views: 141
+      likes: 19
+      views: 144
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
-      updated: 2024-08-11-18-20-03
+      updated: 2024-08-11-19-12-49
       followers: 514
-      likes: 42
-      views: 179
+      likes: 44
+      views: 198
       comments: !c |-
-        G6cAaB2JsY2oPSj+gAEjVPr9X+sU9p1mWpbuUXRatTZgztgl+LfJUQIeRO1Ab63kzQkQGTc4gSTC
-        APhtHWTwAWxacb0BBFBk9A7PEZS3RufKDXipliFzHiVmqqi3FBxTCT5AAuFgoTCOpagLNMaBmBgh
-        MIslVgT9FcG0jLW+9jcel43ahVEu2i2bBoshXxbNnYdWd8/DWNn2GIcCwmAZDp5gUDNqFw==
+        G7wAABypvX60oN8IlX7Pun5bvnzvKtlkf9GhcOYLoW+CyJDXBIVOTuByTDAAz9JTYBq1lNKyEoDm
+        PPH0Njh2z0r7GlYRxBqbKqDJqd8imMVqFx/gBA7gFm7gFEvYbXcHV1iCAyy3cIQN7NKR8xOb5PxK
+        T7vhe1Y65bcSsWoORN3RFXJ+sAzmX5e2FXZoZQ8ExYz1BX6NF7QbD7gR8VtjZD7DEpzCAVxjD9zC
+        HTk/2X/2XwM=
 2018-02-24-in-the-skaal-village:
   title: In the Skaal Village
   titleRu: В деревне Скаалов
