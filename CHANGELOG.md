@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.7.3](https://github.com/dehero/mwscr/compare/v1.7.2...v1.7.3) (2024-08-11)
+
+### Bug Fixes
+
+- get last posts by Date instead of ID
+  ([3e203c5](https://github.com/dehero/mwscr/commit/3e203c56f9bca7f1bc2793fbdd20a5567f3878da))
+
 ## [1.7.2](https://github.com/dehero/mwscr/compare/v1.7.1...v1.7.2) (2024-08-09)
 
 ### Bug Fixes
