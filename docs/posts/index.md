@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`166 items`
+`167 items`
+
+## <span id="2024-08-11-lonely-fargoth">Lonely Fargoth</span>
+
+`RU` Одинокий Фаргот
+
+<a href="https://instagram.com/p/BNTmMGTF7rY/" title="2016-11-27-lonely-fargoth"><img alt="store:/shots/2016-11-27-lonely-fargoth.png" src="../../assets/previews/shots/2016-11-27-lonely-fargoth.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Seyda Neen` `🚀 OpenMW` `night`
+
+```
+2024-08-11-lonely-fargoth
+```
+
+> `2016-11-27-lonely-fargoth`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BNTmMGTF7rY/)       | 2016-11-27 |       |    19 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_14)   | 2017-01-22 |    51 |     3 |         4 |      3 |
+| [`ig`](https://instagram.com/p/C-ihqretmf0/)       | 2024-08-11 |       |       |      1437 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1687) | 2024-08-11 |       |       |       930 |        |
+| [`tg`](https://t.me/mwscr/498)                     | 2024-08-11 |       |       |       520 |        |
+|                                                    |            |    51 |    22 |      2887 |        |
 
 ## <span id="2024-08-10-uthrel-sarys">Uthrel Sarys</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bfi7nwfD_uv/)       | 2018-02-23 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_627)  | 2018-02-23 |   212 |    12 |       133 |   9.02 |
-| [`ig`](https://instagram.com/p/C-f8spUt9pE/)       | 2024-08-10 |   210 |    60 |      1436 |   4.18 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1686) | 2024-08-10 |   140 |    18 |       927 |   1.94 |
-| [`tg`](https://t.me/mwscr/497)                     | 2024-08-10 |   176 |    40 |       514 |   7.78 |
-|                                                    |            |   738 |   219 |      2877 |   5.73 |
+| [`ig`](https://instagram.com/p/C-f8spUt9pE/)       | 2024-08-10 |   212 |    60 |      1436 |   4.18 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1686) | 2024-08-10 |   141 |    18 |       927 |   1.94 |
+| [`tg`](https://t.me/mwscr/497)                     | 2024-08-10 |   179 |    42 |       514 |   8.17 |
+|                                                    |            |   744 |   221 |      2877 |   5.83 |
 
 #### Comments
 
@@ -62,9 +89,9 @@
 | [`ig`](https://instagram.com/p/BhezsallGko/)       | 2018-04-12 |       |    81 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_686)  | 2018-04-12 |   210 |    15 |       150 |     10 |
 | [`ig`](https://instagram.com/p/C-dYCEEz5hV/)       | 2024-08-09 |   317 |    77 |      1437 |   5.36 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1683) | 2024-08-09 |   182 |    27 |       927 |   2.91 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1683) | 2024-08-09 |   184 |    27 |       927 |   2.91 |
 | [`tg`](https://t.me/mwscr/496)                     | 2024-08-09 |   260 |    61 |       513 |  11.89 |
-|                                                    |            |   969 |   261 |      2877 |   7.54 |
+|                                                    |            |   971 |   261 |      2877 |   7.54 |
 
 ## <span id="2024-08-08-southern-shore-of-northern-land">Southern Shore of Northern Land</span>
 
@@ -88,10 +115,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BnCJCoeF4b6/)       | 2018-08-28 |       |   108 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_880)  | 2018-08-28 |   355 |    28 |       217 |   12.9 |
-| [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |   376 |    87 |      1437 |   6.05 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   222 |    32 |       927 |   3.45 |
-| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   255 |    59 |       508 |  11.61 |
-|                                                    |            |  1208 |   314 |      2872 |   8.51 |
+| [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |   397 |    91 |      1437 |   6.33 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   238 |    33 |       927 |   3.56 |
+| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   285 |    60 |       508 |  11.81 |
+|                                                    |            |  1275 |   320 |      2872 |   8.65 |
 
 #### Comments
 
@@ -105,6 +132,7 @@
   - <ins title="2024-08-08-18-55-36">mwscr</ins> Maybe some issues with posting links to Instagram. Try link in the profile. You should be able to find this image there.
   - <ins title="2024-08-09-09-20-26">sombersobriety</ins> @mwscr the website is absolutely beautiful! 😍
   - <ins title="2024-08-09-10-06-00">mwscr</ins> @sombersobriety Thank you!
+- `tg` <ins title="2024-08-10-18-24-45">unchainutopia</ins> wanna live here
 
 ## <span id="2024-08-07-dance-of-dagoth">Dance of Dagoth</span>
 
