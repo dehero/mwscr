@@ -102,7 +102,7 @@ export const postLocation = {
   id: 'postLocation',
   attributes: {
     label: 'Location',
-    options: [],
+    options: ['Imperial Prison Ship'],
     default: 0,
   },
   validations: {
