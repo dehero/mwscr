@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`167 items`
+`168 items`
+
+## <span id="2024-08-12-near-gnisis-eggmine">Near Gnisis Eggmine</span>
+
+`RU` У яичной шахты Гнисиса
+
+<a href="https://instagram.com/p/BZWmfSHjJ5N/" title="2017-09-22-near-gnisis-eggmine"><img alt="store:/shots/2017-09-22-near-gnisis-eggmine.png" src="../../assets/previews/shots/2017-09-22-near-gnisis-eggmine.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` `📍 Gnisis` `🚀 OpenMW`
+
+```
+2024-08-12-near-gnisis-eggmine
+```
+
+> `2017-09-22-near-gnisis-eggmine`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BZWmfSHjJ5N/)       | 2017-09-22 |       |    61 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_438)  | 2017-09-22 |   130 |    14 |        82 |     14 |
+| [`ig`](https://instagram.com/p/C-lHoO7sfCY/)       | 2024-08-12 |       |       |      1437 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1688) | 2024-08-12 |       |       |       931 |        |
+| [`tg`](https://t.me/mwscr/499)                     | 2024-08-12 |       |       |       523 |        |
+|                                                    |            |   130 |    75 |      2891 |        |
 
 ## <span id="2024-08-11-lonely-fargoth">Lonely Fargoth</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNTmMGTF7rY/)       | 2016-11-27 |       |    19 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_14)   | 2017-01-22 |    51 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C-ihqretmf0/)       | 2024-08-11 |   382 |    93 |      1437 |   6.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1687) | 2024-08-11 |   169 |    36 |       930 |   3.87 |
+| [`ig`](https://instagram.com/p/C-ihqretmf0/)       | 2024-08-11 |   397 |    93 |      1437 |   6.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1687) | 2024-08-11 |   172 |    36 |       930 |   3.87 |
 | [`tg`](https://t.me/mwscr/498)                     | 2024-08-11 |   191 |    50 |       520 |   9.62 |
-|                                                    |            |   793 |   201 |      2887 |   5.74 |
+|                                                    |            |   811 |   201 |      2887 |   5.74 |
 
 #### Comments
 
@@ -98,9 +125,9 @@
 | [`ig`](https://instagram.com/p/BhezsallGko/)       | 2018-04-12 |       |    81 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_686)  | 2018-04-12 |   210 |    15 |       150 |     10 |
 | [`ig`](https://instagram.com/p/C-dYCEEz5hV/)       | 2024-08-09 |   332 |    79 |      1437 |    5.5 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1683) | 2024-08-09 |   184 |    27 |       927 |   2.91 |
-| [`tg`](https://t.me/mwscr/496)                     | 2024-08-09 |   260 |    61 |       513 |  11.89 |
-|                                                    |            |   986 |   263 |      2877 |   7.58 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1683) | 2024-08-09 |   202 |    28 |       927 |   3.02 |
+| [`tg`](https://t.me/mwscr/496)                     | 2024-08-09 |   285 |    63 |       513 |  12.28 |
+|                                                    |            |  1029 |   266 |      2877 |    7.7 |
 
 ## <span id="2024-08-08-southern-shore-of-northern-land">Southern Shore of Northern Land</span>
 
@@ -124,10 +151,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BnCJCoeF4b6/)       | 2018-08-28 |       |   108 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_880)  | 2018-08-28 |   355 |    28 |       217 |   12.9 |
-| [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |   397 |    91 |      1437 |   6.33 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   238 |    33 |       927 |   3.56 |
-| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   285 |    60 |       508 |  11.81 |
-|                                                    |            |  1275 |   320 |      2872 |   8.65 |
+| [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |   408 |    92 |      1437 |    6.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   252 |    34 |       927 |   3.67 |
+| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   309 |    61 |       508 |  12.01 |
+|                                                    |            |  1324 |   323 |      2872 |   8.75 |
 
 #### Comments
 
