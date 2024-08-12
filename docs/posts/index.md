@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNTmMGTF7rY/)       | 2016-11-27 |       |    19 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_14)   | 2017-01-22 |    51 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C-ihqretmf0/)       | 2024-08-11 |   286 |    80 |      1437 |   5.57 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1687) | 2024-08-11 |   123 |    31 |       930 |   3.33 |
-| [`tg`](https://t.me/mwscr/498)                     | 2024-08-11 |   167 |    48 |       520 |   9.23 |
-|                                                    |            |   627 |   181 |      2887 |   5.28 |
+| [`ig`](https://instagram.com/p/C-ihqretmf0/)       | 2024-08-11 |   294 |    81 |      1437 |   5.64 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1687) | 2024-08-11 |   126 |    31 |       930 |   3.33 |
+| [`tg`](https://t.me/mwscr/498)                     | 2024-08-11 |   170 |    49 |       520 |   9.42 |
+|                                                    |            |   641 |   183 |      2887 |   5.35 |
 
 #### Comments
 
@@ -39,6 +39,7 @@
 - `tg` <ins title="2024-08-11-18-28-46">bhuvanasrii</ins> hes just like me fr
 - `tg` <ins title="2024-08-11-18-31-31">xxkamaz2008xx</ins> 😭😭😭
 - `tg` <ins title="2024-08-11-18-45-26">intravenously</ins> 😡
+- `tg` <ins title="2024-08-12-08-13-42">Gatemate7</ins> 
 
 ## <span id="2024-08-10-uthrel-sarys">Uthrel Sarys</span>
 
@@ -63,9 +64,9 @@
 | [`ig`](https://instagram.com/p/Bfi7nwfD_uv/)       | 2018-02-23 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_627)  | 2018-02-23 |   212 |    12 |       133 |   9.02 |
 | [`ig`](https://instagram.com/p/C-f8spUt9pE/)       | 2024-08-10 |   228 |    62 |      1436 |   4.32 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1686) | 2024-08-10 |   154 |    20 |       927 |   2.16 |
-| [`tg`](https://t.me/mwscr/497)                     | 2024-08-10 |   214 |    45 |       514 |   8.75 |
-|                                                    |            |   808 |   228 |      2877 |   6.06 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1686) | 2024-08-10 |   156 |    20 |       927 |   2.16 |
+| [`tg`](https://t.me/mwscr/497)                     | 2024-08-10 |   215 |    45 |       514 |   8.75 |
+|                                                    |            |   811 |   228 |      2877 |   6.06 |
 
 #### Comments
 
