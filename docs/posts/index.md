@@ -430,7 +430,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-29-arch-with-a-canopy&postLocation=)</code> `🚀 OpenMW` `arch`
+`A2` `📍 Balmora` `🚀 OpenMW` `arch`
 
 ```
 2024-07-29-arch-with-a-canopy
