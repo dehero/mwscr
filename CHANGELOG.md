@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.0](https://github.com/dehero/mwscr/compare/v1.7.3...v1.8.0) (2024-08-12)
+
+### Features
+
+- add license information ([e639dc6](https://github.com/dehero/mwscr/commit/e639dc63093bf9b86ffa4707f09a1e97c8eb3507))
+
 ## [1.7.3](https://github.com/dehero/mwscr/compare/v1.7.2...v1.7.3) (2024-08-11)
 
 ### Bug Fixes
