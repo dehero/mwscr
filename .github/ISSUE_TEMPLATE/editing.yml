@@ -51,7 +51,7 @@ body:
     id: postLocation
     attributes:
       label: Location
-      placeholder: ''
+      placeholder: Imperial Prison Ship
   - type: input
     id: postMark
     attributes:
