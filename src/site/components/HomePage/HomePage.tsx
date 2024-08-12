@@ -90,6 +90,16 @@ export const HomePage: Component = () => {
             contributors
           </a>
         </p>
+        <p class={styles.license}>
+          {'Licenced under '}
+          <a href="https://github.com/dehero/mwscr/blob/main/LICENSE" class={styles.link}>
+            CC-BY-4.0
+          </a>
+          {' and '}
+          <a href="https://github.com/dehero/mwscr/blob/main/LICENSE-CODE" class={styles.link}>
+            MIT
+          </a>
+        </p>
       </Frame>
 
       <Frame class={styles.statistics}>
