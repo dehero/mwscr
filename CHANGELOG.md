@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.1](https://github.com/dehero/mwscr/compare/v1.8.0...v1.8.1) (2024-08-12)
+
+### Bug Fixes
+
+- location placeholder should not be empty
+  ([62c5ab9](https://github.com/dehero/mwscr/commit/62c5ab93619e5c0711f824cf506583c6a941018f))
+
 ## [1.8.0](https://github.com/dehero/mwscr/compare/v1.7.3...v1.8.0) (2024-08-12)
 
 ### Features
