@@ -1010,24 +1010,25 @@
       id: C-VpvfoNu-W
       mediaId: '17979463679710227'
       published: 2024-08-06-18-20-47
-      updated: 2024-08-11-21-15-42
+      updated: 2024-08-12-22-14-31
       followers: 1435
       likes: 77
-      views: 442
+      views: 445
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2024-08-11-21-15-43
+      updated: 2024-08-12-22-14-33
       followers: 926
       likes: 26
-      views: 221
+      views: 226
+      reposts: 1
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2024-08-11-21-15-44
+      updated: 2024-08-12-22-14-32
       followers: 502
       likes: 68
-      views: 342
+      views: 373
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -1222,26 +1223,26 @@
       id: C-TE6hwpIqR
       mediaId: '17977294379733597'
       published: 2024-08-05-18-20-30
-      updated: 2024-08-11-21-15-43
+      updated: 2024-08-12-22-14-32
       followers: 1434
       likes: 119
-      views: 456
+      views: 461
       comments: !c ixaAkZPLQnkSP2TbAACpamFlY2UzMDAwuGNhbiB5b3UgcG9zdCBtb3JlIHZpZGVvcwM=
     - service: vk
       id: 1668
       published: 2024-08-05-18-20-39
-      updated: 2024-08-11-21-15-44
+      updated: 2024-08-12-22-14-34
       followers: 926
       likes: 40
-      views: 262
+      views: 269
       reposts: 2
     - service: tg
       id: 491
       published: 2024-08-05-18-20-53
-      updated: 2024-08-11-21-15-45
+      updated: 2024-08-12-22-14-33
       followers: 490
-      likes: 71
-      views: 398
+      likes: 72
+      views: 441
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
@@ -5534,10 +5535,10 @@
       id: C-BDYFOzGbE
       mediaId: '17855726970227801'
       published: 2024-07-29-18-20-45
-      updated: 2024-08-05-21-16-18
+      updated: 2024-08-12-22-14-35
       followers: 1432
       likes: 116
-      views: 387
+      views: 402
       comments: !c |-
         G9sAwIyE3ETrEcMf7UJmuwcLLZhFgWeDxMKSGgykrsJyLYNukr5AooH/2teYFlmgYeDpFuvThR7M
         dKJiGjbBJoQgv11v6HW7SZHWCu/aDprN2+cFm/OAUAT5LMszkiJtwjPS1QYgMeK9KjTCLjkhUKt/
@@ -5546,18 +5547,18 @@
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
-      updated: 2024-08-05-21-16-18
+      updated: 2024-08-12-22-14-35
       followers: 924
       likes: 32
-      views: 217
+      views: 228
       reposts: 1
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
-      updated: 2024-08-05-21-16-17
+      updated: 2024-08-12-22-14-33
       followers: 414
       likes: 55
-      views: 425
+      views: 545
 2018-06-28-light-on-the-water:
   title: Light on the Water
   titleRu: Свет над водой
