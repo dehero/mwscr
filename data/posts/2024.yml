@@ -2284,8 +2284,16 @@
     - service: vk
       id: 1689
       published: 2024-08-13-18-55-56
+      updated: 2024-08-13-19-31-31
       followers: 931
+      likes: 6
+      views: 35
+      reposts: 1
     - service: tg
       id: 500
       published: 2024-08-13-18-56-05
+      updated: 2024-08-13-19-31-31
       followers: 527
+      likes: 20
+      views: 69
+      comments: !c CxmAkZPLQnkU0g//AACpR2F0ZW1hdGU3vWxvb2tzIGxpa2Ugd2UgdXNpbmcgdGhpcyBob3NzAw==
