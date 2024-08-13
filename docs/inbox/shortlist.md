@@ -4,7 +4,28 @@
 
 # Shortlist
 
-`1 items`
+`2 items`
+
+## <span id="dehero.2022-04-11-23-55-01">Night Sky Above Suran</span>
+
+`RU` Ночное небо над Сураном
+
+![store:/inbox/dehero.2022-04-11-23-55-01.2.png](../../assets/previews/inbox/dehero.2022-04-11-23-55-01.2.avif "dehero.2022-04-11-23-55-01.2")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2022-04-11-23-55-01.1.png](../../assets/previews/inbox/dehero.2022-04-11-23-55-01.1.avif "dehero.2022-04-11-23-55-01.1")
+![store:/inbox/dehero.2022-04-11-23-55-01.png](../../assets/previews/inbox/dehero.2022-04-11-23-55-01.avif "dehero.2022-04-11-23-55-01")
+</details>
+
+`wallpaper-v` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2022-04-11-23-55-01&amp;postContent=store%3A%2Finbox%2Fdehero.2022-04-11-23-55-01.2.png&amp;postTitle=Night+Sky+Above+Suran&amp;postTitleRu=%D0%9D%D0%BE%D1%87%D0%BD%D0%BE%D0%B5+%D0%BD%D0%B5%D0%B1%D0%BE+%D0%BD%D0%B0%D0%B4+%D0%A1%D1%83%D1%80%D0%B0%D0%BD%D0%BE%D0%BC&amp;postAuthor=dehero&amp;postType=wallpaper-v&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=night+sky+moons+stars&amp;postLocation=Suran&amp;postMark=A2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2022-04-11-23-55-01.1.png%0Astore%3A%2Finbox%2Fdehero.2022-04-11-23-55-01.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2022-04-11-23-55-01) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2022-04-11-23-55-01) `A2` `📍 Suran` `🚀 OpenMW` `night` `sky` `moons` `stars`
+
+```
+dehero.2022-04-11-23-55-01
+```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
 

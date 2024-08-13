@@ -1,10 +1,20 @@
 dehero.2022-04-11-23-55-01:
-  content:
+  title: Night Sky Above Suran
+  titleRu: Ночное небо над Сураном
+  location: Suran
+  content: store:/inbox/dehero.2022-04-11-23-55-01.2.png
+  trash:
     - store:/inbox/dehero.2022-04-11-23-55-01.1.png
-    - store:/inbox/dehero.2022-04-11-23-55-01.2.png
     - store:/inbox/dehero.2022-04-11-23-55-01.png
-  type: shot
+  type: wallpaper-v
   author: dehero
+  engine: OpenMW
+  tags:
+    - night
+    - sky
+    - moons
+    - stars
+  mark: A2
 dehero.2022-06-21-fa64acb9:
   type: clip
   request:
