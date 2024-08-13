@@ -15,6 +15,10 @@ jobs:
       GITHUB_ACTION_CONTEXT: ${{ toJson(github) }}
       GITHUB_BOT_EMAIL: '${{ secrets.BOT_EMAIL }}'
       GITHUB_BOT_NAME: '${{ secrets.BOT_NAME }}'
+      SITE_FTP_HOST: '${{ secrets.SITE_FTP_HOST }}'
+      SITE_FTP_USER: '${{ secrets.SITE_FTP_USER }}'
+      SITE_FTP_PASSWORD: '${{ secrets.SITE_FTP_PASSWORD }}'
+      SITE_FTP_STORE_PATH: '${{ secrets.SITE_FTP_STORE_PATH }}'
       YANDEX_DISK_STORE_PATH: '${{ secrets.YANDEX_DISK_STORE_PATH }}'
       YANDEX_DISK_ACCESS_TOKEN: '${{ secrets.YANDEX_DISK_ACCESS_TOKEN }}'
     steps:
@@ -41,3 +45,16 @@ jobs:
           git diff-index --quiet HEAD || git commit -m "chore(resolve-issue): resolve #${{ github.event.issue.number }}"
           git pull --rebase -X ours
           git push
+
+      - name: Build site
+        run: npm run build
+
+      - name: Deploy site
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.SITE_FTP_HOST }}
+          username: ${{ secrets.SITE_FTP_USER }}
+          password: ${{ secrets.SITE_FTP_PASSWORD }}
+          server-dir: ${{ secrets.SITE_FTP_PATH }}
+          local-dir: ./dist/client/
+          exclude: ./store/**
