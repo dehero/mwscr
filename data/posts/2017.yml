@@ -1037,7 +1037,7 @@
     - service: vk
       id: 1531
       published: 2024-05-13-18-17-48
-      updated: 2024-08-06-02-37-03
+      updated: 2024-08-13-03-17-02
       followers: 915
       likes: 35
       views: 250
@@ -1045,10 +1045,10 @@
     - service: tg
       id: 407
       published: 2024-05-13-18-17-54
-      updated: 2024-08-06-02-37-01
+      updated: 2024-08-13-03-17-00
       followers: 370
       likes: 62
-      views: 415
+      views: 422
       comments: !c |-
         iz6AkZTLQnj3MuobgACpR2F0ZW1hdGU3vWhvdyBkbyBpIHN1Ym1pdCBhIHNjcmVlbnNob3Q/k8tC
         ePcy8qcAAKVtd3Njctk5aHR0cHM6Ly9naXRodWIuY29tL2RlaGVyby9td3Njci9ibG9iL21haW4v
@@ -8410,7 +8410,7 @@
     - service: vk
       id: 1548
       published: 2024-05-27-18-19-06
-      updated: 2024-08-06-02-37-01
+      updated: 2024-08-13-03-17-01
       followers: 918
       likes: 36
       views: 257
@@ -8418,10 +8418,10 @@
     - service: tg
       id: 421
       published: 2024-05-27-18-19-15
-      updated: 2024-08-06-02-37-00
+      updated: 2024-08-13-03-16-59
       followers: 377
-      likes: 65
-      views: 484
+      likes: 66
+      views: 510
       comments: !c |-
         CxyAkpPLQnj8Xwd/AACraGVhcnRfZm9ybXOk8J+RipPLQnj8XwUOAACraGVhcnRfZm9ybXOmRmln
         aHQhAw==
@@ -8452,22 +8452,22 @@
       id: C-lHoO7sfCY
       mediaId: '17866186293127672'
       published: 2024-08-12-18-30-32
-      updated: 2024-08-13-02-36-17
+      updated: 2024-08-13-03-16-56
       followers: 1437
-      likes: 55
-      views: 152
+      likes: 56
+      views: 156
     - service: vk
       id: 1688
       published: 2024-08-12-18-30-39
-      updated: 2024-08-13-02-36-17
+      updated: 2024-08-13-03-16-57
       followers: 931
       likes: 22
-      views: 100
+      views: 103
       reposts: 1
     - service: tg
       id: 499
       published: 2024-08-12-18-30-46
-      updated: 2024-08-13-02-36-18
+      updated: 2024-08-13-03-16-57
       followers: 523
       likes: 40
       views: 134
@@ -10146,17 +10146,17 @@
     - service: vk
       id: 1477
       published: 2024-04-01-18-10-59
-      updated: 2024-08-06-02-37-06
+      updated: 2024-08-13-03-17-05
       followers: 906
       likes: 33
       views: 307
     - service: tg
       id: 364
       published: 2024-04-01-18-11-06
-      updated: 2024-08-06-02-37-03
+      updated: 2024-08-13-03-17-02
       followers: 354
       likes: 61
-      views: 448
+      views: 449
       comments: !c CxOAkZPLQnjps+/8gACoQWVsbGFyaWGyVmVsZGlnIGZpbnQgYmlsZGUhAw==
 2017-11-19-bottle-collection:
   title: Bottle Collection
