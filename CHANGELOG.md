@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.2](https://github.com/dehero/mwscr/compare/v1.9.1...v1.9.2) (2024-08-13)
+
+### Bug Fixes
+
+- resize wallpapers when publishing to Instagram
+  ([4291f96](https://github.com/dehero/mwscr/commit/4291f96f9fa608eaa4912ad835df0fed0842aaf0))
+
 ## [1.9.1](https://github.com/dehero/mwscr/compare/v1.9.0...v1.9.1) (2024-08-13)
 
 ### Bug Fixes
