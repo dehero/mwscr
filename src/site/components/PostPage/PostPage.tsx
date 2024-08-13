@@ -52,7 +52,7 @@ export interface PostPageData {
 export const PostPage: Component = () => {
   const { addToast } = useToaster();
   const params = useParams<PostRouteParams>();
-  let selectedContentRef: HTMLObjectElement | undefined;
+  let selectedContentRef: HTMLImageElement | undefined;
 
   const [selectedContentIndex, setSelectedContentIndex] = createSignal(0);
 
@@ -110,6 +110,9 @@ export const PostPage: Component = () => {
 
   const handleContentError = (url: string) => {
     addToast(`Failed to load content: ${url}`);
+    if (selectedContentRef && selectedContentRef.src !== YellowExclamationMark) {
+      selectedContentRef.src = YellowExclamationMark;
+    }
     setIsLoading(false);
   };
 
@@ -129,10 +132,10 @@ export const PostPage: Component = () => {
   };
 
   onMount(() => {
-    const data = selectedContentPublicUrl();
-    if (selectedContentRef && data) {
-      // Force trigger onLoad event after hydration by changing data
-      selectedContentRef.data = data;
+    const src = selectedContentPublicUrl();
+    if (selectedContentRef && src) {
+      // Force trigger onLoad event after hydration by changing src
+      selectedContentRef.src = src;
     }
   });
 
@@ -209,17 +212,15 @@ export const PostPage: Component = () => {
                         </Match>
                         <Match when={resourceIsImage(url()) && selectedContentPublicUrl()}>
                           <Frame
-                            component="object"
+                            component="img"
                             ref={selectedContentRef}
-                            data={selectedContentPublicUrl()}
+                            src={selectedContentPublicUrl()}
                             class={clsx(styles.selectedContent, styles.image)}
                             onLoad={handleContentLoad}
                             onError={() => handleContentError(selectedContentPublicUrl()!)}
                             style={{ 'aspect-ratio': aspectRatio() }}
-                            aria-label={alt() || url()}
-                          >
-                            <img src={YellowExclamationMark} class={styles.image} alt="yellow exclamation mark" />
-                          </Frame>
+                            aria-label={url() === YellowExclamationMark ? 'yellow exclamation mark' : alt() || url()}
+                          />
 
                           <Button
                             href={selectedContentPublicUrl()}

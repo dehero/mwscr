@@ -23,19 +23,28 @@ export interface ResourcePreviewProps {
 export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
   const { addToast } = useToaster();
   const parsedUrl = () => parseResourceUrl(props.url);
-  const src = () => getResourcePreviewUrl(props.url);
-  let ref: HTMLObjectElement | undefined;
+  const url = () => getResourcePreviewUrl(props.url);
+  let ref: HTMLImageElement | undefined;
+
+  const handleLoad = () => {
+    if (ref?.src !== YellowExclamationMark) {
+      props.onLoad?.();
+    }
+  };
 
   const handleError = () => {
-    addToast(`Failed to load preview: ${src()}`);
+    addToast(`Failed to load preview: ${url()}`);
+    if (ref && ref.src !== YellowExclamationMark) {
+      ref.src = YellowExclamationMark;
+    }
     props.onError?.();
   };
 
   onMount(() => {
-    const data = src();
-    if (ref && data) {
-      // Force trigger onLoad event after hydration by changing data
-      ref.data = data;
+    const src = url();
+    if (ref && src) {
+      // Force trigger onLoad event after hydration by changing src
+      ref.src = src;
     }
   });
 
@@ -53,18 +62,16 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
     >
       <Match when={parsedUrl().protocol === 'store:'}>
         <Frame
-          component="object"
-          data={src()}
+          component="img"
+          src={url()}
           ref={ref}
           class={clsx(styles.preview, props.class)}
           draggable="false"
-          onLoad={props.onLoad}
+          onLoad={handleLoad}
           onError={handleError}
           style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
-          aria-label={props.alt || props.url}
-        >
-          <img src={YellowExclamationMark} class={styles.preview} alt="yellow exclamation mark" />
-        </Frame>
+          aria-label={url() === YellowExclamationMark ? 'yellow exclamation mark' : props.alt || props.url}
+        />
 
         <Show when={props.showTooltip}>
           <Tooltip forRef={ref}>{props.url}</Tooltip>
