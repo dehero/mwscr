@@ -39,10 +39,10 @@
     - service: tg
       id: 203
       published: 2020-05-13
-      updated: 2024-08-06-13-19-46
+      updated: 2024-08-13-14-04-47
       followers: 117
       likes: 2
-      views: 689
+      views: 690
 2020-05-14-inside-a-furnace:
   title: Inside a Furnace
   titleRu: В кузнечном горне
@@ -79,10 +79,10 @@
     - service: tg
       id: 204
       published: 2020-05-14
-      updated: 2024-08-06-13-19-45
+      updated: 2024-08-13-14-04-46
       followers: 116
       likes: 2
-      views: 687
+      views: 688
 2020-05-15-brave-riekling:
   title: Brave Riekling
   titleRu: Храбрый рьеклинг
@@ -124,10 +124,10 @@
     - service: tg
       id: 205
       published: 2020-05-15
-      updated: 2024-08-06-13-19-45
+      updated: 2024-08-13-14-04-46
       followers: 116
       likes: 4
-      views: 698
+      views: 699
 2020-05-16-tel-mora:
   title: Tel Mora
   titleRu: Тель Мора
@@ -161,10 +161,10 @@
     - service: tg
       id: 206
       published: 2020-05-16
-      updated: 2024-08-06-13-19-44
+      updated: 2024-08-13-14-04-45
       followers: 118
       likes: 5
-      views: 716
+      views: 717
 2020-05-17-ama-nin:
   title: Ama Nin
   titleRu: Ама Нин
@@ -194,10 +194,10 @@
     - service: tg
       id: 207
       published: 2020-05-17
-      updated: 2024-08-06-13-19-44
+      updated: 2024-08-13-14-04-45
       followers: 118
       likes: 4
-      views: 697
+      views: 698
 2020-05-18-behind-the-wall:
   title: Behind the Wall
   titleRu: За стеной
@@ -230,10 +230,10 @@
     - service: tg
       id: 208
       published: 2020-05-18
-      updated: 2024-08-06-13-19-43
+      updated: 2024-08-13-14-04-44
       followers: 119
       likes: 3
-      views: 722
+      views: 723
 2020-05-19-night-guard:
   title: Night Guard
   titleRu: Ночной страж
@@ -271,10 +271,10 @@
     - service: tg
       id: 209
       published: 2020-05-19
-      updated: 2024-08-06-13-19-43
+      updated: 2024-08-13-14-04-44
       followers: 120
       likes: 4
-      views: 731
+      views: 732
 2020-05-20-bridges:
   title: Bridges
   titleRu: Мосты
@@ -312,10 +312,10 @@
     - service: tg
       id: 210
       published: 2020-05-20
-      updated: 2024-08-06-13-19-42
+      updated: 2024-08-13-14-04-43
       followers: 122
       likes: 4
-      views: 786
+      views: 787
 2020-05-21-deadly-attack:
   title: Deadly Attack
   titleRu: Смертельная атака
@@ -346,10 +346,10 @@
     - service: tg
       id: 211
       published: 2020-05-21
-      updated: 2024-08-06-13-19-42
+      updated: 2024-08-13-14-04-43
       followers: 123
       likes: 3
-      views: 808
+      views: 809
 2020-05-22-apothecary-door:
   title: Apothecary Door
   titleRu: Дверь аптекаря
@@ -380,10 +380,10 @@
     - service: tg
       id: 212
       published: 2020-05-22
-      updated: 2024-08-06-13-19-41
+      updated: 2024-08-13-14-04-42
       followers: 125
       likes: 3
-      views: 812
+      views: 813
 2020-05-23-rainy-day-in-sadrith-mora:
   title: Rainy Day in Sadrith Mora
   titleRu: Дождливый день в Садрит Море
@@ -416,10 +416,10 @@
     - service: tg
       id: 213
       published: 2020-05-23
-      updated: 2024-08-06-13-19-41
+      updated: 2024-08-13-14-04-42
       followers: 126
       likes: 3
-      views: 869
+      views: 870
 2020-05-24-at-the-bitter-coast:
   title: At the Bitter Coast
   titleRu: На Горьком берегу
@@ -451,10 +451,10 @@
     - service: tg
       id: 214
       published: 2020-05-24
-      updated: 2024-08-06-13-19-40
+      updated: 2024-08-13-14-04-41
       followers: 126
       likes: 3
-      views: 1030
+      views: 1031
 2020-05-25-water-supply:
   title: Water Supply
   titleRu: Запас воды
@@ -489,10 +489,10 @@
     - service: tg
       id: 215
       published: 2020-05-25
-      updated: 2024-08-06-13-19-39
+      updated: 2024-08-13-14-04-40
       followers: 126
       likes: 3
-      views: 1035
+      views: 1036
 2020-05-26-forgotten-urns:
   title: Forgotten Urns
   titleRu: Забытые урны
@@ -528,10 +528,10 @@
     - service: tg
       id: 216
       published: 2020-05-26
-      updated: 2024-08-06-13-19-39
+      updated: 2024-08-13-14-04-39
       followers: 125
       likes: 3
-      views: 1110
+      views: 1111
 2020-10-10-assurnabitashpi:
   title: Assurnabitashpi
   titleRu: Ассурнабиташпи
@@ -566,10 +566,10 @@
     - service: tg
       id: 217
       published: 2020-10-10
-      updated: 2024-08-06-13-19-38
+      updated: 2024-08-13-14-04-39
       followers: 159
       likes: 4
-      views: 701
+      views: 702
       comments: !c |-
         GyQEQORyDUtZV7i9IvH2bg8onSQlUK+BFTDZn/cIGt1b/X4LFbH4YyT+lnfvsIeoJJJ4q0RCtKTT
         aQlUJnP+7cUb1J68Z/H7XjYsD8a3eIxdJNnM6jg99evo4fOcX/TTZNcOO2etGKZP0n48SqmCwPLR
@@ -610,10 +610,10 @@
     - service: tg
       id: 218
       published: 2020-10-11
-      updated: 2024-08-06-13-19-37
+      updated: 2024-08-13-14-04-38
       followers: 162
       likes: 5
-      views: 720
+      views: 721
       comments: !c |-
         i0GAk5PLQndRjPV7gACoYW5ub2RhcnSk8J+RjZPLQndRjMZdAACqQXJ1dG9yaXVzda1WZXJ5IG5v
         c3RhbGdpk8tCd1GMDNEAAKlsb3ZlbXl3YXnZMkFtYXppbmcgY2hhbm5lbCwgYXBwcmVjaWF0ZSBu
@@ -655,10 +655,10 @@
     - service: tg
       id: 219
       published: 2020-10-12
-      updated: 2024-08-06-13-19-37
+      updated: 2024-08-13-14-04-38
       followers: 163
       likes: 6
-      views: 773
+      views: 774
       comments: !c |-
         G50BIIzTJTanMkc+/ZzGldh/WdCkgRx6YFAdsQVENYUvahc11elVE9rgTV0WDsNCm2HnPUqzcZch
         unaeuevx2UPRcWkak6b4vbL4bqy5JYoKRe27I+FcMZANFA+VjuCeQLVUBZW+9fM7LJq6h1eZPyO4
@@ -707,10 +707,10 @@
     - service: tg
       id: 220
       published: 2020-10-13
-      updated: 2024-08-06-13-19-36
+      updated: 2024-08-13-14-04-37
       followers: 166
       likes: 5
-      views: 703
+      views: 704
       comments: !c |-
         GxMBwIzDuLHblMOr2Du6eWLPLzD1d2rpsm3ZmCQBRW3P/7pF+qi4CajWwjD7s/u28za/EaMgcgf6
         +GB8/1uSBXFB87ZUooALgjyobQ4uq2J8gdLQ5V+ebXKN/y8NoVWRzwTZk6CtIK8R0EswuaOtCS0L
@@ -743,10 +743,10 @@
     - service: tg
       id: 221
       published: 2020-10-14
-      updated: 2024-08-06-13-19-36
+      updated: 2024-08-13-14-04-37
       followers: 167
       likes: 4
-      views: 715
+      views: 716
       comments: !c |-
         iyqAkZTLQndSkRe4gACodWViYW4xMjOk8J+RgZPLQndS4YYNgACoYW5ub2RhcnTZKE5pY2UgcGFj
         ayBidXQgc3JzbHkgbm8gZ29sZGVuIHNhaW50PyBXdGgD
@@ -784,10 +784,10 @@
     - service: tg
       id: 222
       published: 2020-10-15
-      updated: 2024-08-06-13-19-35
+      updated: 2024-08-13-14-04-36
       followers: 166
       likes: 4
-      views: 718
+      views: 719
       comments: !c |-
         iymAkZTLQndS3n9lAACuUmF0aGVyQmVlQUNhcHnZIE1hZCByZXNwZWN0IGZvciBvdXIgYm95cyBp
         biBnb2xkk8tCd1Lhp/0AAKhhbm5vZGFydKTwn5i8Aw==
@@ -818,10 +818,10 @@
     - service: tg
       id: 223
       published: 2020-10-16
-      updated: 2024-08-06-13-19-34
+      updated: 2024-08-13-14-04-35
       followers: 165
       likes: 3
-      views: 722
+      views: 723
       comments: !c |-
         G3AAiI3TFfduENI4QqUPnnuQTB+Jt0ge0CNK9BN7kQzo2VTICQ45YL/5QTBpiyqgpGSSuoonwsYG
         tWiC+O6cZiSJbgb98auCFvglbNjV05wnRSMCWB1j0QDMuAPF3EV+hI0NMqcE8VrBWCXTDMy6W+LL
@@ -861,10 +861,10 @@
     - service: tg
       id: 224
       published: 2020-10-17
-      updated: 2024-08-06-13-19-34
+      updated: 2024-08-13-14-04-35
       followers: 165
       likes: 4
-      views: 764
+      views: 765
       comments: !c CwyAkZPLQndThctGgACoYW5ub2RhcnSk8J+YjQM=
 2020-10-18-on-the-other-side:
   title: On the Other Side
@@ -900,10 +900,10 @@
     - service: tg
       id: 225
       published: 2020-10-18
-      updated: 2024-08-06-13-19-20
+      updated: 2024-08-13-14-04-34
       followers: 165
       likes: 5
-      views: 785
+      views: 786
       comments: !c |-
         G1wAAGTw5oRHt6KoT9fSgM6z9wQLPJDESr9TTjgwbkmgYRYeyO8NdiYMi06vZT2dwb+hDcDmepJm
         KD873NIjcpyzKBChQUzNi9KE4jrEm5TNHAx7CbOoaCbkxE2mAA==
@@ -933,10 +933,10 @@
     - service: tg
       id: 226
       published: 2020-10-19
-      updated: 2024-08-06-13-19-19
+      updated: 2024-08-13-14-04-34
       followers: 165
       likes: 3
-      views: 797
+      views: 798
       comments: !c |-
         GyACoIzTHTMaB6PTuprLmyq1BSBFJBH2kw3QfYBcyQMrYksgTFnGd/zLpkPT08BNOf6smZ73KHyH
         osDKMi77ewyzbdLS0Fbro0XKQRbvdzsb7+3hMPGPsQu0LC6i472ZJQAkMYghbbRAZn93k+AvQ+rz
@@ -977,10 +977,10 @@
     - service: tg
       id: 227
       published: 2020-10-20
-      updated: 2024-08-06-13-19-19
+      updated: 2024-08-13-14-04-33
       followers: 165
       likes: 4
-      views: 822
+      views: 823
       comments: !c iw6AkZPLQndUcvs/AACrUmF0dGVudmllY2imUHJldHR5Aw==
 2020-10-21-land-of-rain:
   title: Land of Rain
@@ -1017,10 +1017,10 @@
     - service: tg
       id: 228
       published: 2020-10-21
-      updated: 2024-08-06-13-19-18
+      updated: 2024-08-13-14-04-33
       followers: 165
       likes: 6
-      views: 838
+      views: 839
       comments: !c |-
         G9MBQBwHdsNX2BqKs/xIyYIuN0XJp6pbyKkMSeDvyNrGdwg/ltMIW1veM3deUIXdRRZjNNhwN/Gl
         w0eS1S7RMCDeu5WkmWqKAooCLIow0iZL3+RVz8/pJlaGJhPd6/l2qLrYAXdqjB1oSFPOFphOAIxA
@@ -1057,10 +1057,10 @@
     - service: tg
       id: 229
       published: 2020-10-22
-      updated: 2024-08-06-13-19-17
+      updated: 2024-08-13-14-04-32
       followers: 164
       likes: 4
-      views: 863
+      views: 864
       comments: !c iwuAkZPLQndVHXB0AACnZGVsZXRlZKTwn5iBAw==
 2020-10-23-long-long-passageways-of-vivec:
   title: Long-Long Passageways of Vivec
@@ -1093,10 +1093,10 @@
     - service: tg
       id: 230
       published: 2020-10-23
-      updated: 2024-08-06-13-19-17
+      updated: 2024-08-13-14-04-31
       followers: 165
       likes: 5
-      views: 891
+      views: 892
       comments: !c |-
         G7UAMIzTZXZIfar85+/nAxzgH1Zi23zjqrICjPamYZ6L04Fs6jZLaGIzCIY6keHw87rBgQYYmEdW
         OQw8+TJswIlF67jN8teT6d2Us95MgsL2UU/Sk3UkA1GlSqG5ooE41MKnOkg9PKT0IqyJUbO2zpZF
@@ -1132,10 +1132,10 @@
     - service: tg
       id: 231
       published: 2020-10-24
-      updated: 2024-08-06-13-19-16
+      updated: 2024-08-13-14-04-31
       followers: 166
       likes: 4
-      views: 928
+      views: 929
       comments: !c |-
         iyKAkpPLQndVypv/AACqUGl1cGl1MTI0N67QotC10LvQstCw0L3QuJPLQndVyTlCgACoYW5ub2Rh
         cnStZ3JlYXQgZGV0YWlscwM=
@@ -1166,10 +1166,10 @@
     - service: tg
       id: 232
       published: 2020-10-25
-      updated: 2024-08-06-13-19-15
+      updated: 2024-08-13-14-04-30
       followers: 166
       likes: 4
-      views: 968
+      views: 969
       comments: !c |-
         GzwBgBwHTpm9GKervvTk5VgoIpIPnfsT2Px0DdQ2Ta/8FcL/A1aQ5DvcenvrSvtnU0Wt3R7ZRFGo
         2AMMNziPKEptfphspMEO4XWn90tg/FpBT76ATqUF0g6UYfMgEEy3eYmnd9khiItgO/plt3/jOlJ3
@@ -1202,10 +1202,10 @@
     - service: tg
       id: 233
       published: 2020-10-26
-      updated: 2024-08-06-13-19-15
+      updated: 2024-08-13-14-04-29
       followers: 167
       likes: 3
-      views: 998
+      views: 999
 2020-10-27-misty-passage:
   title: Misty Passage
   titleRu: Туманный переход
@@ -1238,10 +1238,10 @@
     - service: tg
       id: 234
       published: 2020-10-27
-      updated: 2024-08-06-13-19-14
+      updated: 2024-08-13-14-04-29
       followers: 167
       likes: 3
-      views: 1016
+      views: 1017
 2020-10-28-cave-of-suffering:
   title: Cave of Suffering
   titleRu: Пещера страданий
@@ -1272,10 +1272,10 @@
     - service: tg
       id: 235
       published: 2020-10-28
-      updated: 2024-08-06-13-19-14
+      updated: 2024-08-13-14-04-28
       followers: 167
       likes: 5
-      views: 1090
+      views: 1091
       comments: !c |-
         G68DgIzDOCY8aNxZSQfXPMIvr8IosNfH5wdJsLaMbbQJzGv7zVdVzxnXtdxeGtkLkEIO8vLmX8b1
         KkWNxrgKU6umE8Ymzu6mNnUf1Wgyj0w3ClAKjZA/mJsGHTp2lidBT3PEt4ZF/lb7GT9MhbAFoq1Q
@@ -1312,10 +1312,10 @@
     - service: tg
       id: 236
       published: 2020-10-29
-      updated: 2024-08-06-13-19-13
+      updated: 2024-08-13-14-04-28
       followers: 167
       likes: 4
-      views: 1117
+      views: 1118
       comments: !c |-
         G+MAAIyUbsI8//9PjWDxgxes2uOl7PnSSXsCj0ky78e46UrplsT07l4ObnAcWAHyhqNM+roNg2wy
         eAxv5V65xPZweFeatV7p1RWuFMZBaDbJKaqFDCBw01skQ8G8C/ARQzjrQTAOwLvCuoIZFrBNiEhc
@@ -1351,10 +1351,10 @@
     - service: tg
       id: 237
       published: 2020-10-30
-      updated: 2024-08-06-13-19-12
+      updated: 2024-08-13-14-04-27
       followers: 167
       likes: 5
-      views: 1137
+      views: 1138
       comments: !c ixSAkZPLQngfEDYyAACobW9uZ2xlcmm1VGhhdCBpcyBoYXJkIHRvIHNwZWxsAw==
 2020-10-31-entrance-to-sanni:
   title: Entrance to Sanni
@@ -1383,10 +1383,10 @@
     - service: tg
       id: 238
       published: 2020-10-31
-      updated: 2024-08-06-13-19-12
+      updated: 2024-08-13-14-04-26
       followers: 167
       likes: 5
-      views: 1250
+      views: 1251
 2020-11-01-grazing-grazelands:
   title: Grazing Grazelands
   titleRu: Паря над Грейзлендом
@@ -1414,10 +1414,10 @@
     - service: tg
       id: 239
       published: 2020-11-01
-      updated: 2024-08-06-13-19-11
+      updated: 2024-08-13-14-04-26
       followers: 167
       likes: 6
-      views: 1281
+      views: 1282
       comments: !c |-
         G8oAYBwH1a1M85iX/PJkuQypn7/Z18QeRRu0eA4aY4hOkbo7ogOq34jKpPZIEqAxqMmJBsb3e3nC
         GDNsCyioGw7rzyhd+QzyeFx/brV7nQ398ocyHifgq3aOXk0HwSHTxONEgGbHc5Y0UwSZFUZdtGih
@@ -1455,10 +1455,10 @@
     - service: tg
       id: 240
       published: 2020-11-02
-      updated: 2024-08-06-13-19-11
+      updated: 2024-08-13-14-04-25
       followers: 166
       likes: 12
-      views: 1375
+      views: 1376
       comments: !c |-
         G2kBIIzUWa03tv3/93MFMpzdgVRRUuoPfPG7bGtvoLCd0cBGA/pRPnhTdDggvj86QOF9rCWYa5OG
         se0zPjEJjqBfp+t/HPG4WFpl3jNLNs0EGMEVfF9JGY+iMiyq81DnmayhxDBULNMbwNQOQtOHAJAm
@@ -1494,10 +1494,10 @@
     - service: tg
       id: 241
       published: 2020-11-03
-      updated: 2024-08-06-13-19-10
+      updated: 2024-08-13-14-04-25
       followers: 166
       likes: 10
-      views: 1581
+      views: 1582
       comments: !c CxSAkZPLQngcLbIjAAClbXdzY3K3TmdsIHRoZSB2aWJlIGlzIGFueGlvdXMD
 2020-11-05-night-pasture:
   title: Night Pasture
@@ -1532,10 +1532,10 @@
     - service: tg
       id: 242
       published: 2020-11-05
-      updated: 2024-08-06-13-19-09
+      updated: 2024-08-13-14-04-24
       followers: 166
       likes: 11
-      views: 1804
+      views: 1805
       comments: !c ixmAkpPLQneDVGLdgACnTHVmZW5kb6V3aG9haJPLQndZwIVGgACpUmVkb3JhbmFypuKdpO+4jwM=
 2020-11-07-mushroom-fields-forever:
   title: Mushroom Fields Forever
@@ -1566,10 +1566,10 @@
     - service: tg
       id: 243
       published: 2020-11-07
-      updated: 2024-08-06-13-19-09
+      updated: 2024-08-13-14-04-23
       followers: 167
       likes: 10
-      views: 1944
+      views: 1945
       comments: !c |-
         G9MAAMQH92sr/TRdae64bSdilabm70cqIVFxymmAAXIYIHbA4Nvx4CEr7ZcU8zTQ/65KFEakG4Ss
         +9oiHZT5u9rbYlsYxw4ucI0r7OEK7OufMVIkWxW0LexlfhfroNGu8PzvRC8was94hJwGA8Eus7dq
@@ -1612,10 +1612,10 @@
     - service: tg
       id: 244
       published: 2020-11-09
-      updated: 2024-08-06-13-19-08
+      updated: 2024-08-13-14-04-23
       followers: 169
       likes: 14
-      views: 2485
+      views: 2486
       comments: !c |-
         CyiAkpPLQnf+6WhCAACpUmVkb3JhbmFyvmh0dHBzOi8vdC5tZS9Nb3Jyb3dpbmRUZWxlZ3JhbZPL
         QndkLo7RAACpUHVkZGxlc1BrqGJpZyBkZWFsAw==
@@ -1655,10 +1655,10 @@
     - service: tg
       id: 245
       published: 2020-11-11
-      updated: 2024-08-06-13-19-08
+      updated: 2024-08-13-14-04-09
       followers: 169
       likes: 18
-      views: 2549
+      views: 2550
       comments: !c |-
         G+EDQKwOeI66OQveoofCxcQUb2NTni8/tKHg//3pquRL42uRVcwhsWtIgvvxuFqQ7VYC9rk22y7l
         //Vv0RStdoubRjdDRXhexgtnc54R5YEkKtu9GqKsG5FlUo2fsywkqTlKODH/v19bSMJDxRuzibiz
