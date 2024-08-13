@@ -28,14 +28,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZWmfSHjJ5N/)       | 2017-09-22 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_438)  | 2017-09-22 |   130 |    14 |        82 |     14 |
-| [`ig`](https://instagram.com/p/C-lHoO7sfCY/)       | 2024-08-12 |   164 |    60 |      1437 |   4.18 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1688) | 2024-08-12 |   114 |    25 |       931 |   2.69 |
-| [`tg`](https://t.me/mwscr/499)                     | 2024-08-12 |   143 |    43 |       523 |   8.22 |
-|                                                    |            |   551 |   203 |      2891 |   7.27 |
+| [`ig`](https://instagram.com/p/C-lHoO7sfCY/)       | 2024-08-12 |   167 |    63 |      1437 |   4.38 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1688) | 2024-08-12 |   125 |    27 |       931 |    2.9 |
+| [`tg`](https://t.me/mwscr/499)                     | 2024-08-12 |   149 |    44 |       523 |   8.41 |
+|                                                    |            |   571 |   209 |      2891 |   7.42 |
 
 #### Comments
 
 - `tg` <ins title="2024-08-13-00-54-42">Gatemate7</ins> a wagie&#39;s demise
+  - <ins title="2024-08-13-06-00-46">ansis</ins> the cave dwellings provided by the town of Gnisis are quite cozy if a bit cold and damp
 
 ## <span id="2024-08-11-lonely-fargoth">Lonely Fargoth</span>
 
@@ -59,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNTmMGTF7rY/)       | 2016-11-27 |       |    19 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_14)   | 2017-01-22 |    51 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C-ihqretmf0/)       | 2024-08-11 |   478 |   102 |      1437 |    7.1 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1687) | 2024-08-11 |   187 |    39 |       930 |   4.19 |
-| [`tg`](https://t.me/mwscr/498)                     | 2024-08-11 |   221 |    53 |       520 |  10.19 |
-|                                                    |            |   937 |   216 |      2887 |   6.12 |
+| [`ig`](https://instagram.com/p/C-ihqretmf0/)       | 2024-08-11 |   480 |   102 |      1437 |    7.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1687) | 2024-08-11 |   190 |    39 |       930 |   4.19 |
+| [`tg`](https://t.me/mwscr/498)                     | 2024-08-11 |   225 |    53 |       520 |  10.19 |
+|                                                    |            |   946 |   216 |      2887 |   6.12 |
 
 #### Comments
 
