@@ -3144,17 +3144,18 @@
     - service: vk
       id: 1683
       published: 2024-08-09-18-20-05
-      updated: 2024-08-12-18-20-40
+      updated: 2024-08-13-18-55-29
       followers: 927
-      likes: 28
-      views: 202
+      likes: 29
+      views: 220
+      reposts: 1
     - service: tg
       id: 496
       published: 2024-08-09-18-20-14
-      updated: 2024-08-12-18-20-40
+      updated: 2024-08-13-18-55-28
       followers: 513
-      likes: 63
-      views: 285
+      likes: 65
+      views: 326
 2018-04-13-solitary-pier:
   title: Solitary Pier
   titleRu: Уединённый причал
@@ -7265,10 +7266,10 @@
       id: C-azUnhJNPE
       mediaId: '18042652126778108'
       published: 2024-08-08-18-20-42
-      updated: 2024-08-12-18-20-43
+      updated: 2024-08-13-18-55-29
       followers: 1437
       likes: 92
-      views: 408
+      views: 417
       comments: !c |-
         Gw4CIIzEOKZwIx5Y9Mt+C3yd0R900WxNQ/bv1ojqSW39dqFdSOIhX+JQwfufpwEMBoz/y1iU2jwv
         NkC1tIA1HdP6PE+3h6SUBRM+B/OXlOGKfh1NphtSkmSyxgUae/WmwTkith2QJ5KaMYBzfgQtiM3/
@@ -7279,21 +7280,21 @@
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2024-08-12-18-20-41
+      updated: 2024-08-13-18-55-30
       followers: 927
-      likes: 34
-      views: 252
-      reposts: 1
+      likes: 35
+      views: 260
+      reposts: 2
       comments: !c |-
         CyKAkZPLQnkTND+3gACxY2xpZmZyYWNlcnNraWxsZXLZJtCl0L7RgNC60LXRgDog0LzRj9C90Y8g
         0L/QvtC60LDQttC4Li4uAw==
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2024-08-12-18-20-41
+      updated: 2024-08-13-18-55-28
       followers: 508
-      likes: 61
-      views: 309
+      likes: 63
+      views: 327
       comments: !c CxSAkZPLQnkT2JKcgACtdW5jaGFpbnV0b3BpYa93YW5uYSBsaXZlIGhlcmUD
 2018-08-29-darius:
   title: Darius

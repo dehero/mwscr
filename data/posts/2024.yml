@@ -2265,3 +2265,27 @@
 2024-08-10-uthrel-sarys: 2018-02-23-uthrel-sarys
 2024-08-11-lonely-fargoth: 2016-11-27-lonely-fargoth
 2024-08-12-near-gnisis-eggmine: 2017-09-22-near-gnisis-eggmine
+2024-08-13-night-sky-above-suran:
+  title: Night Sky Above Suran
+  titleRu: Ночное небо над Сураном
+  location: Suran
+  content: store:/wallpapers/2024-08-13-night-sky-above-suran.png
+  trash: store:/trash/dehero.2022-04-11-23-55-01.1.png
+  type: wallpaper-v
+  author: dehero
+  engine: OpenMW
+  tags:
+    - night
+    - sky
+    - moons
+    - stars
+  mark: A2
+  posts:
+    - service: vk
+      id: 1689
+      published: 2024-08-13-18-55-56
+      followers: 931
+    - service: tg
+      id: 500
+      published: 2024-08-13-18-56-05
+      followers: 527
