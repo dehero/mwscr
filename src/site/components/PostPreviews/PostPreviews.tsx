@@ -22,7 +22,9 @@ export const PostPreviews: Component<PostPreviewsProps> = (props) => {
             <p class={styles.label}>{props.label}</p>
           </Show>
           <div class={styles.items}>
-            <For each={lastPostInfos()}>{(postInfo) => <PostPreview postInfo={postInfo} class={styles.item} />}</For>
+            <For each={lastPostInfos()}>
+              {(postInfo) => <PostPreview postInfo={postInfo} class={styles.item} maxHeightMultiplier={1} />}
+            </For>
           </div>
         </div>
       }

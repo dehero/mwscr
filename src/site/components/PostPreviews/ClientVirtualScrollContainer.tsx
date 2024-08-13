@@ -41,7 +41,7 @@ export const ClientVirtualScrollContainer: Component<PostPreviewsProps> = (props
       >
         {(itemProps) => (
           <div style={itemProps.style} class={styles.virtualItem} tabIndex={itemProps.tabIndex} role="listitem">
-            <PostPreview postInfo={itemProps.item} class={styles.item} />
+            <PostPreview postInfo={itemProps.item} class={styles.item} maxHeightMultiplier={1} />
           </div>
         )}
       </VirtualContainer>

@@ -21,6 +21,7 @@ export const POST_PREVIEW_GAP = 3;
 export interface PostPreviewProps {
   class?: string;
   postInfo: PostInfo;
+  maxHeightMultiplier?: number;
 }
 
 export const PostPreview: Component<PostPreviewProps> = (props) => {
@@ -56,7 +57,13 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
         <Show
           when={content().length > 2}
           fallback={
-            <ResourcePreview url={content()[0] || ''} aspectRatio={aspectRatio()} class={styles.image} alt={alt()} />
+            <ResourcePreview
+              url={content()[0] || ''}
+              aspectRatio={aspectRatio()}
+              class={styles.image}
+              alt={alt()}
+              maxHeightMultiplier={props.maxHeightMultiplier}
+            />
           }
         >
           <div class={clsx(styles[props.postInfo.type], styles.setContainer)}>

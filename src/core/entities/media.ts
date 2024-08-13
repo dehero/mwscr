@@ -26,3 +26,8 @@ export function checkMediaAspectRatio(aspectRatio: MediaAspectRatio, metadata: M
 
   return metadata.width / metadata.height === Number(w) / Number(h);
 }
+
+export function getAspectRatioHeightMultiplier(aspectRatio: MediaAspectRatio) {
+  const [w, h] = aspectRatio.split('/');
+  return Number(h) / Number(w);
+}

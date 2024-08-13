@@ -9,4 +9,5 @@
   /* Compensate cursor size */
   left: 8px;
   top: 0;
+  z-index: 9999;
 }
