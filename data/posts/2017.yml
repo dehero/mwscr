@@ -4681,7 +4681,7 @@
     - service: vk
       id: 1456
       published: 2024-03-18-18-11-07
-      updated: 2024-08-06-04-19-29
+      updated: 2024-08-13-05-15-30
       followers: 896
       likes: 32
       views: 278
@@ -4693,10 +4693,10 @@
     - service: tg
       id: 350
       published: 2024-03-18-18-11-16
-      updated: 2024-08-06-04-19-29
+      updated: 2024-08-13-05-15-30
       followers: 353
       likes: 55
-      views: 464
+      views: 467
 2017-05-19-queen-mother-in-her-chambers:
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
@@ -8452,25 +8452,25 @@
       id: C-lHoO7sfCY
       mediaId: '17866186293127672'
       published: 2024-08-12-18-30-32
-      updated: 2024-08-13-04-17-48
+      updated: 2024-08-13-05-15-27
       followers: 1437
-      likes: 59
-      views: 160
+      likes: 60
+      views: 164
     - service: vk
       id: 1688
       published: 2024-08-12-18-30-39
-      updated: 2024-08-13-04-17-48
+      updated: 2024-08-13-05-15-27
       followers: 931
-      likes: 23
-      views: 107
+      likes: 25
+      views: 114
       reposts: 1
     - service: tg
       id: 499
       published: 2024-08-12-18-30-46
-      updated: 2024-08-13-04-17-49
+      updated: 2024-08-13-05-15-28
       followers: 523
-      likes: 42
-      views: 139
+      likes: 43
+      views: 143
       comments: !c ixKAkZPLQnkUk65FAACpR2F0ZW1hdGU3sGEgd2FnaWUncyBkZW1pc2UD
 2017-09-23-misty-halt:
   title: Misty Halt
