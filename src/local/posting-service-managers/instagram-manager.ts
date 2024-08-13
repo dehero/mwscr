@@ -186,7 +186,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     // Convert the image to JPEG and upload the image
     const jpeg = await image
       .clone()
-      .resize({ height: Math.floor(width * maxHeightMultiplier) })
+      .resize(width, Math.floor(width * maxHeightMultiplier))
       .jpeg({ quality: 100 })
       .toBuffer();
     const imageUrl = await this.getUploadUrl(jpeg);
@@ -207,7 +207,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       // Convert the image to JPEG and upload the image
       const jpeg = await image
         .clone()
-        .resize({ height: Math.floor(width * (16 / 9)) })
+        .resize(width, Math.floor(width * (16 / 9)))
         .jpeg({ quality: 100 })
         .toBuffer();
       const imageUrl = await this.getUploadUrl(jpeg);
