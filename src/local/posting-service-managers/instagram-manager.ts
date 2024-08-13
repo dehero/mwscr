@@ -166,9 +166,29 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     // Connect to Instagram API
     const { ig } = await this.connect();
 
-    // Convert the image to JPEG and upload the image
+    let maxHeightMultiplier;
+
+    switch (post.type) {
+      case 'wallpaper-v':
+        maxHeightMultiplier = 1.25;
+        break;
+      case 'wallpaper':
+        maxHeightMultiplier = 0.5625;
+        break;
+      default:
+        maxHeightMultiplier = 1;
+    }
+
     const [file] = await readResource(post.content);
-    const jpeg = await sharp(file).jpeg({ quality: 100 }).toBuffer();
+    const image = sharp(file);
+    const { width = 0 } = await image.metadata();
+
+    // Convert the image to JPEG and upload the image
+    const jpeg = await image
+      .clone()
+      .resize({ height: Math.floor(width * maxHeightMultiplier) })
+      .jpeg({ quality: 100 })
+      .toBuffer();
     const imageUrl = await this.getUploadUrl(jpeg);
     const caption = await this.createCaption(entry);
 
@@ -184,6 +204,14 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     const newServicePosts: InstagramPost[] = [{ service: 'ig', id, mediaId, followers, published: new Date() }];
 
     if (post.type === 'wallpaper-v') {
+      // Convert the image to JPEG and upload the image
+      const jpeg = await image
+        .clone()
+        .resize({ height: Math.floor(width * (16 / 9)) })
+        .jpeg({ quality: 100 })
+        .toBuffer();
+      const imageUrl = await this.getUploadUrl(jpeg);
+
       const [mediaId, mediaInfo] = await this.createMedia(ig.newPostPageStoriesPhotoMediaRequest(imageUrl));
       const id = mediaInfo.getShortcode() || mediaInfo.getIgId();
 
