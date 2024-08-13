@@ -38,7 +38,7 @@ const shot: PostingScenario = [
 
 const wallpaper: PostingScenario = [
   'wallpaper',
-  [onWeekDay(4), afterHour(9), lastPublishedHoursAgo(12), lastPostedDaysAgo(1)],
+  [onWeekDay(2), afterHour(18), lastPublishedHoursAgo(12), lastPostedDaysAgo(1)],
   [needCertainType('wallpaper', 'wallpaper-v'), needMinTypeDistance(14), needMinContentDistance(365)],
 ];
 
