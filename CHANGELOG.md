@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.3](https://github.com/dehero/mwscr/compare/v1.9.2...v1.9.3) (2024-08-13)
+
+### Bug Fixes
+
+- use image width when resizing for Instagram
+  ([2a17172](https://github.com/dehero/mwscr/commit/2a17172add44bc770f8193450927cc7329b383b0))
+
 ## [1.9.2](https://github.com/dehero/mwscr/compare/v1.9.1...v1.9.2) (2024-08-13)
 
 ### Bug Fixes
