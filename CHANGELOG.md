@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.3](https://github.com/dehero/mwscr/compare/v1.8.2...v1.8.3) (2024-08-13)
+
+### Bug Fixes
+
+- redeploy site on issue resolution
+  ([2bc2867](https://github.com/dehero/mwscr/commit/2bc28672c16ac0e3bb8175c9f0f7fae2802a57eb))
+
 ## [1.8.2](https://github.com/dehero/mwscr/compare/v1.8.1...v1.8.2) (2024-08-13)
 
 ### Bug Fixes
