@@ -4,6 +4,7 @@ import type { Option } from '../../core/entities/option.js';
 import { ANY_OPTION, NONE_OPTION } from '../../core/entities/option.js';
 import {
   getPostDateById,
+  POST_TYPES,
   POST_VIOLATIONS,
   type PostMark,
   type PostType,
@@ -111,7 +112,9 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
   }
 
   if (params.type) {
-    result.push(`${params.type}${count !== 1 ? 's' : ''}`);
+    result.push(
+      `${POST_TYPES.find((info) => info.id === params.type)?.title.toLocaleLowerCase()}${count !== 1 ? 's' : ''}`,
+    );
   } else {
     result.push(`post${count !== 1 ? 's' : ''}`);
   }

@@ -1,5 +1,5 @@
 import { type Component, For, Show, splitProps } from 'solid-js';
-import { getPostDateById, POST_VIOLATIONS } from '../../../core/entities/post.js';
+import { getPostDateById, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/user.js';
 import { capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
@@ -39,7 +39,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
         </span>
       </Show>
       <Show when={local.postInfo.type}>
-        <span class={styles.type}>Type: {local.postInfo.type}</span>
+        <span class={styles.type}>Type: {POST_TYPES.find((info) => info.id === local.postInfo.type)?.title}</span>
       </Show>
       <Show when={local.postInfo.authorEntries.length}>
         <span class={styles.author}>

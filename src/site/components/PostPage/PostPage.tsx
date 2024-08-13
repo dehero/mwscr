@@ -3,7 +3,13 @@ import clsx from 'clsx';
 import JsFileDownloader from 'js-file-downloader';
 import { type Component, createSignal, Match, onMount, Show, Switch } from 'solid-js';
 import { useData } from 'vike-solid/useData';
-import { getPostDateById, getPostTypeAspectRatio, type Post, POST_VIOLATIONS } from '../../../core/entities/post.js';
+import {
+  getPostDateById,
+  getPostTypeAspectRatio,
+  type Post,
+  POST_TYPES,
+  POST_VIOLATIONS,
+} from '../../../core/entities/post.js';
 import {
   getPostCommentCount,
   getPostRating,
@@ -307,7 +313,7 @@ export const PostPage: Component = () => {
                   },
                   {
                     label: 'Type',
-                    value: post().type,
+                    value: POST_TYPES.find((info) => info.id === post().type)?.title,
                     link: postsRoute.createUrl({ managerName: params().managerName, type: post().type }),
                   },
                   ...data.authorEntries.map((entry) => ({

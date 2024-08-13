@@ -257,7 +257,12 @@ export const PostsPage: Component = () => {
             <Label label="Type" vertical>
               <Select
                 name="type"
-                options={[ALL_OPTION, ...POST_TYPES.map((info) => ({ value: info.id }))]}
+                options={[
+                  ALL_OPTION,
+                  ...POST_TYPES.map((info) => ({ value: info.id, label: info.title })).sort((a, b) =>
+                    a.label.localeCompare(b.label),
+                  ),
+                ]}
                 value={postType()}
                 onChange={setPostType}
               />
