@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.0](https://github.com/dehero/mwscr/compare/v1.8.3...v1.9.0) (2024-08-13)
+
+### Features
+
+- add blurred background for vertical post previews
+  ([ffdfea6](https://github.com/dehero/mwscr/commit/ffdfea600557129e3b63300dff8c5e67cb979a8c))
+- display post type titles ([4dfe4d0](https://github.com/dehero/mwscr/commit/4dfe4d0e691d93bb749a6aa956cd46ad5fa162e5))
+
 ## [1.8.3](https://github.com/dehero/mwscr/compare/v1.8.2...v1.8.3) (2024-08-13)
 
 ### Bug Fixes
