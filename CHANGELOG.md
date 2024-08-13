@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.2](https://github.com/dehero/mwscr/compare/v1.8.1...v1.8.2) (2024-08-13)
+
+### Bug Fixes
+
+- replace object tags with img
+  ([bf4ff0d](https://github.com/dehero/mwscr/commit/bf4ff0dd080c779bfd38a9a3f85713d8157a0a1a))
+
 ## [1.8.1](https://github.com/dehero/mwscr/compare/v1.8.0...v1.8.1) (2024-08-12)
 
 ### Bug Fixes
