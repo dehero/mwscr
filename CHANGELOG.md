@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.1](https://github.com/dehero/mwscr/compare/v1.9.0...v1.9.1) (2024-08-13)
+
+### Bug Fixes
+
+- allow posting wallpapers on tuesday
+  ([c8a46dd](https://github.com/dehero/mwscr/commit/c8a46ddfcaa20292f72ce1e22bed0206a00e2313))
+
 ## [1.9.0](https://github.com/dehero/mwscr/compare/v1.8.3...v1.9.0) (2024-08-13)
 
 ### Features
