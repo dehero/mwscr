@@ -1009,7 +1009,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-13-shipping-house&postLocation=)</code> `🚀 OpenMW` `openmw`
+`B1` `📍 Dren Plantation` `🚀 OpenMW` `openmw`
 
 ```
 2024-07-13-shipping-house
