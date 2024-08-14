@@ -1827,7 +1827,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-17-28-29-30-ready-or-not-here-i-come&postLocation=)</code> `🚀 OpenMW` `nofilter` `openmw`
+`B1` `📍 Ald-ruhn` `🚀 OpenMW` `nofilter` `openmw`
 
 ```
 2024-06-17-28-29-30-ready-or-not-here-i-come
