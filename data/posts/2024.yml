@@ -2475,26 +2475,29 @@
     - service: vk
       id: 1689
       published: 2024-08-13-18-55-56
-      updated: 2024-08-14-10-21-56
+      updated: 2024-08-14-11-21-28
       followers: 931
       likes: 31
-      views: 162
+      views: 165
       reposts: 2
     - service: tg
       id: 500
       published: 2024-08-13-18-56-05
-      updated: 2024-08-14-10-21-56
+      updated: 2024-08-14-11-21-29
       followers: 527
-      likes: 58
-      views: 187
-      comments: !c CxmAkZPLQnkU0g//AACpR2F0ZW1hdGU3vWxvb2tzIGxpa2Ugd2UgdXNpbmcgdGhpcyBob3NzAw==
+      likes: 59
+      views: 195
+      comments: !c |-
+        izuAkpPLQnkVCahrAACteHhrYW1hejIwMDh4eNkraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0
+        Y2g/dj11aFlvTE1fSGNXTZPLQnkU0g//AACpR2F0ZW1hdGU3vWxvb2tzIGxpa2Ugd2UgdXNpbmcg
+        dGhpcyBob3NzAw==
     - service: ig
       id: C-n0DECOnN-
       mediaId: '18099282961439274'
       published: 2024-08-13-19-37-08
       updated: 2024-08-14-03-24-28
       followers: 1438
-      likes: 116
+      likes: 117
       views: 312
     - service: ig
       id: C-n0EEExXGG

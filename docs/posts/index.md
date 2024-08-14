@@ -30,15 +30,16 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C-n0DECOnN-/)       | 2024-08-13 |   312 |   116 |      1438 |   8.07 |
+| [`ig`](https://instagram.com/p/C-n0DECOnN-/)       | 2024-08-13 |   312 |   117 |      1438 |   8.14 |
 | [`ig`](https://instagram.com/p/C-n0EEExXGG/)       | 2024-08-13 |   179 |       |      1436 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1689) | 2024-08-13 |   162 |    31 |       931 |   3.33 |
-| [`tg`](https://t.me/mwscr/500)                     | 2024-08-13 |   187 |    58 |       527 |  11.01 |
-|                                                    |            |   840 |   205 |      2896 |   7.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1689) | 2024-08-13 |   165 |    31 |       931 |   3.33 |
+| [`tg`](https://t.me/mwscr/500)                     | 2024-08-13 |   195 |    59 |       527 |   11.2 |
+|                                                    |            |   851 |   207 |      2896 |   7.55 |
 
 #### Comments
 
 - `tg` <ins title="2024-08-13-19-04-54">Gatemate7</ins> looks like we using this hoss
+- `tg` <ins title="2024-08-14-11-16-30">xxkamaz2008xx</ins> https://www.youtube.com/watch?v=uhYoLM_HcWM
 
 ## <span id="2024-08-12-near-gnisis-eggmine">Near Gnisis Eggmine</span>
 
@@ -64,8 +65,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_438)  | 2017-09-22 |   130 |    14 |        82 |     14 |
 | [`ig`](https://instagram.com/p/C-lHoO7sfCY/)       | 2024-08-12 |   243 |    81 |      1437 |   5.64 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1688) | 2024-08-12 |   191 |    35 |       931 |   3.76 |
-| [`tg`](https://t.me/mwscr/499)                     | 2024-08-12 |   207 |    51 |       523 |   9.75 |
-|                                                    |            |   771 |   242 |      2891 |   8.29 |
+| [`tg`](https://t.me/mwscr/499)                     | 2024-08-12 |   208 |    51 |       523 |   9.75 |
+|                                                    |            |   772 |   242 |      2891 |   8.29 |
 
 #### Comments
 
