@@ -436,7 +436,7 @@
     - service: vk
       id: 1444
       published: 2024-03-12-18-17-53
-      updated: 2024-08-07-06-20-48
+      updated: 2024-08-14-06-28-39
       followers: 896
       likes: 33
       views: 271
@@ -444,10 +444,10 @@
     - service: tg
       id: 343
       published: 2024-03-12-18-18-01
-      updated: 2024-08-07-06-20-46
+      updated: 2024-08-14-06-28-39
       followers: 350
       likes: 64
-      views: 497
+      views: 501
       comments: !c CxCAkZPLQnjjPwNOAACx2YXYrdmF2K8g2K7Yp9mE2K+jV293Aw==
 2024-03-13-haze: 2017-06-23-haze
 2024-03-14-night-street-of-balmora: 2017-04-02-night-street-of-balmora
@@ -564,7 +564,7 @@
     - service: vk
       id: 1459
       published: 2024-03-19-18-11-25
-      updated: 2024-08-07-06-20-47
+      updated: 2024-08-14-06-28-38
       followers: 896
       likes: 43
       views: 273
@@ -572,10 +572,10 @@
     - service: tg
       id: 351
       published: 2024-03-19-18-11-30
-      updated: 2024-08-07-06-20-46
+      updated: 2024-08-14-06-28-38
       followers: 352
       likes: 69
-      views: 461
+      views: 463
 2024-03-20-banner-of-house-dagoth: 2017-07-05-banner-of-house-dagoth
 2024-03-21-first-stars-above-falasmaryon:
   title: First Stars Above Falasmaryon
@@ -872,17 +872,17 @@
     - service: vk
       id: 1478
       published: 2024-04-02-18-11-20
-      updated: 2024-08-07-06-20-45
+      updated: 2024-08-14-06-28-36
       followers: 906
       likes: 25
       views: 260
     - service: tg
       id: 365
       published: 2024-04-02-18-11-28
-      updated: 2024-08-07-06-20-45
+      updated: 2024-08-14-06-28-37
       followers: 355
       likes: 56
-      views: 454
+      views: 455
 2024-04-03-god-of-madness-and-his-follower: 2017-06-07-god-of-madness-and-his-follower
 2024-04-04-view-of-elf-skerring:
   title: View of Elf-Skerring
@@ -1042,7 +1042,7 @@
     - service: vk
       id: 1488
       published: 2024-04-09-18-16-08
-      updated: 2024-08-07-06-20-45
+      updated: 2024-08-14-06-28-36
       followers: 911
       likes: 39
       views: 254
@@ -1050,10 +1050,10 @@
     - service: tg
       id: 373
       published: 2024-04-09-18-16-14
-      updated: 2024-08-07-06-20-44
+      updated: 2024-08-14-06-28-36
       followers: 353
       likes: 67
-      views: 434
+      views: 436
 2024-04-10-sun-mushrooms:
   title: Sun Mushrooms
   titleRu: Солнечные грибы
@@ -2475,18 +2475,18 @@
     - service: vk
       id: 1689
       published: 2024-08-13-18-55-56
-      updated: 2024-08-14-05-21-22
+      updated: 2024-08-14-06-28-33
       followers: 931
-      likes: 23
-      views: 125
+      likes: 28
+      views: 134
       reposts: 2
     - service: tg
       id: 500
       published: 2024-08-13-18-56-05
-      updated: 2024-08-14-05-21-20
+      updated: 2024-08-14-06-28-34
       followers: 527
-      likes: 49
-      views: 164
+      likes: 53
+      views: 172
       comments: !c CxmAkZPLQnkU0g//AACpR2F0ZW1hdGU3vWxvb2tzIGxpa2Ugd2UgdXNpbmcgdGhpcyBob3NzAw==
     - service: ig
       id: C-n0DECOnN-
@@ -2494,7 +2494,7 @@
       published: 2024-08-13-19-37-08
       updated: 2024-08-14-03-24-28
       followers: 1438
-      likes: 108
+      likes: 112
       views: 312
     - service: ig
       id: C-n0EEExXGG
