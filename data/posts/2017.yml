@@ -1505,7 +1505,7 @@
     - service: vk
       id: 1532
       published: 2024-05-14-18-18-38
-      updated: 2024-08-07-02-35-36
+      updated: 2024-08-14-02-41-04
       followers: 915
       likes: 47
       views: 319
@@ -1513,10 +1513,10 @@
     - service: tg
       id: 408
       published: 2024-05-14-18-18-46
-      updated: 2024-08-07-02-35-35
+      updated: 2024-08-14-02-41-03
       followers: 370
       likes: 61
-      views: 416
+      views: 421
       comments: !c |-
         izOAkZTLQnj3hUVcAACpR2F0ZW1hdGU32SJpdCB3b3VsZCBsb29rIGJldHRlciBpZiBhZGRlZCBt
         b2Rzk8tCePeFSMcAAKVhbnNpc75tb2RzIGJhbmlzaCB0aGlzIG4nd2FoIGFscmVhZHkD
@@ -9577,25 +9577,25 @@
       id: C-lHoO7sfCY
       mediaId: '17866186293127672'
       published: 2024-08-12-18-30-30
-      updated: 2024-08-14-01-13-17
+      updated: 2024-08-14-02-41-02
       followers: 1437
-      likes: 79
-      views: 242
+      likes: 80
+      views: 243
     - service: vk
       id: 1688
       published: 2024-08-12-18-30-39
-      updated: 2024-08-14-01-13-17
+      updated: 2024-08-14-02-41-01
       followers: 931
       likes: 34
-      views: 178
+      views: 181
       reposts: 1
     - service: tg
       id: 499
       published: 2024-08-12-18-30-46
-      updated: 2024-08-14-01-13-18
+      updated: 2024-08-14-02-41-02
       followers: 523
       likes: 49
-      views: 194
+      views: 195
       comments: !c |-
         G44A4MX/Oi0CGX8WDsU7YHi3p9S/V8UaaGviB3QecLPiWqVZOaJFmgQeslZeTDbmtTv+4o1/eGee
         dyuYUx1zKvoyrJipVECQqqtIHQhO4aM4sZ4q+pfzvVoqSC1Z9YZgJZ+Pe9FXVBHYXK00xLDdoNJg
@@ -11846,7 +11846,7 @@
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
-      updated: 2024-08-07-02-35-38
+      updated: 2024-08-14-02-41-06
       followers: 909
       likes: 40
       views: 299
@@ -11857,10 +11857,10 @@
     - service: tg
       id: 387
       published: 2024-04-23-18-17-22
-      updated: 2024-08-07-02-35-36
+      updated: 2024-08-14-02-41-05
       followers: 355
       likes: 61
-      views: 1121
+      views: 1124
       comments: !c |-
         ix+AkpPLQnjxEjRDgACobW9uZ2xlcmmtQ2l0eSBvZiBNYWdpY5PLQnjw/03igAClYW5zaXOtQ2l0
         eSBvZiBMaWdodAM=

@@ -1697,7 +1697,7 @@
     - service: vk
       id: 1524
       published: 2024-05-07-18-18-49
-      updated: 2024-08-07-02-35-37
+      updated: 2024-08-14-02-41-05
       followers: 913
       likes: 34
       views: 261
@@ -1705,10 +1705,10 @@
     - service: tg
       id: 401
       published: 2024-05-07-18-18-56
-      updated: 2024-08-07-02-35-35
+      updated: 2024-08-14-02-41-04
       followers: 371
       likes: 54
-      views: 432
+      views: 438
 2024-05-08-slaves-sleep-peacefully-in-their-shacks:
   title: Slaves Sleep Peacefully in Their Shacks
   titleRu: Рабы мирно спят в своих хижинах
@@ -2475,31 +2475,31 @@
     - service: vk
       id: 1689
       published: 2024-08-13-18-55-56
-      updated: 2024-08-14-01-13-17
+      updated: 2024-08-14-02-41-01
       followers: 931
-      likes: 19
-      views: 99
+      likes: 20
+      views: 107
       reposts: 2
     - service: tg
       id: 500
       published: 2024-08-13-18-56-05
-      updated: 2024-08-14-01-13-17
+      updated: 2024-08-14-02-41-01
       followers: 527
-      likes: 44
-      views: 147
+      likes: 45
+      views: 151
       comments: !c CxmAkZPLQnkU0g//AACpR2F0ZW1hdGU3vWxvb2tzIGxpa2Ugd2UgdXNpbmcgdGhpcyBob3NzAw==
     - service: ig
       id: C-n0DECOnN-
       mediaId: '18099282961439274'
       published: 2024-08-13-19-37-08
-      updated: 2024-08-14-01-13-17
+      updated: 2024-08-14-02-41-01
       followers: 1437
-      likes: 102
-      views: 283
+      likes: 106
+      views: 299
     - service: ig
       id: C-n0EEExXGG
       mediaId: '18024394106099645'
       published: 2024-08-13-19-37-17
-      updated: 2024-08-14-01-13-16
+      updated: 2024-08-14-02-41-01
       followers: 1436
-      views: 167
+      views: 176
