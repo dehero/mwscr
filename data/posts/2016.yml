@@ -8,9 +8,6 @@
   engine: OpenMW
   tags:
     - openmw
-    - morrowind
-    - elderscrolls
-    - screenshot
   mark: B2
   posts:
     - service: ig
@@ -71,8 +68,6 @@
   engine: OpenMW
   tags:
     - openmw
-    - morrowind
-    - screenshot
   mark: B1
   posts:
     - service: ig
@@ -100,8 +95,6 @@
   tags:
     - lava
     - openmw
-    - morrowind
-    - screenshot
   mark: B1
   posts:
     - service: ig
@@ -127,8 +120,6 @@
   engine: OpenMW
   tags:
     - openmw
-    - morrowind
-    - screenshot
   mark: A2
   posts:
     - service: ig
@@ -158,8 +149,6 @@
   engine: OpenMW
   tags:
     - openmw
-    - morrowind
-    - screenshot
   mark: B2
   posts:
     - service: ig
@@ -185,9 +174,6 @@
   engine: OpenMW
   tags:
     - openmw
-    - morrowind
-    - elderscrolls
-    - screenshot
   mark: B1
   posts:
     - service: ig
@@ -243,9 +229,6 @@
     - guard
     - encounter
     - openmw
-    - morrowind
-    - elderscrolls
-    - screenshot
   mark: A2
   posts:
     - service: ig
@@ -295,8 +278,6 @@
     - lantern
     - lanterns
     - openmw
-    - morrowind
-    - screenshot
   mark: A1
   posts:
     - service: ig
@@ -323,8 +304,6 @@
   engine: OpenMW
   tags:
     - openmw
-    - morrowind
-    - screenshot
   mark: A2
   posts:
     - service: ig
@@ -355,8 +334,6 @@
   tags:
     - rain
     - openmw
-    - morrowind
-    - screenshot
   mark: E
   posts:
     - service: ig
@@ -382,8 +359,6 @@
   tags:
     - moon
     - openmw
-    - morrowind
-    - screenshot
   mark: A2
   posts:
     - service: ig
@@ -413,9 +388,6 @@
   tags:
     - night
     - openmw
-    - morrowind
-    - elderscrolls
-    - screenshot
   mark: A2
   posts:
     - service: ig
@@ -467,9 +439,6 @@
   author: dehero
   tags:
     - opennw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -495,9 +464,6 @@
   engine: OpenMW
   tags:
     - openmw
-    - morrowind
-    - elderscrolls
-    - screenshot
   mark: B1
   posts:
     - service: ig
@@ -548,9 +514,6 @@
   engine: OpenMW
   tags:
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -576,9 +539,6 @@
   engine: OpenMW
   tags:
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A1
   posts:
     - service: ig
@@ -604,9 +564,6 @@
   engine: OpenMW
   tags:
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -625,6 +582,7 @@
 2016-12-03-st-delyn-vs-st-olms:
   title: St. Delyn vs. St. Olms
   titleRu: Святой Делин против Святого Олмса
+  location: Vivec
   content: store:/shots/2016-12-03-st-delyn-vs-st-olms.png
   type: shot
   author: dehero
@@ -632,9 +590,6 @@
   tags:
     - nofilter
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -661,9 +616,6 @@
   tags:
     - nofilter
     - openmw
-    - morrowind
-    - elderscrolls
-    - screenshot
   mark: A2
   posts:
     - service: ig
@@ -714,9 +666,6 @@
   tags:
     - nofilter
     - openmw
-    - morrowind
-    - footage
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -745,9 +694,6 @@
     - nofilter
     - candles
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -775,9 +721,6 @@
     - nofilter
     - dwemer
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -804,9 +747,6 @@
   tags:
     - nofilter
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -834,9 +774,6 @@
     - nofilter
     - siltstrider
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -863,9 +800,6 @@
     - nofilter
     - road
     - openmw
-    - morrowind
-    - elderscrolls
-    - screenshot
   mark: B2
   posts:
     - service: ig
@@ -916,9 +850,6 @@
   tags:
     - mannequinchallenge
     - openmw
-    - morrowind
-    - footage
-    - elderscrolls
   mark: E
   posts:
     - service: ig
@@ -946,9 +877,6 @@
     - nofilter
     - fort
     - openmw
-    - morrowind
-    - elderscrolls
-    - screenshot
   mark: B2
   posts:
     - service: ig
@@ -1001,9 +929,6 @@
     - lighthouse
     - night
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1030,9 +955,6 @@
   tags:
     - nofilter
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -1059,9 +981,6 @@
     - nofilter
     - night
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1088,9 +1007,6 @@
     - nofilter
     - temple
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -1118,9 +1034,6 @@
     - nofilter
     - keyhole
     - openmw
-    - morrowind
-    - footage
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1148,9 +1061,6 @@
     - nofilter
     - fort
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: E
   posts:
     - service: ig
@@ -1179,9 +1089,6 @@
     - nofilter
     - ship
     - openmw
-    - morrowind
-    - elderscrolls
-    - screenshot
   mark: A2
   posts:
     - service: ig
@@ -1248,9 +1155,6 @@
   tags:
     - nofilter
     - openmw
-    - morrowind
-    - elderscrolls
-    - screenshot
   mark: A1
   posts:
     - service: ig
@@ -1306,9 +1210,6 @@
   tags:
     - nofilter
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -1336,9 +1237,6 @@
     - fort
     - castle
     - openmw
-    - morrowind
-    - elderscrolls
-    - screenshot
   mark: A1
   posts:
     - service: ig
@@ -1387,9 +1285,6 @@
   tags:
     - mannequinchallenge
     - openmw
-    - morrowind
-    - footage
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1417,9 +1312,6 @@
   tags:
     - nofilter
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1446,9 +1338,6 @@
   tags:
     - nofilter
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1476,9 +1365,6 @@
     - nofilter
     - road
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1506,9 +1392,6 @@
     - nofilter
     - dwemer
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -1535,9 +1418,6 @@
   tags:
     - nofilter
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A1
   posts:
     - service: ig
@@ -1564,9 +1444,6 @@
   engine: OpenMW
   tags:
     - openmw
-    - morrowind
-    - footage
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1594,9 +1471,6 @@
   tags:
     - nofilter
     - openmw
-    - morrowind
-    - elderscrolls
-    - screenshot
   mark: A2
   posts:
     - service: ig
@@ -1646,9 +1520,6 @@
     - nofilter
     - night
     - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
