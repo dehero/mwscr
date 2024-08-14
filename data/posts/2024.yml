@@ -2234,17 +2234,17 @@
     - service: vk
       id: 1578
       published: 2024-06-11-18-21-03
-      updated: 2024-08-07-01-06-22
+      updated: 2024-08-14-01-13-21
       followers: 916
       likes: 34
       views: 265
     - service: tg
       id: 436
       published: 2024-06-11-18-21-09
-      updated: 2024-08-07-01-06-22
+      updated: 2024-08-14-01-13-19
       followers: 384
       likes: 56
-      views: 403
+      views: 413
 2024-06-12-beran-ancestral-tomb:
   title: Beran Ancestral Tomb
   titleRu: Родовая гробница Беранов
@@ -2475,31 +2475,31 @@
     - service: vk
       id: 1689
       published: 2024-08-13-18-55-56
-      updated: 2024-08-13-23-20-24
+      updated: 2024-08-14-01-13-17
       followers: 931
       likes: 19
-      views: 91
+      views: 99
       reposts: 2
     - service: tg
       id: 500
       published: 2024-08-13-18-56-05
-      updated: 2024-08-13-23-20-24
+      updated: 2024-08-14-01-13-17
       followers: 527
-      likes: 42
-      views: 140
+      likes: 44
+      views: 147
       comments: !c CxmAkZPLQnkU0g//AACpR2F0ZW1hdGU3vWxvb2tzIGxpa2Ugd2UgdXNpbmcgdGhpcyBob3NzAw==
     - service: ig
       id: C-n0DECOnN-
       mediaId: '18099282961439274'
       published: 2024-08-13-19-37-08
-      updated: 2024-08-13-23-20-24
+      updated: 2024-08-14-01-13-17
       followers: 1437
-      likes: 95
-      views: 244
+      likes: 102
+      views: 283
     - service: ig
       id: C-n0EEExXGG
       mediaId: '18024394106099645'
       published: 2024-08-13-19-37-17
-      updated: 2024-08-13-23-20-23
+      updated: 2024-08-14-01-13-16
       followers: 1436
-      views: 147
+      views: 167
