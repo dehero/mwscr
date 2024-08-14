@@ -3,6 +3,7 @@ import {
   needCertainMark,
   needContent,
   needProperType,
+  needPublications,
   needRequest,
   needRightTitle,
   needTitleRu,
@@ -74,6 +75,24 @@ export function isPublishablePost(post: Post, errors?: string[]): post is Publis
       needContent,
       needCertainMark('A1', 'A2', 'B1', 'B2', 'C', 'E'),
       needProperType,
+    ],
+    post,
+    errors,
+  );
+}
+
+export type PublishedPost = PublishablePost & AugmentedRequired<Post, 'posts'>;
+
+export function isPublishedPost(post: Post, errors?: string[]): post is PublishedPost {
+  return checkRules(
+    [
+      needRightTitle,
+      needTitleRu,
+      needAuthor,
+      needContent,
+      needCertainMark('A1', 'A2', 'B1', 'B2', 'C', 'E'),
+      needProperType,
+      needPublications,
     ],
     post,
     errors,

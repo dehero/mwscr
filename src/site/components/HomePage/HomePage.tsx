@@ -27,6 +27,9 @@ export interface HomePageData {
   lastProposedPostInfo?: PostInfo;
   lastRequestedPostInfo?: PostInfo;
   editorsChoicePostInfo?: PostInfo;
+  totalFollowers: number;
+  totalLikes: number;
+  totalCommentCount: number;
 }
 
 export const HomePage: Component = () => {
@@ -43,6 +46,9 @@ export const HomePage: Component = () => {
     lastFulfilledPostInfo,
     lastOriginalPostInfo,
     editorsChoicePostInfo,
+    totalFollowers,
+    totalLikes,
+    totalCommentCount,
   } = useData<HomePageData>();
 
   return (
@@ -136,6 +142,24 @@ export const HomePage: Component = () => {
               label: 'Requesters',
               value: requesterCount,
               link: usersRoute.createUrl({ role: 'requester', sort: 'contribution,desc' }),
+            },
+          ]}
+        />
+        <Divider />
+        <Table
+          label="Total Reactions"
+          rows={[
+            {
+              label: 'Followers',
+              value: totalFollowers,
+            },
+            {
+              label: 'Likes',
+              value: totalLikes,
+            },
+            {
+              label: 'Comments',
+              value: totalCommentCount,
             },
           ]}
         />

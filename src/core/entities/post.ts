@@ -104,10 +104,6 @@ export function isPost(value: unknown, errors?: string[]): value is Post {
   // return true;
 }
 
-export function isPublishedPost(post: Post, service: string) {
-  return post.posts?.some((post) => post.service === service) ?? false;
-}
-
 export function getPostTotalLikes(post: Post) {
   return post.posts?.reduce((acc, post) => acc + (post.likes ?? 0), 0) ?? 0;
 }
