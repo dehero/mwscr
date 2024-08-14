@@ -345,18 +345,18 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-08-13-19-31-33
+      updated: 2024-08-14-20-15-32
       followers: 927
-      likes: 44
-      views: 269
+      likes: 45
+      views: 279
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-08-13-19-31-32
+      updated: 2024-08-14-20-15-32
       followers: 504
       likes: 70
-      views: 398
+      views: 428
       comments: !c |-
         CzmAkpPLQnkTD+n1gAClVG9kb3LZNFdhaXQsIGRvIHRoZXkgcmVhbGx5IGRhbmNlIGxpa2UgdGhh
         dCBpbiB0aGUgdmFuaWxsYT+Ty0J5EuFjUIAApUFkZWxlu2hlIGRhbmNlcyB0byB0aGUgZGFnb3Ro
