@@ -2475,18 +2475,18 @@
     - service: vk
       id: 1689
       published: 2024-08-13-18-55-56
-      updated: 2024-08-14-07-20-34
+      updated: 2024-08-14-10-21-56
       followers: 931
-      likes: 28
-      views: 142
+      likes: 31
+      views: 162
       reposts: 2
     - service: tg
       id: 500
       published: 2024-08-13-18-56-05
-      updated: 2024-08-14-07-20-35
+      updated: 2024-08-14-10-21-56
       followers: 527
-      likes: 53
-      views: 178
+      likes: 58
+      views: 187
       comments: !c CxmAkZPLQnkU0g//AACpR2F0ZW1hdGU3vWxvb2tzIGxpa2Ugd2UgdXNpbmcgdGhpcyBob3NzAw==
     - service: ig
       id: C-n0DECOnN-
@@ -2494,7 +2494,7 @@
       published: 2024-08-13-19-37-08
       updated: 2024-08-14-03-24-28
       followers: 1438
-      likes: 112
+      likes: 116
       views: 312
     - service: ig
       id: C-n0EEExXGG
