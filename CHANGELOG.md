@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.10.0](https://github.com/dehero/mwscr/compare/v1.9.3...v1.10.0) (2024-08-14)
+
+### Features
+
+- display total reactions on home page
+  ([75fb55a](https://github.com/dehero/mwscr/commit/75fb55a4785f18257126673ed76a9a36145864ee))
+
 ## [1.9.3](https://github.com/dehero/mwscr/compare/v1.9.2...v1.9.3) (2024-08-13)
 
 ### Bug Fixes
