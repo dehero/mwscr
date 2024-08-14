@@ -1757,7 +1757,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-19-deseles-house-of-earthly-delights&postLocation=)</code> `🚀 OpenMW` `nofilter` `redlightdistrict` `night` `openmw`
+`A2` `📍 Suran` `🚀 OpenMW` `nofilter` `redlightdistrict` `night` `openmw`
 
 ```
 2024-06-19-deseles-house-of-earthly-delights
