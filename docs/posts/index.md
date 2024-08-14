@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`169 items`
+`170 items`
+
+## <span id="2024-08-14-road-at-the-dawn">Road at the Dawn</span>
+
+`RU` Дорога на рассвете
+
+<a href="https://instagram.com/p/BRuvtFtD7Lq/" title="2017-03-17-road-at-the-dawn"><img alt="store:/shots/2017-03-17-road-at-the-dawn.png" src="../../assets/previews/shots/2017-03-17-road-at-the-dawn.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-14-road-at-the-dawn&postLocation=)</code> `🚀 OpenMW` `nofilter` `dawn` `sunrise` `road` `mushrooms` `openmw` `morrowind` `screenshot` `elderscrolls`
+
+```
+2024-08-14-road-at-the-dawn
+```
+
+> `2017-03-17-road-at-the-dawn`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BRuvtFtD7Lq/)       | 2017-03-17 |       |    63 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_217)  | 2017-03-17 |   200 |    13 |        46 |     13 |
+| [`ig`](https://instagram.com/p/C-qQqwSRZ8Q/)       | 2024-08-14 |       |       |      1439 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1690) | 2024-08-14 |       |       |       931 |        |
+| [`tg`](https://t.me/mwscr/501)                     | 2024-08-14 |       |       |       527 |        |
+|                                                    |            |   200 |    76 |      2897 |        |
 
 ## <span id="2024-08-13-night-sky-above-suran">Night Sky Above Suran</span>
 
@@ -30,11 +57,11 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C-n0DECOnN-/)       | 2024-08-13 |   312 |   130 |      1438 |   9.04 |
+| [`ig`](https://instagram.com/p/C-n0DECOnN-/)       | 2024-08-13 |   312 |   132 |      1438 |   9.18 |
 | [`ig`](https://instagram.com/p/C-n0EEExXGG/)       | 2024-08-13 |   179 |       |      1436 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1689) | 2024-08-13 |   190 |    32 |       931 |   3.44 |
-| [`tg`](https://t.me/mwscr/500)                     | 2024-08-13 |   209 |    62 |       527 |  11.76 |
-|                                                    |            |   890 |   224 |      2896 |   8.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1689) | 2024-08-13 |   191 |    32 |       931 |   3.44 |
+| [`tg`](https://t.me/mwscr/500)                     | 2024-08-13 |   212 |    62 |       527 |  11.76 |
+|                                                    |            |   894 |   226 |      2896 |   8.13 |
 
 #### Comments
 
@@ -63,10 +90,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZWmfSHjJ5N/)       | 2017-09-22 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_438)  | 2017-09-22 |   130 |    14 |        82 |     14 |
-| [`ig`](https://instagram.com/p/C-lHoO7sfCY/)       | 2024-08-12 |   243 |    82 |      1437 |   5.71 |
+| [`ig`](https://instagram.com/p/C-lHoO7sfCY/)       | 2024-08-12 |   243 |    86 |      1437 |   5.98 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1688) | 2024-08-12 |   202 |    37 |       931 |   3.97 |
 | [`tg`](https://t.me/mwscr/499)                     | 2024-08-12 |   211 |    51 |       523 |   9.75 |
-|                                                    |            |   786 |   245 |      2891 |   8.36 |
+|                                                    |            |   786 |   249 |      2891 |   8.43 |
 
 #### Comments
 
@@ -130,10 +157,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bfi7nwfD_uv/)       | 2018-02-23 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_627)  | 2018-02-23 |   212 |    12 |       133 |   9.02 |
-| [`ig`](https://instagram.com/p/C-f8spUt9pE/)       | 2024-08-10 |   253 |    66 |      1436 |    4.6 |
+| [`ig`](https://instagram.com/p/C-f8spUt9pE/)       | 2024-08-10 |   253 |    67 |      1436 |   4.67 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1686) | 2024-08-10 |   195 |    22 |       927 |   2.37 |
 | [`tg`](https://t.me/mwscr/497)                     | 2024-08-10 |   289 |    50 |       514 |   9.73 |
-|                                                    |            |   949 |   239 |      2877 |   6.43 |
+|                                                    |            |   949 |   240 |      2877 |   6.45 |
 
 #### Comments
 

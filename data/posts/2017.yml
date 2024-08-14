@@ -2877,6 +2877,19 @@
       likes: 13
       views: 200
       reposts: 1
+    - service: ig
+      id: C-qQqwSRZ8Q
+      mediaId: '17883114717036714'
+      published: 2024-08-14-18-25-43
+      followers: 1439
+    - service: vk
+      id: 1690
+      published: 2024-08-14-18-25-51
+      followers: 931
+    - service: tg
+      id: 501
+      published: 2024-08-14-18-26-00
+      followers: 527
 2017-03-18-arrival-in-dagon-fel:
   title: Arrival in Dagon Fel
   titleRu: Прибытие в Дагон Фел
@@ -9590,12 +9603,12 @@
       published: 2024-08-12-18-30-30
       updated: 2024-08-14-03-24-29
       followers: 1437
-      likes: 82
+      likes: 86
       views: 243
     - service: vk
       id: 1688
       published: 2024-08-12-18-30-39
-      updated: 2024-08-14-17-18-47
+      updated: 2024-08-14-18-25-31
       followers: 931
       likes: 37
       views: 202
@@ -9603,7 +9616,7 @@
     - service: tg
       id: 499
       published: 2024-08-12-18-30-46
-      updated: 2024-08-14-17-18-48
+      updated: 2024-08-14-18-25-31
       followers: 523
       likes: 51
       views: 211
