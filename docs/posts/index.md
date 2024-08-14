@@ -14,7 +14,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-14-road-at-the-dawn&postLocation=)</code> `🚀 OpenMW` `nofilter` `dawn` `sunrise` `road` `mushrooms` `openmw` `morrowind` `screenshot` `elderscrolls`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-14-road-at-the-dawn&postLocation=)</code> `🚀 OpenMW` `nofilter` `dawn` `sunrise` `road` `mushrooms` `openmw`
 
 ```
 2024-08-14-road-at-the-dawn
@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRuvtFtD7Lq/)       | 2017-03-17 |       |    63 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_217)  | 2017-03-17 |   200 |    13 |        46 |     13 |
-| [`ig`](https://instagram.com/p/C-qQqwSRZ8Q/)       | 2024-08-14 |       |       |      1439 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1690) | 2024-08-14 |       |       |       931 |        |
-| [`tg`](https://t.me/mwscr/501)                     | 2024-08-14 |       |       |       527 |        |
-|                                                    |            |   200 |    76 |      2897 |        |
+| [`ig`](https://instagram.com/p/C-qQqwSRZ8Q/)       | 2024-08-14 |    27 |    21 |      1439 |   1.46 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1690) | 2024-08-14 |    40 |    13 |       931 |    1.4 |
+| [`tg`](https://t.me/mwscr/501)                     | 2024-08-14 |    81 |    31 |       527 |   5.88 |
+|                                                    |            |   348 |   141 |      2897 |   5.43 |
 
 ## <span id="2024-08-13-night-sky-above-suran">Night Sky Above Suran</span>
 
@@ -47,7 +47,7 @@
 
 `wallpaper-v` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Suran` `🚀 OpenMW` `night` `sky` `moons` `stars` `openmw` `morrowind` `elderscrolls` `wallpaper`
+`A2` `📍 Suran` `🚀 OpenMW` `night` `sky` `moons` `stars` `openmw`
 
 ```
 2024-08-13-night-sky-above-suran
@@ -59,9 +59,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C-n0DECOnN-/)       | 2024-08-13 |   312 |   132 |      1438 |   9.18 |
 | [`ig`](https://instagram.com/p/C-n0EEExXGG/)       | 2024-08-13 |   179 |       |      1436 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1689) | 2024-08-13 |   191 |    32 |       931 |   3.44 |
-| [`tg`](https://t.me/mwscr/500)                     | 2024-08-13 |   212 |    62 |       527 |  11.76 |
-|                                                    |            |   894 |   226 |      2896 |   8.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1689) | 2024-08-13 |   192 |    32 |       931 |   3.44 |
+| [`tg`](https://t.me/mwscr/500)                     | 2024-08-13 |   238 |    64 |       527 |  12.14 |
+|                                                    |            |   921 |   228 |      2896 |   8.25 |
 
 #### Comments
 
@@ -76,7 +76,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Gnisis` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A1` `📍 Gnisis` `🚀 OpenMW` `openmw`
 
 ```
 2024-08-12-near-gnisis-eggmine
@@ -108,7 +108,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Seyda Neen` `🚀 OpenMW` `night` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Seyda Neen` `🚀 OpenMW` `night` `openmw`
 
 ```
 2024-08-11-lonely-fargoth
@@ -143,7 +143,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-10-uthrel-sarys&postLocation=)</code> `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-10-uthrel-sarys&postLocation=)</code> `🚀 OpenMW` `openmw`
 
 ```
 2024-08-10-uthrel-sarys
@@ -177,7 +177,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-09-mushroom-stairs&postLocation=)</code> `🚀 OpenMW` `stairs` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-09-mushroom-stairs&postLocation=)</code> `🚀 OpenMW` `stairs` `openmw`
 
 ```
 2024-08-09-mushroom-stairs
@@ -192,9 +192,9 @@
 | [`ig`](https://instagram.com/p/BhezsallGko/)       | 2018-04-12 |       |    81 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_686)  | 2018-04-12 |   210 |    15 |       150 |     10 |
 | [`ig`](https://instagram.com/p/C-dYCEEz5hV/)       | 2024-08-09 |   342 |    83 |      1437 |   5.78 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1683) | 2024-08-09 |   220 |    29 |       927 |   3.13 |
-| [`tg`](https://t.me/mwscr/496)                     | 2024-08-09 |   326 |    65 |       513 |  12.67 |
-|                                                    |            |  1098 |   273 |      2877 |   7.89 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1683) | 2024-08-09 |   224 |    30 |       927 |   3.24 |
+| [`tg`](https://t.me/mwscr/496)                     | 2024-08-09 |   360 |    65 |       513 |  12.67 |
+|                                                    |            |  1136 |   274 |      2877 |   7.92 |
 
 ## <span id="2024-08-08-southern-shore-of-northern-land">Southern Shore of Northern Land</span>
 
@@ -204,7 +204,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-08-southern-shore-of-northern-land&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `bloodmoon` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-08-southern-shore-of-northern-land&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `bloodmoon` `openmw`
 
 ```
 2024-08-08-southern-shore-of-northern-land
@@ -219,9 +219,9 @@
 | [`ig`](https://instagram.com/p/BnCJCoeF4b6/)       | 2018-08-28 |       |   108 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_880)  | 2018-08-28 |   355 |    28 |       217 |   12.9 |
 | [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |   417 |    93 |      1437 |   6.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   260 |    35 |       927 |   3.78 |
-| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   327 |    63 |       508 |   12.4 |
-|                                                    |            |  1359 |   327 |      2872 |   8.89 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   269 |    35 |       927 |   3.78 |
+| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   356 |    63 |       508 |   12.4 |
+|                                                    |            |  1397 |   327 |      2872 |   8.89 |
 
 #### Comments
 
@@ -245,7 +245,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-07-dance-of-dagoth&postLocation=)</code> `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-07-dance-of-dagoth&postLocation=)</code> `🚀 OpenMW` `openmw`
 
 ```
 2024-08-07-dance-of-dagoth
@@ -280,7 +280,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Omalen Ancestral Tomb` `🚀 OpenMW` `tomb` `stones` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Omalen Ancestral Tomb` `🚀 OpenMW` `tomb` `stones` `openmw`
 
 ```
 2024-08-06-omalen-ancestral-tomb
@@ -307,7 +307,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Vivec` `🚀 OpenMW` `canals` `bridge` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Vivec` `🚀 OpenMW` `canals` `bridge` `openmw`
 
 ```
 2024-08-05-in-the-evening-canals-of-vivec
@@ -340,7 +340,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`C` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-04-ice-cave-in-the-ice-bay&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `bloodmoon` `openmw` `morrowind` `elderscrolls` `screenshot`
+`C` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-04-ice-cave-in-the-ice-bay&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `bloodmoon` `openmw`
 
 ```
 2024-08-04-ice-cave-in-the-ice-bay
@@ -374,7 +374,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-03-drulene-falen-and-her-guars&postLocation=)</code> `🚀 OpenMW` `women` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-03-drulene-falen-and-her-guars&postLocation=)</code> `🚀 OpenMW` `women` `openmw`
 
 ```
 2024-08-03-drulene-falen-and-her-guars
@@ -407,7 +407,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Raven Rock` `🚀 OpenMW` `🔗 Bloodmoon` `bloodmoon` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Raven Rock` `🚀 OpenMW` `🔗 Bloodmoon` `bloodmoon` `openmw`
 
 ```
 2024-08-02-dark-morning-in-the-colony
@@ -439,7 +439,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-01-in-a-fishermans-hut&postLocation=)</code> `🚀 OpenMW` `candles` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-01-in-a-fishermans-hut&postLocation=)</code> `🚀 OpenMW` `candles` `openmw`
 
 ```
 2024-08-01-in-a-fishermans-hut
@@ -470,7 +470,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31-comprehension-of-sciences&postLocation=)</code> `🚀 OpenMW` `desk` `candles` `books` `openmw` `candle` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31-comprehension-of-sciences&postLocation=)</code> `🚀 OpenMW` `desk` `candles` `books` `openmw` `candle`
 
 ```
 2024-07-31-comprehension-of-sciences
@@ -497,7 +497,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-30-netches-have-fallen-out&postLocation=)</code> `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-30-netches-have-fallen-out&postLocation=)</code> `🚀 OpenMW` `openmw`
 
 ```
 2024-07-30-netches-have-fallen-out
@@ -524,7 +524,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Balmora` `🚀 OpenMW` `arch` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Balmora` `🚀 OpenMW` `arch` `openmw`
 
 ```
 2024-07-29-arch-with-a-canopy
@@ -557,7 +557,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Indoranyon` `🚀 OpenMW` `stronghold` `castle` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Indoranyon` `🚀 OpenMW` `stronghold` `castle` `openmw`
 
 ```
 2024-07-28-indoranyon
@@ -588,7 +588,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Maar Gan` `🚀 OpenMW` `nofilter` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A1` `📍 Maar Gan` `🚀 OpenMW` `nofilter` `openmw`
 
 ```
 2024-07-27-maar-gan-outpost
@@ -622,7 +622,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-26-some-scrolls&postLocation=)</code> `🚀 OpenMW` `scrolls` `potion` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-26-some-scrolls&postLocation=)</code> `🚀 OpenMW` `scrolls` `potion` `openmw`
 
 ```
 2024-07-26-some-scrolls
@@ -654,7 +654,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Balmora` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Balmora` `🚀 OpenMW` `openmw`
 
 ```
 2024-07-25-coming-to-balmora
@@ -688,7 +688,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-24-in-the-yurt&postLocation=)</code> `🚀 OpenMW` `nofilter` `yurt` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-24-in-the-yurt&postLocation=)</code> `🚀 OpenMW` `nofilter` `yurt` `openmw`
 
 ```
 2024-07-24-in-the-yurt
@@ -719,7 +719,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` `📍 Buckmoth Legion Fort` `🚀 OpenMW` `nofilter` `fort` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B2` `📍 Buckmoth Legion Fort` `🚀 OpenMW` `nofilter` `fort` `openmw`
 
 ```
 2024-07-23-buckmoth-legion-fort-from-ald-ruhn
@@ -750,7 +750,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-22-aground&postLocation=)</code> `🚀 OpenMW` `shipwreck` `water` `ship` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-22-aground&postLocation=)</code> `🚀 OpenMW` `shipwreck` `water` `ship` `openmw`
 
 ```
 2024-07-22-aground
@@ -782,7 +782,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-21-verminous-fabricant&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `tribunal` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-21-verminous-fabricant&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `tribunal` `openmw`
 
 ```
 2024-07-21-verminous-fabricant
@@ -815,7 +815,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-20-let-the-sun-rise&postLocation=)</code> `🚀 OpenMW` `sun` `statue` `silouette` `openmw` `morrowind` `elderscrolls` `screenshot`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-20-let-the-sun-rise&postLocation=)</code> `🚀 OpenMW` `sun` `statue` `silouette` `openmw`
 
 ```
 2024-07-20-let-the-sun-rise
@@ -851,7 +851,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Nchuleftingth` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Nchuleftingth` `🚀 OpenMW` `openmw`
 
 ```
 2024-07-19-nchuleftingth-expedition
@@ -882,7 +882,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-18-along-the-street&postLocation=)</code> `🚀 OpenMW` `street` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-18-along-the-street&postLocation=)</code> `🚀 OpenMW` `street` `openmw`
 
 ```
 2024-07-18-along-the-street
@@ -914,7 +914,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Tel Vos` `🚀 OpenMW` `nofilter` `castle` `towers` `fort` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Tel Vos` `🚀 OpenMW` `nofilter` `castle` `towers` `fort` `openmw`
 
 ```
 2024-07-17-tel-vos
@@ -947,7 +947,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-16-snowy-waiting&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `snowflakes` `campfire` `bloodmoon` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-16-snowy-waiting&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `snowflakes` `campfire` `bloodmoon` `openmw`
 
 ```
 2024-07-16-snowy-waiting
@@ -978,7 +978,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-15-land-of-ruins&postLocation=)</code> `🚀 OpenMW` `ruin` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-15-land-of-ruins&postLocation=)</code> `🚀 OpenMW` `ruin` `openmw`
 
 ```
 2024-07-15-land-of-ruins
@@ -1005,7 +1005,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Berandas` `🚀 OpenMW` `stronghold` `trees` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Berandas` `🚀 OpenMW` `stronghold` `trees` `openmw`
 
 ```
 2024-07-14-near-berandas
@@ -1037,7 +1037,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Dren Plantation` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Dren Plantation` `🚀 OpenMW` `openmw`
 
 ```
 2024-07-13-shipping-house
@@ -1068,7 +1068,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Tel Mora` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Tel Mora` `🚀 OpenMW` `openmw`
 
 ```
 2024-07-12-the-main-tower-of-tel-mora
@@ -1100,7 +1100,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Cavern of the Incarnate` `🚀 OpenMW` `nofilter` `moon` `door` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A1` `📍 Cavern of the Incarnate` `🚀 OpenMW` `nofilter` `moon` `door` `openmw`
 
 ```
 2024-07-11-entrance-to-cavern-of-the-incarnate
@@ -1131,7 +1131,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Mournhold, Royal Palace: Courtyard` `🚀 OpenMW` `🔗 Tribunal` `nofilter` `night` `tribunal` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Mournhold, Royal Palace: Courtyard` `🚀 OpenMW` `🔗 Tribunal` `nofilter` `night` `tribunal` `openmw`
 
 ```
 2024-07-10-in-the-courtyard-of-royal-palace
@@ -1162,7 +1162,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` `📍 Molag Amur Region` `🚀 OpenMW` `sunset` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B2` `📍 Molag Amur Region` `🚀 OpenMW` `sunset` `openmw`
 
 ```
 2024-07-09-drooping-sun-of-molag-amur
@@ -1189,7 +1189,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Bitter Coast Region` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Bitter Coast Region` `🚀 OpenMW` `openmw`
 
 ```
 2024-07-08-sneaking-scamp-at-bitter-coast
@@ -1225,7 +1225,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-07-puzzled-ashlanders&postLocation=)</code> `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-07-puzzled-ashlanders&postLocation=)</code> `🚀 OpenMW` `openmw`
 
 ```
 2024-07-07-puzzled-ashlanders
@@ -1257,7 +1257,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Ald Velothi` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Ald Velothi` `🚀 OpenMW` `openmw`
 
 ```
 2024-07-06-docks-of-ald-velothi
@@ -1291,7 +1291,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-05-another-coven&postLocation=)</code> `🚀 OpenMW` `campfire` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-05-another-coven&postLocation=)</code> `🚀 OpenMW` `campfire` `openmw`
 
 ```
 2024-07-05-another-coven
@@ -1319,7 +1319,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-04-elven-nations-cornerclub&postLocation=)</code> `🚀 OpenMW` `nofilter` `bar` `women` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-04-elven-nations-cornerclub&postLocation=)</code> `🚀 OpenMW` `nofilter` `bar` `women` `openmw`
 
 ```
 2024-07-04-elven-nations-cornerclub
@@ -1346,7 +1346,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-03-ashes-of-d-bryant&postLocation=)</code> `🚀 OpenMW` `farewell` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-03-ashes-of-d-bryant&postLocation=)</code> `🚀 OpenMW` `farewell` `openmw`
 
 ```
 2024-07-03-ashes-of-d-bryant
@@ -1379,7 +1379,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Ald-ruhn` `🚀 OpenMW` `redoran` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Ald-ruhn` `🚀 OpenMW` `redoran` `openmw`
 
 ```
 2024-07-02-the-skar
@@ -1412,7 +1412,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-01-near-the-ancient-dwelling&postLocation=)</code> `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-01-near-the-ancient-dwelling&postLocation=)</code> `🚀 OpenMW` `openmw`
 
 ```
 2024-07-01-near-the-ancient-dwelling
@@ -1443,7 +1443,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-30-ice-shivers&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `ice` `bloodmoon` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-30-ice-shivers&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `ice` `bloodmoon` `openmw`
 
 ```
 2024-06-30-ice-shivers
@@ -1470,7 +1470,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-29-lich&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `lich` `tribunal` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-29-lich&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `lich` `tribunal` `openmw`
 
 ```
 2024-06-29-lich
@@ -1507,7 +1507,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-28-dead-trees-of-the-east-coast&postLocation=)</code> `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-28-dead-trees-of-the-east-coast&postLocation=)</code> `🚀 OpenMW` `openmw`
 
 ```
 2024-06-28-dead-trees-of-the-east-coast
@@ -1534,7 +1534,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-27-crates-and-pillows&postLocation=)</code> `🚀 OpenMW` `water` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-27-crates-and-pillows&postLocation=)</code> `🚀 OpenMW` `water` `openmw`
 
 ```
 2024-06-27-crates-and-pillows
@@ -1567,7 +1567,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-26-in-an-ice-cave&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `cave` `bloodmoon` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-26-in-an-ice-cave&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `cave` `bloodmoon` `openmw`
 
 ```
 2024-06-26-in-an-ice-cave
@@ -1598,7 +1598,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Balmora` `🚀 OpenMW` `nofilter` `nightstreet` `lantern` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Balmora` `🚀 OpenMW` `nofilter` `nightstreet` `lantern` `openmw`
 
 ```
 2024-06-25-night-street-of-balmora
@@ -1630,7 +1630,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Suran` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Suran` `🚀 OpenMW` `openmw`
 
 ```
 2024-06-24-night-square-of-suran
@@ -1662,7 +1662,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-23-dont-go-this-way&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `beast` `bloodmoon` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-23-dont-go-this-way&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `beast` `bloodmoon` `openmw`
 
 ```
 2024-06-23-dont-go-this-way
@@ -1695,7 +1695,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-22-valbrandr-barrow&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `arc` `bloodmoon` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-22-valbrandr-barrow&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `arc` `bloodmoon` `openmw`
 
 ```
 2024-06-22-valbrandr-barrow
@@ -1726,7 +1726,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Mzanchend` `🚀 OpenMW` `nofilter` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Mzanchend` `🚀 OpenMW` `nofilter` `openmw`
 
 ```
 2024-06-21-lava-lake-near-mzanchend
@@ -1753,7 +1753,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Dagon Fel` `🚀 OpenMW` `nofilter` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Dagon Fel` `🚀 OpenMW` `nofilter` `openmw`
 
 ```
 2024-06-20-arrival-in-dagon-fel
@@ -1785,7 +1785,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Suran` `🚀 OpenMW` `nofilter` `redlightdistrict` `night` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Suran` `🚀 OpenMW` `nofilter` `redlightdistrict` `night` `openmw`
 
 ```
 2024-06-19-deseles-house-of-earthly-delights
@@ -1824,7 +1824,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `openmw`
 
 ```
 2024-06-18-near-suran
@@ -1855,7 +1855,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Ald-ruhn` `🚀 OpenMW` `nofilter` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Ald-ruhn` `🚀 OpenMW` `nofilter` `openmw`
 
 ```
 2024-06-17-28-29-30-ready-or-not-here-i-come
@@ -1882,7 +1882,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Bitter Coast Region` `🚀 OpenMW` `nofilter` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Bitter Coast Region` `🚀 OpenMW` `nofilter` `openmw`
 
 ```
 2024-06-16-exploring-bitter-coast
@@ -1918,7 +1918,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-15-waterfall-camp&postLocation=)</code> `🚀 OpenMW` `nofilter` `waterfall` `camp` `campfire` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-15-waterfall-camp&postLocation=)</code> `🚀 OpenMW` `nofilter` `waterfall` `camp` `campfire` `openmw`
 
 ```
 2024-06-15-waterfall-camp
@@ -1968,7 +1968,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Ashlands Region` `🚀 OpenMW` `siltstrider` `night` `stars` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Ashlands Region` `🚀 OpenMW` `siltstrider` `night` `stars` `openmw`
 
 ```
 2024-06-14-sleeping-silt-strider
@@ -2008,7 +2008,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-13-propylon&postLocation=)</code> `🚀 OpenMW` `propylon` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-13-propylon&postLocation=)</code> `🚀 OpenMW` `propylon` `openmw`
 
 ```
 2024-06-13-propylon
@@ -2042,7 +2042,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Azura's Coast Region` `🚀 OpenMW` `tomb` `sunset` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Azura's Coast Region` `🚀 OpenMW` `tomb` `sunset` `openmw`
 
 ```
 2024-06-12-beran-ancestral-tomb
@@ -2108,7 +2108,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-10-utensil&postLocation=)</code> `🚀 OpenMW` `table` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-10-utensil&postLocation=)</code> `🚀 OpenMW` `table` `openmw`
 
 ```
 2024-06-10-utensil
@@ -2161,7 +2161,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Khuul` `🚀 OpenMW` `nofilter` `guard` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Khuul` `🚀 OpenMW` `nofilter` `guard` `openmw`
 
 ```
 2024-06-08-in-khuul
@@ -2188,7 +2188,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-07-ruins-in-a-mountain-dead-end&postLocation=)</code> `🚀 OpenMW` `ruin` `dwemer` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-07-ruins-in-a-mountain-dead-end&postLocation=)</code> `🚀 OpenMW` `ruin` `dwemer` `openmw`
 
 ```
 2024-06-07-ruins-in-a-mountain-dead-end
@@ -2215,7 +2215,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-06-shipwreck-at-the-estuary-of-foyada&postLocation=)</code> `🚀 OpenMW` `shipwreck` `ship` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-06-shipwreck-at-the-estuary-of-foyada&postLocation=)</code> `🚀 OpenMW` `shipwreck` `ship` `openmw`
 
 ```
 2024-06-06-shipwreck-at-the-estuary-of-foyada
@@ -2248,7 +2248,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Seyda Neen` `🚀 OpenMW` `nofilter` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Seyda Neen` `🚀 OpenMW` `nofilter` `openmw`
 
 ```
 2024-06-05-near-seyda-neen
@@ -2285,7 +2285,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Hla Oad` `🚀 OpenMW` `nofilter` `ship` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Hla Oad` `🚀 OpenMW` `nofilter` `ship` `openmw`
 
 ```
 2024-06-04-hla-oad
@@ -2324,7 +2324,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` `📍 Ascadian Isles Region` `🚀 OpenMW` `nofilter` `road` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B2` `📍 Ascadian Isles Region` `🚀 OpenMW` `nofilter` `road` `openmw`
 
 ```
 2024-06-03-somewhere-nearby-vivec
@@ -2356,7 +2356,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Tel Vos` `🚀 OpenMW` `nofilter` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Tel Vos` `🚀 OpenMW` `nofilter` `openmw`
 
 ```
 2024-06-02-vos-from-tel-vos
@@ -2387,7 +2387,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Buckmoth Legion Fort, Interior` `🚀 OpenMW` `candles` `fort` `table` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Buckmoth Legion Fort, Interior` `🚀 OpenMW` `candles` `fort` `table` `openmw`
 
 ```
 2024-06-01-visiting-imperial-fort
@@ -2416,7 +2416,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-31-in-fir-branches&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `firtree` `snow` `bloodmoon` `openmw` `morrowind` `elderscrolls` `screenshot`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-31-in-fir-branches&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `firtree` `snow` `bloodmoon` `openmw`
 
 ```
 2024-05-31-in-fir-branches
@@ -2445,7 +2445,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Sadrith Mora` `🚀 OpenMW` `nofilter` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A1` `📍 Sadrith Mora` `🚀 OpenMW` `nofilter` `openmw`
 
 ```
 2024-05-30-telvanni-council-house
@@ -2476,7 +2476,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-29-lord-gothren&postLocation=)</code> `🚀 OpenMW` `guard` `encounter` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-29-lord-gothren&postLocation=)</code> `🚀 OpenMW` `guard` `encounter` `openmw`
 
 ```
 2024-05-29-lord-gothren
@@ -2503,7 +2503,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-28-two-legioners-talking&postLocation=)</code> `🚀 OpenMW` `encounter` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-28-two-legioners-talking&postLocation=)</code> `🚀 OpenMW` `encounter` `openmw`
 
 ```
 2024-05-28-two-legioners-talking
@@ -2535,7 +2535,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-27-flight&postLocation=)</code> `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-27-flight&postLocation=)</code> `🚀 OpenMW` `openmw`
 
 ```
 2024-05-27-flight
@@ -2576,7 +2576,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-26-shore-shroom&postLocation=)</code> `🚀 OpenMW` `mushrooms` `shore` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-26-shore-shroom&postLocation=)</code> `🚀 OpenMW` `mushrooms` `shore` `openmw`
 
 ```
 2024-05-26-shore-shroom
@@ -2603,7 +2603,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-25-table-for-two&postLocation=)</code> `🚀 OpenMW` `tablefortwo` `bar` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-25-table-for-two&postLocation=)</code> `🚀 OpenMW` `tablefortwo` `bar` `openmw`
 
 ```
 2024-05-25-table-for-two
@@ -2634,7 +2634,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-24-gloomy-barrow&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `barrow` `bloodmoon` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-24-gloomy-barrow&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `barrow` `bloodmoon` `openmw`
 
 ```
 2024-05-24-gloomy-barrow
@@ -2666,7 +2666,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-23-death-and-life&postLocation=)</code> `🚀 OpenMW` `sunset` `shores` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-23-death-and-life&postLocation=)</code> `🚀 OpenMW` `sunset` `shores` `openmw`
 
 ```
 2024-05-23-death-and-life
@@ -2700,7 +2700,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-22-the-road-through-lava&postLocation=)</code> `🚀 OpenMW` `nofilter` `roadfork` `lava` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-22-the-road-through-lava&postLocation=)</code> `🚀 OpenMW` `nofilter` `roadfork` `lava` `openmw`
 
 ```
 2024-05-22-the-road-through-lava
@@ -2732,7 +2732,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-21-in-the-cage&postLocation=)</code> `🚀 OpenMW` `cage` `slave` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-21-in-the-cage&postLocation=)</code> `🚀 OpenMW` `cage` `slave` `openmw`
 
 ```
 2024-05-21-in-the-cage
@@ -2832,7 +2832,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Wolverine Hall` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Wolverine Hall` `🚀 OpenMW` `openmw`
 
 ```
 2024-05-18-in-the-yard-of-wolverine-hall
@@ -2895,7 +2895,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Ashlands Region` `🚀 OpenMW` `hills` `rocks` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Ashlands Region` `🚀 OpenMW` `hills` `rocks` `openmw`
 
 ```
 2024-05-16-evening-expanse-of-ashlands
@@ -2966,7 +2966,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Sadrith Mora` `🚀 OpenMW` `nofilter` `ship` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A1` `📍 Sadrith Mora` `🚀 OpenMW` `nofilter` `ship` `openmw`
 
 ```
 2024-05-14-climbing-aboard-the-elf-skerring
@@ -2998,7 +2998,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Vivec` `🚀 OpenMW` `nofilter` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Vivec` `🚀 OpenMW` `nofilter` `openmw`
 
 ```
 2024-05-13-pray-with-the-saints
@@ -3053,7 +3053,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Suran` `🚀 OpenMW` `tower` `night` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Suran` `🚀 OpenMW` `tower` `night` `openmw`
 
 ```
 2024-05-11-guard-tower-of-suran
@@ -3123,7 +3123,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-09-strategic-stock&postLocation=)</code> `🚀 OpenMW` `barrels` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-09-strategic-stock&postLocation=)</code> `🚀 OpenMW` `barrels` `openmw`
 
 ```
 2024-05-09-strategic-stock
@@ -3189,7 +3189,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-07-campfire&postLocation=)</code> `🚀 OpenMW` `campfire` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-07-campfire&postLocation=)</code> `🚀 OpenMW` `campfire` `openmw`
 
 ```
 2024-05-07-campfire
@@ -3218,7 +3218,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Vivec, Guild of Mages` `🚀 OpenMW` `alchemy` `table` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Vivec, Guild of Mages` `🚀 OpenMW` `alchemy` `table` `openmw`
 
 ```
 2024-05-06-alchemist-table
@@ -3249,7 +3249,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-05-dinner-for-four&postLocation=)</code> `🚀 OpenMW` `table` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-05-dinner-for-four&postLocation=)</code> `🚀 OpenMW` `table` `openmw`
 
 ```
 2024-05-05-dinner-for-four
@@ -3308,7 +3308,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-03-coastal-silt-strider&postLocation=)</code> `🚀 OpenMW` `siltstrider` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-03-coastal-silt-strider&postLocation=)</code> `🚀 OpenMW` `siltstrider` `openmw`
 
 ```
 2024-05-03-coastal-silt-strider
@@ -3336,7 +3336,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-02-over-the-lava&postLocation=)</code> `🚀 OpenMW` `lava` `openmw` `morrowind` `elderscrolls` `screenshot`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-02-over-the-lava&postLocation=)</code> `🚀 OpenMW` `lava` `openmw`
 
 ```
 2024-05-02-over-the-lava
@@ -3368,7 +3368,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-01-upper-circles&postLocation=)</code> `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-01-upper-circles&postLocation=)</code> `🚀 OpenMW` `openmw`
 
 ```
 2024-05-01-upper-circles
@@ -3399,7 +3399,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-30-tree-of-magnus&postLocation=)</code> `🚀 OpenMW` `sun` `trees` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-30-tree-of-magnus&postLocation=)</code> `🚀 OpenMW` `sun` `trees` `openmw`
 
 ```
 2024-04-30-tree-of-magnus
@@ -3453,7 +3453,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Ebonheart` `🚀 OpenMW` `nofilter` `fort` `castle` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A1` `📍 Ebonheart` `🚀 OpenMW` `nofilter` `fort` `castle` `openmw`
 
 ```
 2024-04-28-ebonheart-towers
@@ -3480,7 +3480,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-27-sunset-over-the-lava-river&postLocation=)</code> `🚀 OpenMW` `lava` `sunset` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-27-sunset-over-the-lava-river&postLocation=)</code> `🚀 OpenMW` `lava` `sunset` `openmw`
 
 ```
 2024-04-27-sunset-over-the-lava-river
@@ -3534,7 +3534,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 An Abandoned Shack` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 An Abandoned Shack` `🚀 OpenMW` `openmw`
 
 ```
 2024-04-25-abandoned-island
@@ -3600,7 +3600,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Mournhold, Temple Courtyard` `🚀 OpenMW` `🔗 Tribunal` `evening` `tribunal` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Mournhold, Temple Courtyard` `🚀 OpenMW` `🔗 Tribunal` `evening` `tribunal` `openmw`
 
 ```
 2024-04-23-evening-mournhold
@@ -3641,7 +3641,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Molag Amur Region` `🚀 OpenMW` `sunset` `lava` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Molag Amur Region` `🚀 OpenMW` `sunset` `lava` `openmw`
 
 ```
 2024-04-22-sunset-over-molag-amur
@@ -3670,7 +3670,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-21-a-little-joy-for-hard-worker&postLocation=)</code> `🚀 OpenMW` `candles` `bottle` `cup` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-21-a-little-joy-for-hard-worker&postLocation=)</code> `🚀 OpenMW` `candles` `bottle` `cup` `openmw`
 
 ```
 2024-04-21-a-little-joy-for-hard-worker
@@ -3715,7 +3715,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Beran Ancestral Tomb` `🚀 OpenMW` `tomb` `sword` `skulls` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Beran Ancestral Tomb` `🚀 OpenMW` `tomb` `sword` `skulls` `openmw`
 
 ```
 2024-04-20-fallen-sanctuary
@@ -3769,7 +3769,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` `📍 Dren Plantation` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B2` `📍 Dren Plantation` `🚀 OpenMW` `openmw`
 
 ```
 2024-04-18-dren-plantation
@@ -3807,7 +3807,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-17-interior-garden&postLocation=)</code> `🚀 OpenMW` `nofilter` `mushrooms` `interiorgarden` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-17-interior-garden&postLocation=)</code> `🚀 OpenMW` `nofilter` `mushrooms` `interiorgarden` `openmw`
 
 ```
 2024-04-17-interior-garden
@@ -3834,7 +3834,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-16-birth-of-fabricant&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil` `tribunal` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-16-birth-of-fabricant&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil` `tribunal` `openmw`
 
 ```
 2024-04-16-birth-of-fabricant
@@ -3905,7 +3905,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Vivec, Temple` `🚀 OpenMW` `nofilter` `vivec` `palace` `castle` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Vivec, Temple` `🚀 OpenMW` `nofilter` `vivec` `palace` `castle` `openmw`
 
 ```
 2024-04-14-palace-of-vivec
@@ -3968,7 +3968,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Sadrith Mora, Gateway Inn` `🚀 OpenMW` `nofilter` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A1` `📍 Sadrith Mora, Gateway Inn` `🚀 OpenMW` `nofilter` `openmw`
 
 ```
 2024-04-12-sadrith-mora-gateway-inn
@@ -4039,7 +4039,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` `📍 Azura's Coast Region` `🚀 OpenMW` `mushroom` `sun` `openmw` `morrowind` `elderscrolls` `screenshot`
+`E` `📍 Azura's Coast Region` `🚀 OpenMW` `mushroom` `sun` `openmw`
 
 ```
 2024-04-10-sun-mushrooms
@@ -4104,7 +4104,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Molag Amur Region` `🚀 OpenMW` `lava` `night` `fork` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Molag Amur Region` `🚀 OpenMW` `lava` `night` `fork` `openmw`
 
 ```
 2024-04-08-lava-fork
@@ -4127,7 +4127,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Sheogorad Region` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Sheogorad Region` `🚀 OpenMW` `openmw`
 
 ```
 2024-04-07-sheogorad
@@ -4187,7 +4187,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Sotha Sil, Dome of Serlyn` `🚀 OpenMW` `🔗 Tribunal` `clockworkcity` `tribunal` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Sotha Sil, Dome of Serlyn` `🚀 OpenMW` `🔗 Tribunal` `clockworkcity` `tribunal` `openmw`
 
 ```
 2024-04-05-rain-of-sparks
@@ -4254,7 +4254,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Almurbalarammi, Shrine` `🚀 OpenMW` `sheogorath` `shrine` `daedric` `statue` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Almurbalarammi, Shrine` `🚀 OpenMW` `sheogorath` `shrine` `daedric` `statue` `openmw`
 
 ```
 2024-04-03-god-of-madness-and-his-follower
@@ -4308,7 +4308,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` `📍 Sheogorad Region` `🚀 OpenMW` `shore` `moon` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B2` `📍 Sheogorad Region` `🚀 OpenMW` `shore` `moon` `openmw`
 
 ```
 2024-04-01-at-the-edge-of-sheogorad
@@ -4369,7 +4369,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-30-a-boxy-nightstand&postLocation=)</code> `🚀 OpenMW` `nofilter` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-30-a-boxy-nightstand&postLocation=)</code> `🚀 OpenMW` `nofilter` `openmw`
 
 ```
 2024-03-30-a-boxy-nightstand
@@ -4438,7 +4438,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Moonmoth Legion Fort` `🚀 OpenMW` `nofilter` `fort` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Moonmoth Legion Fort` `🚀 OpenMW` `nofilter` `fort` `openmw`
 
 ```
 2024-03-28-moonmoth-legion-fort
@@ -4509,7 +4509,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Seyda Neen` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Seyda Neen` `🚀 OpenMW` `openmw`
 
 ```
 2024-03-26-recollecting-the-first-steps
@@ -4584,7 +4584,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-24-dark-sanctuary-of-dark&postLocation=)</code> `🚀 OpenMW` `candles` `sanctuary` `openmw` `morrowind` `elderscrolls` `screenshot`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-24-dark-sanctuary-of-dark&postLocation=)</code> `🚀 OpenMW` `candles` `sanctuary` `openmw`
 
 ```
 2024-03-24-dark-sanctuary-of-dark
@@ -4653,7 +4653,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Pelagiad` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Pelagiad` `🚀 OpenMW` `openmw`
 
 ```
 2024-03-22-i-greet-you-in-pelagiad-traveler
@@ -4719,7 +4719,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-20-banner-of-house-dagoth&postLocation=)</code> `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-20-banner-of-house-dagoth&postLocation=)</code> `🚀 OpenMW` `openmw`
 
 ```
 2024-03-20-banner-of-house-dagoth
@@ -4777,7 +4777,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Azura's Coast Region` `🚀 OpenMW` `nofilter` `coast` `mudcrab` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Azura's Coast Region` `🚀 OpenMW` `nofilter` `coast` `mudcrab` `openmw`
 
 ```
 2024-03-18-evening-on-azuras-coast
@@ -4839,7 +4839,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Ald-ruhn` `🚀 OpenMW` `nofilter` `night` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Ald-ruhn` `🚀 OpenMW` `nofilter` `night` `openmw`
 
 ```
 2024-03-16-night-guardess
@@ -4896,7 +4896,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Balmora` `🚀 OpenMW` `nofilter` `nightstreet` `lantern` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A1` `📍 Balmora` `🚀 OpenMW` `nofilter` `nightstreet` `lantern` `openmw`
 
 ```
 2024-03-14-night-street-of-balmora
@@ -4933,7 +4933,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Caldera` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Caldera` `🚀 OpenMW` `openmw`
 
 ```
 2024-03-13-haze
@@ -5013,7 +5013,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Molag Amur Region` `🚀 OpenMW` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Molag Amur Region` `🚀 OpenMW` `openmw`
 
 ```
 2024-03-11-gray-thorns
@@ -5065,7 +5065,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Buckmoth Legion Fort, Towers` `🚀 OpenMW` `fort` `candles` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Buckmoth Legion Fort, Towers` `🚀 OpenMW` `fort` `candles` `openmw`
 
 ```
 2024-03-09-wandering-around-the-fort
@@ -5159,7 +5159,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-06-mushroom-field&postLocation=)</code> `🚀 OpenMW` `mushrooms` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-06-mushroom-field&postLocation=)</code> `🚀 OpenMW` `mushrooms` `openmw`
 
 ```
 2024-03-06-mushroom-field
@@ -5193,7 +5193,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Mzahnch` `🚀 OpenMW` `dwemer` `towers` `sunset` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Mzahnch` `🚀 OpenMW` `dwemer` `towers` `sunset` `openmw`
 
 ```
 2024-03-05-mzahnch-at-sunset
@@ -5232,7 +5232,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Grazelands Region` `🚀 OpenMW` `tree` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Grazelands Region` `🚀 OpenMW` `tree` `openmw`
 
 ```
 2024-03-04-an-old-sprout
@@ -5255,7 +5255,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-03-exit&postLocation=)</code> `🚀 OpenMW` `tomb` `exit` `door` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-03-exit&postLocation=)</code> `🚀 OpenMW` `tomb` `exit` `door` `openmw`
 
 ```
 2024-03-03-exit
@@ -5295,7 +5295,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Ascadian Isles Region` `🚀 OpenMW` `trees` `mushrooms` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Ascadian Isles Region` `🚀 OpenMW` `trees` `mushrooms` `openmw`
 
 ```
 2024-03-02-queue
@@ -5330,7 +5330,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Grazelands Region` `🚀 OpenMW` `rat` `openmw` `morrowind` `elderscrolls` `screenshot`
+`B1` `📍 Grazelands Region` `🚀 OpenMW` `rat` `openmw`
 
 ```
 2024-03-01-rat-in-the-pasture
@@ -5360,7 +5360,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-02-29-morning-hunt&postLocation=)</code> `🚀 OpenMW` `nofilter` `hunt` `skeleton` `morning` `guard` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-02-29-morning-hunt&postLocation=)</code> `🚀 OpenMW` `nofilter` `hunt` `skeleton` `morning` `guard` `openmw`
 
 ```
 2024-02-29-morning-hunt
@@ -5404,7 +5404,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Molag Amur Region` `🚀 OpenMW` `tomb` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A2` `📍 Molag Amur Region` `🚀 OpenMW` `tomb` `openmw`
 
 ```
 2024-02-28-omalen-ancestral-tomb
@@ -5438,7 +5438,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Grazelands Region` `🚀 OpenMW` `nofilter` `openmw` `morrowind` `elderscrolls` `screenshot`
+`A1` `📍 Grazelands Region` `🚀 OpenMW` `nofilter` `openmw`
 
 ```
 2024-02-27-daedroth-in-grazelands
