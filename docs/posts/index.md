@@ -29,14 +29,15 @@
 | [`ig`](https://instagram.com/p/BokCUgthFAs/)       | 2018-10-05 |       |   116 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_957)  | 2018-10-05 |   538 |    33 |       250 |   13.2 |
 | [`tg`](https://t.me/mwscr/65)                      | 2018-10-05 |   199 |     3 |           |        |
-| [`ig`](https://instagram.com/p/C-s02fCI7m7/)       | 2024-08-15 |       |       |      1439 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1691) | 2024-08-15 |       |       |       932 |        |
-| [`tg`](https://t.me/mwscr/502)                     | 2024-08-15 |       |       |       527 |        |
-|                                                    |            |   737 |   152 |      2898 |        |
+| [`ig`](https://instagram.com/p/C-s02fCI7m7/)       | 2024-08-15 |    30 |    16 |      1439 |   1.11 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1691) | 2024-08-15 |    41 |    10 |       932 |   1.07 |
+| [`tg`](https://t.me/mwscr/502)                     | 2024-08-15 |    71 |    17 |       527 |   3.23 |
+|                                                    |            |   879 |   195 |      2898 |   4.65 |
 
 #### Comments
 
 - `ig` <ins title="2018-10-06-16-26-08">mshahrim94</ins> Very Dork Souls alike
+- `vk` <ins title="2024-08-15-18-56-17">yourenemieswillpay</ins> Там клан Берне?
 
 ## <span id="2024-08-14-road-at-the-dawn">Road at the Dawn</span>
 
@@ -60,10 +61,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRuvtFtD7Lq/)       | 2017-03-17 |       |    63 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_217)  | 2017-03-17 |   200 |    13 |        46 |     13 |
-| [`ig`](https://instagram.com/p/C-qQqwSRZ8Q/)       | 2024-08-14 |   260 |    77 |      1439 |   5.35 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1690) | 2024-08-14 |   302 |    38 |       931 |   4.08 |
-| [`tg`](https://t.me/mwscr/501)                     | 2024-08-14 |   180 |    51 |       527 |   9.68 |
-|                                                    |            |   942 |   242 |      2897 |   8.03 |
+| [`ig`](https://instagram.com/p/C-qQqwSRZ8Q/)       | 2024-08-14 |   266 |    78 |      1439 |   5.42 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1690) | 2024-08-14 |   304 |    38 |       931 |   4.08 |
+| [`tg`](https://t.me/mwscr/501)                     | 2024-08-14 |   193 |    52 |       527 |   9.87 |
+|                                                    |            |   963 |   244 |      2897 |   8.09 |
 
 #### Comments
 
@@ -127,9 +128,9 @@
 | [`ig`](https://instagram.com/p/BZWmfSHjJ5N/)       | 2017-09-22 |       |    61 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_438)  | 2017-09-22 |   130 |    14 |        82 |     14 |
 | [`ig`](https://instagram.com/p/C-lHoO7sfCY/)       | 2024-08-12 |   243 |    86 |      1437 |   5.98 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1688) | 2024-08-12 |   202 |    37 |       931 |   3.97 |
-| [`tg`](https://t.me/mwscr/499)                     | 2024-08-12 |   211 |    51 |       523 |   9.75 |
-|                                                    |            |   786 |   249 |      2891 |   8.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1688) | 2024-08-12 |   216 |    38 |       931 |   4.08 |
+| [`tg`](https://t.me/mwscr/499)                     | 2024-08-12 |   239 |    53 |       523 |  10.13 |
+|                                                    |            |   828 |   252 |      2891 |   8.55 |
 
 #### Comments
 
