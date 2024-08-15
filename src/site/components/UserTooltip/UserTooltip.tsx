@@ -48,6 +48,9 @@ export const UserTooltip: Component<UserTooltipProps> = (props) => {
       <Show when={local.userInfo.likes > 0}>
         <span>Likes: {local.userInfo.likes}</span>
       </Show>
+      <Show when={local.userInfo.rating > 0}>
+        <span>Rating: {local.userInfo.rating}</span>
+      </Show>
     </Tooltip>
   );
 };

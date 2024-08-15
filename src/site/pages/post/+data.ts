@@ -12,7 +12,7 @@ export async function data(pageContext: PageContext): Promise<PostPageData> {
     : [];
   const authorEntries = await users.getEntries(asArray(post?.author));
   const requesterEntry = post?.request?.user ? await users.getEntry(post.request.user) : undefined;
-  const tagsUsage = await posts.getUsedTags();
+  const tagsUsage = await posts.getTagsUsageStats();
 
   const usedTags = post?.tags?.map((tag): [string, number] => [tag, tagsUsage.get(tag) || 0]);
 

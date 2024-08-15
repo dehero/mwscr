@@ -1,8 +1,8 @@
 import { asArray } from '../utils/common-utils.js';
 import { ListManager } from './list-manager.js';
-import { getPostDrawer, getPostTotalLikes, isPostEqual, mergePostWith, type Post } from './post.js';
+import { getPostDrawer, getPostRating, getPostTotalLikes, isPostEqual, mergePostWith, type Post } from './post.js';
 
-export type PostsManagerUsage = ReadonlyMap<string, number>;
+export type PostsManagerStats = ReadonlyMap<string, number>;
 
 export abstract class PostsManager<TPost extends Post = Post> extends ListManager<TPost> {
   // TODO: maybe remove isPostEqual and mergePostWith as separate functions
@@ -11,77 +11,95 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
 
   protected mergeItemWith = mergePostWith;
 
-  async getLikedAuthorIds(): Promise<PostsManagerUsage> {
-    const likedAuthorIds = new Map<string, number>();
+  async getAuthorsLikesStats(): Promise<PostsManagerStats> {
+    const stats = new Map<string, number>();
 
     for await (const [, post] of this.readAllEntries(true)) {
       const likes = getPostTotalLikes(post);
       asArray(post.author).forEach((author) => {
-        likedAuthorIds.set(author, (likedAuthorIds.get(author) || 0) + likes);
+        stats.set(author, (stats.get(author) || 0) + likes);
       });
     }
 
-    return likedAuthorIds;
+    return stats;
   }
 
-  async getUsedAuthorIds(): Promise<PostsManagerUsage> {
-    const usedAuthorIds = new Map<string, number>();
+  async getAuthorsRatingStats(): Promise<PostsManagerStats> {
+    const ratings = new Map<string, number[]>();
+
+    for await (const [, post] of this.readAllEntries(true)) {
+      const rating = getPostRating(post);
+      if (!rating) {
+        continue;
+      }
+      asArray(post.author).forEach((author) => {
+        ratings.set(author, [...(ratings.get(author) ?? []), rating]);
+      });
+    }
+
+    return new Map(
+      [...ratings].map(([author, ratings]) => [author, ratings.reduce((a, b) => a + b, 0) / ratings.length]),
+    );
+  }
+
+  async getAuthorsUsageStats(): Promise<PostsManagerStats> {
+    const stats = new Map<string, number>();
 
     for await (const [, post] of this.readAllEntries(true)) {
       asArray(post.author).forEach((author) => {
-        usedAuthorIds.set(author, (usedAuthorIds.get(author) || 0) + 1);
+        stats.set(author, (stats.get(author) || 0) + 1);
       });
     }
 
-    return usedAuthorIds;
+    return stats;
   }
 
-  async getUsedDrawerIds(): Promise<PostsManagerUsage> {
-    const usedDrawerIds = new Map<string, number>();
+  async getDrawersUsageStats(): Promise<PostsManagerStats> {
+    const stats = new Map<string, number>();
 
     for await (const [, post] of this.readAllEntries(true)) {
       const drawer = getPostDrawer(post);
       if (drawer) {
-        usedDrawerIds.set(drawer, (usedDrawerIds.get(drawer) || 0) + 1);
+        stats.set(drawer, (stats.get(drawer) || 0) + 1);
       }
     }
 
-    return usedDrawerIds;
+    return stats;
   }
 
-  async getUsedLocationIds(): Promise<PostsManagerUsage> {
-    const usedLocationIds = new Map<string, number>();
+  async getLocationsUsageStats(): Promise<PostsManagerStats> {
+    const stats = new Map<string, number>();
 
     for await (const [, post] of this.readAllEntries(true)) {
       if (post.location) {
-        usedLocationIds.set(post.location, (usedLocationIds.get(post.location) || 0) + 1);
+        stats.set(post.location, (stats.get(post.location) || 0) + 1);
       }
     }
 
-    return usedLocationIds;
+    return stats;
   }
 
-  async getUsedRequesterIds(): Promise<PostsManagerUsage> {
-    const usedAuthorIds = new Map<string, number>();
+  async getRequesterUsageStats(): Promise<PostsManagerStats> {
+    const stats = new Map<string, number>();
 
     for await (const [, post] of this.readAllEntries(true)) {
       if (post.request?.user) {
-        usedAuthorIds.set(post.request.user, (usedAuthorIds.get(post.request.user) || 0) + 1);
+        stats.set(post.request.user, (stats.get(post.request.user) || 0) + 1);
       }
     }
 
-    return usedAuthorIds;
+    return stats;
   }
 
-  async getUsedTags(): Promise<PostsManagerUsage> {
-    const usedTags = new Map<string, number>();
+  async getTagsUsageStats(): Promise<PostsManagerStats> {
+    const stats = new Map<string, number>();
 
     for await (const [, post] of this.readAllEntries(true)) {
       post.tags?.forEach((tag) => {
-        usedTags.set(tag, (usedTags.get(tag) || 0) + 1);
+        stats.set(tag, (stats.get(tag) || 0) + 1);
       });
     }
 
-    return usedTags;
+    return stats;
   }
 }

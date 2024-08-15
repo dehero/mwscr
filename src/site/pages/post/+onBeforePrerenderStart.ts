@@ -6,7 +6,7 @@ import type { PostPageData } from '../../components/PostPage/PostPage.js';
 import { postRoute } from '../../routes/post-route.js';
 
 export async function onBeforePrerenderStart(): ReturnType<OnBeforePrerenderStartAsync<PostPageData>> {
-  const tagsUsage = await posts.getUsedTags();
+  const tagsUsage = await posts.getTagsUsageStats();
 
   return (
     await Promise.all(

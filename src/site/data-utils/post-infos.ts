@@ -175,7 +175,7 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
 }
 
 export const getTagOptions = async (postsManager: PostsManager): Promise<Option<string>[]> => {
-  const usedTags = await postsManager.getUsedTags();
+  const usedTags = await postsManager.getTagsUsageStats();
 
   return [...usedTags]
     .sort(([a], [b]) => a.localeCompare(b))
@@ -186,7 +186,7 @@ export const getLocationOptions = async (
   postsManager: PostsManager,
   locations: LocationsReader,
 ): Promise<Option<string>[]> => {
-  const usedLocationIds = await postsManager.getUsedLocationIds();
+  const usedLocationIds = await postsManager.getLocationsUsageStats();
   const usedLocationsWithNesting = new Map();
 
   for await (const [location] of locations.readAllEntries(true)) {
@@ -205,7 +205,7 @@ export const getLocationOptions = async (
 };
 
 export const getAuthorOptions = async (postsManager: PostsManager, users: UsersManager): Promise<Option<string>[]> => {
-  const usedAuthorIds = await postsManager.getUsedAuthorIds();
+  const usedAuthorIds = await postsManager.getAuthorsUsageStats();
   const authors = await users.getEntries([...usedAuthorIds.keys()]);
 
   return authors
@@ -217,7 +217,7 @@ export const getRequesterOptions = async (
   postsManager: PostsManager,
   users: UsersManager,
 ): Promise<Option<string>[]> => {
-  const usedRequesterIds = await postsManager.getUsedRequesterIds();
+  const usedRequesterIds = await postsManager.getRequesterUsageStats();
   const requesters = await users.getEntries([...usedRequesterIds.keys()]);
 
   return requesters

@@ -146,7 +146,10 @@ export const UserPage: Component = () => {
               <Table
                 label="Total Reactions"
                 class={styles.attributes}
-                rows={[{ label: 'Likes', value: userInfo().likes }]}
+                rows={[
+                  { label: 'Likes', value: userInfo().likes },
+                  { label: 'Rating', value: userInfo().rating },
+                ]}
               />
             </Show>
 

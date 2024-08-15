@@ -17,7 +17,7 @@ export interface SelectUserInfosParams {
 }
 
 export const selectUserInfosSortOptions = [
-  { value: 'contribution', label: 'Contrbution', fn: compareUserInfosByContribution },
+  { value: 'contribution', label: 'Contribution', fn: compareUserInfosByContribution },
   { value: 'id', label: 'ID', fn: compareUserInfosById },
 ] as const satisfies SelectUserInfoSortOption[];
 

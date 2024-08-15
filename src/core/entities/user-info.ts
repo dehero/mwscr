@@ -16,6 +16,7 @@ export interface UserInfo {
   authored: UserContribution;
   requested: UserContribution;
   likes: number;
+  rating: number;
   roles: UserRole[];
 }
 
@@ -30,24 +31,25 @@ export async function createUserInfo(
   const [id, user] = userEntry;
 
   const authored: UserContribution = {
-    posted: (await posted.getUsedAuthorIds()).get(id) || 0,
-    pending: (await pending.getUsedAuthorIds()).get(id) || 0,
-    rejected: (await rejected.getUsedAuthorIds()).get(id) || 0,
+    posted: (await posted.getAuthorsUsageStats()).get(id) || 0,
+    pending: (await pending.getAuthorsUsageStats()).get(id) || 0,
+    rejected: (await rejected.getAuthorsUsageStats()).get(id) || 0,
   };
 
   const drawn: UserContribution = {
-    posted: (await posted.getUsedDrawerIds()).get(id) || 0,
-    pending: (await pending.getUsedDrawerIds()).get(id) || 0,
-    rejected: (await rejected.getUsedDrawerIds()).get(id) || 0,
+    posted: (await posted.getDrawersUsageStats()).get(id) || 0,
+    pending: (await pending.getDrawersUsageStats()).get(id) || 0,
+    rejected: (await rejected.getDrawersUsageStats()).get(id) || 0,
   };
 
   const requested: UserContribution = {
-    posted: (await posted.getUsedRequesterIds()).get(id) || 0,
-    pending: (await pending.getUsedRequesterIds()).get(id) || 0,
-    rejected: (await rejected.getUsedRequesterIds()).get(id) || 0,
+    posted: (await posted.getRequesterUsageStats()).get(id) || 0,
+    pending: (await pending.getRequesterUsageStats()).get(id) || 0,
+    rejected: (await rejected.getRequesterUsageStats()).get(id) || 0,
   };
 
-  const likes = (await posted.getLikedAuthorIds()).get(id) || 0;
+  const likes = (await posted.getAuthorsLikesStats()).get(id) || 0;
+  const rating = Number((await posted.getAuthorsRatingStats()).get(id)?.toFixed(2) || 0);
 
   const roles: UserRole[] = [];
 
@@ -77,6 +79,7 @@ export async function createUserInfo(
     authored,
     requested,
     likes,
+    rating,
     roles,
   });
 }
