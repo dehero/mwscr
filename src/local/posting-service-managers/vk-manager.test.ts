@@ -1,7 +1,11 @@
 import assert from 'node:assert';
-import { test } from 'node:test';
+import { afterEach, mock, test } from 'node:test';
 import type { PostEntry } from '../../core/entities/post.js';
 import { vkManager } from './vk-manager.js';
+
+afterEach(() => {
+  mock.timers.reset();
+});
 
 test('createCaption', async (t) => {
   const shotEntry: PostEntry = [
@@ -57,6 +61,8 @@ test('createCaption', async (t) => {
   ];
 
   await t.test('should create proper post caption on Russian', async () => {
+    mock.timers.enable({ apis: ['Date'], now: new Date('2024-08-07T18:25:22Z') });
+
     const caption = await vkManager.createCaption(shotEntry);
 
     assert.strictEqual(
@@ -66,6 +72,8 @@ test('createCaption', async (t) => {
   });
 
   await t.test('should create proper post caption on Russian for wallpaper', async () => {
+    mock.timers.enable({ apis: ['Date'], now: new Date('2024-08-07T18:25:22Z') });
+
     const caption = await vkManager.createCaption(wallpaperEntry);
 
     assert.strictEqual(
