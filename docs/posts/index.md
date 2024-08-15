@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRuvtFtD7Lq/)       | 2017-03-17 |       |    63 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_217)  | 2017-03-17 |   200 |    13 |        46 |     13 |
-| [`ig`](https://instagram.com/p/C-qQqwSRZ8Q/)       | 2024-08-14 |   181 |    60 |      1439 |   4.17 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1690) | 2024-08-14 |   164 |    30 |       931 |   3.22 |
-| [`tg`](https://t.me/mwscr/501)                     | 2024-08-14 |   128 |    42 |       527 |   7.97 |
-|                                                    |            |   673 |   208 |      2897 |   7.09 |
+| [`ig`](https://instagram.com/p/C-qQqwSRZ8Q/)       | 2024-08-14 |   191 |    62 |      1439 |   4.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1690) | 2024-08-14 |   185 |    32 |       931 |   3.44 |
+| [`tg`](https://t.me/mwscr/501)                     | 2024-08-14 |   145 |    43 |       527 |   8.16 |
+|                                                    |            |   721 |   213 |      2897 |   7.23 |
 
 ## <span id="2024-08-13-night-sky-above-suran">Night Sky Above Suran</span>
 
@@ -60,8 +60,8 @@
 | [`ig`](https://instagram.com/p/C-n0DECOnN-/)       | 2024-08-13 |   312 |   132 |      1438 |   9.18 |
 | [`ig`](https://instagram.com/p/C-n0EEExXGG/)       | 2024-08-13 |   179 |       |      1436 |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1689) | 2024-08-13 |   202 |    33 |       931 |   3.54 |
-| [`tg`](https://t.me/mwscr/500)                     | 2024-08-13 |   259 |    65 |       527 |  12.33 |
-|                                                    |            |   952 |   230 |      2896 |   8.35 |
+| [`tg`](https://t.me/mwscr/500)                     | 2024-08-13 |   264 |    65 |       527 |  12.33 |
+|                                                    |            |   957 |   230 |      2896 |   8.35 |
 
 #### Comments
 
@@ -455,12 +455,13 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_329)  | 2017-06-21 |   104 |     3 |        65 |      3 |
 | [`ig`](https://instagram.com/p/C-HKdRnqQ1E/)       | 2024-08-01 |   251 |    92 |      1434 |   6.42 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1663) | 2024-08-01 |   229 |    29 |       924 |   3.14 |
-| [`tg`](https://t.me/mwscr/487)                     | 2024-08-01 |   463 |    57 |       423 |  13.48 |
-|                                                    |            |  1047 |   241 |      2781 |   6.51 |
+| [`tg`](https://t.me/mwscr/487)                     | 2024-08-01 |   601 |    58 |       423 |  13.71 |
+|                                                    |            |  1185 |   242 |      2781 |   6.57 |
 
 #### Comments
 
 - `ig` <ins title="2017-06-21-11-31-17">l3nku</ins> moody
+- `tg` <ins title="2024-08-08-20-28-45">pustotivetra</ins> 😂
 
 ## <span id="2024-07-31-comprehension-of-sciences">Comprehension of Sciences</span>
 
