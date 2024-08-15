@@ -4,7 +4,6 @@ import { getPostEntriesFromSource, getPostFirstPublished, isPost } from '../../c
 import type { PostInfo } from '../../core/entities/post-info.js';
 import { createPostInfo } from '../../core/entities/post-info.js';
 import { stripPostTags } from '../../core/entities/post-tag.js';
-import { postNameFromTitle } from '../../core/entities/post-title.js';
 import type { InboxItem, PostRequest, PublishablePost, TrashItem } from '../../core/entities/post-variation.js';
 import {
   getPostDraftChunkName,
@@ -135,7 +134,7 @@ export const trash = new LocalPostsManager<TrashItem | InboxItem>({
 export function createPublishedPostId(post: PublishablePost, index?: number) {
   const created = getPostFirstPublished(post) ?? new Date();
   const dateStr = dateToString(created);
-  const name = postNameFromTitle(post.title);
+  const name = textToId(post.title);
 
   return [dateStr, index, name].filter((item) => Boolean(item)).join('-');
 }
@@ -143,7 +142,7 @@ export function createPublishedPostId(post: PublishablePost, index?: number) {
 export function createRepostId(post: PublishablePost) {
   const created = new Date();
   const dateStr = dateToString(created);
-  const name = postNameFromTitle(post.title);
+  const name = textToId(post.title);
 
   return [dateStr, name].filter((item) => Boolean(item)).join('-');
 }

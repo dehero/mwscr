@@ -1,4 +1,4 @@
-import { capitalizeFirstLetter, textToId } from '../utils/common-utils.js';
+import { capitalizeFirstLetter } from '../utils/common-utils.js';
 
 const POST_TITLE_LOWERCASE_WORDS = [
   'a',
@@ -21,10 +21,6 @@ const POST_TITLE_LOWERCASE_WORDS = [
   'd',
   'ruhn',
 ];
-
-export function postNameFromTitle(title: string) {
-  return textToId(title).replace('drawn-by', 'by');
-}
 
 export function postTitleFromString(value: string) {
   return value
