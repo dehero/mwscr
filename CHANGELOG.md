@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.11.0](https://github.com/dehero/mwscr/compare/v1.10.1...v1.11.0) (2024-08-15)
+
+### Features
+
+- display average user ratings
+  ([c787668](https://github.com/dehero/mwscr/commit/c78766804de71eff372ede16e405567044260efc))
+
+### Bug Fixes
+
+- mock dates for VK caption test
+  ([b82efa6](https://github.com/dehero/mwscr/commit/b82efa6939ee521f163db13e7e9760932ca81d8e))
+
+### Code Refactoring
+
+- remove postNameFromTitle ([32897b6](https://github.com/dehero/mwscr/commit/32897b6219dc70423c6b477b844c8ede341b1983))
+- rename DataReader and DataManager to ListReader and ListManager
+  ([a36a99b](https://github.com/dehero/mwscr/commit/a36a99b9e09c67be49551d330d0aae40febb2b62))
+- use better namings for post managers and reactions
+  ([82099bd](https://github.com/dehero/mwscr/commit/82099bd4eb7272d3fa478047210257be5a16703d))
+
 ## [1.10.1](https://github.com/dehero/mwscr/compare/v1.10.0...v1.10.1) (2024-08-15)
 
 ### Bug Fixes
