@@ -7,7 +7,8 @@ import {
   comparePostEntriesByRating,
 } from '../../../core/entities/post.js';
 import { isPostDraft, isPostRequest } from '../../../core/entities/post-variation.js';
-import { createUserInfo, createUserLinks } from '../../../core/entities/user.js';
+import { createUserLinks } from '../../../core/entities/user.js';
+import { createUserInfo } from '../../../core/entities/user-info.js';
 import { services } from '../../../core/services/index.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { getPostInfo, inbox, posts, trash } from '../../../local/data-managers/posts.js';

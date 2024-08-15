@@ -3,8 +3,8 @@ import { type Component, For, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import type { Link } from '../../../core/entities/link.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
-import type { UserInfo } from '../../../core/entities/user.js';
-import { isUserContributionEmpty } from '../../../core/entities/user.js';
+import type { UserInfo } from '../../../core/entities/user-info.js';
+import { isUserContributionEmpty } from '../../../core/entities/user-info.js';
 import { useParams } from '../../hooks/useParams.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import type { UserRouteParams } from '../../routes/user-route.js';
@@ -89,24 +89,24 @@ export const UserPage: Component = () => {
                 label="Authored"
                 rows={[
                   {
-                    label: 'Published',
-                    value: userInfo().authored.published
+                    label: 'Posts',
+                    value: userInfo().authored.posted
                       ? () => (
                           <>
                             <GoldIcon class={styles.goldIcon} />
-                            {userInfo().authored.published}
+                            {userInfo().authored.posted}
                           </>
                         )
                       : undefined,
                     link: postsRoute.createUrl({ managerName: 'posts', author: id(), original: 'true' }),
                   },
                   {
-                    label: 'Pending',
+                    label: 'Inbox',
                     value: userInfo().authored.pending,
                     link: postsRoute.createUrl({ managerName: 'inbox', author: id() }),
                   },
                   {
-                    label: 'Rejected',
+                    label: 'Trash',
                     value: userInfo().authored.rejected,
                     link: postsRoute.createUrl({ managerName: 'trash', author: id() }),
                   },
@@ -122,17 +122,17 @@ export const UserPage: Component = () => {
                 label="Requested"
                 rows={[
                   {
-                    label: 'Published',
-                    value: userInfo().requested.published,
+                    label: 'Posts',
+                    value: userInfo().requested.posted,
                     link: postsRoute.createUrl({ managerName: 'posts', requester: id() }),
                   },
                   {
-                    label: 'Pending',
+                    label: 'Inbox',
                     value: userInfo().requested.pending,
                     link: postsRoute.createUrl({ managerName: 'inbox', requester: id() }),
                   },
                   {
-                    label: 'Rejected',
+                    label: 'Trash',
                     value: userInfo().requested.rejected,
                     link: postsRoute.createUrl({ managerName: 'trash', requester: id() }),
                   },
@@ -143,7 +143,11 @@ export const UserPage: Component = () => {
             <Show when={userInfo().likes}>
               <Divider />
 
-              <Table class={styles.attributes} rows={[{ label: 'Likes', value: userInfo().likes }]} />
+              <Table
+                label="Total Reactions"
+                class={styles.attributes}
+                rows={[{ label: 'Likes', value: userInfo().likes }]}
+              />
             </Show>
 
             <Show when={userLinks && userLinks.length > 0}>

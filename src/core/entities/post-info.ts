@@ -76,7 +76,7 @@ export async function createPostInfo(
     request: post.request,
     mark: post.mark,
     violation: post.violation,
-    published: Boolean(post.posts),
+    published: Boolean(post.posts?.length),
     publishableErrors: errors.length > 0 ? errors : undefined,
     commentCount: getPostCommentCount(post),
     likes: getPostTotalLikes(post),

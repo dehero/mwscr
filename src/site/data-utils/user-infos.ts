@@ -1,6 +1,7 @@
 import type { Option } from '../../core/entities/option.js';
-import type { UserInfo, UserInfoComparator, UserRole } from '../../core/entities/user.js';
-import { compareUserInfosByContribution, compareUserInfosById } from '../../core/entities/user.js';
+import type { UserRole } from '../../core/entities/user.js';
+import type { UserInfo, UserInfoComparator } from '../../core/entities/user-info.js';
+import { compareUserInfosByContribution, compareUserInfosById } from '../../core/entities/user-info.js';
 import type { SortDirection } from '../../core/utils/common-types.js';
 import { getSearchTokens, search } from '../../core/utils/common-utils.js';
 

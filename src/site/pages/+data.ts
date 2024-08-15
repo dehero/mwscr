@@ -9,7 +9,7 @@ import {
   getPostTotalLikes,
 } from '../../core/entities/post.js';
 import { isPostDraft, isPostRequest, isPublishedPost } from '../../core/entities/post-variation.js';
-import { createUserInfo } from '../../core/entities/user.js';
+import { createUserInfo } from '../../core/entities/user-info.js';
 import { getPostInfo, inbox, posts, trash } from '../../local/data-managers/posts.js';
 import { users } from '../../local/data-managers/users.js';
 import type { HomePageData } from '../components/HomePage/HomePage.js';
@@ -39,7 +39,7 @@ export async function data(): Promise<HomePageData> {
   return {
     buildDate: new Date(),
     totalPosts: {
-      published: await posts.getItemCount(),
+      posted: await posts.getItemCount(),
       pending: await inbox.getItemCount(),
       rejected: await trash.getItemCount(),
     },

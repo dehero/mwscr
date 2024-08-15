@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import { type Component, createSignal, Show } from 'solid-js';
-import type { UserInfo } from '../../../core/entities/user.js';
+import type { UserInfo } from '../../../core/entities/user-info.js';
 import { userRoute } from '../../routes/user-route.js';
 import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
@@ -25,10 +25,10 @@ export const UserPreview: Component<UserPreviewProps> = (props) => {
 
       <span class={styles.title}>{props.userInfo.title}</span>
 
-      <Show when={props.userInfo.authored.published > 0}>
+      <Show when={props.userInfo.authored.posted > 0}>
         <span class={styles.published}>
           <GoldIcon />
-          {props.userInfo.authored.published}
+          {props.userInfo.authored.posted}
         </span>
       </Show>
 

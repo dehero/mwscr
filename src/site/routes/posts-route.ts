@@ -9,7 +9,7 @@ export const postsRouteInfos: Record<string, PostsPageInfo> = {
   posts: {
     label: 'Posts',
     title: 'Posts',
-    description: 'Published posts of Morrowind Screenshots project.',
+    description: 'Posts of Morrowind Screenshots project.',
     presetKeys: ['editors-choice', 'unlocated', 'requests'],
     filters: ['date', 'author', 'location', 'mark', 'tag', 'type', 'requester', 'original'],
   },

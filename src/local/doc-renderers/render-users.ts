@@ -3,14 +3,15 @@ import esc from 'escape-html';
 import type { Doc } from '../../core/entities/doc.js';
 import type { Link } from '../../core/entities/link.js';
 import type { PostsManager } from '../../core/entities/posts-manager.js';
-import type { UserContribution, UserEntry, UserInfo } from '../../core/entities/user.js';
+import type { UserEntry } from '../../core/entities/user.js';
+import { createUserLinks } from '../../core/entities/user.js';
+import type { UserContribution, UserInfo } from '../../core/entities/user-info.js';
 import {
   compareUserInfosByContribution,
   createUserInfo,
-  createUserLinks,
   isUserContributionEmpty,
   userContributionToString,
-} from '../../core/entities/user.js';
+} from '../../core/entities/user-info.js';
 import type { UsersManager } from '../../core/entities/users-manager.js';
 import { services } from '../../core/services/index.js';
 import { partition } from '../../core/utils/common-utils.js';

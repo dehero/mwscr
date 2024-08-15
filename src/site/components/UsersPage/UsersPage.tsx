@@ -4,8 +4,9 @@ import { type Component, createSignal, For, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION } from '../../../core/entities/option.js';
-import type { UserInfo, UserRole } from '../../../core/entities/user.js';
+import type { UserRole } from '../../../core/entities/user.js';
 import { USER_ROLES } from '../../../core/entities/user.js';
+import type { UserInfo } from '../../../core/entities/user-info.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { isObjectEqual } from '../../../core/utils/common-utils.js';
 import {

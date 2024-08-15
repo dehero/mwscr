@@ -425,7 +425,7 @@ export const PostPage: Component = () => {
 
                 <Table
                   class={styles.table}
-                  label="Reactions"
+                  label="Total Reactions"
                   rows={[
                     {
                       label: 'Likes',

@@ -3,7 +3,7 @@ import { useData } from 'vike-solid/useData';
 import icon from '../../../../assets/icon.png?format=avif&imagetools';
 import pkg from '../../../../package.json';
 import type { PostInfo } from '../../../core/entities/post-info.js';
-import type { UserContribution } from '../../../core/entities/user.js';
+import type { UserContribution } from '../../../core/entities/user-info.js';
 import { formatDate, formatTime } from '../../../core/utils/date-utils.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
@@ -110,22 +110,21 @@ export const HomePage: Component = () => {
 
       <Frame class={styles.statistics}>
         <Table
-          label="Posts"
           rows={[
             {
-              label: 'Published',
-              value: totalPosts.published
+              label: 'Posts',
+              value: totalPosts.posted
                 ? () => (
                     <>
                       <GoldIcon class={styles.goldIcon} />
-                      {totalPosts.published}
+                      {totalPosts.posted}
                     </>
                   )
                 : undefined,
               link: postsRoute.createUrl({ managerName: 'posts' }),
             },
-            { label: 'Pending', value: totalPosts.pending, link: postsRoute.createUrl({ managerName: 'inbox' }) },
-            { label: 'Rejected', value: totalPosts.rejected, link: postsRoute.createUrl({ managerName: 'trash' }) },
+            { label: 'Inbox', value: totalPosts.pending, link: postsRoute.createUrl({ managerName: 'inbox' }) },
+            { label: 'Trash', value: totalPosts.rejected, link: postsRoute.createUrl({ managerName: 'trash' }) },
           ]}
         />
         <Divider />
