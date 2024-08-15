@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.10.1](https://github.com/dehero/mwscr/compare/v1.10.0...v1.10.1) (2024-08-15)
+
+### Bug Fixes
+
+- don't count reposts when calculating total reactions
+  ([dc93774](https://github.com/dehero/mwscr/commit/dc93774733e53c1b4c7732488c113b48d385ecc0))
+
 ## [1.10.0](https://github.com/dehero/mwscr/compare/v1.9.3...v1.10.0) (2024-08-14)
 
 ### Features
