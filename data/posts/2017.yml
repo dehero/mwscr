@@ -2324,7 +2324,7 @@
     - service: vk
       id: 1541
       published: 2024-05-22-18-19-25
-      updated: 2024-08-08-03-16-28
+      updated: 2024-08-15-03-16-42
       followers: 917
       likes: 31
       views: 247
@@ -2335,10 +2335,10 @@
     - service: tg
       id: 416
       published: 2024-05-22-18-19-31
-      updated: 2024-08-08-03-16-27
+      updated: 2024-08-15-03-16-42
       followers: 375
-      likes: 56
-      views: 428
+      likes: 57
+      views: 434
 2017-03-08-nchurdamz-at-the-sunset:
   title: Nchurdamz at the Sunset
   titleRu: Нчурдамц на закате
@@ -2659,25 +2659,25 @@
       id: C-qQqwSRZ8Q
       mediaId: '17883114717036714'
       published: 2024-08-14-18-25-43
-      updated: 2024-08-15-02-33-03
+      updated: 2024-08-15-03-16-36
       followers: 1439
-      likes: 59
-      views: 173
+      likes: 60
+      views: 177
     - service: vk
       id: 1690
       published: 2024-08-14-18-25-51
-      updated: 2024-08-15-02-33-04
+      updated: 2024-08-15-03-16-36
       followers: 931
-      likes: 27
-      views: 145
+      likes: 29
+      views: 153
       reposts: 4
     - service: tg
       id: 501
       published: 2024-08-14-18-26-00
-      updated: 2024-08-15-02-33-04
+      updated: 2024-08-15-03-16-37
       followers: 527
-      likes: 39
-      views: 118
+      likes: 40
+      views: 119
 2017-03-18-arrival-in-dagon-fel:
   title: Arrival in Dagon Fel
   titleRu: Прибытие в Дагон Фел
@@ -4308,7 +4308,7 @@
     - service: vk
       id: 1569
       published: 2024-06-05-18-19-31
-      updated: 2024-08-08-03-16-26
+      updated: 2024-08-15-03-16-40
       followers: 916
       likes: 42
       views: 294
@@ -4320,10 +4320,10 @@
     - service: tg
       id: 430
       published: 2024-06-05-18-19-36
-      updated: 2024-08-08-03-16-26
+      updated: 2024-08-15-03-16-40
       followers: 385
       likes: 70
-      views: 488
+      views: 495
       comments: !c |-
         izKAkpPLQnj/GH6FgACvQWxleGV5IFN0ZXBhbm92v015IGhlYXJ0IHN0YXJ0ZWQgYmVhdGluZyBm
         YXN0ZXKTy0J4/poWK4AAqUdhdGVtYXRlN7ZpdCBpcyBzbyBiZWF1dGlmdWwuLi4uAw==
@@ -5314,17 +5314,17 @@
     - service: vk
       id: 1612
       published: 2024-07-03-18-19-45
-      updated: 2024-08-08-02-34-46
+      updated: 2024-08-15-03-16-38
       followers: 917
       likes: 28
-      views: 216
+      views: 217
     - service: tg
       id: 458
       published: 2024-07-03-18-19-53
-      updated: 2024-08-08-02-34-46
+      updated: 2024-08-15-03-16-38
       followers: 391
       likes: 49
-      views: 395
+      views: 409
       comments: !c |-
         CyGAkZTLQnkHndcVAACrYm9icm92bmlrb3azUklQIEQuIEJyeWFudCAg8J+qppPLQnkHngW2gACp
         R2F0ZW1hdGU3oz8/PwM=
@@ -9394,17 +9394,17 @@
     - service: vk
       id: 1603
       published: 2024-06-26-18-19-40
-      updated: 2024-08-08-02-34-47
+      updated: 2024-08-15-03-16-39
       followers: 917
       likes: 41
-      views: 242
+      views: 244
     - service: tg
       id: 451
       published: 2024-06-26-18-19-49
-      updated: 2024-08-08-02-34-46
+      updated: 2024-08-15-03-16-39
       followers: 388
       likes: 54
-      views: 424
+      views: 436
 2017-10-12-gnaar-mok:
   title: Gnaar Mok
   titleRu: Гнаар Мок
