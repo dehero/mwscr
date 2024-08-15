@@ -1,7 +1,7 @@
-import { DataManager } from './data-manager.js';
+import { ListManager } from './list-manager.js';
 import type { User, UserProfiles } from './user.js';
 
-export abstract class UsersManager extends DataManager<User> {
+export abstract class UsersManager extends ListManager<User> {
   readonly name = 'users';
 
   protected createItemId(item: User) {

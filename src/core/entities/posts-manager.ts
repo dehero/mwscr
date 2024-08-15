@@ -1,10 +1,10 @@
 import { asArray } from '../utils/common-utils.js';
-import { DataManager } from './data-manager.js';
+import { ListManager } from './list-manager.js';
 import { getPostDrawer, getPostTotalLikes, isPostEqual, mergePostWith, type Post } from './post.js';
 
 export type PostsManagerUsage = ReadonlyMap<string, number>;
 
-export abstract class PostsManager<TPost extends Post = Post> extends DataManager<TPost> {
+export abstract class PostsManager<TPost extends Post = Post> extends ListManager<TPost> {
   // TODO: maybe remove isPostEqual and mergePostWith as separate functions
 
   protected isItemEqual = isPostEqual;

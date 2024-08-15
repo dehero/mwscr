@@ -1,6 +1,6 @@
-import { searchDataReaderItem } from '../../core/entities/data-manager.js';
 import { postMark, postViolation } from '../../core/entities/field.js';
 import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
+import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import type { PostViolation } from '../../core/entities/post.js';
 import { POST_MARKS, POST_VIOLATIONS } from '../../core/entities/post.js';
 import { label } from '../../core/github-issues/review.js';
@@ -17,7 +17,7 @@ export async function resolve(issue: GithubIssue) {
   }
 
   const id = issue.title;
-  const [post, manager] = await searchDataReaderItem(id, [inbox, trash, posts]);
+  const [post, manager] = await searchListReaderItem(id, [inbox, trash, posts]);
 
   const markStr = extractIssueFieldValue(postMark, issue.body);
   const violationStr = extractIssueFieldValue(postViolation, issue.body);

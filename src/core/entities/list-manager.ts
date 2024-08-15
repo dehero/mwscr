@@ -1,16 +1,16 @@
 import { arrayFromAsync, listItems } from '../utils/common-utils.js';
 
-export const DATA_READER_CHUNK_NAME_DEFAULT = 'default';
+export const LIST_READER_CHUNK_NAME_DEFAULT = 'default';
 
-export type DataReaderEntry<TItem> = [id: string, item: TItem, refId?: string];
+export type ListReaderEntry<TItem> = [id: string, item: TItem, refId?: string];
 
-export type DataReaderChunk<TItem> = Map<string, TItem | string>;
+export type ListReaderChunk<TItem> = Map<string, TItem | string>;
 
-export abstract class DataReader<TItem> {
+export abstract class ListReader<TItem> {
   abstract readonly name: string;
 
   protected loadedChunkNames: string[] | undefined;
-  protected chunks: Map<string, DataReaderChunk<TItem>> = new Map();
+  protected chunks: Map<string, ListReaderChunk<TItem>> = new Map();
 
   async getChunkNames(): Promise<string[]> {
     if (!this.loadedChunkNames) {
@@ -33,22 +33,22 @@ export abstract class DataReader<TItem> {
   }
 
   protected getItemChunkName(_id: string) {
-    return DATA_READER_CHUNK_NAME_DEFAULT;
+    return LIST_READER_CHUNK_NAME_DEFAULT;
   }
 
   async getItem(id: string): Promise<TItem | undefined> {
     return (await this.getEntry(id))[1];
   }
 
-  async getAllEntries(skipReferences?: boolean): Promise<DataReaderEntry<TItem>[]> {
+  async getAllEntries(skipReferences?: boolean): Promise<ListReaderEntry<TItem>[]> {
     return arrayFromAsync(this.readAllEntries(skipReferences));
   }
 
-  async getChunkEntries(chunkName: string, skipReferences?: boolean): Promise<DataReaderEntry<TItem>[]> {
+  async getChunkEntries(chunkName: string, skipReferences?: boolean): Promise<ListReaderEntry<TItem>[]> {
     return arrayFromAsync(this.readChunkEntries(chunkName, skipReferences));
   }
 
-  async getEntry(id: string): Promise<DataReaderEntry<TItem | undefined>> {
+  async getEntry(id: string): Promise<ListReaderEntry<TItem | undefined>> {
     const chunkName = this.getItemChunkName(id);
     const chunk = await this.loadChunk(chunkName);
     const item = chunk.get(id);
@@ -62,11 +62,11 @@ export abstract class DataReader<TItem> {
     return [id, item];
   }
 
-  async getEntries(ids: string[]): Promise<DataReaderEntry<TItem | undefined>[]> {
+  async getEntries(ids: string[]): Promise<ListReaderEntry<TItem | undefined>[]> {
     return Promise.all(ids.map((id) => this.getEntry(id)));
   }
 
-  async findEntry(value: Partial<TItem>): Promise<DataReaderEntry<TItem> | undefined> {
+  async findEntry(value: Partial<TItem>): Promise<ListReaderEntry<TItem> | undefined> {
     for await (const entry of this.readAllEntries(true)) {
       if (this.isItemEqual(entry[1], value)) {
         return entry;
@@ -81,7 +81,7 @@ export abstract class DataReader<TItem> {
 
   protected abstract isItemEqual(a: TItem, b: Partial<TItem>): boolean;
 
-  protected async loadChunk(chunkName: string): Promise<DataReaderChunk<TItem>> {
+  protected async loadChunk(chunkName: string): Promise<ListReaderChunk<TItem>> {
     let chunk = this.chunks.get(chunkName);
     if (chunk) {
       return chunk;
@@ -105,10 +105,10 @@ export abstract class DataReader<TItem> {
   protected abstract loadChunkData(chunkName: string): Promise<Array<[string, TItem | string]>>;
 
   protected async loadChunkNames(): Promise<string[]> {
-    return [DATA_READER_CHUNK_NAME_DEFAULT];
+    return [LIST_READER_CHUNK_NAME_DEFAULT];
   }
 
-  protected async *yieldAllEntries(skipReferences?: boolean): AsyncGenerator<DataReaderEntry<TItem>> {
+  protected async *yieldAllEntries(skipReferences?: boolean): AsyncGenerator<ListReaderEntry<TItem>> {
     const chunkNames = await this.getChunkNames();
 
     for (const chunkName of chunkNames) {
@@ -119,7 +119,7 @@ export abstract class DataReader<TItem> {
   protected async *yieldChunkEntries(
     chunkName: string,
     skipReferences?: boolean,
-  ): AsyncGenerator<DataReaderEntry<TItem>> {
+  ): AsyncGenerator<ListReaderEntry<TItem>> {
     const chunk = await this.loadChunk(chunkName);
 
     for (const [key, value] of chunk) {
@@ -138,7 +138,7 @@ export abstract class DataReader<TItem> {
   }
 }
 
-export abstract class DataManager<TItem> extends DataReader<TItem> {
+export abstract class ListManager<TItem> extends ListReader<TItem> {
   async addItem(item: TItem | string, id: string) {
     const chunkName = this.getItemChunkName(id);
 
@@ -148,7 +148,7 @@ export abstract class DataManager<TItem> extends DataReader<TItem> {
     return this.saveChunk(chunkName);
   }
 
-  async mergeItem(item: TItem): Promise<DataReaderEntry<TItem>> {
+  async mergeItem(item: TItem): Promise<ListReaderEntry<TItem>> {
     const entry = await this.findEntry(item);
 
     if (!entry) {
@@ -197,10 +197,10 @@ export abstract class DataManager<TItem> extends DataReader<TItem> {
   protected abstract saveChunk(chunkName: string): Promise<void>;
 }
 
-export async function searchDataReaderItem<
-  TDataReader extends DataReader<unknown>,
-  TItem extends TDataReader extends DataReader<infer T> ? T : never,
->(id: string, managers: TDataReader[]): Promise<[TItem, TDataReader]> {
+export async function searchListReaderItem<
+  TListReader extends ListReader<unknown>,
+  TItem extends TListReader extends ListReader<infer T> ? T : never,
+>(id: string, managers: TListReader[]): Promise<[TItem, TListReader]> {
   for (const manager of managers) {
     const item = await manager.getItem(id);
     if (item) {

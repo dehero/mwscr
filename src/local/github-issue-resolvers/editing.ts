@@ -1,4 +1,3 @@
-import { searchDataReaderItem } from '../../core/entities/data-manager.js';
 import {
   postAddon,
   postAuthor,
@@ -15,6 +14,7 @@ import {
   postViolation,
 } from '../../core/entities/field.js';
 import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
+import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import type { PostViolation } from '../../core/entities/post.js';
 import {
   mergeAuthors,
@@ -40,7 +40,7 @@ export * from '../../core/github-issues/editing.js';
 
 export async function resolve(issue: GithubIssue) {
   const id = issue.title;
-  const [post, manager] = await searchDataReaderItem(id, [inbox, trash]);
+  const [post, manager] = await searchListReaderItem(id, [inbox, trash]);
   const [userId, user] = await extractIssueUser(issue);
 
   if (!user.admin) {

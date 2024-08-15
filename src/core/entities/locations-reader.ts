@@ -1,7 +1,7 @@
-import { DataReader } from './data-manager.js';
+import { ListReader } from './list-manager.js';
 import type { Location } from './location.js';
 
-export abstract class LocationsReader extends DataReader<Location> {
+export abstract class LocationsReader extends ListReader<Location> {
   readonly name = 'locations';
 
   protected isItemEqual(a: Location, b: Partial<Location>): boolean {

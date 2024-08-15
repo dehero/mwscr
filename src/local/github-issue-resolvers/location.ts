@@ -1,6 +1,6 @@
-import { searchDataReaderItem } from '../../core/entities/data-manager.js';
 import { postLocation } from '../../core/entities/field.js';
 import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
+import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import { label } from '../../core/github-issues/location.js';
 import { locations } from '../data-managers/locations.js';
 import { inbox, posts, trash } from '../data-managers/posts.js';
@@ -16,7 +16,7 @@ export async function resolve(issue: GithubIssue) {
   }
 
   const id = issue.title;
-  const [post, manager] = await searchDataReaderItem(id, [posts, inbox, trash]);
+  const [post, manager] = await searchListReaderItem(id, [posts, inbox, trash]);
   const locationStr = extractIssueFieldValue(postLocation, issue.body);
 
   if (!locationStr) {

@@ -1,6 +1,6 @@
-import type { DataReaderEntry } from '../../../core/entities/data-manager.js';
 import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../../core/entities/field.js';
 import type { GithubIssue } from '../../../core/entities/github-issue.js';
+import type { ListReaderEntry } from '../../../core/entities/list-manager.js';
 import type { User } from '../../../core/entities/user.js';
 import { users } from '../../data-managers/users.js';
 
@@ -58,7 +58,7 @@ export function extractIssueTextareaValue(field: IssueFieldWithLabel, text: stri
   return value?.replace('_No response_', '').trim() || undefined;
 }
 
-export async function extractIssueUser(issue: GithubIssue): Promise<DataReaderEntry<User>> {
+export async function extractIssueUser(issue: GithubIssue): Promise<ListReaderEntry<User>> {
   const [issueUserId, issueUser] = await users.mergeItem({ profiles: { gh: issue.user.login } });
 
   const name = extractIssueFieldValue(userName, issue.body);
