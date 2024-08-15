@@ -1722,17 +1722,17 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2024-08-14-17-18-48
+      updated: 2024-08-15-18-20-11
       followers: 927
-      likes: 22
-      views: 195
+      likes: 23
+      views: 200
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
-      updated: 2024-08-14-17-18-49
+      updated: 2024-08-15-18-20-11
       followers: 514
-      likes: 50
-      views: 289
+      likes: 51
+      views: 307
       comments: !c |-
         G7wAABypvX60oN8IlX7Pun5bvnzvKtlkf9GhcOYLoW+CyJDXBIVOTuByTDAAz9JTYBq1lNKyEoDm
         PPH0Njh2z0r7GlYRxBqbKqDJqd8imMVqFx/gBA7gFm7gFEvYbXcHV1iCAyy3cIQN7NKR8xOb5PxK
@@ -9082,6 +9082,19 @@
       updated: 2024-08-13-16-09-38
       likes: 3
       views: 199
+    - service: ig
+      id: C-s02fCI7m7
+      mediaId: '18197312713292587'
+      published: 2024-08-15-18-20-29
+      followers: 1439
+    - service: vk
+      id: 1691
+      published: 2024-08-15-18-20-37
+      followers: 932
+    - service: tg
+      id: 502
+      published: 2024-08-15-18-20-44
+      followers: 527
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей

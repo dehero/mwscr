@@ -2412,18 +2412,18 @@
     - service: vk
       id: 1689
       published: 2024-08-13-18-55-56
-      updated: 2024-08-15-17-13-01
+      updated: 2024-08-15-18-20-10
       followers: 931
       likes: 35
-      views: 224
+      views: 226
       reposts: 2
     - service: tg
       id: 500
       published: 2024-08-13-18-56-05
-      updated: 2024-08-15-17-13-01
+      updated: 2024-08-15-18-20-10
       followers: 527
       likes: 65
-      views: 279
+      views: 283
       comments: !c |-
         izuAkpPLQnkVCahrAACteHhrYW1hejIwMDh4eNkraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0
         Y2g/dj11aFlvTE1fSGNXTZPLQnkU0g//AACpR2F0ZW1hdGU3vWxvb2tzIGxpa2Ugd2UgdXNpbmcg
@@ -2444,3 +2444,4 @@
       followers: 1436
       views: 179
 2024-08-14-road-at-the-dawn: 2017-03-17-road-at-the-dawn
+2024-08-15-galom-daeus: 2018-10-05-galom-daeus

@@ -4,7 +4,39 @@
 
 # Posted in 2024
 
-`170 items`
+`171 items`
+
+## <span id="2024-08-15-galom-daeus">Galom Daeus</span>
+
+`RU` Галом Дэус
+
+<a href="https://instagram.com/p/BokCUgthFAs/" title="2018-10-05-galom-daeus"><img alt="store:/shots/2018-10-05-galom-daeus.png" src="../../assets/previews/shots/2018-10-05-galom-daeus.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-15-galom-daeus&postLocation=)</code> `🚀 OpenMW` `dwemer` `towers` `observatory` `openmw`
+
+```
+2024-08-15-galom-daeus
+```
+
+> `2018-10-05-galom-daeus`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BokCUgthFAs/)       | 2018-10-05 |       |   116 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_957)  | 2018-10-05 |   538 |    33 |       250 |   13.2 |
+| [`tg`](https://t.me/mwscr/65)                      | 2018-10-05 |   199 |     3 |           |        |
+| [`ig`](https://instagram.com/p/C-s02fCI7m7/)       | 2024-08-15 |       |       |      1439 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1691) | 2024-08-15 |       |       |       932 |        |
+| [`tg`](https://t.me/mwscr/502)                     | 2024-08-15 |       |       |       527 |        |
+|                                                    |            |   737 |   152 |      2898 |        |
+
+#### Comments
+
+- `ig` <ins title="2018-10-06-16-26-08">mshahrim94</ins> Very Dork Souls alike
 
 ## <span id="2024-08-14-road-at-the-dawn">Road at the Dawn</span>
 
@@ -28,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRuvtFtD7Lq/)       | 2017-03-17 |       |    63 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_217)  | 2017-03-17 |   200 |    13 |        46 |     13 |
-| [`ig`](https://instagram.com/p/C-qQqwSRZ8Q/)       | 2024-08-14 |   255 |    77 |      1439 |   5.35 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1690) | 2024-08-14 |   296 |    38 |       931 |   4.08 |
-| [`tg`](https://t.me/mwscr/501)                     | 2024-08-14 |   176 |    49 |       527 |    9.3 |
-|                                                    |            |   927 |   240 |      2897 |   7.93 |
+| [`ig`](https://instagram.com/p/C-qQqwSRZ8Q/)       | 2024-08-14 |   260 |    77 |      1439 |   5.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1690) | 2024-08-14 |   302 |    38 |       931 |   4.08 |
+| [`tg`](https://t.me/mwscr/501)                     | 2024-08-14 |   180 |    51 |       527 |   9.68 |
+|                                                    |            |   942 |   242 |      2897 |   8.03 |
 
 #### Comments
 
@@ -63,9 +95,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C-n0DECOnN-/)       | 2024-08-13 |   312 |   132 |      1438 |   9.18 |
 | [`ig`](https://instagram.com/p/C-n0EEExXGG/)       | 2024-08-13 |   179 |       |      1436 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1689) | 2024-08-13 |   224 |    35 |       931 |   3.76 |
-| [`tg`](https://t.me/mwscr/500)                     | 2024-08-13 |   279 |    65 |       527 |  12.33 |
-|                                                    |            |   994 |   232 |      2896 |   8.42 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1689) | 2024-08-13 |   226 |    35 |       931 |   3.76 |
+| [`tg`](https://t.me/mwscr/500)                     | 2024-08-13 |   283 |    65 |       527 |  12.33 |
+|                                                    |            |  1000 |   232 |      2896 |   8.42 |
 
 #### Comments
 
@@ -127,9 +159,9 @@
 | [`ig`](https://instagram.com/p/BNTmMGTF7rY/)       | 2016-11-27 |       |    19 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_14)   | 2017-01-22 |    51 |     3 |         4 |      3 |
 | [`ig`](https://instagram.com/p/C-ihqretmf0/)       | 2024-08-11 |   510 |   110 |      1437 |   7.65 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1687) | 2024-08-11 |   230 |    44 |       930 |   4.73 |
-| [`tg`](https://t.me/mwscr/498)                     | 2024-08-11 |   260 |    59 |       520 |  11.35 |
-|                                                    |            |  1051 |   235 |      2887 |   6.68 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1687) | 2024-08-11 |   238 |    45 |       930 |   4.84 |
+| [`tg`](https://t.me/mwscr/498)                     | 2024-08-11 |   296 |    60 |       520 |  11.54 |
+|                                                    |            |  1095 |   237 |      2887 |   6.76 |
 
 #### Comments
 
@@ -162,9 +194,9 @@
 | [`ig`](https://instagram.com/p/Bfi7nwfD_uv/)       | 2018-02-23 |       |    89 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_627)  | 2018-02-23 |   212 |    12 |       133 |   9.02 |
 | [`ig`](https://instagram.com/p/C-f8spUt9pE/)       | 2024-08-10 |   253 |    67 |      1436 |   4.67 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1686) | 2024-08-10 |   195 |    22 |       927 |   2.37 |
-| [`tg`](https://t.me/mwscr/497)                     | 2024-08-10 |   289 |    50 |       514 |   9.73 |
-|                                                    |            |   949 |   240 |      2877 |   6.45 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1686) | 2024-08-10 |   200 |    23 |       927 |   2.48 |
+| [`tg`](https://t.me/mwscr/497)                     | 2024-08-10 |   307 |    51 |       514 |   9.92 |
+|                                                    |            |   972 |   242 |      2877 |   6.52 |
 
 #### Comments
 
