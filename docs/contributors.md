@@ -9,9 +9,9 @@
 [VK](https://vk.com/dehero), [Telegram](https://t.me/deherole), [GitHub](https://github.com/dehero), [E-mail](mailto:dehero@outlook.com)
 
 Roles: `admin` `author` `requester`  
-Authored: 955 published, 17 pending, 62 rejected  
+Authored: 955 posted, 17 pending, 62 rejected  
 Requested: 6 pending  
-Likes: 138010  
+Likes: 138012  
 
 ```
 dehero
@@ -20,7 +20,7 @@ dehero
 ### Natty
 
 Roles: `author`  
-Authored: 32 published, 28 pending, 7 rejected  
+Authored: 32 posted, 28 pending, 7 rejected  
 Likes: 6334  
 
 ```
@@ -32,7 +32,7 @@ natty
 [Telegram](https://t.me/midnight_in_mind)
 
 Roles: `author`  
-Authored: 9 published, 1 pending, 13 rejected  
+Authored: 9 posted, 1 pending, 13 rejected  
 Likes: 2492  
 
 ```
@@ -44,7 +44,7 @@ darkness-rifho
 [VK](https://vk.com/id270989157)
 
 Roles: `author` `drawer`  
-Authored: 3 published  
+Authored: 3 posted  
 Likes: 632  
 
 ```
@@ -56,7 +56,7 @@ knives-out
 [VK](https://vk.com/club207258733)
 
 Roles: `author` `drawer`  
-Authored: 1 published, 3 pending  
+Authored: 1 posted, 3 pending  
 Likes: 239  
 
 ```
@@ -70,7 +70,7 @@ irina-bystritskaya
 [Instagram](https://instagram.com/p/buck_the_cuck/)
 
 Roles: `requester`  
-Requested: 3 published, 1 pending, 1 rejected  
+Requested: 3 posted, 1 pending, 1 rejected  
 
 ```
 buck-the-cuck
@@ -81,7 +81,7 @@ buck-the-cuck
 [VK](https://vk.com/i_love_the_night)
 
 Roles: `requester`  
-Requested: 1 published  
+Requested: 1 posted  
 
 ```
 i-love-the-night
@@ -92,7 +92,7 @@ i-love-the-night
 [VK](https://vk.com/id172608176)
 
 Roles: `requester`  
-Requested: 1 published  
+Requested: 1 posted  
 
 ```
 id172608176
