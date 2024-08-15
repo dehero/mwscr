@@ -30,8 +30,11 @@ export async function data(): Promise<HomePageData> {
   );
 
   const totalFollowers = lastPostEntry ? getPostMaxFollowers(lastPostEntry[1]) : 0;
-  const totalLikes = (await posts.getAllEntries()).reduce((acc, [, post]) => acc + getPostTotalLikes(post), 0);
-  const totalCommentCount = (await posts.getAllEntries()).reduce((acc, [, post]) => acc + getPostCommentCount(post), 0);
+  const totalLikes = (await posts.getAllEntries(true)).reduce((acc, [, post]) => acc + getPostTotalLikes(post), 0);
+  const totalCommentCount = (await posts.getAllEntries(true)).reduce(
+    (acc, [, post]) => acc + getPostCommentCount(post),
+    0,
+  );
 
   return {
     buildDate: new Date(),
