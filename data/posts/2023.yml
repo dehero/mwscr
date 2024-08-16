@@ -8,10 +8,7 @@
   tags:
     - vivec
     - sunset
-    - shadows
-    - morrowind
-    - screenshot
-    - elderscrolls
+    - shadow
   mark: B1
   posts:
     - service: ig
@@ -72,9 +69,6 @@
     - lantern
     - street
     - evening
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -119,9 +113,6 @@
   author: darkness-rifho
   tags:
     - corridor
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -153,9 +144,6 @@
   author: darkness-rifho
   tags:
     - rock
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: C
   posts:
     - service: ig
@@ -199,11 +187,7 @@
     - bridge
     - tree
     - netch
-    - waterreflections
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
+    - waterreflection
   mark: B1
   posts:
     - service: ig
@@ -235,11 +219,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: E
   posts:
     - service: ig
@@ -277,11 +256,6 @@
   addon: Bloodmoon
   tags:
     - spinningwheel
-    - bloodmoon
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -321,12 +295,7 @@
   addon: Bloodmoon
   tags:
     - sunset
-    - fir
-    - bloodmoon
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
+    - firtree
   mark: E
   posts:
     - service: ig
@@ -360,11 +329,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - candles
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
+    - candle
   mark: B1
   posts:
     - service: ig
@@ -402,11 +367,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - towers
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
+    - tower
   mark: B2
   posts:
     - service: ig
@@ -446,11 +407,6 @@
   addon: Bloodmoon
   tags:
     - snow
-    - bloodmoon
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -485,12 +441,8 @@
   author: dehero
   engine: OpenMW
   tags:
-    - giantmushrooms
+    - giantmushroom
     - campfire
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -525,11 +477,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nightcitylights
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
+    - nightcity
   mark: B1
   posts:
     - service: ig
@@ -569,10 +517,6 @@
   tags:
     - barrel
     - lantern
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: E
   posts:
     - service: ig
@@ -617,11 +561,6 @@
   tags:
     - water
     - npc
-    - bloodmoon
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -665,11 +604,7 @@
   author: darkness-rifho
   engine: OpenMW
   tags:
-    - lanterns
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
+    - lantern
   mark: A2
   posts:
     - service: ig
@@ -709,11 +644,6 @@
   type: shot
   author: darkness-rifho
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: C
   posts:
     - service: ig
@@ -752,10 +682,6 @@
   engine: OpenMW
   tags:
     - redmoon
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig

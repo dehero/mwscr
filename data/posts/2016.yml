@@ -6,8 +6,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
   mark: B2
   posts:
     - service: ig
@@ -66,8 +64,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -94,7 +90,6 @@
   engine: OpenMW
   tags:
     - lava
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -118,8 +113,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -147,8 +140,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
   mark: B2
   posts:
     - service: ig
@@ -172,8 +163,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -228,7 +217,6 @@
   tags:
     - guard
     - encounter
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -276,8 +264,6 @@
   engine: OpenMW
   tags:
     - lantern
-    - lanterns
-    - openmw
   mark: A1
   posts:
     - service: ig
@@ -302,8 +288,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -333,7 +317,6 @@
   engine: OpenMW
   tags:
     - rain
-    - openmw
   mark: E
   posts:
     - service: ig
@@ -358,7 +341,6 @@
   engine: OpenMW
   tags:
     - moon
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -387,7 +369,6 @@
   engine: OpenMW
   tags:
     - night
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -437,8 +418,6 @@
   content: store:/shots/2016-11-28-forest-on-the-border-of-ashlands.png
   type: shot
   author: dehero
-  tags:
-    - opennw
   mark: B2
   posts:
     - service: ig
@@ -462,8 +441,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -512,8 +489,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -537,8 +512,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
   mark: A1
   posts:
     - service: ig
@@ -562,8 +535,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -587,9 +558,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - nofilter
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -613,9 +581,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - nofilter
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -663,9 +628,6 @@
   type: clip
   author: dehero
   engine: OpenMW
-  tags:
-    - nofilter
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -691,9 +653,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
-    - candles
-    - openmw
+    - candle
   mark: A2
   posts:
     - service: ig
@@ -718,9 +678,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
     - dwemer
-    - openmw
   mark: B2
   posts:
     - service: ig
@@ -744,9 +702,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - nofilter
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -771,9 +726,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
     - siltstrider
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -797,9 +750,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
     - road
-    - openmw
   mark: B2
   posts:
     - service: ig
@@ -849,7 +800,6 @@
   engine: OpenMW
   tags:
     - mannequinchallenge
-    - openmw
   mark: E
   posts:
     - service: ig
@@ -874,9 +824,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
     - fort
-    - openmw
   mark: B2
   posts:
     - service: ig
@@ -925,10 +873,8 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
     - lighthouse
     - night
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -952,9 +898,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - nofilter
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -978,9 +921,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
     - night
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -1004,9 +945,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
     - temple
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -1031,9 +970,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
     - keyhole
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -1058,9 +995,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
     - fort
-    - openmw
   mark: E
   posts:
     - service: ig
@@ -1086,9 +1021,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
     - ship
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -1152,9 +1085,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - nofilter
-    - openmw
   mark: A1
   posts:
     - service: ig
@@ -1207,9 +1137,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - nofilter
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -1233,10 +1160,8 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
     - fort
     - castle
-    - openmw
   mark: A1
   posts:
     - service: ig
@@ -1284,7 +1209,6 @@
   engine: OpenMW
   tags:
     - mannequinchallenge
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -1309,9 +1233,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - nofilter
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -1335,9 +1256,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - nofilter
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -1362,9 +1280,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
     - road
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -1389,9 +1305,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
     - dwemer
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -1415,9 +1329,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - nofilter
-    - openmw
   mark: A1
   posts:
     - service: ig
@@ -1442,8 +1353,6 @@
   type: clip
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -1468,9 +1377,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - nofilter
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -1517,9 +1423,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - nofilter
     - night
-    - openmw
   mark: B1
   posts:
     - service: ig

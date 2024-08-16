@@ -16,7 +16,6 @@
   engine: OpenMW
   tags:
     - tomb
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -72,7 +71,6 @@
   engine: OpenMW
   tags:
     - rat
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -114,9 +112,8 @@
   author: dehero
   engine: OpenMW
   tags:
-    - trees
-    - mushrooms
-    - openmw
+    - tree
+    - mushroom
   mark: A2
   posts:
     - service: ig
@@ -156,7 +153,6 @@
   engine: OpenMW
   tags:
     - tree
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -198,7 +194,6 @@
   tags:
     - trader
     - night
-    - by Darkness Rifho
   mark: B1
   posts:
     - service: ig
@@ -240,7 +235,6 @@
   tags:
     - bridge
     - river
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -281,8 +275,7 @@
   engine: OpenMW
   tags:
     - fort
-    - candles
-    - openmw
+    - candle
   mark: A2
   posts:
     - service: ig
@@ -323,9 +316,8 @@
     - dehero
   engine: OpenMW
   tags:
-    - fortress
+    - fort
     - face
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -363,8 +355,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -400,8 +390,6 @@
     - natty
     - dehero
   engine: OpenMW
-  tags:
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -445,7 +433,6 @@
   engine: OpenMW
   tags:
     - trader
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -484,7 +471,6 @@
   tags:
     - teeth
     - fence
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -532,7 +518,6 @@
   engine: OpenMW
   tags:
     - tavern
-    - by Natty
   mark: A2
   posts:
     - service: ig
@@ -570,7 +555,6 @@
     - dehero
   tags:
     - stronghold
-    - by Natty
   mark: A2
   posts:
     - service: ig
@@ -616,7 +600,6 @@
   engine: OpenMW
   tags:
     - sunrise
-    - by Natty
   mark: E
   posts:
     - service: ig
@@ -663,7 +646,6 @@
   engine: OpenMW
   tags:
     - bridge
-    - by Natty
   mark: A2
   posts:
     - service: ig
@@ -708,7 +690,6 @@
   tags:
     - netch
     - flight
-    - by Natty
   mark: A2
   posts:
     - service: ig
@@ -755,7 +736,6 @@
   tags:
     - cave
     - scamp
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -801,7 +781,6 @@
   tags:
     - dwemer
     - lava
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -840,7 +819,6 @@
   engine: OpenMW
   tags:
     - fort
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -879,7 +857,6 @@
   engine: OpenMW
   tags:
     - ship
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -917,8 +894,6 @@
     - natty
     - dehero
   engine: OpenMW
-  tags:
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -965,7 +940,6 @@
     - lava
     - night
     - fork
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -1006,7 +980,6 @@
   engine: OpenMW
   tags:
     - night
-    - by Natty
   mark: A2
   posts:
     - service: ig
@@ -1044,7 +1017,6 @@
   tags:
     - mushroom
     - sun
-    - openmw
   mark: E
   posts:
     - service: ig
@@ -1085,7 +1057,6 @@
   tags:
     - skeleton
     - dwemer
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -1132,7 +1103,6 @@
   tags:
     - cave
     - crystal
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -1178,8 +1148,7 @@
     - dwemer
     - ruin
     - bridge
-    - towers
-    - by Natty
+    - tower
   mark: B1
   posts:
     - service: ig
@@ -1227,7 +1196,6 @@
     - rain
     - tree
     - hlaalu
-    - by Natty
   mark: B2
   posts:
     - service: ig
@@ -1271,8 +1239,7 @@
   tags:
     - tomb
     - sword
-    - skulls
-    - openmw
+    - skull
   mark: B1
   posts:
     - service: ig
@@ -1314,7 +1281,6 @@
   tags:
     - sunset
     - lava
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -1359,7 +1325,6 @@
   engine: OpenMW
   tags:
     - coast
-    - by Natty
   mark: B2
   posts:
     - service: ig
@@ -1400,7 +1365,6 @@
     - snow
     - forest
     - bear
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -1440,7 +1404,6 @@
   engine: OpenMW
   tags:
     - crossroads
-    - by Natty
   mark: B2
   posts:
     - service: vk
@@ -1480,7 +1443,6 @@
   engine: OpenMW
   tags:
     - siltstrider
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -1520,7 +1482,6 @@
   engine: OpenMW
   tags:
     - khajiit
-    - by Natty
   mark: B2
   posts:
     - service: ig
@@ -1559,7 +1520,6 @@
   engine: OpenMW
   tags:
     - table
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -1605,7 +1565,6 @@
   tags:
     - alchemy
     - table
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -1641,7 +1600,6 @@
   engine: OpenMW
   tags:
     - campfire
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -1678,10 +1636,9 @@
   engine: OpenMW
   tags:
     - night
-    - stars
-    - shacks
+    - star
+    - shack
     - fireplace
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -1724,8 +1681,7 @@
   engine: OpenMW
   tags:
     - table
-    - bottles
-    - by Natty
+    - bottle
   mark: B2
   posts:
     - service: ig
@@ -1766,7 +1722,6 @@
     - well
     - fort
     - bridge
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -1809,8 +1764,6 @@
     - natty
     - dehero
   engine: OpenMW
-  tags:
-    - by Natty
   mark: B2
   posts:
     - service: ig
@@ -1851,7 +1804,6 @@
   engine: OpenMW
   tags:
     - orc
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -1901,7 +1853,6 @@
   tags:
     - dwemer
     - ruin
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -1938,7 +1889,6 @@
     - dehero
   tags:
     - bed
-    - by Darkness Rifho
   mark: B2
   posts:
     - service: ig
@@ -1991,8 +1941,6 @@
   tags:
     - firtree
     - snow
-    - bloodmoon
-    - openmw
   mark: E
   posts:
     - service: ig
@@ -2034,10 +1982,9 @@
   author: dehero
   engine: OpenMW
   tags:
-    - candles
+    - candle
     - fort
     - table
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -2091,7 +2038,6 @@
   tags:
     - dwemer
     - ruin
-    - by Natty
   mark: B1
   posts:
     - service: ig
@@ -2126,7 +2072,6 @@
   engine: OpenMW
   tags:
     - table
-    - openmw
   mark: B2
   posts:
     - service: ig
@@ -2165,8 +2110,7 @@
   engine: OpenMW
   tags:
     - night
-    - mushrooms
-    - by Natty
+    - mushroom
   mark: B1
   posts:
     - service: ig
@@ -2212,7 +2156,6 @@
   tags:
     - tomb
     - sunset
-    - openmw
   mark: A2
   posts:
     - service: ig
@@ -2251,7 +2194,6 @@
   engine: OpenMW
   tags:
     - propylon
-    - openmw
   mark: B1
   posts:
     - service: ig
@@ -2296,8 +2238,7 @@
   tags:
     - siltstrider
     - night
-    - stars
-    - openmw
+    - star
   mark: A2
   posts:
     - service: ig
@@ -2404,9 +2345,8 @@
   tags:
     - night
     - sky
-    - moons
-    - stars
-    - openmw
+    - moon
+    - star
   mark: A2
   posts:
     - service: vk

@@ -9,11 +9,6 @@
   tags:
     - lantern
     - nightsky
-    - bloodmoon
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -70,11 +65,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -117,12 +107,6 @@
   type: redrawing
   author: irina-bystritskaya
   engine: OpenMW
-  tags:
-    - drawing
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: C
   posts:
     - service: ig
@@ -162,11 +146,6 @@
   type: shot-set
   author: dehero
   engine: OpenMW
-  tags:
-    - screenshots
-    - openmw
-    - morrowind
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -218,10 +197,6 @@
   addon: Tribunal
   tags:
     - tribunal
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: C
   posts:
     - service: ig
@@ -264,10 +239,6 @@
   engine: OpenMW
   tags:
     - dwemer
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -303,10 +274,6 @@
     - window
     - plant
     - chandelier
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -341,11 +308,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -390,11 +352,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -429,11 +386,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -467,10 +419,6 @@
   engine: OpenMW
   tags:
     - bridge
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -516,11 +464,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - boats
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
+    - boat
   mark: B1
   posts:
     - service: ig
@@ -565,11 +509,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -604,11 +543,7 @@
   tags:
     - stilllife
     - orc
-    - candelabra
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
+    - candelabrum
   mark: E
   posts:
     - service: ig
@@ -645,10 +580,6 @@
   engine: OpenMW
   tags:
     - dwemer
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -684,11 +615,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -718,11 +644,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -767,11 +688,6 @@
   addon: Bloodmoon
   tags:
     - snow
-    - bloodmoon
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -813,11 +729,6 @@
   type: shot-set
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -871,10 +782,6 @@
     - pier
     - ship
     - cliffracer
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -916,10 +823,6 @@
   tags:
     - bridge
     - water
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -964,11 +867,7 @@
   engine: OpenMW
   tags:
     - basket
-    - candles
-    - openmw
     - candle
-    - morrowind
-    - screenshot
   mark: B2
   posts:
     - service: ig
@@ -1006,10 +905,6 @@
   tags:
     - pier
     - ship
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -1043,11 +938,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1081,11 +971,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: E
   posts:
     - service: ig
@@ -1119,13 +1004,8 @@
   author: dehero
   engine: OpenMW
   tags:
-    - candles
-    - bottle
-    - openmw
     - candle
-    - morrowind
-    - screenshot
-    - elderscrolls
+    - bottle
   mark: B1
   posts:
     - service: ig
@@ -1166,11 +1046,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -1205,11 +1080,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -1247,11 +1117,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -1296,10 +1161,6 @@
   engine: OpenMW
   tags:
     - tower
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -1339,12 +1200,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - el
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: C
   posts:
     - service: ig
@@ -1379,11 +1234,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1414,11 +1264,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -1455,10 +1300,6 @@
   engine: OpenMW
   tags:
     - castle
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1501,11 +1342,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -1541,11 +1377,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -1593,11 +1424,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -1634,11 +1460,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: C
   posts:
     - service: ig
@@ -1675,10 +1496,6 @@
   engine: OpenMW
   tags:
     - alchemy
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -1723,11 +1540,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -1768,13 +1580,9 @@
   author: dehero
   engine: OpenMW
   tags:
-    - potions
-    - books
-    - scrolls
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
+    - potion
+    - book
+    - scroll
   mark: E
   posts:
     - service: ig
@@ -1811,10 +1619,6 @@
   engine: OpenMW
   tags:
     - rain
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: C
   posts:
     - service: ig

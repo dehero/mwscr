@@ -8,10 +8,6 @@
   tags:
     - lantern
     - yurt
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A1
   posts:
     - service: ig
@@ -57,10 +53,6 @@
   tags:
     - forge
     - blacksmith
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: E
   posts:
     - service: ig
@@ -99,12 +91,6 @@
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
-  tags:
-    - bloodmoon
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -150,11 +136,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -191,11 +172,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -232,10 +208,6 @@
   tags:
     - tower
     - mushroom
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -272,10 +244,6 @@
   tags:
     - guard
     - torch
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A1
   posts:
     - service: ig
@@ -321,10 +289,6 @@
   engine: OpenMW
   tags:
     - bridge
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -363,10 +327,6 @@
     - skeleton
     - shield
     - sword
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: E
   posts:
     - service: ig
@@ -397,11 +357,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -439,10 +394,6 @@
   engine: OpenMW
   tags:
     - rain
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -477,11 +428,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -518,10 +464,6 @@
   engine: OpenMW
   tags:
     - barrel
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -559,11 +501,7 @@
   author: dehero
   engine: OpenMW
   tags:
-    - urns
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
+    - urn
   mark: A2
   posts:
     - service: ig
@@ -604,11 +542,7 @@
   engine: OpenMW
   tags:
     - daedric
-    - ruins
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
+    - ruin
   mark: B1
   posts:
     - service: ig
@@ -657,10 +591,6 @@
   engine: OpenMW
   tags:
     - tree
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: E
   posts:
     - service: ig
@@ -697,12 +627,8 @@
   author: dehero
   engine: OpenMW
   tags:
-    - lights
+    - lantern
     - night
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -753,10 +679,6 @@
     - door
     - bridge
     - boating
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -803,10 +725,6 @@
   engine: OpenMW
   tags:
     - temple
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -841,10 +759,6 @@
   engine: OpenMW
   tags:
     - ordinator
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -885,12 +799,6 @@
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
-  tags:
-    - bloodmoon
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -929,10 +837,6 @@
   tags:
     - camp
     - yurt
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -970,12 +874,6 @@
   author: dehero
   engine: OpenMW
   addon: Bloodmoon
-  tags:
-    - bloodmoon
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -1016,11 +914,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -1059,11 +952,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: C
   posts:
     - service: ig
@@ -1102,12 +990,8 @@
   author: dehero
   engine: OpenMW
   tags:
-    - trees
+    - tree
     - rain
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A1
   posts:
     - service: ig
@@ -1150,11 +1034,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1191,11 +1070,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1235,11 +1109,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -1281,10 +1150,6 @@
   addon: Tribunal
   tags:
     - tribunal
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1321,11 +1186,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -1355,11 +1215,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -1396,11 +1251,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -1445,11 +1295,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1486,11 +1331,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: C
   posts:
     - service: ig
@@ -1526,11 +1366,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -1562,11 +1397,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
@@ -1601,11 +1431,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -1649,10 +1474,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
   mark: B2
   posts:
     - service: ig
@@ -1688,11 +1509,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1732,10 +1548,6 @@
   engine: OpenMW
   tags:
     - mushroom
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B2
   posts:
     - service: ig
@@ -1776,11 +1588,6 @@
   addon: Bloodmoon
   tags:
     - house
-    - bloodmoon
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: A2
   posts:
     - service: ig
@@ -1821,11 +1628,6 @@
   type: shot
   author: dehero
   engine: OpenMW
-  tags:
-    - openmw
-    - morrowind
-    - screenshot
-    - elderscrolls
   mark: B1
   posts:
     - service: ig
