@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.11.1](https://github.com/dehero/mwscr/compare/v1.11.0...v1.11.1) (2024-08-16)
+
+### Bug Fixes
+
+- use correct users data writing path
+  ([9db4595](https://github.com/dehero/mwscr/commit/9db459506c11285eb0fe7cc6bcdee0296f35096d))
+
 ## [1.11.0](https://github.com/dehero/mwscr/compare/v1.10.1...v1.11.0) (2024-08-15)
 
 ### Features
