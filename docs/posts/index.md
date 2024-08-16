@@ -14,7 +14,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-15-galom-daeus&postLocation=)</code> `🚀 OpenMW` `dwemer` `towers` `observatory` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-15-galom-daeus&postLocation=)</code> `🚀 OpenMW` `dwemer` `tower` `observatory`
 
 ```
 2024-08-15-galom-daeus
@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/BokCUgthFAs/)       | 2018-10-05 |       |   116 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_957)  | 2018-10-05 |   538 |    33 |       250 |   13.2 |
 | [`tg`](https://t.me/mwscr/65)                      | 2018-10-05 |   199 |     3 |           |        |
-| [`ig`](https://instagram.com/p/C-s02fCI7m7/)       | 2024-08-15 |   235 |    69 |      1439 |   4.79 |
+| [`ig`](https://instagram.com/p/C-s02fCI7m7/)       | 2024-08-15 |   239 |    70 |      1439 |   4.86 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1691) | 2024-08-15 |   140 |    23 |       932 |   2.47 |
-| [`tg`](https://t.me/mwscr/502)                     | 2024-08-15 |   150 |    41 |       527 |   7.78 |
-|                                                    |            |  1262 |   285 |      2898 |   7.06 |
+| [`tg`](https://t.me/mwscr/502)                     | 2024-08-15 |   151 |    42 |       527 |   7.97 |
+|                                                    |            |  1267 |   287 |      2898 |   7.13 |
 
 #### Comments
 
@@ -47,7 +47,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-14-road-at-the-dawn&postLocation=)</code> `🚀 OpenMW` `nofilter` `dawn` `sunrise` `road` `mushrooms` `openmw`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-14-road-at-the-dawn&postLocation=)</code> `🚀 OpenMW` `dawn` `sunrise` `road` `mushroom`
 
 ```
 2024-08-14-road-at-the-dawn
@@ -62,9 +62,9 @@
 | [`ig`](https://instagram.com/p/BRuvtFtD7Lq/)       | 2017-03-17 |       |    63 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_217)  | 2017-03-17 |   200 |    13 |        46 |     13 |
 | [`ig`](https://instagram.com/p/C-qQqwSRZ8Q/)       | 2024-08-14 |   285 |    84 |      1439 |   5.84 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1690) | 2024-08-14 |   332 |    38 |       931 |   4.08 |
-| [`tg`](https://t.me/mwscr/501)                     | 2024-08-14 |   214 |    54 |       527 |  10.25 |
-|                                                    |            |  1031 |   252 |      2897 |   8.29 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1690) | 2024-08-14 |   333 |    38 |       931 |   4.08 |
+| [`tg`](https://t.me/mwscr/501)                     | 2024-08-14 |   215 |    55 |       527 |  10.44 |
+|                                                    |            |  1033 |   253 |      2897 |   8.34 |
 
 #### Comments
 
@@ -84,7 +84,7 @@
 
 `wallpaper-v` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Suran` `🚀 OpenMW` `night` `sky` `moons` `stars` `openmw`
+`A2` `📍 Suran` `🚀 OpenMW` `night` `sky` `moon` `star`
 
 ```
 2024-08-13-night-sky-above-suran
@@ -113,7 +113,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Gnisis` `🚀 OpenMW` `openmw`
+`A1` `📍 Gnisis` `🚀 OpenMW`
 
 ```
 2024-08-12-near-gnisis-eggmine
@@ -145,7 +145,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Seyda Neen` `🚀 OpenMW` `night` `openmw`
+`A2` `📍 Seyda Neen` `🚀 OpenMW` `night`
 
 ```
 2024-08-11-lonely-fargoth
@@ -180,7 +180,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-10-uthrel-sarys&postLocation=)</code> `🚀 OpenMW` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-10-uthrel-sarys&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-08-10-uthrel-sarys
@@ -214,7 +214,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-09-mushroom-stairs&postLocation=)</code> `🚀 OpenMW` `stairs` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-09-mushroom-stairs&postLocation=)</code> `🚀 OpenMW` `stair`
 
 ```
 2024-08-09-mushroom-stairs
@@ -241,7 +241,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-08-southern-shore-of-northern-land&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `bloodmoon` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-08-southern-shore-of-northern-land&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon`
 
 ```
 2024-08-08-southern-shore-of-northern-land
@@ -282,7 +282,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-07-dance-of-dagoth&postLocation=)</code> `🚀 OpenMW` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-07-dance-of-dagoth&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-08-07-dance-of-dagoth
@@ -317,7 +317,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Omalen Ancestral Tomb` `🚀 OpenMW` `tomb` `stones` `openmw`
+`B1` `📍 Omalen Ancestral Tomb` `🚀 OpenMW` `tomb` `stone`
 
 ```
 2024-08-06-omalen-ancestral-tomb
@@ -344,7 +344,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Vivec` `🚀 OpenMW` `canals` `bridge` `openmw`
+`A2` `📍 Vivec` `🚀 OpenMW` `canal` `bridge`
 
 ```
 2024-08-05-in-the-evening-canals-of-vivec
@@ -377,7 +377,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`C` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-04-ice-cave-in-the-ice-bay&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `bloodmoon` `openmw`
+`C` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-04-ice-cave-in-the-ice-bay&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon`
 
 ```
 2024-08-04-ice-cave-in-the-ice-bay
@@ -411,7 +411,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-03-drulene-falen-and-her-guars&postLocation=)</code> `🚀 OpenMW` `women` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-03-drulene-falen-and-her-guars&postLocation=)</code> `🚀 OpenMW` `women`
 
 ```
 2024-08-03-drulene-falen-and-her-guars
@@ -444,7 +444,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Raven Rock` `🚀 OpenMW` `🔗 Bloodmoon` `bloodmoon` `openmw`
+`B1` `📍 Raven Rock` `🚀 OpenMW` `🔗 Bloodmoon`
 
 ```
 2024-08-02-dark-morning-in-the-colony
@@ -476,7 +476,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-01-in-a-fishermans-hut&postLocation=)</code> `🚀 OpenMW` `candles` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-01-in-a-fishermans-hut&postLocation=)</code> `🚀 OpenMW` `candle`
 
 ```
 2024-08-01-in-a-fishermans-hut
@@ -508,7 +508,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31-comprehension-of-sciences&postLocation=)</code> `🚀 OpenMW` `desk` `candles` `books` `openmw` `candle`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-31-comprehension-of-sciences&postLocation=)</code> `🚀 OpenMW` `desk` `candle` `book`
 
 ```
 2024-07-31-comprehension-of-sciences
@@ -535,7 +535,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-30-netches-have-fallen-out&postLocation=)</code> `🚀 OpenMW` `openmw`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-30-netches-have-fallen-out&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-07-30-netches-have-fallen-out
@@ -562,7 +562,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Balmora` `🚀 OpenMW` `arch` `openmw`
+`A2` `📍 Balmora` `🚀 OpenMW` `arch`
 
 ```
 2024-07-29-arch-with-a-canopy
@@ -595,7 +595,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Indoranyon` `🚀 OpenMW` `stronghold` `castle` `openmw`
+`B1` `📍 Indoranyon` `🚀 OpenMW` `stronghold` `castle`
 
 ```
 2024-07-28-indoranyon
@@ -626,7 +626,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Maar Gan` `🚀 OpenMW` `nofilter` `openmw`
+`A1` `📍 Maar Gan` `🚀 OpenMW`
 
 ```
 2024-07-27-maar-gan-outpost
@@ -660,7 +660,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-26-some-scrolls&postLocation=)</code> `🚀 OpenMW` `scrolls` `potion` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-26-some-scrolls&postLocation=)</code> `🚀 OpenMW` `scroll` `potion`
 
 ```
 2024-07-26-some-scrolls
@@ -692,7 +692,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Balmora` `🚀 OpenMW` `openmw`
+`A2` `📍 Balmora` `🚀 OpenMW`
 
 ```
 2024-07-25-coming-to-balmora
@@ -726,7 +726,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-24-in-the-yurt&postLocation=)</code> `🚀 OpenMW` `nofilter` `yurt` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-24-in-the-yurt&postLocation=)</code> `🚀 OpenMW` `yurt`
 
 ```
 2024-07-24-in-the-yurt
@@ -757,7 +757,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` `📍 Buckmoth Legion Fort` `🚀 OpenMW` `nofilter` `fort` `openmw`
+`B2` `📍 Buckmoth Legion Fort` `🚀 OpenMW` `fort`
 
 ```
 2024-07-23-buckmoth-legion-fort-from-ald-ruhn
@@ -788,7 +788,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-22-aground&postLocation=)</code> `🚀 OpenMW` `shipwreck` `water` `ship` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-22-aground&postLocation=)</code> `🚀 OpenMW` `shipwreck` `water` `ship`
 
 ```
 2024-07-22-aground
@@ -820,7 +820,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-21-verminous-fabricant&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `tribunal` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-21-verminous-fabricant&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `tribunal`
 
 ```
 2024-07-21-verminous-fabricant
@@ -853,7 +853,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-20-let-the-sun-rise&postLocation=)</code> `🚀 OpenMW` `sun` `statue` `silouette` `openmw`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-20-let-the-sun-rise&postLocation=)</code> `🚀 OpenMW` `sun` `statue` `silouette`
 
 ```
 2024-07-20-let-the-sun-rise
@@ -889,7 +889,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Nchuleftingth` `🚀 OpenMW` `openmw`
+`B1` `📍 Nchuleftingth` `🚀 OpenMW`
 
 ```
 2024-07-19-nchuleftingth-expedition
@@ -920,7 +920,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-18-along-the-street&postLocation=)</code> `🚀 OpenMW` `street` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-18-along-the-street&postLocation=)</code> `🚀 OpenMW` `street`
 
 ```
 2024-07-18-along-the-street
@@ -952,7 +952,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Tel Vos` `🚀 OpenMW` `nofilter` `castle` `towers` `fort` `openmw`
+`B1` `📍 Tel Vos` `🚀 OpenMW` `castle` `tower` `fort`
 
 ```
 2024-07-17-tel-vos
@@ -985,7 +985,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-16-snowy-waiting&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `snowflakes` `campfire` `bloodmoon` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-16-snowy-waiting&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `snowfall` `campfire`
 
 ```
 2024-07-16-snowy-waiting
@@ -1016,7 +1016,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-15-land-of-ruins&postLocation=)</code> `🚀 OpenMW` `ruin` `openmw`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-15-land-of-ruins&postLocation=)</code> `🚀 OpenMW` `ruin`
 
 ```
 2024-07-15-land-of-ruins
@@ -1043,7 +1043,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Berandas` `🚀 OpenMW` `stronghold` `trees` `openmw`
+`B1` `📍 Berandas` `🚀 OpenMW` `stronghold` `tree`
 
 ```
 2024-07-14-near-berandas
@@ -1075,7 +1075,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Dren Plantation` `🚀 OpenMW` `openmw`
+`B1` `📍 Dren Plantation` `🚀 OpenMW`
 
 ```
 2024-07-13-shipping-house
@@ -1106,7 +1106,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Tel Mora` `🚀 OpenMW` `openmw`
+`A2` `📍 Tel Mora` `🚀 OpenMW`
 
 ```
 2024-07-12-the-main-tower-of-tel-mora
@@ -1138,7 +1138,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Cavern of the Incarnate` `🚀 OpenMW` `nofilter` `moon` `door` `openmw`
+`A1` `📍 Cavern of the Incarnate` `🚀 OpenMW` `moon` `door`
 
 ```
 2024-07-11-entrance-to-cavern-of-the-incarnate
@@ -1169,7 +1169,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Mournhold, Royal Palace: Courtyard` `🚀 OpenMW` `🔗 Tribunal` `nofilter` `night` `tribunal` `openmw`
+`A2` `📍 Mournhold, Royal Palace: Courtyard` `🚀 OpenMW` `🔗 Tribunal` `night` `tribunal`
 
 ```
 2024-07-10-in-the-courtyard-of-royal-palace
@@ -1200,7 +1200,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` `📍 Molag Amur Region` `🚀 OpenMW` `sunset` `openmw`
+`B2` `📍 Molag Amur Region` `🚀 OpenMW` `sunset`
 
 ```
 2024-07-09-drooping-sun-of-molag-amur
@@ -1227,7 +1227,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Bitter Coast Region` `🚀 OpenMW` `openmw`
+`A2` `📍 Bitter Coast Region` `🚀 OpenMW`
 
 ```
 2024-07-08-sneaking-scamp-at-bitter-coast
@@ -1263,7 +1263,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-07-puzzled-ashlanders&postLocation=)</code> `🚀 OpenMW` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-07-puzzled-ashlanders&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-07-07-puzzled-ashlanders
@@ -1295,7 +1295,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Ald Velothi` `🚀 OpenMW` `openmw`
+`B1` `📍 Ald Velothi` `🚀 OpenMW`
 
 ```
 2024-07-06-docks-of-ald-velothi
@@ -1329,7 +1329,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-05-another-coven&postLocation=)</code> `🚀 OpenMW` `campfire` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-05-another-coven&postLocation=)</code> `🚀 OpenMW` `campfire`
 
 ```
 2024-07-05-another-coven
@@ -1357,7 +1357,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-04-elven-nations-cornerclub&postLocation=)</code> `🚀 OpenMW` `nofilter` `bar` `women` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-04-elven-nations-cornerclub&postLocation=)</code> `🚀 OpenMW` `bar` `women`
 
 ```
 2024-07-04-elven-nations-cornerclub
@@ -1384,7 +1384,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-03-ashes-of-d-bryant&postLocation=)</code> `🚀 OpenMW` `farewell` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-03-ashes-of-d-bryant&postLocation=)</code> `🚀 OpenMW` `farewell`
 
 ```
 2024-07-03-ashes-of-d-bryant
@@ -1417,7 +1417,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Ald-ruhn` `🚀 OpenMW` `redoran` `openmw`
+`B1` `📍 Ald-ruhn` `🚀 OpenMW` `redoran`
 
 ```
 2024-07-02-the-skar
@@ -1450,7 +1450,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-01-near-the-ancient-dwelling&postLocation=)</code> `🚀 OpenMW` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-01-near-the-ancient-dwelling&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-07-01-near-the-ancient-dwelling
@@ -1481,7 +1481,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-30-ice-shivers&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `ice` `bloodmoon` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-30-ice-shivers&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `ice`
 
 ```
 2024-06-30-ice-shivers
@@ -1508,7 +1508,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-29-lich&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `lich` `tribunal` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-29-lich&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `lich` `tribunal`
 
 ```
 2024-06-29-lich
@@ -1545,7 +1545,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-28-dead-trees-of-the-east-coast&postLocation=)</code> `🚀 OpenMW` `openmw`
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-28-dead-trees-of-the-east-coast&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-06-28-dead-trees-of-the-east-coast
@@ -1572,7 +1572,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-27-crates-and-pillows&postLocation=)</code> `🚀 OpenMW` `water` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-27-crates-and-pillows&postLocation=)</code> `🚀 OpenMW` `water`
 
 ```
 2024-06-27-crates-and-pillows
@@ -1605,7 +1605,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-26-in-an-ice-cave&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `cave` `bloodmoon` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-26-in-an-ice-cave&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `cave`
 
 ```
 2024-06-26-in-an-ice-cave
@@ -1636,7 +1636,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Balmora` `🚀 OpenMW` `nofilter` `nightstreet` `lantern` `openmw`
+`A2` `📍 Balmora` `🚀 OpenMW` `nightstreet` `lantern`
 
 ```
 2024-06-25-night-street-of-balmora
@@ -1668,7 +1668,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Suran` `🚀 OpenMW` `openmw`
+`B1` `📍 Suran` `🚀 OpenMW`
 
 ```
 2024-06-24-night-square-of-suran
@@ -1700,7 +1700,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-23-dont-go-this-way&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `beast` `bloodmoon` `openmw`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-23-dont-go-this-way&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `beast`
 
 ```
 2024-06-23-dont-go-this-way
@@ -1733,7 +1733,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-22-valbrandr-barrow&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `arc` `bloodmoon` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-22-valbrandr-barrow&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `arch`
 
 ```
 2024-06-22-valbrandr-barrow
@@ -1764,7 +1764,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Mzanchend` `🚀 OpenMW` `nofilter` `openmw`
+`A2` `📍 Mzanchend` `🚀 OpenMW`
 
 ```
 2024-06-21-lava-lake-near-mzanchend
@@ -1791,7 +1791,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Dagon Fel` `🚀 OpenMW` `nofilter` `openmw`
+`B1` `📍 Dagon Fel` `🚀 OpenMW`
 
 ```
 2024-06-20-arrival-in-dagon-fel
@@ -1823,7 +1823,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Suran` `🚀 OpenMW` `nofilter` `redlightdistrict` `night` `openmw`
+`A2` `📍 Suran` `🚀 OpenMW` `redlightdistrict` `night`
 
 ```
 2024-06-19-deseles-house-of-earthly-delights
@@ -1862,7 +1862,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `openmw`
+`B1` `📍 Ascadian Isles Region` `🚀 OpenMW`
 
 ```
 2024-06-18-near-suran
@@ -1893,7 +1893,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Ald-ruhn` `🚀 OpenMW` `nofilter` `openmw`
+`B1` `📍 Ald-ruhn` `🚀 OpenMW`
 
 ```
 2024-06-17-28-29-30-ready-or-not-here-i-come
@@ -1920,7 +1920,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Bitter Coast Region` `🚀 OpenMW` `nofilter` `openmw`
+`B1` `📍 Bitter Coast Region` `🚀 OpenMW`
 
 ```
 2024-06-16-exploring-bitter-coast
@@ -1956,7 +1956,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-15-waterfall-camp&postLocation=)</code> `🚀 OpenMW` `nofilter` `waterfall` `camp` `campfire` `openmw`
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-15-waterfall-camp&postLocation=)</code> `🚀 OpenMW` `waterfall` `camp` `campfire`
 
 ```
 2024-06-15-waterfall-camp
@@ -2006,7 +2006,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Ashlands Region` `🚀 OpenMW` `siltstrider` `night` `stars` `openmw`
+`A2` `📍 Ashlands Region` `🚀 OpenMW` `siltstrider` `night` `star`
 
 ```
 2024-06-14-sleeping-silt-strider
@@ -2046,7 +2046,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-13-propylon&postLocation=)</code> `🚀 OpenMW` `propylon` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-13-propylon&postLocation=)</code> `🚀 OpenMW` `propylon`
 
 ```
 2024-06-13-propylon
@@ -2080,7 +2080,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Azura's Coast Region` `🚀 OpenMW` `tomb` `sunset` `openmw`
+`A2` `📍 Azura's Coast Region` `🚀 OpenMW` `tomb` `sunset`
 
 ```
 2024-06-12-beran-ancestral-tomb
@@ -2113,7 +2113,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `night` `mushrooms` `by Natty`
+`B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `night` `mushroom`
 
 ```
 2024-06-11-emperor-parasols-under-the-rain-of-stars
@@ -2146,7 +2146,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-10-utensil&postLocation=)</code> `🚀 OpenMW` `table` `openmw`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-10-utensil&postLocation=)</code> `🚀 OpenMW` `table`
 
 ```
 2024-06-10-utensil
@@ -2176,7 +2176,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-09-endusal&postLocation=)</code> `🚀 OpenMW` `dwemer` `ruin` `by Natty`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-09-endusal&postLocation=)</code> `🚀 OpenMW` `dwemer` `ruin`
 
 ```
 2024-06-09-endusal
@@ -2199,7 +2199,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Khuul` `🚀 OpenMW` `nofilter` `guard` `openmw`
+`B1` `📍 Khuul` `🚀 OpenMW` `guard`
 
 ```
 2024-06-08-in-khuul
@@ -2226,7 +2226,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-07-ruins-in-a-mountain-dead-end&postLocation=)</code> `🚀 OpenMW` `ruin` `dwemer` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-07-ruins-in-a-mountain-dead-end&postLocation=)</code> `🚀 OpenMW` `ruin` `dwemer`
 
 ```
 2024-06-07-ruins-in-a-mountain-dead-end
@@ -2253,7 +2253,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-06-shipwreck-at-the-estuary-of-foyada&postLocation=)</code> `🚀 OpenMW` `shipwreck` `ship` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-06-shipwreck-at-the-estuary-of-foyada&postLocation=)</code> `🚀 OpenMW` `shipwreck` `ship`
 
 ```
 2024-06-06-shipwreck-at-the-estuary-of-foyada
@@ -2286,7 +2286,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Seyda Neen` `🚀 OpenMW` `nofilter` `openmw`
+`B1` `📍 Seyda Neen` `🚀 OpenMW`
 
 ```
 2024-06-05-near-seyda-neen
@@ -2323,7 +2323,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Hla Oad` `🚀 OpenMW` `nofilter` `ship` `openmw`
+`A2` `📍 Hla Oad` `🚀 OpenMW` `ship`
 
 ```
 2024-06-04-hla-oad
@@ -2362,7 +2362,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` `📍 Ascadian Isles Region` `🚀 OpenMW` `nofilter` `road` `openmw`
+`B2` `📍 Ascadian Isles Region` `🚀 OpenMW` `road`
 
 ```
 2024-06-03-somewhere-nearby-vivec
@@ -2394,7 +2394,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Tel Vos` `🚀 OpenMW` `nofilter` `openmw`
+`A2` `📍 Tel Vos` `🚀 OpenMW`
 
 ```
 2024-06-02-vos-from-tel-vos
@@ -2425,7 +2425,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Buckmoth Legion Fort, Interior` `🚀 OpenMW` `candles` `fort` `table` `openmw`
+`B1` `📍 Buckmoth Legion Fort, Interior` `🚀 OpenMW` `candle` `fort` `table`
 
 ```
 2024-06-01-visiting-imperial-fort
@@ -2454,7 +2454,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-31-in-fir-branches&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `firtree` `snow` `bloodmoon` `openmw`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-31-in-fir-branches&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `firtree` `snow`
 
 ```
 2024-05-31-in-fir-branches
@@ -2483,7 +2483,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Sadrith Mora` `🚀 OpenMW` `nofilter` `openmw`
+`A1` `📍 Sadrith Mora` `🚀 OpenMW`
 
 ```
 2024-05-30-telvanni-council-house
@@ -2514,7 +2514,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-29-lord-gothren&postLocation=)</code> `🚀 OpenMW` `guard` `encounter` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-29-lord-gothren&postLocation=)</code> `🚀 OpenMW` `guard` `encounter`
 
 ```
 2024-05-29-lord-gothren
@@ -2541,7 +2541,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-28-two-legioners-talking&postLocation=)</code> `🚀 OpenMW` `encounter` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-28-two-legioners-talking&postLocation=)</code> `🚀 OpenMW` `encounter`
 
 ```
 2024-05-28-two-legioners-talking
@@ -2573,7 +2573,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-27-flight&postLocation=)</code> `🚀 OpenMW` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-27-flight&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-05-27-flight
@@ -2614,7 +2614,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-26-shore-shroom&postLocation=)</code> `🚀 OpenMW` `mushrooms` `shore` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-26-shore-shroom&postLocation=)</code> `🚀 OpenMW` `mushroom` `shore`
 
 ```
 2024-05-26-shore-shroom
@@ -2641,7 +2641,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-25-table-for-two&postLocation=)</code> `🚀 OpenMW` `tablefortwo` `bar` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-25-table-for-two&postLocation=)</code> `🚀 OpenMW` `tablefortwo` `bar`
 
 ```
 2024-05-25-table-for-two
@@ -2672,7 +2672,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-24-gloomy-barrow&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `nofilter` `barrow` `bloodmoon` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-24-gloomy-barrow&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `barrow`
 
 ```
 2024-05-24-gloomy-barrow
@@ -2704,7 +2704,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-23-death-and-life&postLocation=)</code> `🚀 OpenMW` `sunset` `shores` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-23-death-and-life&postLocation=)</code> `🚀 OpenMW` `sunset` `shore`
 
 ```
 2024-05-23-death-and-life
@@ -2738,7 +2738,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-22-the-road-through-lava&postLocation=)</code> `🚀 OpenMW` `nofilter` `roadfork` `lava` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-22-the-road-through-lava&postLocation=)</code> `🚀 OpenMW` `roadfork` `lava`
 
 ```
 2024-05-22-the-road-through-lava
@@ -2770,7 +2770,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-21-in-the-cage&postLocation=)</code> `🚀 OpenMW` `cage` `slave` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-21-in-the-cage&postLocation=)</code> `🚀 OpenMW` `cage` `slave`
 
 ```
 2024-05-21-in-the-cage
@@ -2804,7 +2804,7 @@
 
 `shot` by [Darkness Rifho](../contributors.md#darkness-rifho), [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-20-place-to-sleep&postLocation=)</code> `bed` `by Darkness Rifho`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-20-place-to-sleep&postLocation=)</code> `bed`
 
 ```
 2024-05-20-place-to-sleep
@@ -2843,7 +2843,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-19-druscashti&postLocation=)</code> `🚀 OpenMW` `dwemer` `ruin` `by Natty`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-19-druscashti&postLocation=)</code> `🚀 OpenMW` `dwemer` `ruin`
 
 ```
 2024-05-19-druscashti
@@ -2870,7 +2870,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Wolverine Hall` `🚀 OpenMW` `openmw`
+`B1` `📍 Wolverine Hall` `🚀 OpenMW`
 
 ```
 2024-05-18-in-the-yard-of-wolverine-hall
@@ -2903,7 +2903,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Sadrith Mora, Dirty Muriel's Cornerclub` `🚀 OpenMW` `orc` `by Natty`
+`B1` `📍 Sadrith Mora, Dirty Muriel's Cornerclub` `🚀 OpenMW` `orc`
 
 ```
 2024-05-17-both-gro-durug
@@ -2933,7 +2933,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Ashlands Region` `🚀 OpenMW` `hills` `rocks` `openmw`
+`A2` `📍 Ashlands Region` `🚀 OpenMW` `hill` `rock`
 
 ```
 2024-05-16-evening-expanse-of-ashlands
@@ -2976,7 +2976,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B2` `📍 Ules Manor` `🚀 OpenMW` `by Natty`
+`B2` `📍 Ules Manor` `🚀 OpenMW`
 
 ```
 2024-05-15-royal-draggle-tail
@@ -3004,7 +3004,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Sadrith Mora` `🚀 OpenMW` `nofilter` `ship` `openmw`
+`A1` `📍 Sadrith Mora` `🚀 OpenMW` `ship`
 
 ```
 2024-05-14-climbing-aboard-the-elf-skerring
@@ -3036,7 +3036,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Vivec` `🚀 OpenMW` `nofilter` `openmw`
+`A2` `📍 Vivec` `🚀 OpenMW`
 
 ```
 2024-05-13-pray-with-the-saints
@@ -3068,7 +3068,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Wolverine Hall` `🚀 OpenMW` `well` `fort` `bridge` `by Natty`
+`B1` `📍 Wolverine Hall` `🚀 OpenMW` `well` `fort` `bridge`
 
 ```
 2024-05-12-road-to-the-well
@@ -3091,7 +3091,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Suran` `🚀 OpenMW` `tower` `night` `openmw`
+`B1` `📍 Suran` `🚀 OpenMW` `tower` `night`
 
 ```
 2024-05-11-guard-tower-of-suran
@@ -3133,7 +3133,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B2` `📍 Pelagiad, Halfway Tavern` `🚀 OpenMW` `table` `bottles` `by Natty`
+`B2` `📍 Pelagiad, Halfway Tavern` `🚀 OpenMW` `table` `bottle`
 
 ```
 2024-05-10-after-the-repast
@@ -3161,7 +3161,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-09-strategic-stock&postLocation=)</code> `🚀 OpenMW` `barrels` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-09-strategic-stock&postLocation=)</code> `🚀 OpenMW` `barrel`
 
 ```
 2024-05-09-strategic-stock
@@ -3194,7 +3194,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-08-slaves-sleep-peacefully-in-their-shacks&postLocation=)</code> `🚀 OpenMW` `night` `stars` `shacks` `fireplace` `by Natty`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-08-slaves-sleep-peacefully-in-their-shacks&postLocation=)</code> `🚀 OpenMW` `night` `star` `shack` `fireplace`
 
 ```
 2024-05-08-slaves-sleep-peacefully-in-their-shacks
@@ -3227,7 +3227,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-07-campfire&postLocation=)</code> `🚀 OpenMW` `campfire` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-07-campfire&postLocation=)</code> `🚀 OpenMW` `campfire`
 
 ```
 2024-05-07-campfire
@@ -3256,7 +3256,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Vivec, Guild of Mages` `🚀 OpenMW` `alchemy` `table` `openmw`
+`B1` `📍 Vivec, Guild of Mages` `🚀 OpenMW` `alchemy` `table`
 
 ```
 2024-05-06-alchemist-table
@@ -3287,7 +3287,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-05-dinner-for-four&postLocation=)</code> `🚀 OpenMW` `table` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-05-dinner-for-four&postLocation=)</code> `🚀 OpenMW` `table`
 
 ```
 2024-05-05-dinner-for-four
@@ -3319,7 +3319,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B2` `📍 Pelagiad, Halfway Tavern` `🚀 OpenMW` `khajiit` `by Natty`
+`B2` `📍 Pelagiad, Halfway Tavern` `🚀 OpenMW` `khajiit`
 
 ```
 2024-05-04-ahnassi
@@ -3346,7 +3346,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-03-coastal-silt-strider&postLocation=)</code> `🚀 OpenMW` `siltstrider` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-03-coastal-silt-strider&postLocation=)</code> `🚀 OpenMW` `siltstrider`
 
 ```
 2024-05-03-coastal-silt-strider
@@ -3374,7 +3374,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-02-over-the-lava&postLocation=)</code> `🚀 OpenMW` `lava` `openmw`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-02-over-the-lava&postLocation=)</code> `🚀 OpenMW` `lava`
 
 ```
 2024-05-02-over-the-lava
@@ -3406,7 +3406,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-01-upper-circles&postLocation=)</code> `🚀 OpenMW` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-01-upper-circles&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-05-01-upper-circles
@@ -3437,7 +3437,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-30-tree-of-magnus&postLocation=)</code> `🚀 OpenMW` `sun` `trees` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-30-tree-of-magnus&postLocation=)</code> `🚀 OpenMW` `sun` `tree`
 
 ```
 2024-04-30-tree-of-magnus
@@ -3464,7 +3464,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B2` `📍 Molag Amur Region` `🚀 OpenMW` `crossroads` `by Natty`
+`B2` `📍 Molag Amur Region` `🚀 OpenMW` `crossroads`
 
 ```
 2024-04-29-all-paths-lead-left
@@ -3491,7 +3491,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Ebonheart` `🚀 OpenMW` `nofilter` `fort` `castle` `openmw`
+`A1` `📍 Ebonheart` `🚀 OpenMW` `fort` `castle`
 
 ```
 2024-04-28-ebonheart-towers
@@ -3518,7 +3518,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-27-sunset-over-the-lava-river&postLocation=)</code> `🚀 OpenMW` `lava` `sunset` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-27-sunset-over-the-lava-river&postLocation=)</code> `🚀 OpenMW` `lava` `sunset`
 
 ```
 2024-04-27-sunset-over-the-lava-river
@@ -3549,7 +3549,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-26-winter-and-summer&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `snow` `forest` `bear` `by Natty`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-26-winter-and-summer&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `snow` `forest` `bear`
 
 ```
 2024-04-26-winter-and-summer
@@ -3572,7 +3572,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 An Abandoned Shack` `🚀 OpenMW` `openmw`
+`B1` `📍 An Abandoned Shack` `🚀 OpenMW`
 
 ```
 2024-04-25-abandoned-island
@@ -3615,7 +3615,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-24-muckspunges-on-the-coast&postLocation=)</code> `🚀 OpenMW` `coast` `by Natty`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-24-muckspunges-on-the-coast&postLocation=)</code> `🚀 OpenMW` `coast`
 
 ```
 2024-04-24-muckspunges-on-the-coast
@@ -3638,7 +3638,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Mournhold, Temple Courtyard` `🚀 OpenMW` `🔗 Tribunal` `evening` `tribunal` `openmw`
+`A2` `📍 Mournhold, Temple Courtyard` `🚀 OpenMW` `🔗 Tribunal` `evening` `tribunal`
 
 ```
 2024-04-23-evening-mournhold
@@ -3679,7 +3679,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Molag Amur Region` `🚀 OpenMW` `sunset` `lava` `openmw`
+`B1` `📍 Molag Amur Region` `🚀 OpenMW` `sunset` `lava`
 
 ```
 2024-04-22-sunset-over-molag-amur
@@ -3708,7 +3708,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-21-a-little-joy-for-hard-worker&postLocation=)</code> `🚀 OpenMW` `candles` `bottle` `cup` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-21-a-little-joy-for-hard-worker&postLocation=)</code> `🚀 OpenMW` `candle` `bottle` `cup`
 
 ```
 2024-04-21-a-little-joy-for-hard-worker
@@ -3753,7 +3753,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Beran Ancestral Tomb` `🚀 OpenMW` `tomb` `sword` `skulls` `openmw`
+`B1` `📍 Beran Ancestral Tomb` `🚀 OpenMW` `tomb` `sword` `skull`
 
 ```
 2024-04-20-fallen-sanctuary
@@ -3780,7 +3780,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B2` `📍 Ascadian Isles Region` `🚀 OpenMW` `rain` `tree` `hlaalu` `by Natty`
+`B2` `📍 Ascadian Isles Region` `🚀 OpenMW` `rain` `tree` `hlaalu`
 
 ```
 2024-04-19-evening-shelter
@@ -3807,7 +3807,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` `📍 Dren Plantation` `🚀 OpenMW` `openmw`
+`B2` `📍 Dren Plantation` `🚀 OpenMW`
 
 ```
 2024-04-18-dren-plantation
@@ -3845,7 +3845,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-17-interior-garden&postLocation=)</code> `🚀 OpenMW` `nofilter` `mushrooms` `interiorgarden` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-17-interior-garden&postLocation=)</code> `🚀 OpenMW` `mushroom` `interiorgarden`
 
 ```
 2024-04-17-interior-garden
@@ -3872,7 +3872,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-16-birth-of-fabricant&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil` `tribunal` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-16-birth-of-fabricant&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil` `tribunal`
 
 ```
 2024-04-16-birth-of-fabricant
@@ -3913,7 +3913,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-15-night-at-red-mountain&postLocation=)</code> `🚀 OpenMW` `dwemer` `ruin` `bridge` `towers` `by Natty`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-15-night-at-red-mountain&postLocation=)</code> `🚀 OpenMW` `dwemer` `ruin` `bridge` `tower`
 
 ```
 2024-04-15-night-at-red-mountain
@@ -3943,7 +3943,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Vivec, Temple` `🚀 OpenMW` `nofilter` `vivec` `palace` `castle` `openmw`
+`A2` `📍 Vivec, Temple` `🚀 OpenMW` `vivec` `palace` `castle`
 
 ```
 2024-04-14-palace-of-vivec
@@ -3978,7 +3978,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Punabi` `🚀 OpenMW` `cave` `crystal` `by Natty`
+`B1` `📍 Punabi` `🚀 OpenMW` `cave` `crystal`
 
 ```
 2024-04-13-manwe
@@ -4006,7 +4006,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Sadrith Mora, Gateway Inn` `🚀 OpenMW` `nofilter` `openmw`
+`A1` `📍 Sadrith Mora, Gateway Inn` `🚀 OpenMW`
 
 ```
 2024-04-12-sadrith-mora-gateway-inn
@@ -4048,7 +4048,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Endusal, Kagrenac's study` `🚀 OpenMW` `skeleton` `dwemer` `by Natty`
+`B1` `📍 Endusal, Kagrenac's study` `🚀 OpenMW` `skeleton` `dwemer`
 
 ```
 2024-04-11-heros-skeleton
@@ -4077,7 +4077,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` `📍 Azura's Coast Region` `🚀 OpenMW` `mushroom` `sun` `openmw`
+`E` `📍 Azura's Coast Region` `🚀 OpenMW` `mushroom` `sun`
 
 ```
 2024-04-10-sun-mushrooms
@@ -4107,7 +4107,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`A2` `📍 Sadrith Mora` `🚀 OpenMW` `night` `by Natty`
+`A2` `📍 Sadrith Mora` `🚀 OpenMW` `night`
 
 ```
 2024-04-09-telvanni-council-house
@@ -4142,7 +4142,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Molag Amur Region` `🚀 OpenMW` `lava` `night` `fork` `openmw`
+`B1` `📍 Molag Amur Region` `🚀 OpenMW` `lava` `night` `fork`
 
 ```
 2024-04-08-lava-fork
@@ -4165,7 +4165,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Sheogorad Region` `🚀 OpenMW` `openmw`
+`B1` `📍 Sheogorad Region` `🚀 OpenMW`
 
 ```
 2024-04-07-sheogorad
@@ -4197,7 +4197,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Red Mountain Region` `🚀 OpenMW` `by Natty`
+`B1` `📍 Red Mountain Region` `🚀 OpenMW`
 
 ```
 2024-04-06-falling-towers
@@ -4225,7 +4225,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Sotha Sil, Dome of Serlyn` `🚀 OpenMW` `🔗 Tribunal` `clockworkcity` `tribunal` `openmw`
+`A2` `📍 Sotha Sil, Dome of Serlyn` `🚀 OpenMW` `🔗 Tribunal` `clockworkcity` `tribunal`
 
 ```
 2024-04-05-rain-of-sparks
@@ -4265,7 +4265,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Sadrith Mora` `🚀 OpenMW` `ship` `by Natty`
+`B1` `📍 Sadrith Mora` `🚀 OpenMW` `ship`
 
 ```
 2024-04-04-view-of-elf-skerring
@@ -4292,7 +4292,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Almurbalarammi, Shrine` `🚀 OpenMW` `sheogorath` `shrine` `daedric` `statue` `openmw`
+`B1` `📍 Almurbalarammi, Shrine` `🚀 OpenMW` `sheogorath` `shrine` `daedric` `statue`
 
 ```
 2024-04-03-god-of-madness-and-his-follower
@@ -4323,7 +4323,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Wolverine Hall` `🚀 OpenMW` `fort` `by Natty`
+`B1` `📍 Wolverine Hall` `🚀 OpenMW` `fort`
 
 ```
 2024-04-02-hanged-man
@@ -4346,7 +4346,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` `📍 Sheogorad Region` `🚀 OpenMW` `shore` `moon` `openmw`
+`B2` `📍 Sheogorad Region` `🚀 OpenMW` `shore` `moon`
 
 ```
 2024-04-01-at-the-edge-of-sheogorad
@@ -4384,7 +4384,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Mzanchend` `🚀 OpenMW` `dwemer` `lava` `by Natty`
+`B1` `📍 Mzanchend` `🚀 OpenMW` `dwemer` `lava`
 
 ```
 2024-03-31-fire-river
@@ -4407,7 +4407,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-30-a-boxy-nightstand&postLocation=)</code> `🚀 OpenMW` `nofilter` `openmw`
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-30-a-boxy-nightstand&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-03-30-a-boxy-nightstand
@@ -4448,7 +4448,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Punabi` `🚀 OpenMW` `cave` `scamp` `by Natty`
+`B1` `📍 Punabi` `🚀 OpenMW` `cave` `scamp`
 
 ```
 2024-03-29-sneaking-scamp
@@ -4476,7 +4476,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Moonmoth Legion Fort` `🚀 OpenMW` `nofilter` `fort` `openmw`
+`B1` `📍 Moonmoth Legion Fort` `🚀 OpenMW` `fort`
 
 ```
 2024-03-28-moonmoth-legion-fort
@@ -4517,7 +4517,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`A2` `📍 Ascadian Isles Region` `🚀 OpenMW` `netch` `flight` `by Natty`
+`A2` `📍 Ascadian Isles Region` `🚀 OpenMW` `netch` `flight`
 
 ```
 2024-03-27-evening-flight
@@ -4547,7 +4547,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Seyda Neen` `🚀 OpenMW` `openmw`
+`B1` `📍 Seyda Neen` `🚀 OpenMW`
 
 ```
 2024-03-26-recollecting-the-first-steps
@@ -4594,7 +4594,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`A2` `📍 Red Mountain Region` `🚀 OpenMW` `bridge` `by Natty`
+`A2` `📍 Red Mountain Region` `🚀 OpenMW` `bridge`
 
 ```
 2024-03-25-bridge-at-ghostfence
@@ -4622,7 +4622,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-24-dark-sanctuary-of-dark&postLocation=)</code> `🚀 OpenMW` `candles` `sanctuary` `openmw`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-24-dark-sanctuary-of-dark&postLocation=)</code> `🚀 OpenMW` `candle` `sanctuary`
 
 ```
 2024-03-24-dark-sanctuary-of-dark
@@ -4664,7 +4664,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`E` `📍 Ascadian Isles Region` `🚀 OpenMW` `sunrise` `by Natty`
+`E` `📍 Ascadian Isles Region` `🚀 OpenMW` `sunrise`
 
 ```
 2024-03-23-sunrise-over-molag-amur-coast
@@ -4691,7 +4691,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Pelagiad` `🚀 OpenMW` `openmw`
+`B1` `📍 Pelagiad` `🚀 OpenMW`
 
 ```
 2024-03-22-i-greet-you-in-pelagiad-traveler
@@ -4727,7 +4727,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`A2` `📍 Falasmaryon` `stronghold` `by Natty`
+`A2` `📍 Falasmaryon` `stronghold`
 
 ```
 2024-03-21-first-stars-above-falasmaryon
@@ -4757,7 +4757,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-20-banner-of-house-dagoth&postLocation=)</code> `🚀 OpenMW` `openmw`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-20-banner-of-house-dagoth&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2024-03-20-banner-of-house-dagoth
@@ -4792,7 +4792,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`A2` `📍 Wolverine Hall` `🚀 OpenMW` `tavern` `by Natty`
+`A2` `📍 Wolverine Hall` `🚀 OpenMW` `tavern`
 
 ```
 2024-03-19-dirty-muriels-cornerclub
@@ -4815,7 +4815,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Azura's Coast Region` `🚀 OpenMW` `nofilter` `coast` `mudcrab` `openmw`
+`B1` `📍 Azura's Coast Region` `🚀 OpenMW` `coast` `mudcrab`
 
 ```
 2024-03-18-evening-on-azuras-coast
@@ -4847,7 +4847,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `teeth` `fence` `by Natty`
+`B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `teeth` `fence`
 
 ```
 2024-03-17-teeth-of-pelagiad
@@ -4877,7 +4877,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Ald-ruhn` `🚀 OpenMW` `nofilter` `night` `openmw`
+`A2` `📍 Ald-ruhn` `🚀 OpenMW` `night`
 
 ```
 2024-03-16-night-guardess
@@ -4911,7 +4911,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Pelagiad, Mebestien Ence: Trader` `🚀 OpenMW` `trader` `by Natty`
+`B1` `📍 Pelagiad, Mebestien Ence: Trader` `🚀 OpenMW` `trader`
 
 ```
 2024-03-15-bonemold-shield-seller
@@ -4934,7 +4934,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Balmora` `🚀 OpenMW` `nofilter` `nightstreet` `lantern` `openmw`
+`A1` `📍 Balmora` `🚀 OpenMW` `nightstreet` `lantern`
 
 ```
 2024-03-14-night-street-of-balmora
@@ -4971,7 +4971,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Caldera` `🚀 OpenMW` `openmw`
+`B1` `📍 Caldera` `🚀 OpenMW`
 
 ```
 2024-03-13-haze
@@ -5014,7 +5014,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Sadrith Mora, Tel Naga Upper Tower` `🚀 OpenMW` `by Natty`
+`B1` `📍 Sadrith Mora, Tel Naga Upper Tower` `🚀 OpenMW`
 
 ```
 2024-03-12-neloth
@@ -5051,7 +5051,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Molag Amur Region` `🚀 OpenMW` `openmw`
+`B1` `📍 Molag Amur Region` `🚀 OpenMW`
 
 ```
 2024-03-11-gray-thorns
@@ -5074,7 +5074,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Pelagiad` `🚀 OpenMW` `fortress` `face` `by Natty`
+`B1` `📍 Pelagiad` `🚀 OpenMW` `fort` `face`
 
 ```
 2024-03-10-fortresss-face
@@ -5103,7 +5103,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Buckmoth Legion Fort, Towers` `🚀 OpenMW` `fort` `candles` `openmw`
+`A2` `📍 Buckmoth Legion Fort, Towers` `🚀 OpenMW` `fort` `candle`
 
 ```
 2024-03-09-wandering-around-the-fort
@@ -5141,7 +5141,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Bitter Coast Region` `🚀 OpenMW` `bridge` `river` `by Natty`
+`B1` `📍 Bitter Coast Region` `🚀 OpenMW` `bridge` `river`
 
 ```
 2024-03-08-a-bridge-to-ascadian-isles
@@ -5174,7 +5174,7 @@
 
 `shot` by [Darkness Rifho](../contributors.md#darkness-rifho), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Gnisis` `🚀 OpenMW` `trader` `night` `by Darkness Rifho`
+`B1` `📍 Gnisis` `🚀 OpenMW` `trader` `night`
 
 ```
 2024-03-07-night-tradeswoman
@@ -5197,7 +5197,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-06-mushroom-field&postLocation=)</code> `🚀 OpenMW` `mushrooms` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-06-mushroom-field&postLocation=)</code> `🚀 OpenMW` `mushroom`
 
 ```
 2024-03-06-mushroom-field
@@ -5231,7 +5231,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Mzahnch` `🚀 OpenMW` `dwemer` `towers` `sunset` `openmw`
+`B1` `📍 Mzahnch` `🚀 OpenMW` `dwemer` `tower` `sunset`
 
 ```
 2024-03-05-mzahnch-at-sunset
@@ -5270,7 +5270,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Grazelands Region` `🚀 OpenMW` `tree` `openmw`
+`A2` `📍 Grazelands Region` `🚀 OpenMW` `tree`
 
 ```
 2024-03-04-an-old-sprout
@@ -5293,7 +5293,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-03-exit&postLocation=)</code> `🚀 OpenMW` `tomb` `exit` `door` `openmw`
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-03-03-exit&postLocation=)</code> `🚀 OpenMW` `tomb` `exit` `door`
 
 ```
 2024-03-03-exit
@@ -5333,7 +5333,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Ascadian Isles Region` `🚀 OpenMW` `trees` `mushrooms` `openmw`
+`A2` `📍 Ascadian Isles Region` `🚀 OpenMW` `tree` `mushroom`
 
 ```
 2024-03-02-queue
@@ -5368,7 +5368,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Grazelands Region` `🚀 OpenMW` `rat` `openmw`
+`B1` `📍 Grazelands Region` `🚀 OpenMW` `rat`
 
 ```
 2024-03-01-rat-in-the-pasture
@@ -5398,7 +5398,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-02-29-morning-hunt&postLocation=)</code> `🚀 OpenMW` `nofilter` `hunt` `skeleton` `morning` `guard` `openmw`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-02-29-morning-hunt&postLocation=)</code> `🚀 OpenMW` `hunt` `skeleton` `morning` `guard`
 
 ```
 2024-02-29-morning-hunt
@@ -5442,7 +5442,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Molag Amur Region` `🚀 OpenMW` `tomb` `openmw`
+`A2` `📍 Molag Amur Region` `🚀 OpenMW` `tomb`
 
 ```
 2024-02-28-omalen-ancestral-tomb
@@ -5476,7 +5476,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Grazelands Region` `🚀 OpenMW` `nofilter` `openmw`
+`A1` `📍 Grazelands Region` `🚀 OpenMW`
 
 ```
 2024-02-27-daedroth-in-grazelands
