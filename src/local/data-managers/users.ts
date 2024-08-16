@@ -15,9 +15,9 @@ class LocalUsersManager extends UsersManager {
     return Object.entries(data as Record<string, User>);
   }
 
-  protected async saveChunk(chunkName: string) {
+  protected async saveChunk() {
     const data = Object.fromEntries(await this.getAllEntries());
-    return saveYaml(chunkName, data);
+    return saveYaml(USERS_FILENAME, data);
   }
 }
 
