@@ -212,17 +212,17 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2024-08-09-07-50-06
+      updated: 2024-08-16-08-19-27
       followers: 893
       likes: 35
       views: 258
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2024-08-09-07-50-05
+      updated: 2024-08-16-08-19-25
       followers: 345
       likes: 58
-      views: 535
+      views: 542
 2024-03-08-a-bridge-to-ascadian-isles:
   title: A Bridge to Ascadian Isles
   titleRu: Мост к Аскадианским островам
@@ -584,7 +584,7 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2024-08-09-07-50-05
+      updated: 2024-08-16-08-19-25
       followers: 896
       likes: 42
       views: 298
