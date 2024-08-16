@@ -1647,17 +1647,17 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2024-08-15-18-20-11
+      updated: 2024-08-16-19-13-25
       followers: 927
-      likes: 23
-      views: 200
+      likes: 24
+      views: 207
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
-      updated: 2024-08-15-18-20-11
+      updated: 2024-08-16-19-13-27
       followers: 514
       likes: 51
-      views: 307
+      views: 323
       comments: !c |-
         G7wAABypvX60oN8IlX7Pun5bvnzvKtlkf9GhcOYLoW+CyJDXBIVOTuByTDAAz9JTYBq1lNKyEoDm
         PPH0Njh2z0r7GlYRxBqbKqDJqd8imMVqFx/gBA7gFm7gFEvYbXcHV1iCAyy3cIQN7NKR8xOb5PxK
@@ -8709,27 +8709,27 @@
       id: C-s02fCI7m7
       mediaId: '18197312713292587'
       published: 2024-08-15-18-20-29
-      updated: 2024-08-16-18-19-44
+      updated: 2024-08-16-19-13-20
       followers: 1439
       likes: 79
-      views: 302
+      views: 308
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2024-08-16-18-19-46
+      updated: 2024-08-16-19-13-22
       followers: 932
-      likes: 26
-      views: 168
+      likes: 27
+      views: 169
       comments: !c |-
         ixyAkZPLQnkVdl1GgACyeW91cmVuZW1pZXN3aWxscGF5u9Ci0LDQvCDQutC70LDQvSDQkdC10YDQ
         vdC1PwM=
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2024-08-16-18-19-45
+      updated: 2024-08-16-19-13-21
       followers: 527
-      likes: 42
-      views: 162
+      likes: 44
+      views: 175
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
@@ -8977,15 +8977,27 @@
       id: C-vZmm-zwsc
       mediaId: '18022081085131254'
       published: 2024-08-16-18-20-02
+      updated: 2024-08-16-19-13-19
       followers: 1440
+      likes: 34
+      views: 55
     - service: vk
       id: 1693
       published: 2024-08-16-18-20-13
+      updated: 2024-08-16-19-13-21
       followers: 933
+      likes: 13
+      views: 44
     - service: tg
       id: 503
       published: 2024-08-16-18-20-22
+      updated: 2024-08-16-19-13-20
       followers: 527
+      likes: 21
+      views: 60
+      comments: !c |-
+        iySAkZPLQnkVxx/WAACmQzRINk802TbQkiDQs9C70LDQt9Cw0YUg0YHQvdC+0LLQsCDRgdGC0LDQ
+        vdC10YIg0LTQtdC20LDQstGOLi4D
 2018-10-13-the-entrance-to-onyx-hall:
   title: The Entrance to Onyx Hall
   titleRu: Вход в Ониксовый Зал
