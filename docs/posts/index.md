@@ -4,7 +4,40 @@
 
 # Posted in 2024
 
-`171 items`
+`172 items`
+
+## <span id="2024-08-16-rainy-evening-at-the-farm">Rainy Evening at the Farm</span>
+
+`RU` Дождливый вечер на ферме
+
+<a href="https://instagram.com/p/Bo3QUg6hyFQ/" title="2018-10-12-rainy-evening-at-the-farm"><img alt="store:/shots/2018-10-12-rainy-evening-at-the-farm.png" src="../../assets/previews/shots/2018-10-12-rainy-evening-at-the-farm.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-16-rainy-evening-at-the-farm&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-08-16-rainy-evening-at-the-farm
+```
+
+> `2018-10-12-rainy-evening-at-the-farm`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_979)  | 2018-10-12 |   524 |    46 |       255 |  18.04 |
+| [`tg`](https://t.me/mwscr/76)                      | 2018-10-12 |   220 |     4 |           |        |
+| [`ig`](https://instagram.com/p/Bo3QUg6hyFQ/)       | 2018-10-13 |       |   131 |           |        |
+| [`ig`](https://instagram.com/p/C-vZmm-zwsc/)       | 2024-08-16 |       |       |      1440 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1693) | 2024-08-16 |       |       |       933 |        |
+| [`tg`](https://t.me/mwscr/503)                     | 2024-08-16 |       |       |       527 |        |
+|                                                    |            |   744 |   181 |      2900 |        |
+
+#### Comments
+
+- `ig` <ins title="2018-10-13-07-13-10">m4niou</ins> sweet Azura, those screenshots always look so good! ♥
+- `ig` <ins title="2018-10-13-13-07-56">l3nku</ins> moody! thanks!
 
 ## <span id="2024-08-15-galom-daeus">Galom Daeus</span>
 
@@ -29,10 +62,10 @@
 | [`ig`](https://instagram.com/p/BokCUgthFAs/)       | 2018-10-05 |       |   116 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_957)  | 2018-10-05 |   538 |    33 |       250 |   13.2 |
 | [`tg`](https://t.me/mwscr/65)                      | 2018-10-05 |   199 |     3 |           |        |
-| [`ig`](https://instagram.com/p/C-s02fCI7m7/)       | 2024-08-15 |   296 |    78 |      1439 |   5.42 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1691) | 2024-08-15 |   166 |    26 |       932 |   2.79 |
+| [`ig`](https://instagram.com/p/C-s02fCI7m7/)       | 2024-08-15 |   302 |    79 |      1439 |   5.49 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1691) | 2024-08-15 |   168 |    26 |       932 |   2.79 |
 | [`tg`](https://t.me/mwscr/502)                     | 2024-08-15 |   162 |    42 |       527 |   7.97 |
-|                                                    |            |  1361 |   298 |      2898 |   7.34 |
+|                                                    |            |  1369 |   299 |      2898 |   7.36 |
 
 #### Comments
 
@@ -62,9 +95,9 @@
 | [`ig`](https://instagram.com/p/BRuvtFtD7Lq/)       | 2017-03-17 |       |    63 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_217)  | 2017-03-17 |   200 |    13 |        46 |     13 |
 | [`ig`](https://instagram.com/p/C-qQqwSRZ8Q/)       | 2024-08-14 |   295 |    84 |      1439 |   5.84 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1690) | 2024-08-14 |   349 |    39 |       931 |   4.19 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1690) | 2024-08-14 |   350 |    39 |       931 |   4.19 |
 | [`tg`](https://t.me/mwscr/501)                     | 2024-08-14 |   223 |    55 |       527 |  10.44 |
-|                                                    |            |  1067 |   254 |      2897 |   8.37 |
+|                                                    |            |  1068 |   254 |      2897 |   8.37 |
 
 #### Comments
 
