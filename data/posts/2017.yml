@@ -7819,10 +7819,10 @@
     - service: vk
       id: 1664
       published: 2024-08-02-18-20-03
-      updated: 2024-08-09-21-13-32
+      updated: 2024-08-16-21-14-26
       followers: 925
-      likes: 40
-      views: 267
+      likes: 42
+      views: 280
       reposts: 1
       comments: !c |-
         CzeAkpPLQnkRc1B4gACudW50ZXJncnVuZGJhaG7ZOtCQINCy0LXQtNGMINGB0L7Qu9GB0YLRhdC1
@@ -7831,10 +7831,10 @@
     - service: tg
       id: 488
       published: 2024-08-02-18-20-10
-      updated: 2024-08-09-21-13-32
+      updated: 2024-08-16-21-14-25
       followers: 428
       likes: 62
-      views: 456
+      views: 564
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки
