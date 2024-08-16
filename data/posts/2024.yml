@@ -595,10 +595,10 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2024-08-09-07-14-03
+      updated: 2024-08-16-07-14-35
       followers: 352
       likes: 58
-      views: 458
+      views: 461
       comments: !c |-
         CymAkZTLQnjmKMfPAACpR2F0ZW1hdGU32SZ0aGlzIGlzIGEgbWFzb25pYyBsb2RnZT8gbm90IG1v
         cnJvd2luZJPLQnjmKXtAgAClYW5zaXOlaGFoYWgD
@@ -894,18 +894,18 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2024-08-09-07-14-03
+      updated: 2024-08-16-07-14-36
       followers: 906
       likes: 51
-      views: 427
+      views: 428
       reposts: 4
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2024-08-09-07-14-02
+      updated: 2024-08-16-07-14-35
       followers: 354
       likes: 62
-      views: 463
+      views: 466
 2024-04-05-rain-of-sparks: 2017-09-29-rain-of-sparks
 2024-04-06-falling-towers:
   title: Falling Towers
