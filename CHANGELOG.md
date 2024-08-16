@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.11.2](https://github.com/dehero/mwscr/compare/v1.11.1...v1.11.2) (2024-08-16)
+
+### Bug Fixes
+
+- disable grabbing manual posts
+  ([b89923f](https://github.com/dehero/mwscr/commit/b89923f2bd6f13544321c8fbc6cd609b4da56744))
+
 ## [1.11.1](https://github.com/dehero/mwscr/compare/v1.11.0...v1.11.1) (2024-08-16)
 
 ### Bug Fixes
