@@ -4521,7 +4521,7 @@
     - service: vk
       id: 1526
       published: 2024-05-09-18-18-25
-      updated: 2024-08-09-05-15-24
+      updated: 2024-08-16-06-02-49
       followers: 913
       likes: 39
       views: 271
@@ -4531,10 +4531,10 @@
     - service: tg
       id: 403
       published: 2024-05-09-18-18-32
-      updated: 2024-08-09-05-15-25
+      updated: 2024-08-16-06-02-49
       followers: 370
       likes: 60
-      views: 434
+      views: 438
 2018-05-19-keep-calm-and-wait-for-nerevarine:
   title: Keep Calm and Wait for Nerevarine
   titleRu: Будь спокоен и жди Нереварина
@@ -9086,27 +9086,27 @@
       id: C-s02fCI7m7
       mediaId: '18197312713292587'
       published: 2024-08-15-18-20-29
-      updated: 2024-08-16-05-14-21
+      updated: 2024-08-16-06-02-47
       followers: 1439
       likes: 64
-      views: 211
+      views: 218
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2024-08-16-05-14-22
+      updated: 2024-08-16-06-02-47
       followers: 932
       likes: 22
-      views: 111
+      views: 120
       comments: !c |-
         ixyAkZPLQnkVdl1GgACyeW91cmVuZW1pZXN3aWxscGF5u9Ci0LDQvCDQutC70LDQvSDQkdC10YDQ
         vdC1PwM=
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2024-08-16-05-14-22
+      updated: 2024-08-16-06-02-48
       followers: 527
-      likes: 38
-      views: 140
+      likes: 39
+      views: 143
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
