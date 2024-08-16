@@ -199,14 +199,9 @@ natty.2024-03-28-20-40-31:
   type: shot
   author: natty
 natty.2024-03-28-20-45-29:
-  content: store:/inbox/natty.2024-03-28-20-45-29.png
-  type: shot
-  author: natty
-natty.2024-03-28-20-45-33:
-  content: store:/inbox/natty.2024-03-28-20-45-33.png
-  type: shot
-  author: natty
-natty.2024-03-28-20-45-38:
-  content: store:/inbox/natty.2024-03-28-20-45-38.png
+  content:
+    - store:/inbox/natty.2024-03-28-20-45-29.png
+    - store:/inbox/natty.2024-03-28-20-45-33.png
+    - store:/inbox/natty.2024-03-28-20-45-38.png
   type: shot
   author: natty
