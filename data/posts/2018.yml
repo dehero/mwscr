@@ -6568,10 +6568,10 @@
     - service: vk
       id: 1642
       published: 2024-07-18-18-21-19
-      updated: 2024-08-08-23-15-14
+      updated: 2024-08-16-01-05-54
       followers: 919
       likes: 36
-      views: 249
+      views: 252
       reposts: 1
       comments: !c |-
         iyqAkZTLQnkMd+OugACqcGtlbGxlcm1hbq/QmtCw0Log0LTQvtC80LCTy0J5DMzLRwAAsGFydHlv
@@ -6579,10 +6579,10 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2024-08-08-23-15-14
+      updated: 2024-08-16-01-05-53
       followers: 402
-      likes: 57
-      views: 589
+      likes: 58
+      views: 619
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
@@ -9086,27 +9086,27 @@
       id: C-s02fCI7m7
       mediaId: '18197312713292587'
       published: 2024-08-15-18-20-29
-      updated: 2024-08-15-23-13-02
+      updated: 2024-08-16-01-05-51
       followers: 1439
-      likes: 54
-      views: 145
+      likes: 56
+      views: 164
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2024-08-15-23-13-03
+      updated: 2024-08-16-01-05-52
       followers: 932
-      likes: 20
-      views: 91
+      likes: 21
+      views: 94
       comments: !c |-
         ixyAkZPLQnkVdl1GgACyeW91cmVuZW1pZXN3aWxscGF5u9Ci0LDQvCDQutC70LDQvSDQkdC10YDQ
         vdC1PwM=
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2024-08-15-23-13-04
+      updated: 2024-08-16-01-05-52
       followers: 527
       likes: 34
-      views: 118
+      views: 123
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
