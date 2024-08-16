@@ -2,7 +2,7 @@ import 'dotenv/config';
 import { createGithubIssueTemplates } from './functions/create-github-issue-templates.js';
 import { createNewPost } from './functions/create-new-post.js';
 import { exchangeInboxAndTrash } from './functions/exchange-inbox-and-trash.js';
-import { grabManualPosts } from './functions/grab-manual-posts.js';
+// import { grabManualPosts } from './functions/grab-manual-posts.js';
 import { importStoreInbox } from './functions/import-store-inbox.js';
 import { maintainPreviews } from './functions/maintain-previews.js';
 import { publishPosts } from './functions/publish-posts.js';
@@ -11,7 +11,8 @@ import { updatePosts } from './functions/update-posts.js';
 
 await createGithubIssueTemplates();
 
-await grabManualPosts();
+// TODO: fix parsing captions (causing wrong tags in posts)
+// await grabManualPosts();
 
 await importStoreInbox();
 
