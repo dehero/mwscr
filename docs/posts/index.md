@@ -29,10 +29,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_979)  | 2018-10-12 |   524 |    46 |       255 |  18.04 |
 | [`tg`](https://t.me/mwscr/76)                      | 2018-10-12 |   220 |     4 |           |        |
 | [`ig`](https://instagram.com/p/Bo3QUg6hyFQ/)       | 2018-10-13 |       |   131 |           |        |
-| [`ig`](https://instagram.com/p/C-vZmm-zwsc/)       | 2024-08-16 |   180 |    78 |      1440 |   5.42 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1693) | 2024-08-16 |    89 |    21 |       933 |   2.25 |
-| [`tg`](https://t.me/mwscr/503)                     | 2024-08-16 |   101 |    37 |       527 |   7.02 |
-|                                                    |            |  1114 |   317 |      2900 |   8.18 |
+| [`ig`](https://instagram.com/p/C-vZmm-zwsc/)       | 2024-08-16 |   185 |    81 |      1440 |   5.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1693) | 2024-08-16 |    92 |    21 |       933 |   2.25 |
+| [`tg`](https://t.me/mwscr/503)                     | 2024-08-16 |   104 |    37 |       527 |   7.02 |
+|                                                    |            |  1125 |   320 |      2900 |   8.23 |
 
 #### Comments
 
@@ -64,10 +64,10 @@
 | [`ig`](https://instagram.com/p/BokCUgthFAs/)       | 2018-10-05 |       |   116 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_957)  | 2018-10-05 |   538 |    33 |       250 |   13.2 |
 | [`tg`](https://t.me/mwscr/65)                      | 2018-10-05 |   199 |     3 |           |        |
-| [`ig`](https://instagram.com/p/C-s02fCI7m7/)       | 2024-08-15 |   317 |    80 |      1439 |   5.56 |
+| [`ig`](https://instagram.com/p/C-s02fCI7m7/)       | 2024-08-15 |   318 |    81 |      1439 |   5.63 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1691) | 2024-08-15 |   174 |    27 |       932 |    2.9 |
-| [`tg`](https://t.me/mwscr/502)                     | 2024-08-15 |   183 |    45 |       527 |   8.54 |
-|                                                    |            |  1411 |   304 |      2898 |   7.55 |
+| [`tg`](https://t.me/mwscr/502)                     | 2024-08-15 |   184 |    45 |       527 |   8.54 |
+|                                                    |            |  1413 |   305 |      2898 |   7.57 |
 
 #### Comments
 
@@ -1597,8 +1597,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_572)  | 2018-01-09 |   181 |    16 |       119 |  13.45 |
 | [`ig`](https://instagram.com/p/C8xOkhoJ1Rz/)       | 2024-06-28 |   311 |    77 |      1421 |   5.42 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1607) | 2024-06-28 |   273 |    38 |       917 |   4.14 |
-| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |   481 |    58 |       387 |  14.99 |
-|                                                    |            |  1246 |   287 |      2725 |    9.5 |
+| [`tg`](https://t.me/mwscr/453)                     | 2024-06-28 |   491 |    58 |       387 |  14.99 |
+|                                                    |            |  1256 |   287 |      2725 |    9.5 |
 
 ## <span id="2024-06-27-crates-and-pillows">Crates and Pillows</span>
 
@@ -1815,9 +1815,9 @@
 | [`ig`](https://instagram.com/p/BOojKoolo1u/)       | 2016-12-30 |       |    35 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_47)   | 2017-01-22 |    92 |     3 |         4 |      3 |
 | [`ig`](https://instagram.com/p/C8fNH04tqd6/)       | 2024-06-21 |   333 |    89 |      1419 |   6.27 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |   276 |    35 |       919 |   3.81 |
-| [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |   482 |    53 |       386 |  13.73 |
-|                                                    |            |  1183 |   215 |      2724 |    6.7 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1593) | 2024-06-21 |   277 |    35 |       919 |   3.81 |
+| [`tg`](https://t.me/mwscr/446)                     | 2024-06-21 |   490 |    53 |       386 |  13.73 |
+|                                                    |            |  1192 |   215 |      2724 |    6.7 |
 
 ## <span id="2024-06-20-arrival-in-dagon-fel">Arrival in Dagon Fel</span>
 
