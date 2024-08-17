@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`172 items`
+`173 items`
+
+## <span id="2024-08-17-suran-house-of-pawnbroker">Suran, House of Pawnbroker</span>
+
+`RU` Суран, Дом ростовщика
+
+<a href="https://instagram.com/p/BTvMA-vjmOh/" title="2017-05-06-suran-house-of-pawnbroker"><img alt="store:/shots/2017-05-06-suran-house-of-pawnbroker.png" src="../../assets/previews/shots/2017-05-06-suran-house-of-pawnbroker.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Suran` `🚀 OpenMW`
+
+```
+2024-08-17-suran-house-of-pawnbroker
+```
+
+> `2017-05-06-suran-house-of-pawnbroker`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BTvMA-vjmOh/)       | 2017-05-06 |       |    62 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_281)  | 2017-05-06 |   100 |     9 |        55 |      9 |
+| [`ig`](https://instagram.com/p/C-x-RYtziCJ/)       | 2024-08-17 |       |       |      1441 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1695) | 2024-08-17 |       |       |       934 |        |
+| [`tg`](https://t.me/mwscr/504)                     | 2024-08-17 |       |       |       527 |        |
+|                                                    |            |   100 |    71 |      2902 |        |
 
 ## <span id="2024-08-16-rainy-evening-at-the-farm">Rainy Evening at the Farm</span>
 
@@ -29,10 +56,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_979)  | 2018-10-12 |   524 |    46 |       255 |  18.04 |
 | [`tg`](https://t.me/mwscr/76)                      | 2018-10-12 |   220 |     4 |           |        |
 | [`ig`](https://instagram.com/p/Bo3QUg6hyFQ/)       | 2018-10-13 |       |   131 |           |        |
-| [`ig`](https://instagram.com/p/C-vZmm-zwsc/)       | 2024-08-16 |   307 |   112 |      1440 |   7.78 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1693) | 2024-08-16 |   141 |    26 |       933 |   2.79 |
-| [`tg`](https://t.me/mwscr/503)                     | 2024-08-16 |   158 |    49 |       527 |    9.3 |
-|                                                    |            |  1350 |   368 |      2900 |   9.48 |
+| [`ig`](https://instagram.com/p/C-vZmm-zwsc/)       | 2024-08-16 |   318 |   116 |      1440 |   8.06 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1693) | 2024-08-16 |   143 |    26 |       933 |   2.79 |
+| [`tg`](https://t.me/mwscr/503)                     | 2024-08-16 |   160 |    49 |       527 |    9.3 |
+|                                                    |            |  1365 |   372 |      2900 |   9.54 |
 
 #### Comments
 
@@ -64,10 +91,10 @@
 | [`ig`](https://instagram.com/p/BokCUgthFAs/)       | 2018-10-05 |       |   116 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_957)  | 2018-10-05 |   538 |    33 |       250 |   13.2 |
 | [`tg`](https://t.me/mwscr/65)                      | 2018-10-05 |   199 |     3 |           |        |
-| [`ig`](https://instagram.com/p/C-s02fCI7m7/)       | 2024-08-15 |   329 |    84 |      1439 |   5.84 |
+| [`ig`](https://instagram.com/p/C-s02fCI7m7/)       | 2024-08-15 |   332 |    84 |      1439 |   5.84 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1691) | 2024-08-15 |   188 |    29 |       932 |   3.11 |
-| [`tg`](https://t.me/mwscr/502)                     | 2024-08-15 |   203 |    46 |       527 |   8.73 |
-|                                                    |            |  1457 |   311 |      2898 |   7.72 |
+| [`tg`](https://t.me/mwscr/502)                     | 2024-08-15 |   205 |    46 |       527 |   8.73 |
+|                                                    |            |  1462 |   311 |      2898 |   7.72 |
 
 #### Comments
 
