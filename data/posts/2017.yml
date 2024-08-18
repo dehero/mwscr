@@ -1663,18 +1663,18 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-08-11-01-11-33
+      updated: 2024-08-18-02-35-43
       followers: 916
       likes: 51
-      views: 393
+      views: 396
       reposts: 7
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-08-11-01-11-32
+      updated: 2024-08-18-02-35-41
       followers: 386
       likes: 71
-      views: 488
+      views: 496
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -4129,27 +4129,28 @@
       id: C-x-RYtziCJ
       mediaId: '18132369421360568'
       published: 2024-08-17-18-18-54
-      updated: 2024-08-18-01-10-11
+      updated: 2024-08-18-02-35-37
       followers: 1441
-      likes: 57
-      views: 185
+      likes: 62
+      views: 200
     - service: vk
       id: 1695
       published: 2024-08-17-18-19-02
-      updated: 2024-08-18-01-10-11
+      updated: 2024-08-18-02-35-38
       followers: 934
-      likes: 18
-      views: 88
+      likes: 19
+      views: 94
     - service: tg
       id: 504
       published: 2024-08-17-18-19-11
-      updated: 2024-08-18-01-10-11
+      updated: 2024-08-18-02-35-38
       followers: 527
-      likes: 36
-      views: 115
+      likes: 38
+      views: 118
       comments: !c |-
-        G1QA+J0JduySQbvGeHZ62zzL4XvqPo4jIngliGrsVvPWk8vi8BLpKTtpbPLCq2jgnigjzQdwlDLX
-        69/I/FEb
+        G5kAGKyOt6Fh2DII9SraGD9X/MgjVPrf33zCH3gV4CCaONb5A6mtc51HiSdUhy6Lw0sQm6m2eEF7
+        10hP2eKS5i0PNuCAvQgHGxBmPLvAIdUUWLSgYygr1ZEd4Y7zHD3ybT007Y+2bxgCxB5X7rrk7kIe
+        J+MLsGpIKTfz/2RhclcvBA==
 2017-05-07-maar-gan-outpost:
   title: Maar Gan, Outpost
   titleRu: Маар Ган, Аванпост
@@ -5457,17 +5458,17 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2024-08-11-01-11-32
+      updated: 2024-08-18-02-35-42
       followers: 920
       likes: 38
-      views: 270
+      views: 272
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2024-08-11-01-11-32
+      updated: 2024-08-18-02-35-41
       followers: 387
       likes: 59
-      views: 438
+      views: 447
 2017-06-18-manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
@@ -10833,7 +10834,7 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-08-11-01-11-31
+      updated: 2024-08-18-02-35-40
       followers: 919
       likes: 49
       views: 271
@@ -10850,10 +10851,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-08-11-01-11-30
+      updated: 2024-08-18-02-35-39
       followers: 393
       likes: 58
-      views: 428
+      views: 436
     - service: ig
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
