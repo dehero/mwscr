@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`173 items`
+`174 items`
+
+## <span id="2024-08-18-hlaalu-council-manor">Hlaalu Council Manor</span>
+
+`RU` Особняк Совета Хлаалу
+
+<a href="https://instagram.com/p/BQCjzxqF32Q/" title="2017-02-03-hlaalu-council-manor"><img alt="store:/shots/2017-02-03-hlaalu-council-manor.png" src="../../assets/previews/shots/2017-02-03-hlaalu-council-manor.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Balmora` `🚀 OpenMW`
+
+```
+2024-08-18-hlaalu-council-manor
+```
+
+> `2017-02-03-hlaalu-council-manor`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BQCjzxqF32Q/)       | 2017-02-03 |       |    33 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_115)  | 2017-02-03 |   137 |     8 |        22 |      8 |
+| [`ig`](https://instagram.com/p/C-0i7seJzEX/)       | 2024-08-18 |       |       |      1455 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1697) | 2024-08-18 |       |       |       934 |        |
+| [`tg`](https://t.me/mwscr/505)                     | 2024-08-18 |       |       |       529 |        |
+|                                                    |            |   137 |    41 |      2918 |        |
 
 ## <span id="2024-08-17-suran-house-of-pawnbroker">Suran, House of Pawnbroker</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTvMA-vjmOh/)       | 2017-05-06 |       |    62 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_281)  | 2017-05-06 |   100 |     9 |        55 |      9 |
-| [`ig`](https://instagram.com/p/C-x-RYtziCJ/)       | 2024-08-17 |   279 |    75 |      1441 |    5.2 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1695) | 2024-08-17 |   141 |    25 |       934 |   2.68 |
-| [`tg`](https://t.me/mwscr/504)                     | 2024-08-17 |   171 |    44 |       527 |   8.35 |
-|                                                    |            |   691 |   215 |      2902 |   6.31 |
+| [`ig`](https://instagram.com/p/C-x-RYtziCJ/)       | 2024-08-17 |   283 |    78 |      1441 |   5.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1695) | 2024-08-17 |   142 |    25 |       934 |   2.68 |
+| [`tg`](https://t.me/mwscr/504)                     | 2024-08-17 |   173 |    44 |       527 |   8.35 |
+|                                                    |            |   698 |   218 |      2902 |   6.36 |
 
 #### Comments
 
@@ -61,10 +88,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_979)  | 2018-10-12 |   524 |    46 |       255 |  18.04 |
 | [`tg`](https://t.me/mwscr/76)                      | 2018-10-12 |   220 |     4 |           |        |
 | [`ig`](https://instagram.com/p/Bo3QUg6hyFQ/)       | 2018-10-13 |       |   131 |           |        |
-| [`ig`](https://instagram.com/p/C-vZmm-zwsc/)       | 2024-08-16 |   393 |   133 |      1440 |   9.24 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1693) | 2024-08-16 |   169 |    34 |       933 |   3.64 |
-| [`tg`](https://t.me/mwscr/503)                     | 2024-08-16 |   217 |    56 |       527 |  10.63 |
-|                                                    |            |  1523 |   404 |      2900 |  10.39 |
+| [`ig`](https://instagram.com/p/C-vZmm-zwsc/)       | 2024-08-16 |   395 |   133 |      1440 |   9.24 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1693) | 2024-08-16 |   170 |    34 |       933 |   3.64 |
+| [`tg`](https://t.me/mwscr/503)                     | 2024-08-16 |   218 |    56 |       527 |  10.63 |
+|                                                    |            |  1527 |   404 |      2900 |  10.39 |
 
 #### Comments
 
