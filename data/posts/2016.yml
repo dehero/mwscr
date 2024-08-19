@@ -607,7 +607,7 @@
     - service: vk
       id: 1560
       published: 2024-06-02-18-19-25
-      updated: 2024-08-12-02-37-02
+      updated: 2024-08-19-03-16-36
       followers: 915
       likes: 48
       views: 367
@@ -615,10 +615,10 @@
     - service: tg
       id: 427
       published: 2024-06-02-18-19-30
-      updated: 2024-08-12-02-37-02
+      updated: 2024-08-19-03-16-33
       followers: 380
       likes: 65
-      views: 458
+      views: 462
       comments: !c Gy8A+I2Uq6NbEHn7nOVEiGia9vFnbLbfBFU5hdcfYEVAI9cX1NtFlIJjTKf9iP3EZnBYZw==
 2016-12-05-balmora-walkthrough:
   title: Balmora Walkthrough
@@ -1179,7 +1179,7 @@
     - service: vk
       id: 1512
       published: 2024-04-28-18-16-56
-      updated: 2024-08-12-02-37-04
+      updated: 2024-08-19-03-16-38
       followers: 911
       likes: 43
       views: 343
@@ -1187,10 +1187,10 @@
     - service: tg
       id: 392
       published: 2024-04-28-18-17-01
-      updated: 2024-08-12-02-37-03
+      updated: 2024-08-19-03-16-34
       followers: 354
-      likes: 69
-      views: 475
+      likes: 70
+      views: 514
     - service: ig
       id: C6YMB6DxXL3
       mediaId: '18251438425218335'
