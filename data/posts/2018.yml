@@ -1934,15 +1934,25 @@
       id: C-3H8E9pYOC
       mediaId: '18007422095632329'
       published: 2024-08-19-18-19-34
+      updated: 2024-08-19-19-13-07
       followers: 1455
+      likes: 23
+      views: 31
     - service: vk
       id: 1698
       published: 2024-08-19-18-19-41
+      updated: 2024-08-19-19-13-07
       followers: 934
+      likes: 8
+      views: 42
+      reposts: 1
     - service: tg
       id: 506
       published: 2024-08-19-18-19-47
+      updated: 2024-08-19-19-13-12
       followers: 534
+      likes: 25
+      views: 69
 2018-03-04-monsters:
   title: Monsters
   titleRu: Монстры
@@ -8722,27 +8732,27 @@
       id: C-s02fCI7m7
       mediaId: '18197312713292587'
       published: 2024-08-15-18-20-29
-      updated: 2024-08-18-19-11-23
+      updated: 2024-08-19-19-13-08
       followers: 1439
-      likes: 88
-      views: 362
+      likes: 90
+      views: 375
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2024-08-18-19-11-24
+      updated: 2024-08-19-19-13-09
       followers: 932
-      likes: 32
-      views: 204
+      likes: 34
+      views: 225
       comments: !c |-
         iyeAkZTLQnkVdl1GgACyeW91cmVuZW1pZXN3aWxscGF5u9Ci0LDQvCDQutC70LDQvSDQkdC10YDQ
         vdC1P5PLQnkVy9vAAACmcDQwamxhpNC00LAD
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2024-08-18-19-11-25
+      updated: 2024-08-19-19-13-16
       followers: 527
-      likes: 51
-      views: 260
+      likes: 54
+      views: 300
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
