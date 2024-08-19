@@ -1930,6 +1930,19 @@
       likes: 19
       views: 200
       comments: !c ixaAkZPLQnYe1P8hgACpa3lkaW5vdjkxuPCfkY3wn4+78J+RjfCfj7vwn5GN8J+PuwM=
+    - service: ig
+      id: C-3H8E9pYOC
+      mediaId: '18007422095632329'
+      published: 2024-08-19-18-19-34
+      followers: 1455
+    - service: vk
+      id: 1698
+      published: 2024-08-19-18-19-41
+      followers: 934
+    - service: tg
+      id: 506
+      published: 2024-08-19-18-19-47
+      followers: 534
 2018-03-04-monsters:
   title: Monsters
   titleRu: Монстры
@@ -8977,25 +8990,25 @@
       id: C-vZmm-zwsc
       mediaId: '18022081085131254'
       published: 2024-08-16-18-20-02
-      updated: 2024-08-18-18-17-33
+      updated: 2024-08-19-18-19-23
       followers: 1440
-      likes: 133
-      views: 395
+      likes: 138
+      views: 423
       comments: !c ixaAkZPLQnkVzUHngACsZWFzdGNvYXN0X2xntUZhdm91cml0ZSBzbyBmYXIg8J+RjwM=
     - service: vk
       id: 1693
       published: 2024-08-16-18-20-13
-      updated: 2024-08-18-18-17-32
+      updated: 2024-08-19-18-19-24
       followers: 933
-      likes: 34
-      views: 170
+      likes: 39
+      views: 201
     - service: tg
       id: 503
       published: 2024-08-16-18-20-22
-      updated: 2024-08-18-18-17-32
+      updated: 2024-08-19-18-19-23
       followers: 527
-      likes: 56
-      views: 218
+      likes: 61
+      views: 255
       comments: !c |-
         G1ABACwObLrhQ4MNFWKPvHwuLtj4f56TjfADDXQw11GBd07EyX2STt2e4zb+xng8FVZGNsp6K0Kl
         KuX7+qcW7f9nbIwqNlWKVBpdIz19ZdPJkSYakDT/AmrtlATizRONLHAb8nv79RiL8Px6/yiHRG4c

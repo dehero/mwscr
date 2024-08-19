@@ -4,7 +4,39 @@
 
 # Posted in 2024
 
-`174 items`
+`175 items`
+
+## <span id="2024-08-19-cosy-bay">Cosy Bay</span>
+
+`RU` Уютный залив
+
+<a href="https://instagram.com/p/Bf3vTyAjmsg/" title="2018-03-03-cosy-bay"><img alt="store:/shots/2018-03-03-cosy-bay.png" src="../../assets/previews/shots/2018-03-03-cosy-bay.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-19-cosy-bay&postLocation=)</code> `🚀 OpenMW` `pastoral`
+
+```
+2024-08-19-cosy-bay
+```
+
+> `2018-03-03-cosy-bay`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bf3vTyAjmsg/)       | 2018-03-03 |       |    80 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_635)  | 2018-03-03 |   200 |    19 |       138 |  13.77 |
+| [`ig`](https://instagram.com/p/C-3H8E9pYOC/)       | 2024-08-19 |       |       |      1455 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1698) | 2024-08-19 |       |       |       934 |        |
+| [`tg`](https://t.me/mwscr/506)                     | 2024-08-19 |       |       |       534 |        |
+|                                                    |            |   200 |    99 |      2923 |        |
+
+#### Comments
+
+- `ig` <ins title="2018-03-03-18-35-20">tommytoja</ins> Daily reminder that what you are doing is great, and we highly appreciate it! Great work.
+- `vk` <ins title="2018-03-03-19-21-35">kydinov91</ins> 👍🏻👍🏻👍🏻
 
 ## <span id="2024-08-18-hlaalu-council-manor">Hlaalu Council Manor</span>
 
@@ -28,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQCjzxqF32Q/)       | 2017-02-03 |       |    33 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_115)  | 2017-02-03 |   137 |     8 |        22 |      8 |
-| [`ig`](https://instagram.com/p/C-0i7seJzEX/)       | 2024-08-18 |   307 |    88 |      1455 |   6.05 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1697) | 2024-08-18 |   148 |    32 |       934 |   3.43 |
+| [`ig`](https://instagram.com/p/C-0i7seJzEX/)       | 2024-08-18 |   311 |    88 |      1455 |   6.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1697) | 2024-08-18 |   153 |    32 |       934 |   3.43 |
 | [`tg`](https://t.me/mwscr/505)                     | 2024-08-18 |   159 |    51 |       529 |   9.64 |
-|                                                    |            |   751 |   212 |      2918 |   6.78 |
+|                                                    |            |   760 |   212 |      2918 |   6.78 |
 
 ## <span id="2024-08-17-suran-house-of-pawnbroker">Suran, House of Pawnbroker</span>
 
@@ -88,10 +120,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_979)  | 2018-10-12 |   524 |    46 |       255 |  18.04 |
 | [`tg`](https://t.me/mwscr/76)                      | 2018-10-12 |   220 |     4 |           |        |
 | [`ig`](https://instagram.com/p/Bo3QUg6hyFQ/)       | 2018-10-13 |       |   131 |           |        |
-| [`ig`](https://instagram.com/p/C-vZmm-zwsc/)       | 2024-08-16 |   395 |   133 |      1440 |   9.24 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1693) | 2024-08-16 |   170 |    34 |       933 |   3.64 |
-| [`tg`](https://t.me/mwscr/503)                     | 2024-08-16 |   218 |    56 |       527 |  10.63 |
-|                                                    |            |  1527 |   404 |      2900 |  10.39 |
+| [`ig`](https://instagram.com/p/C-vZmm-zwsc/)       | 2024-08-16 |   423 |   138 |      1440 |   9.58 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1693) | 2024-08-16 |   201 |    39 |       933 |   4.18 |
+| [`tg`](https://t.me/mwscr/503)                     | 2024-08-16 |   255 |    61 |       527 |  11.57 |
+|                                                    |            |  1623 |   419 |      2900 |  10.84 |
 
 #### Comments
 
