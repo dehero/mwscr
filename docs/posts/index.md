@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`175 items`
+`176 items`
+
+## <span id="2024-08-20-sunset-at-the-crossroads">Sunset at the Crossroads</span>
+
+`RU` Закат на распутье
+
+<a href="https://instagram.com/p/BPeaxN-lXJM/" title="2017-01-20-sunset-at-the-crossroads"><img alt="store:/shots/2017-01-20-sunset-at-the-crossroads.png" src="../../assets/previews/shots/2017-01-20-sunset-at-the-crossroads.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` `📍 Seyda Neen` `🚀 OpenMW` `road` `sunset`
+
+```
+2024-08-20-sunset-at-the-crossroads
+```
+
+> `2017-01-20-sunset-at-the-crossroads`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BPeaxN-lXJM/)       | 2017-01-20 |       |    30 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_68)   | 2017-01-20 |   146 |     5 |         4 |      5 |
+| [`ig`](https://instagram.com/p/C-5sy8GvaOy/)       | 2024-08-20 |       |       |      1457 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1699) | 2024-08-20 |       |       |       936 |        |
+| [`tg`](https://t.me/mwscr/507)                     | 2024-08-20 |       |       |       534 |        |
+|                                                    |            |   146 |    35 |      2927 |        |
 
 ## <span id="2024-08-19-cosy-bay">Cosy Bay</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bf3vTyAjmsg/)       | 2018-03-03 |       |    80 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_635)  | 2018-03-03 |   200 |    19 |       138 |  13.77 |
-| [`ig`](https://instagram.com/p/C-3H8E9pYOC/)       | 2024-08-19 |   359 |    83 |      1455 |    5.7 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1698) | 2024-08-19 |   173 |    27 |       934 |   2.89 |
-| [`tg`](https://t.me/mwscr/506)                     | 2024-08-19 |   153 |    50 |       534 |   9.36 |
-|                                                    |            |   885 |   259 |      2923 |   7.93 |
+| [`ig`](https://instagram.com/p/C-3H8E9pYOC/)       | 2024-08-19 |   365 |    83 |      1455 |    5.7 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1698) | 2024-08-19 |   176 |    27 |       934 |   2.89 |
+| [`tg`](https://t.me/mwscr/506)                     | 2024-08-19 |   154 |    50 |       534 |   9.36 |
+|                                                    |            |   895 |   259 |      2923 |   7.93 |
 
 #### Comments
 
@@ -91,10 +118,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTvMA-vjmOh/)       | 2017-05-06 |       |    62 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_281)  | 2017-05-06 |   100 |     9 |        55 |      9 |
-| [`ig`](https://instagram.com/p/C-x-RYtziCJ/)       | 2024-08-17 |   324 |    82 |      1441 |   5.69 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1695) | 2024-08-17 |   175 |    28 |       934 |      3 |
-| [`tg`](https://t.me/mwscr/504)                     | 2024-08-17 |   238 |    52 |       527 |   9.87 |
-|                                                    |            |   837 |   233 |      2902 |   6.89 |
+| [`ig`](https://instagram.com/p/C-x-RYtziCJ/)       | 2024-08-17 |   336 |    83 |      1441 |   5.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1695) | 2024-08-17 |   193 |    29 |       934 |    3.1 |
+| [`tg`](https://t.me/mwscr/504)                     | 2024-08-17 |   261 |    55 |       527 |  10.44 |
+|                                                    |            |   890 |   238 |      2902 |   7.08 |
 
 #### Comments
 
@@ -124,10 +151,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_979)  | 2018-10-12 |   524 |    46 |       255 |  18.04 |
 | [`tg`](https://t.me/mwscr/76)                      | 2018-10-12 |   220 |     4 |           |        |
 | [`ig`](https://instagram.com/p/Bo3QUg6hyFQ/)       | 2018-10-13 |       |   131 |           |        |
-| [`ig`](https://instagram.com/p/C-vZmm-zwsc/)       | 2024-08-16 |   423 |   138 |      1440 |   9.58 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1693) | 2024-08-16 |   201 |    39 |       933 |   4.18 |
-| [`tg`](https://t.me/mwscr/503)                     | 2024-08-16 |   255 |    61 |       527 |  11.57 |
-|                                                    |            |  1623 |   419 |      2900 |  10.84 |
+| [`ig`](https://instagram.com/p/C-vZmm-zwsc/)       | 2024-08-16 |   438 |   141 |      1440 |   9.79 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1693) | 2024-08-16 |   213 |    41 |       933 |   4.39 |
+| [`tg`](https://t.me/mwscr/503)                     | 2024-08-16 |   290 |    63 |       527 |  11.95 |
+|                                                    |            |  1685 |   426 |      2900 |  11.04 |
 
 #### Comments
 

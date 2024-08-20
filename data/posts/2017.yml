@@ -571,6 +571,19 @@
       followers: 4
       likes: 5
       views: 146
+    - service: ig
+      id: C-5sy8GvaOy
+      mediaId: '18050874106684825'
+      published: 2024-08-20-18-20-08
+      followers: 1457
+    - service: vk
+      id: 1699
+      published: 2024-08-20-18-20-17
+      followers: 936
+    - service: tg
+      id: 507
+      published: 2024-08-20-18-20-26
+      followers: 534
 2017-01-21-building-akulakhan:
   title: Building Akulakhan
   titleRu: Строительство Акулахана
@@ -4154,25 +4167,25 @@
       id: C-x-RYtziCJ
       mediaId: '18132369421360568'
       published: 2024-08-17-18-18-54
-      updated: 2024-08-19-17-14-34
+      updated: 2024-08-20-18-19-48
       followers: 1441
-      likes: 82
-      views: 324
+      likes: 83
+      views: 336
     - service: vk
       id: 1695
       published: 2024-08-17-18-19-02
-      updated: 2024-08-19-17-14-35
+      updated: 2024-08-20-18-19-50
       followers: 934
-      likes: 28
-      views: 175
+      likes: 29
+      views: 193
       reposts: 1
     - service: tg
       id: 504
       published: 2024-08-17-18-19-11
-      updated: 2024-08-19-17-14-36
+      updated: 2024-08-20-18-19-50
       followers: 527
-      likes: 52
-      views: 238
+      likes: 55
+      views: 261
       comments: !c |-
         G5kAGKyOt6Fh2DII9SraGD9X/MgjVPrf33zCH3gV4CCaONb5A6mtc51HiSdUhy6Lw0sQm6m2eEF7
         10hP2eKS5i0PNuCAvQgHGxBmPLvAIdUUWLSgYygr1ZEd4Y7zHD3ybT007Y+2bxgCxB5X7rrk7kIe
