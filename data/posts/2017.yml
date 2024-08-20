@@ -226,7 +226,7 @@
     - service: vk
       id: 56
       published: 2017-01-22
-      updated: 2024-08-13-10-16-37
+      updated: 2024-08-20-11-14-07
       likes: 5
       views: 72
     - service: ig
@@ -1062,24 +1062,24 @@
       id: C-0i7seJzEX
       mediaId: '17879227356107377'
       published: 2024-08-18-18-17-44
-      updated: 2024-08-20-10-16-07
+      updated: 2024-08-20-11-14-04
       followers: 1455
       likes: 98
-      views: 364
+      views: 365
       comments: !c |-
         ixyAkZPLQnkWvtoMgACoYmVyc2thdGXZJFRoZSBjaXR5IEknZCBsaWtlIHRvIGxpdmUgaW4g8J+l
         suKdpAM=
     - service: vk
       id: 1697
       published: 2024-08-18-18-17-50
-      updated: 2024-08-20-10-16-08
+      updated: 2024-08-20-11-14-03
       followers: 934
       likes: 32
-      views: 166
+      views: 168
     - service: tg
       id: 505
       published: 2024-08-18-18-17-57
-      updated: 2024-08-20-10-16-09
+      updated: 2024-08-20-11-14-04
       followers: 529
       likes: 53
       views: 198
