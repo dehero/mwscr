@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.11.3](https://github.com/dehero/mwscr/compare/v1.11.2...v1.11.3) (2024-08-21)
+
+### Bug Fixes
+
+- count post rating as likes to followers ratio starting from 50 followers
+  ([0263356](https://github.com/dehero/mwscr/commit/026335683615fbf66159675a0b0c33c050777466))
+
 ## [1.11.2](https://github.com/dehero/mwscr/compare/v1.11.1...v1.11.2) (2024-08-16)
 
 ### Bug Fixes
