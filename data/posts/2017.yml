@@ -158,7 +158,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2024-08-14-06-28-41
+      updated: 2024-08-21-06-56-10
       followers: 894
       likes: 47
       views: 364
@@ -167,10 +167,10 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2024-08-14-06-28-40
+      updated: 2024-08-21-06-56-07
       followers: 337
       likes: 91
-      views: 599
+      views: 602
       comments: !c |-
         ixyAkZTLQnjexabnAACucXVpbnR1c19mYWJpdXOtV2UncmUgc28gYmFja5PLQnjexcSwAAClYW5z
         aXOhLgM=
@@ -595,25 +595,25 @@
       id: C-5sy8GvaOy
       mediaId: '18050874106684825'
       published: 2024-08-20-18-20-08
-      updated: 2024-08-21-06-20-13
+      updated: 2024-08-21-06-56-01
       followers: 1457
       likes: 62
-      views: 185
+      views: 189
     - service: vk
       id: 1699
       published: 2024-08-20-18-20-17
-      updated: 2024-08-21-06-20-14
+      updated: 2024-08-21-06-56-02
       followers: 936
-      likes: 23
-      views: 99
+      likes: 24
+      views: 103
       reposts: 2
     - service: tg
       id: 507
       published: 2024-08-20-18-20-26
-      updated: 2024-08-21-06-20-14
+      updated: 2024-08-21-06-56-02
       followers: 534
-      likes: 36
-      views: 123
+      likes: 37
+      views: 126
 2017-01-21-building-akulakhan:
   title: Building Akulakhan
   titleRu: Строительство Акулахана
@@ -907,8 +907,7 @@
 2017-01-28-2-meditative-night-in-ahemmusa-camp:
   title: Meditative Night in Ahemmusa Camp
   titleRu: Ночь медитации в лагере Ахеммуза
-  description:
-    Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
+  description: Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
   descriptionRu: Камера была закреплена дождливым вечером над юртой ашхана и оставалась там до утра.
   location: Ahemmusa Camp
   content: store:/videos/2017-01-28-2-meditative-night-in-ahemmusa-camp.mp4
@@ -9465,7 +9464,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2024-08-14-06-28-37
+      updated: 2024-08-21-06-56-07
       followers: 904
       likes: 44
       views: 293
@@ -9473,10 +9472,10 @@
     - service: tg
       id: 358
       published: 2024-03-26-18-10-55
-      updated: 2024-08-14-06-28-37
+      updated: 2024-08-21-06-56-05
       followers: 352
       likes: 68
-      views: 516
+      views: 523
       comments: !c |-
         G9kBAIzDdOMtD8uLoNCb/uY3rEvgXRaFcVs8ojGmRePvATimyLdobakOeKISVRqhnL/uvmhIEaJX
         IlM39fHx8YF4jiaXdWGcZZLo0n0eQm8T8ZGeji5LY4lh62Ne3NjmP1g4BM1EkzH5Ymsiv7nDKENw
@@ -10329,18 +10328,18 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2024-08-14-06-28-40
+      updated: 2024-08-21-06-56-09
       followers: 895
       likes: 35
-      views: 282
+      views: 283
       reposts: 2
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2024-08-14-06-28-39
+      updated: 2024-08-21-06-56-07
       followers: 343
-      likes: 68
-      views: 519
+      likes: 69
+      views: 520
       comments: !c ixOAkZPLQnjhAF9lAACucXVpbnR1c19mYWJpdXOt8J+Pg+KAjeKZgu+4jwM=
 2017-11-16-cozy-workplace-in-the-basement:
   title: Cozy Workplace in the Basement
