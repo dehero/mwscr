@@ -340,18 +340,18 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-08-14-20-15-32
+      updated: 2024-08-21-20-15-40
       followers: 927
-      likes: 45
-      views: 279
+      likes: 47
+      views: 293
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-08-14-20-15-32
+      updated: 2024-08-21-20-15-39
       followers: 504
-      likes: 70
-      views: 428
+      likes: 72
+      views: 545
       comments: !c |-
         CzmAkpPLQnkTD+n1gAClVG9kb3LZNFdhaXQsIGRvIHRoZXkgcmVhbGx5IGRhbmNlIGxpa2UgdGhh
         dCBpbiB0aGUgdmFuaWxsYT+Ty0J5EuFjUIAApUFkZWxlu2hlIGRhbmNlcyB0byB0aGUgZGFnb3Ro
@@ -6046,24 +6046,24 @@
       id: C-8RjrEOZBz
       mediaId: '17871768504158345'
       published: 2024-08-21-18-19-50
-      updated: 2024-08-21-19-13-20
+      updated: 2024-08-21-20-15-39
       followers: 1459
-      likes: 29
-      views: 58
+      likes: 33
+      views: 88
     - service: vk
       id: 1700
       published: 2024-08-21-18-19-57
-      updated: 2024-08-21-19-13-21
+      updated: 2024-08-21-20-15-38
       followers: 937
-      likes: 12
-      views: 42
+      likes: 17
+      views: 61
     - service: tg
       id: 508
       published: 2024-08-21-18-20-03
-      updated: 2024-08-21-19-13-21
+      updated: 2024-08-21-20-15-38
       followers: 538
-      likes: 23
-      views: 63
+      likes: 29
+      views: 83
 2018-07-08-statues-of-gods:
   title: Statues of Gods
   titleRu: Статуи богов
