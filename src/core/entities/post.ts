@@ -171,7 +171,7 @@ export function getServicePostRating(info?: ServicePost<unknown>) {
     return 0;
   }
 
-  return info.followers >= 100 ? (info.likes / info.followers) * 100 : info.likes;
+  return info.followers >= 50 ? (info.likes / info.followers) * 100 : info.likes;
 }
 
 export function isPostEqual(a: Post, b: Partial<Post>): boolean {
