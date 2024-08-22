@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  box-sizing: border-box;
+  overflow: auto;
+  min-height: 240px;
+  height: 240px;
+  padding: 2px;
+}
+
+.virtualItem {
+  height: 100%;
+  outline: none;
+  position: relative;
+}
+
+.item {
+  min-height: 6px;
+  position: absolute;
+  box-sizing: border-box;
+  background: linear-gradient(to right, var(--color-loader-top), var(--color-loader-bottom));
+  left: 1px;
+  right: 1px;
+  bottom: 0;
+}
