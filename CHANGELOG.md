@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.12.0](https://github.com/dehero/mwscr/compare/v1.11.3...v1.12.0) (2024-08-22)
+
+### Features
+
+- add followers and engagement diagrams and recent most engaging post to home page
+  ([c43a22e](https://github.com/dehero/mwscr/commit/c43a22e46168fc0335605c75a1a39bff6326d049))
+- implement basic Diagram component
+  ([070241b](https://github.com/dehero/mwscr/commit/070241b30e22955bf54dde0b62d8e9ec2cd0a11d))
+- reconstruct reactions and content scores for posts and users
+  ([2629140](https://github.com/dehero/mwscr/commit/2629140de4cb43fff02189f0280a84c930b161db))
+
 ## [1.11.3](https://github.com/dehero/mwscr/compare/v1.11.2...v1.11.3) (2024-08-21)
 
 ### Bug Fixes
