@@ -171,7 +171,7 @@ export const PostEditingDialog: Component<PostEditingDialogProps> = (props) => {
           <Label label="Editor's Mark">
             <Select
               name="mark"
-              options={[EMPTY_OPTION, ...POST_MARKS.map((value) => ({ value }))]}
+              options={[EMPTY_OPTION, ...POST_MARKS.map(({ id }) => ({ value: id }))]}
               value={post().mark}
               onChange={setPostMark}
             />

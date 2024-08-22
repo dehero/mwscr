@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { type Component, For, Show } from 'solid-js';
-import type { Post } from '../../../core/entities/post.js';
-import { getServicePostRating } from '../../../core/entities/post.js';
+import { getPublicationEngagement } from '../../../core/entities/post.js';
+import type { Publication } from '../../../core/entities/publication.js';
 import { postingServices } from '../../../core/services/index.js';
 import { formatDate } from '../../../core/utils/date-utils.js';
 import { Divider } from '../Divider/Divider.js';
@@ -11,18 +11,18 @@ import styles from './PostPublications.module.css';
 
 export interface PostPublicationsProps {
   class?: string;
-  post: Post;
+  publications: Publication<unknown>[];
 }
 
 export const PostPublications: Component<PostPublicationsProps> = (props) => {
   return (
     <Frame variant="thin" class={clsx(styles.container, props.class)}>
       <For
-        each={[...(props.post.posts ?? [])].sort((a, b) => b.published.getTime() - a.published.getTime())}
+        each={[...props.publications].sort((a, b) => b.published.getTime() - a.published.getTime())}
         fallback={<span class={styles.fallback}>No publications yet</span>}
       >
-        {(servicePost, index) => {
-          const service = postingServices.find((s) => s.id === servicePost.service);
+        {(publication, index) => {
+          const service = postingServices.find((s) => s.id === publication.service);
 
           return (
             <>
@@ -32,32 +32,32 @@ export const PostPublications: Component<PostPublicationsProps> = (props) => {
               <Table
                 class={styles.table}
                 label={service?.name}
-                value={formatDate(servicePost.published)}
-                link={service?.getServicePostUrl(servicePost)}
+                value={formatDate(publication.published)}
+                link={service?.getPublicationUrl(publication)}
                 rows={[
                   {
                     label: 'Likes',
-                    value: servicePost.likes,
+                    value: publication.likes,
                   },
                   {
                     label: 'Views',
-                    value: servicePost.views,
+                    value: publication.views,
                   },
                   {
                     label: 'Reposts',
-                    value: servicePost.reposts,
+                    value: publication.reposts,
                   },
                   {
                     label: 'Followers',
-                    value: servicePost.followers,
+                    value: publication.followers,
                   },
                   {
-                    label: 'Rating',
-                    value: Number(getServicePostRating(servicePost).toFixed(2)),
+                    label: 'Engagement',
+                    value: Number(getPublicationEngagement(publication).toFixed(2)),
                   },
                   {
                     label: 'Comments',
-                    value: servicePost.comments?.length,
+                    value: publication.comments?.length,
                   },
                 ]}
               />

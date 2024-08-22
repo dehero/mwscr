@@ -7,9 +7,9 @@ import type { WallGetCommentExtendedResponse } from 'vk-io/lib/api/schemas/respo
 import type { Post, PostEntry } from '../../core/entities/post.js';
 import { getPostFirstPublished, getPostTypesFromContent, POST_TYPES } from '../../core/entities/post.js';
 import { createPostTags } from '../../core/entities/post-tag.js';
+import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
-import type { ServicePost, ServicePostComment } from '../../core/entities/service-post.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import { site } from '../../core/services/site.js';
 import type { VKPost } from '../../core/services/vk.js';
@@ -154,9 +154,9 @@ export class VKManager extends VKService implements PostingServiceManager {
     });
     const followers = await this.grabFollowerCount();
 
-    const servicePost: VKPost = { service: this.id, id: result.post_id, followers, published: new Date() };
+    const publication: VKPost = { service: this.id, id: result.post_id, followers, published: new Date() };
 
-    post.posts = [...(post.posts ?? []), servicePost];
+    post.posts = [...(post.posts ?? []), publication];
   }
 
   private getCommentInfo(message: WallWallComment, result: WallGetCommentExtendedResponse) {
@@ -178,9 +178,9 @@ export class VKManager extends VKService implements PostingServiceManager {
     return { datetime, author, text };
   }
 
-  async grabPostComments(postId: number): Promise<ServicePostComment[] | undefined> {
+  async grabPostComments(postId: number): Promise<PublicationComment[] | undefined> {
     const { vk } = await this.connect();
-    const comments: ServicePostComment[] = [];
+    const comments: PublicationComment[] = [];
 
     const result = (await vk.api.wall.getComments({
       owner_id: VK_GROUP_ID,
@@ -198,7 +198,7 @@ export class VKManager extends VKService implements PostingServiceManager {
         continue;
       }
 
-      const replies: ServicePostComment[] = [];
+      const replies: PublicationComment[] = [];
 
       for (const childItem of item.thread.items) {
         const info = this.getCommentInfo(childItem, result);
@@ -234,18 +234,18 @@ export class VKManager extends VKService implements PostingServiceManager {
     };
   }
 
-  async updateServicePost(servicePost: ServicePost<unknown>) {
-    if (!this.isPost(servicePost)) {
+  async updatePublication(publication: Publication<unknown>) {
+    if (!this.isPost(publication)) {
       return;
     }
 
-    const { likes, views, reposts, comments } = await this.grabPostInfo(servicePost.id);
+    const { likes, views, reposts, comments } = await this.grabPostInfo(publication.id);
 
-    servicePost.likes = likes;
-    servicePost.views = views;
-    servicePost.reposts = reposts;
-    servicePost.comments = comments;
-    servicePost.updated = new Date();
+    publication.likes = likes;
+    publication.views = views;
+    publication.reposts = reposts;
+    publication.comments = comments;
+    publication.updated = new Date();
   }
 
   async grabFollowerCount() {
@@ -254,12 +254,12 @@ export class VKManager extends VKService implements PostingServiceManager {
     return (await vk.api.groups.getMembers({ group_id: VK_GROUP_NAME, count: 0 })).count;
   }
 
-  async grabPosts(afterServicePost?: ServicePost<unknown>) {
-    if (afterServicePost && !this.isPost(afterServicePost)) {
+  async grabPosts(afterPublication?: Publication<unknown>) {
+    if (afterPublication && !this.isPost(afterPublication)) {
       throw new Error(`Invalid ${this.name} post`);
     }
 
-    const afterId = afterServicePost?.id;
+    const afterId = afterPublication?.id;
     const { vk } = await this.connect();
     const count = 500;
     let offset = 0;

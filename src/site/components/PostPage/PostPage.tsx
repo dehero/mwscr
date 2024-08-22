@@ -5,17 +5,18 @@ import { type Component, createSignal, Match, onMount, Show, Switch } from 'soli
 import { useData } from 'vike-solid/useData';
 import {
   getPostDateById,
+  getPostEntryEngagement,
+  getPostEntryFollowers,
+  getPostEntryLikes,
+  getPostEntryPublications,
+  getPostEntryViews,
+  getPostRating,
   getPostTypeAspectRatio,
   type Post,
   POST_TYPES,
   POST_VIOLATIONS,
 } from '../../../core/entities/post.js';
-import {
-  getPostCommentCount,
-  getPostRating,
-  getPostTotalLikes,
-  getPostTotalViews,
-} from '../../../core/entities/post.js';
+import { getPostCommentCount } from '../../../core/entities/post.js';
 import { isPublishablePost, isTrashItem } from '../../../core/entities/post-variation.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import type { UserEntry } from '../../../core/entities/user.js';
@@ -87,7 +88,7 @@ export const PostPage: Component = () => {
   const selectedContentPublicUrl = () => contentPublicUrls()[selectedContentIndex()];
 
   const youtubePost = () => data.post?.posts?.find((post) => post.service === 'yt');
-  const youtubeUrl = () => (youtubePost() ? youtube.getServicePostUrl(youtubePost()!, true) : undefined);
+  const youtubeUrl = () => (youtubePost() ? youtube.getPublicationUrl(youtubePost()!, true) : undefined);
 
   const published = () => Boolean(data.post?.posts);
   const withContent = () => content().length > 0;
@@ -344,27 +345,7 @@ export const PostPage: Component = () => {
                   },
                   { label: 'Engine', value: post().engine },
                   { label: 'Addon', value: post().addon },
-                  {
-                    label: "Editor's Mark",
-                    value: post().mark
-                      ? () => (
-                          <>
-                            <Icon
-                              color="combat"
-                              size="small"
-                              variant="flat"
-                              class={clsx(styles.icon, styles.tableIcon)}
-                            >
-                              {post().mark?.[0]}
-                            </Icon>
-                            {post().mark?.[1]}
-                          </>
-                        )
-                      : undefined,
-                    link: post().mark
-                      ? postsRoute.createUrl({ managerName: 'posts', mark: post().mark, original: 'true' })
-                      : undefined,
-                  },
+
                   {
                     label: 'Violation',
                     value: post().violation
@@ -420,24 +401,64 @@ export const PostPage: Component = () => {
                 )}
               </Show>
 
+              <Show when={post().posts || post().mark}>
+                <Divider />
+
+                <Table
+                  class={styles.table}
+                  label="Content Score"
+                  rows={[
+                    {
+                      label: "Editor's Mark",
+                      value: post().mark
+                        ? () => (
+                            <>
+                              <Icon
+                                color="combat"
+                                size="small"
+                                variant="flat"
+                                class={clsx(styles.icon, styles.tableIcon)}
+                              >
+                                {post().mark?.[0]}
+                              </Icon>
+                              {post().mark?.[1]}
+                            </>
+                          )
+                        : undefined,
+                      link: post().mark
+                        ? postsRoute.createUrl({ managerName: 'posts', mark: post().mark, original: 'true' })
+                        : undefined,
+                    },
+                    {
+                      label: 'Rating',
+                      value: Number(getPostRating(post()).toFixed(2)),
+                    },
+                  ]}
+                />
+              </Show>
+
               <Show when={post().posts}>
                 <Divider />
 
                 <Table
                   class={styles.table}
-                  label="Total Reactions"
+                  label="Reactions"
                   rows={[
                     {
                       label: 'Likes',
-                      value: getPostTotalLikes(post()),
+                      value: getPostEntryLikes([id(), post()]),
                     },
                     {
                       label: 'Views',
-                      value: getPostTotalViews(post()),
+                      value: getPostEntryViews([id(), post()]),
                     },
                     {
-                      label: 'Rating',
-                      value: Number(getPostRating(post()).toFixed(2)),
+                      label: 'Followers',
+                      value: getPostEntryFollowers([id(), post()]),
+                    },
+                    {
+                      label: 'Engagement',
+                      value: Number(getPostEntryEngagement([id(), post()]).toFixed(2)),
                     },
                     {
                       label: 'Comments',
@@ -465,7 +486,7 @@ export const PostPage: Component = () => {
             <Show when={published()}>
               <PostComments post={post()} class={styles.comments} />
 
-              <PostPublications post={post()} class={styles.publications} />
+              <PostPublications publications={getPostEntryPublications([id(), post()])} class={styles.publications} />
             </Show>
 
             <PostEditingDialog

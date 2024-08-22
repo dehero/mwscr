@@ -13,11 +13,11 @@ import type {
 import {
   getAllPostCommentsSorted,
   getPostEntriesFromSource,
-  getPostMaxFollowers,
+  getPostEntryFollowers,
+  getPostEntryLikes,
+  getPostEntryViews,
   getPostRating,
-  getPostTotalLikes,
-  getPostTotalViews,
-  getServicePostRating,
+  getPublicationEngagement,
   POST_VIOLATIONS,
 } from '../../core/entities/post.js';
 import { isTrashItem } from '../../core/entities/post-variation.js';
@@ -44,7 +44,7 @@ export interface PostEntriesDoc extends Doc {
   size?: number;
 }
 
-interface RenderedServicePost {
+interface RenderedPublication {
   service?: string;
   published?: string;
   followers?: number;
@@ -100,20 +100,21 @@ export async function renderPostEntriesDoc(options: RenderPostsOptions) {
   return writeFile(filename, data);
 }
 
-function renderPostReactions(post: Post) {
+function renderPostEntryReactions(postEntry: PostEntry) {
   const lines: string[] = [];
+  const [, post] = postEntry;
 
   lines.push(`### Reactions`);
   lines.push('');
 
-  const serviceInfos: RenderedServicePost[] = [
+  const serviceInfos: RenderedPublication[] = [
     ...postingServiceManagers
-      .flatMap((service) => mapServicePost(service, post))
+      .flatMap((service) => mapPublication(service, post))
       .sort((a, b) => a.published?.localeCompare(b.published ?? '') ?? 0),
     {
-      likes: getPostTotalLikes(post),
-      views: getPostTotalViews(post),
-      followers: getPostMaxFollowers(post),
+      likes: getPostEntryLikes(postEntry),
+      views: getPostEntryViews(postEntry),
+      followers: getPostEntryFollowers(postEntry),
       rating: getPostRating(post),
     },
   ];
@@ -125,7 +126,7 @@ function renderPostReactions(post: Post) {
           ? column === 'rating'
             ? Number(row.rating?.toFixed(2))
             : column
-              ? row[column as keyof RenderedServicePost]
+              ? row[column as keyof RenderedPublication]
               : row.link && row.service
                 ? `[\`${esc(row.service)}\`](${esc(row.link)})`
                 : row.service
@@ -149,13 +150,13 @@ function renderPostReactions(post: Post) {
   return lines;
 }
 
-function mapServicePost(service: PostingService, post: Post): RenderedServicePost[] {
+function mapPublication(service: PostingService, post: Post): RenderedPublication[] {
   return (
     post.posts
       ?.filter((info) => info.service === service.id)
       .map((info) => {
-        const link = service.getServicePostUrl(info);
-        const rating = getServicePostRating(info);
+        const link = service.getPublicationUrl(info);
+        const rating = getPublicationEngagement(info);
 
         return { ...info, rating, link, published: dateToString(info.published) };
       }) ?? []
@@ -231,12 +232,12 @@ async function renderPostEntry(postEntry: PostEntry, options: RenderPostsOptions
   const lines: string[] = [];
   const { postActions } = options;
 
-  const firstServicePost = post.posts?.[0];
+  const firstPublication = post.posts?.[0];
   let href;
 
-  if (firstServicePost) {
-    const firstService = postingServiceManagers.find((service) => firstServicePost.service === service.id);
-    href = firstService?.getServicePostUrl(firstServicePost);
+  if (firstPublication) {
+    const firstService = postingServiceManagers.find((service) => firstPublication.service === service.id);
+    href = firstService?.getPublicationUrl(firstPublication);
   }
 
   lines.push(`## <span id="${esc(id)}">${esc(post.title || id)}</span>`);
@@ -348,7 +349,7 @@ async function renderPostEntry(postEntry: PostEntry, options: RenderPostsOptions
   }
 
   if (post.posts && post.posts.length > 0) {
-    lines.push(...renderPostReactions(post));
+    lines.push(...renderPostEntryReactions(postEntry));
   }
 
   return lines;

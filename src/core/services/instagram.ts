@@ -1,7 +1,7 @@
 import type { Post } from '../entities/post.js';
+import type { Publication } from '../entities/publication.js';
 import { checkRules } from '../entities/rule.js';
 import type { PostingService } from '../entities/service.js';
-import type { ServicePost } from '../entities/service-post.js';
 import { needCertainType, needContent, needTitle } from '../rules/post-rules.js';
 
 export interface InstagramSuitablePost extends Post {
@@ -10,25 +10,25 @@ export interface InstagramSuitablePost extends Post {
   type: 'shot';
 }
 
-export type InstagramPost = ServicePost<string>;
+export type InstagramPost = Publication<string>;
 
 export class Instagram implements PostingService<InstagramPost> {
   readonly id = 'ig';
   readonly name = 'Instagram';
 
-  isPost(servicePost: ServicePost<unknown>): servicePost is InstagramPost {
-    return servicePost.service === this.id && typeof servicePost.id === 'string';
+  isPost(publication: Publication<unknown>): publication is InstagramPost {
+    return publication.service === this.id && typeof publication.id === 'string';
   }
 
   canPublishPost(post: Post, errors: string[] = []): post is InstagramSuitablePost {
     return checkRules([needCertainType('shot', 'wallpaper', 'wallpaper-v'), needTitle, needContent], post, errors);
   }
 
-  getServicePostUrl(servicePost: ServicePost<unknown>) {
-    if (!this.isPost(servicePost)) {
+  getPublicationUrl(publication: Publication<unknown>) {
+    if (!this.isPost(publication)) {
       return;
     }
-    return `https://instagram.com/p/${servicePost.id}/`;
+    return `https://instagram.com/p/${publication.id}/`;
   }
 
   getUserProfileUrl(profileId: string) {

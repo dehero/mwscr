@@ -74,7 +74,7 @@ export async function resolve(issue: GithubIssue) {
   post.tags = extractIssueFieldValue(postTags, issue.body)?.split(/\s+/).filter(Boolean);
   post.engine = POST_ENGINES.find((engine) => engine === engineStr);
   post.addon = POST_ADDONS.find((addon) => addon === addonStr);
-  post.mark = POST_MARKS.find((mark) => mark === markStr);
+  post.mark = POST_MARKS.find((info) => info.id === markStr)?.id;
   post.violation = [...Object.entries(POST_VIOLATIONS)].find(
     ([, violation]) => violation.title === violationStr,
   )?.[0] as PostViolation;

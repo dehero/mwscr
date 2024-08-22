@@ -1,12 +1,12 @@
 import type { SortDirection } from '../utils/common-types.js';
 import { arrayFromAsync, asArray } from '../utils/common-utils.js';
-import { dateToString, stringToDate } from '../utils/date-utils.js';
+import { dateToString, isDateInRange, stringToDate } from '../utils/date-utils.js';
 import { areNestedLocations as areRelatedLocations } from './location.js';
 import type { MediaAspectRatio } from './media.js';
+import type { Publication, PublicationComment } from './publication.js';
+import { isPublicationEqual, mergePublications } from './publication.js';
 import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, resourceIsImage, resourceIsVideo } from './resource.js';
 import { checkRules, needObject, needProperty } from './rule.js';
-import type { ServicePost, ServicePostComment } from './service-post.js';
-import { isServicePostEqual, mergeServicePosts } from './service-post.js';
 import { USER_DEFAULT_AUTHOR } from './user.js';
 
 interface PostTypeInfo {
@@ -14,6 +14,11 @@ interface PostTypeInfo {
   title: string;
   titleRu: string;
   letter: string;
+}
+
+interface PostMarkInfo {
+  id: string;
+  score: number;
 }
 
 export const POST_TYPES = [
@@ -28,7 +33,18 @@ export const POST_TYPES = [
 
 export const POST_ADDONS = ['Tribunal', 'Bloodmoon'] as const;
 export const POST_ENGINES = ['OpenMW', 'Vanilla'] as const;
-export const POST_MARKS = ['A1', 'A2', 'B1', 'B2', 'C', 'D', 'E', 'F'] as const;
+export const POST_MARKS = [
+  { id: 'A1', score: 5 },
+  { id: 'A2', score: 4 },
+  { id: 'B1', score: 3 },
+  { id: 'B2', score: 2 },
+  { id: 'C', score: 1 },
+  { id: 'D', score: -2 },
+  { id: 'E', score: 0 },
+  { id: 'F', score: -1 },
+] as const satisfies PostMarkInfo[];
+
+export const POST_RECENTLY_PUBLISHED_DAYS = 31;
 
 export const POST_VIOLATIONS = {
   'inappropriate-content': { title: 'Inappropriate content', letter: 'C' },
@@ -45,7 +61,7 @@ export const POST_VIOLATIONS = {
 export type PostType = (typeof POST_TYPES)[number]['id'];
 export type PostAddon = (typeof POST_ADDONS)[number];
 export type PostEngine = (typeof POST_ENGINES)[number];
-export type PostMark = (typeof POST_MARKS)[number];
+export type PostMark = (typeof POST_MARKS)[number]['id'];
 export type PostViolation = keyof typeof POST_VIOLATIONS;
 export type PostAuthor = string | string[];
 export type PostContent = string | string[];
@@ -72,7 +88,7 @@ export interface Post {
   request?: PostRequest;
   mark?: PostMark;
   violation?: PostViolation;
-  posts?: ServicePost<unknown>[];
+  posts?: Publication<unknown>[];
 }
 
 export type PostEntry<TPost extends Post = Post> = [id: string, post: TPost, refId?: string];
@@ -82,7 +98,7 @@ export type PostFilter<TPost extends Post, TFilteredPost extends TPost> = (post:
 
 export type PostSource<TPost extends Post> = () => AsyncGenerator<PostEntry<TPost>>;
 
-export interface PostComment extends ServicePostComment {
+export interface PostComment extends PublicationComment {
   service: string;
 }
 
@@ -124,7 +140,8 @@ export function getPostMaxFollowers(post: Post) {
 }
 
 export function getPostRating(post: Post) {
-  const ratings: number[] = post.posts?.map((post) => getServicePostRating(post)).filter((rating) => rating > 0) ?? [];
+  const ratings: number[] =
+    post.posts?.map((post) => getPublicationEngagement(post)).filter((rating) => rating > 0) ?? [];
   // Need at least 2 posting service ratings to calculate average rating
   if (ratings.length < 2) {
     return 0;
@@ -137,10 +154,10 @@ export function getAllPostCommentsSorted(post: Post): PostComment[] {
   return (
     post.posts
       ?.flatMap(
-        (servicePost) =>
-          servicePost.comments?.map((comment) => ({
+        (publication) =>
+          publication.comments?.map((comment) => ({
             ...comment,
-            service: servicePost.service,
+            service: publication.service,
             replies: [...(comment.replies ?? [])].sort((a, b) => a.datetime.getTime() - b.datetime.getTime()),
           })) ?? [],
       )
@@ -151,8 +168,8 @@ export function getAllPostCommentsSorted(post: Post): PostComment[] {
 export function getPostCommentCount(post: Post) {
   return (
     post.posts?.reduce(
-      (total, servicePost) =>
-        total + (servicePost.comments?.reduce((total, comment) => total + 1 + (comment.replies?.length ?? 0), 0) ?? 0),
+      (total, publication) =>
+        total + (publication.comments?.reduce((total, comment) => total + 1 + (comment.replies?.length ?? 0), 0) ?? 0),
       0,
     ) || 0
   );
@@ -166,12 +183,73 @@ export function getPostLastPublished(post: Pick<Post, 'posts'>) {
   return post.posts ? new Date(Math.max(...post.posts.map((post) => post.published.getTime()))) : undefined;
 }
 
-export function getServicePostRating(info?: ServicePost<unknown>) {
-  if (!info?.likes || !info.followers) {
+export function getPostEntryPublications([id, post]: PostEntry) {
+  const date = getPostDateById(id);
+  if (!date) {
+    return [];
+  }
+
+  const secondDate = new Date(date);
+  secondDate.setDate(secondDate.getDate() + POST_RECENTLY_PUBLISHED_DAYS);
+
+  return post.posts?.filter((post) => isDateInRange(post.published, [date, secondDate], 'date')) ?? [];
+}
+
+export function getPostEntryFollowers(entry: PostEntry) {
+  const serviceFollowers = Object.entries(
+    Object.fromEntries(
+      getPostEntryPublications(entry)
+        .sort((a, b) => (a.followers ?? 0) - (b.followers ?? 0))
+        .map((post) => [post.service, post.followers ?? 0]),
+    ),
+  );
+  if (serviceFollowers.length === 0 || serviceFollowers.some(([, followers]) => !followers)) {
+    return;
+  }
+
+  return serviceFollowers.reduce((acc, [, followers]) => acc + followers, 0);
+}
+
+export function getPostEntryEngagement(entry: PostEntry) {
+  const engagements: number[] = getPostEntryPublications(entry)
+    .map((post) => getPublicationEngagement(post))
+    .filter((engagement) => engagement > 0);
+
+  // Need at least 2 posting service ratings to calculate average rating
+  if (engagements.length < 2) {
     return 0;
   }
 
-  return info.followers >= 50 ? (info.likes / info.followers) * 100 : info.likes;
+  return engagements.reduce((acc, number) => acc + number, 0) / engagements.length;
+}
+
+export function getPostEntryLikes(entry: PostEntry) {
+  return getPostEntryPublications(entry).reduce((acc, publication) => acc + (publication.likes ?? 0), 0);
+}
+
+export function getPostEntryViews(entry: PostEntry) {
+  return getPostEntryPublications(entry).reduce((acc, publication) => acc + (publication.views ?? 0), 0);
+}
+
+export function getPostMarkScore(mark: PostMark) {
+  return POST_MARKS.find((info) => info.id === mark)?.score ?? 0;
+}
+
+export function getPostMarkFromScore(score?: number) {
+  if (!score) {
+    return;
+  }
+  return POST_MARKS.find((info) => info.score === Math.round(score))?.id;
+}
+
+export function getPublicationEngagement(info?: Publication<unknown>) {
+  const reactions = (info?.likes ?? 0) + (info?.reposts ?? 0);
+
+  if (!reactions || !info?.followers) {
+    return 0;
+  }
+
+  return info.followers >= 50 ? (reactions / info.followers) * 100 : reactions;
 }
 
 export function isPostEqual(a: Post, b: Partial<Post>): boolean {
@@ -180,7 +258,7 @@ export function isPostEqual(a: Post, b: Partial<Post>): boolean {
 
   return a.posts && b.posts
     ? b.posts.some(
-        (partialServicePost) => a.posts?.some((servicePost) => isServicePostEqual(servicePost, partialServicePost)),
+        (partialPublication) => a.posts?.some((publication) => isPublicationEqual(publication, partialPublication)),
       )
     : b.type === a.type &&
         date1 instanceof Date &&
@@ -320,7 +398,7 @@ export function mergePostWith(post: Post, withPost: Post) {
   post.request = mergePostMessages(post.request, withPost.request);
   post.mark = post.mark || withPost.mark;
   post.violation = post.violation || withPost.violation;
-  post.posts = mergeServicePosts(post.posts, withPost.posts);
+  post.posts = mergePublications(post.posts, withPost.posts);
 
   return post;
 }
@@ -410,20 +488,28 @@ export function comparePostEntriesByRating(direction: SortDirection): PostEntrie
     : (a, b) => getPostRating(b[1]) - getPostRating(a[1]) || byId(a, b);
 }
 
+export function comparePostEntriesByEngagement(direction: SortDirection): PostEntriesComparator {
+  const byId = comparePostEntriesById(direction);
+
+  return direction === 'asc'
+    ? (a, b) => getPostEntryEngagement(a) - getPostEntryEngagement(b) || byId(a, b)
+    : (a, b) => getPostEntryEngagement(b) - getPostEntryEngagement(a) || byId(a, b);
+}
+
 export function comparePostEntriesByLikes(direction: SortDirection): PostEntriesComparator {
   const byId = comparePostEntriesById(direction);
 
   return direction === 'asc'
-    ? (a, b) => getPostTotalLikes(a[1]) - getPostTotalLikes(b[1]) || byId(a, b)
-    : (a, b) => getPostTotalLikes(b[1]) - getPostTotalLikes(a[1]) || byId(a, b);
+    ? (a, b) => getPostEntryLikes(a) - getPostEntryLikes(b) || byId(a, b)
+    : (a, b) => getPostEntryLikes(b) - getPostEntryLikes(a) || byId(a, b);
 }
 
 export function comparePostEntriesByViews(direction: SortDirection): PostEntriesComparator {
   const byId = comparePostEntriesById(direction);
 
   return direction === 'asc'
-    ? (a, b) => getPostTotalViews(a[1]) - getPostTotalViews(b[1]) || byId(a, b)
-    : (a, b) => getPostTotalViews(b[1]) - getPostTotalViews(a[1]) || byId(a, b);
+    ? (a, b) => getPostEntryViews(a) - getPostEntryViews(b) || byId(a, b)
+    : (a, b) => getPostEntryViews(b) - getPostEntryViews(a) || byId(a, b);
 }
 
 export function comparePostEntriesByMark(direction: SortDirection): PostEntriesComparator {

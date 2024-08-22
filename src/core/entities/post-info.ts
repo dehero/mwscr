@@ -12,7 +12,15 @@ import type {
   PostType,
   PostViolation,
 } from './post.js';
-import { getPostCommentCount, getPostDateById, getPostRating, getPostTotalLikes, getPostTotalViews } from './post.js';
+import {
+  getPostCommentCount,
+  getPostDateById,
+  getPostEntryEngagement,
+  getPostEntryFollowers,
+  getPostEntryLikes,
+  getPostEntryViews,
+  getPostRating,
+} from './post.js';
 import { isPublishablePost, isTrashItem } from './post-variation.js';
 import type { UserEntry } from './user.js';
 import type { UsersManager } from './users-manager.js';
@@ -40,6 +48,8 @@ export interface PostInfo {
   commentCount: number;
   likes: number;
   views: number;
+  followers?: number;
+  engagement: number;
   rating: number;
   managerName: string;
 }
@@ -47,11 +57,12 @@ export interface PostInfo {
 export type PostInfoComparator = (a: PostInfo, b: PostInfo) => number;
 
 export async function createPostInfo(
-  [id, post, refId]: PostEntry,
+  entry: PostEntry,
   locationsReader: LocationsReader,
   usersManager: UsersManager,
   managerName: string,
 ): Promise<PostInfo> {
+  const [id, post, refId] = entry;
   const location = post.location ? await locationsReader.getItem(post.location) : undefined;
   const errors: string[] = [];
 
@@ -79,8 +90,10 @@ export async function createPostInfo(
     published: Boolean(post.posts?.length),
     publishableErrors: errors.length > 0 ? errors : undefined,
     commentCount: getPostCommentCount(post),
-    likes: getPostTotalLikes(post),
-    views: getPostTotalViews(post),
+    likes: getPostEntryLikes(entry),
+    views: getPostEntryViews(entry),
+    followers: getPostEntryFollowers(entry),
+    engagement: Number(getPostEntryEngagement(entry).toFixed(2)),
     rating: Number(getPostRating(post).toFixed(2)),
     managerName,
   });
@@ -104,6 +117,14 @@ export function comparePostInfosByRating(direction: SortDirection): PostInfoComp
   return direction === 'asc'
     ? (a, b) => a.rating - b.rating || byId(a, b)
     : (a, b) => b.rating - a.rating || byId(a, b);
+}
+
+export function comparePostInfosByEngagement(direction: SortDirection): PostInfoComparator {
+  const byId = comparePostInfosById(direction);
+
+  return direction === 'asc'
+    ? (a, b) => a.engagement - b.engagement || byId(a, b)
+    : (a, b) => b.engagement - a.engagement || byId(a, b);
 }
 
 export function comparePostInfosByLikes(direction: SortDirection): PostInfoComparator {

@@ -140,7 +140,7 @@ export const PostsPage: Component = () => {
   const postLocation = () => searchParams.location;
   const postAuthor = () => searchParams.author;
   const postRequester = () => searchParams.requester;
-  const postMark = () => POST_MARKS.find((mark) => mark === searchParams.mark);
+  const postMark = () => POST_MARKS.find((info) => info.id === searchParams.mark)?.id;
   const postViolation = () =>
     [ANY_OPTION.value, NONE_OPTION.value, ...Object.keys(POST_VIOLATIONS)].find(
       (violation) => violation === searchParams.violation,
@@ -356,7 +356,7 @@ export const PostsPage: Component = () => {
               <div class={styles.selectWrapper}>
                 <Select
                   name="mark"
-                  options={[ALL_OPTION, ...POST_MARKS.map((value) => ({ value }))]}
+                  options={[ALL_OPTION, ...POST_MARKS.map(({ id }) => ({ value: id }))]}
                   value={postMark()}
                   onChange={setPostMark}
                   class={styles.select}

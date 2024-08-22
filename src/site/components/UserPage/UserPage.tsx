@@ -1,4 +1,5 @@
 import { writeClipboard } from '@solid-primitives/clipboard';
+import clsx from 'clsx';
 import { type Component, For, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import type { Link } from '../../../core/entities/link.js';
@@ -81,6 +82,21 @@ export const UserPage: Component = () => {
               </Show>
             </div>
 
+            <Show when={userLinks && userLinks.length > 0}>
+              <p class={styles.links}>
+                <For each={userLinks}>
+                  {(link, index) => (
+                    <>
+                      <Show when={index() > 0}> • </Show>
+                      <a href={link.url} class={styles.link}>
+                        {link.text}
+                      </a>
+                    </>
+                  )}
+                </For>
+              </p>
+            </Show>
+
             <Show when={!isUserContributionEmpty(userInfo().authored)}>
               <Divider />
 
@@ -140,7 +156,37 @@ export const UserPage: Component = () => {
               />
             </Show>
 
-            <Show when={userInfo().likes}>
+            <Show when={userInfo().rating}>
+              <Divider />
+
+              <Table
+                label="Average Content Score"
+                class={styles.attributes}
+                rows={[
+                  {
+                    label: "Editor's Mark",
+                    value: userInfo().mark
+                      ? () => (
+                          <>
+                            <Icon
+                              color="combat"
+                              size="small"
+                              variant="flat"
+                              class={clsx(styles.icon, styles.tableIcon)}
+                            >
+                              {userInfo().mark?.[0]}
+                            </Icon>
+                            {userInfo().mark?.[1]}
+                          </>
+                        )
+                      : undefined,
+                  },
+                  { label: 'Rating', value: userInfo().rating },
+                ]}
+              />
+            </Show>
+
+            <Show when={userInfo().likes || userInfo().views || userInfo().engagement}>
               <Divider />
 
               <Table
@@ -148,26 +194,10 @@ export const UserPage: Component = () => {
                 class={styles.attributes}
                 rows={[
                   { label: 'Likes', value: userInfo().likes },
-                  { label: 'Rating', value: userInfo().rating },
+                  { label: 'Views', value: userInfo().views },
+                  { label: 'Average Engagement', value: userInfo().engagement },
                 ]}
               />
-            </Show>
-
-            <Show when={userLinks && userLinks.length > 0}>
-              <Divider />
-
-              <p class={styles.links}>
-                <For each={userLinks}>
-                  {(link, index) => (
-                    <>
-                      <Show when={index() > 0}> • </Show>
-                      <a href={link.url} class={styles.link}>
-                        {link.text}
-                      </a>
-                    </>
-                  )}
-                </For>
-              </p>
             </Show>
 
             <Spacer />

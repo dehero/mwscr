@@ -66,7 +66,7 @@ export const postMark = {
   id: 'postMark',
   attributes: {
     label: "Editor's Mark",
-    options: POST_MARKS,
+    options: POST_MARKS.map(({ id }) => id),
   },
 } as const;
 

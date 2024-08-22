@@ -1,9 +1,9 @@
 import type { Post, PostMark, PostType, PostViolation } from '../entities/post.js';
 import { getPostTypesFromContent } from '../entities/post.js';
 import { postTitleFromString } from '../entities/post-title.js';
+import type { Publication } from '../entities/publication.js';
 import type { Rule } from '../entities/rule.js';
 import { needObject, needProperty } from '../entities/rule.js';
-import type { ServicePost } from '../entities/service-post.js';
 import { asArray, listItems } from '../utils/common-utils.js';
 import type { AugmentedRequired } from '../utils/type-utils.js';
 
@@ -140,7 +140,7 @@ export function needLocation(post: Post): post is AugmentedRequired<Post, 'locat
   return true;
 }
 
-export function needPublications(post: Post): post is Post & { posts: ServicePost<unknown>[] } {
+export function needPublications(post: Post): post is Post & { posts: Publication<unknown>[] } {
   if (!Array.isArray(post.posts) || post.posts.length === 0) {
     throw new Error('need published service posts');
   }

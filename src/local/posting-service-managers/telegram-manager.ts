@@ -7,9 +7,9 @@ import { Logger, LogLevel } from 'telegram/extensions/Logger.js';
 import { StringSession } from 'telegram/sessions/index.js';
 import type { Post, PostEntry } from '../../core/entities/post.js';
 import { getPostFirstPublished, getPostTypesFromContent, POST_TYPES } from '../../core/entities/post.js';
+import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
-import type { ServicePost, ServicePostComment } from '../../core/entities/service-post.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import { site } from '../../core/services/site.js';
 import type { TelegramPost } from '../../core/services/telegram.js';
@@ -134,7 +134,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
   async grabPostInfo(
     id: number | number[],
-  ): Promise<{ likes?: number; views?: number; comments?: ServicePostComment[] }> {
+  ): Promise<{ likes?: number; views?: number; comments?: PublicationComment[] }> {
     if (Array.isArray(id)) {
       const infos = await Promise.all(id.map((id) => this.grabPostInfo(id)));
 
@@ -203,9 +203,9 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     return { datetime, author, text };
   }
 
-  async grabPostComments(postId: number): Promise<ServicePostComment[] | undefined> {
+  async grabPostComments(postId: number): Promise<PublicationComment[] | undefined> {
     const { tg } = await this.connect();
-    const comments: ServicePostComment[] = [];
+    const comments: PublicationComment[] = [];
     let result: Api.messages.TypeMessages | undefined;
 
     try {
@@ -246,7 +246,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
         continue;
       }
 
-      const replies: ServicePostComment[] = [];
+      const replies: PublicationComment[] = [];
 
       for (const childItem of result.messages) {
         if (!(childItem instanceof Api.Message)) {
@@ -278,17 +278,17 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     );
   }
 
-  async updateServicePost(servicePost: ServicePost<unknown>) {
-    if (!this.isPost(servicePost)) {
+  async updatePublication(publication: Publication<unknown>) {
+    if (!this.isPost(publication)) {
       return;
     }
 
-    const { likes, views, comments } = await this.grabPostInfo(servicePost.id);
+    const { likes, views, comments } = await this.grabPostInfo(publication.id);
 
-    servicePost.likes = likes;
-    servicePost.views = views;
-    servicePost.comments = comments;
-    servicePost.updated = new Date();
+    publication.likes = likes;
+    publication.views = views;
+    publication.comments = comments;
+    publication.updated = new Date();
   }
 
   async publishPostEntry(entry: PostEntry): Promise<void> {
@@ -317,14 +317,14 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       parseMode: 'html',
     });
 
-    const servicePost: TelegramPost = {
+    const publication: TelegramPost = {
       service: this.id,
       id: result.id,
       followers,
       published: new Date(),
     };
 
-    post.posts = [...(post.posts ?? []), servicePost];
+    post.posts = [...(post.posts ?? []), publication];
   }
 
   async grabFollowerCount() {
@@ -354,12 +354,12 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     return { title: message, author: author || USER_DEFAULT_AUTHOR };
   }
 
-  async grabPosts(afterServicePost?: ServicePost<unknown>) {
-    if (afterServicePost && !this.isPost(afterServicePost)) {
+  async grabPosts(afterPublication?: Publication<unknown>) {
+    if (afterPublication && !this.isPost(afterPublication)) {
       throw new Error(`Invalid ${this.name} post`);
     }
 
-    const afterId = Array.isArray(afterServicePost?.id) ? Math.min(...afterServicePost.id) : afterServicePost?.id || -1;
+    const afterId = Array.isArray(afterPublication?.id) ? Math.min(...afterPublication.id) : afterPublication?.id || -1;
 
     const { tg } = await this.connect();
 
@@ -399,7 +399,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     const messages = result.messages.filter((message): message is Api.Message => message instanceof Api.Message);
     const posts: Post[] = [];
     let post: Post | undefined;
-    let servicePost: TelegramPost | undefined;
+    let publication: TelegramPost | undefined;
 
     for (const message of messages) {
       const id = message.id;
@@ -415,7 +415,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       }
 
       if (title) {
-        servicePost = {
+        publication = {
           service: 'tg',
           published,
           id,
@@ -429,14 +429,14 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
           content,
           author,
           type: getPostTypesFromContent(content)[0] ?? 'shot', // TODO: get proper type from media
-          posts: [servicePost],
+          posts: [publication],
         };
         posts.push(post);
-      } else if (post && servicePost) {
-        servicePost.id = [...(Array.isArray(servicePost.id) ? servicePost.id : [servicePost.id]), id];
-        servicePost.likes = Math.max(servicePost.likes || 0, likes || 0) || undefined;
-        servicePost.views = Math.max(servicePost.views || 0, message.views || 0) || undefined;
-        post.content = servicePost.id.map(() => RESOURCE_MISSING_IMAGE);
+      } else if (post && publication) {
+        publication.id = [...(Array.isArray(publication.id) ? publication.id : [publication.id]), id];
+        publication.likes = Math.max(publication.likes || 0, likes || 0) || undefined;
+        publication.views = Math.max(publication.views || 0, message.views || 0) || undefined;
+        post.content = publication.id.map(() => RESOURCE_MISSING_IMAGE);
         post.type = getPostTypesFromContent(post.content)[0] ?? post.type;
       }
     }

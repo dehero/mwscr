@@ -1,8 +1,8 @@
 import type { youtube_v3 } from '@googleapis/youtube';
 import { youtube } from '@googleapis/youtube';
 import type { PostEntry } from '../../core/entities/post.js';
+import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
-import type { ServicePost, ServicePostComment } from '../../core/entities/service-post.js';
 import { YouTube } from '../../core/services/youtube.js';
 
 const YOUTUBE_CHANNEL_ID = 'UCoSD49h3Nrss_Zix8boMwlw';
@@ -48,9 +48,9 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
     };
   }
 
-  async grabPostComments(postId: string): Promise<ServicePostComment[] | undefined> {
+  async grabPostComments(postId: string): Promise<PublicationComment[] | undefined> {
     const { yt } = await this.connect();
-    const comments: ServicePostComment[] = [];
+    const comments: PublicationComment[] = [];
 
     const { data } = await yt.commentThreads.list({ videoId: postId, part: ['snippet', 'replies'], maxResults: 100 });
 
@@ -85,17 +85,17 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
     return { datetime, author, text };
   }
 
-  async updateServicePost(servicePost: ServicePost<unknown>) {
-    if (!this.isPost(servicePost)) {
+  async updatePublication(publication: Publication<unknown>) {
+    if (!this.isPost(publication)) {
       return;
     }
 
-    const { likes, views, comments } = await this.grabPostInfo(servicePost.id);
+    const { likes, views, comments } = await this.grabPostInfo(publication.id);
 
-    servicePost.likes = likes;
-    servicePost.views = views;
-    servicePost.comments = comments;
-    servicePost.updated = new Date();
+    publication.likes = likes;
+    publication.views = views;
+    publication.comments = comments;
+    publication.updated = new Date();
   }
 
   async publishPostEntry(_entry: PostEntry): Promise<void> {}
@@ -107,7 +107,7 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
     return Number(data.items?.[0]?.statistics?.subscriberCount);
   }
 
-  async grabPosts(_afterServicePost?: ServicePost<unknown>) {
+  async grabPosts(_afterPublication?: Publication<unknown>) {
     return [];
   }
 }

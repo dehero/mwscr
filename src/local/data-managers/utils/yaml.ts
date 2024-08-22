@@ -1,7 +1,7 @@
 import { readFile, writeFile } from 'fs/promises';
 import yaml, { Type } from 'js-yaml';
-import type { ServicePostComment } from '../../../core/entities/service-post.js';
-import { isServicePostComments } from '../../../core/entities/service-post.js';
+import type { PublicationComment } from '../../../core/entities/publication.js';
+import { isPublicationComments } from '../../../core/entities/publication.js';
 import { dateToString, stringToDate } from '../../../core/utils/date-utils.js';
 import { compressData, decompressData } from '../../utils/data-utils.js';
 
@@ -32,7 +32,7 @@ const orderedKeys = [
   'user',
   'text',
 
-  // ServicePost
+  // Publication
   'service',
   'id',
   'code',
@@ -73,8 +73,8 @@ export const YAML_SCHEMA = yaml.JSON_SCHEMA.extend({
       kind: 'scalar',
       resolve: (data) => typeof data === 'string',
       construct: (data) => unpackComments(data),
-      predicate: (data) => isServicePostComments(data),
-      represent: (data) => packComments(data as ServicePostComment[]),
+      predicate: (data) => isPublicationComments(data),
+      represent: (data) => packComments(data as PublicationComment[]),
     }),
   ],
 });
@@ -101,7 +101,7 @@ export function saveYaml(filename: string, data: unknown) {
   return writeFile(filename, file);
 }
 
-function packComments(comments?: ServicePostComment[]): string | undefined {
+function packComments(comments?: PublicationComment[]): string | undefined {
   if (!comments || typeof comments === 'string') {
     return comments;
   }
@@ -118,7 +118,7 @@ function packComments(comments?: ServicePostComment[]): string | undefined {
   return compressData(data);
 }
 
-function unpackComments(value?: string): ServicePostComment[] | undefined {
+function unpackComments(value?: string): PublicationComment[] | undefined {
   if (!value) {
     return;
   }
