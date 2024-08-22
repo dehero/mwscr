@@ -595,25 +595,25 @@
       id: C-5sy8GvaOy
       mediaId: '18050874106684825'
       published: 2024-08-20-18-20-08
-      updated: 2024-08-22-17-13-59
+      updated: 2024-08-22-18-19-29
       followers: 1457
       likes: 86
       views: 287
     - service: vk
       id: 1699
       published: 2024-08-20-18-20-17
-      updated: 2024-08-22-17-13-59
+      updated: 2024-08-22-18-19-30
       followers: 936
-      likes: 38
-      views: 192
+      likes: 39
+      views: 193
       reposts: 3
     - service: tg
       id: 507
       published: 2024-08-20-18-20-26
-      updated: 2024-08-22-17-13-59
+      updated: 2024-08-22-18-19-30
       followers: 534
       likes: 50
-      views: 195
+      views: 198
 2017-01-21-building-akulakhan:
   title: Building Akulakhan
   titleRu: Строительство Акулахана
@@ -3570,6 +3570,19 @@
       followers: 52
       likes: 2
       views: 95
+    - service: ig
+      id: C--2VkaNrtE
+      mediaId: '17852714091220944'
+      published: 2024-08-22-18-19-42
+      followers: 1458
+    - service: vk
+      id: 1701
+      published: 2024-08-22-18-19-48
+      followers: 937
+    - service: tg
+      id: 509
+      published: 2024-08-22-18-19-55
+      followers: 539
 2017-04-14-in-the-bar:
   title: In the Bar
   titleRu: У барной стойки
