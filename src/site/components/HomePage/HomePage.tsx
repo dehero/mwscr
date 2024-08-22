@@ -2,15 +2,20 @@ import { type Component } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import icon from '../../../../assets/icon.png?format=avif&imagetools';
 import pkg from '../../../../package.json';
+import { getPostDateById } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import type { UserContribution } from '../../../core/entities/user-info.js';
-import { formatDate, formatTime } from '../../../core/utils/date-utils.js';
+import { dateToString, formatDate, formatTime } from '../../../core/utils/date-utils.js';
+import { selectPostInfos } from '../../data-utils/post-infos.js';
+import { postRoute } from '../../routes/post-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
+import { Diagram } from '../Diagram/Diagram.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { PostHighlights } from '../PostHighlights/PostHighlights.js';
+import { PostTooltip } from '../PostTooltip/PostTooltip.jsx';
 import { Table } from '../Table/Table.js';
 import styles from './HomePage.module.css';
 
@@ -30,6 +35,7 @@ export interface HomePageData {
   totalFollowers: number;
   totalLikes: number;
   totalCommentCount: number;
+  recentPostInfos: PostInfo[];
 }
 
 export const HomePage: Component = () => {
@@ -49,7 +55,11 @@ export const HomePage: Component = () => {
     totalFollowers,
     totalLikes,
     totalCommentCount,
+    recentPostInfos,
   } = useData<HomePageData>();
+
+  const recentMostEngagingPostInfo = () =>
+    selectPostInfos(recentPostInfos, { sortDirection: 'desc', sortKey: 'engagement' })[0];
 
   return (
     <Frame component="main" class={styles.container}>
@@ -170,8 +180,9 @@ export const HomePage: Component = () => {
           items={[
             { label: 'Last Post', primary: true, postInfo: lastPostInfo },
             { label: 'Last Original Post', primary: true, postInfo: lastOriginalPostInfo },
-            { label: 'Top Rated Post', postInfo: topRatedPostInfo },
+            { label: 'Recent Engaging Post', primary: true, postInfo: recentMostEngagingPostInfo() },
             { label: "Editor's Choice Post", postInfo: editorsChoicePostInfo },
+            { label: 'Top Rated Post', postInfo: topRatedPostInfo },
             { label: 'Top Liked Post', postInfo: topLikedPostInfo },
             { label: 'Last Fulfilled Request', postInfo: lastFulfilledPostInfo },
             // TODO: Last Week Top Rated Post, Current Month Top Rated Post, Previous Month Top Rated Post etc.
@@ -184,6 +195,39 @@ export const HomePage: Component = () => {
             { label: 'Last Proposal', primary: true, postInfo: lastProposedPostInfo },
             { label: 'Last Pending Request', postInfo: lastRequestedPostInfo },
           ]}
+        />
+      </Frame>
+
+      <Frame class={styles.diagrams}>
+        <Diagram
+          class={styles.diagram}
+          label="Followers Count"
+          items={recentPostInfos}
+          getItemInterval={(item) => dateToString(getPostDateById(item.id) ?? new Date())}
+          getIntervalValue={(_, values) => values[0]?.followers || 0}
+          getIntervalLink={(_, values) =>
+            values[0] ? postRoute.createUrl({ managerName: 'posts', id: values[0]?.id }) : undefined
+          }
+          IntervalTooltipComponent={({ interval, forRef }) =>
+            interval.items[0] ? <PostTooltip postInfo={interval.items[0]} forRef={forRef} showContent /> : undefined
+          }
+          baseValue="delta"
+        />
+
+        <Divider />
+
+        <Diagram
+          class={styles.diagram}
+          label="Recent Posts Engagement"
+          items={recentPostInfos}
+          getItemInterval={(item) => dateToString(getPostDateById(item.id) ?? new Date())}
+          getIntervalValue={(_, values) => values[0]?.engagement || 0}
+          getIntervalLink={(_, values) =>
+            values[0] ? postRoute.createUrl({ managerName: 'posts', id: values[0]?.id }) : undefined
+          }
+          IntervalTooltipComponent={({ interval, forRef }) =>
+            interval.items[0] ? <PostTooltip postInfo={interval.items[0]} forRef={forRef} showContent /> : undefined
+          }
         />
       </Frame>
     </Frame>

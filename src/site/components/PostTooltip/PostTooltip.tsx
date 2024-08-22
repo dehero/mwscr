@@ -1,27 +1,53 @@
+import clsx from 'clsx';
 import { type Component, For, Show, splitProps } from 'solid-js';
-import { getPostDateById, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
+import { getPostDateById, getPostTypeAspectRatio, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/user.js';
-import { capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
+import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
 import { Divider } from '../Divider/Divider.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
+import { ResourcePreview } from '../ResourcePreview/ResourcePreview.jsx';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './PostTooltip.module.css';
 
 interface PostTooltipProps extends Omit<TooltipProps, 'children'> {
   postInfo: PostInfo;
+  showContent?: boolean;
 }
 
 export const PostTooltip: Component<PostTooltipProps> = (props) => {
-  const [local, rest] = splitProps(props, ['postInfo']);
+  const [local, rest] = splitProps(props, ['postInfo', 'showContent']);
   const date = () => getPostDateById(local.postInfo.id);
   const refDate = () => (local.postInfo.refId ? getPostDateById(local.postInfo.refId) : undefined);
+  const content = () => asArray(local.postInfo.content).slice(0, 4);
+  const aspectRatio = () => getPostTypeAspectRatio(local.postInfo.type);
+  const alt = () => props.postInfo.tags?.join(' ');
 
   return (
     <Tooltip {...rest}>
+      <Show when={content().length > 0 && local.showContent}>
+        <Show
+          when={content().length > 2}
+          fallback={
+            <ResourcePreview
+              url={content()[0] || ''}
+              aspectRatio={aspectRatio()}
+              class={styles.image}
+              alt={alt()}
+              maxHeightMultiplier={1.25}
+            />
+          }
+        >
+          <div class={clsx(styles[props.postInfo.type], styles.setContainer)}>
+            <For each={content()}>
+              {(url) => <ResourcePreview url={url} class={styles.setItem} aspectRatio="1/1" />}
+            </For>
+          </div>
+        </Show>
+      </Show>
       <span class={styles.title}>{local.postInfo.title || local.postInfo.id}</span>
       <Show when={local.postInfo.titleRu}>
         <span class={styles.titleRu}>{local.postInfo.titleRu}</span>

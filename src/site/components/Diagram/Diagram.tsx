@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import type { Component } from 'solid-js';
+import { type Component, Show } from 'solid-js';
 import { clientOnly } from 'vike-solid/clientOnly';
 import { Frame } from '../Frame/Frame.jsx';
 import styles from './Diagram.module.css';
@@ -10,6 +10,7 @@ export interface DiagramInterval<TItem> {
   interval: unknown;
   items: TItem[];
   value: number;
+  link?: string;
 }
 
 export interface DiagramIntervalTooltipComponentProps<TItem> {
@@ -21,9 +22,11 @@ export type DiagramIntervalTooltipComponent<TItem> = Component<DiagramIntervalTo
 
 export interface DiagramProps<TItem> {
   class?: string;
+  label?: string;
   items: TItem[];
   getItemInterval: (item: TItem) => unknown;
   getIntervalValue: (interval: unknown, items: TItem[]) => number;
+  getIntervalLink?: (interval: unknown, items: TItem[]) => string | undefined;
   IntervalTooltipComponent?: DiagramIntervalTooltipComponent<TItem>;
   baseValue?: number | 'minimal' | 'delta';
 }
@@ -32,7 +35,13 @@ export function Diagram<TItem>(props: DiagramProps<TItem>) {
   return (
     <ClientVirtualDiagram
       {...(props as DiagramProps<unknown>)}
-      fallback={<Frame class={clsx(styles.container, props.class)}></Frame>}
+      fallback={
+        <Frame class={clsx(styles.container, props.class)}>
+          <Show when={props.label}>
+            <p class={styles.label}>{props.label}</p>
+          </Show>
+        </Frame>
+      }
     />
   );
 }
