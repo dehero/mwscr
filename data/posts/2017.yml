@@ -1121,27 +1121,27 @@
       id: C-0i7seJzEX
       mediaId: '17879227356107377'
       published: 2024-08-18-18-17-44
-      updated: 2024-08-21-18-19-36
+      updated: 2024-08-22-19-12-30
       followers: 1455
-      likes: 107
-      views: 398
+      likes: 109
+      views: 412
       comments: !c |-
         ixyAkZPLQnkWvtoMgACoYmVyc2thdGXZJFRoZSBjaXR5IEknZCBsaWtlIHRvIGxpdmUgaW4g8J+l
         suKdpAM=
     - service: vk
       id: 1697
       published: 2024-08-18-18-17-50
-      updated: 2024-08-21-18-19-38
+      updated: 2024-08-22-19-12-29
       followers: 934
-      likes: 35
-      views: 192
+      likes: 37
+      views: 204
     - service: tg
       id: 505
       published: 2024-08-18-18-17-57
-      updated: 2024-08-21-18-19-35
+      updated: 2024-08-22-19-12-28
       followers: 529
-      likes: 54
-      views: 246
+      likes: 55
+      views: 296
 2017-02-04-rumors-are-about-some-two-prisoners:
   title: Rumors Are About Some Two Prisoners
   titleRu: Ходят слухи о каких-то двух заключённых
@@ -3574,15 +3574,24 @@
       id: C--2VkaNrtE
       mediaId: '17852714091220944'
       published: 2024-08-22-18-19-42
+      updated: 2024-08-22-19-12-25
       followers: 1458
+      likes: 27
+      views: 50
     - service: vk
       id: 1701
       published: 2024-08-22-18-19-48
+      updated: 2024-08-22-19-12-25
       followers: 937
+      likes: 11
+      views: 45
     - service: tg
       id: 509
       published: 2024-08-22-18-19-55
+      updated: 2024-08-22-19-12-26
       followers: 539
+      likes: 20
+      views: 72
 2017-04-14-in-the-bar:
   title: In the Bar
   titleRu: У барной стойки
