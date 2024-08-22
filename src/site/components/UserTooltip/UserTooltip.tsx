@@ -45,11 +45,26 @@ export const UserTooltip: Component<UserTooltipProps> = (props) => {
       <Show when={requested()}>
         <span>Requested: {requested()}</span>
       </Show>
-      <Show when={local.userInfo.likes > 0}>
-        <span>Likes: {local.userInfo.likes}</span>
+      <Show when={local.userInfo.mark}>
+        <span class={styles.mark}>
+          {"Editor's Mark: "}
+          <Icon color="combat" size="small" variant="flat" class={styles.icon}>
+            {props.userInfo.mark?.[0]}
+          </Icon>
+          {local.userInfo.mark?.[1]}
+        </span>
       </Show>
       <Show when={local.userInfo.rating > 0}>
         <span>Rating: {local.userInfo.rating}</span>
+      </Show>
+      <Show when={local.userInfo.likes > 0}>
+        <span>Likes: {local.userInfo.likes}</span>
+      </Show>
+      <Show when={local.userInfo.views > 0}>
+        <span>Views: {local.userInfo.views}</span>
+      </Show>
+      <Show when={local.userInfo.engagement > 0}>
+        <span>Engagement: {local.userInfo.engagement}</span>
       </Show>
     </Tooltip>
   );

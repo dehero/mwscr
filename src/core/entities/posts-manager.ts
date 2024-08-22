@@ -1,6 +1,16 @@
 import { asArray } from '../utils/common-utils.js';
 import { ListManager } from './list-manager.js';
-import { getPostDrawer, getPostRating, getPostTotalLikes, isPostEqual, mergePostWith, type Post } from './post.js';
+import type { Post } from './post.js';
+import {
+  getPostDrawer,
+  getPostEntryEngagement,
+  getPostEntryLikes,
+  getPostEntryViews,
+  getPostMarkScore,
+  getPostRating,
+  isPostEqual,
+  mergePostWith,
+} from './post.js';
 
 export type PostsManagerStats = ReadonlyMap<string, number>;
 
@@ -14,14 +24,65 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
   async getAuthorsLikesStats(): Promise<PostsManagerStats> {
     const stats = new Map<string, number>();
 
-    for await (const [, post] of this.readAllEntries(true)) {
-      const likes = getPostTotalLikes(post);
-      asArray(post.author).forEach((author) => {
+    for await (const entry of this.readAllEntries()) {
+      const likes = getPostEntryLikes(entry);
+      asArray(entry[1].author).forEach((author) => {
         stats.set(author, (stats.get(author) || 0) + likes);
       });
     }
 
     return stats;
+  }
+
+  async getAuthorsViewsStats(): Promise<PostsManagerStats> {
+    const stats = new Map<string, number>();
+
+    for await (const entry of this.readAllEntries()) {
+      const views = getPostEntryViews(entry);
+      asArray(entry[1].author).forEach((author) => {
+        stats.set(author, (stats.get(author) || 0) + views);
+      });
+    }
+
+    return stats;
+  }
+
+  async getAuthorsEngagementStats(): Promise<PostsManagerStats> {
+    const map = new Map<string, number[]>();
+
+    for await (const entry of this.readAllEntries(true)) {
+      const engagement = getPostEntryEngagement(entry);
+      if (!engagement) {
+        continue;
+      }
+      asArray(entry[1].author).forEach((author) => {
+        map.set(author, [...(map.get(author) ?? []), engagement]);
+      });
+    }
+
+    return new Map(
+      [...map].map(([author, engagements]) => [author, engagements.reduce((a, b) => a + b, 0) / engagements.length]),
+    );
+  }
+
+  async getAuthorsMarkScoreStats(): Promise<PostsManagerStats> {
+    const map = new Map<string, number[]>();
+
+    for await (const [, post] of this.readAllEntries(true)) {
+      const mark = post.mark;
+      if (!mark) {
+        continue;
+      }
+      const score = getPostMarkScore(mark);
+      if (typeof score === 'undefined') {
+        continue;
+      }
+      asArray(post.author).forEach((author) => {
+        map.set(author, [...(map.get(author) ?? []), score]);
+      });
+    }
+
+    return new Map([...map].map(([author, scores]) => [author, scores.reduce((a, b) => a + b, 0) / scores.length]));
   }
 
   async getAuthorsRatingStats(): Promise<PostsManagerStats> {

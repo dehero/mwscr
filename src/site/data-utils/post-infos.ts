@@ -13,6 +13,7 @@ import {
 import type { PostInfo, PostInfoComparator } from '../../core/entities/post-info.js';
 import {
   comparePostInfosByDate,
+  comparePostInfosByEngagement,
   comparePostInfosById,
   comparePostInfosByLikes,
   comparePostInfosByMark,
@@ -35,6 +36,7 @@ export const selectPostInfosSortOptions = [
   { value: 'id', label: 'ID', fn: comparePostInfosById },
   { value: 'likes', label: 'Likes', fn: comparePostInfosByLikes },
   { value: 'views', label: 'Views', fn: comparePostInfosByViews },
+  { value: 'engagement', label: 'Engagement', fn: comparePostInfosByEngagement },
   { value: 'rating', label: 'Rating', fn: comparePostInfosByRating },
   { value: 'mark', label: "Editor's Mark", fn: comparePostInfosByMark },
 ] as const satisfies SelectPostInfoSortOption[];

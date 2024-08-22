@@ -1,7 +1,7 @@
 import type { Post } from '../entities/post.js';
+import type { Publication } from '../entities/publication.js';
 import { checkRules } from '../entities/rule.js';
 import type { PostingService } from '../entities/service.js';
-import type { ServicePost } from '../entities/service-post.js';
 import { needCertainType, needContent, needTitle } from '../rules/post-rules.js';
 
 interface TelegramSuitablePost extends Post {
@@ -10,7 +10,7 @@ interface TelegramSuitablePost extends Post {
   type: 'shot';
 }
 
-export type TelegramPost = ServicePost<number | number[]>;
+export type TelegramPost = Publication<number | number[]>;
 
 export const TELEGRAM_CHANNEL = 'mwscr';
 
@@ -18,11 +18,11 @@ export class Telegram implements PostingService<TelegramPost> {
   readonly id = 'tg';
   readonly name = 'Telegram';
 
-  isPost(servicePost: ServicePost<unknown>): servicePost is TelegramPost {
+  isPost(publication: Publication<unknown>): publication is TelegramPost {
     return (
-      servicePost.service === this.id &&
-      (typeof servicePost.id === 'number' ||
-        (Array.isArray(servicePost.id) && servicePost.id.every((item) => typeof item === 'number')))
+      publication.service === this.id &&
+      (typeof publication.id === 'number' ||
+        (Array.isArray(publication.id) && publication.id.every((item) => typeof item === 'number')))
     );
   }
 
@@ -30,11 +30,11 @@ export class Telegram implements PostingService<TelegramPost> {
     return checkRules([needCertainType('shot', 'wallpaper', 'wallpaper-v'), needTitle, needContent], post, errors);
   }
 
-  getServicePostUrl(servicePost: ServicePost<unknown>) {
-    if (!this.isPost(servicePost)) {
+  getPublicationUrl(publication: Publication<unknown>) {
+    if (!this.isPost(publication)) {
       return;
     }
-    return `https://t.me/${TELEGRAM_CHANNEL}/${servicePost.id}`;
+    return `https://t.me/${TELEGRAM_CHANNEL}/${publication.id}`;
   }
 
   getUserProfileUrl(profileId: string) {

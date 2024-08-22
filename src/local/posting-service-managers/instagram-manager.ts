@@ -18,9 +18,9 @@ import sharp from 'sharp';
 import type { Post, PostEntry } from '../../core/entities/post.js';
 import { getPostFirstPublished, getPostTypesFromContent, POST_TYPES } from '../../core/entities/post.js';
 import { createPostTags } from '../../core/entities/post-tag.js';
+import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
-import type { ServicePost, ServicePostComment } from '../../core/entities/service-post.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import type { InstagramPost } from '../../core/services/instagram.js';
 import { Instagram } from '../../core/services/instagram.js';
@@ -201,7 +201,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
     const followers = await this.grabFollowerCount();
 
-    const newServicePosts: InstagramPost[] = [{ service: 'ig', id, mediaId, followers, published: new Date() }];
+    const newPublications: InstagramPost[] = [{ service: 'ig', id, mediaId, followers, published: new Date() }];
 
     if (post.type === 'wallpaper-v') {
       // Convert the image to JPEG and upload the image
@@ -219,10 +219,10 @@ export class InstagramManager extends Instagram implements PostingServiceManager
         throw new Error(`Cannot get post ${this.name} story id`);
       }
 
-      newServicePosts.push({ service: 'ig', id, mediaId, followers, published: new Date() });
+      newPublications.push({ service: 'ig', id, mediaId, followers, published: new Date() });
     }
 
-    post.posts = [...(post.posts ?? []), ...newServicePosts];
+    post.posts = [...(post.posts ?? []), ...newPublications];
   }
 
   async createMedia(request: AbstractRequest<CreatedObjectIdResponse>): Promise<[string, GetMediaInfoResponse]> {
@@ -291,9 +291,9 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     };
   }
 
-  private async getPostComments(mediaId: string): Promise<ServicePostComment[] | undefined> {
+  private async getPostComments(mediaId: string): Promise<PublicationComment[] | undefined> {
     const { ig } = await this.connect();
-    const comments: ServicePostComment[] = [];
+    const comments: PublicationComment[] = [];
 
     // Get the comments for the media
     const request = ig.newGetMediaCommentsRequest(
@@ -313,7 +313,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
         continue;
       }
 
-      const replies: ServicePostComment[] = [];
+      const replies: PublicationComment[] = [];
       const author = item.username;
       const mention = `@${author}`;
       const text = item.text.trim();
@@ -356,17 +356,17 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     return comments.length > 0 ? comments : undefined;
   }
 
-  async updateServicePost(servicePost: ServicePost<unknown>) {
-    if (!this.isPost(servicePost) || !servicePost.mediaId) {
+  async updatePublication(publication: Publication<unknown>) {
+    if (!this.isPost(publication) || !publication.mediaId) {
       return;
     }
 
-    const { likes, views, comments } = await this.grabPostInfo(servicePost.mediaId);
+    const { likes, views, comments } = await this.grabPostInfo(publication.mediaId);
 
-    servicePost.likes = likes;
-    servicePost.views = views || servicePost.views;
-    servicePost.comments = comments || servicePost.comments;
-    servicePost.updated = new Date();
+    publication.likes = likes;
+    publication.views = views || publication.views;
+    publication.comments = comments || publication.comments;
+    publication.updated = new Date();
   }
 
   async grabFollowerCount() {
@@ -378,12 +378,12 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     return data.followers_count;
   }
 
-  async grabPosts(afterServicePost?: ServicePost<unknown>) {
-    if (afterServicePost && !this.isPost(afterServicePost)) {
+  async grabPosts(afterPublication?: Publication<unknown>) {
+    if (afterPublication && !this.isPost(afterPublication)) {
       throw new Error(`Invalid ${this.name} post`);
     }
 
-    const afterMediaId = afterServicePost?.mediaId;
+    const afterMediaId = afterPublication?.mediaId;
     const { ig } = await this.connect();
     const posts: Post[] = [];
 

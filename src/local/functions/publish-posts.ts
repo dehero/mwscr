@@ -1,5 +1,9 @@
 import type { PostEntries, PostEntry } from '../../core/entities/post.js';
-import { comparePostEntriesById, getPostEntriesFromSource } from '../../core/entities/post.js';
+import {
+  comparePostEntriesById,
+  getPostEntriesFromSource,
+  POST_RECENTLY_PUBLISHED_DAYS,
+} from '../../core/entities/post.js';
 import type { PublishablePost } from '../../core/entities/post-variation.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { getDaysPassed, getHoursPassed } from '../../core/utils/date-utils.js';
@@ -13,7 +17,7 @@ export async function publishPosts() {
 
   try {
     for (const service of postingServiceManagers) {
-      const entry = await findFirstUnpublishedServicePostEntry(publishedPostEntries, service);
+      const entry = await findFirstUnpublishedPublicationEntry(publishedPostEntries, service);
       if (entry) {
         await publishPostToService(service, entry);
       } else {
@@ -51,7 +55,7 @@ export async function publishPostToService(service: PostingServiceManager, entry
   }
 }
 
-async function findFirstUnpublishedServicePostEntry(
+async function findFirstUnpublishedPublicationEntry(
   publishedPostEntries: PostEntries<PublishablePost>,
   service: PostingServiceManager,
 ) {
@@ -59,10 +63,8 @@ async function findFirstUnpublishedServicePostEntry(
   let result: PostEntry<PublishablePost> | undefined;
 
   for (const entry of publishablePostEntries) {
-    // Treat service post as already published for 30 days
-    // TODO: fix for publishing gap more than 30 days
     const lastPublishedPost = entry[1].posts?.find(
-      (post) => post.service === service.id && getDaysPassed(post.published) <= 30,
+      (post) => post.service === service.id && getDaysPassed(post.published) <= POST_RECENTLY_PUBLISHED_DAYS,
     );
     if (lastPublishedPost) {
       // Do not publish too often

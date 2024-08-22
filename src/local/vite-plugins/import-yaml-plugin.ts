@@ -1,7 +1,6 @@
 import { load } from 'js-yaml';
 import toSource from 'tosource';
 import type { Plugin } from 'vite';
-import { getPostCommentCount, getPostRating, getPostTotalLikes, getPostTotalViews } from '../../core/entities/post.js';
 // TODO: move schema outside data-managers
 import { YAML_SCHEMA } from '../data-managers/utils/yaml.js';
 
@@ -47,16 +46,7 @@ function transformPostInfo(data: unknown) {
     throw new Error(`Need object`);
   }
 
-  for (const post of Object.values(data)) {
-    if (typeof post === 'string') {
-      continue;
-    }
-
-    post.commentCount = getPostCommentCount(post) || undefined;
-    post.likes = getPostTotalLikes(post) || undefined;
-    post.views = getPostTotalViews(post) || undefined;
-    post.rating = Number(getPostRating(post).toFixed(2)) || undefined;
-    delete post.trash;
-    delete post.posts;
+  for (const _entry of Object.entries(data)) {
+    // TODO: use createPostInfo
   }
 }

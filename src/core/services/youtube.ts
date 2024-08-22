@@ -1,6 +1,6 @@
 import type { Post } from '../entities/post.js';
+import type { Publication } from '../entities/publication.js';
 import type { PostingService } from '../entities/service.js';
-import type { ServicePost } from '../entities/service-post.js';
 
 interface YouTubeSuitablePost extends Post {
   title: string;
@@ -8,28 +8,28 @@ interface YouTubeSuitablePost extends Post {
   type: 'video';
 }
 
-export type YouTubePost = ServicePost<string>;
+export type YouTubePost = Publication<string>;
 
 export class YouTube implements PostingService<YouTubePost> {
   readonly id = 'yt';
   readonly name = 'YouTube';
 
-  isPost(servicePost: ServicePost<unknown>): servicePost is YouTubePost {
-    return servicePost.service === this.id && typeof servicePost.id === 'string';
+  isPost(publication: Publication<unknown>): publication is YouTubePost {
+    return publication.service === this.id && typeof publication.id === 'string';
   }
 
   canPublishPost(_post: Post, _errors?: string[]): _post is YouTubeSuitablePost {
     return false;
   }
 
-  getServicePostUrl(servicePost: ServicePost<unknown>, embed?: boolean) {
-    if (!servicePost.id) {
+  getPublicationUrl(publication: Publication<unknown>, embed?: boolean) {
+    if (!publication.id) {
       return;
     }
     if (embed) {
-      return `https://www.youtube.com/embed/${servicePost.id}?rel=0`;
+      return `https://www.youtube.com/embed/${publication.id}?rel=0`;
     }
-    return `https://www.youtube.com/watch?v=${servicePost.id}`;
+    return `https://www.youtube.com/watch?v=${publication.id}`;
   }
 
   getUserProfileUrl(userId: string) {

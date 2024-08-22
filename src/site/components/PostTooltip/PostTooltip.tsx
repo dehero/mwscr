@@ -77,15 +77,6 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       <Show when={local.postInfo.addon}>
         <span class={styles.addon}>Addon: {local.postInfo.addon}</span>
       </Show>
-      <Show when={local.postInfo.mark}>
-        <span class={styles.mark}>
-          {"Editor's Mark: "}
-          <Icon color="combat" size="small" variant="flat" class={styles.icon}>
-            {props.postInfo.mark?.[0]}
-          </Icon>
-          {local.postInfo.mark?.[1]}
-        </span>
-      </Show>
       <Show when={local.postInfo.violation}>
         {(violation) => (
           <span class={styles.addon}>
@@ -100,14 +91,29 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       <Show when={local.postInfo.tags?.length}>
         <span class={styles.tags}>Tags: {local.postInfo.tags?.join(', ')}</span>
       </Show>
+      <Show when={local.postInfo.mark}>
+        <span class={styles.mark}>
+          {"Editor's Mark: "}
+          <Icon color="combat" size="small" variant="flat" class={styles.icon}>
+            {props.postInfo.mark?.[0]}
+          </Icon>
+          {local.postInfo.mark?.[1]}
+        </span>
+      </Show>
+      <Show when={local.postInfo.rating}>
+        <span class={styles.rating}>Rating: {local.postInfo.rating}</span>
+      </Show>
       <Show when={local.postInfo.likes}>
         <span class={styles.likes}>Likes: {local.postInfo.likes}</span>
       </Show>
       <Show when={local.postInfo.views}>
         <span class={styles.views}>Views: {local.postInfo.views}</span>
       </Show>
-      <Show when={local.postInfo.rating}>
-        <span class={styles.rating}>Rating: {local.postInfo.rating}</span>
+      <Show when={local.postInfo.followers}>
+        <span class={styles.views}>Followers: {local.postInfo.followers}</span>
+      </Show>
+      <Show when={local.postInfo.engagement}>
+        <span class={styles.engagement}>Engagement: {local.postInfo.engagement}</span>
       </Show>
       <Show when={local.postInfo.commentCount}>
         <span class={styles.commentCount}>Comments: {local.postInfo.commentCount}</span>

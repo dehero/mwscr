@@ -166,12 +166,30 @@ export async function getPostInfo(
   filterFns?: PostFilter<Post, Post> | PostFilter<Post, Post>[],
   skipReferences?: boolean,
 ): Promise<PostInfo | undefined> {
+  const [info] = await getPostInfos(manager, compareFn, filterFns, skipReferences, 1);
+
+  return info;
+}
+
+export async function getPostInfos(
+  manager: PostsManager,
+  compareFn?: PostEntriesComparator,
+  filterFns?: PostFilter<Post, Post> | PostFilter<Post, Post>[],
+  skipReferences?: boolean,
+  size?: number,
+): Promise<PostInfo[]> {
   const filterFn = filterFns
     ? Array.isArray(filterFns)
       ? (post: Post): post is Post => filterFns.every((fn) => fn(post))
       : filterFns
     : undefined;
-  const [entry] = await getPostEntriesFromSource(() => manager.readAllEntries(skipReferences), compareFn, filterFn, 1);
 
-  return entry ? createPostInfo(entry, locations, users, manager.name) : undefined;
+  const entries = await getPostEntriesFromSource(
+    () => manager.readAllEntries(skipReferences),
+    compareFn,
+    filterFn,
+    size,
+  );
+
+  return await Promise.all(entries.map((entry) => createPostInfo(entry, locations, users, manager.name)));
 }

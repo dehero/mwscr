@@ -1,5 +1,7 @@
 import type { SortDirection } from '../utils/common-types.js';
 import { cleanupUndefinedProps } from '../utils/common-utils.js';
+import type { PostMark } from './post.js';
+import { getPostMarkFromScore } from './post.js';
 import type { PostsManager } from './posts-manager.js';
 import type { UserEntry, UserRole } from './user.js';
 import { getUserEntryTitle } from './user.js';
@@ -16,6 +18,9 @@ export interface UserInfo {
   authored: UserContribution;
   requested: UserContribution;
   likes: number;
+  views: number;
+  engagement: number;
+  mark?: PostMark;
   rating: number;
   roles: UserRole[];
 }
@@ -49,6 +54,9 @@ export async function createUserInfo(
   };
 
   const likes = (await posted.getAuthorsLikesStats()).get(id) || 0;
+  const views = (await posted.getAuthorsViewsStats()).get(id) || 0;
+  const engagement = Number((await posted.getAuthorsEngagementStats()).get(id)?.toFixed(2) || 0);
+  const mark = getPostMarkFromScore((await posted.getAuthorsMarkScoreStats()).get(id));
   const rating = Number((await posted.getAuthorsRatingStats()).get(id)?.toFixed(2) || 0);
 
   const roles: UserRole[] = [];
@@ -79,6 +87,9 @@ export async function createUserInfo(
     authored,
     requested,
     likes,
+    views,
+    engagement,
+    mark,
     rating,
     roles,
   });

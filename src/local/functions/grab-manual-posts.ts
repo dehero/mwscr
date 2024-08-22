@@ -2,8 +2,8 @@ import type { Post, PostEntry } from '../../core/entities/post.js';
 import { isPostEqual, mergePostWith } from '../../core/entities/post.js';
 import type { PublishablePost } from '../../core/entities/post-variation.js';
 import { isPublishablePost } from '../../core/entities/post-variation.js';
+import type { Publication } from '../../core/entities/publication.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
-import type { ServicePost } from '../../core/entities/service-post.js';
 import { arrayFromAsync } from '../../core/utils/common-utils.js';
 import { createPublishedPostId, posts } from '../data-managers/posts.js';
 import { postingServiceManagers } from '../posting-service-managers/index.js';
@@ -22,7 +22,7 @@ export async function grabManualPosts() {
     }
 
     try {
-      await grabManualServicePosts(service);
+      await grabManualPublications(service);
     } catch (error: unknown) {
       if (error instanceof Error) {
         console.error(`Error grabbing posts from ${service.name}: ${error.message}`);
@@ -35,10 +35,10 @@ export async function grabManualPosts() {
   console.groupEnd();
 }
 
-async function grabManualServicePosts(service: PostingServiceManager) {
-  const allServicePosts = await arrayFromAsync(getAllServicePosts(service.id));
-  const lastServicePost = allServicePosts.sort((a, b) => b.published.getTime() - a.published.getTime())[0];
-  const newPosts = await service.grabPosts(lastServicePost);
+async function grabManualPublications(service: PostingServiceManager) {
+  const allPublications = await arrayFromAsync(getAllPublications(service.id));
+  const lastPublication = allPublications.sort((a, b) => b.published.getTime() - a.published.getTime())[0];
+  const newPosts = await service.grabPosts(lastPublication);
 
   if (newPosts.length === 0) {
     console.info(`No new manual posts found on ${service.name}.`);
@@ -93,14 +93,14 @@ async function findLastPublishedPostEntry(
   return undefined;
 }
 
-async function* getAllServicePosts(service: string): AsyncGenerator<ServicePost<unknown>> {
+async function* getAllPublications(service: string): AsyncGenerator<Publication<unknown>> {
   for await (const [, post] of posts.readAllEntries()) {
     if (!post.posts) {
       continue;
     }
-    for (const servicePost of post.posts) {
-      if (servicePost.service === service) {
-        yield servicePost;
+    for (const publication of post.posts) {
+      if (publication.service === service) {
+        yield publication;
       }
     }
   }
