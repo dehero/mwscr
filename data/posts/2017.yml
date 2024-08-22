@@ -1810,18 +1810,18 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2024-08-15-21-15-34
+      updated: 2024-08-22-21-16-05
       followers: 919
       likes: 32
-      views: 257
+      views: 258
       reposts: 1
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2024-08-15-21-15-33
+      updated: 2024-08-22-21-16-03
       followers: 391
       likes: 56
-      views: 533
+      views: 537
     - service: ig
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
@@ -2671,18 +2671,18 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2024-08-15-21-15-35
+      updated: 2024-08-22-21-16-06
       followers: 919
       likes: 48
-      views: 314
+      views: 315
       reposts: 3
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2024-08-15-21-15-33
+      updated: 2024-08-22-21-16-04
       followers: 387
       likes: 64
-      views: 454
+      views: 457
       comments: !c |-
         iyiAkZPLQnkECYQ5gACzSmVzc2VfUGlua21hbjJfeXVuZ9kx0K3RgtC+INCy0YvQs9C70Y/QtNC4
         0YIg0YLQsNC6INC/0YDQtdC60YDQsNGB0L3QvgM=
@@ -3574,24 +3574,24 @@
       id: C--2VkaNrtE
       mediaId: '17852714091220944'
       published: 2024-08-22-18-19-42
-      updated: 2024-08-22-20-16-16
+      updated: 2024-08-22-21-15-59
       followers: 1458
-      likes: 32
-      views: 87
+      likes: 39
+      views: 113
     - service: vk
       id: 1701
       published: 2024-08-22-18-19-48
-      updated: 2024-08-22-20-16-17
+      updated: 2024-08-22-21-16-00
       followers: 937
-      likes: 13
-      views: 65
+      likes: 12
+      views: 70
     - service: tg
       id: 509
       published: 2024-08-22-18-19-55
-      updated: 2024-08-22-20-16-17
+      updated: 2024-08-22-21-16-00
       followers: 539
-      likes: 23
-      views: 84
+      likes: 29
+      views: 99
 2017-04-14-in-the-bar:
   title: In the Bar
   titleRu: У барной стойки
@@ -3834,17 +3834,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-08-15-21-15-33
+      updated: 2024-08-22-21-16-05
       followers: 920
-      likes: 39
-      views: 243
+      likes: 40
+      views: 246
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-08-15-21-15-32
+      updated: 2024-08-22-21-16-03
       followers: 397
       likes: 60
-      views: 451
+      views: 456
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'

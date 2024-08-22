@@ -424,18 +424,18 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2024-08-15-21-15-32
+      updated: 2024-08-22-21-16-04
       followers: 921
-      likes: 42
-      views: 270
+      likes: 44
+      views: 276
       reposts: 2
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2024-08-15-21-15-31
+      updated: 2024-08-22-21-16-02
       followers: 399
       likes: 69
-      views: 557
+      views: 571
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -6046,24 +6046,24 @@
       id: C-8RjrEOZBz
       mediaId: '17871768504158345'
       published: 2024-08-21-18-19-50
-      updated: 2024-08-22-20-16-17
+      updated: 2024-08-22-21-16-00
       followers: 1459
-      likes: 73
-      views: 252
+      likes: 74
+      views: 257
     - service: vk
       id: 1700
       published: 2024-08-21-18-19-57
-      updated: 2024-08-22-20-16-18
+      updated: 2024-08-22-21-16-01
       followers: 937
       likes: 31
       views: 161
     - service: tg
       id: 508
       published: 2024-08-21-18-20-03
-      updated: 2024-08-22-20-16-18
+      updated: 2024-08-22-21-16-01
       followers: 538
-      likes: 48
-      views: 172
+      likes: 49
+      views: 174
 2018-07-08-statues-of-gods:
   title: Statues of Gods
   titleRu: Статуи богов
@@ -9031,27 +9031,27 @@
       id: C-s02fCI7m7
       mediaId: '18197312713292587'
       published: 2024-08-15-18-20-29
-      updated: 2024-08-21-21-14-21
+      updated: 2024-08-22-21-16-01
       followers: 1439
-      likes: 91
-      views: 388
+      likes: 92
+      views: 393
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2024-08-21-21-14-23
+      updated: 2024-08-22-21-16-02
       followers: 932
-      likes: 35
-      views: 242
+      likes: 36
+      views: 250
       comments: !c |-
         iyeAkZTLQnkVdl1GgACyeW91cmVuZW1pZXN3aWxscGF5u9Ci0LDQvCDQutC70LDQvSDQkdC10YDQ
         vdC1P5PLQnkVy9vAAACmcDQwamxhpNC00LAD
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2024-08-21-21-14-23
+      updated: 2024-08-22-21-16-01
       followers: 527
       likes: 54
-      views: 340
+      views: 361
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
