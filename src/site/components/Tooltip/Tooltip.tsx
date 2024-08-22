@@ -28,6 +28,7 @@ export const Tooltip: Component<TooltipProps> = (props) => {
   );
 
   const isOverlapped = () => !props.forRef?.contains(document.elementFromPoint(mouse.x, mouse.y));
+  const invertedTooltipY = () => mouse.y - CURSOR_OFFSET_Y + CURSOR_SIZE - (size.height ?? 0);
 
   return (
     <Show when={relative.isInside && mouse.sourceType === 'mouse' && !isOverlapped()}>
@@ -42,8 +43,8 @@ export const Tooltip: Component<TooltipProps> = (props) => {
               Math.max(-CURSOR_OFFSET_X, mouse.x - (size.width ?? 0) / 2),
               window.innerWidth - (size.width ?? 0) - CURSOR_OFFSET_X,
             )}px, ${
-              mouse.y + CURSOR_OFFSET_Y + (size.height ?? 0) > window.innerHeight
-                ? mouse.y - CURSOR_OFFSET_Y + CURSOR_SIZE - (size.height ?? 0)
+              mouse.y + CURSOR_OFFSET_Y + (size.height ?? 0) > window.innerHeight && invertedTooltipY() > 0
+                ? invertedTooltipY()
                 : mouse.y + CURSOR_OFFSET_Y
             }px)`,
           }}

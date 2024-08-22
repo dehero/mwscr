@@ -5,14 +5,16 @@ import {
   comparePostEntriesByRating,
   getPostCommentCount,
   getPostEntriesFromSource,
+  getPostEntryLikes,
   getPostMaxFollowers,
-  getPostTotalLikes,
+  POST_RECENTLY_PUBLISHED_DAYS,
 } from '../../core/entities/post.js';
 import { isPostDraft, isPostRequest, isPublishedPost } from '../../core/entities/post-variation.js';
 import { createUserInfo } from '../../core/entities/user-info.js';
-import { getPostInfo, inbox, posts, trash } from '../../local/data-managers/posts.js';
+import { getPostInfo, getPostInfos, inbox, posts, trash } from '../../local/data-managers/posts.js';
 import { users } from '../../local/data-managers/users.js';
 import type { HomePageData } from '../components/HomePage/HomePage.js';
+import { selectPostInfos } from '../data-utils/post-infos.js';
 
 export async function data(): Promise<HomePageData> {
   const userInfos = await Promise.all(
@@ -30,10 +32,15 @@ export async function data(): Promise<HomePageData> {
   );
 
   const totalFollowers = lastPostEntry ? getPostMaxFollowers(lastPostEntry[1]) : 0;
-  const totalLikes = (await posts.getAllEntries(true)).reduce((acc, [, post]) => acc + getPostTotalLikes(post), 0);
+  const totalLikes = (await posts.getAllEntries()).reduce((acc, entry) => acc + getPostEntryLikes(entry), 0);
   const totalCommentCount = (await posts.getAllEntries(true)).reduce(
     (acc, [, post]) => acc + getPostCommentCount(post),
     0,
+  );
+
+  const recentPostInfos = selectPostInfos(
+    await getPostInfos(posts, comparePostEntriesByDate('desc'), undefined, false, POST_RECENTLY_PUBLISHED_DAYS),
+    { sortDirection: 'asc', sortKey: 'date' },
   );
 
   return {
@@ -56,5 +63,6 @@ export async function data(): Promise<HomePageData> {
     totalFollowers,
     totalLikes,
     totalCommentCount,
+    recentPostInfos,
   };
 }

@@ -1,16 +1,24 @@
 .container {
   display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
   box-sizing: border-box;
-  overflow: auto;
-  min-height: 240px;
-  height: 240px;
-  padding: 2px;
+  min-height: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: none;
+}
+
+.virtualContainer {
+  flex: 1 1 auto;
+  overflow-x: auto;
 }
 
 .virtualItem {
   height: 100%;
   outline: none;
   position: relative;
+  cursor: default;
 }
 
 .item {
@@ -21,4 +29,18 @@
   left: 1px;
   right: 1px;
   bottom: 0;
+}
+
+.itemValue {
+  z-index: 1;
+  position: absolute;
+  top: -8px;
+  left: 0;
+}
+
+.label {
+  color: var(--color-text-light);
+  margin: 0;
+  text-align: center;
+  flex: 0 0 auto;
 }

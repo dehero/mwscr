@@ -1,7 +1,8 @@
 import type { VirtualItemProps } from '@minht11/solid-virtual-container';
 import { VirtualContainer } from '@minht11/solid-virtual-container';
 import clsx from 'clsx';
-import { createContext, createSignal, mergeProps, useContext } from 'solid-js';
+import { createContext, createSignal, mergeProps, Show, useContext } from 'solid-js';
+import { Dynamic } from 'solid-js/web';
 import { groupBy } from '../../../core/utils/common-utils.js';
 import { Frame } from '../Frame/Frame.jsx';
 import { Tooltip } from '../Tooltip/Tooltip.jsx';
@@ -32,14 +33,23 @@ function ListItem<TItem>(props: VirtualItemProps<DiagramInterval<TItem>>) {
   let ref;
 
   return (
-    <div style={props.style} class={styles.virtualItem} tabIndex={props.tabIndex} role="listitem">
-      <Frame
-        class={styles.item}
-        style={{ height: `${((props.item.value - baseValue) / (maxValue - baseValue || 1)) * 100}%` }}
+    <>
+      <Dynamic
+        component={props.item.link ? 'a' : 'div'}
+        href={props.item.link}
+        style={props.style}
+        class={styles.virtualItem}
+        tabIndex={props.tabIndex}
+        role="listitem"
         ref={ref}
-      />
+      >
+        <Frame
+          class={styles.item}
+          style={{ height: `${((props.item.value - baseValue) / (maxValue - baseValue || 1)) * 100}%` }}
+        />
+      </Dynamic>
       <IntervalTooltipComponent forRef={ref} interval={props.item} />
-    </div>
+    </>
   );
 }
 
@@ -62,6 +72,7 @@ export function ClientVirtualDiagram<TItem>(props: DiagramProps<TItem>) {
         interval,
         items,
         value: merged.getIntervalValue(interval, items),
+        link: merged.getIntervalLink?.(interval, items),
       }),
     );
 
@@ -76,6 +87,9 @@ export function ClientVirtualDiagram<TItem>(props: DiagramProps<TItem>) {
 
   return (
     <Frame class={clsx(styles.container, merged.class)} ref={setScrollTarget}>
+      <Show when={merged.label}>
+        <p class={styles.label}>{merged.label}</p>
+      </Show>
       <ClientVirtualDiagramContext.Provider
         value={{
           minValue: minValue(),
@@ -84,14 +98,16 @@ export function ClientVirtualDiagram<TItem>(props: DiagramProps<TItem>) {
           IntervalTooltipComponent: merged.IntervalTooltipComponent as DiagramIntervalTooltipComponent<unknown>,
         }}
       >
-        <VirtualContainer
-          items={intervals()}
-          scrollTarget={scrollTarget()}
-          itemSize={{ width: 12 }}
-          direction="horizontal"
-        >
-          {ListItem}
-        </VirtualContainer>
+        <div class={styles.virtualContainer}>
+          <VirtualContainer
+            items={intervals()}
+            scrollTarget={scrollTarget()}
+            itemSize={{ width: 12 }}
+            direction="horizontal"
+          >
+            {ListItem}
+          </VirtualContainer>
+        </div>
       </ClientVirtualDiagramContext.Provider>
     </Frame>
   );
