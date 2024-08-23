@@ -207,14 +207,14 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2024-08-16-08-19-27
+      updated: 2024-08-23-08-19-52
       followers: 893
       likes: 35
       views: 258
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2024-08-16-08-19-25
+      updated: 2024-08-23-08-19-51
       followers: 345
       likes: 58
       views: 542
@@ -568,7 +568,7 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2024-08-16-08-19-25
+      updated: 2024-08-23-08-19-51
       followers: 896
       likes: 42
       views: 298
@@ -579,10 +579,10 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2024-08-16-07-14-35
+      updated: 2024-08-23-08-19-50
       followers: 352
       likes: 58
-      views: 461
+      views: 462
       comments: !c |-
         CymAkZTLQnjmKMfPAACpR2F0ZW1hdGU32SZ0aGlzIGlzIGEgbWFzb25pYyBsb2RnZT8gbm90IG1v
         cnJvd2luZJPLQnjmKXtAgAClYW5zaXOlaGFoYWgD
@@ -871,7 +871,7 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2024-08-16-07-14-36
+      updated: 2024-08-23-08-19-49
       followers: 906
       likes: 51
       views: 428
@@ -879,10 +879,10 @@
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2024-08-16-07-14-35
+      updated: 2024-08-23-08-19-49
       followers: 354
       likes: 62
-      views: 466
+      views: 467
 2024-04-05-rain-of-sparks: 2017-09-29-rain-of-sparks
 2024-04-06-falling-towers:
   title: Falling Towers
