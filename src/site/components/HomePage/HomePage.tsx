@@ -214,7 +214,7 @@ export const HomePage: Component = () => {
           baseValue="delta"
         />
 
-        <Divider />
+        <Divider class={styles.divider} />
 
         <Diagram
           class={styles.diagram}

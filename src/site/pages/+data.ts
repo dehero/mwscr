@@ -14,7 +14,6 @@ import { createUserInfo } from '../../core/entities/user-info.js';
 import { getPostInfo, getPostInfos, inbox, posts, trash } from '../../local/data-managers/posts.js';
 import { users } from '../../local/data-managers/users.js';
 import type { HomePageData } from '../components/HomePage/HomePage.js';
-import { selectPostInfos } from '../data-utils/post-infos.js';
 
 export async function data(): Promise<HomePageData> {
   const userInfos = await Promise.all(
@@ -38,9 +37,12 @@ export async function data(): Promise<HomePageData> {
     0,
   );
 
-  const recentPostInfos = selectPostInfos(
-    await getPostInfos(posts, comparePostEntriesByDate('desc'), undefined, false, POST_RECENTLY_PUBLISHED_DAYS),
-    { sortDirection: 'asc', sortKey: 'date' },
+  const recentPostInfos = await getPostInfos(
+    posts,
+    comparePostEntriesByDate('desc'),
+    undefined,
+    false,
+    POST_RECENTLY_PUBLISHED_DAYS,
   );
 
   return {

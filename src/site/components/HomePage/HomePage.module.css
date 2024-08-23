@@ -101,9 +101,12 @@
 }
 
 .diagram {
-  flex: 0 1 auto;
   max-width: 100%;
   width: max-content;
+}
+
+.divider {
+  width: 100%;
 }
 
 @media only screen and (min-height: 750px) and (min-width: 750px),

@@ -3,39 +3,51 @@
   flex-flow: column nowrap;
   gap: 8px;
   box-sizing: border-box;
-  min-height: 200px;
-  height: 200px;
-  overflow: hidden;
+  min-width: 200px;
+  width: 200px;
   border: none;
 }
 
 .virtualContainer {
   flex: 1 1 auto;
-  overflow-x: auto;
 }
 
 .virtualItem {
-  height: 100%;
+  width: 100%;
   outline: none;
   position: relative;
   cursor: default;
+  text-decoration: none;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 6px;
+  padding: 1px 0;
 }
 
-.item {
-  min-height: 6px;
-  position: absolute;
+.virtualItem:hover .intervalValue {
+  color: var(--color-text-selected);
+}
+
+.barWrapper {
+  flex: 1 1 auto;
+}
+
+.bar {
+  min-width: 6px;
   box-sizing: border-box;
-  background: linear-gradient(to right, var(--color-loader-top), var(--color-loader-bottom));
-  left: 1px;
-  right: 1px;
-  bottom: 0;
+  background: linear-gradient(to bottom, var(--color-loader-top), var(--color-loader-bottom));
+  height: 6px;
 }
 
-.itemValue {
-  z-index: 1;
-  position: absolute;
-  top: -8px;
-  left: 0;
+.intervalValue {
+  color: var(--color-text);
+  margin: 0;
+  flex: 0 0 auto;
+}
+
+.highlightedIntervalValue {
+  color: var(--color-text-light);
 }
 
 .label {
