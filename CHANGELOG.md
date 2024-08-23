@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.13.0](https://github.com/dehero/mwscr/compare/v1.12.0...v1.13.0) (2024-08-23)
+
+### Features
+
+- make diagrams vertical with values
+  ([39cf115](https://github.com/dehero/mwscr/commit/39cf115921458a3a613420b9b6ed2938d2b4b086))
+
 ## [1.12.0](https://github.com/dehero/mwscr/compare/v1.11.3...v1.12.0) (2024-08-22)
 
 ### Features
