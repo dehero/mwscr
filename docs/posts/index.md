@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`178 items`
+`179 items`
+
+## <span id="2024-08-23-near-the-fishermans-hut">Near the Fisherman&#39;s Hut</span>
+
+`RU` У хижины рыбака
+
+<a href="https://instagram.com/p/Bg9ReenDz7R/" title="2018-03-30-near-the-fishermans-hut"><img alt="store:/shots/2018-03-30-near-the-fishermans-hut.png" src="../../assets/previews/shots/2018-03-30-near-the-fishermans-hut.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-23-near-the-fishermans-hut&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-08-23-near-the-fishermans-hut
+```
+
+> `2018-03-30-near-the-fishermans-hut`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bg9ReenDz7R/)       | 2018-03-30 |       |    89 |       310 |  28.71 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_671)  | 2018-03-30 |   207 |    12 |       147 |   8.16 |
+| [`ig`](https://instagram.com/p/C_BbGpzuG4v/)       | 2024-08-23 |       |       |      1457 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1702) | 2024-08-23 |       |       |       939 |        |
+| [`tg`](https://t.me/mwscr/510)                     | 2024-08-23 |       |       |       538 |        |
+|                                                    |            |       |       |      2934 |  18.44 |
+
+#### Comments
+
+- `ig` <ins title="2018-03-30-19-21-39">l3nku</ins> soooo comfy:)
 
 ## <span id="2024-08-22-corridors-of-hlormaren">Corridors of Hlormaren</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BS0c3hvDN7K/)       | 2017-04-13 |       |    69 |       172 |  40.12 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_257)  | 2017-04-13 |    95 |     2 |        52 |   3.85 |
-| [`ig`](https://instagram.com/p/C--2VkaNrtE/)       | 2024-08-22 |   257 |    69 |      1458 |   4.73 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1701) | 2024-08-22 |   154 |    26 |       937 |   2.77 |
-| [`tg`](https://t.me/mwscr/509)                     | 2024-08-22 |   148 |    43 |       539 |   7.98 |
-|                                                    |            |   559 |   138 |      2934 |  11.89 |
+| [`ig`](https://instagram.com/p/C--2VkaNrtE/)       | 2024-08-22 |   260 |    69 |      1458 |   4.73 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1701) | 2024-08-22 |   157 |    26 |       937 |   2.77 |
+| [`tg`](https://t.me/mwscr/509)                     | 2024-08-22 |   150 |    44 |       539 |   8.16 |
+|                                                    |            |   567 |   139 |      2934 |  11.93 |
 
 ## <span id="2024-08-21-streets-of-vos">Streets of Vos</span>
 
@@ -55,10 +86,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bk8Gj1Clzik/)       | 2018-07-07 |       |    99 |       356 |  27.81 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_798)  | 2018-07-07 |   252 |    21 |       185 |  11.35 |
-| [`ig`](https://instagram.com/p/C-8RjrEOZBz/)       | 2024-08-21 |   272 |    78 |      1459 |   5.35 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1700) | 2024-08-21 |   187 |    34 |       937 |   3.63 |
-| [`tg`](https://t.me/mwscr/508)                     | 2024-08-21 |   191 |    51 |       538 |   9.48 |
-|                                                    |            |   650 |   163 |      2934 |  11.52 |
+| [`ig`](https://instagram.com/p/C-8RjrEOZBz/)       | 2024-08-21 |   274 |    78 |      1459 |   5.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1700) | 2024-08-21 |   190 |    34 |       937 |   3.63 |
+| [`tg`](https://t.me/mwscr/508)                     | 2024-08-21 |   193 |    52 |       538 |   9.67 |
+|                                                    |            |   657 |   164 |      2934 |  11.56 |
 
 ## <span id="2024-08-20-sunset-at-the-crossroads">Sunset at the Crossroads</span>
 
