@@ -3574,24 +3574,24 @@
       id: C--2VkaNrtE
       mediaId: '17852714091220944'
       published: 2024-08-22-18-19-42
-      updated: 2024-08-24-17-13-55
+      updated: 2024-08-24-18-17-57
       followers: 1458
       likes: 77
-      views: 289
+      views: 290
     - service: vk
       id: 1701
       published: 2024-08-22-18-19-48
-      updated: 2024-08-24-17-13-56
+      updated: 2024-08-24-18-17-58
       followers: 937
       likes: 28
-      views: 184
+      views: 186
     - service: tg
       id: 509
       published: 2024-08-22-18-19-55
-      updated: 2024-08-24-17-13-57
+      updated: 2024-08-24-18-17-59
       followers: 539
-      likes: 47
-      views: 197
+      likes: 48
+      views: 199
 2017-04-14-in-the-bar:
   title: In the Bar
   titleRu: У барной стойки
@@ -4273,6 +4273,19 @@
       followers: 56
       likes: 7
       views: 104
+    - service: ig
+      id: C_D_wFZyrog
+      mediaId: '18030629690219855'
+      published: 2024-08-24-18-18-11
+      followers: 1457
+    - service: vk
+      id: 1705
+      published: 2024-08-24-18-18-18
+      followers: 940
+    - service: tg
+      id: 511
+      published: 2024-08-24-18-18-25
+      followers: 541
 2017-05-05-sunset-fir-trees:
   title: Sunset Fir-Trees
   titleRu: Закатные ели

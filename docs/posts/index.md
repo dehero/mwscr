@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`179 items`
+`180 items`
+
+## <span id="2024-08-24-neighboring-towers">Neighboring Towers</span>
+
+`RU` Башни-соседи
+
+<a href="https://instagram.com/p/BTqhBN1D91G/" title="2017-05-04-neighboring-towers"><img alt="store:/shots/2017-05-04-neighboring-towers.png" src="../../assets/previews/shots/2017-05-04-neighboring-towers.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-24-neighboring-towers&postLocation=)</code> `🚀 OpenMW` `tower`
+
+```
+2024-08-24-neighboring-towers
+```
+
+> `2017-05-04-neighboring-towers`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BTqhBN1D91G/)       | 2017-05-04 |       |    63 |       175 |     36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_279)  | 2017-05-04 |   104 |     7 |        56 |   12.5 |
+| [`ig`](https://instagram.com/p/C_D_wFZyrog/)       | 2024-08-24 |       |       |      1457 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1705) | 2024-08-24 |       |       |       940 |        |
+| [`tg`](https://t.me/mwscr/511)                     | 2024-08-24 |       |       |       541 |        |
+|                                                    |            |       |       |      2938 |  24.25 |
 
 ## <span id="2024-08-23-near-the-fishermans-hut">Near the Fisherman&#39;s Hut</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bg9ReenDz7R/)       | 2018-03-30 |       |    89 |       310 |  28.71 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_671)  | 2018-03-30 |   207 |    12 |       147 |   8.16 |
-| [`ig`](https://instagram.com/p/C_BbGpzuG4v/)       | 2024-08-23 |   226 |    62 |      1457 |   4.26 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1702) | 2024-08-23 |   159 |    36 |       939 |   3.83 |
-| [`tg`](https://t.me/mwscr/510)                     | 2024-08-23 |   156 |    42 |       538 |   7.81 |
-|                                                    |            |   541 |   140 |      2934 |  10.55 |
+| [`ig`](https://instagram.com/p/C_BbGpzuG4v/)       | 2024-08-23 |   228 |    62 |      1457 |   4.26 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1702) | 2024-08-23 |   162 |    36 |       939 |   3.83 |
+| [`tg`](https://t.me/mwscr/510)                     | 2024-08-23 |   159 |    44 |       538 |   8.18 |
+|                                                    |            |   549 |   142 |      2934 |  10.63 |
 
 #### Comments
 
@@ -61,10 +88,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BS0c3hvDN7K/)       | 2017-04-13 |       |    69 |       172 |  40.12 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_257)  | 2017-04-13 |    95 |     2 |        52 |   3.85 |
-| [`ig`](https://instagram.com/p/C--2VkaNrtE/)       | 2024-08-22 |   289 |    77 |      1458 |   5.28 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1701) | 2024-08-22 |   184 |    28 |       937 |   2.99 |
-| [`tg`](https://t.me/mwscr/509)                     | 2024-08-22 |   197 |    47 |       539 |   8.72 |
-|                                                    |            |   670 |   152 |      2934 |  12.19 |
+| [`ig`](https://instagram.com/p/C--2VkaNrtE/)       | 2024-08-22 |   290 |    77 |      1458 |   5.28 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1701) | 2024-08-22 |   186 |    28 |       937 |   2.99 |
+| [`tg`](https://t.me/mwscr/509)                     | 2024-08-22 |   199 |    48 |       539 |   8.91 |
+|                                                    |            |   675 |   153 |      2934 |  12.23 |
 
 ## <span id="2024-08-21-streets-of-vos">Streets of Vos</span>
 
