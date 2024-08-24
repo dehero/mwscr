@@ -1701,17 +1701,17 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2024-08-17-20-15-09
+      updated: 2024-08-24-20-16-06
       followers: 927
-      likes: 24
-      views: 213
+      likes: 26
+      views: 232
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
-      updated: 2024-08-17-20-15-08
+      updated: 2024-08-24-20-16-05
       followers: 514
-      likes: 51
-      views: 347
+      likes: 52
+      views: 435
       comments: !c |-
         G7wAABypvX60oN8IlX7Pun5bvnzvKtlkf9GhcOYLoW+CyJDXBIVOTuByTDAAz9JTYBq1lNKyEoDm
         PPH0Njh2z0r7GlYRxBqbKqDJqd8imMVqFx/gBA7gFm7gFEvYbXcHV1iCAyy3cIQN7NKR8xOb5PxK
@@ -2825,17 +2825,17 @@
       id: C_BbGpzuG4v
       mediaId: '17923658099841263'
       published: 2024-08-23-18-19-28
-      updated: 2024-08-24-19-10-38
+      updated: 2024-08-24-20-16-02
       followers: 1457
-      likes: 62
-      views: 234
+      likes: 63
+      views: 238
     - service: vk
       id: 1702
       published: 2024-08-23-18-19-34
-      updated: 2024-08-24-19-10-39
+      updated: 2024-08-24-20-16-05
       followers: 939
-      likes: 36
-      views: 162
+      likes: 37
+      views: 164
       comments: !c |-
         G3UB4JyHsY1oO2w3Xyg1QhD/D9zjJpPpZPj2uWUhlWSQlGCRJeeSpam6/UY4hILgkP2gSfm/Dr53
         x5GFAcf07n4t+VuLOI3Tk8V6mxktakxVhBQEIBdHGhjFXaKJPPOE42RigXMsWeJZFORh+vPrt8+t
@@ -2845,10 +2845,10 @@
     - service: tg
       id: 510
       published: 2024-08-23-18-19-41
-      updated: 2024-08-24-19-10-39
+      updated: 2024-08-24-20-16-04
       followers: 538
       likes: 46
-      views: 179
+      views: 186
 2018-03-31-vori-likes-to-come-here:
   title: Vori Likes to Come Here
   titleRu: Вори любит сюда приходить
