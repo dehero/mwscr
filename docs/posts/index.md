@@ -4,7 +4,39 @@
 
 # Posted in 2024
 
-`180 items`
+`181 items`
+
+## <span id="2024-08-25-near-the-ghostgate">Near the Ghostgate</span>
+
+`RU` У Призрачных Врат
+
+<a href="https://instagram.com/p/BnUWz5ZFjUY/" title="2018-09-04-near-the-ghostgate"><img alt="store:/shots/2018-09-04-near-the-ghostgate.png" src="../../assets/previews/shots/2018-09-04-near-the-ghostgate.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Ghostgate` `🚀 OpenMW`
+
+```
+2024-08-25-near-the-ghostgate
+```
+
+> `2018-09-04-near-the-ghostgate`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BnUWz5ZFjUY/)       | 2018-09-04 |       |   104 |       411 |   25.3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_902)  | 2018-09-04 |   353 |    20 |       223 |   8.97 |
+| [`tg`](https://t.me/mwscr/10)                      | 2018-09-04 |   189 |     2 |           |        |
+| [`ig`](https://instagram.com/p/C_Gkjg6Nfuj/)       | 2024-08-25 |       |       |      1455 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1707) | 2024-08-25 |       |       |       940 |        |
+| [`tg`](https://t.me/mwscr/512)                     | 2024-08-25 |       |       |       542 |        |
+|                                                    |            |       |       |      2937 |  17.14 |
+
+#### Comments
+
+- `vk` <ins title="2018-09-05-08-25-19">dead___end</ins> Дальше проход закрыт.
 
 ## <span id="2024-08-24-neighboring-towers">Neighboring Towers</span>
 
@@ -28,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTqhBN1D91G/)       | 2017-05-04 |       |    63 |       175 |     36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_279)  | 2017-05-04 |   104 |     7 |        56 |   12.5 |
-| [`ig`](https://instagram.com/p/C_D_wFZyrog/)       | 2024-08-24 |   311 |    78 |      1457 |   5.35 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1705) | 2024-08-24 |   181 |    28 |       940 |   3.09 |
-| [`tg`](https://t.me/mwscr/511)                     | 2024-08-24 |   149 |    41 |       541 |   7.58 |
-|                                                    |            |   641 |   147 |      2938 |   12.9 |
+| [`ig`](https://instagram.com/p/C_D_wFZyrog/)       | 2024-08-24 |   313 |    79 |      1457 |   5.42 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1705) | 2024-08-24 |   183 |    28 |       940 |   3.09 |
+| [`tg`](https://t.me/mwscr/511)                     | 2024-08-24 |   150 |    41 |       541 |   7.58 |
+|                                                    |            |   646 |   148 |      2938 |  12.92 |
 
 ## <span id="2024-08-23-near-the-fishermans-hut">Near the Fisherman&#39;s Hut</span>
 
@@ -55,10 +87,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bg9ReenDz7R/)       | 2018-03-30 |       |    89 |       310 |  28.71 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_671)  | 2018-03-30 |   207 |    12 |       147 |   8.16 |
-| [`ig`](https://instagram.com/p/C_BbGpzuG4v/)       | 2024-08-23 |   270 |    68 |      1457 |   4.67 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1702) | 2024-08-23 |   186 |    40 |       939 |   4.26 |
-| [`tg`](https://t.me/mwscr/510)                     | 2024-08-23 |   204 |    48 |       538 |   8.92 |
-|                                                    |            |   660 |   156 |      2934 |  10.94 |
+| [`ig`](https://instagram.com/p/C_BbGpzuG4v/)       | 2024-08-23 |   271 |    68 |      1457 |   4.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1702) | 2024-08-23 |   188 |    40 |       939 |   4.26 |
+| [`tg`](https://t.me/mwscr/510)                     | 2024-08-23 |   205 |    48 |       538 |   8.92 |
+|                                                    |            |   664 |   156 |      2934 |  10.94 |
 
 #### Comments
 
@@ -89,10 +121,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BS0c3hvDN7K/)       | 2017-04-13 |       |    69 |       172 |  40.12 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_257)  | 2017-04-13 |    95 |     2 |        52 |   3.85 |
-| [`ig`](https://instagram.com/p/C--2VkaNrtE/)       | 2024-08-22 |   290 |    77 |      1458 |   5.28 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1701) | 2024-08-22 |   186 |    28 |       937 |   2.99 |
-| [`tg`](https://t.me/mwscr/509)                     | 2024-08-22 |   199 |    48 |       539 |   8.91 |
-|                                                    |            |   675 |   153 |      2934 |  12.23 |
+| [`ig`](https://instagram.com/p/C--2VkaNrtE/)       | 2024-08-22 |   308 |    85 |      1458 |   5.83 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1701) | 2024-08-22 |   206 |    30 |       937 |    3.2 |
+| [`tg`](https://t.me/mwscr/509)                     | 2024-08-22 |   227 |    48 |       539 |   8.91 |
+|                                                    |            |   741 |   163 |      2934 |  12.38 |
 
 ## <span id="2024-08-21-streets-of-vos">Streets of Vos</span>
 

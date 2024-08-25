@@ -2825,17 +2825,17 @@
       id: C_BbGpzuG4v
       mediaId: '17923658099841263'
       published: 2024-08-23-18-19-28
-      updated: 2024-08-25-17-15-08
+      updated: 2024-08-25-18-18-01
       followers: 1457
       likes: 68
-      views: 270
+      views: 271
     - service: vk
       id: 1702
       published: 2024-08-23-18-19-34
-      updated: 2024-08-25-17-15-09
+      updated: 2024-08-25-18-18-03
       followers: 939
       likes: 40
-      views: 186
+      views: 188
       comments: !c |-
         G8wBQCwOzHM/RaA7N2D4zUrICElmef7hXs3YuvHlU7YFKRSCYLvFUrJ5Llm1qm7HCIdQEByy32nS
         n6+D/9xxZGFgbTG9+1dLbmsBBpzGJVletZ4s1huza1FjqtAKtjzRMDDoosH4RQfymurDgBJqYouC
@@ -2846,10 +2846,10 @@
     - service: tg
       id: 510
       published: 2024-08-23-18-19-41
-      updated: 2024-08-25-17-15-09
+      updated: 2024-08-25-18-18-02
       followers: 538
       likes: 48
-      views: 204
+      views: 205
 2018-03-31-vori-likes-to-come-here:
   title: Vori Likes to Come Here
   titleRu: Вори любит сюда приходить
@@ -7904,6 +7904,19 @@
       updated: 2024-08-20-16-18-17
       likes: 2
       views: 189
+    - service: ig
+      id: C_Gkjg6Nfuj
+      mediaId: '17929160141924204'
+      published: 2024-08-25-18-18-13
+      followers: 1455
+    - service: vk
+      id: 1707
+      published: 2024-08-25-18-18-20
+      followers: 940
+    - service: tg
+      id: 512
+      published: 2024-08-25-18-18-26
+      followers: 542
 2018-09-05-bonewalker:
   title: Bonewalker
   titleRu: Ходячий труп
