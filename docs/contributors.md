@@ -63,6 +63,15 @@ Likes: 239
 irina-bystritskaya
 ```
 
+### kayrac?k
+
+Roles: `author` `beginner`  
+Authored: 1 pending  
+
+```
+kayrac-k
+```
+
 ## Requesters
 
 ### buck-the-cuck
@@ -138,4 +147,14 @@ Authored: 1 rejected
 
 ```
 remmlah
+```
+
+### helvgen
+
+[GitHub](https://github.com/Helvgen)
+
+Roles: `beginner`  
+
+```
+helvgen
 ```
