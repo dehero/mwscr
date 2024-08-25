@@ -1765,18 +1765,18 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-08-18-02-35-43
+      updated: 2024-08-25-02-38-53
       followers: 916
-      likes: 51
-      views: 396
+      likes: 52
+      views: 400
       reposts: 7
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-08-18-02-35-41
+      updated: 2024-08-25-02-38-52
       followers: 386
       likes: 71
-      views: 496
+      views: 500
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -4277,25 +4277,25 @@
       id: C_D_wFZyrog
       mediaId: '18030629690219855'
       published: 2024-08-24-18-18-11
-      updated: 2024-08-25-01-11-58
+      updated: 2024-08-25-02-38-47
       followers: 1457
-      likes: 57
-      views: 204
+      likes: 62
+      views: 214
     - service: vk
       id: 1705
       published: 2024-08-24-18-18-18
-      updated: 2024-08-25-01-11-59
+      updated: 2024-08-25-02-38-47
       followers: 940
-      likes: 17
-      views: 101
+      likes: 19
+      views: 107
       reposts: 1
     - service: tg
       id: 511
       published: 2024-08-24-18-18-25
-      updated: 2024-08-25-01-11-59
+      updated: 2024-08-25-02-38-48
       followers: 541
-      likes: 31
-      views: 111
+      likes: 32
+      views: 116
 2017-05-05-sunset-fir-trees:
   title: Sunset Fir-Trees
   titleRu: Закатные ели
@@ -5723,17 +5723,17 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2024-08-18-02-35-42
+      updated: 2024-08-25-02-38-52
       followers: 920
       likes: 38
-      views: 272
+      views: 273
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2024-08-18-02-35-41
+      updated: 2024-08-25-02-38-51
       followers: 387
       likes: 59
-      views: 447
+      views: 451
 2017-06-18-manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
@@ -11278,10 +11278,10 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-08-18-02-35-40
+      updated: 2024-08-25-02-38-50
       followers: 919
-      likes: 49
-      views: 271
+      likes: 50
+      views: 274
       reposts: 2
       comments: !c |-
         GwkDICwOeNMnhJTV1OIP4sZdED0fFzvCf3gQUKRJWGZNMwk0NSWe7AMNLEpXW8j1S7RazBOZBw/M
@@ -11295,10 +11295,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-08-18-02-35-39
+      updated: 2024-08-25-02-38-50
       followers: 393
       likes: 58
-      views: 436
+      views: 439
     - service: ig
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
