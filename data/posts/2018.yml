@@ -5591,17 +5591,17 @@
     - service: vk
       id: 1667
       published: 2024-08-04-18-18-36
-      updated: 2024-08-18-22-14-10
+      updated: 2024-08-25-23-14-38
       followers: 927
       likes: 34
-      views: 241
+      views: 252
     - service: tg
       id: 490
       published: 2024-08-04-18-18-43
-      updated: 2024-08-18-22-14-10
+      updated: 2024-08-25-23-14-38
       followers: 476
       likes: 62
-      views: 688
+      views: 719
       comments: !c |-
         G+0AICwSeA71cYPQBcSN9t86gfLpT815tsVy0YiFw9Exdi1WnoC10haY72NAW73hjvNS7k9EIyng
         kAPxQKrtZrHURElT9upnyGaXYGB8a0Fb0gJKw0AifsIXf5AH3VhoZpHHgUN82Bye2kr4qQ6cPDuP
@@ -7908,24 +7908,24 @@
       id: C_Gkjg6Nfuj
       mediaId: '17929160141924204'
       published: 2024-08-25-18-18-13
-      updated: 2024-08-25-22-13-30
+      updated: 2024-08-25-23-14-35
       followers: 1455
-      likes: 49
-      views: 158
+      likes: 54
+      views: 177
     - service: vk
       id: 1707
       published: 2024-08-25-18-18-20
-      updated: 2024-08-25-22-13-30
+      updated: 2024-08-25-23-14-36
       followers: 940
-      likes: 17
-      views: 78
+      likes: 19
+      views: 88
     - service: tg
       id: 512
       published: 2024-08-25-18-18-26
-      updated: 2024-08-25-22-13-30
+      updated: 2024-08-25-23-14-36
       followers: 542
-      likes: 35
-      views: 106
+      likes: 37
+      views: 111
 2018-09-05-bonewalker:
   title: Bonewalker
   titleRu: Ходячий труп
@@ -8691,20 +8691,20 @@
     - service: vk
       id: 1648
       published: 2024-07-21-18-19-00
-      updated: 2024-08-18-22-14-12
+      updated: 2024-08-25-23-14-40
       followers: 919
-      likes: 25
-      views: 256
+      likes: 26
+      views: 262
       comments: !c |-
         G4AA4B0JNs5xjUHoYYS0i3BAoUcWaBdJ4skPnGMl1iGoh6PlLf6Xr0Uqgvkxbr+Z8g2qEArYgAOX
         aLVBfIOATxzMNZ77gwuY9nhrTDdE5F5bMdWfGN3KBSfvQpEeQldfnGKQRtiQ7oMbikevMX6Z
     - service: tg
       id: 476
       published: 2024-07-21-18-19-07
-      updated: 2024-08-18-22-14-12
+      updated: 2024-08-25-23-14-40
       followers: 400
       likes: 49
-      views: 491
+      views: 499
 2018-09-25-what-do-you-know-about-comfort:
   title: What Do You Know About Comfort?
   titleRu: Что вы знаете о комфорте?
