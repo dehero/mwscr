@@ -16,9 +16,6 @@ eastcoast-lg:
   name: Luke Gordon
   profiles:
     ig: eastcoast_lg
-helvgen:
-  profiles:
-    gh: Helvgen
 i-love-the-night:
   name: Макс Лис
   profiles:
@@ -34,8 +31,9 @@ irina-bystritskaya:
   profiles:
     vk: club207258733
 kayrac-k:
-  name: kayrac?k
-  profiles: {}
+  name: kayrac-k
+  profiles:
+    gh: Helvgen
 knives-out:
   name: Knives Out
   profiles:
