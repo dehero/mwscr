@@ -6382,10 +6382,10 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2024-08-19-22-15-17
+      updated: 2024-08-26-23-15-33
       followers: 919
       likes: 37
-      views: 272
+      views: 273
       reposts: 2
       comments: !c |-
         G2kBQCwKbBu2NSy3aG+yVz+UohPxD3WxJdzxm9XDIz4P0oQv4KQgoECS93VuLRpaZbNZEiJMQLkh
@@ -6396,10 +6396,10 @@
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2024-08-19-22-15-15
+      updated: 2024-08-26-23-15-32
       followers: 395
       likes: 59
-      views: 441
+      views: 445
       comments: !c CxiAkZPLQnkP1+/4gACpR2F0ZW1hdGU3u2hhdHcgdGhlc2UgbW90aGVyIGZ1Y2tlcnMuLgM=
     - service: ig
       id: C9Ug-PYxnq2
@@ -8880,10 +8880,10 @@
     - service: vk
       id: 1650
       published: 2024-07-22-18-20-29
-      updated: 2024-08-19-22-15-16
+      updated: 2024-08-26-23-15-32
       followers: 920
       likes: 37
-      views: 285
+      views: 288
       reposts: 1
       comments: !c |-
         G6kAIKwOeDOWKwkaNpHUgwF3nX5E4I30Bzr0yQwXeBYmlNyDBbU5SwqykKdDOHk09tnZasAwTaMm
@@ -8892,10 +8892,10 @@
     - service: tg
       id: 477
       published: 2024-07-22-18-20-38
-      updated: 2024-08-19-22-15-14
+      updated: 2024-08-26-23-15-31
       followers: 400
       likes: 61
-      views: 523
+      views: 533
 2017-09-28-mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
@@ -9377,18 +9377,18 @@
     - service: vk
       id: 1638
       published: 2024-07-15-18-20-44
-      updated: 2024-08-19-22-15-17
+      updated: 2024-08-26-23-15-33
       followers: 919
       likes: 41
-      views: 246
+      views: 248
       reposts: 1
     - service: tg
       id: 470
       published: 2024-07-15-18-20-51
-      updated: 2024-08-19-22-15-14
+      updated: 2024-08-26-23-15-31
       followers: 399
       likes: 60
-      views: 692
+      views: 704
 2017-10-15-mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров
