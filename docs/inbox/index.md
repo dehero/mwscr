@@ -420,19 +420,19 @@ natty.2024-03-10-12-49-25
 natty.2024-03-10-12-44-23
 ```
 
-## <span id="kayrac-k.2024-08-25-ea73f048-eba9-4e7e-8c2f-ee94ff6aa210-sky-of-vivec-0a774617">Ea73f048-Eba9-4e7e-8c2f-Ee94ff6aa210 Sky of Vivec</span>
+## <span id="kayrac-k.2024-08-25-sky-of-vivec">Sky of Vivec</span>
 
-![store:/inbox/kayrac-k.2024-08-25-ea73f048-eba9-4e7e-8c2f-ee94ff6aa210-sky-of-vivec-0a774617](../../assets/previews/inbox/kayrac-k.avif "kayrac-k")
+![store:/inbox/kayrac-k.2024-08-25-sky-of-vivec.png](../../assets/previews/inbox/kayrac-k.2024-08-25-sky-of-vivec.avif "kayrac-k.2024-08-25-sky-of-vivec")
 
-`shot` by [kayrac?k](../contributors.md#kayrac-k)
+`shot` by [kayrac-k](../contributors.md#kayrac-k)
 
 > [!WARNING]
-> Need russian title, need mark, unable to detect possible post type from content.
+> Need russian title, need mark.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayrac-k.2024-08-25-ea73f048-eba9-4e7e-8c2f-ee94ff6aa210-sky-of-vivec-0a774617&amp;postContent=store%3A%2Finbox%2Fkayrac-k.2024-08-25-ea73f048-eba9-4e7e-8c2f-ee94ff6aa210-sky-of-vivec-0a774617&amp;postTitle=Ea73f048-Eba9-4e7e-8c2f-Ee94ff6aa210+Sky+of+Vivec&amp;postTitleRu=&amp;postAuthor=kayrac-k&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayrac-k.2024-08-25-ea73f048-eba9-4e7e-8c2f-ee94ff6aa210-sky-of-vivec-0a774617) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayrac-k.2024-08-25-ea73f048-eba9-4e7e-8c2f-ee94ff6aa210-sky-of-vivec-0a774617) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayrac-k.2024-08-25-ea73f048-eba9-4e7e-8c2f-ee94ff6aa210-sky-of-vivec-0a774617&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayrac-k.2024-08-25-sky-of-vivec&amp;postContent=store%3A%2Finbox%2Fkayrac-k.2024-08-25-sky-of-vivec.png&amp;postTitle=Sky+of+Vivec&amp;postTitleRu=&amp;postAuthor=kayrac-k&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayrac-k.2024-08-25-sky-of-vivec) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayrac-k.2024-08-25-sky-of-vivec) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayrac-k.2024-08-25-sky-of-vivec&postLocation=)</code>
 
 ```
-kayrac-k.2024-08-25-ea73f048-eba9-4e7e-8c2f-ee94ff6aa210-sky-of-vivec-0a774617
+kayrac-k.2024-08-25-sky-of-vivec
 ```
 
 ## <span id="dehero.2024-03-05-20-06-06">dehero.2024-03-05-20-06-06</span>

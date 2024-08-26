@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/BnUWz5ZFjUY/)       | 2018-09-04 |       |   104 |       411 |   25.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_902)  | 2018-09-04 |   353 |    20 |       223 |   8.97 |
 | [`tg`](https://t.me/mwscr/10)                      | 2018-09-04 |   189 |     2 |           |        |
-| [`ig`](https://instagram.com/p/C_Gkjg6Nfuj/)       | 2024-08-25 |   221 |    65 |      1455 |   4.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1707) | 2024-08-25 |   110 |    22 |       940 |   2.34 |
-| [`tg`](https://t.me/mwscr/512)                     | 2024-08-25 |   145 |    43 |       542 |   7.93 |
-|                                                    |            |   476 |   130 |      2937 |    9.8 |
+| [`ig`](https://instagram.com/p/C_Gkjg6Nfuj/)       | 2024-08-25 |   225 |    66 |      1455 |   4.54 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1707) | 2024-08-25 |   115 |    23 |       940 |   2.45 |
+| [`tg`](https://t.me/mwscr/512)                     | 2024-08-25 |   149 |    44 |       542 |   8.12 |
+|                                                    |            |   489 |   133 |      2937 |   9.87 |
 
 #### Comments
 
@@ -61,9 +61,9 @@
 | [`ig`](https://instagram.com/p/BTqhBN1D91G/)       | 2017-05-04 |       |    63 |       175 |     36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_279)  | 2017-05-04 |   104 |     7 |        56 |   12.5 |
 | [`ig`](https://instagram.com/p/C_D_wFZyrog/)       | 2024-08-24 |   333 |    84 |      1457 |   5.77 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1705) | 2024-08-24 |   196 |    30 |       940 |    3.3 |
-| [`tg`](https://t.me/mwscr/511)                     | 2024-08-24 |   188 |    46 |       541 |    8.5 |
-|                                                    |            |   717 |   160 |      2938 |  13.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1705) | 2024-08-24 |   197 |    30 |       940 |    3.3 |
+| [`tg`](https://t.me/mwscr/511)                     | 2024-08-24 |   189 |    46 |       541 |    8.5 |
+|                                                    |            |   719 |   160 |      2938 |  13.21 |
 
 ## <span id="2024-08-23-near-the-fishermans-hut">Near the Fisherman&#39;s Hut</span>
 
