@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`38 items`
+`37 items`
 
 ## <span id="natty.2024-03-28-20-45-29">natty.2024-03-28-20-45-29</span>
 
@@ -418,21 +418,6 @@ natty.2024-03-10-12-49-25
 
 ```
 natty.2024-03-10-12-44-23
-```
-
-## <span id="kayrac-k.2024-08-25-sky-of-vivec">Sky of Vivec</span>
-
-![store:/inbox/kayrac-k.2024-08-25-sky-of-vivec.png](../../assets/previews/inbox/kayrac-k.2024-08-25-sky-of-vivec.avif "kayrac-k.2024-08-25-sky-of-vivec")
-
-`shot` by [kayrac-k](../contributors.md#kayrac-k)
-
-> [!WARNING]
-> Need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayrac-k.2024-08-25-sky-of-vivec&amp;postContent=store%3A%2Finbox%2Fkayrac-k.2024-08-25-sky-of-vivec.png&amp;postTitle=Sky+of+Vivec&amp;postTitleRu=&amp;postAuthor=kayrac-k&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayrac-k.2024-08-25-sky-of-vivec) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayrac-k.2024-08-25-sky-of-vivec) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayrac-k.2024-08-25-sky-of-vivec&postLocation=)</code>
-
-```
-kayrac-k.2024-08-25-sky-of-vivec
 ```
 
 ## <span id="dehero.2024-03-05-20-06-06">dehero.2024-03-05-20-06-06</span>
