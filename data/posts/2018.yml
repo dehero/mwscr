@@ -3127,10 +3127,10 @@
     - service: vk
       id: 1595
       published: 2024-06-23-18-18-57
-      updated: 2024-08-19-03-16-33
+      updated: 2024-08-26-03-18-49
       followers: 918
       likes: 35
-      views: 271
+      views: 272
       reposts: 2
       comments: !c |-
         G4gBAKwSbBsG2w8bynXAGZ7iZETfb+wHKP1RmT/MUGidRNCiQUs2WAKpWCh7XTfnc76uYpEEqtti
@@ -3141,10 +3141,10 @@
     - service: tg
       id: 448
       published: 2024-06-23-18-19-06
-      updated: 2024-08-19-03-16-32
+      updated: 2024-08-26-03-18-49
       followers: 389
       likes: 52
-      views: 454
+      views: 456
 2018-04-08-the-symmetry-of-vivec:
   title: The Symmetry of Vivec
   titleRu: Симметрия Вивека
@@ -7908,24 +7908,24 @@
       id: C_Gkjg6Nfuj
       mediaId: '17929160141924204'
       published: 2024-08-25-18-18-13
-      updated: 2024-08-26-02-35-46
+      updated: 2024-08-26-03-18-44
       followers: 1455
       likes: 63
-      views: 209
+      views: 213
     - service: vk
       id: 1707
       published: 2024-08-25-18-18-20
-      updated: 2024-08-26-02-35-47
+      updated: 2024-08-26-03-18-43
       followers: 940
       likes: 20
-      views: 93
+      views: 94
     - service: tg
       id: 512
       published: 2024-08-25-18-18-26
-      updated: 2024-08-26-02-35-47
+      updated: 2024-08-26-03-18-44
       followers: 542
       likes: 39
-      views: 129
+      views: 133
 2018-09-05-bonewalker:
   title: Bonewalker
   titleRu: Ходячий труп
