@@ -1942,10 +1942,10 @@
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
-      updated: 2024-08-19-06-21-16
+      updated: 2024-08-26-06-21-32
       followers: 909
       likes: 46
-      views: 302
+      views: 303
       reposts: 1
       comments: !c |-
         G4QA6I3EOIZyG6Y3MUKlQ1S3CI/1DLKkSZsJvO+Tm3mQZBc0oB88Z7wSGcko6pWUbWc9OOTA5fs8
@@ -1954,10 +1954,10 @@
     - service: tg
       id: 385
       published: 2024-04-21-18-17-47
-      updated: 2024-08-19-06-21-16
+      updated: 2024-08-26-06-21-32
       followers: 354
-      likes: 63
-      views: 449
+      likes: 64
+      views: 452
       comments: !c |-
         GxUB4B2J6TY4WRjE4Mgnp1zkmUcccdHnh9N9+lNDlHuYbByrY3PPM8a2CJSsggX62iyD54f/3Ikm
         GAC/a7vtb9GHtjAN7AA0saC2ObcMzVoKdhBf9Sn9ndec8R1/Kq3Rhveo9epmJvELYVP/9xlRg7HB
@@ -7908,24 +7908,24 @@
       id: C_Gkjg6Nfuj
       mediaId: '17929160141924204'
       published: 2024-08-25-18-18-13
-      updated: 2024-08-26-05-35-26
+      updated: 2024-08-26-06-21-28
       followers: 1455
-      likes: 66
-      views: 225
+      likes: 68
+      views: 228
     - service: vk
       id: 1707
       published: 2024-08-25-18-18-20
-      updated: 2024-08-26-05-35-26
+      updated: 2024-08-26-06-21-28
       followers: 940
       likes: 23
-      views: 115
+      views: 117
     - service: tg
       id: 512
       published: 2024-08-25-18-18-26
-      updated: 2024-08-26-05-35-27
+      updated: 2024-08-26-06-21-29
       followers: 542
-      likes: 44
-      views: 149
+      likes: 46
+      views: 159
 2018-09-05-bonewalker:
   title: Bonewalker
   titleRu: Ходячий труп
