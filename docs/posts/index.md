@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`182 items`
+`183 items`
+
+## <span id="2024-08-27-fork-of-horripilation-and-other-accessories">Fork of Horripilation and Other Accessories</span>
+
+`RU` Вилка Щекотки и другие принадлежности
+
+<a href="https://instagram.com/p/Be0q5Z8jyW3/" title="2018-02-05-fork-of-horripilation-and-other-accessories"><img alt="store:/shots/2018-02-05-fork-of-horripilation-and-other-accessories.png" src="../../assets/previews/shots/2018-02-05-fork-of-horripilation-and-other-accessories.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-27-fork-of-horripilation-and-other-accessories&postLocation=)</code> `🚀 OpenMW` `fork`
+
+```
+2024-08-27-fork-of-horripilation-and-other-accessories
+```
+
+> `2018-02-05-fork-of-horripilation-and-other-accessories`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Be0q5Z8jyW3/)       | 2018-02-05 |       |    76 |       283 |  26.86 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_604)  | 2018-02-05 |   190 |    12 |       125 |    9.6 |
+| [`ig`](https://instagram.com/p/C_LuWTjPpEs/)       | 2024-08-27 |       |       |      1458 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1712) | 2024-08-27 |       |       |       939 |        |
+| [`tg`](https://t.me/mwscr/514)                     | 2024-08-27 |       |       |       544 |        |
+|                                                    |            |       |       |      2941 |  18.23 |
 
 ## <span id="2024-08-26-azura-from-underwater">Azura from Underwater</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BkLL-0UlMSz/)       | 2018-06-18 |       |   109 |       347 |  31.41 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_772)  | 2018-06-18 |   295 |    23 |       174 |  13.22 |
-| [`ig`](https://instagram.com/p/C_JJkgzvCqD/)       | 2024-08-26 |   312 |    95 |      1457 |   6.52 |
+| [`ig`](https://instagram.com/p/C_JJkgzvCqD/)       | 2024-08-26 |   314 |    95 |      1457 |   6.52 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1710) | 2024-08-26 |   173 |    30 |       940 |   3.19 |
 | [`tg`](https://t.me/mwscr/513)                     | 2024-08-26 |   169 |    49 |       544 |   9.01 |
-|                                                    |            |   654 |   174 |      2941 |  12.67 |
+|                                                    |            |   656 |   174 |      2941 |  12.67 |
 
 ## <span id="2024-08-25-near-the-ghostgate">Near the Ghostgate</span>
 
@@ -87,10 +114,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTqhBN1D91G/)       | 2017-05-04 |       |    63 |       175 |     36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_279)  | 2017-05-04 |   104 |     7 |        56 |   12.5 |
-| [`ig`](https://instagram.com/p/C_D_wFZyrog/)       | 2024-08-24 |   348 |    85 |      1457 |   5.83 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1705) | 2024-08-24 |   208 |    31 |       940 |    3.4 |
-| [`tg`](https://t.me/mwscr/511)                     | 2024-08-24 |   201 |    47 |       541 |   8.69 |
-|                                                    |            |   757 |   163 |      2938 |  13.29 |
+| [`ig`](https://instagram.com/p/C_D_wFZyrog/)       | 2024-08-24 |   365 |    87 |      1457 |   5.97 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1705) | 2024-08-24 |   224 |    31 |       940 |    3.4 |
+| [`tg`](https://t.me/mwscr/511)                     | 2024-08-24 |   227 |    47 |       541 |   8.69 |
+|                                                    |            |   816 |   165 |      2938 |  13.31 |
 
 ## <span id="2024-08-23-near-the-fishermans-hut">Near the Fisherman&#39;s Hut</span>
 
