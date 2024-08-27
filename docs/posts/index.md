@@ -1255,7 +1255,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-18-along-the-street&postLocation=)</code> `🚀 OpenMW` `street`
+`A2` `📍 Balmora` `🚀 OpenMW` `street`
 
 ```
 2024-07-18-along-the-street
