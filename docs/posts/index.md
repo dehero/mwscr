@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`183 items`
+`184 items`
+
+## <span id="2024-08-28-close-to-caldera-clothier">Close to Caldera Clothier</span>
+
+`RU` У Кальдерского портного
+
+<a href="https://instagram.com/p/BOjbOi3FkuC/" title="2016-12-28-close-to-caldera-clothier"><img alt="store:/shots/2016-12-28-close-to-caldera-clothier.png" src="../../assets/previews/shots/2016-12-28-close-to-caldera-clothier.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` `📍 Caldera` `🚀 OpenMW`
+
+```
+2024-08-28-close-to-caldera-clothier
+```
+
+> `2016-12-28-close-to-caldera-clothier`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BOjbOi3FkuC/)       | 2016-12-28 |       |    23 |        40 |     23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_45)   | 2017-01-22 |    87 |     3 |         4 |      4 |
+| [`ig`](https://instagram.com/p/C_OTj8gJOd2/)       | 2024-08-28 |       |       |      1458 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1713) | 2024-08-28 |       |       |       940 |        |
+| [`tg`](https://t.me/mwscr/515)                     | 2024-08-28 |       |       |       546 |        |
+|                                                    |            |       |       |      2944 |   13.5 |
 
 ## <span id="2024-08-27-fork-of-horripilation-and-other-accessories">Fork of Horripilation and Other Accessories</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Be0q5Z8jyW3/)       | 2018-02-05 |       |    76 |       283 |  26.86 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_604)  | 2018-02-05 |   190 |    12 |       125 |    9.6 |
-| [`ig`](https://instagram.com/p/C_LuWTjPpEs/)       | 2024-08-27 |   299 |    72 |      1458 |   4.94 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1712) | 2024-08-27 |   185 |    21 |       939 |   2.34 |
-| [`tg`](https://t.me/mwscr/514)                     | 2024-08-27 |   176 |    47 |       544 |   8.64 |
-|                                                    |            |   660 |   140 |      2941 |  10.48 |
+| [`ig`](https://instagram.com/p/C_LuWTjPpEs/)       | 2024-08-27 |   301 |    72 |      1458 |   4.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1712) | 2024-08-27 |   187 |    21 |       939 |   2.34 |
+| [`tg`](https://t.me/mwscr/514)                     | 2024-08-27 |   178 |    47 |       544 |   8.64 |
+|                                                    |            |   666 |   140 |      2941 |  10.48 |
 
 ## <span id="2024-08-26-azura-from-underwater">Azura from Underwater</span>
 
@@ -56,9 +83,9 @@
 | [`ig`](https://instagram.com/p/BkLL-0UlMSz/)       | 2018-06-18 |       |   109 |       347 |  31.41 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_772)  | 2018-06-18 |   295 |    23 |       174 |  13.22 |
 | [`ig`](https://instagram.com/p/C_JJkgzvCqD/)       | 2024-08-26 |   350 |   103 |      1457 |   7.07 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1710) | 2024-08-26 |   198 |    32 |       940 |    3.4 |
-| [`tg`](https://t.me/mwscr/513)                     | 2024-08-26 |   229 |    55 |       544 |  10.11 |
-|                                                    |            |   777 |   190 |      2941 |  13.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1710) | 2024-08-26 |   199 |    32 |       940 |    3.4 |
+| [`tg`](https://t.me/mwscr/513)                     | 2024-08-26 |   230 |    55 |       544 |  10.11 |
+|                                                    |            |   779 |   190 |      2941 |  13.04 |
 
 ## <span id="2024-08-25-near-the-ghostgate">Near the Ghostgate</span>
 
@@ -83,10 +110,10 @@
 | [`ig`](https://instagram.com/p/BnUWz5ZFjUY/)       | 2018-09-04 |       |   104 |       411 |   25.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_902)  | 2018-09-04 |   353 |    20 |       223 |   8.97 |
 | [`tg`](https://t.me/mwscr/10)                      | 2018-09-04 |   189 |     2 |           |        |
-| [`ig`](https://instagram.com/p/C_Gkjg6Nfuj/)       | 2024-08-25 |   323 |    91 |      1455 |   6.25 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1707) | 2024-08-25 |   189 |    29 |       940 |   3.19 |
-| [`tg`](https://t.me/mwscr/512)                     | 2024-08-25 |   252 |    52 |       542 |   9.59 |
-|                                                    |            |   764 |   172 |      2937 |  10.66 |
+| [`ig`](https://instagram.com/p/C_Gkjg6Nfuj/)       | 2024-08-25 |   339 |    93 |      1455 |   6.39 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1707) | 2024-08-25 |   207 |    32 |       940 |   3.51 |
+| [`tg`](https://t.me/mwscr/512)                     | 2024-08-25 |   283 |    54 |       542 |   9.96 |
+|                                                    |            |   829 |   179 |      2937 |  10.83 |
 
 #### Comments
 
