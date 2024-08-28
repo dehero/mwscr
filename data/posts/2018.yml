@@ -535,7 +535,7 @@
     - service: vk
       id: 1497
       published: 2024-04-16-18-16-52
-      updated: 2024-08-21-06-20-16
+      updated: 2024-08-28-06-20-54
       followers: 910
       likes: 33
       views: 274
@@ -543,7 +543,7 @@
     - service: tg
       id: 380
       published: 2024-04-16-18-16-59
-      updated: 2024-08-21-06-20-15
+      updated: 2024-08-28-06-20-54
       followers: 353
       likes: 59
       views: 437
@@ -1138,25 +1138,25 @@
       id: C_LuWTjPpEs
       mediaId: '18010020152338786'
       published: 2024-08-27-18-20-03
-      updated: 2024-08-28-05-15-21
+      updated: 2024-08-28-06-20-51
       followers: 1458
-      likes: 66
-      views: 234
+      likes: 68
+      views: 242
     - service: vk
       id: 1712
       published: 2024-08-27-18-20-10
-      updated: 2024-08-28-05-15-22
+      updated: 2024-08-28-06-20-52
       followers: 939
-      likes: 13
-      views: 123
+      likes: 15
+      views: 131
       reposts: 1
     - service: tg
       id: 514
       published: 2024-08-27-18-20-15
-      updated: 2024-08-28-05-15-23
+      updated: 2024-08-28-06-20-52
       followers: 544
-      likes: 39
-      views: 148
+      likes: 42
+      views: 152
 2018-02-06-evening-trees:
   title: Evening Trees
   titleRu: Вечерние деревья
@@ -5541,24 +5541,24 @@
       id: C_JJkgzvCqD
       mediaId: '18017561102445866'
       published: 2024-08-26-18-20-10
-      updated: 2024-08-28-05-15-22
+      updated: 2024-08-28-06-20-52
       followers: 1457
-      likes: 99
-      views: 335
+      likes: 100
+      views: 337
     - service: vk
       id: 1710
       published: 2024-08-26-18-20-16
-      updated: 2024-08-28-05-15-24
+      updated: 2024-08-28-06-20-53
       followers: 940
       likes: 32
-      views: 187
+      views: 188
     - service: tg
       id: 513
       published: 2024-08-26-18-20-21
-      updated: 2024-08-28-05-15-23
+      updated: 2024-08-28-06-20-53
       followers: 544
-      likes: 53
-      views: 218
+      likes: 54
+      views: 220
 2018-06-19-thelas-ancestral-tomb:
   title: Thelas Ancestral Tomb
   titleRu: Родовая гробница Телас
