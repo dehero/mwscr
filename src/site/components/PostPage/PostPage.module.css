@@ -246,6 +246,15 @@
       'publications comments';
   }
 
+  .main,
+  .contentPreviews,
+  .contentSelector,
+  .attributes,
+  .comments,
+  .publications {
+    overflow-y: auto;
+  }
+
   .contentPreviews {
     justify-content: flex-start;
   }
@@ -324,6 +333,10 @@
     grid-template-areas:
       'main content publications'
       'main comments publications';
+  }
+
+  .selectedContentWrapper {
+    overflow: hidden;
   }
 
   .main,
