@@ -1,8 +1,10 @@
 import { createMediaQuery } from '@solid-primitives/media';
 import { makePersisted } from '@solid-primitives/storage';
 import { type Component, createSignal, Show } from 'solid-js';
+import { createResource } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import { usePageContext } from 'vike-solid/usePageContext';
+import type { Location } from '../../../core/entities/location.js';
 import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../core/entities/option.js';
 import type { PostMark, PostType, PostViolation } from '../../../core/entities/post.js';
@@ -18,6 +20,7 @@ import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
 import type { DateRange, SortDirection } from '../../../core/utils/common-types.js';
 import { boolToString, isObjectEqual, stringToBool } from '../../../core/utils/common-utils.js';
 import { dateRangeToString, stringToDateRange } from '../../../core/utils/date-utils.js';
+import { locations } from '../../data-managers/locations.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
 import { Button } from '../Button/Button.js';
@@ -32,6 +35,7 @@ import { RadioGroup } from '../RadioGroup/RadioGroup.js';
 import { Select } from '../Select/Select.js';
 import { Spacer } from '../Spacer/Spacer.js';
 import { Toast } from '../Toaster/Toaster.js';
+import { WorldMap } from '../WorldMap/WorldMap.jsx';
 import styles from './PostsPage.module.css';
 
 export interface PostsPageSearchParams {
@@ -106,6 +110,10 @@ export interface PostsPageData {
   requesterOptions: Option[];
   locationOptions: Option[];
   tagOptions: Option[];
+}
+
+async function getLocations(): Promise<Location[]> {
+  return (await locations.getAllEntries()).map(([, value]) => value);
 }
 
 export const PostsPage: Component = () => {
@@ -197,6 +205,8 @@ export const PostsPage: Component = () => {
   const { postInfos, tagOptions, locationOptions, authorOptions, requesterOptions } = useData<PostsPageData>();
 
   const selectedPostInfos = () => selectPostInfos(postInfos, selectParams());
+
+  const [locations] = createResource(getLocations);
 
   return (
     <Frame component="main" class={styles.container} ref={containerRef}>
@@ -414,6 +424,16 @@ export const PostsPage: Component = () => {
           label={selectPostInfosResultToString(selectedPostInfos().length, selectParams())}
         />
       </Frame>
+
+      <WorldMap
+        locations={locations() ?? []}
+        class={styles.worldMap}
+        onLocationClick={(location) => setPostLocation(location.title)}
+        selectedLocation={postLocation()}
+        discoveredLocations={locationOptions
+          .map(({ value }) => value)
+          .filter((value): value is string => typeof value === 'string')}
+      />
     </Frame>
   );
 };

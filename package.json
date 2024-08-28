@@ -49,6 +49,7 @@
     "vite-multiple-assets": "^1.2.10"
   },
   "dependencies": {
+    "@flatten-js/core": "^1.6.1",
     "@googleapis/youtube": "^13.1.0",
     "@minht11/solid-virtual-container": "^0.2.1",
     "@sindresorhus/slugify": "^2.2.1",

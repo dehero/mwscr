@@ -9,6 +9,7 @@
   grid-template-rows: auto 1fr;
   grid-template-areas:
     'parameters'
+    'map'
     'posts';
   overflow-y: auto;
   /* Make scroller composited for faster scrolling,
@@ -84,11 +85,15 @@
   width: 100%;
 }
 
+.worldMap {
+  grid-area: map;
+}
+
 @media only screen and (min-width: 812px) {
   .container {
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto fit-content(600px) 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: 'parameters posts';
+    grid-template-areas: 'parameters map posts';
     padding: 0 8px 8px 8px;
     overflow: hidden;
     flex-grow: 1;

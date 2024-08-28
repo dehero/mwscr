@@ -1,0 +1,68 @@
+.container {
+  background: #182421;
+  overflow: auto;
+}
+
+.map {
+  display: block;
+  width: 954px;
+  height: 854px;
+  background: url(../../images/world-map.png);
+  position: relative;
+}
+
+.discovered {
+  position: absolute;
+  display: block;
+  width: 954px;
+  height: 854px;
+  left: 0;
+  top: 0;
+  background: url(../../images/world-map-discovered.png);
+  clip-path: url(#discoveredSvgPath);
+}
+
+.selection {
+  position: absolute;
+  display: block;
+  width: 954px;
+  height: 854px;
+  left: 0;
+  top: 0;
+}
+
+.selectionLink {
+  cursor: default;
+}
+
+.selectionPolygon {
+  fill: none;
+  stroke: none;
+  pointer-events: all;
+  fill-opacity: 0.125;
+  shape-rendering: crispEdges;
+}
+
+.selectionPolygon.selected {
+  stroke: var(--color-text);
+  /* fill: #000; */
+  fill: var(--color-text);
+  fill-opacity: 0.25;
+}
+
+.selectionPolygon:hover {
+  stroke: var(--color-text);
+  fill: var(--color-text);
+}
+
+.cellMarker {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+  background: url(../../images/world-map-cell-marker.png) no-repeat;
+  background-position: 4px;
+  z-index: 1;
+  image-rendering: pixelated;
+  pointer-events: none;
+}

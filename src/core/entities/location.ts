@@ -21,3 +21,7 @@ export function areNestedLocations(location1: string, location2: string) {
 export function isNestedLocation(location1: string, location2: string) {
   return location1.startsWith(location2);
 }
+
+export function getLocationCellCoordinates(cell: string): [number, number] {
+  return cell.split(' ').map(Number) as [number, number];
+}
