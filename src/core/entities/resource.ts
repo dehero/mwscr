@@ -2,7 +2,7 @@ export const RESOURCE_PROTOCOLS = ['store:', 'file:', 'http:', 'https:'] as cons
 
 export const RESOURCE_TYPES = ['image', 'video', 'archive'] as const;
 
-const RESOURCE_REGEX_IMAGE = /.png$/;
+const RESOURCE_REGEX_IMAGE = /.(png|webp|jpg)$/;
 const RESOURCE_REGEX_VIDEO = /.(avi|mp4)$/;
 
 export const RESOURCE_MISSING_IMAGE = 'MISSING_IMAGE.png';
