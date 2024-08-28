@@ -6,9 +6,9 @@
 
 `27 items`
 
-## <span id="remmlah.2022-07-26-two-ways">Two Ways Drawn by RemmLah</span>
+## <span id="remmlah.2022-07-26-two-ways">Two Ways</span>
 
-[https://www.reddit.com/r/Morrowind/comments/w83bac/silt_strider_art_posca_pens_based_on_a_picture/](https://www.reddit.com/r/Morrowind/comments/w83bac/silt_strider_art_posca_pens_based_on_a_picture/)
+![store:/mentions/2022-07-26-remmlah-two-ways.webp](../../assets/previews/mentions/2022-07-26-remmlah-two-ways.avif "2022-07-26-remmlah-two-ways")
 ![store:/shots/2018-09-22-two-ways.png](../../assets/previews/shots/2018-09-22-two-ways.avif "2018-09-22-two-ways")
 
 `redrawing` by [RemmLah](../contributors.md#remmlah)
@@ -16,7 +16,7 @@
 > [!CAUTION]
 > [object Object].
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=remmlah.2022-07-26-two-ways&amp;postContent=https%3A%2F%2Fwww.reddit.com%2Fr%2FMorrowind%2Fcomments%2Fw83bac%2Fsilt_strider_art_posca_pens_based_on_a_picture%2F%0Astore%3A%2Fshots%2F2018-09-22-two-ways.png&amp;postTitle=Two+Ways+Drawn+by+RemmLah&amp;postTitleRu=&amp;postAuthor=remmlah&amp;postType=redrawing&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=unsupported-resource&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=remmlah.2022-07-26-two-ways) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=remmlah.2022-07-26-two-ways) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=remmlah.2022-07-26-two-ways&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=remmlah.2022-07-26-two-ways&amp;postContent=store%3A%2Fmentions%2F2022-07-26-remmlah-two-ways.webp%0Astore%3A%2Fshots%2F2018-09-22-two-ways.png&amp;postTitle=Two+Ways&amp;postTitleRu=&amp;postAuthor=remmlah&amp;postType=redrawing&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=F&amp;postViolation=unsupported-resource&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=remmlah.2022-07-26-two-ways) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=remmlah.2022-07-26-two-ways) `F` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=remmlah.2022-07-26-two-ways&postLocation=)</code>
 
 ```
 remmlah.2022-07-26-two-ways
