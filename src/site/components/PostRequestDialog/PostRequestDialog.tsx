@@ -17,12 +17,13 @@ export const PostRequestDialog: Component<PostRequestDialogProps> = (props) => {
       modal
       {...props}
       actions={[
-        <Button href={createRequestIssueUrl(text())} target="_blank">
-          Create Issue
+        <Button href={createRequestIssueUrl(text())} target="_blank" onClick={props.onClose}>
+          Submit via GitHub
         </Button>,
         <Button
           href={email.getUserMessagingUrl('dehero@outlook.com', { subject: 'request', body: text() })}
           target="_blank"
+          onClick={props.onClose}
         >
           Send via email
         </Button>,

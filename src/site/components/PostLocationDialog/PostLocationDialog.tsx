@@ -3,6 +3,7 @@ import { createResource, createSignal, createUniqueId, splitProps } from 'solid-
 import { EMPTY_OPTION, type Option } from '../../../core/entities/option.js';
 import type { PostEntry } from '../../../core/entities/post.js';
 import { createIssueUrl as createLocateIssueUrl } from '../../../core/github-issues/location.js';
+import { email } from '../../../core/services/email.js';
 import { locations } from '../../data-managers/locations.js';
 import { Button } from '../Button/Button.js';
 import type { DialogProps } from '../Dialog/Dialog.js';
@@ -34,8 +35,18 @@ export const PostLocationDialog: Component<PostLocationDialogProps> = (props) =>
       title="Locate Post"
       {...rest}
       actions={[
-        <Button href={createLocateIssueUrl(id(), postLocation())} target="_blank">
-          Create Issue
+        <Button href={createLocateIssueUrl(id(), postLocation())} target="_blank" onClick={props.onClose}>
+          Submit via GitHub
+        </Button>,
+        <Button
+          href={email.getUserMessagingUrl('dehero@outlook.com', {
+            subject: `location - ${id()}`,
+            body: postLocation(),
+          })}
+          target="_blank"
+          onClick={props.onClose}
+        >
+          Send via email
         </Button>,
         <Button onClick={props.onClose}>Cancel</Button>,
       ]}
