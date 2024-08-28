@@ -1,3 +1,4 @@
+import type { PositionRelativeToElement } from '@solid-primitives/mouse';
 import { createPositionToElement, useMousePosition } from '@solid-primitives/mouse';
 import { createElementSize } from '@solid-primitives/resize-observer';
 import clsx from 'clsx';
@@ -13,7 +14,7 @@ const CURSOR_SIZE = 16;
 
 export interface TooltipProps {
   class?: string;
-  children?: JSX.Element;
+  children?: JSX.Element | ((position: PositionRelativeToElement) => JSX.Element);
   forRef?: Element;
 }
 
@@ -29,9 +30,10 @@ export const Tooltip: Component<TooltipProps> = (props) => {
 
   const isOverlapped = () => !props.forRef?.contains(document.elementFromPoint(mouse.x, mouse.y));
   const invertedTooltipY = () => mouse.y - CURSOR_OFFSET_Y + CURSOR_SIZE - (size.height ?? 0);
+  const children = () => (typeof props.children === 'function' ? props.children(relative) : props.children);
 
   return (
-    <Show when={relative.isInside && mouse.sourceType === 'mouse' && !isOverlapped()}>
+    <Show when={relative.isInside && mouse.sourceType === 'mouse' && !isOverlapped() && children()}>
       <Portal>
         <Frame
           ref={setTarget}
@@ -49,7 +51,7 @@ export const Tooltip: Component<TooltipProps> = (props) => {
             }px)`,
           }}
         >
-          {props.children}
+          {children()}
         </Frame>
       </Portal>
     </Show>
