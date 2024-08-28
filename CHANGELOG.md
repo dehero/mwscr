@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.13.1](https://github.com/dehero/mwscr/compare/v1.13.0...v1.13.1) (2024-08-28)
+
+### Bug Fixes
+
+- allow creating previews for .webp and .jpg images
+  ([2153730](https://github.com/dehero/mwscr/commit/215373019530ee87736dcda861e64900a10134a6))
+- move dialog covered by post content to top
+  ([a5ee958](https://github.com/dehero/mwscr/commit/a5ee958038611835427886c6b6413f9c09aafef4))
+- rename issue creating buttons and close dialogs on button click
+  ([afeb139](https://github.com/dehero/mwscr/commit/afeb1393ab650c59beea27d498b4e36bfab948f2))
+- resolve post page content overflow issues
+  ([206717a](https://github.com/dehero/mwscr/commit/206717ad5bde517a8dcfe31e8d0d148b1577976f))
+
 ## [1.13.0](https://github.com/dehero/mwscr/compare/v1.12.0...v1.13.0) (2024-08-23)
 
 ### Features
