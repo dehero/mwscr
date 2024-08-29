@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`1 items`
+`2 items`
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
 
@@ -29,6 +29,26 @@
 
 ```
 dehero.2020-05-19-night-guards
+```
+
+## <span id="darkness-rifho.2023-09-13-12-39-27-20bb7730">Death Under Rain</span>
+
+`RU` Смерть под дождём
+
+![store:/inbox/darkness-rifho.2023-09-13-12-39-27-20bb7730.1.png](../../assets/previews/inbox/darkness-rifho.2023-09-13-12-39-27-20bb7730.1.avif "darkness-rifho.2023-09-13-12-39-27-20bb7730.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/darkness-rifho.2023-09-13-12-39-27-20bb7730.png](../../assets/previews/inbox/darkness-rifho.2023-09-13-12-39-27-20bb7730.avif "darkness-rifho.2023-09-13-12-39-27-20bb7730")
+</details>
+
+`shot` by [Darkness Rifho](../contributors.md#darkness-rifho)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=darkness-rifho.2023-09-13-12-39-27-20bb7730&amp;postContent=store%3A%2Finbox%2Fdarkness-rifho.2023-09-13-12-39-27-20bb7730.1.png&amp;postTitle=Death+Under+Rain&amp;postTitleRu=%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D1%8C+%D0%BF%D0%BE%D0%B4+%D0%B4%D0%BE%D0%B6%D0%B4%D1%91%D0%BC&amp;postAuthor=darkness-rifho&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=B2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdarkness-rifho.2023-09-13-12-39-27-20bb7730.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=darkness-rifho.2023-09-13-12-39-27-20bb7730) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=darkness-rifho.2023-09-13-12-39-27-20bb7730) `B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=darkness-rifho.2023-09-13-12-39-27-20bb7730&postLocation=)</code>
+
+```
+darkness-rifho.2023-09-13-12-39-27-20bb7730
 ```
 
 ---
