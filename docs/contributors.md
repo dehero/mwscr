@@ -20,7 +20,7 @@ dehero
 ### Natty
 
 Roles: `author`  
-Authored: 32 posted, 25 pending, 8 rejected  
+Authored: 32 posted, 24 pending, 9 rejected  
 Likes: 6335  
 
 ```
