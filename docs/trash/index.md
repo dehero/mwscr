@@ -4,7 +4,7 @@
 
 # Trash for 2024
 
-`23 items`
+`24 items`
 
 ## <span id="vladyslav-zhuk.2024-05-20-d3c543d1">vladyslav-zhuk.2024-05-20-d3c543d1</span>
 
@@ -174,6 +174,18 @@ natty.2024-03-10-12-54-07
 
 ```
 natty.2024-03-10-12-52-20
+```
+
+## <span id="natty.2024-03-10-12-49-25">natty.2024-03-10-12-49-25</span>
+
+![store:/trash/natty.2024-03-10-12-49-25.png](../../assets/previews/trash/natty.2024-03-10-12-49-25.avif "natty.2024-03-10-12-49-25")
+
+`shot` by [Natty](../contributors.md#natty)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-12-49-25&amp;postContent=store%3A%2Ftrash%2Fnatty.2024-03-10-12-49-25.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=D&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-12-49-25) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-12-49-25) `D` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-12-49-25&postLocation=)</code>
+
+```
+natty.2024-03-10-12-49-25
 ```
 
 ## <span id="natty.2024-03-10-12-48-20">natty.2024-03-10-12-48-20</span>
