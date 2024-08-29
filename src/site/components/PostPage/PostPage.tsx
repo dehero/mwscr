@@ -477,9 +477,9 @@ export const PostPage: Component = () => {
                     Copy
                   </Button>
                 </div>
-                {/* <Button onClick={() => setShowEditingDialog(true)} class={styles.edit}>
+                <Button onClick={() => setShowEditingDialog(true)} class={styles.edit}>
                   Edit
-                </Button> */}
+                </Button>
               </div>
             </Frame>
 

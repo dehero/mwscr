@@ -12,6 +12,7 @@ export interface DialogProps {
   show: boolean;
   onClose: () => void;
   actions?: JSX.Element;
+  summary?: JSX.Element;
   modal?: boolean;
 }
 
@@ -44,8 +45,9 @@ export const Dialog: Component<DialogProps> = (props) => {
             </Show>
             <Frame variant="thick" class={styles.body}>
               <div class={styles.content}>{props.children}</div>
-              <Show when={props.actions}>
+              <Show when={props.actions || props.summary}>
                 <div class={styles.footer}>
+                  {props.summary}
                   <Spacer />
                   {props.actions}
                   <Show when={!props.title}>

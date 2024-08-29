@@ -1,60 +1,62 @@
 .form {
-  display: grid;
-  grid-template-columns: minmax(180px, 360px) minmax(180px, 360px);
+  display: flex;
+  flex-flow: column nowrap;
   gap: 8px;
 }
 
-.legend {
+.submissionAlert {
+  margin: 0;
   color: var(--color-text-light);
+}
+
+.selectWrapper {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.select {
+  width: 100%;
+}
+
+.fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 8px;
+  min-width: 0;
 }
 
 .main {
   display: flex;
   flex-flow: column nowrap;
-  gap: 8px;
-  padding: 0;
-  margin: 0;
-  border: none;
+  gap: 4px;
 }
 
-.secondary {
-  display: flex;
-  flex-flow: column nowrap;
-  gap: 8px;
-  padding: 0;
-  margin: 0;
-  border: none;
+.tagsFieldset {
+  grid-column: span 2;
+}
+
+.tags {
+  flex: 1 1 50%;
 }
 
 .request {
-  display: grid;
-  border: none;
+  display: flex;
+  flex-flow: row wrap;
   gap: 4px;
-  padding: 0;
-  margin: 0;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  grid-template-areas: 'requestText requestText' 'requestDate requestUser';
 }
 
-.requestText {
-  grid-area: requestText;
+.authors {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
 }
 
-.requestUser {
-  grid-area: requestUser;
-  width: 100%;
-}
-
-.requestDate {
-  grid-area: requestDate;
-  width: 120px;
-}
-
-.title {
-  width: 100%;
-}
-
-.location {
-  grid-column: span 2;
+@media only screen and (min-width: 380px) {
+  .form {
+    display: grid;
+    grid-template-columns: minmax(180px, 360px) minmax(180px, 360px);
+  }
 }
