@@ -4,7 +4,7 @@
 
 # Trash for 2024
 
-`26 items`
+`27 items`
 
 ## <span id="vladyslav-zhuk.2024-05-20-d3c543d1">vladyslav-zhuk.2024-05-20-d3c543d1</span>
 
@@ -265,6 +265,19 @@ kayrac-k.2024-08-25-sky-of-vivec
 
 ```
 dehero.2024-03-05-20-02-12
+```
+
+## <span id="dehero.2024-03-05-19-58-42">dehero.2024-03-05-19-58-42</span>
+
+![store:/trash/dehero.2024-03-05-19-58-42.png](../../assets/previews/trash/dehero.2024-03-05-19-58-42.avif "dehero.2024-03-05-19-58-42")
+![store:/trash/dehero.2024-03-05-19-58-46.png](../../assets/previews/trash/dehero.2024-03-05-19-58-46.avif "dehero.2024-03-05-19-58-46")
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-03-05-19-58-42&amp;postContent=store%3A%2Ftrash%2Fdehero.2024-03-05-19-58-42.png%0Astore%3A%2Ftrash%2Fdehero.2024-03-05-19-58-46.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=D&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-03-05-19-58-42&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-03-05-19-58-42&amp;mergeWithIds=) `D` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-03-05-19-58-42&postLocation=)</code>
+
+```
+dehero.2024-03-05-19-58-42
 ```
 
 ## <span id="dehero.2024-03-05-19-56-44">dehero.2024-03-05-19-56-44</span>
