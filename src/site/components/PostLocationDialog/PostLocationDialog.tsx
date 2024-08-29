@@ -28,7 +28,7 @@ export const PostLocationDialog: Component<PostLocationDialogProps> = (props) =>
   const [postLocation, setPostLocation] = createSignal(local.postEntry[1].location);
   const form = createUniqueId();
 
-  const [locationOptions] = createResource(getLocationOptions);
+  const [locationOptions] = createResource(() => props.show, getLocationOptions);
 
   return (
     <Dialog
