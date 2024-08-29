@@ -2410,21 +2410,24 @@
       id: C_Q49pUplLM
       mediaId: '18074588347488993'
       published: 2024-08-29-18-28-59
-      updated: 2024-08-29-20-22-22
+      updated: 2024-08-29-21-20-43
       followers: 1455
-      likes: 37
-      views: 93
+      likes: 45
+      views: 120
     - service: vk
       id: 1716
       published: 2024-08-29-18-29-05
-      updated: 2024-08-29-20-22-23
+      updated: 2024-08-29-21-20-44
       followers: 941
-      likes: 7
-      views: 52
+      likes: 10
+      views: 63
+      comments: !c |-
+        CymAkZPLQnkZ/gDzgACrbG9tYWV2X2xpdmXZOtCt0YLQviDQvdC1INC00L7QttC00YwsINGN0YLQ
+        viDRgdC70ZHQt9GLINCQ0LvRjNC80YHQuNCy0LgD
     - service: tg
       id: 516
       published: 2024-08-29-18-29-13
-      updated: 2024-08-29-20-22-23
+      updated: 2024-08-29-21-20-43
       followers: 544
-      likes: 36
-      views: 101
+      likes: 38
+      views: 106
