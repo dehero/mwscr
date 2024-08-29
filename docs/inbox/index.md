@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`30 items`
+`29 items`
 
 ## <span id="natty.2024-03-28-20-45-29">natty.2024-03-28-20-45-29</span>
 

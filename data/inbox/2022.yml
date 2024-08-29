@@ -19,9 +19,20 @@ irina-bystritskaya.2022-06-25-drawing-001:
   type: redrawing
   author: irina-bystritskaya
 irina-bystritskaya.2022-06-25-drawing-002:
-  content: store:/inbox/irina-bystritskaya.2022-06-25-drawing-002.png
+  title: Mzahnch
+  titleRu: Мзанч
+  location: Mzahnch
+  content:
+    - store:/inbox/irina-bystritskaya.2022-06-25-drawing-002.png
+    - store:/shots/2019-03-07-mzahnch.png
   type: redrawing
-  author: irina-bystritskaya
+  author:
+    - irina-bystritskaya
+    - dehero
+  tags:
+    - dwemer
+    - ruin
+  mark: B1
 irina-bystritskaya.2022-06-25-drawing-003:
   content: store:/inbox/irina-bystritskaya.2022-06-25-drawing-003.png
   type: redrawing
