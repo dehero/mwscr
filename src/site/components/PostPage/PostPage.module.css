@@ -135,8 +135,13 @@
   width: 100%;
 }
 
-.edit,
-.location {
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.action {
   display: inline-block;
 }
 

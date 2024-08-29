@@ -5,7 +5,7 @@ import type { PostViolation } from '../../core/entities/post.js';
 import { POST_MARKS, POST_VIOLATIONS } from '../../core/entities/post.js';
 import { label } from '../../core/github-issues/review.js';
 import { inbox, posts, trash } from '../data-managers/posts.js';
-import { extractIssueFieldValue, extractIssueUser } from './utils/issue-utils.js';
+import { extractIssueFieldValue, extractIssueUser, issueDropdownToInput } from './utils/issue-utils.js';
 
 export * from '../../core/github-issues/review.js';
 
@@ -38,6 +38,6 @@ export async function createIssueTemplate() {
     description: 'Paste in the title the ID of post.',
     title: GITHUB_ISSUE_DEFAULT_TITLE,
     labels: [label],
-    body: [postMark, postViolation],
+    body: [issueDropdownToInput(postMark) as object, issueDropdownToInput(postViolation) as object],
   };
 }

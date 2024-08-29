@@ -3,7 +3,9 @@ import clsx from 'clsx';
 import JsFileDownloader from 'js-file-downloader';
 import { type Component, createSignal, Match, onMount, Show, Switch } from 'solid-js';
 import { useData } from 'vike-solid/useData';
+import type { Post, PostEntry } from '../../../core/entities/post.js';
 import {
+  getPostCommentCount,
   getPostDateById,
   getPostEntryEngagement,
   getPostEntryFollowers,
@@ -12,11 +14,9 @@ import {
   getPostEntryViews,
   getPostRating,
   getPostTypeAspectRatio,
-  type Post,
   POST_TYPES,
   POST_VIOLATIONS,
 } from '../../../core/entities/post.js';
-import { getPostCommentCount } from '../../../core/entities/post.js';
 import { isPublishablePost, isTrashItem } from '../../../core/entities/post-variation.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import type { UserEntry } from '../../../core/entities/user.js';
@@ -28,7 +28,7 @@ import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
 import { useParams } from '../../hooks/useParams.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { postRoute, type PostRouteParams } from '../../routes/post-route.js';
-import { postsRoute } from '../../routes/posts-route.js';
+import { postsRoute, postsRouteInfos } from '../../routes/posts-route.js';
 import { userRoute } from '../../routes/user-route.js';
 import { Button } from '../Button/Button.js';
 import { Divider } from '../Divider/Divider.js';
@@ -39,7 +39,9 @@ import { Input } from '../Input/Input.js';
 import { PostComments } from '../PostComments/PostComments.js';
 import { PostEditingDialog } from '../PostEditingDialog/PostEditingDialog.js';
 import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.js';
+import { PostMergeDialog } from '../PostMergeDialog/PostMergeDialog.jsx';
 import { PostPublications } from '../PostPublications/PostPublications.js';
+import { PostReviewDialog } from '../PostReviewDialog/PostReviewDialog.jsx';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import { ResourcePreviews } from '../ResourcePreviews/ResourcePreviews.js';
 import { ResourceSelector } from '../ResourceSelector/ResourceSelector.js';
@@ -65,6 +67,9 @@ export const PostPage: Component = () => {
 
   const id = () => params().id;
   const data = useData<PostPageData>();
+  const managerInfo = () => postsRouteInfos[params().managerName];
+
+  const postEntry = (): PostEntry | undefined => (data.post ? [id(), data.post] : undefined);
 
   const date = () => getPostDateById(id());
   const refDate = () => (data.refId ? getPostDateById(data.refId) : undefined);
@@ -99,6 +104,8 @@ export const PostPage: Component = () => {
 
   const [showEditingDialog, setShowEditingDialog] = createSignal(false);
   const [showLocationDialog, setShowLocationDialog] = createSignal(false);
+  const [showReviewDialog, setShowReviewDialog] = createSignal(false);
+  const [showMergeDialog, setShowMergeDialog] = createSignal(false);
   const [isLoading, setIsLoading] = createSignal(true);
 
   const selectContent = (url: string) => {
@@ -161,347 +168,382 @@ export const PostPage: Component = () => {
       )}
     >
       <Toast message="Loading Content" show={content().length > 0 && isLoading()} loading />
-      <Show when={data.post}>
-        {(post) => (
-          <>
-            <Show when={withContent()}>
-              <Show
-                when={withFullSizeContent()}
-                fallback={
-                  <ResourcePreviews
-                    urls={content()}
-                    showTooltip
-                    onLoad={handleContentLoad}
-                    class={styles.contentPreviews}
-                  />
-                }
-              >
-                <Show when={content().length > 1}>
-                  <ResourceSelector
-                    urls={content()}
-                    aspectRatio={aspectRatio()}
-                    onSelect={selectContent}
-                    selected={selectedContent()}
-                    class={styles.contentSelector}
-                  />
-                </Show>
+      <Show when={postEntry()}>
+        {(postEntry) => {
+          const [id, post] = postEntry();
 
-                <Show when={selectedContent()}>
-                  {(url) => (
-                    <section class={styles.selectedContentWrapper}>
-                      <Switch
-                        fallback={
-                          <ResourcePreview
-                            url={url()}
-                            aspectRatio={aspectRatio()}
-                            onLoad={handleContentLoad}
-                            showTooltip
-                            class={styles.selectedContent}
-                            alt={alt() || url()}
-                          />
-                        }
-                      >
-                        <Match when={resourceIsVideo(url()) && youtubeUrl()}>
-                          <Frame
-                            component="iframe"
-                            width={804}
-                            src={youtubeUrl()}
-                            title={alt() || url()}
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen
-                            // @ts-expect-error No proper typing
-                            frameborder="0"
-                            class={clsx(styles.selectedContent, styles.youtubeVideo)}
-                            onLoad={handleContentLoad}
-                            onError={() => handleContentError(youtubeUrl()!)}
-                            style={{ 'aspect-ratio': aspectRatio() }}
-                          />
-                        </Match>
-                        <Match when={resourceIsImage(url()) && selectedContentPublicUrl()}>
-                          <Frame
-                            component="img"
-                            ref={selectedContentRef}
-                            src={selectedContentPublicUrl()}
-                            class={clsx(styles.selectedContent, styles.image)}
-                            onLoad={handleContentLoad}
-                            onError={() => handleContentError(selectedContentPublicUrl()!)}
-                            style={{ 'aspect-ratio': aspectRatio() }}
-                            aria-label={url() === YellowExclamationMark ? 'yellow exclamation mark' : alt() || url()}
-                          />
+          return (
+            <>
+              <Show when={withContent()}>
+                <Show
+                  when={withFullSizeContent()}
+                  fallback={
+                    <ResourcePreviews
+                      urls={content()}
+                      showTooltip
+                      onLoad={handleContentLoad}
+                      class={styles.contentPreviews}
+                    />
+                  }
+                >
+                  <Show when={content().length > 1}>
+                    <ResourceSelector
+                      urls={content()}
+                      aspectRatio={aspectRatio()}
+                      onSelect={selectContent}
+                      selected={selectedContent()}
+                      class={styles.contentSelector}
+                    />
+                  </Show>
 
-                          <Button
-                            href={selectedContentPublicUrl()}
-                            onClick={handleContentDownload}
-                            class={styles.downloadButton}
-                            target="_blank"
-                          >
-                            Download
-                          </Button>
-                        </Match>
-                      </Switch>
-                    </section>
-                  )}
-                </Show>
-              </Show>
-            </Show>
+                  <Show when={selectedContent()}>
+                    {(url) => (
+                      <section class={styles.selectedContentWrapper}>
+                        <Switch
+                          fallback={
+                            <ResourcePreview
+                              url={url()}
+                              aspectRatio={aspectRatio()}
+                              onLoad={handleContentLoad}
+                              showTooltip
+                              class={styles.selectedContent}
+                              alt={alt() || url()}
+                            />
+                          }
+                        >
+                          <Match when={resourceIsVideo(url()) && youtubeUrl()}>
+                            <Frame
+                              component="iframe"
+                              width={804}
+                              src={youtubeUrl()}
+                              title={alt() || url()}
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              allowfullscreen
+                              // @ts-expect-error No proper typing
+                              frameborder="0"
+                              class={clsx(styles.selectedContent, styles.youtubeVideo)}
+                              onLoad={handleContentLoad}
+                              onError={() => handleContentError(youtubeUrl()!)}
+                              style={{ 'aspect-ratio': aspectRatio() }}
+                            />
+                          </Match>
+                          <Match when={resourceIsImage(url()) && selectedContentPublicUrl()}>
+                            <Frame
+                              component="img"
+                              ref={selectedContentRef}
+                              src={selectedContentPublicUrl()}
+                              class={clsx(styles.selectedContent, styles.image)}
+                              onLoad={handleContentLoad}
+                              onError={() => handleContentError(selectedContentPublicUrl()!)}
+                              style={{ 'aspect-ratio': aspectRatio() }}
+                              aria-label={url() === YellowExclamationMark ? 'yellow exclamation mark' : alt() || url()}
+                            />
 
-            <Show when={post().request}>
-              {(request) => (
-                <Frame variant="thin" class={styles.request}>
-                  <p class={styles.requestText}>{request().text}</p>
-
-                  <Show when={data.requesterEntry}>
-                    {(entry) => (
-                      <p class={styles.requestUser}>
-                        {getUserEntryTitle(entry())}, {formatDate(post().request?.date!)}
-                      </p>
+                            <Button
+                              href={selectedContentPublicUrl()}
+                              onClick={handleContentDownload}
+                              class={styles.downloadButton}
+                              target="_blank"
+                            >
+                              Download
+                            </Button>
+                          </Match>
+                        </Switch>
+                      </section>
                     )}
                   </Show>
-                </Frame>
-              )}
-            </Show>
-
-            <Frame component="section" variant="thin" class={styles.main}>
-              <div class={styles.info}>
-                <section class={styles.titles}>
-                  <p class={styles.title}>{title()}</p>
-                  <p class={styles.titleRu}>{titleRu()}</p>
-                </section>
-
-                <Show when={post().description || post().descriptionRu}>
-                  <section class={styles.descriptions}>
-                    <Show when={post().description}>
-                      <p class={styles.description}>{post().description}</p>
-                    </Show>
-                    <Show when={post().descriptionRu}>
-                      <p class={styles.description}>{post().descriptionRu}</p>
-                    </Show>
-                  </section>
                 </Show>
-              </div>
-
-              <Show when={post().posts}>
-                <span class={styles.publishedIcon}>
-                  <GoldIcon class={styles.icon} />
-                  Published
-                </span>
               </Show>
 
-              <Divider />
+              <Show when={post.request}>
+                {(request) => (
+                  <Frame variant="thin" class={styles.request}>
+                    <p class={styles.requestText}>{request().text}</p>
 
-              <Table
-                rows={[
-                  {
-                    label: 'Location',
-                    value: !post().location
-                      ? () => (
-                          <Button class={styles.location} onClick={() => setShowLocationDialog(true)}>
-                            Locate
-                          </Button>
-                        )
-                      : post().location,
-                    link: post().location
-                      ? postsRoute.createUrl({ managerName: 'posts', location: post().location, original: 'true' })
-                      : undefined,
-                  },
-                  { label: 'Date', value: isValidDate(date()) ? date() : undefined },
-                  {
-                    label: 'Original Post Date',
-                    value: isValidDate(refDate()) ? refDate() : undefined,
-                    link: data.refId
-                      ? postRoute.createUrl({ managerName: params().managerName, id: data.refId })
-                      : undefined,
-                  },
-                  {
-                    label: 'Type',
-                    value: POST_TYPES.find((info) => info.id === post().type)?.title,
-                    link: postsRoute.createUrl({ managerName: params().managerName, type: post().type }),
-                  },
-                  ...data.authorEntries.map((entry) => ({
-                    label: 'Author',
-                    value: () => (
-                      <>
-                        <Icon color="stealth" size="small" variant="flat" class={clsx(styles.icon, styles.tableIcon)}>
-                          {getUserEntryLetter(entry)}
-                        </Icon>
-                        {getUserEntryTitle(entry)}
-                      </>
-                    ),
-                    link: userRoute.createUrl({ id: entry[0] }),
-                  })),
-                  {
-                    label: 'Requester',
-                    value: data.requesterEntry
-                      ? () => (
-                          <>
-                            <Icon color="magic" size="small" variant="flat" class={clsx(styles.icon, styles.tableIcon)}>
-                              {getUserEntryLetter(data.requesterEntry!)}
-                            </Icon>
-                            {getUserEntryTitle(data.requesterEntry!)}
-                          </>
-                        )
-                      : undefined,
-                    link: data.requesterEntry ? userRoute.createUrl({ id: data.requesterEntry[0] }) : undefined,
-                  },
-                  { label: 'Engine', value: post().engine },
-                  { label: 'Addon', value: post().addon },
-
-                  {
-                    label: 'Violation',
-                    value: post().violation
-                      ? () => (
-                          <>
-                            <Icon
-                              color="health"
-                              size="small"
-                              variant="flat"
-                              class={clsx(styles.icon, styles.tableIcon)}
-                            >
-                              {POST_VIOLATIONS[post().violation!].letter}
-                            </Icon>
-                            {POST_VIOLATIONS[post().violation!].title}
-                          </>
-                        )
-                      : undefined,
-                    link: post().violation
-                      ? postsRoute.createUrl({ managerName: 'trash', violation: post().violation })
-                      : undefined,
-                  },
-                ]}
-              />
-
-              <Show when={data.usedTags?.length}>
-                <Divider />
-
-                <Table
-                  label="Tags"
-                  rows={
-                    data.usedTags?.map(([label, count]) => ({
-                      label,
-                      value: () => <>{count}</>,
-                      link: postsRoute.createUrl({ managerName: 'posts', tag: label, original: 'true' }),
-                    })) ?? []
-                  }
-                />
-              </Show>
-
-              <Show when={publishableErrors()}>
-                {(errors) => (
-                  <>
-                    <Divider class={styles.divider} />
-                    <section class={styles.publishableErrors}>
-                      <p class={styles.publishableErrorsText}>
-                        <Icon color="attribute" size="small" variant="flat">
-                          !
-                        </Icon>{' '}
-                        {capitalizeFirstLetter(errors().join(', '))}
-                      </p>
-                    </section>
-                  </>
+                    <Show when={data.requesterEntry}>
+                      {(entry) => (
+                        <p class={styles.requestUser}>
+                          {getUserEntryTitle(entry())}, {formatDate(post.request?.date!)}
+                        </p>
+                      )}
+                    </Show>
+                  </Frame>
                 )}
               </Show>
 
-              <Show when={post().posts || post().mark}>
+              <Frame component="section" variant="thin" class={styles.main}>
+                <div class={styles.info}>
+                  <section class={styles.titles}>
+                    <p class={styles.title}>{title()}</p>
+                    <p class={styles.titleRu}>{titleRu()}</p>
+                  </section>
+
+                  <Show when={post.description || post.descriptionRu}>
+                    <section class={styles.descriptions}>
+                      <Show when={post.description}>
+                        <p class={styles.description}>{post.description}</p>
+                      </Show>
+                      <Show when={post.descriptionRu}>
+                        <p class={styles.description}>{post.descriptionRu}</p>
+                      </Show>
+                    </section>
+                  </Show>
+                </div>
+
+                <Show when={post.posts}>
+                  <span class={styles.publishedIcon}>
+                    <GoldIcon class={styles.icon} />
+                    Published
+                  </span>
+                </Show>
+
+                <Show when={managerInfo()?.actions?.some((action) => ['edit', 'review', 'merge'].includes(action))}>
+                  <div class={styles.actions}>
+                    <Show when={managerInfo()?.actions?.includes('edit')}>
+                      <Button onClick={() => setShowEditingDialog(true)} class={styles.action}>
+                        Edit
+                      </Button>
+
+                      <PostEditingDialog
+                        postEntry={postEntry()}
+                        show={showEditingDialog()}
+                        onClose={() => setShowEditingDialog(false)}
+                      />
+                    </Show>
+                    <Show when={managerInfo()?.actions?.includes('edit')}>
+                      <Button onClick={() => setShowReviewDialog(true)} class={styles.action}>
+                        Review
+                      </Button>
+
+                      <PostReviewDialog
+                        postEntry={postEntry()}
+                        show={showReviewDialog()}
+                        onClose={() => setShowReviewDialog(false)}
+                      />
+                    </Show>
+                    <Show when={managerInfo()?.actions?.includes('edit')}>
+                      <Button onClick={() => setShowMergeDialog(true)} class={styles.action}>
+                        Merge
+                      </Button>
+
+                      <PostMergeDialog postId={id} show={showMergeDialog()} onClose={() => setShowMergeDialog(false)} />
+                    </Show>
+                  </div>
+                </Show>
+
                 <Divider />
 
                 <Table
-                  class={styles.table}
-                  label="Content Score"
                   rows={[
                     {
-                      label: "Editor's Mark",
-                      value: post().mark
+                      label: 'Location',
+                      value:
+                        !post.location && managerInfo()?.actions?.includes('locate')
+                          ? () => (
+                              <Button class={styles.action} onClick={() => setShowLocationDialog(true)}>
+                                Locate
+                              </Button>
+                            )
+                          : post.location,
+                      link: post.location
+                        ? postsRoute.createUrl({ managerName: 'posts', location: post.location, original: 'true' })
+                        : undefined,
+                    },
+                    { label: 'Date', value: isValidDate(date()) ? date() : undefined },
+                    {
+                      label: 'Original Post Date',
+                      value: isValidDate(refDate()) ? refDate() : undefined,
+                      link: data.refId
+                        ? postRoute.createUrl({ managerName: params().managerName, id: data.refId })
+                        : undefined,
+                    },
+                    {
+                      label: 'Type',
+                      value: POST_TYPES.find((info) => info.id === post.type)?.title,
+                      link: postsRoute.createUrl({ managerName: params().managerName, type: post.type }),
+                    },
+                    ...data.authorEntries.map((entry) => ({
+                      label: 'Author',
+                      value: () => (
+                        <>
+                          <Icon color="stealth" size="small" variant="flat" class={clsx(styles.icon, styles.tableIcon)}>
+                            {getUserEntryLetter(entry)}
+                          </Icon>
+                          {getUserEntryTitle(entry)}
+                        </>
+                      ),
+                      link: userRoute.createUrl({ id: entry[0] }),
+                    })),
+                    {
+                      label: 'Requester',
+                      value: data.requesterEntry
                         ? () => (
                             <>
                               <Icon
-                                color="combat"
+                                color="magic"
                                 size="small"
                                 variant="flat"
                                 class={clsx(styles.icon, styles.tableIcon)}
                               >
-                                {post().mark?.[0]}
+                                {getUserEntryLetter(data.requesterEntry!)}
                               </Icon>
-                              {post().mark?.[1]}
+                              {getUserEntryTitle(data.requesterEntry!)}
                             </>
                           )
                         : undefined,
-                      link: post().mark
-                        ? postsRoute.createUrl({ managerName: 'posts', mark: post().mark, original: 'true' })
+                      link: data.requesterEntry ? userRoute.createUrl({ id: data.requesterEntry[0] }) : undefined,
+                    },
+                    { label: 'Engine', value: post.engine },
+                    { label: 'Addon', value: post.addon },
+
+                    {
+                      label: 'Violation',
+                      value: post.violation
+                        ? () => (
+                            <>
+                              <Icon
+                                color="health"
+                                size="small"
+                                variant="flat"
+                                class={clsx(styles.icon, styles.tableIcon)}
+                              >
+                                {POST_VIOLATIONS[post.violation!].letter}
+                              </Icon>
+                              {POST_VIOLATIONS[post.violation!].title}
+                            </>
+                          )
+                        : undefined,
+                      link: post.violation
+                        ? postsRoute.createUrl({ managerName: 'trash', violation: post.violation })
                         : undefined,
                     },
-                    {
-                      label: 'Rating',
-                      value: Number(getPostRating(post()).toFixed(2)),
-                    },
                   ]}
                 />
-              </Show>
 
-              <Show when={post().posts}>
-                <Divider />
+                <Show when={data.usedTags?.length}>
+                  <Divider />
 
-                <Table
-                  class={styles.table}
-                  label="Reactions"
-                  rows={[
-                    {
-                      label: 'Likes',
-                      value: getPostEntryLikes([id(), post()]),
-                    },
-                    {
-                      label: 'Views',
-                      value: getPostEntryViews([id(), post()]),
-                    },
-                    {
-                      label: 'Followers',
-                      value: getPostEntryFollowers([id(), post()]),
-                    },
-                    {
-                      label: 'Engagement',
-                      value: Number(getPostEntryEngagement([id(), post()]).toFixed(2)),
-                    },
-                    {
-                      label: 'Comments',
-                      value: getPostCommentCount(post()),
-                    },
-                  ]}
-                />
-              </Show>
+                  <Table
+                    label="Tags"
+                    rows={
+                      data.usedTags?.map(([label, count]) => ({
+                        label,
+                        value: () => <>{count}</>,
+                        link: postsRoute.createUrl({ managerName: 'posts', tag: label, original: 'true' }),
+                      })) ?? []
+                    }
+                  />
+                </Show>
 
-              <Spacer />
+                <Show when={publishableErrors()}>
+                  {(errors) => (
+                    <>
+                      <Divider class={styles.divider} />
+                      <section class={styles.publishableErrors}>
+                        <p class={styles.publishableErrorsText}>
+                          <Icon color="attribute" size="small" variant="flat">
+                            !
+                          </Icon>{' '}
+                          {capitalizeFirstLetter(errors().join(', '))}
+                        </p>
+                      </section>
+                    </>
+                  )}
+                </Show>
 
-              <div class={styles.footer}>
-                <div class={styles.id}>
-                  <Input value={id()} readonly />
-                  <Button class={styles.copy} onClick={copyIdToClipboard}>
-                    Copy
-                  </Button>
+                <Show when={post.posts || post.mark}>
+                  <Divider />
+
+                  <Table
+                    class={styles.table}
+                    label="Content Score"
+                    rows={[
+                      {
+                        label: "Editor's Mark",
+                        value: post.mark
+                          ? () => (
+                              <>
+                                <Icon
+                                  color="combat"
+                                  size="small"
+                                  variant="flat"
+                                  class={clsx(styles.icon, styles.tableIcon)}
+                                >
+                                  {post.mark?.[0]}
+                                </Icon>
+                                {post.mark?.[1]}
+                              </>
+                            )
+                          : undefined,
+                        link: post.mark
+                          ? postsRoute.createUrl({ managerName: 'posts', mark: post.mark, original: 'true' })
+                          : undefined,
+                      },
+                      {
+                        label: 'Rating',
+                        value: Number(getPostRating(post).toFixed(2)),
+                      },
+                    ]}
+                  />
+                </Show>
+
+                <Show when={post.posts}>
+                  <Divider />
+
+                  <Table
+                    class={styles.table}
+                    label="Reactions"
+                    rows={[
+                      {
+                        label: 'Likes',
+                        value: getPostEntryLikes(postEntry()),
+                      },
+                      {
+                        label: 'Views',
+                        value: getPostEntryViews(postEntry()),
+                      },
+                      {
+                        label: 'Followers',
+                        value: getPostEntryFollowers(postEntry()),
+                      },
+                      {
+                        label: 'Engagement',
+                        value: Number(getPostEntryEngagement(postEntry()).toFixed(2)),
+                      },
+                      {
+                        label: 'Comments',
+                        value: getPostCommentCount(post),
+                      },
+                    ]}
+                  />
+                </Show>
+
+                <Spacer />
+
+                <div class={styles.footer}>
+                  <div class={styles.id}>
+                    <Input value={id} readonly />
+                    <Button class={styles.copy} onClick={copyIdToClipboard}>
+                      Copy
+                    </Button>
+                  </div>
                 </div>
-                <Button onClick={() => setShowEditingDialog(true)} class={styles.edit}>
-                  Edit
-                </Button>
-              </div>
-            </Frame>
+              </Frame>
 
-            <Show when={published()}>
-              <PostComments post={post()} class={styles.comments} />
+              <Show when={published()}>
+                <PostComments post={post} class={styles.comments} />
 
-              <PostPublications publications={getPostEntryPublications([id(), post()])} class={styles.publications} />
-            </Show>
+                <PostPublications publications={getPostEntryPublications(postEntry())} class={styles.publications} />
+              </Show>
 
-            <PostEditingDialog
-              postEntry={[id(), post()]}
-              show={showEditingDialog()}
-              onClose={() => setShowEditingDialog(false)}
-            />
-
-            <PostLocationDialog
-              postEntry={[id(), post()]}
-              show={showLocationDialog()}
-              onClose={() => setShowLocationDialog(false)}
-            />
-          </>
-        )}
+              <PostLocationDialog
+                postEntry={postEntry()}
+                show={showLocationDialog()}
+                onClose={() => setShowLocationDialog(false)}
+              />
+            </>
+          );
+        }}
       </Show>
     </Frame>
   );

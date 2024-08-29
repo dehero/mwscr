@@ -20,6 +20,7 @@ import {
   getPublicationEngagement,
   POST_VIOLATIONS,
 } from '../../core/entities/post.js';
+import type { PostAction } from '../../core/entities/post-action.js';
 import { isTrashItem } from '../../core/entities/post-variation.js';
 import { parseResourceUrl } from '../../core/entities/resource.js';
 import type { PostingService } from '../../core/entities/service.js';
@@ -54,11 +55,9 @@ interface RenderedPublication {
   link?: string;
 }
 
-export type RenderedPostAction = 'edit' | 'locate' | 'merge' | 'review';
-
 export interface RenderPostsOptions {
   doc: PostEntriesDoc;
-  postActions?: RenderedPostAction[];
+  postActions?: PostAction[];
   postCheck?: (post: Post, errors?: string[]) => boolean;
   navs: Array<Doc[]>;
   users: UsersManager;
