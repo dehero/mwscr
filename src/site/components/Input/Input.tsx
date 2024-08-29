@@ -46,7 +46,7 @@ export const Input: Component<InputProps> = (props) => {
     >
       <Frame<'textarea'>
         component="textarea"
-        class={clsx(styles.input, props.class)}
+        class={clsx(styles.input, styles.textarea, props.class)}
         name={props.name}
         rows={props.rows}
         onInput={(e) => handleInput(e.target.value)}
