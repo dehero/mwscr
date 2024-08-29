@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.15.0](https://github.com/dehero/mwscr/compare/v1.14.0...v1.15.0) (2024-08-29)
+
+### Features
+
+- implement post review and merge dialogs
+  ([150ff46](https://github.com/dehero/mwscr/commit/150ff46def51a4eb4a02942e2a1f27be89c3ab21))
+
 ## [1.14.0](https://github.com/dehero/mwscr/compare/v1.13.1...v1.14.0) (2024-08-29)
 
 ### Features
