@@ -28,16 +28,17 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOjbOi3FkuC/)       | 2016-12-28 |       |    23 |        40 |     23 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_45)   | 2017-01-22 |    87 |     3 |         4 |      4 |
-| [`ig`](https://instagram.com/p/C_OTj8gJOd2/)       | 2024-08-28 |   171 |    69 |      1458 |   4.73 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1713) | 2024-08-28 |   115 |    22 |       940 |   2.55 |
-| [`tg`](https://t.me/mwscr/515)                     | 2024-08-28 |   154 |    43 |       546 |   7.88 |
-|                                                    |            |   440 |   134 |      2944 |   8.43 |
+| [`ig`](https://instagram.com/p/C_OTj8gJOd2/)       | 2024-08-28 |   187 |    76 |      1458 |   5.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1713) | 2024-08-28 |   120 |    22 |       940 |   2.55 |
+| [`tg`](https://t.me/mwscr/515)                     | 2024-08-28 |   157 |    43 |       546 |   7.88 |
+|                                                    |            |   464 |   141 |      2944 |   8.53 |
 
 #### Comments
 
 - `vk` <ins title="2024-08-28-18-37-43">id810900694</ins> Отличное место и рядом с телепортом-ГМ 👍
 - `ig` <ins title="2024-08-28-18-40-43">eastcoast_lg</ins> New fav
 - `vk` <ins title="2024-08-28-20-55-34">untergrundbahn</ins> Как же я ностальгирую от этого паблика...
+- `ig` <ins title="2024-08-29-02-23-50">thatmissingno</ins> throwback to when i charmed the heck out of that elf to get the shirt free for the imperial cult, then went back to steal some more
 
 ## <span id="2024-08-27-fork-of-horripilation-and-other-accessories">Fork of Horripilation and Other Accessories</span>
 
@@ -61,10 +62,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Be0q5Z8jyW3/)       | 2018-02-05 |       |    76 |       283 |  26.86 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_604)  | 2018-02-05 |   190 |    12 |       125 |    9.6 |
-| [`ig`](https://instagram.com/p/C_LuWTjPpEs/)       | 2024-08-27 |   315 |    74 |      1458 |   5.08 |
+| [`ig`](https://instagram.com/p/C_LuWTjPpEs/)       | 2024-08-27 |   318 |    74 |      1458 |   5.08 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1712) | 2024-08-27 |   199 |    23 |       939 |   2.56 |
-| [`tg`](https://t.me/mwscr/514)                     | 2024-08-27 |   208 |    53 |       544 |   9.74 |
-|                                                    |            |   722 |   150 |      2941 |  10.77 |
+| [`tg`](https://t.me/mwscr/514)                     | 2024-08-27 |   210 |    53 |       544 |   9.74 |
+|                                                    |            |   727 |   150 |      2941 |  10.77 |
 
 ## <span id="2024-08-26-azura-from-underwater">Azura from Underwater</span>
 
