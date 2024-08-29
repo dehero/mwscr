@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.14.0](https://github.com/dehero/mwscr/compare/v1.13.1...v1.14.0) (2024-08-29)
+
+### Features
+
+- add scrollbars styling ([145c65f](https://github.com/dehero/mwscr/commit/145c65fcf14a2092379b09ca9a8e62bae95f2f6e))
+- implement post editing dialog
+  ([8dfaabe](https://github.com/dehero/mwscr/commit/8dfaabe8ff03f15f9619df7e9cfd865baf3e6df9))
+
+### Bug Fixes
+
+- don't load locations until locations dialog is shown
+  ([fb42e48](https://github.com/dehero/mwscr/commit/fb42e48db6a1b94a1a7c66964aa79034e8094a09))
+- don't show unaccepted select value
+  ([0fb0adf](https://github.com/dehero/mwscr/commit/0fb0adf08e9b8d1c57422d6e665717b00ce62584))
+- remove extra margin under multiline input
+  ([b30e6c7](https://github.com/dehero/mwscr/commit/b30e6c7c98ad844720b791a008f9f22652644442))
+
 ## [1.13.1](https://github.com/dehero/mwscr/compare/v1.13.0...v1.13.1) (2024-08-28)
 
 ### Bug Fixes
