@@ -32,9 +32,9 @@ natty.2024-03-28-20-45-29
 `shot` by [Natty](../contributors.md#natty)
 
 > [!WARNING]
-> Need english title, need russian title, need mark, unable to detect possible post type from content.
+> Need english title, need russian title, need mark to be A1, A2, B1, B2, C or E, got "D", unable to detect possible post type from content.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-28-20-36-34&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-28-20-36-34.png%0Astore%3A%2Finbox%2Fnatty.2024-03-28-20-36-28.png%0Astore%3A%2Finbox%2Fnatty.2024-03-28-20-36-18.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-28-20-36-34&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-28-20-36-34&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-28-20-36-34&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-28-20-36-34&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-28-20-36-34.png%0Astore%3A%2Finbox%2Fnatty.2024-03-28-20-36-28.png%0Astore%3A%2Finbox%2Fnatty.2024-03-28-20-36-18.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=D&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-28-20-36-34&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-28-20-36-34&amp;mergeWithIds=) `D` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-28-20-36-34&postLocation=)</code>
 
 ```
 natty.2024-03-28-20-36-34
@@ -257,9 +257,9 @@ natty.2024-03-10-16-15-46
 `shot` by [Natty](../contributors.md#natty)
 
 > [!WARNING]
-> Need english title, need russian title, need mark, detected post type "redrawing", got "shot".
+> Need english title, need russian title, need mark to be A1, A2, B1, B2, C or E, got "D", detected post type "redrawing", got "shot".
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-16-14-26&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-16-14-26.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-16-14-21.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-16-14-26&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-16-14-26&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-16-14-26&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-16-14-26&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-16-14-26.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-16-14-21.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=D&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-16-14-26&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-16-14-26&amp;mergeWithIds=) `D` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-16-14-26&postLocation=)</code>
 
 ```
 natty.2024-03-10-16-14-26
@@ -288,9 +288,9 @@ natty.2024-03-10-16-08-11
 `shot` by [Natty](../contributors.md#natty)
 
 > [!WARNING]
-> Need english title, need russian title, need mark, detected post type "redrawing", got "shot".
+> Need english title, need russian title, need mark to be A1, A2, B1, B2, C or E, got "D", detected post type "redrawing", got "shot".
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-16-06-37&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-16-06-37.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-16-06-33.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-16-06-37&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-16-06-37&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-16-06-37&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-16-06-37&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-16-06-37.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-16-06-33.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=D&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-16-06-37&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-16-06-37&amp;mergeWithIds=) `D` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-16-06-37&postLocation=)</code>
 
 ```
 natty.2024-03-10-16-06-37
