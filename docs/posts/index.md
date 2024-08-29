@@ -24,10 +24,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C_Q49pUplLM/)       | 2024-08-29 |    42 |    23 |      1455 |   1.58 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1716) | 2024-08-29 |    28 |     2 |       941 |   0.21 |
-| [`tg`](https://t.me/mwscr/516)                     | 2024-08-29 |    73 |    32 |       544 |   5.88 |
-|                                                    |            |   143 |    57 |      2940 |   2.56 |
+| [`ig`](https://instagram.com/p/C_Q49pUplLM/)       | 2024-08-29 |    93 |    37 |      1455 |   2.54 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1716) | 2024-08-29 |    52 |     7 |       941 |   0.74 |
+| [`tg`](https://t.me/mwscr/516)                     | 2024-08-29 |   101 |    36 |       544 |   6.62 |
+|                                                    |            |   246 |    80 |      2940 |    3.3 |
 
 ## <span id="2024-08-28-close-to-caldera-clothier">Close to Caldera Clothier</span>
 
@@ -51,10 +51,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOjbOi3FkuC/)       | 2016-12-28 |       |    23 |        40 |     23 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_45)   | 2017-01-22 |    87 |     3 |         4 |      4 |
-| [`ig`](https://instagram.com/p/C_OTj8gJOd2/)       | 2024-08-28 |   304 |   103 |      1458 |   7.06 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1713) | 2024-08-28 |   231 |    40 |       940 |   4.47 |
-| [`tg`](https://t.me/mwscr/515)                     | 2024-08-28 |   223 |    56 |       546 |  10.26 |
-|                                                    |            |   758 |   199 |      2944 |   9.76 |
+| [`ig`](https://instagram.com/p/C_OTj8gJOd2/)       | 2024-08-28 |   305 |   103 |      1458 |   7.06 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1713) | 2024-08-28 |   235 |    41 |       940 |   4.57 |
+| [`tg`](https://t.me/mwscr/515)                     | 2024-08-28 |   229 |    57 |       546 |  10.44 |
+|                                                    |            |   769 |   201 |      2944 |   9.82 |
 
 #### Comments
 
@@ -676,9 +676,9 @@
 | [`ig`](https://instagram.com/p/BnCJCoeF4b6/)       | 2018-08-28 |       |   108 |       406 |   26.6 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_880)  | 2018-08-28 |   355 |    28 |       217 |   12.9 |
 | [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |   417 |    93 |      1437 |   6.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   295 |    36 |       927 |    4.1 |
-| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   479 |    64 |       508 |   12.6 |
-|                                                    |            |  1191 |   193 |      2872 |  12.53 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   300 |    37 |       927 |   4.21 |
+| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   524 |    64 |       508 |   12.6 |
+|                                                    |            |  1241 |   194 |      2872 |  12.56 |
 
 #### Comments
 
@@ -692,7 +692,7 @@
   - <ins title="2024-08-08-18-55-36">mwscr</ins> Maybe some issues with posting links to Instagram. Try link in the profile. You should be able to find this image there.
   - <ins title="2024-08-09-09-20-26">sombersobriety</ins> @mwscr the website is absolutely beautiful! 😍
   - <ins title="2024-08-09-10-06-00">mwscr</ins> @sombersobriety Thank you!
-- `tg` <ins title="2024-08-10-18-24-45">unchainutopia</ins> wanna live here
+- `tg` <ins title="2024-08-10-18-24-45">oceanssoull</ins> wanna live here
 
 ## <span id="2024-08-07-dance-of-dagoth">Dance of Dagoth</span>
 
