@@ -18,12 +18,15 @@
   --color-text-selected-input: #355a9f;
   --color-background: #000000;
   --color-background-selected: #2c3461;
+  --color-border: #ac8d54;
   --size-panel-min-width: 250px;
   --size-panel-min-height: 200px;
   --color-loader-top: #00a0a3;
   --color-loader-bottom: #00a1a3;
   font-family: MysticCards, serif;
   font-size: 16px;
+  color-scheme: dark;
+  scrollbar-color: var(--color-border) var(--color-background);
 }
 
 html,
