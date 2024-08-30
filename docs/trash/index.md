@@ -4,7 +4,7 @@
 
 # Trash for 2024
 
-`32 items`
+`33 items`
 
 ## <span id="vladyslav-zhuk.2024-05-20-d3c543d1">vladyslav-zhuk.2024-05-20-d3c543d1</span>
 
@@ -369,6 +369,18 @@ dehero.2024-03-05-19-55-53
 
 ```
 dehero.2024-03-05-19-51-30
+```
+
+## <span id="dehero.2024-02-17-10-40-24">dehero.2024-02-17-10-40-24</span>
+
+![store:/trash/dehero.2024-02-17-10-40-24.png](../../assets/previews/trash/dehero.2024-02-17-10-40-24.avif "dehero.2024-02-17-10-40-24")
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-17-10-40-24&amp;postContent=store%3A%2Ftrash%2Fdehero.2024-02-17-10-40-24.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=D&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-17-10-40-24&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-17-10-40-24&amp;mergeWithIds=) `D` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-02-17-10-40-24&postLocation=)</code>
+
+```
+dehero.2024-02-17-10-40-24
 ```
 
 ## <span id="dehero.2024-02-17-10-33-47">dehero.2024-02-17-10-33-47</span>
