@@ -24,10 +24,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C_Q49pUplLM/)       | 2024-08-29 |   165 |    58 |      1455 |   3.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1716) | 2024-08-29 |    84 |    13 |       941 |   1.38 |
-| [`tg`](https://t.me/mwscr/516)                     | 2024-08-29 |   116 |    42 |       544 |   7.72 |
-|                                                    |            |   365 |   113 |      2940 |   4.36 |
+| [`ig`](https://instagram.com/p/C_Q49pUplLM/)       | 2024-08-29 |   193 |    59 |      1455 |   4.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1716) | 2024-08-29 |    92 |    15 |       941 |   1.59 |
+| [`tg`](https://t.me/mwscr/516)                     | 2024-08-29 |   122 |    42 |       544 |   7.72 |
+|                                                    |            |   407 |   116 |      2940 |   4.46 |
 
 #### Comments
 
@@ -55,16 +55,17 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOjbOi3FkuC/)       | 2016-12-28 |       |    23 |        40 |     23 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_45)   | 2017-01-22 |    87 |     3 |         4 |      4 |
-| [`ig`](https://instagram.com/p/C_OTj8gJOd2/)       | 2024-08-28 |   313 |   104 |      1458 |   7.13 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1713) | 2024-08-28 |   238 |    42 |       940 |   4.68 |
-| [`tg`](https://t.me/mwscr/515)                     | 2024-08-28 |   233 |    57 |       546 |  10.44 |
-|                                                    |            |   784 |   203 |      2944 |   9.85 |
+| [`ig`](https://instagram.com/p/C_OTj8gJOd2/)       | 2024-08-28 |   316 |   105 |      1458 |    7.2 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1713) | 2024-08-28 |   240 |    42 |       940 |   4.68 |
+| [`tg`](https://t.me/mwscr/515)                     | 2024-08-28 |   234 |    57 |       546 |  10.44 |
+|                                                    |            |   790 |   204 |      2944 |   9.86 |
 
 #### Comments
 
 - `vk` <ins title="2024-08-28-18-37-43">id810900694</ins> Отличное место и рядом с телепортом-ГМ 👍
 - `ig` <ins title="2024-08-28-18-40-43">eastcoast_lg</ins> New fav
 - `vk` <ins title="2024-08-28-20-55-34">untergrundbahn</ins> Как же я ностальгирую от этого паблика...
+  - <ins title="2024-08-30-00-55-18">club128574987</ins> Я тоже, а я ведь живу там!
 - `ig` <ins title="2024-08-29-02-23-50">thatmissingno</ins> throwback to when i charmed the heck out of that elf to get the shirt free for the imperial cult, then went back to steal some more
 
 ## <span id="2024-08-27-fork-of-horripilation-and-other-accessories">Fork of Horripilation and Other Accessories</span>
@@ -1359,9 +1360,9 @@
 | [`ig`](https://instagram.com/p/BlldXcqF7SD/)       | 2018-07-23 |       |    81 |       362 |  22.38 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_822)  | 2018-07-23 |   259 |    18 |       191 |   9.42 |
 | [`ig`](https://instagram.com/p/C9kur6MPT8G/)       | 2024-07-18 |   456 |    89 |      1426 |   6.24 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1642) | 2024-07-18 |   255 |    37 |       919 |   4.13 |
-| [`tg`](https://t.me/mwscr/473)                     | 2024-07-18 |   627 |    58 |       402 |  14.43 |
-|                                                    |            |  1338 |   184 |      2747 |  11.32 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1642) | 2024-07-18 |   258 |    38 |       919 |   4.24 |
+| [`tg`](https://t.me/mwscr/473)                     | 2024-07-18 |   639 |    58 |       402 |  14.43 |
+|                                                    |            |  1353 |   185 |      2747 |  11.34 |
 
 #### Comments
 
@@ -2481,9 +2482,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C8KmyYss4M8/)       | 2024-06-13 |   482 |   105 |      1420 |   7.39 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   291 |    38 |       915 |   4.26 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1580) | 2024-06-13 |   292 |    38 |       915 |   4.26 |
 | [`tg`](https://t.me/mwscr/438)                     | 2024-06-13 |   444 |    56 |       385 |  14.55 |
-|                                                    |            |  1217 |   199 |      2720 |   8.73 |
+|                                                    |            |  1218 |   199 |      2720 |   8.73 |
 
 ## <span id="2024-06-12-beran-ancestral-tomb">Beran Ancestral Tomb</span>
 
