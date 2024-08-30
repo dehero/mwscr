@@ -207,17 +207,17 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2024-08-23-08-19-52
+      updated: 2024-08-30-08-27-33
       followers: 893
       likes: 35
       views: 258
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2024-08-23-08-19-51
+      updated: 2024-08-30-08-27-32
       followers: 345
       likes: 58
-      views: 542
+      views: 543
 2024-03-08-a-bridge-to-ascadian-isles:
   title: A Bridge to Ascadian Isles
   titleRu: Мост к Аскадианским островам
@@ -568,7 +568,7 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2024-08-23-08-19-51
+      updated: 2024-08-30-08-27-31
       followers: 896
       likes: 42
       views: 298
@@ -579,10 +579,10 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2024-08-23-08-19-50
+      updated: 2024-08-30-08-27-31
       followers: 352
       likes: 58
-      views: 462
+      views: 464
       comments: !c |-
         CymAkZTLQnjmKMfPAACpR2F0ZW1hdGU32SZ0aGlzIGlzIGEgbWFzb25pYyBsb2RnZT8gbm90IG1v
         cnJvd2luZJPLQnjmKXtAgAClYW5zaXOlaGFoYWgD
@@ -871,7 +871,7 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2024-08-23-08-19-49
+      updated: 2024-08-30-08-27-29
       followers: 906
       likes: 51
       views: 428
@@ -879,10 +879,10 @@
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2024-08-23-08-19-49
+      updated: 2024-08-30-08-27-29
       followers: 354
       likes: 62
-      views: 467
+      views: 470
 2024-04-05-rain-of-sparks: 2017-09-29-rain-of-sparks
 2024-04-06-falling-towers:
   title: Falling Towers
@@ -2410,17 +2410,17 @@
       id: C_Q49pUplLM
       mediaId: '18074588347488993'
       published: 2024-08-29-18-28-59
-      updated: 2024-08-30-07-19-32
+      updated: 2024-08-30-08-27-25
       followers: 1455
-      likes: 67
-      views: 231
+      likes: 68
+      views: 239
     - service: vk
       id: 1716
       published: 2024-08-29-18-29-05
-      updated: 2024-08-30-07-19-32
+      updated: 2024-08-30-08-27-25
       followers: 941
-      likes: 17
-      views: 122
+      likes: 18
+      views: 130
       reposts: 1
       comments: !c |-
         CymAkZPLQnkZ/gDzgACrbG9tYWV2X2xpdmXZOtCt0YLQviDQvdC1INC00L7QttC00YwsINGN0YLQ
@@ -2428,7 +2428,7 @@
     - service: tg
       id: 516
       published: 2024-08-29-18-29-13
-      updated: 2024-08-30-07-19-32
+      updated: 2024-08-30-08-27-26
       followers: 544
       likes: 47
-      views: 144
+      views: 147
