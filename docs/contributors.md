@@ -33,7 +33,7 @@ natty
 
 Roles: `author`  
 Authored: 10 posted, 13 rejected  
-Likes: 2608  
+Likes: 2612  
 
 ```
 darkness-rifho
