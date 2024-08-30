@@ -4556,20 +4556,20 @@
     - service: vk
       id: 1526
       published: 2024-05-09-18-18-25
-      updated: 2024-08-23-06-20-49
+      updated: 2024-08-30-06-30-13
       followers: 913
       likes: 39
-      views: 271
+      views: 272
       comments: !c |-
         G2cAWByJsY2KPTRnzG+ESqdQj7Txgsky8ZFM7gfPjXk8kXhRBWaQZQNfD/iqqYeJnJBHFnNi30tB
         iiQDiVWe+6H9FwHwxIdXDZEhWBA/9NaFO84qvbOqdk1m83cMHqshR1eqM+eNYUzIzQs=
     - service: tg
       id: 403
       published: 2024-05-09-18-18-32
-      updated: 2024-08-23-06-20-48
+      updated: 2024-08-30-06-30-12
       followers: 370
       likes: 60
-      views: 441
+      views: 442
 2018-05-19-keep-calm-and-wait-for-nerevarine:
   title: Keep Calm and Wait for Nerevarine
   titleRu: Будь спокоен и жди Нереварина
