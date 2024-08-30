@@ -4,7 +4,7 @@
 
 # Revisit
 
-`27 items`
+`28 items`
 
 ## <span id="remmlah.2022-07-26-two-ways">Two Ways</span>
 
@@ -20,6 +20,19 @@
 
 ```
 remmlah.2022-07-26-two-ways
+```
+
+## <span id="natty.2024-03-28-20-26-12">natty.2024-03-28-20-26-12</span>
+
+![store:/trash/natty.2024-03-28-20-26-12.png](../../assets/previews/trash/natty.2024-03-28-20-26-12.avif "natty.2024-03-28-20-26-12")
+![store:/trash/natty.2024-03-28-20-25-53.png](../../assets/previews/trash/natty.2024-03-28-20-25-53.avif "natty.2024-03-28-20-25-53")
+
+`shot` by [Natty](../contributors.md#natty)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-28-20-26-12&amp;postContent=store%3A%2Ftrash%2Fnatty.2024-03-28-20-26-12.png%0Astore%3A%2Ftrash%2Fnatty.2024-03-28-20-25-53.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=Punabi&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-28-20-26-12&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-28-20-26-12&amp;mergeWithIds=) `F` `📍 Punabi`
+
+```
+natty.2024-03-28-20-26-12
 ```
 
 ## <span id="natty.2024-03-10-16-44-06">natty.2024-03-10-16-44-06</span>
