@@ -1,6 +1,6 @@
 import { BooleanOperations, Box, Polygon } from '@flatten-js/core';
 import clsx from 'clsx';
-import { type Component, createContext, createEffect, createMemo, For, Show } from 'solid-js';
+import { type Component, createContext, createEffect, createMemo, createSignal, For, onCleanup, Show } from 'solid-js';
 import { navigate } from 'vike/client/router';
 import { getLocationCellCoordinates, type Location, type LocationCell } from '../../../core/entities/location.js';
 import { asArray } from '../../../core/utils/common-utils.js';
@@ -64,7 +64,7 @@ const WorldMapContext = createContext<WorldMapContext>({
 
 const CellMarker: Component<CellMarkerProps> = (props) => {
   const style = () => {
-    const [left, top] = cellToMapPosition(props.cell).map((v) => `${v}px`);
+    const [left, top] = cellToMapPosition(props.cell).map((v) => `${v - 0.5}px`);
     return {
       left,
       top,
@@ -75,6 +75,14 @@ const CellMarker: Component<CellMarkerProps> = (props) => {
 };
 
 export const WorldMap: Component<WorldMapProps> = (props) => {
+  const [grabStartPosition, setGrabStartPosition] = createSignal<{
+    scrollLeft: number;
+    scrollTop: number;
+    x: number;
+    y: number;
+  } | null>(null);
+  const [isGrabbing, setIsGrabbing] = createSignal(false);
+
   const worldLocations = createMemo(() =>
     props.locations.filter(
       (location) =>
@@ -133,9 +141,48 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
     }
   });
 
+  const handleMouseDown = (e: MouseEvent) => {
+    if (ref) {
+      e.preventDefault();
+      setGrabStartPosition({ scrollLeft: ref.scrollLeft, scrollTop: ref.scrollTop, x: e.pageX, y: e.pageY });
+      document.addEventListener('mouseup', handleMouseUp);
+      document.addEventListener('mousemove', handleMouseMove);
+    }
+  };
+
+  const handleMouseUp = () => {
+    document.removeEventListener('mouseup', handleMouseUp);
+    document.removeEventListener('mousemove', handleMouseMove);
+    setGrabStartPosition(null);
+    setIsGrabbing(false);
+  };
+
+  const handleMouseMove = (e: MouseEvent) => {
+    const startPosition = grabStartPosition();
+
+    if (ref && startPosition) {
+      e.preventDefault();
+      ref.scrollLeft = startPosition.scrollLeft + startPosition.x - e.pageX;
+      ref.scrollTop = startPosition.scrollTop + startPosition.y - e.pageY;
+      setIsGrabbing(Math.abs(startPosition.x - e.pageX) > 5 || Math.abs(startPosition.y - e.pageY) > 5);
+    }
+  };
+
+  onCleanup(() => {
+    if (grabStartPosition()) {
+      document.removeEventListener('mouseup', handleMouseUp);
+      document.removeEventListener('mousemove', handleMouseMove);
+    }
+  });
+
   return (
     <WorldMapContext.Provider value={{ onLocationClick: props.onLocationClick }}>
-      <Frame variant="thin" class={clsx(styles.container, props.class)} ref={ref}>
+      <Frame
+        variant="thin"
+        class={clsx(styles.container, isGrabbing() && styles.grabbing, props.class)}
+        ref={ref}
+        onMouseDown={handleMouseDown}
+      >
         <div class={styles.map} ref={mapRef}>
           <Show when={discoveredPolygons().length > 0}>
             <div class={styles.discovered} />
@@ -182,6 +229,9 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
       <LocationTooltip
         forRef={ref}
         location={(relative) => {
+          if (isGrabbing()) {
+            return;
+          }
           const cell = mapPositionToCell(relative.x + (ref?.scrollLeft || 0), relative.y + (ref?.scrollTop || 0));
           return cellLocations().get(cell);
         }}
