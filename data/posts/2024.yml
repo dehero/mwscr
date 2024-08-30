@@ -1074,17 +1074,17 @@
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2024-08-23-10-15-37
+      updated: 2024-08-30-10-22-53
       followers: 911
       likes: 27
       views: 225
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2024-08-23-10-15-37
+      updated: 2024-08-30-10-22-53
       followers: 352
       likes: 67
-      views: 1091
+      views: 1094
 2024-04-12-sadrith-mora-gateway-inn: 2017-01-19-sadrith-mora-gateway-inn
 2024-04-13-manwe:
   title: Manwe
@@ -2410,17 +2410,17 @@
       id: C_Q49pUplLM
       mediaId: '18074588347488993'
       published: 2024-08-29-18-28-59
-      updated: 2024-08-30-09-23-28
+      updated: 2024-08-30-10-22-52
       followers: 1455
-      likes: 70
-      views: 240
+      likes: 71
+      views: 244
     - service: vk
       id: 1716
       published: 2024-08-29-18-29-05
-      updated: 2024-08-30-09-23-29
+      updated: 2024-08-30-10-22-52
       followers: 941
-      likes: 20
-      views: 137
+      likes: 21
+      views: 138
       reposts: 1
       comments: !c |-
         CymAkZPLQnkZ/gDzgACrbG9tYWV2X2xpdmXZOtCt0YLQviDQvdC1INC00L7QttC00YwsINGN0YLQ
@@ -2428,7 +2428,7 @@
     - service: tg
       id: 516
       published: 2024-08-29-18-29-13
-      updated: 2024-08-30-09-23-29
+      updated: 2024-08-30-10-22-52
       followers: 544
-      likes: 48
-      views: 150
+      likes: 49
+      views: 155
