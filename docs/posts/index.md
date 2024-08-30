@@ -4,7 +4,39 @@
 
 # Posted in 2024
 
-`185 items`
+`186 items`
+
+## <span id="2024-08-30-you-d-better-do-what-they-say">You&#39;d Better Do What They Say</span>
+
+`RU` Вам лучше сделать, как они говорят
+
+<a href="https://instagram.com/p/BT3aibiDN0B/" title="2017-05-09-youd-better-do-what-they-say"><img alt="store:/shots/2017-05-09-youd-better-do-what-they-say.png" src="../../assets/previews/shots/2017-05-09-youd-better-do-what-they-say.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-30-you-d-better-do-what-they-say&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-08-30-you-d-better-do-what-they-say
+```
+
+> `2017-05-09-youd-better-do-what-they-say`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BT3aibiDN0B/)       | 2017-05-09 |       |    92 |       178 |  51.69 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_284)  | 2017-05-09 |   100 |     9 |        56 |  16.07 |
+| [`ig`](https://instagram.com/p/C_Td0E0Ni4-/)       | 2024-08-30 |       |       |      1457 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1721) | 2024-08-30 |       |       |       941 |        |
+| [`tg`](https://t.me/mwscr/517)                     | 2024-08-30 |       |       |       545 |        |
+|                                                    |            |       |       |      2943 |  33.88 |
+
+#### Comments
+
+- `ig` <ins title="2017-05-09-14-03-15">syntax3rrur</ins> 😍
+- `ig` <ins title="2017-05-09-21-26-54">oefengod1</ins> I read that in his voice and just got shivers over my spine
 
 ## <span id="2024-08-29-death-under-rain">Death Under Rain</span>
 
@@ -24,10 +56,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C_Q49pUplLM/)       | 2024-08-29 |   281 |    79 |      1455 |   5.43 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1716) | 2024-08-29 |   163 |    23 |       941 |   2.55 |
+| [`ig`](https://instagram.com/p/C_Q49pUplLM/)       | 2024-08-29 |   285 |    79 |      1455 |   5.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1716) | 2024-08-29 |   165 |    23 |       941 |   2.55 |
 | [`tg`](https://t.me/mwscr/516)                     | 2024-08-29 |   165 |    53 |       544 |   9.74 |
-|                                                    |            |   609 |   155 |      2940 |   5.91 |
+|                                                    |            |   615 |   155 |      2940 |   5.91 |
 
 #### Comments
 
@@ -119,10 +151,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BkLL-0UlMSz/)       | 2018-06-18 |       |   109 |       347 |  31.41 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_772)  | 2018-06-18 |   295 |    23 |       174 |  13.22 |
-| [`ig`](https://instagram.com/p/C_JJkgzvCqD/)       | 2024-08-26 |   371 |   109 |      1457 |   7.48 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1710) | 2024-08-26 |   216 |    33 |       940 |   3.51 |
-| [`tg`](https://t.me/mwscr/513)                     | 2024-08-26 |   251 |    57 |       544 |  10.48 |
-|                                                    |            |   838 |   199 |      2941 |  13.22 |
+| [`ig`](https://instagram.com/p/C_JJkgzvCqD/)       | 2024-08-26 |   374 |   109 |      1457 |   7.48 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1710) | 2024-08-26 |   225 |    33 |       940 |   3.51 |
+| [`tg`](https://t.me/mwscr/513)                     | 2024-08-26 |   291 |    59 |       544 |  10.85 |
+|                                                    |            |   890 |   201 |      2941 |  13.29 |
 
 ## <span id="2024-08-25-near-the-ghostgate">Near the Ghostgate</span>
 
@@ -147,10 +179,10 @@
 | [`ig`](https://instagram.com/p/BnUWz5ZFjUY/)       | 2018-09-04 |       |   104 |       411 |   25.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_902)  | 2018-09-04 |   353 |    20 |       223 |   8.97 |
 | [`tg`](https://t.me/mwscr/10)                      | 2018-09-04 |   189 |     2 |           |        |
-| [`ig`](https://instagram.com/p/C_Gkjg6Nfuj/)       | 2024-08-25 |   353 |    94 |      1455 |   6.46 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1707) | 2024-08-25 |   215 |    33 |       940 |   3.62 |
-| [`tg`](https://t.me/mwscr/512)                     | 2024-08-25 |   319 |    56 |       542 |  10.33 |
-|                                                    |            |   887 |   183 |      2937 |  10.94 |
+| [`ig`](https://instagram.com/p/C_Gkjg6Nfuj/)       | 2024-08-25 |   360 |    96 |      1455 |    6.6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1707) | 2024-08-25 |   223 |    33 |       940 |   3.62 |
+| [`tg`](https://t.me/mwscr/512)                     | 2024-08-25 |   343 |    57 |       542 |  10.52 |
+|                                                    |            |   926 |   186 |      2937 |     11 |
 
 #### Comments
 
