@@ -682,9 +682,9 @@
     - service: yt
       id: 8Waikj-VsSI
       published: 2017-01-22
-      updated: 2024-08-23-21-13-51
+      updated: 2024-08-30-21-21-30
       likes: 7
-      views: 126
+      views: 128
     - service: vk
       id: 71
       published: 2017-01-22
@@ -918,9 +918,9 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2024-08-23-21-13-50
+      updated: 2024-08-30-21-21-30
       likes: 25
-      views: 566
+      views: 571
       comments: !c CxOAkZPLQnaO0E6sgACqQE5hcnNNY2FpbrBJIGxvdmUgdGhpcyBzaGl0Aw==
     - service: vk
       id: 101
@@ -1502,9 +1502,9 @@
     - service: yt
       id: Fd77v5UL_ek
       published: 2017-02-12
-      updated: 2024-08-23-21-13-50
-      likes: 29
-      views: 651
+      updated: 2024-08-30-21-21-30
+      likes: 30
+      views: 659
       comments: !c |-
         G+gAoCwK7IZjg1xnd84NfTExG8H/173ufKL3qbUU3ol5wEulDhJM54DXczGQWwslGIsxDlWEf7it
         t5QEIT7YrgRCP24zuPGiFz0mZ9esw+AcQenkQAP0rEVhywI7BwFwBRjoxlL4wrHIsHg7HF6DDo6k
@@ -4509,17 +4509,17 @@
       id: C_Td0E0Ni4-
       mediaId: '18038542034051018'
       published: 2024-08-30-18-29-27
-      updated: 2024-08-30-20-23-41
+      updated: 2024-08-30-21-21-31
       followers: 1457
-      likes: 60
-      views: 120
+      likes: 73
+      views: 160
     - service: vk
       id: 1721
       published: 2024-08-30-18-29-34
-      updated: 2024-08-30-20-23-40
+      updated: 2024-08-30-21-21-31
       followers: 941
-      likes: 14
-      views: 61
+      likes: 16
+      views: 73
       reposts: 1
       comments: !c |-
         G4EASI2UbsI8/23blXzrNBLrlhmh4s282bqukxkp6vsRPVkJ+andhrGDYxy4DZt+PunEg+0BlyHE
@@ -4528,10 +4528,11 @@
     - service: tg
       id: 517
       published: 2024-08-30-18-29-41
-      updated: 2024-08-30-20-23-41
+      updated: 2024-08-30-21-21-31
       followers: 545
-      likes: 36
-      views: 103
+      likes: 39
+      views: 110
+      comments: !c iw2AkZPLQnkaUBbeAACrVmVicmFuZGVub0uk8J+YjAM=
 2017-05-10-slaves-of-molag-mar:
   title: Slaves of Molag Mar
   titleRu: Рабы Молаг Мара
