@@ -1,6 +1,7 @@
 .container {
   background: #182421;
-  overflow: auto;
+  overflow: hidden;
+  cursor: grab;
 }
 
 .map {
@@ -35,22 +36,26 @@
   cursor: default;
 }
 
+.grabbing .selectionLink {
+  cursor: grab;
+}
+
 .selectionPolygon {
-  fill: none;
-  stroke: none;
+  fill: transparent;
+  stroke: transparent;
   pointer-events: all;
   fill-opacity: 0.125;
   shape-rendering: crispEdges;
+  transition: all 0.25s ease-out;
 }
 
 .selectionPolygon.selected {
   stroke: var(--color-text);
-  /* fill: #000; */
   fill: var(--color-text);
   fill-opacity: 0.25;
 }
 
-.selectionPolygon:hover {
+.container:not(.grabbing) .selectionPolygon:hover {
   stroke: var(--color-text);
   fill: var(--color-text);
 }
