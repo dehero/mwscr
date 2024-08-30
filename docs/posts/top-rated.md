@@ -76,36 +76,6 @@
 
 - `vk` <ins title="2017-02-17-06-44-09">soulilight</ins> 👍
 
-## <span id="2017-05-09-youd-better-do-what-they-say">You&#39;d Better Do What They Say</span>
-
-`RU` Вам лучше сделать, как они говорят
-
-<a href="https://instagram.com/p/BT3aibiDN0B/" title="2017-05-09-youd-better-do-what-they-say"><img alt="store:/shots/2017-05-09-youd-better-do-what-they-say.png" src="../../assets/previews/shots/2017-05-09-youd-better-do-what-they-say.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2017-05-09-youd-better-do-what-they-say&postLocation=)</code> `🚀 OpenMW`
-
-```
-2017-05-09-youd-better-do-what-they-say
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BT3aibiDN0B/)       | 2017-05-09 |       |    92 |       178 |  51.69 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_284)  | 2017-05-09 |   100 |     9 |        56 |  16.07 |
-| [`ig`](https://instagram.com/p/C_Td0E0Ni4-/)       | 2024-08-30 |       |       |      1457 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1721) | 2024-08-30 |       |       |       941 |        |
-| [`tg`](https://t.me/mwscr/517)                     | 2024-08-30 |       |       |       545 |        |
-|                                                    |            |   100 |   101 |       234 |  33.88 |
-
-#### Comments
-
-- `ig` <ins title="2017-05-09-14-03-15">syntax3rrur</ins> 😍
-- `ig` <ins title="2017-05-09-21-26-54">oefengod1</ins> I read that in his voice and just got shivers over my spine
-
 ## <span id="2017-12-24-little-helper">Little Helper</span>
 
 `RU` Маленький помощник
@@ -1286,6 +1256,36 @@
 - `ig` <ins title="2018-08-12-21-53-57">l3nku</ins> thank you
 - `vk` <ins title="2018-08-13-14-05-47">dead___end</ins> идеальная красота
 - `vk` <ins title="2018-08-13-14-05-55">dead___end</ins> Умир от варения
+
+## <span id="2018-06-10-left-side-portraits">Left-Side Portraits</span>
+
+`RU` Левосторонние портреты
+
+<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-05-09-youd-better-do-what-they-say"><img alt="store:/shots/2017-05-09-youd-better-do-what-they-say.png" src="../../assets/previews/shots/2017-05-09-youd-better-do-what-they-say.avif" /></a>
+<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-05-19-queen-mother-in-her-chambers"><img alt="store:/shots/2017-05-19-queen-mother-in-her-chambers.png" src="../../assets/previews/shots/2017-05-19-queen-mother-in-her-chambers.avif" /></a>
+<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-09-20-director-of-corprusarium"><img alt="store:/shots/2017-09-20-director-of-corprusarium.png" src="../../assets/previews/shots/2017-09-20-director-of-corprusarium.avif" /></a>
+<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-10-21-socucius-ergalla"><img alt="store:/shots/2017-10-21-socucius-ergalla.png" src="../../assets/previews/shots/2017-10-21-socucius-ergalla.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+`B1` `🚀 OpenMW` `npc`
+
+```
+2018-06-10-left-side-portraits
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bj2uQ_RlPrt/)      | 2018-06-10 |       |   144 |       341 |  42.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_762) | 2018-06-10 |   247 |    22 |       173 |  12.72 |
+|                                                   |            |   247 |   166 |       514 |  27.47 |
+
+#### Comments
+
+- `ig` <ins title="2018-06-10-19-48-27">defiant_laughter</ins> Divayth Fyr is my favorite mage of all time.
+- `ig` <ins title="2018-06-10-22-50-43">munson_sargassum</ins> Saint Jiub is cool.
 
 ---
 
