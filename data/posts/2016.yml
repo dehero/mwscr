@@ -1389,10 +1389,10 @@
       id: C_OTj8gJOd2
       mediaId: '17951710724718116'
       published: 2024-08-28-18-23-41
-      updated: 2024-08-30-11-19-13
+      updated: 2024-08-30-12-40-56
       followers: 1458
-      likes: 106
-      views: 327
+      likes: 108
+      views: 331
       comments: !c |-
         G7wAQJwJtq2C9aD7Lc5BOrkzn+nbwR5gYQHXI3TL/xIg491cW6pHN3Y5xnSP8wf/p2JMxuzTU8+x
         VtCWtCWBFTaPPLGL3G1snHYncUkQ2jcV357hDIr43eu3MerhjQ1BHPaB1UvhCLcDlwlFwbOsFlNj
@@ -1400,7 +1400,7 @@
     - service: vk
       id: 1713
       published: 2024-08-28-18-23-48
-      updated: 2024-08-30-11-19-14
+      updated: 2024-08-30-12-40-57
       followers: 940
       likes: 42
       views: 248
@@ -1413,10 +1413,10 @@
     - service: tg
       id: 515
       published: 2024-08-28-18-23-56
-      updated: 2024-08-30-11-19-14
+      updated: 2024-08-30-12-40-57
       followers: 546
       likes: 59
-      views: 250
+      views: 252
 2016-12-29-entering-holamayan-monastery:
   title: Entering Holamayan Monastery
   titleRu: Вход в монастырь Холамаян
