@@ -544,7 +544,7 @@
     - service: vk
       id: 1491
       published: 2024-04-12-18-14-50
-      updated: 2024-08-24-03-15-53
+      updated: 2024-08-31-03-22-49
       followers: 911
       likes: 35
       views: 265
@@ -552,10 +552,10 @@
     - service: tg
       id: 376
       published: 2024-04-12-18-15-00
-      updated: 2024-08-24-03-15-53
+      updated: 2024-08-31-03-22-47
       followers: 352
       likes: 70
-      views: 455
+      views: 457
       comments: !c |-
         G3kCICwOeHPoJNT0dgTVz0b0TxysCP/kgSRBxlEgcVjABcGRnOxTdSMYodAkCN/vK5SzFXt/92vU
         bJIm1nd3w9venyuqqBayEqSCS7uerJZP65+m2NyG1hh0Ux8fFA7oVxM/3TgWZoElGng0tkYQYIC9
@@ -4047,17 +4047,17 @@
     - service: vk
       id: 1545
       published: 2024-05-24-18-19-24
-      updated: 2024-08-24-03-15-52
+      updated: 2024-08-31-03-22-48
       followers: 917
       likes: 38
-      views: 280
+      views: 281
     - service: tg
       id: 418
       published: 2024-05-24-18-19-31
-      updated: 2024-08-24-03-15-52
+      updated: 2024-08-31-03-22-47
       followers: 376
       likes: 57
-      views: 483
+      views: 487
       comments: !c |-
         CyKAkZTLQnj6vWCNAACwVWR6dW1ha2lfbmFydXRvMLPQodC+0LvRhdGB0YLQtdC50Lw/k8tCePq+
         f6kAAKVtd3NjcqTQlNCwAw==
@@ -4509,17 +4509,17 @@
       id: C_Td0E0Ni4-
       mediaId: '18038542034051018'
       published: 2024-08-30-18-29-27
-      updated: 2024-08-31-02-42-44
+      updated: 2024-08-31-03-22-45
       followers: 1457
-      likes: 103
-      views: 286
+      likes: 106
+      views: 299
     - service: vk
       id: 1721
       published: 2024-08-30-18-29-34
-      updated: 2024-08-31-02-42-45
+      updated: 2024-08-31-03-22-45
       followers: 941
-      likes: 22
-      views: 112
+      likes: 23
+      views: 115
       reposts: 2
       comments: !c |-
         G2QDoJwJdiwXiwm2nMxx/PP9xT7hm7Wd2QLNuJkEAi4IuGkiSs4lS9XNCE2CIiEIR/r+/fePDWER
@@ -4533,10 +4533,10 @@
     - service: tg
       id: 517
       published: 2024-08-30-18-29-41
-      updated: 2024-08-31-02-42-45
+      updated: 2024-08-31-03-22-46
       followers: 545
-      likes: 43
-      views: 138
+      likes: 44
+      views: 143
       comments: !c iw2AkZPLQnkaUBbeAACrVmVicmFuZGVub0uk8J+YjAM=
 2017-05-10-slaves-of-molag-mar:
   title: Slaves of Molag Mar
