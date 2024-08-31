@@ -4509,14 +4509,14 @@
       id: C_Td0E0Ni4-
       mediaId: '18038542034051018'
       published: 2024-08-30-18-29-27
-      updated: 2024-08-31-17-18-25
+      updated: 2024-08-31-18-26-39
       followers: 1457
       likes: 138
-      views: 457
+      views: 466
     - service: vk
       id: 1721
       published: 2024-08-30-18-29-34
-      updated: 2024-08-31-17-18-25
+      updated: 2024-08-31-18-26-39
       followers: 941
       likes: 32
       views: 181
@@ -4533,10 +4533,10 @@
     - service: tg
       id: 517
       published: 2024-08-30-18-29-41
-      updated: 2024-08-31-17-18-25
+      updated: 2024-08-31-18-26-40
       followers: 545
-      likes: 54
-      views: 186
+      likes: 55
+      views: 189
       comments: !c |-
         ixqAkpPLQnkadMY5gACqaGltbWVsaGVyeqTwn5mPk8tCeRpQFt4AAKtWZWJyYW5kZW5vS6Twn5iM
         Aw==
@@ -7312,6 +7312,19 @@
       followers: 73
       likes: 7
       views: 105
+    - service: ig
+      id: C_WCUPgv_cL
+      mediaId: '17874398826151059'
+      published: 2024-08-31-18-26-54
+      followers: 1455
+    - service: vk
+      id: 1729
+      published: 2024-08-31-18-27-02
+      followers: 941
+    - service: tg
+      id: 518
+      published: 2024-08-31-18-27-11
+      followers: 545
 2017-08-06-the-embrace-of-azura:
   title: The Embrace of Azura
   titleRu: Объятия Азуры
