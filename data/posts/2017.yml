@@ -3998,7 +3998,7 @@
     - service: vk
       id: 1575
       published: 2024-06-08-18-18-38
-      updated: 2024-08-24-22-13-14
+      updated: 2024-08-31-22-21-16
       followers: 916
       likes: 36
       views: 304
@@ -4006,10 +4006,10 @@
     - service: tg
       id: 433
       published: 2024-06-08-18-18-44
-      updated: 2024-08-24-22-13-13
+      updated: 2024-08-31-22-21-15
       followers: 384
       likes: 55
-      views: 440
+      views: 445
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
   titleRu: Мрачный курган
@@ -4352,25 +4352,25 @@
       id: C-x-RYtziCJ
       mediaId: '18132369421360568'
       published: 2024-08-17-18-18-54
-      updated: 2024-08-24-22-13-10
+      updated: 2024-08-31-22-21-11
       followers: 1441
-      likes: 88
-      views: 358
+      likes: 89
+      views: 365
     - service: vk
       id: 1695
       published: 2024-08-17-18-19-02
-      updated: 2024-08-24-22-13-12
+      updated: 2024-08-31-22-21-13
       followers: 934
-      likes: 31
-      views: 221
+      likes: 32
+      views: 233
       reposts: 1
     - service: tg
       id: 504
       published: 2024-08-17-18-19-11
-      updated: 2024-08-24-22-13-12
+      updated: 2024-08-31-22-21-13
       followers: 527
-      likes: 57
-      views: 384
+      likes: 60
+      views: 496
       comments: !c |-
         G5kAGKyOt6Fh2DII9SraGD9X/MgjVPrf33zCH3gV4CCaONb5A6mtc51HiSdUhy6Lw0sQm6m2eEF7
         10hP2eKS5i0PNuCAvQgHGxBmPLvAIdUUWLSgYygr1ZEd4Y7zHD3ybT007Y+2bxgCxB5X7rrk7kIe
@@ -4411,7 +4411,7 @@
     - service: vk
       id: 1658
       published: 2024-07-27-18-20-23
-      updated: 2024-08-24-22-13-13
+      updated: 2024-08-31-22-21-14
       followers: 923
       likes: 34
       views: 271
@@ -4509,17 +4509,17 @@
       id: C_Td0E0Ni4-
       mediaId: '18038542034051018'
       published: 2024-08-30-18-29-27
-      updated: 2024-08-31-21-19-59
+      updated: 2024-08-31-22-21-10
       followers: 1457
       likes: 140
-      views: 483
+      views: 484
     - service: vk
       id: 1721
       published: 2024-08-30-18-29-34
-      updated: 2024-08-31-21-19-59
+      updated: 2024-08-31-22-21-12
       followers: 941
-      likes: 32
-      views: 185
+      likes: 33
+      views: 186
       reposts: 2
       comments: !c |-
         G2QDoJwJdiwXiwm2nMxx/PP9xT7hm7Wd2QLNuJkEAi4IuGkiSs4lS9XNCE2CIiEIR/r+/fePDWER
@@ -4533,10 +4533,10 @@
     - service: tg
       id: 517
       published: 2024-08-30-18-29-41
-      updated: 2024-08-31-21-20-00
+      updated: 2024-08-31-22-21-12
       followers: 545
       likes: 59
-      views: 211
+      views: 213
       comments: !c |-
         ixqAkpPLQnkadMY5gACqaGltbWVsaGVyeqTwn5mPk8tCeRpQFt4AAKtWZWJyYW5kZW5vS6Twn5iM
         Aw==
@@ -7316,24 +7316,24 @@
       id: C_WCUPgv_cL
       mediaId: '17874398826151059'
       published: 2024-08-31-18-26-54
-      updated: 2024-08-31-21-19-58
+      updated: 2024-08-31-22-21-10
       followers: 1455
-      likes: 47
-      views: 138
+      likes: 49
+      views: 157
     - service: vk
       id: 1729
       published: 2024-08-31-18-27-02
-      updated: 2024-08-31-21-19-58
+      updated: 2024-08-31-22-21-11
       followers: 941
-      likes: 15
-      views: 76
+      likes: 17
+      views: 83
     - service: tg
       id: 518
       published: 2024-08-31-18-27-11
-      updated: 2024-08-31-21-19-59
+      updated: 2024-08-31-22-21-11
       followers: 545
-      likes: 31
-      views: 110
+      likes: 32
+      views: 115
       comments: !c CxCAkZPLQnkanv8QAACwQ3lyb2RpaWxfR3JveXBlcqTwn6aOAw==
 2017-08-06-the-embrace-of-azura:
   title: The Embrace of Azura
