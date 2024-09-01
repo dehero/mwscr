@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`187 items`
+`188 items`
+
+## <span id="2024-09-01-entrance-to-vivec">Entrance to Vivec</span>
+
+`RU` Вход в Вивек
+
+<a href="https://instagram.com/p/BUEUMuOjtTo/" title="2017-05-14-entrance-to-vivec"><img alt="store:/shots/2017-05-14-entrance-to-vivec.png" src="../../assets/previews/shots/2017-05-14-entrance-to-vivec.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Vivec` `🚀 OpenMW`
+
+```
+2024-09-01-entrance-to-vivec
+```
+
+> `2017-05-14-entrance-to-vivec`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BUEUMuOjtTo/)       | 2017-05-14 |       |    62 |       178 |  34.83 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_290)  | 2017-05-14 |   114 |     4 |        56 |   7.14 |
+| [`ig`](https://instagram.com/p/C_YnIVDs_Cl/)       | 2024-09-01 |       |       |      1453 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1730) | 2024-09-01 |       |       |       942 |        |
+| [`tg`](https://t.me/mwscr/519)                     | 2024-09-01 |       |       |       547 |        |
+|                                                    |            |       |       |      2942 |  20.99 |
 
 ## <span id="2024-08-31-camp-under-the-bridge">Camp Under the Bridge</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BXaOSfkDQPM/)       | 2017-08-05 |       |    48 |       192 |     25 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_379)  | 2017-08-05 |   105 |     7 |        73 |   9.59 |
-| [`ig`](https://instagram.com/p/C_WCUPgv_cL/)       | 2024-08-31 |   334 |    70 |      1455 |   4.81 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1729) | 2024-08-31 |   160 |    33 |       941 |   3.51 |
-| [`tg`](https://t.me/mwscr/518)                     | 2024-08-31 |   161 |    44 |       545 |   8.07 |
-|                                                    |            |   655 |   147 |      2941 |   10.2 |
+| [`ig`](https://instagram.com/p/C_WCUPgv_cL/)       | 2024-08-31 |   343 |    72 |      1455 |   4.95 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1729) | 2024-08-31 |   161 |    34 |       941 |   3.61 |
+| [`tg`](https://t.me/mwscr/518)                     | 2024-08-31 |   163 |    44 |       545 |   8.07 |
+|                                                    |            |   667 |   150 |      2941 |  10.24 |
 
 #### Comments
 
@@ -59,10 +86,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BT3aibiDN0B/)       | 2017-05-09 |       |    92 |       178 |  51.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_284)  | 2017-05-09 |   100 |     9 |        56 |  16.07 |
-| [`ig`](https://instagram.com/p/C_Td0E0Ni4-/)       | 2024-08-30 |   527 |   153 |      1457 |   10.5 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1721) | 2024-08-30 |   208 |    39 |       941 |   4.36 |
+| [`ig`](https://instagram.com/p/C_Td0E0Ni4-/)       | 2024-08-30 |   530 |   154 |      1457 |  10.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1721) | 2024-08-30 |   209 |    40 |       941 |   4.46 |
 | [`tg`](https://t.me/mwscr/517)                     | 2024-08-30 |   232 |    60 |       545 |  11.01 |
-|                                                    |            |   967 |   252 |      2943 |  18.72 |
+|                                                    |            |   971 |   254 |      2943 |  18.76 |
 
 #### Comments
 
@@ -95,10 +122,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C_Q49pUplLM/)       | 2024-08-29 |   326 |    88 |      1455 |   6.05 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1716) | 2024-08-29 |   191 |    26 |       941 |   2.87 |
-| [`tg`](https://t.me/mwscr/516)                     | 2024-08-29 |   214 |    65 |       544 |  11.95 |
-|                                                    |            |   731 |   179 |      2940 |   6.96 |
+| [`ig`](https://instagram.com/p/C_Q49pUplLM/)       | 2024-08-29 |   357 |    94 |      1455 |   6.46 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1716) | 2024-08-29 |   201 |    28 |       941 |   3.08 |
+| [`tg`](https://t.me/mwscr/516)                     | 2024-08-29 |   243 |    68 |       544 |   12.5 |
+|                                                    |            |   801 |   190 |      2940 |   7.35 |
 
 #### Comments
 
@@ -130,10 +157,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOjbOi3FkuC/)       | 2016-12-28 |       |    23 |        40 |     23 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_45)   | 2017-01-22 |    87 |     3 |         4 |      4 |
-| [`ig`](https://instagram.com/p/C_OTj8gJOd2/)       | 2024-08-28 |   361 |   112 |      1458 |   7.68 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1713) | 2024-08-28 |   272 |    44 |       940 |      5 |
-| [`tg`](https://t.me/mwscr/515)                     | 2024-08-28 |   288 |    65 |       546 |   11.9 |
-|                                                    |            |   921 |   221 |      2944 |  10.32 |
+| [`ig`](https://instagram.com/p/C_OTj8gJOd2/)       | 2024-08-28 |   371 |   113 |      1458 |   7.75 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1713) | 2024-08-28 |   277 |    46 |       940 |   5.21 |
+| [`tg`](https://t.me/mwscr/515)                     | 2024-08-28 |   328 |    67 |       546 |  12.27 |
+|                                                    |            |   976 |   226 |      2944 |  10.45 |
 
 #### Comments
 
@@ -165,10 +192,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Be0q5Z8jyW3/)       | 2018-02-05 |       |    76 |       283 |  26.86 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_604)  | 2018-02-05 |   190 |    12 |       125 |    9.6 |
-| [`ig`](https://instagram.com/p/C_LuWTjPpEs/)       | 2024-08-27 |   347 |    82 |      1458 |   5.62 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1712) | 2024-08-27 |   251 |    27 |       939 |   2.98 |
-| [`tg`](https://t.me/mwscr/514)                     | 2024-08-27 |   303 |    58 |       544 |  10.66 |
-|                                                    |            |   901 |   167 |      2941 |  11.14 |
+| [`ig`](https://instagram.com/p/C_LuWTjPpEs/)       | 2024-08-27 |   355 |    82 |      1458 |   5.62 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1712) | 2024-08-27 |   258 |    28 |       939 |   3.09 |
+| [`tg`](https://t.me/mwscr/514)                     | 2024-08-27 |   325 |    58 |       544 |  10.66 |
+|                                                    |            |   938 |   168 |      2941 |  11.17 |
 
 ## <span id="2024-08-26-azura-from-underwater">Azura from Underwater</span>
 

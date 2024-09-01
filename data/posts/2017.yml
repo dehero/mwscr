@@ -4509,17 +4509,17 @@
       id: C_Td0E0Ni4-
       mediaId: '18038542034051018'
       published: 2024-08-30-18-29-27
-      updated: 2024-09-01-17-17-34
+      updated: 2024-09-01-18-26-48
       followers: 1457
-      likes: 153
-      views: 527
+      likes: 154
+      views: 530
     - service: vk
       id: 1721
       published: 2024-08-30-18-29-34
-      updated: 2024-09-01-17-17-35
+      updated: 2024-09-01-18-26-49
       followers: 941
-      likes: 39
-      views: 208
+      likes: 40
+      views: 209
       reposts: 2
       comments: !c |-
         G2QCgJ0J5vkzpXDwym8sDIkim+yVvPgWYXGahARhEboIhCYNSmFmlUN10whNcnVz4Z6yA+kY7ddb
@@ -4532,7 +4532,7 @@
     - service: tg
       id: 517
       published: 2024-08-30-18-29-41
-      updated: 2024-09-01-17-17-35
+      updated: 2024-09-01-18-26-49
       followers: 545
       likes: 60
       views: 232
@@ -4676,6 +4676,19 @@
       followers: 56
       likes: 4
       views: 114
+    - service: ig
+      id: C_YnIVDs_Cl
+      mediaId: '18067723348606232'
+      published: 2024-09-01-18-27-05
+      followers: 1453
+    - service: vk
+      id: 1730
+      published: 2024-09-01-18-27-13
+      followers: 942
+    - service: tg
+      id: 519
+      published: 2024-09-01-18-27-20
+      followers: 547
 2017-05-15-in-the-courtyard-of-royal-palace:
   title: In the Courtyard of Royal Palace
   titleRu: Во внутреннем дворе Королевского дворца
@@ -7315,24 +7328,24 @@
       id: C_WCUPgv_cL
       mediaId: '17874398826151059'
       published: 2024-08-31-18-26-54
-      updated: 2024-09-01-17-17-33
+      updated: 2024-09-01-18-26-47
       followers: 1455
-      likes: 70
-      views: 334
+      likes: 72
+      views: 343
     - service: vk
       id: 1729
       published: 2024-08-31-18-27-02
-      updated: 2024-09-01-17-17-33
+      updated: 2024-09-01-18-26-48
       followers: 941
-      likes: 33
-      views: 160
+      likes: 34
+      views: 161
     - service: tg
       id: 518
       published: 2024-08-31-18-27-11
-      updated: 2024-09-01-17-17-34
+      updated: 2024-09-01-18-26-48
       followers: 545
       likes: 44
-      views: 161
+      views: 163
       comments: !c CxCAkZPLQnkanv8QAACwQ3lyb2RpaWxfR3JveXBlcqTwn6aOAw==
 2017-08-06-the-embrace-of-azura:
   title: The Embrace of Azura
