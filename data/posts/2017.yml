@@ -2066,7 +2066,7 @@
     - service: vk
       id: 1454
       published: 2024-03-16-18-10-42
-      updated: 2024-08-25-08-17-48
+      updated: 2024-09-01-08-25-28
       followers: 896
       likes: 37
       views: 291
@@ -2074,10 +2074,10 @@
     - service: tg
       id: 348
       published: 2024-03-16-18-10-49
-      updated: 2024-08-25-08-17-44
+      updated: 2024-09-01-08-25-26
       followers: 353
       likes: 55
-      views: 439
+      views: 441
 2017-03-02-tel-vos:
   title: Tel Vos
   titleRu: Тель Вос
@@ -4509,34 +4509,33 @@
       id: C_Td0E0Ni4-
       mediaId: '18038542034051018'
       published: 2024-08-30-18-29-27
-      updated: 2024-09-01-07-18-38
+      updated: 2024-09-01-08-25-21
       followers: 1457
       likes: 147
-      views: 502
+      views: 506
     - service: vk
       id: 1721
       published: 2024-08-30-18-29-34
-      updated: 2024-09-01-07-18-39
+      updated: 2024-09-01-08-25-22
       followers: 941
-      likes: 35
-      views: 193
+      likes: 36
+      views: 196
       reposts: 2
       comments: !c |-
-        G2QDoJwJdiwXiwm2nMxx/PP9xT7hm7Wd2QLNuJkEAi4IuGkiSs4lS9XNCE2CIiEIR/r+/fePDWER
-        +D03LYGeZ4nEYwIllv27aw3NAp1ggUQFONdb6Ur6Of9bMts1KKZmTcr36U8FyfkSDFE0RutlDsp5
-        zn++ZSyg0aUFq9C2YrVEtdq2ZAzWHn+dnjW8kuid5/NnxME8/L4+tz1bv1W04ZpRaln1EzCj+hEw
-        XuCJkryUK7a6rfXeZkGfMZK5Pq8+04lNm+l88N97F/tEMOVa36D8iVEykwq/7yQ55ry8f1NfKe31
-        Wl2FBeMIEEUsiY6pbxc9os4b47kKcc2wkfuQ6iGRcchYISgFFSs3eCTgneSNgq8LGmJWLXGzoXK/
-        /FxNEBSgKPm1l7uS8tUPJhwwnp8QdFFtzk/MoOKIQ5MvXZGKVAVK5RXSoDTfAuYZKpEZsyZSKJ1P
-        sFJVRdYKKjucZskBBRXQr1cInMT8r+GBVi44f/8hY3Q8UaIGcCQNlXesN1ZJRKLaJbpyMDrMvGZx
-        EZsNOJLPYxhdLwiJMxzTxTanerYJoFKe4EhoMqGKmlMizWwFmCfSSOywqwbJS5VM9x0=
+        G2QCgJ0J5vkzpXDwym8sDIkim+yVvPgWYXGahARhEboIhCYNSmFmlUN10whNcnVz4Z6yA+kY7ddb
+        a5pSZFMIyaTw//sw5lXTghKU4PLUIhChsY2ybdBq1WIVrT5Qrz7fzXQ9X4IRhbZ+Y9lhQOHyBbRA
+        Agt4bDvQiNJtftVzKzohW0ZIc7x+7sb+rec6748WynIylGAcNggdkGHK6Jf9oGI9fmvlAm5rff5X
+        FEetPIO9UE8sk0Y753hlw4dXw5l4vNY3GguUGamFNfokl6qAcOl+38Yn3ZUarZoN4w4gDDEOt0nn
+        rEMtN+xxCFFzcLgB4QqxQIWVVEGwctIU0xICuKX5c/woof7g5CtgFRN6X89bMZRYQpQV8G7/jkR6
+        6UhYoTq/BFjUkBcTJ5robegQpQPW2Ufw9KVIkAgjFRKOSka4IMwgGbqoj5TYDmRH7FNrwEsKeFdG
+        gHIrnf+zDw==
     - service: tg
       id: 517
       published: 2024-08-30-18-29-41
-      updated: 2024-09-01-07-18-39
+      updated: 2024-09-01-08-25-22
       followers: 545
       likes: 59
-      views: 217
+      views: 219
       comments: !c |-
         ixqAkpPLQnkadMY5gACqaGltbWVsaGVyeqTwn5mPk8tCeRpQFt4AAKtWZWJyYW5kZW5vS6Twn5iM
         Aw==
@@ -7316,24 +7315,24 @@
       id: C_WCUPgv_cL
       mediaId: '17874398826151059'
       published: 2024-08-31-18-26-54
-      updated: 2024-09-01-07-18-37
+      updated: 2024-09-01-08-25-20
       followers: 1455
-      likes: 62
-      views: 277
+      likes: 63
+      views: 285
     - service: vk
       id: 1729
       published: 2024-08-31-18-27-02
-      updated: 2024-09-01-07-18-38
+      updated: 2024-09-01-08-25-21
       followers: 941
-      likes: 22
-      views: 114
+      likes: 27
+      views: 127
     - service: tg
       id: 518
       published: 2024-08-31-18-27-11
-      updated: 2024-09-01-07-18-38
+      updated: 2024-09-01-08-25-21
       followers: 545
-      likes: 38
-      views: 135
+      likes: 40
+      views: 140
       comments: !c CxCAkZPLQnkanv8QAACwQ3lyb2RpaWxfR3JveXBlcqTwn6aOAw==
 2017-08-06-the-embrace-of-azura:
   title: The Embrace of Azura
@@ -8081,10 +8080,10 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2024-08-25-08-17-43
+      updated: 2024-09-01-08-25-23
       followers: 915
       likes: 41
-      views: 279
+      views: 280
 2017-09-01-the-last-refuge:
   title: The Last Refuge
   titleRu: Последнее прибежище
