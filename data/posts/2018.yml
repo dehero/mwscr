@@ -5649,17 +5649,17 @@
     - service: vk
       id: 1667
       published: 2024-08-04-18-18-36
-      updated: 2024-08-25-23-14-38
+      updated: 2024-09-01-23-20-11
       followers: 927
       likes: 34
-      views: 252
+      views: 253
     - service: tg
       id: 490
       published: 2024-08-04-18-18-43
-      updated: 2024-08-25-23-14-38
+      updated: 2024-09-01-23-20-11
       followers: 476
-      likes: 62
-      views: 719
+      likes: 63
+      views: 752
       comments: !c |-
         G+0AICwSeA71cYPQBcSN9t86gfLpT815tsVy0YiFw9Exdi1WnoC10haY72NAW73hjvNS7k9EIyng
         kAPxQKrtZrHURElT9upnyGaXYGB8a0Fb0gJKw0AifsIXf5AH3VhoZpHHgUN82Bye2kr4qQ6cPDuP
@@ -8752,7 +8752,7 @@
     - service: vk
       id: 1648
       published: 2024-07-21-18-19-00
-      updated: 2024-08-25-23-14-40
+      updated: 2024-09-01-23-20-13
       followers: 919
       likes: 26
       views: 262
@@ -8762,10 +8762,10 @@
     - service: tg
       id: 476
       published: 2024-07-21-18-19-07
-      updated: 2024-08-25-23-14-40
+      updated: 2024-09-01-23-20-13
       followers: 400
-      likes: 49
-      views: 499
+      likes: 50
+      views: 516
 2018-09-25-what-do-you-know-about-comfort:
   title: What Do You Know About Comfort?
   titleRu: Что вы знаете о комфорте?
