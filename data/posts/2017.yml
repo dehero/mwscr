@@ -1765,18 +1765,18 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-08-25-02-38-53
+      updated: 2024-09-01-02-56-10
       followers: 916
       likes: 52
-      views: 400
+      views: 401
       reposts: 7
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-08-25-02-38-52
+      updated: 2024-09-01-02-56-08
       followers: 386
       likes: 71
-      views: 500
+      views: 508
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -4509,17 +4509,17 @@
       id: C_Td0E0Ni4-
       mediaId: '18038542034051018'
       published: 2024-08-30-18-29-27
-      updated: 2024-09-01-01-54-25
+      updated: 2024-09-01-02-56-05
       followers: 1457
       likes: 141
-      views: 490
+      views: 493
     - service: vk
       id: 1721
       published: 2024-08-30-18-29-34
-      updated: 2024-09-01-01-54-25
+      updated: 2024-09-01-02-56-06
       followers: 941
       likes: 34
-      views: 189
+      views: 190
       reposts: 2
       comments: !c |-
         G2QDoJwJdiwXiwm2nMxx/PP9xT7hm7Wd2QLNuJkEAi4IuGkiSs4lS9XNCE2CIiEIR/r+/fePDWER
@@ -4533,7 +4533,7 @@
     - service: tg
       id: 517
       published: 2024-08-30-18-29-41
-      updated: 2024-09-01-01-54-25
+      updated: 2024-09-01-02-56-06
       followers: 545
       likes: 59
       views: 214
@@ -5759,17 +5759,17 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2024-08-25-02-38-52
+      updated: 2024-09-01-02-56-09
       followers: 920
       likes: 38
       views: 273
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2024-08-25-02-38-51
+      updated: 2024-09-01-02-56-07
       followers: 387
-      likes: 59
-      views: 451
+      likes: 60
+      views: 459
 2017-06-18-manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
@@ -7316,24 +7316,24 @@
       id: C_WCUPgv_cL
       mediaId: '17874398826151059'
       published: 2024-08-31-18-26-54
-      updated: 2024-09-01-01-54-24
+      updated: 2024-09-01-02-56-04
       followers: 1455
-      likes: 56
-      views: 217
+      likes: 58
+      views: 234
     - service: vk
       id: 1729
       published: 2024-08-31-18-27-02
-      updated: 2024-09-01-01-54-24
+      updated: 2024-09-01-02-56-05
       followers: 941
       likes: 20
-      views: 97
+      views: 101
     - service: tg
       id: 518
       published: 2024-08-31-18-27-11
-      updated: 2024-09-01-01-54-24
+      updated: 2024-09-01-02-56-05
       followers: 545
-      likes: 34
-      views: 123
+      likes: 35
+      views: 124
       comments: !c CxCAkZPLQnkanv8QAACwQ3lyb2RpaWxfR3JveXBlcqTwn6aOAw==
 2017-08-06-the-embrace-of-azura:
   title: The Embrace of Azura
@@ -11338,7 +11338,7 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-08-25-02-38-50
+      updated: 2024-09-01-02-56-07
       followers: 919
       likes: 50
       views: 274
@@ -11355,10 +11355,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-08-25-02-38-50
+      updated: 2024-09-01-02-56-06
       followers: 393
-      likes: 58
-      views: 439
+      likes: 59
+      views: 448
     - service: ig
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
