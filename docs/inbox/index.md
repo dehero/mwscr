@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`26 items`
+`27 items`
 
 ## <span id="natty.2024-03-28-20-45-29">natty.2024-03-28-20-45-29</span>
 
@@ -290,6 +290,22 @@ natty.2024-03-10-16-03-44
 
 ```
 natty.2024-03-10-12-44-23
+```
+
+## <span id="kayrac-k.2024-09-02-2a5fe92a">kayrac-k.2024-09-02-2a5fe92a</span>
+
+`shot` _pending_
+
+> Sunset over  
+> [kayrac?k](../contributors.md#kayrac-k "2024-09-02")
+
+> [!WARNING]
+> Need english title, need russian title, need author, need content, need mark, unable to detect possible post type from content.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayrac-k.2024-09-02-2a5fe92a&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=Sunset+over) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayrac-k.2024-09-02-2a5fe92a&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayrac-k.2024-09-02-2a5fe92a&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayrac-k.2024-09-02-2a5fe92a&postLocation=)</code>
+
+```
+kayrac-k.2024-09-02-2a5fe92a
 ```
 
 ## <span id="dehero.2024-03-05-20-06-06">dehero.2024-03-05-20-06-06</span>

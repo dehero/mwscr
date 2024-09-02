@@ -65,6 +65,16 @@ irina-bystritskaya
 
 ## Requesters
 
+### kayrac?k
+
+Roles: `requester` `beginner`  
+Authored: 1 rejected  
+Requested: 1 pending  
+
+```
+kayrac-k
+```
+
 ### buck-the-cuck
 
 [Instagram](https://instagram.com/p/buck_the_cuck/)
@@ -129,17 +139,6 @@ Authored: 4 rejected
 
 ```
 vladyslav-zhuk
-```
-
-### kayrac-k
-
-[GitHub](https://github.com/Helvgen)
-
-Roles: `beginner`  
-Authored: 1 rejected  
-
-```
-kayrac-k
 ```
 
 ### RemmLah

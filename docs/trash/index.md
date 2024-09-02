@@ -296,7 +296,7 @@ natty.2024-03-10-12-40-06
 
 ![store:/trash/kayrac-k.2024-08-25-sky-of-vivec.png](../../assets/previews/trash/kayrac-k.2024-08-25-sky-of-vivec.avif "kayrac-k.2024-08-25-sky-of-vivec")
 
-`shot` by [kayrac-k](../contributors.md#kayrac-k)
+`shot` by [kayrac?k](../contributors.md#kayrac-k)
 
 > [!CAUTION]
 > [object Object].

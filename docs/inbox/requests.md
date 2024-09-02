@@ -4,7 +4,7 @@
 
 # Requests
 
-`9 items`
+`10 items`
 
 ## <span id="mighty-markyys.2017-06-26">mighty-markyys.2017-06-26</span>
 
@@ -20,6 +20,22 @@
 
 ```
 mighty-markyys.2017-06-26
+```
+
+## <span id="kayrac-k.2024-09-02-2a5fe92a">kayrac-k.2024-09-02-2a5fe92a</span>
+
+`shot` _pending_
+
+> Sunset over  
+> [kayrac?k](../contributors.md#kayrac-k "2024-09-02")
+
+> [!WARNING]
+> Need english title, need russian title, need author, need content, need mark, unable to detect possible post type from content.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayrac-k.2024-09-02-2a5fe92a&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=Sunset+over) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayrac-k.2024-09-02-2a5fe92a&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayrac-k.2024-09-02-2a5fe92a&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayrac-k.2024-09-02-2a5fe92a&postLocation=)</code>
+
+```
+kayrac-k.2024-09-02-2a5fe92a
 ```
 
 ## <span id="eastcoast-lg.2023-09-18">eastcoast-lg.2023-09-18</span>
