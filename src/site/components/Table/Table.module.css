@@ -46,3 +46,13 @@
 .link:hover {
   color: var(--color-text-selected);
 }
+
+.virtualItem {
+  width: 100%;
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 4px;
+  vertical-align: middle;
+}

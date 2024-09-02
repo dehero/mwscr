@@ -1,24 +1,33 @@
 import clsx from 'clsx';
-import { type Component, For, type JSX, Show } from 'solid-js';
+import { type Component, createMemo, type JSX, Show } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
+import { clientOnly } from 'vike-solid/clientOnly';
 import { formatDate } from '../../../core/utils/date-utils.js';
+import { Body } from './Body.jsx';
 import styles from './Table.module.css';
+
+const ClientVirtualBody = clientOnly(() => import('./VirtualBody.js'));
 
 type TableValue = string | number | Date | (() => JSX.Element) | undefined;
 
 export interface TableRow {
   label?: string;
+  labelIcon?: JSX.Element;
   value?: TableValue;
+  valueIcon?: JSX.Element;
   link?: string;
+  tooltip?: (forRef: HTMLElement) => JSX.Element;
 }
 
-interface TableProps extends TableRow {
+export interface TableProps extends TableRow {
   class?: string;
   rows: TableRow[];
   lightLabels?: boolean;
+  scrollTarget?: HTMLElement;
+  showEmptyValueRows?: boolean;
 }
 
-function renderValue(value: TableValue) {
+export function renderValue(value: TableValue) {
   if (typeof value === 'function') {
     return value();
   }
@@ -30,7 +39,7 @@ function renderValue(value: TableValue) {
 }
 
 export const Table: Component<TableProps> = (props) => {
-  const rows = () => props.rows.filter((row) => row.value);
+  const rows = createMemo(() => (!props.showEmptyValueRows ? props.rows.filter((row) => row.value) : props.rows));
 
   return (
     <div class={clsx(styles.table, props.class)} role="table">
@@ -51,27 +60,8 @@ export const Table: Component<TableProps> = (props) => {
           </Dynamic>
         </div>
       </Show>
-      <Show when={rows().length > 0}>
-        <div class={styles.body} role="rowgroup">
-          <For each={rows()}>
-            {(row) => (
-              <Dynamic
-                component={row.link ? 'a' : 'div'}
-                href={row.link}
-                class={clsx(styles.row, row.link && styles.link)}
-                role="row"
-              >
-                <div class={clsx(styles.label, props.lightLabels && styles.lightLabel)} role="cell">
-                  {row.label}
-                </div>
-                <div class={styles.value} role="cell">
-                  {renderValue(row.value)}
-                </div>
-              </Dynamic>
-            )}
-          </For>
-        </div>
-      </Show>
+
+      <ClientVirtualBody {...props} rows={rows()} fallback={<Body {...props} rows={rows()} />} />
     </div>
   );
 };
