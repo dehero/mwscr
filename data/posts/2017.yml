@@ -4681,14 +4681,14 @@
       id: C_YnIVDs_Cl
       mediaId: '18067723348606232'
       published: 2024-09-01-18-27-05
-      updated: 2024-09-02-22-20-49
+      updated: 2024-09-02-23-21-25
       followers: 1453
-      likes: 77
-      views: 281
+      likes: 78
+      views: 283
     - service: vk
       id: 1730
       published: 2024-09-01-18-27-13
-      updated: 2024-09-02-22-20-50
+      updated: 2024-09-02-23-21-27
       followers: 942
       likes: 24
       views: 176
@@ -4699,7 +4699,7 @@
     - service: tg
       id: 519
       published: 2024-09-01-18-27-20
-      updated: 2024-09-02-22-20-50
+      updated: 2024-09-02-23-21-27
       followers: 547
       likes: 50
       views: 185
@@ -6444,7 +6444,7 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2024-08-26-23-15-33
+      updated: 2024-09-02-23-21-31
       followers: 919
       likes: 37
       views: 273
@@ -6458,10 +6458,10 @@
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2024-08-26-23-15-32
+      updated: 2024-09-02-23-21-31
       followers: 395
-      likes: 59
-      views: 445
+      likes: 60
+      views: 452
       comments: !c CxiAkZPLQnkP1+/4gACpR2F0ZW1hdGU3u2hhdHcgdGhlc2UgbW90aGVyIGZ1Y2tlcnMuLgM=
     - service: ig
       id: C9Ug-PYxnq2
@@ -8966,7 +8966,7 @@
     - service: vk
       id: 1650
       published: 2024-07-22-18-20-29
-      updated: 2024-08-26-23-15-32
+      updated: 2024-09-02-23-21-30
       followers: 920
       likes: 37
       views: 288
@@ -8978,10 +8978,10 @@
     - service: tg
       id: 477
       published: 2024-07-22-18-20-38
-      updated: 2024-08-26-23-15-31
+      updated: 2024-09-02-23-21-29
       followers: 400
-      likes: 61
-      views: 533
+      likes: 62
+      views: 549
 2017-09-28-mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
@@ -9463,7 +9463,7 @@
     - service: vk
       id: 1638
       published: 2024-07-15-18-20-44
-      updated: 2024-08-26-23-15-33
+      updated: 2024-09-02-23-21-31
       followers: 919
       likes: 41
       views: 248
@@ -9471,10 +9471,10 @@
     - service: tg
       id: 470
       published: 2024-07-15-18-20-51
-      updated: 2024-08-26-23-15-31
+      updated: 2024-09-02-23-21-30
       followers: 399
-      likes: 60
-      views: 704
+      likes: 61
+      views: 716
 2017-10-15-mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров
