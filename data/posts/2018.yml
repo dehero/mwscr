@@ -1021,6 +1021,19 @@
       followers: 127
       likes: 13
       views: 195
+    - service: ig
+      id: C_bMI-pTI1Z
+      mediaId: '17871606204172109'
+      published: 2024-09-02-18-28-58
+      followers: 1455
+    - service: vk
+      id: 1732
+      published: 2024-09-02-18-29-04
+      followers: 942
+    - service: tg
+      id: 520
+      published: 2024-09-02-18-29-11
+      followers: 550
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
@@ -1138,25 +1151,25 @@
       id: C_LuWTjPpEs
       mediaId: '18010020152338786'
       published: 2024-08-27-18-20-03
-      updated: 2024-09-01-18-26-50
+      updated: 2024-09-02-18-28-43
       followers: 1458
-      likes: 82
-      views: 355
+      likes: 83
+      views: 368
     - service: vk
       id: 1712
       published: 2024-08-27-18-20-10
-      updated: 2024-09-01-18-26-52
+      updated: 2024-09-02-18-28-44
       followers: 939
       likes: 28
-      views: 258
+      views: 266
       reposts: 1
     - service: tg
       id: 514
       published: 2024-08-27-18-20-15
-      updated: 2024-09-01-18-26-50
+      updated: 2024-09-02-18-28-41
       followers: 544
       likes: 58
-      views: 325
+      views: 348
 2018-02-06-evening-trees:
   title: Evening Trees
   titleRu: Вечерние деревья
