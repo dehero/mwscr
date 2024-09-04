@@ -1211,7 +1211,7 @@
     - service: vk
       id: 1598
       published: 2024-06-25-18-21-05
-      updated: 2024-08-28-02-37-17
+      updated: 2024-09-04-02-44-45
       followers: 917
       likes: 44
       views: 299
@@ -1219,10 +1219,10 @@
     - service: tg
       id: 450
       published: 2024-06-25-18-21-11
-      updated: 2024-08-28-02-37-15
+      updated: 2024-09-04-02-44-44
       followers: 388
-      likes: 63
-      views: 525
+      likes: 64
+      views: 537
 2017-02-06-maurrie-is-waiting-for-nelos:
   title: Maurrie Is Waiting for Nelos
   titleRu: Морри ждёт Нелоса
@@ -7905,17 +7905,17 @@
     - service: vk
       id: 1587
       published: 2024-06-18-18-20-59
-      updated: 2024-08-28-02-37-18
+      updated: 2024-09-04-02-44-46
       followers: 917
       likes: 37
       views: 254
     - service: tg
       id: 443
       published: 2024-06-18-18-21-06
-      updated: 2024-08-28-02-37-16
+      updated: 2024-09-04-02-44-45
       followers: 385
       likes: 56
-      views: 441
+      views: 447
 2017-08-26-raven-rock:
   title: Raven Rock
   titleRu: Воронья Скала
@@ -10926,24 +10926,24 @@
       id: C_dw-OPNIxR
       mediaId: '18043361695974823'
       published: 2024-09-03-18-29-17
-      updated: 2024-09-04-01-41-05
+      updated: 2024-09-04-02-44-41
       followers: 1455
       likes: 60
-      views: 212
+      views: 219
     - service: vk
       id: 1735
       published: 2024-09-03-18-29-25
-      updated: 2024-09-04-01-41-04
+      updated: 2024-09-04-02-44-42
       followers: 942
-      likes: 15
-      views: 86
+      likes: 16
+      views: 89
     - service: tg
       id: 521
       published: 2024-09-03-18-29-34
-      updated: 2024-09-04-01-41-04
+      updated: 2024-09-04-02-44-41
       followers: 550
       likes: 40
-      views: 136
+      views: 138
 2017-12-01-speak-quickly-outlander:
   title: Speak Quickly, Outlander
   titleRu: Говори скорее
