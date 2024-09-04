@@ -158,7 +158,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2024-08-28-07-14-04
+      updated: 2024-09-04-07-20-10
       followers: 894
       likes: 47
       views: 364
@@ -167,10 +167,10 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2024-08-28-07-14-02
+      updated: 2024-09-04-07-20-09
       followers: 337
       likes: 91
-      views: 603
+      views: 604
       comments: !c |-
         ixyAkZTLQnjexabnAACucXVpbnR1c19mYWJpdXOtV2UncmUgc28gYmFja5PLQnjexcSwAAClYW5z
         aXOhLgM=
@@ -9596,7 +9596,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2024-08-28-07-14-01
+      updated: 2024-09-04-07-20-06
       followers: 904
       likes: 44
       views: 293
@@ -9604,10 +9604,10 @@
     - service: tg
       id: 358
       published: 2024-03-26-18-10-55
-      updated: 2024-08-28-07-14-00
+      updated: 2024-09-04-07-20-06
       followers: 352
       likes: 68
-      views: 526
+      views: 529
       comments: !c |-
         G9kBAIzDdOMtD8uLoNCb/uY3rEvgXRaFcVs8ojGmRePvATimyLdobakOeKISVRqhnL/uvmhIEaJX
         IlM39fHx8YF4jiaXdWGcZZLo0n0eQm8T8ZGeji5LY4lh62Ne3NjmP1g4BM1EkzH5Ymsiv7nDKENw
@@ -10460,7 +10460,7 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2024-08-28-07-14-03
+      updated: 2024-09-04-07-20-09
       followers: 895
       likes: 35
       views: 283
@@ -10468,10 +10468,10 @@
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2024-08-28-07-14-02
+      updated: 2024-09-04-07-20-08
       followers: 343
       likes: 69
-      views: 521
+      views: 522
       comments: !c ixOAkZPLQnjhAF9lAACucXVpbnR1c19mYWJpdXOt8J+Pg+KAjeKZgu+4jwM=
 2017-11-16-cozy-workplace-in-the-basement:
   title: Cozy Workplace in the Basement
@@ -10926,24 +10926,24 @@
       id: C_dw-OPNIxR
       mediaId: '18043361695974823'
       published: 2024-09-03-18-29-17
-      updated: 2024-09-04-06-30-29
+      updated: 2024-09-04-07-20-02
       followers: 1455
-      likes: 67
-      views: 264
+      likes: 68
+      views: 273
     - service: vk
       id: 1735
       published: 2024-09-03-18-29-25
-      updated: 2024-09-04-06-30-29
+      updated: 2024-09-04-07-20-02
       followers: 942
-      likes: 16
-      views: 109
+      likes: 17
+      views: 111
     - service: tg
       id: 521
       published: 2024-09-03-18-29-34
-      updated: 2024-09-04-06-30-29
+      updated: 2024-09-04-07-20-03
       followers: 550
       likes: 49
-      views: 159
+      views: 161
 2017-12-01-speak-quickly-outlander:
   title: Speak Quickly, Outlander
   titleRu: Говори скорее
