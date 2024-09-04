@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`190 items`
+`191 items`
+
+## <span id="2024-09-04-fort-darius">Fort Darius</span>
+
+`RU` Форт Дариус
+
+<a href="https://instagram.com/p/BWwkOdmDqAj/" title="2017-07-20-fort-darius"><img alt="store:/shots/2017-07-20-fort-darius.png" src="../../assets/previews/shots/2017-07-20-fort-darius.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-09-04-fort-darius&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-09-04-fort-darius
+```
+
+> `2017-07-20-fort-darius`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BWwkOdmDqAj/)       | 2017-07-20 |       |    59 |       191 |  30.89 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_360)  | 2017-07-20 |   111 |     7 |        69 |  10.14 |
+| [`ig`](https://instagram.com/p/C_gWBzgNg4x/)       | 2024-09-04 |       |       |      1456 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1736) | 2024-09-04 |       |       |       942 |        |
+| [`tg`](https://t.me/mwscr/522)                     | 2024-09-04 |       |       |       550 |        |
+|                                                    |            |       |       |      2948 |  20.52 |
 
 ## <span id="2024-09-03-lava-kwama">Lava Kwama</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_516)  | 2017-11-30 |   165 |    10 |       103 |   9.71 |
 | [`ig`](https://instagram.com/p/BcJXAV-jr5O/)       | 2017-12-01 |       |    75 |       242 |  30.99 |
-| [`ig`](https://instagram.com/p/C_dw-OPNIxR/)       | 2024-09-03 |   340 |    76 |      1455 |   5.22 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1735) | 2024-09-03 |   135 |    20 |       942 |   2.12 |
-| [`tg`](https://t.me/mwscr/521)                     | 2024-09-03 |   175 |    51 |       550 |   9.27 |
-|                                                    |            |   650 |   147 |      2947 |  11.46 |
+| [`ig`](https://instagram.com/p/C_dw-OPNIxR/)       | 2024-09-03 |   344 |    77 |      1455 |   5.29 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1735) | 2024-09-03 |   137 |    20 |       942 |   2.12 |
+| [`tg`](https://t.me/mwscr/521)                     | 2024-09-03 |   180 |    53 |       550 |   9.64 |
+|                                                    |            |   661 |   150 |      2947 |  11.55 |
 
 ## <span id="2024-09-02-tonight">Tonight</span>
 
@@ -57,8 +84,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_599)  | 2018-02-02 |   195 |    13 |       127 |  10.24 |
 | [`ig`](https://instagram.com/p/C_bMI-pTI1Z/)       | 2024-09-02 |   293 |    83 |      1455 |    5.7 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1732) | 2024-09-02 |   182 |    30 |       942 |   3.29 |
-| [`tg`](https://t.me/mwscr/520)                     | 2024-09-02 |   264 |    53 |       550 |   9.64 |
-|                                                    |            |   739 |   166 |      2947 |  10.45 |
+| [`tg`](https://t.me/mwscr/520)                     | 2024-09-02 |   265 |    53 |       550 |   9.64 |
+|                                                    |            |   740 |   166 |      2947 |  10.45 |
 
 #### Comments
 
