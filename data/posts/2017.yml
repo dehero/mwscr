@@ -1386,7 +1386,7 @@
     - service: vk
       id: 1532
       published: 2024-05-14-18-18-38
-      updated: 2024-08-28-03-16-59
+      updated: 2024-09-04-03-23-19
       followers: 915
       likes: 47
       views: 320
@@ -1394,10 +1394,10 @@
     - service: tg
       id: 408
       published: 2024-05-14-18-18-46
-      updated: 2024-08-28-03-16-58
+      updated: 2024-09-04-03-23-19
       followers: 370
       likes: 61
-      views: 424
+      views: 429
       comments: !c |-
         izOAkZTLQnj3hUVcAACpR2F0ZW1hdGU32SJpdCB3b3VsZCBsb29rIGJldHRlciBpZiBhZGRlZCBt
         b2Rzk8tCePeFSMcAAKVhbnNpc75tb2RzIGJhbmlzaCB0aGlzIG4nd2FoIGFscmVhZHkD
@@ -10852,7 +10852,7 @@
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
-      updated: 2024-08-28-03-17-00
+      updated: 2024-09-04-03-23-21
       followers: 909
       likes: 40
       views: 299
@@ -10863,10 +10863,10 @@
     - service: tg
       id: 387
       published: 2024-04-23-18-17-22
-      updated: 2024-08-28-03-17-00
+      updated: 2024-09-04-03-23-21
       followers: 355
       likes: 61
-      views: 1129
+      views: 1133
       comments: !c |-
         ix+AkpPLQnjxEjRDgACobW9uZ2xlcmmtQ2l0eSBvZiBNYWdpY5PLQnjw/03igAClYW5zaXOtQ2l0
         eSBvZiBMaWdodAM=
@@ -10926,24 +10926,24 @@
       id: C_dw-OPNIxR
       mediaId: '18043361695974823'
       published: 2024-09-03-18-29-17
-      updated: 2024-09-04-02-44-41
+      updated: 2024-09-04-03-23-15
       followers: 1455
       likes: 60
-      views: 219
+      views: 229
     - service: vk
       id: 1735
       published: 2024-09-03-18-29-25
-      updated: 2024-09-04-02-44-42
+      updated: 2024-09-04-03-23-15
       followers: 942
-      likes: 16
-      views: 89
+      likes: 15
+      views: 91
     - service: tg
       id: 521
       published: 2024-09-03-18-29-34
-      updated: 2024-09-04-02-44-41
+      updated: 2024-09-04-03-23-16
       followers: 550
-      likes: 40
-      views: 138
+      likes: 41
+      views: 141
 2017-12-01-speak-quickly-outlander:
   title: Speak Quickly, Outlander
   titleRu: Говори скорее
