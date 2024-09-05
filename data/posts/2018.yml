@@ -1025,25 +1025,25 @@
       id: C_bMI-pTI1Z
       mediaId: '17871606204172109'
       published: 2024-09-02-18-28-58
-      updated: 2024-09-04-18-27-34
+      updated: 2024-09-05-18-28-16
       followers: 1455
-      likes: 83
-      views: 293
+      likes: 87
+      views: 306
     - service: vk
       id: 1732
       published: 2024-09-02-18-29-04
-      updated: 2024-09-04-18-27-35
+      updated: 2024-09-05-18-28-16
       followers: 942
-      likes: 30
-      views: 182
+      likes: 34
+      views: 203
       reposts: 1
     - service: tg
       id: 520
       published: 2024-09-02-18-29-11
-      updated: 2024-09-04-18-27-35
+      updated: 2024-09-05-18-28-17
       followers: 550
-      likes: 53
-      views: 265
+      likes: 57
+      views: 298
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
@@ -7313,6 +7313,19 @@
       likes: 16
       views: 292
       comments: !c CxmAkZPLQnZU3vOQAACqZGVhZF9fX2VuZLzQm9GO0LHQu9GOINGC0YDQsNC60YLQuNGA0YsuAw==
+    - service: ig
+      id: C_i6eUrs1dW
+      mediaId: '18032722124330991'
+      published: 2024-09-05-18-28-30
+      followers: 1455
+    - service: vk
+      id: 1737
+      published: 2024-09-05-18-28-36
+      followers: 943
+    - service: tg
+      id: 523
+      published: 2024-09-05-18-28-44
+      followers: 551
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
