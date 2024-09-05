@@ -1777,17 +1777,17 @@
     - service: vk
       id: 1533
       published: 2024-05-15-18-18-32
-      updated: 2024-08-29-04-18-13
+      updated: 2024-09-05-04-26-17
       followers: 915
       likes: 39
-      views: 251
+      views: 252
     - service: tg
       id: 409
       published: 2024-05-15-18-18-39
-      updated: 2024-08-29-04-18-11
+      updated: 2024-09-05-04-26-15
       followers: 370
       likes: 57
-      views: 447
+      views: 453
       comments: !c |-
         ixuAkZTLQnj316rdgACx2YXYrdmF2K8g2K7Yp9mE2K+lRmlyc3STy0J499fDxIAApWFuc2lzpHdn
         YWYD
@@ -2169,10 +2169,10 @@
     - service: vk
       id: 1579
       published: 2024-06-12-18-20-23
-      updated: 2024-08-29-04-18-10
+      updated: 2024-09-05-04-26-14
       followers: 915
       likes: 35
-      views: 272
+      views: 273
       comments: !c |-
         G6QA+J0Hto1t61goNPZjtMioiFuEnzaBSZNwRMmezq20pPkCdyJy3cagPbuvEahLIog8xuYmwllT
         KyKQSTJpSrY5Rx36vH9W9DWP42ME1tGajxFQT4MUfW7vwetbgOiTAg6YYje2SBGFRm+UZinHBpmR
@@ -2180,10 +2180,10 @@
     - service: tg
       id: 437
       published: 2024-06-12-18-20-29
-      updated: 2024-08-29-04-18-09
+      updated: 2024-09-05-04-26-14
       followers: 384
       likes: 54
-      views: 447
+      views: 453
 2024-06-13-propylon:
   title: Propylon
   titleRu: Пропильон
