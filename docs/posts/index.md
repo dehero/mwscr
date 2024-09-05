@@ -204,7 +204,7 @@
 
 `shot` by [Darkness Rifho](../contributors.md#darkness-rifho)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-29-death-under-rain&postLocation=)</code>
+`B2` `📍 Palansour`
 
 ```
 2024-08-29-death-under-rain
