@@ -637,17 +637,17 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-09-06-20-22-53
+      updated: 2024-09-06-21-21-01
       followers: 943
-      likes: 11
-      views: 61
+      likes: 13
+      views: 72
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-09-06-20-22-49
+      updated: 2024-09-06-21-21-01
       followers: 551
-      likes: 33
-      views: 98
+      likes: 37
+      views: 105
       comments: !c ixGAkZPLQnkcifdLgACrYWFyeWNoYWdvZmas0JrRg9GA0LvRi9C6Aw==
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
@@ -2895,10 +2895,10 @@
     - service: vk
       id: 1702
       published: 2024-08-23-18-19-34
-      updated: 2024-08-30-20-23-44
+      updated: 2024-09-06-21-21-03
       followers: 939
       likes: 42
-      views: 231
+      views: 238
       comments: !c |-
         GzsHQCwOeJOFZ50WwZt4DhNeIoI/fIsmmm6bR79bLIARSycItiKQI6uzYleansb8+W2XYfpik8kY
         JCUHXB7885w/2lZkYQH9gIoozt67+/01G2AnW+N4lmA9tUZXTU8W681n16JGiPHuf04LQDLG9tWr
@@ -2918,10 +2918,10 @@
     - service: tg
       id: 510
       published: 2024-08-23-18-19-41
-      updated: 2024-08-30-20-23-43
+      updated: 2024-09-06-21-21-02
       followers: 538
-      likes: 57
-      views: 356
+      likes: 58
+      views: 465
 2018-03-31-vori-likes-to-come-here:
   title: Vori Likes to Come Here
   titleRu: Вори любит сюда приходить
@@ -7339,7 +7339,7 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2024-09-06-20-22-54
+      updated: 2024-09-06-21-21-02
       followers: 943
       likes: 20
       views: 143
@@ -7350,10 +7350,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2024-09-06-20-22-50
+      updated: 2024-09-06-21-21-01
       followers: 551
       likes: 46
-      views: 179
+      views: 183
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
