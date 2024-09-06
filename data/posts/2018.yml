@@ -6651,10 +6651,10 @@
     - service: vk
       id: 1642
       published: 2024-07-18-18-21-19
-      updated: 2024-08-30-01-40-48
+      updated: 2024-09-06-01-40-57
       followers: 919
       likes: 38
-      views: 258
+      views: 259
       reposts: 1
       comments: !c |-
         iyqAkZTLQnkMd+OugACqcGtlbGxlcm1hbq/QmtCw0Log0LTQvtC80LCTy0J5DMzLRwAAsGFydHlv
@@ -6662,10 +6662,10 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2024-08-30-01-40-48
+      updated: 2024-09-06-01-40-56
       followers: 402
-      likes: 58
-      views: 639
+      likes: 59
+      views: 653
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
@@ -7317,17 +7317,17 @@
       id: C_i6eUrs1dW
       mediaId: '18032722124330991'
       published: 2024-09-05-18-28-30
-      updated: 2024-09-05-23-22-25
+      updated: 2024-09-06-01-40-54
       followers: 1455
-      likes: 43
-      views: 129
+      likes: 49
+      views: 153
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2024-09-05-23-22-25
+      updated: 2024-09-06-01-40-54
       followers: 943
-      likes: 11
-      views: 79
+      likes: 12
+      views: 82
       comments: !c |-
         G4kAABwJtm2DFS6f5Iqx04j/uZniZ21tAxEXoy2KJZqi5V7U8pariU3U3psJbEIUKjYbfn8SgoMM
         NuBAA4WMBqANZz5D4HxxP5/1mYm29/qcY41xrP13OoSBgAeAgkJKMk1xz7wtNSw7RMEup5pJICmx
@@ -7335,10 +7335,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2024-09-05-23-22-26
+      updated: 2024-09-06-01-40-55
       followers: 551
-      likes: 29
-      views: 117
+      likes: 31
+      views: 123
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
