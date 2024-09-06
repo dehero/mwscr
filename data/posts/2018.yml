@@ -634,6 +634,14 @@
       followers: 122
       likes: 15
       views: 176
+    - service: vk
+      id: 1739
+      published: 2024-09-06-18-29-47
+      followers: 943
+    - service: tg
+      id: 524
+      published: 2024-09-06-18-29-55
+      followers: 551
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
@@ -1032,18 +1040,18 @@
     - service: vk
       id: 1732
       published: 2024-09-02-18-29-04
-      updated: 2024-09-05-18-28-16
+      updated: 2024-09-06-18-29-30
       followers: 942
-      likes: 34
-      views: 203
+      likes: 35
+      views: 218
       reposts: 1
     - service: tg
       id: 520
       published: 2024-09-02-18-29-11
-      updated: 2024-09-05-18-28-17
+      updated: 2024-09-06-18-29-30
       followers: 550
-      likes: 57
-      views: 298
+      likes: 58
+      views: 337
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
@@ -7324,7 +7332,7 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2024-09-06-17-18-52
+      updated: 2024-09-06-18-29-27
       followers: 943
       likes: 18
       views: 137
@@ -7335,10 +7343,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2024-09-06-17-18-52
+      updated: 2024-09-06-18-29-27
       followers: 551
       likes: 43
-      views: 157
+      views: 158
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
