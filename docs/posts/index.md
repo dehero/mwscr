@@ -28,14 +28,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BeJMy6dD1TO/)       | 2018-01-19 |       |    70 |       279 |  25.09 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_584)  | 2018-01-19 |   176 |    15 |       122 |   12.3 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1739) | 2024-09-06 |       |       |       943 |        |
-| [`tg`](https://t.me/mwscr/524)                     | 2024-09-06 |       |       |       551 |        |
-|                                                    |            |       |       |      1494 |  18.69 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1739) | 2024-09-06 |    46 |     5 |       943 |   0.53 |
+| [`tg`](https://t.me/mwscr/524)                     | 2024-09-06 |    72 |    24 |       551 |   4.36 |
+|                                                    |            |   118 |    29 |      1494 |  10.57 |
 
 #### Comments
 
 - `ig` <ins title="2018-01-19-20-04-14">_robimsi</ins> There&#39;s a hole island full of them? OMG
   - <ins title="2018-01-19-20-06-37">mwscr</ins> @_ro.miller_ Fortunately no. Just a poetic phrase.
+- `tg` <ins title="2024-09-06-18-36-19">aarychagoff</ins> Курлык
 
 ## <span id="2024-09-05-thongars-tradehouse">Thongar&#39;s Tradehouse</span>
 
@@ -60,9 +61,9 @@
 | [`ig`](https://instagram.com/p/Bmgl3avFBrZ/)       | 2018-08-15 |       |    86 |       382 |  22.51 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_860)  | 2018-08-15 |   292 |    16 |       199 |   8.04 |
 | [`ig`](https://instagram.com/p/C_i6eUrs1dW/)       | 2024-09-05 |   198 |    58 |      1455 |   3.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1737) | 2024-09-05 |   137 |    18 |       943 |   1.91 |
-| [`tg`](https://t.me/mwscr/523)                     | 2024-09-05 |   158 |    43 |       551 |    7.8 |
-|                                                    |            |   493 |   119 |      2949 |   8.85 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1737) | 2024-09-05 |   140 |    20 |       943 |   2.12 |
+| [`tg`](https://t.me/mwscr/523)                     | 2024-09-05 |   170 |    46 |       551 |   8.35 |
+|                                                    |            |   508 |   124 |      2949 |      9 |
 
 #### Comments
 
@@ -241,9 +242,9 @@
 | [`ig`](https://instagram.com/p/BT3aibiDN0B/)       | 2017-05-09 |       |    92 |       178 |  51.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_284)  | 2017-05-09 |   100 |     9 |        56 |  16.07 |
 | [`ig`](https://instagram.com/p/C_Td0E0Ni4-/)       | 2024-08-30 |   577 |   166 |      1457 |  11.39 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1721) | 2024-08-30 |   258 |    43 |       941 |   4.78 |
-| [`tg`](https://t.me/mwscr/517)                     | 2024-08-30 |   367 |    68 |       545 |  12.48 |
-|                                                    |            |  1202 |   277 |      2943 |  19.28 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1721) | 2024-08-30 |   265 |    43 |       941 |   4.78 |
+| [`tg`](https://t.me/mwscr/517)                     | 2024-08-30 |   388 |    68 |       545 |  12.48 |
+|                                                    |            |  1230 |   277 |      2943 |  19.28 |
 
 #### Comments
 

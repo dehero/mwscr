@@ -637,11 +637,18 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
+      updated: 2024-09-06-19-18-18
       followers: 943
+      likes: 5
+      views: 46
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
+      updated: 2024-09-06-19-18-19
       followers: 551
+      likes: 24
+      views: 72
+      comments: !c ixGAkZPLQnkcifdLgACrYWFyeWNoYWdvZmas0JrRg9GA0LvRi9C6Aw==
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
@@ -7332,10 +7339,10 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2024-09-06-18-29-27
+      updated: 2024-09-06-19-18-19
       followers: 943
-      likes: 18
-      views: 137
+      likes: 20
+      views: 140
       comments: !c |-
         G4kAABwJtm2DFS6f5Iqx04j/uZniZ21tAxEXoy2KJZqi5V7U8pariU3U3psJbEIUKjYbfn8SgoMM
         NuBAA4WMBqANZz5D4HxxP5/1mYm29/qcY41xrP13OoSBgAeAgkJKMk1xz7wtNSw7RMEup5pJICmx
@@ -7343,10 +7350,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2024-09-06-18-29-27
+      updated: 2024-09-06-19-18-20
       followers: 551
-      likes: 43
-      views: 158
+      likes: 46
+      views: 170
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
