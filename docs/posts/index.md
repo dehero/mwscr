@@ -28,15 +28,17 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BeJMy6dD1TO/)       | 2018-01-19 |       |    70 |       279 |  25.09 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_584)  | 2018-01-19 |   176 |    15 |       122 |   12.3 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1739) | 2024-09-06 |    76 |    13 |       943 |   1.38 |
-| [`tg`](https://t.me/mwscr/524)                     | 2024-09-06 |   109 |    40 |       551 |   7.26 |
-|                                                    |            |   185 |    53 |      1494 |  11.51 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1739) | 2024-09-06 |    81 |    13 |       943 |   1.38 |
+| [`tg`](https://t.me/mwscr/524)                     | 2024-09-06 |   114 |    41 |       551 |   7.44 |
+|                                                    |            |   195 |    54 |      1494 |  11.55 |
 
 #### Comments
 
 - `ig` <ins title="2018-01-19-20-04-14">_robimsi</ins> There&#39;s a hole island full of them? OMG
   - <ins title="2018-01-19-20-06-37">mwscr</ins> @_ro.miller_ Fortunately no. Just a poetic phrase.
 - `tg` <ins title="2024-09-06-18-36-19">aarychagoff</ins> Курлык
+- `tg` <ins title="2024-09-06-22-28-24">Georrrrrg</ins> 🦎
+- `tg` <ins title="2024-09-06-22-28-51">Georrrrrg</ins> Остров под защитой
 
 ## <span id="2024-09-05-thongars-tradehouse">Thongar&#39;s Tradehouse</span>
 
@@ -62,8 +64,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_860)  | 2018-08-15 |   292 |    16 |       199 |   8.04 |
 | [`ig`](https://instagram.com/p/C_i6eUrs1dW/)       | 2024-09-05 |   198 |    58 |      1455 |   3.99 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1737) | 2024-09-05 |   144 |    20 |       943 |   2.12 |
-| [`tg`](https://t.me/mwscr/523)                     | 2024-09-05 |   184 |    47 |       551 |   8.53 |
-|                                                    |            |   526 |   125 |      2949 |   9.04 |
+| [`tg`](https://t.me/mwscr/523)                     | 2024-09-05 |   187 |    47 |       551 |   8.53 |
+|                                                    |            |   529 |   125 |      2949 |   9.04 |
 
 #### Comments
 
@@ -1143,9 +1145,9 @@
 | [`ig`](https://instagram.com/p/BYsmppVj_HI/)       | 2017-09-06 |       |    69 |       202 |  34.16 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_419)  | 2017-09-06 |   235 |    10 |        79 |  12.66 |
 | [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   327 |    98 |      1434 |   6.83 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |   291 |    45 |       925 |   4.97 |
-| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |   618 |    64 |       428 |  14.95 |
-|                                                    |            |  1236 |   207 |      2787 |  14.72 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |   293 |    45 |       925 |   4.97 |
+| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |   629 |    64 |       428 |  14.95 |
+|                                                    |            |  1249 |   207 |      2787 |  14.72 |
 
 #### Comments
 
