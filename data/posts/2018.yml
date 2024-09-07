@@ -637,10 +637,10 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-09-07-18-27-02
+      updated: 2024-09-07-19-17-59
       followers: 943
       likes: 22
-      views: 151
+      views: 153
       reposts: 2
       comments: !c |-
         G9oCAKwK7DbyC53aVXL0CN5VcRAVtmgoOTn1l+y/FTiUxoEwOARKYqrVqQh9jqvQZ7CrxzMcL6oV
@@ -653,10 +653,10 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-09-07-18-27-02
+      updated: 2024-09-07-19-17-59
       followers: 551
-      likes: 50
-      views: 171
+      likes: 51
+      views: 189
       comments: !c |-
         G9EAYIyUbsI8A645gjVBtc//m1b2toiwUaRNMO/wxbbWuVFCJlIM9X7iFOVucKIx5hBGLbTppBtO
         tOfw+Nwit9TaMhmfA4b1lHsV7JBS8l9S0pmkGYYDbLDsxAdYYscJoFjCAdGQE8JkkWVsLIA9lpyg
@@ -1060,18 +1060,18 @@
     - service: vk
       id: 1732
       published: 2024-09-02-18-29-04
-      updated: 2024-09-06-18-29-30
+      updated: 2024-09-07-19-18-02
       followers: 942
-      likes: 35
-      views: 218
+      likes: 36
+      views: 281
       reposts: 1
     - service: tg
       id: 520
       published: 2024-09-02-18-29-11
-      updated: 2024-09-06-18-29-30
+      updated: 2024-09-07-19-18-01
       followers: 550
-      likes: 58
-      views: 337
+      likes: 59
+      views: 368
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
@@ -9552,11 +9552,17 @@
     - service: vk
       id: 1742
       published: 2024-09-07-18-27-18
+      updated: 2024-09-07-19-17-58
       followers: 943
+      likes: 9
+      views: 36
     - service: tg
       id: 525
       published: 2024-09-07-18-27-27
+      updated: 2024-09-07-19-17-58
       followers: 552
+      likes: 25
+      views: 66
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы

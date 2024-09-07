@@ -4688,10 +4688,10 @@
     - service: vk
       id: 1730
       published: 2024-09-01-18-27-13
-      updated: 2024-09-06-18-29-31
+      updated: 2024-09-07-19-18-03
       followers: 942
-      likes: 25
-      views: 217
+      likes: 27
+      views: 232
       comments: !c |-
         G9sAABwJdizLQnLlZGVExYkRj9w8JTNRjAQwGMBOBUtY2QMuSM21hfShfguf0yYYxCBiMTwY6jEc
         3CubQfCQxXqbGSVF0IwDt6DLKMAJjeFlbPOUdVmRDD9/vb/tXuuvyPK5zopB5v9r+aXqkRXOM6xr
@@ -4699,10 +4699,10 @@
     - service: tg
       id: 519
       published: 2024-09-01-18-27-20
-      updated: 2024-09-06-18-29-31
+      updated: 2024-09-07-19-18-02
       followers: 547
-      likes: 60
-      views: 287
+      likes: 61
+      views: 311
 2017-05-15-in-the-courtyard-of-royal-palace:
   title: In the Courtyard of Royal Palace
   titleRu: Во внутреннем дворе Королевского дворца
@@ -6876,18 +6876,18 @@
     - service: vk
       id: 1736
       published: 2024-09-04-18-31-41
-      updated: 2024-09-06-18-29-28
+      updated: 2024-09-07-19-18-00
       followers: 942
-      likes: 34
-      views: 200
+      likes: 36
+      views: 221
       reposts: 1
     - service: tg
       id: 522
       published: 2024-09-04-18-31-49
-      updated: 2024-09-06-18-29-28
+      updated: 2024-09-07-19-18-00
       followers: 550
-      likes: 58
-      views: 246
+      likes: 62
+      views: 295
 2017-07-21-scamp-defending-the-entrance-to-maelkashishi:
   title: Scamp Defending the Entrance to Maelkashishi
   titleRu: Скамп, охраняющий вход в Мелкашиши
@@ -7372,17 +7372,17 @@
     - service: vk
       id: 1729
       published: 2024-08-31-18-27-02
-      updated: 2024-09-06-18-29-32
+      updated: 2024-09-07-19-18-04
       followers: 941
-      likes: 39
-      views: 265
+      likes: 40
+      views: 270
     - service: tg
       id: 518
       published: 2024-08-31-18-27-11
-      updated: 2024-09-06-18-29-32
+      updated: 2024-09-07-19-18-03
       followers: 545
       likes: 61
-      views: 316
+      views: 346
       comments: !c |-
         CyqAkpTLQnkbk0FWAACobW9uZ2xlcmmk8J+Yu5PLQnkbxvO2AACpR2F0ZW1hdGU3p2ZyZnIgdXOT
         y0J5Gp7/EAAAsEN5cm9kaWlsX0dyb3lwZXKk8J+mjgM=
@@ -10957,17 +10957,17 @@
     - service: vk
       id: 1735
       published: 2024-09-03-18-29-25
-      updated: 2024-09-06-18-29-29
+      updated: 2024-09-07-19-18-01
       followers: 942
-      likes: 23
-      views: 189
+      likes: 24
+      views: 223
     - service: tg
       id: 521
       published: 2024-09-03-18-29-34
-      updated: 2024-09-06-18-29-29
+      updated: 2024-09-07-19-18-00
       followers: 550
-      likes: 60
-      views: 254
+      likes: 61
+      views: 291
 2017-12-01-speak-quickly-outlander:
   title: Speak Quickly, Outlander
   titleRu: Говори скорее
