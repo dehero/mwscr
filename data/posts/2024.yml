@@ -1695,17 +1695,17 @@
     - service: vk
       id: 1528
       published: 2024-05-10-18-18-43
-      updated: 2024-08-31-05-19-53
+      updated: 2024-09-07-05-20-18
       followers: 913
       likes: 26
-      views: 234
+      views: 235
     - service: tg
       id: 404
       published: 2024-05-10-18-18-49
-      updated: 2024-08-31-05-19-52
+      updated: 2024-09-07-05-20-18
       followers: 371
       likes: 62
-      views: 472
+      views: 475
       comments: !c ixmAkZTLQnj2PdPrgACrVmVicmFuZGVub0uk8J+YrZPLQnj2QKVbAACpR2F0ZW1hdGU3o3VzPwM=
 2024-05-11-guard-tower-of-suran: 2017-08-31-guard-tower-of-suran
 2024-05-12-road-to-the-well:
@@ -1817,20 +1817,20 @@
     - service: vk
       id: 1535
       published: 2024-05-17-18-19-43
-      updated: 2024-08-31-05-19-52
+      updated: 2024-09-07-05-20-18
       followers: 915
       likes: 24
-      views: 308
+      views: 311
       comments: !c |-
         iyWAkZPLQnj4jc+HAACudW50ZXJncnVuZGJhaG7ZMNCh0LXQs9C+0LTQvdGPINGBINC90LjQvCDQ
         v9C10YDQtdGB0LXQutCw0LvRgdGPKQM=
     - service: tg
       id: 411
       published: 2024-05-17-18-19-48
-      updated: 2024-08-31-05-19-51
+      updated: 2024-09-07-05-20-17
       followers: 372
       likes: 51
-      views: 421
+      views: 424
       comments: !c |-
         G9EAoByH6cbodhPEQK1e/j/nfoQ78w2sAmjHJ76m+JHU1FQNlPcBf2x1TmUzdXfu7uQJrJxy2kLX
         wS6UXOnh6+T0gIFxBdzSaklgAUgouY2dKXoMoRrR53rjoq3RcxoxM6ebxk8fZ86Ka3NoUYQZxdhh
@@ -1954,10 +1954,10 @@
     - service: vk
       id: 1556
       published: 2024-05-31-18-19-13
-      updated: 2024-08-31-05-19-51
+      updated: 2024-09-07-05-20-17
       followers: 915
       likes: 45
-      views: 282
+      views: 283
       reposts: 1
       comments: !c |-
         Gx0CAC0O7IbPG+0ezvQaPvaF4v+Je1bcePzGfx801Igr4KWdFVlMzrVobR8TiUwIWT1R92TO1kJF
@@ -1969,10 +1969,10 @@
     - service: tg
       id: 425
       published: 2024-05-31-18-19-20
-      updated: 2024-08-31-05-19-51
+      updated: 2024-09-07-05-20-17
       followers: 379
       likes: 64
-      views: 458
+      views: 460
 2024-06-01-visiting-imperial-fort:
   title: Visiting Imperial Fort
   titleRu: Посещение имперского форта
