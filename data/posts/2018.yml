@@ -637,20 +637,22 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-09-07-06-28-41
+      updated: 2024-09-07-07-20-49
       followers: 943
-      likes: 18
-      views: 105
+      likes: 19
+      views: 112
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-09-07-06-28-41
+      updated: 2024-09-07-07-20-49
       followers: 551
-      likes: 45
-      views: 138
+      likes: 46
+      views: 141
       comments: !c |-
-        G3QAgOTnr/kJjo6gckJRdmFnf7PoolmD5Ps4sSjYgAPRAGB6oYF8lGEiJ9wCSb4visWT4FJVOYnR
-        XA2ajuM4TvhOQ4dESYxgOMI6mdeGnuAIG4/MB2X06E4y4BL/ezBaer2O6494w2YotILG7QbvSBK2
+        G9EAYIyUbsI8A645gjVBtc//m1b2toiwUaRNMO/wxbbWuVFCJlIM9X7iFOVucKIx5hBGLbTppBtO
+        tOfw+Nwit9TaMhmfA4b1lHsV7JBS8l9S0pmkGYYDbLDsxAdYYscJoFjCAdGQE8JkkWVsLIA9lpyg
+        kyUARLKARrpjHm5nF1UyeYya6cZi3iCBhXy70GcIV8iej6WWj7HuMS/Nf7JgB0HIG5IuaBlVPSKe
+        eshjGwU=
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
@@ -7341,10 +7343,10 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2024-09-07-06-28-42
+      updated: 2024-09-07-07-20-50
       followers: 943
       likes: 21
-      views: 147
+      views: 148
       comments: !c |-
         G4kAABwJtm2DFS6f5Iqx04j/uZniZ21tAxEXoy2KJZqi5V7U8pariU3U3psJbEIUKjYbfn8SgoMM
         NuBAA4WMBqANZz5D4HxxP5/1mYm29/qcY41xrP13OoSBgAeAgkJKMk1xz7wtNSw7RMEup5pJICmx
@@ -7352,7 +7354,7 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2024-09-07-06-28-41
+      updated: 2024-09-07-07-20-50
       followers: 551
       likes: 47
       views: 194
