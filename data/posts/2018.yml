@@ -637,18 +637,19 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-09-07-09-21-52
+      updated: 2024-09-07-10-22-33
       followers: 943
       likes: 20
-      views: 122
+      views: 124
+      reposts: 1
       comments: !c ixCAkZPLQnkcuovRgACnYm9mZmtpbq7QodC60YDQuNC40LjQuAM=
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-09-07-09-21-53
+      updated: 2024-09-07-10-22-33
       followers: 551
       likes: 46
-      views: 147
+      views: 150
       comments: !c |-
         G9EAYIyUbsI8A645gjVBtc//m1b2toiwUaRNMO/wxbbWuVFCJlIM9X7iFOVucKIx5hBGLbTppBtO
         tOfw+Nwit9TaMhmfA4b1lHsV7JBS8l9S0pmkGYYDbLDsxAdYYscJoFjCAdGQE8JkkWVsLIA9lpyg
@@ -7344,7 +7345,7 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2024-09-07-09-21-54
+      updated: 2024-09-07-10-22-34
       followers: 943
       likes: 21
       views: 148
@@ -7355,10 +7356,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2024-09-07-09-21-53
+      updated: 2024-09-07-10-22-34
       followers: 551
       likes: 47
-      views: 195
+      views: 198
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
