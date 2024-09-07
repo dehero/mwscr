@@ -3998,18 +3998,18 @@
     - service: vk
       id: 1575
       published: 2024-06-08-18-18-38
-      updated: 2024-08-31-22-21-16
+      updated: 2024-09-07-22-21-33
       followers: 916
       likes: 36
-      views: 304
+      views: 305
       reposts: 1
     - service: tg
       id: 433
       published: 2024-06-08-18-18-44
-      updated: 2024-08-31-22-21-15
+      updated: 2024-09-07-22-21-31
       followers: 384
       likes: 55
-      views: 445
+      views: 447
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
   titleRu: Мрачный курган
@@ -4359,18 +4359,18 @@
     - service: vk
       id: 1695
       published: 2024-08-17-18-19-02
-      updated: 2024-08-31-22-21-13
+      updated: 2024-09-07-22-21-30
       followers: 934
       likes: 32
-      views: 233
+      views: 238
       reposts: 1
     - service: tg
       id: 504
       published: 2024-08-17-18-19-11
-      updated: 2024-08-31-22-21-13
+      updated: 2024-09-07-22-21-30
       followers: 527
       likes: 60
-      views: 496
+      views: 534
       comments: !c |-
         G5kAGKyOt6Fh2DII9SraGD9X/MgjVPrf33zCH3gV4CCaONb5A6mtc51HiSdUhy6Lw0sQm6m2eEF7
         10hP2eKS5i0PNuCAvQgHGxBmPLvAIdUUWLSgYygr1ZEd4Y7zHD3ybT007Y+2bxgCxB5X7rrk7kIe
@@ -4411,10 +4411,10 @@
     - service: vk
       id: 1658
       published: 2024-07-27-18-20-23
-      updated: 2024-08-31-22-21-14
+      updated: 2024-09-07-22-21-31
       followers: 923
       likes: 34
-      views: 271
+      views: 272
       reposts: 1
     - service: tg
       id: 482

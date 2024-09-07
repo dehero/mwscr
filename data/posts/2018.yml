@@ -637,10 +637,10 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-09-07-21-21-22
+      updated: 2024-09-07-22-21-29
       followers: 943
       likes: 22
-      views: 155
+      views: 157
       reposts: 2
       comments: !c |-
         G9oCAKwK7DbyC53aVXL0CN5VcRAVtmgoOTn1l+y/FTiUxoEwOARKYqrVqQh9jqvQZ7CrxzMcL6oV
@@ -653,10 +653,10 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-09-07-21-21-22
+      updated: 2024-09-07-22-21-29
       followers: 551
       likes: 53
-      views: 201
+      views: 203
       comments: !c |-
         G9EAYIyUbsI8A645gjVBtc//m1b2toiwUaRNMO/wxbbWuVFCJlIM9X7iFOVucKIx5hBGLbTppBtO
         tOfw+Nwit9TaMhmfA4b1lHsV7JBS8l9S0pmkGYYDbLDsxAdYYscJoFjCAdGQE8JkkWVsLIA9lpyg
@@ -4526,18 +4526,18 @@
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2024-08-31-22-21-15
+      updated: 2024-09-07-22-21-32
       followers: 919
-      likes: 54
-      views: 778
+      likes: 55
+      views: 786
       reposts: 5
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2024-08-31-22-21-14
+      updated: 2024-09-07-22-21-31
       followers: 400
       likes: 65
-      views: 578
+      views: 583
       comments: !c CxWAkZPLQnkNGo4EAACpR2F0ZW1hdGU3tXRoaXMgaXMgZnJvbSAyMDE4IHRobwM=
 2018-05-17-inviting-nchuleft:
   title: Inviting Nchuleft
@@ -9552,17 +9552,17 @@
     - service: vk
       id: 1742
       published: 2024-09-07-18-27-18
-      updated: 2024-09-07-21-21-21
+      updated: 2024-09-07-22-21-28
       followers: 943
       likes: 16
-      views: 72
+      views: 79
     - service: tg
       id: 525
       published: 2024-09-07-18-27-27
-      updated: 2024-09-07-21-21-22
+      updated: 2024-09-07-22-21-28
       followers: 552
-      likes: 34
-      views: 97
+      likes: 35
+      views: 104
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы
