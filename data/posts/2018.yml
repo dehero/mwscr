@@ -637,10 +637,10 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-09-07-20-21-42
+      updated: 2024-09-07-21-21-22
       followers: 943
       likes: 22
-      views: 154
+      views: 155
       reposts: 2
       comments: !c |-
         G9oCAKwK7DbyC53aVXL0CN5VcRAVtmgoOTn1l+y/FTiUxoEwOARKYqrVqQh9jqvQZ7CrxzMcL6oV
@@ -653,10 +653,10 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-09-07-20-21-42
+      updated: 2024-09-07-21-21-22
       followers: 551
-      likes: 52
-      views: 197
+      likes: 53
+      views: 201
       comments: !c |-
         G9EAYIyUbsI8A645gjVBtc//m1b2toiwUaRNMO/wxbbWuVFCJlIM9X7iFOVucKIx5hBGLbTppBtO
         tOfw+Nwit9TaMhmfA4b1lHsV7JBS8l9S0pmkGYYDbLDsxAdYYscJoFjCAdGQE8JkkWVsLIA9lpyg
@@ -1775,17 +1775,17 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2024-08-31-20-23-00
+      updated: 2024-09-07-21-21-24
       followers: 927
       likes: 26
-      views: 234
+      views: 237
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
-      updated: 2024-08-31-20-23-01
+      updated: 2024-09-07-21-21-24
       followers: 514
       likes: 54
-      views: 489
+      views: 508
       comments: !c |-
         G7oAACwSeA71cYPQGRc+TQ3YGKHSD9b5LX9eZ9s65ASySd0h8m5C6G9nE3IUuiDZhXozCu9hA440
         4GHFgTiBc4ICvmmQnrLp5AROtwRzz8I0CkyjllJaA0L1SdHj3irNPcvjZQJCxmyajTkQGHPxwQLC
@@ -6570,17 +6570,17 @@
     - service: vk
       id: 1666
       published: 2024-08-03-18-19-32
-      updated: 2024-08-31-21-20-01
+      updated: 2024-09-07-21-21-25
       followers: 925
       likes: 32
-      views: 265
+      views: 267
     - service: tg
       id: 489
       published: 2024-08-03-18-19-41
-      updated: 2024-08-31-21-20-02
+      updated: 2024-09-07-21-21-24
       followers: 428
       likes: 56
-      views: 6089
+      views: 6160
       comments: !c |-
         izGAkZTLQnkRxbvWAACrVmVicmFuZGVub0uk8J+YjZPLQnkRxdocAAClYW5zaXPZNmV2ZXJ5IGdy
         YXplbGFuZGVyIGJveSBsb3ZlcyBoaW1zZWxmIGEgZ3VhciBoZXJkZXIgZ2lybAM=
@@ -9552,17 +9552,17 @@
     - service: vk
       id: 1742
       published: 2024-09-07-18-27-18
-      updated: 2024-09-07-20-21-41
+      updated: 2024-09-07-21-21-21
       followers: 943
-      likes: 12
-      views: 58
+      likes: 16
+      views: 72
     - service: tg
       id: 525
       published: 2024-09-07-18-27-27
-      updated: 2024-09-07-20-21-42
+      updated: 2024-09-07-21-21-22
       followers: 552
-      likes: 31
-      views: 83
+      likes: 34
+      views: 97
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы
