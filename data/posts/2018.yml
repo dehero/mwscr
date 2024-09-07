@@ -257,18 +257,18 @@
     - service: vk
       id: 1607
       published: 2024-06-28-18-19-25
-      updated: 2024-08-31-02-42-46
+      updated: 2024-09-07-02-43-12
       followers: 917
       likes: 38
-      views: 274
+      views: 275
       reposts: 1
     - service: tg
       id: 453
       published: 2024-06-28-18-19-31
-      updated: 2024-08-31-02-42-46
+      updated: 2024-09-07-02-43-10
       followers: 387
       likes: 59
-      views: 505
+      views: 511
 2018-01-10-rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
@@ -637,17 +637,17 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-09-07-01-39-25
+      updated: 2024-09-07-02-43-07
       followers: 943
-      likes: 15
-      views: 89
+      likes: 16
+      views: 92
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-09-07-01-39-25
+      updated: 2024-09-07-02-43-07
       followers: 551
       likes: 41
-      views: 116
+      views: 118
       comments: !c |-
         G3QAgOTnr/kJjo6gckJRdmFnf7PoolmD5Ps4sSjYgAPRAGB6oYF8lGEiJ9wCSb4visWT4FJVOYnR
         XA2ajuM4TvhOQ4dESYxgOMI6mdeGnuAIG4/MB2X06E4y4BL/ezBaer2O6494w2YotILG7QbvSBK2
@@ -5136,18 +5136,18 @@
     - service: vk
       id: 1657
       published: 2024-07-26-18-20-40
-      updated: 2024-08-31-01-39-58
+      updated: 2024-09-07-02-43-09
       followers: 923
       likes: 34
-      views: 253
+      views: 254
       reposts: 1
     - service: tg
       id: 481
       published: 2024-07-26-18-20-48
-      updated: 2024-08-31-01-39-56
+      updated: 2024-09-07-02-43-08
       followers: 400
       likes: 68
-      views: 577
+      views: 585
       comments: !c CwuAkZPLQnkPIJkoAACmQzRINk80pPCfmI4D
 2018-06-06-i-think-i-got-sick:
   title: I Think I Got Sick
@@ -7341,7 +7341,7 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2024-09-07-01-39-26
+      updated: 2024-09-07-02-43-08
       followers: 943
       likes: 20
       views: 144
@@ -7352,10 +7352,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2024-09-07-01-39-26
+      updated: 2024-09-07-02-43-08
       followers: 551
       likes: 47
-      views: 188
+      views: 189
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
@@ -8384,17 +8384,17 @@
     - service: tg
       id: 460
       published: 2024-07-05-18-19-50
-      updated: 2024-08-31-01-39-58
+      updated: 2024-09-07-02-43-10
       followers: 393
       likes: 52
-      views: 430
+      views: 433
     - service: vk
       id: 1615
       published: 2024-07-05-19-12-06
-      updated: 2024-08-31-01-40-00
+      updated: 2024-09-07-02-43-11
       followers: 919
       likes: 32
-      views: 273
+      views: 274
       reposts: 4
     - service: ig
       id: C9Ru5oGNV8s
