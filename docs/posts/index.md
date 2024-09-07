@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`193 items`
+`194 items`
+
+## <span id="2024-09-07-the-entrance-to-onyx-hall">The Entrance to Onyx Hall</span>
+
+`RU` Вход в Ониксовый Зал
+
+<a href="https://instagram.com/p/Bo4tmHFBCHb/" title="2018-10-13-the-entrance-to-onyx-hall"><img alt="store:/shots/2018-10-13-the-entrance-to-onyx-hall.png" src="../../assets/previews/shots/2018-10-13-the-entrance-to-onyx-hall.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-09-07-the-entrance-to-onyx-hall&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-09-07-the-entrance-to-onyx-hall
+```
+
+> `2018-10-13-the-entrance-to-onyx-hall`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bo4tmHFBCHb/)       | 2018-10-13 |       |   107 |       443 |  24.15 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_980)  | 2018-10-13 |   397 |    29 |       255 |  11.76 |
+| [`tg`](https://t.me/mwscr/77)                      | 2018-10-13 |   214 |     3 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1742) | 2024-09-07 |       |       |       943 |        |
+| [`tg`](https://t.me/mwscr/525)                     | 2024-09-07 |       |       |       552 |        |
+|                                                    |            |       |       |      1495 |  17.96 |
 
 ## <span id="2024-09-06-island-of-cliffracer">Island of Cliffracer</span>
 
@@ -28,9 +55,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BeJMy6dD1TO/)       | 2018-01-19 |       |    70 |       279 |  25.09 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_584)  | 2018-01-19 |   176 |    15 |       122 |   12.3 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1739) | 2024-09-06 |   145 |    21 |       943 |   2.44 |
-| [`tg`](https://t.me/mwscr/524)                     | 2024-09-06 |   168 |    49 |       551 |   8.89 |
-|                                                    |            |   313 |    70 |      1494 |  12.18 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1739) | 2024-09-06 |   151 |    22 |       943 |   2.55 |
+| [`tg`](https://t.me/mwscr/524)                     | 2024-09-06 |   171 |    50 |       551 |   9.07 |
+|                                                    |            |   322 |    72 |      1494 |  12.25 |
 
 #### Comments
 
@@ -66,9 +93,9 @@
 | [`ig`](https://instagram.com/p/Bmgl3avFBrZ/)       | 2018-08-15 |       |    86 |       382 |  22.51 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_860)  | 2018-08-15 |   292 |    16 |       199 |   8.04 |
 | [`ig`](https://instagram.com/p/C_i6eUrs1dW/)       | 2024-09-05 |   198 |    58 |      1455 |   3.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1737) | 2024-09-05 |   153 |    21 |       943 |   2.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1737) | 2024-09-05 |   154 |    21 |       943 |   2.23 |
 | [`tg`](https://t.me/mwscr/523)                     | 2024-09-05 |   206 |    48 |       551 |   8.71 |
-|                                                    |            |   557 |   127 |      2949 |    9.1 |
+|                                                    |            |   558 |   127 |      2949 |    9.1 |
 
 #### Comments
 
