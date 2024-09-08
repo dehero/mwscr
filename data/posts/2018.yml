@@ -5700,17 +5700,17 @@
     - service: vk
       id: 1667
       published: 2024-08-04-18-18-36
-      updated: 2024-09-01-23-20-11
+      updated: 2024-09-08-23-23-26
       followers: 927
       likes: 34
-      views: 253
+      views: 255
     - service: tg
       id: 490
       published: 2024-08-04-18-18-43
-      updated: 2024-09-01-23-20-11
+      updated: 2024-09-08-23-23-25
       followers: 476
       likes: 63
-      views: 752
+      views: 764
       comments: !c |-
         G+0AICwSeA71cYPQBcSN9t86gfLpT815tsVy0YiFw9Exdi1WnoC10haY72NAW73hjvNS7k9EIyng
         kAPxQKrtZrHURElT9upnyGaXYGB8a0Fb0gJKw0AifsIXf5AH3VhoZpHHgUN82Bye2kr4qQ6cPDuP
@@ -8176,18 +8176,18 @@
     - service: vk
       id: 1743
       published: 2024-09-08-18-28-17
-      updated: 2024-09-08-22-20-22
+      updated: 2024-09-08-23-23-23
       followers: 944
-      likes: 26
-      views: 95
+      likes: 28
+      views: 111
       reposts: 2
     - service: tg
       id: 526
       published: 2024-09-08-18-28-25
-      updated: 2024-09-08-22-20-22
+      updated: 2024-09-08-23-23-23
       followers: 554
-      likes: 40
-      views: 127
+      likes: 41
+      views: 137
 2018-09-08-mother-daedra:
   title: Mother Daedra
   titleRu: Даэдра-мать
@@ -8844,20 +8844,20 @@
     - service: vk
       id: 1648
       published: 2024-07-21-18-19-00
-      updated: 2024-09-01-23-20-13
+      updated: 2024-09-08-23-23-28
       followers: 919
       likes: 26
-      views: 262
+      views: 263
       comments: !c |-
         G4AA4B0JNs5xjUHoYYS0i3BAoUcWaBdJ4skPnGMl1iGoh6PlLf6Xr0Uqgvkxbr+Z8g2qEArYgAOX
         aLVBfIOATxzMNZ77gwuY9nhrTDdE5F5bMdWfGN3KBSfvQpEeQldfnGKQRtiQ7oMbikevMX6Z
     - service: tg
       id: 476
       published: 2024-07-21-18-19-07
-      updated: 2024-09-01-23-20-13
+      updated: 2024-09-08-23-23-26
       followers: 400
       likes: 50
-      views: 516
+      views: 522
 2018-09-25-what-do-you-know-about-comfort:
   title: What Do You Know About Comfort?
   titleRu: Что вы знаете о комфорте?
@@ -9567,17 +9567,17 @@
     - service: vk
       id: 1742
       published: 2024-09-07-18-27-18
-      updated: 2024-09-08-22-20-23
+      updated: 2024-09-08-23-23-24
       followers: 943
-      likes: 27
-      views: 164
+      likes: 28
+      views: 165
     - service: tg
       id: 525
       published: 2024-09-07-18-27-27
-      updated: 2024-09-08-22-20-23
+      updated: 2024-09-08-23-23-24
       followers: 552
-      likes: 49
-      views: 185
+      likes: 50
+      views: 189
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы
