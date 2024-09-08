@@ -29,9 +29,9 @@
 | [`ig`](https://instagram.com/p/Bo4tmHFBCHb/)       | 2018-10-13 |       |   107 |       443 |  24.15 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_980)  | 2018-10-13 |   397 |    29 |       255 |  11.76 |
 | [`tg`](https://t.me/mwscr/77)                      | 2018-10-13 |   214 |     3 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1742) | 2024-09-07 |    91 |    19 |       943 |   2.01 |
-| [`tg`](https://t.me/mwscr/525)                     | 2024-09-07 |   119 |    39 |       552 |   7.07 |
-|                                                    |            |   210 |    58 |      1495 |  11.25 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1742) | 2024-09-07 |    93 |    19 |       943 |   2.01 |
+| [`tg`](https://t.me/mwscr/525)                     | 2024-09-07 |   122 |    41 |       552 |   7.43 |
+|                                                    |            |   215 |    60 |      1495 |  11.34 |
 
 ## <span id="2024-09-06-island-of-cliffracer">Island of Cliffracer</span>
 

@@ -637,7 +637,7 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-09-08-03-24-34
+      updated: 2024-09-08-04-25-06
       followers: 943
       likes: 22
       views: 157
@@ -653,7 +653,7 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-09-08-03-24-35
+      updated: 2024-09-08-04-25-06
       followers: 551
       likes: 55
       views: 209
@@ -9552,17 +9552,17 @@
     - service: vk
       id: 1742
       published: 2024-09-07-18-27-18
-      updated: 2024-09-08-03-24-33
+      updated: 2024-09-08-04-25-05
       followers: 943
       likes: 19
-      views: 91
+      views: 93
     - service: tg
       id: 525
       published: 2024-09-07-18-27-27
-      updated: 2024-09-08-03-24-34
+      updated: 2024-09-08-04-25-05
       followers: 552
-      likes: 39
-      views: 119
+      likes: 41
+      views: 122
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы
