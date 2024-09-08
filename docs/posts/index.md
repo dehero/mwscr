@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`194 items`
+`195 items`
+
+## <span id="2024-09-08-red-light">Red Light</span>
+
+`RU` Красный фонарь
+
+<a href="https://instagram.com/p/Bnbwck7lAwT/" title="2018-09-07-red-light"><img alt="store:/shots/2018-09-07-red-light.png" src="../../assets/previews/shots/2018-09-07-red-light.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Suran` `🚀 OpenMW` `redlightdistrict`
+
+```
+2024-09-08-red-light
+```
+
+> `2018-09-07-red-light`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bnbwck7lAwT/)       | 2018-09-07 |       |   131 |       413 |  31.72 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_909)  | 2018-09-07 |   347 |    23 |       226 |  10.18 |
+| [`tg`](https://t.me/mwscr/13)                      | 2018-09-07 |   211 |     2 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1743) | 2024-09-08 |       |       |       944 |        |
+| [`tg`](https://t.me/mwscr/526)                     | 2024-09-08 |       |       |       554 |        |
+|                                                    |            |       |       |      1498 |  20.95 |
+
+#### Comments
+
+- `vk` <ins title="2018-09-08-06-54-42">dead___end</ins> Район красных фонарей
 
 ## <span id="2024-09-07-the-entrance-to-onyx-hall">The Entrance to Onyx Hall</span>
 
@@ -29,9 +60,9 @@
 | [`ig`](https://instagram.com/p/Bo4tmHFBCHb/)       | 2018-10-13 |       |   107 |       443 |  24.15 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_980)  | 2018-10-13 |   397 |    29 |       255 |  11.76 |
 | [`tg`](https://t.me/mwscr/77)                      | 2018-10-13 |   214 |     3 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1742) | 2024-09-07 |   155 |    25 |       943 |   2.65 |
-| [`tg`](https://t.me/mwscr/525)                     | 2024-09-07 |   149 |    48 |       552 |    8.7 |
-|                                                    |            |   304 |    73 |      1495 |  11.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1742) | 2024-09-07 |   159 |    26 |       943 |   2.76 |
+| [`tg`](https://t.me/mwscr/525)                     | 2024-09-07 |   150 |    48 |       552 |    8.7 |
+|                                                    |            |   309 |    74 |      1495 |  11.84 |
 
 ## <span id="2024-09-06-island-of-cliffracer">Island of Cliffracer</span>
 
@@ -55,9 +86,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BeJMy6dD1TO/)       | 2018-01-19 |       |    70 |       279 |  25.09 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_584)  | 2018-01-19 |   176 |    15 |       122 |   12.3 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1739) | 2024-09-06 |   175 |    27 |       943 |   3.08 |
-| [`tg`](https://t.me/mwscr/524)                     | 2024-09-06 |   227 |    58 |       551 |  10.53 |
-|                                                    |            |   402 |    85 |      1494 |  12.75 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1739) | 2024-09-06 |   178 |    27 |       943 |   3.08 |
+| [`tg`](https://t.me/mwscr/524)                     | 2024-09-06 |   228 |    58 |       551 |  10.53 |
+|                                                    |            |   406 |    85 |      1494 |  12.75 |
 
 #### Comments
 
@@ -93,9 +124,9 @@
 | [`ig`](https://instagram.com/p/Bmgl3avFBrZ/)       | 2018-08-15 |       |    86 |       382 |  22.51 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_860)  | 2018-08-15 |   292 |    16 |       199 |   8.04 |
 | [`ig`](https://instagram.com/p/C_i6eUrs1dW/)       | 2024-09-05 |   198 |    58 |      1455 |   3.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1737) | 2024-09-05 |   154 |    21 |       943 |   2.23 |
-| [`tg`](https://t.me/mwscr/523)                     | 2024-09-05 |   206 |    48 |       551 |   8.71 |
-|                                                    |            |   558 |   127 |      2949 |    9.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1737) | 2024-09-05 |   174 |    25 |       943 |   2.65 |
+| [`tg`](https://t.me/mwscr/523)                     | 2024-09-05 |   234 |    52 |       551 |   9.44 |
+|                                                    |            |   606 |   135 |      2949 |   9.33 |
 
 #### Comments
 

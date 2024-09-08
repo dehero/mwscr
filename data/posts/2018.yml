@@ -637,10 +637,10 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-09-08-17-18-28
+      updated: 2024-09-08-18-28-01
       followers: 943
       likes: 27
-      views: 175
+      views: 178
       reposts: 2
       comments: !c |-
         G9oCAKwK7DbyC53aVXL0CN5VcRAVtmgoOTn1l+y/FTiUxoEwOARKYqrVqQh9jqvQZ7CrxzMcL6oV
@@ -653,10 +653,10 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-09-08-17-18-28
+      updated: 2024-09-08-18-28-01
       followers: 551
       likes: 58
-      views: 227
+      views: 228
       comments: !c |-
         G9EAYIyUbsI8A645gjVBtc//m1b2toiwUaRNMO/wxbbWuVFCJlIM9X7iFOVucKIx5hBGLbTppBtO
         tOfw+Nwit9TaMhmfA4b1lHsV7JBS8l9S0pmkGYYDbLDsxAdYYscJoFjCAdGQE8JkkWVsLIA9lpyg
@@ -7352,10 +7352,10 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2024-09-07-18-27-03
+      updated: 2024-09-08-18-28-02
       followers: 943
-      likes: 21
-      views: 154
+      likes: 25
+      views: 174
       comments: !c |-
         G4kAABwJtm2DFS6f5Iqx04j/uZniZ21tAxEXoy2KJZqi5V7U8pariU3U3psJbEIUKjYbfn8SgoMM
         NuBAA4WMBqANZz5D4HxxP5/1mYm29/qcY41xrP13OoSBgAeAgkJKMk1xz7wtNSw7RMEup5pJICmx
@@ -7363,10 +7363,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2024-09-07-18-27-03
+      updated: 2024-09-08-18-28-02
       followers: 551
-      likes: 48
-      views: 206
+      likes: 52
+      views: 234
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
@@ -8173,6 +8173,14 @@
       updated: 2024-09-03-17-20-18
       likes: 2
       views: 211
+    - service: vk
+      id: 1743
+      published: 2024-09-08-18-28-17
+      followers: 944
+    - service: tg
+      id: 526
+      published: 2024-09-08-18-28-25
+      followers: 554
 2018-09-08-mother-daedra:
   title: Mother Daedra
   titleRu: Даэдра-мать
@@ -9552,17 +9560,17 @@
     - service: vk
       id: 1742
       published: 2024-09-07-18-27-18
-      updated: 2024-09-08-17-18-27
+      updated: 2024-09-08-18-28-00
       followers: 943
-      likes: 25
-      views: 155
+      likes: 26
+      views: 159
     - service: tg
       id: 525
       published: 2024-09-07-18-27-27
-      updated: 2024-09-08-17-18-28
+      updated: 2024-09-08-18-28-01
       followers: 552
       likes: 48
-      views: 149
+      views: 150
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы
