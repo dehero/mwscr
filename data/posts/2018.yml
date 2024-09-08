@@ -637,7 +637,7 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-09-07-23-19-57
+      updated: 2024-09-08-01-47-45
       followers: 943
       likes: 22
       views: 157
@@ -653,10 +653,10 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-09-07-23-19-56
+      updated: 2024-09-08-01-47-45
       followers: 551
-      likes: 53
-      views: 205
+      likes: 54
+      views: 206
       comments: !c |-
         G9EAYIyUbsI8A645gjVBtc//m1b2toiwUaRNMO/wxbbWuVFCJlIM9X7iFOVucKIx5hBGLbTppBtO
         tOfw+Nwit9TaMhmfA4b1lHsV7JBS8l9S0pmkGYYDbLDsxAdYYscJoFjCAdGQE8JkkWVsLIA9lpyg
@@ -9552,17 +9552,17 @@
     - service: vk
       id: 1742
       published: 2024-09-07-18-27-18
-      updated: 2024-09-07-23-19-56
+      updated: 2024-09-08-01-47-44
       followers: 943
-      likes: 16
-      views: 82
+      likes: 17
+      views: 84
     - service: tg
       id: 525
       published: 2024-09-07-18-27-27
-      updated: 2024-09-07-23-19-56
+      updated: 2024-09-08-01-47-44
       followers: 552
-      likes: 36
-      views: 107
+      likes: 38
+      views: 114
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы
