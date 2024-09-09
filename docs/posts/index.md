@@ -29,9 +29,9 @@
 | [`ig`](https://instagram.com/p/Bnbwck7lAwT/)       | 2018-09-07 |       |   131 |       413 |  31.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_909)  | 2018-09-07 |   347 |    23 |       226 |  10.18 |
 | [`tg`](https://t.me/mwscr/13)                      | 2018-09-07 |   211 |     2 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1743) | 2024-09-08 |   295 |    42 |       944 |   4.66 |
-| [`tg`](https://t.me/mwscr/526)                     | 2024-09-08 |   190 |    51 |       554 |   9.21 |
-|                                                    |            |   485 |    93 |      1498 |  13.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1743) | 2024-09-08 |   304 |    42 |       944 |   4.66 |
+| [`tg`](https://t.me/mwscr/526)                     | 2024-09-08 |   192 |    51 |       554 |   9.21 |
+|                                                    |            |   496 |    93 |      1498 |  13.94 |
 
 #### Comments
 
@@ -60,10 +60,10 @@
 | [`ig`](https://instagram.com/p/Bo4tmHFBCHb/)       | 2018-10-13 |       |   107 |       443 |  24.15 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_980)  | 2018-10-13 |   397 |    29 |       255 |  11.76 |
 | [`tg`](https://t.me/mwscr/77)                      | 2018-10-13 |   214 |     3 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1742) | 2024-09-07 |   183 |    29 |       943 |   3.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1742) | 2024-09-07 |   184 |    29 |       943 |   3.08 |
 | [`tg`](https://t.me/mwscr/525)                     | 2024-09-07 |   203 |    51 |       552 |   9.24 |
-| [`ig`](https://instagram.com/p/C_s4h4kvWJC/)       | 2024-09-09 |       |       |      1456 |        |
-|                                                    |            |   386 |    80 |      2951 |  12.06 |
+| [`ig`](https://instagram.com/p/C_s4h4kvWJC/)       | 2024-09-09 |    56 |    25 |      1456 |   1.72 |
+|                                                    |            |   443 |   105 |      2951 |   9.99 |
 
 ## <span id="2024-09-06-island-of-cliffracer">Island of Cliffracer</span>
 
@@ -89,8 +89,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_584)  | 2018-01-19 |   176 |    15 |       122 |   12.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1739) | 2024-09-06 |   178 |    27 |       943 |   3.08 |
 | [`tg`](https://t.me/mwscr/524)                     | 2024-09-06 |   228 |    58 |       551 |  10.53 |
-| [`ig`](https://instagram.com/p/C_sBQlKssUQ/)       | 2024-09-09 |   197 |    67 |      1456 |    4.6 |
-|                                                    |            |   603 |   152 |      2950 |  11.12 |
+| [`ig`](https://instagram.com/p/C_sBQlKssUQ/)       | 2024-09-09 |   211 |    72 |      1456 |   4.95 |
+|                                                    |            |   617 |   157 |      2950 |  11.19 |
 
 #### Comments
 
