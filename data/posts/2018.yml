@@ -662,6 +662,11 @@
         tOfw+Nwit9TaMhmfA4b1lHsV7JBS8l9S0pmkGYYDbLDsxAdYYscJoFjCAdGQE8JkkWVsLIA9lpyg
         kyUARLKARrpjHm5nF1UyeYya6cZi3iCBhXy70GcIV8iej6WWj7HuMS/Nf7JgB0HIG5IuaBlVPSKe
         eshjGwU=
+    - service: ig
+      id: C_sBQlKssUQ
+      mediaId: '18092210938479247'
+      published: 2024-09-09-07-20-58
+      followers: 1456
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
@@ -1053,10 +1058,10 @@
       id: C_bMI-pTI1Z
       mediaId: '17871606204172109'
       published: 2024-09-02-18-28-58
-      updated: 2024-09-05-18-28-16
+      updated: 2024-09-09-07-20-42
       followers: 1455
-      likes: 87
-      views: 306
+      likes: 92
+      views: 322
     - service: vk
       id: 1732
       published: 2024-09-02-18-29-04
@@ -2901,10 +2906,10 @@
       id: C_BbGpzuG4v
       mediaId: '17923658099841263'
       published: 2024-08-23-18-19-28
-      updated: 2024-08-30-20-23-42
+      updated: 2024-09-09-07-20-44
       followers: 1457
-      likes: 73
-      views: 299
+      likes: 74
+      views: 311
     - service: vk
       id: 1702
       published: 2024-08-23-18-19-34
@@ -7345,10 +7350,10 @@
       id: C_i6eUrs1dW
       mediaId: '18032722124330991'
       published: 2024-09-05-18-28-30
-      updated: 2024-09-06-11-19-08
+      updated: 2024-09-09-07-20-40
       followers: 1455
-      likes: 58
-      views: 198
+      likes: 76
+      views: 284
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
@@ -8045,10 +8050,10 @@
       id: C_Gkjg6Nfuj
       mediaId: '17929160141924204'
       published: 2024-08-25-18-18-13
-      updated: 2024-09-01-19-16-59
+      updated: 2024-09-09-07-20-43
       followers: 1455
-      likes: 97
-      views: 369
+      likes: 99
+      views: 385
     - service: vk
       id: 1707
       published: 2024-08-25-18-18-20
@@ -8176,18 +8181,18 @@
     - service: vk
       id: 1743
       published: 2024-09-08-18-28-17
-      updated: 2024-09-09-06-33-32
+      updated: 2024-09-09-07-20-40
       followers: 944
-      likes: 35
-      views: 184
+      likes: 36
+      views: 196
       reposts: 2
     - service: tg
       id: 526
       published: 2024-09-08-18-28-25
-      updated: 2024-09-09-06-33-33
+      updated: 2024-09-09-07-20-41
       followers: 554
       likes: 51
-      views: 172
+      views: 175
 2018-09-08-mother-daedra:
   title: Mother Daedra
   titleRu: Даэдра-мать
@@ -9510,10 +9515,10 @@
       id: C-vZmm-zwsc
       mediaId: '18022081085131254'
       published: 2024-08-16-18-20-02
-      updated: 2024-08-30-21-21-32
+      updated: 2024-09-09-07-20-46
       followers: 1440
-      likes: 147
-      views: 464
+      likes: 148
+      views: 473
       comments: !c ixaAkZPLQnkVzUHngACsZWFzdGNvYXN0X2xntUZhdm91cml0ZSBzbyBmYXIg8J+RjwM=
     - service: vk
       id: 1693
@@ -9567,17 +9572,17 @@
     - service: vk
       id: 1742
       published: 2024-09-07-18-27-18
-      updated: 2024-09-09-06-33-33
+      updated: 2024-09-09-07-20-42
       followers: 943
       likes: 28
-      views: 169
+      views: 171
     - service: tg
       id: 525
       published: 2024-09-07-18-27-27
-      updated: 2024-09-09-06-33-34
+      updated: 2024-09-09-07-20-41
       followers: 552
       likes: 51
-      views: 197
+      views: 198
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы
