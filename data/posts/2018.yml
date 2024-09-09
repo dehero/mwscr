@@ -637,10 +637,10 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-09-08-18-28-01
+      updated: 2024-09-09-18-29-12
       followers: 943
-      likes: 27
-      views: 178
+      likes: 29
+      views: 204
       reposts: 2
       comments: !c |-
         G9oCAKwK7DbyC53aVXL0CN5VcRAVtmgoOTn1l+y/FTiUxoEwOARKYqrVqQh9jqvQZ7CrxzMcL6oV
@@ -653,10 +653,10 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-09-08-18-28-01
+      updated: 2024-09-09-18-29-12
       followers: 551
       likes: 58
-      views: 228
+      views: 254
       comments: !c |-
         G9EAYIyUbsI8A645gjVBtc//m1b2toiwUaRNMO/wxbbWuVFCJlIM9X7iFOVucKIx5hBGLbTppBtO
         tOfw+Nwit9TaMhmfA4b1lHsV7JBS8l9S0pmkGYYDbLDsxAdYYscJoFjCAdGQE8JkkWVsLIA9lpyg
@@ -666,10 +666,10 @@
       id: C_sBQlKssUQ
       mediaId: '18092210938479247'
       published: 2024-09-09-07-20-58
-      updated: 2024-09-09-17-20-07
+      updated: 2024-09-09-18-29-11
       followers: 1456
-      likes: 72
-      views: 217
+      likes: 74
+      views: 225
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
@@ -4979,6 +4979,14 @@
       followers: 167
       likes: 21
       views: 271
+    - service: vk
+      id: 1745
+      published: 2024-09-09-18-29-21
+      followers: 945
+    - service: tg
+      id: 527
+      published: 2024-09-09-18-29-28
+      followers: 552
 2018-05-31-clandestine-lab:
   title: Clandestine Lab
   titleRu: Подпольная лаборатория
@@ -7360,10 +7368,10 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2024-09-08-18-28-02
+      updated: 2024-09-09-18-29-13
       followers: 943
-      likes: 25
-      views: 174
+      likes: 27
+      views: 192
       comments: !c |-
         G4kAABwJtm2DFS6f5Iqx04j/uZniZ21tAxEXoy2KJZqi5V7U8pariU3U3psJbEIUKjYbfn8SgoMM
         NuBAA4WMBqANZz5D4HxxP5/1mYm29/qcY41xrP13OoSBgAeAgkJKMk1xz7wtNSw7RMEup5pJICmx
@@ -7371,10 +7379,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2024-09-08-18-28-02
+      updated: 2024-09-09-18-29-14
       followers: 551
       likes: 52
-      views: 234
+      views: 268
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
@@ -8184,15 +8192,15 @@
     - service: vk
       id: 1743
       published: 2024-09-08-18-28-17
-      updated: 2024-09-09-17-20-05
+      updated: 2024-09-09-18-29-11
       followers: 944
-      likes: 43
-      views: 312
+      likes: 44
+      views: 322
       reposts: 2
     - service: tg
       id: 526
       published: 2024-09-08-18-28-25
-      updated: 2024-09-09-17-20-05
+      updated: 2024-09-09-18-29-11
       followers: 554
       likes: 51
       views: 192
@@ -9590,10 +9598,10 @@
       id: C_s4h4kvWJC
       mediaId: '17969542835645642'
       published: 2024-09-09-15-23-55
-      updated: 2024-09-09-17-20-05
+      updated: 2024-09-09-18-29-10
       followers: 1456
-      likes: 31
-      views: 96
+      likes: 36
+      views: 119
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы

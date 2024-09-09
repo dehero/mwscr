@@ -4,7 +4,40 @@
 
 # Posted in 2024
 
-`195 items`
+`196 items`
+
+## <span id="2024-09-09-near-six-fishes">Near &quot;Six Fishes&quot;</span>
+
+`RU` У &quot;Шести рыб&quot;
+
+<a href="https://instagram.com/p/BjaZ3NBF9Dz/" title="2018-05-30-near-six-fishes"><img alt="store:/shots/2018-05-30-near-six-fishes.png" src="../../assets/previews/shots/2018-05-30-near-six-fishes.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Ebonheart` `🚀 OpenMW`
+
+```
+2024-09-09-near-six-fishes
+```
+
+> `2018-05-30-near-six-fishes`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BjaZ3NBF9Dz/)       | 2018-05-30 |       |   113 |       336 |  33.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_749)  | 2018-05-30 |   271 |    21 |       167 |  12.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1745) | 2024-09-09 |       |       |       945 |        |
+| [`tg`](https://t.me/mwscr/527)                     | 2024-09-09 |       |       |       552 |        |
+|                                                    |            |       |       |      1497 |   23.1 |
+
+#### Comments
+
+- `ig` <ins title="2018-05-30-19-10-16">theclockworkgod</ins> Your screenshots are so perfect. It makes me miss Morrowind af
+- `ig` <ins title="2018-05-30-19-15-10">verian21</ins> It&#39;s in Ebonheart, right?
+  - <ins title="2018-05-30-19-21-26">mwscr</ins> Right
+- `ig` <ins title="2018-05-30-21-18-22">octo__puss</ins> I knew it was Ebonheart before I read the text 😺
 
 ## <span id="2024-09-08-red-light">Red Light</span>
 
@@ -29,9 +62,9 @@
 | [`ig`](https://instagram.com/p/Bnbwck7lAwT/)       | 2018-09-07 |       |   131 |       413 |  31.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_909)  | 2018-09-07 |   347 |    23 |       226 |  10.18 |
 | [`tg`](https://t.me/mwscr/13)                      | 2018-09-07 |   211 |     2 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1743) | 2024-09-08 |   312 |    43 |       944 |   4.77 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1743) | 2024-09-08 |   322 |    44 |       944 |   4.87 |
 | [`tg`](https://t.me/mwscr/526)                     | 2024-09-08 |   192 |    51 |       554 |   9.21 |
-|                                                    |            |   504 |    94 |      1498 |  13.97 |
+|                                                    |            |   514 |    95 |      1498 |  13.99 |
 
 #### Comments
 
@@ -62,8 +95,8 @@
 | [`tg`](https://t.me/mwscr/77)                      | 2018-10-13 |   214 |     3 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1742) | 2024-09-07 |   184 |    29 |       943 |   3.08 |
 | [`tg`](https://t.me/mwscr/525)                     | 2024-09-07 |   203 |    51 |       552 |   9.24 |
-| [`ig`](https://instagram.com/p/C_s4h4kvWJC/)       | 2024-09-09 |    96 |    31 |      1456 |   2.13 |
-|                                                    |            |   483 |   111 |      2951 |  10.07 |
+| [`ig`](https://instagram.com/p/C_s4h4kvWJC/)       | 2024-09-09 |   119 |    36 |      1456 |   2.47 |
+|                                                    |            |   506 |   116 |      2951 |  10.14 |
 
 ## <span id="2024-09-06-island-of-cliffracer">Island of Cliffracer</span>
 
@@ -87,10 +120,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BeJMy6dD1TO/)       | 2018-01-19 |       |    70 |       279 |  25.09 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_584)  | 2018-01-19 |   176 |    15 |       122 |   12.3 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1739) | 2024-09-06 |   178 |    27 |       943 |   3.08 |
-| [`tg`](https://t.me/mwscr/524)                     | 2024-09-06 |   228 |    58 |       551 |  10.53 |
-| [`ig`](https://instagram.com/p/C_sBQlKssUQ/)       | 2024-09-09 |   217 |    72 |      1456 |   4.95 |
-|                                                    |            |   623 |   157 |      2950 |  11.19 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1739) | 2024-09-06 |   204 |    29 |       943 |   3.29 |
+| [`tg`](https://t.me/mwscr/524)                     | 2024-09-06 |   254 |    58 |       551 |  10.53 |
+| [`ig`](https://instagram.com/p/C_sBQlKssUQ/)       | 2024-09-09 |   225 |    74 |      1456 |   5.08 |
+|                                                    |            |   683 |   161 |      2950 |  11.26 |
 
 #### Comments
 
@@ -126,9 +159,9 @@
 | [`ig`](https://instagram.com/p/Bmgl3avFBrZ/)       | 2018-08-15 |       |    86 |       382 |  22.51 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_860)  | 2018-08-15 |   292 |    16 |       199 |   8.04 |
 | [`ig`](https://instagram.com/p/C_i6eUrs1dW/)       | 2024-09-05 |   284 |    76 |      1455 |   5.22 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1737) | 2024-09-05 |   174 |    25 |       943 |   2.65 |
-| [`tg`](https://t.me/mwscr/523)                     | 2024-09-05 |   234 |    52 |       551 |   9.44 |
-|                                                    |            |   692 |   153 |      2949 |   9.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1737) | 2024-09-05 |   192 |    27 |       943 |   2.86 |
+| [`tg`](https://t.me/mwscr/523)                     | 2024-09-05 |   268 |    52 |       551 |   9.44 |
+|                                                    |            |   744 |   155 |      2949 |   9.62 |
 
 #### Comments
 
