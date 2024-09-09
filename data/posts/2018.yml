@@ -2016,10 +2016,10 @@
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
-      updated: 2024-09-02-06-31-09
+      updated: 2024-09-09-06-33-36
       followers: 909
       likes: 46
-      views: 303
+      views: 304
       reposts: 1
       comments: !c |-
         G4QA6I3EOIZyG6Y3MUKlQ1S3CI/1DLKkSZsJvO+Tm3mQZBc0oB88Z7wSGcko6pWUbWc9OOTA5fs8
@@ -2028,10 +2028,10 @@
     - service: tg
       id: 385
       published: 2024-04-21-18-17-47
-      updated: 2024-09-02-06-31-09
+      updated: 2024-09-09-06-33-35
       followers: 354
       likes: 64
-      views: 456
+      views: 457
       comments: !c |-
         GxUB4B2J6TY4WRjE4Mgnp1zkmUcccdHnh9N9+lNDlHuYbByrY3PPM8a2CJSsggX62iyD54f/3Ikm
         GAC/a7vtb9GHtjAN7AA0saC2ObcMzVoKdhBf9Sn9ndec8R1/Kq3Rhveo9epmJvELYVP/9xlRg7HB
@@ -8176,18 +8176,18 @@
     - service: vk
       id: 1743
       published: 2024-09-08-18-28-17
-      updated: 2024-09-09-05-22-06
+      updated: 2024-09-09-06-33-32
       followers: 944
-      likes: 33
-      views: 161
+      likes: 35
+      views: 184
       reposts: 2
     - service: tg
       id: 526
       published: 2024-09-08-18-28-25
-      updated: 2024-09-09-05-22-07
+      updated: 2024-09-09-06-33-33
       followers: 554
-      likes: 50
-      views: 165
+      likes: 51
+      views: 172
 2018-09-08-mother-daedra:
   title: Mother Daedra
   titleRu: Даэдра-мать
@@ -9567,17 +9567,17 @@
     - service: vk
       id: 1742
       published: 2024-09-07-18-27-18
-      updated: 2024-09-09-05-22-07
+      updated: 2024-09-09-06-33-33
       followers: 943
       likes: 28
-      views: 168
+      views: 169
     - service: tg
       id: 525
       published: 2024-09-07-18-27-27
-      updated: 2024-09-09-05-22-07
+      updated: 2024-09-09-06-33-34
       followers: 552
       likes: 51
-      views: 195
+      views: 197
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы
