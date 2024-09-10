@@ -666,7 +666,7 @@
       id: C_sBQlKssUQ
       mediaId: '18092210938479247'
       published: 2024-09-09-07-20-58
-      updated: 2024-09-10-22-20-48
+      updated: 2024-09-10-23-20-40
       followers: 1456
       likes: 91
       views: 289
@@ -772,6 +772,19 @@
       followers: 123
       likes: 9
       views: 206
+    - service: ig
+      id: C_wT6CuOlov
+      mediaId: '18045836356788338'
+      published: 2024-09-10-23-20-52
+      followers: 1457
+    - service: vk
+      id: 1747
+      published: 2024-09-10-23-20-58
+      followers: 945
+    - service: tg
+      id: 528
+      published: 2024-09-10-23-21-05
+      followers: 554
 2018-01-24-in-the-misty-emptiness:
   title: In the Misty Emptiness
   titleRu: В туманной пустоте
@@ -4982,25 +4995,29 @@
     - service: vk
       id: 1745
       published: 2024-09-09-18-29-21
-      updated: 2024-09-10-22-20-46
+      updated: 2024-09-10-23-20-37
       followers: 945
       likes: 29
-      views: 151
+      views: 152
     - service: tg
       id: 527
       published: 2024-09-09-18-29-28
-      updated: 2024-09-10-22-20-46
+      updated: 2024-09-10-23-20-37
       followers: 552
       likes: 49
-      views: 184
+      views: 185
+      comments: !c |-
+        G7wAIGXomkfywVEtGGUVm83GBd48kQGN9/SAuVqSJ0VpWECJZdp2u54sWFdlZxjSn6fr19tDf/Zz
+        ALfIdvk7vg4sa8ttkfdwYhnOrubNpNnIagiH86B2mjPVVHQSJOmWSPJu1lZ2Wd/b0MD+5ljV5JJI
+        oqKInCIzF1SHhQHwiLO5asTlt1MABXWarpwA
     - service: ig
       id: C_u6_wnNRdH
       mediaId: '18344943052192432'
       published: 2024-09-10-10-23-56
-      updated: 2024-09-10-22-20-45
+      updated: 2024-09-10-23-20-37
       followers: 1457
       likes: 65
-      views: 254
+      views: 260
 2018-05-31-clandestine-lab:
   title: Clandestine Lab
   titleRu: Подпольная лаборатория
@@ -8225,10 +8242,10 @@
       id: C_t_VnJxftA
       mediaId: '18019278437441496'
       published: 2024-09-10-01-42-39
-      updated: 2024-09-10-22-20-46
+      updated: 2024-09-10-23-20-38
       followers: 1457
       likes: 82
-      views: 367
+      views: 371
 2018-09-08-mother-daedra:
   title: Mother Daedra
   titleRu: Даэдра-мать
@@ -9623,7 +9640,7 @@
       id: C_s4h4kvWJC
       mediaId: '17969542835645642'
       published: 2024-09-09-15-23-55
-      updated: 2024-09-10-22-20-47
+      updated: 2024-09-10-23-20-39
       followers: 1456
       likes: 66
       views: 236

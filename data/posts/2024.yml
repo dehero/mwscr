@@ -2350,18 +2350,18 @@
     - service: vk
       id: 1689
       published: 2024-08-13-18-55-56
-      updated: 2024-09-03-22-21-37
+      updated: 2024-09-10-23-20-40
       followers: 931
       likes: 39
-      views: 303
+      views: 308
       reposts: 2
     - service: tg
       id: 500
       published: 2024-08-13-18-56-05
-      updated: 2024-09-03-22-21-36
+      updated: 2024-09-10-23-20-39
       followers: 527
-      likes: 74
-      views: 641
+      likes: 75
+      views: 687
       comments: !c |-
         izuAkpPLQnkVCahrAACteHhrYW1hejIwMDh4eNkraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0
         Y2g/dj11aFlvTE1fSGNXTZPLQnkU0g//AACpR2F0ZW1hdGU3vWxvb2tzIGxpa2Ugd2UgdXNpbmcg
@@ -2455,3 +2455,4 @@
 2024-09-07-the-entrance-to-onyx-hall: 2018-10-13-the-entrance-to-onyx-hall
 2024-09-08-red-light: 2018-09-07-red-light
 2024-09-09-near-six-fishes: 2018-05-30-near-six-fishes
+2024-09-10-goblin-bruiser: 2018-01-24-goblin-bruiser
