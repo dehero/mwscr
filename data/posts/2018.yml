@@ -666,10 +666,10 @@
       id: C_sBQlKssUQ
       mediaId: '18092210938479247'
       published: 2024-09-09-07-20-58
-      updated: 2024-09-10-16-26-10
+      updated: 2024-09-10-17-19-10
       followers: 1456
       likes: 88
-      views: 278
+      views: 280
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
@@ -4982,14 +4982,14 @@
     - service: vk
       id: 1745
       published: 2024-09-09-18-29-21
-      updated: 2024-09-10-16-26-08
+      updated: 2024-09-10-17-19-07
       followers: 945
       likes: 29
-      views: 140
+      views: 143
     - service: tg
       id: 527
       published: 2024-09-09-18-29-28
-      updated: 2024-09-10-16-26-07
+      updated: 2024-09-10-17-19-08
       followers: 552
       likes: 49
       views: 179
@@ -4997,10 +4997,10 @@
       id: C_u6_wnNRdH
       mediaId: '18344943052192432'
       published: 2024-09-10-10-23-56
-      updated: 2024-09-10-16-26-07
+      updated: 2024-09-10-17-19-07
       followers: 1457
-      likes: 58
-      views: 182
+      likes: 59
+      views: 196
 2018-05-31-clandestine-lab:
   title: Clandestine Lab
   titleRu: Подпольная лаборатория
@@ -8206,10 +8206,10 @@
     - service: vk
       id: 1743
       published: 2024-09-08-18-28-17
-      updated: 2024-09-10-16-26-09
+      updated: 2024-09-10-17-19-08
       followers: 944
       likes: 48
-      views: 421
+      views: 428
       reposts: 2
       comments: !c |-
         G40AKByJcSzKgsFXQvCPt+QsFRM0ItlskrGZEqXmyvvxPIfPeZI8siw73vLc4DhgSTDiAkww05X2
@@ -8217,7 +8217,7 @@
     - service: tg
       id: 526
       published: 2024-09-08-18-28-25
-      updated: 2024-09-10-16-26-09
+      updated: 2024-09-10-17-19-09
       followers: 554
       likes: 59
       views: 253
@@ -8225,10 +8225,10 @@
       id: C_t_VnJxftA
       mediaId: '18019278437441496'
       published: 2024-09-10-01-42-39
-      updated: 2024-09-10-16-26-08
+      updated: 2024-09-10-17-19-08
       followers: 1457
       likes: 76
-      views: 317
+      views: 328
 2018-09-08-mother-daedra:
   title: Mother Daedra
   titleRu: Даэдра-мать
@@ -8380,7 +8380,7 @@
     - service: tg
       id: 27
       published: 2018-09-11
-      updated: 2024-09-03-16-29-15
+      updated: 2024-09-10-17-19-59
       likes: 3
       views: 179
 2018-09-12-forager:
@@ -8414,7 +8414,7 @@
     - service: tg
       id: 28
       published: 2018-09-12
-      updated: 2024-09-03-16-29-14
+      updated: 2024-09-10-17-19-58
       likes: 4
       views: 179
 2018-09-13-another-coven:
@@ -8445,7 +8445,7 @@
     - service: tg
       id: 29
       published: 2018-09-13
-      updated: 2024-09-03-16-29-14
+      updated: 2024-09-10-17-19-57
       likes: 2
       views: 204
     - service: tg
@@ -8508,7 +8508,7 @@
     - service: tg
       id: 30
       published: 2018-09-14
-      updated: 2024-09-03-16-29-13
+      updated: 2024-09-10-17-19-57
       likes: 3
       views: 177
 2018-09-15-dark-vaults-of-nammu:
@@ -8545,7 +8545,7 @@
     - service: tg
       id: 31
       published: 2018-09-15
-      updated: 2024-09-03-16-29-13
+      updated: 2024-09-10-17-19-56
       likes: 3
       views: 182
 2018-09-16-city-lights:
@@ -8585,7 +8585,7 @@
         - 35
         - 36
       published: 2018-09-16
-      updated: 2024-09-03-16-29-12
+      updated: 2024-09-10-17-19-56
       likes: 2
       views: 198
 2018-09-17-dren-plantation:
@@ -8622,7 +8622,7 @@
     - service: tg
       id: 37
       published: 2018-09-17
-      updated: 2024-09-03-16-29-11
+      updated: 2024-09-10-17-19-55
       likes: 2
       views: 186
 2018-09-18-dead-grove:
@@ -8655,7 +8655,7 @@
     - service: tg
       id: 38
       published: 2018-09-18
-      updated: 2024-09-03-16-29-11
+      updated: 2024-09-10-17-19-54
       likes: 3
       views: 183
 2018-09-19-teris-raledran-and-rollie-the-guar:
@@ -8690,7 +8690,7 @@
     - service: tg
       id: 39
       published: 2018-09-19
-      updated: 2024-09-03-16-29-10
+      updated: 2024-09-10-17-19-54
       likes: 4
       views: 190
 2018-09-20-in-the-west-wing-of-gateway-inn:
@@ -8719,7 +8719,7 @@
     - service: tg
       id: 40
       published: 2018-09-20
-      updated: 2024-09-03-16-29-10
+      updated: 2024-09-10-17-19-53
       likes: 2
       views: 191
 2018-09-21-wolverine-hall:
@@ -8752,7 +8752,7 @@
     - service: tg
       id: 41
       published: 2018-09-21
-      updated: 2024-09-03-16-29-09
+      updated: 2024-09-10-17-19-53
       likes: 4
       views: 194
 2018-09-22-two-ways:
@@ -8790,7 +8790,7 @@
     - service: tg
       id: 42
       published: 2018-09-22
-      updated: 2024-09-03-16-29-09
+      updated: 2024-09-10-17-19-52
       likes: 5
       views: 200
 2018-09-23-bridges:
@@ -8836,7 +8836,7 @@
         - 46
         - 48
       published: 2018-09-23
-      updated: 2024-09-03-16-29-08
+      updated: 2024-09-10-17-19-51
       likes: 2
       views: 201
 2018-09-24-verminous-fabricant:
@@ -8871,7 +8871,7 @@
     - service: tg
       id: 49
       published: 2018-09-24
-      updated: 2024-09-03-16-29-07
+      updated: 2024-09-10-17-19-51
       likes: 2
       views: 201
     - service: ig
@@ -8933,7 +8933,7 @@
     - service: tg
       id: 50
       published: 2018-09-25
-      updated: 2024-09-03-16-29-07
+      updated: 2024-09-10-17-19-50
       likes: 2
       views: 197
 2018-09-26-tribunal-temple-in-molag-mar:
@@ -8966,7 +8966,7 @@
     - service: tg
       id: 51
       published: 2018-09-26
-      updated: 2024-09-03-16-29-06
+      updated: 2024-09-10-17-19-50
       likes: 2
       views: 195
 2018-09-27-sethan-ancestral-tomb:
@@ -8999,7 +8999,7 @@
     - service: tg
       id: 52
       published: 2018-09-27
-      updated: 2024-09-03-16-29-06
+      updated: 2024-09-10-17-19-49
       likes: 2
       views: 193
 2018-09-28-please-no-more-kwama-eggs:
@@ -9028,7 +9028,7 @@
     - service: tg
       id: 53
       published: 2018-09-28
-      updated: 2024-09-03-16-29-05
+      updated: 2024-09-10-17-19-49
       likes: 2
       views: 191
 2018-09-29-towers-of-arkngthand:
@@ -9060,7 +9060,7 @@
     - service: tg
       id: 54
       published: 2018-09-29
-      updated: 2024-09-03-16-29-05
+      updated: 2024-09-10-17-19-48
       likes: 2
       views: 196
 2018-09-30-ancestral-tombs:
@@ -9100,7 +9100,7 @@
         - 59
         - 60
       published: 2018-09-30
-      updated: 2024-09-03-16-29-04
+      updated: 2024-09-10-17-19-48
       likes: 3
       views: 205
 2018-10-01-near-the-fighters-guild-of-aldruhn:
@@ -9133,7 +9133,7 @@
     - service: tg
       id: 61
       published: 2018-10-01
-      updated: 2024-09-03-16-29-04
+      updated: 2024-09-10-17-19-47
       likes: 2
       views: 197
 2018-10-02-shatalg:
@@ -9165,7 +9165,7 @@
     - service: tg
       id: 62
       published: 2018-10-02
-      updated: 2024-09-03-16-29-03
+      updated: 2024-09-10-17-19-46
       likes: 2
       views: 195
 2018-10-03-high-ordinator-surveying-godsreach-at-night:
@@ -9199,7 +9199,7 @@
     - service: tg
       id: 63
       published: 2018-10-03
-      updated: 2024-09-03-16-29-02
+      updated: 2024-09-10-17-19-46
       likes: 2
       views: 201
 2018-10-04-netch-over-the-puddle:
@@ -9235,7 +9235,7 @@
     - service: tg
       id: 64
       published: 2018-10-04
-      updated: 2024-09-03-16-29-02
+      updated: 2024-09-10-17-19-45
       likes: 2
       views: 200
 2018-10-05-galom-daeus:
@@ -9269,7 +9269,7 @@
     - service: tg
       id: 65
       published: 2018-10-05
-      updated: 2024-09-03-16-29-01
+      updated: 2024-09-10-17-19-44
       likes: 3
       views: 199
     - service: ig
@@ -9343,7 +9343,7 @@
         - 69
         - 70
       published: 2018-10-06
-      updated: 2024-09-03-16-29-00
+      updated: 2024-09-10-17-19-43
       likes: 3
       views: 198
 2018-10-07-on-the-way-to-the-crater:
@@ -9383,7 +9383,7 @@
     - service: tg
       id: 71
       published: 2018-10-07
-      updated: 2024-09-03-16-28-59
+      updated: 2024-09-10-17-19-43
       likes: 3
       views: 201
 2018-10-08-evening-time-in-tel-mora:
@@ -9413,7 +9413,7 @@
     - service: tg
       id: 72
       published: 2018-10-08
-      updated: 2024-09-03-16-28-59
+      updated: 2024-09-10-17-19-42
       likes: 3
       views: 201
 2018-10-09-severe-innkeeper:
@@ -9448,7 +9448,7 @@
     - service: tg
       id: 73
       published: 2018-10-09
-      updated: 2024-09-03-16-28-58
+      updated: 2024-09-10-17-19-41
       likes: 2
       views: 209
 2018-10-10-thunderstorm-cave:
@@ -9478,7 +9478,7 @@
     - service: tg
       id: 74
       published: 2018-10-10
-      updated: 2024-09-03-16-28-57
+      updated: 2024-09-10-17-19-41
       likes: 3
       views: 229
 2018-10-11-books-to-ashes:
@@ -9511,7 +9511,7 @@
     - service: tg
       id: 75
       published: 2018-10-11
-      updated: 2024-09-03-16-28-57
+      updated: 2024-09-10-17-19-40
       likes: 2
       views: 214
 2018-10-12-rainy-evening-at-the-farm:
@@ -9544,7 +9544,7 @@
     - service: tg
       id: 76
       published: 2018-10-12
-      updated: 2024-09-03-16-28-56
+      updated: 2024-09-10-17-19-40
       likes: 4
       views: 220
     - service: ig
@@ -9602,7 +9602,7 @@
     - service: tg
       id: 77
       published: 2018-10-13
-      updated: 2024-09-03-16-28-56
+      updated: 2024-09-10-17-19-39
       likes: 3
       views: 214
     - service: vk
@@ -9623,10 +9623,10 @@
       id: C_s4h4kvWJC
       mediaId: '17969542835645642'
       published: 2024-09-09-15-23-55
-      updated: 2024-09-10-16-26-09
+      updated: 2024-09-10-17-19-09
       followers: 1456
       likes: 64
-      views: 228
+      views: 230
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы
@@ -9672,7 +9672,7 @@
         - 81
         - 82
       published: 2018-10-14
-      updated: 2024-09-03-16-28-55
+      updated: 2024-09-10-17-19-39
       likes: 2
       views: 213
 2018-10-15-near-the-temple:
@@ -9705,7 +9705,7 @@
     - service: tg
       id: 83
       published: 2018-10-15
-      updated: 2024-09-03-16-28-54
+      updated: 2024-09-10-17-19-38
       likes: 1
       views: 226
 2018-10-16-mournhold-temple:
@@ -9739,7 +9739,7 @@
     - service: tg
       id: 84
       published: 2018-10-16
-      updated: 2024-09-03-16-28-53
+      updated: 2024-09-10-17-19-38
       likes: 1
       views: 227
 2018-10-18-gang:
@@ -9776,7 +9776,7 @@
     - service: tg
       id: 85
       published: 2018-10-18
-      updated: 2024-09-03-16-28-53
+      updated: 2024-09-10-17-19-37
       likes: 2
       views: 220
 2018-10-19-ghostgate:
@@ -9812,7 +9812,7 @@
     - service: tg
       id: 86
       published: 2018-10-19
-      updated: 2024-09-03-16-28-52
+      updated: 2024-09-10-17-19-36
       likes: 1
       views: 224
 2018-10-20-the-mead-hall:
@@ -9843,7 +9843,7 @@
     - service: tg
       id: 87
       published: 2018-10-20
-      updated: 2024-09-03-16-28-51
+      updated: 2024-09-10-17-19-36
       likes: 2
       views: 231
 2018-10-21-bervaso-thenim-apothecary:
@@ -9872,7 +9872,7 @@
     - service: tg
       id: 88
       published: 2018-10-21
-      updated: 2024-09-03-16-28-50
+      updated: 2024-09-10-17-19-35
       likes: 2
       views: 229
 2018-10-21-trees-and-skies:
@@ -9917,7 +9917,7 @@
         - 92
         - 93
       published: 2018-10-21
-      updated: 2024-09-03-16-28-51
+      updated: 2024-09-10-17-19-35
       likes: 3
       views: 232
 2018-10-22-snowbound-airship:
@@ -9953,7 +9953,7 @@
     - service: tg
       id: 94
       published: 2018-10-22
-      updated: 2024-09-03-16-28-49
+      updated: 2024-09-10-17-19-34
       likes: 2
       views: 237
 2018-10-23-noble-assassin:
@@ -9982,7 +9982,7 @@
     - service: tg
       id: 95
       published: 2018-10-23
-      updated: 2024-09-03-16-28-49
+      updated: 2024-09-10-17-19-33
       likes: 3
       views: 240
 2018-10-24-snowfall-over-the-ice-river:
@@ -10021,7 +10021,7 @@
     - service: tg
       id: 96
       published: 2018-10-24
-      updated: 2024-09-03-16-28-48
+      updated: 2024-09-10-17-19-33
       likes: 2
       views: 244
 2018-10-25-night-quay-of-tel-mora:
@@ -10057,7 +10057,7 @@
     - service: tg
       id: 97
       published: 2018-10-25
-      updated: 2024-09-03-16-28-48
+      updated: 2024-09-10-17-19-32
       likes: 2
       views: 252
 2018-10-26-tel-fyr:
@@ -10087,7 +10087,7 @@
     - service: tg
       id: 98
       published: 2018-10-26
-      updated: 2024-09-03-16-28-47
+      updated: 2024-09-10-17-19-31
       likes: 2
       views: 261
 2018-10-27-house-of-desires:
@@ -10121,9 +10121,9 @@
     - service: tg
       id: 99
       published: 2018-10-27
-      updated: 2024-09-03-16-28-47
+      updated: 2024-09-10-17-19-31
       likes: 2
-      views: 277
+      views: 278
 2018-10-28-azura:
   title: Azura
   titleRu: Азура
@@ -10159,7 +10159,7 @@
         - 103
         - 104
       published: 2018-10-28
-      updated: 2024-09-03-16-28-46
+      updated: 2024-09-10-17-19-30
       likes: 4
       views: 265
 2018-10-29-bread-and-wine:
@@ -10194,7 +10194,7 @@
     - service: tg
       id: 105
       published: 2018-10-29
-      updated: 2024-09-03-16-28-45
+      updated: 2024-09-10-17-19-29
       likes: 2
       views: 269
 2018-10-30-stairway-to-god:
@@ -10239,7 +10239,7 @@
     - service: tg
       id: 106
       published: 2018-10-30
-      updated: 2024-09-03-16-28-45
+      updated: 2024-09-10-17-19-29
       likes: 2
       views: 277
 2018-10-31-creeper-and-dagger:
@@ -10294,7 +10294,7 @@
     - service: tg
       id: 107
       published: 2018-10-31
-      updated: 2024-09-03-16-28-44
+      updated: 2024-09-10-17-19-28
       likes: 2
       views: 277
 2018-11-01-mudcrab-merchant-of-mzahnch:
@@ -10341,7 +10341,7 @@
     - service: tg
       id: 108
       published: 2018-11-01
-      updated: 2024-09-03-16-28-43
+      updated: 2024-09-10-17-19-28
       likes: 2
       views: 277
 2018-11-02-near-the-yurt:
@@ -10370,7 +10370,7 @@
     - service: tg
       id: 109
       published: 2018-11-02
-      updated: 2024-09-03-16-28-42
+      updated: 2024-09-10-17-19-27
       likes: 2
       views: 279
 2018-11-04-dwemer-bay:
@@ -10399,7 +10399,7 @@
     - service: tg
       id: 110
       published: 2018-11-04
-      updated: 2024-09-03-16-28-42
+      updated: 2024-09-10-17-19-26
       likes: 2
       views: 282
 2018-11-05-3-1:
@@ -10439,7 +10439,7 @@
     - service: tg
       id: 111
       published: 2018-11-05
-      updated: 2024-09-03-16-28-41
+      updated: 2024-09-10-17-19-26
       likes: 2
       views: 294
 2018-11-06-some-like-it-hot:
@@ -10478,7 +10478,7 @@
     - service: tg
       id: 112
       published: 2018-11-06
-      updated: 2024-09-03-16-28-40
+      updated: 2024-09-10-17-19-25
       likes: 2
       views: 297
 2018-11-07-onnissiralis:
@@ -10507,7 +10507,7 @@
     - service: tg
       id: 113
       published: 2018-11-07
-      updated: 2024-09-03-16-28-39
+      updated: 2024-09-10-17-19-25
       likes: 3
       views: 305
 2018-11-08-bittercup:
@@ -10540,7 +10540,7 @@
     - service: tg
       id: 114
       published: 2018-11-08
-      updated: 2024-09-03-16-28-39
+      updated: 2024-09-10-17-19-24
       likes: 2
       views: 307
 2018-11-09-dusk-in-the-skaal-village:
@@ -10580,7 +10580,7 @@
     - service: tg
       id: 115
       published: 2018-11-09
-      updated: 2024-09-03-16-28-38
+      updated: 2024-09-10-17-19-23
       likes: 2
       views: 333
 2018-11-11-through-the-snowy-forest:
@@ -10618,7 +10618,7 @@
     - service: tg
       id: 116
       published: 2018-11-11
-      updated: 2024-09-03-16-28-37
+      updated: 2024-09-10-17-19-23
       likes: 3
       views: 325
 2018-11-13-couple-in-love:
@@ -10649,7 +10649,7 @@
     - service: tg
       id: 117
       published: 2018-11-13
-      updated: 2024-09-03-16-28-37
+      updated: 2024-09-10-17-19-22
       likes: 2
       views: 321
 2018-11-14-sad-reed:
@@ -10678,7 +10678,7 @@
     - service: tg
       id: 118
       published: 2018-11-14
-      updated: 2024-09-03-16-28-36
+      updated: 2024-09-10-17-19-21
       likes: 2
       views: 326
 2018-11-15-mushroom-tree:
@@ -10708,7 +10708,7 @@
     - service: tg
       id: 119
       published: 2018-11-15
-      updated: 2024-09-03-16-28-35
+      updated: 2024-09-10-17-19-21
       likes: 3
       views: 342
 2018-11-16-ship-goods:
@@ -10742,7 +10742,7 @@
     - service: tg
       id: 120
       published: 2018-11-16
-      updated: 2024-09-03-16-28-35
+      updated: 2024-09-10-17-19-20
       likes: 2
       views: 335
 2018-11-17-night-coast:
@@ -10774,7 +10774,7 @@
     - service: tg
       id: 121
       published: 2018-11-17
-      updated: 2024-09-03-16-28-34
+      updated: 2024-09-10-17-19-19
       likes: 5
       views: 362
 2018-11-18-horror-of-the-red-corridor:
@@ -10804,7 +10804,7 @@
     - service: tg
       id: 122
       published: 2018-11-18
-      updated: 2024-09-03-16-28-34
+      updated: 2024-09-10-17-19-19
       likes: 3
       views: 362
 2018-11-19-the-city-of-gondolas:
@@ -10841,7 +10841,7 @@
     - service: tg
       id: 123
       published: 2018-11-19
-      updated: 2024-09-03-16-28-33
+      updated: 2024-09-10-17-19-18
       likes: 4
       views: 458
 2018-11-20-evening-arch:
@@ -10884,7 +10884,7 @@
     - service: tg
       id: 124
       published: 2018-11-20
-      updated: 2024-09-03-16-28-33
+      updated: 2024-09-10-17-19-17
       likes: 3
       views: 361
 2018-11-21-the-entrance-to-bthungthumz:
@@ -10924,7 +10924,7 @@
     - service: tg
       id: 125
       published: 2018-11-21
-      updated: 2024-09-03-16-28-32
+      updated: 2024-09-10-17-19-17
       likes: 3
       views: 371
 2018-11-22-three-trees-by-the-road:
@@ -10959,7 +10959,7 @@
     - service: tg
       id: 126
       published: 2018-11-22
-      updated: 2024-09-03-16-28-32
+      updated: 2024-09-10-17-19-16
       likes: 3
       views: 375
 2018-11-23-flooded-door:
@@ -10998,7 +10998,7 @@
     - service: tg
       id: 127
       published: 2018-11-23
-      updated: 2024-09-03-16-28-31
+      updated: 2024-09-10-17-19-16
       likes: 3
       views: 374
 2018-11-24-ministry-of-truth:
@@ -11035,7 +11035,7 @@
     - service: tg
       id: 128
       published: 2018-11-24
-      updated: 2024-09-03-16-28-30
+      updated: 2024-09-10-17-19-15
       likes: 4
       views: 384
 2018-11-26-overnight-in-a-yurt:
@@ -11068,7 +11068,7 @@
     - service: tg
       id: 129
       published: 2018-11-26
-      updated: 2024-09-03-16-28-30
+      updated: 2024-09-10-17-19-14
       likes: 3
       views: 393
 2018-11-28-landing:
@@ -11101,7 +11101,7 @@
     - service: tg
       id: 130
       published: 2018-11-28
-      updated: 2024-09-03-16-28-29
+      updated: 2024-09-10-17-19-13
       likes: 4
       views: 417
 2018-11-29-shore-meeting:
@@ -11139,7 +11139,7 @@
     - service: tg
       id: 131
       published: 2018-11-29
-      updated: 2024-09-03-16-28-29
+      updated: 2024-09-10-17-19-13
       likes: 2
       views: 416
 2018-11-30-gathal-llethri:
@@ -11175,7 +11175,7 @@
     - service: tg
       id: 132
       published: 2018-11-30
-      updated: 2024-09-03-16-28-28
+      updated: 2024-09-10-17-19-12
       likes: 2
       views: 442
 2018-12-02-three-imperial-dragons:
@@ -11206,7 +11206,7 @@
     - service: tg
       id: 133
       published: 2018-12-02
-      updated: 2024-09-03-16-28-28
+      updated: 2024-09-10-17-19-12
       likes: 2
       views: 429
 2018-12-04-rocks-and-fir-trees:
@@ -11238,7 +11238,7 @@
     - service: tg
       id: 134
       published: 2018-12-04
-      updated: 2024-09-03-16-28-27
+      updated: 2024-09-10-17-19-11
       likes: 2
       views: 514
 2018-12-05-belowdecks:
@@ -11284,6 +11284,6 @@
     - service: tg
       id: 135
       published: 2018-12-05
-      updated: 2024-09-03-16-28-27
+      updated: 2024-09-10-17-19-10
       likes: 2
       views: 476
