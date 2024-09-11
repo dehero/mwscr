@@ -4,7 +4,39 @@
 
 # Posted in 2024
 
-`197 items`
+`198 items`
+
+## <span id="2024-09-11-ald-ruhn-under-skar">Ald&#39;ruhn, Under-Skar</span>
+
+`RU` Альд&#39;рун, под Скаром
+
+<a href="https://instagram.com/p/BNCoHm0l691/" title="2016-11-20-4-aldruhn-under-skar"><img alt="store:/shots/2016-11-20-4-aldruhn-under-skar.png" src="../../assets/previews/shots/2016-11-20-4-aldruhn-under-skar.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Ald-ruhn, Manor District` `🚀 OpenMW`
+
+```
+2024-09-11-ald-ruhn-under-skar
+```
+
+> `2016-11-20-4-aldruhn-under-skar`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BNCoHm0l691/)       | 2016-11-20 |       |    17 |         1 |     17 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_6)    | 2017-01-22 |    53 |     3 |           |        |
+| [`ig`](https://instagram.com/p/C_yYGnMNlpF/)       | 2024-09-11 |       |       |      1456 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1750) | 2024-09-11 |       |       |       945 |        |
+| [`tg`](https://t.me/mwscr/529)                     | 2024-09-11 |       |       |       555 |        |
+|                                                    |            |       |       |      2956 |        |
+
+#### Comments
+
+- `ig` <ins title="2016-11-21-15-37-04">digitalboyare</ins> Тут бы широкоугольным объективом снять, на всем варденфелле как, есть такие? Или всё пеплом уже засыпало
+- `ig` <ins title="2016-11-21-15-46-20">mwscr</ins> @imctlst Пока Нереварин ходит с полароидом. Но обязательно поищет широкоугольник при ближайшем посещении материка.
 
 ## <span id="2024-09-10-goblin-bruiser">Goblin Bruiser</span>
 
@@ -28,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BeUXMdKDcLf/)       | 2018-01-24 |       |    87 |       280 |  31.07 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_588)  | 2018-01-24 |   206 |     9 |       123 |   7.32 |
-| [`ig`](https://instagram.com/p/C_wT6CuOlov/)       | 2024-09-10 |   310 |    79 |      1457 |   5.42 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1747) | 2024-09-10 |   176 |    21 |       945 |   2.22 |
-| [`tg`](https://t.me/mwscr/528)                     | 2024-09-10 |   171 |    40 |       554 |   7.22 |
-|                                                    |            |   657 |   140 |      2956 |  10.65 |
+| [`ig`](https://instagram.com/p/C_wT6CuOlov/)       | 2024-09-10 |   323 |    80 |      1457 |   5.49 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1747) | 2024-09-10 |   181 |    23 |       945 |   2.43 |
+| [`tg`](https://t.me/mwscr/528)                     | 2024-09-10 |   173 |    40 |       554 |   7.22 |
+|                                                    |            |   677 |   143 |      2956 |  10.71 |
 
 #### Comments
 
@@ -61,9 +93,9 @@
 | [`ig`](https://instagram.com/p/BjaZ3NBF9Dz/)       | 2018-05-30 |       |   113 |       336 |  33.63 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_749)  | 2018-05-30 |   271 |    21 |       167 |  12.57 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1745) | 2024-09-09 |   165 |    30 |       945 |   3.17 |
-| [`tg`](https://t.me/mwscr/527)                     | 2024-09-09 |   235 |    54 |       552 |   9.78 |
-| [`ig`](https://instagram.com/p/C_u6_wnNRdH/)       | 2024-09-10 |   296 |    74 |      1457 |   5.08 |
-|                                                    |            |   696 |   158 |      2954 |  12.85 |
+| [`tg`](https://t.me/mwscr/527)                     | 2024-09-09 |   236 |    54 |       552 |   9.78 |
+| [`ig`](https://instagram.com/p/C_u6_wnNRdH/)       | 2024-09-10 |   300 |    75 |      1457 |   5.15 |
+|                                                    |            |   701 |   159 |      2954 |  12.86 |
 
 #### Comments
 
@@ -95,10 +127,10 @@
 | [`ig`](https://instagram.com/p/Bnbwck7lAwT/)       | 2018-09-07 |       |   131 |       413 |  31.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_909)  | 2018-09-07 |   347 |    23 |       226 |  10.18 |
 | [`tg`](https://t.me/mwscr/13)                      | 2018-09-07 |   211 |     2 |           |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1743) | 2024-09-08 |   428 |    48 |       944 |    5.3 |
-| [`tg`](https://t.me/mwscr/526)                     | 2024-09-08 |   253 |    59 |       554 |  10.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1743) | 2024-09-08 |   486 |    51 |       944 |   5.61 |
+| [`tg`](https://t.me/mwscr/526)                     | 2024-09-08 |   288 |    60 |       554 |  10.83 |
 | [`ig`](https://instagram.com/p/C_t_VnJxftA/)       | 2024-09-10 |   413 |    91 |      1457 |   6.25 |
-|                                                    |            |  1094 |   198 |      2955 |  12.82 |
+|                                                    |            |  1187 |   202 |      2955 |  12.92 |
 
 #### Comments
 
