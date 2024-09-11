@@ -535,7 +535,7 @@
     - service: vk
       id: 1497
       published: 2024-04-16-18-16-52
-      updated: 2024-09-04-06-30-31
+      updated: 2024-09-11-06-30-49
       followers: 910
       likes: 33
       views: 274
@@ -543,10 +543,10 @@
     - service: tg
       id: 380
       published: 2024-04-16-18-16-59
-      updated: 2024-09-04-06-30-31
+      updated: 2024-09-11-06-30-49
       followers: 353
       likes: 59
-      views: 440
+      views: 441
       comments: !c |-
         iymAkZTLQnjuiXXlAACqYWxleF9lbXNvd7pJIGp1c3QgaGF0ZSB0aGlzIHBsYWNl8J+YhZPLQnju
         iwdDAACpR2F0ZW1hdGU3rnRoaXMgaXMgYSBtb2Q/Aw==
@@ -666,10 +666,10 @@
       id: C_sBQlKssUQ
       mediaId: '18092210938479247'
       published: 2024-09-09-07-20-58
-      updated: 2024-09-11-05-22-27
+      updated: 2024-09-11-06-30-50
       followers: 1456
       likes: 92
-      views: 291
+      views: 292
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
@@ -776,17 +776,17 @@
       id: C_wT6CuOlov
       mediaId: '18045836356788338'
       published: 2024-09-10-23-20-52
-      updated: 2024-09-11-05-22-22
+      updated: 2024-09-11-06-30-46
       followers: 1457
-      likes: 40
-      views: 129
+      likes: 46
+      views: 156
     - service: vk
       id: 1747
       published: 2024-09-10-23-20-58
-      updated: 2024-09-11-05-22-21
+      updated: 2024-09-11-06-30-46
       followers: 945
-      likes: 10
-      views: 75
+      likes: 13
+      views: 97
       comments: !c |-
         G/4AWJwHtvOUwOL5VzcQDEQF3UgP6NXjyEowwmQWsjlrzYTVezIejvaTSrupm0/y52u1NJPsqWlz
         iCUYwYPkdRgZTlpoxmmCAWks3YPRZCQDHGzA8QzbqNEI++PP+6cN/P6nXd/VlEykDBPrH+9cMdy9
@@ -795,10 +795,10 @@
     - service: tg
       id: 528
       published: 2024-09-10-23-21-05
-      updated: 2024-09-11-05-22-21
+      updated: 2024-09-11-06-30-47
       followers: 554
-      likes: 25
-      views: 105
+      likes: 31
+      views: 128
 2018-01-24-in-the-misty-emptiness:
   title: In the Misty Emptiness
   titleRu: В туманной пустоте
@@ -5009,25 +5009,25 @@
     - service: vk
       id: 1745
       published: 2024-09-09-18-29-21
-      updated: 2024-09-11-05-22-22
+      updated: 2024-09-11-06-30-48
       followers: 945
       likes: 30
-      views: 157
+      views: 158
     - service: tg
       id: 527
       published: 2024-09-09-18-29-28
-      updated: 2024-09-11-05-22-22
+      updated: 2024-09-11-06-30-48
       followers: 552
-      likes: 50
-      views: 217
+      likes: 53
+      views: 224
     - service: ig
       id: C_u6_wnNRdH
       mediaId: '18344943052192432'
       published: 2024-09-10-10-23-56
-      updated: 2024-09-11-05-22-23
+      updated: 2024-09-11-06-30-47
       followers: 1457
       likes: 69
-      views: 270
+      views: 273
 2018-05-31-clandestine-lab:
   title: Clandestine Lab
   titleRu: Подпольная лаборатория
@@ -8252,9 +8252,9 @@
       id: C_t_VnJxftA
       mediaId: '18019278437441496'
       published: 2024-09-10-01-42-39
-      updated: 2024-09-11-05-22-24
+      updated: 2024-09-11-06-30-47
       followers: 1457
-      likes: 86
+      likes: 87
       views: 398
 2018-09-08-mother-daedra:
   title: Mother Daedra
@@ -9650,10 +9650,10 @@
       id: C_s4h4kvWJC
       mediaId: '17969542835645642'
       published: 2024-09-09-15-23-55
-      updated: 2024-09-11-05-22-25
+      updated: 2024-09-11-06-30-48
       followers: 1456
       likes: 67
-      views: 241
+      views: 242
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы
