@@ -28,10 +28,14 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BeUXMdKDcLf/)       | 2018-01-24 |       |    87 |       280 |  31.07 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_588)  | 2018-01-24 |   206 |     9 |       123 |   7.32 |
-| [`ig`](https://instagram.com/p/C_wT6CuOlov/)       | 2024-09-10 |       |       |      1457 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1747) | 2024-09-10 |       |       |       945 |        |
-| [`tg`](https://t.me/mwscr/528)                     | 2024-09-10 |       |       |       554 |        |
-|                                                    |            |       |       |      2956 |  19.19 |
+| [`ig`](https://instagram.com/p/C_wT6CuOlov/)       | 2024-09-10 |    71 |    20 |      1457 |   1.37 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1747) | 2024-09-10 |    27 |     4 |       945 |   0.42 |
+| [`tg`](https://t.me/mwscr/528)                     | 2024-09-10 |    50 |    11 |       554 |   1.99 |
+|                                                    |            |   148 |    35 |      2956 |   8.43 |
+
+#### Comments
+
+- `vk` <ins title="2024-09-11-00-15-03">id810900694</ins> Я помню у них были такие кривые анимации, когда после смерти они мгновенно втыкались в пол.
 
 ## <span id="2024-09-09-near-six-fishes">Near &quot;Six Fishes&quot;</span>
 
@@ -55,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BjaZ3NBF9Dz/)       | 2018-05-30 |       |   113 |       336 |  33.63 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_749)  | 2018-05-30 |   271 |    21 |       167 |  12.57 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1745) | 2024-09-09 |   152 |    29 |       945 |   3.07 |
-| [`tg`](https://t.me/mwscr/527)                     | 2024-09-09 |   185 |    49 |       552 |   8.88 |
-| [`ig`](https://instagram.com/p/C_u6_wnNRdH/)       | 2024-09-10 |   260 |    65 |      1457 |   4.46 |
-|                                                    |            |   597 |   143 |      2954 |  12.52 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1745) | 2024-09-09 |   155 |    30 |       945 |   3.17 |
+| [`tg`](https://t.me/mwscr/527)                     | 2024-09-09 |   200 |    49 |       552 |   8.88 |
+| [`ig`](https://instagram.com/p/C_u6_wnNRdH/)       | 2024-09-10 |   265 |    66 |      1457 |   4.53 |
+|                                                    |            |   620 |   145 |      2954 |  12.56 |
 
 #### Comments
 
@@ -66,8 +70,6 @@
 - `ig` <ins title="2018-05-30-19-15-10">verian21</ins> It&#39;s in Ebonheart, right?
   - <ins title="2018-05-30-19-21-26">mwscr</ins> Right
 - `ig` <ins title="2018-05-30-21-18-22">octo__puss</ins> I knew it was Ebonheart before I read the text 😺
-- `tg` <ins title="2024-09-10-23-09-37">deleted</ins> Participate and farm as much money as you can because they are listing soon https://t.me/lost_dogs_bot/lodoapp?startapp=ref-u_658852870
-  - <ins title="2024-09-10-23-10-28">Gatemate7</ins> @admin @mods
 
 ## <span id="2024-09-08-red-light">Red Light</span>
 
@@ -94,8 +96,8 @@
 | [`tg`](https://t.me/mwscr/13)                      | 2018-09-07 |   211 |     2 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1743) | 2024-09-08 |   428 |    48 |       944 |    5.3 |
 | [`tg`](https://t.me/mwscr/526)                     | 2024-09-08 |   253 |    59 |       554 |  10.65 |
-| [`ig`](https://instagram.com/p/C_t_VnJxftA/)       | 2024-09-10 |   371 |    82 |      1457 |   5.63 |
-|                                                    |            |  1052 |   189 |      2955 |  12.69 |
+| [`ig`](https://instagram.com/p/C_t_VnJxftA/)       | 2024-09-10 |   388 |    85 |      1457 |   5.83 |
+|                                                    |            |  1069 |   192 |      2955 |  12.74 |
 
 #### Comments
 
@@ -127,8 +129,8 @@
 | [`tg`](https://t.me/mwscr/77)                      | 2018-10-13 |   214 |     3 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1742) | 2024-09-07 |   197 |    31 |       943 |   3.29 |
 | [`tg`](https://t.me/mwscr/525)                     | 2024-09-07 |   234 |    55 |       552 |   9.96 |
-| [`ig`](https://instagram.com/p/C_s4h4kvWJC/)       | 2024-09-09 |   236 |    66 |      1456 |   4.53 |
-|                                                    |            |   667 |   152 |      2951 |  10.74 |
+| [`ig`](https://instagram.com/p/C_s4h4kvWJC/)       | 2024-09-09 |   237 |    67 |      1456 |    4.6 |
+|                                                    |            |   668 |   153 |      2951 |  10.75 |
 
 ## <span id="2024-09-06-island-of-cliffracer">Island of Cliffracer</span>
 
@@ -1150,9 +1152,9 @@
 | [`ig`](https://instagram.com/p/BevuGotDVRo/)       | 2018-02-03 |       |    77 |       282 |   27.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_600)  | 2018-02-03 |   194 |    12 |       127 |   9.45 |
 | [`ig`](https://instagram.com/p/C-VpvfoNu-W/)       | 2024-08-06 |   448 |    77 |      1435 |   5.37 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1669) | 2024-08-06 |   253 |    27 |       926 |   3.02 |
-| [`tg`](https://t.me/mwscr/492)                     | 2024-08-06 |   542 |    69 |       502 |  13.75 |
-|                                                    |            |  1243 |   173 |      2863 |  11.78 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1669) | 2024-08-06 |   257 |    27 |       926 |   3.02 |
+| [`tg`](https://t.me/mwscr/492)                     | 2024-08-06 |   561 |    69 |       502 |  13.75 |
+|                                                    |            |  1266 |   173 |      2863 |  11.78 |
 
 ## <span id="2024-08-05-in-the-evening-canals-of-vivec">In the Evening Canals of Vivec</span>
 
@@ -1590,9 +1592,9 @@
 | [`ig`](https://instagram.com/p/BN5ti6llKES/)       | 2016-12-12 |       |    22 |        29 |     22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_29)   | 2017-01-22 |    63 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/C9xmndhv1oc/)       | 2024-07-23 |   265 |    94 |      1426 |   6.59 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1653) | 2024-07-23 |   278 |    40 |       921 |   4.56 |
-| [`tg`](https://t.me/mwscr/478)                     | 2024-07-23 |   517 |    61 |       400 |  15.25 |
-|                                                    |            |  1060 |   195 |      2747 |  10.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1653) | 2024-07-23 |   282 |    40 |       921 |   4.56 |
+| [`tg`](https://t.me/mwscr/478)                     | 2024-07-23 |   528 |    61 |       400 |  15.25 |
+|                                                    |            |  1075 |   195 |      2747 |  10.08 |
 
 #### Comments
 
@@ -1818,9 +1820,9 @@
 | [`ig`](https://instagram.com/p/BT0zP5AjPDU/)       | 2017-05-08 |       |    69 |       178 |  38.76 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_283)  | 2017-05-08 |   123 |     7 |        55 |  12.73 |
 | [`ig`](https://instagram.com/p/C9flCaxPoS8/)       | 2024-07-16 |   457 |    86 |      1427 |   6.03 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1639) | 2024-07-16 |   241 |    27 |       919 |   3.05 |
-| [`tg`](https://t.me/mwscr/471)                     | 2024-07-16 |   515 |    53 |       400 |  13.25 |
-|                                                    |            |  1213 |   166 |      2746 |  14.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1639) | 2024-07-16 |   245 |    27 |       919 |   3.05 |
+| [`tg`](https://t.me/mwscr/471)                     | 2024-07-16 |   521 |    53 |       400 |  13.25 |
+|                                                    |            |  1223 |   166 |      2746 |  14.76 |
 
 #### Comments
 
@@ -2032,10 +2034,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bim1govnP18/)       | 2018-05-10 |       |    89 |       328 |  27.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_716)  | 2018-05-10 |   264 |    20 |       160 |   12.5 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1628) | 2024-07-09 |   239 |    35 |       920 |    3.8 |
-| [`tg`](https://t.me/mwscr/464)                     | 2024-07-09 |   438 |    68 |       396 |  17.17 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1628) | 2024-07-09 |   242 |    35 |       920 |    3.8 |
+| [`tg`](https://t.me/mwscr/464)                     | 2024-07-09 |   443 |    68 |       396 |  17.17 |
 | [`ig`](https://instagram.com/p/C9VfE-NtTXs/)       | 2024-07-12 |   274 |    69 |      1427 |   4.84 |
-|                                                    |            |   951 |   172 |      2743 |  13.09 |
+|                                                    |            |   959 |   172 |      2743 |  13.09 |
 
 ## <span id="2024-07-08-sneaking-scamp-at-bitter-coast">Sneaking Scamp at Bitter Coast</span>
 
@@ -2250,9 +2252,9 @@
 | [`ig`](https://instagram.com/p/Bj0GPQElSQl/)       | 2018-06-09 |       |    99 |       341 |  29.03 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_761)  | 2018-06-09 |   256 |    23 |       173 |  13.29 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1611) | 2024-07-02 |   300 |    41 |       918 |   4.58 |
-| [`tg`](https://t.me/mwscr/457)                     | 2024-07-02 |   412 |    58 |       391 |  14.83 |
+| [`tg`](https://t.me/mwscr/457)                     | 2024-07-02 |   416 |    58 |       391 |  14.83 |
 | [`ig`](https://instagram.com/p/C9O19DjtjrY/)       | 2024-07-10 |   464 |    94 |      1423 |   6.61 |
-|                                                    |            |  1176 |   193 |      2732 |  13.67 |
+|                                                    |            |  1180 |   193 |      2732 |  13.67 |
 
 #### Comments
 
