@@ -424,18 +424,18 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2024-09-05-22-20-13
+      updated: 2024-09-12-22-21-52
       followers: 921
       likes: 44
-      views: 280
+      views: 284
       reposts: 2
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2024-09-05-22-20-12
+      updated: 2024-09-12-22-21-50
       followers: 399
       likes: 70
-      views: 608
+      views: 617
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -776,14 +776,14 @@
       id: C_wT6CuOlov
       mediaId: '18045836356788338'
       published: 2024-09-10-23-20-52
-      updated: 2024-09-12-21-20-15
+      updated: 2024-09-12-22-21-49
       followers: 1457
       likes: 93
       views: 395
     - service: vk
       id: 1747
       published: 2024-09-10-23-20-58
-      updated: 2024-09-12-21-20-16
+      updated: 2024-09-12-22-21-49
       followers: 945
       likes: 24
       views: 214
@@ -795,10 +795,10 @@
     - service: tg
       id: 528
       published: 2024-09-10-23-21-05
-      updated: 2024-09-12-21-20-15
+      updated: 2024-09-12-22-21-49
       followers: 554
       likes: 45
-      views: 237
+      views: 240
 2018-01-24-in-the-misty-emptiness:
   title: In the Misty Emptiness
   titleRu: В туманной пустоте
@@ -9304,27 +9304,27 @@
       id: C-s02fCI7m7
       mediaId: '18197312713292587'
       published: 2024-08-15-18-20-29
-      updated: 2024-09-05-22-20-12
+      updated: 2024-09-12-22-21-50
       followers: 1439
-      likes: 95
-      views: 418
+      likes: 96
+      views: 424
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2024-09-05-22-20-12
+      updated: 2024-09-12-22-21-51
       followers: 932
       likes: 36
-      views: 264
+      views: 271
       comments: !c |-
         iyeAkZTLQnkVdl1GgACyeW91cmVuZW1pZXN3aWxscGF5u9Ci0LDQvCDQutC70LDQvSDQkdC10YDQ
         vdC1P5PLQnkVy9vAAACmcDQwamxhpNC00LAD
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2024-09-05-22-20-12
+      updated: 2024-09-12-22-21-49
       followers: 527
       likes: 59
-      views: 535
+      views: 565
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
