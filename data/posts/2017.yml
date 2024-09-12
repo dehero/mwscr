@@ -403,6 +403,19 @@
       likes: 5
       views: 129
       reposts: 1
+    - service: ig
+      id: C_08UV1TwXj
+      mediaId: '17862134871229280'
+      published: 2024-09-12-18-30-57
+      followers: 1456
+    - service: vk
+      id: 1753
+      published: 2024-09-12-18-31-04
+      followers: 945
+    - service: tg
+      id: 530
+      published: 2024-09-12-18-31-10
+      followers: 555
 2017-01-15-mages-guild-reception:
   title: Mages Guild Reception
   titleRu: Приёмная Гильдии Магов
@@ -7368,10 +7381,10 @@
       id: C_WCUPgv_cL
       mediaId: '17874398826151059'
       published: 2024-08-31-18-26-54
-      updated: 2024-09-05-18-28-18
+      updated: 2024-09-12-18-30-44
       followers: 1455
-      likes: 90
-      views: 426
+      likes: 91
+      views: 444
     - service: vk
       id: 1729
       published: 2024-08-31-18-27-02

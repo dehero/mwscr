@@ -776,14 +776,14 @@
       id: C_wT6CuOlov
       mediaId: '18045836356788338'
       published: 2024-09-10-23-20-52
-      updated: 2024-09-12-17-19-42
+      updated: 2024-09-12-18-30-43
       followers: 1457
-      likes: 91
-      views: 391
+      likes: 92
+      views: 392
     - service: vk
       id: 1747
       published: 2024-09-10-23-20-58
-      updated: 2024-09-12-17-19-42
+      updated: 2024-09-12-18-30-43
       followers: 945
       likes: 24
       views: 212
@@ -795,10 +795,10 @@
     - service: tg
       id: 528
       published: 2024-09-10-23-21-05
-      updated: 2024-09-12-17-19-43
+      updated: 2024-09-12-18-30-42
       followers: 554
       likes: 43
-      views: 220
+      views: 221
 2018-01-24-in-the-misty-emptiness:
   title: In the Misty Emptiness
   titleRu: В туманной пустоте
@@ -5009,17 +5009,18 @@
     - service: vk
       id: 1745
       published: 2024-09-09-18-29-21
-      updated: 2024-09-11-18-29-22
+      updated: 2024-09-12-18-30-44
       followers: 945
-      likes: 30
-      views: 165
+      likes: 34
+      views: 189
+      comments: !c ixKAkZPLQnkeZvG9gACraWQyMDMyODMxNDiu0JrRgNCw0YHQuNCy0L4D
     - service: tg
       id: 527
       published: 2024-09-09-18-29-28
-      updated: 2024-09-11-18-29-21
+      updated: 2024-09-12-18-30-43
       followers: 552
-      likes: 54
-      views: 236
+      likes: 56
+      views: 259
     - service: ig
       id: C_u6_wnNRdH
       mediaId: '18344943052192432'
@@ -8233,10 +8234,10 @@
     - service: vk
       id: 1743
       published: 2024-09-08-18-28-17
-      updated: 2024-09-11-18-29-23
+      updated: 2024-09-12-18-30-45
       followers: 944
-      likes: 51
-      views: 486
+      likes: 53
+      views: 503
       reposts: 2
       comments: !c |-
         G40AKByJcSzKgsFXQvCPt+QsFRM0ItlskrGZEqXmyvvxPIfPeZI8siw73vLc4DhgSTDiAkww05X2
@@ -8244,10 +8245,10 @@
     - service: tg
       id: 526
       published: 2024-09-08-18-28-25
-      updated: 2024-09-11-18-29-22
+      updated: 2024-09-12-18-30-44
       followers: 554
-      likes: 60
-      views: 288
+      likes: 61
+      views: 328
     - service: ig
       id: C_t_VnJxftA
       mediaId: '18019278437441496'
