@@ -44,11 +44,14 @@
 
 ### Reactions
 
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BTVyiFijUKs/)      | 2017-04-26 |       |    80 |       172 |  46.51 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_271) | 2017-04-26 |   175 |    13 |        54 |  24.07 |
-|                                                   |            |   175 |    93 |       226 |  35.29 |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BTVyiFijUKs/)       | 2017-04-26 |       |    80 |       172 |  46.51 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_271)  | 2017-04-26 |   175 |    13 |        54 |  24.07 |
+| [`ig`](https://instagram.com/p/C_3g9pMSD-w/)       | 2024-09-13 |       |       |      1459 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1754) | 2024-09-13 |       |       |       946 |        |
+| [`tg`](https://t.me/mwscr/531)                     | 2024-09-13 |       |       |       556 |        |
+|                                                    |            |   175 |    93 |       226 |  35.29 |
 
 ## <span id="2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz">Dwemer Bridge to Arkngthunch-Sturdumz</span>
 

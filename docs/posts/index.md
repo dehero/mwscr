@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`199 items`
+`200 items`
+
+## <span id="2024-09-13-divine-pentagon">Divine Pentagon</span>
+
+`RU` Божественный пятиугольник
+
+<a href="https://instagram.com/p/BTVyiFijUKs/" title="2017-04-26-divine-pentagon"><img alt="store:/shots/2017-04-26-divine-pentagon.png" src="../../assets/previews/shots/2017-04-26-divine-pentagon.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-09-13-divine-pentagon&postLocation=)</code> `🚀 OpenMW` `vivec` `pentagon` `tribunal`
+
+```
+2024-09-13-divine-pentagon
+```
+
+> `2017-04-26-divine-pentagon`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BTVyiFijUKs/)       | 2017-04-26 |       |    80 |       172 |  46.51 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_271)  | 2017-04-26 |   175 |    13 |        54 |  24.07 |
+| [`ig`](https://instagram.com/p/C_3g9pMSD-w/)       | 2024-09-13 |       |       |      1459 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1754) | 2024-09-13 |       |       |       946 |        |
+| [`tg`](https://t.me/mwscr/531)                     | 2024-09-13 |       |       |       556 |        |
+|                                                    |            |       |       |      2961 |  35.29 |
 
 ## <span id="2024-09-12-statue-of-molag-bal">Statue of Molag Bal</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BPPPFH4l0Rm/)       | 2017-01-14 |       |    37 |        76 |  48.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_62)   | 2017-01-14 |   129 |     5 |         4 |      6 |
-| [`ig`](https://instagram.com/p/C_08UV1TwXj/)       | 2024-09-12 |   277 |    76 |      1456 |   5.22 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1753) | 2024-09-12 |   160 |    28 |       945 |   2.96 |
-| [`tg`](https://t.me/mwscr/530)                     | 2024-09-12 |   173 |    46 |       555 |   8.29 |
-|                                                    |            |   610 |   150 |      2956 |  14.23 |
+| [`ig`](https://instagram.com/p/C_08UV1TwXj/)       | 2024-09-12 |   285 |    77 |      1456 |   5.29 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1753) | 2024-09-12 |   161 |    28 |       945 |   2.96 |
+| [`tg`](https://t.me/mwscr/530)                     | 2024-09-12 |   175 |    47 |       555 |   8.47 |
+|                                                    |            |   621 |   152 |      2956 |  14.28 |
 
 #### Comments
 
@@ -62,8 +89,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_6)    | 2017-01-22 |    53 |     3 |           |        |
 | [`ig`](https://instagram.com/p/C_yYGnMNlpF/)       | 2024-09-11 |   269 |    68 |      1456 |   4.67 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1750) | 2024-09-11 |   296 |    47 |       945 |   5.08 |
-| [`tg`](https://t.me/mwscr/529)                     | 2024-09-11 |   256 |    47 |       555 |   8.47 |
-|                                                    |            |   821 |   162 |      2956 |    8.8 |
+| [`tg`](https://t.me/mwscr/529)                     | 2024-09-11 |   258 |    48 |       555 |   8.65 |
+|                                                    |            |   823 |   163 |      2956 |   8.85 |
 
 #### Comments
 
