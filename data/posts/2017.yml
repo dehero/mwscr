@@ -407,24 +407,24 @@
       id: C_08UV1TwXj
       mediaId: '17862134871229280'
       published: 2024-09-12-18-30-57
-      updated: 2024-09-13-22-21-37
+      updated: 2024-09-13-23-21-18
       followers: 1456
       likes: 77
       views: 295
     - service: vk
       id: 1753
       published: 2024-09-12-18-31-04
-      updated: 2024-09-13-22-21-39
+      updated: 2024-09-13-23-21-19
       followers: 945
-      likes: 29
-      views: 166
+      likes: 30
+      views: 170
     - service: tg
       id: 530
       published: 2024-09-12-18-31-10
-      updated: 2024-09-13-22-21-39
+      updated: 2024-09-13-23-21-18
       followers: 555
       likes: 50
-      views: 193
+      views: 195
       comments: !c |-
         G2sAOIzUWa03lyNU+v/dPKLet8DKxxK83ZwWphNwEgdUuf7DBpwgBJhrtOAhIqWwqvVZ9s8YlcGe
         EXpd3PAUN1zXBzk0AsIamiCst/PwT+jEWR3WvxY2quDAMGdVSCEfqHDB4R4t8qrJwoaDBg==
@@ -3991,28 +3991,31 @@
       id: C_3g9pMSD-w
       mediaId: '18174418510307792'
       published: 2024-09-13-18-29-39
-      updated: 2024-09-13-22-21-37
+      updated: 2024-09-13-23-21-17
       followers: 1459
-      likes: 58
-      views: 204
+      likes: 61
+      views: 221
     - service: vk
       id: 1754
       published: 2024-09-13-18-29-45
-      updated: 2024-09-13-22-21-38
+      updated: 2024-09-13-23-21-17
       followers: 946
-      likes: 22
-      views: 91
+      likes: 24
+      views: 100
       comments: !c |-
-        G+AAIBwJdizkA4tfLBD/j9x4sva0LbUssxbRF/5yLtictIxrQU34PNbbc5Yam803Y0PR/J9mlKQL
-        WWgiaMZpwNR5ginNYEDvFDjHQAzZrGftq/f7q3q8/QD8bmdTQa+jiTnrgPjvNXY9w6UTJAYaQ43m
-        NAL5n4pEc9EInVhipGM0L4ceZhQb1P1ER61Z1EjundhDCgVowoSMYo65cKaoWDJH
+        Gz8CQCwO7IbPG1WXEGdMP+GkEhWymCh5QfEJYCTKoEA4jGxa46pqdM0s/Pu/O2oXShCKIqT7x5jt
+        78kNZLpNa7Rqr1l48RmZEXiERjgspeChbnuME0R8ixcFB+LBG1pRs51mGAgF3WgaBBYMbJgFnCW+
+        m4wD6V4hdRNLj9+JiYiNh/319fN/fH73W8bfc45zucybR9gm33sZl9PJzNNxXUwoDIkGVdebLrNo
+        Lb/Pw31kkAq0rp6RHoWJpi4qd803s/QuR2GRSuBNMYQ3B8NccFJgJeEbIeD/V51+X70mKFA0/+Vh
+        R45WhWyALDGrwD66rUmdvKqHg04u4ElEfZ1wibEFGE+63OeAOQ+Gyi6Tqbi5jWDQQKFGNnmKerwi
+        z4kdB9vOfyMeE54MhlmtyUnVVmM6qoutse0gfLrEOHvNe9HRILKkHal3
     - service: tg
       id: 531
       published: 2024-09-13-18-29-51
-      updated: 2024-09-13-22-21-38
+      updated: 2024-09-13-23-21-17
       followers: 556
       likes: 26
-      views: 110
+      views: 115
 2017-04-27-in-khuul:
   title: In Khuul
   titleRu: В Хууле
