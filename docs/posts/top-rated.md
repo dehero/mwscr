@@ -28,31 +28,6 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_49) | 2017-01-22 |   134 |     7 |         4 |      9 |
 |                                                  |            |   134 |    42 |        58 |  36.91 |
 
-## <span id="2017-04-26-divine-pentagon">Divine Pentagon</span>
-
-`RU` Божественный пятиугольник
-
-<a href="https://instagram.com/p/BTVyiFijUKs/" title="2017-04-26-divine-pentagon"><img alt="store:/shots/2017-04-26-divine-pentagon.png" src="../../assets/previews/shots/2017-04-26-divine-pentagon.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2017-04-26-divine-pentagon&postLocation=)</code> `🚀 OpenMW` `vivec` `pentagon` `tribunal`
-
-```
-2017-04-26-divine-pentagon
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BTVyiFijUKs/)       | 2017-04-26 |       |    80 |       172 |  46.51 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_271)  | 2017-04-26 |   175 |    13 |        54 |  24.07 |
-| [`ig`](https://instagram.com/p/C_3g9pMSD-w/)       | 2024-09-13 |       |       |      1459 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1754) | 2024-09-13 |       |       |       946 |        |
-| [`tg`](https://t.me/mwscr/531)                     | 2024-09-13 |       |       |       556 |        |
-|                                                    |            |   175 |    93 |       226 |  35.29 |
-
 ## <span id="2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz">Dwemer Bridge to Arkngthunch-Sturdumz</span>
 
 `RU` Двемерский мост в Аркнгтунч-Штурдумц
@@ -1289,6 +1264,28 @@
 
 - `ig` <ins title="2018-06-10-19-48-27">defiant_laughter</ins> Divayth Fyr is my favorite mage of all time.
 - `ig` <ins title="2018-06-10-22-50-43">munson_sargassum</ins> Saint Jiub is cool.
+
+## <span id="2017-03-15-view-of-the-night-suran">View of the Night Suran</span>
+
+`RU` Вид на ночной Суран
+
+<a href="https://instagram.com/p/BRpxEcej_Zv/" title="2017-03-15-view-of-the-night-suran"><img alt="store:/shots/2017-03-15-view-of-the-night-suran.png" src="../../assets/previews/shots/2017-03-15-view-of-the-night-suran.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Suran` `🚀 OpenMW` `night`
+
+```
+2017-03-15-view-of-the-night-suran
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BRpxEcej_Zv/)      | 2017-03-15 |       |    48 |       112 |  42.86 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_208) | 2017-03-15 |   134 |    12 |        46 |     12 |
+|                                                   |            |   134 |    60 |       158 |  27.43 |
 
 ---
 
