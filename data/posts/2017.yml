@@ -407,24 +407,24 @@
       id: C_08UV1TwXj
       mediaId: '17862134871229280'
       published: 2024-09-12-18-30-57
-      updated: 2024-09-13-20-22-46
+      updated: 2024-09-13-21-20-40
       followers: 1456
       likes: 77
-      views: 290
+      views: 292
     - service: vk
       id: 1753
       published: 2024-09-12-18-31-04
-      updated: 2024-09-13-20-22-48
+      updated: 2024-09-13-21-20-42
       followers: 945
       likes: 28
       views: 163
     - service: tg
       id: 530
       published: 2024-09-12-18-31-10
-      updated: 2024-09-13-20-22-47
+      updated: 2024-09-13-21-20-41
       followers: 555
       likes: 50
-      views: 192
+      views: 193
       comments: !c |-
         G2sAOIzUWa03lyNU+v/dPKLet8DKxxK83ZwWphNwEgdUuf7DBpwgBJhrtOAhIqWwqvVZ9s8YlcGe
         EXpd3PAUN1zXBzk0AsIamiCst/PwT+jEWR3WvxY2quDAMGdVSCEfqHDB4R4t8qrJwoaDBg==
@@ -3991,24 +3991,28 @@
       id: C_3g9pMSD-w
       mediaId: '18174418510307792'
       published: 2024-09-13-18-29-39
-      updated: 2024-09-13-20-22-46
+      updated: 2024-09-13-21-20-40
       followers: 1459
-      likes: 48
-      views: 140
+      likes: 53
+      views: 180
     - service: vk
       id: 1754
       published: 2024-09-13-18-29-45
-      updated: 2024-09-13-20-22-47
+      updated: 2024-09-13-21-20-41
       followers: 946
-      likes: 18
-      views: 72
+      likes: 21
+      views: 84
+      comments: !c |-
+        G+AAIBwJdizkA4tfLBD/j9x4sva0LbUssxbRF/5yLtictIxrQU34PNbbc5Yam803Y0PR/J9mlKQL
+        WWgiaMZpwNR5ginNYEDvFDjHQAzZrGftq/f7q3q8/QD8bmdTQa+jiTnrgPjvNXY9w6UTJAYaQ43m
+        NAL5n4pEc9EInVhipGM0L4ceZhQb1P1ER61Z1EjundhDCgVowoSMYo65cKaoWDJH
     - service: tg
       id: 531
       published: 2024-09-13-18-29-51
-      updated: 2024-09-13-20-22-47
+      updated: 2024-09-13-21-20-41
       followers: 556
-      likes: 23
-      views: 93
+      likes: 26
+      views: 108
 2017-04-27-in-khuul:
   title: In Khuul
   titleRu: В Хууле
