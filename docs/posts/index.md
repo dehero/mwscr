@@ -29,13 +29,14 @@
 | [`ig`](https://instagram.com/p/BPPPFH4l0Rm/)       | 2017-01-14 |       |    37 |        76 |  48.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_62)   | 2017-01-14 |   129 |     5 |         4 |      6 |
 | [`ig`](https://instagram.com/p/C_08UV1TwXj/)       | 2024-09-12 |   195 |    62 |      1456 |   4.26 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1753) | 2024-09-12 |   104 |    20 |       945 |   2.12 |
-| [`tg`](https://t.me/mwscr/530)                     | 2024-09-12 |   131 |    35 |       555 |   6.31 |
-|                                                    |            |   430 |   117 |      2956 |  13.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1753) | 2024-09-12 |   106 |    21 |       945 |   2.22 |
+| [`tg`](https://t.me/mwscr/530)                     | 2024-09-12 |   133 |    35 |       555 |   6.31 |
+|                                                    |            |   434 |   118 |      2956 |  13.49 |
 
 #### Comments
 
 - `tg` <ins title="2024-09-12-18-34-56">Gatemate7</ins> who tf is this
+  - <ins title="2024-09-13-03-02-03">ansis</ins> it&#39;s the daedric prince of rape doing a fortnite dance
 
 ## <span id="2024-09-11-ald-ruhn-under-skar">Ald&#39;ruhn, Under-Skar</span>
 
@@ -61,8 +62,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_6)    | 2017-01-22 |    53 |     3 |           |        |
 | [`ig`](https://instagram.com/p/C_yYGnMNlpF/)       | 2024-09-11 |   254 |    66 |      1456 |   4.53 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1750) | 2024-09-11 |   270 |    43 |       945 |   4.66 |
-| [`tg`](https://t.me/mwscr/529)                     | 2024-09-11 |   243 |    46 |       555 |   8.29 |
-|                                                    |            |   767 |   155 |      2956 |   8.62 |
+| [`tg`](https://t.me/mwscr/529)                     | 2024-09-11 |   244 |    46 |       555 |   8.29 |
+|                                                    |            |   768 |   155 |      2956 |   8.62 |
 
 #### Comments
 
