@@ -407,17 +407,17 @@
       id: C_08UV1TwXj
       mediaId: '17862134871229280'
       published: 2024-09-12-18-30-57
-      updated: 2024-09-14-04-25-50
+      updated: 2024-09-14-05-21-45
       followers: 1456
       likes: 77
       views: 298
     - service: vk
       id: 1753
       published: 2024-09-12-18-31-04
-      updated: 2024-09-14-04-25-51
+      updated: 2024-09-14-05-21-46
       followers: 945
       likes: 31
-      views: 173
+      views: 174
       comments: !c |-
         G68A+J0HdiwYYWY9Oo+Inq/bEX6QAwopg6BJMMJkH1lQbiuhLjSr8Rw/eOZQdVsJpnJBxFdz2i9H
         ROWYzFlMD7I8cMiBXoQPhM0ja16jgAM7Mxm8n6/uhwPrPSuRmChzetdGQIa0leTjeyOTXLMZQpsC
@@ -425,7 +425,7 @@
     - service: tg
       id: 530
       published: 2024-09-12-18-31-10
-      updated: 2024-09-14-04-25-50
+      updated: 2024-09-14-05-21-45
       followers: 555
       likes: 50
       views: 199
@@ -3995,31 +3995,33 @@
       id: C_3g9pMSD-w
       mediaId: '18174418510307792'
       published: 2024-09-13-18-29-39
-      updated: 2024-09-14-04-25-49
+      updated: 2024-09-14-05-21-44
       followers: 1459
-      likes: 70
-      views: 288
+      likes: 71
+      views: 297
     - service: vk
       id: 1754
       published: 2024-09-13-18-29-45
-      updated: 2024-09-14-04-25-49
+      updated: 2024-09-14-05-21-44
       followers: 946
-      likes: 24
-      views: 123
+      likes: 25
+      views: 130
       comments: !c |-
-        Gz8CQCwO7IbPG1WXEGdMP+GkEhWymCh5QfEJYCTKoEA4jGxa46pqdM0s/Pu/O2oXShCKIqT7x5jt
-        78kNZLpNa7Rqr1l48RmZEXiERjgspeChbnuME0R8ixcFB+LBG1pRs51mGAgF3WgaBBYMbJgFnCW+
-        m4wD6V4hdRNLj9+JiYiNh/319fN/fH73W8bfc45zucybR9gm33sZl9PJzNNxXUwoDIkGVdebLrNo
-        Lb/Pw31kkAq0rp6RHoWJpi4qd803s/QuR2GRSuBNMYQ3B8NccFJgJeEbIeD/V51+X70mKFA0/+Vh
-        R45WhWyALDGrwD66rUmdvKqHg04u4ElEfZ1wibEFGE+63OeAOQ+Gyi6Tqbi5jWDQQKFGNnmKerwi
-        z4kdB9vOfyMeE54MhlmtyUnVVmM6qoutse0gfLrEOHvNe9HRILKkHal3
+        G5ECIKwObPdoGFGGEGt0U1He6zJCkln+n/6e3yc8E3Vnfk8wkpICS7QSK0k4WRv+zckO67EKpRAG
+        BEK9ZQ1J0+bPYSXW3BbjD0RYNaf7O4YDn42VYDdkQ7OuBEvBQ2/4vr6X2rEShTiuWwGgWe40w0Co
+        BU8HSRBIC0oo0SwMn2tR1gJJKcEiotuUnsMQN4hcUPbq8/v/+Pjd79LfS9TQNS27Nch/d2O1PMGG
+        OMfJhoUh0GAVjqGrXNaXH9D/wEUOsiLqd89Ij6KNqk5W3pgLgczlMZCSAneSQ5p5ZJgBJ0UsBXxB
+        3F7/O24/b6+SrZjtZVu3Zy9E9r2GdoANBVXZL55WpU5eK4DQScZWkLG4TxpybLwdGg86XfOBPQFY
+        4zQVki+3kAwiCDpB2IG4WEyAvUncOTz38DhiNSlaGEqFpolqTWtMSDm5JO2MjGePRU5Z82l0PL1c
+        UaCL4eT/PaTfezwG+7NYBvfFWwsmMBxd48LgE2xgoEG3uMu8rgM=
     - service: tg
       id: 531
       published: 2024-09-13-18-29-51
-      updated: 2024-09-14-04-25-50
+      updated: 2024-09-14-05-21-44
       followers: 556
-      likes: 30
-      views: 130
+      likes: 33
+      views: 137
+      comments: !c iw6AkZPLQnke7nQrgAClYW5zaXOsUHJhaXNlIFZlaGshAw==
 2017-04-27-in-khuul:
   title: In Khuul
   titleRu: В Хууле
@@ -11166,17 +11168,17 @@
     - service: vk
       id: 1574
       published: 2024-06-07-18-20-42
-      updated: 2024-09-07-05-20-16
+      updated: 2024-09-14-05-21-47
       followers: 916
       likes: 40
-      views: 298
+      views: 303
     - service: tg
       id: 432
       published: 2024-06-07-18-20-49
-      updated: 2024-09-07-05-20-16
+      updated: 2024-09-14-05-21-46
       followers: 384
       likes: 58
-      views: 460
+      views: 461
 2017-12-05-in-the-boat-by-the-pier:
   title: In the Boat by the Pier
   titleRu: В лодке у причала
