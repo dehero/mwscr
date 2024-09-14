@@ -1810,17 +1810,17 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2024-09-07-21-21-24
+      updated: 2024-09-14-22-21-08
       followers: 927
       likes: 26
-      views: 237
+      views: 241
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
-      updated: 2024-09-07-21-21-24
+      updated: 2024-09-14-22-21-07
       followers: 514
       likes: 54
-      views: 508
+      views: 527
       comments: !c |-
         G7oAACwSeA71cYPQGRc+TQ3YGKHSD9b5LX9eZ9s65ASySd0h8m5C6G9nE3IUuiDZhXozCu9hA440
         4GHFgTiBc4ICvmmQnrLp5AROtwRzz8I0CkyjllJaA0L1SdHj3irNPcvjZQJCxmyajTkQGHPxwQLC
@@ -6635,17 +6635,17 @@
     - service: vk
       id: 1666
       published: 2024-08-03-18-19-32
-      updated: 2024-09-07-21-21-25
+      updated: 2024-09-14-22-21-09
       followers: 925
       likes: 32
-      views: 267
+      views: 271
     - service: tg
       id: 489
       published: 2024-08-03-18-19-41
-      updated: 2024-09-07-21-21-24
+      updated: 2024-09-14-22-21-07
       followers: 428
       likes: 56
-      views: 6160
+      views: 6210
       comments: !c |-
         izGAkZTLQnkRxbvWAACrVmVicmFuZGVub0uk8J+YjZPLQnkRxdocAAClYW5zaXPZNmV2ZXJ5IGdy
         YXplbGFuZGVyIGJveSBsb3ZlcyBoaW1zZWxmIGEgZ3VhciBoZXJkZXIgZ2lybAM=
@@ -10784,24 +10784,24 @@
       id: C_6Fl4CBFog
       mediaId: '17983583873721556'
       published: 2024-09-14-18-28-12
-      updated: 2024-09-14-21-19-16
+      updated: 2024-09-14-22-21-04
       followers: 1459
-      likes: 31
-      views: 108
+      likes: 34
+      views: 125
     - service: vk
       id: 1762
       published: 2024-09-14-18-28-21
-      updated: 2024-09-14-21-19-17
+      updated: 2024-09-14-22-21-05
       followers: 946
-      likes: 11
-      views: 62
+      likes: 13
+      views: 68
     - service: tg
       id: 532
       published: 2024-09-14-18-28-32
-      updated: 2024-09-14-21-19-17
+      updated: 2024-09-14-22-21-05
       followers: 556
       likes: 31
-      views: 94
+      views: 96
       comments: !c |-
         ix+AkZPLQnkfHOBygACpR2F0ZW1hdGU32Sl3aGVyZSBhcmUgdGhlIGFybWVkIG1lbiB3aXRoIHRo
         ZSBwaWxsb3dzPwM=
