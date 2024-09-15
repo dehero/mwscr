@@ -4,7 +4,41 @@
 
 # Posted in 2024
 
-`201 items`
+`202 items`
+
+## <span id="2024-09-15-dusk-in-the-skaal-village">Dusk in the Skaal Village</span>
+
+`RU` Сумерки в деревне Скаалов
+
+<a href="https://instagram.com/p/Bp-JvazBWVh/" title="2018-11-09-dusk-in-the-skaal-village"><img alt="store:/shots/2018-11-09-dusk-in-the-skaal-village.png" src="../../assets/previews/shots/2018-11-09-dusk-in-the-skaal-village.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Skaal Village` `🚀 OpenMW` `🔗 Bloodmoon`
+
+```
+2024-09-15-dusk-in-the-skaal-village
+```
+
+> `2018-11-09-dusk-in-the-skaal-village`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bp-JvazBWVh/)       | 2018-11-09 |       |   123 |       460 |  26.74 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1048) | 2018-11-09 |   574 |    45 |       283 |   15.9 |
+| [`tg`](https://t.me/mwscr/115)                     | 2018-11-09 |   333 |     2 |           |        |
+| [`ig`](https://instagram.com/p/C_8qfmlN21K/)       | 2024-09-15 |       |       |      1458 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1764) | 2024-09-15 |       |       |       947 |        |
+| [`tg`](https://t.me/mwscr/533)                     | 2024-09-15 |       |       |       557 |        |
+|                                                    |            |       |       |      2962 |  21.32 |
+
+#### Comments
+
+- `ig` <ins title="2018-11-09-20-04-33">voodoochild_4206923</ins> Just played through bloodmoon for the first time a few weeks back, loved it more than the main questline, wish it was longer, i thought raven rock and all of the island was beautiful looking
+- `vk` <ins title="2018-11-09-20-21-14">id199993738</ins> А что там за волк/пёс на крыше дома слева? Или показалось? )
+  - <ins title="2018-11-10-05-24-34">peteevandrew</ins> Михаил, одомашненный видимо, хз :/
 
 ## <span id="2024-09-14-ship-goods">Ship Goods</span>
 
@@ -29,10 +63,10 @@
 | [`ig`](https://instagram.com/p/BqPKV65hP3d/)       | 2018-11-16 |       |   123 |       471 |  26.11 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1056) | 2018-11-16 |   499 |    29 |       286 |  10.14 |
 | [`tg`](https://t.me/mwscr/120)                     | 2018-11-16 |   335 |     2 |           |        |
-| [`ig`](https://instagram.com/p/C_6Fl4CBFog/)       | 2024-09-14 |   255 |    58 |      1459 |   3.98 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1762) | 2024-09-14 |   144 |    24 |       946 |   2.54 |
-| [`tg`](https://t.me/mwscr/532)                     | 2024-09-14 |   145 |    40 |       556 |   7.19 |
-|                                                    |            |   544 |   122 |      2961 |   9.99 |
+| [`ig`](https://instagram.com/p/C_6Fl4CBFog/)       | 2024-09-14 |   259 |    59 |      1459 |   4.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1762) | 2024-09-14 |   147 |    24 |       946 |   2.54 |
+| [`tg`](https://t.me/mwscr/532)                     | 2024-09-14 |   148 |    40 |       556 |   7.19 |
+|                                                    |            |   554 |   123 |      2961 |  10.01 |
 
 #### Comments
 
@@ -62,10 +96,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTVyiFijUKs/)       | 2017-04-26 |       |    80 |       172 |  46.51 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_271)  | 2017-04-26 |   175 |    13 |        54 |  24.07 |
-| [`ig`](https://instagram.com/p/C_3g9pMSD-w/)       | 2024-09-13 |   479 |   100 |      1459 |   6.85 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1754) | 2024-09-13 |   207 |    36 |       946 |   3.81 |
-| [`tg`](https://t.me/mwscr/531)                     | 2024-09-13 |   217 |    43 |       556 |   7.73 |
-|                                                    |            |   903 |   179 |      2961 |   17.8 |
+| [`ig`](https://instagram.com/p/C_3g9pMSD-w/)       | 2024-09-13 |   481 |   101 |      1459 |   6.92 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1754) | 2024-09-13 |   215 |    37 |       946 |   4.02 |
+| [`tg`](https://t.me/mwscr/531)                     | 2024-09-13 |   218 |    43 |       556 |   7.73 |
+|                                                    |            |   914 |   181 |      2961 |  17.85 |
 
 #### Comments
 
@@ -99,10 +133,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BPPPFH4l0Rm/)       | 2017-01-14 |       |    37 |        76 |  48.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_62)   | 2017-01-14 |   129 |     5 |         4 |      6 |
-| [`ig`](https://instagram.com/p/C_08UV1TwXj/)       | 2024-09-12 |   317 |    80 |      1456 |   5.49 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1753) | 2024-09-12 |   183 |    33 |       945 |   3.49 |
-| [`tg`](https://t.me/mwscr/530)                     | 2024-09-12 |   210 |    52 |       555 |   9.37 |
-|                                                    |            |   710 |   165 |      2956 |  14.61 |
+| [`ig`](https://instagram.com/p/C_08UV1TwXj/)       | 2024-09-12 |   336 |    82 |      1456 |   5.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1753) | 2024-09-12 |   204 |    35 |       945 |    3.7 |
+| [`tg`](https://t.me/mwscr/530)                     | 2024-09-12 |   229 |    54 |       555 |   9.73 |
+|                                                    |            |   769 |   171 |      2956 |  14.75 |
 
 #### Comments
 

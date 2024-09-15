@@ -407,17 +407,17 @@
       id: C_08UV1TwXj
       mediaId: '17862134871229280'
       published: 2024-09-12-18-30-57
-      updated: 2024-09-14-18-27-56
+      updated: 2024-09-15-18-28-56
       followers: 1456
-      likes: 80
-      views: 317
+      likes: 82
+      views: 336
     - service: vk
       id: 1753
       published: 2024-09-12-18-31-04
-      updated: 2024-09-14-18-27-58
+      updated: 2024-09-15-18-28-55
       followers: 945
-      likes: 33
-      views: 183
+      likes: 35
+      views: 204
       comments: !c |-
         G68A+J0HdiwYYWY9Oo+Inq/bEX6QAwopg6BJMMJkH1lQbiuhLjSr8Rw/eOZQdVsJpnJBxFdz2i9H
         ROWYzFlMD7I8cMiBXoQPhM0ja16jgAM7Mxm8n6/uhwPrPSuRmChzetdGQIa0leTjeyOTXLMZQpsC
@@ -425,10 +425,10 @@
     - service: tg
       id: 530
       published: 2024-09-12-18-31-10
-      updated: 2024-09-14-18-27-58
+      updated: 2024-09-15-18-28-56
       followers: 555
-      likes: 52
-      views: 210
+      likes: 54
+      views: 229
       comments: !c |-
         G2sAOIzUWa03lyNU+v/dPKLet8DKxxK83ZwWphNwEgdUuf7DBpwgBJhrtOAhIqWwqvVZ9s8YlcGe
         EXpd3PAUN1zXBzk0AsIamiCst/PwT+jEWR3WvxY2quDAMGdVSCEfqHDB4R4t8qrJwoaDBg==
@@ -3995,17 +3995,18 @@
       id: C_3g9pMSD-w
       mediaId: '18174418510307792'
       published: 2024-09-13-18-29-39
-      updated: 2024-09-15-17-18-15
+      updated: 2024-09-15-18-28-55
       followers: 1459
-      likes: 100
-      views: 479
+      likes: 101
+      views: 481
     - service: vk
       id: 1754
       published: 2024-09-13-18-29-45
-      updated: 2024-09-15-17-18-16
+      updated: 2024-09-15-18-28-54
       followers: 946
-      likes: 36
-      views: 207
+      likes: 37
+      views: 215
+      reposts: 1
       comments: !c |-
         G2MGACwO7IbPG1WXEGdMm4iPriMk6eT/ee7t/YR3hWZ+eYIhKQ0sol2gNOuevo+Wy5ynPBQFoADY
         C0DynvctF8ksFMaAa054OpBoHdPFVwrM51HcOoGipYfCh97wfX0vtWMlCnFct7+fG6KR0KBVSiQl
@@ -4023,10 +4024,10 @@
     - service: tg
       id: 531
       published: 2024-09-13-18-29-51
-      updated: 2024-09-15-17-18-16
+      updated: 2024-09-15-18-28-55
       followers: 556
       likes: 43
-      views: 217
+      views: 218
       comments: !c iw6AkZPLQnke7nQrgAClYW5zaXOsUHJhaXNlIFZlaGshAw==
 2017-04-27-in-khuul:
   title: In Khuul
