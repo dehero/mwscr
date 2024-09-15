@@ -2255,18 +2255,18 @@
     - service: vk
       id: 1537
       published: 2024-05-18-18-18-31
-      updated: 2024-09-08-06-28-27
+      updated: 2024-09-15-06-29-30
       followers: 915
       likes: 27
-      views: 266
+      views: 267
       reposts: 1
     - service: tg
       id: 412
       published: 2024-05-18-18-18-39
-      updated: 2024-09-08-06-28-26
+      updated: 2024-09-15-06-29-30
       followers: 372
       likes: 52
-      views: 430
+      views: 432
       comments: !c iw2AkZPLQnj40RlbgACrYm9icm92bmlrb3akY296eQM=
 2018-03-08-dead-guar:
   title: Dead Guar
@@ -4049,7 +4049,7 @@
     - service: vk
       id: 1511
       published: 2024-04-27-18-16-27
-      updated: 2024-09-08-06-28-29
+      updated: 2024-09-15-06-29-32
       followers: 911
       likes: 30
       views: 249
@@ -4057,10 +4057,10 @@
     - service: tg
       id: 391
       published: 2024-04-27-18-16-36
-      updated: 2024-09-08-06-28-28
+      updated: 2024-09-15-06-29-31
       followers: 354
       likes: 58
-      views: 476
+      views: 477
 2018-05-04-table-for-two:
   title: Table for Two
   titleRu: Столик на двоих
@@ -10784,24 +10784,24 @@
       id: C_6Fl4CBFog
       mediaId: '17983583873721556'
       published: 2024-09-14-18-28-12
-      updated: 2024-09-15-05-21-22
+      updated: 2024-09-15-06-29-27
       followers: 1459
-      likes: 47
-      views: 181
+      likes: 48
+      views: 190
     - service: vk
       id: 1762
       published: 2024-09-14-18-28-21
-      updated: 2024-09-15-05-21-23
+      updated: 2024-09-15-06-29-28
       followers: 946
       likes: 18
-      views: 92
+      views: 96
     - service: tg
       id: 532
       published: 2024-09-14-18-28-32
-      updated: 2024-09-15-05-21-24
+      updated: 2024-09-15-06-29-28
       followers: 556
-      likes: 36
-      views: 123
+      likes: 37
+      views: 126
       comments: !c |-
         ix+AkZPLQnkfHOBygACpR2F0ZW1hdGU32Sl3aGVyZSBhcmUgdGhlIGFybWVkIG1lbiB3aXRoIHRo
         ZSBwaWxsb3dzPwM=
