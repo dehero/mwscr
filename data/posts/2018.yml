@@ -3349,18 +3349,18 @@
     - service: vk
       id: 1633
       published: 2024-07-13-18-18-57
-      updated: 2024-09-08-02-50-14
+      updated: 2024-09-15-02-55-13
       followers: 919
       likes: 44
-      views: 298
+      views: 301
       reposts: 1
     - service: tg
       id: 468
       published: 2024-07-13-18-19-05
-      updated: 2024-09-08-02-50-14
+      updated: 2024-09-15-02-55-13
       followers: 398
       likes: 60
-      views: 477
+      views: 480
     - service: ig
       id: C9ZBvgVxQqH
       mediaId: '17951687612696908'
@@ -8260,10 +8260,10 @@
       id: C_t_VnJxftA
       mediaId: '18019278437441496'
       published: 2024-09-10-01-42-39
-      updated: 2024-09-14-02-44-39
+      updated: 2024-09-15-02-55-12
       followers: 1457
-      likes: 103
-      views: 442
+      likes: 105
+      views: 449
 2018-09-08-mother-daedra:
   title: Mother Daedra
   titleRu: Даэдра-мать
@@ -10784,24 +10784,24 @@
       id: C_6Fl4CBFog
       mediaId: '17983583873721556'
       published: 2024-09-14-18-28-12
-      updated: 2024-09-15-01-51-31
+      updated: 2024-09-15-02-55-10
       followers: 1459
-      likes: 41
-      views: 157
+      likes: 43
+      views: 168
     - service: vk
       id: 1762
       published: 2024-09-14-18-28-21
-      updated: 2024-09-15-01-51-32
+      updated: 2024-09-15-02-55-11
       followers: 946
       likes: 16
       views: 81
     - service: tg
       id: 532
       published: 2024-09-14-18-28-32
-      updated: 2024-09-15-01-51-32
+      updated: 2024-09-15-02-55-11
       followers: 556
       likes: 35
-      views: 110
+      views: 111
       comments: !c |-
         ix+AkZPLQnkfHOBygACpR2F0ZW1hdGU32Sl3aGVyZSBhcmUgdGhlIGFybWVkIG1lbiB3aXRoIHRo
         ZSBwaWxsb3dzPwM=
