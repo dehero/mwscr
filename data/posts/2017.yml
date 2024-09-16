@@ -1160,17 +1160,17 @@
     - service: vk
       id: 1697
       published: 2024-08-18-18-17-50
-      updated: 2024-09-08-23-23-25
+      updated: 2024-09-16-01-48-11
       followers: 934
       likes: 38
-      views: 242
+      views: 245
     - service: tg
       id: 505
       published: 2024-08-18-18-17-57
-      updated: 2024-09-08-23-23-24
+      updated: 2024-09-16-01-48-11
       followers: 529
       likes: 58
-      views: 517
+      views: 536
       comments: !c CxWAkZPLQnkZFt9GAACncGFybHNlebfQu9GD0YfRiNC40Lkg0LrQsNC90LDQuwM=
 2017-02-04-rumors-are-about-some-two-prisoners:
   title: Rumors Are About Some Two Prisoners
@@ -6297,18 +6297,18 @@
     - service: vk
       id: 1659
       published: 2024-07-28-18-20-53
-      updated: 2024-09-08-23-23-27
+      updated: 2024-09-16-01-48-13
       followers: 923
       likes: 38
-      views: 281
+      views: 286
       reposts: 2
     - service: tg
       id: 483
       published: 2024-07-28-18-21-02
-      updated: 2024-09-08-23-23-26
+      updated: 2024-09-16-01-48-13
       followers: 402
-      likes: 56
-      views: 2156
+      likes: 57
+      views: 2185
 2017-07-01-training-room:
   title: Training Room
   titleRu: Тренировочная комната
