@@ -1866,16 +1866,18 @@
     - service: vk
       id: 1538
       published: 2024-05-19-18-18-25
-      updated: 2024-09-09-03-25-36
+      updated: 2024-09-16-03-30-31
       followers: 916
-      views: 243
+      likes: 37
+      views: 245
+      reposts: 1
     - service: tg
       id: 413
       published: 2024-05-19-18-18-32
-      updated: 2024-09-09-03-25-32
+      updated: 2024-09-16-03-30-30
       followers: 372
       likes: 61
-      views: 501
+      views: 502
       comments: !c CxiAkZPLQnj5MWNCgACrYm9icm92bmlrb3a5SSB3YW50IHRvIGhpYmVybmF0ZSB0aGVyZQM=
 2024-05-20-place-to-sleep:
   title: Place to Sleep
@@ -2049,14 +2051,14 @@
     - service: vk
       id: 1576
       published: 2024-06-09-18-18-45
-      updated: 2024-09-09-03-25-33
+      updated: 2024-09-16-03-30-28
       followers: 916
       likes: 32
-      views: 266
+      views: 268
     - service: tg
       id: 434
       published: 2024-06-09-18-18-52
-      updated: 2024-09-09-03-25-31
+      updated: 2024-09-16-03-30-28
       followers: 384
       likes: 58
       views: 480
