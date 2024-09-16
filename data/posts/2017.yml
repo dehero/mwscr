@@ -407,17 +407,17 @@
       id: C_08UV1TwXj
       mediaId: '17862134871229280'
       published: 2024-09-12-18-30-57
-      updated: 2024-09-15-18-28-56
+      updated: 2024-09-16-18-30-23
       followers: 1456
-      likes: 82
-      views: 336
+      likes: 83
+      views: 343
     - service: vk
       id: 1753
       published: 2024-09-12-18-31-04
-      updated: 2024-09-15-18-28-55
+      updated: 2024-09-16-18-30-24
       followers: 945
-      likes: 35
-      views: 204
+      likes: 37
+      views: 221
       comments: !c |-
         G68A+J0HdiwYYWY9Oo+Inq/bEX6QAwopg6BJMMJkH1lQbiuhLjSr8Rw/eOZQdVsJpnJBxFdz2i9H
         ROWYzFlMD7I8cMiBXoQPhM0ja16jgAM7Mxm8n6/uhwPrPSuRmChzetdGQIa0leTjeyOTXLMZQpsC
@@ -425,10 +425,10 @@
     - service: tg
       id: 530
       published: 2024-09-12-18-31-10
-      updated: 2024-09-15-18-28-56
+      updated: 2024-09-16-18-30-25
       followers: 555
-      likes: 54
-      views: 229
+      likes: 56
+      views: 264
       comments: !c |-
         G2sAOIzUWa03lyNU+v/dPKLet8DKxxK83ZwWphNwEgdUuf7DBpwgBJhrtOAhIqWwqvVZ9s8YlcGe
         EXpd3PAUN1zXBzk0AsIamiCst/PwT+jEWR3WvxY2quDAMGdVSCEfqHDB4R4t8qrJwoaDBg==
@@ -3995,17 +3995,17 @@
       id: C_3g9pMSD-w
       mediaId: '18174418510307792'
       published: 2024-09-13-18-29-39
-      updated: 2024-09-15-18-28-55
+      updated: 2024-09-16-18-30-22
       followers: 1459
-      likes: 101
-      views: 481
+      likes: 104
+      views: 496
     - service: vk
       id: 1754
       published: 2024-09-13-18-29-45
-      updated: 2024-09-15-18-28-54
+      updated: 2024-09-16-18-30-23
       followers: 946
-      likes: 37
-      views: 215
+      likes: 46
+      views: 263
       reposts: 1
       comments: !c |-
         G2MGACwO7IbPG1WXEGdMm4iPriMk6eT/ee7t/YR3hWZ+eYIhKQ0sol2gNOuevo+Wy5ynPBQFoADY
@@ -4024,10 +4024,10 @@
     - service: tg
       id: 531
       published: 2024-09-13-18-29-51
-      updated: 2024-09-15-18-28-55
+      updated: 2024-09-16-18-30-24
       followers: 556
-      likes: 43
-      views: 218
+      likes: 48
+      views: 246
       comments: !c iw6AkZPLQnke7nQrgAClYW5zaXOsUHJhaXNlIFZlaGshAw==
 2017-04-27-in-khuul:
   title: In Khuul
@@ -6415,6 +6415,19 @@
       likes: 6
       views: 106
       reposts: 1
+    - service: ig
+      id: C__PdcKNdBO
+      mediaId: '18455211349046606'
+      published: 2024-09-16-18-30-38
+      followers: 1460
+    - service: vk
+      id: 1766
+      published: 2024-09-16-18-30-47
+      followers: 947
+    - service: tg
+      id: 534
+      published: 2024-09-16-18-30-56
+      followers: 557
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
   titleRu: Знамя Дома Дагот
