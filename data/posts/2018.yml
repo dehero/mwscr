@@ -1972,7 +1972,7 @@
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2024-09-09-11-18-29
+      updated: 2024-09-16-11-19-18
       followers: 894
       likes: 34
       views: 292
@@ -1980,7 +1980,7 @@
     - service: tg
       id: 334
       published: 2024-03-03-18-16-50
-      updated: 2024-09-09-11-18-28
+      updated: 2024-09-16-11-19-16
       followers: 341
       likes: 63
       views: 513
@@ -4274,14 +4274,14 @@
     - service: vk
       id: 1468
       published: 2024-03-24-18-11-49
-      updated: 2024-09-09-11-18-27
+      updated: 2024-09-16-11-19-16
       followers: 898
       likes: 41
       views: 346
     - service: tg
       id: 356
       published: 2024-03-24-18-11-58
-      updated: 2024-09-09-11-18-26
+      updated: 2024-09-16-11-19-15
       followers: 352
       likes: 60
       views: 528
@@ -10622,17 +10622,18 @@
       id: C_8qfmlN21K
       mediaId: '17995167608691439'
       published: 2024-09-15-18-29-07
-      updated: 2024-09-16-10-24-58
+      updated: 2024-09-16-11-19-13
       followers: 1458
       likes: 68
-      views: 236
+      views: 238
     - service: vk
       id: 1764
       published: 2024-09-15-18-29-14
-      updated: 2024-09-16-10-24-59
+      updated: 2024-09-16-11-19-12
       followers: 947
-      likes: 40
-      views: 179
+      likes: 42
+      views: 183
+      reposts: 1
       comments: !c |-
         G5IBQBwJNk5xo8u38lD0T1yM8B7WzJ3FnHiTeCJhsh9ztmVJ4cuHhrqdqAOtbWKuVktSBE0Gm2C4
         PxGLKF0MaSENltJ0cuDyea5ZmnB6DoNIEykL6mRZqPZBuJtA+Hr/dDnq36B9xk9Crg3vbEy/ejpb
@@ -10641,10 +10642,10 @@
     - service: tg
       id: 533
       published: 2024-09-15-18-29-22
-      updated: 2024-09-16-10-24-59
+      updated: 2024-09-16-11-19-12
       followers: 557
-      likes: 50
-      views: 149
+      likes: 51
+      views: 152
       comments: !c CxOAkZPLQnkfiGjEgACnbWxlbm5pY7Nza3kgaXMgYW1hemluZyBoZXJlAw==
 2018-11-11-through-the-snowy-forest:
   title: Through the Snowy Forest
@@ -10812,21 +10813,21 @@
       id: C_6Fl4CBFog
       mediaId: '17983583873721556'
       published: 2024-09-14-18-28-12
-      updated: 2024-09-16-10-25-00
+      updated: 2024-09-16-11-19-14
       followers: 1459
       likes: 61
       views: 291
     - service: vk
       id: 1762
       published: 2024-09-14-18-28-21
-      updated: 2024-09-16-10-25-00
+      updated: 2024-09-16-11-19-13
       followers: 946
       likes: 25
       views: 153
     - service: tg
       id: 532
       published: 2024-09-14-18-28-32
-      updated: 2024-09-16-10-25-00
+      updated: 2024-09-16-11-19-13
       followers: 556
       likes: 50
       views: 192
