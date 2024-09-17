@@ -407,17 +407,17 @@
       id: C_08UV1TwXj
       mediaId: '17862134871229280'
       published: 2024-09-12-18-30-57
-      updated: 2024-09-16-18-30-23
+      updated: 2024-09-17-19-17-47
       followers: 1456
-      likes: 83
-      views: 343
+      likes: 87
+      views: 347
     - service: vk
       id: 1753
       published: 2024-09-12-18-31-04
-      updated: 2024-09-16-18-30-24
+      updated: 2024-09-17-19-17-49
       followers: 945
       likes: 37
-      views: 221
+      views: 231
       comments: !c |-
         G68A+J0HdiwYYWY9Oo+Inq/bEX6QAwopg6BJMMJkH1lQbiuhLjSr8Rw/eOZQdVsJpnJBxFdz2i9H
         ROWYzFlMD7I8cMiBXoQPhM0ja16jgAM7Mxm8n6/uhwPrPSuRmChzetdGQIa0leTjeyOTXLMZQpsC
@@ -425,10 +425,10 @@
     - service: tg
       id: 530
       published: 2024-09-12-18-31-10
-      updated: 2024-09-16-18-30-25
+      updated: 2024-09-17-19-17-48
       followers: 555
-      likes: 56
-      views: 264
+      likes: 57
+      views: 292
       comments: !c |-
         G2sAOIzUWa03lyNU+v/dPKLet8DKxxK83ZwWphNwEgdUuf7DBpwgBJhrtOAhIqWwqvVZ9s8YlcGe
         EXpd3PAUN1zXBzk0AsIamiCst/PwT+jEWR3WvxY2quDAMGdVSCEfqHDB4R4t8qrJwoaDBg==
@@ -3995,17 +3995,17 @@
       id: C_3g9pMSD-w
       mediaId: '18174418510307792'
       published: 2024-09-13-18-29-39
-      updated: 2024-09-16-18-30-22
+      updated: 2024-09-17-19-17-46
       followers: 1459
-      likes: 104
-      views: 496
+      likes: 107
+      views: 506
     - service: vk
       id: 1754
       published: 2024-09-13-18-29-45
-      updated: 2024-09-16-18-30-23
+      updated: 2024-09-17-19-17-48
       followers: 946
       likes: 46
-      views: 263
+      views: 281
       reposts: 1
       comments: !c |-
         G2MGACwO7IbPG1WXEGdMm4iPriMk6eT/ee7t/YR3hWZ+eYIhKQ0sol2gNOuevo+Wy5ynPBQFoADY
@@ -4024,10 +4024,10 @@
     - service: tg
       id: 531
       published: 2024-09-13-18-29-51
-      updated: 2024-09-16-18-30-24
+      updated: 2024-09-17-19-17-47
       followers: 556
-      likes: 48
-      views: 246
+      likes: 50
+      views: 289
       comments: !c iw6AkZPLQnke7nQrgAClYW5zaXOsUHJhaXNlIFZlaGshAw==
 2017-04-27-in-khuul:
   title: In Khuul
@@ -6419,26 +6419,26 @@
       id: C__PdcKNdBO
       mediaId: '18455211349046606'
       published: 2024-09-16-18-30-38
-      updated: 2024-09-17-18-30-04
+      updated: 2024-09-17-19-17-46
       followers: 1460
-      likes: 77
-      views: 258
+      likes: 78
+      views: 263
     - service: vk
       id: 1766
       published: 2024-09-16-18-30-47
-      updated: 2024-09-17-18-30-03
+      updated: 2024-09-17-19-17-47
       followers: 947
-      likes: 42
-      views: 200
-      reposts: 2
+      likes: 43
+      views: 202
+      reposts: 3
       comments: !c ixOAkZPLQnkgEr9RgACpdW50aXRsbDNkstGD0Y7RgtC90LXQvdGM0LrQvgM=
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2024-09-17-18-30-04
+      updated: 2024-09-17-19-17-46
       followers: 557
-      likes: 50
-      views: 176
+      likes: 52
+      views: 192
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
@@ -6700,15 +6700,24 @@
       id: DAB0PzTs0ZH
       mediaId: '18281297995233114'
       published: 2024-09-17-18-30-34
+      updated: 2024-09-17-19-17-45
       followers: 1459
+      likes: 20
+      views: 32
     - service: vk
       id: 1768
       published: 2024-09-17-18-30-40
+      updated: 2024-09-17-19-17-45
       followers: 947
+      likes: 8
+      views: 46
     - service: tg
       id: 535
       published: 2024-09-17-18-30-46
+      updated: 2024-09-17-19-17-46
       followers: 557
+      likes: 27
+      views: 68
 2017-07-13-corpse-preparation-volume-one:
   title: Corpse Preparation, Volume One
   titleRu: О подготовке тел, т. I
