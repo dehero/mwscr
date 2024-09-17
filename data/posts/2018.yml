@@ -1390,18 +1390,18 @@
     - service: vk
       id: 1668
       published: 2024-08-05-18-20-39
-      updated: 2024-09-09-23-22-48
+      updated: 2024-09-17-01-20-02
       followers: 926
       likes: 42
-      views: 292
+      views: 294
       reposts: 2
     - service: tg
       id: 491
       published: 2024-08-05-18-20-53
-      updated: 2024-09-09-23-22-48
+      updated: 2024-09-17-01-20-02
       followers: 490
       likes: 74
-      views: 616
+      views: 627
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
@@ -2105,25 +2105,25 @@
       id: C-3H8E9pYOC
       mediaId: '18007422095632329'
       published: 2024-08-19-18-19-34
-      updated: 2024-09-09-23-22-45
+      updated: 2024-09-17-01-19-59
       followers: 1455
       likes: 97
-      views: 585
+      views: 588
     - service: vk
       id: 1698
       published: 2024-08-19-18-19-41
-      updated: 2024-09-09-23-22-46
+      updated: 2024-09-17-01-20-00
       followers: 934
       likes: 32
-      views: 260
+      views: 264
       reposts: 3
     - service: tg
       id: 506
       published: 2024-08-19-18-19-47
-      updated: 2024-09-09-23-22-46
+      updated: 2024-09-17-01-20-00
       followers: 534
       likes: 65
-      views: 507
+      views: 532
 2018-03-04-monsters:
   title: Monsters
   titleRu: Монстры
@@ -5968,18 +5968,18 @@
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
-      updated: 2024-09-09-23-22-49
+      updated: 2024-09-17-01-20-03
       followers: 924
       likes: 34
-      views: 245
+      views: 247
       reposts: 1
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
-      updated: 2024-09-09-23-22-49
+      updated: 2024-09-17-01-20-03
       followers: 414
       likes: 58
-      views: 623
+      views: 636
 2018-06-28-light-on-the-water:
   title: Light on the Water
   titleRu: Свет над водой
@@ -10622,17 +10622,17 @@
       id: C_8qfmlN21K
       mediaId: '17995167608691439'
       published: 2024-09-15-18-29-07
-      updated: 2024-09-16-23-19-26
+      updated: 2024-09-17-01-19-58
       followers: 1458
       likes: 84
-      views: 299
+      views: 300
     - service: vk
       id: 1764
       published: 2024-09-15-18-29-14
-      updated: 2024-09-16-23-19-26
+      updated: 2024-09-17-01-19-59
       followers: 947
       likes: 50
-      views: 241
+      views: 244
       reposts: 2
       comments: !c |-
         G5IBQBwJNk5xo8u38lD0T1yM8B7WzJ3FnHiTeCJhsh9ztmVJ4cuHhrqdqAOtbWKuVktSBE0Gm2C4
@@ -10642,10 +10642,10 @@
     - service: tg
       id: 533
       published: 2024-09-15-18-29-22
-      updated: 2024-09-16-23-19-26
+      updated: 2024-09-17-01-19-59
       followers: 557
       likes: 55
-      views: 191
+      views: 192
       comments: !c CxOAkZPLQnkfiGjEgACnbWxlbm5pY7Nza3kgaXMgYW1hemluZyBoZXJlAw==
 2018-11-11-through-the-snowy-forest:
   title: Through the Snowy Forest
