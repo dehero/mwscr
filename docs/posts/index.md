@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`203 items`
+`204 items`
+
+## <span id="2024-09-17-suburb-muckspunge">Suburb Muckspunge</span>
+
+`RU` Пригородный мускспунж
+
+<a href="https://instagram.com/p/BWcPvpYjhl9/" title="2017-07-12-suburb-muckspunge"><img alt="store:/shots/2017-07-12-suburb-muckspunge.png" src="../../assets/previews/shots/2017-07-12-suburb-muckspunge.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-09-17-suburb-muckspunge&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-09-17-suburb-muckspunge
+```
+
+> `2017-07-12-suburb-muckspunge`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BWcPvpYjhl9/)       | 2017-07-12 |       |    54 |       188 |  28.72 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_351)  | 2017-07-12 |   121 |     8 |        66 |  12.12 |
+| [`ig`](https://instagram.com/p/DAB0PzTs0ZH/)       | 2024-09-17 |       |       |      1459 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1768) | 2024-09-17 |       |       |       947 |        |
+| [`tg`](https://t.me/mwscr/535)                     | 2024-09-17 |       |       |       557 |        |
+|                                                    |            |       |       |      2963 |  20.42 |
 
 ## <span id="2024-09-16-alofs-farmhouse">Alof&#39;s Farmhouse</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWHlMMlDoHo/)       | 2017-07-04 |       |    69 |       186 |   37.1 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_342)  | 2017-07-04 |   106 |     6 |        65 |  10.77 |
-| [`ig`](https://instagram.com/p/C__PdcKNdBO/)       | 2024-09-16 |   256 |    76 |      1460 |   5.21 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1766) | 2024-09-16 |   197 |    41 |       947 |   4.54 |
-| [`tg`](https://t.me/mwscr/534)                     | 2024-09-16 |   174 |    50 |       557 |   8.98 |
-|                                                    |            |   627 |   167 |      2964 |  13.32 |
+| [`ig`](https://instagram.com/p/C__PdcKNdBO/)       | 2024-09-16 |   258 |    77 |      1460 |   5.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1766) | 2024-09-16 |   200 |    42 |       947 |   4.65 |
+| [`tg`](https://t.me/mwscr/534)                     | 2024-09-16 |   176 |    50 |       557 |   8.98 |
+|                                                    |            |   634 |   169 |      2964 |  13.35 |
 
 #### Comments
 
@@ -40,6 +67,7 @@
   - <ins title="2017-07-04-15-48-31">gestaltme</ins> @mwscr другу) он тоже смотрит ваш аккаунт)
   - <ins title="2017-07-04-15-56-58">mwscr</ins> Тогда привет тебе и от меня, Женя :-)
 - `tg` <ins title="2024-09-16-18-49-54">C4H6O4</ins> &quot;Looks like a dream&quot; 🤩
+- `vk` <ins title="2024-09-17-18-08-31">untitll3d</ins> уютненько
 
 ## <span id="2024-09-15-dusk-in-the-skaal-village">Dusk in the Skaal Village</span>
 
@@ -100,10 +128,10 @@
 | [`ig`](https://instagram.com/p/BqPKV65hP3d/)       | 2018-11-16 |       |   123 |       471 |  26.11 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1056) | 2018-11-16 |   499 |    29 |       286 |  10.14 |
 | [`tg`](https://t.me/mwscr/120)                     | 2018-11-16 |   335 |     2 |           |        |
-| [`ig`](https://instagram.com/p/C_6Fl4CBFog/)       | 2024-09-14 |   296 |    63 |      1459 |   4.32 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1762) | 2024-09-14 |   153 |    25 |       946 |   2.64 |
-| [`tg`](https://t.me/mwscr/532)                     | 2024-09-14 |   195 |    50 |       556 |   8.99 |
-|                                                    |            |   644 |   138 |      2961 |  10.44 |
+| [`ig`](https://instagram.com/p/C_6Fl4CBFog/)       | 2024-09-14 |   319 |    71 |      1459 |   4.87 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1762) | 2024-09-14 |   159 |    25 |       946 |   2.64 |
+| [`tg`](https://t.me/mwscr/532)                     | 2024-09-14 |   225 |    54 |       556 |   9.71 |
+|                                                    |            |   703 |   150 |      2961 |   10.7 |
 
 #### Comments
 
@@ -696,10 +724,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Be0q5Z8jyW3/)       | 2018-02-05 |       |    76 |       283 |  26.86 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_604)  | 2018-02-05 |   190 |    12 |       125 |    9.6 |
-| [`ig`](https://instagram.com/p/C_LuWTjPpEs/)       | 2024-08-27 |   381 |    83 |      1458 |   5.69 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1712) | 2024-08-27 |   290 |    29 |       939 |   3.19 |
-| [`tg`](https://t.me/mwscr/514)                     | 2024-08-27 |   504 |    61 |       544 |  11.21 |
-|                                                    |            |  1175 |   173 |      2941 |  11.31 |
+| [`ig`](https://instagram.com/p/C_LuWTjPpEs/)       | 2024-08-27 |   385 |    83 |      1458 |   5.69 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1712) | 2024-08-27 |   296 |    29 |       939 |   3.19 |
+| [`tg`](https://t.me/mwscr/514)                     | 2024-08-27 |   536 |    61 |       544 |  11.21 |
+|                                                    |            |  1217 |   173 |      2941 |  11.31 |
 
 ## <span id="2024-08-26-azura-from-underwater">Azura from Underwater</span>
 

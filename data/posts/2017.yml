@@ -6419,25 +6419,26 @@
       id: C__PdcKNdBO
       mediaId: '18455211349046606'
       published: 2024-09-16-18-30-38
-      updated: 2024-09-17-17-19-51
+      updated: 2024-09-17-18-30-04
       followers: 1460
-      likes: 76
-      views: 256
+      likes: 77
+      views: 258
     - service: vk
       id: 1766
       published: 2024-09-16-18-30-47
-      updated: 2024-09-17-17-19-51
+      updated: 2024-09-17-18-30-03
       followers: 947
-      likes: 41
-      views: 197
+      likes: 42
+      views: 200
       reposts: 2
+      comments: !c ixOAkZPLQnkgEr9RgACpdW50aXRsbDNkstGD0Y7RgtC90LXQvdGM0LrQvgM=
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2024-09-17-17-19-51
+      updated: 2024-09-17-18-30-04
       followers: 557
       likes: 50
-      views: 174
+      views: 176
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
@@ -6695,6 +6696,19 @@
       followers: 66
       likes: 8
       views: 121
+    - service: ig
+      id: DAB0PzTs0ZH
+      mediaId: '18281297995233114'
+      published: 2024-09-17-18-30-34
+      followers: 1459
+    - service: vk
+      id: 1768
+      published: 2024-09-17-18-30-40
+      followers: 947
+    - service: tg
+      id: 535
+      published: 2024-09-17-18-30-46
+      followers: 557
 2017-07-13-corpse-preparation-volume-one:
   title: Corpse Preparation, Volume One
   titleRu: О подготовке тел, т. I
