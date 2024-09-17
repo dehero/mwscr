@@ -4939,7 +4939,7 @@
     - service: vk
       id: 1456
       published: 2024-03-18-18-11-07
-      updated: 2024-09-10-07-21-33
+      updated: 2024-09-17-08-28-33
       followers: 896
       likes: 32
       views: 278
@@ -4951,7 +4951,7 @@
     - service: tg
       id: 350
       published: 2024-03-18-18-11-16
-      updated: 2024-09-10-07-21-31
+      updated: 2024-09-17-08-28-31
       followers: 353
       likes: 55
       views: 472
@@ -6419,25 +6419,25 @@
       id: C__PdcKNdBO
       mediaId: '18455211349046606'
       published: 2024-09-16-18-30-38
-      updated: 2024-09-17-07-19-42
+      updated: 2024-09-17-08-28-28
       followers: 1460
-      likes: 65
-      views: 202
+      likes: 66
+      views: 209
     - service: vk
       id: 1766
       published: 2024-09-16-18-30-47
-      updated: 2024-09-17-07-19-42
+      updated: 2024-09-17-08-28-29
       followers: 947
-      likes: 38
-      views: 154
+      likes: 39
+      views: 164
       reposts: 2
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2024-09-17-07-19-42
+      updated: 2024-09-17-08-28-29
       followers: 557
-      likes: 45
-      views: 153
+      likes: 46
+      views: 156
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
