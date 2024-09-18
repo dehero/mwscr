@@ -1,3 +1,4 @@
+import { textToId } from '../utils/common-utils.js';
 import { ListManager } from './list-manager.js';
 import type { User, UserProfiles } from './user.js';
 
@@ -5,15 +6,12 @@ export abstract class UsersManager extends ListManager<User> {
   readonly name = 'users';
 
   protected createItemId(item: User) {
-    const str = item.name || Object.values(item.profiles || {})[0];
+    let result = textToId(item.name ?? '');
+    if (!result) {
+      result = textToId(Object.values(item.profiles || {})[0] ?? '');
+    }
 
-    return str
-      ?.toLowerCase()
-      .replace("'", '')
-      .replace(/[^a-z0-9-]/g, '-')
-      .replace(/-+/g, '-')
-      .replace(/^-/g, '')
-      .replace(/-$/g, '');
+    return result;
   }
 
   protected isItemEqual(a: User, b: User) {
