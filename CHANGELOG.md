@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.16.1](https://github.com/dehero/mwscr/compare/v1.16.0...v1.16.1) (2024-09-18)
+
+### Bug Fixes
+
+- improve Telegram bot logs ([638cbb1](https://github.com/dehero/mwscr/commit/638cbb1e36710a6f25f15a3722c5711346f10e74))
+
 ## [1.16.0](https://github.com/dehero/mwscr/compare/v1.15.0...v1.16.0) (2024-09-18)
 
 ### Features
