@@ -50,16 +50,20 @@ export async function importTelegramBotUpdates() {
 
     const updates = await bot.getUpdates();
 
-    // Mark all received updates as confirmed
-    const maxUpdateId = updates.reduce((max, update) => (update.update_id > max ? update.update_id : max), 0);
-    await bot.getUpdates({ offset: maxUpdateId + 1 });
+    if (updates.length > 0) {
+      // Mark all received updates as confirmed
+      const maxUpdateId = updates.reduce((max, update) => (update.update_id > max ? update.update_id : max), 0);
+      await bot.getUpdates({ offset: maxUpdateId + 1 });
 
-    const messages = updates
-      .map((update) => update.message)
-      .filter((message): message is TelegramBot.Message => typeof message !== 'undefined');
+      const messages = updates
+        .map((update) => update.message)
+        .filter((message): message is TelegramBot.Message => typeof message !== 'undefined');
 
-    for (const message of messages) {
-      await processMessage(message);
+      for (const message of messages) {
+        await processMessage(message);
+      }
+    } else {
+      console.info('No updates found.');
     }
   } catch (error) {
     if (error instanceof Error) {
@@ -176,6 +180,7 @@ async function processMessage(message: TelegramBot.Message) {
         parse_mode: 'HTML',
         reply_to_message_id: message.message_id,
       });
+      console.info(`Replied to ${author} message ${message.message_id} with "${reply}".`);
     } catch (error) {
       if (error instanceof Error) {
         console.error(`Error replying message ${message.message_id}: ${error.message}`);
