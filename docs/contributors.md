@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 955 posted, 15 pending, 66 rejected  
 Requested: 6 pending  
-Likes: 144607  
+Likes: 144621  
 
 ```
 dehero
@@ -178,4 +178,24 @@ Roles: `foreigner`
 
 ```
 nihil-sum
+```
+
+### Spicebag
+
+[Telegram](https://t.me/discodoyler)
+
+Roles: `foreigner`  
+
+```
+spicebag
+```
+
+### Yaroslav
+
+[Telegram](https://t.me/bondarets)
+
+Roles: `foreigner`  
+
+```
+yaroslav
 ```
