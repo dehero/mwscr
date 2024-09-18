@@ -1,5 +1,8 @@
 name: maintain
 
+concurrency:
+  group: ${{ github.workflow }}
+
 on:
   push:
     branches:
