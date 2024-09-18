@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 955 posted, 15 pending, 66 rejected  
 Requested: 6 pending  
-Likes: 144721  
+Likes: 144722  
 
 ```
 dehero
@@ -148,6 +148,16 @@ Authored: 1 rejected
 
 ```
 remmlah
+```
+
+### CAIUS COSADES
+
+[Telegram](https://t.me/Gatemate7)
+
+Roles: `foreigner`  
+
+```
+caius-cosades
 ```
 
 ### DevilTrigger

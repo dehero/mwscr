@@ -1,6 +1,11 @@
 buck-the-cuck:
   profiles:
     ig: buck_the_cuck
+caius-cosades:
+  telegramBotChatId: 6483220506
+  name: CAIUS COSADES
+  profiles:
+    tg: Gatemate7
 darkness-rifho:
   name: Darkness Rifho
   profiles:
