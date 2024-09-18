@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.16.4](https://github.com/dehero/mwscr/compare/v1.16.3...v1.16.4) (2024-09-18)
+
+### Continuous Integration
+
+- make maintenance script wait for previous to complete
+  ([d6852e1](https://github.com/dehero/mwscr/commit/d6852e10e1c1ce36be1cc2450a31cdc850589028))
+
 ## [1.16.3](https://github.com/dehero/mwscr/compare/v1.16.2...v1.16.3) (2024-09-18)
 
 ### Bug Fixes
