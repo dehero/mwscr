@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.16.0](https://github.com/dehero/mwscr/compare/v1.15.0...v1.16.0) (2024-09-18)
+
+### Features
+
+- add proposal and request buttons to home page
+  ([4616e31](https://github.com/dehero/mwscr/commit/4616e3147035d401f9cfce9cc909a6b2ad785cf6))
+- implement Telegram bot that accepts works
+  ([08eb7a5](https://github.com/dehero/mwscr/commit/08eb7a59e1dec079138c35f09f1f34a9c326f09c))
+
+### Documentation
+
+- mention Telegram bot that accepts works
+  ([9d74e64](https://github.com/dehero/mwscr/commit/9d74e644c3062878eaf38b19c2780a87c53f409e))
+
 ## [1.15.0](https://github.com/dehero/mwscr/compare/v1.14.0...v1.15.0) (2024-08-29)
 
 ### Features
