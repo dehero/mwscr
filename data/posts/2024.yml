@@ -406,18 +406,18 @@
     - service: vk
       id: 1444
       published: 2024-03-12-18-17-53
-      updated: 2024-09-11-08-28-42
+      updated: 2024-09-18-09-25-07
       followers: 896
       likes: 33
-      views: 271
+      views: 272
       reposts: 3
     - service: tg
       id: 343
       published: 2024-03-12-18-18-01
-      updated: 2024-09-11-08-28-40
+      updated: 2024-09-18-09-25-05
       followers: 350
       likes: 64
-      views: 508
+      views: 509
       comments: !c CxCAkZPLQnjjPwNOAACx2YXYrdmF2K8g2K7Yp9mE2K+jV293Aw==
 2024-03-13-haze: 2017-06-23-haze
 2024-03-14-night-street-of-balmora: 2017-04-02-night-street-of-balmora
@@ -531,7 +531,7 @@
     - service: vk
       id: 1459
       published: 2024-03-19-18-11-25
-      updated: 2024-09-11-08-28-41
+      updated: 2024-09-18-09-25-07
       followers: 896
       likes: 43
       views: 273
@@ -539,7 +539,7 @@
     - service: tg
       id: 351
       published: 2024-03-19-18-11-30
-      updated: 2024-09-11-08-28-39
+      updated: 2024-09-18-09-25-05
       followers: 352
       likes: 69
       views: 468
@@ -832,17 +832,17 @@
     - service: vk
       id: 1478
       published: 2024-04-02-18-11-20
-      updated: 2024-09-11-08-28-38
+      updated: 2024-09-18-09-25-05
       followers: 906
       likes: 25
       views: 260
     - service: tg
       id: 365
       published: 2024-04-02-18-11-28
-      updated: 2024-09-11-08-28-38
+      updated: 2024-09-18-09-25-04
       followers: 355
       likes: 56
-      views: 461
+      views: 462
 2024-04-03-god-of-madness-and-his-follower: 2017-06-07-god-of-madness-and-his-follower
 2024-04-04-view-of-elf-skerring:
   title: View of Elf-Skerring
@@ -994,7 +994,7 @@
     - service: vk
       id: 1488
       published: 2024-04-09-18-16-08
-      updated: 2024-09-11-08-28-38
+      updated: 2024-09-18-09-25-04
       followers: 911
       likes: 39
       views: 254
@@ -1002,10 +1002,10 @@
     - service: tg
       id: 373
       published: 2024-04-09-18-16-14
-      updated: 2024-09-11-08-28-38
+      updated: 2024-09-18-09-25-03
       followers: 353
       likes: 67
-      views: 442
+      views: 443
 2024-04-10-sun-mushrooms:
   title: Sun Mushrooms
   titleRu: Солнечные грибы
