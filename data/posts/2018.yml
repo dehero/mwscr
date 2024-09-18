@@ -340,18 +340,18 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-09-11-21-20-38
+      updated: 2024-09-18-22-21-42
       followers: 927
       likes: 47
-      views: 307
+      views: 309
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-09-11-21-20-37
+      updated: 2024-09-18-22-21-41
       followers: 504
       likes: 74
-      views: 628
+      views: 638
       comments: !c |-
         CzmAkpPLQnkTD+n1gAClVG9kb3LZNFdhaXQsIGRvIHRoZXkgcmVhbGx5IGRhbmNlIGxpa2UgdGhh
         dCBpbiB0aGUgdmFuaWxsYT+Ty0J5EuFjUIAApUFkZWxlu2hlIGRhbmNlcyB0byB0aGUgZGFnb3Ro
@@ -6249,24 +6249,24 @@
       id: C-8RjrEOZBz
       mediaId: '17871768504158345'
       published: 2024-08-21-18-19-50
-      updated: 2024-09-11-21-20-37
+      updated: 2024-09-18-22-21-37
       followers: 1459
       likes: 93
-      views: 333
+      views: 335
     - service: vk
       id: 1700
       published: 2024-08-21-18-19-57
-      updated: 2024-09-11-21-20-36
+      updated: 2024-09-18-22-21-40
       followers: 937
       likes: 41
-      views: 262
+      views: 266
     - service: tg
       id: 508
       published: 2024-08-21-18-20-03
-      updated: 2024-09-11-21-20-35
+      updated: 2024-09-18-22-21-39
       followers: 538
       likes: 59
-      views: 487
+      views: 503
 2018-07-08-statues-of-gods:
   title: Statues of Gods
   titleRu: Статуи богов
@@ -7693,24 +7693,24 @@
       id: DAEX2n6v8Ir
       mediaId: '17844824895313470'
       published: 2024-09-18-18-20-10
-      updated: 2024-09-18-21-20-26
+      updated: 2024-09-18-22-21-36
       followers: 1459
-      likes: 38
-      views: 112
+      likes: 41
+      views: 127
     - service: vk
       id: 1772
       published: 2024-09-18-18-20-17
-      updated: 2024-09-18-21-20-26
+      updated: 2024-09-18-22-21-36
       followers: 947
-      likes: 14
-      views: 76
+      likes: 15
+      views: 83
     - service: tg
       id: 537
       published: 2024-09-18-18-20-25
-      updated: 2024-09-18-21-20-26
+      updated: 2024-09-18-22-21-37
       followers: 556
       likes: 31
-      views: 99
+      views: 103
 2018-08-25-on-the-background-of-carpet:
   title: On the Background of Carpet
   titleRu: На фоне ковра
