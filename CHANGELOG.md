@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.16.5](https://github.com/dehero/mwscr/compare/v1.16.4...v1.16.5) (2024-09-18)
+
+### Bug Fixes
+
+- improve creating user IDs ([ed3368c](https://github.com/dehero/mwscr/commit/ed3368c42565960f705b3ab7b581523c422f451f))
+
 ## [1.16.4](https://github.com/dehero/mwscr/compare/v1.16.3...v1.16.4) (2024-09-18)
 
 ### Continuous Integration
