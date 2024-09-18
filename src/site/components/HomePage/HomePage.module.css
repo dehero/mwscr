@@ -109,6 +109,14 @@
   width: 100%;
 }
 
+.actions {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 0;
+}
+
 @media only screen and (min-height: 750px) and (min-width: 750px),
   only screen and (max-height: 750px) and (min-width: 925px) {
   .container {
