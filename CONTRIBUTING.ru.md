@@ -19,8 +19,9 @@
 [минимальные требования](#минимальные-требования-к-работам) и [рекомендации по съёмке](#рекомендации-по-съёмке). Затем
 отправьте ваши работы любым удобным способом:
 
+- [Отправить боту](https://t.me/mwscrbot) в Telegram.
 - [Отправить предложение](https://github.com/dehero/mwscr/issues/new?&labels=proposal&template=proposal.yml) через
-  Issues.
+  GitHub Issues.
 - [Отправить администратору](mailto:dehero@outlook.com?subject=mwscr) по электронной почте.
 
 Предложенные работы пройдут автоматическую проверку и попадут во [входящие](docs/inbox/index.md). После
@@ -44,7 +45,7 @@
 удобным способом:
 
 - [Отправить запрос](https://github.com/dehero/mwscr/issues/new?labels=request&template=request.yml&title=Cool+to+see%2C+how+cliffracer+dies%21)
-  через Issues.
+  через GitHub Issues.
 - Написать комментарий или личное сообщение администратору в любом из аккаунтов проекта.
 - [Написать администратору](mailto:dehero@outlook.com?subject=mwscr) по электронной почте.
 

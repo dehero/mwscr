@@ -181,7 +181,7 @@ As the project develops, it is planned to implement:
 - [ ] adding multiple locations to a single post;
 - [ ] ~~`wallpaper`~~, ~~`wallpaper-v`~~ and `video-v` post types;
 - [ ] support for accessing storage via a local file system;
-- [ ] Telegram bot for accepting requests and works;
+- [ ] Telegram bot for accepting requests~~ and works~~;
 - [ ] monthly releases of the archive with works for the previous month;
 - [x] project site for quick search of works by author, location, tags, etc.
 

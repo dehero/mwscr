@@ -19,7 +19,8 @@ Before you can propose your screenshots, videos or drawings, read the
 [minimum requirements](#minimum-requirements-to-works) and [shooting tips](#shooting-tips). Then send your work in any
 convenient way:
 
-- [Send proposal](https://github.com/dehero/mwscr/issues/new?labels=proposal&template=proposal.yml) via Issues.
+- [Send to bot](https://t.me/mwscrbot) on Telegram.
+- [Send proposal](https://github.com/dehero/mwscr/issues/new?labels=proposal&template=proposal.yml) via GitHub Issues.
 - [Send to administrator](mailto:dehero@outlook.com?subject=mwscr) via email.
 
 Proposed works will be automatically checked and will go to [inbox](docs/inbox/index.md). After [editing](#editing),
@@ -43,7 +44,7 @@ To ask the authors of the project to make a certain screenshot or video, leave a
 way:
 
 - [Send request](https://github.com/dehero/mwscr/issues/new?labels=request&template=request.yml&title=Cool+to+see%2C+how+cliffracer+dies%21)
-  via Issues.
+  via GitHub Issues.
 - Write a comment or private message to the administrator in any of the project accounts.
 - [Send to administrator](mailto:dehero@outlook.com?subject=mwscr) via email.
 

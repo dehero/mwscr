@@ -7,6 +7,7 @@ want a link to you in the post when the work is published. Proposed works will b
 [rejected](./trash.md). By submitting your work, you agree that it will be stored in the project archive and may be used
 in any sources related to the project, with attribution to you.
 
+[Send to Telegram bot](https://t.me/mwscrbot)  
 [Send proposal via GitHub Issues](https://github.com/dehero/mwscr/issues/new?labels=proposal&template=proposal.yml)
 (check out
 [file size restrictions](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files))  
