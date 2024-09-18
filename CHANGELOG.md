@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.16.2](https://github.com/dehero/mwscr/compare/v1.16.1...v1.16.2) (2024-09-18)
+
+### Continuous Integration
+
+- add TELEGRAM_BOT_ACCESS_TOKEN secret to workflow
+  ([35b7e96](https://github.com/dehero/mwscr/commit/35b7e962aa8f053305aa58a48f413adcb318b18f))
+
 ## [1.16.1](https://github.com/dehero/mwscr/compare/v1.16.0...v1.16.1) (2024-09-18)
 
 ### Bug Fixes
