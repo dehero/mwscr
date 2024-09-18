@@ -6,6 +6,7 @@ import type { Link } from '../../../core/entities/link.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import type { UserInfo } from '../../../core/entities/user-info.js';
 import { isUserContributionEmpty } from '../../../core/entities/user-info.js';
+import { telegram, TELEGRAM_BOT_NAME } from '../../../core/services/telegram.js';
 import { useParams } from '../../hooks/useParams.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import type { UserRouteParams } from '../../routes/user-route.js';
@@ -198,6 +199,17 @@ export const UserPage: Component = () => {
                   { label: 'Average Engagement', value: userInfo().engagement },
                 ]}
               />
+            </Show>
+
+            <Show when={userInfo().talkedToTelegramBot}>
+              <Divider />
+
+              <p class={styles.talkedToTelegramBot}>
+                Talked to{' '}
+                <a href={telegram.getUserProfileUrl(TELEGRAM_BOT_NAME)} class={styles.link}>
+                  Ordinator
+                </a>
+              </p>
             </Show>
 
             <Spacer />

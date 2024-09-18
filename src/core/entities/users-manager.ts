@@ -18,9 +18,11 @@ export abstract class UsersManager extends ListManager<User> {
 
   protected isItemEqual(a: User, b: User) {
     return Boolean(
-      (a.name && a.name === b.name) ||
+      (a.admin && a.admin === b.admin) ||
+        (a.name && a.name === b.name) ||
         (a.nameRu && a.nameRu === b.nameRu) ||
         (a.nameRuFrom && a.nameRuFrom === b.nameRuFrom) ||
+        (a.telegramBotChatId && a.telegramBotChatId === b.telegramBotChatId) ||
         (a.profiles &&
           Object.entries(a.profiles).some(
             ([service, profile]) => profile === b.profiles?.[service as keyof UserProfiles],
@@ -32,6 +34,7 @@ export abstract class UsersManager extends ListManager<User> {
     item.name = item.name || withItem.name || undefined;
     item.nameRu = item.nameRu || withItem.nameRu || undefined;
     item.nameRuFrom = item.nameRuFrom || withItem.nameRuFrom || undefined;
+    item.telegramBotChatId = item.telegramBotChatId || withItem.telegramBotChatId || undefined;
     item.profiles = this.mergeUserProfiles(item.profiles, withItem.profiles);
   }
 

@@ -21,6 +21,13 @@ interface PostMarkInfo {
   score: number;
 }
 
+export interface PostViolationInfo {
+  title: string;
+  letter: string;
+  solution?: string;
+  reference?: string;
+}
+
 export const POST_TYPES = [
   { id: 'shot', title: 'Shot', titleRu: 'Кадр', letter: 'S' },
   { id: 'shot-set', title: 'Shot-Set', titleRu: 'Набор кадров', letter: 'H' },
@@ -52,11 +59,28 @@ export const POST_VIOLATIONS = {
   'graphic-issues': { title: 'Graphic issues', letter: 'G' },
   'no-anti-aliasing': { title: 'No anti-aliasing', letter: 'A' },
   'non-vanilla-look': { title: 'Non-vanilla look', letter: 'N' },
-  'uses-mods': { title: 'Uses or requires mods', letter: 'M' },
-  'ui-visible': { title: 'UI is visible', letter: 'U' },
-  'unreachable-resource': { title: 'Unreachable resource', letter: 'R' },
-  'unsupported-resource': { title: 'Unsupported resource', letter: 'R' },
-} as const;
+  'uses-mods': {
+    title: 'Uses or requires mods',
+    reference: 'https://mwscr.dehero.site/help/no-mods/',
+    letter: 'M',
+  },
+  'ui-visible': {
+    title: 'UI is visible',
+    reference: 'https://mwscr.dehero.site/help/no-ui/',
+    letter: 'U',
+  },
+  'unreachable-resource': {
+    title: 'Unreachable resource',
+    solution: 'Check the link to have no mistypes and for being acceptable without authorization.',
+    letter: 'R',
+  },
+  'unsupported-resource': {
+    title: 'Unsupported resource',
+    solution: 'Attach your work as PNG, MP4, AVI or ZIP file, respect file size restrictions.',
+    reference: 'https://mwscr.dehero.site/help/file-format/',
+    letter: 'R',
+  },
+} as const satisfies Record<string, PostViolationInfo>;
 
 export type PostType = (typeof POST_TYPES)[number]['id'];
 export type PostAddon = (typeof POST_ADDONS)[number];

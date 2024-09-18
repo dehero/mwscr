@@ -1,7 +1,7 @@
 import type { Link } from './link.js';
 import type { Service } from './service.js';
 
-export const USER_ROLES = ['admin', 'author', 'requester', 'drawer', 'beginner'] as const;
+export const USER_ROLES = ['admin', 'author', 'requester', 'drawer', 'beginner', 'foreigner'] as const;
 
 export type UserRole = (typeof USER_ROLES)[number];
 
@@ -15,6 +15,7 @@ export interface User {
   nameRu?: string;
   nameRuFrom?: string;
   admin?: boolean;
+  telegramBotChatId?: number;
   profiles?: UserProfiles;
 }
 

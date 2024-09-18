@@ -54,11 +54,15 @@ export async function importResourceToStore(
 
   const author = template?.author || USER_UNKNOWN;
   const type = template?.type || 'shot';
+
   const { name, ext } = posix.parse(filename);
-  const [date, key] = extractDateFromString(`${name} ${template?.title ?? ''}`);
+  const [nameDate, nameTitle] = extractDateFromString(name);
+  const [date, text] = extractDateFromString(template?.title ?? '');
+  const title = postTitleFromString(text || nameTitle);
+
   const hash = getDataHash(data ?? filename);
 
-  const id = createInboxItemId(author, date || templateDate || new Date(), key, hash);
+  const id = createInboxItemId(author, nameDate || date || templateDate || new Date(), title, hash);
   let content: PostContent = typeof resource === 'string' ? resource : filename;
 
   const errors: Set<string> = new Set();
@@ -126,7 +130,7 @@ export async function importResourceToStore(
     author,
     // TODO: detect possible post type from content
     type,
-    title: postTitleFromString(key),
+    title,
     violation,
   };
 

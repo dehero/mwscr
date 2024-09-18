@@ -4,6 +4,7 @@ import { createNewPost } from './functions/create-new-post.js';
 import { exchangeInboxAndTrash } from './functions/exchange-inbox-and-trash.js';
 // import { grabManualPosts } from './functions/grab-manual-posts.js';
 import { importStoreInbox } from './functions/import-store-inbox.js';
+import { importTelegramBotUpdates } from './functions/import-telegram-bot-updates.js';
 import { maintainPreviews } from './functions/maintain-previews.js';
 import { publishPosts } from './functions/publish-posts.js';
 import { renderDocs } from './functions/render-docs.js';
@@ -15,6 +16,8 @@ await createGithubIssueTemplates();
 // await grabManualPosts();
 
 await importStoreInbox();
+
+await importTelegramBotUpdates();
 
 await exchangeInboxAndTrash();
 

@@ -66,6 +66,9 @@ export const UserTooltip: Component<UserTooltipProps> = (props) => {
       <Show when={local.userInfo.engagement > 0}>
         <span>Engagement: {local.userInfo.engagement}</span>
       </Show>
+      <Show when={local.userInfo.talkedToTelegramBot}>
+        <span class={styles.talkedToTelegramBot}>Talked to Ordinator</span>
+      </Show>
     </Tooltip>
   );
 };

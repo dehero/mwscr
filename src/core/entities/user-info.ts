@@ -23,6 +23,7 @@ export interface UserInfo {
   mark?: PostMark;
   rating: number;
   roles: UserRole[];
+  talkedToTelegramBot: boolean;
 }
 
 export type UserInfoComparator = (a: UserInfo, b: UserInfo) => number;
@@ -77,8 +78,16 @@ export async function createUserInfo(
     roles.push('requester');
   }
 
-  if (!authored.posted && !requested.posted) {
+  if (
+    !authored.posted &&
+    !requested.posted &&
+    (authored.pending || requested.pending || authored.rejected || requested.rejected)
+  ) {
     roles.push('beginner');
+  }
+
+  if (roles.length === 0) {
+    roles.push('foreigner');
   }
 
   return cleanupUndefinedProps({
@@ -92,6 +101,7 @@ export async function createUserInfo(
     mark,
     rating,
     roles,
+    talkedToTelegramBot: Boolean(user?.telegramBotChatId),
   });
 }
 

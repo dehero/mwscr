@@ -147,9 +147,9 @@ export function createRepostId(post: PublishablePost) {
   return [dateStr, name].filter((item) => Boolean(item)).join('-');
 }
 
-export function createInboxItemId(creator: string | string[], date: Date, key: string, hash?: string): string {
+export function createInboxItemId(creator: string | string[], date: Date, title: string, hash?: string): string {
   const firstCreator = asArray(creator)[0];
-  return `${firstCreator}.${dateToString(date)}-${textToId(key)}${hash ? `-${hash}` : ''}`;
+  return `${firstCreator}.${dateToString(date)}-${textToId(title)}${hash ? `-${hash}` : ''}`;
 }
 
 export function createPostRequestId(request: PostRequest) {

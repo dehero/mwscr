@@ -6,6 +6,8 @@ darkness-rifho:
   profiles:
     tg: midnight_in_mind
 dehero:
+  telegramBotChatId: 414295239
+  name: dehero
   admin: true
   profiles:
     em: dehero@outlook.com

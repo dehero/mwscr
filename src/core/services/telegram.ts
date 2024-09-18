@@ -14,6 +14,8 @@ export type TelegramPost = Publication<number | number[]>;
 
 export const TELEGRAM_CHANNEL = 'mwscr';
 
+export const TELEGRAM_BOT_NAME = 'mwscrbot';
+
 export class Telegram implements PostingService<TelegramPost> {
   readonly id = 'tg';
   readonly name = 'Telegram';

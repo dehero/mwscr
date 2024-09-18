@@ -5,8 +5,8 @@ export class Site implements Service {
   readonly name = 'Morrowind Screenshots';
   readonly origin = 'https://mwscr.dehero.site';
 
-  getPostUrl(postId: string) {
-    return `${this.origin}/posts/${postId}/`;
+  getPostUrl(postId: string, managerName = 'posts') {
+    return `${this.origin}/${managerName}/${postId}/`;
   }
 
   getUserProfileUrl(profileId: string) {
