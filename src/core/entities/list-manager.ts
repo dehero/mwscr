@@ -154,7 +154,7 @@ export abstract class ListManager<TItem> extends ListReader<TItem> {
     if (!entry) {
       const id = this.createItemId(item);
       if (!id) {
-        throw new Error(`Cannot create item ${item}`);
+        throw new Error(`Cannot create item ID for ${JSON.stringify(item)}`);
       }
 
       await this.addItem(item, id);
