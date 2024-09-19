@@ -22,6 +22,8 @@ export async function updatePosts() {
 }
 
 async function updatePublications(service: PostingServiceManager, postEntries: PostEntries) {
+  let failCount = 0;
+
   const updatablePublications = postEntries
     .flatMap(
       ([id, post]): Array<[id: string, publication: Publication<unknown>]> =>
@@ -52,12 +54,18 @@ async function updatePublications(service: PostingServiceManager, postEntries: P
       await service.updatePublication(publication);
       await posts.updateItem(id);
       console.info(`Updated ${service.name} reactions for post "${id}".`);
+      failCount = 0;
     } catch (error) {
       if (error instanceof Error) {
         console.error(`Error updating ${service.name} reactions for post "${id}": ${error.message}`);
       }
-      console.info(`Will continue updating ${service.name} reactions on next run.`);
-      break;
+      failCount++;
+      if (failCount >= 5) {
+        console.info(
+          `Successively failed ${failCount} ${service.name} reactions update attempts. Will continue updating on next run.`,
+        );
+        break;
+      }
     }
   }
 
