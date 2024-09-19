@@ -63,17 +63,17 @@ Likes: 239
 irina-bystritskaya
 ```
 
-## Requesters
-
 ### kayrac?k
 
-Roles: `requester` `beginner`  
-Authored: 1 rejected  
+Roles: `author` `requester` `beginner`  
+Authored: 3 pending, 1 rejected  
 Requested: 1 pending  
 
 ```
 kayrac-k
 ```
+
+## Requesters
 
 ### buck-the-cuck
 
