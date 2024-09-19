@@ -23,6 +23,7 @@
     "check-fix": "npm run typecheck && npm run eslint-fix && npm run test"
   },
   "devDependencies": {
+    "@playwright/test": "^1.47.1",
     "@types/decompress": "^4.2.4",
     "@types/escape-html": "^1.0.4",
     "@types/js-yaml": "^4.0.5",
