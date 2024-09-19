@@ -1,5 +1,8 @@
 name: resolve-issue
 
+concurrency:
+  group: maintain
+
 on:
   issues:
     types: [edited, reopened, labeled]
