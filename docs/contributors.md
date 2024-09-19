@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 955 posted, 15 pending, 66 rejected  
 Requested: 6 pending  
-Likes: 144760  
+Likes: 144762  
 
 ```
 dehero
@@ -218,6 +218,16 @@ Roles: `foreigner`
 
 ```
 nihil-sum
+```
+
+### Oleh
+
+[Telegram](https://t.me/OlehShyha)
+
+Roles: `foreigner`  
+
+```
+oleh
 ```
 
 ### Spicebag
