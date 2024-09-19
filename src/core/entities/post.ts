@@ -69,6 +69,10 @@ export const POST_VIOLATIONS = {
     reference: 'https://mwscr.dehero.site/help/no-ui/',
     letter: 'U',
   },
+  'unclear-request': {
+    title: 'Unclear request',
+    letter: 'Q',
+  },
   'unreachable-resource': {
     title: 'Unreachable resource',
     solution: 'Check the link to have no mistypes and for being acceptable without authorization.',
