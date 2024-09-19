@@ -4,7 +4,7 @@
 
 # Trash for 2024
 
-`33 items`
+`34 items`
 
 ## <span id="vladyslav-zhuk.2024-05-20-d3c543d1">vladyslav-zhuk.2024-05-20-d3c543d1</span>
 
@@ -290,6 +290,23 @@ natty.2024-03-10-12-48-20
 
 ```
 natty.2024-03-10-12-40-06
+```
+
+## <span id="kayrac-k.2024-09-02-2a5fe92a">kayrac-k.2024-09-02-2a5fe92a</span>
+
+
+`shot` _cancelled_
+
+> Sunset over  
+> [kayrac?k](../contributors.md#kayrac-k "2024-09-02")
+
+> [!CAUTION]
+> [object Object].
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayrac-k.2024-09-02-2a5fe92a&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=unclear-request&amp;postTrash=&amp;postRequest=Sunset+over) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayrac-k.2024-09-02-2a5fe92a&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayrac-k.2024-09-02-2a5fe92a&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayrac-k.2024-09-02-2a5fe92a&postLocation=)</code>
+
+```
+kayrac-k.2024-09-02-2a5fe92a
 ```
 
 ## <span id="kayrac-k.2024-08-25-sky-of-vivec">Sky of Vivec</span>

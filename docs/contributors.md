@@ -65,9 +65,9 @@ irina-bystritskaya
 
 ### kayrac?k
 
-Roles: `author` `requester` `beginner`  
+Roles: `author` `beginner`  
 Authored: 3 pending, 1 rejected  
-Requested: 1 pending  
+Requested: 1 rejected  
 
 ```
 kayrac-k
