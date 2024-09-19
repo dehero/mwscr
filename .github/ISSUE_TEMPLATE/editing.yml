@@ -63,8 +63,8 @@ body:
       label: Violation
       placeholder: >-
         Inappropriate content JPEG artifacts Graphic issues No anti-aliasing
-        Non-vanilla look Uses or requires mods UI is visible Unreachable
-        resource Unsupported resource
+        Non-vanilla look Uses or requires mods UI is visible Unclear request
+        Unreachable resource Unsupported resource
   - type: textarea
     id: postTrash
     attributes:
