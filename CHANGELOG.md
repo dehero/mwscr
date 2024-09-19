@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.17.0](https://github.com/dehero/mwscr/compare/v1.16.5...v1.17.0) (2024-09-19)
+
+### Features
+
+- add "Unclear request" violation
+  ([f1f27df](https://github.com/dehero/mwscr/commit/f1f27df1447e254329b8861825c90abbbf15a9d2))
+
+### Continuous Integration
+
+- use single concurrency group to all workflows
+  ([c01c15d](https://github.com/dehero/mwscr/commit/c01c15d082d2822d47e31d34f01b8925c37475f6))
+
 ## [1.16.5](https://github.com/dehero/mwscr/compare/v1.16.4...v1.16.5) (2024-09-18)
 
 ### Bug Fixes
