@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.17.1](https://github.com/dehero/mwscr/compare/v1.17.0...v1.17.1) (2024-09-19)
+
+### Bug Fixes
+
+- allow up to 4 post reactions update failures
+  ([a83b05c](https://github.com/dehero/mwscr/commit/a83b05ca82d82b5554d1a9f56baf131550b8d152))
+
 ## [1.17.0](https://github.com/dehero/mwscr/compare/v1.16.5...v1.17.0) (2024-09-19)
 
 ### Features
