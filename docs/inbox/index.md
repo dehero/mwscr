@@ -292,49 +292,49 @@ natty.2024-03-10-16-03-44
 natty.2024-03-10-12-44-23
 ```
 
-## <span id="kayrac-k.2024-09-06-13-50-43">kayrac-k.2024-09-06-13-50-43</span>
+## <span id="kayracik.2024-09-06-13-50-43">kayracik.2024-09-06-13-50-43</span>
 
-![store:/inbox/kayrac-k.2024-09-06-13-50-43.png](../../assets/previews/inbox/kayrac-k.2024-09-06-13-50-43.avif "kayrac-k.2024-09-06-13-50-43")
+![store:/inbox/kayracik.2024-09-06-13-50-43.png](../../assets/previews/inbox/kayracik.2024-09-06-13-50-43.avif "kayracik.2024-09-06-13-50-43")
 
-`shot` by [kayrac?k](../contributors.md#kayrac-k)
-
-> [!WARNING]
-> Need english title, need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayrac-k.2024-09-06-13-50-43&amp;postContent=store%3A%2Finbox%2Fkayrac-k.2024-09-06-13-50-43.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=kayrac-k&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayrac-k.2024-09-06-13-50-43&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayrac-k.2024-09-06-13-50-43&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayrac-k.2024-09-06-13-50-43&postLocation=)</code>
-
-```
-kayrac-k.2024-09-06-13-50-43
-```
-
-## <span id="kayrac-k.2024-09-05-20-09-00">kayrac-k.2024-09-05-20-09-00</span>
-
-![store:/inbox/kayrac-k.2024-09-05-20-09-00.png](../../assets/previews/inbox/kayrac-k.2024-09-05-20-09-00.avif "kayrac-k.2024-09-05-20-09-00")
-
-`shot` by [kayrac?k](../contributors.md#kayrac-k)
+`shot` by [kayracik](../contributors.md#kayracik)
 
 > [!WARNING]
 > Need english title, need russian title, need mark.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayrac-k.2024-09-05-20-09-00&amp;postContent=store%3A%2Finbox%2Fkayrac-k.2024-09-05-20-09-00.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=kayrac-k&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayrac-k.2024-09-05-20-09-00&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayrac-k.2024-09-05-20-09-00&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayrac-k.2024-09-05-20-09-00&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayracik.2024-09-06-13-50-43&amp;postContent=store%3A%2Finbox%2Fkayracik.2024-09-06-13-50-43.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=kayracik&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayracik.2024-09-06-13-50-43&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayracik.2024-09-06-13-50-43&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayracik.2024-09-06-13-50-43&postLocation=)</code>
 
 ```
-kayrac-k.2024-09-05-20-09-00
+kayracik.2024-09-06-13-50-43
 ```
 
-## <span id="kayrac-k.2024-09-02-17-09-47">kayrac-k.2024-09-02-17-09-47</span>
+## <span id="kayracik.2024-09-05-20-09-00">kayracik.2024-09-05-20-09-00</span>
 
-![store:/inbox/kayrac-k.2024-09-02-17-09-47.png](../../assets/previews/inbox/kayrac-k.2024-09-02-17-09-47.avif "kayrac-k.2024-09-02-17-09-47")
+![store:/inbox/kayracik.2024-09-05-20-09-00.png](../../assets/previews/inbox/kayracik.2024-09-05-20-09-00.avif "kayracik.2024-09-05-20-09-00")
 
-`shot` by [kayrac?k](../contributors.md#kayrac-k)
+`shot` by [kayracik](../contributors.md#kayracik)
 
 > [!WARNING]
 > Need english title, need russian title, need mark.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayrac-k.2024-09-02-17-09-47&amp;postContent=store%3A%2Finbox%2Fkayrac-k.2024-09-02-17-09-47.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=kayrac-k&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayrac-k.2024-09-02-17-09-47&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayrac-k.2024-09-02-17-09-47&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayrac-k.2024-09-02-17-09-47&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayracik.2024-09-05-20-09-00&amp;postContent=store%3A%2Finbox%2Fkayracik.2024-09-05-20-09-00.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=kayracik&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayracik.2024-09-05-20-09-00&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayracik.2024-09-05-20-09-00&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayracik.2024-09-05-20-09-00&postLocation=)</code>
 
 ```
-kayrac-k.2024-09-02-17-09-47
+kayracik.2024-09-05-20-09-00
+```
+
+## <span id="kayracik.2024-09-02-17-09-47">kayracik.2024-09-02-17-09-47</span>
+
+![store:/inbox/kayracik.2024-09-02-17-09-47.png](../../assets/previews/inbox/kayracik.2024-09-02-17-09-47.avif "kayracik.2024-09-02-17-09-47")
+
+`shot` by [kayracik](../contributors.md#kayracik)
+
+> [!WARNING]
+> Need english title, need russian title, need mark.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayracik.2024-09-02-17-09-47&amp;postContent=store%3A%2Finbox%2Fkayracik.2024-09-02-17-09-47.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=kayracik&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayracik.2024-09-02-17-09-47&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayracik.2024-09-02-17-09-47&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayracik.2024-09-02-17-09-47&postLocation=)</code>
+
+```
+kayracik.2024-09-02-17-09-47
 ```
 
 ## <span id="dehero.2024-03-05-20-06-06">dehero.2024-03-05-20-06-06</span>

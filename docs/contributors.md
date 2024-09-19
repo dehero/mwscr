@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 955 posted, 15 pending, 66 rejected  
 Requested: 6 pending  
-Likes: 144762  
+Likes: 144767  
 
 ```
 dehero
@@ -63,14 +63,16 @@ Likes: 239
 irina-bystritskaya
 ```
 
-### kayrac?k
+### kayracik
+
+[GitHub](https://github.com/Helvgen)
 
 Roles: `author` `beginner`  
 Authored: 3 pending, 1 rejected  
 Requested: 1 rejected  
 
 ```
-kayrac-k
+kayracik
 ```
 
 ## Requesters
