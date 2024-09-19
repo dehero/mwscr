@@ -1840,7 +1840,7 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2024-09-12-22-21-54
+      updated: 2024-09-19-23-22-06
       followers: 919
       likes: 32
       views: 262
@@ -1848,10 +1848,10 @@
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2024-09-12-22-21-51
+      updated: 2024-09-19-23-22-04
       followers: 391
       likes: 57
-      views: 552
+      views: 553
     - service: ig
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
@@ -2701,18 +2701,18 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2024-09-12-22-21-54
+      updated: 2024-09-19-23-22-06
       followers: 919
       likes: 48
-      views: 320
+      views: 322
       reposts: 3
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2024-09-12-22-21-52
+      updated: 2024-09-19-23-22-04
       followers: 387
       likes: 65
-      views: 468
+      views: 470
       comments: !c |-
         iySAkZPLQnkECYQ5gACrQmVybXVkYV84MTLZMdCt0YLQviDQstGL0LPQu9GP0LTQuNGCINGC0LDQ
         uiDQv9GA0LXQutGA0LDRgdC90L4D
@@ -3865,17 +3865,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-09-12-22-21-53
+      updated: 2024-09-19-23-22-05
       followers: 920
       likes: 40
       views: 251
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-09-12-22-21-51
+      updated: 2024-09-19-23-22-03
       followers: 397
       likes: 61
-      views: 479
+      views: 481
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
@@ -9448,24 +9448,24 @@
       id: DAG9whpsfGu
       mediaId: '18000110414662122'
       published: 2024-09-19-18-29-52
-      updated: 2024-09-19-22-20-54
+      updated: 2024-09-19-23-21-59
       followers: 1458
-      likes: 33
-      views: 123
+      likes: 35
+      views: 139
     - service: vk
       id: 1773
       published: 2024-09-19-18-29-58
-      updated: 2024-09-19-22-20-54
+      updated: 2024-09-19-23-22-00
       followers: 948
-      likes: 17
-      views: 72
+      likes: 18
+      views: 74
     - service: tg
       id: 538
       published: 2024-09-19-18-30-04
-      updated: 2024-09-19-22-20-54
+      updated: 2024-09-19-23-22-00
       followers: 555
-      likes: 31
-      views: 104
+      likes: 33
+      views: 110
 2017-10-10-on-the-pass:
   title: On the Pass
   titleRu: На перевале
