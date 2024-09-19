@@ -6419,26 +6419,26 @@
       id: C__PdcKNdBO
       mediaId: '18455211349046606'
       published: 2024-09-16-18-30-38
-      updated: 2024-09-18-18-19-58
+      updated: 2024-09-19-18-29-39
       followers: 1460
-      likes: 82
-      views: 300
+      likes: 85
+      views: 320
     - service: vk
       id: 1766
       published: 2024-09-16-18-30-47
-      updated: 2024-09-18-18-19-58
+      updated: 2024-09-19-18-29-38
       followers: 947
       likes: 49
-      views: 247
+      views: 269
       reposts: 3
       comments: !c ixOAkZPLQnkgEr9RgACpdW50aXRsbDNkstGD0Y7RgtC90LXQvdGM0LrQvgM=
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2024-09-18-18-19-58
+      updated: 2024-09-19-18-29-38
       followers: 557
-      likes: 60
-      views: 231
+      likes: 62
+      views: 249
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
@@ -6700,24 +6700,24 @@
       id: DAB0PzTs0ZH
       mediaId: '18281297995233114'
       published: 2024-09-17-18-30-34
-      updated: 2024-09-19-17-19-57
+      updated: 2024-09-19-18-29-38
       followers: 1459
       likes: 71
-      views: 279
+      views: 281
     - service: vk
       id: 1768
       published: 2024-09-17-18-30-40
-      updated: 2024-09-19-17-19-57
+      updated: 2024-09-19-18-29-37
       followers: 947
       likes: 38
-      views: 194
+      views: 197
     - service: tg
       id: 535
       published: 2024-09-17-18-30-46
-      updated: 2024-09-19-17-19-57
+      updated: 2024-09-19-18-29-38
       followers: 557
       likes: 58
-      views: 201
+      views: 202
 2017-07-13-corpse-preparation-volume-one:
   title: Corpse Preparation, Volume One
   titleRu: О подготовке тел, т. I
@@ -9444,6 +9444,19 @@
       followers: 87
       likes: 7
       views: 143
+    - service: ig
+      id: DAG9whpsfGu
+      mediaId: '18000110414662122'
+      published: 2024-09-19-18-29-52
+      followers: 1458
+    - service: vk
+      id: 1773
+      published: 2024-09-19-18-29-58
+      followers: 948
+    - service: tg
+      id: 538
+      published: 2024-09-19-18-30-04
+      followers: 555
 2017-10-10-on-the-pass:
   title: On the Pass
   titleRu: На перевале

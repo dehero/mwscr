@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`205 items`
+`206 items`
+
+## <span id="2024-09-19-in-the-evening-under-a-canopy">In the Evening Under a Canopy</span>
+
+`RU` Вечером под навесом
+
+<a href="https://instagram.com/p/BaCTo47j5kd/" title="2017-10-09-in-the-evening-under-a-canopy"><img alt="store:/shots/2017-10-09-in-the-evening-under-a-canopy.png" src="../../assets/previews/shots/2017-10-09-in-the-evening-under-a-canopy.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-09-19-in-the-evening-under-a-canopy&postLocation=)</code> `🚀 OpenMW` `lantern`
+
+```
+2024-09-19-in-the-evening-under-a-canopy
+```
+
+> `2017-10-09-in-the-evening-under-a-canopy`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BaCTo47j5kd/)       | 2017-10-09 |       |    60 |       223 |  26.91 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_455)  | 2017-10-09 |   143 |     7 |        87 |   8.05 |
+| [`ig`](https://instagram.com/p/DAG9whpsfGu/)       | 2024-09-19 |       |       |      1458 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1773) | 2024-09-19 |       |       |       948 |        |
+| [`tg`](https://t.me/mwscr/538)                     | 2024-09-19 |       |       |       555 |        |
+|                                                    |            |       |       |      2961 |  17.48 |
 
 ## <span id="2024-09-18-nileras-farmhouse">Nilera&#39;s Farmhouse</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bm3uN2ZFEBQ/)       | 2018-08-24 |       |   122 |       402 |  30.35 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_873)  | 2018-08-24 |   377 |    23 |       202 |  11.39 |
-| [`ig`](https://instagram.com/p/DAEX2n6v8Ir/)       | 2024-09-18 |   256 |    63 |      1459 |   4.32 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1772) | 2024-09-18 |   148 |    27 |       947 |   2.85 |
-| [`tg`](https://t.me/mwscr/537)                     | 2024-09-18 |   155 |    46 |       556 |   8.27 |
-|                                                    |            |   559 |   136 |      2962 |  11.44 |
+| [`ig`](https://instagram.com/p/DAEX2n6v8Ir/)       | 2024-09-18 |   259 |    63 |      1459 |   4.32 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1772) | 2024-09-18 |   151 |    27 |       947 |   2.85 |
+| [`tg`](https://t.me/mwscr/537)                     | 2024-09-18 |   157 |    47 |       556 |   8.45 |
+|                                                    |            |   567 |   137 |      2962 |  11.47 |
 
 ## <span id="2024-09-17-suburb-muckspunge">Suburb Muckspunge</span>
 
@@ -55,10 +82,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWcPvpYjhl9/)       | 2017-07-12 |       |    54 |       188 |  28.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_351)  | 2017-07-12 |   121 |     8 |        66 |  12.12 |
-| [`ig`](https://instagram.com/p/DAB0PzTs0ZH/)       | 2024-09-17 |   279 |    71 |      1459 |   4.87 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1768) | 2024-09-17 |   194 |    38 |       947 |   4.01 |
-| [`tg`](https://t.me/mwscr/535)                     | 2024-09-17 |   201 |    58 |       557 |  10.41 |
-|                                                    |            |   674 |   167 |      2963 |  12.03 |
+| [`ig`](https://instagram.com/p/DAB0PzTs0ZH/)       | 2024-09-17 |   281 |    71 |      1459 |   4.87 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1768) | 2024-09-17 |   197 |    38 |       947 |   4.01 |
+| [`tg`](https://t.me/mwscr/535)                     | 2024-09-17 |   202 |    58 |       557 |  10.41 |
+|                                                    |            |   680 |   167 |      2963 |  12.03 |
 
 ## <span id="2024-09-16-alofs-farmhouse">Alof&#39;s Farmhouse</span>
 
@@ -82,10 +109,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWHlMMlDoHo/)       | 2017-07-04 |       |    69 |       186 |   37.1 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_342)  | 2017-07-04 |   106 |     6 |        65 |  10.77 |
-| [`ig`](https://instagram.com/p/C__PdcKNdBO/)       | 2024-09-16 |   300 |    82 |      1460 |   5.62 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1766) | 2024-09-16 |   247 |    49 |       947 |   5.49 |
-| [`tg`](https://t.me/mwscr/534)                     | 2024-09-16 |   231 |    60 |       557 |  10.77 |
-|                                                    |            |   778 |   191 |      2964 |  13.95 |
+| [`ig`](https://instagram.com/p/C__PdcKNdBO/)       | 2024-09-16 |   320 |    85 |      1460 |   5.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1766) | 2024-09-16 |   269 |    49 |       947 |   5.49 |
+| [`tg`](https://t.me/mwscr/534)                     | 2024-09-16 |   249 |    62 |       557 |  11.13 |
+|                                                    |            |   838 |   196 |      2964 |  14.06 |
 
 #### Comments
 
@@ -119,10 +146,10 @@
 | [`ig`](https://instagram.com/p/Bp-JvazBWVh/)       | 2018-11-09 |       |   123 |       460 |  26.74 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1048) | 2018-11-09 |   574 |    45 |       283 |   15.9 |
 | [`tg`](https://t.me/mwscr/115)                     | 2018-11-09 |   333 |     2 |           |        |
-| [`ig`](https://instagram.com/p/C_8qfmlN21K/)       | 2024-09-15 |   336 |    95 |      1458 |   6.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1764) | 2024-09-15 |   290 |    53 |       947 |   5.81 |
-| [`tg`](https://t.me/mwscr/533)                     | 2024-09-15 |   235 |    66 |       557 |  11.85 |
-|                                                    |            |   861 |   214 |      2962 |  13.36 |
+| [`ig`](https://instagram.com/p/C_8qfmlN21K/)       | 2024-09-15 |   354 |    99 |      1458 |   6.79 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1764) | 2024-09-15 |   306 |    54 |       947 |   5.91 |
+| [`tg`](https://t.me/mwscr/533)                     | 2024-09-15 |   263 |    66 |       557 |  11.85 |
+|                                                    |            |   923 |   219 |      2962 |  13.44 |
 
 #### Comments
 
