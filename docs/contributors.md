@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 955 posted, 15 pending, 66 rejected  
 Requested: 6 pending  
-Likes: 144755  
+Likes: 144757  
 
 ```
 dehero
@@ -148,6 +148,16 @@ Authored: 1 rejected
 
 ```
 remmlah
+```
+
+### Алексей
+
+[Telegram](https://t.me/avrongols)
+
+Roles: `foreigner`  
+
+```
+aleksey
 ```
 
 ### CAIUS COSADES
