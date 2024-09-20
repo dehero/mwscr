@@ -55,7 +55,10 @@ kayracik.2024-09-02-17-09-47:
   type: shot
   author: kayracik
 kayracik.2024-09-05-20-09-00:
-  content: store:/inbox/kayracik.2024-09-05-20-09-00.png
+  content:
+    - store:/inbox/kayracik.2024-09-05-20-09-00.png
+    - store:/inbox/kayracik.2024-09-05-20-09-00.1.png
+    - store:/inbox/kayracik.2024-09-05-20-09-00.2.png
   type: shot
   author: kayracik
 kayracik.2024-09-06-13-50-43:
