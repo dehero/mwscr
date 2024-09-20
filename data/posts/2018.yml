@@ -10644,17 +10644,17 @@
       id: C_8qfmlN21K
       mediaId: '17995167608691439'
       published: 2024-09-15-18-29-07
-      updated: 2024-09-19-18-29-40
+      updated: 2024-09-20-18-30-02
       followers: 1458
-      likes: 99
-      views: 354
+      likes: 104
+      views: 361
     - service: vk
       id: 1764
       published: 2024-09-15-18-29-14
-      updated: 2024-09-19-18-29-39
+      updated: 2024-09-20-18-30-03
       followers: 947
       likes: 54
-      views: 306
+      views: 316
       reposts: 2
       comments: !c |-
         G5IBQBwJNk5xo8u38lD0T1yM8B7WzJ3FnHiTeCJhsh9ztmVJ4cuHhrqdqAOtbWKuVktSBE0Gm2C4
@@ -10664,10 +10664,10 @@
     - service: tg
       id: 533
       published: 2024-09-15-18-29-22
-      updated: 2024-09-19-18-29-39
+      updated: 2024-09-20-18-30-03
       followers: 557
       likes: 66
-      views: 263
+      views: 286
       comments: !c CxOAkZPLQnkfiGjEgACnbWxlbm5pY7Nza3kgaXMgYW1hemluZyBoZXJlAw==
 2018-11-11-through-the-snowy-forest:
   title: Through the Snowy Forest
@@ -11038,6 +11038,19 @@
       updated: 2024-09-17-17-20-01
       likes: 3
       views: 371
+    - service: ig
+      id: DAJimkkBNV_
+      mediaId: '18058220053742509'
+      published: 2024-09-20-18-30-18
+      followers: 1459
+    - service: vk
+      id: 1774
+      published: 2024-09-20-18-30-28
+      followers: 949
+    - service: tg
+      id: 539
+      published: 2024-09-20-18-30-37
+      followers: 555
 2018-11-22-three-trees-by-the-road:
   title: Three Trees by the Road
   titleRu: Три дерева у дороги
