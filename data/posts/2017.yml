@@ -711,7 +711,7 @@
     - service: yt
       id: 8Waikj-VsSI
       published: 2017-01-22
-      updated: 2024-09-13-22-21-38
+      updated: 2024-09-20-22-22-57
       likes: 7
       views: 129
     - service: vk
@@ -947,7 +947,7 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2024-09-13-22-21-37
+      updated: 2024-09-20-22-22-57
       likes: 25
       views: 571
       comments: !c CxOAkZPLQnaO0E6sgACqQE5hcnNNY2FpbrBJIGxvdmUgdGhpcyBzaGl0Aw==
@@ -1532,7 +1532,7 @@
     - service: yt
       id: Fd77v5UL_ek
       published: 2017-02-12
-      updated: 2024-09-13-22-21-37
+      updated: 2024-09-20-22-22-56
       likes: 30
       views: 665
       comments: !c |-
@@ -9448,24 +9448,24 @@
       id: DAG9whpsfGu
       mediaId: '18000110414662122'
       published: 2024-09-19-18-29-52
-      updated: 2024-09-20-21-20-28
+      updated: 2024-09-20-22-22-58
       followers: 1458
-      likes: 50
-      views: 239
+      likes: 51
+      views: 240
     - service: vk
       id: 1773
       published: 2024-09-19-18-29-58
-      updated: 2024-09-20-21-20-30
+      updated: 2024-09-20-22-22-59
       followers: 948
       likes: 31
-      views: 151
+      views: 153
     - service: tg
       id: 538
       published: 2024-09-19-18-30-04
-      updated: 2024-09-20-21-20-29
+      updated: 2024-09-20-22-22-59
       followers: 555
       likes: 53
-      views: 214
+      views: 215
 2017-10-10-on-the-pass:
   title: On the Pass
   titleRu: На перевале
