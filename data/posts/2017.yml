@@ -1366,7 +1366,7 @@
     - service: vk
       id: 1472
       published: 2024-03-28-18-11-42
-      updated: 2024-09-13-10-23-34
+      updated: 2024-09-20-10-24-13
       followers: 906
       likes: 38
       views: 307
@@ -1374,7 +1374,7 @@
     - service: tg
       id: 360
       published: 2024-03-28-18-11-49
-      updated: 2024-09-13-10-23-33
+      updated: 2024-09-20-10-24-11
       followers: 355
       likes: 59
       views: 457
@@ -3110,7 +3110,7 @@
     - service: vk
       id: 1426
       published: 2024-02-29-18-00-56
-      updated: 2024-09-13-10-23-37
+      updated: 2024-09-20-10-24-16
       followers: 894
       likes: 52
       views: 372
@@ -3121,10 +3121,10 @@
     - service: tg
       id: 331
       published: 2024-02-29-18-01-07
-      updated: 2024-09-13-10-23-35
+      updated: 2024-09-20-10-24-13
       followers: 338
       likes: 81
-      views: 625
+      views: 627
 2017-03-31-interior-garden:
   title: Interior Garden
   titleRu: Внутренний сад
@@ -3241,7 +3241,7 @@
     - service: vk
       id: 1448
       published: 2024-03-14-18-12-16
-      updated: 2024-09-13-10-23-36
+      updated: 2024-09-20-10-24-15
       followers: 896
       likes: 51
       views: 370
@@ -3255,7 +3255,7 @@
     - service: tg
       id: 346
       published: 2024-03-14-18-12-22
-      updated: 2024-09-13-10-23-34
+      updated: 2024-09-20-10-24-12
       followers: 351
       likes: 67
       views: 500
@@ -7390,17 +7390,17 @@
     - service: vk
       id: 1516
       published: 2024-05-02-18-21-03
-      updated: 2024-09-13-10-23-31
+      updated: 2024-09-20-10-24-09
       followers: 912
       likes: 29
       views: 234
     - service: tg
       id: 396
       published: 2024-05-02-18-21-10
-      updated: 2024-09-13-10-23-30
+      updated: 2024-09-20-10-24-08
       followers: 364
-      likes: 54
-      views: 465
+      likes: 55
+      views: 467
 2017-08-03-maelkashishi:
   title: Maelkashishi
   titleRu: Мелкашиши
@@ -8677,7 +8677,7 @@
     - service: vk
       id: 1509
       published: 2024-04-25-18-18-02
-      updated: 2024-09-13-10-23-32
+      updated: 2024-09-20-10-24-10
       followers: 910
       likes: 53
       views: 360
@@ -8685,10 +8685,10 @@
     - service: tg
       id: 389
       published: 2024-04-25-18-18-08
-      updated: 2024-09-13-10-23-31
+      updated: 2024-09-20-10-24-09
       followers: 354
       likes: 73
-      views: 523
+      views: 524
       comments: !c |-
         G84AYOXgmgMb6OMatMHW+F0rmlfwKJOS1zd8wYVOTvQYELcoi8NIvlyy5ncbW1+VRtZopDU6t1Du
         07WnirYJJmOanJFYXs5YSJJBjZTYNo9GDYSg/C2A/e+lyz2I4gWURwXLE2PIU2Y1yqA4jzjg/C7C
@@ -9448,21 +9448,21 @@
       id: DAG9whpsfGu
       mediaId: '18000110414662122'
       published: 2024-09-19-18-29-52
-      updated: 2024-09-20-09-26-56
+      updated: 2024-09-20-10-24-07
       followers: 1458
-      likes: 45
-      views: 194
+      likes: 46
+      views: 203
     - service: vk
       id: 1773
       published: 2024-09-19-18-29-58
-      updated: 2024-09-20-09-26-56
+      updated: 2024-09-20-10-24-06
       followers: 948
-      likes: 26
-      views: 121
+      likes: 28
+      views: 126
     - service: tg
       id: 538
       published: 2024-09-19-18-30-04
-      updated: 2024-09-20-09-26-57
+      updated: 2024-09-20-10-24-07
       followers: 555
       likes: 44
       views: 164
