@@ -637,10 +637,10 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-09-13-19-18-07
+      updated: 2024-09-20-20-24-36
       followers: 943
-      likes: 31
-      views: 251
+      likes: 32
+      views: 276
       reposts: 2
       comments: !c |-
         G9oCAKwK7DbyC53aVXL0CN5VcRAVtmgoOTn1l+y/FTiUxoEwOARKYqrVqQh9jqvQZ7CrxzMcL6oV
@@ -653,10 +653,10 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-09-13-19-18-06
+      updated: 2024-09-20-20-24-35
       followers: 551
-      likes: 63
-      views: 361
+      likes: 64
+      views: 467
       comments: !c |-
         G9EAYIyUbsI8A645gjVBtc//m1b2toiwUaRNMO/wxbbWuVFCJlIM9X7iFOVucKIx5hBGLbTppBtO
         tOfw+Nwit9TaMhmfA4b1lHsV7JBS8l9S0pmkGYYDbLDsxAdYYscJoFjCAdGQE8JkkWVsLIA9lpyg
@@ -11042,24 +11042,24 @@
       id: DAJimkkBNV_
       mediaId: '18058220053742509'
       published: 2024-09-20-18-30-18
-      updated: 2024-09-20-19-18-05
+      updated: 2024-09-20-20-24-33
       followers: 1459
-      likes: 13
-      views: 29
+      likes: 26
+      views: 80
     - service: vk
       id: 1774
       published: 2024-09-20-18-30-28
-      updated: 2024-09-20-19-18-04
+      updated: 2024-09-20-20-24-32
       followers: 949
-      likes: 5
-      views: 38
+      likes: 12
+      views: 67
     - service: tg
       id: 539
       published: 2024-09-20-18-30-37
-      updated: 2024-09-20-19-18-05
+      updated: 2024-09-20-20-24-32
       followers: 555
-      likes: 24
-      views: 74
+      likes: 31
+      views: 102
 2018-11-22-three-trees-by-the-road:
   title: Three Trees by the Road
   titleRu: Три дерева у дороги
