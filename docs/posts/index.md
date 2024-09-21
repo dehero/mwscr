@@ -29,10 +29,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1069) | 2018-11-21 |  1043 |    35 |       287 |   12.2 |
 | [`tg`](https://t.me/mwscr/125)                     | 2018-11-21 |   371 |     3 |           |        |
 | [`ig`](https://instagram.com/p/BqeIVPBBU0s/)       | 2018-11-22 |       |   125 |       477 |  26.21 |
-| [`ig`](https://instagram.com/p/DAJimkkBNV_/)       | 2024-09-20 |   226 |    57 |      1459 |   3.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1774) | 2024-09-20 |   165 |    27 |       949 |   2.85 |
-| [`tg`](https://t.me/mwscr/539)                     | 2024-09-20 |   146 |    40 |       555 |   7.21 |
-|                                                    |            |   537 |   124 |      2963 |  10.47 |
+| [`ig`](https://instagram.com/p/DAJimkkBNV_/)       | 2024-09-20 |   235 |    58 |      1459 |   3.98 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1774) | 2024-09-20 |   168 |    28 |       949 |   2.95 |
+| [`tg`](https://t.me/mwscr/539)                     | 2024-09-20 |   147 |    42 |       555 |   7.57 |
+|                                                    |            |   550 |   128 |      2963 |  10.58 |
 
 #### Comments
 
@@ -64,9 +64,9 @@
 | [`ig`](https://instagram.com/p/BaCTo47j5kd/)       | 2017-10-09 |       |    60 |       223 |  26.91 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_455)  | 2017-10-09 |   143 |     7 |        87 |   8.05 |
 | [`ig`](https://instagram.com/p/DAG9whpsfGu/)       | 2024-09-19 |   256 |    55 |      1458 |   3.77 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1773) | 2024-09-19 |   166 |    31 |       948 |   3.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1773) | 2024-09-19 |   167 |    31 |       948 |   3.27 |
 | [`tg`](https://t.me/mwscr/538)                     | 2024-09-19 |   229 |    53 |       555 |   9.55 |
-|                                                    |            |   651 |   139 |      2961 |  10.31 |
+|                                                    |            |   652 |   139 |      2961 |  10.31 |
 
 ## <span id="2024-09-18-nileras-farmhouse">Nilera&#39;s Farmhouse</span>
 
