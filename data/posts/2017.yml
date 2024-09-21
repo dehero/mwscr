@@ -8419,10 +8419,10 @@
     - service: vk
       id: 1664
       published: 2024-08-02-18-20-03
-      updated: 2024-09-14-01-40-47
+      updated: 2024-09-21-01-41-57
       followers: 925
       likes: 45
-      views: 297
+      views: 298
       reposts: 1
       comments: !c |-
         CzeAkpPLQnkRc1B4gACudW50ZXJncnVuZGJhaG7ZOtCQINCy0LXQtNGMINGB0L7Qu9GB0YLRhdC1
@@ -8431,10 +8431,10 @@
     - service: tg
       id: 488
       published: 2024-08-02-18-20-10
-      updated: 2024-09-14-01-40-47
+      updated: 2024-09-21-01-41-56
       followers: 428
       likes: 65
-      views: 639
+      views: 648
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки
@@ -9448,24 +9448,24 @@
       id: DAG9whpsfGu
       mediaId: '18000110414662122'
       published: 2024-09-19-18-29-52
-      updated: 2024-09-20-23-21-00
+      updated: 2024-09-21-01-41-56
       followers: 1458
-      likes: 51
-      views: 241
+      likes: 53
+      views: 244
     - service: vk
       id: 1773
       published: 2024-09-19-18-29-58
-      updated: 2024-09-20-23-21-00
+      updated: 2024-09-21-01-41-56
       followers: 948
       likes: 31
-      views: 155
+      views: 157
     - service: tg
       id: 538
       published: 2024-09-19-18-30-04
-      updated: 2024-09-20-23-21-00
+      updated: 2024-09-21-01-41-56
       followers: 555
       likes: 53
-      views: 217
+      views: 219
 2017-10-10-on-the-pass:
   title: On the Pass
   titleRu: На перевале
