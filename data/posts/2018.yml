@@ -10835,24 +10835,24 @@
       id: C_6Fl4CBFog
       mediaId: '17983583873721556'
       published: 2024-09-14-18-28-12
-      updated: 2024-09-20-19-18-08
+      updated: 2024-09-21-20-21-59
       followers: 1459
       likes: 73
-      views: 342
+      views: 344
     - service: vk
       id: 1762
       published: 2024-09-14-18-28-21
-      updated: 2024-09-20-19-18-07
+      updated: 2024-09-21-20-21-59
       followers: 946
       likes: 26
-      views: 171
+      views: 176
     - service: tg
       id: 532
       published: 2024-09-14-18-28-32
-      updated: 2024-09-20-19-18-06
+      updated: 2024-09-21-20-21-59
       followers: 556
-      likes: 58
-      views: 307
+      likes: 59
+      views: 340
       comments: !c |-
         ix+AkZPLQnkfHOBygACpR2F0ZW1hdGU32Sl3aGVyZSBhcmUgdGhlIGFybWVkIG1lbiB3aXRoIHRo
         ZSBwaWxsb3dzPwM=
@@ -11042,24 +11042,27 @@
       id: DAJimkkBNV_
       mediaId: '18058220053742509'
       published: 2024-09-20-18-30-18
-      updated: 2024-09-21-19-16-55
+      updated: 2024-09-21-20-21-58
       followers: 1459
-      likes: 62
-      views: 265
+      likes: 63
+      views: 268
     - service: vk
       id: 1774
       published: 2024-09-20-18-30-28
-      updated: 2024-09-21-19-16-55
+      updated: 2024-09-21-20-21-58
       followers: 949
-      likes: 29
-      views: 183
+      likes: 31
+      views: 187
+      comments: !c |-
+        G2AA+J0Jto2E9THoiiB8kPHEexvhDac4HGCCvQSCCJN/zsPnvEZilqbsbGI8mxlVotYrmu/5gyw1
+        gcWmGqGd1f38dc09r4zvhCIBT/ttSg1qGQZOX7pUQi8CDkHIRscrk7UA
     - service: tg
       id: 539
       published: 2024-09-20-18-30-37
-      updated: 2024-09-21-19-16-55
+      updated: 2024-09-21-20-21-58
       followers: 555
-      likes: 48
-      views: 175
+      likes: 50
+      views: 181
 2018-11-22-three-trees-by-the-road:
   title: Three Trees by the Road
   titleRu: Три дерева у дороги

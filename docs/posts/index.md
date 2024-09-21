@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BX2RoP1jtAa/)       | 2017-08-16 |       |    63 |       192 |  32.81 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_394)  | 2017-08-16 |   134 |     8 |        75 |  10.67 |
-| [`ig`](https://instagram.com/p/DAMHLdOsLZl/)       | 2024-09-21 |    46 |    23 |      1459 |   1.58 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1775) | 2024-09-21 |    31 |     8 |       953 |   0.84 |
-| [`tg`](https://t.me/mwscr/540)                     | 2024-09-21 |    65 |    13 |       555 |   2.34 |
-|                                                    |            |   142 |    44 |      2967 |   9.65 |
+| [`ig`](https://instagram.com/p/DAMHLdOsLZl/)       | 2024-09-21 |   103 |    36 |      1459 |   2.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1775) | 2024-09-21 |    48 |    12 |       953 |   1.26 |
+| [`tg`](https://t.me/mwscr/540)                     | 2024-09-21 |    88 |    20 |       555 |    3.6 |
+|                                                    |            |   239 |    68 |      2967 |  10.16 |
 
 #### Comments
 
@@ -60,10 +60,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1069) | 2018-11-21 |  1043 |    35 |       287 |   12.2 |
 | [`tg`](https://t.me/mwscr/125)                     | 2018-11-21 |   371 |     3 |           |        |
 | [`ig`](https://instagram.com/p/BqeIVPBBU0s/)       | 2018-11-22 |       |   125 |       477 |  26.21 |
-| [`ig`](https://instagram.com/p/DAJimkkBNV_/)       | 2024-09-20 |   265 |    62 |      1459 |   4.25 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1774) | 2024-09-20 |   183 |    29 |       949 |   3.06 |
-| [`tg`](https://t.me/mwscr/539)                     | 2024-09-20 |   175 |    48 |       555 |   8.65 |
-|                                                    |            |   623 |   139 |      2963 |  10.87 |
+| [`ig`](https://instagram.com/p/DAJimkkBNV_/)       | 2024-09-20 |   268 |    63 |      1459 |   4.32 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1774) | 2024-09-20 |   187 |    31 |       949 |   3.27 |
+| [`tg`](https://t.me/mwscr/539)                     | 2024-09-20 |   181 |    50 |       555 |   9.01 |
+|                                                    |            |   636 |   144 |      2963 |     11 |
 
 #### Comments
 
@@ -71,6 +71,7 @@
   - <ins title="2018-11-22-08-10-09">mwscr</ins> Why haven&#39;t I seen you there?
   - <ins title="2018-11-22-09-01-04">driesssens</ins> @mwscr Amulet of Shadows ✌️
 - `vk` <ins title="2018-11-22-08-16-17">dead___end</ins> Уровень защиты 99%
+- `vk` <ins title="2024-09-21-19-35-02">id810900694</ins> Это вот как я читаю название этой локи ))
 
 ## <span id="2024-09-19-in-the-evening-under-a-canopy">In the Evening Under a Canopy</span>
 
@@ -248,10 +249,10 @@
 | [`ig`](https://instagram.com/p/BqPKV65hP3d/)       | 2018-11-16 |       |   123 |       471 |  26.11 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1056) | 2018-11-16 |   499 |    29 |       286 |  10.14 |
 | [`tg`](https://t.me/mwscr/120)                     | 2018-11-16 |   335 |     2 |           |        |
-| [`ig`](https://instagram.com/p/C_6Fl4CBFog/)       | 2024-09-14 |   342 |    73 |      1459 |      5 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1762) | 2024-09-14 |   171 |    26 |       946 |   2.75 |
-| [`tg`](https://t.me/mwscr/532)                     | 2024-09-14 |   307 |    58 |       556 |  10.43 |
-|                                                    |            |   820 |   157 |      2961 |  10.89 |
+| [`ig`](https://instagram.com/p/C_6Fl4CBFog/)       | 2024-09-14 |   344 |    73 |      1459 |      5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1762) | 2024-09-14 |   176 |    26 |       946 |   2.75 |
+| [`tg`](https://t.me/mwscr/532)                     | 2024-09-14 |   340 |    59 |       556 |  10.61 |
+|                                                    |            |   860 |   158 |      2961 |  10.92 |
 
 #### Comments
 
