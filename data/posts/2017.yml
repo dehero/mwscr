@@ -6815,7 +6815,7 @@
     - service: vk
       id: 1464
       published: 2024-03-22-18-12-46
-      updated: 2024-09-14-12-39-34
+      updated: 2024-09-21-13-23-46
       followers: 896
       likes: 34
       views: 318
@@ -9188,17 +9188,17 @@
     - service: vk
       id: 1483
       published: 2024-04-05-18-17-17
-      updated: 2024-09-14-12-39-32
+      updated: 2024-09-21-13-23-44
       followers: 908
       likes: 36
       views: 267
     - service: tg
       id: 369
       published: 2024-04-05-18-17-25
-      updated: 2024-09-14-12-39-32
+      updated: 2024-09-21-13-23-42
       followers: 355
       likes: 64
-      views: 462
+      views: 463
       comments: !c |-
         C0mAkpPLQnjrJoNrAACvQWxleGV5IFN0ZXBhbm922SvRj9C6INCd0L7QstC40Lkg0YDRltC6INC/
         0YDRj9C88J+YgvCfmILwn5iClMtCeOr63pEAAKhBZWxsYXJpYa3QkCDQtNC1INGG0LU/k8tCeOr8
@@ -9448,24 +9448,24 @@
       id: DAG9whpsfGu
       mediaId: '18000110414662122'
       published: 2024-09-19-18-29-52
-      updated: 2024-09-21-12-39-27
+      updated: 2024-09-21-13-23-39
       followers: 1458
       likes: 55
-      views: 256
+      views: 259
     - service: vk
       id: 1773
       published: 2024-09-19-18-29-58
-      updated: 2024-09-21-12-39-29
+      updated: 2024-09-21-13-23-41
       followers: 948
       likes: 31
       views: 167
     - service: tg
       id: 538
       published: 2024-09-19-18-30-04
-      updated: 2024-09-21-12-39-28
+      updated: 2024-09-21-13-23-40
       followers: 555
       likes: 53
-      views: 229
+      views: 230
 2017-10-10-on-the-pass:
   title: On the Pass
   titleRu: На перевале
