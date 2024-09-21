@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`207 items`
+`208 items`
+
+## <span id="2024-09-21-falas-ancestral-tomb">Falas Ancestral Tomb</span>
+
+`RU` Родовая гробница Фалас
+
+<a href="https://instagram.com/p/BX2RoP1jtAa/" title="2017-08-16-falas-ancestral-tomb"><img alt="store:/shots/2017-08-16-falas-ancestral-tomb.png" src="../../assets/previews/shots/2017-08-16-falas-ancestral-tomb.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Falas Ancestral Tomb` `🚀 OpenMW`
+
+```
+2024-09-21-falas-ancestral-tomb
+```
+
+> `2017-08-16-falas-ancestral-tomb`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BX2RoP1jtAa/)       | 2017-08-16 |       |    63 |       192 |  32.81 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_394)  | 2017-08-16 |   134 |     8 |        75 |  10.67 |
+| [`ig`](https://instagram.com/p/DAMHLdOsLZl/)       | 2024-09-21 |       |       |      1459 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1775) | 2024-09-21 |       |       |       953 |        |
+| [`tg`](https://t.me/mwscr/540)                     | 2024-09-21 |       |       |       555 |        |
+|                                                    |            |       |       |      2967 |  21.74 |
+
+#### Comments
+
+- `vk` <ins title="2017-08-16-08-38-56">soulilight</ins> Всегда забавляло название
 
 ## <span id="2024-09-20-the-entrance-to-bthungthumz">The Entrance to Bthungthumz</span>
 
@@ -29,10 +60,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1069) | 2018-11-21 |  1043 |    35 |       287 |   12.2 |
 | [`tg`](https://t.me/mwscr/125)                     | 2018-11-21 |   371 |     3 |           |        |
 | [`ig`](https://instagram.com/p/BqeIVPBBU0s/)       | 2018-11-22 |       |   125 |       477 |  26.21 |
-| [`ig`](https://instagram.com/p/DAJimkkBNV_/)       | 2024-09-20 |   258 |    61 |      1459 |   4.18 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1774) | 2024-09-20 |   178 |    29 |       949 |   3.06 |
-| [`tg`](https://t.me/mwscr/539)                     | 2024-09-20 |   159 |    44 |       555 |   7.93 |
-|                                                    |            |   595 |   134 |      2963 |  10.71 |
+| [`ig`](https://instagram.com/p/DAJimkkBNV_/)       | 2024-09-20 |   263 |    61 |      1459 |   4.18 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1774) | 2024-09-20 |   181 |    29 |       949 |   3.06 |
+| [`tg`](https://t.me/mwscr/539)                     | 2024-09-20 |   160 |    44 |       555 |   7.93 |
+|                                                    |            |   604 |   134 |      2963 |  10.71 |
 
 #### Comments
 
@@ -63,10 +94,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaCTo47j5kd/)       | 2017-10-09 |       |    60 |       223 |  26.91 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_455)  | 2017-10-09 |   143 |     7 |        87 |   8.05 |
-| [`ig`](https://instagram.com/p/DAG9whpsfGu/)       | 2024-09-19 |   263 |    56 |      1458 |   3.84 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1773) | 2024-09-19 |   168 |    31 |       948 |   3.27 |
-| [`tg`](https://t.me/mwscr/538)                     | 2024-09-19 |   233 |    54 |       555 |   9.73 |
-|                                                    |            |   664 |   141 |      2961 |  10.36 |
+| [`ig`](https://instagram.com/p/DAG9whpsfGu/)       | 2024-09-19 |   264 |    56 |      1458 |   3.84 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1773) | 2024-09-19 |   169 |    31 |       948 |   3.27 |
+| [`tg`](https://t.me/mwscr/538)                     | 2024-09-19 |   234 |    54 |       555 |   9.73 |
+|                                                    |            |   667 |   141 |      2961 |  10.36 |
 
 ## <span id="2024-09-18-nileras-farmhouse">Nilera&#39;s Farmhouse</span>
 

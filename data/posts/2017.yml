@@ -7799,6 +7799,19 @@
       comments: !c |-
         iyOAkZPLQnXeoyEQAACqc291bGlsaWdodNkw0JLRgdC10LPQtNCwINC30LDQsdCw0LLQu9GP0LvQ
         viDQvdCw0LfQstCw0L3QuNC1Aw==
+    - service: ig
+      id: DAMHLdOsLZl
+      mediaId: '17862738639230773'
+      published: 2024-09-21-18-28-25
+      followers: 1459
+    - service: vk
+      id: 1775
+      published: 2024-09-21-18-28-33
+      followers: 953
+    - service: tg
+      id: 540
+      published: 2024-09-21-18-28-42
+      followers: 555
 2017-08-17-water-stone:
   title: Water Stone
   titleRu: Камень Воды
@@ -9448,24 +9461,24 @@
       id: DAG9whpsfGu
       mediaId: '18000110414662122'
       published: 2024-09-19-18-29-52
-      updated: 2024-09-21-17-20-41
+      updated: 2024-09-21-18-28-08
       followers: 1458
       likes: 56
-      views: 263
+      views: 264
     - service: vk
       id: 1773
       published: 2024-09-19-18-29-58
-      updated: 2024-09-21-17-20-43
+      updated: 2024-09-21-18-28-10
       followers: 948
       likes: 31
-      views: 168
+      views: 169
     - service: tg
       id: 538
       published: 2024-09-19-18-30-04
-      updated: 2024-09-21-17-20-43
+      updated: 2024-09-21-18-28-10
       followers: 555
       likes: 54
-      views: 233
+      views: 234
 2017-10-10-on-the-pass:
   title: On the Pass
   titleRu: На перевале

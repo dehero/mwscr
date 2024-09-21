@@ -202,6 +202,16 @@ Roles: `foreigner`
 ekaterina
 ```
 
+### Эльдра́д
+
+[Telegram](https://t.me/Master_Eldrad)
+
+Roles: `foreigner`  
+
+```
+eldrad
+```
+
 ### Gleb
 
 [Telegram](https://t.me/glebiris)

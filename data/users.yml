@@ -43,6 +43,11 @@ ekaterina:
   name: Ekaterina
   profiles:
     tg: berskate
+eldrad:
+  telegramBotChatId: 398125107
+  name: Эльдра́д
+  profiles:
+    tg: Master_Eldrad
 gleb:
   telegramBotChatId: 5357370117
   name: Gleb
