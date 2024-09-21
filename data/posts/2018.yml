@@ -257,7 +257,7 @@
     - service: vk
       id: 1607
       published: 2024-06-28-18-19-25
-      updated: 2024-09-14-02-44-44
+      updated: 2024-09-21-02-47-03
       followers: 917
       likes: 38
       views: 278
@@ -265,10 +265,10 @@
     - service: tg
       id: 453
       published: 2024-06-28-18-19-31
-      updated: 2024-09-14-02-44-42
+      updated: 2024-09-21-02-47-01
       followers: 387
       likes: 59
-      views: 514
+      views: 515
 2018-01-10-rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
@@ -5212,18 +5212,18 @@
     - service: vk
       id: 1657
       published: 2024-07-26-18-20-40
-      updated: 2024-09-14-02-44-41
+      updated: 2024-09-21-02-47-00
       followers: 923
       likes: 34
-      views: 258
+      views: 259
       reposts: 1
     - service: tg
       id: 481
       published: 2024-07-26-18-20-48
-      updated: 2024-09-14-02-44-40
+      updated: 2024-09-21-02-46-59
       followers: 400
       likes: 68
-      views: 594
+      views: 599
       comments: !c CwuAkZPLQnkPIJkoAACmQzRINk80pPCfmI4D
 2018-06-06-i-think-i-got-sick:
   title: I Think I Got Sick
@@ -8508,14 +8508,14 @@
     - service: tg
       id: 460
       published: 2024-07-05-18-19-50
-      updated: 2024-09-14-02-44-41
+      updated: 2024-09-21-02-47-01
       followers: 393
       likes: 52
-      views: 435
+      views: 437
     - service: vk
       id: 1615
       published: 2024-07-05-19-12-06
-      updated: 2024-09-14-02-44-43
+      updated: 2024-09-21-02-47-02
       followers: 919
       likes: 32
       views: 277
@@ -11042,21 +11042,21 @@
       id: DAJimkkBNV_
       mediaId: '18058220053742509'
       published: 2024-09-20-18-30-18
-      updated: 2024-09-21-01-41-55
+      updated: 2024-09-21-02-46-57
       followers: 1459
-      likes: 41
-      views: 146
+      likes: 42
+      views: 156
     - service: vk
       id: 1774
       published: 2024-09-20-18-30-28
-      updated: 2024-09-21-01-41-54
+      updated: 2024-09-21-02-46-58
       followers: 949
       likes: 18
-      views: 111
+      views: 116
     - service: tg
       id: 539
       published: 2024-09-20-18-30-37
-      updated: 2024-09-21-01-41-55
+      updated: 2024-09-21-02-46-58
       followers: 555
       likes: 35
       views: 121
