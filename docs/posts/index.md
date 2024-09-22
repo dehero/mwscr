@@ -4,7 +4,35 @@
 
 # Posted in 2024
 
-`208 items`
+`209 items`
+
+## <span id="2024-09-22-night-coast">Night Coast</span>
+
+`RU` Ночное побережье
+
+<a href="https://instagram.com/p/BqSCYXSB0wL/" title="2018-11-17-night-coast"><img alt="store:/shots/2018-11-17-night-coast.png" src="../../assets/previews/shots/2018-11-17-night-coast.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-09-22-night-coast&postLocation=)</code> `🚀 OpenMW` `night`
+
+```
+2024-09-22-night-coast
+```
+
+> `2018-11-17-night-coast`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BqSCYXSB0wL/)       | 2018-11-17 |       |   127 |       473 |  26.85 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1057) | 2018-11-17 |   661 |    58 |       286 |  20.98 |
+| [`tg`](https://t.me/mwscr/121)                     | 2018-11-17 |   362 |     5 |           |        |
+| [`ig`](https://instagram.com/p/DAOr8iaSQSV/)       | 2024-09-22 |       |       |      1459 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1777) | 2024-09-22 |       |       |       956 |        |
+| [`tg`](https://t.me/mwscr/541)                     | 2024-09-22 |       |       |       554 |        |
+|                                                    |            |       |       |      2969 |  23.91 |
 
 ## <span id="2024-09-21-falas-ancestral-tomb">Falas Ancestral Tomb</span>
 
@@ -28,10 +56,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BX2RoP1jtAa/)       | 2017-08-16 |       |    63 |       192 |  32.81 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_394)  | 2017-08-16 |   134 |     8 |        75 |  10.67 |
-| [`ig`](https://instagram.com/p/DAMHLdOsLZl/)       | 2024-09-21 |   307 |    80 |      1459 |   5.48 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1775) | 2024-09-21 |   145 |    24 |       953 |   2.52 |
-| [`tg`](https://t.me/mwscr/540)                     | 2024-09-21 |   155 |    37 |       555 |   6.67 |
-|                                                    |            |   607 |   141 |      2967 |  11.63 |
+| [`ig`](https://instagram.com/p/DAMHLdOsLZl/)       | 2024-09-21 |   316 |    83 |      1459 |   5.69 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1775) | 2024-09-21 |   151 |    25 |       953 |   2.62 |
+| [`tg`](https://t.me/mwscr/540)                     | 2024-09-21 |   156 |    37 |       555 |   6.67 |
+|                                                    |            |   623 |   145 |      2967 |  11.69 |
 
 #### Comments
 
@@ -60,10 +88,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1069) | 2018-11-21 |  1043 |    35 |       287 |   12.2 |
 | [`tg`](https://t.me/mwscr/125)                     | 2018-11-21 |   371 |     3 |           |        |
 | [`ig`](https://instagram.com/p/BqeIVPBBU0s/)       | 2018-11-22 |       |   125 |       477 |  26.21 |
-| [`ig`](https://instagram.com/p/DAJimkkBNV_/)       | 2024-09-20 |   291 |    66 |      1459 |   4.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1774) | 2024-09-20 |   211 |    33 |       949 |   3.48 |
+| [`ig`](https://instagram.com/p/DAJimkkBNV_/)       | 2024-09-20 |   293 |    66 |      1459 |   4.52 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1774) | 2024-09-20 |   216 |    33 |       949 |   3.48 |
 | [`tg`](https://t.me/mwscr/539)                     | 2024-09-20 |   204 |    54 |       555 |   9.73 |
-|                                                    |            |   706 |   153 |      2963 |  11.23 |
+|                                                    |            |   713 |   153 |      2963 |  11.23 |
 
 #### Comments
 
@@ -122,10 +150,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bm3uN2ZFEBQ/)       | 2018-08-24 |       |   122 |       402 |  30.35 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_873)  | 2018-08-24 |   377 |    23 |       202 |  11.39 |
-| [`ig`](https://instagram.com/p/DAEX2n6v8Ir/)       | 2024-09-18 |   299 |    70 |      1459 |    4.8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1772) | 2024-09-18 |   194 |    32 |       947 |   3.38 |
-| [`tg`](https://t.me/mwscr/537)                     | 2024-09-18 |   230 |    56 |       556 |  10.07 |
-|                                                    |            |   723 |   158 |      2962 |     12 |
+| [`ig`](https://instagram.com/p/DAEX2n6v8Ir/)       | 2024-09-18 |   304 |    70 |      1459 |    4.8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1772) | 2024-09-18 |   209 |    33 |       947 |   3.48 |
+| [`tg`](https://t.me/mwscr/537)                     | 2024-09-18 |   261 |    56 |       556 |  10.07 |
+|                                                    |            |   774 |   159 |      2962 |  12.02 |
 
 ## <span id="2024-09-17-suburb-muckspunge">Suburb Muckspunge</span>
 
