@@ -10892,15 +10892,28 @@
       id: DAOr8iaSQSV
       mediaId: '17857094484255706'
       published: 2024-09-22-18-28-09
+      updated: 2024-09-22-19-16-42
       followers: 1459
+      likes: 22
+      views: 53
     - service: vk
       id: 1777
       published: 2024-09-22-18-28-15
+      updated: 2024-09-22-19-16-42
       followers: 956
+      likes: 12
+      views: 67
+      reposts: 1
+      comments: !c |-
+        G2wA+B0Hbiw3sNHs4DVoPE/eBjLwP59ZRgl1XeKRJO+TBbW5kqIY2j0y9jimn07OQhMis5EEm+7y
+        N/k5vkWBZSCbJAnMUJP38+G5OCaMN7KxrFBhj0/SoofJxEUsyGO903ao29npQKMb3/zUqxh/vAs=
     - service: tg
       id: 541
       published: 2024-09-22-18-28-23
+      updated: 2024-09-22-19-16-43
       followers: 554
+      likes: 22
+      views: 53
 2018-11-18-horror-of-the-red-corridor:
   title: Horror of the Red Corridor
   titleRu: Ужас красного коридора
