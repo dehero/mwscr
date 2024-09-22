@@ -1795,18 +1795,18 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-09-15-03-27-47
+      updated: 2024-09-22-03-28-51
       followers: 916
       likes: 52
-      views: 406
+      views: 407
       reposts: 7
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-09-15-03-27-45
+      updated: 2024-09-22-03-28-50
       followers: 386
       likes: 71
-      views: 515
+      views: 519
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -5853,17 +5853,17 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2024-09-15-03-27-46
+      updated: 2024-09-22-03-28-51
       followers: 920
       likes: 38
       views: 278
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2024-09-15-03-27-45
+      updated: 2024-09-22-03-28-49
       followers: 387
       likes: 60
-      views: 467
+      views: 469
 2017-06-18-manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
@@ -7803,21 +7803,21 @@
       id: DAMHLdOsLZl
       mediaId: '17862738639230773'
       published: 2024-09-21-18-28-25
-      updated: 2024-09-22-02-56-06
+      updated: 2024-09-22-03-28-45
       followers: 1459
       likes: 60
       views: 209
     - service: vk
       id: 1775
       published: 2024-09-21-18-28-33
-      updated: 2024-09-22-02-56-07
+      updated: 2024-09-22-03-28-46
       followers: 953
       likes: 14
       views: 78
     - service: tg
       id: 540
       published: 2024-09-21-18-28-42
-      updated: 2024-09-22-02-56-07
+      updated: 2024-09-22-03-28-46
       followers: 555
       likes: 29
       views: 113
@@ -11573,7 +11573,7 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-09-15-03-27-44
+      updated: 2024-09-22-03-28-49
       followers: 919
       likes: 50
       views: 278
@@ -11590,10 +11590,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-09-15-03-27-43
+      updated: 2024-09-22-03-28-48
       followers: 393
       likes: 59
-      views: 454
+      views: 455
     - service: ig
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
