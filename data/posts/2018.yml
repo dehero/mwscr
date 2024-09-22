@@ -8139,18 +8139,18 @@
     - service: vk
       id: 1707
       published: 2024-08-25-18-18-20
-      updated: 2024-09-15-20-22-19
+      updated: 2024-09-22-20-22-39
       followers: 940
       likes: 34
-      views: 250
+      views: 255
       reposts: 1
     - service: tg
       id: 512
       published: 2024-08-25-18-18-26
-      updated: 2024-09-15-20-22-19
+      updated: 2024-09-22-20-22-37
       followers: 542
       likes: 61
-      views: 531
+      views: 547
 2018-09-05-bonewalker:
   title: Bonewalker
   titleRu: Ходячий труп
@@ -10644,17 +10644,17 @@
       id: C_8qfmlN21K
       mediaId: '17995167608691439'
       published: 2024-09-15-18-29-07
-      updated: 2024-09-21-19-16-58
+      updated: 2024-09-22-20-22-36
       followers: 1458
       likes: 106
-      views: 368
+      views: 370
     - service: vk
       id: 1764
       published: 2024-09-15-18-29-14
-      updated: 2024-09-21-19-16-59
+      updated: 2024-09-22-20-22-37
       followers: 947
-      likes: 54
-      views: 330
+      likes: 55
+      views: 337
       reposts: 2
       comments: !c |-
         G5IBQBwJNk5xo8u38lD0T1yM8B7WzJ3FnHiTeCJhsh9ztmVJ4cuHhrqdqAOtbWKuVktSBE0Gm2C4
@@ -10664,10 +10664,10 @@
     - service: tg
       id: 533
       published: 2024-09-15-18-29-22
-      updated: 2024-09-21-19-16-57
+      updated: 2024-09-22-20-22-35
       followers: 557
       likes: 68
-      views: 326
+      views: 352
       comments: !c CxOAkZPLQnkfiGjEgACnbWxlbm5pY7Nza3kgaXMgYW1hemluZyBoZXJlAw==
 2018-11-11-through-the-snowy-forest:
   title: Through the Snowy Forest
@@ -10892,17 +10892,17 @@
       id: DAOr8iaSQSV
       mediaId: '17857094484255706'
       published: 2024-09-22-18-28-09
-      updated: 2024-09-22-19-16-42
+      updated: 2024-09-22-20-22-32
       followers: 1459
-      likes: 22
-      views: 53
+      likes: 36
+      views: 106
     - service: vk
       id: 1777
       published: 2024-09-22-18-28-15
-      updated: 2024-09-22-19-16-42
+      updated: 2024-09-22-20-22-31
       followers: 956
-      likes: 12
-      views: 67
+      likes: 19
+      views: 107
       reposts: 1
       comments: !c |-
         G2wA+B0Hbiw3sNHs4DVoPE/eBjLwP59ZRgl1XeKRJO+TBbW5kqIY2j0y9jimn07OQhMis5EEm+7y
@@ -10910,10 +10910,10 @@
     - service: tg
       id: 541
       published: 2024-09-22-18-28-23
-      updated: 2024-09-22-19-16-43
+      updated: 2024-09-22-20-22-32
       followers: 554
-      likes: 22
-      views: 53
+      likes: 29
+      views: 73
 2018-11-18-horror-of-the-red-corridor:
   title: Horror of the Red Corridor
   titleRu: Ужас красного коридора
