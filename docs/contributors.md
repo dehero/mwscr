@@ -68,7 +68,7 @@ irina-bystritskaya
 [GitHub](https://github.com/Helvgen)
 
 Roles: `author` `beginner`  
-Authored: 2 pending, 2 rejected  
+Authored: 1 pending, 3 rejected  
 Requested: 1 rejected  
 
 ```
