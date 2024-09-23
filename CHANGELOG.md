@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.17.2](https://github.com/dehero/mwscr/compare/v1.17.1...v1.17.2) (2024-09-23)
+
+### Documentation
+
+- update violation list, inbox references and roadmap markup
+  ([e9c16ec](https://github.com/dehero/mwscr/commit/e9c16ec3b1a78f4e6e22756c4102cddec017a54e))
+
 ## [1.17.1](https://github.com/dehero/mwscr/compare/v1.17.0...v1.17.1) (2024-09-19)
 
 ### Bug Fixes
