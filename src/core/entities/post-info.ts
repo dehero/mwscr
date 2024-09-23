@@ -1,7 +1,11 @@
-import type { SortDirection } from '../utils/common-types.js';
-import { asArray, cleanupUndefinedProps } from '../utils/common-utils.js';
+import type { DateRange, SortDirection } from '../utils/common-types.js';
+import { asArray, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
+import { dateToString, formatDate, isDateInRange, isValidDate } from '../utils/date-utils.js';
+import { isNestedLocation } from './location.js';
 import { createLocationInfo, type LocationInfo } from './location-info.js';
 import type { LocationsReader } from './locations-reader.js';
+import type { Option } from './option.js';
+import { ANY_OPTION, NONE_OPTION } from './option.js';
 import type {
   PostAddon,
   PostContent,
@@ -20,6 +24,8 @@ import {
   getPostEntryLikes,
   getPostEntryViews,
   getPostRating,
+  POST_TYPES,
+  POST_VIOLATIONS,
 } from './post.js';
 import { isPublishablePost, isTrashItem } from './post-variation.js';
 import type { UserEntry } from './user.js';
@@ -55,6 +61,38 @@ export interface PostInfo {
 }
 
 export type PostInfoComparator = (a: PostInfo, b: PostInfo) => number;
+
+export interface SelectPostInfoSortOption extends Option {
+  fn: (direction: SortDirection) => PostInfoComparator;
+}
+
+export const selectPostInfosSortOptions = [
+  { value: 'date', label: 'Date', fn: comparePostInfosByDate },
+  { value: 'id', label: 'ID', fn: comparePostInfosById },
+  { value: 'likes', label: 'Likes', fn: comparePostInfosByLikes },
+  { value: 'views', label: 'Views', fn: comparePostInfosByViews },
+  { value: 'engagement', label: 'Engagement', fn: comparePostInfosByEngagement },
+  { value: 'rating', label: 'Rating', fn: comparePostInfosByRating },
+  { value: 'mark', label: "Editor's Mark", fn: comparePostInfosByMark },
+] as const satisfies SelectPostInfoSortOption[];
+
+export type SelectPostInfosSortKey = (typeof selectPostInfosSortOptions)[number]['value'];
+
+export interface SelectPostInfosParams {
+  type?: PostType;
+  tag?: string;
+  location?: string;
+  search?: string;
+  author?: string;
+  requester?: string;
+  mark?: PostMark;
+  violation?: PostViolation | typeof ANY_OPTION.value | typeof NONE_OPTION.value;
+  publishable?: boolean;
+  original?: boolean;
+  sortKey: SelectPostInfosSortKey;
+  sortDirection: SortDirection;
+  date?: DateRange;
+}
 
 export async function createPostInfo(
   entry: PostEntry,
@@ -153,4 +191,121 @@ export function comparePostInfosByDate(direction: SortDirection): PostInfoCompar
   return direction === 'asc'
     ? (a, b) => (getPostDateById(a.id)?.getTime() || 0) - (getPostDateById(b.id)?.getTime() || 0) || byId(a, b)
     : (a, b) => (getPostDateById(b.id)?.getTime() || 0) - (getPostDateById(a.id)?.getTime() || 0) || byId(a, b);
+}
+
+export const selectPostInfos = (postInfos: PostInfo[], params: SelectPostInfosParams): PostInfo[] => {
+  const comparator =
+    selectPostInfosSortOptions.find((comparator) => comparator.value === params.sortKey)?.fn ?? comparePostInfosByDate;
+  const searchTokens = getSearchTokens(params.search);
+
+  return [...postInfos].sort(comparator(params.sortDirection)).filter((info) => {
+    const date = getPostDateById(info.id);
+
+    return Boolean(
+      (typeof params.publishable === 'undefined' || params.publishable !== Boolean(info.publishableErrors?.length)) &&
+        (typeof params.requester === 'undefined' ||
+          (params.requester === ANY_OPTION.value && info.requesterEntry) ||
+          (params.requester === NONE_OPTION.value && !info.requesterEntry) ||
+          info.requesterEntry?.[0] === params.requester) &&
+        (typeof params.date === 'undefined' ||
+          (isValidDate(date) ? isDateInRange(date, params.date, 'date') : false)) &&
+        (typeof params.original === 'undefined' || params.original !== Boolean(info.refId)) &&
+        (typeof params.type === 'undefined' || info.type === params.type) &&
+        (typeof params.tag === 'undefined' || info.tags?.includes(params.tag)) &&
+        (typeof params.author === 'undefined' || info.authorEntries.some(([id]) => id === params.author)) &&
+        (typeof params.location === 'undefined' ||
+          (params.location === ANY_OPTION.value && info.location) ||
+          (params.location === NONE_OPTION.value && !info.location) ||
+          (info.location && isNestedLocation(info.location.title, params.location))) &&
+        (typeof params.mark === 'undefined' || info.mark === params.mark) &&
+        (typeof params.violation === 'undefined' ||
+          (params.violation === ANY_OPTION.value && info.violation) ||
+          (params.violation === NONE_OPTION.value && !info.violation) ||
+          info.violation === params.violation) &&
+        search(searchTokens, [info.title, info.titleRu, info.description, info.descriptionRu]),
+    );
+  });
+};
+
+export function selectPostInfosResultToString(count: number, params: SelectPostInfosParams) {
+  const result: string[] = [count.toString()];
+  const sortOption = selectPostInfosSortOptions.find((comparator) => comparator.value === params.sortKey);
+
+  if (typeof params.original !== 'undefined') {
+    result.push(params.original ? 'original' : 'reposted');
+  }
+
+  if (typeof params.publishable !== 'undefined') {
+    result.push(params.publishable ? 'publishable' : 'not publishable');
+  }
+
+  if (params.requester) {
+    if (params.requester === ANY_OPTION.value) {
+      result.push('requested');
+    } else if (params.requester === NONE_OPTION.value) {
+      result.push('unprompted');
+    }
+  }
+
+  if (params.type) {
+    result.push(
+      `${POST_TYPES.find((info) => info.id === params.type)?.title.toLocaleLowerCase()}${count !== 1 ? 's' : ''}`,
+    );
+  } else {
+    result.push(`post${count !== 1 ? 's' : ''}`);
+  }
+
+  if (params.search) {
+    result.push(`with "${params.search}" in title or description`);
+  }
+
+  if (params.location) {
+    if (params.location === ANY_OPTION.value) {
+      result.push('in any location');
+    } else if (params.location === NONE_OPTION.value) {
+      result.push('in unknown location');
+    } else {
+      result.push(`in "${params.location}"`);
+    }
+  }
+
+  if (params.tag) {
+    result.push(`with "${params.tag}" tag`);
+  }
+
+  if (params.author) {
+    result.push(`by "${params.author}"`);
+  }
+
+  if (params.requester && params.requester !== ANY_OPTION.value && params.requester !== NONE_OPTION.value) {
+    result.push(`requested by "${params.requester}"`);
+  }
+
+  if (params.mark) {
+    result.push(`marked with ${params.mark}`);
+  }
+
+  if (params.violation) {
+    if (params.violation === ANY_OPTION.value) {
+      result.push('with any violation');
+    } else if (params.violation === NONE_OPTION.value) {
+      result.push('with no violations');
+    } else {
+      result.push(`with "${POST_VIOLATIONS[params.violation].title}" violation`);
+    }
+  }
+
+  if (params.date) {
+    if (params.date[1] && dateToString(params.date[0]) !== dateToString(params.date[1])) {
+      result.push(`from ${formatDate(params.date[0])} to ${formatDate(params.date[1])}`);
+    } else {
+      result.push(`on ${formatDate(params.date[0])}`);
+    }
+  }
+
+  if (sortOption) {
+    result.push(`sorted by "${sortOption.label}" ${params.sortDirection === 'asc' ? 'ascending' : 'descending'}`);
+  }
+
+  return result.join(' ');
 }

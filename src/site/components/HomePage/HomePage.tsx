@@ -3,10 +3,9 @@ import { useData } from 'vike-solid/useData';
 import icon from '../../../../assets/icon.png?format=avif&imagetools';
 import pkg from '../../../../package.json';
 import { getPostDateById } from '../../../core/entities/post.js';
-import type { PostInfo } from '../../../core/entities/post-info.js';
+import { type PostInfo, selectPostInfos } from '../../../core/entities/post-info.js';
 import type { UserContribution } from '../../../core/entities/user-info.js';
 import { dateToString, formatDate, formatTime } from '../../../core/utils/date-utils.js';
-import { selectPostInfos } from '../../data-utils/post-infos.js';
 import { postRoute } from '../../routes/post-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
@@ -27,7 +26,6 @@ export interface HomePageData {
   totalPosts: UserContribution;
   authorCount: number;
   requesterCount: number;
-  lastPostInfo?: PostInfo;
   lastOriginalPostInfo?: PostInfo;
   topRatedPostInfo?: PostInfo;
   topLikedPostInfo?: PostInfo;
@@ -35,7 +33,6 @@ export interface HomePageData {
   lastProposedPostInfo?: PostInfo;
   lastRequestedPostInfo?: PostInfo;
   editorsChoicePostInfo?: PostInfo;
-  totalFollowers: number;
   totalLikes: number;
   totalCommentCount: number;
   recentPostInfos: PostInfo[];
@@ -47,7 +44,6 @@ export const HomePage: Component = () => {
     totalPosts,
     authorCount,
     requesterCount,
-    lastPostInfo,
     topRatedPostInfo,
     topLikedPostInfo,
     lastRequestedPostInfo,
@@ -55,12 +51,12 @@ export const HomePage: Component = () => {
     lastFulfilledPostInfo,
     lastOriginalPostInfo,
     editorsChoicePostInfo,
-    totalFollowers,
     totalLikes,
     totalCommentCount,
     recentPostInfos,
   } = useData<HomePageData>();
 
+  const lastPostInfo = recentPostInfos[0];
   const [showDialog, setShowDialog] = createSignal<'proposal' | 'request' | undefined>();
 
   const recentMostEngagingPostInfo = () =>
@@ -171,7 +167,7 @@ export const HomePage: Component = () => {
             rows={[
               {
                 label: 'Followers',
-                value: totalFollowers,
+                value: lastPostInfo?.followers,
               },
               {
                 label: 'Likes',

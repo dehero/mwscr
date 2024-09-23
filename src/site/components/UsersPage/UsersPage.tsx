@@ -6,16 +6,14 @@ import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION } from '../../../core/entities/option.js';
 import type { UserRole } from '../../../core/entities/user.js';
 import { USER_ROLES } from '../../../core/entities/user.js';
-import type { UserInfo } from '../../../core/entities/user-info.js';
-import type { SortDirection } from '../../../core/utils/common-types.js';
-import { isObjectEqual } from '../../../core/utils/common-utils.js';
+import type { SelectUserInfosParams, SelectUserInfosSortKey, UserInfo } from '../../../core/entities/user-info.js';
 import {
   selectUserInfos,
-  type SelectUserInfosParams,
   selectUserInfosResultToString,
-  type SelectUserInfosSortKey,
   selectUserInfosSortOptions,
-} from '../../data-utils/user-infos.js';
+} from '../../../core/entities/user-info.js';
+import type { SortDirection } from '../../../core/utils/common-types.js';
+import { isObjectEqual } from '../../../core/utils/common-utils.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
 import { Button } from '../Button/Button.js';
 import { Checkbox } from '../Checkbox/Checkbox.jsx';

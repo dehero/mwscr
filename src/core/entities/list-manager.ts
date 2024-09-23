@@ -6,11 +6,26 @@ export type ListReaderEntry<TItem> = [id: string, item: TItem, refId?: string];
 
 export type ListReaderChunk<TItem> = Map<string, TItem | string>;
 
+export type ListReaderStats = ReadonlyMap<string, number>;
+
 export abstract class ListReader<TItem> {
   abstract readonly name: string;
 
   protected loadedChunkNames: string[] | undefined;
   protected chunks: Map<string, ListReaderChunk<TItem>> = new Map();
+
+  protected statsCaches: Record<string, ListReaderStats> = {};
+
+  protected async createStatsCache(key: string, creator: () => Promise<ListReaderStats>): Promise<ListReaderStats> {
+    if (!this.statsCaches[key]) {
+      this.statsCaches[key] = await creator();
+    }
+    return this.statsCaches[key] as ListReaderStats;
+  }
+
+  protected clearStateCaches() {
+    this.statsCaches = {};
+  }
 
   async getChunkNames(): Promise<string[]> {
     if (!this.loadedChunkNames) {
@@ -145,6 +160,8 @@ export abstract class ListManager<TItem> extends ListReader<TItem> {
     const chunk = await this.loadChunk(chunkName);
     chunk.set(id, item);
 
+    this.clearStateCaches();
+
     return this.saveChunk(chunkName);
   }
 
@@ -174,6 +191,8 @@ export abstract class ListManager<TItem> extends ListReader<TItem> {
 
     chunk.delete(id);
 
+    this.clearStateCaches();
+
     return this.saveChunk(chunkName);
   }
 
@@ -184,6 +203,8 @@ export abstract class ListManager<TItem> extends ListReader<TItem> {
 
     const refId = typeof item === 'string' ? item : id;
     const refChunkName = this.getItemChunkName(refId);
+
+    this.clearStateCaches();
 
     return this.saveChunk(refChunkName);
   }

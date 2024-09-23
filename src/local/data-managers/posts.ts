@@ -1,8 +1,6 @@
 import { readdir } from 'fs/promises';
-import type { Post, PostEntriesComparator, PostFilter } from '../../core/entities/post.js';
-import { getPostEntriesFromSource, getPostFirstPublished, isPost } from '../../core/entities/post.js';
-import type { PostInfo } from '../../core/entities/post-info.js';
-import { createPostInfo } from '../../core/entities/post-info.js';
+import type { Post } from '../../core/entities/post.js';
+import { getPostFirstPublished, isPost } from '../../core/entities/post.js';
 import { stripPostTags } from '../../core/entities/post-tag.js';
 import type { InboxItem, PostRequest, PublishablePost, TrashItem } from '../../core/entities/post-variation.js';
 import {
@@ -17,8 +15,6 @@ import { asArray, textToId } from '../../core/utils/common-utils.js';
 import { dateToString } from '../../core/utils/date-utils.js';
 import { getDataHash } from '../utils/data-utils.js';
 import { pathExists } from '../utils/file-utils.js';
-import { locations } from './locations.js';
-import { users } from './users.js';
 import { loadYaml, saveYaml } from './utils/yaml.js';
 
 interface LocalPostsManagerProps<TPost extends Post> {
@@ -159,37 +155,3 @@ export function createPostRequestId(request: PostRequest) {
 }
 
 export const postsManagers: PostsManager[] = [posts, inbox, trash];
-
-export async function getPostInfo(
-  manager: PostsManager,
-  compareFn?: PostEntriesComparator,
-  filterFns?: PostFilter<Post, Post> | PostFilter<Post, Post>[],
-  skipReferences?: boolean,
-): Promise<PostInfo | undefined> {
-  const [info] = await getPostInfos(manager, compareFn, filterFns, skipReferences, 1);
-
-  return info;
-}
-
-export async function getPostInfos(
-  manager: PostsManager,
-  compareFn?: PostEntriesComparator,
-  filterFns?: PostFilter<Post, Post> | PostFilter<Post, Post>[],
-  skipReferences?: boolean,
-  size?: number,
-): Promise<PostInfo[]> {
-  const filterFn = filterFns
-    ? Array.isArray(filterFns)
-      ? (post: Post): post is Post => filterFns.every((fn) => fn(post))
-      : filterFns
-    : undefined;
-
-  const entries = await getPostEntriesFromSource(
-    () => manager.readAllEntries(skipReferences),
-    compareFn,
-    filterFn,
-    size,
-  );
-
-  return await Promise.all(entries.map((entry) => createPostInfo(entry, locations, users, manager.name)));
-}

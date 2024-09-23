@@ -1,4 +1,5 @@
 import { asArray } from '../utils/common-utils.js';
+import type { ListReaderStats } from './list-manager.js';
 import { ListManager } from './list-manager.js';
 import type { Post } from './post.js';
 import {
@@ -12,8 +13,6 @@ import {
   mergePostWith,
 } from './post.js';
 
-export type PostsManagerStats = ReadonlyMap<string, number>;
-
 export abstract class PostsManager<TPost extends Post = Post> extends ListManager<TPost> {
   // TODO: maybe remove isPostEqual and mergePostWith as separate functions
 
@@ -21,146 +20,166 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
 
   protected mergeItemWith = mergePostWith;
 
-  async getAuthorsLikesStats(): Promise<PostsManagerStats> {
-    const stats = new Map<string, number>();
+  async getAuthorsLikesStats(): Promise<ListReaderStats> {
+    return this.createStatsCache(this.getAuthorsLikesStats.name, async () => {
+      const stats = new Map<string, number>();
 
-    for await (const entry of this.readAllEntries()) {
-      const likes = getPostEntryLikes(entry);
-      asArray(entry[1].author).forEach((author) => {
-        stats.set(author, (stats.get(author) || 0) + likes);
-      });
-    }
-
-    return stats;
-  }
-
-  async getAuthorsViewsStats(): Promise<PostsManagerStats> {
-    const stats = new Map<string, number>();
-
-    for await (const entry of this.readAllEntries()) {
-      const views = getPostEntryViews(entry);
-      asArray(entry[1].author).forEach((author) => {
-        stats.set(author, (stats.get(author) || 0) + views);
-      });
-    }
-
-    return stats;
-  }
-
-  async getAuthorsEngagementStats(): Promise<PostsManagerStats> {
-    const map = new Map<string, number[]>();
-
-    for await (const entry of this.readAllEntries(true)) {
-      const engagement = getPostEntryEngagement(entry);
-      if (!engagement) {
-        continue;
+      for await (const entry of this.readAllEntries()) {
+        const likes = getPostEntryLikes(entry);
+        asArray(entry[1].author).forEach((author) => {
+          stats.set(author, (stats.get(author) || 0) + likes);
+        });
       }
-      asArray(entry[1].author).forEach((author) => {
-        map.set(author, [...(map.get(author) ?? []), engagement]);
-      });
-    }
 
-    return new Map(
-      [...map].map(([author, engagements]) => [author, engagements.reduce((a, b) => a + b, 0) / engagements.length]),
-    );
+      return stats;
+    });
   }
 
-  async getAuthorsMarkScoreStats(): Promise<PostsManagerStats> {
-    const map = new Map<string, number[]>();
+  async getAuthorsViewsStats(): Promise<ListReaderStats> {
+    return this.createStatsCache(this.getAuthorsViewsStats.name, async () => {
+      const stats = new Map<string, number>();
 
-    for await (const [, post] of this.readAllEntries(true)) {
-      const mark = post.mark;
-      if (!mark) {
-        continue;
+      for await (const entry of this.readAllEntries()) {
+        const views = getPostEntryViews(entry);
+        asArray(entry[1].author).forEach((author) => {
+          stats.set(author, (stats.get(author) || 0) + views);
+        });
       }
-      const score = getPostMarkScore(mark);
-      if (typeof score === 'undefined') {
-        continue;
+
+      return stats;
+    });
+  }
+
+  async getAuthorsEngagementStats(): Promise<ListReaderStats> {
+    return this.createStatsCache(this.getAuthorsEngagementStats.name, async () => {
+      const map = new Map<string, number[]>();
+
+      for await (const entry of this.readAllEntries(true)) {
+        const engagement = getPostEntryEngagement(entry);
+        if (!engagement) {
+          continue;
+        }
+        asArray(entry[1].author).forEach((author) => {
+          map.set(author, [...(map.get(author) ?? []), engagement]);
+        });
       }
-      asArray(post.author).forEach((author) => {
-        map.set(author, [...(map.get(author) ?? []), score]);
-      });
-    }
 
-    return new Map([...map].map(([author, scores]) => [author, scores.reduce((a, b) => a + b, 0) / scores.length]));
+      return new Map(
+        [...map].map(([author, engagements]) => [author, engagements.reduce((a, b) => a + b, 0) / engagements.length]),
+      );
+    });
   }
 
-  async getAuthorsRatingStats(): Promise<PostsManagerStats> {
-    const ratings = new Map<string, number[]>();
+  async getAuthorsMarkScoreStats(): Promise<ListReaderStats> {
+    return this.createStatsCache(this.getAuthorsMarkScoreStats.name, async () => {
+      const map = new Map<string, number[]>();
 
-    for await (const [, post] of this.readAllEntries(true)) {
-      const rating = getPostRating(post);
-      if (!rating) {
-        continue;
+      for await (const [, post] of this.readAllEntries(true)) {
+        const mark = post.mark;
+        if (!mark) {
+          continue;
+        }
+        const score = getPostMarkScore(mark);
+        if (typeof score === 'undefined') {
+          continue;
+        }
+        asArray(post.author).forEach((author) => {
+          map.set(author, [...(map.get(author) ?? []), score]);
+        });
       }
-      asArray(post.author).forEach((author) => {
-        ratings.set(author, [...(ratings.get(author) ?? []), rating]);
-      });
-    }
 
-    return new Map(
-      [...ratings].map(([author, ratings]) => [author, ratings.reduce((a, b) => a + b, 0) / ratings.length]),
-    );
+      return new Map([...map].map(([author, scores]) => [author, scores.reduce((a, b) => a + b, 0) / scores.length]));
+    });
   }
 
-  async getAuthorsUsageStats(): Promise<PostsManagerStats> {
-    const stats = new Map<string, number>();
+  async getAuthorsRatingStats(): Promise<ListReaderStats> {
+    return this.createStatsCache(this.getAuthorsRatingStats.name, async () => {
+      const ratings = new Map<string, number[]>();
 
-    for await (const [, post] of this.readAllEntries(true)) {
-      asArray(post.author).forEach((author) => {
-        stats.set(author, (stats.get(author) || 0) + 1);
-      });
-    }
-
-    return stats;
-  }
-
-  async getDrawersUsageStats(): Promise<PostsManagerStats> {
-    const stats = new Map<string, number>();
-
-    for await (const [, post] of this.readAllEntries(true)) {
-      const drawer = getPostDrawer(post);
-      if (drawer) {
-        stats.set(drawer, (stats.get(drawer) || 0) + 1);
+      for await (const [, post] of this.readAllEntries(true)) {
+        const rating = getPostRating(post);
+        if (!rating) {
+          continue;
+        }
+        asArray(post.author).forEach((author) => {
+          ratings.set(author, [...(ratings.get(author) ?? []), rating]);
+        });
       }
-    }
 
-    return stats;
+      return new Map(
+        [...ratings].map(([author, ratings]) => [author, ratings.reduce((a, b) => a + b, 0) / ratings.length]),
+      );
+    });
   }
 
-  async getLocationsUsageStats(): Promise<PostsManagerStats> {
-    const stats = new Map<string, number>();
+  async getAuthorsUsageStats(): Promise<ListReaderStats> {
+    return this.createStatsCache(this.getAuthorsUsageStats.name, async () => {
+      const stats = new Map<string, number>();
 
-    for await (const [, post] of this.readAllEntries(true)) {
-      if (post.location) {
-        stats.set(post.location, (stats.get(post.location) || 0) + 1);
+      for await (const [, post] of this.readAllEntries(true)) {
+        asArray(post.author).forEach((author) => {
+          stats.set(author, (stats.get(author) || 0) + 1);
+        });
       }
-    }
 
-    return stats;
+      return stats;
+    });
   }
 
-  async getRequesterUsageStats(): Promise<PostsManagerStats> {
-    const stats = new Map<string, number>();
+  async getDrawersUsageStats(): Promise<ListReaderStats> {
+    return this.createStatsCache(this.getDrawersUsageStats.name, async () => {
+      const stats = new Map<string, number>();
 
-    for await (const [, post] of this.readAllEntries(true)) {
-      if (post.request?.user) {
-        stats.set(post.request.user, (stats.get(post.request.user) || 0) + 1);
+      for await (const [, post] of this.readAllEntries(true)) {
+        const drawer = getPostDrawer(post);
+        if (drawer) {
+          stats.set(drawer, (stats.get(drawer) || 0) + 1);
+        }
       }
-    }
 
-    return stats;
+      return stats;
+    });
   }
 
-  async getTagsUsageStats(): Promise<PostsManagerStats> {
-    const stats = new Map<string, number>();
+  async getLocationsUsageStats(): Promise<ListReaderStats> {
+    return this.createStatsCache(this.getLocationsUsageStats.name, async () => {
+      const stats = new Map<string, number>();
 
-    for await (const [, post] of this.readAllEntries(true)) {
-      post.tags?.forEach((tag) => {
-        stats.set(tag, (stats.get(tag) || 0) + 1);
-      });
-    }
+      for await (const [, post] of this.readAllEntries(true)) {
+        if (post.location) {
+          stats.set(post.location, (stats.get(post.location) || 0) + 1);
+        }
+      }
 
-    return stats;
+      return stats;
+    });
+  }
+
+  async getRequesterUsageStats(): Promise<ListReaderStats> {
+    return this.createStatsCache(this.getRequesterUsageStats.name, async () => {
+      const stats = new Map<string, number>();
+
+      for await (const [, post] of this.readAllEntries(true)) {
+        if (post.request?.user) {
+          stats.set(post.request.user, (stats.get(post.request.user) || 0) + 1);
+        }
+      }
+
+      return stats;
+    });
+  }
+
+  async getTagsUsageStats(): Promise<ListReaderStats> {
+    return this.createStatsCache(this.getTagsUsageStats.name, async () => {
+      const stats = new Map<string, number>();
+
+      for await (const [, post] of this.readAllEntries(true)) {
+        post.tags?.forEach((tag) => {
+          stats.set(tag, (stats.get(tag) || 0) + 1);
+        });
+      }
+
+      return stats;
+    });
   }
 }
