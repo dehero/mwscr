@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`35 items`
+`34 items`
 
 ## <span id="natty.2024-04-22-20-44-03">natty.2024-04-22-20-44-03</span>
 
@@ -313,21 +313,6 @@ natty.2024-03-10-16-03-44
 
 ```
 natty.2024-03-10-12-44-23
-```
-
-## <span id="kayracik.2024-09-06-13-50-43">kayracik.2024-09-06-13-50-43</span>
-
-![store:/inbox/kayracik.2024-09-06-13-50-43.png](../../assets/previews/inbox/kayracik.2024-09-06-13-50-43.avif "kayracik.2024-09-06-13-50-43")
-
-`shot` by [kayracik](../contributors.md#kayracik)
-
-> [!WARNING]
-> Need english title, need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayracik.2024-09-06-13-50-43&amp;postContent=store%3A%2Finbox%2Fkayracik.2024-09-06-13-50-43.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=kayracik&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayracik.2024-09-06-13-50-43&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayracik.2024-09-06-13-50-43&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayracik.2024-09-06-13-50-43&postLocation=)</code>
-
-```
-kayracik.2024-09-06-13-50-43
 ```
 
 ## <span id="kayracik.2024-09-05-20-09-00">kayracik.2024-09-05-20-09-00</span>
