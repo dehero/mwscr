@@ -98,6 +98,11 @@ spicebag:
   name: Spicebag
   profiles:
     tg: discodoyler
+talos:
+  telegramBotChatId: 7165366272
+  name: Талос
+  profiles:
+    tg: Feixiaomein
 vladyslav-zhuk:
   name: Vladyslav Zhuk
   nameRu: Владислав Жук

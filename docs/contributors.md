@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 955 posted, 16 pending, 66 rejected  
 Requested: 6 pending  
-Likes: 145482  
+Likes: 145492  
 
 ```
 dehero
@@ -20,7 +20,7 @@ dehero
 ### Natty
 
 Roles: `author`  
-Authored: 32 posted, 18 pending, 17 rejected  
+Authored: 32 posted, 26 pending, 17 rejected  
 Likes: 6337  
 
 ```
@@ -250,6 +250,16 @@ Roles: `foreigner`
 
 ```
 spicebag
+```
+
+### Талос
+
+[Telegram](https://t.me/Feixiaomein)
+
+Roles: `foreigner`  
+
+```
+talos
 ```
 
 ### Yaroslav
