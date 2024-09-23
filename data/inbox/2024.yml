@@ -81,16 +81,11 @@ dehero.2024-09-21-11-44-12:
   content: store:/inbox/dehero.2024-09-21-11-44-12.png
   type: shot
   author: dehero
-dehero.2024-09-21-11-51-29:
-  content: store:/inbox/dehero.2024-09-21-11-51-29.png
-  type: shot
-  author: dehero
-dehero.2024-09-21-11-51-46:
-  content: store:/inbox/dehero.2024-09-21-11-51-46.png
-  type: shot
-  author: dehero
 dehero.2024-09-21-11-51-55:
-  content: store:/inbox/dehero.2024-09-21-11-51-55.png
+  content:
+    - store:/inbox/dehero.2024-09-21-11-51-55.png
+    - store:/inbox/dehero.2024-09-21-11-51-46.png
+    - store:/inbox/dehero.2024-09-21-11-51-29.png
   type: shot
   author: dehero
 dehero.2024-09-21-11-57-36:
