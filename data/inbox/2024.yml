@@ -214,12 +214,10 @@ natty.2024-03-28-20-45-29:
     - store:/inbox/natty.2024-03-28-20-45-38.png
   type: shot
   author: natty
-natty.2024-04-22-20-33-04:
-  content: store:/inbox/natty.2024-04-22-20-33-04.png
-  type: shot
-  author: natty
 natty.2024-04-22-20-33-11:
-  content: store:/inbox/natty.2024-04-22-20-33-11.png
+  content:
+    - store:/inbox/natty.2024-04-22-20-33-11.png
+    - store:/inbox/natty.2024-04-22-20-33-04.png
   type: shot
   author: natty
 natty.2024-04-22-20-44-03:
