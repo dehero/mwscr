@@ -4,96 +4,26 @@
 
 # Inbox for 2024
 
-`53 items`
+`48 items`
 
 ## <span id="natty.2024-04-22-20-44-03">natty.2024-04-22-20-44-03</span>
 
 ![store:/inbox/natty.2024-04-22-20-44-03.png](../../assets/previews/inbox/natty.2024-04-22-20-44-03.avif "natty.2024-04-22-20-44-03")
-
-`shot` by [Natty](../contributors.md#natty)
-
-> [!WARNING]
-> Need english title, need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-04-22-20-44-03&amp;postContent=store%3A%2Finbox%2Fnatty.2024-04-22-20-44-03.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-04-22-20-44-03&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-04-22-20-44-03&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-04-22-20-44-03&postLocation=)</code>
-
-```
-natty.2024-04-22-20-44-03
-```
-
-## <span id="natty.2024-04-22-20-43-53">natty.2024-04-22-20-43-53</span>
-
 ![store:/inbox/natty.2024-04-22-20-43-53.png](../../assets/previews/inbox/natty.2024-04-22-20-43-53.avif "natty.2024-04-22-20-43-53")
-
-`shot` by [Natty](../contributors.md#natty)
-
-> [!WARNING]
-> Need english title, need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-04-22-20-43-53&amp;postContent=store%3A%2Finbox%2Fnatty.2024-04-22-20-43-53.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-04-22-20-43-53&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-04-22-20-43-53&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-04-22-20-43-53&postLocation=)</code>
-
-```
-natty.2024-04-22-20-43-53
-```
-
-## <span id="natty.2024-04-22-20-43-45">natty.2024-04-22-20-43-45</span>
-
 ![store:/inbox/natty.2024-04-22-20-43-45.png](../../assets/previews/inbox/natty.2024-04-22-20-43-45.avif "natty.2024-04-22-20-43-45")
-
-`shot` by [Natty](../contributors.md#natty)
-
-> [!WARNING]
-> Need english title, need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-04-22-20-43-45&amp;postContent=store%3A%2Finbox%2Fnatty.2024-04-22-20-43-45.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-04-22-20-43-45&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-04-22-20-43-45&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-04-22-20-43-45&postLocation=)</code>
-
-```
-natty.2024-04-22-20-43-45
-```
-
-## <span id="natty.2024-04-22-20-43-22">natty.2024-04-22-20-43-22</span>
-
 ![store:/inbox/natty.2024-04-22-20-43-22.png](../../assets/previews/inbox/natty.2024-04-22-20-43-22.avif "natty.2024-04-22-20-43-22")
-
-`shot` by [Natty](../contributors.md#natty)
-
-> [!WARNING]
-> Need english title, need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-04-22-20-43-22&amp;postContent=store%3A%2Finbox%2Fnatty.2024-04-22-20-43-22.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-04-22-20-43-22&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-04-22-20-43-22&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-04-22-20-43-22&postLocation=)</code>
-
-```
-natty.2024-04-22-20-43-22
-```
-
-## <span id="natty.2024-04-22-20-42-46">natty.2024-04-22-20-42-46</span>
-
 ![store:/inbox/natty.2024-04-22-20-42-46.png](../../assets/previews/inbox/natty.2024-04-22-20-42-46.avif "natty.2024-04-22-20-42-46")
-
-`shot` by [Natty](../contributors.md#natty)
-
-> [!WARNING]
-> Need english title, need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-04-22-20-42-46&amp;postContent=store%3A%2Finbox%2Fnatty.2024-04-22-20-42-46.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-04-22-20-42-46&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-04-22-20-42-46&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-04-22-20-42-46&postLocation=)</code>
-
-```
-natty.2024-04-22-20-42-46
-```
-
-## <span id="natty.2024-04-22-20-41-46">natty.2024-04-22-20-41-46</span>
-
 ![store:/inbox/natty.2024-04-22-20-41-46.png](../../assets/previews/inbox/natty.2024-04-22-20-41-46.avif "natty.2024-04-22-20-41-46")
 
 `shot` by [Natty](../contributors.md#natty)
 
 > [!WARNING]
-> Need english title, need russian title, need mark.
+> Need english title, need russian title, need mark, unable to detect possible post type from content.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-04-22-20-41-46&amp;postContent=store%3A%2Finbox%2Fnatty.2024-04-22-20-41-46.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-04-22-20-41-46&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-04-22-20-41-46&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-04-22-20-41-46&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-04-22-20-44-03&amp;postContent=store%3A%2Finbox%2Fnatty.2024-04-22-20-44-03.png%0Astore%3A%2Finbox%2Fnatty.2024-04-22-20-43-53.png%0Astore%3A%2Finbox%2Fnatty.2024-04-22-20-43-45.png%0Astore%3A%2Finbox%2Fnatty.2024-04-22-20-43-22.png%0Astore%3A%2Finbox%2Fnatty.2024-04-22-20-42-46.png%0Astore%3A%2Finbox%2Fnatty.2024-04-22-20-41-46.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-04-22-20-44-03&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-04-22-20-44-03&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-04-22-20-44-03&postLocation=)</code>
 
 ```
-natty.2024-04-22-20-41-46
+natty.2024-04-22-20-44-03
 ```
 
 ## <span id="natty.2024-04-22-20-33-11">natty.2024-04-22-20-33-11</span>
