@@ -266,19 +266,22 @@ set playPath to 0
 ## Editing
 
 Editing is performed by the project administrator. You can follow the process on the pages of the
-[proposed posts](docs/inbox/index.md) section. If you have any questions, write to
-[administrator](docs/contributors.md#dehero) in any convenient way.
+[Inbox](docs/inbox/index.md) section. If you have any questions, write to [administrator](docs/contributors.md#dehero)
+in any convenient way.
 
 ### Search for violations
 
 The content of the post is manually checked, and if any violations are found, the post is moved to
-[trash](docs/inbox/index.md). Possible violations:
+[trash](docs/trash/index.md). Possible violations:
 
 - Inappropriate content
 - Graphic issues
 - Non-vanilla look
 - Uses or requires mods
 - UI is visible
+- JPEG artifacts
+- No anti-aliasing
+- Unclear request
 
 ### Merging posts
 
@@ -312,8 +315,7 @@ dehero.2024-02-17-10-53-36.1.png
 dehero.2024-02-17-10-53-36.2.png
 ```
 
-Processed versions will be added to [proposed posts](docs/inbox/index.md) the next time files are imported from the
-storage.
+Processed versions will be added to [inbox](docs/inbox/index.md) the next time files are imported from the storage.
 
 ### Preparing a post
 
