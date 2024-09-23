@@ -9,9 +9,9 @@
 [VK](https://vk.com/dehero), [Telegram](https://t.me/deherole), [GitHub](https://github.com/dehero), [E-mail](mailto:dehero@outlook.com)
 
 Roles: `admin` `author` `requester`  
-Authored: 955 posted, 21 pending, 66 rejected  
+Authored: 956 posted, 20 pending, 66 rejected  
 Requested: 6 pending  
-Likes: 145541  
+Likes: 145555  
 
 ```
 dehero
@@ -88,6 +88,17 @@ Requested: 3 posted, 1 pending, 1 rejected
 buck-the-cuck
 ```
 
+### Luke Gordon
+
+[Instagram](https://instagram.com/p/eastcoast_lg/)
+
+Roles: `requester`  
+Requested: 1 posted  
+
+```
+eastcoast-lg
+```
+
 ### Макс Лис
 
 [VK](https://vk.com/i_love_the_night)
@@ -108,17 +119,6 @@ Requested: 1 posted
 
 ```
 id172608176
-```
-
-### Luke Gordon
-
-[Instagram](https://instagram.com/p/eastcoast_lg/)
-
-Roles: `requester` `beginner`  
-Requested: 1 pending  
-
-```
-eastcoast-lg
 ```
 
 ### Markus Alapoti

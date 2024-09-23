@@ -2463,3 +2463,36 @@
 2024-09-20-the-entrance-to-bthungthumz: 2018-11-21-the-entrance-to-bthungthumz
 2024-09-21-falas-ancestral-tomb: 2017-08-16-falas-ancestral-tomb
 2024-09-22-night-coast: 2018-11-17-night-coast
+2024-09-23-near-imperial-office:
+  title: Near Imperial Office
+  titleRu: У Имперской канцелярии
+  location: Seyda Neen
+  content: store:/shots/2024-09-23-near-imperial-office.png
+  trash:
+    - store:/trash/dehero.2024-09-21-11-51-46.1.png
+    - store:/trash/dehero.2024-09-21-11-51-29.png
+    - store:/trash/dehero.2024-09-21-11-51-55.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - siltstrider
+  request:
+    date: 2023-09-18
+    user: eastcoast-lg
+    text: Can someone post one from the little village at the first of the game
+  mark: A2
+  posts:
+    - service: ig
+      id: DARRD2WvQdl
+      mediaId: '18037977406927524'
+      published: 2024-09-23-18-30-57
+      followers: 1459
+    - service: vk
+      id: 1779
+      published: 2024-09-23-18-31-03
+      followers: 958
+    - service: tg
+      id: 542
+      published: 2024-09-23-18-31-11
+      followers: 556
