@@ -1,7 +1,20 @@
 eastcoast-lg.2023-09-18:
+  title: Near Imperial Office
+  titleRu: У Имперской канцелярии
   location: Seyda Neen
+  content: store:/inbox/dehero.2024-09-21-11-51-46.2.png
+  trash:
+    - store:/inbox/dehero.2024-09-21-11-51-46.1.png
+    - store:/inbox/dehero.2024-09-21-11-51-29.png
+    - store:/inbox/dehero.2024-09-21-11-51-46.png
+    - store:/inbox/dehero.2024-09-21-11-51-55.png
   type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - siltstrider
   request:
     date: 2023-09-18
     user: eastcoast-lg
     text: Can someone post one from the little village at the first of the game
+  mark: A2

@@ -22,17 +22,27 @@
 mighty-markyys.2017-06-26
 ```
 
-## <span id="eastcoast-lg.2023-09-18">eastcoast-lg.2023-09-18</span>
+## <span id="eastcoast-lg.2023-09-18">Near Imperial Office</span>
 
-`shot` _pending_
+`RU` У Имперской канцелярии
+
+![store:/inbox/dehero.2024-09-21-11-51-46.2.png](../../assets/previews/inbox/dehero.2024-09-21-11-51-46.2.avif "dehero.2024-09-21-11-51-46.2")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2024-09-21-11-51-46.1.png](../../assets/previews/inbox/dehero.2024-09-21-11-51-46.1.avif "dehero.2024-09-21-11-51-46.1")
+![store:/inbox/dehero.2024-09-21-11-51-29.png](../../assets/previews/inbox/dehero.2024-09-21-11-51-29.avif "dehero.2024-09-21-11-51-29")
+![store:/inbox/dehero.2024-09-21-11-51-46.png](../../assets/previews/inbox/dehero.2024-09-21-11-51-46.avif "dehero.2024-09-21-11-51-46")
+![store:/inbox/dehero.2024-09-21-11-51-55.png](../../assets/previews/inbox/dehero.2024-09-21-11-51-55.avif "dehero.2024-09-21-11-51-55")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
 
 > Can someone post one from the little village at the first of the game  
 > [Luke Gordon](../contributors.md#eastcoast-lg "2023-09-18")
 
-> [!WARNING]
-> Need english title, need russian title, need author, need content, need mark, unable to detect possible post type from content.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=eastcoast-lg.2023-09-18&amp;postContent=&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=Seyda+Neen&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=Can+someone+post+one+from+the+little+village+at+the+first+of+the+game) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=eastcoast-lg.2023-09-18&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=eastcoast-lg.2023-09-18&amp;mergeWithIds=) `📍 Seyda Neen`
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=eastcoast-lg.2023-09-18&amp;postContent=store%3A%2Finbox%2Fdehero.2024-09-21-11-51-46.2.png&amp;postTitle=Near+Imperial+Office&amp;postTitleRu=%D0%A3+%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D1%81%D0%BA%D0%BE%D0%B9+%D0%BA%D0%B0%D0%BD%D1%86%D0%B5%D0%BB%D1%8F%D1%80%D0%B8%D0%B8&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=siltstrider&amp;postLocation=Seyda+Neen&amp;postMark=A2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-09-21-11-51-46.1.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-11-51-29.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-11-51-46.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-11-51-55.png&amp;postRequest=Can+someone+post+one+from+the+little+village+at+the+first+of+the+game) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=eastcoast-lg.2023-09-18&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=eastcoast-lg.2023-09-18&amp;mergeWithIds=) `A2` `📍 Seyda Neen` `🚀 OpenMW` `siltstrider`
 
 ```
 eastcoast-lg.2023-09-18
