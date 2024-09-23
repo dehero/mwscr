@@ -80,20 +80,12 @@ dehero.2024-09-21-11-57-36:
     - store:/inbox/dehero.2024-09-21-11-56-58.png
   type: shot
   author: dehero
-dehero.2024-09-21-12-07-15:
-  content: store:/inbox/dehero.2024-09-21-12-07-15.png
-  type: shot
-  author: dehero
-dehero.2024-09-21-12-07-22:
-  content: store:/inbox/dehero.2024-09-21-12-07-22.png
-  type: shot
-  author: dehero
-dehero.2024-09-21-12-08-08:
-  content: store:/inbox/dehero.2024-09-21-12-08-08.png
-  type: shot
-  author: dehero
 dehero.2024-09-21-12-11-46:
-  content: store:/inbox/dehero.2024-09-21-12-11-46.png
+  content:
+    - store:/inbox/dehero.2024-09-21-12-11-46.png
+    - store:/inbox/dehero.2024-09-21-12-08-08.png
+    - store:/inbox/dehero.2024-09-21-12-07-22.png
+    - store:/inbox/dehero.2024-09-21-12-07-15.png
   type: shot
   author: dehero
 dehero.2024-09-21-12-15-50:
