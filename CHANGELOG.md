@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.17.3](https://github.com/dehero/mwscr/compare/v1.17.2...v1.17.3) (2024-09-23)
+
+### Code Refactoring
+
+- implement and use data extractor
+  ([9b73684](https://github.com/dehero/mwscr/commit/9b7368433b4c7020e14d84b68513ce2daca6efe7))
+
 ## [1.17.2](https://github.com/dehero/mwscr/compare/v1.17.1...v1.17.2) (2024-09-23)
 
 ### Documentation
