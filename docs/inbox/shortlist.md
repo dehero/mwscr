@@ -4,28 +4,7 @@
 
 # Shortlist
 
-`3 items`
-
-## <span id="natty.2024-04-22-20-33-11">Towers and Castle</span>
-
-`RU` Башни и замок
-
-![store:/inbox/natty.2024-04-22-20-33-11.1.png](../../assets/previews/inbox/natty.2024-04-22-20-33-11.1.avif "natty.2024-04-22-20-33-11.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/natty.2024-04-22-20-33-04.png](../../assets/previews/inbox/natty.2024-04-22-20-33-04.avif "natty.2024-04-22-20-33-04")
-![store:/inbox/natty.2024-04-22-20-33-11.png](../../assets/previews/inbox/natty.2024-04-22-20-33-11.avif "natty.2024-04-22-20-33-11")
-</details>
-
-`shot` by [Natty](../contributors.md#natty)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-04-22-20-33-11&amp;postContent=store%3A%2Finbox%2Fnatty.2024-04-22-20-33-11.1.png&amp;postTitle=Towers+and+Castle&amp;postTitleRu=%D0%91%D0%B0%D1%88%D0%BD%D0%B8+%D0%B8+%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=tower+castle&amp;postLocation=Caldera&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-04-22-20-33-04.png%0Astore%3A%2Finbox%2Fnatty.2024-04-22-20-33-11.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-04-22-20-33-11&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-04-22-20-33-11&amp;mergeWithIds=) `B1` `📍 Caldera` `🚀 OpenMW` `tower` `castle`
-
-```
-natty.2024-04-22-20-33-11
-```
+`2 items`
 
 ## <span id="irina-bystritskaya.2022-06-25-drawing-002">Mzahnch</span>
 

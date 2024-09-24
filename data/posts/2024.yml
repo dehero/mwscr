@@ -2487,17 +2487,17 @@
       id: DARRD2WvQdl
       mediaId: '18037977406927524'
       published: 2024-09-23-18-30-57
-      updated: 2024-09-24-17-21-45
+      updated: 2024-09-24-18-30-58
       followers: 1459
       likes: 87
-      views: 429
+      views: 436
     - service: vk
       id: 1779
       published: 2024-09-23-18-31-03
-      updated: 2024-09-24-17-21-45
+      updated: 2024-09-24-18-30-58
       followers: 958
       likes: 40
-      views: 171
+      views: 174
       reposts: 2
       comments: !c |-
         G6sA4C0OzHPi3YhgMYcPLbipI1Q6UXmG8OYtYYthp4IlrOyB6maUu9DLIeEMVrexeR0ReNvLCDqt
@@ -2506,7 +2506,34 @@
     - service: tg
       id: 542
       published: 2024-09-23-18-31-11
-      updated: 2024-09-24-17-21-45
+      updated: 2024-09-24-18-30-58
       followers: 556
       likes: 46
-      views: 148
+      views: 150
+2024-09-24-towers-and-castle:
+  title: Towers and Castle
+  titleRu: Башни и замок
+  location: Caldera
+  content: store:/shots/2024-09-24-towers-and-castle.png
+  trash: store:/trash/natty.2024-04-22-20-33-04.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - tower
+    - castle
+  mark: B1
+  posts:
+    - service: ig
+      id: DAT18BsviH8
+      mediaId: '18043544329950622'
+      published: 2024-09-24-18-31-45
+      followers: 1458
+    - service: vk
+      id: 1781
+      published: 2024-09-24-18-31-51
+      followers: 959
+    - service: tg
+      id: 543
+      published: 2024-09-24-18-31-57
+      followers: 556
