@@ -2487,17 +2487,17 @@
       id: DARRD2WvQdl
       mediaId: '18037977406927524'
       published: 2024-09-23-18-30-57
-      updated: 2024-09-24-18-30-58
+      updated: 2024-09-24-19-17-29
       followers: 1459
       likes: 87
       views: 436
     - service: vk
       id: 1779
       published: 2024-09-23-18-31-03
-      updated: 2024-09-24-18-30-58
+      updated: 2024-09-24-19-17-29
       followers: 958
-      likes: 40
-      views: 174
+      likes: 41
+      views: 177
       reposts: 2
       comments: !c |-
         G6sA4C0OzHPi3YhgMYcPLbipI1Q6UXmG8OYtYYthp4IlrOyB6maUu9DLIeEMVrexeR0ReNvLCDqt
@@ -2506,10 +2506,10 @@
     - service: tg
       id: 542
       published: 2024-09-23-18-31-11
-      updated: 2024-09-24-18-30-58
+      updated: 2024-09-24-19-17-28
       followers: 556
-      likes: 46
-      views: 150
+      likes: 49
+      views: 168
 2024-09-24-towers-and-castle:
   title: Towers and Castle
   titleRu: Башни и замок
@@ -2528,12 +2528,22 @@
       id: DAT18BsviH8
       mediaId: '18043544329950622'
       published: 2024-09-24-18-31-45
+      updated: 2024-09-24-19-17-28
       followers: 1458
+      likes: 23
+      views: 46
     - service: vk
       id: 1781
       published: 2024-09-24-18-31-51
+      updated: 2024-09-24-19-17-28
       followers: 959
+      likes: 8
+      views: 40
+      reposts: 1
     - service: tg
       id: 543
       published: 2024-09-24-18-31-57
+      updated: 2024-09-24-19-17-28
       followers: 556
+      likes: 20
+      views: 79
