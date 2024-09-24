@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 956 posted, 20 pending, 66 rejected  
 Requested: 6 pending  
-Likes: 145715  
+Likes: 145727  
 
 ```
 dehero
@@ -21,7 +21,7 @@ dehero
 
 Roles: `author`  
 Authored: 32 posted, 17 pending, 18 rejected  
-Likes: 6337  
+Likes: 6338  
 
 ```
 natty
