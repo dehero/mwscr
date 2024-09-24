@@ -1390,18 +1390,18 @@
     - service: vk
       id: 1668
       published: 2024-08-05-18-20-39
-      updated: 2024-09-17-01-20-02
+      updated: 2024-09-24-01-47-01
       followers: 926
       likes: 42
-      views: 294
+      views: 296
       reposts: 2
     - service: tg
       id: 491
       published: 2024-08-05-18-20-53
-      updated: 2024-09-17-01-20-02
+      updated: 2024-09-24-01-47-00
       followers: 490
       likes: 74
-      views: 627
+      views: 637
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
@@ -2105,25 +2105,25 @@
       id: C-3H8E9pYOC
       mediaId: '18007422095632329'
       published: 2024-08-19-18-19-34
-      updated: 2024-09-17-01-19-59
+      updated: 2024-09-24-01-46-59
       followers: 1455
       likes: 97
-      views: 588
+      views: 589
     - service: vk
       id: 1698
       published: 2024-08-19-18-19-41
-      updated: 2024-09-17-01-20-00
+      updated: 2024-09-24-01-46-59
       followers: 934
       likes: 32
-      views: 264
+      views: 268
       reposts: 3
     - service: tg
       id: 506
       published: 2024-08-19-18-19-47
-      updated: 2024-09-17-01-20-00
+      updated: 2024-09-24-01-46-59
       followers: 534
       likes: 65
-      views: 532
+      views: 546
 2018-03-04-monsters:
   title: Monsters
   titleRu: Монстры
@@ -5968,18 +5968,18 @@
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
-      updated: 2024-09-17-01-20-03
+      updated: 2024-09-24-01-47-02
       followers: 924
       likes: 34
-      views: 247
+      views: 249
       reposts: 1
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
-      updated: 2024-09-17-01-20-03
+      updated: 2024-09-24-01-47-01
       followers: 414
       likes: 58
-      views: 636
+      views: 642
 2018-06-28-light-on-the-water:
   title: Light on the Water
   titleRu: Свет над водой
@@ -10892,17 +10892,17 @@
       id: DAOr8iaSQSV
       mediaId: '17857094484255706'
       published: 2024-09-22-18-28-09
-      updated: 2024-09-23-23-21-44
+      updated: 2024-09-24-01-46-58
       followers: 1459
-      likes: 87
-      views: 309
+      likes: 89
+      views: 314
     - service: vk
       id: 1777
       published: 2024-09-22-18-28-15
-      updated: 2024-09-23-23-21-44
+      updated: 2024-09-24-01-46-58
       followers: 956
-      likes: 44
-      views: 286
+      likes: 45
+      views: 288
       reposts: 1
       comments: !c |-
         G2wA+B0Hbiw3sNHs4DVoPE/eBjLwP59ZRgl1XeKRJO+TBbW5kqIY2j0y9jimn07OQhMis5EEm+7y
@@ -10910,10 +10910,10 @@
     - service: tg
       id: 541
       published: 2024-09-22-18-28-23
-      updated: 2024-09-23-23-21-44
+      updated: 2024-09-24-01-46-58
       followers: 554
       likes: 53
-      views: 188
+      views: 190
       comments: !c ixCAkZPLQnkhuOWhgACpR2F0ZW1hdGU3rHBlcmZlY3QgZGF0ZQM=
 2018-11-18-horror-of-the-red-corridor:
   title: Horror of the Red Corridor
