@@ -25,10 +25,10 @@ export const UserPreview: Component<UserPreviewProps> = (props) => {
 
       <span class={styles.title}>{props.userInfo.title}</span>
 
-      <Show when={props.userInfo.authored.posted > 0}>
+      <Show when={props.userInfo.authored?.posts}>
         <span class={styles.published}>
           <GoldIcon />
-          {props.userInfo.authored.posted}
+          {props.userInfo.authored!.posts}
         </span>
       </Show>
 

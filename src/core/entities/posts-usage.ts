@@ -1,0 +1,52 @@
+import { cleanupUndefinedProps } from '../utils/common-utils.js';
+import type { ListReaderStats } from './list-manager.js';
+import type { PostsManager, PostsManagerName } from './posts-manager.js';
+import { POSTS_MANAGER_INFOS } from './posts-manager.js';
+
+export type PostsUsage = Partial<Record<PostsManagerName, number>>;
+
+type PostsManagerInstance = InstanceType<typeof PostsManager>;
+
+export type PostsManagerStatsMethodName = {
+  [K in keyof PostsManagerInstance]: PostsManagerInstance[K] extends () => Promise<ListReaderStats> ? K : never;
+}[keyof PostsManagerInstance];
+
+export async function createPostsUsage(
+  postsManagers: PostsManager[],
+  getterName: PostsManagerStatsMethodName,
+  id: string,
+): Promise<PostsUsage | undefined> {
+  const result: PostsUsage = {};
+
+  for (const manager of postsManagers) {
+    result[manager.name] = (await manager[getterName]()).get(id) || undefined;
+  }
+
+  return Object.values(result).length > 0 ? cleanupUndefinedProps(result) : undefined;
+}
+
+export function comparePostsUsages(a: PostsUsage | undefined, b?: PostsUsage | undefined) {
+  for (const info of POSTS_MANAGER_INFOS) {
+    const aValue = a?.[info.id] ?? 0;
+    const bValue = b?.[info.id] ?? 0;
+    if (aValue !== bValue) {
+      return aValue - bValue;
+    }
+  }
+
+  return 0;
+}
+
+export function postsUsageToString(usage: PostsUsage | undefined) {
+  if (!usage) {
+    return '';
+  }
+
+  return POSTS_MANAGER_INFOS.map((info) => (usage[info.id] ? `${usage[info.id]} ${info.label}` : undefined))
+    .filter((a) => a)
+    .join(', ');
+}
+
+export function isPostsUsageEmpty(usage: PostsUsage | undefined) {
+  return !usage || Object.values(usage).filter(Boolean).length === 0;
+}

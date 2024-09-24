@@ -8,7 +8,7 @@ import {
   isRevisitablePost,
   isTrashItem,
 } from '../../core/entities/post-variation.js';
-import { inbox, posts, trash } from '../data-managers/posts.js';
+import { inbox, posts, postsManagers, trash } from '../data-managers/posts.js';
 import { users } from '../data-managers/users.js';
 import type { PostEntriesDoc } from '../doc-renderers/render-post-entries.js';
 import { renderPostEntriesDoc } from '../doc-renderers/render-post-entries.js';
@@ -242,9 +242,7 @@ async function renderContributors() {
   try {
     await renderUsers({
       users,
-      posts,
-      inbox,
-      trash,
+      postsManagers,
       doc: {
         filename,
         title: 'Contributors',

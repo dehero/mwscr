@@ -3,21 +3,17 @@ import { cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-
 import type { Option } from './option.js';
 import type { PostMark } from './post.js';
 import { getPostMarkFromScore } from './post.js';
-import type { PostsManager } from './posts-manager.js';
+import { type PostsManager } from './posts-manager.js';
+import type { PostsUsage } from './posts-usage.js';
+import { comparePostsUsages, createPostsUsage } from './posts-usage.js';
 import type { UserEntry, UserRole } from './user.js';
 import { getUserEntryTitle } from './user.js';
-
-export interface UserContribution {
-  rejected: number;
-  pending: number;
-  posted: number;
-}
 
 export interface UserInfo {
   id: string;
   title: string;
-  authored: UserContribution;
-  requested: UserContribution;
+  authored?: PostsUsage;
+  requested?: PostsUsage;
   likes: number;
   views: number;
   engagement: number;
@@ -47,37 +43,20 @@ export const selectUserInfosSortOptions = [
 
 export type SelectUserInfosSortKey = (typeof selectUserInfosSortOptions)[number]['value'];
 
-export async function createUserInfo(
-  userEntry: UserEntry,
-  posted: PostsManager,
-  pending: PostsManager,
-  rejected: PostsManager,
-): Promise<UserInfo> {
+export async function createUserInfo(userEntry: UserEntry, postsManagers: PostsManager[]): Promise<UserInfo> {
   const [id, user] = userEntry;
 
-  const authored: UserContribution = {
-    posted: (await posted.getAuthorsUsageStats()).get(id) || 0,
-    pending: (await pending.getAuthorsUsageStats()).get(id) || 0,
-    rejected: (await rejected.getAuthorsUsageStats()).get(id) || 0,
-  };
+  const posts = postsManagers.find((manager) => manager.name === 'posts');
 
-  const drawn: UserContribution = {
-    posted: (await posted.getDrawersUsageStats()).get(id) || 0,
-    pending: (await pending.getDrawersUsageStats()).get(id) || 0,
-    rejected: (await rejected.getDrawersUsageStats()).get(id) || 0,
-  };
+  const authored = await createPostsUsage(postsManagers, 'getAuthorsUsageStats', id);
+  const drawn = await createPostsUsage(postsManagers, 'getDrawersUsageStats', id);
+  const requested = await createPostsUsage(postsManagers, 'getRequesterUsageStats', id);
 
-  const requested: UserContribution = {
-    posted: (await posted.getRequesterUsageStats()).get(id) || 0,
-    pending: (await pending.getRequesterUsageStats()).get(id) || 0,
-    rejected: (await rejected.getRequesterUsageStats()).get(id) || 0,
-  };
-
-  const likes = (await posted.getAuthorsLikesStats()).get(id) || 0;
-  const views = (await posted.getAuthorsViewsStats()).get(id) || 0;
-  const engagement = Number((await posted.getAuthorsEngagementStats()).get(id)?.toFixed(2) || 0);
-  const mark = getPostMarkFromScore((await posted.getAuthorsMarkScoreStats()).get(id));
-  const rating = Number((await posted.getAuthorsRatingStats()).get(id)?.toFixed(2) || 0);
+  const likes = (await posts?.getAuthorsLikesStats())?.get(id) || 0;
+  const views = (await posts?.getAuthorsViewsStats())?.get(id) || 0;
+  const engagement = Number((await posts?.getAuthorsEngagementStats())?.get(id)?.toFixed(2) || 0);
+  const mark = getPostMarkFromScore((await posts?.getAuthorsMarkScoreStats())?.get(id));
+  const rating = Number((await posts?.getAuthorsRatingStats())?.get(id)?.toFixed(2) || 0);
 
   const roles: UserRole[] = [];
 
@@ -85,22 +64,22 @@ export async function createUserInfo(
     roles.push('admin');
   }
 
-  if (authored.posted || authored.pending) {
+  if (authored?.posts || authored?.inbox) {
     roles.push('author');
   }
 
-  if (drawn.posted || drawn.pending) {
+  if (drawn?.posts || drawn?.inbox) {
     roles.push('drawer');
   }
 
-  if (requested.posted || requested.pending) {
+  if (requested?.posts || requested?.inbox) {
     roles.push('requester');
   }
 
   if (
-    !authored.posted &&
-    !requested.posted &&
-    (authored.pending || requested.pending || authored.rejected || requested.rejected)
+    !authored?.posts &&
+    !requested?.posts &&
+    (authored?.inbox || requested?.inbox || authored?.trash || requested?.trash)
   ) {
     roles.push('beginner');
   }
@@ -124,10 +103,6 @@ export async function createUserInfo(
   });
 }
 
-export function compareUserContributions(a: UserContribution, b: UserContribution) {
-  return a.posted - b.posted || a.pending - b.pending || a.rejected - b.rejected;
-}
-
 export function compareUserInfosById(direction: SortDirection): UserInfoComparator {
   return direction === 'asc' ? (a, b) => a.id.localeCompare(b.id) : (a, b) => b.id.localeCompare(a.id);
 }
@@ -144,24 +119,9 @@ export function compareUserInfosByContribution(direction: SortDirection): UserIn
   const byId = compareUserInfosById(direction);
 
   return direction === 'asc'
-    ? (a, b) =>
-        compareUserContributions(a.authored, b.authored) ||
-        compareUserContributions(a.requested, b.requested) ||
-        byId(a, b)
+    ? (a, b) => comparePostsUsages(a.authored, b.authored) || comparePostsUsages(a.requested, b.requested) || byId(a, b)
     : (a, b) =>
-        compareUserContributions(b.authored, a.authored) ||
-        compareUserContributions(b.requested, a.requested) ||
-        byId(b, a);
-}
-
-export function userContributionToString({ posted, pending, rejected }: UserContribution) {
-  return [posted && `${posted} posted`, pending && `${pending} pending`, rejected && `${rejected} rejected`]
-    .filter((a) => a)
-    .join(', ');
-}
-
-export function isUserContributionEmpty({ posted, pending, rejected }: UserContribution) {
-  return !posted && !pending && !rejected;
+        comparePostsUsages(b.authored, a.authored) || comparePostsUsages(b.requested, a.requested) || byId(b, a);
 }
 
 export function selectUserInfos(userInfos: UserInfo[], params: SelectUserInfosParams) {
