@@ -13,7 +13,23 @@ import {
   mergePostWith,
 } from './post.js';
 
+export interface PostsManagerInfo {
+  id: string;
+  title: string;
+  label: string;
+}
+
+export const POSTS_MANAGER_INFOS = [
+  { id: 'posts', title: 'Posts', label: 'posted' },
+  { id: 'inbox', title: 'Inbox', label: 'pending' },
+  { id: 'trash', title: 'Trash', label: 'rejected' },
+] as const satisfies PostsManagerInfo[];
+
+export type PostsManagerName = (typeof POSTS_MANAGER_INFOS)[number]['id'];
+
 export abstract class PostsManager<TPost extends Post = Post> extends ListManager<TPost> {
+  abstract readonly name: PostsManagerName;
+
   // TODO: maybe remove isPostEqual and mergePostWith as separate functions
 
   protected isItemEqual = isPostEqual;

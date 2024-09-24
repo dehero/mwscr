@@ -1,6 +1,6 @@
 import { type Component, Show, splitProps } from 'solid-js';
+import { postsUsageToString } from '../../../core/entities/posts-usage.js';
 import type { UserInfo } from '../../../core/entities/user-info.js';
-import { userContributionToString } from '../../../core/entities/user-info.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
@@ -13,8 +13,8 @@ interface UserTooltipProps extends Omit<TooltipProps, 'children'> {
 
 export const UserTooltip: Component<UserTooltipProps> = (props) => {
   const [local, rest] = splitProps(props, ['userInfo']);
-  const authored = () => userContributionToString(local.userInfo.authored);
-  const requested = () => userContributionToString(local.userInfo.requested);
+  const authored = () => postsUsageToString(local.userInfo.authored);
+  const requested = () => postsUsageToString(local.userInfo.requested);
 
   return (
     <Tooltip {...rest}>
@@ -36,7 +36,7 @@ export const UserTooltip: Component<UserTooltipProps> = (props) => {
       <Show when={authored()}>
         <span class={styles.contribution}>
           {'Authored: '}
-          <Show when={local.userInfo.authored.posted > 0}>
+          <Show when={local.userInfo.authored?.posts}>
             <GoldIcon class={styles.icon} />
           </Show>
           {authored()}

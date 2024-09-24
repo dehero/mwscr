@@ -3,15 +3,12 @@ import esc from 'escape-html';
 import type { Doc } from '../../core/entities/doc.js';
 import type { Link } from '../../core/entities/link.js';
 import type { PostsManager } from '../../core/entities/posts-manager.js';
+import type { PostsUsage } from '../../core/entities/posts-usage.js';
+import { isPostsUsageEmpty, postsUsageToString } from '../../core/entities/posts-usage.js';
 import type { UserEntry } from '../../core/entities/user.js';
 import { createUserLinks } from '../../core/entities/user.js';
-import type { UserContribution, UserInfo } from '../../core/entities/user-info.js';
-import {
-  compareUserInfosByContribution,
-  createUserInfo,
-  isUserContributionEmpty,
-  userContributionToString,
-} from '../../core/entities/user-info.js';
+import type { UserInfo } from '../../core/entities/user-info.js';
+import { compareUserInfosByContribution, createUserInfo } from '../../core/entities/user-info.js';
 import type { UsersManager } from '../../core/entities/users-manager.js';
 import { services } from '../../core/services/index.js';
 import { partition } from '../../core/utils/common-utils.js';
@@ -23,9 +20,7 @@ interface RenderUserInfo extends UserInfo {
 
 export interface RenderUsersOptions {
   users: UsersManager;
-  posts: PostsManager;
-  inbox: PostsManager;
-  trash: PostsManager;
+  postsManagers: PostsManager[];
   doc: Doc;
   navs: Array<Doc[]>;
 }
@@ -71,20 +66,20 @@ export async function renderUsers(options: RenderUsersOptions) {
 }
 
 async function mapUserEntry(userEntry: UserEntry, options: RenderUsersOptions): Promise<RenderUserInfo> {
-  const { posts, inbox, trash } = options;
+  const { postsManagers } = options;
 
   return {
-    ...(await createUserInfo(userEntry, posts, inbox, trash)),
+    ...(await createUserInfo(userEntry, postsManagers)),
     links: createUserLinks(userEntry, services),
   };
 }
 
-function renderUserContribution(title: string, contribution: UserContribution): string[] {
-  if (isUserContributionEmpty(contribution)) {
+function renderPostsUsage(title: string, contribution: PostsUsage): string[] {
+  if (isPostsUsageEmpty(contribution)) {
     return [];
   }
 
-  return [`${esc(title)}: ${userContributionToString(contribution)}  `];
+  return [`${esc(title)}: ${postsUsageToString(contribution)}  `];
 }
 
 function renderUserInfo(info: RenderUserInfo) {
@@ -99,8 +94,13 @@ function renderUserInfo(info: RenderUserInfo) {
   }
 
   lines.push(`Roles: ${info.roles.map((role) => `\`${esc(role)}\``).join(' ')}  `);
-  lines.push(...renderUserContribution('Authored', info.authored));
-  lines.push(...renderUserContribution('Requested', info.requested));
+  if (info.authored) {
+    lines.push(...renderPostsUsage('Authored', info.authored));
+  }
+
+  if (info.requested) {
+    lines.push(...renderPostsUsage('Requested', info.requested));
+  }
 
   if (info.likes) {
     lines.push(`Likes: ${info.likes}  `);

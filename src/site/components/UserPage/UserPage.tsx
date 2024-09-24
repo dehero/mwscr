@@ -4,8 +4,8 @@ import { type Component, For, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import type { Link } from '../../../core/entities/link.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
+import { isPostsUsageEmpty } from '../../../core/entities/posts-usage.js';
 import type { UserInfo } from '../../../core/entities/user-info.js';
-import { isUserContributionEmpty } from '../../../core/entities/user-info.js';
 import { telegram, TELEGRAM_BOT_NAME } from '../../../core/services/telegram.js';
 import { useParams } from '../../hooks/useParams.js';
 import { postsRoute } from '../../routes/posts-route.js';
@@ -98,7 +98,7 @@ export const UserPage: Component = () => {
               </p>
             </Show>
 
-            <Show when={!isUserContributionEmpty(userInfo().authored)}>
+            <Show when={!isPostsUsageEmpty(userInfo().authored)}>
               <Divider />
 
               <Table
@@ -107,11 +107,11 @@ export const UserPage: Component = () => {
                 rows={[
                   {
                     label: 'Posts',
-                    value: userInfo().authored.posted
+                    value: userInfo().authored?.posts
                       ? () => (
                           <>
                             <GoldIcon class={styles.goldIcon} />
-                            {userInfo().authored.posted}
+                            {userInfo().authored!.posts}
                           </>
                         )
                       : undefined,
@@ -119,19 +119,19 @@ export const UserPage: Component = () => {
                   },
                   {
                     label: 'Inbox',
-                    value: userInfo().authored.pending,
+                    value: userInfo().authored?.inbox,
                     link: postsRoute.createUrl({ managerName: 'inbox', author: id() }),
                   },
                   {
                     label: 'Trash',
-                    value: userInfo().authored.rejected,
+                    value: userInfo().authored?.trash,
                     link: postsRoute.createUrl({ managerName: 'trash', author: id() }),
                   },
                 ]}
               />
             </Show>
 
-            <Show when={!isUserContributionEmpty(userInfo().requested)}>
+            <Show when={!isPostsUsageEmpty(userInfo().requested)}>
               <Divider />
 
               <Table
@@ -140,17 +140,17 @@ export const UserPage: Component = () => {
                 rows={[
                   {
                     label: 'Posts',
-                    value: userInfo().requested.posted,
+                    value: userInfo().requested?.posts,
                     link: postsRoute.createUrl({ managerName: 'posts', requester: id() }),
                   },
                   {
                     label: 'Inbox',
-                    value: userInfo().requested.pending,
+                    value: userInfo().requested?.inbox,
                     link: postsRoute.createUrl({ managerName: 'inbox', requester: id() }),
                   },
                   {
                     label: 'Trash',
-                    value: userInfo().requested.rejected,
+                    value: userInfo().requested?.trash,
                     link: postsRoute.createUrl({ managerName: 'trash', requester: id() }),
                   },
                 ]}

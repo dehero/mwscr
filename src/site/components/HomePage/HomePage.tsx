@@ -4,7 +4,7 @@ import icon from '../../../../assets/icon.png?format=avif&imagetools';
 import pkg from '../../../../package.json';
 import { getPostDateById } from '../../../core/entities/post.js';
 import { type PostInfo, selectPostInfos } from '../../../core/entities/post-info.js';
-import type { UserContribution } from '../../../core/entities/user-info.js';
+import type { PostsUsage } from '../../../core/entities/posts-usage.js';
 import { dateToString, formatDate, formatTime } from '../../../core/utils/date-utils.js';
 import { postRoute } from '../../routes/post-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
@@ -23,7 +23,7 @@ import styles from './HomePage.module.css';
 
 export interface HomePageData {
   buildDate: Date;
-  totalPosts: UserContribution;
+  totalPosts: PostsUsage;
   authorCount: number;
   requesterCount: number;
   lastOriginalPostInfo?: PostInfo;
@@ -130,18 +130,18 @@ export const HomePage: Component = () => {
             rows={[
               {
                 label: 'Posts',
-                value: totalPosts.posted
+                value: totalPosts.posts
                   ? () => (
                       <>
                         <GoldIcon class={styles.goldIcon} />
-                        {totalPosts.posted}
+                        {totalPosts.posts}
                       </>
                     )
                   : undefined,
                 link: postsRoute.createUrl({ managerName: 'posts' }),
               },
-              { label: 'Inbox', value: totalPosts.pending, link: postsRoute.createUrl({ managerName: 'inbox' }) },
-              { label: 'Trash', value: totalPosts.rejected, link: postsRoute.createUrl({ managerName: 'trash' }) },
+              { label: 'Inbox', value: totalPosts.inbox, link: postsRoute.createUrl({ managerName: 'inbox' }) },
+              { label: 'Trash', value: totalPosts.trash, link: postsRoute.createUrl({ managerName: 'trash' }) },
             ]}
           />
           <Divider />
