@@ -81,7 +81,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-09-22-night-coast&postLocation=)</code> `🚀 OpenMW` `night`
+`B2` `📍 Bitter Coast Region` `🚀 OpenMW` `night`
 
 ```
 2024-09-22-night-coast
