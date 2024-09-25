@@ -4,7 +4,41 @@
 
 # Posted in 2024
 
-`211 items`
+`212 items`
+
+## <span id="2024-09-25-the-hand-of-almalexia">The Hand of Almalexia</span>
+
+`RU` Рука Альмалексии
+
+<a href="https://instagram.com/p/DAWbjOBpCo2/" title="2024-09-25-the-hand-of-almalexia"><img alt="store:/shots/2024-09-25-the-hand-of-almalexia.png" src="../../assets/previews/shots/2024-09-25-the-hand-of-almalexia.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2024-09-21-12-11-46.png](../../assets/previews/trash/dehero.2024-09-21-12-11-46.avif "dehero.2024-09-21-12-11-46")
+![store:/trash/dehero.2024-09-21-12-08-08.png](../../assets/previews/trash/dehero.2024-09-21-12-08-08.avif "dehero.2024-09-21-12-08-08")
+![store:/trash/dehero.2024-09-21-12-07-22.png](../../assets/previews/trash/dehero.2024-09-21-12-07-22.avif "dehero.2024-09-21-12-07-22")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+> Hands of almalexia screens? They are hardest battle in game imo. Cool shining armors.  
+> [Markus Alapoti](../contributors.md#mighty-markyys "2017-06-26")
+
+`B1` `📍 Mournhold Temple: High Chapel` `🚀 OpenMW` `🔗 Tribunal`
+
+```
+2024-09-25-the-hand-of-almalexia
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DAWbjOBpCo2/)       | 2024-09-25 |      1457 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1782) | 2024-09-25 |       958 |
+| [`tg`](https://t.me/mwscr/544)                     | 2024-09-25 |       557 |
+|                                                    |            |      2972 |
 
 ## <span id="2024-09-24-towers-and-castle">Towers and Castle</span>
 
@@ -160,10 +194,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1069) | 2018-11-21 |  1043 |    35 |       287 |   12.2 |
 | [`tg`](https://t.me/mwscr/125)                     | 2018-11-21 |   371 |     3 |           |        |
 | [`ig`](https://instagram.com/p/BqeIVPBBU0s/)       | 2018-11-22 |       |   125 |       477 |  26.21 |
-| [`ig`](https://instagram.com/p/DAJimkkBNV_/)       | 2024-09-20 |   327 |    70 |      1459 |    4.8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1774) | 2024-09-20 |   255 |    40 |       949 |   4.21 |
-| [`tg`](https://t.me/mwscr/539)                     | 2024-09-20 |   262 |    56 |       555 |  10.09 |
-|                                                    |            |   844 |   166 |      2963 |   11.5 |
+| [`ig`](https://instagram.com/p/DAJimkkBNV_/)       | 2024-09-20 |   333 |    71 |      1459 |   4.87 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1774) | 2024-09-20 |   267 |    41 |       949 |   4.32 |
+| [`tg`](https://t.me/mwscr/539)                     | 2024-09-20 |   278 |    56 |       555 |  10.09 |
+|                                                    |            |   878 |   168 |      2963 |  11.54 |
 
 #### Comments
 
@@ -222,10 +256,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bm3uN2ZFEBQ/)       | 2018-08-24 |       |   122 |       402 |  30.35 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_873)  | 2018-08-24 |   377 |    23 |       202 |  11.39 |
-| [`ig`](https://instagram.com/p/DAEX2n6v8Ir/)       | 2024-09-18 |   319 |    70 |      1459 |    4.8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1772) | 2024-09-18 |   236 |    35 |       947 |    3.7 |
-| [`tg`](https://t.me/mwscr/537)                     | 2024-09-18 |   295 |    56 |       556 |  10.07 |
-|                                                    |            |   850 |   161 |      2962 |  12.06 |
+| [`ig`](https://instagram.com/p/DAEX2n6v8Ir/)       | 2024-09-18 |   322 |    71 |      1459 |   4.87 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1772) | 2024-09-18 |   240 |    36 |       947 |    3.8 |
+| [`tg`](https://t.me/mwscr/537)                     | 2024-09-18 |   306 |    56 |       556 |  10.07 |
+|                                                    |            |   868 |   163 |      2962 |  12.09 |
 
 ## <span id="2024-09-17-suburb-muckspunge">Suburb Muckspunge</span>
 

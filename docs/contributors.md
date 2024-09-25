@@ -9,7 +9,7 @@
 [VK](https://vk.com/dehero), [Telegram](https://t.me/deherole), [GitHub](https://github.com/dehero), [E-mail](mailto:dehero@outlook.com)
 
 Roles: `admin` `author` `requester`  
-Authored: 956 posted, 20 pending, 66 rejected  
+Authored: 957 posted, 19 pending, 66 rejected  
 Requested: 6 pending  
 Likes: 145809  
 
@@ -125,8 +125,8 @@ id172608176
 
 [Instagram](https://instagram.com/p/mighty_markyys/)
 
-Roles: `requester` `beginner`  
-Requested: 1 pending  
+Roles: `requester`  
+Requested: 1 posted  
 
 ```
 mighty-markyys
