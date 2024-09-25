@@ -4,7 +4,33 @@
 
 # Shortlist
 
-`3 items`
+`4 items`
+
+## <span id="mighty-markyys.2017-06-26">The Hand of Almalexia</span>
+
+`RU` Рука Альмалексии
+
+![store:/inbox/dehero.2024-09-21-12-07-15.1.png](../../assets/previews/inbox/dehero.2024-09-21-12-07-15.1.avif "dehero.2024-09-21-12-07-15.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2024-09-21-12-11-46.png](../../assets/previews/inbox/dehero.2024-09-21-12-11-46.avif "dehero.2024-09-21-12-11-46")
+![store:/inbox/dehero.2024-09-21-12-08-08.png](../../assets/previews/inbox/dehero.2024-09-21-12-08-08.avif "dehero.2024-09-21-12-08-08")
+![store:/inbox/dehero.2024-09-21-12-07-22.png](../../assets/previews/inbox/dehero.2024-09-21-12-07-22.avif "dehero.2024-09-21-12-07-22")
+![store:/inbox/dehero.2024-09-21-12-07-15.png](../../assets/previews/inbox/dehero.2024-09-21-12-07-15.avif "dehero.2024-09-21-12-07-15")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+> Hands of almalexia screens? They are hardest battle in game imo. Cool shining armors.  
+> [Markus Alapoti](../contributors.md#mighty-markyys "2017-06-26")
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=mighty-markyys.2017-06-26&amp;postContent=store%3A%2Finbox%2Fdehero.2024-09-21-12-07-15.1.png&amp;postTitle=The+Hand+of+Almalexia&amp;postTitleRu=%D0%A0%D1%83%D0%BA%D0%B0+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B8%D0%B8&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Tribunal&amp;postTags=&amp;postLocation=Mournhold+Temple%3A+High+Chapel&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-09-21-12-11-46.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-08-08.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-07-22.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-07-15.png&amp;postRequest=Hands+of+almalexia+screens%3F+They+are+hardest+battle+in+game+imo.+Cool+shining+armors.) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=mighty-markyys.2017-06-26&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=mighty-markyys.2017-06-26&amp;mergeWithIds=) `B1` `📍 Mournhold Temple: High Chapel` `🚀 OpenMW` `🔗 Tribunal`
+
+```
+mighty-markyys.2017-06-26
+```
 
 ## <span id="irina-bystritskaya.2022-06-25-drawing-002">Mzahnch</span>
 
