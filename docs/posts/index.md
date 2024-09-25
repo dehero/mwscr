@@ -10,15 +10,14 @@
 
 `RU` Рука Альмалексии
 
-<a href="https://instagram.com/p/DAWbjOBpCo2/" title="dehero.2024-09-21-12-07-15.1"><img alt="store:/inbox/dehero.2024-09-21-12-07-15.1.png" src="../../assets/previews/inbox/dehero.2024-09-21-12-07-15.1.avif" /></a>
+<a href="https://instagram.com/p/DAWbjOBpCo2/" title="2024-09-25-the-hand-of-almalexia"><img alt="store:/shots/2024-09-25-the-hand-of-almalexia.png" src="../../assets/previews/shots/2024-09-25-the-hand-of-almalexia.avif" /></a>
 
 <details>
 <summary>Trash</summary>
 
-![store:/inbox/dehero.2024-09-21-12-11-46.png](../../assets/previews/inbox/dehero.2024-09-21-12-11-46.avif "dehero.2024-09-21-12-11-46")
-![store:/inbox/dehero.2024-09-21-12-08-08.png](../../assets/previews/inbox/dehero.2024-09-21-12-08-08.avif "dehero.2024-09-21-12-08-08")
-![store:/inbox/dehero.2024-09-21-12-07-22.png](../../assets/previews/inbox/dehero.2024-09-21-12-07-22.avif "dehero.2024-09-21-12-07-22")
-![store:/inbox/dehero.2024-09-21-12-07-15.png](../../assets/previews/inbox/dehero.2024-09-21-12-07-15.avif "dehero.2024-09-21-12-07-15")
+![store:/trash/dehero.2024-09-21-12-11-46.png](../../assets/previews/trash/dehero.2024-09-21-12-11-46.avif "dehero.2024-09-21-12-11-46")
+![store:/trash/dehero.2024-09-21-12-08-08.png](../../assets/previews/trash/dehero.2024-09-21-12-08-08.avif "dehero.2024-09-21-12-08-08")
+![store:/trash/dehero.2024-09-21-12-07-22.png](../../assets/previews/trash/dehero.2024-09-21-12-07-22.avif "dehero.2024-09-21-12-07-22")
 </details>
 
 `shot` by [dehero](../contributors.md#dehero)
@@ -36,10 +35,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAWbjOBpCo2/)       | 2024-09-25 |   110 |    48 |      1457 |   3.29 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1782) | 2024-09-25 |    67 |    12 |       958 |   1.36 |
+| [`ig`](https://instagram.com/p/DAWbjOBpCo2/)       | 2024-09-25 |   123 |    56 |      1457 |   3.84 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1782) | 2024-09-25 |    75 |    12 |       958 |   1.36 |
 | [`tg`](https://t.me/mwscr/543)                     | 2024-09-25 |   239 |    43 |       557 |   7.72 |
-|                                                    |            |   416 |   103 |      2972 |   4.12 |
+|                                                    |            |   437 |   111 |      2972 |   4.31 |
 
 ## <span id="2024-09-24-towers-and-castle">Towers and Castle</span>
 
@@ -65,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAT18BsviH8/)       | 2024-09-24 |   256 |    79 |      1458 |   5.42 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1781) | 2024-09-24 |   159 |    29 |       959 |   3.13 |
+| [`ig`](https://instagram.com/p/DAT18BsviH8/)       | 2024-09-24 |   257 |    80 |      1458 |   5.49 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1781) | 2024-09-24 |   161 |    30 |       959 |   3.23 |
 | [`tg`](https://t.me/mwscr/543)                     | 2024-09-24 |   239 |    43 |       556 |   7.73 |
-|                                                    |            |   654 |   151 |      2973 |   5.43 |
+|                                                    |            |   657 |   153 |      2973 |   5.48 |
 
 ## <span id="2024-09-23-near-imperial-office">Near Imperial Office</span>
 
