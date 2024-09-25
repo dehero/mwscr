@@ -3,7 +3,7 @@ import { createUserLinks } from '../../../core/entities/user.js';
 import { createUserInfo } from '../../../core/entities/user-info.js';
 import { services } from '../../../core/services/index.js';
 import { localDataExtractor } from '../../../local/data-managers/extractor.js';
-import { inbox, posts, trash } from '../../../local/data-managers/posts.js';
+import { postsManagers } from '../../../local/data-managers/posts.js';
 import { users } from '../../../local/data-managers/users.js';
 import type { UserPageData } from '../../components/UserPage/UserPage.js';
 import { userRoute } from '../../routes/user-route.js';
@@ -13,7 +13,7 @@ export async function onBeforePrerenderStart(): ReturnType<OnBeforePrerenderStar
 
   return Promise.all(
     entries.map(async (userEntry) => {
-      const userInfo = await createUserInfo(userEntry, posts, inbox, trash);
+      const userInfo = await createUserInfo(userEntry, postsManagers);
       const userLinks = await createUserLinks(userEntry, services);
 
       return {

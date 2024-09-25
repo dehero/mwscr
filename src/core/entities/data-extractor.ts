@@ -1,4 +1,7 @@
+import { arrayFromAsync } from '../utils/common-utils.js';
 import { isNestedLocation } from './location.js';
+import type { LocationInfo } from './location-info.js';
+import { createLocationInfo } from './location-info.js';
 import type { LocationsReader } from './locations-reader.js';
 import type { Option } from './option.js';
 import { comparePostEntriesByDate, getPostEntriesFromSource } from './post.js';
@@ -6,6 +9,8 @@ import type { PostInfo, SelectPostInfosParams } from './post-info.js';
 import { createPostInfo, selectPostInfos } from './post-info.js';
 import type { PostsManager, PostsManagerName } from './posts-manager.js';
 import { getUserEntryTitle } from './user.js';
+import type { UserInfo } from './user-info.js';
+import { createUserInfo } from './user-info.js';
 import type { UsersManager } from './users-manager.js';
 
 export interface DataExtractorArgs {
@@ -54,6 +59,22 @@ export class DataExtractor {
       );
 
       return await Promise.all(entries.map((entry) => createPostInfo(entry, this.users, managerName)));
+    });
+  }
+
+  async getAllLocationInfos(): Promise<LocationInfo[]> {
+    return this.createCache(this.getAllLocationInfos.name, async () => {
+      const entries = await arrayFromAsync(this.locations.readAllEntries());
+
+      return await Promise.all(entries.map((entry) => createLocationInfo(entry, this.postsManagers)));
+    });
+  }
+
+  async getAllUserInfos(): Promise<UserInfo[]> {
+    return this.createCache(this.getAllUserInfos.name, async () => {
+      const entries = await arrayFromAsync(this.users.readAllEntries());
+
+      return await Promise.all(entries.map((entry) => createUserInfo(entry, this.postsManagers)));
     });
   }
 
@@ -120,6 +141,14 @@ export class DataExtractor {
     return [...usedTags]
       .sort(([a], [b]) => a.localeCompare(b))
       .map(([value, count]) => ({ value, label: `${value} (${count})` }));
+  }
+
+  async getLocationInfo(id: string) {
+    return (await this.getAllLocationInfos()).find((info) => info.title === id);
+  }
+
+  async getUserInfo(id: string) {
+    return (await this.getAllUserInfos()).find((info) => info.id === id);
   }
 
   async selectPostInfo(managerName: PostsManagerName, params: SelectPostInfosParams): Promise<PostInfo | undefined> {
