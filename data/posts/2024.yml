@@ -2551,12 +2551,11 @@
   title: The Hand of Almalexia
   titleRu: Рука Альмалексии
   location: 'Mournhold Temple: High Chapel'
-  content: store:/inbox/dehero.2024-09-21-12-07-15.1.png
+  content: store:/shots/2024-09-25-the-hand-of-almalexia.png
   trash:
-    - store:/inbox/dehero.2024-09-21-12-11-46.png
-    - store:/inbox/dehero.2024-09-21-12-08-08.png
-    - store:/inbox/dehero.2024-09-21-12-07-22.png
-    - store:/inbox/dehero.2024-09-21-12-07-15.png
+    - store:/trash/dehero.2024-09-21-12-11-46.png
+    - store:/trash/dehero.2024-09-21-12-08-08.png
+    - store:/trash/dehero.2024-09-21-12-07-22.png
   type: shot
   author: dehero
   engine: OpenMW
