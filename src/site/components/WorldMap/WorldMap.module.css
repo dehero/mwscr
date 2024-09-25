@@ -1,7 +1,12 @@
 .container {
-  background: #182421;
+  background: var(--color-background-map);
   overflow: hidden;
-  cursor: grab;
+}
+
+@media only screen and (hover: none) {
+  .container {
+    overflow: auto;
+  }
 }
 
 .map {
@@ -10,6 +15,7 @@
   height: 854px;
   background: url(../../images/world-map.png);
   position: relative;
+  image-rendering: pixelated;
 }
 
 .discovered {
@@ -21,43 +27,7 @@
   top: 0;
   background: url(../../images/world-map-discovered.png);
   clip-path: url(#discoveredSvgPath);
-}
-
-.selection {
-  position: absolute;
-  display: block;
-  width: 954px;
-  height: 854px;
-  left: 0;
-  top: 0;
-}
-
-.selectionLink {
-  cursor: default;
-}
-
-.grabbing .selectionLink {
-  cursor: grab;
-}
-
-.selectionPolygon {
-  fill: transparent;
-  stroke: transparent;
-  pointer-events: all;
-  fill-opacity: 0.125;
-  shape-rendering: crispEdges;
-  transition: all 0.25s ease-out;
-}
-
-.selectionPolygon.selected {
-  stroke: var(--color-text);
-  fill: var(--color-text);
-  fill-opacity: 0.25;
-}
-
-.container:not(.grabbing) .selectionPolygon:hover {
-  stroke: var(--color-text);
-  fill: var(--color-text);
+  image-rendering: pixelated;
 }
 
 .cellMarker {
@@ -70,4 +40,16 @@
   z-index: 1;
   image-rendering: pixelated;
   pointer-events: none;
+}
+
+.compass {
+  position: absolute;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: url(../../images/compass.png) no-repeat;
+  image-rendering: pixelated;
+  pointer-events: none;
+  translate: -8px -10px;
+  z-index: 2;
 }
