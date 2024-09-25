@@ -1,8 +1,9 @@
+import type { PostsManagerName } from '../../core/entities/posts-manager.js';
 import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
 import type { PostPageData } from '../components/PostPage/PostPage.js';
 
 export interface PostRouteParams extends SiteRouteParams {
-  managerName: string;
+  managerName: PostsManagerName;
   id: string;
 }
 

@@ -1,11 +1,12 @@
+import type { PostsManagerName } from '../../core/entities/posts-manager.js';
 import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
 import type { PostsPageData, PostsPageInfo, PostsPageSearchParams } from '../components/PostsPage/PostsPage.js';
 
 export interface PostsRouteParams extends SiteRouteParams, PostsPageSearchParams {
-  managerName: string;
+  managerName: PostsManagerName;
 }
 
-export const postsRouteInfos: Record<string, PostsPageInfo> = {
+export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
   posts: {
     label: 'Posts',
     title: 'Posts',
@@ -38,10 +39,7 @@ export const postsRoute: SiteRoute<PostsRouteParams, PostsPageData, PostsPageInf
   path: '/@managerName',
   guard: ({ managerName }) => Object.keys(postsRouteInfos).includes(managerName),
   info: ({ managerName }, data) => ({
-    ...(postsRouteInfos[managerName] ?? {
-      title: 'Posts',
-      description: 'Posts of Morrowind Screenshots project.',
-    }),
+    ...postsRouteInfos[managerName],
     imageUrl: data?.postInfos[0]?.content,
   }),
   createUrl: (params) => {

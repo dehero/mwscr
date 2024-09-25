@@ -2,8 +2,6 @@ import type { DateRange, SortDirection } from '../utils/common-types.js';
 import { asArray, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
 import { dateToString, formatDate, isDateInRange, isValidDate } from '../utils/date-utils.js';
 import { isNestedLocation } from './location.js';
-import { createLocationInfo, type LocationInfo } from './location-info.js';
-import type { LocationsReader } from './locations-reader.js';
 import type { Option } from './option.js';
 import { ANY_OPTION, NONE_OPTION } from './option.js';
 import type {
@@ -28,6 +26,7 @@ import {
   POST_VIOLATIONS,
 } from './post.js';
 import { isPublishablePost, isTrashItem } from './post-variation.js';
+import type { PostsManagerName } from './posts-manager.js';
 import type { UserEntry } from './user.js';
 import type { UsersManager } from './users-manager.js';
 
@@ -38,7 +37,7 @@ export interface PostInfo {
   titleRu?: string;
   description?: string;
   descriptionRu?: string;
-  location?: LocationInfo;
+  location?: string;
   content?: PostContent;
   type: PostType;
   authorEntries: UserEntry[];
@@ -57,7 +56,7 @@ export interface PostInfo {
   followers?: number;
   engagement: number;
   rating: number;
-  managerName: string;
+  managerName: PostsManagerName;
 }
 
 export type PostInfoComparator = (a: PostInfo, b: PostInfo) => number;
@@ -96,12 +95,10 @@ export interface SelectPostInfosParams {
 
 export async function createPostInfo(
   entry: PostEntry,
-  locationsReader: LocationsReader,
   usersManager: UsersManager,
-  managerName: string,
+  managerName: PostsManagerName,
 ): Promise<PostInfo> {
   const [id, post, refId] = entry;
-  const location = post.location ? await locationsReader.getItem(post.location) : undefined;
   const errors: string[] = [];
 
   if (!isTrashItem(post)) {
@@ -114,7 +111,7 @@ export async function createPostInfo(
     title: post.title,
     titleRu: post.titleRu,
     description: post.description,
-    location: location ? createLocationInfo(location) : undefined,
+    location: post.location,
     content: post.content,
     type: post.type,
     authorEntries: await usersManager.getEntries(asArray(post.author)),
@@ -216,7 +213,7 @@ export const selectPostInfos = (postInfos: PostInfo[], params: SelectPostInfosPa
         (typeof params.location === 'undefined' ||
           (params.location === ANY_OPTION.value && info.location) ||
           (params.location === NONE_OPTION.value && !info.location) ||
-          (info.location && isNestedLocation(info.location.title, params.location))) &&
+          (info.location && isNestedLocation(info.location, params.location))) &&
         (typeof params.mark === 'undefined' || info.mark === params.mark) &&
         (typeof params.violation === 'undefined' ||
           (params.violation === ANY_OPTION.value && info.violation) ||

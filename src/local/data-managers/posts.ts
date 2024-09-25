@@ -10,6 +10,7 @@ import {
   isPublishablePost,
   isTrashOrInboxItem,
 } from '../../core/entities/post-variation.js';
+import type { PostsManagerName } from '../../core/entities/posts-manager.js';
 import { PostsManager } from '../../core/entities/posts-manager.js';
 import { asArray, textToId } from '../../core/utils/common-utils.js';
 import { dateToString } from '../../core/utils/date-utils.js';
@@ -18,14 +19,14 @@ import { pathExists } from '../utils/file-utils.js';
 import { loadYaml, saveYaml } from './utils/yaml.js';
 
 interface LocalPostsManagerProps<TPost extends Post> {
-  name: string;
+  name: PostsManagerName;
   dirPath: string;
   checkPost: (post: Post, errors?: string[]) => post is TPost;
   getItemChunkName: (id: string) => string;
 }
 
 class LocalPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
-  readonly name: string;
+  readonly name: PostsManagerName;
   readonly checkPost: (post: Post, errors?: string[]) => post is TPost;
   readonly getItemChunkName: (id: string) => string;
   readonly dirPath: string;
