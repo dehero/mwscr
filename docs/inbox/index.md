@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`30 items`
+`29 items`
 
 ## <span id="natty.2024-04-22-20-44-03">natty.2024-04-22-20-44-03</span>
 
@@ -307,25 +307,6 @@ kayracik.2024-09-05-20-09-00
 
 ```
 dehero.2024-09-21-12-17-54
-```
-
-## <span id="dehero.2024-09-21-12-11-46">dehero.2024-09-21-12-11-46</span>
-
-![store:/inbox/dehero.2024-09-21-12-11-46.png](../../assets/previews/inbox/dehero.2024-09-21-12-11-46.avif "dehero.2024-09-21-12-11-46")
-![store:/inbox/dehero.2024-09-21-12-08-08.png](../../assets/previews/inbox/dehero.2024-09-21-12-08-08.avif "dehero.2024-09-21-12-08-08")
-![store:/inbox/dehero.2024-09-21-12-07-22.png](../../assets/previews/inbox/dehero.2024-09-21-12-07-22.avif "dehero.2024-09-21-12-07-22")
-![store:/inbox/dehero.2024-09-21-12-07-15.png](../../assets/previews/inbox/dehero.2024-09-21-12-07-15.avif "dehero.2024-09-21-12-07-15")
-![store:/inbox/dehero.2024-09-21-12-07-15.1.png](../../assets/previews/inbox/dehero.2024-09-21-12-07-15.1.avif "dehero.2024-09-21-12-07-15.1")
-
-`shot` by [dehero](../contributors.md#dehero)
-
-> [!WARNING]
-> Need english title, need russian title, need mark, unable to detect possible post type from content.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-09-21-12-11-46&amp;postContent=store%3A%2Finbox%2Fdehero.2024-09-21-12-11-46.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-08-08.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-07-22.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-07-15.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-07-15.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-09-21-12-11-46&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-09-21-12-11-46&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-09-21-12-11-46&postLocation=)</code>
-
-```
-dehero.2024-09-21-12-11-46
 ```
 
 ## <span id="dehero.2024-09-21-11-57-36">dehero.2024-09-21-11-57-36</span>

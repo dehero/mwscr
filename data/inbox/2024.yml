@@ -79,14 +79,20 @@ dehero.2024-09-21-11-57-36:
   type: shot
   author: dehero
 dehero.2024-09-21-12-11-46:
-  content:
+  title: The Hand of Almalexia
+  titleRu: Рука Альмалексии
+  location: 'Mournhold Temple: High Chapel'
+  content: store:/inbox/dehero.2024-09-21-12-07-15.1.png
+  trash:
     - store:/inbox/dehero.2024-09-21-12-11-46.png
     - store:/inbox/dehero.2024-09-21-12-08-08.png
     - store:/inbox/dehero.2024-09-21-12-07-22.png
     - store:/inbox/dehero.2024-09-21-12-07-15.png
-    - store:/inbox/dehero.2024-09-21-12-07-15.1.png
   type: shot
   author: dehero
+  engine: OpenMW
+  addon: Tribunal
+  mark: B1
 dehero.2024-09-21-12-17-54:
   content:
     - store:/inbox/dehero.2024-09-21-12-17-54.png
