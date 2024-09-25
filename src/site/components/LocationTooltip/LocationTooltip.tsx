@@ -1,12 +1,13 @@
 import type { PositionRelativeToElement } from '@solid-primitives/mouse';
 import { type Component, Show, splitProps } from 'solid-js';
-import type { Location } from '../../../core/entities/location.js';
+import type { LocationInfo } from '../../../core/entities/location-info.js';
+import { isPostsUsageEmpty, postsUsageToString } from '../../../core/entities/posts-usage.js';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './LocationTooltip.module.css';
 
 interface LocationTooltipProps extends Omit<TooltipProps, 'children'> {
-  location: Location | ((position: PositionRelativeToElement) => Location | undefined);
+  location: LocationInfo | ((position: PositionRelativeToElement) => LocationInfo | undefined);
 }
 
 export const LocationTooltip: Component<LocationTooltipProps> = (props) => {
@@ -28,6 +29,9 @@ export const LocationTooltip: Component<LocationTooltipProps> = (props) => {
             <span>Type: {location.type}</span>
             <Show when={location.addon}>
               <span>Addon: {location.addon}</span>
+            </Show>
+            <Show when={'discovered' in location && !isPostsUsageEmpty(location.discovered)}>
+              <span>Posts: {'discovered' in location && postsUsageToString(location.discovered)}</span>
             </Show>
           </>
         );
