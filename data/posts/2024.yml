@@ -2352,18 +2352,18 @@
     - service: vk
       id: 1689
       published: 2024-08-13-18-55-56
-      updated: 2024-09-17-23-24-33
+      updated: 2024-09-25-01-47-56
       followers: 931
       likes: 39
-      views: 313
+      views: 315
       reposts: 2
     - service: tg
       id: 500
       published: 2024-08-13-18-56-05
-      updated: 2024-09-17-23-24-32
+      updated: 2024-09-25-01-47-55
       followers: 527
       likes: 75
-      views: 703
+      views: 720
       comments: !c |-
         izuAkpPLQnkVCahrAACteHhrYW1hejIwMDh4eNkraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0
         Y2g/dj11aFlvTE1fSGNXTZPLQnkU0g//AACpR2F0ZW1hdGU3vWxvb2tzIGxpa2Ugd2UgdXNpbmcg
@@ -2487,17 +2487,17 @@
       id: DARRD2WvQdl
       mediaId: '18037977406927524'
       published: 2024-09-23-18-30-57
-      updated: 2024-09-24-23-21-38
+      updated: 2024-09-25-01-47-54
       followers: 1459
       likes: 89
-      views: 449
+      views: 455
     - service: vk
       id: 1779
       published: 2024-09-23-18-31-03
-      updated: 2024-09-24-23-21-38
+      updated: 2024-09-25-01-47-54
       followers: 958
       likes: 42
-      views: 188
+      views: 192
       reposts: 2
       comments: !c |-
         G6sA4C0OzHPi3YhgMYcPLbipI1Q6UXmG8OYtYYthp4IlrOyB6maUu9DLIeEMVrexeR0ReNvLCDqt
@@ -2506,10 +2506,10 @@
     - service: tg
       id: 542
       published: 2024-09-23-18-31-11
-      updated: 2024-09-24-23-21-38
+      updated: 2024-09-25-01-47-54
       followers: 556
       likes: 50
-      views: 176
+      views: 177
 2024-09-24-towers-and-castle:
   title: Towers and Castle
   titleRu: Башни и замок
@@ -2528,22 +2528,22 @@
       id: DAT18BsviH8
       mediaId: '18043544329950622'
       published: 2024-09-24-18-31-45
-      updated: 2024-09-24-23-21-37
+      updated: 2024-09-25-01-47-53
       followers: 1458
-      likes: 49
-      views: 136
+      likes: 50
+      views: 158
     - service: vk
       id: 1781
       published: 2024-09-24-18-31-51
-      updated: 2024-09-24-23-21-37
+      updated: 2024-09-25-01-47-53
       followers: 959
-      likes: 20
-      views: 90
+      likes: 21
+      views: 93
       reposts: 1
     - service: tg
       id: 543
       published: 2024-09-24-18-31-57
-      updated: 2024-09-24-23-21-37
+      updated: 2024-09-25-01-47-53
       followers: 556
-      likes: 31
-      views: 133
+      likes: 32
+      views: 138
