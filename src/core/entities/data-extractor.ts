@@ -4,7 +4,7 @@ import type { Option } from './option.js';
 import { comparePostEntriesByDate, getPostEntriesFromSource } from './post.js';
 import type { PostInfo, SelectPostInfosParams } from './post-info.js';
 import { createPostInfo, selectPostInfos } from './post-info.js';
-import type { PostsManager } from './posts-manager.js';
+import type { PostsManager, PostsManagerName } from './posts-manager.js';
 import { getUserEntryTitle } from './user.js';
 import type { UsersManager } from './users-manager.js';
 
@@ -42,7 +42,7 @@ export class DataExtractor {
     return this.postsManagers.find((manager) => manager.name === managerName);
   }
 
-  async getAllPostInfos(managerName: string): Promise<PostInfo[]> {
+  async getAllPostInfos(managerName: PostsManagerName): Promise<PostInfo[]> {
     return this.createCache(`${this.getAllPostInfos.name}.${managerName}`, async () => {
       const manager = this.findPostsManager(managerName);
       if (!manager) {
@@ -53,7 +53,7 @@ export class DataExtractor {
         comparePostEntriesByDate('desc'),
       );
 
-      return await Promise.all(entries.map((entry) => createPostInfo(entry, this.locations, this.users, managerName)));
+      return await Promise.all(entries.map((entry) => createPostInfo(entry, this.users, managerName)));
     });
   }
 
@@ -122,13 +122,17 @@ export class DataExtractor {
       .map(([value, count]) => ({ value, label: `${value} (${count})` }));
   }
 
-  async selectPostInfo(managerName: string, params: SelectPostInfosParams): Promise<PostInfo | undefined> {
+  async selectPostInfo(managerName: PostsManagerName, params: SelectPostInfosParams): Promise<PostInfo | undefined> {
     const [postInfo] = await this.selectPostInfos(managerName, params, 1);
 
     return postInfo;
   }
 
-  async selectPostInfos(managerName: string, params: SelectPostInfosParams, size?: number): Promise<PostInfo[]> {
+  async selectPostInfos(
+    managerName: PostsManagerName,
+    params: SelectPostInfosParams,
+    size?: number,
+  ): Promise<PostInfo[]> {
     const postInfos = await this.getAllPostInfos(managerName);
     const result = selectPostInfos(postInfos, params);
 

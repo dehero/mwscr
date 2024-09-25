@@ -94,8 +94,8 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
           </span>
         )}
       </Show>
-      <Show when={local.postInfo.location?.title}>
-        <span class={styles.location}>Location: {local.postInfo.location?.title}</span>
+      <Show when={local.postInfo.location}>
+        <span class={styles.location}>Location: {local.postInfo.location}</span>
       </Show>
       <Show when={local.postInfo.engine}>
         <span class={styles.engine}>Engine: {local.postInfo.engine}</span>

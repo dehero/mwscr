@@ -1,18 +1,19 @@
 import type { Post } from '../../core/entities/post.js';
 import type { InboxItem, PublishablePost, TrashItem } from '../../core/entities/post-variation.js';
 import { getPostDraftChunkName, getPublishedPostChunkName } from '../../core/entities/post-variation.js';
+import type { PostsManagerName } from '../../core/entities/posts-manager.js';
 import { PostsManager } from '../../core/entities/posts-manager.js';
 
 type ChunkLoader = () => Promise<unknown>;
 
 interface SitePostsManagerProps {
-  name: string;
+  name: PostsManagerName;
   chunksLoaders: Record<string, ChunkLoader>;
   getItemChunkName: (id: string) => string;
 }
 
 class SitePostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
-  readonly name: string;
+  readonly name: PostsManagerName;
   readonly chunksLoaders: Record<string, ChunkLoader>;
   readonly getItemChunkName: (id: string) => string;
 
