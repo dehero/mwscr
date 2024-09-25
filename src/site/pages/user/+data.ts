@@ -3,7 +3,7 @@ import { createUserLinks } from '../../../core/entities/user.js';
 import { createUserInfo } from '../../../core/entities/user-info.js';
 import { services } from '../../../core/services/index.js';
 import { localDataExtractor } from '../../../local/data-managers/extractor.js';
-import { inbox, posts, trash } from '../../../local/data-managers/posts.js';
+import { postsManagers } from '../../../local/data-managers/posts.js';
 import { users } from '../../../local/data-managers/users.js';
 import type { UserPageData } from '../../components/UserPage/UserPage.js';
 
@@ -15,7 +15,7 @@ export async function data(pageContext: PageContext): Promise<UserPageData> {
   const userEntry = await users.getEntry(pageContext.routeParams.id);
 
   return {
-    userInfo: await createUserInfo(userEntry, posts, inbox, trash),
+    userInfo: await createUserInfo(userEntry, postsManagers),
     userLinks: await createUserLinks(userEntry, services),
     lastPostInfo: await localDataExtractor.selectPostInfo('posts', {
       author: pageContext.routeParams.id,

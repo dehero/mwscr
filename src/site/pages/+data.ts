@@ -1,14 +1,10 @@
 import { getPostCommentCount, getPostEntryLikes, POST_RECENTLY_PUBLISHED_DAYS } from '../../core/entities/post.js';
-import { createUserInfo } from '../../core/entities/user-info.js';
 import { localDataExtractor } from '../../local/data-managers/extractor.js';
 import { inbox, posts, trash } from '../../local/data-managers/posts.js';
-import { users } from '../../local/data-managers/users.js';
 import type { HomePageData } from '../components/HomePage/HomePage.js';
 
 export async function data(): Promise<HomePageData> {
-  const userInfos = await Promise.all(
-    (await users.getAllEntries()).map((entry) => createUserInfo(entry, posts, inbox, trash)),
-  );
+  const userInfos = await localDataExtractor.getAllUserInfos();
 
   const authorCount = userInfos.reduce((acc, userInfo) => acc + (userInfo.roles.includes('author') ? 1 : 0), 0);
   const requesterCount = userInfos.reduce((acc, userInfo) => acc + (userInfo.roles.includes('requester') ? 1 : 0), 0);
@@ -28,9 +24,9 @@ export async function data(): Promise<HomePageData> {
   return {
     buildDate: new Date(),
     totalPosts: {
-      posted: await posts.getItemCount(),
-      pending: await inbox.getItemCount(),
-      rejected: await trash.getItemCount(),
+      posts: await posts.getItemCount(),
+      inbox: await inbox.getItemCount(),
+      trash: await trash.getItemCount(),
     },
     authorCount,
     requesterCount,
