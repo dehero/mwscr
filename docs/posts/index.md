@@ -29,10 +29,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1007) | 2018-10-29 |   538 |    37 |       266 |  14.29 |
 | [`tg`](https://t.me/mwscr/105)                     | 2018-10-29 |   269 |     2 |           |        |
 | [`ig`](https://instagram.com/p/Bpi5zkoBjYS/)       | 2018-10-30 |       |    92 |       449 |  20.49 |
-| [`ig`](https://instagram.com/p/DAY9Ad4RwAx/)       | 2024-09-26 |    89 |    36 |      1457 |   2.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1783) | 2024-09-26 |    73 |    12 |       958 |   1.25 |
-| [`tg`](https://t.me/mwscr/546)                     | 2024-09-26 |   108 |    27 |       557 |   4.85 |
-|                                                    |            |   270 |    75 |      2972 |   8.67 |
+| [`ig`](https://instagram.com/p/DAY9Ad4RwAx/)       | 2024-09-26 |   110 |    41 |      1457 |   2.81 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1783) | 2024-09-26 |    83 |    13 |       958 |   1.36 |
+| [`tg`](https://t.me/mwscr/546)                     | 2024-09-26 |   116 |    28 |       557 |   5.03 |
+|                                                    |            |   309 |    82 |      2972 |   8.79 |
 
 #### Comments
 
@@ -69,10 +69,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAWbjOBpCo2/)       | 2024-09-25 |   322 |    95 |      1457 |   6.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1782) | 2024-09-25 |   168 |    21 |       958 |    2.3 |
-| [`tg`](https://t.me/mwscr/543)                     | 2024-09-25 |   269 |    48 |       557 |   8.62 |
-|                                                    |            |   759 |   164 |      2972 |   5.81 |
+| [`ig`](https://instagram.com/p/DAWbjOBpCo2/)       | 2024-09-25 |   322 |    96 |      1457 |   6.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1782) | 2024-09-25 |   169 |    21 |       958 |    2.3 |
+| [`tg`](https://t.me/mwscr/543)                     | 2024-09-25 |   270 |    48 |       557 |   8.62 |
+|                                                    |            |   761 |   165 |      2972 |   5.83 |
 
 ## <span id="2024-09-24-towers-and-castle">Towers and Castle</span>
 
@@ -263,10 +263,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaCTo47j5kd/)       | 2017-10-09 |       |    60 |       223 |  26.91 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_455)  | 2017-10-09 |   143 |     7 |        87 |   8.05 |
-| [`ig`](https://instagram.com/p/DAG9whpsfGu/)       | 2024-09-19 |   296 |    64 |      1458 |   4.39 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1773) | 2024-09-19 |   226 |    36 |       948 |    3.8 |
-| [`tg`](https://t.me/mwscr/538)                     | 2024-09-19 |   334 |    58 |       555 |  10.45 |
-|                                                    |            |   856 |   158 |      2961 |  10.72 |
+| [`ig`](https://instagram.com/p/DAG9whpsfGu/)       | 2024-09-19 |   297 |    64 |      1458 |   4.39 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1773) | 2024-09-19 |   237 |    37 |       948 |    3.9 |
+| [`tg`](https://t.me/mwscr/538)                     | 2024-09-19 |   360 |    58 |       555 |  10.45 |
+|                                                    |            |   894 |   159 |      2961 |  10.74 |
 
 ## <span id="2024-09-18-nileras-farmhouse">Nilera&#39;s Farmhouse</span>
 
@@ -908,10 +908,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BT3aibiDN0B/)       | 2017-05-09 |       |    92 |       178 |  51.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_284)  | 2017-05-09 |   100 |     9 |        56 |  16.07 |
-| [`ig`](https://instagram.com/p/C_Td0E0Ni4-/)       | 2024-08-30 |   597 |   168 |      1457 |  11.53 |
+| [`ig`](https://instagram.com/p/C_Td0E0Ni4-/)       | 2024-08-30 |   599 |   168 |      1457 |  11.53 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1721) | 2024-08-30 |   287 |    46 |       941 |    5.1 |
 | [`tg`](https://t.me/mwscr/517)                     | 2024-08-30 |   531 |    71 |       545 |  13.03 |
-|                                                    |            |  1415 |   285 |      2943 |  19.48 |
+|                                                    |            |  1417 |   285 |      2943 |  19.48 |
 
 #### Comments
 
@@ -945,10 +945,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/C_Q49pUplLM/)       | 2024-08-29 |   395 |   103 |      1455 |   7.08 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1716) | 2024-08-29 |   261 |    31 |       941 |   3.51 |
-| [`tg`](https://t.me/mwscr/516)                     | 2024-08-29 |   534 |    73 |       544 |  13.42 |
-|                                                    |            |  1190 |   207 |      2940 |      8 |
+| [`ig`](https://instagram.com/p/C_Q49pUplLM/)       | 2024-08-29 |   398 |   103 |      1455 |   7.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1716) | 2024-08-29 |   264 |    31 |       941 |   3.51 |
+| [`tg`](https://t.me/mwscr/516)                     | 2024-08-29 |   549 |    73 |       544 |  13.42 |
+|                                                    |            |  1211 |   207 |      2940 |      8 |
 
 #### Comments
 
@@ -1163,10 +1163,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BS0c3hvDN7K/)       | 2017-04-13 |       |    69 |       172 |  40.12 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_257)  | 2017-04-13 |    95 |     2 |        52 |   3.85 |
-| [`ig`](https://instagram.com/p/C--2VkaNrtE/)       | 2024-08-22 |   356 |    92 |      1458 |   6.31 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1701) | 2024-08-22 |   249 |    31 |       937 |   3.31 |
-| [`tg`](https://t.me/mwscr/509)                     | 2024-08-22 |   520 |    54 |       539 |  10.02 |
-|                                                    |            |  1125 |   177 |      2934 |  12.72 |
+| [`ig`](https://instagram.com/p/C--2VkaNrtE/)       | 2024-08-22 |   357 |    92 |      1458 |   6.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1701) | 2024-08-22 |   252 |    31 |       937 |   3.31 |
+| [`tg`](https://t.me/mwscr/509)                     | 2024-08-22 |   534 |    54 |       539 |  10.02 |
+|                                                    |            |  1143 |   177 |      2934 |  12.72 |
 
 ## <span id="2024-08-21-streets-of-vos">Streets of Vos</span>
 
@@ -1605,9 +1605,9 @@
 | [`ig`](https://instagram.com/p/BnCJCoeF4b6/)       | 2018-08-28 |       |   108 |       406 |   26.6 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_880)  | 2018-08-28 |   355 |    28 |       217 |   12.9 |
 | [`ig`](https://instagram.com/p/C-azUnhJNPE/)       | 2024-08-08 |   462 |    97 |      1437 |   6.75 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   310 |    37 |       927 |   4.21 |
-| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   577 |    65 |       508 |   12.8 |
-|                                                    |            |  1349 |   199 |      2872 |  12.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1674) | 2024-08-08 |   311 |    37 |       927 |   4.21 |
+| [`tg`](https://t.me/mwscr/494)                     | 2024-08-08 |   582 |    65 |       508 |   12.8 |
+|                                                    |            |  1355 |   199 |      2872 |  12.65 |
 
 #### Comments
 
@@ -1621,7 +1621,7 @@
   - <ins title="2024-08-08-18-55-36">mwscr</ins> Maybe some issues with posting links to Instagram. Try link in the profile. You should be able to find this image there.
   - <ins title="2024-08-09-09-20-26">sombersobriety</ins> @mwscr the website is absolutely beautiful! 😍
   - <ins title="2024-08-09-10-06-00">mwscr</ins> @sombersobriety Thank you!
-- `tg` <ins title="2024-08-10-18-24-45">oceanssoull</ins> wanna live here
+- `tg` <ins title="2024-08-10-18-24-45">elvenjiig</ins> wanna live here
 
 ## <span id="2024-08-07-dance-of-dagoth">Dance of Dagoth</span>
 
