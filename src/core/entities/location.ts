@@ -29,22 +29,21 @@ export function getLocationCellCoordinates(cell: string): LocationCellCoordinate
   return cell.split(' ').map(Number) as LocationCellCoordinates;
 }
 
-export function locationCellsToString(cell: LocationCell | LocationCell[] | undefined): string {
-  return asArray(cell).join(' ');
-}
+export function getCenterLocationCell(cell: LocationCell | LocationCell[] | undefined): LocationCell | undefined {
+  const cells = asArray(cell);
+  if (cells.length === 0) {
+    return undefined;
+  }
+  if (cells.length === 1) {
+    return cells[0];
+  }
 
-export function stringToLocationCells(cells: string | undefined): LocationCell[] {
-  return (
-    cells
-      ?.split(' ')
-      .map((item) => Number(item) || 0)
-      .reduce(
-        (result, _, index, array) => {
-          if (index % 2 === 0) result.push(array.slice(index, index + 2));
-          return result;
-        },
-        [] as Array<number[]>,
-      )
-      .map(([x, y]) => `${x} ${y}` as LocationCell) ?? []
-  );
+  const coordinates = cells.map((cell) => getLocationCellCoordinates(cell));
+
+  const minX = Math.min(...coordinates.map(([x]) => x));
+  const maxX = Math.max(...coordinates.map(([x]) => x));
+  const minY = Math.min(...coordinates.map(([_, y]) => y));
+  const maxY = Math.max(...coordinates.map(([_, y]) => y));
+
+  return `${minX + Math.round((maxX - minX) / 2)} ${minY + Math.round((maxY - minY) / 2)}`;
 }

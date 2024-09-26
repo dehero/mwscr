@@ -1,5 +1,6 @@
 .container {
   background: var(--color-background-map);
+  position: relative;
   overflow: hidden;
 }
 
@@ -52,4 +53,20 @@
   pointer-events: none;
   translate: -8px -10px;
   z-index: 2;
+}
+
+.footer {
+  position: sticky;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  padding: 4px 8px;
+  cursor: default;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 4px;
+}
+
+.currentLocationTitle {
+  color: var(--color-text-light);
 }
