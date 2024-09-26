@@ -4,7 +4,41 @@
 
 # Posted in 2024
 
-`212 items`
+`213 items`
+
+## <span id="2024-09-26-bread-and-wine">Bread and Wine</span>
+
+`RU` Хлеб и вино
+
+<a href="https://instagram.com/p/Bpi5zkoBjYS/" title="2018-10-29-bread-and-wine"><img alt="store:/shots/2018-10-29-bread-and-wine.png" src="../../assets/previews/shots/2018-10-29-bread-and-wine.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-09-26-bread-and-wine&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-09-26-bread-and-wine
+```
+
+> `2018-10-29-bread-and-wine`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1007) | 2018-10-29 |   538 |    37 |       266 |  14.29 |
+| [`tg`](https://t.me/mwscr/105)                     | 2018-10-29 |   269 |     2 |           |        |
+| [`ig`](https://instagram.com/p/Bpi5zkoBjYS/)       | 2018-10-30 |       |    92 |       449 |  20.49 |
+| [`ig`](https://instagram.com/p/DAY9Ad4RwAx/)       | 2024-09-26 |       |       |      1457 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1783) | 2024-09-26 |       |       |       958 |        |
+| [`tg`](https://t.me/mwscr/546)                     | 2024-09-26 |       |       |       557 |        |
+|                                                    |            |       |       |      2972 |  17.39 |
+
+#### Comments
+
+- `vk` <ins title="2018-10-30-08-14-56">id199993738</ins> ...или &quot;Трапеза перед сном&quot;
+  - <ins title="2018-10-30-13-27-21">dead___end</ins> Михаил, я бы все это съел и выпил)
+- `ig` <ins title="2018-10-30-11-22-47">peteevandrew</ins> And mact
 
 ## <span id="2024-09-25-the-hand-of-almalexia">The Hand of Almalexia</span>
 
@@ -35,10 +69,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAWbjOBpCo2/)       | 2024-09-25 |   305 |    94 |      1457 |   6.45 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1782) | 2024-09-25 |   159 |    21 |       958 |    2.3 |
-| [`tg`](https://t.me/mwscr/543)                     | 2024-09-25 |   257 |    48 |       557 |   8.62 |
-|                                                    |            |   721 |   163 |      2972 |   5.79 |
+| [`ig`](https://instagram.com/p/DAWbjOBpCo2/)       | 2024-09-25 |   310 |    94 |      1457 |   6.45 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1782) | 2024-09-25 |   160 |    21 |       958 |    2.3 |
+| [`tg`](https://t.me/mwscr/543)                     | 2024-09-25 |   258 |    48 |       557 |   8.62 |
+|                                                    |            |   728 |   163 |      2972 |   5.79 |
 
 ## <span id="2024-09-24-towers-and-castle">Towers and Castle</span>
 
@@ -64,10 +98,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAT18BsviH8/)       | 2024-09-24 |   284 |    84 |      1458 |   5.76 |
+| [`ig`](https://instagram.com/p/DAT18BsviH8/)       | 2024-09-24 |   285 |    84 |      1458 |   5.76 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1781) | 2024-09-24 |   181 |    30 |       959 |   3.23 |
-| [`tg`](https://t.me/mwscr/543)                     | 2024-09-24 |   257 |    48 |       556 |   8.63 |
-|                                                    |            |   722 |   162 |      2973 |   5.88 |
+| [`tg`](https://t.me/mwscr/543)                     | 2024-09-24 |   258 |    48 |       556 |   8.63 |
+|                                                    |            |   724 |   162 |      2973 |   5.88 |
 
 ## <span id="2024-09-23-near-imperial-office">Near Imperial Office</span>
 
