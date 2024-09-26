@@ -35,10 +35,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAWbjOBpCo2/)       | 2024-09-25 |   283 |    86 |      1457 |    5.9 |
+| [`ig`](https://instagram.com/p/DAWbjOBpCo2/)       | 2024-09-25 |   287 |    89 |      1457 |   6.11 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1782) | 2024-09-25 |   147 |    20 |       958 |   2.19 |
 | [`tg`](https://t.me/mwscr/543)                     | 2024-09-25 |   252 |    48 |       557 |   8.62 |
-|                                                    |            |   682 |   154 |      2972 |   5.57 |
+|                                                    |            |   686 |   157 |      2972 |   5.64 |
 
 ## <span id="2024-09-24-towers-and-castle">Towers and Castle</span>
 
@@ -64,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAT18BsviH8/)       | 2024-09-24 |   278 |    83 |      1458 |   5.69 |
+| [`ig`](https://instagram.com/p/DAT18BsviH8/)       | 2024-09-24 |   280 |    83 |      1458 |   5.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1781) | 2024-09-24 |   177 |    30 |       959 |   3.23 |
 | [`tg`](https://t.me/mwscr/543)                     | 2024-09-24 |   252 |    48 |       556 |   8.63 |
-|                                                    |            |   707 |   161 |      2973 |   5.85 |
+|                                                    |            |   709 |   161 |      2973 |   5.85 |
 
 ## <span id="2024-09-23-near-imperial-office">Near Imperial Office</span>
 
