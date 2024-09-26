@@ -2321,7 +2321,7 @@
     - service: vk
       id: 1541
       published: 2024-05-22-18-19-25
-      updated: 2024-09-19-05-21-54
+      updated: 2024-09-26-06-11-02
       followers: 917
       likes: 31
       views: 250
@@ -2332,10 +2332,10 @@
     - service: tg
       id: 416
       published: 2024-05-22-18-19-31
-      updated: 2024-09-19-05-21-52
+      updated: 2024-09-26-06-10-59
       followers: 375
       likes: 57
-      views: 447
+      views: 448
 2017-03-08-nchurdamz-at-the-sunset:
   title: Nchurdamz at the Sunset
   titleRu: Нчурдамц на закате
@@ -4298,7 +4298,7 @@
     - service: vk
       id: 1569
       published: 2024-06-05-18-19-31
-      updated: 2024-09-19-05-21-53
+      updated: 2024-09-26-06-11-00
       followers: 916
       likes: 43
       views: 298
@@ -4310,10 +4310,10 @@
     - service: tg
       id: 430
       published: 2024-06-05-18-19-36
-      updated: 2024-09-19-05-21-52
+      updated: 2024-09-26-06-10-58
       followers: 385
       likes: 70
-      views: 510
+      views: 513
       comments: !c |-
         izKAkpPLQnj/GH6FgACvQWxleGV5IFN0ZXBhbm92v015IGhlYXJ0IHN0YXJ0ZWQgYmVhdGluZyBm
         YXN0ZXKTy0J4/poWK4AAqUdhdGVtYXRlN7ZpdCBpcyBzbyBiZWF1dGlmdWwuLi4uAw==
@@ -5390,17 +5390,17 @@
     - service: vk
       id: 1612
       published: 2024-07-03-18-19-45
-      updated: 2024-09-19-05-21-50
+      updated: 2024-09-26-06-10-57
       followers: 917
       likes: 28
       views: 221
     - service: tg
       id: 458
       published: 2024-07-03-18-19-53
-      updated: 2024-09-19-05-21-50
+      updated: 2024-09-26-06-10-56
       followers: 391
       likes: 50
-      views: 427
+      views: 430
       comments: !c |-
         CyGAkZTLQnkHndcVAACrYm9icm92bmlrb3azUklQIEQuIEJyeWFudCAg8J+qppPLQnkHngW2gACp
         R2F0ZW1hdGU3oz8/PwM=
@@ -9551,17 +9551,17 @@
     - service: vk
       id: 1603
       published: 2024-06-26-18-19-40
-      updated: 2024-09-19-05-21-51
+      updated: 2024-09-26-06-10-58
       followers: 917
       likes: 41
       views: 250
     - service: tg
       id: 451
       published: 2024-06-26-18-19-49
-      updated: 2024-09-19-05-21-51
+      updated: 2024-09-26-06-10-57
       followers: 388
       likes: 56
-      views: 461
+      views: 465
 2017-10-12-gnaar-mok:
   title: Gnaar Mok
   titleRu: Гнаар Мок

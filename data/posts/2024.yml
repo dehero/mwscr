@@ -1777,14 +1777,14 @@
     - service: vk
       id: 1533
       published: 2024-05-15-18-18-32
-      updated: 2024-09-19-05-21-55
+      updated: 2024-09-26-06-11-02
       followers: 915
       likes: 39
       views: 253
     - service: tg
       id: 409
       published: 2024-05-15-18-18-39
-      updated: 2024-09-19-05-21-53
+      updated: 2024-09-26-06-10-59
       followers: 370
       likes: 57
       views: 457
@@ -2169,7 +2169,7 @@
     - service: vk
       id: 1579
       published: 2024-06-12-18-20-23
-      updated: 2024-09-19-05-21-52
+      updated: 2024-09-26-06-10-59
       followers: 915
       likes: 35
       views: 275
@@ -2180,10 +2180,10 @@
     - service: tg
       id: 437
       published: 2024-06-12-18-20-29
-      updated: 2024-09-19-05-21-51
+      updated: 2024-09-26-06-10-57
       followers: 384
       likes: 54
-      views: 457
+      views: 459
 2024-06-13-propylon:
   title: Propylon
   titleRu: Пропильон
@@ -2528,22 +2528,22 @@
       id: DAT18BsviH8
       mediaId: '18043544329950622'
       published: 2024-09-24-18-31-45
-      updated: 2024-09-26-05-08-02
+      updated: 2024-09-26-06-10-55
       followers: 1458
       likes: 81
-      views: 266
+      views: 268
     - service: vk
       id: 1781
       published: 2024-09-24-18-31-51
-      updated: 2024-09-26-05-08-03
+      updated: 2024-09-26-06-10-56
       followers: 959
       likes: 30
-      views: 168
+      views: 169
       reposts: 1
     - service: tg
       id: 543
       published: 2024-09-24-18-31-57
-      updated: 2024-09-26-05-08-03
+      updated: 2024-09-26-06-10-56
       followers: 556
       likes: 45
       views: 247
@@ -2570,22 +2570,22 @@
       id: DAWbjOBpCo2
       mediaId: '18038555939131029'
       published: 2024-09-25
-      updated: 2024-09-26-05-08-02
+      updated: 2024-09-26-06-10-55
       followers: 1457
-      likes: 76
-      views: 230
+      likes: 78
+      views: 236
     - service: vk
       id: 1782
       published: 2024-09-25
-      updated: 2024-09-26-05-08-03
+      updated: 2024-09-26-06-10-55
       followers: 958
-      likes: 14
-      views: 101
+      likes: 15
+      views: 109
       reposts: 1
     - service: tg
       id: 543
       published: 2024-09-25
-      updated: 2024-09-26-05-08-03
+      updated: 2024-09-26-06-10-56
       followers: 557
       likes: 45
       views: 247
