@@ -35,10 +35,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAWbjOBpCo2/)       | 2024-09-25 |   164 |    66 |      1457 |   4.53 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1782) | 2024-09-25 |    81 |    12 |       958 |   1.36 |
-| [`tg`](https://t.me/mwscr/543)                     | 2024-09-25 |   241 |    43 |       557 |   7.72 |
-|                                                    |            |   486 |   121 |      2972 |   4.54 |
+| [`ig`](https://instagram.com/p/DAWbjOBpCo2/)       | 2024-09-25 |   192 |    70 |      1457 |    4.8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1782) | 2024-09-25 |    86 |    13 |       958 |   1.46 |
+| [`tg`](https://t.me/mwscr/543)                     | 2024-09-25 |   243 |    44 |       557 |    7.9 |
+|                                                    |            |   521 |   127 |      2972 |   4.72 |
 
 ## <span id="2024-09-24-towers-and-castle">Towers and Castle</span>
 
@@ -64,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAT18BsviH8/)       | 2024-09-24 |   262 |    81 |      1458 |   5.56 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1781) | 2024-09-24 |   161 |    30 |       959 |   3.23 |
-| [`tg`](https://t.me/mwscr/543)                     | 2024-09-24 |   241 |    43 |       556 |   7.73 |
-|                                                    |            |   664 |   154 |      2973 |   5.51 |
+| [`ig`](https://instagram.com/p/DAT18BsviH8/)       | 2024-09-24 |   264 |    81 |      1458 |   5.56 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1781) | 2024-09-24 |   164 |    30 |       959 |   3.23 |
+| [`tg`](https://t.me/mwscr/543)                     | 2024-09-24 |   243 |    44 |       556 |   7.91 |
+|                                                    |            |   671 |   155 |      2973 |   5.57 |
 
 ## <span id="2024-09-23-near-imperial-office">Near Imperial Office</span>
 
@@ -1838,9 +1838,9 @@
 | [`ig`](https://instagram.com/p/BhKJllaDKQo/)       | 2018-04-04 |       |    72 |       312 |  23.08 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_677)  | 2018-04-04 |   176 |    17 |       149 |  11.41 |
 | [`ig`](https://instagram.com/p/C-GS_cMAUNx/)       | 2024-07-31 |   542 |   115 |      1433 |   8.03 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |   263 |    38 |       924 |   4.11 |
-| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |  1028 |    60 |       419 |  14.32 |
-|                                                    |            |  1833 |   213 |      2776 |  12.19 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1662) | 2024-07-31 |   265 |    38 |       924 |   4.11 |
+| [`tg`](https://t.me/mwscr/486)                     | 2024-07-31 |  1035 |    60 |       419 |  14.32 |
+|                                                    |            |  1842 |   213 |      2776 |  12.19 |
 
 ## <span id="2024-07-30-netches-have-fallen-out">Netches Have Fallen Out</span>
 
@@ -2056,9 +2056,9 @@
 | [`ig`](https://instagram.com/p/BUJVeyhjb-N/)       | 2017-05-16 |       |    66 |       178 |  37.08 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_292)  | 2017-05-16 |    94 |     5 |        55 |   9.09 |
 | [`ig`](https://instagram.com/p/C90LbJUTPJo/)       | 2024-07-24 |   352 |   107 |      1429 |   7.49 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1655) | 2024-07-24 |   366 |    44 |       921 |   4.89 |
-| [`tg`](https://t.me/mwscr/479)                     | 2024-07-24 |   570 |    58 |       400 |   14.5 |
-|                                                    |            |  1288 |   209 |      2750 |  14.61 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1655) | 2024-07-24 |   367 |    44 |       921 |   4.89 |
+| [`tg`](https://t.me/mwscr/479)                     | 2024-07-24 |   577 |    58 |       400 |   14.5 |
+|                                                    |            |  1296 |   209 |      2750 |  14.61 |
 
 #### Comments
 
@@ -2283,13 +2283,13 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_179)  | 2017-03-02 |   146 |    11 |        43 |     11 |
 | [`ig`](https://instagram.com/p/C9iJyhxNvPi/)       | 2024-07-17 |   489 |    91 |      1426 |   6.38 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1641) | 2024-07-17 |   287 |    39 |       919 |   4.24 |
-| [`tg`](https://t.me/mwscr/472)                     | 2024-07-17 |   565 |    65 |       401 |  16.21 |
-|                                                    |            |  1341 |   195 |      2746 |   14.3 |
+| [`tg`](https://t.me/mwscr/472)                     | 2024-07-17 |   571 |    65 |       401 |  16.21 |
+|                                                    |            |  1347 |   195 |      2746 |   14.3 |
 
 #### Comments
 
 - `ig` <ins title="2017-03-02-13-11-11">syntax3rrur</ins> Takes me back. Keep it up! 😍
-- `tg` <ins title="2024-07-17-18-27-56">Artorias901</ins> my dream is to live here
+- `tg` <ins title="2024-07-17-18-27-56">deleted</ins> my dream is to live here
 - `ig` <ins title="2024-07-17-20-42-14">delanospies</ins> @dravenjv one of my favorites
 
 ## <span id="2024-07-16-snowy-waiting">Snowy Waiting</span>
@@ -2499,9 +2499,9 @@
 | [`ig`](https://instagram.com/p/BUG3cZnD1DK/)       | 2017-05-15 |       |    54 |       178 |  30.34 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_291)  | 2017-05-15 |   117 |     9 |        55 |  16.36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1629) | 2024-07-10 |   247 |    37 |       919 |   4.03 |
-| [`tg`](https://t.me/mwscr/465)                     | 2024-07-10 |   520 |    57 |       396 |  14.39 |
+| [`tg`](https://t.me/mwscr/465)                     | 2024-07-10 |   523 |    57 |       396 |  14.39 |
 | [`ig`](https://instagram.com/p/C9WWNUkOIO0/)       | 2024-07-13 |   431 |    88 |      1427 |   6.17 |
-|                                                    |            |  1198 |   182 |      2742 |  14.26 |
+|                                                    |            |  1201 |   182 |      2742 |  14.26 |
 
 #### Comments
 
@@ -3154,8 +3154,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_247)  | 2017-04-09 |   132 |     6 |        51 |  11.76 |
 | [`ig`](https://instagram.com/p/C8aDacDqO5Q/)       | 2024-06-19 |   470 |   115 |      1420 |    8.1 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1588) | 2024-06-19 |   319 |    44 |       917 |   5.23 |
-| [`tg`](https://t.me/mwscr/444)                     | 2024-06-19 |   464 |    56 |       387 |  14.47 |
-|                                                    |            |  1253 |   215 |      2724 |  14.81 |
+| [`tg`](https://t.me/mwscr/444)                     | 2024-06-19 |   469 |    56 |       387 |  14.47 |
+|                                                    |            |  1258 |   215 |      2724 |  14.81 |
 
 #### Comments
 
