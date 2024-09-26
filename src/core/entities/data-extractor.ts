@@ -43,6 +43,21 @@ export class DataExtractor {
     this.users = args.users;
   }
 
+  async findWorldMapLocationInfo(location: string): Promise<LocationInfo | undefined> {
+    const locationInfos = await this.getAllLocationInfos();
+    const locationInfo = locationInfos.find((info) => info.title === location);
+
+    if (!locationInfo) {
+      return undefined;
+    }
+
+    if (!locationInfo?.cell) {
+      return locationInfos.find((info) => info.cell && isNestedLocation(locationInfo.title, info.title));
+    } else {
+      return locationInfo;
+    }
+  }
+
   findPostsManager(managerName: string): PostsManager | undefined {
     return this.postsManagers.find((manager) => manager.name === managerName);
   }

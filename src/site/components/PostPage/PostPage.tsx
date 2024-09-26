@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import JsFileDownloader from 'js-file-downloader';
 import { type Component, createSignal, Match, onMount, Show, Switch } from 'solid-js';
 import { useData } from 'vike-solid/useData';
+import type { LocationInfo } from '../../../core/entities/location-info.js';
 import type { Post, PostEntry } from '../../../core/entities/post.js';
 import {
   getPostCommentCount,
@@ -48,7 +49,10 @@ import { ResourceSelector } from '../ResourceSelector/ResourceSelector.js';
 import { Spacer } from '../Spacer/Spacer.js';
 import { Table } from '../Table/Table.js';
 import { Toast, useToaster } from '../Toaster/Toaster.js';
+import { WorldMap } from '../WorldMap/WorldMap.jsx';
 import styles from './PostPage.module.css';
+import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
+import { navigate } from 'vike/client/router';
 
 export interface PostPageData {
   post: Post | undefined;
@@ -56,6 +60,8 @@ export interface PostPageData {
   authorEntries: UserEntry[];
   requesterEntry: UserEntry | undefined;
   usedTags: Array<[string, number]> | undefined;
+  locationInfo: LocationInfo | undefined;
+  worldMapLocationInfo: LocationInfo | undefined;
 }
 
 export const PostPage: Component = () => {
@@ -297,9 +303,9 @@ export const PostPage: Component = () => {
                   </span>
                 </Show>
 
-                <Show when={managerInfo()?.actions?.some((action) => ['edit', 'review', 'merge'].includes(action))}>
+                <Show when={managerInfo().actions?.some((action) => ['edit', 'review', 'merge'].includes(action))}>
                   <div class={styles.actions}>
-                    <Show when={managerInfo()?.actions?.includes('edit')}>
+                    <Show when={managerInfo().actions?.includes('edit')}>
                       <Button onClick={() => setShowEditingDialog(true)} class={styles.action}>
                         Edit
                       </Button>
@@ -310,7 +316,7 @@ export const PostPage: Component = () => {
                         onClose={() => setShowEditingDialog(false)}
                       />
                     </Show>
-                    <Show when={managerInfo()?.actions?.includes('edit')}>
+                    <Show when={managerInfo().actions?.includes('edit')}>
                       <Button onClick={() => setShowReviewDialog(true)} class={styles.action}>
                         Review
                       </Button>
@@ -321,7 +327,7 @@ export const PostPage: Component = () => {
                         onClose={() => setShowReviewDialog(false)}
                       />
                     </Show>
-                    <Show when={managerInfo()?.actions?.includes('edit')}>
+                    <Show when={managerInfo().actions?.includes('edit')}>
                       <Button onClick={() => setShowMergeDialog(true)} class={styles.action}>
                         Merge
                       </Button>
@@ -338,7 +344,7 @@ export const PostPage: Component = () => {
                     {
                       label: 'Location',
                       value:
-                        !post.location && managerInfo()?.actions?.includes('locate')
+                        !post.location && managerInfo().actions?.includes('locate')
                           ? () => (
                               <Button class={styles.action} onClick={() => setShowLocationDialog(true)}>
                                 Locate
@@ -347,6 +353,9 @@ export const PostPage: Component = () => {
                           : post.location,
                       link: post.location
                         ? postsRoute.createUrl({ managerName: 'posts', location: post.location, original: 'true' })
+                        : undefined,
+                      tooltip: data.locationInfo
+                        ? (ref) => <LocationTooltip forRef={ref} location={data.locationInfo!} />
                         : undefined,
                     },
                     { label: 'Date', value: isValidDate(date()) ? date() : undefined },
@@ -428,10 +437,11 @@ export const PostPage: Component = () => {
                     rows={
                       data.usedTags?.map(([label, count]) => ({
                         label,
-                        value: () => <>{count}</>,
+                        value: count,
                         link: postsRoute.createUrl({ managerName: 'posts', tag: label, original: 'true' }),
                       })) ?? []
                     }
+                    showEmptyValueRows
                   />
                 </Show>
 
@@ -516,6 +526,27 @@ export const PostPage: Component = () => {
                       },
                     ]}
                   />
+                </Show>
+
+                <Show when={data.worldMapLocationInfo}>
+                  <Frame class={styles.mapWrapper}>
+                    <WorldMap
+                      class={styles.map}
+                      locations={[data.worldMapLocationInfo!]}
+                      currentLocation={data.worldMapLocationInfo!.title}
+                      discoveredLocations={data.locationInfo ? [data.locationInfo.title] : []}
+                      onCurrentLocationChange={() =>
+                        // @ts-expect-error No proper typing for navigate
+                        navigate(
+                          postsRoute.createUrl({
+                            managerName: 'posts',
+                            location: data.worldMapLocationInfo!.title,
+                            original: 'true',
+                          }),
+                        )
+                      }
+                    />
+                  </Frame>
                 </Show>
 
                 <Spacer />
