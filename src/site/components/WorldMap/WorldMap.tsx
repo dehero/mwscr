@@ -1,29 +1,17 @@
-import { BooleanOperations, Box, Polygon } from '@flatten-js/core';
 import clsx from 'clsx';
-import {
-  batch,
-  type Component,
-  createContext,
-  createEffect,
-  createMemo,
-  createSignal,
-  For,
-  onCleanup,
-  Show,
-  untrack,
-} from 'solid-js';
-import {
-  getLocationCellCoordinates,
-  type LocationCell,
-  stringToLocationCells,
-} from '../../../core/entities/location.js';
-import type { LocationInfo } from '../../../core/entities/location-info.js';
+import { batch, type Component, createEffect, createMemo, createSignal, For, onCleanup, Show, untrack } from 'solid-js';
+import { getCenterLocationCell, type LocationCell } from '../../../core/entities/location.js';
+import { type LocationInfo } from '../../../core/entities/location-info.js';
 import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
 import styles from './WorldMap.module.css';
-
-const CELL_SIZE = 18;
-const CELL_SHIFT_X = 522;
-const CELL_SHIFT_Y = 504;
+import { Spacer } from '../Spacer/Spacer.jsx';
+import {
+  locationCellToWorldMapPosition,
+  WORLD_MAP_HEIGHT,
+  WORLD_MAP_WIDTH,
+  worldMapPositionToLocationCell,
+} from '../../../core/entities/world-map.js';
+import { asArray } from '../../../core/utils/common-utils.js';
 
 export interface WorldMapProps {
   locations: LocationInfo[];
@@ -38,57 +26,9 @@ interface CellMarkerProps {
   ref?: HTMLDivElement | undefined;
 }
 
-interface WorldMapContext {
-  onLocationClick?: (location: LocationInfo) => void;
-}
-
-function mapPositionToCell(x: number, y: number): LocationCell {
-  return `${Math.floor((x - CELL_SHIFT_X) / CELL_SIZE)} ${Math.floor((CELL_SHIFT_Y - y) / CELL_SIZE) + 1}`;
-}
-
-function cellToMapPosition(cell: LocationCell) {
-  const [x, y] = getLocationCellCoordinates(cell);
-
-  return [CELL_SHIFT_X + x * CELL_SIZE, CELL_SHIFT_Y - y * CELL_SIZE];
-}
-
-function locationToMapPolygon(info: LocationInfo) {
-  const cells = stringToLocationCells(info.cells).map((cell) => {
-    const [x = 0, y = 0] = cellToMapPosition(cell);
-
-    return new Polygon(new Box(x, y, x + CELL_SIZE, y + CELL_SIZE));
-  });
-
-  let polygon;
-  for (const cell of cells) {
-    if (!polygon) {
-      polygon = cell;
-    } else {
-      polygon = BooleanOperations.unify(polygon, cell);
-    }
-  }
-
-  return polygon;
-}
-
-function locationToCenterCell(info: LocationInfo): LocationCell {
-  const coordinates = stringToLocationCells(info.cells).map((cell) => getLocationCellCoordinates(cell));
-
-  const minX = Math.min(...coordinates.map(([x]) => x));
-  const maxX = Math.max(...coordinates.map(([x]) => x));
-  const minY = Math.min(...coordinates.map(([_, y]) => y));
-  const maxY = Math.max(...coordinates.map(([_, y]) => y));
-
-  return `${minX + Math.round((maxX - minX) / 2)} ${minY + Math.round((maxY - minY) / 2)}`;
-}
-
-const WorldMapContext = createContext<WorldMapContext>({
-  onLocationClick: undefined,
-});
-
 const CellMarker: Component<CellMarkerProps> = (props) => {
   const style = () => {
-    const [left, top] = cellToMapPosition(props.cell).map((v) => `${v - 0.5}px`);
+    const [left, top] = locationCellToWorldMapPosition(props.cell).map((v) => `${v - 0.5}px`);
     return {
       left,
       top,
@@ -100,7 +40,7 @@ const CellMarker: Component<CellMarkerProps> = (props) => {
 
 const Compass: Component<CellMarkerProps> = (props) => {
   const style = () => {
-    const [left, top] = cellToMapPosition(props.cell).map((v) => `${v}px`);
+    const [left, top] = locationCellToWorldMapPosition(props.cell).map((v) => `${v}px`);
     return {
       left,
       top,
@@ -119,22 +59,25 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
   } | null>(null);
   const [isGrabbing, setIsGrabbing] = createSignal(false);
 
-  const worldLocations = createMemo(() => props.locations.filter((location) => location.cells));
-  const exteriors = createMemo(() => worldLocations().filter((location) => location.type === 'exterior'));
+  const worldLocations = createMemo(() => props.locations.filter((location) => location.cell));
+
+  const markedCells = createMemo(() =>
+    worldLocations()
+      .filter((location) => location.type === 'exterior')
+      .flatMap((exterior) => asArray(exterior.cell)),
+  );
 
   const cellLocations = createMemo(() => {
     const result = new Map(
-      worldLocations().flatMap((location) => stringToLocationCells(location.cells).map((cell) => [cell, location])),
+      worldLocations().flatMap((location) => asArray(location.cell).map((cell) => [cell, location])),
     );
     return result;
   });
 
-  const locationPolygons = createMemo(() =>
-    worldLocations().map((location): [string, Polygon | undefined] => [location.title, locationToMapPolygon(location)]),
-  );
-
-  const discoveredPolygons = createMemo(() =>
-    locationPolygons().filter(([location]) => props.discoveredLocations?.includes(location)),
+  const discoveredPolygonSvgs = createMemo(() =>
+    worldLocations()
+      .filter((info) => props.discoveredLocations?.includes(info.title))
+      .map((info) => info.worldMapSvg),
   );
 
   const selectedWorldLocation = () => {
@@ -151,14 +94,14 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
   let compassRef: HTMLDivElement | undefined;
 
   const handleMapMouseUp = (e: MouseEvent) => {
-    if (isGrabbing()) {
+    if (isGrabbing() || !props.onCurrentLocationChange) {
       return;
     }
 
     e.preventDefault();
     e.stopPropagation();
 
-    const cell = mapPositionToCell(e.offsetX, e.offsetY);
+    const cell = worldMapPositionToLocationCell(e.offsetX, e.offsetY);
     const location = cellLocations().get(cell);
 
     batch(() => {
@@ -198,8 +141,10 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
 
     if (selectedLocation) {
       if (selectedLocation.title !== currentLocation?.title) {
-        const centerCell = locationToCenterCell(selectedLocation);
-        setCurrentCell(centerCell);
+        const centerCell = getCenterLocationCell(selectedLocation.cell);
+        if (centerCell) {
+          setCurrentCell(centerCell);
+        }
       }
     } else {
       setCurrentCell(null);
@@ -248,31 +193,32 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
         onMouseDown={handleMouseDown}
       >
         <div class={styles.map} ref={mapRef} onMouseUp={handleMapMouseUp}>
-          <Show when={discoveredPolygons().length > 0}>
+          <Show when={discoveredPolygonSvgs().length > 0}>
             <div class={styles.discovered} />
-            <svg width="954" height="854" viewBox="0 0 954 854">
+            <svg
+              width={WORLD_MAP_WIDTH}
+              height={WORLD_MAP_HEIGHT}
+              viewBox={`0 0 ${WORLD_MAP_WIDTH} ${WORLD_MAP_HEIGHT}`}
+            >
               <defs>
-                <clipPath
-                  id="discoveredSvgPath"
-                  innerHTML={discoveredPolygons()
-                    .map(
-                      ([_, polygon]) =>
-                        polygon?.svg({
-                          className: styles.discoveredPolygon,
-                        }),
-                    )
-                    .join('\n')}
-                />
+                <clipPath id="discoveredSvgPath" innerHTML={discoveredPolygonSvgs().join('\n')} />
               </defs>
             </svg>
           </Show>
-          <For each={exteriors()}>
-            {(exterior) => (
-              <For each={stringToLocationCells(exterior.cells)}>{(cell) => <CellMarker cell={cell} />}</For>
-            )}
-          </For>
+          <For each={markedCells()}>{(cell) => <CellMarker cell={cell} />}</For>
           <Show when={currentCell()}>{(cell) => <Compass cell={cell()} ref={compassRef} />}</Show>
         </div>
+        <p class={styles.footer}>
+          <Show when={props.locations.length > 1 && worldLocations().length < props.locations.length}>
+            <span class={styles.worldLocationCount}>
+              Showing {worldLocations().length} of {props.locations.length} locations
+            </span>
+          </Show>
+          <Show when={props.currentLocation}>
+            <Spacer component="span" />
+            <span class={styles.currentLocationTitle}>{props.currentLocation}</span>
+          </Show>
+        </p>
       </div>
       <LocationTooltip
         forRef={ref}
@@ -280,7 +226,10 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
           if (isGrabbing()) {
             return;
           }
-          const cell = mapPositionToCell(relative.x + (ref?.scrollLeft || 0), relative.y + (ref?.scrollTop || 0));
+          const cell = worldMapPositionToLocationCell(
+            relative.x + (ref?.scrollLeft || 0),
+            relative.y + (ref?.scrollTop || 0),
+          );
           return cellLocations().get(cell);
         }}
       />

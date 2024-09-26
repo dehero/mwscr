@@ -1,20 +1,22 @@
 import type { SortDirection } from '../utils/common-types.js';
 import { cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
 import type { ListReaderEntry } from './list-manager.js';
-import { type Location, locationCellsToString, type LocationType } from './location.js';
+import { type Location, LocationCell, type LocationType } from './location.js';
 import type { Option } from './option.js';
 import type { PostAddon } from './post.js';
 import type { PostsManager } from './posts-manager.js';
 import type { PostsUsage } from './posts-usage.js';
 import { createPostsUsage } from './posts-usage.js';
+import { locationCellToWorldMapPolygon } from './world-map.js';
 
 export interface LocationInfo {
   title: string;
   titleRu?: string;
   type: LocationType;
   addon?: PostAddon;
-  cells?: string;
+  cell?: LocationCell | LocationCell[];
   discovered?: PostsUsage;
+  worldMapSvg?: string;
 }
 
 export type LocationInfoComparator = (a: LocationInfo, b: LocationInfo) => number;
@@ -54,8 +56,9 @@ export async function createLocationInfo(
     titleRu: location.titleRu,
     type: location.type,
     addon: location.addon,
-    cells: locationCellsToString(location.cell) || undefined,
+    cell: location.cell,
     discovered,
+    worldMapSvg: locationCellToWorldMapPolygon(location.cell)?.svg(),
   });
 }
 
