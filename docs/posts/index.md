@@ -35,10 +35,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAWbjOBpCo2/)       | 2024-09-25 |   192 |    70 |      1457 |    4.8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1782) | 2024-09-25 |    86 |    13 |       958 |   1.46 |
-| [`tg`](https://t.me/mwscr/543)                     | 2024-09-25 |   243 |    44 |       557 |    7.9 |
-|                                                    |            |   521 |   127 |      2972 |   4.72 |
+| [`ig`](https://instagram.com/p/DAWbjOBpCo2/)       | 2024-09-25 |   206 |    72 |      1457 |   4.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1782) | 2024-09-25 |    91 |    13 |       958 |   1.46 |
+| [`tg`](https://t.me/mwscr/543)                     | 2024-09-25 |   244 |    44 |       557 |    7.9 |
+|                                                    |            |   541 |   129 |      2972 |   4.77 |
 
 ## <span id="2024-09-24-towers-and-castle">Towers and Castle</span>
 
@@ -64,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAT18BsviH8/)       | 2024-09-24 |   264 |    81 |      1458 |   5.56 |
+| [`ig`](https://instagram.com/p/DAT18BsviH8/)       | 2024-09-24 |   265 |    81 |      1458 |   5.56 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1781) | 2024-09-24 |   164 |    30 |       959 |   3.23 |
-| [`tg`](https://t.me/mwscr/543)                     | 2024-09-24 |   243 |    44 |       556 |   7.91 |
-|                                                    |            |   671 |   155 |      2973 |   5.57 |
+| [`tg`](https://t.me/mwscr/543)                     | 2024-09-24 |   244 |    44 |       556 |   7.91 |
+|                                                    |            |   673 |   155 |      2973 |   5.57 |
 
 ## <span id="2024-09-23-near-imperial-office">Near Imperial Office</span>
 
