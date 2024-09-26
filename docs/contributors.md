@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 957 posted, 19 pending, 66 rejected  
 Requested: 6 pending  
-Likes: 145971  
+Likes: 145928  
 
 ```
 dehero
@@ -21,7 +21,7 @@ dehero
 
 Roles: `author`  
 Authored: 33 posted, 16 pending, 18 rejected  
-Likes: 6499  
+Likes: 6491  
 
 ```
 natty
@@ -33,7 +33,7 @@ natty
 
 Roles: `author`  
 Authored: 10 posted, 13 rejected  
-Likes: 2699  
+Likes: 2696  
 
 ```
 darkness-rifho
@@ -45,7 +45,7 @@ darkness-rifho
 
 Roles: `author` `drawer`  
 Authored: 3 posted  
-Likes: 632  
+Likes: 631  
 
 ```
 knives-out
