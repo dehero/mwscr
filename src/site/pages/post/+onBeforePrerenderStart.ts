@@ -1,5 +1,6 @@
 import type { OnBeforePrerenderStartAsync } from 'vike/types';
 import { asArray } from '../../../core/utils/common-utils.js';
+import { localDataExtractor } from '../../../local/data-managers/extractor.js';
 import { posts, postsManagers } from '../../../local/data-managers/posts.js';
 import { users } from '../../../local/data-managers/users.js';
 import type { PostPageData } from '../../components/PostPage/PostPage.js';
@@ -23,6 +24,10 @@ export async function onBeforePrerenderStart(): ReturnType<OnBeforePrerenderStar
                 authorEntries: await users.getEntries(asArray(post.author)),
                 requesterEntry: post.request?.user ? await users.getEntry(post.request.user) : undefined,
                 usedTags: post.tags?.map((tag): [string, number] => [tag, tagsUsage.get(tag) || 0]),
+                locationInfo: post.location ? await localDataExtractor.getLocationInfo(post.location) : undefined,
+                worldMapLocationInfo: post.location
+                  ? await localDataExtractor.findWorldMapLocationInfo(post.location)
+                  : undefined,
               },
             },
           })),

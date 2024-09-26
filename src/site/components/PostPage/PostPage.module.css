@@ -176,6 +176,16 @@
   text-align: center;
 }
 
+.mapWrapper {
+  align-self: center;
+  display: grid;
+}
+
+.map {
+  max-width: 400px;
+  max-height: 200px;
+}
+
 @media only screen and (max-height: 483px) and (min-width: 812px) {
   .container {
     display: grid;
