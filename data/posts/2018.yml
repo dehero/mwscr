@@ -4642,7 +4642,7 @@
     - service: vk
       id: 1526
       published: 2024-05-09-18-18-25
-      updated: 2024-09-20-08-27-58
+      updated: 2024-09-27-09-08-12
       followers: 913
       likes: 39
       views: 273
@@ -4652,7 +4652,7 @@
     - service: tg
       id: 403
       published: 2024-05-09-18-18-32
-      updated: 2024-09-20-08-27-58
+      updated: 2024-09-27-09-08-12
       followers: 370
       likes: 60
       views: 451
@@ -10258,17 +10258,17 @@
       id: DAY9Ad4RwAx
       mediaId: '18099947011452446'
       published: 2024-09-26-18-09-39
-      updated: 2024-09-27-08-10-30
+      updated: 2024-09-27-09-08-10
       followers: 1457
       likes: 63
-      views: 200
+      views: 206
     - service: vk
       id: 1783
       published: 2024-09-26-18-09-47
-      updated: 2024-09-27-08-10-31
+      updated: 2024-09-27-09-08-11
       followers: 958
-      likes: 17
-      views: 120
+      likes: 19
+      views: 130
       comments: !c |-
         G8QBAJwHZRvXZnG3+PHapCri/3kOpif0T3ERB5wFHc8CSZrgZhOc3Ec2W25nCdXuLdSHiXth/CB1
         C63RqtcFIBlhQbkXrydLSZVvM6MlhVBMaIXHTjTBgLyAE8kyDCzPCsN40E0f6mQTkmIKE4535PP1
@@ -10278,10 +10278,10 @@
     - service: tg
       id: 546
       published: 2024-09-26-18-09-56
-      updated: 2024-09-27-08-10-31
+      updated: 2024-09-27-09-08-11
       followers: 557
-      likes: 41
-      views: 164
+      likes: 42
+      views: 170
 2018-10-30-stairway-to-god:
   title: Stairway to God
   titleRu: Лестница к богу
