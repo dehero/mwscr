@@ -10258,24 +10258,29 @@
       id: DAY9Ad4RwAx
       mediaId: '18099947011452446'
       published: 2024-09-26-18-09-39
-      updated: 2024-09-27-04-09-48
+      updated: 2024-09-27-05-07-41
       followers: 1457
-      likes: 59
-      views: 168
+      likes: 60
+      views: 176
     - service: vk
       id: 1783
       published: 2024-09-26-18-09-47
-      updated: 2024-09-27-04-09-48
+      updated: 2024-09-27-05-07-45
       followers: 958
-      likes: 14
-      views: 97
+      likes: 15
+      views: 104
+      comments: !c |-
+        G2kBAJyHsbGs5Sin39cssmmI/pGDeUJ/xUWcaNA8gaAlGCaY3CNL5zQ+x7t/8XgrjtgBVMubGD+Y
+        7auc7s5gY0zqWtIdMThk3OBEA/XFBpo3HGygJcB45Yc62T6kF4wguY2V1/uXHye+d4TP7TQ3Sx7/
+        uJqkdBvFmUuB/KvD5hVxDmhUIGNnR48LPVMdd57bTFVMBIjIaAmLgslPqTUWOwL5Gqki8HLwDBPZ
+        HMIlN2KVGMjhKhYG35EVIGm67OCloSbbB2Oxe+aU9DWih8TYGqRs8p1sohysYfT9530C
     - service: tg
       id: 546
       published: 2024-09-26-18-09-56
-      updated: 2024-09-27-04-09-49
+      updated: 2024-09-27-05-07-41
       followers: 557
       likes: 32
-      views: 132
+      views: 136
 2018-10-30-stairway-to-god:
   title: Stairway to God
   titleRu: Лестница к богу
