@@ -4,7 +4,37 @@
 
 # Posted in 2024
 
-`213 items`
+`214 items`
+
+## <span id="2024-09-27-the-two-towers">The Two Towers</span>
+
+`RU` Две башни
+
+<a href="https://instagram.com/p/BSDMkIvDb3x/" title="2017-03-25-the-two-towers"><img alt="store:/shots/2017-03-25-the-two-towers.png" src="../../assets/previews/shots/2017-03-25-the-two-towers.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-09-27-the-two-towers&postLocation=)</code> `🚀 OpenMW` `dwemer` `tower`
+
+```
+2024-09-27-the-two-towers
+```
+
+> `2017-03-25-the-two-towers`
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BSDMkIvDb3x/)      | 2017-03-25 |       |    68 |       163 |  41.72 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_230) | 2017-03-25 |   171 |     8 |        49 |      8 |
+| [`ig`](https://instagram.com/p/DAbh1Y2hZzV/)      | 2024-09-27 |       |       |      1455 |        |
+| [`tg`](https://t.me/mwscr/547)                    | 2024-09-27 |       |       |       557 |        |
+|                                                   |            |       |       |      2012 |  24.86 |
+
+#### Comments
+
+- `ig` <ins title="2017-03-25-16-03-53">house.dagoth</ins> Damn I remember this place
 
 ## <span id="2024-09-26-bread-and-wine">Bread and Wine</span>
 
@@ -29,10 +59,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1007) | 2018-10-29 |   538 |    37 |       266 |  14.29 |
 | [`tg`](https://t.me/mwscr/105)                     | 2018-10-29 |   269 |     2 |           |        |
 | [`ig`](https://instagram.com/p/Bpi5zkoBjYS/)       | 2018-10-30 |       |    92 |       449 |  20.49 |
-| [`ig`](https://instagram.com/p/DAY9Ad4RwAx/)       | 2024-09-26 |   231 |    68 |      1457 |   4.67 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1783) | 2024-09-26 |   157 |    25 |       958 |   2.61 |
-| [`tg`](https://t.me/mwscr/546)                     | 2024-09-26 |   185 |    46 |       557 |   8.26 |
-|                                                    |            |   573 |   139 |      2972 |  10.06 |
+| [`ig`](https://instagram.com/p/DAY9Ad4RwAx/)       | 2024-09-26 |   235 |    71 |      1457 |   4.87 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1783) | 2024-09-26 |   161 |    25 |       958 |   2.61 |
+| [`tg`](https://t.me/mwscr/546)                     | 2024-09-26 |   186 |    47 |       557 |   8.44 |
+|                                                    |            |   582 |   143 |      2972 |  10.14 |
 
 #### Comments
 
@@ -100,10 +130,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAT18BsviH8/)       | 2024-09-24 |   285 |    84 |      1458 |   5.76 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1781) | 2024-09-24 |   181 |    30 |       959 |   3.23 |
-| [`tg`](https://t.me/mwscr/543)                     | 2024-09-24 |   258 |    48 |       556 |   8.63 |
-|                                                    |            |   724 |   162 |      2973 |   5.88 |
+| [`ig`](https://instagram.com/p/DAT18BsviH8/)       | 2024-09-24 |   306 |    87 |      1458 |   5.97 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1781) | 2024-09-24 |   203 |    32 |       959 |   3.44 |
+| [`tg`](https://t.me/mwscr/543)                     | 2024-09-24 |   285 |    50 |       556 |   8.99 |
+|                                                    |            |   794 |   169 |      2973 |   6.13 |
 
 ## <span id="2024-09-23-near-imperial-office">Near Imperial Office</span>
 
