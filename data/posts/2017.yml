@@ -712,7 +712,7 @@
     - service: yt
       id: 8Waikj-VsSI
       published: 2017-01-22
-      updated: 2024-09-20-22-22-57
+      updated: 2024-09-27-23-07-08
       likes: 7
       views: 129
     - service: vk
@@ -948,7 +948,7 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2024-09-20-22-22-57
+      updated: 2024-09-27-23-07-07
       likes: 25
       views: 571
       comments: !c CxOAkZPLQnaO0E6sgACqQE5hcnNNY2FpbrBJIGxvdmUgdGhpcyBzaGl0Aw==
@@ -1533,9 +1533,9 @@
     - service: yt
       id: Fd77v5UL_ek
       published: 2017-02-12
-      updated: 2024-09-20-22-22-56
+      updated: 2024-09-27-23-07-07
       likes: 30
-      views: 665
+      views: 666
       comments: !c |-
         G+gAoCwK7IZjg1xnd84NfTExG8H/173ufKL3qbUU3ol5wEulDhJM54DXczGQWwslGIsxDlWEf7it
         t5QEIT7YrgRCP24zuPGiFz0mZ9esw+AcQenkQAP0rEVhywI7BwFwBRjoxlL4wrHIsHg7HF6DDo6k
@@ -2927,24 +2927,24 @@
       id: DAbh1Y2hZzV
       mediaId: '18266328385222441'
       published: 2024-09-27-18-09-56
-      updated: 2024-09-27-22-05-02
+      updated: 2024-09-27-23-07-07
       followers: 1455
-      likes: 38
-      views: 133
+      likes: 41
+      views: 146
     - service: tg
       id: 547
       published: 2024-09-27-18-10-13
-      updated: 2024-09-27-22-05-03
+      updated: 2024-09-27-23-07-08
       followers: 557
       likes: 33
-      views: 115
+      views: 116
     - service: vk
       id: 1786
       published: 2024-09-27-19-01-39
-      updated: 2024-09-27-22-05-03
+      updated: 2024-09-27-23-07-08
       followers: 957
-      likes: 17
-      views: 72
+      likes: 19
+      views: 76
 2017-03-26-exploring-bitter-coast:
   title: Exploring Bitter Coast
   titleRu: На горьком берегу
