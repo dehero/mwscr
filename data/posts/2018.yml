@@ -424,18 +424,18 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2024-09-19-23-22-04
+      updated: 2024-09-27-00-35-15
       followers: 921
       likes: 44
-      views: 285
+      views: 286
       reposts: 2
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2024-09-19-23-22-03
+      updated: 2024-09-27-00-35-14
       followers: 399
-      likes: 70
-      views: 622
+      likes: 71
+      views: 629
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -9333,27 +9333,27 @@
       id: C-s02fCI7m7
       mediaId: '18197312713292587'
       published: 2024-08-15-18-20-29
-      updated: 2024-09-19-23-22-01
+      updated: 2024-09-27-00-35-14
       followers: 1439
       likes: 96
-      views: 426
+      views: 428
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2024-09-19-23-22-02
+      updated: 2024-09-27-00-35-14
       followers: 932
       likes: 36
-      views: 274
+      views: 275
       comments: !c |-
         iyeAkZTLQnkVdl1GgACyeW91cmVuZW1pZXN3aWxscGF5u9Ci0LDQvCDQutC70LDQvSDQkdC10YDQ
         vdC1P5PLQnkVy9vAAACmcDQwamxhpNC00LAD
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2024-09-19-23-22-02
+      updated: 2024-09-27-00-35-13
       followers: 527
       likes: 59
-      views: 583
+      views: 593
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
@@ -10258,24 +10258,24 @@
       id: DAY9Ad4RwAx
       mediaId: '18099947011452446'
       published: 2024-09-26-18-09-39
-      updated: 2024-09-26-23-08-05
+      updated: 2024-09-27-00-35-12
       followers: 1457
-      likes: 45
-      views: 124
+      likes: 54
+      views: 140
     - service: vk
       id: 1783
       published: 2024-09-26-18-09-47
-      updated: 2024-09-26-23-08-18
+      updated: 2024-09-27-00-35-12
       followers: 958
       likes: 13
-      views: 85
+      views: 88
     - service: tg
       id: 546
       published: 2024-09-26-18-09-56
-      updated: 2024-09-26-23-08-06
+      updated: 2024-09-27-00-35-13
       followers: 557
-      likes: 28
-      views: 121
+      likes: 30
+      views: 127
 2018-10-30-stairway-to-god:
   title: Stairway to God
   titleRu: Лестница к богу
