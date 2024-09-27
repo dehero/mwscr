@@ -24,13 +24,14 @@
 
 ### Reactions
 
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BSDMkIvDb3x/)      | 2017-03-25 |       |    68 |       163 |  41.72 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_230) | 2017-03-25 |   171 |     8 |        49 |      8 |
-| [`ig`](https://instagram.com/p/DAbh1Y2hZzV/)      | 2024-09-27 |       |       |      1455 |        |
-| [`tg`](https://t.me/mwscr/547)                    | 2024-09-27 |       |       |       557 |        |
-|                                                   |            |       |       |      2012 |  24.86 |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BSDMkIvDb3x/)       | 2017-03-25 |       |    68 |       163 |  41.72 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_230)  | 2017-03-25 |   171 |     8 |        49 |      8 |
+| [`ig`](https://instagram.com/p/DAbh1Y2hZzV/)       | 2024-09-27 |    31 |    16 |      1455 |    1.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1786) | 2024-09-27 |       |       |       957 |        |
+| [`tg`](https://t.me/mwscr/547)                     | 2024-09-27 |    75 |    18 |       557 |   3.23 |
+|                                                    |            |   106 |    34 |      2969 |  13.51 |
 
 #### Comments
 
@@ -59,10 +60,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1007) | 2018-10-29 |   538 |    37 |       266 |  14.29 |
 | [`tg`](https://t.me/mwscr/105)                     | 2018-10-29 |   269 |     2 |           |        |
 | [`ig`](https://instagram.com/p/Bpi5zkoBjYS/)       | 2018-10-30 |       |    92 |       449 |  20.49 |
-| [`ig`](https://instagram.com/p/DAY9Ad4RwAx/)       | 2024-09-26 |   235 |    71 |      1457 |   4.87 |
+| [`ig`](https://instagram.com/p/DAY9Ad4RwAx/)       | 2024-09-26 |   243 |    72 |      1457 |   4.94 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1783) | 2024-09-26 |   161 |    25 |       958 |   2.61 |
-| [`tg`](https://t.me/mwscr/546)                     | 2024-09-26 |   186 |    47 |       557 |   8.44 |
-|                                                    |            |   582 |   143 |      2972 |  10.14 |
+| [`tg`](https://t.me/mwscr/546)                     | 2024-09-26 |   211 |    49 |       557 |    8.8 |
+|                                                    |            |   615 |   146 |      2972 |  10.22 |
 
 #### Comments
 
