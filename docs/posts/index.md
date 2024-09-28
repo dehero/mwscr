@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`214 items`
+`215 items`
+
+## <span id="2024-09-28-cozy-workplace-in-the-basement">Cozy Workplace in the Basement</span>
+
+`RU` Уютное рабочее место в подвале
+
+<a href="https://instagram.com/p/BbkgKrPjwqJ/" title="2017-11-16-cozy-workplace-in-the-basement"><img alt="store:/shots/2017-11-16-cozy-workplace-in-the-basement.png" src="../../assets/previews/shots/2017-11-16-cozy-workplace-in-the-basement.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-09-28-cozy-workplace-in-the-basement&postLocation=)</code> `🚀 OpenMW` `table`
+
+```
+2024-09-28-cozy-workplace-in-the-basement
+```
+
+> `2017-11-16-cozy-workplace-in-the-basement`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BbkgKrPjwqJ/)       | 2017-11-16 |       |    68 |       235 |  28.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_502)  | 2017-11-16 |   162 |    16 |       100 |     16 |
+| [`ig`](https://instagram.com/p/DAeGeTKOGy4/)       | 2024-09-28 |       |       |      1457 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1789) | 2024-09-28 |       |       |       957 |        |
+| [`tg`](https://t.me/mwscr/548)                     | 2024-09-28 |       |       |       557 |        |
+|                                                    |            |       |       |      2971 |  22.47 |
 
 ## <span id="2024-09-27-the-two-towers">The Two Towers</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSDMkIvDb3x/)       | 2017-03-25 |       |    68 |       163 |  41.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_230)  | 2017-03-25 |   171 |     8 |        49 |      8 |
-| [`ig`](https://instagram.com/p/DAbh1Y2hZzV/)       | 2024-09-27 |   249 |    67 |      1455 |    4.6 |
+| [`ig`](https://instagram.com/p/DAbh1Y2hZzV/)       | 2024-09-27 |   256 |    67 |      1455 |    4.6 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1786) | 2024-09-27 |   159 |    30 |       957 |   3.13 |
-| [`tg`](https://t.me/mwscr/547)                     | 2024-09-27 |   170 |    47 |       557 |   8.44 |
-|                                                    |            |   578 |   144 |      2969 |  13.18 |
+| [`tg`](https://t.me/mwscr/547)                     | 2024-09-27 |   171 |    48 |       557 |   8.62 |
+|                                                    |            |   586 |   145 |      2969 |  13.21 |
 
 #### Comments
 
@@ -62,10 +89,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1007) | 2018-10-29 |   538 |    37 |       266 |  14.29 |
 | [`tg`](https://t.me/mwscr/105)                     | 2018-10-29 |   269 |     2 |           |        |
 | [`ig`](https://instagram.com/p/Bpi5zkoBjYS/)       | 2018-10-30 |       |    92 |       449 |  20.49 |
-| [`ig`](https://instagram.com/p/DAY9Ad4RwAx/)       | 2024-09-26 |   267 |    80 |      1457 |   5.49 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1783) | 2024-09-26 |   182 |    28 |       958 |   2.92 |
-| [`tg`](https://t.me/mwscr/546)                     | 2024-09-26 |   237 |    51 |       557 |   9.16 |
-|                                                    |            |   686 |   159 |      2972 |  10.47 |
+| [`ig`](https://instagram.com/p/DAY9Ad4RwAx/)       | 2024-09-26 |   268 |    80 |      1457 |   5.49 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1783) | 2024-09-26 |   183 |    28 |       958 |   2.92 |
+| [`tg`](https://t.me/mwscr/546)                     | 2024-09-26 |   238 |    52 |       557 |   9.34 |
+|                                                    |            |   689 |   160 |      2972 |   10.5 |
 
 #### Comments
 
