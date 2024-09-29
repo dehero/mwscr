@@ -2097,7 +2097,7 @@
     - service: vk
       id: 1454
       published: 2024-03-16-18-10-42
-      updated: 2024-09-22-10-22-10
+      updated: 2024-09-29-11-02-02
       followers: 896
       likes: 37
       views: 291
@@ -2105,7 +2105,7 @@
     - service: tg
       id: 348
       published: 2024-03-16-18-10-49
-      updated: 2024-09-22-10-22-08
+      updated: 2024-09-29-11-01-59
       followers: 353
       likes: 55
       views: 442
@@ -2927,14 +2927,14 @@
       id: DAbh1Y2hZzV
       mediaId: '18266328385222441'
       published: 2024-09-27-18-09-56
-      updated: 2024-09-29-10-01-10
+      updated: 2024-09-29-11-01-56
       followers: 1455
-      likes: 77
-      views: 284
+      likes: 78
+      views: 286
     - service: tg
       id: 547
       published: 2024-09-27-18-10-13
-      updated: 2024-09-29-10-01-11
+      updated: 2024-09-29-11-01-56
       followers: 557
       likes: 56
       views: 223
@@ -2942,10 +2942,10 @@
     - service: vk
       id: 1786
       published: 2024-09-27-19-01-39
-      updated: 2024-09-29-10-01-12
+      updated: 2024-09-29-11-01-56
       followers: 957
       likes: 33
-      views: 180
+      views: 182
       comments: !c ixWAkZPLQnkjhfcUAACraWQyMDMyODMxNDi00JDRgtC80L7RgdGE0LXRgNC90L4D
 2017-03-26-exploring-bitter-coast:
   title: Exploring Bitter Coast
@@ -8297,7 +8297,7 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2024-09-22-10-22-05
+      updated: 2024-09-29-11-01-57
       followers: 915
       likes: 41
       views: 281
@@ -10713,24 +10713,24 @@
       id: DAeGeTKOGy4
       mediaId: '18062454733729799'
       published: 2024-09-28-18-08-35
-      updated: 2024-09-29-10-01-10
+      updated: 2024-09-29-11-01-55
       followers: 1457
       likes: 51
-      views: 215
+      views: 219
     - service: vk
       id: 1789
       published: 2024-09-28-18-08-41
-      updated: 2024-09-29-10-01-11
+      updated: 2024-09-29-11-01-55
       followers: 957
-      likes: 31
-      views: 149
+      likes: 32
+      views: 152
     - service: tg
       id: 548
       published: 2024-09-28-18-08-47
-      updated: 2024-09-29-10-01-11
+      updated: 2024-09-29-11-01-55
       followers: 557
       likes: 47
-      views: 149
+      views: 150
 2017-11-17-pelagiad-descent-to-the-road:
   title: Pelagiad, Descent to the Road
   titleRu: Пелагиад, спуск к дороге
