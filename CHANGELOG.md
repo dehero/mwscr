@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.18.1](https://github.com/dehero/mwscr/compare/v1.18.0...v1.18.1) (2024-09-30)
+
+### Bug Fixes
+
+- save Promise not result to DataExtractor cache
+  ([d196f34](https://github.com/dehero/mwscr/commit/d196f342ca3e59ecb7ea5bb306bc67516d34d412))
+
 ## [1.18.0](https://github.com/dehero/mwscr/compare/v1.17.3...v1.18.0) (2024-09-30)
 
 ### Features
