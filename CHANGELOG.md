@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.19.0](https://github.com/dehero/mwscr/compare/v1.18.1...v1.19.0) (2024-09-30)
+
+### Features
+
+- support many locations for single post
+  ([3cd0036](https://github.com/dehero/mwscr/commit/3cd0036dac407acc56907c50cf209b9d9ebbc29c))
+
 ## [1.18.1](https://github.com/dehero/mwscr/compare/v1.18.0...v1.18.1) (2024-09-30)
 
 ### Bug Fixes
