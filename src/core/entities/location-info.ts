@@ -1,7 +1,7 @@
 import type { SortDirection } from '../utils/common-types.js';
 import { cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
 import type { ListReaderEntry } from './list-manager.js';
-import { type Location, LocationCell, type LocationType } from './location.js';
+import { isNestedLocation, type Location, LocationCell, type LocationType } from './location.js';
 import type { Option } from './option.js';
 import type { PostAddon } from './post.js';
 import type { PostsManager } from './posts-manager.js';
@@ -48,7 +48,9 @@ export async function createLocationInfo(
   let discovered;
 
   if (postManagers) {
-    discovered = await createPostsUsage(postManagers, 'getLocationsUsageStats', id);
+    discovered = await createPostsUsage(postManagers, 'getLocationsUsageStats', (location) =>
+      isNestedLocation(location, id),
+    );
   }
 
   return cleanupUndefinedProps({

@@ -13,13 +13,21 @@ export type PostsManagerStatsMethodName = {
 
 export async function createPostsUsage(
   postsManagers: PostsManager[],
-  getterName: PostsManagerStatsMethodName,
-  id: string,
+  statsMethodName: PostsManagerStatsMethodName,
+  key: string | ((key: string) => boolean),
 ): Promise<PostsUsage | undefined> {
   const result: PostsUsage = {};
 
   for (const manager of postsManagers) {
-    result[manager.name] = (await manager[getterName]()).get(id) || undefined;
+    const stats = await manager[statsMethodName]();
+    let count;
+    if (typeof key === 'string') {
+      count = stats.get(key);
+    } else {
+      count = [...stats].filter(([value]) => key(value)).reduce((acc, [, count]) => acc + count, 0);
+    }
+
+    result[manager.name] = count || undefined;
   }
 
   return Object.values(result).length > 0 ? cleanupUndefinedProps(result) : undefined;
