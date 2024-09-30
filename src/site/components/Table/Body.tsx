@@ -8,6 +8,7 @@ export interface BodyProps {
   rows: TableRow[];
   lightLabels?: boolean;
   scrollTarget?: HTMLElement;
+  onInitialize?: () => void;
 }
 
 export const Body: Component<BodyProps> = (props) => {
