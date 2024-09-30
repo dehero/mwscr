@@ -22,11 +22,18 @@ export const Row: Component<RowProps> = (props) => {
       <Dynamic
         component={props.row.link ? 'a' : 'div'}
         href={props.row.link}
-        class={clsx(styles.row, props.row.link && styles.link, props.class)}
+        class={clsx(
+          styles.row,
+          props.row.link && styles.link,
+          (props.row.link || props.row.onClick) && styles.active,
+          props.row.selected && styles.selected,
+          props.class,
+        )}
         role="row"
         ref={ref}
         style={props.style}
         tabIndex={props.tabIndex}
+        onClick={props.row.onClick}
       >
         <div class={clsx(styles.label, props.lightLabels && styles.lightLabel)} role="cell">
           <Show when={props.row.labelIcon}>

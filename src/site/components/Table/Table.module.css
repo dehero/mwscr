@@ -1,41 +1,48 @@
 .table {
-  display: table;
+  display: block;
   border-spacing: 0;
   line-height: 1.25;
   cursor: default;
 }
 
 .header {
-  display: table-header-group;
+  display: block;
   color: var(--color-text-light);
 }
 
 .body {
-  display: table-row-group;
+  display: block;
 }
 
 .row {
-  display: table-row;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 
 .label {
-  display: table-cell;
+  display: block;
   text-align: left;
-  white-space: nowrap;
   font-weight: normal;
   padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+.active:hover,
 .lightLabel {
   color: var(--color-text-light);
 }
 
 .value {
-  display: table-cell;
+  display: block;
   text-align: right;
-  width: 100%;
   font-weight: normal;
   padding: 0 0 0 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .link {
@@ -43,8 +50,12 @@
   color: inherit;
 }
 
-.link:hover {
+.selected {
   color: var(--color-text-selected);
+}
+
+.selected:hover {
+  color: var(--color-text-selected-hover);
 }
 
 .virtualItem {

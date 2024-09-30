@@ -10,12 +10,16 @@ const ClientVirtualBody = clientOnly(() => import('./VirtualBody.js'));
 
 type TableValue = string | number | Date | (() => JSX.Element) | undefined;
 
+export const TABLE_ITEM_HEIGHT = 20;
+
 export interface TableRow {
   label?: string;
   labelIcon?: JSX.Element;
   value?: TableValue;
   valueIcon?: JSX.Element;
   link?: string;
+  selected?: boolean;
+  onClick?: (e: Event) => void;
   tooltip?: (forRef: HTMLElement) => JSX.Element;
 }
 
@@ -40,10 +44,28 @@ export function renderValue(value: TableValue) {
 
 export const Table: Component<TableProps> = (props) => {
   const rows = createMemo(() => (!props.showEmptyValueRows ? props.rows.filter((row) => row.value) : props.rows));
+  const hasHeader = () => Boolean(props.label || props.value);
+  let ref: HTMLDivElement | undefined;
+
+  const handleInitialize = () => {
+    const index = props.rows.findIndex((row) => row.selected);
+
+    if (index > -1 && props.scrollTarget && ref) {
+      props.scrollTarget.scrollTo({
+        top:
+          index * TABLE_ITEM_HEIGHT +
+          (hasHeader() ? TABLE_ITEM_HEIGHT : 0) +
+          ref.offsetTop -
+          Math.floor(props.scrollTarget.clientHeight / 2),
+        left: props.scrollTarget.scrollTop,
+        behavior: 'smooth',
+      });
+    }
+  };
 
   return (
-    <div class={clsx(styles.table, props.class)} role="table">
-      <Show when={props.label || props.value}>
+    <div class={clsx(styles.table, props.class)} role="table" ref={ref}>
+      <Show when={hasHeader()}>
         <div class={styles.header} role="rowgroup">
           <Dynamic
             component={props.link ? 'a' : 'div'}
@@ -61,7 +83,12 @@ export const Table: Component<TableProps> = (props) => {
         </div>
       </Show>
 
-      <ClientVirtualBody {...props} rows={rows()} fallback={<Body {...props} rows={rows()} />} />
+      <ClientVirtualBody
+        {...props}
+        rows={rows()}
+        onInitialize={handleInitialize}
+        fallback={<Body {...props} rows={rows()} onInitialize={handleInitialize} />}
+      />
     </div>
   );
 };
