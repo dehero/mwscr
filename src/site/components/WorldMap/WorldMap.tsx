@@ -91,7 +91,6 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
 
   let ref: HTMLDivElement | undefined;
   let mapRef: HTMLDivElement | undefined;
-  let compassRef: HTMLDivElement | undefined;
 
   const handleMapMouseUp = (e: MouseEvent) => {
     if (isGrabbing() || !props.onCurrentLocationChange) {
@@ -115,22 +114,23 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
   };
 
   createEffect(() => {
-    if (mapRef) {
-      mapRef.scrollIntoView({
+    if (ref) {
+      ref.scrollTo({
+        left: Math.floor(WORLD_MAP_WIDTH / 2 - ref.clientWidth / 2),
+        top: Math.floor(WORLD_MAP_HEIGHT / 2 - ref.clientHeight / 2),
         behavior: 'auto',
-        block: 'center',
-        inline: 'center',
       });
     }
   });
 
   createEffect(() => {
     const cell = currentCell();
-    if (compassRef && cell) {
-      compassRef.scrollIntoView({
+    const [left, top] = cell ? locationCellToWorldMapPosition(cell) : [];
+    if (ref && left && top) {
+      ref.scrollTo({
+        left: left - Math.floor(ref.clientWidth / 2),
+        top: top - Math.floor(ref.clientHeight / 2),
         behavior: 'smooth',
-        block: 'center',
-        inline: 'center',
       });
     }
   });
@@ -206,7 +206,7 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
             </svg>
           </Show>
           <For each={markedCells()}>{(cell) => <CellMarker cell={cell} />}</For>
-          <Show when={currentCell()}>{(cell) => <Compass cell={cell()} ref={compassRef} />}</Show>
+          <Show when={currentCell()}>{(cell) => <Compass cell={cell()} />}</Show>
         </div>
         <p class={styles.footer}>
           <Show when={props.locations.length > 1 && worldLocations().length < props.locations.length}>
