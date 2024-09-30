@@ -4,8 +4,9 @@ title: POST_ID
 labels:
   - location
 body:
-  - type: input
+  - type: textarea
     id: postLocation
     attributes:
       label: Location
-      placeholder: Imperial Prison Ship
+      description: List of game locations
+      render: txt

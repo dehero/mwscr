@@ -47,11 +47,12 @@ body:
       label: Tags
       description: Post Tags
       placeholder: vivec almalexia sothasil
-  - type: input
+  - type: textarea
     id: postLocation
     attributes:
       label: Location
-      placeholder: Imperial Prison Ship
+      description: List of game locations
+      render: txt
   - type: input
     id: postMark
     attributes:

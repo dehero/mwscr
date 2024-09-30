@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BiASJEclecY/)       | 2018-04-25 |       |    97 |       319 |  30.41 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_699)  | 2018-04-25 |   251 |    15 |       156 |   9.62 |
-| [`ig`](https://instagram.com/p/DAgrT69B1Jb/)       | 2024-09-29 |   357 |    82 |      1455 |   5.64 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1790) | 2024-09-29 |   146 |    23 |       957 |    2.4 |
-| [`tg`](https://t.me/mwscr/549)                     | 2024-09-29 |   162 |    50 |       558 |   8.96 |
-|                                                    |            |   665 |   155 |      2970 |   11.4 |
+| [`ig`](https://instagram.com/p/DAgrT69B1Jb/)       | 2024-09-29 |   362 |    84 |      1455 |   5.77 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1790) | 2024-09-29 |   147 |    23 |       957 |    2.4 |
+| [`tg`](https://t.me/mwscr/549)                     | 2024-09-29 |   168 |    50 |       558 |   8.96 |
+|                                                    |            |   677 |   157 |      2970 |  11.43 |
 
 #### Comments
 
@@ -60,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbkgKrPjwqJ/)       | 2017-11-16 |       |    68 |       235 |  28.94 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_502)  | 2017-11-16 |   162 |    16 |       100 |     16 |
-| [`ig`](https://instagram.com/p/DAeGeTKOGy4/)       | 2024-09-28 |   279 |    60 |      1457 |   4.12 |
+| [`ig`](https://instagram.com/p/DAeGeTKOGy4/)       | 2024-09-28 |   281 |    60 |      1457 |   4.12 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1789) | 2024-09-28 |   197 |    39 |       957 |   4.08 |
-| [`tg`](https://t.me/mwscr/548)                     | 2024-09-28 |   199 |    56 |       557 |  10.05 |
-|                                                    |            |   675 |   155 |      2971 |  12.64 |
+| [`tg`](https://t.me/mwscr/548)                     | 2024-09-28 |   200 |    56 |       557 |  10.05 |
+|                                                    |            |   678 |   155 |      2971 |  12.64 |
 
 ## <span id="2024-09-27-the-two-towers">The Two Towers</span>
 
@@ -2200,7 +2200,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` `📍 Buckmoth Legion Fort` `🚀 OpenMW` `fort`
+`B2` `📍 Buckmoth Legion Fort` `📍 Ald-ruhn` `🚀 OpenMW` `fort`
 
 ```
 2024-07-23-buckmoth-legion-fort-from-ald-ruhn
