@@ -666,10 +666,10 @@
       id: C_sBQlKssUQ
       mediaId: '18092210938479247'
       published: 2024-09-09-07-20-58
-      updated: 2024-09-23-09-27-08
+      updated: 2024-09-30-10-08-41
       followers: 1456
       likes: 99
-      views: 338
+      views: 341
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
@@ -3831,24 +3831,27 @@
       id: DAgrT69B1Jb
       mediaId: '18027270836366389'
       published: 2024-09-29-18-08-56
-      updated: 2024-09-30-09-08-38
+      updated: 2024-09-30-10-08-39
       followers: 1455
       likes: 79
-      views: 318
+      views: 329
     - service: vk
       id: 1790
       published: 2024-09-29-18-09-02
-      updated: 2024-09-30-09-08-38
+      updated: 2024-09-30-10-08-39
       followers: 957
-      likes: 20
-      views: 133
+      likes: 21
+      views: 139
+      comments: !c |-
+        G1IA+I2UbsI8COjcEy7SqmziswYcBlAIjjDvcW5jZ16hhCjNEiWmWKHajquaDLMuhTjHJvO93POS
+        PPoLdjlDigYKBoRHDAYcUBCGipyJXOWCreK6
     - service: tg
       id: 549
       published: 2024-09-29-18-09-07
-      updated: 2024-09-30-09-08-38
+      updated: 2024-09-30-10-08-38
       followers: 558
       likes: 50
-      views: 154
+      views: 156
       comments: !c |-
         G4kA+C0OeBPjZSMQr7DGOwlN8Q/tjPCfJ5ZkMXcDn8nk6XROn+NFo6ZBqaPPjrEWqrKb1CM2gPGS
         JiWvFAkubkjc52O2xrtsjz+jdNGAOOP5CeMeJkHHmQAvYcLMQcukNB+pBJOEtuIYGMBsJRw=
