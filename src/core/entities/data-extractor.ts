@@ -28,7 +28,7 @@ export class DataExtractor {
 
   protected async createCache<T>(key: string, creator: () => Promise<T>): Promise<T> {
     if (!this.cache[key]) {
-      this.cache[key] = await creator();
+      this.cache[key] = creator();
     }
     return this.cache[key] as T;
   }
