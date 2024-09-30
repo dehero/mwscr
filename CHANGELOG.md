@@ -2,6 +2,47 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.18.0](https://github.com/dehero/mwscr/compare/v1.17.3...v1.18.0) (2024-09-30)
+
+### Features
+
+- add and use LocationInfo and UserInfo functions in DataExtractor
+  ([5066684](https://github.com/dehero/mwscr/commit/50666849f543e6efcb176bfad8756d08c0858a61))
+- add virtual scroll and selectable rows to Table
+  ([7cadb54](https://github.com/dehero/mwscr/commit/7cadb547326aeddd8a1a89f612a7e26800b55822))
+- allow Spacer to use any HTML tag
+  ([796ac75](https://github.com/dehero/mwscr/commit/796ac750ae7e8c2d5c0959e9d676acb5f93c7ea0))
+- implement Table virtualization, icons and tooltips
+  ([63f31bb](https://github.com/dehero/mwscr/commit/63f31bb22c810ce0c7cb6d1a33a5cc20b27b11c9))
+- **map:** add Locations and Map tabs to posts selection parameters
+  ([095d7d3](https://github.com/dehero/mwscr/commit/095d7d3e5172b63cbbe88f6abb1b6f4ddc26b97d))
+- **map:** add world map to post page
+  ([1de8e9b](https://github.com/dehero/mwscr/commit/1de8e9be1acc3b817469ddf75461d4cc675c08a3))
+- **map:** add WorldMap compass and remove non-vanilla location selection
+  ([c990f7b](https://github.com/dehero/mwscr/commit/c990f7bf5aa34996e52a90e403a8f40e61a806cf))
+- **map:** extend LocationInfo
+  ([dedb0a6](https://github.com/dehero/mwscr/commit/dedb0a668005693a00000164967e14f3430d2df5))
+- **map:** implement map grabbing with cursor
+  ([aba7e77](https://github.com/dehero/mwscr/commit/aba7e7751c2fb717c075f01011739f341ba370d8))
+- **map:** implement WorldMap component
+  ([2320c3a](https://github.com/dehero/mwscr/commit/2320c3a7ec8928cf1fcd590ffe71edc793df4750))
+- **map:** improve WorldMap rendering speed
+  ([042a031](https://github.com/dehero/mwscr/commit/042a031dbb9af33e22aa062fd847ebf2988c1887))
+
+### Bug Fixes
+
+- consider nested locations when calculating location post count
+  ([20052e2](https://github.com/dehero/mwscr/commit/20052e20bc43543c91bcfff0e8397193feeee5fd))
+- **map:** don't use page scroll when scrolling to current location
+  ([e06d271](https://github.com/dehero/mwscr/commit/e06d2719fc05ca939da4b3270d172a6e0e39442d))
+
+### Code Refactoring
+
+- rename UserContribution type and functions to PostsUsage
+  ([4bc0316](https://github.com/dehero/mwscr/commit/4bc0316fb59045c9999e3dffc25aac108c43c336))
+- use PostsManagerName type and don't create LocationInfo inside PostInfo
+  ([f73c076](https://github.com/dehero/mwscr/commit/f73c076a1f3ae79b8e259a64b240f563d6a1b57b))
+
 ## [1.17.3](https://github.com/dehero/mwscr/compare/v1.17.2...v1.17.3) (2024-09-23)
 
 ### Code Refactoring
