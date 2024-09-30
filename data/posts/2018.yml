@@ -2697,6 +2697,19 @@
       followers: 145
       likes: 16
       views: 196
+    - service: ig
+      id: DAjQQzrI42H
+      mediaId: '18022662017591508'
+      published: 2024-09-30-18-10-21
+      followers: 1459
+    - service: vk
+      id: 1792
+      published: 2024-09-30-18-10-27
+      followers: 957
+    - service: tg
+      id: 550
+      published: 2024-09-30-18-10-33
+      followers: 558
 2018-03-23-in-dunmer-stronghold:
   title: In Dunmer Stronghold
   titleRu: В данмерской крепости
@@ -3831,27 +3844,27 @@
       id: DAgrT69B1Jb
       mediaId: '18027270836366389'
       published: 2024-09-29-18-08-56
-      updated: 2024-09-30-17-06-17
+      updated: 2024-09-30-18-10-02
       followers: 1455
-      likes: 89
-      views: 397
+      likes: 90
+      views: 406
     - service: vk
       id: 1790
       published: 2024-09-29-18-09-02
-      updated: 2024-09-30-17-06-17
+      updated: 2024-09-30-18-10-02
       followers: 957
       likes: 24
-      views: 152
+      views: 153
       comments: !c |-
         G1IA+I2UbsI8COjcEy7SqmziswYcBlAIjjDvcW5jZ16hhCjNEiWmWKHajquaDLMuhTjHJvO93POS
         PPoLdjlDigYKBoRHDAYcUBCGipyJXOWCreK6
     - service: tg
       id: 549
       published: 2024-09-29-18-09-07
-      updated: 2024-09-30-17-06-23
+      updated: 2024-09-30-18-10-03
       followers: 558
       likes: 52
-      views: 173
+      views: 174
       comments: !c |-
         G4kA+C0OeBPjZSMQr7DGOwlN8Q/tjPCfJ5ZkMXcDn8nk6XROn+NFo6ZBqaPPjrEWqrKb1CM2gPGS
         JiWvFAkubkjc52O2xrtsjz+jdNGAOOP5CeMeJkHHmQAvYcLMQcukNB+pBJOEtuIYGMBsJRw=
@@ -9708,10 +9721,10 @@
       id: C_s4h4kvWJC
       mediaId: '17969542835645642'
       published: 2024-09-09-15-23-55
-      updated: 2024-09-23-17-20-10
+      updated: 2024-09-30-18-10-06
       followers: 1456
       likes: 75
-      views: 288
+      views: 291
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы
@@ -10286,17 +10299,17 @@
       id: DAY9Ad4RwAx
       mediaId: '18099947011452446'
       published: 2024-09-26-18-09-39
-      updated: 2024-09-29-18-08-43
+      updated: 2024-09-30-18-10-05
       followers: 1457
-      likes: 82
-      views: 278
+      likes: 85
+      views: 289
     - service: vk
       id: 1783
       published: 2024-09-26-18-09-47
-      updated: 2024-09-29-18-08-44
+      updated: 2024-09-30-18-10-05
       followers: 958
-      likes: 31
-      views: 199
+      likes: 32
+      views: 207
       comments: !c |-
         G8QBAJwHZRvXZnG3+PHapCri/3kOpif0T3ERB5wFHc8CSZrgZhOc3Ec2W25nCdXuLdSHiXth/CB1
         C63RqtcFIBlhQbkXrydLSZVvM6MlhVBMaIXHTjTBgLyAE8kyDCzPCsN40E0f6mQTkmIKE4535PP1
@@ -10306,10 +10319,10 @@
     - service: tg
       id: 546
       published: 2024-09-26-18-09-56
-      updated: 2024-09-29-18-08-43
+      updated: 2024-09-30-18-10-05
       followers: 557
       likes: 57
-      views: 268
+      views: 296
 2018-10-30-stairway-to-god:
   title: Stairway to God
   titleRu: Лестница к богу

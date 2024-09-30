@@ -4,7 +4,43 @@
 
 # Posted in 2024
 
-`216 items`
+`217 items`
+
+## <span id="2024-09-30-welcome-to-vivec-scum">Welcome to Vivec, Scum</span>
+
+`RU` Добро пожаловать в Вивек, ничтожество
+
+<a href="https://instagram.com/p/Bgopipmj2rz/" title="2018-03-22-welcome-to-vivec-scum"><img alt="store:/shots/2018-03-22-welcome-to-vivec-scum.png" src="../../assets/previews/shots/2018-03-22-welcome-to-vivec-scum.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Vivec` `🚀 OpenMW` `postsign` `welcome`
+
+```
+2024-09-30-welcome-to-vivec-scum
+```
+
+> `2018-03-22-welcome-to-vivec-scum`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bgopipmj2rz/)       | 2018-03-22 |       |    79 |       308 |  25.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_661)  | 2018-03-22 |   196 |    16 |       145 |  11.03 |
+| [`ig`](https://instagram.com/p/DAjQQzrI42H/)       | 2024-09-30 |       |       |      1459 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1792) | 2024-09-30 |       |       |       957 |        |
+| [`tg`](https://t.me/mwscr/550)                     | 2024-09-30 |       |       |       558 |        |
+|                                                    |            |       |       |      2974 |  18.34 |
+
+#### Comments
+
+- `ig` <ins title="2018-03-22-18-17-40">laughswithahjummas</ins> You’re making me want to try opennw!
+  - <ins title="2018-03-22-18-20-08">mwscr</ins> Glad that I&#39;m slightly increasing the popularity of this remarkable project.
+  - <ins title="2018-03-22-19-07-31">laughswithahjummas</ins> @mwscr Morrowind actually got me into gaming and rpgs back in 2009. Are you running any mods?
+  - <ins title="2018-03-22-19-10-52">mwscr</ins> No mods here. See account description.
+  - <ins title="2018-03-22-19-42-55">laughswithahjummas</ins> @mwscr Quite impressive. I’ll probably still download a few minor mods but it looks like I’ll be trying out openmw. Thanks!
+  - <ins title="2018-03-22-19-47-30">mwscr</ins> Great!
 
 ## <span id="2024-09-29-night-travellers">Night Travellers</span>
 
@@ -28,10 +64,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BiASJEclecY/)       | 2018-04-25 |       |    97 |       319 |  30.41 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_699)  | 2018-04-25 |   251 |    15 |       156 |   9.62 |
-| [`ig`](https://instagram.com/p/DAgrT69B1Jb/)       | 2024-09-29 |   397 |    89 |      1455 |   6.12 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1790) | 2024-09-29 |   152 |    24 |       957 |   2.51 |
-| [`tg`](https://t.me/mwscr/549)                     | 2024-09-29 |   173 |    52 |       558 |   9.32 |
-|                                                    |            |   722 |   165 |      2970 |  11.59 |
+| [`ig`](https://instagram.com/p/DAgrT69B1Jb/)       | 2024-09-29 |   406 |    90 |      1455 |   6.19 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1790) | 2024-09-29 |   153 |    24 |       957 |   2.51 |
+| [`tg`](https://t.me/mwscr/549)                     | 2024-09-29 |   174 |    52 |       558 |   9.32 |
+|                                                    |            |   733 |   166 |      2970 |  11.61 |
 
 #### Comments
 
@@ -87,10 +123,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSDMkIvDb3x/)       | 2017-03-25 |       |    68 |       163 |  41.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_230)  | 2017-03-25 |   171 |     8 |        49 |      8 |
-| [`ig`](https://instagram.com/p/DAbh1Y2hZzV/)       | 2024-09-27 |   297 |    81 |      1455 |   5.57 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1786) | 2024-09-27 |   186 |    33 |       957 |   3.45 |
-| [`tg`](https://t.me/mwscr/547)                     | 2024-09-27 |   230 |    58 |       557 |  10.41 |
-|                                                    |            |   713 |   172 |      2969 |  13.83 |
+| [`ig`](https://instagram.com/p/DAbh1Y2hZzV/)       | 2024-09-27 |   324 |    87 |      1455 |   5.98 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1786) | 2024-09-27 |   212 |    36 |       957 |   3.76 |
+| [`tg`](https://t.me/mwscr/547)                     | 2024-09-27 |   258 |    58 |       557 |  10.41 |
+|                                                    |            |   794 |   181 |      2969 |  13.97 |
 
 #### Comments
 
@@ -121,10 +157,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1007) | 2018-10-29 |   538 |    37 |       266 |  14.29 |
 | [`tg`](https://t.me/mwscr/105)                     | 2018-10-29 |   269 |     2 |           |        |
 | [`ig`](https://instagram.com/p/Bpi5zkoBjYS/)       | 2018-10-30 |       |    92 |       449 |  20.49 |
-| [`ig`](https://instagram.com/p/DAY9Ad4RwAx/)       | 2024-09-26 |   278 |    82 |      1457 |   5.63 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1783) | 2024-09-26 |   199 |    31 |       958 |   3.24 |
-| [`tg`](https://t.me/mwscr/546)                     | 2024-09-26 |   268 |    57 |       557 |  10.23 |
-|                                                    |            |   745 |   170 |      2972 |  10.77 |
+| [`ig`](https://instagram.com/p/DAY9Ad4RwAx/)       | 2024-09-26 |   289 |    85 |      1457 |   5.83 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1783) | 2024-09-26 |   207 |    32 |       958 |   3.34 |
+| [`tg`](https://t.me/mwscr/546)                     | 2024-09-26 |   296 |    57 |       557 |  10.23 |
+|                                                    |            |   792 |   174 |      2972 |  10.84 |
 
 #### Comments
 
@@ -754,8 +790,8 @@
 | [`tg`](https://t.me/mwscr/77)                      | 2018-10-13 |   214 |     3 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1742) | 2024-09-07 |   251 |    33 |       943 |    3.5 |
 | [`tg`](https://t.me/mwscr/525)                     | 2024-09-07 |   469 |    62 |       552 |  11.23 |
-| [`ig`](https://instagram.com/p/C_s4h4kvWJC/)       | 2024-09-09 |   288 |    75 |      1456 |   5.15 |
-|                                                    |            |  1008 |   170 |      2951 |  11.16 |
+| [`ig`](https://instagram.com/p/C_s4h4kvWJC/)       | 2024-09-09 |   291 |    75 |      1456 |   5.15 |
+|                                                    |            |  1011 |   170 |      2951 |  11.16 |
 
 ## <span id="2024-09-06-island-of-cliffracer">Island of Cliffracer</span>
 
