@@ -5,11 +5,10 @@
   padding: 8px;
   margin: 0 -2px -2px -2px;
   gap: 8px;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
   grid-template-rows: auto 1fr;
   grid-template-areas:
     'parameters'
-    'map'
     'posts';
   overflow-y: auto;
   /* Make scroller composited for faster scrolling,
@@ -20,46 +19,8 @@
   will-change: transform;
 }
 
-.header {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  gap: 16px;
-  padding: 6px 8px;
-}
-
-.fieldset {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  gap: 4px;
-  padding: 0;
-  margin: 0;
-  border: none;
-}
-
 .parameters {
   grid-area: parameters;
-  display: flex;
-  flex-flow: column nowrap;
-  align-content: flex-start;
-  gap: 12px;
-  padding: 12px;
-  flex-shrink: 0;
-}
-
-.presets {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 8px;
-  gap: 4px;
-  padding: 0;
-  margin: 0;
-  border: none;
-}
-
-.showParameters {
-  flex-shrink: 0;
 }
 
 .posts {
@@ -75,25 +36,11 @@
   will-change: transform;
 }
 
-.selectWrapper {
-  display: inline-block;
-  max-width: 100%;
-}
-
-.select {
-  align-self: baseline;
-  width: 100%;
-}
-
-.worldMap {
-  grid-area: map;
-}
-
 @media only screen and (min-width: 812px) {
   .container {
-    grid-template-columns: auto fit-content(600px) 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 'parameters map posts';
+    grid-template-columns: minmax(var(--size-panel-min-width), 1fr) minmax(var(--size-panel-min-width), 3fr);
+    grid-template-rows: 100%;
+    grid-template-areas: 'parameters posts';
     padding: 0 8px 8px 8px;
     overflow: hidden;
     flex-grow: 1;
@@ -101,8 +48,7 @@
     border: none;
   }
 
-  .posts,
-  .parameters {
+  .posts {
     overflow: hidden auto;
   }
 }

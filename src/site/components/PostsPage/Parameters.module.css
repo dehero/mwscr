@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: flex-start;
+  position: relative;
+}
+
+.toolbarWrapper {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.toolbar {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 8px;
+  padding: 12px;
+}
+
+.toolbarDivider {
+  margin: 0 12px;
+}
+
+.parameters {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  padding: 12px;
+  margin: 0;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.fieldset {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.selectWrapper {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.select {
+  align-self: baseline;
+  width: 100%;
+}
+
+.locationsWrapper {
+  overflow: hidden auto;
+  height: 500px;
+  flex-grow: 1;
+}
+
+.locations {
+  flex: 1 1 auto;
+  margin: 8px 12px;
+}
+
+.worldMap {
+  max-height: 500px;
+  flex-grow: 1;
+}
+
+.container_view_map.container_expanded .toolbarWrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.container_view_map.container_expanded .toolbar {
+  padding-bottom: 0;
+}
+
+.container_view_map .toolbarDivider {
+  display: none;
+}
+
+@media only screen and (min-width: 812px) {
+  .toolbarDivider {
+    display: block;
+  }
+
+  .worldMap {
+    max-height: none;
+  }
+}

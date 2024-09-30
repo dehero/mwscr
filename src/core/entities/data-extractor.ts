@@ -93,30 +93,6 @@ export class DataExtractor {
     });
   }
 
-  async getLocationOptions(managerName: string): Promise<Option<string>[]> {
-    const manager = this.findPostsManager(managerName);
-    if (!manager) {
-      throw new Error(`Cannot find posts manager "${managerName}"`);
-    }
-
-    const usedLocationIds = await manager.getLocationsUsageStats();
-    const usedLocationsWithNesting = new Map();
-
-    for await (const [location] of this.locations.readAllEntries(true)) {
-      const count = [...usedLocationIds]
-        .filter(([value]) => isNestedLocation(value, location))
-        .reduce((acc, [, count]) => acc + count, 0);
-
-      if (count > 0) {
-        usedLocationsWithNesting.set(location, count);
-      }
-    }
-
-    return [...usedLocationsWithNesting]
-      .sort(([a], [b]) => a.localeCompare(b))
-      .map(([value, count]) => ({ value, label: `${value} (${count})` }));
-  }
-
   async getAuthorOptions(managerName: string): Promise<Option<string>[]> {
     const manager = this.findPostsManager(managerName);
     if (!manager) {
