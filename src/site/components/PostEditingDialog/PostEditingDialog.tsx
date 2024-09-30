@@ -15,6 +15,7 @@ import type {
 } from '../../../core/entities/post.js';
 import {
   mergeAuthors,
+  mergePostLocations,
   POST_ADDONS,
   POST_ENGINES,
   POST_MARKS,
@@ -69,7 +70,6 @@ export const PostEditingDialog: Component<PostEditingDialogProps> = (props) => {
   const setPostAddon = (addon: PostAddon | undefined) => setPost({ ...post(), addon });
   const setPostMark = (mark: PostMark | undefined) => setPost({ ...post(), mark });
   const setPostViolation = (violation: PostViolation | undefined) => setPost({ ...post(), violation });
-  const setPostLocation = (location: string | undefined) => setPost({ ...post(), location });
   const setPostRequest = (request: Partial<PostRequest>) => {
     const oldRequest = post().request;
     const user = 'user' in request ? request.user : oldRequest?.user;
@@ -91,6 +91,20 @@ export const PostEditingDialog: Component<PostEditingDialogProps> = (props) => {
       authors.splice(index, 1);
     }
     setPost({ ...post(), author: mergeAuthors(authors) });
+  };
+
+  const setPostLocation = (index: number, location: string | undefined) => {
+    const locations = asArray(post().location);
+    if (location) {
+      if (index < locations.length) {
+        locations[index] = location;
+      } else {
+        locations.push(location);
+      }
+    } else {
+      locations.splice(index, 1);
+    }
+    setPost({ ...post(), location: mergePostLocations(locations) });
   };
 
   const [locationOptions] = createResource(() => props.show, getLocationOptions);
@@ -143,13 +157,30 @@ export const PostEditingDialog: Component<PostEditingDialogProps> = (props) => {
         </fieldset>
 
         <Label label="Location" class={styles.location} vertical>
-          <Select
-            name="location"
-            options={[EMPTY_OPTION, ...(locationOptions() ?? [])]}
-            value={post().location}
-            onChange={setPostLocation}
-            class={styles.select}
-          />
+          <fieldset class={clsx(styles.fieldset, styles.locations)}>
+            <For each={asArray(post().location)}>
+              {(location, index) => (
+                <div class={styles.selectWrapper}>
+                  <Select
+                    options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
+                    name="author"
+                    value={location}
+                    onChange={(location) => setPostLocation(index(), location)}
+                    class={styles.select}
+                  />
+                </div>
+              )}
+            </For>
+            <div class={styles.selectWrapper}>
+              <Select
+                options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
+                name="location"
+                value={undefined}
+                onChange={(location) => setPostLocation(asArray(post().location).length, location)}
+                class={styles.select}
+              />
+            </div>
+          </fieldset>
         </Label>
 
         <Label label="Type" vertical>

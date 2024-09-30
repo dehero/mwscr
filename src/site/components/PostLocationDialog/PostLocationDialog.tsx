@@ -1,9 +1,11 @@
+import clsx from 'clsx';
 import type { Component } from 'solid-js';
-import { createResource, createSignal, createUniqueId, splitProps } from 'solid-js';
+import { createResource, createSignal, createUniqueId, For, splitProps } from 'solid-js';
 import { EMPTY_OPTION, type Option } from '../../../core/entities/option.js';
-import type { PostEntry } from '../../../core/entities/post.js';
+import { mergePostLocations, type PostEntry } from '../../../core/entities/post.js';
 import { createIssueUrl as createLocateIssueUrl } from '../../../core/github-issues/location.js';
 import { email } from '../../../core/services/email.js';
+import { asArray } from '../../../core/utils/common-utils.js';
 import { locations } from '../../data-managers/locations.js';
 import { Button } from '../Button/Button.js';
 import type { DialogProps } from '../Dialog/Dialog.js';
@@ -30,6 +32,20 @@ export const PostLocationDialog: Component<PostLocationDialogProps> = (props) =>
 
   const [locationOptions] = createResource(() => props.show, getLocationOptions);
 
+  const setLocation = (index: number, location: string | undefined) => {
+    const locations = asArray(asArray(postLocation()));
+    if (location) {
+      if (index < locations.length) {
+        locations[index] = location;
+      } else {
+        locations.push(location);
+      }
+    } else {
+      locations.splice(index, 1);
+    }
+    setPostLocation(mergePostLocations(locations));
+  };
+
   return (
     <Dialog
       title="Locate Post"
@@ -41,7 +57,7 @@ export const PostLocationDialog: Component<PostLocationDialogProps> = (props) =>
         <Button
           href={email.getUserMessagingUrl('dehero@outlook.com', {
             subject: `location - ${id()}`,
-            body: postLocation(),
+            body: asArray(postLocation()).join('\n'),
           })}
           target="_blank"
           onClick={props.onClose}
@@ -52,16 +68,31 @@ export const PostLocationDialog: Component<PostLocationDialogProps> = (props) =>
       ]}
     >
       <form id={form} class={styles.form}>
-        <Label label="Location" vertical>
-          <div class={styles.selectWrapper}>
-            <Select
-              name="location"
-              options={[EMPTY_OPTION, ...(locationOptions() ?? [])]}
-              value={postLocation()}
-              onChange={setPostLocation}
-              class={styles.select}
-            />
-          </div>
+        <Label label="Location" class={styles.location} vertical>
+          <fieldset class={clsx(styles.fieldset, styles.locations)}>
+            <For each={asArray(postLocation())}>
+              {(location, index) => (
+                <div class={styles.selectWrapper}>
+                  <Select
+                    options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
+                    name="author"
+                    value={location}
+                    onChange={(location) => setLocation(index(), location)}
+                    class={styles.select}
+                  />
+                </div>
+              )}
+            </For>
+            <div class={styles.selectWrapper}>
+              <Select
+                options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
+                name="location"
+                value={undefined}
+                onChange={(location) => setLocation(asArray(postLocation()).length, location)}
+                class={styles.select}
+              />
+            </div>
+          </fieldset>
         </Label>
       </form>
     </Dialog>

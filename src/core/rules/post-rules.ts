@@ -134,7 +134,7 @@ export function needViolation(post: Post): post is Post & { violation: PostViola
 }
 
 export function needLocation(post: Post): post is AugmentedRequired<Post, 'location'> {
-  if (typeof post.location !== 'string') {
+  if (!((typeof post.location === 'string' || Array.isArray(post.location)) && post.location.length > 0)) {
     throw new TypeError('need location');
   }
   return true;

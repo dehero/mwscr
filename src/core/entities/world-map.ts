@@ -1,6 +1,7 @@
 import { BooleanOperations, Box, Polygon } from '@flatten-js/core';
-import { getLocationCellCoordinates, LocationCell } from './location.js';
 import { asArray } from '../utils/common-utils.js';
+import type { LocationCell } from './location.js';
+import { getLocationCellCoordinates } from './location.js';
 
 export const WORLD_MAP_CELL_SIZE = 18;
 export const WORLD_MAP_CELL_SHIFT_X = 522;
@@ -22,7 +23,7 @@ export function locationCellToWorldMapPosition(cell: LocationCell) {
 
 export function locationCellToWorldMapPolygon(cell: LocationCell | LocationCell[] | undefined) {
   const cells = asArray(cell);
-  if (!cells.length) {
+  if (cells.length === 0) {
     return;
   }
 

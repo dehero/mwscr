@@ -98,15 +98,12 @@ export const postTags = {
 };
 
 export const postLocation = {
-  type: 'dropdown',
+  type: 'textarea',
   id: 'postLocation',
   attributes: {
     label: 'Location',
-    options: ['Imperial Prison Ship'],
-    default: 0,
-  },
-  validations: {
-    required: true,
+    description: 'List of game locations',
+    render: 'txt',
   },
 } as const;
 

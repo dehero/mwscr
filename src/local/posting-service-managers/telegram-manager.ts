@@ -118,8 +118,9 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
     lines.push('');
 
-    if (post.location && post.location !== post.title) {
-      lines.push(post.location);
+    const locationsToMention = asArray(post.location).filter((location) => location !== post.title);
+    if (locationsToMention.length > 0) {
+      lines.push(locationsToMention.join(', '));
     }
 
     const firstPublished = getPostFirstPublished(post);

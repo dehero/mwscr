@@ -24,7 +24,7 @@ export async function onBeforePrerenderStart(): ReturnType<OnBeforePrerenderStar
                 authorEntries: await users.getEntries(asArray(post.author)),
                 requesterEntry: post.request?.user ? await users.getEntry(post.request.user) : undefined,
                 usedTags: post.tags?.map((tag): [string, number] => [tag, tagsUsage.get(tag) || 0]),
-                locationInfo: post.location ? await localDataExtractor.getLocationInfo(post.location) : undefined,
+                locationInfos: post.location ? await localDataExtractor.getLocationInfos(post.location) : undefined,
                 worldMapLocationInfo: post.location
                   ? await localDataExtractor.findWorldMapLocationInfo(post.location)
                   : undefined,

@@ -1,7 +1,7 @@
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { locations } from '../data-managers/locations.js';
-import { inbox, posts, trash } from '../data-managers/posts.js';
+import { inbox, posts, postsManagers } from '../data-managers/posts.js';
 import { resourceExists } from '../data-managers/resources.js';
 
 export async function checkPosts() {
@@ -36,19 +36,19 @@ async function checkPostsContent() {
 }
 
 async function checkPostsLocation() {
-  console.info('Checking if posts location exists in locations list...');
+  console.info('Checking if posts locations exist in locations list...');
 
-  for (const manager of [posts, inbox, trash]) {
+  for (const manager of postsManagers) {
     for await (const [id, post] of manager.readAllEntries()) {
-      if (!post.location) {
-        continue;
-      }
+      const locationTitles = asArray(post.location);
 
-      const [, location] = (await locations.findEntry({ title: post.location })) ?? [];
-      if (location?.title !== post.location) {
-        console.error(`Location "${post.location}" not found for ${manager.name} item "${id}".`);
-        if (location) {
-          console.warn(`Possible replacement: ${location.title}`);
+      for (const locationTitle of locationTitles) {
+        const [, location] = (await locations.findEntry({ title: locationTitle })) ?? [];
+        if (location?.title !== locationTitle) {
+          console.error(`Location "${locationTitle}" not found for ${manager.name} item "${id}".`);
+          if (location) {
+            console.warn(`Possible replacement: ${location.title}`);
+          }
         }
       }
     }

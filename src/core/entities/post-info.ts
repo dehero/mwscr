@@ -9,6 +9,7 @@ import type {
   PostContent,
   PostEngine,
   PostEntry,
+  PostLocation,
   PostMark,
   PostRequest,
   PostType,
@@ -37,7 +38,7 @@ export interface PostInfo {
   titleRu?: string;
   description?: string;
   descriptionRu?: string;
-  location?: string;
+  location?: PostLocation;
   content?: PostContent;
   type: PostType;
   authorEntries: UserEntry[];
@@ -213,7 +214,7 @@ export const selectPostInfos = (postInfos: PostInfo[], params: SelectPostInfosPa
         (typeof params.location === 'undefined' ||
           (params.location === ANY_OPTION.value && info.location) ||
           (params.location === NONE_OPTION.value && !info.location) ||
-          (info.location && isNestedLocation(info.location, params.location))) &&
+          (info.location && asArray(info.location).some((location) => isNestedLocation(location, params.location!)))) &&
         (typeof params.mark === 'undefined' || info.mark === params.mark) &&
         (typeof params.violation === 'undefined' ||
           (params.violation === ANY_OPTION.value && info.violation) ||

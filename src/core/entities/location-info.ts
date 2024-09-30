@@ -1,7 +1,8 @@
 import type { SortDirection } from '../utils/common-types.js';
 import { cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
 import type { ListReaderEntry } from './list-manager.js';
-import { isNestedLocation, type Location, LocationCell, type LocationType } from './location.js';
+import type { Location, LocationCell, LocationType } from './location.js';
+import { isNestedLocation } from './location.js';
 import type { Option } from './option.js';
 import type { PostAddon } from './post.js';
 import type { PostsManager } from './posts-manager.js';

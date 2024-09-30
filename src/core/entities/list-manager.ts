@@ -90,6 +90,10 @@ export abstract class ListReader<TItem> {
     return undefined;
   }
 
+  async findEntries(values: Partial<TItem>[]): Promise<Array<ListReaderEntry<TItem> | undefined>> {
+    return Promise.all(values.map((value) => this.findEntry(value)));
+  }
+
   readAllEntries = (skipReferences?: boolean) => this.yieldAllEntries(skipReferences);
 
   readChunkEntries = (chunkName: string, skipReferences?: boolean) => this.yieldChunkEntries(chunkName, skipReferences);

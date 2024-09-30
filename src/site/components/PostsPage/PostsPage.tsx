@@ -1,5 +1,6 @@
 import { createMediaQuery } from '@solid-primitives/media';
-import { createSignal, type Component } from 'solid-js';
+import { makePersisted } from '@solid-primitives/storage';
+import { type Component, createSignal } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import { usePageContext } from 'vike-solid/usePageContext';
 import type { LocationInfo } from '../../../core/entities/location-info.js';
@@ -11,10 +12,10 @@ import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { Frame } from '../Frame/Frame.js';
 import { PostPreviews } from '../PostPreviews/PostPreviews.js';
-import styles from './PostsPage.module.css';
-import { FilterKey, PresetKey, usePostsPageParameters } from './usePostsPageParameters.js';
 import { Parameters } from './Parameters.jsx';
-import { makePersisted } from '@solid-primitives/storage';
+import styles from './PostsPage.module.css';
+import type { FilterKey, PresetKey } from './usePostsPageParameters.js';
+import { usePostsPageParameters } from './usePostsPageParameters.js';
 
 export interface PostsPageSearchParams {
   type?: string;

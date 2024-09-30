@@ -93,6 +93,7 @@ export type PostMark = (typeof POST_MARKS)[number]['id'];
 export type PostViolation = keyof typeof POST_VIOLATIONS;
 export type PostAuthor = string | string[];
 export type PostContent = string | string[];
+export type PostLocation = string | string[];
 
 export interface PostRequest {
   date: Date;
@@ -105,7 +106,7 @@ export interface Post {
   titleRu?: string;
   description?: string;
   descriptionRu?: string;
-  location?: string;
+  location?: PostLocation;
   content?: PostContent;
   trash?: PostContent;
   type: PostType;
@@ -390,15 +391,24 @@ export function getPostMarkDistance(mark: PostMark, postEntries: PostEntries): P
   return { id: undefined, distance: Infinity, message: 'mark not used before' };
 }
 
-export function getPostRelatedLocationDistance(location: string, postEntries: PostEntries): PostDistance {
+export function getPostRelatedLocationDistance(location: PostLocation, postEntries: PostEntries): PostDistance {
   let distance = 0;
   for (const [id, post] of postEntries) {
-    if (post.location && areRelatedLocations(post.location, location)) {
-      return {
-        id,
-        distance,
-        message: `found location "${post.location}" similar to "${location}" in "${id}" at distance ${distance}`,
-      };
+    if (post.location) {
+      const locations = asArray(location);
+
+      for (const location of locations) {
+        const relatedLocation = asArray(post.location).find((postLocation) =>
+          areRelatedLocations(postLocation, location),
+        );
+        if (relatedLocation) {
+          return {
+            id,
+            distance,
+            message: `found location "${relatedLocation}" similar to "${location}" in "${id}" at distance ${distance}`,
+          };
+        }
+      }
     }
 
     distance++;
@@ -422,7 +432,7 @@ export function mergePostWith(post: Post, withPost: Post) {
   post.engine = post.engine || withPost.engine;
   post.addon = post.addon || withPost.addon;
   post.author = mergeAuthors(post.author, withPost.author);
-  post.location = post.location || withPost.location;
+  post.location = mergePostLocations(post.location, withPost.location);
   post.request = mergePostMessages(post.request, withPost.request);
   post.mark = post.mark || withPost.mark;
   post.violation = post.violation || withPost.violation;
@@ -475,6 +485,15 @@ export function mergePostMessages(
     ...action1,
     ...action2,
   };
+}
+
+export function mergePostLocations(
+  location1: PostLocation | undefined,
+  location2?: PostLocation,
+): PostLocation | undefined {
+  const result = [...new Set([...asArray(location1), ...asArray(location2)])];
+
+  return result.length > 0 ? (result.length === 1 ? result[0] : result) : undefined;
 }
 
 export function mergePostTags(tags1: string[] | undefined, tags2?: string[] | undefined): string[] | undefined {

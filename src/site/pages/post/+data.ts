@@ -17,11 +17,11 @@ export async function data(pageContext: PageContext): Promise<PostPageData> {
 
   const usedTags = post?.tags?.map((tag): [string, number] => [tag, tagsUsage.get(tag) || 0]);
 
-  let locationInfo;
+  let locationInfos;
   let worldMapLocationInfo;
 
   if (post?.location) {
-    locationInfo = await localDataExtractor.getLocationInfo(post.location);
+    locationInfos = await localDataExtractor.getLocationInfos(post.location);
     worldMapLocationInfo = await localDataExtractor.findWorldMapLocationInfo(post.location);
   }
 
@@ -31,7 +31,7 @@ export async function data(pageContext: PageContext): Promise<PostPageData> {
     authorEntries,
     requesterEntry,
     usedTags,
-    locationInfo,
+    locationInfos,
     worldMapLocationInfo,
   };
 }

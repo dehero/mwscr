@@ -162,9 +162,9 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
       const stats = new Map<string, number>();
 
       for await (const [, post] of this.readAllEntries(true)) {
-        if (post.location) {
-          stats.set(post.location, (stats.get(post.location) || 0) + 1);
-        }
+        asArray(post.location).forEach((location) => {
+          stats.set(location, (stats.get(location) || 0) + 1);
+        });
       }
 
       return stats;

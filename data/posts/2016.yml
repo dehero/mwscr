@@ -868,7 +868,9 @@
 2016-12-12-buckmoth-legion-fort-from-aldruhn:
   title: Buckmoth Legion Fort from Ald'ruhn
   titleRu: Форт Пёстрой Бабочки из Альд'руна
-  location: Buckmoth Legion Fort
+  location:
+    - Buckmoth Legion Fort
+    - Ald-ruhn
   content: store:/shots/2016-12-12-buckmoth-legion-fort-from-aldruhn.png
   type: shot
   author: dehero

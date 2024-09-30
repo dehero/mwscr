@@ -14,11 +14,14 @@ import {
   postViolation,
 } from '../../core/entities/field.js';
 import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
+import type { ListReaderEntry } from '../../core/entities/list-manager.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
+import type { Location } from '../../core/entities/location.js';
 import type { PostViolation } from '../../core/entities/post.js';
 import {
   mergeAuthors,
   mergePostContents,
+  mergePostLocations,
   POST_ADDONS,
   POST_ENGINES,
   POST_MARKS,
@@ -52,7 +55,7 @@ export async function resolve(issue: GithubIssue) {
   const addonStr = extractIssueFieldValue(postAddon, issue.body);
   const markStr = extractIssueFieldValue(postMark, issue.body);
   const violationStr = extractIssueFieldValue(postViolation, issue.body);
-  const locationStr = extractIssueFieldValue(postLocation, issue.body);
+  const rawLocation = extractIssueTextareaValue(postLocation, issue.body)?.split(/\r?\n/).filter(Boolean);
   const requestText = extractIssueFieldValue(postRequestText, issue.body);
   const rawContent = extractIssueTextareaValue(postContent, issue.body)?.split(/\r?\n/).filter(Boolean);
   const rawTrash = extractIssueTextareaValue(postTrash, issue.body)?.split(/\r?\n/).filter(Boolean);
@@ -78,15 +81,13 @@ export async function resolve(issue: GithubIssue) {
   post.violation = [...Object.entries(POST_VIOLATIONS)].find(
     ([, violation]) => violation.title === violationStr,
   )?.[0] as PostViolation;
-
-  if (!locationStr) {
-    post.location = locationStr;
-  } else {
-    const [location] = (await locations.findEntry({ title: locationStr })) ?? [];
-    if (location) {
-      post.location = location;
-    }
-  }
+  post.location = mergePostLocations(
+    rawLocation
+      ? (await locations.findEntries(rawLocation.map((title) => ({ title }))))
+          .filter((entry): entry is ListReaderEntry<Location> => typeof entry !== 'undefined')
+          .map(([id]) => id)
+      : undefined,
+  );
 
   if (post.request && requestText) {
     post.request.text = requestText;
@@ -94,7 +95,7 @@ export async function resolve(issue: GithubIssue) {
 
   await manager.updateItem(id);
 
-  console.info(`Post "${id}" updated".`);
+  console.info(`Post "${id}" updated.`);
 }
 
 export async function createIssueTemplate() {
@@ -112,7 +113,7 @@ export async function createIssueTemplate() {
       issueDropdownToInput(postEngine),
       issueDropdownToInput(postAddon),
       postTags,
-      issueDropdownToInput(postLocation),
+      postLocation,
       issueDropdownToInput(postMark),
       issueDropdownToInput(postViolation),
       postTrash,

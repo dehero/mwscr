@@ -1,9 +1,10 @@
-import { arrayFromAsync } from '../utils/common-utils.js';
+import { arrayFromAsync, asArray } from '../utils/common-utils.js';
 import { isNestedLocation } from './location.js';
 import type { LocationInfo } from './location-info.js';
 import { createLocationInfo } from './location-info.js';
 import type { LocationsReader } from './locations-reader.js';
 import type { Option } from './option.js';
+import type { PostLocation } from './post.js';
 import { comparePostEntriesByDate, getPostEntriesFromSource } from './post.js';
 import type { PostInfo, SelectPostInfosParams } from './post-info.js';
 import { createPostInfo, selectPostInfos } from './post-info.js';
@@ -43,19 +44,27 @@ export class DataExtractor {
     this.users = args.users;
   }
 
-  async findWorldMapLocationInfo(location: string): Promise<LocationInfo | undefined> {
-    const locationInfos = await this.getAllLocationInfos();
-    const locationInfo = locationInfos.find((info) => info.title === location);
+  async findWorldMapLocationInfo(location: PostLocation): Promise<LocationInfo | undefined> {
+    const locations = asArray(location);
+    const allLocationInfos = await this.getAllLocationInfos();
+    const locationInfos = allLocationInfos.filter((info) => locations.includes(info.title));
 
-    if (!locationInfo) {
+    if (locationInfos.length === 0) {
       return undefined;
     }
 
-    if (!locationInfo?.cell) {
-      return locationInfos.find((info) => info.cell && isNestedLocation(locationInfo.title, info.title));
-    } else {
-      return locationInfo;
+    for (const locationInfo of locationInfos) {
+      if (!locationInfo.cell) {
+        const result = locationInfos.find((info) => info.cell && isNestedLocation(locationInfo.title, info.title));
+        if (result) {
+          return result;
+        }
+      } else {
+        return locationInfo;
+      }
     }
+
+    return undefined;
   }
 
   findPostsManager(managerName: string): PostsManager | undefined {
@@ -132,6 +141,16 @@ export class DataExtractor {
     return [...usedTags]
       .sort(([a], [b]) => a.localeCompare(b))
       .map(([value, count]) => ({ value, label: `${value} (${count})` }));
+  }
+
+  async getLocationInfos(id: string | string[]): Promise<LocationInfo[] | undefined> {
+    const ids = new Set(asArray(id));
+
+    if (ids.size === 0) {
+      return undefined;
+    }
+
+    return (await this.getAllLocationInfos()).filter((info) => ids.has(info.title));
   }
 
   async getLocationInfo(id: string) {

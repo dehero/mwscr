@@ -1,7 +1,10 @@
 import { createMediaQuery } from '@solid-primitives/media';
+import clsx from 'clsx';
 import { type Component, createMemo, createSignal, Match, Show, Switch } from 'solid-js';
 import { useData } from 'vike-solid/useData';
-import { ALL_OPTION, ANY_OPTION, NONE_OPTION, Option } from '../../../core/entities/option.js';
+import type { LocationInfo } from '../../../core/entities/location-info.js';
+import type { Option } from '../../../core/entities/option.js';
+import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../core/entities/option.js';
 import type { PostViolation } from '../../../core/entities/post.js';
 import { POST_MARKS, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import { boolToString, stringToBool } from '../../../core/utils/common-utils.js';
@@ -12,18 +15,16 @@ import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
+import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
 import { RadioGroup } from '../RadioGroup/RadioGroup.js';
 import { Select } from '../Select/Select.js';
 import { Spacer } from '../Spacer/Spacer.js';
-import { Toast } from '../Toaster/Toaster.js';
-import styles from './Parameters.module.css';
 import { Table } from '../Table/Table.jsx';
+import { Toast } from '../Toaster/Toaster.js';
 import { WorldMap } from '../WorldMap/WorldMap.jsx';
-import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
-import { usePostsPageParameters } from './usePostsPageParameters.js';
-import { PostsPageData, PostsPageInfo } from './PostsPage.jsx';
-import clsx from 'clsx';
-import { LocationInfo } from '../../../core/entities/location-info.js';
+import styles from './Parameters.module.css';
+import type { PostsPageData, PostsPageInfo } from './PostsPage.jsx';
+import type { usePostsPageParameters } from './usePostsPageParameters.js';
 
 interface LocationOption extends Option {
   postCount?: number;
@@ -60,9 +61,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
     ...locationInfos.map((info) => ({
       label: info.title,
       value: info.title,
-      postCount: props.parameters.routeParams().managerName
-        ? info?.discovered?.[props.parameters.routeParams().managerName]
-        : undefined,
+      postCount: info.discovered?.[props.parameters.routeParams().managerName],
       info,
     })),
   ]);
@@ -76,9 +75,8 @@ export const Parameters: Component<ParametersProps> = (props) => {
     if (info) {
       if (info.cell) {
         return 'map';
-      } else {
-        return 'locations';
       }
+      return 'locations';
     }
 
     return undefined;
@@ -149,7 +147,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 />
               </Label>
 
-              <Show when={!props.info?.filters || props.info?.filters?.includes('original')}>
+              <Show when={!props.info?.filters || props.info.filters.includes('original')}>
                 <Label label="Originality" component="div" vertical>
                   <RadioGroup
                     name="original"
@@ -160,7 +158,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info?.filters?.includes('publishable')}>
+              <Show when={!props.info?.filters || props.info.filters.includes('publishable')}>
                 <Label label="Publishability" component="div" vertical>
                   <RadioGroup
                     name="publishable"
@@ -171,7 +169,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info?.filters?.includes('date')}>
+              <Show when={!props.info?.filters || props.info.filters.includes('date')}>
                 <Label label="Date" vertical>
                   <DatePicker
                     value={props.parameters.date()}
@@ -182,7 +180,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info?.filters?.includes('type')}>
+              <Show when={!props.info?.filters || props.info.filters.includes('type')}>
                 <Label label="Type" vertical>
                   <Select
                     name="type"
@@ -224,7 +222,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </fieldset>
               </Label>
 
-              <Show when={!props.info?.filters || props.info?.filters?.includes('location')}>
+              <Show when={!props.info?.filters || props.info.filters.includes('location')}>
                 <Label label="Location" vertical class={styles.label}>
                   <Button onClick={() => setView('locations')}>
                     {locationOption()?.label}
@@ -233,7 +231,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info?.filters?.includes('tag')}>
+              <Show when={!props.info?.filters || props.info.filters.includes('tag')}>
                 <Label label="Tag" vertical>
                   <div class={styles.selectWrapper}>
                     <Select
@@ -247,7 +245,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info?.filters?.includes('author')}>
+              <Show when={!props.info?.filters || props.info.filters.includes('author')}>
                 <Label label="Author" vertical>
                   <div class={styles.selectWrapper}>
                     <Select
@@ -261,7 +259,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info?.filters?.includes('requester')}>
+              <Show when={!props.info?.filters || props.info.filters.includes('requester')}>
                 <Label label="Requester" vertical>
                   <div class={styles.selectWrapper}>
                     <Select
@@ -275,7 +273,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info?.filters?.includes('mark')}>
+              <Show when={!props.info?.filters || props.info.filters.includes('mark')}>
                 <Label label="Editor's Mark" vertical>
                   <div class={styles.selectWrapper}>
                     <Select
@@ -289,7 +287,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info?.filters?.includes('violation')}>
+              <Show when={!props.info?.filters || props.info.filters.includes('violation')}>
                 <Label label="Violation" vertical>
                   <div class={styles.selectWrapper}>
                     <Select

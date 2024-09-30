@@ -2,9 +2,6 @@ import clsx from 'clsx';
 import { batch, type Component, createEffect, createMemo, createSignal, For, onCleanup, Show, untrack } from 'solid-js';
 import { getCenterLocationCell, type LocationCell } from '../../../core/entities/location.js';
 import { type LocationInfo } from '../../../core/entities/location-info.js';
-import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
-import styles from './WorldMap.module.css';
-import { Spacer } from '../Spacer/Spacer.jsx';
 import {
   locationCellToWorldMapPosition,
   WORLD_MAP_HEIGHT,
@@ -12,6 +9,9 @@ import {
   worldMapPositionToLocationCell,
 } from '../../../core/entities/world-map.js';
 import { asArray } from '../../../core/utils/common-utils.js';
+import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
+import { Spacer } from '../Spacer/Spacer.jsx';
+import styles from './WorldMap.module.css';
 
 export interface WorldMapProps {
   locations: LocationInfo[];

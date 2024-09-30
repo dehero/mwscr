@@ -1,4 +1,6 @@
-import { ANY_OPTION, NONE_OPTION, Option } from '../../../core/entities/option.js';
+import type { Accessor } from 'solid-js';
+import type { Option } from '../../../core/entities/option.js';
+import { ANY_OPTION, NONE_OPTION } from '../../../core/entities/option.js';
 import type { PostMark, PostType } from '../../../core/entities/post.js';
 import { POST_MARKS, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../core/entities/post-info.js';
@@ -6,11 +8,10 @@ import { selectPostInfosSortOptions } from '../../../core/entities/post-info.js'
 import type { DateRange, SortDirection } from '../../../core/utils/common-types.js';
 import { isObjectEqual, stringToBool } from '../../../core/utils/common-utils.js';
 import { dateRangeToString, stringToDateRange } from '../../../core/utils/date-utils.js';
-import { useSearchParams } from '../../hooks/useSearchParams.js';
-import { PostsPageInfo, PostsPageSearchParams } from './PostsPage.jsx';
 import { useParams } from '../../hooks/useParams.js';
+import { useSearchParams } from '../../hooks/useSearchParams.js';
 import type { PostsRouteParams } from '../../routes/posts-route.js';
-import { Accessor } from 'solid-js';
+import type { PostsPageInfo, PostsPageSearchParams } from './PostsPage.jsx';
 
 const emptySearchParams: PostsPageSearchParams = {
   type: undefined,

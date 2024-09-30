@@ -32,7 +32,7 @@ export function createIssueUrl(id?: string, post?: Post): string {
   url.searchParams.set(postEngine.id, post?.engine || '');
   url.searchParams.set(postAddon.id, post?.addon || '');
   url.searchParams.set(postTags.id, post?.tags?.join(' ') || '');
-  url.searchParams.set(postLocation.id, post?.location || '');
+  url.searchParams.set(postLocation.id, asArray(post?.location).join('\n'));
   url.searchParams.set(postMark.id, post?.mark || '');
   url.searchParams.set(postViolation.id, post?.violation || '');
   url.searchParams.set(postTrash.id, asArray(post?.trash).join('\n'));

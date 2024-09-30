@@ -2,6 +2,7 @@ import { writeClipboard } from '@solid-primitives/clipboard';
 import clsx from 'clsx';
 import JsFileDownloader from 'js-file-downloader';
 import { type Component, createSignal, Match, onMount, Show, Switch } from 'solid-js';
+import { navigate } from 'vike/client/router';
 import { useData } from 'vike-solid/useData';
 import type { LocationInfo } from '../../../core/entities/location-info.js';
 import type { Post, PostEntry } from '../../../core/entities/post.js';
@@ -37,6 +38,7 @@ import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import { Input } from '../Input/Input.js';
+import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
 import { PostComments } from '../PostComments/PostComments.js';
 import { PostEditingDialog } from '../PostEditingDialog/PostEditingDialog.js';
 import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.js';
@@ -51,8 +53,6 @@ import { Table } from '../Table/Table.js';
 import { Toast, useToaster } from '../Toaster/Toaster.js';
 import { WorldMap } from '../WorldMap/WorldMap.jsx';
 import styles from './PostPage.module.css';
-import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
-import { navigate } from 'vike/client/router';
 
 export interface PostPageData {
   post: Post | undefined;
@@ -60,7 +60,7 @@ export interface PostPageData {
   authorEntries: UserEntry[];
   requesterEntry: UserEntry | undefined;
   usedTags: Array<[string, number]> | undefined;
-  locationInfo: LocationInfo | undefined;
+  locationInfos: LocationInfo[] | undefined;
   worldMapLocationInfo: LocationInfo | undefined;
 }
 
@@ -303,7 +303,12 @@ export const PostPage: Component = () => {
                   </span>
                 </Show>
 
-                <Show when={managerInfo().actions?.some((action) => ['edit', 'review', 'merge'].includes(action))}>
+                <Show
+                  when={
+                    managerInfo().actions?.some((action) => ['edit', 'review', 'merge'].includes(action)) ||
+                    (!post.location && managerInfo().actions?.includes('locate'))
+                  }
+                >
                   <div class={styles.actions}>
                     <Show when={managerInfo().actions?.includes('edit')}>
                       <Button onClick={() => setShowEditingDialog(true)} class={styles.action}>
@@ -334,6 +339,12 @@ export const PostPage: Component = () => {
 
                       <PostMergeDialog postId={id} show={showMergeDialog()} onClose={() => setShowMergeDialog(false)} />
                     </Show>
+
+                    <Show when={!post.location && managerInfo().actions?.includes('locate')}>
+                      <Button class={styles.action} onClick={() => setShowLocationDialog(true)}>
+                        Locate
+                      </Button>
+                    </Show>
                   </div>
                 </Show>
 
@@ -341,23 +352,6 @@ export const PostPage: Component = () => {
 
                 <Table
                   rows={[
-                    {
-                      label: 'Location',
-                      value:
-                        !post.location && managerInfo().actions?.includes('locate')
-                          ? () => (
-                              <Button class={styles.action} onClick={() => setShowLocationDialog(true)}>
-                                Locate
-                              </Button>
-                            )
-                          : post.location,
-                      link: post.location
-                        ? postsRoute.createUrl({ managerName: 'posts', location: post.location, original: 'true' })
-                        : undefined,
-                      tooltip: data.locationInfo
-                        ? (ref) => <LocationTooltip forRef={ref} location={data.locationInfo!} />
-                        : undefined,
-                    },
                     { label: 'Date', value: isValidDate(date()) ? date() : undefined },
                     {
                       label: 'Original Post Date',
@@ -428,6 +422,30 @@ export const PostPage: Component = () => {
                     },
                   ]}
                 />
+
+                <Show when={data.locationInfos?.length}>
+                  <Divider />
+
+                  <Table
+                    label="Locations"
+                    value={() =>
+                      managerInfo().actions?.includes('locate') && (
+                        <Button class={styles.action} onClick={() => setShowLocationDialog(true)}>
+                          Precise
+                        </Button>
+                      )
+                    }
+                    rows={
+                      data.locationInfos?.map((info) => ({
+                        label: info.title,
+                        value: info.discovered?.posts,
+                        link: postsRoute.createUrl({ managerName: 'posts', location: info.title, original: 'true' }),
+                        tooltip: (ref) => <LocationTooltip forRef={ref} location={info} />,
+                      })) ?? []
+                    }
+                    showEmptyValueRows
+                  />
+                </Show>
 
                 <Show when={data.usedTags?.length}>
                   <Divider />
@@ -534,7 +552,7 @@ export const PostPage: Component = () => {
                       class={styles.map}
                       locations={[data.worldMapLocationInfo!]}
                       currentLocation={data.worldMapLocationInfo!.title}
-                      discoveredLocations={data.locationInfo ? [data.locationInfo.title] : []}
+                      discoveredLocations={data.locationInfos?.map((info) => info.title)}
                       onCurrentLocationChange={() =>
                         // @ts-expect-error No proper typing for navigate
                         navigate(

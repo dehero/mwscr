@@ -87,12 +87,26 @@ export class VKManager extends VKService implements PostingServiceManager {
 
     lines.push('');
 
-    if (post.location) {
-      const location = await locations.getItem(post.location);
-      if (location?.titleRu && location.titleRu !== post.titleRu) {
-        lines.push(location.titleRu);
-      } else if (post.location !== post.titleRu) {
-        lines.push(post.location);
+    const locationIds = asArray(post.location);
+    if (locationIds.length > 0) {
+      const locationTitles: string[] = [];
+      for (const id of locationIds) {
+        const location = await locations.getItem(id);
+        if (!location) {
+          continue;
+        }
+
+        if (location.titleRu) {
+          if (location.titleRu !== post.titleRu) {
+            locationTitles.push(location.titleRu);
+          }
+        } else if (location.title !== post.titleRu) {
+          lines.push(location.title);
+        }
+      }
+
+      if (locationTitles.length > 0) {
+        lines.push(locationTitles.join(', '));
       }
     }
 

@@ -54,6 +54,12 @@
   gap: 4px;
 }
 
+.locations {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
+}
+
 @media only screen and (min-width: 380px) {
   .form {
     display: grid;

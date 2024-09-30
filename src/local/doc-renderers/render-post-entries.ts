@@ -316,7 +316,7 @@ async function renderPostEntry(postEntry: PostEntry, options: RenderPostsOptions
   }
 
   if (post.location) {
-    tags.push(`\`📍 ${post.location}\``);
+    tags.push(...asArray(post.location).map((location) => `\`📍 ${location}\``));
   } else if (postActions?.includes('locate') && post.type !== 'shot-set') {
     tags.push(`<code>📍 [Locate](${createLocateUrl(id)})</code>`);
   }
