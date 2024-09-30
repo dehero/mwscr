@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bgopipmj2rz/)       | 2018-03-22 |       |    79 |       308 |  25.65 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_661)  | 2018-03-22 |   196 |    16 |       145 |  11.03 |
-| [`ig`](https://instagram.com/p/DAjQQzrI42H/)       | 2024-09-30 |       |       |      1459 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1792) | 2024-09-30 |       |       |       957 |        |
-| [`tg`](https://t.me/mwscr/550)                     | 2024-09-30 |       |       |       558 |        |
-|                                                    |            |       |       |      2974 |  18.34 |
+| [`ig`](https://instagram.com/p/DAjQQzrI42H/)       | 2024-09-30 |    44 |    19 |      1459 |    1.3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1792) | 2024-09-30 |    37 |     7 |       957 |   0.73 |
+| [`tg`](https://t.me/mwscr/550)                     | 2024-09-30 |    66 |    23 |       558 |   4.12 |
+|                                                    |            |   147 |    49 |      2974 |   8.57 |
 
 #### Comments
 
@@ -41,6 +41,8 @@
   - <ins title="2018-03-22-19-10-52">mwscr</ins> No mods here. See account description.
   - <ins title="2018-03-22-19-42-55">laughswithahjummas</ins> @mwscr Quite impressive. I’ll probably still download a few minor mods but it looks like I’ll be trying out openmw. Thanks!
   - <ins title="2018-03-22-19-47-30">mwscr</ins> Great!
+- `tg` <ins title="2024-09-30-18-39-59">aarychagoff</ins> Это Вивек, детка. Тут следят за ничтожеством.
+- `tg` <ins title="2024-09-30-18-40-15">aarychagoff</ins> 😠
 
 ## <span id="2024-09-29-night-travellers">Night Travellers</span>
 
@@ -64,10 +66,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BiASJEclecY/)       | 2018-04-25 |       |    97 |       319 |  30.41 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_699)  | 2018-04-25 |   251 |    15 |       156 |   9.62 |
-| [`ig`](https://instagram.com/p/DAgrT69B1Jb/)       | 2024-09-29 |   406 |    90 |      1455 |   6.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1790) | 2024-09-29 |   153 |    24 |       957 |   2.51 |
-| [`tg`](https://t.me/mwscr/549)                     | 2024-09-29 |   174 |    52 |       558 |   9.32 |
-|                                                    |            |   733 |   166 |      2970 |  11.61 |
+| [`ig`](https://instagram.com/p/DAgrT69B1Jb/)       | 2024-09-29 |   412 |    90 |      1455 |   6.19 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1790) | 2024-09-29 |   157 |    25 |       957 |   2.61 |
+| [`tg`](https://t.me/mwscr/549)                     | 2024-09-29 |   195 |    55 |       558 |   9.86 |
+|                                                    |            |   764 |   170 |      2970 |  11.74 |
 
 #### Comments
 
