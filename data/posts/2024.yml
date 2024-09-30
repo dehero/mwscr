@@ -1866,7 +1866,7 @@
     - service: vk
       id: 1538
       published: 2024-05-19-18-18-25
-      updated: 2024-09-23-04-26-51
+      updated: 2024-09-30-05-08-28
       followers: 916
       likes: 37
       views: 245
@@ -1874,10 +1874,10 @@
     - service: tg
       id: 413
       published: 2024-05-19-18-18-32
-      updated: 2024-09-23-04-26-48
+      updated: 2024-09-30-05-08-25
       followers: 372
       likes: 61
-      views: 504
+      views: 506
       comments: !c CxiAkZPLQnj5MWNCgACrYm9icm92bmlrb3a5SSB3YW50IHRvIGhpYmVybmF0ZSB0aGVyZQM=
 2024-05-20-place-to-sleep:
   title: Place to Sleep
@@ -2051,17 +2051,17 @@
     - service: vk
       id: 1576
       published: 2024-06-09-18-18-45
-      updated: 2024-09-23-04-26-49
+      updated: 2024-09-30-05-08-26
       followers: 916
       likes: 32
       views: 268
     - service: tg
       id: 434
       published: 2024-06-09-18-18-52
-      updated: 2024-09-23-04-26-47
+      updated: 2024-09-30-05-08-24
       followers: 384
       likes: 58
-      views: 481
+      views: 483
 2024-06-10-utensil:
   title: Utensil
   titleRu: Утварь
