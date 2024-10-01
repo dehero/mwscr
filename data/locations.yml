@@ -7,6 +7,9 @@
 - title: Abanabi
   titleRu: Абанаби
   type: interior
+- title: Abandoned Shipwreck
+  titleRu: Покинутые обломки судна
+  type: virtual
 - title: Abandoned Shipwreck, Cabin
   titleRu: Покинутые обломки судна, Каюта
   type: interior
@@ -28,6 +31,9 @@
 - title: Adanumuran
   titleRu: Аданумуран
   type: interior
+- title: Addadshashanammu
+  titleRu: Аддадшашанамму
+  type: virtual
 - title: Addadshashanammu, Shrine
   titleRu: Аддадшашанамму, Святилище
   type: interior
@@ -40,6 +46,9 @@
 - title: Ahanibi-Malmus Egg Mine
   titleRu: Яичная шахта Аханиби-Малмуса
   type: interior
+- title: Aharasaplit Camp
+  titleRu: Лагерь Ахарасаплит
+  type: virtual
 - title: Aharasaplit Camp, Zallay's Yurt
   titleRu: Лагерь Ахарасаплит, юрта Заллая
   type: interior
@@ -83,6 +92,9 @@
 - title: Ahinipalit
   titleRu: Ахинипалит
   type: interior
+- title: Aidanat Camp
+  titleRu: Лагерь Айданатов
+  type: virtual
 - title: Aidanat Camp, Abassel's Yurt
   titleRu: Лагерь Айданатов, Юрта Абассэля
   type: interior
@@ -361,6 +373,9 @@
 - title: Alen Ancestral Tomb
   titleRu: Родовая гробница Аленов
   type: interior
+- title: Almurbalarammi
+  titleRu: Алмурабаларамми
+  type: virtual
 - title: Almurbalarammi, Shrine
   titleRu: Алмурабаларамми, Святилище
   type: interior
@@ -370,6 +385,9 @@
 - title: An Abandoned Shack
   titleRu: Покинутая лачуга
   type: interior
+- title: Ancient Shipwreck
+  titleRu: Древние обломки корабля
+  type: virtual
 - title: Ancient Shipwreck, Cabin
   titleRu: Древние обломки корабля, Каюта
   type: interior
@@ -434,6 +452,9 @@
 - title: Arethan Ancestral Tomb
   titleRu: Родовая гробница Аретанов
   type: interior
+- title: Arkngthand
+  titleRu: Аркнтанд
+  type: virtual
 - title: Arkngthand, Cells of Hollow Hand
   titleRu: Аркнтанд, Кельи пустой руки
   type: interior
@@ -455,6 +476,9 @@
 - title: Arkngthunch-Sturdumz
   titleRu: Аркнгтунч-Штурдумц
   type: interior
+- title: Arrow
+  titleRu: Стрела
+  type: virtual
 - title: Arrow, Cabin
   titleRu: Стрела, Каюта
   type: interior
@@ -593,9 +617,15 @@
 - title: Ashalmawia, Shrine, Sunken Vaults
   titleRu: Ашалмавия, Святилище, Затонувшие Своды
   type: interior
+- title: Ashalmimilkala
+  titleRu: Ашалмимилкала
+  type: virtual
 - title: Ashalmimilkala, Shrine
   titleRu: Ашалмимилкала, Святилище
   type: interior
+- title: Ashamanu Camp
+  titleRu: Лагерь Ашаману
+  type: virtual
 - title: Ashamanu Camp, Kausha's Yurt
   titleRu: Лагерь Ашаману, Юрта Кауши
   type: interior
@@ -777,6 +807,9 @@
 - title: Ashmelech
   titleRu: Ашмелех
   type: interior
+- title: Ashunartes
+  titleRu: Ашунартес
+  type: virtual
 - title: Ashunartes, Shrine
   titleRu: Ашунартес, Святилище
   type: interior
@@ -791,9 +824,15 @@
 - title: Ashurnibibi, Shrine
   titleRu: Ашурнибиби, Святилище
   type: interior
+- title: Assalkushalit
+  titleRu: Асслкушалит
+  type: virtual
 - title: Assalkushalit, Shrine
   titleRu: Асслкушалит, Святилище
   type: interior
+- title: Assarnatamat
+  titleRu: Ассарнатамат
+  type: virtual
 - title: Assarnatamat, Shrine
   titleRu: Ассарнатамат, Святилище
   type: interior
@@ -806,6 +845,9 @@
 - title: Assemanu, Shrine
   titleRu: Ассеману, Святилище
   type: interior
+- title: Assernerairan
+  titleRu: Ассернерайран
+  type: virtual
 - title: Assernerairan, Shrine
   titleRu: Ассернерайран, Святилище
   type: interior
@@ -815,6 +857,9 @@
 - title: Assumanu
   titleRu: Ассуману
   type: interior
+- title: Assurdirapal
+  titleRu: Ассурдирапал
+  type: virtual
 - title: Assurdirapal, Inner Shrine
   titleRu: Ассурдирапал, Внутреннее Святилище
   type: interior
@@ -1361,6 +1406,9 @@
 - title: Balur's Farmhouse
   titleRu: Ферма Балура
   type: interior
+- title: Bamz-Amschend
+  titleRu: Бамз-Амсшенд
+  type: virtual
 - title: Bamz-Amschend, Hall of Wails
   titleRu: Бамз-Амсшенд, Зал Плача
   type: interior
@@ -1402,6 +1450,9 @@
 - title: Bensamsi
   titleRu: Бенсамси
   type: interior
+- title: Bensiberib Camp
+  titleRu: Лагерь Бенсиберибов
+  type: virtual
 - title: Bensiberib Camp, Odaishah's Yurt
   titleRu: Лагерь Бенсиберибов, Юрта Одайшаха
   type: interior
@@ -1699,6 +1750,9 @@
 - title: Character Stuff Wonderland
   titleRu: Страна Чудес Персонажей
   type: interior
+- title: Chun-Ook
+  titleRu: Чан-Ук
+  type: virtual
 - title: Chun-Ook, Cabin
   titleRu: Чан-Ук, Каюта
   type: interior
@@ -1788,6 +1842,9 @@
 - title: Dareleth Ancestral Tomb
   titleRu: Родовая гробница Дарелетов
   type: interior
+- title: Derelict Shipwreck
+  titleRu: Брошенные обломки корабля
+  type: virtual
 - title: Derelict Shipwreck, Cabin
   titleRu: Брошенные обломки корабля, Каюта
   type: interior
@@ -1797,6 +1854,9 @@
 - title: Derelict Shipwreck, Upper Level
   titleRu: Брошенные обломки корабля, Верхний Уровень
   type: interior
+- title: Deserted Shipwreck
+  titleRu: Опустошенные обломки корабля
+  type: virtual
 - title: Deserted Shipwreck, Cabin
   titleRu: Опустошенные обломки корабля, Каюта
   type: interior
@@ -1806,6 +1866,9 @@
 - title: Deserted Shipwreck, Upper Level
   titleRu: Опустошенные обломки корабля, Верхний уровень
   type: interior
+- title: Desolate Shipwreck
+  titleRu: Безжизненные обломки корабля
+  type: virtual
 - title: Desolate Shipwreck, Cabin
   titleRu: Безжизненные обломки корабля, Каюта
   type: interior
@@ -1877,6 +1940,9 @@
 - title: Drulene Falen's Hut
   titleRu: Хижина Друлен Фален
   type: interior
+- title: Druscashti
+  titleRu: Друскашти
+  type: virtual
 - title: Druscashti, Lower Level
   titleRu: Друскашти, Нижний уровень
   type: interior
@@ -1901,9 +1967,15 @@
 - title: Dunirai Caverns
   titleRu: Пещеры Дунирай
   type: interior
+- title: Dushariran
+  titleRu: Душариран
+  type: virtual
 - title: Dushariran, Shrine
   titleRu: Душариран, Святилище
   type: interior
+- title: Ebernanit
+  titleRu: Эбернанит
+  type: virtual
 - title: Ebernanit, Shrine
   titleRu: Эбернанит, Святилище
   type: interior
@@ -1955,9 +2027,15 @@
 - title: Ebonheart, Underground Caves
   titleRu: Эбенгард, Пещеры Подземелья
   type: interior
+- title: Elanius Camp
+  titleRu: Лагерь Эланиусов
+  type: virtual
 - title: Elanius Camp, Yapal's Yurt
   titleRu: Лагерь Эланиусов, Юрта Йапала
   type: interior
+- title: Elf-Skerring
+  titleRu: Эльфийский Мореплаватель
+  type: virtual
 - title: Elf-Skerring, Cabin
   titleRu: Эльфийский Мореплаватель, Каюта
   type: interior
@@ -1976,6 +2054,9 @@
 - title: Eluba-Addon Grotto
   titleRu: Грот Элуба-Аддона
   type: interior
+- title: Endusal
+  titleRu: Эндусал
+  type: virtual
 - title: Endusal, Kagrenac's study
   titleRu: Эндусал, студия Кагренака
   type: interior
@@ -2016,12 +2097,18 @@
 - title: Eretammus-Sennammu Egg Mine
   titleRu: Яичная шахта Эретаммус-Сеннамму
   type: interior
+- title: Esutanamus
+  titleRu: Эзутанамус
+  type: virtual
 - title: Esutanamus, Shrine
   titleRu: Эзутанамус, Святилище
   type: interior
 - title: Fadathram Ancestral Tomb
   titleRu: Родовая гробница Фадатрамов
   type: interior
+- title: Fair Helas
+  titleRu: Прекрасный Хилас
+  type: virtual
 - title: Fair Helas, Cabin
   titleRu: Прекрасный Хилас, Каюта
   type: interior
@@ -2066,6 +2153,9 @@
 - title: Falensarano, Upper Level
   titleRu: Фаленсарано, Верхний Уровень
   type: interior
+- title: Falvillo's Endeavor
+  titleRu: Попытка Фалвилло
+  type: virtual
 - title: Falvillo's Endeavor, Cabin
   titleRu: Попытка Фалвилло, Каюта
   type: interior
@@ -2085,6 +2175,9 @@
 - title: Forgotten Shipwreck
   titleRu: Забытые обломки корабля
   type: interior
+- title: Forgotten Vaults of Anudnabia
+  titleRu: Забытые своды Ануднабии
+  type: virtual
 - title: Forgotten Vaults of Anudnabia, Forge of Hilbongard
   titleRu: Забытые своды Ануднабии, Кузница Хильбонгарда
   type: interior
@@ -2127,6 +2220,9 @@
   titleRu: Форт инеевой бабочки, Кладовая
   type: interior
   addon: Bloodmoon
+- title: Galom Daeus
+  titleRu: Галом Дэус
+  type: virtual
 - title: Galom Daeus, Entry
   titleRu: Галом Дэус, Вход
   type: interior
@@ -2312,6 +2408,9 @@
 - title: Gro-Bagrat Plantation
   titleRu: Плантация Гро-Баграта
   type: interior
+- title: Grytewake
+  titleRu: Гритвейк
+  type: virtual
 - title: Grytewake, Cabin
   titleRu: Гритвейк, Каюта
   type: interior
@@ -2429,18 +2528,27 @@
 - title: Ibar-Dad
   titleRu: Ибар-Дад
   type: interior
+- title: Ibishammus
+  titleRu: Ибишаммус
+  type: virtual
 - title: Ibishammus, Shrine
   titleRu: Ибишаммус, Святилище
   type: interior
 - title: Ienith Ancestral Tomb
   titleRu: Родовая гробница Йенитов
   type: interior
+- title: Ihinipalit
+  titleRu: Ихинипалит
+  type: virtual
 - title: Ihinipalit, Shrine
   titleRu: Ихинипалит, Святилище
   type: interior
 - title: Ilanipu Grotto
   titleRu: Грот Иланипу
   type: interior
+- title: Ilunibi
+  titleRu: Илуниби
+  type: virtual
 - title: Ilunibi, Blackened Heart
   titleRu: Илуниби, Черное Сердце
   type: interior
@@ -2486,9 +2594,15 @@
 - title: Indoranyon, Propylon Chamber
   titleRu: Индоранион, Арочный Зал
   type: interior
+- title: Kaushtababi Camp
+  titleRu: Лагерь Коштабаби
+  type: virtual
 - title: Kaushtababi Camp, Adibael's Yurt
   titleRu: Лагерь Коштабаби, Юрта Адибаэля
   type: interior
+- title: Kaushtarari
+  titleRu: Коштарари
+  type: virtual
 - title: Kaushtarari, Shrine
   titleRu: Коштарари, Святилище
   type: interior
@@ -2585,6 +2699,9 @@
 - title: Kunirai
   titleRu: Кунираи
   type: interior
+- title: Kushtashpi
+  titleRu: Кашташпи
+  type: virtual
 - title: Kushtashpi, Shrine
   titleRu: Кашташпи, Святилище
   type: interior
@@ -2603,6 +2720,9 @@
 - title: Llovyn's Farmhouse
   titleRu: Ферма Лловина
   type: interior
+- title: Lonely Shipwreck
+  titleRu: Уединенные обломки корабля
+  type: virtual
 - title: Lonely Shipwreck, Cabin
   titleRu: Уединенные обломки корабля, Каюта
   type: interior
@@ -2612,6 +2732,9 @@
 - title: Lonely Shipwreck, Upper Level
   titleRu: Уединенные обломки корабля, Верхний Уровень
   type: interior
+- title: Lonesome Shipwreck
+  titleRu: Унылые обломки корабля
+  type: virtual
 - title: Lonesome Shipwreck, Cabin
   titleRu: Унылые обломки корабля, Каюта
   type: interior
@@ -2621,6 +2744,9 @@
 - title: Lonesome Shipwreck, Upper Level
   titleRu: Унылые обломки корабля, Верхний Уровень
   type: interior
+- title: Lost Shipwreck
+  titleRu: Потерянные обломки корабля
+  type: virtual
 - title: Lost Shipwreck, Cabin
   titleRu: Потерянные обломки корабля, Каюта
   type: interior
@@ -2694,6 +2820,9 @@
 - title: Madas-Zebba Egg Mine
   titleRu: Яичная шахта Мадас-Зеббы
   type: interior
+- title: Maelkashishi
+  titleRu: Мелкашиши
+  type: virtual
 - title: Maelkashishi, Shrine
   titleRu: Мелкашиши, Святилище
   type: interior
@@ -2715,6 +2844,9 @@
 - title: Malmus Grotto
   titleRu: Грот Малмус
   type: interior
+- title: Mamaea
+  titleRu: Мамея
+  type: virtual
 - title: Mamaea, Sanctum of Awakening
   titleRu: Мамея, Святилище Пробуждения
   type: interior
@@ -2724,6 +2856,9 @@
 - title: Mamaea, Shrine of Pitted Dreams
   titleRu: Мамея, Святилище Безумных Снов
   type: interior
+- title: Mamshar-Disamus Camp
+  titleRu: Лагерь Мамшар-Дизамус
+  type: virtual
 - title: Mamshar-Disamus Camp, Maesat's Yurt
   titleRu: Лагерь Мамшар-Дизамус, Юрта Месата
   type: interior
@@ -2765,6 +2900,9 @@
 - title: Marvani Ancestral Tomb
   titleRu: Родовая гробница Марвани
   type: interior
+- title: Massahanud Camp
+  titleRu: Лагерь Массахануд
+  type: virtual
 - title: Massahanud Camp, Sargon's Yurt
   titleRu: Лагерь Массахануд, Юрта Саргона
   type: interior
@@ -2789,6 +2927,9 @@
 - title: Mawia
   titleRu: Мавия
   type: interior
+- title: Mila-Nipal
+  titleRu: Мила-Нипал
+  type: virtual
 - title: Mila-Nipal, Manat's Yurt
   titleRu: Мила-Нипал, Юрта Маната
   type: interior
@@ -2801,6 +2942,9 @@
 - title: Minabi, Bandit Lair
   titleRu: Минаби, Логово бандитов
   type: interior
+- title: Ministry of Truth
+  titleRu: Министерство Правды
+  type: virtual
 - title: Ministry of Truth, Hall of Processing
   titleRu: Министерство Правды, Зал обработки
   type: interior
@@ -3157,6 +3301,9 @@
   titleRu: Морнхолд, поместье Веласа
   type: interior
   addon: Tribunal
+- title: Mudan
+  titleRu: Мудан
+  type: virtual
 - title: Mudan Grotto
   titleRu: Грот Мудан
   type: interior
@@ -3291,6 +3438,9 @@
 - title: Nund
   titleRu: Нанд
   type: interior
+- title: Obscure Shipwreck
+  titleRu: Выцветшие обломки корабля
+  type: virtual
 - title: Obscure Shipwreck, Cabin
   titleRu: Выцветшие обломки корабля, Каюта
   type: interior
@@ -3444,6 +3594,9 @@
 - title: Omaren Ancestral Tomb
   titleRu: Родовая гробница Омаренов
   type: interior
+- title: Onnissiralis
+  titleRu: Оннисиралис
+  type: virtual
 - title: Onnissiralis, Shrine
   titleRu: Оннисиралис, Святилище
   type: interior
@@ -3529,6 +3682,9 @@
 - title: Piran
   titleRu: Пиран
   type: interior
+- title: Prelude Shipwreck
+  titleRu: Старые обломки корабля
+  type: virtual
 - title: Prelude Shipwreck, Cabin
   titleRu: Старые обломки корабля, Каюта
   type: interior
@@ -3556,6 +3712,9 @@
 - title: Punsabanit
   titleRu: Пунсабанит
   type: interior
+- title: Ramimilk
+  titleRu: Рамимилк
+  type: virtual
 - title: Ramimilk, Shrine
   titleRu: Рамимилк, Святилище
   type: interior
@@ -3710,6 +3869,9 @@
 - title: Reloth Ancestral Tomb
   titleRu: Родовая гробница Релотов
   type: interior
+- title: Remote Shipwreck
+  titleRu: Отдаленные обломки корабля
+  type: virtual
 - title: Remote Shipwreck, Cabin
   titleRu: Отдаленные обломки корабля, Каюта
   type: interior
@@ -3874,6 +4036,9 @@
 - title: Sadryon Ancestral Tomb
   titleRu: Родовая гробница Садрионов
   type: interior
+- title: Salit Camp
+  titleRu: Лагерь Салитов
+  type: virtual
 - title: Salit Camp, Zalit's Yurt
   titleRu: Лагерь Салитов, Юрта Залита
   type: interior
@@ -4025,6 +4190,9 @@
 - title: Sharapli
   titleRu: Шарапли
   type: interior
+- title: Shashmanu Camp
+  titleRu: Лагерь Шашману
+  type: virtual
 - title: Shashmanu Camp, Anit's Yurt
   titleRu: Лагерь Шашману, Юрта Анита
   type: interior
@@ -4034,6 +4202,9 @@
 - title: Shashpilamat, Shrine
   titleRu: Шашпиламат, Святилище
   type: interior
+- title: Shashurari Camp
+  titleRu: Лагерь Шашурари
+  type: virtual
 - title: Shashurari Camp, Zennammu's Yurt
   titleRu: Лагерь Шашурари, Юрта Зеннамму
   type: interior
@@ -4222,6 +4393,9 @@
 - title: Shulk Egg Mine, Queen's Lair
   titleRu: Яичная шахта Шалка, Лежбище матки
   type: interior
+- title: Shunned Shipwreck
+  titleRu: Сохраненные обломки корабля
+  type: virtual
 - title: Shunned Shipwreck, Cabin
   titleRu: Сохраненные обломки корабля, Каюта
   type: interior
@@ -4305,6 +4479,9 @@
 - title: Small Farmhouse
   titleRu: Маленькая Ферма
   type: interior
+- title: Sobitbael Camp
+  titleRu: Лагерь Собитбаэль
+  type: virtual
 - title: Sobitbael Camp, Mal's Yurt
   titleRu: Лагерь Собитбаэль, Юрта Мала
   type: interior
@@ -4788,6 +4965,9 @@
 - title: Sterdecan's Farmhouse
   titleRu: Ферма Штердекана
   type: interior
+- title: Strange Shipwreck
+  titleRu: Странные обломки корабля
+  type: virtual
 - title: Strange Shipwreck, Cabin
   titleRu: Странные обломки корабля, Каюта
   type: interior
@@ -4980,6 +5160,9 @@
 - title: Tel Mora, Upper Tower
   titleRu: Тель Мора, Верхняя Башня
   type: interior
+- title: Tel Uvirith
+  titleRu: Тель Увирит
+  type: virtual
 - title: Tel Uvirith, Arelas' House
   titleRu: Тель Увирит, Дом Ареласов
   type: interior
@@ -5068,6 +5251,9 @@
 - title: ToddTest
   titleRu: ТоддТест
   type: interior
+- title: Tower of Tel Fyr
+  titleRu: Башня Тель Фир
+  type: virtual
 - title: Tower of Tel Fyr, Hall of Fyr
   titleRu: Башня Тель Фир, Зал Фира
   type: interior
@@ -5096,9 +5282,15 @@
 - title: Tureynulal, Kagrenac's Library
   titleRu: Турейнулал, Библиотека Кагренака
   type: interior
+- title: Tusenend
+  titleRu: Тусененд
+  type: virtual
 - title: Tusenend, Shrine
   titleRu: Тусененд, Святилище
   type: interior
+- title: Ularradallaku
+  titleRu: Уларрадаллаку
+  type: virtual
 - title: Ularradallaku, Shrine
   titleRu: Уларрадаллаку, Святилище
   type: interior
@@ -5114,6 +5306,9 @@
 - title: Ulummusa
   titleRu: Улуммуза
   type: interior
+- title: Uncharted Shipwreck
+  titleRu: Бесполезные обломки корабля
+  type: virtual
 - title: Uncharted Shipwreck, Lower Level
   titleRu: Бесполезные обломки корабля, Нижний уровень
   type: interior
@@ -5123,6 +5318,9 @@
 - title: Unchartered Shipwreck, Upper Level
   titleRu: Бесполезные обломки корабля, Верхний уровень
   type: interior
+- title: Unexplored Shipwreck
+  titleRu: Неисследованные обломки корабля
+  type: virtual
 - title: Unexplored Shipwreck, Cabin
   titleRu: Неисследованные обломки корабля, Каюта
   type: interior
@@ -5132,6 +5330,9 @@
 - title: Unexplored Shipwreck, Upper Level
   titleRu: Неисследованные обломки корабля, Верхний уровень
   type: interior
+- title: Unknown Shipwreck
+  titleRu: Неизвестные обломки корабля
+  type: virtual
 - title: Unknown Shipwreck, Cabin
   titleRu: Неизвестные обломки корабля, Каюта
   type: interior
@@ -5141,6 +5342,9 @@
 - title: Unknown Shipwreck, Upper Level
   titleRu: Неизвестные обломки корабля, Верхний уровень
   type: interior
+- title: Unmarked Shipwreck
+  titleRu: Непомеченные обломки корабля
+  type: virtual
 - title: Unmarked Shipwreck, Lower Level
   titleRu: Непомеченные обломки корабля, Нижний уровень
   type: interior
@@ -5181,6 +5385,9 @@
 - title: Urshilaku Camp, Zanummu's Yurt
   titleRu: Лагерь Уршилаку, Юрта Занумму
   type: interior
+- title: Urshilaku
+  titleRu: Уршилаку
+  type: virtual
 - title: Urshilaku, Astral Burial
   titleRu: Уршилаку, Астральное Захоронение
   type: interior
@@ -5758,6 +5965,9 @@
 - title: Vivec, The Lizard's Head
   titleRu: Вивек, Голова Ящерицы
   type: interior
+- title: Vor Lair
+  titleRu: Логово Вор
+  type: virtual
 - title: Vor Lair, Chambers of Alta Vor
   titleRu: Логово Вор, Покои Альты Вор
   type: interior
@@ -6016,6 +6226,9 @@
 - title: Yakanalit
   titleRu: Яканалит
   type: interior
+- title: Yakaridan Camp
+  titleRu: Лагерь Якаридан
+  type: virtual
 - title: Yakaridan Camp, Kitbael's Yurt
   titleRu: Лагерь Якаридан, Юрта Китбаэля
   type: interior
@@ -6035,6 +6248,9 @@
 - title: Yansirramus, Shrine
   titleRu: Янсиррамус, Святилище
   type: interior
+- title: Yasammidan
+  titleRu: Ясаммидан
+  type: virtual
 - title: Yasammidan, Shrine
   titleRu: Ясаммидан, Святилище
   type: interior
