@@ -2701,25 +2701,31 @@
       id: DAjQQzrI42H
       mediaId: '18022662017591508'
       published: 2024-09-30-18-10-21
-      updated: 2024-10-01-04-09-57
+      updated: 2024-10-01-05-08-20
       followers: 1459
-      likes: 60
-      views: 171
+      likes: 61
+      views: 198
     - service: vk
       id: 1792
       published: 2024-09-30-18-10-27
-      updated: 2024-10-01-04-09-55
+      updated: 2024-10-01-05-08-20
       followers: 957
-      likes: 17
-      views: 108
+      likes: 18
+      views: 117
       reposts: 2
+      comments: !c |-
+        G/QBIJwHti1pGy5r3lJ4YyHiif1kS/H4WD4oTBBxi83SDFUs0ZTE8q6qbip9jm9nGez4nZgtWI1Q
+        bqvWbE6/GyryMjFEW4HMLM+6Aw0w0dy/S9G3QFo7lUBbcMIMzoebBXa36dnxLqVjCSI5nq9v/9Cn
+        PZb33dt53db1ul1+67/uC9kojJj0LyzP0WyJf+b1cT+LbKY0BYtmyfU8TSDt9TlxBbr7Yggp8ajS
+        E6oEalaoamruIAHhQWWgavDyJtOd4PRW2Noz/JgKeSsFQR2jUQd0H8HsNNoDJ1w/9Md27xl6Ypba
+        gmBDhuUtgNgWJ04CrhTHGIp0Wl3Aa2WmbpVTGtf3ASs9u5WFaOFHecQUaU4=
     - service: tg
       id: 550
       published: 2024-09-30-18-10-33
-      updated: 2024-10-01-04-09-55
+      updated: 2024-10-01-05-08-21
       followers: 558
-      likes: 40
-      views: 116
+      likes: 42
+      views: 120
       comments: !c |-
         G4QAwBwHuRnrjhXVgx9isZgRKh0ib1L8INqHFlhnqmLG2G9CPyXq6DDo5Za7Pes/0AP+2r6sLXur
         C8K0eSqJ5QEX8Ta1MinElS5lSvWmlIKZYhqHF/vdtWqRiuXqfn8+BYBNeprQL0QOg3ULwmQBRleh
@@ -3858,27 +3864,27 @@
       id: DAgrT69B1Jb
       mediaId: '18027270836366389'
       published: 2024-09-29-18-08-56
-      updated: 2024-10-01-04-09-57
+      updated: 2024-10-01-05-08-20
       followers: 1455
       likes: 97
-      views: 444
+      views: 445
     - service: vk
       id: 1790
       published: 2024-09-29-18-09-02
-      updated: 2024-10-01-04-09-56
+      updated: 2024-10-01-05-08-21
       followers: 957
       likes: 25
-      views: 165
+      views: 166
       comments: !c |-
         G1IA+I2UbsI8COjcEy7SqmziswYcBlAIjjDvcW5jZ16hhCjNEiWmWKHajquaDLMuhTjHJvO93POS
         PPoLdjlDigYKBoRHDAYcUBCGipyJXOWCreK6
     - service: tg
       id: 549
       published: 2024-09-29-18-09-07
-      updated: 2024-10-01-04-09-56
+      updated: 2024-10-01-05-08-21
       followers: 558
-      likes: 59
-      views: 242
+      likes: 60
+      views: 247
       comments: !c |-
         G4kA+C0OeBPjZSMQr7DGOwlN8Q/tjPCfJ5ZkMXcDn8nk6XROn+NFo6ZBqaPPjrEWqrKb1CM2gPGS
         JiWvFAkubkjc52O2xrtsjz+jdNGAOOP5CeMeJkHHmQAvYcLMQcukNB+pBJOEtuIYGMBsJRw=
