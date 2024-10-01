@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bgopipmj2rz/)       | 2018-03-22 |       |    79 |       308 |  25.65 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_661)  | 2018-03-22 |   196 |    16 |       145 |  11.03 |
-| [`ig`](https://instagram.com/p/DAjQQzrI42H/)       | 2024-09-30 |   216 |    63 |      1459 |   4.32 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1792) | 2024-09-30 |   129 |    18 |       957 |   2.09 |
-| [`tg`](https://t.me/mwscr/550)                     | 2024-09-30 |   125 |    45 |       558 |   8.06 |
-|                                                    |            |   470 |   126 |      2974 |  10.23 |
+| [`ig`](https://instagram.com/p/DAjQQzrI42H/)       | 2024-09-30 |   225 |    65 |      1459 |   4.46 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1792) | 2024-09-30 |   133 |    18 |       957 |   2.09 |
+| [`tg`](https://t.me/mwscr/550)                     | 2024-09-30 |   129 |    45 |       558 |   8.06 |
+|                                                    |            |   487 |   128 |      2974 |  10.26 |
 
 #### Comments
 
@@ -67,10 +67,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BiASJEclecY/)       | 2018-04-25 |       |    97 |       319 |  30.41 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_699)  | 2018-04-25 |   251 |    15 |       156 |   9.62 |
-| [`ig`](https://instagram.com/p/DAgrT69B1Jb/)       | 2024-09-29 |   447 |   100 |      1455 |   6.87 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1790) | 2024-09-29 |   166 |    25 |       957 |   2.61 |
-| [`tg`](https://t.me/mwscr/549)                     | 2024-09-29 |   252 |    60 |       558 |  10.75 |
-|                                                    |            |   865 |   185 |      2970 |  12.05 |
+| [`ig`](https://instagram.com/p/DAgrT69B1Jb/)       | 2024-09-29 |   448 |   100 |      1455 |   6.87 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1790) | 2024-09-29 |   168 |    25 |       957 |   2.61 |
+| [`tg`](https://t.me/mwscr/549)                     | 2024-09-29 |   254 |    60 |       558 |  10.75 |
+|                                                    |            |   870 |   185 |      2970 |  12.05 |
 
 #### Comments
 
@@ -1495,7 +1495,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-08-15-galom-daeus&postLocation=)</code> `🚀 OpenMW` `dwemer` `tower` `observatory`
+`B1` `📍 Galom Daeus` `🚀 OpenMW` `dwemer` `tower` `observatory`
 
 ```
 2024-08-15-galom-daeus
@@ -3562,7 +3562,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Azura's Coast Region` `🚀 OpenMW` `tomb` `sunset`
+`A2` `📍 Azura's Coast Region` `📍 Beran Ancestral Tomb` `🚀 OpenMW` `tomb` `sunset`
 
 ```
 2024-06-12-beran-ancestral-tomb
@@ -3658,7 +3658,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-09-endusal&postLocation=)</code> `🚀 OpenMW` `dwemer` `ruin`
+`B1` `📍 Endusal` `🚀 OpenMW` `dwemer` `ruin`
 
 ```
 2024-06-09-endusal
@@ -3876,7 +3876,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Tel Vos` `🚀 OpenMW`
+`A2` `📍 Tel Vos` `📍 Vos` `🚀 OpenMW`
 
 ```
 2024-06-02-vos-from-tel-vos
@@ -4325,7 +4325,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-05-19-druscashti&postLocation=)</code> `🚀 OpenMW` `dwemer` `ruin`
+`B1` `📍 Druscashti` `🚀 OpenMW` `dwemer` `ruin`
 
 ```
 2024-05-19-druscashti
@@ -4486,7 +4486,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Sadrith Mora` `🚀 OpenMW` `ship`
+`A1` `📍 Sadrith Mora` `📍 Elf-Skerring` `🚀 OpenMW` `ship`
 
 ```
 2024-05-14-climbing-aboard-the-elf-skerring
@@ -5395,7 +5395,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-15-night-at-red-mountain&postLocation=)</code> `🚀 OpenMW` `dwemer` `ruin` `bridge` `tower`
+`B1` `📍 Red Mountain Region` `🚀 OpenMW` `dwemer` `ruin` `bridge` `tower`
 
 ```
 2024-04-15-night-at-red-mountain
@@ -5747,7 +5747,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Sadrith Mora` `🚀 OpenMW` `ship`
+`B1` `📍 Sadrith Mora` `📍 Elf-Skerring` `🚀 OpenMW` `ship`
 
 ```
 2024-04-04-view-of-elf-skerring
@@ -6146,7 +6146,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`E` `📍 Ascadian Isles Region` `🚀 OpenMW` `sunrise`
+`E` `📍 Ascadian Isles Region` `📍 Molag Amur Region` `🚀 OpenMW` `sunrise`
 
 ```
 2024-03-23-sunrise-over-molag-amur-coast
@@ -6329,7 +6329,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `teeth` `fence`
+`B1` `📍 Ascadian Isles Region` `📍 Pelagiad` `🚀 OpenMW` `teeth` `fence`
 
 ```
 2024-03-17-teeth-of-pelagiad
@@ -6623,7 +6623,7 @@
 
 `shot` by [Natty](../contributors.md#natty), [dehero](../contributors.md#dehero)
 
-`B1` `📍 Bitter Coast Region` `🚀 OpenMW` `bridge` `river`
+`B1` `📍 Bitter Coast Region` `📍 Ascadian Isles Region` `🚀 OpenMW` `bridge` `river`
 
 ```
 2024-03-08-a-bridge-to-ascadian-isles
@@ -6924,7 +6924,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Molag Amur Region` `🚀 OpenMW` `tomb`
+`A2` `📍 Molag Amur Region` `📍 Omalen Ancestral Tomb` `🚀 OpenMW` `tomb`
 
 ```
 2024-02-28-omalen-ancestral-tomb

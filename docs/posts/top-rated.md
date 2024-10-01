@@ -177,7 +177,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` `📍 Grazelands Region` `🚀 OpenMW` `fort`
+`B2` `📍 Grazelands Region` `📍 Tel Vos` `🚀 OpenMW` `fort`
 
 ```
 2017-01-02-backdoor-to-tel-vos
