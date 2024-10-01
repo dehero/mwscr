@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`217 items`
+`218 items`
+
+## <span id="2024-10-01-slave-and-slaver">Slave and Slaver</span>
+
+`RU` Раб и работорговец
+
+<a href="https://instagram.com/p/BgZThh9ByVC/" title="2018-03-16-slave-and-slaver"><img alt="store:/shots/2018-03-16-slave-and-slaver.png" src="../../assets/previews/shots/2018-03-16-slave-and-slaver.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-01-slave-and-slaver&postLocation=)</code> `🚀 OpenMW` `slave` `cage`
+
+```
+2024-10-01-slave-and-slaver
+```
+
+> `2018-03-16-slave-and-slaver`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BgZThh9ByVC/)       | 2018-03-16 |       |    85 |       306 |  27.78 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_652)  | 2018-03-16 |   233 |    21 |       142 |  14.79 |
+| [`ig`](https://instagram.com/p/DAl1UhFBlHx/)       | 2024-10-01 |       |       |      1461 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1795) | 2024-10-01 |       |       |       957 |        |
+| [`tg`](https://t.me/mwscr/551)                     | 2024-10-01 |       |       |       557 |        |
+|                                                    |            |       |       |      2975 |  21.28 |
 
 ## <span id="2024-09-30-welcome-to-vivec-scum">Welcome to Vivec, Scum</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bgopipmj2rz/)       | 2018-03-22 |       |    79 |       308 |  25.65 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_661)  | 2018-03-22 |   196 |    16 |       145 |  11.03 |
-| [`ig`](https://instagram.com/p/DAjQQzrI42H/)       | 2024-09-30 |   328 |    86 |      1459 |   5.89 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1792) | 2024-09-30 |   185 |    30 |       957 |   3.55 |
-| [`tg`](https://t.me/mwscr/550)                     | 2024-09-30 |   148 |    47 |       558 |   8.42 |
-|                                                    |            |   661 |   163 |      2974 |  10.91 |
+| [`ig`](https://instagram.com/p/DAjQQzrI42H/)       | 2024-09-30 |   338 |    88 |      1459 |   6.03 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1792) | 2024-09-30 |   188 |    30 |       957 |   3.55 |
+| [`tg`](https://t.me/mwscr/550)                     | 2024-09-30 |   151 |    47 |       558 |   8.42 |
+|                                                    |            |   677 |   165 |      2974 |  10.94 |
 
 #### Comments
 
@@ -99,10 +126,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbkgKrPjwqJ/)       | 2017-11-16 |       |    68 |       235 |  28.94 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_502)  | 2017-11-16 |   162 |    16 |       100 |     16 |
-| [`ig`](https://instagram.com/p/DAeGeTKOGy4/)       | 2024-09-28 |   287 |    61 |      1457 |   4.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1789) | 2024-09-28 |   200 |    40 |       957 |   4.18 |
-| [`tg`](https://t.me/mwscr/548)                     | 2024-09-28 |   202 |    56 |       557 |  10.05 |
-|                                                    |            |   689 |   157 |      2971 |  12.67 |
+| [`ig`](https://instagram.com/p/DAeGeTKOGy4/)       | 2024-09-28 |   301 |    68 |      1457 |   4.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1789) | 2024-09-28 |   217 |    42 |       957 |   4.39 |
+| [`tg`](https://t.me/mwscr/548)                     | 2024-09-28 |   227 |    58 |       557 |  10.41 |
+|                                                    |            |   745 |   168 |      2971 |  12.88 |
 
 ## <span id="2024-09-27-the-two-towers">The Two Towers</span>
 
