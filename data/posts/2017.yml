@@ -4021,7 +4021,6 @@
   tags:
     - vivec
     - pentagon
-    - tribunal
   mark: A1
   posts:
     - service: ig
@@ -4829,7 +4828,6 @@
   addon: Tribunal
   tags:
     - night
-    - tribunal
   mark: A2
   posts:
     - service: ig
@@ -5012,7 +5010,6 @@
   addon: Tribunal
   tags:
     - women
-    - tribunal
   mark: B1
   posts:
     - service: ig
@@ -5070,7 +5067,6 @@
     - bottle
     - magic
     - alchemy
-    - tribunal
   mark: B1
   posts:
     - service: ig
@@ -5474,7 +5470,7 @@
     - fight
     - statue
     - encounter
-    - tribunal
+    - almalexia
   mark: B1
   posts:
     - service: ig
@@ -5528,8 +5524,6 @@
   author: dehero
   engine: OpenMW
   addon: Tribunal
-  tags:
-    - tribunal
   mark: B1
   posts:
     - service: ig
@@ -6226,7 +6220,6 @@
   tags:
     - almalexia
     - ordinator
-    - tribunal
     - guard
     - women
   mark: A2
@@ -6623,7 +6616,6 @@
   addon: Tribunal
   tags:
     - sothasil
-    - tribunal
   mark: B1
   posts:
     - service: ig
@@ -8171,8 +8163,6 @@
   author: dehero
   engine: OpenMW
   addon: Tribunal
-  tags:
-    - tribunal
   mark: A2
   posts:
     - service: ig
@@ -9234,9 +9224,6 @@
   author: dehero
   engine: OpenMW
   addon: Tribunal
-  tags:
-    - clockworkcity
-    - tribunal
   mark: A2
   posts:
     - service: ig
@@ -9755,8 +9742,6 @@
   author: dehero
   engine: OpenMW
   addon: Tribunal
-  tags:
-    - tribunal
   mark: B2
   posts:
     - service: ig
@@ -11087,7 +11072,6 @@
   addon: Tribunal
   tags:
     - evening
-    - tribunal
   mark: A2
   posts:
     - service: ig
@@ -11956,7 +11940,6 @@
   addon: Tribunal
   tags:
     - rat
-    - tribunal
   request:
     date: 2017-12-23
     user: buck-the-cuck
@@ -12151,7 +12134,6 @@
     - shrine
     - star
     - guard
-    - tribunal
   mark: A2
   posts:
     - service: ig

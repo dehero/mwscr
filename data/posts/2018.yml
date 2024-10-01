@@ -202,7 +202,6 @@
   tags:
     - aqueduct
     - cave
-    - tribunal
   mark: A2
   posts:
     - service: ig
@@ -364,8 +363,6 @@
   author: dehero
   engine: OpenMW
   addon: Tribunal
-  tags:
-    - tribunal
   mark: A2
   posts:
     - service: ig
@@ -498,9 +495,6 @@
   author: dehero
   engine: OpenMW
   addon: Tribunal
-  tags:
-    - sothasil
-    - tribunal
   mark: B1
   posts:
     - service: ig
@@ -755,7 +749,6 @@
   addon: Tribunal
   tags:
     - goblin
-    - tribunal
   mark: B1
   posts:
     - service: ig
@@ -858,8 +851,6 @@
   author: dehero
   engine: OpenMW
   addon: Tribunal
-  tags:
-    - tribunal
   mark: B1
   posts:
     - service: ig
@@ -5520,7 +5511,6 @@
   addon: Tribunal
   tags:
     - lich
-    - tribunal
   mark: B1
   posts:
     - service: ig
@@ -6420,8 +6410,6 @@
   author: dehero
   engine: OpenMW
   addon: Tribunal
-  tags:
-    - tribunal
   mark: B2
   posts:
     - service: ig
@@ -6639,8 +6627,6 @@
   author: dehero
   engine: OpenMW
   addon: Tribunal
-  tags:
-    - tribunal
   mark: B2
   posts:
     - service: ig
@@ -7192,7 +7178,6 @@
   addon: Tribunal
   tags:
     - centurion
-    - tribunal
   mark: B1
   posts:
     - service: ig
@@ -8974,8 +8959,6 @@
   author: dehero
   engine: OpenMW
   addon: Tribunal
-  tags:
-    - tribunal
   mark: B1
   posts:
     - service: ig
@@ -9308,7 +9291,6 @@
   addon: Tribunal
   tags:
     - night
-    - tribunal
   mark: B1
   posts:
     - service: ig
@@ -9852,7 +9834,6 @@
   addon: Tribunal
   tags:
     - temple
-    - tribunal
   mark: A2
   posts:
     - service: ig
