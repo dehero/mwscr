@@ -1409,6 +1409,7 @@
 - title: Bamz-Amschend
   titleRu: Бамз-Амсшенд
   type: virtual
+  addon: Tribunal
 - title: Bamz-Amschend, Hall of Wails
   titleRu: Бамз-Амсшенд, Зал Плача
   type: interior
@@ -5968,6 +5969,7 @@
 - title: Vor Lair
   titleRu: Логово Вор
   type: virtual
+  addon: Bloodmoon
 - title: Vor Lair, Chambers of Alta Vor
   titleRu: Логово Вор, Покои Альты Вор
   type: interior
