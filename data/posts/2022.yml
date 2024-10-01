@@ -1444,7 +1444,7 @@
     - service: tg
       id: 297
       published: 2022-07-28
-      updated: 2024-09-24-15-24-37
+      updated: 2024-10-01-16-09-21
       followers: 274
       likes: 55
       views: 1172
@@ -1486,7 +1486,7 @@
     - service: tg
       id: 298
       published: 2022-07-29
-      updated: 2024-09-24-15-24-37
+      updated: 2024-10-01-16-09-21
       followers: 274
       likes: 59
       views: 1336
@@ -1517,7 +1517,7 @@
     - service: tg
       id: 299
       published: 2022-07-30
-      updated: 2024-09-24-15-24-36
+      updated: 2024-10-01-16-09-21
       followers: 278
       likes: 51
       views: 1329
@@ -1567,7 +1567,7 @@
         - 302
         - 303
       published: 2022-07-31
-      updated: 2024-09-24-15-24-36
+      updated: 2024-10-01-16-09-20
       followers: 277
       likes: 57
       views: 1572
@@ -1603,7 +1603,7 @@
     - service: tg
       id: 304
       published: 2022-08-01
-      updated: 2024-09-24-15-24-36
+      updated: 2024-10-01-16-09-19
       followers: 279
       likes: 56
       views: 1647
@@ -1643,14 +1643,14 @@
     - service: tg
       id: 305
       published: 2022-08-02
-      updated: 2024-09-24-15-24-35
+      updated: 2024-10-01-16-09-19
       followers: 281
       likes: 69
-      views: 2170
+      views: 2171
       comments: !c |-
-        C0WAlJPLQnjqgZW9AACrVmVicmFuZGVub0u60L3QsCDQutCw0YDQsNC9INC/0L7RhdC+0LaTy0J4
-        Jobp2AAAqWFuYWtpbmVyc6VncmVhdJPLQngmLFQlgACtQnVzaGlkb2thUmlkZa7QqNC40LrQsNGA
-        0L3QvpPLQngmB2dEAACobW9uZ2xlcmmkbmljZQM=
+        i0SAlJPLQnjqgZW9AACrVmVicmFuZGVub0u60L3QsCDQutCw0YDQsNC9INC/0L7RhdC+0LaTy0J4
+        Jobp2AAAqWFuYWtpbmVyc6VncmVhdJPLQngmLFQlgACsQnVzaGlkb0Jpa2VyrtCo0LjQutCw0YDQ
+        vdC+k8tCeCYHZ0QAAKhtb25nbGVyaaRuaWNlAw==
 2022-08-03-a-haven-on-bad-weather:
   title: A Haven on Bad Weather
   titleRu: Пристанище в ненастье
@@ -1691,7 +1691,7 @@
     - service: tg
       id: 306
       published: 2022-08-03
-      updated: 2024-09-24-15-24-35
+      updated: 2024-10-01-16-09-18
       followers: 281
       likes: 81
       views: 2208
