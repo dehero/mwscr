@@ -164,6 +164,7 @@
 2016-11-20-5-galom-daeus:
   title: Galom Daeus
   titleRu: Галом Дэус
+  location: Galom Daeus
   content: store:/shots/2016-11-20-5-galom-daeus.png
   type: shot
   author: dehero
@@ -618,7 +619,9 @@
 2016-12-04-vos-from-tel-vos:
   title: Vos from Tel Vos
   titleRu: Вос из Тель Воса
-  location: Tel Vos
+  location:
+    - Tel Vos
+    - Vos
   content: store:/shots/2016-12-04-vos-from-tel-vos.png
   type: shot
   author: dehero

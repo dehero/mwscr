@@ -107,7 +107,9 @@
 2019-02-08-view-of-wolverine-hall:
   title: View of Wolverine Hall
   titleRu: Вид на Волверин Холл
-  location: Sadrith Mora, Wolverine Hall
+  location:
+    - Sadrith Mora, Wolverine Hall
+    - Wolverine Hall
   content: store:/shots/2019-02-08-view-of-wolverine-hall.png
   type: shot
   author: dehero
@@ -277,6 +279,7 @@
 2019-02-13-kaushtarari:
   title: Kaushtarari
   titleRu: Коштарари
+  location: Kaushtarari
   content: store:/shots/2019-02-13-kaushtarari.png
   type: shot
   author: dehero

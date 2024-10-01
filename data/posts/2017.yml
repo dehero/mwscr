@@ -25,7 +25,9 @@
 2017-01-02-backdoor-to-tel-vos:
   title: Backdoor to Tel Vos
   titleRu: Запасной вход в Тель Вос
-  location: Grazelands Region
+  location:
+    - Grazelands Region
+    - Tel Vos
   content: store:/shots/2017-01-02-backdoor-to-tel-vos.png
   type: shot
   author: dehero
@@ -509,6 +511,7 @@
 2017-01-18-addadshashanammu:
   title: Addadshashanammu
   titleRu: Аддадшашанамму
+  location: Addadshashanammu
   content: store:/shots/2017-01-18-addadshashanammu.png
   type: shot
   author: dehero
@@ -937,7 +940,8 @@
 2017-01-28-2-meditative-night-in-ahemmusa-camp:
   title: Meditative Night in Ahemmusa Camp
   titleRu: Ночь медитации в лагере Ахеммуза
-  description: Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
+  description:
+    Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
   descriptionRu: Камера была закреплена дождливым вечером над юртой ашхана и оставалась там до утра.
   location: Ahemmusa Camp
   content: store:/videos/2017-01-28-2-meditative-night-in-ahemmusa-camp.mp4
@@ -1382,7 +1386,9 @@
 2017-02-09-climbing-aboard-the-elf-skerring:
   title: Climbing Aboard the Elf-Skerring
   titleRu: Поднимаясь на борт Эльфийского мореплавателя
-  location: Sadrith Mora
+  location:
+    - Sadrith Mora
+    - Elf-Skerring
   content: store:/shots/2017-02-09-climbing-aboard-the-elf-skerring.png
   type: shot
   author: dehero
@@ -1489,7 +1495,13 @@
   title: Travel from Seyda Neen to Balmora
   titleRu: Путешествие из Сейда Нина в Балмору
   description: 'Slower version: https://youtu.be/Fd77v5UL_ek'
-  location: Seyda Neen
+  location:
+    - Seyda Neen
+    - Pelagiad
+    - Moonmoth Legion Fort
+    - Balmora
+    - Bitter Coast Region
+    - Ascadian Isles Region
   content: store:/videos/2017-02-12-1-travel-from-seyda-neen-to-balmora.mp4
   type: clip
   author: dehero
@@ -1524,7 +1536,13 @@
   descriptionRu: >-
     Камера в реальном времени путешествует по дороге из Сейда Нина в Балмору, доставляя зашифрованное послание от
     Селлуса Гравиуса Каю Косадесу. Композиция "The Road Most Travelled" звучит в фоне.
-  location: Seyda Neen
+  location:
+    - Seyda Neen
+    - Pelagiad
+    - Moonmoth Legion Fort
+    - Balmora
+    - Bitter Coast Region
+    - Ascadian Isles Region
   content: store:/videos/2017-02-12-2-travel-from-seyda-neen-to-balmora.avi
   type: video
   author: dehero
@@ -1564,6 +1582,7 @@
 2017-02-13-kushtashpi:
   title: Kushtashpi
   titleRu: Кушташпи
+  location: Kushtashpi
   content: store:/shots/2017-02-13-kushtashpi.png
   type: shot
   author: dehero
@@ -1891,7 +1910,9 @@
 2017-02-23-surroundings-of-pelagiad:
   title: Surroundings of Pelagiad
   titleRu: Окрестности Пелагиада
-  location: Ascadian Isles Region
+  location:
+    - Ascadian Isles Region
+    - Pelagiad, Fort Pelagiad
   content: store:/shots/2017-02-23-surroundings-of-pelagiad.png
   type: shot
   author: dehero
@@ -1978,6 +1999,7 @@
 2017-02-26-road-fork-near-kushtashpi:
   title: Road Fork Near Kushtashpi
   titleRu: Развилка у Кушташпи
+  location: Kushtashpi
   content: store:/shots/2017-02-26-road-fork-near-kushtashpi.png
   type: shot
   author: dehero
@@ -6513,6 +6535,7 @@
 2017-07-06-snowy-granius-meets-travelers-near-arkngthand:
   title: Snowy Granius Meets Travelers Near Arkngthand
   titleRu: Граниус Снежный встречает путников у Аркнтанда
+  location: Arkngthand
   content: store:/shots/2017-07-06-snowy-granius-meets-travelers-near-arkngthand.png
   type: shot
   author: dehero
@@ -7034,6 +7057,7 @@
 2017-07-21-scamp-defending-the-entrance-to-maelkashishi:
   title: Scamp Defending the Entrance to Maelkashishi
   titleRu: Скамп, охраняющий вход в Мелкашиши
+  location: Maelkashishi
   content: store:/shots/2017-07-21-scamp-defending-the-entrance-to-maelkashishi.png
   type: shot
   author: dehero
@@ -7429,6 +7453,7 @@
 2017-08-03-maelkashishi:
   title: Maelkashishi
   titleRu: Мелкашиши
+  location: Maelkashishi
   content: store:/shots/2017-08-03-maelkashishi.png
   type: shot
   author: dehero
@@ -7587,6 +7612,7 @@
 2017-08-08-elanius-camp:
   title: Elanius Camp
   titleRu: Лагерь Эланиусов
+  location: Elanius Camp
   content: store:/shots/2017-08-08-elanius-camp.png
   type: shot
   author: dehero
@@ -7899,7 +7925,9 @@
 2017-08-19-surroundings-of-hlormaren:
   title: Surroundings of Hlormaren
   titleRu: В окрестностях Хлормарена
-  location: Bitter Coast Region
+  location:
+    - Bitter Coast Region
+    - Hlormaren
   content: store:/shots/2017-08-19-surroundings-of-hlormaren.png
   type: shot
   author: dehero
@@ -8590,7 +8618,9 @@
 2017-09-11-inside-arc-of-tel-vos:
   title: Inside Arc of Tel Vos
   titleRu: Под аркой Тель Воса
-  location: Tel Vos
+  location:
+    - Tel Vos
+    - Vos
   content: store:/shots/2017-09-11-inside-arc-of-tel-vos.png
   type: shot
   author: dehero
@@ -9374,7 +9404,9 @@
 2017-10-05-in-the-hall-of-thirsk:
   title: In the Hall of Thirsk
   titleRu: В зале Тирска
-  location: Solstheim, Thirsk
+  location:
+    - Solstheim, Thirsk
+    - Thirsk
   content: store:/shots/2017-10-05-in-the-hall-of-thirsk.png
   type: shot
   author: dehero
@@ -10604,6 +10636,7 @@
 2017-11-14-the-guard-of-arkngthand:
   title: The Guard of Arkngthand
   titleRu: Страж Аркнтанда
+  location: Arkngthand
   content: store:/shots/2017-11-14-the-guard-of-arkngthand.png
   type: shot
   author: dehero
@@ -11974,7 +12007,9 @@
 2017-12-26-with-a-view-of-ashalmawia:
   title: With a View of Ashalmawia
   titleRu: С видом на Ашалмавию
-  location: Ald Velothi
+  location:
+    - Ald Velothi
+    - Ashalmawia
   content: store:/shots/2017-12-26-with-a-view-of-ashalmawia.png
   type: shot
   author: dehero

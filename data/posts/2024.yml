@@ -2,7 +2,9 @@
 2024-02-28-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
-  location: Molag Amur Region
+  location:
+    - Molag Amur Region
+    - Omalen Ancestral Tomb
   content: store:/shots/2024-02-28-omalen-ancestral-tomb.png
   trash:
     - store:/trash/dehero.2024-02-17-10-37-02.png
@@ -221,7 +223,9 @@
 2024-03-08-a-bridge-to-ascadian-isles:
   title: A Bridge to Ascadian Isles
   titleRu: Мост к Аскадианским островам
-  location: Bitter Coast Region
+  location:
+    - Bitter Coast Region
+    - Ascadian Isles Region
   content: store:/shots/2024-03-08-a-bridge-to-ascadian-isles.png
   trash:
     - store:/trash/natty.2024-03-05-20-28-33.3.png
@@ -461,7 +465,9 @@
 2024-03-17-teeth-of-pelagiad:
   title: Teeth of Pelagiad
   titleRu: Зубы Пелагиада
-  location: Ascadian Isles Region
+  location:
+    - Ascadian Isles Region
+    - Pelagiad
   content: store:/shots/2024-03-17-teeth-of-pelagiad.png
   type: shot
   author:
@@ -590,7 +596,9 @@
 2024-03-23-sunrise-over-molag-amur-coast:
   title: Sunrise Over Molag Amur Coast
   titleRu: Восход над побережьем Молаг Амур
-  location: Ascadian Isles Region
+  location:
+    - Ascadian Isles Region
+    - Molag Amur Region
   content: store:/shots/2024-03-23-sunrise-over-molag-amur-coast.png
   trash: store:/trash/natty.2024-03-10-12-56-43.png
   type: shot
@@ -847,7 +855,9 @@
 2024-04-04-view-of-elf-skerring:
   title: View of Elf-Skerring
   titleRu: Вид на Эльфийский Мореплаватель
-  location: Sadrith Mora
+  location:
+    - Sadrith Mora
+    - Elf-Skerring
   content: store:/shots/2024-04-04-view-of-elf-skerring.png
   trash: store:/trash/natty.2024-03-10-18-14-27.png
   type: shot
@@ -1135,6 +1145,7 @@
 2024-04-15-night-at-red-mountain:
   title: Night at Red Mountain
   titleRu: Ночь у Красной горы
+  location: Red Mountain Region
   content: store:/shots/2024-04-15-night-at-red-mountain.png
   trash:
     - store:/trash/natty.2024-03-24-11-56-31.png
@@ -1840,6 +1851,7 @@
 2024-05-19-druscashti:
   title: Druscashti
   titleRu: Друскашти
+  location: Druscashti
   content: store:/shots/2024-05-19-druscashti.png
   trash:
     - store:/trash/natty.2024-03-10-17-59-36.png
@@ -2026,6 +2038,7 @@
 2024-06-09-endusal:
   title: Endusal
   titleRu: Эндусал
+  location: Endusal
   content: store:/shots/2024-06-09-endusal.png
   trash:
     - store:/trash/natty.2024-03-10-16-18-43.png
@@ -2141,7 +2154,9 @@
 2024-06-12-beran-ancestral-tomb:
   title: Beran Ancestral Tomb
   titleRu: Родовая гробница Беранов
-  location: Azura's Coast Region
+  location:
+    - Azura's Coast Region
+    - Beran Ancestral Tomb
   content: store:/shots/2024-06-12-beran-ancestral-tomb.png
   trash:
     - store:/trash/dehero.2024-02-05-00-01-00.png

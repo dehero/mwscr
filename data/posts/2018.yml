@@ -1987,6 +1987,7 @@
 2018-03-01-guardess-of-assernerairan:
   title: Guardess of Assernerairan
   titleRu: Охранница Ассернерайрана
+  location: Assernerairan
   content: store:/shots/2018-03-01-guardess-of-assernerairan.png
   type: shot
   author: dehero
@@ -4268,7 +4269,9 @@
 2018-05-08-at-the-border-of-grazelands-and-ashlands:
   title: At the Border of Grazelands and Ashlands
   titleRu: На границе Грейзленда и Эшленда
-  location: Grazelands Region
+  location:
+    - Grazelands Region
+    - Ashlands Region
   content: store:/shots/2018-05-08-at-the-border-of-grazelands-and-ashlands.png
   type: shot
   author: dehero
@@ -5152,7 +5155,7 @@
 2018-06-02-mournhold-cactus:
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
-  location: 'Mournhold, Royal Palace: Guards'' Quarters'
+  location: "Mournhold, Royal Palace: Guards' Quarters"
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   author: dehero
@@ -6259,6 +6262,7 @@
 2018-07-06-druscashti:
   title: Druscashti
   titleRu: Друскашти
+  location: Druscashti
   content: store:/shots/2018-07-06-druscashti.png
   type: shot
   author: dehero
@@ -7094,7 +7098,9 @@
 2018-08-03-the-road-to-hlormaren:
   title: The Road to Hlormaren
   titleRu: Дорога к Хлормарену
-  location: Bitter Coast Region
+  location:
+    - Bitter Coast Region
+    - Hlormaren
   content: store:/shots/2018-08-03-the-road-to-hlormaren.png
   type: shot
   author: dehero
@@ -7232,7 +7238,9 @@
 2018-08-08-thirsk-upstairs:
   title: Thirsk, Upstairs
   titleRu: Тирск, верхний этаж
-  location: Solstheim, Thirsk
+  location:
+    - Solstheim, Thirsk
+    - Thirsk
   content: store:/shots/2018-08-08-thirsk-upstairs.png
   type: shot
   author: dehero
@@ -7953,6 +7961,7 @@
 2018-08-30-in-the-chambers-of-bamz-amschend:
   title: In the Chambers of Bamz-Amschend
   titleRu: В чертогах Бамз-Амсшенда
+  location: Bamz-Amschend, Hearthfire Hall
   content: store:/shots/2018-08-30-in-the-chambers-of-bamz-amschend.png
   type: shot
   author: dehero
@@ -9152,6 +9161,9 @@
 2018-09-29-towers-of-arkngthand:
   title: Towers of Arkngthand
   titleRu: Башни Аркнтанда
+  location:
+    - Arkngthand
+    - Moonmoth Legion Fort
   content: store:/shots/2018-09-29-towers-of-arkngthand.png
   type: shot
   author: dehero
@@ -9359,6 +9371,7 @@
 2018-10-05-galom-daeus:
   title: Galom Daeus
   titleRu: Галом Дэус
+  location: Galom Daeus
   content: store:/shots/2018-10-05-galom-daeus.png
   type: shot
   author: dehero
@@ -9829,7 +9842,9 @@
 2018-10-16-mournhold-temple:
   title: Mournhold Temple
   titleRu: Храм Морнхолда
-  location: Mournhold, Temple Courtyard
+  location:
+    - Mournhold, Temple Courtyard
+    - Mournhold Temple
   content: store:/shots/2018-10-16-mournhold-temple.png
   type: shot
   author: dehero
@@ -10630,6 +10645,7 @@
 2018-11-07-onnissiralis:
   title: Onnissiralis
   titleRu: Оннисиралис
+  location: Onnissiralis
   content: store:/shots/2018-11-07-onnissiralis.png
   type: shot
   author: dehero
@@ -11257,6 +11273,9 @@
 2018-11-24-ministry-of-truth:
   title: Ministry of Truth
   titleRu: Министерство Правды
+  location:
+    - Ministry of Truth
+    - Vivec, Temple
   content: store:/shots/2018-11-24-ministry-of-truth.png
   type: shot
   author: dehero
