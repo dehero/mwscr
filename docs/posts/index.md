@@ -569,7 +569,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-09-13-divine-pentagon&postLocation=)</code> `🚀 OpenMW` `vivec` `pentagon` `tribunal`
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-09-13-divine-pentagon&postLocation=)</code> `🚀 OpenMW` `vivec` `pentagon`
 
 ```
 2024-09-13-divine-pentagon
@@ -674,7 +674,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-09-10-goblin-bruiser&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `goblin` `tribunal`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-09-10-goblin-bruiser&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `goblin`
 
 ```
 2024-09-10-goblin-bruiser
@@ -2302,7 +2302,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-21-verminous-fabricant&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `tribunal`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-07-21-verminous-fabricant&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal`
 
 ```
 2024-07-21-verminous-fabricant
@@ -2651,7 +2651,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Mournhold, Royal Palace: Courtyard` `🚀 OpenMW` `🔗 Tribunal` `night` `tribunal`
+`A2` `📍 Mournhold, Royal Palace: Courtyard` `🚀 OpenMW` `🔗 Tribunal` `night`
 
 ```
 2024-07-10-in-the-courtyard-of-royal-palace
@@ -2990,7 +2990,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-29-lich&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `lich` `tribunal`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-06-29-lich&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `lich`
 
 ```
 2024-06-29-lich
@@ -5120,7 +5120,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Mournhold, Temple Courtyard` `🚀 OpenMW` `🔗 Tribunal` `evening` `tribunal`
+`A2` `📍 Mournhold, Temple Courtyard` `🚀 OpenMW` `🔗 Tribunal` `evening`
 
 ```
 2024-04-23-evening-mournhold
@@ -5354,7 +5354,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-16-birth-of-fabricant&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil` `tribunal`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-04-16-birth-of-fabricant&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal`
 
 ```
 2024-04-16-birth-of-fabricant
@@ -5707,7 +5707,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Sotha Sil, Dome of Serlyn` `🚀 OpenMW` `🔗 Tribunal` `clockworkcity` `tribunal`
+`A2` `📍 Sotha Sil, Dome of Serlyn` `🚀 OpenMW` `🔗 Tribunal`
 
 ```
 2024-04-05-rain-of-sparks

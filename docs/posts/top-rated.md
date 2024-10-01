@@ -97,7 +97,7 @@
 > How about the packrat from mournhold?  
 > [buck-the-cuck](../contributors.md#buck-the-cuck "2017-12-23")
 
-`B1` `📍 Mournhold, Great Bazaar` `🚀 OpenMW` `🔗 Tribunal` `rat` `tribunal`
+`B1` `📍 Mournhold, Great Bazaar` `🚀 OpenMW` `🔗 Tribunal` `rat`
 
 ```
 2017-12-24-little-helper
