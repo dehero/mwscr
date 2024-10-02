@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.20.0](https://github.com/dehero/mwscr/compare/v1.19.0...v1.20.0) (2024-10-02)
+
+### Features
+
+- implement optimized data extractor for site
+  ([9aafc3f](https://github.com/dehero/mwscr/commit/9aafc3fe30a6d02650394165ab02d76dc4ee888f))
+
+### Bug Fixes
+
+- add missing post tags editing
+  ([0fc7d51](https://github.com/dehero/mwscr/commit/0fc7d51d22765a8e804038fb0eb25628e31757ed))
+
 ## [1.19.0](https://github.com/dehero/mwscr/compare/v1.18.1...v1.19.0) (2024-09-30)
 
 ### Features
