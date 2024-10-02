@@ -16,6 +16,7 @@ import type {
 import {
   mergeAuthors,
   mergePostLocations,
+  mergePostTags,
   POST_ADDONS,
   POST_ENGINES,
   POST_MARKS,
@@ -79,6 +80,7 @@ export const PostEditingDialog: Component<PostEditingDialogProps> = (props) => {
 
     setPost({ ...post(), request: !user ? undefined : { user, date, text } });
   };
+  const setPostTags = (tags: string[] | undefined) => setPost({ ...post(), tags });
 
   const setPostAuthor = (index: number, author: string | undefined) => {
     const authors = asArray(post().author);
@@ -222,7 +224,11 @@ export const PostEditingDialog: Component<PostEditingDialogProps> = (props) => {
           </Label>
 
           <Label label="Tags" vertical class={styles.tags}>
-            <Input name="postTags" value={asArray(post().tags).join(' ')} />
+            <Input
+              name="postTags"
+              value={asArray(post().tags).join(' ')}
+              onChange={(value) => setPostTags(mergePostTags(value.split(' ')))}
+            />
           </Label>
         </fieldset>
 
