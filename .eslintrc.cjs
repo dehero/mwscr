@@ -24,6 +24,7 @@ module.exports = configure({
       /* Project preferences */
 
       'import/no-default-export': 'off',
+      'import/no-unresolved': ['error', { ignore: ['^virtual:'] }],
       'no-console': 'off',
       'no-irregular-whitespace': 'off',
       'no-useless-escape': 'off',

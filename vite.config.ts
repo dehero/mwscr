@@ -3,6 +3,7 @@ import vikeSolid from 'vike-solid/vite';
 import { defineConfig } from 'vite';
 import { imagetools } from 'vite-imagetools';
 import multiplePublicDirPlugin from 'vite-multiple-assets';
+import { dataExtractorPlugin } from './src/local/vite-plugins/data-extractor-plugin.js';
 import { importYamlPlugin } from './src/local/vite-plugins/import-yaml-plugin.js';
 
 export default defineConfig(({ isSsrBuild }) => ({
@@ -10,6 +11,7 @@ export default defineConfig(({ isSsrBuild }) => ({
   plugins: [
     imagetools(),
     importYamlPlugin(),
+    dataExtractorPlugin(),
     // TODO: add sitemap after https://github.com/vikejs/vike/issues/1451 gets resolved
     vike({ prerender: true, trailingSlash: true }),
     vikeSolid(),

@@ -1,4 +1,7 @@
 /// <reference types="vite/client" />
+/// <reference types="../core/entities/location-info.js" />
+/// <reference types="../core/entities/post-info.js" />
+/// <reference types="../core/entities/user-info.js" />
 
 declare module '*.lst' {
   export = string;
@@ -17,6 +20,21 @@ declare module '*.yml' {
 declare module '*.json' {
   const value: object;
   export = value;
+}
+
+declare module 'virtual:postInfos*' {
+  const value: PostInfo[];
+  export default value;
+}
+
+declare module 'virtual:locationInfos' {
+  const value: LocationInfo[];
+  export default value;
+}
+
+declare module 'virtual:userInfos' {
+  const value: UserInfo[];
+  export default value;
 }
 
 interface OutputMetadata {

@@ -14,13 +14,13 @@ export abstract class ListReader<TItem> {
   protected loadedChunkNames: string[] | undefined;
   protected chunks: Map<string, ListReaderChunk<TItem>> = new Map();
 
-  protected statsCaches: Record<string, ListReaderStats> = {};
+  protected statsCaches: Record<string, Promise<ListReaderStats>> = {};
 
   protected async createStatsCache(key: string, creator: () => Promise<ListReaderStats>): Promise<ListReaderStats> {
     if (!this.statsCaches[key]) {
-      this.statsCaches[key] = await creator();
+      this.statsCaches[key] = creator();
     }
-    return this.statsCaches[key] as ListReaderStats;
+    return this.statsCaches[key] as Promise<ListReaderStats>;
   }
 
   protected clearStateCaches() {

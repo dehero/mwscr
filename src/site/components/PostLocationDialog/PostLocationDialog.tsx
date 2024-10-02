@@ -6,7 +6,7 @@ import { mergePostLocations, type PostEntry } from '../../../core/entities/post.
 import { createIssueUrl as createLocateIssueUrl } from '../../../core/github-issues/location.js';
 import { email } from '../../../core/services/email.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import { locations } from '../../data-managers/locations.js';
+import { siteDataExtractor } from '../../data-managers/extractor.js';
 import { Button } from '../Button/Button.js';
 import type { DialogProps } from '../Dialog/Dialog.js';
 import { Dialog } from '../Dialog/Dialog.js';
@@ -15,9 +15,9 @@ import { Select } from '../Select/Select.js';
 import styles from './PostLocationDialog.module.css';
 
 async function getLocationOptions(): Promise<Option[]> {
-  return (await locations.getAllEntries())
-    .sort((a, b) => a[1].title.localeCompare(b[1].title))
-    .map((location) => ({ value: location[0], label: location[1].title }));
+  return (await siteDataExtractor.getAllLocationInfos())
+    .sort((a, b) => a.title.localeCompare(b.title))
+    .map((location) => ({ value: location.title, label: location.title }));
 }
 
 export interface PostLocationDialogProps extends Omit<DialogProps, 'title'> {

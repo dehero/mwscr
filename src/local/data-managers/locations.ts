@@ -2,7 +2,7 @@ import type { Location } from '../../core/entities/location.js';
 import { LocationsReader } from '../../core/entities/locations-reader.js';
 import { loadYaml } from './utils/yaml.js';
 
-const LOCATIONS_FILENAME = './data/locations.yml';
+export const LOCATIONS_FILENAME = './data/locations.yml';
 
 class LocalLocationsReader extends LocationsReader {
   protected isItemEqual(a: Location, b: Partial<Location>): boolean {

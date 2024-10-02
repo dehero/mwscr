@@ -22,11 +22,9 @@ import {
   POST_TYPES,
   POST_VIOLATIONS,
 } from '../../../core/entities/post.js';
-import { getUserEntryTitle } from '../../../core/entities/user.js';
 import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/editing.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import { locations } from '../../data-managers/locations.js';
-import { users } from '../../data-managers/users.js';
+import { siteDataExtractor } from '../../data-managers/extractor.js';
 import { Button } from '../Button/Button.js';
 import { DatePicker } from '../DatePicker/DatePicker.jsx';
 import type { DialogProps } from '../Dialog/Dialog.js';
@@ -38,14 +36,17 @@ import { Select } from '../Select/Select.js';
 import styles from './PostEditingDialog.module.css';
 
 async function getLocationOptions(): Promise<Option[]> {
-  return (await locations.getAllEntries())
-    .sort((a, b) => a[1].title.localeCompare(b[1].title))
-    .map((location) => ({ value: location[0], label: location[1].title }));
+  return (await siteDataExtractor.getAllLocationInfos())
+    .map((info) => ({
+      value: info.title,
+      label: info.title,
+    }))
+    .sort((a, b) => a.label.localeCompare(b.label));
 }
 
 async function getUserOptions(): Promise<Option[]> {
-  return (await users.getAllEntries())
-    .map((entry) => ({ value: entry[0], label: getUserEntryTitle(entry) }))
+  return (await siteDataExtractor.getAllUserInfos())
+    .map((info) => ({ label: info.title, value: info.id }))
     .sort((a, b) => a.label.localeCompare(b.label));
 }
 
