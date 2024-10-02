@@ -1005,14 +1005,14 @@
     - service: vk
       id: 1514
       published: 2024-04-30-20-27-56
-      updated: 2024-09-25-10-25-46
+      updated: 2024-10-02-11-02-57
       followers: 911
       likes: 30
       views: 234
     - service: tg
       id: 394
       published: 2024-04-30-20-28-22
-      updated: 2024-09-25-10-25-45
+      updated: 2024-10-02-11-02-56
       followers: 363
       likes: 66
       views: 487
@@ -2518,24 +2518,24 @@
       id: DAl1UhFBlHx
       mediaId: '17899646439059406'
       published: 2024-10-01-18-12-36
-      updated: 2024-10-02-10-08-24
+      updated: 2024-10-02-11-02-54
       followers: 1461
       likes: 69
-      views: 227
+      views: 231
     - service: vk
       id: 1795
       published: 2024-10-01-18-12-42
-      updated: 2024-10-02-10-08-25
+      updated: 2024-10-02-11-02-54
       followers: 957
-      likes: 22
-      views: 133
+      likes: 24
+      views: 140
     - service: tg
       id: 551
       published: 2024-10-01-18-12-49
-      updated: 2024-10-02-10-08-26
+      updated: 2024-10-02-11-02-54
       followers: 557
       likes: 42
-      views: 180
+      views: 181
 2018-03-17-suran-temple:
   title: Suran Temple
   titleRu: Храм в Суране
@@ -2715,17 +2715,17 @@
       id: DAjQQzrI42H
       mediaId: '18022662017591508'
       published: 2024-09-30-18-10-21
-      updated: 2024-10-02-10-08-26
+      updated: 2024-10-02-11-02-56
       followers: 1459
-      likes: 92
-      views: 418
+      likes: 93
+      views: 420
     - service: vk
       id: 1792
       published: 2024-09-30-18-10-27
-      updated: 2024-10-02-10-08-26
+      updated: 2024-10-02-11-02-56
       followers: 957
       likes: 33
-      views: 207
+      views: 208
       reposts: 4
       comments: !c |-
         G/QBIJwHti1pGy5r3lJ4YyHiif1kS/H4WD4oTBBxi83SDFUs0ZTE8q6qbip9jm9nGez4nZgtWI1Q
@@ -2736,7 +2736,7 @@
     - service: tg
       id: 550
       published: 2024-09-30-18-10-33
-      updated: 2024-10-02-10-08-27
+      updated: 2024-10-02-11-02-55
       followers: 558
       likes: 55
       views: 197
