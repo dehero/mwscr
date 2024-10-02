@@ -784,35 +784,6 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_48) | 2017-01-22 |    90 |     4 |         4 |      4 |
 |                                                  |            |    90 |    33 |        57 |  29.36 |
 
-## <span id="2018-04-30-dreughs-arent-afraid-of-rain">Dreughs Aren&#39;t Afraid of Rain</span>
-
-`RU` Дреуги дождя не боятся
-
-<a href="https://instagram.com/p/BiNE68glyMM/" title="2018-04-30-dreughs-arent-afraid-of-rain"><img alt="store:/shots/2018-04-30-dreughs-arent-afraid-of-rain.png" src="../../assets/previews/shots/2018-04-30-dreughs-arent-afraid-of-rain.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2018-04-30-dreughs-arent-afraid-of-rain&postLocation=)</code> `🚀 OpenMW` `dreugh`
-
-```
-2018-04-30-dreughs-arent-afraid-of-rain
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BiNE68glyMM/)       | 2018-04-30 |       |   142 |       324 |  43.83 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_704)  | 2018-04-30 |   253 |    22 |       158 |  13.92 |
-| [`ig`](https://instagram.com/p/DAoZ3xwu-Q3/)       | 2024-10-02 |       |       |      1463 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1796) | 2024-10-02 |       |       |       957 |        |
-| [`tg`](https://t.me/mwscr/552)                     | 2024-10-02 |       |       |       560 |        |
-|                                                    |            |   253 |   164 |       482 |  28.88 |
-
-#### Comments
-
-- `ig` <ins title="2018-05-02-05-24-59">epic_rpgs</ins> Awesome!
-
 ## <span id="2018-01-30-madach-tradehouse">Madach Tradehouse</span>
 
 `RU` Трактир Мадач
@@ -1281,6 +1252,36 @@
 | [`ig`](https://instagram.com/p/Bftd1-lDxuy/)      | 2018-02-27 |       |   111 |       294 |  37.76 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_631) | 2018-02-27 |   189 |    22 |       136 |  16.91 |
 |                                                   |            |   189 |   133 |       430 |  27.33 |
+
+## <span id="2018-06-10-left-side-portraits">Left-Side Portraits</span>
+
+`RU` Левосторонние портреты
+
+<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-05-09-youd-better-do-what-they-say"><img alt="store:/shots/2017-05-09-youd-better-do-what-they-say.png" src="../../assets/previews/shots/2017-05-09-youd-better-do-what-they-say.avif" /></a>
+<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-05-19-queen-mother-in-her-chambers"><img alt="store:/shots/2017-05-19-queen-mother-in-her-chambers.png" src="../../assets/previews/shots/2017-05-19-queen-mother-in-her-chambers.avif" /></a>
+<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-09-20-director-of-corprusarium"><img alt="store:/shots/2017-09-20-director-of-corprusarium.png" src="../../assets/previews/shots/2017-09-20-director-of-corprusarium.avif" /></a>
+<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-10-21-socucius-ergalla"><img alt="store:/shots/2017-10-21-socucius-ergalla.png" src="../../assets/previews/shots/2017-10-21-socucius-ergalla.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+`B1` `🚀 OpenMW` `npc`
+
+```
+2018-06-10-left-side-portraits
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bj2uQ_RlPrt/)      | 2018-06-10 |       |   143 |       341 |  41.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_762) | 2018-06-10 |   247 |    22 |       173 |  12.72 |
+|                                                   |            |   247 |   165 |       514 |  27.33 |
+
+#### Comments
+
+- `ig` <ins title="2018-06-10-19-48-27">defiant_laughter</ins> Divayth Fyr is my favorite mage of all time.
+- `ig` <ins title="2018-06-10-22-50-43">munson_sargassum</ins> Saint Jiub is cool.
 
 ---
 
