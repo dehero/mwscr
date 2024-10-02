@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`218 items`
+`219 items`
+
+## <span id="2024-10-02-dreughs-arent-afraid-of-rain">Dreughs Aren&#39;t Afraid of Rain</span>
+
+`RU` Дреуги дождя не боятся
+
+<a href="https://instagram.com/p/BiNE68glyMM/" title="2018-04-30-dreughs-arent-afraid-of-rain"><img alt="store:/shots/2018-04-30-dreughs-arent-afraid-of-rain.png" src="../../assets/previews/shots/2018-04-30-dreughs-arent-afraid-of-rain.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-02-dreughs-arent-afraid-of-rain&postLocation=)</code> `🚀 OpenMW` `dreugh`
+
+```
+2024-10-02-dreughs-arent-afraid-of-rain
+```
+
+> `2018-04-30-dreughs-arent-afraid-of-rain`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BiNE68glyMM/)       | 2018-04-30 |       |   142 |       324 |  43.83 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_704)  | 2018-04-30 |   253 |    22 |       158 |  13.92 |
+| [`ig`](https://instagram.com/p/DAoZ3xwu-Q3/)       | 2024-10-02 |       |       |      1463 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1796) | 2024-10-02 |       |       |       957 |        |
+| [`tg`](https://t.me/mwscr/552)                     | 2024-10-02 |       |       |       560 |        |
+|                                                    |            |       |       |      2980 |  28.88 |
+
+#### Comments
+
+- `ig` <ins title="2018-05-02-05-24-59">epic_rpgs</ins> Awesome!
 
 ## <span id="2024-10-01-slave-and-slaver">Slave and Slaver</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BgZThh9ByVC/)       | 2018-03-16 |       |    85 |       306 |  27.78 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_652)  | 2018-03-16 |   233 |    21 |       142 |  14.79 |
-| [`ig`](https://instagram.com/p/DAl1UhFBlHx/)       | 2024-10-01 |   276 |    76 |      1461 |    5.2 |
+| [`ig`](https://instagram.com/p/DAl1UhFBlHx/)       | 2024-10-01 |   282 |    76 |      1461 |    5.2 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1795) | 2024-10-01 |   163 |    26 |       957 |   2.72 |
-| [`tg`](https://t.me/mwscr/551)                     | 2024-10-01 |   189 |    45 |       557 |   8.08 |
-|                                                    |            |   628 |   147 |      2975 |  11.71 |
+| [`tg`](https://t.me/mwscr/551)                     | 2024-10-01 |   193 |    46 |       557 |   8.26 |
+|                                                    |            |   638 |   148 |      2975 |  11.75 |
 
 ## <span id="2024-09-30-welcome-to-vivec-scum">Welcome to Vivec, Scum</span>
 
@@ -55,10 +86,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bgopipmj2rz/)       | 2018-03-22 |       |    79 |       308 |  25.65 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_661)  | 2018-03-22 |   196 |    16 |       145 |  11.03 |
-| [`ig`](https://instagram.com/p/DAjQQzrI42H/)       | 2024-09-30 |   436 |    96 |      1459 |   6.58 |
+| [`ig`](https://instagram.com/p/DAjQQzrI42H/)       | 2024-09-30 |   438 |    96 |      1459 |   6.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1792) | 2024-09-30 |   215 |    35 |       957 |   4.08 |
-| [`tg`](https://t.me/mwscr/550)                     | 2024-09-30 |   204 |    56 |       558 |  10.04 |
-|                                                    |            |   855 |   187 |      2974 |  11.47 |
+| [`tg`](https://t.me/mwscr/550)                     | 2024-09-30 |   206 |    56 |       558 |  10.04 |
+|                                                    |            |   859 |   187 |      2974 |  11.47 |
 
 #### Comments
 
@@ -94,10 +125,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BiASJEclecY/)       | 2018-04-25 |       |    97 |       319 |  30.41 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_699)  | 2018-04-25 |   251 |    15 |       156 |   9.62 |
-| [`ig`](https://instagram.com/p/DAgrT69B1Jb/)       | 2024-09-29 |   458 |   103 |      1455 |   7.08 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1790) | 2024-09-29 |   180 |    27 |       957 |   2.82 |
+| [`ig`](https://instagram.com/p/DAgrT69B1Jb/)       | 2024-09-29 |   474 |   107 |      1455 |   7.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1790) | 2024-09-29 |   199 |    29 |       957 |   3.03 |
 | [`tg`](https://t.me/mwscr/549)                     | 2024-09-29 |   331 |    64 |       558 |  11.47 |
-|                                                    |            |   969 |   194 |      2970 |  12.28 |
+|                                                    |            |  1004 |   200 |      2970 |  12.38 |
 
 #### Comments
 
