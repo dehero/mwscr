@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`219 items`
+`220 items`
+
+## <span id="2024-10-03-returning-to-balmora">Returning to Balmora</span>
+
+`RU` Возвращаясь в Балмору
+
+<a href="https://instagram.com/p/BbH-IeWjfVV/" title="2017-11-05-returning-to-balmora"><img alt="store:/shots/2017-11-05-returning-to-balmora.png" src="../../assets/previews/shots/2017-11-05-returning-to-balmora.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Balmora` `🚀 OpenMW` `bridge` `pillar`
+
+```
+2024-10-03-returning-to-balmora
+```
+
+> `2017-11-05-returning-to-balmora`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BbH-IeWjfVV/)       | 2017-11-05 |       |    60 |       233 |  25.75 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_489)  | 2017-11-05 |   175 |    14 |        94 |  14.89 |
+| [`ig`](https://instagram.com/p/DAq-nCYAX4k/)       | 2024-10-03 |       |       |      1463 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1799) | 2024-10-03 |       |       |       958 |        |
+| [`tg`](https://t.me/mwscr/553)                     | 2024-10-03 |       |       |       560 |        |
+|                                                    |            |       |       |      2981 |  20.32 |
 
 ## <span id="2024-10-02-dreughs-arent-afraid-of-rain">Dreughs Aren&#39;t Afraid of Rain</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BiNE68glyMM/)       | 2018-04-30 |       |   142 |       324 |  43.83 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_704)  | 2018-04-30 |   253 |    22 |       158 |  13.92 |
-| [`ig`](https://instagram.com/p/DAoZ3xwu-Q3/)       | 2024-10-02 |   294 |   105 |      1463 |   7.18 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1796) | 2024-10-02 |   174 |    24 |       957 |   2.61 |
-| [`tg`](https://t.me/mwscr/552)                     | 2024-10-02 |   165 |    45 |       560 |   8.04 |
-|                                                    |            |   633 |   174 |      2980 |  15.12 |
+| [`ig`](https://instagram.com/p/DAoZ3xwu-Q3/)       | 2024-10-02 |   301 |   106 |      1463 |   7.25 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1796) | 2024-10-02 |   178 |    25 |       957 |   2.72 |
+| [`tg`](https://t.me/mwscr/552)                     | 2024-10-02 |   166 |    46 |       560 |   8.21 |
+|                                                    |            |   645 |   177 |      2980 |  15.19 |
 
 #### Comments
 
@@ -61,10 +88,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BgZThh9ByVC/)       | 2018-03-16 |       |    85 |       306 |  27.78 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_652)  | 2018-03-16 |   233 |    21 |       142 |  14.79 |
-| [`ig`](https://instagram.com/p/DAl1UhFBlHx/)       | 2024-10-01 |   326 |    84 |      1461 |   5.75 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1795) | 2024-10-01 |   195 |    28 |       957 |   2.93 |
+| [`ig`](https://instagram.com/p/DAl1UhFBlHx/)       | 2024-10-01 |   330 |    85 |      1461 |   5.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1795) | 2024-10-01 |   197 |    28 |       957 |   2.93 |
 | [`tg`](https://t.me/mwscr/551)                     | 2024-10-01 |   256 |    51 |       557 |   9.16 |
-|                                                    |            |   777 |   163 |      2975 |  12.08 |
+|                                                    |            |   783 |   164 |      2975 |  12.09 |
 
 ## <span id="2024-09-30-welcome-to-vivec-scum">Welcome to Vivec, Scum</span>
 
