@@ -409,17 +409,17 @@
       id: C_08UV1TwXj
       mediaId: '17862134871229280'
       published: 2024-09-12-18-30-57
-      updated: 2024-09-26-21-02-05
+      updated: 2024-10-03-21-04-30
       followers: 1456
       likes: 90
-      views: 372
+      views: 374
     - service: vk
       id: 1753
       published: 2024-09-12-18-31-04
-      updated: 2024-09-26-21-02-07
+      updated: 2024-10-03-21-04-29
       followers: 945
       likes: 38
-      views: 263
+      views: 274
       reposts: 1
       comments: !c |-
         G68A+J0HdiwYYWY9Oo+Inq/bEX6QAwopg6BJMMJkH1lQbiuhLjSr8Rw/eOZQdVsJpnJBxFdz2i9H
@@ -428,10 +428,10 @@
     - service: tg
       id: 530
       published: 2024-09-12-18-31-10
-      updated: 2024-09-26-21-02-06
+      updated: 2024-10-03-21-04-28
       followers: 555
       likes: 61
-      views: 422
+      views: 445
       comments: !c |-
         G2sAOIzUWa03lyNU+v/dPKLet8DKxxK83ZwWphNwEgdUuf7DBpwgBJhrtOAhIqWwqvVZ9s8YlcGe
         EXpd3PAUN1zXBzk0AsIamiCst/PwT+jEWR3WvxY2quDAMGdVSCEfqHDB4R4t8qrJwoaDBg==
@@ -7524,10 +7524,10 @@
       id: C_WCUPgv_cL
       mediaId: '17874398826151059'
       published: 2024-08-31-18-26-54
-      updated: 2024-09-26-20-08-30
+      updated: 2024-10-03-21-04-31
       followers: 1455
       likes: 91
-      views: 454
+      views: 455
     - service: vk
       id: 1729
       published: 2024-08-31-18-27-02
@@ -10362,24 +10362,24 @@
       id: DAq-nCYAX4k
       mediaId: '17877288921156729'
       published: 2024-10-03-18-10-02
-      updated: 2024-10-03-20-08-11
+      updated: 2024-10-03-21-04-27
       followers: 1463
-      likes: 44
-      views: 95
+      likes: 52
+      views: 126
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2024-10-03-20-08-12
+      updated: 2024-10-03-21-04-26
       followers: 958
-      likes: 16
-      views: 58
+      likes: 19
+      views: 76
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2024-10-03-20-08-12
+      updated: 2024-10-03-21-04-27
       followers: 560
-      likes: 37
-      views: 87
+      likes: 39
+      views: 97
 2017-11-06-shore-shroom:
   title: Shore Shroom
   titleRu: Прибрежный гриб
