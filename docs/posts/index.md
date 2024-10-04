@@ -4,7 +4,41 @@
 
 # Posted in 2024
 
-`220 items`
+`221 items`
+
+## <span id="2024-10-04-grytewake">Grytewake</span>
+
+`RU` Гритвейк
+
+<a href="https://instagram.com/p/DAtjo7QINud/" title="2024-10-04-grytewake"><img alt="store:/shots/2024-10-04-grytewake.png" src="../../assets/previews/shots/2024-10-04-grytewake.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2024-09-21-11-43-58.png](../../assets/previews/trash/dehero.2024-09-21-11-43-58.avif "dehero.2024-09-21-11-43-58")
+![store:/trash/dehero.2024-09-21-11-43-58.1.png](../../assets/previews/trash/dehero.2024-09-21-11-43-58.1.avif "dehero.2024-09-21-11-43-58.1")
+![store:/trash/dehero.2024-09-21-11-41-32.png](../../assets/previews/trash/dehero.2024-09-21-11-41-32.avif "dehero.2024-09-21-11-41-32")
+![store:/trash/dehero.2024-09-21-11-44-12.png](../../assets/previews/trash/dehero.2024-09-21-11-44-12.avif "dehero.2024-09-21-11-44-12")
+![store:/trash/dehero.2024-09-21-11-42-21.png](../../assets/previews/trash/dehero.2024-09-21-11-42-21.avif "dehero.2024-09-21-11-42-21")
+![store:/trash/dehero.2024-09-21-11-43-53.png](../../assets/previews/trash/dehero.2024-09-21-11-43-53.avif "dehero.2024-09-21-11-43-53")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Grytewake` `📍 Bitter Coast Region` `🚀 OpenMW` `ship` `lantern`
+
+```
+2024-10-04-grytewake
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DAtjo7QINud/)       | 2024-10-04 |      1463 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1802) | 2024-10-04 |       958 |
+| [`tg`](https://t.me/mwscr/554)                     | 2024-10-04 |       559 |
+|                                                    |            |      2980 |
 
 ## <span id="2024-10-03-returning-to-balmora">Returning to Balmora</span>
 
@@ -28,10 +62,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbH-IeWjfVV/)       | 2017-11-05 |       |    60 |       233 |  25.75 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_489)  | 2017-11-05 |   175 |    14 |        94 |  14.89 |
-| [`ig`](https://instagram.com/p/DAq-nCYAX4k/)       | 2024-10-03 |   274 |    87 |      1463 |   5.95 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1799) | 2024-10-03 |   160 |    33 |       958 |   3.44 |
+| [`ig`](https://instagram.com/p/DAq-nCYAX4k/)       | 2024-10-03 |   280 |    88 |      1463 |   6.02 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1799) | 2024-10-03 |   161 |    34 |       958 |   3.55 |
 | [`tg`](https://t.me/mwscr/553)                     | 2024-10-03 |   145 |    47 |       560 |   8.39 |
-|                                                    |            |   579 |   167 |      2981 |  11.69 |
+|                                                    |            |   586 |   169 |      2981 |  11.72 |
 
 #### Comments
 
@@ -92,10 +126,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BgZThh9ByVC/)       | 2018-03-16 |       |    85 |       306 |  27.78 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_652)  | 2018-03-16 |   233 |    21 |       142 |  14.79 |
-| [`ig`](https://instagram.com/p/DAl1UhFBlHx/)       | 2024-10-01 |   330 |    85 |      1461 |   5.82 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1795) | 2024-10-01 |   197 |    28 |       957 |   2.93 |
-| [`tg`](https://t.me/mwscr/551)                     | 2024-10-01 |   256 |    51 |       557 |   9.16 |
-|                                                    |            |   783 |   164 |      2975 |  12.09 |
+| [`ig`](https://instagram.com/p/DAl1UhFBlHx/)       | 2024-10-01 |   345 |    89 |      1461 |   6.09 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1795) | 2024-10-01 |   222 |    30 |       957 |   3.13 |
+| [`tg`](https://t.me/mwscr/551)                     | 2024-10-01 |   283 |    52 |       557 |   9.34 |
+|                                                    |            |   850 |   171 |      2975 |  12.23 |
 
 ## <span id="2024-09-30-welcome-to-vivec-scum">Welcome to Vivec, Scum</span>
 
