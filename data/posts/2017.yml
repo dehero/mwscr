@@ -1859,18 +1859,18 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2024-09-27-00-35-17
+      updated: 2024-10-04-02-10-52
       followers: 919
       likes: 32
-      views: 262
+      views: 264
       reposts: 1
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2024-09-27-00-35-16
+      updated: 2024-10-04-02-10-51
       followers: 391
       likes: 57
-      views: 559
+      views: 563
     - service: ig
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
@@ -2723,18 +2723,18 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2024-09-27-00-35-18
+      updated: 2024-10-04-02-10-53
       followers: 919
       likes: 48
-      views: 322
+      views: 324
       reposts: 3
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2024-09-27-00-35-17
+      updated: 2024-10-04-02-10-52
       followers: 387
       likes: 65
-      views: 475
+      views: 479
       comments: !c |-
         iySAkZPLQnkECYQ5gACrQmVybXVkYV84MTLZMdCt0YLQviDQstGL0LPQu9GP0LTQuNGCINGC0LDQ
         uiDQv9GA0LXQutGA0LDRgdC90L4D
@@ -3911,17 +3911,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-09-27-00-35-16
+      updated: 2024-10-04-02-10-51
       followers: 920
       likes: 40
-      views: 251
+      views: 253
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-09-27-00-35-15
+      updated: 2024-10-04-02-10-49
       followers: 397
       likes: 61
-      views: 484
+      views: 489
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
@@ -10362,24 +10362,24 @@
       id: DAq-nCYAX4k
       mediaId: '17877288921156729'
       published: 2024-10-03-18-10-02
-      updated: 2024-10-04-00-35-15
+      updated: 2024-10-04-02-10-46
       followers: 1463
-      likes: 69
-      views: 175
+      likes: 76
+      views: 188
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2024-10-04-00-35-16
+      updated: 2024-10-04-02-10-47
       followers: 958
       likes: 19
-      views: 89
+      views: 93
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2024-10-04-00-35-16
+      updated: 2024-10-04-02-10-47
       followers: 560
-      likes: 40
-      views: 112
+      likes: 41
+      views: 114
 2017-11-06-shore-shroom:
   title: Shore Shroom
   titleRu: Прибрежный гриб

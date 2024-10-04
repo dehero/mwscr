@@ -421,10 +421,10 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2024-09-27-00-35-15
+      updated: 2024-10-04-02-10-50
       followers: 921
       likes: 44
-      views: 286
+      views: 288
       reposts: 2
     - service: tg
       id: 480
@@ -4036,17 +4036,17 @@
       id: DAoZ3xwu-Q3
       mediaId: '17844621138321992'
       published: 2024-10-02-18-10-28
-      updated: 2024-10-04-00-35-16
+      updated: 2024-10-04-02-10-47
       followers: 1463
       likes: 110
       views: 315
     - service: vk
       id: 1796
       published: 2024-10-02-18-10-34
-      updated: 2024-10-04-00-35-18
+      updated: 2024-10-04-02-10-48
       followers: 957
       likes: 26
-      views: 186
+      views: 187
       reposts: 1
       comments: !c |-
         G58A+B0HzvksjiT2HrnYIoRuT7iXLLUksUCSEivC5EbW1E3UH1MTzCJbi5Z2gf5qbNC0Jsk7Zwcb
@@ -4055,10 +4055,10 @@
     - service: tg
       id: 552
       published: 2024-10-02-18-10-41
-      updated: 2024-10-04-00-35-17
+      updated: 2024-10-04-02-10-48
       followers: 560
       likes: 54
-      views: 202
+      views: 203
 2018-05-01-view-of-bthanchend:
   title: View of Bthanchend
   titleRu: Вид на Бтанченд
@@ -6855,10 +6855,10 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2024-09-27-02-10-38
+      updated: 2024-10-04-02-10-49
       followers: 402
       likes: 59
-      views: 668
+      views: 673
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
