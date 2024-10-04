@@ -3,13 +3,20 @@ dehero.2024-02-05-00-02-12:
   type: shot
   author: dehero
 dehero.2024-02-05-00-07-46:
+  title: Scamp Before the Throw
+  titleRu: Скамп перед броском
   location: Beran Ancestral Tomb
-  content:
-    - store:/inbox/dehero.2024-02-05-00-07-46.png
+  content: store:/inbox/dehero.2024-02-05-00-07-46.1.png
+  trash:
     - store:/inbox/dehero.2024-02-05-00-07-39.png
-    - store:/inbox/dehero.2024-02-05-00-07-46.1.png
+    - store:/inbox/dehero.2024-02-05-00-07-46.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - scamp
+    - shrine
+  mark: B2
 dehero.2024-02-17-10-41-10:
   content:
     - store:/inbox/dehero.2024-02-17-10-41-10.png
