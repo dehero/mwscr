@@ -10362,24 +10362,30 @@
       id: DAq-nCYAX4k
       mediaId: '17877288921156729'
       published: 2024-10-03-18-10-02
-      updated: 2024-10-04-08-10-26
+      updated: 2024-10-04-09-08-20
       followers: 1463
-      likes: 82
-      views: 218
+      likes: 83
+      views: 226
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2024-10-04-08-10-27
+      updated: 2024-10-04-09-08-20
       followers: 958
       likes: 27
-      views: 125
+      views: 132
+      comments: !c |-
+        G4oB4C0ObFvC1rDp3eCN6HOZ0fNjMlP8deBkwhQXo9EUxRJN0XKvCp+/DUqopnRDht/5durmcjen
+        baJwFOUtmgoleaVEZssjDsj/HjpPJEuLolAjmdBwBgPnWDN1eTgObvhT78/P7inH6fv8uG7Htt2P
+        /T9fvo8LDCaRX2FYyFhKDYuaNBR9LSYKpNFOkdvsaCi2zhMQ86aHYlj9l82B3Zhl4Zp9dYO5rQ4M
+        wPSsCVlPKhBFG3JNPMUcf3VlLbGoksbKE9xEhIv2AiJm1Aw4yBpoGh4L6VCqYzsYD+Uc40HBY61A
+        kX8V1As=
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2024-10-04-08-10-27
+      updated: 2024-10-04-09-08-20
       followers: 560
       likes: 46
-      views: 133
+      views: 135
 2017-11-06-shore-shroom:
   title: Shore Shroom
   titleRu: Прибрежный гриб
