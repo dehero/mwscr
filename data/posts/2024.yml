@@ -2270,20 +2270,20 @@
     - service: vk
       id: 1581
       published: 2024-06-14-18-20-42
-      updated: 2024-09-28-05-07-20
+      updated: 2024-10-05-06-09-22
       followers: 915
       likes: 40
-      views: 290
+      views: 291
       comments: !c |-
         CyGAkZPLQnkCafcfAACtY2x1YjEyODU3NDk4N9ko0KHQutC+0YDQtdC1LCDQv9GA0L7RgdGC0L4g
         0LTQvtGF0LvRi9C5KQM=
     - service: tg
       id: 439
       published: 2024-06-14-18-20-48
-      updated: 2024-09-28-05-07-20
+      updated: 2024-10-05-06-09-21
       followers: 386
       likes: 61
-      views: 498
+      views: 501
       comments: !c |-
         G9cAAIzEdGOPPIh6Imo0/+f6G0FbgpbtDcujLotuBxRtGRgJdHR0b2LTyZHe9CaXb+fAAw008dK5
         lUpo+cDYqJAIDaNGNzdDybbiO8TniJLIth4Gg6/UgE5xE4BdJpf1024xEZGmGtjhFti3pRS4WMKt
@@ -2638,22 +2638,22 @@
       id: DAtjo7QINud
       mediaId: '18067681996615727'
       published: 2024-10-04-18-12-04
-      updated: 2024-10-05-05-06-56
+      updated: 2024-10-05-06-09-20
       followers: 1463
-      likes: 80
-      views: 251
+      likes: 81
+      views: 263
     - service: vk
       id: 1802
       published: 2024-10-04-18-12-10
-      updated: 2024-10-05-05-06-56
+      updated: 2024-10-05-06-09-20
       followers: 958
-      likes: 23
-      views: 120
+      likes: 25
+      views: 128
       reposts: 2
     - service: tg
       id: 554
       published: 2024-10-04-18-12-16
-      updated: 2024-10-05-05-06-57
+      updated: 2024-10-05-06-09-20
       followers: 559
-      likes: 32
-      views: 112
+      likes: 35
+      views: 119
