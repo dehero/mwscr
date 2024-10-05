@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`3 items`
+`2 items`
 
 ## <span id="irina-bystritskaya.2022-06-25-drawing-002">Mzahnch</span>
 
@@ -19,27 +19,6 @@
 
 ```
 irina-bystritskaya.2022-06-25-drawing-002
-```
-
-## <span id="dehero.2024-02-05-00-07-46">Scamp Before the Throw</span>
-
-`RU` Скамп перед броском
-
-![store:/inbox/dehero.2024-02-05-00-07-46.1.png](../../assets/previews/inbox/dehero.2024-02-05-00-07-46.1.avif "dehero.2024-02-05-00-07-46.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2024-02-05-00-07-39.png](../../assets/previews/inbox/dehero.2024-02-05-00-07-39.avif "dehero.2024-02-05-00-07-39")
-![store:/inbox/dehero.2024-02-05-00-07-46.png](../../assets/previews/inbox/dehero.2024-02-05-00-07-46.avif "dehero.2024-02-05-00-07-46")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-05-00-07-46&amp;postContent=store%3A%2Finbox%2Fdehero.2024-02-05-00-07-46.1.png&amp;postTitle=Scamp+Before+the+Throw&amp;postTitleRu=%D0%A1%D0%BA%D0%B0%D0%BC%D0%BF+%D0%BF%D0%B5%D1%80%D0%B5%D0%B4+%D0%B1%D1%80%D0%BE%D1%81%D0%BA%D0%BE%D0%BC&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=scamp+shrine&amp;postLocation=Beran+Ancestral+Tomb&amp;postMark=B2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-02-05-00-07-39.png%0Astore%3A%2Finbox%2Fdehero.2024-02-05-00-07-46.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-05-00-07-46&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-05-00-07-46&amp;mergeWithIds=) `B2` `📍 Beran Ancestral Tomb` `🚀 OpenMW` `scamp` `shrine`
-
-```
-dehero.2024-02-05-00-07-46
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>

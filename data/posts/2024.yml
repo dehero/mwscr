@@ -2638,17 +2638,17 @@
       id: DAtjo7QINud
       mediaId: '18067681996615727'
       published: 2024-10-04-18-12-04
-      updated: 2024-10-05-17-00-58
+      updated: 2024-10-05-18-08-15
       followers: 1463
       likes: 97
-      views: 344
+      views: 352
     - service: vk
       id: 1802
       published: 2024-10-04-18-12-10
-      updated: 2024-10-05-17-00-59
+      updated: 2024-10-05-18-08-15
       followers: 958
-      likes: 35
-      views: 189
+      likes: 36
+      views: 193
       reposts: 2
       comments: !c |-
         G8UAwB0HzrkrxiCUe/YWFXEjfcNEQ2wCCyjxZA80dZshR1OzmffLENw/37a3XKd1WklRIkTHp3qF
@@ -2657,7 +2657,34 @@
     - service: tg
       id: 554
       published: 2024-10-04-18-12-16
-      updated: 2024-10-05-17-00-59
+      updated: 2024-10-05-18-08-15
       followers: 559
       likes: 46
-      views: 142
+      views: 143
+2024-10-05-scamp-before-the-throw:
+  title: Scamp Before the Throw
+  titleRu: Скамп перед броском
+  location: Beran Ancestral Tomb
+  content: store:/shots/2024-10-05-scamp-before-the-throw.png
+  trash: store:/trash/dehero.2024-02-05-00-07-39.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - scamp
+    - shrine
+  mark: B2
+  posts:
+    - service: ig
+      id: DAwIDljtUSV
+      mediaId: '18034276373189742'
+      published: 2024-10-05-18-08-43
+      followers: 1463
+    - service: vk
+      id: 1810
+      published: 2024-10-05-18-08-49
+      followers: 958
+    - service: tg
+      id: 555
+      published: 2024-10-05-18-08-56
+      followers: 559

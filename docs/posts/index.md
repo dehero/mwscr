@@ -4,7 +4,36 @@
 
 # Posted in 2024
 
-`221 items`
+`222 items`
+
+## <span id="2024-10-05-scamp-before-the-throw">Scamp Before the Throw</span>
+
+`RU` Скамп перед броском
+
+<a href="https://instagram.com/p/DAwIDljtUSV/" title="2024-10-05-scamp-before-the-throw"><img alt="store:/shots/2024-10-05-scamp-before-the-throw.png" src="../../assets/previews/shots/2024-10-05-scamp-before-the-throw.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2024-02-05-00-07-39.png](../../assets/previews/trash/dehero.2024-02-05-00-07-39.avif "dehero.2024-02-05-00-07-39")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` `📍 Beran Ancestral Tomb` `🚀 OpenMW` `scamp` `shrine`
+
+```
+2024-10-05-scamp-before-the-throw
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DAwIDljtUSV/)       | 2024-10-05 |      1463 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1810) | 2024-10-05 |       958 |
+| [`tg`](https://t.me/mwscr/555)                     | 2024-10-05 |       559 |
+|                                                    |            |      2980 |
 
 ## <span id="2024-10-04-grytewake">Grytewake</span>
 
@@ -35,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAtjo7QINud/)       | 2024-10-04 |   344 |    97 |      1463 |   6.63 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1802) | 2024-10-04 |   189 |    35 |       958 |   3.86 |
-| [`tg`](https://t.me/mwscr/554)                     | 2024-10-04 |   142 |    46 |       559 |   8.23 |
-|                                                    |            |   675 |   178 |      2980 |   6.24 |
+| [`ig`](https://instagram.com/p/DAtjo7QINud/)       | 2024-10-04 |   352 |    97 |      1463 |   6.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1802) | 2024-10-04 |   193 |    36 |       958 |   3.97 |
+| [`tg`](https://t.me/mwscr/554)                     | 2024-10-04 |   143 |    46 |       559 |   8.23 |
+|                                                    |            |   688 |   179 |      2980 |   6.28 |
 
 #### Comments
 
@@ -66,10 +95,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbH-IeWjfVV/)       | 2017-11-05 |       |    60 |       233 |  25.75 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_489)  | 2017-11-05 |   175 |    14 |        94 |  14.89 |
-| [`ig`](https://instagram.com/p/DAq-nCYAX4k/)       | 2024-10-03 |   329 |    97 |      1463 |   6.63 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1799) | 2024-10-03 |   178 |    35 |       958 |   3.65 |
-| [`tg`](https://t.me/mwscr/553)                     | 2024-10-03 |   195 |    56 |       560 |     10 |
-|                                                    |            |   702 |   188 |      2981 |  12.19 |
+| [`ig`](https://instagram.com/p/DAq-nCYAX4k/)       | 2024-10-03 |   331 |    97 |      1463 |   6.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1799) | 2024-10-03 |   179 |    35 |       958 |   3.65 |
+| [`tg`](https://t.me/mwscr/553)                     | 2024-10-03 |   196 |    56 |       560 |     10 |
+|                                                    |            |   706 |   188 |      2981 |  12.19 |
 
 #### Comments
 
@@ -98,10 +127,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BiNE68glyMM/)       | 2018-04-30 |       |   142 |       324 |  43.83 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_704)  | 2018-04-30 |   253 |    22 |       158 |  13.92 |
-| [`ig`](https://instagram.com/p/DAoZ3xwu-Q3/)       | 2024-10-02 |   329 |   114 |      1463 |   7.79 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1796) | 2024-10-02 |   202 |    28 |       957 |   3.03 |
-| [`tg`](https://t.me/mwscr/552)                     | 2024-10-02 |   216 |    55 |       560 |   9.82 |
-|                                                    |            |   747 |   197 |      2980 |  15.68 |
+| [`ig`](https://instagram.com/p/DAoZ3xwu-Q3/)       | 2024-10-02 |   358 |   117 |      1463 |      8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1796) | 2024-10-02 |   215 |    30 |       957 |   3.24 |
+| [`tg`](https://t.me/mwscr/552)                     | 2024-10-02 |   235 |    59 |       560 |  10.54 |
+|                                                    |            |   808 |   206 |      2980 |   15.9 |
 
 #### Comments
 
@@ -199,8 +228,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_699)  | 2018-04-25 |   251 |    15 |       156 |   9.62 |
 | [`ig`](https://instagram.com/p/DAgrT69B1Jb/)       | 2024-09-29 |   490 |   109 |      1455 |   7.49 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1790) | 2024-09-29 |   220 |    34 |       957 |   3.55 |
-| [`tg`](https://t.me/mwscr/549)                     | 2024-09-29 |   410 |    69 |       558 |  12.37 |
-|                                                    |            |  1120 |   212 |      2970 |  12.69 |
+| [`tg`](https://t.me/mwscr/549)                     | 2024-09-29 |   425 |    69 |       558 |  12.37 |
+|                                                    |            |  1135 |   212 |      2970 |  12.69 |
 
 #### Comments
 
