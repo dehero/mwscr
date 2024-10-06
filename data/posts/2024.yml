@@ -129,7 +129,7 @@
     - service: vk
       id: 1433
       published: 2024-03-02-18-18-15
-      updated: 2024-09-29-18-08-44
+      updated: 2024-10-06-19-01-23
       followers: 895
       likes: 32
       views: 285
@@ -137,10 +137,10 @@
     - service: tg
       id: 333
       published: 2024-03-02-18-18-22
-      updated: 2024-09-29-18-08-44
+      updated: 2024-10-06-19-01-23
       followers: 340
       likes: 71
-      views: 554
+      views: 556
 2024-03-03-exit: 2018-02-28-exit
 2024-03-04-an-old-sprout:
   title: An Old Sprout
@@ -2679,22 +2679,22 @@
       id: DAwIDljtUSV
       mediaId: '18034276373189742'
       published: 2024-10-05-18-08-43
-      updated: 2024-10-06-18-08-41
+      updated: 2024-10-06-19-01-22
       followers: 1463
-      likes: 76
-      views: 348
+      likes: 77
+      views: 355
     - service: vk
       id: 1810
       published: 2024-10-05-18-08-49
-      updated: 2024-10-06-18-08-41
+      updated: 2024-10-06-19-01-21
       followers: 958
       likes: 22
-      views: 160
+      views: 162
     - service: tg
       id: 555
       published: 2024-10-05-18-08-56
-      updated: 2024-10-06-18-08-42
+      updated: 2024-10-06-19-01-22
       followers: 559
-      likes: 47
-      views: 164
+      likes: 48
+      views: 186
 2024-10-06-far-friends: 2016-12-31-far-friends

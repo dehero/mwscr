@@ -762,30 +762,6 @@
 
 - `vk` <ins title="2018-03-04-18-11-44">vladms</ins> За городом обитает много монстров.
 
-## <span id="2016-12-31-far-friends">Far Friends</span>
-
-`RU` Далёкие друзья
-
-<a href="https://instagram.com/p/BOrG8_wFMv4/" title="2016-12-31-far-friends"><img alt="store:/shots/2016-12-31-far-friends.png" src="../../assets/previews/shots/2016-12-31-far-friends.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2016-12-31-far-friends&postLocation=)</code> `🚀 OpenMW` `night`
-
-```
-2016-12-31-far-friends
-```
-
-### Reactions
-
-|                                                  | published  | views | likes | followers | rating |
-|--------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BOrG8_wFMv4/)     | 2016-12-31 |       |    29 |        53 |  54.72 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_48) | 2017-01-22 |    90 |     4 |         4 |      4 |
-| [`ig`](https://instagram.com/p/DAys4YOh7OF/)     | 2024-10-06 |       |       |      1464 |        |
-| [`tg`](https://t.me/mwscr/556)                   | 2024-10-06 |       |       |       559 |        |
-|                                                  |            |    90 |    33 |        57 |  29.36 |
-
 ## <span id="2018-01-30-madach-tradehouse">Madach Tradehouse</span>
 
 `RU` Трактир Мадач
@@ -1284,6 +1260,32 @@
 
 - `ig` <ins title="2018-06-10-19-48-27">defiant_laughter</ins> Divayth Fyr is my favorite mage of all time.
 - `ig` <ins title="2018-06-10-22-50-43">munson_sargassum</ins> Saint Jiub is cool.
+
+## <span id="2017-02-15-sailboat-in-coastal-waters">Sailboat in Coastal Waters</span>
+
+`RU` Парусная шлюпка в прибрежных водах
+
+<a href="https://instagram.com/p/BQhm_52Fe2v/" title="2017-02-15-sailboat-in-coastal-waters"><img alt="store:/shots/2017-02-15-sailboat-in-coastal-waters.png" src="../../assets/previews/shots/2017-02-15-sailboat-in-coastal-waters.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2017-02-15-sailboat-in-coastal-waters&postLocation=)</code> `🚀 OpenMW`
+
+```
+2017-02-15-sailboat-in-coastal-waters
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BQhm_52Fe2v/)      | 2017-02-15 |       |    36 |        83 |  43.37 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_152) | 2017-02-15 |   152 |    11 |        36 |     11 |
+|                                                   |            |   152 |    47 |       119 |  27.19 |
+
+#### Comments
+
+- `vk` <ins title="2017-02-15-23-05-10">id227500203</ins> Вода^_^
 
 ---
 
