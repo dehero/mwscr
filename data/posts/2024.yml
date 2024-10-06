@@ -1507,17 +1507,17 @@
     - service: vk
       id: 1518
       published: 2024-05-04-18-17-19
-      updated: 2024-09-29-08-10-00
+      updated: 2024-10-06-09-07-43
       followers: 912
       likes: 25
-      views: 264
+      views: 265
     - service: tg
       id: 398
       published: 2024-05-04-18-17-25
-      updated: 2024-09-29-08-10-00
+      updated: 2024-10-06-09-07-43
       followers: 367
       likes: 59
-      views: 482
+      views: 484
 2024-05-05-dinner-for-four:
   title: Dinner for Four
   titleRu: Обед на четверых
@@ -2638,17 +2638,17 @@
       id: DAtjo7QINud
       mediaId: '18067681996615727'
       published: 2024-10-04-18-12-04
-      updated: 2024-10-06-08-09-01
+      updated: 2024-10-06-09-07-43
       followers: 1463
-      likes: 107
-      views: 391
+      likes: 108
+      views: 393
     - service: vk
       id: 1802
       published: 2024-10-04-18-12-10
-      updated: 2024-10-06-08-09-02
+      updated: 2024-10-06-09-07-41
       followers: 958
       likes: 40
-      views: 214
+      views: 217
       reposts: 2
       comments: !c |-
         G8UAwB0HzrkrxiCUe/YWFXEjfcNEQ2wCCyjxZA80dZshR1OzmffLENw/37a3XKd1WklRIkTHp3qF
@@ -2657,10 +2657,10 @@
     - service: tg
       id: 554
       published: 2024-10-04-18-12-16
-      updated: 2024-10-06-08-09-02
+      updated: 2024-10-06-09-07-41
       followers: 559
-      likes: 55
-      views: 188
+      likes: 56
+      views: 191
 2024-10-05-scamp-before-the-throw:
   title: Scamp Before the Throw
   titleRu: Скамп перед броском
@@ -2679,21 +2679,21 @@
       id: DAwIDljtUSV
       mediaId: '18034276373189742'
       published: 2024-10-05-18-08-43
-      updated: 2024-10-06-08-09-01
+      updated: 2024-10-06-09-07-42
       followers: 1463
-      likes: 63
-      views: 257
+      likes: 67
+      views: 269
     - service: vk
       id: 1810
       published: 2024-10-05-18-08-49
-      updated: 2024-10-06-08-09-01
+      updated: 2024-10-06-09-07-40
       followers: 958
       likes: 19
-      views: 133
+      views: 136
     - service: tg
       id: 555
       published: 2024-10-05-18-08-56
-      updated: 2024-10-06-08-09-02
+      updated: 2024-10-06-09-07-40
       followers: 559
-      likes: 39
-      views: 137
+      likes: 40
+      views: 143
