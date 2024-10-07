@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`223 items`
+`224 items`
+
+## <span id="2024-10-07-entering-gnisis-from-the-north">Entering Gnisis from the North</span>
+
+`RU` Въезжая в Гнисис с севера
+
+<a href="https://instagram.com/p/BP4US2plXJf/" title="2017-01-30-entering-gnisis-from-the-north"><img alt="store:/shots/2017-01-30-entering-gnisis-from-the-north.png" src="../../assets/previews/shots/2017-01-30-entering-gnisis-from-the-north.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Gnisis` `🚀 OpenMW`
+
+```
+2024-10-07-entering-gnisis-from-the-north
+```
+
+> `2017-01-30-entering-gnisis-from-the-north`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BP4US2plXJf/)       | 2017-01-30 |       |    25 |        82 |  30.49 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_111)  | 2017-01-30 |   141 |     6 |        23 |      6 |
+| [`ig`](https://instagram.com/p/DA1R2paspx_/)       | 2024-10-07 |       |       |      1462 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1814) | 2024-10-07 |       |       |       958 |        |
+| [`tg`](https://t.me/mwscr/557)                     | 2024-10-07 |       |       |       559 |        |
+|                                                    |            |       |       |      2979 |  18.24 |
 
 ## <span id="2024-10-06-far-friends">Far Friends</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOrG8_wFMv4/)       | 2016-12-31 |       |    29 |        53 |  54.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_48)   | 2017-01-22 |    90 |     4 |         4 |      4 |
-| [`ig`](https://instagram.com/p/DAys4YOh7OF/)       | 2024-10-06 |   588 |   101 |      1464 |    6.9 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1812) | 2024-10-06 |   196 |    45 |       958 |    4.8 |
-| [`tg`](https://t.me/mwscr/556)                     | 2024-10-06 |   158 |    44 |       559 |   7.87 |
-|                                                    |            |   942 |   190 |      2981 |  15.66 |
+| [`ig`](https://instagram.com/p/DAys4YOh7OF/)       | 2024-10-06 |   605 |   106 |      1464 |   7.24 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1812) | 2024-10-06 |   199 |    45 |       958 |    4.8 |
+| [`tg`](https://t.me/mwscr/556)                     | 2024-10-06 |   160 |    44 |       559 |   7.87 |
+|                                                    |            |   964 |   195 |      2981 |  15.73 |
 
 ## <span id="2024-10-05-scamp-before-the-throw">Scamp Before the Throw</span>
 
@@ -91,10 +118,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAtjo7QINud/)       | 2024-10-04 |   421 |   116 |      1463 |   7.93 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1802) | 2024-10-04 |   234 |    44 |       958 |    4.8 |
-| [`tg`](https://t.me/mwscr/554)                     | 2024-10-04 |   200 |    57 |       559 |   10.2 |
-|                                                    |            |   855 |   217 |      2980 |   7.64 |
+| [`ig`](https://instagram.com/p/DAtjo7QINud/)       | 2024-10-04 |   444 |   119 |      1463 |   8.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1802) | 2024-10-04 |   249 |    47 |       958 |   5.11 |
+| [`tg`](https://t.me/mwscr/554)                     | 2024-10-04 |   229 |    58 |       559 |  10.38 |
+|                                                    |            |   922 |   224 |      2980 |   7.87 |
 
 #### Comments
 
@@ -122,10 +149,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbH-IeWjfVV/)       | 2017-11-05 |       |    60 |       233 |  25.75 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_489)  | 2017-11-05 |   175 |    14 |        94 |  14.89 |
-| [`ig`](https://instagram.com/p/DAq-nCYAX4k/)       | 2024-10-03 |   344 |    99 |      1463 |   6.77 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1799) | 2024-10-03 |   197 |    38 |       958 |   3.97 |
-| [`tg`](https://t.me/mwscr/553)                     | 2024-10-03 |   218 |    58 |       560 |  10.36 |
-|                                                    |            |   759 |   195 |      2981 |  12.35 |
+| [`ig`](https://instagram.com/p/DAq-nCYAX4k/)       | 2024-10-03 |   357 |   103 |      1463 |   7.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1799) | 2024-10-03 |   203 |    39 |       958 |   4.07 |
+| [`tg`](https://t.me/mwscr/553)                     | 2024-10-03 |   258 |    59 |       560 |  10.54 |
+|                                                    |            |   818 |   201 |      2981 |  12.46 |
 
 #### Comments
 
@@ -155,10 +182,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BiNE68glyMM/)       | 2018-04-30 |       |   142 |       324 |  43.83 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_704)  | 2018-04-30 |   253 |    22 |       158 |  13.92 |
-| [`ig`](https://instagram.com/p/DAoZ3xwu-Q3/)       | 2024-10-02 |   378 |   117 |      1463 |      8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1796) | 2024-10-02 |   227 |    31 |       957 |   3.34 |
-| [`tg`](https://t.me/mwscr/552)                     | 2024-10-02 |   262 |    60 |       560 |  10.71 |
-|                                                    |            |   867 |   208 |      2980 |  15.96 |
+| [`ig`](https://instagram.com/p/DAoZ3xwu-Q3/)       | 2024-10-02 |   385 |   118 |      1463 |   8.07 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1796) | 2024-10-02 |   235 |    32 |       957 |   3.45 |
+| [`tg`](https://t.me/mwscr/552)                     | 2024-10-02 |   283 |    61 |       560 |  10.89 |
+|                                                    |            |   903 |   211 |      2980 |  16.03 |
 
 #### Comments
 
@@ -981,8 +1008,8 @@
 | [`tg`](https://t.me/mwscr/77)                      | 2018-10-13 |   214 |     3 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1742) | 2024-09-07 |   256 |    33 |       943 |    3.5 |
 | [`tg`](https://t.me/mwscr/525)                     | 2024-09-07 |   482 |    62 |       552 |  11.23 |
-| [`ig`](https://instagram.com/p/C_s4h4kvWJC/)       | 2024-09-09 |   291 |    75 |      1456 |   5.15 |
-|                                                    |            |  1029 |   170 |      2951 |  11.16 |
+| [`ig`](https://instagram.com/p/C_s4h4kvWJC/)       | 2024-09-09 |   295 |    75 |      1456 |   5.15 |
+|                                                    |            |  1033 |   170 |      2951 |  11.16 |
 
 ## <span id="2024-09-06-island-of-cliffracer">Island of Cliffracer</span>
 

@@ -1025,6 +1025,19 @@
       followers: 23
       likes: 6
       views: 141
+    - service: ig
+      id: DA1R2paspx_
+      mediaId: '17879929722119091'
+      published: 2024-10-07-18-10-32
+      followers: 1462
+    - service: vk
+      id: 1814
+      published: 2024-10-07-18-10-38
+      followers: 958
+    - service: tg
+      id: 557
+      published: 2024-10-07-18-10-45
+      followers: 559
 2017-01-31-clear-sky-over-caldera:
   title: Clear Sky Over Caldera
   titleRu: Чистое небо над Кальдерой
@@ -10362,17 +10375,17 @@
       id: DAq-nCYAX4k
       mediaId: '17877288921156729'
       published: 2024-10-03-18-10-02
-      updated: 2024-10-06-18-08-41
+      updated: 2024-10-07-18-10-17
       followers: 1463
-      likes: 99
-      views: 344
+      likes: 103
+      views: 357
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2024-10-06-18-08-43
+      updated: 2024-10-07-18-10-16
       followers: 958
-      likes: 38
-      views: 197
+      likes: 39
+      views: 203
       comments: !c |-
         G88B4K0KbGOW0A+MjTvLvWH7CyEYEv+P3LMIn7b1o1IImydSgkWWnAufv01KiJrSMRnvC+6Aclss
         lmRO+3smyFSxRSvlPBWUDPVkLZFvM6N1QmVCitjySAvIu5f8gbIAdzeIhjofvSnNbey1vjgiM6H/
@@ -10382,10 +10395,10 @@
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2024-10-06-18-08-43
+      updated: 2024-10-07-18-10-16
       followers: 560
-      likes: 58
-      views: 218
+      likes: 59
+      views: 258
       comments: !c ixiAkZPLQnkljeH0gACnQmFyYUZveL5UcnVseSwgdGhlIHJvYWQgbW9zdCB0cmF2ZWxsZWQD
 2017-11-06-shore-shroom:
   title: Shore Shroom

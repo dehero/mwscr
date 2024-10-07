@@ -2638,17 +2638,17 @@
       id: DAtjo7QINud
       mediaId: '18067681996615727'
       published: 2024-10-04-18-12-04
-      updated: 2024-10-06-18-08-41
+      updated: 2024-10-07-18-10-16
       followers: 1463
-      likes: 116
-      views: 421
+      likes: 119
+      views: 444
     - service: vk
       id: 1802
       published: 2024-10-04-18-12-10
-      updated: 2024-10-06-18-08-42
+      updated: 2024-10-07-18-10-15
       followers: 958
-      likes: 44
-      views: 234
+      likes: 47
+      views: 249
       reposts: 2
       comments: !c |-
         G8UAwB0HzrkrxiCUe/YWFXEjfcNEQ2wCCyjxZA80dZshR1OzmffLENw/37a3XKd1WklRIkTHp3qF
@@ -2657,10 +2657,10 @@
     - service: tg
       id: 554
       published: 2024-10-04-18-12-16
-      updated: 2024-10-06-18-08-42
+      updated: 2024-10-07-18-10-15
       followers: 559
-      likes: 57
-      views: 200
+      likes: 58
+      views: 229
 2024-10-05-scamp-before-the-throw:
   title: Scamp Before the Throw
   titleRu: Скамп перед броском
@@ -2698,3 +2698,4 @@
       likes: 49
       views: 215
 2024-10-06-far-friends: 2016-12-31-far-friends
+2024-10-07-entering-gnisis-from-the-north: 2017-01-30-entering-gnisis-from-the-north
