@@ -1878,7 +1878,7 @@
     - service: vk
       id: 1538
       published: 2024-05-19-18-18-25
-      updated: 2024-09-30-05-08-28
+      updated: 2024-10-07-05-09-02
       followers: 916
       likes: 37
       views: 245
@@ -1886,10 +1886,10 @@
     - service: tg
       id: 413
       published: 2024-05-19-18-18-32
-      updated: 2024-09-30-05-08-25
+      updated: 2024-10-07-05-08-58
       followers: 372
       likes: 61
-      views: 506
+      views: 508
       comments: !c CxiAkZPLQnj5MWNCgACrYm9icm92bmlrb3a5SSB3YW50IHRvIGhpYmVybmF0ZSB0aGVyZQM=
 2024-05-20-place-to-sleep:
   title: Place to Sleep
@@ -2064,17 +2064,17 @@
     - service: vk
       id: 1576
       published: 2024-06-09-18-18-45
-      updated: 2024-09-30-05-08-26
+      updated: 2024-10-07-05-09-00
       followers: 916
-      likes: 32
-      views: 268
+      likes: 33
+      views: 271
     - service: tg
       id: 434
       published: 2024-06-09-18-18-52
-      updated: 2024-09-30-05-08-24
+      updated: 2024-10-07-05-08-57
       followers: 384
       likes: 58
-      views: 483
+      views: 486
 2024-06-10-utensil:
   title: Utensil
   titleRu: Утварь
@@ -2679,22 +2679,22 @@
       id: DAwIDljtUSV
       mediaId: '18034276373189742'
       published: 2024-10-05-18-08-43
-      updated: 2024-10-07-04-09-50
+      updated: 2024-10-07-05-08-54
       followers: 1463
       likes: 78
-      views: 367
+      views: 369
     - service: vk
       id: 1810
       published: 2024-10-05-18-08-49
-      updated: 2024-10-07-04-09-50
+      updated: 2024-10-07-05-08-54
       followers: 958
       likes: 22
-      views: 167
+      views: 169
     - service: tg
       id: 555
       published: 2024-10-05-18-08-56
-      updated: 2024-10-07-04-09-50
+      updated: 2024-10-07-05-08-53
       followers: 559
       likes: 48
-      views: 200
+      views: 201
 2024-10-06-far-friends: 2016-12-31-far-friends
