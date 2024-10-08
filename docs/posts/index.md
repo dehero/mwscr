@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`224 items`
+`225 items`
+
+## <span id="2024-10-08-clothiers-table">Clothier&#39;s Table</span>
+
+`RU` Столик портнихи
+
+<a href="https://instagram.com/p/Bd8TZguDcVL/" title="2018-01-14-clothiers-table"><img alt="store:/shots/2018-01-14-clothiers-table.png" src="../../assets/previews/shots/2018-01-14-clothiers-table.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-08-clothiers-table&postLocation=)</code> `🚀 OpenMW` `redoran`
+
+```
+2024-10-08-clothiers-table
+```
+
+> `2018-01-14-clothiers-table`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bd8TZguDcVL/)       | 2018-01-14 |       |    66 |       276 |  23.91 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_577)  | 2018-01-14 |   178 |     7 |       122 |   5.74 |
+| [`ig`](https://instagram.com/p/DA32n8koS8y/)       | 2024-10-08 |       |       |      1462 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1815) | 2024-10-08 |       |       |       958 |        |
+| [`tg`](https://t.me/mwscr/558)                     | 2024-10-08 |       |       |       559 |        |
+|                                                    |            |       |       |      2979 |  14.83 |
 
 ## <span id="2024-10-07-entering-gnisis-from-the-north">Entering Gnisis from the North</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BP4US2plXJf/)       | 2017-01-30 |       |    25 |        82 |  30.49 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_111)  | 2017-01-30 |   141 |     6 |        23 |      6 |
-| [`ig`](https://instagram.com/p/DA1R2paspx_/)       | 2024-10-07 |   297 |    84 |      1462 |   5.75 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1814) | 2024-10-07 |   152 |    33 |       958 |   3.44 |
+| [`ig`](https://instagram.com/p/DA1R2paspx_/)       | 2024-10-07 |   300 |    84 |      1462 |   5.75 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1814) | 2024-10-07 |   154 |    33 |       958 |   3.44 |
 | [`tg`](https://t.me/mwscr/557)                     | 2024-10-07 |   139 |    45 |       559 |   8.05 |
-|                                                    |            |   588 |   162 |      2979 |  10.75 |
+|                                                    |            |   593 |   162 |      2979 |  10.75 |
 
 ## <span id="2024-10-06-far-friends">Far Friends</span>
 
@@ -84,10 +111,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DAwIDljtUSV/)       | 2024-10-05 |   385 |    81 |      1463 |   5.54 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1810) | 2024-10-05 |   180 |    23 |       958 |    2.4 |
-| [`tg`](https://t.me/mwscr/555)                     | 2024-10-05 |   215 |    49 |       559 |   8.77 |
-|                                                    |            |   780 |   153 |      2980 |   5.57 |
+| [`ig`](https://instagram.com/p/DAwIDljtUSV/)       | 2024-10-05 |   404 |    86 |      1463 |   5.88 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1810) | 2024-10-05 |   201 |    24 |       958 |   2.51 |
+| [`tg`](https://t.me/mwscr/555)                     | 2024-10-05 |   229 |    50 |       559 |   8.94 |
+|                                                    |            |   834 |   160 |      2980 |   5.78 |
 
 ## <span id="2024-10-04-grytewake">Grytewake</span>
 
