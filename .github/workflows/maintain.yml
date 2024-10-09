@@ -63,15 +63,7 @@ jobs:
           npm run release
           git push --follow-tags origin main
 
-      - name: Build site
-        run: npm run build
-
-      - name: Deploy site
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.SITE_FTP_HOST }}
-          username: ${{ secrets.SITE_FTP_USER }}
-          password: ${{ secrets.SITE_FTP_PASSWORD }}
-          server-dir: ${{ secrets.SITE_FTP_PATH }}
-          local-dir: ./dist/client/
-          exclude: ./store/**
+      - name: Build and deploy site
+        run: |
+          npm run build
+          npm run deploy
