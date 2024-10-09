@@ -8180,15 +8180,24 @@
       id: DA6bgdYRckY
       mediaId: '18034835930218119'
       published: 2024-10-09-18-11-05
+      updated: 2024-10-09-19-02-06
       followers: 1463
+      likes: 13
+      views: 30
     - service: vk
       id: 1817
       published: 2024-10-09-18-11-13
+      updated: 2024-10-09-19-02-05
       followers: 957
+      likes: 11
+      views: 47
     - service: tg
       id: 559
       published: 2024-10-09-18-11-21
+      updated: 2024-10-09-19-02-05
       followers: 559
+      likes: 22
+      views: 66
 2017-08-27-deadly-pass:
   title: Deadly Pass
   titleRu: Смертельный проход
@@ -10397,17 +10406,17 @@
       id: DAq-nCYAX4k
       mediaId: '17877288921156729'
       published: 2024-10-03-18-10-02
-      updated: 2024-10-08-19-01-21
+      updated: 2024-10-09-19-02-09
       followers: 1463
-      likes: 104
-      views: 364
+      likes: 105
+      views: 369
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2024-10-08-19-01-22
+      updated: 2024-10-09-19-02-11
       followers: 958
-      likes: 40
-      views: 218
+      likes: 41
+      views: 223
       comments: !c |-
         G88B4K0KbGOW0A+MjTvLvWH7CyEYEv+P3LMIn7b1o1IImydSgkWWnAufv01KiJrSMRnvC+6Aclss
         lmRO+3smyFSxRSvlPBWUDPVkLZFvM6N1QmVCitjySAvIu5f8gbIAdzeIhjofvSnNbey1vjgiM6H/
@@ -10417,10 +10426,10 @@
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2024-10-08-19-01-20
+      updated: 2024-10-09-19-02-08
       followers: 560
       likes: 60
-      views: 278
+      views: 297
       comments: !c ixiAkZPLQnkljeH0gACnQmFyYUZveL5UcnVseSwgdGhlIHJvYWQgbW9zdCB0cmF2ZWxsZWQD
 2017-11-06-shore-shroom:
   title: Shore Shroom
