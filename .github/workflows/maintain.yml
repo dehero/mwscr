@@ -21,6 +21,7 @@ jobs:
       SITE_FTP_HOST: '${{ secrets.SITE_FTP_HOST }}'
       SITE_FTP_USER: '${{ secrets.SITE_FTP_USER }}'
       SITE_FTP_PASSWORD: '${{ secrets.SITE_FTP_PASSWORD }}'
+      SITE_FTP_PATH: '${{ secrets.SITE_FTP_PATH }}'
       SITE_FTP_STORE_PATH: '${{ secrets.SITE_FTP_STORE_PATH }}'
       TELEGRAM_API_APP_HASH: '${{ secrets.TELEGRAM_API_APP_HASH }}'
       TELEGRAM_API_APP_ID: '${{ secrets.TELEGRAM_API_APP_ID }}'
