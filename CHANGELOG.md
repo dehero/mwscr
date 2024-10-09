@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.20.1](https://github.com/dehero/mwscr/compare/v1.20.0...v1.20.1) (2024-10-09)
+
+### Continuous Integration
+
+- use Node.js to deploy site
+  ([e267c96](https://github.com/dehero/mwscr/commit/e267c96565dc60227bca213337b8be65decc52a9))
+
 ## [1.20.0](https://github.com/dehero/mwscr/compare/v1.19.0...v1.20.0) (2024-10-02)
 
 ### Features
