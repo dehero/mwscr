@@ -4,7 +4,40 @@
 
 # Posted in 2024
 
-`225 items`
+`226 items`
+
+## <span id="2024-10-09-raven-rock">Raven Rock</span>
+
+`RU` Воронья Скала
+
+<a href="https://instagram.com/p/BYQUvqVDwvB/" title="2017-08-26-raven-rock"><img alt="store:/shots/2017-08-26-raven-rock.png" src="../../assets/previews/shots/2017-08-26-raven-rock.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Raven Rock` `🚀 OpenMW` `ship`
+
+```
+2024-10-09-raven-rock
+```
+
+> `2017-08-26-raven-rock`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BYQUvqVDwvB/)       | 2017-08-26 |       |    69 |       198 |  34.85 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_406)  | 2017-08-26 |   114 |     8 |        74 |  10.81 |
+| [`ig`](https://instagram.com/p/DA6bgdYRckY/)       | 2024-10-09 |       |       |      1463 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1817) | 2024-10-09 |       |       |       957 |        |
+| [`tg`](https://t.me/mwscr/559)                     | 2024-10-09 |       |       |       559 |        |
+|                                                    |            |       |       |      2979 |  22.83 |
+
+#### Comments
+
+- `ig` <ins title="2017-08-26-12-14-54">blakeyear02</ins> Morrowwind DLC what one was it again?
+  - <ins title="2017-08-26-15-36-38">mwscr</ins> @blake_x Bloodmoon
+- `ig` <ins title="2017-08-26-15-42-12">blakeyear02</ins> Ah yes
 
 ## <span id="2024-10-08-clothiers-table">Clothier&#39;s Table</span>
 
@@ -28,10 +61,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bd8TZguDcVL/)       | 2018-01-14 |       |    66 |       276 |  23.91 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_577)  | 2018-01-14 |   178 |     7 |       122 |   5.74 |
-| [`ig`](https://instagram.com/p/DA32n8koS8y/)       | 2024-10-08 |   273 |    73 |      1462 |   4.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1815) | 2024-10-08 |   148 |    28 |       958 |   2.92 |
+| [`ig`](https://instagram.com/p/DA32n8koS8y/)       | 2024-10-08 |   275 |    73 |      1462 |   4.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1815) | 2024-10-08 |   152 |    28 |       958 |   2.92 |
 | [`tg`](https://t.me/mwscr/558)                     | 2024-10-08 |   149 |    44 |       559 |   7.87 |
-|                                                    |            |   570 |   145 |      2979 |   9.09 |
+|                                                    |            |   576 |   145 |      2979 |   9.09 |
 
 #### Comments
 
@@ -86,10 +119,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOrG8_wFMv4/)       | 2016-12-31 |       |    29 |        53 |  54.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_48)   | 2017-01-22 |    90 |     4 |         4 |      4 |
-| [`ig`](https://instagram.com/p/DAys4YOh7OF/)       | 2024-10-06 |   657 |   116 |      1464 |   7.92 |
+| [`ig`](https://instagram.com/p/DAys4YOh7OF/)       | 2024-10-06 |   672 |   118 |      1464 |   8.06 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1812) | 2024-10-06 |   225 |    46 |       958 |   4.91 |
-| [`tg`](https://t.me/mwscr/556)                     | 2024-10-06 |   201 |    52 |       559 |    9.3 |
-|                                                    |            |  1083 |   214 |      2981 |  16.17 |
+| [`tg`](https://t.me/mwscr/556)                     | 2024-10-06 |   222 |    57 |       559 |   10.2 |
+|                                                    |            |  1119 |   221 |      2981 |  16.38 |
 
 ## <span id="2024-10-05-scamp-before-the-throw">Scamp Before the Throw</span>
 
