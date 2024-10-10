@@ -4,7 +4,39 @@
 
 # Posted in 2024
 
-`226 items`
+`227 items`
+
+## <span id="2024-10-10-night-patrol">Night Patrol</span>
+
+`RU` Ночной патруль
+
+<a href="https://instagram.com/p/BQMuOpaFSPR/" title="2017-02-07-night-patrol"><img alt="store:/shots/2017-02-07-night-patrol.png" src="../../assets/previews/shots/2017-02-07-night-patrol.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Gnisis` `🚀 OpenMW` `night` `temple`
+
+```
+2024-10-10-night-patrol
+```
+
+> `2017-02-07-night-patrol`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BQMuOpaFSPR/)       | 2017-02-07 |       |    29 |        83 |  34.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_123)  | 2017-02-07 |   168 |     9 |        25 |      9 |
+| [`ig`](https://instagram.com/p/DA9ANA0ImqM/)       | 2024-10-10 |       |       |      1463 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1818) | 2024-10-10 |       |       |       960 |        |
+| [`tg`](https://t.me/mwscr/560)                     | 2024-10-10 |       |       |       559 |        |
+|                                                    |            |       |       |      2982 |  21.97 |
+
+#### Comments
+
+- `vk` <ins title="2017-02-07-20-03-19">id227500203</ins> А группа все больше и больше:3
+- `vk` <ins title="2017-02-08-07-48-26">dehero</ins> Алексей, я каждому рад 😊
 
 ## <span id="2024-10-09-raven-rock">Raven Rock</span>
 
@@ -29,9 +61,9 @@
 | [`ig`](https://instagram.com/p/BYQUvqVDwvB/)       | 2017-08-26 |       |    69 |       198 |  34.85 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_406)  | 2017-08-26 |   114 |     8 |        74 |  10.81 |
 | [`ig`](https://instagram.com/p/DA6bgdYRckY/)       | 2024-10-09 |   291 |    87 |      1463 |   5.95 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1817) | 2024-10-09 |   157 |    30 |       957 |   3.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1817) | 2024-10-09 |   159 |    30 |       957 |   3.13 |
 | [`tg`](https://t.me/mwscr/559)                     | 2024-10-09 |   150 |    47 |       559 |   8.41 |
-|                                                    |            |   598 |   164 |      2979 |  12.63 |
+|                                                    |            |   600 |   164 |      2979 |  12.63 |
 
 #### Comments
 
@@ -62,9 +94,9 @@
 | [`ig`](https://instagram.com/p/Bd8TZguDcVL/)       | 2018-01-14 |       |    66 |       276 |  23.91 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_577)  | 2018-01-14 |   178 |     7 |       122 |   5.74 |
 | [`ig`](https://instagram.com/p/DA32n8koS8y/)       | 2024-10-08 |   304 |    82 |      1462 |   5.61 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1815) | 2024-10-08 |   182 |    30 |       958 |   3.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1815) | 2024-10-08 |   184 |    30 |       958 |   3.13 |
 | [`tg`](https://t.me/mwscr/558)                     | 2024-10-08 |   196 |    51 |       559 |   9.12 |
-|                                                    |            |   682 |   163 |      2979 |    9.5 |
+|                                                    |            |   684 |   163 |      2979 |    9.5 |
 
 #### Comments
 
@@ -92,10 +124,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BP4US2plXJf/)       | 2017-01-30 |       |    25 |        82 |  30.49 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_111)  | 2017-01-30 |   141 |     6 |        23 |      6 |
-| [`ig`](https://instagram.com/p/DA1R2paspx_/)       | 2024-10-07 |   344 |    88 |      1462 |   6.02 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1814) | 2024-10-07 |   171 |    35 |       958 |   3.65 |
-| [`tg`](https://t.me/mwscr/557)                     | 2024-10-07 |   191 |    53 |       559 |   9.48 |
-|                                                    |            |   706 |   176 |      2979 |  11.13 |
+| [`ig`](https://instagram.com/p/DA1R2paspx_/)       | 2024-10-07 |   358 |    94 |      1462 |   6.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1814) | 2024-10-07 |   193 |    37 |       958 |   3.86 |
+| [`tg`](https://t.me/mwscr/557)                     | 2024-10-07 |   218 |    54 |       559 |   9.66 |
+|                                                    |            |   769 |   185 |      2979 |  11.29 |
 
 ## <span id="2024-10-06-far-friends">Far Friends</span>
 
@@ -119,10 +151,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BOrG8_wFMv4/)       | 2016-12-31 |       |    29 |        53 |  54.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_48)   | 2017-01-22 |    90 |     4 |         4 |      4 |
-| [`ig`](https://instagram.com/p/DAys4YOh7OF/)       | 2024-10-06 |   672 |   118 |      1464 |   8.06 |
+| [`ig`](https://instagram.com/p/DAys4YOh7OF/)       | 2024-10-06 |   679 |   121 |      1464 |   8.27 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1812) | 2024-10-06 |   240 |    47 |       958 |   5.01 |
-| [`tg`](https://t.me/mwscr/556)                     | 2024-10-06 |   222 |    57 |       559 |   10.2 |
-|                                                    |            |  1134 |   222 |      2981 |   16.4 |
+| [`tg`](https://t.me/mwscr/556)                     | 2024-10-06 |   258 |    59 |       559 |  10.55 |
+|                                                    |            |  1177 |   227 |      2981 |  16.51 |
 
 ## <span id="2024-10-05-scamp-before-the-throw">Scamp Before the Throw</span>
 
