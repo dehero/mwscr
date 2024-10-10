@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYQUvqVDwvB/)       | 2017-08-26 |       |    69 |       198 |  34.85 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_406)  | 2017-08-26 |   114 |     8 |        74 |  10.81 |
-| [`ig`](https://instagram.com/p/DA6bgdYRckY/)       | 2024-10-09 |   170 |    56 |      1463 |   3.83 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1817) | 2024-10-09 |    90 |    18 |       957 |   1.88 |
-| [`tg`](https://t.me/mwscr/559)                     | 2024-10-09 |   113 |    36 |       559 |   6.44 |
-|                                                    |            |   373 |   110 |      2979 |  11.56 |
+| [`ig`](https://instagram.com/p/DA6bgdYRckY/)       | 2024-10-09 |   192 |    65 |      1463 |   4.44 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1817) | 2024-10-09 |    96 |    20 |       957 |   2.09 |
+| [`tg`](https://t.me/mwscr/559)                     | 2024-10-09 |   117 |    37 |       559 |   6.62 |
+|                                                    |            |   405 |   122 |      2979 |  11.76 |
 
 #### Comments
 
@@ -61,14 +61,14 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bd8TZguDcVL/)       | 2018-01-14 |       |    66 |       276 |  23.91 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_577)  | 2018-01-14 |   178 |     7 |       122 |   5.74 |
-| [`ig`](https://instagram.com/p/DA32n8koS8y/)       | 2024-10-08 |   281 |    75 |      1462 |   5.13 |
+| [`ig`](https://instagram.com/p/DA32n8koS8y/)       | 2024-10-08 |   285 |    77 |      1462 |   5.27 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1815) | 2024-10-08 |   165 |    29 |       958 |   3.03 |
 | [`tg`](https://t.me/mwscr/558)                     | 2024-10-08 |   184 |    50 |       559 |   8.94 |
-|                                                    |            |   630 |   154 |      2979 |   9.35 |
+|                                                    |            |   634 |   156 |      2979 |   9.38 |
 
 #### Comments
 
-- `vk` <ins title="2024-10-09-01-46-36">artemius_galitzine</ins> Spinning wheel )
+- `vk` <ins title="2024-10-09-01-46-36">17haden_blake10</ins> Spinning wheel )
 
 ## <span id="2024-10-07-entering-gnisis-from-the-north">Entering Gnisis from the North</span>
 
