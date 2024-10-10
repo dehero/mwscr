@@ -2195,14 +2195,14 @@
     - service: vk
       id: 1641
       published: 2024-07-17-18-20-24
-      updated: 2024-10-03-02-10-45
+      updated: 2024-10-10-03-14-08
       followers: 919
       likes: 39
-      views: 289
+      views: 291
     - service: tg
       id: 472
       published: 2024-07-17-18-20-31
-      updated: 2024-10-03-02-10-43
+      updated: 2024-10-10-03-14-06
       followers: 401
       likes: 65
       views: 575
@@ -3533,19 +3533,19 @@
     - service: vk
       id: 1588
       published: 2024-06-19-18-19-29
-      updated: 2024-10-03-02-10-47
+      updated: 2024-10-10-03-14-09
       followers: 917
       likes: 44
-      views: 321
+      views: 324
       reposts: 4
       comments: !c |-
-        G6gAiJwHto1qPbB46yLlKwFRgLcIl2tCAVfAWYHHk3uBLG9iJTbGKNg+JSlewAT/mqxab0qXVDYK
-        +9Xn9n9m0kOlmVzUQB5swIkO6MsIO4YbDRtwgIHO2zQM9tlxTcr/36l7C5Qr/WKnGAaGOCFZC7Jh
-        GnYzNS0M6zmp8KV9eby2NtigdoT72kiIoHyf37wTifbOpvKjU2120gYMm4w56EYSJy9/
+        G6gA4C0OeHPgJcPQJcFd8huh0jGgW4QfeUYJBVwBZwUeJzuB4Nt7CWCEH6o36G423npTuqSysRn7
+        1ef2f2aSUGkmF3rD83aekoOSQmmO61MDabABJxohhOFEh6pHMJnO2X5+BPb/Jq5VK7I+2SlhEOKE
+        W020htG2kRqHMB8fgXvDNt1LU8YKpSHcnyNhSnxveZarazxwOe73jqrdTesYlnNclE7i5N8P
     - service: tg
       id: 444
       published: 2024-06-19-18-19-35
-      updated: 2024-10-03-02-10-44
+      updated: 2024-10-10-03-14-08
       followers: 387
       likes: 56
       views: 472
@@ -4868,20 +4868,20 @@
     - service: vk
       id: 1629
       published: 2024-07-10-18-22-25
-      updated: 2024-10-03-02-10-46
+      updated: 2024-10-10-03-14-09
       followers: 919
       likes: 37
-      views: 249
+      views: 251
       comments: !c |-
         iyyAkZPLQnkLdtlvgACraWQ2NDQ2NjUzMjLZQdCc0L7RgNC90YXQvtC70LQuINCT0L7RgNC+0LQg
         0YHQstC10YLQsCwg0LPQvtGA0L7QtCDQvNCw0LPQuNC4Li4uAw==
     - service: tg
       id: 465
       published: 2024-07-10-18-22-34
-      updated: 2024-10-03-02-10-44
+      updated: 2024-10-10-03-14-07
       followers: 396
       likes: 57
-      views: 528
+      views: 529
     - service: ig
       id: C9WWNUkOIO0
       mediaId: '18014944706197372'
@@ -4929,18 +4929,18 @@
     - service: vk
       id: 1655
       published: 2024-07-24-18-21-03
-      updated: 2024-10-03-02-10-44
+      updated: 2024-10-10-03-14-07
       followers: 921
       likes: 44
-      views: 369
+      views: 371
       reposts: 1
     - service: tg
       id: 479
       published: 2024-07-24-18-21-09
-      updated: 2024-10-03-02-10-42
+      updated: 2024-10-10-03-14-06
       followers: 400
       likes: 58
-      views: 586
+      views: 587
 2017-05-17-nice-time-to-go-boating:
   title: Nice Time to Go Boating
   titleRu: Хорошее время, чтобы поплавать на лодке
@@ -8180,24 +8180,24 @@
       id: DA6bgdYRckY
       mediaId: '18034835930218119'
       published: 2024-10-09-18-11-05
-      updated: 2024-10-10-02-10-07
+      updated: 2024-10-10-03-14-03
       followers: 1463
-      likes: 65
-      views: 192
+      likes: 68
+      views: 203
     - service: vk
       id: 1817
       published: 2024-10-09-18-11-13
-      updated: 2024-10-10-02-10-07
+      updated: 2024-10-10-03-14-03
       followers: 957
-      likes: 20
-      views: 96
+      likes: 21
+      views: 101
     - service: tg
       id: 559
       published: 2024-10-09-18-11-21
-      updated: 2024-10-10-02-10-07
+      updated: 2024-10-10-03-14-04
       followers: 559
-      likes: 37
-      views: 117
+      likes: 38
+      views: 120
 2017-08-27-deadly-pass:
   title: Deadly Pass
   titleRu: Смертельный проход
