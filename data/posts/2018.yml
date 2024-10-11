@@ -654,10 +654,10 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-10-04-22-03-32
+      updated: 2024-10-11-23-07-14
       followers: 943
       likes: 32
-      views: 294
+      views: 301
       reposts: 2
       comments: !c |-
         G9oCAKwK7DbyC53aVXL0CN5VcRAVtmgoOTn1l+y/FTiUxoEwOARKYqrVqQh9jqvQZ7CrxzMcL6oV
@@ -670,10 +670,10 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-10-04-22-03-31
+      updated: 2024-10-11-23-07-14
       followers: 551
       likes: 66
-      views: 520
+      views: 530
       comments: !c |-
         G9EAYIyUbsI8A645gjVBtc//m1b2toiwUaRNMO/wxbbWuVFCJlIM9X7iFOVucKIx5hBGLbTppBtO
         tOfw+Nwit9TaMhmfA4b1lHsV7JBS8l9S0pmkGYYDbLDsxAdYYscJoFjCAdGQE8JkkWVsLIA9lpyg
@@ -10595,24 +10595,24 @@
       id: DA_k7_pzzWs
       mediaId: '18134504428365017'
       published: 2024-10-11-18-09-46
-      updated: 2024-10-11-22-01-56
+      updated: 2024-10-11-23-07-10
       followers: 1462
-      likes: 44
-      views: 118
+      likes: 49
+      views: 129
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2024-10-11-22-01-56
+      updated: 2024-10-11-23-07-10
       followers: 961
       likes: 12
-      views: 77
+      views: 83
     - service: tg
       id: 561
       published: 2024-10-11-18-10-00
-      updated: 2024-10-11-22-01-55
+      updated: 2024-10-11-23-07-11
       followers: 558
-      likes: 32
-      views: 88
+      likes: 33
+      views: 93
 2018-11-04-dwemer-bay:
   title: Dwemer Bay
   titleRu: Двемерская бухта
