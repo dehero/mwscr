@@ -890,10 +890,10 @@
     - service: vk
       id: 1554
       published: 2024-05-30-18-20-43
-      updated: 2024-10-04-08-10-31
+      updated: 2024-10-11-09-08-32
       followers: 916
       likes: 49
-      views: 395
+      views: 397
       reposts: 3
       comments: !c |-
         GwoBwBwJdmzJQtx7FxVxI/3xBGMJsEk8kmSPrMPTylymS6JdWCto9jDr+NeThZQ/E66y4SE1qYNc
@@ -903,7 +903,7 @@
     - service: tg
       id: 424
       published: 2024-05-30-18-20-52
-      updated: 2024-10-04-08-10-30
+      updated: 2024-10-11-09-08-31
       followers: 378
       likes: 60
       views: 475
@@ -1352,24 +1352,24 @@
       id: DA9ANA0ImqM
       mediaId: '18064784989640258'
       published: 2024-10-10-18-10-16
-      updated: 2024-10-11-08-10-17
+      updated: 2024-10-11-09-08-27
       followers: 1463
-      likes: 71
-      views: 217
+      likes: 72
+      views: 223
     - service: vk
       id: 1818
       published: 2024-10-10-18-10-22
-      updated: 2024-10-11-08-10-18
+      updated: 2024-10-11-09-08-28
       followers: 960
       likes: 23
-      views: 112
+      views: 116
     - service: tg
       id: 560
       published: 2024-10-10-18-10-28
-      updated: 2024-10-11-08-10-19
+      updated: 2024-10-11-09-08-28
       followers: 559
-      likes: 40
-      views: 124
+      likes: 42
+      views: 129
 2017-02-08-moonmoth-legion-fort:
   title: Moonmoth Legion Fort
   titleRu: Форт Легиона Лунной Бабочки
@@ -8202,14 +8202,14 @@
       id: DA6bgdYRckY
       mediaId: '18034835930218119'
       published: 2024-10-09-18-11-05
-      updated: 2024-10-11-08-10-18
+      updated: 2024-10-11-09-08-29
       followers: 1463
-      likes: 94
-      views: 334
+      likes: 95
+      views: 335
     - service: vk
       id: 1817
       published: 2024-10-09-18-11-13
-      updated: 2024-10-11-08-10-19
+      updated: 2024-10-11-09-08-29
       followers: 957
       likes: 33
       views: 177
@@ -8217,10 +8217,10 @@
     - service: tg
       id: 559
       published: 2024-10-09-18-11-21
-      updated: 2024-10-11-08-10-19
+      updated: 2024-10-11-09-08-28
       followers: 559
-      likes: 53
-      views: 181
+      likes: 54
+      views: 183
 2017-08-27-deadly-pass:
   title: Deadly Pass
   titleRu: Смертельный проход
@@ -11641,15 +11641,15 @@
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
-      updated: 2024-10-04-08-10-30
+      updated: 2024-10-11-09-08-30
       followers: 917
       likes: 43
-      views: 308
+      views: 310
       reposts: 2
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
-      updated: 2024-10-04-08-10-28
+      updated: 2024-10-11-09-08-29
       followers: 388
       likes: 56
       views: 466
