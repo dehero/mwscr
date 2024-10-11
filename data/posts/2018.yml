@@ -421,10 +421,10 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2024-10-04-02-10-50
+      updated: 2024-10-11-03-13-11
       followers: 921
       likes: 44
-      views: 288
+      views: 290
       reposts: 2
     - service: tg
       id: 480
@@ -6879,7 +6879,7 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2024-10-04-02-10-49
+      updated: 2024-10-11-03-13-12
       followers: 402
       likes: 59
       views: 673
