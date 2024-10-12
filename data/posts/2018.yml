@@ -256,18 +256,18 @@
     - service: vk
       id: 1607
       published: 2024-06-28-18-19-25
-      updated: 2024-10-05-04-09-21
+      updated: 2024-10-12-05-07-20
       followers: 917
       likes: 38
-      views: 280
+      views: 282
       reposts: 1
     - service: tg
       id: 453
       published: 2024-06-28-18-19-31
-      updated: 2024-10-05-04-09-19
+      updated: 2024-10-12-05-07-19
       followers: 387
       likes: 59
-      views: 524
+      views: 525
 2018-01-10-rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
@@ -5340,18 +5340,18 @@
     - service: vk
       id: 1657
       published: 2024-07-26-18-20-40
-      updated: 2024-10-05-04-09-18
+      updated: 2024-10-12-05-07-16
       followers: 923
       likes: 34
-      views: 263
+      views: 265
       reposts: 1
     - service: tg
       id: 481
       published: 2024-07-26-18-20-48
-      updated: 2024-10-05-04-09-17
+      updated: 2024-10-12-05-07-16
       followers: 400
       likes: 68
-      views: 610
+      views: 613
       comments: !c CwuAkZPLQnkPIJkoAACmQzRINk80pPCfmI4D
 2018-06-06-i-think-i-got-sick:
   title: I Think I Got Sick
@@ -8636,17 +8636,17 @@
     - service: tg
       id: 460
       published: 2024-07-05-18-19-50
-      updated: 2024-10-05-04-09-18
+      updated: 2024-10-12-05-07-18
       followers: 393
       likes: 52
       views: 446
     - service: vk
       id: 1615
       published: 2024-07-05-19-12-06
-      updated: 2024-10-05-04-09-20
+      updated: 2024-10-12-05-07-19
       followers: 919
       likes: 32
-      views: 279
+      views: 281
       reposts: 4
     - service: ig
       id: C9Ru5oGNV8s
@@ -10595,24 +10595,24 @@
       id: DA_k7_pzzWs
       mediaId: '18134504428365017'
       published: 2024-10-11-18-09-46
-      updated: 2024-10-12-04-09-03
+      updated: 2024-10-12-05-07-14
       followers: 1462
-      likes: 61
-      views: 187
+      likes: 62
+      views: 191
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2024-10-12-04-09-03
+      updated: 2024-10-12-05-07-14
       followers: 961
-      likes: 14
-      views: 96
+      likes: 15
+      views: 98
     - service: tg
       id: 561
       published: 2024-10-11-18-10-00
-      updated: 2024-10-12-04-09-03
+      updated: 2024-10-12-05-07-15
       followers: 558
-      likes: 34
-      views: 104
+      likes: 35
+      views: 106
 2018-11-04-dwemer-bay:
   title: Dwemer Bay
   titleRu: Двемерская бухта
