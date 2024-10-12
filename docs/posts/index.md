@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/BpsQzgfBaHY/)       | 2018-11-02 |       |    84 |       452 |  18.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1025) | 2018-11-02 |   466 |    29 |       279 |  10.39 |
 | [`tg`](https://t.me/mwscr/109)                     | 2018-11-02 |   279 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DA_k7_pzzWs/)       | 2024-10-11 |   236 |    71 |      1462 |   4.86 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1819) | 2024-10-11 |   121 |    18 |       961 |   1.87 |
-| [`tg`](https://t.me/mwscr/561)                     | 2024-10-11 |   118 |    38 |       558 |   6.81 |
-|                                                    |            |   475 |   127 |      2981 |    8.5 |
+| [`ig`](https://instagram.com/p/DA_k7_pzzWs/)       | 2024-10-11 |   239 |    72 |      1462 |   4.92 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1819) | 2024-10-11 |   123 |    19 |       961 |   1.98 |
+| [`tg`](https://t.me/mwscr/561)                     | 2024-10-11 |   120 |    38 |       558 |   6.81 |
+|                                                    |            |   482 |   129 |      2981 |   8.54 |
 
 ## <span id="2024-10-10-night-patrol">Night Patrol</span>
 
@@ -57,9 +57,9 @@
 | [`ig`](https://instagram.com/p/BQMuOpaFSPR/)       | 2017-02-07 |       |    29 |        83 |  34.94 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_123)  | 2017-02-07 |   168 |     9 |        25 |      9 |
 | [`ig`](https://instagram.com/p/DA9ANA0ImqM/)       | 2024-10-10 |   291 |    83 |      1463 |   5.67 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1818) | 2024-10-10 |   150 |    25 |       960 |    2.6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1818) | 2024-10-10 |   151 |    25 |       960 |    2.6 |
 | [`tg`](https://t.me/mwscr/560)                     | 2024-10-10 |   180 |    52 |       559 |    9.3 |
-|                                                    |            |   621 |   160 |      2982 |   12.3 |
+|                                                    |            |   622 |   160 |      2982 |   12.3 |
 
 #### Comments
 
