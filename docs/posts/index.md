@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`228 items`
+`229 items`
+
+## <span id="2024-10-12-golden-saint">Golden Saint</span>
+
+`RU` Золотой святоша
+
+<a href="https://instagram.com/p/BaXPONujCqF/" title="2017-10-17-golden-saint"><img alt="store:/shots/2017-10-17-golden-saint.png" src="../../assets/previews/shots/2017-10-17-golden-saint.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-12-golden-saint&postLocation=)</code> `🚀 OpenMW` `guard`
+
+```
+2024-10-12-golden-saint
+```
+
+> `2017-10-17-golden-saint`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BaXPONujCqF/)       | 2017-10-17 |       |   104 |       225 |  46.22 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_463)  | 2017-10-17 |   158 |     9 |        91 |   9.89 |
+| [`ig`](https://instagram.com/p/DBCJm2Bukx3/)       | 2024-10-12 |       |       |      1464 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1820) | 2024-10-12 |       |       |       961 |        |
+| [`tg`](https://t.me/mwscr/562)                     | 2024-10-12 |       |       |       557 |        |
+|                                                    |            |       |       |      2982 |  28.06 |
 
 ## <span id="2024-10-11-near-the-yurt">Near the Yurt</span>
 
@@ -29,10 +56,10 @@
 | [`ig`](https://instagram.com/p/BpsQzgfBaHY/)       | 2018-11-02 |       |    84 |       452 |  18.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1025) | 2018-11-02 |   466 |    29 |       279 |  10.39 |
 | [`tg`](https://t.me/mwscr/109)                     | 2018-11-02 |   279 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DA_k7_pzzWs/)       | 2024-10-11 |   281 |    77 |      1462 |   5.27 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1819) | 2024-10-11 |   146 |    22 |       961 |   2.29 |
-| [`tg`](https://t.me/mwscr/561)                     | 2024-10-11 |   130 |    38 |       558 |   6.81 |
-|                                                    |            |   557 |   137 |      2981 |   8.67 |
+| [`ig`](https://instagram.com/p/DA_k7_pzzWs/)       | 2024-10-11 |   289 |    77 |      1462 |   5.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1819) | 2024-10-11 |   151 |    22 |       961 |   2.29 |
+| [`tg`](https://t.me/mwscr/561)                     | 2024-10-11 |   132 |    38 |       558 |   6.81 |
+|                                                    |            |   572 |   137 |      2981 |   8.67 |
 
 ## <span id="2024-10-10-night-patrol">Night Patrol</span>
 
@@ -58,8 +85,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_123)  | 2017-02-07 |   168 |     9 |        25 |      9 |
 | [`ig`](https://instagram.com/p/DA9ANA0ImqM/)       | 2024-10-10 |   299 |    85 |      1463 |   5.81 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1818) | 2024-10-10 |   159 |    25 |       960 |    2.6 |
-| [`tg`](https://t.me/mwscr/560)                     | 2024-10-10 |   182 |    52 |       559 |    9.3 |
-|                                                    |            |   640 |   162 |      2982 |  12.33 |
+| [`tg`](https://t.me/mwscr/560)                     | 2024-10-10 |   183 |    52 |       559 |    9.3 |
+|                                                    |            |   641 |   162 |      2982 |  12.33 |
 
 #### Comments
 

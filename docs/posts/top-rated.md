@@ -970,11 +970,14 @@
 
 ### Reactions
 
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BaXPONujCqF/)      | 2017-10-17 |       |   104 |       225 |  46.22 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_463) | 2017-10-17 |   158 |     9 |        91 |   9.89 |
-|                                                   |            |   158 |   113 |       316 |  28.06 |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BaXPONujCqF/)       | 2017-10-17 |       |   104 |       225 |  46.22 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_463)  | 2017-10-17 |   158 |     9 |        91 |   9.89 |
+| [`ig`](https://instagram.com/p/DBCJm2Bukx3/)       | 2024-10-12 |       |       |      1464 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1820) | 2024-10-12 |       |       |       961 |        |
+| [`tg`](https://t.me/mwscr/562)                     | 2024-10-12 |       |       |       557 |        |
+|                                                    |            |   158 |   113 |       316 |  28.06 |
 
 ## <span id="2018-05-29-at-the-tops-of-fir-trees">At the Tops of Fir-Trees</span>
 
