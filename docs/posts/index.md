@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/BpsQzgfBaHY/)       | 2018-11-02 |       |    84 |       452 |  18.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1025) | 2018-11-02 |   466 |    29 |       279 |  10.39 |
 | [`tg`](https://t.me/mwscr/109)                     | 2018-11-02 |   279 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DA_k7_pzzWs/)       | 2024-10-11 |   162 |    55 |      1462 |   3.76 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1819) | 2024-10-11 |    93 |    14 |       961 |   1.46 |
-| [`tg`](https://t.me/mwscr/561)                     | 2024-10-11 |    99 |    34 |       558 |   6.09 |
-|                                                    |            |   354 |   103 |      2981 |   8.06 |
+| [`ig`](https://instagram.com/p/DA_k7_pzzWs/)       | 2024-10-11 |   178 |    60 |      1462 |    4.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1819) | 2024-10-11 |    96 |    14 |       961 |   1.46 |
+| [`tg`](https://t.me/mwscr/561)                     | 2024-10-11 |   101 |    34 |       558 |   6.09 |
+|                                                    |            |   375 |   108 |      2981 |   8.13 |
 
 ## <span id="2024-10-10-night-patrol">Night Patrol</span>
 
