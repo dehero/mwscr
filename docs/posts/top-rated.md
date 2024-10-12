@@ -954,31 +954,6 @@
   - <ins title="2018-06-15-18-25-55">ekaterina_berezowskaya</ins> lol
 - `vk` <ins title="2018-06-16-15-51-39">id402400667</ins> добра и счастья всем! Подскажите поалуйста как скачать Морровинд бесплатно. желательно сайт. соскучился очень
 
-## <span id="2017-10-17-golden-saint">Golden Saint</span>
-
-`RU` Золотой святоша
-
-<a href="https://instagram.com/p/BaXPONujCqF/" title="2017-10-17-golden-saint"><img alt="store:/shots/2017-10-17-golden-saint.png" src="../../assets/previews/shots/2017-10-17-golden-saint.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2017-10-17-golden-saint&postLocation=)</code> `🚀 OpenMW` `guard`
-
-```
-2017-10-17-golden-saint
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BaXPONujCqF/)       | 2017-10-17 |       |   104 |       225 |  46.22 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_463)  | 2017-10-17 |   158 |     9 |        91 |   9.89 |
-| [`ig`](https://instagram.com/p/DBCJm2Bukx3/)       | 2024-10-12 |       |       |      1464 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1820) | 2024-10-12 |       |       |       961 |        |
-| [`tg`](https://t.me/mwscr/562)                     | 2024-10-12 |       |       |       557 |        |
-|                                                    |            |   158 |   113 |       316 |  28.06 |
-
 ## <span id="2018-05-29-at-the-tops-of-fir-trees">At the Tops of Fir-Trees</span>
 
 `RU` В вершинах елей
@@ -1289,6 +1264,28 @@
 #### Comments
 
 - `vk` <ins title="2017-02-15-23-05-10">id227500203</ins> Вода^_^
+
+## <span id="2017-12-27-entrance-to-nchurdamz">Entrance to Nchurdamz</span>
+
+`RU` Вход в Нчурдамц
+
+<a href="https://instagram.com/p/BdOPZOZj_Qk/" title="2017-12-27-entrance-to-nchurdamz"><img alt="store:/shots/2017-12-27-entrance-to-nchurdamz.png" src="../../assets/previews/shots/2017-12-27-entrance-to-nchurdamz.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Nchurdamz` `🚀 OpenMW` `dwemer`
+
+```
+2017-12-27-entrance-to-nchurdamz
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BdOPZOZj_Qk/)      | 2017-12-27 |       |   101 |       262 |  38.55 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_554) | 2017-12-27 |   206 |    18 |       114 |  15.79 |
+|                                                   |            |   206 |   119 |       376 |  27.17 |
 
 ---
 
