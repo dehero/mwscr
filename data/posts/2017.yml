@@ -4163,7 +4163,7 @@
     - service: tg
       id: 433
       published: 2024-06-08-18-18-44
-      updated: 2024-10-06-00-39-04
+      updated: 2024-10-13-02-15-21
       followers: 384
       likes: 55
       views: 456
@@ -4442,18 +4442,18 @@
     - service: vk
       id: 1705
       published: 2024-08-24-18-18-18
-      updated: 2024-10-06-00-39-01
+      updated: 2024-10-13-02-15-18
       followers: 940
       likes: 35
-      views: 278
+      views: 280
       reposts: 1
     - service: tg
       id: 511
       published: 2024-08-24-18-18-25
-      updated: 2024-10-06-00-39-00
+      updated: 2024-10-13-02-15-17
       followers: 541
       likes: 54
-      views: 525
+      views: 529
 2017-05-05-sunset-fir-trees:
   title: Sunset Fir-Trees
   titleRu: Закатные ели
@@ -4516,18 +4516,18 @@
     - service: vk
       id: 1695
       published: 2024-08-17-18-19-02
-      updated: 2024-10-06-00-39-03
+      updated: 2024-10-13-02-15-19
       followers: 934
       likes: 32
-      views: 249
+      views: 251
       reposts: 1
     - service: tg
       id: 504
       published: 2024-08-17-18-19-11
-      updated: 2024-10-06-00-39-01
+      updated: 2024-10-13-02-15-18
       followers: 527
       likes: 60
-      views: 586
+      views: 591
       comments: !c |-
         G5kAGKyOt6Fh2DII9SraGD9X/MgjVPrf33zCH3gV4CCaONb5A6mtc51HiSdUhy6Lw0sQm6m2eEF7
         10hP2eKS5i0PNuCAvQgHGxBmPLvAIdUUWLSgYygr1ZEd4Y7zHD3ybT007Y+2bxgCxB5X7rrk7kIe
@@ -4568,18 +4568,18 @@
     - service: vk
       id: 1658
       published: 2024-07-27-18-20-23
-      updated: 2024-10-06-00-39-06
+      updated: 2024-10-13-02-15-22
       followers: 923
       likes: 34
-      views: 281
+      views: 282
       reposts: 1
     - service: tg
       id: 482
       published: 2024-07-27-18-20-29
-      updated: 2024-10-06-00-39-03
+      updated: 2024-10-13-02-15-19
       followers: 401
       likes: 56
-      views: 599
+      views: 601
       comments: !c |-
         G/kAgByHcSyxjmBicU1/f/MRp4m1cSwu4M4/WGtxG2Qs22JRFvd/NwML9D8P80ADvTEWSuinVRma
         Tk40MH47SAuowMKQIo6zdIfPHSOmprQ+rncT67T+DEEpGYRvZb4nHr7OCgLfhTugNQLOoXtlQt+4
@@ -9854,24 +9854,24 @@
       id: DBCJm2Bukx3
       mediaId: '18025931045176564'
       published: 2024-10-12-18-08-36
-      updated: 2024-10-13-00-38-24
+      updated: 2024-10-13-02-15-15
       followers: 1464
-      likes: 56
-      views: 178
+      likes: 60
+      views: 191
     - service: vk
       id: 1820
       published: 2024-10-12-18-08-42
-      updated: 2024-10-13-00-38-25
+      updated: 2024-10-13-02-15-15
       followers: 961
-      likes: 16
-      views: 98
+      likes: 17
+      views: 104
     - service: tg
       id: 562
       published: 2024-10-12-18-08-48
-      updated: 2024-10-13-00-38-25
+      updated: 2024-10-13-02-15-16
       followers: 557
       likes: 35
-      views: 127
+      views: 135
 2017-10-18-recollecting-the-first-steps:
   title: Recollecting the First Steps
   titleRu: Вспоминая первые шаги

@@ -1824,17 +1824,17 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2024-10-06-00-39-04
+      updated: 2024-10-13-02-15-20
       followers: 927
       likes: 26
-      views: 249
+      views: 251
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
-      updated: 2024-10-06-00-39-02
+      updated: 2024-10-13-02-15-18
       followers: 514
       likes: 54
-      views: 547
+      views: 550
       comments: !c |-
         G7gAABypvX60oN8IlX7Pun5bvnzvKtlkf9GhcOYLoW+CyJDXBIUbnEASJhgIr9NgOk4jrmclAMWJ
         b4Nj96y0r2EVQayxqQKanPotglmsvvgAJ3AAt3ADp1jC7t0NrrAEB1hu4Qgb2KUj5yc2yfmVnmbD
@@ -4689,15 +4689,15 @@
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2024-10-06-00-39-07
+      updated: 2024-10-13-02-15-23
       followers: 919
       likes: 55
-      views: 801
+      views: 808
       reposts: 5
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2024-10-06-00-39-04
+      updated: 2024-10-13-02-15-20
       followers: 400
       likes: 66
       views: 602
@@ -6759,17 +6759,17 @@
     - service: vk
       id: 1666
       published: 2024-08-03-18-19-32
-      updated: 2024-10-06-00-39-05
+      updated: 2024-10-13-02-15-21
       followers: 925
       likes: 33
-      views: 277
+      views: 278
     - service: tg
       id: 489
       published: 2024-08-03-18-19-41
-      updated: 2024-10-06-00-39-02
+      updated: 2024-10-13-02-15-19
       followers: 428
       likes: 56
-      views: 6309
+      views: 6344
       comments: !c |-
         izGAkZTLQnkRxbvWAACrVmVicmFuZGVub0uk8J+YjZPLQnkRxdocAAClYW5zaXPZNmV2ZXJ5IGdy
         YXplbGFuZGVyIGJveSBsb3ZlcyBoaW1zZWxmIGEgZ3VhciBoZXJkZXIgZ2lybAM=
@@ -10595,24 +10595,24 @@
       id: DA_k7_pzzWs
       mediaId: '18134504428365017'
       published: 2024-10-11-18-09-46
-      updated: 2024-10-13-00-38-26
+      updated: 2024-10-13-02-15-16
       followers: 1462
       likes: 79
-      views: 303
+      views: 304
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2024-10-13-00-38-26
+      updated: 2024-10-13-02-15-17
       followers: 961
-      likes: 23
-      views: 156
+      likes: 24
+      views: 158
     - service: tg
       id: 561
       published: 2024-10-11-18-10-00
-      updated: 2024-10-13-00-38-26
+      updated: 2024-10-13-02-15-16
       followers: 558
       likes: 44
-      views: 173
+      views: 176
 2018-11-04-dwemer-bay:
   title: Dwemer Bay
   titleRu: Двемерская бухта
