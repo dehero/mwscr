@@ -2162,15 +2162,15 @@
     - service: vk
       id: 1454
       published: 2024-03-16-18-10-42
-      updated: 2024-10-06-12-12-09
+      updated: 2024-10-13-13-14-05
       followers: 896
       likes: 37
-      views: 291
+      views: 292
       reposts: 1
     - service: tg
       id: 348
       published: 2024-03-16-18-10-49
-      updated: 2024-10-06-12-12-07
+      updated: 2024-10-13-13-14-03
       followers: 353
       likes: 55
       views: 443
@@ -8381,10 +8381,10 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2024-10-06-12-12-04
+      updated: 2024-10-13-13-14-00
       followers: 915
       likes: 41
-      views: 281
+      views: 282
 2017-09-01-the-last-refuge:
   title: The Last Refuge
   titleRu: Последнее прибежище
@@ -9854,24 +9854,24 @@
       id: DBCJm2Bukx3
       mediaId: '18025931045176564'
       published: 2024-10-12-18-08-36
-      updated: 2024-10-13-12-11-55
+      updated: 2024-10-13-13-13-57
       followers: 1464
-      likes: 77
-      views: 286
+      likes: 78
+      views: 291
     - service: vk
       id: 1820
       published: 2024-10-12-18-08-42
-      updated: 2024-10-13-12-11-56
+      updated: 2024-10-13-13-13-58
       followers: 961
-      likes: 27
-      views: 169
+      likes: 28
+      views: 170
     - service: tg
       id: 562
       published: 2024-10-12-18-08-48
-      updated: 2024-10-13-12-11-56
+      updated: 2024-10-13-13-13-59
       followers: 557
       likes: 40
-      views: 158
+      views: 159
 2017-10-18-recollecting-the-first-steps:
   title: Recollecting the First Steps
   titleRu: Вспоминая первые шаги
