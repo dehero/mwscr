@@ -3420,15 +3420,15 @@
     - service: vk
       id: 1633
       published: 2024-07-13-18-18-57
-      updated: 2024-10-06-04-09-38
+      updated: 2024-10-13-05-08-22
       followers: 919
       likes: 44
-      views: 304
+      views: 305
       reposts: 1
     - service: tg
       id: 468
       published: 2024-07-13-18-19-05
-      updated: 2024-10-06-04-09-37
+      updated: 2024-10-13-05-08-21
       followers: 398
       likes: 60
       views: 492
@@ -4225,17 +4225,17 @@
     - service: vk
       id: 1546
       published: 2024-05-25-18-18-01
-      updated: 2024-10-06-04-09-43
+      updated: 2024-10-13-05-08-28
       followers: 918
       likes: 37
-      views: 287
+      views: 289
     - service: tg
       id: 419
       published: 2024-05-25-18-18-08
-      updated: 2024-10-06-04-09-41
+      updated: 2024-10-13-05-08-25
       followers: 377
       likes: 62
-      views: 454
+      views: 455
 2018-05-05-uncle-sweetshares-workshop:
   title: Uncle Sweetshare's Workshop
   titleRu: Мастерская Дядюшки Сладкая Доля
@@ -5609,17 +5609,17 @@
     - service: tg
       id: 454
       published: 2024-06-29-18-18-56
-      updated: 2024-10-06-04-09-38
+      updated: 2024-10-13-05-08-23
       followers: 388
       likes: 58
-      views: 623
+      views: 624
     - service: vk
       id: 1608
       published: 2024-06-29-19-11-46
-      updated: 2024-10-06-04-09-40
+      updated: 2024-10-13-05-08-24
       followers: 918
       likes: 37
-      views: 353
+      views: 356
       reposts: 2
     - service: ig
       id: C9MOc3uo650
@@ -10595,24 +10595,24 @@
       id: DA_k7_pzzWs
       mediaId: '18134504428365017'
       published: 2024-10-11-18-09-46
-      updated: 2024-10-13-04-09-09
+      updated: 2024-10-13-05-08-21
       followers: 1462
       likes: 80
       views: 307
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2024-10-13-04-09-11
+      updated: 2024-10-13-05-08-20
       followers: 961
       likes: 24
-      views: 159
+      views: 161
     - service: tg
       id: 561
       published: 2024-10-11-18-10-00
-      updated: 2024-10-13-04-09-10
+      updated: 2024-10-13-05-08-20
       followers: 558
-      likes: 44
-      views: 177
+      likes: 45
+      views: 179
 2018-11-04-dwemer-bay:
   title: Dwemer Bay
   titleRu: Двемерская бухта
