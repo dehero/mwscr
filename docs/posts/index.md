@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaXPONujCqF/)       | 2017-10-17 |       |   104 |       225 |  46.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_463)  | 2017-10-17 |   158 |     9 |        91 |   9.89 |
-| [`ig`](https://instagram.com/p/DBCJm2Bukx3/)       | 2024-10-12 |   191 |    60 |      1464 |    4.1 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1820) | 2024-10-12 |   104 |    17 |       961 |   1.77 |
-| [`tg`](https://t.me/mwscr/562)                     | 2024-10-12 |   135 |    35 |       557 |   6.28 |
-|                                                    |            |   430 |   112 |      2982 |  13.65 |
+| [`ig`](https://instagram.com/p/DBCJm2Bukx3/)       | 2024-10-12 |   196 |    62 |      1464 |   4.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1820) | 2024-10-12 |   110 |    19 |       961 |   1.98 |
+| [`tg`](https://t.me/mwscr/562)                     | 2024-10-12 |   136 |    35 |       557 |   6.28 |
+|                                                    |            |   442 |   116 |      2982 |  13.72 |
 
 ## <span id="2024-10-11-near-the-yurt">Near the Yurt</span>
 
@@ -56,10 +56,10 @@
 | [`ig`](https://instagram.com/p/BpsQzgfBaHY/)       | 2018-11-02 |       |    84 |       452 |  18.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1025) | 2018-11-02 |   466 |    29 |       279 |  10.39 |
 | [`tg`](https://t.me/mwscr/109)                     | 2018-11-02 |   279 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DA_k7_pzzWs/)       | 2024-10-11 |   304 |    79 |      1462 |    5.4 |
+| [`ig`](https://instagram.com/p/DA_k7_pzzWs/)       | 2024-10-11 |   305 |    79 |      1462 |    5.4 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1819) | 2024-10-11 |   158 |    24 |       961 |    2.5 |
-| [`tg`](https://t.me/mwscr/561)                     | 2024-10-11 |   176 |    44 |       558 |   7.89 |
-|                                                    |            |   638 |   147 |      2981 |   8.95 |
+| [`tg`](https://t.me/mwscr/561)                     | 2024-10-11 |   177 |    44 |       558 |   7.89 |
+|                                                    |            |   640 |   147 |      2981 |   8.95 |
 
 ## <span id="2024-10-10-night-patrol">Night Patrol</span>
 
@@ -4063,9 +4063,9 @@
 | [`ig`](https://instagram.com/p/BTYfIxOjZg3/)       | 2017-04-27 |       |    60 |       172 |  34.88 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_272)  | 2017-04-27 |   112 |     6 |        54 |  11.11 |
 | [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   329 |    80 |      1422 |   5.63 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   309 |    36 |       916 |   4.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   310 |    36 |       916 |   4.04 |
 | [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |   456 |    55 |       384 |  14.32 |
-|                                                    |            |  1094 |   171 |      2722 |     14 |
+|                                                    |            |  1095 |   171 |      2722 |     14 |
 
 ## <span id="2024-06-07-ruins-in-a-mountain-dead-end">Ruins in a Mountain Dead End</span>
 
