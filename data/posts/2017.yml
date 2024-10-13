@@ -9854,24 +9854,24 @@
       id: DBCJm2Bukx3
       mediaId: '18025931045176564'
       published: 2024-10-12-18-08-36
-      updated: 2024-10-13-18-08-54
+      updated: 2024-10-13-19-01-20
       followers: 1464
-      likes: 83
-      views: 320
+      likes: 84
+      views: 325
     - service: vk
       id: 1820
       published: 2024-10-12-18-08-42
-      updated: 2024-10-13-18-08-54
+      updated: 2024-10-13-19-01-21
       followers: 961
-      likes: 30
-      views: 181
+      likes: 31
+      views: 186
     - service: tg
       id: 562
       published: 2024-10-12-18-08-48
-      updated: 2024-10-13-18-08-54
+      updated: 2024-10-13-19-01-21
       followers: 557
       likes: 40
-      views: 168
+      views: 185
 2017-10-18-recollecting-the-first-steps:
   title: Recollecting the First Steps
   titleRu: Вспоминая первые шаги
@@ -10293,15 +10293,27 @@
       id: DBEudx2T7bF
       mediaId: '18098027545462109'
       published: 2024-10-13-18-09-10
+      updated: 2024-10-13-19-01-19
       followers: 1463
+      likes: 25
+      views: 33
     - service: vk
       id: 1821
       published: 2024-10-13-18-09-16
+      updated: 2024-10-13-19-01-20
       followers: 963
+      likes: 7
+      views: 36
     - service: tg
       id: 563
       published: 2024-10-13-18-09-22
+      updated: 2024-10-13-19-01-21
       followers: 559
+      likes: 19
+      views: 65
+      comments: !c |-
+        Cx2AkpPLQnkocZSBAACuZGlzbWFzdGVyZnJhbmWoQ29vbCBwaWOTy0J5KHFW+wAAqUdhdGVtYXRl
+        N6N3dGYD
 2017-10-31-green-algae-and-dead-lands:
   title: Green Algae and Dead Lands
   titleRu: Зелёные водоросли и мёртвые земли
