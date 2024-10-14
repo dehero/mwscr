@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`230 items`
+`231 items`
+
+## <span id="2024-10-14-snow-covered-expanses">Snow-Covered Expanses</span>
+
+`RU` Заснеженные просторы
+
+<a href="https://instagram.com/p/Bhwy4ZHFNKZ/" title="2018-04-19-snow-covered-expanses"><img alt="store:/shots/2018-04-19-snow-covered-expanses.png" src="../../assets/previews/shots/2018-04-19-snow-covered-expanses.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-14-snow-covered-expanses&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon`
+
+```
+2024-10-14-snow-covered-expanses
+```
+
+> `2018-04-19-snow-covered-expanses`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bhwy4ZHFNKZ/)       | 2018-04-19 |       |    80 |       317 |  25.24 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_693)  | 2018-04-19 |   223 |    20 |       153 |  13.07 |
+| [`ig`](https://instagram.com/p/DBHTZKzT3cy/)       | 2024-10-14 |       |       |      1463 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1824) | 2024-10-14 |       |       |       964 |        |
+| [`tg`](https://t.me/mwscr/564)                     | 2024-10-14 |       |       |       561 |        |
+|                                                    |            |       |       |      2988 |  19.15 |
 
 ## <span id="2024-10-13-rat-and-mudcrab">Rat and Mudcrab</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Ba4sR6dDvTk/)       | 2017-10-30 |       |    64 |       228 |  28.07 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_483)  | 2017-10-30 |   148 |    15 |        98 |  15.31 |
-| [`ig`](https://instagram.com/p/DBEudx2T7bF/)       | 2024-10-13 |   321 |    83 |      1463 |   5.67 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1821) | 2024-10-13 |   208 |    33 |       963 |   3.63 |
-| [`tg`](https://t.me/mwscr/563)                     | 2024-10-13 |   156 |    46 |       559 |   8.23 |
-|                                                    |            |   685 |   162 |      2985 |  12.18 |
+| [`ig`](https://instagram.com/p/DBEudx2T7bF/)       | 2024-10-13 |   325 |    84 |      1463 |   5.74 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1821) | 2024-10-13 |   212 |    33 |       963 |   3.63 |
+| [`tg`](https://t.me/mwscr/563)                     | 2024-10-13 |   157 |    46 |       559 |   8.23 |
+|                                                    |            |   694 |   163 |      2985 |   12.2 |
 
 #### Comments
 
@@ -89,10 +116,10 @@
 | [`ig`](https://instagram.com/p/BpsQzgfBaHY/)       | 2018-11-02 |       |    84 |       452 |  18.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1025) | 2018-11-02 |   466 |    29 |       279 |  10.39 |
 | [`tg`](https://t.me/mwscr/109)                     | 2018-11-02 |   279 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DA_k7_pzzWs/)       | 2024-10-11 |   314 |    80 |      1462 |   5.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1819) | 2024-10-11 |   181 |    25 |       961 |    2.6 |
-| [`tg`](https://t.me/mwscr/561)                     | 2024-10-11 |   194 |    46 |       558 |   8.24 |
-|                                                    |            |   689 |   151 |      2981 |   9.06 |
+| [`ig`](https://instagram.com/p/DA_k7_pzzWs/)       | 2024-10-11 |   329 |    86 |      1462 |   5.88 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1819) | 2024-10-11 |   202 |    27 |       961 |   2.81 |
+| [`tg`](https://t.me/mwscr/561)                     | 2024-10-11 |   219 |    47 |       558 |   8.42 |
+|                                                    |            |   750 |   160 |      2981 |   9.22 |
 
 ## <span id="2024-10-10-night-patrol">Night Patrol</span>
 
@@ -116,10 +143,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQMuOpaFSPR/)       | 2017-02-07 |       |    29 |        83 |  34.94 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_123)  | 2017-02-07 |   168 |     9 |        25 |      9 |
-| [`ig`](https://instagram.com/p/DA9ANA0ImqM/)       | 2024-10-10 |   315 |    87 |      1463 |   5.95 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1818) | 2024-10-10 |   188 |    28 |       960 |   2.92 |
-| [`tg`](https://t.me/mwscr/560)                     | 2024-10-10 |   214 |    56 |       559 |  10.02 |
-|                                                    |            |   717 |   171 |      2982 |  12.56 |
+| [`ig`](https://instagram.com/p/DA9ANA0ImqM/)       | 2024-10-10 |   320 |    90 |      1463 |   6.15 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1818) | 2024-10-10 |   200 |    29 |       960 |   3.02 |
+| [`tg`](https://t.me/mwscr/560)                     | 2024-10-10 |   243 |    56 |       559 |  10.02 |
+|                                                    |            |   763 |   175 |      2982 |  12.63 |
 
 #### Comments
 

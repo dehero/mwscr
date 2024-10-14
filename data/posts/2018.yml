@@ -3706,6 +3706,19 @@
       followers: 153
       likes: 20
       views: 223
+    - service: ig
+      id: DBHTZKzT3cy
+      mediaId: '18061121767773879'
+      published: 2024-10-14-18-10-20
+      followers: 1463
+    - service: vk
+      id: 1824
+      published: 2024-10-14-18-10-26
+      followers: 964
+    - service: tg
+      id: 564
+      published: 2024-10-14-18-10-32
+      followers: 561
 2018-04-20-road-through-a-dead-forest:
   title: Road Through a Dead Forest
   titleRu: Дорога сквозь мёртвый лес
@@ -10595,24 +10608,24 @@
       id: DA_k7_pzzWs
       mediaId: '18134504428365017'
       published: 2024-10-11-18-09-46
-      updated: 2024-10-13-18-08-55
+      updated: 2024-10-14-18-10-06
       followers: 1462
-      likes: 80
-      views: 314
+      likes: 86
+      views: 329
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2024-10-13-18-08-56
+      updated: 2024-10-14-18-10-05
       followers: 961
-      likes: 25
-      views: 181
+      likes: 27
+      views: 202
     - service: tg
       id: 561
       published: 2024-10-11-18-10-00
-      updated: 2024-10-13-18-08-55
+      updated: 2024-10-14-18-10-06
       followers: 558
-      likes: 46
-      views: 194
+      likes: 47
+      views: 219
 2018-11-04-dwemer-bay:
   title: Dwemer Bay
   titleRu: Двемерская бухта
