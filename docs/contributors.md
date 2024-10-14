@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 959 posted, 17 pending, 66 rejected  
 Requested: 6 pending  
-Likes: 149617  
+Likes: 149668  
 
 ```
 dehero
@@ -150,6 +150,14 @@ Authored: 1 rejected
 
 ```
 remmlah
+```
+
+### Adele
+
+Roles: `foreigner`  
+
+```
+adele
 ```
 
 ### Алексей
