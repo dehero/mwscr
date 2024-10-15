@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.20.3](https://github.com/dehero/mwscr/compare/v1.20.2...v1.20.3) (2024-10-15)
+
+### Bug Fixes
+
+- find violation value by id while resolving GitHub issues
+  ([b785ede](https://github.com/dehero/mwscr/commit/b785ede9547e59cda1068b17c00ad9d32dc9f7fc))
+
 ## [1.20.2](https://github.com/dehero/mwscr/compare/v1.20.1...v1.20.2) (2024-10-09)
 
 ### Continuous Integration
