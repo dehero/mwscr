@@ -23,9 +23,7 @@ export async function resolve(issue: GithubIssue) {
   const violationStr = extractIssueFieldValue(postViolation, issue.body);
 
   post.mark = POST_MARKS.find((info) => info.id === markStr)?.id;
-  post.violation = [...Object.entries(POST_VIOLATIONS)].find(
-    ([, violation]) => violation.title === violationStr,
-  )?.[0] as PostViolation;
+  post.violation = [...Object.keys(POST_VIOLATIONS)].find((id) => id === violationStr) as PostViolation | undefined;
 
   await manager.updateItem(id);
 

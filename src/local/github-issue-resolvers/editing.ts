@@ -78,9 +78,7 @@ export async function resolve(issue: GithubIssue) {
   post.engine = POST_ENGINES.find((engine) => engine === engineStr);
   post.addon = POST_ADDONS.find((addon) => addon === addonStr);
   post.mark = POST_MARKS.find((info) => info.id === markStr)?.id;
-  post.violation = [...Object.entries(POST_VIOLATIONS)].find(
-    ([, violation]) => violation.title === violationStr,
-  )?.[0] as PostViolation;
+  post.violation = [...Object.keys(POST_VIOLATIONS)].find((id) => id === violationStr) as PostViolation | undefined;
   post.location = mergePostLocations(
     rawLocation
       ? (await locations.findEntries(rawLocation.map((title) => ({ title }))))
