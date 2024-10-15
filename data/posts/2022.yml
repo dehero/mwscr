@@ -1444,7 +1444,7 @@
     - service: tg
       id: 297
       published: 2022-07-28
-      updated: 2024-10-08-17-02-54
+      updated: 2024-10-15-17-05-45
       followers: 274
       likes: 55
       views: 1173
@@ -1486,10 +1486,10 @@
     - service: tg
       id: 298
       published: 2022-07-29
-      updated: 2024-10-08-17-02-54
+      updated: 2024-10-15-17-05-26
       followers: 274
       likes: 59
-      views: 1337
+      views: 1340
 2022-07-30-sorority:
   title: Sorority
   titleRu: Женское общество
@@ -1517,7 +1517,7 @@
     - service: tg
       id: 299
       published: 2022-07-30
-      updated: 2024-10-08-17-02-54
+      updated: 2024-10-15-17-05-25
       followers: 278
       likes: 51
       views: 1330
@@ -1567,7 +1567,7 @@
         - 302
         - 303
       published: 2022-07-31
-      updated: 2024-10-08-17-02-53
+      updated: 2024-10-15-17-05-25
       followers: 277
       likes: 57
       views: 1573
@@ -1603,7 +1603,7 @@
     - service: tg
       id: 304
       published: 2022-08-01
-      updated: 2024-10-08-17-02-53
+      updated: 2024-10-15-17-05-25
       followers: 279
       likes: 56
       views: 1648
@@ -1643,7 +1643,7 @@
     - service: tg
       id: 305
       published: 2022-08-02
-      updated: 2024-10-08-17-02-53
+      updated: 2024-10-15-17-05-24
       followers: 281
       likes: 69
       views: 2172
@@ -1691,7 +1691,7 @@
     - service: tg
       id: 306
       published: 2022-08-03
-      updated: 2024-10-08-17-02-52
+      updated: 2024-10-15-17-05-24
       followers: 281
       likes: 81
       views: 2209
