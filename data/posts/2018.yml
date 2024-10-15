@@ -3711,25 +3711,25 @@
       id: DBHTZKzT3cy
       mediaId: '18061121767773879'
       published: 2024-10-14-18-10-20
-      updated: 2024-10-15-17-05-12
+      updated: 2024-10-15-18-09-56
       followers: 1463
-      likes: 71
-      views: 243
+      likes: 73
+      views: 248
     - service: vk
       id: 1824
       published: 2024-10-14-18-10-26
-      updated: 2024-10-15-17-05-12
+      updated: 2024-10-15-18-09-55
       followers: 964
-      likes: 24
-      views: 134
+      likes: 25
+      views: 137
       comments: !c CxKAkZPLQnko8uKOAACraWQ4MTA5MDA2OTSt0KHQutC+0YDQviApKQM=
     - service: tg
       id: 564
       published: 2024-10-14-18-10-32
-      updated: 2024-10-15-17-05-14
+      updated: 2024-10-15-18-09-56
       followers: 561
       likes: 42
-      views: 144
+      views: 145
 2018-04-20-road-through-a-dead-forest:
   title: Road Through a Dead Forest
   titleRu: Дорога сквозь мёртвый лес
@@ -6973,6 +6973,19 @@
         iBVwBwaIkSqrFI5GKhWAmSdnUa7i/NK5RiMgiLd5fbCUGMxjx1jMKa0B+1ruy02sSVS9s5kots6P
         DImMjn5LpzppMWO4fVFHijjz4mSGyL3uN4n6F/PeACfPnQQHYRb2BhuDg4BFB8Uiwdr6g4/gaCBp
         9bXXVumoLozpM2lQf3L0Uw1WBw==
+    - service: ig
+      id: DBJ4Ky5S7Zy
+      mediaId: '18034117985057206'
+      published: 2024-10-15-18-10-10
+      followers: 1464
+    - service: vk
+      id: 1829
+      published: 2024-10-15-18-10-16
+      followers: 964
+    - service: tg
+      id: 565
+      published: 2024-10-15-18-10-22
+      followers: 562
 2018-07-26-framed-by-lianas:
   title: Framed by Lianas
   titleRu: В обрамлении лиан
