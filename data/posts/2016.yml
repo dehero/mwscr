@@ -830,7 +830,7 @@
     - service: vk
       id: 1561
       published: 2024-06-03-18-20-43
-      updated: 2024-10-08-06-11-24
+      updated: 2024-10-15-07-07-51
       followers: 915
       likes: 36
       views: 282
@@ -839,10 +839,10 @@
     - service: tg
       id: 428
       published: 2024-06-03-18-20-51
-      updated: 2024-10-08-06-11-23
+      updated: 2024-10-15-07-07-51
       followers: 383
       likes: 58
-      views: 459
+      views: 460
 2016-12-11-khajiit-gives-away:
   title: Khajiit Gives Away
   titleRu: Каджит себя выдал
