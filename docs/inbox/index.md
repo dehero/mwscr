@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`27 items`
+`26 items`
 
 ## <span id="natty.2024-04-22-20-44-03">natty.2024-04-22-20-44-03</span>
 
@@ -265,24 +265,6 @@ natty.2024-03-10-16-03-44
 
 ```
 natty.2024-03-10-12-44-23
-```
-
-## <span id="kayracik.2024-09-05-20-09-00">kayracik.2024-09-05-20-09-00</span>
-
-![store:/inbox/kayracik.2024-09-05-20-09-00.png](../../assets/previews/inbox/kayracik.2024-09-05-20-09-00.avif "kayracik.2024-09-05-20-09-00")
-![store:/inbox/kayracik.2024-09-05-20-09-00.1.png](../../assets/previews/inbox/kayracik.2024-09-05-20-09-00.1.avif "kayracik.2024-09-05-20-09-00.1")
-![store:/inbox/kayracik.2024-09-05-20-09-00.2.png](../../assets/previews/inbox/kayracik.2024-09-05-20-09-00.2.avif "kayracik.2024-09-05-20-09-00.2")
-![store:/inbox/kayracik.2024-09-05-20-09-00.3.png](../../assets/previews/inbox/kayracik.2024-09-05-20-09-00.3.avif "kayracik.2024-09-05-20-09-00.3")
-
-`shot` by [kayracik](../contributors.md#kayracik)
-
-> [!WARNING]
-> Need english title, need russian title, need mark, detected post type "shot-set", got "shot".
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayracik.2024-09-05-20-09-00&amp;postContent=store%3A%2Finbox%2Fkayracik.2024-09-05-20-09-00.png%0Astore%3A%2Finbox%2Fkayracik.2024-09-05-20-09-00.1.png%0Astore%3A%2Finbox%2Fkayracik.2024-09-05-20-09-00.2.png%0Astore%3A%2Finbox%2Fkayracik.2024-09-05-20-09-00.3.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=kayracik&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayracik.2024-09-05-20-09-00&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayracik.2024-09-05-20-09-00&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayracik.2024-09-05-20-09-00&postLocation=)</code>
-
-```
-kayracik.2024-09-05-20-09-00
 ```
 
 ## <span id="dehero.2024-09-21-12-17-54">dehero.2024-09-21-12-17-54</span>

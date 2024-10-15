@@ -4,7 +4,7 @@
 
 # Trash for 2024
 
-`37 items`
+`38 items`
 
 ## <span id="vladyslav-zhuk.2024-05-20-d3c543d1">vladyslav-zhuk.2024-05-20-d3c543d1</span>
 
@@ -314,6 +314,24 @@ natty.2024-03-10-12-40-06
 
 ```
 kayracik.2024-09-06-13-50-43
+```
+
+## <span id="kayracik.2024-09-05-20-09-00">kayracik.2024-09-05-20-09-00</span>
+
+![store:/trash/kayracik.2024-09-05-20-09-00.png](../../assets/previews/trash/kayracik.2024-09-05-20-09-00.avif "kayracik.2024-09-05-20-09-00")
+![store:/trash/kayracik.2024-09-05-20-09-00.1.png](../../assets/previews/trash/kayracik.2024-09-05-20-09-00.1.avif "kayracik.2024-09-05-20-09-00.1")
+![store:/trash/kayracik.2024-09-05-20-09-00.2.png](../../assets/previews/trash/kayracik.2024-09-05-20-09-00.2.avif "kayracik.2024-09-05-20-09-00.2")
+![store:/trash/kayracik.2024-09-05-20-09-00.3.png](../../assets/previews/trash/kayracik.2024-09-05-20-09-00.3.avif "kayracik.2024-09-05-20-09-00.3")
+
+`shot` by [kayracik](../contributors.md#kayracik)
+
+> [!CAUTION]
+> [object Object].
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=kayracik.2024-09-05-20-09-00&amp;postContent=store%3A%2Ftrash%2Fkayracik.2024-09-05-20-09-00.png%0Astore%3A%2Ftrash%2Fkayracik.2024-09-05-20-09-00.1.png%0Astore%3A%2Ftrash%2Fkayracik.2024-09-05-20-09-00.2.png%0Astore%3A%2Ftrash%2Fkayracik.2024-09-05-20-09-00.3.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=kayracik&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=no-anti-aliasing&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=kayracik.2024-09-05-20-09-00&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=kayracik.2024-09-05-20-09-00&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=kayracik.2024-09-05-20-09-00&postLocation=)</code>
+
+```
+kayracik.2024-09-05-20-09-00
 ```
 
 ## <span id="kayracik.2024-09-02-2a5fe92a">kayracik.2024-09-02-2a5fe92a</span>

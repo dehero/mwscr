@@ -63,18 +63,6 @@ Likes: 238
 irina-bystritskaya
 ```
 
-### kayracik
-
-[GitHub](https://github.com/Helvgen)
-
-Roles: `author` `beginner`  
-Authored: 1 pending, 3 rejected  
-Requested: 1 rejected  
-
-```
-kayracik
-```
-
 ## Requesters
 
 ### buck-the-cuck
@@ -133,6 +121,18 @@ mighty-markyys
 ```
 
 ## Other
+
+### kayracik
+
+[GitHub](https://github.com/Helvgen)
+
+Roles: `beginner`  
+Authored: 4 rejected  
+Requested: 1 rejected  
+
+```
+kayracik
+```
 
 ### Vladyslav Zhuk
 

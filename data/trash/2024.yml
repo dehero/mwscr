@@ -96,6 +96,15 @@ kayracik.2024-09-02-2a5fe92a:
     user: kayracik
     text: Sunset over
   violation: unclear-request
+kayracik.2024-09-05-20-09-00:
+  content:
+    - store:/trash/kayracik.2024-09-05-20-09-00.png
+    - store:/trash/kayracik.2024-09-05-20-09-00.1.png
+    - store:/trash/kayracik.2024-09-05-20-09-00.2.png
+    - store:/trash/kayracik.2024-09-05-20-09-00.3.png
+  type: shot
+  author: kayracik
+  violation: no-anti-aliasing
 kayracik.2024-09-06-13-50-43:
   content:
     - store:/trash/kayracik.2024-09-06-13-50-43.png
