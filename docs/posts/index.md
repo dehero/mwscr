@@ -14,7 +14,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-16-princess-of-dusk-and-dawn&postLocation=)</code> `🚀 OpenMW` `statue` `daedric`
+`A2` `📍 Shrine of Azura` `🚀 OpenMW` `statue` `daedric`
 
 ```
 2024-10-16-princess-of-dusk-and-dawn
