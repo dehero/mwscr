@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`232 items`
+`233 items`
+
+## <span id="2024-10-16-princess-of-dusk-and-dawn">Princess of Dusk and Dawn</span>
+
+`RU` Принцесса рассвета и заката
+
+<a href="https://instagram.com/p/BckrfPIjOUS/" title="2017-12-11-princess-of-dusk-and-dawn"><img alt="store:/shots/2017-12-11-princess-of-dusk-and-dawn.png" src="../../assets/previews/shots/2017-12-11-princess-of-dusk-and-dawn.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-16-princess-of-dusk-and-dawn&postLocation=)</code> `🚀 OpenMW` `statue` `daedric`
+
+```
+2024-10-16-princess-of-dusk-and-dawn
+```
+
+> `2017-12-11-princess-of-dusk-and-dawn`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BckrfPIjOUS/)       | 2017-12-11 |       |    89 |       252 |  35.32 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_537)  | 2017-12-11 |   166 |    17 |       108 |  15.74 |
+| [`ig`](https://instagram.com/p/DBMdIUkxb-J/)       | 2024-10-16 |       |       |      1465 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1833) | 2024-10-16 |       |       |       965 |        |
+| [`tg`](https://t.me/mwscr/566)                     | 2024-10-16 |       |       |       562 |        |
+|                                                    |            |       |       |      2992 |  25.53 |
 
 ## <span id="2024-10-15-to-the-glory-of-saint-dagoth">To the Glory of Saint Dagoth</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BlqpEABH7wM/)       | 2018-07-25 |       |   101 |       362 |   27.9 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_825)  | 2018-07-25 |   316 |    27 |       191 |  15.18 |
-| [`ig`](https://instagram.com/p/DBJ4Ky5S7Zy/)       | 2024-10-15 |   408 |    97 |      1464 |   6.63 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1829) | 2024-10-15 |   184 |    32 |       964 |   3.42 |
-| [`tg`](https://t.me/mwscr/565)                     | 2024-10-15 |   165 |    42 |       562 |   7.47 |
-|                                                    |            |   757 |   171 |      2990 |  12.12 |
+| [`ig`](https://instagram.com/p/DBJ4Ky5S7Zy/)       | 2024-10-15 |   413 |    99 |      1464 |   6.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1829) | 2024-10-15 |   187 |    32 |       964 |   3.42 |
+| [`tg`](https://t.me/mwscr/565)                     | 2024-10-15 |   169 |    42 |       562 |   7.47 |
+|                                                    |            |   769 |   173 |      2990 |  12.15 |
 
 #### Comments
 
@@ -61,9 +88,9 @@
 | [`ig`](https://instagram.com/p/Bhwy4ZHFNKZ/)       | 2018-04-19 |       |    80 |       317 |  25.24 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_693)  | 2018-04-19 |   223 |    20 |       153 |  13.07 |
 | [`ig`](https://instagram.com/p/DBHTZKzT3cy/)       | 2024-10-14 |   280 |    77 |      1463 |   5.26 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1824) | 2024-10-14 |   233 |    36 |       964 |   3.73 |
-| [`tg`](https://t.me/mwscr/564)                     | 2024-10-14 |   185 |    51 |       561 |   9.09 |
-|                                                    |            |   698 |   164 |      2988 |  11.28 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1824) | 2024-10-14 |   234 |    36 |       964 |   3.73 |
+| [`tg`](https://t.me/mwscr/564)                     | 2024-10-14 |   187 |    51 |       561 |   9.09 |
+|                                                    |            |   701 |   164 |      2988 |  11.28 |
 
 #### Comments
 
@@ -91,10 +118,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Ba4sR6dDvTk/)       | 2017-10-30 |       |    64 |       228 |  28.07 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_483)  | 2017-10-30 |   148 |    15 |        98 |  15.31 |
-| [`ig`](https://instagram.com/p/DBEudx2T7bF/)       | 2024-10-13 |   365 |    90 |      1463 |   6.15 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1821) | 2024-10-13 |   236 |    36 |       963 |   3.95 |
-| [`tg`](https://t.me/mwscr/563)                     | 2024-10-13 |   210 |    52 |       559 |    9.3 |
-|                                                    |            |   811 |   178 |      2985 |  12.56 |
+| [`ig`](https://instagram.com/p/DBEudx2T7bF/)       | 2024-10-13 |   381 |    92 |      1463 |   6.29 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1821) | 2024-10-13 |   262 |    37 |       963 |   4.05 |
+| [`tg`](https://t.me/mwscr/563)                     | 2024-10-13 |   234 |    54 |       559 |   9.66 |
+|                                                    |            |   877 |   183 |      2985 |  12.67 |
 
 #### Comments
 
@@ -124,10 +151,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaXPONujCqF/)       | 2017-10-17 |       |   104 |       225 |  46.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_463)  | 2017-10-17 |   158 |     9 |        91 |   9.89 |
-| [`ig`](https://instagram.com/p/DBCJm2Bukx3/)       | 2024-10-12 |   387 |   102 |      1464 |   6.97 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1820) | 2024-10-12 |   248 |    41 |       961 |   4.27 |
-| [`tg`](https://t.me/mwscr/562)                     | 2024-10-12 |   235 |    48 |       557 |   8.62 |
-|                                                    |            |   870 |   191 |      2982 |  15.19 |
+| [`ig`](https://instagram.com/p/DBCJm2Bukx3/)       | 2024-10-12 |   396 |   104 |      1464 |    7.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1820) | 2024-10-12 |   263 |    42 |       961 |   4.47 |
+| [`tg`](https://t.me/mwscr/562)                     | 2024-10-12 |   272 |    50 |       557 |   8.98 |
+|                                                    |            |   931 |   196 |      2982 |  15.33 |
 
 ## <span id="2024-10-11-near-the-yurt">Near the Yurt</span>
 

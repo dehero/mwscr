@@ -9854,24 +9854,25 @@
       id: DBCJm2Bukx3
       mediaId: '18025931045176564'
       published: 2024-10-12-18-08-36
-      updated: 2024-10-15-17-05-16
+      updated: 2024-10-16-18-10-27
       followers: 1464
-      likes: 102
-      views: 387
+      likes: 104
+      views: 396
     - service: vk
       id: 1820
       published: 2024-10-12-18-08-42
-      updated: 2024-10-15-17-05-15
+      updated: 2024-10-16-18-10-30
       followers: 961
-      likes: 41
-      views: 248
+      likes: 42
+      views: 263
+      reposts: 1
     - service: tg
       id: 562
       published: 2024-10-12-18-08-48
-      updated: 2024-10-15-17-05-15
+      updated: 2024-10-16-18-10-30
       followers: 557
-      likes: 48
-      views: 235
+      likes: 50
+      views: 272
 2017-10-18-recollecting-the-first-steps:
   title: Recollecting the First Steps
   titleRu: Вспоминая первые шаги
@@ -10293,26 +10294,26 @@
       id: DBEudx2T7bF
       mediaId: '18098027545462109'
       published: 2024-10-13-18-09-10
-      updated: 2024-10-15-17-05-14
+      updated: 2024-10-16-18-10-27
       followers: 1463
-      likes: 90
-      views: 365
+      likes: 92
+      views: 381
     - service: vk
       id: 1821
       published: 2024-10-13-18-09-16
-      updated: 2024-10-15-17-05-14
+      updated: 2024-10-16-18-10-29
       followers: 963
-      likes: 36
-      views: 236
+      likes: 37
+      views: 262
       reposts: 2
       comments: !c ixmAkZPLQnkolF5EAACscGV0ZWV2YW5kcmV3u9Ch0LXQudGH0LDRgSDRgdC60YPRiNCw0LXRggM=
     - service: tg
       id: 563
       published: 2024-10-13-18-09-22
-      updated: 2024-10-15-17-05-15
+      updated: 2024-10-16-18-10-29
       followers: 559
-      likes: 52
-      views: 210
+      likes: 54
+      views: 234
       comments: !c |-
         Cx2AkpPLQnkocZSBAACuZGlzbWFzdGVyZnJhbmWoQ29vbCBwaWOTy0J5KHFW+wAAqUdhdGVtYXRl
         N6N3dGYD
@@ -11728,6 +11729,19 @@
       followers: 108
       likes: 17
       views: 166
+    - service: ig
+      id: DBMdIUkxb-J
+      mediaId: '18151087864333526'
+      published: 2024-10-16-18-11-36
+      followers: 1465
+    - service: vk
+      id: 1833
+      published: 2024-10-16-18-11-44
+      followers: 965
+    - service: tg
+      id: 566
+      published: 2024-10-16-18-11-53
+      followers: 562
 2017-12-12-roar-of-a-bear:
   title: Roar of a Bear
   titleRu: Медвежий рёв
