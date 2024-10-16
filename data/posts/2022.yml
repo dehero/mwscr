@@ -1591,15 +1591,15 @@
     - service: vk
       id: 1377
       published: 2022-08-01
-      updated: 2024-10-09-11-32-34
+      updated: 2024-10-16-12-13-53
       followers: 797
       likes: 70
       views: 924
       comments: !c |-
-        G0UB4C0K7AZ6G4F4DU67goye6Hk5sYQf26RbvDLiAo142YiWTKhyT2yqm8YYFEYVoGFna8mh3FbM
-        aTWY/2+iCDJV5xYiIUTTYd/EIDCZITXKpEcnB+wPLIIwukQa8clq1x2yqOufnkxZL6/PFU3+v5bv
-        eRPOimXnZn4eTGmsozeP0zmek2k4orRhCCebIEXk7n10Yz8KsQ+o7ysbCwaVSNN9NuKAFdJjju19
-        RW/HquX3dLWXWgG0OpjK6V6KvnL1G2+7KvYNsQn3ASuVjosj2YWmEENenlYZnVuCFBe2oSo=
+        G0IB4K0K7Db0SzHYTVDSXs480fOyMVL8ETZws1KM0ZSdlm6yJMq90lTdNMagMKoADTtbSw7ltmJO
+        q8H8fxNFkKn1IGaXi5WkRcWjULbdhFSlSU+YTg7YH1gEYXSJNOIDBdp2vWFRXP94tGhur88Vw//X
+        8r1LbmhdOWLa0phEbx6nWzwn03BEacMQTjZBisjd2+iqfhRiH6DeVza2CyqRRvts+AMrpMec2/uK
+        qZ2rlt+zPP71d4A+B0y53UvRV5J+42dXxb4hNs19wEql4+JIdqEpxJCXp1VG5wiA4sI2VAk=
     - service: tg
       id: 304
       published: 2022-08-01
@@ -1635,7 +1635,7 @@
     - service: vk
       id: 1379
       published: 2022-08-02
-      updated: 2024-10-09-11-32-33
+      updated: 2024-10-16-12-13-52
       followers: 798
       likes: 82
       views: 1603
@@ -1678,10 +1678,10 @@
     - service: vk
       id: 1381
       published: 2022-08-03
-      updated: 2024-10-09-11-32-33
+      updated: 2024-10-16-12-13-52
       followers: 800
       likes: 74
-      views: 1221
+      views: 1223
       reposts: 7
       comments: !c |-
         G9UA4I2UbsJ8hEr3/znmj/AdX1VgVNh0GEmjgUUB5h3WB/vqNms3pDYO31dFVEE56pQTKHDO2hIJ

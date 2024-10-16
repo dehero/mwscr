@@ -160,7 +160,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2024-10-09-11-32-18
+      updated: 2024-10-16-12-13-37
       followers: 894
       likes: 47
       views: 365
@@ -169,7 +169,7 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2024-10-09-11-32-15
+      updated: 2024-10-16-12-13-35
       followers: 337
       likes: 91
       views: 607
@@ -9912,7 +9912,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2024-10-09-11-32-15
+      updated: 2024-10-16-12-13-34
       followers: 904
       likes: 44
       views: 294
@@ -9920,7 +9920,7 @@
     - service: tg
       id: 358
       published: 2024-03-26-18-10-55
-      updated: 2024-10-09-11-32-13
+      updated: 2024-10-16-12-13-32
       followers: 352
       likes: 68
       views: 534
@@ -10833,7 +10833,7 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2024-10-09-11-32-18
+      updated: 2024-10-16-12-13-36
       followers: 895
       likes: 35
       views: 285
@@ -10841,7 +10841,7 @@
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2024-10-09-11-32-15
+      updated: 2024-10-16-12-13-34
       followers: 343
       likes: 69
       views: 526
@@ -11320,10 +11320,10 @@
       id: C_dw-OPNIxR
       mediaId: '18043361695974823'
       published: 2024-09-03-18-29-17
-      updated: 2024-10-09-11-32-11
+      updated: 2024-10-16-12-13-31
       followers: 1455
       likes: 95
-      views: 431
+      views: 434
     - service: vk
       id: 1735
       published: 2024-09-03-18-29-25
