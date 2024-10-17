@@ -2560,6 +2560,19 @@
       comments: !c |-
         G04A+MWAcw1poEUWkTadJuD6M8DyCB824EAD54xyXviMwaKQHmX1YqOFpoqcmDWRM6VUymIunlHi
         ij1OuFNo/7MTJVXynTtqXPHEtnk5PnEjAQ==
+    - service: ig
+      id: DBPBpc4MUXA
+      mediaId: '18344521246130102'
+      published: 2024-10-17-18-09-10
+      followers: 1471
+    - service: vk
+      id: 1840
+      published: 2024-10-17-18-09-16
+      followers: 965
+    - service: tg
+      id: 567
+      published: 2024-10-17-18-09-22
+      followers: 562
 2017-03-13-sandy-shore:
   title: Sandy Shore
   titleRu: Песчаный берег
@@ -11734,27 +11747,27 @@
       id: DBMdIUkxb-J
       mediaId: '18151087864333526'
       published: 2024-10-16-18-11-36
-      updated: 2024-10-17-17-05-06
+      updated: 2024-10-17-18-08-58
       followers: 1465
       likes: 72
-      views: 269
+      views: 273
     - service: vk
       id: 1833
       published: 2024-10-16-18-11-44
-      updated: 2024-10-17-17-05-06
+      updated: 2024-10-17-18-08-57
       followers: 965
       likes: 28
-      views: 137
+      views: 138
       comments: !c |-
         G1EA6BWh0n2ec810YOORVGiUjUZRopl39zz/8EQOHHLgfjxCC0BbFYBSQE5PVjxpj6yDv0+UvGaa
         ks4A8aNw4oapba9IHT7ggTtul48WPVYcuCcE
     - service: tg
       id: 566
       published: 2024-10-16-18-11-53
-      updated: 2024-10-17-17-05-07
+      updated: 2024-10-17-18-08-57
       followers: 562
       likes: 42
-      views: 151
+      views: 152
       comments: !c |-
         CyeAkZTLQnkpaLsDAAClQWRlbGW9d2hlcmUgaXMgdGhpcyBzdGF0dWUgbG9jYXRlZD+Ty0J5KWm0
         CQAApW13c2Nyr1NocmluZSBvZiBBenVyYQM=
