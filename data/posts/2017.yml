@@ -1352,24 +1352,24 @@
       id: DA9ANA0ImqM
       mediaId: '18064784989640258'
       published: 2024-10-10-18-10-16
-      updated: 2024-10-16-19-02-58
+      updated: 2024-10-17-20-08-37
       followers: 1463
-      likes: 91
-      views: 324
+      likes: 92
+      views: 331
     - service: vk
       id: 1818
       published: 2024-10-10-18-10-22
-      updated: 2024-10-16-19-02-58
+      updated: 2024-10-17-20-08-37
       followers: 960
-      likes: 31
-      views: 218
+      likes: 32
+      views: 228
     - service: tg
       id: 560
       published: 2024-10-10-18-10-28
-      updated: 2024-10-16-19-02-58
+      updated: 2024-10-17-20-08-36
       followers: 559
       likes: 58
-      views: 288
+      views: 313
 2017-02-08-moonmoth-legion-fort:
   title: Moonmoth Legion Fort
   titleRu: Форт Легиона Лунной Бабочки
@@ -2564,24 +2564,25 @@
       id: DBPBpc4MUXA
       mediaId: '18344521246130102'
       published: 2024-10-17-18-09-10
-      updated: 2024-10-17-19-02-11
+      updated: 2024-10-17-20-08-33
       followers: 1471
-      likes: 23
-      views: 41
+      likes: 43
+      views: 86
     - service: vk
       id: 1840
       published: 2024-10-17-18-09-16
-      updated: 2024-10-17-19-02-10
+      updated: 2024-10-17-20-08-33
       followers: 965
-      likes: 10
-      views: 35
+      likes: 15
+      views: 64
+      reposts: 1
     - service: tg
       id: 567
       published: 2024-10-17-18-09-22
-      updated: 2024-10-17-19-02-11
+      updated: 2024-10-17-20-08-33
       followers: 562
-      likes: 15
-      views: 56
+      likes: 24
+      views: 75
 2017-03-13-sandy-shore:
   title: Sandy Shore
   titleRu: Песчаный берег
@@ -10501,30 +10502,65 @@
       id: DAq-nCYAX4k
       mediaId: '17877288921156729'
       published: 2024-10-03-18-10-02
-      updated: 2024-10-10-20-08-17
+      updated: 2024-10-17-20-08-38
       followers: 1463
-      likes: 105
-      views: 369
+      likes: 106
+      views: 383
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2024-10-10-20-08-20
+      updated: 2024-10-17-20-08-38
       followers: 958
-      likes: 41
-      views: 229
+      likes: 44
+      views: 270
+      reposts: 1
       comments: !c |-
-        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
+        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
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2024-10-10-20-08-19
+      updated: 2024-10-17-20-08-36
       followers: 560
-      likes: 60
-      views: 320
+      likes: 63
+      views: 443
       comments: !c ixiAkZPLQnkljeH0gACnQmFyYUZveL5UcnVseSwgdGhlIHJvYWQgbW9zdCB0cmF2ZWxsZWQD
 2017-11-06-shore-shroom:
   title: Shore Shroom
@@ -11756,27 +11792,27 @@
       id: DBMdIUkxb-J
       mediaId: '18151087864333526'
       published: 2024-10-16-18-11-36
-      updated: 2024-10-17-19-02-12
+      updated: 2024-10-17-20-08-35
       followers: 1465
       likes: 72
-      views: 274
+      views: 277
     - service: vk
       id: 1833
       published: 2024-10-16-18-11-44
-      updated: 2024-10-17-19-02-11
+      updated: 2024-10-17-20-08-34
       followers: 965
       likes: 28
-      views: 139
+      views: 141
       comments: !c |-
         G1EA6BWh0n2ec810YOORVGiUjUZRopl39zz/8EQOHHLgfjxCC0BbFYBSQE5PVjxpj6yDv0+UvGaa
         ks4A8aNw4oapba9IHT7ggTtul48WPVYcuCcE
     - service: tg
       id: 566
       published: 2024-10-16-18-11-53
-      updated: 2024-10-17-19-02-12
+      updated: 2024-10-17-20-08-34
       followers: 562
-      likes: 44
-      views: 166
+      likes: 45
+      views: 170
       comments: !c |-
         CyeAkZTLQnkpaLsDAAClQWRlbGW9d2hlcmUgaXMgdGhpcyBzdGF0dWUgbG9jYXRlZD+Ty0J5KWm0
         CQAApW13c2Nyr1NocmluZSBvZiBBenVyYQM=
