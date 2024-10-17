@@ -34,7 +34,7 @@
     - service: vk
       id: 1420
       published: 2024-02-28-19-19-28
-      updated: 2024-10-10-12-13-39
+      updated: 2024-10-17-13-17-07
       followers: 894
       likes: 40
       views: 321
@@ -711,7 +711,7 @@
     - service: vk
       id: 1471
       published: 2024-03-27-18-11-59
-      updated: 2024-10-10-12-13-36
+      updated: 2024-10-17-13-17-05
       followers: 905
       likes: 30
       views: 272
@@ -719,10 +719,10 @@
     - service: tg
       id: 359
       published: 2024-03-27-18-12-06
-      updated: 2024-10-10-12-13-31
+      updated: 2024-10-17-13-16-59
       followers: 354
       likes: 65
-      views: 476
+      views: 477
       comments: !c |-
         Gx8BAIxUNX9/v7a2kaHhr6KSaSbTxSwxVBE9T65NP3H7Tb90ha6ubkv1IeWdn3N40SoIj5akPYpd
         ui2pJ6tkGCaZwF92uh+qPDpBjWFHjrAnb/NEUrEcnjB40i6/JwWOpAe84UIg6oPwPJTUSAFSRkR9
@@ -1040,17 +1040,17 @@
     - service: vk
       id: 1489
       published: 2024-04-10-18-19-29
-      updated: 2024-10-10-12-13-35
+      updated: 2024-10-17-13-17-03
       followers: 911
       likes: 30
       views: 223
     - service: tg
       id: 374
       published: 2024-04-10-18-19-36
-      updated: 2024-10-10-12-13-31
+      updated: 2024-10-17-13-16-59
       followers: 353
       likes: 58
-      views: 479
+      views: 480
 2024-04-11-heros-skeleton:
   title: Hero's Skeleton
   titleRu: Скелет героя
@@ -1349,7 +1349,7 @@
     - service: vk
       id: 1508
       published: 2024-04-24-18-17-29
-      updated: 2024-10-10-12-13-33
+      updated: 2024-10-17-13-17-02
       followers: 909
       likes: 31
       views: 273
@@ -1663,7 +1663,7 @@
     - service: vk
       id: 1525
       published: 2024-05-08-18-19-16
-      updated: 2024-10-10-12-13-31
+      updated: 2024-10-17-13-17-00
       followers: 913
       likes: 42
       views: 295
@@ -1671,10 +1671,10 @@
     - service: tg
       id: 402
       published: 2024-05-08-18-19-25
-      updated: 2024-10-10-12-13-30
+      updated: 2024-10-17-13-16-59
       followers: 370
       likes: 68
-      views: 448
+      views: 449
       comments: !c |-
         G2AA4J2JMW64j72aESq9ASJPW7UQ4OSyGqhXtpnqTNVgEEsZIih4PN/kpvhcDw45YD+GbblnHGh5
         mtVyFLOddjw/S/BhWucvect4ORxM1LBdeN1C3YZ7gyaXzVIzFocsiQVfAQ==
