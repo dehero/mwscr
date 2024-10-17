@@ -7599,10 +7599,10 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2024-10-10-22-07-26
+      updated: 2024-10-17-22-07-32
       followers: 943
       likes: 27
-      views: 243
+      views: 245
       comments: !c |-
         G4kAABwJtm2DFS6f5Iqx04j/uZniZ21tAxEXoy2KJZqi5V7U8pariU3U3psJbEIUKjYbfn8SgoMM
         NuBAA4WMBqANZz5D4HxxP5/1mYm29/qcY41xrP13OoSBgAeAgkJKMk1xz7wtNSw7RMEup5pJICmx
@@ -7610,10 +7610,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2024-10-10-22-07-25
+      updated: 2024-10-17-22-07-31
       followers: 551
       likes: 56
-      views: 482
+      views: 497
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
