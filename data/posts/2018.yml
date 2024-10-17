@@ -3218,17 +3218,17 @@
     - service: vk
       id: 1662
       published: 2024-07-31-19-13-29
-      updated: 2024-10-10-03-14-06
+      updated: 2024-10-17-03-14-31
       followers: 924
       likes: 38
       views: 269
     - service: tg
       id: 486
       published: 2024-07-31-19-13-35
-      updated: 2024-10-10-03-14-05
+      updated: 2024-10-17-03-14-30
       followers: 419
       likes: 60
-      views: 1045
+      views: 1049
 2018-04-05-under-the-eaves:
   title: Under the Eaves
   titleRu: Под срезом крыши
@@ -6977,18 +6977,18 @@
       id: DBJ4Ky5S7Zy
       mediaId: '18034117985057206'
       published: 2024-10-15-18-10-10
-      updated: 2024-10-17-02-10-35
+      updated: 2024-10-17-03-14-29
       followers: 1464
       likes: 103
-      views: 450
+      views: 457
     - service: vk
       id: 1829
       published: 2024-10-15-18-10-16
-      updated: 2024-10-17-02-10-34
+      updated: 2024-10-17-03-14-29
       followers: 964
-      likes: 33
-      views: 196
-      reposts: 1
+      likes: 35
+      views: 206
+      reposts: 2
       comments: !c |-
         G1sBCCwO7MbOGx26c05I/igq4kTSn1hmohaqYEFbwVKFK3tkhVptltQMdWVEbuA5XXkMs2equrfu
         ksEAeG9b7/oMIvRNoyAhMrLjWLNgAB2c6AF9gLdEc0w4sDiCgHKDsyAMGhqGQcb3vN6/CaBD6fo8
@@ -6997,10 +6997,10 @@
     - service: tg
       id: 565
       published: 2024-10-15-18-10-22
-      updated: 2024-10-17-02-10-34
+      updated: 2024-10-17-03-14-29
       followers: 562
       likes: 43
-      views: 208
+      views: 210
 2018-07-26-framed-by-lianas:
   title: Framed by Lianas
   titleRu: В обрамлении лиан
