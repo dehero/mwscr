@@ -1903,7 +1903,7 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2024-10-11-03-13-14
+      updated: 2024-10-18-03-15-30
       followers: 919
       likes: 32
       views: 266
@@ -1911,10 +1911,10 @@
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2024-10-11-03-13-13
+      updated: 2024-10-18-03-15-30
       followers: 391
       likes: 57
-      views: 563
+      views: 566
     - service: ig
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
@@ -2564,26 +2564,26 @@
       id: DBPBpc4MUXA
       mediaId: '18344521246130102'
       published: 2024-10-17-18-09-10
-      updated: 2024-10-18-02-11-20
+      updated: 2024-10-18-03-15-25
       followers: 1471
       likes: 68
-      views: 304
+      views: 318
     - service: vk
       id: 1840
       published: 2024-10-17-18-09-16
-      updated: 2024-10-18-02-11-21
+      updated: 2024-10-18-03-15-26
       followers: 965
       likes: 22
-      views: 100
+      views: 106
       reposts: 1
       comments: !c iwuAkZPLQnkp0j58gACnaHlhcnZhcqTwn6WwAw==
     - service: tg
       id: 567
       published: 2024-10-17-18-09-22
-      updated: 2024-10-18-02-11-20
+      updated: 2024-10-18-03-15-27
       followers: 562
       likes: 32
-      views: 100
+      views: 101
 2017-03-13-sandy-shore:
   title: Sandy Shore
   titleRu: Песчаный берег
@@ -2791,7 +2791,7 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2024-10-11-03-13-15
+      updated: 2024-10-18-03-15-31
       followers: 919
       likes: 48
       views: 326
@@ -2799,10 +2799,10 @@
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2024-10-11-03-13-14
+      updated: 2024-10-18-03-15-31
       followers: 387
       likes: 65
-      views: 479
+      views: 481
       comments: !c |-
         iySAkZPLQnkECYQ5gACrQmVybXVkYV84MTLZMdCt0YLQviDQstGL0LPQu9GP0LTQuNGCINGC0LDQ
         uiDQv9GA0LXQutGA0LDRgdC90L4D
@@ -3979,17 +3979,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-10-11-03-13-13
+      updated: 2024-10-18-03-15-29
       followers: 920
       likes: 40
       views: 255
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-10-11-03-13-12
+      updated: 2024-10-18-03-15-29
       followers: 397
       likes: 61
-      views: 491
+      views: 493
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
@@ -11793,24 +11793,24 @@
       id: DBMdIUkxb-J
       mediaId: '18151087864333526'
       published: 2024-10-16-18-11-36
-      updated: 2024-10-18-02-11-22
+      updated: 2024-10-18-03-15-26
       followers: 1465
-      likes: 75
-      views: 283
+      likes: 76
+      views: 284
     - service: vk
       id: 1833
       published: 2024-10-16-18-11-44
-      updated: 2024-10-18-02-11-22
+      updated: 2024-10-18-03-15-27
       followers: 965
       likes: 28
-      views: 142
+      views: 143
       comments: !c |-
         G1EA6BWh0n2ec810YOORVGiUjUZRopl39zz/8EQOHHLgfjxCC0BbFYBSQE5PVjxpj6yDv0+UvGaa
         ks4A8aNw4oapba9IHT7ggTtul48WPVYcuCcE
     - service: tg
       id: 566
       published: 2024-10-16-18-11-53
-      updated: 2024-10-18-02-11-21
+      updated: 2024-10-18-03-15-27
       followers: 562
       likes: 46
       views: 176
