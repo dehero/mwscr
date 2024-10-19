@@ -3871,25 +3871,25 @@
       id: DBRml27BKnW
       mediaId: '18064159015726374'
       published: 2024-10-18-18-10-29
-      updated: 2024-10-19-20-07-39
+      updated: 2024-10-19-21-02-40
       followers: 1472
-      likes: 122
-      views: 513
+      likes: 125
+      views: 519
     - service: tg
       id: 568
       published: 2024-10-18-18-10-48
-      updated: 2024-10-19-20-07-39
+      updated: 2024-10-19-21-02-41
       followers: 561
       likes: 51
-      views: 189
+      views: 208
       comments: !c Cw6AkZPLQnkqSlCGAACtTG9mdHlkZWx1c2lvbqN3b3cD
     - service: vk
       id: 1842
       published: 2024-10-18-19-02-17
-      updated: 2024-10-19-20-07-39
+      updated: 2024-10-19-21-02-40
       followers: 965
       likes: 34
-      views: 206
+      views: 209
       reposts: 1
       comments: !c |-
         Gw4CYK0ObLcnlEH41dHzAetIIP6f/mKkb5b3r3qGTYIRJuca5KxNS6jfDR3nUG4o6txyNyf+Dx0T
@@ -9908,25 +9908,28 @@
       id: DBCJm2Bukx3
       mediaId: '18025931045176564'
       published: 2024-10-12-18-08-36
-      updated: 2024-10-18-20-08-24
+      updated: 2024-10-19-21-02-43
       followers: 1464
       likes: 105
-      views: 411
+      views: 415
     - service: vk
       id: 1820
       published: 2024-10-12-18-08-42
-      updated: 2024-10-18-21-01-58
+      updated: 2024-10-19-21-02-44
       followers: 961
       likes: 42
-      views: 277
+      views: 302
       reposts: 1
+      comments: !c |-
+        Cx2AkZPLQnkqY71QAACoZGV1czE5ODnZJdCf0YDQuNGA0YPRh9C10L3QvdCw0Y8g0YHQstGP0YLQ
+        vtGI0LAD
     - service: tg
       id: 562
       published: 2024-10-12-18-08-48
-      updated: 2024-10-18-20-08-27
+      updated: 2024-10-19-21-02-43
       followers: 557
-      likes: 53
-      views: 317
+      likes: 54
+      views: 352
 2017-10-18-recollecting-the-first-steps:
   title: Recollecting the First Steps
   titleRu: Вспоминая первые шаги
@@ -10348,26 +10351,26 @@
       id: DBEudx2T7bF
       mediaId: '18098027545462109'
       published: 2024-10-13-18-09-10
-      updated: 2024-10-18-20-08-23
+      updated: 2024-10-19-21-02-42
       followers: 1463
-      likes: 96
-      views: 405
+      likes: 98
+      views: 410
     - service: vk
       id: 1821
       published: 2024-10-13-18-09-16
-      updated: 2024-10-18-20-08-27
+      updated: 2024-10-19-21-02-43
       followers: 963
       likes: 40
-      views: 283
-      reposts: 2
+      views: 310
+      reposts: 1
       comments: !c ixmAkZPLQnkolF5EAACscGV0ZWV2YW5kcmV3u9Ch0LXQudGH0LDRgSDRgdC60YPRiNCw0LXRggM=
     - service: tg
       id: 563
       published: 2024-10-13-18-09-22
-      updated: 2024-10-18-20-08-26
+      updated: 2024-10-19-21-02-42
       followers: 559
-      likes: 58
-      views: 289
+      likes: 59
+      views: 302
       comments: !c |-
         Cx2AkpPLQnkocZSBAACuZGlzbWFzdGVyZnJhbmWoQ29vbCBwaWOTy0J5KHFW+wAAqUdhdGVtYXRl
         N6N3dGYD
