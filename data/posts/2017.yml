@@ -577,7 +577,7 @@
     - service: vk
       id: 1491
       published: 2024-04-12-18-14-50
-      updated: 2024-10-12-06-09-42
+      updated: 2024-10-19-07-02-58
       followers: 911
       likes: 35
       views: 266
@@ -585,10 +585,10 @@
     - service: tg
       id: 376
       published: 2024-04-12-18-15-00
-      updated: 2024-10-12-06-09-41
+      updated: 2024-10-19-07-02-58
       followers: 352
       likes: 70
-      views: 461
+      views: 462
       comments: !c |-
         G3kCICwOeHPoJNT0dgTVz0b0TxysCP/kgSRBxlEgcVjABcGRnOxTdSMYodAkCN/vK5SzFXt/92vU
         bJIm1nd3w9venyuqqBayEqSCS7uerJZP65+m2NyG1hh0Ux8fFA7oVxM/3TgWZoElGng0tkYQYIC9
@@ -2564,26 +2564,26 @@
       id: DBPBpc4MUXA
       mediaId: '18344521246130102'
       published: 2024-10-17-18-09-10
-      updated: 2024-10-19-06-09-35
+      updated: 2024-10-19-07-02-54
       followers: 1471
       likes: 86
-      views: 512
+      views: 513
     - service: vk
       id: 1840
       published: 2024-10-17-18-09-16
-      updated: 2024-10-19-06-09-37
+      updated: 2024-10-19-07-02-56
       followers: 965
       likes: 32
-      views: 176
+      views: 177
       reposts: 1
       comments: !c iwuAkZPLQnkp0j58gACnaHlhcnZhcqTwn6WwAw==
     - service: tg
       id: 567
       published: 2024-10-17-18-09-22
-      updated: 2024-10-19-06-09-36
+      updated: 2024-10-19-07-02-55
       followers: 562
       likes: 54
-      views: 180
+      views: 183
 2017-03-13-sandy-shore:
   title: Sandy Shore
   titleRu: Песчаный берег
@@ -3871,24 +3871,24 @@
       id: DBRml27BKnW
       mediaId: '18064159015726374'
       published: 2024-10-18-18-10-29
-      updated: 2024-10-19-06-09-35
+      updated: 2024-10-19-07-02-53
       followers: 1472
-      likes: 97
-      views: 355
+      likes: 100
+      views: 367
     - service: tg
       id: 568
       published: 2024-10-18-18-10-48
-      updated: 2024-10-19-06-09-36
+      updated: 2024-10-19-07-02-55
       followers: 561
-      likes: 41
-      views: 120
+      likes: 43
+      views: 125
     - service: vk
       id: 1842
       published: 2024-10-18-19-02-17
-      updated: 2024-10-19-06-09-36
+      updated: 2024-10-19-07-02-54
       followers: 965
-      likes: 25
-      views: 111
+      likes: 26
+      views: 120
       reposts: 1
 2017-04-19-moonmoth-in-the-night:
   title: Moonmoth in the Night
@@ -4251,17 +4251,17 @@
     - service: vk
       id: 1545
       published: 2024-05-24-18-19-24
-      updated: 2024-10-12-06-09-41
+      updated: 2024-10-19-07-02-57
       followers: 917
       likes: 38
       views: 287
     - service: tg
       id: 418
       published: 2024-05-24-18-19-31
-      updated: 2024-10-12-06-09-40
+      updated: 2024-10-19-07-02-57
       followers: 376
       likes: 57
-      views: 496
+      views: 497
       comments: !c |-
         ix6AkZTLQnj6vWCNAACpQm9yaXNfaW5rs9Ch0L7Qu9GF0YHRgtC10LnQvD+Ty0J4+r5/qQAApW13
         c2NypNCU0LAD
