@@ -4,7 +4,39 @@
 
 # Posted in 2024
 
-`235 items`
+`236 items`
+
+## <span id="2024-10-19-a-bit-of-food-drink-and-knowledge">A Bit of Food, Drink and Knowledge</span>
+
+`RU` Немного еды, напитков и знаний
+
+<a href="https://instagram.com/p/BgmMJcyBZDu/" title="2018-03-21-a-bit-of-food-drink-and-knowledge"><img alt="store:/shots/2018-03-21-a-bit-of-food-drink-and-knowledge.png" src="../../assets/previews/shots/2018-03-21-a-bit-of-food-drink-and-knowledge.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-19-a-bit-of-food-drink-and-knowledge&postLocation=)</code> `🚀 OpenMW` `candle` `book` `food` `drink` `table`
+
+```
+2024-10-19-a-bit-of-food-drink-and-knowledge
+```
+
+> `2018-03-21-a-bit-of-food-drink-and-knowledge`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BgmMJcyBZDu/)       | 2018-03-21 |       |    89 |       308 |   28.9 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_659)  | 2018-03-21 |   226 |    11 |       144 |   7.64 |
+| [`ig`](https://instagram.com/p/DBULMskyMjC/)       | 2024-10-19 |       |       |      1472 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1844) | 2024-10-19 |       |       |       970 |        |
+| [`tg`](https://t.me/mwscr/569)                     | 2024-10-19 |       |       |       561 |        |
+|                                                    |            |       |       |      3003 |  18.27 |
+
+#### Comments
+
+- `ig` <ins title="2018-03-21-20-08-34">thenazzaro</ins> woOoOOoow
+- `ig` <ins title="2018-03-22-19-00-43">elafantequila</ins> 👍👋
 
 ## <span id="2024-10-18-azura-and-fallen-nerevarines">Azura and Fallen Nerevarines</span>
 
@@ -28,14 +60,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTBTfg3Duvc/)       | 2017-04-18 |       |    70 |       172 |   40.7 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_262)  | 2017-04-18 |   157 |     7 |        52 |  13.46 |
-| [`ig`](https://instagram.com/p/DBRml27BKnW/)       | 2024-10-18 |   486 |   117 |      1472 |   7.95 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1842) | 2024-10-18 |   190 |    33 |       965 |   3.52 |
-| [`tg`](https://t.me/mwscr/568)                     | 2024-10-18 |   148 |    49 |       561 |   8.73 |
-|                                                    |            |   824 |   199 |      2998 |  14.87 |
+| [`ig`](https://instagram.com/p/DBRml27BKnW/)       | 2024-10-18 |   497 |   118 |      1472 |   8.02 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1842) | 2024-10-18 |   195 |    34 |       965 |   3.63 |
+| [`tg`](https://t.me/mwscr/568)                     | 2024-10-18 |   152 |    49 |       561 |   8.73 |
+|                                                    |            |   844 |   201 |      2998 |  14.91 |
 
 #### Comments
 
 - `tg` <ins title="2024-10-19-11-58-52">Loftydelusion</ins> wow
+- `vk` <ins title="2024-10-19-17-10-33">id810900694</ins> Вообще жаль, что многие локации были &quot;одноразовыми&quot; - ты туда сходил, посмотрел, сделал свои дела и всё.<br>Нет бы какую привязку к чему-нибудь ещё сделать - типа даэдрического квеста, но многоразового.<br>Всё же архитектура вполне себе впечатляющая и как-то всё это дело простаивает.
 
 ## <span id="2024-10-17-silhouettes">Silhouettes</span>
 
@@ -59,10 +92,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRhrSmED2vm/)       | 2017-03-12 |       |    48 |       105 |  45.71 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_200)  | 2017-03-12 |   141 |     7 |        46 |      7 |
-| [`ig`](https://instagram.com/p/DBPBpc4MUXA/)       | 2024-10-17 |   539 |    94 |      1471 |   6.39 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1840) | 2024-10-17 |   201 |    33 |       965 |   3.52 |
-| [`tg`](https://t.me/mwscr/567)                     | 2024-10-17 |   194 |    56 |       562 |   9.96 |
-|                                                    |            |   934 |   183 |      2998 |  14.52 |
+| [`ig`](https://instagram.com/p/DBPBpc4MUXA/)       | 2024-10-17 |   543 |    94 |      1471 |   6.39 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1840) | 2024-10-17 |   205 |    33 |       965 |   3.52 |
+| [`tg`](https://t.me/mwscr/567)                     | 2024-10-17 |   195 |    56 |       562 |   9.96 |
+|                                                    |            |   943 |   183 |      2998 |  14.52 |
 
 #### Comments
 
