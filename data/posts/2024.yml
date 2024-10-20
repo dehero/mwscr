@@ -129,18 +129,18 @@
     - service: vk
       id: 1433
       published: 2024-03-02-18-18-15
-      updated: 2024-10-13-20-07-59
+      updated: 2024-10-20-21-06-03
       followers: 895
       likes: 32
-      views: 286
+      views: 287
       comments: !c CxWAkZPLQnjgl4lCgACpaWQ0OTM2NTEztdC+0YHRgtGA0L7Rg9C80L3QvuKdpAM=
     - service: tg
       id: 333
       published: 2024-03-02-18-18-22
-      updated: 2024-10-13-20-07-57
+      updated: 2024-10-20-21-06-01
       followers: 340
       likes: 71
-      views: 556
+      views: 558
 2024-03-03-exit: 2018-02-28-exit
 2024-03-04-an-old-sprout:
   title: An Old Sprout
