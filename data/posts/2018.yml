@@ -1825,17 +1825,17 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2024-10-13-02-15-20
+      updated: 2024-10-20-02-17-47
       followers: 927
       likes: 26
-      views: 251
+      views: 255
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
-      updated: 2024-10-13-02-15-18
+      updated: 2024-10-20-02-17-44
       followers: 514
       likes: 54
-      views: 550
+      views: 557
       comments: !c |-
         G7gAABypvX60oN8IlX7Pun5bvnzvKtlkf9GhcOYLoW+CyJDXBIUbnEASJhgIr9NgOk4jrmclAMWJ
         b4Nj96y0r2EVQayxqQKanPotglmsvvgAJ3AAt3ADp1jC7t0NrrAEB1hu4Qgb2KUj5yc2yfmVnmbD
@@ -2705,17 +2705,18 @@
       id: DBULMskyMjC
       mediaId: '18463227874045976'
       published: 2024-10-19-18-08-52
-      updated: 2024-10-20-00-39-05
+      updated: 2024-10-20-02-17-41
       followers: 1472
-      likes: 45
-      views: 164
+      likes: 49
+      views: 176
     - service: vk
       id: 1844
       published: 2024-10-19-18-08-58
-      updated: 2024-10-20-00-39-05
+      updated: 2024-10-20-02-17-42
       followers: 970
-      likes: 14
-      views: 100
+      likes: 17
+      views: 109
+      reposts: 1
       comments: !c |-
         GyUBAJwHtuOVhcGPdFyYKBzjn/dv85/A28e2GDJsCUaYnKtz05CbMX7Mjw+4qttivSDiqznth6Pn
         wjE1WzYFO0WMLI9ODjTyADSwwNoieEKBZtY8DKHATRbozGoTHhw87z8+Xf+s764XYqLG9e0DlyET
@@ -2724,10 +2725,10 @@
     - service: tg
       id: 569
       published: 2024-10-19-18-09-05
-      updated: 2024-10-20-00-39-06
+      updated: 2024-10-20-02-17-41
       followers: 561
-      likes: 34
-      views: 180
+      likes: 36
+      views: 189
 2018-03-22-welcome-to-vivec-scum:
   title: Welcome to Vivec, Scum
   titleRu: Добро пожаловать в Вивек, ничтожество
@@ -4740,18 +4741,18 @@
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2024-10-13-02-15-23
+      updated: 2024-10-20-02-17-49
       followers: 919
-      likes: 55
-      views: 808
+      likes: 56
+      views: 812
       reposts: 5
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2024-10-13-02-15-20
+      updated: 2024-10-20-02-17-46
       followers: 400
       likes: 66
-      views: 602
+      views: 604
       comments: !c CxWAkZPLQnkNGo4EAACpR2F0ZW1hdGU3tXRoaXMgaXMgZnJvbSAyMDE4IHRobwM=
 2018-05-17-inviting-nchuleft:
   title: Inviting Nchuleft
@@ -6810,17 +6811,17 @@
     - service: vk
       id: 1666
       published: 2024-08-03-18-19-32
-      updated: 2024-10-13-02-15-21
+      updated: 2024-10-20-02-17-48
       followers: 925
       likes: 33
-      views: 278
+      views: 282
     - service: tg
       id: 489
       published: 2024-08-03-18-19-41
-      updated: 2024-10-13-02-15-19
+      updated: 2024-10-20-02-17-45
       followers: 428
       likes: 56
-      views: 6344
+      views: 6361
       comments: !c |-
         izGAkZTLQnkRxbvWAACrVmVicmFuZGVub0uk8J+YjZPLQnkRxdocAAClYW5zaXPZNmV2ZXJ5IGdy
         YXplbGFuZGVyIGJveSBsb3ZlcyBoaW1zZWxmIGEgZ3VhciBoZXJkZXIgZ2lybAM=
