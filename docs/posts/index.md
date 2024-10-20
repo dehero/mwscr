@@ -4,7 +4,35 @@
 
 # Posted in 2024
 
-`236 items`
+`237 items`
+
+## <span id="2024-10-20-evening-road">Evening Road</span>
+
+`RU` Вечерняя дорога
+
+<a href="https://instagram.com/p/Buk4QUYhePJ/" title="2019-03-04-evening-road"><img alt="store:/shots/2019-03-04-evening-road.png" src="../../assets/previews/shots/2019-03-04-evening-road.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-20-evening-road&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-10-20-evening-road
+```
+
+> `2019-03-04-evening-road`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Buk4QUYhePJ/)       | 2019-03-04 |       |   128 |       783 |  16.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1141) | 2019-03-04 |   819 |    58 |       330 |  18.48 |
+| [`tg`](https://t.me/mwscr/160)                     | 2019-03-04 |   585 |     2 |           |        |
+| [`ig`](https://instagram.com/p/DBWwBjztjBl/)       | 2024-10-20 |       |       |      1473 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1847) | 2024-10-20 |       |       |       986 |        |
+| [`tg`](https://t.me/mwscr/570)                     | 2024-10-20 |       |       |       561 |        |
+|                                                    |            |       |       |      3020 |  17.42 |
 
 ## <span id="2024-10-19-a-bit-of-food-drink-and-knowledge">A Bit of Food, Drink and Knowledge</span>
 
@@ -28,10 +56,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BgmMJcyBZDu/)       | 2018-03-21 |       |    89 |       308 |   28.9 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_659)  | 2018-03-21 |   226 |    11 |       144 |   7.64 |
-| [`ig`](https://instagram.com/p/DBULMskyMjC/)       | 2024-10-19 |   253 |    70 |      1472 |   4.76 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1844) | 2024-10-19 |   201 |    27 |       970 |   2.89 |
-| [`tg`](https://t.me/mwscr/569)                     | 2024-10-19 |   262 |    40 |       561 |   7.13 |
-|                                                    |            |   716 |   137 |      3003 |  10.26 |
+| [`ig`](https://instagram.com/p/DBULMskyMjC/)       | 2024-10-19 |   260 |    70 |      1472 |   4.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1844) | 2024-10-19 |   207 |    27 |       970 |   2.89 |
+| [`tg`](https://t.me/mwscr/569)                     | 2024-10-19 |   267 |    40 |       561 |   7.13 |
+|                                                    |            |   734 |   137 |      3003 |  10.26 |
 
 #### Comments
 
@@ -61,10 +89,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTBTfg3Duvc/)       | 2017-04-18 |       |    70 |       172 |   40.7 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_262)  | 2017-04-18 |   157 |     7 |        52 |  13.46 |
-| [`ig`](https://instagram.com/p/DBRml27BKnW/)       | 2024-10-18 |   749 |   136 |      1472 |   9.24 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1842) | 2024-10-18 |   258 |    38 |       965 |   4.04 |
-| [`tg`](https://t.me/mwscr/568)                     | 2024-10-18 |   273 |    52 |       561 |   9.27 |
-|                                                    |            |  1280 |   226 |      2998 |  15.34 |
+| [`ig`](https://instagram.com/p/DBRml27BKnW/)       | 2024-10-18 |   766 |   137 |      1472 |   9.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1842) | 2024-10-18 |   262 |    38 |       965 |   4.04 |
+| [`tg`](https://t.me/mwscr/568)                     | 2024-10-18 |   275 |    52 |       561 |   9.27 |
+|                                                    |            |  1303 |   227 |      2998 |  15.36 |
 
 #### Comments
 
@@ -93,10 +121,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRhrSmED2vm/)       | 2017-03-12 |       |    48 |       105 |  45.71 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_200)  | 2017-03-12 |   141 |     7 |        46 |      7 |
-| [`ig`](https://instagram.com/p/DBPBpc4MUXA/)       | 2024-10-17 |   543 |    94 |      1471 |   6.39 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1840) | 2024-10-17 |   205 |    33 |       965 |   3.52 |
-| [`tg`](https://t.me/mwscr/567)                     | 2024-10-17 |   195 |    56 |       562 |   9.96 |
-|                                                    |            |   943 |   183 |      2998 |  14.52 |
+| [`ig`](https://instagram.com/p/DBPBpc4MUXA/)       | 2024-10-17 |   602 |    97 |      1471 |   6.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1840) | 2024-10-17 |   261 |    36 |       965 |   3.83 |
+| [`tg`](https://t.me/mwscr/567)                     | 2024-10-17 |   293 |    58 |       562 |  10.32 |
+|                                                    |            |  1156 |   191 |      2998 |  14.69 |
 
 #### Comments
 
