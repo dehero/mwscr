@@ -1,7 +1,7 @@
 import './Page.css';
 import { DocumentEventListener } from '@solid-primitives/event-listener';
 import { debounce } from '@solid-primitives/scheduled';
-import { type Component, createSignal, type JSX } from 'solid-js';
+import { type Component, createSignal, type JSX, Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { Frame } from '../Frame/Frame.js';
@@ -28,7 +28,9 @@ export const Page: Component<PageProps> = (props) => {
 
   return (
     <>
-      <YandexMetrikaCounter />
+      <Show when={import.meta.env.MODE === 'production'}>
+        <YandexMetrikaCounter />
+      </Show>
 
       <Toaster
         initialToasts={[
