@@ -40,7 +40,7 @@ export const postsRoute: SiteRoute<PostsRouteParams, PostsPageData, PostsPageInf
   guard: ({ managerName }) => Object.keys(postsRouteInfos).includes(managerName),
   info: ({ managerName }, data) => ({
     ...postsRouteInfos[managerName],
-    imageUrl: data?.postInfos[0]?.content,
+    imageUrl: data?.lastPostInfos[0]?.content,
   }),
   createUrl: (params) => {
     const { managerName, ...rest } = params;

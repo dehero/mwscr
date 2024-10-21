@@ -6,19 +6,18 @@ import type { PostsPageData } from '../../components/PostsPage/PostsPage.js';
 export async function data(pageContext: PageContext): Promise<PostsPageData> {
   const managerName = POSTS_MANAGER_INFOS.find((info) => info.id === pageContext.routeParams?.managerName)?.id;
   if (!managerName) {
-    return { postInfos: [], authorOptions: [], requesterOptions: [], locationInfos: [], tagOptions: [] };
+    return { lastPostInfos: [], authorInfos: [], requesterInfos: [], locationInfos: [], tagOptions: [] };
   }
 
-  const postInfos = await localDataExtractor.getAllPostInfos(managerName);
-  const authorOptions = await localDataExtractor.getAuthorOptions(managerName);
-  const requesterOptions = await localDataExtractor.getRequesterOptions(managerName);
+  const lastPostInfos = await localDataExtractor.selectPostInfos(managerName, {}, 18);
+  const userInfos = await localDataExtractor.getAllUserInfos();
   const locationInfos = await localDataExtractor.getAllLocationInfos();
   const tagOptions = await localDataExtractor.getTagOptions(managerName);
 
   return {
-    postInfos,
-    authorOptions,
-    requesterOptions,
+    lastPostInfos,
+    authorInfos: userInfos.filter((info) => info.authored?.[managerName]),
+    requesterInfos: userInfos.filter((info) => info.requested?.[managerName]),
     locationInfos: locationInfos.filter((info) => info.discovered?.[managerName]),
     tagOptions,
   };

@@ -89,8 +89,8 @@ export interface SelectPostInfosParams {
   violation?: PostViolation | typeof ANY_OPTION.value | typeof NONE_OPTION.value;
   publishable?: boolean;
   original?: boolean;
-  sortKey: SelectPostInfosSortKey;
-  sortDirection: SortDirection;
+  sortKey?: SelectPostInfosSortKey;
+  sortDirection?: SortDirection;
   date?: DateRange;
 }
 
@@ -196,7 +196,7 @@ export const selectPostInfos = (postInfos: PostInfo[], params: SelectPostInfosPa
     selectPostInfosSortOptions.find((comparator) => comparator.value === params.sortKey)?.fn ?? comparePostInfosByDate;
   const searchTokens = getSearchTokens(params.search);
 
-  return [...postInfos].sort(comparator(params.sortDirection)).filter((info) => {
+  return [...postInfos].sort(comparator(params.sortDirection ?? 'desc')).filter((info) => {
     const date = getPostDateById(info.id);
 
     return Boolean(

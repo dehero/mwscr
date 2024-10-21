@@ -9,9 +9,9 @@ import { comparePostEntriesByDate, getPostEntriesFromSource } from './post.js';
 import type { PostInfo, SelectPostInfosParams } from './post-info.js';
 import { createPostInfo, selectPostInfos } from './post-info.js';
 import type { PostsManager, PostsManagerName } from './posts-manager.js';
-import { getUserEntryTitle } from './user.js';
-import type { UserInfo } from './user-info.js';
-import { createUserInfo } from './user-info.js';
+// import { getUserEntryTitle } from './user.js';
+import type { SelectUserInfosParams, UserInfo } from './user-info.js';
+import { createUserInfo, selectUserInfos } from './user-info.js';
 import type { UsersManager } from './users-manager.js';
 
 export interface DataExtractorArgs {
@@ -102,34 +102,6 @@ export class DataExtractor {
     });
   }
 
-  async getAuthorOptions(managerName: string): Promise<Option<string>[]> {
-    const manager = this.findPostsManager(managerName);
-    if (!manager) {
-      throw new Error(`Cannot find posts manager "${managerName}"`);
-    }
-
-    const usedAuthorIds = await manager.getAuthorsUsageStats();
-    const authors = await this.users.getEntries([...usedAuthorIds.keys()]);
-
-    return authors
-      .map((entry) => ({ value: entry[0], label: `${getUserEntryTitle(entry)} (${usedAuthorIds.get(entry[0])})` }))
-      .sort((a, b) => a.label.localeCompare(b.label));
-  }
-
-  async getRequesterOptions(managerName: string): Promise<Option<string>[]> {
-    const manager = this.findPostsManager(managerName);
-    if (!manager) {
-      throw new Error(`Cannot find posts manager "${managerName}"`);
-    }
-
-    const usedRequesterIds = await manager.getRequesterUsageStats();
-    const requesters = await this.users.getEntries([...usedRequesterIds.keys()]);
-
-    return requesters
-      .map((entry) => ({ value: entry[0], label: `${getUserEntryTitle(entry)} (${usedRequesterIds.get(entry[0])})` }))
-      .sort((a, b) => a.label.localeCompare(b.label));
-  }
-
   async getTagOptions(managerName: string): Promise<Option<string>[]> {
     const manager = this.findPostsManager(managerName);
     if (!manager) {
@@ -174,6 +146,13 @@ export class DataExtractor {
   ): Promise<PostInfo[]> {
     const postInfos = await this.getAllPostInfos(managerName);
     const result = selectPostInfos(postInfos, params);
+
+    return typeof size === 'undefined' ? result : result.slice(0, size);
+  }
+
+  async selectUserInfos(params: SelectUserInfosParams, size?: number) {
+    const userInfos = await this.getAllUserInfos();
+    const result = selectUserInfos(userInfos, params);
 
     return typeof size === 'undefined' ? result : result.slice(0, size);
   }

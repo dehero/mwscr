@@ -53,17 +53,39 @@ export const Parameters: Component<ParametersProps> = (props) => {
 
   const [isSearching, setIsSearching] = createSignal(false);
 
-  const { tagOptions, locationInfos, authorOptions, requesterOptions } = useData<PostsPageData>();
+  const { tagOptions, locationInfos, authorInfos, requesterInfos } = useData<PostsPageData>();
   const locationOptions = createMemo((): LocationOption[] => [
     ALL_OPTION,
     ANY_OPTION,
     NONE_OPTION,
-    ...locationInfos.map((info) => ({
-      label: info.title,
-      value: info.title,
-      postCount: info.discovered?.[props.parameters.routeParams().managerName],
-      info,
-    })),
+    ...locationInfos
+      .map((info) => ({
+        label: info.title,
+        value: info.title,
+        postCount: info.discovered?.[props.parameters.routeParams().managerName],
+        info,
+      }))
+      .sort((a, b) => a.label.localeCompare(b.label)),
+  ]);
+  const authorOptions = createMemo((): Option[] => [
+    ALL_OPTION,
+    ...authorInfos.map(
+      (info): Option => ({
+        label: `${info.title} (${info.authored?.[props.parameters.routeParams().managerName]})`,
+        value: info.id,
+      }),
+    ),
+  ]);
+  const requesterOptions = createMemo((): Option[] => [
+    ALL_OPTION,
+    ANY_OPTION,
+    NONE_OPTION,
+    ...requesterInfos.map(
+      (info): Option => ({
+        label: `${info.title} (${info.requested?.[props.parameters.routeParams().managerName]})`,
+        value: info.id,
+      }),
+    ),
   ]);
 
   const locationOption = createMemo(() =>
@@ -250,7 +272,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                   <div class={styles.selectWrapper}>
                     <Select
                       name="author"
-                      options={[ALL_OPTION, ...authorOptions]}
+                      options={authorOptions()}
                       value={props.parameters.author()}
                       onChange={props.parameters.setAuthor}
                       class={styles.select}
@@ -264,7 +286,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                   <div class={styles.selectWrapper}>
                     <Select
                       name="requester"
-                      options={[ALL_OPTION, ANY_OPTION, NONE_OPTION, ...requesterOptions]}
+                      options={requesterOptions()}
                       value={props.parameters.requester()}
                       onChange={props.parameters.setRequester}
                       class={styles.select}

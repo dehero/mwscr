@@ -32,8 +32,8 @@ export interface SelectUserInfoSortOption extends Option {
 export interface SelectUserInfosParams {
   role?: UserRole;
   search?: string;
-  sortKey: SelectUserInfosSortKey;
-  sortDirection: SortDirection;
+  sortKey?: SelectUserInfosSortKey;
+  sortDirection?: SortDirection;
 }
 
 export const selectUserInfosSortOptions = [
@@ -126,7 +126,8 @@ export function compareUserInfosByContribution(direction: SortDirection): UserIn
 
 export function selectUserInfos(userInfos: UserInfo[], params: SelectUserInfosParams) {
   const comparator =
-    selectUserInfosSortOptions.find((comparator) => comparator.value === params.sortKey)?.fn ?? compareUserInfosById;
+    selectUserInfosSortOptions.find((comparator) => comparator.value === params.sortKey)?.fn ??
+    compareUserInfosByContribution;
   const searchTokens = getSearchTokens(params.search);
 
   return userInfos
@@ -135,7 +136,7 @@ export function selectUserInfos(userInfos: UserInfo[], params: SelectUserInfosPa
         (typeof params.role === 'undefined' || info.roles.includes(params.role)) &&
         search(searchTokens, [info.title, info.id]),
     )
-    .sort(comparator(params.sortDirection));
+    .sort(comparator(params.sortDirection ?? 'desc'));
 }
 
 export function selectUserInfosResultToString(count: number, params: SelectUserInfosParams) {

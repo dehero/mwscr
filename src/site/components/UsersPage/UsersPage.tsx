@@ -1,19 +1,16 @@
 import { createMediaQuery } from '@solid-primitives/media';
 import { makePersisted } from '@solid-primitives/storage';
-import { type Component, createSignal, For, Show } from 'solid-js';
+import { type Component, createResource, createSignal, For, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION } from '../../../core/entities/option.js';
 import type { UserRole } from '../../../core/entities/user.js';
 import { USER_ROLES } from '../../../core/entities/user.js';
 import type { SelectUserInfosParams, SelectUserInfosSortKey, UserInfo } from '../../../core/entities/user-info.js';
-import {
-  selectUserInfos,
-  selectUserInfosResultToString,
-  selectUserInfosSortOptions,
-} from '../../../core/entities/user-info.js';
+import { selectUserInfosResultToString, selectUserInfosSortOptions } from '../../../core/entities/user-info.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { isObjectEqual } from '../../../core/utils/common-utils.js';
+import { siteDataExtractor } from '../../data-managers/extractor.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
 import { Button } from '../Button/Button.js';
 import { Checkbox } from '../Checkbox/Checkbox.jsx';
@@ -59,12 +56,12 @@ const presets = [
 ] as const satisfies UsersPagePreset[];
 
 export interface UsersPageData {
-  userInfos: UserInfo[];
+  firstUserInfos: UserInfo[];
 }
 
 export const UsersPage: Component = () => {
   const [searchParams, setSearchParams] = useSearchParams<UsersPageSearchParams>();
-  const { userInfos } = useData<UsersPageData>();
+  const { firstUserInfos } = useData<UsersPageData>();
   const narrowScreen = createMediaQuery('(max-width: 811px)');
 
   const presetOptions = (): UsersPagePreset[] => {
@@ -107,7 +104,10 @@ export const UsersPage: Component = () => {
     sortDirection: sortDirection(),
   });
 
-  const selectedUserInfos = () => selectUserInfos(userInfos, selectParams());
+  const [selectedUserInfos] = createResource(selectParams, (params) => siteDataExtractor.selectUserInfos(params));
+
+  const userInfos = () =>
+    selectedUserInfos.state === 'ready' ? selectedUserInfos() : selectedUserInfos.latest || firstUserInfos;
 
   return (
     <Frame component="main" class={styles.container}>
@@ -190,9 +190,9 @@ export const UsersPage: Component = () => {
       </Frame>
 
       <Frame class={styles.usersWrapper}>
-        <p class={styles.label}>{selectUserInfosResultToString(selectedUserInfos().length, selectParams())}</p>
+        <p class={styles.label}>{selectUserInfosResultToString(userInfos().length, selectParams())}</p>
         <div class={styles.users}>
-          <For each={selectedUserInfos()}>{(info) => <UserPreview userInfo={info} />}</For>
+          <For each={userInfos()}>{(info) => <UserPreview userInfo={info} />}</For>
         </div>
       </Frame>
     </Frame>
