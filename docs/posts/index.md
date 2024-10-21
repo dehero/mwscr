@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/BouRBUUhqdU/)       | 2018-10-09 |       |   103 |       441 |  23.36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_969)  | 2018-10-09 |   479 |    32 |       253 |  12.65 |
 | [`tg`](https://t.me/mwscr/73)                      | 2018-10-09 |   209 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DBZU_jdNLUn/)       | 2024-10-21 |       |    23 |      1473 |   1.56 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1848) | 2024-10-21 |    54 |     5 |       993 |    0.5 |
-| [`tg`](https://t.me/mwscr/571)                     | 2024-10-21 |    68 |    17 |       562 |   3.02 |
-|                                                    |            |   122 |    45 |      3028 |   8.22 |
+| [`ig`](https://instagram.com/p/DBZU_jdNLUn/)       | 2024-10-21 |   105 |    44 |      1473 |   2.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1848) | 2024-10-21 |    81 |    10 |       993 |   1.01 |
+| [`tg`](https://t.me/mwscr/571)                     | 2024-10-21 |    89 |    25 |       562 |   4.45 |
+|                                                    |            |   275 |    79 |      3028 |   8.89 |
 
 #### Comments
 
@@ -65,10 +65,10 @@
 | [`ig`](https://instagram.com/p/Buk4QUYhePJ/)       | 2019-03-04 |       |   128 |       783 |  16.35 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1141) | 2019-03-04 |   819 |    58 |       330 |  18.48 |
 | [`tg`](https://t.me/mwscr/160)                     | 2019-03-04 |   585 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DBWwBjztjBl/)       | 2024-10-20 |   456 |   102 |      1473 |   6.92 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1847) | 2024-10-20 |   212 |    39 |       986 |   3.96 |
-| [`tg`](https://t.me/mwscr/570)                     | 2024-10-20 |   166 |    53 |       561 |   9.45 |
-|                                                    |            |   834 |   194 |      3020 |  11.03 |
+| [`ig`](https://instagram.com/p/DBWwBjztjBl/)       | 2024-10-20 |   467 |   102 |      1473 |   6.92 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1847) | 2024-10-20 |   214 |    39 |       986 |   3.96 |
+| [`tg`](https://t.me/mwscr/570)                     | 2024-10-20 |   170 |    53 |       561 |   9.45 |
+|                                                    |            |   851 |   194 |      3020 |  11.03 |
 
 #### Comments
 
