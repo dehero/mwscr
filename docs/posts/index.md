@@ -4,7 +4,43 @@
 
 # Posted in 2024
 
-`237 items`
+`238 items`
+
+## <span id="2024-10-21-severe-innkeeper">Severe Innkeeper</span>
+
+`RU` Суровый трактирщик
+
+<a href="https://instagram.com/p/BouRBUUhqdU/" title="2018-10-09-severe-innkeeper"><img alt="store:/shots/2018-10-09-severe-innkeeper.png" src="../../assets/previews/shots/2018-10-09-severe-innkeeper.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-21-severe-innkeeper&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-10-21-severe-innkeeper
+```
+
+> `2018-10-09-severe-innkeeper`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BouRBUUhqdU/)       | 2018-10-09 |       |   103 |       441 |  23.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_969)  | 2018-10-09 |   479 |    32 |       253 |  12.65 |
+| [`tg`](https://t.me/mwscr/73)                      | 2018-10-09 |   209 |     2 |           |        |
+| [`ig`](https://instagram.com/p/DBZU_jdNLUn/)       | 2024-10-21 |       |       |      1473 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1848) | 2024-10-21 |       |       |       993 |        |
+| [`tg`](https://t.me/mwscr/571)                     | 2024-10-21 |       |       |       562 |        |
+|                                                    |            |       |       |      3028 |     18 |
+
+#### Comments
+
+- `vk` <ins title="2018-10-10-01-20-31">dead___end</ins> Это где такой?)
+- `vk` <ins title="2018-10-10-03-01-07">dehero</ins> Владимир, это Трактир Варо в Восе.
+- `vk` <ins title="2018-10-10-16-22-18">dead___end</ins> Антон, не знаю, с ним торговлю не вёл. Но думаю, что он преуспевает:)
+- `vk` <ins title="2018-10-10-18-22-17">jeff_baldein</ins> Трактирщик с лицом палача 💀
+- `vk` <ins title="2018-10-12-07-14-03">dead___end</ins> Макс, так в 90-ые такие только и делали бизнес
 
 ## <span id="2024-10-20-evening-road">Evening Road</span>
 
@@ -29,10 +65,10 @@
 | [`ig`](https://instagram.com/p/Buk4QUYhePJ/)       | 2019-03-04 |       |   128 |       783 |  16.35 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1141) | 2019-03-04 |   819 |    58 |       330 |  18.48 |
 | [`tg`](https://t.me/mwscr/160)                     | 2019-03-04 |   585 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DBWwBjztjBl/)       | 2024-10-20 |   450 |    99 |      1473 |   6.72 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1847) | 2024-10-20 |   206 |    39 |       986 |   3.96 |
-| [`tg`](https://t.me/mwscr/570)                     | 2024-10-20 |   147 |    51 |       561 |   9.09 |
-|                                                    |            |   803 |   189 |      3020 |  10.92 |
+| [`ig`](https://instagram.com/p/DBWwBjztjBl/)       | 2024-10-20 |   456 |   100 |      1473 |   6.79 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1847) | 2024-10-20 |   211 |    39 |       986 |   3.96 |
+| [`tg`](https://t.me/mwscr/570)                     | 2024-10-20 |   148 |    51 |       561 |   9.09 |
+|                                                    |            |   815 |   190 |      3020 |  10.93 |
 
 #### Comments
 
@@ -93,10 +129,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTBTfg3Duvc/)       | 2017-04-18 |       |    70 |       172 |   40.7 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_262)  | 2017-04-18 |   157 |     7 |        52 |  13.46 |
-| [`ig`](https://instagram.com/p/DBRml27BKnW/)       | 2024-10-18 |   766 |   137 |      1472 |   9.31 |
+| [`ig`](https://instagram.com/p/DBRml27BKnW/)       | 2024-10-18 |   823 |   142 |      1472 |   9.65 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1842) | 2024-10-18 |   264 |    38 |       965 |   4.04 |
-| [`tg`](https://t.me/mwscr/568)                     | 2024-10-18 |   275 |    52 |       561 |   9.27 |
-|                                                    |            |  1305 |   227 |      2998 |  15.36 |
+| [`tg`](https://t.me/mwscr/568)                     | 2024-10-18 |   309 |    59 |       561 |  10.52 |
+|                                                    |            |  1396 |   239 |      2998 |  15.67 |
 
 #### Comments
 
@@ -125,10 +161,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRhrSmED2vm/)       | 2017-03-12 |       |    48 |       105 |  45.71 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_200)  | 2017-03-12 |   141 |     7 |        46 |      7 |
-| [`ig`](https://instagram.com/p/DBPBpc4MUXA/)       | 2024-10-17 |   602 |    97 |      1471 |   6.59 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1840) | 2024-10-17 |   261 |    36 |       965 |   3.83 |
-| [`tg`](https://t.me/mwscr/567)                     | 2024-10-17 |   293 |    58 |       562 |  10.32 |
-|                                                    |            |  1156 |   191 |      2998 |  14.69 |
+| [`ig`](https://instagram.com/p/DBPBpc4MUXA/)       | 2024-10-17 |   613 |   100 |      1471 |    6.8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1840) | 2024-10-17 |   286 |    39 |       965 |   4.15 |
+| [`tg`](https://t.me/mwscr/567)                     | 2024-10-17 |   329 |    59 |       562 |   10.5 |
+|                                                    |            |  1228 |   198 |      2998 |  14.83 |
 
 #### Comments
 
