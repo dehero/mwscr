@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { type Component, For, Show } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import type { Link } from '../../../core/entities/link.js';
-import type { PostInfo } from '../../../core/entities/post-info.js';
+import type { PostInfoSelection } from '../../../core/entities/post-info.js';
 import { isPostsUsageEmpty } from '../../../core/entities/posts-usage.js';
 import type { UserInfo } from '../../../core/entities/user-info.js';
 import { telegram, TELEGRAM_BOT_NAME } from '../../../core/services/telegram.js';
@@ -25,18 +25,18 @@ import styles from './UserPage.module.css';
 export interface UserPageData {
   userInfo?: UserInfo;
   userLinks?: Link[];
-  lastPostInfo?: PostInfo;
-  lastOriginalPostInfo?: PostInfo;
-  firstPostInfo?: PostInfo;
-  topRatedPostInfo?: PostInfo;
-  topLikedPostInfo?: PostInfo;
-  lessLikedPostInfo?: PostInfo;
-  lastFulfilledPostInfo?: PostInfo;
-  lastProposedPostInfo?: PostInfo;
-  lastRequestedPostInfo?: PostInfo;
-  lastRejectedPostInfo?: PostInfo;
-  lastRejectedRequestInfo?: PostInfo;
-  editorsChoicePostInfo?: PostInfo;
+  lastPostInfo?: PostInfoSelection;
+  lastOriginalPostInfo?: PostInfoSelection;
+  firstPostInfo?: PostInfoSelection;
+  topRatedPostInfo?: PostInfoSelection;
+  topLikedPostInfo?: PostInfoSelection;
+  lessLikedPostInfo?: PostInfoSelection;
+  lastFulfilledPostInfo?: PostInfoSelection;
+  lastProposedPostInfo?: PostInfoSelection;
+  lastRequestedPostInfo?: PostInfoSelection;
+  lastRejectedPostInfo?: PostInfoSelection;
+  lastRejectedRequestInfo?: PostInfoSelection;
+  editorsChoicePostInfo?: PostInfoSelection;
 }
 
 export const UserPage: Component = () => {
@@ -226,24 +226,24 @@ export const UserPage: Component = () => {
             <PostHighlights
               class={styles.postHighlights}
               items={[
-                { label: 'Last Post', primary: true, postInfo: lastPostInfo },
-                { label: 'Last Original Post', primary: true, postInfo: lastOriginalPostInfo },
-                { label: 'First Post', postInfo: firstPostInfo },
-                { label: 'Top Rated Post', postInfo: topRatedPostInfo },
-                { label: "Editor's Choice Post", postInfo: editorsChoicePostInfo },
-                { label: 'Top Liked Post', postInfo: topLikedPostInfo },
-                { label: 'Less Liked Post', postInfo: lessLikedPostInfo },
-                { label: 'Last Fulfilled Request', postInfo: lastFulfilledPostInfo },
+                { label: 'Last Post', primary: true, selection: lastPostInfo },
+                { label: 'Last Original Post', primary: true, selection: lastOriginalPostInfo },
+                { label: 'First Post', selection: firstPostInfo },
+                { label: 'Top Rated Post', selection: topRatedPostInfo },
+                { label: "Editor's Choice Post", selection: editorsChoicePostInfo },
+                { label: 'Top Liked Post', selection: topLikedPostInfo },
+                { label: 'Less Liked Post', selection: lessLikedPostInfo },
+                { label: 'Last Fulfilled Request', selection: lastFulfilledPostInfo },
               ]}
             />
 
             <PostHighlights
               class={styles.postHighlights}
               items={[
-                { label: 'Last Proposal', primary: true, postInfo: lastProposedPostInfo },
-                { label: 'Last Pending Request', postInfo: lastRequestedPostInfo },
-                { label: 'Last Rejected Proposal', postInfo: lastRejectedPostInfo },
-                { label: 'Last Rejected Request', postInfo: lastRejectedRequestInfo },
+                { label: 'Last Proposal', primary: true, selection: lastProposedPostInfo },
+                { label: 'Last Pending Request', selection: lastRequestedPostInfo },
+                { label: 'Last Rejected Proposal', selection: lastRejectedPostInfo },
+                { label: 'Last Rejected Request', selection: lastRejectedRequestInfo },
               ]}
             />
           </Frame>

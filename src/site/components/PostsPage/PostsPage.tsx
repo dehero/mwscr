@@ -6,7 +6,11 @@ import { usePageContext } from 'vike-solid/usePageContext';
 import type { LocationInfo } from '../../../core/entities/location-info.js';
 import type { Option } from '../../../core/entities/option.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
-import type { PostInfo, SelectPostInfosParams, SelectPostInfosSortKey } from '../../../core/entities/post-info.js';
+import type {
+  PostInfoSelection,
+  SelectPostInfosParams,
+  SelectPostInfosSortKey,
+} from '../../../core/entities/post-info.js';
 import { selectPostInfosResultToString } from '../../../core/entities/post-info.js';
 import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
 import type { UserInfo } from '../../../core/entities/user-info.js';
@@ -35,7 +39,7 @@ export interface PostsPageSearchParams {
 }
 
 export interface PostsPageData {
-  lastPostInfos: PostInfo[];
+  lastPostInfos: PostInfoSelection;
   authorInfos: UserInfo[];
   requesterInfos: UserInfo[];
   locationInfos: LocationInfo[];
@@ -101,8 +105,8 @@ export const PostsPage: Component = () => {
       <Frame variant="thin" class={styles.posts} ref={postsRef}>
         <PostPreviews
           scrollTarget={postsScrollTarget()}
-          postInfos={postInfos()}
-          label={selectPostInfosResultToString(postInfos().length, selectParams())}
+          postInfos={postInfos().items}
+          label={selectPostInfosResultToString(postInfos().totalCount, postInfos().params)}
         />
       </Frame>
     </Frame>

@@ -6,7 +6,11 @@ import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION } from '../../../core/entities/option.js';
 import type { UserRole } from '../../../core/entities/user.js';
 import { USER_ROLES } from '../../../core/entities/user.js';
-import type { SelectUserInfosParams, SelectUserInfosSortKey, UserInfo } from '../../../core/entities/user-info.js';
+import type {
+  SelectUserInfosParams,
+  SelectUserInfosSortKey,
+  UserInfoSelection,
+} from '../../../core/entities/user-info.js';
 import { selectUserInfosResultToString, selectUserInfosSortOptions } from '../../../core/entities/user-info.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { isObjectEqual } from '../../../core/utils/common-utils.js';
@@ -56,7 +60,7 @@ const presets = [
 ] as const satisfies UsersPagePreset[];
 
 export interface UsersPageData {
-  firstUserInfos: UserInfo[];
+  firstUserInfos: UserInfoSelection;
 }
 
 export const UsersPage: Component = () => {
@@ -190,9 +194,9 @@ export const UsersPage: Component = () => {
       </Frame>
 
       <Frame class={styles.usersWrapper}>
-        <p class={styles.label}>{selectUserInfosResultToString(userInfos().length, selectParams())}</p>
+        <p class={styles.label}>{selectUserInfosResultToString(userInfos().totalCount, userInfos().params)}</p>
         <div class={styles.users}>
-          <For each={userInfos()}>{(info) => <UserPreview userInfo={info} />}</For>
+          <For each={userInfos().items}>{(info) => <UserPreview userInfo={info} />}</For>
         </div>
       </Frame>
     </Frame>

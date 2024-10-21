@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import { type Component, For, Show } from 'solid-js';
-import type { PostInfo } from '../../../core/entities/post-info.js';
+import type { PostInfo, PostInfoSelection } from '../../../core/entities/post-info.js';
 import { listItems } from '../../../core/utils/common-utils.js';
 import { Label } from '../Label/Label.js';
 import { PostPreview } from '../PostPreview/PostPreview.js';
@@ -15,7 +15,7 @@ export type PostHighlightType = (typeof POST_HIGHIGHT_TYPES)[number];
 export interface PostHighlightsItem {
   label: `${`${PostHighlightCharacteristic | string}` | PostHighlightCharacteristic} ${PostHighlightType}`;
   primary?: boolean;
-  postInfo?: PostInfo;
+  selection?: PostInfoSelection;
 }
 
 interface PostHighlightsGroup {
@@ -50,7 +50,8 @@ export const PostHighlights: Component<PostPreviewsProps> = (props) => {
     Object.values(
       props.items.reduce(
         (acc, item) => {
-          const { postInfo, primary } = item;
+          const { selection, primary } = item;
+          const postInfo = selection?.items[0];
 
           if (!postInfo) {
             return acc;

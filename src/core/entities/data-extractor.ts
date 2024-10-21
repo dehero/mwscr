@@ -6,7 +6,7 @@ import type { LocationsReader } from './locations-reader.js';
 import type { Option } from './option.js';
 import type { PostLocation } from './post.js';
 import { comparePostEntriesByDate, getPostEntriesFromSource } from './post.js';
-import type { PostInfo, SelectPostInfosParams } from './post-info.js';
+import type { PostInfo, PostInfoSelection, SelectPostInfosParams } from './post-info.js';
 import { createPostInfo, selectPostInfos } from './post-info.js';
 import type { PostsManager, PostsManagerName } from './posts-manager.js';
 // import { getUserEntryTitle } from './user.js';
@@ -133,27 +133,28 @@ export class DataExtractor {
     return (await this.getAllUserInfos()).find((info) => info.id === id);
   }
 
-  async selectPostInfo(managerName: PostsManagerName, params: SelectPostInfosParams): Promise<PostInfo | undefined> {
-    const [postInfo] = await this.selectPostInfos(managerName, params, 1);
+  async selectPostInfo(
+    managerName: PostsManagerName,
+    params: SelectPostInfosParams,
+  ): Promise<PostInfoSelection | undefined> {
+    const result = await this.selectPostInfos(managerName, params, 1);
 
-    return postInfo;
+    return result.totalCount > 0 ? result : undefined;
   }
 
   async selectPostInfos(
     managerName: PostsManagerName,
     params: SelectPostInfosParams,
-    size?: number,
-  ): Promise<PostInfo[]> {
+    limit?: number,
+  ): Promise<PostInfoSelection> {
     const postInfos = await this.getAllPostInfos(managerName);
-    const result = selectPostInfos(postInfos, params);
 
-    return typeof size === 'undefined' ? result : result.slice(0, size);
+    return selectPostInfos(postInfos, params, limit);
   }
 
-  async selectUserInfos(params: SelectUserInfosParams, size?: number) {
+  async selectUserInfos(params: SelectUserInfosParams, limit?: number) {
     const userInfos = await this.getAllUserInfos();
-    const result = selectUserInfos(userInfos, params);
 
-    return typeof size === 'undefined' ? result : result.slice(0, size);
+    return selectUserInfos(userInfos, params, limit);
   }
 }

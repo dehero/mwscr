@@ -3,7 +3,8 @@ import { useData } from 'vike-solid/useData';
 import icon from '../../../../assets/icon.png?format=avif&imagetools';
 import pkg from '../../../../package.json';
 import { getPostDateById } from '../../../core/entities/post.js';
-import { type PostInfo, selectPostInfos } from '../../../core/entities/post-info.js';
+import type { PostInfoSelection } from '../../../core/entities/post-info.js';
+import { selectPostInfos } from '../../../core/entities/post-info.js';
 import type { PostsUsage } from '../../../core/entities/posts-usage.js';
 import { dateToString, formatDate, formatTime } from '../../../core/utils/date-utils.js';
 import { postRoute } from '../../routes/post-route.js';
@@ -26,16 +27,16 @@ export interface HomePageData {
   totalPosts: PostsUsage;
   authorCount: number;
   requesterCount: number;
-  lastOriginalPostInfo?: PostInfo;
-  topRatedPostInfo?: PostInfo;
-  topLikedPostInfo?: PostInfo;
-  lastFulfilledPostInfo?: PostInfo;
-  lastProposedPostInfo?: PostInfo;
-  lastRequestedPostInfo?: PostInfo;
-  editorsChoicePostInfo?: PostInfo;
+  lastOriginalPostInfo?: PostInfoSelection;
+  topRatedPostInfo?: PostInfoSelection;
+  topLikedPostInfo?: PostInfoSelection;
+  lastFulfilledPostInfo?: PostInfoSelection;
+  lastProposedPostInfo?: PostInfoSelection;
+  lastRequestedPostInfo?: PostInfoSelection;
+  editorsChoicePostInfo?: PostInfoSelection;
   totalLikes: number;
   totalCommentCount: number;
-  recentPostInfos: PostInfo[];
+  recentPostInfos: PostInfoSelection;
 }
 
 export const HomePage: Component = () => {
@@ -56,11 +57,11 @@ export const HomePage: Component = () => {
     recentPostInfos,
   } = useData<HomePageData>();
 
-  const lastPostInfo = recentPostInfos[0];
+  const lastPostInfo = recentPostInfos.items[0];
   const [showDialog, setShowDialog] = createSignal<'proposal' | 'request' | undefined>();
 
   const recentMostEngagingPostInfo = () =>
-    selectPostInfos(recentPostInfos, { sortDirection: 'desc', sortKey: 'engagement' })[0];
+    selectPostInfos(recentPostInfos.items, { sortDirection: 'desc', sortKey: 'engagement' }, 1);
 
   return (
     <>
@@ -185,13 +186,13 @@ export const HomePage: Component = () => {
           <PostHighlights
             class={styles.postHighlights}
             items={[
-              { label: 'Last Post', primary: true, postInfo: lastPostInfo },
-              { label: 'Last Original Post', primary: true, postInfo: lastOriginalPostInfo },
-              { label: 'Recent Engaging Post', primary: true, postInfo: recentMostEngagingPostInfo() },
-              { label: "Editor's Choice Post", postInfo: editorsChoicePostInfo },
-              { label: 'Top Rated Post', postInfo: topRatedPostInfo },
-              { label: 'Top Liked Post', postInfo: topLikedPostInfo },
-              { label: 'Last Fulfilled Request', postInfo: lastFulfilledPostInfo },
+              { label: 'Last Post', primary: true, selection: recentPostInfos },
+              { label: 'Last Original Post', primary: true, selection: lastOriginalPostInfo },
+              { label: 'Recent Engaging Post', primary: true, selection: recentMostEngagingPostInfo() },
+              { label: "Editor's Choice Post", selection: editorsChoicePostInfo },
+              { label: 'Top Rated Post', selection: topRatedPostInfo },
+              { label: 'Top Liked Post', selection: topLikedPostInfo },
+              { label: 'Last Fulfilled Request', selection: lastFulfilledPostInfo },
               // TODO: Last Week Top Rated Post, Current Month Top Rated Post, Previous Month Top Rated Post etc.
             ]}
           />
@@ -199,8 +200,8 @@ export const HomePage: Component = () => {
           <PostHighlights
             class={styles.postHighlights}
             items={[
-              { label: 'Last Proposal', primary: true, postInfo: lastProposedPostInfo },
-              { label: 'Last Pending Request', postInfo: lastRequestedPostInfo },
+              { label: 'Last Proposal', primary: true, selection: lastProposedPostInfo },
+              { label: 'Last Pending Request', selection: lastRequestedPostInfo },
             ]}
           />
         </Frame>
@@ -209,7 +210,7 @@ export const HomePage: Component = () => {
           <Diagram
             class={styles.diagram}
             label="Followers Count"
-            items={recentPostInfos}
+            items={recentPostInfos.items}
             getItemInterval={(item) => dateToString(getPostDateById(item.id) ?? new Date())}
             getIntervalValue={(_, values) => values[0]?.followers || 0}
             getIntervalLink={(_, values) =>
@@ -226,7 +227,7 @@ export const HomePage: Component = () => {
           <Diagram
             class={styles.diagram}
             label="Recent Posts Engagement"
-            items={recentPostInfos}
+            items={recentPostInfos.items}
             getItemInterval={(item) => dateToString(getPostDateById(item.id) ?? new Date())}
             getIntervalValue={(_, values) => values[0]?.engagement || 0}
             getIntervalLink={(_, values) =>

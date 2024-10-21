@@ -1,4 +1,4 @@
-import type { DateRange, SortDirection } from '../utils/common-types.js';
+import type { DateRange, EntitySelection, SortDirection } from '../utils/common-types.js';
 import { asArray, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
 import { dateToString, formatDate, isDateInRange, isValidDate } from '../utils/date-utils.js';
 import { isNestedLocation } from './location.js';
@@ -93,6 +93,8 @@ export interface SelectPostInfosParams {
   sortDirection?: SortDirection;
   date?: DateRange;
 }
+
+export type PostInfoSelection = EntitySelection<PostInfo, SelectPostInfosParams>;
 
 export async function createPostInfo(
   entry: PostEntry,
@@ -191,12 +193,18 @@ export function comparePostInfosByDate(direction: SortDirection): PostInfoCompar
     : (a, b) => (getPostDateById(b.id)?.getTime() || 0) - (getPostDateById(a.id)?.getTime() || 0) || byId(a, b);
 }
 
-export const selectPostInfos = (postInfos: PostInfo[], params: SelectPostInfosParams): PostInfo[] => {
+export const selectPostInfos = (
+  postInfos: PostInfo[],
+  params: SelectPostInfosParams,
+  limit?: number,
+): PostInfoSelection => {
+  const localParams: SelectPostInfosParams = { ...params, sortKey: 'date', sortDirection: 'desc' };
+
   const comparator =
     selectPostInfosSortOptions.find((comparator) => comparator.value === params.sortKey)?.fn ?? comparePostInfosByDate;
   const searchTokens = getSearchTokens(params.search);
 
-  return [...postInfos].sort(comparator(params.sortDirection ?? 'desc')).filter((info) => {
+  const items = [...postInfos].sort(comparator(params.sortDirection ?? 'desc')).filter((info) => {
     const date = getPostDateById(info.id);
 
     return Boolean(
@@ -223,6 +231,12 @@ export const selectPostInfos = (postInfos: PostInfo[], params: SelectPostInfosPa
         search(searchTokens, [info.title, info.titleRu, info.description, info.descriptionRu]),
     );
   });
+
+  return {
+    items: typeof limit === 'undefined' ? items : items.slice(0, limit),
+    params: localParams,
+    totalCount: items.length,
+  };
 };
 
 export function selectPostInfosResultToString(count: number, params: SelectPostInfosParams) {

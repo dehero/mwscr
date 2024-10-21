@@ -6,7 +6,13 @@ import type { PostsPageData } from '../../components/PostsPage/PostsPage.js';
 export async function data(pageContext: PageContext): Promise<PostsPageData> {
   const managerName = POSTS_MANAGER_INFOS.find((info) => info.id === pageContext.routeParams?.managerName)?.id;
   if (!managerName) {
-    return { lastPostInfos: [], authorInfos: [], requesterInfos: [], locationInfos: [], tagOptions: [] };
+    return {
+      lastPostInfos: { items: [], params: {}, totalCount: 0 },
+      authorInfos: [],
+      requesterInfos: [],
+      locationInfos: [],
+      tagOptions: [],
+    };
   }
 
   const lastPostInfos = await localDataExtractor.selectPostInfos(managerName, {}, 18);

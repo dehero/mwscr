@@ -1,4 +1,4 @@
-import type { SortDirection } from '../utils/common-types.js';
+import type { EntitySelection, SortDirection } from '../utils/common-types.js';
 import { cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
 import type { Option } from './option.js';
 import type { PostMark } from './post.js';
@@ -35,6 +35,8 @@ export interface SelectUserInfosParams {
   sortKey?: SelectUserInfosSortKey;
   sortDirection?: SortDirection;
 }
+
+export type UserInfoSelection = EntitySelection<UserInfo, SelectUserInfosParams>;
 
 export const selectUserInfosSortOptions = [
   { value: 'contribution', label: 'Contribution', fn: compareUserInfosByContribution },
@@ -124,19 +126,31 @@ export function compareUserInfosByContribution(direction: SortDirection): UserIn
         comparePostsUsages(b.authored, a.authored) || comparePostsUsages(b.requested, a.requested) || byId(b, a);
 }
 
-export function selectUserInfos(userInfos: UserInfo[], params: SelectUserInfosParams) {
+export function selectUserInfos(
+  userInfos: UserInfo[],
+  params: SelectUserInfosParams,
+  limit?: number,
+): UserInfoSelection {
+  const localParams: SelectUserInfosParams = { ...params, sortKey: 'contribution', sortDirection: 'desc' };
+
   const comparator =
     selectUserInfosSortOptions.find((comparator) => comparator.value === params.sortKey)?.fn ??
     compareUserInfosByContribution;
   const searchTokens = getSearchTokens(params.search);
 
-  return userInfos
+  const items = userInfos
     .filter(
       (info) =>
         (typeof params.role === 'undefined' || info.roles.includes(params.role)) &&
         search(searchTokens, [info.title, info.id]),
     )
     .sort(comparator(params.sortDirection ?? 'desc'));
+
+  return {
+    items: typeof limit === 'undefined' ? items : items.slice(0, limit),
+    params: localParams,
+    totalCount: items.length,
+  };
 }
 
 export function selectUserInfosResultToString(count: number, params: SelectUserInfosParams) {
