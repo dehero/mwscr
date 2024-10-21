@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.21.0](https://github.com/dehero/mwscr/compare/v1.20.3...v1.21.0) (2024-10-21)
+
+### Features
+
+- load post infos and user infos as resources
+  ([d10ab1d](https://github.com/dehero/mwscr/commit/d10ab1d01830f82ecfd7d1ccb1fef619e7277e92))
+
+### Bug Fixes
+
+- use posts and users server selection info while hydrating
+  ([ca77580](https://github.com/dehero/mwscr/commit/ca7758078d44d0eae5975b065c8e9b1d1cef08aa))
+- use Yandex.Metrika only for production
+  ([4d99efe](https://github.com/dehero/mwscr/commit/4d99efe78cc4cd23dd6e14dc27dc8ea191d8987b))
+
 ## [1.20.3](https://github.com/dehero/mwscr/compare/v1.20.2...v1.20.3) (2024-10-15)
 
 ### Bug Fixes
