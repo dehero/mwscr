@@ -963,15 +963,15 @@
     - service: vk
       id: 1487
       published: 2024-04-08-18-19-47
-      updated: 2024-10-15-11-01-17
+      updated: 2024-10-22-11-06-54
       followers: 909
       likes: 31
-      views: 195
+      views: 197
       reposts: 2
     - service: tg
       id: 372
       published: 2024-04-08-18-19-56
-      updated: 2024-10-15-11-01-16
+      updated: 2024-10-22-11-06-52
       followers: 354
       likes: 60
       views: 447
@@ -1176,10 +1176,10 @@
     - service: vk
       id: 1495
       published: 2024-04-15-18-17-46
-      updated: 2024-10-15-11-01-17
+      updated: 2024-10-22-11-06-54
       followers: 910
       likes: 47
-      views: 281
+      views: 283
       reposts: 2
       comments: !c Cw6AkZPLQnjuO8YzAACobW9ydHdha2Wo8J+arPCfl78D
     - service: tg

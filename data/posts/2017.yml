@@ -5081,10 +5081,10 @@
     - service: vk
       id: 1456
       published: 2024-03-18-18-11-07
-      updated: 2024-10-15-11-01-18
+      updated: 2024-10-22-11-06-55
       followers: 896
       likes: 32
-      views: 279
+      views: 280
       reposts: 1
       comments: !c |-
         G7oAIJwJ8ebKLrTB5tyPeOK9jSd08ynGkfcKOIFAk39QN7RMq2H7RJ2C9Sbnp2Ts24t/829oTCFp
@@ -5093,7 +5093,7 @@
     - service: tg
       id: 350
       published: 2024-03-18-18-11-16
-      updated: 2024-10-15-11-01-17
+      updated: 2024-10-22-11-06-53
       followers: 353
       likes: 55
       views: 473
