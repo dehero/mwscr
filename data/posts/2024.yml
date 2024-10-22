@@ -1185,7 +1185,7 @@
     - service: tg
       id: 379
       published: 2024-04-15-18-17-53
-      updated: 2024-10-15-07-07-55
+      updated: 2024-10-22-07-09-07
       followers: 352
       likes: 60
       views: 505
@@ -1308,15 +1308,15 @@
     - service: vk
       id: 1505
       published: 2024-04-22-18-17-36
-      updated: 2024-10-15-07-07-56
+      updated: 2024-10-22-07-09-09
       followers: 909
       likes: 31
-      views: 244
+      views: 246
       reposts: 2
     - service: tg
       id: 386
       published: 2024-04-22-18-17-44
-      updated: 2024-10-15-07-07-54
+      updated: 2024-10-22-07-09-07
       followers: 354
       likes: 65
       views: 479
@@ -1420,14 +1420,14 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
-      updated: 2024-10-15-07-07-55
+      updated: 2024-10-22-07-09-08
       followers: 912
       likes: 36
-      views: 262
+      views: 264
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2024-10-15-07-07-54
+      updated: 2024-10-22-07-09-07
       followers: 354
       likes: 64
       views: 482
@@ -1589,18 +1589,18 @@
     - service: vk
       id: 1523
       published: 2024-05-06-18-21-06
-      updated: 2024-10-15-07-07-54
+      updated: 2024-10-22-07-09-07
       followers: 913
       likes: 44
-      views: 319
+      views: 321
       reposts: 2
     - service: tg
       id: 400
       published: 2024-05-06-18-21-14
-      updated: 2024-10-15-07-07-53
+      updated: 2024-10-22-07-09-06
       followers: 371
       likes: 59
-      views: 471
+      views: 472
 2024-05-07-campfire:
   title: Campfire
   titleRu: У костра
@@ -1918,14 +1918,14 @@
     - service: vk
       id: 1539
       published: 2024-05-20-18-19-27
-      updated: 2024-10-15-07-07-52
+      updated: 2024-10-22-07-09-06
       followers: 916
       likes: 36
-      views: 271
+      views: 274
     - service: tg
       id: 414
       published: 2024-05-20-18-19-34
-      updated: 2024-10-15-07-07-52
+      updated: 2024-10-22-07-09-05
       followers: 372
       likes: 63
       views: 498
