@@ -21,8 +21,7 @@ import {
 } from '../../../core/entities/post.js';
 import { isPublishablePost, isTrashItem } from '../../../core/entities/post-variation.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
-import type { UserEntry } from '../../../core/entities/user.js';
-import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/user.js';
+import type { UserInfo } from '../../../core/entities/user-info.js';
 import { youtube } from '../../../core/services/youtube.js';
 import { store } from '../../../core/stores/index.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
@@ -38,27 +37,29 @@ import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import { Input } from '../Input/Input.js';
-import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
+import { LocationTooltip } from '../LocationTooltip/LocationTooltip.js';
 import { PostComments } from '../PostComments/PostComments.js';
 import { PostEditingDialog } from '../PostEditingDialog/PostEditingDialog.js';
 import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.js';
-import { PostMergeDialog } from '../PostMergeDialog/PostMergeDialog.jsx';
+import { PostMergeDialog } from '../PostMergeDialog/PostMergeDialog.js';
 import { PostPublications } from '../PostPublications/PostPublications.js';
-import { PostReviewDialog } from '../PostReviewDialog/PostReviewDialog.jsx';
+import { PostReviewDialog } from '../PostReviewDialog/PostReviewDialog.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import { ResourcePreviews } from '../ResourcePreviews/ResourcePreviews.js';
 import { ResourceSelector } from '../ResourceSelector/ResourceSelector.js';
 import { Spacer } from '../Spacer/Spacer.js';
+import type { TableRow } from '../Table/Table.js';
 import { Table } from '../Table/Table.js';
 import { Toast, useToaster } from '../Toaster/Toaster.js';
-import { WorldMap } from '../WorldMap/WorldMap.jsx';
+import { UserTooltip } from '../UserTooltip/UserTooltip.js';
+import { WorldMap } from '../WorldMap/WorldMap.js';
 import styles from './PostPage.module.css';
 
 export interface PostPageData {
   post: Post | undefined;
   refId: string | undefined;
-  authorEntries: UserEntry[];
-  requesterEntry: UserEntry | undefined;
+  authorInfos: UserInfo[] | undefined;
+  requesterInfo: UserInfo | undefined;
   usedTags: Array<[string, number]> | undefined;
   locationInfos: LocationInfo[] | undefined;
   worldMapLocationInfo: LocationInfo | undefined;
@@ -266,10 +267,10 @@ export const PostPage: Component = () => {
                   <Frame variant="thin" class={styles.request}>
                     <p class={styles.requestText}>{request().text}</p>
 
-                    <Show when={data.requesterEntry}>
-                      {(entry) => (
+                    <Show when={data.requesterInfo}>
+                      {(info) => (
                         <p class={styles.requestUser}>
-                          {getUserEntryTitle(entry())}, {formatDate(post.request?.date!)}
+                          {info().title}, {formatDate(post.request?.date!)}
                         </p>
                       )}
                     </Show>
@@ -365,21 +366,29 @@ export const PostPage: Component = () => {
                       value: POST_TYPES.find((info) => info.id === post.type)?.title,
                       link: postsRoute.createUrl({ managerName: params().managerName, type: post.type }),
                     },
-                    ...data.authorEntries.map((entry) => ({
-                      label: 'Author',
-                      value: () => (
-                        <>
-                          <Icon color="stealth" size="small" variant="flat" class={clsx(styles.icon, styles.tableIcon)}>
-                            {getUserEntryLetter(entry)}
-                          </Icon>
-                          {getUserEntryTitle(entry)}
-                        </>
-                      ),
-                      link: userRoute.createUrl({ id: entry[0] }),
-                    })),
+                    ...(data.authorInfos ?? []).map(
+                      (info): TableRow => ({
+                        label: 'Author',
+                        value: () => (
+                          <>
+                            <Icon
+                              color="stealth"
+                              size="small"
+                              variant="flat"
+                              class={clsx(styles.icon, styles.tableIcon)}
+                            >
+                              {info.title[0]?.toLocaleUpperCase() || '?'}
+                            </Icon>
+                            {info.title}
+                          </>
+                        ),
+                        link: userRoute.createUrl({ id: info.id }),
+                        tooltip: (ref) => <UserTooltip forRef={ref} userInfo={info} />,
+                      }),
+                    ),
                     {
                       label: 'Requester',
-                      value: data.requesterEntry
+                      value: data.requesterInfo
                         ? () => (
                             <>
                               <Icon
@@ -388,13 +397,14 @@ export const PostPage: Component = () => {
                                 variant="flat"
                                 class={clsx(styles.icon, styles.tableIcon)}
                               >
-                                {getUserEntryLetter(data.requesterEntry!)}
+                                {data.requesterInfo!.title[0]?.toLocaleUpperCase() || '?'}
                               </Icon>
-                              {getUserEntryTitle(data.requesterEntry!)}
+                              {data.requesterInfo!.title}
                             </>
                           )
                         : undefined,
-                      link: data.requesterEntry ? userRoute.createUrl({ id: data.requesterEntry[0] }) : undefined,
+                      link: data.requesterInfo ? userRoute.createUrl({ id: data.requesterInfo!.id }) : undefined,
+                      tooltip: (ref) => <UserTooltip forRef={ref} userInfo={data.requesterInfo!} />,
                     },
                     { label: 'Engine', value: post.engine },
                     { label: 'Addon', value: post.addon },

@@ -129,6 +129,20 @@ export class DataExtractor {
     return (await this.getAllLocationInfos()).find((info) => info.title === id);
   }
 
+  async getUserInfos(id: string | string[]): Promise<UserInfo[] | undefined> {
+    const ids = new Set(asArray(id));
+
+    if (ids.size === 0) {
+      return undefined;
+    }
+
+    const infos = new Map(
+      (await this.getAllUserInfos()).filter((info) => ids.has(info.id)).map((info) => [info.id, info]),
+    );
+
+    return [...ids].map((id) => infos.get(id)).filter((info): info is UserInfo => typeof info !== 'undefined');
+  }
+
   async getUserInfo(id: string) {
     return (await this.getAllUserInfos()).find((info) => info.id === id);
   }
