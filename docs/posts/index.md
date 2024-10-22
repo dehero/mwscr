@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/BouRBUUhqdU/)       | 2018-10-09 |       |   103 |       441 |  23.36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_969)  | 2018-10-09 |   479 |    32 |       253 |  12.65 |
 | [`tg`](https://t.me/mwscr/73)                      | 2018-10-09 |   209 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DBZU_jdNLUn/)       | 2024-10-21 |   241 |    60 |      1473 |   4.07 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1848) | 2024-10-21 |   115 |    17 |       993 |   1.71 |
-| [`tg`](https://t.me/mwscr/571)                     | 2024-10-21 |   181 |    31 |       562 |   5.52 |
-|                                                    |            |   537 |   108 |      3028 |   9.46 |
+| [`ig`](https://instagram.com/p/DBZU_jdNLUn/)       | 2024-10-21 |   255 |    67 |      1473 |   4.55 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1848) | 2024-10-21 |   117 |    17 |       993 |   1.71 |
+| [`tg`](https://t.me/mwscr/571)                     | 2024-10-21 |   197 |    31 |       562 |   5.52 |
+|                                                    |            |   569 |   115 |      3028 |   9.56 |
 
 #### Comments
 
@@ -65,10 +65,10 @@
 | [`ig`](https://instagram.com/p/Buk4QUYhePJ/)       | 2019-03-04 |       |   128 |       783 |  16.35 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1141) | 2019-03-04 |   819 |    58 |       330 |  18.48 |
 | [`tg`](https://t.me/mwscr/160)                     | 2019-03-04 |   585 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DBWwBjztjBl/)       | 2024-10-20 |   474 |   102 |      1473 |   6.92 |
+| [`ig`](https://instagram.com/p/DBWwBjztjBl/)       | 2024-10-20 |   475 |   102 |      1473 |   6.92 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1847) | 2024-10-20 |   217 |    39 |       986 |   3.96 |
-| [`tg`](https://t.me/mwscr/570)                     | 2024-10-20 |   247 |    55 |       561 |    9.8 |
-|                                                    |            |   938 |   196 |      3020 |   11.1 |
+| [`tg`](https://t.me/mwscr/570)                     | 2024-10-20 |   259 |    55 |       561 |    9.8 |
+|                                                    |            |   951 |   196 |      3020 |   11.1 |
 
 #### Comments
 
