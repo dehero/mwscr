@@ -211,17 +211,17 @@
     - service: vk
       id: 1585
       published: 2024-06-17-18-19-59
-      updated: 2024-10-15-05-08-18
+      updated: 2024-10-22-05-10-30
       followers: 918
       likes: 33
-      views: 260
+      views: 264
     - service: tg
       id: 442
       published: 2024-06-17-18-20-05
-      updated: 2024-10-15-05-08-18
+      updated: 2024-10-22-05-10-26
       followers: 385
       likes: 58
-      views: 469
+      views: 471
 2017-01-08-dirty-muriels-cornerclub-and-tel-naga:
   title: Dirty Muriel's Cornerclub and Tel Naga
   titleRu: Трактир Грязной Мюриэль и Тель Нага
@@ -5258,15 +5258,15 @@
     - service: vk
       id: 1610
       published: 2024-07-01-18-20-13
-      updated: 2024-10-15-05-08-17
+      updated: 2024-10-22-05-10-29
       followers: 918
       likes: 54
-      views: 319
+      views: 324
       reposts: 1
     - service: tg
       id: 456
       published: 2024-07-01-18-20-19
-      updated: 2024-10-15-05-08-17
+      updated: 2024-10-22-05-10-25
       followers: 390
       likes: 61
       views: 455
@@ -6675,10 +6675,10 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2024-10-15-04-10-04
+      updated: 2024-10-22-05-10-28
       followers: 919
       likes: 37
-      views: 281
+      views: 286
       reposts: 2
       comments: !c |-
         G2kBQCwKbBu2NSy3aG+yVz+UohPxD3WxJdzxm9XDIz4P0oQv4KQgoECS93VuLRpaZbNZEiJMQLkh
@@ -6689,10 +6689,10 @@
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2024-10-15-04-10-01
+      updated: 2024-10-22-05-10-25
       followers: 395
       likes: 60
-      views: 479
+      views: 480
       comments: !c CxiAkZPLQnkP1+/4gACpR2F0ZW1hdGU3u2hhdHcgdGhlc2UgbW90aGVyIGZ1Y2tlcnMuLgM=
     - service: ig
       id: C9Ug-PYxnq2
@@ -9140,18 +9140,18 @@
     - service: vk
       id: 1688
       published: 2024-08-12-18-30-39
-      updated: 2024-10-15-04-09-59
+      updated: 2024-10-22-05-10-23
       followers: 931
       likes: 41
-      views: 291
+      views: 297
       reposts: 1
     - service: tg
       id: 499
       published: 2024-08-12-18-30-46
-      updated: 2024-10-15-04-09-58
+      updated: 2024-10-22-05-10-22
       followers: 523
       likes: 59
-      views: 547
+      views: 554
       comments: !c |-
         G44A4MX/Oi0CGX8WDsU7YHi3p9S/V8UaaGviB3QecLPiWqVZOaJFmgQeslZeTDbmtTv+4o1/eGee
         dyuYUx1zKvoyrJipVECQqqtIHQhO4aM4sZ4q+pfzvVoqSC1Z9YZgJZ+Pe9FXVBHYXK00xLDdoNJg
@@ -9296,10 +9296,10 @@
     - service: vk
       id: 1650
       published: 2024-07-22-18-20-29
-      updated: 2024-10-15-04-10-02
+      updated: 2024-10-22-05-10-27
       followers: 920
       likes: 38
-      views: 298
+      views: 303
       reposts: 1
       comments: !c |-
         G6kAIKwOeDOWKwkaNpHUgwF3nX5E4I30Bzr0yQwXeBYmlNyDBbU5SwqykKdDOHk09tnZasAwTaMm
@@ -9308,10 +9308,10 @@
     - service: tg
       id: 477
       published: 2024-07-22-18-20-38
-      updated: 2024-10-15-04-10-00
+      updated: 2024-10-22-05-10-24
       followers: 400
       likes: 63
-      views: 578
+      views: 580
 2017-09-28-mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
@@ -9814,18 +9814,18 @@
     - service: vk
       id: 1638
       published: 2024-07-15-18-20-44
-      updated: 2024-10-15-04-10-03
+      updated: 2024-10-22-05-10-28
       followers: 919
-      likes: 41
-      views: 259
+      likes: 42
+      views: 264
       reposts: 1
     - service: tg
       id: 470
       published: 2024-07-15-18-20-51
-      updated: 2024-10-15-04-10-01
+      updated: 2024-10-22-05-10-24
       followers: 399
       likes: 61
-      views: 746
+      views: 748
 2017-10-15-mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров
