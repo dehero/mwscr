@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.22.0](https://github.com/dehero/mwscr/compare/v1.21.0...v1.22.0) (2024-10-22)
+
+### Features
+
+- add author and requester tooltips on post page
+  ([12b4abc](https://github.com/dehero/mwscr/commit/12b4abcf253450a1b22d8f90ae8521332d3a4d7f))
+
 ## [1.21.0](https://github.com/dehero/mwscr/compare/v1.20.3...v1.21.0) (2024-10-21)
 
 ### Features
