@@ -4,7 +4,40 @@
 
 # Posted in 2024
 
-`239 items`
+`240 items`
+
+## <span id="2024-10-23-bittercup">Bittercup</span>
+
+`RU` Горькая Чаша
+
+<a href="https://instagram.com/p/Bp7eWMyhQ2_/" title="2018-11-08-bittercup"><img alt="store:/shots/2018-11-08-bittercup.png" src="../../assets/previews/shots/2018-11-08-bittercup.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-23-bittercup&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-10-23-bittercup
+```
+
+> `2018-11-08-bittercup`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bp7eWMyhQ2_/)       | 2018-11-08 |       |   104 |       457 |  22.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1035) | 2018-11-08 |   513 |    36 |       285 |  12.63 |
+| [`tg`](https://t.me/mwscr/114)                     | 2018-11-08 |   307 |     2 |           |        |
+| [`ig`](https://instagram.com/p/DBeeh51tcne/)       | 2024-10-23 |       |       |      1472 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1850) | 2024-10-23 |       |       |       994 |        |
+| [`tg`](https://t.me/mwscr/573)                     | 2024-10-23 |       |       |       563 |        |
+|                                                    |            |       |       |      3029 |  17.69 |
+
+#### Comments
+
+- `vk` <ins title="2018-11-08-18-31-13">peteevandrew</ins> Всегда было не по себе от звуков, что доносятся в родовых гробницах.
+- `vk` <ins title="2018-11-09-21-22-14">velikiyh</ins> пох
 
 ## <span id="2024-10-22-selling-some-stuff-in-sadrith-mora">Selling Some Stuff in Sadrith Mora</span>
 
@@ -28,10 +61,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BP_8glal0JX/)       | 2017-02-02 |       |    28 |        82 |  34.15 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_114)  | 2017-02-02 |   161 |     9 |        23 |      9 |
-| [`ig`](https://instagram.com/p/DBb5zoTB-KQ/)       | 2024-10-22 |   282 |    93 |      1472 |   6.32 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1849) | 2024-10-22 |   205 |    40 |       994 |   4.12 |
-| [`tg`](https://t.me/mwscr/572)                     | 2024-10-22 |   150 |    46 |       561 |    8.2 |
-|                                                    |            |   637 |   179 |      3027 |  12.36 |
+| [`ig`](https://instagram.com/p/DBb5zoTB-KQ/)       | 2024-10-22 |   285 |    93 |      1472 |   6.32 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1849) | 2024-10-22 |   209 |    40 |       994 |   4.12 |
+| [`tg`](https://t.me/mwscr/572)                     | 2024-10-22 |   151 |    46 |       561 |    8.2 |
+|                                                    |            |   645 |   179 |      3027 |  12.36 |
 
 ## <span id="2024-10-21-severe-innkeeper">Severe Innkeeper</span>
 
@@ -56,10 +89,10 @@
 | [`ig`](https://instagram.com/p/BouRBUUhqdU/)       | 2018-10-09 |       |   103 |       441 |  23.36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_969)  | 2018-10-09 |   479 |    32 |       253 |  12.65 |
 | [`tg`](https://t.me/mwscr/73)                      | 2018-10-09 |   209 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DBZU_jdNLUn/)       | 2024-10-21 |   434 |    93 |      1473 |   6.31 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1848) | 2024-10-21 |   217 |    32 |       993 |   3.22 |
+| [`ig`](https://instagram.com/p/DBZU_jdNLUn/)       | 2024-10-21 |   436 |    93 |      1473 |   6.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1848) | 2024-10-21 |   220 |    32 |       993 |   3.22 |
 | [`tg`](https://t.me/mwscr/571)                     | 2024-10-21 |   365 |    44 |       562 |   7.83 |
-|                                                    |            |  1016 |   169 |      3028 |  10.67 |
+|                                                    |            |  1021 |   169 |      3028 |  10.67 |
 
 #### Comments
 

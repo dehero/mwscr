@@ -9725,21 +9725,21 @@
       id: DBZU_jdNLUn
       mediaId: '17920507637891871'
       published: 2024-10-21-18-10-37
-      updated: 2024-10-23-17-07-20
+      updated: 2024-10-23-18-09-57
       followers: 1473
       likes: 93
-      views: 434
+      views: 436
     - service: vk
       id: 1848
       published: 2024-10-21-18-10-44
-      updated: 2024-10-23-17-07-21
+      updated: 2024-10-23-18-09-57
       followers: 993
       likes: 32
-      views: 217
+      views: 220
     - service: tg
       id: 571
       published: 2024-10-21-18-10-50
-      updated: 2024-10-23-17-07-20
+      updated: 2024-10-23-18-09-57
       followers: 562
       likes: 44
       views: 365
@@ -10890,6 +10890,19 @@
       updated: 2024-10-22-21-07-36
       likes: 2
       views: 307
+    - service: ig
+      id: DBeeh51tcne
+      mediaId: '18023275598611101'
+      published: 2024-10-23-18-10-10
+      followers: 1472
+    - service: vk
+      id: 1850
+      published: 2024-10-23-18-10-16
+      followers: 994
+    - service: tg
+      id: 573
+      published: 2024-10-23-18-10-22
+      followers: 563
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов
