@@ -24,7 +24,7 @@
     - service: vk
       id: 1097
       published: 2019-02-05
-      updated: 2024-10-16-17-02-51
+      updated: 2024-10-23-17-07-30
       followers: 311
       likes: 46
       views: 645
@@ -61,7 +61,7 @@
     - service: vk
       id: 1102
       published: 2019-02-06
-      updated: 2024-10-16-17-02-50
+      updated: 2024-10-23-17-07-29
       followers: 314
       likes: 43
       views: 516
@@ -91,7 +91,7 @@
     - service: vk
       id: 1103
       published: 2019-02-07
-      updated: 2024-10-16-17-02-49
+      updated: 2024-10-23-17-07-28
       followers: 315
       likes: 50
       views: 728
@@ -128,7 +128,7 @@
     - service: vk
       id: 1104
       published: 2019-02-08
-      updated: 2024-10-16-17-02-48
+      updated: 2024-10-23-17-07-27
       followers: 317
       likes: 40
       views: 541
@@ -157,7 +157,7 @@
     - service: vk
       id: 1105
       published: 2019-02-09
-      updated: 2024-10-16-17-02-48
+      updated: 2024-10-23-17-07-23
       followers: 318
       likes: 36
       views: 579
@@ -194,7 +194,7 @@
     - service: vk
       id: 1109
       published: 2019-02-10
-      updated: 2024-10-16-17-02-47
+      updated: 2024-10-23-17-07-23
       followers: 320
       likes: 39
       views: 602
@@ -800,24 +800,24 @@
       id: DBWwBjztjBl
       mediaId: '17889470808039456'
       published: 2024-10-20-18-09-06
-      updated: 2024-10-22-17-04-01
+      updated: 2024-10-23-17-07-21
       followers: 1473
-      likes: 104
-      views: 491
+      likes: 108
+      views: 507
     - service: vk
       id: 1847
       published: 2024-10-20-18-09-14
-      updated: 2024-10-22-17-04-02
+      updated: 2024-10-23-17-07-22
       followers: 986
-      likes: 42
-      views: 238
+      likes: 43
+      views: 248
     - service: tg
       id: 570
       published: 2024-10-20-18-09-24
-      updated: 2024-10-22-17-04-02
+      updated: 2024-10-23-17-07-21
       followers: 561
-      likes: 56
-      views: 375
+      likes: 59
+      views: 421
       comments: !c CwqAkZPLQnkqshBWgACod2lsenV1bGygAw==
 2019-03-07-mzahnch:
   title: Mzahnch
