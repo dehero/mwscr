@@ -553,15 +553,15 @@
     - service: vk
       id: 1497
       published: 2024-04-16-18-16-52
-      updated: 2024-10-16-08-10-30
+      updated: 2024-10-23-08-10-50
       followers: 910
       likes: 33
-      views: 278
+      views: 282
       reposts: 3
     - service: tg
       id: 380
       published: 2024-04-16-18-16-59
-      updated: 2024-10-16-08-10-29
+      updated: 2024-10-23-08-10-49
       followers: 353
       likes: 59
       views: 446
@@ -9725,24 +9725,24 @@
       id: DBZU_jdNLUn
       mediaId: '17920507637891871'
       published: 2024-10-21-18-10-37
-      updated: 2024-10-23-07-08-13
+      updated: 2024-10-23-08-10-48
       followers: 1473
       likes: 89
-      views: 420
+      views: 422
     - service: vk
       id: 1848
       published: 2024-10-21-18-10-44
-      updated: 2024-10-23-07-08-15
+      updated: 2024-10-23-08-10-49
       followers: 993
       likes: 31
-      views: 206
+      views: 208
     - service: tg
       id: 571
       published: 2024-10-21-18-10-50
-      updated: 2024-10-23-07-08-15
+      updated: 2024-10-23-08-10-48
       followers: 562
       likes: 43
-      views: 351
+      views: 354
 2018-10-10-thunderstorm-cave:
   title: Thunderstorm Cave
   titleRu: Грозовая пещера
