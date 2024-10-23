@@ -160,19 +160,19 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2024-10-16-12-13-37
+      updated: 2024-10-23-12-13-50
       followers: 894
       likes: 47
-      views: 365
+      views: 366
       reposts: 2
       comments: !c iw6AkZPLQnje54g+AACpdmxhZGtyMTE0qNCt0YXwn5iUAw==
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2024-10-16-12-13-35
+      updated: 2024-10-23-12-13-50
       followers: 337
       likes: 91
-      views: 607
+      views: 608
       comments: !c |-
         ixyAkZTLQnjexabnAACucXVpbnR1c19mYWJpdXOtV2UncmUgc28gYmFja5PLQnjexcSwAAClYW5z
         aXOhLgM=
@@ -1152,24 +1152,24 @@
       id: DBb5zoTB-KQ
       mediaId: '18060822121700778'
       published: 2024-10-22-18-10-53
-      updated: 2024-10-23-11-01-44
+      updated: 2024-10-23-12-13-41
       followers: 1472
-      likes: 87
-      views: 248
+      likes: 90
+      views: 257
     - service: tg
       id: 572
       published: 2024-10-22-18-11-08
-      updated: 2024-10-23-11-01-45
+      updated: 2024-10-23-12-13-42
       followers: 561
       likes: 46
       views: 146
     - service: vk
       id: 1849
       published: 2024-10-22-19-02-11
-      updated: 2024-10-23-11-01-45
+      updated: 2024-10-23-12-13-42
       followers: 994
-      likes: 36
-      views: 171
+      likes: 39
+      views: 183
       reposts: 1
 2017-02-03-hlaalu-council-manor:
   title: Hlaalu Council Manor
@@ -9993,15 +9993,15 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2024-10-16-12-13-34
+      updated: 2024-10-23-12-13-47
       followers: 904
       likes: 44
-      views: 294
+      views: 295
       reposts: 3
     - service: tg
       id: 358
       published: 2024-03-26-18-10-55
-      updated: 2024-10-16-12-13-32
+      updated: 2024-10-23-12-13-47
       followers: 352
       likes: 68
       views: 534
@@ -10949,18 +10949,18 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2024-10-16-12-13-36
+      updated: 2024-10-23-12-13-49
       followers: 895
       likes: 35
-      views: 285
+      views: 286
       reposts: 2
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2024-10-16-12-13-34
+      updated: 2024-10-23-12-13-49
       followers: 343
       likes: 69
-      views: 526
+      views: 527
       comments: !c ixOAkZPLQnjhAF9lAACucXVpbnR1c19mYWJpdXOt8J+Pg+KAjeKZgu+4jwM=
 2017-11-16-cozy-workplace-in-the-basement:
   title: Cozy Workplace in the Basement
@@ -11436,10 +11436,10 @@
       id: C_dw-OPNIxR
       mediaId: '18043361695974823'
       published: 2024-09-03-18-29-17
-      updated: 2024-10-16-12-13-31
+      updated: 2024-10-23-12-13-43
       followers: 1455
       likes: 95
-      views: 434
+      views: 438
     - service: vk
       id: 1735
       published: 2024-09-03-18-29-25
