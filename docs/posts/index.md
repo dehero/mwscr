@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/Bp7eWMyhQ2_/)       | 2018-11-08 |       |   104 |       457 |  22.76 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1035) | 2018-11-08 |   513 |    36 |       285 |  12.63 |
 | [`tg`](https://t.me/mwscr/114)                     | 2018-11-08 |   307 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DBeeh51tcne/)       | 2024-10-23 |   172 |    60 |      1472 |   4.08 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1850) | 2024-10-23 |   111 |    17 |       994 |   1.81 |
-| [`tg`](https://t.me/mwscr/573)                     | 2024-10-23 |   160 |    37 |       563 |   6.57 |
-|                                                    |            |   443 |   114 |      3029 |   9.57 |
+| [`ig`](https://instagram.com/p/DBeeh51tcne/)       | 2024-10-23 |   178 |    60 |      1472 |   4.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1850) | 2024-10-23 |   117 |    18 |       994 |   1.91 |
+| [`tg`](https://t.me/mwscr/573)                     | 2024-10-23 |   162 |    37 |       563 |   6.57 |
+|                                                    |            |   457 |   115 |      3029 |   9.59 |
 
 #### Comments
 
@@ -62,9 +62,9 @@
 | [`ig`](https://instagram.com/p/BP_8glal0JX/)       | 2017-02-02 |       |    28 |        82 |  34.15 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_114)  | 2017-02-02 |   161 |     9 |        23 |      9 |
 | [`ig`](https://instagram.com/p/DBb5zoTB-KQ/)       | 2024-10-22 |   302 |    96 |      1472 |   6.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1849) | 2024-10-22 |   218 |    40 |       994 |   4.12 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1849) | 2024-10-22 |   221 |    41 |       994 |   4.23 |
 | [`tg`](https://t.me/mwscr/572)                     | 2024-10-22 |   182 |    49 |       561 |   8.73 |
-|                                                    |            |   702 |   185 |      3027 |  12.51 |
+|                                                    |            |   705 |   186 |      3027 |  12.53 |
 
 ## <span id="2024-10-21-severe-innkeeper">Severe Innkeeper</span>
 
