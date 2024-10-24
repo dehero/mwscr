@@ -29,15 +29,16 @@
 | [`ig`](https://instagram.com/p/Bp7eWMyhQ2_/)       | 2018-11-08 |       |   104 |       457 |  22.76 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1035) | 2018-11-08 |   513 |    36 |       285 |  12.63 |
 | [`tg`](https://t.me/mwscr/114)                     | 2018-11-08 |   307 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DBeeh51tcne/)       | 2024-10-23 |   193 |    63 |      1472 |   4.28 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1850) | 2024-10-23 |   140 |    19 |       994 |   2.01 |
-| [`tg`](https://t.me/mwscr/573)                     | 2024-10-23 |   174 |    41 |       563 |   7.28 |
-|                                                    |            |   507 |   123 |      3029 |   9.79 |
+| [`ig`](https://instagram.com/p/DBeeh51tcne/)       | 2024-10-23 |   199 |    63 |      1472 |   4.28 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1850) | 2024-10-23 |   150 |    22 |       994 |   2.31 |
+| [`tg`](https://t.me/mwscr/573)                     | 2024-10-23 |   181 |    41 |       563 |   7.28 |
+|                                                    |            |   530 |   126 |      3029 |   9.85 |
 
 #### Comments
 
 - `vk` <ins title="2018-11-08-18-31-13">peteevandrew</ins> Всегда было не по себе от звуков, что доносятся в родовых гробницах.
 - `vk` <ins title="2018-11-09-21-22-14">velikiyh</ins> пох
+- `vk` <ins title="2024-10-24-06-40-46">id810900694</ins> Надо бы как-нибудь пройти квест ГВ, а то всё мимо хожу и эта штука наконец-таки пригодится для дела. А то просто стоит на полке ))
 
 ## <span id="2024-10-22-selling-some-stuff-in-sadrith-mora">Selling Some Stuff in Sadrith Mora</span>
 
@@ -62,9 +63,9 @@
 | [`ig`](https://instagram.com/p/BP_8glal0JX/)       | 2017-02-02 |       |    28 |        82 |  34.15 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_114)  | 2017-02-02 |   161 |     9 |        23 |      9 |
 | [`ig`](https://instagram.com/p/DBb5zoTB-KQ/)       | 2024-10-22 |   304 |    96 |      1472 |   6.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1849) | 2024-10-22 |   227 |    43 |       994 |   4.43 |
-| [`tg`](https://t.me/mwscr/572)                     | 2024-10-22 |   184 |    50 |       561 |   8.91 |
-|                                                    |            |   715 |   189 |      3027 |   12.6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1849) | 2024-10-22 |   229 |    44 |       994 |   4.53 |
+| [`tg`](https://t.me/mwscr/572)                     | 2024-10-22 |   186 |    50 |       561 |   8.91 |
+|                                                    |            |   719 |   190 |      3027 |  12.62 |
 
 ## <span id="2024-10-21-severe-innkeeper">Severe Innkeeper</span>
 

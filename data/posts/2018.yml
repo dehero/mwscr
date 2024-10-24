@@ -10894,25 +10894,30 @@
       id: DBeeh51tcne
       mediaId: '18023275598611101'
       published: 2024-10-23-18-10-10
-      updated: 2024-10-24-06-11-01
+      updated: 2024-10-24-07-07-58
       followers: 1472
       likes: 63
-      views: 193
+      views: 199
     - service: vk
       id: 1850
       published: 2024-10-23-18-10-16
-      updated: 2024-10-24-06-11-01
+      updated: 2024-10-24-07-07-57
       followers: 994
-      likes: 19
-      views: 140
+      likes: 22
+      views: 150
       reposts: 1
+      comments: !c |-
+        G/4AuJwHto3sPCaIX+5CstH4f56TjfDrzjaGDDthgBEm96luGmEJaIQvfDx9YUXYq9tKtrQJIr6a
+        k99RBIVjDKZgKCZZHrUH3MwoV/SZEmUSbMCxJJbCRK/+9/vzr12H73H8XkqEAFnS+38HwTNaI6DH
+        RSMT7bk19kUcmVYap6n3YJFnpp056PDq7M2Gq33QjBnBJBBLq/FEIJSSHhYY03zCzp8oKGaBskWW
+        MJdtInee
     - service: tg
       id: 573
       published: 2024-10-23-18-10-22
-      updated: 2024-10-24-06-11-01
+      updated: 2024-10-24-07-07-58
       followers: 563
       likes: 41
-      views: 174
+      views: 181
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов
