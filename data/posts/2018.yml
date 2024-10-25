@@ -655,10 +655,10 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-10-18-23-07-26
+      updated: 2024-10-25-23-08-37
       followers: 943
       likes: 32
-      views: 305
+      views: 323
       reposts: 2
       comments: !c |-
         G9oCAKwK7DbyC53aVXL0CN5VcRAVtmgoOTn1l+y/FTiUxoEwOARKYqrVqQh9jqvQZ7CrxzMcL6oV
@@ -671,10 +671,10 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-10-18-23-07-25
+      updated: 2024-10-25-23-08-35
       followers: 551
       likes: 66
-      views: 543
+      views: 545
       comments: !c |-
         G9EAYIyUbsI8A645gjVBtc//m1b2toiwUaRNMO/wxbbWuVFCJlIM9X7iFOVucKIx5hBGLbTppBtO
         tOfw+Nwit9TaMhmfA4b1lHsV7JBS8l9S0pmkGYYDbLDsxAdYYscJoFjCAdGQE8JkkWVsLIA9lpyg
@@ -3496,24 +3496,24 @@
       id: DBjoHhrtcDF
       mediaId: '17979166523766393'
       published: 2024-10-25-18-10-09
-      updated: 2024-10-25-22-07-03
+      updated: 2024-10-25-23-08-35
       followers: 1474
-      likes: 45
-      views: 124
+      likes: 46
+      views: 137
     - service: vk
       id: 1855
       published: 2024-10-25-18-10-15
-      updated: 2024-10-25-22-07-03
+      updated: 2024-10-25-23-08-33
       followers: 997
       likes: 14
-      views: 78
+      views: 85
     - service: tg
       id: 575
       published: 2024-10-25-18-10-23
-      updated: 2024-10-25-22-07-03
+      updated: 2024-10-25-23-08-33
       followers: 563
       likes: 35
-      views: 136
+      views: 141
 2018-04-12-mushroom-stairs:
   title: Mushroom Stairs
   titleRu: Грибная лестница
