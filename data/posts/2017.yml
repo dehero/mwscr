@@ -3741,24 +3741,24 @@
       id: C--2VkaNrtE
       mediaId: '17852714091220944'
       published: 2024-08-22-18-19-42
-      updated: 2024-10-17-23-08-26
+      updated: 2024-10-25-00-36-02
       followers: 1458
       likes: 92
-      views: 363
+      views: 365
     - service: vk
       id: 1701
       published: 2024-08-22-18-19-48
-      updated: 2024-10-17-23-08-27
+      updated: 2024-10-25-00-36-02
       followers: 937
       likes: 31
-      views: 257
+      views: 266
     - service: tg
       id: 509
       published: 2024-08-22-18-19-55
-      updated: 2024-10-17-23-08-25
+      updated: 2024-10-25-00-36-00
       followers: 539
-      likes: 54
-      views: 555
+      likes: 55
+      views: 561
 2017-04-14-in-the-bar:
   title: In the Bar
   titleRu: У барной стойки
@@ -4743,10 +4743,10 @@
       id: C_Td0E0Ni4-
       mediaId: '18038542034051018'
       published: 2024-08-30-18-29-27
-      updated: 2024-10-17-23-08-25
+      updated: 2024-10-25-00-36-01
       followers: 1457
       likes: 169
-      views: 610
+      views: 613
     - service: vk
       id: 1721
       published: 2024-08-30-18-29-34
@@ -9657,24 +9657,24 @@
       id: DAG9whpsfGu
       mediaId: '18000110414662122'
       published: 2024-09-19-18-29-52
-      updated: 2024-10-17-23-08-23
+      updated: 2024-10-25-00-35-59
       followers: 1458
       likes: 68
-      views: 319
+      views: 322
     - service: vk
       id: 1773
       published: 2024-09-19-18-29-58
-      updated: 2024-10-17-23-08-24
+      updated: 2024-10-25-00-35-59
       followers: 948
       likes: 37
-      views: 262
+      views: 280
     - service: tg
       id: 538
       published: 2024-09-19-18-30-04
-      updated: 2024-10-17-23-08-24
+      updated: 2024-10-25-00-35-59
       followers: 555
       likes: 59
-      views: 500
+      views: 508
 2017-10-10-on-the-pass:
   title: On the Pass
   titleRu: На перевале
@@ -11659,27 +11659,29 @@
       id: DBhDWtpthR5
       mediaId: '17909732286040575'
       published: 2024-10-24-18-10-24
-      updated: 2024-10-24-23-07-48
+      updated: 2024-10-25-00-35-57
       followers: 1472
-      likes: 61
-      views: 150
+      likes: 64
+      views: 166
     - service: vk
       id: 1852
       published: 2024-10-24-18-10-30
-      updated: 2024-10-24-23-07-45
+      updated: 2024-10-25-00-35-57
       followers: 995
-      likes: 17
-      views: 95
+      likes: 19
+      views: 101
       comments: !c |-
-        iyWAkZPLQnkr/m7DgACraWQ4NzI4MzExNDfZM9C/0YDQvtC/0L7QstC10LTQuCDQviDRgdC20LDR
-        gtGL0YUg0YjQsNC60LDQu9Cw0YUpKQM=
+        GxYBiKwObOdpCDGx22QiDk2h91F8f2KAAvz0E4VCEG0pgp1WrISRPedcSeUlyJif7Oh1czGrB83G
+        8JDnQX7Q1t6SReafKyzDzYJTRscNDjRAjsPnYQAcfBpwoYl2g7OEikpel+Fvfn6P3+6x/S8qmxAt
+        HfGD+KJQ08gULnSqcnpgwYNyre/jd/uxthRHCJPe5p/X+16MWvivjoQgilhD0Kpz3guxaK5wGNBo
+        JktffnQzKgmIlRXImsnIgEYz2S4=
     - service: tg
       id: 574
       published: 2024-10-24-18-10-36
-      updated: 2024-10-24-23-07-45
+      updated: 2024-10-25-00-35-57
       followers: 563
-      likes: 35
-      views: 107
+      likes: 36
+      views: 112
 2017-12-07-puzzled-ashlanders:
   title: Puzzled Ashlanders
   titleRu: Озадаченные эшлендеры
