@@ -1926,15 +1926,15 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2024-10-18-03-15-30
+      updated: 2024-10-25-03-16-25
       followers: 919
       likes: 32
-      views: 266
+      views: 273
       reposts: 1
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2024-10-18-03-15-30
+      updated: 2024-10-25-03-16-23
       followers: 391
       likes: 57
       views: 566
@@ -2814,15 +2814,15 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2024-10-18-03-15-31
+      updated: 2024-10-25-03-16-25
       followers: 919
       likes: 48
-      views: 326
+      views: 332
       reposts: 3
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2024-10-18-03-15-31
+      updated: 2024-10-25-03-16-24
       followers: 387
       likes: 65
       views: 481
@@ -4032,17 +4032,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2024-10-18-03-15-29
+      updated: 2024-10-25-03-16-23
       followers: 920
       likes: 40
-      views: 255
+      views: 261
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2024-10-18-03-15-29
+      updated: 2024-10-25-03-16-23
       followers: 397
-      likes: 61
-      views: 493
+      likes: 62
+      views: 495
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
@@ -11659,17 +11659,17 @@
       id: DBhDWtpthR5
       mediaId: '17909732286040575'
       published: 2024-10-24-18-10-24
-      updated: 2024-10-25-02-12-08
+      updated: 2024-10-25-03-16-20
       followers: 1472
-      likes: 69
-      views: 174
+      likes: 72
+      views: 184
     - service: vk
       id: 1852
       published: 2024-10-24-18-10-30
-      updated: 2024-10-25-02-12-06
+      updated: 2024-10-25-03-16-20
       followers: 995
-      likes: 20
-      views: 107
+      likes: 22
+      views: 112
       comments: !c |-
         GxYBiKwObOdpCDGx22QiDk2h91F8f2KAAvz0E4VCEG0pgp1WrISRPedcSeUlyJif7Oh1czGrB83G
         8JDnQX7Q1t6SReafKyzDzYJTRscNDjRAjsPnYQAcfBpwoYl2g7OEikpel+Fvfn6P3+6x/S8qmxAt
@@ -11678,10 +11678,10 @@
     - service: tg
       id: 574
       published: 2024-10-24-18-10-36
-      updated: 2024-10-25-02-12-07
+      updated: 2024-10-25-03-16-20
       followers: 563
       likes: 36
-      views: 116
+      views: 117
 2017-12-07-puzzled-ashlanders:
   title: Puzzled Ashlanders
   titleRu: Озадаченные эшлендеры
