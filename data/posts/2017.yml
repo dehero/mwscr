@@ -890,10 +890,10 @@
     - service: vk
       id: 1554
       published: 2024-05-30-18-20-43
-      updated: 2024-10-18-09-08-52
+      updated: 2024-10-25-10-08-36
       followers: 916
       likes: 49
-      views: 397
+      views: 400
       reposts: 3
       comments: !c |-
         GwoBwBwJdmzJQtx7FxVxI/3xBGMJsEk8kmSPrMPTylymS6JdWCto9jDr+NeThZQ/E66y4SE1qYNc
@@ -903,7 +903,7 @@
     - service: tg
       id: 424
       published: 2024-05-30-18-20-52
-      updated: 2024-10-18-09-08-50
+      updated: 2024-10-25-10-08-35
       followers: 378
       likes: 60
       views: 478
@@ -11659,17 +11659,17 @@
       id: DBhDWtpthR5
       mediaId: '17909732286040575'
       published: 2024-10-24-18-10-24
-      updated: 2024-10-25-09-08-22
+      updated: 2024-10-25-10-08-31
       followers: 1472
       likes: 83
-      views: 223
+      views: 229
     - service: vk
       id: 1852
       published: 2024-10-24-18-10-30
-      updated: 2024-10-25-09-08-20
+      updated: 2024-10-25-10-08-31
       followers: 995
       likes: 25
-      views: 139
+      views: 144
       comments: !c |-
         GxYBiKwObOdpCDGx22QiDk2h91F8f2KAAvz0E4VCEG0pgp1WrISRPedcSeUlyJif7Oh1czGrB83G
         8JDnQX7Q1t6SReafKyzDzYJTRscNDjRAjsPnYQAcfBpwoYl2g7OEikpel+Fvfn6P3+6x/S8qmxAt
@@ -11678,10 +11678,10 @@
     - service: tg
       id: 574
       published: 2024-10-24-18-10-36
-      updated: 2024-10-25-09-08-21
+      updated: 2024-10-25-10-08-32
       followers: 563
       likes: 43
-      views: 130
+      views: 131
 2017-12-07-puzzled-ashlanders:
   title: Puzzled Ashlanders
   titleRu: Озадаченные эшлендеры
@@ -11833,18 +11833,18 @@
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
-      updated: 2024-10-18-09-08-49
+      updated: 2024-10-25-10-08-33
       followers: 917
       likes: 43
-      views: 310
+      views: 316
       reposts: 2
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
-      updated: 2024-10-18-09-08-49
+      updated: 2024-10-25-10-08-34
       followers: 388
       likes: 56
-      views: 469
+      views: 470
 2017-12-11-princess-of-dusk-and-dawn:
   title: Princess of Dusk and Dawn
   titleRu: Принцесса рассвета и заката
