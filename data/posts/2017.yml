@@ -1437,15 +1437,15 @@
     - service: vk
       id: 1472
       published: 2024-03-28-18-11-42
-      updated: 2024-10-18-13-16-50
+      updated: 2024-10-25-14-07-40
       followers: 906
       likes: 38
-      views: 308
+      views: 309
       reposts: 1
     - service: tg
       id: 360
       published: 2024-03-28-18-11-49
-      updated: 2024-10-18-13-16-49
+      updated: 2024-10-25-14-07-38
       followers: 355
       likes: 59
       views: 458
@@ -3247,10 +3247,10 @@
     - service: vk
       id: 1426
       published: 2024-02-29-18-00-56
-      updated: 2024-10-18-13-16-54
+      updated: 2024-10-25-14-07-44
       followers: 894
       likes: 52
-      views: 373
+      views: 374
       comments: !c |-
         G90A4J0Jtg2FbTSZdiAkoQ9RETfS19STTEuwiSjZ07mV0M2W8B0+mcgdPLchRvHAf63CKFvSy3n0
         THozdYMLNAswIAokwcF0s0GGDTiL+Cnt2P386vhHFQDvdSJCqcSSyZhYGRISVuAs6fmsRBqy3XNg
@@ -3258,10 +3258,10 @@
     - service: tg
       id: 331
       published: 2024-02-29-18-01-07
-      updated: 2024-10-18-13-16-52
+      updated: 2024-10-25-14-07-41
       followers: 338
       likes: 81
-      views: 631
+      views: 632
 2017-03-31-interior-garden:
   title: Interior Garden
   titleRu: Внутренний сад
@@ -3378,10 +3378,10 @@
     - service: vk
       id: 1448
       published: 2024-03-14-18-12-16
-      updated: 2024-10-18-13-16-52
+      updated: 2024-10-25-14-07-42
       followers: 896
       likes: 51
-      views: 372
+      views: 373
       reposts: 4
       comments: !c |-
         G0kBIJwHtuOVhcFEy4mBsfh4Qm58hDcvltZamHAVaEGEX96RfctthESJZoshBTcrs5lP4OSexx92
@@ -3392,10 +3392,10 @@
     - service: tg
       id: 346
       published: 2024-03-14-18-12-22
-      updated: 2024-10-18-13-16-50
+      updated: 2024-10-25-14-07-40
       followers: 351
       likes: 67
-      views: 504
+      views: 505
       comments: !c |-
         iyaAkpPLQnjj7YABgACqaGltbWVsaGVyeqbimLrvuI+Ty0J44+SyWAAAqUdhdGVtYXRlN7xnb2lu
         ZyB0aHJ1IHRoZSBob29kIGF0IG5pZ2h0Aw==
@@ -7551,17 +7551,17 @@
     - service: vk
       id: 1516
       published: 2024-05-02-18-21-03
-      updated: 2024-10-18-13-16-46
+      updated: 2024-10-25-14-07-36
       followers: 912
       likes: 29
-      views: 235
+      views: 237
     - service: tg
       id: 396
       published: 2024-05-02-18-21-10
-      updated: 2024-10-18-13-16-46
+      updated: 2024-10-25-14-07-36
       followers: 364
       likes: 55
-      views: 469
+      views: 470
 2017-08-03-maelkashishi:
   title: Maelkashishi
   titleRu: Мелкашиши
@@ -8887,15 +8887,15 @@
     - service: vk
       id: 1509
       published: 2024-04-25-18-18-02
-      updated: 2024-10-18-13-16-47
+      updated: 2024-10-25-14-07-37
       followers: 910
       likes: 53
-      views: 361
+      views: 363
       reposts: 2
     - service: tg
       id: 389
       published: 2024-04-25-18-18-08
-      updated: 2024-10-18-13-16-47
+      updated: 2024-10-25-14-07-37
       followers: 354
       likes: 73
       views: 526
@@ -11659,17 +11659,17 @@
       id: DBhDWtpthR5
       mediaId: '17909732286040575'
       published: 2024-10-24-18-10-24
-      updated: 2024-10-25-13-16-39
+      updated: 2024-10-25-14-07-34
       followers: 1472
-      likes: 89
-      views: 248
+      likes: 90
+      views: 250
     - service: vk
       id: 1852
       published: 2024-10-24-18-10-30
-      updated: 2024-10-25-13-16-38
+      updated: 2024-10-25-14-07-33
       followers: 995
       likes: 28
-      views: 158
+      views: 160
       comments: !c |-
         GxYBiKwObOdpCDGx22QiDk2h91F8f2KAAvz0E4VCEG0pgp1WrISRPedcSeUlyJif7Oh1czGrB83G
         8JDnQX7Q1t6SReafKyzDzYJTRscNDjRAjsPnYQAcfBpwoYl2g7OEikpel+Fvfn6P3+6x/S8qmxAt
@@ -11678,10 +11678,10 @@
     - service: tg
       id: 574
       published: 2024-10-24-18-10-36
-      updated: 2024-10-25-13-16-39
+      updated: 2024-10-25-14-07-34
       followers: 563
-      likes: 43
-      views: 134
+      likes: 44
+      views: 135
 2017-12-07-puzzled-ashlanders:
   title: Puzzled Ashlanders
   titleRu: Озадаченные эшлендеры
