@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`241 items`
+`242 items`
+
+## <span id="2024-10-25-fatal-rocks">Fatal Rocks</span>
+
+`RU` У гибельных скал
+
+<a href="https://instagram.com/p/BhcSHVEF7lR/" title="2018-04-11-fatal-rocks"><img alt="store:/shots/2018-04-11-fatal-rocks.png" src="../../assets/previews/shots/2018-04-11-fatal-rocks.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-25-fatal-rocks&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-10-25-fatal-rocks
+```
+
+> `2018-04-11-fatal-rocks`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BhcSHVEF7lR/)       | 2018-04-11 |       |    99 |       315 |  31.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_685)  | 2018-04-11 |   198 |    12 |       150 |      8 |
+| [`ig`](https://instagram.com/p/DBjoHhrtcDF/)       | 2024-10-25 |       |       |      1474 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1855) | 2024-10-25 |       |       |       997 |        |
+| [`tg`](https://t.me/mwscr/575)                     | 2024-10-25 |       |       |       563 |        |
+|                                                    |            |       |       |      3034 |  19.71 |
 
 ## <span id="2024-10-24-ready-for-a-sermon">Ready for a Sermon</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BcXtRTej2Ga/)       | 2017-12-06 |       |    78 |       248 |  31.45 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_525)  | 2017-12-06 |   171 |    15 |       106 |  14.15 |
-| [`ig`](https://instagram.com/p/DBhDWtpthR5/)       | 2024-10-24 |   268 |    93 |      1472 |   6.32 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1852) | 2024-10-24 |   172 |    31 |       995 |   3.12 |
+| [`ig`](https://instagram.com/p/DBhDWtpthR5/)       | 2024-10-24 |   274 |    97 |      1472 |   6.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1852) | 2024-10-24 |   173 |    31 |       995 |   3.12 |
 | [`tg`](https://t.me/mwscr/574)                     | 2024-10-24 |   136 |    44 |       563 |   7.82 |
-|                                                    |            |   576 |   168 |      3030 |  12.57 |
+|                                                    |            |   583 |   172 |      3030 |  12.62 |
 
 #### Comments
 
@@ -61,10 +88,10 @@
 | [`ig`](https://instagram.com/p/Bp7eWMyhQ2_/)       | 2018-11-08 |       |   104 |       457 |  22.76 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1035) | 2018-11-08 |   513 |    36 |       285 |  12.63 |
 | [`tg`](https://t.me/mwscr/114)                     | 2018-11-08 |   307 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DBeeh51tcne/)       | 2024-10-23 |   274 |    76 |      1472 |   5.16 |
+| [`ig`](https://instagram.com/p/DBeeh51tcne/)       | 2024-10-23 |   276 |    77 |      1472 |   5.23 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1850) | 2024-10-23 |   218 |    31 |       994 |   3.22 |
 | [`tg`](https://t.me/mwscr/573)                     | 2024-10-23 |   236 |    53 |       563 |   9.41 |
-|                                                    |            |   728 |   160 |      3029 |  10.64 |
+|                                                    |            |   730 |   161 |      3029 |  10.65 |
 
 #### Comments
 
