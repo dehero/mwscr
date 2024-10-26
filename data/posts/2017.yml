@@ -6975,7 +6975,7 @@
     - service: vk
       id: 1464
       published: 2024-03-22-18-12-46
-      updated: 2024-10-19-16-07-49
+      updated: 2024-10-26-17-02-08
       followers: 896
       likes: 34
       views: 320
@@ -9395,14 +9395,14 @@
     - service: vk
       id: 1483
       published: 2024-04-05-18-17-17
-      updated: 2024-10-19-16-07-48
+      updated: 2024-10-26-17-02-07
       followers: 908
       likes: 36
-      views: 269
+      views: 270
     - service: tg
       id: 369
       published: 2024-04-05-18-17-25
-      updated: 2024-10-19-16-07-46
+      updated: 2024-10-26-17-02-05
       followers: 355
       likes: 64
       views: 467
@@ -11659,17 +11659,17 @@
       id: DBhDWtpthR5
       mediaId: '17909732286040575'
       published: 2024-10-24-18-10-24
-      updated: 2024-10-26-16-07-41
+      updated: 2024-10-26-17-02-04
       followers: 1472
-      likes: 103
-      views: 320
+      likes: 104
+      views: 321
     - service: vk
       id: 1852
       published: 2024-10-24-18-10-30
-      updated: 2024-10-26-16-07-41
+      updated: 2024-10-26-17-02-03
       followers: 995
       likes: 33
-      views: 203
+      views: 204
       comments: !c |-
         GxYBiKwObOdpCDGx22QiDk2h91F8f2KAAvz0E4VCEG0pgp1WrISRPedcSeUlyJif7Oh1czGrB83G
         8JDnQX7Q1t6SReafKyzDzYJTRscNDjRAjsPnYQAcfBpwoYl2g7OEikpel+Fvfn6P3+6x/S8qmxAt
@@ -11678,10 +11678,10 @@
     - service: tg
       id: 574
       published: 2024-10-24-18-10-36
-      updated: 2024-10-26-16-07-42
+      updated: 2024-10-26-17-02-03
       followers: 563
       likes: 53
-      views: 210
+      views: 212
 2017-12-07-puzzled-ashlanders:
   title: Puzzled Ashlanders
   titleRu: Озадаченные эшлендеры
