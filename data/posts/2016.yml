@@ -1510,10 +1510,11 @@
     - service: vk
       id: 1593
       published: 2024-06-21-18-20-26
-      updated: 2024-10-19-06-09-41
+      updated: 2024-10-26-07-01-07
       followers: 919
       likes: 35
-      views: 286
+      views: 292
+      reposts: 1
     - service: tg
       id: 446
       published: 2024-06-21-18-20-33
