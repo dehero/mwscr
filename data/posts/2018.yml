@@ -3496,17 +3496,17 @@
       id: DBjoHhrtcDF
       mediaId: '17979166523766393'
       published: 2024-10-25-18-10-09
-      updated: 2024-10-26-18-08-57
+      updated: 2024-10-26-19-02-02
       followers: 1474
-      likes: 81
-      views: 267
+      likes: 82
+      views: 270
     - service: vk
       id: 1855
       published: 2024-10-25-18-10-15
-      updated: 2024-10-26-18-08-58
+      updated: 2024-10-26-19-02-03
       followers: 997
       likes: 26
-      views: 157
+      views: 160
       comments: !c |-
         G7kAqC0OzHM5D67SpeLwJk5NbPRP3Ij0j1fqGTYJRniyD/Scbg85moKhuhFkcj1X3RbrDiK+mtPc
         y4OgoVqjoWsqtLgkWV4fOOSA/WuBcKCpxxRswFEzPyyDfOV5f73j/0Z8t2ZwoHq555wJsYxFmq8b
@@ -3514,10 +3514,10 @@
     - service: tg
       id: 575
       published: 2024-10-25-18-10-23
-      updated: 2024-10-26-18-08-58
+      updated: 2024-10-26-19-02-02
       followers: 563
-      likes: 49
-      views: 202
+      likes: 50
+      views: 219
 2018-04-12-mushroom-stairs:
   title: Mushroom Stairs
   titleRu: Грибная лестница
@@ -5657,15 +5657,27 @@
       id: DBmMzZEPHZD
       mediaId: '18066006703647783'
       published: 2024-10-26-18-09-12
+      updated: 2024-10-26-19-02-01
       followers: 1476
+      likes: 30
+      views: 51
     - service: vk
       id: 1857
       published: 2024-10-26-18-09-18
+      updated: 2024-10-26-19-02-01
       followers: 1000
+      likes: 6
+      views: 39
+      reposts: 1
+      comments: !c CxaAkZPLQnksoeMAgACraWQ4MTA5MDA2OTS10JHRg9C60LLQsNC70YzQvdC+ICkpAw==
     - service: tg
       id: 576
       published: 2024-10-26-18-09-24
+      updated: 2024-10-26-19-02-01
       followers: 564
+      likes: 21
+      views: 59
+      comments: !c CwqAkZPLQnksoFVMAACod2lsenV1bGygAw==
 2018-06-13-lich:
   title: Lich
   titleRu: Лич
@@ -10933,17 +10945,17 @@
       id: DBeeh51tcne
       mediaId: '18023275598611101'
       published: 2024-10-23-18-10-10
-      updated: 2024-10-25-18-09-56
+      updated: 2024-10-26-19-02-03
       followers: 1472
-      likes: 77
-      views: 276
+      likes: 80
+      views: 291
     - service: vk
       id: 1850
       published: 2024-10-23-18-10-16
-      updated: 2024-10-25-18-09-57
+      updated: 2024-10-26-19-02-04
       followers: 994
-      likes: 31
-      views: 218
+      likes: 33
+      views: 238
       reposts: 1
       comments: !c |-
         G/4AuJwHto3sPCaIX+5CstH4f56TjfDrzjaGDDthgBEm96luGmEJaIQvfDx9YUXYq9tKtrQJIr6a
@@ -10953,10 +10965,10 @@
     - service: tg
       id: 573
       published: 2024-10-23-18-10-22
-      updated: 2024-10-25-18-09-57
+      updated: 2024-10-26-19-02-03
       followers: 563
-      likes: 53
-      views: 236
+      likes: 57
+      views: 273
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов
