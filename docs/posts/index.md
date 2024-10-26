@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`242 items`
+`243 items`
+
+## <span id="2024-10-26-bear-and-fir-tree">Bear and Fir-Tree</span>
+
+`RU` Медведь и ель
+
+<a href="https://instagram.com/p/Bj70KlllJRE/" title="2018-06-12-bear-and-fir-tree"><img alt="store:/shots/2018-06-12-bear-and-fir-tree.png" src="../../assets/previews/shots/2018-06-12-bear-and-fir-tree.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-26-bear-and-fir-tree&postLocation=)</code> `🔗 Bloodmoon` `bear` `firtree`
+
+```
+2024-10-26-bear-and-fir-tree
+```
+
+> `2018-06-12-bear-and-fir-tree`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bj70KlllJRE/)       | 2018-06-12 |       |    90 |       343 |  26.24 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_764)  | 2018-06-12 |   321 |    21 |       173 |  12.72 |
+| [`ig`](https://instagram.com/p/DBmMzZEPHZD/)       | 2024-10-26 |       |       |      1476 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1857) | 2024-10-26 |       |       |      1000 |        |
+| [`tg`](https://t.me/mwscr/576)                     | 2024-10-26 |       |       |       564 |        |
+|                                                    |            |       |       |      3040 |  19.48 |
+
+#### Comments
+
+- `ig` <ins title="2018-06-12-20-53-16">swekg</ins> 😍😍😍
 
 ## <span id="2024-10-25-fatal-rocks">Fatal Rocks</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BhcSHVEF7lR/)       | 2018-04-11 |       |    99 |       315 |  31.43 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_685)  | 2018-04-11 |   198 |    12 |       150 |      8 |
-| [`ig`](https://instagram.com/p/DBjoHhrtcDF/)       | 2024-10-25 |   261 |    80 |      1474 |   5.43 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1855) | 2024-10-25 |   156 |    26 |       997 |   2.61 |
-| [`tg`](https://t.me/mwscr/575)                     | 2024-10-25 |   200 |    48 |       563 |   8.53 |
-|                                                    |            |   617 |   154 |      3034 |   11.2 |
+| [`ig`](https://instagram.com/p/DBjoHhrtcDF/)       | 2024-10-25 |   267 |    81 |      1474 |    5.5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1855) | 2024-10-25 |   157 |    26 |       997 |   2.61 |
+| [`tg`](https://t.me/mwscr/575)                     | 2024-10-25 |   202 |    49 |       563 |    8.7 |
+|                                                    |            |   626 |   156 |      3034 |  11.25 |
 
 #### Comments
 
@@ -59,10 +90,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BcXtRTej2Ga/)       | 2017-12-06 |       |    78 |       248 |  31.45 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_525)  | 2017-12-06 |   171 |    15 |       106 |  14.15 |
-| [`ig`](https://instagram.com/p/DBhDWtpthR5/)       | 2024-10-24 |   321 |   104 |      1472 |   7.07 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1852) | 2024-10-24 |   204 |    33 |       995 |   3.32 |
-| [`tg`](https://t.me/mwscr/574)                     | 2024-10-24 |   212 |    53 |       563 |   9.41 |
-|                                                    |            |   737 |   190 |      3030 |  13.08 |
+| [`ig`](https://instagram.com/p/DBhDWtpthR5/)       | 2024-10-24 |   327 |   105 |      1472 |   7.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1852) | 2024-10-24 |   205 |    33 |       995 |   3.32 |
+| [`tg`](https://t.me/mwscr/574)                     | 2024-10-24 |   213 |    53 |       563 |   9.41 |
+|                                                    |            |   745 |   191 |      3030 |  13.09 |
 
 #### Comments
 
