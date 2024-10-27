@@ -4922,10 +4922,10 @@
     - service: vk
       id: 1730
       published: 2024-09-01-18-27-13
-      updated: 2024-10-20-22-03-31
+      updated: 2024-10-27-23-08-19
       followers: 942
       likes: 29
-      views: 273
+      views: 280
       comments: !c |-
         G9sAABwJdizLQnLlZGVExYkRj9w8JTNRjAQwGMBOBUtY2QMuSM21hfShfguf0yYYxCBiMTwY6jEc
         3CubQfCQxXqbGSVF0IwDt6DLKMAJjeFlbPOUdVmRDD9/vb/tXuuvyPK5zopB5v9r+aXqkRXOM6xr
@@ -4933,10 +4933,10 @@
     - service: tg
       id: 519
       published: 2024-09-01-18-27-20
-      updated: 2024-10-20-22-03-28
+      updated: 2024-10-27-23-08-17
       followers: 547
       likes: 62
-      views: 498
+      views: 500
 2017-05-15-in-the-courtyard-of-royal-palace:
   title: In the Courtyard of Royal Palace
   titleRu: Во внутреннем дворе Королевского дворца
@@ -5817,25 +5817,25 @@
       id: DBoxm7JycYe
       mediaId: '18040503437140503'
       published: 2024-10-27-18-09-17
-      updated: 2024-10-27-22-02-40
+      updated: 2024-10-27-23-08-13
       followers: 1475
-      likes: 60
-      views: 161
+      likes: 67
+      views: 194
     - service: vk
       id: 1862
       published: 2024-10-27-18-09-23
-      updated: 2024-10-27-22-02-40
+      updated: 2024-10-27-23-08-13
       followers: 1000
-      likes: 13
-      views: 88
+      likes: 14
+      views: 96
       reposts: 1
     - service: tg
       id: 577
       published: 2024-10-27-18-09-29
-      updated: 2024-10-27-22-02-41
+      updated: 2024-10-27-23-08-14
       followers: 564
-      likes: 35
-      views: 99
+      likes: 36
+      views: 104
 2017-06-11-castle-karstaag:
   title: Castle Karstaag
   titleRu: Замок Карстааг
