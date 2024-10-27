@@ -5813,6 +5813,19 @@
       followers: 63
       likes: 9
       views: 119
+    - service: ig
+      id: DBoxm7JycYe
+      mediaId: '18040503437140503'
+      published: 2024-10-27-18-09-17
+      followers: 1475
+    - service: vk
+      id: 1862
+      published: 2024-10-27-18-09-23
+      followers: 1000
+    - service: tg
+      id: 577
+      published: 2024-10-27-18-09-29
+      followers: 564
 2017-06-11-castle-karstaag:
   title: Castle Karstaag
   titleRu: Замок Карстааг
@@ -11659,17 +11672,17 @@
       id: DBhDWtpthR5
       mediaId: '17909732286040575'
       published: 2024-10-24-18-10-24
-      updated: 2024-10-26-18-08-58
+      updated: 2024-10-27-18-09-05
       followers: 1472
-      likes: 105
-      views: 327
+      likes: 111
+      views: 347
     - service: vk
       id: 1852
       published: 2024-10-24-18-10-30
-      updated: 2024-10-26-18-08-59
+      updated: 2024-10-27-18-09-05
       followers: 995
-      likes: 33
-      views: 205
+      likes: 37
+      views: 225
       comments: !c |-
         GxYBiKwObOdpCDGx22QiDk2h91F8f2KAAvz0E4VCEG0pgp1WrISRPedcSeUlyJif7Oh1czGrB83G
         8JDnQX7Q1t6SReafKyzDzYJTRscNDjRAjsPnYQAcfBpwoYl2g7OEikpel+Fvfn6P3+6x/S8qmxAt
@@ -11678,10 +11691,10 @@
     - service: tg
       id: 574
       published: 2024-10-24-18-10-36
-      updated: 2024-10-26-18-08-59
+      updated: 2024-10-27-18-09-06
       followers: 563
-      likes: 53
-      views: 213
+      likes: 55
+      views: 240
 2017-12-07-puzzled-ashlanders:
   title: Puzzled Ashlanders
   titleRu: Озадаченные эшлендеры
