@@ -2490,24 +2490,24 @@
       id: DBrWjHtvv1-
       mediaId: '17978897342631080'
       published: 2024-10-28-18-10-33
-      updated: 2024-10-28-20-08-34
+      updated: 2024-10-28-21-07-16
       followers: 1477
-      likes: 31
-      views: 92
+      likes: 39
+      views: 129
     - service: vk
       id: 1865
       published: 2024-10-28-18-10-39
-      updated: 2024-10-28-20-08-34
+      updated: 2024-10-28-21-07-17
       followers: 1000
-      likes: 14
-      views: 67
+      likes: 17
+      views: 76
     - service: tg
       id: 578
       published: 2024-10-28-18-10-46
-      updated: 2024-10-28-20-08-35
+      updated: 2024-10-28-21-07-17
       followers: 564
-      likes: 24
-      views: 80
+      likes: 27
+      views: 89
 2018-03-15-the-other-side:
   title: The Other Side
   titleRu: По ту сторону
@@ -2789,17 +2789,17 @@
       id: DAjQQzrI42H
       mediaId: '18022662017591508'
       published: 2024-09-30-18-10-21
-      updated: 2024-10-21-21-07-11
+      updated: 2024-10-28-21-07-22
       followers: 1459
       likes: 107
       views: 514
     - service: vk
       id: 1792
       published: 2024-09-30-18-10-27
-      updated: 2024-10-21-21-07-13
+      updated: 2024-10-28-21-07-24
       followers: 957
       likes: 45
-      views: 315
+      views: 323
       reposts: 5
       comments: !c |-
         G1kCIKwKbGOR2MNOkzN7H82OsuyiE/9PXOwjfLO2MwVpaIkFXIJBBF/O5W/ut8cSmraHYDGkOXZ6
@@ -2811,10 +2811,10 @@
     - service: tg
       id: 550
       published: 2024-09-30-18-10-33
-      updated: 2024-10-21-21-07-13
+      updated: 2024-10-28-21-07-24
       followers: 558
       likes: 67
-      views: 439
+      views: 447
       comments: !c |-
         G4QAwBwHuRnrjhXVgx9isZgRKh0ib1L8INqHFlhnqmLG2G9CPyXq6DDo5Za7Pes/0AP+2r6sLXur
         C8K0eSqJ5QEX8Ta1MinElS5lSvWmlIKZYhqHF/vdtWqRiuXqfn8+BYBNeprQL0QOg3ULwmQBRleh
@@ -3797,18 +3797,19 @@
     - service: vk
       id: 1824
       published: 2024-10-14-18-10-26
-      updated: 2024-10-21-21-07-11
+      updated: 2024-10-28-21-07-22
       followers: 964
-      likes: 45
-      views: 340
+      likes: 46
+      views: 371
+      reposts: 1
       comments: !c CxKAkZPLQnko8uKOAACraWQ4MTA5MDA2OTSt0KHQutC+0YDQviApKQM=
     - service: tg
       id: 564
       published: 2024-10-14-18-10-32
-      updated: 2024-10-21-21-07-11
+      updated: 2024-10-28-21-07-21
       followers: 561
       likes: 60
-      views: 313
+      views: 379
 2018-04-20-road-through-a-dead-forest:
   title: Road Through a Dead Forest
   titleRu: Дорога сквозь мёртвый лес
@@ -9806,24 +9807,24 @@
       id: DBZU_jdNLUn
       mediaId: '17920507637891871'
       published: 2024-10-21-18-10-37
-      updated: 2024-10-27-21-02-30
+      updated: 2024-10-28-21-07-19
       followers: 1473
-      likes: 98
-      views: 471
+      likes: 100
+      views: 473
     - service: vk
       id: 1848
       published: 2024-10-21-18-10-44
-      updated: 2024-10-27-21-02-32
+      updated: 2024-10-28-21-07-21
       followers: 993
       likes: 37
-      views: 273
+      views: 276
     - service: tg
       id: 571
       published: 2024-10-21-18-10-50
-      updated: 2024-10-27-21-02-30
+      updated: 2024-10-28-21-07-20
       followers: 562
       likes: 50
-      views: 483
+      views: 506
 2018-10-10-thunderstorm-cave:
   title: Thunderstorm Cave
   titleRu: Грозовая пещера
