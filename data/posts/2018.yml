@@ -2079,7 +2079,7 @@
     - service: tg
       id: 385
       published: 2024-04-21-18-17-47
-      updated: 2024-10-21-08-11-39
+      updated: 2024-10-28-09-09-04
       followers: 354
       likes: 64
       views: 460
@@ -3036,7 +3036,7 @@
       id: C_BbGpzuG4v
       mediaId: '17923658099841263'
       published: 2024-08-23-18-19-28
-      updated: 2024-10-21-08-11-41
+      updated: 2024-10-28-09-09-04
       followers: 1457
       likes: 74
       views: 325
@@ -5659,17 +5659,17 @@
       id: DBmMzZEPHZD
       mediaId: '18066006703647783'
       published: 2024-10-26-18-09-12
-      updated: 2024-10-28-08-11-31
+      updated: 2024-10-28-09-09-00
       followers: 1476
-      likes: 119
-      views: 460
+      likes: 120
+      views: 465
     - service: vk
       id: 1857
       published: 2024-10-26-18-09-18
-      updated: 2024-10-28-08-11-32
+      updated: 2024-10-28-09-09-01
       followers: 1000
       likes: 41
-      views: 243
+      views: 245
       reposts: 3
       comments: !c |-
         GxwB4C0OzHOdB2ow3rAbn0ohbDz/z6GG8J/YBo3x1AmaE0pA1iBcvQ+01ULNLeRKqEZdNyPzHMPx
@@ -5680,10 +5680,10 @@
     - service: tg
       id: 576
       published: 2024-10-26-18-09-24
-      updated: 2024-10-28-08-11-32
+      updated: 2024-10-28-09-09-01
       followers: 564
-      likes: 49
-      views: 215
+      likes: 50
+      views: 217
       comments: !c CxSAkpPLQnksrSYPAACobW9uZ2xlcmmgk8tCeSygVUwAAKh3aWx6dXVsbKAD
 2018-06-13-lich:
   title: Lich
@@ -8402,10 +8402,10 @@
       id: C_Gkjg6Nfuj
       mediaId: '17929160141924204'
       published: 2024-08-25-18-18-13
-      updated: 2024-10-21-08-11-39
+      updated: 2024-10-28-09-09-02
       followers: 1455
       likes: 99
-      views: 406
+      views: 407
     - service: vk
       id: 1707
       published: 2024-08-25-18-18-20
