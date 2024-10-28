@@ -3347,10 +3347,10 @@
     - service: vk
       id: 1595
       published: 2024-06-23-18-18-57
-      updated: 2024-10-21-06-11-54
+      updated: 2024-10-28-06-12-06
       followers: 918
       likes: 35
-      views: 283
+      views: 286
       reposts: 2
       comments: !c |-
         G4gBAKwSbBsG2w8bynXAGZ7iZETfb+wHKP1RmT/MUGidRNCiQUs2WAKpWCh7XTfnc76uYpEEqtti
@@ -3361,7 +3361,7 @@
     - service: tg
       id: 448
       published: 2024-06-23-18-19-06
-      updated: 2024-10-21-06-11-54
+      updated: 2024-10-28-06-12-05
       followers: 389
       likes: 53
       views: 483
@@ -5659,29 +5659,31 @@
       id: DBmMzZEPHZD
       mediaId: '18066006703647783'
       published: 2024-10-26-18-09-12
-      updated: 2024-10-28-05-09-06
+      updated: 2024-10-28-06-12-00
       followers: 1476
       likes: 117
-      views: 450
+      views: 454
     - service: vk
       id: 1857
       published: 2024-10-26-18-09-18
-      updated: 2024-10-28-05-09-05
+      updated: 2024-10-28-06-12-02
       followers: 1000
-      likes: 38
-      views: 231
+      likes: 41
+      views: 235
       reposts: 3
       comments: !c |-
-        G8YAoI2UbsI8kGjOKvm2HZKbcoQWFaMwBHpGYU7WblBzC7kSqtV1MzLPMdjjlBMNEAJqiSUS68EP
-        dKaDx/A7Jp9yyfFq/YzWrNu/Zto9lwy6nCGn0x/yPljSpgiclglilK5vEOzr4W/ncqxYiIV8ppeN
-        UwwoPigEXEbJAHhASEMc+NmxwmU69q30u6we1C/MCCucBiQtEu3ysaRXJoygCCVNkAagtAM=
+        GxwB4C0OzHOdB2ow3rAbn0ohbDz/z6GG8J/YBo3x1AmaE0pA1iBcvQ+01ULNLeRKqEZdNyPzHMPx
+        djY1aIJNTo7C2H7/OX1pkOncYj3siLc1svZqC9fJgYYHDBACSrPWPMSEEyyyiHIbm66jGr8gHN5u
+        X7bs7v/IGs/hHRCwxP9HUgnuZzVVq7UT4Lg6366zeXdUZosrQnkoDYcqBRcibjX82h6E22Ytj2nr
+        stSfXi0eSQgJqb/yFUhjIdijRAWIS9mP4Z7/SbfDKXaTZW2eLawRaOpWoMjPKqqcQjq3RMaFe8lB
+        NQE=
     - service: tg
       id: 576
       published: 2024-10-26-18-09-24
-      updated: 2024-10-28-05-09-05
+      updated: 2024-10-28-06-12-01
       followers: 564
       likes: 49
-      views: 208
+      views: 210
       comments: !c CxSAkpPLQnksrSYPAACobW9uZ2xlcmmgk8tCeSygVUwAAKh3aWx6dXVsbKAD
 2018-06-13-lich:
   title: Lich
