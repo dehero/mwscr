@@ -1987,15 +1987,15 @@
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2024-10-21-13-17-52
+      updated: 2024-10-28-13-18-27
       followers: 894
       likes: 34
-      views: 295
+      views: 296
       reposts: 1
     - service: tg
       id: 334
       published: 2024-03-03-18-16-50
-      updated: 2024-10-21-13-17-50
+      updated: 2024-10-28-13-18-23
       followers: 341
       likes: 63
       views: 518
@@ -4482,14 +4482,14 @@
     - service: vk
       id: 1468
       published: 2024-03-24-18-11-49
-      updated: 2024-10-21-13-17-51
+      updated: 2024-10-28-13-18-25
       followers: 898
       likes: 41
       views: 348
     - service: tg
       id: 356
       published: 2024-03-24-18-11-58
-      updated: 2024-10-21-13-17-49
+      updated: 2024-10-28-13-18-22
       followers: 352
       likes: 60
       views: 532
@@ -5659,14 +5659,14 @@
       id: DBmMzZEPHZD
       mediaId: '18066006703647783'
       published: 2024-10-26-18-09-12
-      updated: 2024-10-28-12-14-26
+      updated: 2024-10-28-13-18-22
       followers: 1476
-      likes: 120
+      likes: 121
       views: 473
     - service: vk
       id: 1857
       published: 2024-10-26-18-09-18
-      updated: 2024-10-28-12-14-26
+      updated: 2024-10-28-13-18-21
       followers: 1000
       likes: 41
       views: 248
@@ -5680,10 +5680,10 @@
     - service: tg
       id: 576
       published: 2024-10-26-18-09-24
-      updated: 2024-10-28-12-14-25
+      updated: 2024-10-28-13-18-20
       followers: 564
-      likes: 50
-      views: 221
+      likes: 51
+      views: 225
       comments: !c CxSAkpPLQnksrSYPAACobW9uZ2xlcmmgk8tCeSygVUwAAKh3aWx6dXVsbKAD
 2018-06-13-lich:
   title: Lich
