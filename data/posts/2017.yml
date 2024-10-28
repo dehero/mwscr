@@ -1209,17 +1209,17 @@
     - service: vk
       id: 1697
       published: 2024-08-18-18-17-50
-      updated: 2024-10-21-05-08-48
+      updated: 2024-10-28-05-09-06
       followers: 934
       likes: 38
-      views: 259
+      views: 263
     - service: tg
       id: 505
       published: 2024-08-18-18-17-57
-      updated: 2024-10-21-05-08-47
+      updated: 2024-10-28-05-09-06
       followers: 529
-      likes: 58
-      views: 576
+      likes: 59
+      views: 580
       comments: !c CxWAkZPLQnkZFt9GAACncGFybHNlebfQu9GD0YfRiNC40Lkg0LrQsNC90LDQuwM=
 2017-02-04-rumors-are-about-some-two-prisoners:
   title: Rumors Are About Some Two Prisoners
@@ -5817,25 +5817,25 @@
       id: DBoxm7JycYe
       mediaId: '18040503437140503'
       published: 2024-10-27-18-09-17
-      updated: 2024-10-28-04-10-27
+      updated: 2024-10-28-05-09-05
       followers: 1475
-      likes: 80
-      views: 261
+      likes: 81
+      views: 264
     - service: vk
       id: 1862
       published: 2024-10-27-18-09-23
-      updated: 2024-10-28-04-10-27
+      updated: 2024-10-28-05-09-04
       followers: 1000
-      likes: 15
-      views: 111
+      likes: 16
+      views: 118
       reposts: 1
     - service: tg
       id: 577
       published: 2024-10-27-18-09-29
-      updated: 2024-10-28-04-10-27
+      updated: 2024-10-28-05-09-04
       followers: 564
       likes: 37
-      views: 113
+      views: 114
 2017-06-11-castle-karstaag:
   title: Castle Karstaag
   titleRu: Замок Карстааг
@@ -6480,18 +6480,18 @@
     - service: vk
       id: 1659
       published: 2024-07-28-18-20-53
-      updated: 2024-10-21-05-08-50
+      updated: 2024-10-28-05-09-09
       followers: 923
       likes: 38
-      views: 296
+      views: 299
       reposts: 2
     - service: tg
       id: 483
       published: 2024-07-28-18-21-02
-      updated: 2024-10-21-05-08-48
+      updated: 2024-10-28-05-09-08
       followers: 402
-      likes: 58
-      views: 2257
+      likes: 59
+      views: 2266
 2017-07-01-training-room:
   title: Training Room
   titleRu: Тренировочная комната
