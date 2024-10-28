@@ -2486,6 +2486,19 @@
       likes: 14
       views: 185
       reposts: 1
+    - service: ig
+      id: DBrWjHtvv1-
+      mediaId: '17978897342631080'
+      published: 2024-10-28-18-10-33
+      followers: 1477
+    - service: vk
+      id: 1865
+      published: 2024-10-28-18-10-39
+      followers: 1000
+    - service: tg
+      id: 578
+      published: 2024-10-28-18-10-46
+      followers: 564
 2018-03-15-the-other-side:
   title: The Other Side
   titleRu: По ту сторону
@@ -3496,17 +3509,18 @@
       id: DBjoHhrtcDF
       mediaId: '17979166523766393'
       published: 2024-10-25-18-10-09
-      updated: 2024-10-27-18-09-03
+      updated: 2024-10-28-18-10-18
       followers: 1474
-      likes: 85
-      views: 303
+      likes: 87
+      views: 316
     - service: vk
       id: 1855
       published: 2024-10-25-18-10-15
-      updated: 2024-10-27-18-09-04
+      updated: 2024-10-28-18-10-18
       followers: 997
-      likes: 29
-      views: 179
+      likes: 32
+      views: 204
+      reposts: 1
       comments: !c |-
         G9QBgCwKbGOzhuhJv0vFoSZyr8ka/09/MdI3/lv0MNMSTBJPzgVdVbcLLW8EAkGCAkdSHpZv29cJ
         i7otd4s1CXMrEw76EO1ZDdVSaFG3xbrDEZ+C2aJH0XMQy0OKf3oLWKsFcYQtCyLLT0c7HPh+sQPf
@@ -3516,10 +3530,10 @@
     - service: tg
       id: 575
       published: 2024-10-25-18-10-23
-      updated: 2024-10-27-18-09-04
+      updated: 2024-10-28-18-10-18
       followers: 563
-      likes: 52
-      views: 244
+      likes: 54
+      views: 277
 2018-04-12-mushroom-stairs:
   title: Mushroom Stairs
   titleRu: Грибная лестница
