@@ -211,14 +211,14 @@
     - service: vk
       id: 1585
       published: 2024-06-17-18-19-59
-      updated: 2024-10-22-05-10-30
+      updated: 2024-10-29-06-11-32
       followers: 918
       likes: 33
-      views: 264
+      views: 265
     - service: tg
       id: 442
       published: 2024-06-17-18-20-05
-      updated: 2024-10-22-05-10-26
+      updated: 2024-10-29-06-11-29
       followers: 385
       likes: 58
       views: 471
@@ -5281,15 +5281,15 @@
     - service: vk
       id: 1610
       published: 2024-07-01-18-20-13
-      updated: 2024-10-22-05-10-29
+      updated: 2024-10-29-06-11-31
       followers: 918
       likes: 54
-      views: 324
+      views: 325
       reposts: 1
     - service: tg
       id: 456
       published: 2024-07-01-18-20-19
-      updated: 2024-10-22-05-10-25
+      updated: 2024-10-29-06-11-28
       followers: 390
       likes: 61
       views: 455
@@ -5817,14 +5817,14 @@
       id: DBoxm7JycYe
       mediaId: '18040503437140503'
       published: 2024-10-27-18-09-17
-      updated: 2024-10-29-05-08-26
+      updated: 2024-10-29-06-11-22
       followers: 1475
       likes: 97
       views: 387
     - service: vk
       id: 1862
       published: 2024-10-27-18-09-23
-      updated: 2024-10-29-05-08-26
+      updated: 2024-10-29-06-11-23
       followers: 1000
       likes: 23
       views: 187
@@ -5832,10 +5832,10 @@
     - service: tg
       id: 577
       published: 2024-10-27-18-09-29
-      updated: 2024-10-29-05-08-27
+      updated: 2024-10-29-06-11-22
       followers: 564
       likes: 50
-      views: 170
+      views: 173
 2017-06-11-castle-karstaag:
   title: Castle Karstaag
   titleRu: Замок Карстааг
@@ -6721,10 +6721,10 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2024-10-22-05-10-28
+      updated: 2024-10-29-06-11-31
       followers: 919
       likes: 37
-      views: 286
+      views: 287
       reposts: 2
       comments: !c |-
         G2kBQCwKbBu2NSy3aG+yVz+UohPxD3WxJdzxm9XDIz4P0oQv4KQgoECS93VuLRpaZbNZEiJMQLkh
@@ -6735,10 +6735,10 @@
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2024-10-22-05-10-25
+      updated: 2024-10-29-06-11-27
       followers: 395
       likes: 60
-      views: 480
+      views: 481
       comments: !c CxiAkZPLQnkP1+/4gACpR2F0ZW1hdGU3u2hhdHcgdGhlc2UgbW90aGVyIGZ1Y2tlcnMuLgM=
     - service: ig
       id: C9Ug-PYxnq2
@@ -9186,18 +9186,18 @@
     - service: vk
       id: 1688
       published: 2024-08-12-18-30-39
-      updated: 2024-10-22-05-10-23
+      updated: 2024-10-29-06-11-26
       followers: 931
       likes: 41
-      views: 297
+      views: 299
       reposts: 1
     - service: tg
       id: 499
       published: 2024-08-12-18-30-46
-      updated: 2024-10-22-05-10-22
+      updated: 2024-10-29-06-11-24
       followers: 523
-      likes: 59
-      views: 554
+      likes: 60
+      views: 557
       comments: !c |-
         G44A4MX/Oi0CGX8WDsU7YHi3p9S/V8UaaGviB3QecLPiWqVZOaJFmgQeslZeTDbmtTv+4o1/eGee
         dyuYUx1zKvoyrJipVECQqqtIHQhO4aM4sZ4q+pfzvVoqSC1Z9YZgJZ+Pe9FXVBHYXK00xLDdoNJg
@@ -9342,10 +9342,10 @@
     - service: vk
       id: 1650
       published: 2024-07-22-18-20-29
-      updated: 2024-10-22-05-10-27
+      updated: 2024-10-29-06-11-29
       followers: 920
       likes: 38
-      views: 303
+      views: 304
       reposts: 1
       comments: !c |-
         G6kAIKwOeDOWKwkaNpHUgwF3nX5E4I30Bzr0yQwXeBYmlNyDBbU5SwqykKdDOHk09tnZasAwTaMm
@@ -9354,10 +9354,10 @@
     - service: tg
       id: 477
       published: 2024-07-22-18-20-38
-      updated: 2024-10-22-05-10-24
+      updated: 2024-10-29-06-11-26
       followers: 400
-      likes: 63
-      views: 580
+      likes: 64
+      views: 582
 2017-09-28-mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
@@ -9860,18 +9860,18 @@
     - service: vk
       id: 1638
       published: 2024-07-15-18-20-44
-      updated: 2024-10-22-05-10-28
+      updated: 2024-10-29-06-11-30
       followers: 919
       likes: 42
-      views: 264
+      views: 265
       reposts: 1
     - service: tg
       id: 470
       published: 2024-07-15-18-20-51
-      updated: 2024-10-22-05-10-24
+      updated: 2024-10-29-06-11-27
       followers: 399
-      likes: 61
-      views: 748
+      likes: 62
+      views: 749
 2017-10-15-mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров
