@@ -2490,24 +2490,24 @@
       id: DBrWjHtvv1-
       mediaId: '17978897342631080'
       published: 2024-10-28-18-10-33
-      updated: 2024-10-29-17-07-26
+      updated: 2024-10-29-18-10-18
       followers: 1477
-      likes: 80
-      views: 293
+      likes: 82
+      views: 298
     - service: vk
       id: 1865
       published: 2024-10-28-18-10-39
-      updated: 2024-10-29-17-07-27
+      updated: 2024-10-29-18-10-18
       followers: 1000
       likes: 30
-      views: 155
+      views: 156
     - service: tg
       id: 578
       published: 2024-10-28-18-10-46
-      updated: 2024-10-29-17-07-27
+      updated: 2024-10-29-18-10-18
       followers: 564
       likes: 43
-      views: 138
+      views: 140
 2018-03-15-the-other-side:
   title: The Other Side
   titleRu: По ту сторону
@@ -7186,6 +7186,19 @@
       followers: 194
       likes: 12
       views: 252
+    - service: ig
+      id: DBt7V1XPqIp
+      mediaId: '17850192069283490'
+      published: 2024-10-29-18-10-32
+      followers: 1477
+    - service: vk
+      id: 1866
+      published: 2024-10-29-18-10-39
+      followers: 1000
+    - service: tg
+      id: 579
+      published: 2024-10-29-18-10-47
+      followers: 564
 2018-07-29-stone-guards:
   title: Stone Guards
   titleRu: Каменные стражи

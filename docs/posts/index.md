@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`245 items`
+`246 items`
+
+## <span id="2024-10-29-sulfur-forest">Sulfur Forest</span>
+
+`RU` Серный лес
+
+<a href="https://instagram.com/p/Bl0JtvDlEOJ/" title="2018-07-28-sulfur-forest"><img alt="store:/shots/2018-07-28-sulfur-forest.png" src="../../assets/previews/shots/2018-07-28-sulfur-forest.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-29-sulfur-forest&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-10-29-sulfur-forest
+```
+
+> `2018-07-28-sulfur-forest`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_831)  | 2018-07-28 |   252 |    12 |       194 |   6.19 |
+| [`ig`](https://instagram.com/p/Bl0JtvDlEOJ/)       | 2018-07-29 |       |    99 |       364 |   27.2 |
+| [`ig`](https://instagram.com/p/DBt7V1XPqIp/)       | 2024-10-29 |       |       |      1477 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1866) | 2024-10-29 |       |       |      1000 |        |
+| [`tg`](https://t.me/mwscr/579)                     | 2024-10-29 |       |       |       564 |        |
+|                                                    |            |       |       |      3041 |  16.69 |
 
 ## <span id="2024-10-28-in-the-heart-of-quarter">In the Heart of Quarter</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BgT_DEmh0oD/)       | 2018-03-14 |       |   100 |       304 |  32.89 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_650)  | 2018-03-14 |   185 |    14 |       141 |  10.64 |
-| [`ig`](https://instagram.com/p/DBrWjHtvv1-/)       | 2024-10-28 |   293 |    80 |      1477 |   5.42 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1865) | 2024-10-28 |   155 |    30 |      1000 |      3 |
-| [`tg`](https://t.me/mwscr/578)                     | 2024-10-28 |   138 |    43 |       564 |   7.62 |
-|                                                    |            |   586 |   153 |      3041 |  11.91 |
+| [`ig`](https://instagram.com/p/DBrWjHtvv1-/)       | 2024-10-28 |   298 |    82 |      1477 |   5.55 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1865) | 2024-10-28 |   156 |    30 |      1000 |      3 |
+| [`tg`](https://t.me/mwscr/578)                     | 2024-10-28 |   140 |    43 |       564 |   7.62 |
+|                                                    |            |   594 |   155 |      3041 |  11.94 |
 
 #### Comments
 
