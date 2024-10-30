@@ -4,7 +4,37 @@
 
 # Posted in 2024
 
-`246 items`
+`247 items`
+
+## <span id="2024-10-30-traces-of-shipwreck">Traces of Shipwreck</span>
+
+`RU` Следы кораблекрушения
+
+<a href="https://instagram.com/p/BgzDPXhjDmE/" title="2018-03-26-traces-of-shipwreck"><img alt="store:/shots/2018-03-26-traces-of-shipwreck.png" src="../../assets/previews/shots/2018-03-26-traces-of-shipwreck.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-10-30-traces-of-shipwreck&postLocation=)</code> `🚀 OpenMW` `barrel` `shipwreck`
+
+```
+2024-10-30-traces-of-shipwreck
+```
+
+> `2018-03-26-traces-of-shipwreck`
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BgzDPXhjDmE/)      | 2018-03-26 |       |    98 |       308 |  31.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_667) | 2018-03-26 |   208 |    21 |       145 |  14.48 |
+| [`ig`](https://instagram.com/p/DBwgIxRtU4f/)      | 2024-10-30 |       |       |      1477 |        |
+| [`tg`](https://t.me/mwscr/580)                    | 2024-10-30 |       |       |       563 |        |
+|                                                   |            |       |       |      2040 |  23.15 |
+
+#### Comments
+
+- `ig` <ins title="2018-03-27-03-52-38">thenazzaro</ins> &lt;3
 
 ## <span id="2024-10-29-sulfur-forest">Sulfur Forest</span>
 
@@ -28,10 +58,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_831)  | 2018-07-28 |   252 |    12 |       194 |   6.19 |
 | [`ig`](https://instagram.com/p/Bl0JtvDlEOJ/)       | 2018-07-29 |       |    99 |       364 |   27.2 |
-| [`ig`](https://instagram.com/p/DBt7V1XPqIp/)       | 2024-10-29 |   256 |    76 |      1477 |   5.15 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1866) | 2024-10-29 |   165 |    32 |      1000 |    3.2 |
-| [`tg`](https://t.me/mwscr/579)                     | 2024-10-29 |   145 |    47 |       564 |   8.33 |
-|                                                    |            |   566 |   155 |      3041 |  10.01 |
+| [`ig`](https://instagram.com/p/DBt7V1XPqIp/)       | 2024-10-29 |   260 |    76 |      1477 |   5.15 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1866) | 2024-10-29 |   167 |    32 |      1000 |    3.2 |
+| [`tg`](https://t.me/mwscr/579)                     | 2024-10-29 |   145 |    49 |       564 |   8.69 |
+|                                                    |            |   572 |   157 |      3041 |  10.08 |
 
 ## <span id="2024-10-28-in-the-heart-of-quarter">In the Heart of Quarter</span>
 
@@ -55,10 +85,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BgT_DEmh0oD/)       | 2018-03-14 |       |   100 |       304 |  32.89 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_650)  | 2018-03-14 |   185 |    14 |       141 |  10.64 |
-| [`ig`](https://instagram.com/p/DBrWjHtvv1-/)       | 2024-10-28 |   344 |    91 |      1477 |   6.16 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1865) | 2024-10-28 |   185 |    34 |      1000 |    3.4 |
+| [`ig`](https://instagram.com/p/DBrWjHtvv1-/)       | 2024-10-28 |   345 |    91 |      1477 |   6.16 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1865) | 2024-10-28 |   186 |    34 |      1000 |    3.4 |
 | [`tg`](https://t.me/mwscr/578)                     | 2024-10-28 |   186 |    51 |       564 |   9.04 |
-|                                                    |            |   715 |   176 |      3041 |  12.43 |
+|                                                    |            |   717 |   176 |      3041 |  12.43 |
 
 #### Comments
 
@@ -86,10 +116,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BVJ8asqDoaZ/)       | 2017-06-10 |       |    61 |       181 |   33.7 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_318)  | 2017-06-10 |   119 |     9 |        63 |  14.29 |
-| [`ig`](https://instagram.com/p/DBoxm7JycYe/)       | 2024-10-27 |   397 |    99 |      1475 |   6.71 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1862) | 2024-10-27 |   195 |    23 |      1000 |    2.4 |
-| [`tg`](https://t.me/mwscr/577)                     | 2024-10-27 |   180 |    51 |       564 |   9.04 |
-|                                                    |            |   772 |   173 |      3039 |  13.23 |
+| [`ig`](https://instagram.com/p/DBoxm7JycYe/)       | 2024-10-27 |   410 |   102 |      1475 |   6.92 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1862) | 2024-10-27 |   214 |    26 |      1000 |    2.7 |
+| [`tg`](https://t.me/mwscr/577)                     | 2024-10-27 |   206 |    57 |       564 |  10.11 |
+|                                                    |            |   830 |   185 |      3039 |  13.54 |
 
 ## <span id="2024-10-26-bear-and-fir-tree">Bear and Fir-Tree</span>
 
@@ -113,10 +143,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bj70KlllJRE/)       | 2018-06-12 |       |    90 |       343 |  26.24 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_764)  | 2018-06-12 |   321 |    21 |       173 |  12.72 |
-| [`ig`](https://instagram.com/p/DBmMzZEPHZD/)       | 2024-10-26 |   505 |   127 |      1476 |    8.6 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1857) | 2024-10-26 |   267 |    44 |      1000 |    4.7 |
-| [`tg`](https://t.me/mwscr/576)                     | 2024-10-26 |   244 |    55 |       564 |   9.75 |
-|                                                    |            |  1016 |   226 |      3040 |   12.4 |
+| [`ig`](https://instagram.com/p/DBmMzZEPHZD/)       | 2024-10-26 |   509 |   127 |      1476 |    8.6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1857) | 2024-10-26 |   281 |    46 |      1000 |    4.9 |
+| [`tg`](https://t.me/mwscr/576)                     | 2024-10-26 |   269 |    56 |       564 |   9.93 |
+|                                                    |            |  1059 |   229 |      3040 |  12.48 |
 
 #### Comments
 

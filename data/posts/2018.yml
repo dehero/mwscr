@@ -2490,21 +2490,21 @@
       id: DBrWjHtvv1-
       mediaId: '17978897342631080'
       published: 2024-10-28-18-10-33
-      updated: 2024-10-30-17-07-11
+      updated: 2024-10-30-18-10-12
       followers: 1477
       likes: 91
-      views: 344
+      views: 345
     - service: vk
       id: 1865
       published: 2024-10-28-18-10-39
-      updated: 2024-10-30-17-07-12
+      updated: 2024-10-30-18-10-12
       followers: 1000
       likes: 34
-      views: 185
+      views: 186
     - service: tg
       id: 578
       published: 2024-10-28-18-10-46
-      updated: 2024-10-30-17-07-11
+      updated: 2024-10-30-18-10-13
       followers: 564
       likes: 51
       views: 186
@@ -2953,6 +2953,15 @@
       followers: 145
       likes: 21
       views: 208
+    - service: ig
+      id: DBwgIxRtU4f
+      mediaId: '17958212897716083'
+      published: 2024-10-30-18-10-30
+      followers: 1477
+    - service: tg
+      id: 580
+      published: 2024-10-30-18-10-40
+      followers: 563
 2018-03-27-in-the-branches:
   title: In the Branches
   titleRu: Среди ветвей
@@ -5683,17 +5692,17 @@
       id: DBmMzZEPHZD
       mediaId: '18066006703647783'
       published: 2024-10-26-18-09-12
-      updated: 2024-10-29-17-07-28
+      updated: 2024-10-30-18-10-13
       followers: 1476
       likes: 127
-      views: 505
+      views: 509
     - service: vk
       id: 1857
       published: 2024-10-26-18-09-18
-      updated: 2024-10-29-17-07-30
+      updated: 2024-10-30-18-10-15
       followers: 1000
-      likes: 44
-      views: 267
+      likes: 46
+      views: 281
       reposts: 3
       comments: !c |-
         GxwB4C0OzHOdB2ow3rAbn0ohbDz/z6GG8J/YBo3x1AmaE0pA1iBcvQ+01ULNLeRKqEZdNyPzHMPx
@@ -5704,10 +5713,10 @@
     - service: tg
       id: 576
       published: 2024-10-26-18-09-24
-      updated: 2024-10-29-17-07-28
+      updated: 2024-10-30-18-10-15
       followers: 564
-      likes: 55
-      views: 244
+      likes: 56
+      views: 269
       comments: !c CxSAkpPLQnksrSYPAACobW9uZ2xlcmmgk8tCeSygVUwAAKh3aWx6dXVsbKAD
 2018-06-13-lich:
   title: Lich
@@ -7190,23 +7199,23 @@
       id: DBt7V1XPqIp
       mediaId: '17850192069283490'
       published: 2024-10-29-18-10-32
-      updated: 2024-10-30-17-07-10
+      updated: 2024-10-30-18-10-11
       followers: 1477
       likes: 76
-      views: 256
+      views: 260
     - service: vk
       id: 1866
       published: 2024-10-29-18-10-39
-      updated: 2024-10-30-17-07-10
+      updated: 2024-10-30-18-10-11
       followers: 1000
       likes: 32
-      views: 165
+      views: 167
     - service: tg
       id: 579
       published: 2024-10-29-18-10-47
-      updated: 2024-10-30-17-07-10
+      updated: 2024-10-30-18-10-12
       followers: 564
-      likes: 47
+      likes: 49
       views: 145
 2018-07-29-stone-guards:
   title: Stone Guards
