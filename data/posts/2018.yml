@@ -1160,7 +1160,7 @@
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2024-10-23-04-10-05
+      updated: 2024-10-30-04-10-14
       followers: 926
       likes: 28
       views: 273
@@ -1168,10 +1168,10 @@
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2024-10-23-04-10-04
+      updated: 2024-10-30-04-10-13
       followers: 502
-      likes: 69
-      views: 603
+      likes: 70
+      views: 607
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -2490,21 +2490,21 @@
       id: DBrWjHtvv1-
       mediaId: '17978897342631080'
       published: 2024-10-28-18-10-33
-      updated: 2024-10-30-03-15-44
+      updated: 2024-10-30-04-10-09
       followers: 1477
       likes: 85
-      views: 329
+      views: 330
     - service: vk
       id: 1865
       published: 2024-10-28-18-10-39
-      updated: 2024-10-30-03-15-43
+      updated: 2024-10-30-04-10-10
       followers: 1000
       likes: 32
-      views: 168
+      views: 169
     - service: tg
       id: 578
       published: 2024-10-28-18-10-46
-      updated: 2024-10-30-03-15-44
+      updated: 2024-10-30-04-10-10
       followers: 564
       likes: 50
       views: 176
@@ -4555,10 +4555,10 @@
     - service: tg
       id: 464
       published: 2024-07-09-18-20-26
-      updated: 2024-10-23-04-10-07
+      updated: 2024-10-30-04-10-16
       followers: 396
-      likes: 68
-      views: 457
+      likes: 69
+      views: 458
     - service: ig
       id: C9VfE-NtTXs
       mediaId: '18072831043475404'
@@ -7190,24 +7190,24 @@
       id: DBt7V1XPqIp
       mediaId: '17850192069283490'
       published: 2024-10-29-18-10-32
-      updated: 2024-10-30-03-15-43
+      updated: 2024-10-30-04-10-08
       followers: 1477
-      likes: 59
-      views: 176
+      likes: 60
+      views: 182
     - service: vk
       id: 1866
       published: 2024-10-29-18-10-39
-      updated: 2024-10-30-03-15-42
+      updated: 2024-10-30-04-10-09
       followers: 1000
-      likes: 25
-      views: 104
+      likes: 26
+      views: 106
     - service: tg
       id: 579
       published: 2024-10-29-18-10-47
-      updated: 2024-10-30-03-15-43
+      updated: 2024-10-30-04-10-09
       followers: 564
       likes: 40
-      views: 121
+      views: 122
 2018-07-29-stone-guards:
   title: Stone Guards
   titleRu: Каменные стражи
