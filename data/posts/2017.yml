@@ -757,15 +757,24 @@
       id: DBzGZfRxSXu
       mediaId: '18012339707404521'
       published: 2024-10-31-18-23-22
+      updated: 2024-10-31-19-01-21
       followers: 1478
+      likes: 22
+      views: 22
     - service: vk
       id: 1868
       published: 2024-10-31-18-23-28
+      updated: 2024-10-31-19-01-22
       followers: 1002
+      likes: 7
+      views: 28
     - service: tg
       id: 581
       published: 2024-10-31-18-23-34
+      updated: 2024-10-31-19-01-22
       followers: 564
+      likes: 21
+      views: 69
 2017-01-24-welcome-to-gnaar-mok:
   title: Welcome to Gnaar Mok
   titleRu: Добро пожаловать в Гнаар Мок
@@ -5830,25 +5839,25 @@
       id: DBoxm7JycYe
       mediaId: '18040503437140503'
       published: 2024-10-27-18-09-17
-      updated: 2024-10-30-18-10-13
+      updated: 2024-10-31-19-01-24
       followers: 1475
       likes: 102
-      views: 410
+      views: 423
     - service: vk
       id: 1862
       published: 2024-10-27-18-09-23
-      updated: 2024-10-30-18-10-14
+      updated: 2024-10-31-19-01-26
       followers: 1000
-      likes: 26
-      views: 214
+      likes: 29
+      views: 233
       reposts: 1
     - service: tg
       id: 577
       published: 2024-10-27-18-09-29
-      updated: 2024-10-30-18-10-14
+      updated: 2024-10-31-19-01-25
       followers: 564
       likes: 57
-      views: 206
+      views: 242
 2017-06-11-castle-karstaag:
   title: Castle Karstaag
   titleRu: Замок Карстааг
