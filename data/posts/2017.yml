@@ -757,28 +757,29 @@
       id: DBzGZfRxSXu
       mediaId: '18012339707404521'
       published: 2024-10-31-18-23-22
-      updated: 2024-11-01-17-01-55
+      updated: 2024-11-01-18-10-02
       followers: 1478
       likes: 106
-      views: 389
+      views: 401
     - service: vk
       id: 1868
       published: 2024-10-31-18-23-28
-      updated: 2024-11-01-17-01-54
+      updated: 2024-11-01-18-10-02
       followers: 1002
-      likes: 21
-      views: 152
+      likes: 22
+      views: 156
       reposts: 1
       comments: !c |-
-        G40AeI3UTjU8ij1Cpfsfp3qEfs7X4ikU3OcTs3EKhjBp+z7WbcwzpwYWEdkKKWKJU0vWuWoSC8f1
-        eJ0cKxFwlwlg19BM919JxBthQEINIVjiHgejeYw3Xrf/3POAQgSJ8DAPEgE=
+        GyYBAByJcSyK4yxpUhUhcCNPaHkVYJZQmEQalmCELzeh17kZq9MNQo3AhuiQl44b3MyjD1s1BMNg
+        +BsHPt04EN26jXZNsMmyLbLhbmMIbrd1TBqe95e9HOse47vO+Nzympu75vQiSCqg4KWU3OlEuXVK
+        /y8rBsMcxSsHGxfi+/9wJgqQmqGni999HjZCAlXAgG8KjQ11ZnYTCoVgoSSZ4vVxAw==
     - service: tg
       id: 581
       published: 2024-10-31-18-23-34
-      updated: 2024-11-01-17-01-55
+      updated: 2024-11-01-18-10-03
       followers: 564
-      likes: 46
-      views: 170
+      likes: 47
+      views: 173
       comments: !c ixeAkpPLQnkuQKV4AACqU2VidWxiYTUxOKTwn5igk8tCeS5AmQSAAKVBZGVsZaTwn5GBAw==
 2017-01-24-welcome-to-gnaar-mok:
   title: Welcome to Gnaar Mok
@@ -7906,6 +7907,15 @@
         G3oA+I3UUQ3b3eD55+YHFMg+HnjEe5IUeBjJvA/rDz9vvFZM6VcqLRzNJkqy9bfZjf1zkZJwBFMZ
         QE+al52mn/1/Vlsbjf00pIUXpE0fPrp2SQdsLtOmAGHxEgCgAXfZafo5VVOUNYzSqG8eQwYcBgs4
         Ng+RiAgDmyoJYSEJ
+    - service: ig
+      id: DB1pswJM70x
+      mediaId: '18076140691581875'
+      published: 2024-11-01-18-10-18
+      followers: 1478
+    - service: tg
+      id: 582
+      published: 2024-11-01-18-10-31
+      followers: 565
 2017-08-13-hanud:
   title: Hanud
   titleRu: Хануд

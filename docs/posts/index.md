@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`248 items`
+`249 items`
+
+## <span id="2024-11-01-fearsome-grahl">Fearsome Grahl</span>
+
+`RU` Грозный грахл
+
+<a href="https://instagram.com/p/BXsDec7Dldc/" title="2017-08-12-fearsome-grahl"><img alt="store:/shots/2017-08-12-fearsome-grahl.png" src="../../assets/previews/shots/2017-08-12-fearsome-grahl.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-11-01-fearsome-grahl&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon`
+
+```
+2024-11-01-fearsome-grahl
+```
+
+> `2017-08-12-fearsome-grahl`
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BXsDec7Dldc/)      | 2017-08-12 |       |    60 |       192 |  31.25 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_388) | 2017-08-12 |   140 |     6 |        74 |   8.11 |
+| [`ig`](https://instagram.com/p/DB1pswJM70x/)      | 2024-11-01 |       |       |      1478 |        |
+| [`tg`](https://t.me/mwscr/582)                    | 2024-11-01 |       |       |       565 |        |
+|                                                   |            |       |       |      2043 |  19.68 |
+
+#### Comments
+
+- `vk` <ins title="2017-08-12-09-19-41">petrushkachord</ins> Это замок Карстаага?
+- `vk` <ins title="2017-08-12-09-22-54">dehero</ins> Данила, пещера Фьелль
 
 ## <span id="2024-10-31-when-you-meet-yourself">When You Meet Yourself</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BPmN9y6Ffqy/)       | 2017-01-23 |       |    35 |        80 |  43.75 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_73)   | 2017-01-23 |   220 |     7 |         8 |      8 |
-| [`ig`](https://instagram.com/p/DBzGZfRxSXu/)       | 2024-10-31 |   389 |   106 |      1478 |   7.17 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1868) | 2024-10-31 |   152 |    21 |      1002 |    2.2 |
-| [`tg`](https://t.me/mwscr/581)                     | 2024-10-31 |   170 |    46 |       564 |   8.16 |
-|                                                    |            |   711 |   173 |      3044 |  13.85 |
+| [`ig`](https://instagram.com/p/DBzGZfRxSXu/)       | 2024-10-31 |   401 |   106 |      1478 |   7.17 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1868) | 2024-10-31 |   156 |    22 |      1002 |    2.3 |
+| [`tg`](https://t.me/mwscr/581)                     | 2024-10-31 |   173 |    47 |       564 |   8.33 |
+|                                                    |            |   730 |   175 |      3044 |  13.91 |
 
 #### Comments
 
@@ -39,6 +70,7 @@
 - `tg` <ins title="2024-10-31-19-24-45">Adele</ins> 👁
 - `tg` <ins title="2024-10-31-19-25-36">Sebulba518</ins> 😠
 - `vk` <ins title="2024-11-01-03-26-52">id203283148</ins> - я за тобой слежу ничтожество<br>- нет я за тобой слежу ничтожество!
+- `vk` <ins title="2024-11-01-17-03-23">id872831147</ins> - почему мы такое злобновое?<br>- потому что ничтожество борзовое<br>- а, точно
 
 ## <span id="2024-10-30-traces-of-shipwreck">Traces of Shipwreck</span>
 
@@ -62,10 +94,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BgzDPXhjDmE/)       | 2018-03-26 |       |    98 |       308 |  31.82 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_667)  | 2018-03-26 |   208 |    21 |       145 |  14.48 |
-| [`ig`](https://instagram.com/p/DBwgIxRtU4f/)       | 2024-10-30 |   357 |   100 |      1477 |   6.77 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1867) | 2024-10-30 |   198 |    36 |      1001 |    3.6 |
-| [`tg`](https://t.me/mwscr/580)                     | 2024-10-30 |   239 |    48 |       563 |   8.53 |
-|                                                    |            |   794 |   184 |      3041 |  13.04 |
+| [`ig`](https://instagram.com/p/DBwgIxRtU4f/)       | 2024-10-30 |   358 |   101 |      1477 |   6.84 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1867) | 2024-10-30 |   203 |    37 |      1001 |    3.7 |
+| [`tg`](https://t.me/mwscr/580)                     | 2024-10-30 |   240 |    48 |       563 |   8.53 |
+|                                                    |            |   801 |   186 |      3041 |  13.07 |
 
 #### Comments
 
