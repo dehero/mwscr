@@ -209,17 +209,17 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2024-10-25-14-07-43
+      updated: 2024-11-01-15-08-08
       followers: 893
       likes: 35
       views: 260
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2024-10-25-14-07-40
+      updated: 2024-11-01-15-08-06
       followers: 345
       likes: 58
-      views: 550
+      views: 551
 2024-03-08-a-bridge-to-ascadian-isles:
   title: A Bridge to Ascadian Isles
   titleRu: Мост к Аскадианским островам
@@ -574,7 +574,7 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2024-10-25-14-07-41
+      updated: 2024-11-01-15-08-06
       followers: 896
       likes: 42
       views: 300
@@ -585,10 +585,10 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2024-10-25-14-07-39
+      updated: 2024-11-01-15-08-04
       followers: 352
       likes: 58
-      views: 469
+      views: 470
       comments: !c |-
         CymAkZTLQnjmKMfPAACpR2F0ZW1hdGU32SZ0aGlzIGlzIGEgbWFzb25pYyBsb2RnZT8gbm90IG1v
         cnJvd2luZJPLQnjmKXtAgAClYW5zaXOlaGFoYWgD
@@ -881,7 +881,7 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2024-10-25-14-07-40
+      updated: 2024-11-01-15-08-04
       followers: 906
       likes: 51
       views: 438
@@ -889,10 +889,10 @@
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2024-10-25-14-07-38
+      updated: 2024-11-01-15-08-03
       followers: 354
       likes: 62
-      views: 475
+      views: 476
 2024-04-05-rain-of-sparks: 2017-09-29-rain-of-sparks
 2024-04-06-falling-towers:
   title: Falling Towers
@@ -1084,17 +1084,17 @@
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2024-10-25-14-07-39
+      updated: 2024-11-01-15-08-02
       followers: 911
       likes: 27
       views: 229
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2024-10-25-15-07-41
+      updated: 2024-11-01-15-08-02
       followers: 352
       likes: 67
-      views: 1101
+      views: 1102
 2024-04-12-sadrith-mora-gateway-inn: 2017-01-19-sadrith-mora-gateway-inn
 2024-04-13-manwe:
   title: Manwe
