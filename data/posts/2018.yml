@@ -421,10 +421,10 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2024-10-25-03-16-22
+      updated: 2024-11-01-03-23-57
       followers: 921
       likes: 44
-      views: 296
+      views: 297
       reposts: 2
     - service: tg
       id: 480
@@ -2957,24 +2957,24 @@
       id: DBwgIxRtU4f
       mediaId: '17958212897716083'
       published: 2024-10-30-18-10-30
-      updated: 2024-11-01-02-19-12
+      updated: 2024-11-01-03-24-00
       followers: 1477
-      likes: 96
-      views: 340
+      likes: 97
+      views: 343
     - service: tg
       id: 580
       published: 2024-10-30-18-10-40
-      updated: 2024-11-01-02-19-11
+      updated: 2024-11-01-03-23-56
       followers: 563
       likes: 47
-      views: 223
+      views: 225
     - service: vk
       id: 1867
       published: 2024-10-30-19-01-22
-      updated: 2024-11-01-02-19-11
+      updated: 2024-11-01-03-23-55
       followers: 1001
       likes: 31
-      views: 179
+      views: 180
 2018-03-27-in-the-branches:
   title: In the Branches
   titleRu: Среди ветвей
@@ -7036,10 +7036,10 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2024-10-25-03-16-22
+      updated: 2024-11-01-03-23-56
       followers: 402
       likes: 60
-      views: 680
+      views: 683
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
