@@ -757,25 +757,28 @@
       id: DBzGZfRxSXu
       mediaId: '18012339707404521'
       published: 2024-10-31-18-23-22
-      updated: 2024-11-01-03-23-59
+      updated: 2024-11-01-04-09-49
       followers: 1478
-      likes: 81
-      views: 264
+      likes: 85
+      views: 270
     - service: vk
       id: 1868
       published: 2024-10-31-18-23-28
-      updated: 2024-11-01-03-23-55
+      updated: 2024-11-01-04-09-49
       followers: 1002
-      likes: 13
-      views: 93
+      likes: 15
+      views: 97
       reposts: 1
+      comments: !c |-
+        G40AeI3UTjU8ij1Cpfsfp3qEfs7X4ikU3OcTs3EKhjBp+z7WbcwzpwYWEdkKKWKJU0vWuWoSC8f1
+        eJ0cKxFwlwlg19BM919JxBthQEINIVjiHgejeYw3Xrf/3POAQgSJ8DAPEgE=
     - service: tg
       id: 581
       published: 2024-10-31-18-23-34
-      updated: 2024-11-01-03-23-55
+      updated: 2024-11-01-04-09-50
       followers: 564
-      likes: 36
-      views: 136
+      likes: 37
+      views: 137
       comments: !c ixeAkpPLQnkuQKV4AACqU2VidWxiYTUxOKTwn5igk8tCeS5AmQSAAKVBZGVsZaTwn5GBAw==
 2017-01-24-welcome-to-gnaar-mok:
   title: Welcome to Gnaar Mok
