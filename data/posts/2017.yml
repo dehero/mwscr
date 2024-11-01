@@ -757,17 +757,17 @@
       id: DBzGZfRxSXu
       mediaId: '18012339707404521'
       published: 2024-10-31-18-23-22
-      updated: 2024-11-01-19-02-04
+      updated: 2024-11-01-20-08-29
       followers: 1478
-      likes: 108
-      views: 413
+      likes: 109
+      views: 423
     - service: vk
       id: 1868
       published: 2024-10-31-18-23-28
-      updated: 2024-11-01-19-02-04
+      updated: 2024-11-01-20-08-30
       followers: 1002
       likes: 23
-      views: 157
+      views: 158
       reposts: 1
       comments: !c |-
         GyYBAByJcSyK4yxpUhUhcCNPaHkVYJZQmEQalmCELzeh17kZq9MNQo3AhuiQl44b3MyjD1s1BMNg
@@ -776,10 +776,10 @@
     - service: tg
       id: 581
       published: 2024-10-31-18-23-34
-      updated: 2024-11-01-19-02-06
+      updated: 2024-11-01-20-08-30
       followers: 564
       likes: 48
-      views: 178
+      views: 182
       comments: !c ixeAkpPLQnkuQKV4AACqU2VidWxiYTUxOKTwn5igk8tCeS5AmQSAAKVBZGVsZaTwn5GBAw==
 2017-01-24-welcome-to-gnaar-mok:
   title: Welcome to Gnaar Mok
@@ -7034,10 +7034,10 @@
     - service: tg
       id: 354
       published: 2024-03-22
-      updated: 2024-10-25-19-02-10
+      updated: 2024-11-01-20-08-31
       followers: 353
       likes: 64
-      views: 528
+      views: 529
       comments: !c |-
         G4cAgGXgnAMfSIG1VdFwmPFs4O+AVXg6UOtBjtfJiR4PJrWVBhKmtQUgAWDgHMNmyQsGOeflT+bl
         Xej9sc90BmyLaiXKg0byRX/YB8QMeW3JqDagqArlswXPXx+8tp3qtIJCm75146DROM/JXltF1W+y
@@ -7911,21 +7911,24 @@
       id: DB1pswJM70x
       mediaId: '18076140691581875'
       published: 2024-11-01-18-10-18
-      updated: 2024-11-01-19-02-04
+      updated: 2024-11-01-20-08-29
       followers: 1478
-      likes: 31
-      views: 50
+      likes: 45
+      views: 111
     - service: tg
       id: 582
       published: 2024-11-01-18-10-31
-      updated: 2024-11-01-19-02-05
+      updated: 2024-11-01-20-08-30
       followers: 565
-      likes: 19
-      views: 49
+      likes: 26
+      views: 71
     - service: vk
       id: 1871
       published: 2024-11-01-19-02-16
+      updated: 2024-11-01-20-08-29
       followers: 1002
+      likes: 10
+      views: 48
 2017-08-13-hanud:
   title: Hanud
   titleRu: Хануд
