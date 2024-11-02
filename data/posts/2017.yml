@@ -757,17 +757,17 @@
       id: DBzGZfRxSXu
       mediaId: '18012339707404521'
       published: 2024-10-31-18-23-22
-      updated: 2024-11-02-17-02-08
+      updated: 2024-11-02-18-08-49
       followers: 1478
-      likes: 120
-      views: 487
+      likes: 122
+      views: 493
     - service: vk
       id: 1868
       published: 2024-10-31-18-23-28
-      updated: 2024-11-02-17-02-07
+      updated: 2024-11-02-18-08-50
       followers: 1002
-      likes: 27
-      views: 187
+      likes: 28
+      views: 190
       reposts: 1
       comments: !c |-
         GyYBAByJcSyK4yxpUhUhcCNPaHkVYJZQmEQalmCELzeh17kZq9MNQo3AhuiQl44b3MyjD1s1BMNg
@@ -776,10 +776,10 @@
     - service: tg
       id: 581
       published: 2024-10-31-18-23-34
-      updated: 2024-11-02-17-02-07
+      updated: 2024-11-02-18-08-50
       followers: 564
       likes: 51
-      views: 206
+      views: 207
       comments: !c ixeAkpPLQnkuQKV4AACqU2VidWxiYTUxOKTwn5igk8tCeS5AmQSAAKVBZGVsZaTwn5GBAw==
 2017-01-24-welcome-to-gnaar-mok:
   title: Welcome to Gnaar Mok
@@ -7026,7 +7026,7 @@
     - service: vk
       id: 1464
       published: 2024-03-22-18-12-46
-      updated: 2024-10-26-17-02-08
+      updated: 2024-11-02-18-08-53
       followers: 896
       likes: 34
       views: 320
@@ -7399,6 +7399,15 @@
       followers: 71
       likes: 6
       views: 106
+    - service: ig
+      id: DB4OYJbvuVe
+      mediaId: '18010417715453457'
+      published: 2024-11-02-18-09-16
+      followers: 1478
+    - service: tg
+      id: 583
+      published: 2024-11-02-18-09-25
+      followers: 565
 2017-07-28-on-the-roads-of-grazelands:
   title: On the Roads of Grazelands
   titleRu: На дорогах Грейзленда
@@ -7911,25 +7920,25 @@
       id: DB1pswJM70x
       mediaId: '18076140691581875'
       published: 2024-11-01-18-10-18
-      updated: 2024-11-02-17-02-07
+      updated: 2024-11-02-18-08-48
       followers: 1478
       likes: 86
-      views: 290
+      views: 299
     - service: tg
       id: 582
       published: 2024-11-01-18-10-31
-      updated: 2024-11-02-17-02-06
+      updated: 2024-11-02-18-08-49
       followers: 565
       likes: 38
-      views: 170
+      views: 171
       comments: !c iw2AkZPLQnkuyHj0AACrVmVicmFuZGVub0uk8J+lugM=
     - service: vk
       id: 1871
       published: 2024-11-01-19-02-16
-      updated: 2024-11-02-17-02-06
+      updated: 2024-11-02-18-08-49
       followers: 1002
       likes: 25
-      views: 179
+      views: 182
 2017-08-13-hanud:
   title: Hanud
   titleRu: Хануд
@@ -9469,7 +9478,7 @@
     - service: vk
       id: 1483
       published: 2024-04-05-18-17-17
-      updated: 2024-10-26-17-02-07
+      updated: 2024-11-02-18-08-52
       followers: 908
       likes: 36
       views: 270

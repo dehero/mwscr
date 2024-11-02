@@ -86,7 +86,7 @@
     - service: vk
       id: 1429
       published: 2024-03-01-18-32-46
-      updated: 2024-10-26-17-02-11
+      updated: 2024-11-02-18-08-55
       followers: 894
       likes: 30
       views: 280
@@ -97,10 +97,10 @@
     - service: tg
       id: 332
       published: 2024-03-01-18-32-52
-      updated: 2024-10-26-17-02-07
+      updated: 2024-11-02-18-08-51
       followers: 339
       likes: 60
-      views: 564
+      views: 565
       comments: !c |-
         CzOAkpPLQnjgqw2ZAACrYmh1dmFuYXNyaWmzaGVzIGp1c3QgbGlrZSBtZSBmcpTLQnjftezpgACu
         cXVpbnR1c19mYWJpdXOtT2ggc2hpdCBhIHJhdJPLQnjfyl1VgAClYW5zaXOk8J+QgAM=
@@ -252,7 +252,7 @@
     - service: vk
       id: 1440
       published: 2024-03-08-18-18-36
-      updated: 2024-10-26-17-02-10
+      updated: 2024-11-02-18-08-55
       followers: 893
       likes: 33
       views: 291
@@ -260,10 +260,10 @@
     - service: tg
       id: 339
       published: 2024-03-08-18-18-42
-      updated: 2024-10-26-17-02-06
+      updated: 2024-11-02-18-08-51
       followers: 345
       likes: 61
-      views: 527
+      views: 528
       comments: !c |-
         G7UAaCwSbFsO20O4qTA3lh8ReqZaodcmXU3GtExgBpP7wXnPGaqN7g5t8jtMLE1crgHgFU02OOSQ
         D6KBYQQJtmVWC0AwnuLz/v5nI8n7big/B4eh7Sjiorj25J2WAAV0C8sFPnSGiW4nzlbNAYf4uZgO
@@ -450,17 +450,17 @@
     - service: vk
       id: 1453
       published: 2024-03-15-18-58-50
-      updated: 2024-10-26-17-02-09
+      updated: 2024-11-02-18-08-54
       followers: 896
       likes: 30
       views: 276
     - service: tg
       id: 347
       published: 2024-03-15-18-58-56
-      updated: 2024-10-26-17-02-06
+      updated: 2024-11-02-18-08-51
       followers: 352
       likes: 46
-      views: 475
+      views: 476
 2024-03-16-night-guardess: 2017-03-01-night-guardess
 2024-03-17-teeth-of-pelagiad:
   title: Teeth of Pelagiad
@@ -758,7 +758,7 @@
     - service: vk
       id: 1473
       published: 2024-03-29-18-11-02
-      updated: 2024-10-26-17-02-08
+      updated: 2024-11-02-18-08-52
       followers: 906
       likes: 33
       views: 445
@@ -1223,7 +1223,7 @@
     - service: vk
       id: 1501
       published: 2024-04-19-18-17-12
-      updated: 2024-10-26-17-02-06
+      updated: 2024-11-02-18-08-51
       followers: 909
       likes: 37
       views: 286
@@ -2724,3 +2724,4 @@
 2024-10-30-traces-of-shipwreck: 2018-03-26-traces-of-shipwreck
 2024-10-31-when-you-meet-yourself: 2017-01-23-when-you-meet-yourself
 2024-11-01-fearsome-grahl: 2017-08-12-fearsome-grahl
+2024-11-02-rats-in-the-hold: 2017-07-27-rats-in-the-hold
