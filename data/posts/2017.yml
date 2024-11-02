@@ -5845,25 +5845,25 @@
       id: DBoxm7JycYe
       mediaId: '18040503437140503'
       published: 2024-10-27-18-09-17
-      updated: 2024-11-01-19-02-07
+      updated: 2024-11-02-20-08-31
       followers: 1475
-      likes: 103
-      views: 428
+      likes: 104
+      views: 436
     - service: vk
       id: 1862
       published: 2024-10-27-18-09-23
-      updated: 2024-11-01-19-02-09
+      updated: 2024-11-02-20-08-34
       followers: 1000
-      likes: 29
-      views: 241
+      likes: 30
+      views: 250
       reposts: 1
     - service: tg
       id: 577
       published: 2024-10-27-18-09-29
-      updated: 2024-11-01-19-02-08
+      updated: 2024-11-02-20-08-32
       followers: 564
       likes: 57
-      views: 249
+      views: 260
 2017-06-11-castle-karstaag:
   title: Castle Karstaag
   titleRu: Замок Карстааг
@@ -7403,24 +7403,27 @@
       id: DB4OYJbvuVe
       mediaId: '18010417715453457'
       published: 2024-11-02-18-09-16
-      updated: 2024-11-02-19-01-21
+      updated: 2024-11-02-20-08-27
       followers: 1478
-      likes: 25
-      views: 51
+      likes: 40
+      views: 116
     - service: tg
       id: 583
       published: 2024-11-02-18-09-25
-      updated: 2024-11-02-19-01-22
+      updated: 2024-11-02-20-08-29
       followers: 565
-      likes: 17
-      views: 55
+      likes: 25
+      views: 68
       comments: !c |-
         Cx2AkZPLQnku4vuTAACtTG9mdHlkZWx1c2lvbtkgSGFpbCB0byB0aGV5IGFyZSBmYXRoZXIgc3Bs
         aW50ZXID
     - service: vk
       id: 1872
       published: 2024-11-02-19-01-31
+      updated: 2024-11-02-20-08-28
       followers: 1003
+      likes: 5
+      views: 44
 2017-07-28-on-the-roads-of-grazelands:
   title: On the Roads of Grazelands
   titleRu: На дорогах Грейзленда
@@ -7933,25 +7936,25 @@
       id: DB1pswJM70x
       mediaId: '18076140691581875'
       published: 2024-11-01-18-10-18
-      updated: 2024-11-02-19-01-22
+      updated: 2024-11-02-20-08-28
       followers: 1478
-      likes: 88
-      views: 303
+      likes: 89
+      views: 307
     - service: tg
       id: 582
       published: 2024-11-01-18-10-31
-      updated: 2024-11-02-19-01-22
+      updated: 2024-11-02-20-08-29
       followers: 565
-      likes: 40
-      views: 181
+      likes: 41
+      views: 188
       comments: !c iw2AkZPLQnkuyHj0AACrVmVicmFuZGVub0uk8J+lugM=
     - service: vk
       id: 1871
       published: 2024-11-01-19-02-16
-      updated: 2024-11-02-19-01-21
+      updated: 2024-11-02-20-08-29
       followers: 1002
       likes: 25
-      views: 185
+      views: 186
 2017-08-13-hanud:
   title: Hanud
   titleRu: Хануд
