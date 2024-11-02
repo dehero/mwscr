@@ -715,7 +715,7 @@
     - service: yt
       id: 8Waikj-VsSI
       published: 2017-01-22
-      updated: 2024-10-26-03-11-43
+      updated: 2024-11-02-03-13-12
       likes: 7
       views: 130
     - service: vk
@@ -757,17 +757,17 @@
       id: DBzGZfRxSXu
       mediaId: '18012339707404521'
       published: 2024-10-31-18-23-22
-      updated: 2024-11-02-02-08-51
+      updated: 2024-11-02-03-13-14
       followers: 1478
-      likes: 112
-      views: 445
+      likes: 113
+      views: 449
     - service: vk
       id: 1868
       published: 2024-10-31-18-23-28
-      updated: 2024-11-02-02-08-50
+      updated: 2024-11-02-03-13-14
       followers: 1002
       likes: 23
-      views: 165
+      views: 166
       reposts: 1
       comments: !c |-
         GyYBAByJcSyK4yxpUhUhcCNPaHkVYJZQmEQalmCELzeh17kZq9MNQo3AhuiQl44b3MyjD1s1BMNg
@@ -776,7 +776,7 @@
     - service: tg
       id: 581
       published: 2024-10-31-18-23-34
-      updated: 2024-11-02-02-08-50
+      updated: 2024-11-02-03-13-14
       followers: 564
       likes: 49
       views: 191
@@ -979,7 +979,7 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2024-10-26-03-11-43
+      updated: 2024-11-02-03-13-12
       likes: 25
       views: 571
       comments: !c CxOAkZPLQnaO0E6sgACqQE5hcnNNY2FpbrBJIGxvdmUgdGhpcyBzaGl0Aw==
@@ -1645,7 +1645,7 @@
     - service: yt
       id: Fd77v5UL_ek
       published: 2017-02-12
-      updated: 2024-10-26-03-11-42
+      updated: 2024-11-02-03-13-12
       likes: 30
       views: 668
       comments: !c |-
@@ -7911,24 +7911,24 @@
       id: DB1pswJM70x
       mediaId: '18076140691581875'
       published: 2024-11-01-18-10-18
-      updated: 2024-11-02-02-08-50
+      updated: 2024-11-02-03-13-13
       followers: 1478
       likes: 72
-      views: 208
+      views: 212
     - service: tg
       id: 582
       published: 2024-11-01-18-10-31
-      updated: 2024-11-02-02-08-49
+      updated: 2024-11-02-03-13-13
       followers: 565
-      likes: 32
-      views: 101
+      likes: 33
+      views: 102
     - service: vk
       id: 1871
       published: 2024-11-01-19-02-16
-      updated: 2024-11-02-02-08-49
+      updated: 2024-11-02-03-13-13
       followers: 1002
       likes: 18
-      views: 100
+      views: 105
 2017-08-13-hanud:
   title: Hanud
   titleRu: Хануд
