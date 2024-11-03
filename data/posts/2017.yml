@@ -2213,7 +2213,7 @@
     - service: vk
       id: 1454
       published: 2024-03-16-18-10-42
-      updated: 2024-10-27-15-02-05
+      updated: 2024-11-03-15-02-26
       followers: 896
       likes: 37
       views: 293
@@ -2221,10 +2221,10 @@
     - service: tg
       id: 348
       published: 2024-03-16-18-10-49
-      updated: 2024-10-27-15-02-03
+      updated: 2024-11-03-15-02-24
       followers: 353
       likes: 55
-      views: 443
+      views: 444
 2017-03-02-tel-vos:
   title: Tel Vos
   titleRu: Тель Вос
@@ -7403,27 +7403,27 @@
       id: DB4OYJbvuVe
       mediaId: '18010417715453457'
       published: 2024-11-02-18-09-16
-      updated: 2024-11-03-14-02-34
+      updated: 2024-11-03-15-02-19
       followers: 1478
       likes: 84
-      views: 281
+      views: 283
     - service: tg
       id: 583
       published: 2024-11-02-18-09-25
-      updated: 2024-11-03-14-02-35
+      updated: 2024-11-03-15-02-19
       followers: 565
-      likes: 44
-      views: 135
+      likes: 45
+      views: 138
       comments: !c |-
         Cx2AkZPLQnku4vuTAACtTG9mdHlkZWx1c2lvbtkgSGFpbCB0byB0aGV5IGFyZSBmYXRoZXIgc3Bs
         aW50ZXID
     - service: vk
       id: 1872
       published: 2024-11-02-19-01-31
-      updated: 2024-11-03-14-02-35
+      updated: 2024-11-03-15-02-19
       followers: 1003
       likes: 15
-      views: 167
+      views: 169
       comments: !c |-
         Gw0CACyOdxjIEXnvcZgw1SNUOv9P3bNP+MZ3ViW0Eg00oORc1bmX57iNEY+zLhbrYEXdhpibdGPe
         dq+Xg8/VSt93GxtrOxwRRBQU/tMaTd3Uvwd7MB6TRpufm9oWDKM48MDC5wgCywpDb/V50HTlHosl
@@ -7942,22 +7942,22 @@
       id: DB1pswJM70x
       mediaId: '18076140691581875'
       published: 2024-11-01-18-10-18
-      updated: 2024-11-03-14-02-36
+      updated: 2024-11-03-15-02-20
       followers: 1478
       likes: 93
-      views: 341
+      views: 343
     - service: tg
       id: 582
       published: 2024-11-01-18-10-31
-      updated: 2024-11-03-14-02-36
+      updated: 2024-11-03-15-02-20
       followers: 565
       likes: 46
-      views: 219
+      views: 221
       comments: !c iw2AkZPLQnkuyHj0AACrVmVicmFuZGVub0uk8J+lugM=
     - service: vk
       id: 1871
       published: 2024-11-01-19-02-16
-      updated: 2024-11-03-14-02-36
+      updated: 2024-11-03-15-02-21
       followers: 1002
       likes: 27
       views: 204
@@ -8563,7 +8563,7 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2024-10-27-15-02-00
+      updated: 2024-11-03-15-02-22
       followers: 915
       likes: 41
       views: 285
