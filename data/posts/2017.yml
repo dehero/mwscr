@@ -4268,10 +4268,10 @@
     - service: tg
       id: 433
       published: 2024-06-08-18-18-44
-      updated: 2024-10-27-03-18-15
+      updated: 2024-11-03-03-19-02
       followers: 384
       likes: 55
-      views: 458
+      views: 460
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
   titleRu: Мрачный курган
@@ -4547,18 +4547,18 @@
     - service: vk
       id: 1705
       published: 2024-08-24-18-18-18
-      updated: 2024-10-27-03-18-13
+      updated: 2024-11-03-03-18-57
       followers: 940
       likes: 35
-      views: 291
+      views: 295
       reposts: 1
     - service: tg
       id: 511
       published: 2024-08-24-18-18-25
-      updated: 2024-10-27-03-18-12
+      updated: 2024-11-03-03-18-56
       followers: 541
       likes: 55
-      views: 541
+      views: 544
 2017-05-05-sunset-fir-trees:
   title: Sunset Fir-Trees
   titleRu: Закатные ели
@@ -4621,18 +4621,18 @@
     - service: vk
       id: 1695
       published: 2024-08-17-18-19-02
-      updated: 2024-10-27-03-18-14
+      updated: 2024-11-03-03-18-57
       followers: 934
       likes: 32
-      views: 260
+      views: 264
       reposts: 1
     - service: tg
       id: 504
       published: 2024-08-17-18-19-11
-      updated: 2024-10-27-03-18-12
+      updated: 2024-11-03-03-18-57
       followers: 527
       likes: 61
-      views: 603
+      views: 607
       comments: !c |-
         G5kAGKyOt6Fh2DII9SraGD9X/MgjVPrf33zCH3gV4CCaONb5A6mtc51HiSdUhy6Lw0sQm6m2eEF7
         10hP2eKS5i0PNuCAvQgHGxBmPLvAIdUUWLSgYygr1ZEd4Y7zHD3ybT007Y+2bxgCxB5X7rrk7kIe
@@ -4673,18 +4673,18 @@
     - service: vk
       id: 1658
       published: 2024-07-27-18-20-23
-      updated: 2024-10-27-03-18-17
+      updated: 2024-11-03-03-19-01
       followers: 923
       likes: 34
-      views: 288
+      views: 290
       reposts: 1
     - service: tg
       id: 482
       published: 2024-07-27-18-20-29
-      updated: 2024-10-27-03-18-14
+      updated: 2024-11-03-03-18-59
       followers: 401
       likes: 57
-      views: 606
+      views: 608
       comments: !c |-
         G/kAgByHcSyxjmBicU1/f/MRp4m1cSwu4M4/WGtxG2Qs22JRFvd/NwML9D8P80ADvTEWSuinVRma
         Tk40MH47SAuowMKQIo6zdIfPHSOmprQ+rncT67T+DEEpGYRvZb4nHr7OCgLfhTugNQLOoXtlQt+4
@@ -7403,27 +7403,27 @@
       id: DB4OYJbvuVe
       mediaId: '18010417715453457'
       published: 2024-11-02-18-09-16
-      updated: 2024-11-03-02-16-13
+      updated: 2024-11-03-03-18-54
       followers: 1478
-      likes: 68
-      views: 208
+      likes: 71
+      views: 215
     - service: tg
       id: 583
       published: 2024-11-02-18-09-25
-      updated: 2024-11-03-02-16-13
+      updated: 2024-11-03-03-18-54
       followers: 565
       likes: 34
-      views: 99
+      views: 100
       comments: !c |-
         Cx2AkZPLQnku4vuTAACtTG9mdHlkZWx1c2lvbtkgSGFpbCB0byB0aGV5IGFyZSBmYXRoZXIgc3Bs
         aW50ZXID
     - service: vk
       id: 1872
       published: 2024-11-02-19-01-31
-      updated: 2024-11-03-02-16-13
+      updated: 2024-11-03-03-18-54
       followers: 1003
       likes: 11
-      views: 88
+      views: 94
       comments: !c |-
         Gw0CACyOdxjIEXnvcZgw1SNUOv9P3bNP+MZ3ViW0Eg00oORc1bmX57iNEY+zLhbrYEXdhpibdGPe
         dq+Xg8/VSt93GxtrOxwRRBQU/tMaTd3Uvwd7MB6TRpufm9oWDKM48MDC5wgCywpDb/V50HTlHosl
@@ -7942,14 +7942,14 @@
       id: DB1pswJM70x
       mediaId: '18076140691581875'
       published: 2024-11-01-18-10-18
-      updated: 2024-11-03-02-16-15
+      updated: 2024-11-03-03-18-56
       followers: 1478
-      likes: 90
-      views: 317
+      likes: 91
+      views: 320
     - service: tg
       id: 582
       published: 2024-11-01-18-10-31
-      updated: 2024-11-03-02-16-14
+      updated: 2024-11-03-03-18-55
       followers: 565
       likes: 43
       views: 202
@@ -7957,10 +7957,10 @@
     - service: vk
       id: 1871
       published: 2024-11-01-19-02-16
-      updated: 2024-11-03-02-16-14
+      updated: 2024-11-03-03-18-55
       followers: 1002
       likes: 26
-      views: 187
+      views: 188
 2017-08-13-hanud:
   title: Hanud
   titleRu: Хануд
