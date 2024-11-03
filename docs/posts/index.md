@@ -4,7 +4,42 @@
 
 # Posted in 2024
 
-`250 items`
+`251 items`
+
+## <span id="2024-11-03-keep-calm-and-wait-for-nerevarine">Keep Calm and Wait for Nerevarine</span>
+
+`RU` Будь спокоен и жди Нереварина
+
+<a href="https://instagram.com/p/Bi-GvCFlpv4/" title="2018-05-19-keep-calm-and-wait-for-nerevarine"><img alt="store:/shots/2018-05-19-keep-calm-and-wait-for-nerevarine.png" src="../../assets/previews/shots/2018-05-19-keep-calm-and-wait-for-nerevarine.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-11-03-keep-calm-and-wait-for-nerevarine&postLocation=)</code> `🚀 OpenMW` `vivec`
+
+```
+2024-11-03-keep-calm-and-wait-for-nerevarine
+```
+
+> `2018-05-19-keep-calm-and-wait-for-nerevarine`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bi-GvCFlpv4/)       | 2018-05-19 |       |   124 |       334 |  37.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_732)  | 2018-05-19 |   328 |    18 |       163 |  11.04 |
+| [`ig`](https://instagram.com/p/DB6zTFIuAi2/)       | 2024-11-03 |       |       |      1479 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1875) | 2024-11-03 |       |       |      1003 |        |
+| [`tg`](https://t.me/mwscr/584)                     | 2024-11-03 |       |       |       565 |        |
+|                                                    |            |       |       |      3047 |  24.08 |
+
+#### Comments
+
+- `vk` <ins title="2018-05-20-10-15-50">id223132255</ins> А Нереварин придет, убьет Вивека и поместит его душу в Звезду Азуры
+- `ig` <ins title="2018-05-20-10-38-52">bruisedwolfcub</ins> I&#39;m right here.
+- `vk` <ins title="2018-05-20-12-50-33">dropnz</ins> Альмалексия больше заслуживает смерти, чем Вивек
+- `vk` <ins title="2018-05-25-09-17-48">max.tsei</ins> Вячеслав, а все равно умрёт в дополнении tribunal
+- `vk` <ins title="2018-05-25-09-18-14">max.tsei</ins> Если не ошибаюсь с названием
 
 ## <span id="2024-11-02-rats-in-the-hold">Rats in the Hold</span>
 
@@ -28,10 +63,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BXDGfm-DBJR/)       | 2017-07-27 |       |    58 |       192 |  30.21 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_368)  | 2017-07-27 |   106 |     6 |        71 |   8.45 |
-| [`ig`](https://instagram.com/p/DB4OYJbvuVe/)       | 2024-11-02 |   291 |    85 |      1478 |   5.75 |
+| [`ig`](https://instagram.com/p/DB4OYJbvuVe/)       | 2024-11-02 |   294 |    85 |      1478 |   5.75 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1872) | 2024-11-02 |   175 |    16 |      1003 |    1.6 |
 | [`tg`](https://t.me/mwscr/583)                     | 2024-11-02 |   142 |    46 |       565 |   8.14 |
-|                                                    |            |   608 |   147 |      3046 |  10.83 |
+|                                                    |            |   611 |   147 |      3046 |  10.83 |
 
 #### Comments
 
@@ -61,10 +96,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BXsDec7Dldc/)       | 2017-08-12 |       |    60 |       192 |  31.25 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_388)  | 2017-08-12 |   140 |     6 |        74 |   8.11 |
-| [`ig`](https://instagram.com/p/DB1pswJM70x/)       | 2024-11-01 |   351 |    94 |      1478 |   6.36 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1871) | 2024-11-01 |   206 |    27 |      1002 |   2.69 |
+| [`ig`](https://instagram.com/p/DB1pswJM70x/)       | 2024-11-01 |   354 |    94 |      1478 |   6.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1871) | 2024-11-01 |   207 |    27 |      1002 |   2.69 |
 | [`tg`](https://t.me/mwscr/582)                     | 2024-11-01 |   224 |    47 |       565 |   8.32 |
-|                                                    |            |   781 |   168 |      3045 |  11.35 |
+|                                                    |            |   785 |   168 |      3045 |  11.35 |
 
 #### Comments
 
@@ -94,10 +129,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BPmN9y6Ffqy/)       | 2017-01-23 |       |    35 |        80 |  43.75 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_73)   | 2017-01-23 |   220 |     7 |         8 |      8 |
-| [`ig`](https://instagram.com/p/DBzGZfRxSXu/)       | 2024-10-31 |   493 |   122 |      1478 |   8.25 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1868) | 2024-10-31 |   190 |    28 |      1002 |   2.89 |
-| [`tg`](https://t.me/mwscr/581)                     | 2024-10-31 |   207 |    51 |       564 |   9.04 |
-|                                                    |            |   890 |   201 |      3044 |  14.39 |
+| [`ig`](https://instagram.com/p/DBzGZfRxSXu/)       | 2024-10-31 |   512 |   126 |      1478 |   8.53 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1868) | 2024-10-31 |   204 |    29 |      1002 |   2.99 |
+| [`tg`](https://t.me/mwscr/581)                     | 2024-10-31 |   231 |    54 |       564 |   9.57 |
+|                                                    |            |   947 |   209 |      3044 |  14.57 |
 
 #### Comments
 
