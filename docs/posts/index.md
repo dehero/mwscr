@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`251 items`
+`252 items`
+
+## <span id="2024-11-04-guardian-of-ice-rocks">Guardian of Ice Rocks</span>
+
+`RU` Страж ледяных скал
+
+<a href="https://instagram.com/p/BdnZLKVjOV9/" title="2018-01-06-guardian-of-ice-rocks"><img alt="store:/shots/2018-01-06-guardian-of-ice-rocks.png" src="../../assets/previews/shots/2018-01-06-guardian-of-ice-rocks.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-11-04-guardian-of-ice-rocks&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `beast`
+
+```
+2024-11-04-guardian-of-ice-rocks
+```
+
+> `2018-01-06-guardian-of-ice-rocks`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BdnZLKVjOV9/)       | 2018-01-06 |       |    70 |       272 |  25.74 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_569)  | 2018-01-06 |   186 |    14 |       118 |  11.86 |
+| [`ig`](https://instagram.com/p/DB9YEuYxTJW/)       | 2024-11-04 |       |       |      1482 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1876) | 2024-11-04 |       |       |      1003 |        |
+| [`tg`](https://t.me/mwscr/585)                     | 2024-11-04 |       |       |       565 |        |
+|                                                    |            |       |       |      3050 |   18.8 |
 
 ## <span id="2024-11-03-keep-calm-and-wait-for-nerevarine">Keep Calm and Wait for Nerevarine</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bi-GvCFlpv4/)       | 2018-05-19 |       |   124 |       334 |  37.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_732)  | 2018-05-19 |   328 |    18 |       163 |  11.04 |
-| [`ig`](https://instagram.com/p/DB6zTFIuAi2/)       | 2024-11-03 |   639 |   120 |      1479 |   8.11 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1875) | 2024-11-03 |   184 |    27 |      1003 |   2.69 |
-| [`tg`](https://t.me/mwscr/584)                     | 2024-11-03 |   146 |    46 |       565 |   8.14 |
-|                                                    |            |   969 |   193 |      3047 |  13.42 |
+| [`ig`](https://instagram.com/p/DB6zTFIuAi2/)       | 2024-11-03 |   657 |   123 |      1479 |   8.32 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1875) | 2024-11-03 |   187 |    27 |      1003 |   2.69 |
+| [`tg`](https://t.me/mwscr/584)                     | 2024-11-03 |   149 |    47 |       565 |   8.32 |
+|                                                    |            |   993 |   197 |      3047 |   13.5 |
 
 #### Comments
 
@@ -66,9 +93,9 @@
 | [`ig`](https://instagram.com/p/BXDGfm-DBJR/)       | 2017-07-27 |       |    58 |       192 |  30.21 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_368)  | 2017-07-27 |   106 |     6 |        71 |   8.45 |
 | [`ig`](https://instagram.com/p/DB4OYJbvuVe/)       | 2024-11-02 |   324 |    95 |      1478 |   6.43 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1872) | 2024-11-02 |   201 |    19 |      1003 |   1.89 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1872) | 2024-11-02 |   202 |    20 |      1003 |   1.99 |
 | [`tg`](https://t.me/mwscr/583)                     | 2024-11-02 |   184 |    50 |       565 |   8.85 |
-|                                                    |            |   709 |   164 |      3046 |  11.17 |
+|                                                    |            |   710 |   165 |      3046 |  11.19 |
 
 #### Comments
 
