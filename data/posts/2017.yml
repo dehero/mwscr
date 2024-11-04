@@ -4389,7 +4389,7 @@
     - service: vk
       id: 1494
       published: 2024-04-14-20-32-17
-      updated: 2024-10-28-13-18-23
+      updated: 2024-11-04-14-07-58
       followers: 911
       likes: 41
       views: 296
@@ -4397,10 +4397,10 @@
     - service: tg
       id: 378
       published: 2024-04-14-20-32-22
-      updated: 2024-10-28-13-18-21
+      updated: 2024-11-04-14-07-59
       followers: 351
       likes: 64
-      views: 532
+      views: 533
 2017-05-01-altmer-camp:
   title: Altmer Camp
   titleRu: Лагерь альтмеров
@@ -7403,24 +7403,24 @@
       id: DB4OYJbvuVe
       mediaId: '18010417715453457'
       published: 2024-11-02-18-09-16
-      updated: 2024-11-04-13-17-57
+      updated: 2024-11-04-14-07-57
       followers: 1478
       likes: 93
-      views: 319
+      views: 320
     - service: tg
       id: 583
       published: 2024-11-02-18-09-25
-      updated: 2024-11-04-13-17-58
+      updated: 2024-11-04-14-07-57
       followers: 565
       likes: 50
-      views: 182
+      views: 183
       comments: !c |-
         Cx2AkZPLQnku4vuTAACtTG9mdHlkZWx1c2lvbtkgSGFpbCB0byB0aGV5IGFyZSBmYXRoZXIgc3Bs
         aW50ZXID
     - service: vk
       id: 1872
       published: 2024-11-02-19-01-31
-      updated: 2024-11-04-13-17-57
+      updated: 2024-11-04-14-07-58
       followers: 1003
       likes: 19
       views: 197
