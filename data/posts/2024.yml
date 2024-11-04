@@ -1547,7 +1547,7 @@
     - service: vk
       id: 1519
       published: 2024-05-05-18-17-05
-      updated: 2024-10-28-09-09-03
+      updated: 2024-11-04-09-09-25
       followers: 913
       likes: 38
       views: 272
@@ -1560,10 +1560,10 @@
     - service: tg
       id: 399
       published: 2024-05-05-18-17-11
-      updated: 2024-10-28-09-09-03
+      updated: 2024-11-04-09-09-21
       followers: 370
       likes: 61
-      views: 474
+      views: 476
 2024-05-06-alchemist-table:
   title: Alchemist Table
   titleRu: Стол алхимика
@@ -1746,14 +1746,14 @@
     - service: tg
       id: 406
       published: 2024-05-12-18-20-07
-      updated: 2024-10-28-09-09-02
+      updated: 2024-11-04-09-09-20
       followers: 371
       likes: 57
-      views: 451
+      views: 452
     - service: vk
       id: 1530
       published: 2024-05-12-19-11-11
-      updated: 2024-10-28-09-09-02
+      updated: 2024-11-04-09-09-24
       followers: 915
       likes: 28
       views: 252
@@ -1878,7 +1878,7 @@
     - service: vk
       id: 1538
       published: 2024-05-19-18-18-25
-      updated: 2024-10-28-08-11-36
+      updated: 2024-11-04-09-09-24
       followers: 916
       likes: 37
       views: 249
@@ -2064,10 +2064,10 @@
     - service: vk
       id: 1576
       published: 2024-06-09-18-18-45
-      updated: 2024-10-28-08-11-33
+      updated: 2024-11-04-09-09-21
       followers: 916
       likes: 33
-      views: 276
+      views: 277
     - service: tg
       id: 434
       published: 2024-06-09-18-18-52
