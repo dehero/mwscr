@@ -661,11 +661,11 @@
     - service: tg
       id: 427
       published: 2024-06-02-18-19-30
-      updated: 2024-10-28-06-12-06
+      updated: 2024-11-04-07-08-28
       followers: 380
       likes: 65
-      views: 479
-      comments: !c Gy8A+I2Uq6NbEHn7nOVEiGia9vFnbLbfBFU5hdcfYEVAI9cX1NtFlIJjTKf9iP3EZnBYZw==
+      views: 481
+      comments: !c CxSAkZPLQnj9qMKhAAChLrvQmtGA0LDRgdC40LLQvtC1INC80LXRgdGC0L4D
 2016-12-05-balmora-walkthrough:
   title: Balmora Walkthrough
   titleRu: Прогулка по Балморе
@@ -1253,10 +1253,10 @@
     - service: tg
       id: 392
       published: 2024-04-28-18-17-01
-      updated: 2024-10-28-06-12-08
+      updated: 2024-11-04-07-08-30
       followers: 354
       likes: 70
-      views: 531
+      views: 532
     - service: ig
       id: C6YMB6DxXL3
       mediaId: '18251438425218335'
