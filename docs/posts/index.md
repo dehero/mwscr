@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`252 items`
+`253 items`
+
+## <span id="2024-11-05-yagrum-bagarn-talks-to-uupse-fyr">Yagrum Bagarn Talks to Uupse Fyr</span>
+
+`RU` Ягрум Багарн беседует с Уупсой Фир
+
+<a href="https://instagram.com/p/BXz1sXkjhrD/" title="2017-08-15-yagrum-bagarn-talks-to-uupse-fyr"><img alt="store:/shots/2017-08-15-yagrum-bagarn-talks-to-uupse-fyr.png" src="../../assets/previews/shots/2017-08-15-yagrum-bagarn-talks-to-uupse-fyr.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Corprusarium` `🚀 OpenMW`
+
+```
+2024-11-05-yagrum-bagarn-talks-to-uupse-fyr
+```
+
+> `2017-08-15-yagrum-bagarn-talks-to-uupse-fyr`
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BXz1sXkjhrD/)      | 2017-08-15 |       |    76 |       192 |  39.58 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_393) | 2017-08-15 |   111 |     5 |        74 |   6.76 |
+| [`ig`](https://instagram.com/p/DB_85YtvD53/)      | 2024-11-05 |       |       |      1483 |        |
+| [`tg`](https://t.me/mwscr/586)                    | 2024-11-05 |       |       |       566 |        |
+|                                                   |            |       |       |      2049 |  23.17 |
+
+#### Comments
+
+- `ig` <ins title="2017-08-15-10-08-14">l3nku</ins> Thank you!
+- `ig` <ins title="2017-08-16-18-12-07">sam.m.cooley</ins> I have lord Fyr&#39;s dwemer boots! That&#39;s what yer here for aren&#39;t ya?
 
 ## <span id="2024-11-04-guardian-of-ice-rocks">Guardian of Ice Rocks</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BdnZLKVjOV9/)       | 2018-01-06 |       |    70 |       272 |  25.74 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_569)  | 2018-01-06 |   186 |    14 |       118 |  11.86 |
-| [`ig`](https://instagram.com/p/DB9YEuYxTJW/)       | 2024-11-04 |   289 |    72 |      1482 |   4.86 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1876) | 2024-11-04 |   145 |    20 |      1003 |   1.99 |
-| [`tg`](https://t.me/mwscr/585)                     | 2024-11-04 |   140 |    36 |       565 |   6.37 |
-|                                                    |            |   574 |   128 |      3050 |  10.16 |
+| [`ig`](https://instagram.com/p/DB9YEuYxTJW/)       | 2024-11-04 |   299 |    74 |      1482 |   4.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1876) | 2024-11-04 |   150 |    21 |      1003 |   2.09 |
+| [`tg`](https://t.me/mwscr/585)                     | 2024-11-04 |   141 |    36 |       565 |   6.37 |
+|                                                    |            |   590 |   131 |      3050 |  10.21 |
 
 ## <span id="2024-11-03-keep-calm-and-wait-for-nerevarine">Keep Calm and Wait for Nerevarine</span>
 
@@ -55,10 +86,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bi-GvCFlpv4/)       | 2018-05-19 |       |   124 |       334 |  37.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_732)  | 2018-05-19 |   328 |    18 |       163 |  11.04 |
-| [`ig`](https://instagram.com/p/DB6zTFIuAi2/)       | 2024-11-03 |   760 |   135 |      1479 |   9.13 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1875) | 2024-11-03 |   224 |    30 |      1003 |   3.09 |
-| [`tg`](https://t.me/mwscr/584)                     | 2024-11-03 |   186 |    52 |       565 |    9.2 |
-|                                                    |            |  1170 |   217 |      3047 |  13.92 |
+| [`ig`](https://instagram.com/p/DB6zTFIuAi2/)       | 2024-11-03 |   762 |   135 |      1479 |   9.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1875) | 2024-11-03 |   227 |    31 |      1003 |   3.19 |
+| [`tg`](https://t.me/mwscr/584)                     | 2024-11-03 |   187 |    52 |       565 |    9.2 |
+|                                                    |            |  1176 |   218 |      3047 |  13.94 |
 
 #### Comments
 
