@@ -1516,7 +1516,7 @@
     - service: vk
       id: 1532
       published: 2024-05-14-18-18-38
-      updated: 2024-10-30-07-08-03
+      updated: 2024-11-06-08-11-38
       followers: 915
       likes: 47
       views: 327
@@ -1524,10 +1524,10 @@
     - service: tg
       id: 408
       published: 2024-05-14-18-18-46
-      updated: 2024-10-30-07-08-02
+      updated: 2024-11-06-08-11-36
       followers: 370
       likes: 61
-      views: 438
+      views: 439
       comments: !c |-
         izOAkZTLQnj3hUVcAACpR2F0ZW1hdGU32SJpdCB3b3VsZCBsb29rIGJldHRlciBpZiBhZGRlZCBt
         b2Rzk8tCePeFSMcAAKVhbnNpc75tb2RzIGJhbmlzaCB0aGlzIG4nd2FoIGFscmVhZHkD
@@ -8046,24 +8046,24 @@
       id: DB_85YtvD53
       mediaId: '18043302317039352'
       published: 2024-11-05-18-10-28
-      updated: 2024-11-06-07-07-54
+      updated: 2024-11-06-08-11-32
       followers: 1483
-      likes: 70
-      views: 248
+      likes: 76
+      views: 260
     - service: tg
       id: 586
       published: 2024-11-05-18-10-44
-      updated: 2024-11-06-07-07-55
+      updated: 2024-11-06-08-11-32
       followers: 566
-      likes: 43
-      views: 182
+      likes: 45
+      views: 186
     - service: vk
       id: 1879
       published: 2024-11-05-19-01-20
-      updated: 2024-11-06-07-07-54
+      updated: 2024-11-06-08-11-32
       followers: 1003
       likes: 21
-      views: 162
+      views: 169
       reposts: 2
       comments: !c |-
         G5UA6OXnr/lJrjzx7Fo80qK2WScPh9EC/fBEhnPKgXtagC3htrvmd8pxpgFGSQuS49di/VBq3O+P
@@ -11496,7 +11496,7 @@
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
-      updated: 2024-10-30-08-11-07
+      updated: 2024-11-06-08-11-40
       followers: 909
       likes: 40
       views: 303
@@ -11507,10 +11507,10 @@
     - service: tg
       id: 387
       published: 2024-04-23-18-17-22
-      updated: 2024-10-30-08-11-07
+      updated: 2024-11-06-08-11-37
       followers: 355
       likes: 61
-      views: 1140
+      views: 1141
       comments: !c |-
         ix+AkpPLQnjxEjRDgACobW9uZ2xlcmmtQ2l0eSBvZiBNYWdpY5PLQnjw/03igAClYW5zaXOtQ2l0
         eSBvZiBMaWdodAM=
