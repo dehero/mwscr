@@ -28,15 +28,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BXz1sXkjhrD/)       | 2017-08-15 |       |    76 |       192 |  39.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_393)  | 2017-08-15 |   111 |     5 |        74 |   6.76 |
-| [`ig`](https://instagram.com/p/DB_85YtvD53/)       | 2024-11-05 |   194 |    58 |      1483 |   3.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1879) | 2024-11-05 |   109 |    16 |      1003 |   1.79 |
-| [`tg`](https://t.me/mwscr/586)                     | 2024-11-05 |   153 |    36 |       566 |   6.36 |
-|                                                    |            |   456 |   110 |      3052 |  11.68 |
+| [`ig`](https://instagram.com/p/DB_85YtvD53/)       | 2024-11-05 |   207 |    59 |      1483 |   3.98 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1879) | 2024-11-05 |   119 |    18 |      1003 |   1.99 |
+| [`tg`](https://t.me/mwscr/586)                     | 2024-11-05 |   163 |    38 |       566 |   6.71 |
+|                                                    |            |   489 |   115 |      3052 |  11.81 |
 
 #### Comments
 
 - `ig` <ins title="2017-08-15-10-08-14">l3nku</ins> Thank you!
 - `ig` <ins title="2017-08-16-18-12-07">sam.m.cooley</ins> I have lord Fyr&#39;s dwemer boots! That&#39;s what yer here for aren&#39;t ya?
+- `vk` <ins title="2024-11-06-00-45-54">thelittlebuddy</ins> Охренеть это что за сайт такой?
 
 ## <span id="2024-11-04-guardian-of-ice-rocks">Guardian of Ice Rocks</span>
 
@@ -61,9 +62,9 @@
 | [`ig`](https://instagram.com/p/BdnZLKVjOV9/)       | 2018-01-06 |       |    70 |       272 |  25.74 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_569)  | 2018-01-06 |   186 |    14 |       118 |  11.86 |
 | [`ig`](https://instagram.com/p/DB9YEuYxTJW/)       | 2024-11-04 |   319 |    79 |      1482 |   5.33 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1876) | 2024-11-04 |   156 |    23 |      1003 |   2.29 |
-| [`tg`](https://t.me/mwscr/585)                     | 2024-11-04 |   214 |    43 |       565 |   7.61 |
-|                                                    |            |   689 |   145 |      3050 |  10.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1876) | 2024-11-04 |   157 |    23 |      1003 |   2.29 |
+| [`tg`](https://t.me/mwscr/585)                     | 2024-11-04 |   221 |    43 |       565 |   7.61 |
+|                                                    |            |   697 |   145 |      3050 |  10.57 |
 
 ## <span id="2024-11-03-keep-calm-and-wait-for-nerevarine">Keep Calm and Wait for Nerevarine</span>
 
@@ -1603,9 +1604,9 @@
 | [`ig`](https://instagram.com/p/BWcPvpYjhl9/)       | 2017-07-12 |       |    54 |       188 |  28.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_351)  | 2017-07-12 |   121 |     8 |        66 |  12.12 |
 | [`ig`](https://instagram.com/p/DAB0PzTs0ZH/)       | 2024-09-17 |   344 |    78 |      1459 |   5.35 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1768) | 2024-09-17 |   297 |    42 |       947 |   4.44 |
-| [`tg`](https://t.me/mwscr/535)                     | 2024-09-17 |   483 |    67 |       557 |  12.03 |
-|                                                    |            |  1124 |   187 |      2963 |  12.53 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1768) | 2024-09-17 |   302 |    42 |       947 |   4.44 |
+| [`tg`](https://t.me/mwscr/535)                     | 2024-09-17 |   489 |    67 |       557 |  12.03 |
+|                                                    |            |  1135 |   187 |      2963 |  12.53 |
 
 ## <span id="2024-09-16-alofs-farmhouse">Alof&#39;s Farmhouse</span>
 
