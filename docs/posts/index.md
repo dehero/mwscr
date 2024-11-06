@@ -4,7 +4,35 @@
 
 # Posted in 2024
 
-`253 items`
+`254 items`
+
+## <span id="2024-11-06-near-the-fighters-guild-of-ald-ruhn">Near the Fighters Guild of Ald&#39;ruhn</span>
+
+`RU` У Гильдии бойцов Альд&#39;руна
+
+<a href="https://instagram.com/p/BoZtM-JhvQc/" title="2018-10-01-near-the-fighters-guild-of-aldruhn"><img alt="store:/shots/2018-10-01-near-the-fighters-guild-of-aldruhn.png" src="../../assets/previews/shots/2018-10-01-near-the-fighters-guild-of-aldruhn.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-11-06-near-the-fighters-guild-of-ald-ruhn&postLocation=)</code> `🚀 OpenMW` `fightersguild` `guard` `night`
+
+```
+2024-11-06-near-the-fighters-guild-of-ald-ruhn
+```
+
+> `2018-10-01-near-the-fighters-guild-of-aldruhn`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BoZtM-JhvQc/)       | 2018-10-01 |       |   104 |       436 |  23.85 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_952)  | 2018-10-01 |   396 |    23 |       246 |   9.35 |
+| [`tg`](https://t.me/mwscr/61)                      | 2018-10-01 |   197 |     2 |           |        |
+| [`ig`](https://instagram.com/p/DCCh1JWNa_7/)       | 2024-11-06 |       |       |      1482 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1883) | 2024-11-06 |       |       |      1004 |        |
+| [`tg`](https://t.me/mwscr/587)                     | 2024-11-06 |       |       |       566 |        |
+|                                                    |            |       |       |      3052 |   16.6 |
 
 ## <span id="2024-11-05-yagrum-bagarn-talks-to-uupse-fyr">Yagrum Bagarn Talks to Uupse Fyr</span>
 
@@ -28,10 +56,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BXz1sXkjhrD/)       | 2017-08-15 |       |    76 |       192 |  39.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_393)  | 2017-08-15 |   111 |     5 |        74 |   6.76 |
-| [`ig`](https://instagram.com/p/DB_85YtvD53/)       | 2024-11-05 |   318 |    84 |      1483 |   5.66 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1879) | 2024-11-05 |   202 |    22 |      1003 |   2.39 |
-| [`tg`](https://t.me/mwscr/586)                     | 2024-11-05 |   209 |    48 |       566 |   8.48 |
-|                                                    |            |   729 |   154 |      3052 |  12.58 |
+| [`ig`](https://instagram.com/p/DB_85YtvD53/)       | 2024-11-05 |   324 |    85 |      1483 |   5.73 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1879) | 2024-11-05 |   208 |    22 |      1003 |   2.39 |
+| [`tg`](https://t.me/mwscr/586)                     | 2024-11-05 |   210 |    48 |       566 |   8.48 |
+|                                                    |            |   742 |   155 |      3052 |  12.59 |
 
 #### Comments
 
@@ -63,9 +91,9 @@
 | [`ig`](https://instagram.com/p/BdnZLKVjOV9/)       | 2018-01-06 |       |    70 |       272 |  25.74 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_569)  | 2018-01-06 |   186 |    14 |       118 |  11.86 |
 | [`ig`](https://instagram.com/p/DB9YEuYxTJW/)       | 2024-11-04 |   334 |    81 |      1482 |   5.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1876) | 2024-11-04 |   181 |    25 |      1003 |   2.59 |
-| [`tg`](https://t.me/mwscr/585)                     | 2024-11-04 |   243 |    46 |       565 |   8.14 |
-|                                                    |            |   758 |   152 |      3050 |  10.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1876) | 2024-11-04 |   182 |    25 |      1003 |   2.59 |
+| [`tg`](https://t.me/mwscr/585)                     | 2024-11-04 |   244 |    46 |       565 |   8.14 |
+|                                                    |            |   760 |   152 |      3050 |  10.76 |
 
 ## <span id="2024-11-03-keep-calm-and-wait-for-nerevarine">Keep Calm and Wait for Nerevarine</span>
 
@@ -126,10 +154,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BXDGfm-DBJR/)       | 2017-07-27 |       |    58 |       192 |  30.21 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_368)  | 2017-07-27 |   106 |     6 |        71 |   8.45 |
-| [`ig`](https://instagram.com/p/DB4OYJbvuVe/)       | 2024-11-02 |   343 |    97 |      1478 |   6.56 |
+| [`ig`](https://instagram.com/p/DB4OYJbvuVe/)       | 2024-11-02 |   350 |    98 |      1478 |   6.63 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1872) | 2024-11-02 |   220 |    22 |      1003 |   2.19 |
-| [`tg`](https://t.me/mwscr/583)                     | 2024-11-02 |   202 |    51 |       565 |   9.03 |
-|                                                    |            |   765 |   170 |      3046 |  11.29 |
+| [`tg`](https://t.me/mwscr/583)                     | 2024-11-02 |   299 |    54 |       565 |   9.56 |
+|                                                    |            |   869 |   174 |      3046 |  11.41 |
 
 #### Comments
 
