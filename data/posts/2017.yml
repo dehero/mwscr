@@ -1317,18 +1317,18 @@
     - service: vk
       id: 1598
       published: 2024-06-25-18-21-05
-      updated: 2024-10-30-05-08-20
+      updated: 2024-11-06-06-11-04
       followers: 917
       likes: 44
-      views: 315
+      views: 317
       reposts: 2
     - service: tg
       id: 450
       published: 2024-06-25-18-21-11
-      updated: 2024-10-30-05-08-17
+      updated: 2024-11-06-06-11-00
       followers: 388
       likes: 64
-      views: 559
+      views: 562
 2017-02-06-maurrie-is-waiting-for-nelos:
   title: Maurrie Is Waiting for Nelos
   titleRu: Морри ждёт Нелоса
@@ -4729,10 +4729,10 @@
     - service: vk
       id: 1639
       published: 2024-07-16-18-20-48
-      updated: 2024-10-30-05-08-17
+      updated: 2024-11-06-06-11-01
       followers: 919
       likes: 28
-      views: 256
+      views: 257
       reposts: 1
     - service: tg
       id: 471
@@ -8046,28 +8046,29 @@
       id: DB_85YtvD53
       mediaId: '18043302317039352'
       published: 2024-11-05-18-10-28
-      updated: 2024-11-06-05-07-54
+      updated: 2024-11-06-06-10-58
       followers: 1483
-      likes: 67
-      views: 232
+      likes: 69
+      views: 240
     - service: tg
       id: 586
       published: 2024-11-05-18-10-44
-      updated: 2024-11-06-05-07-54
+      updated: 2024-11-06-06-10-57
       followers: 566
       likes: 40
-      views: 175
+      views: 177
     - service: vk
       id: 1879
       published: 2024-11-05-19-01-20
-      updated: 2024-11-06-05-07-53
+      updated: 2024-11-06-06-10-58
       followers: 1003
-      likes: 19
-      views: 145
+      likes: 21
+      views: 156
       reposts: 2
       comments: !c |-
-        G1MA6OXi1JAEOBpbhNnn2/byAI5ZKtD8x4oUCxtw4J4GvvAAMA4bcJxqlA2vbnjwDvX7kwQx6Zps
-        8AqGJDlfGkaM0IUT7nCij+UZFxMCN1gmvHrCAA==
+        G5UA6OXnr/lJrjzx7Fo80qK2WScPh9EC/fBEhnPKgXtagC3htrvmd8pxpgFGSQuS49di/VBq3O+P
+        IbTLAlfBsnLHqZXCdwMdqH+vgRSMxzihh3zv30OFl59/cfVQajyijDraOm7gJmHJ6X6Y0Lya/ThD
+        GhrQfOgHFg==
 2017-08-16-falas-ancestral-tomb:
   title: Falas Ancestral Tomb
   titleRu: Родовая гробница Фалас
@@ -8367,17 +8368,17 @@
     - service: vk
       id: 1587
       published: 2024-06-18-18-20-59
-      updated: 2024-10-30-05-08-20
+      updated: 2024-11-06-06-11-04
       followers: 917
       likes: 37
-      views: 268
+      views: 269
     - service: tg
       id: 443
       published: 2024-06-18-18-21-06
-      updated: 2024-10-30-05-08-17
+      updated: 2024-11-06-06-11-00
       followers: 385
       likes: 56
-      views: 462
+      views: 464
 2017-08-26-raven-rock:
   title: Raven Rock
   titleRu: Воронья Скала
