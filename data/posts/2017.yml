@@ -160,7 +160,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2024-10-30-13-17-14
+      updated: 2024-11-06-14-07-29
       followers: 894
       likes: 47
       views: 366
@@ -169,10 +169,10 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2024-10-30-13-17-11
+      updated: 2024-11-06-14-07-28
       followers: 337
       likes: 91
-      views: 608
+      views: 609
       comments: !c |-
         ixyAkZTLQnjexabnAACucXVpbnR1c19mYWJpdXOtV2UncmUgc28gYmFja5PLQnjexcSwAAClYW5z
         aXOhLgM=
@@ -8046,24 +8046,24 @@
       id: DB_85YtvD53
       mediaId: '18043302317039352'
       published: 2024-11-05-18-10-28
-      updated: 2024-11-06-13-15-53
+      updated: 2024-11-06-14-07-23
       followers: 1483
-      likes: 78
-      views: 287
+      likes: 79
+      views: 295
     - service: tg
       id: 586
       published: 2024-11-05-18-10-44
-      updated: 2024-11-06-13-15-54
+      updated: 2024-11-06-14-07-23
       followers: 566
-      likes: 46
-      views: 202
+      likes: 47
+      views: 204
     - service: vk
       id: 1879
       published: 2024-11-05-19-01-20
-      updated: 2024-11-06-13-15-53
+      updated: 2024-11-06-14-07-22
       followers: 1003
       likes: 22
-      views: 196
+      views: 197
       reposts: 2
       comments: !c |-
         G5UA6OXnr/lJrjzx7Fo80qK2WScPh9EC/fBEhnPKgXtagC3htrvmd8pxpgFGSQuS49di/VBq3O+P
@@ -10127,7 +10127,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2024-10-30-13-17-11
+      updated: 2024-11-06-14-07-26
       followers: 904
       likes: 44
       views: 295
@@ -10135,10 +10135,10 @@
     - service: tg
       id: 358
       published: 2024-03-26-18-10-55
-      updated: 2024-10-30-13-17-09
+      updated: 2024-11-06-14-07-25
       followers: 352
       likes: 68
-      views: 534
+      views: 536
       comments: !c |-
         G9kBAIzDdOMtD8uLoNCb/uY3rEvgXRaFcVs8ojGmRePvATimyLdobakOeKISVRqhnL/uvmhIEaJX
         IlM39fHx8YF4jiaXdWGcZZLo0n0eQm8T8ZGeji5LY4lh62Ne3NjmP1g4BM1EkzH5Ymsiv7nDKENw
@@ -11083,7 +11083,7 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2024-10-30-13-17-13
+      updated: 2024-11-06-14-07-28
       followers: 895
       likes: 35
       views: 291
@@ -11091,10 +11091,10 @@
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2024-10-30-13-17-10
+      updated: 2024-11-06-14-07-27
       followers: 343
       likes: 69
-      views: 527
+      views: 528
       comments: !c ixOAkZPLQnjhAF9lAACucXVpbnR1c19mYWJpdXOt8J+Pg+KAjeKZgu+4jwM=
 2017-11-16-cozy-workplace-in-the-basement:
   title: Cozy Workplace in the Basement
