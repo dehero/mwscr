@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/BoZtM-JhvQc/)       | 2018-10-01 |       |   104 |       436 |  23.85 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_952)  | 2018-10-01 |   396 |    23 |       246 |   9.35 |
 | [`tg`](https://t.me/mwscr/61)                      | 2018-10-01 |   197 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DCCh1JWNa_7/)       | 2024-11-06 |   242 |    71 |      1482 |   4.79 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1883) | 2024-11-06 |   170 |    19 |      1004 |   2.09 |
-| [`tg`](https://t.me/mwscr/587)                     | 2024-11-06 |   130 |    40 |       566 |   7.07 |
-|                                                    |            |   542 |   130 |      3052 |   9.43 |
+| [`ig`](https://instagram.com/p/DCCh1JWNa_7/)       | 2024-11-06 |   248 |    71 |      1482 |   4.79 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1883) | 2024-11-06 |   174 |    19 |      1004 |   2.09 |
+| [`tg`](https://t.me/mwscr/587)                     | 2024-11-06 |   131 |    40 |       566 |   7.07 |
+|                                                    |            |   553 |   130 |      3052 |   9.43 |
 
 ## <span id="2024-11-05-yagrum-bagarn-talks-to-uupse-fyr">Yagrum Bagarn Talks to Uupse Fyr</span>
 
@@ -57,9 +57,9 @@
 | [`ig`](https://instagram.com/p/BXz1sXkjhrD/)       | 2017-08-15 |       |    76 |       192 |  39.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_393)  | 2017-08-15 |   111 |     5 |        74 |   6.76 |
 | [`ig`](https://instagram.com/p/DB_85YtvD53/)       | 2024-11-05 |   364 |    89 |      1483 |      6 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1879) | 2024-11-05 |   227 |    23 |      1003 |   2.49 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1879) | 2024-11-05 |   228 |    23 |      1003 |   2.49 |
 | [`tg`](https://t.me/mwscr/586)                     | 2024-11-05 |   245 |    52 |       566 |   9.19 |
-|                                                    |            |   836 |   164 |      3052 |   12.8 |
+|                                                    |            |   837 |   164 |      3052 |   12.8 |
 
 #### Comments
 
