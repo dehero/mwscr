@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`254 items`
+`255 items`
+
+## <span id="2024-11-07-captain-bedrir">Captain Bedrir</span>
+
+`RU` Капитан Бедрир
+
+<a href="https://instagram.com/p/BX7p1LoDl2y/" title="2017-08-18-captain-bedrir"><img alt="store:/shots/2017-08-18-captain-bedrir.png" src="../../assets/previews/shots/2017-08-18-captain-bedrir.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-11-07-captain-bedrir&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-11-07-captain-bedrir
+```
+
+> `2017-08-18-captain-bedrir`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BX7p1LoDl2y/)       | 2017-08-18 |       |    53 |       193 |  27.46 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_397)  | 2017-08-18 |   112 |     5 |        75 |   6.67 |
+| [`ig`](https://instagram.com/p/DCFGfSvxVTc/)       | 2024-11-07 |       |       |      1482 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1885) | 2024-11-07 |       |       |      1005 |        |
+| [`tg`](https://t.me/mwscr/588)                     | 2024-11-07 |       |       |       566 |        |
+|                                                    |            |       |       |      3053 |  17.06 |
+
+#### Comments
+
+- `ig` <ins title="2017-08-18-17-51-15">scdlbx</ins> You like to dance close to the fire, don&#39;t you?
 
 ## <span id="2024-11-06-near-the-fighters-guild-of-ald-ruhn">Near the Fighters Guild of Ald&#39;ruhn</span>
 
@@ -29,10 +60,10 @@
 | [`ig`](https://instagram.com/p/BoZtM-JhvQc/)       | 2018-10-01 |       |   104 |       436 |  23.85 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_952)  | 2018-10-01 |   396 |    23 |       246 |   9.35 |
 | [`tg`](https://t.me/mwscr/61)                      | 2018-10-01 |   197 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DCCh1JWNa_7/)       | 2024-11-06 |   263 |    74 |      1482 |   4.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1883) | 2024-11-06 |   190 |    20 |      1004 |   2.19 |
+| [`ig`](https://instagram.com/p/DCCh1JWNa_7/)       | 2024-11-06 |   267 |    75 |      1482 |   5.06 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1883) | 2024-11-06 |   198 |    23 |      1004 |   2.59 |
 | [`tg`](https://t.me/mwscr/587)                     | 2024-11-06 |   137 |    40 |       566 |   7.07 |
-|                                                    |            |   590 |   134 |      3052 |   9.49 |
+|                                                    |            |   602 |   138 |      3052 |   9.58 |
 
 ## <span id="2024-11-05-yagrum-bagarn-talks-to-uupse-fyr">Yagrum Bagarn Talks to Uupse Fyr</span>
 
@@ -57,9 +88,9 @@
 | [`ig`](https://instagram.com/p/BXz1sXkjhrD/)       | 2017-08-15 |       |    76 |       192 |  39.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_393)  | 2017-08-15 |   111 |     5 |        74 |   6.76 |
 | [`ig`](https://instagram.com/p/DB_85YtvD53/)       | 2024-11-05 |   369 |    90 |      1483 |   6.07 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1879) | 2024-11-05 |   236 |    24 |      1003 |   2.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1879) | 2024-11-05 |   239 |    25 |      1003 |   2.69 |
 | [`tg`](https://t.me/mwscr/586)                     | 2024-11-05 |   250 |    52 |       566 |   9.19 |
-|                                                    |            |   855 |   166 |      3052 |  12.84 |
+|                                                    |            |   858 |   167 |      3052 |  12.86 |
 
 #### Comments
 
@@ -2823,10 +2854,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNTmMGTF7rY/)       | 2016-11-27 |       |    19 |        19 |     19 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_14)   | 2017-01-22 |    51 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/C-ihqretmf0/)       | 2024-08-11 |   611 |   113 |      1437 |   7.86 |
+| [`ig`](https://instagram.com/p/C-ihqretmf0/)       | 2024-08-11 |   612 |   113 |      1437 |   7.86 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1687) | 2024-08-11 |   306 |    46 |       930 |   5.05 |
 | [`tg`](https://t.me/mwscr/498)                     | 2024-08-11 |   614 |    68 |       520 |  13.08 |
-|                                                    |            |  1531 |   227 |      2887 |    9.6 |
+|                                                    |            |  1532 |   227 |      2887 |    9.6 |
 
 #### Comments
 
@@ -7651,8 +7682,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_331)  | 2017-06-23 |   101 |     8 |        65 |  12.31 |
 | [`ig`](https://instagram.com/p/C4dtTNvJ31s/)       | 2024-03-13 |   500 |   134 |      1385 |   9.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1445) | 2024-03-13 |   286 |    33 |       897 |   3.79 |
-| [`tg`](https://t.me/mwscr/344)                     | 2024-03-13 |   529 |    64 |       349 |  18.34 |
-|                                                    |            |  1315 |   231 |      2631 |  15.49 |
+| [`tg`](https://t.me/mwscr/344)                     | 2024-03-13 |   530 |    64 |       349 |  18.34 |
+|                                                    |            |  1316 |   231 |      2631 |  15.49 |
 
 #### Comments
 

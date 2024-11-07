@@ -6274,7 +6274,7 @@
     - service: vk
       id: 1445
       published: 2024-03-13-18-17-34
-      updated: 2024-10-31-17-06-21
+      updated: 2024-11-07-18-10-03
       followers: 897
       likes: 33
       views: 286
@@ -6285,10 +6285,10 @@
     - service: tg
       id: 344
       published: 2024-03-13-18-17-41
-      updated: 2024-10-31-17-06-21
+      updated: 2024-11-07-18-10-02
       followers: 349
       likes: 64
-      views: 529
+      views: 530
       comments: !c |-
         G+sDIJwHtg3vDJUeLhr3Ytks/nnZc1J81fxNiKJ1E5oqJEWVEaKZKVFUzjXbxCpfVeFkK7mqmck9
         CRx/kDxSz4JzE5rBMFLpb1nAs0idwEASpC+3xQR+famJ/+aI5USJ1GV8+lNBPwY0hsGY5V7GtLWp
@@ -8046,24 +8046,24 @@
       id: DB_85YtvD53
       mediaId: '18043302317039352'
       published: 2024-11-05-18-10-28
-      updated: 2024-11-07-17-02-00
+      updated: 2024-11-07-18-10-01
       followers: 1483
       likes: 90
       views: 369
     - service: tg
       id: 586
       published: 2024-11-05-18-10-44
-      updated: 2024-11-07-17-02-01
+      updated: 2024-11-07-18-10-01
       followers: 566
       likes: 52
       views: 250
     - service: vk
       id: 1879
       published: 2024-11-05-19-01-20
-      updated: 2024-11-07-17-02-00
+      updated: 2024-11-07-18-10-01
       followers: 1003
-      likes: 24
-      views: 236
+      likes: 25
+      views: 239
       reposts: 2
       comments: !c |-
         G5UA6OXnr/lJrjzx7Fo80qK2WScPh9EC/fBEhnPKgXtagC3htrvmd8pxpgFGSQuS49di/VBq3O+P
@@ -8168,6 +8168,19 @@
       followers: 75
       likes: 5
       views: 112
+    - service: ig
+      id: DCFGfSvxVTc
+      mediaId: '18044644421486235'
+      published: 2024-11-07-18-10-28
+      followers: 1482
+    - service: vk
+      id: 1885
+      published: 2024-11-07-18-10-36
+      followers: 1005
+    - service: tg
+      id: 588
+      published: 2024-11-07-18-10-45
+      followers: 566
 2017-08-19-surroundings-of-hlormaren:
   title: Surroundings of Hlormaren
   titleRu: В окрестностях Хлормарена
@@ -8754,7 +8767,7 @@
       id: C-LWdiVhvTs
       mediaId: '18239347024283548'
       published: 2024-08-02-18-19-53
-      updated: 2024-10-31-17-06-33
+      updated: 2024-11-07-18-10-13
       followers: 1434
       likes: 100
       views: 359
@@ -9290,7 +9303,7 @@
       id: C-lHoO7sfCY
       mediaId: '17866186293127672'
       published: 2024-08-12-18-30-30
-      updated: 2024-10-31-17-06-22
+      updated: 2024-11-07-18-10-03
       followers: 1437
       likes: 94
       views: 340
