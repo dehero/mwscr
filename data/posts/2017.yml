@@ -764,10 +764,10 @@
     - service: vk
       id: 1868
       published: 2024-10-31-18-23-28
-      updated: 2024-11-06-20-08-53
+      updated: 2024-11-07-21-02-52
       followers: 1002
       likes: 29
-      views: 229
+      views: 234
       reposts: 1
       comments: !c |-
         GyYBAByJcSyK4yxpUhUhcCNPaHkVYJZQmEQalmCELzeh17kZq9MNQo3AhuiQl44b3MyjD1s1BMNg
@@ -776,10 +776,10 @@
     - service: tg
       id: 581
       published: 2024-10-31-18-23-34
-      updated: 2024-11-06-20-08-52
+      updated: 2024-11-07-21-02-50
       followers: 564
       likes: 61
-      views: 334
+      views: 363
       comments: !c ixeAkpPLQnkuQKV4AACqU2VidWxiYTUxOKTwn5igk8tCeS5AmQSAAKVBZGVsZaTwn5GBAw==
 2017-01-24-welcome-to-gnaar-mok:
   title: Welcome to Gnaar Mok
@@ -7420,10 +7420,10 @@
     - service: vk
       id: 1872
       published: 2024-11-02-19-01-31
-      updated: 2024-11-06-20-08-51
+      updated: 2024-11-07-21-02-50
       followers: 1003
-      likes: 23
-      views: 233
+      likes: 27
+      views: 245
       comments: !c |-
         G9UCACyPt6HxkyMyV7kiuBUPw1xy/PP9xZbwjf/ZFKI0oMA30KQpwCRdOVdrW7WEzHFnqHM6ncAP
         a5uINYhVuqWYyt39nMLDvi9tLJYFSKXvN81NTXa94fk7P2WHlJSi/Y/rMHlLd6PpwIY6463XfgrH
@@ -7944,25 +7944,25 @@
       id: DB1pswJM70x
       mediaId: '18076140691581875'
       published: 2024-11-01-18-10-18
-      updated: 2024-11-06-20-08-52
+      updated: 2024-11-07-21-02-49
       followers: 1478
       likes: 102
-      views: 406
+      views: 409
     - service: tg
       id: 582
       published: 2024-11-01-18-10-31
-      updated: 2024-11-06-20-08-51
+      updated: 2024-11-07-21-02-49
       followers: 565
       likes: 52
-      views: 348
+      views: 368
       comments: !c iw2AkZPLQnkuyHj0AACrVmVicmFuZGVub0uk8J+lugM=
     - service: vk
       id: 1871
       published: 2024-11-01-19-02-16
-      updated: 2024-11-06-20-08-52
+      updated: 2024-11-07-21-02-51
       followers: 1002
-      likes: 30
-      views: 246
+      likes: 33
+      views: 256
 2017-08-13-hanud:
   title: Hanud
   titleRu: Хануд
@@ -8172,25 +8172,25 @@
       id: DCFGfSvxVTc
       mediaId: '18044644421486235'
       published: 2024-11-07-18-10-28
-      updated: 2024-11-07-20-08-23
+      updated: 2024-11-07-21-02-47
       followers: 1482
-      likes: 33
-      views: 88
+      likes: 38
+      views: 116
     - service: vk
       id: 1885
       published: 2024-11-07-18-10-36
-      updated: 2024-11-07-20-08-21
+      updated: 2024-11-07-21-02-47
       followers: 1005
       likes: 18
-      views: 75
+      views: 87
       reposts: 1
     - service: tg
       id: 588
       published: 2024-11-07-18-10-45
-      updated: 2024-11-07-20-08-22
+      updated: 2024-11-07-21-02-48
       followers: 566
-      likes: 23
-      views: 89
+      likes: 27
+      views: 98
 2017-08-19-surroundings-of-hlormaren:
   title: Surroundings of Hlormaren
   titleRu: В окрестностях Хлормарена
