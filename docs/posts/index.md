@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/BoZtM-JhvQc/)       | 2018-10-01 |       |   104 |       436 |  23.85 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_952)  | 2018-10-01 |   396 |    23 |       246 |   9.35 |
 | [`tg`](https://t.me/mwscr/61)                      | 2018-10-01 |   197 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DCCh1JWNa_7/)       | 2024-11-06 |   211 |    68 |      1482 |   4.59 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1883) | 2024-11-06 |   127 |    16 |      1004 |   1.79 |
-| [`tg`](https://t.me/mwscr/587)                     | 2024-11-06 |   121 |    37 |       566 |   6.54 |
-|                                                    |            |   459 |   121 |      3052 |   9.22 |
+| [`ig`](https://instagram.com/p/DCCh1JWNa_7/)       | 2024-11-06 |   215 |    69 |      1482 |   4.66 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1883) | 2024-11-06 |   140 |    18 |      1004 |   1.99 |
+| [`tg`](https://t.me/mwscr/587)                     | 2024-11-06 |   125 |    38 |       566 |   6.71 |
+|                                                    |            |   480 |   125 |      3052 |   9.31 |
 
 ## <span id="2024-11-05-yagrum-bagarn-talks-to-uupse-fyr">Yagrum Bagarn Talks to Uupse Fyr</span>
 
@@ -57,9 +57,9 @@
 | [`ig`](https://instagram.com/p/BXz1sXkjhrD/)       | 2017-08-15 |       |    76 |       192 |  39.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_393)  | 2017-08-15 |   111 |     5 |        74 |   6.76 |
 | [`ig`](https://instagram.com/p/DB_85YtvD53/)       | 2024-11-05 |   354 |    88 |      1483 |   5.93 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1879) | 2024-11-05 |   219 |    22 |      1003 |   2.39 |
-| [`tg`](https://t.me/mwscr/586)                     | 2024-11-05 |   243 |    52 |       566 |   9.19 |
-|                                                    |            |   816 |   162 |      3052 |  12.77 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1879) | 2024-11-05 |   220 |    22 |      1003 |   2.39 |
+| [`tg`](https://t.me/mwscr/586)                     | 2024-11-05 |   244 |    52 |       566 |   9.19 |
+|                                                    |            |   818 |   162 |      3052 |  12.77 |
 
 #### Comments
 
