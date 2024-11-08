@@ -7803,10 +7803,10 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2024-10-31-23-09-39
+      updated: 2024-11-08-00-35-04
       followers: 943
       likes: 27
-      views: 264
+      views: 266
       comments: !c |-
         G4kAABwJtm2DFS6f5Iqx04j/uZniZ21tAxEXoy2KJZqi5V7U8pariU3U3psJbEIUKjYbfn8SgoMM
         NuBAA4WMBqANZz5D4HxxP5/1mYm29/qcY41xrP13OoSBgAeAgkJKMk1xz7wtNSw7RMEup5pJICmx
@@ -7814,10 +7814,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2024-10-31-23-09-39
+      updated: 2024-11-08-00-35-03
       followers: 551
       likes: 56
-      views: 505
+      views: 507
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
@@ -9585,25 +9585,25 @@
       id: DCCh1JWNa_7
       mediaId: '18148521415341360'
       published: 2024-11-06-18-11-39
-      updated: 2024-11-07-23-01-12
+      updated: 2024-11-08-00-35-00
       followers: 1482
-      likes: 76
-      views: 279
+      likes: 78
+      views: 281
     - service: vk
       id: 1883
       published: 2024-11-06-18-11-45
-      updated: 2024-11-07-23-01-13
+      updated: 2024-11-08-00-35-02
       followers: 1004
       likes: 25
-      views: 223
+      views: 224
       reposts: 3
     - service: tg
       id: 587
       published: 2024-11-06-18-11-51
-      updated: 2024-11-07-23-01-13
+      updated: 2024-11-08-00-35-02
       followers: 566
-      likes: 43
-      views: 175
+      likes: 44
+      views: 176
 2018-10-02-shatalg:
   title: Shatalg
   titleRu: Шаталг
