@@ -7034,10 +7034,10 @@
     - service: tg
       id: 354
       published: 2024-03-22
-      updated: 2024-11-01-20-08-31
+      updated: 2024-11-08-21-03-00
       followers: 353
       likes: 64
-      views: 529
+      views: 530
       comments: !c |-
         G4cAgGXgnAMfSIG1VdFwmPFs4O+AVXg6UOtBjtfJiR4PJrWVBhKmtQUgAWDgHMNmyQsGOeflT+bl
         Xej9sc90BmyLaiXKg0byRX/YB8QMeW3JqDagqArlswXPXx+8tp3qtIJCm75146DROM/JXltF1W+y
@@ -7420,10 +7420,10 @@
     - service: vk
       id: 1872
       published: 2024-11-02-19-01-31
-      updated: 2024-11-07-21-02-50
+      updated: 2024-11-08-21-02-59
       followers: 1003
-      likes: 27
-      views: 245
+      likes: 28
+      views: 251
       comments: !c |-
         G9UCACyPt6HxkyMyV7kiuBUPw1xy/PP9xZbwjf/ZFKI0oMA30KQpwCRdOVdrW7WEzHFnqHM6ncAP
         a5uINYhVuqWYyt39nMLDvi9tLJYFSKXvN81NTXa94fk7P2WHlJSi/Y/rMHlLd6PpwIY6463XfgrH
@@ -7951,18 +7951,18 @@
     - service: tg
       id: 582
       published: 2024-11-01-18-10-31
-      updated: 2024-11-07-21-02-49
+      updated: 2024-11-08-21-02-59
       followers: 565
       likes: 52
-      views: 368
+      views: 388
       comments: !c iw2AkZPLQnkuyHj0AACrVmVicmFuZGVub0uk8J+lugM=
     - service: vk
       id: 1871
       published: 2024-11-01-19-02-16
-      updated: 2024-11-07-21-02-51
+      updated: 2024-11-08-21-03-00
       followers: 1002
       likes: 33
-      views: 256
+      views: 261
 2017-08-13-hanud:
   title: Hanud
   titleRu: Хануд
@@ -8179,18 +8179,18 @@
     - service: vk
       id: 1885
       published: 2024-11-07-18-10-36
-      updated: 2024-11-08-20-08-22
+      updated: 2024-11-08-21-02-58
       followers: 1005
-      likes: 23
-      views: 183
+      likes: 24
+      views: 185
       reposts: 1
     - service: tg
       id: 588
       published: 2024-11-07-18-10-45
-      updated: 2024-11-08-20-08-22
+      updated: 2024-11-08-21-02-58
       followers: 566
-      likes: 42
-      views: 156
+      likes: 43
+      views: 161
 2017-08-19-surroundings-of-hlormaren:
   title: Surroundings of Hlormaren
   titleRu: В окрестностях Хлормарена
