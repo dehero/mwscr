@@ -165,10 +165,10 @@
       id: DB9YEuYxTJW
       mediaId: '17863198068255292'
       published: 2024-11-04-18-10-13
-      updated: 2024-11-07-19-01-20
+      updated: 2024-11-08-22-04-17
       followers: 1482
-      likes: 82
-      views: 343
+      likes: 83
+      views: 350
     - service: vk
       id: 1876
       published: 2024-11-04-18-10-22
@@ -3221,18 +3221,23 @@
     - service: vk
       id: 1886
       published: 2024-11-08-18-40-06
-      updated: 2024-11-08-21-02-57
+      updated: 2024-11-08-22-04-15
       followers: 1005
-      likes: 11
-      views: 56
+      likes: 12
+      views: 67
       reposts: 1
     - service: tg
       id: 589
       published: 2024-11-08-18-40-14
-      updated: 2024-11-08-21-02-58
+      updated: 2024-11-08-22-04-15
       followers: 566
-      likes: 26
-      views: 79
+      likes: 28
+      views: 88
+    - service: ig
+      id: DCIGFNUyeex
+      mediaId: '18064329940739266'
+      published: 2024-11-08-22-04-39
+      followers: 1481
 2018-04-03-evening-expanse-of-ashlands:
   title: Evening Expanse of Ashlands
   titleRu: Вечерние просторы Эшленда
@@ -4985,10 +4990,10 @@
       id: DB6zTFIuAi2
       mediaId: '17867584755237814'
       published: 2024-11-03-18-10-23
-      updated: 2024-11-07-19-01-21
+      updated: 2024-11-08-22-04-19
       followers: 1479
-      likes: 145
-      views: 797
+      likes: 147
+      views: 804
     - service: vk
       id: 1875
       published: 2024-11-03-18-10-30
@@ -7811,10 +7816,10 @@
       id: C_i6eUrs1dW
       mediaId: '18032722124330991'
       published: 2024-09-05-18-28-30
-      updated: 2024-11-01-15-07-58
+      updated: 2024-11-08-22-04-24
       followers: 1455
-      likes: 80
-      views: 323
+      likes: 81
+      views: 324
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
@@ -10914,24 +10919,24 @@
       id: DA_k7_pzzWs
       mediaId: '18134504428365017'
       published: 2024-10-11-18-09-46
-      updated: 2024-11-01-21-07-14
+      updated: 2024-11-08-22-04-23
       followers: 1462
       likes: 89
-      views: 369
+      views: 375
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2024-11-01-21-07-14
+      updated: 2024-11-08-22-04-18
       followers: 961
       likes: 30
-      views: 302
+      views: 306
     - service: tg
       id: 561
       published: 2024-10-11-18-10-00
-      updated: 2024-11-01-21-07-14
+      updated: 2024-11-08-22-04-19
       followers: 558
       likes: 53
-      views: 419
+      views: 429
 2018-11-04-dwemer-bay:
   title: Dwemer Bay
   titleRu: Двемерская бухта
