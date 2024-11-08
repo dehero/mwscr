@@ -1559,15 +1559,15 @@
     - service: vk
       id: 1573
       published: 2024-06-06-18-19-32
-      updated: 2024-11-01-10-08-47
+      updated: 2024-11-08-11-02-25
       followers: 916
       likes: 37
-      views: 283
+      views: 284
       reposts: 1
     - service: tg
       id: 431
       published: 2024-06-06-18-19-42
-      updated: 2024-11-01-10-08-46
+      updated: 2024-11-08-11-02-25
       followers: 384
       likes: 58
       views: 444
@@ -3256,7 +3256,7 @@
     - service: vk
       id: 1534
       published: 2024-05-16-18-18-18
-      updated: 2024-11-01-10-08-50
+      updated: 2024-11-08-11-02-28
       followers: 915
       likes: 41
       views: 322
@@ -3268,10 +3268,10 @@
     - service: tg
       id: 410
       published: 2024-05-16-18-18-25
-      updated: 2024-11-01-10-08-49
+      updated: 2024-11-08-11-02-28
       followers: 370
       likes: 58
-      views: 478
+      views: 479
       comments: !c |-
         iyuAkpPLQnj4TMeUAACpR2F0ZW1hdGU3tXRoZSBob29kIG9mIG1vcnJvd2luZJPLQnj4K14cgACr
         Ym9icm92bmlrb3a2R29vZCBldmVuaW5nLCBldmVyeW9uZQM=
@@ -4750,10 +4750,10 @@
     - service: vk
       id: 1543
       published: 2024-05-23-18-18-57
-      updated: 2024-11-01-10-08-49
+      updated: 2024-11-08-11-02-27
       followers: 917
       likes: 46
-      views: 293
+      views: 294
       reposts: 1
       comments: !c |-
         CyiAkZPLQnj6bH5AgACtY2x1YjEyODU3NDk4N9k20KPRgdGC0YzQtSDQndCw0LHQuNC4LCDQvtCx
@@ -4761,7 +4761,7 @@
     - service: tg
       id: 417
       published: 2024-05-23-18-19-02
-      updated: 2024-11-01-10-08-48
+      updated: 2024-11-08-11-02-27
       followers: 376
       likes: 64
       views: 496
@@ -4920,20 +4920,20 @@
     - service: vk
       id: 1526
       published: 2024-05-09-18-18-25
-      updated: 2024-11-01-10-08-51
+      updated: 2024-11-08-11-02-29
       followers: 913
       likes: 39
       views: 277
       comments: !c |-
-        G2cA+J0JdizEZBhqMCRfIOqRNj7BAchz8ZNcWtCNvcQi3KEYDlrecpeV8jOBoLDhE/cTBJ+zKkRZ
-        k1afomiUVioQA0WLc79p/0R6y/kaqPTomPKzt1qDSW2T0gkJX2kyiO9JQ7e1GxAcmiE=
+        G2QA+B2JcSzKQjOjaH8QCO5IP88gsjTRlmCEyT94bszjiY3i1ZRBli1+wGcNW32KolFYqUAMEf3O
+        /XD/CwB4c6ULouoIBH/IpmjgVe3gVU1VfgFfacHA0dfNMde+zN4lH0ecycsP
     - service: tg
       id: 403
       published: 2024-05-09-18-18-32
-      updated: 2024-11-01-10-08-50
+      updated: 2024-11-08-11-02-29
       followers: 370
       likes: 60
-      views: 454
+      views: 455
 2018-05-19-keep-calm-and-wait-for-nerevarine:
   title: Keep Calm and Wait for Nerevarine
   titleRu: Будь спокоен и жди Нереварина
@@ -9592,15 +9592,15 @@
     - service: vk
       id: 1883
       published: 2024-11-06-18-11-45
-      updated: 2024-11-08-10-08-04
+      updated: 2024-11-08-11-02-23
       followers: 1004
       likes: 26
-      views: 244
+      views: 245
       reposts: 3
     - service: tg
       id: 587
       published: 2024-11-06-18-11-51
-      updated: 2024-11-08-10-08-04
+      updated: 2024-11-08-11-02-24
       followers: 566
       likes: 47
       views: 179
