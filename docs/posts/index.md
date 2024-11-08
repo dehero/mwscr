@@ -29,9 +29,9 @@
 | [`ig`](https://instagram.com/p/BX7p1LoDl2y/)       | 2017-08-18 |       |    53 |       193 |  27.46 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_397)  | 2017-08-18 |   112 |     5 |        75 |   6.67 |
 | [`ig`](https://instagram.com/p/DCFGfSvxVTc/)       | 2024-11-07 |   215 |    64 |      1482 |   4.32 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1885) | 2024-11-07 |   141 |    20 |      1005 |   2.09 |
-| [`tg`](https://t.me/mwscr/588)                     | 2024-11-07 |   119 |    36 |       566 |   6.36 |
-|                                                    |            |   475 |   120 |      3053 |   9.38 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1885) | 2024-11-07 |   142 |    20 |      1005 |   2.09 |
+| [`tg`](https://t.me/mwscr/588)                     | 2024-11-07 |   122 |    37 |       566 |   6.54 |
+|                                                    |            |   479 |   121 |      3053 |   9.41 |
 
 #### Comments
 
@@ -61,9 +61,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_952)  | 2018-10-01 |   396 |    23 |       246 |   9.35 |
 | [`tg`](https://t.me/mwscr/61)                      | 2018-10-01 |   197 |     2 |           |        |
 | [`ig`](https://instagram.com/p/DCCh1JWNa_7/)       | 2024-11-06 |   292 |    82 |      1482 |   5.53 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1883) | 2024-11-06 |   236 |    26 |      1004 |   2.89 |
-| [`tg`](https://t.me/mwscr/587)                     | 2024-11-06 |   178 |    46 |       566 |   8.13 |
-|                                                    |            |   706 |   154 |      3052 |   9.95 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1883) | 2024-11-06 |   237 |    26 |      1004 |   2.89 |
+| [`tg`](https://t.me/mwscr/587)                     | 2024-11-06 |   178 |    47 |       566 |    8.3 |
+|                                                    |            |   707 |   155 |      3052 |   9.99 |
 
 ## <span id="2024-11-05-yagrum-bagarn-talks-to-uupse-fyr">Yagrum Bagarn Talks to Uupse Fyr</span>
 
