@@ -172,18 +172,18 @@
     - service: vk
       id: 1876
       published: 2024-11-04-18-10-22
-      updated: 2024-11-07-19-01-22
+      updated: 2024-11-08-19-13-12
       followers: 1003
       likes: 27
-      views: 200
+      views: 215
       reposts: 1
     - service: tg
       id: 585
       published: 2024-11-04-18-10-32
-      updated: 2024-11-07-19-01-20
+      updated: 2024-11-08-19-13-11
       followers: 565
-      likes: 49
-      views: 277
+      likes: 50
+      views: 303
 2018-01-07-vistha-kai-warden-of-the-corprusarium:
   title: Vistha-Kai, Warden of the Corprusarium
   titleRu: Виста-Кай, смотритель Корпрусариума
@@ -3221,11 +3221,18 @@
     - service: vk
       id: 1886
       published: 2024-11-08-18-40-06
+      updated: 2024-11-08-19-13-09
       followers: 1005
+      likes: 3
+      views: 23
+      reposts: 1
     - service: tg
       id: 589
       published: 2024-11-08-18-40-14
+      updated: 2024-11-08-19-13-10
       followers: 566
+      likes: 15
+      views: 49
 2018-04-03-evening-expanse-of-ashlands:
   title: Evening Expanse of Ashlands
   titleRu: Вечерние просторы Эшленда
@@ -4985,18 +4992,18 @@
     - service: vk
       id: 1875
       published: 2024-11-03-18-10-30
-      updated: 2024-11-07-19-01-23
+      updated: 2024-11-08-19-13-13
       followers: 1003
       likes: 34
-      views: 253
+      views: 260
       reposts: 1
     - service: tg
       id: 584
       published: 2024-11-03-18-10-35
-      updated: 2024-11-07-19-01-21
+      updated: 2024-11-08-19-13-12
       followers: 565
-      likes: 56
-      views: 315
+      likes: 57
+      views: 327
       comments: !c |-
         ixqAkpPLQnkvTUbBgACpR2F0ZW1hdGU3qDIwMTguLi4/k8tCeS9MvQ+AAKh3aWx6dXVsbKTwn6eQ
         Aw==
