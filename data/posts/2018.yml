@@ -3221,23 +3221,26 @@
     - service: vk
       id: 1886
       published: 2024-11-08-18-40-06
-      updated: 2024-11-08-22-04-15
+      updated: 2024-11-08-23-08-14
       followers: 1005
       likes: 12
-      views: 67
+      views: 72
       reposts: 1
     - service: tg
       id: 589
       published: 2024-11-08-18-40-14
-      updated: 2024-11-08-22-04-15
+      updated: 2024-11-08-23-08-14
       followers: 566
       likes: 28
-      views: 88
+      views: 93
     - service: ig
       id: DCIGFNUyeex
       mediaId: '18064329940739266'
       published: 2024-11-08-22-04-39
+      updated: 2024-11-08-23-08-13
       followers: 1481
+      likes: 26
+      views: 57
 2018-04-03-evening-expanse-of-ashlands:
   title: Evening Expanse of Ashlands
   titleRu: Вечерние просторы Эшленда
@@ -3583,17 +3586,17 @@
       id: DBjoHhrtcDF
       mediaId: '17979166523766393'
       published: 2024-10-25-18-10-09
-      updated: 2024-11-01-22-07-16
+      updated: 2024-11-08-23-08-14
       followers: 1474
       likes: 89
-      views: 335
+      views: 348
     - service: vk
       id: 1855
       published: 2024-10-25-18-10-15
-      updated: 2024-11-01-22-07-17
+      updated: 2024-11-08-23-08-17
       followers: 997
-      likes: 37
-      views: 248
+      likes: 38
+      views: 263
       reposts: 1
       comments: !c |-
         G9QBgCwKbGOzhuhJv0vFoSZyr8ka/09/MdI3/lv0MNMSTBJPzgVdVbcLLW8EAkGCAkdSHpZv29cJ
@@ -3604,10 +3607,10 @@
     - service: tg
       id: 575
       published: 2024-10-25-18-10-23
-      updated: 2024-11-01-22-07-17
+      updated: 2024-11-08-23-08-16
       followers: 563
-      likes: 56
-      views: 368
+      likes: 58
+      views: 462
 2018-04-12-mushroom-stairs:
   title: Mushroom Stairs
   titleRu: Грибная лестница
@@ -11606,27 +11609,27 @@
       id: DAJimkkBNV_
       mediaId: '18058220053742509'
       published: 2024-09-20-18-30-18
-      updated: 2024-11-01-22-07-18
+      updated: 2024-11-08-23-08-17
       followers: 1459
       likes: 76
       views: 366
     - service: vk
       id: 1774
       published: 2024-09-20-18-30-28
-      updated: 2024-11-01-22-07-21
+      updated: 2024-11-08-23-08-20
       followers: 949
       likes: 42
-      views: 333
+      views: 334
       comments: !c |-
         G2AA+J0Jto2E9THoiiB8kPHEexvhDac4HGCCvQSCCJN/zsPnvEZilqbsbGI8mxlVotYrmu/5gyw1
         gcWmGqGd1f38dc09r4zvhCIBT/ttSg1qGQZOX7pUQi8CDkHIRscrk7UA
     - service: tg
       id: 539
       published: 2024-09-20-18-30-37
-      updated: 2024-11-01-22-07-19
+      updated: 2024-11-08-23-08-18
       followers: 555
       likes: 58
-      views: 477
+      views: 482
 2018-11-22-three-trees-by-the-road:
   title: Three Trees by the Road
   titleRu: Три дерева у дороги
