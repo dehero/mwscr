@@ -1465,7 +1465,7 @@
     - service: vk
       id: 1472
       published: 2024-03-28-18-11-42
-      updated: 2024-11-01-15-08-05
+      updated: 2024-11-08-18-39-50
       followers: 906
       likes: 38
       views: 309
@@ -1473,7 +1473,7 @@
     - service: tg
       id: 360
       published: 2024-03-28-18-11-49
-      updated: 2024-11-01-15-08-03
+      updated: 2024-11-08-18-39-50
       followers: 355
       likes: 59
       views: 459
@@ -3275,7 +3275,7 @@
     - service: vk
       id: 1426
       published: 2024-02-29-18-00-56
-      updated: 2024-11-01-15-08-08
+      updated: 2024-11-08-18-39-54
       followers: 894
       likes: 52
       views: 374
@@ -3286,10 +3286,10 @@
     - service: tg
       id: 331
       published: 2024-02-29-18-01-07
-      updated: 2024-11-01-15-08-06
+      updated: 2024-11-08-18-39-52
       followers: 338
       likes: 81
-      views: 633
+      views: 634
 2017-03-31-interior-garden:
   title: Interior Garden
   titleRu: Внутренний сад
@@ -3406,7 +3406,7 @@
     - service: vk
       id: 1448
       published: 2024-03-14-18-12-16
-      updated: 2024-11-01-15-08-07
+      updated: 2024-11-08-18-39-52
       followers: 896
       likes: 51
       views: 373
@@ -3420,10 +3420,10 @@
     - service: tg
       id: 346
       published: 2024-03-14-18-12-22
-      updated: 2024-11-01-15-08-05
+      updated: 2024-11-08-18-39-51
       followers: 351
       likes: 67
-      views: 506
+      views: 507
       comments: !c |-
         iyaAkpPLQnjj7YABgACqaGltbWVsaGVyeqbimLrvuI+Ty0J44+SyWAAAqUdhdGVtYXRlN7xnb2lu
         ZyB0aHJ1IHRoZSBob29kIGF0IG5pZ2h0Aw==
@@ -7635,14 +7635,14 @@
     - service: vk
       id: 1516
       published: 2024-05-02-18-21-03
-      updated: 2024-11-01-15-08-00
+      updated: 2024-11-08-18-39-46
       followers: 912
       likes: 29
       views: 237
     - service: tg
       id: 396
       published: 2024-05-02-18-21-10
-      updated: 2024-11-01-15-07-59
+      updated: 2024-11-08-18-39-47
       followers: 364
       likes: 55
       views: 471
@@ -8053,10 +8053,10 @@
     - service: tg
       id: 586
       published: 2024-11-05-18-10-44
-      updated: 2024-11-07-18-10-01
+      updated: 2024-11-08-18-39-46
       followers: 566
-      likes: 52
-      views: 250
+      likes: 57
+      views: 271
     - service: vk
       id: 1879
       published: 2024-11-05-19-01-20
@@ -8179,18 +8179,18 @@
     - service: vk
       id: 1885
       published: 2024-11-07-18-10-36
-      updated: 2024-11-08-11-02-22
+      updated: 2024-11-08-18-39-45
       followers: 1005
-      likes: 22
-      views: 162
+      likes: 23
+      views: 178
       reposts: 1
     - service: tg
       id: 588
       published: 2024-11-07-18-10-45
-      updated: 2024-11-08-11-02-23
+      updated: 2024-11-08-18-39-46
       followers: 566
-      likes: 38
-      views: 132
+      likes: 40
+      views: 141
 2017-08-19-surroundings-of-hlormaren:
   title: Surroundings of Hlormaren
   titleRu: В окрестностях Хлормарена
@@ -9044,7 +9044,7 @@
     - service: vk
       id: 1509
       published: 2024-04-25-18-18-02
-      updated: 2024-11-01-15-08-01
+      updated: 2024-11-08-18-39-47
       followers: 910
       likes: 53
       views: 363
@@ -9052,7 +9052,7 @@
     - service: tg
       id: 389
       published: 2024-04-25-18-18-08
-      updated: 2024-11-01-15-08-00
+      updated: 2024-11-08-18-39-48
       followers: 354
       likes: 73
       views: 527
