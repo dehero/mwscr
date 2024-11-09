@@ -3221,26 +3221,26 @@
     - service: vk
       id: 1886
       published: 2024-11-08-18-40-06
-      updated: 2024-11-09-05-07-08
+      updated: 2024-11-09-06-09-15
       followers: 1005
-      likes: 15
-      views: 93
+      likes: 17
+      views: 98
       reposts: 1
     - service: tg
       id: 589
       published: 2024-11-08-18-40-14
-      updated: 2024-11-09-05-07-08
+      updated: 2024-11-09-06-09-14
       followers: 566
       likes: 35
-      views: 106
+      views: 109
     - service: ig
       id: DCIGFNUyeex
       mediaId: '18064329940739266'
       published: 2024-11-08-22-04-39
-      updated: 2024-11-09-05-07-09
+      updated: 2024-11-09-06-09-13
       followers: 1481
-      likes: 46
-      views: 163
+      likes: 50
+      views: 176
 2018-04-03-evening-expanse-of-ashlands:
   title: Evening Expanse of Ashlands
   titleRu: Вечерние просторы Эшленда
@@ -5539,7 +5539,7 @@
     - service: vk
       id: 1657
       published: 2024-07-26-18-20-40
-      updated: 2024-11-02-05-07-59
+      updated: 2024-11-09-06-09-17
       followers: 923
       likes: 34
       views: 273
@@ -5547,10 +5547,10 @@
     - service: tg
       id: 481
       published: 2024-07-26-18-20-48
-      updated: 2024-11-02-05-07-58
+      updated: 2024-11-09-06-09-16
       followers: 400
       likes: 69
-      views: 621
+      views: 622
       comments: !c CwuAkZPLQnkPIJkoAACmQzRINk80pPCfmI4D
 2018-06-06-i-think-i-got-sick:
   title: I Think I Got Sick
