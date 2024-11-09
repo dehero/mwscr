@@ -715,9 +715,9 @@
     - service: yt
       id: 8Waikj-VsSI
       published: 2017-01-22
-      updated: 2024-11-02-03-13-12
+      updated: 2024-11-09-04-08-50
       likes: 7
-      views: 130
+      views: 131
     - service: vk
       id: 71
       published: 2017-01-22
@@ -979,7 +979,7 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2024-11-02-03-13-12
+      updated: 2024-11-09-04-08-49
       likes: 25
       views: 571
       comments: !c CxOAkZPLQnaO0E6sgACqQE5hcnNNY2FpbrBJIGxvdmUgdGhpcyBzaGl0Aw==
@@ -1645,9 +1645,9 @@
     - service: yt
       id: Fd77v5UL_ek
       published: 2017-02-12
-      updated: 2024-11-02-03-13-12
+      updated: 2024-11-09-04-08-48
       likes: 30
-      views: 668
+      views: 669
       comments: !c |-
         G+gAoCwK7IZjg1xnd84NfTExG8H/173ufKL3qbUU3ol5wEulDhJM54DXczGQWwslGIsxDlWEf7it
         t5QEIT7YrgRCP24zuPGiFz0mZ9esw+AcQenkQAP0rEVhywI7BwFwBRjoxlL4wrHIsHg7HF6DDo6k
@@ -8172,25 +8172,25 @@
       id: DCFGfSvxVTc
       mediaId: '18044644421486235'
       published: 2024-11-07-18-10-28
-      updated: 2024-11-09-03-11-01
+      updated: 2024-11-09-04-08-50
       followers: 1482
       likes: 76
-      views: 309
+      views: 310
     - service: vk
       id: 1885
       published: 2024-11-07-18-10-36
-      updated: 2024-11-09-03-11-01
+      updated: 2024-11-09-04-08-51
       followers: 1005
       likes: 24
-      views: 189
+      views: 192
       reposts: 1
     - service: tg
       id: 588
       published: 2024-11-07-18-10-45
-      updated: 2024-11-09-03-11-01
+      updated: 2024-11-09-04-08-51
       followers: 566
       likes: 43
-      views: 167
+      views: 168
 2017-08-19-surroundings-of-hlormaren:
   title: Surroundings of Hlormaren
   titleRu: В окрестностях Хлормарена
