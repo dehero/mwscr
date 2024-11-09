@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`256 items`
+`257 items`
+
+## <span id="2024-11-09-dirty-muriels-cornerclub-under-mushrooms">Dirty Muriel&#39;s Cornerclub Under Mushrooms</span>
+
+`RU` Трактир грязной Мюриэль под грибами
+
+<a href="https://instagram.com/p/BRZ12wzjZ6R/" title="2017-03-09-dirty-muriels-cornerclub-under-mushrooms"><img alt="store:/shots/2017-03-09-dirty-muriels-cornerclub-under-mushrooms.png" src="../../assets/previews/shots/2017-03-09-dirty-muriels-cornerclub-under-mushrooms.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Sadrith Mora` `🚀 OpenMW` `mushroom`
+
+```
+2024-11-09-dirty-muriels-cornerclub-under-mushrooms
+```
+
+> `2017-03-09-dirty-muriels-cornerclub-under-mushrooms`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BRZ12wzjZ6R/)       | 2017-03-09 |       |    56 |       105 |  53.33 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_189)  | 2017-03-09 |   135 |    11 |        44 |     11 |
+| [`ig`](https://instagram.com/p/DCKP3ratxaE/)       | 2024-11-09 |       |       |      1481 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1887) | 2024-11-09 |       |       |      1006 |        |
+| [`tg`](https://t.me/mwscr/590)                     | 2024-11-09 |       |       |       564 |        |
+|                                                    |            |       |       |      3051 |  32.17 |
 
 ## <span id="2024-11-08-arboreal-obelisks">Arboreal Obelisks</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BhE_xFsjxX8/)       | 2018-04-02 |       |   121 |       311 |  38.91 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_674)  | 2018-04-02 |   211 |    14 |       147 |   10.2 |
-| [`ig`](https://instagram.com/p/DCIGFNUyeex/)       | 2024-11-08 |   255 |    66 |      1481 |   4.46 |
+| [`ig`](https://instagram.com/p/DCIGFNUyeex/)       | 2024-11-08 |   261 |    67 |      1481 |   4.52 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1886) | 2024-11-08 |   139 |    19 |      1005 |   1.99 |
-| [`tg`](https://t.me/mwscr/589)                     | 2024-11-08 |   130 |    38 |       566 |   6.71 |
-|                                                    |            |   524 |   123 |      3052 |  12.45 |
+| [`tg`](https://t.me/mwscr/589)                     | 2024-11-08 |   132 |    39 |       566 |   6.89 |
+|                                                    |            |   532 |   125 |      3052 |   12.5 |
 
 ## <span id="2024-11-07-captain-bedrir">Captain Bedrir</span>
 
@@ -55,10 +82,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BX7p1LoDl2y/)       | 2017-08-18 |       |    53 |       193 |  27.46 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_397)  | 2017-08-18 |   112 |     5 |        75 |   6.67 |
-| [`ig`](https://instagram.com/p/DCFGfSvxVTc/)       | 2024-11-07 |   333 |    80 |      1482 |    5.4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1885) | 2024-11-07 |   208 |    24 |      1005 |   2.49 |
-| [`tg`](https://t.me/mwscr/588)                     | 2024-11-07 |   179 |    44 |       566 |   7.77 |
-|                                                    |            |   720 |   148 |      3053 |   9.96 |
+| [`ig`](https://instagram.com/p/DCFGfSvxVTc/)       | 2024-11-07 |   335 |    80 |      1482 |    5.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1885) | 2024-11-07 |   209 |    24 |      1005 |   2.49 |
+| [`tg`](https://t.me/mwscr/588)                     | 2024-11-07 |   180 |    44 |       566 |   7.77 |
+|                                                    |            |   724 |   148 |      3053 |   9.96 |
 
 #### Comments
 
@@ -6963,8 +6990,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_445)  | 2017-09-29 |   150 |    10 |        79 |  12.66 |
 | [`ig`](https://instagram.com/p/C5Y7jcKSfPS/)       | 2024-04-05 |   531 |   105 |      1406 |   7.47 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1483) | 2024-04-05 |   270 |    36 |       908 |   3.96 |
-| [`tg`](https://t.me/mwscr/369)                     | 2024-04-05 |   468 |    64 |       355 |  18.03 |
-|                                                    |            |  1269 |   205 |      2669 |  14.46 |
+| [`tg`](https://t.me/mwscr/369)                     | 2024-04-05 |   469 |    64 |       355 |  18.03 |
+|                                                    |            |  1270 |   205 |      2669 |  14.46 |
 
 #### Comments
 

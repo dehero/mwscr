@@ -308,11 +308,14 @@
 
 ### Reactions
 
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BRZ12wzjZ6R/)      | 2017-03-09 |       |    56 |       105 |  53.33 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_189) | 2017-03-09 |   135 |    11 |        44 |     11 |
-|                                                   |            |   135 |    67 |       149 |  32.17 |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BRZ12wzjZ6R/)       | 2017-03-09 |       |    56 |       105 |  53.33 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_189)  | 2017-03-09 |   135 |    11 |        44 |     11 |
+| [`ig`](https://instagram.com/p/DCKP3ratxaE/)       | 2024-11-09 |       |       |      1481 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1887) | 2024-11-09 |       |       |      1006 |        |
+| [`tg`](https://t.me/mwscr/590)                     | 2024-11-09 |       |       |       564 |        |
+|                                                    |            |   135 |    67 |       149 |  32.17 |
 
 ## <span id="2017-09-20-director-of-corprusarium">Director of Corprusarium</span>
 
