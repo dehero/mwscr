@@ -577,7 +577,7 @@
     - service: vk
       id: 1491
       published: 2024-04-12-18-14-50
-      updated: 2024-11-02-08-09-54
+      updated: 2024-11-09-09-03-27
       followers: 911
       likes: 35
       views: 268
@@ -585,7 +585,7 @@
     - service: tg
       id: 376
       published: 2024-04-12-18-15-00
-      updated: 2024-11-02-08-09-53
+      updated: 2024-11-09-09-03-25
       followers: 352
       likes: 70
       views: 463
@@ -4309,14 +4309,14 @@
     - service: vk
       id: 1545
       published: 2024-05-24-18-19-24
-      updated: 2024-11-02-08-09-53
+      updated: 2024-11-09-09-03-26
       followers: 917
       likes: 38
       views: 291
     - service: tg
       id: 418
       published: 2024-05-24-18-19-31
-      updated: 2024-11-02-08-09-52
+      updated: 2024-11-09-09-03-25
       followers: 376
       likes: 57
       views: 499
@@ -8172,25 +8172,25 @@
       id: DCFGfSvxVTc
       mediaId: '18044644421486235'
       published: 2024-11-07-18-10-28
-      updated: 2024-11-09-08-08-53
+      updated: 2024-11-09-09-03-23
       followers: 1482
-      likes: 77
-      views: 317
+      likes: 78
+      views: 319
     - service: vk
       id: 1885
       published: 2024-11-07-18-10-36
-      updated: 2024-11-09-08-08-53
+      updated: 2024-11-09-09-03-24
       followers: 1005
       likes: 24
-      views: 197
+      views: 198
       reposts: 1
     - service: tg
       id: 588
       published: 2024-11-07-18-10-45
-      updated: 2024-11-09-08-08-53
+      updated: 2024-11-09-09-03-24
       followers: 566
       likes: 44
-      views: 174
+      views: 177
 2017-08-19-surroundings-of-hlormaren:
   title: Surroundings of Hlormaren
   titleRu: В окрестностях Хлормарена
