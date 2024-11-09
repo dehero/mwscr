@@ -292,31 +292,6 @@
 - `ig` <ins title="2018-03-11-20-53-28">ludwig.gnthr</ins> The 2nd one is so luke if the force left him alone in that cage on hoth😂
 - `ig` <ins title="2018-03-11-20-54-14">ludwig.gnthr</ins> Sry not cage i ment cave😂
 
-## <span id="2017-03-09-dirty-muriels-cornerclub-under-mushrooms">Dirty Muriel&#39;s Cornerclub Under Mushrooms</span>
-
-`RU` Трактир грязной Мюриэль под грибами
-
-<a href="https://instagram.com/p/BRZ12wzjZ6R/" title="2017-03-09-dirty-muriels-cornerclub-under-mushrooms"><img alt="store:/shots/2017-03-09-dirty-muriels-cornerclub-under-mushrooms.png" src="../../assets/previews/shots/2017-03-09-dirty-muriels-cornerclub-under-mushrooms.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B1` `📍 Sadrith Mora` `🚀 OpenMW` `mushroom`
-
-```
-2017-03-09-dirty-muriels-cornerclub-under-mushrooms
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BRZ12wzjZ6R/)       | 2017-03-09 |       |    56 |       105 |  53.33 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_189)  | 2017-03-09 |   135 |    11 |        44 |     11 |
-| [`ig`](https://instagram.com/p/DCKP3ratxaE/)       | 2024-11-09 |       |       |      1481 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1887) | 2024-11-09 |       |       |      1006 |        |
-| [`tg`](https://t.me/mwscr/590)                     | 2024-11-09 |       |       |       564 |        |
-|                                                    |            |   135 |    67 |       149 |  32.17 |
-
 ## <span id="2017-09-20-director-of-corprusarium">Director of Corprusarium</span>
 
 `RU` Директор корпрусариума
@@ -1289,6 +1264,32 @@
 | [`ig`](https://instagram.com/p/BdOPZOZj_Qk/)      | 2017-12-27 |       |   101 |       262 |  38.55 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_554) | 2017-12-27 |   206 |    18 |       114 |  15.79 |
 |                                                   |            |   206 |   119 |       376 |  27.17 |
+
+## <span id="2017-10-28-caldera-north-west-road">Caldera, North-West Road</span>
+
+`RU` Кальдера, северо-западная дорога
+
+<a href="https://instagram.com/p/BazlGt3Dd6v/" title="2017-10-28-caldera-north-west-road"><img alt="store:/shots/2017-10-28-caldera-north-west-road.png" src="../../assets/previews/shots/2017-10-28-caldera-north-west-road.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Caldera` `🚀 OpenMW` `tower`
+
+```
+2017-10-28-caldera-north-west-road
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BazlGt3Dd6v/)      | 2017-10-28 |       |    97 |       226 |  42.92 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_481) | 2017-10-28 |   157 |    11 |        97 |  11.34 |
+|                                                   |            |   157 |   108 |       323 |  27.13 |
+
+#### Comments
+
+- `ig` <ins title="2017-10-28-22-27-25">turquoise_slizer</ins> Caldera is the imperial settlement off of balmora with all the cliffracers flying around it right?
 
 ---
 
