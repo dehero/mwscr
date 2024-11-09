@@ -3221,26 +3221,26 @@
     - service: vk
       id: 1886
       published: 2024-11-08-18-40-06
-      updated: 2024-11-09-11-01-20
+      updated: 2024-11-09-12-11-30
       followers: 1005
       likes: 18
-      views: 130
+      views: 132
       reposts: 1
     - service: tg
       id: 589
       published: 2024-11-08-18-40-14
-      updated: 2024-11-09-11-01-21
+      updated: 2024-11-09-12-11-30
       followers: 566
-      likes: 37
-      views: 124
+      likes: 38
+      views: 125
     - service: ig
       id: DCIGFNUyeex
       mediaId: '18064329940739266'
       published: 2024-11-08-22-04-39
-      updated: 2024-11-09-11-01-20
+      updated: 2024-11-09-12-11-30
       followers: 1481
       likes: 57
-      views: 210
+      views: 216
 2018-04-03-evening-expanse-of-ashlands:
   title: Evening Expanse of Ashlands
   titleRu: Вечерние просторы Эшленда
@@ -9615,18 +9615,18 @@
     - service: vk
       id: 1883
       published: 2024-11-06-18-11-45
-      updated: 2024-11-08-11-02-23
+      updated: 2024-11-09-12-11-33
       followers: 1004
-      likes: 26
-      views: 245
+      likes: 32
+      views: 282
       reposts: 3
     - service: tg
       id: 587
       published: 2024-11-06-18-11-51
-      updated: 2024-11-08-11-02-24
+      updated: 2024-11-09-12-11-32
       followers: 566
-      likes: 47
-      views: 179
+      likes: 48
+      views: 202
 2018-10-02-shatalg:
   title: Shatalg
   titleRu: Шаталг
