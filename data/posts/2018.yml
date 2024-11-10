@@ -172,18 +172,18 @@
     - service: vk
       id: 1876
       published: 2024-11-04-18-10-22
-      updated: 2024-11-09-20-07-27
+      updated: 2024-11-10-20-07-41
       followers: 1003
       likes: 28
-      views: 225
+      views: 231
       reposts: 1
     - service: tg
       id: 585
       published: 2024-11-04-18-10-32
-      updated: 2024-11-09-20-07-25
+      updated: 2024-11-10-20-07-41
       followers: 565
-      likes: 51
-      views: 339
+      likes: 52
+      views: 362
 2018-01-07-vistha-kai-warden-of-the-corprusarium:
   title: Vistha-Kai, Warden of the Corprusarium
   titleRu: Виста-Кай, смотритель Корпрусариума
@@ -3237,10 +3237,10 @@
       id: DCIGFNUyeex
       mediaId: '18064329940739266'
       published: 2024-11-08-22-04-39
-      updated: 2024-11-10-19-01-22
+      updated: 2024-11-10-20-07-40
       followers: 1481
       likes: 73
-      views: 319
+      views: 323
 2018-04-03-evening-expanse-of-ashlands:
   title: Evening Expanse of Ashlands
   titleRu: Вечерние просторы Эшленда
@@ -5000,18 +5000,18 @@
     - service: vk
       id: 1875
       published: 2024-11-03-18-10-30
-      updated: 2024-11-09-20-07-28
+      updated: 2024-11-10-20-07-42
       followers: 1003
       likes: 34
-      views: 266
+      views: 277
       reposts: 1
     - service: tg
       id: 584
       published: 2024-11-03-18-10-35
-      updated: 2024-11-09-20-07-25
+      updated: 2024-11-10-20-07-42
       followers: 565
-      likes: 57
-      views: 339
+      likes: 58
+      views: 366
       comments: !c |-
         CyiAk5PLQnkw+mEZAACrYmh1dmFuYXNyaWmk8J+NrZPLQnkvTUbBgACpR2F0ZW1hdGU3qDIwMTgu
         Li4/k8tCeS9MvQ+AAKh3aWx6dXVsbKTwn6eQAw==
@@ -11669,24 +11669,24 @@
       id: DCM0tU8xA_o
       mediaId: '17944080932877274'
       published: 2024-11-10-18-09-03
-      updated: 2024-11-10-19-01-19
+      updated: 2024-11-10-20-07-38
       followers: 1481
-      likes: 19
-      views: 37
+      likes: 37
+      views: 98
     - service: vk
       id: 1888
       published: 2024-11-10-18-09-11
-      updated: 2024-11-10-19-01-20
+      updated: 2024-11-10-20-07-37
       followers: 1006
-      likes: 11
-      views: 45
+      likes: 12
+      views: 65
     - service: tg
       id: 591
       published: 2024-11-10-18-10-13
-      updated: 2024-11-10-19-01-20
+      updated: 2024-11-10-20-07-38
       followers: 564
-      likes: 17
-      views: 62
+      likes: 26
+      views: 82
 2018-11-23-flooded-door:
   title: Flooded Door
   titleRu: Затопленная дверь
