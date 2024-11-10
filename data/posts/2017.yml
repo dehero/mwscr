@@ -2213,7 +2213,7 @@
     - service: vk
       id: 1454
       published: 2024-03-16-18-10-42
-      updated: 2024-11-03-15-02-26
+      updated: 2024-11-10-16-07-22
       followers: 896
       likes: 37
       views: 293
@@ -2221,7 +2221,7 @@
     - service: tg
       id: 348
       published: 2024-03-16-18-10-49
-      updated: 2024-11-03-15-02-24
+      updated: 2024-11-10-16-07-20
       followers: 353
       likes: 55
       views: 444
@@ -2514,24 +2514,24 @@
       id: DCKP3ratxaE
       mediaId: '18126035284387132'
       published: 2024-11-09-18-08-40
-      updated: 2024-11-10-15-01-50
+      updated: 2024-11-10-16-07-15
       followers: 1481
-      likes: 110
-      views: 397
+      likes: 112
+      views: 405
     - service: vk
       id: 1887
       published: 2024-11-09-18-08-47
-      updated: 2024-11-10-15-01-49
+      updated: 2024-11-10-16-07-15
       followers: 1006
       likes: 34
-      views: 176
+      views: 177
     - service: tg
       id: 590
       published: 2024-11-09-18-09-56
-      updated: 2024-11-10-15-01-51
+      updated: 2024-11-10-16-07-15
       followers: 564
       likes: 45
-      views: 131
+      views: 132
 2017-03-10-aldruhn-guild-of-mages:
   title: Ald'ruhn, Guild of Mages
   titleRu: Альд'рун, Гильдия Магов
@@ -8638,7 +8638,7 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2024-11-03-15-02-22
+      updated: 2024-11-10-16-07-17
       followers: 915
       likes: 41
       views: 285

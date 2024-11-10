@@ -293,7 +293,7 @@
     - service: vk
       id: 1441
       published: 2024-03-09-18-16-27
-      updated: 2024-11-03-15-02-28
+      updated: 2024-11-10-16-07-23
       followers: 893
       likes: 35
       views: 269
@@ -301,10 +301,10 @@
     - service: tg
       id: 340
       published: 2024-03-09-18-16-33
-      updated: 2024-11-03-15-02-24
+      updated: 2024-11-10-16-07-21
       followers: 347
       likes: 63
-      views: 539
+      views: 540
       comments: !c |-
         G5sAAGT+r/nBD+S89PR6o72BXkTQ3sBaM7FBp60HstDJiR6M/1sLKLIc25I8t7GzVClHQa9vp3ul
         86IMXepgVRJixRFihdgbdxT/G1hR1GGv+A2AmZNFUvhGCuRw7EYMGy5crZSUg6zoSuiRXhI3yYxk
@@ -621,7 +621,7 @@
     - service: vk
       id: 1465
       published: 2024-03-23-18-10-09
-      updated: 2024-11-03-15-02-26
+      updated: 2024-11-10-16-07-21
       followers: 897
       likes: 38
       views: 318
@@ -633,7 +633,7 @@
     - service: tg
       id: 355
       published: 2024-03-23-18-10-16
-      updated: 2024-11-03-15-02-23
+      updated: 2024-11-10-16-07-19
       followers: 352
       likes: 61
       views: 457
@@ -921,7 +921,7 @@
     - service: vk
       id: 1484
       published: 2024-04-06-18-16-53
-      updated: 2024-11-03-15-02-24
+      updated: 2024-11-10-16-07-20
       followers: 909
       likes: 47
       views: 303
@@ -929,7 +929,7 @@
     - service: tg
       id: 370
       published: 2024-04-06-18-17-00
-      updated: 2024-11-03-15-02-22
+      updated: 2024-11-10-16-07-19
       followers: 354
       likes: 68
       views: 449
@@ -1127,7 +1127,7 @@
     - service: vk
       id: 1492
       published: 2024-04-13-18-15-50
-      updated: 2024-11-03-15-02-23
+      updated: 2024-11-10-16-07-19
       followers: 911
       likes: 36
       views: 284
@@ -1137,7 +1137,7 @@
     - service: tg
       id: 377
       published: 2024-04-13-18-15-57
-      updated: 2024-11-03-15-02-21
+      updated: 2024-11-10-16-07-18
       followers: 351
       likes: 64
       views: 445
@@ -1265,7 +1265,7 @@
     - service: vk
       id: 1502
       published: 2024-04-20-18-17-56
-      updated: 2024-11-03-15-02-22
+      updated: 2024-11-10-16-07-18
       followers: 909
       likes: 31
       views: 295
@@ -1273,7 +1273,7 @@
     - service: tg
       id: 384
       published: 2024-04-20-18-18-05
-      updated: 2024-11-03-15-02-21
+      updated: 2024-11-10-16-07-17
       followers: 354
       likes: 59
       views: 444
