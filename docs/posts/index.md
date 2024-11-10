@@ -4,7 +4,39 @@
 
 # Posted in 2024
 
-`257 items`
+`258 items`
+
+## <span id="2024-11-10-three-trees-by-the-road">Three Trees by the Road</span>
+
+`RU` Три дерева у дороги
+
+<a href="https://instagram.com/p/BqgqWdmhmZs/" title="2018-11-22-three-trees-by-the-road"><img alt="store:/shots/2018-11-22-three-trees-by-the-road.png" src="../../assets/previews/shots/2018-11-22-three-trees-by-the-road.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Grazelands Region` `🚀 OpenMW` `tree`
+
+```
+2024-11-10-three-trees-by-the-road
+```
+
+> `2018-11-22-three-trees-by-the-road`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1071) | 2018-11-22 |   997 |    37 |       287 |  12.89 |
+| [`tg`](https://t.me/mwscr/126)                     | 2018-11-22 |   375 |     3 |           |        |
+| [`ig`](https://instagram.com/p/BqgqWdmhmZs/)       | 2018-11-23 |       |   107 |       477 |  22.43 |
+| [`ig`](https://instagram.com/p/DCM0tU8xA_o/)       | 2024-11-10 |       |       |      1481 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1888) | 2024-11-10 |       |       |      1006 |        |
+| [`tg`](https://t.me/mwscr/591)                     | 2024-11-10 |       |       |       564 |        |
+|                                                    |            |       |       |      3051 |  17.66 |
+
+#### Comments
+
+- `ig` <ins title="2018-11-23-05-20-19">skinsbydecalkings</ins> That&#39;s so cool😊 I like it
 
 ## <span id="2024-11-09-dirty-muriels-cornerclub-under-mushrooms">Dirty Muriel&#39;s Cornerclub Under Mushrooms</span>
 
@@ -28,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRZ12wzjZ6R/)       | 2017-03-09 |       |    56 |       105 |  53.33 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_189)  | 2017-03-09 |   135 |    11 |        44 |     11 |
-| [`ig`](https://instagram.com/p/DCKP3ratxaE/)       | 2024-11-09 |   409 |   116 |      1481 |   7.83 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1887) | 2024-11-09 |   181 |    34 |      1006 |   3.38 |
-| [`tg`](https://t.me/mwscr/590)                     | 2024-11-09 |   134 |    45 |       564 |   7.98 |
-|                                                    |            |   724 |   195 |      3051 |   16.7 |
+| [`ig`](https://instagram.com/p/DCKP3ratxaE/)       | 2024-11-09 |   421 |   117 |      1481 |    7.9 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1887) | 2024-11-09 |   186 |    35 |      1006 |   3.48 |
+| [`tg`](https://t.me/mwscr/590)                     | 2024-11-09 |   137 |    45 |       564 |   7.98 |
+|                                                    |            |   744 |   197 |      3051 |  16.74 |
 
 ## <span id="2024-11-08-arboreal-obelisks">Arboreal Obelisks</span>
 
@@ -55,10 +87,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BhE_xFsjxX8/)       | 2018-04-02 |       |   121 |       311 |  38.91 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_674)  | 2018-04-02 |   211 |    14 |       147 |   10.2 |
-| [`ig`](https://instagram.com/p/DCIGFNUyeex/)       | 2024-11-08 |   317 |    73 |      1481 |   4.93 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1886) | 2024-11-08 |   173 |    23 |      1005 |   2.39 |
-| [`tg`](https://t.me/mwscr/589)                     | 2024-11-08 |   182 |    47 |       566 |    8.3 |
-|                                                    |            |   672 |   143 |      3052 |  12.95 |
+| [`ig`](https://instagram.com/p/DCIGFNUyeex/)       | 2024-11-08 |   318 |    73 |      1481 |   4.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1886) | 2024-11-08 |   174 |    23 |      1005 |   2.39 |
+| [`tg`](https://t.me/mwscr/589)                     | 2024-11-08 |   183 |    47 |       566 |    8.3 |
+|                                                    |            |   675 |   143 |      3052 |  12.95 |
 
 ## <span id="2024-11-07-captain-bedrir">Captain Bedrir</span>
 
@@ -82,10 +114,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BX7p1LoDl2y/)       | 2017-08-18 |       |    53 |       193 |  27.46 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_397)  | 2017-08-18 |   112 |     5 |        75 |   6.67 |
-| [`ig`](https://instagram.com/p/DCFGfSvxVTc/)       | 2024-11-07 |   335 |    80 |      1482 |    5.4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1885) | 2024-11-07 |   209 |    24 |      1005 |   2.49 |
-| [`tg`](https://t.me/mwscr/588)                     | 2024-11-07 |   180 |    44 |       566 |   7.77 |
-|                                                    |            |   724 |   148 |      3053 |   9.96 |
+| [`ig`](https://instagram.com/p/DCFGfSvxVTc/)       | 2024-11-07 |   359 |    84 |      1482 |   5.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1885) | 2024-11-07 |   225 |    24 |      1005 |   2.49 |
+| [`tg`](https://t.me/mwscr/588)                     | 2024-11-07 |   198 |    45 |       566 |   7.95 |
+|                                                    |            |   782 |   153 |      3053 |  10.05 |
 
 #### Comments
 
