@@ -1909,7 +1909,7 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-11-03-08-09-22
+      updated: 2024-11-10-09-07-09
       followers: 916
       likes: 53
       views: 423
@@ -1917,10 +1917,10 @@
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-11-03-08-09-22
+      updated: 2024-11-10-09-07-09
       followers: 386
       likes: 71
-      views: 532
+      views: 533
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -2514,24 +2514,24 @@
       id: DCKP3ratxaE
       mediaId: '18126035284387132'
       published: 2024-11-09-18-08-40
-      updated: 2024-11-10-08-08-56
+      updated: 2024-11-10-09-07-02
       followers: 1481
       likes: 96
-      views: 349
+      views: 355
     - service: vk
       id: 1887
       published: 2024-11-09-18-08-47
-      updated: 2024-11-10-08-08-57
+      updated: 2024-11-10-09-07-02
       followers: 1006
       likes: 30
-      views: 143
+      views: 148
     - service: tg
       id: 590
       published: 2024-11-09-18-09-56
-      updated: 2024-11-10-08-08-56
+      updated: 2024-11-10-09-07-03
       followers: 564
-      likes: 40
-      views: 119
+      likes: 43
+      views: 125
 2017-03-10-aldruhn-guild-of-mages:
   title: Ald'ruhn, Guild of Mages
   titleRu: Альд'рун, Гильдия Магов
@@ -6087,17 +6087,17 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2024-11-03-08-09-21
+      updated: 2024-11-10-09-07-08
       followers: 920
       likes: 38
       views: 290
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2024-11-03-08-09-21
+      updated: 2024-11-10-09-07-08
       followers: 387
       likes: 60
-      views: 482
+      views: 484
 2017-06-18-manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
@@ -12131,7 +12131,7 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-11-03-08-09-19
+      updated: 2024-11-10-09-07-06
       followers: 919
       likes: 50
       views: 290
@@ -12148,10 +12148,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-11-03-08-09-19
+      updated: 2024-11-10-09-07-06
       followers: 393
       likes: 59
-      views: 470
+      views: 471
     - service: ig
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
