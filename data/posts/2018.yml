@@ -2102,7 +2102,7 @@
     - service: tg
       id: 385
       published: 2024-04-21-18-17-47
-      updated: 2024-11-04-09-09-21
+      updated: 2024-11-11-10-08-37
       followers: 354
       likes: 64
       views: 461
@@ -3103,7 +3103,7 @@
       id: C_BbGpzuG4v
       mediaId: '17923658099841263'
       published: 2024-08-23-18-19-28
-      updated: 2024-11-04-09-09-21
+      updated: 2024-11-11-10-08-38
       followers: 1457
       likes: 74
       views: 325
@@ -8542,7 +8542,7 @@
       id: C_Gkjg6Nfuj
       mediaId: '17929160141924204'
       published: 2024-08-25-18-18-13
-      updated: 2024-11-04-09-09-20
+      updated: 2024-11-11-10-08-36
       followers: 1455
       likes: 99
       views: 407
@@ -11669,24 +11669,24 @@
       id: DCM0tU8xA_o
       mediaId: '17944080932877274'
       published: 2024-11-10-18-09-03
-      updated: 2024-11-11-09-08-51
+      updated: 2024-11-11-10-08-33
       followers: 1481
-      likes: 71
-      views: 262
+      likes: 72
+      views: 266
     - service: vk
       id: 1888
       published: 2024-11-10-18-09-11
-      updated: 2024-11-11-09-08-51
+      updated: 2024-11-11-10-08-33
       followers: 1006
-      likes: 29
-      views: 152
+      likes: 30
+      views: 158
     - service: tg
       id: 591
       published: 2024-11-10-18-10-13
-      updated: 2024-11-11-09-08-51
+      updated: 2024-11-11-10-08-34
       followers: 564
-      likes: 40
-      views: 208
+      likes: 41
+      views: 212
 2018-11-23-flooded-door:
   title: Flooded Door
   titleRu: Затопленная дверь
