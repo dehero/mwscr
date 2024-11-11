@@ -3221,18 +3221,18 @@
     - service: vk
       id: 1886
       published: 2024-11-08-18-40-06
-      updated: 2024-11-10-18-08-46
+      updated: 2024-11-11-18-09-41
       followers: 1005
-      likes: 23
-      views: 174
+      likes: 25
+      views: 195
       reposts: 1
     - service: tg
       id: 589
       published: 2024-11-08-18-40-14
-      updated: 2024-11-10-18-08-46
+      updated: 2024-11-11-18-09-42
       followers: 566
-      likes: 47
-      views: 183
+      likes: 50
+      views: 200
     - service: ig
       id: DCIGFNUyeex
       mediaId: '18064329940739266'
@@ -11669,24 +11669,24 @@
       id: DCM0tU8xA_o
       mediaId: '17944080932877274'
       published: 2024-11-10-18-09-03
-      updated: 2024-11-11-17-01-16
+      updated: 2024-11-11-18-09-39
       followers: 1481
-      likes: 75
-      views: 296
+      likes: 76
+      views: 307
     - service: vk
       id: 1888
       published: 2024-11-10-18-09-11
-      updated: 2024-11-11-17-01-15
+      updated: 2024-11-11-18-09-40
       followers: 1006
-      likes: 31
-      views: 174
+      likes: 32
+      views: 176
     - service: tg
       id: 591
       published: 2024-11-10-18-10-13
-      updated: 2024-11-11-17-01-15
+      updated: 2024-11-11-18-09-40
       followers: 564
-      likes: 43
-      views: 224
+      likes: 44
+      views: 226
 2018-11-23-flooded-door:
   title: Flooded Door
   titleRu: Затопленная дверь

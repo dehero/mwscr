@@ -4,7 +4,50 @@
 
 # Posted in 2024
 
-`258 items`
+`259 items`
+
+## <span id="2024-11-11-saber-and-heart">Saber and Heart</span>
+
+`RU` Сабля и сердце
+
+<a href="https://instagram.com/p/B3POWyCBJUd/" title="2019-10-05-saber-and-heart"><img alt="store:/shots/2019-10-05-saber-and-heart.png" src="../../assets/previews/shots/2019-10-05-saber-and-heart.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-11-11-saber-and-heart&postLocation=)</code> `🚀 OpenMW` `saber` `heart`
+
+```
+2024-11-11-saber-and-heart
+```
+
+> `2019-10-05-saber-and-heart`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/B3POWyCBJUd/)       | 2019-10-05 |       |   204 |       823 |  24.79 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1181) | 2019-10-05 |   654 |    36 |       362 |   9.94 |
+| [`tg`](https://t.me/mwscr/189)                     | 2019-10-05 |   615 |     2 |           |        |
+| [`ig`](https://instagram.com/p/DCPZm-ZNGFH/)       | 2024-11-11 |       |       |      1484 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1890) | 2024-11-11 |       |       |      1006 |        |
+| [`tg`](https://t.me/mwscr/592)                     | 2024-11-11 |       |       |       564 |        |
+|                                                    |            |       |       |      3054 |  17.37 |
+
+#### Comments
+
+- `ig` <ins title="2019-10-05-17-59-50">delanospies</ins> I always likes the saber as starting weapon
+  - <ins title="2019-10-05-21-34-20">dravenjv</ins> the iron saber from Arille&#39;s tradehouse was always my first weapon too 😀
+  - <ins title="2019-10-05-21-34-49">delanospies</ins> @dravenjv You got it, brother!
+  - <ins title="2019-10-05-21-44-00">delanospies</ins> @dravenjv did you also clear out the dungeon (Addamasartus?) behind the silt strider after getting the tax money mini quest? 😂
+  - <ins title="2019-10-06-06-31-40">dravenjv</ins> haha for sure - I do seyda neen in this order... pick up the  limeware platter in the census and excise office (but dont put it in my inventory) to clear its ownership ... then take it... take all of the silverware in the next room - as well as ALL junk... give fargoth his ring - go pick up the scrolls of icarian flight - go sell the junk to Arille one piece at a time so that his disposition goes up by one every time - then when he&#39;s at 100% sell the scrolls, limeware and silverware - then go find the tax body and get the tax money - kill the dude who killed him - drop ALL of my money on the floor before finishing the quest (so that I can keep all of it) then go and get the fargoth mission - spy on that little fool and take all of his stuff from the stump without giving anything to the nord bully... I leave seyda neen a very rich level one character 😂
+  - <ins title="2019-10-06-06-32-41">dravenjv</ins> @dravenjv oh sorry ... THEN I do the dungeon next to the silt strider lol
+  - <ins title="2019-10-06-10-54-34">delanospies</ins> @dravenjv every game (character I made) started with this lol. Are you aware of the hidden gold, silver can and battleaxe in Seyda Neen and the gold off the coast to the nortwest?
+  - <ins title="2019-10-06-11-00-13">dravenjv</ins> haha I dont think so!
+  - <ins title="2019-10-06-11-03-56">delanospies</ins> @dravenjv You still play? Worth it to check it out!
+  - <ins title="2019-10-06-11-08-51">dravenjv</ins> back on Skyrim for the moment but it probably wont be too long before I get back to morrowind 😂 - have you seen anything of the skywind project?
+  - <ins title="2019-10-06-11-11-51">delanospies</ins> @dravenjv Very cool, let me know if you play some Morrowind! I still play Skyrim too its so nice. Yeah I have, pretty massive and ambitious!
+  - <ins title="2019-10-06-11-16-48">dravenjv</ins> I&#39;m following their discord - its really cool to see the progress that they make :)
 
 ## <span id="2024-11-10-three-trees-by-the-road">Three Trees by the Road</span>
 
@@ -29,10 +72,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1071) | 2018-11-22 |   997 |    37 |       287 |  12.89 |
 | [`tg`](https://t.me/mwscr/126)                     | 2018-11-22 |   375 |     3 |           |        |
 | [`ig`](https://instagram.com/p/BqgqWdmhmZs/)       | 2018-11-23 |       |   107 |       477 |  22.43 |
-| [`ig`](https://instagram.com/p/DCM0tU8xA_o/)       | 2024-11-10 |   296 |    75 |      1481 |   5.06 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1888) | 2024-11-10 |   174 |    31 |      1006 |   3.08 |
-| [`tg`](https://t.me/mwscr/591)                     | 2024-11-10 |   224 |    43 |       564 |   7.62 |
-|                                                    |            |   694 |   149 |      3051 |  10.22 |
+| [`ig`](https://instagram.com/p/DCM0tU8xA_o/)       | 2024-11-10 |   307 |    76 |      1481 |   5.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1888) | 2024-11-10 |   176 |    32 |      1006 |   3.18 |
+| [`tg`](https://t.me/mwscr/591)                     | 2024-11-10 |   226 |    44 |       564 |    7.8 |
+|                                                    |            |   709 |   152 |      3051 |  10.29 |
 
 #### Comments
 
@@ -92,9 +135,9 @@
 | [`ig`](https://instagram.com/p/BhE_xFsjxX8/)       | 2018-04-02 |       |   121 |       311 |  38.91 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_674)  | 2018-04-02 |   211 |    14 |       147 |   10.2 |
 | [`ig`](https://instagram.com/p/DCIGFNUyeex/)       | 2024-11-08 |   323 |    73 |      1481 |   4.93 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1886) | 2024-11-08 |   174 |    23 |      1005 |   2.39 |
-| [`tg`](https://t.me/mwscr/589)                     | 2024-11-08 |   183 |    47 |       566 |    8.3 |
-|                                                    |            |   680 |   143 |      3052 |  12.95 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1886) | 2024-11-08 |   195 |    25 |      1005 |   2.59 |
+| [`tg`](https://t.me/mwscr/589)                     | 2024-11-08 |   200 |    50 |       566 |   8.83 |
+|                                                    |            |   718 |   148 |      3052 |  13.09 |
 
 ## <span id="2024-11-07-captain-bedrir">Captain Bedrir</span>
 
@@ -118,10 +161,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BX7p1LoDl2y/)       | 2017-08-18 |       |    53 |       193 |  27.46 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_397)  | 2017-08-18 |   112 |     5 |        75 |   6.67 |
-| [`ig`](https://instagram.com/p/DCFGfSvxVTc/)       | 2024-11-07 |   359 |    84 |      1482 |   5.67 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1885) | 2024-11-07 |   225 |    24 |      1005 |   2.49 |
-| [`tg`](https://t.me/mwscr/588)                     | 2024-11-07 |   198 |    45 |       566 |   7.95 |
-|                                                    |            |   782 |   153 |      3053 |  10.05 |
+| [`ig`](https://instagram.com/p/DCFGfSvxVTc/)       | 2024-11-07 |   367 |    84 |      1482 |   5.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1885) | 2024-11-07 |   240 |    27 |      1005 |   2.79 |
+| [`tg`](https://t.me/mwscr/588)                     | 2024-11-07 |   314 |    48 |       566 |   8.48 |
+|                                                    |            |   921 |   159 |      3053 |  10.21 |
 
 #### Comments
 
