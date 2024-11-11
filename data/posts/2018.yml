@@ -2090,7 +2090,7 @@
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
-      updated: 2024-11-04-11-08-07
+      updated: 2024-11-11-12-13-58
       followers: 909
       likes: 46
       views: 307
@@ -9615,18 +9615,18 @@
     - service: vk
       id: 1883
       published: 2024-11-06-18-11-45
-      updated: 2024-11-10-12-11-55
+      updated: 2024-11-11-12-13-57
       followers: 1004
-      likes: 33
-      views: 302
+      likes: 34
+      views: 318
       reposts: 3
     - service: tg
       id: 587
       published: 2024-11-06-18-11-51
-      updated: 2024-11-10-12-11-54
+      updated: 2024-11-11-12-13-57
       followers: 566
-      likes: 50
-      views: 229
+      likes: 52
+      views: 329
 2018-10-02-shatalg:
   title: Shatalg
   titleRu: Шаталг
@@ -10064,9 +10064,9 @@
       id: C-vZmm-zwsc
       mediaId: '18022081085131254'
       published: 2024-08-16-18-20-02
-      updated: 2024-11-04-11-08-08
+      updated: 2024-11-11-12-14-01
       followers: 1440
-      likes: 149
+      likes: 148
       views: 483
       comments: !c ixaAkZPLQnkVzUHngACsZWFzdGNvYXN0X2xntUZhdm91cml0ZSBzbyBmYXIg8J+RjwM=
     - service: vk
@@ -11669,24 +11669,24 @@
       id: DCM0tU8xA_o
       mediaId: '17944080932877274'
       published: 2024-11-10-18-09-03
-      updated: 2024-11-11-11-01-12
+      updated: 2024-11-11-12-13-56
       followers: 1481
-      likes: 72
-      views: 270
+      likes: 73
+      views: 278
     - service: vk
       id: 1888
       published: 2024-11-10-18-09-11
-      updated: 2024-11-11-11-01-11
+      updated: 2024-11-11-12-13-55
       followers: 1006
       likes: 30
-      views: 162
+      views: 165
     - service: tg
       id: 591
       published: 2024-11-10-18-10-13
-      updated: 2024-11-11-11-01-11
+      updated: 2024-11-11-12-13-56
       followers: 564
-      likes: 41
-      views: 212
+      likes: 42
+      views: 214
 2018-11-23-flooded-door:
   title: Flooded Door
   titleRu: Затопленная дверь
