@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/B3POWyCBJUd/)       | 2019-10-05 |       |   204 |       823 |  24.79 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1181) | 2019-10-05 |   654 |    36 |       362 |   9.94 |
 | [`tg`](https://t.me/mwscr/189)                     | 2019-10-05 |   615 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DCPZm-ZNGFH/)       | 2024-11-11 |    32 |    26 |      1484 |   1.75 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1890) | 2024-11-11 |    38 |     6 |      1006 |    0.6 |
-| [`tg`](https://t.me/mwscr/592)                     | 2024-11-11 |    58 |    24 |       564 |   4.26 |
-|                                                    |            |   128 |    56 |      3054 |   8.27 |
+| [`ig`](https://instagram.com/p/DCPZm-ZNGFH/)       | 2024-11-11 |   118 |    39 |      1484 |   2.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1890) | 2024-11-11 |    69 |    10 |      1006 |   0.99 |
+| [`tg`](https://t.me/mwscr/592)                     | 2024-11-11 |   103 |    32 |       564 |   5.67 |
+|                                                    |            |   290 |    81 |      3054 |   8.81 |
 
 #### Comments
 
@@ -72,10 +72,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1071) | 2018-11-22 |   997 |    37 |       287 |  12.89 |
 | [`tg`](https://t.me/mwscr/126)                     | 2018-11-22 |   375 |     3 |           |        |
 | [`ig`](https://instagram.com/p/BqgqWdmhmZs/)       | 2018-11-23 |       |   107 |       477 |  22.43 |
-| [`ig`](https://instagram.com/p/DCM0tU8xA_o/)       | 2024-11-10 |   310 |    76 |      1481 |   5.13 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1888) | 2024-11-10 |   177 |    32 |      1006 |   3.18 |
-| [`tg`](https://t.me/mwscr/591)                     | 2024-11-10 |   236 |    47 |       564 |   8.33 |
-|                                                    |            |   723 |   155 |      3051 |  10.39 |
+| [`ig`](https://instagram.com/p/DCM0tU8xA_o/)       | 2024-11-10 |   313 |    76 |      1481 |   5.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1888) | 2024-11-10 |   181 |    32 |      1006 |   3.18 |
+| [`tg`](https://t.me/mwscr/591)                     | 2024-11-10 |   239 |    47 |       564 |   8.33 |
+|                                                    |            |   733 |   155 |      3051 |  10.39 |
 
 #### Comments
 
@@ -221,9 +221,9 @@
 | [`ig`](https://instagram.com/p/BXz1sXkjhrD/)       | 2017-08-15 |       |    76 |       192 |  39.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_393)  | 2017-08-15 |   111 |     5 |        74 |   6.76 |
 | [`ig`](https://instagram.com/p/DB_85YtvD53/)       | 2024-11-05 |   464 |   100 |      1483 |   6.74 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1879) | 2024-11-05 |   287 |    27 |      1003 |   2.89 |
-| [`tg`](https://t.me/mwscr/586)                     | 2024-11-05 |   330 |    59 |       566 |  10.42 |
-|                                                    |            |  1081 |   186 |      3052 |  13.28 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1879) | 2024-11-05 |   297 |    28 |      1003 |   2.99 |
+| [`tg`](https://t.me/mwscr/586)                     | 2024-11-05 |   341 |    59 |       566 |  10.42 |
+|                                                    |            |  1102 |   187 |      3052 |   13.3 |
 
 #### Comments
 
@@ -256,9 +256,9 @@
 | [`ig`](https://instagram.com/p/BdnZLKVjOV9/)       | 2018-01-06 |       |    70 |       272 |  25.74 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_569)  | 2018-01-06 |   186 |    14 |       118 |  11.86 |
 | [`ig`](https://instagram.com/p/DB9YEuYxTJW/)       | 2024-11-04 |   360 |    84 |      1482 |   5.67 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1876) | 2024-11-04 |   231 |    28 |      1003 |   2.89 |
-| [`tg`](https://t.me/mwscr/585)                     | 2024-11-04 |   362 |    52 |       565 |    9.2 |
-|                                                    |            |   953 |   164 |      3050 |  11.07 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1876) | 2024-11-04 |   240 |    28 |      1003 |   2.89 |
+| [`tg`](https://t.me/mwscr/585)                     | 2024-11-04 |   391 |    52 |       565 |    9.2 |
+|                                                    |            |   991 |   164 |      3050 |  11.07 |
 
 ## <span id="2024-11-03-keep-calm-and-wait-for-nerevarine">Keep Calm and Wait for Nerevarine</span>
 
