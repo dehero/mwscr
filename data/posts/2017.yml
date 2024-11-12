@@ -2531,10 +2531,10 @@
     - service: tg
       id: 590
       published: 2024-11-09-18-09-56
-      updated: 2024-11-11-18-09-41
+      updated: 2024-11-12-18-09-56
       followers: 564
-      likes: 53
-      views: 270
+      likes: 57
+      views: 298
 2017-03-10-aldruhn-guild-of-mages:
   title: Ald'ruhn, Guild of Mages
   titleRu: Альд'рун, Гильдия Магов
@@ -5308,6 +5308,19 @@
       followers: 56
       likes: 6
       views: 202
+    - service: ig
+      id: DCR-bgrJj0d
+      mediaId: '18044735870490894'
+      published: 2024-11-12-18-10-10
+      followers: 1484
+    - service: vk
+      id: 1891
+      published: 2024-11-12-18-10-16
+      followers: 1006
+    - service: tg
+      id: 593
+      published: 2024-11-12-18-10-24
+      followers: 564
 2017-05-24-near-the-ancient-dwelling:
   title: Near the Ancient Dwelling
   titleRu: У древнего жилища
@@ -8198,25 +8211,25 @@
       id: DCFGfSvxVTc
       mediaId: '18044644421486235'
       published: 2024-11-07-18-10-28
-      updated: 2024-11-11-18-09-40
+      updated: 2024-11-12-18-09-55
       followers: 1482
       likes: 84
-      views: 367
+      views: 375
     - service: vk
       id: 1885
       published: 2024-11-07-18-10-36
-      updated: 2024-11-11-18-09-43
+      updated: 2024-11-12-18-09-57
       followers: 1005
       likes: 27
-      views: 240
+      views: 248
       reposts: 1
     - service: tg
       id: 588
       published: 2024-11-07-18-10-45
-      updated: 2024-11-11-18-09-43
+      updated: 2024-11-12-18-09-57
       followers: 566
-      likes: 48
-      views: 314
+      likes: 49
+      views: 339
 2017-08-19-surroundings-of-hlormaren:
   title: Surroundings of Hlormaren
   titleRu: В окрестностях Хлормарена
