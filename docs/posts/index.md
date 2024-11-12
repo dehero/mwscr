@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/B3POWyCBJUd/)       | 2019-10-05 |       |   204 |       823 |  24.79 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1181) | 2019-10-05 |   654 |    36 |       362 |   9.94 |
 | [`tg`](https://t.me/mwscr/189)                     | 2019-10-05 |   615 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DCPZm-ZNGFH/)       | 2024-11-11 |   447 |    97 |      1484 |   6.54 |
+| [`ig`](https://instagram.com/p/DCPZm-ZNGFH/)       | 2024-11-11 |   456 |    98 |      1484 |    6.6 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1890) | 2024-11-11 |   174 |    25 |      1006 |   2.49 |
 | [`tg`](https://t.me/mwscr/592)                     | 2024-11-11 |   173 |    48 |       564 |   8.51 |
-|                                                    |            |   794 |   170 |      3054 |  10.45 |
+|                                                    |            |   803 |   171 |      3054 |  10.47 |
 
 #### Comments
 
@@ -72,10 +72,10 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1071) | 2018-11-22 |   997 |    37 |       287 |  12.89 |
 | [`tg`](https://t.me/mwscr/126)                     | 2018-11-22 |   375 |     3 |           |        |
 | [`ig`](https://instagram.com/p/BqgqWdmhmZs/)       | 2018-11-23 |       |   107 |       477 |  22.43 |
-| [`ig`](https://instagram.com/p/DCM0tU8xA_o/)       | 2024-11-10 |   335 |    80 |      1481 |    5.4 |
+| [`ig`](https://instagram.com/p/DCM0tU8xA_o/)       | 2024-11-10 |   338 |    80 |      1481 |    5.4 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1888) | 2024-11-10 |   190 |    32 |      1006 |   3.18 |
 | [`tg`](https://t.me/mwscr/591)                     | 2024-11-10 |   265 |    49 |       564 |   8.69 |
-|                                                    |            |   790 |   161 |      3051 |  10.52 |
+|                                                    |            |   793 |   161 |      3051 |  10.52 |
 
 #### Comments
 
