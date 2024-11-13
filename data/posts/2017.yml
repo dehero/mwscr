@@ -1317,15 +1317,15 @@
     - service: vk
       id: 1598
       published: 2024-06-25-18-21-05
-      updated: 2024-11-06-06-11-04
+      updated: 2024-11-13-07-07-46
       followers: 917
       likes: 44
-      views: 317
+      views: 318
       reposts: 2
     - service: tg
       id: 450
       published: 2024-06-25-18-21-11
-      updated: 2024-11-06-06-11-00
+      updated: 2024-11-13-07-07-43
       followers: 388
       likes: 64
       views: 562
@@ -4754,7 +4754,7 @@
     - service: vk
       id: 1639
       published: 2024-07-16-18-20-48
-      updated: 2024-11-06-06-11-01
+      updated: 2024-11-13-07-07-43
       followers: 919
       likes: 28
       views: 257
@@ -5312,24 +5312,24 @@
       id: DCR-bgrJj0d
       mediaId: '18044735870490894'
       published: 2024-11-12-18-10-10
-      updated: 2024-11-13-06-10-53
+      updated: 2024-11-13-07-07-41
       followers: 1484
-      likes: 49
-      views: 190
+      likes: 51
+      views: 192
     - service: vk
       id: 1891
       published: 2024-11-12-18-10-16
-      updated: 2024-11-13-06-10-53
+      updated: 2024-11-13-07-07-41
       followers: 1006
-      likes: 18
-      views: 126
+      likes: 19
+      views: 136
     - service: tg
       id: 593
       published: 2024-11-12-18-10-24
-      updated: 2024-11-13-06-10-53
+      updated: 2024-11-13-07-07-41
       followers: 564
-      likes: 38
-      views: 125
+      likes: 40
+      views: 130
 2017-05-24-near-the-ancient-dwelling:
   title: Near the Ancient Dwelling
   titleRu: У древнего жилища
@@ -8439,14 +8439,14 @@
     - service: vk
       id: 1587
       published: 2024-06-18-18-20-59
-      updated: 2024-11-06-06-11-04
+      updated: 2024-11-13-07-07-47
       followers: 917
       likes: 37
       views: 269
     - service: tg
       id: 443
       published: 2024-06-18-18-21-06
-      updated: 2024-11-06-06-11-00
+      updated: 2024-11-13-07-07-44
       followers: 385
       likes: 56
       views: 464
