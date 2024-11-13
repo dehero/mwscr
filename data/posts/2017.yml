@@ -160,7 +160,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2024-11-06-14-07-29
+      updated: 2024-11-13-14-07-47
       followers: 894
       likes: 47
       views: 366
@@ -169,7 +169,7 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2024-11-06-14-07-28
+      updated: 2024-11-13-14-07-47
       followers: 337
       likes: 91
       views: 609
@@ -5312,24 +5312,24 @@
       id: DCR-bgrJj0d
       mediaId: '18044735870490894'
       published: 2024-11-12-18-10-10
-      updated: 2024-11-13-13-16-00
+      updated: 2024-11-13-14-07-40
       followers: 1484
-      likes: 53
-      views: 224
+      likes: 54
+      views: 228
     - service: vk
       id: 1891
       published: 2024-11-12-18-10-16
-      updated: 2024-11-13-13-16-01
+      updated: 2024-11-13-14-07-40
       followers: 1006
       likes: 20
-      views: 152
+      views: 153
     - service: tg
       id: 593
       published: 2024-11-12-18-10-24
-      updated: 2024-11-13-13-16-01
+      updated: 2024-11-13-14-07-40
       followers: 564
-      likes: 42
-      views: 144
+      likes: 43
+      views: 145
 2017-05-24-near-the-ancient-dwelling:
   title: Near the Ancient Dwelling
   titleRu: У древнего жилища
@@ -10197,7 +10197,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2024-11-06-14-07-26
+      updated: 2024-11-13-14-07-44
       followers: 904
       likes: 44
       views: 295
@@ -10205,7 +10205,7 @@
     - service: tg
       id: 358
       published: 2024-03-26-18-10-55
-      updated: 2024-11-06-14-07-25
+      updated: 2024-11-13-14-07-43
       followers: 352
       likes: 68
       views: 536
@@ -11153,7 +11153,7 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2024-11-06-14-07-28
+      updated: 2024-11-13-14-07-46
       followers: 895
       likes: 35
       views: 291
@@ -11161,7 +11161,7 @@
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2024-11-06-14-07-27
+      updated: 2024-11-13-14-07-46
       followers: 343
       likes: 69
       views: 528
