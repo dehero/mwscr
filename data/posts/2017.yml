@@ -2514,27 +2514,27 @@
       id: DCKP3ratxaE
       mediaId: '18126035284387132'
       published: 2024-11-09-18-08-40
-      updated: 2024-11-14-18-10-30
+      updated: 2024-11-15-18-10-48
       followers: 1481
-      likes: 136
-      views: 526
+      likes: 137
+      views: 532
     - service: vk
       id: 1887
       published: 2024-11-09-18-08-47
-      updated: 2024-11-14-18-10-31
+      updated: 2024-11-15-18-10-49
       followers: 1006
       likes: 50
-      views: 300
+      views: 302
       comments: !c |-
         G2wA+C0OzHOdDmzoisHxBSnkR1HcIvzxJOMo8CTBJpHIkz3Mbeys0xmFSEJobmPt3Tmt25QgCLJM
         NrrNoAmfwiBxP59f27nb8h6cHX+oPlDn4tRSxaGBkCzrtA7L+CADgUw7jhpGVAM=
     - service: tg
       id: 590
       published: 2024-11-09-18-09-56
-      updated: 2024-11-14-18-10-31
+      updated: 2024-11-15-18-10-48
       followers: 564
       likes: 61
-      views: 368
+      views: 382
 2017-03-10-aldruhn-guild-of-mages:
   title: Ald'ruhn, Guild of Mages
   titleRu: Альд'рун, Гильдия Магов
@@ -8258,10 +8258,10 @@
     - service: tg
       id: 588
       published: 2024-11-07-18-10-45
-      updated: 2024-11-14-18-10-33
+      updated: 2024-11-15-18-10-49
       followers: 566
       likes: 51
-      views: 385
+      views: 409
 2017-08-19-surroundings-of-hlormaren:
   title: Surroundings of Hlormaren
   titleRu: В окрестностях Хлормарена
@@ -11030,6 +11030,19 @@
       followers: 98
       likes: 15
       views: 159
+    - service: ig
+      id: DCZs6mlAgIM
+      mediaId: '18160625998323779'
+      published: 2024-11-15-18-11-03
+      followers: 1480
+    - service: vk
+      id: 1895
+      published: 2024-11-15-18-11-10
+      followers: 1006
+    - service: tg
+      id: 596
+      published: 2024-11-15-18-11-17
+      followers: 572
 2017-11-12-ice-shivers:
   title: Ice Shivers
   titleRu: Ледяные обломки
