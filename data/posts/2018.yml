@@ -452,10 +452,10 @@
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2024-11-08-03-12-26
+      updated: 2024-11-15-03-21-22
       followers: 399
       likes: 72
-      views: 648
+      views: 650
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -740,21 +740,21 @@
       id: DCXIGp-tYLL
       mediaId: '18033980807080292'
       published: 2024-11-14-18-10-56
-      updated: 2024-11-15-02-16-40
+      updated: 2024-11-15-03-21-18
       followers: 1480
       likes: 55
-      views: 194
+      views: 203
     - service: vk
       id: 1894
       published: 2024-11-14-18-11-03
-      updated: 2024-11-15-02-16-40
+      updated: 2024-11-15-03-21-20
       followers: 1005
-      likes: 13
-      views: 100
+      likes: 14
+      views: 103
     - service: tg
       id: 595
       published: 2024-11-14-18-11-10
-      updated: 2024-11-15-02-16-41
+      updated: 2024-11-15-03-21-19
       followers: 570
       likes: 36
       views: 169
@@ -9789,27 +9789,27 @@
       id: C-s02fCI7m7
       mediaId: '18197312713292587'
       published: 2024-08-15-18-20-29
-      updated: 2024-11-08-03-12-24
+      updated: 2024-11-15-03-21-20
       followers: 1439
       likes: 96
       views: 432
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2024-11-08-03-12-26
+      updated: 2024-11-15-03-21-22
       followers: 932
       likes: 36
-      views: 310
+      views: 311
       comments: !c |-
         iyeAkZTLQnkVdl1GgACyeW91cmVuZW1pZXN3aWxscGF5u9Ci0LDQvCDQutC70LDQvSDQkdC10YDQ
         vdC1P5PLQnkVy9vAAACmcDQwamxhpNC00LAD
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2024-11-08-03-12-25
+      updated: 2024-11-15-03-21-21
       followers: 527
       likes: 60
-      views: 621
+      views: 624
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
