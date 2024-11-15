@@ -444,7 +444,7 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2024-11-08-04-09-34
+      updated: 2024-11-15-04-10-15
       followers: 921
       likes: 44
       views: 298
@@ -740,24 +740,24 @@
       id: DCXIGp-tYLL
       mediaId: '18033980807080292'
       published: 2024-11-14-18-10-56
-      updated: 2024-11-15-03-21-18
+      updated: 2024-11-15-04-10-12
       followers: 1480
-      likes: 55
-      views: 203
+      likes: 57
+      views: 206
     - service: vk
       id: 1894
       published: 2024-11-14-18-11-03
-      updated: 2024-11-15-03-21-20
+      updated: 2024-11-15-04-10-13
       followers: 1005
       likes: 14
-      views: 103
+      views: 109
     - service: tg
       id: 595
       published: 2024-11-14-18-11-10
-      updated: 2024-11-15-03-21-19
+      updated: 2024-11-15-04-10-13
       followers: 570
-      likes: 36
-      views: 169
+      likes: 37
+      views: 173
 2018-01-21-dwemer-tower-of-dagon-fel:
   title: Dwemer Tower of Dagon Fel
   titleRu: Двемерская башня Дагон Фела
@@ -7130,10 +7130,10 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2024-11-08-04-09-33
+      updated: 2024-11-15-04-10-15
       followers: 402
       likes: 60
-      views: 686
+      views: 687
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
