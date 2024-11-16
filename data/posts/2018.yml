@@ -678,10 +678,10 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-11-09-02-04-57
+      updated: 2024-11-16-02-14-04
       followers: 943
       likes: 33
-      views: 331
+      views: 332
       reposts: 2
       comments: !c |-
         G9oCAKwK7DbyC53aVXL0CN5VcRAVtmgoOTn1l+y/FTiUxoEwOARKYqrVqQh9jqvQZ7CrxzMcL6oV
@@ -694,10 +694,10 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-11-09-02-04-55
+      updated: 2024-11-16-02-14-02
       followers: 551
       likes: 66
-      views: 549
+      views: 552
       comments: !c |-
         G9EAYIyUbsI8A645gjVBtc//m1b2toiwUaRNMO/wxbbWuVFCJlIM9X7iFOVucKIx5hBGLbTppBtO
         tOfw+Nwit9TaMhmfA4b1lHsV7JBS8l9S0pmkGYYDbLDsxAdYYscJoFjCAdGQE8JkkWVsLIA9lpyg
@@ -740,24 +740,24 @@
       id: DCXIGp-tYLL
       mediaId: '18033980807080292'
       published: 2024-11-14-18-10-56
-      updated: 2024-11-16-00-37-08
+      updated: 2024-11-16-02-14-00
       followers: 1480
       likes: 77
-      views: 318
+      views: 319
     - service: vk
       id: 1894
       published: 2024-11-14-18-11-03
-      updated: 2024-11-16-00-37-06
+      updated: 2024-11-16-02-14-01
       followers: 1005
       likes: 24
-      views: 170
+      views: 171
     - service: tg
       id: 595
       published: 2024-11-14-18-11-10
-      updated: 2024-11-16-00-37-06
+      updated: 2024-11-16-02-14-01
       followers: 570
       likes: 41
-      views: 248
+      views: 251
 2018-01-21-dwemer-tower-of-dagon-fel:
   title: Dwemer Tower of Dagon Fel
   titleRu: Двемерская башня Дагон Фела
