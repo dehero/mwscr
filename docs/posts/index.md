@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`263 items`
+`264 items`
+
+## <span id="2024-11-16-the-road-most-travelled">The Road Most Travelled</span>
+
+`RU` Самая знакомая дорога
+
+<a href="https://instagram.com/p/BNbXsC-Fanr/" title="2016-11-30-the-road-most-travelled"><img alt="store:/shots/2016-11-30-the-road-most-travelled.png" src="../../assets/previews/shots/2016-11-30-the-road-most-travelled.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-11-16-the-road-most-travelled&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-11-16-the-road-most-travelled
+```
+
+> `2016-11-30-the-road-most-travelled`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BNbXsC-Fanr/)       | 2016-11-30 |       |    21 |        22 |     21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_17)   | 2017-01-22 |    55 |     3 |         4 |      3 |
+| [`ig`](https://instagram.com/p/DCcRiohACzQ/)       | 2024-11-16 |       |       |      1481 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1896) | 2024-11-16 |       |       |      1007 |        |
+| [`tg`](https://t.me/mwscr/597)                     | 2024-11-16 |       |       |       573 |        |
+|                                                    |            |       |       |      3061 |     12 |
 
 ## <span id="2024-11-15-pelagiad-guard-tower">Pelagiad, Guard Tower</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbXeFiSjc2N/)       | 2017-11-11 |       |    63 |       233 |  27.04 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_496)  | 2017-11-11 |   159 |    15 |        98 |  15.31 |
-| [`ig`](https://instagram.com/p/DCZs6mlAgIM/)       | 2024-11-15 |   355 |    82 |      1480 |   5.54 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1895) | 2024-11-15 |   151 |    31 |      1006 |   3.08 |
+| [`ig`](https://instagram.com/p/DCZs6mlAgIM/)       | 2024-11-15 |   365 |    84 |      1480 |   5.68 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1895) | 2024-11-15 |   156 |    31 |      1006 |   3.08 |
 | [`tg`](https://t.me/mwscr/596)                     | 2024-11-15 |   118 |    42 |       572 |   7.34 |
-|                                                    |            |   624 |   155 |      3058 |  11.66 |
+|                                                    |            |   639 |   157 |      3058 |  11.69 |
 
 ## <span id="2024-11-14-nix-hounds-staring-at-stars">Nix-Hounds Staring at Stars</span>
 
@@ -55,10 +82,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BeLn4ctDDIV/)       | 2018-01-20 |       |    72 |       279 |  25.81 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_585)  | 2018-01-20 |   170 |    13 |       122 |  10.66 |
-| [`ig`](https://instagram.com/p/DCXIGp-tYLL/)       | 2024-11-14 |   335 |    78 |      1480 |   5.27 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1894) | 2024-11-14 |   189 |    27 |      1005 |   2.69 |
+| [`ig`](https://instagram.com/p/DCXIGp-tYLL/)       | 2024-11-14 |   340 |    79 |      1480 |   5.34 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1894) | 2024-11-14 |   191 |    27 |      1005 |   2.69 |
 | [`tg`](https://t.me/mwscr/595)                     | 2024-11-14 |   275 |    43 |       570 |   7.54 |
-|                                                    |            |   799 |   148 |      3055 |  10.39 |
+|                                                    |            |   806 |   149 |      3055 |  10.41 |
 
 ## <span id="2024-11-13-trees-and-towers">Trees and Towers</span>
 
@@ -82,10 +109,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSk7oIVDpuC/)       | 2017-04-07 |       |    65 |       170 |  38.24 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_245)  | 2017-04-07 |   134 |     6 |        50 |     12 |
-| [`ig`](https://instagram.com/p/DCUjPxsNBNV/)       | 2024-11-13 |   286 |    73 |      1481 |   4.93 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1893) | 2024-11-13 |   233 |    39 |      1006 |   3.98 |
-| [`tg`](https://t.me/mwscr/594)                     | 2024-11-13 |   185 |    44 |       567 |   7.76 |
-|                                                    |            |   704 |   156 |      3054 |  13.38 |
+| [`ig`](https://instagram.com/p/DCUjPxsNBNV/)       | 2024-11-13 |   293 |    75 |      1481 |   5.06 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1893) | 2024-11-13 |   251 |    39 |      1006 |   3.98 |
+| [`tg`](https://t.me/mwscr/594)                     | 2024-11-13 |   200 |    46 |       567 |   8.11 |
+|                                                    |            |   744 |   160 |      3054 |  13.48 |
 
 #### Comments
 
@@ -115,10 +142,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BUbel3zDkf_/)       | 2017-05-23 |       |    64 |       178 |  35.96 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_299)  | 2017-05-23 |   202 |     6 |        56 |  10.71 |
-| [`ig`](https://instagram.com/p/DCR-bgrJj0d/)       | 2024-11-12 |   291 |    58 |      1484 |   3.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1891) | 2024-11-12 |   206 |    25 |      1006 |   2.49 |
-| [`tg`](https://t.me/mwscr/593)                     | 2024-11-12 |   252 |    50 |       564 |   8.87 |
-|                                                    |            |   749 |   133 |      3054 |  12.39 |
+| [`ig`](https://instagram.com/p/DCR-bgrJj0d/)       | 2024-11-12 |   297 |    61 |      1484 |   4.11 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1891) | 2024-11-12 |   214 |    26 |      1006 |   2.58 |
+| [`tg`](https://t.me/mwscr/593)                     | 2024-11-12 |   280 |    53 |       564 |    9.4 |
+|                                                    |            |   791 |   140 |      3054 |  12.55 |
 
 #### Comments
 
