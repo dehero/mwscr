@@ -1706,14 +1706,14 @@
     - service: vk
       id: 1528
       published: 2024-05-10-18-18-43
-      updated: 2024-11-09-12-11-36
+      updated: 2024-11-16-12-12-53
       followers: 913
       likes: 26
       views: 239
     - service: tg
       id: 404
       published: 2024-05-10-18-18-49
-      updated: 2024-11-09-12-11-34
+      updated: 2024-11-16-12-12-51
       followers: 371
       likes: 62
       views: 485
@@ -1828,7 +1828,7 @@
     - service: vk
       id: 1535
       published: 2024-05-17-18-19-43
-      updated: 2024-11-09-12-11-35
+      updated: 2024-11-16-12-12-52
       followers: 915
       likes: 24
       views: 326
@@ -1838,7 +1838,7 @@
     - service: tg
       id: 411
       published: 2024-05-17-18-19-48
-      updated: 2024-11-09-12-11-34
+      updated: 2024-11-16-12-12-51
       followers: 372
       likes: 51
       views: 432
@@ -1966,7 +1966,7 @@
     - service: vk
       id: 1556
       published: 2024-05-31-18-19-13
-      updated: 2024-11-09-12-11-35
+      updated: 2024-11-16-12-12-51
       followers: 915
       likes: 45
       views: 292
@@ -1981,10 +1981,10 @@
     - service: tg
       id: 425
       published: 2024-05-31-18-19-20
-      updated: 2024-11-09-12-11-33
+      updated: 2024-11-16-12-12-51
       followers: 379
       likes: 64
-      views: 468
+      views: 469
 2024-06-01-visiting-imperial-fort:
   title: Visiting Imperial Fort
   titleRu: Посещение имперского форта
