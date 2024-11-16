@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbXeFiSjc2N/)       | 2017-11-11 |       |    63 |       233 |  27.04 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_496)  | 2017-11-11 |   159 |    15 |        98 |  15.31 |
-| [`ig`](https://instagram.com/p/DCZs6mlAgIM/)       | 2024-11-15 |   327 |    78 |      1480 |   5.27 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1895) | 2024-11-15 |   144 |    31 |      1006 |   3.08 |
+| [`ig`](https://instagram.com/p/DCZs6mlAgIM/)       | 2024-11-15 |   333 |    80 |      1480 |   5.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1895) | 2024-11-15 |   145 |    31 |      1006 |   3.08 |
 | [`tg`](https://t.me/mwscr/596)                     | 2024-11-15 |   116 |    42 |       572 |   7.34 |
-|                                                    |            |   587 |   151 |      3058 |  11.61 |
+|                                                    |            |   594 |   153 |      3058 |  11.63 |
 
 ## <span id="2024-11-14-nix-hounds-staring-at-stars">Nix-Hounds Staring at Stars</span>
 
@@ -56,9 +56,9 @@
 | [`ig`](https://instagram.com/p/BeLn4ctDDIV/)       | 2018-01-20 |       |    72 |       279 |  25.81 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_585)  | 2018-01-20 |   170 |    13 |       122 |  10.66 |
 | [`ig`](https://instagram.com/p/DCXIGp-tYLL/)       | 2024-11-14 |   332 |    77 |      1480 |    5.2 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1894) | 2024-11-14 |   186 |    27 |      1005 |   2.69 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1894) | 2024-11-14 |   187 |    27 |      1005 |   2.69 |
 | [`tg`](https://t.me/mwscr/595)                     | 2024-11-14 |   271 |    43 |       570 |   7.54 |
-|                                                    |            |   789 |   147 |      3055 |  10.38 |
+|                                                    |            |   790 |   147 |      3055 |  10.38 |
 
 ## <span id="2024-11-13-trees-and-towers">Trees and Towers</span>
 
