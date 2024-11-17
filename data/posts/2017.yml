@@ -1909,18 +1909,18 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-11-10-09-07-09
+      updated: 2024-11-17-09-07-56
       followers: 916
       likes: 53
-      views: 423
+      views: 424
       reposts: 7
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2024-11-10-09-07-09
+      updated: 2024-11-17-09-07-56
       followers: 386
       likes: 71
-      views: 533
+      views: 534
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -6135,17 +6135,17 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2024-11-10-09-07-08
+      updated: 2024-11-17-09-07-55
       followers: 920
       likes: 38
       views: 290
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2024-11-10-09-07-08
+      updated: 2024-11-17-09-07-55
       followers: 387
       likes: 60
-      views: 484
+      views: 485
 2017-06-18-manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
@@ -11034,21 +11034,21 @@
       id: DCZs6mlAgIM
       mediaId: '18160625998323779'
       published: 2024-11-15-18-11-03
-      updated: 2024-11-17-08-09-25
+      updated: 2024-11-17-09-07-50
       followers: 1480
       likes: 89
-      views: 400
+      views: 401
     - service: vk
       id: 1895
       published: 2024-11-15-18-11-10
-      updated: 2024-11-17-08-09-26
+      updated: 2024-11-17-09-07-51
       followers: 1006
       likes: 35
-      views: 177
+      views: 181
     - service: tg
       id: 596
       published: 2024-11-15-18-11-17
-      updated: 2024-11-17-08-09-27
+      updated: 2024-11-17-09-07-51
       followers: 572
       likes: 52
       views: 165
@@ -12201,7 +12201,7 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2024-11-10-09-07-06
+      updated: 2024-11-17-09-07-53
       followers: 919
       likes: 50
       views: 290
@@ -12218,10 +12218,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2024-11-10-09-07-06
+      updated: 2024-11-17-09-07-53
       followers: 393
       likes: 59
-      views: 471
+      views: 472
     - service: ig
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
