@@ -10143,17 +10143,17 @@
     - service: vk
       id: 1742
       published: 2024-09-07-18-27-18
-      updated: 2024-11-10-02-12-54
+      updated: 2024-11-17-02-20-19
       followers: 943
       likes: 33
-      views: 282
+      views: 283
     - service: tg
       id: 525
       published: 2024-09-07-18-27-27
-      updated: 2024-11-10-02-12-51
+      updated: 2024-11-17-02-20-15
       followers: 552
       likes: 62
-      views: 510
+      views: 514
     - service: ig
       id: C_s4h4kvWJC
       mediaId: '17969542835645642'
@@ -11396,24 +11396,24 @@
       id: C_6Fl4CBFog
       mediaId: '17983583873721556'
       published: 2024-09-14-18-28-12
-      updated: 2024-11-10-02-12-54
+      updated: 2024-11-17-02-20-19
       followers: 1459
       likes: 75
-      views: 374
+      views: 375
     - service: vk
       id: 1762
       published: 2024-09-14-18-28-21
-      updated: 2024-11-10-02-12-53
+      updated: 2024-11-17-02-20-18
       followers: 946
       likes: 28
-      views: 225
+      views: 227
     - service: tg
       id: 532
       published: 2024-09-14-18-28-32
-      updated: 2024-11-10-02-12-50
+      updated: 2024-11-17-02-20-14
       followers: 556
       likes: 61
-      views: 479
+      views: 483
       comments: !c |-
         ix+AkZPLQnkfHOBygACpR2F0ZW1hdGU32Sl3aGVyZSBhcmUgdGhlIGFybWVkIG1lbiB3aXRoIHRo
         ZSBwaWxsb3dzPwM=
