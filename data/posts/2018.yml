@@ -740,24 +740,25 @@
       id: DCXIGp-tYLL
       mediaId: '18033980807080292'
       published: 2024-11-14-18-10-56
-      updated: 2024-11-16-18-09-15
+      updated: 2024-11-17-19-01-24
       followers: 1480
-      likes: 79
-      views: 340
+      likes: 83
+      views: 360
     - service: vk
       id: 1894
       published: 2024-11-14-18-11-03
-      updated: 2024-11-16-18-09-17
+      updated: 2024-11-17-19-01-24
       followers: 1005
-      likes: 27
-      views: 191
+      likes: 29
+      views: 219
+      reposts: 1
     - service: tg
       id: 595
       published: 2024-11-14-18-11-10
-      updated: 2024-11-16-18-09-16
+      updated: 2024-11-17-19-01-25
       followers: 570
-      likes: 43
-      views: 275
+      likes: 49
+      views: 325
 2018-01-21-dwemer-tower-of-dagon-fel:
   title: Dwemer Tower of Dagon Fel
   titleRu: Двемерская башня Дагон Фела
@@ -9248,11 +9249,21 @@
       id: DCe2U1yuhaK
       mediaId: '18049598492006418'
       published: 2024-11-17-18-09-29
+      updated: 2024-11-17-19-01-22
       followers: 1484
+      likes: 22
+      views: 35
     - service: tg
       id: 598
       published: 2024-11-17-18-09-44
+      updated: 2024-11-17-19-01-23
       followers: 573
+      likes: 23
+      views: 72
+    - service: vk
+      id: 1901
+      published: 2024-11-17-19-01-38
+      followers: 1007
 2018-09-22-two-ways:
   title: Two Ways
   titleRu: Два пути
@@ -11700,24 +11711,24 @@
       id: DCM0tU8xA_o
       mediaId: '17944080932877274'
       published: 2024-11-10-18-09-03
-      updated: 2024-11-16-19-01-15
+      updated: 2024-11-17-19-01-28
       followers: 1481
-      likes: 87
-      views: 369
+      likes: 89
+      views: 374
     - service: vk
       id: 1888
       published: 2024-11-10-18-09-11
-      updated: 2024-11-16-19-01-16
+      updated: 2024-11-17-19-01-28
       followers: 1006
       likes: 42
-      views: 234
+      views: 238
     - service: tg
       id: 591
       published: 2024-11-10-18-10-13
-      updated: 2024-11-16-19-01-14
+      updated: 2024-11-17-19-01-29
       followers: 564
       likes: 54
-      views: 374
+      views: 400
 2018-11-23-flooded-door:
   title: Flooded Door
   titleRu: Затопленная дверь
