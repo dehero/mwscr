@@ -4114,10 +4114,10 @@
     - service: tg
       id: 549
       published: 2024-09-29-18-09-07
-      updated: 2024-11-10-22-02-55
+      updated: 2024-11-17-22-03-04
       followers: 558
       likes: 76
-      views: 617
+      views: 624
       comments: !c |-
         G4kA+C0OeBPjZSMQr7DGOwlN8Q/tjPCfJ5ZkMXcDn8nk6XROn+NFo6ZBqaPPjrEWqrKb1CM2gPGS
         JiWvFAkubkjc52O2xrtsjz+jdNGAOOP5CeMeJkHHmQAvYcLMQcukNB+pBJOEtuIYGMBsJRw=
@@ -9249,24 +9249,24 @@
       id: DCe2U1yuhaK
       mediaId: '18049598492006418'
       published: 2024-11-17-18-09-29
-      updated: 2024-11-17-21-02-08
+      updated: 2024-11-17-22-03-02
       followers: 1484
-      likes: 50
-      views: 128
+      likes: 56
+      views: 157
     - service: tg
       id: 598
       published: 2024-11-17-18-09-44
-      updated: 2024-11-17-21-02-09
+      updated: 2024-11-17-22-03-02
       followers: 573
-      likes: 29
-      views: 89
+      likes: 32
+      views: 93
     - service: vk
       id: 1901
       published: 2024-11-17-19-01-38
-      updated: 2024-11-17-21-02-09
+      updated: 2024-11-17-22-03-01
       followers: 1007
-      likes: 8
-      views: 53
+      likes: 14
+      views: 66
 2018-09-22-two-ways:
   title: Two Ways
   titleRu: Два пути
