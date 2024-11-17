@@ -5023,18 +5023,18 @@
     - service: vk
       id: 1875
       published: 2024-11-03-18-10-30
-      updated: 2024-11-10-20-07-42
+      updated: 2024-11-17-20-07-55
       followers: 1003
-      likes: 34
-      views: 277
+      likes: 35
+      views: 294
       reposts: 1
     - service: tg
       id: 584
       published: 2024-11-03-18-10-35
-      updated: 2024-11-10-20-07-42
+      updated: 2024-11-17-20-07-54
       followers: 565
-      likes: 58
-      views: 366
+      likes: 59
+      views: 440
       comments: !c |-
         CyiAk5PLQnkw+mEZAACrYmh1dmFuYXNyaWmk8J+NrZPLQnkvTUbBgACpR2F0ZW1hdGU3qDIwMTgu
         Li4/k8tCeS9MvQ+AAKh3aWx6dXVsbKTwn6eQAw==
@@ -9249,21 +9249,24 @@
       id: DCe2U1yuhaK
       mediaId: '18049598492006418'
       published: 2024-11-17-18-09-29
-      updated: 2024-11-17-19-01-22
+      updated: 2024-11-17-20-07-52
       followers: 1484
-      likes: 22
-      views: 35
+      likes: 38
+      views: 93
     - service: tg
       id: 598
       published: 2024-11-17-18-09-44
-      updated: 2024-11-17-19-01-23
+      updated: 2024-11-17-20-07-53
       followers: 573
-      likes: 23
-      views: 72
+      likes: 28
+      views: 83
     - service: vk
       id: 1901
       published: 2024-11-17-19-01-38
+      updated: 2024-11-17-20-07-53
       followers: 1007
+      likes: 5
+      views: 40
 2018-09-22-two-ways:
   title: Two Ways
   titleRu: Два пути
