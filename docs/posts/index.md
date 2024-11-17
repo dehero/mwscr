@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`264 items`
+`265 items`
+
+## <span id="2024-11-17-wolverine-hall">Wolverine Hall</span>
+
+`RU` Волверин Холл
+
+<a href="https://instagram.com/p/Bn_zpl2B42D/" title="2018-09-21-wolverine-hall"><img alt="store:/shots/2018-09-21-wolverine-hall.png" src="../../assets/previews/shots/2018-09-21-wolverine-hall.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` `📍 Wolverine Hall` `🚀 OpenMW`
+
+```
+2024-11-17-wolverine-hall
+```
+
+> `2018-09-21-wolverine-hall`
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bn_zpl2B42D/)      | 2018-09-21 |       |   108 |       425 |  25.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_937) | 2018-09-21 |   376 |    23 |       235 |   9.79 |
+| [`tg`](https://t.me/mwscr/41)                     | 2018-09-21 |   194 |     4 |           |        |
+| [`ig`](https://instagram.com/p/DCe2U1yuhaK/)      | 2024-11-17 |       |       |      1484 |        |
+| [`tg`](https://t.me/mwscr/598)                    | 2024-11-17 |       |       |       573 |        |
+|                                                   |            |       |       |      2057 |   17.6 |
+
+#### Comments
+
+- `ig` <ins title="2018-09-21-18-07-17">sir_waclove</ins> Damned place. Worse to navigate than Vivec 😫
 
 ## <span id="2024-11-16-the-road-most-travelled">The Road Most Travelled</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNbXsC-Fanr/)       | 2016-11-30 |       |    21 |        22 |     21 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_17)   | 2017-01-22 |    55 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/DCcRiohACzQ/)       | 2024-11-16 |   314 |    88 |      1481 |   5.94 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1896) | 2024-11-16 |   248 |    42 |      1007 |   4.37 |
-| [`tg`](https://t.me/mwscr/597)                     | 2024-11-16 |   206 |    47 |       573 |    8.2 |
-|                                                    |            |   768 |   177 |      3061 |    8.5 |
+| [`ig`](https://instagram.com/p/DCcRiohACzQ/)       | 2024-11-16 |   320 |    91 |      1481 |   6.14 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1896) | 2024-11-16 |   253 |    43 |      1007 |   4.47 |
+| [`tg`](https://t.me/mwscr/597)                     | 2024-11-16 |   210 |    47 |       573 |    8.2 |
+|                                                    |            |   783 |   181 |      3061 |   8.56 |
 
 #### Comments
 
@@ -62,10 +93,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbXeFiSjc2N/)       | 2017-11-11 |       |    63 |       233 |  27.04 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_496)  | 2017-11-11 |   159 |    15 |        98 |  15.31 |
-| [`ig`](https://instagram.com/p/DCZs6mlAgIM/)       | 2024-11-15 |   416 |    93 |      1480 |   6.28 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1895) | 2024-11-15 |   187 |    36 |      1006 |   3.58 |
-| [`tg`](https://t.me/mwscr/596)                     | 2024-11-15 |   170 |    52 |       572 |   9.09 |
-|                                                    |            |   773 |   181 |      3058 |  12.26 |
+| [`ig`](https://instagram.com/p/DCZs6mlAgIM/)       | 2024-11-15 |   419 |    94 |      1480 |   6.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1895) | 2024-11-15 |   188 |    36 |      1006 |   3.58 |
+| [`tg`](https://t.me/mwscr/596)                     | 2024-11-15 |   173 |    52 |       572 |   9.09 |
+|                                                    |            |   780 |   182 |      3058 |  12.27 |
 
 ## <span id="2024-11-14-nix-hounds-staring-at-stars">Nix-Hounds Staring at Stars</span>
 
