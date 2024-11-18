@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`265 items`
+`266 items`
+
+## <span id="2024-11-18-water-stone">Water Stone</span>
+
+`RU` Камень Воды
+
+<a href="https://instagram.com/p/BX45fQ8jPtc/" title="2017-08-17-water-stone"><img alt="store:/shots/2017-08-17-water-stone.png" src="../../assets/previews/shots/2017-08-17-water-stone.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-11-18-water-stone&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon`
+
+```
+2024-11-18-water-stone
+```
+
+> `2017-08-17-water-stone`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BX45fQ8jPtc/)       | 2017-08-17 |       |    55 |       193 |   28.5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_396)  | 2017-08-17 |   120 |     6 |        75 |      8 |
+| [`ig`](https://instagram.com/p/DChbQjbp9sK/)       | 2024-11-18 |       |       |      1483 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1904) | 2024-11-18 |       |       |      1007 |        |
+| [`tg`](https://t.me/mwscr/599)                     | 2024-11-18 |       |       |       573 |        |
+|                                                    |            |       |       |      3063 |  18.25 |
 
 ## <span id="2024-11-17-wolverine-hall">Wolverine Hall</span>
 
@@ -29,10 +56,10 @@
 | [`ig`](https://instagram.com/p/Bn_zpl2B42D/)       | 2018-09-21 |       |   108 |       425 |  25.41 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_937)  | 2018-09-21 |   376 |    23 |       235 |   9.79 |
 | [`tg`](https://t.me/mwscr/41)                      | 2018-09-21 |   194 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DCe2U1yuhaK/)       | 2024-11-17 |   329 |    93 |      1484 |   6.27 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1901) | 2024-11-17 |   180 |    28 |      1007 |   2.78 |
+| [`ig`](https://instagram.com/p/DCe2U1yuhaK/)       | 2024-11-17 |   337 |    93 |      1484 |   6.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1901) | 2024-11-17 |   182 |    28 |      1007 |   2.78 |
 | [`tg`](https://t.me/mwscr/598)                     | 2024-11-17 |   148 |    45 |       573 |   7.85 |
-|                                                    |            |   657 |   166 |      3064 |  10.42 |
+|                                                    |            |   667 |   166 |      3064 |  10.42 |
 
 #### Comments
 
@@ -95,10 +122,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbXeFiSjc2N/)       | 2017-11-11 |       |    63 |       233 |  27.04 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_496)  | 2017-11-11 |   159 |    15 |        98 |  15.31 |
-| [`ig`](https://instagram.com/p/DCZs6mlAgIM/)       | 2024-11-15 |   419 |    94 |      1480 |   6.35 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1895) | 2024-11-15 |   188 |    36 |      1006 |   3.58 |
-| [`tg`](https://t.me/mwscr/596)                     | 2024-11-15 |   173 |    52 |       572 |   9.09 |
-|                                                    |            |   780 |   182 |      3058 |  12.27 |
+| [`ig`](https://instagram.com/p/DCZs6mlAgIM/)       | 2024-11-15 |   442 |   101 |      1480 |   6.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1895) | 2024-11-15 |   209 |    36 |      1006 |   3.58 |
+| [`tg`](https://t.me/mwscr/596)                     | 2024-11-15 |   198 |    57 |       572 |   9.97 |
+|                                                    |            |   849 |   194 |      3058 |  12.54 |
 
 ## <span id="2024-11-14-nix-hounds-staring-at-stars">Nix-Hounds Staring at Stars</span>
 
