@@ -548,17 +548,17 @@
       id: DCcRiohACzQ
       mediaId: '18082753906486129'
       published: 2024-11-16-18-09-34
-      updated: 2024-11-18-09-09-48
+      updated: 2024-11-18-10-09-14
       followers: 1481
-      likes: 100
-      views: 367
+      likes: 102
+      views: 368
     - service: vk
       id: 1896
       published: 2024-11-16-18-09-40
-      updated: 2024-11-18-09-09-49
+      updated: 2024-11-18-10-09-15
       followers: 1007
-      likes: 44
-      views: 280
+      likes: 45
+      views: 284
       reposts: 2
       comments: !c |-
         G1UBgJwHts1oOxxr9Nb2HTJCpRNPf6PPCb3JmilIk4wTC7zEbuaO4GSfqtuNsAhFiCcpW5sPxjpw
@@ -569,10 +569,10 @@
     - service: tg
       id: 597
       published: 2024-11-16-18-09-47
-      updated: 2024-11-18-09-09-49
+      updated: 2024-11-18-10-09-15
       followers: 573
       likes: 56
-      views: 250
+      views: 253
 2016-12-01-arvs-drelen:
   title: Arvs-Drelen
   titleRu: Арвс-Дрелен
@@ -682,7 +682,7 @@
     - service: vk
       id: 1560
       published: 2024-06-02-18-19-25
-      updated: 2024-11-11-10-08-38
+      updated: 2024-11-18-10-09-17
       followers: 915
       likes: 48
       views: 379
@@ -1274,7 +1274,7 @@
     - service: vk
       id: 1512
       published: 2024-04-28-18-16-56
-      updated: 2024-11-11-10-08-42
+      updated: 2024-11-18-10-09-21
       followers: 911
       likes: 43
       views: 348
