@@ -29,14 +29,15 @@
 | [`ig`](https://instagram.com/p/Bn_zpl2B42D/)       | 2018-09-21 |       |   108 |       425 |  25.41 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_937)  | 2018-09-21 |   376 |    23 |       235 |   9.79 |
 | [`tg`](https://t.me/mwscr/41)                      | 2018-09-21 |   194 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DCe2U1yuhaK/)       | 2024-11-17 |   323 |    93 |      1484 |   6.27 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1901) | 2024-11-17 |   175 |    27 |      1007 |   2.68 |
-| [`tg`](https://t.me/mwscr/598)                     | 2024-11-17 |   147 |    45 |       573 |   7.85 |
-|                                                    |            |   645 |   165 |      3064 |   10.4 |
+| [`ig`](https://instagram.com/p/DCe2U1yuhaK/)       | 2024-11-17 |   329 |    93 |      1484 |   6.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1901) | 2024-11-17 |   180 |    28 |      1007 |   2.78 |
+| [`tg`](https://t.me/mwscr/598)                     | 2024-11-17 |   148 |    45 |       573 |   7.85 |
+|                                                    |            |   657 |   166 |      3064 |  10.42 |
 
 #### Comments
 
 - `ig` <ins title="2018-09-21-18-07-17">sir_waclove</ins> Damned place. Worse to navigate than Vivec 😫
+- `vk` <ins title="2024-11-18-17-01-21">id889222999</ins> Вечерний Эбенгард
 
 ## <span id="2024-11-16-the-road-most-travelled">The Road Most Travelled</span>
 
@@ -60,10 +61,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNbXsC-Fanr/)       | 2016-11-30 |       |    21 |        22 |     21 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_17)   | 2017-01-22 |    55 |     3 |         4 |      3 |
-| [`ig`](https://instagram.com/p/DCcRiohACzQ/)       | 2024-11-16 |   375 |   102 |      1481 |   6.89 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1896) | 2024-11-16 |   289 |    45 |      1007 |   4.67 |
+| [`ig`](https://instagram.com/p/DCcRiohACzQ/)       | 2024-11-16 |   379 |   104 |      1481 |   7.02 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1896) | 2024-11-16 |   290 |    45 |      1007 |   4.67 |
 | [`tg`](https://t.me/mwscr/597)                     | 2024-11-16 |   259 |    57 |       573 |   9.95 |
-|                                                    |            |   923 |   204 |      3061 |    9.1 |
+|                                                    |            |   928 |   206 |      3061 |   9.13 |
 
 #### Comments
 
