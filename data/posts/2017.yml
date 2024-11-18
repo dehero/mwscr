@@ -3589,25 +3589,25 @@
       id: DCUjPxsNBNV
       mediaId: '18035787683076183'
       published: 2024-11-13-18-10-20
-      updated: 2024-11-17-19-01-25
+      updated: 2024-11-18-19-02-03
       followers: 1481
-      likes: 75
-      views: 303
+      likes: 77
+      views: 311
     - service: vk
       id: 1893
       published: 2024-11-13-18-10-28
-      updated: 2024-11-17-19-01-25
+      updated: 2024-11-18-19-02-05
       followers: 1006
       likes: 41
-      views: 271
+      views: 280
       reposts: 1
     - service: tg
       id: 594
       published: 2024-11-13-18-10-36
-      updated: 2024-11-17-19-01-26
+      updated: 2024-11-18-19-02-05
       followers: 567
-      likes: 49
-      views: 243
+      likes: 50
+      views: 259
 2017-04-08-museum-centurion:
   title: Museum Centurion
   titleRu: Музейный центурион
@@ -5335,24 +5335,28 @@
       id: DCR-bgrJj0d
       mediaId: '18044735870490894'
       published: 2024-11-12-18-10-10
-      updated: 2024-11-17-19-01-26
+      updated: 2024-11-18-19-02-03
       followers: 1484
-      likes: 63
-      views: 307
+      likes: 64
+      views: 314
     - service: vk
       id: 1891
       published: 2024-11-12-18-10-16
-      updated: 2024-11-17-19-01-26
+      updated: 2024-11-18-19-02-06
       followers: 1006
-      likes: 27
-      views: 230
+      likes: 28
+      views: 236
+      comments: !c |-
+        G8kA+K2St4XgISW1mXaBj/+nv9gSvvEPu5RSBk0ikSfn6nQaJSdsRyA04y1aHWRy7DH9JUFbJpHX
+        AjRveXJNLrvDyujulCLLhSUFn+8/lv+5fu9q+DkBAk1DPIIsgxWdZeVCzhoQxMtQGuiMYM/tzQZa
+        ltQanDTtBGtZ1cRZ4hmOYC9vGUqDwflUaG4A
     - service: tg
       id: 593
       published: 2024-11-12-18-10-24
-      updated: 2024-11-17-19-01-27
+      updated: 2024-11-18-19-02-05
       followers: 564
       likes: 57
-      views: 312
+      views: 326
 2017-05-24-near-the-ancient-dwelling:
   title: Near the Ancient Dwelling
   titleRu: У древнего жилища
@@ -8217,15 +8221,25 @@
       id: DChbQjbp9sK
       mediaId: '18173973163309337'
       published: 2024-11-18-18-10-40
+      updated: 2024-11-18-19-02-00
       followers: 1483
+      likes: 23
+      views: 47
     - service: vk
       id: 1904
       published: 2024-11-18-18-10-48
+      updated: 2024-11-18-19-02-01
       followers: 1007
+      likes: 7
+      views: 45
+      reposts: 1
     - service: tg
       id: 599
       published: 2024-11-18-18-10-58
+      updated: 2024-11-18-19-02-02
       followers: 573
+      likes: 23
+      views: 73
 2017-08-18-captain-bedrir:
   title: Captain Bedrir
   titleRu: Капитан Бедрир
