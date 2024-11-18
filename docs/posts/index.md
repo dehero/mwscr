@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BX45fQ8jPtc/)       | 2017-08-17 |       |    55 |       193 |   28.5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_396)  | 2017-08-17 |   120 |     6 |        75 |      8 |
-| [`ig`](https://instagram.com/p/DChbQjbp9sK/)       | 2024-11-18 |    47 |    23 |      1483 |   1.55 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1904) | 2024-11-18 |    45 |     7 |      1007 |   0.79 |
-| [`tg`](https://t.me/mwscr/599)                     | 2024-11-18 |    73 |    23 |       573 |   4.01 |
-|                                                    |            |   165 |    53 |      3063 |   8.57 |
+| [`ig`](https://instagram.com/p/DChbQjbp9sK/)       | 2024-11-18 |    96 |    34 |      1483 |   2.29 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1904) | 2024-11-18 |    73 |    11 |      1007 |   1.19 |
+| [`tg`](https://t.me/mwscr/599)                     | 2024-11-18 |    89 |    29 |       573 |   5.06 |
+|                                                    |            |   258 |    74 |      3063 |   9.01 |
 
 ## <span id="2024-11-17-wolverine-hall">Wolverine Hall</span>
 
@@ -56,10 +56,10 @@
 | [`ig`](https://instagram.com/p/Bn_zpl2B42D/)       | 2018-09-21 |       |   108 |       425 |  25.41 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_937)  | 2018-09-21 |   376 |    23 |       235 |   9.79 |
 | [`tg`](https://t.me/mwscr/41)                      | 2018-09-21 |   194 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DCe2U1yuhaK/)       | 2024-11-17 |   339 |    95 |      1484 |    6.4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1901) | 2024-11-17 |   188 |    28 |      1007 |   2.78 |
-| [`tg`](https://t.me/mwscr/598)                     | 2024-11-17 |   161 |    46 |       573 |   8.03 |
-|                                                    |            |   688 |   169 |      3064 |  10.48 |
+| [`ig`](https://instagram.com/p/DCe2U1yuhaK/)       | 2024-11-17 |   342 |    95 |      1484 |    6.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1901) | 2024-11-17 |   189 |    28 |      1007 |   2.78 |
+| [`tg`](https://t.me/mwscr/598)                     | 2024-11-17 |   167 |    48 |       573 |   8.38 |
+|                                                    |            |   698 |   171 |      3064 |  10.55 |
 
 #### Comments
 
@@ -469,9 +469,9 @@
 | [`ig`](https://instagram.com/p/BdnZLKVjOV9/)       | 2018-01-06 |       |    70 |       272 |  25.74 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_569)  | 2018-01-06 |   186 |    14 |       118 |  11.86 |
 | [`ig`](https://instagram.com/p/DB9YEuYxTJW/)       | 2024-11-04 |   364 |    84 |      1482 |   5.67 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1876) | 2024-11-04 |   240 |    28 |      1003 |   2.89 |
-| [`tg`](https://t.me/mwscr/585)                     | 2024-11-04 |   391 |    52 |       565 |    9.2 |
-|                                                    |            |   995 |   164 |      3050 |  11.07 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1876) | 2024-11-04 |   257 |    28 |      1003 |   2.89 |
+| [`tg`](https://t.me/mwscr/585)                     | 2024-11-04 |   475 |    54 |       565 |   9.56 |
+|                                                    |            |  1096 |   166 |      3050 |  11.14 |
 
 ## <span id="2024-11-03-keep-calm-and-wait-for-nerevarine">Keep Calm and Wait for Nerevarine</span>
 
