@@ -432,7 +432,7 @@
     - service: vk
       id: 1687
       published: 2024-08-11-18-20-27
-      updated: 2024-11-11-03-14-06
+      updated: 2024-11-18-03-24-12
       followers: 930
       likes: 46
       views: 306
@@ -440,10 +440,10 @@
     - service: tg
       id: 498
       published: 2024-08-11-18-20-32
-      updated: 2024-11-11-03-14-06
+      updated: 2024-11-18-03-24-11
       followers: 520
       likes: 68
-      views: 616
+      views: 618
       comments: !c |-
         G54AAByHsTM6uHmvpWlkNXDOEY7D0iuANopoGvj20Eq62G9S0Ix7s84zSCyQyci2BqB4weMGJ1o2
         kD8v62DbADqtgZuMETqPmHTzX0xvqld1A7jwemXHKvIDIEo//H4PuJK0LqN+/7n1BjBYm91dF+qx
@@ -548,17 +548,17 @@
       id: DCcRiohACzQ
       mediaId: '18082753906486129'
       published: 2024-11-16-18-09-34
-      updated: 2024-11-18-02-18-48
+      updated: 2024-11-18-03-24-09
       followers: 1481
-      likes: 98
-      views: 353
+      likes: 99
+      views: 355
     - service: vk
       id: 1896
       published: 2024-11-16-18-09-40
-      updated: 2024-11-18-02-18-49
+      updated: 2024-11-18-03-24-10
       followers: 1007
       likes: 44
-      views: 271
+      views: 273
       reposts: 2
       comments: !c |-
         G1UBgJwHts1oOxxr9Nb2HTJCpRNPf6PPCb3JmilIk4wTC7zEbuaO4GSfqtuNsAhFiCcpW5sPxjpw
@@ -569,10 +569,10 @@
     - service: tg
       id: 597
       published: 2024-11-16-18-09-47
-      updated: 2024-11-18-02-18-49
+      updated: 2024-11-18-03-24-10
       followers: 573
       likes: 55
-      views: 244
+      views: 246
 2016-12-01-arvs-drelen:
   title: Arvs-Drelen
   titleRu: Арвс-Дрелен
