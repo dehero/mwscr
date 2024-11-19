@@ -3589,25 +3589,25 @@
       id: DCUjPxsNBNV
       mediaId: '18035787683076183'
       published: 2024-11-13-18-10-20
-      updated: 2024-11-18-19-02-03
+      updated: 2024-11-19-20-08-49
       followers: 1481
       likes: 77
-      views: 311
+      views: 315
     - service: vk
       id: 1893
       published: 2024-11-13-18-10-28
-      updated: 2024-11-18-19-02-05
+      updated: 2024-11-19-20-08-51
       followers: 1006
-      likes: 41
-      views: 280
+      likes: 42
+      views: 285
       reposts: 1
     - service: tg
       id: 594
       published: 2024-11-13-18-10-36
-      updated: 2024-11-18-19-02-05
+      updated: 2024-11-19-20-08-50
       followers: 567
-      likes: 50
-      views: 259
+      likes: 51
+      views: 270
 2017-04-08-museum-centurion:
   title: Museum Centurion
   titleRu: Музейный центурион
@@ -4882,24 +4882,29 @@
       id: DCkAFPgtNik
       mediaId: '18024932996262061'
       published: 2024-11-19-18-10-56
-      updated: 2024-11-19-19-01-20
+      updated: 2024-11-19-20-08-46
       followers: 1482
-      likes: 18
-      views: 33
+      likes: 31
+      views: 75
     - service: vk
       id: 1905
       published: 2024-11-19-18-11-05
-      updated: 2024-11-19-19-01-20
+      updated: 2024-11-19-20-08-47
       followers: 1006
-      likes: 4
-      views: 32
+      likes: 10
+      views: 64
+      reposts: 1
+      comments: !c |-
+        G4AA+J0Jtq2I9cI4vMdEop7+9gkfUOghNpEknuxBa3MZV6serkStnT/PpoWSj/i+ZPnNGUxK2TfV
+        QNMBKOKSWgogl06f93c2iM5392EqXlIrNSvzj97gNM1ctZU7opNIAqHuGGI8nxZGljLaUEFo0bh6
+        AQ==
     - service: tg
       id: 600
       published: 2024-11-19-18-11-14
-      updated: 2024-11-19-19-01-21
+      updated: 2024-11-19-20-08-47
       followers: 574
-      likes: 22
-      views: 74
+      likes: 27
+      views: 90
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
@@ -5357,17 +5362,17 @@
       id: DCR-bgrJj0d
       mediaId: '18044735870490894'
       published: 2024-11-12-18-10-10
-      updated: 2024-11-18-19-02-03
+      updated: 2024-11-19-20-08-50
       followers: 1484
       likes: 64
-      views: 314
+      views: 317
     - service: vk
       id: 1891
       published: 2024-11-12-18-10-16
-      updated: 2024-11-18-19-02-06
+      updated: 2024-11-19-20-08-52
       followers: 1006
       likes: 28
-      views: 236
+      views: 244
       comments: !c |-
         G8kA+K2St4XgISW1mXaBj/+nv9gSvvEPu5RSBk0ikSfn6nQaJSdsRyA04y1aHWRy7DH9JUFbJpHX
         AjRveXJNLrvDyujulCLLhSUFn+8/lv+5fu9q+DkBAk1DPIIsgxWdZeVCzhoQxMtQGuiMYM/tzQZa
@@ -5375,10 +5380,10 @@
     - service: tg
       id: 593
       published: 2024-11-12-18-10-24
-      updated: 2024-11-18-19-02-05
+      updated: 2024-11-19-20-08-51
       followers: 564
-      likes: 57
-      views: 326
+      likes: 58
+      views: 348
 2017-05-24-near-the-ancient-dwelling:
   title: Near the Ancient Dwelling
   titleRu: У древнего жилища
@@ -8243,25 +8248,25 @@
       id: DChbQjbp9sK
       mediaId: '18173973163309337'
       published: 2024-11-18-18-10-40
-      updated: 2024-11-19-19-01-20
+      updated: 2024-11-19-20-08-47
       followers: 1483
       likes: 65
-      views: 292
+      views: 295
     - service: vk
       id: 1904
       published: 2024-11-18-18-10-48
-      updated: 2024-11-19-19-01-21
+      updated: 2024-11-19-20-08-48
       followers: 1007
       likes: 28
-      views: 191
+      views: 193
       reposts: 1
     - service: tg
       id: 599
       published: 2024-11-18-18-10-58
-      updated: 2024-11-19-19-01-21
+      updated: 2024-11-19-20-08-48
       followers: 573
       likes: 45
-      views: 169
+      views: 172
       comments: !c |-
         G2YAoI3EOIZy8WWIoRih0o/OHdn/g5f/0gZcSWsbaIJGkgxojnHofytOG082bMCBQxD5OIiv1+jV
         JxTs5hzmT3bC8gIchl0/t0tf/Hy+iygucZx6xKs8f4KDaD2sCjVt6SeJw84NkgIA
