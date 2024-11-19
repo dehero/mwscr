@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`266 items`
+`267 items`
+
+## <span id="2024-11-19-slaves-of-molag-mar">Slaves of Molag Mar</span>
+
+`RU` Рабы Молаг Мара
+
+<a href="https://instagram.com/p/BT59fN0D0tm/" title="2017-05-10-slaves-of-molag-mar"><img alt="store:/shots/2017-05-10-slaves-of-molag-mar.png" src="../../assets/previews/shots/2017-05-10-slaves-of-molag-mar.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Molag Mar` `🚀 OpenMW` `slave` `encounter`
+
+```
+2024-11-19-slaves-of-molag-mar
+```
+
+> `2017-05-10-slaves-of-molag-mar`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BT59fN0D0tm/)       | 2017-05-10 |       |    68 |       178 |   38.2 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_285)  | 2017-05-10 |   121 |     7 |        56 |   12.5 |
+| [`ig`](https://instagram.com/p/DCkAFPgtNik/)       | 2024-11-19 |       |       |      1482 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1905) | 2024-11-19 |       |       |      1006 |        |
+| [`tg`](https://t.me/mwscr/600)                     | 2024-11-19 |       |       |       574 |        |
+|                                                    |            |       |       |      3062 |  25.35 |
+
+#### Comments
+
+- `ig` <ins title="2017-05-10-11-05-11">syntax3rrur</ins> Free all the slaves!
 
 ## <span id="2024-11-18-water-stone">Water Stone</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BX45fQ8jPtc/)       | 2017-08-17 |       |    55 |       193 |   28.5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_396)  | 2017-08-17 |   120 |     6 |        75 |      8 |
-| [`ig`](https://instagram.com/p/DChbQjbp9sK/)       | 2024-11-18 |   272 |    64 |      1483 |   4.32 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1904) | 2024-11-18 |   189 |    28 |      1007 |   2.88 |
-| [`tg`](https://t.me/mwscr/599)                     | 2024-11-18 |   140 |    40 |       573 |   6.98 |
-|                                                    |            |   601 |   132 |      3063 |  10.13 |
+| [`ig`](https://instagram.com/p/DChbQjbp9sK/)       | 2024-11-18 |   283 |    65 |      1483 |   4.38 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1904) | 2024-11-18 |   190 |    28 |      1007 |   2.88 |
+| [`tg`](https://t.me/mwscr/599)                     | 2024-11-18 |   143 |    41 |       573 |   7.16 |
+|                                                    |            |   616 |   134 |      3063 |  10.18 |
 
 #### Comments
 
@@ -62,9 +93,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_937)  | 2018-09-21 |   376 |    23 |       235 |   9.79 |
 | [`tg`](https://t.me/mwscr/41)                      | 2018-09-21 |   194 |     4 |           |        |
 | [`ig`](https://instagram.com/p/DCe2U1yuhaK/)       | 2024-11-17 |   369 |   100 |      1484 |   6.74 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1901) | 2024-11-17 |   212 |    30 |      1007 |   2.98 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1901) | 2024-11-17 |   213 |    30 |      1007 |   2.98 |
 | [`tg`](https://t.me/mwscr/598)                     | 2024-11-17 |   184 |    50 |       573 |   8.73 |
-|                                                    |            |   765 |   180 |      3064 |  10.73 |
+|                                                    |            |   766 |   180 |      3064 |  10.73 |
 
 #### Comments
 
@@ -127,10 +158,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BbXeFiSjc2N/)       | 2017-11-11 |       |    63 |       233 |  27.04 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_496)  | 2017-11-11 |   159 |    15 |        98 |  15.31 |
-| [`ig`](https://instagram.com/p/DCZs6mlAgIM/)       | 2024-11-15 |   442 |   101 |      1480 |   6.82 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1895) | 2024-11-15 |   209 |    36 |      1006 |   3.58 |
-| [`tg`](https://t.me/mwscr/596)                     | 2024-11-15 |   198 |    57 |       572 |   9.97 |
-|                                                    |            |   849 |   194 |      3058 |  12.54 |
+| [`ig`](https://instagram.com/p/DCZs6mlAgIM/)       | 2024-11-15 |   449 |   103 |      1480 |   6.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1895) | 2024-11-15 |   231 |    37 |      1006 |   3.68 |
+| [`tg`](https://t.me/mwscr/596)                     | 2024-11-15 |   219 |    58 |       572 |  10.14 |
+|                                                    |            |   899 |   198 |      3058 |  12.62 |
 
 ## <span id="2024-11-14-nix-hounds-staring-at-stars">Nix-Hounds Staring at Stars</span>
 
