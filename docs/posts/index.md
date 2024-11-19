@@ -28,10 +28,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BX45fQ8jPtc/)       | 2017-08-17 |       |    55 |       193 |   28.5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_396)  | 2017-08-17 |   120 |     6 |        75 |      8 |
-| [`ig`](https://instagram.com/p/DChbQjbp9sK/)       | 2024-11-18 |   215 |    56 |      1483 |   3.78 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1904) | 2024-11-18 |   135 |    21 |      1007 |   2.18 |
-| [`tg`](https://t.me/mwscr/599)                     | 2024-11-18 |   117 |    38 |       573 |   6.63 |
-|                                                    |            |   467 |   115 |      3063 |   9.82 |
+| [`ig`](https://instagram.com/p/DChbQjbp9sK/)       | 2024-11-18 |   222 |    56 |      1483 |   3.78 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1904) | 2024-11-18 |   145 |    21 |      1007 |   2.18 |
+| [`tg`](https://t.me/mwscr/599)                     | 2024-11-18 |   120 |    39 |       573 |   6.81 |
+|                                                    |            |   487 |   116 |      3063 |   9.85 |
+
+#### Comments
+
+- `tg` <ins title="2024-11-19-06-43-24">Gatemate7</ins> graphics is shit in this dude
+  - <ins title="2024-11-19-06-52-49">C4H6O4</ins> I don&#39;t agree with your statement
 
 ## <span id="2024-11-17-wolverine-hall">Wolverine Hall</span>
 
@@ -56,10 +61,10 @@
 | [`ig`](https://instagram.com/p/Bn_zpl2B42D/)       | 2018-09-21 |       |   108 |       425 |  25.41 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_937)  | 2018-09-21 |   376 |    23 |       235 |   9.79 |
 | [`tg`](https://t.me/mwscr/41)                      | 2018-09-21 |   194 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DCe2U1yuhaK/)       | 2024-11-17 |   360 |    96 |      1484 |   6.47 |
+| [`ig`](https://instagram.com/p/DCe2U1yuhaK/)       | 2024-11-17 |   360 |    97 |      1484 |   6.54 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1901) | 2024-11-17 |   198 |    28 |      1007 |   2.78 |
-| [`tg`](https://t.me/mwscr/598)                     | 2024-11-17 |   174 |    50 |       573 |   8.73 |
-|                                                    |            |   732 |   174 |      3064 |  10.63 |
+| [`tg`](https://t.me/mwscr/598)                     | 2024-11-17 |   175 |    50 |       573 |   8.73 |
+|                                                    |            |   733 |   175 |      3064 |  10.65 |
 
 #### Comments
 
