@@ -4882,17 +4882,17 @@
       id: DCkAFPgtNik
       mediaId: '18024932996262061'
       published: 2024-11-19-18-10-56
-      updated: 2024-11-20-18-10-32
+      updated: 2024-11-20-19-01-12
       followers: 1482
       likes: 59
-      views: 245
+      views: 246
     - service: vk
       id: 1905
       published: 2024-11-19-18-11-05
-      updated: 2024-11-20-18-10-32
+      updated: 2024-11-20-19-01-13
       followers: 1006
       likes: 26
-      views: 227
+      views: 229
       reposts: 1
       comments: !c |-
         GzQBYJwFdjsy3ILwhFFafLEk5URE4G2Er5NBICMOM06wIPHk3uVWyMFULBFVJnqDr+V/OvfjMonS
@@ -4902,10 +4902,10 @@
     - service: tg
       id: 600
       published: 2024-11-19-18-11-14
-      updated: 2024-11-20-18-10-32
+      updated: 2024-11-20-19-01-14
       followers: 574
-      likes: 46
-      views: 156
+      likes: 47
+      views: 166
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
@@ -11092,24 +11092,24 @@
       id: DCZs6mlAgIM
       mediaId: '18160625998323779'
       published: 2024-11-15-18-11-03
-      updated: 2024-11-19-18-10-40
+      updated: 2024-11-20-19-01-13
       followers: 1480
-      likes: 103
-      views: 449
+      likes: 105
+      views: 460
     - service: vk
       id: 1895
       published: 2024-11-15-18-11-10
-      updated: 2024-11-19-18-10-42
+      updated: 2024-11-20-19-01-14
       followers: 1006
       likes: 37
-      views: 231
+      views: 246
     - service: tg
       id: 596
       published: 2024-11-15-18-11-17
-      updated: 2024-11-19-18-10-42
+      updated: 2024-11-20-19-01-14
       followers: 572
-      likes: 58
-      views: 219
+      likes: 60
+      views: 239
 2017-11-12-ice-shivers:
   title: Ice Shivers
   titleRu: Ледяные обломки
@@ -12693,15 +12693,24 @@
       id: DCmk2wWtnXB
       mediaId: '17933764388950629'
       published: 2024-11-20-18-10-45
+      updated: 2024-11-20-19-01-12
       followers: 1483
+      likes: 23
+      views: 44
     - service: vk
       id: 1909
       published: 2024-11-20-18-10-51
+      updated: 2024-11-20-19-01-12
       followers: 1007
+      likes: 4
+      views: 36
     - service: tg
       id: 601
       published: 2024-11-20-18-10-57
+      updated: 2024-11-20-19-01-13
       followers: 574
+      likes: 20
+      views: 71
 2017-12-29-crab-creek:
   title: Crab Creek
   titleRu: Крабовый залив
