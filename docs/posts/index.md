@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`267 items`
+`268 items`
+
+## <span id="2024-11-20-triple-storage">Triple Storage</span>
+
+`RU` Тройные запасы
+
+<a href="https://instagram.com/p/BdQTanFD4Sm/" title="2017-12-28-triple-storage"><img alt="store:/shots/2017-12-28-triple-storage.png" src="../../assets/previews/shots/2017-12-28-triple-storage.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-11-20-triple-storage&postLocation=)</code> `🚀 OpenMW` `candle`
+
+```
+2024-11-20-triple-storage
+```
+
+> `2017-12-28-triple-storage`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BdQTanFD4Sm/)       | 2017-12-28 |       |    76 |       262 |  29.01 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_555)  | 2017-12-28 |   163 |    11 |       115 |   9.57 |
+| [`ig`](https://instagram.com/p/DCmk2wWtnXB/)       | 2024-11-20 |       |       |      1483 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1909) | 2024-11-20 |       |       |      1007 |        |
+| [`tg`](https://t.me/mwscr/601)                     | 2024-11-20 |       |       |       574 |        |
+|                                                    |            |       |       |      3064 |  19.29 |
+
+#### Comments
+
+- `vk` <ins title="2018-01-19-17-50-01">pinchinium</ins> Это я на Новый год запасся.
 
 ## <span id="2024-11-19-slaves-of-molag-mar">Slaves of Molag Mar</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BT59fN0D0tm/)       | 2017-05-10 |       |    68 |       178 |   38.2 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_285)  | 2017-05-10 |   121 |     7 |        56 |   12.5 |
-| [`ig`](https://instagram.com/p/DCkAFPgtNik/)       | 2024-11-19 |   238 |    58 |      1482 |   3.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1905) | 2024-11-19 |   222 |    26 |      1006 |   2.68 |
-| [`tg`](https://t.me/mwscr/600)                     | 2024-11-19 |   155 |    46 |       574 |   8.01 |
-|                                                    |            |   615 |   130 |      3062 |  13.06 |
+| [`ig`](https://instagram.com/p/DCkAFPgtNik/)       | 2024-11-19 |   245 |    59 |      1482 |   3.98 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1905) | 2024-11-19 |   227 |    26 |      1006 |   2.68 |
+| [`tg`](https://t.me/mwscr/600)                     | 2024-11-19 |   156 |    46 |       574 |   8.01 |
+|                                                    |            |   628 |   131 |      3062 |  13.08 |
 
 #### Comments
 
@@ -64,8 +95,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_396)  | 2017-08-17 |   120 |     6 |        75 |      8 |
 | [`ig`](https://instagram.com/p/DChbQjbp9sK/)       | 2024-11-18 |   378 |    67 |      1483 |   4.52 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1904) | 2024-11-18 |   218 |    29 |      1007 |   2.98 |
-| [`tg`](https://t.me/mwscr/599)                     | 2024-11-18 |   194 |    48 |       573 |   8.38 |
-|                                                    |            |   790 |   144 |      3063 |  10.47 |
+| [`tg`](https://t.me/mwscr/599)                     | 2024-11-18 |   195 |    48 |       573 |   8.38 |
+|                                                    |            |   791 |   144 |      3063 |  10.47 |
 
 #### Comments
 
