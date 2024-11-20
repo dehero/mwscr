@@ -410,7 +410,7 @@
     - service: vk
       id: 1444
       published: 2024-03-12-18-17-53
-      updated: 2024-11-13-14-07-45
+      updated: 2024-11-20-15-08-08
       followers: 896
       likes: 33
       views: 276
@@ -418,10 +418,10 @@
     - service: tg
       id: 343
       published: 2024-03-12-18-18-01
-      updated: 2024-11-13-14-07-45
+      updated: 2024-11-20-15-08-06
       followers: 350
       likes: 64
-      views: 516
+      views: 517
       comments: !c CxCAkZPLQnjjPwNOAACx2YXYrdmF2K8g2K7Yp9mE2K+jV293Aw==
 2024-03-13-haze: 2017-06-23-haze
 2024-03-14-night-street-of-balmora: 2017-04-02-night-street-of-balmora
@@ -537,7 +537,7 @@
     - service: vk
       id: 1459
       published: 2024-03-19-18-11-25
-      updated: 2024-11-13-14-07-45
+      updated: 2024-11-20-15-08-07
       followers: 896
       likes: 43
       views: 275
@@ -545,7 +545,7 @@
     - service: tg
       id: 351
       published: 2024-03-19-18-11-30
-      updated: 2024-11-13-14-07-45
+      updated: 2024-11-20-15-08-06
       followers: 352
       likes: 69
       views: 471

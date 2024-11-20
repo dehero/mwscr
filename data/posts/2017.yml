@@ -160,7 +160,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2024-11-13-14-07-47
+      updated: 2024-11-20-15-08-09
       followers: 894
       likes: 47
       views: 366
@@ -169,7 +169,7 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2024-11-13-14-07-47
+      updated: 2024-11-20-15-08-07
       followers: 337
       likes: 91
       views: 609
@@ -4882,17 +4882,17 @@
       id: DCkAFPgtNik
       mediaId: '18024932996262061'
       published: 2024-11-19-18-10-56
-      updated: 2024-11-20-14-07-43
+      updated: 2024-11-20-15-08-03
       followers: 1482
       likes: 56
-      views: 222
+      views: 225
     - service: vk
       id: 1905
       published: 2024-11-19-18-11-05
-      updated: 2024-11-20-14-07-44
+      updated: 2024-11-20-15-08-03
       followers: 1006
-      likes: 23
-      views: 208
+      likes: 24
+      views: 212
       reposts: 1
       comments: !c |-
         G+MAaCwKbGOp8IGW1zwHjuEPNpKUiAi8jfB1MhjaMNMSTBJP7rVuIQepKHGeP+NtNRk8N+R46fUC
@@ -4902,10 +4902,10 @@
     - service: tg
       id: 600
       published: 2024-11-19-18-11-14
-      updated: 2024-11-20-14-07-45
+      updated: 2024-11-20-15-08-04
       followers: 574
       likes: 44
-      views: 148
+      views: 150
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
@@ -8249,22 +8249,22 @@
       id: DChbQjbp9sK
       mediaId: '18173973163309337'
       published: 2024-11-18-18-10-40
-      updated: 2024-11-20-14-07-44
+      updated: 2024-11-20-15-08-04
       followers: 1483
       likes: 67
-      views: 373
+      views: 376
     - service: vk
       id: 1904
       published: 2024-11-18-18-10-48
-      updated: 2024-11-20-14-07-45
+      updated: 2024-11-20-15-08-05
       followers: 1007
       likes: 29
-      views: 215
+      views: 217
       reposts: 1
     - service: tg
       id: 599
       published: 2024-11-18-18-10-58
-      updated: 2024-11-20-14-07-45
+      updated: 2024-11-20-15-08-05
       followers: 573
       likes: 48
       views: 190
@@ -10278,7 +10278,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2024-11-13-14-07-44
+      updated: 2024-11-20-15-08-06
       followers: 904
       likes: 44
       views: 295
@@ -11256,18 +11256,18 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2024-11-13-14-07-46
+      updated: 2024-11-20-15-08-08
       followers: 895
       likes: 35
-      views: 291
+      views: 292
       reposts: 2
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2024-11-13-14-07-46
+      updated: 2024-11-20-15-08-07
       followers: 343
       likes: 69
-      views: 528
+      views: 529
       comments: !c ixOAkZPLQnjhAF9lAACucXVpbnR1c19mYWJpdXOt8J+Pg+KAjeKZgu+4jwM=
 2017-11-16-cozy-workplace-in-the-basement:
   title: Cozy Workplace in the Basement
