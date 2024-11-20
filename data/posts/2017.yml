@@ -1516,7 +1516,7 @@
     - service: vk
       id: 1532
       published: 2024-05-14-18-18-38
-      updated: 2024-11-13-09-08-09
+      updated: 2024-11-20-09-09-00
       followers: 915
       likes: 47
       views: 327
@@ -1524,7 +1524,7 @@
     - service: tg
       id: 408
       published: 2024-05-14-18-18-46
-      updated: 2024-11-13-09-08-08
+      updated: 2024-11-20-09-08-58
       followers: 370
       likes: 61
       views: 439
@@ -4882,29 +4882,30 @@
       id: DCkAFPgtNik
       mediaId: '18024932996262061'
       published: 2024-11-19-18-10-56
-      updated: 2024-11-20-08-11-10
+      updated: 2024-11-20-09-08-54
       followers: 1482
-      likes: 51
-      views: 192
+      likes: 52
+      views: 200
     - service: vk
       id: 1905
       published: 2024-11-19-18-11-05
-      updated: 2024-11-20-08-11-11
+      updated: 2024-11-20-09-08-55
       followers: 1006
-      likes: 20
-      views: 171
+      likes: 21
+      views: 176
       reposts: 1
       comments: !c |-
-        G4AA+J0Jtq2I9cI4vMdEop7+9gkfUOghNpEknuxBa3MZV6serkStnT/PpoWSj/i+ZPnNGUxK2TfV
-        QNMBKOKSWgogl06f93c2iM5392EqXlIrNSvzj97gNM1ctZU7opNIAqHuGGI8nxZGljLaUEFo0bh6
-        AQ==
+        G+MAaCwKbGOp8IGW1zwHjuEPNpKUiAi8jfB1MhjaMNMSTBJP7rVuIQepKHGeP+NtNRk8N+R46fUC
+        UWEdIFdeKTSUSJ5jXNsCPBjNk6423o7Ti+fp/fx8LC0Y30myOvRFX/ds1woNg6i+oNlGxmLBqgdx
+        jhK9lqB3FJJ0XEjbgMEKOyETtm0HHi6B3X5rxntpLMtByA0kAr9s2xmouxMX2vSQbbJrcCWh2wIJ
+        fcqc
     - service: tg
       id: 600
       published: 2024-11-19-18-11-14
-      updated: 2024-11-20-08-11-11
+      updated: 2024-11-20-09-08-55
       followers: 574
-      likes: 42
-      views: 138
+      likes: 43
+      views: 144
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
@@ -8248,25 +8249,25 @@
       id: DChbQjbp9sK
       mediaId: '18173973163309337'
       published: 2024-11-18-18-10-40
-      updated: 2024-11-20-08-11-11
+      updated: 2024-11-20-09-08-54
       followers: 1483
       likes: 66
-      views: 349
+      views: 355
     - service: vk
       id: 1904
       published: 2024-11-18-18-10-48
-      updated: 2024-11-20-08-11-12
+      updated: 2024-11-20-09-08-55
       followers: 1007
       likes: 28
-      views: 207
+      views: 209
       reposts: 1
     - service: tg
       id: 599
       published: 2024-11-18-18-10-58
-      updated: 2024-11-20-08-11-12
+      updated: 2024-11-20-09-08-56
       followers: 573
       likes: 48
-      views: 186
+      views: 188
       comments: !c |-
         G2YAoI3EOIZy8WWIoRih0o/OHdn/g5f/0gZcSWsbaIJGkgxojnHofytOG082bMCBQxD5OIiv1+jV
         JxTs5hzmT3bC8gIchl0/t0tf/Hy+iygucZx6xKs8f4KDaD2sCjVt6SeJw84NkgIA
@@ -11668,7 +11669,7 @@
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
-      updated: 2024-11-13-09-08-11
+      updated: 2024-11-20-09-09-02
       followers: 909
       likes: 40
       views: 303
@@ -11679,7 +11680,7 @@
     - service: tg
       id: 387
       published: 2024-04-23-18-17-22
-      updated: 2024-11-13-09-08-09
+      updated: 2024-11-20-09-09-00
       followers: 355
       likes: 61
       views: 1143
