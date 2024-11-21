@@ -351,7 +351,7 @@
       id: C-YOaKVtdQ9
       mediaId: '18017034962210431'
       published: 2024-08-07-18-19-40
-      updated: 2024-11-14-18-10-38
+      updated: 2024-11-21-19-02-07
       followers: 1437
       likes: 188
       views: 1088
@@ -1199,7 +1199,7 @@
       id: C-VpvfoNu-W
       mediaId: '17979463679710227'
       published: 2024-08-06-18-20-44
-      updated: 2024-11-14-18-10-39
+      updated: 2024-11-21-19-02-08
       followers: 1435
       likes: 78
       views: 481
@@ -1443,7 +1443,7 @@
       id: C-TE6hwpIqR
       mediaId: '17977294379733597'
       published: 2024-08-05-18-20-28
-      updated: 2024-11-14-18-10-40
+      updated: 2024-11-21-19-02-09
       followers: 1434
       likes: 124
       views: 509
@@ -1549,15 +1549,27 @@
       id: DCpJqGDManq
       mediaId: '18062772853775282'
       published: 2024-11-21-18-10-49
+      updated: 2024-11-21-19-01-55
       followers: 1483
+      likes: 17
+      views: 26
     - service: vk
       id: 1913
       published: 2024-11-21-18-10-57
+      updated: 2024-11-21-19-01-56
       followers: 1008
+      likes: 6
+      views: 42
+      comments: !c |-
+        G3YA+I3UVneQ7uh/zrWRjXhio6iwXVmlnZ11PM//8fQSugYeNuDMAqKEVtppwJudd+ApyK/Te9J5
+        ZK1cEEs+iHLXZm3Z0k3NVZQfAzMsw52yhx1l45a1bJ60xyvcsEU5wBIecMQa3LCCZay/ln8xBQ==
     - service: tg
       id: 602
       published: 2024-11-21-18-11-06
+      updated: 2024-11-21-19-01-56
       followers: 573
+      likes: 20
+      views: 59
 2018-02-14-shipwreck-at-the-estuary-of-foyada:
   title: Shipwreck at the Estuary of Foyada
   titleRu: Кораблекрушение в устье фояды
@@ -1877,7 +1889,7 @@
       id: C-f8spUt9pE
       mediaId: '17898003072024605'
       published: 2024-08-10-18-18-47
-      updated: 2024-11-14-18-10-34
+      updated: 2024-11-21-19-02-03
       followers: 1436
       likes: 71
       views: 319
@@ -3676,7 +3688,7 @@
       id: C-dYCEEz5hV
       mediaId: '17879270427099815'
       published: 2024-08-09-18-19-55
-      updated: 2024-11-14-18-10-35
+      updated: 2024-11-21-19-02-04
       followers: 1437
       likes: 84
       views: 387
@@ -6149,10 +6161,10 @@
       id: C-Qf406SXhK
       mediaId: '18036187178042222'
       published: 2024-08-04-18-18-26
-      updated: 2024-11-14-18-10-41
+      updated: 2024-11-21-19-02-11
       followers: 1434
       likes: 96
-      views: 509
+      views: 513
       comments: !c CxCAkZPLQnkR6hHWgACwam9hb3dvaWNoaW5ldnNraaRyZWFsAw==
     - service: vk
       id: 1667
@@ -7017,7 +7029,7 @@
       id: C-N7Ma0tkLR
       mediaId: '18002253002427793'
       published: 2024-08-03-18-19-19
-      updated: 2024-11-14-18-10-41
+      updated: 2024-11-21-19-02-11
       followers: 1434
       likes: 87
       views: 381
@@ -8271,7 +8283,7 @@
       id: C-azUnhJNPE
       mediaId: '18042652126778108'
       published: 2024-08-08-18-20-40
-      updated: 2024-11-14-18-10-37
+      updated: 2024-11-21-19-02-06
       followers: 1437
       likes: 97
       views: 465
