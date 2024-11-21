@@ -2438,21 +2438,21 @@
     - service: vk
       id: 1541
       published: 2024-05-22-18-19-25
-      updated: 2024-11-14-11-03-04
+      updated: 2024-11-21-11-03-26
       followers: 917
       likes: 31
       views: 257
       reposts: 1
       comments: !c |-
-        CxuAkZPLQnj6MWl/AACrUG9sdW5vc3puaWO/0J7QvdC4INC/0L7QutCw0LbRg9GCINC/0YPRgtGM
-        KQM=
+        CxyAkZPLQnj6MWl/AACtQ2hlcm5vc290aW5lY7/QntC90Lgg0L/QvtC60LDQttGD0YIg0L/Rg9GC
+        0YwpAw==
     - service: tg
       id: 416
       published: 2024-05-22-18-19-31
-      updated: 2024-11-14-11-03-03
+      updated: 2024-11-21-11-03-24
       followers: 375
       likes: 57
-      views: 454
+      views: 455
 2017-03-08-nchurdamz-at-the-sunset:
   title: Nchurdamz at the Sunset
   titleRu: Нчурдамц на закате
@@ -4540,7 +4540,7 @@
     - service: vk
       id: 1569
       published: 2024-06-05-18-19-31
-      updated: 2024-11-14-11-03-02
+      updated: 2024-11-21-11-03-24
       followers: 916
       likes: 45
       views: 319
@@ -4552,7 +4552,7 @@
     - service: tg
       id: 430
       published: 2024-06-05-18-19-36
-      updated: 2024-11-14-11-03-02
+      updated: 2024-11-21-11-03-23
       followers: 385
       likes: 70
       views: 522
@@ -4882,17 +4882,17 @@
       id: DCkAFPgtNik
       mediaId: '18024932996262061'
       published: 2024-11-19-18-10-56
-      updated: 2024-11-21-10-08-43
+      updated: 2024-11-21-11-03-19
       followers: 1482
-      likes: 62
-      views: 277
+      likes: 63
+      views: 278
     - service: vk
       id: 1905
       published: 2024-11-19-18-11-05
-      updated: 2024-11-21-10-08-44
+      updated: 2024-11-21-11-03-20
       followers: 1006
       likes: 28
-      views: 258
+      views: 261
       reposts: 1
       comments: !c |-
         GzUDQCwLeENq8RuXOIYavU4Raq3DX9yE4+WIf77u2RI+/TM7C4F84jDjBAsST85Va0OhBQJhAYWY
@@ -4906,10 +4906,10 @@
     - service: tg
       id: 600
       published: 2024-11-19-18-11-14
-      updated: 2024-11-21-10-08-44
+      updated: 2024-11-21-11-03-20
       followers: 574
       likes: 47
-      views: 182
+      views: 183
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
@@ -5687,14 +5687,14 @@
     - service: vk
       id: 1612
       published: 2024-07-03-18-19-45
-      updated: 2024-11-14-11-02-59
+      updated: 2024-11-21-11-03-21
       followers: 917
       likes: 28
-      views: 232
+      views: 233
     - service: tg
       id: 458
       published: 2024-07-03-18-19-53
-      updated: 2024-11-14-11-03-00
+      updated: 2024-11-21-11-03-21
       followers: 391
       likes: 50
       views: 443
@@ -6303,10 +6303,10 @@
     - service: tg
       id: 487
       published: 2024-08-01-03-18-14
-      updated: 2024-11-14-11-03-00
+      updated: 2024-11-21-11-03-21
       followers: 423
       likes: 60
-      views: 756
+      views: 759
       comments: !c Cw6AkZPLQnkTOt+EgACscHVzdG90aXZldHJhpPCfmIID
     - service: vk
       id: 1663
@@ -10027,14 +10027,14 @@
     - service: vk
       id: 1603
       published: 2024-06-26-18-19-40
-      updated: 2024-11-14-11-03-00
+      updated: 2024-11-21-11-03-22
       followers: 917
       likes: 42
-      views: 261
+      views: 262
     - service: tg
       id: 451
       published: 2024-06-26-18-19-49
-      updated: 2024-11-14-11-03-01
+      updated: 2024-11-21-11-03-22
       followers: 388
       likes: 56
       views: 476
@@ -12697,24 +12697,24 @@
       id: DCmk2wWtnXB
       mediaId: '17933764388950629'
       published: 2024-11-20-18-10-45
-      updated: 2024-11-21-10-08-42
+      updated: 2024-11-21-11-03-18
       followers: 1483
       likes: 65
-      views: 250
+      views: 255
     - service: vk
       id: 1909
       published: 2024-11-20-18-10-51
-      updated: 2024-11-21-10-08-43
+      updated: 2024-11-21-11-03-18
       followers: 1007
       likes: 17
-      views: 130
+      views: 132
     - service: tg
       id: 601
       published: 2024-11-20-18-10-57
-      updated: 2024-11-21-10-08-43
+      updated: 2024-11-21-11-03-19
       followers: 574
       likes: 34
-      views: 140
+      views: 144
       comments: !c ixSAkZPLQnk0uVg3AACx2YXYrdmF2K8g2K7Yp9mE2K+sV2hhdCBpcyB0aGlzAw==
 2017-12-29-crab-creek:
   title: Crab Creek
