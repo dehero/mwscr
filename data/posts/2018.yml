@@ -1549,27 +1549,28 @@
       id: DCpJqGDManq
       mediaId: '18062772853775282'
       published: 2024-11-21-18-10-49
-      updated: 2024-11-21-22-07-43
+      updated: 2024-11-21-23-08-11
       followers: 1483
-      likes: 44
-      views: 123
+      likes: 46
+      views: 130
     - service: vk
       id: 1913
       published: 2024-11-21-18-10-57
-      updated: 2024-11-21-22-07-43
+      updated: 2024-11-21-23-08-11
       followers: 1008
-      likes: 13
-      views: 79
+      likes: 14
+      views: 84
       comments: !c |-
         G3YA+I3UVneQ7uh/zrWRjXhio6iwXVmlnZ11PM//8fQSugYeNuDMAqKEVtppwJudd+ApyK/Te9J5
         ZK1cEEs+iHLXZm3Z0k3NVZQfAzMsw52yhx1l45a1bJ60xyvcsEU5wBIecMQa3LCCZay/ln8xBQ==
     - service: tg
       id: 602
       published: 2024-11-21-18-11-06
-      updated: 2024-11-21-22-07-44
+      updated: 2024-11-21-23-08-12
       followers: 573
       likes: 31
-      views: 121
+      views: 151
+      comments: !c CxWAkZPLQnk1D2GbAACpR2F0ZW1hdGU3tXRoZSBob29kIG9mIG1vcnJvd2luZAM=
 2018-02-14-shipwreck-at-the-estuary-of-foyada:
   title: Shipwreck at the Estuary of Foyada
   titleRu: Кораблекрушение в устье фояды
@@ -10788,17 +10789,17 @@
       id: DAY9Ad4RwAx
       mediaId: '18099947011452446'
       published: 2024-09-26-18-09-39
-      updated: 2024-11-14-23-07-53
+      updated: 2024-11-21-23-08-13
       followers: 1457
       likes: 89
       views: 338
     - service: vk
       id: 1783
       published: 2024-09-26-18-09-47
-      updated: 2024-11-14-23-07-53
+      updated: 2024-11-21-23-08-14
       followers: 958
       likes: 34
-      views: 294
+      views: 298
       comments: !c |-
         GxkDAKwOzJNPorFlM5zvtOnYIkH8P3FPi1fozRb2FzjAgLOmiTBpAw/KElw5lyz4X25nCdVQDBU2
         OZ8Af6puR9tp1bYZJ9nz5UIiHILKg1a3xbrDER+6oRvUcBSEc7qhVJcdJkT+163xBVnBBYGu85Xt
@@ -10811,10 +10812,10 @@
     - service: tg
       id: 546
       published: 2024-09-26-18-09-56
-      updated: 2024-11-14-23-07-53
+      updated: 2024-11-21-23-08-14
       followers: 557
       likes: 67
-      views: 508
+      views: 512
 2018-10-30-stairway-to-god:
   title: Stairway to God
   titleRu: Лестница к богу
