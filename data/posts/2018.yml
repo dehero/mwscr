@@ -444,10 +444,10 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2024-11-15-04-10-15
+      updated: 2024-11-22-04-10-27
       followers: 921
       likes: 44
-      views: 298
+      views: 299
       reposts: 2
     - service: tg
       id: 480
@@ -1549,27 +1549,27 @@
       id: DCpJqGDManq
       mediaId: '18062772853775282'
       published: 2024-11-21-18-10-49
-      updated: 2024-11-22-03-21-29
+      updated: 2024-11-22-04-10-23
       followers: 1483
       likes: 53
-      views: 157
+      views: 161
     - service: vk
       id: 1913
       published: 2024-11-21-18-10-57
-      updated: 2024-11-22-03-21-30
+      updated: 2024-11-22-04-10-25
       followers: 1008
-      likes: 17
-      views: 95
+      likes: 18
+      views: 97
       comments: !c |-
         G3YA+I3UVneQ7uh/zrWRjXhio6iwXVmlnZ11PM//8fQSugYeNuDMAqKEVtppwJudd+ApyK/Te9J5
         ZK1cEEs+iHLXZm3Z0k3NVZQfAzMsw52yhx1l45a1bJ60xyvcsEU5wBIecMQa3LCCZay/ln8xBQ==
     - service: tg
       id: 602
       published: 2024-11-21-18-11-06
-      updated: 2024-11-22-03-21-30
+      updated: 2024-11-22-04-10-25
       followers: 573
       likes: 32
-      views: 182
+      views: 187
       comments: !c CxWAkZPLQnk1D2GbAACpR2F0ZW1hdGU3tXRoZSBob29kIG9mIG1vcnJvd2luZAM=
 2018-02-14-shipwreck-at-the-estuary-of-foyada:
   title: Shipwreck at the Estuary of Foyada
@@ -7157,7 +7157,7 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2024-11-15-04-10-15
+      updated: 2024-11-22-04-10-27
       followers: 402
       likes: 60
       views: 687
