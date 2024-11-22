@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BfJXT4bDfpQ/)       | 2018-02-13 |       |    75 |       286 |  26.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_612)  | 2018-02-13 |   171 |    14 |       131 |  10.69 |
-| [`ig`](https://instagram.com/p/DCpJqGDManq/)       | 2024-11-21 |   177 |    56 |      1483 |   3.78 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1913) | 2024-11-21 |   118 |    19 |      1008 |   1.88 |
-| [`tg`](https://t.me/mwscr/602)                     | 2024-11-21 |   217 |    38 |       573 |   6.63 |
-|                                                    |            |   512 |   113 |      3064 |   9.84 |
+| [`ig`](https://instagram.com/p/DCpJqGDManq/)       | 2024-11-21 |   180 |    57 |      1483 |   3.84 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1913) | 2024-11-21 |   124 |    20 |      1008 |   1.98 |
+| [`tg`](https://t.me/mwscr/602)                     | 2024-11-21 |   221 |    39 |       573 |   6.81 |
+|                                                    |            |   525 |   116 |      3064 |   9.91 |
 
 #### Comments
 
@@ -61,14 +61,16 @@
 | [`ig`](https://instagram.com/p/BdQTanFD4Sm/)       | 2017-12-28 |       |    76 |       262 |  29.01 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_555)  | 2017-12-28 |   163 |    11 |       115 |   9.57 |
 | [`ig`](https://instagram.com/p/DCmk2wWtnXB/)       | 2024-11-20 |   314 |    77 |      1483 |   5.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1909) | 2024-11-20 |   162 |    22 |      1007 |   2.18 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1909) | 2024-11-20 |   163 |    22 |      1007 |   2.18 |
 | [`tg`](https://t.me/mwscr/601)                     | 2024-11-20 |   181 |    41 |       574 |   7.14 |
-|                                                    |            |   657 |   140 |      3064 |  10.62 |
+|                                                    |            |   658 |   140 |      3064 |  10.62 |
 
 #### Comments
 
 - `vk` <ins title="2018-01-19-17-50-01">pinchinium</ins> Это я на Новый год запасся.
 - `tg` <ins title="2024-11-20-21-58-30">محمد خالد</ins> What is this
+  - <ins title="2024-11-22-08-18-24">cross_pilgrim</ins> Triple Storage
+  - <ins title="2024-11-22-08-35-14">Gatemate7</ins> triple storage
 
 ## <span id="2024-11-19-slaves-of-molag-mar">Slaves of Molag Mar</span>
 
