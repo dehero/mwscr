@@ -452,7 +452,7 @@
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2024-11-15-03-21-22
+      updated: 2024-11-22-03-21-36
       followers: 399
       likes: 72
       views: 650
@@ -1549,27 +1549,27 @@
       id: DCpJqGDManq
       mediaId: '18062772853775282'
       published: 2024-11-21-18-10-49
-      updated: 2024-11-22-02-16-19
+      updated: 2024-11-22-03-21-29
       followers: 1483
-      likes: 52
-      views: 150
+      likes: 53
+      views: 157
     - service: vk
       id: 1913
       published: 2024-11-21-18-10-57
-      updated: 2024-11-22-02-16-20
+      updated: 2024-11-22-03-21-30
       followers: 1008
-      likes: 16
-      views: 91
+      likes: 17
+      views: 95
       comments: !c |-
         G3YA+I3UVneQ7uh/zrWRjXhio6iwXVmlnZ11PM//8fQSugYeNuDMAqKEVtppwJudd+ApyK/Te9J5
         ZK1cEEs+iHLXZm3Z0k3NVZQfAzMsw52yhx1l45a1bJ60xyvcsEU5wBIecMQa3LCCZay/ln8xBQ==
     - service: tg
       id: 602
       published: 2024-11-21-18-11-06
-      updated: 2024-11-22-02-16-21
+      updated: 2024-11-22-03-21-30
       followers: 573
       likes: 32
-      views: 179
+      views: 182
       comments: !c CxWAkZPLQnk1D2GbAACpR2F0ZW1hdGU3tXRoZSBob29kIG9mIG1vcnJvd2luZAM=
 2018-02-14-shipwreck-at-the-estuary-of-foyada:
   title: Shipwreck at the Estuary of Foyada
@@ -8298,10 +8298,10 @@
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2024-11-15-02-16-46
+      updated: 2024-11-22-03-21-38
       followers: 927
       likes: 37
-      views: 325
+      views: 326
       reposts: 2
       comments: !c |-
         CyKAkZPLQnkTND+3gACxY2xpZmZyYWNlcnNraWxsZXLZJtCl0L7RgNC60LXRgDog0LzRj9C90Y8g
@@ -8309,10 +8309,10 @@
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2024-11-15-02-16-45
+      updated: 2024-11-22-03-21-35
       followers: 508
       likes: 66
-      views: 609
+      views: 611
       comments: !c CxKAkZPLQnkT2JKcgACpZWx2ZW5qaWlnr3dhbm5hIGxpdmUgaGVyZQM=
 2018-08-29-darius:
   title: Darius
@@ -9841,27 +9841,27 @@
       id: C-s02fCI7m7
       mediaId: '18197312713292587'
       published: 2024-08-15-18-20-29
-      updated: 2024-11-15-03-21-20
+      updated: 2024-11-22-03-21-34
       followers: 1439
-      likes: 96
+      likes: 95
       views: 432
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2024-11-15-03-21-22
+      updated: 2024-11-22-03-21-37
       followers: 932
       likes: 36
-      views: 311
+      views: 313
       comments: !c |-
         iyeAkZTLQnkVdl1GgACyeW91cmVuZW1pZXN3aWxscGF5u9Ci0LDQvCDQutC70LDQvSDQkdC10YDQ
         vdC1P5PLQnkVy9vAAACmcDQwamxhpNC00LAD
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2024-11-15-03-21-21
+      updated: 2024-11-22-03-21-35
       followers: 527
       likes: 60
-      views: 624
+      views: 627
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
