@@ -7130,7 +7130,7 @@
     - service: vk
       id: 1464
       published: 2024-03-22-18-12-46
-      updated: 2024-11-16-20-07-36
+      updated: 2024-11-23-20-07-54
       followers: 896
       likes: 34
       views: 320
@@ -7514,10 +7514,10 @@
     - service: tg
       id: 583
       published: 2024-11-02-18-09-25
-      updated: 2024-11-16-20-07-33
+      updated: 2024-11-23-20-07-51
       followers: 565
-      likes: 58
-      views: 441
+      likes: 59
+      views: 472
       comments: !c |-
         Cx2AkZPLQnku4vuTAACtTG9mdHlkZWx1c2lvbtkgSGFpbCB0byB0aGV5IGFyZSBmYXRoZXIgc3Bs
         aW50ZXID
@@ -9682,7 +9682,7 @@
     - service: vk
       id: 1483
       published: 2024-04-05-18-17-17
-      updated: 2024-11-16-20-07-35
+      updated: 2024-11-23-20-07-52
       followers: 908
       likes: 36
       views: 270
