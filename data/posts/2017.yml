@@ -8915,21 +8915,21 @@
     - service: vk
       id: 1664
       published: 2024-08-02-18-20-03
-      updated: 2024-11-16-05-07-40
+      updated: 2024-11-23-05-08-39
       followers: 925
       likes: 45
-      views: 313
+      views: 314
       reposts: 1
       comments: !c |-
-        izWAkpPLQnkRc1B4gACrUG9sdW5vc3puaWPZOtCQINCy0LXQtNGMINGB0L7Qu9GB0YLRhdC10LnQ
-        vCDRg9C20LUg0LrQsNC6INGA0L7QtNC90L7QuSmTy0J5E3+GeAAAqXZsYWRrcjExNKTwn5iUAw==
+        izaAkpPLQnkRc1B4gACtQ2hlcm5vc290aW5lY9k60JAg0LLQtdC00Ywg0YHQvtC70YHRgtGF0LXQ
+        udC8INGD0LbQtSDQutCw0Log0YDQvtC00L3QvtC5KZPLQnkTf4Z4AACpdmxhZGtyMTE0pPCfmJQD
     - service: tg
       id: 488
       published: 2024-08-02-18-20-10
-      updated: 2024-11-16-05-07-39
+      updated: 2024-11-23-05-08-37
       followers: 428
       likes: 66
-      views: 683
+      views: 685
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки

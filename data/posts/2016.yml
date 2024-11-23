@@ -506,10 +506,10 @@
     - service: vk
       id: 1644
       published: 2024-07-19-18-20-33
-      updated: 2024-11-16-04-09-25
+      updated: 2024-11-23-05-08-39
       followers: 919
       likes: 49
-      views: 335
+      views: 336
       reposts: 1
       comments: !c |-
         Cx+AkZPLQnkNGxLUAACrbG9tYWV2X2xpdmXZJsKr0K3QuSwg0LzQtdC90Y8g0L/QvtC00L7QttC0
@@ -517,10 +517,10 @@
     - service: tg
       id: 474
       published: 2024-07-19-18-20-40
-      updated: 2024-11-16-04-09-25
+      updated: 2024-11-23-05-08-38
       followers: 400
       likes: 62
-      views: 567
+      views: 568
 2016-11-30-the-road-most-travelled:
   title: The Road Most Travelled
   titleRu: Самая знакомая дорога
