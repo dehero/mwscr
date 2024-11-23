@@ -1549,24 +1549,24 @@
       id: DCpJqGDManq
       mediaId: '18062772853775282'
       published: 2024-11-21-18-10-49
-      updated: 2024-11-23-17-01-55
+      updated: 2024-11-23-18-10-06
       followers: 1483
       likes: 79
-      views: 282
+      views: 283
     - service: vk
       id: 1913
       published: 2024-11-21-18-10-57
-      updated: 2024-11-23-17-01-55
+      updated: 2024-11-23-18-10-06
       followers: 1008
       likes: 22
-      views: 174
+      views: 176
       comments: !c |-
         G3YA+I3UVneQ7uh/zrWRjXhio6iwXVmlnZ11PM//8fQSugYeNuDMAqKEVtppwJudd+ApyK/Te9J5
         ZK1cEEs+iHLXZm3Z0k3NVZQfAzMsw52yhx1l45a1bJ60xyvcsEU5wBIecMQa3LCCZay/ln8xBQ==
     - service: tg
       id: 602
       published: 2024-11-21-18-11-06
-      updated: 2024-11-23-17-01-56
+      updated: 2024-11-23-18-10-05
       followers: 573
       likes: 49
       views: 303
@@ -8933,6 +8933,19 @@
       updated: 2024-11-20-02-16-27
       likes: 4
       views: 181
+    - service: ig
+      id: DCuTMlHpGG3
+      mediaId: '18257994724257589'
+      published: 2024-11-23-18-10-21
+      followers: 1482
+    - service: vk
+      id: 1916
+      published: 2024-11-23-18-10-28
+      followers: 1008
+    - service: tg
+      id: 604
+      published: 2024-11-23-18-10-35
+      followers: 575
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище

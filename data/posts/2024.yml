@@ -770,7 +770,7 @@
     - service: tg
       id: 361
       published: 2024-03-29-18-11-09
-      updated: 2024-11-16-18-09-20
+      updated: 2024-11-23-18-10-09
       followers: 354
       likes: 56
       views: 459
@@ -1231,10 +1231,10 @@
     - service: tg
       id: 383
       published: 2024-04-19-18-17-19
-      updated: 2024-11-16-18-09-19
+      updated: 2024-11-23-18-10-08
       followers: 354
       likes: 65
-      views: 436
+      views: 437
 2024-04-20-fallen-sanctuary:
   title: Fallen Sanctuary
   titleRu: Павшее святилище
@@ -1389,7 +1389,7 @@
     - service: vk
       id: 1510
       published: 2024-04-26-18-17-39
-      updated: 2024-11-16-18-09-21
+      updated: 2024-11-23-18-10-09
       followers: 910
       likes: 28
       views: 263
@@ -1397,10 +1397,10 @@
     - service: tg
       id: 390
       published: 2024-04-26-18-17-46
-      updated: 2024-11-16-18-09-19
+      updated: 2024-11-23-18-10-08
       followers: 354
       likes: 62
-      views: 476
+      views: 477
 2024-04-27-sunset-over-the-lava-river: 2018-05-03-sunset-over-the-lava-river
 2024-04-28-ebonheart-towers: 2016-12-22-ebonheart-towers
 2024-04-29-all-paths-lead-left:
@@ -1468,7 +1468,7 @@
     - service: vk
       id: 1517
       published: 2024-05-03-18-18-06
-      updated: 2024-11-16-18-09-20
+      updated: 2024-11-23-18-10-08
       followers: 912
       likes: 35
       views: 277
@@ -1476,10 +1476,10 @@
     - service: tg
       id: 397
       published: 2024-05-03-18-18-12
-      updated: 2024-11-16-18-09-18
+      updated: 2024-11-23-18-10-07
       followers: 366
       likes: 59
-      views: 534
+      views: 535
       comments: !c ixOAkZPLQnj0A30VgACrYm9icm92bmlrb3awSyBQIEEgQyBVIEIg0YvQuQM=
 2024-05-04-ahnassi:
   title: Ahnassi
@@ -2745,3 +2745,4 @@
 2024-11-20-triple-storage: 2017-12-28-triple-storage
 2024-11-21-urshilaku-camp: 2018-02-13-urshilaku-camp
 2024-11-22-tel-fyr: 2019-03-11-tel-fyr
+2024-11-23-forager: 2018-09-12-forager
