@@ -678,10 +678,10 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2024-11-16-02-14-04
+      updated: 2024-11-23-03-18-35
       followers: 943
       likes: 33
-      views: 332
+      views: 334
       reposts: 2
       comments: !c |-
         G9oCAKwK7DbyC53aVXL0CN5VcRAVtmgoOTn1l+y/FTiUxoEwOARKYqrVqQh9jqvQZ7CrxzMcL6oV
@@ -694,15 +694,15 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2024-11-16-02-14-02
+      updated: 2024-11-23-03-18-33
       followers: 551
       likes: 66
-      views: 552
+      views: 555
       comments: !c |-
-        G9EAYIyUbsI8A645gjVBtc//m1b2toiwUaRNMO/wxbbWuVFCJlIM9X7iFOVucKIx5hBGLbTppBtO
-        tOfw+Nwit9TaMhmfA4b1lHsV7JBS8l9S0pmkGYYDbLDsxAdYYscJoFjCAdGQE8JkkWVsLIA9lpyg
-        kyUARLKARrpjHm5nF1UyeYya6cZi3iCBhXy70GcIV8iej6WWj7HuMS/Nf7JgB0HIG5IuaBlVPSKe
-        eshjGwU=
+        G84AYByJ6fYBWTj4MxXBP3C5I7hNcK0llKVpNMaycGOC832y2jo3SshEiqHeT5yi3CZHQNz+LWg7
+        aMs8DCU3ONEYcwijEtp014n2GBvPFn0puTyfnaNjnoqvsu1KBY4U9CdwoLZqLh+oqr4LKFU5kEYu
+        YqqiGpsFNFTVha6qAJIq06Q1Vole9iktYPX3WXcbJJjGj3k+I66Qg4/RfYzNkHnp/HNlO+YJw0Fe
+        Zkc8eshTjwI=
     - service: ig
       id: C_sBQlKssUQ
       mediaId: '18092210938479247'
@@ -1549,14 +1549,14 @@
       id: DCpJqGDManq
       mediaId: '18062772853775282'
       published: 2024-11-21-18-10-49
-      updated: 2024-11-23-02-12-14
+      updated: 2024-11-23-03-18-33
       followers: 1483
       likes: 74
-      views: 255
+      views: 256
     - service: vk
       id: 1913
       published: 2024-11-21-18-10-57
-      updated: 2024-11-23-02-12-14
+      updated: 2024-11-23-03-18-32
       followers: 1008
       likes: 22
       views: 168
@@ -1566,10 +1566,10 @@
     - service: tg
       id: 602
       published: 2024-11-21-18-11-06
-      updated: 2024-11-23-02-12-13
+      updated: 2024-11-23-03-18-31
       followers: 573
       likes: 46
-      views: 289
+      views: 291
       comments: !c CxWAkZPLQnk1D2GbAACpR2F0ZW1hdGU3tXRoZSBob29kIG9mIG1vcnJvd2luZAM=
 2018-02-14-shipwreck-at-the-estuary-of-foyada:
   title: Shipwreck at the Estuary of Foyada
