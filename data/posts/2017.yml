@@ -4316,10 +4316,10 @@
     - service: tg
       id: 433
       published: 2024-06-08-18-18-44
-      updated: 2024-11-17-04-09-32
+      updated: 2024-11-24-05-08-38
       followers: 384
       likes: 55
-      views: 463
+      views: 464
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
   titleRu: Мрачный курган
@@ -4595,18 +4595,18 @@
     - service: vk
       id: 1705
       published: 2024-08-24-18-18-18
-      updated: 2024-11-17-04-09-29
+      updated: 2024-11-24-05-08-35
       followers: 940
       likes: 35
-      views: 297
+      views: 299
       reposts: 1
     - service: tg
       id: 511
       published: 2024-08-24-18-18-25
-      updated: 2024-11-17-04-09-28
+      updated: 2024-11-24-05-08-34
       followers: 541
       likes: 55
-      views: 546
+      views: 551
 2017-05-05-sunset-fir-trees:
   title: Sunset Fir-Trees
   titleRu: Закатные ели
@@ -4669,18 +4669,18 @@
     - service: vk
       id: 1695
       published: 2024-08-17-18-19-02
-      updated: 2024-11-17-04-09-30
+      updated: 2024-11-24-05-08-36
       followers: 934
       likes: 32
-      views: 266
+      views: 268
       reposts: 1
     - service: tg
       id: 504
       published: 2024-08-17-18-19-11
-      updated: 2024-11-17-04-09-29
+      updated: 2024-11-24-05-08-34
       followers: 527
       likes: 61
-      views: 610
+      views: 613
       comments: !c |-
         G5kAGKyOt6Fh2DII9SraGD9X/MgjVPrf33zCH3gV4CCaONb5A6mtc51HiSdUhy6Lw0sQm6m2eEF7
         10hP2eKS5i0PNuCAvQgHGxBmPLvAIdUUWLSgYygr1ZEd4Y7zHD3ybT007Y+2bxgCxB5X7rrk7kIe
@@ -4721,15 +4721,15 @@
     - service: vk
       id: 1658
       published: 2024-07-27-18-20-23
-      updated: 2024-11-17-04-09-33
+      updated: 2024-11-24-05-08-39
       followers: 923
       likes: 34
-      views: 291
+      views: 292
       reposts: 1
     - service: tg
       id: 482
       published: 2024-07-27-18-20-29
-      updated: 2024-11-17-04-09-31
+      updated: 2024-11-24-05-08-36
       followers: 401
       likes: 57
       views: 610

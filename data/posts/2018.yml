@@ -1897,17 +1897,17 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2024-11-17-04-09-31
+      updated: 2024-11-24-05-08-37
       followers: 927
       likes: 26
-      views: 261
+      views: 262
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
-      updated: 2024-11-17-04-09-30
+      updated: 2024-11-24-05-08-35
       followers: 514
       likes: 55
-      views: 567
+      views: 571
       comments: !c |-
         G7UA6B2pvX60oN8Ilfyedf22fPneVbJS/kYjQuHMF0LfBJEhrwkKNziBJEwwEM5sAB2nEdfzKUGg
         AEjehjP3rKSvsYIgdthUAU1O/RbBMpb5PcAJHMAt3MApFrANusEVFuAAiy0cYQ3bdOTq3D65utUx
@@ -4911,15 +4911,15 @@
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2024-11-17-04-09-34
+      updated: 2024-11-24-05-08-40
       followers: 919
       likes: 56
-      views: 822
+      views: 826
       reposts: 5
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2024-11-17-04-09-32
+      updated: 2024-11-24-05-08-37
       followers: 400
       likes: 67
       views: 613
@@ -7037,17 +7037,17 @@
     - service: vk
       id: 1666
       published: 2024-08-03-18-19-32
-      updated: 2024-11-17-04-09-33
+      updated: 2024-11-24-05-08-38
       followers: 925
       likes: 33
-      views: 288
+      views: 289
     - service: tg
       id: 489
       published: 2024-08-03-18-19-41
-      updated: 2024-11-17-04-09-30
+      updated: 2024-11-24-05-08-36
       followers: 428
       likes: 57
-      views: 6419
+      views: 6440
       comments: !c |-
         CzCAkZTLQnkRxbvWAACoemhjaGtkcnak8J+YjZPLQnkRxdocAAClYW5zaXPZNmV2ZXJ5IGdyYXpl
         bGFuZGVyIGJveSBsb3ZlcyBoaW1zZWxmIGEgZ3VhciBoZXJkZXIgZ2lybAM=
@@ -8937,27 +8937,27 @@
       id: DCuTMlHpGG3
       mediaId: '18257994724257589'
       published: 2024-11-23-18-10-21
-      updated: 2024-11-24-04-09-27
+      updated: 2024-11-24-05-08-32
       followers: 1482
-      likes: 59
-      views: 249
+      likes: 60
+      views: 257
     - service: vk
       id: 1916
       published: 2024-11-23-18-10-28
-      updated: 2024-11-24-04-09-28
+      updated: 2024-11-24-05-08-33
       followers: 1008
       likes: 17
-      views: 121
+      views: 125
       comments: !c |-
         G4kA+C0SbNsJb8cJbulDs+RE8f0twqe/STHJsEkwwmQvJxuGltY7/ikD9WRyFpuo/RQbI0aZI5Od
         ODWwpUpwQUPgfj71jl+29zpRYds9BEDpsA5EtTulDZHVMVxMRFl5rMYPMhaADbHBQ6Bha1rk9lkL
     - service: tg
       id: 604
       published: 2024-11-23-18-10-35
-      updated: 2024-11-24-04-09-28
+      updated: 2024-11-24-05-08-32
       followers: 575
       likes: 36
-      views: 114
+      views: 117
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище
