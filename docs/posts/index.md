@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`271 items`
+`272 items`
+
+## <span id="2024-11-24-on-the-red-mountainside">On the Red Mountainside</span>
+
+`RU` На склоне Красной Горы
+
+<a href="https://instagram.com/p/BTQ2XVdDO6L/" title="2017-04-24-on-the-red-mountainside"><img alt="store:/shots/2017-04-24-on-the-red-mountainside.png" src="../../assets/previews/shots/2017-04-24-on-the-red-mountainside.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-11-24-on-the-red-mountainside&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-11-24-on-the-red-mountainside
+```
+
+> `2017-04-24-on-the-red-mountainside`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BTQ2XVdDO6L/)       | 2017-04-24 |       |    57 |       172 |  33.14 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_269)  | 2017-04-24 |   103 |    11 |        54 |  20.37 |
+| [`ig`](https://instagram.com/p/DCw33R2BfrH/)       | 2024-11-24 |       |       |      1484 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1919) | 2024-11-24 |       |       |      1008 |        |
+| [`tg`](https://t.me/mwscr/605)                     | 2024-11-24 |       |       |       576 |        |
+|                                                    |            |       |       |      3068 |  26.75 |
 
 ## <span id="2024-11-23-forager">Forager</span>
 
@@ -29,10 +56,10 @@
 | [`ig`](https://instagram.com/p/1866931470423299138/) | 2018-09-12 |       |   115 |       418 |  27.51 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_921)    | 2018-09-12 |   302 |    23 |       228 |  10.09 |
 | [`tg`](https://t.me/mwscr/28)                        | 2018-09-12 |   181 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DCuTMlHpGG3/)         | 2024-11-23 |   334 |    72 |      1482 |   4.86 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1916)   | 2024-11-23 |   182 |    25 |      1008 |   2.58 |
-| [`tg`](https://t.me/mwscr/604)                       | 2024-11-23 |   140 |    42 |       575 |    7.3 |
-|                                                      |            |   656 |   139 |      3065 |  10.47 |
+| [`ig`](https://instagram.com/p/DCuTMlHpGG3/)         | 2024-11-23 |   343 |    74 |      1482 |   4.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1916)   | 2024-11-23 |   187 |    25 |      1008 |   2.58 |
+| [`tg`](https://t.me/mwscr/604)                       | 2024-11-23 |   142 |    42 |       575 |    7.3 |
+|                                                      |            |   672 |   141 |      3065 |   10.5 |
 
 #### Comments
 
@@ -63,10 +90,10 @@
 | [`ig`](https://instagram.com/p/Bu258p8B1jj/)       | 2019-03-11 |       |   179 |       787 |  22.74 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1143) | 2019-03-11 |   755 |    64 |       334 |  19.46 |
 | [`tg`](https://t.me/mwscr/162)                     | 2019-03-11 |   604 |     6 |           |        |
-| [`ig`](https://instagram.com/p/DCruhchMwP3/)       | 2024-11-22 |   695 |   102 |      1482 |   6.88 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1915) | 2024-11-22 |   380 |    44 |      1008 |   4.66 |
-| [`tg`](https://t.me/mwscr/603)                     | 2024-11-22 |   341 |    51 |       574 |   8.89 |
-|                                                    |            |  1416 |   197 |      3064 |  12.53 |
+| [`ig`](https://instagram.com/p/DCruhchMwP3/)       | 2024-11-22 |   711 |   103 |      1482 |   6.95 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1915) | 2024-11-22 |   382 |    44 |      1008 |   4.66 |
+| [`tg`](https://t.me/mwscr/603)                     | 2024-11-22 |   342 |    51 |       574 |   8.89 |
+|                                                    |            |  1435 |   198 |      3064 |  12.54 |
 
 #### Comments
 
