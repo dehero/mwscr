@@ -1549,28 +1549,31 @@
       id: DCpJqGDManq
       mediaId: '18062772853775282'
       published: 2024-11-21-18-10-49
-      updated: 2024-11-23-18-10-06
+      updated: 2024-11-24-19-01-19
       followers: 1483
-      likes: 79
-      views: 283
+      likes: 83
+      views: 306
     - service: vk
       id: 1913
       published: 2024-11-21-18-10-57
-      updated: 2024-11-23-18-10-06
+      updated: 2024-11-24-19-01-21
       followers: 1008
-      likes: 22
-      views: 176
+      likes: 25
+      views: 204
       comments: !c |-
         G3YA+I3UVneQ7uh/zrWRjXhio6iwXVmlnZ11PM//8fQSugYeNuDMAqKEVtppwJudd+ApyK/Te9J5
         ZK1cEEs+iHLXZm3Z0k3NVZQfAzMsw52yhx1l45a1bJ60xyvcsEU5wBIecMQa3LCCZay/ln8xBQ==
     - service: tg
       id: 602
       published: 2024-11-21-18-11-06
-      updated: 2024-11-23-18-10-05
+      updated: 2024-11-24-19-01-21
       followers: 573
-      likes: 49
-      views: 303
-      comments: !c CxWAkZPLQnk1D2GbAACpR2F0ZW1hdGU3tXRoZSBob29kIG9mIG1vcnJvd2luZAM=
+      likes: 54
+      views: 336
+      comments: !c |-
+        izmAkpPLQnk174yRgACtTG9mdHlkZWx1c2lvbtkvVGhpcyBwZW9wbGUganVzdCBnb29uYSBoYXRl
+        IHlvdSBpIGRvbnQga25vdyB3aHmTy0J5NQ9hmwAAqUdhdGVtYXRlN7V0aGUgaG9vZCBvZiBtb3Jy
+        b3dpbmQD
 2018-02-14-shipwreck-at-the-estuary-of-foyada:
   title: Shipwreck at the Estuary of Foyada
   titleRu: Кораблекрушение в устье фояды
@@ -8937,17 +8940,17 @@
       id: DCuTMlHpGG3
       mediaId: '18257994724257589'
       published: 2024-11-23-18-10-21
-      updated: 2024-11-24-18-08-59
+      updated: 2024-11-24-19-01-18
       followers: 1482
       likes: 74
-      views: 343
+      views: 358
     - service: vk
       id: 1916
       published: 2024-11-23-18-10-28
-      updated: 2024-11-24-18-09-00
+      updated: 2024-11-24-19-01-19
       followers: 1008
       likes: 25
-      views: 187
+      views: 191
       reposts: 1
       comments: !c |-
         G4kA+C0SbNsJb8cJbulDs+RE8f0twqe/STHJsEkwwmQvJxuGltY7/ikD9WRyFpuo/RQbI0aZI5Od
@@ -8955,10 +8958,10 @@
     - service: tg
       id: 604
       published: 2024-11-23-18-10-35
-      updated: 2024-11-24-18-09-00
+      updated: 2024-11-24-19-01-20
       followers: 575
-      likes: 42
-      views: 142
+      likes: 47
+      views: 158
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище
