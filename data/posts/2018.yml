@@ -2343,7 +2343,7 @@
     - service: vk
       id: 1537
       published: 2024-05-18-18-18-31
-      updated: 2024-11-17-15-03-51
+      updated: 2024-11-24-16-07-51
       followers: 915
       likes: 27
       views: 271
@@ -2351,10 +2351,10 @@
     - service: tg
       id: 412
       published: 2024-05-18-18-18-39
-      updated: 2024-11-17-15-03-51
+      updated: 2024-11-24-16-07-50
       followers: 372
       likes: 52
-      views: 439
+      views: 440
       comments: !c iw2AkZPLQnj40RlbgACrYm9icm92bmlrb3akY296eQM=
 2018-03-08-dead-guar:
   title: Dead Guar
@@ -4396,7 +4396,7 @@
     - service: vk
       id: 1511
       published: 2024-04-27-18-16-27
-      updated: 2024-11-17-15-03-53
+      updated: 2024-11-24-16-07-52
       followers: 911
       likes: 30
       views: 252
@@ -4404,10 +4404,10 @@
     - service: tg
       id: 391
       published: 2024-04-27-18-16-36
-      updated: 2024-11-17-15-03-54
+      updated: 2024-11-24-16-07-53
       followers: 354
       likes: 58
-      views: 483
+      views: 484
 2018-05-04-table-for-two:
   title: Table for Two
   titleRu: Столик на двоих
@@ -8937,17 +8937,17 @@
       id: DCuTMlHpGG3
       mediaId: '18257994724257589'
       published: 2024-11-23-18-10-21
-      updated: 2024-11-24-15-03-22
+      updated: 2024-11-24-16-07-48
       followers: 1482
-      likes: 70
-      views: 319
+      likes: 71
+      views: 324
     - service: vk
       id: 1916
       published: 2024-11-23-18-10-28
-      updated: 2024-11-24-15-03-23
+      updated: 2024-11-24-16-07-49
       followers: 1008
       likes: 24
-      views: 173
+      views: 178
       reposts: 1
       comments: !c |-
         G4kA+C0SbNsJb8cJbulDs+RE8f0twqe/STHJsEkwwmQvJxuGltY7/ikD9WRyFpuo/RQbI0aZI5Od
@@ -8955,10 +8955,10 @@
     - service: tg
       id: 604
       published: 2024-11-23-18-10-35
-      updated: 2024-11-24-15-03-24
+      updated: 2024-11-24-16-07-49
       followers: 575
       likes: 41
-      views: 132
+      views: 133
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище
