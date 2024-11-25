@@ -3489,10 +3489,10 @@
     - service: vk
       id: 1595
       published: 2024-06-23-18-18-57
-      updated: 2024-11-18-08-12-05
+      updated: 2024-11-25-08-12-24
       followers: 918
       likes: 35
-      views: 287
+      views: 288
       reposts: 2
       comments: !c |-
         G4gBAKwSbBsG2w8bynXAGZ7iZETfb+wHKP1RmT/MUGidRNCiQUs2WAKpWCh7XTfnc76uYpEEqtti
@@ -3503,7 +3503,7 @@
     - service: tg
       id: 448
       published: 2024-06-23-18-19-06
-      updated: 2024-11-18-07-09-06
+      updated: 2024-11-25-08-12-24
       followers: 389
       likes: 53
       views: 487
@@ -6173,17 +6173,17 @@
     - service: vk
       id: 1667
       published: 2024-08-04-18-18-36
-      updated: 2024-11-18-07-09-01
+      updated: 2024-11-25-08-12-18
       followers: 927
       likes: 34
-      views: 273
+      views: 276
     - service: tg
       id: 490
       published: 2024-08-04-18-18-43
-      updated: 2024-11-18-07-09-00
+      updated: 2024-11-25-08-12-18
       followers: 476
       likes: 64
-      views: 821
+      views: 825
       comments: !c |-
         G+0AICwSeA71cYPQBcSN9t86gfLpT815tsVy0YiFw9Exdi1WnoC10haY72NAW73hjvNS7k9EIyng
         kAPxQKrtZrHURElT9upnyGaXYGB8a0Fb0gJKw0AifsIXf5AH3VhoZpHHgUN82Bye2kr4qQ6cPDuP
@@ -8940,17 +8940,17 @@
       id: DCuTMlHpGG3
       mediaId: '18257994724257589'
       published: 2024-11-23-18-10-21
-      updated: 2024-11-25-07-08-59
+      updated: 2024-11-25-08-12-14
       followers: 1482
       likes: 78
-      views: 384
+      views: 385
     - service: vk
       id: 1916
       published: 2024-11-23-18-10-28
-      updated: 2024-11-25-07-09-02
+      updated: 2024-11-25-08-12-15
       followers: 1008
-      likes: 28
-      views: 206
+      likes: 29
+      views: 209
       reposts: 1
       comments: !c |-
         G4kA+C0SbNsJb8cJbulDs+RE8f0twqe/STHJsEkwwmQvJxuGltY7/ikD9WRyFpuo/RQbI0aZI5Od
@@ -8958,7 +8958,7 @@
     - service: tg
       id: 604
       published: 2024-11-23-18-10-35
-      updated: 2024-11-25-07-09-00
+      updated: 2024-11-25-08-12-16
       followers: 575
       likes: 51
       views: 175
@@ -9453,20 +9453,20 @@
     - service: vk
       id: 1648
       published: 2024-07-21-18-19-00
-      updated: 2024-11-18-07-09-03
+      updated: 2024-11-25-08-12-20
       followers: 919
       likes: 26
-      views: 278
+      views: 279
       comments: !c |-
         G4AA4B0JNs5xjUHoYYS0i3BAoUcWaBdJ4skPnGMl1iGoh6PlLf6Xr0Uqgvkxbr+Z8g2qEArYgAOX
         aLVBfIOATxzMNZ77gwuY9nhrTDdE5F5bMdWfGN3KBSfvQpEeQldfnGKQRtiQ7oMbikevMX6Z
     - service: tg
       id: 476
       published: 2024-07-21-18-19-07
-      updated: 2024-11-18-07-09-02
+      updated: 2024-11-25-08-12-20
       followers: 400
       likes: 52
-      views: 557
+      views: 558
 2018-09-25-what-do-you-know-about-comfort:
   title: What Do You Know About Comfort?
   titleRu: Что вы знаете о комфорте?
