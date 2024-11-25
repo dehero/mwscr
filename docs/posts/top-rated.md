@@ -1143,31 +1143,6 @@
 - `vk` <ins title="2018-08-13-14-05-47">dead___end</ins> идеальная красота
 - `vk` <ins title="2018-08-13-14-05-55">dead___end</ins> Умир от варения
 
-## <span id="2017-03-15-view-of-the-night-suran">View of the Night Suran</span>
-
-`RU` Вид на ночной Суран
-
-<a href="https://instagram.com/p/BRpxEcej_Zv/" title="2017-03-15-view-of-the-night-suran"><img alt="store:/shots/2017-03-15-view-of-the-night-suran.png" src="../../assets/previews/shots/2017-03-15-view-of-the-night-suran.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`A2` `📍 Suran` `🚀 OpenMW` `night`
-
-```
-2017-03-15-view-of-the-night-suran
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BRpxEcej_Zv/)       | 2017-03-15 |       |    48 |       112 |  42.86 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_208)  | 2017-03-15 |   134 |    12 |        46 |     12 |
-| [`ig`](https://instagram.com/p/DCzc0jRtMdc/)       | 2024-11-25 |       |       |      1483 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1920) | 2024-11-25 |       |       |      1009 |        |
-| [`tg`](https://t.me/mwscr/606)                     | 2024-11-25 |       |       |       575 |        |
-|                                                    |            |   134 |    60 |       158 |  27.43 |
-
 ## <span id="2018-02-27-fieldwork">Fieldwork</span>
 
 `RU` Полевые работы
@@ -1293,6 +1268,32 @@
 #### Comments
 
 - `ig` <ins title="2017-10-28-22-27-25">turquoise_slizer</ins> Caldera is the imperial settlement off of balmora with all the cliffracers flying around it right?
+
+## <span id="2017-04-21-fishers-bliss">Fisher&#39;s Bliss</span>
+
+`RU` Счастье рыбака
+
+<a href="https://instagram.com/p/BTJC4w7DD1e/" title="2017-04-21-fishers-bliss"><img alt="store:/shots/2017-04-21-fishers-bliss.png" src="../../assets/previews/shots/2017-04-21-fishers-bliss.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2017-04-21-fishers-bliss&postLocation=)</code> `🚀 OpenMW` `bottle` `fishingrod` `stool`
+
+```
+2017-04-21-fishers-bliss
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BTJC4w7DD1e/)      | 2017-04-21 |       |    64 |       172 |  37.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_266) | 2017-04-21 |   107 |     9 |        53 |  16.98 |
+|                                                   |            |   107 |    73 |       225 |   27.1 |
+
+#### Comments
+
+- `ig` <ins title="2017-04-22-10-31-40">jason_f_heller</ins> 👍
 
 ---
 
