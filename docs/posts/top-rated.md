@@ -1159,11 +1159,14 @@
 
 ### Reactions
 
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BRpxEcej_Zv/)      | 2017-03-15 |       |    48 |       112 |  42.86 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_208) | 2017-03-15 |   134 |    12 |        46 |     12 |
-|                                                   |            |   134 |    60 |       158 |  27.43 |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BRpxEcej_Zv/)       | 2017-03-15 |       |    48 |       112 |  42.86 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_208)  | 2017-03-15 |   134 |    12 |        46 |     12 |
+| [`ig`](https://instagram.com/p/DCzc0jRtMdc/)       | 2024-11-25 |       |       |      1483 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1920) | 2024-11-25 |       |       |      1009 |        |
+| [`tg`](https://t.me/mwscr/606)                     | 2024-11-25 |       |       |       575 |        |
+|                                                    |            |   134 |    60 |       158 |  27.43 |
 
 ## <span id="2018-02-27-fieldwork">Fieldwork</span>
 

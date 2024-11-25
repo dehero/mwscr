@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`272 items`
+`273 items`
+
+## <span id="2024-11-25-view-of-the-night-suran">View of the Night Suran</span>
+
+`RU` Вид на ночной Суран
+
+<a href="https://instagram.com/p/BRpxEcej_Zv/" title="2017-03-15-view-of-the-night-suran"><img alt="store:/shots/2017-03-15-view-of-the-night-suran.png" src="../../assets/previews/shots/2017-03-15-view-of-the-night-suran.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Suran` `🚀 OpenMW` `night`
+
+```
+2024-11-25-view-of-the-night-suran
+```
+
+> `2017-03-15-view-of-the-night-suran`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BRpxEcej_Zv/)       | 2017-03-15 |       |    48 |       112 |  42.86 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_208)  | 2017-03-15 |   134 |    12 |        46 |     12 |
+| [`ig`](https://instagram.com/p/DCzc0jRtMdc/)       | 2024-11-25 |       |       |      1483 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1920) | 2024-11-25 |       |       |      1009 |        |
+| [`tg`](https://t.me/mwscr/606)                     | 2024-11-25 |       |       |       575 |        |
+|                                                    |            |       |       |      3067 |  27.43 |
 
 ## <span id="2024-11-24-on-the-red-mountainside">On the Red Mountainside</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTQ2XVdDO6L/)       | 2017-04-24 |       |    57 |       172 |  33.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_269)  | 2017-04-24 |   103 |    11 |        54 |  20.37 |
-| [`ig`](https://instagram.com/p/DCw33R2BfrH/)       | 2024-11-24 |   363 |    75 |      1484 |   5.05 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1919) | 2024-11-24 |   188 |    26 |      1008 |   2.68 |
-| [`tg`](https://t.me/mwscr/605)                     | 2024-11-24 |   137 |    46 |       576 |   7.99 |
-|                                                    |            |   688 |   147 |      3068 |  13.85 |
+| [`ig`](https://instagram.com/p/DCw33R2BfrH/)       | 2024-11-24 |   371 |    77 |      1484 |   5.19 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1919) | 2024-11-24 |   190 |    26 |      1008 |   2.68 |
+| [`tg`](https://t.me/mwscr/605)                     | 2024-11-24 |   139 |    47 |       576 |   8.16 |
+|                                                    |            |   700 |   150 |      3068 |  13.91 |
 
 ## <span id="2024-11-23-forager">Forager</span>
 
@@ -58,8 +85,8 @@
 | [`tg`](https://t.me/mwscr/28)                        | 2018-09-12 |   181 |     4 |           |        |
 | [`ig`](https://instagram.com/p/DCuTMlHpGG3/)         | 2024-11-23 |   396 |    80 |      1482 |    5.4 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1916)   | 2024-11-23 |   230 |    32 |      1008 |   3.27 |
-| [`tg`](https://t.me/mwscr/604)                       | 2024-11-23 |   177 |    52 |       575 |   9.04 |
-|                                                      |            |   803 |   164 |      3065 |  11.06 |
+| [`tg`](https://t.me/mwscr/604)                       | 2024-11-23 |   179 |    53 |       575 |   9.22 |
+|                                                      |            |   805 |   165 |      3065 |   11.1 |
 
 #### Comments
 
@@ -90,10 +117,10 @@
 | [`ig`](https://instagram.com/p/Bu258p8B1jj/)       | 2019-03-11 |       |   179 |       787 |  22.74 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1143) | 2019-03-11 |   755 |    64 |       334 |  19.46 |
 | [`tg`](https://t.me/mwscr/162)                     | 2019-03-11 |   604 |     6 |           |        |
-| [`ig`](https://instagram.com/p/DCruhchMwP3/)       | 2024-11-22 |   711 |   103 |      1482 |   6.95 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1915) | 2024-11-22 |   382 |    44 |      1008 |   4.66 |
-| [`tg`](https://t.me/mwscr/603)                     | 2024-11-22 |   342 |    51 |       574 |   8.89 |
-|                                                    |            |  1435 |   198 |      3064 |  12.54 |
+| [`ig`](https://instagram.com/p/DCruhchMwP3/)       | 2024-11-22 |   752 |   110 |      1482 |   7.42 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1915) | 2024-11-22 |   426 |    48 |      1008 |   5.16 |
+| [`tg`](https://t.me/mwscr/603)                     | 2024-11-22 |   363 |    56 |       574 |   9.76 |
+|                                                    |            |  1541 |   214 |      3064 |  12.91 |
 
 #### Comments
 
