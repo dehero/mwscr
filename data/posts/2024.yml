@@ -343,10 +343,10 @@
     - service: tg
       id: 341
       published: 2024-03-10-18-00-59
-      updated: 2024-11-18-15-08-36
+      updated: 2024-11-25-15-08-42
       followers: 349
       likes: 60
-      views: 505
+      views: 507
 2024-03-11-gray-thorns:
   title: Gray Thorns
   titleRu: Серые шипы
@@ -493,7 +493,7 @@
     - service: vk
       id: 1455
       published: 2024-03-17-18-09-55
-      updated: 2024-11-18-14-08-06
+      updated: 2024-11-25-15-08-43
       followers: 896
       likes: 42
       views: 326
@@ -502,7 +502,7 @@
     - service: tg
       id: 349
       published: 2024-03-17-18-10-02
-      updated: 2024-11-18-14-08-07
+      updated: 2024-11-25-15-08-42
       followers: 353
       likes: 64
       views: 489
@@ -802,15 +802,15 @@
     - service: vk
       id: 1476
       published: 2024-03-31-18-10-32
-      updated: 2024-11-18-14-08-05
+      updated: 2024-11-25-15-08-41
       followers: 905
       likes: 29
-      views: 261
+      views: 262
       reposts: 1
     - service: tg
       id: 363
       published: 2024-03-31-18-10-38
-      updated: 2024-11-18-14-08-06
+      updated: 2024-11-25-15-08-41
       followers: 354
       likes: 58
       views: 485
