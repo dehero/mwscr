@@ -74,15 +74,10 @@ dehero.2024-09-21-12-17-54:
   type: shot
   author: dehero
 dehero.2024-10-06-15-32-02:
-  content: store:/inbox/dehero.2024-10-06-15-32-02.png
-  type: shot
-  author: dehero
-dehero.2024-10-06-15-32-31:
-  content: store:/inbox/dehero.2024-10-06-15-32-31.png
-  type: shot
-  author: dehero
-dehero.2024-10-06-15-32-37:
-  content: store:/inbox/dehero.2024-10-06-15-32-37.png
+  content:
+    - store:/inbox/dehero.2024-10-06-15-32-02.png
+    - store:/inbox/dehero.2024-10-06-15-32-37.png
+    - store:/inbox/dehero.2024-10-06-15-32-31.png
   type: shot
   author: dehero
 natty.2024-03-10-12-44-23:
