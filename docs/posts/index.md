@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`273 items`
+`274 items`
+
+## <span id="2024-11-26-fishing-bay-of-seyda-neen">Fishing Bay of Seyda Neen</span>
+
+`RU` Рыбацкий залив Сейда Нина
+
+<a href="https://instagram.com/p/Bju8OnQFyPg/" title="2018-06-07-fishing-bay-of-seyda-neen"><img alt="store:/shots/2018-06-07-fishing-bay-of-seyda-neen.png" src="../../assets/previews/shots/2018-06-07-fishing-bay-of-seyda-neen.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` `📍 Seyda Neen` `🚀 OpenMW`
+
+```
+2024-11-26-fishing-bay-of-seyda-neen
+```
+
+> `2018-06-07-fishing-bay-of-seyda-neen`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bju8OnQFyPg/)       | 2018-06-07 |       |   107 |       341 |  31.38 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_759)  | 2018-06-07 |   289 |    25 |       172 |  14.53 |
+| [`ig`](https://instagram.com/p/DC2BrKPPPbg/)       | 2024-11-26 |       |       |      1483 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1921) | 2024-11-26 |       |       |      1010 |        |
+| [`tg`](https://t.me/mwscr/607)                     | 2024-11-26 |       |       |       577 |        |
+|                                                    |            |       |       |      3070 |  22.96 |
 
 ## <span id="2024-11-25-view-of-the-night-suran">View of the Night Suran</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRpxEcej_Zv/)       | 2017-03-15 |       |    48 |       112 |  42.86 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_208)  | 2017-03-15 |   134 |    12 |        46 |     12 |
-| [`ig`](https://instagram.com/p/DCzc0jRtMdc/)       | 2024-11-25 |   262 |    73 |      1483 |   4.92 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1920) | 2024-11-25 |   163 |    38 |      1009 |   3.77 |
-| [`tg`](https://t.me/mwscr/606)                     | 2024-11-25 |   302 |    43 |       575 |   7.48 |
-|                                                    |            |   727 |   154 |      3067 |   14.2 |
+| [`ig`](https://instagram.com/p/DCzc0jRtMdc/)       | 2024-11-25 |   271 |    75 |      1483 |   5.06 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1920) | 2024-11-25 |   167 |    38 |      1009 |   3.77 |
+| [`tg`](https://t.me/mwscr/606)                     | 2024-11-25 |   308 |    43 |       575 |   7.48 |
+|                                                    |            |   746 |   156 |      3067 |  14.23 |
 
 ## <span id="2024-11-24-on-the-red-mountainside">On the Red Mountainside</span>
 
@@ -84,9 +111,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_921)    | 2018-09-12 |   302 |    23 |       228 |  10.09 |
 | [`tg`](https://t.me/mwscr/28)                        | 2018-09-12 |   181 |     4 |           |        |
 | [`ig`](https://instagram.com/p/DCuTMlHpGG3/)         | 2024-11-23 |   409 |    83 |      1482 |    5.6 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1916)   | 2024-11-23 |   230 |    32 |      1008 |   3.27 |
-| [`tg`](https://t.me/mwscr/604)                       | 2024-11-23 |   179 |    53 |       575 |   9.22 |
-|                                                      |            |   818 |   168 |      3065 |  11.14 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1916)   | 2024-11-23 |   249 |    33 |      1008 |   3.37 |
+| [`tg`](https://t.me/mwscr/604)                       | 2024-11-23 |   281 |    57 |       575 |   9.91 |
+|                                                      |            |   939 |   173 |      3065 |   11.3 |
 
 #### Comments
 
@@ -117,10 +144,10 @@
 | [`ig`](https://instagram.com/p/Bu258p8B1jj/)       | 2019-03-11 |       |   179 |       787 |  22.74 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1143) | 2019-03-11 |   755 |    64 |       334 |  19.46 |
 | [`tg`](https://t.me/mwscr/162)                     | 2019-03-11 |   604 |     6 |           |        |
-| [`ig`](https://instagram.com/p/DCruhchMwP3/)       | 2024-11-22 |   752 |   110 |      1482 |   7.42 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1915) | 2024-11-22 |   426 |    48 |      1008 |   5.16 |
-| [`tg`](https://t.me/mwscr/603)                     | 2024-11-22 |   363 |    56 |       574 |   9.76 |
-|                                                    |            |  1541 |   214 |      3064 |  12.91 |
+| [`ig`](https://instagram.com/p/DCruhchMwP3/)       | 2024-11-22 |   768 |   118 |      1482 |   7.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1915) | 2024-11-22 |   445 |    50 |      1008 |   5.36 |
+| [`tg`](https://t.me/mwscr/603)                     | 2024-11-22 |   527 |    60 |       574 |  10.45 |
+|                                                    |            |  1740 |   228 |      3064 |   13.2 |
 
 #### Comments
 

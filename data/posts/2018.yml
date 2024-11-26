@@ -5653,6 +5653,19 @@
       followers: 172
       likes: 25
       views: 289
+    - service: ig
+      id: DC2BrKPPPbg
+      mediaId: '18085060606546746'
+      published: 2024-11-26-18-11-11
+      followers: 1483
+    - service: vk
+      id: 1921
+      published: 2024-11-26-18-11-20
+      followers: 1010
+    - service: tg
+      id: 607
+      published: 2024-11-26-18-11-30
+      followers: 577
 2018-06-08-in-the-secret-basement-of-hasphat-antabolis:
   title: In the Secret Basement of Hasphat Antabolis
   titleRu: В секретном подвале Хасфата Антаболиса
@@ -8947,10 +8960,10 @@
     - service: vk
       id: 1916
       published: 2024-11-23-18-10-28
-      updated: 2024-11-25-18-10-27
+      updated: 2024-11-26-18-10-56
       followers: 1008
-      likes: 32
-      views: 230
+      likes: 33
+      views: 249
       reposts: 1
       comments: !c |-
         G4kA+C0SbNsJb8cJbulDs+RE8f0twqe/STHJsEkwwmQvJxuGltY7/ikD9WRyFpuo/RQbI0aZI5Od
@@ -8958,10 +8971,10 @@
     - service: tg
       id: 604
       published: 2024-11-23-18-10-35
-      updated: 2024-11-25-18-10-27
+      updated: 2024-11-26-18-10-56
       followers: 575
-      likes: 53
-      views: 179
+      likes: 57
+      views: 281
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище
