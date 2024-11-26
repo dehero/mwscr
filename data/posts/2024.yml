@@ -963,7 +963,7 @@
     - service: vk
       id: 1487
       published: 2024-04-08-18-19-47
-      updated: 2024-11-19-13-19-10
+      updated: 2024-11-26-13-19-58
       followers: 909
       likes: 31
       views: 197
@@ -971,10 +971,10 @@
     - service: tg
       id: 372
       published: 2024-04-08-18-19-56
-      updated: 2024-11-19-13-19-08
+      updated: 2024-11-26-13-19-57
       followers: 354
       likes: 60
-      views: 448
+      views: 449
 2024-04-09-telvanni-council-house:
   title: Telvanni Council House
   titleRu: Дом Совета Телванни
@@ -1176,10 +1176,10 @@
     - service: vk
       id: 1495
       published: 2024-04-15-18-17-46
-      updated: 2024-11-19-13-19-09
+      updated: 2024-11-26-13-19-58
       followers: 910
       likes: 47
-      views: 289
+      views: 290
       reposts: 2
       comments: !c Cw6AkZPLQnjuO8YzAACobW9ydHdha2Wo8J+arPCfl78D
     - service: tg
