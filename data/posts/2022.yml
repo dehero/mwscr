@@ -612,7 +612,7 @@
     - service: tg
       id: 267
       published: 2022-07-07
-      updated: 2024-11-19-22-07-36
+      updated: 2024-11-26-22-08-18
       followers: 256
       likes: 55
       views: 695
@@ -648,7 +648,7 @@
     - service: tg
       id: 268
       published: 2022-07-08
-      updated: 2024-11-19-22-07-36
+      updated: 2024-11-26-22-08-18
       followers: 256
       likes: 48
       views: 637
@@ -687,7 +687,7 @@
     - service: tg
       id: 269
       published: 2022-07-09
-      updated: 2024-11-19-22-07-36
+      updated: 2024-11-26-22-08-17
       followers: 257
       likes: 55
       views: 695
@@ -728,10 +728,10 @@
     - service: tg
       id: 270
       published: 2022-07-10
-      updated: 2024-11-19-22-07-35
+      updated: 2024-11-26-22-08-17
       followers: 257
       likes: 59
-      views: 767
+      views: 768
       comments: !c |-
         G9IA4C0PuHOPAjgZWKbBTH3lYT6e8G+f6O/mLdBYA22lLQwjSN6p20rphi7sg+kY6kNVT5a7nPDB
         xqYE06pScMkyNrwka5PrrzfQbG5wIp54QZRq3mC+x9iznsERwzyun553P2O8nprXrNXubKpawd79
@@ -778,7 +778,7 @@
         - 273
         - 274
       published: 2022-07-11
-      updated: 2024-11-19-22-07-35
+      updated: 2024-11-26-22-08-17
       followers: 257
       likes: 56
       views: 732
@@ -828,7 +828,7 @@
     - service: tg
       id: 275
       published: 2022-07-12
-      updated: 2024-11-19-22-07-35
+      updated: 2024-11-26-22-08-16
       followers: 258
       likes: 48
       views: 705
@@ -867,7 +867,7 @@
     - service: tg
       id: 276
       published: 2022-07-13
-      updated: 2024-11-19-22-07-34
+      updated: 2024-11-26-22-08-16
       followers: 260
       likes: 51
       views: 736
@@ -913,7 +913,7 @@
     - service: tg
       id: 277
       published: 2022-07-14
-      updated: 2024-11-19-22-07-34
+      updated: 2024-11-26-22-08-15
       followers: 260
       likes: 40
       views: 737
@@ -950,7 +950,7 @@
     - service: tg
       id: 278
       published: 2022-07-15
-      updated: 2024-11-19-22-07-34
+      updated: 2024-11-26-22-08-15
       followers: 262
       likes: 50
       views: 764
@@ -984,10 +984,10 @@
     - service: tg
       id: 279
       published: 2022-07-16
-      updated: 2024-11-19-22-07-33
+      updated: 2024-11-26-22-08-15
       followers: 262
       likes: 48
-      views: 775
+      views: 777
 2022-07-17-slaves-sight:
   title: Slave's Sight
   titleRu: Взгляд раба
@@ -1017,7 +1017,7 @@
     - service: tg
       id: 280
       published: 2022-07-17
-      updated: 2024-11-19-22-07-33
+      updated: 2024-11-26-22-08-14
       followers: 262
       likes: 49
       views: 770
@@ -1060,7 +1060,7 @@
     - service: tg
       id: 281
       published: 2022-07-18
-      updated: 2024-11-19-22-07-33
+      updated: 2024-11-26-22-08-14
       followers: 267
       likes: 50
       views: 794
@@ -1095,7 +1095,7 @@
     - service: tg
       id: 282
       published: 2022-07-19
-      updated: 2024-11-19-22-07-32
+      updated: 2024-11-26-22-08-14
       followers: 267
       likes: 62
       views: 816
@@ -1128,7 +1128,7 @@
     - service: tg
       id: 283
       published: 2022-07-20
-      updated: 2024-11-19-22-07-32
+      updated: 2024-11-26-22-08-13
       followers: 266
       likes: 55
       views: 823
@@ -1172,10 +1172,10 @@
     - service: tg
       id: 284
       published: 2022-07-21
-      updated: 2024-11-19-22-07-32
+      updated: 2024-11-26-22-08-13
       followers: 267
       likes: 49
-      views: 1558
+      views: 1559
       comments: !c ixmAkpPLQngiXaFxAACnZGVsZXRlZKjQmNC80LHQsJPLQngiKf06AAClbXdzY3KnQUxNU0lWSQM=
 2022-07-22-lonely-towers:
   title: Lonely Towers
@@ -1219,7 +1219,7 @@
         - 287
         - 288
       published: 2022-07-22
-      updated: 2024-11-19-22-07-31
+      updated: 2024-11-26-22-08-13
       followers: 271
       likes: 58
       views: 858
@@ -1253,7 +1253,7 @@
     - service: tg
       id: 289
       published: 2022-07-23
-      updated: 2024-11-19-22-07-31
+      updated: 2024-11-26-22-08-12
       followers: 272
       likes: 54
       views: 905
@@ -1285,7 +1285,7 @@
     - service: tg
       id: 290
       published: 2022-07-24
-      updated: 2024-11-19-22-07-30
+      updated: 2024-11-26-22-08-12
       followers: 272
       likes: 53
       views: 943
@@ -1316,7 +1316,7 @@
     - service: tg
       id: 291
       published: 2022-07-25
-      updated: 2024-11-19-22-07-30
+      updated: 2024-11-26-22-08-11
       followers: 272
       likes: 55
       views: 1011
@@ -1361,10 +1361,10 @@
         - 294
         - 295
       published: 2022-07-26
-      updated: 2024-11-19-22-07-29
+      updated: 2024-11-26-22-08-11
       followers: 273
       likes: 55
-      views: 1055
+      views: 1056
       comments: !c |-
         G7gA6C0OzHOdDmzoXLp3puKN+MfbCD8MllBgSaSRVAkFiUWTe27T53l7TiFkatT83H3MkQVvXasl
         lUSvLTgIIg7kg57+WsPLk6gy2IBDDkSDVQbSBU8pHqzV+Uzf9mfn3t0FPeU5f7FbIdicKFIcAt7F
@@ -1395,10 +1395,10 @@
     - service: tg
       id: 296
       published: 2022-07-27
-      updated: 2024-11-19-22-07-29
+      updated: 2024-11-26-22-08-11
       followers: 272
       likes: 54
-      views: 1122
+      views: 1123
       comments: !c |-
         G2wBAKwOeHPUKSEmlgmrvUd6hMTz2C3CgzDJgkCjqDAMW0QlcFsRJu8D5ub0OU9aWUyCY5ehRemk
         xOr38rkI3/iyqAyvHZAAM2XQU6XZTnSAMGqXdN0LtPAtkgQD3bzOc04RAjmeFuw+qgR/r/uTt8f2
@@ -1444,10 +1444,10 @@
     - service: tg
       id: 297
       published: 2022-07-28
-      updated: 2024-11-19-21-07-57
+      updated: 2024-11-26-22-08-10
       followers: 274
       likes: 55
-      views: 1175
+      views: 1176
 2022-07-29-sunset-cypresses:
   title: Sunset Cypresses
   titleRu: Закатные кипарисы
@@ -1486,7 +1486,7 @@
     - service: tg
       id: 298
       published: 2022-07-29
-      updated: 2024-11-19-21-07-38
+      updated: 2024-11-26-22-08-10
       followers: 274
       likes: 59
       views: 1343
@@ -1517,10 +1517,10 @@
     - service: tg
       id: 299
       published: 2022-07-30
-      updated: 2024-11-19-21-07-38
+      updated: 2024-11-26-22-08-09
       followers: 278
       likes: 51
-      views: 1333
+      views: 1335
 2022-07-31-alchemy:
   title: Alchemy
   titleRu: Алхимия
@@ -1567,7 +1567,7 @@
         - 302
         - 303
       published: 2022-07-31
-      updated: 2024-11-19-21-07-38
+      updated: 2024-11-26-22-08-09
       followers: 277
       likes: 57
       views: 1575
@@ -1603,7 +1603,7 @@
     - service: tg
       id: 304
       published: 2022-08-01
-      updated: 2024-11-19-21-07-37
+      updated: 2024-11-26-22-08-09
       followers: 279
       likes: 56
       views: 1650
@@ -1643,7 +1643,7 @@
     - service: tg
       id: 305
       published: 2022-08-02
-      updated: 2024-11-19-21-07-37
+      updated: 2024-11-26-22-08-08
       followers: 281
       likes: 69
       views: 2174
@@ -1691,21 +1691,22 @@
     - service: tg
       id: 306
       published: 2022-08-03
-      updated: 2024-11-19-21-07-36
+      updated: 2024-11-26-22-08-08
       followers: 281
       likes: 81
-      views: 2211
+      views: 2212
       comments: !c |-
-        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
+        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
+        ew==
