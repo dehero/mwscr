@@ -1556,20 +1556,20 @@
     - service: vk
       id: 1913
       published: 2024-11-21-18-10-57
-      updated: 2024-11-25-19-01-30
+      updated: 2024-11-26-20-09-01
       followers: 1008
-      likes: 29
-      views: 222
+      likes: 30
+      views: 230
       comments: !c |-
         G3YA+I3UVneQ7uh/zrWRjXhio6iwXVmlnZ11PM//8fQSugYeNuDMAqKEVtppwJudd+ApyK/Te9J5
         ZK1cEEs+iHLXZm3Z0k3NVZQfAzMsw52yhx1l45a1bJ60xyvcsEU5wBIecMQa3LCCZay/ln8xBQ==
     - service: tg
       id: 602
       published: 2024-11-21-18-11-06
-      updated: 2024-11-25-19-01-29
+      updated: 2024-11-26-20-09-02
       followers: 573
       likes: 55
-      views: 371
+      views: 399
       comments: !c |-
         izmAkpPLQnk174yRgACtTG9mdHlkZWx1c2lvbtkvVGhpcyBwZW9wbGUganVzdCBnb29uYSBoYXRl
         IHlvdSBpIGRvbnQga25vdyB3aHmTy0J5NQ9hmwAAqUdhdGVtYXRlN7V0aGUgaG9vZCBvZiBtb3Jy
@@ -5657,24 +5657,24 @@
       id: DC2BrKPPPbg
       mediaId: '18085060606546746'
       published: 2024-11-26-18-11-11
-      updated: 2024-11-26-19-01-29
+      updated: 2024-11-26-20-08-58
       followers: 1483
-      likes: 21
-      views: 37
+      likes: 32
+      views: 86
     - service: vk
       id: 1921
       published: 2024-11-26-18-11-20
-      updated: 2024-11-26-19-01-30
+      updated: 2024-11-26-20-08-59
       followers: 1010
-      likes: 13
-      views: 57
+      likes: 16
+      views: 80
     - service: tg
       id: 607
       published: 2024-11-26-18-11-30
-      updated: 2024-11-26-19-01-30
+      updated: 2024-11-26-20-08-59
       followers: 577
-      likes: 23
-      views: 69
+      likes: 28
+      views: 92
       comments: !c CxGAkZPLQnk2msYQgACnbWxlbm5pY69mZWVscyBsaWtlIGhvbWUD
 2018-06-08-in-the-secret-basement-of-hasphat-antabolis:
   title: In the Secret Basement of Hasphat Antabolis
