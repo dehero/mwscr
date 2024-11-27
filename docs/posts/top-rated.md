@@ -191,35 +191,6 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_50) | 2017-01-22 |    95 |     4 |         4 |      4 |
 |                                                  |            |    95 |    39 |        61 |   32.7 |
 
-## <span id="2017-05-28-masser-over-the-mournhold-temple">Masser Over the Mournhold Temple</span>
-
-`RU` Массер над храмом Морнхолда
-
-<a href="https://instagram.com/p/BUoeWBsjSOV/" title="2017-05-28-masser-over-the-mournhold-temple"><img alt="store:/shots/2017-05-28-masser-over-the-mournhold-temple.png" src="../../assets/previews/shots/2017-05-28-masser-over-the-mournhold-temple.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`A2` `📍 Mournhold Temple` `🚀 OpenMW` `night` `moon` `temple`
-
-```
-2017-05-28-masser-over-the-mournhold-temple
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BUoeWBsjSOV/)       | 2017-05-28 |       |    80 |       179 |  44.69 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_304)  | 2017-05-28 |   210 |    11 |        58 |  20.69 |
-| [`ig`](https://instagram.com/p/DC4mgCDRhoC/)       | 2024-11-27 |       |       |      1490 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |       |       |      1010 |        |
-| [`tg`](https://t.me/mwscr/608)                     | 2024-11-27 |       |       |       577 |        |
-|                                                    |            |   210 |    91 |       237 |  32.69 |
-
-#### Comments
-
-- `ig` <ins title="2017-05-28-21-03-09">jauffrejam</ins> So beautiful x&#39;(
-
 ## <span id="2017-08-09-night-sky-of-molag-amur">Night Sky of Molag Amur</span>
 
 `RU` Ночное небо Молаг Амур
@@ -1297,6 +1268,32 @@
 #### Comments
 
 - `ig` <ins title="2017-04-22-10-31-40">jason_f_heller</ins> 👍
+
+## <span id="2017-02-16-sunrise-over-the-ash-forest">Sunrise Over the Ash Forest</span>
+
+`RU` Рассвет над пепельным лесом
+
+<a href="https://instagram.com/p/BQkAhpBlGN3/" title="2017-02-16-sunrise-over-the-ash-forest"><img alt="store:/shots/2017-02-16-sunrise-over-the-ash-forest.png" src="../../assets/previews/shots/2017-02-16-sunrise-over-the-ash-forest.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2017-02-16-sunrise-over-the-ash-forest&postLocation=)</code> `🚀 OpenMW` `forest` `tree` `fog`
+
+```
+2017-02-16-sunrise-over-the-ash-forest
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BQkAhpBlGN3/)      | 2017-02-16 |       |    30 |        83 |  36.14 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_154) | 2017-02-16 |   177 |    18 |        36 |     18 |
+|                                                   |            |   177 |    48 |       119 |  27.07 |
+
+#### Comments
+
+- `vk` <ins title="2017-02-16-12-13-55">id178018548</ins> Напомнило
 
 ---
 
