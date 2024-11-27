@@ -2750,14 +2750,14 @@
     - service: vk
       id: 1920
       published: 2024-11-25-18-10-47
-      updated: 2024-11-27-17-07-10
+      updated: 2024-11-27-18-10-45
       followers: 1009
       likes: 40
-      views: 194
+      views: 196
     - service: tg
       id: 606
       published: 2024-11-25-18-10-54
-      updated: 2024-11-27-17-07-11
+      updated: 2024-11-27-18-10-45
       followers: 575
       likes: 53
       views: 370
@@ -4206,25 +4206,25 @@
       id: DCw33R2BfrH
       mediaId: '18049585766050599'
       published: 2024-11-24-18-09-15
-      updated: 2024-11-26-17-07-33
+      updated: 2024-11-27-18-10-44
       followers: 1484
-      likes: 86
-      views: 427
+      likes: 91
+      views: 454
     - service: vk
       id: 1919
       published: 2024-11-24-18-09-24
-      updated: 2024-11-26-17-07-33
+      updated: 2024-11-27-18-10-46
       followers: 1008
-      likes: 28
-      views: 216
+      likes: 29
+      views: 233
       reposts: 1
     - service: tg
       id: 605
       published: 2024-11-24-18-09-33
-      updated: 2024-11-26-17-07-35
+      updated: 2024-11-27-18-10-45
       followers: 576
-      likes: 53
-      views: 259
+      likes: 58
+      views: 293
 2017-04-25-castle-ebonheart:
   title: Castle Ebonheart
   titleRu: Замок Эбенгард
@@ -5591,6 +5591,19 @@
       likes: 11
       views: 210
       reposts: 1
+    - service: ig
+      id: DC4mgCDRhoC
+      mediaId: '17889719946104187'
+      published: 2024-11-27-18-11-27
+      followers: 1490
+    - service: vk
+      id: 1923
+      published: 2024-11-27-18-11-33
+      followers: 1010
+    - service: tg
+      id: 608
+      published: 2024-11-27-18-11-58
+      followers: 577
 2017-05-29-so-hello:
   title: So Hello
   titleRu: Ну привет

@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`274 items`
+`275 items`
+
+## <span id="2024-11-27-masser-over-the-mournhold-temple">Masser Over the Mournhold Temple</span>
+
+`RU` Массер над храмом Морнхолда
+
+<a href="https://instagram.com/p/BUoeWBsjSOV/" title="2017-05-28-masser-over-the-mournhold-temple"><img alt="store:/shots/2017-05-28-masser-over-the-mournhold-temple.png" src="../../assets/previews/shots/2017-05-28-masser-over-the-mournhold-temple.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Mournhold Temple` `🚀 OpenMW` `night` `moon` `temple`
+
+```
+2024-11-27-masser-over-the-mournhold-temple
+```
+
+> `2017-05-28-masser-over-the-mournhold-temple`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BUoeWBsjSOV/)       | 2017-05-28 |       |    80 |       179 |  44.69 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_304)  | 2017-05-28 |   210 |    11 |        58 |  20.69 |
+| [`ig`](https://instagram.com/p/DC4mgCDRhoC/)       | 2024-11-27 |       |       |      1490 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |       |       |      1010 |        |
+| [`tg`](https://t.me/mwscr/608)                     | 2024-11-27 |       |       |       577 |        |
+|                                                    |            |       |       |      3077 |  32.69 |
+
+#### Comments
+
+- `ig` <ins title="2017-05-28-21-03-09">jauffrejam</ins> So beautiful x&#39;(
 
 ## <span id="2024-11-26-fishing-bay-of-seyda-neen">Fishing Bay of Seyda Neen</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bju8OnQFyPg/)       | 2018-06-07 |       |   107 |       341 |  31.38 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_759)  | 2018-06-07 |   289 |    25 |       172 |  14.53 |
-| [`ig`](https://instagram.com/p/DC2BrKPPPbg/)       | 2024-11-26 |   284 |    69 |      1483 |   4.65 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1921) | 2024-11-26 |   285 |    28 |      1010 |   3.07 |
+| [`ig`](https://instagram.com/p/DC2BrKPPPbg/)       | 2024-11-26 |   287 |    69 |      1483 |   4.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1921) | 2024-11-26 |   290 |    28 |      1010 |   3.07 |
 | [`tg`](https://t.me/mwscr/607)                     | 2024-11-26 |   150 |    46 |       577 |   7.97 |
-|                                                    |            |   719 |   143 |      3070 |  12.32 |
+|                                                    |            |   727 |   143 |      3070 |  12.32 |
 
 #### Comments
 
@@ -62,9 +93,9 @@
 | [`ig`](https://instagram.com/p/BRpxEcej_Zv/)       | 2017-03-15 |       |    48 |       112 |  42.86 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_208)  | 2017-03-15 |   134 |    12 |        46 |     12 |
 | [`ig`](https://instagram.com/p/DCzc0jRtMdc/)       | 2024-11-25 |   316 |    84 |      1483 |   5.66 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1920) | 2024-11-25 |   194 |    40 |      1009 |   3.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1920) | 2024-11-25 |   196 |    40 |      1009 |   3.96 |
 | [`tg`](https://t.me/mwscr/606)                     | 2024-11-25 |   370 |    53 |       575 |   9.22 |
-|                                                    |            |   880 |   177 |      3067 |  14.74 |
+|                                                    |            |   882 |   177 |      3067 |  14.74 |
 
 ## <span id="2024-11-24-on-the-red-mountainside">On the Red Mountainside</span>
 
@@ -88,10 +119,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BTQ2XVdDO6L/)       | 2017-04-24 |       |    57 |       172 |  33.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_269)  | 2017-04-24 |   103 |    11 |        54 |  20.37 |
-| [`ig`](https://instagram.com/p/DCw33R2BfrH/)       | 2024-11-24 |   427 |    86 |      1484 |    5.8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1919) | 2024-11-24 |   216 |    28 |      1008 |   2.88 |
-| [`tg`](https://t.me/mwscr/605)                     | 2024-11-24 |   259 |    53 |       576 |    9.2 |
-|                                                    |            |   902 |   167 |      3068 |  14.28 |
+| [`ig`](https://instagram.com/p/DCw33R2BfrH/)       | 2024-11-24 |   454 |    91 |      1484 |   6.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1919) | 2024-11-24 |   233 |    29 |      1008 |   2.98 |
+| [`tg`](https://t.me/mwscr/605)                     | 2024-11-24 |   293 |    58 |       576 |  10.07 |
+|                                                    |            |   980 |   178 |      3068 |  14.54 |
 
 ## <span id="2024-11-23-forager">Forager</span>
 
@@ -116,10 +147,10 @@
 | [`ig`](https://instagram.com/p/1866931470423299138/) | 2018-09-12 |       |   115 |       418 |  27.51 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_921)    | 2018-09-12 |   302 |    23 |       228 |  10.09 |
 | [`tg`](https://t.me/mwscr/28)                        | 2018-09-12 |   181 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DCuTMlHpGG3/)         | 2024-11-23 |   409 |    83 |      1482 |    5.6 |
+| [`ig`](https://instagram.com/p/DCuTMlHpGG3/)         | 2024-11-23 |   434 |    89 |      1482 |   6.01 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1916)   | 2024-11-23 |   249 |    33 |      1008 |   3.37 |
 | [`tg`](https://t.me/mwscr/604)                       | 2024-11-23 |   281 |    57 |       575 |   9.91 |
-|                                                      |            |   939 |   173 |      3065 |   11.3 |
+|                                                      |            |   964 |   179 |      3065 |  11.38 |
 
 #### Comments
 
