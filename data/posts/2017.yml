@@ -169,10 +169,10 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2024-11-20-15-08-07
+      updated: 2024-11-27-15-08-12
       followers: 337
       likes: 91
-      views: 609
+      views: 610
       comments: !c |-
         ixyAkZTLQnjexabnAACucXVpbnR1c19mYWJpdXOtV2UncmUgc28gYmFja5PLQnjexcSwAAClYW5z
         aXOhLgM=
@@ -2743,24 +2743,24 @@
       id: DCzc0jRtMdc
       mediaId: '18127949047386113'
       published: 2024-11-25-18-10-40
-      updated: 2024-11-27-14-07-57
+      updated: 2024-11-27-15-08-10
       followers: 1483
       likes: 84
       views: 316
     - service: vk
       id: 1920
       published: 2024-11-25-18-10-47
-      updated: 2024-11-27-14-07-57
+      updated: 2024-11-27-15-08-11
       followers: 1009
       likes: 39
       views: 191
     - service: tg
       id: 606
       published: 2024-11-25-18-10-54
-      updated: 2024-11-27-14-07-57
+      updated: 2024-11-27-15-08-10
       followers: 575
-      likes: 52
-      views: 364
+      likes: 53
+      views: 366
 2017-03-16-in-the-chambers-of-nchurdamz:
   title: In the Chambers of Nchurdamz
   titleRu: В залах Нчурдамца
@@ -10325,7 +10325,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2024-11-20-15-08-06
+      updated: 2024-11-27-15-08-12
       followers: 904
       likes: 44
       views: 295
@@ -11303,15 +11303,15 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2024-11-20-15-08-08
+      updated: 2024-11-27-15-08-14
       followers: 895
       likes: 35
-      views: 292
+      views: 293
       reposts: 2
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2024-11-20-15-08-07
+      updated: 2024-11-27-15-08-12
       followers: 343
       likes: 69
       views: 529
