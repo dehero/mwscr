@@ -2954,7 +2954,7 @@
     - service: vk
       id: 1550
       published: 2024-05-28-18-19-10
-      updated: 2024-11-20-07-08-29
+      updated: 2024-11-27-07-08-44
       followers: 917
       likes: 25
       views: 289
@@ -2965,7 +2965,7 @@
     - service: tg
       id: 422
       published: 2024-05-28-18-19-16
-      updated: 2024-11-20-07-08-26
+      updated: 2024-11-27-07-08-41
       followers: 378
       likes: 64
       views: 443
@@ -4667,10 +4667,10 @@
     - service: vk
       id: 1628
       published: 2024-07-09-18-20-20
-      updated: 2024-11-20-07-08-24
+      updated: 2024-11-27-07-08-39
       followers: 920
       likes: 35
-      views: 256
+      views: 257
       reposts: 1
     - service: tg
       id: 464
@@ -5657,25 +5657,25 @@
       id: DC2BrKPPPbg
       mediaId: '18085060606546746'
       published: 2024-11-26-18-11-11
-      updated: 2024-11-27-06-11-59
+      updated: 2024-11-27-07-08-35
       followers: 1483
       likes: 61
-      views: 230
+      views: 232
     - service: vk
       id: 1921
       published: 2024-11-26-18-11-20
-      updated: 2024-11-27-06-12-00
+      updated: 2024-11-27-07-08-36
       followers: 1010
       likes: 24
-      views: 158
+      views: 170
       reposts: 2
     - service: tg
       id: 607
       published: 2024-11-26-18-11-30
-      updated: 2024-11-27-06-12-00
+      updated: 2024-11-27-07-08-36
       followers: 577
-      likes: 38
-      views: 120
+      likes: 39
+      views: 124
       comments: !c CxGAkZPLQnk2msYQgACnbWxlbm5pY69mZWVscyBsaWtlIGhvbWUD
 2018-06-08-in-the-secret-basement-of-hasphat-antabolis:
   title: In the Secret Basement of Hasphat Antabolis
@@ -5731,10 +5731,10 @@
     - service: vk
       id: 1611
       published: 2024-07-02-18-20-16
-      updated: 2024-11-20-07-08-25
+      updated: 2024-11-27-07-08-40
       followers: 918
       likes: 40
-      views: 362
+      views: 370
       reposts: 1
       comments: !c |-
         G7oA+B2JsY2aLays8sOF+H+ek+kEv012hj7ETpJg4sl9RqnbLCF6DMViH+fi9Hxa3tQsSkXyY/xs
@@ -5743,7 +5743,7 @@
     - service: tg
       id: 457
       published: 2024-07-02-18-20-23
-      updated: 2024-11-20-07-08-23
+      updated: 2024-11-27-07-08-38
       followers: 391
       likes: 58
       views: 435
