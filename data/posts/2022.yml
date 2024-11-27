@@ -44,7 +44,7 @@
     - service: tg
       id: 246
       published: 2022-06-23
-      updated: 2024-11-19-23-07-50
+      updated: 2024-11-27-00-38-16
       followers: 226
       likes: 85
       views: 1146
@@ -90,7 +90,7 @@
     - service: tg
       id: 247
       published: 2022-06-24
-      updated: 2024-11-19-23-07-49
+      updated: 2024-11-27-00-38-16
       followers: 236
       likes: 58
       views: 712
@@ -133,7 +133,7 @@
         - 248
         - 249
       published: 2022-06-25
-      updated: 2024-11-19-23-07-49
+      updated: 2024-11-27-00-38-16
       followers: 238
       likes: 52
       views: 686
@@ -181,10 +181,10 @@
         - 252
         - 253
       published: 2022-06-26
-      updated: 2024-11-19-23-07-48
+      updated: 2024-11-27-00-38-15
       followers: 242
       likes: 57
-      views: 676
+      views: 677
       comments: !c |-
         G90AAOTnr/mFL2dVgEcrnkYFrYG66dsaMN/DE9vT4yywwkC4Agw4aIkcL3rC+HTUg2wMSxFuuWX4
         0uu+pAqnP83rZJ8s5/05WXvO8GRtEtJad0gXCwqirTmvqqIQSRtgJukafTg6vamU2W1Z9cTQlZpn
@@ -223,7 +223,7 @@
     - service: tg
       id: 254
       published: 2022-06-27
-      updated: 2024-11-19-23-07-48
+      updated: 2024-11-27-00-38-15
       followers: 241
       likes: 48
       views: 653
@@ -263,7 +263,7 @@
     - service: tg
       id: 255
       published: 2022-06-28
-      updated: 2024-11-19-23-07-47
+      updated: 2024-11-27-00-38-14
       followers: 242
       likes: 48
       views: 666
@@ -298,10 +298,10 @@
     - service: tg
       id: 256
       published: 2022-06-29
-      updated: 2024-11-19-23-07-47
+      updated: 2024-11-27-00-38-14
       followers: 245
       likes: 47
-      views: 606
+      views: 607
       comments: !c |-
         G5gAgIzTFXOUdPQL+p/bSl95sY++IIMflIlBLFU0dKMpWO7Fha65LUtTDNWQLeY0D8ya2h/sH4bs
         Bw45hgPYzQKBiNrqDGeUUs/7G0fOsab01nyto8196dtoPOJ6GtDABC1eGA5RAl93Xpp5/Yukp8Te
@@ -333,10 +333,10 @@
     - service: tg
       id: 257
       published: 2022-06-30
-      updated: 2024-11-19-23-07-46
+      updated: 2024-11-27-00-38-13
       followers: 246
       likes: 45
-      views: 646
+      views: 647
       comments: !c |-
         G2IEEZWTCoDOhHjM0fSAmU6ZqbsTUhppNNZ+aHJNW9ubBs5NIVtmWXzAIiX5EYEiNWHYZUT8P/3B
         Ag3wFTcfNNMkxaTxhM8NV2Q1XcxLvIQ8CEKCQOLKbd2X267rLa87df93qugPYwxvDcsL3cVCh0nX
@@ -381,7 +381,7 @@
     - service: tg
       id: 258
       published: 2022-07-01
-      updated: 2024-11-19-23-07-46
+      updated: 2024-11-27-00-38-13
       followers: 247
       likes: 47
       views: 625
@@ -413,10 +413,10 @@
     - service: tg
       id: 259
       published: 2022-07-02
-      updated: 2024-11-19-23-07-46
+      updated: 2024-11-27-00-38-12
       followers: 248
       likes: 44
-      views: 681
+      views: 682
 2022-07-03-crossing-the-edge-of-bitter-coast:
   title: Crossing the Edge of Bitter Coast
   titleRu: Пересекая край Горького берега
