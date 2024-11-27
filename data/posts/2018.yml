@@ -1206,18 +1206,18 @@
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2024-11-20-05-08-30
+      updated: 2024-11-27-06-12-05
       followers: 926
       likes: 28
-      views: 275
+      views: 278
       reposts: 1
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2024-11-20-05-08-30
+      updated: 2024-11-27-06-12-04
       followers: 502
       likes: 70
-      views: 615
+      views: 618
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -4675,7 +4675,7 @@
     - service: tg
       id: 464
       published: 2024-07-09-18-20-26
-      updated: 2024-11-20-05-08-33
+      updated: 2024-11-27-06-12-06
       followers: 396
       likes: 69
       views: 462
@@ -5657,25 +5657,25 @@
       id: DC2BrKPPPbg
       mediaId: '18085060606546746'
       published: 2024-11-26-18-11-11
-      updated: 2024-11-27-05-08-23
+      updated: 2024-11-27-06-11-59
       followers: 1483
-      likes: 58
-      views: 221
+      likes: 61
+      views: 230
     - service: vk
       id: 1921
       published: 2024-11-26-18-11-20
-      updated: 2024-11-27-05-08-23
+      updated: 2024-11-27-06-12-00
       followers: 1010
-      likes: 23
-      views: 155
+      likes: 24
+      views: 158
       reposts: 2
     - service: tg
       id: 607
       published: 2024-11-26-18-11-30
-      updated: 2024-11-27-05-08-23
+      updated: 2024-11-27-06-12-00
       followers: 577
-      likes: 36
-      views: 117
+      likes: 38
+      views: 120
       comments: !c CxGAkZPLQnk2msYQgACnbWxlbm5pY69mZWVscyBsaWtlIGhvbWUD
 2018-06-08-in-the-secret-basement-of-hasphat-antabolis:
   title: In the Secret Basement of Hasphat Antabolis
