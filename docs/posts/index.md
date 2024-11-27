@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BUoeWBsjSOV/)       | 2017-05-28 |       |    80 |       179 |  44.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_304)  | 2017-05-28 |   210 |    11 |        58 |  20.69 |
-| [`ig`](https://instagram.com/p/DC4mgCDRhoC/)       | 2024-11-27 |    45 |    26 |      1490 |   1.74 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |    43 |    13 |      1010 |   1.29 |
-| [`tg`](https://t.me/mwscr/608)                     | 2024-11-27 |    82 |    23 |       577 |   3.99 |
-|                                                    |            |   170 |    62 |      3077 |  14.48 |
+| [`ig`](https://instagram.com/p/DC4mgCDRhoC/)       | 2024-11-27 |    92 |    46 |      1490 |   3.09 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |    96 |    16 |      1010 |   1.68 |
+| [`tg`](https://t.me/mwscr/608)                     | 2024-11-27 |   106 |    29 |       577 |   5.03 |
+|                                                    |            |   294 |    91 |      3077 |  15.04 |
 
 #### Comments
 
@@ -63,10 +63,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bju8OnQFyPg/)       | 2018-06-07 |       |   107 |       341 |  31.38 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_759)  | 2018-06-07 |   289 |    25 |       172 |  14.53 |
-| [`ig`](https://instagram.com/p/DC2BrKPPPbg/)       | 2024-11-26 |   288 |    69 |      1483 |   4.65 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1921) | 2024-11-26 |   293 |    28 |      1010 |   3.07 |
-| [`tg`](https://t.me/mwscr/607)                     | 2024-11-26 |   167 |    49 |       577 |   8.49 |
-|                                                    |            |   748 |   146 |      3070 |  12.43 |
+| [`ig`](https://instagram.com/p/DC2BrKPPPbg/)       | 2024-11-26 |   294 |    69 |      1483 |   4.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1921) | 2024-11-26 |   300 |    29 |      1010 |   3.17 |
+| [`tg`](https://t.me/mwscr/607)                     | 2024-11-26 |   170 |    50 |       577 |   8.67 |
+|                                                    |            |   764 |   148 |      3070 |  12.48 |
 
 #### Comments
 
@@ -220,15 +220,16 @@
 | [`ig`](https://instagram.com/p/BfJXT4bDfpQ/)       | 2018-02-13 |       |    75 |       286 |  26.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_612)  | 2018-02-13 |   171 |    14 |       131 |  10.69 |
 | [`ig`](https://instagram.com/p/DCpJqGDManq/)       | 2024-11-21 |   335 |    87 |      1483 |   5.87 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1913) | 2024-11-21 |   230 |    30 |      1008 |   2.98 |
-| [`tg`](https://t.me/mwscr/602)                     | 2024-11-21 |   399 |    55 |       573 |    9.6 |
-|                                                    |            |   964 |   172 |      3064 |  11.07 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1913) | 2024-11-21 |   241 |    31 |      1008 |   3.08 |
+| [`tg`](https://t.me/mwscr/602)                     | 2024-11-21 |   421 |    55 |       573 |    9.6 |
+|                                                    |            |   997 |   173 |      3064 |  11.09 |
 
 #### Comments
 
 - `vk` <ins title="2024-11-21-18-59-53">artyom_melikhoff</ins> Это же надо его в такие 🐘🐘🐘ня запихнуть было…
 - `tg` <ins title="2024-11-21-23-02-06">Gatemate7</ins> the hood of morrowind
 - `tg` <ins title="2024-11-24-16-19-43">Loftydelusion</ins> This people just goona hate you i dont know why
+  - <ins title="2024-11-27-09-23-01">ansis</ins> It is warranted hate, you are an outlander or an Imperialized Dunmer which is arguably worse. Even more curious, you likely claim to be their Chosen One. Their admiration and respect has to be earned, be it by means of wealth and/or good deeds.<br>How would you feel if you were a stubborn traditionalist shunned and forgotten by a world of uncertainty and change? Wouldn&#39;t you be bitter to outsiders? And then this random shmuck comes along, claiming he&#39;s the Messiah. Even if he&#39;s not telling lies, why should you just believe him? What if he tries to use you for his gains like those damn n&#39;wahs and city people tend to do?
 
 ## <span id="2024-11-20-triple-storage">Triple Storage</span>
 
@@ -252,10 +253,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BdQTanFD4Sm/)       | 2017-12-28 |       |    76 |       262 |  29.01 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_555)  | 2017-12-28 |   163 |    11 |       115 |   9.57 |
-| [`ig`](https://instagram.com/p/DCmk2wWtnXB/)       | 2024-11-20 |   368 |    82 |      1483 |   5.53 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1909) | 2024-11-20 |   217 |    26 |      1007 |   2.58 |
-| [`tg`](https://t.me/mwscr/601)                     | 2024-11-20 |   285 |    51 |       574 |   8.89 |
-|                                                    |            |   870 |   159 |      3064 |  11.11 |
+| [`ig`](https://instagram.com/p/DCmk2wWtnXB/)       | 2024-11-20 |   374 |    82 |      1483 |   5.53 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1909) | 2024-11-20 |   226 |    26 |      1007 |   2.58 |
+| [`tg`](https://t.me/mwscr/601)                     | 2024-11-20 |   311 |    52 |       574 |   9.06 |
+|                                                    |            |   911 |   160 |      3064 |  11.15 |
 
 #### Comments
 
@@ -475,10 +476,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSk7oIVDpuC/)       | 2017-04-07 |       |    65 |       170 |  38.24 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_245)  | 2017-04-07 |   134 |     6 |        50 |     12 |
-| [`ig`](https://instagram.com/p/DCUjPxsNBNV/)       | 2024-11-13 |   320 |    78 |      1481 |   5.27 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1893) | 2024-11-13 |   294 |    42 |      1006 |   4.27 |
-| [`tg`](https://t.me/mwscr/594)                     | 2024-11-13 |   287 |    51 |       567 |   8.99 |
-|                                                    |            |   901 |   171 |      3054 |  13.75 |
+| [`ig`](https://instagram.com/p/DCUjPxsNBNV/)       | 2024-11-13 |   343 |    79 |      1481 |   5.33 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1893) | 2024-11-13 |   302 |    42 |      1006 |   4.27 |
+| [`tg`](https://t.me/mwscr/594)                     | 2024-11-13 |   375 |    52 |       567 |   9.17 |
+|                                                    |            |  1020 |   173 |      3054 |   13.8 |
 
 #### Comments
 
