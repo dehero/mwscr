@@ -1075,17 +1075,17 @@
     - service: vk
       id: 1514
       published: 2024-04-30-20-27-56
-      updated: 2024-11-20-13-18-35
+      updated: 2024-11-27-13-19-49
       followers: 911
       likes: 30
       views: 237
     - service: tg
       id: 394
       published: 2024-04-30-20-28-22
-      updated: 2024-11-20-13-18-35
+      updated: 2024-11-27-13-19-49
       followers: 363
       likes: 66
-      views: 492
+      views: 493
 2018-02-01-far-swamps:
   title: Far Swamps
   titleRu: Дальние болота
@@ -5657,25 +5657,25 @@
       id: DC2BrKPPPbg
       mediaId: '18085060606546746'
       published: 2024-11-26-18-11-11
-      updated: 2024-11-27-12-14-40
+      updated: 2024-11-27-13-19-46
       followers: 1483
       likes: 65
-      views: 258
+      views: 265
     - service: vk
       id: 1921
       published: 2024-11-26-18-11-20
-      updated: 2024-11-27-12-14-40
+      updated: 2024-11-27-13-19-47
       followers: 1010
       likes: 28
-      views: 240
+      views: 252
       reposts: 3
     - service: tg
       id: 607
       published: 2024-11-26-18-11-30
-      updated: 2024-11-27-12-14-40
+      updated: 2024-11-27-13-19-47
       followers: 577
-      likes: 43
-      views: 142
+      likes: 44
+      views: 143
       comments: !c |-
         Cy6AkpPLQnk206sBgACzQ29ydnVzX1N1YnRlcnJhbmV1c7tUaW1lIHRvIHJlaW5zdGFsbCBNb3Jy
         b3dpbmSTy0J5NprGEIAAp21sZW5uaWOvZmVlbHMgbGlrZSBob21lAw==
