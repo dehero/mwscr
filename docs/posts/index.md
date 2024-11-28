@@ -29,9 +29,9 @@
 | [`ig`](https://instagram.com/p/BNCSX_HFXEN/)       | 2016-11-20 |       |    18 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_5)    | 2017-01-22 |    53 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/DC7LMkPPlFg/)       | 2024-11-28 |    47 |    25 |      1492 |   1.68 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |    62 |    10 |      1012 |   1.09 |
-| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |    84 |    23 |       578 |   3.98 |
-|                                                    |            |   193 |    58 |      3082 |   2.19 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |    78 |    10 |      1012 |   1.09 |
+| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |    92 |    27 |       578 |   4.67 |
+|                                                    |            |   217 |    62 |      3082 |   2.36 |
 
 ## <span id="2024-11-27-masser-over-the-mournhold-temple">Masser Over the Mournhold Temple</span>
 
@@ -56,9 +56,9 @@
 | [`ig`](https://instagram.com/p/BUoeWBsjSOV/)       | 2017-05-28 |       |    80 |       179 |  44.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_304)  | 2017-05-28 |   210 |    11 |        58 |  20.69 |
 | [`ig`](https://instagram.com/p/DC4mgCDRhoC/)       | 2024-11-27 |   688 |   119 |      1490 |   7.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |   502 |    41 |      1010 |   4.36 |
-| [`tg`](https://t.me/mwscr/608)                     | 2024-11-27 |   198 |    60 |       577 |   10.4 |
-|                                                    |            |  1388 |   220 |      3077 |  17.62 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |   504 |    41 |      1010 |   4.36 |
+| [`tg`](https://t.me/mwscr/608)                     | 2024-11-27 |   199 |    61 |       577 |  10.57 |
+|                                                    |            |  1391 |   221 |      3077 |  17.66 |
 
 #### Comments
 
@@ -253,9 +253,9 @@
 | [`ig`](https://instagram.com/p/BfJXT4bDfpQ/)       | 2018-02-13 |       |    75 |       286 |  26.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_612)  | 2018-02-13 |   171 |    14 |       131 |  10.69 |
 | [`ig`](https://instagram.com/p/DCpJqGDManq/)       | 2024-11-21 |   335 |    87 |      1483 |   5.87 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1913) | 2024-11-21 |   241 |    31 |      1008 |   3.08 |
-| [`tg`](https://t.me/mwscr/602)                     | 2024-11-21 |   421 |    55 |       573 |    9.6 |
-|                                                    |            |   997 |   173 |      3064 |  11.09 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1913) | 2024-11-21 |   249 |    32 |      1008 |   3.17 |
+| [`tg`](https://t.me/mwscr/602)                     | 2024-11-21 |   443 |    55 |       573 |    9.6 |
+|                                                    |            |  1027 |   174 |      3064 |  11.11 |
 
 #### Comments
 
