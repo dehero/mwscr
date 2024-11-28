@@ -1410,17 +1410,17 @@
     - service: vk
       id: 1818
       published: 2024-10-10-18-10-22
-      updated: 2024-11-21-22-07-49
+      updated: 2024-11-28-23-08-27
       followers: 960
       likes: 34
-      views: 310
+      views: 312
     - service: tg
       id: 560
       published: 2024-10-10-18-10-28
-      updated: 2024-11-21-22-07-47
+      updated: 2024-11-28-23-08-25
       followers: 559
       likes: 62
-      views: 443
+      views: 447
 2017-02-08-moonmoth-legion-fort:
   title: Moonmoth Legion Fort
   titleRu: Форт Легиона Лунной Бабочки
@@ -2647,19 +2647,19 @@
     - service: vk
       id: 1840
       published: 2024-10-17-18-09-16
-      updated: 2024-11-21-22-07-48
+      updated: 2024-11-28-23-08-26
       followers: 965
       likes: 47
-      views: 425
+      views: 443
       reposts: 2
       comments: !c iwuAkZPLQnkp0j58gACnaHlhcnZhcqTwn6WwAw==
     - service: tg
       id: 567
       published: 2024-10-17-18-09-22
-      updated: 2024-11-21-22-07-47
+      updated: 2024-11-28-23-08-24
       followers: 562
-      likes: 64
-      views: 557
+      likes: 65
+      views: 565
 2017-03-13-sandy-shore:
   title: Sandy Shore
   titleRu: Песчаный берег
@@ -5603,18 +5603,18 @@
     - service: vk
       id: 1923
       published: 2024-11-27-18-11-33
-      updated: 2024-11-28-22-07-29
+      updated: 2024-11-28-23-08-24
       followers: 1010
       likes: 41
-      views: 507
+      views: 509
       reposts: 3
     - service: tg
       id: 608
       published: 2024-11-27-18-11-58
-      updated: 2024-11-28-22-07-28
+      updated: 2024-11-28-23-08-23
       followers: 577
       likes: 61
-      views: 204
+      views: 206
       comments: !c |-
         G7QAAI2ULncEzXc/D3hAH2iRmAn4O+6W9MEWCRJpaXs+8GjaW45ASbvBgZZRANCDLDg/gIy65/B6
         8FLKnj3o9c6xRsj7xQabsqKyFp5tMmxDIaePsf0/tgbnWCP4CwbAIk0iViURG1rXEIeJEEOCCMM9
@@ -10926,10 +10926,10 @@
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2024-11-21-22-07-50
+      updated: 2024-11-28-23-08-28
       followers: 958
       likes: 47
-      views: 327
+      views: 329
       reposts: 2
       comments: !c |-
         G5waALwUd6yMGpSFaiQroXyz8M0Va7TB0dnw1Hb8P7EGPyTSyW82fdldPH+jFLpKt06DRqgQOtP1
@@ -10974,10 +10974,10 @@
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2024-11-21-22-07-49
+      updated: 2024-11-28-23-08-26
       followers: 560
       likes: 64
-      views: 524
+      views: 528
       comments: !c ixiAkZPLQnkljeH0gACnQmFyYUZveL5UcnVseSwgdGhlIHJvYWQgbW9zdCB0cmF2ZWxsZWQD
 2017-11-06-shore-shroom:
   title: Shore Shroom
@@ -12048,10 +12048,10 @@
     - service: vk
       id: 1852
       published: 2024-10-24-18-10-30
-      updated: 2024-11-21-22-07-46
+      updated: 2024-11-28-23-08-25
       followers: 995
       likes: 44
-      views: 309
+      views: 312
       reposts: 2
       comments: !c |-
         GxYBiKwObOdpCDGx22QiDk2h91F8f2KAAvz0E4VCEG0pgp1WrISRPedcSeUlyJif7Oh1czGrB83G
@@ -12061,10 +12061,10 @@
     - service: tg
       id: 574
       published: 2024-10-24-18-10-36
-      updated: 2024-11-21-22-07-46
+      updated: 2024-11-28-23-08-24
       followers: 563
-      likes: 59
-      views: 489
+      likes: 60
+      views: 497
 2017-12-07-puzzled-ashlanders:
   title: Puzzled Ashlanders
   titleRu: Озадаченные эшлендеры
