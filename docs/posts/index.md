@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`275 items`
+`276 items`
+
+## <span id="2024-11-28-molag-amur">Molag Amur</span>
+
+`RU` Молаг Амур
+
+<a href="https://instagram.com/p/BNCSX_HFXEN/" title="2016-11-20-3-molag-amur"><img alt="store:/shots/2016-11-20-3-molag-amur.png" src="../../assets/previews/shots/2016-11-20-3-molag-amur.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Molag Amur Region` `🚀 OpenMW` `lava`
+
+```
+2024-11-28-molag-amur
+```
+
+> `2016-11-20-3-molag-amur`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BNCSX_HFXEN/)       | 2016-11-20 |       |    18 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_5)    | 2017-01-22 |    53 |     2 |         4 |      2 |
+| [`ig`](https://instagram.com/p/DC7LMkPPlFg/)       | 2024-11-28 |       |       |      1492 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |       |       |      1012 |        |
+| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |       |       |       578 |        |
+|                                                    |            |       |       |      3082 |        |
 
 ## <span id="2024-11-27-masser-over-the-mournhold-temple">Masser Over the Mournhold Temple</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BUoeWBsjSOV/)       | 2017-05-28 |       |    80 |       179 |  44.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_304)  | 2017-05-28 |   210 |    11 |        58 |  20.69 |
-| [`ig`](https://instagram.com/p/DC4mgCDRhoC/)       | 2024-11-27 |   646 |   117 |      1490 |   7.85 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |   476 |    39 |      1010 |   4.16 |
-| [`tg`](https://t.me/mwscr/608)                     | 2024-11-27 |   176 |    56 |       577 |   9.71 |
-|                                                    |            |  1298 |   212 |      3077 |  17.42 |
+| [`ig`](https://instagram.com/p/DC4mgCDRhoC/)       | 2024-11-27 |   668 |   119 |      1490 |   7.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |   489 |    40 |      1010 |   4.26 |
+| [`tg`](https://t.me/mwscr/608)                     | 2024-11-27 |   177 |    57 |       577 |   9.88 |
+|                                                    |            |  1334 |   216 |      3077 |   17.5 |
 
 #### Comments
 
@@ -64,10 +91,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bju8OnQFyPg/)       | 2018-06-07 |       |   107 |       341 |  31.38 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_759)  | 2018-06-07 |   289 |    25 |       172 |  14.53 |
-| [`ig`](https://instagram.com/p/DC2BrKPPPbg/)       | 2024-11-26 |   336 |    76 |      1483 |   5.12 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1921) | 2024-11-26 |   345 |    36 |      1010 |   3.86 |
-| [`tg`](https://t.me/mwscr/607)                     | 2024-11-26 |   186 |    53 |       577 |   9.19 |
-|                                                    |            |   867 |   165 |      3070 |  12.82 |
+| [`ig`](https://instagram.com/p/DC2BrKPPPbg/)       | 2024-11-26 |   340 |    79 |      1483 |   5.33 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1921) | 2024-11-26 |   349 |    36 |      1010 |   3.86 |
+| [`tg`](https://t.me/mwscr/607)                     | 2024-11-26 |   187 |    53 |       577 |   9.19 |
+|                                                    |            |   876 |   168 |      3070 |  12.86 |
 
 #### Comments
 
@@ -98,10 +125,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRpxEcej_Zv/)       | 2017-03-15 |       |    48 |       112 |  42.86 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_208)  | 2017-03-15 |   134 |    12 |        46 |     12 |
-| [`ig`](https://instagram.com/p/DCzc0jRtMdc/)       | 2024-11-25 |   316 |    84 |      1483 |   5.66 |
+| [`ig`](https://instagram.com/p/DCzc0jRtMdc/)       | 2024-11-25 |   325 |    87 |      1483 |   5.87 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1920) | 2024-11-25 |   196 |    40 |      1009 |   3.96 |
 | [`tg`](https://t.me/mwscr/606)                     | 2024-11-25 |   370 |    53 |       575 |   9.22 |
-|                                                    |            |   882 |   177 |      3067 |  14.74 |
+|                                                    |            |   891 |   180 |      3067 |  14.78 |
 
 ## <span id="2024-11-24-on-the-red-mountainside">On the Red Mountainside</span>
 
