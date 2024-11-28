@@ -29,9 +29,9 @@
 | [`ig`](https://instagram.com/p/BNCSX_HFXEN/)       | 2016-11-20 |       |    18 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_5)    | 2017-01-22 |    53 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/DC7LMkPPlFg/)       | 2024-11-28 |    47 |    25 |      1492 |   1.68 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |    78 |    10 |      1012 |   1.09 |
-| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |    92 |    27 |       578 |   4.67 |
-|                                                    |            |   217 |    62 |      3082 |   2.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |    87 |    13 |      1012 |   1.38 |
+| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |    97 |    28 |       578 |   4.84 |
+|                                                    |            |   231 |    66 |      3082 |   2.48 |
 
 ## <span id="2024-11-27-masser-over-the-mournhold-temple">Masser Over the Mournhold Temple</span>
 
@@ -56,9 +56,9 @@
 | [`ig`](https://instagram.com/p/BUoeWBsjSOV/)       | 2017-05-28 |       |    80 |       179 |  44.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_304)  | 2017-05-28 |   210 |    11 |        58 |  20.69 |
 | [`ig`](https://instagram.com/p/DC4mgCDRhoC/)       | 2024-11-27 |   688 |   119 |      1490 |   7.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |   504 |    41 |      1010 |   4.36 |
-| [`tg`](https://t.me/mwscr/608)                     | 2024-11-27 |   199 |    61 |       577 |  10.57 |
-|                                                    |            |  1391 |   221 |      3077 |  17.66 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |   507 |    41 |      1010 |   4.36 |
+| [`tg`](https://t.me/mwscr/608)                     | 2024-11-27 |   204 |    61 |       577 |  10.57 |
+|                                                    |            |  1399 |   221 |      3077 |  17.66 |
 
 #### Comments
 
@@ -483,9 +483,9 @@
 | [`ig`](https://instagram.com/p/BeLn4ctDDIV/)       | 2018-01-20 |       |    72 |       279 |  25.81 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_585)  | 2018-01-20 |   170 |    13 |       122 |  10.66 |
 | [`ig`](https://instagram.com/p/DCXIGp-tYLL/)       | 2024-11-14 |   395 |    88 |      1480 |   5.95 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1894) | 2024-11-14 |   270 |    31 |      1005 |   3.18 |
-| [`tg`](https://t.me/mwscr/595)                     | 2024-11-14 |   441 |    52 |       570 |   9.12 |
-|                                                    |            |  1106 |   171 |      3055 |  10.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1894) | 2024-11-14 |   282 |    31 |      1005 |   3.18 |
+| [`tg`](https://t.me/mwscr/595)                     | 2024-11-14 |   668 |    56 |       570 |   9.82 |
+|                                                    |            |  1345 |   175 |      3055 |  11.08 |
 
 ## <span id="2024-11-13-trees-and-towers">Trees and Towers</span>
 
@@ -935,9 +935,9 @@
 | [`ig`](https://instagram.com/p/BPmN9y6Ffqy/)       | 2017-01-23 |       |    35 |        80 |  43.75 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_73)   | 2017-01-23 |   220 |     7 |         8 |      8 |
 | [`ig`](https://instagram.com/p/DBzGZfRxSXu/)       | 2024-10-31 |   578 |   139 |      1478 |    9.4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1868) | 2024-10-31 |   261 |    29 |      1002 |   2.99 |
-| [`tg`](https://t.me/mwscr/581)                     | 2024-10-31 |   475 |    66 |       564 |   11.7 |
-|                                                    |            |  1314 |   234 |      3044 |  15.17 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1868) | 2024-10-31 |   266 |    29 |      1002 |   2.99 |
+| [`tg`](https://t.me/mwscr/581)                     | 2024-10-31 |   492 |    67 |       564 |  11.88 |
+|                                                    |            |  1336 |   235 |      3044 |  15.21 |
 
 #### Comments
 
