@@ -7211,7 +7211,7 @@
     - service: tg
       id: 354
       published: 2024-03-22
-      updated: 2024-11-22-21-07-53
+      updated: 2024-11-29-22-07-31
       followers: 353
       likes: 64
       views: 530
@@ -8128,18 +8128,18 @@
     - service: tg
       id: 582
       published: 2024-11-01-18-10-31
-      updated: 2024-11-22-21-07-52
+      updated: 2024-11-29-22-07-30
       followers: 565
-      likes: 55
-      views: 503
+      likes: 56
+      views: 521
       comments: !c CwyAkZPLQnkuyHj0AACoemhjaGtkcnak8J+lugM=
     - service: vk
       id: 1871
       published: 2024-11-01-19-02-16
-      updated: 2024-11-22-21-07-54
+      updated: 2024-11-29-22-07-30
       followers: 1002
       likes: 33
-      views: 286
+      views: 292
 2017-08-13-hanud:
   title: Hanud
   titleRu: Хануд
@@ -8715,17 +8715,17 @@
     - service: vk
       id: 1926
       published: 2024-11-29-18-10-46
-      updated: 2024-11-29-21-04-39
+      updated: 2024-11-29-22-07-28
       followers: 1011
-      likes: 8
-      views: 61
+      likes: 11
+      views: 65
     - service: tg
       id: 610
       published: 2024-11-29-18-10-55
-      updated: 2024-11-29-21-04-39
+      updated: 2024-11-29-22-07-29
       followers: 578
-      likes: 25
-      views: 89
+      likes: 30
+      views: 100
 2017-08-29-at-the-coast-of-hirstaang-forest:
   title: At the Coast of Hirstaang Forest
   titleRu: На берегу Леса Хирстаанг
