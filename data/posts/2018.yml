@@ -1616,7 +1616,7 @@
     - service: vk
       id: 1573
       published: 2024-06-06-18-19-32
-      updated: 2024-11-22-12-14-27
+      updated: 2024-11-29-12-14-34
       followers: 916
       likes: 37
       views: 284
@@ -1624,7 +1624,7 @@
     - service: tg
       id: 431
       published: 2024-06-06-18-19-42
-      updated: 2024-11-22-12-14-27
+      updated: 2024-11-29-12-14-33
       followers: 384
       likes: 58
       views: 445
@@ -3336,10 +3336,10 @@
     - service: vk
       id: 1534
       published: 2024-05-16-18-18-18
-      updated: 2024-11-22-12-14-30
+      updated: 2024-11-29-12-14-37
       followers: 915
       likes: 41
-      views: 322
+      views: 323
       reposts: 1
       comments: !c |-
         G5AAqB2HcSyy8PJqYKMTI1Q6PV+3I/zjd6GH2ESSeLLPOZf6SkjuXPAXXW9JUaNUJB/j+4bydrPZ
@@ -3348,7 +3348,7 @@
     - service: tg
       id: 410
       published: 2024-05-16-18-18-25
-      updated: 2024-11-22-12-14-30
+      updated: 2024-11-29-12-14-37
       followers: 370
       likes: 58
       views: 481
@@ -4830,7 +4830,7 @@
     - service: vk
       id: 1543
       published: 2024-05-23-18-18-57
-      updated: 2024-11-22-12-14-29
+      updated: 2024-11-29-12-14-36
       followers: 917
       likes: 46
       views: 294
@@ -4841,10 +4841,10 @@
     - service: tg
       id: 417
       published: 2024-05-23-18-19-02
-      updated: 2024-11-22-12-14-29
+      updated: 2024-11-29-12-14-36
       followers: 376
       likes: 64
-      views: 498
+      views: 499
       comments: !c |-
         G2oAQCwS7JgUo4JbFLbXSSe3HeXg9+/KYQItsUDKNkr9BMBz1MmRfp5K+w5JbUUYeeQlGtudUy7B
         wLwlLaTTmQ9+z+FzUiKPXXt1ry6YlTKDt9dsp6hVlso7Yzzs571EH2zjEEa1DC64MAcA

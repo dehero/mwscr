@@ -918,7 +918,7 @@
     - service: vk
       id: 1554
       published: 2024-05-30-18-20-43
-      updated: 2024-11-22-12-14-28
+      updated: 2024-11-29-12-14-35
       followers: 916
       likes: 49
       views: 401
@@ -931,10 +931,10 @@
     - service: tg
       id: 424
       published: 2024-05-30-18-20-52
-      updated: 2024-11-22-12-14-28
+      updated: 2024-11-29-12-14-35
       followers: 378
       likes: 60
-      views: 482
+      views: 484
 2017-01-28-1-meditative-evening-in-ahemmusa-camp:
   title: Meditative Evening in Ahemmusa Camp
   titleRu: Медитативный вечер в лагере Ахеммуза
@@ -5603,18 +5603,18 @@
     - service: vk
       id: 1923
       published: 2024-11-27-18-11-33
-      updated: 2024-11-29-11-02-17
+      updated: 2024-11-29-12-14-31
       followers: 1010
-      likes: 43
-      views: 521
+      likes: 45
+      views: 524
       reposts: 3
     - service: tg
       id: 608
       published: 2024-11-27-18-11-58
-      updated: 2024-11-29-11-02-17
+      updated: 2024-11-29-12-14-32
       followers: 577
       likes: 61
-      views: 213
+      views: 214
       comments: !c |-
         G7QAAI2ULncEzXc/D3hAH2iRmAn4O+6W9MEWCRJpaXs+8GjaW45ASbvBgZZRANCDLDg/gIy65/B6
         8FLKnj3o9c6xRsj7xQabsqKyFp5tMmxDIaePsf0/tgbnWCP4CwbAIk0iViURG1rXEIeJEEOCCMM9
@@ -12216,7 +12216,7 @@
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
-      updated: 2024-11-22-12-14-26
+      updated: 2024-11-29-12-14-33
       followers: 917
       likes: 43
       views: 318
@@ -12224,7 +12224,7 @@
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
-      updated: 2024-11-22-12-14-26
+      updated: 2024-11-29-12-14-32
       followers: 388
       likes: 56
       views: 475
