@@ -29,9 +29,9 @@
 | [`ig`](https://instagram.com/p/BNCSX_HFXEN/)       | 2016-11-20 |       |    18 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_5)    | 2017-01-22 |    53 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/DC7LMkPPlFg/)       | 2024-11-28 |    47 |    25 |      1492 |   1.68 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |   102 |    16 |      1012 |   1.68 |
-| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |   102 |    30 |       578 |   5.19 |
-|                                                    |            |   251 |    71 |      3082 |   2.64 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |   110 |    19 |      1012 |   2.08 |
+| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |   105 |    31 |       578 |   5.36 |
+|                                                    |            |   262 |    75 |      3082 |   2.78 |
 
 ## <span id="2024-11-27-masser-over-the-mournhold-temple">Masser Over the Mournhold Temple</span>
 
@@ -56,9 +56,9 @@
 | [`ig`](https://instagram.com/p/BUoeWBsjSOV/)       | 2017-05-28 |       |    80 |       179 |  44.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_304)  | 2017-05-28 |   210 |    11 |        58 |  20.69 |
 | [`ig`](https://instagram.com/p/DC4mgCDRhoC/)       | 2024-11-27 |   688 |   119 |      1490 |   7.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |   511 |    42 |      1010 |   4.46 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |   513 |    42 |      1010 |   4.46 |
 | [`tg`](https://t.me/mwscr/608)                     | 2024-11-27 |   206 |    61 |       577 |  10.57 |
-|                                                    |            |  1405 |   222 |      3077 |  17.68 |
+|                                                    |            |  1407 |   222 |      3077 |  17.68 |
 
 #### Comments
 
@@ -2515,9 +2515,9 @@
 | [`ig`](https://instagram.com/p/BPPPFH4l0Rm/)       | 2017-01-14 |       |    37 |        76 |  48.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_62)   | 2017-01-14 |   129 |     5 |         4 |      6 |
 | [`ig`](https://instagram.com/p/C_08UV1TwXj/)       | 2024-09-12 |   388 |    91 |      1456 |   6.25 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1753) | 2024-09-12 |   308 |    38 |       945 |   4.13 |
-| [`tg`](https://t.me/mwscr/530)                     | 2024-09-12 |   488 |    62 |       555 |  11.17 |
-|                                                    |            |  1184 |   191 |      2956 |  15.25 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1753) | 2024-09-12 |   310 |    38 |       945 |   4.13 |
+| [`tg`](https://t.me/mwscr/530)                     | 2024-09-12 |   492 |    62 |       555 |  11.17 |
+|                                                    |            |  1190 |   191 |      2956 |  15.25 |
 
 #### Comments
 
@@ -2751,9 +2751,9 @@
 | [`ig`](https://instagram.com/p/Bmgl3avFBrZ/)       | 2018-08-15 |       |    86 |       382 |  22.51 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_860)  | 2018-08-15 |   292 |    16 |       199 |   8.04 |
 | [`ig`](https://instagram.com/p/C_i6eUrs1dW/)       | 2024-09-05 |   325 |    80 |      1455 |    5.5 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1737) | 2024-09-05 |   269 |    27 |       943 |   2.86 |
-| [`tg`](https://t.me/mwscr/523)                     | 2024-09-05 |   511 |    56 |       551 |  10.16 |
-|                                                    |            |  1105 |   163 |      2949 |   9.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1737) | 2024-09-05 |   271 |    27 |       943 |   2.86 |
+| [`tg`](https://t.me/mwscr/523)                     | 2024-09-05 |   515 |    56 |       551 |  10.16 |
+|                                                    |            |  1111 |   163 |      2949 |   9.82 |
 
 #### Comments
 
