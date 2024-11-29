@@ -4,7 +4,33 @@
 
 # Posted in 2024
 
-`276 items`
+`277 items`
+
+## <span id="2024-11-29-shishara">Shishara</span>
+
+`RU` Шишара
+
+<a href="https://instagram.com/p/BYVRAcJDqXl/" title="2017-08-28-shishara"><img alt="store:/shots/2017-08-28-shishara.png" src="../../assets/previews/shots/2017-08-28-shishara.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Shishara` `🚀 OpenMW`
+
+```
+2024-11-29-shishara
+```
+
+> `2017-08-28-shishara`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BYVRAcJDqXl/)       | 2017-08-28 |       |    67 |       198 |  33.84 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_408)  | 2017-08-28 |   120 |     4 |        74 |   5.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1926) | 2024-11-29 |       |       |      1011 |        |
+| [`tg`](https://t.me/mwscr/610)                     | 2024-11-29 |       |       |       578 |        |
+|                                                    |            |       |       |      1589 |  19.62 |
 
 ## <span id="2024-11-28-molag-amur">Molag Amur</span>
 
@@ -29,9 +55,13 @@
 | [`ig`](https://instagram.com/p/BNCSX_HFXEN/)       | 2016-11-20 |       |    18 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_5)    | 2017-01-22 |    53 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/DC7LMkPPlFg/)       | 2024-11-28 |    47 |    25 |      1492 |   1.68 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |   241 |    37 |      1012 |   3.95 |
-| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |   132 |    40 |       578 |   6.92 |
-|                                                    |            |   420 |   102 |      3082 |   3.64 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |   244 |    38 |      1012 |   4.05 |
+| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |   133 |    40 |       578 |   6.92 |
+|                                                    |            |   424 |   103 |      3082 |   3.66 |
+
+#### Comments
+
+- `vk` <ins title="2024-11-29-18-02-39">id889222999</ins> С этим чудесным девайсом на голове - ты сможешь только её ощутить ))
 
 ## <span id="2024-11-27-masser-over-the-mournhold-temple">Masser Over the Mournhold Temple</span>
 
@@ -56,9 +86,9 @@
 | [`ig`](https://instagram.com/p/BUoeWBsjSOV/)       | 2017-05-28 |       |    80 |       179 |  44.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_304)  | 2017-05-28 |   210 |    11 |        58 |  20.69 |
 | [`ig`](https://instagram.com/p/DC4mgCDRhoC/)       | 2024-11-27 |   688 |   119 |      1490 |   7.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |   529 |    45 |      1010 |   4.75 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |   531 |    46 |      1010 |   4.85 |
 | [`tg`](https://t.me/mwscr/608)                     | 2024-11-27 |   217 |    61 |       577 |  10.57 |
-|                                                    |            |  1434 |   225 |      3077 |  17.74 |
+|                                                    |            |  1436 |   226 |      3077 |  17.76 |
 
 #### Comments
 
@@ -92,9 +122,9 @@
 | [`ig`](https://instagram.com/p/Bju8OnQFyPg/)       | 2018-06-07 |       |   107 |       341 |  31.38 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_759)  | 2018-06-07 |   289 |    25 |       172 |  14.53 |
 | [`ig`](https://instagram.com/p/DC2BrKPPPbg/)       | 2024-11-26 |   340 |    79 |      1483 |   5.33 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1921) | 2024-11-26 |   349 |    36 |      1010 |   3.86 |
-| [`tg`](https://t.me/mwscr/607)                     | 2024-11-26 |   187 |    53 |       577 |   9.19 |
-|                                                    |            |   876 |   168 |      3070 |  12.86 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1921) | 2024-11-26 |   369 |    40 |      1010 |   4.26 |
+| [`tg`](https://t.me/mwscr/607)                     | 2024-11-26 |   200 |    57 |       577 |   9.88 |
+|                                                    |            |   909 |   176 |      3070 |  13.08 |
 
 #### Comments
 

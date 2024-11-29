@@ -5603,15 +5603,15 @@
     - service: vk
       id: 1923
       published: 2024-11-27-18-11-33
-      updated: 2024-11-29-17-07-24
+      updated: 2024-11-29-18-10-31
       followers: 1010
-      likes: 45
-      views: 529
+      likes: 46
+      views: 531
       reposts: 3
     - service: tg
       id: 608
       published: 2024-11-27-18-11-58
-      updated: 2024-11-29-17-07-24
+      updated: 2024-11-29-18-10-32
       followers: 577
       likes: 61
       views: 217
@@ -8712,6 +8712,14 @@
       followers: 74
       likes: 4
       views: 120
+    - service: vk
+      id: 1926
+      published: 2024-11-29-18-10-46
+      followers: 1011
+    - service: tg
+      id: 610
+      published: 2024-11-29-18-10-55
+      followers: 578
 2017-08-29-at-the-coast-of-hirstaang-forest:
   title: At the Coast of Hirstaang Forest
   titleRu: На берегу Леса Хирстаанг
