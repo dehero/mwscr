@@ -209,17 +209,17 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2024-11-22-20-09-53
+      updated: 2024-11-29-21-04-48
       followers: 893
       likes: 35
       views: 260
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2024-11-22-20-09-50
+      updated: 2024-11-29-21-04-45
       followers: 345
       likes: 58
-      views: 551
+      views: 552
 2024-03-08-a-bridge-to-ascadian-isles:
   title: A Bridge to Ascadian Isles
   titleRu: Мост к Аскадианским островам
@@ -574,7 +574,7 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2024-11-22-20-09-52
+      updated: 2024-11-29-21-04-47
       followers: 896
       likes: 42
       views: 300
@@ -585,7 +585,7 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2024-11-22-20-09-49
+      updated: 2024-11-29-21-04-44
       followers: 352
       likes: 58
       views: 470
@@ -881,15 +881,15 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2024-11-22-20-09-50
+      updated: 2024-11-29-21-04-45
       followers: 906
       likes: 51
-      views: 438
+      views: 439
       reposts: 4
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2024-11-22-20-09-48
+      updated: 2024-11-29-21-04-43
       followers: 354
       likes: 62
       views: 477
@@ -1084,17 +1084,17 @@
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2024-11-22-20-09-49
+      updated: 2024-11-29-21-04-44
       followers: 911
       likes: 27
-      views: 230
+      views: 231
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2024-11-22-20-09-48
+      updated: 2024-11-29-21-04-43
       followers: 352
       likes: 67
-      views: 1106
+      views: 1107
 2024-04-12-sadrith-mora-gateway-inn: 2017-01-19-sadrith-mora-gateway-inn
 2024-04-13-manwe:
   title: Manwe

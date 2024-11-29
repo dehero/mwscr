@@ -35,7 +35,7 @@
     - service: vk
       id: 1499
       published: 2024-04-18-18-17-57
-      updated: 2024-11-22-20-09-48
+      updated: 2024-11-29-21-04-43
       followers: 910
       likes: 32
       views: 282
@@ -46,7 +46,7 @@
     - service: tg
       id: 382
       published: 2024-04-18-18-18-06
-      updated: 2024-11-22-20-09-47
+      updated: 2024-11-29-21-04-42
       followers: 354
       likes: 66
       views: 441
@@ -116,10 +116,10 @@
     - service: vk
       id: 1924
       published: 2024-11-28-18-10-44
-      updated: 2024-11-29-20-08-52
+      updated: 2024-11-29-21-04-39
       followers: 1012
       likes: 39
-      views: 247
+      views: 248
       reposts: 3
       comments: !c |-
         G5EA6J0Hto1sOxwMLb14YSkaRXGL8MMgLoQkwybBCJM9yDOXcRWc+HzVzlarrHXrmjsBo3yInzky
@@ -128,10 +128,10 @@
     - service: tg
       id: 609
       published: 2024-11-28-18-10-52
-      updated: 2024-11-29-20-08-52
+      updated: 2024-11-29-21-04-40
       followers: 578
       likes: 43
-      views: 156
+      views: 157
 2016-11-20-4-aldruhn-under-skar:
   title: Ald'ruhn, Under-Skar
   titleRu: Альд'рун, под Скаром
