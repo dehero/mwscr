@@ -2750,17 +2750,17 @@
     - service: vk
       id: 1920
       published: 2024-11-25-18-10-47
-      updated: 2024-11-28-19-01-26
+      updated: 2024-11-29-19-02-13
       followers: 1009
-      likes: 41
-      views: 218
+      likes: 43
+      views: 228
     - service: tg
       id: 606
       published: 2024-11-25-18-10-54
-      updated: 2024-11-28-19-01-26
+      updated: 2024-11-29-19-02-12
       followers: 575
       likes: 57
-      views: 412
+      views: 440
       comments: !c iw6AkZPLQnk3MqrUgACtT2xtZXJfSXpkZXlsYaTwn5KpAw==
 2017-03-16-in-the-chambers-of-nchurdamz:
   title: In the Chambers of Nchurdamz
@@ -4214,18 +4214,18 @@
     - service: vk
       id: 1919
       published: 2024-11-24-18-09-24
-      updated: 2024-11-28-19-01-27
+      updated: 2024-11-29-19-02-14
       followers: 1008
-      likes: 29
-      views: 245
+      likes: 31
+      views: 256
       reposts: 1
     - service: tg
       id: 605
       published: 2024-11-24-18-09-33
-      updated: 2024-11-28-19-01-27
+      updated: 2024-11-29-19-02-12
       followers: 576
-      likes: 58
-      views: 332
+      likes: 59
+      views: 344
 2017-04-25-castle-ebonheart:
   title: Castle Ebonheart
   titleRu: Замок Эбенгард
@@ -8391,10 +8391,10 @@
     - service: tg
       id: 588
       published: 2024-11-07-18-10-45
-      updated: 2024-11-22-18-11-13
+      updated: 2024-11-29-19-02-13
       followers: 566
-      likes: 51
-      views: 492
+      likes: 52
+      views: 520
 2017-08-19-surroundings-of-hlormaren:
   title: Surroundings of Hlormaren
   titleRu: В окрестностях Хлормарена
@@ -8715,11 +8715,17 @@
     - service: vk
       id: 1926
       published: 2024-11-29-18-10-46
+      updated: 2024-11-29-19-02-11
       followers: 1011
+      likes: 6
+      views: 33
     - service: tg
       id: 610
       published: 2024-11-29-18-10-55
+      updated: 2024-11-29-19-02-10
       followers: 578
+      likes: 17
+      views: 64
 2017-08-29-at-the-coast-of-hirstaang-forest:
   title: At the Coast of Hirstaang Forest
   titleRu: На берегу Леса Хирстаанг
