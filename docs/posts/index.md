@@ -29,9 +29,9 @@
 | [`ig`](https://instagram.com/p/BNCSX_HFXEN/)       | 2016-11-20 |       |    18 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_5)    | 2017-01-22 |    53 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/DC7LMkPPlFg/)       | 2024-11-28 |    47 |    25 |      1492 |   1.68 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |   169 |    26 |      1012 |   2.87 |
-| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |   118 |    37 |       578 |    6.4 |
-|                                                    |            |   334 |    88 |      3082 |   3.24 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |   178 |    27 |      1012 |   2.96 |
+| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |   124 |    38 |       578 |   6.57 |
+|                                                    |            |   349 |    90 |      3082 |    3.3 |
 
 ## <span id="2024-11-27-masser-over-the-mournhold-temple">Masser Over the Mournhold Temple</span>
 
@@ -56,9 +56,9 @@
 | [`ig`](https://instagram.com/p/BUoeWBsjSOV/)       | 2017-05-28 |       |    80 |       179 |  44.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_304)  | 2017-05-28 |   210 |    11 |        58 |  20.69 |
 | [`ig`](https://instagram.com/p/DC4mgCDRhoC/)       | 2024-11-27 |   688 |   119 |      1490 |   7.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |   514 |    42 |      1010 |   4.46 |
-| [`tg`](https://t.me/mwscr/608)                     | 2024-11-27 |   210 |    61 |       577 |  10.57 |
-|                                                    |            |  1412 |   222 |      3077 |  17.68 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1923) | 2024-11-27 |   517 |    42 |      1010 |   4.46 |
+| [`tg`](https://t.me/mwscr/608)                     | 2024-11-27 |   212 |    61 |       577 |  10.57 |
+|                                                    |            |  1417 |   222 |      3077 |  17.68 |
 
 #### Comments
 
