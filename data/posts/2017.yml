@@ -2065,11 +2065,17 @@
     - service: vk
       id: 1927
       published: 2024-11-30-18-09-35
+      updated: 2024-11-30-19-02-06
       followers: 1012
+      likes: 4
+      views: 30
     - service: tg
       id: 611
       published: 2024-11-30-18-09-42
+      updated: 2024-11-30-19-02-07
       followers: 576
+      likes: 20
+      views: 59
 2017-02-25-central-tree-of-hla-oad:
   title: Central Tree of Hla Oad
   titleRu: Центральное дерево Хла Оуда
@@ -5611,18 +5617,18 @@
     - service: vk
       id: 1923
       published: 2024-11-27-18-11-33
-      updated: 2024-11-29-18-10-31
+      updated: 2024-11-30-19-02-08
       followers: 1010
-      likes: 46
-      views: 531
+      likes: 48
+      views: 552
       reposts: 3
     - service: tg
       id: 608
       published: 2024-11-27-18-11-58
-      updated: 2024-11-29-18-10-32
+      updated: 2024-11-30-19-02-09
       followers: 577
-      likes: 61
-      views: 217
+      likes: 64
+      views: 246
       comments: !c |-
         G7QAAI2ULncEzXc/D3hAH2iRmAn4O+6W9MEWCRJpaXs+8GjaW45ASbvBgZZRANCDLDg/gIy65/B6
         8FLKnj3o9c6xRsj7xQabsqKyFp5tMmxDIaePsf0/tgbnWCP4CwbAIk0iViURG1rXEIeJEEOCCMM9
@@ -8723,18 +8729,18 @@
     - service: vk
       id: 1926
       published: 2024-11-29-18-10-46
-      updated: 2024-11-30-18-09-19
+      updated: 2024-11-30-19-02-07
       followers: 1011
-      likes: 21
-      views: 149
+      likes: 22
+      views: 152
       reposts: 1
     - service: tg
       id: 610
       published: 2024-11-29-18-10-55
-      updated: 2024-11-30-18-09-19
+      updated: 2024-11-30-19-02-08
       followers: 578
       likes: 40
-      views: 136
+      views: 148
 2017-08-29-at-the-coast-of-hirstaang-forest:
   title: At the Coast of Hirstaang Forest
   titleRu: На берегу Леса Хирстаанг
@@ -9785,7 +9791,7 @@
     - service: tg
       id: 369
       published: 2024-04-05-18-17-25
-      updated: 2024-11-23-18-10-08
+      updated: 2024-11-30-19-02-12
       followers: 355
       likes: 64
       views: 470
