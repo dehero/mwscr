@@ -4,7 +4,33 @@
 
 # Posted in 2024
 
-`277 items`
+`278 items`
+
+## <span id="2024-11-30-secunda-over-the-towers-of-ebonheart">Secunda Over the Towers of Ebonheart</span>
+
+`RU` Секунда над башнями Эбенгарда
+
+<a href="https://instagram.com/p/BQ4oRf2jxxJ/" title="2017-02-24-secunda-over-the-towers-of-ebonheart"><img alt="store:/shots/2017-02-24-secunda-over-the-towers-of-ebonheart.png" src="../../assets/previews/shots/2017-02-24-secunda-over-the-towers-of-ebonheart.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Ebonheart` `🚀 OpenMW` `tower` `moon` `fort`
+
+```
+2024-11-30-secunda-over-the-towers-of-ebonheart
+```
+
+> `2017-02-24-secunda-over-the-towers-of-ebonheart`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BQ4oRf2jxxJ/)       | 2017-02-24 |       |    29 |       100 |     29 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_168)  | 2017-02-24 |   157 |     8 |        41 |      8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1927) | 2024-11-30 |       |       |      1012 |        |
+| [`tg`](https://t.me/mwscr/611)                     | 2024-11-30 |       |       |       576 |        |
+|                                                    |            |       |       |      1588 |   18.5 |
 
 ## <span id="2024-11-29-shishara">Shishara</span>
 
@@ -28,9 +54,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYVRAcJDqXl/)       | 2017-08-28 |       |    67 |       198 |  33.84 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_408)  | 2017-08-28 |   120 |     4 |        74 |   5.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1926) | 2024-11-29 |   148 |    21 |      1011 |   2.18 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1926) | 2024-11-29 |   149 |    21 |      1011 |   2.18 |
 | [`tg`](https://t.me/mwscr/610)                     | 2024-11-29 |   136 |    40 |       578 |   6.92 |
-|                                                    |            |   284 |    61 |      1589 |  12.09 |
+|                                                    |            |   285 |    61 |      1589 |  12.09 |
 
 ## <span id="2024-11-28-molag-amur">Molag Amur</span>
 
@@ -55,9 +81,9 @@
 | [`ig`](https://instagram.com/p/BNCSX_HFXEN/)       | 2016-11-20 |       |    18 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_5)    | 2017-01-22 |    53 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/DC7LMkPPlFg/)       | 2024-11-28 |    47 |    25 |      1492 |   1.68 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |   266 |    40 |      1012 |   4.25 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |   271 |    40 |      1012 |   4.25 |
 | [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |   178 |    48 |       578 |    8.3 |
-|                                                    |            |   491 |   113 |      3082 |   4.06 |
+|                                                    |            |   496 |   113 |      3082 |   4.06 |
 
 #### Comments
 

@@ -2062,6 +2062,14 @@
       followers: 41
       likes: 8
       views: 157
+    - service: vk
+      id: 1927
+      published: 2024-11-30-18-09-35
+      followers: 1012
+    - service: tg
+      id: 611
+      published: 2024-11-30-18-09-42
+      followers: 576
 2017-02-25-central-tree-of-hla-oad:
   title: Central Tree of Hla Oad
   titleRu: Центральное дерево Хла Оуда
@@ -8715,15 +8723,15 @@
     - service: vk
       id: 1926
       published: 2024-11-29-18-10-46
-      updated: 2024-11-30-17-01-25
+      updated: 2024-11-30-18-09-19
       followers: 1011
       likes: 21
-      views: 148
+      views: 149
       reposts: 1
     - service: tg
       id: 610
       published: 2024-11-29-18-10-55
-      updated: 2024-11-30-17-01-25
+      updated: 2024-11-30-18-09-19
       followers: 578
       likes: 40
       views: 136
