@@ -2065,17 +2065,17 @@
     - service: vk
       id: 1927
       published: 2024-11-30-18-09-35
-      updated: 2024-11-30-19-02-06
+      updated: 2024-11-30-20-07-58
       followers: 1012
-      likes: 4
-      views: 30
+      likes: 7
+      views: 43
     - service: tg
       id: 611
       published: 2024-11-30-18-09-42
-      updated: 2024-11-30-19-02-07
+      updated: 2024-11-30-20-07-58
       followers: 576
-      likes: 20
-      views: 59
+      likes: 28
+      views: 78
 2017-02-25-central-tree-of-hla-oad:
   title: Central Tree of Hla Oad
   titleRu: Центральное дерево Хла Оуда
@@ -2535,20 +2535,20 @@
     - service: vk
       id: 1887
       published: 2024-11-09-18-08-47
-      updated: 2024-11-23-19-02-21
+      updated: 2024-11-30-20-08-03
       followers: 1006
       likes: 52
-      views: 322
+      views: 329
       comments: !c |-
         G2wA+C0OzHOdDmzoisHxBSnkR1HcIvzxJOMo8CTBJpHIkz3Mbeys0xmFSEJobmPt3Tmt25QgCLJM
         NrrNoAmfwiBxP59f27nb8h6cHX+oPlDn4tRSxaGBkCzrtA7L+CADgUw7jhpGVAM=
     - service: tg
       id: 590
       published: 2024-11-09-18-09-56
-      updated: 2024-11-23-19-02-20
+      updated: 2024-11-30-20-08-02
       followers: 564
       likes: 63
-      views: 512
+      views: 543
 2017-03-10-aldruhn-guild-of-mages:
   title: Ald'ruhn, Guild of Mages
   titleRu: Альд'рун, Гильдия Магов
@@ -2764,17 +2764,17 @@
     - service: vk
       id: 1920
       published: 2024-11-25-18-10-47
-      updated: 2024-11-29-19-02-13
+      updated: 2024-11-30-20-08-00
       followers: 1009
-      likes: 43
-      views: 228
+      likes: 44
+      views: 236
     - service: tg
       id: 606
       published: 2024-11-25-18-10-54
-      updated: 2024-11-29-19-02-12
+      updated: 2024-11-30-20-08-00
       followers: 575
       likes: 57
-      views: 440
+      views: 479
       comments: !c iw6AkZPLQnk3MqrUgACtT2xtZXJfSXpkZXlsYaTwn5KpAw==
 2017-03-16-in-the-chambers-of-nchurdamz:
   title: In the Chambers of Nchurdamz
@@ -4228,18 +4228,18 @@
     - service: vk
       id: 1919
       published: 2024-11-24-18-09-24
-      updated: 2024-11-29-19-02-14
+      updated: 2024-11-30-20-08-01
       followers: 1008
       likes: 31
-      views: 256
+      views: 263
       reposts: 1
     - service: tg
       id: 605
       published: 2024-11-24-18-09-33
-      updated: 2024-11-29-19-02-12
+      updated: 2024-11-30-20-08-01
       followers: 576
       likes: 59
-      views: 344
+      views: 358
 2017-04-25-castle-ebonheart:
   title: Castle Ebonheart
   titleRu: Замок Эбенгард
@@ -7217,7 +7217,7 @@
     - service: vk
       id: 1464
       published: 2024-03-22-18-12-46
-      updated: 2024-11-23-20-07-54
+      updated: 2024-11-30-20-08-06
       followers: 896
       likes: 34
       views: 320
@@ -7601,10 +7601,10 @@
     - service: tg
       id: 583
       published: 2024-11-02-18-09-25
-      updated: 2024-11-23-20-07-51
+      updated: 2024-11-30-20-08-03
       followers: 565
       likes: 59
-      views: 472
+      views: 487
       comments: !c |-
         Cx2AkZPLQnku4vuTAACtTG9mdHlkZWx1c2lvbtkgSGFpbCB0byB0aGV5IGFyZSBmYXRoZXIgc3Bs
         aW50ZXID
@@ -8729,18 +8729,18 @@
     - service: vk
       id: 1926
       published: 2024-11-29-18-10-46
-      updated: 2024-11-30-19-02-07
+      updated: 2024-11-30-20-07-59
       followers: 1011
       likes: 22
-      views: 152
+      views: 153
       reposts: 1
     - service: tg
       id: 610
       published: 2024-11-29-18-10-55
-      updated: 2024-11-30-19-02-08
+      updated: 2024-11-30-20-07-59
       followers: 578
       likes: 40
-      views: 148
+      views: 152
 2017-08-29-at-the-coast-of-hirstaang-forest:
   title: At the Coast of Hirstaang Forest
   titleRu: На берегу Леса Хирстаанг
@@ -9784,7 +9784,7 @@
     - service: vk
       id: 1483
       published: 2024-04-05-18-17-17
-      updated: 2024-11-23-20-07-52
+      updated: 2024-11-30-20-08-04
       followers: 908
       likes: 36
       views: 270
