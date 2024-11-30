@@ -3122,18 +3122,18 @@
     - service: tg
       id: 547
       published: 2024-09-27-18-10-13
-      updated: 2024-11-23-02-12-16
+      updated: 2024-11-30-02-14-40
       followers: 557
       likes: 69
-      views: 527
+      views: 534
       comments: !c CwyAkZPLQnkjerjngACoemhjaGtkcnak8J+YjgM=
     - service: vk
       id: 1786
       published: 2024-09-27-19-01-39
-      updated: 2024-11-23-02-12-19
+      updated: 2024-11-30-02-14-40
       followers: 957
       likes: 40
-      views: 328
+      views: 333
       comments: !c ixWAkZPLQnkjhfcUAACraWQyMDMyODMxNDi00JDRgtC80L7RgdGE0LXRgNC90L4D
 2017-03-26-exploring-bitter-coast:
   title: Exploring Bitter Coast
@@ -8715,17 +8715,18 @@
     - service: vk
       id: 1926
       published: 2024-11-29-18-10-46
-      updated: 2024-11-30-00-37-19
+      updated: 2024-11-30-02-14-37
       followers: 1011
-      likes: 13
-      views: 74
+      likes: 14
+      views: 78
+      reposts: 1
     - service: tg
       id: 610
       published: 2024-11-29-18-10-55
-      updated: 2024-11-30-00-37-19
+      updated: 2024-11-30-02-14-37
       followers: 578
-      likes: 30
-      views: 108
+      likes: 31
+      views: 112
 2017-08-29-at-the-coast-of-hirstaang-forest:
   title: At the Coast of Hirstaang Forest
   titleRu: На берегу Леса Хирстаанг
