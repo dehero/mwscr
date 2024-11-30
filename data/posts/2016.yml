@@ -116,10 +116,10 @@
     - service: vk
       id: 1924
       published: 2024-11-28-18-10-44
-      updated: 2024-11-30-05-07-43
+      updated: 2024-11-30-06-10-04
       followers: 1012
       likes: 39
-      views: 249
+      views: 250
       reposts: 3
       comments: !c |-
         G5EA6J0Hto1sOxwMLb14YSkaRXGL8MMgLoQkwybBCJM9yDOXcRWc+HzVzlarrHXrmjsBo3yInzky
@@ -128,9 +128,9 @@
     - service: tg
       id: 609
       published: 2024-11-28-18-10-52
-      updated: 2024-11-30-05-07-43
+      updated: 2024-11-30-06-10-04
       followers: 578
-      likes: 45
+      likes: 46
       views: 168
 2016-11-20-4-aldruhn-under-skar:
   title: Ald'ruhn, Under-Skar
@@ -533,7 +533,7 @@
     - service: vk
       id: 1644
       published: 2024-07-19-18-20-33
-      updated: 2024-11-23-05-08-39
+      updated: 2024-11-30-06-10-08
       followers: 919
       likes: 49
       views: 336
@@ -544,7 +544,7 @@
     - service: tg
       id: 474
       published: 2024-07-19-18-20-40
-      updated: 2024-11-23-05-08-38
+      updated: 2024-11-30-06-10-07
       followers: 400
       likes: 62
       views: 568

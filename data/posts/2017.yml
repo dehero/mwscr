@@ -8715,15 +8715,15 @@
     - service: vk
       id: 1926
       published: 2024-11-29-18-10-46
-      updated: 2024-11-30-05-07-42
+      updated: 2024-11-30-06-10-03
       followers: 1011
       likes: 16
-      views: 92
+      views: 100
       reposts: 1
     - service: tg
       id: 610
       published: 2024-11-29-18-10-55
-      updated: 2024-11-30-05-07-42
+      updated: 2024-11-30-06-10-04
       followers: 578
       likes: 34
       views: 117
@@ -9003,10 +9003,10 @@
     - service: vk
       id: 1664
       published: 2024-08-02-18-20-03
-      updated: 2024-11-23-05-08-39
+      updated: 2024-11-30-06-10-07
       followers: 925
       likes: 45
-      views: 314
+      views: 315
       reposts: 1
       comments: !c |-
         izaAkpPLQnkRc1B4gACtQ2hlcm5vc290aW5lY9k60JAg0LLQtdC00Ywg0YHQvtC70YHRgtGF0LXQ
@@ -9014,10 +9014,10 @@
     - service: tg
       id: 488
       published: 2024-08-02-18-20-10
-      updated: 2024-11-23-05-08-37
+      updated: 2024-11-30-06-10-06
       followers: 428
       likes: 66
-      views: 685
+      views: 687
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки
