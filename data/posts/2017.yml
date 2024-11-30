@@ -577,7 +577,7 @@
     - service: vk
       id: 1491
       published: 2024-04-12-18-14-50
-      updated: 2024-11-23-10-07-46
+      updated: 2024-11-30-11-01-30
       followers: 911
       likes: 35
       views: 268
@@ -585,10 +585,10 @@
     - service: tg
       id: 376
       published: 2024-04-12-18-15-00
-      updated: 2024-11-23-10-07-45
+      updated: 2024-11-30-11-01-30
       followers: 352
       likes: 70
-      views: 465
+      views: 466
       comments: !c |-
         G3kCICwOeHPoJNT0dgTVz0b0TxysCP/kgSRBxlEgcVjABcGRnOxTdSMYodAkCN/vK5SzFXt/92vU
         bJIm1nd3w9venyuqqBayEqSCS7uerJZP65+m2NyG1hh0Ux8fFA7oVxM/3TgWZoElGng0tkYQYIC9
@@ -4403,14 +4403,14 @@
     - service: vk
       id: 1545
       published: 2024-05-24-18-19-24
-      updated: 2024-11-23-10-07-45
+      updated: 2024-11-30-11-01-29
       followers: 917
       likes: 38
       views: 291
     - service: tg
       id: 418
       published: 2024-05-24-18-19-31
-      updated: 2024-11-23-10-07-45
+      updated: 2024-11-30-11-01-29
       followers: 376
       likes: 57
       views: 499
@@ -8715,18 +8715,18 @@
     - service: vk
       id: 1926
       published: 2024-11-29-18-10-46
-      updated: 2024-11-30-10-07-33
+      updated: 2024-11-30-11-01-27
       followers: 1011
       likes: 19
-      views: 124
+      views: 127
       reposts: 1
     - service: tg
       id: 610
       published: 2024-11-29-18-10-55
-      updated: 2024-11-30-10-07-34
+      updated: 2024-11-30-11-01-27
       followers: 578
       likes: 36
-      views: 128
+      views: 130
 2017-08-29-at-the-coast-of-hirstaang-forest:
   title: At the Coast of Hirstaang Forest
   titleRu: На берегу Леса Хирстаанг
