@@ -1706,17 +1706,17 @@
     - service: vk
       id: 1528
       published: 2024-05-10-18-18-43
-      updated: 2024-11-23-13-15-38
+      updated: 2024-11-30-14-02-12
       followers: 913
       likes: 26
       views: 239
     - service: tg
       id: 404
       published: 2024-05-10-18-18-49
-      updated: 2024-11-23-13-15-37
+      updated: 2024-11-30-14-02-11
       followers: 371
-      likes: 62
-      views: 485
+      likes: 63
+      views: 486
       comments: !c CxiAkZTLQnj2PdPrgACoemhjaGtkcnak8J+YrZPLQnj2QKVbAACpR2F0ZW1hdGU3o3VzPwM=
 2024-05-11-guard-tower-of-suran: 2017-08-31-guard-tower-of-suran
 2024-05-12-road-to-the-well:
@@ -1828,17 +1828,17 @@
     - service: vk
       id: 1535
       published: 2024-05-17-18-19-43
-      updated: 2024-11-23-13-15-37
+      updated: 2024-11-30-14-02-12
       followers: 915
       likes: 24
-      views: 327
+      views: 328
       comments: !c |-
         CyWAkZPLQnj4jc+HAACtQ2hlcm5vc290aW5lY9kw0KHQtdCz0L7QtNC90Y8g0YEg0L3QuNC8INC/
         0LXRgNC10YHQtdC60LDQu9GB0Y8pAw==
     - service: tg
       id: 411
       published: 2024-05-17-18-19-48
-      updated: 2024-11-23-13-15-36
+      updated: 2024-11-30-14-02-11
       followers: 372
       likes: 51
       views: 433
@@ -1966,7 +1966,7 @@
     - service: vk
       id: 1556
       published: 2024-05-31-18-19-13
-      updated: 2024-11-23-13-15-36
+      updated: 2024-11-30-14-02-11
       followers: 915
       likes: 45
       views: 294
@@ -1981,7 +1981,7 @@
     - service: tg
       id: 425
       published: 2024-05-31-18-19-20
-      updated: 2024-11-23-13-15-36
+      updated: 2024-11-30-14-02-10
       followers: 379
       likes: 64
       views: 469
