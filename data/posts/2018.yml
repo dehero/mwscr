@@ -4499,11 +4499,17 @@
     - service: vk
       id: 1928
       published: 2024-12-01-18-09-48
+      updated: 2024-12-01-19-01-13
       followers: 1012
+      likes: 8
+      views: 47
     - service: tg
       id: 612
       published: 2024-12-01-18-09-57
+      updated: 2024-12-01-19-01-13
       followers: 576
+      likes: 23
+      views: 63
 2018-05-06-roads-of-ascadian-isles:
   title: Roads of Ascadian Isles
   titleRu: Дороги Аскадианских островов
