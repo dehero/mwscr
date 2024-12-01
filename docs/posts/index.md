@@ -4,7 +4,37 @@
 
 # Posted in 2024
 
-`278 items`
+`279 items`
+
+## <span id="2024-12-01-uncle-sweetshares-workshop">Uncle Sweetshare&#39;s Workshop</span>
+
+`RU` Мастерская Дядюшки Сладкая Доля
+
+<a href="https://instagram.com/p/BiaBvL9hQx_/" title="2018-05-05-uncle-sweetshares-workshop"><img alt="store:/shots/2018-05-05-uncle-sweetshares-workshop.png" src="../../assets/previews/shots/2018-05-05-uncle-sweetshares-workshop.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-12-01-uncle-sweetshares-workshop&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon`
+
+```
+2024-12-01-uncle-sweetshares-workshop
+```
+
+> `2018-05-05-uncle-sweetshares-workshop`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BiaBvL9hQx_/)       | 2018-05-05 |       |    95 |       326 |  29.14 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_709)  | 2018-05-05 |   270 |    21 |       157 |  13.38 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1928) | 2024-12-01 |       |       |      1012 |        |
+| [`tg`](https://t.me/mwscr/612)                     | 2024-12-01 |       |       |       576 |        |
+|                                                    |            |       |       |      1588 |  21.26 |
+
+#### Comments
+
+- `ig` <ins title="2018-05-06-02-31-59">southtextman</ins> He he! Ha ho!<br>To the workshop he will go!<br>My Uncle&#39;s candy is so sweet! It&#39;s such a yummy winter&#39;s treat!<br>When the sugar is warmed by the pale hearth light<br>The happiness spreads throughout the night!<br>He he! Ha ho!<br>To the workshop he will go!<br>Uncle Sweetshare is coming near<br>To spread his candy and his cheer!<br>It&#39;s better than trinkets, games or toys<br>So say all the little girls and boys!<br>He he! Ha ho!<br>To the workshop he will go!<br>Candy, candy -- he makes so much!<br>Uncle Sweetshare has a magic touch!<br>So it&#39;s back to the workshop in the snow!<br>With lovely lanterns all aglow!<br>He he! Ha ho! He he he ha ha ho!
 
 ## <span id="2024-11-30-secunda-over-the-towers-of-ebonheart">Secunda Over the Towers of Ebonheart</span>
 
@@ -28,9 +58,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQ4oRf2jxxJ/)       | 2017-02-24 |       |    29 |       100 |     29 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_168)  | 2017-02-24 |   157 |     8 |        41 |      8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1927) | 2024-11-30 |   153 |    23 |      1012 |   2.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1927) | 2024-11-30 |   156 |    24 |      1012 |   2.37 |
 | [`tg`](https://t.me/mwscr/611)                     | 2024-11-30 |   129 |    38 |       576 |    6.6 |
-|                                                    |            |   282 |    61 |      1588 |  11.47 |
+|                                                    |            |   285 |    62 |      1588 |  11.49 |
 
 ## <span id="2024-11-29-shishara">Shishara</span>
 
@@ -54,9 +84,9 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYVRAcJDqXl/)       | 2017-08-28 |       |    67 |       198 |  33.84 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_408)  | 2017-08-28 |   120 |     4 |        74 |   5.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1926) | 2024-11-29 |   184 |    26 |      1011 |   2.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1926) | 2024-11-29 |   185 |    26 |      1011 |   2.67 |
 | [`tg`](https://t.me/mwscr/610)                     | 2024-11-29 |   170 |    42 |       578 |   7.27 |
-|                                                    |            |   354 |    68 |      1589 |   12.3 |
+|                                                    |            |   355 |    68 |      1589 |   12.3 |
 
 ## <span id="2024-11-28-molag-amur">Molag Amur</span>
 
@@ -81,9 +111,9 @@
 | [`ig`](https://instagram.com/p/BNCSX_HFXEN/)       | 2016-11-20 |       |    18 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_5)    | 2017-01-22 |    53 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/DC7LMkPPlFg/)       | 2024-11-28 |    47 |    25 |      1492 |   1.68 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |   271 |    40 |      1012 |   4.25 |
-| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |   178 |    48 |       578 |    8.3 |
-|                                                    |            |   496 |   113 |      3082 |   4.06 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |   312 |    44 |      1012 |   4.64 |
+| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |   195 |    49 |       578 |   8.48 |
+|                                                    |            |   554 |   118 |      3082 |    4.2 |
 
 #### Comments
 
