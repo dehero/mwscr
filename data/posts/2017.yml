@@ -2065,17 +2065,17 @@
     - service: vk
       id: 1927
       published: 2024-11-30-18-09-35
-      updated: 2024-11-30-23-07-30
+      updated: 2024-12-01-00-46-07
       followers: 1012
-      likes: 9
-      views: 66
+      likes: 11
+      views: 73
     - service: tg
       id: 611
       published: 2024-11-30-18-09-42
-      updated: 2024-11-30-23-07-30
+      updated: 2024-12-01-00-46-07
       followers: 576
-      likes: 32
-      views: 94
+      likes: 34
+      views: 98
 2017-02-25-central-tree-of-hla-oad:
   title: Central Tree of Hla Oad
   titleRu: Центральное дерево Хла Оуда
@@ -7611,10 +7611,10 @@
     - service: vk
       id: 1872
       published: 2024-11-02-19-01-31
-      updated: 2024-11-24-00-41-24
+      updated: 2024-12-01-00-46-09
       followers: 1003
       likes: 28
-      views: 286
+      views: 291
       comments: !c |-
         G9UCACyPt6HxkyMyV7kiuBUPw1xy/PP9xZbwjf/ZFKI0oMA30KQpwCRdOVdrW7WEzHFnqHM6ncAP
         a5uINYhVuqWYyt39nMLDvi9tLJYFSKXvN81NTXa94fk7P2WHlJSi/Y/rMHlLd6PpwIY6463XfgrH
@@ -8729,18 +8729,18 @@
     - service: vk
       id: 1926
       published: 2024-11-29-18-10-46
-      updated: 2024-11-30-23-07-31
+      updated: 2024-12-01-00-46-08
       followers: 1011
-      likes: 22
-      views: 154
+      likes: 23
+      views: 159
       reposts: 1
     - service: tg
       id: 610
       published: 2024-11-29-18-10-55
-      updated: 2024-11-30-23-07-31
+      updated: 2024-12-01-00-46-08
       followers: 578
       likes: 42
-      views: 156
+      views: 157
 2017-08-29-at-the-coast-of-hirstaang-forest:
   title: At the Coast of Hirstaang Forest
   titleRu: На берегу Леса Хирстаанг
@@ -10327,10 +10327,10 @@
     - service: vk
       id: 1820
       published: 2024-10-12-18-08-42
-      updated: 2024-11-24-00-41-26
+      updated: 2024-12-01-00-46-11
       followers: 961
       likes: 46
-      views: 372
+      views: 377
       reposts: 1
       comments: !c |-
         Cx2AkZPLQnkqY71QAACoZGV1czE5ODnZJdCf0YDQuNGA0YPRh9C10L3QvdCw0Y8g0YHQstGP0YLQ
@@ -10338,10 +10338,10 @@
     - service: tg
       id: 562
       published: 2024-10-12-18-08-48
-      updated: 2024-11-24-00-41-23
+      updated: 2024-12-01-00-46-09
       followers: 557
       likes: 57
-      views: 502
+      views: 508
 2017-10-18-recollecting-the-first-steps:
   title: Recollecting the First Steps
   titleRu: Вспоминая первые шаги
@@ -11416,10 +11416,10 @@
     - service: tg
       id: 548
       published: 2024-09-28-18-08-47
-      updated: 2024-11-24-00-41-25
+      updated: 2024-12-01-00-46-10
       followers: 557
       likes: 69
-      views: 497
+      views: 501
 2017-11-17-pelagiad-descent-to-the-road:
   title: Pelagiad, Descent to the Road
   titleRu: Пелагиад, спуск к дороге
