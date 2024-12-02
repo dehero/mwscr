@@ -4,7 +4,29 @@
 
 # Shortlist
 
-`2 items`
+`3 items`
+
+## <span id="natty.2024-03-10-18-07-39">Tel Naga Great Hall</span>
+
+`RU` Большой Зал Тель Наги
+
+![store:/inbox/natty.2024-03-10-18-07-06.1.png](../../assets/previews/inbox/natty.2024-03-10-18-07-06.1.avif "natty.2024-03-10-18-07-06.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/natty.2024-03-10-18-07-39.png](../../assets/previews/inbox/natty.2024-03-10-18-07-39.avif "natty.2024-03-10-18-07-39")
+![store:/inbox/natty.2024-03-10-18-07-12.png](../../assets/previews/inbox/natty.2024-03-10-18-07-12.avif "natty.2024-03-10-18-07-12")
+![store:/inbox/natty.2024-03-10-18-07-06.png](../../assets/previews/inbox/natty.2024-03-10-18-07-06.avif "natty.2024-03-10-18-07-06")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-18-07-39&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-18-07-06.1.png&amp;postTitle=Tel+Naga+Great+Hall&amp;postTitleRu=%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9+%D0%97%D0%B0%D0%BB+%D0%A2%D0%B5%D0%BB%D1%8C+%D0%9D%D0%B0%D0%B3%D0%B8&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=stair&amp;postLocation=Sadrith+Mora%2C+Tel+Naga+Great+Hall&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-03-10-18-07-39.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-18-07-12.png%0Astore%3A%2Finbox%2Fnatty.2024-03-10-18-07-06.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-18-07-39&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-18-07-39&amp;mergeWithIds=) `B1` `📍 Sadrith Mora, Tel Naga Great Hall` `🚀 OpenMW` `stair`
+
+```
+natty.2024-03-10-18-07-39
+```
 
 ## <span id="irina-bystritskaya.2022-06-25-drawing-002">Mzahnch</span>
 
