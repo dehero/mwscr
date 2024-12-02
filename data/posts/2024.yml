@@ -2775,8 +2775,19 @@
     - service: vk
       id: 1930
       published: 2024-12-02-18-11-17
+      updated: 2024-12-02-19-01-59
       followers: 1012
+      likes: 10
+      views: 48
+      reposts: 2
+      comments: !c |-
+        G54A+K0OeHNXKDgihefeuOdVh1FPfyN9IB844wybBCNM9kB1wxiJkYN8gj0vUCeTs1aU6u83ik2m
+        kOVljkx24jwldgCiwCSWugGg0+f9c1exvjtUeOwlge4Ee0hfBjNUQ+UhFlnRfMzvegNvmly0wifI
+        yTWH8JLmYM1rAA==
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
+      updated: 2024-12-02-19-01-59
       followers: 575
+      likes: 30
+      views: 70
