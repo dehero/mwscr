@@ -4499,18 +4499,18 @@
     - service: vk
       id: 1928
       published: 2024-12-01-18-09-48
-      updated: 2024-12-02-02-22-34
+      updated: 2024-12-02-03-29-14
       followers: 1012
       likes: 25
-      views: 134
+      views: 137
       reposts: 2
     - service: tg
       id: 612
       published: 2024-12-01-18-09-57
-      updated: 2024-12-02-02-22-34
+      updated: 2024-12-02-03-29-15
       followers: 576
-      likes: 38
-      views: 111
+      likes: 39
+      views: 114
 2018-05-06-roads-of-ascadian-isles:
   title: Roads of Ascadian Isles
   titleRu: Дороги Аскадианских островов
@@ -8772,10 +8772,10 @@
     - service: vk
       id: 1743
       published: 2024-09-08-18-28-17
-      updated: 2024-11-25-03-24-19
+      updated: 2024-12-02-03-29-16
       followers: 944
       likes: 59
-      views: 596
+      views: 598
       reposts: 2
       comments: !c |-
         G40AKByJcSzKgsFXQvCPt+QsFRM0ItlskrGZEqXmyvvxPIfPeZI8siw73vLc4DhgSTDiAkww05X2
@@ -8783,10 +8783,10 @@
     - service: tg
       id: 526
       published: 2024-09-08-18-28-25
-      updated: 2024-11-25-03-24-18
+      updated: 2024-12-02-03-29-16
       followers: 554
       likes: 69
-      views: 597
+      views: 602
     - service: ig
       id: C_t_VnJxftA
       mediaId: '18019278437441496'
