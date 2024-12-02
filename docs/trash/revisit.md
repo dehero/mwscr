@@ -4,7 +4,7 @@
 
 # Revisit
 
-`28 items`
+`29 items`
 
 ## <span id="remmlah.2022-07-26-two-ways">Two Ways</span>
 
@@ -20,6 +20,23 @@
 
 ```
 remmlah.2022-07-26-two-ways
+```
+
+## <span id="natty.2024-04-22-20-44-03">natty.2024-04-22-20-44-03</span>
+
+![store:/trash/natty.2024-04-22-20-44-03.png](../../assets/previews/trash/natty.2024-04-22-20-44-03.avif "natty.2024-04-22-20-44-03")
+![store:/trash/natty.2024-04-22-20-43-53.png](../../assets/previews/trash/natty.2024-04-22-20-43-53.avif "natty.2024-04-22-20-43-53")
+![store:/trash/natty.2024-04-22-20-43-45.png](../../assets/previews/trash/natty.2024-04-22-20-43-45.avif "natty.2024-04-22-20-43-45")
+![store:/trash/natty.2024-04-22-20-43-22.png](../../assets/previews/trash/natty.2024-04-22-20-43-22.avif "natty.2024-04-22-20-43-22")
+![store:/trash/natty.2024-04-22-20-42-46.png](../../assets/previews/trash/natty.2024-04-22-20-42-46.avif "natty.2024-04-22-20-42-46")
+![store:/trash/natty.2024-04-22-20-41-46.png](../../assets/previews/trash/natty.2024-04-22-20-41-46.avif "natty.2024-04-22-20-41-46")
+
+`shot` by [Natty](../contributors.md#natty)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-04-22-20-44-03&amp;postContent=store%3A%2Ftrash%2Fnatty.2024-04-22-20-44-03.png%0Astore%3A%2Ftrash%2Fnatty.2024-04-22-20-43-53.png%0Astore%3A%2Ftrash%2Fnatty.2024-04-22-20-43-45.png%0Astore%3A%2Ftrash%2Fnatty.2024-04-22-20-43-22.png%0Astore%3A%2Ftrash%2Fnatty.2024-04-22-20-42-46.png%0Astore%3A%2Ftrash%2Fnatty.2024-04-22-20-41-46.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=Sanctus+Shrine&amp;postMark=F&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-04-22-20-44-03&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-04-22-20-44-03&amp;mergeWithIds=) `F` `📍 Sanctus Shrine`
+
+```
+natty.2024-04-22-20-44-03
 ```
 
 ## <span id="natty.2024-03-28-20-26-12">natty.2024-03-28-20-26-12</span>
