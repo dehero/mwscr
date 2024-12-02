@@ -1,10 +1,40 @@
 [`README`](../../README.md) [`CONTRIBUTING`](../../CONTRIBUTING.md) `Posts` [`Inbox`](../inbox/index.md) [`Trash`](../trash/index.md) [`Contributors`](../contributors.md)
 
-[`Top Rated`](top-rated.md) `2024` [`2023`](2023.md) [`2022`](2022.md) [`2020`](2020.md) [`2019`](2019.md) [`2018`](2018.md) [`2017`](2017.md) [`2016`](2016.md) [`dehero.2024`](dehero.2024.md)
+[`Top Rated`](top-rated.md) `2024` [`2023`](2023.md) [`2022`](2022.md) [`2020`](2020.md) [`2019`](2019.md) [`2018`](2018.md) [`2017`](2017.md) [`2016`](2016.md)
 
 # Posted in 2024
 
-`279 items`
+`280 items`
+
+## <span id="2024-12-02-top-post">Top Post</span>
+
+`RU` Высший пост
+
+<a href="https://vk.com/mwscr?w=wall-138249959_1930" title="2024-12-02-top-post"><img alt="store:/shots/2024-12-02-top-post.png" src="../../assets/previews/shots/2024-12-02-top-post.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2024-10-06-15-32-37.png](../../assets/previews/trash/dehero.2024-10-06-15-32-37.avif "dehero.2024-10-06-15-32-37")
+![store:/trash/dehero.2024-10-06-15-32-31.png](../../assets/previews/trash/dehero.2024-10-06-15-32-31.avif "dehero.2024-10-06-15-32-31")
+![store:/trash/dehero.2024-10-06-15-32-02.2.png](../../assets/previews/trash/dehero.2024-10-06-15-32-02.2.avif "dehero.2024-10-06-15-32-02.2")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-12-02-top-post&postLocation=)</code> `🚀 OpenMW` `ship` `tower` `bottle` `evening`
+
+```
+2024-12-02-top-post
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1930) | 2024-12-02 |      1012 |
+| [`tg`](https://t.me/mwscr/613)                     | 2024-12-02 |       575 |
+|                                                    |            |      1587 |
 
 ## <span id="2024-12-01-uncle-sweetshares-workshop">Uncle Sweetshare&#39;s Workshop</span>
 
@@ -29,8 +59,8 @@
 | [`ig`](https://instagram.com/p/BiaBvL9hQx_/)       | 2018-05-05 |       |    95 |       326 |  29.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_709)  | 2018-05-05 |   270 |    21 |       157 |  13.38 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1928) | 2024-12-01 |   232 |    33 |      1012 |   3.56 |
-| [`tg`](https://t.me/mwscr/612)                     | 2024-12-01 |   142 |    45 |       576 |   7.81 |
-|                                                    |            |   374 |    78 |      1588 |  13.47 |
+| [`tg`](https://t.me/mwscr/612)                     | 2024-12-01 |   144 |    46 |       576 |   7.99 |
+|                                                    |            |   376 |    79 |      1588 |  13.52 |
 
 #### Comments
 
@@ -60,8 +90,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_168)  | 2017-02-24 |   157 |     8 |        41 |      8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1927) | 2024-11-30 |   191 |    28 |      1012 |   2.77 |
 | [`tg`](https://t.me/mwscr/611)                     | 2024-11-30 |   171 |    45 |       576 |   7.81 |
-| [`ig`](https://instagram.com/p/DDFQmrONeev/)       | 2024-12-02 |    51 |    25 |      1493 |   1.67 |
-|                                                    |            |   413 |    98 |      3081 |   9.85 |
+| [`ig`](https://instagram.com/p/DDFQmrONeev/)       | 2024-12-02 |    97 |    39 |      1493 |   2.61 |
+|                                                    |            |   459 |   112 |      3081 |  10.04 |
 
 ## <span id="2024-11-29-shishara">Shishara</span>
 
@@ -85,10 +115,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYVRAcJDqXl/)       | 2017-08-28 |       |    67 |       198 |  33.84 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_408)  | 2017-08-28 |   120 |     4 |        74 |   5.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1926) | 2024-11-29 |   185 |    26 |      1011 |   2.67 |
-| [`tg`](https://t.me/mwscr/610)                     | 2024-11-29 |   170 |    42 |       578 |   7.27 |
-| [`ig`](https://instagram.com/p/DDEUIyXx4PK/)       | 2024-12-02 |   206 |    59 |      1493 |   3.95 |
-|                                                    |            |   561 |   127 |      3082 |  10.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1926) | 2024-11-29 |   206 |    30 |      1011 |   3.07 |
+| [`tg`](https://t.me/mwscr/610)                     | 2024-11-29 |   193 |    47 |       578 |   8.13 |
+| [`ig`](https://instagram.com/p/DDEUIyXx4PK/)       | 2024-12-02 |   217 |    60 |      1493 |   4.02 |
+|                                                    |            |   616 |   137 |      3082 |  10.89 |
 
 ## <span id="2024-11-28-molag-amur">Molag Amur</span>
 
@@ -113,9 +143,9 @@
 | [`ig`](https://instagram.com/p/BNCSX_HFXEN/)       | 2016-11-20 |       |    18 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_5)    | 2017-01-22 |    53 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/DC7LMkPPlFg/)       | 2024-11-28 |   435 |    87 |      1492 |   5.83 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |   312 |    44 |      1012 |   4.64 |
-| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |   195 |    49 |       578 |   8.48 |
-|                                                    |            |   942 |   180 |      3082 |   5.24 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |   336 |    46 |      1012 |   4.84 |
+| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |   228 |    50 |       578 |   8.65 |
+|                                                    |            |   999 |   183 |      3082 |   5.33 |
 
 #### Comments
 
@@ -8973,4 +9003,4 @@
 
 ---
 
-[`Top Rated`](top-rated.md) `2024` [`2023`](2023.md) [`2022`](2022.md) [`2020`](2020.md) [`2019`](2019.md) [`2018`](2018.md) [`2017`](2017.md) [`2016`](2016.md) [`dehero.2024`](dehero.2024.md)
+[`Top Rated`](top-rated.md) `2024` [`2023`](2023.md) [`2022`](2022.md) [`2020`](2020.md) [`2019`](2019.md) [`2018`](2018.md) [`2017`](2017.md) [`2016`](2016.md)

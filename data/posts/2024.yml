@@ -2754,3 +2754,29 @@
 2024-11-29-shishara: 2017-08-28-shishara
 2024-11-30-secunda-over-the-towers-of-ebonheart: 2017-02-24-secunda-over-the-towers-of-ebonheart
 2024-12-01-uncle-sweetshares-workshop: 2018-05-05-uncle-sweetshares-workshop
+2024-12-02-top-post:
+  title: Top Post
+  titleRu: Высший пост
+  content: store:/shots/2024-12-02-top-post.png
+  trash:
+    - store:/trash/dehero.2024-10-06-15-32-37.png
+    - store:/trash/dehero.2024-10-06-15-32-31.png
+    - store:/trash/dehero.2024-10-06-15-32-02.2.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - ship
+    - tower
+    - bottle
+    - evening
+  mark: A2
+  posts:
+    - service: vk
+      id: 1930
+      published: 2024-12-02-18-11-17
+      followers: 1012
+    - service: tg
+      id: 613
+      published: 2024-12-02-18-11-24
+      followers: 575
