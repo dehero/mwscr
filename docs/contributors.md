@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 959 posted, 18 pending, 66 rejected  
 Requested: 6 pending  
-Likes: 159360  
+Likes: 159387  
 
 ```
 dehero
@@ -61,6 +61,17 @@ Likes: 238
 
 ```
 irina-bystritskaya
+```
+
+### 3акром
+
+[Telegram](https://t.me/taletale)
+
+Roles: `author` `beginner`  
+Authored: 1 pending  
+
+```
+3akrom
 ```
 
 ## Requesters
