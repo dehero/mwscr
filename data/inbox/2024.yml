@@ -66,19 +66,24 @@ dehero.2024-09-21-11-57-36:
   type: shot
   author: dehero
 dehero.2024-09-21-12-17-54:
-  content:
-    - store:/inbox/dehero.2024-09-21-12-17-54.png
-    - store:/inbox/dehero.2024-09-21-12-17-58.png
-    - store:/inbox/dehero.2024-09-21-12-17-51.png
-    - store:/inbox/dehero.2024-09-21-12-17-41.png
+  title: Darene Bienne
+  titleRu: Дарене Биенне
+  location: Punabi
+  content: store:/inbox/dehero.2024-09-21-12-17-51.1.png
+  trash:
+    - store:/inbox/dehero.2024-09-21-12-16-10.1.png
+    - store:/inbox/dehero.2024-09-21-12-15-59.png
     - store:/inbox/dehero.2024-09-21-12-16-11.png
     - store:/inbox/dehero.2024-09-21-12-16-10.png
-    - store:/inbox/dehero.2024-09-21-12-15-59.png
+    - store:/inbox/dehero.2024-09-21-12-17-51.png
+    - store:/inbox/dehero.2024-09-21-12-17-41.png
     - store:/inbox/dehero.2024-09-21-12-15-50.png
-    - store:/inbox/dehero.2024-09-21-12-16-10.1.png
-    - store:/inbox/dehero.2024-09-21-12-17-51.1.png
+    - store:/inbox/dehero.2024-09-21-12-17-58.png
+    - store:/inbox/dehero.2024-09-21-12-17-54.png
   type: shot
   author: dehero
+  engine: OpenMW
+  mark: B1
 dehero.2024-10-06-15-32-02:
   title: Top Post
   titleRu: Высший пост

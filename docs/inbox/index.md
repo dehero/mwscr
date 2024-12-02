@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`23 items`
+`22 items`
 
 ## <span id="natty.2024-03-28-20-45-29">natty.2024-03-28-20-45-29</span>
 
@@ -196,30 +196,6 @@ natty.2024-03-10-16-03-44
 
 ```
 natty.2024-03-10-12-44-23
-```
-
-## <span id="dehero.2024-09-21-12-17-54">dehero.2024-09-21-12-17-54</span>
-
-![store:/inbox/dehero.2024-09-21-12-17-54.png](../../assets/previews/inbox/dehero.2024-09-21-12-17-54.avif "dehero.2024-09-21-12-17-54")
-![store:/inbox/dehero.2024-09-21-12-17-58.png](../../assets/previews/inbox/dehero.2024-09-21-12-17-58.avif "dehero.2024-09-21-12-17-58")
-![store:/inbox/dehero.2024-09-21-12-17-51.png](../../assets/previews/inbox/dehero.2024-09-21-12-17-51.avif "dehero.2024-09-21-12-17-51")
-![store:/inbox/dehero.2024-09-21-12-17-41.png](../../assets/previews/inbox/dehero.2024-09-21-12-17-41.avif "dehero.2024-09-21-12-17-41")
-![store:/inbox/dehero.2024-09-21-12-16-11.png](../../assets/previews/inbox/dehero.2024-09-21-12-16-11.avif "dehero.2024-09-21-12-16-11")
-![store:/inbox/dehero.2024-09-21-12-16-10.png](../../assets/previews/inbox/dehero.2024-09-21-12-16-10.avif "dehero.2024-09-21-12-16-10")
-![store:/inbox/dehero.2024-09-21-12-15-59.png](../../assets/previews/inbox/dehero.2024-09-21-12-15-59.avif "dehero.2024-09-21-12-15-59")
-![store:/inbox/dehero.2024-09-21-12-15-50.png](../../assets/previews/inbox/dehero.2024-09-21-12-15-50.avif "dehero.2024-09-21-12-15-50")
-![store:/inbox/dehero.2024-09-21-12-16-10.1.png](../../assets/previews/inbox/dehero.2024-09-21-12-16-10.1.avif "dehero.2024-09-21-12-16-10.1")
-![store:/inbox/dehero.2024-09-21-12-17-51.1.png](../../assets/previews/inbox/dehero.2024-09-21-12-17-51.1.avif "dehero.2024-09-21-12-17-51.1")
-
-`shot` by [dehero](../contributors.md#dehero)
-
-> [!WARNING]
-> Need english title, need russian title, need mark, unable to detect possible post type from content.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-09-21-12-17-54&amp;postContent=store%3A%2Finbox%2Fdehero.2024-09-21-12-17-54.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-17-58.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-17-51.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-17-41.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-16-11.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-16-10.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-15-59.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-15-50.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-16-10.1.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-17-51.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-09-21-12-17-54&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-09-21-12-17-54&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-09-21-12-17-54&postLocation=)</code>
-
-```
-dehero.2024-09-21-12-17-54
 ```
 
 ## <span id="dehero.2024-09-21-11-57-36">dehero.2024-09-21-11-57-36</span>
