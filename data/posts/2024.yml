@@ -2775,19 +2775,20 @@
     - service: vk
       id: 1930
       published: 2024-12-02-18-11-17
-      updated: 2024-12-02-19-01-59
+      updated: 2024-12-02-20-07-57
       followers: 1012
-      likes: 10
-      views: 48
+      likes: 19
+      views: 76
       reposts: 2
       comments: !c |-
-        G54A+K0OeHNXKDgihefeuOdVh1FPfyN9IB844wybBCNM9kB1wxiJkYN8gj0vUCeTs1aU6u83ik2m
-        kOVljkx24jwldgCiwCSWugGg0+f9c1exvjtUeOwlge4Ee0hfBjNUQ+UhFlnRfMzvegNvmly0wifI
-        yTWH8JLmYM1rAA==
+        Gw4B4C2OdxjIESn5bj+svOqhGKHS+eefk43w4wYDmcygpJMmCXZKrMiS+6CG20rIS5bIlA+Cf2TV
+        bbU+W4rZpJa27aAcjtZgSVbKU+bIZOvkdj3RwbC1AANqAWAYUoblIqXKGc326evzL0+Lfq3v7Wqm
+        wss1UUGXClMhcYaMYREg80GalEsxBmPKLsM7WrjRVrQn4eSBkqKJmhJpnMM7qeb/sPwuazbv9vYY
+        v9qAU9C5x13DNA583Jljhf7mkQT9GbpqEPEG9HMD
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
-      updated: 2024-12-02-19-01-59
+      updated: 2024-12-02-20-07-58
       followers: 575
-      likes: 30
-      views: 70
+      likes: 39
+      views: 92
