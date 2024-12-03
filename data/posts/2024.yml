@@ -168,7 +168,7 @@
     - service: vk
       id: 1436
       published: 2024-03-04-18-18-05
-      updated: 2024-11-26-17-07-36
+      updated: 2024-12-03-18-09-58
       followers: 895
       likes: 36
       views: 298
@@ -372,7 +372,7 @@
     - service: vk
       id: 1443
       published: 2024-03-11-18-08-24
-      updated: 2024-11-26-17-07-36
+      updated: 2024-12-03-18-09-57
       followers: 896
       likes: 40
       views: 363
@@ -667,7 +667,7 @@
     - service: vk
       id: 1469
       published: 2024-03-25-18-11-40
-      updated: 2024-11-26-17-07-35
+      updated: 2024-12-03-18-09-56
       followers: 902
       likes: 43
       views: 331
@@ -2775,24 +2775,25 @@
     - service: vk
       id: 1930
       published: 2024-12-02-18-11-17
-      updated: 2024-12-03-17-07-34
+      updated: 2024-12-03-18-09-54
       followers: 1012
-      likes: 37
-      views: 180
+      likes: 39
+      views: 186
       reposts: 2
       comments: !c |-
-        G38BKJwJdiwXiwm23BTGIySZJf7jYp/w4d3MHUhyBiVB44nWBJhUZMk+VbcL5TAK4+EKIwtfE9je
-        XvPTuR/paKDHAxmOqyjKXqyKfxTpF7rMkcm25V2aaBIYBF3XBfRA3SjniY1sYgNdLPRkJT5j6pO5
-        8OSnj9dfv4s5MKZ9r64QKjy4UpSsuknOLUnXIHEICizK4VJKZQGxOFa3nsS+KPBwR4l7CdzlApYk
-        pqiwhIqPrOuzYt/+P8zv3NWjZFpFKE2dOYTO6PLxriHcLjapR06L+F8MgeIfhZ47Qhb9QDtCT65t
-        Zt63OncyqXqpbgZscQBE9KRS8o7b3ivzuWSfFR60aSo1PzDjLNN0qCIJoxs=
+        G9YBIBwJNs5xjUEvgiBH/MfFPuHDu5kOJDlOuCRoPOGbAJOKLNmn6oZQDqMQBqHgCiMLXxPY3l5z
+        cK6RjsaRVCDDcdQHRdnFV3Ek6Yv8me1uOtHJwGDQXd0ofKBdNOZwYpElFmh6w36vB1qJSfnp8frH
+        T2/bJLN876Xn+YZh+L4vK1eKklUPkrOTpGuQOAQFFuVwKaWygJgcs4eeiX1R4OGuJW4lcJcLWJKY
+        osISKt6zrkeA8fD/YH7XRFunJzkbtZJqXIPQLd7x8aYhLCcb1FPOC+2/6AJpfxR65hBG8TbQdpcn
+        l3Vm3o/psBiI6ql60OEUh4qIFqWUvOm6LZX53Ab/KjyY9/ui+YIRZ5nmBi9Wwd6DgfnfLwgUruGZ
+        um65EnQym8grAX41eQtABjxe/LEW
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
-      updated: 2024-12-03-17-07-34
+      updated: 2024-12-03-18-09-55
       followers: 575
-      likes: 53
-      views: 149
+      likes: 54
+      views: 150
       comments: !c |-
         G2kAUBSh0oeuecAP9EJhFRSJmYumB11xBk9gJgkbcOCQWTiADb6eAidsOVIidkyXL2qMXf5QAx5S
         UYYdW5wE4bhwnxtLJg6/V/vFvNZrywLgUA67fudGFgFshkXdS1IUZNKAC+/2wpLoWa9bpxg=
@@ -2800,7 +2801,7 @@
       id: DDHFLoqtusS
       mediaId: '18332675689159001'
       published: 2024-12-03-09-08-54
-      updated: 2024-12-03-17-07-36
+      updated: 2024-12-03-18-09-55
       followers: 1493
-      likes: 74
-      views: 236
+      likes: 79
+      views: 253
