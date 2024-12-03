@@ -2775,10 +2775,10 @@
     - service: vk
       id: 1930
       published: 2024-12-02-18-11-17
-      updated: 2024-12-03-00-39-52
+      updated: 2024-12-03-02-21-06
       followers: 1012
-      likes: 24
-      views: 119
+      likes: 26
+      views: 124
       reposts: 2
       comments: !c |-
         G38BKJwJdiwXiwm23BTGIySZJf7jYp/w4d3MHUhyBiVB44nWBJhUZMk+VbcL5TAK4+EKIwtfE9je
@@ -2789,7 +2789,7 @@
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
-      updated: 2024-12-03-00-39-52
+      updated: 2024-12-03-02-21-06
       followers: 575
-      likes: 45
-      views: 110
+      likes: 47
+      views: 115
