@@ -2098,18 +2098,18 @@
     - service: vk
       id: 1577
       published: 2024-06-10-18-20-20
-      updated: 2024-11-26-08-11-46
+      updated: 2024-12-03-08-13-26
       followers: 916
       likes: 33
-      views: 276
+      views: 278
       reposts: 2
     - service: tg
       id: 435
       published: 2024-06-10-18-20-28
-      updated: 2024-11-26-08-11-43
+      updated: 2024-12-03-08-13-22
       followers: 383
       likes: 55
-      views: 441
+      views: 442
 2024-06-11-emperor-parasols-under-the-rain-of-stars:
   title: Emperor Parasols Under the Rain of Stars
   titleRu: Императорские зонтики под звёздным дождем
@@ -2775,10 +2775,10 @@
     - service: vk
       id: 1930
       published: 2024-12-02-18-11-17
-      updated: 2024-12-03-07-39-01
+      updated: 2024-12-03-08-13-14
       followers: 1012
-      likes: 31
-      views: 149
+      likes: 33
+      views: 157
       reposts: 2
       comments: !c |-
         G38BKJwJdiwXiwm23BTGIySZJf7jYp/w4d3MHUhyBiVB44nWBJhUZMk+VbcL5TAK4+EKIwtfE9je
@@ -2789,7 +2789,7 @@
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
-      updated: 2024-12-03-07-39-02
+      updated: 2024-12-03-08-13-14
       followers: 575
       likes: 53
       views: 132
