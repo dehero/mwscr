@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`6 items`
+`5 items`
 
 ## <span id="natty.2024-03-10-18-07-39">Tel Naga Great Hall</span>
 
@@ -41,34 +41,6 @@ natty.2024-03-10-18-07-39
 
 ```
 irina-bystritskaya.2022-06-25-drawing-002
-```
-
-## <span id="dehero.2024-09-21-12-17-54">Darene Bienne</span>
-
-`RU` Дарене Биенне
-
-![store:/inbox/dehero.2024-09-21-12-17-51.1.png](../../assets/previews/inbox/dehero.2024-09-21-12-17-51.1.avif "dehero.2024-09-21-12-17-51.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2024-09-21-12-16-10.1.png](../../assets/previews/inbox/dehero.2024-09-21-12-16-10.1.avif "dehero.2024-09-21-12-16-10.1")
-![store:/inbox/dehero.2024-09-21-12-15-59.png](../../assets/previews/inbox/dehero.2024-09-21-12-15-59.avif "dehero.2024-09-21-12-15-59")
-![store:/inbox/dehero.2024-09-21-12-16-11.png](../../assets/previews/inbox/dehero.2024-09-21-12-16-11.avif "dehero.2024-09-21-12-16-11")
-![store:/inbox/dehero.2024-09-21-12-16-10.png](../../assets/previews/inbox/dehero.2024-09-21-12-16-10.avif "dehero.2024-09-21-12-16-10")
-![store:/inbox/dehero.2024-09-21-12-17-51.png](../../assets/previews/inbox/dehero.2024-09-21-12-17-51.avif "dehero.2024-09-21-12-17-51")
-![store:/inbox/dehero.2024-09-21-12-17-41.png](../../assets/previews/inbox/dehero.2024-09-21-12-17-41.avif "dehero.2024-09-21-12-17-41")
-![store:/inbox/dehero.2024-09-21-12-15-50.png](../../assets/previews/inbox/dehero.2024-09-21-12-15-50.avif "dehero.2024-09-21-12-15-50")
-![store:/inbox/dehero.2024-09-21-12-17-58.png](../../assets/previews/inbox/dehero.2024-09-21-12-17-58.avif "dehero.2024-09-21-12-17-58")
-![store:/inbox/dehero.2024-09-21-12-17-54.png](../../assets/previews/inbox/dehero.2024-09-21-12-17-54.avif "dehero.2024-09-21-12-17-54")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-09-21-12-17-54&amp;postContent=store%3A%2Finbox%2Fdehero.2024-09-21-12-17-51.1.png&amp;postTitle=Darene+Bienne&amp;postTitleRu=%D0%94%D0%B0%D1%80%D0%B5%D0%BD%D0%B5+%D0%91%D0%B8%D0%B5%D0%BD%D0%BD%D0%B5&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Punabi&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-09-21-12-16-10.1.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-15-59.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-16-11.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-16-10.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-17-51.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-17-41.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-15-50.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-17-58.png%0Astore%3A%2Finbox%2Fdehero.2024-09-21-12-17-54.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-09-21-12-17-54&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-09-21-12-17-54&amp;mergeWithIds=) `B1` `📍 Punabi` `🚀 OpenMW`
-
-```
-dehero.2024-09-21-12-17-54
 ```
 
 ## <span id="dehero.2024-09-21-11-57-36">In the Evening at Census and Excise Office</span>

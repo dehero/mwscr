@@ -176,7 +176,7 @@
     - service: tg
       id: 335
       published: 2024-03-04-18-18-12
-      updated: 2024-11-26-22-07-45
+      updated: 2024-12-03-22-08-05
       followers: 344
       likes: 68
       views: 569
@@ -380,7 +380,7 @@
     - service: tg
       id: 342
       published: 2024-03-11-18-08-30
-      updated: 2024-11-26-22-07-45
+      updated: 2024-12-03-22-08-04
       followers: 350
       likes: 62
       views: 589
@@ -674,7 +674,7 @@
     - service: tg
       id: 357
       published: 2024-03-25-18-11-47
-      updated: 2024-11-26-22-07-45
+      updated: 2024-12-03-22-08-03
       followers: 352
       likes: 64
       views: 452
@@ -2543,25 +2543,25 @@
       id: DAT18BsviH8
       mediaId: '18043544329950622'
       published: 2024-09-24-18-31-45
-      updated: 2024-11-26-22-07-42
+      updated: 2024-12-03-22-08-02
       followers: 1458
       likes: 95
       views: 370
     - service: vk
       id: 1781
       published: 2024-09-24-18-31-51
-      updated: 2024-11-26-22-07-46
+      updated: 2024-12-03-22-08-02
       followers: 959
       likes: 39
-      views: 305
+      views: 307
       reposts: 1
     - service: tg
       id: 543
       published: 2024-09-24-18-31-57
-      updated: 2024-11-26-22-07-43
+      updated: 2024-12-03-22-08-01
       followers: 556
       likes: 56
-      views: 546
+      views: 552
 2024-09-25-the-hand-of-almalexia:
   title: The Hand of Almalexia
   titleRu: Рука Альмалексии
@@ -2775,10 +2775,10 @@
     - service: vk
       id: 1930
       published: 2024-12-02-18-11-17
-      updated: 2024-12-03-21-07-35
+      updated: 2024-12-03-22-07-53
       followers: 1012
-      likes: 39
-      views: 195
+      likes: 40
+      views: 199
       reposts: 2
       comments: !c |-
         G9YBIBwJNs5xjUEvgiBH/MfFPuHDu5kOJDlOuCRoPOGbAJOKLNmn6oZQDqMQBqHgCiMLXxPY3l5z
@@ -2790,10 +2790,10 @@
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
-      updated: 2024-12-03-21-07-35
+      updated: 2024-12-03-22-07-54
       followers: 575
-      likes: 54
-      views: 151
+      likes: 55
+      views: 153
       comments: !c |-
         G2kAUBSh0oeuecAP9EJhFRSJmYumB11xBk9gJgkbcOCQWTiADb6eAidsOVIidkyXL2qMXf5QAx5S
         UYYdW5wE4bhwnxtLJg6/V/vFvNZrywLgUA67fudGFgFshkXdS1IUZNKAC+/2wpLoWa9bpxg=
@@ -2801,7 +2801,39 @@
       id: DDHFLoqtusS
       mediaId: '18332675689159001'
       published: 2024-12-03-09-08-54
-      updated: 2024-12-03-21-07-35
+      updated: 2024-12-03-22-07-54
       followers: 1493
-      likes: 93
-      views: 293
+      likes: 98
+      views: 306
+2024-12-03-darene-bienne:
+  title: Darene Bienne
+  titleRu: Дарене Биенне
+  location: Punabi
+  content: store:/shots/2024-12-03-darene-bienne.png
+  trash:
+    - store:/trash/dehero.2024-09-21-12-16-10.1.png
+    - store:/trash/dehero.2024-09-21-12-15-59.png
+    - store:/trash/dehero.2024-09-21-12-16-11.png
+    - store:/trash/dehero.2024-09-21-12-16-10.png
+    - store:/trash/dehero.2024-09-21-12-17-41.png
+    - store:/trash/dehero.2024-09-21-12-15-50.png
+    - store:/trash/dehero.2024-09-21-12-17-58.png
+    - store:/trash/dehero.2024-09-21-12-17-54.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  mark: B1
+  posts:
+    - service: ig
+      id: DDIecdyOrDo
+      mediaId: '18034818164099144'
+      published: 2024-12-03-22-08-55
+      followers: 1495
+    - service: vk
+      id: 1937
+      published: 2024-12-03-22-09-03
+      followers: 1012
+    - service: tg
+      id: 614
+      published: 2024-12-03-22-09-13
+      followers: 574
