@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`5 items`
+`6 items`
 
 ## <span id="natty.2024-03-10-18-07-39">Tel Naga Great Hall</span>
 
@@ -92,6 +92,30 @@ dehero.2024-09-21-12-17-54
 
 ```
 dehero.2024-09-21-11-57-36
+```
+
+## <span id="dehero.2024-02-17-10-59-12">Flash of Lightning</span>
+
+`RU` Вспышка молнии
+
+![store:/inbox/dehero.2024-02-17-10-59-12.png](../../assets/previews/inbox/dehero.2024-02-17-10-59-12.avif "dehero.2024-02-17-10-59-12")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2024-02-17-10-59-09.png](../../assets/previews/inbox/dehero.2024-02-17-10-59-09.avif "dehero.2024-02-17-10-59-09")
+![store:/inbox/dehero.2024-02-17-10-56-04.png](../../assets/previews/inbox/dehero.2024-02-17-10-56-04.avif "dehero.2024-02-17-10-56-04")
+![store:/inbox/dehero.2024-02-17-10-57-54.png](../../assets/previews/inbox/dehero.2024-02-17-10-57-54.avif "dehero.2024-02-17-10-57-54")
+![store:/inbox/dehero.2024-02-17-10-59-08.png](../../assets/previews/inbox/dehero.2024-02-17-10-59-08.avif "dehero.2024-02-17-10-59-08")
+![store:/inbox/dehero.2024-02-17-10-59-11.png](../../assets/previews/inbox/dehero.2024-02-17-10-59-11.avif "dehero.2024-02-17-10-59-11")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-17-10-59-12&amp;postContent=store%3A%2Finbox%2Fdehero.2024-02-17-10-59-12.png&amp;postTitle=Flash+of+Lightning&amp;postTitleRu=%D0%92%D1%81%D0%BF%D1%8B%D1%88%D0%BA%D0%B0+%D0%BC%D0%BE%D0%BB%D0%BD%D0%B8%D0%B8&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=lightning&amp;postLocation=Grazelands+Region&amp;postMark=E&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-02-17-10-59-09.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-10-56-04.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-10-57-54.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-10-59-08.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-10-59-11.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-17-10-59-12&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-17-10-59-12&amp;mergeWithIds=) `E` `📍 Grazelands Region` `🚀 OpenMW` `lightning`
+
+```
+dehero.2024-02-17-10-59-12
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
