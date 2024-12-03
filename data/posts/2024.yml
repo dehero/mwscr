@@ -2775,21 +2775,21 @@
     - service: vk
       id: 1930
       published: 2024-12-02-18-11-17
-      updated: 2024-12-02-23-09-19
+      updated: 2024-12-03-00-39-52
       followers: 1012
-      likes: 23
-      views: 113
+      likes: 24
+      views: 119
       reposts: 2
       comments: !c |-
-        G0EBQCwLbCfeQG680FwLTxM6FO4rFU8PN/yEh0GBJBmUBBkMBjjayCbv4H+5LaRmrN4slsgcPwjy
-        yPq5e+LEjhOJW1Bpgdy922pttwrom3yhMiUPOnNksmuNrp7udHJLIwqIoiAI8EAtAAwDiyzDwG3I
-        7+2VvQuhT1/vv49WNuN7X0QqPNypCMiaQE6SdEYUolgZvBoUKaqcRSO61qPgjWQedAraCmZVy1QI
-        SkVSQRJHuPJl+3+e37mnV5rj8sITsLqoxsebRFHb8Knu7Av1LzYn6o9yD0KISjXQjombe8zM59lT
-        e84nazZb8+ngMUPqC7M=
+        G38BKJwJdiwXiwm23BTGIySZJf7jYp/w4d3MHUhyBiVB44nWBJhUZMk+VbcL5TAK4+EKIwtfE9je
+        XvPTuR/paKDHAxmOqyjKXqyKfxTpF7rMkcm25V2aaBIYBF3XBfRA3SjniY1sYgNdLPRkJT5j6pO5
+        8OSnj9dfv4s5MKZ9r64QKjy4UpSsuknOLUnXIHEICizK4VJKZQGxOFa3nsS+KPBwR4l7CdzlApYk
+        pqiwhIqPrOuzYt/+P8zv3NWjZFpFKE2dOYTO6PLxriHcLjapR06L+F8MgeIfhZ47Qhb9QDtCT65t
+        Zt63OncyqXqpbgZscQBE9KRS8o7b3ivzuWSfFR60aSo1PzDjLNN0qCIJoxs=
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
-      updated: 2024-12-02-23-09-20
+      updated: 2024-12-03-00-39-52
       followers: 575
       likes: 45
       views: 110

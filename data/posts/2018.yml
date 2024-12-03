@@ -165,10 +165,10 @@
       id: DB9YEuYxTJW
       mediaId: '17863198068255292'
       published: 2024-11-04-18-10-13
-      updated: 2024-11-26-00-38-05
+      updated: 2024-12-03-00-39-53
       followers: 1482
-      likes: 87
-      views: 383
+      likes: 88
+      views: 390
     - service: vk
       id: 1876
       published: 2024-11-04-18-10-22
@@ -4499,7 +4499,7 @@
     - service: vk
       id: 1928
       published: 2024-12-01-18-09-48
-      updated: 2024-12-02-23-09-20
+      updated: 2024-12-03-00-39-53
       followers: 1012
       likes: 35
       views: 251
@@ -4507,10 +4507,15 @@
     - service: tg
       id: 612
       published: 2024-12-01-18-09-57
-      updated: 2024-12-02-23-09-20
+      updated: 2024-12-03-00-39-53
       followers: 576
       likes: 55
       views: 169
+    - service: ig
+      id: DDGK86wO8YJ
+      mediaId: '18296802376229812'
+      published: 2024-12-03-00-40-05
+      followers: 1493
 2018-05-06-roads-of-ascadian-isles:
   title: Roads of Ascadian Isles
   titleRu: Дороги Аскадианских островов
