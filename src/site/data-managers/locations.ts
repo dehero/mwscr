@@ -3,7 +3,7 @@ import { LocationsReader } from '../../core/entities/locations-reader.js';
 
 class SiteLocationsReader extends LocationsReader {
   protected async loadChunkData() {
-    const { default: data } = await import('../../../data/locations.yml');
+    const data = await fetch('/data/locations.json').then((r) => r.json());
 
     if (!Array.isArray(data)) {
       throw new TypeError('Locations data must be an array');

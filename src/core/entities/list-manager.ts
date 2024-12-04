@@ -12,7 +12,7 @@ export abstract class ListReader<TItem> {
   abstract readonly name: string;
 
   protected loadedChunkNames: string[] | undefined;
-  protected chunks: Map<string, ListReaderChunk<TItem>> = new Map();
+  protected chunks: Map<string, Promise<ListReaderChunk<TItem>>> = new Map();
 
   protected statsCaches: Record<string, Promise<ListReaderStats>> = {};
 
@@ -102,21 +102,21 @@ export abstract class ListReader<TItem> {
 
   protected async loadChunk(chunkName: string): Promise<ListReaderChunk<TItem>> {
     let chunk = this.chunks.get(chunkName);
-    if (chunk) {
-      return chunk;
+    if (!chunk) {
+      chunk = (async () => {
+        try {
+          const data = await this.loadChunkData(chunkName);
+
+          return new Map(data);
+        } catch (error) {
+          throw new TypeError(
+            `Cannot load ${this.name} chunk "${chunkName}" data: ${error instanceof Error ? error.message : error}`,
+          );
+        }
+      })();
+
+      this.chunks.set(chunkName, chunk);
     }
-
-    try {
-      const data = await this.loadChunkData(chunkName);
-
-      chunk = new Map(data);
-    } catch (error) {
-      throw new TypeError(
-        `Cannot load ${this.name} chunk "${chunkName}" data: ${error instanceof Error ? error.message : error}`,
-      );
-    }
-
-    this.chunks.set(chunkName, chunk);
 
     return chunk;
   }

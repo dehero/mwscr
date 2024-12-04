@@ -4,23 +4,18 @@ import { getPostDraftChunkName, getPublishedPostChunkName } from '../../core/ent
 import type { PostsManagerName } from '../../core/entities/posts-manager.js';
 import { PostsManager } from '../../core/entities/posts-manager.js';
 
-type ChunkLoader = () => Promise<unknown>;
-
 interface SitePostsManagerProps {
   name: PostsManagerName;
-  chunksLoaders: Record<string, ChunkLoader>;
   getItemChunkName: (id: string) => string;
 }
 
 class SitePostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
   readonly name: PostsManagerName;
-  readonly chunksLoaders: Record<string, ChunkLoader>;
   readonly getItemChunkName: (id: string) => string;
 
-  constructor({ name, chunksLoaders, getItemChunkName }: SitePostsManagerProps) {
+  constructor({ name, getItemChunkName }: SitePostsManagerProps) {
     super();
     this.name = name;
-    this.chunksLoaders = chunksLoaders;
     this.getItemChunkName = getItemChunkName;
   }
 
@@ -37,18 +32,27 @@ class SitePostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
   };
 
   async loadChunkNames() {
-    return Object.keys(this.chunksLoaders).map((pathname) => /\/([^/]+)\.yml$/.exec(pathname)?.[1] || '');
+    const index = (await fetch('/data/index.json').then((r) => r.json())) as string[];
+
+    return index
+      .filter((pathname: string) => pathname.startsWith(`${this.name}/`))
+      .map((pathname) => /\/([^/]+)\.json$/.exec(pathname)?.[1] || '');
   }
 
   protected async loadChunkData(chunkName: string) {
-    const filename = Object.entries(this.chunksLoaders).find(([name]) => name.endsWith(`/${chunkName}.yml`))?.[0];
+    const filename = `/data/${this.name}/${chunkName}.json`;
 
     if (!filename) {
       throw new Error(`Chunk "${chunkName}" not found`);
     }
 
     try {
-      const data = await this.chunksLoaders[filename]?.();
+      const data = JSON.parse(await fetch(filename).then((r) => r.text()), (_, value) => {
+        if (typeof value === 'string' && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/.test(value)) {
+          return new Date(value);
+        }
+        return value;
+      }) as unknown;
 
       if (typeof data !== 'object' || data === null) {
         throw new TypeError(`File "${filename}" expected to be the map of posts`);
@@ -67,19 +71,16 @@ class SitePostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
 
 export const posts = new SitePostsManager<PublishablePost>({
   name: 'posts',
-  chunksLoaders: import.meta.glob('../../../data/posts/*.yml', { import: 'default' }),
   getItemChunkName: getPublishedPostChunkName,
 });
 
 export const inbox = new SitePostsManager<InboxItem>({
   name: 'inbox',
-  chunksLoaders: import.meta.glob('../../../data/inbox/*.yml', { import: 'default' }),
   getItemChunkName: getPostDraftChunkName,
 });
 
 export const trash = new SitePostsManager<TrashItem | InboxItem>({
   name: 'trash',
-  chunksLoaders: import.meta.glob('../../../data/trash/*.yml', { import: 'default' }),
   getItemChunkName: getPostDraftChunkName,
 });
 

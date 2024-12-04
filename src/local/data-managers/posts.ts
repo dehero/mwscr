@@ -72,7 +72,7 @@ class LocalPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
   }
 
   protected async saveChunk(chunkName: string) {
-    const chunk = this.chunks.get(chunkName);
+    const chunk = await this.chunks.get(chunkName);
     const filename = `${this.dirPath}/${chunkName}.yml`;
 
     if (!chunk) {

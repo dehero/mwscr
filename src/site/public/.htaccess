@@ -5,3 +5,17 @@ ErrorDocument 404 /404.html
   AddOutputFilterByType DEFLATE application/json
   AddOutputFilterByType DEFLATE application/x-font application/x-font-opentype application/x-font-otf application/x-font-truetype application/x-font-ttf font/opentype font/otf font/ttf
 </ifModule>
+
+<ifModule mod_headers.c>
+  <FilesMatch "\.(json|html)$">
+    Header set Cache-Control "max-age=3600"
+  </FilesMatch>
+
+  <FilesMatch "\.(jpg|jpeg|gif|avif|png|svg|ico|txt|webmanifest)$">
+    Header set Cache-Control "max-age=604800"
+  </FilesMatch>
+
+  <FilesMatch "\.(js|css|woff|woff2|ttf)$">
+    Header unset Cache-Control
+  </FilesMatch>  
+</IfModule>
