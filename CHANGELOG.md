@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.23.1](https://github.com/dehero/mwscr/compare/v1.23.0...v1.23.1) (2024-12-04)
+
+### Bug Fixes
+
+- don't include package.json in bundle
+  ([c63f46e](https://github.com/dehero/mwscr/commit/c63f46eac20a00f3d88bde152c4667e9b513976c))
+
 ## [1.23.0](https://github.com/dehero/mwscr/compare/v1.22.0...v1.23.0) (2024-12-04)
 
 ### Features
