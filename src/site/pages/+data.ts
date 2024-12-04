@@ -1,3 +1,4 @@
+import { readFile } from 'fs/promises';
 import { getPostCommentCount, getPostEntryLikes, POST_RECENTLY_PUBLISHED_DAYS } from '../../core/entities/post.js';
 import { localDataExtractor } from '../../local/data-managers/extractor.js';
 import { inbox, posts, trash } from '../../local/data-managers/posts.js';
@@ -21,7 +22,19 @@ export async function data(): Promise<HomePageData> {
     0,
   );
 
+  let version = 'unknown';
+
+  try {
+    const pkg = await readFile('./package.json', 'utf-8');
+    version = String(JSON.parse(pkg).version);
+  } catch (error) {
+    if (error instanceof Error) {
+      console.error(`Error reading package.json: ${error.message}`);
+    }
+  }
+
   return {
+    version,
     buildDate: new Date(),
     totalPosts: {
       posts: await posts.getItemCount(),

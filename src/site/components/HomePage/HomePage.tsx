@@ -1,7 +1,6 @@
 import { type Component, createSignal } from 'solid-js';
 import { useData } from 'vike-solid/useData';
 import icon from '../../../../assets/icon.png?format=avif&imagetools';
-import pkg from '../../../../package.json';
 import { getPostDateById } from '../../../core/entities/post.js';
 import type { PostInfoSelection } from '../../../core/entities/post-info.js';
 import { selectPostInfos } from '../../../core/entities/post-info.js';
@@ -23,6 +22,7 @@ import { Table } from '../Table/Table.js';
 import styles from './HomePage.module.css';
 
 export interface HomePageData {
+  version: string;
   buildDate: Date;
   totalPosts: PostsUsage;
   authorCount: number;
@@ -41,6 +41,7 @@ export interface HomePageData {
 
 export const HomePage: Component = () => {
   const {
+    version,
     buildDate,
     totalPosts,
     authorCount,
@@ -95,7 +96,7 @@ export const HomePage: Component = () => {
             </a>
           </p>
           <p class={styles.version}>
-            v{typeof pkg === 'object' && 'version' in pkg && typeof pkg.version === 'string' ? pkg.version : undefined}
+            v{version}
             {', '}
             {formatDate(buildDate)}, {formatTime(buildDate)}
           </p>
