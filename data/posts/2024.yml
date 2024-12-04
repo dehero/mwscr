@@ -2775,25 +2775,25 @@
     - service: vk
       id: 1930
       published: 2024-12-02-18-11-17
-      updated: 2024-12-04-04-10-35
+      updated: 2024-12-04-05-08-46
       followers: 1012
-      likes: 41
-      views: 202
+      likes: 42
+      views: 205
       reposts: 2
       comments: !c |-
-        G9YBIBwJNs5xjUEvgiBH/MfFPuHDu5kOJDlOuCRoPOGbAJOKLNmn6oZQDqMQBqHgCiMLXxPY3l5z
-        cK6RjsaRVCDDcdQHRdnFV3Ek6Yv8me1uOtHJwGDQXd0ofKBdNOZwYpElFmh6w36vB1qJSfnp8frH
-        T2/bJLN876Xn+YZh+L4vK1eKklUPkrOTpGuQOAQFFuVwKaWygJgcs4eeiX1R4OGuJW4lcJcLWJKY
-        osISKt6zrkeA8fD/YH7XRFunJzkbtZJqXIPQLd7x8aYhLCcb1FPOC+2/6AJpfxR65hBG8TbQdpcn
-        l3Vm3o/psBiI6ql60OEUh4qIFqWUvOm6LZX53Ab/KjyY9/ui+YIRZ5nmBi9Wwd6DgfnfLwgUruGZ
-        um65EnQym8grAX41eQtABjxe/LEW
+        Gw8CQBwJNs5xjUEvgiBHz/f37BFerJk+SBInXBI0nnAzgSUVWbLHqltAllAgAdVTgvv97Uzd/e1x
+        wv38NYmPjiOpQA6Pq+hW+d5fFUcCD2wieyZbd7se6H45GARttaCFB2oBJxBxeIyTyBILNL1hv9sh
+        SGJSfvp8/Z2Hvk7dtXxvka4boigahkEL1wScRDtOs5KEa0DSSGhKLDYUThhjMIpGtesoyTsC3NSS
+        4xaCHmuKIccJBIYo6DT7/dO+evd9p+t38dPnJa39ZkaeRqS3xjM+3GQkmkWm7DDHHerfGAxRf23a
+        EUKIwWmgO2k8Oa1rrfe90whr4txFOwMO4+DURjOSQ8/g/w9C2EWUzts8f671nwsPelVFvDeY44zJ
+        eSMF1TO0ky+//azY0ERdEgRZI7MDmiQ9HNJmR9HmA9LEpsFvtg==
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
-      updated: 2024-12-04-04-10-35
+      updated: 2024-12-04-05-08-46
       followers: 575
-      likes: 58
-      views: 182
+      likes: 59
+      views: 186
       comments: !c |-
         G2kAUBSh0oeuecAP9EJhFRSJmYumB11xBk9gJgkbcOCQWTiADb6eAidsOVIidkyXL2qMXf5QAx5S
         UYYdW5wE4bhwnxtLJg6/V/vFvNZrywLgUA67fudGFgFshkXdS1IUZNKAC+/2wpLoWa9bpxg=
@@ -2801,10 +2801,10 @@
       id: DDHFLoqtusS
       mediaId: '18332675689159001'
       published: 2024-12-03-09-08-54
-      updated: 2024-12-04-04-10-35
+      updated: 2024-12-04-05-08-45
       followers: 1493
-      likes: 104
-      views: 355
+      likes: 105
+      views: 359
 2024-12-03-darene-bienne:
   title: Darene Bienne
   titleRu: Дарене Биенне
@@ -2828,21 +2828,21 @@
       id: DDIecdyOrDo
       mediaId: '18034818164099144'
       published: 2024-12-03-22-08-55
-      updated: 2024-12-04-04-10-34
+      updated: 2024-12-04-05-08-44
       followers: 1495
-      likes: 38
-      views: 124
+      likes: 41
+      views: 131
     - service: vk
       id: 1937
       published: 2024-12-03-22-09-03
-      updated: 2024-12-04-04-10-34
+      updated: 2024-12-04-05-08-45
       followers: 1012
-      likes: 11
-      views: 62
+      likes: 13
+      views: 76
     - service: tg
       id: 614
       published: 2024-12-03-22-09-13
-      updated: 2024-12-04-04-10-35
+      updated: 2024-12-04-05-08-45
       followers: 574
-      likes: 23
-      views: 93
+      likes: 26
+      views: 104
