@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.23.0](https://github.com/dehero/mwscr/compare/v1.22.0...v1.23.0) (2024-12-04)
+
+### Features
+
+- extract data from JS bundle
+  ([8b580a9](https://github.com/dehero/mwscr/commit/8b580a9c4e39f0996283e001da439dac604cae91))
+
+### Performance Improvements
+
+- evaluate dynamic data extraction
+  ([d61d557](https://github.com/dehero/mwscr/commit/d61d557f76523e8687e1fd806b6f76f763af372e))
+
 ## [1.22.0](https://github.com/dehero/mwscr/compare/v1.21.0...v1.22.0) (2024-10-22)
 
 ### Features
