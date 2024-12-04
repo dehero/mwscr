@@ -4,7 +4,40 @@
 
 # Posted in 2024
 
-`281 items`
+`282 items`
+
+## <span id="2024-12-04-flash-of-lightning">Flash of Lightning</span>
+
+`RU` Вспышка молнии
+
+<a href="https://instagram.com/p/DDKux6bBhNm/" title="2024-12-04-flash-of-lightning"><img alt="store:/shots/2024-12-04-flash-of-lightning.png" src="../../assets/previews/shots/2024-12-04-flash-of-lightning.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2024-02-17-10-59-09.png](../../assets/previews/trash/dehero.2024-02-17-10-59-09.avif "dehero.2024-02-17-10-59-09")
+![store:/trash/dehero.2024-02-17-10-56-04.png](../../assets/previews/trash/dehero.2024-02-17-10-56-04.avif "dehero.2024-02-17-10-56-04")
+![store:/trash/dehero.2024-02-17-10-57-54.png](../../assets/previews/trash/dehero.2024-02-17-10-57-54.avif "dehero.2024-02-17-10-57-54")
+![store:/trash/dehero.2024-02-17-10-59-08.png](../../assets/previews/trash/dehero.2024-02-17-10-59-08.avif "dehero.2024-02-17-10-59-08")
+![store:/trash/dehero.2024-02-17-10-59-11.png](../../assets/previews/trash/dehero.2024-02-17-10-59-11.avif "dehero.2024-02-17-10-59-11")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`E` `📍 Grazelands Region` `🚀 OpenMW` `lightning`
+
+```
+2024-12-04-flash-of-lightning
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DDKux6bBhNm/)       | 2024-12-04 |      1496 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1941) | 2024-12-04 |      1013 |
+| [`tg`](https://t.me/mwscr/615)                     | 2024-12-04 |       574 |
+|                                                    |            |      3083 |
 
 ## <span id="2024-12-03-darene-bienne">Darene Bienne</span>
 
@@ -37,10 +70,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDIecdyOrDo/)       | 2024-12-03 |   255 |    71 |      1495 |   4.75 |
+| [`ig`](https://instagram.com/p/DDIecdyOrDo/)       | 2024-12-03 |   261 |    72 |      1495 |   4.82 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1937) | 2024-12-03 |   178 |    27 |      1012 |   2.67 |
-| [`tg`](https://t.me/mwscr/614)                     | 2024-12-03 |   150 |    38 |       574 |   6.62 |
-|                                                    |            |   583 |   136 |      3081 |   4.68 |
+| [`tg`](https://t.me/mwscr/614)                     | 2024-12-03 |   151 |    38 |       574 |   6.62 |
+|                                                    |            |   590 |   137 |      3081 |    4.7 |
 
 ## <span id="2024-12-02-top-post">Top Post</span>
 
@@ -70,8 +103,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1930) | 2024-12-02 |   238 |    47 |      1012 |   4.84 |
 | [`tg`](https://t.me/mwscr/613)                     | 2024-12-02 |   199 |    60 |       575 |  10.43 |
-| [`ig`](https://instagram.com/p/DDHFLoqtusS/)       | 2024-12-03 |   540 |   133 |      1493 |   8.91 |
-|                                                    |            |   977 |   240 |      3080 |   8.06 |
+| [`ig`](https://instagram.com/p/DDHFLoqtusS/)       | 2024-12-03 |   567 |   135 |      1493 |   9.04 |
+|                                                    |            |  1004 |   242 |      3080 |   8.11 |
 
 #### Comments
 
@@ -110,8 +143,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_709)  | 2018-05-05 |   270 |    21 |       157 |  13.38 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1928) | 2024-12-01 |   286 |    38 |      1012 |   4.05 |
 | [`tg`](https://t.me/mwscr/612)                     | 2024-12-01 |   210 |    58 |       576 |  10.07 |
-| [`ig`](https://instagram.com/p/DDGK86wO8YJ/)       | 2024-12-03 |   451 |   111 |      1493 |   7.43 |
-|                                                    |            |   947 |   207 |      3081 |  12.81 |
+| [`ig`](https://instagram.com/p/DDGK86wO8YJ/)       | 2024-12-03 |   453 |   112 |      1493 |    7.5 |
+|                                                    |            |   949 |   208 |      3081 |  12.83 |
 
 #### Comments
 
@@ -166,10 +199,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYVRAcJDqXl/)       | 2017-08-28 |       |    67 |       198 |  33.84 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_408)  | 2017-08-28 |   120 |     4 |        74 |   5.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1926) | 2024-11-29 |   220 |    31 |      1011 |   3.17 |
-| [`tg`](https://t.me/mwscr/610)                     | 2024-11-29 |   225 |    51 |       578 |   8.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1926) | 2024-11-29 |   225 |    31 |      1011 |   3.17 |
+| [`tg`](https://t.me/mwscr/610)                     | 2024-11-29 |   252 |    51 |       578 |   8.82 |
 | [`ig`](https://instagram.com/p/DDEUIyXx4PK/)       | 2024-12-02 |   298 |    77 |      1493 |   5.16 |
-|                                                    |            |   743 |   159 |      3082 |  11.28 |
+|                                                    |            |   775 |   159 |      3082 |  11.28 |
 
 ## <span id="2024-11-28-molag-amur">Molag Amur</span>
 
@@ -194,9 +227,9 @@
 | [`ig`](https://instagram.com/p/BNCSX_HFXEN/)       | 2016-11-20 |       |    18 |           |        |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_5)    | 2017-01-22 |    53 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/DC7LMkPPlFg/)       | 2024-11-28 |   454 |    91 |      1492 |    6.1 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |   345 |    46 |      1012 |   4.84 |
-| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |   244 |    53 |       578 |   9.17 |
-|                                                    |            |  1043 |   190 |      3082 |   5.53 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1924) | 2024-11-28 |   349 |    46 |      1012 |   4.84 |
+| [`tg`](https://t.me/mwscr/609)                     | 2024-11-28 |   263 |    54 |       578 |   9.34 |
+|                                                    |            |  1066 |   191 |      3082 |   5.57 |
 
 #### Comments
 
@@ -387,10 +420,10 @@
 | [`ig`](https://instagram.com/p/Bu258p8B1jj/)       | 2019-03-11 |       |   179 |       787 |  22.74 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1143) | 2019-03-11 |   755 |    64 |       334 |  19.46 |
 | [`tg`](https://t.me/mwscr/162)                     | 2019-03-11 |   604 |     6 |           |        |
-| [`ig`](https://instagram.com/p/DCruhchMwP3/)       | 2024-11-22 |   939 |   130 |      1482 |   8.77 |
+| [`ig`](https://instagram.com/p/DCruhchMwP3/)       | 2024-11-22 |   991 |   136 |      1482 |   9.18 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1915) | 2024-11-22 |   480 |    53 |      1008 |   5.65 |
 | [`tg`](https://t.me/mwscr/603)                     | 2024-11-22 |   644 |    63 |       574 |  10.98 |
-|                                                    |            |  2063 |   246 |      3064 |  13.52 |
+|                                                    |            |  2115 |   252 |      3064 |   13.6 |
 
 #### Comments
 
@@ -421,10 +454,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BfJXT4bDfpQ/)       | 2018-02-13 |       |    75 |       286 |  26.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_612)  | 2018-02-13 |   171 |    14 |       131 |  10.69 |
-| [`ig`](https://instagram.com/p/DCpJqGDManq/)       | 2024-11-21 |   335 |    87 |      1483 |   5.87 |
+| [`ig`](https://instagram.com/p/DCpJqGDManq/)       | 2024-11-21 |   360 |    87 |      1483 |   5.87 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1913) | 2024-11-21 |   249 |    32 |      1008 |   3.17 |
 | [`tg`](https://t.me/mwscr/602)                     | 2024-11-21 |   443 |    55 |       573 |    9.6 |
-|                                                    |            |  1027 |   174 |      3064 |  11.11 |
+|                                                    |            |  1052 |   174 |      3064 |  11.11 |
 
 #### Comments
 
