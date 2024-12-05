@@ -53,7 +53,7 @@
     - service: tg
       id: 330
       published: 2024-02-28-19-19-34
-      updated: 2024-11-28-18-10-21
+      updated: 2024-12-05-19-01-23
       followers: 338
       likes: 74
       views: 615
@@ -2775,27 +2775,28 @@
     - service: vk
       id: 1930
       published: 2024-12-02-18-11-17
-      updated: 2024-12-04-18-11-11
+      updated: 2024-12-05-19-01-21
       followers: 1012
-      likes: 47
-      views: 238
+      likes: 48
+      views: 272
       reposts: 2
       comments: !c |-
-        G9wCACwOeBPrZDQ0sV5TTQvzx6Ln+3v0EV7Mn8kHiYQjmEkkkPGC1wIFqrSFilf2kNV/vBWQJRRI
-        QDXKLqC3/3ecb5zwfv5mxG3AsiUSYALzjdp/Yesm0IGfyBmdtc2YfQX/WhJxE8UXwVmkL5Rw+SR3
-        N3Xzsr+AHhsLMADbG7NsbI/jyPIwCktpAaXbPP4CXbqI0Bj0p6+Pv+xN58Javh+PRhARABxcEyqo
-        JhScR0nkNOo4OgTIxYPRRDEH5UDBSKTNL8ijAsFGhd8jYGPI46TwE6p8xKt4nm17RVgU/xfWzy1T
-        s4/Bfj6NOYPINvNCPnTnRuc3B2p6ak6Hvn+FcnzfPwvSTQQ3FAeq5zWvmHWt9fn8K5uWu5qgcBzH
-        PHPDhElG0sJ/liRO4YzBTeeZ3+s+d800X+ujrVr58fIBVV7PgVwhSeB4kgapPEwPp7CHRmIbn9ta
-        BFYK7EHB1UTKwZZyjLhCvR4DqUf9ZEEFAbCZDhOj2BpDk/7v7Z0JeGx//HXv2w43XDMG3qCNM9bL
-        Jz+8DNQQ0t9+4fGzQlHvXIiMI75elxQ4BbmBe0hx18jzw6/mAg==
+        G40DACwOeJPWYeTI1eWbZsIQ1mERxR++j/DwV5CShCNYu8W6xTpIa+J1liz2eK8FsgoVpEBj2gK6
+        l+Sy34Ur/O3h3n3SVQGWLbAowATm3b3a7y9rbKAJlkhGddCT3B1r5zh7yt82SSLyUlgM03jzf813
+        du+ADqtAPBPo21n0onk8HA10fmcLa7CZFdBUz+NzIFusQzCa+KcXt1+dA131bbuXtUVtQEQAcO5V
+        oU5GXKe6lIQeJqfiEJAUK4oqiklwHEhY8eTiL9PKAIGy0HEYAYsFGOlYoYERGjRT3e6FhUn/f9Fe
+        F5A6Y2YO59fZcyFiWSGRDxlyxbFzkcmT1agT98+IEsb9QZA8iBCE5EBjps1nin1r7W7rWw5DZyMu
+        wqCcyiCVi5lkpG74bwMnrkIZQ8L2yOfc/vt7pVVtzL5b48MXA5F5vQ7OlUEaaeODQbI4TF4+RWdQ
+        iHfLT21fAaYG8nDHjDiIBV3KKZK6MuOxKD7gTz5vgCxB8jBegiqBqf6/t+eAtnSfu0NP9O+cgiil
+        OaiRMfOFwXBMi7Aq+YBholYWKdP5WLISA+DxGvZjXyeeBSAkaW8ZqHbvLlQuNMXjsji6GvvDWdCe
+        F/tnxBu+GWvuYJZzjJ/3onD10gNZ1N9xtv2suqh3LkQ2I8yMqzpM20ssGvoANzEI/8YL
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
-      updated: 2024-12-04-18-11-11
+      updated: 2024-12-05-19-01-20
       followers: 575
-      likes: 60
-      views: 199
+      likes: 61
+      views: 232
       comments: !c |-
         G2kAUBSh0oeuecAP9EJhFRSJmYumB11xBk9gJgkbcOCQWTiADb6eAidsOVIidkyXL2qMXf5QAx5S
         UYYdW5wE4bhwnxtLJg6/V/vFvNZrywLgUA67fudGFgFshkXdS1IUZNKAC+/2wpLoWa9bpxg=
@@ -2830,24 +2831,24 @@
       id: DDIecdyOrDo
       mediaId: '18034818164099144'
       published: 2024-12-03-22-08-55
-      updated: 2024-12-05-18-09-43
+      updated: 2024-12-05-19-01-19
       followers: 1495
       likes: 83
-      views: 301
+      views: 303
     - service: vk
       id: 1937
       published: 2024-12-03-22-09-03
-      updated: 2024-12-05-18-09-43
+      updated: 2024-12-05-19-01-20
       followers: 1012
       likes: 28
       views: 219
     - service: tg
       id: 614
       published: 2024-12-03-22-09-13
-      updated: 2024-12-05-18-09-43
+      updated: 2024-12-05-19-01-20
       followers: 574
       likes: 46
-      views: 192
+      views: 200
 2024-12-04-flash-of-lightning:
   title: Flash of Lightning
   titleRu: Вспышка молнии
@@ -2870,25 +2871,25 @@
       id: DDKux6bBhNm
       mediaId: '18044993302914086'
       published: 2024-12-04-19-10-08
-      updated: 2024-12-05-18-09-42
+      updated: 2024-12-05-19-01-19
       followers: 1496
-      likes: 49
+      likes: 50
       views: 233
     - service: vk
       id: 1941
       published: 2024-12-04-19-10-14
-      updated: 2024-12-05-18-09-42
+      updated: 2024-12-05-19-01-19
       followers: 1013
       likes: 34
-      views: 187
+      views: 191
       reposts: 1
     - service: tg
       id: 615
       published: 2024-12-04-19-10-20
-      updated: 2024-12-05-18-09-42
+      updated: 2024-12-05-19-01-19
       followers: 574
       likes: 46
-      views: 215
+      views: 240
       comments: !c CxCAkZPLQnk5aAVMgACuZGlzbWFzdGVyZnJhbmWm4pqh77iPAw==
 2024-12-05-in-the-evening-at-census-and-excise-office:
   title: In the Evening at Census and Excise Office
@@ -2911,12 +2912,22 @@
       id: DDNMtF6vFOe
       mediaId: '18296388841226374'
       published: 2024-12-05-18-10-06
+      updated: 2024-12-05-19-01-18
       followers: 1499
+      likes: 27
+      views: 48
     - service: vk
       id: 1943
       published: 2024-12-05-18-10-12
+      updated: 2024-12-05-19-01-18
       followers: 1013
+      likes: 9
+      views: 35
+      reposts: 1
     - service: tg
       id: 616
       published: 2024-12-05-18-10-19
+      updated: 2024-12-05-19-01-19
       followers: 578
+      likes: 16
+      views: 81
