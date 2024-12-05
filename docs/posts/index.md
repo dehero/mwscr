@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`282 items`
+`283 items`
+
+## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
+
+`RU` Вечером у Имперской Канцелярии
+
+<a href="https://instagram.com/p/DDNMtF6vFOe/" title="2024-12-05-in-the-evening-at-census-and-excise-office"><img alt="store:/shots/2024-12-05-in-the-evening-at-census-and-excise-office.png" src="../../assets/previews/shots/2024-12-05-in-the-evening-at-census-and-excise-office.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2024-09-21-11-57-36.2.png](../../assets/previews/trash/dehero.2024-09-21-11-57-36.2.avif "dehero.2024-09-21-11-57-36.2")
+![store:/trash/dehero.2024-09-21-11-57-36.1.png](../../assets/previews/trash/dehero.2024-09-21-11-57-36.1.avif "dehero.2024-09-21-11-57-36.1")
+![store:/trash/dehero.2024-09-21-11-56-58.png](../../assets/previews/trash/dehero.2024-09-21-11-56-58.avif "dehero.2024-09-21-11-56-58")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Seyda Neen, Census and Excise Office` `🚀 OpenMW` `lantern` `night`
+
+```
+2024-12-05-in-the-evening-at-census-and-excise-office
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |      1499 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |      1013 |
+| [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |       578 |
+|                                                    |            |      3090 |
 
 ## <span id="2024-12-04-flash-of-lightning">Flash of Lightning</span>
 
@@ -34,10 +65,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDKux6bBhNm/)       | 2024-12-04 |   224 |    49 |      1496 |   3.28 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1941) | 2024-12-04 |   184 |    34 |      1013 |   3.46 |
-| [`tg`](https://t.me/mwscr/615)                     | 2024-12-04 |   207 |    46 |       574 |   8.01 |
-|                                                    |            |   615 |   129 |      3083 |   4.91 |
+| [`ig`](https://instagram.com/p/DDKux6bBhNm/)       | 2024-12-04 |   233 |    49 |      1496 |   3.28 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1941) | 2024-12-04 |   187 |    34 |      1013 |   3.46 |
+| [`tg`](https://t.me/mwscr/615)                     | 2024-12-04 |   215 |    46 |       574 |   8.01 |
+|                                                    |            |   635 |   129 |      3083 |   4.91 |
 
 #### Comments
 
@@ -74,10 +105,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDIecdyOrDo/)       | 2024-12-03 |   300 |    83 |      1495 |   5.55 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1937) | 2024-12-03 |   216 |    28 |      1012 |   2.77 |
-| [`tg`](https://t.me/mwscr/614)                     | 2024-12-03 |   191 |    46 |       574 |   8.01 |
-|                                                    |            |   707 |   157 |      3081 |   5.44 |
+| [`ig`](https://instagram.com/p/DDIecdyOrDo/)       | 2024-12-03 |   301 |    83 |      1495 |   5.55 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1937) | 2024-12-03 |   219 |    28 |      1012 |   2.77 |
+| [`tg`](https://t.me/mwscr/614)                     | 2024-12-03 |   192 |    46 |       574 |   8.01 |
+|                                                    |            |   712 |   157 |      3081 |   5.44 |
 
 ## <span id="2024-12-02-top-post">Top Post</span>
 
@@ -145,10 +176,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BiaBvL9hQx_/)       | 2018-05-05 |       |    95 |       326 |  29.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_709)  | 2018-05-05 |   270 |    21 |       157 |  13.38 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1928) | 2024-12-01 |   286 |    38 |      1012 |   4.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1928) | 2024-12-01 |   301 |    41 |      1012 |   4.35 |
 | [`tg`](https://t.me/mwscr/612)                     | 2024-12-01 |   210 |    58 |       576 |  10.07 |
 | [`ig`](https://instagram.com/p/DDGK86wO8YJ/)       | 2024-12-03 |   466 |   113 |      1493 |   7.57 |
-|                                                    |            |   962 |   209 |      3081 |  12.84 |
+|                                                    |            |   977 |   212 |      3081 |   12.9 |
 
 #### Comments
 

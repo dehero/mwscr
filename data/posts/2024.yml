@@ -2830,24 +2830,24 @@
       id: DDIecdyOrDo
       mediaId: '18034818164099144'
       published: 2024-12-03-22-08-55
-      updated: 2024-12-05-17-07-23
+      updated: 2024-12-05-18-09-43
       followers: 1495
       likes: 83
-      views: 300
+      views: 301
     - service: vk
       id: 1937
       published: 2024-12-03-22-09-03
-      updated: 2024-12-05-17-07-22
+      updated: 2024-12-05-18-09-43
       followers: 1012
       likes: 28
-      views: 216
+      views: 219
     - service: tg
       id: 614
       published: 2024-12-03-22-09-13
-      updated: 2024-12-05-17-07-22
+      updated: 2024-12-05-18-09-43
       followers: 574
       likes: 46
-      views: 191
+      views: 192
 2024-12-04-flash-of-lightning:
   title: Flash of Lightning
   titleRu: Вспышка молнии
@@ -2870,23 +2870,53 @@
       id: DDKux6bBhNm
       mediaId: '18044993302914086'
       published: 2024-12-04-19-10-08
-      updated: 2024-12-05-17-07-22
+      updated: 2024-12-05-18-09-42
       followers: 1496
       likes: 49
-      views: 224
+      views: 233
     - service: vk
       id: 1941
       published: 2024-12-04-19-10-14
-      updated: 2024-12-05-17-07-22
+      updated: 2024-12-05-18-09-42
       followers: 1013
       likes: 34
-      views: 184
+      views: 187
       reposts: 1
     - service: tg
       id: 615
       published: 2024-12-04-19-10-20
-      updated: 2024-12-05-17-07-22
+      updated: 2024-12-05-18-09-42
       followers: 574
       likes: 46
-      views: 207
+      views: 215
       comments: !c CxCAkZPLQnk5aAVMgACuZGlzbWFzdGVyZnJhbmWm4pqh77iPAw==
+2024-12-05-in-the-evening-at-census-and-excise-office:
+  title: In the Evening at Census and Excise Office
+  titleRu: Вечером у Имперской Канцелярии
+  location: Seyda Neen, Census and Excise Office
+  content: store:/shots/2024-12-05-in-the-evening-at-census-and-excise-office.png
+  trash:
+    - store:/trash/dehero.2024-09-21-11-57-36.2.png
+    - store:/trash/dehero.2024-09-21-11-57-36.1.png
+    - store:/trash/dehero.2024-09-21-11-56-58.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - lantern
+    - night
+  mark: A2
+  posts:
+    - service: ig
+      id: DDNMtF6vFOe
+      mediaId: '18296388841226374'
+      published: 2024-12-05-18-10-06
+      followers: 1499
+    - service: vk
+      id: 1943
+      published: 2024-12-05-18-10-12
+      followers: 1013
+    - service: tg
+      id: 616
+      published: 2024-12-05-18-10-19
+      followers: 578
