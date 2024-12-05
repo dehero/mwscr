@@ -1788,14 +1788,14 @@
     - service: vk
       id: 1533
       published: 2024-05-15-18-18-32
-      updated: 2024-11-28-11-07-16
+      updated: 2024-12-05-11-07-36
       followers: 915
       likes: 39
       views: 257
     - service: tg
       id: 409
       published: 2024-05-15-18-18-39
-      updated: 2024-11-28-11-07-14
+      updated: 2024-12-05-11-07-35
       followers: 370
       likes: 57
       views: 462
@@ -2184,10 +2184,10 @@
     - service: vk
       id: 1579
       published: 2024-06-12-18-20-23
-      updated: 2024-11-28-11-07-12
+      updated: 2024-12-05-11-07-33
       followers: 915
       likes: 35
-      views: 286
+      views: 288
       comments: !c |-
         G6QA+J0Hto1t61goNPZjtMioiFuEnzaBSZNwRMmezq20pPkCdyJy3cagPbuvEahLIog8xuYmwllT
         KyKQSTJpSrY5Rx36vH9W9DWP42ME1tGajxFQT4MUfW7vwetbgOiTAg6YYje2SBGFRm+UZinHBpmR
@@ -2195,7 +2195,7 @@
     - service: tg
       id: 437
       published: 2024-06-12-18-20-29
-      updated: 2024-11-28-11-07-12
+      updated: 2024-12-05-11-07-32
       followers: 384
       likes: 54
       views: 467
@@ -2830,24 +2830,24 @@
       id: DDIecdyOrDo
       mediaId: '18034818164099144'
       published: 2024-12-03-22-08-55
-      updated: 2024-12-05-10-09-19
+      updated: 2024-12-05-11-07-30
       followers: 1495
-      likes: 79
-      views: 292
+      likes: 80
+      views: 293
     - service: vk
       id: 1937
       published: 2024-12-03-22-09-03
-      updated: 2024-12-05-10-09-20
+      updated: 2024-12-05-11-07-30
       followers: 1012
       likes: 28
-      views: 201
+      views: 202
     - service: tg
       id: 614
       published: 2024-12-03-22-09-13
-      updated: 2024-12-05-10-09-20
+      updated: 2024-12-05-11-07-30
       followers: 574
       likes: 44
-      views: 187
+      views: 188
 2024-12-04-flash-of-lightning:
   title: Flash of Lightning
   titleRu: Вспышка молнии
@@ -2870,22 +2870,23 @@
       id: DDKux6bBhNm
       mediaId: '18044993302914086'
       published: 2024-12-04-19-10-08
-      updated: 2024-12-05-10-09-19
+      updated: 2024-12-05-11-07-29
       followers: 1496
-      likes: 45
-      views: 195
+      likes: 46
+      views: 198
     - service: vk
       id: 1941
       published: 2024-12-04-19-10-14
-      updated: 2024-12-05-10-09-20
+      updated: 2024-12-05-11-07-29
       followers: 1013
-      likes: 30
-      views: 149
+      likes: 31
+      views: 156
       reposts: 1
     - service: tg
       id: 615
       published: 2024-12-04-19-10-20
-      updated: 2024-12-05-10-09-20
+      updated: 2024-12-05-11-07-29
       followers: 574
-      likes: 42
-      views: 182
+      likes: 43
+      views: 189
+      comments: !c CxCAkZPLQnk5aAVMgACuZGlzbWFzdGVyZnJhbmWm4pqh77iPAw==
