@@ -34,7 +34,7 @@
     - service: vk
       id: 1420
       published: 2024-02-28-19-19-28
-      updated: 2024-11-28-17-01-19
+      updated: 2024-12-05-17-07-25
       followers: 894
       likes: 40
       views: 323
@@ -1357,7 +1357,7 @@
     - service: tg
       id: 388
       published: 2024-04-24-18-17-38
-      updated: 2024-11-28-17-01-18
+      updated: 2024-12-05-17-07-24
       followers: 354
       likes: 65
       views: 502
@@ -2830,24 +2830,24 @@
       id: DDIecdyOrDo
       mediaId: '18034818164099144'
       published: 2024-12-03-22-08-55
-      updated: 2024-12-05-16-10-09
+      updated: 2024-12-05-17-07-23
       followers: 1495
-      likes: 81
-      views: 299
+      likes: 83
+      views: 300
     - service: vk
       id: 1937
       published: 2024-12-03-22-09-03
-      updated: 2024-12-05-16-10-09
+      updated: 2024-12-05-17-07-22
       followers: 1012
       likes: 28
-      views: 215
+      views: 216
     - service: tg
       id: 614
       published: 2024-12-03-22-09-13
-      updated: 2024-12-05-16-10-09
+      updated: 2024-12-05-17-07-22
       followers: 574
-      likes: 45
-      views: 190
+      likes: 46
+      views: 191
 2024-12-04-flash-of-lightning:
   title: Flash of Lightning
   titleRu: Вспышка молнии
@@ -2870,14 +2870,14 @@
       id: DDKux6bBhNm
       mediaId: '18044993302914086'
       published: 2024-12-04-19-10-08
-      updated: 2024-12-05-16-10-08
+      updated: 2024-12-05-17-07-22
       followers: 1496
-      likes: 48
-      views: 220
+      likes: 49
+      views: 224
     - service: vk
       id: 1941
       published: 2024-12-04-19-10-14
-      updated: 2024-12-05-16-10-08
+      updated: 2024-12-05-17-07-22
       followers: 1013
       likes: 34
       views: 184
@@ -2885,8 +2885,8 @@
     - service: tg
       id: 615
       published: 2024-12-04-19-10-20
-      updated: 2024-12-05-16-10-08
+      updated: 2024-12-05-17-07-22
       followers: 574
-      likes: 45
-      views: 201
+      likes: 46
+      views: 207
       comments: !c CxCAkZPLQnk5aAVMgACuZGlzbWFzdGVyZnJhbmWm4pqh77iPAw==
