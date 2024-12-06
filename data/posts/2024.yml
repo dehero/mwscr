@@ -2776,11 +2776,11 @@
     - service: vk
       id: 1930
       published: 2024-12-02-18-11-17
-      updated: 2024-12-05-19-01-21
+      updated: 2024-12-06-20-09-25
       followers: 1012
-      likes: 48
-      views: 272
-      reposts: 2
+      likes: 50
+      views: 299
+      reposts: 3
       comments: !c |-
         G40DACwOeJPWYeTI1eWbZsIQ1mERxR++j/DwV5CShCNYu8W6xTpIa+J1liz2eK8FsgoVpEBj2gK6
         l+Sy34Ur/O3h3n3SVQGWLbAowATm3b3a7y9rbKAJlkhGddCT3B1r5zh7yt82SSLyUlgM03jzf813
@@ -2913,25 +2913,25 @@
       id: DDNMtF6vFOe
       mediaId: '18296388841226374'
       published: 2024-12-05-18-10-06
-      updated: 2024-12-06-19-01-22
+      updated: 2024-12-06-20-09-26
       followers: 1499
-      likes: 94
-      views: 344
+      likes: 96
+      views: 347
     - service: vk
       id: 1943
       published: 2024-12-05-18-10-12
-      updated: 2024-12-06-19-01-21
+      updated: 2024-12-06-20-09-24
       followers: 1013
       likes: 51
-      views: 257
+      views: 262
       reposts: 4
     - service: tg
       id: 616
       published: 2024-12-05-18-10-19
-      updated: 2024-12-06-19-01-22
+      updated: 2024-12-06-20-09-25
       followers: 578
-      likes: 59
-      views: 200
+      likes: 60
+      views: 202
 2024-12-06-tel-naga-great-hall:
   title: Tel Naga Great Hall
   titleRu: Большой Зал Тель Наги
@@ -2951,18 +2951,22 @@
       id: DDPxpdZJRqI
       mediaId: '18025342202624685'
       published: 2024-12-06-18-11-24
-      updated: 2024-12-06-19-01-21
+      updated: 2024-12-06-20-09-24
       followers: 1499
-      likes: 20
-      views: 53
+      likes: 33
+      views: 98
     - service: tg
       id: 617
       published: 2024-12-06-18-11-36
-      updated: 2024-12-06-19-01-21
+      updated: 2024-12-06-20-09-24
       followers: 578
-      likes: 19
-      views: 65
+      likes: 27
+      views: 86
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
+      updated: 2024-12-06-20-09-24
       followers: 1013
+      likes: 7
+      views: 51
+      reposts: 1
