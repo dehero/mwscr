@@ -63,17 +63,6 @@ Likes: 238
 irina-bystritskaya
 ```
 
-### 3акром
-
-[Telegram](https://t.me/taletale)
-
-Roles: `author` `beginner`  
-Authored: 1 pending  
-
-```
-3akrom
-```
-
 ## Requesters
 
 ### buck-the-cuck
@@ -152,6 +141,17 @@ Authored: 4 rejected
 
 ```
 vladyslav-zhuk
+```
+
+### 3акром
+
+[Telegram](https://t.me/taletale)
+
+Roles: `beginner`  
+Authored: 1 rejected  
+
+```
+3akrom
 ```
 
 ### RemmLah

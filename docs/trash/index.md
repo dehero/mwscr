@@ -4,7 +4,7 @@
 
 # Trash for 2024
 
-`41 items`
+`42 items`
 
 ## <span id="vladyslav-zhuk.2024-05-20-d3c543d1">vladyslav-zhuk.2024-05-20-d3c543d1</span>
 
@@ -560,6 +560,21 @@ dehero.2024-02-05-00-07-59
 
 ```
 dehero.2024-02-05-00-03-32
+```
+
+## <span id="3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e">Screenshot -23-08-11-581 Is.Docent27.Omw 01 Edited</span>
+
+![store:/trash/3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e.png](../../assets/previews/trash/3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e.avif "3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e")
+
+`shot` by [3акром](../contributors.md#3akrom)
+
+> [!CAUTION]
+> [object Object].
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e&amp;postContent=store%3A%2Ftrash%2F3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e.png&amp;postTitle=Screenshot+-23-08-11-581+Is.Docent27.Omw+01+Edited&amp;postTitleRu=&amp;postAuthor=3akrom&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=jpeg-artifacts&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e&postLocation=)</code>
+
+```
+3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e
 ```
 
 ---

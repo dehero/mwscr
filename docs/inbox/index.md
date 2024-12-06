@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`20 items`
+`19 items`
 
 ## <span id="natty.2024-03-28-20-45-29">natty.2024-03-28-20-45-29</span>
 
@@ -307,21 +307,6 @@ dehero.2024-02-17-10-41-10
 
 ```
 dehero.2024-02-05-00-02-12
-```
-
-## <span id="3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e">Screenshot -23-08-11-581 Is.Docent27.Omw 01 Edited</span>
-
-![store:/inbox/3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e.png](../../assets/previews/inbox/3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e.avif "3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e")
-
-`shot` by [3акром](../contributors.md#3akrom)
-
-> [!WARNING]
-> Need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e&amp;postContent=store%3A%2Finbox%2F3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e.png&amp;postTitle=Screenshot+-23-08-11-581+Is.Docent27.Omw+01+Edited&amp;postTitleRu=&amp;postAuthor=3akrom&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e&postLocation=)</code>
-
-```
-3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e
 ```
 
 ---
