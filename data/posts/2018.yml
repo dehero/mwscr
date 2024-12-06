@@ -452,10 +452,10 @@
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2024-11-29-03-24-45
+      updated: 2024-12-06-03-26-41
       followers: 399
       likes: 72
-      views: 652
+      views: 654
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -8356,10 +8356,10 @@
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2024-11-29-03-24-47
+      updated: 2024-12-06-03-26-42
       followers: 927
       likes: 37
-      views: 328
+      views: 329
       reposts: 2
       comments: !c |-
         CyKAkZPLQnkTND+3gACxY2xpZmZyYWNlcnNraWxsZXLZJtCl0L7RgNC60LXRgDog0LzRj9C90Y8g
@@ -8367,10 +8367,10 @@
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2024-11-29-03-24-44
+      updated: 2024-12-06-03-26-40
       followers: 508
       likes: 66
-      views: 614
+      views: 616
       comments: !c CxKAkZPLQnkT2JKcgACpZWx2ZW5qaWlnr3dhbm5hIGxpdmUgaGVyZQM=
 2018-08-29-darius:
   title: Darius
@@ -9932,20 +9932,20 @@
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2024-11-29-03-24-46
+      updated: 2024-12-06-03-26-41
       followers: 932
       likes: 36
-      views: 315
+      views: 317
       comments: !c |-
         iyeAkZTLQnkVdl1GgACyeW91cmVuZW1pZXN3aWxscGF5u9Ci0LDQvCDQutC70LDQvSDQkdC10YDQ
         vdC1P5PLQnkVy9vAAACmcDQwamxhpNC00LAD
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2024-11-29-03-24-43
+      updated: 2024-12-06-03-26-40
       followers: 527
       likes: 60
-      views: 632
+      views: 636
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
