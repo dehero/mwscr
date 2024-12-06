@@ -126,7 +126,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-12-02-top-post&postLocation=)</code> `🚀 OpenMW` `ship` `tower` `bottle` `evening`
+`A2` `📍 Ald Velothi` `🚀 OpenMW` `ship` `tower` `bottle` `evening`
 
 ```
 2024-12-02-top-post
