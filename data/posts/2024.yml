@@ -2872,22 +2872,22 @@
       id: DDKux6bBhNm
       mediaId: '18044993302914086'
       published: 2024-12-04-19-10-08
-      updated: 2024-12-06-17-07-31
+      updated: 2024-12-06-18-11-00
       followers: 1496
-      likes: 57
-      views: 265
+      likes: 59
+      views: 267
     - service: vk
       id: 1941
       published: 2024-12-04-19-10-14
-      updated: 2024-12-06-17-07-30
+      updated: 2024-12-06-18-11-00
       followers: 1013
-      likes: 43
-      views: 239
+      likes: 44
+      views: 242
       reposts: 1
     - service: tg
       id: 615
       published: 2024-12-04-19-10-20
-      updated: 2024-12-06-17-07-30
+      updated: 2024-12-06-18-11-00
       followers: 574
       likes: 53
       views: 270
@@ -2913,22 +2913,46 @@
       id: DDNMtF6vFOe
       mediaId: '18296388841226374'
       published: 2024-12-05-18-10-06
-      updated: 2024-12-06-17-07-30
+      updated: 2024-12-06-18-10-59
       followers: 1499
-      likes: 93
-      views: 335
+      likes: 94
+      views: 340
     - service: vk
       id: 1943
       published: 2024-12-05-18-10-12
-      updated: 2024-12-06-17-07-29
+      updated: 2024-12-06-18-10-59
       followers: 1013
-      likes: 50
-      views: 249
+      likes: 51
+      views: 252
       reposts: 4
     - service: tg
       id: 616
       published: 2024-12-05-18-10-19
-      updated: 2024-12-06-17-07-29
+      updated: 2024-12-06-18-10-59
       followers: 578
       likes: 56
       views: 185
+2024-12-06-tel-naga-great-hall:
+  title: Tel Naga Great Hall
+  titleRu: Большой Зал Тель Наги
+  location: Sadrith Mora, Tel Naga Great Hall
+  content: store:/shots/2024-12-06-tel-naga-great-hall.png
+  trash:
+    - store:/trash/natty.2024-03-10-18-07-39.png
+    - store:/trash/natty.2024-03-10-18-07-12.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - stair
+  mark: B1
+  posts:
+    - service: ig
+      id: DDPxpdZJRqI
+      mediaId: '18025342202624685'
+      published: 2024-12-06-18-11-24
+      followers: 1499
+    - service: tg
+      id: 617
+      published: 2024-12-06-18-11-36
+      followers: 578

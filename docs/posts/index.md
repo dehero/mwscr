@@ -4,7 +4,36 @@
 
 # Posted in 2024
 
-`283 items`
+`284 items`
+
+## <span id="2024-12-06-tel-naga-great-hall">Tel Naga Great Hall</span>
+
+`RU` Большой Зал Тель Наги
+
+<a href="https://instagram.com/p/DDPxpdZJRqI/" title="2024-12-06-tel-naga-great-hall"><img alt="store:/shots/2024-12-06-tel-naga-great-hall.png" src="../../assets/previews/shots/2024-12-06-tel-naga-great-hall.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/natty.2024-03-10-18-07-39.png](../../assets/previews/trash/natty.2024-03-10-18-07-39.avif "natty.2024-03-10-18-07-39")
+![store:/trash/natty.2024-03-10-18-07-12.png](../../assets/previews/trash/natty.2024-03-10-18-07-12.avif "natty.2024-03-10-18-07-12")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B1` `📍 Sadrith Mora, Tel Naga Great Hall` `🚀 OpenMW` `stair`
+
+```
+2024-12-06-tel-naga-great-hall
+```
+
+### Reactions
+
+|                                              | published  | followers |
+|----------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DDPxpdZJRqI/) | 2024-12-06 |      1499 |
+| [`tg`](https://t.me/mwscr/617)               | 2024-12-06 |       578 |
+|                                              |            |      2077 |
 
 ## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
 
@@ -32,10 +61,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   335 |    93 |      1499 |    6.2 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   249 |    50 |      1013 |   5.33 |
+| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   340 |    94 |      1499 |   6.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   252 |    51 |      1013 |   5.43 |
 | [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |   185 |    56 |       578 |   9.69 |
-|                                                    |            |   769 |   199 |      3090 |   7.07 |
+|                                                    |            |   777 |   201 |      3090 |   7.13 |
 
 ## <span id="2024-12-04-flash-of-lightning">Flash of Lightning</span>
 
@@ -65,10 +94,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDKux6bBhNm/)       | 2024-12-04 |   265 |    57 |      1496 |   3.81 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1941) | 2024-12-04 |   239 |    43 |      1013 |   4.34 |
+| [`ig`](https://instagram.com/p/DDKux6bBhNm/)       | 2024-12-04 |   267 |    59 |      1496 |   3.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1941) | 2024-12-04 |   242 |    44 |      1013 |   4.44 |
 | [`tg`](https://t.me/mwscr/615)                     | 2024-12-04 |   270 |    53 |       574 |   9.23 |
-|                                                    |            |   774 |   153 |      3083 |    5.8 |
+|                                                    |            |   779 |   156 |      3083 |   5.87 |
 
 #### Comments
 
@@ -177,10 +206,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BiaBvL9hQx_/)       | 2018-05-05 |       |    95 |       326 |  29.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_709)  | 2018-05-05 |   270 |    21 |       157 |  13.38 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1928) | 2024-12-01 |   301 |    41 |      1012 |   4.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1928) | 2024-12-01 |   310 |    41 |      1012 |   4.35 |
 | [`tg`](https://t.me/mwscr/612)                     | 2024-12-01 |   343 |    61 |       576 |  10.59 |
 | [`ig`](https://instagram.com/p/DDGK86wO8YJ/)       | 2024-12-03 |   500 |   123 |      1493 |   8.24 |
-|                                                    |            |  1144 |   225 |      3081 |  13.14 |
+|                                                    |            |  1153 |   225 |      3081 |  13.14 |
 
 #### Comments
 
