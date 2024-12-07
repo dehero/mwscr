@@ -31,10 +31,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   265 |    72 |      1499 |    4.8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   163 |    23 |      1013 |   2.47 |
-| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   137 |    41 |       578 |   7.09 |
-|                                                    |            |   565 |   136 |      3090 |   4.79 |
+| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   272 |    74 |      1499 |   4.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   173 |    23 |      1013 |   2.47 |
+| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   138 |    41 |       578 |   7.09 |
+|                                                    |            |   583 |   138 |      3090 |   4.83 |
 
 ## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
 
@@ -62,10 +62,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   370 |    98 |      1499 |   6.54 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   285 |    52 |      1013 |   5.53 |
-| [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |   218 |    64 |       578 |  11.07 |
-|                                                    |            |   873 |   214 |      3090 |   7.71 |
+| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   373 |    98 |      1499 |   6.54 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   286 |    52 |      1013 |   5.53 |
+| [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |   219 |    64 |       578 |  11.07 |
+|                                                    |            |   878 |   214 |      3090 |   7.71 |
 
 #### Comments
 
