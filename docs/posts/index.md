@@ -31,10 +31,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   243 |    67 |      1499 |   4.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   132 |    17 |      1013 |   1.88 |
-| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   124 |    38 |       578 |   6.57 |
-|                                                    |            |   499 |   122 |      3090 |   4.31 |
+| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   248 |    69 |      1499 |    4.6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   144 |    18 |      1013 |   1.97 |
+| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   132 |    41 |       578 |   7.09 |
+|                                                    |            |   524 |   128 |      3090 |   4.56 |
 
 ## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
 
@@ -62,10 +62,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   364 |    97 |      1499 |   6.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   278 |    51 |      1013 |   5.43 |
+| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   366 |    98 |      1499 |   6.54 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   282 |    51 |      1013 |   5.43 |
 | [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |   217 |    64 |       578 |  11.07 |
-|                                                    |            |   859 |   212 |      3090 |   7.66 |
+|                                                    |            |   865 |   213 |      3090 |   7.68 |
 
 ## <span id="2024-12-04-flash-of-lightning">Flash of Lightning</span>
 
