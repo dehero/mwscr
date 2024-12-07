@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 964 posted, 13 pending, 66 rejected  
 Requested: 6 pending  
-Likes: 160526  
+Likes: 160592  
 
 ```
 dehero
@@ -21,7 +21,7 @@ dehero
 
 Roles: `author`  
 Authored: 34 posted, 12 pending, 21 rejected  
-Likes: 6664  
+Likes: 6669  
 
 ```
 natty
@@ -259,6 +259,16 @@ Roles: `foreigner`
 
 ```
 oleh
+```
+
+### ᅠ ᅠ
+
+[Telegram](https://t.me/psyangst)
+
+Roles: `foreigner`  
+
+```
+psyangst
 ```
 
 ### Spicebag
