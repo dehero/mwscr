@@ -31,10 +31,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   160 |    46 |      1499 |   3.07 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |    83 |    10 |      1013 |   1.09 |
-| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   106 |    33 |       578 |   5.71 |
-|                                                    |            |   349 |    89 |      3090 |   3.29 |
+| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   180 |    54 |      1499 |    3.6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |    94 |    11 |      1013 |   1.18 |
+| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   108 |    33 |       578 |   5.71 |
+|                                                    |            |   382 |    98 |      3090 |    3.5 |
 
 ## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
 
@@ -62,10 +62,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   351 |    96 |      1499 |    6.4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   271 |    51 |      1013 |   5.43 |
+| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   352 |    96 |      1499 |    6.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   274 |    51 |      1013 |   5.43 |
 | [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |   208 |    61 |       578 |  10.55 |
-|                                                    |            |   830 |   208 |      3090 |   7.46 |
+|                                                    |            |   834 |   208 |      3090 |   7.46 |
 
 ## <span id="2024-12-04-flash-of-lightning">Flash of Lightning</span>
 
@@ -1618,8 +1618,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_262)  | 2017-04-18 |   157 |     7 |        52 |  13.46 |
 | [`ig`](https://instagram.com/p/DBRml27BKnW/)       | 2024-10-18 |   907 |   151 |      1472 |  10.26 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1842) | 2024-10-18 |   401 |    49 |       965 |   5.28 |
-| [`tg`](https://t.me/mwscr/568)                     | 2024-10-18 |   581 |    68 |       561 |  12.12 |
-|                                                    |            |  1889 |   268 |      2998 |  16.36 |
+| [`tg`](https://t.me/mwscr/568)                     | 2024-10-18 |   592 |    68 |       561 |  12.12 |
+|                                                    |            |  1900 |   268 |      2998 |  16.36 |
 
 #### Comments
 
@@ -1845,9 +1845,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1025) | 2018-11-02 |   466 |    29 |       279 |  10.39 |
 | [`tg`](https://t.me/mwscr/109)                     | 2018-11-02 |   279 |     2 |           |        |
 | [`ig`](https://instagram.com/p/DA_k7_pzzWs/)       | 2024-10-11 |   380 |    89 |      1462 |   6.09 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1819) | 2024-10-11 |   319 |    30 |       961 |   3.12 |
-| [`tg`](https://t.me/mwscr/561)                     | 2024-10-11 |   457 |    55 |       558 |   9.86 |
-|                                                    |            |  1156 |   174 |      2981 |   9.61 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1819) | 2024-10-11 |   320 |    30 |       961 |   3.12 |
+| [`tg`](https://t.me/mwscr/561)                     | 2024-10-11 |   464 |    55 |       558 |   9.86 |
+|                                                    |            |  1164 |   174 |      2981 |   9.61 |
 
 ## <span id="2024-10-10-night-patrol">Night Patrol</span>
 
