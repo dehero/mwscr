@@ -4507,10 +4507,10 @@
     - service: tg
       id: 612
       published: 2024-12-01-18-09-57
-      updated: 2024-12-06-20-09-25
+      updated: 2024-12-07-21-02-12
       followers: 576
       likes: 61
-      views: 379
+      views: 395
     - service: ig
       id: DDGK86wO8YJ
       mediaId: '18296802376229812'
@@ -9002,10 +9002,10 @@
     - service: vk
       id: 1916
       published: 2024-11-23-18-10-28
-      updated: 2024-11-30-21-01-56
+      updated: 2024-12-07-21-02-16
       followers: 1008
-      likes: 36
-      views: 291
+      likes: 37
+      views: 304
       reposts: 1
       comments: !c |-
         G4kA+C0SbNsJb8cJbulDs+RE8f0twqe/STHJsEkwwmQvJxuGltY7/ikD9WRyFpuo/RQbI0aZI5Od
@@ -9013,10 +9013,10 @@
     - service: tg
       id: 604
       published: 2024-11-23-18-10-35
-      updated: 2024-11-30-21-01-55
+      updated: 2024-12-07-21-02-13
       followers: 575
       likes: 59
-      views: 395
+      views: 495
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище

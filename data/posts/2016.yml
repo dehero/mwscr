@@ -582,10 +582,10 @@
     - service: vk
       id: 1896
       published: 2024-11-16-18-09-40
-      updated: 2024-11-30-20-08-02
+      updated: 2024-12-07-21-02-16
       followers: 1007
-      likes: 50
-      views: 365
+      likes: 51
+      views: 374
       reposts: 2
       comments: !c |-
         G1UBgJwHts1oOxxr9Nb2HTJCpRNPf6PPCb3JmilIk4wTC7zEbuaO4GSfqtuNsAhFiCcpW5sPxjpw
@@ -596,10 +596,10 @@
     - service: tg
       id: 597
       published: 2024-11-16-18-09-47
-      updated: 2024-11-30-20-08-02
+      updated: 2024-12-07-21-02-14
       followers: 573
-      likes: 65
-      views: 567
+      likes: 67
+      views: 610
 2016-12-01-arvs-drelen:
   title: Arvs-Drelen
   titleRu: Арвс-Дрелен
