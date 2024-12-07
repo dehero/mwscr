@@ -31,10 +31,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   293 |    80 |      1499 |   5.34 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   192 |    25 |      1013 |   2.67 |
-| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   139 |    41 |       578 |   7.09 |
-|                                                    |            |   624 |   146 |      3090 |   5.03 |
+| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   299 |    80 |      1499 |   5.34 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   195 |    25 |      1013 |   2.67 |
+| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   140 |    41 |       578 |   7.09 |
+|                                                    |            |   634 |   146 |      3090 |   5.03 |
 
 ## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
 
@@ -62,10 +62,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   380 |    98 |      1499 |   6.54 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   291 |    52 |      1013 |   5.53 |
+| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   381 |    99 |      1499 |    6.6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   293 |    52 |      1013 |   5.53 |
 | [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |   219 |    64 |       578 |  11.07 |
-|                                                    |            |   890 |   214 |      3090 |   7.71 |
+|                                                    |            |   893 |   215 |      3090 |   7.74 |
 
 #### Comments
 
