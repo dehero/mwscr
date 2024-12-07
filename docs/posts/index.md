@@ -31,10 +31,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   229 |    65 |      1499 |   4.34 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   116 |    16 |      1013 |   1.78 |
-| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   117 |    36 |       578 |   6.23 |
-|                                                    |            |   462 |   117 |      3090 |   4.11 |
+| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   235 |    66 |      1499 |    4.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   122 |    17 |      1013 |   1.88 |
+| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   120 |    36 |       578 |   6.23 |
+|                                                    |            |   477 |   119 |      3090 |   4.17 |
 
 ## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
 
@@ -62,10 +62,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   362 |    97 |      1499 |   6.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   277 |    51 |      1013 |   5.43 |
-| [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |   211 |    62 |       578 |  10.73 |
-|                                                    |            |   850 |   210 |      3090 |   7.54 |
+| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   364 |    97 |      1499 |   6.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   278 |    51 |      1013 |   5.43 |
+| [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |   214 |    62 |       578 |  10.73 |
+|                                                    |            |   856 |   210 |      3090 |   7.54 |
 
 ## <span id="2024-12-04-flash-of-lightning">Flash of Lightning</span>
 
@@ -3637,9 +3637,9 @@
 | [`tg`](https://t.me/mwscr/76)                      | 2018-10-12 |   220 |     4 |           |        |
 | [`ig`](https://instagram.com/p/Bo3QUg6hyFQ/)       | 2018-10-13 |       |   131 |       443 |  29.57 |
 | [`ig`](https://instagram.com/p/C-vZmm-zwsc/)       | 2024-08-16 |   484 |   148 |      1440 |  10.28 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1693) | 2024-08-16 |   284 |    46 |       933 |   4.93 |
-| [`tg`](https://t.me/mwscr/503)                     | 2024-08-16 |   651 |    67 |       527 |  12.71 |
-|                                                    |            |  1419 |   261 |      2900 |  15.18 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1693) | 2024-08-16 |   285 |    46 |       933 |   4.93 |
+| [`tg`](https://t.me/mwscr/503)                     | 2024-08-16 |   655 |    67 |       527 |  12.71 |
+|                                                    |            |  1424 |   261 |      2900 |  15.18 |
 
 #### Comments
 
@@ -3873,9 +3873,9 @@
 | [`ig`](https://instagram.com/p/BhezsallGko/)       | 2018-04-12 |       |    81 |       315 |  25.71 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_686)  | 2018-04-12 |   210 |    15 |       150 |     10 |
 | [`ig`](https://instagram.com/p/C-dYCEEz5hV/)       | 2024-08-09 |   387 |    84 |      1437 |   5.85 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1683) | 2024-08-09 |   282 |    33 |       927 |   3.67 |
-| [`tg`](https://t.me/mwscr/496)                     | 2024-08-09 |   635 |    72 |       513 |  14.04 |
-|                                                    |            |  1304 |   189 |      2877 |  11.85 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1683) | 2024-08-09 |   283 |    33 |       927 |   3.67 |
+| [`tg`](https://t.me/mwscr/496)                     | 2024-08-09 |   637 |    72 |       513 |  14.04 |
+|                                                    |            |  1307 |   189 |      2877 |  11.85 |
 
 ## <span id="2024-08-08-southern-shore-of-northern-land">Southern Shore of Northern Land</span>
 
@@ -4103,9 +4103,9 @@
 | [`ig`](https://instagram.com/p/BYsmppVj_HI/)       | 2017-09-06 |       |    69 |       202 |  34.16 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_419)  | 2017-09-06 |   235 |    10 |        79 |  12.66 |
 | [`ig`](https://instagram.com/p/C-LWdiVhvTs/)       | 2024-08-02 |   361 |    99 |      1434 |    6.9 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |   315 |    45 |       925 |   4.97 |
-| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |   687 |    66 |       428 |  15.42 |
-|                                                    |            |  1363 |   210 |      2787 |  14.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1664) | 2024-08-02 |   316 |    45 |       925 |   4.97 |
+| [`tg`](https://t.me/mwscr/488)                     | 2024-08-02 |   689 |    66 |       428 |  15.42 |
+|                                                    |            |  1366 |   210 |      2787 |  14.82 |
 
 #### Comments
 
@@ -4548,9 +4548,9 @@
 | [`ig`](https://instagram.com/p/BNYupn2lJSA/)       | 2016-11-29 |       |    15 |        22 |     15 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_16)   | 2017-01-22 |    54 |     1 |         4 |      1 |
 | [`ig`](https://instagram.com/p/C9nTZbKNLvv/)       | 2024-07-19 |   541 |    98 |      1427 |   6.87 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1644) | 2024-07-19 |   336 |    49 |       919 |   5.44 |
-| [`tg`](https://t.me/mwscr/474)                     | 2024-07-19 |   568 |    62 |       400 |   15.5 |
-|                                                    |            |  1445 |   209 |      2746 |   8.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1644) | 2024-07-19 |   337 |    49 |       919 |   5.44 |
+| [`tg`](https://t.me/mwscr/474)                     | 2024-07-19 |   570 |    62 |       400 |   15.5 |
+|                                                    |            |  1448 |   209 |      2746 |   8.76 |
 
 #### Comments
 
