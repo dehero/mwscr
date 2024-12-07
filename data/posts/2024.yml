@@ -2913,17 +2913,17 @@
       id: DDNMtF6vFOe
       mediaId: '18296388841226374'
       published: 2024-12-05-18-10-06
-      updated: 2024-12-07-17-01-57
+      updated: 2024-12-07-18-09-31
       followers: 1499
       likes: 99
-      views: 381
+      views: 383
     - service: vk
       id: 1943
       published: 2024-12-05-18-10-12
-      updated: 2024-12-07-17-01-56
+      updated: 2024-12-07-18-09-30
       followers: 1013
       likes: 52
-      views: 293
+      views: 294
       reposts: 4
       comments: !c |-
         G4oA4C0OeHPgJcNQveVEH/0TN4rwAeUSUZNofCIn+8mCt7+VUq8JSbuxB3+6udqNtiaIIIJgG/Px
@@ -2932,10 +2932,10 @@
     - service: tg
       id: 616
       published: 2024-12-05-18-10-19
-      updated: 2024-12-07-17-01-56
+      updated: 2024-12-07-18-09-30
       followers: 578
       likes: 64
-      views: 219
+      views: 220
 2024-12-06-tel-naga-great-hall:
   title: Tel Naga Great Hall
   titleRu: Большой Зал Тель Наги
@@ -2955,22 +2955,49 @@
       id: DDPxpdZJRqI
       mediaId: '18025342202624685'
       published: 2024-12-06-18-11-24
-      updated: 2024-12-07-17-01-56
+      updated: 2024-12-07-18-09-30
       followers: 1499
-      likes: 80
-      views: 299
+      likes: 82
+      views: 306
     - service: tg
       id: 617
       published: 2024-12-06-18-11-36
-      updated: 2024-12-07-17-01-56
+      updated: 2024-12-07-18-09-30
       followers: 578
       likes: 41
-      views: 140
+      views: 142
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2024-12-07-17-01-55
+      updated: 2024-12-07-18-09-30
       followers: 1013
-      likes: 25
-      views: 195
+      likes: 27
+      views: 198
       reposts: 2
+2024-12-07-farm-watchman:
+  title: Farm Watchman
+  titleRu: Сторож фермы
+  content: store:/shots/2024-12-07-farm-watchman.png
+  trash: store:/trash/dehero.2020-11-05-21-10-24.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - night
+    - guard
+    - farm
+  mark: B1
+  posts:
+    - service: ig
+      id: DDSWRcHyt4a
+      mediaId: '18078288127587351'
+      published: 2024-12-07-18-09-56
+      followers: 1498
+    - service: vk
+      id: 1947
+      published: 2024-12-07-18-10-02
+      followers: 1012
+    - service: tg
+      id: 618
+      published: 2024-12-07-18-10-10
+      followers: 579

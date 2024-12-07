@@ -4,7 +4,36 @@
 
 # Posted in 2024
 
-`284 items`
+`285 items`
+
+## <span id="2024-12-07-farm-watchman">Farm Watchman</span>
+
+`RU` Сторож фермы
+
+<a href="https://instagram.com/p/DDSWRcHyt4a/" title="2024-12-07-farm-watchman"><img alt="store:/shots/2024-12-07-farm-watchman.png" src="../../assets/previews/shots/2024-12-07-farm-watchman.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2020-11-05-21-10-24.png](../../assets/previews/trash/dehero.2020-11-05-21-10-24.avif "dehero.2020-11-05-21-10-24")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-12-07-farm-watchman&postLocation=)</code> `🚀 OpenMW` `night` `guard` `farm`
+
+```
+2024-12-07-farm-watchman
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |      1498 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |      1012 |
+| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |       579 |
+|                                                    |            |      3089 |
 
 ## <span id="2024-12-06-tel-naga-great-hall">Tel Naga Great Hall</span>
 
@@ -31,10 +60,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   299 |    80 |      1499 |   5.34 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   195 |    25 |      1013 |   2.67 |
-| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   140 |    41 |       578 |   7.09 |
-|                                                    |            |   634 |   146 |      3090 |   5.03 |
+| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   306 |    82 |      1499 |   5.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   198 |    27 |      1013 |   2.86 |
+| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   142 |    41 |       578 |   7.09 |
+|                                                    |            |   646 |   150 |      3090 |   5.14 |
 
 ## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
 
@@ -62,10 +91,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   381 |    99 |      1499 |    6.6 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   293 |    52 |      1013 |   5.53 |
-| [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |   219 |    64 |       578 |  11.07 |
-|                                                    |            |   893 |   215 |      3090 |   7.74 |
+| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   383 |    99 |      1499 |    6.6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   294 |    52 |      1013 |   5.53 |
+| [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |   220 |    64 |       578 |  11.07 |
+|                                                    |            |   897 |   215 |      3090 |   7.74 |
 
 #### Comments
 
@@ -244,8 +273,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_168)  | 2017-02-24 |   157 |     8 |        41 |      8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1927) | 2024-11-30 |   239 |    31 |      1012 |   3.06 |
 | [`tg`](https://t.me/mwscr/611)                     | 2024-11-30 |   378 |    57 |       576 |    9.9 |
-| [`ig`](https://instagram.com/p/DDFQmrONeev/)       | 2024-12-02 |   398 |    82 |      1493 |   5.49 |
-|                                                    |            |  1015 |   170 |      3081 |  11.09 |
+| [`ig`](https://instagram.com/p/DDFQmrONeev/)       | 2024-12-02 |   407 |    82 |      1493 |   5.49 |
+|                                                    |            |  1024 |   170 |      3081 |  11.09 |
 
 ## <span id="2024-11-29-shishara">Shishara</span>
 
