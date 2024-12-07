@@ -21,7 +21,7 @@ dehero
 
 Roles: `author`  
 Authored: 34 posted, 12 pending, 21 rejected  
-Likes: 6658  
+Likes: 6660  
 
 ```
 natty
