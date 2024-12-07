@@ -2645,10 +2645,10 @@
     - service: vk
       id: 1802
       published: 2024-10-04-18-12-10
-      updated: 2024-11-30-02-14-39
+      updated: 2024-12-07-02-18-41
       followers: 958
       likes: 50
-      views: 375
+      views: 376
       reposts: 2
       comments: !c |-
         G8UAwB0HzrkrxiCUe/YWFXEjfcNEQ2wCCyjxZA80dZshR1OzmffLENw/37a3XKd1WklRIkTHp3qF
@@ -2657,10 +2657,10 @@
     - service: tg
       id: 554
       published: 2024-10-04-18-12-16
-      updated: 2024-11-30-02-14-39
+      updated: 2024-12-07-02-18-39
       followers: 559
       likes: 66
-      views: 491
+      views: 497
 2024-10-05-scamp-before-the-throw:
   title: Scamp Before the Throw
   titleRu: Скамп перед броском
@@ -2913,25 +2913,25 @@
       id: DDNMtF6vFOe
       mediaId: '18296388841226374'
       published: 2024-12-05-18-10-06
-      updated: 2024-12-07-00-38-33
+      updated: 2024-12-07-02-18-40
       followers: 1499
       likes: 96
-      views: 352
+      views: 358
     - service: vk
       id: 1943
       published: 2024-12-05-18-10-12
-      updated: 2024-12-07-00-38-34
+      updated: 2024-12-07-02-18-38
       followers: 1013
       likes: 51
-      views: 274
+      views: 275
       reposts: 4
     - service: tg
       id: 616
       published: 2024-12-05-18-10-19
-      updated: 2024-12-07-00-38-33
+      updated: 2024-12-07-02-18-38
       followers: 578
       likes: 61
-      views: 208
+      views: 209
 2024-12-06-tel-naga-great-hall:
   title: Tel Naga Great Hall
   titleRu: Большой Зал Тель Наги
@@ -2951,22 +2951,22 @@
       id: DDPxpdZJRqI
       mediaId: '18025342202624685'
       published: 2024-12-06-18-11-24
-      updated: 2024-12-07-00-38-32
+      updated: 2024-12-07-02-18-39
       followers: 1499
-      likes: 54
-      views: 180
+      likes: 61
+      views: 200
     - service: tg
       id: 617
       published: 2024-12-06-18-11-36
-      updated: 2024-12-07-00-38-32
+      updated: 2024-12-07-02-18-37
       followers: 578
       likes: 33
-      views: 108
+      views: 110
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2024-12-07-00-38-33
+      updated: 2024-12-07-02-18-37
       followers: 1013
       likes: 11
-      views: 94
+      views: 97
       reposts: 1
