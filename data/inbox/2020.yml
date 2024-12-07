@@ -20,10 +20,10 @@ dehero.2020-05-19-night-guards:
 dehero.2020-11-05-21-10-08:
   title: Farm Watchman
   titleRu: Сторож фермы
-  content:
+  content: store:/inbox/dehero.2020-11-05-21-10-08.1.png
+  trash:
     - store:/inbox/dehero.2020-11-05-21-10-08.png
-    - store:/inbox/dehero.2020-11-05-21-10-08.1.png
-  trash: store:/inbox/dehero.2020-11-05-21-10-24.png
+    - store:/inbox/dehero.2020-11-05-21-10-24.png
   type: shot
   author: dehero
   engine: OpenMW
