@@ -2970,10 +2970,10 @@
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2024-12-08-18-09-37
+      updated: 2024-12-08-19-01-17
       followers: 1013
-      likes: 33
-      views: 238
+      likes: 34
+      views: 239
       reposts: 2
 2024-12-07-farm-watchman:
   title: Farm Watchman
@@ -2993,17 +2993,17 @@
       id: DDSWRcHyt4a
       mediaId: '18078288127587351'
       published: 2024-12-07-18-09-56
-      updated: 2024-12-08-18-09-36
+      updated: 2024-12-08-19-01-15
       followers: 1498
       likes: 78
-      views: 296
+      views: 301
     - service: vk
       id: 1947
       published: 2024-12-07-18-10-02
-      updated: 2024-12-08-18-09-36
+      updated: 2024-12-08-19-01-16
       followers: 1012
-      likes: 34
-      views: 182
+      likes: 35
+      views: 188
       reposts: 1
       comments: !c |-
         ix+AkZPLQnk6LqIGgACraWQ4ODkyMjI5OTnZJ9CT0LTQtS3RgtC+INCyINGC0L7QvCDQttC1INGA
@@ -3011,10 +3011,10 @@
     - service: tg
       id: 618
       published: 2024-12-07-18-10-10
-      updated: 2024-12-08-18-09-36
+      updated: 2024-12-08-19-01-15
       followers: 579
-      likes: 47
-      views: 144
+      likes: 48
+      views: 156
 2024-12-08-still-life-with-a-stem:
   title: Still Life with a Stem
   titleRu: Натюрморт со стеблем
@@ -3030,12 +3030,22 @@
       id: DDU7Fn4tBjR
       mediaId: '18050137007091471'
       published: 2024-12-08-18-10-05
+      updated: 2024-12-08-19-01-15
       followers: 1500
+      likes: 21
+      views: 37
     - service: vk
       id: 1950
       published: 2024-12-08-18-10-10
+      updated: 2024-12-08-19-01-15
       followers: 1012
+      likes: 4
+      views: 37
+      reposts: 1
     - service: tg
       id: 619
       published: 2024-12-08-18-10-15
+      updated: 2024-12-08-19-01-15
       followers: 581
+      likes: 19
+      views: 58

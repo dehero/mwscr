@@ -22,12 +22,12 @@
 
 ### Reactions
 
-|                                                    | published  | followers |
-|----------------------------------------------------|------------|----------:|
-| [`ig`](https://instagram.com/p/DDU7Fn4tBjR/)       | 2024-12-08 |      1500 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1950) | 2024-12-08 |      1012 |
-| [`tg`](https://t.me/mwscr/619)                     | 2024-12-08 |       581 |
-|                                                    |            |      3093 |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/DDU7Fn4tBjR/)       | 2024-12-08 |    37 |    21 |      1500 |    1.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1950) | 2024-12-08 |    37 |     4 |      1012 |   0.49 |
+| [`tg`](https://t.me/mwscr/619)                     | 2024-12-08 |    58 |    19 |       581 |   3.27 |
+|                                                    |            |   132 |    44 |      3093 |   1.72 |
 
 ## <span id="2024-12-07-farm-watchman">Farm Watchman</span>
 
@@ -53,10 +53,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   296 |    78 |      1498 |   5.21 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   182 |    34 |      1012 |   3.46 |
-| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   144 |    47 |       579 |   8.12 |
-|                                                    |            |   622 |   159 |      3089 |   5.59 |
+| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   301 |    78 |      1498 |   5.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   188 |    35 |      1012 |   3.56 |
+| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   156 |    48 |       579 |   8.29 |
+|                                                    |            |   645 |   161 |      3089 |   5.68 |
 
 #### Comments
 
@@ -88,9 +88,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   379 |    93 |      1499 |    6.2 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   238 |    33 |      1013 |   3.46 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   239 |    34 |      1013 |   3.55 |
 | [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   180 |    48 |       578 |    8.3 |
-|                                                    |            |   797 |   174 |      3090 |   5.99 |
+|                                                    |            |   798 |   175 |      3090 |   6.02 |
 
 ## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
 
