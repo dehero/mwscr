@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   266 |    73 |      1498 |   4.87 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   160 |    32 |      1012 |   3.26 |
+| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   275 |    75 |      1498 |   5.01 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   162 |    32 |      1012 |   3.26 |
 | [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   135 |    45 |       579 |   7.77 |
-|                                                    |            |   561 |   150 |      3089 |    5.3 |
+|                                                    |            |   572 |   152 |      3089 |   5.35 |
 
 #### Comments
 
@@ -64,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   362 |    91 |      1499 |   6.07 |
+| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   365 |    91 |      1499 |   6.07 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   228 |    33 |      1013 |   3.46 |
-| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   176 |    48 |       578 |    8.3 |
-|                                                    |            |   766 |   172 |      3090 |   5.94 |
+| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   177 |    48 |       578 |    8.3 |
+|                                                    |            |   770 |   172 |      3090 |   5.94 |
 
 ## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
 
