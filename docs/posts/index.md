@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   233 |    66 |      1498 |   4.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   129 |    26 |      1012 |   2.67 |
-| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   125 |    39 |       579 |   6.74 |
-|                                                    |            |   487 |   131 |      3089 |    4.6 |
+| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   239 |    67 |      1498 |   4.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   136 |    27 |      1012 |   2.77 |
+| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   128 |    41 |       579 |   7.08 |
+|                                                    |            |   503 |   135 |      3089 |   4.77 |
 
 #### Comments
 
@@ -64,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   350 |    88 |      1499 |   5.87 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   217 |    30 |      1013 |   3.16 |
+| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   352 |    90 |      1499 |      6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   220 |    30 |      1013 |   3.16 |
 | [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   174 |    47 |       578 |   8.13 |
-|                                                    |            |   741 |   165 |      3090 |   5.72 |
+|                                                    |            |   746 |   167 |      3090 |   5.76 |
 
 ## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
 
@@ -5895,9 +5895,9 @@
 | [`ig`](https://instagram.com/p/BTYfIxOjZg3/)       | 2017-04-27 |       |    60 |       172 |  34.88 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_272)  | 2017-04-27 |   112 |     6 |        54 |  11.11 |
 | [`ig`](https://instagram.com/p/C79ulR2hoTr/)       | 2024-06-08 |   329 |    79 |      1422 |   5.56 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   314 |    36 |       916 |   4.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1575) | 2024-06-08 |   316 |    36 |       916 |   4.04 |
 | [`tg`](https://t.me/mwscr/433)                     | 2024-06-08 |   465 |    55 |       384 |  14.32 |
-|                                                    |            |  1108 |   170 |      2722 |  13.98 |
+|                                                    |            |  1110 |   170 |      2722 |  13.98 |
 
 ## <span id="2024-06-07-ruins-in-a-mountain-dead-end">Ruins in a Mountain Dead End</span>
 
