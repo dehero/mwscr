@@ -4,7 +4,30 @@
 
 # Posted in 2024
 
-`285 items`
+`286 items`
+
+## <span id="2024-12-08-still-life-with-a-stem">Still Life with a Stem</span>
+
+`RU` Натюрморт со стеблем
+
+<a href="https://instagram.com/p/DDU7Fn4tBjR/" title="2024-12-08-still-life-with-a-stem"><img alt="store:/shots/2024-12-08-still-life-with-a-stem.png" src="../../assets/previews/shots/2024-12-08-still-life-with-a-stem.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-12-08-still-life-with-a-stem&postLocation=)</code> `🚀 OpenMW` `candle`
+
+```
+2024-12-08-still-life-with-a-stem
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DDU7Fn4tBjR/)       | 2024-12-08 |      1500 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1950) | 2024-12-08 |      1012 |
+| [`tg`](https://t.me/mwscr/619)                     | 2024-12-08 |       581 |
+|                                                    |            |      3093 |
 
 ## <span id="2024-12-07-farm-watchman">Farm Watchman</span>
 
@@ -30,10 +53,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   293 |    78 |      1498 |   5.21 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   177 |    34 |      1012 |   3.46 |
-| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   143 |    47 |       579 |   8.12 |
-|                                                    |            |   613 |   159 |      3089 |   5.59 |
+| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   296 |    78 |      1498 |   5.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   182 |    34 |      1012 |   3.46 |
+| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   144 |    47 |       579 |   8.12 |
+|                                                    |            |   622 |   159 |      3089 |   5.59 |
 
 #### Comments
 
@@ -64,10 +87,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   376 |    93 |      1499 |    6.2 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   235 |    33 |      1013 |   3.46 |
+| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   379 |    93 |      1499 |    6.2 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   238 |    33 |      1013 |   3.46 |
 | [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   180 |    48 |       578 |    8.3 |
-|                                                    |            |   791 |   174 |      3090 |   5.99 |
+|                                                    |            |   797 |   174 |      3090 |   5.99 |
 
 ## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
 
@@ -95,14 +118,15 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   383 |    99 |      1499 |    6.6 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   294 |    52 |      1013 |   5.53 |
-| [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |   220 |    64 |       578 |  11.07 |
-|                                                    |            |   897 |   215 |      3090 |   7.74 |
+| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   396 |   101 |      1499 |   6.74 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   324 |    56 |      1013 |   5.92 |
+| [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |   240 |    66 |       578 |  11.42 |
+|                                                    |            |   960 |   223 |      3090 |   8.03 |
 
 #### Comments
 
 - `vk` <ins title="2024-12-07-10-51-35">slavaisaykin</ins> Как же тепло и уютно. И доки все помогут оформить по приезду 🫶
+  - <ins title="2024-12-08-16-08-07">id889222999</ins> Слава, ну да и как можно отказать этим чудесным людям ))
 
 ## <span id="2024-12-04-flash-of-lightning">Flash of Lightning</span>
 
@@ -277,8 +301,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_168)  | 2017-02-24 |   157 |     8 |        41 |      8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1927) | 2024-11-30 |   244 |    31 |      1012 |   3.06 |
 | [`tg`](https://t.me/mwscr/611)                     | 2024-11-30 |   410 |    57 |       576 |    9.9 |
-| [`ig`](https://instagram.com/p/DDFQmrONeev/)       | 2024-12-02 |   407 |    82 |      1493 |   5.49 |
-|                                                    |            |  1061 |   170 |      3081 |  11.09 |
+| [`ig`](https://instagram.com/p/DDFQmrONeev/)       | 2024-12-02 |   411 |    83 |      1493 |   5.56 |
+|                                                    |            |  1065 |   171 |      3081 |   11.1 |
 
 ## <span id="2024-11-29-shishara">Shishara</span>
 
@@ -7670,9 +7694,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C5thvvzynm3/)       | 2024-04-13 |   480 |   119 |      1412 |   8.43 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1492) | 2024-04-13 |   284 |    36 |       911 |   3.95 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1492) | 2024-04-13 |   286 |    36 |       911 |   3.95 |
 | [`tg`](https://t.me/mwscr/377)                     | 2024-04-13 |   447 |    64 |       351 |  18.23 |
-|                                                    |            |  1211 |   219 |      2674 |   10.2 |
+|                                                    |            |  1213 |   219 |      2674 |   10.2 |
 
 #### Comments
 
@@ -8104,8 +8128,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_37)   | 2017-01-22 |    75 |     2 |         4 |      2 |
 | [`ig`](https://instagram.com/p/C5JeKzqs_SW/)       | 2024-03-30 |   587 |   146 |      1401 |  10.42 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1474) | 2024-03-30 |   278 |    38 |       905 |    4.2 |
-| [`tg`](https://t.me/mwscr/362)                     | 2024-03-30 |   469 |    70 |       354 |  19.77 |
-|                                                    |            |  1334 |   254 |      2660 |  12.28 |
+| [`tg`](https://t.me/mwscr/362)                     | 2024-03-30 |   470 |    70 |       354 |  19.77 |
+|                                                    |            |  1335 |   254 |      2660 |  12.28 |
 
 #### Comments
 
@@ -8357,8 +8381,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C43cZnlpPuJ/)       | 2024-03-23 |   363 |    80 |      1398 |   5.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1465) | 2024-03-23 |   318 |    38 |       897 |   4.46 |
-| [`tg`](https://t.me/mwscr/355)                     | 2024-03-23 |   457 |    61 |       352 |  17.33 |
-|                                                    |            |  1138 |   179 |      2647 |   9.17 |
+| [`tg`](https://t.me/mwscr/355)                     | 2024-03-23 |   458 |    61 |       352 |  17.33 |
+|                                                    |            |  1139 |   179 |      2647 |   9.17 |
 
 #### Comments
 
@@ -8574,8 +8598,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_178)  | 2017-03-01 |   126 |    10 |        43 |     10 |
 | [`ig`](https://instagram.com/p/C4la578MmI8/)       | 2024-03-16 |   613 |   127 |      1386 |   9.16 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1454) | 2024-03-16 |   293 |    37 |       896 |   4.24 |
-| [`tg`](https://t.me/mwscr/348)                     | 2024-03-16 |   444 |    55 |       353 |  15.58 |
-|                                                    |            |  1350 |   219 |      2635 |  14.72 |
+| [`tg`](https://t.me/mwscr/348)                     | 2024-03-16 |   445 |    55 |       353 |  15.58 |
+|                                                    |            |  1351 |   219 |      2635 |  14.72 |
 
 #### Comments
 

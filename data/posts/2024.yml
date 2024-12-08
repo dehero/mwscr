@@ -293,7 +293,7 @@
     - service: vk
       id: 1441
       published: 2024-03-09-18-16-27
-      updated: 2024-12-01-17-02-25
+      updated: 2024-12-08-18-09-44
       followers: 893
       likes: 35
       views: 269
@@ -301,7 +301,7 @@
     - service: tg
       id: 340
       published: 2024-03-09-18-16-33
-      updated: 2024-12-01-17-02-23
+      updated: 2024-12-08-18-09-41
       followers: 347
       likes: 63
       views: 543
@@ -621,7 +621,7 @@
     - service: vk
       id: 1465
       published: 2024-03-23-18-10-09
-      updated: 2024-12-01-17-02-23
+      updated: 2024-12-08-18-09-43
       followers: 897
       likes: 38
       views: 318
@@ -633,10 +633,10 @@
     - service: tg
       id: 355
       published: 2024-03-23-18-10-16
-      updated: 2024-12-01-17-02-22
+      updated: 2024-12-08-18-09-40
       followers: 352
       likes: 61
-      views: 457
+      views: 458
 2024-03-24-dark-sanctuary-of-dark: 2018-05-09-dark-sanctuary-of-dark
 2024-03-25-bridge-at-ghostfence:
   title: Bridge at Ghostfence
@@ -921,7 +921,7 @@
     - service: vk
       id: 1484
       published: 2024-04-06-18-16-53
-      updated: 2024-12-01-17-02-21
+      updated: 2024-12-08-18-09-41
       followers: 909
       likes: 47
       views: 303
@@ -929,7 +929,7 @@
     - service: tg
       id: 370
       published: 2024-04-06-18-17-00
-      updated: 2024-12-01-17-02-20
+      updated: 2024-12-08-18-09-39
       followers: 354
       likes: 68
       views: 451
@@ -1127,17 +1127,17 @@
     - service: vk
       id: 1492
       published: 2024-04-13-18-15-50
-      updated: 2024-12-01-17-02-21
+      updated: 2024-12-08-18-09-40
       followers: 911
       likes: 36
-      views: 284
+      views: 286
       comments: !c |-
         G3QA+J0JdoxkjGkJdSei2j3hAaWeYZN4JMme062E/uwMmTmZKKLr7nzFi13aDofWkwq6VZAEsaZF
         e6ZDUkvpQz40Red+6kcDzNvm0iSXqFaTf34NxMC0L7+j1w1ZUQydXcgkEMdj7F6omySALZMX
     - service: tg
       id: 377
       published: 2024-04-13-18-15-57
-      updated: 2024-12-01-17-02-20
+      updated: 2024-12-08-18-09-38
       followers: 351
       likes: 64
       views: 447
@@ -1265,7 +1265,7 @@
     - service: vk
       id: 1502
       published: 2024-04-20-18-17-56
-      updated: 2024-12-01-17-02-20
+      updated: 2024-12-08-18-09-39
       followers: 909
       likes: 31
       views: 295
@@ -1273,7 +1273,7 @@
     - service: tg
       id: 384
       published: 2024-04-20-18-18-05
-      updated: 2024-12-01-17-02-19
+      updated: 2024-12-08-18-09-38
       followers: 354
       likes: 59
       views: 446
@@ -2913,29 +2913,30 @@
       id: DDNMtF6vFOe
       mediaId: '18296388841226374'
       published: 2024-12-05-18-10-06
-      updated: 2024-12-07-18-09-31
+      updated: 2024-12-08-18-09-38
       followers: 1499
-      likes: 99
-      views: 383
+      likes: 101
+      views: 396
     - service: vk
       id: 1943
       published: 2024-12-05-18-10-12
-      updated: 2024-12-07-18-09-30
+      updated: 2024-12-08-18-09-38
       followers: 1013
-      likes: 52
-      views: 294
+      likes: 56
+      views: 324
       reposts: 4
       comments: !c |-
-        G4oA4C0OeHPgJcNQveVEH/0TN4rwAeUSUZNofCIn+8mCt7+VUq8JSbuxB3+6udqNtiaIIIJgG/Px
-        PJXHQoelrWWHDTjiwDWmEYfxIsGG+/nryDdxvJdrVmbFc8ZrFjWSuIjb7o0+zlQaDrdoJGga7DTw
-        eNxNkAxMtjb7xv8B
+        GwUB4CwO7OYtj7Bw2jiP1wqOkDmd/omLRfj1JPVmsiNqSqw4kWQfWTq3UqrNkNw+d4QBHstbS0KX
+        pfaTfjab2Wzau7cJjJBlMQGH3PwoX8bN0zJHJlsnpwe8BqgBBhRigAE3b8ujVjkwyQi5CqVaPF4/
+        9/A/cvmcdyrEmWrg+NOQPz22wIyiiaXt4NN11pCk2KaDIa6F6heiRWjN0EwiGMd0//2+zwzuNP59
+        q1Wg3LsKXBgQDUEiQV6gpSCBQ2iVYt5IkdX8pp5qY2c9Dg==
     - service: tg
       id: 616
       published: 2024-12-05-18-10-19
-      updated: 2024-12-07-18-09-30
+      updated: 2024-12-08-18-09-37
       followers: 578
-      likes: 64
-      views: 220
+      likes: 66
+      views: 240
 2024-12-06-tel-naga-great-hall:
   title: Tel Naga Great Hall
   titleRu: Большой Зал Тель Наги
@@ -2955,24 +2956,24 @@
       id: DDPxpdZJRqI
       mediaId: '18025342202624685'
       published: 2024-12-06-18-11-24
-      updated: 2024-12-08-17-01-17
+      updated: 2024-12-08-18-09-37
       followers: 1499
       likes: 93
-      views: 376
+      views: 379
     - service: tg
       id: 617
       published: 2024-12-06-18-11-36
-      updated: 2024-12-08-17-01-17
+      updated: 2024-12-08-18-09-37
       followers: 578
       likes: 48
       views: 180
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2024-12-08-17-01-17
+      updated: 2024-12-08-18-09-37
       followers: 1013
       likes: 33
-      views: 235
+      views: 238
       reposts: 2
 2024-12-07-farm-watchman:
   title: Farm Watchman
@@ -2992,17 +2993,17 @@
       id: DDSWRcHyt4a
       mediaId: '18078288127587351'
       published: 2024-12-07-18-09-56
-      updated: 2024-12-08-17-01-16
+      updated: 2024-12-08-18-09-36
       followers: 1498
       likes: 78
-      views: 293
+      views: 296
     - service: vk
       id: 1947
       published: 2024-12-07-18-10-02
-      updated: 2024-12-08-17-01-16
+      updated: 2024-12-08-18-09-36
       followers: 1012
       likes: 34
-      views: 177
+      views: 182
       reposts: 1
       comments: !c |-
         ix+AkZPLQnk6LqIGgACraWQ4ODkyMjI5OTnZJ9CT0LTQtS3RgtC+INCyINGC0L7QvCDQttC1INGA
@@ -3010,7 +3011,31 @@
     - service: tg
       id: 618
       published: 2024-12-07-18-10-10
-      updated: 2024-12-08-17-01-17
+      updated: 2024-12-08-18-09-36
       followers: 579
       likes: 47
-      views: 143
+      views: 144
+2024-12-08-still-life-with-a-stem:
+  title: Still Life with a Stem
+  titleRu: Натюрморт со стеблем
+  content: store:/shots/2024-12-08-still-life-with-a-stem.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - candle
+  mark: E
+  posts:
+    - service: ig
+      id: DDU7Fn4tBjR
+      mediaId: '18050137007091471'
+      published: 2024-12-08-18-10-05
+      followers: 1500
+    - service: vk
+      id: 1950
+      published: 2024-12-08-18-10-10
+      followers: 1012
+    - service: tg
+      id: 619
+      published: 2024-12-08-18-10-15
+      followers: 581
