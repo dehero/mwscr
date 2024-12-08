@@ -4507,10 +4507,10 @@
     - service: tg
       id: 612
       published: 2024-12-01-18-09-57
-      updated: 2024-12-07-21-02-12
+      updated: 2024-12-08-21-03-27
       followers: 576
       likes: 61
-      views: 395
+      views: 428
     - service: ig
       id: DDGK86wO8YJ
       mediaId: '18296802376229812'
@@ -5080,18 +5080,18 @@
     - service: vk
       id: 1875
       published: 2024-11-03-18-10-30
-      updated: 2024-12-01-21-02-02
+      updated: 2024-12-08-21-03-30
       followers: 1003
       likes: 36
-      views: 311
+      views: 315
       reposts: 1
     - service: tg
       id: 584
       published: 2024-11-03-18-10-35
-      updated: 2024-12-01-21-02-02
+      updated: 2024-12-08-21-03-30
       followers: 565
       likes: 60
-      views: 489
+      views: 507
       comments: !c |-
         CyiAk5PLQnkw+mEZAACrYmh1dmFuYXNyaWmk8J+NrZPLQnkvTUbBgACpR2F0ZW1hdGU3qDIwMTgu
         Li4/k8tCeS9MvQ+AAKh3aWx6dXVsbKTwn6eQAw==
@@ -9366,10 +9366,10 @@
     - service: tg
       id: 598
       published: 2024-11-17-18-09-44
-      updated: 2024-12-01-21-02-00
+      updated: 2024-12-08-21-03-28
       followers: 573
-      likes: 55
-      views: 479
+      likes: 56
+      views: 515
     - service: vk
       id: 1901
       published: 2024-11-17-19-01-38
@@ -11834,17 +11834,17 @@
     - service: vk
       id: 1888
       published: 2024-11-10-18-09-11
-      updated: 2024-12-01-21-02-01
+      updated: 2024-12-08-21-03-29
       followers: 1006
       likes: 44
-      views: 260
+      views: 265
     - service: tg
       id: 591
       published: 2024-11-10-18-10-13
-      updated: 2024-12-01-21-02-01
+      updated: 2024-12-08-21-03-29
       followers: 564
       likes: 56
-      views: 536
+      views: 555
 2018-11-23-flooded-door:
   title: Flooded Door
   titleRu: Затопленная дверь
