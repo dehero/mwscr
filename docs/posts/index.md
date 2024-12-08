@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   239 |    67 |      1498 |   4.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   136 |    27 |      1012 |   2.77 |
-| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   128 |    41 |       579 |   7.08 |
-|                                                    |            |   503 |   135 |      3089 |   4.77 |
+| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   244 |    68 |      1498 |   4.54 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   148 |    29 |      1012 |   2.96 |
+| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   131 |    43 |       579 |   7.43 |
+|                                                    |            |   523 |   140 |      3089 |   4.98 |
 
 #### Comments
 
@@ -64,10 +64,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   352 |    90 |      1499 |      6 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   220 |    30 |      1013 |   3.16 |
-| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   174 |    47 |       578 |   8.13 |
-|                                                    |            |   746 |   167 |      3090 |   5.76 |
+| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   356 |    90 |      1499 |      6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   223 |    30 |      1013 |   3.16 |
+| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   175 |    47 |       578 |   8.13 |
+|                                                    |            |   754 |   167 |      3090 |   5.76 |
 
 ## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
 
