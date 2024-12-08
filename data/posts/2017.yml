@@ -7619,10 +7619,10 @@
     - service: vk
       id: 1872
       published: 2024-11-02-19-01-31
-      updated: 2024-12-01-00-46-09
+      updated: 2024-12-08-02-27-11
       followers: 1003
-      likes: 28
-      views: 291
+      likes: 29
+      views: 296
       comments: !c |-
         G9UCACyPt6HxkyMyV7kiuBUPw1xy/PP9xZbwjf/ZFKI0oMA30KQpwCRdOVdrW7WEzHFnqHM6ncAP
         a5uINYhVuqWYyt39nMLDvi9tLJYFSKXvN81NTXa94fk7P2WHlJSi/Y/rMHlLd6PpwIY6463XfgrH
@@ -10343,10 +10343,10 @@
     - service: vk
       id: 1820
       published: 2024-10-12-18-08-42
-      updated: 2024-12-01-00-46-11
+      updated: 2024-12-08-02-27-13
       followers: 961
       likes: 46
-      views: 377
+      views: 378
       reposts: 1
       comments: !c |-
         Cx2AkZPLQnkqY71QAACoZGV1czE5ODnZJdCf0YDQuNGA0YPRh9C10L3QvdCw0Y8g0YHQstGP0YLQ
@@ -10354,10 +10354,10 @@
     - service: tg
       id: 562
       published: 2024-10-12-18-08-48
-      updated: 2024-12-01-00-46-09
+      updated: 2024-12-08-02-27-11
       followers: 557
       likes: 57
-      views: 508
+      views: 519
 2017-10-18-recollecting-the-first-steps:
   title: Recollecting the First Steps
   titleRu: Вспоминая первые шаги
@@ -11432,10 +11432,10 @@
     - service: tg
       id: 548
       published: 2024-09-28-18-08-47
-      updated: 2024-12-01-00-46-10
+      updated: 2024-12-08-02-27-13
       followers: 557
-      likes: 69
-      views: 501
+      likes: 70
+      views: 511
 2017-11-17-pelagiad-descent-to-the-road:
   title: Pelagiad, Descent to the Road
   titleRu: Пелагиад, спуск к дороге
