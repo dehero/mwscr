@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`18 items`
+`17 items`
 
 ## <span id="natty.2024-03-28-20-45-29">natty.2024-03-28-20-45-29</span>
 
@@ -38,21 +38,6 @@ natty.2024-03-28-20-45-29
 
 ```
 natty.2024-03-28-20-29-36
-```
-
-## <span id="natty.2024-03-10-18-30-02">natty.2024-03-10-18-30-02</span>
-
-![store:/inbox/natty.2024-03-10-18-30-02.png](../../assets/previews/inbox/natty.2024-03-10-18-30-02.avif "natty.2024-03-10-18-30-02")
-
-`shot` by [Natty](../contributors.md#natty)
-
-> [!WARNING]
-> Need english title, need russian title, need mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-18-30-02&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-10-18-30-02.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-18-30-02&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-18-30-02&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-18-30-02&postLocation=)</code>
-
-```
-natty.2024-03-10-18-30-02
 ```
 
 ## <span id="natty.2024-03-10-18-16-27">natty.2024-03-10-18-16-27</span>
