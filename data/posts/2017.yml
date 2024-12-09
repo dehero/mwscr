@@ -5096,7 +5096,7 @@
     - service: vk
       id: 1730
       published: 2024-09-01-18-27-13
-      updated: 2024-12-02-02-22-41
+      updated: 2024-12-09-02-24-09
       followers: 942
       likes: 29
       views: 293
@@ -5107,10 +5107,10 @@
     - service: tg
       id: 519
       published: 2024-09-01-18-27-20
-      updated: 2024-12-02-02-22-39
+      updated: 2024-12-09-02-24-07
       followers: 547
       likes: 62
-      views: 511
+      views: 514
 2017-05-15-in-the-courtyard-of-royal-palace:
   title: In the Courtyard of Royal Palace
   titleRu: Во внутреннем дворе Королевского дворца
@@ -10786,19 +10786,19 @@
     - service: vk
       id: 1821
       published: 2024-10-13-18-09-16
-      updated: 2024-12-02-02-22-36
+      updated: 2024-12-09-02-24-04
       followers: 963
       likes: 42
-      views: 400
+      views: 401
       reposts: 1
       comments: !c ixmAkZPLQnkolF5EAACscGV0ZWV2YW5kcmV3u9Ch0LXQudGH0LDRgSDRgdC60YPRiNCw0LXRggM=
     - service: tg
       id: 563
       published: 2024-10-13-18-09-22
-      updated: 2024-12-02-02-22-36
+      updated: 2024-12-09-02-24-03
       followers: 559
-      likes: 63
-      views: 478
+      likes: 64
+      views: 486
       comments: !c |-
         Cx2AkpPLQnkocZSBAACuZGlzbWFzdGVyZnJhbmWoQ29vbCBwaWOTy0J5KHFW+wAAqUdhdGVtYXRl
         N6N3dGYD
