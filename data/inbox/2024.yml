@@ -103,11 +103,18 @@ natty.2024-03-28-20-45-29:
   type: shot
   author: natty
 natty.2024-10-06-15-18-43:
-  content:
-    - store:/inbox/natty.2024-10-06-15-18-43.1.png
-    - store:/inbox/natty.2024-10-06-15-18-43.png
+  title: Bridge Over the Gorge
+  titleRu: Мост над ущельем
+  content: store:/inbox/natty.2024-10-06-15-18-43.1.png
+  trash: store:/inbox/natty.2024-10-06-15-18-43.png
   type: shot
   author: natty
+  engine: OpenMW
+  tags:
+    - bridge
+    - tree
+    - dwemer
+  mark: B1
 natty.2024-10-06-15-21-49:
   content: store:/inbox/natty.2024-10-06-15-21-49.png
   type: shot
