@@ -2970,10 +2970,10 @@
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2024-12-08-19-01-17
+      updated: 2024-12-09-19-01-50
       followers: 1013
       likes: 34
-      views: 239
+      views: 262
       reposts: 2
 2024-12-07-farm-watchman:
   title: Farm Watchman
@@ -3030,22 +3030,48 @@
       id: DDU7Fn4tBjR
       mediaId: '18050137007091471'
       published: 2024-12-08-18-10-05
-      updated: 2024-12-09-18-11-23
+      updated: 2024-12-09-19-01-49
       followers: 1500
       likes: 62
-      views: 279
+      views: 281
     - service: vk
       id: 1950
       published: 2024-12-08-18-10-10
-      updated: 2024-12-09-18-11-23
+      updated: 2024-12-09-19-01-49
       followers: 1012
       likes: 22
-      views: 189
+      views: 192
       reposts: 1
     - service: tg
       id: 619
       published: 2024-12-08-18-10-15
-      updated: 2024-12-09-18-11-24
+      updated: 2024-12-09-19-01-50
       followers: 581
       likes: 42
       views: 136
+2024-12-09-bridge-over-the-gorge:
+  title: Bridge Over the Gorge
+  titleRu: Мост над ущельем
+  content: store:/shots/2024-12-09-bridge-over-the-gorge.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - bridge
+    - tree
+    - dwemer
+  mark: B1
+  posts:
+    - service: ig
+      id: DDXl10_zw85
+      mediaId: '17948952500870430'
+      published: 2024-12-09-19-02-09
+      followers: 1503
+    - service: vk
+      id: 1953
+      published: 2024-12-09-19-02-15
+      followers: 1013
+    - service: tg
+      id: 620
+      published: 2024-12-09-19-02-22
+      followers: 580

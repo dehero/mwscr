@@ -4,27 +4,7 @@
 
 # Shortlist
 
-`3 items`
-
-## <span id="natty.2024-10-06-15-18-43">Bridge Over the Gorge</span>
-
-`RU` Мост над ущельем
-
-![store:/inbox/natty.2024-10-06-15-18-43.1.png](../../assets/previews/inbox/natty.2024-10-06-15-18-43.1.avif "natty.2024-10-06-15-18-43.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/natty.2024-10-06-15-18-43.png](../../assets/previews/inbox/natty.2024-10-06-15-18-43.avif "natty.2024-10-06-15-18-43")
-</details>
-
-`shot` by [Natty](../contributors.md#natty)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-10-06-15-18-43&amp;postContent=store%3A%2Finbox%2Fnatty.2024-10-06-15-18-43.1.png&amp;postTitle=Bridge+Over+the+Gorge&amp;postTitleRu=%D0%9C%D0%BE%D1%81%D1%82+%D0%BD%D0%B0%D0%B4+%D1%83%D1%89%D0%B5%D0%BB%D1%8C%D0%B5%D0%BC&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=bridge+tree+dwemer&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fnatty.2024-10-06-15-18-43.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-10-06-15-18-43&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-10-06-15-18-43&amp;mergeWithIds=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-10-06-15-18-43&postLocation=)</code> `🚀 OpenMW` `bridge` `tree` `dwemer`
-
-```
-natty.2024-10-06-15-18-43
-```
+`2 items`
 
 ## <span id="irina-bystritskaya.2022-06-25-drawing-002">Mzahnch</span>
 

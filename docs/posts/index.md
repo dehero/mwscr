@@ -4,7 +4,30 @@
 
 # Posted in 2024
 
-`286 items`
+`287 items`
+
+## <span id="2024-12-09-bridge-over-the-gorge">Bridge Over the Gorge</span>
+
+`RU` Мост над ущельем
+
+<a href="https://instagram.com/p/DDXl10_zw85/" title="2024-12-09-bridge-over-the-gorge"><img alt="store:/shots/2024-12-09-bridge-over-the-gorge.png" src="../../assets/previews/shots/2024-12-09-bridge-over-the-gorge.avif" /></a>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-12-09-bridge-over-the-gorge&postLocation=)</code> `🚀 OpenMW` `bridge` `tree` `dwemer`
+
+```
+2024-12-09-bridge-over-the-gorge
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DDXl10_zw85/)       | 2024-12-09 |      1503 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1953) | 2024-12-09 |      1013 |
+| [`tg`](https://t.me/mwscr/620)                     | 2024-12-09 |       580 |
+|                                                    |            |      3096 |
 
 ## <span id="2024-12-08-still-life-with-a-stem">Still Life with a Stem</span>
 
@@ -24,10 +47,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDU7Fn4tBjR/)       | 2024-12-08 |   279 |    62 |      1500 |   4.13 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1950) | 2024-12-08 |   189 |    22 |      1012 |   2.27 |
+| [`ig`](https://instagram.com/p/DDU7Fn4tBjR/)       | 2024-12-08 |   281 |    62 |      1500 |   4.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1950) | 2024-12-08 |   192 |    22 |      1012 |   2.27 |
 | [`tg`](https://t.me/mwscr/619)                     | 2024-12-08 |   136 |    42 |       581 |   7.23 |
-|                                                    |            |   604 |   126 |      3093 |   4.54 |
+|                                                    |            |   609 |   126 |      3093 |   4.54 |
 
 ## <span id="2024-12-07-farm-watchman">Farm Watchman</span>
 
@@ -88,9 +111,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   466 |   101 |      1499 |   6.74 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   239 |    34 |      1013 |   3.55 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   262 |    34 |      1013 |   3.55 |
 | [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   200 |    51 |       578 |   8.82 |
-|                                                    |            |   905 |   186 |      3090 |   6.37 |
+|                                                    |            |   928 |   186 |      3090 |   6.37 |
 
 ## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
 
