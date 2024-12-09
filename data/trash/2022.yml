@@ -126,6 +126,12 @@ dehero.2022-06-29-23-01-05:
     user: dehero
     text: Removed from store manually.
   mark: F
+dehero.2022-06-29-23-03-03:
+  content:
+    - store:/trash/dehero.2022-06-29-23-03-03.png
+  type: shot
+  author: dehero
+  mark: D
 dehero.2022-06-29-23-11-59:
   content:
     - store:/trash/dehero.2022-06-29-23-11-59.png
@@ -144,5 +150,5 @@ remmlah.2022-07-26-two-ways:
     - store:/shots/2018-09-22-two-ways.png
   type: redrawing
   author: remmlah
-  violation: unsupported-resource
   mark: F
+  violation: unsupported-resource
