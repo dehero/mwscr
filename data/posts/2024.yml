@@ -2794,10 +2794,10 @@
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
-      updated: 2024-12-08-20-08-33
+      updated: 2024-12-09-20-09-26
       followers: 575
-      likes: 66
-      views: 293
+      likes: 68
+      views: 318
       comments: !c |-
         G2kAUBSh0oeuecAP9EJhFRSJmYumB11xBk9gJgkbcOCQWTiADb6eAidsOVIidkyXL2qMXf5QAx5S
         UYYdW5wE4bhwnxtLJg6/V/vFvNZrywLgUA67fudGFgFshkXdS1IUZNKAC+/2wpLoWa9bpxg=
@@ -2872,25 +2872,25 @@
       id: DDKux6bBhNm
       mediaId: '18044993302914086'
       published: 2024-12-04-19-10-08
-      updated: 2024-12-08-20-08-32
+      updated: 2024-12-09-20-09-26
       followers: 1496
-      likes: 65
-      views: 311
+      likes: 66
+      views: 316
     - service: vk
       id: 1941
       published: 2024-12-04-19-10-14
-      updated: 2024-12-08-20-08-33
+      updated: 2024-12-09-20-09-26
       followers: 1013
-      likes: 51
-      views: 283
+      likes: 52
+      views: 296
       reposts: 1
     - service: tg
       id: 615
       published: 2024-12-04-19-10-20
-      updated: 2024-12-08-20-08-32
+      updated: 2024-12-09-20-09-25
       followers: 574
-      likes: 57
-      views: 331
+      likes: 59
+      views: 351
       comments: !c CxCAkZPLQnk5aAVMgACuZGlzbWFzdGVyZnJhbmWm4pqh77iPAw==
 2024-12-05-in-the-evening-at-census-and-excise-office:
   title: In the Evening at Census and Excise Office
@@ -3030,14 +3030,14 @@
       id: DDU7Fn4tBjR
       mediaId: '18050137007091471'
       published: 2024-12-08-18-10-05
-      updated: 2024-12-09-19-01-49
+      updated: 2024-12-09-20-09-25
       followers: 1500
-      likes: 62
-      views: 281
+      likes: 64
+      views: 286
     - service: vk
       id: 1950
       published: 2024-12-08-18-10-10
-      updated: 2024-12-09-19-01-49
+      updated: 2024-12-09-20-09-25
       followers: 1012
       likes: 22
       views: 192
@@ -3045,10 +3045,10 @@
     - service: tg
       id: 619
       published: 2024-12-08-18-10-15
-      updated: 2024-12-09-19-01-50
+      updated: 2024-12-09-20-09-25
       followers: 581
-      likes: 42
-      views: 136
+      likes: 46
+      views: 153
 2024-12-09-bridge-over-the-gorge:
   title: Bridge Over the Gorge
   titleRu: Мост над ущельем
@@ -3066,12 +3066,22 @@
       id: DDXl10_zw85
       mediaId: '17948952500870430'
       published: 2024-12-09-19-02-09
+      updated: 2024-12-09-20-09-24
       followers: 1503
+      likes: 37
+      views: 78
     - service: vk
       id: 1953
       published: 2024-12-09-19-02-15
+      updated: 2024-12-09-20-09-25
       followers: 1013
+      likes: 5
+      views: 41
+      reposts: 1
     - service: tg
       id: 620
       published: 2024-12-09-19-02-22
+      updated: 2024-12-09-20-09-24
       followers: 580
+      likes: 22
+      views: 72
