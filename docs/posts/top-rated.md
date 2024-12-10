@@ -1269,34 +1269,27 @@
 
 - `ig` <ins title="2017-04-22-10-31-40">jason_f_heller</ins> 👍
 
-## <span id="2017-02-16-sunrise-over-the-ash-forest">Sunrise Over the Ash Forest</span>
+## <span id="2017-06-26-floating-over-the-green-hills">Floating Over the Green Hills</span>
 
-`RU` Рассвет над пепельным лесом
+`RU` Паря над зелёными холмами
 
-<a href="https://instagram.com/p/BQkAhpBlGN3/" title="2017-02-16-sunrise-over-the-ash-forest"><img alt="store:/shots/2017-02-16-sunrise-over-the-ash-forest.png" src="../../assets/previews/shots/2017-02-16-sunrise-over-the-ash-forest.avif" /></a>
+<a href="https://instagram.com/p/BVzIxzXj8mN/" title="2017-06-26-floating-over-the-green-hills"><img alt="store:/shots/2017-06-26-floating-over-the-green-hills.png" src="../../assets/previews/shots/2017-06-26-floating-over-the-green-hills.avif" /></a>
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2017-02-16-sunrise-over-the-ash-forest&postLocation=)</code> `🚀 OpenMW` `forest` `tree` `fog`
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2017-06-26-floating-over-the-green-hills&postLocation=)</code> `🚀 OpenMW` `road` `netch`
 
 ```
-2017-02-16-sunrise-over-the-ash-forest
+2017-06-26-floating-over-the-green-hills
 ```
 
 ### Reactions
 
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BQkAhpBlGN3/)       | 2017-02-16 |       |    30 |        83 |  36.14 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_154)  | 2017-02-16 |   177 |    18 |        36 |     18 |
-| [`ig`](https://instagram.com/p/DDaE2mRTAPD/)       | 2024-12-10 |       |       |      1503 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1954) | 2024-12-10 |       |       |      1018 |        |
-| [`tg`](https://t.me/mwscr/621)                     | 2024-12-10 |       |       |       581 |        |
-|                                                    |            |   177 |    48 |       119 |  27.07 |
-
-#### Comments
-
-- `vk` <ins title="2017-02-16-12-13-55">id178018548</ins> Напомнило
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BVzIxzXj8mN/)      | 2017-06-26 |       |    71 |       184 |  38.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_334) | 2017-06-26 |   110 |    10 |        65 |  15.38 |
+|                                                   |            |   110 |    81 |       249 |  26.99 |
 
 ---
 
