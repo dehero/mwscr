@@ -28,7 +28,7 @@ import {
 } from './post.js';
 import { isPublishablePost, isTrashItem } from './post-variation.js';
 import type { PostsManagerName } from './posts-manager.js';
-import type { UserEntry } from './user.js';
+import { createUserOption } from './user.js';
 import type { UsersManager } from './users-manager.js';
 
 export interface PostInfo {
@@ -41,11 +41,11 @@ export interface PostInfo {
   location?: PostLocation;
   content?: PostContent;
   type: PostType;
-  authorEntries: UserEntry[];
+  authorOptions: Option[];
   tags?: string[];
   engine?: PostEngine;
   addon?: PostAddon;
-  requesterEntry?: UserEntry;
+  requesterOption?: Option;
   request?: PostRequest;
   mark?: PostMark;
   violation?: PostViolation;
@@ -117,11 +117,11 @@ export async function createPostInfo(
     location: post.location,
     content: post.content,
     type: post.type,
-    authorEntries: await usersManager.getEntries(asArray(post.author)),
+    authorOptions: (await usersManager.getEntries(asArray(post.author))).map(createUserOption),
     tags: post.tags,
     engine: post.engine,
     addon: post.addon,
-    requesterEntry: post.request?.user ? await usersManager.getEntry(post.request.user) : undefined,
+    requesterOption: post.request?.user ? createUserOption(await usersManager.getEntry(post.request.user)) : undefined,
     request: post.request,
     mark: post.mark,
     violation: post.violation,
@@ -210,15 +210,15 @@ export const selectPostInfos = (
     return Boolean(
       (typeof params.publishable === 'undefined' || params.publishable !== Boolean(info.publishableErrors?.length)) &&
         (typeof params.requester === 'undefined' ||
-          (params.requester === ANY_OPTION.value && info.requesterEntry) ||
-          (params.requester === NONE_OPTION.value && !info.requesterEntry) ||
-          info.requesterEntry?.[0] === params.requester) &&
+          (params.requester === ANY_OPTION.value && info.requesterOption) ||
+          (params.requester === NONE_OPTION.value && !info.requesterOption) ||
+          info.requesterOption?.value === params.requester) &&
         (typeof params.date === 'undefined' ||
           (isValidDate(date) ? isDateInRange(date, params.date, 'date') : false)) &&
         (typeof params.original === 'undefined' || params.original !== Boolean(info.refId)) &&
         (typeof params.type === 'undefined' || info.type === params.type) &&
         (typeof params.tag === 'undefined' || info.tags?.includes(params.tag)) &&
-        (typeof params.author === 'undefined' || info.authorEntries.some(([id]) => id === params.author)) &&
+        (typeof params.author === 'undefined' || info.authorOptions.some((option) => option.value === params.author)) &&
         (typeof params.location === 'undefined' ||
           (params.location === ANY_OPTION.value && info.location) ||
           (params.location === NONE_OPTION.value && !info.location) ||
