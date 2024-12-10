@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import { type Component, createSignal, For, Show } from 'solid-js';
 import { getPostTypeAspectRatio, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
-import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/user.js';
+import { getUserOptionLetter } from '../../../core/entities/user.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { postRoute } from '../../routes/post-route.js';
 import { Divider } from '../Divider/Divider.js';
@@ -27,9 +27,9 @@ export interface PostPreviewProps {
 export const PostPreview: Component<PostPreviewProps> = (props) => {
   const title = () => props.postInfo.title || props.postInfo.id;
   const content = () => asArray(props.postInfo.content).slice(0, 4);
-  const authorLetters = () => props.postInfo.authorEntries.map(getUserEntryLetter);
+  const authorLetters = () => props.postInfo.authorOptions.map(getUserOptionLetter);
   const requesterLetter = () =>
-    props.postInfo.requesterEntry ? getUserEntryLetter(props.postInfo.requesterEntry) : undefined;
+    props.postInfo.requesterOption ? getUserOptionLetter(props.postInfo.requesterOption) : undefined;
   const url = () => postRoute.createUrl({ managerName: props.postInfo.managerName, id: props.postInfo.id });
   const aspectRatio = () => getPostTypeAspectRatio(props.postInfo.type);
   const alt = () => props.postInfo.tags?.join(' ');
@@ -46,8 +46,8 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
               <Frame variant="thin" class={styles.request} style={{ 'aspect-ratio': aspectRatio() }}>
                 <p class={styles.requestText}>{request().text}</p>
 
-                <Show when={props.postInfo.requesterEntry}>
-                  {(entry) => <p class={styles.requestUser}>{getUserEntryTitle(entry())}</p>}
+                <Show when={props.postInfo.requesterOption}>
+                  {(option) => <p class={styles.requestUser}>{option().label}</p>}
                 </Show>
               </Frame>
             )}

@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import { type Component, For, Show, splitProps } from 'solid-js';
 import { getPostDateById, getPostTypeAspectRatio, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
-import { getUserEntryLetter, getUserEntryTitle } from '../../../core/entities/user.js';
+import { getUserOptionLetter } from '../../../core/entities/user.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
 import { Divider } from '../Divider/Divider.js';
@@ -67,30 +67,30 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       <Show when={local.postInfo.type}>
         <span class={styles.type}>Type: {POST_TYPES.find((info) => info.id === local.postInfo.type)?.title}</span>
       </Show>
-      <Show when={local.postInfo.authorEntries.length}>
+      <Show when={local.postInfo.authorOptions.length}>
         <span class={styles.author}>
           {'Author: '}
-          <For each={local.postInfo.authorEntries}>
-            {(entry, index) => (
+          <For each={local.postInfo.authorOptions}>
+            {(option, index) => (
               <>
                 {index() > 0 ? ', ' : ''}
                 <Icon color="stealth" size="small" variant="flat" class={styles.icon}>
-                  {getUserEntryLetter(entry)}
+                  {getUserOptionLetter(option)}
                 </Icon>
-                {getUserEntryTitle(entry)}
+                {option.label}
               </>
             )}
           </For>
         </span>
       </Show>
-      <Show when={local.postInfo.requesterEntry}>
-        {(entry) => (
+      <Show when={local.postInfo.requesterOption}>
+        {(option) => (
           <span class={styles.author}>
             {'Requester: '}
             <Icon color="magic" size="small" variant="flat" class={styles.icon}>
-              {getUserEntryTitle(entry())[0]?.toLocaleUpperCase() ?? '?'}
+              {getUserOptionLetter(option())}
             </Icon>
-            {getUserEntryTitle(entry())}
+            {option().label}
           </span>
         )}
       </Show>

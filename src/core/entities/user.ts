@@ -1,4 +1,5 @@
 import type { Link } from './link.js';
+import type { Option } from './option.js';
 import type { Service } from './service.js';
 
 export const USER_ROLES = ['admin', 'author', 'requester', 'drawer', 'beginner', 'foreigner'] as const;
@@ -41,6 +42,13 @@ export function getUserEntryTitle(entry: UserEntry) {
   return entry[1]?.name || entry[0];
 }
 
-export function getUserEntryLetter(entry: UserEntry) {
-  return getUserEntryTitle(entry)[0]?.toLocaleUpperCase() || '?';
+export function getUserOptionLetter(option: Option) {
+  return option.label?.toLocaleUpperCase() || '?';
+}
+
+export function createUserOption(entry: UserEntry): Option {
+  return {
+    value: entry[0],
+    label: getUserEntryTitle(entry),
+  };
 }
