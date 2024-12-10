@@ -1,5 +1,5 @@
 import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
-import type { HelpPageData } from '../components/HelpPage/HelpPage.js';
+import type { HelpPageData } from '../components/HelpPage/HelpPage.data.js';
 
 export interface HelpRouteParams extends SiteRouteParams {
   topicId: string;
@@ -7,7 +7,7 @@ export interface HelpRouteParams extends SiteRouteParams {
 
 export const helpRoute: SiteRoute<HelpRouteParams, HelpPageData> = {
   path: '/help*',
-  info: (params, data) => {
+  meta: (params, data) => {
     const topicTitle = data?.topics[params.topicId]?.title || params.topicId;
     return {
       title: topicTitle || 'Help',
@@ -20,4 +20,5 @@ export const helpRoute: SiteRoute<HelpRouteParams, HelpPageData> = {
   mapParams: (params) => ({
     topicId: params['*']?.replace(/\//g, '') || '',
   }),
+  getData: async () => undefined as unknown as HelpPageData,
 };

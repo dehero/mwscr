@@ -7,11 +7,15 @@ import { defineConfig } from 'vite';
 import { imagetools } from 'vite-imagetools';
 import multiplePublicDirPlugin from 'vite-multiple-assets';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
+import pkg from './package.json';
 import { YAML_SCHEMA } from './src/local/data-managers/utils/yaml.js';
 import { dataExtractorPlugin } from './src/local/vite-plugins/data-extractor-plugin.js';
 
 export default defineConfig(({ isSsrBuild }) => ({
   root: 'src/site',
+  define: {
+    'import.meta.env.VITE_APP_VERSION': JSON.stringify('version' in pkg ? pkg.version : 'unknown'),
+  },
   plugins: [
     imagetools(),
     dataExtractorPlugin(),

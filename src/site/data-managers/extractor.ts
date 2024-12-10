@@ -30,7 +30,7 @@ class SiteDataExtractor extends DataExtractor {
   // }
 }
 
-export const siteDataExtractor = new SiteDataExtractor({
+export const dataExtractor = new SiteDataExtractor({
   postsManagers,
   locations,
   users,

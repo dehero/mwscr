@@ -1,15 +1,13 @@
 import { writeClipboard } from '@solid-primitives/clipboard';
 import clsx from 'clsx';
-import { type Component, For, Show } from 'solid-js';
-import { useData } from 'vike-solid/useData';
-import type { Link } from '../../../core/entities/link.js';
-import type { PostInfoSelection } from '../../../core/entities/post-info.js';
+import type { JSX } from 'solid-js';
+import { For, Show } from 'solid-js';
+import { usePageContext } from 'vike-solid/usePageContext';
 import { isPostsUsageEmpty } from '../../../core/entities/posts-usage.js';
-import type { UserInfo } from '../../../core/entities/user-info.js';
 import { telegram, TELEGRAM_BOT_NAME } from '../../../core/services/telegram.js';
-import { useParams } from '../../hooks/useParams.js';
+import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { postsRoute } from '../../routes/posts-route.js';
-import type { UserRouteParams } from '../../routes/user-route.js';
+import { userRoute } from '../../routes/user-route.js';
 import { Button } from '../Button/Button.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
@@ -22,43 +20,11 @@ import { Table } from '../Table/Table.js';
 import { useToaster } from '../Toaster/Toaster.js';
 import styles from './UserPage.module.css';
 
-export interface UserPageData {
-  userInfo?: UserInfo;
-  userLinks?: Link[];
-  lastPostInfo?: PostInfoSelection;
-  lastOriginalPostInfo?: PostInfoSelection;
-  firstPostInfo?: PostInfoSelection;
-  topRatedPostInfo?: PostInfoSelection;
-  topLikedPostInfo?: PostInfoSelection;
-  lessLikedPostInfo?: PostInfoSelection;
-  lastFulfilledPostInfo?: PostInfoSelection;
-  lastProposedPostInfo?: PostInfoSelection;
-  lastRequestedPostInfo?: PostInfoSelection;
-  lastRejectedPostInfo?: PostInfoSelection;
-  lastRejectedRequestInfo?: PostInfoSelection;
-  editorsChoicePostInfo?: PostInfoSelection;
-}
-
-export const UserPage: Component = () => {
+export const UserPage = (): JSX.Element => {
   const { addToast } = useToaster();
-  const params = useParams<UserRouteParams>();
-  const {
-    userInfo,
-    userLinks,
-    lastPostInfo,
-    lastOriginalPostInfo,
-    firstPostInfo,
-    topRatedPostInfo,
-    topLikedPostInfo,
-    lessLikedPostInfo,
-    lastFulfilledPostInfo,
-    lastProposedPostInfo,
-    lastRequestedPostInfo,
-    lastRejectedPostInfo,
-    lastRejectedRequestInfo,
-    editorsChoicePostInfo,
-  } = useData<UserPageData>();
 
+  const pageContext = usePageContext();
+  const { data, params } = useRouteInfo(pageContext, userRoute);
   const id = () => params().id;
 
   const copyIdToClipboard = () => {
@@ -67,7 +33,7 @@ export const UserPage: Component = () => {
   };
 
   return (
-    <Show when={userInfo}>
+    <Show when={data().userInfo}>
       {(userInfo) => (
         <Frame component="main" class={styles.container}>
           <Frame component="section" variant="thin" class={styles.main}>
@@ -83,9 +49,9 @@ export const UserPage: Component = () => {
               </Show>
             </div>
 
-            <Show when={userLinks && userLinks.length > 0}>
+            <Show when={data().userLinks && data().userLinks!.length > 0}>
               <p class={styles.links}>
-                <For each={userLinks}>
+                <For each={data().userLinks}>
                   {(link, index) => (
                     <>
                       <Show when={index() > 0}> • </Show>
@@ -215,7 +181,7 @@ export const UserPage: Component = () => {
             <Spacer />
 
             <div class={styles.id}>
-              <Input value={id()} readonly />
+              <Input value={params().id} readonly />
               <Button class={styles.copy} onClick={copyIdToClipboard}>
                 Copy
               </Button>
@@ -226,24 +192,24 @@ export const UserPage: Component = () => {
             <PostHighlights
               class={styles.postHighlights}
               items={[
-                { label: 'Last Post', primary: true, selection: lastPostInfo },
-                { label: 'Last Original Post', primary: true, selection: lastOriginalPostInfo },
-                { label: 'First Post', selection: firstPostInfo },
-                { label: 'Top Rated Post', selection: topRatedPostInfo },
-                { label: "Editor's Choice Post", selection: editorsChoicePostInfo },
-                { label: 'Top Liked Post', selection: topLikedPostInfo },
-                { label: 'Less Liked Post', selection: lessLikedPostInfo },
-                { label: 'Last Fulfilled Request', selection: lastFulfilledPostInfo },
+                { label: 'Last Post', primary: true, selection: data().lastPostInfo },
+                { label: 'Last Original Post', primary: true, selection: data().lastOriginalPostInfo },
+                { label: 'First Post', selection: data().firstPostInfo },
+                { label: 'Top Rated Post', selection: data().topRatedPostInfo },
+                { label: "Editor's Choice Post", selection: data().editorsChoicePostInfo },
+                { label: 'Top Liked Post', selection: data().topLikedPostInfo },
+                { label: 'Less Liked Post', selection: data().lessLikedPostInfo },
+                { label: 'Last Fulfilled Request', selection: data().lastFulfilledPostInfo },
               ]}
             />
 
             <PostHighlights
               class={styles.postHighlights}
               items={[
-                { label: 'Last Proposal', primary: true, selection: lastProposedPostInfo },
-                { label: 'Last Pending Request', selection: lastRequestedPostInfo },
-                { label: 'Last Rejected Proposal', selection: lastRejectedPostInfo },
-                { label: 'Last Rejected Request', selection: lastRejectedRequestInfo },
+                { label: 'Last Proposal', primary: true, selection: data().lastProposedPostInfo },
+                { label: 'Last Pending Request', selection: data().lastRequestedPostInfo },
+                { label: 'Last Rejected Proposal', selection: data().lastRejectedPostInfo },
+                { label: 'Last Rejected Request', selection: data().lastRejectedRequestInfo },
               ]}
             />
           </Frame>

@@ -8,7 +8,7 @@ import { useRouteInfo } from '../hooks/useRouteInfo.js';
 
 export default function Head() {
   const pageContext = usePageContext();
-  const routeInfo = useRouteInfo(pageContext);
+  const { meta } = useRouteInfo(pageContext);
 
   return (
     <>
@@ -18,7 +18,7 @@ export default function Head() {
       <meta
         name="description"
         content={
-          routeInfo?.description ||
+          meta().description ||
           'Original screenshots and videos from The Elder Scrolls III: Morrowind. No third-party mods. No color filters. No interface.'
         }
       />
@@ -26,12 +26,12 @@ export default function Head() {
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <link rel="manifest" href="/site.webmanifest" />
-      <meta property="og:title" content={routeInfo?.title || site.name} />
-      <Show when={routeInfo?.description}>
-        <meta property="og:description" content={routeInfo?.description} />
+      <meta property="og:title" content={meta().title || site.name} />
+      <Show when={meta().description}>
+        <meta property="og:description" content={meta().description} />
       </Show>
       <meta property="og:type" content="website" />
-      <For each={asArray(routeInfo?.imageUrl ?? icon)}>
+      <For each={asArray(meta().imageUrl ?? icon)}>
         {(url) => <meta property="og:image" content={`${site.origin}${getResourcePreviewUrl(url)}`} />}
       </For>
       <meta property="og:url" content={`${site.origin}${pageContext.urlPathname}`} />

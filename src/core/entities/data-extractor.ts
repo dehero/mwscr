@@ -21,9 +21,9 @@ export interface DataExtractorArgs {
 }
 
 export class DataExtractor {
-  protected readonly postsManagers: PostsManager[];
-  protected readonly locations: LocationsReader;
-  protected readonly users: UsersManager;
+  readonly postsManagers: PostsManager[];
+  readonly locations: LocationsReader;
+  readonly users: UsersManager;
 
   protected cache: Record<string, unknown> = {};
 
@@ -141,6 +141,12 @@ export class DataExtractor {
     );
 
     return [...ids].map((id) => infos.get(id)).filter((info): info is UserInfo => typeof info !== 'undefined');
+  }
+
+  async getUserOptions(id: string | string[]): Promise<Option<string>[]> {
+    const infos = await this.getUserInfos(id);
+
+    return infos?.map((info) => ({ label: info.title, value: info.id })) ?? [];
   }
 
   async getUserInfo(id: string) {

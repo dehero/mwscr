@@ -1,9 +1,9 @@
 import { makePersisted } from '@solid-primitives/storage';
-import { type Component, createEffect, createSignal, For, Show } from 'solid-js';
-import { useData } from 'vike-solid/useData';
-import type { Topic, TopicEntry } from '../../../core/entities/topic.js';
-import { useParams } from '../../hooks/useParams.js';
-import type { HelpRouteParams } from '../../routes/help-route.js';
+import type { JSX } from 'solid-js';
+import { createEffect, createSignal, For, Show } from 'solid-js';
+import { usePageContext } from 'vike-solid/usePageContext';
+import type { TopicEntry } from '../../../core/entities/topic.js';
+import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
@@ -11,13 +11,10 @@ import { PostProposalDialog } from '../PostProposalDialog/PostProposalDialog.js'
 import { PostRequestDialog } from '../PostRequestDialog/PostRequestDialog.js';
 import styles from './HelpPage.module.css';
 
-export interface HelpPageData {
-  topics: Record<string, Topic>;
-}
-
-export const HelpPage: Component = () => {
-  const { topics } = useData<HelpPageData>();
-  const params = useParams<HelpRouteParams>();
+export const HelpPage = (): JSX.Element => {
+  const pageContext = usePageContext();
+  const { data, params } = useRouteInfo(pageContext, helpRoute);
+  const { topics } = data();
   const topicId = () => params().topicId;
 
   const [messageTopicIds, setMessageTopicIds] = createSignal<string[]>([...new Set(['', topicId()])]);

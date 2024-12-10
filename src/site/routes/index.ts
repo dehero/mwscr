@@ -11,7 +11,7 @@ import { usersRoute } from './users-route.js';
 export const routes = [homeRoute, helpRoute, usersRoute, userRoute, postRoute, postsRoute, errorRoute];
 
 export interface RouteMatch {
-  route?: SiteRoute;
+  route: SiteRoute;
   params?: SiteRouteParams;
 }
 
@@ -25,5 +25,5 @@ export function resolveFirstRoute(pathname: string): RouteMatch {
     }
   }
 
-  return { route: undefined, params: undefined };
+  return { route: errorRoute, params: undefined };
 }

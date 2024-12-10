@@ -25,7 +25,7 @@ import {
 } from '../../../core/entities/post.js';
 import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/editing.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import { siteDataExtractor } from '../../data-managers/extractor.js';
+import { dataExtractor } from '../../data-managers/extractor.js';
 import { Button } from '../Button/Button.js';
 import { DatePicker } from '../DatePicker/DatePicker.jsx';
 import type { DialogProps } from '../Dialog/Dialog.js';
@@ -37,7 +37,7 @@ import { Select } from '../Select/Select.js';
 import styles from './PostEditingDialog.module.css';
 
 async function getLocationOptions(): Promise<Option[]> {
-  return (await siteDataExtractor.getAllLocationInfos())
+  return (await dataExtractor.getAllLocationInfos())
     .map((info) => ({
       value: info.title,
       label: info.title,
@@ -46,7 +46,7 @@ async function getLocationOptions(): Promise<Option[]> {
 }
 
 async function getUserOptions(): Promise<Option[]> {
-  return (await siteDataExtractor.getAllUserInfos())
+  return (await dataExtractor.getAllUserInfos())
     .map((info) => ({ label: info.title, value: info.id }))
     .sort((a, b) => a.label.localeCompare(b.label));
 }
