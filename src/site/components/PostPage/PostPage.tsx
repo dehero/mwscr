@@ -254,10 +254,10 @@ export const PostPage = (): JSX.Element => {
                   <Frame variant="thin" class={styles.request}>
                     <p class={styles.requestText}>{request().text}</p>
 
-                    <Show when={data().requesterInfo}>
-                      {(info) => (
+                    <Show when={data().requesterOption}>
+                      {(option) => (
                         <p class={styles.requestUser}>
-                          {info().title}, {formatDate(post.request?.date!)}
+                          {option().label}, {formatDate(post.request?.date!)}
                         </p>
                       )}
                     </Show>
@@ -353,8 +353,8 @@ export const PostPage = (): JSX.Element => {
                       value: POST_TYPES.find((info) => info.id === post.type)?.title,
                       link: postsRoute.createUrl({ managerName: params().managerName, type: post.type }),
                     },
-                    ...(data().authorInfos ?? []).map(
-                      (info): TableRow => ({
+                    ...(data().authorOptions ?? []).map(
+                      (option): TableRow => ({
                         label: 'Author',
                         value: () => (
                           <>
@@ -364,18 +364,18 @@ export const PostPage = (): JSX.Element => {
                               variant="flat"
                               class={clsx(styles.icon, styles.tableIcon)}
                             >
-                              {info.title[0]?.toLocaleUpperCase() || '?'}
+                              {option.label?.[0]?.toLocaleUpperCase() || '?'}
                             </Icon>
-                            {info.title}
+                            {option.label}
                           </>
                         ),
-                        link: userRoute.createUrl({ id: info.id }),
-                        tooltip: (ref) => <UserTooltip forRef={ref} userInfo={info} />,
+                        link: userRoute.createUrl({ id: option.value ?? '' }),
+                        tooltip: (ref) => <UserTooltip forRef={ref} user={option.value} />,
                       }),
                     ),
                     {
                       label: 'Requester',
-                      value: data().requesterInfo
+                      value: data().requesterOption
                         ? () => (
                             <>
                               <Icon
@@ -384,14 +384,16 @@ export const PostPage = (): JSX.Element => {
                                 variant="flat"
                                 class={clsx(styles.icon, styles.tableIcon)}
                               >
-                                {data().requesterInfo!.title[0]?.toLocaleUpperCase() || '?'}
+                                {data().requesterOption!.label?.[0]?.toLocaleUpperCase() || '?'}
                               </Icon>
-                              {data().requesterInfo!.title}
+                              {data().requesterOption!.label}
                             </>
                           )
                         : undefined,
-                      link: data().requesterInfo ? userRoute.createUrl({ id: data().requesterInfo!.id }) : undefined,
-                      tooltip: (ref) => <UserTooltip forRef={ref} userInfo={data().requesterInfo!} />,
+                      link: data().requesterOption
+                        ? userRoute.createUrl({ id: data().requesterOption!.value ?? '' })
+                        : undefined,
+                      tooltip: (ref) => <UserTooltip forRef={ref} user={data().requesterOption!.value} />,
                     },
                     { label: 'Engine', value: post.engine },
                     { label: 'Addon', value: post.addon },

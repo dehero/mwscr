@@ -34,7 +34,7 @@ export const UserPreview: Component<UserPreviewProps> = (props) => {
 
       <span class={styles.roles}>{props.userInfo.roles.join(', ')}</span>
 
-      <UserTooltip forRef={ref()} userInfo={props.userInfo} />
+      <UserTooltip forRef={ref()} user={props.userInfo} />
     </Frame>
   );
 };
