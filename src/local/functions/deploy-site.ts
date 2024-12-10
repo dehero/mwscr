@@ -28,6 +28,7 @@ export async function deploySite() {
       'server-dir': SITE_FTP_PATH,
       'local-dir': './dist/client/',
       exclude: ['./store/**'],
+      timeout: 60000,
     });
   } catch (error) {
     if (error instanceof Error) {
