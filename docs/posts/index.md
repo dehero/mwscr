@@ -4,7 +4,38 @@
 
 # Posted in 2024
 
-`287 items`
+`288 items`
+
+## <span id="2024-12-10-sunrise-over-the-ash-forest">Sunrise Over the Ash Forest</span>
+
+`RU` Рассвет над пепельным лесом
+
+<a href="https://instagram.com/p/BQkAhpBlGN3/" title="2017-02-16-sunrise-over-the-ash-forest"><img alt="store:/shots/2017-02-16-sunrise-over-the-ash-forest.png" src="../../assets/previews/shots/2017-02-16-sunrise-over-the-ash-forest.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-12-10-sunrise-over-the-ash-forest&postLocation=)</code> `🚀 OpenMW` `forest` `tree` `fog`
+
+```
+2024-12-10-sunrise-over-the-ash-forest
+```
+
+> `2017-02-16-sunrise-over-the-ash-forest`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BQkAhpBlGN3/)       | 2017-02-16 |       |    30 |        83 |  36.14 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_154)  | 2017-02-16 |   177 |    18 |        36 |     18 |
+| [`ig`](https://instagram.com/p/DDaE2mRTAPD/)       | 2024-12-10 |       |       |      1503 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1954) | 2024-12-10 |       |       |      1018 |        |
+| [`tg`](https://t.me/mwscr/621)                     | 2024-12-10 |       |       |       581 |        |
+|                                                    |            |       |       |      3102 |  27.07 |
+
+#### Comments
+
+- `vk` <ins title="2017-02-16-12-13-55">id178018548</ins> Напомнило
 
 ## <span id="2024-12-09-bridge-over-the-gorge">Bridge Over the Gorge</span>
 
@@ -24,10 +55,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDXl10_zw85/)       | 2024-12-09 |   302 |    89 |      1503 |   5.92 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1953) | 2024-12-09 |   194 |    26 |      1013 |   2.76 |
+| [`ig`](https://instagram.com/p/DDXl10_zw85/)       | 2024-12-09 |   309 |    89 |      1503 |   5.92 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1953) | 2024-12-09 |   200 |    26 |      1013 |   2.76 |
 | [`tg`](https://t.me/mwscr/620)                     | 2024-12-09 |   120 |    42 |       580 |   7.24 |
-|                                                    |            |   616 |   157 |      3096 |   5.31 |
+|                                                    |            |   629 |   157 |      3096 |   5.31 |
 
 ## <span id="2024-12-08-still-life-with-a-stem">Still Life with a Stem</span>
 
@@ -76,10 +107,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   340 |    85 |      1498 |   5.67 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   223 |    41 |      1012 |   4.15 |
-| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   185 |    54 |       579 |   9.33 |
-|                                                    |            |   748 |   180 |      3089 |   6.38 |
+| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   353 |    86 |      1498 |   5.74 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   248 |    41 |      1012 |   4.15 |
+| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   203 |    57 |       579 |   9.84 |
+|                                                    |            |   804 |   184 |      3089 |   6.58 |
 
 #### Comments
 
@@ -2968,8 +2999,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_749)  | 2018-05-30 |   271 |    21 |       167 |  12.57 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1745) | 2024-09-09 |   300 |    41 |       945 |   4.34 |
 | [`tg`](https://t.me/mwscr/527)                     | 2024-09-09 |   532 |    66 |       552 |  11.96 |
-| [`ig`](https://instagram.com/p/C_u6_wnNRdH/)       | 2024-09-10 |   384 |    91 |      1457 |   6.25 |
-|                                                    |            |  1216 |   198 |      2954 |  13.75 |
+| [`ig`](https://instagram.com/p/C_u6_wnNRdH/)       | 2024-09-10 |   387 |    91 |      1457 |   6.25 |
+|                                                    |            |  1219 |   198 |      2954 |  13.75 |
 
 #### Comments
 
