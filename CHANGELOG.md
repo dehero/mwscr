@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.24.1](https://github.com/dehero/mwscr/compare/v1.24.0...v1.24.1) (2024-12-10)
+
+### Bug Fixes
+
+- increase site deploying timeout
+  ([87e892b](https://github.com/dehero/mwscr/commit/87e892b090c99347ef5647ca4dcc1e64ff145340))
+
 ## [1.24.0](https://github.com/dehero/mwscr/compare/v1.23.1...v1.24.0) (2024-12-10)
 
 ### Features
