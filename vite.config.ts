@@ -8,8 +8,9 @@ import { imagetools } from 'vite-imagetools';
 import multiplePublicDirPlugin from 'vite-multiple-assets';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 import pkg from './package.json';
+import { POSTS_MANAGER_INFOS } from './src/core/entities/posts-manager.js';
+import { dataExtractor } from './src/local/data-managers/extractor.js';
 import { YAML_SCHEMA } from './src/local/data-managers/utils/yaml.js';
-import { dataExtractorPlugin } from './src/local/vite-plugins/data-extractor-plugin.js';
 
 export default defineConfig(({ isSsrBuild }) => ({
   root: 'src/site',
@@ -18,7 +19,6 @@ export default defineConfig(({ isSsrBuild }) => ({
   },
   plugins: [
     imagetools(),
-    dataExtractorPlugin(),
     // TODO: add sitemap after https://github.com/vikejs/vike/issues/1451 gets resolved
     vike({ prerender: true, trailingSlash: true }),
     vikeSolid(),
@@ -51,6 +51,24 @@ export default defineConfig(({ isSsrBuild }) => ({
             ),
           rename: 'index.json',
         },
+        {
+          src: '../../data/locations.yml',
+          dest: 'data',
+          transform: async () => JSON.stringify(await dataExtractor.getAllLocationInfos()),
+          rename: 'location-infos.json',
+        },
+        {
+          src: '../../data/users.yml',
+          dest: 'data',
+          transform: async () => JSON.stringify(await dataExtractor.getAllUserInfos()),
+          rename: 'user-infos.json',
+        },
+        ...POSTS_MANAGER_INFOS.map(({ id }) => ({
+          src: `../../data/${id}/*.yml`,
+          dest: `data/${id}`,
+          transform: async () => JSON.stringify(await dataExtractor.getAllPostInfos(id)),
+          rename: `infos.json`,
+        })),
       ],
     }),
   ],
