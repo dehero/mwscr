@@ -963,7 +963,7 @@
     - service: vk
       id: 1487
       published: 2024-04-08-18-19-47
-      updated: 2024-12-03-13-20-16
+      updated: 2024-12-10-13-38-23
       followers: 909
       likes: 31
       views: 197
@@ -971,10 +971,10 @@
     - service: tg
       id: 372
       published: 2024-04-08-18-19-56
-      updated: 2024-12-03-13-20-14
+      updated: 2024-12-10-13-38-20
       followers: 354
       likes: 60
-      views: 450
+      views: 451
 2024-04-09-telvanni-council-house:
   title: Telvanni Council House
   titleRu: Дом Совета Телванни
@@ -1176,7 +1176,7 @@
     - service: vk
       id: 1495
       published: 2024-04-15-18-17-46
-      updated: 2024-12-03-13-20-15
+      updated: 2024-12-10-13-38-23
       followers: 910
       likes: 47
       views: 291
@@ -1185,7 +1185,7 @@
     - service: tg
       id: 379
       published: 2024-04-15-18-17-53
-      updated: 2024-12-03-12-14-36
+      updated: 2024-12-10-13-38-20
       followers: 352
       likes: 60
       views: 514
@@ -1308,7 +1308,7 @@
     - service: vk
       id: 1505
       published: 2024-04-22-18-17-36
-      updated: 2024-12-03-12-14-39
+      updated: 2024-12-10-13-38-22
       followers: 909
       likes: 31
       views: 246
@@ -1316,10 +1316,10 @@
     - service: tg
       id: 386
       published: 2024-04-22-18-17-44
-      updated: 2024-12-03-12-14-36
+      updated: 2024-12-10-13-38-19
       followers: 354
       likes: 65
-      views: 484
+      views: 485
 2024-04-23-evening-mournhold: 2017-11-28-evening-mournhold
 2024-04-24-muckspunges-on-the-coast:
   title: Muckspunges on the Coast
@@ -1420,14 +1420,14 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
-      updated: 2024-12-03-12-14-38
+      updated: 2024-12-10-13-38-21
       followers: 912
       likes: 36
       views: 264
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2024-12-03-12-14-36
+      updated: 2024-12-10-13-38-19
       followers: 354
       likes: 64
       views: 484
@@ -1589,7 +1589,7 @@
     - service: vk
       id: 1523
       published: 2024-05-06-18-21-06
-      updated: 2024-12-03-12-14-38
+      updated: 2024-12-10-13-38-20
       followers: 913
       likes: 44
       views: 321
@@ -1597,7 +1597,7 @@
     - service: tg
       id: 400
       published: 2024-05-06-18-21-14
-      updated: 2024-12-03-12-14-35
+      updated: 2024-12-10-13-38-18
       followers: 371
       likes: 60
       views: 476
@@ -1918,14 +1918,14 @@
     - service: vk
       id: 1539
       published: 2024-05-20-18-19-27
-      updated: 2024-12-03-12-14-36
+      updated: 2024-12-10-13-38-18
       followers: 916
       likes: 36
       views: 275
     - service: tg
       id: 414
       published: 2024-05-20-18-19-34
-      updated: 2024-12-03-12-14-34
+      updated: 2024-12-10-13-38-17
       followers: 372
       likes: 63
       views: 502
@@ -3030,25 +3030,25 @@
       id: DDU7Fn4tBjR
       mediaId: '18050137007091471'
       published: 2024-12-08-18-10-05
-      updated: 2024-12-10-11-54-30
+      updated: 2024-12-10-13-38-15
       followers: 1500
       likes: 68
       views: 302
     - service: vk
       id: 1950
       published: 2024-12-08-18-10-10
-      updated: 2024-12-10-11-54-30
+      updated: 2024-12-10-13-38-15
       followers: 1012
-      likes: 23
-      views: 208
+      likes: 24
+      views: 213
       reposts: 1
     - service: tg
       id: 619
       published: 2024-12-08-18-10-15
-      updated: 2024-12-10-11-54-30
+      updated: 2024-12-10-13-38-15
       followers: 581
       likes: 49
-      views: 162
+      views: 163
 2024-12-09-bridge-over-the-gorge:
   title: Bridge Over the Gorge
   titleRu: Мост над ущельем
@@ -3066,22 +3066,22 @@
       id: DDXl10_zw85
       mediaId: '17948952500870430'
       published: 2024-12-09-19-02-09
-      updated: 2024-12-10-11-54-29
+      updated: 2024-12-10-13-38-13
       followers: 1503
-      likes: 82
-      views: 268
+      likes: 87
+      views: 282
     - service: vk
       id: 1953
       published: 2024-12-09-19-02-15
-      updated: 2024-12-10-11-54-29
+      updated: 2024-12-10-13-38-14
       followers: 1013
       likes: 24
-      views: 167
+      views: 177
       reposts: 2
     - service: tg
       id: 620
       published: 2024-12-09-19-02-22
-      updated: 2024-12-10-11-54-30
+      updated: 2024-12-10-13-38-14
       followers: 580
       likes: 38
-      views: 113
+      views: 116
