@@ -1,11 +1,11 @@
 import { writeClipboard } from '@solid-primitives/clipboard';
 import clsx from 'clsx';
 import JsFileDownloader from 'js-file-downloader';
-import { type Component, createSignal, Match, onMount, Show, Switch } from 'solid-js';
+import type { JSX } from 'solid-js';
+import { createSignal, Match, onMount, Show, Switch } from 'solid-js';
 import { navigate } from 'vike/client/router';
-import { useData } from 'vike-solid/useData';
-import type { LocationInfo } from '../../../core/entities/location-info.js';
-import type { Post, PostEntry } from '../../../core/entities/post.js';
+import { usePageContext } from 'vike-solid/usePageContext';
+import type { PostEntry } from '../../../core/entities/post.js';
 import {
   getPostCommentCount,
   getPostDateById,
@@ -21,14 +21,13 @@ import {
 } from '../../../core/entities/post.js';
 import { isPublishablePost, isTrashItem } from '../../../core/entities/post-variation.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
-import type { UserInfo } from '../../../core/entities/user-info.js';
 import { youtube } from '../../../core/services/youtube.js';
 import { store } from '../../../core/stores/index.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
-import { useParams } from '../../hooks/useParams.js';
+import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
-import { postRoute, type PostRouteParams } from '../../routes/post-route.js';
+import { postRoute } from '../../routes/post-route.js';
 import { postsRoute, postsRouteInfos } from '../../routes/posts-route.js';
 import { userRoute } from '../../routes/user-route.js';
 import { Button } from '../Button/Button.js';
@@ -55,42 +54,30 @@ import { UserTooltip } from '../UserTooltip/UserTooltip.js';
 import { WorldMap } from '../WorldMap/WorldMap.js';
 import styles from './PostPage.module.css';
 
-export interface PostPageData {
-  post: Post | undefined;
-  refId: string | undefined;
-  authorInfos: UserInfo[] | undefined;
-  requesterInfo: UserInfo | undefined;
-  usedTags: Array<[string, number]> | undefined;
-  locationInfos: LocationInfo[] | undefined;
-  worldMapLocationInfo: LocationInfo | undefined;
-}
-
-export const PostPage: Component = () => {
+export const PostPage = (): JSX.Element => {
   const { addToast } = useToaster();
-  const params = useParams<PostRouteParams>();
+  const pageContext = usePageContext();
+  const { data, params } = useRouteInfo(pageContext, postRoute);
   let selectedContentRef: HTMLImageElement | undefined;
 
   const [selectedContentIndex, setSelectedContentIndex] = createSignal(0);
 
-  const id = () => params().id;
-  const data = useData<PostPageData>();
   const managerInfo = () => postsRouteInfos[params().managerName];
+  const postEntry = (): PostEntry | undefined => (data().post ? [params().id, data().post!] : undefined);
 
-  const postEntry = (): PostEntry | undefined => (data.post ? [id(), data.post] : undefined);
+  const date = () => getPostDateById(params().id);
+  const refDate = () => (data().refId ? getPostDateById(data().refId!) : undefined);
 
-  const date = () => getPostDateById(id());
-  const refDate = () => (data.refId ? getPostDateById(data.refId) : undefined);
-
-  const title = () => data.post?.title || 'Untitled';
-  const titleRu = () => data.post?.titleRu || 'Без названия';
-  const content = () => asArray(data.post?.content);
+  const title = () => data().post?.title || 'Untitled';
+  const titleRu = () => data().post?.titleRu || 'Без названия';
+  const content = () => asArray(data().post?.content);
   const contentPublicUrls = () => content().map((url) => store.getPublicUrl(parseResourceUrl(url).pathname));
-  const aspectRatio = () => (data.post ? getPostTypeAspectRatio(data.post.type) : '1/1');
-  const alt = () => data.post?.tags?.join(' ');
+  const aspectRatio = () => (data().post ? getPostTypeAspectRatio(data().post!.type) : '1/1');
+  const alt = () => data().post?.tags?.join(' ');
   const publishableErrors = () => {
     const errors: string[] = [];
-    if (data.post && !isTrashItem(data.post)) {
-      isPublishablePost(data.post, errors);
+    if (data().post && !isTrashItem(data().post!)) {
+      isPublishablePost(data().post!, errors);
     }
 
     return errors.length > 0 ? errors : undefined;
@@ -99,15 +86,15 @@ export const PostPage: Component = () => {
   const selectedContent = () => content()[selectedContentIndex()];
   const selectedContentPublicUrl = () => contentPublicUrls()[selectedContentIndex()];
 
-  const youtubePost = () => data.post?.posts?.find((post) => post.service === 'yt');
+  const youtubePost = () => data().post?.posts?.find((post) => post.service === 'yt');
   const youtubeUrl = () => (youtubePost() ? youtube.getPublicationUrl(youtubePost()!, true) : undefined);
 
-  const published = () => Boolean(data.post?.posts);
+  const published = () => Boolean(data().post?.posts);
   const withContent = () => content().length > 0;
   const withFullSizeContent = () =>
     Boolean(published() || contentPublicUrls().find((url) => typeof url === 'string') || youtubePost());
   const withContentSelection = () => withFullSizeContent() && content().length > 1;
-  const withRequest = () => Boolean(data.post?.request);
+  const withRequest = () => Boolean(data().post?.request);
 
   const [showEditingDialog, setShowEditingDialog] = createSignal(false);
   const [showLocationDialog, setShowLocationDialog] = createSignal(false);
@@ -121,7 +108,7 @@ export const PostPage: Component = () => {
   };
 
   const copyIdToClipboard = () => {
-    writeClipboard(id());
+    writeClipboard(params().id);
     addToast('Post ID copied to clipboard');
   };
 
@@ -171,7 +158,7 @@ export const PostPage: Component = () => {
         withContentSelection() && styles.withContentSelection,
         withFullSizeContent() && styles.withFullSizeContent,
         withRequest() && styles.withRequest,
-        data.post?.type && styles[data.post.type],
+        data().post?.type && styles[data().post!.type],
       )}
     >
       <Toast message="Loading Content" show={content().length > 0 && isLoading()} loading />
@@ -267,7 +254,7 @@ export const PostPage: Component = () => {
                   <Frame variant="thin" class={styles.request}>
                     <p class={styles.requestText}>{request().text}</p>
 
-                    <Show when={data.requesterInfo}>
+                    <Show when={data().requesterInfo}>
                       {(info) => (
                         <p class={styles.requestUser}>
                           {info().title}, {formatDate(post.request?.date!)}
@@ -357,8 +344,8 @@ export const PostPage: Component = () => {
                     {
                       label: 'Original Post Date',
                       value: isValidDate(refDate()) ? refDate() : undefined,
-                      link: data.refId
-                        ? postRoute.createUrl({ managerName: params().managerName, id: data.refId })
+                      link: data().refId
+                        ? postRoute.createUrl({ managerName: params().managerName, id: data().refId! })
                         : undefined,
                     },
                     {
@@ -366,7 +353,7 @@ export const PostPage: Component = () => {
                       value: POST_TYPES.find((info) => info.id === post.type)?.title,
                       link: postsRoute.createUrl({ managerName: params().managerName, type: post.type }),
                     },
-                    ...(data.authorInfos ?? []).map(
+                    ...(data().authorInfos ?? []).map(
                       (info): TableRow => ({
                         label: 'Author',
                         value: () => (
@@ -388,7 +375,7 @@ export const PostPage: Component = () => {
                     ),
                     {
                       label: 'Requester',
-                      value: data.requesterInfo
+                      value: data().requesterInfo
                         ? () => (
                             <>
                               <Icon
@@ -397,14 +384,14 @@ export const PostPage: Component = () => {
                                 variant="flat"
                                 class={clsx(styles.icon, styles.tableIcon)}
                               >
-                                {data.requesterInfo!.title[0]?.toLocaleUpperCase() || '?'}
+                                {data().requesterInfo!.title[0]?.toLocaleUpperCase() || '?'}
                               </Icon>
-                              {data.requesterInfo!.title}
+                              {data().requesterInfo!.title}
                             </>
                           )
                         : undefined,
-                      link: data.requesterInfo ? userRoute.createUrl({ id: data.requesterInfo!.id }) : undefined,
-                      tooltip: (ref) => <UserTooltip forRef={ref} userInfo={data.requesterInfo!} />,
+                      link: data().requesterInfo ? userRoute.createUrl({ id: data().requesterInfo!.id }) : undefined,
+                      tooltip: (ref) => <UserTooltip forRef={ref} userInfo={data().requesterInfo!} />,
                     },
                     { label: 'Engine', value: post.engine },
                     { label: 'Addon', value: post.addon },
@@ -433,7 +420,7 @@ export const PostPage: Component = () => {
                   ]}
                 />
 
-                <Show when={data.locationInfos?.length}>
+                <Show when={data().locationInfos?.length}>
                   <Divider />
 
                   <Table
@@ -446,7 +433,7 @@ export const PostPage: Component = () => {
                       )
                     }
                     rows={
-                      data.locationInfos?.map((info) => ({
+                      data().locationInfos?.map((info) => ({
                         label: info.title,
                         value: info.discovered?.posts,
                         link: postsRoute.createUrl({ managerName: 'posts', location: info.title, original: 'true' }),
@@ -457,13 +444,13 @@ export const PostPage: Component = () => {
                   />
                 </Show>
 
-                <Show when={data.usedTags?.length}>
+                <Show when={data().usedTags?.length}>
                   <Divider />
 
                   <Table
                     label="Tags"
                     rows={
-                      data.usedTags?.map(([label, count]) => ({
+                      data().usedTags?.map(([label, count]) => ({
                         label,
                         value: count,
                         link: postsRoute.createUrl({ managerName: 'posts', tag: label, original: 'true' }),
@@ -556,19 +543,19 @@ export const PostPage: Component = () => {
                   />
                 </Show>
 
-                <Show when={data.worldMapLocationInfo}>
+                <Show when={data().worldMapLocationInfo}>
                   <Frame class={styles.mapWrapper}>
                     <WorldMap
                       class={styles.map}
-                      locations={[data.worldMapLocationInfo!]}
-                      currentLocation={data.worldMapLocationInfo!.title}
-                      discoveredLocations={data.locationInfos?.map((info) => info.title)}
+                      locations={[data().worldMapLocationInfo!]}
+                      currentLocation={data().worldMapLocationInfo!.title}
+                      discoveredLocations={data().locationInfos?.map((info) => info.title)}
                       onCurrentLocationChange={() =>
                         // @ts-expect-error No proper typing for navigate
                         navigate(
                           postsRoute.createUrl({
                             managerName: 'posts',
-                            location: data.worldMapLocationInfo!.title,
+                            location: data().worldMapLocationInfo!.title,
                             original: 'true',
                           }),
                         )

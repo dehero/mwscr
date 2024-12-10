@@ -1,6 +1,7 @@
 import type { PostsManagerName } from '../../core/entities/posts-manager.js';
 import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
-import type { PostsPageData, PostsPageInfo, PostsPageSearchParams } from '../components/PostsPage/PostsPage.js';
+import { getPostsPageData, type PostsPageData } from '../components/PostsPage/PostsPage.data.js';
+import type { PostsPageInfo, PostsPageSearchParams } from '../components/PostsPage/PostsPage.js';
 
 export interface PostsRouteParams extends SiteRouteParams, PostsPageSearchParams {
   managerName: PostsManagerName;
@@ -38,7 +39,7 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
 export const postsRoute: SiteRoute<PostsRouteParams, PostsPageData, PostsPageInfo> = {
   path: '/@managerName',
   guard: ({ managerName }) => Object.keys(postsRouteInfos).includes(managerName),
-  info: ({ managerName }, data) => ({
+  meta: ({ managerName }, data) => ({
     ...postsRouteInfos[managerName],
     imageUrl: data?.lastPostInfos.items[0]?.content,
   }),
@@ -50,4 +51,5 @@ export const postsRoute: SiteRoute<PostsRouteParams, PostsPageData, PostsPageInf
 
     return `/${managerName}/${searchParams.size > 0 ? '?' : ''}${searchParams.toString()}`;
   },
+  getData: getPostsPageData,
 };

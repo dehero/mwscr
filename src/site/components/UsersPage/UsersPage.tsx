@@ -1,21 +1,20 @@
 import { createMediaQuery } from '@solid-primitives/media';
 import { makePersisted } from '@solid-primitives/storage';
-import { type Component, createResource, createSignal, For, Show } from 'solid-js';
-import { useData } from 'vike-solid/useData';
+import type { JSX } from 'solid-js';
+import { createResource, createSignal, For, Show } from 'solid-js';
+import { usePageContext } from 'vike-solid/usePageContext';
 import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION } from '../../../core/entities/option.js';
 import type { UserRole } from '../../../core/entities/user.js';
 import { USER_ROLES } from '../../../core/entities/user.js';
-import type {
-  SelectUserInfosParams,
-  SelectUserInfosSortKey,
-  UserInfoSelection,
-} from '../../../core/entities/user-info.js';
+import type { SelectUserInfosParams, SelectUserInfosSortKey } from '../../../core/entities/user-info.js';
 import { selectUserInfosResultToString, selectUserInfosSortOptions } from '../../../core/entities/user-info.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { isObjectEqual } from '../../../core/utils/common-utils.js';
-import { siteDataExtractor } from '../../data-managers/extractor.js';
+import { dataExtractor } from '../../data-managers/extractor.js';
+import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
+import { usersRoute } from '../../routes/users-route.js';
 import { Button } from '../Button/Button.js';
 import { Checkbox } from '../Checkbox/Checkbox.jsx';
 import { Divider } from '../Divider/Divider.jsx';
@@ -59,13 +58,11 @@ const presets = [
   },
 ] as const satisfies UsersPagePreset[];
 
-export interface UsersPageData {
-  firstUserInfos: UserInfoSelection;
-}
-
-export const UsersPage: Component = () => {
+export const UsersPage = (): JSX.Element => {
   const [searchParams, setSearchParams] = useSearchParams<UsersPageSearchParams>();
-  const { firstUserInfos } = useData<UsersPageData>();
+
+  const pageContext = usePageContext();
+  const { data } = useRouteInfo(pageContext, usersRoute);
   const narrowScreen = createMediaQuery('(max-width: 811px)');
 
   const presetOptions = (): UsersPagePreset[] => {
@@ -73,18 +70,18 @@ export const UsersPage: Component = () => {
     const currentPreset = presets.find((preset) => isObjectEqual(preset.searchParams, searchParams));
 
     if (!currentPreset) {
-      options.push({ value: 'custom', label: 'Custom Selection', searchParams });
+      options.push({ value: 'custom', label: 'Custom Selection', searchParams: searchParams() });
     }
 
     return options;
   };
 
-  const userRole = () => USER_ROLES.find((type) => type === searchParams.role);
+  const userRole = () => USER_ROLES.find((type) => type === searchParams().role);
   const sortKey = () =>
-    selectUserInfosSortOptions.find((sortOption) => sortOption.value === searchParams.sort?.split(',')[0])?.value ||
+    selectUserInfosSortOptions.find((sortOption) => sortOption.value === searchParams().sort?.split(',')[0])?.value ||
     'contribution';
-  const sortDirection = () => (searchParams.sort?.split(',')[1] === 'asc' ? 'asc' : 'desc');
-  const searchTerm = () => searchParams.search;
+  const sortDirection = () => (searchParams().sort?.split(',')[1] === 'asc' ? 'asc' : 'desc');
+  const searchTerm = () => searchParams().search;
   const preset = () => presetOptions().find((preset) => isObjectEqual(preset.searchParams, searchParams))?.value;
 
   const setUserRole = (role: UserRole | undefined) => setSearchParams({ role });
@@ -108,10 +105,10 @@ export const UsersPage: Component = () => {
     sortDirection: sortDirection(),
   });
 
-  const [selectedUserInfos] = createResource(selectParams, (params) => siteDataExtractor.selectUserInfos(params));
+  const [selectedUserInfos] = createResource(selectParams, (params) => dataExtractor.selectUserInfos(params));
 
   const userInfos = () =>
-    selectedUserInfos.state === 'ready' ? selectedUserInfos() : selectedUserInfos.latest || firstUserInfos;
+    selectedUserInfos.state === 'ready' ? selectedUserInfos() : selectedUserInfos.latest || data().firstUserInfos;
 
   return (
     <Frame component="main" class={styles.container}>

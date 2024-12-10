@@ -7,7 +7,9 @@ import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../core/entities/option.js';
 import type { PostViolation } from '../../../core/entities/post.js';
 import { POST_MARKS, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
+import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
 import { boolToString, stringToBool } from '../../../core/utils/common-utils.js';
+import type { PostsRouteParams } from '../../routes/posts-route.js';
 import { Button } from '../Button/Button.js';
 import { Checkbox } from '../Checkbox/Checkbox.js';
 import { DatePicker } from '../DatePicker/DatePicker.jsx';
@@ -22,9 +24,10 @@ import { Spacer } from '../Spacer/Spacer.js';
 import { Table } from '../Table/Table.jsx';
 import { Toast } from '../Toaster/Toaster.js';
 import { WorldMap } from '../WorldMap/WorldMap.jsx';
+import type { usePostsPageParameters } from './hooks/usePostsPageParameters.js';
 import styles from './Parameters.module.css';
-import type { PostsPageData, PostsPageInfo } from './PostsPage.jsx';
-import type { usePostsPageParameters } from './usePostsPageParameters.js';
+import type { PostsPageData } from './PostsPage.data.js';
+import type { PostsPageInfo } from './PostsPage.jsx';
 
 interface LocationOption extends Option {
   postCount?: number;
@@ -40,7 +43,7 @@ const viewOptions = [
 type View = (typeof viewOptions)[number]['value'];
 
 export interface ParametersProps {
-  info?: PostsPageInfo;
+  routeInfo: SiteRouteInfo<PostsRouteParams, unknown, PostsPageInfo>;
   parameters: ReturnType<typeof usePostsPageParameters>;
   class?: string;
   expandedOnNarrowScreen: boolean;
@@ -62,7 +65,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
       .map((info) => ({
         label: info.title,
         value: info.title,
-        postCount: info.discovered?.[props.parameters.routeParams().managerName],
+        postCount: info.discovered?.[props.routeInfo.params().managerName],
         info,
       }))
       .sort((a, b) => a.label.localeCompare(b.label)),
@@ -71,7 +74,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
     ALL_OPTION,
     ...authorInfos.map(
       (info): Option => ({
-        label: `${info.title} (${info.authored?.[props.parameters.routeParams().managerName]})`,
+        label: `${info.title} (${info.authored?.[props.routeInfo.params().managerName]})`,
         value: info.id,
       }),
     ),
@@ -82,7 +85,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
     NONE_OPTION,
     ...requesterInfos.map(
       (info): Option => ({
-        label: `${info.title} (${info.requested?.[props.parameters.routeParams().managerName]})`,
+        label: `${info.title} (${info.requested?.[props.routeInfo.params().managerName]})`,
         value: info.id,
       }),
     ),
@@ -169,7 +172,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 />
               </Label>
 
-              <Show when={!props.info?.filters || props.info.filters.includes('original')}>
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('original')}>
                 <Label label="Originality" component="div" vertical>
                   <RadioGroup
                     name="original"
@@ -180,7 +183,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info.filters.includes('publishable')}>
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('publishable')}>
                 <Label label="Publishability" component="div" vertical>
                   <RadioGroup
                     name="publishable"
@@ -191,7 +194,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info.filters.includes('date')}>
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('date')}>
                 <Label label="Date" vertical>
                   <DatePicker
                     value={props.parameters.date()}
@@ -202,7 +205,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info.filters.includes('type')}>
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('type')}>
                 <Label label="Type" vertical>
                   <Select
                     name="type"
@@ -244,7 +247,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </fieldset>
               </Label>
 
-              <Show when={!props.info?.filters || props.info.filters.includes('location')}>
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('location')}>
                 <Label label="Location" vertical class={styles.label}>
                   <Button onClick={() => setView('locations')}>
                     {locationOption()?.label}
@@ -253,7 +256,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info.filters.includes('tag')}>
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('tag')}>
                 <Label label="Tag" vertical>
                   <div class={styles.selectWrapper}>
                     <Select
@@ -267,7 +270,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info.filters.includes('author')}>
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('author')}>
                 <Label label="Author" vertical>
                   <div class={styles.selectWrapper}>
                     <Select
@@ -281,7 +284,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info.filters.includes('requester')}>
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('requester')}>
                 <Label label="Requester" vertical>
                   <div class={styles.selectWrapper}>
                     <Select
@@ -295,7 +298,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info.filters.includes('mark')}>
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('mark')}>
                 <Label label="Editor's Mark" vertical>
                   <div class={styles.selectWrapper}>
                     <Select
@@ -309,7 +312,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Show when={!props.info?.filters || props.info.filters.includes('violation')}>
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('violation')}>
                 <Label label="Violation" vertical>
                   <div class={styles.selectWrapper}>
                     <Select

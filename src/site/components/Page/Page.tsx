@@ -16,7 +16,7 @@ export interface PageProps {
 
 export const Page: Component<PageProps> = (props) => {
   const pageContext = usePageContext();
-  const info = () => useRouteInfo(pageContext);
+  const meta = () => useRouteInfo(pageContext).meta();
   const [showLoadingToast, setShowLoadingToast] = createSignal(true);
 
   const handleTransitionStart = debounce(() => setShowLoadingToast(true), 100);
@@ -45,7 +45,7 @@ export const Page: Component<PageProps> = (props) => {
         ]}
       >
         <Frame variant="thick" component="header" class={styles.header}>
-          <h1 class={styles.title}>{info()?.title || 'Morrowind Screenshots'}</h1>
+          <h1 class={styles.title}>{meta().title || 'Morrowind Screenshots'}</h1>
         </Frame>
 
         <Navigation />

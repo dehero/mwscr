@@ -3,7 +3,7 @@ import { locations } from './locations.js';
 import { postsManagers } from './posts.js';
 import { users } from './users.js';
 
-export const localDataExtractor = new DataExtractor({
+export const dataExtractor = new DataExtractor({
   postsManagers,
   locations,
   users,

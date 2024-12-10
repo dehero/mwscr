@@ -24,34 +24,34 @@ const navigationItems = [
 ] as RouteMatch[];
 
 export function createOption({ route, params }: RouteMatch): Option {
-  const info = route?.info(params as never);
-  const url = route?.createUrl(params as never);
+  const info = route.meta(params as never);
+  const url = route.createUrl(params as never);
 
   return {
-    label: info?.label || info?.title || 'unknown',
+    label: info.label || info.title || 'unknown',
     value: url,
   };
 }
 
 export const Navigation: Component = () => {
-  const location = usePageContext().urlParsed;
-  const pageContent = usePageContext();
-  const currentRouteInfo = () => useRouteInfo(pageContent);
+  const pageContext = usePageContext();
+  const pathname = () => useRouteInfo(pageContext).pathname();
+  const meta = () => useRouteInfo(pageContext).meta();
 
   const options = () => navigationItems.map((item) => createOption(item));
   const selectedOption = () =>
     options().find((option) =>
-      location.pathname === '/'
-        ? option.value === location.pathname
+      pathname() === '/'
+        ? option.value === pathname()
         : option.value && option.value !== '/'
-          ? location.pathname.startsWith(option.value)
+          ? pathname().startsWith(option.value)
           : undefined,
     );
 
   const breadcrumbs = () => {
-    const parts = ['', ...location.pathname.split('/').filter(Boolean)];
+    const parts = ['', ...pathname().split('/').filter(Boolean)];
     const options: Option[] = [];
-    const locationInfo = currentRouteInfo();
+    const locationMeta = meta();
 
     let url = '';
 
@@ -64,7 +64,7 @@ export const Navigation: Component = () => {
       options.push(createOption(item));
     }
 
-    options.push({ label: locationInfo?.label || locationInfo?.title || 'unknown', value: location.pathname });
+    options.push({ label: locationMeta.label || locationMeta.title || 'unknown', value: pathname() });
 
     return options;
   };

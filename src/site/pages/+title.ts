@@ -2,7 +2,7 @@ import type { PageContext } from 'vike/types';
 import { useRouteInfo } from '../hooks/useRouteInfo.js';
 
 export default function title(pageContext: PageContext) {
-  const routeInfo = useRouteInfo(pageContext);
+  const { meta } = useRouteInfo(pageContext);
 
-  return [routeInfo?.title, 'Morrowind Screenshots'].filter(Boolean).join(' — ');
+  return [meta().title, 'Morrowind Screenshots'].filter(Boolean).join(' — ');
 }

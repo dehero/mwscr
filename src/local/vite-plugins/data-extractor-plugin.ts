@@ -1,7 +1,7 @@
 import toSource from 'tosource';
 import type { Plugin } from 'vite';
 import { POSTS_MANAGER_INFOS } from '../../core/entities/posts-manager.js';
-import { localDataExtractor } from '../data-managers/extractor.js';
+import { dataExtractor } from '../data-managers/extractor.js';
 
 const virtualModulesRegex = /^\0?virtual:(locationInfos|postInfos|userInfos)(?:\?(.*))?$/;
 
@@ -26,16 +26,16 @@ export function dataExtractorPlugin(): Plugin {
 
       switch (virtualModuleId) {
         case 'locationInfos':
-          data = await localDataExtractor.getAllLocationInfos();
+          data = await dataExtractor.getAllLocationInfos();
           break;
         case 'postInfos': {
           const managerName =
             POSTS_MANAGER_INFOS.find(({ id }) => id === searchParams.get('managerName'))?.id || 'posts';
-          data = await localDataExtractor.getAllPostInfos(managerName);
+          data = await dataExtractor.getAllPostInfos(managerName);
           break;
         }
         case 'userInfos':
-          data = await localDataExtractor.getAllUserInfos();
+          data = await dataExtractor.getAllUserInfos();
           break;
         default:
           return null;

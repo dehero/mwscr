@@ -1,17 +1,16 @@
-import type { Accessor } from 'solid-js';
-import type { Option } from '../../../core/entities/option.js';
-import { ANY_OPTION, NONE_OPTION } from '../../../core/entities/option.js';
-import type { PostMark, PostType } from '../../../core/entities/post.js';
-import { POST_MARKS, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
-import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../core/entities/post-info.js';
-import { selectPostInfosSortOptions } from '../../../core/entities/post-info.js';
-import type { DateRange, SortDirection } from '../../../core/utils/common-types.js';
-import { isObjectEqual, stringToBool } from '../../../core/utils/common-utils.js';
-import { dateRangeToString, stringToDateRange } from '../../../core/utils/date-utils.js';
-import { useParams } from '../../hooks/useParams.js';
-import { useSearchParams } from '../../hooks/useSearchParams.js';
-import type { PostsRouteParams } from '../../routes/posts-route.js';
-import type { PostsPageInfo, PostsPageSearchParams } from './PostsPage.jsx';
+import type { Option } from '../../../../core/entities/option.js';
+import { ANY_OPTION, NONE_OPTION } from '../../../../core/entities/option.js';
+import type { PostMark, PostType } from '../../../../core/entities/post.js';
+import { POST_MARKS, POST_TYPES, POST_VIOLATIONS } from '../../../../core/entities/post.js';
+import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../../core/entities/post-info.js';
+import { selectPostInfosSortOptions } from '../../../../core/entities/post-info.js';
+import type { SiteRouteInfo } from '../../../../core/entities/site-route.js';
+import type { DateRange, SortDirection } from '../../../../core/utils/common-types.js';
+import { isObjectEqual, stringToBool } from '../../../../core/utils/common-utils.js';
+import { dateRangeToString, stringToDateRange } from '../../../../core/utils/date-utils.js';
+import { useSearchParams } from '../../../hooks/useSearchParams.js';
+import type { PostsRouteParams } from '../../../routes/posts-route.js';
+import type { PostsPageInfo, PostsPageSearchParams } from '../PostsPage.jsx';
 
 const emptySearchParams: PostsPageSearchParams = {
   type: undefined,
@@ -57,43 +56,43 @@ export type FilterKey = keyof Pick<
   'type' | 'tag' | 'location' | 'author' | 'mark' | 'violation' | 'publishable' | 'original' | 'requester' | 'date'
 >;
 
-export function usePostsPageParameters(info: Accessor<PostsPageInfo | undefined>) {
-  const routeParams = useParams<PostsRouteParams>();
+export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams, unknown, PostsPageInfo>) {
+  const { meta } = routeInfo;
   const [searchParams, setSearchParams] = useSearchParams<PostsPageSearchParams>();
 
   const sortOptions = () =>
-    selectPostInfosSortOptions.filter((item) => !info()?.sortKeys || info()?.sortKeys?.includes(item.value));
+    selectPostInfosSortOptions.filter((item) => !meta().sortKeys || meta().sortKeys?.includes(item.value));
   const presetOptions = (): PostsPagePreset[] => {
     const options: PostsPagePreset[] = presets.filter(
-      (item) => !item.value || !info()?.presetKeys || info()?.presetKeys?.includes(item.value),
+      (item) => !item.value || !meta().presetKeys || meta().presetKeys?.includes(item.value),
     );
     const currentPreset = options.find((preset) => isObjectEqual(preset.searchParams, searchParams));
 
     if (!currentPreset) {
-      options.push({ value: 'custom', label: 'Custom Selection', searchParams });
+      options.push({ value: 'custom', label: 'Custom Selection', searchParams: searchParams() });
     }
 
     return options;
   };
 
-  const original = () => stringToBool(searchParams.original);
-  const publishable = () => stringToBool(searchParams.publishable);
-  const type = () => POST_TYPES.find((info) => info.id === searchParams.type)?.id;
-  const tag = () => searchParams.tag;
-  const location = () => searchParams.location;
-  const author = () => searchParams.author;
-  const requester = () => searchParams.requester;
-  const mark = () => POST_MARKS.find((info) => info.id === searchParams.mark)?.id;
+  const original = () => stringToBool(searchParams().original);
+  const publishable = () => stringToBool(searchParams().publishable);
+  const type = () => POST_TYPES.find((info) => info.id === searchParams().type)?.id;
+  const tag = () => searchParams().tag;
+  const location = () => searchParams().location;
+  const author = () => searchParams().author;
+  const requester = () => searchParams().requester;
+  const mark = () => POST_MARKS.find((info) => info.id === searchParams().mark)?.id;
   const violation = () =>
     [ANY_OPTION.value, NONE_OPTION.value, ...Object.keys(POST_VIOLATIONS)].find(
-      (violation) => violation === searchParams.violation,
+      (violation) => violation === searchParams().violation,
     ) as SelectPostInfosParams['violation'];
   const sortKey = () =>
-    sortOptions().find((sortOption) => sortOption.value === searchParams.sort?.split(',')[0])?.value || 'date';
-  const sortDirection = () => (searchParams.sort?.split(',')[1] === 'asc' ? 'asc' : 'desc');
-  const search = () => searchParams.search;
+    sortOptions().find((sortOption) => sortOption.value === searchParams().sort?.split(',')[0])?.value || 'date';
+  const sortDirection = () => (searchParams().sort?.split(',')[1] === 'asc' ? 'asc' : 'desc');
+  const search = () => searchParams().search;
   const preset = () => presetOptions().find((preset) => isObjectEqual(preset.searchParams, searchParams))?.value;
-  const date = (): DateRange | undefined => (searchParams.date ? stringToDateRange(searchParams.date) : undefined);
+  const date = (): DateRange | undefined => (searchParams().date ? stringToDateRange(searchParams().date!) : undefined);
 
   const setPreset = (preset: string | undefined) =>
     setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.searchParams });
@@ -119,7 +118,6 @@ export function usePostsPageParameters(info: Accessor<PostsPageInfo | undefined>
   return {
     sortOptions,
     presetOptions,
-    routeParams,
     preset,
     original,
     publishable,
