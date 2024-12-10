@@ -2509,10 +2509,10 @@
     - service: vk
       id: 1779
       published: 2024-09-23-18-31-03
-      updated: 2024-12-03-03-29-11
+      updated: 2024-12-10-03-29-14
       followers: 958
       likes: 51
-      views: 335
+      views: 337
       reposts: 2
       comments: !c |-
         G6sA4C0OzHPi3YhgMYcPLbipI1Q6UXmG8OYtYYthp4IlrOyB6maUu9DLIeEMVrexeR0ReNvLCDqt
@@ -2521,10 +2521,10 @@
     - service: tg
       id: 542
       published: 2024-09-23-18-31-11
-      updated: 2024-12-03-03-29-11
+      updated: 2024-12-10-03-29-14
       followers: 556
       likes: 65
-      views: 487
+      views: 493
 2024-09-24-towers-and-castle:
   title: Towers and Castle
   titleRu: Башни и замок
@@ -2832,24 +2832,24 @@
       id: DDIecdyOrDo
       mediaId: '18034818164099144'
       published: 2024-12-03-22-08-55
-      updated: 2024-12-09-02-24-03
+      updated: 2024-12-10-03-29-13
       followers: 1495
-      likes: 90
-      views: 402
+      likes: 91
+      views: 411
     - service: vk
       id: 1937
       published: 2024-12-03-22-09-03
-      updated: 2024-12-09-02-24-03
+      updated: 2024-12-10-03-29-14
       followers: 1012
       likes: 33
-      views: 265
+      views: 279
     - service: tg
       id: 614
       published: 2024-12-03-22-09-13
-      updated: 2024-12-09-02-24-03
+      updated: 2024-12-10-03-29-14
       followers: 574
-      likes: 52
-      views: 255
+      likes: 53
+      views: 268
 2024-12-04-flash-of-lightning:
   title: Flash of Lightning
   titleRu: Вспышка молнии
@@ -3030,14 +3030,14 @@
       id: DDU7Fn4tBjR
       mediaId: '18050137007091471'
       published: 2024-12-08-18-10-05
-      updated: 2024-12-10-02-23-08
+      updated: 2024-12-10-03-29-12
       followers: 1500
       likes: 67
       views: 297
     - service: vk
       id: 1950
       published: 2024-12-08-18-10-10
-      updated: 2024-12-10-02-23-09
+      updated: 2024-12-10-03-29-13
       followers: 1012
       likes: 22
       views: 196
@@ -3045,7 +3045,7 @@
     - service: tg
       id: 619
       published: 2024-12-08-18-10-15
-      updated: 2024-12-10-02-23-09
+      updated: 2024-12-10-03-29-13
       followers: 581
       likes: 48
       views: 159
@@ -3066,22 +3066,22 @@
       id: DDXl10_zw85
       mediaId: '17948952500870430'
       published: 2024-12-09-19-02-09
-      updated: 2024-12-10-02-23-07
+      updated: 2024-12-10-03-29-12
       followers: 1503
-      likes: 64
-      views: 198
+      likes: 65
+      views: 204
     - service: vk
       id: 1953
       published: 2024-12-09-19-02-15
-      updated: 2024-12-10-02-23-08
+      updated: 2024-12-10-03-29-12
       followers: 1013
       likes: 13
-      views: 95
+      views: 100
       reposts: 1
     - service: tg
       id: 620
       published: 2024-12-09-19-02-22
-      updated: 2024-12-10-02-23-08
+      updated: 2024-12-10-03-29-13
       followers: 580
-      likes: 32
-      views: 96
+      likes: 33
+      views: 97
