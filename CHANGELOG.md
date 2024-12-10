@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.24.0](https://github.com/dehero/mwscr/compare/v1.23.1...v1.24.0) (2024-12-10)
+
+### Features
+
+- move pre-extracted data outside of JS chunks
+  ([d99129b](https://github.com/dehero/mwscr/commit/d99129b0c548a3a9aec4895d0b46c15ba11fe314))
+- use Option instead UserInfo in PostInfo to decrease extracted file size
+  ([f01354d](https://github.com/dehero/mwscr/commit/f01354d12f6b956f1e966a6c866d4d7d9467111c))
+
+### Bug Fixes
+
+- don't use UserInfo in post page pre-rendered data
+  ([a8ca5a9](https://github.com/dehero/mwscr/commit/a8ca5a94ca41d7e9b67b4278697c667921a069cf))
+
+### Code Refactoring
+
+- replace useData and useParams with common useRouteInfo hook
+  ([71244c6](https://github.com/dehero/mwscr/commit/71244c6295259be942fd42a2a4c37e553bae596c))
+
 ## [1.23.1](https://github.com/dehero/mwscr/compare/v1.23.0...v1.23.1) (2024-12-04)
 
 ### Bug Fixes
