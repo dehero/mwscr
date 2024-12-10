@@ -4,7 +4,7 @@
 
 # Trash for 2024
 
-`45 items`
+`46 items`
 
 ## <span id="vladyslav-zhuk.2024-05-20-d3c543d1">vladyslav-zhuk.2024-05-20-d3c543d1</span>
 
@@ -210,6 +210,19 @@ natty.2024-03-10-18-16-27
 
 ```
 natty.2024-03-10-18-13-01
+```
+
+## <span id="natty.2024-03-10-16-49-10">natty.2024-03-10-16-49-10</span>
+
+![store:/trash/natty.2024-03-10-16-49-10.png](../../assets/previews/trash/natty.2024-03-10-16-49-10.avif "natty.2024-03-10-16-49-10")
+![store:/trash/natty.2024-03-10-16-49-10.1.png](../../assets/previews/trash/natty.2024-03-10-16-49-10.1.avif "natty.2024-03-10-16-49-10.1")
+
+`shot` by [Natty](../contributors.md#natty)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=natty.2024-03-10-16-49-10&amp;postContent=store%3A%2Ftrash%2Fnatty.2024-03-10-16-49-10.png%0Astore%3A%2Ftrash%2Fnatty.2024-03-10-16-49-10.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=D&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=natty.2024-03-10-16-49-10&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=natty.2024-03-10-16-49-10&amp;mergeWithIds=) `D` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=natty.2024-03-10-16-49-10&postLocation=)</code>
+
+```
+natty.2024-03-10-16-49-10
 ```
 
 ## <span id="natty.2024-03-10-16-44-06">natty.2024-03-10-16-44-06</span>
