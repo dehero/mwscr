@@ -21,7 +21,7 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
     title: 'Inbox',
     description: 'Pending posts of Morrowind Screenshots project.',
     sortKeys: ['date', 'id'],
-    presetKeys: ['requests'],
+    presetKeys: ['shortlist', 'requests'],
     filters: ['date', 'author', 'publishable', 'requester', 'location', 'mark', 'type'],
     actions: ['locate', 'edit', 'review', 'merge'],
   },

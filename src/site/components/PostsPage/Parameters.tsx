@@ -200,7 +200,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 <Label label="Publishability" component="div" vertical>
                   <RadioGroup
                     name="publishable"
-                    options={[ALL_OPTION, { value: 'true', label: 'Shortlist' }, { value: 'false', label: 'Drafts' }]}
+                    options={[ALL_OPTION, { value: 'true', label: 'Ready' }, { value: 'false', label: 'In Work' }]}
                     value={boolToString(props.parameters.publishable())}
                     onChange={(value) => props.parameters.setPublishable(stringToBool(value))}
                   />
