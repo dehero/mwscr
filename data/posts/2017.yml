@@ -1516,7 +1516,7 @@
     - service: vk
       id: 1532
       published: 2024-05-14-18-18-38
-      updated: 2024-12-04-10-49-00
+      updated: 2024-12-11-11-07-11
       followers: 915
       likes: 47
       views: 327
@@ -1524,7 +1524,7 @@
     - service: tg
       id: 408
       published: 2024-05-14-18-18-46
-      updated: 2024-12-04-10-48-58
+      updated: 2024-12-11-11-07-10
       followers: 370
       likes: 61
       views: 440
@@ -1782,17 +1782,17 @@
       id: DDaE2mRTAPD
       mediaId: '18161094118322156'
       published: 2024-12-10-18-11-38
-      updated: 2024-12-11-10-09-01
+      updated: 2024-12-11-11-07-07
       followers: 1503
-      likes: 69
-      views: 260
+      likes: 70
+      views: 263
     - service: vk
       id: 1954
       published: 2024-12-10-18-11-44
-      updated: 2024-12-11-10-09-00
+      updated: 2024-12-11-11-07-06
       followers: 1018
       likes: 29
-      views: 175
+      views: 181
       reposts: 2
       comments: !c |-
         iyiAkZPLQnk7Hi+1gACrZmlubnZlcmJlcmfZOdCR0YPQutCy0LDQu9GM0L3QviDQstC40LQg0LjQ
@@ -1800,10 +1800,10 @@
     - service: tg
       id: 621
       published: 2024-12-10-18-11-50
-      updated: 2024-12-11-10-09-00
+      updated: 2024-12-11-11-07-07
       followers: 581
       likes: 48
-      views: 202
+      views: 205
 2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz:
   title: Dwemer Bridge to Arkngthunch-Sturdumz
   titleRu: Двемерский мост в Аркнгтунч-Штурдумц
@@ -11815,7 +11815,7 @@
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
-      updated: 2024-12-04-10-49-01
+      updated: 2024-12-11-11-07-13
       followers: 909
       likes: 40
       views: 303
@@ -11826,10 +11826,10 @@
     - service: tg
       id: 387
       published: 2024-04-23-18-17-22
-      updated: 2024-12-04-10-48-59
+      updated: 2024-12-11-11-07-11
       followers: 355
       likes: 61
-      views: 1144
+      views: 1146
       comments: !c |-
         ix+AkpPLQnjxEjRDgACobW9uZ2xlcmmtQ2l0eSBvZiBNYWdpY5PLQnjw/03igAClYW5zaXOtQ2l0
         eSBvZiBMaWdodAM=
