@@ -9,6 +9,7 @@ import {
   worldMapPositionToLocationCell,
 } from '../../../core/entities/world-map.js';
 import { asArray } from '../../../core/utils/common-utils.js';
+import { Button } from '../Button/Button.js';
 import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
 import { Spacer } from '../Spacer/Spacer.jsx';
 import styles from './WorldMap.module.css';
@@ -217,6 +218,16 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
           <Show when={props.currentLocation}>
             <Spacer component="span" />
             <span class={styles.currentLocationTitle}>{props.currentLocation}</span>
+            <Button
+              class={styles.resetButton}
+              onClick={(e: Event) => {
+                e.preventDefault();
+                setCurrentCell(null);
+                props.onCurrentLocationChange?.(undefined);
+              }}
+            >
+              Reset
+            </Button>
           </Show>
         </p>
       </div>

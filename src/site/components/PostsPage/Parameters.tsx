@@ -124,27 +124,29 @@ export const Parameters: Component<ParametersProps> = (props) => {
           <Show
             when={expanded()}
             fallback={
-              <Select
-                options={props.parameters.presetOptions()}
-                value={props.parameters.preset()}
-                onChange={props.parameters.setPreset}
-              />
+              <fieldset class={styles.fieldset}>
+                <Select
+                  options={props.parameters.presetOptions()}
+                  value={props.parameters.preset()}
+                  onChange={props.parameters.setPreset}
+                />
+                <Button
+                  onClick={(e: Event) => {
+                    e.preventDefault();
+                    props.parameters.setPreset(undefined);
+                  }}
+                >
+                  Reset
+                </Button>
+              </fieldset>
             }
           >
             <RadioGroup name="view" options={viewOptions} value={view()} onChange={setView} class={styles.view} />
           </Show>
 
-          <Spacer />
-          <Button
-            onClick={(e: Event) => {
-              e.preventDefault();
-              props.parameters.setPreset(undefined);
-            }}
-          >
-            Reset
-          </Button>
-
           <Show when={narrowScreen()}>
+            <Spacer />
+
             <Checkbox
               name="expandParameters"
               value={props.expandedOnNarrowScreen}
@@ -165,11 +167,22 @@ export const Parameters: Component<ParametersProps> = (props) => {
           <Match when={typeof view() === 'undefined'}>
             <form class={styles.parameters}>
               <Label label="Preset" vertical>
-                <Select
-                  options={props.parameters.presetOptions()}
-                  value={props.parameters.preset()}
-                  onChange={props.parameters.setPreset}
-                />
+                <fieldset class={styles.fieldset}>
+                  <Select
+                    options={props.parameters.presetOptions()}
+                    value={props.parameters.preset()}
+                    onChange={props.parameters.setPreset}
+                  />
+
+                  <Button
+                    onClick={(e: Event) => {
+                      e.preventDefault();
+                      props.parameters.setPreset(undefined);
+                    }}
+                  >
+                    Reset
+                  </Button>
+                </fieldset>
               </Label>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('original')}>

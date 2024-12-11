@@ -67,6 +67,9 @@
   gap: 4px;
   overflow: hidden;
   z-index: 2;
+  align-items: center;
+  height: 32px;
+  box-sizing: border-box;
 }
 
 .worldLocationCount {
@@ -83,4 +86,9 @@
   text-overflow: ellipsis;
   flex: 1 0 auto;
   text-align: right;
+}
+
+.resetButton {
+  margin-left: 4px;
+  margin-right: -4px;
 }
