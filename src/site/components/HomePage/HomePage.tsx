@@ -109,9 +109,9 @@ export const HomePage = (): JSX.Element => {
                   </a>
                 </p>
                 <p class={styles.actions}>
-                  <Button onClick={() => setShowDialog('proposal')}>Propose work</Button>
+                  <Button onClick={() => setShowDialog('proposal')}>Propose Work</Button>
 
-                  <Button onClick={() => setShowDialog('request')}>Request post</Button>
+                  <Button onClick={() => setShowDialog('request')}>Request Post</Button>
                 </p>
               </Frame>
 
