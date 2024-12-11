@@ -4,7 +4,36 @@
 
 # Posted in 2024
 
-`288 items`
+`289 items`
+
+## <span id="2024-12-11-night-calmness">Night Calmness</span>
+
+`RU` Ночное спокойствие
+
+<a href="https://vk.com/mwscr?w=wall-138249959_1957" title="2024-12-11-night-calmness"><img alt="store:/shots/2024-12-11-night-calmness.png" src="../../assets/previews/shots/2024-12-11-night-calmness.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/natty.2024-03-28-20-45-33.png](../../assets/previews/trash/natty.2024-03-28-20-45-33.avif "natty.2024-03-28-20-45-33")
+![store:/trash/natty.2024-03-28-20-45-38.png](../../assets/previews/trash/natty.2024-03-28-20-45-38.avif "natty.2024-03-28-20-45-38")
+</details>
+
+`shot` by [Natty](../contributors.md#natty)
+
+`A2` `📍 Ascadian Isles Region` `🚀 OpenMW` `night` `sky`
+
+```
+2024-12-11-night-calmness
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |      1022 |
+| [`tg`](https://t.me/mwscr/622)                     | 2024-12-11 |       581 |
+|                                                    |            |      1603 |
 
 ## <span id="2024-12-10-sunrise-over-the-ash-forest">Sunrise Over the Ash Forest</span>
 
@@ -29,9 +58,9 @@
 | [`ig`](https://instagram.com/p/BQkAhpBlGN3/)       | 2017-02-16 |       |    30 |        83 |  36.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_154)  | 2017-02-16 |   177 |    18 |        36 |     18 |
 | [`ig`](https://instagram.com/p/DDaE2mRTAPD/)       | 2024-12-10 |   307 |    74 |      1503 |   4.92 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1954) | 2024-12-10 |   211 |    35 |      1018 |   3.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1954) | 2024-12-10 |   213 |    35 |      1018 |   3.63 |
 | [`tg`](https://t.me/mwscr/621)                     | 2024-12-10 |   213 |    50 |       581 |   8.61 |
-|                                                    |            |   731 |   159 |      3102 |  14.26 |
+|                                                    |            |   733 |   159 |      3102 |  14.26 |
 
 #### Comments
 
@@ -57,9 +86,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/DDXl10_zw85/)       | 2024-12-09 |   346 |    99 |      1503 |   6.59 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1953) | 2024-12-09 |   316 |    34 |      1013 |   3.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1953) | 2024-12-09 |   318 |    34 |      1013 |   3.65 |
 | [`tg`](https://t.me/mwscr/620)                     | 2024-12-09 |   165 |    48 |       580 |   8.28 |
-|                                                    |            |   827 |   181 |      3096 |   6.17 |
+|                                                    |            |   829 |   181 |      3096 |   6.17 |
 
 ## <span id="2024-12-08-still-life-with-a-stem">Still Life with a Stem</span>
 
@@ -80,9 +109,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/DDU7Fn4tBjR/)       | 2024-12-08 |   309 |    69 |      1500 |    4.6 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1950) | 2024-12-08 |   218 |    24 |      1012 |   2.47 |
-| [`tg`](https://t.me/mwscr/619)                     | 2024-12-08 |   164 |    50 |       581 |   8.61 |
-|                                                    |            |   691 |   143 |      3093 |   5.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1950) | 2024-12-08 |   247 |    28 |      1012 |   2.87 |
+| [`tg`](https://t.me/mwscr/619)                     | 2024-12-08 |   187 |    53 |       581 |   9.12 |
+|                                                    |            |   743 |   150 |      3093 |   5.53 |
 
 ## <span id="2024-12-07-farm-watchman">Farm Watchman</span>
 
@@ -109,13 +138,14 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   353 |    86 |      1498 |   5.74 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   248 |    41 |      1012 |   4.15 |
-| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   203 |    57 |       579 |   9.84 |
-|                                                    |            |   804 |   184 |      3089 |   6.58 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   271 |    42 |      1012 |   4.25 |
+| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   233 |    59 |       579 |  10.19 |
+|                                                    |            |   857 |   187 |      3089 |   6.73 |
 
 #### Comments
 
 - `vk` <ins title="2024-12-07-20-57-53">id889222999</ins> Где-то в том же районе
+- `vk` <ins title="2024-12-11-08-59-41">id63571521</ins> Ага, будет он ферму сторожить, это поместье Омани на острове Элмас!
 
 ## <span id="2024-12-06-tel-naga-great-hall">Tel Naga Great Hall</span>
 

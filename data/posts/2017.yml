@@ -1789,10 +1789,10 @@
     - service: vk
       id: 1954
       published: 2024-12-10-18-11-44
-      updated: 2024-12-11-17-07-29
+      updated: 2024-12-11-18-11-34
       followers: 1018
       likes: 35
-      views: 211
+      views: 213
       reposts: 2
       comments: !c |-
         iyiAkZPLQnk7Hi+1gACrZmlubnZlcmJlcmfZOdCR0YPQutCy0LDQu9GM0L3QviDQstC40LQg0LjQ
@@ -1800,7 +1800,7 @@
     - service: tg
       id: 621
       published: 2024-12-10-18-11-50
-      updated: 2024-12-11-17-07-29
+      updated: 2024-12-11-18-11-34
       followers: 581
       likes: 50
       views: 213

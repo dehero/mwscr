@@ -3000,21 +3000,22 @@
     - service: vk
       id: 1947
       published: 2024-12-07-18-10-02
-      updated: 2024-12-10-18-11-23
+      updated: 2024-12-11-18-11-37
       followers: 1012
-      likes: 41
-      views: 248
+      likes: 42
+      views: 271
       reposts: 1
       comments: !c |-
-        ix+AkZPLQnk6LqIGgACraWQ4ODkyMjI5OTnZJ9CT0LTQtS3RgtC+INCyINGC0L7QvCDQttC1INGA
-        0LDQudC+0L3QtQM=
+        G88A4J0HdowYg/5EcCNEI1Q6z39/oyjhG0WJRJwEmNUvDHY2sMVdwpXznJvP9XV8gawcRWrl8uQ2
+        NreGpXXWSienF7zonQ8WcYsyCjHBiCqCqQ0uG875+/nP2/r0e/dbFzskk/zosXGqJlGpJhSNqR1c
+        YTy8ufB9dWkg4jcvC/o8FU5dOKjOhAO5nWp1T/iKL2T2DmMQsBOGCNMKY3qHnzgG
     - service: tg
       id: 618
       published: 2024-12-07-18-10-10
-      updated: 2024-12-10-18-11-22
+      updated: 2024-12-11-18-11-36
       followers: 579
-      likes: 57
-      views: 203
+      likes: 59
+      views: 233
 2024-12-08-still-life-with-a-stem:
   title: Still Life with a Stem
   titleRu: Натюрморт со стеблем
@@ -3037,18 +3038,18 @@
     - service: vk
       id: 1950
       published: 2024-12-08-18-10-10
-      updated: 2024-12-10-17-07-37
+      updated: 2024-12-11-18-11-36
       followers: 1012
-      likes: 24
-      views: 218
+      likes: 28
+      views: 247
       reposts: 1
     - service: tg
       id: 619
       published: 2024-12-08-18-10-15
-      updated: 2024-12-10-17-07-37
+      updated: 2024-12-11-18-11-35
       followers: 581
-      likes: 50
-      views: 164
+      likes: 53
+      views: 187
 2024-12-09-bridge-over-the-gorge:
   title: Bridge Over the Gorge
   titleRu: Мост над ущельем
@@ -3073,16 +3074,40 @@
     - service: vk
       id: 1953
       published: 2024-12-09-19-02-15
-      updated: 2024-12-11-17-07-30
+      updated: 2024-12-11-18-11-35
       followers: 1013
       likes: 34
-      views: 316
+      views: 318
       reposts: 3
     - service: tg
       id: 620
       published: 2024-12-09-19-02-22
-      updated: 2024-12-11-17-07-30
+      updated: 2024-12-11-18-11-35
       followers: 580
       likes: 48
       views: 165
 2024-12-10-sunrise-over-the-ash-forest: 2017-02-16-sunrise-over-the-ash-forest
+2024-12-11-night-calmness:
+  title: Night Calmness
+  titleRu: Ночное спокойствие
+  location: Ascadian Isles Region
+  content: store:/shots/2024-12-11-night-calmness.png
+  trash:
+    - store:/trash/natty.2024-03-28-20-45-33.png
+    - store:/trash/natty.2024-03-28-20-45-38.png
+  type: shot
+  author: natty
+  engine: OpenMW
+  tags:
+    - night
+    - sky
+  mark: A2
+  posts:
+    - service: vk
+      id: 1957
+      published: 2024-12-11-18-16-04
+      followers: 1022
+    - service: tg
+      id: 622
+      published: 2024-12-11-18-16-12
+      followers: 581
