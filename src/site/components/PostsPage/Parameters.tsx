@@ -20,7 +20,6 @@ import { Label } from '../Label/Label.js';
 import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
 import { RadioGroup } from '../RadioGroup/RadioGroup.js';
 import { Select } from '../Select/Select.js';
-import { Spacer } from '../Spacer/Spacer.js';
 import { Table } from '../Table/Table.jsx';
 import { Toast } from '../Toaster/Toaster.js';
 import { WorldMap } from '../WorldMap/WorldMap.jsx';
@@ -145,8 +144,6 @@ export const Parameters: Component<ParametersProps> = (props) => {
           </Show>
 
           <Show when={narrowScreen()}>
-            <Spacer />
-
             <Checkbox
               name="expandParameters"
               value={props.expandedOnNarrowScreen}
@@ -168,11 +165,14 @@ export const Parameters: Component<ParametersProps> = (props) => {
             <form class={styles.parameters}>
               <Label label="Preset" vertical>
                 <fieldset class={styles.fieldset}>
-                  <Select
-                    options={props.parameters.presetOptions()}
-                    value={props.parameters.preset()}
-                    onChange={props.parameters.setPreset}
-                  />
+                  <div class={styles.selectWrapper}>
+                    <Select
+                      options={props.parameters.presetOptions()}
+                      value={props.parameters.preset()}
+                      onChange={props.parameters.setPreset}
+                      class={styles.select}
+                    />
+                  </div>
 
                   <Button
                     onClick={(e: Event) => {
@@ -220,31 +220,36 @@ export const Parameters: Component<ParametersProps> = (props) => {
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('type')}>
                 <Label label="Type" vertical>
-                  <Select
-                    name="type"
-                    options={[
-                      ALL_OPTION,
-                      ...POST_TYPES.map((info) => ({ value: info.id, label: info.title })).sort((a, b) =>
-                        a.label.localeCompare(b.label),
-                      ),
-                    ]}
-                    value={props.parameters.type()}
-                    onChange={props.parameters.setType}
-                  />
+                  <div class={styles.selectWrapper}>
+                    <Select
+                      name="type"
+                      options={[
+                        ALL_OPTION,
+                        ...POST_TYPES.map((info) => ({ value: info.id, label: info.title })).sort((a, b) =>
+                          a.label.localeCompare(b.label),
+                        ),
+                      ]}
+                      value={props.parameters.type()}
+                      onChange={props.parameters.setType}
+                      class={styles.select}
+                    />
+                  </div>
                 </Label>
               </Show>
 
               <Label label="Search by Title or Description" vertical>
                 <fieldset class={styles.fieldset}>
-                  <Input
-                    name="search"
-                    value={props.parameters.search()}
-                    onChange={() => setIsSearching(true)}
-                    onDebouncedChange={(value) => {
-                      props.parameters.setSearch(value);
-                      setIsSearching(false);
-                    }}
-                  />
+                  <div class={styles.searchInputWrapper}>
+                    <Input
+                      name="search"
+                      value={props.parameters.search()}
+                      onChange={() => setIsSearching(true)}
+                      onDebouncedChange={(value) => {
+                        props.parameters.setSearch(value);
+                        setIsSearching(false);
+                      }}
+                    />
+                  </div>
 
                   <Button
                     onClick={(e: Event) => {
@@ -350,11 +355,14 @@ export const Parameters: Component<ParametersProps> = (props) => {
               <Show when={props.parameters.sortOptions().length > 0}>
                 <Label label="Sort By" vertical>
                   <fieldset class={styles.fieldset}>
-                    <Select
-                      options={props.parameters.sortOptions()}
-                      value={props.parameters.sortKey()}
-                      onChange={props.parameters.setSortKey}
-                    />
+                    <div class={styles.selectWrapper}>
+                      <Select
+                        options={props.parameters.sortOptions()}
+                        value={props.parameters.sortKey()}
+                        onChange={props.parameters.setSortKey}
+                        class={styles.select}
+                      />
+                    </div>
                     <RadioGroup
                       name="sortDirection"
                       options={[
@@ -363,6 +371,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                       ]}
                       value={props.parameters.sortDirection()}
                       onChange={props.parameters.setSortDirection}
+                      class={styles.sortDirectionRadioGroup}
                     />
                   </fieldset>
                 </Label>

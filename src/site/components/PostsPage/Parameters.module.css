@@ -15,6 +15,8 @@
   flex-flow: row wrap;
   gap: 8px;
   padding: 12px;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .toolbarDivider {
@@ -33,7 +35,7 @@
 
 .fieldset {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
   gap: 4px;
   padding: 0;
@@ -51,6 +53,12 @@
   width: 100%;
 }
 
+.searchInputWrapper {
+  display: inline-block;
+  max-width: 100%;
+  flex: 1 1 auto;
+}
+
 .locationsWrapper {
   overflow: hidden auto;
   height: 500px;
@@ -65,6 +73,10 @@
 .worldMap {
   max-height: 500px;
   flex-grow: 1;
+}
+
+.sortDirectionRadioGroup {
+  flex-wrap: nowrap;
 }
 
 .container_view_map.container_expanded .toolbarWrapper {
