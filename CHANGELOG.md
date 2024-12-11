@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.25.0](https://github.com/dehero/mwscr/compare/v1.24.1...v1.25.0) (2024-12-11)
+
+### Features
+
+- add Shortlist preset to inbox and rename Publishability parameter options
+  ([bb8648f](https://github.com/dehero/mwscr/commit/bb8648f865434d7daf7346da75cf55366701841c))
+- improve posts page parameters styling
+  ([0f1b2a5](https://github.com/dehero/mwscr/commit/0f1b2a57a94c5772cd8e02521d229eb550afb448))
+- move Reset button out from expanded posts page parameters header
+  ([0e9b0de](https://github.com/dehero/mwscr/commit/0e9b0de87dda788e0a387d4750b45ea1bbc2e13a))
+
+### Bug Fixes
+
+- improve home page buttons lettercasing
+  ([5e851cb](https://github.com/dehero/mwscr/commit/5e851cbeb3120eded8726aa92e1faab6783127a4))
+- load correct data to parameters panel when switching between posts pages
+  ([4a32009](https://github.com/dehero/mwscr/commit/4a320091f0483ae3553da0e215a047eee265aade))
+- show current preset in presets select
+  ([f9cd9b2](https://github.com/dehero/mwscr/commit/f9cd9b2b2b9ee947b65e2ffb544dc1569df6cc32))
+- show only one letter near user titles
+  ([17b2090](https://github.com/dehero/mwscr/commit/17b209077f03974c6b35d0c1dd503adde5d7b4d2))
+
 ## [1.24.1](https://github.com/dehero/mwscr/compare/v1.24.0...v1.24.1) (2024-12-10)
 
 ### Bug Fixes
