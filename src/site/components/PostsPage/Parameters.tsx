@@ -1,7 +1,6 @@
 import { createMediaQuery } from '@solid-primitives/media';
 import clsx from 'clsx';
 import { type Component, createMemo, createSignal, Match, Show, Switch } from 'solid-js';
-import { useData } from 'vike-solid/useData';
 import type { LocationInfo } from '../../../core/entities/location-info.js';
 import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../core/entities/option.js';
@@ -42,7 +41,7 @@ const viewOptions = [
 type View = (typeof viewOptions)[number]['value'];
 
 export interface ParametersProps {
-  routeInfo: SiteRouteInfo<PostsRouteParams, unknown, PostsPageInfo>;
+  routeInfo: SiteRouteInfo<PostsRouteParams, PostsPageData, PostsPageInfo>;
   parameters: ReturnType<typeof usePostsPageParameters>;
   class?: string;
   expandedOnNarrowScreen: boolean;
@@ -55,13 +54,13 @@ export const Parameters: Component<ParametersProps> = (props) => {
 
   const [isSearching, setIsSearching] = createSignal(false);
 
-  const { tagOptions, locationInfos, authorInfos, requesterInfos } = useData<PostsPageData>();
   const locationOptions = createMemo((): LocationOption[] => [
     ALL_OPTION,
     ANY_OPTION,
     NONE_OPTION,
-    ...locationInfos
-      .map((info) => ({
+    ...props.routeInfo
+      .data()
+      .locationInfos.map((info) => ({
         label: info.title,
         value: info.title,
         postCount: info.discovered?.[props.routeInfo.params().managerName],
@@ -71,7 +70,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
   ]);
   const authorOptions = createMemo((): Option[] => [
     ALL_OPTION,
-    ...authorInfos.map(
+    ...props.routeInfo.data().authorInfos.map(
       (info): Option => ({
         label: `${info.title} (${info.authored?.[props.routeInfo.params().managerName]})`,
         value: info.id,
@@ -82,7 +81,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
     ALL_OPTION,
     ANY_OPTION,
     NONE_OPTION,
-    ...requesterInfos.map(
+    ...props.routeInfo.data().requesterInfos.map(
       (info): Option => ({
         label: `${info.title} (${info.requested?.[props.routeInfo.params().managerName]})`,
         value: info.id,
@@ -95,7 +94,9 @@ export const Parameters: Component<ParametersProps> = (props) => {
   );
 
   const initialView = createMemo(() => {
-    const info = locationInfos.find((location) => location.title === props.parameters.location());
+    const info = props.routeInfo
+      .data()
+      .locationInfos.find((location) => location.title === props.parameters.location());
     if (info) {
       if (info.cell) {
         return 'map';
@@ -279,7 +280,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                   <div class={styles.selectWrapper}>
                     <Select
                       name="tag"
-                      options={[ALL_OPTION, ...tagOptions]}
+                      options={[ALL_OPTION, ...props.routeInfo.data().tagOptions]}
                       value={props.parameters.tag()}
                       onChange={props.parameters.setTag}
                       class={styles.select}
@@ -401,11 +402,11 @@ export const Parameters: Component<ParametersProps> = (props) => {
           </Match>
           <Match when={view() === 'map'}>
             <WorldMap
-              locations={locationInfos}
+              locations={props.routeInfo.data().locationInfos}
               class={styles.worldMap}
               onCurrentLocationChange={props.parameters.setLocation}
               currentLocation={props.parameters.location()}
-              discoveredLocations={locationInfos.map(({ title }) => title)}
+              discoveredLocations={props.routeInfo.data().locationInfos.map(({ title }) => title)}
             />
           </Match>
         </Switch>
