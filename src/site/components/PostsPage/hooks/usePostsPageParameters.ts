@@ -66,7 +66,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     const options: PostsPagePreset[] = presets.filter(
       (item) => !item.value || !meta().presetKeys || meta().presetKeys?.includes(item.value),
     );
-    const currentPreset = options.find((preset) => isObjectEqual(preset.searchParams, searchParams));
+    const currentPreset = options.find((preset) => isObjectEqual(preset.searchParams, searchParams()));
 
     if (!currentPreset) {
       options.push({ value: 'custom', label: 'Custom Selection', searchParams: searchParams() });
@@ -91,7 +91,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     sortOptions().find((sortOption) => sortOption.value === searchParams().sort?.split(',')[0])?.value || 'date';
   const sortDirection = () => (searchParams().sort?.split(',')[1] === 'asc' ? 'asc' : 'desc');
   const search = () => searchParams().search;
-  const preset = () => presetOptions().find((preset) => isObjectEqual(preset.searchParams, searchParams))?.value;
+  const preset = () => presetOptions().find((preset) => isObjectEqual(preset.searchParams, searchParams()))?.value;
   const date = (): DateRange | undefined => (searchParams().date ? stringToDateRange(searchParams().date!) : undefined);
 
   const setPreset = (preset: string | undefined) =>
