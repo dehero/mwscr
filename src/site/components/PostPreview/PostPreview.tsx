@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import { type Component, createSignal, For, Show } from 'solid-js';
 import { getPostTypeAspectRatio, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
-import { getUserOptionLetter } from '../../../core/entities/user.js';
+import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { postRoute } from '../../routes/post-route.js';
 import { Divider } from '../Divider/Divider.js';
@@ -27,9 +27,9 @@ export interface PostPreviewProps {
 export const PostPreview: Component<PostPreviewProps> = (props) => {
   const title = () => props.postInfo.title || props.postInfo.id;
   const content = () => asArray(props.postInfo.content).slice(0, 4);
-  const authorLetters = () => props.postInfo.authorOptions.map(getUserOptionLetter);
+  const authorLetters = () => props.postInfo.authorOptions.map((option) => getUserTitleLetter(option.label));
   const requesterLetter = () =>
-    props.postInfo.requesterOption ? getUserOptionLetter(props.postInfo.requesterOption) : undefined;
+    props.postInfo.requesterOption ? getUserTitleLetter(props.postInfo.requesterOption.label) : undefined;
   const url = () => postRoute.createUrl({ managerName: props.postInfo.managerName, id: props.postInfo.id });
   const aspectRatio = () => getPostTypeAspectRatio(props.postInfo.type);
   const alt = () => props.postInfo.tags?.join(' ');

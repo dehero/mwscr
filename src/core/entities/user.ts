@@ -42,8 +42,8 @@ export function getUserEntryTitle(entry: UserEntry) {
   return entry[1]?.name || entry[0];
 }
 
-export function getUserOptionLetter(option: Option) {
-  return option.label?.toLocaleUpperCase() || '?';
+export function getUserTitleLetter(title: string | undefined) {
+  return title?.[0]?.toLocaleUpperCase() || '?';
 }
 
 export function createUserOption(entry: UserEntry): Option {

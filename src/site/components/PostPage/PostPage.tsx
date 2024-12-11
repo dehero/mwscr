@@ -21,6 +21,7 @@ import {
 } from '../../../core/entities/post.js';
 import { isPublishablePost, isTrashItem } from '../../../core/entities/post-variation.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
+import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { youtube } from '../../../core/services/youtube.js';
 import { store } from '../../../core/stores/index.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
@@ -364,7 +365,7 @@ export const PostPage = (): JSX.Element => {
                               variant="flat"
                               class={clsx(styles.icon, styles.tableIcon)}
                             >
-                              {option.label?.[0]?.toLocaleUpperCase() || '?'}
+                              {getUserTitleLetter(option.label)}
                             </Icon>
                             {option.label}
                           </>
@@ -384,7 +385,7 @@ export const PostPage = (): JSX.Element => {
                                 variant="flat"
                                 class={clsx(styles.icon, styles.tableIcon)}
                               >
-                                {data().requesterOption!.label?.[0]?.toLocaleUpperCase() || '?'}
+                                {getUserTitleLetter(data().requesterOption?.label)}
                               </Icon>
                               {data().requesterOption!.label}
                             </>

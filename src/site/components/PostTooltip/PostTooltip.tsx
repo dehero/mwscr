@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import { type Component, For, Show, splitProps } from 'solid-js';
 import { getPostDateById, getPostTypeAspectRatio, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
-import { getUserOptionLetter } from '../../../core/entities/user.js';
+import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
 import { Divider } from '../Divider/Divider.js';
@@ -75,7 +75,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
               <>
                 {index() > 0 ? ', ' : ''}
                 <Icon color="stealth" size="small" variant="flat" class={styles.icon}>
-                  {getUserOptionLetter(option)}
+                  {getUserTitleLetter(option.label)}
                 </Icon>
                 {option.label}
               </>
@@ -88,7 +88,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
           <span class={styles.author}>
             {'Requester: '}
             <Icon color="magic" size="small" variant="flat" class={styles.icon}>
-              {getUserOptionLetter(option())}
+              {getUserTitleLetter(option().label)}
             </Icon>
             {option().label}
           </span>

@@ -1,5 +1,6 @@
 import { type Component, createResource, Show, splitProps } from 'solid-js';
 import { postsUsageToString } from '../../../core/entities/posts-usage.js';
+import { getUserTitleLetter } from '../../../core/entities/user.js';
 import type { UserInfo } from '../../../core/entities/user-info.js';
 import { dataExtractor } from '../../data-managers/extractor.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
@@ -33,7 +34,7 @@ export const UserTooltip: Component<UserTooltipProps> = (props) => {
               color={userInfo().roles.includes('author') ? 'stealth' : 'magic'}
               class={styles.icon}
             >
-              {userInfo().title[0]?.toLocaleUpperCase() || '?'}
+              {getUserTitleLetter(userInfo().title)}
             </Icon>
             {userInfo().title}
           </span>
