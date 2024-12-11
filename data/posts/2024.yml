@@ -410,7 +410,7 @@
     - service: vk
       id: 1444
       published: 2024-03-12-18-17-53
-      updated: 2024-12-04-15-08-42
+      updated: 2024-12-11-16-10-01
       followers: 896
       likes: 33
       views: 276
@@ -418,7 +418,7 @@
     - service: tg
       id: 343
       published: 2024-03-12-18-18-01
-      updated: 2024-12-04-15-08-40
+      updated: 2024-12-11-16-10-00
       followers: 350
       likes: 64
       views: 518
@@ -537,7 +537,7 @@
     - service: vk
       id: 1459
       published: 2024-03-19-18-11-25
-      updated: 2024-12-04-15-08-41
+      updated: 2024-12-11-16-10-00
       followers: 896
       likes: 43
       views: 275
@@ -545,10 +545,10 @@
     - service: tg
       id: 351
       published: 2024-03-19-18-11-30
-      updated: 2024-12-04-15-08-39
+      updated: 2024-12-11-16-09-59
       followers: 352
       likes: 69
-      views: 472
+      views: 473
 2024-03-20-banner-of-house-dagoth: 2017-07-05-banner-of-house-dagoth
 2024-03-21-first-stars-above-falasmaryon:
   title: First Stars Above Falasmaryon
@@ -3066,22 +3066,22 @@
       id: DDXl10_zw85
       mediaId: '17948952500870430'
       published: 2024-12-09-19-02-09
-      updated: 2024-12-11-15-08-19
+      updated: 2024-12-11-16-09-58
       followers: 1503
       likes: 97
-      views: 341
+      views: 344
     - service: vk
       id: 1953
       published: 2024-12-09-19-02-15
-      updated: 2024-12-11-15-08-18
+      updated: 2024-12-11-16-09-58
       followers: 1013
-      likes: 32
-      views: 311
+      likes: 33
+      views: 314
       reposts: 3
     - service: tg
       id: 620
       published: 2024-12-09-19-02-22
-      updated: 2024-12-11-15-08-19
+      updated: 2024-12-11-16-09-59
       followers: 580
       likes: 48
       views: 165

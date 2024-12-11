@@ -169,7 +169,7 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2024-12-04-15-08-42
+      updated: 2024-12-11-16-10-02
       followers: 337
       likes: 91
       views: 610
@@ -1782,17 +1782,17 @@
       id: DDaE2mRTAPD
       mediaId: '18161094118322156'
       published: 2024-12-10-18-11-38
-      updated: 2024-12-11-15-08-18
+      updated: 2024-12-11-16-09-57
       followers: 1503
-      likes: 73
-      views: 294
+      likes: 74
+      views: 301
     - service: vk
       id: 1954
       published: 2024-12-10-18-11-44
-      updated: 2024-12-11-15-08-17
+      updated: 2024-12-11-16-09-57
       followers: 1018
-      likes: 32
-      views: 202
+      likes: 33
+      views: 206
       reposts: 2
       comments: !c |-
         iyiAkZPLQnk7Hi+1gACrZmlubnZlcmJlcmfZOdCR0YPQutCy0LDQu9GM0L3QviDQstC40LQg0LjQ
@@ -1800,10 +1800,10 @@
     - service: tg
       id: 621
       published: 2024-12-10-18-11-50
-      updated: 2024-12-11-15-08-18
+      updated: 2024-12-11-16-09-58
       followers: 581
       likes: 50
-      views: 212
+      views: 213
 2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz:
   title: Dwemer Bridge to Arkngthunch-Sturdumz
   titleRu: Двемерский мост в Аркнгтунч-Штурдумц
@@ -10424,7 +10424,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2024-12-04-15-08-40
+      updated: 2024-12-11-16-09-59
       followers: 904
       likes: 44
       views: 295
@@ -11402,7 +11402,7 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2024-12-04-15-08-43
+      updated: 2024-12-11-16-10-02
       followers: 895
       likes: 35
       views: 294
@@ -11410,7 +11410,7 @@
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2024-12-04-15-08-41
+      updated: 2024-12-11-16-10-01
       followers: 343
       likes: 69
       views: 529
