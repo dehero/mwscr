@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |    46 |    27 |      1507 |   1.79 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |    45 |     8 |      1023 |   0.78 |
-| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |    59 |    18 |       580 |    3.1 |
-|                                                    |            |   150 |    53 |      3110 |   1.89 |
+| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   103 |    32 |      1507 |   2.12 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |    65 |    11 |      1023 |   1.08 |
+| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |    85 |    24 |       580 |   4.14 |
+|                                                    |            |   253 |    67 |      3110 |   2.45 |
 
 ## <span id="2024-12-11-night-calmness">Night Calmness</span>
 
@@ -60,10 +60,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   569 |   107 |      1506 |    7.1 |
+| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   589 |   109 |      1506 |   7.24 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |   190 |    32 |      1022 |   3.13 |
-| [`tg`](https://t.me/mwscr/622)                     | 2024-12-11 |   171 |    57 |       581 |   9.81 |
-|                                                    |            |   930 |   196 |      3109 |   6.68 |
+| [`tg`](https://t.me/mwscr/622)                     | 2024-12-11 |   181 |    57 |       581 |   9.81 |
+|                                                    |            |   960 |   198 |      3109 |   6.73 |
 
 ## <span id="2024-12-10-sunrise-over-the-ash-forest">Sunrise Over the Ash Forest</span>
 
@@ -202,10 +202,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   584 |   106 |      1499 |   7.07 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   303 |    36 |      1013 |   3.75 |
-| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   253 |    53 |       578 |   9.17 |
-|                                                    |            |  1140 |   195 |      3090 |   6.66 |
+| [`ig`](https://instagram.com/p/DDPxpdZJRqI/)       | 2024-12-06 |   598 |   110 |      1499 |   7.34 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1945) | 2024-12-06 |   311 |    36 |      1013 |   3.75 |
+| [`tg`](https://t.me/mwscr/617)                     | 2024-12-06 |   268 |    54 |       578 |   9.34 |
+|                                                    |            |  1177 |   200 |      3090 |   6.81 |
 
 ## <span id="2024-12-05-in-the-evening-at-census-and-excise-office">In the Evening at Census and Excise Office</span>
 
@@ -233,10 +233,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   573 |   110 |      1499 |   7.34 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   382 |    57 |      1013 |   6.02 |
-| [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |   295 |    70 |       578 |  12.11 |
-|                                                    |            |  1250 |   237 |      3090 |   8.49 |
+| [`ig`](https://instagram.com/p/DDNMtF6vFOe/)       | 2024-12-05 |   579 |   112 |      1499 |   7.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1943) | 2024-12-05 |   393 |    58 |      1013 |   6.12 |
+| [`tg`](https://t.me/mwscr/616)                     | 2024-12-05 |   316 |    70 |       578 |  12.11 |
+|                                                    |            |  1288 |   240 |      3090 |   8.57 |
 
 #### Comments
 
