@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`14 items`
+`13 items`
 
 ## <span id="natty.2024-10-06-15-21-49">natty.2024-10-06-15-21-49</span>
 
@@ -164,23 +164,6 @@ dehero.2024-03-05-20-06-06
 
 ```
 dehero.2024-03-05-19-49-27
-```
-
-## <span id="dehero.2024-02-17-11-02-26">dehero.2024-02-17-11-02-26</span>
-
-![store:/inbox/dehero.2024-02-17-11-02-26.png](../../assets/previews/inbox/dehero.2024-02-17-11-02-26.avif "dehero.2024-02-17-11-02-26")
-![store:/inbox/dehero.2024-02-17-11-02-07.png](../../assets/previews/inbox/dehero.2024-02-17-11-02-07.avif "dehero.2024-02-17-11-02-07")
-![store:/inbox/dehero.2024-02-17-11-02-26.1.png](../../assets/previews/inbox/dehero.2024-02-17-11-02-26.1.avif "dehero.2024-02-17-11-02-26.1")
-
-`shot` by [dehero](../contributors.md#dehero)
-
-> [!WARNING]
-> Need english title, need russian title, need mark, unable to detect possible post type from content.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-17-11-02-26&amp;postContent=store%3A%2Finbox%2Fdehero.2024-02-17-11-02-26.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-11-02-07.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-11-02-26.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-17-11-02-26&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-17-11-02-26&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=dehero.2024-02-17-11-02-26&postLocation=)</code>
-
-```
-dehero.2024-02-17-11-02-26
 ```
 
 ## <span id="dehero.2024-02-17-10-55-28">dehero.2024-02-17-10-55-28</span>

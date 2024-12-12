@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`2 items`
+`3 items`
 
 ## <span id="irina-bystritskaya.2022-06-25-drawing-002">Mzahnch</span>
 
@@ -19,6 +19,27 @@
 
 ```
 irina-bystritskaya.2022-06-25-drawing-002
+```
+
+## <span id="dehero.2024-02-17-11-02-26">Underwater Glow</span>
+
+`RU` Подводное сияние
+
+![store:/inbox/dehero.2024-02-17-11-02-26.1.png](../../assets/previews/inbox/dehero.2024-02-17-11-02-26.1.avif "dehero.2024-02-17-11-02-26.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2024-02-17-11-02-07.png](../../assets/previews/inbox/dehero.2024-02-17-11-02-07.avif "dehero.2024-02-17-11-02-07")
+![store:/inbox/dehero.2024-02-17-11-02-26.png](../../assets/previews/inbox/dehero.2024-02-17-11-02-26.avif "dehero.2024-02-17-11-02-26")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=dehero.2024-02-17-11-02-26&amp;postContent=store%3A%2Finbox%2Fdehero.2024-02-17-11-02-26.1.png&amp;postTitle=Underwater+Glow&amp;postTitleRu=%D0%9F%D0%BE%D0%B4%D0%B2%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5+%D1%81%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=water+night&amp;postLocation=Azura%27s+Coast+Region&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-02-17-11-02-07.png%0Astore%3A%2Finbox%2Fdehero.2024-02-17-11-02-26.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=dehero.2024-02-17-11-02-26&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=dehero.2024-02-17-11-02-26&amp;mergeWithIds=) `B1` `📍 Azura's Coast Region` `🚀 OpenMW` `water` `night`
+
+```
+dehero.2024-02-17-11-02-26
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
