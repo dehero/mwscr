@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   151 |    40 |      1507 |   2.65 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |    86 |    11 |      1023 |   1.08 |
-| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |    92 |    27 |       580 |   4.66 |
-|                                                    |            |   329 |    78 |      3110 |   2.79 |
+| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   174 |    45 |      1507 |   2.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |    92 |    11 |      1023 |   1.08 |
+| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |    95 |    29 |       580 |      5 |
+|                                                    |            |   361 |    85 |      3110 |   3.02 |
 
 ## <span id="2024-12-11-night-calmness">Night Calmness</span>
 
@@ -60,10 +60,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   630 |   110 |      1506 |    7.3 |
+| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   642 |   110 |      1506 |    7.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |   193 |    32 |      1022 |   3.13 |
 | [`tg`](https://t.me/mwscr/622)                     | 2024-12-11 |   181 |    57 |       581 |   9.81 |
-|                                                    |            |  1004 |   199 |      3109 |   6.75 |
+|                                                    |            |  1016 |   199 |      3109 |   6.75 |
 
 ## <span id="2024-12-10-sunrise-over-the-ash-forest">Sunrise Over the Ash Forest</span>
 
@@ -927,9 +927,9 @@
 | [`ig`](https://instagram.com/p/BeLn4ctDDIV/)       | 2018-01-20 |       |    72 |       279 |  25.81 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_585)  | 2018-01-20 |   170 |    13 |       122 |  10.66 |
 | [`ig`](https://instagram.com/p/DCXIGp-tYLL/)       | 2024-11-14 |   429 |    90 |      1480 |   6.08 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1894) | 2024-11-14 |   296 |    33 |      1005 |   3.38 |
-| [`tg`](https://t.me/mwscr/595)                     | 2024-11-14 |   711 |    57 |       570 |     10 |
-|                                                    |            |  1436 |   180 |      3055 |  11.19 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1894) | 2024-11-14 |   304 |    34 |      1005 |   3.48 |
+| [`tg`](https://t.me/mwscr/595)                     | 2024-11-14 |   738 |    58 |       570 |  10.18 |
+|                                                    |            |  1471 |   182 |      3055 |  11.24 |
 
 ## <span id="2024-11-13-trees-and-towers">Trees and Towers</span>
 
@@ -1379,9 +1379,9 @@
 | [`ig`](https://instagram.com/p/BPmN9y6Ffqy/)       | 2017-01-23 |       |    35 |        80 |  43.75 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_73)   | 2017-01-23 |   220 |     7 |         8 |      8 |
 | [`ig`](https://instagram.com/p/DBzGZfRxSXu/)       | 2024-10-31 |   599 |   140 |      1478 |   9.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1868) | 2024-10-31 |   270 |    30 |      1002 |   3.09 |
-| [`tg`](https://t.me/mwscr/581)                     | 2024-10-31 |   513 |    68 |       564 |  12.06 |
-|                                                    |            |  1382 |   238 |      3044 |  15.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1868) | 2024-10-31 |   274 |    30 |      1002 |   3.09 |
+| [`tg`](https://t.me/mwscr/581)                     | 2024-10-31 |   527 |    68 |       564 |  12.06 |
+|                                                    |            |  1400 |   238 |      3044 |  15.27 |
 
 #### Comments
 
