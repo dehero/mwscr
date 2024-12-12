@@ -17,9 +17,10 @@ import styles from './WorldMap.module.css';
 export interface WorldMapProps {
   locations: LocationInfo[];
   class?: string;
-  onCurrentLocationChange?: (location: string | undefined) => void;
+  onSelectLocation?: (location: string | undefined) => void;
   currentLocation?: string;
   discoveredLocations?: string[];
+  readonly?: boolean;
 }
 
 interface CellMarkerProps {
@@ -94,7 +95,7 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
   let mapRef: HTMLDivElement | undefined;
 
   const handleMapMouseUp = (e: MouseEvent) => {
-    if (isGrabbing() || !props.onCurrentLocationChange) {
+    if (isGrabbing() || !props.onSelectLocation) {
       return;
     }
 
@@ -105,12 +106,15 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
     const location = cellLocations().get(cell);
 
     batch(() => {
-      if (location) {
-        setCurrentCell(cell);
-      } else {
-        setCurrentCell(null);
+      if (!props.readonly) {
+        if (location) {
+          setCurrentCell(cell);
+        } else {
+          setCurrentCell(null);
+        }
       }
-      props.onCurrentLocationChange?.(location?.title);
+
+      props.onSelectLocation?.(location?.title);
     });
   };
 
@@ -218,16 +222,18 @@ export const WorldMap: Component<WorldMapProps> = (props) => {
           <Show when={props.currentLocation}>
             <Spacer component="span" />
             <span class={styles.currentLocationTitle}>{props.currentLocation}</span>
-            <Button
-              class={styles.resetButton}
-              onClick={(e: Event) => {
-                e.preventDefault();
-                setCurrentCell(null);
-                props.onCurrentLocationChange?.(undefined);
-              }}
-            >
-              Reset
-            </Button>
+            <Show when={!props.readonly}>
+              <Button
+                class={styles.resetButton}
+                onClick={(e: Event) => {
+                  e.preventDefault();
+                  setCurrentCell(null);
+                  props.onSelectLocation?.(undefined);
+                }}
+              >
+                Reset
+              </Button>
+            </Show>
           </Show>
         </p>
       </div>

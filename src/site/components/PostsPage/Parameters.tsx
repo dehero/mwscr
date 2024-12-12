@@ -404,7 +404,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
             <WorldMap
               locations={props.routeInfo.data().locationInfos}
               class={styles.worldMap}
-              onCurrentLocationChange={props.parameters.setLocation}
+              onSelectLocation={props.parameters.setLocation}
               currentLocation={props.parameters.location()}
               discoveredLocations={props.routeInfo.data().locationInfos.map(({ title }) => title)}
             />

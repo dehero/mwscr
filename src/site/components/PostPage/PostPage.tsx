@@ -550,16 +550,20 @@ export const PostPage = (): JSX.Element => {
                       locations={[data().worldMapLocationInfo!]}
                       currentLocation={data().worldMapLocationInfo!.title}
                       discoveredLocations={data().locationInfos?.map((info) => info.title)}
-                      onCurrentLocationChange={() =>
+                      onSelectLocation={(location) => {
+                        if (!location) {
+                          return;
+                        }
                         // @ts-expect-error No proper typing for navigate
                         navigate(
                           postsRoute.createUrl({
                             managerName: 'posts',
-                            location: data().worldMapLocationInfo!.title,
+                            location,
                             original: 'true',
                           }),
-                        )
-                      }
+                        );
+                      }}
+                      readonly
                     />
                   </Frame>
                 </Show>
