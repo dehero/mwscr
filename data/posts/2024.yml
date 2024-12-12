@@ -719,7 +719,7 @@
     - service: tg
       id: 359
       published: 2024-03-27-18-12-06
-      updated: 2024-12-05-15-08-26
+      updated: 2024-12-12-16-10-06
       followers: 354
       likes: 65
       views: 481
@@ -1047,10 +1047,10 @@
     - service: tg
       id: 374
       published: 2024-04-10-18-19-36
-      updated: 2024-12-05-15-08-25
+      updated: 2024-12-12-16-10-05
       followers: 353
       likes: 58
-      views: 485
+      views: 486
 2024-04-11-heros-skeleton:
   title: Hero's Skeleton
   titleRu: Скелет героя
@@ -1671,7 +1671,7 @@
     - service: tg
       id: 402
       published: 2024-05-08-18-19-25
-      updated: 2024-12-05-15-08-25
+      updated: 2024-12-12-16-10-04
       followers: 370
       likes: 69
       views: 453
@@ -3106,14 +3106,14 @@
     - service: vk
       id: 1957
       published: 2024-12-11-18-16-04
-      updated: 2024-12-12-15-08-24
+      updated: 2024-12-12-16-10-02
       followers: 1022
       likes: 32
-      views: 174
+      views: 175
     - service: tg
       id: 622
       published: 2024-12-11-18-16-12
-      updated: 2024-12-12-15-08-24
+      updated: 2024-12-12-16-10-02
       followers: 581
       likes: 54
       views: 156
@@ -3121,7 +3121,7 @@
       id: DDcvXvhTd7j
       mediaId: '18474431095051833'
       published: 2024-12-11-19-01-40
-      updated: 2024-12-12-15-08-24
+      updated: 2024-12-12-16-10-02
       followers: 1506
-      likes: 98
-      views: 492
+      likes: 100
+      views: 513
