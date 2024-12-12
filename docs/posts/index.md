@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   125 |    36 |      1507 |   2.39 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |    78 |    11 |      1023 |   1.08 |
-| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |    87 |    26 |       580 |   4.48 |
-|                                                    |            |   290 |    73 |      3110 |   2.65 |
+| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   151 |    40 |      1507 |   2.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |    86 |    11 |      1023 |   1.08 |
+| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |    92 |    27 |       580 |   4.66 |
+|                                                    |            |   329 |    78 |      3110 |   2.79 |
 
 ## <span id="2024-12-11-night-calmness">Night Calmness</span>
 
@@ -60,10 +60,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   603 |   110 |      1506 |    7.3 |
+| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   630 |   110 |      1506 |    7.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |   193 |    32 |      1022 |   3.13 |
 | [`tg`](https://t.me/mwscr/622)                     | 2024-12-11 |   181 |    57 |       581 |   9.81 |
-|                                                    |            |   977 |   199 |      3109 |   6.75 |
+|                                                    |            |  1004 |   199 |      3109 |   6.75 |
 
 ## <span id="2024-12-10-sunrise-over-the-ash-forest">Sunrise Over the Ash Forest</span>
 
@@ -697,9 +697,9 @@
 | [`ig`](https://instagram.com/p/BfJXT4bDfpQ/)       | 2018-02-13 |       |    75 |       286 |  26.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_612)  | 2018-02-13 |   171 |    14 |       131 |  10.69 |
 | [`ig`](https://instagram.com/p/DCpJqGDManq/)       | 2024-11-21 |   374 |    87 |      1483 |   5.87 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1913) | 2024-11-21 |   269 |    38 |      1008 |   3.77 |
-| [`tg`](https://t.me/mwscr/602)                     | 2024-11-21 |   523 |    56 |       573 |   9.77 |
-|                                                    |            |  1166 |   181 |      3064 |  11.26 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1913) | 2024-11-21 |   279 |    38 |      1008 |   3.77 |
+| [`tg`](https://t.me/mwscr/602)                     | 2024-11-21 |   557 |    59 |       573 |   10.3 |
+|                                                    |            |  1210 |   184 |      3064 |  11.37 |
 
 #### Comments
 
