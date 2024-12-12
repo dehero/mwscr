@@ -31,10 +31,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   477 |    95 |      1506 |   6.31 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |   171 |    31 |      1022 |   3.03 |
+| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   478 |    96 |      1506 |   6.37 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |   172 |    31 |      1022 |   3.03 |
 | [`tg`](https://t.me/mwscr/622)                     | 2024-12-11 |   156 |    54 |       581 |   9.29 |
-|                                                    |            |   804 |   180 |      3109 |   6.21 |
+|                                                    |            |   806 |   181 |      3109 |   6.23 |
 
 ## <span id="2024-12-10-sunrise-over-the-ash-forest">Sunrise Over the Ash Forest</span>
 
