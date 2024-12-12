@@ -34,7 +34,7 @@
     - service: vk
       id: 1420
       published: 2024-02-28-19-19-28
-      updated: 2024-12-05-17-07-25
+      updated: 2024-12-12-17-07-41
       followers: 894
       likes: 40
       views: 323
@@ -711,7 +711,7 @@
     - service: vk
       id: 1471
       published: 2024-03-27-18-11-59
-      updated: 2024-12-05-16-10-14
+      updated: 2024-12-12-17-07-38
       followers: 905
       likes: 30
       views: 273
@@ -1040,7 +1040,7 @@
     - service: vk
       id: 1489
       published: 2024-04-10-18-19-29
-      updated: 2024-12-05-16-10-13
+      updated: 2024-12-12-17-07-36
       followers: 911
       likes: 30
       views: 225
@@ -1349,7 +1349,7 @@
     - service: vk
       id: 1508
       published: 2024-04-24-18-17-29
-      updated: 2024-12-05-16-10-11
+      updated: 2024-12-12-17-07-34
       followers: 909
       likes: 31
       views: 275
@@ -1357,10 +1357,10 @@
     - service: tg
       id: 388
       published: 2024-04-24-18-17-38
-      updated: 2024-12-05-17-07-24
+      updated: 2024-12-12-17-07-35
       followers: 354
       likes: 65
-      views: 502
+      views: 503
 2024-04-25-abandoned-island: 2017-09-14-abandoned-island
 2024-04-26-winter-and-summer:
   title: Winter and Summer
@@ -1663,7 +1663,7 @@
     - service: vk
       id: 1525
       published: 2024-05-08-18-19-16
-      updated: 2024-12-05-16-10-09
+      updated: 2024-12-12-17-07-32
       followers: 913
       likes: 42
       views: 297
@@ -3106,14 +3106,14 @@
     - service: vk
       id: 1957
       published: 2024-12-11-18-16-04
-      updated: 2024-12-12-16-10-02
+      updated: 2024-12-12-17-07-30
       followers: 1022
       likes: 32
-      views: 175
+      views: 181
     - service: tg
       id: 622
       published: 2024-12-11-18-16-12
-      updated: 2024-12-12-16-10-02
+      updated: 2024-12-12-17-07-32
       followers: 581
       likes: 54
       views: 156
@@ -3121,7 +3121,7 @@
       id: DDcvXvhTd7j
       mediaId: '18474431095051833'
       published: 2024-12-11-19-01-40
-      updated: 2024-12-12-16-10-02
+      updated: 2024-12-12-17-07-30
       followers: 1506
       likes: 100
-      views: 513
+      views: 536
