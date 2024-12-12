@@ -1788,17 +1788,17 @@
     - service: vk
       id: 1533
       published: 2024-05-15-18-18-32
-      updated: 2024-12-05-11-07-36
+      updated: 2024-12-12-12-15-19
       followers: 915
       likes: 39
       views: 257
     - service: tg
       id: 409
       published: 2024-05-15-18-18-39
-      updated: 2024-12-05-11-07-35
+      updated: 2024-12-12-12-15-18
       followers: 370
       likes: 57
-      views: 462
+      views: 463
       comments: !c |-
         ixuAkZTLQnj316rdgACx2YXYrdmF2K8g2K7Yp9mE2K+lRmlyc3STy0J499fDxIAApWFuc2lzpHdn
         YWYD
@@ -2184,7 +2184,7 @@
     - service: vk
       id: 1579
       published: 2024-06-12-18-20-23
-      updated: 2024-12-05-11-07-33
+      updated: 2024-12-12-12-15-16
       followers: 915
       likes: 35
       views: 288
@@ -2195,10 +2195,10 @@
     - service: tg
       id: 437
       published: 2024-06-12-18-20-29
-      updated: 2024-12-05-11-07-32
+      updated: 2024-12-12-12-15-16
       followers: 384
       likes: 54
-      views: 467
+      views: 468
 2024-06-13-propylon:
   title: Propylon
   titleRu: Пропильон
@@ -3106,22 +3106,22 @@
     - service: vk
       id: 1957
       published: 2024-12-11-18-16-04
-      updated: 2024-12-12-11-07-15
+      updated: 2024-12-12-12-15-12
       followers: 1022
       likes: 31
-      views: 162
+      views: 165
     - service: tg
       id: 622
       published: 2024-12-11-18-16-12
-      updated: 2024-12-12-11-07-15
+      updated: 2024-12-12-12-15-12
       followers: 581
       likes: 54
-      views: 149
+      views: 151
     - service: ig
       id: DDcvXvhTd7j
       mediaId: '18474431095051833'
       published: 2024-12-11-19-01-40
-      updated: 2024-12-12-11-07-14
+      updated: 2024-12-12-12-15-11
       followers: 1506
-      likes: 86
-      views: 408
+      likes: 88
+      views: 430
