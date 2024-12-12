@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 965 posted, 11 pending, 67 rejected  
 Requested: 6 pending  
-Likes: 161140  
+Likes: 161141  
 
 ```
 dehero
@@ -21,7 +21,7 @@ dehero
 
 Roles: `author`  
 Authored: 36 posted, 7 pending, 26 rejected  
-Likes: 7057  
+Likes: 7060  
 
 ```
 natty
@@ -261,7 +261,7 @@ Roles: `foreigner`
 oleh
 ```
 
-### ᅠ ᅠ
+### psyangst
 
 [Telegram](https://t.me/psyangst)
 
