@@ -1,26 +1,24 @@
-import { type Component, createSignal } from 'solid-js';
+import { createSignal, splitProps } from 'solid-js';
 import { createIssueUrl } from '../../../core/github-issues/merging.js';
+import type { PostRouteParams } from '../../routes/post-route.js';
 import { Button } from '../Button/Button.jsx';
-import type { DialogProps } from '../Dialog/Dialog.jsx';
+import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Dialog } from '../Dialog/Dialog.jsx';
 import { Input } from '../Input/Input.jsx';
 import { Label } from '../Label/Label.jsx';
 import styles from './PostMergeDialog.module.css';
 
-export interface PostMergeDialogProps extends Omit<DialogProps, 'title' | 'modal' | 'actions'> {
-  postId: string;
-}
-
-export const PostMergeDialog: Component<PostMergeDialogProps> = (props) => {
+export const PostMergeDialog: DetachedDialog<PostRouteParams> = (props) => {
+  const [, rest] = splitProps(props, ['params']);
   const [text, setText] = createSignal('');
 
   return (
     <Dialog
       title="Merge Post"
       modal
-      {...props}
+      {...rest}
       actions={[
-        <Button href={createIssueUrl(props.postId, text().split(/\r?\n/))} target="_blank" onClick={props.onClose}>
+        <Button href={createIssueUrl(props.params.id, text().split(/\r?\n/))} target="_blank" onClick={props.onClose}>
           Submit via GitHub
         </Button>,
         <Button onClick={props.onClose}>Cancel</Button>,

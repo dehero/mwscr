@@ -1,13 +1,15 @@
 import clsx from 'clsx';
-import type { Component } from 'solid-js';
-import { createResource, createSignal, createUniqueId, For, splitProps } from 'solid-js';
+import { createEffect, createResource, createSignal, createUniqueId, For, splitProps } from 'solid-js';
 import { EMPTY_OPTION, type Option } from '../../../core/entities/option.js';
-import { mergePostLocations, type PostEntry } from '../../../core/entities/post.js';
+import type { PostLocation } from '../../../core/entities/post.js';
+import { mergePostLocations } from '../../../core/entities/post.js';
 import { createIssueUrl as createLocateIssueUrl } from '../../../core/github-issues/location.js';
 import { email } from '../../../core/services/email.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { dataExtractor } from '../../data-managers/extractor.js';
+import type { PostRouteParams } from '../../routes/post-route.js';
 import { Button } from '../Button/Button.js';
+import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import type { DialogProps } from '../Dialog/Dialog.js';
 import { Dialog } from '../Dialog/Dialog.js';
 import { Label } from '../Label/Label.js';
@@ -20,18 +22,28 @@ async function getLocationOptions(): Promise<Option[]> {
     .map((location) => ({ value: location.title, label: location.title }));
 }
 
-export interface PostLocationDialogProps extends Omit<DialogProps, 'title'> {
-  postEntry: PostEntry;
-}
+export type PostLocationDialogProps = Omit<DialogProps, 'title'>;
 
-export const PostLocationDialog: Component<PostLocationDialogProps> = (props) => {
-  const [local, rest] = splitProps(props, ['postEntry']);
-  const id = () => local.postEntry[0];
-  const [postLocation, setPostLocation] = createSignal(local.postEntry[1].location);
+export const PostLocationDialog: DetachedDialog<PostRouteParams> = (props) => {
+  const [, rest] = splitProps(props, ['params']);
+
+  const id = () => props.params.id;
+  const manager = () => props.params.managerName && dataExtractor.findPostsManager(props.params.managerName);
+
+  const [postEntry] = createResource(
+    () => (props.show ? id() : undefined),
+    (id) => manager()?.getEntry(id),
+  );
+
+  createEffect(() => {
+    if (postEntry.state === 'ready') {
+      setPostLocation(postEntry()?.[1]?.location);
+    }
+  });
+
+  const [postLocation, setPostLocation] = createSignal<PostLocation>();
   const form = createUniqueId();
-
   const [locationOptions] = createResource(() => props.show, getLocationOptions);
-
   const setLocation = (index: number, location: string | undefined) => {
     const locations = asArray(asArray(postLocation()));
     if (location) {
@@ -45,7 +57,6 @@ export const PostLocationDialog: Component<PostLocationDialogProps> = (props) =>
     }
     setPostLocation(mergePostLocations(locations));
   };
-
   return (
     <Dialog
       title="Locate Post"

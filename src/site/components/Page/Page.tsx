@@ -4,6 +4,7 @@ import { debounce } from '@solid-primitives/scheduled';
 import { type Component, createSignal, type JSX, Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
+import { DetachedDialogsProvider } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Frame } from '../Frame/Frame.js';
 import { Navigation } from '../Navigation/Navigation.js';
 import { Toaster } from '../Toaster/Toaster.js';
@@ -27,7 +28,7 @@ export const Page: Component<PageProps> = (props) => {
   };
 
   return (
-    <>
+    <DetachedDialogsProvider>
       <Show when={import.meta.env.MODE === 'production'}>
         <YandexMetrikaCounter />
       </Show>
@@ -49,7 +50,6 @@ export const Page: Component<PageProps> = (props) => {
         </Frame>
 
         <Navigation />
-
         {props.children}
 
         <DocumentEventListener
@@ -59,6 +59,6 @@ export const Page: Component<PageProps> = (props) => {
           onHydrationend={handleTransitionEnd}
         />
       </Toaster>
-    </>
+    </DetachedDialogsProvider>
   );
 };

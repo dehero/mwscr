@@ -1,15 +1,12 @@
-import type { Component } from 'solid-js';
 import { createIssueUrl as createProposalIssueUrl } from '../../../core/github-issues/proposal.js';
 import { email } from '../../../core/services/email.js';
 import { telegram, TELEGRAM_BOT_NAME } from '../../../core/services/telegram.js';
 import { Button } from '../Button/Button.js';
-import type { DialogProps } from '../Dialog/Dialog.js';
+import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Dialog } from '../Dialog/Dialog.js';
 import styles from './PostProposalDialog.module.css';
 
-type PostProposalDialogProps = Omit<DialogProps, 'title' | 'modal'>;
-
-export const PostProposalDialog: Component<PostProposalDialogProps> = (props) => {
+export const PostProposalDialog: DetachedDialog = (props) => {
   return (
     <Dialog modal {...props}>
       <div class={styles.container}>

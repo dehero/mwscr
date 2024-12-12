@@ -1,4 +1,7 @@
+import { cleanupUndefinedProps } from '../utils/common-utils.js';
 import type { DataExtractor } from './data-extractor.js';
+
+const SITE_ROUTE_FRAGMENT_REGEX = /^#([^?]+)(\?.+)?$/;
 
 export interface SiteRouteMeta {
   title: string;
@@ -8,6 +11,11 @@ export interface SiteRouteMeta {
 }
 
 export type SiteRouteParams = Record<string, string | undefined>;
+
+export interface SiteRouteFragment {
+  pathname?: string;
+  searchParams?: SiteRouteParams;
+}
 
 export interface SiteRoute<
   TParams extends SiteRouteParams = SiteRouteParams,
@@ -27,4 +35,21 @@ export interface SiteRouteInfo<TParams extends SiteRouteParams, TData, TMeta ext
   data: () => TData;
   params: () => TParams;
   pathname: () => string;
+}
+
+export function parseSiteRouteFragment(fragment: string): SiteRouteFragment {
+  const [, pathname, search] = SITE_ROUTE_FRAGMENT_REGEX.exec(fragment) ?? [];
+  const searchParams = Object.fromEntries(new URLSearchParams(search));
+
+  return { pathname, searchParams };
+}
+
+export function stringifySiteRouteFragment(fragment: SiteRouteFragment): string {
+  return fragment.pathname
+    ? `#${fragment.pathname}${
+        fragment.searchParams && Object.keys(fragment.searchParams).length > 0
+          ? `?${new URLSearchParams(cleanupUndefinedProps(fragment.searchParams) as Record<string, string>)}`
+          : ''
+      }`
+    : '';
 }

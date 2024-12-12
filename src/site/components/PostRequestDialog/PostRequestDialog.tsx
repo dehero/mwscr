@@ -1,15 +1,13 @@
-import { type Component, createSignal } from 'solid-js';
+import { createSignal } from 'solid-js';
 import { createIssueUrl as createRequestIssueUrl } from '../../../core/github-issues/request.js';
 import { email } from '../../../core/services/email.js';
 import { Button } from '../Button/Button.js';
-import type { DialogProps } from '../Dialog/Dialog.js';
+import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Dialog } from '../Dialog/Dialog.js';
 import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
 
-type PostRequestDialogProps = Omit<DialogProps, 'title' | 'modal'>;
-
-export const PostRequestDialog: Component<PostRequestDialogProps> = (props) => {
+export const PostRequestDialog: DetachedDialog = (props) => {
   const [text, setText] = createSignal('');
 
   return (

@@ -5,10 +5,9 @@ import { usePageContext } from 'vike-solid/usePageContext';
 import type { TopicEntry } from '../../../core/entities/topic.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { helpRoute } from '../../routes/help-route.js';
+import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
-import { PostProposalDialog } from '../PostProposalDialog/PostProposalDialog.js';
-import { PostRequestDialog } from '../PostRequestDialog/PostRequestDialog.js';
 import styles from './HelpPage.module.css';
 
 export const HelpPage = (): JSX.Element => {
@@ -20,8 +19,6 @@ export const HelpPage = (): JSX.Element => {
   const [messageTopicIds, setMessageTopicIds] = createSignal<string[]>([...new Set(['', topicId()])]);
   const messageTopicEntries = (): TopicEntry[] =>
     messageTopicIds().map((id) => [id, topics[id] ?? { relatedTopicIds: [] }]);
-
-  const [showDialog, setShowDialog] = createSignal<'proposal' | 'request' | undefined>();
 
   let containerRef: HTMLDivElement | undefined;
   let messagesRef: HTMLDivElement | undefined;
@@ -90,14 +87,14 @@ export const HelpPage = (): JSX.Element => {
         </Frame>
         <Frame class={styles.topics} component="ul">
           <li>
-            <button class={styles.topic} onClick={() => setShowDialog('proposal')}>
+            <a class={styles.topic} href={createDetachedDialogFragment('post-proposal')}>
               Propose work
-            </button>
+            </a>
           </li>
           <li>
-            <button class={styles.topic} onClick={() => setShowDialog('request')}>
+            <a class={styles.topic} href={createDetachedDialogFragment('post-request')}>
               Request post
-            </button>
+            </a>
           </li>
           <li>
             <Divider />
@@ -113,10 +110,6 @@ export const HelpPage = (): JSX.Element => {
           </For>
         </Frame>
       </Frame>
-
-      <PostProposalDialog show={showDialog() === 'proposal'} onClose={() => setShowDialog(undefined)} />
-
-      <PostRequestDialog show={showDialog() === 'request'} onClose={() => setShowDialog(undefined)} />
     </>
   );
 };

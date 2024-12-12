@@ -32,6 +32,7 @@ import { postRoute } from '../../routes/post-route.js';
 import { postsRoute, postsRouteInfos } from '../../routes/posts-route.js';
 import { userRoute } from '../../routes/user-route.js';
 import { Button } from '../Button/Button.js';
+import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
@@ -39,11 +40,7 @@ import { Icon } from '../Icon/Icon.js';
 import { Input } from '../Input/Input.js';
 import { LocationTooltip } from '../LocationTooltip/LocationTooltip.js';
 import { PostComments } from '../PostComments/PostComments.js';
-import { PostEditingDialog } from '../PostEditingDialog/PostEditingDialog.js';
-import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.js';
-import { PostMergeDialog } from '../PostMergeDialog/PostMergeDialog.js';
 import { PostPublications } from '../PostPublications/PostPublications.js';
-import { PostReviewDialog } from '../PostReviewDialog/PostReviewDialog.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import { ResourcePreviews } from '../ResourcePreviews/ResourcePreviews.js';
 import { ResourceSelector } from '../ResourceSelector/ResourceSelector.js';
@@ -97,10 +94,6 @@ export const PostPage = (): JSX.Element => {
   const withContentSelection = () => withFullSizeContent() && content().length > 1;
   const withRequest = () => Boolean(data().post?.request);
 
-  const [showEditingDialog, setShowEditingDialog] = createSignal(false);
-  const [showLocationDialog, setShowLocationDialog] = createSignal(false);
-  const [showReviewDialog, setShowReviewDialog] = createSignal(false);
-  const [showMergeDialog, setShowMergeDialog] = createSignal(false);
   const [isLoading, setIsLoading] = createSignal(true);
 
   const selectContent = (url: string) => {
@@ -300,37 +293,35 @@ export const PostPage = (): JSX.Element => {
                 >
                   <div class={styles.actions}>
                     <Show when={managerInfo().actions?.includes('edit')}>
-                      <Button onClick={() => setShowEditingDialog(true)} class={styles.action}>
+                      <Button
+                        href={createDetachedDialogFragment('post-editing', { id, managerName: params().managerName })}
+                        class={styles.action}
+                      >
                         Edit
                       </Button>
-
-                      <PostEditingDialog
-                        postEntry={postEntry()}
-                        show={showEditingDialog()}
-                        onClose={() => setShowEditingDialog(false)}
-                      />
                     </Show>
                     <Show when={managerInfo().actions?.includes('edit')}>
-                      <Button onClick={() => setShowReviewDialog(true)} class={styles.action}>
+                      <Button
+                        href={createDetachedDialogFragment('post-review', { id, managerName: params().managerName })}
+                        class={styles.action}
+                      >
                         Review
                       </Button>
-
-                      <PostReviewDialog
-                        postEntry={postEntry()}
-                        show={showReviewDialog()}
-                        onClose={() => setShowReviewDialog(false)}
-                      />
                     </Show>
                     <Show when={managerInfo().actions?.includes('edit')}>
-                      <Button onClick={() => setShowMergeDialog(true)} class={styles.action}>
+                      <Button
+                        href={createDetachedDialogFragment('post-merge', { id, managerName: params().managerName })}
+                        class={styles.action}
+                      >
                         Merge
                       </Button>
-
-                      <PostMergeDialog postId={id} show={showMergeDialog()} onClose={() => setShowMergeDialog(false)} />
                     </Show>
 
                     <Show when={!post.location && managerInfo().actions?.includes('locate')}>
-                      <Button class={styles.action} onClick={() => setShowLocationDialog(true)}>
+                      <Button
+                        class={styles.action}
+                        href={createDetachedDialogFragment('post-location', { id, managerName: params().managerName })}
+                      >
                         Locate
                       </Button>
                     </Show>
@@ -430,7 +421,13 @@ export const PostPage = (): JSX.Element => {
                     label="Locations"
                     value={() =>
                       managerInfo().actions?.includes('locate') && (
-                        <Button class={styles.action} onClick={() => setShowLocationDialog(true)}>
+                        <Button
+                          class={styles.action}
+                          href={createDetachedDialogFragment('post-location', {
+                            id,
+                            managerName: params().managerName,
+                          })}
+                        >
                           Precise
                         </Button>
                       )
@@ -584,12 +581,6 @@ export const PostPage = (): JSX.Element => {
 
                 <PostPublications publications={getPostEntryPublications(postEntry())} class={styles.publications} />
               </Show>
-
-              <PostLocationDialog
-                postEntry={postEntry()}
-                show={showLocationDialog()}
-                onClose={() => setShowLocationDialog(false)}
-              />
             </>
           );
         }}

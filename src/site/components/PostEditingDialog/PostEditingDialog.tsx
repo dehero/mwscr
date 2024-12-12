@@ -1,13 +1,11 @@
 import clsx from 'clsx';
-import type { Component } from 'solid-js';
-import { createResource, createSignal, createUniqueId, For, Show, splitProps } from 'solid-js';
+import { createEffect, createResource, createSignal, createUniqueId, For, Show, splitProps } from 'solid-js';
 import type { Option } from '../../../core/entities/option.js';
 import { EMPTY_OPTION } from '../../../core/entities/option.js';
 import type {
   Post,
   PostAddon,
   PostEngine,
-  PostEntry,
   PostMark,
   PostRequest,
   PostType,
@@ -26,9 +24,10 @@ import {
 import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/editing.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { dataExtractor } from '../../data-managers/extractor.js';
+import type { PostRouteParams } from '../../routes/post-route.js';
 import { Button } from '../Button/Button.js';
 import { DatePicker } from '../DatePicker/DatePicker.jsx';
-import type { DialogProps } from '../Dialog/Dialog.js';
+import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Dialog } from '../Dialog/Dialog.js';
 import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
@@ -51,14 +50,24 @@ async function getUserOptions(): Promise<Option[]> {
     .sort((a, b) => a.label.localeCompare(b.label));
 }
 
-export interface PostEditingDialogProps extends Omit<DialogProps, 'title' | 'modal' | 'actions' | 'summary'> {
-  postEntry: PostEntry;
-}
+export const PostEditingDialog: DetachedDialog<PostRouteParams> = (props) => {
+  const [, rest] = splitProps(props, ['params']);
 
-export const PostEditingDialog: Component<PostEditingDialogProps> = (props) => {
-  const [local, rest] = splitProps(props, ['postEntry']);
-  const id = () => local.postEntry[0];
-  const [post, setPost] = createSignal(local.postEntry[1]);
+  const id = () => props.params.id;
+  const manager = () => props.params.managerName && dataExtractor.findPostsManager(props.params.managerName);
+
+  const [postEntry] = createResource(
+    () => (props.show ? id() : undefined),
+    (id) => manager()?.getEntry(id),
+  );
+
+  createEffect(() => {
+    if (postEntry.state === 'ready') {
+      setPost(postEntry()?.[1] ?? {});
+    }
+  });
+
+  const [post, setPost] = createSignal<Partial<Post>>({});
   const form = createUniqueId();
 
   const setPostContentAndTrash = ({ content, trash }: Pick<Post, 'content' | 'trash'>) =>
@@ -119,7 +128,7 @@ export const PostEditingDialog: Component<PostEditingDialogProps> = (props) => {
       {...rest}
       summary={<p class={styles.submissionAlert}>Submit edits only if you are an editor!</p>}
       actions={[
-        <Button href={createEditIssueUrl(id(), post())} onClick={props.onClose} target="_blank">
+        <Button href={createEditIssueUrl(id(), post() as Post)} onClick={props.onClose} target="_blank">
           Submit via GitHub
         </Button>,
         <Button onClick={props.onClose}>Cancel</Button>,

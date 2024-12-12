@@ -1,5 +1,5 @@
 import type { JSX } from 'solid-js';
-import { createSignal, Show } from 'solid-js';
+import { Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import icon from '../../../../assets/icon.png?format=avif&imagetools';
 import { getPostDateById } from '../../../core/entities/post.js';
@@ -11,13 +11,12 @@ import { postRoute } from '../../routes/post-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { Button } from '../Button/Button.js';
+import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Diagram } from '../Diagram/Diagram.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { PostHighlights } from '../PostHighlights/PostHighlights.js';
-import { PostProposalDialog } from '../PostProposalDialog/PostProposalDialog.js';
-import { PostRequestDialog } from '../PostRequestDialog/PostRequestDialog.js';
 import { PostTooltip } from '../PostTooltip/PostTooltip.js';
 import { Table } from '../Table/Table.js';
 import styles from './HomePage.module.css';
@@ -25,7 +24,6 @@ import styles from './HomePage.module.css';
 export const HomePage = (): JSX.Element => {
   const pageContext = usePageContext();
   const { data } = useRouteInfo(pageContext, homeRoute);
-  const [showDialog, setShowDialog] = createSignal<'proposal' | 'request' | undefined>();
 
   return (
     <>
@@ -109,9 +107,9 @@ export const HomePage = (): JSX.Element => {
                   </a>
                 </p>
                 <p class={styles.actions}>
-                  <Button onClick={() => setShowDialog('proposal')}>Propose Work</Button>
+                  <Button href={createDetachedDialogFragment('post-proposal')}>Propose Work</Button>
 
-                  <Button onClick={() => setShowDialog('request')}>Request Post</Button>
+                  <Button href={createDetachedDialogFragment('post-request')}>Request Post</Button>
                 </p>
               </Frame>
 
@@ -235,10 +233,6 @@ export const HomePage = (): JSX.Element => {
           );
         }}
       </Show>
-
-      <PostProposalDialog show={showDialog() === 'proposal'} onClose={() => setShowDialog(undefined)} />
-
-      <PostRequestDialog show={showDialog() === 'request'} onClose={() => setShowDialog(undefined)} />
     </>
   );
 };
