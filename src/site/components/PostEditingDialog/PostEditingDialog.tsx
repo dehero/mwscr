@@ -33,6 +33,7 @@ import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
 import { PostContentEditor } from '../PostContentEditor/PostContentEditor.js';
 import { Select } from '../Select/Select.js';
+import { Toast } from '../Toaster/Toaster.jsx';
 import styles from './PostEditingDialog.module.css';
 
 async function getLocationOptions(): Promise<Option[]> {
@@ -51,7 +52,7 @@ async function getUserOptions(): Promise<Option[]> {
 }
 
 export const PostEditingDialog: DetachedDialog<PostRouteParams> = (props) => {
-  const [, rest] = splitProps(props, ['params']);
+  const [, rest] = splitProps(props, ['params', 'show']);
 
   const id = () => props.params.id;
   const manager = () => props.params.managerName && dataExtractor.findPostsManager(props.params.managerName);
@@ -122,215 +123,221 @@ export const PostEditingDialog: DetachedDialog<PostRouteParams> = (props) => {
   const [locationOptions] = createResource(() => props.show, getLocationOptions);
   const [userOptions] = createResource(() => props.show, getUserOptions);
 
+  const isLoading = () => postEntry.loading || locationOptions.loading || userOptions.loading;
+
   return (
-    <Dialog
-      title="Edit Post"
-      {...rest}
-      summary={<p class={styles.submissionAlert}>Submit edits only if you are an editor!</p>}
-      actions={[
-        <Button href={createEditIssueUrl(id(), post() as Post)} onClick={props.onClose} target="_blank">
-          Submit via GitHub
-        </Button>,
-        <Button onClick={props.onClose}>Cancel</Button>,
-      ]}
-      modal
-    >
-      <form id={form} class={styles.form}>
-        <PostContentEditor value={post()} onChange={setPostContentAndTrash} />
+    <>
+      <Toast message="Loading Post, Locations and Users" show={props.show && isLoading()} loading />
+      <Dialog
+        title="Edit Post"
+        show={props.show && !isLoading()}
+        {...rest}
+        summary={<p class={styles.submissionAlert}>Submit edits only if you are an editor!</p>}
+        actions={[
+          <Button href={createEditIssueUrl(id(), post() as Post)} onClick={props.onClose} target="_blank">
+            Submit via GitHub
+          </Button>,
+          <Button onClick={props.onClose}>Cancel</Button>,
+        ]}
+        modal
+      >
+        <form id={form} class={styles.form}>
+          <PostContentEditor value={post()} onChange={setPostContentAndTrash} />
 
-        <fieldset class={clsx(styles.fieldset, styles.main)}>
-          <Label label="Title and Description" vertical>
-            <Input name="title" value={post().title} onChange={setPostTitle} />
-          </Label>
+          <fieldset class={clsx(styles.fieldset, styles.main)}>
+            <Label label="Title and Description" vertical>
+              <Input name="title" value={post().title} onChange={setPostTitle} />
+            </Label>
 
-          <Input
-            name="description"
-            value={post().description}
-            onChange={setPostDescription}
-            multiline
-            rows={5}
-            class={styles.input}
-          />
-        </fieldset>
-
-        <fieldset class={clsx(styles.fieldset, styles.main)}>
-          <Label label="Title and Description on Russian" vertical>
-            <Input name="titleRu" value={post().titleRu} onChange={setPostTitleRu} />
-          </Label>
-
-          <Input
-            name="descriptionRu"
-            value={post().descriptionRu}
-            onChange={setPostDescriptionRu}
-            multiline
-            rows={5}
-            class={styles.input}
-          />
-        </fieldset>
-
-        <Label label="Location" class={styles.location} vertical>
-          <fieldset class={clsx(styles.fieldset, styles.locations)}>
-            <For each={asArray(post().location)}>
-              {(location, index) => (
-                <div class={styles.selectWrapper}>
-                  <Select
-                    options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
-                    name="author"
-                    value={location}
-                    onChange={(location) => setPostLocation(index(), location)}
-                    class={styles.select}
-                  />
-                </div>
-              )}
-            </For>
-            <div class={styles.selectWrapper}>
-              <Select
-                options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
-                name="location"
-                value={undefined}
-                onChange={(location) => setPostLocation(asArray(post().location).length, location)}
-                class={styles.select}
-              />
-            </div>
-          </fieldset>
-        </Label>
-
-        <Label label="Type" vertical>
-          <div class={styles.selectWrapper}>
-            <Select
-              name="type"
-              options={POST_TYPES.map((info) => ({ label: info.title, value: info.id }))}
-              value={post().type}
-              onChange={setPostType}
-              class={styles.select}
-            />
-          </div>
-        </Label>
-
-        <fieldset class={clsx(styles.fieldset, styles.tagsFieldset)}>
-          <Label label="Engine" vertical>
-            <div class={styles.selectWrapper}>
-              <Select
-                name="engine"
-                options={[EMPTY_OPTION, ...POST_ENGINES.map((value) => ({ value }))]}
-                value={post().engine}
-                onChange={setPostEngine}
-                class={styles.select}
-              />
-            </div>
-          </Label>
-
-          <Label label="Addon" vertical>
-            <div class={styles.selectWrapper}>
-              <Select
-                name="addon"
-                options={[EMPTY_OPTION, ...POST_ADDONS.map((value) => ({ value }))]}
-                value={post().addon}
-                onChange={setPostAddon}
-                class={styles.select}
-              />
-            </div>
-          </Label>
-
-          <Label label="Tags" vertical class={styles.tags}>
             <Input
-              name="postTags"
-              value={asArray(post().tags).join(' ')}
-              onChange={(value) => setPostTags(mergePostTags(value.split(' ')))}
+              name="description"
+              value={post().description}
+              onChange={setPostDescription}
+              multiline
+              rows={5}
+              class={styles.input}
             />
-          </Label>
-        </fieldset>
-
-        <Label label="Author" vertical class={styles.author}>
-          <fieldset class={clsx(styles.fieldset, styles.authors)}>
-            <For each={asArray(post().author)}>
-              {(author, index) => (
-                <div class={styles.selectWrapper}>
-                  <Select
-                    options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...(userOptions() ?? [])]}
-                    name="author"
-                    value={author}
-                    onChange={(author) => setPostAuthor(index(), author)}
-                    class={styles.select}
-                  />
-                </div>
-              )}
-            </For>
-            <div class={styles.selectWrapper}>
-              <Select
-                options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...(userOptions() ?? [])]}
-                name="author"
-                value={undefined}
-                onChange={(author) => setPostAuthor(asArray(post().author).length, author)}
-                class={styles.select}
-              />
-            </div>
           </fieldset>
-        </Label>
 
-        <fieldset class={clsx(styles.fieldset)}>
-          <Label label="Editor's Mark" vertical>
-            <Select
-              name="mark"
-              options={[EMPTY_OPTION, ...POST_MARKS.map(({ id }) => ({ value: id }))]}
-              value={post().mark}
-              onChange={setPostMark}
-              class={styles.select}
+          <fieldset class={clsx(styles.fieldset, styles.main)}>
+            <Label label="Title and Description on Russian" vertical>
+              <Input name="titleRu" value={post().titleRu} onChange={setPostTitleRu} />
+            </Label>
+
+            <Input
+              name="descriptionRu"
+              value={post().descriptionRu}
+              onChange={setPostDescriptionRu}
+              multiline
+              rows={5}
+              class={styles.input}
             />
+          </fieldset>
+
+          <Label label="Location" class={styles.location} vertical>
+            <fieldset class={clsx(styles.fieldset, styles.locations)}>
+              <For each={asArray(post().location)}>
+                {(location, index) => (
+                  <div class={styles.selectWrapper}>
+                    <Select
+                      options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
+                      name="author"
+                      value={location}
+                      onChange={(location) => setPostLocation(index(), location)}
+                      class={styles.select}
+                    />
+                  </div>
+                )}
+              </For>
+              <div class={styles.selectWrapper}>
+                <Select
+                  options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
+                  name="location"
+                  value={undefined}
+                  onChange={(location) => setPostLocation(asArray(post().location).length, location)}
+                  class={styles.select}
+                />
+              </div>
+            </fieldset>
           </Label>
 
-          <Label label="Violation" vertical>
+          <Label label="Type" vertical>
             <div class={styles.selectWrapper}>
               <Select
-                name="violation"
-                options={[
-                  EMPTY_OPTION,
-                  ...Object.entries(POST_VIOLATIONS).map(([value, violation]) => ({
-                    value: value as PostViolation,
-                    label: violation.title,
-                  })),
-                ]}
-                value={post().violation}
-                onChange={setPostViolation}
+                name="type"
+                options={POST_TYPES.map((info) => ({ label: info.title, value: info.id }))}
+                value={post().type}
+                onChange={setPostType}
                 class={styles.select}
               />
             </div>
           </Label>
-        </fieldset>
 
-        <Label label="Requester" vertical>
-          <fieldset class={clsx(styles.fieldset, styles.request)}>
-            <div class={styles.selectWrapper}>
-              <Select
-                options={[EMPTY_OPTION, ...(userOptions() ?? [])]}
-                name="request[user]"
-                value={post().request?.user}
-                onChange={(user) => setPostRequest({ ...post().request, user })}
-                class={styles.select}
-              />
-            </div>
+          <fieldset class={clsx(styles.fieldset, styles.tagsFieldset)}>
+            <Label label="Engine" vertical>
+              <div class={styles.selectWrapper}>
+                <Select
+                  name="engine"
+                  options={[EMPTY_OPTION, ...POST_ENGINES.map((value) => ({ value }))]}
+                  value={post().engine}
+                  onChange={setPostEngine}
+                  class={styles.select}
+                />
+              </div>
+            </Label>
 
-            <Show when={post().request?.user}>
-              <DatePicker
-                // TODO: implement name="request[date]"
-                value={post().request?.date}
-                period={false}
-                onChange={(date) => setPostRequest({ date })}
-                emptyLabel="Pick Request Date"
-              />
+            <Label label="Addon" vertical>
+              <div class={styles.selectWrapper}>
+                <Select
+                  name="addon"
+                  options={[EMPTY_OPTION, ...POST_ADDONS.map((value) => ({ value }))]}
+                  value={post().addon}
+                  onChange={setPostAddon}
+                  class={styles.select}
+                />
+              </div>
+            </Label>
 
+            <Label label="Tags" vertical class={styles.tags}>
               <Input
-                name="request[text]"
-                value={post().request?.text}
-                onChange={(text) => setPostRequest({ text })}
-                multiline
-                rows={3}
-                class={styles.requestText}
+                name="postTags"
+                value={asArray(post().tags).join(' ')}
+                onChange={(value) => setPostTags(mergePostTags(value.split(' ')))}
               />
-            </Show>
+            </Label>
           </fieldset>
-        </Label>
-      </form>
-    </Dialog>
+
+          <Label label="Author" vertical class={styles.author}>
+            <fieldset class={clsx(styles.fieldset, styles.authors)}>
+              <For each={asArray(post().author)}>
+                {(author, index) => (
+                  <div class={styles.selectWrapper}>
+                    <Select
+                      options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...(userOptions() ?? [])]}
+                      name="author"
+                      value={author}
+                      onChange={(author) => setPostAuthor(index(), author)}
+                      class={styles.select}
+                    />
+                  </div>
+                )}
+              </For>
+              <div class={styles.selectWrapper}>
+                <Select
+                  options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...(userOptions() ?? [])]}
+                  name="author"
+                  value={undefined}
+                  onChange={(author) => setPostAuthor(asArray(post().author).length, author)}
+                  class={styles.select}
+                />
+              </div>
+            </fieldset>
+          </Label>
+
+          <fieldset class={clsx(styles.fieldset)}>
+            <Label label="Editor's Mark" vertical>
+              <Select
+                name="mark"
+                options={[EMPTY_OPTION, ...POST_MARKS.map(({ id }) => ({ value: id }))]}
+                value={post().mark}
+                onChange={setPostMark}
+                class={styles.select}
+              />
+            </Label>
+
+            <Label label="Violation" vertical>
+              <div class={styles.selectWrapper}>
+                <Select
+                  name="violation"
+                  options={[
+                    EMPTY_OPTION,
+                    ...Object.entries(POST_VIOLATIONS).map(([value, violation]) => ({
+                      value: value as PostViolation,
+                      label: violation.title,
+                    })),
+                  ]}
+                  value={post().violation}
+                  onChange={setPostViolation}
+                  class={styles.select}
+                />
+              </div>
+            </Label>
+          </fieldset>
+
+          <Label label="Requester" vertical>
+            <fieldset class={clsx(styles.fieldset, styles.request)}>
+              <div class={styles.selectWrapper}>
+                <Select
+                  options={[EMPTY_OPTION, ...(userOptions() ?? [])]}
+                  name="request[user]"
+                  value={post().request?.user}
+                  onChange={(user) => setPostRequest({ ...post().request, user })}
+                  class={styles.select}
+                />
+              </div>
+
+              <Show when={post().request?.user}>
+                <DatePicker
+                  // TODO: implement name="request[date]"
+                  value={post().request?.date}
+                  period={false}
+                  onChange={(date) => setPostRequest({ date })}
+                  emptyLabel="Pick Request Date"
+                />
+
+                <Input
+                  name="request[text]"
+                  value={post().request?.text}
+                  onChange={(text) => setPostRequest({ text })}
+                  multiline
+                  rows={3}
+                  class={styles.requestText}
+                />
+              </Show>
+            </fieldset>
+          </Label>
+        </form>
+      </Dialog>
+    </>
   );
 };
