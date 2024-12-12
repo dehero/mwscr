@@ -4,7 +4,36 @@
 
 # Posted in 2024
 
-`289 items`
+`290 items`
+
+## <span id="2024-12-12-underwater-glow">Underwater Glow</span>
+
+`RU` Подводное сияние
+
+<a href="https://instagram.com/p/DDfOdFqPbeK/" title="2024-12-12-underwater-glow"><img alt="store:/shots/2024-12-12-underwater-glow.png" src="../../assets/previews/shots/2024-12-12-underwater-glow.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2024-02-17-11-02-07.png](../../assets/previews/trash/dehero.2024-02-17-11-02-07.avif "dehero.2024-02-17-11-02-07")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Azura's Coast Region` `🚀 OpenMW` `water` `night`
+
+```
+2024-12-12-underwater-glow
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |      1507 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |      1023 |
+| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |       580 |
+|                                                    |            |      3110 |
 
 ## <span id="2024-12-11-night-calmness">Night Calmness</span>
 
@@ -31,10 +60,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   536 |   100 |      1506 |   6.64 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |   181 |    32 |      1022 |   3.13 |
+| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   552 |   105 |      1506 |   6.97 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |   185 |    32 |      1022 |   3.13 |
 | [`tg`](https://t.me/mwscr/622)                     | 2024-12-11 |   156 |    54 |       581 |   9.29 |
-|                                                    |            |   873 |   186 |      3109 |   6.36 |
+|                                                    |            |   893 |   191 |      3109 |   6.47 |
 
 ## <span id="2024-12-10-sunrise-over-the-ash-forest">Sunrise Over the Ash Forest</span>
 
@@ -58,10 +87,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQkAhpBlGN3/)       | 2017-02-16 |       |    30 |        83 |  36.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_154)  | 2017-02-16 |   177 |    18 |        36 |     18 |
-| [`ig`](https://instagram.com/p/DDaE2mRTAPD/)       | 2024-12-10 |   439 |    86 |      1503 |   5.72 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1954) | 2024-12-10 |   266 |    38 |      1018 |   3.93 |
-| [`tg`](https://t.me/mwscr/621)                     | 2024-12-10 |   355 |    59 |       581 |  10.15 |
-|                                                    |            |  1060 |   183 |      3102 |  14.79 |
+| [`ig`](https://instagram.com/p/DDaE2mRTAPD/)       | 2024-12-10 |   442 |    88 |      1503 |   5.85 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1954) | 2024-12-10 |   268 |    38 |      1018 |   3.93 |
+| [`tg`](https://t.me/mwscr/621)                     | 2024-12-10 |   356 |    59 |       581 |  10.15 |
+|                                                    |            |  1066 |   185 |      3102 |  14.82 |
 
 #### Comments
 

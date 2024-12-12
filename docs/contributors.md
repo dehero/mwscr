@@ -9,9 +9,9 @@
 [VK](https://vk.com/dehero), [Telegram](https://t.me/deherole), [GitHub](https://github.com/dehero), [E-mail](mailto:dehero@outlook.com)
 
 Roles: `admin` `author` `requester`  
-Authored: 965 posted, 11 pending, 67 rejected  
+Authored: 966 posted, 10 pending, 67 rejected  
 Requested: 6 pending  
-Likes: 161144  
+Likes: 161146  
 
 ```
 dehero
@@ -21,7 +21,7 @@ dehero
 
 Roles: `author`  
 Authored: 36 posted, 7 pending, 26 rejected  
-Likes: 7066  
+Likes: 7071  
 
 ```
 natty
