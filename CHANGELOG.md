@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.26.0](https://github.com/dehero/mwscr/compare/v1.25.0...v1.26.0) (2024-12-12)
+
+### Features
+
+- add detached dialogs loading toasts
+  ([320f0e8](https://github.com/dehero/mwscr/commit/320f0e8ce9373bccefd8bfa5fbc0f913391bb9be))
+- make GitHub issue creation dialogs available on each page with url hash
+  ([42828c5](https://github.com/dehero/mwscr/commit/42828c593affcfe1c8758f4a880f793ed0af1162))
+
+### Bug Fixes
+
+- disable resetting world map location on post page
+  ([674a049](https://github.com/dehero/mwscr/commit/674a0498e39a63818fb84492a10d83581cd4aa38))
+
 ## [1.25.0](https://github.com/dehero/mwscr/compare/v1.24.1...v1.25.0) (2024-12-11)
 
 ### Features
