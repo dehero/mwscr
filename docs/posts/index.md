@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   240 |    55 |      1507 |   3.65 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |   111 |    16 |      1023 |   1.56 |
-| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |   106 |    36 |       580 |   6.21 |
-|                                                    |            |   457 |   107 |      3110 |   3.81 |
+| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   247 |    58 |      1507 |   3.85 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |   115 |    16 |      1023 |   1.56 |
+| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |   108 |    37 |       580 |   6.38 |
+|                                                    |            |   470 |   111 |      3110 |   3.93 |
 
 ## <span id="2024-12-11-night-calmness">Night Calmness</span>
 
@@ -60,10 +60,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   684 |   110 |      1506 |    7.3 |
+| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   689 |   111 |      1506 |   7.37 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |   199 |    33 |      1022 |   3.23 |
 | [`tg`](https://t.me/mwscr/622)                     | 2024-12-11 |   183 |    57 |       581 |   9.81 |
-|                                                    |            |  1066 |   200 |      3109 |   6.78 |
+|                                                    |            |  1071 |   201 |      3109 |    6.8 |
 
 ## <span id="2024-12-10-sunrise-over-the-ash-forest">Sunrise Over the Ash Forest</span>
 
