@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   275 |    64 |      1507 |   4.25 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |   131 |    21 |      1023 |   2.05 |
-| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |   116 |    39 |       580 |   6.72 |
-|                                                    |            |   522 |   124 |      3110 |   4.34 |
+| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   281 |    65 |      1507 |   4.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |   136 |    22 |      1023 |   2.15 |
+| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |   119 |    40 |       580 |    6.9 |
+|                                                    |            |   536 |   127 |      3110 |   4.45 |
 
 ## <span id="2024-12-11-night-calmness">Night Calmness</span>
 
@@ -60,10 +60,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   701 |   114 |      1506 |   7.57 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |   200 |    33 |      1022 |   3.23 |
-| [`tg`](https://t.me/mwscr/622)                     | 2024-12-11 |   183 |    57 |       581 |   9.81 |
-|                                                    |            |  1084 |   204 |      3109 |   6.87 |
+| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   703 |   114 |      1506 |   7.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |   202 |    33 |      1022 |   3.23 |
+| [`tg`](https://t.me/mwscr/622)                     | 2024-12-11 |   185 |    57 |       581 |   9.81 |
+|                                                    |            |  1090 |   204 |      3109 |   6.87 |
 
 ## <span id="2024-12-10-sunrise-over-the-ash-forest">Sunrise Over the Ash Forest</span>
 
