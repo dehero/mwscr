@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   308 |    67 |      1507 |   4.45 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |   143 |    24 |      1023 |   2.35 |
+| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   310 |    68 |      1507 |   4.51 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |   148 |    25 |      1023 |   2.44 |
 | [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |   126 |    42 |       580 |   7.24 |
-|                                                    |            |   577 |   133 |      3110 |   4.68 |
+|                                                    |            |   584 |   135 |      3110 |   4.73 |
 
 ## <span id="2024-12-11-night-calmness">Night Calmness</span>
 
@@ -61,9 +61,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   712 |   114 |      1506 |   7.57 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |   207 |    34 |      1022 |   3.33 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |   209 |    35 |      1022 |   3.42 |
 | [`tg`](https://t.me/mwscr/622)                     | 2024-12-11 |   190 |    57 |       581 |   9.81 |
-|                                                    |            |  1109 |   205 |      3109 |    6.9 |
+|                                                    |            |  1111 |   206 |      3109 |   6.94 |
 
 ## <span id="2024-12-10-sunrise-over-the-ash-forest">Sunrise Over the Ash Forest</span>
 
