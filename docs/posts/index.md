@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNq8Q-sF6-Q/)       | 2016-12-06 |       |    22 |        26 |     22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_23)   | 2017-01-22 |    56 |     1 |         4 |      1 |
-| [`ig`](https://instagram.com/p/DDhzL3sO4Ky/)       | 2024-12-13 |    35 |    19 |      1507 |   1.26 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1960) | 2024-12-13 |    31 |     4 |      1024 |   0.39 |
-| [`tg`](https://t.me/mwscr/624)                     | 2024-12-13 |    71 |    20 |       580 |   3.45 |
-|                                                    |            |   137 |    43 |      3111 |   5.62 |
+| [`ig`](https://instagram.com/p/DDhzL3sO4Ky/)       | 2024-12-13 |    78 |    34 |      1507 |   2.26 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1960) | 2024-12-13 |    50 |     8 |      1024 |   0.78 |
+| [`tg`](https://t.me/mwscr/624)                     | 2024-12-13 |    86 |    22 |       580 |   3.79 |
+|                                                    |            |   214 |    64 |      3111 |   5.97 |
 
 ## <span id="2024-12-12-underwater-glow">Underwater Glow</span>
 
@@ -57,10 +57,14 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   339 |    71 |      1507 |   4.71 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |   180 |    27 |      1023 |   2.74 |
-| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |   153 |    45 |       580 |   7.76 |
-|                                                    |            |   672 |   143 |      3110 |   5.07 |
+| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   343 |    72 |      1507 |   4.78 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |   183 |    29 |      1023 |   2.93 |
+| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |   161 |    45 |       580 |   7.76 |
+|                                                    |            |   687 |   146 |      3110 |   5.16 |
+
+#### Comments
+
+- `vk` <ins title="2024-12-13-20-00-16">id889222999</ins> Наверное самый козырный здесь цвет-свет - таскаю с собой эту лампу
 
 ## <span id="2024-12-11-night-calmness">Night Calmness</span>
 
@@ -142,10 +146,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDXl10_zw85/)       | 2024-12-09 |   372 |   104 |      1503 |   6.92 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1953) | 2024-12-09 |   355 |    35 |      1013 |   3.75 |
-| [`tg`](https://t.me/mwscr/620)                     | 2024-12-09 |   197 |    54 |       580 |   9.31 |
-|                                                    |            |   924 |   193 |      3096 |   6.66 |
+| [`ig`](https://instagram.com/p/DDXl10_zw85/)       | 2024-12-09 |   382 |   107 |      1503 |   7.12 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1953) | 2024-12-09 |   365 |    35 |      1013 |   3.75 |
+| [`tg`](https://t.me/mwscr/620)                     | 2024-12-09 |   230 |    55 |       580 |   9.48 |
+|                                                    |            |   977 |   197 |      3096 |   6.78 |
 
 ## <span id="2024-12-08-still-life-with-a-stem">Still Life with a Stem</span>
 
@@ -165,10 +169,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDU7Fn4tBjR/)       | 2024-12-08 |   336 |    72 |      1500 |    4.8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1950) | 2024-12-08 |   260 |    29 |      1012 |   2.96 |
-| [`tg`](https://t.me/mwscr/619)                     | 2024-12-08 |   236 |    57 |       581 |   9.81 |
-|                                                    |            |   832 |   158 |      3093 |   5.86 |
+| [`ig`](https://instagram.com/p/DDU7Fn4tBjR/)       | 2024-12-08 |   339 |    73 |      1500 |   4.87 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1950) | 2024-12-08 |   267 |    29 |      1012 |   2.96 |
+| [`tg`](https://t.me/mwscr/619)                     | 2024-12-08 |   254 |    57 |       581 |   9.81 |
+|                                                    |            |   860 |   159 |      3093 |   5.88 |
 
 ## <span id="2024-12-07-farm-watchman">Farm Watchman</span>
 
@@ -194,15 +198,17 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   375 |    90 |      1498 |   6.01 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   277 |    42 |      1012 |   4.25 |
-| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   256 |    60 |       579 |  10.36 |
-|                                                    |            |   908 |   192 |      3089 |   6.87 |
+| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   377 |    90 |      1498 |   6.01 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   290 |    42 |      1012 |   4.25 |
+| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   271 |    62 |       579 |  10.71 |
+|                                                    |            |   938 |   194 |      3089 |   6.99 |
 
 #### Comments
 
 - `vk` <ins title="2024-12-07-20-57-53">id889222999</ins> Где-то в том же районе
 - `vk` <ins title="2024-12-11-08-59-41">id63571521</ins> Ага, будет он ферму сторожить, это поместье Омани на острове Элмас!
+- `tg` <ins title="2024-12-13-09-12-02">mongleri</ins> is bonemold golden or just rusty metal
+  - <ins title="2024-12-13-18-15-40">Gatemate7</ins> always presumed it to be golden since hlaalu is known as the merchant class. boomers/libertarians love their boys in blue
 
 ## <span id="2024-12-06-tel-naga-great-hall">Tel Naga Great Hall</span>
 
