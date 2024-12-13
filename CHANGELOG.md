@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.26.1](https://github.com/dehero/mwscr/compare/v1.26.0...v1.26.1) (2024-12-13)
+
+### Bug Fixes
+
+- show current preset in user presets select
+  ([0ea7cd1](https://github.com/dehero/mwscr/commit/0ea7cd1c9cb2631dee7c91509e9eccbc51b671b5))
+
 ## [1.26.0](https://github.com/dehero/mwscr/compare/v1.25.0...v1.26.0) (2024-12-12)
 
 ### Features
