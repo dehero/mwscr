@@ -35,7 +35,7 @@
     - service: vk
       id: 1499
       published: 2024-04-18-18-17-57
-      updated: 2024-12-06-21-08-10
+      updated: 2024-12-13-22-01-31
       followers: 910
       likes: 32
       views: 282
@@ -46,7 +46,7 @@
     - service: tg
       id: 382
       published: 2024-04-18-18-18-06
-      updated: 2024-12-06-21-08-08
+      updated: 2024-12-13-22-01-29
       followers: 354
       likes: 66
       views: 441
@@ -777,24 +777,27 @@
       id: DDhzL3sO4Ky
       mediaId: '17846310591368957'
       published: 2024-12-13-18-11-10
-      updated: 2024-12-13-21-07-06
+      updated: 2024-12-13-22-01-25
       followers: 1507
-      likes: 45
-      views: 102
+      likes: 49
+      views: 115
     - service: vk
       id: 1960
       published: 2024-12-13-18-11-18
-      updated: 2024-12-13-21-07-04
+      updated: 2024-12-13-22-01-25
       followers: 1024
       likes: 8
-      views: 58
+      views: 62
     - service: tg
       id: 624
       published: 2024-12-13-18-11-26
-      updated: 2024-12-13-21-07-04
+      updated: 2024-12-13-22-01-26
       followers: 580
-      likes: 26
-      views: 99
+      likes: 32
+      views: 108
+      comments: !c |-
+        G24A6J2JsY2C7dAcY0Lso/j+RvjfRJJFVuAJNglkkOzp3MjBZIm2hCQ3TKbEcGyou3nVlt1NYWlx
+        YAOONFAOA4WFLiqu/Xn/epe1HUTfedV7s1LJIZLD1N1YQsNP0uHDGUivCb4z0o7F0QtYFxY7
 2016-12-07-nchuleft-ruin:
   title: Nchuleft Ruin
   titleRu: Руины Нчулефта

@@ -209,17 +209,17 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2024-12-06-21-08-15
+      updated: 2024-12-13-22-01-36
       followers: 893
       likes: 35
       views: 260
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2024-12-06-21-08-11
+      updated: 2024-12-13-22-01-33
       followers: 345
       likes: 58
-      views: 552
+      views: 553
 2024-03-08-a-bridge-to-ascadian-isles:
   title: A Bridge to Ascadian Isles
   titleRu: Мост к Аскадианским островам
@@ -574,7 +574,7 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2024-12-06-21-08-13
+      updated: 2024-12-13-22-01-35
       followers: 896
       likes: 42
       views: 300
@@ -585,10 +585,10 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2024-12-06-21-08-10
+      updated: 2024-12-13-22-01-31
       followers: 352
       likes: 58
-      views: 470
+      views: 471
       comments: !c |-
         CymAkZTLQnjmKMfPAACpR2F0ZW1hdGU32SZ0aGlzIGlzIGEgbWFzb25pYyBsb2RnZT8gbm90IG1v
         cnJvd2luZJPLQnjmKXtAgAClYW5zaXOlaGFoYWgD
@@ -881,7 +881,7 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2024-12-06-21-08-11
+      updated: 2024-12-13-22-01-33
       followers: 906
       likes: 51
       views: 439
@@ -889,7 +889,7 @@
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2024-12-06-21-08-09
+      updated: 2024-12-13-22-01-30
       followers: 354
       likes: 62
       views: 477
@@ -1084,17 +1084,17 @@
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2024-12-06-21-08-11
+      updated: 2024-12-13-22-01-32
       followers: 911
       likes: 27
       views: 232
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2024-12-06-21-08-09
+      updated: 2024-12-13-22-01-30
       followers: 352
       likes: 67
-      views: 1107
+      views: 1109
 2024-04-12-sadrith-mora-gateway-inn: 2017-01-19-sadrith-mora-gateway-inn
 2024-04-13-manwe:
   title: Manwe
@@ -3147,17 +3147,17 @@
       id: DDfOdFqPbeK
       mediaId: '18074403466718301'
       published: 2024-12-12-18-11-44
-      updated: 2024-12-13-21-07-06
+      updated: 2024-12-13-22-01-26
       followers: 1507
       likes: 72
       views: 344
     - service: vk
       id: 1959
       published: 2024-12-12-18-11-51
-      updated: 2024-12-13-21-07-05
+      updated: 2024-12-13-22-01-26
       followers: 1023
       likes: 29
-      views: 186
+      views: 189
       reposts: 1
       comments: !c |-
         G5AA6C0SbBsJZ0cFr+xhOapRfH/7otkDSS2JLG0SDCTwZM85hiVWEWTonk6OJUqp7H9b8i2wMkcm
@@ -3166,8 +3166,8 @@
     - service: tg
       id: 623
       published: 2024-12-12-18-11-57
-      updated: 2024-12-13-21-07-05
+      updated: 2024-12-13-22-01-26
       followers: 580
-      likes: 46
-      views: 168
+      likes: 47
+      views: 173
 2024-12-13-redoran-stronghold-of-molag-mar: 2016-12-06-redoran-stronghold-of-molag-mar

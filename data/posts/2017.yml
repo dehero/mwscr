@@ -1465,7 +1465,7 @@
     - service: vk
       id: 1472
       published: 2024-03-28-18-11-42
-      updated: 2024-12-06-21-08-12
+      updated: 2024-12-13-22-01-34
       followers: 906
       likes: 38
       views: 309
@@ -1473,7 +1473,7 @@
     - service: tg
       id: 360
       published: 2024-03-28-18-11-49
-      updated: 2024-12-06-21-08-10
+      updated: 2024-12-13-22-01-31
       followers: 355
       likes: 59
       views: 459
@@ -3371,7 +3371,7 @@
     - service: vk
       id: 1426
       published: 2024-02-29-18-00-56
-      updated: 2024-12-06-21-08-15
+      updated: 2024-12-13-22-01-37
       followers: 894
       likes: 52
       views: 374
@@ -3382,7 +3382,7 @@
     - service: tg
       id: 331
       published: 2024-02-29-18-01-07
-      updated: 2024-12-06-21-08-12
+      updated: 2024-12-13-22-01-33
       followers: 338
       likes: 81
       views: 635
@@ -3502,7 +3502,7 @@
     - service: vk
       id: 1448
       published: 2024-03-14-18-12-16
-      updated: 2024-12-06-21-08-14
+      updated: 2024-12-13-22-01-35
       followers: 896
       likes: 51
       views: 374
@@ -3516,7 +3516,7 @@
     - service: tg
       id: 346
       published: 2024-03-14-18-12-22
-      updated: 2024-12-06-21-08-11
+      updated: 2024-12-13-22-01-32
       followers: 351
       likes: 67
       views: 508
@@ -7860,14 +7860,14 @@
     - service: vk
       id: 1516
       published: 2024-05-02-18-21-03
-      updated: 2024-12-06-21-08-08
+      updated: 2024-12-13-22-01-29
       followers: 912
       likes: 29
       views: 237
     - service: tg
       id: 396
       published: 2024-05-02-18-21-10
-      updated: 2024-12-06-21-08-06
+      updated: 2024-12-13-22-01-28
       followers: 364
       likes: 55
       views: 472
@@ -8763,18 +8763,18 @@
     - service: vk
       id: 1926
       published: 2024-11-29-18-10-46
-      updated: 2024-12-06-21-08-06
+      updated: 2024-12-13-22-01-27
       followers: 1011
-      likes: 32
-      views: 242
+      likes: 33
+      views: 264
       reposts: 1
     - service: tg
       id: 610
       published: 2024-11-29-18-10-55
-      updated: 2024-12-06-21-08-05
+      updated: 2024-12-13-22-01-27
       followers: 578
-      likes: 53
-      views: 391
+      likes: 55
+      views: 459
     - service: ig
       id: DDEUIyXx4PK
       mediaId: '18039376562202644'
@@ -9318,7 +9318,7 @@
     - service: vk
       id: 1509
       published: 2024-04-25-18-18-02
-      updated: 2024-12-06-21-08-09
+      updated: 2024-12-13-22-01-30
       followers: 910
       likes: 53
       views: 365
@@ -9326,10 +9326,10 @@
     - service: tg
       id: 389
       published: 2024-04-25-18-18-08
-      updated: 2024-12-06-21-08-07
+      updated: 2024-12-13-22-01-29
       followers: 354
       likes: 73
-      views: 528
+      views: 529
       comments: !c |-
         G84AYOXgmgMb6OMatMHW+F0rmlfwKJOS1zd8wYVOTvQYELcoi8NIvlyy5ncbW1+VRtZopDU6t1Du
         07WnirYJJmOanJFYXs5YSJJBjZTYNo9GDYSg/C2A/e+lyz2I4gWURwXLE2PIU2Y1yqA4jzjg/C7C
@@ -11245,17 +11245,17 @@
     - service: vk
       id: 1895
       published: 2024-11-15-18-11-10
-      updated: 2024-12-06-21-08-07
+      updated: 2024-12-13-22-01-28
       followers: 1006
       likes: 40
-      views: 280
+      views: 286
     - service: tg
       id: 596
       published: 2024-11-15-18-11-17
-      updated: 2024-12-06-21-08-06
+      updated: 2024-12-13-22-01-27
       followers: 572
-      likes: 63
-      views: 522
+      likes: 64
+      views: 541
 2017-11-12-ice-shivers:
   title: Ice Shivers
   titleRu: Ледяные обломки
