@@ -67,7 +67,7 @@ export const UsersPage = (): JSX.Element => {
 
   const presetOptions = (): UsersPagePreset[] => {
     const options: UsersPagePreset[] = [...presets];
-    const currentPreset = presets.find((preset) => isObjectEqual(preset.searchParams, searchParams));
+    const currentPreset = presets.find((preset) => isObjectEqual(preset.searchParams, searchParams()));
 
     if (!currentPreset) {
       options.push({ value: 'custom', label: 'Custom Selection', searchParams: searchParams() });
@@ -82,7 +82,7 @@ export const UsersPage = (): JSX.Element => {
     'contribution';
   const sortDirection = () => (searchParams().sort?.split(',')[1] === 'asc' ? 'asc' : 'desc');
   const searchTerm = () => searchParams().search;
-  const preset = () => presetOptions().find((preset) => isObjectEqual(preset.searchParams, searchParams))?.value;
+  const preset = () => presetOptions().find((preset) => isObjectEqual(preset.searchParams, searchParams()))?.value;
 
   const setUserRole = (role: UserRole | undefined) => setSearchParams({ role });
   const setSearchTerm = (search: string | undefined) => setSearchParams({ search });
