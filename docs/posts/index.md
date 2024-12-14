@@ -29,16 +29,17 @@
 | [`ig`](https://instagram.com/p/Bqyu4d6h5rV/)       | 2018-11-30 |       |   137 |       481 |  28.48 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1084) | 2018-11-30 |  1163 |    35 |       296 |   12.5 |
 | [`tg`](https://t.me/mwscr/132)                     | 2018-11-30 |   444 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DDkX2QvP2Ic/)       | 2024-12-14 |       |       |      1508 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1962) | 2024-12-14 |       |       |      1026 |        |
-| [`tg`](https://t.me/mwscr/625)                     | 2024-12-14 |       |       |       581 |        |
-|                                                    |            |       |       |      3115 |  20.49 |
+| [`ig`](https://instagram.com/p/DDkX2QvP2Ic/)       | 2024-12-14 |    48 |    25 |      1508 |   1.66 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1962) | 2024-12-14 |    52 |    12 |      1026 |   1.17 |
+| [`tg`](https://t.me/mwscr/625)                     | 2024-12-14 |    64 |    20 |       581 |   3.44 |
+|                                                    |            |   164 |    57 |      3115 |   9.45 |
 
 #### Comments
 
 - `ig` <ins title="2018-11-30-08-02-49">verian21</ins> Isn&#39;t he the guy with daedric dai-katana? 😎
   - <ins title="2018-11-30-11-47-58">phil_the_burn_</ins> yeah he is, at dren plantation. I normally buy a bound longsword spell first thing and go kill him for the katana😂
   - <ins title="2018-12-02-08-22-00">verian21</ins> @dr_phillippe_ killing him after drinking sujamma, skooma, brandy and other &quot;boosters&quot;; then doing the same with Umbra. Low lvl but OP af 😎
+- `tg` <ins title="2024-12-14-18-16-54">C4H6O4</ins> this hairstyle on dunmers.. 🤌💤
 
 ## <span id="2024-12-13-redoran-stronghold-of-molag-mar">Redoran Stronghold of Molag Mar</span>
 
@@ -62,10 +63,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNq8Q-sF6-Q/)       | 2016-12-06 |       |    22 |        26 |     22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_23)   | 2017-01-22 |    56 |     1 |         4 |      1 |
-| [`ig`](https://instagram.com/p/DDhzL3sO4Ky/)       | 2024-12-13 |   255 |    84 |      1507 |   5.57 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1960) | 2024-12-13 |   143 |    19 |      1024 |   1.86 |
-| [`tg`](https://t.me/mwscr/624)                     | 2024-12-13 |   150 |    47 |       580 |    8.1 |
-|                                                    |            |   548 |   150 |      3111 |   7.71 |
+| [`ig`](https://instagram.com/p/DDhzL3sO4Ky/)       | 2024-12-13 |   262 |    85 |      1507 |   5.64 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1960) | 2024-12-13 |   145 |    19 |      1024 |   1.86 |
+| [`tg`](https://t.me/mwscr/624)                     | 2024-12-13 |   166 |    48 |       580 |   8.28 |
+|                                                    |            |   573 |   152 |      3111 |   7.75 |
 
 #### Comments
 
@@ -130,10 +131,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   724 |   115 |      1506 |   7.64 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |   212 |    36 |      1022 |   3.52 |
-| [`tg`](https://t.me/mwscr/622)                     | 2024-12-11 |   191 |    57 |       581 |   9.81 |
-|                                                    |            |  1127 |   208 |      3109 |   6.99 |
+| [`ig`](https://instagram.com/p/DDcvXvhTd7j/)       | 2024-12-11 |   753 |   121 |      1506 |   8.03 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1957) | 2024-12-11 |   234 |    37 |      1022 |   3.62 |
+| [`tg`](https://t.me/mwscr/622)                     | 2024-12-11 |   226 |    62 |       581 |  10.67 |
+|                                                    |            |  1213 |   220 |      3109 |   7.44 |
 
 ## <span id="2024-12-10-sunrise-over-the-ash-forest">Sunrise Over the Ash Forest</span>
 
