@@ -4056,10 +4056,10 @@
     - service: vk
       id: 1842
       published: 2024-10-18-19-02-17
-      updated: 2024-12-07-03-25-12
+      updated: 2024-12-14-04-09-43
       followers: 965
-      likes: 49
-      views: 402
+      likes: 50
+      views: 405
       reposts: 2
       comments: !c |-
         Gw4CYK0ObLcnlEH41dHzAetIIP6f/mKkb5b3r3qGTYIRJuca5KxNS6jfDR3nUG4o6txyNyf+Dx0T
@@ -4338,7 +4338,7 @@
     - service: vk
       id: 1754
       published: 2024-09-13-18-29-45
-      updated: 2024-12-07-03-25-13
+      updated: 2024-12-14-04-09-43
       followers: 946
       likes: 51
       views: 386
@@ -4360,10 +4360,10 @@
     - service: tg
       id: 531
       published: 2024-09-13-18-29-51
-      updated: 2024-12-07-03-25-11
+      updated: 2024-12-14-04-09-41
       followers: 556
       likes: 53
-      views: 545
+      views: 546
       comments: !c iw6AkZPLQnke7nQrgAClYW5zaXOsUHJhaXNlIFZlaGshAw==
 2017-04-27-in-khuul:
   title: In Khuul
@@ -4920,7 +4920,7 @@
     - service: vk
       id: 1721
       published: 2024-08-30-18-29-34
-      updated: 2024-12-07-03-25-15
+      updated: 2024-12-14-04-09-45
       followers: 941
       likes: 46
       views: 320
@@ -4937,7 +4937,7 @@
     - service: tg
       id: 517
       published: 2024-08-30-18-29-41
-      updated: 2024-12-07-03-25-13
+      updated: 2024-12-14-04-09-42
       followers: 545
       likes: 71
       views: 596
