@@ -4,7 +4,41 @@
 
 # Posted in 2024
 
-`291 items`
+`292 items`
+
+## <span id="2024-12-14-gathal-llethri">Gathal Llethri</span>
+
+`RU` Гатал Ллетри
+
+<a href="https://instagram.com/p/Bqyu4d6h5rV/" title="2018-11-30-gathal-llethri"><img alt="store:/shots/2018-11-30-gathal-llethri.png" src="../../assets/previews/shots/2018-11-30-gathal-llethri.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-12-14-gathal-llethri&postLocation=)</code> `🚀 OpenMW`
+
+```
+2024-12-14-gathal-llethri
+```
+
+> `2018-11-30-gathal-llethri`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bqyu4d6h5rV/)       | 2018-11-30 |       |   137 |       481 |  28.48 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1084) | 2018-11-30 |  1163 |    35 |       296 |   12.5 |
+| [`tg`](https://t.me/mwscr/132)                     | 2018-11-30 |   444 |     2 |           |        |
+| [`ig`](https://instagram.com/p/DDkX2QvP2Ic/)       | 2024-12-14 |       |       |      1508 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1962) | 2024-12-14 |       |       |      1026 |        |
+| [`tg`](https://t.me/mwscr/625)                     | 2024-12-14 |       |       |       581 |        |
+|                                                    |            |       |       |      3115 |  20.49 |
+
+#### Comments
+
+- `ig` <ins title="2018-11-30-08-02-49">verian21</ins> Isn&#39;t he the guy with daedric dai-katana? 😎
+  - <ins title="2018-11-30-11-47-58">phil_the_burn_</ins> yeah he is, at dren plantation. I normally buy a bound longsword spell first thing and go kill him for the katana😂
+  - <ins title="2018-12-02-08-22-00">verian21</ins> @dr_phillippe_ killing him after drinking sujamma, skooma, brandy and other &quot;boosters&quot;; then doing the same with Umbra. Low lvl but OP af 😎
 
 ## <span id="2024-12-13-redoran-stronghold-of-molag-mar">Redoran Stronghold of Molag Mar</span>
 
@@ -28,10 +62,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNq8Q-sF6-Q/)       | 2016-12-06 |       |    22 |        26 |     22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_23)   | 2017-01-22 |    56 |     1 |         4 |      1 |
-| [`ig`](https://instagram.com/p/DDhzL3sO4Ky/)       | 2024-12-13 |   250 |    82 |      1507 |   5.44 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1960) | 2024-12-13 |   139 |    19 |      1024 |   1.86 |
-| [`tg`](https://t.me/mwscr/624)                     | 2024-12-13 |   149 |    46 |       580 |   7.93 |
-|                                                    |            |   538 |   147 |      3111 |   7.65 |
+| [`ig`](https://instagram.com/p/DDhzL3sO4Ky/)       | 2024-12-13 |   255 |    84 |      1507 |   5.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1960) | 2024-12-13 |   143 |    19 |      1024 |   1.86 |
+| [`tg`](https://t.me/mwscr/624)                     | 2024-12-13 |   150 |    47 |       580 |    8.1 |
+|                                                    |            |   548 |   150 |      3111 |   7.71 |
 
 #### Comments
 
@@ -62,10 +96,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   363 |    74 |      1507 |   4.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |   227 |    31 |      1023 |   3.13 |
-| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |   196 |    52 |       580 |   8.97 |
-|                                                    |            |   786 |   157 |      3110 |   5.67 |
+| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   365 |    74 |      1507 |   4.91 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |   231 |    31 |      1023 |   3.13 |
+| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |   198 |    52 |       580 |   8.97 |
+|                                                    |            |   794 |   157 |      3110 |   5.67 |
 
 #### Comments
 
