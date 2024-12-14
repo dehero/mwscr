@@ -2645,10 +2645,10 @@
     - service: vk
       id: 1802
       published: 2024-10-04-18-12-10
-      updated: 2024-12-07-02-18-41
+      updated: 2024-12-14-03-22-23
       followers: 958
       likes: 50
-      views: 376
+      views: 378
       reposts: 2
       comments: !c |-
         G8UAwB0HzrkrxiCUe/YWFXEjfcNEQ2wCCyjxZA80dZshR1OzmffLENw/37a3XKd1WklRIkTHp3qF
@@ -2657,10 +2657,10 @@
     - service: tg
       id: 554
       published: 2024-10-04-18-12-16
-      updated: 2024-12-07-02-18-39
+      updated: 2024-12-14-03-22-22
       followers: 559
       likes: 66
-      views: 497
+      views: 499
 2024-10-05-scamp-before-the-throw:
   title: Scamp Before the Throw
   titleRu: Скамп перед броском
@@ -3147,17 +3147,17 @@
       id: DDfOdFqPbeK
       mediaId: '18074403466718301'
       published: 2024-12-12-18-11-44
-      updated: 2024-12-14-02-16-37
+      updated: 2024-12-14-03-22-21
       followers: 1507
       likes: 73
-      views: 350
+      views: 351
     - service: vk
       id: 1959
       published: 2024-12-12-18-11-51
-      updated: 2024-12-14-02-16-38
+      updated: 2024-12-14-03-22-21
       followers: 1023
       likes: 30
-      views: 197
+      views: 200
       reposts: 1
       comments: !c |-
         G5AA6C0SbBsJZ0cFr+xhOapRfH/7otkDSS2JLG0SDCTwZM85hiVWEWTonk6OJUqp7H9b8i2wMkcm
@@ -3166,8 +3166,8 @@
     - service: tg
       id: 623
       published: 2024-12-12-18-11-57
-      updated: 2024-12-14-02-16-38
+      updated: 2024-12-14-03-22-21
       followers: 580
       likes: 48
-      views: 180
+      views: 181
 2024-12-13-redoran-stronghold-of-molag-mar: 2016-12-06-redoran-stronghold-of-molag-mar
