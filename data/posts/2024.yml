@@ -2270,7 +2270,7 @@
     - service: vk
       id: 1581
       published: 2024-06-14-18-20-42
-      updated: 2024-12-07-11-02-08
+      updated: 2024-12-14-12-12-58
       followers: 915
       likes: 40
       views: 301
@@ -2280,7 +2280,7 @@
     - service: tg
       id: 439
       published: 2024-06-14-18-20-48
-      updated: 2024-12-07-11-02-07
+      updated: 2024-12-14-12-12-58
       followers: 386
       likes: 61
       views: 509
@@ -3147,17 +3147,17 @@
       id: DDfOdFqPbeK
       mediaId: '18074403466718301'
       published: 2024-12-12-18-11-44
-      updated: 2024-12-14-11-02-07
+      updated: 2024-12-14-12-12-57
       followers: 1507
       likes: 73
       views: 357
     - service: vk
       id: 1959
       published: 2024-12-12-18-11-51
-      updated: 2024-12-14-11-02-08
+      updated: 2024-12-14-12-12-57
       followers: 1023
       likes: 30
-      views: 212
+      views: 215
       reposts: 1
       comments: !c |-
         G5AA6C0SbBsJZ0cFr+xhOapRfH/7otkDSS2JLG0SDCTwZM85hiVWEWTonk6OJUqp7H9b8i2wMkcm
@@ -3166,8 +3166,8 @@
     - service: tg
       id: 623
       published: 2024-12-12-18-11-57
-      updated: 2024-12-14-11-02-08
+      updated: 2024-12-14-12-12-57
       followers: 580
       likes: 50
-      views: 187
+      views: 189
 2024-12-13-redoran-stronghold-of-molag-mar: 2016-12-06-redoran-stronghold-of-molag-mar
