@@ -887,24 +887,25 @@
       id: DDm8rCuSktl
       mediaId: '17874870825142216'
       published: 2024-12-15-18-10-16
-      updated: 2024-12-15-19-01-12
+      updated: 2024-12-15-20-08-33
       followers: 1508
-      likes: 33
-      views: 53
+      likes: 47
+      views: 110
     - service: vk
       id: 1963
       published: 2024-12-15-18-10-25
-      updated: 2024-12-15-19-01-12
+      updated: 2024-12-15-20-08-34
       followers: 1027
-      likes: 11
-      views: 52
+      likes: 17
+      views: 81
+      reposts: 2
     - service: tg
       id: 626
       published: 2024-12-15-18-11-17
-      updated: 2024-12-15-19-01-13
+      updated: 2024-12-15-20-08-34
       followers: 580
-      likes: 23
-      views: 62
+      likes: 33
+      views: 81
 2017-01-27-telvanni-council-house:
   title: Telvanni Council House
   titleRu: Дом Совета Телванни
@@ -1804,17 +1805,17 @@
       id: DDaE2mRTAPD
       mediaId: '18161094118322156'
       published: 2024-12-10-18-11-38
-      updated: 2024-12-14-20-08-12
+      updated: 2024-12-15-20-08-38
       followers: 1503
-      likes: 93
-      views: 485
+      likes: 94
+      views: 494
     - service: vk
       id: 1954
       published: 2024-12-10-18-11-44
-      updated: 2024-12-14-20-08-12
+      updated: 2024-12-15-20-08-37
       followers: 1018
-      likes: 39
-      views: 294
+      likes: 41
+      views: 324
       reposts: 2
       comments: !c |-
         iyiAkZPLQnk7Hi+1gACrZmlubnZlcmJlcmfZOdCR0YPQutCy0LDQu9GM0L3QviDQstC40LQg0LjQ
@@ -1822,10 +1823,10 @@
     - service: tg
       id: 621
       published: 2024-12-10-18-11-50
-      updated: 2024-12-14-20-08-11
+      updated: 2024-12-15-20-08-36
       followers: 581
       likes: 65
-      views: 457
+      views: 477
 2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz:
   title: Dwemer Bridge to Arkngthunch-Sturdumz
   titleRu: Двемерский мост в Аркнгтунч-Штурдумц
@@ -4292,10 +4293,10 @@
     - service: tg
       id: 605
       published: 2024-11-24-18-09-33
-      updated: 2024-12-08-20-08-33
+      updated: 2024-12-15-20-08-37
       followers: 576
-      likes: 59
-      views: 479
+      likes: 62
+      views: 508
 2017-04-25-castle-ebonheart:
   title: Castle Ebonheart
   titleRu: Замок Эбенгард
