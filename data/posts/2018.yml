@@ -4507,10 +4507,10 @@
     - service: tg
       id: 612
       published: 2024-12-01-18-09-57
-      updated: 2024-12-08-21-03-27
+      updated: 2024-12-15-22-07-26
       followers: 576
-      likes: 61
-      views: 428
+      likes: 63
+      views: 503
     - service: ig
       id: DDGK86wO8YJ
       mediaId: '18296802376229812'
@@ -5080,18 +5080,18 @@
     - service: vk
       id: 1875
       published: 2024-11-03-18-10-30
-      updated: 2024-12-08-21-03-30
+      updated: 2024-12-15-22-07-27
       followers: 1003
-      likes: 36
-      views: 315
+      likes: 38
+      views: 325
       reposts: 1
     - service: tg
       id: 584
       published: 2024-11-03-18-10-35
-      updated: 2024-12-08-21-03-30
+      updated: 2024-12-15-22-07-28
       followers: 565
-      likes: 60
-      views: 507
+      likes: 61
+      views: 517
       comments: !c |-
         CyiAk5PLQnkw+mEZAACrYmh1dmFuYXNyaWmk8J+NrZPLQnkvTUbBgACpR2F0ZW1hdGU3qDIwMTgu
         Li4/k8tCeS9MvQ+AAKh3aWx6dXVsbKTwn6eQAw==
@@ -9366,10 +9366,10 @@
     - service: tg
       id: 598
       published: 2024-11-17-18-09-44
-      updated: 2024-12-08-21-03-28
+      updated: 2024-12-15-22-07-27
       followers: 573
-      likes: 56
-      views: 515
+      likes: 57
+      views: 529
     - service: vk
       id: 1901
       published: 2024-11-17-19-01-38
@@ -11834,17 +11834,17 @@
     - service: vk
       id: 1888
       published: 2024-11-10-18-09-11
-      updated: 2024-12-08-21-03-29
+      updated: 2024-12-15-22-07-26
       followers: 1006
-      likes: 44
-      views: 265
+      likes: 45
+      views: 273
     - service: tg
       id: 591
       published: 2024-11-10-18-10-13
-      updated: 2024-12-08-21-03-29
+      updated: 2024-12-15-22-07-28
       followers: 564
-      likes: 56
-      views: 555
+      likes: 57
+      views: 568
 2018-11-23-flooded-door:
   title: Flooded Door
   titleRu: Затопленная дверь
@@ -12068,24 +12068,24 @@
       id: DDkX2QvP2Ic
       mediaId: '18473252539000802'
       published: 2024-12-14-18-10-01
-      updated: 2024-12-15-21-03-21
+      updated: 2024-12-15-22-07-25
       followers: 1508
-      likes: 97
-      views: 332
+      likes: 99
+      views: 333
     - service: vk
       id: 1962
       published: 2024-12-14-18-10-09
-      updated: 2024-12-15-21-03-22
+      updated: 2024-12-15-22-07-25
       followers: 1026
       likes: 35
-      views: 216
+      views: 217
     - service: tg
       id: 625
       published: 2024-12-14-18-10-18
-      updated: 2024-12-15-21-03-22
+      updated: 2024-12-15-22-07-25
       followers: 581
       likes: 47
-      views: 167
+      views: 168
       comments: !c |-
         ixuAkZPLQnk8ZjQfAACmQzRINk802SR0aGlzIGhhaXJzdHlsZSBvbiBkdW5tZXJzLi4g8J+kjPCf
         kqQD
