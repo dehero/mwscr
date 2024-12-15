@@ -2814,10 +2814,10 @@
     - service: vk
       id: 1844
       published: 2024-10-19-18-08-58
-      updated: 2024-12-08-02-27-12
+      updated: 2024-12-15-03-30-33
       followers: 970
       likes: 38
-      views: 362
+      views: 365
       reposts: 2
       comments: !c |-
         GyUBAJwHtuOVhcGPdFyYKBzjn/dv85/A28e2GDJsCUaYnKtz05CbMX7Mjw+4qttivSDiqznth6Pn
@@ -2827,10 +2827,10 @@
     - service: tg
       id: 569
       published: 2024-10-19-18-09-05
-      updated: 2024-12-08-02-27-10
+      updated: 2024-12-15-03-30-32
       followers: 561
-      likes: 64
-      views: 829
+      likes: 65
+      views: 840
 2018-03-22-welcome-to-vivec-scum:
   title: Welcome to Vivec, Scum
   titleRu: Добро пожаловать в Вивек, ничтожество
@@ -10279,14 +10279,14 @@
     - service: vk
       id: 1742
       published: 2024-09-07-18-27-18
-      updated: 2024-12-08-03-30-14
+      updated: 2024-12-15-03-30-39
       followers: 943
       likes: 33
       views: 288
     - service: tg
       id: 525
       published: 2024-09-07-18-27-27
-      updated: 2024-12-08-03-30-11
+      updated: 2024-12-15-03-30-36
       followers: 552
       likes: 62
       views: 524
@@ -11539,17 +11539,17 @@
     - service: vk
       id: 1762
       published: 2024-09-14-18-28-21
-      updated: 2024-12-08-03-30-14
+      updated: 2024-12-15-03-30-39
       followers: 946
       likes: 28
       views: 233
     - service: tg
       id: 532
       published: 2024-09-14-18-28-32
-      updated: 2024-12-08-03-30-10
+      updated: 2024-12-15-03-30-35
       followers: 556
       likes: 61
-      views: 495
+      views: 496
       comments: !c |-
         ix+AkZPLQnkfHOBygACpR2F0ZW1hdGU32Sl3aGVyZSBhcmUgdGhlIGFybWVkIG1lbiB3aXRoIHRo
         ZSBwaWxsb3dzPwM=
@@ -12068,24 +12068,24 @@
       id: DDkX2QvP2Ic
       mediaId: '18473252539000802'
       published: 2024-12-14-18-10-01
-      updated: 2024-12-15-02-27-08
+      updated: 2024-12-15-03-30-30
       followers: 1508
-      likes: 61
-      views: 207
+      likes: 62
+      views: 217
     - service: vk
       id: 1962
       published: 2024-12-14-18-10-09
-      updated: 2024-12-15-02-27-08
+      updated: 2024-12-15-03-30-31
       followers: 1026
-      likes: 26
-      views: 124
+      likes: 27
+      views: 126
     - service: tg
       id: 625
       published: 2024-12-14-18-10-18
-      updated: 2024-12-15-02-27-09
+      updated: 2024-12-15-03-30-31
       followers: 581
       likes: 39
-      views: 110
+      views: 112
       comments: !c |-
         ixuAkZPLQnk8ZjQfAACmQzRINk802SR0aGlzIGhhaXJzdHlsZSBvbiBkdW5tZXJzLi4g8J+kjPCf
         kqQD
