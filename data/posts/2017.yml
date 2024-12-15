@@ -887,25 +887,28 @@
       id: DDm8rCuSktl
       mediaId: '17874870825142216'
       published: 2024-12-15-18-10-16
-      updated: 2024-12-15-22-07-24
+      updated: 2024-12-15-23-01-18
       followers: 1508
-      likes: 54
-      views: 147
+      likes: 59
+      views: 154
     - service: vk
       id: 1963
       published: 2024-12-15-18-10-25
-      updated: 2024-12-15-22-07-24
+      updated: 2024-12-15-23-01-18
       followers: 1027
       likes: 21
-      views: 115
+      views: 124
       reposts: 2
     - service: tg
       id: 626
       published: 2024-12-15-18-11-17
-      updated: 2024-12-15-22-07-24
+      updated: 2024-12-15-23-01-19
       followers: 580
-      likes: 36
-      views: 96
+      likes: 37
+      views: 100
+      comments: !c |-
+        ix6AkZPLQnk8xzmGAACnZWZpbXFxYdkp0JrQsNC60LDRjyDRgyDQstCw0YEg0LLQtdGA0YHQuNGP
+        IE9wZW5NVz8D
 2017-01-27-telvanni-council-house:
   title: Telvanni Council House
   titleRu: Дом Совета Телванни
