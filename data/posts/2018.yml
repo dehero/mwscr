@@ -172,18 +172,18 @@
     - service: vk
       id: 1876
       published: 2024-11-04-18-10-22
-      updated: 2024-12-09-22-07-57
+      updated: 2024-12-16-23-07-56
       followers: 1003
-      likes: 29
-      views: 280
+      likes: 30
+      views: 284
       reposts: 1
     - service: tg
       id: 585
       published: 2024-11-04-18-10-32
-      updated: 2024-12-09-22-07-56
+      updated: 2024-12-16-23-07-55
       followers: 565
-      likes: 56
-      views: 555
+      likes: 57
+      views: 565
 2018-01-07-vistha-kai-warden-of-the-corprusarium:
   title: Vistha-Kai, Warden of the Corprusarium
   titleRu: Виста-Кай, смотритель Корпрусариума
@@ -3915,7 +3915,7 @@
       id: DBHTZKzT3cy
       mediaId: '18061121767773879'
       published: 2024-10-14-18-10-20
-      updated: 2024-12-09-22-07-54
+      updated: 2024-12-16-23-07-53
       followers: 1463
       likes: 91
       views: 626
@@ -10294,10 +10294,10 @@
       id: C_s4h4kvWJC
       mediaId: '17969542835645642'
       published: 2024-09-09-15-23-55
-      updated: 2024-12-09-22-07-55
+      updated: 2024-12-16-23-07-54
       followers: 1456
       likes: 74
-      views: 309
+      views: 311
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы
