@@ -887,25 +887,28 @@
       id: DDm8rCuSktl
       mediaId: '17874870825142216'
       published: 2024-12-15-18-10-16
-      updated: 2024-12-16-12-15-20
+      updated: 2024-12-16-17-17-05
       followers: 1508
-      likes: 85
-      views: 248
+      likes: 93
+      views: 280
     - service: vk
       id: 1963
       published: 2024-12-15-18-10-25
-      updated: 2024-12-16-12-15-21
+      updated: 2024-12-16-17-17-05
       followers: 1027
-      likes: 36
-      views: 230
-      reposts: 2
+      likes: 39
+      views: 254
+      reposts: 3
+      comments: !c |-
+        G3EA4J0JdoxijC110YCi5+XmCf2wrcWWZAm2xCNJ7kFtzlKyoVjHtgcV/mAczN7OcLyTeJonm71f
+        FyLJQDCpEquf98+bu4jvTOXseVky2oQZ6/ixzqISw3oaG5r3SSweEm5vJqijICZuBw==
     - service: tg
       id: 626
       published: 2024-12-15-18-11-17
-      updated: 2024-12-16-12-15-21
+      updated: 2024-12-16-17-17-05
       followers: 580
-      likes: 49
-      views: 131
+      likes: 50
+      views: 138
       comments: !c |-
         G4kAMBwHuWn0btmfJgwjVLpVc74SIRvHZVVfXQ2AjhyBItmpJRQO92TqODxdfgxhAw6YW3BczMYB
         Tw4Sr2xyGvuZzN/ehodzxraRaCJTKAQsGQvs8MCORhJ1JBywo5ZnPVF8/mape+SabJOplUJFy4U1
@@ -995,8 +998,7 @@
 2017-01-28-2-meditative-night-in-ahemmusa-camp:
   title: Meditative Night in Ahemmusa Camp
   titleRu: Ночь медитации в лагере Ахеммуза
-  description:
-    Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
+  description: Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
   descriptionRu: Камера была закреплена дождливым вечером над юртой ашхана и оставалась там до утра.
   location: Ahemmusa Camp
   content: store:/videos/2017-01-28-2-meditative-night-in-ahemmusa-camp.mp4
@@ -1255,10 +1257,10 @@
       id: C-0i7seJzEX
       mediaId: '17879227356107377'
       published: 2024-08-18-18-17-44
-      updated: 2024-12-09-13-21-20
+      updated: 2024-12-16-17-17-12
       followers: 1455
       likes: 124
-      views: 637
+      views: 638
       comments: !c |-
         ixyAkZPLQnkWvtoMgACoYmVyc2thdGXZJFRoZSBjaXR5IEknZCBsaWtlIHRvIGxpdmUgaW4g8J+l
         suKdpAM=
@@ -4559,15 +4561,15 @@
     - service: vk
       id: 1494
       published: 2024-04-14-20-32-17
-      updated: 2024-12-09-15-08-50
+      updated: 2024-12-16-17-17-15
       followers: 911
       likes: 41
-      views: 296
+      views: 297
       reposts: 2
     - service: tg
       id: 378
       published: 2024-04-14-20-32-22
-      updated: 2024-12-09-15-08-49
+      updated: 2024-12-16-17-17-09
       followers: 351
       likes: 64
       views: 536
@@ -4710,7 +4712,7 @@
       id: C_D_wFZyrog
       mediaId: '18030629690219855'
       published: 2024-08-24-18-18-11
-      updated: 2024-12-09-12-15-44
+      updated: 2024-12-16-17-17-10
       followers: 1457
       likes: 93
       views: 413
@@ -4784,7 +4786,7 @@
       id: C-x-RYtziCJ
       mediaId: '18132369421360568'
       published: 2024-08-17-18-18-54
-      updated: 2024-12-09-13-21-21
+      updated: 2024-12-16-17-17-13
       followers: 1441
       likes: 89
       views: 381
@@ -5143,7 +5145,7 @@
       id: C_YnIVDs_Cl
       mediaId: '18067723348606232'
       published: 2024-09-01-18-27-05
-      updated: 2024-12-09-12-15-42
+      updated: 2024-12-16-17-17-09
       followers: 1453
       likes: 88
       views: 399
@@ -11115,10 +11117,10 @@
     - service: vk
       id: 1547
       published: 2024-05-26-18-17-46
-      updated: 2024-12-09-12-15-46
+      updated: 2024-12-16-17-17-09
       followers: 918
       likes: 32
-      views: 290
+      views: 291
       reposts: 2
     - service: tg
       id: 420
