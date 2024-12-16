@@ -459,18 +459,18 @@
     - service: vk
       id: 1687
       published: 2024-08-11-18-20-27
-      updated: 2024-12-09-03-30-36
+      updated: 2024-12-16-03-30-50
       followers: 930
       likes: 47
-      views: 310
+      views: 311
       reposts: 1
     - service: tg
       id: 498
       published: 2024-08-11-18-20-32
-      updated: 2024-12-09-03-30-36
+      updated: 2024-12-16-03-30-46
       followers: 520
       likes: 68
-      views: 627
+      views: 628
       comments: !c |-
         G54AAByHsTM6uHmvpWlkNXDOEY7D0iuANopoGvj20Eq62G9S0Ix7s84zSCyQyci2BqB4weMGJ1o2
         kD8v62DbADqtgZuMETqPmHTzX0xvqld1A7jwemXHKvIDIEo//H4PuJK0LqN+/7n1BjBYm91dF+qx
@@ -1640,15 +1640,15 @@
     - service: tg
       id: 556
       published: 2024-10-06-18-09-23
-      updated: 2024-12-09-02-24-04
+      updated: 2024-12-16-03-30-42
       followers: 559
       likes: 66
-      views: 510
+      views: 515
     - service: vk
       id: 1812
       published: 2024-10-06-19-01-29
-      updated: 2024-12-09-02-24-05
+      updated: 2024-12-16-03-30-43
       followers: 958
       likes: 51
-      views: 362
+      views: 364
       reposts: 1
