@@ -648,6 +648,19 @@
       followers: 4
       likes: 2
       views: 56
+    - service: ig
+      id: DDphn0uzA0I
+      mediaId: '17959880600728426'
+      published: 2024-12-16-18-11-38
+      followers: 1508
+    - service: vk
+      id: 1966
+      published: 2024-12-16-18-11-45
+      followers: 1027
+    - service: tg
+      id: 627
+      published: 2024-12-16-18-11-52
+      followers: 581
 2016-12-03-st-delyn-vs-st-olms:
   title: St. Delyn vs. St. Olms
   titleRu: Святой Делин против Святого Олмса
@@ -777,24 +790,24 @@
       id: DDhzL3sO4Ky
       mediaId: '17846310591368957'
       published: 2024-12-13-18-11-10
-      updated: 2024-12-15-18-09-54
+      updated: 2024-12-16-18-11-24
       followers: 1507
-      likes: 89
-      views: 318
+      likes: 91
+      views: 344
     - service: vk
       id: 1960
       published: 2024-12-13-18-11-18
-      updated: 2024-12-15-18-09-54
+      updated: 2024-12-16-18-11-23
       followers: 1024
-      likes: 27
-      views: 182
+      likes: 29
+      views: 206
     - service: tg
       id: 624
       published: 2024-12-13-18-11-26
-      updated: 2024-12-15-18-09-55
+      updated: 2024-12-16-18-11-23
       followers: 580
-      likes: 50
-      views: 185
+      likes: 53
+      views: 210
       comments: !c |-
         G4UA6I3EdHuDPEqZJzTBP3AuwoVNaDYbj7MvUqRAmzTfx3vb3KPVmb1lrsBWrSOGYIXCBpxoODAH
         PBAvdJ/sUHHZD+dX3RTD9gBuaVa24xj+G0tccsFEB1OdJ8QJDVIkNlETRQicr0mQXBPnCLFHTwLZ

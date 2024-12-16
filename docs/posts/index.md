@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`293 items`
+`294 items`
+
+## <span id="2024-12-16-molag-mar">Molag Mar</span>
+
+`RU` Молаг Мар
+
+<a href="https://instagram.com/p/BNggv4VFOrK/" title="2016-12-02-molag-mar"><img alt="store:/shots/2016-12-02-molag-mar.png" src="../../assets/previews/shots/2016-12-02-molag-mar.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Molag Mar` `🚀 OpenMW`
+
+```
+2024-12-16-molag-mar
+```
+
+> `2016-12-02-molag-mar`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BNggv4VFOrK/)       | 2016-12-02 |       |    14 |        23 |     14 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_19)   | 2017-01-22 |    56 |     2 |         4 |      2 |
+| [`ig`](https://instagram.com/p/DDphn0uzA0I/)       | 2024-12-16 |       |       |      1508 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1966) | 2024-12-16 |       |       |      1027 |        |
+| [`tg`](https://t.me/mwscr/627)                     | 2024-12-16 |       |       |       581 |        |
+|                                                    |            |       |       |      3116 |      8 |
 
 ## <span id="2024-12-15-aleft">Aleft</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BPtz0fclj9w/)       | 2017-01-26 |       |    36 |        81 |  44.44 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_84)   | 2017-01-26 |   197 |     9 |         8 |      9 |
-| [`ig`](https://instagram.com/p/DDm8rCuSktl/)       | 2024-12-15 |   280 |    93 |      1508 |   6.17 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1963) | 2024-12-15 |   254 |    39 |      1027 |   4.09 |
-| [`tg`](https://t.me/mwscr/626)                     | 2024-12-15 |   138 |    50 |       580 |   8.62 |
-|                                                    |            |   672 |   182 |      3115 |  14.46 |
+| [`ig`](https://instagram.com/p/DDm8rCuSktl/)       | 2024-12-15 |   289 |    94 |      1508 |   6.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1963) | 2024-12-15 |   256 |    39 |      1027 |   4.09 |
+| [`tg`](https://t.me/mwscr/626)                     | 2024-12-15 |   139 |    51 |       580 |   8.79 |
+|                                                    |            |   684 |   184 |      3115 |  14.51 |
 
 #### Comments
 
@@ -109,10 +136,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BNq8Q-sF6-Q/)       | 2016-12-06 |       |    22 |        26 |     22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_23)   | 2017-01-22 |    56 |     1 |         4 |      1 |
-| [`ig`](https://instagram.com/p/DDhzL3sO4Ky/)       | 2024-12-13 |   318 |    89 |      1507 |   5.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1960) | 2024-12-13 |   182 |    27 |      1024 |   2.64 |
-| [`tg`](https://t.me/mwscr/624)                     | 2024-12-13 |   185 |    50 |       580 |   8.62 |
-|                                                    |            |   685 |   166 |      3111 |   8.03 |
+| [`ig`](https://instagram.com/p/DDhzL3sO4Ky/)       | 2024-12-13 |   344 |    91 |      1507 |   6.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1960) | 2024-12-13 |   206 |    29 |      1024 |   2.83 |
+| [`tg`](https://t.me/mwscr/624)                     | 2024-12-13 |   210 |    53 |       580 |   9.14 |
+|                                                    |            |   760 |   173 |      3111 |    8.2 |
 
 #### Comments
 
@@ -143,10 +170,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   381 |    76 |      1507 |   5.04 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |   254 |    36 |      1023 |   3.62 |
-| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |   224 |    54 |       580 |   9.31 |
-|                                                    |            |   859 |   166 |      3110 |   5.99 |
+| [`ig`](https://instagram.com/p/DDfOdFqPbeK/)       | 2024-12-12 |   388 |    76 |      1507 |   5.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1959) | 2024-12-12 |   277 |    39 |      1023 |   3.91 |
+| [`tg`](https://t.me/mwscr/623)                     | 2024-12-12 |   273 |    56 |       580 |   9.66 |
+|                                                    |            |   938 |   171 |      3110 |    6.2 |
 
 #### Comments
 
