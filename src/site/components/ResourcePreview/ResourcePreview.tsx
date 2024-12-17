@@ -55,59 +55,63 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
       : false;
 
   return (
-    <Switch
-      fallback={
-        <Frame
-          variant="thin"
-          class={clsx(styles.fallback, props.class)}
-          style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
-        >
-          <span class={styles.url}>{props.url}</span>
-        </Frame>
-      }
-    >
-      <Match when={parsedUrl().protocol === 'store:'}>
-        <Show
-          when={needBlurredBackground()}
+    <Show when={url()} keyed>
+      {(url) => (
+        <Switch
           fallback={
             <Frame
-              component="img"
-              src={url()}
-              ref={ref}
-              class={clsx(styles.preview, props.class)}
-              draggable="false"
-              onLoad={handleLoad}
-              onError={handleError}
+              variant="thin"
+              class={clsx(styles.fallback, props.class)}
               style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
-              aria-label={url() === YellowExclamationMark ? 'yellow exclamation mark' : props.alt || props.url}
-            />
+            >
+              <span class={styles.url}>{props.url}</span>
+            </Frame>
           }
         >
-          <Frame class={clsx(styles.blurredBackgroundWrapper, props.class)}>
-            <img
-              src={url()}
-              class={styles.blurredBackground}
-              draggable="false"
-              style={{ 'aspect-ratio': `1 / ${props.maxHeightMultiplier ?? 1}` }}
-            />
+          <Match when={parsedUrl().protocol === 'store:'}>
+            <Show
+              when={needBlurredBackground()}
+              fallback={
+                <Frame
+                  component="img"
+                  src={url}
+                  ref={ref}
+                  class={clsx(styles.preview, props.class)}
+                  draggable="false"
+                  onLoad={handleLoad}
+                  onError={handleError}
+                  style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
+                  aria-label={url === YellowExclamationMark ? 'yellow exclamation mark' : props.alt || props.url}
+                />
+              }
+            >
+              <Frame class={clsx(styles.blurredBackgroundWrapper, props.class)}>
+                <img
+                  src={url}
+                  class={styles.blurredBackground}
+                  draggable="false"
+                  style={{ 'aspect-ratio': `1 / ${props.maxHeightMultiplier ?? 1}` }}
+                />
 
-            <img
-              src={url()}
-              ref={ref}
-              class={styles.preview}
-              draggable="false"
-              onLoad={handleLoad}
-              onError={handleError}
-              style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
-              aria-label={url() === YellowExclamationMark ? 'yellow exclamation mark' : props.alt || props.url}
-            />
-          </Frame>
-        </Show>
+                <img
+                  src={url}
+                  ref={ref}
+                  class={styles.preview}
+                  draggable="false"
+                  onLoad={handleLoad}
+                  onError={handleError}
+                  style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
+                  aria-label={url === YellowExclamationMark ? 'yellow exclamation mark' : props.alt || props.url}
+                />
+              </Frame>
+            </Show>
 
-        <Show when={props.showTooltip}>
-          <Tooltip forRef={ref}>{props.url}</Tooltip>
-        </Show>
-      </Match>
-    </Switch>
+            <Show when={props.showTooltip}>
+              <Tooltip forRef={ref}>{props.url}</Tooltip>
+            </Show>
+          </Match>
+        </Switch>
+      )}
+    </Show>
   );
 };
