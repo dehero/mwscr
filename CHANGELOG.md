@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.26.3](https://github.com/dehero/mwscr/compare/v1.26.2...v1.26.3) (2024-12-17)
+
+### Bug Fixes
+
+- disable accident tooltips appearing on click on no-hover devices
+  ([91e6c1b](https://github.com/dehero/mwscr/commit/91e6c1ba85169bd4e2080528d81d147acd5bab9e))
+
 ## [1.26.2](https://github.com/dehero/mwscr/compare/v1.26.1...v1.26.2) (2024-12-17)
 
 ### Bug Fixes
