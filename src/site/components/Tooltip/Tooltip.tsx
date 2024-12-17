@@ -7,6 +7,7 @@ import { createSignal, Show } from 'solid-js';
 import { Portal } from 'solid-js/web';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Tooltip.module.css';
+import { createMediaQuery } from '@solid-primitives/media';
 
 const CURSOR_OFFSET_X = 8;
 const CURSOR_OFFSET_Y = 32;
@@ -20,6 +21,7 @@ export interface TooltipProps {
 
 export const Tooltip: Component<TooltipProps> = (props) => {
   const [target, setTarget] = createSignal<HTMLElement>();
+  const noHover = createMediaQuery('(hover: none)');
 
   const size = createElementSize(target);
   const mouse = useMousePosition();
@@ -33,7 +35,7 @@ export const Tooltip: Component<TooltipProps> = (props) => {
   const children = () => (typeof props.children === 'function' ? props.children(relative) : props.children);
 
   return (
-    <Show when={relative.isInside && mouse.sourceType === 'mouse' && !isOverlapped() && children()}>
+    <Show when={!noHover() && relative.isInside && mouse.sourceType === 'mouse' && !isOverlapped() && children()}>
       <Portal>
         <Frame
           ref={setTarget}
