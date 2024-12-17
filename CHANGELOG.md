@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.26.2](https://github.com/dehero/mwscr/compare/v1.26.1...v1.26.2) (2024-12-17)
+
+### Bug Fixes
+
+- don't show old previews on posts page scroll
+  ([9a0f2de](https://github.com/dehero/mwscr/commit/9a0f2de669bc7c0eb5c3b85ff29b2c98c6795ba3))
+
 ## [1.26.1](https://github.com/dehero/mwscr/compare/v1.26.0...v1.26.1) (2024-12-13)
 
 ### Bug Fixes
