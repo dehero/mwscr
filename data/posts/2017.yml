@@ -235,7 +235,7 @@
     - service: vk
       id: 56
       published: 2017-01-22
-      updated: 2024-12-10-18-11-26
+      updated: 2024-12-17-18-11-49
       likes: 5
       views: 72
     - service: ig
@@ -3329,6 +3329,19 @@
         G40AgIzUTjXcMkaodB7ebkd4REFkbQXN77bsLspaCyiOMHkfc45hKWUpuIEg7sEGHGgCsMlmEw84
         46URNQa1YinX/Y0lh6On9K5z37Nlq1P9iwcMxJk5GnmnALFbAhcW8+hf0jJ+F2ANRovOhJmjoXfR
         FQ==
+    - service: ig
+      id: DDsGdwGJCBM
+      mediaId: '18149217184346348'
+      published: 2024-12-17-18-12-01
+      followers: 1508
+    - service: vk
+      id: 1967
+      published: 2024-12-17-18-12-07
+      followers: 1028
+    - service: tg
+      id: 628
+      published: 2024-12-17-18-12-14
+      followers: 581
 2017-03-29-guilds-and-stores:
   title: Guilds and Stores
   titleRu: Гильдии и магазины
