@@ -160,10 +160,10 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2024-12-11-17-07-31
+      updated: 2024-12-18-18-11-29
       followers: 894
       likes: 47
-      views: 366
+      views: 367
       reposts: 2
       comments: !c iw6AkZPLQnje54g+AACpdmxhZGtyMTE0qNCt0YXwn5iUAw==
     - service: tg
@@ -887,28 +887,28 @@
       id: DDm8rCuSktl
       mediaId: '17874870825142216'
       published: 2024-12-15-18-10-16
-      updated: 2024-12-17-17-07-30
+      updated: 2024-12-18-18-11-29
       followers: 1508
-      likes: 99
-      views: 347
+      likes: 105
+      views: 403
     - service: vk
       id: 1963
       published: 2024-12-15-18-10-25
-      updated: 2024-12-17-17-07-29
+      updated: 2024-12-18-18-11-28
       followers: 1027
-      likes: 44
-      views: 300
-      reposts: 3
+      likes: 46
+      views: 331
+      reposts: 4
       comments: !c |-
         G3EA4J0JdoxijC110YCi5+XmCf2wrcWWZAm2xCNJ7kFtzlKyoVjHtgcV/mAczN7OcLyTeJonm71f
         FyLJQDCpEquf98+bu4jvTOXseVky2oQZ6/ixzqISw3oaG5r3SSweEm5vJqijICZuBw==
     - service: tg
       id: 626
       published: 2024-12-15-18-11-17
-      updated: 2024-12-17-17-07-29
+      updated: 2024-12-18-18-11-28
       followers: 580
       likes: 56
-      views: 178
+      views: 211
       comments: !c |-
         G4kAMBwHuWn0btmfJgwjVLpVc74SIRvHZVVfXQ2AjhyBItmpJRQO92TqODxdfgxhAw6YW3BczMYB
         Tw4Sr2xyGvuZzN/ehodzxraRaCJTKAQsGQvs8MCORhJ1JBywo5ZnPVF8/mape+SabJOplUJFy4U1
@@ -3333,17 +3333,17 @@
       id: DDsGdwGJCBM
       mediaId: '18149217184346348'
       published: 2024-12-17-18-12-01
-      updated: 2024-12-18-17-01-19
+      updated: 2024-12-18-18-11-26
       followers: 1508
       likes: 75
-      views: 255
+      views: 259
     - service: vk
       id: 1967
       published: 2024-12-17-18-12-07
-      updated: 2024-12-18-17-01-18
+      updated: 2024-12-18-18-11-26
       followers: 1028
       likes: 25
-      views: 182
+      views: 185
       reposts: 2
       comments: !c |-
         GwoBIKwSeK4p/JCKWhw+Ylhko+flRvoX1VapZ5G2BCNM7uncKKk5Q2Oo4168oQq5tdzNyR2owuRD
@@ -3353,10 +3353,10 @@
     - service: tg
       id: 628
       published: 2024-12-17-18-12-14
-      updated: 2024-12-18-17-01-20
+      updated: 2024-12-18-18-11-27
       followers: 581
       likes: 44
-      views: 145
+      views: 148
 2017-03-29-guilds-and-stores:
   title: Guilds and Stores
   titleRu: Гильдии и магазины
