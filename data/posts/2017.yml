@@ -3333,25 +3333,30 @@
       id: DDsGdwGJCBM
       mediaId: '18149217184346348'
       published: 2024-12-17-18-12-01
-      updated: 2024-12-18-05-08-25
+      updated: 2024-12-18-06-11-31
       followers: 1508
-      likes: 54
-      views: 175
+      likes: 56
+      views: 186
     - service: vk
       id: 1967
       published: 2024-12-17-18-12-07
-      updated: 2024-12-18-05-08-26
+      updated: 2024-12-18-06-11-32
       followers: 1028
-      likes: 20
-      views: 109
+      likes: 22
+      views: 117
       reposts: 2
+      comments: !c |-
+        GwoBIKwSeK4p/JCKWhw+Ylhko+flRvoX1VapZ5G2BCNM7uncKKk5Q2Oo4168oQq5tdzNyR2owuRD
+        C184hZkjk909WWR5dHJ8YD0GgUQSxHRuS6QlHDjH0GRIBtv5lp/3j3lr9l2hwv93rrI1htNrXA+Y
+        oFKRLFw+6AWqthycY/Ia7Fkrim5gsOQJRLa2czS6EQkMPuEdLQIYCAUpYKKVap8lOCZtSCyDeFqC
+        TBdQPAE=
     - service: tg
       id: 628
       published: 2024-12-17-18-12-14
-      updated: 2024-12-18-05-08-26
+      updated: 2024-12-18-06-11-32
       followers: 581
-      likes: 40
-      views: 125
+      likes: 41
+      views: 128
 2017-03-29-guilds-and-stores:
   title: Guilds and Stores
   titleRu: Гильдии и магазины
