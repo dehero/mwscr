@@ -1546,18 +1546,18 @@
     - service: vk
       id: 1532
       published: 2024-05-14-18-18-38
-      updated: 2024-12-11-11-07-11
+      updated: 2024-12-18-12-14-52
       followers: 915
       likes: 47
-      views: 327
+      views: 328
       reposts: 1
     - service: tg
       id: 408
       published: 2024-05-14-18-18-46
-      updated: 2024-12-11-11-07-10
+      updated: 2024-12-18-12-14-51
       followers: 370
       likes: 61
-      views: 440
+      views: 442
       comments: !c |-
         izOAkZTLQnj3hUVcAACpR2F0ZW1hdGU32SJpdCB3b3VsZCBsb29rIGJldHRlciBpZiBhZGRlZCBt
         b2Rzk8tCePeFSMcAAKVhbnNpc75tb2RzIGJhbmlzaCB0aGlzIG4nd2FoIGFscmVhZHkD
@@ -3333,17 +3333,17 @@
       id: DDsGdwGJCBM
       mediaId: '18149217184346348'
       published: 2024-12-17-18-12-01
-      updated: 2024-12-18-11-03-13
+      updated: 2024-12-18-12-14-46
       followers: 1508
-      likes: 66
-      views: 227
+      likes: 68
+      views: 230
     - service: vk
       id: 1967
       published: 2024-12-17-18-12-07
-      updated: 2024-12-18-11-03-14
+      updated: 2024-12-18-12-14-47
       followers: 1028
-      likes: 23
-      views: 155
+      likes: 24
+      views: 165
       reposts: 2
       comments: !c |-
         GwoBIKwSeK4p/JCKWhw+Ylhko+flRvoX1VapZ5G2BCNM7uncKKk5Q2Oo4168oQq5tdzNyR2owuRD
@@ -3353,10 +3353,10 @@
     - service: tg
       id: 628
       published: 2024-12-17-18-12-14
-      updated: 2024-12-18-11-03-14
+      updated: 2024-12-18-12-14-47
       followers: 581
       likes: 43
-      views: 140
+      views: 142
 2017-03-29-guilds-and-stores:
   title: Guilds and Stores
   titleRu: Гильдии и магазины
@@ -11873,10 +11873,10 @@
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
-      updated: 2024-12-11-11-07-13
+      updated: 2024-12-18-12-14-54
       followers: 909
       likes: 40
-      views: 303
+      views: 304
       reposts: 2
       comments: !c |-
         iyKAkZPLQnjwxAfQAACrbG9tYWV2X2xpdmXZLdCT0L7RgNC+0LQg0YHQstC10YLQsCwg0LPQvtGA
@@ -11884,7 +11884,7 @@
     - service: tg
       id: 387
       published: 2024-04-23-18-17-22
-      updated: 2024-12-11-11-07-11
+      updated: 2024-12-18-12-14-52
       followers: 355
       likes: 61
       views: 1146
