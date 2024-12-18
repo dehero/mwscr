@@ -2140,14 +2140,14 @@
     - service: vk
       id: 1578
       published: 2024-06-11-18-21-03
-      updated: 2024-12-11-07-09-12
+      updated: 2024-12-18-08-11-22
       followers: 916
       likes: 34
-      views: 281
+      views: 282
     - service: tg
       id: 436
       published: 2024-06-11-18-21-09
-      updated: 2024-12-11-07-09-11
+      updated: 2024-12-18-08-11-19
       followers: 384
       likes: 56
       views: 441
@@ -2367,18 +2367,18 @@
     - service: vk
       id: 1689
       published: 2024-08-13-18-55-56
-      updated: 2024-12-11-07-09-04
+      updated: 2024-12-18-08-11-14
       followers: 931
       likes: 41
-      views: 339
+      views: 340
       reposts: 2
     - service: tg
       id: 500
       published: 2024-08-13-18-56-05
-      updated: 2024-12-11-07-09-03
+      updated: 2024-12-18-08-11-13
       followers: 527
       likes: 76
-      views: 771
+      views: 772
       comments: !c |-
         izuAkpPLQnkVCahrAACteHhrYW1hejIwMDh4eNkraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0
         Y2g/dj11aFlvTE1fSGNXTZPLQnkU0g//AACpR2F0ZW1hdGU3vWxvb2tzIGxpa2Ugd2UgdXNpbmcg
@@ -2585,25 +2585,25 @@
       id: DAWbjOBpCo2
       mediaId: '18038555939131029'
       published: 2024-09-25
-      updated: 2024-12-11-07-09-01
+      updated: 2024-12-18-08-11-11
       followers: 1457
       likes: 118
-      views: 438
+      views: 440
     - service: vk
       id: 1782
       published: 2024-09-25
-      updated: 2024-12-11-07-09-02
+      updated: 2024-12-18-08-11-12
       followers: 958
       likes: 29
-      views: 298
+      views: 299
       reposts: 1
     - service: tg
       id: 543
       published: 2024-09-25
-      updated: 2024-12-11-07-09-02
+      updated: 2024-12-18-08-11-12
       followers: 557
       likes: 56
-      views: 556
+      views: 557
 2024-09-26-bread-and-wine: 2018-10-29-bread-and-wine
 2024-09-27-the-two-towers: 2017-03-25-the-two-towers
 2024-09-28-cozy-workplace-in-the-basement: 2017-11-16-cozy-workplace-in-the-basement
