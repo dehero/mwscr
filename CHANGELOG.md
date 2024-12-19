@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.27.0](https://github.com/dehero/mwscr/compare/v1.26.3...v1.27.0) (2024-12-19)
+
+### Features
+
+- **site:** show tooltips on mobile as context menu on long press
+  ([3e33cfd](https://github.com/dehero/mwscr/commit/3e33cfd9c2257313ef9868e84540e649255206d5))
+
 ## [1.26.3](https://github.com/dehero/mwscr/compare/v1.26.2...v1.26.3) (2024-12-17)
 
 ### Bug Fixes
