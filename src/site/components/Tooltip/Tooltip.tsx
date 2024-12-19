@@ -1,13 +1,13 @@
-import type { PositionRelativeToElement } from '@solid-primitives/mouse';
+import { createMediaQuery } from '@solid-primitives/media';
+import type { MousePositionInside, PositionRelativeToElement } from '@solid-primitives/mouse';
 import { createPositionToElement, useMousePosition } from '@solid-primitives/mouse';
 import { createElementSize } from '@solid-primitives/resize-observer';
 import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
-import { createSignal, Show } from 'solid-js';
+import { createEffect, createMemo, createSignal, onCleanup, Show } from 'solid-js';
 import { Portal } from 'solid-js/web';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Tooltip.module.css';
-import { createMediaQuery } from '@solid-primitives/media';
 
 const CURSOR_OFFSET_X = 8;
 const CURSOR_OFFSET_Y = 32;
@@ -20,36 +20,77 @@ export interface TooltipProps {
 }
 
 export const Tooltip: Component<TooltipProps> = (props) => {
-  const [target, setTarget] = createSignal<HTMLElement>();
-  const noHover = createMediaQuery('(hover: none)');
+  const [tooltipRef, setTooltipRef] = createSignal<HTMLElement>();
+  const noHoverDevice = createMediaQuery('(hover: none)');
+  const [contextMenuPosition, setContextMenuPosition] = createSignal<MousePositionInside | null>(null);
 
-  const size = createElementSize(target);
-  const mouse = useMousePosition();
+  const size = createElementSize(tooltipRef);
+  const mousePosition = useMousePosition();
+  const position = createMemo(() => (noHoverDevice() ? contextMenuPosition() : mousePosition));
+
   const relative = createPositionToElement(
     () => props.forRef,
-    () => mouse,
+    () => position() ?? mousePosition,
   );
 
-  const isOverlapped = () => !props.forRef?.contains(document.elementFromPoint(mouse.x, mouse.y));
-  const invertedTooltipY = () => mouse.y - CURSOR_OFFSET_Y + CURSOR_SIZE - (size.height ?? 0);
+  const mouseIsInside = () =>
+    position() ? props.forRef?.contains(document.elementFromPoint(position()!.x, position()!.y)) : false;
+  const invertedTooltipY = () => (position()?.y ?? 0) - CURSOR_OFFSET_Y + CURSOR_SIZE - (size.height ?? 0);
   const children = () => (typeof props.children === 'function' ? props.children(relative) : props.children);
 
+  createEffect(() => {
+    if (!noHoverDevice()) {
+      return;
+    }
+
+    const handleContextmenu = (e: Event) => {
+      e.preventDefault();
+      // Don't inherit reactivity
+      setContextMenuPosition({ ...mousePosition });
+      return false;
+    };
+
+    const handleInteraction = (e: Event) => {
+      if (contextMenuPosition() && !tooltipRef()?.contains(e.target as Node)) {
+        if (e.type === 'click') {
+          e.preventDefault();
+        }
+        setContextMenuPosition(null);
+      }
+    };
+
+    // TODO: iOS does not trigger contextmenu, add long press emulator
+    props.forRef?.addEventListener('contextmenu', handleContextmenu);
+    document.addEventListener('click', handleInteraction);
+    document.addEventListener('touchstart', handleInteraction);
+    document.addEventListener('touchmove', handleInteraction);
+    document.addEventListener('mousewheel', handleInteraction);
+
+    onCleanup(() => {
+      props.forRef?.removeEventListener('contextmenu', handleContextmenu);
+      document.removeEventListener('click', handleInteraction);
+      document.removeEventListener('touchstart', handleInteraction);
+      document.removeEventListener('touchmove', handleInteraction);
+      document.removeEventListener('mousewheel', handleInteraction);
+    });
+  });
+
   return (
-    <Show when={!noHover() && relative.isInside && mouse.sourceType === 'mouse' && !isOverlapped() && children()}>
+    <Show when={position() && mouseIsInside() && children()}>
       <Portal>
         <Frame
-          ref={setTarget}
+          ref={setTooltipRef}
           component="div"
           variant="thin"
           class={clsx(styles.tooltip, props.class)}
           style={{
             transform: `translate(${Math.min(
-              Math.max(-CURSOR_OFFSET_X, mouse.x - (size.width ?? 0) / 2),
+              Math.max(-CURSOR_OFFSET_X, position()!.x - (size.width ?? 0) / 2),
               window.innerWidth - (size.width ?? 0) - CURSOR_OFFSET_X,
             )}px, ${
-              mouse.y + CURSOR_OFFSET_Y + (size.height ?? 0) > window.innerHeight && invertedTooltipY() > 0
+              position()!.y + CURSOR_OFFSET_Y + (size.height ?? 0) > window.innerHeight && invertedTooltipY() > 0
                 ? invertedTooltipY()
-                : mouse.y + CURSOR_OFFSET_Y
+                : position()!.y + CURSOR_OFFSET_Y
             }px)`,
           }}
         >
