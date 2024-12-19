@@ -6557,10 +6557,10 @@
     - service: vk
       id: 1445
       published: 2024-03-13-18-17-34
-      updated: 2024-12-12-21-07-45
+      updated: 2024-12-19-22-01-20
       followers: 897
       likes: 33
-      views: 286
+      views: 287
       reposts: 1
       comments: !c |-
         Cx2AkZPLQnjjldgQgACrbG9tYWV2X2xpdmXZItCU0L7RgNC+0LPQsCDQvdCwINCR0LDQu9GM0LzQ
@@ -6568,21 +6568,21 @@
     - service: tg
       id: 344
       published: 2024-03-13-18-17-41
-      updated: 2024-12-12-21-07-44
+      updated: 2024-12-19-22-01-19
       followers: 349
       likes: 64
-      views: 532
+      views: 533
       comments: !c |-
-        G+4DIJwHtg3vDJUeLhr3Ytks+kcGGyn+ymAjREtghmYlJIvVjITomMVSjJZ7ZptY5asqnGwlVzUz
-        uSeB4w+SR+pZcG5CMxhGKv0tC3gWqRMYSIL05baYwK8vNfHfHLGcKJG6zPzfEvRjoBmGmV03XTfd
-        eFDttEZbtCWUZ/VpL9qFPJtrD7d65U+LDoYiM9JfH/d//vqv/8kcz6ujbAZXOcUwmzLuWyyULpBV
-        tHDeC6YFIaAJxy+CyHi9qj/bSqdyoav4/XwD3ba/UAEl5xlglo88gZadGWFpO0MGI6i1qXynw6+a
-        qJidkXcpONrnqRHd4eDO8XFx+qxhqgdJkYYnhn9OYPRXLZSTw1QsmKki80hiL9gERREsTBYAQUnu
-        PVkocDyCLMwF4k6su1tmH7gisVQgL/ghvlYlt268c0Ij5iEN8OU4FIMxhRc1ZbvOrVINMx7Useyl
-        q38lU4NpFK4fPs/1VaE/RhVy/TpF3y96QQ/+dcb37Vz5UtvAWAoKdecpnScJe5NGLgmlfWsj1C+2
-        N3wiXSUG8vlnZGMAWegvnuwsVj4IaB0CcNvsu51I4KbNeg9LjnKAZnULxAZPVLqN8GecRIYHbAPu
-        YFgA1if0eVuWRy59nX0VaNTYQG3ZnEcZiwgNM8XUOzmIZRjlhqOkIBDiNC8tQsXwoYHwe6H3yQXE
-        D6tKoTAkljOw
+        G+4DIJwHtg3vDJUeLhr3Ytksel4GJ8VfjU2IonUTmmlCUlQZIZopShGVe2abWOWrKpxsJVc1M7kn
+        geMPkkfqWXBuQjMYRir9LQt4FqkTGEiCtJHbYgK/vtTEf4JZTpRIXWb+bwn6MdAMw8yu066bbuxF
+        92aNWrYJ5Vl92ot2IY9nc+3hVq/8adHBUGRG+u3z/uev//qfzPHeBy56hMwphtmUcT9ioXQCWUUL
+        5z1hWhACmrB8EETG65B/dnpccm6z+P18A822v1ABJesxwCwPPIGanRlhaT1DBiOo/zKVF1p8T4iY
+        pvGg2BfgXQqO+nrUiO5wcOe4Xpw+a1jqQVKk4YnhXxMY/aoJ5eQw5RPMVJJ5JLEnbARFEUwYWQAE
+        JblnZKHA4RFkoQAoUirWTTL7wB2JpQJ5wQ/xviy5deOdCxoxD2mGL8ehGIwpvKgp231ulWqY8aSO
+        ZTdN/SuZGkyjcP3wea4nhf4YVcj16xR9r2iLHvzritf5XOWS28BYCgp15ymdBwlz1E4vIxn3rY1Q
+        v9g+8Il0lRjI55chGwPIQn/xZGex8kFArQiA62Lf7USMmxfrPWwFLoFiDQuGBk9UOoWKZzSqCQ9Y
+        DuFgWADWDfo+L8ujlzrPvgp015iB2rY5HmVYRGiYKabRykEswlCuOEoKAiFO46VFqBjeNBD+KPQ+
+        uYD4eVUpFIbEcgYW
 2017-06-24-entering-aldruhn:
   title: Entering Ald'ruhn
   titleRu: Вступая в Альд'рун
@@ -8489,10 +8489,10 @@
     - service: vk
       id: 1885
       published: 2024-11-07-18-10-36
-      updated: 2024-12-12-21-07-44
+      updated: 2024-12-19-22-01-20
       followers: 1005
-      likes: 29
-      views: 295
+      likes: 30
+      views: 300
       reposts: 1
     - service: tg
       id: 588
