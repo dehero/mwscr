@@ -34,10 +34,10 @@
     - service: vk
       id: 1420
       published: 2024-02-28-19-19-28
-      updated: 2024-12-12-17-07-41
+      updated: 2024-12-19-18-10-34
       followers: 894
       likes: 40
-      views: 323
+      views: 324
       reposts: 2
       comments: !c |-
         G4cEAKwOeDPTKSGxilFh42qgn0k8AYe/+AvdH7sCiqyN+SIYQGuLz3fkmboYCO0QkngCAk1ya3f7
@@ -711,10 +711,10 @@
     - service: vk
       id: 1471
       published: 2024-03-27-18-11-59
-      updated: 2024-12-12-17-07-38
+      updated: 2024-12-19-18-10-32
       followers: 905
       likes: 30
-      views: 273
+      views: 274
       reposts: 2
     - service: tg
       id: 359
@@ -1040,10 +1040,10 @@
     - service: vk
       id: 1489
       published: 2024-04-10-18-19-29
-      updated: 2024-12-12-17-07-36
+      updated: 2024-12-19-18-10-30
       followers: 911
       likes: 30
-      views: 225
+      views: 226
     - service: tg
       id: 374
       published: 2024-04-10-18-19-36
@@ -1349,15 +1349,15 @@
     - service: vk
       id: 1508
       published: 2024-04-24-18-17-29
-      updated: 2024-12-12-17-07-34
+      updated: 2024-12-19-18-10-29
       followers: 909
       likes: 31
-      views: 275
+      views: 276
       reposts: 1
     - service: tg
       id: 388
       published: 2024-04-24-18-17-38
-      updated: 2024-12-12-17-07-35
+      updated: 2024-12-19-18-10-26
       followers: 354
       likes: 65
       views: 503
@@ -1663,10 +1663,10 @@
     - service: vk
       id: 1525
       published: 2024-05-08-18-19-16
-      updated: 2024-12-12-17-07-32
+      updated: 2024-12-19-18-10-26
       followers: 913
       likes: 42
-      views: 297
+      views: 298
       reposts: 1
     - service: tg
       id: 402
@@ -3179,3 +3179,4 @@
 2024-12-16-molag-mar: 2016-12-02-molag-mar
 2024-12-17-entrance-arch-of-propylon-chamber: 2017-03-28-entrance-arch-of-propylon-chamber
 2024-12-18-a-little-rat-entering-holamayan: 2018-07-05-a-little-rat-entering-holamayan
+2024-12-19-near-the-winter-well: 2019-05-16-near-the-winter-well
