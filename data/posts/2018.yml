@@ -362,15 +362,15 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2024-12-12-03-27-19
+      updated: 2024-12-19-04-10-16
       followers: 927
       likes: 47
-      views: 329
+      views: 330
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2024-12-12-03-27-18
+      updated: 2024-12-19-04-10-14
       followers: 504
       likes: 75
       views: 733
@@ -6354,7 +6354,7 @@
     - service: vk
       id: 779
       published: 2018-06-25
-      updated: 2024-12-12-03-28-08
+      updated: 2024-12-19-04-11-01
       followers: 177
       likes: 24
       views: 280
@@ -6381,7 +6381,7 @@
     - service: vk
       id: 780
       published: 2018-06-26
-      updated: 2024-12-12-03-28-07
+      updated: 2024-12-19-04-11-00
       followers: 177
       likes: 27
       views: 316
@@ -6411,7 +6411,7 @@
     - service: vk
       id: 784
       published: 2018-06-27
-      updated: 2024-12-12-03-28-06
+      updated: 2024-12-19-04-11-00
       followers: 178
       likes: 20
       views: 286
@@ -6466,7 +6466,7 @@
     - service: vk
       id: 786
       published: 2018-06-28
-      updated: 2024-12-12-03-28-05
+      updated: 2024-12-19-04-10-59
       followers: 178
       likes: 19
       views: 267
@@ -6492,7 +6492,7 @@
     - service: vk
       id: 787
       published: 2018-06-29
-      updated: 2024-12-12-03-28-04
+      updated: 2024-12-19-04-10-58
       followers: 180
       likes: 22
       views: 271
@@ -6518,7 +6518,7 @@
     - service: vk
       id: 790
       published: 2018-06-30
-      updated: 2024-12-12-03-28-03
+      updated: 2024-12-19-04-10-57
       followers: 180
       likes: 20
       views: 267
@@ -6550,7 +6550,7 @@
     - service: vk
       id: 791
       published: 2018-07-01
-      updated: 2024-12-12-03-28-02
+      updated: 2024-12-19-04-10-56
       followers: 182
       likes: 24
       views: 276
@@ -6576,7 +6576,7 @@
     - service: vk
       id: 792
       published: 2018-07-02
-      updated: 2024-12-12-03-28-01
+      updated: 2024-12-19-04-10-55
       followers: 185
       likes: 14
       views: 266
@@ -6606,7 +6606,7 @@
     - service: vk
       id: 793
       published: 2018-07-03
-      updated: 2024-12-12-03-28-00
+      updated: 2024-12-19-04-10-55
       followers: 185
       likes: 15
       views: 276
@@ -6630,7 +6630,7 @@
     - service: vk
       id: 794
       published: 2018-07-04
-      updated: 2024-12-12-03-27-59
+      updated: 2024-12-19-04-10-54
       followers: 185
       likes: 15
       views: 257
@@ -6654,7 +6654,7 @@
     - service: vk
       id: 795
       published: 2018-07-05
-      updated: 2024-12-12-03-27-59
+      updated: 2024-12-19-04-10-53
       followers: 185
       likes: 19
       views: 262
@@ -6662,17 +6662,17 @@
       id: DDurPUTvhQa
       mediaId: '18060616894904245'
       published: 2024-12-18-18-11-52
-      updated: 2024-12-19-03-21-16
+      updated: 2024-12-19-04-10-09
       followers: 1507
-      likes: 50
-      views: 159
+      likes: 51
+      views: 165
     - service: vk
       id: 1969
       published: 2024-12-18-18-12-01
-      updated: 2024-12-19-03-21-14
+      updated: 2024-12-19-04-10-09
       followers: 1028
-      likes: 30
-      views: 135
+      likes: 31
+      views: 138
       reposts: 3
       comments: !c |-
         G4YAUIyE3MTqZXnhQCQK2hVhGkgoITWJPtnL3noralWkpjHTFO2/IAikaOaFeelgAw7cpwXmcZ81
@@ -6681,10 +6681,10 @@
     - service: tg
       id: 629
       published: 2024-12-18-18-12-11
-      updated: 2024-12-19-03-21-15
+      updated: 2024-12-19-04-10-09
       followers: 582
       likes: 39
-      views: 184
+      views: 187
       comments: !c |-
         CzCAkZPLQnk9sjAogACpcmVzaXN0X2l02UrQktGLINGC0L7QttC1INGB0LvRi9GI0LjRgtC1INC/
         0LjRgdC6INGN0YLQvtC5INC60YDRi9GB0Ysg0LLQtNCw0LvQuD8g8J+YhQM=
@@ -6711,7 +6711,7 @@
     - service: vk
       id: 797
       published: 2018-07-06
-      updated: 2024-12-12-03-27-58
+      updated: 2024-12-19-04-10-52
       followers: 185
       likes: 16
       views: 249
@@ -6735,7 +6735,7 @@
     - service: vk
       id: 798
       published: 2018-07-07
-      updated: 2024-12-12-03-27-57
+      updated: 2024-12-19-04-10-51
       followers: 185
       likes: 21
       views: 252
@@ -6743,21 +6743,21 @@
       id: C-8RjrEOZBz
       mediaId: '17871768504158345'
       published: 2024-08-21-18-19-50
-      updated: 2024-12-12-03-27-15
+      updated: 2024-12-19-04-10-12
       followers: 1459
       likes: 92
-      views: 347
+      views: 348
     - service: vk
       id: 1700
       published: 2024-08-21-18-19-57
-      updated: 2024-12-12-03-27-17
+      updated: 2024-12-19-04-10-15
       followers: 937
       likes: 41
-      views: 293
+      views: 294
     - service: tg
       id: 508
       published: 2024-08-21-18-20-03
-      updated: 2024-12-12-03-27-16
+      updated: 2024-12-19-04-10-13
       followers: 538
       likes: 60
       views: 559
@@ -6787,7 +6787,7 @@
     - service: vk
       id: 799
       published: 2018-07-08
-      updated: 2024-12-12-03-27-56
+      updated: 2024-12-19-04-10-51
       followers: 185
       likes: 20
       views: 261
@@ -6811,7 +6811,7 @@
     - service: vk
       id: 800
       published: 2018-07-09
-      updated: 2024-12-12-03-27-55
+      updated: 2024-12-19-04-10-50
       followers: 185
       likes: 20
       views: 257
@@ -6837,7 +6837,7 @@
     - service: vk
       id: 801
       published: 2018-07-10
-      updated: 2024-12-12-03-27-54
+      updated: 2024-12-19-04-10-49
       followers: 185
       likes: 16
       views: 251
@@ -6861,7 +6861,7 @@
     - service: vk
       id: 802
       published: 2018-07-11
-      updated: 2024-12-12-03-27-53
+      updated: 2024-12-19-04-10-48
       followers: 186
       likes: 22
       views: 278
@@ -6887,7 +6887,7 @@
     - service: vk
       id: 803
       published: 2018-07-12
-      updated: 2024-12-12-03-27-52
+      updated: 2024-12-19-04-10-47
       followers: 186
       likes: 21
       views: 258
@@ -6912,7 +6912,7 @@
     - service: vk
       id: 804
       published: 2018-07-13
-      updated: 2024-12-12-03-27-52
+      updated: 2024-12-19-04-10-46
       followers: 186
       likes: 18
       views: 269
@@ -6938,7 +6938,7 @@
     - service: vk
       id: 806
       published: 2018-07-14
-      updated: 2024-12-12-03-27-51
+      updated: 2024-12-19-04-10-46
       followers: 186
       likes: 20
       views: 283
@@ -6968,7 +6968,7 @@
     - service: vk
       id: 807
       published: 2018-07-15
-      updated: 2024-12-12-03-27-50
+      updated: 2024-12-19-04-10-45
       followers: 187
       likes: 19
       views: 307
@@ -7001,7 +7001,7 @@
     - service: vk
       id: 808
       published: 2018-07-16
-      updated: 2024-12-12-03-27-49
+      updated: 2024-12-19-04-10-44
       followers: 187
       likes: 26
       views: 272
@@ -7027,7 +7027,7 @@
     - service: vk
       id: 809
       published: 2018-07-17
-      updated: 2024-12-12-03-27-48
+      updated: 2024-12-19-04-10-43
       followers: 187
       likes: 17
       views: 261
@@ -7052,7 +7052,7 @@
     - service: vk
       id: 810
       published: 2018-07-18
-      updated: 2024-12-12-03-27-47
+      updated: 2024-12-19-04-10-42
       followers: 188
       likes: 21
       views: 272
@@ -7078,7 +7078,7 @@
     - service: vk
       id: 814
       published: 2018-07-19
-      updated: 2024-12-12-03-27-46
+      updated: 2024-12-19-04-10-41
       followers: 189
       likes: 16
       views: 297
@@ -7107,7 +7107,7 @@
     - service: vk
       id: 816
       published: 2018-07-20
-      updated: 2024-12-12-03-27-45
+      updated: 2024-12-19-04-10-41
       followers: 188
       likes: 16
       views: 260
@@ -7162,7 +7162,7 @@
     - service: vk
       id: 817
       published: 2018-07-21
-      updated: 2024-12-12-03-27-44
+      updated: 2024-12-19-04-10-40
       followers: 190
       likes: 18
       views: 250
@@ -7192,7 +7192,7 @@
     - service: vk
       id: 821
       published: 2018-07-22
-      updated: 2024-12-12-03-27-44
+      updated: 2024-12-19-04-10-39
       followers: 190
       likes: 22
       views: 334
@@ -7219,7 +7219,7 @@
     - service: vk
       id: 822
       published: 2018-07-23
-      updated: 2024-12-12-03-27-43
+      updated: 2024-12-19-04-10-38
       followers: 191
       likes: 18
       views: 259
@@ -7272,7 +7272,7 @@
     - service: vk
       id: 823
       published: 2018-07-24
-      updated: 2024-12-12-03-27-42
+      updated: 2024-12-19-04-10-37
       followers: 191
       likes: 17
       views: 348
@@ -7299,7 +7299,7 @@
     - service: vk
       id: 825
       published: 2018-07-25
-      updated: 2024-12-12-03-27-41
+      updated: 2024-12-19-04-10-36
       followers: 191
       likes: 27
       views: 316
@@ -7365,7 +7365,7 @@
     - service: vk
       id: 828
       published: 2018-07-26
-      updated: 2024-12-12-03-27-40
+      updated: 2024-12-19-04-10-36
       followers: 193
       likes: 20
       views: 259
@@ -7390,7 +7390,7 @@
     - service: vk
       id: 829
       published: 2018-07-27
-      updated: 2024-12-12-03-27-39
+      updated: 2024-12-19-04-10-35
       followers: 193
       likes: 28
       views: 358
@@ -7413,7 +7413,7 @@
     - service: vk
       id: 831
       published: 2018-07-28
-      updated: 2024-12-12-03-27-38
+      updated: 2024-12-19-04-10-34
       followers: 194
       likes: 12
       views: 252
@@ -7469,7 +7469,7 @@
     - service: vk
       id: 832
       published: 2018-07-29
-      updated: 2024-12-12-03-27-37
+      updated: 2024-12-19-04-10-33
       followers: 193
       likes: 22
       views: 339
@@ -7495,7 +7495,7 @@
     - service: vk
       id: 833
       published: 2018-07-30
-      updated: 2024-12-12-03-27-36
+      updated: 2024-12-19-04-10-32
       followers: 194
       likes: 24
       views: 339
@@ -7522,7 +7522,7 @@
     - service: vk
       id: 834
       published: 2018-07-31
-      updated: 2024-12-12-03-27-35
+      updated: 2024-12-19-04-10-31
       followers: 196
       likes: 16
       views: 313
@@ -7545,7 +7545,7 @@
     - service: vk
       id: 835
       published: 2018-08-01
-      updated: 2024-12-12-03-27-35
+      updated: 2024-12-19-04-10-31
       followers: 196
       likes: 16
       views: 270
@@ -7569,7 +7569,7 @@
     - service: vk
       id: 836
       published: 2018-08-02
-      updated: 2024-12-12-03-27-34
+      updated: 2024-12-19-04-10-30
       followers: 196
       likes: 12
       views: 258
@@ -7597,7 +7597,7 @@
     - service: vk
       id: 837
       published: 2018-08-03
-      updated: 2024-12-12-03-27-33
+      updated: 2024-12-19-04-10-29
       followers: 197
       likes: 17
       views: 273
@@ -7624,7 +7624,7 @@
     - service: vk
       id: 838
       published: 2018-08-04
-      updated: 2024-12-12-03-27-32
+      updated: 2024-12-19-04-10-28
       followers: 197
       likes: 15
       views: 353
@@ -7656,7 +7656,7 @@
     - service: vk
       id: 839
       published: 2018-08-05
-      updated: 2024-12-12-03-27-31
+      updated: 2024-12-19-04-10-27
       followers: 197
       likes: 23
       views: 270
@@ -7682,7 +7682,7 @@
     - service: vk
       id: 840
       published: 2018-08-06
-      updated: 2024-12-12-03-27-30
+      updated: 2024-12-19-04-10-26
       followers: 197
       likes: 24
       views: 283
@@ -7708,7 +7708,7 @@
     - service: vk
       id: 841
       published: 2018-08-07
-      updated: 2024-12-12-03-27-29
+      updated: 2024-12-19-04-10-26
       followers: 197
       likes: 20
       views: 291
@@ -7736,7 +7736,7 @@
     - service: vk
       id: 843
       published: 2018-08-08
-      updated: 2024-12-12-03-27-28
+      updated: 2024-12-19-04-10-25
       followers: 197
       likes: 14
       views: 314
@@ -7768,7 +7768,7 @@
     - service: vk
       id: 845
       published: 2018-08-09
-      updated: 2024-12-12-03-27-27
+      updated: 2024-12-19-04-10-24
       followers: 197
       likes: 35
       views: 330
@@ -7794,7 +7794,7 @@
     - service: vk
       id: 846
       published: 2018-08-10
-      updated: 2024-12-12-03-27-26
+      updated: 2024-12-19-04-10-23
       followers: 198
       likes: 17
       views: 318
@@ -7827,7 +7827,7 @@
     - service: vk
       id: 849
       published: 2018-08-11
-      updated: 2024-12-12-03-27-26
+      updated: 2024-12-19-04-10-22
       followers: 197
       likes: 20
       views: 520
@@ -7867,10 +7867,10 @@
     - service: vk
       id: 853
       published: 2018-08-12
-      updated: 2024-12-12-03-27-25
+      updated: 2024-12-19-04-10-21
       followers: 198
       likes: 39
-      views: 645
+      views: 646
       reposts: 1
       comments: !c |-
         G2oA+AXi+VtFWIJpoOF1Whj/4u4FXFs6D5BzHi5swAFwqgEHKJOfIxxRz29evKzKNo+F0lZpFqVB
@@ -7896,7 +7896,7 @@
     - service: vk
       id: 857
       published: 2018-08-13
-      updated: 2024-12-12-03-27-24
+      updated: 2024-12-19-04-10-20
       followers: 198
       likes: 27
       views: 310
@@ -7924,7 +7924,7 @@
     - service: vk
       id: 859
       published: 2018-08-14
-      updated: 2024-12-12-03-27-23
+      updated: 2024-12-19-04-10-20
       followers: 198
       likes: 16
       views: 314
@@ -7947,7 +7947,7 @@
     - service: vk
       id: 860
       published: 2018-08-15
-      updated: 2024-12-12-03-27-22
+      updated: 2024-12-19-04-10-19
       followers: 199
       likes: 16
       views: 292
@@ -8002,7 +8002,7 @@
     - service: vk
       id: 861
       published: 2018-08-16
-      updated: 2024-12-12-03-27-21
+      updated: 2024-12-19-04-10-18
       followers: 199
       likes: 22
       views: 296
@@ -8028,7 +8028,7 @@
     - service: vk
       id: 862
       published: 2018-08-17
-      updated: 2024-12-12-03-27-20
+      updated: 2024-12-19-04-10-17
       followers: 199
       likes: 17
       views: 298
