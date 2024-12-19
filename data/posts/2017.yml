@@ -2353,7 +2353,7 @@
     - service: tg
       id: 472
       published: 2024-07-17-18-20-31
-      updated: 2024-12-12-06-12-15
+      updated: 2024-12-19-07-08-35
       followers: 401
       likes: 66
       views: 586
@@ -3333,17 +3333,17 @@
       id: DDsGdwGJCBM
       mediaId: '18149217184346348'
       published: 2024-12-17-18-12-01
-      updated: 2024-12-19-06-11-36
+      updated: 2024-12-19-07-08-32
       followers: 1508
       likes: 80
-      views: 289
+      views: 292
     - service: vk
       id: 1967
       published: 2024-12-17-18-12-07
-      updated: 2024-12-19-06-11-36
+      updated: 2024-12-19-07-08-33
       followers: 1028
       likes: 25
-      views: 205
+      views: 206
       reposts: 2
       comments: !c |-
         GwoBIKwSeK4p/JCKWhw+Ylhko+flRvoX1VapZ5G2BCNM7uncKKk5Q2Oo4168oQq5tdzNyR2owuRD
@@ -3353,10 +3353,10 @@
     - service: tg
       id: 628
       published: 2024-12-17-18-12-14
-      updated: 2024-12-19-06-11-36
+      updated: 2024-12-19-07-08-32
       followers: 581
       likes: 48
-      views: 215
+      views: 216
 2017-03-29-guilds-and-stores:
   title: Guilds and Stores
   titleRu: Гильдии и магазины
@@ -5235,7 +5235,7 @@
     - service: tg
       id: 465
       published: 2024-07-10-18-22-34
-      updated: 2024-12-12-06-12-16
+      updated: 2024-12-19-07-08-36
       followers: 396
       likes: 58
       views: 538
@@ -5294,10 +5294,10 @@
     - service: tg
       id: 479
       published: 2024-07-24-18-21-09
-      updated: 2024-12-12-06-12-14
+      updated: 2024-12-19-07-08-34
       followers: 400
       likes: 59
-      views: 602
+      views: 603
 2017-05-17-nice-time-to-go-boating:
   title: Nice Time to Go Boating
   titleRu: Хорошее время, чтобы поплавать на лодке
