@@ -7,6 +7,9 @@ export function useHash(): [Accessor<string>, (value: string) => void] {
   createEffect(() => {
     const callback = () => setHash(window.location.hash);
     window.addEventListener('hashchange', callback);
+
+    callback();
+
     onCleanup(() => window.removeEventListener('hashchange', callback));
   });
 
