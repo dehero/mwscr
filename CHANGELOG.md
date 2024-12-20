@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.28.0](https://github.com/dehero/mwscr/compare/v1.27.0...v1.28.0) (2024-12-20)
+
+### Features
+
+- **site:** implement post preview context menu with actions
+  ([ec8da50](https://github.com/dehero/mwscr/commit/ec8da505aa88b4cf0fcc5a0f8bce6840ea6453e9))
+
+### Bug Fixes
+
+- **site:** show detached dialog on load if mentioned in url
+  ([9a1c629](https://github.com/dehero/mwscr/commit/9a1c6297c30257207877d4043dc4ae3532247ced))
+
 ## [1.27.0](https://github.com/dehero/mwscr/compare/v1.26.3...v1.27.0) (2024-12-19)
 
 ### Features
