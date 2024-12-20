@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/CALGWJih92f/)       | 2020-05-14 |       |   128 |       874 |  14.65 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1218) | 2020-05-14 |   592 |    41 |       379 |  10.82 |
 | [`tg`](https://t.me/mwscr/204)                     | 2020-05-14 |   691 |     2 |       116 |   1.72 |
-| [`ig`](https://instagram.com/p/DDz0q9dMvXL/)       | 2024-12-20 |       |       |      1507 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1977) | 2024-12-20 |       |       |      1027 |        |
-| [`tg`](https://t.me/mwscr/631)                     | 2024-12-20 |       |       |       584 |        |
-|                                                    |            |       |       |      3118 |   9.06 |
+| [`ig`](https://instagram.com/p/DDz0q9dMvXL/)       | 2024-12-20 |    33 |    13 |      1507 |   0.86 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1977) | 2024-12-20 |    47 |     8 |      1027 |   0.78 |
+| [`tg`](https://t.me/mwscr/631)                     | 2024-12-20 |    52 |    15 |       584 |   2.57 |
+|                                                    |            |   132 |    36 |      3118 |   5.23 |
 
 #### Comments
 
@@ -42,6 +42,7 @@
   - <ins title="2020-05-14-18-19-20">lukekrian</ins> You just have to take a look inside all of them, just in case..
   - <ins title="2020-05-14-18-22-02">delanospies</ins> @lukekrian all of them!
 - `ig` <ins title="2020-05-15-01-04-22">hopkick</ins> Welcome back!!
+- `vk` <ins title="2024-12-20-18-48-08">id889222999</ins> В ведре ))
 
 ## <span id="2024-12-19-near-the-winter-well">Near the Winter Well</span>
 
@@ -66,10 +67,10 @@
 | [`ig`](https://instagram.com/p/Bxh8fyZhs9d/)       | 2019-05-16 |       |   149 |       806 |  18.49 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1172) | 2019-05-16 |   984 |    57 |       351 |  16.24 |
 | [`tg`](https://t.me/mwscr/183)                     | 2019-05-16 |   847 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DDxP6Oppyd-/)       | 2024-12-19 |   266 |    68 |      1507 |   4.51 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1976) | 2024-12-19 |   229 |    46 |      1027 |   4.67 |
-| [`tg`](https://t.me/mwscr/630)                     | 2024-12-19 |   138 |    50 |       584 |   8.56 |
-|                                                    |            |   633 |   164 |      3118 |  10.49 |
+| [`ig`](https://instagram.com/p/DDxP6Oppyd-/)       | 2024-12-19 |   275 |    69 |      1507 |   4.58 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1976) | 2024-12-19 |   232 |    46 |      1027 |   4.67 |
+| [`tg`](https://t.me/mwscr/630)                     | 2024-12-19 |   157 |    51 |       584 |   8.73 |
+|                                                    |            |   664 |   166 |      3118 |  10.54 |
 
 #### Comments
 
@@ -135,10 +136,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BSLCgdPjaln/)       | 2017-03-28 |       |    74 |       164 |  45.12 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_233)  | 2017-03-28 |   131 |     4 |        50 |      8 |
-| [`ig`](https://instagram.com/p/DDsGdwGJCBM/)       | 2024-12-17 |   301 |    81 |      1508 |   5.37 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1967) | 2024-12-17 |   222 |    30 |      1028 |   3.11 |
-| [`tg`](https://t.me/mwscr/628)                     | 2024-12-17 |   232 |    49 |       581 |   8.43 |
-|                                                    |            |   755 |   160 |      3117 |  14.01 |
+| [`ig`](https://instagram.com/p/DDsGdwGJCBM/)       | 2024-12-17 |   310 |    84 |      1508 |   5.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1967) | 2024-12-17 |   251 |    30 |      1028 |   3.11 |
+| [`tg`](https://t.me/mwscr/628)                     | 2024-12-17 |   263 |    52 |       581 |   8.95 |
+|                                                    |            |   824 |   166 |      3117 |  14.15 |
 
 #### Comments
 
