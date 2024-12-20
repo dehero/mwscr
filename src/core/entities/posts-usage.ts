@@ -35,8 +35,8 @@ export async function createPostsUsage(
 
 export function comparePostsUsages(a: PostsUsage | undefined, b?: PostsUsage | undefined) {
   for (const info of POSTS_MANAGER_INFOS) {
-    const aValue = a?.[info.id] ?? 0;
-    const bValue = b?.[info.id] ?? 0;
+    const aValue = a?.[info.name] ?? 0;
+    const bValue = b?.[info.name] ?? 0;
     if (aValue !== bValue) {
       return aValue - bValue;
     }
@@ -50,7 +50,7 @@ export function postsUsageToString(usage: PostsUsage | undefined) {
     return '';
   }
 
-  return POSTS_MANAGER_INFOS.map((info) => (usage[info.id] ? `${usage[info.id]} ${info.label}` : undefined))
+  return POSTS_MANAGER_INFOS.map((info) => (usage[info.name] ? `${usage[info.name]} ${info.label}` : undefined))
     .filter((a) => a)
     .join(', ');
 }

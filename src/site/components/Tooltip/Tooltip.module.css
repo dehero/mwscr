@@ -11,3 +11,10 @@
   top: 0;
   z-index: 9999;
 }
+
+.actions {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
+  margin-top: 4px;
+}

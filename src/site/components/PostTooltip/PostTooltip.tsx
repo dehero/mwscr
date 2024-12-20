@@ -1,19 +1,24 @@
 import clsx from 'clsx';
 import { type Component, For, Show, splitProps } from 'solid-js';
+import { createMemo } from 'solid-js';
 import { getPostDateById, getPostTypeAspectRatio, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
+import type { PostAction } from '../../../core/entities/post-action.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
+import { POSTS_MANAGER_INFOS } from '../../../core/entities/posts-manager.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
+import { postRoute } from '../../routes/post-route.js';
+import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.jsx';
-import type { TooltipProps } from '../Tooltip/Tooltip.js';
+import type { TooltipAction, TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './PostTooltip.module.css';
 
-interface PostTooltipProps extends Omit<TooltipProps, 'children'> {
+interface PostTooltipProps extends Omit<TooltipProps, 'children' | 'actions'> {
   postInfo: PostInfo;
   showContent?: boolean;
 }
@@ -26,8 +31,53 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
   const aspectRatio = () => getPostTypeAspectRatio(local.postInfo.type);
   const alt = () => props.postInfo.tags?.join(' ');
 
+  const postActions = createMemo(
+    (): PostAction[] => POSTS_MANAGER_INFOS.find((info) => info.name === local.postInfo.managerName)?.actions ?? [],
+  );
+
   return (
-    <Tooltip {...rest}>
+    <Tooltip
+      actions={[
+        { url: postRoute.createUrl({ managerName: local.postInfo.managerName, id: local.postInfo.id }), label: 'View' },
+        postActions().includes('edit')
+          ? {
+              url: createDetachedDialogFragment('post-editing', {
+                managerName: local.postInfo.managerName,
+                id: local.postInfo.id,
+              }),
+              label: 'Edit',
+            }
+          : undefined,
+        postActions().includes('review')
+          ? {
+              url: createDetachedDialogFragment('post-review', {
+                managerName: local.postInfo.managerName,
+                id: local.postInfo.id,
+              }),
+              label: 'Review',
+            }
+          : undefined,
+        postActions().includes('merge')
+          ? {
+              url: createDetachedDialogFragment('post-merge', {
+                managerName: local.postInfo.managerName,
+                id: local.postInfo.id,
+              }),
+              label: 'Merge',
+            }
+          : undefined,
+        postActions().includes('locate')
+          ? {
+              url: createDetachedDialogFragment('post-location', {
+                id: local.postInfo.id,
+                managerName: local.postInfo.managerName,
+              }),
+              label: local.postInfo.location ? 'Precise Location' : 'Locate',
+            }
+          : undefined,
+      ].filter((value): value is TooltipAction => Boolean(value))}
+      {...rest}
+    >
       <Show when={content().length > 0 && local.showContent}>
         <Show
           when={content().length > 2}

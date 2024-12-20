@@ -2,7 +2,7 @@ import { writeClipboard } from '@solid-primitives/clipboard';
 import clsx from 'clsx';
 import JsFileDownloader from 'js-file-downloader';
 import type { JSX } from 'solid-js';
-import { createSignal, Match, onMount, Show, Switch } from 'solid-js';
+import { createMemo, createSignal, Match, onMount, Show, Switch } from 'solid-js';
 import { navigate } from 'vike/client/router';
 import { usePageContext } from 'vike-solid/usePageContext';
 import type { PostEntry } from '../../../core/entities/post.js';
@@ -19,7 +19,9 @@ import {
   POST_TYPES,
   POST_VIOLATIONS,
 } from '../../../core/entities/post.js';
+import type { PostAction } from '../../../core/entities/post-action.js';
 import { isPublishablePost, isTrashItem } from '../../../core/entities/post-variation.js';
+import { POSTS_MANAGER_INFOS } from '../../../core/entities/posts-manager.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { youtube } from '../../../core/services/youtube.js';
@@ -29,7 +31,7 @@ import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { postRoute } from '../../routes/post-route.js';
-import { postsRoute, postsRouteInfos } from '../../routes/posts-route.js';
+import { postsRoute } from '../../routes/posts-route.js';
 import { userRoute } from '../../routes/user-route.js';
 import { Button } from '../Button/Button.js';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
@@ -60,7 +62,9 @@ export const PostPage = (): JSX.Element => {
 
   const [selectedContentIndex, setSelectedContentIndex] = createSignal(0);
 
-  const managerInfo = () => postsRouteInfos[params().managerName];
+  const postActions = createMemo(
+    (): PostAction[] => POSTS_MANAGER_INFOS.find((info) => info.name === params().managerName)?.actions ?? [],
+  );
   const postEntry = (): PostEntry | undefined => (data().post ? [params().id, data().post!] : undefined);
 
   const date = () => getPostDateById(params().id);
@@ -287,12 +291,12 @@ export const PostPage = (): JSX.Element => {
 
                 <Show
                   when={
-                    managerInfo().actions?.some((action) => ['edit', 'review', 'merge'].includes(action)) ||
-                    (!post.location && managerInfo().actions?.includes('locate'))
+                    postActions().some((action) => ['edit', 'review', 'merge'].includes(action)) ||
+                    (!post.location && postActions().includes('locate'))
                   }
                 >
                   <div class={styles.actions}>
-                    <Show when={managerInfo().actions?.includes('edit')}>
+                    <Show when={postActions().includes('edit')}>
                       <Button
                         href={createDetachedDialogFragment('post-editing', { id, managerName: params().managerName })}
                         class={styles.action}
@@ -300,7 +304,7 @@ export const PostPage = (): JSX.Element => {
                         Edit
                       </Button>
                     </Show>
-                    <Show when={managerInfo().actions?.includes('edit')}>
+                    <Show when={postActions().includes('review')}>
                       <Button
                         href={createDetachedDialogFragment('post-review', { id, managerName: params().managerName })}
                         class={styles.action}
@@ -308,7 +312,7 @@ export const PostPage = (): JSX.Element => {
                         Review
                       </Button>
                     </Show>
-                    <Show when={managerInfo().actions?.includes('edit')}>
+                    <Show when={postActions().includes('merge')}>
                       <Button
                         href={createDetachedDialogFragment('post-merge', { id, managerName: params().managerName })}
                         class={styles.action}
@@ -317,7 +321,7 @@ export const PostPage = (): JSX.Element => {
                       </Button>
                     </Show>
 
-                    <Show when={!post.location && managerInfo().actions?.includes('locate')}>
+                    <Show when={!post.location && postActions().includes('locate')}>
                       <Button
                         class={styles.action}
                         href={createDetachedDialogFragment('post-location', { id, managerName: params().managerName })}
@@ -420,7 +424,7 @@ export const PostPage = (): JSX.Element => {
                   <Table
                     label="Locations"
                     value={() =>
-                      managerInfo().actions?.includes('locate') && (
+                      postActions().includes('locate') && (
                         <Button
                           class={styles.action}
                           href={createDetachedDialogFragment('post-location', {

@@ -12,20 +12,22 @@ import {
   isPostEqual,
   mergePostWith,
 } from './post.js';
+import type { PostAction } from './post-action.js';
 
 export interface PostsManagerInfo {
-  id: string;
+  name: string;
   title: string;
   label: string;
+  actions: PostAction[];
 }
 
 export const POSTS_MANAGER_INFOS = [
-  { id: 'posts', title: 'Posts', label: 'posted' },
-  { id: 'inbox', title: 'Inbox', label: 'pending' },
-  { id: 'trash', title: 'Trash', label: 'rejected' },
+  { name: 'posts', title: 'Posts', label: 'posted', actions: ['locate'] },
+  { name: 'inbox', title: 'Inbox', label: 'pending', actions: ['locate', 'edit', 'review', 'merge'] },
+  { name: 'trash', title: 'Trash', label: 'rejected', actions: ['locate', 'edit', 'review', 'merge'] },
 ] as const satisfies PostsManagerInfo[];
 
-export type PostsManagerName = (typeof POSTS_MANAGER_INFOS)[number]['id'];
+export type PostsManagerName = (typeof POSTS_MANAGER_INFOS)[number]['name'];
 
 export abstract class PostsManager<TPost extends Post = Post> extends ListManager<TPost> {
   abstract readonly name: PostsManagerName;

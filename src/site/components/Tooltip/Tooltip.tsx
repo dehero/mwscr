@@ -4,8 +4,9 @@ import { createPositionToElement, useMousePosition } from '@solid-primitives/mou
 import { createElementSize } from '@solid-primitives/resize-observer';
 import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
-import { createEffect, createMemo, createSignal, onCleanup, Show } from 'solid-js';
+import { createEffect, createMemo, createSignal, For, onCleanup, Show } from 'solid-js';
 import { Portal } from 'solid-js/web';
+import { Button } from '../Button/Button.jsx';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Tooltip.module.css';
 
@@ -13,9 +14,15 @@ const CURSOR_OFFSET_X = 8;
 const CURSOR_OFFSET_Y = 32;
 const CURSOR_SIZE = 16;
 
+export interface TooltipAction {
+  url: string;
+  label: string;
+}
+
 export interface TooltipProps {
   class?: string;
   children?: JSX.Element | ((position: PositionRelativeToElement) => JSX.Element);
+  actions?: TooltipAction[];
   forRef?: Element;
 }
 
@@ -23,10 +30,14 @@ export const Tooltip: Component<TooltipProps> = (props) => {
   const [tooltipRef, setTooltipRef] = createSignal<HTMLElement>();
   const noHoverDevice = createMediaQuery('(hover: none)');
   const [contextMenuPosition, setContextMenuPosition] = createSignal<MousePositionInside | null>(null);
+  const [hideHover, setHideHover] = createSignal(false);
 
   const size = createElementSize(tooltipRef);
   const mousePosition = useMousePosition();
-  const position = createMemo(() => (noHoverDevice() ? contextMenuPosition() : mousePosition));
+  const allowContextMenu = createMemo(() => noHoverDevice() || Boolean(props.actions?.length));
+  const position = createMemo(() =>
+    hideHover() ? null : noHoverDevice() ? contextMenuPosition() : contextMenuPosition() ?? mousePosition,
+  );
 
   const relative = createPositionToElement(
     () => props.forRef,
@@ -38,17 +49,11 @@ export const Tooltip: Component<TooltipProps> = (props) => {
   const invertedTooltipY = () => (position()?.y ?? 0) - CURSOR_OFFSET_Y + CURSOR_SIZE - (size.height ?? 0);
   const children = () => (typeof props.children === 'function' ? props.children(relative) : props.children);
 
+  // Close context menu on document events
   createEffect(() => {
-    if (!noHoverDevice()) {
+    if (!allowContextMenu() && !hideHover()) {
       return;
     }
-
-    const handleContextmenu = (e: Event) => {
-      e.preventDefault();
-      // Don't inherit reactivity
-      setContextMenuPosition({ ...mousePosition });
-      return false;
-    };
 
     const handleInteraction = (e: Event) => {
       if (contextMenuPosition() && !tooltipRef()?.contains(e.target as Node)) {
@@ -57,22 +62,47 @@ export const Tooltip: Component<TooltipProps> = (props) => {
         }
         setContextMenuPosition(null);
       }
+      setHideHover(false);
     };
 
-    // TODO: iOS does not trigger contextmenu, add long press emulator
-    props.forRef?.addEventListener('contextmenu', handleContextmenu);
     document.addEventListener('click', handleInteraction);
     document.addEventListener('touchstart', handleInteraction);
     document.addEventListener('touchmove', handleInteraction);
     document.addEventListener('mousewheel', handleInteraction);
 
     onCleanup(() => {
-      props.forRef?.removeEventListener('contextmenu', handleContextmenu);
       document.removeEventListener('click', handleInteraction);
       document.removeEventListener('touchstart', handleInteraction);
       document.removeEventListener('touchmove', handleInteraction);
       document.removeEventListener('mousewheel', handleInteraction);
     });
+  });
+
+  // Show context menu when contextmenu event triggered
+  createEffect(() => {
+    const handleContextmenu = (e: Event) => {
+      // Show custom context menu if allowed
+      if (props.forRef?.contains(e.target as Node)) {
+        if (allowContextMenu()) {
+          e.preventDefault();
+          // Don't inherit reactivity
+          setContextMenuPosition({ ...mousePosition });
+          return false;
+        }
+        // Hide tooltip on hover when showing browser context menu
+        setHideHover(true);
+      }
+      // Hide custom context menu if clicked outside
+      if (!tooltipRef()?.contains(e.target as Node)) {
+        setContextMenuPosition(null);
+      }
+      return undefined;
+    };
+
+    // TODO: iOS does not trigger contextmenu, add long press emulator
+    document.addEventListener('contextmenu', handleContextmenu);
+
+    onCleanup(() => document.removeEventListener('contextmenu', handleContextmenu));
   });
 
   return (
@@ -95,6 +125,22 @@ export const Tooltip: Component<TooltipProps> = (props) => {
           }}
         >
           {children()}
+          <Show when={props.actions && contextMenuPosition()}>
+            <div class={styles.actions}>
+              <For each={props.actions}>
+                {(action) => (
+                  <Button
+                    href={action.url}
+                    onClick={() => {
+                      setContextMenuPosition(null);
+                    }}
+                  >
+                    {action.label}
+                  </Button>
+                )}
+              </For>
+            </div>
+          </Show>
         </Frame>
       </Portal>
     </Show>

@@ -63,10 +63,10 @@ export default defineConfig(({ isSsrBuild }) => ({
           transform: async () => JSON.stringify(await dataExtractor.getAllUserInfos()),
           rename: 'user-infos.json',
         },
-        ...POSTS_MANAGER_INFOS.map(({ id }) => ({
-          src: `../../data/${id}/*.yml`,
-          dest: `data/${id}`,
-          transform: async () => JSON.stringify(await dataExtractor.getAllPostInfos(id)),
+        ...POSTS_MANAGER_INFOS.map(({ name }) => ({
+          src: `../../data/${name}/*.yml`,
+          dest: `data/${name}`,
+          transform: async () => JSON.stringify(await dataExtractor.getAllPostInfos(name)),
           rename: `infos.json`,
         })),
       ],

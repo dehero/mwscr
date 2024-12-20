@@ -3,7 +3,6 @@ import { makePersisted } from '@solid-primitives/storage';
 import type { JSX } from 'solid-js';
 import { createResource, createSignal } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
-import type { PostAction } from '../../../core/entities/post-action.js';
 import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../core/entities/post-info.js';
 import { selectPostInfosResultToString } from '../../../core/entities/post-info.js';
 import type { SiteRouteMeta } from '../../../core/entities/site-route.js';
@@ -36,7 +35,6 @@ export interface PostsPageInfo extends SiteRouteMeta {
   presetKeys?: PresetKey extends undefined ? never : PresetKey[];
   filters?: FilterKey[];
   sortKeys?: SelectPostInfosSortKey[];
-  actions?: PostAction[];
 }
 
 export const PostsPage = (): JSX.Element => {
