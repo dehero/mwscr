@@ -4,7 +4,44 @@
 
 # Posted in 2024
 
-`297 items`
+`298 items`
+
+## <span id="2024-12-20-inside-a-furnace">Inside a Furnace</span>
+
+`RU` В кузнечном горне
+
+<a href="https://instagram.com/p/CALGWJih92f/" title="2020-05-14-inside-a-furnace"><img alt="store:/shots/2020-05-14-inside-a-furnace.png" src="../../assets/previews/shots/2020-05-14-inside-a-furnace.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=2024-12-20-inside-a-furnace&postLocation=)</code> `🚀 OpenMW` `forge` `blacksmith`
+
+```
+2024-12-20-inside-a-furnace
+```
+
+> `2020-05-14-inside-a-furnace`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/CALGWJih92f/)       | 2020-05-14 |       |   128 |       874 |  14.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1218) | 2020-05-14 |   592 |    41 |       379 |  10.82 |
+| [`tg`](https://t.me/mwscr/204)                     | 2020-05-14 |   691 |     2 |       116 |   1.72 |
+| [`ig`](https://instagram.com/p/DDz0q9dMvXL/)       | 2024-12-20 |       |       |      1507 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1977) | 2024-12-20 |       |       |      1027 |        |
+| [`tg`](https://t.me/mwscr/631)                     | 2024-12-20 |       |       |       584 |        |
+|                                                    |            |       |       |      3118 |   9.06 |
+
+#### Comments
+
+- `ig` <ins title="2020-05-14-16-24-27">m_salashchenko</ins> 🔥
+- `vk` <ins title="2020-05-14-16-33-14">velikiyh</ins> ей проснись...тебя даже    кузнечный горн не разбудил
+- `ig` <ins title="2020-05-14-16-40-08">delanospies</ins> I love morrowind crates
+  - <ins title="2020-05-14-18-19-20">lukekrian</ins> You just have to take a look inside all of them, just in case..
+  - <ins title="2020-05-14-18-22-02">delanospies</ins> @lukekrian all of them!
+- `ig` <ins title="2020-05-15-01-04-22">hopkick</ins> Welcome back!!
 
 ## <span id="2024-12-19-near-the-winter-well">Near the Winter Well</span>
 
@@ -29,10 +66,10 @@
 | [`ig`](https://instagram.com/p/Bxh8fyZhs9d/)       | 2019-05-16 |       |   149 |       806 |  18.49 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1172) | 2019-05-16 |   984 |    57 |       351 |  16.24 |
 | [`tg`](https://t.me/mwscr/183)                     | 2019-05-16 |   847 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DDxP6Oppyd-/)       | 2024-12-19 |   258 |    68 |      1507 |   4.51 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1976) | 2024-12-19 |   224 |    45 |      1027 |   4.58 |
+| [`ig`](https://instagram.com/p/DDxP6Oppyd-/)       | 2024-12-19 |   266 |    68 |      1507 |   4.51 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1976) | 2024-12-19 |   229 |    46 |      1027 |   4.67 |
 | [`tg`](https://t.me/mwscr/630)                     | 2024-12-19 |   138 |    50 |       584 |   8.56 |
-|                                                    |            |   620 |   163 |      3118 |  10.48 |
+|                                                    |            |   633 |   164 |      3118 |  10.49 |
 
 #### Comments
 
@@ -61,10 +98,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bk3ElLVFp3Q/)       | 2018-07-05 |       |    99 |       353 |  28.05 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_795)  | 2018-07-05 |   262 |    19 |       185 |  10.27 |
-| [`ig`](https://instagram.com/p/DDurPUTvhQa/)       | 2024-12-18 |   296 |    78 |      1507 |   5.18 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1969) | 2024-12-18 |   281 |    43 |      1028 |   4.57 |
+| [`ig`](https://instagram.com/p/DDurPUTvhQa/)       | 2024-12-18 |   298 |    78 |      1507 |   5.18 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1969) | 2024-12-18 |   282 |    43 |      1028 |   4.57 |
 | [`tg`](https://t.me/mwscr/629)                     | 2024-12-18 |   260 |    54 |       582 |   9.28 |
-|                                                    |            |   837 |   175 |      3117 |  11.47 |
+|                                                    |            |   840 |   175 |      3117 |  11.47 |
 
 #### Comments
 
