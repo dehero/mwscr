@@ -2645,10 +2645,10 @@
     - service: vk
       id: 1802
       published: 2024-10-04-18-12-10
-      updated: 2024-12-14-03-22-23
+      updated: 2024-12-21-04-09-21
       followers: 958
       likes: 50
-      views: 378
+      views: 379
       reposts: 2
       comments: !c |-
         G8UAwB0HzrkrxiCUe/YWFXEjfcNEQ2wCCyjxZA80dZshR1OzmffLENw/37a3XKd1WklRIkTHp3qF
@@ -2657,10 +2657,10 @@
     - service: tg
       id: 554
       published: 2024-10-04-18-12-16
-      updated: 2024-12-14-03-22-22
+      updated: 2024-12-21-04-09-20
       followers: 559
       likes: 66
-      views: 499
+      views: 501
 2024-10-05-scamp-before-the-throw:
   title: Scamp Before the Throw
   titleRu: Скамп перед броском
