@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQ_7xaIDeX-/)       | 2017-02-27 |       |    32 |       101 |  31.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_176)  | 2017-02-27 |   127 |     9 |        42 |      9 |
-| [`ig`](https://instagram.com/p/DD2ZUynzw_D/)       | 2024-12-21 |   145 |    53 |      1507 |   3.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1979) | 2024-12-21 |    68 |     5 |      1026 |   0.49 |
-| [`tg`](https://t.me/mwscr/632)                     | 2024-12-21 |   108 |    32 |       584 |   5.48 |
-|                                                    |            |   321 |    90 |      3117 |  10.03 |
+| [`ig`](https://instagram.com/p/DD2ZUynzw_D/)       | 2024-12-21 |   166 |    59 |      1507 |   3.92 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1979) | 2024-12-21 |    79 |     8 |      1026 |   0.78 |
+| [`tg`](https://t.me/mwscr/632)                     | 2024-12-21 |   115 |    34 |       584 |   5.82 |
+|                                                    |            |   360 |   101 |      3117 |  10.24 |
 
 #### Comments
 
@@ -60,10 +60,10 @@
 | [`ig`](https://instagram.com/p/CALGWJih92f/)       | 2020-05-14 |       |   128 |       874 |  14.65 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1218) | 2020-05-14 |   592 |    41 |       379 |  10.82 |
 | [`tg`](https://t.me/mwscr/204)                     | 2020-05-14 |   691 |     2 |       116 |   1.72 |
-| [`ig`](https://instagram.com/p/DDz0q9dMvXL/)       | 2024-12-20 |   223 |    58 |      1507 |   3.85 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1977) | 2024-12-20 |   217 |    26 |      1027 |   2.73 |
-| [`tg`](https://t.me/mwscr/631)                     | 2024-12-20 |   195 |    43 |       584 |   7.36 |
-|                                                    |            |   635 |   127 |      3118 |   6.85 |
+| [`ig`](https://instagram.com/p/DDz0q9dMvXL/)       | 2024-12-20 |   227 |    58 |      1507 |   3.85 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1977) | 2024-12-20 |   218 |    26 |      1027 |   2.73 |
+| [`tg`](https://t.me/mwscr/631)                     | 2024-12-20 |   197 |    44 |       584 |   7.53 |
+|                                                    |            |   642 |   128 |      3118 |   6.88 |
 
 #### Comments
 
@@ -490,10 +490,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   380 |    91 |      1498 |   6.07 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   292 |    42 |      1012 |   4.25 |
-| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   306 |    62 |       579 |  10.71 |
-|                                                    |            |   978 |   195 |      3089 |   7.01 |
+| [`ig`](https://instagram.com/p/DDSWRcHyt4a/)       | 2024-12-07 |   403 |    93 |      1498 |   6.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1947) | 2024-12-07 |   315 |    43 |      1012 |   4.35 |
+| [`tg`](https://t.me/mwscr/618)                     | 2024-12-07 |   374 |    62 |       579 |  10.71 |
+|                                                    |            |  1092 |   198 |      3089 |   7.09 |
 
 #### Comments
 
@@ -501,6 +501,7 @@
 - `vk` <ins title="2024-12-11-08-59-41">id63571521</ins> Ага, будет он ферму сторожить, это поместье Омани на острове Элмас!
 - `tg` <ins title="2024-12-13-09-12-02">mongleri</ins> is bonemold golden or just rusty metal
   - <ins title="2024-12-13-18-15-40">Gatemate7</ins> always presumed it to be golden since hlaalu is known as the merchant class. boomers/libertarians love their boys in blue
+  - <ins title="2024-12-15-18-43-21">ansis</ins> Bonemold isn&#39;t metal. It&#39;s (and possibly fat, muscle and blood) reshaped, and oiled and adhesed with resins (or said fat?)
 
 ## <span id="2024-12-06-tel-naga-great-hall">Tel Naga Great Hall</span>
 
