@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`298 items`
+`299 items`
+
+## <span id="2024-12-21-tel-aruhn-at-night">Tel Aruhn at Night</span>
+
+`RU` Тель Арун в ночи
+
+<a href="https://instagram.com/p/BQ_7xaIDeX-/" title="2017-02-27-tel-aruhn-at-night"><img alt="store:/shots/2017-02-27-tel-aruhn-at-night.png" src="../../assets/previews/shots/2017-02-27-tel-aruhn-at-night.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Tel Aruhn` `🚀 OpenMW` `night`
+
+```
+2024-12-21-tel-aruhn-at-night
+```
+
+> `2017-02-27-tel-aruhn-at-night`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BQ_7xaIDeX-/)       | 2017-02-27 |       |    32 |       101 |  31.68 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_176)  | 2017-02-27 |   127 |     9 |        42 |      9 |
+| [`ig`](https://instagram.com/p/DD2ZUynzw_D/)       | 2024-12-21 |       |       |      1507 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1979) | 2024-12-21 |       |       |      1026 |        |
+| [`tg`](https://t.me/mwscr/632)                     | 2024-12-21 |       |       |       584 |        |
+|                                                    |            |       |       |      3117 |  20.34 |
 
 ## <span id="2024-12-20-inside-a-furnace">Inside a Furnace</span>
 
@@ -29,10 +56,10 @@
 | [`ig`](https://instagram.com/p/CALGWJih92f/)       | 2020-05-14 |       |   128 |       874 |  14.65 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1218) | 2020-05-14 |   592 |    41 |       379 |  10.82 |
 | [`tg`](https://t.me/mwscr/204)                     | 2020-05-14 |   691 |     2 |       116 |   1.72 |
-| [`ig`](https://instagram.com/p/DDz0q9dMvXL/)       | 2024-12-20 |   215 |    57 |      1507 |   3.78 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1977) | 2024-12-20 |   206 |    25 |      1027 |   2.63 |
-| [`tg`](https://t.me/mwscr/631)                     | 2024-12-20 |   161 |    38 |       584 |   6.51 |
-|                                                    |            |   582 |   120 |      3118 |   6.68 |
+| [`ig`](https://instagram.com/p/DDz0q9dMvXL/)       | 2024-12-20 |   219 |    57 |      1507 |   3.78 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1977) | 2024-12-20 |   208 |    25 |      1027 |   2.63 |
+| [`tg`](https://t.me/mwscr/631)                     | 2024-12-20 |   163 |    39 |       584 |   6.68 |
+|                                                    |            |   590 |   121 |      3118 |   6.71 |
 
 #### Comments
 
@@ -67,10 +94,10 @@
 | [`ig`](https://instagram.com/p/Bxh8fyZhs9d/)       | 2019-05-16 |       |   149 |       806 |  18.49 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1172) | 2019-05-16 |   984 |    57 |       351 |  16.24 |
 | [`tg`](https://t.me/mwscr/183)                     | 2019-05-16 |   847 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DDxP6Oppyd-/)       | 2024-12-19 |   347 |    85 |      1507 |   5.64 |
+| [`ig`](https://instagram.com/p/DDxP6Oppyd-/)       | 2024-12-19 |   351 |    85 |      1507 |   5.64 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1976) | 2024-12-19 |   268 |    48 |      1027 |   4.87 |
-| [`tg`](https://t.me/mwscr/630)                     | 2024-12-19 |   183 |    53 |       584 |   9.08 |
-|                                                    |            |   798 |   186 |      3118 |  10.86 |
+| [`tg`](https://t.me/mwscr/630)                     | 2024-12-19 |   184 |    53 |       584 |   9.08 |
+|                                                    |            |   803 |   186 |      3118 |  10.86 |
 
 #### Comments
 
