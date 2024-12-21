@@ -2121,17 +2121,17 @@
     - service: vk
       id: 1927
       published: 2024-11-30-18-09-35
-      updated: 2024-12-14-22-05-30
+      updated: 2024-12-21-23-02-18
       followers: 1012
-      likes: 33
-      views: 269
+      likes: 34
+      views: 279
     - service: tg
       id: 611
       published: 2024-11-30-18-09-42
-      updated: 2024-12-14-22-05-30
+      updated: 2024-12-21-23-02-17
       followers: 576
       likes: 58
-      views: 473
+      views: 504
     - service: ig
       id: DDFQmrONeev
       mediaId: '17864652573276614'
@@ -2225,24 +2225,24 @@
       id: DD2ZUynzw_D
       mediaId: '18007370558692881'
       published: 2024-12-21-18-09-15
-      updated: 2024-12-21-22-01-59
+      updated: 2024-12-21-23-02-15
       followers: 1507
-      likes: 59
-      views: 166
+      likes: 64
+      views: 194
     - service: vk
       id: 1979
       published: 2024-12-21-18-09-23
-      updated: 2024-12-21-22-02-00
+      updated: 2024-12-21-23-02-16
       followers: 1026
-      likes: 8
-      views: 79
+      likes: 13
+      views: 87
     - service: tg
       id: 632
       published: 2024-12-21-18-09-32
-      updated: 2024-12-21-22-02-00
+      updated: 2024-12-21-23-02-16
       followers: 584
       likes: 34
-      views: 115
+      views: 122
       comments: !c iwyAkZPLQnk+pqKHAACnZG1lcGlraKbQktCw0YMD
 2017-02-28-army-of-stone:
   title: Army of Stone
@@ -2622,20 +2622,20 @@
     - service: vk
       id: 1887
       published: 2024-11-09-18-08-47
-      updated: 2024-12-14-22-05-33
+      updated: 2024-12-21-23-02-21
       followers: 1006
-      likes: 53
-      views: 341
+      likes: 54
+      views: 345
       comments: !c |-
         G2wA+C0OzHOdDmzoisHxBSnkR1HcIvzxJOMo8CTBJpHIkz3Mbeys0xmFSEJobmPt3Tmt25QgCLJM
         NrrNoAmfwiBxP59f27nb8h6cHX+oPlDn4tRSxaGBkCzrtA7L+CADgUw7jhpGVAM=
     - service: tg
       id: 590
       published: 2024-11-09-18-09-56
-      updated: 2024-12-14-22-05-32
+      updated: 2024-12-21-23-02-18
       followers: 564
       likes: 64
-      views: 581
+      views: 589
 2017-03-10-aldruhn-guild-of-mages:
   title: Ald'ruhn, Guild of Mages
   titleRu: Альд'рун, Гильдия Магов
@@ -7332,10 +7332,10 @@
     - service: vk
       id: 1464
       published: 2024-03-22-18-12-46
-      updated: 2024-12-14-22-05-36
+      updated: 2024-12-21-23-02-24
       followers: 896
       likes: 34
-      views: 320
+      views: 321
       reposts: 1
     - service: tg
       id: 354
@@ -7716,10 +7716,10 @@
     - service: tg
       id: 583
       published: 2024-11-02-18-09-25
-      updated: 2024-12-14-22-05-33
+      updated: 2024-12-21-23-02-19
       followers: 565
       likes: 62
-      views: 546
+      views: 556
       comments: !c |-
         Cx2AkZPLQnku4vuTAACtTG9mdHlkZWx1c2lvbtkgSGFpbCB0byB0aGV5IGFyZSBmYXRoZXIgc3Bs
         aW50ZXID
@@ -9907,10 +9907,10 @@
     - service: vk
       id: 1483
       published: 2024-04-05-18-17-17
-      updated: 2024-12-14-22-05-34
+      updated: 2024-12-21-23-02-22
       followers: 908
       likes: 36
-      views: 270
+      views: 271
     - service: tg
       id: 369
       published: 2024-04-05-18-17-25

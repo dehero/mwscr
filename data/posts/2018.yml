@@ -9042,10 +9042,10 @@
     - service: vk
       id: 1916
       published: 2024-11-23-18-10-28
-      updated: 2024-12-14-22-05-31
+      updated: 2024-12-21-23-02-19
       followers: 1008
-      likes: 37
-      views: 314
+      likes: 38
+      views: 322
       reposts: 1
       comments: !c |-
         G4kA+C0SbNsJb8cJbulDs+RE8f0twqe/STHJsEkwwmQvJxuGltY7/ikD9WRyFpuo/RQbI0aZI5Od
@@ -9053,10 +9053,10 @@
     - service: tg
       id: 604
       published: 2024-11-23-18-10-35
-      updated: 2024-12-14-22-05-31
+      updated: 2024-12-21-23-02-17
       followers: 575
       likes: 62
-      views: 521
+      views: 541
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище
