@@ -2225,15 +2225,25 @@
       id: DD2ZUynzw_D
       mediaId: '18007370558692881'
       published: 2024-12-21-18-09-15
+      updated: 2024-12-21-19-01-24
       followers: 1507
+      likes: 21
+      views: 50
     - service: vk
       id: 1979
       published: 2024-12-21-18-09-23
+      updated: 2024-12-21-19-01-24
       followers: 1026
+      likes: 2
+      views: 34
     - service: tg
       id: 632
       published: 2024-12-21-18-09-32
+      updated: 2024-12-21-19-01-25
       followers: 584
+      likes: 22
+      views: 78
+      comments: !c iwyAkZPLQnk+pqKHAACnZG1lcGlraKbQktCw0YMD
 2017-02-28-army-of-stone:
   title: Army of Stone
   titleRu: Каменное воинство
@@ -3346,17 +3356,17 @@
       id: DDsGdwGJCBM
       mediaId: '18149217184346348'
       published: 2024-12-17-18-12-01
-      updated: 2024-12-20-19-01-14
+      updated: 2024-12-21-19-01-26
       followers: 1508
       likes: 84
-      views: 310
+      views: 320
     - service: vk
       id: 1967
       published: 2024-12-17-18-12-07
-      updated: 2024-12-20-19-01-16
+      updated: 2024-12-21-19-01-28
       followers: 1028
       likes: 30
-      views: 251
+      views: 273
       reposts: 2
       comments: !c |-
         GwoBIKwSeK4p/JCKWhw+Ylhko+flRvoX1VapZ5G2BCNM7uncKKk5Q2Oo4168oQq5tdzNyR2owuRD
@@ -3366,10 +3376,10 @@
     - service: tg
       id: 628
       published: 2024-12-17-18-12-14
-      updated: 2024-12-20-19-01-15
+      updated: 2024-12-21-19-01-27
       followers: 581
-      likes: 52
-      views: 263
+      likes: 53
+      views: 298
 2017-03-29-guilds-and-stores:
   title: Guilds and Stores
   titleRu: Гильдии и магазины
