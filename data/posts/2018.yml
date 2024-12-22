@@ -4507,10 +4507,10 @@
     - service: tg
       id: 612
       published: 2024-12-01-18-09-57
-      updated: 2024-12-15-22-07-26
+      updated: 2024-12-22-23-01-25
       followers: 576
       likes: 63
-      views: 503
+      views: 532
     - service: ig
       id: DDGK86wO8YJ
       mediaId: '18296802376229812'
@@ -5080,18 +5080,18 @@
     - service: vk
       id: 1875
       published: 2024-11-03-18-10-30
-      updated: 2024-12-15-22-07-27
+      updated: 2024-12-22-23-01-26
       followers: 1003
       likes: 38
-      views: 325
+      views: 328
       reposts: 1
     - service: tg
       id: 584
       published: 2024-11-03-18-10-35
-      updated: 2024-12-15-22-07-28
+      updated: 2024-12-22-23-01-27
       followers: 565
       likes: 61
-      views: 517
+      views: 526
       comments: !c |-
         CyiAk5PLQnkw+mEZAACrYmh1dmFuYXNyaWmk8J+NrZPLQnkvTUbBgACpR2F0ZW1hdGU3qDIwMTgu
         Li4/k8tCeS9MvQ+AAKh3aWx6dXVsbKTwn6eQAw==
@@ -7020,25 +7020,25 @@
       id: DD4-FTdvHGs
       mediaId: '18038196248343974'
       published: 2024-12-22-18-08-54
-      updated: 2024-12-22-22-02-17
+      updated: 2024-12-22-23-01-22
       followers: 1509
-      likes: 71
-      views: 158
+      likes: 74
+      views: 178
     - service: vk
       id: 1983
       published: 2024-12-22-18-09-04
-      updated: 2024-12-22-22-02-18
+      updated: 2024-12-22-23-01-23
       followers: 1026
-      likes: 22
-      views: 89
+      likes: 24
+      views: 93
       reposts: 1
     - service: tg
       id: 633
       published: 2024-12-22-18-09-11
-      updated: 2024-12-22-22-02-18
+      updated: 2024-12-22-23-01-23
       followers: 584
-      likes: 31
-      views: 175
+      likes: 35
+      views: 190
 2018-07-17-safe-harbour:
   title: Safe Harbour
   titleRu: Тихая гавань
@@ -9429,10 +9429,10 @@
     - service: tg
       id: 598
       published: 2024-11-17-18-09-44
-      updated: 2024-12-15-22-07-27
+      updated: 2024-12-22-23-01-26
       followers: 573
       likes: 57
-      views: 529
+      views: 543
     - service: vk
       id: 1901
       published: 2024-11-17-19-01-38
@@ -11897,17 +11897,17 @@
     - service: vk
       id: 1888
       published: 2024-11-10-18-09-11
-      updated: 2024-12-15-22-07-26
+      updated: 2024-12-22-23-01-25
       followers: 1006
       likes: 45
-      views: 273
+      views: 275
     - service: tg
       id: 591
       published: 2024-11-10-18-10-13
-      updated: 2024-12-15-22-07-28
+      updated: 2024-12-22-23-01-27
       followers: 564
       likes: 57
-      views: 568
+      views: 576
 2018-11-23-flooded-door:
   title: Flooded Door
   titleRu: Затопленная дверь
