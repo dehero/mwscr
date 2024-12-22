@@ -31,8 +31,12 @@ export class Instagram implements PostingService<InstagramPost> {
     return `https://instagram.com/p/${publication.id}/`;
   }
 
+  getSubscriptionUrl(): string {
+    return `https://instagram.com/mwscr/`;
+  }
+
   getUserProfileUrl(profileId: string) {
-    return `https://instagram.com/p/${profileId}/`;
+    return `https://instagram.com/${profileId}/`;
   }
 }
 

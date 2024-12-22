@@ -39,6 +39,10 @@ export class Telegram implements PostingService<TelegramPost> {
     return `https://t.me/${TELEGRAM_CHANNEL}/${publication.id}`;
   }
 
+  getSubscriptionUrl(): string {
+    return `https://t.me/${TELEGRAM_CHANNEL}`;
+  }
+
   getUserProfileUrl(profileId: string) {
     return `https://t.me/${profileId}`;
   }

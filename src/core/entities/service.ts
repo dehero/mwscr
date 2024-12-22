@@ -21,6 +21,8 @@ export interface Service {
 export interface PostingService<TPublication extends Publication<unknown> = Publication<unknown>> extends Service {
   isPost(publication: Publication<unknown>): publication is TPublication;
 
+  getSubscriptionUrl(): string;
+
   getPublicationUrl: (publication: Publication<unknown>, embed?: boolean) => string | undefined;
 
   canPublishPost: (post: Post, errors?: string[]) => boolean;

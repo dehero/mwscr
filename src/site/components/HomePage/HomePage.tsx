@@ -110,6 +110,8 @@ export const HomePage = (): JSX.Element => {
                   <Button href={createDetachedDialogFragment('post-proposal')}>Propose Work</Button>
 
                   <Button href={createDetachedDialogFragment('post-request')}>Request Post</Button>
+
+                  <Button href={createDetachedDialogFragment('subscription')}>Subscribe</Button>
                 </p>
               </Frame>
 

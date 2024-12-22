@@ -32,6 +32,10 @@ export class YouTube implements PostingService<YouTubePost> {
     return `https://www.youtube.com/watch?v=${publication.id}`;
   }
 
+  getSubscriptionUrl(): string {
+    return `https://www.youtube.com/@mwscr?sub_confirmation=1`;
+  }
+
   getUserProfileUrl(userId: string) {
     return `https://www.youtube.com/channel/${userId}`;
   }

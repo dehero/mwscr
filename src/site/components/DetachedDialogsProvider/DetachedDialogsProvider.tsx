@@ -8,6 +8,7 @@ import { PostMergeDialog } from '../PostMergeDialog/PostMergeDialog.jsx';
 import { PostProposalDialog } from '../PostProposalDialog/PostProposalDialog.jsx';
 import { PostRequestDialog } from '../PostRequestDialog/PostRequestDialog.jsx';
 import { PostReviewDialog } from '../PostReviewDialog/PostReviewDialog.jsx';
+import { SubscriptionDialog } from '../SubscriptionDialog/SubscriptionDialog.jsx';
 
 export interface DetachedDialogProps<TParams extends SiteRouteParams> {
   show: boolean;
@@ -24,6 +25,7 @@ const detachedDialogs = {
   'post-proposal': PostProposalDialog,
   'post-request': PostRequestDialog,
   'post-review': PostReviewDialog,
+  subscription: SubscriptionDialog,
 } satisfies Record<string, DetachedDialog | undefined>;
 
 export type DialogName = keyof typeof detachedDialogs;

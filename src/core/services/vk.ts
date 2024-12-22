@@ -34,6 +34,10 @@ export class VK implements PostingService<VKPost> {
     return `https://vk.com/${VK_GROUP_NAME}?w=wall${VK_GROUP_ID}_${publication.id}`;
   }
 
+  getSubscriptionUrl(): string {
+    return `https://vk.com/widget_community.php?act=a_subscribe_box&oid=${VK_GROUP_ID}&state=1`;
+  }
+
   getUserProfileUrl(profileId: string) {
     return `https://vk.com/${profileId}`;
   }
