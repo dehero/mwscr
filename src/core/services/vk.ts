@@ -27,6 +27,10 @@ export class VK implements PostingService<VKPost> {
     return checkRules([needCertainType('shot', 'wallpaper', 'wallpaper-v'), needContent, needTitleRu], post);
   }
 
+  getDonationUrl() {
+    return `https://vk.com/donut/${VK_GROUP_NAME}`;
+  }
+
   getPublicationUrl(publication: Publication<unknown>) {
     if (!this.isPost(publication)) {
       return;

@@ -2,6 +2,7 @@ import { type Component, createMemo, For, type JSX } from 'solid-js';
 import type { SiteRouteParams } from '../../../core/entities/site-route.js';
 import { parseSiteRouteFragment, stringifySiteRouteFragment } from '../../../core/entities/site-route.js';
 import { useHash } from '../../hooks/useHash.js';
+import { DonationDialog } from '../DonationDialog/DonationDialog.jsx';
 import { PostEditingDialog } from '../PostEditingDialog/PostEditingDialog.jsx';
 import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.jsx';
 import { PostMergeDialog } from '../PostMergeDialog/PostMergeDialog.jsx';
@@ -26,6 +27,7 @@ const detachedDialogs = {
   'post-request': PostRequestDialog,
   'post-review': PostReviewDialog,
   subscription: SubscriptionDialog,
+  donation: DonationDialog,
 } satisfies Record<string, DetachedDialog | undefined>;
 
 export type DialogName = keyof typeof detachedDialogs;

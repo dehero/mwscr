@@ -11,6 +11,8 @@ export interface Service {
   name: string;
   origin?: string;
 
+  getDonationUrl?: () => string;
+
   getPostUrl?: (postId: string) => string | undefined;
 
   getUserMessagingUrl?: (userId: string, options?: ServiceMessagingOptions) => string | undefined;
