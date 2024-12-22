@@ -2351,18 +2351,18 @@
     - service: vk
       id: 1537
       published: 2024-05-18-18-18-31
-      updated: 2024-12-15-17-03-48
+      updated: 2024-12-22-18-08-41
       followers: 915
       likes: 27
-      views: 271
+      views: 272
       reposts: 1
     - service: tg
       id: 412
       published: 2024-05-18-18-18-39
-      updated: 2024-12-15-17-03-47
+      updated: 2024-12-22-18-08-40
       followers: 372
       likes: 52
-      views: 440
+      views: 442
       comments: !c iw2AkZPLQnj40RlbgACrYm9icm92bmlrb3akY296eQM=
 2018-03-08-dead-guar:
   title: Dead Guar
@@ -4404,18 +4404,18 @@
     - service: vk
       id: 1511
       published: 2024-04-27-18-16-27
-      updated: 2024-12-15-17-03-50
+      updated: 2024-12-22-18-08-42
       followers: 911
       likes: 30
-      views: 252
+      views: 253
       reposts: 1
     - service: tg
       id: 391
       published: 2024-04-27-18-16-36
-      updated: 2024-12-15-17-03-49
+      updated: 2024-12-22-18-08-42
       followers: 354
       likes: 58
-      views: 484
+      views: 485
 2018-05-04-table-for-two:
   title: Table for Two
   titleRu: Столик на двоих
@@ -7016,6 +7016,19 @@
       likes: 26
       views: 272
       comments: !c CxqAkZPLQnZLIC5uAACscGV0ZWV2YW5kcmV3vNCT0L7RgNGM0LrQuNC5INCx0LXRgNC10LMuLi4D
+    - service: ig
+      id: DD4-FTdvHGs
+      mediaId: '18038196248343974'
+      published: 2024-12-22-18-08-54
+      followers: 1509
+    - service: vk
+      id: 1983
+      published: 2024-12-22-18-09-04
+      followers: 1026
+    - service: tg
+      id: 633
+      published: 2024-12-22-18-09-11
+      followers: 584
 2018-07-17-safe-harbour:
   title: Safe Harbour
   titleRu: Тихая гавань
