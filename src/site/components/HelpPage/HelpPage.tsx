@@ -87,13 +87,18 @@ export const HelpPage = (): JSX.Element => {
         </Frame>
         <Frame class={styles.topics} component="ul">
           <li>
-            <a class={styles.topic} href={createDetachedDialogFragment('post-proposal')}>
-              Propose work
+            <a class={styles.topic} href={createDetachedDialogFragment('subscription')}>
+              Subscribe
             </a>
           </li>
           <li>
-            <a class={styles.topic} href={createDetachedDialogFragment('post-request')}>
-              Request post
+            <a class={styles.topic} href={createDetachedDialogFragment('contributing')}>
+              Contribute
+            </a>
+          </li>
+          <li>
+            <a class={styles.topic} href={createDetachedDialogFragment('donation')}>
+              Donate
             </a>
           </li>
           <li>

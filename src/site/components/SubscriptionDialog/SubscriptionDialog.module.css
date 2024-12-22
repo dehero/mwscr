@@ -27,8 +27,15 @@
   text-align: center;
 }
 
+.heading {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 4px;
+}
+
 .icon {
   max-width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 2 / 1;
   image-rendering: auto;
 }

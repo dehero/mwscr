@@ -18,6 +18,7 @@ export const VK_GROUP_ID = -138249959;
 export class VK implements PostingService<VKPost> {
   readonly id = 'vk';
   readonly name = 'VK';
+  readonly donationName = 'VK Donut';
 
   isPost(publication: Publication<unknown>): publication is VKPost {
     return publication.service === this.id && typeof publication.id === 'number';

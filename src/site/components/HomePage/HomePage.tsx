@@ -55,11 +55,13 @@ export const HomePage = (): JSX.Element => {
             <Frame component="main" class={styles.container}>
               <Frame class={styles.about}>
                 <img src={icon} class={styles.icon} alt="screenshot of a tree" width={320} />
-                <p class={styles.title}>Morrowind Screenshots</p>
-                <p class={styles.description}>
-                  Original screenshots and videos from The&nbsp;Elder&nbsp;Scrolls&nbsp;III:&nbsp;Morrowind.
-                  No&nbsp;third-party mods. No&nbsp;color filters. No&nbsp;interface.
-                </p>
+                <section class={styles.heading}>
+                  <p class={styles.title}>Morrowind Screenshots</p>
+                  <p class={styles.description}>
+                    Original screenshots and videos from The&nbsp;Elder&nbsp;Scrolls&nbsp;III:&nbsp;Morrowind.
+                    No&nbsp;third-party mods. No&nbsp;color filters. No&nbsp;interface.
+                  </p>
+                </section>
                 <p class={styles.links}>
                   <a href="https://instagram.com/mwscr/" class={styles.link}>
                     Instagram
@@ -107,11 +109,9 @@ export const HomePage = (): JSX.Element => {
                   </a>
                 </p>
                 <p class={styles.actions}>
-                  <Button href={createDetachedDialogFragment('post-proposal')}>Propose Work</Button>
-
-                  <Button href={createDetachedDialogFragment('post-request')}>Request Post</Button>
-
                   <Button href={createDetachedDialogFragment('subscription')}>Subscribe</Button>
+
+                  <Button href={createDetachedDialogFragment('contributing')}>Contribute</Button>
 
                   <Button href={createDetachedDialogFragment('donation')}>Donate</Button>
                 </p>

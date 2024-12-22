@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: center;
   gap: 6px;
+  max-width: 320px;
 }
 
 .title {
@@ -38,4 +39,13 @@
   max-width: 100%;
   aspect-ratio: 2 / 1;
   image-rendering: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text-selected);
+}
+
+.link:hover {
+  color: var(--color-text-selected-hover);
 }

@@ -9,6 +9,7 @@ export interface ServiceMessagingOptions {
 export interface Service {
   id: string;
   name: string;
+  donationName?: string;
   origin?: string;
 
   getDonationUrl?: () => string;
