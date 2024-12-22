@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.29.0](https://github.com/dehero/mwscr/compare/v1.28.0...v1.29.0) (2024-12-22)
+
+### Features
+
+- **site:** add donate button
+  ([f3ad0bf](https://github.com/dehero/mwscr/commit/f3ad0bf3597b689aea6dc22a1cee5dcb2b76130c))
+- **site:** add subscribe button
+  ([d738c45](https://github.com/dehero/mwscr/commit/d738c45b2da27070c4855a82445553d5b0417f53))
+- **site:** improve subscription, contributing and donation actions
+  ([0e04dc7](https://github.com/dehero/mwscr/commit/0e04dc76ba0895cb6bf0f9fa725fd4eb4e6942c5))
+
 ## [1.28.0](https://github.com/dehero/mwscr/compare/v1.27.0...v1.28.0) (2024-12-20)
 
 ### Features
