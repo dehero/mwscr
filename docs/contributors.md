@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 966 posted, 10 pending, 67 rejected  
 Requested: 6 pending  
-Likes: 163170  
+Likes: 163171  
 
 ```
 dehero
@@ -67,7 +67,7 @@ irina-bystritskaya
 
 ### buck-the-cuck
 
-[Instagram](https://instagram.com/p/buck_the_cuck/)
+[Instagram](https://instagram.com/buck_the_cuck/)
 
 Roles: `requester`  
 Requested: 3 posted, 1 pending, 1 rejected  
@@ -78,7 +78,7 @@ buck-the-cuck
 
 ### Luke Gordon
 
-[Instagram](https://instagram.com/p/eastcoast_lg/)
+[Instagram](https://instagram.com/eastcoast_lg/)
 
 Roles: `requester`  
 Requested: 1 posted  
@@ -111,7 +111,7 @@ id172608176
 
 ### Markus Alapoti
 
-[Instagram](https://instagram.com/p/mighty_markyys/)
+[Instagram](https://instagram.com/mighty_markyys/)
 
 Roles: `requester`  
 Requested: 1 posted  
