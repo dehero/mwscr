@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.30.0](https://github.com/dehero/mwscr/compare/v1.29.0...v1.30.0) (2024-12-23)
+
+### Features
+
+- **site:** add hard-coded hero block to home page
+  ([390cb79](https://github.com/dehero/mwscr/commit/390cb79ac054a7e84c913700a3dd718f210a3918))
+
 ## [1.29.0](https://github.com/dehero/mwscr/compare/v1.28.0...v1.29.0) (2024-12-22)
 
 ### Features
