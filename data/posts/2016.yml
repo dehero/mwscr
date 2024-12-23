@@ -459,7 +459,7 @@
     - service: vk
       id: 1687
       published: 2024-08-11-18-20-27
-      updated: 2024-12-16-03-30-50
+      updated: 2024-12-23-04-10-15
       followers: 930
       likes: 47
       views: 311
@@ -467,14 +467,14 @@
     - service: tg
       id: 498
       published: 2024-08-11-18-20-32
-      updated: 2024-12-16-03-30-46
+      updated: 2024-12-23-04-10-11
       followers: 520
       likes: 68
-      views: 628
+      views: 630
       comments: !c |-
-        G54AAByHsTM6uHmvpWlkNXDOEY7D0iuANopoGvj20Eq62G9S0Ix7s84zSCyQyci2BqB4weMGJ1o2
-        kD8v62DbADqtgZuMETqPmHTzX0xvqld1A7jwemXHKvIDIEo//H4PuJK0LqN+/7n1BjBYm91dF+qx
-        Pgwg/54PB6ighpvh1Y2e6GXh+0/P3kB6Zye2QaegJej1H3koqVP1lh3VpZ8m+1sw
+        G6AAIByF6cabDU1xisivgXOOcBxW9wqgnxYZ4E/sEvtNqgFOrj4XxYtOTvRg+pUkSRpYIBgVXk/2
+        +vBiEEls7tHgXQ71+IB9g3RYFVWaxYG0Pova84BN011bCVefT+f5B+7HBXANgkAmVTIaQLpxUp6N
+        VyooypESXI/USNsSxafAriCtaUdlQc6iBL3+hXNX55yQYRXXFnVtdQwG
 2016-11-28-forest-on-the-border-of-ashlands:
   title: Forest on the Border of Ashlands
   titleRu: Лес на границе Эшленда
@@ -1667,14 +1667,14 @@
     - service: tg
       id: 556
       published: 2024-10-06-18-09-23
-      updated: 2024-12-16-03-30-42
+      updated: 2024-12-23-04-10-07
       followers: 559
       likes: 66
-      views: 515
+      views: 519
     - service: vk
       id: 1812
       published: 2024-10-06-19-01-29
-      updated: 2024-12-16-03-30-43
+      updated: 2024-12-23-04-10-09
       followers: 958
       likes: 51
       views: 364
