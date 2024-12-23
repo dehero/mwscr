@@ -173,6 +173,37 @@ export const HomePage = (): JSX.Element => {
                 />
               </Frame>
 
+              <Frame class={styles.hero}>
+                <p class={styles.heroText}>
+                  Dear followers! I would like to share with you an interview conducted by game blogger Dmitry Epikhin.
+                  It is entirely dedicated to the story of the Morrowind Screenshots project and Morrowind in general.
+                  Enjoy reading it!
+                </p>
+
+                <p class={styles.heroText}>
+                  <a
+                    href="https://medium.com/@dmepikh/ive-been-photographing-morrowind-for-15-years-interview-with-the-founder-of-the-morrowind-a5ee65712217"
+                    class={styles.link}
+                  >
+                    Medium (English)
+                  </a>
+                  {' • '}
+                  <a
+                    href="https://dtf.ru/screenshots/3312760-fotografiruyu-morrowind-uzhe-15-let-intervyu-s-osnovatelem-proekta-morrowind-screenshots"
+                    class={styles.link}
+                  >
+                    DTF (Russian)
+                  </a>
+                  {' • '}
+                  <a
+                    href="https://stopgame.ru/blogs/topic/117167/fotografiruyu_morrowind_uzhe_15_let_interview_s_osnovatelem_proekta_morrowind_screenshots"
+                    class={styles.link}
+                  >
+                    StopGame (Russian)
+                  </a>
+                </p>
+              </Frame>
+
               <Frame class={styles.posts}>
                 <PostHighlights
                   class={styles.postHighlights}

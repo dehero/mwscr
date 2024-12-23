@@ -125,6 +125,21 @@
   margin: 0;
 }
 
+.hero {
+  grid-area: hero;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  padding: 8px;
+  align-items: center;
+}
+
+.heroText {
+  text-align: center;
+  max-width: 320px;
+  margin: 0;
+}
+
 @media only screen and (min-height: 750px) and (min-width: 750px),
   only screen and (max-height: 750px) and (min-width: 925px) {
   .container {
@@ -153,8 +168,8 @@
         var(--size-panel-min-width),
         max-content
       );
-    grid-template-rows: auto 1fr;
-    grid-template-areas: 'about posts diagrams' 'statistics posts diagrams';
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas: 'about posts hero' 'about posts diagrams' 'statistics posts diagrams';
   }
 }
 
@@ -164,7 +179,7 @@
         361px,
         1fr
       );
-    grid-template-rows: auto 1fr;
-    grid-template-areas: 'about statistics posts' 'about diagrams posts';
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas: 'about statistics posts' 'about hero posts' 'about diagrams posts';
   }
 }
