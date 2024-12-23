@@ -1257,10 +1257,10 @@
       id: C-0i7seJzEX
       mediaId: '17879227356107377'
       published: 2024-08-18-18-17-44
-      updated: 2024-12-16-17-17-12
+      updated: 2024-12-23-18-10-21
       followers: 1455
       likes: 124
-      views: 638
+      views: 639
       comments: !c |-
         ixyAkZPLQnkWvtoMgACoYmVyc2thdGXZJFRoZSBjaXR5IEknZCBsaWtlIHRvIGxpdmUgaW4g8J+l
         suKdpAM=
@@ -4613,7 +4613,7 @@
     - service: vk
       id: 1494
       published: 2024-04-14-20-32-17
-      updated: 2024-12-16-17-17-15
+      updated: 2024-12-23-18-10-25
       followers: 911
       likes: 41
       views: 297
@@ -4621,10 +4621,10 @@
     - service: tg
       id: 378
       published: 2024-04-14-20-32-22
-      updated: 2024-12-16-17-17-09
+      updated: 2024-12-23-18-10-19
       followers: 351
       likes: 64
-      views: 536
+      views: 537
 2017-05-01-altmer-camp:
   title: Altmer Camp
   titleRu: Лагерь альтмеров
@@ -4764,10 +4764,10 @@
       id: C_D_wFZyrog
       mediaId: '18030629690219855'
       published: 2024-08-24-18-18-11
-      updated: 2024-12-16-17-17-10
+      updated: 2024-12-23-18-10-19
       followers: 1457
       likes: 93
-      views: 413
+      views: 414
     - service: vk
       id: 1705
       published: 2024-08-24-18-18-18
@@ -4838,10 +4838,10 @@
       id: C-x-RYtziCJ
       mediaId: '18132369421360568'
       published: 2024-08-17-18-18-54
-      updated: 2024-12-16-17-17-13
+      updated: 2024-12-23-18-10-22
       followers: 1441
       likes: 89
-      views: 381
+      views: 382
     - service: vk
       id: 1695
       published: 2024-08-17-18-19-02
@@ -5197,10 +5197,10 @@
       id: C_YnIVDs_Cl
       mediaId: '18067723348606232'
       published: 2024-09-01-18-27-05
-      updated: 2024-12-16-17-17-09
+      updated: 2024-12-23-18-10-18
       followers: 1453
       likes: 88
-      views: 399
+      views: 401
     - service: vk
       id: 1730
       published: 2024-09-01-18-27-13
@@ -5942,6 +5942,19 @@
       followers: 60
       likes: 6
       views: 143
+    - service: ig
+      id: DD7jFWAPhfk
+      mediaId: '18047137612947250'
+      published: 2024-12-23-18-10-44
+      followers: 1511
+    - service: vk
+      id: 1987
+      published: 2024-12-23-18-10-51
+      followers: 1027
+    - service: tg
+      id: 635
+      published: 2024-12-23-18-10-58
+      followers: 592
 2017-06-04-bthuand:
   title: Bthuand
   titleRu: Бтуанд
@@ -11169,7 +11182,7 @@
     - service: vk
       id: 1547
       published: 2024-05-26-18-17-46
-      updated: 2024-12-16-17-17-09
+      updated: 2024-12-23-18-10-20
       followers: 918
       likes: 32
       views: 291
