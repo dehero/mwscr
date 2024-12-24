@@ -4,7 +4,34 @@
 
 # Posted in 2024
 
-`301 items`
+`302 items`
+
+## <span id="2024-12-24-coast-of-west-gash">Coast of West Gash</span>
+
+`RU` Берег Западного нагорья
+
+<a href="https://instagram.com/p/BRQEl-EjUzx/" title="2017-03-05-coast-of-west-gash"><img alt="store:/shots/2017-03-05-coast-of-west-gash.png" src="../../assets/previews/shots/2017-03-05-coast-of-west-gash.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 West Gash Region` `🚀 OpenMW` `dwemer`
+
+```
+2024-12-24-coast-of-west-gash
+```
+
+> `2017-03-05-coast-of-west-gash`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BRQEl-EjUzx/)       | 2017-03-05 |       |    32 |       104 |  30.77 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_183)  | 2017-03-05 |   153 |    12 |        44 |     12 |
+| [`ig`](https://instagram.com/p/DD-H2l7TG0b/)       | 2024-12-24 |       |       |      1512 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1988) | 2024-12-24 |       |       |      1028 |        |
+| [`tg`](https://t.me/mwscr/636)                     | 2024-12-24 |       |       |       603 |        |
+|                                                    |            |       |       |      3143 |  21.38 |
 
 ## <span id="2024-12-23-almalexia-pierces-dagon">Almalexia Pierces Dagon</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BU31Vq8D-s3/)       | 2017-06-03 |       |    69 |       180 |  38.33 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_310)  | 2017-06-03 |   143 |     6 |        60 |     10 |
-| [`ig`](https://instagram.com/p/DD7jFWAPhfk/)       | 2024-12-23 |   278 |    77 |      1511 |    5.1 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1987) | 2024-12-23 |   195 |    23 |      1027 |   2.34 |
-| [`tg`](https://t.me/mwscr/635)                     | 2024-12-23 |   170 |    49 |       592 |   8.28 |
-|                                                    |            |   643 |   149 |      3130 |  12.81 |
+| [`ig`](https://instagram.com/p/DD7jFWAPhfk/)       | 2024-12-23 |   287 |    77 |      1511 |    5.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1987) | 2024-12-23 |   198 |    25 |      1027 |   2.53 |
+| [`tg`](https://t.me/mwscr/635)                     | 2024-12-23 |   173 |    50 |       592 |   8.45 |
+|                                                    |            |   658 |   152 |      3130 |  12.88 |
 
 #### Comments
 
