@@ -913,6 +913,19 @@
       followers: 123
       likes: 16
       views: 164
+    - service: ig
+      id: DEAsk0fPdnh
+      mediaId: '18072243916633129'
+      published: 2024-12-25-18-09-54
+      followers: 1513
+    - service: vk
+      id: 1990
+      published: 2024-12-25-18-10-00
+      followers: 1030
+    - service: tg
+      id: 637
+      published: 2024-12-25-18-10-08
+      followers: 612
 2018-01-26-teran-hall:
   title: Teran Hall
   titleRu: Зал Терана
@@ -7035,10 +7048,10 @@
     - service: tg
       id: 633
       published: 2024-12-22-18-09-11
-      updated: 2024-12-24-17-02-17
+      updated: 2024-12-25-18-09-39
       followers: 584
-      likes: 54
-      views: 393
+      likes: 58
+      views: 429
 2018-07-17-safe-harbour:
   title: Safe Harbour
   titleRu: Тихая гавань
