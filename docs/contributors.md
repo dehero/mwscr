@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 966 posted, 10 pending, 67 rejected  
 Requested: 6 pending  
-Likes: 163819  
+Likes: 163825  
 
 ```
 dehero
@@ -239,6 +239,16 @@ Roles: `foreigner`
 
 ```
 gleb
+```
+
+### Konstantin
+
+[Telegram](https://t.me/epszaw)
+
+Roles: `foreigner`  
+
+```
+konstantin
 ```
 
 ### Nihil sum
