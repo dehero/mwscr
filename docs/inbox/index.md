@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`13 items`
+`14 items`
 
 ## <span id="natty.2024-10-06-15-21-49">natty.2024-10-06-15-21-49</span>
 
@@ -212,6 +212,21 @@ dehero.2024-02-17-10-41-10
 
 ```
 dehero.2024-02-05-00-02-12
+```
+
+## <span id="3akrom.2024-12-25-tinyboat-01-9430a833">Tinyboat 01</span>
+
+![store:/inbox/3akrom.2024-12-25-tinyboat-01-9430a833.png](../../assets/previews/inbox/3akrom.2024-12-25-tinyboat-01-9430a833.avif "3akrom.2024-12-25-tinyboat-01-9430a833")
+
+`shot` by [3акром](../contributors.md#3akrom)
+
+> [!WARNING]
+> Need russian title, need mark.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=editing&amp;template=editing.yml&amp;title=3akrom.2024-12-25-tinyboat-01-9430a833&amp;postContent=store%3A%2Finbox%2F3akrom.2024-12-25-tinyboat-01-9430a833.png&amp;postTitle=Tinyboat+01&amp;postTitleRu=&amp;postAuthor=3akrom&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=review&amp;template=review.yml&amp;title=3akrom.2024-12-25-tinyboat-01-9430a833&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=merging&amp;template=merging.yml&amp;title=3akrom.2024-12-25-tinyboat-01-9430a833&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=location&template=location.yml&title=3akrom.2024-12-25-tinyboat-01-9430a833&postLocation=)</code>
+
+```
+3akrom.2024-12-25-tinyboat-01-9430a833
 ```
 
 ---
