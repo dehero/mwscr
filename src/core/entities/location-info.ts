@@ -1,4 +1,4 @@
-import type { SortDirection } from '../utils/common-types.js';
+import type { EntitySelection, SortDirection } from '../utils/common-types.js';
 import { cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
 import type { ListReaderEntry } from './list-manager.js';
 import type { Location, LocationCell, LocationType } from './location.js';
@@ -33,6 +33,8 @@ export interface SelectLocationInfosParams {
   sortKey: SelectLocationInfosSortKey;
   sortDirection: SortDirection;
 }
+
+export type LocationInfoSelection = EntitySelection<LocationInfo, SelectLocationInfosParams>;
 
 export const selectLocationInfosSortOptions = [
   { value: 'title', label: 'Title', fn: compareLocationInfosByTitle },
@@ -77,13 +79,15 @@ export function compareLocationInfosByPostCount(direction: SortDirection): Locat
     : (a, b) => (b.discovered?.posts ?? 0) - (a.discovered?.posts ?? 0) || byTitle(a, b);
 }
 
-export function selectLocationInfos(locationInfos: LocationInfo[], params: SelectLocationInfosParams) {
+export function selectLocationInfos(locationInfos: LocationInfo[], params: SelectLocationInfosParams, limit?: number) {
+  const localParams: SelectLocationInfosParams = { ...params, sortKey: 'title', sortDirection: 'desc' };
+
   const comparator =
     selectLocationInfosSortOptions.find((comparator) => comparator.value === params.sortKey)?.fn ??
     compareLocationInfosByTitle;
   const searchTokens = getSearchTokens(params.search);
 
-  return locationInfos
+  const items = locationInfos
     .filter(
       (info) =>
         (typeof params.discovered === 'undefined' || Boolean(info.discovered?.posts) === params.discovered) &&
@@ -91,6 +95,12 @@ export function selectLocationInfos(locationInfos: LocationInfo[], params: Selec
         search(searchTokens, [info.title]),
     )
     .sort(comparator(params.sortDirection));
+
+  return {
+    items: typeof limit === 'undefined' ? items : items.slice(0, limit),
+    params: localParams,
+    totalCount: items.length,
+  };
 }
 
 export function selectLocationInfosResultToString(count: number, params: SelectLocationInfosParams) {

@@ -7,6 +7,7 @@ import { helpRoute } from '../../routes/help-route.js';
 import { homeRoute } from '../../routes/home-route.js';
 import type { RouteMatch } from '../../routes/index.js';
 import { resolveFirstRoute } from '../../routes/index.js';
+import { locationsRoute } from '../../routes/locations-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { Button } from '../Button/Button.js';
@@ -17,9 +18,10 @@ import styles from './Navigation.module.css';
 const navigationItems = [
   { route: homeRoute, params: {} },
   { route: postsRoute, params: { managerName: 'posts' } },
+  { route: locationsRoute, params: {} },
+  { route: usersRoute, params: {} },
   { route: postsRoute, params: { managerName: 'inbox' } },
   { route: postsRoute, params: { managerName: 'trash' } },
-  { route: usersRoute, params: {} },
   { route: helpRoute, params: { topicId: '' } },
 ] as RouteMatch[];
 

@@ -1,7 +1,7 @@
 import { arrayFromAsync, asArray } from '../utils/common-utils.js';
 import { isNestedLocation } from './location.js';
-import type { LocationInfo } from './location-info.js';
-import { createLocationInfo } from './location-info.js';
+import type { LocationInfo, SelectLocationInfosParams } from './location-info.js';
+import { createLocationInfo, selectLocationInfos } from './location-info.js';
 import type { LocationsReader } from './locations-reader.js';
 import type { Option } from './option.js';
 import type { PostLocation } from './post.js';
@@ -151,6 +151,12 @@ export class DataExtractor {
 
   async getUserInfo(id: string) {
     return (await this.getAllUserInfos()).find((info) => info.id === id);
+  }
+
+  async selectLocationInfos(params: SelectLocationInfosParams, limit?: number) {
+    const locationInfos = await this.getAllLocationInfos();
+
+    return selectLocationInfos(locationInfos, params, limit);
   }
 
   async selectPostInfo(
