@@ -43,11 +43,21 @@ dehero.2024-09-21-11-34-14:
   type: shot
   author: dehero
 dehero.2024-12-26-21-38-36:
-  content:
-    - store:/inbox/dehero.2024-12-26-21-38-36.1.png
-    - store:/inbox/dehero.2024-12-26-21-38-36.png
+  title: Vivec's Feat
+  titleRu: Подвиг Вивека
+  location: Vivec, Temple
+  content: store:/inbox/dehero.2024-12-26-21-38-36.1.png
+  trash: store:/inbox/dehero.2024-12-26-21-38-36.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - vivec
+    - sun
+    - moon
+    - sky
+    - statue
+  mark: A2
 dehero.2024-12-26-21-38-59:
   content: store:/inbox/dehero.2024-12-26-21-38-59.png
   type: shot

@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`3 items`
+`4 items`
 
 ## <span id="irina-bystritskaya.2022-06-25-drawing-002">Mzahnch</span>
 
@@ -19,6 +19,26 @@
 
 ```
 irina-bystritskaya.2022-06-25-drawing-002
+```
+
+## <span id="dehero.2024-12-26-21-38-36">Vivec&#39;s Feat</span>
+
+`RU` Подвиг Вивека
+
+![store:/inbox/dehero.2024-12-26-21-38-36.1.png](../../assets/previews/inbox/dehero.2024-12-26-21-38-36.1.avif "dehero.2024-12-26-21-38-36.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2024-12-26-21-38-36.png](../../assets/previews/inbox/dehero.2024-12-26-21-38-36.avif "dehero.2024-12-26-21-38-36")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2024-12-26-21-38-36&amp;postContent=store%3A%2Finbox%2Fdehero.2024-12-26-21-38-36.1.png&amp;postTitle=Vivec%27s+Feat&amp;postTitleRu=%D0%9F%D0%BE%D0%B4%D0%B2%D0%B8%D0%B3+%D0%92%D0%B8%D0%B2%D0%B5%D0%BA%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=vivec+sun+moon+sky+statue&amp;postLocation=Vivec%2C+Temple&amp;postMark=A2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-12-26-21-38-36.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2024-12-26-21-38-36&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2024-12-26-21-38-36&amp;mergeWithIds=) `A2` `📍 Vivec, Temple` `🚀 OpenMW` `vivec` `sun` `moon` `sky` `statue`
+
+```
+dehero.2024-12-26-21-38-36
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
