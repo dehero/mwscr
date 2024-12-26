@@ -1,10 +1,13 @@
 3akrom.2024-12-25-tinyboat-01-9430a833:
-  title: Tinyboat 01
-  content:
-    - store:/inbox/3akrom.2024-12-25-tinyboat-01-9430a833.png
-    - store:/inbox/3akrom.2024-12-25-tinyboat-01-9430a833.1.png
+  title: Tiny Boat
+  titleRu: Маленькая лодочка
+  content: store:/inbox/3akrom.2024-12-25-tinyboat-01-9430a833.1.png
+  trash: store:/inbox/3akrom.2024-12-25-tinyboat-01-9430a833.png
   type: shot
   author: 3akrom
+  tags:
+    - boat
+  mark: B2
 dehero.2024-02-05-00-02-12:
   content: store:/inbox/dehero.2024-02-05-00-02-12.png
   type: shot
