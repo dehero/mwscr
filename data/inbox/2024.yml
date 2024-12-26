@@ -43,11 +43,18 @@ dehero.2024-09-21-11-34-14:
   type: shot
   author: dehero
 dehero.2024-12-26-21-33-44:
-  content:
-    - store:/inbox/dehero.2024-12-26-21-33-44.1.png
-    - store:/inbox/dehero.2024-12-26-21-33-44.png
+  title: Two Houses on the Outskirts
+  titleRu: Два дома на окраине
+  location: Seyda Neen
+  content: store:/inbox/dehero.2024-12-26-21-33-44.1.png
+  trash: store:/inbox/dehero.2024-12-26-21-33-44.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - house
+    - tree
+  mark: A1
 dehero.2024-12-26-21-38-36:
   content:
     - store:/inbox/dehero.2024-12-26-21-38-36.1.png
