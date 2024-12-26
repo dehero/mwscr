@@ -58,7 +58,7 @@ dehero.2020-05-19-night-guards
 ![store:/inbox/3akrom.2024-12-25-tinyboat-01-9430a833.png](../../assets/previews/inbox/3akrom.2024-12-25-tinyboat-01-9430a833.avif "3akrom.2024-12-25-tinyboat-01-9430a833")
 </details>
 
-`shot` by [3акром](../contributors.md#3akrom)
+`shot` by [3akrom](../contributors.md#3akrom)
 
 [`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=3akrom.2024-12-25-tinyboat-01-9430a833&amp;postContent=store%3A%2Finbox%2F3akrom.2024-12-25-tinyboat-01-9430a833.1.png&amp;postTitle=Tiny+Boat&amp;postTitleRu=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B0%D1%8F+%D0%BB%D0%BE%D0%B4%D0%BE%D1%87%D0%BA%D0%B0&amp;postAuthor=3akrom&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=boat&amp;postLocation=&amp;postMark=B2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2F3akrom.2024-12-25-tinyboat-01-9430a833.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=3akrom.2024-12-25-tinyboat-01-9430a833&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=3akrom.2024-12-25-tinyboat-01-9430a833&amp;mergeWithIds=) `B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=3akrom.2024-12-25-tinyboat-01-9430a833&postLocation=)</code> `boat`
 

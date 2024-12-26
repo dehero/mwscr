@@ -632,7 +632,7 @@ dehero.2024-02-05-00-03-32
 
 ![store:/trash/3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e.png](../../assets/previews/trash/3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e.avif "3akrom.2024-12-01-screenshot-23-08-11-581-is-docent27-omw-01-edited-eb9c037e")
 
-`shot` by [3акром](../contributors.md#3akrom)
+`shot` by [3akrom](../contributors.md#3akrom)
 
 > [!CAUTION]
 > [object Object].

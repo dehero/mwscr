@@ -63,7 +63,7 @@ Likes: 238
 irina-bystritskaya
 ```
 
-### 3акром
+### 3akrom
 
 [Telegram](https://t.me/taletale)
 
