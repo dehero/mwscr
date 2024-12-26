@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.30.2](https://github.com/dehero/mwscr/compare/v1.30.1...v1.30.2) (2024-12-26)
+
+### Bug Fixes
+
+- allow A1 posts to be more rare
+  ([2ebc7a4](https://github.com/dehero/mwscr/commit/2ebc7a47029cf815cb90474860b4ec80ab7168e9))
+
 ## [1.30.1](https://github.com/dehero/mwscr/compare/v1.30.0...v1.30.1) (2024-12-26)
 
 ### Code Refactoring
