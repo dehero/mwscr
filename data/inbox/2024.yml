@@ -46,10 +46,10 @@ dehero.2024-12-26-21-38-36:
   title: Vivec's Feat
   titleRu: Подвиг Вивека
   location: Vivec, Temple
-  content:
-    - store:/inbox/dehero.2024-12-26-21-38-36.1.png
+  content: store:/inbox/dehero.2024-12-26-21-38-36.1.png
+  trash:
     - store:/inbox/dehero.2024-12-26-21-38-59.png
-  trash: store:/inbox/dehero.2024-12-26-21-38-36.png
+    - store:/inbox/dehero.2024-12-26-21-38-36.png
   type: shot
   author: dehero
   engine: OpenMW
