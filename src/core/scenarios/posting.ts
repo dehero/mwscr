@@ -29,7 +29,7 @@ const shot: PostingScenario = [
     needMinMarkDistance('A2', 1),
     needMaxMarkDistance('A2', 7),
     needMinMarkDistance('A1', 7),
-    needMaxMarkDistance('A1', 14),
+    needMaxMarkDistance('A1', 21),
     needMinAuthorDistance(1),
     needMinContentDistance(365),
     needMinRelatedLocationDistance(2),
