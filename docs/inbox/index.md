@@ -217,13 +217,14 @@ dehero.2024-02-05-00-02-12
 ## <span id="3akrom.2024-12-25-tinyboat-01-9430a833">Tinyboat 01</span>
 
 ![store:/inbox/3akrom.2024-12-25-tinyboat-01-9430a833.png](../../assets/previews/inbox/3akrom.2024-12-25-tinyboat-01-9430a833.avif "3akrom.2024-12-25-tinyboat-01-9430a833")
+![store:/inbox/3akrom.2024-12-25-tinyboat-01-9430a833.1.png](../../assets/previews/inbox/3akrom.2024-12-25-tinyboat-01-9430a833.1.avif "3akrom.2024-12-25-tinyboat-01-9430a833.1")
 
 `shot` by [3акром](../contributors.md#3akrom)
 
 > [!WARNING]
-> Need russian title, need mark.
+> Need russian title, need mark, detected post type "redrawing", got "shot".
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=3akrom.2024-12-25-tinyboat-01-9430a833&amp;postContent=store%3A%2Finbox%2F3akrom.2024-12-25-tinyboat-01-9430a833.png&amp;postTitle=Tinyboat+01&amp;postTitleRu=&amp;postAuthor=3akrom&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=3akrom.2024-12-25-tinyboat-01-9430a833&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=3akrom.2024-12-25-tinyboat-01-9430a833&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=3akrom.2024-12-25-tinyboat-01-9430a833&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=3akrom.2024-12-25-tinyboat-01-9430a833&amp;postContent=store%3A%2Finbox%2F3akrom.2024-12-25-tinyboat-01-9430a833.png%0Astore%3A%2Finbox%2F3akrom.2024-12-25-tinyboat-01-9430a833.1.png&amp;postTitle=Tinyboat+01&amp;postTitleRu=&amp;postAuthor=3akrom&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=3akrom.2024-12-25-tinyboat-01-9430a833&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=3akrom.2024-12-25-tinyboat-01-9430a833&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=3akrom.2024-12-25-tinyboat-01-9430a833&postLocation=)</code>
 
 ```
 3akrom.2024-12-25-tinyboat-01-9430a833
