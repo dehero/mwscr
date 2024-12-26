@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.30.1](https://github.com/dehero/mwscr/compare/v1.30.0...v1.30.1) (2024-12-26)
+
+### Code Refactoring
+
+- add post prefix to GitHub issue labels
+  ([50ccabc](https://github.com/dehero/mwscr/commit/50ccabc184d6f84b8f6b2ac71740cf068550fd06))
+
 ## [1.30.0](https://github.com/dehero/mwscr/compare/v1.29.0...v1.30.0) (2024-12-23)
 
 ### Features
