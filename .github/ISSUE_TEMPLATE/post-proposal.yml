@@ -1,7 +1,7 @@
 name: Propose Post
 description: Write post or post group title, which you would like to propose.
 labels:
-  - proposal
+  - post-proposal
 body:
   - type: textarea
     id: text

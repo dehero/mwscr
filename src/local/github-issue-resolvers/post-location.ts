@@ -2,13 +2,13 @@ import { postLocation } from '../../core/entities/field.js';
 import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import { mergePostLocations } from '../../core/entities/post.js';
-import { label } from '../../core/github-issues/location.js';
+import { label } from '../../core/github-issues/post-location.js';
 import { listItems } from '../../core/utils/common-utils.js';
 import { locations } from '../data-managers/locations.js';
 import { inbox, posts, trash } from '../data-managers/posts.js';
 import { extractIssueTextareaValue, extractIssueUser } from './utils/issue-utils.js';
 
-export * from '../../core/github-issues/location.js';
+export * from '../../core/github-issues/post-location.js';
 
 export async function resolve(issue: GithubIssue) {
   const [userId, user] = await extractIssueUser(issue);

@@ -28,7 +28,7 @@ import {
   POST_TYPES,
   POST_VIOLATIONS,
 } from '../../core/entities/post.js';
-import { label } from '../../core/github-issues/editing.js';
+import { label } from '../../core/github-issues/post-editing.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { locations } from '../data-managers/locations.js';
 import { inbox, trash } from '../data-managers/posts.js';
@@ -39,7 +39,7 @@ import {
   issueDropdownToInput,
 } from './utils/issue-utils.js';
 
-export * from '../../core/github-issues/editing.js';
+export * from '../../core/github-issues/post-editing.js';
 
 export async function resolve(issue: GithubIssue) {
   const id = issue.title;

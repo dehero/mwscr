@@ -1,11 +1,11 @@
 import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../core/entities/field.js';
 import type { GithubIssue } from '../../core/entities/github-issue.js';
-import { label } from '../../core/github-issues/proposal.js';
+import { label } from '../../core/github-issues/post-proposal.js';
 import { inbox } from '../data-managers/posts.js';
 import { importResourceToStore } from '../data-managers/store-resources.js';
 import { extractIssueLinks, extractIssueUrls, extractIssueUser } from './utils/issue-utils.js';
 
-export * from '../../core/github-issues/proposal.js';
+export * from '../../core/github-issues/post-proposal.js';
 
 export async function resolve(issue: GithubIssue) {
   const issueTitle = issue.title;

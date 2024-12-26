@@ -2,7 +2,7 @@ name: Locate Post
 description: Select where the shot was done.
 title: POST_ID
 labels:
-  - location
+  - post-location
 body:
   - type: textarea
     id: postLocation

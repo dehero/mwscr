@@ -5,5 +5,5 @@ way. The easiest way is to write a comment or private message to the administrat
 request will be added to [Inbox](./inbox.md) and will remain there, waiting for the appropriate material. The request
 may be rejected if it does not meet the [minimum requirements](./minimum-requirements.md).
 
-[Send request via GitHub Issues](https://github.com/dehero/mwscr/issues/new?labels=request&template=request.yml&title=Cool+to+see%2C+how+cliffracer+dies%21)  
+[Send request via GitHub Issues](https://github.com/dehero/mwscr/issues/new?labels=post-request&template=post-request.yml&title=Cool+to+see%2C+how+cliffracer+dies%21)  
 [Send to administrator via email](mailto:dehero@outlook.com?subject=mwscr)

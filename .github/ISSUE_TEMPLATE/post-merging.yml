@@ -2,7 +2,7 @@ name: Merge Posts
 description: Paste in the title the ID of post from inbox or trash.
 title: POST_ID
 labels:
-  - merging
+  - post-merging
 body:
   - type: textarea
     id: mergeWithIds

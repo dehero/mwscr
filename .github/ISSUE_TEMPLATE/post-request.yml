@@ -2,7 +2,7 @@ name: Request Post
 description: Describe in the title, which post you would like to request.
 title: Cool to see, how cliffracer dies!
 labels:
-  - request
+  - post-request
 body:
   - type: dropdown
     id: postType

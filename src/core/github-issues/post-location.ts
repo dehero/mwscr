@@ -3,7 +3,7 @@ import { GITHUB_ISSUE_CREATE_URL, GITHUB_ISSUE_DEFAULT_TITLE } from '../entities
 import type { PostLocation } from '../entities/post.js';
 import { asArray } from '../utils/common-utils.js';
 
-export const label = 'location';
+export const label = 'post-location';
 
 export function createIssueUrl(id?: string, location?: PostLocation): string {
   const url = new URL(GITHUB_ISSUE_CREATE_URL);

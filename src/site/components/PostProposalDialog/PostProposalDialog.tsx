@@ -1,4 +1,4 @@
-import { createIssueUrl as createProposalIssueUrl } from '../../../core/github-issues/proposal.js';
+import { createIssueUrl as createProposalIssueUrl } from '../../../core/github-issues/post-proposal.js';
 import { email } from '../../../core/services/email.js';
 import { telegram, TELEGRAM_BOT_NAME } from '../../../core/services/telegram.js';
 import { Button } from '../Button/Button.js';

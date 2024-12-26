@@ -1,5 +1,5 @@
 import { createSignal, splitProps } from 'solid-js';
-import { createIssueUrl } from '../../../core/github-issues/merging.js';
+import { createIssueUrl } from '../../../core/github-issues/post-merging.js';
 import type { PostRouteParams } from '../../routes/post-route.js';
 import { Button } from '../Button/Button.jsx';
 import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';

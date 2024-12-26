@@ -2,7 +2,7 @@ import { postMark, postViolation } from '../entities/field.js';
 import { GITHUB_ISSUE_CREATE_URL, GITHUB_ISSUE_DEFAULT_TITLE } from '../entities/github-issue.js';
 import type { Post } from '../entities/post.js';
 
-export const label = 'review';
+export const label = 'post-review';
 
 export function createIssueUrl(id?: string, post?: Pick<Post, 'mark' | 'violation'>): string {
   const url = new URL(GITHUB_ISSUE_CREATE_URL);

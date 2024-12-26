@@ -2,11 +2,11 @@ import { mergeWithIds } from '../../core/entities/field.js';
 import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import { mergePostWith } from '../../core/entities/post.js';
-import { label } from '../../core/github-issues/merging.js';
+import { label } from '../../core/github-issues/post-merging.js';
 import { inbox, trash } from '../data-managers/posts.js';
 import { extractIssueTextareaValue, extractIssueUser } from './utils/issue-utils.js';
 
-export * from '../../core/github-issues/merging.js';
+export * from '../../core/github-issues/post-merging.js';
 
 export async function resolve(issue: GithubIssue) {
   const [userId, user] = await extractIssueUser(issue);

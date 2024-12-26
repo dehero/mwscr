@@ -3,11 +3,11 @@ import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entitie
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import type { PostViolation } from '../../core/entities/post.js';
 import { POST_MARKS, POST_VIOLATIONS } from '../../core/entities/post.js';
-import { label } from '../../core/github-issues/review.js';
+import { label } from '../../core/github-issues/post-review.js';
 import { inbox, posts, trash } from '../data-managers/posts.js';
 import { extractIssueFieldValue, extractIssueUser, issueDropdownToInput } from './utils/issue-utils.js';
 
-export * from '../../core/github-issues/review.js';
+export * from '../../core/github-issues/post-review.js';
 
 export async function resolve(issue: GithubIssue) {
   const [userId, user] = await extractIssueUser(issue);

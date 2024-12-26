@@ -20,7 +20,8 @@ Before you can propose your screenshots, videos or drawings, read the
 convenient way:
 
 - [Send to bot](https://t.me/mwscrbot) on Telegram.
-- [Send proposal](https://github.com/dehero/mwscr/issues/new?labels=proposal&template=proposal.yml) via GitHub Issues.
+- [Send proposal](https://github.com/dehero/mwscr/issues/new?labels=post-proposal&template=post-proposal.yml) via GitHub
+  Issues.
 - [Send to administrator](mailto:dehero@outlook.com?subject=mwscr) via email.
 
 Proposed works will be automatically checked and will go to [inbox](docs/inbox/index.md). After [editing](#editing),
@@ -43,7 +44,7 @@ your works will be published or rejected.
 To ask the authors of the project to make a certain screenshot or video, leave a free-form message in any convenient
 way:
 
-- [Send request](https://github.com/dehero/mwscr/issues/new?labels=request&template=request.yml&title=Cool+to+see%2C+how+cliffracer+dies%21)
+- [Send request](https://github.com/dehero/mwscr/issues/new?labels=post-request&template=post-request.yml&title=Cool+to+see%2C+how+cliffracer+dies%21)
   via GitHub Issues.
 - Write a comment or private message to the administrator in any of the project accounts.
 - [Send to administrator](mailto:dehero@outlook.com?subject=mwscr) via email.
@@ -58,7 +59,7 @@ Your request will be added to [inbox](docs/inbox/index.md) and will remain there
 If the location of shooting the screenshot or video is not specified in the post, use one of the options:
 
 - Click
-  [`📍 Locate`](https://github.com/dehero/mwscr/issues/new?assignees=&labels=location&projects=&template=location.yml&title=POST_ID)
+  [`📍 Locate`](https://github.com/dehero/mwscr/issues/new?assignees=&labels=post-location&projects=&template=post-location.yml&title=POST_ID)
   in the post description to suggest a location via Issues.
 - Write a comment on the post with the suggested shooting location.
 
@@ -287,7 +288,7 @@ The content of the post is manually checked, and if any violations are found, th
 
 Multiple variants of the same work are merged into a single post to make it easier to choose which variant to publish.
 This is done using
-[merging issue](https://github.com/dehero/mwscr/issues/new?labels=merging&template=merging.yml&title=POST_ID).
+[merging issue](https://github.com/dehero/mwscr/issues/new?labels=post-merging&template=post-merging.yml&title=POST_ID).
 
 If the work is a response to one of the pending requests, it is merged with the original request into a single post.
 
@@ -319,8 +320,9 @@ Processed versions will be added to [inbox](docs/inbox/index.md) the next time f
 
 ### Preparing a post
 
-Use [editing issue](https://github.com/dehero/mwscr/issues/new?labels=editing&template=editing.yml&title=POST_ID) to
-fill in the post fields.
+Use
+[editing issue](https://github.com/dehero/mwscr/issues/new?labels=post-editing&template=post-editing.yml&title=POST_ID)
+to fill in the post fields.
 
 #### Type and content
 
@@ -382,7 +384,9 @@ determined, the region of shooting is specified (for exterior shots).
 ### Selecting an editor's mark
 
 The editor's mark helps to filter proposed works and monitor the overall quality of the project's post feed. To set a
-mark [review issue](https://github.com/dehero/mwscr/issues/new?labels=review&template=review.yml&title=POST_ID) is used.
+mark
+[review issue](https://github.com/dehero/mwscr/issues/new?labels=post-review&template=post-review.yml&title=POST_ID) is
+used.
 
 The mark is subjective, but the general guidelines for selecting it are described here:
 

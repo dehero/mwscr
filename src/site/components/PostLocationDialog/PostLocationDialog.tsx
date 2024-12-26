@@ -3,7 +3,7 @@ import { createEffect, createResource, createSignal, createUniqueId, For, splitP
 import { EMPTY_OPTION, type Option } from '../../../core/entities/option.js';
 import type { PostLocation } from '../../../core/entities/post.js';
 import { mergePostLocations } from '../../../core/entities/post.js';
-import { createIssueUrl as createLocateIssueUrl } from '../../../core/github-issues/location.js';
+import { createIssueUrl as createLocateIssueUrl } from '../../../core/github-issues/post-location.js';
 import { email } from '../../../core/services/email.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { dataExtractor } from '../../data-managers/extractor.js';

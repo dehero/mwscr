@@ -2,7 +2,7 @@ name: Edit Post
 description: Paste in the title the ID of post from inbox or trash.
 title: POST_ID
 labels:
-  - editing
+  - post-editing
 body:
   - type: textarea
     id: postContent

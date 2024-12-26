@@ -2,7 +2,7 @@ name: Review Post
 description: Paste in the title the ID of post.
 title: POST_ID
 labels:
-  - review
+  - post-review
 body:
   - type: input
     id: postMark

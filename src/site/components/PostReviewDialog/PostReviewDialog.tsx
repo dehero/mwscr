@@ -2,7 +2,7 @@ import { createEffect, createResource, createSignal, createUniqueId, splitProps 
 import { EMPTY_OPTION } from '../../../core/entities/option.js';
 import type { Post, PostMark, PostViolation } from '../../../core/entities/post.js';
 import { POST_MARKS, POST_VIOLATIONS } from '../../../core/entities/post.js';
-import { createIssueUrl } from '../../../core/github-issues/review.js';
+import { createIssueUrl } from '../../../core/github-issues/post-review.js';
 import { dataExtractor } from '../../data-managers/extractor.js';
 import type { PostRouteParams } from '../../routes/post-route.js';
 import { Button } from '../Button/Button.js';

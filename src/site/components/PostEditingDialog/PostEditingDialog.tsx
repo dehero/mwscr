@@ -21,7 +21,7 @@ import {
   POST_TYPES,
   POST_VIOLATIONS,
 } from '../../../core/entities/post.js';
-import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/editing.js';
+import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/post-editing.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { dataExtractor } from '../../data-managers/extractor.js';
 import type { PostRouteParams } from '../../routes/post-route.js';

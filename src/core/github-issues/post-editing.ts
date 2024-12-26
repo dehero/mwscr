@@ -17,7 +17,7 @@ import { GITHUB_ISSUE_CREATE_URL, GITHUB_ISSUE_DEFAULT_TITLE } from '../entities
 import type { Post } from '../entities/post.js';
 import { asArray } from '../utils/common-utils.js';
 
-export const label = 'editing';
+export const label = 'post-editing';
 
 export function createIssueUrl(id?: string, post?: Post): string {
   const url = new URL(GITHUB_ISSUE_CREATE_URL);

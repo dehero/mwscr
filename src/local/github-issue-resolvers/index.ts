@@ -1,9 +1,16 @@
 import type { GithubIssueResolver } from '../../core/entities/github-issue.js';
-import * as editing from './editing.js';
-import * as location from './location.js';
-import * as merging from './merging.js';
-import * as proposal from './proposal.js';
-import * as request from './request.js';
-import * as review from './review.js';
+import * as postEditing from './post-editing.js';
+import * as postLocation from './post-location.js';
+import * as postMerging from './post-merging.js';
+import * as postProposal from './post-proposal.js';
+import * as postRequest from './post-request.js';
+import * as postReview from './post-review.js';
 
-export const githubIssueResolvers: GithubIssueResolver[] = [proposal, request, editing, merging, location, review];
+export const githubIssueResolvers: GithubIssueResolver[] = [
+  postProposal,
+  postRequest,
+  postEditing,
+  postMerging,
+  postLocation,
+  postReview,
+];

@@ -2,11 +2,11 @@ import { postType, userName, userProfileIg, userProfileTg, userProfileVk } from 
 import type { GithubIssue } from '../../core/entities/github-issue.js';
 import { POST_TYPES } from '../../core/entities/post.js';
 import type { PostRequest } from '../../core/entities/post-variation.js';
-import { label } from '../../core/github-issues/request.js';
+import { label } from '../../core/github-issues/post-request.js';
 import { createPostRequestId, inbox } from '../data-managers/posts.js';
 import { extractIssueFieldValue, extractIssueUser } from './utils/issue-utils.js';
 
-export * from '../../core/github-issues/request.js';
+export * from '../../core/github-issues/post-request.js';
 
 export async function resolve(issue: GithubIssue) {
   const [user] = await extractIssueUser(issue);

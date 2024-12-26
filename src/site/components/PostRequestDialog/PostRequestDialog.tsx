@@ -1,5 +1,5 @@
 import { createSignal } from 'solid-js';
-import { createIssueUrl as createRequestIssueUrl } from '../../../core/github-issues/request.js';
+import { createIssueUrl as createRequestIssueUrl } from '../../../core/github-issues/post-request.js';
 import { email } from '../../../core/services/email.js';
 import { Button } from '../Button/Button.js';
 import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
