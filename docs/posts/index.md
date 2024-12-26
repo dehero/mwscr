@@ -4,7 +4,30 @@
 
 # Posted in 2024
 
-`303 items`
+`304 items`
+
+## <span id="2024-12-26-two-houses-on-the-outskirts">Two Houses on the Outskirts</span>
+
+`RU` Два дома на окраине
+
+<a href="https://instagram.com/p/DEDawx7hD2q/" title="2024-12-26-two-houses-on-the-outskirts"><img alt="store:/shots/2024-12-26-two-houses-on-the-outskirts.png" src="../../assets/previews/shots/2024-12-26-two-houses-on-the-outskirts.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Seyda Neen` `🚀 OpenMW` `house` `tree`
+
+```
+2024-12-26-two-houses-on-the-outskirts
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DEDawx7hD2q/)       | 2024-12-26 |      1514 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1991) | 2024-12-26 |      1031 |
+| [`tg`](https://t.me/mwscr/638)                     | 2024-12-26 |       626 |
+|                                                    |            |      3171 |
 
 ## <span id="2024-12-25-grand-ladder">Grand Ladder</span>
 

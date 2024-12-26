@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`4 items`
+`3 items`
 
 ## <span id="irina-bystritskaya.2022-06-25-drawing-002">Mzahnch</span>
 
@@ -19,26 +19,6 @@
 
 ```
 irina-bystritskaya.2022-06-25-drawing-002
-```
-
-## <span id="dehero.2024-12-26-21-33-44">Two Houses on the Outskirts</span>
-
-`RU` Два дома на окраине
-
-![store:/inbox/dehero.2024-12-26-21-33-44.1.png](../../assets/previews/inbox/dehero.2024-12-26-21-33-44.1.avif "dehero.2024-12-26-21-33-44.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2024-12-26-21-33-44.png](../../assets/previews/inbox/dehero.2024-12-26-21-33-44.avif "dehero.2024-12-26-21-33-44")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2024-12-26-21-33-44&amp;postContent=store%3A%2Finbox%2Fdehero.2024-12-26-21-33-44.1.png&amp;postTitle=Two+Houses+on+the+Outskirts&amp;postTitleRu=%D0%94%D0%B2%D0%B0+%D0%B4%D0%BE%D0%BC%D0%B0+%D0%BD%D0%B0+%D0%BE%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B5&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=house+tree&amp;postLocation=Seyda+Neen&amp;postMark=A2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-12-26-21-33-44.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2024-12-26-21-33-44&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2024-12-26-21-33-44&amp;mergeWithIds=) `A2` `📍 Seyda Neen` `🚀 OpenMW` `house` `tree`
-
-```
-dehero.2024-12-26-21-33-44
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
