@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.30.3](https://github.com/dehero/mwscr/compare/v1.30.2...v1.30.3) (2024-12-27)
+
+### Bug Fixes
+
+- **site:** add text shadow to make button text more distinguishable on light backgrounds
+  ([b89e480](https://github.com/dehero/mwscr/commit/b89e480aee73f4fee13f160323db1928e590c2da))
+
 ## [1.30.2](https://github.com/dehero/mwscr/compare/v1.30.1...v1.30.2) (2024-12-26)
 
 ### Bug Fixes
