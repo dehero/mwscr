@@ -3205,17 +3205,17 @@
       id: DEDawx7hD2q
       mediaId: '17936525627952426'
       published: 2024-12-26-19-31-56
-      updated: 2024-12-27-18-10-14
+      updated: 2024-12-27-19-01-32
       followers: 1514
-      likes: 107
-      views: 364
+      likes: 109
+      views: 368
     - service: vk
       id: 1991
       published: 2024-12-26-19-32-05
-      updated: 2024-12-27-18-10-14
+      updated: 2024-12-27-19-01-31
       followers: 1031
       likes: 38
-      views: 223
+      views: 229
       reposts: 2
       comments: !c |-
         G+sAOKwOzEOi+ZuB4LkjW4+c/MTz+Dc+wrtnbYWhJVmaBVyCEf797VyouZVSLfGHoAzwBB0cexx5
@@ -3225,10 +3225,10 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2024-12-27-18-10-14
+      updated: 2024-12-27-19-01-32
       followers: 626
-      likes: 53
-      views: 177
+      likes: 55
+      views: 194
 2024-12-27-tiny-boat:
   title: Tiny Boat
   titleRu: Маленькая лодочка
@@ -3243,12 +3243,21 @@
       id: DEF2PvQsCe5
       mediaId: '17989289024759963'
       published: 2024-12-27-18-10-34
+      updated: 2024-12-27-19-01-31
       followers: 1514
+      likes: 21
+      views: 50
     - service: vk
       id: 1994
       published: 2024-12-27-18-10-40
+      updated: 2024-12-27-19-01-31
       followers: 1033
+      likes: 6
+      views: 50
     - service: tg
       id: 639
       published: 2024-12-27-18-10-46
+      updated: 2024-12-27-19-01-31
       followers: 631
+      likes: 22
+      views: 79
