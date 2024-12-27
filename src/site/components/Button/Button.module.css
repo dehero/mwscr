@@ -3,7 +3,6 @@
   appearance: none;
   background: none;
   cursor: default;
-  color: inherit;
   font-family: inherit;
   font-size: inherit;
   text-decoration: none;
@@ -12,6 +11,7 @@
   line-height: 1;
   max-height: 24px;
   white-space: nowrap;
+  text-shadow: 1px 1px 1px black;
 }
 
 .button:focus,
