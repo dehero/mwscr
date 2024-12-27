@@ -4,7 +4,30 @@
 
 # Posted in 2024
 
-`304 items`
+`305 items`
+
+## <span id="2024-12-27-tiny-boat">Tiny Boat</span>
+
+`RU` Маленькая лодочка
+
+<a href="https://instagram.com/p/DEF2PvQsCe5/" title="2024-12-27-tiny-boat"><img alt="store:/shots/2024-12-27-tiny-boat.png" src="../../assets/previews/shots/2024-12-27-tiny-boat.avif" /></a>
+
+`shot` by [3akrom](../contributors.md#3akrom)
+
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2024-12-27-tiny-boat&postLocation=)</code> `boat`
+
+```
+2024-12-27-tiny-boat
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DEF2PvQsCe5/)       | 2024-12-27 |      1514 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1994) | 2024-12-27 |      1033 |
+| [`tg`](https://t.me/mwscr/639)                     | 2024-12-27 |       631 |
+|                                                    |            |      3178 |
 
 ## <span id="2024-12-26-two-houses-on-the-outskirts">Two Houses on the Outskirts</span>
 
@@ -24,10 +47,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DEDawx7hD2q/)       | 2024-12-26 |   346 |   106 |      1514 |      7 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1991) | 2024-12-26 |   204 |    36 |      1031 |   3.59 |
-| [`tg`](https://t.me/mwscr/638)                     | 2024-12-26 |   175 |    53 |       626 |   8.47 |
-|                                                    |            |   725 |   195 |      3171 |   6.35 |
+| [`ig`](https://instagram.com/p/DEDawx7hD2q/)       | 2024-12-26 |   364 |   107 |      1514 |   7.07 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1991) | 2024-12-26 |   223 |    38 |      1031 |   3.88 |
+| [`tg`](https://t.me/mwscr/638)                     | 2024-12-26 |   177 |    53 |       626 |   8.47 |
+|                                                    |            |   764 |   198 |      3171 |   6.47 |
 
 #### Comments
 

@@ -3205,18 +3205,18 @@
       id: DEDawx7hD2q
       mediaId: '17936525627952426'
       published: 2024-12-26-19-31-56
-      updated: 2024-12-27-16-08-34
+      updated: 2024-12-27-18-10-14
       followers: 1514
-      likes: 106
-      views: 346
+      likes: 107
+      views: 364
     - service: vk
       id: 1991
       published: 2024-12-26-19-32-05
-      updated: 2024-12-27-16-08-33
+      updated: 2024-12-27-18-10-14
       followers: 1031
-      likes: 36
-      views: 204
-      reposts: 1
+      likes: 38
+      views: 223
+      reposts: 2
       comments: !c |-
         G+sAOKwOzEOi+ZuB4LkjW4+c/MTz+Dc+wrtnbYWhJVmaBVyCEf797VyouZVSLfGHoAzwBB0cexx5
         oG9JUoGVLkhQ4CaLGUTHS4oWCZAHXIXIEE9MqXetGmzAsRXyOPJkzzzvz679556+Y2+xDXwMryqS
@@ -3225,7 +3225,30 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2024-12-27-16-08-34
+      updated: 2024-12-27-18-10-14
       followers: 626
       likes: 53
-      views: 175
+      views: 177
+2024-12-27-tiny-boat:
+  title: Tiny Boat
+  titleRu: Маленькая лодочка
+  content: store:/shots/2024-12-27-tiny-boat.png
+  type: shot
+  author: 3akrom
+  tags:
+    - boat
+  mark: B2
+  posts:
+    - service: ig
+      id: DEF2PvQsCe5
+      mediaId: '17989289024759963'
+      published: 2024-12-27-18-10-34
+      followers: 1514
+    - service: vk
+      id: 1994
+      published: 2024-12-27-18-10-40
+      followers: 1033
+    - service: tg
+      id: 639
+      published: 2024-12-27-18-10-46
+      followers: 631
