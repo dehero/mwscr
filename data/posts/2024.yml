@@ -209,17 +209,17 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2024-12-20-22-07-29
+      updated: 2024-12-27-23-07-12
       followers: 893
       likes: 35
       views: 261
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2024-12-20-22-07-26
+      updated: 2024-12-27-23-07-07
       followers: 345
       likes: 58
-      views: 555
+      views: 557
 2024-03-08-a-bridge-to-ascadian-isles:
   title: A Bridge to Ascadian Isles
   titleRu: Мост к Аскадианским островам
@@ -574,7 +574,7 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2024-12-20-22-07-28
+      updated: 2024-12-27-23-07-10
       followers: 896
       likes: 42
       views: 301
@@ -585,10 +585,10 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2024-12-20-22-07-24
+      updated: 2024-12-27-23-07-05
       followers: 352
       likes: 58
-      views: 472
+      views: 473
       comments: !c |-
         CymAkZTLQnjmKMfPAACpR2F0ZW1hdGU32SZ0aGlzIGlzIGEgbWFzb25pYyBsb2RnZT8gbm90IG1v
         cnJvd2luZJPLQnjmKXtAgAClYW5zaXOlaGFoYWgD
@@ -881,7 +881,7 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2024-12-20-22-07-26
+      updated: 2024-12-27-23-07-09
       followers: 906
       likes: 51
       views: 440
@@ -889,10 +889,10 @@
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2024-12-20-22-07-23
+      updated: 2024-12-27-23-07-04
       followers: 354
       likes: 62
-      views: 478
+      views: 479
 2024-04-05-rain-of-sparks: 2017-09-29-rain-of-sparks
 2024-04-06-falling-towers:
   title: Falling Towers
@@ -1084,17 +1084,17 @@
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2024-12-20-22-07-25
+      updated: 2024-12-27-23-07-08
       followers: 911
       likes: 27
       views: 233
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2024-12-20-22-07-23
+      updated: 2024-12-27-23-07-04
       followers: 352
       likes: 67
-      views: 1110
+      views: 1111
 2024-04-12-sadrith-mora-gateway-inn: 2017-01-19-sadrith-mora-gateway-inn
 2024-04-13-manwe:
   title: Manwe
@@ -2956,25 +2956,25 @@
       id: DDPxpdZJRqI
       mediaId: '18025342202624685'
       published: 2024-12-06-18-11-24
-      updated: 2024-12-20-22-07-20
+      updated: 2024-12-27-23-07-00
       followers: 1499
-      likes: 116
-      views: 629
+      likes: 118
+      views: 645
     - service: tg
       id: 617
       published: 2024-12-06-18-11-36
-      updated: 2024-12-20-22-07-17
+      updated: 2024-12-27-23-06-59
       followers: 578
-      likes: 54
-      views: 352
+      likes: 56
+      views: 409
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2024-12-20-22-07-18
+      updated: 2024-12-27-23-07-00
       followers: 1013
-      likes: 38
-      views: 340
-      reposts: 2
+      likes: 39
+      views: 353
+      reposts: 3
 2024-12-07-farm-watchman:
   title: Farm Watchman
   titleRu: Сторож фермы
@@ -3205,14 +3205,14 @@
       id: DEDawx7hD2q
       mediaId: '17936525627952426'
       published: 2024-12-26-19-31-56
-      updated: 2024-12-27-22-03-47
+      updated: 2024-12-27-23-06-58
       followers: 1514
       likes: 114
-      views: 396
+      views: 403
     - service: vk
       id: 1991
       published: 2024-12-26-19-32-05
-      updated: 2024-12-27-22-03-47
+      updated: 2024-12-27-23-06-59
       followers: 1031
       likes: 41
       views: 240
@@ -3225,10 +3225,10 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2024-12-27-22-03-47
+      updated: 2024-12-27-23-06-58
       followers: 626
       likes: 56
-      views: 204
+      views: 205
 2024-12-27-tiny-boat:
   title: Tiny Boat
   titleRu: Маленькая лодочка
@@ -3243,22 +3243,22 @@
       id: DEF2PvQsCe5
       mediaId: '17989289024759963'
       published: 2024-12-27-18-10-34
-      updated: 2024-12-27-22-03-46
+      updated: 2024-12-27-23-06-58
       followers: 1514
-      likes: 46
-      views: 134
+      likes: 49
+      views: 153
     - service: vk
       id: 1994
       published: 2024-12-27-18-10-40
-      updated: 2024-12-27-22-03-46
+      updated: 2024-12-27-23-06-58
       followers: 1033
       likes: 19
-      views: 90
+      views: 93
       reposts: 1
     - service: tg
       id: 639
       published: 2024-12-27-18-10-46
-      updated: 2024-12-27-22-03-46
+      updated: 2024-12-27-23-06-58
       followers: 631
-      likes: 29
-      views: 117
+      likes: 30
+      views: 119
