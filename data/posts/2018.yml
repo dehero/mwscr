@@ -444,7 +444,7 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2024-12-20-07-07-52
+      updated: 2024-12-27-08-10-25
       followers: 921
       likes: 44
       views: 301
@@ -917,21 +917,21 @@
       id: DEAsk0fPdnh
       mediaId: '18072243916633129'
       published: 2024-12-25-18-09-54
-      updated: 2024-12-27-07-01-20
+      updated: 2024-12-27-08-10-23
       followers: 1513
       likes: 85
-      views: 283
+      views: 286
     - service: vk
       id: 1990
       published: 2024-12-25-18-10-00
-      updated: 2024-12-27-07-01-21
+      updated: 2024-12-27-08-10-23
       followers: 1030
       likes: 23
-      views: 171
+      views: 173
     - service: tg
       id: 637
       published: 2024-12-25-18-10-08
-      updated: 2024-12-27-07-01-21
+      updated: 2024-12-27-08-10-23
       followers: 612
       likes: 52
       views: 227
@@ -7303,10 +7303,10 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2024-12-20-07-07-52
+      updated: 2024-12-27-08-10-24
       followers: 402
       likes: 60
-      views: 688
+      views: 689
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
