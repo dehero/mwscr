@@ -15,7 +15,7 @@ export async function resolve(issue: GithubIssue) {
   }
 
   const id = issue.title;
-  const [post, manager] = await searchListReaderItem(issue.title, [inbox, trash]);
+  const [, manager] = await searchListReaderItem(id, [inbox, trash]);
 
   const withIds = extractIssueTextareaValue(mergeWithIds, issue.body)?.split(/\r?\n/).filter(Boolean);
 
@@ -25,12 +25,11 @@ export async function resolve(issue: GithubIssue) {
       if (manager !== withManager) {
         throw new Error(`Cannot merge ${manager.name} and ${withManager.name} items.`);
       } else {
-        mergePostWith(post, withPost);
+        await manager.mergeItem(withPost, id);
         await withManager.removeItem(withId);
         console.info(`Item "${id}" merged with "${withId}".`);
       }
     }
-    await manager.updateItem(id);
   } else {
     console.info(`No items to merge with "${id}".`);
   }

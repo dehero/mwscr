@@ -1,4 +1,7 @@
 import 'dotenv/config';
-import { checkPosts } from './functions/check-posts.js';
+import { importCommitAuthors } from './functions/import-commit-authors.js';
+// import { checkPosts } from './functions/check-posts.js';
 
-await checkPosts();
+// await checkPosts();
+
+await importCommitAuthors();

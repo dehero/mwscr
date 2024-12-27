@@ -17,6 +17,7 @@ export interface User {
   nameRuFrom?: string;
   admin?: boolean;
   telegramBotChatId?: number;
+  commits?: number;
   profiles?: UserProfiles;
 }
 

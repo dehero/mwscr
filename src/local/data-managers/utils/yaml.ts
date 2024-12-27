@@ -50,6 +50,8 @@ const orderedKeys = [
   'nameRu',
   'nameRuFrom',
   'admin',
+  'telegramBotChatId',
+  'commits',
   'profiles',
 
   // Location

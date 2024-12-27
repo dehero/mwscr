@@ -169,18 +169,27 @@ export abstract class ListManager<TItem> extends ListReader<TItem> {
     return this.saveChunk(chunkName);
   }
 
-  async mergeItem(item: TItem): Promise<ListReaderEntry<TItem>> {
-    const entry = await this.findEntry(item);
+  /**
+   * Merge item into the list trying to keep the existing item as much as possible. Create a new item if it doesn't exist.
+   */
+  async mergeItem(item: TItem, id?: string): Promise<ListReaderEntry<TItem>> {
+    let entry;
+
+    if (!id) {
+      entry = await this.findEntry(item);
+    } else {
+      entry = await this.getEntry(id);
+    }
 
     if (!entry) {
-      const id = this.createItemId(item);
-      if (!id) {
+      const newId = id ?? this.createItemId(item);
+      if (!newId) {
         throw new Error(`Cannot create item ID for ${JSON.stringify(item)}`);
       }
 
-      await this.addItem(item, id);
+      await this.addItem(item, newId);
 
-      return [id, item];
+      return [newId, item];
     }
 
     this.mergeItemWith(entry[1], item);
