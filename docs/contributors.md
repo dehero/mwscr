@@ -69,7 +69,7 @@ irina-bystritskaya
 
 Roles: `author`  
 Authored: 1 posted, 1 rejected  
-Likes: 105  
+Likes: 109  
 
 ```
 3akrom
