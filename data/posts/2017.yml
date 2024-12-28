@@ -7396,10 +7396,10 @@
     - service: tg
       id: 354
       published: 2024-03-22
-      updated: 2024-12-21-00-35-23
+      updated: 2024-12-28-02-07-02
       followers: 353
       likes: 64
-      views: 532
+      views: 533
       comments: !c |-
         G4cAgGXgnAMfSIG1VdFwmPFs4O+AVXg6UOtBjtfJiR4PJrWVBhKmtQUgAWDgHMNmyQsGOeflT+bl
         Xej9sc90BmyLaiXKg0byRX/YB8QMeW3JqDagqArlswXPXx+8tp3qtIJCm75146DROM/JXltF1W+y
@@ -8313,18 +8313,18 @@
     - service: tg
       id: 582
       published: 2024-11-01-18-10-31
-      updated: 2024-12-21-00-35-22
+      updated: 2024-12-28-02-07-02
       followers: 565
       likes: 56
-      views: 557
+      views: 570
       comments: !c CwyAkZPLQnkuyHj0AACoemhjaGtkcnak8J+lugM=
     - service: vk
       id: 1871
       published: 2024-11-01-19-02-16
-      updated: 2024-12-21-00-35-23
+      updated: 2024-12-28-02-07-03
       followers: 1002
       likes: 35
-      views: 305
+      views: 309
 2017-08-13-hanud:
   title: Hanud
   titleRu: Хануд
