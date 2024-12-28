@@ -2645,10 +2645,10 @@
     - service: vk
       id: 1802
       published: 2024-10-04-18-12-10
-      updated: 2024-12-21-04-09-21
+      updated: 2024-12-28-04-09-31
       followers: 958
       likes: 50
-      views: 379
+      views: 382
       reposts: 2
       comments: !c |-
         G8UAwB0HzrkrxiCUe/YWFXEjfcNEQ2wCCyjxZA80dZshR1OzmffLENw/37a3XKd1WklRIkTHp3qF
@@ -2657,10 +2657,10 @@
     - service: tg
       id: 554
       published: 2024-10-04-18-12-16
-      updated: 2024-12-21-04-09-20
+      updated: 2024-12-28-04-09-30
       followers: 559
       likes: 66
-      views: 501
+      views: 504
 2024-10-05-scamp-before-the-throw:
   title: Scamp Before the Throw
   titleRu: Скамп перед броском
@@ -3205,14 +3205,14 @@
       id: DEDawx7hD2q
       mediaId: '17936525627952426'
       published: 2024-12-26-19-31-56
-      updated: 2024-12-28-03-10-41
+      updated: 2024-12-28-04-09-27
       followers: 1514
-      likes: 115
-      views: 413
+      likes: 116
+      views: 417
     - service: vk
       id: 1991
       published: 2024-12-26-19-32-05
-      updated: 2024-12-28-03-10-42
+      updated: 2024-12-28-04-09-27
       followers: 1031
       likes: 41
       views: 247
@@ -3225,10 +3225,10 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2024-12-28-03-10-41
+      updated: 2024-12-28-04-09-27
       followers: 626
       likes: 56
-      views: 211
+      views: 212
 2024-12-27-tiny-boat:
   title: Tiny Boat
   titleRu: Маленькая лодочка
@@ -3243,22 +3243,22 @@
       id: DEF2PvQsCe5
       mediaId: '17989289024759963'
       published: 2024-12-27-18-10-34
-      updated: 2024-12-28-03-10-40
+      updated: 2024-12-28-04-09-26
       followers: 1514
-      likes: 55
-      views: 186
+      likes: 56
+      views: 192
     - service: vk
       id: 1994
       published: 2024-12-27-18-10-40
-      updated: 2024-12-28-03-10-41
+      updated: 2024-12-28-04-09-26
       followers: 1033
-      likes: 20
-      views: 111
+      likes: 21
+      views: 116
       reposts: 1
     - service: tg
       id: 639
       published: 2024-12-27-18-10-46
-      updated: 2024-12-28-03-10-41
+      updated: 2024-12-28-04-09-27
       followers: 631
       likes: 34
-      views: 130
+      views: 131
