@@ -4,7 +4,36 @@
 
 # Posted in 2024
 
-`305 items`
+`306 items`
+
+## <span id="2024-12-28-vivecs-feat">Vivec&#39;s Feat</span>
+
+`RU` Подвиг Вивека
+
+<a href="https://instagram.com/p/DEIa6Owpzbh/" title="2024-12-28-vivecs-feat"><img alt="store:/shots/2024-12-28-vivecs-feat.png" src="../../assets/previews/shots/2024-12-28-vivecs-feat.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2024-12-26-21-38-59.png](../../assets/previews/trash/dehero.2024-12-26-21-38-59.avif "dehero.2024-12-26-21-38-59")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Vivec, Temple` `🚀 OpenMW` `vivec` `sun` `moon` `sky` `statue`
+
+```
+2024-12-28-vivecs-feat
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DEIa6Owpzbh/)       | 2024-12-28 |      1518 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1995) | 2024-12-28 |      1035 |
+| [`tg`](https://t.me/mwscr/640)                     | 2024-12-28 |       638 |
+|                                                    |            |      3191 |
 
 ## <span id="2024-12-27-tiny-boat">Tiny Boat</span>
 
@@ -24,10 +53,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DEF2PvQsCe5/)       | 2024-12-27 |   268 |    73 |      1514 |   4.82 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1994) | 2024-12-27 |   179 |    30 |      1033 |      3 |
-| [`tg`](https://t.me/mwscr/639)                     | 2024-12-27 |   181 |    43 |       631 |   6.81 |
-|                                                    |            |   628 |   146 |      3178 |   4.88 |
+| [`ig`](https://instagram.com/p/DEF2PvQsCe5/)       | 2024-12-27 |   271 |    75 |      1514 |   4.95 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1994) | 2024-12-27 |   186 |    32 |      1033 |   3.29 |
+| [`tg`](https://t.me/mwscr/639)                     | 2024-12-27 |   184 |    43 |       631 |   6.81 |
+|                                                    |            |   641 |   150 |      3178 |   5.02 |
 
 ## <span id="2024-12-26-two-houses-on-the-outskirts">Two Houses on the Outskirts</span>
 
@@ -47,10 +76,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DEDawx7hD2q/)       | 2024-12-26 |   432 |   120 |      1514 |   7.93 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1991) | 2024-12-26 |   289 |    43 |      1031 |   4.46 |
-| [`tg`](https://t.me/mwscr/638)                     | 2024-12-26 |   237 |    60 |       626 |   9.58 |
-|                                                    |            |   958 |   223 |      3171 |   7.32 |
+| [`ig`](https://instagram.com/p/DEDawx7hD2q/)       | 2024-12-26 |   434 |   120 |      1514 |   7.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1991) | 2024-12-26 |   291 |    44 |      1031 |   4.56 |
+| [`tg`](https://t.me/mwscr/638)                     | 2024-12-26 |   238 |    60 |       626 |   9.58 |
+|                                                    |            |   963 |   224 |      3171 |   7.36 |
 
 #### Comments
 
@@ -6568,8 +6597,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_523)  | 2017-12-04 |   220 |    17 |       105 |  16.19 |
 | [`ig`](https://instagram.com/p/C77KBjfsZOX/)       | 2024-06-07 |   329 |    68 |      1424 |   4.78 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1574) | 2024-06-07 |   317 |    40 |       916 |   4.37 |
-| [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   480 |    58 |       384 |   15.1 |
-|                                                    |            |  1126 |   166 |      2724 |   14.1 |
+| [`tg`](https://t.me/mwscr/432)                     | 2024-06-07 |   482 |    58 |       384 |   15.1 |
+|                                                    |            |  1128 |   166 |      2724 |   14.1 |
 
 ## <span id="2024-06-06-shipwreck-at-the-estuary-of-foyada">Shipwreck at the Estuary of Foyada</span>
 
@@ -6792,8 +6821,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C7pISR-N9hL/)       | 2024-05-31 |   443 |   110 |      1427 |   7.71 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1556) | 2024-05-31 |   296 |    45 |       915 |   5.03 |
-| [`tg`](https://t.me/mwscr/425)                     | 2024-05-31 |   471 |    64 |       379 |  16.89 |
-|                                                    |            |  1210 |   219 |      2721 |   9.87 |
+| [`tg`](https://t.me/mwscr/425)                     | 2024-05-31 |   472 |    64 |       379 |  16.89 |
+|                                                    |            |  1211 |   219 |      2721 |   9.87 |
 
 #### Comments
 
@@ -7241,8 +7270,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C7FFN7INkg3/)       | 2024-05-17 |   298 |    79 |      1419 |   5.57 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1535) | 2024-05-17 |   330 |    24 |       915 |   2.62 |
-| [`tg`](https://t.me/mwscr/411)                     | 2024-05-17 |   436 |    51 |       372 |  13.71 |
-|                                                    |            |  1064 |   154 |      2706 |    7.3 |
+| [`tg`](https://t.me/mwscr/411)                     | 2024-05-17 |   437 |    51 |       372 |  13.71 |
+|                                                    |            |  1065 |   154 |      2706 |    7.3 |
 
 #### Comments
 
@@ -7471,8 +7500,8 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/C6zDislvhcZ/)       | 2024-05-10 |   328 |    77 |      1417 |   5.43 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1528) | 2024-05-10 |   240 |    26 |       913 |   2.85 |
-| [`tg`](https://t.me/mwscr/404)                     | 2024-05-10 |   489 |    63 |       371 |  16.98 |
-|                                                    |            |  1057 |   166 |      2701 |   8.42 |
+| [`tg`](https://t.me/mwscr/404)                     | 2024-05-10 |   490 |    63 |       371 |  16.98 |
+|                                                    |            |  1058 |   166 |      2701 |   8.42 |
 
 #### Comments
 

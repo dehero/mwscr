@@ -1706,17 +1706,17 @@
     - service: vk
       id: 1528
       published: 2024-05-10-18-18-43
-      updated: 2024-12-21-17-01-28
+      updated: 2024-12-28-18-09-05
       followers: 913
       likes: 26
       views: 240
     - service: tg
       id: 404
       published: 2024-05-10-18-18-49
-      updated: 2024-12-21-17-01-26
+      updated: 2024-12-28-18-09-04
       followers: 371
       likes: 63
-      views: 489
+      views: 490
       comments: !c CxiAkZTLQnj2PdPrgACoemhjaGtkcnak8J+YrZPLQnj2QKVbAACpR2F0ZW1hdGU3o3VzPwM=
 2024-05-11-guard-tower-of-suran: 2017-08-31-guard-tower-of-suran
 2024-05-12-road-to-the-well:
@@ -1828,7 +1828,7 @@
     - service: vk
       id: 1535
       published: 2024-05-17-18-19-43
-      updated: 2024-12-21-17-01-27
+      updated: 2024-12-28-18-09-04
       followers: 915
       likes: 24
       views: 330
@@ -1838,10 +1838,10 @@
     - service: tg
       id: 411
       published: 2024-05-17-18-19-48
-      updated: 2024-12-21-17-01-26
+      updated: 2024-12-28-18-09-03
       followers: 372
       likes: 51
-      views: 436
+      views: 437
       comments: !c |-
         G8oAIBwHuZnlPm4xQkFqTf7HqSHMxROwNYQjnk1jt6VNm9YGmu8DF1vw+ObaUr1PNqstyoFDhmyD
         bYKGFPf0NMCygLgCSVpa7fCD3v0G1xu2458oWuGQj53uU/uGv1XILLVIrVP9GQ59CrGmCGdsKceB
@@ -1966,7 +1966,7 @@
     - service: vk
       id: 1556
       published: 2024-05-31-18-19-13
-      updated: 2024-12-21-17-01-26
+      updated: 2024-12-28-18-09-03
       followers: 915
       likes: 45
       views: 296
@@ -1981,10 +1981,10 @@
     - service: tg
       id: 425
       published: 2024-05-31-18-19-20
-      updated: 2024-12-21-17-01-25
+      updated: 2024-12-28-18-09-03
       followers: 379
       likes: 64
-      views: 471
+      views: 472
 2024-06-01-visiting-imperial-fort:
   title: Visiting Imperial Fort
   titleRu: Посещение имперского форта
@@ -3205,17 +3205,17 @@
       id: DEDawx7hD2q
       mediaId: '17936525627952426'
       published: 2024-12-26-19-31-56
-      updated: 2024-12-28-17-01-16
+      updated: 2024-12-28-18-09-03
       followers: 1514
       likes: 120
-      views: 432
+      views: 434
     - service: vk
       id: 1991
       published: 2024-12-26-19-32-05
-      updated: 2024-12-28-17-01-16
+      updated: 2024-12-28-18-09-02
       followers: 1031
-      likes: 43
-      views: 289
+      likes: 44
+      views: 291
       reposts: 3
       comments: !c |-
         G+sAOKwOzEOi+ZuB4LkjW4+c/MTz+Dc+wrtnbYWhJVmaBVyCEf797VyouZVSLfGHoAzwBB0cexx5
@@ -3225,10 +3225,10 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2024-12-28-17-01-16
+      updated: 2024-12-28-18-09-02
       followers: 626
       likes: 60
-      views: 237
+      views: 238
 2024-12-27-tiny-boat:
   title: Tiny Boat
   titleRu: Маленькая лодочка
@@ -3243,22 +3243,52 @@
       id: DEF2PvQsCe5
       mediaId: '17989289024759963'
       published: 2024-12-27-18-10-34
-      updated: 2024-12-28-17-01-14
+      updated: 2024-12-28-18-09-01
       followers: 1514
-      likes: 73
-      views: 268
+      likes: 75
+      views: 271
     - service: vk
       id: 1994
       published: 2024-12-27-18-10-40
-      updated: 2024-12-28-17-01-15
+      updated: 2024-12-28-18-09-01
       followers: 1033
-      likes: 30
-      views: 179
-      reposts: 1
+      likes: 32
+      views: 186
+      reposts: 2
     - service: tg
       id: 639
       published: 2024-12-27-18-10-46
-      updated: 2024-12-28-17-01-15
+      updated: 2024-12-28-18-09-01
       followers: 631
       likes: 43
-      views: 181
+      views: 184
+2024-12-28-vivecs-feat:
+  title: Vivec's Feat
+  titleRu: Подвиг Вивека
+  location: Vivec, Temple
+  content: store:/shots/2024-12-28-vivecs-feat.png
+  trash: store:/trash/dehero.2024-12-26-21-38-59.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - vivec
+    - sun
+    - moon
+    - sky
+    - statue
+  mark: A2
+  posts:
+    - service: ig
+      id: DEIa6Owpzbh
+      mediaId: '18334365127155599'
+      published: 2024-12-28-18-09-25
+      followers: 1518
+    - service: vk
+      id: 1995
+      published: 2024-12-28-18-09-30
+      followers: 1035
+    - service: tg
+      id: 640
+      published: 2024-12-28-18-09-36
+      followers: 638
