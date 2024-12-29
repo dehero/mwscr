@@ -9091,21 +9091,21 @@
     - service: vk
       id: 1916
       published: 2024-11-23-18-10-28
-      updated: 2024-12-21-23-02-19
+      updated: 2024-12-29-00-39-53
       followers: 1008
-      likes: 38
-      views: 322
-      reposts: 1
+      likes: 39
+      views: 330
+      reposts: 2
       comments: !c |-
         G4kA+C0SbNsJb8cJbulDs+RE8f0twqe/STHJsEkwwmQvJxuGltY7/ikD9WRyFpuo/RQbI0aZI5Od
         ODWwpUpwQUPgfj71jl+29zpRYds9BEDpsA5EtTulDZHVMVxMRFl5rMYPMhaADbHBQ6Bha1rk9lkL
     - service: tg
       id: 604
       published: 2024-11-23-18-10-35
-      updated: 2024-12-21-23-02-17
+      updated: 2024-12-29-00-39-52
       followers: 575
-      likes: 62
-      views: 541
+      likes: 63
+      views: 570
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище

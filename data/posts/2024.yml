@@ -86,7 +86,7 @@
     - service: vk
       id: 1429
       published: 2024-03-01-18-32-46
-      updated: 2024-12-21-23-02-26
+      updated: 2024-12-29-00-40-01
       followers: 894
       likes: 30
       views: 281
@@ -97,10 +97,10 @@
     - service: tg
       id: 332
       published: 2024-03-01-18-32-52
-      updated: 2024-12-21-23-02-21
+      updated: 2024-12-29-00-39-55
       followers: 339
       likes: 60
-      views: 567
+      views: 568
       comments: !c |-
         CzOAkpPLQnjgqw2ZAACrYmh1dmFuYXNyaWmzaGVzIGp1c3QgbGlrZSBtZSBmcpTLQnjftezpgACu
         cXVpbnR1c19mYWJpdXOtT2ggc2hpdCBhIHJhdJPLQnjfyl1VgAClYW5zaXOk8J+QgAM=
@@ -252,7 +252,7 @@
     - service: vk
       id: 1440
       published: 2024-03-08-18-18-36
-      updated: 2024-12-21-23-02-25
+      updated: 2024-12-29-00-40-00
       followers: 893
       likes: 33
       views: 292
@@ -260,10 +260,10 @@
     - service: tg
       id: 339
       published: 2024-03-08-18-18-42
-      updated: 2024-12-21-23-02-20
+      updated: 2024-12-29-00-39-55
       followers: 345
       likes: 61
-      views: 530
+      views: 532
       comments: !c |-
         G7UAaCwSbFsO20O4qTA3lh8ReqZaodcmXU3GtExgBpP7wXnPGaqN7g5t8jtMLE1crgHgFU02OOSQ
         D6KBYQQJtmVWC0AwnuLz/v5nI8n7big/B4eh7Sjiorj25J2WAAV0C8sFPnSGiW4nzlbNAYf4uZgO
@@ -450,17 +450,17 @@
     - service: vk
       id: 1453
       published: 2024-03-15-18-58-50
-      updated: 2024-12-21-23-02-25
+      updated: 2024-12-29-00-39-59
       followers: 896
       likes: 30
       views: 277
     - service: tg
       id: 347
       published: 2024-03-15-18-58-56
-      updated: 2024-12-21-23-02-20
+      updated: 2024-12-29-00-39-54
       followers: 352
       likes: 46
-      views: 479
+      views: 480
 2024-03-16-night-guardess: 2017-03-01-night-guardess
 2024-03-17-teeth-of-pelagiad:
   title: Teeth of Pelagiad
@@ -758,7 +758,7 @@
     - service: vk
       id: 1473
       published: 2024-03-29-18-11-02
-      updated: 2024-12-21-23-02-23
+      updated: 2024-12-29-00-39-58
       followers: 906
       likes: 33
       views: 449
@@ -1223,7 +1223,7 @@
     - service: vk
       id: 1501
       published: 2024-04-19-18-17-12
-      updated: 2024-12-21-23-02-22
+      updated: 2024-12-29-00-39-56
       followers: 909
       likes: 37
       views: 287
@@ -3243,25 +3243,25 @@
       id: DEF2PvQsCe5
       mediaId: '17989289024759963'
       published: 2024-12-27-18-10-34
-      updated: 2024-12-28-23-01-11
+      updated: 2024-12-29-00-39-50
       followers: 1514
-      likes: 75
-      views: 282
+      likes: 76
+      views: 287
     - service: vk
       id: 1994
       published: 2024-12-27-18-10-40
-      updated: 2024-12-28-23-01-11
+      updated: 2024-12-29-00-39-51
       followers: 1033
       likes: 34
-      views: 200
+      views: 201
       reposts: 2
     - service: tg
       id: 639
       published: 2024-12-27-18-10-46
-      updated: 2024-12-28-23-01-11
+      updated: 2024-12-29-00-39-51
       followers: 631
       likes: 49
-      views: 225
+      views: 228
 2024-12-28-vivecs-feat:
   title: Vivec's Feat
   titleRu: Подвиг Вивека
@@ -3283,22 +3283,22 @@
       id: DEIa6Owpzbh
       mediaId: '18334365127155599'
       published: 2024-12-28-18-09-25
-      updated: 2024-12-28-23-01-10
+      updated: 2024-12-29-00-39-50
       followers: 1518
-      likes: 117
-      views: 295
+      likes: 130
+      views: 332
     - service: vk
       id: 1995
       published: 2024-12-28-18-09-30
-      updated: 2024-12-28-23-01-11
+      updated: 2024-12-29-00-39-50
       followers: 1035
-      likes: 20
-      views: 111
+      likes: 21
+      views: 119
       reposts: 1
     - service: tg
       id: 640
       published: 2024-12-28-18-09-36
-      updated: 2024-12-28-23-01-11
+      updated: 2024-12-29-00-39-51
       followers: 638
-      likes: 40
-      views: 138
+      likes: 42
+      views: 149
