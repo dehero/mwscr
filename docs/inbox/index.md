@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`15 items`
+`14 items`
 
 ## <span id="natty.2024-10-06-15-21-49">natty.2024-10-06-15-21-49</span>
 
@@ -19,24 +19,6 @@
 
 ```
 natty.2024-10-06-15-21-49
-```
-
-## <span id="natty.2024-03-28-20-29-36">natty.2024-03-28-20-29-36</span>
-
-![store:/inbox/natty.2024-03-28-20-29-36.png](../../assets/previews/inbox/natty.2024-03-28-20-29-36.avif "natty.2024-03-28-20-29-36")
-![store:/inbox/natty.2024-03-28-20-28-08.png](../../assets/previews/inbox/natty.2024-03-28-20-28-08.avif "natty.2024-03-28-20-28-08")
-![store:/inbox/natty.2024-03-28-20-27-32.png](../../assets/previews/inbox/natty.2024-03-28-20-27-32.avif "natty.2024-03-28-20-27-32")
-![store:/inbox/natty.2024-03-28-20-29-36.1.png](../../assets/previews/inbox/natty.2024-03-28-20-29-36.1.avif "natty.2024-03-28-20-29-36.1")
-
-`shot` by [Natty](../contributors.md#natty)
-
-> [!WARNING]
-> Need english title, need russian title, need mark, detected post type "shot-set", got "shot".
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=natty.2024-03-28-20-29-36&amp;postContent=store%3A%2Finbox%2Fnatty.2024-03-28-20-29-36.png%0Astore%3A%2Finbox%2Fnatty.2024-03-28-20-28-08.png%0Astore%3A%2Finbox%2Fnatty.2024-03-28-20-27-32.png%0Astore%3A%2Finbox%2Fnatty.2024-03-28-20-29-36.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=natty&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=natty.2024-03-28-20-29-36&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=natty.2024-03-28-20-29-36&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=natty.2024-03-28-20-29-36&postLocation=)</code>
-
-```
-natty.2024-03-28-20-29-36
 ```
 
 ## <span id="natty.2024-03-10-16-17-50">natty.2024-03-10-16-17-50</span>
