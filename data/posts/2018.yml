@@ -9943,15 +9943,28 @@
       id: DEK-qqtJkm9
       mediaId: '17873375394164737'
       published: 2024-12-29-18-00-22
+      updated: 2024-12-29-19-01-12
       followers: 1519
+      likes: 36
+      views: 80
     - service: vk
       id: 1996
       published: 2024-12-29-18-00-28
+      updated: 2024-12-29-19-01-13
       followers: 1037
+      likes: 8
+      views: 48
+      comments: !c |-
+        G4kA+J0Jto2E9THoyoOtZNHzdTs64S+eaZJhk2CEyb6ZILcWcjXGIQxB/296spyJTdT8dooNeMhi
+        PjZKqmADTsQjCEzSUW4mwEmHJL/7+Tzt2H+t9zpXzZA+hDYJkR1CN4LgIVYcu70z/NG1W8OC1lIa
+        Q1JHAvQ=
     - service: tg
       id: 641
       published: 2024-12-29-18-00-34
+      updated: 2024-12-29-19-01-13
       followers: 642
+      likes: 25
+      views: 85
 2018-10-04-netch-over-the-puddle:
   title: Netch Over the Puddle
   titleRu: Нетч над лужей
