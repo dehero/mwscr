@@ -1,14 +1,20 @@
 dehero.2018-01-08-fabricants:
-  type: clip
   location: Sotha Sil, Dome of Serlyn
+  type: clip
   request:
     date: 2018-01-08
     user: dehero
     text: Shoot fabricant producing process.
 dehero.2018-01-08-falasmaryon:
-  type: clip
   location: Falasmaryon, Lower Level
+  type: clip
   request:
     date: 2018-01-08
     user: dehero
     text: Slide slowly between candles in Falasmaryon corridors.
+dehero.2018-08-16-22-26-00:
+  content:
+    - store:/inbox/dehero.2018-08-16-22-26-00.1.png
+    - store:/inbox/dehero.2018-08-16-22-26-00.png
+  type: shot
+  author: dehero

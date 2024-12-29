@@ -4,7 +4,35 @@
 
 # Posted in 2024
 
-`306 items`
+`307 items`
+
+## <span id="2024-12-29-high-ordinator-surveying-godsreach-at-night">High Ordinator Surveying Godsreach at Night</span>
+
+`RU` Высший ординатор обозревает Годсрич в ночи
+
+<a href="https://instagram.com/p/Boe_ooGB13d/" title="2018-10-03-high-ordinator-surveying-godsreach-at-night"><img alt="store:/shots/2018-10-03-high-ordinator-surveying-godsreach-at-night.png" src="../../assets/previews/shots/2018-10-03-high-ordinator-surveying-godsreach-at-night.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2024-12-29-high-ordinator-surveying-godsreach-at-night&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `night`
+
+```
+2024-12-29-high-ordinator-surveying-godsreach-at-night
+```
+
+> `2018-10-03-high-ordinator-surveying-godsreach-at-night`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Boe_ooGB13d/)       | 2018-10-03 |       |   107 |       438 |  24.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_954)  | 2018-10-03 |   407 |    28 |       247 |  11.74 |
+| [`tg`](https://t.me/mwscr/63)                      | 2018-10-03 |   202 |     2 |           |        |
+| [`ig`](https://instagram.com/p/DEK-qqtJkm9/)       | 2024-12-29 |       |       |      1519 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1996) | 2024-12-29 |       |       |      1037 |        |
+| [`tg`](https://t.me/mwscr/641)                     | 2024-12-29 |       |       |       642 |        |
+|                                                    |            |       |       |      3198 |  18.09 |
 
 ## <span id="2024-12-28-vivecs-feat">Vivec&#39;s Feat</span>
 
