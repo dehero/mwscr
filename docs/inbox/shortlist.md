@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`2 items`
+`3 items`
 
 ## <span id="irina-bystritskaya.2022-06-25-drawing-002">Mzahnch</span>
 
@@ -19,6 +19,27 @@
 
 ```
 irina-bystritskaya.2022-06-25-drawing-002
+```
+
+## <span id="dehero.2024-12-26-21-23-32">Cold Rain of Bitter Coast</span>
+
+`RU` Холодный дождь Горького Берега
+
+![store:/inbox/dehero.2024-12-26-21-23-32.2.png](../../assets/previews/inbox/dehero.2024-12-26-21-23-32.2.avif "dehero.2024-12-26-21-23-32.2")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2024-12-26-21-23-32.png](../../assets/previews/inbox/dehero.2024-12-26-21-23-32.avif "dehero.2024-12-26-21-23-32")
+![store:/inbox/dehero.2024-12-26-21-23-32.1.png](../../assets/previews/inbox/dehero.2024-12-26-21-23-32.1.avif "dehero.2024-12-26-21-23-32.1")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2024-12-26-21-23-32&amp;postContent=store%3A%2Finbox%2Fdehero.2024-12-26-21-23-32.2.png&amp;postTitle=Cold+Rain+of+Bitter+Coast&amp;postTitleRu=%D0%A5%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9+%D0%B4%D0%BE%D0%B6%D0%B4%D1%8C+%D0%93%D0%BE%D1%80%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D0%91%D0%B5%D1%80%D0%B5%D0%B3%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=rain+tree+swamp&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-12-26-21-23-32.png%0Astore%3A%2Finbox%2Fdehero.2024-12-26-21-23-32.1.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2024-12-26-21-23-32&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2024-12-26-21-23-32&amp;mergeWithIds=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=dehero.2024-12-26-21-23-32&postLocation=)</code> `🚀 OpenMW` `rain` `tree` `swamp`
+
+```
+dehero.2024-12-26-21-23-32
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
