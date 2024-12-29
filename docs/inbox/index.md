@@ -4,7 +4,7 @@
 
 # Inbox for 2024
 
-`13 items`
+`16 items`
 
 ## <span id="natty.2024-10-06-15-21-49">natty.2024-10-06-15-21-49</span>
 
@@ -116,6 +116,51 @@ natty.2024-03-10-16-03-44
 
 ```
 natty.2024-03-10-12-44-23
+```
+
+## <span id="dehero.2024-12-26-21-26-25">dehero.2024-12-26-21-26-25</span>
+
+![store:/inbox/dehero.2024-12-26-21-26-25.png](../../assets/previews/inbox/dehero.2024-12-26-21-26-25.avif "dehero.2024-12-26-21-26-25")
+
+`shot` by [dehero](../contributors.md#dehero)
+
+> [!WARNING]
+> Need english title, need russian title, need mark.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2024-12-26-21-26-25&amp;postContent=store%3A%2Finbox%2Fdehero.2024-12-26-21-26-25.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2024-12-26-21-26-25&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2024-12-26-21-26-25&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=dehero.2024-12-26-21-26-25&postLocation=)</code>
+
+```
+dehero.2024-12-26-21-26-25
+```
+
+## <span id="dehero.2024-12-26-21-23-32">dehero.2024-12-26-21-23-32</span>
+
+![store:/inbox/dehero.2024-12-26-21-23-32.png](../../assets/previews/inbox/dehero.2024-12-26-21-23-32.avif "dehero.2024-12-26-21-23-32")
+
+`shot` by [dehero](../contributors.md#dehero)
+
+> [!WARNING]
+> Need english title, need russian title, need mark.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2024-12-26-21-23-32&amp;postContent=store%3A%2Finbox%2Fdehero.2024-12-26-21-23-32.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2024-12-26-21-23-32&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2024-12-26-21-23-32&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=dehero.2024-12-26-21-23-32&postLocation=)</code>
+
+```
+dehero.2024-12-26-21-23-32
+```
+
+## <span id="dehero.2024-12-26-21-22-27">dehero.2024-12-26-21-22-27</span>
+
+![store:/inbox/dehero.2024-12-26-21-22-27.png](../../assets/previews/inbox/dehero.2024-12-26-21-22-27.avif "dehero.2024-12-26-21-22-27")
+
+`shot` by [dehero](../contributors.md#dehero)
+
+> [!WARNING]
+> Need english title, need russian title, need mark.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2024-12-26-21-22-27&amp;postContent=store%3A%2Finbox%2Fdehero.2024-12-26-21-22-27.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2024-12-26-21-22-27&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2024-12-26-21-22-27&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=dehero.2024-12-26-21-22-27&postLocation=)</code>
+
+```
+dehero.2024-12-26-21-22-27
 ```
 
 ## <span id="dehero.2024-09-21-11-34-14">dehero.2024-09-21-11-34-14</span>
