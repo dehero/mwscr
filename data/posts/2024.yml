@@ -293,7 +293,7 @@
     - service: vk
       id: 1441
       published: 2024-03-09-18-16-27
-      updated: 2024-12-22-19-01-40
+      updated: 2024-12-29-20-07-55
       followers: 893
       likes: 35
       views: 270
@@ -301,14 +301,14 @@
     - service: tg
       id: 340
       published: 2024-03-09-18-16-33
-      updated: 2024-12-22-19-01-38
+      updated: 2024-12-29-20-07-53
       followers: 347
       likes: 63
-      views: 545
+      views: 547
       comments: !c |-
-        G5sAAGT+r/nBD+S89PR6o72BXkTQ3sBaM7FBp60HstDJiR6M/1sLKLIc25I8t7GzVClHQa9vp3ul
-        86IMXepgVRJixRFihdgbdxT/G1hR1GGv+A2AmZNFUvhGCuRw7EYMGy5crZSUg6zoSuiRXhI3yYxk
-        gFKtkbsd5wBjCIL/2/dKsVPFNQ1Dmxe96efUAA==
+        G50AABQhyez8n+uDD2ReOo2kvYFWXyZYayY26GnrQC50cqIHDARbZS2gwMIAqLUFWCmN29hZqpgn
+        6PXtdK90PhKhSx2sBCVtBEraIPbOHcX+DcxUqsM+8RsAsyCX0pJvJCCjUIeddIWwLAnKRTdsIxkj
+        Y5n0kNKRGkCoNmK346xAH4Lg//6wKRiptJHMFcJ9HvWmn1MD
 2024-03-10-fortresss-face:
   title: Fortress's Face
   titleRu: Лицо крепости
@@ -621,7 +621,7 @@
     - service: vk
       id: 1465
       published: 2024-03-23-18-10-09
-      updated: 2024-12-22-19-01-38
+      updated: 2024-12-29-20-07-53
       followers: 897
       likes: 38
       views: 319
@@ -633,10 +633,10 @@
     - service: tg
       id: 355
       published: 2024-03-23-18-10-16
-      updated: 2024-12-22-19-01-36
+      updated: 2024-12-29-20-07-52
       followers: 352
       likes: 61
-      views: 459
+      views: 461
 2024-03-24-dark-sanctuary-of-dark: 2018-05-09-dark-sanctuary-of-dark
 2024-03-25-bridge-at-ghostfence:
   title: Bridge at Ghostfence
@@ -921,7 +921,7 @@
     - service: vk
       id: 1484
       published: 2024-04-06-18-16-53
-      updated: 2024-12-22-19-01-37
+      updated: 2024-12-29-20-07-52
       followers: 909
       likes: 47
       views: 304
@@ -929,10 +929,10 @@
     - service: tg
       id: 370
       published: 2024-04-06-18-17-00
-      updated: 2024-12-22-19-01-35
+      updated: 2024-12-29-20-07-50
       followers: 354
       likes: 68
-      views: 452
+      views: 453
 2024-04-07-sheogorad: 2016-11-21-sheogorad
 2024-04-08-lava-fork:
   title: Lava Fork
@@ -1127,20 +1127,20 @@
     - service: vk
       id: 1492
       published: 2024-04-13-18-15-50
-      updated: 2024-12-22-19-01-36
+      updated: 2024-12-29-20-07-51
       followers: 911
       likes: 36
-      views: 287
+      views: 288
       comments: !c |-
         G3QA+J0JdoxkjGkJdSei2j3hAaWeYZN4JMme062E/uwMmTmZKKLr7nzFi13aDofWkwq6VZAEsaZF
         e6ZDUkvpQz40Red+6kcDzNvm0iSXqFaTf34NxMC0L7+j1w1ZUQydXcgkEMdj7F6omySALZMX
     - service: tg
       id: 377
       published: 2024-04-13-18-15-57
-      updated: 2024-12-22-19-01-35
+      updated: 2024-12-29-20-07-50
       followers: 351
       likes: 64
-      views: 447
+      views: 448
 2024-04-14-palace-of-vivec: 2017-04-30-palace-of-vivec
 2024-04-15-night-at-red-mountain:
   title: Night at Red Mountain
@@ -1265,7 +1265,7 @@
     - service: vk
       id: 1502
       published: 2024-04-20-18-17-56
-      updated: 2024-12-22-19-01-35
+      updated: 2024-12-29-20-07-50
       followers: 909
       likes: 31
       views: 296
@@ -1273,10 +1273,10 @@
     - service: tg
       id: 384
       published: 2024-04-20-18-18-05
-      updated: 2024-12-22-19-01-34
+      updated: 2024-12-29-20-07-49
       followers: 354
       likes: 59
-      views: 446
+      views: 447
 2024-04-21-a-little-joy-for-hard-worker: 2018-03-02-a-little-joy-for-hard-worker
 2024-04-22-sunset-over-molag-amur:
   title: Sunset Over Molag Amur
@@ -3205,17 +3205,17 @@
       id: DEDawx7hD2q
       mediaId: '17936525627952426'
       published: 2024-12-26-19-31-56
-      updated: 2024-12-28-19-01-28
+      updated: 2024-12-29-20-07-45
       followers: 1514
-      likes: 120
-      views: 434
+      likes: 122
+      views: 451
     - service: vk
       id: 1991
       published: 2024-12-26-19-32-05
-      updated: 2024-12-28-19-01-29
+      updated: 2024-12-29-20-07-45
       followers: 1031
-      likes: 44
-      views: 292
+      likes: 46
+      views: 329
       reposts: 3
       comments: !c |-
         G+sAOKwOzEOi+ZuB4LkjW4+c/MTz+Dc+wrtnbYWhJVmaBVyCEf797VyouZVSLfGHoAzwBB0cexx5
@@ -3225,10 +3225,10 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2024-12-28-19-01-28
+      updated: 2024-12-29-20-07-45
       followers: 626
-      likes: 61
-      views: 248
+      likes: 64
+      views: 280
 2024-12-27-tiny-boat:
   title: Tiny Boat
   titleRu: Маленькая лодочка
@@ -3283,24 +3283,24 @@
       id: DEIa6Owpzbh
       mediaId: '18334365127155599'
       published: 2024-12-28-18-09-25
-      updated: 2024-12-29-19-01-14
+      updated: 2024-12-29-20-07-44
       followers: 1518
-      likes: 177
-      views: 533
+      likes: 181
+      views: 544
     - service: vk
       id: 1995
       published: 2024-12-28-18-09-30
-      updated: 2024-12-29-19-01-14
+      updated: 2024-12-29-20-07-44
       followers: 1035
       likes: 42
-      views: 262
+      views: 265
       reposts: 3
     - service: tg
       id: 640
       published: 2024-12-28-18-09-36
-      updated: 2024-12-29-19-01-14
+      updated: 2024-12-29-20-07-44
       followers: 638
-      likes: 57
-      views: 210
+      likes: 59
+      views: 213
       comments: !c CwyAkZPLQnlBNTZOAACoemhjaGtkcnak8J+ZhAM=
 2024-12-29-high-ordinator-surveying-godsreach-at-night: 2018-10-03-high-ordinator-surveying-godsreach-at-night

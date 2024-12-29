@@ -2316,7 +2316,7 @@
     - service: vk
       id: 1454
       published: 2024-03-16-18-10-42
-      updated: 2024-12-22-19-01-39
+      updated: 2024-12-29-20-07-54
       followers: 896
       likes: 37
       views: 294
@@ -2324,10 +2324,10 @@
     - service: tg
       id: 348
       published: 2024-03-16-18-10-49
-      updated: 2024-12-22-19-01-37
+      updated: 2024-12-29-20-07-52
       followers: 353
       likes: 55
-      views: 446
+      views: 447
 2017-03-02-tel-vos:
   title: Tel Vos
   titleRu: Тель Вос
@@ -2473,17 +2473,17 @@
       id: DD-H2l7TG0b
       mediaId: '18068585941681782'
       published: 2024-12-24-18-10-30
-      updated: 2024-12-28-20-01-27
+      updated: 2024-12-29-20-07-46
       followers: 1512
-      likes: 114
-      views: 429
+      likes: 116
+      views: 441
     - service: vk
       id: 1988
       published: 2024-12-24-18-10-38
-      updated: 2024-12-28-20-01-28
+      updated: 2024-12-29-20-07-46
       followers: 1028
-      likes: 42
-      views: 321
+      likes: 44
+      views: 340
       reposts: 4
       comments: !c |-
         G+UAyJwHtqOdVUH8g2aySSee+J2kl0dhnkGGexMb6eQfpG6EERIlL7BmfAVh0bnFCjAgspnT0aDF
@@ -2492,10 +2492,10 @@
     - service: tg
       id: 636
       published: 2024-12-24-18-10-47
-      updated: 2024-12-28-20-01-28
+      updated: 2024-12-29-20-07-45
       followers: 603
       likes: 59
-      views: 402
+      views: 433
 2017-03-06-night-encounter-at-the-bridge:
   title: Night Encounter at the Bridge
   titleRu: Ночная встреча у моста
@@ -5975,25 +5975,25 @@
       id: DD7jFWAPhfk
       mediaId: '18047137612947250'
       published: 2024-12-23-18-10-44
-      updated: 2024-12-28-20-01-28
+      updated: 2024-12-29-20-07-47
       followers: 1511
-      likes: 94
-      views: 464
+      likes: 95
+      views: 470
     - service: vk
       id: 1987
       published: 2024-12-23-18-10-51
-      updated: 2024-12-28-20-01-29
+      updated: 2024-12-29-20-07-47
       followers: 1027
-      likes: 32
-      views: 288
+      likes: 33
+      views: 304
       reposts: 2
     - service: tg
       id: 635
       published: 2024-12-23-18-10-58
-      updated: 2024-12-28-20-01-30
+      updated: 2024-12-29-20-07-47
       followers: 592
-      likes: 58
-      views: 334
+      likes: 60
+      views: 357
       comments: !c |-
         CzmAkpTLQnk/S682gACtTG9mdHlkZWx1c2lvbrtTZXggd2l0aCBhbG1hbGV4aWEgdGVhbfCfkYmT
         y0J5P0vaLoAApWFuc2lzslNodXQgdXAgYmxhc3BoZW1lcpPLQnk/S3UbgAClYW5zaXOqU2xheSBx
@@ -9028,7 +9028,7 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2024-12-22-19-01-34
+      updated: 2024-12-29-20-07-49
       followers: 915
       likes: 41
       views: 286
