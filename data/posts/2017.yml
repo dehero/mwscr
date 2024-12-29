@@ -887,28 +887,28 @@
       id: DDm8rCuSktl
       mediaId: '17874870825142216'
       published: 2024-12-15-18-10-16
-      updated: 2024-12-22-21-02-07
+      updated: 2024-12-29-21-02-58
       followers: 1508
-      likes: 112
-      views: 485
+      likes: 118
+      views: 522
     - service: vk
       id: 1963
       published: 2024-12-15-18-10-25
-      updated: 2024-12-22-21-02-09
+      updated: 2024-12-29-21-03-01
       followers: 1027
-      likes: 51
-      views: 386
-      reposts: 5
+      likes: 52
+      views: 407
+      reposts: 6
       comments: !c |-
         G3EA4J0JdoxijC110YCi5+XmCf2wrcWWZAm2xCNJ7kFtzlKyoVjHtgcV/mAczN7OcLyTeJonm71f
         FyLJQDCpEquf98+bu4jvTOXseVky2oQZ6/ixzqISw3oaG5r3SSweEm5vJqijICZuBw==
     - service: tg
       id: 626
       published: 2024-12-15-18-11-17
-      updated: 2024-12-22-21-02-08
+      updated: 2024-12-29-21-02-58
       followers: 580
-      likes: 61
-      views: 380
+      likes: 65
+      views: 532
       comments: !c |-
         G4kAMBwHuWn0btmfJgwjVLpVc74SIRvHZVVfXQ2AjhyBItmpJRQO92TqODxdfgxhAw6YW3BczMYB
         Tw4Sr2xyGvuZzN/ehodzxraRaCJTKAQsGQvs8MCORhJ1JBywo5ZnPVF8/mape+SabJOplUJFy4U1
@@ -4380,10 +4380,10 @@
     - service: tg
       id: 605
       published: 2024-11-24-18-09-33
-      updated: 2024-12-22-21-02-08
+      updated: 2024-12-29-21-02-59
       followers: 576
-      likes: 62
-      views: 532
+      likes: 63
+      views: 573
 2017-04-25-castle-ebonheart:
   title: Castle Ebonheart
   titleRu: Замок Эбенгард
