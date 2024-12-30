@@ -335,7 +335,7 @@
     - service: vk
       id: 1442
       published: 2024-03-10-18-00-51
-      updated: 2024-12-23-18-10-29
+      updated: 2024-12-30-19-01-45
       followers: 895
       likes: 34
       views: 252
@@ -343,10 +343,10 @@
     - service: tg
       id: 341
       published: 2024-03-10-18-00-59
-      updated: 2024-12-23-18-10-23
+      updated: 2024-12-30-19-01-37
       followers: 349
       likes: 60
-      views: 510
+      views: 512
 2024-03-11-gray-thorns:
   title: Gray Thorns
   titleRu: Серые шипы
@@ -493,7 +493,7 @@
     - service: vk
       id: 1455
       published: 2024-03-17-18-09-55
-      updated: 2024-12-23-18-10-29
+      updated: 2024-12-30-19-01-44
       followers: 896
       likes: 42
       views: 327
@@ -502,10 +502,10 @@
     - service: tg
       id: 349
       published: 2024-03-17-18-10-02
-      updated: 2024-12-23-18-10-23
+      updated: 2024-12-30-19-01-37
       followers: 353
       likes: 64
-      views: 492
+      views: 494
       comments: !c ixCAkZPLQnjk2fJHgACx2YXYrdmF2K8g2K7Yp9mE2K+kQ29vbAM=
 2024-03-18-evening-on-azuras-coast: 2017-05-18-evening-on-azuras-coast
 2024-03-19-dirty-muriels-cornerclub:
@@ -802,7 +802,7 @@
     - service: vk
       id: 1476
       published: 2024-03-31-18-10-32
-      updated: 2024-12-23-18-10-27
+      updated: 2024-12-30-19-01-43
       followers: 905
       likes: 29
       views: 264
@@ -810,10 +810,10 @@
     - service: tg
       id: 363
       published: 2024-03-31-18-10-38
-      updated: 2024-12-23-18-10-21
+      updated: 2024-12-30-19-01-36
       followers: 354
       likes: 58
-      views: 486
+      views: 488
 2024-04-01-at-the-edge-of-sheogorad: 2017-11-18-at-the-edge-of-sheogorad
 2024-04-02-hanged-man:
   title: Hanged Man
@@ -1547,7 +1547,7 @@
     - service: vk
       id: 1519
       published: 2024-05-05-18-17-05
-      updated: 2024-12-23-18-10-23
+      updated: 2024-12-30-19-01-39
       followers: 913
       likes: 38
       views: 274
@@ -1560,10 +1560,10 @@
     - service: tg
       id: 399
       published: 2024-05-05-18-17-11
-      updated: 2024-12-23-18-10-18
+      updated: 2024-12-30-19-01-33
       followers: 370
       likes: 61
-      views: 478
+      views: 480
 2024-05-06-alchemist-table:
   title: Alchemist Table
   titleRu: Стол алхимика
@@ -1746,14 +1746,14 @@
     - service: tg
       id: 406
       published: 2024-05-12-18-20-07
-      updated: 2024-12-23-18-10-17
+      updated: 2024-12-30-19-01-32
       followers: 371
       likes: 57
-      views: 454
+      views: 455
     - service: vk
       id: 1530
       published: 2024-05-12-19-11-11
-      updated: 2024-12-23-18-10-22
+      updated: 2024-12-30-19-01-38
       followers: 915
       likes: 28
       views: 253
@@ -1878,7 +1878,7 @@
     - service: vk
       id: 1538
       published: 2024-05-19-18-18-25
-      updated: 2024-12-23-18-10-21
+      updated: 2024-12-30-19-01-37
       followers: 916
       likes: 37
       views: 253
@@ -2064,7 +2064,7 @@
     - service: vk
       id: 1576
       published: 2024-06-09-18-18-45
-      updated: 2024-12-23-18-10-17
+      updated: 2024-12-30-19-01-33
       followers: 916
       likes: 33
       views: 282
@@ -3322,12 +3322,27 @@
       id: DENkpSrzZO6
       mediaId: '18034340228150471'
       published: 2024-12-30-18-10-42
+      updated: 2024-12-30-19-01-30
       followers: 1520
+      likes: 36
+      views: 36
     - service: vk
       id: 2004
       published: 2024-12-30-18-10-48
+      updated: 2024-12-30-19-01-31
       followers: 1037
+      likes: 6
+      views: 50
+      comments: !c |-
+        G74BgCwS7FiSIbRJuw4H4p//LrY8Qn/Hd0EzTjyQTsBRhMl9utrO0JuhmQ32PYKHPxigumkNWu2d
+        Ikt+ZREKMkdGO3HI8mx5wB52cRgVcNTAZxMdaDh4wdFQ5ja2gsa01RElavT0/fnvV5+v4/g9Q4WP
+        r4eQuC5q5HDycZQMXUyc5zep/bzCQavSxq4EV/YJOHpWYRACFcbdirxJiJjtI6hmbNCkYc81mTMU
+        HcInQ1WMHEM8K8DZrtYPq/Q14LGXC/QJIEsTw9qHTGxXCFBo2QzFu4JkCRAn/wgCGOKQyLY0Kn1O
+        soOikXHPWu4RK2WTDdQdHuYT
     - service: tg
       id: 642
       published: 2024-12-30-18-10-55
+      updated: 2024-12-30-19-01-31
       followers: 642
+      likes: 28
+      views: 79
