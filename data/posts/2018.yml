@@ -3520,7 +3520,7 @@
     - service: vk
       id: 1595
       published: 2024-06-23-18-18-57
-      updated: 2024-12-23-12-14-13
+      updated: 2024-12-30-13-15-30
       followers: 918
       likes: 35
       views: 290
@@ -3534,10 +3534,10 @@
     - service: tg
       id: 448
       published: 2024-06-23-18-19-06
-      updated: 2024-12-23-12-14-08
+      updated: 2024-12-30-13-15-30
       followers: 389
       likes: 53
-      views: 490
+      views: 491
 2018-04-08-the-symmetry-of-vivec:
   title: The Symmetry of Vivec
   titleRu: Симметрия Вивека
@@ -9597,7 +9597,7 @@
     - service: vk
       id: 1648
       published: 2024-07-21-18-19-00
-      updated: 2024-12-23-12-14-09
+      updated: 2024-12-30-13-15-26
       followers: 919
       likes: 26
       views: 281
@@ -9607,10 +9607,10 @@
     - service: tg
       id: 476
       published: 2024-07-21-18-19-07
-      updated: 2024-12-23-12-14-05
+      updated: 2024-12-30-13-15-26
       followers: 400
       likes: 52
-      views: 566
+      views: 568
 2018-09-25-what-do-you-know-about-comfort:
   title: What Do You Know About Comfort?
   titleRu: Что вы знаете о комфорте?
@@ -9943,17 +9943,17 @@
       id: DEK-qqtJkm9
       mediaId: '17873375394164737'
       published: 2024-12-29-18-00-22
-      updated: 2024-12-30-12-13-49
+      updated: 2024-12-30-13-15-23
       followers: 1519
-      likes: 98
-      views: 305
+      likes: 101
+      views: 312
     - service: vk
       id: 1996
       published: 2024-12-29-18-00-28
-      updated: 2024-12-30-12-13-50
+      updated: 2024-12-30-13-15-23
       followers: 1037
       likes: 25
-      views: 190
+      views: 195
       reposts: 1
       comments: !c |-
         G7EBwJwHtiP6ZSCfeipl5Br/j9yzT/j0b8WQRVyBtxVhcu6WTue0ffylv5BTsl/ewAGK2c5iCC3M
@@ -9964,10 +9964,10 @@
     - service: tg
       id: 641
       published: 2024-12-29-18-00-34
-      updated: 2024-12-30-12-13-50
+      updated: 2024-12-30-13-15-23
       followers: 642
       likes: 53
-      views: 164
+      views: 166
 2018-10-04-netch-over-the-puddle:
   title: Netch Over the Puddle
   titleRu: Нетч над лужей
