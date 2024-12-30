@@ -3243,25 +3243,25 @@
       id: DEF2PvQsCe5
       mediaId: '17989289024759963'
       published: 2024-12-27-18-10-34
-      updated: 2024-12-29-18-09-08
+      updated: 2024-12-30-18-10-17
       followers: 1514
-      likes: 81
-      views: 305
+      likes: 84
+      views: 326
     - service: vk
       id: 1994
       published: 2024-12-27-18-10-40
-      updated: 2024-12-29-18-09-08
+      updated: 2024-12-30-18-10-19
       followers: 1033
-      likes: 37
-      views: 237
+      likes: 39
+      views: 268
       reposts: 2
     - service: tg
       id: 639
       published: 2024-12-27-18-10-46
-      updated: 2024-12-29-18-09-08
+      updated: 2024-12-30-18-10-18
       followers: 631
-      likes: 55
-      views: 252
+      likes: 57
+      views: 266
 2024-12-28-vivecs-feat:
   title: Vivec's Feat
   titleRu: Подвиг Вивека
@@ -3304,3 +3304,30 @@
       views: 228
       comments: !c CwyAkZPLQnlBNTZOAACoemhjaGtkcnak8J+ZhAM=
 2024-12-29-high-ordinator-surveying-godsreach-at-night: 2018-10-03-high-ordinator-surveying-godsreach-at-night
+2024-12-30-cold-rain-of-bitter-coast:
+  title: Cold Rain of Bitter Coast
+  titleRu: Холодный дождь Горького Берега
+  content: store:/shots/2024-12-30-cold-rain-of-bitter-coast.png
+  trash: store:/trash/dehero.2024-12-26-21-23-32.1.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - rain
+    - tree
+    - swamp
+  mark: A2
+  posts:
+    - service: ig
+      id: DENkpSrzZO6
+      mediaId: '18034340228150471'
+      published: 2024-12-30-18-10-42
+      followers: 1520
+    - service: vk
+      id: 2004
+      published: 2024-12-30-18-10-48
+      followers: 1037
+    - service: tg
+      id: 642
+      published: 2024-12-30-18-10-55
+      followers: 642

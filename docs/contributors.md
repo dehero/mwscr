@@ -9,9 +9,9 @@
 [VK](https://vk.com/dehero), [Telegram](https://t.me/deherole), [GitHub](https://github.com/dehero), [E-mail](mailto:dehero@outlook.com)
 
 Roles: `admin` `author` `requester`  
-Authored: 968 posted, 14 pending, 67 rejected  
+Authored: 969 posted, 13 pending, 67 rejected  
 Requested: 6 pending  
-Likes: 164949  
+Likes: 164952  
 
 ```
 dehero
@@ -69,7 +69,7 @@ irina-bystritskaya
 
 Roles: `author`  
 Authored: 1 posted, 1 rejected  
-Likes: 173  
+Likes: 180  
 
 ```
 3akrom

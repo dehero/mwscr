@@ -4,7 +4,36 @@
 
 # Posted in 2024
 
-`307 items`
+`308 items`
+
+## <span id="2024-12-30-cold-rain-of-bitter-coast">Cold Rain of Bitter Coast</span>
+
+`RU` Холодный дождь Горького Берега
+
+<a href="https://instagram.com/p/DENkpSrzZO6/" title="2024-12-30-cold-rain-of-bitter-coast"><img alt="store:/shots/2024-12-30-cold-rain-of-bitter-coast.png" src="../../assets/previews/shots/2024-12-30-cold-rain-of-bitter-coast.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2024-12-26-21-23-32.1.png](../../assets/previews/trash/dehero.2024-12-26-21-23-32.1.avif "dehero.2024-12-26-21-23-32.1")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2024-12-30-cold-rain-of-bitter-coast&postLocation=)</code> `🚀 OpenMW` `rain` `tree` `swamp`
+
+```
+2024-12-30-cold-rain-of-bitter-coast
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DENkpSrzZO6/)       | 2024-12-30 |      1520 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2004) | 2024-12-30 |      1037 |
+| [`tg`](https://t.me/mwscr/642)                     | 2024-12-30 |       642 |
+|                                                    |            |      3199 |
 
 ## <span id="2024-12-29-high-ordinator-surveying-godsreach-at-night">High Ordinator Surveying Godsreach at Night</span>
 
@@ -29,10 +58,10 @@
 | [`ig`](https://instagram.com/p/Boe_ooGB13d/)       | 2018-10-03 |       |   107 |       438 |  24.43 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_954)  | 2018-10-03 |   407 |    28 |       247 |  11.74 |
 | [`tg`](https://t.me/mwscr/63)                      | 2018-10-03 |   202 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DEK-qqtJkm9/)       | 2024-12-29 |   331 |   104 |      1519 |   6.85 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1996) | 2024-12-29 |   215 |    27 |      1037 |    2.7 |
-| [`tg`](https://t.me/mwscr/641)                     | 2024-12-29 |   172 |    54 |       642 |   8.41 |
-|                                                    |            |   718 |   185 |      3198 |  10.83 |
+| [`ig`](https://instagram.com/p/DEK-qqtJkm9/)       | 2024-12-29 |   354 |   107 |      1519 |   7.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1996) | 2024-12-29 |   222 |    27 |      1037 |    2.7 |
+| [`tg`](https://t.me/mwscr/641)                     | 2024-12-29 |   173 |    54 |       642 |   8.41 |
+|                                                    |            |   749 |   188 |      3198 |  10.87 |
 
 #### Comments
 
@@ -91,10 +120,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DEF2PvQsCe5/)       | 2024-12-27 |   305 |    81 |      1514 |   5.35 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1994) | 2024-12-27 |   237 |    37 |      1033 |   3.78 |
-| [`tg`](https://t.me/mwscr/639)                     | 2024-12-27 |   252 |    55 |       631 |   8.72 |
-|                                                    |            |   794 |   173 |      3178 |   5.95 |
+| [`ig`](https://instagram.com/p/DEF2PvQsCe5/)       | 2024-12-27 |   326 |    84 |      1514 |   5.55 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1994) | 2024-12-27 |   268 |    39 |      1033 |   3.97 |
+| [`tg`](https://t.me/mwscr/639)                     | 2024-12-27 |   266 |    57 |       631 |   9.03 |
+|                                                    |            |   860 |   180 |      3178 |   6.18 |
 
 ## <span id="2024-12-26-two-houses-on-the-outskirts">Two Houses on the Outskirts</span>
 
