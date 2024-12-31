@@ -1166,7 +1166,7 @@
     - service: vk
       id: 1531
       published: 2024-05-13-18-17-48
-      updated: 2024-12-24-15-07-17
+      updated: 2024-12-31-16-08-33
       followers: 915
       likes: 35
       views: 260
@@ -1174,10 +1174,10 @@
     - service: tg
       id: 407
       published: 2024-05-13-18-17-54
-      updated: 2024-12-24-15-07-15
+      updated: 2024-12-31-16-08-31
       followers: 370
       likes: 62
-      views: 442
+      views: 443
       comments: !c |-
         iz6AkZTLQnj3MuobgACpR2F0ZW1hdGU3vWhvdyBkbyBpIHN1Ym1pdCBhIHNjcmVlbnNob3Q/k8tC
         ePcy8qcAAKVtd3Njctk5aHR0cHM6Ly9naXRodWIuY29tL2RlaGVyby9td3Njci9ibG9iL21haW4v
@@ -5414,7 +5414,7 @@
     - service: vk
       id: 1456
       published: 2024-03-18-18-11-07
-      updated: 2024-12-24-15-07-23
+      updated: 2024-12-31-16-08-39
       followers: 896
       likes: 32
       views: 281
@@ -5426,10 +5426,10 @@
     - service: tg
       id: 350
       published: 2024-03-18-18-11-16
-      updated: 2024-12-24-15-07-18
+      updated: 2024-12-31-16-08-36
       followers: 353
       likes: 55
-      views: 477
+      views: 478
 2017-05-19-queen-mother-in-her-chambers:
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
@@ -9682,7 +9682,7 @@
     - service: vk
       id: 1548
       published: 2024-05-27-18-19-06
-      updated: 2024-12-24-15-07-15
+      updated: 2024-12-31-16-08-31
       followers: 918
       likes: 36
       views: 270
@@ -11665,17 +11665,17 @@
     - service: vk
       id: 1477
       published: 2024-04-01-18-10-59
-      updated: 2024-12-24-15-07-22
+      updated: 2024-12-31-16-08-38
       followers: 906
       likes: 33
       views: 310
     - service: tg
       id: 364
       published: 2024-04-01-18-11-06
-      updated: 2024-12-24-15-07-18
+      updated: 2024-12-31-16-08-35
       followers: 354
       likes: 61
-      views: 465
+      views: 467
       comments: !c CxOAkZPLQnjps+/8gACoQWVsbGFyaWGyVmVsZGlnIGZpbnQgYmlsZGUhAw==
 2017-11-19-bottle-collection:
   title: Bottle Collection

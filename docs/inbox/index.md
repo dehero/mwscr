@@ -105,13 +105,14 @@ natty.2024-03-10-12-44-23
 
 ![store:/inbox/dehero.2024-12-31-16-44-23.1.png](../../assets/previews/inbox/dehero.2024-12-31-16-44-23.1.avif "dehero.2024-12-31-16-44-23.1")
 ![store:/inbox/dehero.2024-12-31-16-44-23.png](../../assets/previews/inbox/dehero.2024-12-31-16-44-23.avif "dehero.2024-12-31-16-44-23")
+![store:/inbox/dehero.2024-12-31-16-44-23.2.png](../../assets/previews/inbox/dehero.2024-12-31-16-44-23.2.avif "dehero.2024-12-31-16-44-23.2")
 
 `shot` by [dehero](../contributors.md#dehero)
 
 > [!WARNING]
-> Need english title, need russian title, need mark, detected post type "redrawing", got "shot".
+> Need english title, need russian title, need mark, unable to detect possible post type from content.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2024-12-31-16-44-23&amp;postContent=store%3A%2Finbox%2Fdehero.2024-12-31-16-44-23.1.png%0Astore%3A%2Finbox%2Fdehero.2024-12-31-16-44-23.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2024-12-31-16-44-23&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2024-12-31-16-44-23&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=dehero.2024-12-31-16-44-23&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2024-12-31-16-44-23&amp;postContent=store%3A%2Finbox%2Fdehero.2024-12-31-16-44-23.1.png%0Astore%3A%2Finbox%2Fdehero.2024-12-31-16-44-23.png%0Astore%3A%2Finbox%2Fdehero.2024-12-31-16-44-23.2.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2024-12-31-16-44-23&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2024-12-31-16-44-23&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=dehero.2024-12-31-16-44-23&postLocation=)</code>
 
 ```
 dehero.2024-12-31-16-44-23
