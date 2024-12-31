@@ -49,12 +49,23 @@ dehero.2024-12-31-16-39-41:
   type: shot
   author: dehero
 dehero.2024-12-31-16-44-23:
-  content:
+  title: A Look Into the Darkness
+  titleRu: Взгляд в темноту
+  location: Fort Frostmoth
+  content: store:/inbox/dehero.2024-12-31-16-44-23.2.png
+  trash:
     - store:/inbox/dehero.2024-12-31-16-44-23.1.png
     - store:/inbox/dehero.2024-12-31-16-44-23.png
-    - store:/inbox/dehero.2024-12-31-16-44-23.2.png
   type: shot
   author: dehero
+  engine: OpenMW
+  addon: Bloodmoon
+  tags:
+    - fir
+    - tree
+    - guard
+    - torch
+  mark: B1
 natty.2024-03-10-12-44-23:
   content:
     - store:/inbox/natty.2024-03-10-12-44-23.png

@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`2 items`
+`3 items`
 
 ## <span id="irina-bystritskaya.2022-06-25-drawing-002">Mzahnch</span>
 
@@ -19,6 +19,27 @@
 
 ```
 irina-bystritskaya.2022-06-25-drawing-002
+```
+
+## <span id="dehero.2024-12-31-16-44-23">A Look Into the Darkness</span>
+
+`RU` Взгляд в темноту
+
+![store:/inbox/dehero.2024-12-31-16-44-23.2.png](../../assets/previews/inbox/dehero.2024-12-31-16-44-23.2.avif "dehero.2024-12-31-16-44-23.2")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2024-12-31-16-44-23.1.png](../../assets/previews/inbox/dehero.2024-12-31-16-44-23.1.avif "dehero.2024-12-31-16-44-23.1")
+![store:/inbox/dehero.2024-12-31-16-44-23.png](../../assets/previews/inbox/dehero.2024-12-31-16-44-23.avif "dehero.2024-12-31-16-44-23")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2024-12-31-16-44-23&amp;postContent=store%3A%2Finbox%2Fdehero.2024-12-31-16-44-23.2.png&amp;postTitle=A+Look+Into+the+Darkness&amp;postTitleRu=%D0%92%D0%B7%D0%B3%D0%BB%D1%8F%D0%B4+%D0%B2+%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D1%82%D1%83&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Bloodmoon&amp;postTags=fir+tree+guard+torch&amp;postLocation=Fort+Frostmoth&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-12-31-16-44-23.1.png%0Astore%3A%2Finbox%2Fdehero.2024-12-31-16-44-23.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2024-12-31-16-44-23&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2024-12-31-16-44-23&amp;mergeWithIds=) `B1` `📍 Fort Frostmoth` `🚀 OpenMW` `🔗 Bloodmoon` `fir` `tree` `guard` `torch`
+
+```
+dehero.2024-12-31-16-44-23
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
