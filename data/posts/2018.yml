@@ -6156,10 +6156,10 @@
     - service: vk
       id: 1710
       published: 2024-08-26-18-20-16
-      updated: 2024-12-24-06-11-14
+      updated: 2024-12-31-07-07-43
       followers: 940
       likes: 33
-      views: 305
+      views: 307
     - service: tg
       id: 513
       published: 2024-08-26-18-20-21
@@ -9946,17 +9946,17 @@
       id: DEK-qqtJkm9
       mediaId: '17873375394164737'
       published: 2024-12-29-18-00-22
-      updated: 2024-12-31-06-10-55
+      updated: 2024-12-31-07-07-41
       followers: 1519
       likes: 110
       views: 427
     - service: vk
       id: 1996
       published: 2024-12-29-18-00-28
-      updated: 2024-12-31-06-10-57
+      updated: 2024-12-31-07-07-42
       followers: 1037
       likes: 28
-      views: 247
+      views: 249
       reposts: 1
       comments: !c |-
         G7EBwJwHtiP6ZSCfeipl5Br/j9yzT/j0b8WQRVyBtxVhcu6WTue0ffylv5BTsl/ewAGK2c5iCC3M
@@ -9967,10 +9967,10 @@
     - service: tg
       id: 641
       published: 2024-12-29-18-00-34
-      updated: 2024-12-31-06-10-56
+      updated: 2024-12-31-07-07-43
       followers: 642
       likes: 56
-      views: 212
+      views: 214
 2018-10-04-netch-over-the-puddle:
   title: Netch Over the Puddle
   titleRu: Нетч над лужей
