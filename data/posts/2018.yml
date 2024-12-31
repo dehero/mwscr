@@ -8568,7 +8568,7 @@
     - service: vk
       id: 1597
       published: 2024-06-24-18-20-03
-      updated: 2024-12-24-15-07-12
+      updated: 2024-12-31-15-07-17
       followers: 917
       likes: 51
       views: 319
@@ -8576,10 +8576,10 @@
     - service: tg
       id: 449
       published: 2024-06-24-18-20-11
-      updated: 2024-12-24-15-07-12
+      updated: 2024-12-31-15-07-16
       followers: 388
       likes: 66
-      views: 573
+      views: 574
 2018-09-01-haze-in-tel-branora:
   title: Haze in Tel Branora
   titleRu: Мгла в Тель Браноре
@@ -9946,17 +9946,17 @@
       id: DEK-qqtJkm9
       mediaId: '17873375394164737'
       published: 2024-12-29-18-00-22
-      updated: 2024-12-31-14-06-03
+      updated: 2024-12-31-15-07-14
       followers: 1519
-      likes: 110
-      views: 441
+      likes: 111
+      views: 445
     - service: vk
       id: 1996
       published: 2024-12-29-18-00-28
-      updated: 2024-12-31-14-06-05
+      updated: 2024-12-31-15-07-16
       followers: 1037
-      likes: 30
-      views: 265
+      likes: 31
+      views: 267
       reposts: 1
       comments: !c |-
         G7EBwJwHtiP6ZSCfeipl5Br/j9yzT/j0b8WQRVyBtxVhcu6WTue0ffylv5BTsl/ewAGK2c5iCC3M
@@ -9967,10 +9967,10 @@
     - service: tg
       id: 641
       published: 2024-12-29-18-00-34
-      updated: 2024-12-31-14-06-04
+      updated: 2024-12-31-15-07-15
       followers: 642
       likes: 57
-      views: 227
+      views: 229
 2018-10-04-netch-over-the-puddle:
   title: Netch Over the Puddle
   titleRu: Нетч над лужей
