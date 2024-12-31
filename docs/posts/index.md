@@ -28,12 +28,12 @@
 
 ### Reactions
 
-|                                                    | published  | followers |
-|----------------------------------------------------|------------|----------:|
-| [`ig`](https://instagram.com/p/DEQJZBKzzA5/)       | 2024-12-31 |      1519 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2007) | 2024-12-31 |      1038 |
-| [`tg`](https://t.me/mwscr/643)                     | 2024-12-31 |       643 |
-|                                                    |            |      3200 |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/DEQJZBKzzA5/)       | 2024-12-31 |    45 |    25 |      1519 |   1.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2007) | 2024-12-31 |    47 |     4 |      1038 |   0.39 |
+| [`tg`](https://t.me/mwscr/643)                     | 2024-12-31 |    79 |    28 |       643 |   4.35 |
+|                                                    |            |   171 |    57 |      3200 |   2.13 |
 
 ## <span id="2024-12-30-cold-rain-of-bitter-coast">Cold Rain of Bitter Coast</span>
 
@@ -59,10 +59,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DENkpSrzZO6/)       | 2024-12-30 |   382 |   120 |      1520 |   7.89 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2004) | 2024-12-30 |   182 |    38 |      1037 |   3.86 |
-| [`tg`](https://t.me/mwscr/642)                     | 2024-12-30 |   243 |    57 |       642 |   8.88 |
-|                                                    |            |   807 |   215 |      3199 |   6.88 |
+| [`ig`](https://instagram.com/p/DENkpSrzZO6/)       | 2024-12-30 |   384 |   121 |      1520 |   7.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2004) | 2024-12-30 |   184 |    38 |      1037 |   3.86 |
+| [`tg`](https://t.me/mwscr/642)                     | 2024-12-30 |   257 |    59 |       642 |   9.19 |
+|                                                    |            |   825 |   218 |      3199 |      7 |
 
 #### Comments
 
@@ -153,10 +153,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DEF2PvQsCe5/)       | 2024-12-27 |   326 |    84 |      1514 |   5.55 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1994) | 2024-12-27 |   268 |    39 |      1033 |   3.97 |
-| [`tg`](https://t.me/mwscr/639)                     | 2024-12-27 |   266 |    57 |       631 |   9.03 |
-|                                                    |            |   860 |   180 |      3178 |   6.18 |
+| [`ig`](https://instagram.com/p/DEF2PvQsCe5/)       | 2024-12-27 |   333 |    85 |      1514 |   5.61 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1994) | 2024-12-27 |   284 |    42 |      1033 |   4.26 |
+| [`tg`](https://t.me/mwscr/639)                     | 2024-12-27 |   315 |    60 |       631 |   9.51 |
+|                                                    |            |   932 |   187 |      3178 |   6.46 |
 
 ## <span id="2024-12-26-two-houses-on-the-outskirts">Two Houses on the Outskirts</span>
 

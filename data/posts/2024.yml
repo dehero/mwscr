@@ -3240,25 +3240,25 @@
       id: DEF2PvQsCe5
       mediaId: '17989289024759963'
       published: 2024-12-27-18-10-34
-      updated: 2024-12-30-18-10-17
+      updated: 2024-12-31-19-01-19
       followers: 1514
-      likes: 84
-      views: 326
+      likes: 85
+      views: 333
     - service: vk
       id: 1994
       published: 2024-12-27-18-10-40
-      updated: 2024-12-30-18-10-19
+      updated: 2024-12-31-19-01-21
       followers: 1033
-      likes: 39
-      views: 268
+      likes: 42
+      views: 284
       reposts: 2
     - service: tg
       id: 639
       published: 2024-12-27-18-10-46
-      updated: 2024-12-30-18-10-18
+      updated: 2024-12-31-19-01-20
       followers: 631
-      likes: 57
-      views: 266
+      likes: 60
+      views: 315
 2024-12-28-vivecs-feat:
   title: Vivec's Feat
   titleRu: Подвиг Вивека
@@ -3319,17 +3319,17 @@
       id: DENkpSrzZO6
       mediaId: '18034340228150471'
       published: 2024-12-30-18-10-42
-      updated: 2024-12-31-18-09-46
+      updated: 2024-12-31-19-01-19
       followers: 1520
-      likes: 120
-      views: 382
+      likes: 121
+      views: 384
     - service: vk
       id: 2004
       published: 2024-12-30-18-10-48
-      updated: 2024-12-31-18-09-46
+      updated: 2024-12-31-19-01-20
       followers: 1037
       likes: 38
-      views: 182
+      views: 184
       reposts: 2
       comments: !c |-
         G74BgCwS7FiSIbRJuw4H4p//LrY8Qn/Hd0EzTjyQTsBRhMl9utrO0JuhmQ32PYKHPxigumkNWu2d
@@ -3340,10 +3340,10 @@
     - service: tg
       id: 642
       published: 2024-12-30-18-10-55
-      updated: 2024-12-31-18-09-46
+      updated: 2024-12-31-19-01-20
       followers: 642
-      likes: 57
-      views: 243
+      likes: 59
+      views: 257
 2024-12-31-a-look-into-the-darkness:
   title: A Look Into the Darkness
   titleRu: Взгляд в темноту
@@ -3365,12 +3365,21 @@
       id: DEQJZBKzzA5
       mediaId: '18055957414807240'
       published: 2024-12-31-18-10-17
+      updated: 2024-12-31-19-01-18
       followers: 1519
+      likes: 25
+      views: 45
     - service: vk
       id: 2007
       published: 2024-12-31-18-10-25
+      updated: 2024-12-31-19-01-19
       followers: 1038
+      likes: 4
+      views: 47
     - service: tg
       id: 643
       published: 2024-12-31-18-10-35
+      updated: 2024-12-31-19-01-19
       followers: 643
+      likes: 28
+      views: 79
