@@ -4,7 +4,36 @@
 
 # Posted in 2024
 
-`308 items`
+`309 items`
+
+## <span id="2024-12-31-a-look-into-the-darkness">A Look Into the Darkness</span>
+
+`RU` Взгляд в темноту
+
+<a href="https://instagram.com/p/DEQJZBKzzA5/" title="2024-12-31-a-look-into-the-darkness"><img alt="store:/shots/2024-12-31-a-look-into-the-darkness.png" src="../../assets/previews/shots/2024-12-31-a-look-into-the-darkness.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2024-12-31-16-44-23.1.png](../../assets/previews/trash/dehero.2024-12-31-16-44-23.1.avif "dehero.2024-12-31-16-44-23.1")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Fort Frostmoth` `🚀 OpenMW` `🔗 Bloodmoon` `fir` `tree` `guard` `torch`
+
+```
+2024-12-31-a-look-into-the-darkness
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DEQJZBKzzA5/)       | 2024-12-31 |      1519 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2007) | 2024-12-31 |      1038 |
+| [`tg`](https://t.me/mwscr/643)                     | 2024-12-31 |       643 |
+|                                                    |            |      3200 |
 
 ## <span id="2024-12-30-cold-rain-of-bitter-coast">Cold Rain of Bitter Coast</span>
 
@@ -30,10 +59,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DENkpSrzZO6/)       | 2024-12-30 |   373 |   120 |      1520 |   7.89 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2004) | 2024-12-30 |   177 |    38 |      1037 |   3.86 |
-| [`tg`](https://t.me/mwscr/642)                     | 2024-12-30 |   238 |    57 |       642 |   8.88 |
-|                                                    |            |   788 |   215 |      3199 |   6.88 |
+| [`ig`](https://instagram.com/p/DENkpSrzZO6/)       | 2024-12-30 |   382 |   120 |      1520 |   7.89 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2004) | 2024-12-30 |   182 |    38 |      1037 |   3.86 |
+| [`tg`](https://t.me/mwscr/642)                     | 2024-12-30 |   243 |    57 |       642 |   8.88 |
+|                                                    |            |   807 |   215 |      3199 |   6.88 |
 
 #### Comments
 
@@ -97,14 +126,14 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DEIa6Owpzbh/)       | 2024-12-28 |   631 |   194 |      1518 |  12.78 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1995) | 2024-12-28 |   317 |    46 |      1035 |   4.73 |
-| [`tg`](https://t.me/mwscr/640)                     | 2024-12-28 |   228 |    60 |       638 |    9.4 |
-|                                                    |            |  1176 |   300 |      3191 |   8.97 |
+| [`ig`](https://instagram.com/p/DEIa6Owpzbh/)       | 2024-12-28 |   667 |   202 |      1518 |  13.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1995) | 2024-12-28 |   344 |    50 |      1035 |   5.12 |
+| [`tg`](https://t.me/mwscr/640)                     | 2024-12-28 |   261 |    63 |       638 |   9.87 |
+|                                                    |            |  1272 |   315 |      3191 |   9.43 |
 
 #### Comments
 
-- `tg` <ins title="2024-12-29-16-50-20">zhchkdrv</ins> 🙄
+- `tg` <ins title="2024-12-29-16-50-20">zhechka_drv</ins> 🙄
 
 ## <span id="2024-12-27-tiny-boat">Tiny Boat</span>
 
@@ -179,10 +208,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BeYgWW6jSJP/)       | 2018-01-25 |       |    92 |       280 |  32.86 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_590)  | 2018-01-25 |   164 |    16 |       123 |  13.01 |
-| [`ig`](https://instagram.com/p/DEAsk0fPdnh/)       | 2024-12-25 |   330 |    92 |      1513 |   6.08 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_1990) | 2024-12-25 |   260 |    32 |      1030 |    3.2 |
-| [`tg`](https://t.me/mwscr/637)                     | 2024-12-25 |   354 |    58 |       612 |   9.48 |
-|                                                    |            |   944 |   182 |      3155 |  12.93 |
+| [`ig`](https://instagram.com/p/DEAsk0fPdnh/)       | 2024-12-25 |   336 |    92 |      1513 |   6.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1990) | 2024-12-25 |   276 |    34 |      1030 |    3.4 |
+| [`tg`](https://t.me/mwscr/637)                     | 2024-12-25 |   373 |    58 |       612 |   9.48 |
+|                                                    |            |   985 |   184 |      3155 |  12.96 |
 
 #### Comments
 

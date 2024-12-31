@@ -3280,26 +3280,26 @@
       id: DEIa6Owpzbh
       mediaId: '18334365127155599'
       published: 2024-12-28-18-09-25
-      updated: 2024-12-30-17-02-23
+      updated: 2024-12-31-18-09-47
       followers: 1518
-      likes: 194
-      views: 631
+      likes: 202
+      views: 667
     - service: vk
       id: 1995
       published: 2024-12-28-18-09-30
-      updated: 2024-12-30-17-02-23
+      updated: 2024-12-31-18-09-47
       followers: 1035
-      likes: 46
-      views: 317
+      likes: 50
+      views: 344
       reposts: 3
     - service: tg
       id: 640
       published: 2024-12-28-18-09-36
-      updated: 2024-12-30-17-02-23
+      updated: 2024-12-31-18-09-47
       followers: 638
-      likes: 60
-      views: 228
-      comments: !c CwyAkZPLQnlBNTZOAACoemhjaGtkcnak8J+ZhAM=
+      likes: 63
+      views: 261
+      comments: !c iw2AkZPLQnlBNTZOAACremhlY2hrYV9kcnak8J+ZhAM=
 2024-12-29-high-ordinator-surveying-godsreach-at-night: 2018-10-03-high-ordinator-surveying-godsreach-at-night
 2024-12-30-cold-rain-of-bitter-coast:
   title: Cold Rain of Bitter Coast
@@ -3319,17 +3319,17 @@
       id: DENkpSrzZO6
       mediaId: '18034340228150471'
       published: 2024-12-30-18-10-42
-      updated: 2024-12-31-17-02-16
+      updated: 2024-12-31-18-09-46
       followers: 1520
       likes: 120
-      views: 373
+      views: 382
     - service: vk
       id: 2004
       published: 2024-12-30-18-10-48
-      updated: 2024-12-31-17-02-16
+      updated: 2024-12-31-18-09-46
       followers: 1037
       likes: 38
-      views: 177
+      views: 182
       reposts: 2
       comments: !c |-
         G74BgCwS7FiSIbRJuw4H4p//LrY8Qn/Hd0EzTjyQTsBRhMl9utrO0JuhmQ32PYKHPxigumkNWu2d
@@ -3340,7 +3340,37 @@
     - service: tg
       id: 642
       published: 2024-12-30-18-10-55
-      updated: 2024-12-31-17-02-17
+      updated: 2024-12-31-18-09-46
       followers: 642
       likes: 57
-      views: 238
+      views: 243
+2024-12-31-a-look-into-the-darkness:
+  title: A Look Into the Darkness
+  titleRu: Взгляд в темноту
+  location: Fort Frostmoth
+  content: store:/shots/2024-12-31-a-look-into-the-darkness.png
+  trash: store:/trash/dehero.2024-12-31-16-44-23.1.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  addon: Bloodmoon
+  tags:
+    - fir
+    - tree
+    - guard
+    - torch
+  mark: B1
+  posts:
+    - service: ig
+      id: DEQJZBKzzA5
+      mediaId: '18055957414807240'
+      published: 2024-12-31-18-10-17
+      followers: 1519
+    - service: vk
+      id: 2007
+      published: 2024-12-31-18-10-25
+      followers: 1038
+    - service: tg
+      id: 643
+      published: 2024-12-31-18-10-35
+      followers: 643
