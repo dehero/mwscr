@@ -1182,18 +1182,21 @@
     - service: vk
       id: 1732
       published: 2024-09-02-18-29-04
-      updated: 2024-12-24-05-08-00
+      updated: 2024-12-31-06-11-00
       followers: 942
       likes: 40
-      views: 395
+      views: 397
       reposts: 2
+      comments: !c |-
+        iyOAkZPLQnlBcwQVAACpcWlyb25nNjY22THQkdC+0LbQtSDQvNC+0LksINC00L4g0YfQtdCz0L4g
+        0LbQtSDRg9GO0YLQvdC+IC4uAw==
     - service: tg
       id: 520
       published: 2024-09-02-18-29-11
-      updated: 2024-12-24-05-07-58
+      updated: 2024-12-31-06-10-58
       followers: 550
       likes: 62
-      views: 632
+      views: 637
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
@@ -5442,10 +5445,10 @@
     - service: vk
       id: 1745
       published: 2024-09-09-18-29-21
-      updated: 2024-12-24-05-07-59
+      updated: 2024-12-31-06-10-59
       followers: 945
       likes: 41
-      views: 302
+      views: 303
       comments: !c |-
         C0SAkpPLQnkeZvG9gACraWQyMDMyODMxNDiu0JrRgNCw0YHQuNCy0L6Ty0J5HvA6hAAAsGFydHlv
         bV9tZWxpa2hvZmbZRtCk0LDRhdCy0LXRgNC6INC60LDQuiDQvtGC0LTQtdC70YzQvdGL0Lkg0LLQ
@@ -5453,10 +5456,10 @@
     - service: tg
       id: 527
       published: 2024-09-09-18-29-28
-      updated: 2024-12-24-05-07-57
+      updated: 2024-12-31-06-10-57
       followers: 552
       likes: 66
-      views: 535
+      views: 539
       comments: !c |-
         G4gA6B0JNk5xo8u38hgRepaoedZal0GJlxGMYHIPuulzvrUogrrMzpajTcoiSdIcyfb7z+nXwQac
         aTqwrzLpsNCwAQcxxs3X5/055l8a47uPbxEuW3Jitcjpsi8+ihZceLnFkGer0sdtItqyhTA0N6lD
@@ -6146,10 +6149,10 @@
       id: C_JJkgzvCqD
       mediaId: '18017561102445866'
       published: 2024-08-26-18-20-10
-      updated: 2024-12-24-05-07-58
+      updated: 2024-12-31-06-10-56
       followers: 1457
       likes: 117
-      views: 429
+      views: 430
     - service: vk
       id: 1710
       published: 2024-08-26-18-20-16
@@ -6160,10 +6163,10 @@
     - service: tg
       id: 513
       published: 2024-08-26-18-20-21
-      updated: 2024-12-24-05-07-59
+      updated: 2024-12-31-06-10-59
       followers: 544
       likes: 66
-      views: 588
+      views: 590
 2018-06-19-thelas-ancestral-tomb:
   title: Thelas Ancestral Tomb
   titleRu: Родовая гробница Телас
@@ -9943,17 +9946,17 @@
       id: DEK-qqtJkm9
       mediaId: '17873375394164737'
       published: 2024-12-29-18-00-22
-      updated: 2024-12-31-05-07-57
+      updated: 2024-12-31-06-10-55
       followers: 1519
       likes: 110
       views: 427
     - service: vk
       id: 1996
       published: 2024-12-29-18-00-28
-      updated: 2024-12-31-05-07-59
+      updated: 2024-12-31-06-10-57
       followers: 1037
       likes: 28
-      views: 246
+      views: 247
       reposts: 1
       comments: !c |-
         G7EBwJwHtiP6ZSCfeipl5Br/j9yzT/j0b8WQRVyBtxVhcu6WTue0ffylv5BTsl/ewAGK2c5iCC3M
@@ -9964,10 +9967,10 @@
     - service: tg
       id: 641
       published: 2024-12-29-18-00-34
-      updated: 2024-12-31-05-07-59
+      updated: 2024-12-31-06-10-56
       followers: 642
       likes: 56
-      views: 211
+      views: 212
 2018-10-04-netch-over-the-puddle:
   title: Netch Over the Puddle
   titleRu: Нетч над лужей
