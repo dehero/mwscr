@@ -172,18 +172,18 @@
     - service: vk
       id: 1876
       published: 2024-11-04-18-10-22
-      updated: 2024-12-24-00-36-02
+      updated: 2024-12-31-02-09-08
       followers: 1003
       likes: 30
-      views: 287
+      views: 292
       reposts: 1
     - service: tg
       id: 585
       published: 2024-11-04-18-10-32
-      updated: 2024-12-24-00-36-00
+      updated: 2024-12-31-02-09-06
       followers: 565
       likes: 57
-      views: 576
+      views: 594
 2018-01-07-vistha-kai-warden-of-the-corprusarium:
   title: Vistha-Kai, Warden of the Corprusarium
   titleRu: Виста-Кай, смотритель Корпрусариума
@@ -3941,10 +3941,10 @@
       id: DBHTZKzT3cy
       mediaId: '18061121767773879'
       published: 2024-10-14-18-10-20
-      updated: 2024-12-24-00-35-57
+      updated: 2024-12-31-02-09-03
       followers: 1463
       likes: 91
-      views: 628
+      views: 630
     - service: vk
       id: 1824
       published: 2024-10-14-18-10-26
@@ -9943,17 +9943,17 @@
       id: DEK-qqtJkm9
       mediaId: '17873375394164737'
       published: 2024-12-29-18-00-22
-      updated: 2024-12-31-00-35-42
+      updated: 2024-12-31-02-09-02
       followers: 1519
       likes: 110
-      views: 411
+      views: 419
     - service: vk
       id: 1996
       published: 2024-12-29-18-00-28
-      updated: 2024-12-31-00-35-44
+      updated: 2024-12-31-02-09-04
       followers: 1037
       likes: 28
-      views: 239
+      views: 242
       reposts: 1
       comments: !c |-
         G7EBwJwHtiP6ZSCfeipl5Br/j9yzT/j0b8WQRVyBtxVhcu6WTue0ffylv5BTsl/ewAGK2c5iCC3M
@@ -9964,7 +9964,7 @@
     - service: tg
       id: 641
       published: 2024-12-29-18-00-34
-      updated: 2024-12-31-00-35-43
+      updated: 2024-12-31-02-09-03
       followers: 642
       likes: 56
       views: 206
@@ -10412,7 +10412,7 @@
       id: C_s4h4kvWJC
       mediaId: '17969542835645642'
       published: 2024-09-09-15-23-55
-      updated: 2024-12-24-00-35-58
+      updated: 2024-12-31-02-09-04
       followers: 1456
       likes: 74
       views: 313
