@@ -1624,7 +1624,7 @@
     - service: vk
       id: 1524
       published: 2024-05-07-18-18-49
-      updated: 2024-12-25-13-14-07
+      updated: 2025-01-01-14-03-08
       followers: 913
       likes: 34
       views: 266
@@ -1632,10 +1632,10 @@
     - service: tg
       id: 401
       published: 2024-05-07-18-18-56
-      updated: 2024-12-25-13-14-06
+      updated: 2025-01-01-14-03-05
       followers: 371
       likes: 56
-      views: 458
+      views: 459
 2024-05-08-slaves-sleep-peacefully-in-their-shacks:
   title: Slaves Sleep Peacefully in Their Shacks
   titleRu: Рабы мирно спят в своих хижинах
@@ -3319,17 +3319,17 @@
       id: DENkpSrzZO6
       mediaId: '18034340228150471'
       published: 2024-12-30-18-10-42
-      updated: 2025-01-01-13-13-56
+      updated: 2025-01-01-14-03-02
       followers: 1520
       likes: 125
-      views: 430
+      views: 431
     - service: vk
       id: 2004
       published: 2024-12-30-18-10-48
-      updated: 2025-01-01-13-13-57
+      updated: 2025-01-01-14-03-02
       followers: 1037
-      likes: 40
-      views: 213
+      likes: 41
+      views: 215
       reposts: 2
       comments: !c |-
         G74BgCwS7FiSIbRJuw4H4p//LrY8Qn/Hd0EzTjyQTsBRhMl9utrO0JuhmQ32PYKHPxigumkNWu2d
@@ -3340,7 +3340,7 @@
     - service: tg
       id: 642
       published: 2024-12-30-18-10-55
-      updated: 2025-01-01-13-13-57
+      updated: 2025-01-01-14-03-02
       followers: 642
       likes: 61
       views: 285
@@ -3365,22 +3365,22 @@
       id: DEQJZBKzzA5
       mediaId: '18055957414807240'
       published: 2024-12-31-18-10-17
-      updated: 2025-01-01-13-13-56
+      updated: 2025-01-01-14-03-01
       followers: 1519
-      likes: 94
-      views: 334
+      likes: 95
+      views: 339
     - service: vk
       id: 2007
       published: 2024-12-31-18-10-25
-      updated: 2025-01-01-13-13-56
+      updated: 2025-01-01-14-03-02
       followers: 1038
       likes: 26
-      views: 154
+      views: 157
       reposts: 1
     - service: tg
       id: 643
       published: 2024-12-31-18-10-35
-      updated: 2025-01-01-13-13-57
+      updated: 2025-01-01-14-03-02
       followers: 643
-      likes: 47
-      views: 161
+      likes: 48
+      views: 162
