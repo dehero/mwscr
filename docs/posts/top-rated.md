@@ -527,38 +527,6 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_319) | 2017-06-11 |   121 |    11 |        62 |  17.74 |
 |                                                   |            |   121 |    88 |       243 |  30.14 |
 
-## <span id="2017-09-02-vivec-at-a-loss">Vivec at a Loss</span>
-
-`RU` Вивек в растерянности
-
-<a href="https://instagram.com/p/BYiJhBSjv3T/" title="2017-09-02-vivec-at-a-loss"><img alt="store:/shots/2017-09-02-vivec-at-a-loss.png" src="../../assets/previews/shots/2017-09-02-vivec-at-a-loss.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`A2` `📍 Vivec, Temple` `🚀 OpenMW` `statue`
-
-```
-2017-09-02-vivec-at-a-loss
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BYiJhBSjv3T/)       | 2017-09-02 |       |    96 |       199 |  48.24 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_413)  | 2017-09-02 |   134 |     9 |        75 |     12 |
-| [`ig`](https://instagram.com/p/DESuLyyPPAX/)       | 2025-01-01 |       |       |      1520 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2008) | 2025-01-01 |       |       |      1038 |        |
-| [`tg`](https://t.me/mwscr/644)                     | 2025-01-01 |       |       |       644 |        |
-|                                                    |            |   134 |   105 |       274 |  30.12 |
-
-#### Comments
-
-- `vk` <ins title="2017-09-02-10-14-58">id281861772</ins> &quot;Синие или коричневые?&quot;
-- `vk` <ins title="2017-09-02-11-30-02">kydinov91</ins> Вивек это прототип йога Вивекананды наверное))
-- `ig` <ins title="2017-09-02-20-14-12">capricious.son</ins> CHIM
-- `ig` <ins title="2017-09-06-14-39-34">sam.m.cooley</ins> he askin for kagrenac&#39;s tools
-
 ## <span id="2018-04-18-ald-sotha">Ald Sotha</span>
 
 `RU` Альд Сота
@@ -1293,6 +1261,34 @@
 | [`ig`](https://instagram.com/p/BVzIxzXj8mN/)      | 2017-06-26 |       |    71 |       184 |  38.59 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_334) | 2017-06-26 |   110 |    10 |        65 |  15.38 |
 |                                                   |            |   110 |    81 |       249 |  26.99 |
+
+## <span id="2017-03-22-betty-netch-and-far-caldera">Betty Netch and Far Caldera</span>
+
+`RU` Самка нетча и далёкая Кальдера
+
+<a href="https://instagram.com/p/BR7v8sRD5jg/" title="2017-03-22-betty-netch-and-far-caldera"><img alt="store:/shots/2017-03-22-betty-netch-and-far-caldera.png" src="../../assets/previews/shots/2017-03-22-betty-netch-and-far-caldera.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` `📍 Caldera` `🚀 OpenMW` `netch`
+
+```
+2017-03-22-betty-netch-and-far-caldera
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BR7v8sRD5jg/)      | 2017-03-22 |       |    77 |       161 |  47.83 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_226) | 2017-03-22 |   119 |     6 |        47 |      6 |
+|                                                   |            |   119 |    83 |       208 |  26.91 |
+
+#### Comments
+
+- `ig` <ins title="2017-03-22-15-06-44">attack_on_titan_fan01</ins> Dragonborn dlc right?
+- `ig` <ins title="2017-03-22-15-12-42">mwscr</ins> @attack_on_titan_fan01 No, Dragonborn DLC is for TES V: Skyrim (2011). This screenshot is from TES III: Morrowind (2002), like others on this account.
+- `ig` <ins title="2017-03-22-15-16-18">attack_on_titan_fan01</ins> @mwscr OK thanks
 
 ---
 
