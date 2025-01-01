@@ -169,10 +169,10 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2024-12-25-17-02-19
+      updated: 2025-01-01-18-09-58
       followers: 337
       likes: 91
-      views: 611
+      views: 612
       comments: !c |-
         ixyAkZTLQnjexabnAACucXVpbnR1c19mYWJpdXOtV2UncmUgc28gYmFja5PLQnjexcSwAAClYW5z
         aXOhLgM=
@@ -9088,6 +9088,19 @@
         G6wAwJ0HptsdabARvY+GqzfRlcJ4nnZG+DWhjLvMmtBuhJP3QXUzwqPUM1hSTnbWXaR9C44/9KeB
         B3ZJioqzoCWQYh2W10rODU40MA4w0CygdACfbJDBIbdbwHGBBB24z5/HnuvGt42VNJIIfwQPAg48
         RJsudAtTDy+oITSX79Fq6zPRLxaI9bY+zvPJDz+usVUSVkJOT7jFXWKkiQ==
+    - service: ig
+      id: DESuLyyPPAX
+      mediaId: '17995420544733093'
+      published: 2025-01-01-18-10-15
+      followers: 1520
+    - service: vk
+      id: 2008
+      published: 2025-01-01-18-10-21
+      followers: 1038
+    - service: tg
+      id: 644
+      published: 2025-01-01-18-10-27
+      followers: 644
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
@@ -10562,7 +10575,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2024-12-25-17-02-20
+      updated: 2025-01-01-18-09-59
       followers: 904
       likes: 44
       views: 296
@@ -11540,7 +11553,7 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2024-12-25-17-02-22
+      updated: 2025-01-01-18-10-02
       followers: 895
       likes: 35
       views: 295
@@ -11548,10 +11561,10 @@
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2024-12-25-17-02-19
+      updated: 2025-01-01-18-09-57
       followers: 343
       likes: 69
-      views: 530
+      views: 531
       comments: !c ixOAkZPLQnjhAF9lAACucXVpbnR1c19mYWJpdXOt8J+Pg+KAjeKZgu+4jwM=
 2017-11-16-cozy-workplace-in-the-basement:
   title: Cozy Workplace in the Basement
