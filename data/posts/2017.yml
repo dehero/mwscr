@@ -9092,25 +9092,28 @@
       id: DESuLyyPPAX
       mediaId: '17995420544733093'
       published: 2025-01-01-18-10-15
-      updated: 2025-01-02-10-07-48
+      updated: 2025-01-02-11-01-17
       followers: 1520
       likes: 100
-      views: 338
+      views: 345
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-01-02-10-07-49
+      updated: 2025-01-02-11-01-18
       followers: 1038
       likes: 22
-      views: 181
+      views: 185
       reposts: 1
+      comments: !c |-
+        G1IA+J0JdiwXiwm2XHYcUe1IT5+tDJsEI0z2PGWlNCWbjYcPp1yKLYw4kWMgAT5zZLJTE42yKmre
+        ec79Pi8EeDukCsvrZ7fWnKIPtV0gbSeMygw=
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-01-02-10-07-49
+      updated: 2025-01-02-11-01-18
       followers: 644
-      likes: 50
-      views: 177
+      likes: 51
+      views: 182
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
