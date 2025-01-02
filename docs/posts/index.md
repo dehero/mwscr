@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/CGngmEPhfvt/)       | 2020-10-21 |       |   121 |       907 |  13.34 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1270) | 2020-10-21 |   810 |    60 |       449 |  13.59 |
 | [`tg`](https://t.me/mwscr/228)                     | 2020-10-21 |   843 |     7 |       165 |   4.24 |
-| [`ig`](https://instagram.com/p/DEVTC4Gyb5x/)       | 2025-01-02 |       |       |      1520 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2011) | 2025-01-02 |       |       |      1040 |        |
-| [`tg`](https://t.me/mwscr/645)                     | 2025-01-02 |       |       |       646 |        |
-|                                                    |            |       |       |      3206 |  10.39 |
+| [`ig`](https://instagram.com/p/DEVTC4Gyb5x/)       | 2025-01-02 |    37 |    23 |      1520 |   1.51 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2011) | 2025-01-02 |    49 |    13 |      1040 |   1.25 |
+| [`tg`](https://t.me/mwscr/645)                     | 2025-01-02 |    72 |    27 |       646 |   4.18 |
+|                                                    |            |   158 |    63 |      3206 |   6.35 |
 
 #### Comments
 
@@ -43,6 +43,7 @@
   - <ins title="2020-10-22-15-27-53">Alexander_Batch</ins> Somehow true, as a person rised in the city (in a flat specifically) without &quot;great nature-immersion&quot; experience, games helped me to think wider about weather, forests, plains and other things
   - <ins title="2020-10-22-20-27-51">al_litver</ins> Sooo true!
 - `vk` <ins title="2020-10-25-19-30-42">id4936513</ins> аж слёзы навернулись
+- `tg` <ins title="2025-01-02-18-27-27">C4H6O4</ins> Like lovely dream
 
 ## <span id="2025-01-01-vivec-at-a-loss">Vivec at a Loss</span>
 
@@ -66,10 +67,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYiJhBSjv3T/)       | 2017-09-02 |       |    96 |       199 |  48.24 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_413)  | 2017-09-02 |   134 |     9 |        75 |     12 |
-| [`ig`](https://instagram.com/p/DESuLyyPPAX/)       | 2025-01-01 |   376 |   105 |      1520 |   6.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2008) | 2025-01-01 |   209 |    25 |      1038 |    2.5 |
-| [`tg`](https://t.me/mwscr/644)                     | 2025-01-01 |   201 |    56 |       644 |    8.7 |
-|                                                    |            |   786 |   186 |      3202 |  15.67 |
+| [`ig`](https://instagram.com/p/DESuLyyPPAX/)       | 2025-01-01 |   379 |   105 |      1520 |   6.91 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2008) | 2025-01-01 |   211 |    25 |      1038 |    2.5 |
+| [`tg`](https://t.me/mwscr/644)                     | 2025-01-01 |   216 |    58 |       644 |   9.01 |
+|                                                    |            |   806 |   188 |      3202 |  15.73 |
 
 #### Comments
 
