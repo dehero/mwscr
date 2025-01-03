@@ -8026,10 +8026,10 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2024-12-27-04-09-36
+      updated: 2025-01-03-04-09-52
       followers: 943
       likes: 27
-      views: 274
+      views: 275
       comments: !c |-
         G4kAABwJtm2DFS6f5Iqx04j/uZniZ21tAxEXoy2KJZqi5V7U8pariU3U3psJbEIUKjYbfn8SgoMM
         NuBAA4WMBqANZz5D4HxxP5/1mYm29/qcY41xrP13OoSBgAeAgkJKMk1xz7wtNSw7RMEup5pJICmx
@@ -8037,10 +8037,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2024-12-27-04-09-35
+      updated: 2025-01-03-04-09-51
       followers: 551
       likes: 56
-      views: 525
+      views: 528
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
