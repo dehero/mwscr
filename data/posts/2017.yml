@@ -764,10 +764,10 @@
     - service: vk
       id: 1868
       published: 2024-10-31-18-23-28
-      updated: 2024-12-27-02-09-58
+      updated: 2025-01-03-02-10-26
       followers: 1002
-      likes: 31
-      views: 285
+      likes: 33
+      views: 290
       reposts: 1
       comments: !c |-
         GyYBAByJcSyK4yxpUhUhcCNPaHkVYJZQmEQalmCELzeh17kZq9MNQo3AhuiQl44b3MyjD1s1BMNg
@@ -776,10 +776,10 @@
     - service: tg
       id: 581
       published: 2024-10-31-18-23-34
-      updated: 2024-12-27-02-09-56
+      updated: 2025-01-03-02-10-25
       followers: 564
       likes: 68
-      views: 544
+      views: 555
       comments: !c ixeAkpPLQnkuQKV4AACqU2VidWxiYTUxOKTwn5igk8tCeS5AmQSAAKVBZGVsZaTwn5GBAw==
 2017-01-24-welcome-to-gnaar-mok:
   title: Welcome to Gnaar Mok
@@ -9092,17 +9092,17 @@
       id: DESuLyyPPAX
       mediaId: '17995420544733093'
       published: 2025-01-01-18-10-15
-      updated: 2025-01-03-00-35-59
+      updated: 2025-01-03-02-10-23
       followers: 1520
-      likes: 107
-      views: 400
+      likes: 108
+      views: 405
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-01-03-00-36-00
+      updated: 2025-01-03-02-10-24
       followers: 1038
       likes: 26
-      views: 217
+      views: 218
       reposts: 1
       comments: !c |-
         G1IA+J0JdiwXiwm2XHYcUe1IT5+tDJsEI0z2PGWlNCWbjYcPp1yKLYw4kWMgAT5zZLJTE42yKmre
@@ -9110,10 +9110,10 @@
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-01-03-00-36-00
+      updated: 2025-01-03-02-10-24
       followers: 644
       likes: 60
-      views: 228
+      views: 230
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
