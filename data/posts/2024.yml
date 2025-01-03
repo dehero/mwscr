@@ -3368,22 +3368,26 @@
       id: DEQJZBKzzA5
       mediaId: '18055957414807240'
       published: 2024-12-31-18-10-17
-      updated: 2025-01-02-17-03-08
+      updated: 2025-01-03-18-10-28
       followers: 1519
-      likes: 103
-      views: 407
+      likes: 110
+      views: 433
     - service: vk
       id: 2007
       published: 2024-12-31-18-10-25
-      updated: 2025-01-02-17-03-08
+      updated: 2025-01-03-18-10-29
       followers: 1038
-      likes: 31
-      views: 211
+      likes: 34
+      views: 241
       reposts: 1
+      comments: !c |-
+        G8IA4J0Jtq2Et3rBK5Mdmfjn3xvp18HIRpJZnQQjTO7TuRFasFZDv4wrigDk4lTHqWW/upLIyhyZ
+        bDc4DZiihGJLOZXwwUPWwoPq5uZ5/8i4+yDfNSQVfhP8nXUdSlruzgGLi8lVoPDqAfDDMJDWs4f7
+        GqPtbjftJGQ3UtnQTB4WSDFz4DtrAQ==
     - service: tg
       id: 643
       published: 2024-12-31-18-10-35
-      updated: 2025-01-02-17-03-08
+      updated: 2025-01-03-18-10-29
       followers: 643
       likes: 60
-      views: 240
+      views: 262

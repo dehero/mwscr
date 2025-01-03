@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`2 items`
+`3 items`
+
+## <span id="2025-01-03-nchurdamz-in-sunset-haze">Nchurdamz in Sunset Haze</span>
+
+`RU` Нчурдамц в закатной дымке
+
+<a href="https://instagram.com/p/Baw9lQADygR/" title="2017-10-27-nchurdamz-in-sunset-haze"><img alt="store:/shots/2017-10-27-nchurdamz-in-sunset-haze.png" src="../../assets/previews/shots/2017-10-27-nchurdamz-in-sunset-haze.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Nchurdamz` `🚀 OpenMW` `tower` `dwemer` `haze`
+
+```
+2025-01-03-nchurdamz-in-sunset-haze
+```
+
+> `2017-10-27-nchurdamz-in-sunset-haze`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Baw9lQADygR/)       | 2017-10-27 |       |    64 |       226 |  28.32 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_480)  | 2017-10-27 |   201 |    13 |        93 |  13.98 |
+| [`ig`](https://instagram.com/p/DEX30_wv76a/)       | 2025-01-03 |       |       |      1520 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2014) | 2025-01-03 |       |       |      1041 |        |
+| [`tg`](https://t.me/mwscr/646)                     | 2025-01-03 |       |       |       646 |        |
+|                                                    |            |       |       |      3207 |  21.15 |
 
 ## <span id="2025-01-02-land-of-rain">Land of Rain</span>
 
@@ -29,10 +56,10 @@
 | [`ig`](https://instagram.com/p/CGngmEPhfvt/)       | 2020-10-21 |       |   121 |       907 |  13.34 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1270) | 2020-10-21 |   810 |    60 |       449 |  13.59 |
 | [`tg`](https://t.me/mwscr/228)                     | 2020-10-21 |   843 |     7 |       165 |   4.24 |
-| [`ig`](https://instagram.com/p/DEVTC4Gyb5x/)       | 2025-01-02 |   294 |    97 |      1520 |   6.38 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2011) | 2025-01-02 |   191 |    37 |      1040 |   3.56 |
+| [`ig`](https://instagram.com/p/DEVTC4Gyb5x/)       | 2025-01-02 |   295 |    97 |      1520 |   6.38 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2011) | 2025-01-02 |   195 |    38 |      1040 |   3.65 |
 | [`tg`](https://t.me/mwscr/645)                     | 2025-01-02 |   182 |    55 |       646 |   8.51 |
-|                                                    |            |   667 |   189 |      3206 |   8.27 |
+|                                                    |            |   672 |   190 |      3206 |   8.29 |
 
 #### Comments
 
