@@ -3281,25 +3281,29 @@
       id: DEIa6Owpzbh
       mediaId: '18334365127155599'
       published: 2024-12-28-18-09-25
-      updated: 2025-01-02-18-10-37
+      updated: 2025-01-03-19-01-27
       followers: 1518
-      likes: 208
-      views: 697
+      likes: 214
+      views: 716
     - service: vk
       id: 1995
       published: 2024-12-28-18-09-30
-      updated: 2025-01-02-18-10-38
+      updated: 2025-01-03-19-01-28
       followers: 1035
-      likes: 51
-      views: 385
+      likes: 55
+      views: 406
       reposts: 3
+      comments: !c |-
+        G3UA+B0HzjnKkfW7SxaSoaBwW6pPKIwxBrbsLLboLNHSrJa76Hp7zi9dyu4PbIKQFCFhPmyuXPJS
+        FJJcqndgeq77w/j6HeA5j6231fqc43dUJbI5Bj5mKaGhDItyzTSiEt2EcbgxyXyJFwyNRGczFNbx
+        qQA=
     - service: tg
       id: 640
       published: 2024-12-28-18-09-36
-      updated: 2025-01-02-18-10-37
+      updated: 2025-01-03-19-01-27
       followers: 638
-      likes: 66
-      views: 344
+      likes: 68
+      views: 370
       comments: !c |-
         iyOAkpPLQnlCbkw1AAClYW5zaXO7VGhlIEZpcnN0IEJyZWF0aCBvZiBTa2liaWRpk8tCeUE1Nk4A
         AKt6aGVjaGthX2RydqTwn5mEAw==
@@ -3322,18 +3326,18 @@
       id: DENkpSrzZO6
       mediaId: '18034340228150471'
       published: 2024-12-30-18-10-42
-      updated: 2025-01-02-18-10-36
+      updated: 2025-01-03-19-01-26
       followers: 1520
-      likes: 131
-      views: 470
+      likes: 135
+      views: 483
     - service: vk
       id: 2004
       published: 2024-12-30-18-10-48
-      updated: 2025-01-02-18-10-37
+      updated: 2025-01-03-19-01-27
       followers: 1037
-      likes: 45
-      views: 262
-      reposts: 2
+      likes: 46
+      views: 299
+      reposts: 4
       comments: !c |-
         G74BgCwS7FiSIbRJuw4H4p//LrY8Qn/Hd0EzTjyQTsBRhMl9utrO0JuhmQ32PYKHPxigumkNWu2d
         Ikt+ZREKMkdGO3HI8mx5wB52cRgVcNTAZxMdaDh4wdFQ5ja2gsa01RElavT0/fnvV5+v4/g9Q4WP
@@ -3343,10 +3347,10 @@
     - service: tg
       id: 642
       published: 2024-12-30-18-10-55
-      updated: 2025-01-02-18-10-37
+      updated: 2025-01-03-19-01-27
       followers: 642
-      likes: 68
-      views: 336
+      likes: 69
+      views: 379
 2024-12-31-a-look-into-the-darkness:
   title: A Look Into the Darkness
   titleRu: Взгляд в темноту
