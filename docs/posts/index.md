@@ -14,7 +14,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-01-02-land-of-rain&postLocation=)</code> `🚀 OpenMW` `tree` `rain`
+`A1` `📍 Grazelands Region` `🚀 OpenMW` `tree` `rain`
 
 ```
 2025-01-02-land-of-rain
