@@ -139,6 +139,13 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     throw new Error(`Cannot upload file to ${serviceUrl}`);
   }
 
+  async getCroppedImageUrl(image: sharp.Sharp, width: number, height: number): Promise<string> {
+    // Crop and convert the image to JPEG
+    const jpeg = await image.clone().resize(width, height).jpeg({ quality: 100 }).toBuffer();
+
+    return this.getUploadUrl(jpeg);
+  }
+
   async connect() {
     if (!this.ig) {
       const { INSTAGRAM_ACCESS_TOKEN } = process.env;
@@ -154,9 +161,9 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
   async publishPostEntry(entry: PostEntry): Promise<void> {
     const [, post] = entry;
-
-    if (typeof post.content !== 'string') {
-      throw new TypeError(`Cannot publish multiple images to ${this.name}`);
+    const [firstContent, ...restContent] = asArray(post.content);
+    if (!firstContent) {
+      throw new Error('No content found');
     }
 
     if (DEBUG_PUBLISHING) {
@@ -180,20 +187,31 @@ export class InstagramManager extends Instagram implements PostingServiceManager
         maxHeightMultiplier = 1;
     }
 
-    const [file] = await readResource(post.content);
-    const image = sharp(file);
-    const { width = 0 } = await image.metadata();
+    const [file] = await readResource(firstContent);
+    const firstImage = sharp(file);
+    const { width = 0 } = await firstImage.metadata();
+    const height = Math.floor(width * maxHeightMultiplier);
 
-    // Convert the image to JPEG and upload the image
-    const jpeg = await image
-      .clone()
-      .resize(width, Math.floor(width * maxHeightMultiplier))
-      .jpeg({ quality: 100 })
-      .toBuffer();
-    const imageUrl = await this.getUploadUrl(jpeg);
     const caption = await this.createCaption(entry);
+    const firstImageUrl = await this.getCroppedImageUrl(firstImage, width, height);
+    const firstContainerId = await this.createContainer(ig.newPostPagePhotoMediaRequest(firstImageUrl, caption));
 
-    const [mediaId, mediaInfo] = await this.createMedia(ig.newPostPagePhotoMediaRequest(imageUrl, caption));
+    let containerId;
+
+    if (post.type === 'redrawing' || post.type === 'shot-set') {
+      const children = [firstContainerId];
+
+      for (const url of restContent) {
+        const [file] = await readResource(url);
+        const imageUrl = await this.getCroppedImageUrl(sharp(file), width, height);
+        children.push(await this.createContainer(ig.newPostPagePhotoMediaRequest(imageUrl, caption)));
+      }
+      containerId = await this.createContainer(ig.newPostPageCarouselMediaRequest(children, caption));
+    } else {
+      containerId = firstContainerId;
+    }
+
+    const [mediaId, mediaInfo] = await this.publishContainer(containerId);
     const id = mediaInfo.getShortcode() || mediaInfo.getIgId();
 
     if (!id) {
@@ -204,16 +222,11 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
     const newPublications: InstagramPost[] = [{ service: 'ig', id, mediaId, followers, published: new Date() }];
 
+    // Create story for "wallpaper-v" post type
     if (post.type === 'wallpaper-v') {
-      // Convert the image to JPEG and upload the image
-      const jpeg = await image
-        .clone()
-        .resize(width, Math.floor(width * (16 / 9)))
-        .jpeg({ quality: 100 })
-        .toBuffer();
-      const imageUrl = await this.getUploadUrl(jpeg);
-
-      const [mediaId, mediaInfo] = await this.createMedia(ig.newPostPageStoriesPhotoMediaRequest(imageUrl));
+      const imageUrl = await this.getCroppedImageUrl(firstImage, width, Math.floor(width * (16 / 9)));
+      const containerId = await this.createContainer(ig.newPostPageStoriesPhotoMediaRequest(imageUrl));
+      const [mediaId, mediaInfo] = await this.publishContainer(containerId);
       const id = mediaInfo.getShortcode() || mediaInfo.getIgId();
 
       if (!id) {
@@ -226,7 +239,21 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     post.posts = [...(post.posts ?? []), ...newPublications];
   }
 
-  async createMedia(request: AbstractRequest<CreatedObjectIdResponse>): Promise<[string, GetMediaInfoResponse]> {
+  async publishContainer(containerId: string): Promise<[string, GetMediaInfoResponse]> {
+    const { ig } = await this.connect();
+
+    const mediaResponse = await ig.newPostPublishMediaRequest(containerId).execute();
+    const mediaId = mediaResponse.getId();
+
+    // Get media information from Instagram
+    const mediaInfo = await ig
+      .newGetMediaInfoRequest(mediaId, PrivateMediaField.SHORTCODE, PrivateMediaField.IG_ID)
+      .execute();
+
+    return [mediaId, mediaInfo];
+  }
+
+  async createContainer(request: AbstractRequest<CreatedObjectIdResponse>): Promise<string> {
     const { ig } = await this.connect();
 
     const createContainerResponse = await request.execute();
@@ -242,15 +269,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       }
     }
 
-    const mediaResponse = await ig.newPostPublishMediaRequest(containerId).execute();
-    const mediaId = mediaResponse.getId();
-
-    // Get media information from Instagram
-    const mediaInfo = await ig
-      .newGetMediaInfoRequest(mediaId, PrivateMediaField.SHORTCODE, PrivateMediaField.IG_ID)
-      .execute();
-
-    return [mediaId, mediaInfo];
+    return containerId;
   }
 
   async disconnect() {}
