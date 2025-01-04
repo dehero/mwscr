@@ -3314,10 +3314,10 @@
     - service: vk
       id: 1995
       published: 2024-12-28-18-09-30
-      updated: 2025-01-03-19-01-28
+      updated: 2025-01-04-20-07-40
       followers: 1035
       likes: 55
-      views: 406
+      views: 415
       reposts: 3
       comments: !c |-
         G3UA+B0HzjnKkfW7SxaSoaBwW6pPKIwxBrbsLLboLNHSrJa76Hp7zi9dyu4PbIKQFCFhPmyuXPJS
@@ -3326,10 +3326,10 @@
     - service: tg
       id: 640
       published: 2024-12-28-18-09-36
-      updated: 2025-01-03-19-01-27
+      updated: 2025-01-04-20-07-39
       followers: 638
-      likes: 68
-      views: 370
+      likes: 69
+      views: 409
       comments: !c |-
         iyOAkpPLQnlCbkw1AAClYW5zaXO7VGhlIEZpcnN0IEJyZWF0aCBvZiBTa2liaWRpk8tCeUE1Nk4A
         AKt6aGVjaGthX2RydqTwn5mEAw==
@@ -3359,10 +3359,10 @@
     - service: vk
       id: 2004
       published: 2024-12-30-18-10-48
-      updated: 2025-01-03-19-01-27
+      updated: 2025-01-04-20-07-40
       followers: 1037
-      likes: 46
-      views: 299
+      likes: 47
+      views: 318
       reposts: 4
       comments: !c |-
         G74BgCwS7FiSIbRJuw4H4p//LrY8Qn/Hd0EzTjyQTsBRhMl9utrO0JuhmQ32PYKHPxigumkNWu2d
@@ -3373,10 +3373,10 @@
     - service: tg
       id: 642
       published: 2024-12-30-18-10-55
-      updated: 2025-01-03-19-01-27
+      updated: 2025-01-04-20-07-39
       followers: 642
-      likes: 69
-      views: 379
+      likes: 70
+      views: 407
 2024-12-31-a-look-into-the-darkness:
   title: A Look Into the Darkness
   titleRu: Взгляд в темноту
