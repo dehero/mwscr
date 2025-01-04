@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.31.0](https://github.com/dehero/mwscr/compare/v1.30.4...v1.31.0) (2025-01-04)
+
+### Features
+
+- add "redrawing" and "shot-set" posting scenarios
+  ([e82aca4](https://github.com/dehero/mwscr/commit/e82aca43b85dc72fbafdf110d5561bed7fa35e27))
+- support posting multiple images to Instagram
+  ([efb6330](https://github.com/dehero/mwscr/commit/efb633047d043c837d963ce0af9be49a1df0eb94))
+- support posting multiple images to Telegram
+  ([0606dec](https://github.com/dehero/mwscr/commit/0606deca6847ff9f68377fd46fc3be984ddaced7))
+- support posting multiple images to VK
+  ([509ef22](https://github.com/dehero/mwscr/commit/509ef22b194494e6781f03ff550ff52326288c06))
+
+### Bug Fixes
+
+- improve "redrawing" post type captions
+  ([5672de0](https://github.com/dehero/mwscr/commit/5672de0a28c7127f1351e14a434189b0d7949a38))
+
+### Documentation
+
+- mark "redrawing" and "shot-set" posting as implemented
+  ([cf2d2da](https://github.com/dehero/mwscr/commit/cf2d2da0ef5e38a3972af2f67b7190a8f00aa947))
+
 ## [1.30.4](https://github.com/dehero/mwscr/compare/v1.30.3...v1.30.4) (2025-01-04)
 
 ### Documentation
