@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.31.1](https://github.com/dehero/mwscr/compare/v1.31.0...v1.31.1) (2025-01-04)
+
+### Bug Fixes
+
+- use English for user mentioning in Instagram and Telegram
+  ([60570e5](https://github.com/dehero/mwscr/commit/60570e5b6d432ffab4f3dc6fc2d470f316bbdfff))
+
 ## [1.31.0](https://github.com/dehero/mwscr/compare/v1.30.4...v1.31.0) (2025-01-04)
 
 ### Features
