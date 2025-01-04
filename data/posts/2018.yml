@@ -3680,10 +3680,10 @@
     - service: vk
       id: 1855
       published: 2024-10-25-18-10-15
-      updated: 2024-12-28-04-09-28
+      updated: 2025-01-04-05-07-20
       followers: 997
-      likes: 39
-      views: 297
+      likes: 41
+      views: 302
       reposts: 1
       comments: !c |-
         G9QBgCwKbGOzhuhJv0vFoSZyr8ka/09/MdI3/lv0MNMSTBJPzgVdVbcLLW8EAkGCAkdSHpZv29cJ
@@ -3694,10 +3694,10 @@
     - service: tg
       id: 575
       published: 2024-10-25-18-10-23
-      updated: 2024-12-28-04-09-28
+      updated: 2025-01-04-05-07-21
       followers: 563
       likes: 60
-      views: 557
+      views: 565
 2018-04-12-mushroom-stairs:
   title: Mushroom Stairs
   titleRu: Грибная лестница
@@ -11209,17 +11209,17 @@
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2024-12-28-04-09-29
+      updated: 2025-01-04-05-07-22
       followers: 961
-      likes: 30
-      views: 326
+      likes: 31
+      views: 330
     - service: tg
       id: 561
       published: 2024-10-11-18-10-00
-      updated: 2024-12-28-04-09-30
+      updated: 2025-01-04-05-07-23
       followers: 558
       likes: 55
-      views: 479
+      views: 482
 2018-11-04-dwemer-bay:
   title: Dwemer Bay
   titleRu: Двемерская бухта
@@ -11896,20 +11896,20 @@
     - service: vk
       id: 1774
       published: 2024-09-20-18-30-28
-      updated: 2024-12-28-04-09-33
+      updated: 2025-01-04-05-07-24
       followers: 949
       likes: 42
-      views: 350
+      views: 354
       comments: !c |-
         G2AA+J0Jto2E9THoiiB8kPHEexvhDac4HGCCvQSCCJN/zsPnvEZilqbsbGI8mxlVotYrmu/5gyw1
         gcWmGqGd1f38dc09r4zvhCIBT/ttSg1qGQZOX7pUQi8CDkHIRscrk7UA
     - service: tg
       id: 539
       published: 2024-09-20-18-30-37
-      updated: 2024-12-28-04-09-31
+      updated: 2025-01-04-05-07-25
       followers: 555
       likes: 58
-      views: 515
+      views: 516
 2018-11-22-three-trees-by-the-road:
   title: Three Trees by the Road
   titleRu: Три дерева у дороги
