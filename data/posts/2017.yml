@@ -577,7 +577,7 @@
     - service: vk
       id: 1491
       published: 2024-04-12-18-14-50
-      updated: 2024-12-28-13-12-09
+      updated: 2025-01-04-13-12-50
       followers: 911
       likes: 35
       views: 269
@@ -585,7 +585,7 @@
     - service: tg
       id: 376
       published: 2024-04-12-18-15-00
-      updated: 2024-12-28-13-12-07
+      updated: 2025-01-04-13-12-49
       followers: 352
       likes: 70
       views: 468
@@ -4569,17 +4569,17 @@
     - service: vk
       id: 1545
       published: 2024-05-24-18-19-24
-      updated: 2024-12-28-13-12-08
+      updated: 2025-01-04-13-12-49
       followers: 917
       likes: 38
       views: 292
     - service: tg
       id: 418
       published: 2024-05-24-18-19-31
-      updated: 2024-12-28-13-12-07
+      updated: 2025-01-04-13-12-48
       followers: 376
       likes: 57
-      views: 503
+      views: 506
       comments: !c |-
         ix6AkZTLQnj6vWCNAACpQm9yaXNfaW5rs9Ch0L7Qu9GF0YHRgtC10LnQvD+Ty0J4+r5/qQAApW13
         c2NypNCU0LAD
@@ -10909,17 +10909,17 @@
       id: DEX30_wv76a
       mediaId: '18116624404379470'
       published: 2025-01-03-18-10-44
-      updated: 2025-01-04-12-24-40
+      updated: 2025-01-04-13-12-46
       followers: 1520
       likes: 104
-      views: 347
+      views: 351
     - service: vk
       id: 2014
       published: 2025-01-03-18-10-50
-      updated: 2025-01-04-12-12-07
+      updated: 2025-01-04-13-12-46
       followers: 1041
       likes: 40
-      views: 178
+      views: 179
       reposts: 2
       comments: !c |-
         G1IA6J0J5vkzpaAMV97BFUHVLk4o4bBIkzxJPwyaSjDCZM9z+JyvoJQtce4AM0cmOwVJCqxqqNrs
@@ -10927,10 +10927,10 @@
     - service: tg
       id: 646
       published: 2025-01-03-18-10-56
-      updated: 2025-01-04-12-12-07
+      updated: 2025-01-04-13-12-47
       followers: 646
-      likes: 60
-      views: 210
+      likes: 61
+      views: 215
 2017-10-28-caldera-north-west-road:
   title: Caldera, North-West Road
   titleRu: Кальдера, северо-западная дорога
