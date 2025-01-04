@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.31.2](https://github.com/dehero/mwscr/compare/v1.31.1...v1.31.2) (2025-01-04)
+
+### Bug Fixes
+
+- use Telegram albums for posting multiple images at once
+  ([7706f6b](https://github.com/dehero/mwscr/commit/7706f6b78ab49aa40713b32777db59b8ef375d3f))
+
 ## [1.31.1](https://github.com/dehero/mwscr/compare/v1.31.0...v1.31.1) (2025-01-04)
 
 ### Bug Fixes
