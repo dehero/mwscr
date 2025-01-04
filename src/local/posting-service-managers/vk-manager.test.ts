@@ -60,6 +60,19 @@ test('createCaption', async (t) => {
     },
   ];
 
+  const redrawingEntry: PostEntry = [
+    '2025-01-04-mzahnch',
+    {
+      title: 'Mzahnch',
+      titleRu: 'Мзанч',
+      location: 'Mzahnch',
+      type: 'redrawing',
+      author: ['irina-bystritskaya', 'dehero'],
+      engine: 'OpenMW',
+      tags: ['dwemer', 'ruin'],
+    },
+  ];
+
   await t.test('should create proper post caption on Russian', async () => {
     mock.timers.enable({ apis: ['Date'], now: new Date('2024-08-07T18:25:22Z') });
 
@@ -79,6 +92,17 @@ test('createCaption', async (t) => {
     assert.strictEqual(
       caption,
       'Вертикальные обои: Звезды над Сураном\nот someone\n#morrowind #elderscrolls #wallpaper #openmw #sometag #anothertag\n\nСуран\nПосмотреть и скачать: https://mwscr.dehero.site/posts/2024-08-07-stars-above-suran/',
+    );
+  });
+
+  await t.test('should create proper post caption on Russian for redrawing', async () => {
+    mock.timers.enable({ apis: ['Date'], now: new Date('2025-01-04T18:25:22Z') });
+
+    const caption = await vkManager.createCaption(redrawingEntry);
+
+    assert.strictEqual(
+      caption,
+      'Перерисовка: Мзанч\nот @club207258733 (Ирины Быстрицкой)\n#morrowind #elderscrolls #drawing #screenshot #openmw #dwemer #ruin\n\nПосмотреть и скачать: https://mwscr.dehero.site/posts/2025-01-04-mzahnch/',
     );
   });
 });
