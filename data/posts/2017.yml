@@ -715,7 +715,7 @@
     - service: yt
       id: 8Waikj-VsSI
       published: 2017-01-22
-      updated: 2024-12-28-06-09-34
+      updated: 2025-01-04-06-09-37
       likes: 7
       views: 132
     - service: vk
@@ -1009,9 +1009,9 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2024-12-28-06-09-33
+      updated: 2025-01-04-06-09-36
       likes: 25
-      views: 572
+      views: 573
       comments: !c CxOAkZPLQnaO0E6sgACqQE5hcnNNY2FpbrBJIGxvdmUgdGhpcyBzaGl0Aw==
     - service: vk
       id: 101
@@ -1675,7 +1675,7 @@
     - service: yt
       id: Fd77v5UL_ek
       published: 2017-02-12
-      updated: 2024-12-28-06-09-33
+      updated: 2025-01-04-06-09-35
       likes: 31
       views: 675
       comments: !c |-
@@ -4470,10 +4470,10 @@
     - service: tg
       id: 531
       published: 2024-09-13-18-29-51
-      updated: 2024-12-28-06-09-35
+      updated: 2025-01-04-06-09-38
       followers: 556
       likes: 53
-      views: 553
+      views: 554
       comments: !c iw6AkZPLQnke7nQrgAClYW5zaXOsUHJhaXNlIFZlaGshAw==
 2017-04-27-in-khuul:
   title: In Khuul
@@ -10885,25 +10885,25 @@
       id: DEX30_wv76a
       mediaId: '18116624404379470'
       published: 2025-01-03-18-10-44
-      updated: 2025-01-04-05-07-18
+      updated: 2025-01-04-06-09-36
       followers: 1520
-      likes: 94
-      views: 292
+      likes: 96
+      views: 301
     - service: vk
       id: 2014
       published: 2025-01-03-18-10-50
-      updated: 2025-01-04-05-07-19
+      updated: 2025-01-04-06-09-36
       followers: 1041
-      likes: 30
-      views: 129
+      likes: 31
+      views: 133
       reposts: 1
     - service: tg
       id: 646
       published: 2025-01-03-18-10-56
-      updated: 2025-01-04-05-07-19
+      updated: 2025-01-04-06-09-37
       followers: 646
-      likes: 50
-      views: 163
+      likes: 52
+      views: 168
 2017-10-28-caldera-north-west-road:
   title: Caldera, North-West Road
   titleRu: Кальдера, северо-западная дорога
