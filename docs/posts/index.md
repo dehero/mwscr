@@ -25,16 +25,17 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DEaci7aTwYz/)       | 2025-01-04 |   200 |    73 |      1522 |    4.8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2016) | 2025-01-04 |   107 |    23 |      1042 |   2.21 |
-| [`tg`](https://t.me/mwscr/649,650)                 | 2025-01-04 |   114 |    36 |       644 |   5.59 |
-|                                                    |            |   421 |   132 |      3208 |    4.2 |
+| [`ig`](https://instagram.com/p/DEaci7aTwYz/)       | 2025-01-04 |   232 |    82 |      1522 |   5.39 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2016) | 2025-01-04 |   116 |    25 |      1042 |    2.4 |
+| [`tg`](https://t.me/mwscr/649,650)                 | 2025-01-04 |   121 |    38 |       644 |    5.9 |
+|                                                    |            |   469 |   145 |      3208 |   4.56 |
 
 #### Comments
 
 - `tg` <ins title="2025-01-04-18-20-34">wilzuull</ins> 
 - `vk` <ins title="2025-01-04-18-22-45">id820702664</ins> Мзанч
 - `ig` <ins title="2025-01-04-20-26-49">blatantbeats</ins> Reminds me of samurai Jack
+- `ig` <ins title="2025-01-04-21-42-26">doots_spookman</ins> he&#39;ll yeah
 
 ## <span id="2025-01-03-nchurdamz-in-sunset-haze">Nchurdamz in Sunset Haze</span>
 
@@ -58,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Baw9lQADygR/)       | 2017-10-27 |       |    64 |       226 |  28.32 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_480)  | 2017-10-27 |   201 |    13 |        93 |  13.98 |
-| [`ig`](https://instagram.com/p/DEX30_wv76a/)       | 2025-01-03 |   388 |   109 |      1520 |   7.17 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2014) | 2025-01-03 |   213 |    44 |      1041 |   4.42 |
-| [`tg`](https://t.me/mwscr/646)                     | 2025-01-03 |   262 |    63 |       646 |   9.75 |
-|                                                    |            |   863 |   216 |      3207 |  12.73 |
+| [`ig`](https://instagram.com/p/DEX30_wv76a/)       | 2025-01-03 |   390 |   109 |      1520 |   7.17 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2014) | 2025-01-03 |   214 |    44 |      1041 |   4.42 |
+| [`tg`](https://t.me/mwscr/646)                     | 2025-01-03 |   265 |    63 |       646 |   9.75 |
+|                                                    |            |   869 |   216 |      3207 |  12.73 |
 
 #### Comments
 
