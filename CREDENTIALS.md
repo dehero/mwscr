@@ -11,7 +11,7 @@ and fill in the following fields:
 Application: mwscr  
 Page: Morrowind Screenshots  
 Permissions: `pages_show_list` `ads_management` `business_management` `instagram_basic` `instagram_manage_insights`
-`instagram_content_publish` `pages_read_engagement` `instagram_manage_events`
+`instagram_content_publish` `pages_read_engagement` `instagram_manage_events` `instagram_manage_comments`
 
 Click "Generate Access Token" and copy `ACCESS_TOKEN`.
 
