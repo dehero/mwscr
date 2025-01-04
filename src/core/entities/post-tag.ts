@@ -7,6 +7,11 @@ export const DEFAULT_TAGS: PostTagDescriptor[] = [
   ['morrowind', () => true],
   ['elderscrolls', () => true],
   [
+    'drawing',
+    (post) => ['redrawing'].includes(post.type),
+    (post) => (post.type = ['redrawing'].includes(post.type) ? post.type : 'shot'),
+  ],
+  [
     'screenshot',
     (post) => ['shot', 'shot-set', 'redrawing'].includes(post.type),
     (post) => (post.type = ['shot', 'shot-set', 'redrawing'].includes(post.type) ? post.type : 'shot'),
