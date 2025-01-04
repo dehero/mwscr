@@ -296,8 +296,8 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
   async publishPostEntry(entry: PostEntry): Promise<void> {
     const [, post] = entry;
-    const [firstContent, ...restContent] = asArray(post.content);
-    if (!firstContent) {
+    const content = asArray(post.content);
+    if (content.length === 0) {
       throw new Error('No content found');
     }
 
@@ -307,36 +307,31 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     }
 
     const { tg } = await this.connect();
-    const ids: number[] = [];
 
     const followers = await this.grabFollowerCount();
-    const { base } = parseResourceUrl(firstContent);
-    const [file] = await readResource(firstContent);
-    // @ts-expect-error Untyped property
-    file.name = base;
 
-    const result = await tg.sendFile(TELEGRAM_CHANNEL, {
-      caption: await this.createCaption(entry),
-      file,
-      parseMode: 'html',
-    });
+    const files = [];
 
-    ids.push(result.id);
-
-    for (const url of restContent) {
+    for (const url of content) {
       const { base } = parseResourceUrl(url);
       const [file] = await readResource(url);
       // @ts-expect-error Untyped property
       file.name = base;
 
-      const result = await tg.sendFile(TELEGRAM_CHANNEL, { file });
-
-      ids.push(result.id);
+      files.push(file);
     }
+
+    const result = await tg.sendFile(TELEGRAM_CHANNEL, {
+      caption: await this.createCaption(entry),
+      file: files.length > 1 ? files : files[0]!,
+      parseMode: 'html',
+    });
+
+    const id = Array.isArray(result) ? result.map((item: Api.Message) => item.id) : result.id;
 
     const publication: TelegramPost = {
       service: this.id,
-      id: ids.length > 1 ? ids : Number(ids[0]),
+      id,
       followers,
       published: new Date(),
     };
