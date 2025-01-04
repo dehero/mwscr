@@ -176,7 +176,7 @@ release, incrementing the version in [package.json](package.json) and updating [
 
 As the project develops, it is planned to implement:
 
-- [ ] support for publishing post types `shot-set`, `redrawing`, `clip` and `video` to project accounts;
+- [ ] support for publishing post types ~~`shot-set`~~, ~~`redrawing`~~, `clip` and `video` to project accounts;
 - [ ] lists of tags and locations with the number of posts in them;
 - [x] adding multiple locations to a single post;
 - [ ] ~~`wallpaper`~~, ~~`wallpaper-v`~~ and `video-v` post types;
