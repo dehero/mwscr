@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.30.4](https://github.com/dehero/mwscr/compare/v1.30.3...v1.30.4) (2025-01-04)
+
+### Documentation
+
+- add Instagram permission to get usernames for post comments
+  ([0ccc30a](https://github.com/dehero/mwscr/commit/0ccc30a641ab83eb64909fe87aa9e0451e456064))
+
 ## [1.30.3](https://github.com/dehero/mwscr/compare/v1.30.2...v1.30.3) (2024-12-27)
 
 ### Bug Fixes
