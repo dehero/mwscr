@@ -3405,10 +3405,10 @@
     - service: vk
       id: 2007
       published: 2024-12-31-18-10-25
-      updated: 2025-01-03-18-10-29
+      updated: 2025-01-04-18-36-13
       followers: 1038
-      likes: 34
-      views: 241
+      likes: 36
+      views: 257
       reposts: 1
       comments: !c |-
         G8IA4J0Jtq2Et3rBK5Mdmfjn3xvp18HIRpJZnQQjTO7TuRFasFZDv4wrigDk4lTHqWW/upLIyhyZ
@@ -3417,7 +3417,8 @@
     - service: tg
       id: 643
       published: 2024-12-31-18-10-35
-      updated: 2025-01-03-18-10-29
+      updated: 2025-01-04-18-36-13
       followers: 643
-      likes: 60
-      views: 262
+      likes: 65
+      views: 310
+      comments: !c ixGAkZPLQnlC1wULgACpR2F0ZW1hdGU3rm1lIGluIHRoZSBob29kAw==
