@@ -4,7 +4,31 @@
 
 # Posted in 2025
 
-`3 items`
+`4 items`
+
+## <span id="2025-01-04-mzahnch">Mzahnch</span>
+
+`RU` Мзанч
+
+<a href="https://instagram.com/p/DEaci7aTwYz/" title="2025-01-04-mzahnch"><img alt="store:/drawings/2025-01-04-mzahnch.png" src="../../assets/previews/drawings/2025-01-04-mzahnch.avif" /></a>
+<a href="https://instagram.com/p/DEaci7aTwYz/" title="2019-03-07-mzahnch"><img alt="store:/shots/2019-03-07-mzahnch.png" src="../../assets/previews/shots/2019-03-07-mzahnch.avif" /></a>
+
+`redrawing` by [Irina Bystritskaya](../contributors.md#irina-bystritskaya), [dehero](../contributors.md#dehero)
+
+`B2` `📍 Mzahnch` `dwemer` `ruin`
+
+```
+2025-01-04-mzahnch
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DEaci7aTwYz/)       | 2025-01-04 |      1522 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2016) | 2025-01-04 |      1042 |
+| [`tg`](https://t.me/mwscr/647,648)                 | 2025-01-04 |       644 |
+|                                                    |            |      3208 |
 
 ## <span id="2025-01-03-nchurdamz-in-sunset-haze">Nchurdamz in Sunset Haze</span>
 
@@ -28,10 +52,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Baw9lQADygR/)       | 2017-10-27 |       |    64 |       226 |  28.32 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_480)  | 2017-10-27 |   201 |    13 |        93 |  13.98 |
-| [`ig`](https://instagram.com/p/DEX30_wv76a/)       | 2025-01-03 |   372 |   108 |      1520 |   7.11 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2014) | 2025-01-03 |   202 |    42 |      1041 |   4.23 |
-| [`tg`](https://t.me/mwscr/646)                     | 2025-01-03 |   226 |    63 |       646 |   9.75 |
-|                                                    |            |   800 |   213 |      3207 |  12.68 |
+| [`ig`](https://instagram.com/p/DEX30_wv76a/)       | 2025-01-03 |   376 |   108 |      1520 |   7.11 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2014) | 2025-01-03 |   205 |    42 |      1041 |   4.23 |
+| [`tg`](https://t.me/mwscr/646)                     | 2025-01-03 |   228 |    63 |       646 |   9.75 |
+|                                                    |            |   809 |   213 |      3207 |  12.68 |
 
 #### Comments
 
@@ -61,9 +85,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1270) | 2020-10-21 |   810 |    60 |       449 |  13.59 |
 | [`tg`](https://t.me/mwscr/228)                     | 2020-10-21 |   843 |     7 |       165 |   4.24 |
 | [`ig`](https://instagram.com/p/DEVTC4Gyb5x/)       | 2025-01-02 |   336 |   101 |      1520 |   6.64 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2011) | 2025-01-02 |   227 |    43 |      1040 |   4.13 |
-| [`tg`](https://t.me/mwscr/645)                     | 2025-01-02 |   231 |    62 |       646 |    9.6 |
-|                                                    |            |   794 |   206 |      3206 |   8.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2011) | 2025-01-02 |   228 |    44 |      1040 |   4.23 |
+| [`tg`](https://t.me/mwscr/645)                     | 2025-01-02 |   232 |    62 |       646 |    9.6 |
+|                                                    |            |   796 |   207 |      3206 |   8.61 |
 
 #### Comments
 
@@ -99,9 +123,9 @@
 | [`ig`](https://instagram.com/p/BYiJhBSjv3T/)       | 2017-09-02 |       |    96 |       199 |  48.24 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_413)  | 2017-09-02 |   134 |     9 |        75 |     12 |
 | [`ig`](https://instagram.com/p/DESuLyyPPAX/)       | 2025-01-01 |   442 |   115 |      1520 |   7.57 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2008) | 2025-01-01 |   233 |    26 |      1038 |    2.6 |
-| [`tg`](https://t.me/mwscr/644)                     | 2025-01-01 |   243 |    60 |       644 |   9.32 |
-|                                                    |            |   918 |   201 |      3202 |  15.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2008) | 2025-01-01 |   254 |    29 |      1038 |   2.89 |
+| [`tg`](https://t.me/mwscr/644)                     | 2025-01-01 |   269 |    63 |       644 |   9.78 |
+|                                                    |            |   965 |   207 |      3202 |   16.1 |
 
 #### Comments
 

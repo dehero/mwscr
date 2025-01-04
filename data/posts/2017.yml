@@ -9124,10 +9124,10 @@
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-01-03-17-02-23
+      updated: 2025-01-04-18-09-21
       followers: 1038
-      likes: 26
-      views: 233
+      likes: 29
+      views: 254
       reposts: 1
       comments: !c |-
         G1IA+J0JdiwXiwm2XHYcUe1IT5+tDJsEI0z2PGWlNCWbjYcPp1yKLYw4kWMgAT5zZLJTE42yKmre
@@ -9135,10 +9135,10 @@
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-01-03-17-02-23
+      updated: 2025-01-04-18-09-21
       followers: 644
-      likes: 60
-      views: 243
+      likes: 63
+      views: 269
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
@@ -10909,17 +10909,17 @@
       id: DEX30_wv76a
       mediaId: '18116624404379470'
       published: 2025-01-03-18-10-44
-      updated: 2025-01-04-17-01-48
+      updated: 2025-01-04-18-09-19
       followers: 1520
       likes: 108
-      views: 372
+      views: 376
     - service: vk
       id: 2014
       published: 2025-01-03-18-10-50
-      updated: 2025-01-04-17-01-49
+      updated: 2025-01-04-18-09-19
       followers: 1041
       likes: 42
-      views: 202
+      views: 205
       reposts: 2
       comments: !c |-
         G1IA6J0J5vkzpaAMV97BFUHVLk4o4bBIkzxJPwyaSjDCZM9z+JyvoJQtce4AM0cmOwVJCqxqqNrs
@@ -10927,10 +10927,10 @@
     - service: tg
       id: 646
       published: 2025-01-03-18-10-56
-      updated: 2025-01-04-17-01-49
+      updated: 2025-01-04-18-09-19
       followers: 646
       likes: 63
-      views: 226
+      views: 228
 2017-10-28-caldera-north-west-road:
   title: Caldera, North-West Road
   titleRu: Кальдера, северо-западная дорога
@@ -12259,17 +12259,17 @@
     - service: vk
       id: 1574
       published: 2024-06-07-18-20-42
-      updated: 2024-12-28-18-09-02
+      updated: 2025-01-04-18-09-22
       followers: 916
       likes: 40
       views: 317
     - service: tg
       id: 432
       published: 2024-06-07-18-20-49
-      updated: 2024-12-28-18-09-02
+      updated: 2025-01-04-18-09-21
       followers: 384
       likes: 58
-      views: 482
+      views: 483
 2017-12-05-in-the-boat-by-the-pier:
   title: In the Boat by the Pier
   titleRu: В лодке у причала

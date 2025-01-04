@@ -4,22 +4,7 @@
 
 # Shortlist
 
-`2 items`
-
-## <span id="irina-bystritskaya.2022-06-25-drawing-002">Mzahnch</span>
-
-`RU` Мзанч
-
-![store:/inbox/irina-bystritskaya.2022-06-25-drawing-002.png](../../assets/previews/inbox/irina-bystritskaya.2022-06-25-drawing-002.avif "irina-bystritskaya.2022-06-25-drawing-002")
-![store:/shots/2019-03-07-mzahnch.png](../../assets/previews/shots/2019-03-07-mzahnch.avif "2019-03-07-mzahnch")
-
-`redrawing` by [Irina Bystritskaya](../contributors.md#irina-bystritskaya), [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=irina-bystritskaya.2022-06-25-drawing-002&amp;postContent=store%3A%2Finbox%2Firina-bystritskaya.2022-06-25-drawing-002.png%0Astore%3A%2Fshots%2F2019-03-07-mzahnch.png&amp;postTitle=Mzahnch&amp;postTitleRu=%D0%9C%D0%B7%D0%B0%D0%BD%D1%87&amp;postAuthor=irina-bystritskaya+dehero&amp;postType=redrawing&amp;postEngine=&amp;postAddon=&amp;postTags=dwemer+ruin&amp;postLocation=Mzahnch&amp;postMark=B2&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=irina-bystritskaya.2022-06-25-drawing-002&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=irina-bystritskaya.2022-06-25-drawing-002&amp;mergeWithIds=) `B2` `📍 Mzahnch` `dwemer` `ruin`
-
-```
-irina-bystritskaya.2022-06-25-drawing-002
-```
+`1 items`
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
 
