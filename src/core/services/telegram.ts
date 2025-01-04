@@ -29,7 +29,11 @@ export class Telegram implements PostingService<TelegramPost> {
   }
 
   canPublishPost(post: Post, errors: string[] = []): post is TelegramSuitablePost {
-    return checkRules([needCertainType('shot', 'wallpaper', 'wallpaper-v'), needTitle, needContent], post, errors);
+    return checkRules(
+      [needCertainType('shot', 'wallpaper', 'wallpaper-v', 'redrawing', 'shot-set'), needTitle, needContent],
+      post,
+      errors,
+    );
   }
 
   getPublicationUrl(publication: Publication<unknown>) {

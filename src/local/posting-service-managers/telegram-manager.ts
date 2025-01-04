@@ -294,9 +294,9 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
   async publishPostEntry(entry: PostEntry): Promise<void> {
     const [, post] = entry;
-
-    if (typeof post.content !== 'string') {
-      throw new TypeError(`Cannot publish multiple images to ${this.name}`);
+    const [firstContent, ...restContent] = asArray(post.content);
+    if (!firstContent) {
+      throw new Error('No content found');
     }
 
     if (DEBUG_PUBLISHING) {
@@ -305,10 +305,11 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     }
 
     const { tg } = await this.connect();
+    const ids: number[] = [];
 
     const followers = await this.grabFollowerCount();
-    const { base } = parseResourceUrl(post.content);
-    const [file] = await readResource(post.content);
+    const { base } = parseResourceUrl(firstContent);
+    const [file] = await readResource(firstContent);
     // @ts-expect-error Untyped property
     file.name = base;
 
@@ -318,9 +319,22 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       parseMode: 'html',
     });
 
+    ids.push(result.id);
+
+    for (const url of restContent) {
+      const { base } = parseResourceUrl(url);
+      const [file] = await readResource(url);
+      // @ts-expect-error Untyped property
+      file.name = base;
+
+      const result = await tg.sendFile(TELEGRAM_CHANNEL, { file });
+
+      ids.push(result.id);
+    }
+
     const publication: TelegramPost = {
       service: this.id,
-      id: result.id,
+      id: ids.length > 1 ? ids : Number(ids[0]),
       followers,
       published: new Date(),
     };
