@@ -7801,10 +7801,10 @@
     - service: vk
       id: 1872
       published: 2024-11-02-19-01-31
-      updated: 2024-12-29-04-09-41
+      updated: 2025-01-05-05-07-38
       followers: 1003
       likes: 30
-      views: 308
+      views: 313
       comments: !c |-
         G9UCACyPt6HxkyMyV7kiuBUPw1xy/PP9xZbwjf/ZFKI0oMA30KQpwCRdOVdrW7WEzHFnqHM6ncAP
         a5uINYhVuqWYyt39nMLDvi9tLJYFSKXvN81NTXa94fk7P2WHlJSi/Y/rMHlLd6PpwIY6463XfgrH
@@ -8117,14 +8117,14 @@
     - service: vk
       id: 1729
       published: 2024-08-31-18-27-02
-      updated: 2024-12-29-04-09-49
+      updated: 2025-01-05-05-07-46
       followers: 941
       likes: 41
-      views: 330
+      views: 332
     - service: tg
       id: 518
       published: 2024-08-31-18-27-11
-      updated: 2024-12-29-04-09-45
+      updated: 2025-01-05-05-07-42
       followers: 545
       likes: 64
       views: 540
@@ -8496,14 +8496,17 @@
     - service: vk
       id: 1775
       published: 2024-09-21-18-28-33
-      updated: 2024-12-29-04-09-46
+      updated: 2025-01-05-05-07-44
       followers: 953
       likes: 35
-      views: 290
+      views: 295
+      comments: !c |-
+        G1kA+B2JsY2KPTj1xSaep52kn7RCKkuo6xKKePIGE5+eTMhRyUr6xgV42pxlpwgCoVXErNT7PHWW
+        8f1ut/tFuAkw0RhFVlLeFY9xJC0E8TsAAA==
     - service: tg
       id: 540
       published: 2024-09-21-18-28-42
-      updated: 2024-12-29-04-09-43
+      updated: 2025-01-05-05-07-40
       followers: 555
       likes: 51
       views: 510
@@ -10557,10 +10560,10 @@
     - service: vk
       id: 1820
       published: 2024-10-12-18-08-42
-      updated: 2024-12-29-04-09-44
+      updated: 2025-01-05-05-07-41
       followers: 961
-      likes: 46
-      views: 384
+      likes: 47
+      views: 388
       reposts: 1
       comments: !c |-
         Cx2AkZPLQnkqY71QAACoZGV1czE5ODnZJdCf0YDQuNGA0YPRh9C10L3QvdCw0Y8g0YHQstGP0YLQ
@@ -10568,10 +10571,10 @@
     - service: tg
       id: 562
       published: 2024-10-12-18-08-48
-      updated: 2024-12-29-04-09-41
+      updated: 2025-01-05-05-07-38
       followers: 557
       likes: 57
-      views: 539
+      views: 541
 2017-10-18-recollecting-the-first-steps:
   title: Recollecting the First Steps
   titleRu: Вспоминая первые шаги
@@ -10909,14 +10912,14 @@
       id: DEX30_wv76a
       mediaId: '18116624404379470'
       published: 2025-01-03-18-10-44
-      updated: 2025-01-05-04-09-17
+      updated: 2025-01-05-05-07-37
       followers: 1520
       likes: 111
-      views: 400
+      views: 401
     - service: vk
       id: 2014
       published: 2025-01-03-18-10-50
-      updated: 2025-01-05-04-09-17
+      updated: 2025-01-05-05-07-37
       followers: 1041
       likes: 45
       views: 220
@@ -10927,10 +10930,10 @@
     - service: tg
       id: 646
       published: 2025-01-03-18-10-56
-      updated: 2025-01-05-04-09-17
+      updated: 2025-01-05-05-07-36
       followers: 646
       likes: 64
-      views: 275
+      views: 277
 2017-10-28-caldera-north-west-road:
   title: Caldera, North-West Road
   titleRu: Кальдера, северо-западная дорога
@@ -11666,17 +11669,17 @@
     - service: vk
       id: 1789
       published: 2024-09-28-18-08-41
-      updated: 2024-12-29-04-09-46
+      updated: 2025-01-05-05-07-43
       followers: 957
-      likes: 50
-      views: 325
+      likes: 51
+      views: 329
     - service: tg
       id: 548
       published: 2024-09-28-18-08-47
-      updated: 2024-12-29-04-09-42
+      updated: 2025-01-05-05-07-40
       followers: 557
       likes: 70
-      views: 519
+      views: 520
 2017-11-17-pelagiad-descent-to-the-road:
   title: Pelagiad, Descent to the Road
   titleRu: Пелагиад, спуск к дороге
