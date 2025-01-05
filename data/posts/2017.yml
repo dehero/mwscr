@@ -1969,7 +1969,7 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2024-12-29-14-01-38
+      updated: 2025-01-05-15-02-09
       followers: 916
       likes: 53
       views: 428
@@ -6447,7 +6447,7 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2024-12-29-14-01-37
+      updated: 2025-01-05-15-02-08
       followers: 920
       likes: 38
       views: 294
@@ -10912,17 +10912,17 @@
       id: DEX30_wv76a
       mediaId: '18116624404379470'
       published: 2025-01-03-18-10-44
-      updated: 2025-01-05-14-01-35
+      updated: 2025-01-05-15-02-07
       followers: 1520
-      likes: 111
+      likes: 112
       views: 408
     - service: vk
       id: 2014
       published: 2025-01-03-18-10-50
-      updated: 2025-01-05-14-01-36
+      updated: 2025-01-05-15-02-07
       followers: 1041
       likes: 48
-      views: 247
+      views: 248
       reposts: 2
       comments: !c |-
         G1IA6J0J5vkzpaAMV97BFUHVLk4o4bBIkzxJPwyaSjDCZM9z+JyvoJQtce4AM0cmOwVJCqxqqNrs
@@ -10930,10 +10930,10 @@
     - service: tg
       id: 646
       published: 2025-01-03-18-10-56
-      updated: 2025-01-05-14-01-35
+      updated: 2025-01-05-15-02-06
       followers: 646
-      likes: 65
-      views: 290
+      likes: 66
+      views: 291
 2017-10-28-caldera-north-west-road:
   title: Caldera, North-West Road
   titleRu: Кальдера, северо-западная дорога
