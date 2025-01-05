@@ -4520,7 +4520,7 @@
     - service: vk
       id: 1575
       published: 2024-06-08-18-18-38
-      updated: 2024-12-29-10-07-12
+      updated: 2025-01-05-11-02-01
       followers: 916
       likes: 36
       views: 317
@@ -4528,7 +4528,7 @@
     - service: tg
       id: 433
       published: 2024-06-08-18-18-44
-      updated: 2024-12-29-10-07-11
+      updated: 2025-01-05-11-01-59
       followers: 384
       likes: 55
       views: 468
@@ -4807,18 +4807,18 @@
     - service: vk
       id: 1705
       published: 2024-08-24-18-18-18
-      updated: 2024-12-29-10-07-07
+      updated: 2025-01-05-11-01-55
       followers: 940
       likes: 35
-      views: 304
+      views: 305
       reposts: 1
     - service: tg
       id: 511
       published: 2024-08-24-18-18-25
-      updated: 2024-12-29-10-07-06
+      updated: 2025-01-05-11-01-54
       followers: 541
       likes: 55
-      views: 561
+      views: 563
 2017-05-05-sunset-fir-trees:
   title: Sunset Fir-Trees
   titleRu: Закатные ели
@@ -4881,18 +4881,18 @@
     - service: vk
       id: 1695
       published: 2024-08-17-18-19-02
-      updated: 2024-12-29-10-07-08
+      updated: 2025-01-05-11-01-56
       followers: 934
       likes: 32
-      views: 273
+      views: 274
       reposts: 1
     - service: tg
       id: 504
       published: 2024-08-17-18-19-11
-      updated: 2024-12-29-10-07-07
+      updated: 2025-01-05-11-01-55
       followers: 527
       likes: 61
-      views: 622
+      views: 624
       comments: !c |-
         G5kAGKyOt6Fh2DII9SraGD9X/MgjVPrf33zCH3gV4CCaONb5A6mtc51HiSdUhy6Lw0sQm6m2eEF7
         10hP2eKS5i0PNuCAvQgHGxBmPLvAIdUUWLSgYygr1ZEd4Y7zHD3ybT007Y+2bxgCxB5X7rrk7kIe
@@ -4933,7 +4933,7 @@
     - service: vk
       id: 1658
       published: 2024-07-27-18-20-23
-      updated: 2024-12-29-10-07-11
+      updated: 2025-01-05-11-01-59
       followers: 923
       likes: 34
       views: 295
@@ -4941,10 +4941,10 @@
     - service: tg
       id: 482
       published: 2024-07-27-18-20-29
-      updated: 2024-12-29-10-07-09
+      updated: 2025-01-05-11-01-57
       followers: 401
       likes: 57
-      views: 615
+      views: 617
       comments: !c |-
         G/kAgByHcSyxjmBicU1/f/MRp4m1cSwu4M4/WGtxG2Qs22JRFvd/NwML9D8P80ADvTEWSuinVRma
         Tk40MH47SAuowMKQIo6zdIfPHSOmprQ+rncT67T+DEEpGYRvZb4nHr7OCgLfhTugNQLOoXtlQt+4
@@ -10912,17 +10912,17 @@
       id: DEX30_wv76a
       mediaId: '18116624404379470'
       published: 2025-01-03-18-10-44
-      updated: 2025-01-05-10-06-58
+      updated: 2025-01-05-11-01-53
       followers: 1520
       likes: 111
       views: 406
     - service: vk
       id: 2014
       published: 2025-01-03-18-10-50
-      updated: 2025-01-05-10-06-58
+      updated: 2025-01-05-11-01-54
       followers: 1041
       likes: 47
-      views: 237
+      views: 238
       reposts: 2
       comments: !c |-
         G1IA6J0J5vkzpaAMV97BFUHVLk4o4bBIkzxJPwyaSjDCZM9z+JyvoJQtce4AM0cmOwVJCqxqqNrs
@@ -10930,10 +10930,10 @@
     - service: tg
       id: 646
       published: 2025-01-03-18-10-56
-      updated: 2025-01-05-10-06-59
+      updated: 2025-01-05-11-01-53
       followers: 646
       likes: 65
-      views: 286
+      views: 287
 2017-10-28-caldera-north-west-road:
   title: Caldera, North-West Road
   titleRu: Кальдера, северо-западная дорога
