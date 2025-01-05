@@ -3359,10 +3359,10 @@
     - service: vk
       id: 2004
       published: 2024-12-30-18-10-48
-      updated: 2025-01-04-20-07-40
+      updated: 2025-01-05-20-07-49
       followers: 1037
-      likes: 47
-      views: 318
+      likes: 49
+      views: 339
       reposts: 4
       comments: !c |-
         G74BgCwS7FiSIbRJuw4H4p//LrY8Qn/Hd0EzTjyQTsBRhMl9utrO0JuhmQ32PYKHPxigumkNWu2d
@@ -3373,10 +3373,10 @@
     - service: tg
       id: 642
       published: 2024-12-30-18-10-55
-      updated: 2025-01-04-20-07-39
+      updated: 2025-01-05-20-07-49
       followers: 642
       likes: 70
-      views: 407
+      views: 445
 2024-12-31-a-look-into-the-darkness:
   title: A Look Into the Darkness
   titleRu: Взгляд в темноту

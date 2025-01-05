@@ -32,10 +32,10 @@
 | [`ig`](https://instagram.com/p/Cf4jg83s0fl/)       | 2022-07-11 |       |   358 |      1142 |  31.35 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1334) | 2022-07-11 |  1219 |   128 |       767 |   17.6 |
 | [`tg`](https://t.me/mwscr/271,272,273,274)         | 2022-07-11 |   734 |    56 |       257 |  21.79 |
-| [`ig`](https://instagram.com/p/DEdBVU5N41v/)       | 2025-01-05 |    44 |    34 |      1521 |   2.24 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2020) | 2025-01-05 |    49 |    14 |      1043 |   1.44 |
-| [`tg`](https://t.me/mwscr/651,652,653,654)         | 2025-01-05 |   117 |    25 |       644 |   3.88 |
-|                                                    |            |   210 |    73 |      3208 |  13.05 |
+| [`ig`](https://instagram.com/p/DEdBVU5N41v/)       | 2025-01-05 |   134 |    66 |      1521 |   4.34 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2020) | 2025-01-05 |    96 |    20 |      1043 |   2.11 |
+| [`tg`](https://t.me/mwscr/651,652,653,654)         | 2025-01-05 |   173 |    37 |       644 |   5.75 |
+|                                                    |            |   403 |   123 |      3208 |  13.82 |
 
 #### Comments
 
@@ -48,6 +48,8 @@
   - <ins title="2022-07-11-20-48-37">driesssens</ins> came here to say that
 - `vk` <ins title="2022-07-11-21-48-09">id153149684</ins> Прекрасные💙
 - `vk` <ins title="2022-07-12-04-02-18">vovach99</ins> Ох, картинки со звуком
+- `ig` <ins title="2025-01-05-19-34-18">berskate</ins> I hear their voice from the pictures
+- `ig` <ins title="2025-01-05-19-41-10">mistathugsegregation</ins> That first one is fantastic 🔥❤️
 
 ## <span id="2025-01-04-mzahnch">Mzahnch</span>
 
@@ -68,10 +70,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DEaci7aTwYz/)       | 2025-01-04 |   478 |   150 |      1522 |   9.86 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2016) | 2025-01-04 |   230 |    37 |      1042 |   3.65 |
-| [`tg`](https://t.me/mwscr/649,650)                 | 2025-01-04 |   207 |    55 |       644 |   8.54 |
-|                                                    |            |   915 |   242 |      3208 |   7.35 |
+| [`ig`](https://instagram.com/p/DEaci7aTwYz/)       | 2025-01-04 |   482 |   153 |      1522 |  10.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2016) | 2025-01-04 |   232 |    37 |      1042 |   3.65 |
+| [`tg`](https://t.me/mwscr/649,650)                 | 2025-01-04 |   212 |    56 |       644 |    8.7 |
+|                                                    |            |   926 |   246 |      3208 |   7.47 |
 
 #### Comments
 
