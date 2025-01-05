@@ -793,11 +793,18 @@
       id: DEdBVU5N41v
       mediaId: '17961607766841983'
       published: 2025-01-05-18-10-00
+      updated: 2025-01-05-19-01-23
       followers: 1521
+      likes: 34
+      views: 44
     - service: vk
       id: 2020
       published: 2025-01-05-18-10-20
+      updated: 2025-01-05-19-01-24
       followers: 1043
+      likes: 14
+      views: 49
+      reposts: 1
     - service: tg
       id:
         - 651
@@ -805,7 +812,10 @@
         - 653
         - 654
       published: 2025-01-05-18-10-40
+      updated: 2025-01-05-19-01-24
       followers: 644
+      likes: 25
+      views: 117
 2022-07-12-leaving-holamayan:
   title: Leaving Holamayan
   titleRu: Покидая Холамаян

@@ -9127,10 +9127,10 @@
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-01-04-18-09-21
+      updated: 2025-01-05-19-01-27
       followers: 1038
-      likes: 29
-      views: 254
+      likes: 31
+      views: 283
       reposts: 1
       comments: !c |-
         G1IA+J0JdiwXiwm2XHYcUe1IT5+tDJsEI0z2PGWlNCWbjYcPp1yKLYw4kWMgAT5zZLJTE42yKmre
@@ -9138,10 +9138,10 @@
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-01-04-18-09-21
+      updated: 2025-01-05-19-01-25
       followers: 644
       likes: 63
-      views: 269
+      views: 312
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
