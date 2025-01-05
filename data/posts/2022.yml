@@ -789,6 +789,23 @@
         3PV4Y3H/meNc4tTj/YcVSo9AKleF3ikFHmpqyxg0Uh2lDvcyQbFbSFbxOtrHSONI5lE4w9BRJf55
         yWYQCJTI97S9sez3b+PqPKF1t/7/u8PMrn9jJjHnu/c+ZvKOKM+DzN1+uLnMmFK3EF3ZaJEFXpXO
         JM0Hc7MB1DZFcgMA
+    - service: ig
+      id: DEdBVU5N41v
+      mediaId: '17961607766841983'
+      published: 2025-01-05-18-10-00
+      followers: 1521
+    - service: vk
+      id: 2020
+      published: 2025-01-05-18-10-20
+      followers: 1043
+    - service: tg
+      id:
+        - 651
+        - 652
+        - 653
+        - 654
+      published: 2025-01-05-18-10-40
+      followers: 644
 2022-07-12-leaving-holamayan:
   title: Leaving Holamayan
   titleRu: Покидая Холамаян
