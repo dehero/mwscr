@@ -4,7 +4,55 @@
 
 # Posted in 2025
 
-`4 items`
+`5 items`
+
+## <span id="2025-01-05-silt-striders">Silt Striders</span>
+
+`RU` Силт-страйдеры
+
+<a href="https://instagram.com/p/Cf4jg83s0fl/" title="2018-09-22-two-ways"><img alt="store:/shots/2018-09-22-two-ways.png" src="../../assets/previews/shots/2018-09-22-two-ways.avif" /></a>
+<a href="https://instagram.com/p/Cf4jg83s0fl/" title="2018-08-16-wall-of-suran"><img alt="store:/shots/2018-08-16-wall-of-suran.png" src="../../assets/previews/shots/2018-08-16-wall-of-suran.avif" /></a>
+<a href="https://instagram.com/p/Cf4jg83s0fl/" title="2018-02-17-cry-of-silt-strider-in-morning-mist"><img alt="store:/shots/2018-02-17-cry-of-silt-strider-in-morning-mist.png" src="../../assets/previews/shots/2018-02-17-cry-of-silt-strider-in-morning-mist.avif" /></a>
+<a href="https://instagram.com/p/Cf4jg83s0fl/" title="2016-12-09-silt-strider-port-of-molag-mar"><img alt="store:/shots/2016-12-09-silt-strider-port-of-molag-mar.png" src="../../assets/previews/shots/2016-12-09-silt-strider-port-of-molag-mar.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+`B1` `🚀 OpenMW`
+
+```
+2025-01-05-silt-striders
+```
+
+> `2022-07-11-silt-striders`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Cf4jg83s0fl/)       | 2022-07-11 |       |   358 |      1142 |  31.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1334) | 2022-07-11 |  1219 |   128 |       767 |   17.6 |
+| [`tg`](https://t.me/mwscr/271,272,273,274)         | 2022-07-11 |   734 |    56 |       257 |  21.79 |
+| [`ig`](https://instagram.com/p/DEdBVU5N41v/)       | 2025-01-05 |   324 |   127 |      1521 |   8.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2020) | 2025-01-05 |   188 |    38 |      1043 |   3.84 |
+| [`tg`](https://t.me/mwscr/651,652,653,654)         | 2025-01-05 |   257 |    54 |       644 |   8.39 |
+|                                                    |            |   769 |   219 |      3208 |  15.22 |
+
+#### Comments
+
+- `tg` <ins title="2022-07-11-19-31-37">deleted</ins> Интересно, а почему на пассажиров во время поездки на силт страйдере, не нападают  птеродактели )
+  - <ins title="2022-07-11-19-35-32">abandonreason</ins> Мб блоха отмахивается от них передними лапами
+  - <ins title="2023-06-26-16-12-50">resist_it</ins> А кто сказал, что не нападают? 🤔
+- `ig` <ins title="2022-07-11-19-44-23">m_salashchenko</ins> 😻😻😻
+- `ig` <ins title="2022-07-11-19-46-04">wolvtongue</ins> Make OpenMW great again
+- `ig` <ins title="2022-07-11-19-55-29">chris.gruchacz</ins> Why walk when you could ride?
+  - <ins title="2022-07-11-20-48-37">driesssens</ins> came here to say that
+- `vk` <ins title="2022-07-11-21-48-09">id153149684</ins> Прекрасные💙
+- `vk` <ins title="2022-07-12-04-02-18">vovach99</ins> Ох, картинки со звуком
+- `ig` <ins title="2025-01-05-19-34-18">berskate</ins> I hear their voice from the pictures
+- `ig` <ins title="2025-01-05-19-41-10">mistathugsegregation</ins> That first one is fantastic 🔥❤️
+- `vk` <ins title="2025-01-06-00-14-24">artyom_melikhoff</ins> Тот самый звук на всю округу.
+  - <ins title="2025-01-06-00-56-00">self_creating</ins> Артём,
+- `tg` <ins title="2025-01-06-00-59-31">mongleri</ins> more pictures like this. not the &quot;sleeping&quot; ones 😢
 
 ## <span id="2025-01-04-mzahnch">Mzahnch</span>
 
@@ -25,16 +73,18 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DEaci7aTwYz/)       | 2025-01-04 |   187 |    68 |      1522 |   4.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2016) | 2025-01-04 |   101 |    23 |      1042 |   2.21 |
-| [`tg`](https://t.me/mwscr/649,650)                 | 2025-01-04 |   110 |    34 |       644 |   5.28 |
-|                                                    |            |   398 |   125 |      3208 |   3.98 |
+| [`ig`](https://instagram.com/p/DEaci7aTwYz/)       | 2025-01-04 |   511 |   160 |      1522 |  10.51 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2016) | 2025-01-04 |   249 |    39 |      1042 |   3.84 |
+| [`tg`](https://t.me/mwscr/649,650)                 | 2025-01-04 |   224 |    57 |       644 |   8.85 |
+|                                                    |            |   984 |   256 |      3208 |   7.73 |
 
 #### Comments
 
 - `tg` <ins title="2025-01-04-18-20-34">wilzuull</ins> 
 - `vk` <ins title="2025-01-04-18-22-45">id820702664</ins> Мзанч
 - `ig` <ins title="2025-01-04-20-26-49">blatantbeats</ins> Reminds me of samurai Jack
+- `ig` <ins title="2025-01-04-21-42-26">doots_spookman</ins> he&#39;ll yeah
+- `vk` <ins title="2025-01-06-00-14-46">artyom_melikhoff</ins> А неплохо, очень даже!
 
 ## <span id="2025-01-03-nchurdamz-in-sunset-haze">Nchurdamz in Sunset Haze</span>
 
@@ -58,10 +108,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Baw9lQADygR/)       | 2017-10-27 |       |    64 |       226 |  28.32 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_480)  | 2017-10-27 |   201 |    13 |        93 |  13.98 |
-| [`ig`](https://instagram.com/p/DEX30_wv76a/)       | 2025-01-03 |   388 |   109 |      1520 |   7.17 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2014) | 2025-01-03 |   211 |    44 |      1041 |   4.42 |
-| [`tg`](https://t.me/mwscr/646)                     | 2025-01-03 |   262 |    63 |       646 |   9.75 |
-|                                                    |            |   861 |   216 |      3207 |  12.73 |
+| [`ig`](https://instagram.com/p/DEX30_wv76a/)       | 2025-01-03 |   415 |   112 |      1520 |   7.37 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2014) | 2025-01-03 |   260 |    48 |      1041 |    4.8 |
+| [`tg`](https://t.me/mwscr/646)                     | 2025-01-03 |   297 |    66 |       646 |  10.22 |
+|                                                    |            |   972 |   226 |      3207 |  12.94 |
 
 #### Comments
 
@@ -90,10 +140,10 @@
 | [`ig`](https://instagram.com/p/CGngmEPhfvt/)       | 2020-10-21 |       |   121 |       907 |  13.34 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1270) | 2020-10-21 |   810 |    60 |       449 |  13.59 |
 | [`tg`](https://t.me/mwscr/228)                     | 2020-10-21 |   843 |     7 |       165 |   4.24 |
-| [`ig`](https://instagram.com/p/DEVTC4Gyb5x/)       | 2025-01-02 |   336 |   101 |      1520 |   6.64 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2011) | 2025-01-02 |   228 |    44 |      1040 |   4.23 |
-| [`tg`](https://t.me/mwscr/645)                     | 2025-01-02 |   232 |    62 |       646 |    9.6 |
-|                                                    |            |   796 |   207 |      3206 |   8.61 |
+| [`ig`](https://instagram.com/p/DEVTC4Gyb5x/)       | 2025-01-02 |   355 |   105 |      1520 |   6.91 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2011) | 2025-01-02 |   259 |    47 |      1040 |   4.52 |
+| [`tg`](https://t.me/mwscr/645)                     | 2025-01-02 |   269 |    63 |       646 |   9.75 |
+|                                                    |            |   883 |   215 |      3206 |   8.72 |
 
 #### Comments
 
@@ -128,10 +178,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYiJhBSjv3T/)       | 2017-09-02 |       |    96 |       199 |  48.24 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_413)  | 2017-09-02 |   134 |     9 |        75 |     12 |
-| [`ig`](https://instagram.com/p/DESuLyyPPAX/)       | 2025-01-01 |   442 |   115 |      1520 |   7.57 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2008) | 2025-01-01 |   254 |    29 |      1038 |   2.89 |
-| [`tg`](https://t.me/mwscr/644)                     | 2025-01-01 |   269 |    63 |       644 |   9.78 |
-|                                                    |            |   965 |   207 |      3202 |   16.1 |
+| [`ig`](https://instagram.com/p/DESuLyyPPAX/)       | 2025-01-01 |   455 |   120 |      1520 |   7.89 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2008) | 2025-01-01 |   283 |    31 |      1038 |   3.08 |
+| [`tg`](https://t.me/mwscr/644)                     | 2025-01-01 |   312 |    63 |       644 |   9.78 |
+|                                                    |            |  1050 |   214 |      3202 |   16.2 |
 
 #### Comments
 

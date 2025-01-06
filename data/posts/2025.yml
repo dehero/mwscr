@@ -21,26 +21,32 @@
       id: DEaci7aTwYz
       mediaId: '18028131065547889'
       published: 2025-01-04-18-10-03
-      updated: 2025-01-04-21-02-10
+      updated: 2025-01-06-07-08-38
       followers: 1522
-      likes: 68
-      views: 187
-      comments: !c CxmAkZPLQnlDL/vygACsYmxhdGFudGJlYXRzulJlbWluZHMgbWUgb2Ygc2FtdXJhaSBKYWNrAw==
+      likes: 160
+      views: 511
+      comments: !c |-
+        CyuAkpPLQnlDNE+dAACuZG9vdHNfc3Bvb2ttYW6qaGUnbGwgeWVhaJPLQnlDL/vygACsYmxhdGFu
+        dGJlYXRzulJlbWluZHMgbWUgb2Ygc2FtdXJhaSBKYWNrAw==
     - service: vk
       id: 2016
       published: 2025-01-04-18-10-14
-      updated: 2025-01-04-21-02-10
+      updated: 2025-01-06-07-08-38
       followers: 1042
-      likes: 23
-      views: 101
-      comments: !c ixCAkZPLQnlDKOKQgACraWQ4MjA3MDI2NjSq0JzQt9Cw0L3RhwM=
+      likes: 39
+      views: 249
+      reposts: 1
+      comments: !c |-
+        G2UA+MWobV2KkCCKZkjB362JRa0fkvt0XeLXb0MUGQksCcM1EwWD4VOvGOy/VyWTiKcJnMoJiiKN
+        McIBS9z8jk83/iVkaWfzlVTCTATikVg4FQz+GPQo3LDDAxfc/RbupyMlDQ==
     - service: tg
       id:
         - 649
         - 650
       published: 2025-01-04-18-10-26
-      updated: 2025-01-04-21-02-10
+      updated: 2025-01-06-07-08-38
       followers: 644
-      likes: 34
-      views: 110
+      likes: 57
+      views: 224
       comments: !c CwqAkZPLQnlDKMKVAACod2lsenV1bGygAw==
+2025-01-05-silt-striders: 2022-07-11-silt-striders

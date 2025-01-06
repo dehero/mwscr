@@ -459,7 +459,7 @@
     - service: vk
       id: 1687
       published: 2024-08-11-18-20-27
-      updated: 2024-12-30-05-08-38
+      updated: 2025-01-06-06-12-00
       followers: 930
       likes: 47
       views: 311
@@ -467,10 +467,10 @@
     - service: tg
       id: 498
       published: 2024-08-11-18-20-32
-      updated: 2024-12-30-05-08-35
+      updated: 2025-01-06-06-11-58
       followers: 520
       likes: 68
-      views: 632
+      views: 634
       comments: !c |-
         G6AAIByF6cabDU1xisivgXOOcBxW9wqgnxYZ4E/sEvtNqgFOrj4XxYtOTvRg+pUkSRpYIBgVXk/2
         +vBiEEls7tHgXQ71+IB9g3RYFVWaxYG0Pova84BN011bCVefT+f5B+7HBXANgkAmVTIaQLpxUp6N
@@ -582,10 +582,10 @@
     - service: vk
       id: 1896
       published: 2024-11-16-18-09-40
-      updated: 2024-12-29-00-39-54
+      updated: 2025-01-05-02-16-14
       followers: 1007
-      likes: 52
-      views: 392
+      likes: 54
+      views: 399
       reposts: 2
       comments: !c |-
         G1UBgJwHts1oOxxr9Nb2HTJCpRNPf6PPCb3JmilIk4wTC7zEbuaO4GSfqtuNsAhFiCcpW5sPxjpw
@@ -596,10 +596,10 @@
     - service: tg
       id: 597
       published: 2024-11-16-18-09-47
-      updated: 2024-12-29-00-39-52
+      updated: 2025-01-05-02-16-12
       followers: 573
       likes: 69
-      views: 659
+      views: 668
 2016-12-01-arvs-drelen:
   title: Arvs-Drelen
   titleRu: Арвс-Дрелен
@@ -1292,17 +1292,17 @@
     - service: vk
       id: 1474
       published: 2024-03-30-18-11-53
-      updated: 2024-12-29-20-07-53
+      updated: 2025-01-05-21-01-15
       followers: 905
       likes: 38
       views: 279
     - service: tg
       id: 362
       published: 2024-03-30-18-11-58
-      updated: 2024-12-29-20-07-51
+      updated: 2025-01-05-21-01-23
       followers: 354
       likes: 70
-      views: 474
+      views: 475
       comments: !c |-
         izCAkZTLQnjpMXEBAACuZmlsaXBwb3ZfaXVyaWnZNdCc0L7QttC90L4g0L7RgNC40LPQuNC90LDQ
         uyDQsiDQutC+0LzQvNC10L3RgtGLPyDwn6Syk8tCeOkxmYgAAKVtd3NjcqAD
@@ -1677,15 +1677,15 @@
     - service: tg
       id: 556
       published: 2024-10-06-18-09-23
-      updated: 2024-12-30-05-08-31
+      updated: 2025-01-06-06-11-53
       followers: 559
       likes: 66
-      views: 527
+      views: 529
     - service: vk
       id: 1812
       published: 2024-10-06-19-01-29
-      updated: 2024-12-30-05-08-31
+      updated: 2025-01-06-06-11-54
       followers: 958
-      likes: 51
-      views: 367
+      likes: 52
+      views: 371
       reposts: 1
