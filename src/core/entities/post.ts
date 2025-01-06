@@ -30,7 +30,7 @@ export interface PostViolationInfo {
 
 export const POST_TYPES = [
   { id: 'shot', title: 'Shot', titleRu: 'Кадр', letter: 'S' },
-  { id: 'shot-set', title: 'Shot-Set', titleRu: 'Набор кадров', letter: 'H' },
+  { id: 'shot-set', title: 'Shot-Set', titleRu: 'Подборка', letter: 'H' },
   { id: 'video', title: 'Video', titleRu: 'Видео', letter: 'V' },
   { id: 'clip', title: 'Clip', titleRu: 'Клип', letter: 'C' },
   { id: 'redrawing', title: 'Redrawing', titleRu: 'Перерисовка', letter: 'R' },
