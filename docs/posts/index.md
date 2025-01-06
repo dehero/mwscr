@@ -28,14 +28,17 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZHD-qwgDrR/)       | 2017-09-16 |       |    59 |       210 |   28.1 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_429)  | 2017-09-16 |   133 |    10 |        80 |   12.5 |
-| [`ig`](https://instagram.com/p/DEfmNjaz7er/)       | 2025-01-06 |    51 |    25 |      1523 |   1.64 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2026) | 2025-01-06 |    45 |     9 |      1048 |   0.86 |
-| [`tg`](https://t.me/mwscr/655)                     | 2025-01-06 |    72 |    24 |       645 |   3.72 |
-|                                                    |            |   168 |    58 |      3216 |   9.36 |
+| [`ig`](https://instagram.com/p/DEfmNjaz7er/)       | 2025-01-06 |   113 |    38 |      1523 |    2.5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2026) | 2025-01-06 |    68 |    13 |      1048 |   1.24 |
+| [`tg`](https://t.me/mwscr/655)                     | 2025-01-06 |    97 |    27 |       645 |   4.19 |
+|                                                    |            |   278 |    78 |      3216 |    9.7 |
 
 #### Comments
 
 - `ig` <ins title="2017-09-16-21-30-06">gamekeymeta</ins> looking good
+- `ig` <ins title="2025-01-06-19-25-09">blatantbeats</ins> Which fort is this?
+  - <ins title="2025-01-06-19-58-34">mwscr</ins> Fort Frostmoth
+- `ig` <ins title="2025-01-06-19-52-46">mistathugsegregation</ins> You&#39;re an artist
 
 ## <span id="2025-01-05-silt-striders">Silt Striders</span>
 
@@ -63,10 +66,10 @@
 | [`ig`](https://instagram.com/p/Cf4jg83s0fl/)       | 2022-07-11 |       |   358 |      1142 |  31.35 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1334) | 2022-07-11 |  1219 |   128 |       767 |   17.6 |
 | [`tg`](https://t.me/mwscr/271,272,273,274)         | 2022-07-11 |   734 |    56 |       257 |  21.79 |
-| [`ig`](https://instagram.com/p/DEdBVU5N41v/)       | 2025-01-05 |   407 |   150 |      1521 |   9.86 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2020) | 2025-01-05 |   266 |    47 |      1043 |   4.79 |
-| [`tg`](https://t.me/mwscr/651,652,653,654)         | 2025-01-05 |   302 |    60 |       644 |   9.32 |
-|                                                    |            |   975 |   257 |      3208 |  15.79 |
+| [`ig`](https://instagram.com/p/DEdBVU5N41v/)       | 2025-01-05 |   409 |   150 |      1521 |   9.86 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2020) | 2025-01-05 |   268 |    47 |      1043 |   4.79 |
+| [`tg`](https://t.me/mwscr/651,652,653,654)         | 2025-01-05 |   311 |    60 |       644 |   9.32 |
+|                                                    |            |   988 |   257 |      3208 |  15.79 |
 
 #### Comments
 
