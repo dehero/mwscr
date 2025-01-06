@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.31.3](https://github.com/dehero/mwscr/compare/v1.31.2...v1.31.3) (2025-01-06)
+
+### Bug Fixes
+
+- change Russian title for shot-sets
+  ([eaf926a](https://github.com/dehero/mwscr/commit/eaf926ae231e1308cd6d75c7b259d569999fed40))
+
 ## [1.31.2](https://github.com/dehero/mwscr/compare/v1.31.1...v1.31.2) (2025-01-04)
 
 ### Bug Fixes
