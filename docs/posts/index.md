@@ -4,7 +4,38 @@
 
 # Posted in 2025
 
-`5 items`
+`6 items`
+
+## <span id="2025-01-06-fort-surrounded-by-fir-trees">Fort Surrounded by Fir-Trees</span>
+
+`RU` Форт среди елей
+
+<a href="https://instagram.com/p/BZHD-qwgDrR/" title="2017-09-16-fort-surrounded-by-fir-trees"><img alt="store:/shots/2017-09-16-fort-surrounded-by-fir-trees.png" src="../../assets/previews/shots/2017-09-16-fort-surrounded-by-fir-trees.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Fort Frostmoth` `🚀 OpenMW` `🔗 Bloodmoon` `fort` `firtree`
+
+```
+2025-01-06-fort-surrounded-by-fir-trees
+```
+
+> `2017-09-16-fort-surrounded-by-fir-trees`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BZHD-qwgDrR/)       | 2017-09-16 |       |    59 |       210 |   28.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_429)  | 2017-09-16 |   133 |    10 |        80 |   12.5 |
+| [`ig`](https://instagram.com/p/DEfmNjaz7er/)       | 2025-01-06 |       |       |      1523 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2026) | 2025-01-06 |       |       |      1048 |        |
+| [`tg`](https://t.me/mwscr/655)                     | 2025-01-06 |       |       |       645 |        |
+|                                                    |            |       |       |      3216 |   20.3 |
+
+#### Comments
+
+- `ig` <ins title="2017-09-16-21-30-06">gamekeymeta</ins> looking good
 
 ## <span id="2025-01-05-silt-striders">Silt Striders</span>
 
@@ -32,10 +63,10 @@
 | [`ig`](https://instagram.com/p/Cf4jg83s0fl/)       | 2022-07-11 |       |   358 |      1142 |  31.35 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1334) | 2022-07-11 |  1219 |   128 |       767 |   17.6 |
 | [`tg`](https://t.me/mwscr/271,272,273,274)         | 2022-07-11 |   734 |    56 |       257 |  21.79 |
-| [`ig`](https://instagram.com/p/DEdBVU5N41v/)       | 2025-01-05 |   402 |   150 |      1521 |   9.86 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2020) | 2025-01-05 |   260 |    47 |      1043 |   4.79 |
-| [`tg`](https://t.me/mwscr/651,652,653,654)         | 2025-01-05 |   286 |    58 |       644 |   9.01 |
-|                                                    |            |   948 |   255 |      3208 |  15.73 |
+| [`ig`](https://instagram.com/p/DEdBVU5N41v/)       | 2025-01-05 |   406 |   150 |      1521 |   9.86 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2020) | 2025-01-05 |   262 |    47 |      1043 |   4.79 |
+| [`tg`](https://t.me/mwscr/651,652,653,654)         | 2025-01-05 |   287 |    58 |       644 |   9.01 |
+|                                                    |            |   955 |   255 |      3208 |  15.73 |
 
 #### Comments
 
@@ -56,7 +87,9 @@
 - `vk` <ins title="2025-01-06-09-05-56">id820702664</ins> 🔊У-уууу!..ууррр...
 - `vk` <ins title="2025-01-06-09-07-04">id820702664</ins> Куда хотите отправиться?<br>Зачем идти пешком, если можно ехать верхом?<br>Для вас мы организуем специальный тур за ту же цену.
 - `tg` <ins title="2025-01-06-11-00-48">filippov_iurii</ins> 
+  - <ins title="2025-01-06-17-51-20">mxmazur</ins> а это ты сам сделал? или заказал где-то?
 - `tg` <ins title="2025-01-06-11-00-59">filippov_iurii</ins> 🏃‍♂️
+- `tg` <ins title="2025-01-06-17-41-00">Tuma_Khan</ins> Вой силтстрайдера такой класный
 
 ## <span id="2025-01-04-mzahnch">Mzahnch</span>
 
@@ -112,10 +145,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Baw9lQADygR/)       | 2017-10-27 |       |    64 |       226 |  28.32 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_480)  | 2017-10-27 |   201 |    13 |        93 |  13.98 |
-| [`ig`](https://instagram.com/p/DEX30_wv76a/)       | 2025-01-03 |   415 |   112 |      1520 |   7.37 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2014) | 2025-01-03 |   260 |    48 |      1041 |    4.8 |
-| [`tg`](https://t.me/mwscr/646)                     | 2025-01-03 |   297 |    66 |       646 |  10.22 |
-|                                                    |            |   972 |   226 |      3207 |  12.94 |
+| [`ig`](https://instagram.com/p/DEX30_wv76a/)       | 2025-01-03 |   432 |   114 |      1520 |    7.5 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2014) | 2025-01-03 |   287 |    50 |      1041 |      5 |
+| [`tg`](https://t.me/mwscr/646)                     | 2025-01-03 |   335 |    70 |       646 |  10.84 |
+|                                                    |            |  1054 |   234 |      3207 |  13.13 |
 
 #### Comments
 
