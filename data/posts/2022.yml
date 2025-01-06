@@ -793,10 +793,10 @@
       id: DEdBVU5N41v
       mediaId: '17961607766841983'
       published: 2025-01-05-18-10-00
-      updated: 2025-01-05-23-02-19
+      updated: 2025-01-06-00-38-27
       followers: 1521
-      likes: 102
-      views: 231
+      likes: 113
+      views: 263
       comments: !c |-
         G4AAYI2ULuLexLlGuCbYaGIRTQNsrTrP8xeZ0D/Y17I4NONAA/S/K898LuOBzXN43ZRwaM8+ZYVI
         yPTzB4DDUDyf8eVA8gTJFaQk+uInDQADtEwBVDzwR8nhKxz46+plM3+fjC9aWXdWcD2N8YUXpaYp
@@ -804,11 +804,14 @@
     - service: vk
       id: 2020
       published: 2025-01-05-18-10-20
-      updated: 2025-01-05-23-02-20
+      updated: 2025-01-06-00-38-27
       followers: 1043
-      likes: 27
-      views: 135
+      likes: 30
+      views: 146
       reposts: 2
+      comments: !c |-
+        iyiAkZPLQnlDj2dwAACwYXJ0eW9tX21lbGlraG9mZtk00KLQvtGCINGB0LDQvNGL0Lkg0LfQstGD
+        0Log0L3QsCDQstGB0Y4g0L7QutGA0YPQs9GDLgM=
     - service: tg
       id:
         - 651
@@ -816,10 +819,10 @@
         - 653
         - 654
       published: 2025-01-05-18-10-40
-      updated: 2025-01-05-23-02-20
+      updated: 2025-01-06-00-38-27
       followers: 644
       likes: 47
-      views: 218
+      views: 227
 2022-07-12-leaving-holamayan:
   title: Leaving Holamayan
   titleRu: Покидая Холамаян

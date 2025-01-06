@@ -32,10 +32,10 @@
 | [`ig`](https://instagram.com/p/Cf4jg83s0fl/)       | 2022-07-11 |       |   358 |      1142 |  31.35 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1334) | 2022-07-11 |  1219 |   128 |       767 |   17.6 |
 | [`tg`](https://t.me/mwscr/271,272,273,274)         | 2022-07-11 |   734 |    56 |       257 |  21.79 |
-| [`ig`](https://instagram.com/p/DEdBVU5N41v/)       | 2025-01-05 |   231 |   102 |      1521 |   6.71 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2020) | 2025-01-05 |   135 |    27 |      1043 |   2.78 |
-| [`tg`](https://t.me/mwscr/651,652,653,654)         | 2025-01-05 |   218 |    47 |       644 |    7.3 |
-|                                                    |            |   584 |   176 |      3208 |  14.59 |
+| [`ig`](https://instagram.com/p/DEdBVU5N41v/)       | 2025-01-05 |   263 |   113 |      1521 |   7.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2020) | 2025-01-05 |   146 |    30 |      1043 |   3.07 |
+| [`tg`](https://t.me/mwscr/651,652,653,654)         | 2025-01-05 |   227 |    47 |       644 |    7.3 |
+|                                                    |            |   636 |   190 |      3208 |  14.76 |
 
 #### Comments
 
@@ -50,6 +50,7 @@
 - `vk` <ins title="2022-07-12-04-02-18">vovach99</ins> Ох, картинки со звуком
 - `ig` <ins title="2025-01-05-19-34-18">berskate</ins> I hear their voice from the pictures
 - `ig` <ins title="2025-01-05-19-41-10">mistathugsegregation</ins> That first one is fantastic 🔥❤️
+- `vk` <ins title="2025-01-06-00-14-24">artyom_melikhoff</ins> Тот самый звук на всю округу.
 
 ## <span id="2025-01-04-mzahnch">Mzahnch</span>
 
@@ -70,10 +71,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DEaci7aTwYz/)       | 2025-01-04 |   496 |   156 |      1522 |  10.25 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2016) | 2025-01-04 |   235 |    37 |      1042 |   3.65 |
-| [`tg`](https://t.me/mwscr/649,650)                 | 2025-01-04 |   214 |    56 |       644 |    8.7 |
-|                                                    |            |   945 |   249 |      3208 |   7.53 |
+| [`ig`](https://instagram.com/p/DEaci7aTwYz/)       | 2025-01-04 |   497 |   157 |      1522 |  10.32 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2016) | 2025-01-04 |   237 |    38 |      1042 |   3.74 |
+| [`tg`](https://t.me/mwscr/649,650)                 | 2025-01-04 |   216 |    56 |       644 |    8.7 |
+|                                                    |            |   950 |   251 |      3208 |   7.58 |
 
 #### Comments
 
@@ -81,6 +82,7 @@
 - `vk` <ins title="2025-01-04-18-22-45">id820702664</ins> Мзанч
 - `ig` <ins title="2025-01-04-20-26-49">blatantbeats</ins> Reminds me of samurai Jack
 - `ig` <ins title="2025-01-04-21-42-26">doots_spookman</ins> he&#39;ll yeah
+- `vk` <ins title="2025-01-06-00-14-46">artyom_melikhoff</ins> А неплохо, очень даже!
 
 ## <span id="2025-01-03-nchurdamz-in-sunset-haze">Nchurdamz in Sunset Haze</span>
 
