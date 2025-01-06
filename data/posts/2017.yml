@@ -6001,18 +6001,18 @@
     - service: vk
       id: 1987
       published: 2024-12-23-18-10-51
-      updated: 2024-12-30-20-08-13
+      updated: 2025-01-06-21-07-15
       followers: 1027
-      likes: 33
-      views: 316
+      likes: 34
+      views: 338
       reposts: 2
     - service: tg
       id: 635
       published: 2024-12-23-18-10-58
-      updated: 2024-12-30-20-08-12
+      updated: 2025-01-06-21-07-15
       followers: 592
-      likes: 60
-      views: 382
+      likes: 62
+      views: 503
       comments: !c |-
         CzmAkpTLQnk/S682gACtTG9mdHlkZWx1c2lvbrtTZXggd2l0aCBhbG1hbGV4aWEgdGVhbfCfkYmT
         y0J5P0vaLoAApWFuc2lzslNodXQgdXAgYmxhc3BoZW1lcpPLQnk/S3UbgAClYW5zaXOqU2xheSBx
@@ -9584,10 +9584,10 @@
       id: DEfmNjaz7er
       mediaId: '18059335300902048'
       published: 2025-01-06-18-10-43
-      updated: 2025-01-06-20-07-34
+      updated: 2025-01-06-21-07-14
       followers: 1523
-      likes: 38
-      views: 113
+      likes: 42
+      views: 145
       comments: !c |-
         G3oAYIzTHbGYg5/W/537hGd7E4oCH97dOkUDdBQtNqoCDPWA2/UtpWlx/lTzGDsXJdPi2Xa32Ejv
         PwJcgZPlOLcLKzOs1LBw7kThpkUFkxoIhyh99QJ8eAQm4uMKc2LgPDvrDA7Wp2VzHXd/bIAhqDKa
@@ -9595,17 +9595,17 @@
     - service: vk
       id: 2026
       published: 2025-01-06-18-10-49
-      updated: 2025-01-06-20-07-33
+      updated: 2025-01-06-21-07-13
       followers: 1048
-      likes: 13
-      views: 68
+      likes: 15
+      views: 80
     - service: tg
       id: 655
       published: 2025-01-06-18-10-56
-      updated: 2025-01-06-20-07-34
+      updated: 2025-01-06-21-07-13
       followers: 645
-      likes: 27
-      views: 97
+      likes: 32
+      views: 110
 2017-09-17-night-square:
   title: Night Square
   titleRu: Ночная площадь
