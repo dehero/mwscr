@@ -9127,10 +9127,10 @@
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-01-05-19-01-27
+      updated: 2025-01-06-19-01-31
       followers: 1038
-      likes: 31
-      views: 283
+      likes: 35
+      views: 348
       reposts: 1
       comments: !c |-
         G1IA+J0JdiwXiwm2XHYcUe1IT5+tDJsEI0z2PGWlNCWbjYcPp1yKLYw4kWMgAT5zZLJTE42yKmre
@@ -9138,10 +9138,10 @@
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-01-05-19-01-25
+      updated: 2025-01-06-19-01-30
       followers: 644
       likes: 63
-      views: 312
+      views: 338
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
@@ -9584,15 +9584,24 @@
       id: DEfmNjaz7er
       mediaId: '18059335300902048'
       published: 2025-01-06-18-10-43
+      updated: 2025-01-06-19-01-28
       followers: 1523
+      likes: 25
+      views: 51
     - service: vk
       id: 2026
       published: 2025-01-06-18-10-49
+      updated: 2025-01-06-19-01-29
       followers: 1048
+      likes: 9
+      views: 45
     - service: tg
       id: 655
       published: 2025-01-06-18-10-56
+      updated: 2025-01-06-19-01-29
       followers: 645
+      likes: 24
+      views: 72
 2017-09-17-night-square:
   title: Night Square
   titleRu: Ночная площадь
