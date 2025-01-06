@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 971 posted, 13 pending, 67 rejected  
 Requested: 6 pending  
-Likes: 166859  
+Likes: 166873  
 
 ```
 dehero
@@ -57,7 +57,7 @@ knives-out
 
 Roles: `author` `drawer`  
 Authored: 2 posted, 2 pending  
-Likes: 497  
+Likes: 500  
 
 ```
 irina-bystritskaya
