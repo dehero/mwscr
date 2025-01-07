@@ -4,7 +4,38 @@
 
 # Posted in 2025
 
-`6 items`
+`7 items`
+
+## <span id="2025-01-07-caldera-north-west-road">Caldera, North-West Road</span>
+
+`RU` Кальдера, северо-западная дорога
+
+<a href="https://instagram.com/p/BazlGt3Dd6v/" title="2017-10-28-caldera-north-west-road"><img alt="store:/shots/2017-10-28-caldera-north-west-road.png" src="../../assets/previews/shots/2017-10-28-caldera-north-west-road.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Caldera` `🚀 OpenMW` `tower`
+
+```
+2025-01-07-caldera-north-west-road
+```
+
+> `2017-10-28-caldera-north-west-road`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BazlGt3Dd6v/)       | 2017-10-28 |       |    97 |       226 |  42.92 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_481)  | 2017-10-28 |   157 |    11 |        97 |  11.34 |
+| [`ig`](https://instagram.com/p/DEiLC17uOow/)       | 2025-01-07 |       |       |      1524 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2028) | 2025-01-07 |       |       |      1049 |        |
+| [`tg`](https://t.me/mwscr/656)                     | 2025-01-07 |       |       |       646 |        |
+|                                                    |            |       |       |      3219 |  27.13 |
+
+#### Comments
+
+- `ig` <ins title="2017-10-28-22-27-25">turquoise_slizer</ins> Caldera is the imperial settlement off of balmora with all the cliffracers flying around it right?
 
 ## <span id="2025-01-06-fort-surrounded-by-fir-trees">Fort Surrounded by Fir-Trees</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZHD-qwgDrR/)       | 2017-09-16 |       |    59 |       210 |   28.1 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_429)  | 2017-09-16 |   133 |    10 |        80 |   12.5 |
-| [`ig`](https://instagram.com/p/DEfmNjaz7er/)       | 2025-01-06 |   297 |    79 |      1523 |   5.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2026) | 2025-01-06 |   182 |    28 |      1048 |   2.67 |
+| [`ig`](https://instagram.com/p/DEfmNjaz7er/)       | 2025-01-06 |   300 |    80 |      1523 |   5.25 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2026) | 2025-01-06 |   185 |    29 |      1048 |   2.77 |
 | [`tg`](https://t.me/mwscr/655)                     | 2025-01-06 |   184 |    47 |       645 |   7.29 |
-|                                                    |            |   663 |   154 |      3216 |  11.15 |
+|                                                    |            |   669 |   156 |      3216 |  11.18 |
 
 #### Comments
 
@@ -39,6 +70,7 @@
 - `ig` <ins title="2025-01-06-19-25-09">blatantbeats</ins> Which fort is this?
   - <ins title="2025-01-06-19-58-34">mwscr</ins> Fort Frostmoth
 - `ig` <ins title="2025-01-06-19-52-46">mistathugsegregation</ins> You&#39;re an artist
+- `vk` <ins title="2025-01-07-17-57-12">id889222999</ins> Эти полторы берёзы специально для маскировки оставили 👍
 
 ## <span id="2025-01-05-silt-striders">Silt Striders</span>
 
@@ -148,10 +180,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Baw9lQADygR/)       | 2017-10-27 |       |    64 |       226 |  28.32 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_480)  | 2017-10-27 |   201 |    13 |        93 |  13.98 |
-| [`ig`](https://instagram.com/p/DEX30_wv76a/)       | 2025-01-03 |   432 |   114 |      1520 |    7.5 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2014) | 2025-01-03 |   287 |    50 |      1041 |      5 |
-| [`tg`](https://t.me/mwscr/646)                     | 2025-01-03 |   335 |    70 |       646 |  10.84 |
-|                                                    |            |  1054 |   234 |      3207 |  13.13 |
+| [`ig`](https://instagram.com/p/DEX30_wv76a/)       | 2025-01-03 |   439 |   115 |      1520 |   7.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2014) | 2025-01-03 |   307 |    50 |      1041 |      5 |
+| [`tg`](https://t.me/mwscr/646)                     | 2025-01-03 |   430 |    73 |       646 |   11.3 |
+|                                                    |            |  1176 |   238 |      3207 |  13.23 |
 
 #### Comments
 

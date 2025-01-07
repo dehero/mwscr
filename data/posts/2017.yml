@@ -9584,10 +9584,10 @@
       id: DEfmNjaz7er
       mediaId: '18059335300902048'
       published: 2025-01-06-18-10-43
-      updated: 2025-01-07-17-07-33
+      updated: 2025-01-07-18-10-47
       followers: 1523
-      likes: 79
-      views: 297
+      likes: 80
+      views: 300
       comments: !c |-
         G3oAYIzTHbGYg5/W/537hGd7E4oCH97dOkUDdBQtNqoCDPWA2/UtpWlx/lTzGDsXJdPi2Xa32Ejv
         PwJcgZPlOLcLKzOs1LBw7kThpkUFkxoIhyh99QJ8eAQm4uMKc2LgPDvrDA7Wp2VzHXd/bIAhqDKa
@@ -9595,14 +9595,17 @@
     - service: vk
       id: 2026
       published: 2025-01-06-18-10-49
-      updated: 2025-01-07-17-07-32
+      updated: 2025-01-07-18-10-45
       followers: 1048
-      likes: 28
-      views: 182
+      likes: 29
+      views: 185
+      comments: !c |-
+        G4EA+J0JvAnrMji1L5ZQPE/eRjjiiJPEtkFSwS7BLqLkfbJ0cyUlMdRdkA/3z8yRyW4PHKI8KUpI
+        NBUI/+zm/S1HnKU826oqvHkzsFqmDE7LUR2dlunmqOlWZ0egnD73LjxIN5jGymDl9AxQSPw5Lw==
     - service: tg
       id: 655
       published: 2025-01-06-18-10-56
-      updated: 2025-01-07-17-07-32
+      updated: 2025-01-07-18-10-46
       followers: 645
       likes: 47
       views: 184
@@ -10938,17 +10941,17 @@
       id: DEX30_wv76a
       mediaId: '18116624404379470'
       published: 2025-01-03-18-10-44
-      updated: 2025-01-06-18-10-30
+      updated: 2025-01-07-18-10-48
       followers: 1520
-      likes: 114
-      views: 432
+      likes: 115
+      views: 439
     - service: vk
       id: 2014
       published: 2025-01-03-18-10-50
-      updated: 2025-01-06-18-10-30
+      updated: 2025-01-07-18-10-47
       followers: 1041
       likes: 50
-      views: 287
+      views: 307
       reposts: 2
       comments: !c |-
         G1IA6J0J5vkzpaAMV97BFUHVLk4o4bBIkzxJPwyaSjDCZM9z+JyvoJQtce4AM0cmOwVJCqxqqNrs
@@ -10956,10 +10959,10 @@
     - service: tg
       id: 646
       published: 2025-01-03-18-10-56
-      updated: 2025-01-06-18-10-30
+      updated: 2025-01-07-18-10-47
       followers: 646
-      likes: 70
-      views: 335
+      likes: 73
+      views: 430
 2017-10-28-caldera-north-west-road:
   title: Caldera, North-West Road
   titleRu: Кальдера, северо-западная дорога
@@ -10990,6 +10993,19 @@
       followers: 97
       likes: 11
       views: 157
+    - service: ig
+      id: DEiLC17uOow
+      mediaId: '18081052477524929'
+      published: 2025-01-07-18-11-04
+      followers: 1524
+    - service: vk
+      id: 2028
+      published: 2025-01-07-18-11-12
+      followers: 1049
+    - service: tg
+      id: 656
+      published: 2025-01-07-18-11-21
+      followers: 646
 2017-10-29-wilted-littoral:
   title: Wilted Littoral
   titleRu: Чахлое прибрежье
