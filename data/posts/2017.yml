@@ -235,7 +235,7 @@
     - service: vk
       id: 56
       published: 2017-01-22
-      updated: 2024-12-31-20-07-59
+      updated: 2025-01-07-20-08-23
       likes: 5
       views: 72
     - service: ig
@@ -9584,7 +9584,7 @@
       id: DEfmNjaz7er
       mediaId: '18059335300902048'
       published: 2025-01-06-18-10-43
-      updated: 2025-01-07-19-02-16
+      updated: 2025-01-07-20-08-20
       followers: 1523
       likes: 80
       views: 302
@@ -9595,20 +9595,20 @@
     - service: vk
       id: 2026
       published: 2025-01-06-18-10-49
-      updated: 2025-01-07-19-02-15
+      updated: 2025-01-07-20-08-20
       followers: 1048
       likes: 29
-      views: 189
+      views: 192
       comments: !c |-
         G4EA+J0JvAnrMji1L5ZQPE/eRjjiiJPEtkFSwS7BLqLkfbJ0cyUlMdRdkA/3z8yRyW4PHKI8KUpI
         NBUI/+zm/S1HnKU826oqvHkzsFqmDE7LUR2dlunmqOlWZ0egnD73LjxIN5jGymDl9AxQSPw5Lw==
     - service: tg
       id: 655
       published: 2025-01-06-18-10-56
-      updated: 2025-01-07-19-02-15
+      updated: 2025-01-07-20-08-20
       followers: 645
       likes: 50
-      views: 203
+      views: 213
 2017-09-17-night-square:
   title: Night Square
   titleRu: Ночная площадь
@@ -10997,25 +10997,25 @@
       id: DEiLC17uOow
       mediaId: '18081052477524929'
       published: 2025-01-07-18-11-04
-      updated: 2025-01-07-19-02-14
+      updated: 2025-01-07-20-08-18
       followers: 1524
-      likes: 21
-      views: 36
+      likes: 32
+      views: 81
     - service: vk
       id: 2028
       published: 2025-01-07-18-11-12
-      updated: 2025-01-07-19-02-14
+      updated: 2025-01-07-20-08-18
       followers: 1049
-      likes: 8
-      views: 52
+      likes: 14
+      views: 78
       reposts: 2
     - service: tg
       id: 656
       published: 2025-01-07-18-11-21
-      updated: 2025-01-07-19-02-15
+      updated: 2025-01-07-20-08-19
       followers: 646
-      likes: 25
-      views: 78
+      likes: 30
+      views: 102
 2017-10-29-wilted-littoral:
   title: Wilted Littoral
   titleRu: Чахлое прибрежье
