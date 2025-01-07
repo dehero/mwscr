@@ -1188,35 +1188,6 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_554) | 2017-12-27 |   206 |    18 |       114 |  15.79 |
 |                                                   |            |   206 |   119 |       376 |  27.17 |
 
-## <span id="2017-10-28-caldera-north-west-road">Caldera, North-West Road</span>
-
-`RU` Кальдера, северо-западная дорога
-
-<a href="https://instagram.com/p/BazlGt3Dd6v/" title="2017-10-28-caldera-north-west-road"><img alt="store:/shots/2017-10-28-caldera-north-west-road.png" src="../../assets/previews/shots/2017-10-28-caldera-north-west-road.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B1` `📍 Caldera` `🚀 OpenMW` `tower`
-
-```
-2017-10-28-caldera-north-west-road
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BazlGt3Dd6v/)       | 2017-10-28 |       |    97 |       226 |  42.92 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_481)  | 2017-10-28 |   157 |    11 |        97 |  11.34 |
-| [`ig`](https://instagram.com/p/DEiLC17uOow/)       | 2025-01-07 |       |       |      1524 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2028) | 2025-01-07 |       |       |      1049 |        |
-| [`tg`](https://t.me/mwscr/656)                     | 2025-01-07 |       |       |       646 |        |
-|                                                    |            |   157 |   108 |       323 |  27.13 |
-
-#### Comments
-
-- `ig` <ins title="2017-10-28-22-27-25">turquoise_slizer</ins> Caldera is the imperial settlement off of balmora with all the cliffracers flying around it right?
-
 ## <span id="2017-04-21-fishers-bliss">Fisher&#39;s Bliss</span>
 
 `RU` Счастье рыбака
@@ -1292,6 +1263,33 @@
 - `ig` <ins title="2017-03-22-15-06-44">attack_on_titan_fan01</ins> Dragonborn dlc right?
 - `ig` <ins title="2017-03-22-15-12-42">mwscr</ins> @attack_on_titan_fan01 No, Dragonborn DLC is for TES V: Skyrim (2011). This screenshot is from TES III: Morrowind (2002), like others on this account.
 - `ig` <ins title="2017-03-22-15-16-18">attack_on_titan_fan01</ins> @mwscr OK thanks
+
+## <span id="2017-06-20-crossing-swampy-islands">Crossing Swampy Islands</span>
+
+`RU` Пересекая болотистые острова
+
+<a href="https://instagram.com/p/BVjreN8j6PO/" title="2017-06-20-crossing-swampy-islands"><img alt="store:/shots/2017-06-20-crossing-swampy-islands.png" src="../../assets/previews/shots/2017-06-20-crossing-swampy-islands.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-06-20-crossing-swampy-islands&postLocation=)</code> `🚀 OpenMW`
+
+```
+2017-06-20-crossing-swampy-islands
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BVjreN8j6PO/)      | 2017-06-20 |       |    59 |       183 |  32.24 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_328) | 2017-06-20 |   192 |    13 |        65 |  21.54 |
+|                                                   |            |   192 |    72 |       248 |  26.89 |
+
+#### Comments
+
+- `ig` <ins title="2017-06-20-10-24-13">mighty_markyys</ins> Still playing this game, Im not using any mods, only resolution fix, so I can use 1920x1080. I also use my graphic cards anti-aliasing settings for 32xAA. Game difficulty 100 (hard as fuck). I like to imagine games short view distance as &quot;fog&quot; ,so it wont bother me :) Do you play any other elder scrolls games?
+- `ig` <ins title="2017-06-20-11-01-49">mwscr</ins> @mighty_markyys I played Oblivion and Skyrim, both brilliant games, but only Morrowind stays truly immortal for me. I like and encourage the way you play it :-) And this mysterious fog of war is one of the things that creates unique atmosphere.
 
 ---
 
