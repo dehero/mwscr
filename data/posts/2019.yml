@@ -1716,18 +1716,18 @@
     - service: vk
       id: 1890
       published: 2024-11-11-18-10-04
-      updated: 2024-12-31-02-09-07
+      updated: 2025-01-07-02-11-23
       followers: 1006
-      likes: 40
-      views: 350
+      likes: 41
+      views: 358
       reposts: 1
     - service: tg
       id: 592
       published: 2024-11-11-18-10-12
-      updated: 2024-12-31-02-09-06
+      updated: 2025-01-07-02-11-23
       followers: 564
       likes: 65
-      views: 508
+      views: 516
 2019-10-06-dwemer-telescope:
   title: Dwemer Telescope
   titleRu: Двемерский телескоп
