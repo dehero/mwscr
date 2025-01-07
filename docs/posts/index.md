@@ -28,14 +28,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BazlGt3Dd6v/)       | 2017-10-28 |       |    97 |       226 |  42.92 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_481)  | 2017-10-28 |   157 |    11 |        97 |  11.34 |
-| [`ig`](https://instagram.com/p/DEiLC17uOow/)       | 2025-01-07 |    81 |    32 |      1524 |    2.1 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2028) | 2025-01-07 |    78 |    14 |      1049 |   1.53 |
-| [`tg`](https://t.me/mwscr/656)                     | 2025-01-07 |   102 |    30 |       646 |   4.64 |
-|                                                    |            |   261 |    76 |      3219 |  12.51 |
+| [`ig`](https://instagram.com/p/DEiLC17uOow/)       | 2025-01-07 |    96 |    43 |      1524 |   2.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2028) | 2025-01-07 |    99 |    16 |      1049 |   1.72 |
+| [`tg`](https://t.me/mwscr/656)                     | 2025-01-07 |   114 |    36 |       646 |   5.57 |
+|                                                    |            |   309 |    95 |      3219 |  12.87 |
 
 #### Comments
 
 - `ig` <ins title="2017-10-28-22-27-25">turquoise_slizer</ins> Caldera is the imperial settlement off of balmora with all the cliffracers flying around it right?
+- `ig` <ins title="2025-01-07-20-57-19">istsieliz</ins> One of the nicest towns ✨
 
 ## <span id="2025-01-06-fort-surrounded-by-fir-trees">Fort Surrounded by Fir-Trees</span>
 
@@ -59,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZHD-qwgDrR/)       | 2017-09-16 |       |    59 |       210 |   28.1 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_429)  | 2017-09-16 |   133 |    10 |        80 |   12.5 |
-| [`ig`](https://instagram.com/p/DEfmNjaz7er/)       | 2025-01-06 |   302 |    80 |      1523 |   5.25 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2026) | 2025-01-06 |   192 |    29 |      1048 |   2.77 |
-| [`tg`](https://t.me/mwscr/655)                     | 2025-01-06 |   213 |    50 |       645 |   7.75 |
-|                                                    |            |   707 |   159 |      3216 |  11.27 |
+| [`ig`](https://instagram.com/p/DEfmNjaz7er/)       | 2025-01-06 |   304 |    80 |      1523 |   5.25 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2026) | 2025-01-06 |   195 |    29 |      1048 |   2.77 |
+| [`tg`](https://t.me/mwscr/655)                     | 2025-01-06 |   216 |    52 |       645 |   8.06 |
+|                                                    |            |   715 |   161 |      3216 |  11.34 |
 
 #### Comments
 

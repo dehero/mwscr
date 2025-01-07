@@ -2484,10 +2484,10 @@
     - service: vk
       id: 1988
       published: 2024-12-24-18-10-38
-      updated: 2024-12-31-21-02-05
+      updated: 2025-01-07-21-02-25
       followers: 1028
-      likes: 45
-      views: 363
+      likes: 46
+      views: 384
       reposts: 4
       comments: !c |-
         G+UAyJwHtqOdVUH8g2aySSee+J2kl0dhnkGGexMb6eQfpG6EERIlL7BmfAVh0bnFCjAgspnT0aDF
@@ -2496,10 +2496,10 @@
     - service: tg
       id: 636
       published: 2024-12-24-18-10-47
-      updated: 2024-12-31-21-02-05
+      updated: 2025-01-07-21-02-26
       followers: 603
-      likes: 59
-      views: 481
+      likes: 64
+      views: 597
 2017-03-06-night-encounter-at-the-bridge:
   title: Night Encounter at the Bridge
   titleRu: Ночная встреча у моста
@@ -9584,10 +9584,10 @@
       id: DEfmNjaz7er
       mediaId: '18059335300902048'
       published: 2025-01-06-18-10-43
-      updated: 2025-01-07-20-08-20
+      updated: 2025-01-07-21-02-26
       followers: 1523
       likes: 80
-      views: 302
+      views: 304
       comments: !c |-
         G3oAYIzTHbGYg5/W/537hGd7E4oCH97dOkUDdBQtNqoCDPWA2/UtpWlx/lTzGDsXJdPi2Xa32Ejv
         PwJcgZPlOLcLKzOs1LBw7kThpkUFkxoIhyh99QJ8eAQm4uMKc2LgPDvrDA7Wp2VzHXd/bIAhqDKa
@@ -9595,20 +9595,20 @@
     - service: vk
       id: 2026
       published: 2025-01-06-18-10-49
-      updated: 2025-01-07-20-08-20
+      updated: 2025-01-07-21-02-25
       followers: 1048
       likes: 29
-      views: 192
+      views: 195
       comments: !c |-
         G4EA+J0JvAnrMji1L5ZQPE/eRjjiiJPEtkFSwS7BLqLkfbJ0cyUlMdRdkA/3z8yRyW4PHKI8KUpI
         NBUI/+zm/S1HnKU826oqvHkzsFqmDE7LUR2dlunmqOlWZ0egnD73LjxIN5jGymDl9AxQSPw5Lw==
     - service: tg
       id: 655
       published: 2025-01-06-18-10-56
-      updated: 2025-01-07-20-08-20
+      updated: 2025-01-07-21-02-25
       followers: 645
-      likes: 50
-      views: 213
+      likes: 52
+      views: 216
 2017-09-17-night-square:
   title: Night Square
   titleRu: Ночная площадь
@@ -10997,25 +10997,26 @@
       id: DEiLC17uOow
       mediaId: '18081052477524929'
       published: 2025-01-07-18-11-04
-      updated: 2025-01-07-20-08-18
+      updated: 2025-01-07-21-02-24
       followers: 1524
-      likes: 32
-      views: 81
+      likes: 43
+      views: 96
+      comments: !c CxiAkZPLQnlEKOv5gACpaXN0c2llbGl6u09uZSBvZiB0aGUgbmljZXN0IHRvd25zIOKcqAM=
     - service: vk
       id: 2028
       published: 2025-01-07-18-11-12
-      updated: 2025-01-07-20-08-18
+      updated: 2025-01-07-21-02-23
       followers: 1049
-      likes: 14
-      views: 78
+      likes: 16
+      views: 99
       reposts: 2
     - service: tg
       id: 656
       published: 2025-01-07-18-11-21
-      updated: 2025-01-07-20-08-19
+      updated: 2025-01-07-21-02-24
       followers: 646
-      likes: 30
-      views: 102
+      likes: 36
+      views: 114
 2017-10-29-wilted-littoral:
   title: Wilted Littoral
   titleRu: Чахлое прибрежье
