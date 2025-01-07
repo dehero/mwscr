@@ -9584,10 +9584,10 @@
       id: DEfmNjaz7er
       mediaId: '18059335300902048'
       published: 2025-01-06-18-10-43
-      updated: 2025-01-07-09-08-09
+      updated: 2025-01-07-10-08-48
       followers: 1523
-      likes: 70
-      views: 260
+      likes: 73
+      views: 262
       comments: !c |-
         G3oAYIzTHbGYg5/W/537hGd7E4oCH97dOkUDdBQtNqoCDPWA2/UtpWlx/lTzGDsXJdPi2Xa32Ejv
         PwJcgZPlOLcLKzOs1LBw7kThpkUFkxoIhyh99QJ8eAQm4uMKc2LgPDvrDA7Wp2VzHXd/bIAhqDKa
@@ -9595,17 +9595,17 @@
     - service: vk
       id: 2026
       published: 2025-01-06-18-10-49
-      updated: 2025-01-07-09-08-07
+      updated: 2025-01-07-10-08-48
       followers: 1048
-      likes: 25
-      views: 144
+      likes: 26
+      views: 150
     - service: tg
       id: 655
       published: 2025-01-06-18-10-56
-      updated: 2025-01-07-09-08-08
+      updated: 2025-01-07-10-08-49
       followers: 645
       likes: 43
-      views: 163
+      views: 165
 2017-09-17-night-square:
   title: Night Square
   titleRu: Ночная площадь
