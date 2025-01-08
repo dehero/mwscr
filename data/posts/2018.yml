@@ -929,18 +929,18 @@
     - service: vk
       id: 1990
       published: 2024-12-25-18-10-00
-      updated: 2025-01-01-18-09-58
+      updated: 2025-01-08-18-10-30
       followers: 1030
-      likes: 34
-      views: 283
+      likes: 37
+      views: 306
       reposts: 1
     - service: tg
       id: 637
       published: 2024-12-25-18-10-08
-      updated: 2025-01-01-18-09-57
+      updated: 2025-01-08-18-10-29
       followers: 612
-      likes: 58
-      views: 386
+      likes: 63
+      views: 537
       comments: !c |-
         CyiAkZTLQnlAVEbPAACtT2xtZXJfSXpkZXlsYbJXaGF0IGlzIHRoZSBwbGFjZT+Ty0J5QFYdBgAA
         pW13c2NytEFsZCBWZWxvdGhpLCBPdXRwb3N0Aw==
@@ -10684,6 +10684,19 @@
       updated: 2025-01-08-07-01-26
       likes: 2
       views: 232
+    - service: ig
+      id: DEkvz2SvxhB
+      mediaId: '18048819539167489'
+      published: 2025-01-08-18-10-47
+      followers: 1524
+    - service: vk
+      id: 2034
+      published: 2025-01-08-18-10-54
+      followers: 1052
+    - service: tg
+      id: 657
+      published: 2025-01-08-18-11-01
+      followers: 646
 2018-10-21-trees-and-skies:
   title: Trees and Skies
   titleRu: Деревья и небеса
