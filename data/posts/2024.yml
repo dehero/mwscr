@@ -2840,17 +2840,17 @@
     - service: vk
       id: 1937
       published: 2024-12-03-22-09-03
-      updated: 2025-01-01-07-07-51
+      updated: 2025-01-08-08-10-33
       followers: 1012
-      likes: 35
-      views: 326
+      likes: 36
+      views: 333
     - service: tg
       id: 614
       published: 2024-12-03-22-09-13
-      updated: 2025-01-01-07-07-50
+      updated: 2025-01-08-08-10-32
       followers: 574
       likes: 56
-      views: 415
+      views: 432
 2024-12-04-flash-of-lightning:
   title: Flash of Lightning
   titleRu: Вспышка молнии
