@@ -44,10 +44,10 @@
     - service: tg
       id: 246
       published: 2022-06-23
-      updated: 2025-01-01-04-10-18
+      updated: 2025-01-08-05-08-30
       followers: 226
       likes: 85
-      views: 1150
+      views: 1158
       comments: !c |-
         G9oCIBwJxs3koXBCa0cf5POu6T2/OXbp0BGw7K7ttqQIbkgoFP7Is7PAk9cGjAPrOo+vLOjoiXPp
         Mm2qm2k0JW1UXEG7AT16BvjT27Z8VI/6BMVktnEIHkNkv5ofe8hw+lo9CgWwYRFdLq1SKkAEQ5QR
@@ -90,10 +90,10 @@
     - service: tg
       id: 247
       published: 2022-06-24
-      updated: 2025-01-01-04-10-18
+      updated: 2025-01-08-05-08-30
       followers: 236
       likes: 58
-      views: 717
+      views: 718
       comments: !c |-
         GygBCBwHuTn0gjPNyvzyX9b0qit0E2TFikhoAnQ0dohCLh7fl2fcMij1nmHCcx3opxl8k/YyY5pa
         JwcaIPclklCHLJZED9oW1MmmCRV+s36CTD06/rR3+j89YR6ipVI5Ea01WJ3vMvj+hBS/rqtikl8v
@@ -133,7 +133,7 @@
         - 248
         - 249
       published: 2022-06-25
-      updated: 2025-01-01-04-10-18
+      updated: 2025-01-08-05-08-29
       followers: 238
       likes: 52
       views: 688
@@ -181,15 +181,15 @@
         - 252
         - 253
       published: 2022-06-26
-      updated: 2025-01-01-04-10-17
+      updated: 2025-01-08-05-08-28
       followers: 242
       likes: 57
-      views: 680
+      views: 681
       comments: !c |-
-        G90AAOTnr/mFL2dVgEcrnkYFrYG66dsaMN/DE9vT4yywwkC4Agw4aIkcL3rC+HTUg2wMSxFuuWX4
-        0uu+pAqnP83rZJ8s5/05WXvO8GRtEtJad0gXCwqirTmvqqIQSRtgJukafTg6vamU2W1Z9cTQlZpn
-        +iIXKVcsRRMFCmvswK1rBzz1yEpJykpYkAFnuGETzgp4Ygub68XykH/XsQnnKLDV3imEYXYXc8V4
-        xBvd/Ze7Lg==
+        G+AAAGS+/Xklz414XUqsENIcEqQ2h8i7+EvbG8fbYA/EDzrwcIuMi0448GhDbQxLeXBgWeXw2qi/
+        pDkCezMsgmU4m3QmMKbJZ0/dOrQUMuoM0XSKQrTV4JGnpHxRB4wLWzoPa709EuFbBZOGDPVzwdZ/
+        AbAzSOQKlcRoEohPcIpq8Na4DT5NSX0CjlHhCA64wxsqwzMFPlEFlTeM8pN/FlEZnhPBSrWfOAy7
+        NZ1IB312/+I/XtQB
 2022-06-27-going-out-of-mournhold-armory:
   title: Going Out of Mournhold Armory
   titleRu: Выходя из оружейной Морнхолда
@@ -223,10 +223,10 @@
     - service: tg
       id: 254
       published: 2022-06-27
-      updated: 2025-01-01-04-10-17
+      updated: 2025-01-08-05-08-28
       followers: 241
       likes: 48
-      views: 655
+      views: 656
       comments: !c |-
         G0ABQI2UqO14C3N7KYgP00i1hCf6VXbx9IQ2aWSL9d3mprsM/nOHdiDwrva3j0l0gnmLMdLY0m0i
         Xl/YKBkmCz//eL4My+O3CfEhcFg7JXe823WA4UFCg3fcEezRsw0JNQ7ee9kWFGLTTscz74ARA1Mp
@@ -263,10 +263,10 @@
     - service: tg
       id: 255
       published: 2022-06-28
-      updated: 2025-01-01-04-10-16
+      updated: 2025-01-08-05-08-27
       followers: 242
       likes: 48
-      views: 670
+      views: 671
 2022-06-29-window-plant:
   title: Window Plant
   titleRu: Оконное растение
@@ -298,7 +298,7 @@
     - service: tg
       id: 256
       published: 2022-06-29
-      updated: 2025-01-01-04-10-16
+      updated: 2025-01-08-05-08-27
       followers: 245
       likes: 47
       views: 610
@@ -333,7 +333,7 @@
     - service: tg
       id: 257
       published: 2022-06-30
-      updated: 2025-01-01-04-10-15
+      updated: 2025-01-08-05-08-26
       followers: 246
       likes: 45
       views: 651
@@ -381,7 +381,7 @@
     - service: tg
       id: 258
       published: 2022-07-01
-      updated: 2025-01-01-04-10-15
+      updated: 2025-01-08-05-08-26
       followers: 247
       likes: 47
       views: 628
@@ -413,7 +413,7 @@
     - service: tg
       id: 259
       published: 2022-07-02
-      updated: 2025-01-01-04-10-14
+      updated: 2025-01-08-05-08-25
       followers: 248
       likes: 44
       views: 687
@@ -453,7 +453,7 @@
     - service: tg
       id: 260
       published: 2022-07-03
-      updated: 2025-01-01-04-10-14
+      updated: 2025-01-08-05-08-25
       followers: 252
       likes: 49
       views: 665
@@ -503,7 +503,7 @@
         - 263
         - 264
       published: 2022-07-04
-      updated: 2025-01-01-04-10-13
+      updated: 2025-01-08-05-08-24
       followers: 253
       likes: 62
       views: 699
@@ -539,7 +539,7 @@
     - service: tg
       id: 265
       published: 2022-07-05
-      updated: 2025-01-01-04-10-13
+      updated: 2025-01-08-05-08-24
       followers: 253
       likes: 43
       views: 645
