@@ -9584,7 +9584,7 @@
       id: DEfmNjaz7er
       mediaId: '18059335300902048'
       published: 2025-01-06-18-10-43
-      updated: 2025-01-08-08-10-31
+      updated: 2025-01-08-09-08-09
       followers: 1523
       likes: 83
       views: 319
@@ -9595,17 +9595,17 @@
     - service: vk
       id: 2026
       published: 2025-01-06-18-10-49
-      updated: 2025-01-08-08-10-32
+      updated: 2025-01-08-09-08-10
       followers: 1048
       likes: 30
-      views: 212
+      views: 214
       comments: !c |-
         G4EA+J0JvAnrMji1L5ZQPE/eRjjiiJPEtkFSwS7BLqLkfbJ0cyUlMdRdkA/3z8yRyW4PHKI8KUpI
         NBUI/+zm/S1HnKU826oqvHkzsFqmDE7LUR2dlunmqOlWZ0egnD73LjxIN5jGymDl9AxQSPw5Lw==
     - service: tg
       id: 655
       published: 2025-01-06-18-10-56
-      updated: 2025-01-08-08-10-31
+      updated: 2025-01-08-09-08-09
       followers: 645
       likes: 55
       views: 245
@@ -10997,32 +10997,36 @@
       id: DEiLC17uOow
       mediaId: '18081052477524929'
       published: 2025-01-07-18-11-04
-      updated: 2025-01-08-08-10-30
+      updated: 2025-01-08-09-08-07
       followers: 1524
       likes: 79
-      views: 216
+      views: 221
       comments: !c CxiAkZPLQnlEKOv5gACpaXN0c2llbGl6u09uZSBvZiB0aGUgbmljZXN0IHRvd25zIOKcqAM=
     - service: vk
       id: 2028
       published: 2025-01-07-18-11-12
-      updated: 2025-01-08-08-10-30
+      updated: 2025-01-08-09-08-08
       followers: 1049
       likes: 33
-      views: 182
+      views: 187
       reposts: 3
       comments: !c |-
-        G1cBYJ0Jts2I7XDs2CNaBPHPtZZP6D+/Ki06wWorO+AAb7KcwdXVFmowRZvRYnRyjuN5GFB1q1kz
-        cjq3I/l5PmpBYVg9PdHAOA5abQEFlkaQeVF8vcIJrzdMSfJ8Jl5aaU/n9zh08/5j8qJf2Gj7EOqb
-        0S5tXIBt8EMFgv9SgvXexyKmpt2s/KUU1Hu/8ZwNm+Vio1iu16vp4wZUSHAiBUiEBQ9U2qIRGTiB
-        WTpoEIQcKqpfwmE+w7vgR1VBXDGI4BMXG4UGThKYQdNxBLjkZ4eW4+ja34zHi9k67VxleLKBcYq5
-        FMwMilIxyMBEYQKLMXDR
+        G5UDQCwPbLcJBLprx+HWndCTiP+nv+f3OaGjzbx/Zz7EkWeJBVwCQZEla4umn/t5X0g9ZQgUkFwK
+        6Sumwk7VzUmExhGsRrQthJAtG5cYi0caEkTBcr2lKiT7PjvVJikmdLeZjcaE0l6vMPbLavbe24PO
+        mmCGmf6+dHej4V4gC4cJ9LJAA73ReJqFMsLUTRE8ZB67xmotqU8NZY79/PpbX7J9H7ffPAzF52So
+        afjqLFfQShEDLBHmlJVzfgRylYxCOeuUlP3Gz3sLCB6QyOnjAfry7CiASvx8MaSGQeokmW+kGbDM
+        nKXn/DkSnvx2+qsKeegrTh6XOzRagqhCdS3TdBukfECQ0Srq+233PsfSxR3K+jLY6CZl4DdpDzDq
+        +AIoyWQTMGm9KDcY/H/5/281EOUvF6sc5eRiTtgJp54m2oHx6EXqk/N0VQDGpMBDsLGjTa2Y6J71
+        BPnq62CNCrmO5cl6D5C6OzkSJi5AFyiJvvicOiHUDNUAXDaS1UFDo/Qx9k3tCcSrKOpWAt29AkAv
+        ha0K+V6pdtQ0OJwMwITs7fQakmJyxeHFcDMJut3hVu8kYaSRNgNYakHzkPwYKOTxRaxTrCcYpJfy
+        QpaNYmEV6z+bdH7WdPWyGd34K8XpGQ==
     - service: tg
       id: 656
       published: 2025-01-07-18-11-21
-      updated: 2025-01-08-08-10-30
+      updated: 2025-01-08-09-08-08
       followers: 646
-      likes: 51
-      views: 176
+      likes: 52
+      views: 178
 2017-10-29-wilted-littoral:
   title: Wilted Littoral
   titleRu: Чахлое прибрежье
