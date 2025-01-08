@@ -5107,10 +5107,10 @@
     - service: vk
       id: 1905
       published: 2024-11-19-18-11-05
-      updated: 2025-01-01-00-40-00
+      updated: 2025-01-08-02-10-14
       followers: 1006
       likes: 37
-      views: 504
+      views: 524
       reposts: 1
       comments: !c |-
         GzUDQCwLeENq8RuXOIYavU4Raq3DX9yE4+WIf77u2RI+/TM7C4F84jDjBAsST85Va0OhBQJhAYWY
@@ -5124,10 +5124,10 @@
     - service: tg
       id: 600
       published: 2024-11-19-18-11-14
-      updated: 2025-01-01-00-40-00
+      updated: 2025-01-08-02-10-14
       followers: 574
       likes: 56
-      views: 444
+      views: 452
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
@@ -5592,10 +5592,10 @@
     - service: vk
       id: 1891
       published: 2024-11-12-18-10-16
-      updated: 2025-01-01-00-40-00
+      updated: 2025-01-08-02-10-15
       followers: 1006
       likes: 33
-      views: 296
+      views: 300
       reposts: 1
       comments: !c |-
         G8kA+K2St4XgISW1mXaBj/+nv9gSvvEPu5RSBk0ikSfn6nQaJSdsRyA04y1aHWRy7DH9JUFbJpHX
@@ -5604,10 +5604,10 @@
     - service: tg
       id: 593
       published: 2024-11-12-18-10-24
-      updated: 2025-01-01-00-40-01
+      updated: 2025-01-08-02-10-15
       followers: 564
       likes: 60
-      views: 526
+      views: 535
 2017-05-24-near-the-ancient-dwelling:
   title: Near the Ancient Dwelling
   titleRu: У древнего жилища
@@ -9584,10 +9584,10 @@
       id: DEfmNjaz7er
       mediaId: '18059335300902048'
       published: 2025-01-06-18-10-43
-      updated: 2025-01-08-00-36-33
+      updated: 2025-01-08-02-10-13
       followers: 1523
       likes: 82
-      views: 310
+      views: 313
       comments: !c |-
         G3oAYIzTHbGYg5/W/537hGd7E4oCH97dOkUDdBQtNqoCDPWA2/UtpWlx/lTzGDsXJdPi2Xa32Ejv
         PwJcgZPlOLcLKzOs1LBw7kThpkUFkxoIhyh99QJ8eAQm4uMKc2LgPDvrDA7Wp2VzHXd/bIAhqDKa
@@ -9595,20 +9595,20 @@
     - service: vk
       id: 2026
       published: 2025-01-06-18-10-49
-      updated: 2025-01-08-00-36-33
+      updated: 2025-01-08-02-10-13
       followers: 1048
       likes: 29
-      views: 203
+      views: 205
       comments: !c |-
         G4EA+J0JvAnrMji1L5ZQPE/eRjjiiJPEtkFSwS7BLqLkfbJ0cyUlMdRdkA/3z8yRyW4PHKI8KUpI
         NBUI/+zm/S1HnKU826oqvHkzsFqmDE7LUR2dlunmqOlWZ0egnD73LjxIN5jGymDl9AxQSPw5Lw==
     - service: tg
       id: 655
       published: 2025-01-06-18-10-56
-      updated: 2025-01-08-00-36-33
+      updated: 2025-01-08-02-10-12
       followers: 645
-      likes: 53
-      views: 230
+      likes: 54
+      views: 233
 2017-09-17-night-square:
   title: Night Square
   titleRu: Ночная площадь
@@ -10997,29 +10997,31 @@
       id: DEiLC17uOow
       mediaId: '18081052477524929'
       published: 2025-01-07-18-11-04
-      updated: 2025-01-08-00-36-31
+      updated: 2025-01-08-02-10-11
       followers: 1524
-      likes: 64
-      views: 156
+      likes: 67
+      views: 177
       comments: !c CxiAkZPLQnlEKOv5gACpaXN0c2llbGl6u09uZSBvZiB0aGUgbmljZXN0IHRvd25zIOKcqAM=
     - service: vk
       id: 2028
       published: 2025-01-07-18-11-12
-      updated: 2025-01-08-00-36-32
+      updated: 2025-01-08-02-10-11
       followers: 1049
-      likes: 23
-      views: 129
-      reposts: 2
+      likes: 25
+      views: 133
+      reposts: 3
       comments: !c |-
-        G1IA+MX/59yPcEDz6c5IUqusMNIG3L8CKO/D34BgI1BYUgWLijq1/UuIRI6eMTOamqtpvqSrthb8
-        eQxYcacCBxwpxspWRRdcjx9kRhWleFKOKwc=
+        GwMB6J0Hti1jGy47/9jXBoXQqKATQ3hArx6xAKeCLVll1uZGpQSb0WL0ZML4tbzFZj+zRxWVLlTq
+        +5vEbKIWpAA24DzlgANaZDc40cA4iOZh4gk2j3iECQeHnKSScNKhZd/PP13Te64ft8hSD1BvSvvR
+        BNHycAIrXoaynw8f2qlqsuOCc2987wVLniyz+9cCuTBDJ8A1mo2TtKM0H6Gok07BAE4k7WsEH5yg
+        T20EQvHo3NAQeinUObSFn2gbWOEA
     - service: tg
       id: 656
       published: 2025-01-07-18-11-21
-      updated: 2025-01-08-00-36-32
+      updated: 2025-01-08-02-10-12
       followers: 646
-      likes: 42
-      views: 144
+      likes: 45
+      views: 149
 2017-10-29-wilted-littoral:
   title: Wilted Littoral
   titleRu: Чахлое прибрежье

@@ -28,16 +28,17 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BazlGt3Dd6v/)       | 2017-10-28 |       |    97 |       226 |  42.92 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_481)  | 2017-10-28 |   157 |    11 |        97 |  11.34 |
-| [`ig`](https://instagram.com/p/DEiLC17uOow/)       | 2025-01-07 |   156 |    64 |      1524 |    4.2 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2028) | 2025-01-07 |   129 |    23 |      1049 |   2.38 |
-| [`tg`](https://t.me/mwscr/656)                     | 2025-01-07 |   144 |    42 |       646 |    6.5 |
-|                                                    |            |   429 |   129 |      3219 |  13.47 |
+| [`ig`](https://instagram.com/p/DEiLC17uOow/)       | 2025-01-07 |   177 |    67 |      1524 |    4.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2028) | 2025-01-07 |   133 |    25 |      1049 |   2.67 |
+| [`tg`](https://t.me/mwscr/656)                     | 2025-01-07 |   149 |    45 |       646 |   6.97 |
+|                                                    |            |   459 |   137 |      3219 |  13.66 |
 
 #### Comments
 
 - `ig` <ins title="2017-10-28-22-27-25">turquoise_slizer</ins> Caldera is the imperial settlement off of balmora with all the cliffracers flying around it right?
 - `ig` <ins title="2025-01-07-20-57-19">istsieliz</ins> One of the nicest towns ✨
 - `vk` <ins title="2025-01-07-22-40-23">peteevandrew</ins> Кальдера хороший город, уютный.
+- `vk` <ins title="2025-01-08-00-50-57">id820702664</ins> Там у Гораков Чертёнок живёт на втором этаже.<br>Я ему оружие и бухло таскаю на продажу.
 
 ## <span id="2025-01-06-fort-surrounded-by-fir-trees">Fort Surrounded by Fir-Trees</span>
 
@@ -61,10 +62,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZHD-qwgDrR/)       | 2017-09-16 |       |    59 |       210 |   28.1 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_429)  | 2017-09-16 |   133 |    10 |        80 |   12.5 |
-| [`ig`](https://instagram.com/p/DEfmNjaz7er/)       | 2025-01-06 |   310 |    82 |      1523 |   5.38 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2026) | 2025-01-06 |   203 |    29 |      1048 |   2.77 |
-| [`tg`](https://t.me/mwscr/655)                     | 2025-01-06 |   230 |    53 |       645 |   8.22 |
-|                                                    |            |   743 |   164 |      3216 |  11.39 |
+| [`ig`](https://instagram.com/p/DEfmNjaz7er/)       | 2025-01-06 |   313 |    82 |      1523 |   5.38 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2026) | 2025-01-06 |   205 |    29 |      1048 |   2.77 |
+| [`tg`](https://t.me/mwscr/655)                     | 2025-01-06 |   233 |    54 |       645 |   8.37 |
+|                                                    |            |   751 |   165 |      3216 |  11.42 |
 
 #### Comments
 
