@@ -160,7 +160,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2025-01-01-20-08-16
+      updated: 2025-01-08-20-08-25
       followers: 894
       likes: 47
       views: 367
@@ -9127,10 +9127,10 @@
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-01-07-19-02-17
+      updated: 2025-01-08-20-08-23
       followers: 1038
-      likes: 36
-      views: 361
+      likes: 37
+      views: 379
       reposts: 1
       comments: !c |-
         G1IA+J0JdiwXiwm2XHYcUe1IT5+tDJsEI0z2PGWlNCWbjYcPp1yKLYw4kWMgAT5zZLJTE42yKmre
@@ -9138,10 +9138,10 @@
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-01-07-19-02-17
+      updated: 2025-01-08-20-08-24
       followers: 644
       likes: 63
-      views: 358
+      views: 373
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
@@ -10997,18 +10997,18 @@
       id: DEiLC17uOow
       mediaId: '18081052477524929'
       published: 2025-01-07-18-11-04
-      updated: 2025-01-08-19-01-24
+      updated: 2025-01-08-20-08-22
       followers: 1524
-      likes: 94
-      views: 282
+      likes: 95
+      views: 284
       comments: !c CxiAkZPLQnlEKOv5gACpaXN0c2llbGl6u09uZSBvZiB0aGUgbmljZXN0IHRvd25zIOKcqAM=
     - service: vk
       id: 2028
       published: 2025-01-07-18-11-12
-      updated: 2025-01-08-19-01-23
+      updated: 2025-01-08-20-08-21
       followers: 1049
-      likes: 39
-      views: 240
+      likes: 40
+      views: 242
       reposts: 3
       comments: !c |-
         G5UDQCwPbLcJBLprx+HWndCTiP+nv+f3OaGjzbx/Zz7EkWeJBVwCQZEla4umn/t5X0g9ZQgUkFwK
@@ -11023,10 +11023,10 @@
     - service: tg
       id: 656
       published: 2025-01-07-18-11-21
-      updated: 2025-01-08-19-01-23
+      updated: 2025-01-08-20-08-23
       followers: 646
       likes: 60
-      views: 221
+      views: 224
       comments: !c iw+AkZPLQnlEWvPWAACvQWxleGV5IFN0ZXBhbm92pPCfmI0D
 2017-10-29-wilted-littoral:
   title: Wilted Littoral
