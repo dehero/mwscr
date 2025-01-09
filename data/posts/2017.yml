@@ -2572,7 +2572,7 @@
     - service: vk
       id: 1541
       published: 2024-05-22-18-19-25
-      updated: 2025-01-02-14-07-14
+      updated: 2025-01-09-15-08-13
       followers: 917
       likes: 31
       views: 258
@@ -2583,10 +2583,10 @@
     - service: tg
       id: 416
       published: 2024-05-22-18-19-31
-      updated: 2025-01-02-14-07-12
+      updated: 2025-01-09-15-08-12
       followers: 375
       likes: 57
-      views: 461
+      views: 462
 2017-03-08-nchurdamz-at-the-sunset:
   title: Nchurdamz at the Sunset
   titleRu: Нчурдамц на закате
@@ -4752,10 +4752,10 @@
     - service: vk
       id: 1569
       published: 2024-06-05-18-19-31
-      updated: 2025-01-02-14-07-13
+      updated: 2025-01-09-15-08-11
       followers: 916
       likes: 45
-      views: 327
+      views: 328
       reposts: 4
       comments: !c |-
         G6wAIIzUTrWGL7XI/5jbUlwoi1lEkLbQ0UgyTZtn/P0jUXl6SRRamFJhVFtJ+u1ywgMd6W5wogFy
@@ -4764,10 +4764,10 @@
     - service: tg
       id: 430
       published: 2024-06-05-18-19-36
-      updated: 2025-01-02-14-07-11
+      updated: 2025-01-09-15-08-10
       followers: 385
       likes: 70
-      views: 532
+      views: 533
       comments: !c |-
         izKAkpPLQnj/GH6FgACvQWxleGV5IFN0ZXBhbm92v015IGhlYXJ0IHN0YXJ0ZWQgYmVhdGluZyBm
         YXN0ZXKTy0J4/poWK4AAqUdhdGVtYXRlN7ZpdCBpcyBzbyBiZWF1dGlmdWwuLi4uAw==
@@ -5936,17 +5936,17 @@
     - service: vk
       id: 1612
       published: 2024-07-03-18-19-45
-      updated: 2025-01-02-14-07-09
+      updated: 2025-01-09-15-08-08
       followers: 917
       likes: 28
       views: 235
     - service: tg
       id: 458
       published: 2024-07-03-18-19-53
-      updated: 2025-01-02-14-07-09
+      updated: 2025-01-09-15-08-08
       followers: 391
       likes: 50
-      views: 449
+      views: 450
       comments: !c |-
         CyGAkZTLQnkHndcVAACrYm9icm92bmlrb3azUklQIEQuIEJyeWFudCAg8J+qppPLQnkHngW2gACp
         R2F0ZW1hdGU3oz8/PwM=
@@ -6579,10 +6579,10 @@
     - service: tg
       id: 487
       published: 2024-08-01-03-18-14
-      updated: 2025-01-02-14-07-08
+      updated: 2025-01-09-15-08-07
       followers: 423
       likes: 60
-      views: 770
+      views: 773
       comments: !c Cw6AkZPLQnkTOt+EgACscHVzdG90aXZldHJhpPCfmIID
     - service: vk
       id: 1663
@@ -10389,17 +10389,17 @@
     - service: vk
       id: 1603
       published: 2024-06-26-18-19-40
-      updated: 2025-01-02-14-07-11
+      updated: 2025-01-09-15-08-09
       followers: 917
       likes: 42
       views: 264
     - service: tg
       id: 451
       published: 2024-06-26-18-19-49
-      updated: 2025-01-02-14-07-10
+      updated: 2025-01-09-15-08-09
       followers: 388
       likes: 56
-      views: 481
+      views: 482
 2017-10-12-gnaar-mok:
   title: Gnaar Mok
   titleRu: Гнаар Мок
@@ -10997,18 +10997,18 @@
       id: DEiLC17uOow
       mediaId: '18081052477524929'
       published: 2025-01-07-18-11-04
-      updated: 2025-01-09-14-02-13
+      updated: 2025-01-09-15-08-06
       followers: 1524
       likes: 105
-      views: 309
+      views: 310
       comments: !c CxiAkZPLQnlEKOv5gACpaXN0c2llbGl6u09uZSBvZiB0aGUgbmljZXN0IHRvd25zIOKcqAM=
     - service: vk
       id: 2028
       published: 2025-01-07-18-11-12
-      updated: 2025-01-09-14-02-14
+      updated: 2025-01-09-15-08-07
       followers: 1049
       likes: 44
-      views: 272
+      views: 274
       reposts: 4
       comments: !c |-
         G5UDQCwPbLcJBLprx+HWndCTiP+nv+f3OaGjzbx/Zz7EkWeJBVwCQZEla4umn/t5X0g9ZQgUkFwK
@@ -11023,10 +11023,10 @@
     - service: tg
       id: 656
       published: 2025-01-07-18-11-21
-      updated: 2025-01-09-14-02-14
+      updated: 2025-01-09-15-08-07
       followers: 646
       likes: 62
-      views: 246
+      views: 247
       comments: !c iw+AkZPLQnlEWvPWAACvQWxleGV5IFN0ZXBhbm92pPCfmI0D
 2017-10-29-wilted-littoral:
   title: Wilted Littoral
