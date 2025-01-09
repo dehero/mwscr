@@ -17,7 +17,7 @@
     - service: vk
       id: 3
       published: 2017-01-22
-      updated: 2025-01-02-12-19-44
+      updated: 2025-01-09-13-22-05
       followers: 4
       likes: 3
       views: 55
@@ -75,7 +75,7 @@
     - service: vk
       id: 4
       published: 2017-01-22
-      updated: 2025-01-02-12-19-44
+      updated: 2025-01-09-13-22-06
       followers: 4
       likes: 2
       views: 53
@@ -101,7 +101,7 @@
     - service: vk
       id: 5
       published: 2017-01-22
-      updated: 2025-01-02-12-19-45
+      updated: 2025-01-09-13-22-06
       followers: 4
       likes: 2
       views: 53
@@ -158,7 +158,7 @@
     - service: vk
       id: 6
       published: 2017-01-22
-      updated: 2025-01-02-12-19-46
+      updated: 2025-01-09-13-22-07
       likes: 3
       views: 53
     - service: ig
@@ -208,7 +208,7 @@
     - service: vk
       id: 7
       published: 2017-01-22
-      updated: 2025-01-02-12-19-47
+      updated: 2025-01-09-13-22-08
       followers: 4
       likes: 2
       views: 61
@@ -232,7 +232,7 @@
     - service: vk
       id: 8
       published: 2017-01-22
-      updated: 2025-01-02-12-19-47
+      updated: 2025-01-09-13-22-09
       followers: 4
       likes: 3
       views: 53
@@ -287,7 +287,7 @@
     - service: vk
       id: 9
       published: 2017-01-22
-      updated: 2025-01-02-12-19-48
+      updated: 2025-01-09-13-22-09
       followers: 4
       likes: 2
       views: 51
@@ -335,7 +335,7 @@
     - service: vk
       id: 10
       published: 2017-01-22
-      updated: 2025-01-02-12-19-49
+      updated: 2025-01-09-13-22-10
       followers: 4
       likes: 2
       views: 55
@@ -363,7 +363,7 @@
     - service: vk
       id: 11
       published: 2017-01-22
-      updated: 2025-01-02-12-19-50
+      updated: 2025-01-09-13-22-11
       followers: 4
       likes: 2
       views: 53
@@ -390,7 +390,7 @@
     - service: vk
       id: 12
       published: 2017-01-22
-      updated: 2025-01-02-12-19-51
+      updated: 2025-01-09-13-22-12
       followers: 4
       likes: 2
       views: 49
@@ -418,7 +418,7 @@
     - service: vk
       id: 13
       published: 2017-01-22
-      updated: 2025-01-02-12-19-51
+      updated: 2025-01-09-13-22-12
       followers: 4
       likes: 3
       views: 49
@@ -444,7 +444,7 @@
     - service: vk
       id: 14
       published: 2017-01-22
-      updated: 2025-01-02-12-19-52
+      updated: 2025-01-09-13-22-13
       followers: 4
       likes: 3
       views: 51
@@ -494,7 +494,7 @@
     - service: vk
       id: 15
       published: 2017-01-22
-      updated: 2025-01-02-12-19-53
+      updated: 2025-01-09-13-22-14
       followers: 4
       likes: 1
       views: 54
@@ -518,7 +518,7 @@
     - service: vk
       id: 16
       published: 2017-01-22
-      updated: 2025-01-02-12-19-54
+      updated: 2025-01-09-13-22-15
       followers: 4
       likes: 1
       views: 54
@@ -567,7 +567,7 @@
     - service: vk
       id: 17
       published: 2017-01-22
-      updated: 2025-01-02-12-19-54
+      updated: 2025-01-09-13-22-15
       followers: 4
       likes: 3
       views: 55
@@ -620,7 +620,7 @@
     - service: vk
       id: 18
       published: 2017-01-22
-      updated: 2025-01-02-12-19-55
+      updated: 2025-01-09-13-22-16
       followers: 4
       likes: 2
       views: 58
@@ -644,7 +644,7 @@
     - service: vk
       id: 19
       published: 2017-01-22
-      updated: 2025-01-02-12-19-56
+      updated: 2025-01-09-13-22-17
       followers: 4
       likes: 2
       views: 56
@@ -696,7 +696,7 @@
     - service: vk
       id: 20
       published: 2017-01-22
-      updated: 2025-01-02-12-19-57
+      updated: 2025-01-09-13-22-18
       followers: 4
       likes: 1
       views: 54
@@ -722,7 +722,7 @@
     - service: vk
       id: 21
       published: 2017-01-22
-      updated: 2025-01-02-12-19-57
+      updated: 2025-01-09-13-22-18
       followers: 4
       likes: 2
       views: 59
@@ -771,10 +771,10 @@
     - service: vk
       id: 22
       published: 2017-01-22
-      updated: 2025-01-02-12-19-58
+      updated: 2025-01-09-13-22-19
       followers: 4
       likes: 1
-      views: 63
+      views: 64
 2016-12-06-redoran-stronghold-of-molag-mar:
   title: Redoran Stronghold of Molag Mar
   titleRu: Редоранская крепость Молаг Мара
@@ -797,7 +797,7 @@
     - service: vk
       id: 23
       published: 2017-01-22
-      updated: 2025-01-02-12-19-59
+      updated: 2025-01-09-13-22-20
       followers: 4
       likes: 1
       views: 56
@@ -852,7 +852,7 @@
     - service: vk
       id: 24
       published: 2017-01-22
-      updated: 2025-01-02-12-20-00
+      updated: 2025-01-09-13-22-21
       followers: 4
       likes: 1
       views: 57
@@ -876,7 +876,7 @@
     - service: vk
       id: 25
       published: 2017-01-22
-      updated: 2025-01-02-12-20-00
+      updated: 2025-01-09-13-22-21
       followers: 4
       likes: 2
       views: 61
@@ -902,7 +902,7 @@
     - service: vk
       id: 26
       published: 2017-01-22
-      updated: 2025-01-02-12-20-01
+      updated: 2025-01-09-13-22-22
       followers: 4
       views: 62
 2016-12-10-somewhere-nearby-vivec:
@@ -927,7 +927,7 @@
     - service: vk
       id: 27
       published: 2017-01-22
-      updated: 2025-01-02-12-20-02
+      updated: 2025-01-09-13-22-23
       followers: 4
       likes: 1
       views: 64
@@ -978,7 +978,7 @@
     - service: vk
       id: 28
       published: 2017-01-22
-      updated: 2025-01-02-12-20-03
+      updated: 2025-01-09-13-22-24
       followers: 4
       views: 89
 2016-12-12-buckmoth-legion-fort-from-aldruhn:
@@ -1005,7 +1005,7 @@
     - service: vk
       id: 29
       published: 2017-01-22
-      updated: 2025-01-02-12-20-03
+      updated: 2025-01-09-13-22-24
       followers: 4
       likes: 2
       views: 63
@@ -1056,7 +1056,7 @@
     - service: vk
       id: 30
       published: 2017-01-22
-      updated: 2025-01-02-12-20-04
+      updated: 2025-01-09-13-22-25
       followers: 4
       likes: 1
       views: 65
@@ -1080,7 +1080,7 @@
     - service: vk
       id: 31
       published: 2017-01-22
-      updated: 2025-01-02-12-20-05
+      updated: 2025-01-09-13-22-26
       followers: 4
       likes: 2
       views: 66
@@ -1105,7 +1105,7 @@
     - service: vk
       id: 32
       published: 2017-01-22
-      updated: 2025-01-02-12-20-06
+      updated: 2025-01-09-13-22-27
       followers: 4
       views: 64
 2016-12-16-gnisis-temple:
@@ -1130,7 +1130,7 @@
     - service: vk
       id: 33
       published: 2017-01-22
-      updated: 2025-01-02-12-20-06
+      updated: 2025-01-09-13-22-27
       followers: 4
       likes: 1
       views: 62
@@ -1157,7 +1157,7 @@
     - service: vk
       id: 34
       published: 2017-01-22
-      updated: 2025-01-02-12-20-07
+      updated: 2025-01-09-13-22-28
       followers: 4
       views: 76
 2016-12-18-the-governors-hall-in-caldera-from-distance:
@@ -1183,7 +1183,7 @@
     - service: vk
       id: 35
       published: 2017-01-22
-      updated: 2025-01-02-12-20-08
+      updated: 2025-01-09-13-22-29
       followers: 4
       likes: 1
       views: 68
@@ -1209,7 +1209,7 @@
     - service: vk
       id: 36
       published: 2017-01-22
-      updated: 2025-01-02-12-20-09
+      updated: 2025-01-09-13-22-30
       followers: 4
       views: 71
       reposts: 1
@@ -1273,7 +1273,7 @@
     - service: vk
       id: 37
       published: 2017-01-22
-      updated: 2025-01-02-12-20-09
+      updated: 2025-01-09-13-22-30
       followers: 4
       likes: 2
       views: 75
@@ -1326,7 +1326,7 @@
     - service: vk
       id: 38
       published: 2017-01-22
-      updated: 2025-01-02-12-20-10
+      updated: 2025-01-09-13-22-31
       followers: 4
       views: 74
 2016-12-22-ebonheart-towers:
@@ -1352,7 +1352,7 @@
     - service: vk
       id: 39
       published: 2017-01-22
-      updated: 2025-01-02-12-20-11
+      updated: 2025-01-09-13-22-32
       followers: 4
       views: 76
     - service: vk
@@ -1402,7 +1402,7 @@
     - service: vk
       id: 40
       published: 2017-01-22
-      updated: 2025-01-02-12-20-12
+      updated: 2025-01-09-13-22-33
       followers: 4
       likes: 2
       views: 107
@@ -1425,7 +1425,7 @@
     - service: vk
       id: 41
       published: 2017-01-22
-      updated: 2025-01-02-12-20-12
+      updated: 2025-01-09-13-22-34
       followers: 4
       likes: 1
       views: 76
@@ -1449,7 +1449,7 @@
     - service: vk
       id: 42
       published: 2017-01-22
-      updated: 2025-01-02-12-20-13
+      updated: 2025-01-09-13-22-34
       followers: 4
       likes: 2
       views: 76
@@ -1475,7 +1475,7 @@
     - service: vk
       id: 43
       published: 2017-01-22
-      updated: 2025-01-02-12-20-14
+      updated: 2025-01-09-13-22-35
       followers: 4
       likes: 1
       views: 78
@@ -1501,7 +1501,7 @@
     - service: vk
       id: 44
       published: 2017-01-22
-      updated: 2025-01-02-12-20-15
+      updated: 2025-01-09-13-22-36
       followers: 4
       likes: 1
       views: 81
@@ -1525,7 +1525,7 @@
     - service: vk
       id: 45
       published: 2017-01-22
-      updated: 2025-01-02-12-20-15
+      updated: 2025-01-09-13-22-37
       followers: 4
       likes: 3
       views: 87
@@ -1583,7 +1583,7 @@
     - service: vk
       id: 46
       published: 2017-01-22
-      updated: 2025-01-02-12-20-16
+      updated: 2025-01-09-13-22-37
       followers: 4
       likes: 1
       views: 93
@@ -1607,7 +1607,7 @@
     - service: vk
       id: 47
       published: 2017-01-22
-      updated: 2025-01-02-12-20-17
+      updated: 2025-01-09-13-22-38
       followers: 4
       likes: 3
       views: 92
@@ -1656,7 +1656,7 @@
     - service: vk
       id: 48
       published: 2017-01-22
-      updated: 2025-01-02-12-20-18
+      updated: 2025-01-09-13-22-39
       followers: 4
       likes: 4
       views: 90
