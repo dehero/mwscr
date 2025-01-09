@@ -4347,7 +4347,7 @@
     - service: tg
       id: 552
       published: 2024-10-02-18-10-41
-      updated: 2025-01-02-04-09-43
+      updated: 2025-01-09-04-09-55
       followers: 560
       likes: 66
       views: 512
@@ -10688,25 +10688,25 @@
       id: DEkvz2SvxhB
       mediaId: '18048819539167489'
       published: 2025-01-08-18-10-47
-      updated: 2025-01-09-03-30-22
+      updated: 2025-01-09-04-09-49
       followers: 1524
-      likes: 67
-      views: 186
+      likes: 70
+      views: 191
     - service: vk
       id: 2034
       published: 2025-01-08-18-10-54
-      updated: 2025-01-09-03-30-23
+      updated: 2025-01-09-04-09-50
       followers: 1052
       likes: 15
-      views: 129
+      views: 133
       reposts: 1
     - service: tg
       id: 657
       published: 2025-01-08-18-11-01
-      updated: 2025-01-09-03-30-22
+      updated: 2025-01-09-04-09-50
       followers: 646
-      likes: 37
-      views: 139
+      likes: 38
+      views: 141
 2018-10-21-trees-and-skies:
   title: Trees and Skies
   titleRu: Деревья и небеса
@@ -11226,7 +11226,7 @@
     - service: vk
       id: 1025
       published: 2018-11-02
-      updated: 2025-01-02-04-09-47
+      updated: 2025-01-09-04-09-58
       followers: 279
       likes: 29
       views: 466
@@ -11278,7 +11278,7 @@
     - service: vk
       id: 1026
       published: 2018-11-04
-      updated: 2025-01-02-04-09-46
+      updated: 2025-01-09-04-09-58
       followers: 280
       likes: 29
       views: 443
@@ -11311,7 +11311,7 @@
     - service: vk
       id: 1027
       published: 2018-11-05
-      updated: 2025-01-02-04-09-45
+      updated: 2025-01-09-04-09-57
       followers: 282
       likes: 24
       views: 479
@@ -11351,7 +11351,7 @@
     - service: vk
       id: 1031
       published: 2018-11-06
-      updated: 2025-01-02-04-09-44
+      updated: 2025-01-09-04-09-56
       followers: 284
       likes: 25
       views: 496
@@ -11441,10 +11441,10 @@
     - service: vk
       id: 1850
       published: 2024-10-23-18-10-16
-      updated: 2025-01-02-04-09-41
+      updated: 2025-01-09-04-09-52
       followers: 994
       likes: 44
-      views: 341
+      views: 343
       reposts: 2
       comments: !c |-
         G/4AuJwHto3sPCaIX+5CstH4f56TjfDrzjaGDDthgBEm96luGmEJaIQvfDx9YUXYq9tKtrQJIr6a
@@ -11454,10 +11454,10 @@
     - service: tg
       id: 573
       published: 2024-10-23-18-10-22
-      updated: 2025-01-02-04-09-40
+      updated: 2025-01-09-04-09-52
       followers: 563
       likes: 68
-      views: 526
+      views: 529
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов
