@@ -4,7 +4,39 @@
 
 # Posted in 2025
 
-`8 items`
+`9 items`
+
+## <span id="2025-01-09-haze-in-tel-branora">Haze in Tel Branora</span>
+
+`RU` Мгла в Тель Браноре
+
+<a href="https://instagram.com/p/BnMZPStF4mh/" title="2018-09-01-haze-in-tel-branora"><img alt="store:/shots/2018-09-01-haze-in-tel-branora.png" src="../../assets/previews/shots/2018-09-01-haze-in-tel-branora.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` `📍 Tel Branora` `🚀 OpenMW`
+
+```
+2025-01-09-haze-in-tel-branora
+```
+
+> `2018-09-01-haze-in-tel-branora`
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BnMZPStF4mh/)      | 2018-09-01 |       |   123 |       407 |  30.22 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_888) | 2018-09-01 |   390 |    32 |       219 |  14.61 |
+| [`tg`](https://t.me/mwscr/4)                      | 2018-09-01 |   257 |     4 |           |        |
+| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)      | 2025-01-09 |       |       |      1525 |        |
+| [`tg`](https://t.me/mwscr/658)                    | 2025-01-09 |       |       |       647 |        |
+|                                                   |            |       |       |      2172 |  22.42 |
+
+#### Comments
+
+- `ig` <ins title="2018-09-02-00-00-20">deleted.erased.dbdhh</ins> ...
+- `vk` <ins title="2018-09-02-15-26-13">dead___end</ins> Мгла- всмысле фильм)
 
 ## <span id="2025-01-08-bervaso-thenim-apothecary">Bervaso Thenim, Apothecary</span>
 
@@ -29,10 +61,10 @@
 | [`ig`](https://instagram.com/p/BpL7KjoB6oe/)       | 2018-10-21 |       |    91 |       446 |   20.4 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_997)  | 2018-10-21 |   396 |    22 |       257 |   8.56 |
 | [`tg`](https://t.me/mwscr/88)                      | 2018-10-21 |   232 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DEkvz2SvxhB/)       | 2025-01-08 |   281 |    85 |      1524 |   5.58 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2034) | 2025-01-08 |   193 |    23 |      1052 |   2.28 |
-| [`tg`](https://t.me/mwscr/657)                     | 2025-01-08 |   175 |    48 |       646 |   7.43 |
-|                                                    |            |   649 |   156 |      3222 |   8.85 |
+| [`ig`](https://instagram.com/p/DEkvz2SvxhB/)       | 2025-01-08 |   289 |    85 |      1524 |   5.58 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2034) | 2025-01-08 |   194 |    23 |      1052 |   2.28 |
+| [`tg`](https://t.me/mwscr/657)                     | 2025-01-08 |   179 |    48 |       646 |   7.43 |
+|                                                    |            |   662 |   156 |      3222 |   8.85 |
 
 ## <span id="2025-01-07-caldera-north-west-road">Caldera, North-West Road</span>
 
@@ -56,10 +88,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BazlGt3Dd6v/)       | 2017-10-28 |       |    97 |       226 |  42.92 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_481)  | 2017-10-28 |   157 |    11 |        97 |  11.34 |
-| [`ig`](https://instagram.com/p/DEiLC17uOow/)       | 2025-01-07 |   313 |   106 |      1524 |   6.96 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2028) | 2025-01-07 |   278 |    44 |      1049 |   4.58 |
-| [`tg`](https://t.me/mwscr/656)                     | 2025-01-07 |   248 |    62 |       646 |    9.6 |
-|                                                    |            |   839 |   212 |      3219 |  15.08 |
+| [`ig`](https://instagram.com/p/DEiLC17uOow/)       | 2025-01-07 |   314 |   106 |      1524 |   6.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2028) | 2025-01-07 |   279 |    44 |      1049 |   4.58 |
+| [`tg`](https://t.me/mwscr/656)                     | 2025-01-07 |   250 |    63 |       646 |   9.75 |
+|                                                    |            |   843 |   213 |      3219 |  15.11 |
 
 #### Comments
 
@@ -94,10 +126,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BZHD-qwgDrR/)       | 2017-09-16 |       |    59 |       210 |   28.1 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_429)  | 2017-09-16 |   133 |    10 |        80 |   12.5 |
-| [`ig`](https://instagram.com/p/DEfmNjaz7er/)       | 2025-01-06 |   332 |    89 |      1523 |   5.84 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2026) | 2025-01-06 |   226 |    30 |      1048 |   2.86 |
-| [`tg`](https://t.me/mwscr/655)                     | 2025-01-06 |   260 |    55 |       645 |   8.53 |
-|                                                    |            |   818 |   174 |      3216 |  11.57 |
+| [`ig`](https://instagram.com/p/DEfmNjaz7er/)       | 2025-01-06 |   344 |    91 |      1523 |   5.98 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2026) | 2025-01-06 |   240 |    32 |      1048 |   3.05 |
+| [`tg`](https://t.me/mwscr/655)                     | 2025-01-06 |   278 |    56 |       645 |   8.68 |
+|                                                    |            |   862 |   179 |      3216 |  11.66 |
 
 #### Comments
 
@@ -133,10 +165,10 @@
 | [`ig`](https://instagram.com/p/Cf4jg83s0fl/)       | 2022-07-11 |       |   358 |      1142 |  31.35 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1334) | 2022-07-11 |  1220 |   128 |       767 |   17.6 |
 | [`tg`](https://t.me/mwscr/271,272,273,274)         | 2022-07-11 |   734 |    56 |       257 |  21.79 |
-| [`ig`](https://instagram.com/p/DEdBVU5N41v/)       | 2025-01-05 |   466 |   165 |      1521 |  10.85 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2020) | 2025-01-05 |   302 |    49 |      1043 |   5.08 |
-| [`tg`](https://t.me/mwscr/651,652,653,654)         | 2025-01-05 |   377 |    67 |       644 |   10.4 |
-|                                                    |            |  1145 |   281 |      3208 |  16.18 |
+| [`ig`](https://instagram.com/p/DEdBVU5N41v/)       | 2025-01-05 |   476 |   167 |      1521 |  10.98 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2020) | 2025-01-05 |   307 |    49 |      1043 |   5.18 |
+| [`tg`](https://t.me/mwscr/651,652,653,654)         | 2025-01-05 |   413 |    67 |       644 |   10.4 |
+|                                                    |            |  1196 |   283 |      3208 |  16.22 |
 
 #### Comments
 
@@ -180,10 +212,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DEaci7aTwYz/)       | 2025-01-04 |   551 |   167 |      1522 |  10.97 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2016) | 2025-01-04 |   316 |    43 |      1042 |   4.32 |
-| [`tg`](https://t.me/mwscr/649,650)                 | 2025-01-04 |   304 |    60 |       644 |   9.32 |
-|                                                    |            |  1171 |   270 |      3208 |    8.2 |
+| [`ig`](https://instagram.com/p/DEaci7aTwYz/)       | 2025-01-04 |   559 |   169 |      1522 |   11.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2016) | 2025-01-04 |   321 |    43 |      1042 |   4.32 |
+| [`tg`](https://t.me/mwscr/649,650)                 | 2025-01-04 |   343 |    61 |       644 |   9.47 |
+|                                                    |            |  1223 |   273 |      3208 |    8.3 |
 
 #### Comments
 
