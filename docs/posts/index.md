@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/BnMZPStF4mh/)       | 2018-09-01 |       |   123 |       407 |  30.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_888)  | 2018-09-01 |   390 |    32 |       219 |  14.61 |
 | [`tg`](https://t.me/mwscr/4)                       | 2018-09-01 |   257 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |    99 |    36 |      1525 |   2.36 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |    56 |    12 |      1051 |   1.24 |
-| [`tg`](https://t.me/mwscr/658)                     | 2025-01-09 |   105 |    32 |       647 |   4.95 |
-|                                                    |            |   260 |    80 |      3223 |  10.68 |
+| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   116 |    45 |      1525 |   2.95 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |    75 |    16 |      1051 |   1.62 |
+| [`tg`](https://t.me/mwscr/658)                     | 2025-01-09 |   119 |    34 |       647 |   5.26 |
+|                                                    |            |   310 |    95 |      3223 |  10.93 |
 
 #### Comments
 
@@ -62,10 +62,10 @@
 | [`ig`](https://instagram.com/p/BpL7KjoB6oe/)       | 2018-10-21 |       |    91 |       446 |   20.4 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_997)  | 2018-10-21 |   396 |    22 |       257 |   8.56 |
 | [`tg`](https://t.me/mwscr/88)                      | 2018-10-21 |   232 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DEkvz2SvxhB/)       | 2025-01-08 |   300 |    86 |      1524 |   5.64 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2034) | 2025-01-08 |   196 |    23 |      1052 |   2.28 |
-| [`tg`](https://t.me/mwscr/657)                     | 2025-01-08 |   199 |    53 |       646 |    8.2 |
-|                                                    |            |   695 |   162 |      3222 |   9.02 |
+| [`ig`](https://instagram.com/p/DEkvz2SvxhB/)       | 2025-01-08 |   304 |    87 |      1524 |   5.71 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2034) | 2025-01-08 |   197 |    23 |      1052 |   2.28 |
+| [`tg`](https://t.me/mwscr/657)                     | 2025-01-08 |   204 |    53 |       646 |    8.2 |
+|                                                    |            |   705 |   163 |      3222 |   9.03 |
 
 ## <span id="2025-01-07-caldera-north-west-road">Caldera, North-West Road</span>
 
