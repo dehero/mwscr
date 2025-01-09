@@ -6,7 +6,7 @@ import { mergePostLocations } from '../../../core/entities/post.js';
 import { createIssueUrl as createLocateIssueUrl } from '../../../core/github-issues/post-location.js';
 import { email } from '../../../core/services/email.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import { dataExtractor } from '../../data-managers/extractor.js';
+import { dataManager } from '../../data-managers/manager.js';
 import type { PostRouteParams } from '../../routes/post-route.js';
 import { Button } from '../Button/Button.js';
 import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
@@ -18,7 +18,7 @@ import { Toast } from '../Toaster/Toaster.jsx';
 import styles from './PostLocationDialog.module.css';
 
 async function getLocationOptions(): Promise<Option[]> {
-  return (await dataExtractor.getAllLocationInfos())
+  return (await dataManager.getAllLocationInfos())
     .sort((a, b) => a.title.localeCompare(b.title))
     .map((location) => ({ value: location.title, label: location.title }));
 }
@@ -29,7 +29,7 @@ export const PostLocationDialog: DetachedDialog<PostRouteParams> = (props) => {
   const [, rest] = splitProps(props, ['params', 'show']);
 
   const id = () => props.params.id;
-  const manager = () => props.params.managerName && dataExtractor.findPostsManager(props.params.managerName);
+  const manager = () => props.params.managerName && dataManager.findPostsManager(props.params.managerName);
 
   const [postEntry] = createResource(
     () => (props.show ? id() : undefined),

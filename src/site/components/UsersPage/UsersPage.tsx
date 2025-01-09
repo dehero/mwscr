@@ -11,7 +11,7 @@ import type { SelectUserInfosParams, SelectUserInfosSortKey } from '../../../cor
 import { selectUserInfosResultToString, selectUserInfosSortOptions } from '../../../core/entities/user-info.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { isObjectEqual } from '../../../core/utils/common-utils.js';
-import { dataExtractor } from '../../data-managers/extractor.js';
+import { dataManager } from '../../data-managers/manager.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
 import { usersRoute } from '../../routes/users-route.js';
@@ -105,7 +105,7 @@ export const UsersPage = (): JSX.Element => {
     sortDirection: sortDirection(),
   });
 
-  const [selectedUserInfos] = createResource(selectParams, (params) => dataExtractor.selectUserInfos(params));
+  const [selectedUserInfos] = createResource(selectParams, (params) => dataManager.selectUserInfos(params));
 
   const userInfos = () =>
     selectedUserInfos.state === 'ready' ? selectedUserInfos() : selectedUserInfos.latest || data().firstUserInfos;

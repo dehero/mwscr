@@ -1,13 +1,15 @@
-import { DataExtractor } from '../../core/entities/data-extractor.js';
+import type { DataManagerArgs } from '../../core/entities/data-manager.js';
+import { DataManager } from '../../core/entities/data-manager.js';
 import type { LocationInfo } from '../../core/entities/location-info.js';
 import type { PostInfo } from '../../core/entities/post-info.js';
 import type { PostsManagerName } from '../../core/entities/posts-manager.js';
 import type { UserInfo } from '../../core/entities/user-info.js';
 import { locations } from './locations.js';
+import type { SitePostsManager } from './posts.js';
 import { postsManagers } from './posts.js';
 import { users } from './users.js';
 
-class SiteDataExtractor extends DataExtractor {
+class SiteDataManager extends DataManager<SitePostsManager> {
   async getAllLocationInfos(): Promise<LocationInfo[]> {
     return this.createCache(this.getAllLocationInfos.name, async () => {
       const filename = '/data/location-infos.json';
@@ -63,7 +65,7 @@ class SiteDataExtractor extends DataExtractor {
   }
 }
 
-export const dataExtractor = new SiteDataExtractor({
+export const dataManager = new SiteDataManager({
   postsManagers,
   locations,
   users,

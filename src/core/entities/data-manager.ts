@@ -14,14 +14,14 @@ import type { SelectUserInfosParams, UserInfo } from './user-info.js';
 import { createUserInfo, selectUserInfos } from './user-info.js';
 import type { UsersManager } from './users-manager.js';
 
-export interface DataExtractorArgs {
-  postsManagers: PostsManager[];
+export interface DataManagerArgs<TPostsManager extends PostsManager> {
+  postsManagers: TPostsManager[];
   locations: LocationsReader;
   users: UsersManager;
 }
 
-export class DataExtractor {
-  readonly postsManagers: PostsManager[];
+export class DataManager<TPostsManager extends PostsManager = PostsManager> {
+  readonly postsManagers: TPostsManager[];
   readonly locations: LocationsReader;
   readonly users: UsersManager;
 
@@ -36,9 +36,12 @@ export class DataExtractor {
 
   protected clearCache() {
     this.cache = {};
+    this.postsManagers.forEach((manager) => manager.clearCache());
+    this.locations.clearCache();
+    this.users.clearCache();
   }
 
-  constructor(args: DataExtractorArgs) {
+  constructor(args: DataManagerArgs<TPostsManager>) {
     this.postsManagers = args.postsManagers;
     this.locations = args.locations;
     this.users = args.users;
@@ -67,7 +70,7 @@ export class DataExtractor {
     return undefined;
   }
 
-  findPostsManager(managerName: string): PostsManager | undefined {
+  findPostsManager(managerName: string): TPostsManager | undefined {
     return this.postsManagers.find((manager) => manager.name === managerName);
   }
 
@@ -82,7 +85,6 @@ export class DataExtractor {
         comparePostEntriesByDate('desc'),
       );
 
-      return await Promise.all(entries.map((entry) => createPostInfo(entry, this.users, managerName)));
     });
   }
 

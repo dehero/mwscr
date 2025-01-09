@@ -1,7 +1,7 @@
 import type { PageContext } from 'vike/types';
-import { dataExtractor } from '../../../local/data-managers/extractor.js';
+import { dataManager } from '../../../local/data-managers/manager.js';
 import { getPostPageData } from '../../components/PostPage/PostPage.data.js';
 import type { PostRouteParams } from '../../routes/post-route.js';
 
 export const data = (pageContext: PageContext) =>
-  getPostPageData(dataExtractor, pageContext.routeParams as PostRouteParams);
+  getPostPageData(dataManager, pageContext.routeParams as PostRouteParams);

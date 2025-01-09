@@ -6,7 +6,7 @@ import { usePageContext } from 'vike-solid/usePageContext';
 import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../core/entities/post-info.js';
 import { selectPostInfosResultToString } from '../../../core/entities/post-info.js';
 import type { SiteRouteMeta } from '../../../core/entities/site-route.js';
-import { dataExtractor } from '../../data-managers/extractor.js';
+import { dataManager } from '../../data-managers/manager.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { Frame } from '../Frame/Frame.js';
@@ -70,7 +70,7 @@ export const PostsPage = (): JSX.Element => {
   });
 
   const [selectedPostInfos] = createResource(selectParams, (selectParams) =>
-    dataExtractor.selectPostInfos(params().managerName, selectParams),
+    dataManager.selectPostInfos(params().managerName, selectParams),
   );
 
   const postInfos = () =>

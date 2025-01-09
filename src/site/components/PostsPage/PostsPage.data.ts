@@ -1,4 +1,4 @@
-import type { DataExtractor } from '../../../core/entities/data-extractor.js';
+import type { DataManager } from '../../../core/entities/data-manager.js';
 import type { LocationInfo } from '../../../core/entities/location-info.js';
 import type { Option } from '../../../core/entities/option.js';
 import type { PostInfoSelection } from '../../../core/entities/post-info.js';
@@ -13,11 +13,11 @@ export interface PostsPageData {
   tagOptions: Option[];
 }
 
-export async function getPostsPageData(dataExtractor: DataExtractor, params: PostsRouteParams): Promise<PostsPageData> {
-  const lastPostInfos = await dataExtractor.selectPostInfos(params.managerName, {}, 18);
-  const userInfos = await dataExtractor.getAllUserInfos();
-  const locationInfos = await dataExtractor.getAllLocationInfos();
-  const tagOptions = await dataExtractor.getTagOptions(params.managerName);
+export async function getPostsPageData(dataManager: DataManager, params: PostsRouteParams): Promise<PostsPageData> {
+  const lastPostInfos = await dataManager.selectPostInfos(params.managerName, {}, 18);
+  const userInfos = await dataManager.getAllUserInfos();
+  const locationInfos = await dataManager.getAllLocationInfos();
+  const tagOptions = await dataManager.getTagOptions(params.managerName);
 
   return {
     lastPostInfos,

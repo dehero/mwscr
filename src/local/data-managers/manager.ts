@@ -1,9 +1,9 @@
-import { DataExtractor } from '../../core/entities/data-extractor.js';
+import { DataManager } from '../../core/entities/data-manager.js';
 import { locations } from './locations.js';
 import { postsManagers } from './posts.js';
 import { users } from './users.js';
 
-export const dataExtractor = new DataExtractor({
+export const dataManager = new DataManager({
   postsManagers,
   locations,
   users,

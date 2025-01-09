@@ -9,7 +9,7 @@ import multiplePublicDirPlugin from 'vite-multiple-assets';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 import pkg from './package.json';
 import { PostsManagerName } from './src/core/entities/posts-manager.js';
-import { dataExtractor } from './src/local/data-managers/extractor.js';
+import { dataManager } from './src/local/data-managers/manager.js';
 import { YAML_SCHEMA } from './src/local/data-managers/utils/yaml.js';
 
 export default defineConfig(({ isSsrBuild }) => ({
@@ -54,19 +54,19 @@ export default defineConfig(({ isSsrBuild }) => ({
         {
           src: '../../data/locations.yml',
           dest: 'data',
-          transform: async () => JSON.stringify(await dataExtractor.getAllLocationInfos()),
+          transform: async () => JSON.stringify(await dataManager.getAllLocationInfos()),
           rename: 'location-infos.json',
         },
         {
           src: '../../data/users.yml',
           dest: 'data',
-          transform: async () => JSON.stringify(await dataExtractor.getAllUserInfos()),
+          transform: async () => JSON.stringify(await dataManager.getAllUserInfos()),
           rename: 'user-infos.json',
         },
         ...PostsManagerName.options.map((name) => ({
           src: `../../data/${name}/*.yml`,
           dest: `data/${name}`,
-          transform: async () => JSON.stringify(await dataExtractor.getAllPostInfos(name)),
+          transform: async () => JSON.stringify(await dataManager.getAllPostInfos(name)),
           rename: `infos.json`,
         })),
       ],

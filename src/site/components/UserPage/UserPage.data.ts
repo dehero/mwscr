@@ -1,4 +1,4 @@
-import type { DataExtractor } from '../../../core/entities/data-extractor.js';
+import type { DataManager } from '../../../core/entities/data-manager.js';
 import type { Link } from '../../../core/entities/link.js';
 import type { PostInfoSelection } from '../../../core/entities/post-info.js';
 import { createUserLinks } from '../../../core/entities/user.js';
@@ -23,72 +23,72 @@ export interface UserPageData {
   editorsChoicePostInfo?: PostInfoSelection;
 }
 
-export async function getUserPageData(dataExtractor: DataExtractor, params: UserRouteParams): Promise<UserPageData> {
-  const userEntry = await dataExtractor.users.getEntry(params.id);
+export async function getUserPageData(dataManager: DataManager, params: UserRouteParams): Promise<UserPageData> {
+  const userEntry = await dataManager.users.getEntry(params.id);
 
   return {
-    userInfo: await dataExtractor.getUserInfo(params.id),
+    userInfo: await dataManager.getUserInfo(params.id),
     userLinks: await createUserLinks(userEntry, services),
-    lastPostInfo: await dataExtractor.selectPostInfo('posts', {
+    lastPostInfo: await dataManager.selectPostInfo('posts', {
       author: params.id,
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    lastOriginalPostInfo: await dataExtractor.selectPostInfo('posts', {
+    lastOriginalPostInfo: await dataManager.selectPostInfo('posts', {
       author: params.id,
       original: true,
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    firstPostInfo: await dataExtractor.selectPostInfo('posts', {
+    firstPostInfo: await dataManager.selectPostInfo('posts', {
       author: params.id,
       sortKey: 'date',
       sortDirection: 'asc',
     }),
-    topRatedPostInfo: await dataExtractor.selectPostInfo('posts', {
+    topRatedPostInfo: await dataManager.selectPostInfo('posts', {
       author: params.id,
       sortKey: 'rating',
       sortDirection: 'desc',
     }),
-    editorsChoicePostInfo: await dataExtractor.selectPostInfo('posts', {
+    editorsChoicePostInfo: await dataManager.selectPostInfo('posts', {
       author: params.id,
       original: true,
       sortKey: 'mark',
       sortDirection: 'desc',
     }),
-    topLikedPostInfo: await dataExtractor.selectPostInfo('posts', {
+    topLikedPostInfo: await dataManager.selectPostInfo('posts', {
       author: params.id,
       sortKey: 'likes',
       sortDirection: 'desc',
     }),
-    lessLikedPostInfo: await dataExtractor.selectPostInfo('posts', {
+    lessLikedPostInfo: await dataManager.selectPostInfo('posts', {
       author: params.id,
       sortKey: 'likes',
       sortDirection: 'asc',
     }),
-    lastFulfilledPostInfo: await dataExtractor.selectPostInfo('posts', {
+    lastFulfilledPostInfo: await dataManager.selectPostInfo('posts', {
       author: params.id,
       requester: 'any',
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    lastProposedPostInfo: await dataExtractor.selectPostInfo('inbox', {
+    lastProposedPostInfo: await dataManager.selectPostInfo('inbox', {
       author: params.id,
       requester: 'none',
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    lastRequestedPostInfo: await dataExtractor.selectPostInfo('inbox', {
+    lastRequestedPostInfo: await dataManager.selectPostInfo('inbox', {
       requester: params.id,
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    lastRejectedPostInfo: await dataExtractor.selectPostInfo('trash', {
+    lastRejectedPostInfo: await dataManager.selectPostInfo('trash', {
       author: params.id,
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    lastRejectedRequestInfo: await dataExtractor.selectPostInfo('trash', {
+    lastRejectedRequestInfo: await dataManager.selectPostInfo('trash', {
       requester: params.id,
       sortKey: 'date',
       sortDirection: 'desc',

@@ -3,9 +3,8 @@
 // import { resolveRoute } from 'vike/routing';
 import { createMemo } from 'solid-js';
 import type { PageContext } from 'vike/types';
-// import { useData } from 'vike-solid/useData';
-import type { DataExtractor } from '../../core/entities/data-extractor.js';
 import type { SiteRoute, SiteRouteInfo, SiteRouteMeta, SiteRouteParams } from '../../core/entities/site-route.js';
+import { dataManager } from '../data-managers/manager.js';
 import { resolveFirstRoute } from '../routes/index.js';
 
 // const isPatched = false;

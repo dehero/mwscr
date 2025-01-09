@@ -1,5 +1,5 @@
 import { cleanupUndefinedProps } from '../utils/common-utils.js';
-import type { DataExtractor } from './data-extractor.js';
+import type { DataManager } from './data-manager.js';
 
 const SITE_ROUTE_FRAGMENT_REGEX = /^#([^?]+)(\?.+)?$/;
 
@@ -27,7 +27,7 @@ export interface SiteRoute<
   createUrl: (params: TParams) => string;
   meta: (params: TParams, data?: TData) => TMeta;
   mapParams?: (params: Record<string, string>) => TParams;
-  getData: (dataExtractor: DataExtractor, params: TParams) => Promise<TData>;
+  getData: (dataManager: DataManager, params: TParams) => Promise<TData>;
 }
 
 export interface SiteRouteInfo<TParams extends SiteRouteParams, TData, TMeta extends SiteRouteMeta> {

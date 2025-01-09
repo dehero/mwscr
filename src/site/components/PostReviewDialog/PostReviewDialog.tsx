@@ -3,7 +3,7 @@ import { EMPTY_OPTION } from '../../../core/entities/option.js';
 import type { Post } from '../../../core/entities/post.js';
 import { PostMark, PostViolation, postViolationDescriptors } from '../../../core/entities/post.js';
 import { createIssueUrl } from '../../../core/github-issues/post-review.js';
-import { dataExtractor } from '../../data-managers/extractor.js';
+import { dataManager } from '../../data-managers/manager.js';
 import type { PostRouteParams } from '../../routes/post-route.js';
 import { Button } from '../Button/Button.js';
 import type { DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
@@ -17,7 +17,7 @@ export const PostReviewDialog: DetachedDialog<PostRouteParams> = (props) => {
   const [, rest] = splitProps(props, ['params', 'show']);
 
   const id = () => props.params.id;
-  const manager = () => props.params.managerName && dataExtractor.findPostsManager(props.params.managerName);
+  const manager = () => props.params.managerName && dataManager.findPostsManager(props.params.managerName);
 
   const [postEntry] = createResource(
     () => (props.show ? id() : undefined),

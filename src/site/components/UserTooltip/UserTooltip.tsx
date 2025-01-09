@@ -2,7 +2,7 @@ import { type Component, createResource, Show, splitProps } from 'solid-js';
 import { postsUsageToString } from '../../../core/entities/posts-usage.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
 import type { UserInfo } from '../../../core/entities/user-info.js';
-import { dataExtractor } from '../../data-managers/extractor.js';
+import { dataManager } from '../../data-managers/manager.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
@@ -17,7 +17,7 @@ export const UserTooltip: Component<UserTooltipProps> = (props) => {
   const [local, rest] = splitProps(props, ['user']);
 
   const [userInfo] = createResource(local.user, (user) =>
-    typeof user === 'string' ? dataExtractor.getUserInfo(user) : user,
+    typeof user === 'string' ? dataManager.getUserInfo(user) : user,
   );
 
   const authored = () => postsUsageToString(userInfo()?.authored);

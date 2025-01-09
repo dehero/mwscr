@@ -17,7 +17,7 @@ import {
 } from '../../../core/entities/post.js';
 import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/post-editing.js';
 import { asArray } from '../../../core/utils/common-utils.js';
-import { dataExtractor } from '../../data-managers/extractor.js';
+import { dataManager } from '../../data-managers/manager.js';
 import type { PostRouteParams } from '../../routes/post-route.js';
 import { Button } from '../Button/Button.js';
 import { DatePicker } from '../DatePicker/DatePicker.jsx';
@@ -31,7 +31,7 @@ import { Toast } from '../Toaster/Toaster.jsx';
 import styles from './PostEditingDialog.module.css';
 
 async function getLocationOptions(): Promise<Option[]> {
-  return (await dataExtractor.getAllLocationInfos())
+  return (await dataManager.getAllLocationInfos())
     .map((info) => ({
       value: info.title,
       label: info.title,
@@ -40,7 +40,7 @@ async function getLocationOptions(): Promise<Option[]> {
 }
 
 async function getUserOptions(): Promise<Option[]> {
-  return (await dataExtractor.getAllUserInfos())
+  return (await dataManager.getAllUserInfos())
     .map((info) => ({ label: info.title, value: info.id }))
     .sort((a, b) => a.label.localeCompare(b.label));
 }
@@ -49,7 +49,7 @@ export const PostEditingDialog: DetachedDialog<PostRouteParams> = (props) => {
   const [, rest] = splitProps(props, ['params', 'show']);
 
   const id = () => props.params.id;
-  const manager = () => props.params.managerName && dataExtractor.findPostsManager(props.params.managerName);
+  const manager = () => props.params.managerName && dataManager.findPostsManager(props.params.managerName);
 
   const [postEntry] = createResource(
     () => (props.show ? id() : undefined),
