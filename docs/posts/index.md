@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/BpL7KjoB6oe/)       | 2018-10-21 |       |    91 |       446 |   20.4 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_997)  | 2018-10-21 |   396 |    22 |       257 |   8.56 |
 | [`tg`](https://t.me/mwscr/88)                      | 2018-10-21 |   232 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DEkvz2SvxhB/)       | 2025-01-08 |   216 |    77 |      1524 |   5.05 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2034) | 2025-01-08 |   157 |    17 |      1052 |   1.71 |
-| [`tg`](https://t.me/mwscr/657)                     | 2025-01-08 |   165 |    46 |       646 |   7.12 |
-|                                                    |            |   538 |   140 |      3222 |   8.57 |
+| [`ig`](https://instagram.com/p/DEkvz2SvxhB/)       | 2025-01-08 |   219 |    78 |      1524 |   5.12 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2034) | 2025-01-08 |   160 |    18 |      1052 |   1.81 |
+| [`tg`](https://t.me/mwscr/657)                     | 2025-01-08 |   167 |    47 |       646 |   7.28 |
+|                                                    |            |   546 |   143 |      3222 |   8.63 |
 
 ## <span id="2025-01-07-caldera-north-west-road">Caldera, North-West Road</span>
 
@@ -57,9 +57,9 @@
 | [`ig`](https://instagram.com/p/BazlGt3Dd6v/)       | 2017-10-28 |       |    97 |       226 |  42.92 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_481)  | 2017-10-28 |   157 |    11 |        97 |  11.34 |
 | [`ig`](https://instagram.com/p/DEiLC17uOow/)       | 2025-01-07 |   302 |   102 |      1524 |   6.69 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2028) | 2025-01-07 |   257 |    42 |      1049 |   4.29 |
-| [`tg`](https://t.me/mwscr/656)                     | 2025-01-07 |   241 |    60 |       646 |   9.29 |
-|                                                    |            |   800 |   204 |      3219 |  14.91 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2028) | 2025-01-07 |   260 |    42 |      1049 |   4.29 |
+| [`tg`](https://t.me/mwscr/656)                     | 2025-01-07 |   243 |    61 |       646 |   9.44 |
+|                                                    |            |   805 |   205 |      3219 |  14.94 |
 
 #### Comments
 
