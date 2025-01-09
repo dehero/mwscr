@@ -24,14 +24,15 @@
 
 ### Reactions
 
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BnMZPStF4mh/)      | 2018-09-01 |       |   123 |       407 |  30.22 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_888) | 2018-09-01 |   390 |    32 |       219 |  14.61 |
-| [`tg`](https://t.me/mwscr/4)                      | 2018-09-01 |   257 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)      | 2025-01-09 |       |       |      1525 |        |
-| [`tg`](https://t.me/mwscr/658)                    | 2025-01-09 |       |       |       647 |        |
-|                                                   |            |       |       |      2172 |  22.42 |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BnMZPStF4mh/)       | 2018-09-01 |       |   123 |       407 |  30.22 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_888)  | 2018-09-01 |   390 |    32 |       219 |  14.61 |
+| [`tg`](https://t.me/mwscr/4)                       | 2018-09-01 |   257 |     4 |           |        |
+| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |    48 |    28 |      1525 |   1.84 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |       |       |      1051 |        |
+| [`tg`](https://t.me/mwscr/658)                     | 2025-01-09 |    85 |    24 |       647 |   3.71 |
+|                                                    |            |   133 |    52 |      3223 |  12.59 |
 
 #### Comments
 
@@ -61,10 +62,10 @@
 | [`ig`](https://instagram.com/p/BpL7KjoB6oe/)       | 2018-10-21 |       |    91 |       446 |   20.4 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_997)  | 2018-10-21 |   396 |    22 |       257 |   8.56 |
 | [`tg`](https://t.me/mwscr/88)                      | 2018-10-21 |   232 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DEkvz2SvxhB/)       | 2025-01-08 |   289 |    85 |      1524 |   5.58 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2034) | 2025-01-08 |   194 |    23 |      1052 |   2.28 |
-| [`tg`](https://t.me/mwscr/657)                     | 2025-01-08 |   179 |    48 |       646 |   7.43 |
-|                                                    |            |   662 |   156 |      3222 |   8.85 |
+| [`ig`](https://instagram.com/p/DEkvz2SvxhB/)       | 2025-01-08 |   298 |    86 |      1524 |   5.64 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2034) | 2025-01-08 |   196 |    23 |      1052 |   2.28 |
+| [`tg`](https://t.me/mwscr/657)                     | 2025-01-08 |   196 |    50 |       646 |   7.74 |
+|                                                    |            |   690 |   159 |      3222 |   8.93 |
 
 ## <span id="2025-01-07-caldera-north-west-road">Caldera, North-West Road</span>
 
