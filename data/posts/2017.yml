@@ -765,10 +765,10 @@
     - service: vk
       id: 1868
       published: 2024-10-31-18-23-28
-      updated: 2025-01-03-02-10-26
+      updated: 2025-01-10-02-12-54
       followers: 1002
       likes: 33
-      views: 290
+      views: 293
       reposts: 1
       comments: !c |-
         GyYBAByJcSyK4yxpUhUhcCNPaHkVYJZQmEQalmCELzeh17kZq9MNQo3AhuiQl44b3MyjD1s1BMNg
@@ -777,10 +777,10 @@
     - service: tg
       id: 581
       published: 2024-10-31-18-23-34
-      updated: 2025-01-03-02-10-25
+      updated: 2025-01-10-02-12-54
       followers: 564
       likes: 68
-      views: 555
+      views: 558
       comments: !c ixeAkpPLQnkuQKV4AACqU2VidWxiYTUxOKTwn5igk8tCeS5AmQSAAKVBZGVsZaTwn5GBAw==
 2017-01-24-welcome-to-gnaar-mok:
   title: Welcome to Gnaar Mok
