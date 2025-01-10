@@ -21,17 +21,17 @@ export interface Service {
   getUserProfileUrl: (userId: string) => string | undefined;
 }
 
-export interface PostingService<TPublication extends Publication<unknown> = Publication<unknown>> extends Service {
-  isPost(publication: Publication<unknown>): publication is TPublication;
+export interface PostingService<TPublication extends Publication = Publication> extends Service {
+  isPost(publication: Publication): publication is TPublication;
 
   getSubscriptionUrl(): string;
 
-  getPublicationUrl: (publication: Publication<unknown>, embed?: boolean) => string | undefined;
+  getPublicationUrl: (publication: Publication, embed?: boolean) => string | undefined;
 
   canPublishPost: (post: Post, errors?: string[]) => boolean;
 }
 
-export interface PostingServiceManager<TPublication extends Publication<unknown> = Publication<unknown>>
+export interface PostingServiceManager<TPublication extends Publication = Publication>
   extends PostingService<TPublication> {
   connect: () => Promise<unknown>;
 
@@ -39,9 +39,9 @@ export interface PostingServiceManager<TPublication extends Publication<unknown>
 
   grabFollowerCount: () => Promise<number | undefined>;
 
-  grabPosts: (afterPublication?: Publication<unknown>) => Promise<Post[]>;
+  grabPosts: (afterPublication?: Publication) => Promise<Post[]>;
 
   publishPostEntry: (entry: PostEntry) => Promise<void>;
 
-  updatePublication: (publication: Publication<unknown>) => Promise<void>;
+  updatePublication: (publication: Publication) => Promise<void>;
 }

@@ -140,7 +140,7 @@ export function needLocation(post: Post): post is AugmentedRequired<Post, 'locat
   return true;
 }
 
-export function needPublications(post: Post): post is Post & { posts: Publication<unknown>[] } {
+export function needPublications(post: Post): post is Post & { posts: Publication[] } {
   if (!Array.isArray(post.posts) || post.posts.length === 0) {
     throw new Error('need published service posts');
   }

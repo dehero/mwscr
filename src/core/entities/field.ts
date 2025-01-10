@@ -1,4 +1,4 @@
-import { POST_ADDONS, POST_ENGINES, POST_MARKS, POST_TYPES, POST_VIOLATIONS } from './post.js';
+import { POST_VIOLATIONS, PostAddon, PostEngine, PostMark, PostType } from './post.js';
 
 export const postContent = {
   type: 'textarea',
@@ -35,7 +35,7 @@ export const postType = {
   id: 'postType',
   attributes: {
     label: 'Post Type',
-    options: POST_TYPES.map(({ id }) => id),
+    options: PostType.options,
     default: 0,
   },
   validations: {
@@ -48,7 +48,7 @@ export const postEngine = {
   id: 'postEngine',
   attributes: {
     label: 'Engine',
-    options: POST_ENGINES,
+    options: PostEngine.options,
   },
 } as const;
 
@@ -57,7 +57,7 @@ export const postAddon = {
   id: 'postAddon',
   attributes: {
     label: 'Addon',
-    options: POST_ADDONS,
+    options: PostAddon.options,
   },
 } as const;
 
@@ -66,7 +66,7 @@ export const postMark = {
   id: 'postMark',
   attributes: {
     label: "Editor's Mark",
-    options: POST_MARKS.map(({ id }) => id),
+    options: PostMark.options,
   },
 } as const;
 

@@ -1,41 +1,43 @@
-import type { Post } from '../entities/post.js';
-import type { Publication } from '../entities/publication.js';
+import { z } from 'zod';
+import { Post, PostContent, PostTitle, PostType } from '../entities/post.js';
+import { Publication } from '../entities/publication.js';
 import { checkRules } from '../entities/rule.js';
 import type { PostingService } from '../entities/service.js';
-import { needCertainType, needContent, needTitleRu } from '../rules/post-rules.js';
 
-interface VKSuitablePost extends Post {
-  titleRu: string;
-  content: string;
-  type: 'shot';
-}
+export const VKPost = Post.extend({
+  titleRu: PostTitle,
+  content: PostContent,
+  type: PostType.extract(['shot', 'wallpaper', 'wallpaper-v', 'redrawing', 'shot-set']),
+});
 
-export type VKPost = Publication<number>;
+export const VKPublication = Publication.extend({
+  id: z.number(),
+});
+
+export type VKPost = z.infer<typeof VKPost>;
+export type VKPublication = z.infer<typeof VKPublication>;
 
 export const VK_GROUP_NAME = 'mwscr';
 export const VK_GROUP_ID = -138249959;
 
-export class VK implements PostingService<VKPost> {
+export class VK implements PostingService<VKPublication> {
   readonly id = 'vk';
   readonly name = 'VK';
   readonly donationName = 'VK Donut';
 
-  isPost(publication: Publication<unknown>): publication is VKPost {
+  isPost(publication: Publication): publication is VKPublication {
     return publication.service === this.id && typeof publication.id === 'number';
   }
 
-  canPublishPost(post: Post): post is VKSuitablePost {
-    return checkRules(
-      [needCertainType('shot', 'wallpaper', 'wallpaper-v', 'redrawing', 'shot-set'), needContent, needTitleRu],
-      post,
-    );
+  canPublishPost(post: Post, errors: string[] = []): post is VKPost {
+    return checkRules([VKPost], post, errors);
   }
 
   getDonationUrl() {
     return `https://vk.com/donut/${VK_GROUP_NAME}`;
   }
 
-  getPublicationUrl(publication: Publication<unknown>) {
+  getPublicationUrl(publication: Publication) {
     if (!this.isPost(publication)) {
       return;
     }

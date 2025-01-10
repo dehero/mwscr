@@ -17,16 +17,15 @@ import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entitie
 import type { ListReaderEntry } from '../../core/entities/list-manager.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import type { Location } from '../../core/entities/location.js';
-import type { PostViolation } from '../../core/entities/post.js';
 import {
   mergeAuthors,
   mergePostContents,
   mergePostLocations,
-  POST_ADDONS,
-  POST_ENGINES,
-  POST_MARKS,
-  POST_TYPES,
-  POST_VIOLATIONS,
+  PostAddon,
+  PostEngine,
+  PostMark,
+  PostType,
+  PostViolation,
 } from '../../core/entities/post.js';
 import { label } from '../../core/github-issues/post-editing.js';
 import { asArray } from '../../core/utils/common-utils.js';
@@ -73,12 +72,12 @@ export async function resolve(issue: GithubIssue) {
     asArray(oldContent).filter((url) => !rawContent?.includes(url)),
   );
   post.author = mergeAuthors(extractIssueFieldValue(postAuthor, issue.body)?.split(/\s+/).filter(Boolean));
-  post.type = POST_TYPES.find((info) => info.id === typeStr)?.id ?? 'shot';
+  post.type = PostType.safeParse(typeStr).data ?? 'shot';
   post.tags = extractIssueFieldValue(postTags, issue.body)?.split(/\s+/).filter(Boolean);
-  post.engine = POST_ENGINES.find((engine) => engine === engineStr);
-  post.addon = POST_ADDONS.find((addon) => addon === addonStr);
-  post.mark = POST_MARKS.find((info) => info.id === markStr)?.id;
-  post.violation = [...Object.keys(POST_VIOLATIONS)].find((id) => id === violationStr) as PostViolation | undefined;
+  post.engine = PostEngine.safeParse(engineStr).data;
+  post.addon = PostAddon.safeParse(addonStr).data;
+  post.mark = PostMark.safeParse(markStr).data;
+  post.violation = PostViolation.safeParse(violationStr).data;
   post.location = mergePostLocations(
     rawLocation
       ? (await locations.findEntries(rawLocation.map((title) => ({ title }))))

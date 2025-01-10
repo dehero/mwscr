@@ -2,24 +2,16 @@ import clsx from 'clsx';
 import { createEffect, createResource, createSignal, createUniqueId, For, Show, splitProps } from 'solid-js';
 import type { Option } from '../../../core/entities/option.js';
 import { EMPTY_OPTION } from '../../../core/entities/option.js';
-import type {
-  Post,
-  PostAddon,
-  PostEngine,
-  PostMark,
-  PostRequest,
-  PostType,
-  PostViolation,
-} from '../../../core/entities/post.js';
+import type { Post, PostMark, PostRequest, PostType, PostViolation } from '../../../core/entities/post.js';
 import {
   mergeAuthors,
   mergePostLocations,
   mergePostTags,
-  POST_ADDONS,
-  POST_ENGINES,
   POST_MARKS,
   POST_TYPES,
   POST_VIOLATIONS,
+  PostAddon,
+  PostEngine,
 } from '../../../core/entities/post.js';
 import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/post-editing.js';
 import { asArray } from '../../../core/utils/common-utils.js';
@@ -218,7 +210,7 @@ export const PostEditingDialog: DetachedDialog<PostRouteParams> = (props) => {
               <div class={styles.selectWrapper}>
                 <Select
                   name="engine"
-                  options={[EMPTY_OPTION, ...POST_ENGINES.map((value) => ({ value }))]}
+                  options={[EMPTY_OPTION, ...PostEngine.options.map((value) => ({ value }))]}
                   value={post().engine}
                   onChange={setPostEngine}
                   class={styles.select}
@@ -230,7 +222,7 @@ export const PostEditingDialog: DetachedDialog<PostRouteParams> = (props) => {
               <div class={styles.selectWrapper}>
                 <Select
                   name="addon"
-                  options={[EMPTY_OPTION, ...POST_ADDONS.map((value) => ({ value }))]}
+                  options={[EMPTY_OPTION, ...PostAddon.options.map((value) => ({ value }))]}
                   value={post().addon}
                   onChange={setPostAddon}
                   class={styles.select}

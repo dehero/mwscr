@@ -1,34 +1,35 @@
-import type { Post } from '../entities/post.js';
-import type { Publication } from '../entities/publication.js';
+import { z } from 'zod';
+import { Post, PostContent, PostTitle, PostType } from '../entities/post.js';
+import { Publication } from '../entities/publication.js';
 import { checkRules } from '../entities/rule.js';
 import type { PostingService } from '../entities/service.js';
-import { needCertainType, needContent, needTitle } from '../rules/post-rules.js';
 
-export interface InstagramSuitablePost extends Post {
-  title: string;
-  content: string;
-  type: 'shot';
-}
+export const InstagramPost = Post.extend({
+  title: PostTitle,
+  content: PostContent,
+  type: PostType.extract(['shot', 'wallpaper', 'wallpaper-v', 'redrawing', 'shot-set']),
+});
 
-export type InstagramPost = Publication<string>;
+export const InstagramPublication = Publication.extend({
+  id: z.string().nonempty(),
+});
 
-export class Instagram implements PostingService<InstagramPost> {
+export type InstagramPost = z.infer<typeof InstagramPost>;
+export type InstagramPublication = z.infer<typeof InstagramPublication>;
+
+export class Instagram implements PostingService<InstagramPublication> {
   readonly id = 'ig';
   readonly name = 'Instagram';
 
-  isPost(publication: Publication<unknown>): publication is InstagramPost {
+  isPost(publication: Publication): publication is InstagramPublication {
     return publication.service === this.id && typeof publication.id === 'string';
   }
 
-  canPublishPost(post: Post, errors: string[] = []): post is InstagramSuitablePost {
-    return checkRules(
-      [needCertainType('shot', 'wallpaper', 'wallpaper-v', 'redrawing', 'shot-set'), needTitle, needContent],
-      post,
-      errors,
-    );
+  canPublishPost(post: Post, errors: string[] = []): post is InstagramPost {
+    return checkRules([InstagramPost], post, errors);
   }
 
-  getPublicationUrl(publication: Publication<unknown>) {
+  getPublicationUrl(publication: Publication) {
     if (!this.isPost(publication)) {
       return;
     }
