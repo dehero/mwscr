@@ -1441,17 +1441,17 @@
     - service: vk
       id: 1818
       published: 2024-10-10-18-10-22
-      updated: 2025-01-03-03-13-31
+      updated: 2025-01-10-03-16-28
       followers: 960
       likes: 35
-      views: 324
+      views: 326
     - service: tg
       id: 560
       published: 2024-10-10-18-10-28
-      updated: 2025-01-03-03-13-30
+      updated: 2025-01-10-03-16-26
       followers: 559
       likes: 62
-      views: 471
+      views: 472
 2017-02-08-moonmoth-legion-fort:
   title: Moonmoth Legion Fort
   titleRu: Форт Легиона Лунной Бабочки
@@ -2784,19 +2784,19 @@
     - service: vk
       id: 1840
       published: 2024-10-17-18-09-16
-      updated: 2025-01-03-03-13-30
+      updated: 2025-01-10-03-16-26
       followers: 965
       likes: 48
-      views: 497
+      views: 507
       reposts: 2
       comments: !c iwuAkZPLQnkp0j58gACnaHlhcnZhcqTwn6WwAw==
     - service: tg
       id: 567
       published: 2024-10-17-18-09-22
-      updated: 2025-01-03-03-13-29
+      updated: 2025-01-10-03-16-25
       followers: 562
       likes: 65
-      views: 606
+      views: 610
 2017-03-13-sandy-shore:
   title: Sandy Shore
   titleRu: Песчаный берег
@@ -11279,10 +11279,10 @@
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2025-01-03-03-13-32
+      updated: 2025-01-10-03-16-29
       followers: 958
       likes: 47
-      views: 341
+      views: 346
       reposts: 2
       comments: !c |-
         G5waALwUd6yMGpSFaiQroXyz8M0Va7TB0dnw1Hb8P7EGPyTSyW82fdldPH+jFLpKt06DRqgQOtP1
@@ -11327,7 +11327,7 @@
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2025-01-03-03-13-31
+      updated: 2025-01-10-03-16-27
       followers: 560
       likes: 65
       views: 547
@@ -12402,10 +12402,10 @@
     - service: vk
       id: 1852
       published: 2024-10-24-18-10-30
-      updated: 2025-01-03-03-13-29
+      updated: 2025-01-10-03-16-25
       followers: 995
       likes: 48
-      views: 328
+      views: 330
       reposts: 2
       comments: !c |-
         GxYBiKwObOdpCDGx22QiDk2h91F8f2KAAvz0E4VCEG0pgp1WrISRPedcSeUlyJif7Oh1czGrB83G
@@ -12415,10 +12415,10 @@
     - service: tg
       id: 574
       published: 2024-10-24-18-10-36
-      updated: 2025-01-03-03-13-29
+      updated: 2025-01-10-03-16-24
       followers: 563
       likes: 61
-      views: 549
+      views: 552
 2017-12-07-puzzled-ashlanders:
   title: Puzzled Ashlanders
   titleRu: Озадаченные эшлендеры
