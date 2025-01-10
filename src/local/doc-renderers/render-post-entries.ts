@@ -17,7 +17,7 @@ import {
   getPostEntryLikes,
   getPostEntryViews,
   getPostRating,
-  POST_VIOLATIONS,
+  postViolationDescriptors,
 } from '../../core/entities/post.js';
 import type { PostAction } from '../../core/entities/post-action.js';
 import { isTrashItem } from '../../core/entities/post-variation.js';
@@ -273,7 +273,7 @@ async function renderPostEntry(postEntry: PostEntry, options: RenderPostsOptions
   }
 
   if (post.violation) {
-    lines.push('> [!CAUTION]', `> ${POST_VIOLATIONS[post.violation]}.`, '');
+    lines.push('> [!CAUTION]', `> ${postViolationDescriptors[post.violation]}.`, '');
   }
 
   const errors: string[] = [];

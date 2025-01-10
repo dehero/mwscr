@@ -1,4 +1,4 @@
-import { POST_VIOLATIONS, PostAddon, PostEngine, PostMark, PostType } from './post.js';
+import { PostAddon, PostEngine, PostMark, PostType, PostViolation } from './post.js';
 
 export const postContent = {
   type: 'textarea',
@@ -75,7 +75,7 @@ export const postViolation = {
   id: 'postViolation',
   attributes: {
     label: 'Violation',
-    options: Object.values(POST_VIOLATIONS).map(({ title }) => title),
+    options: PostViolation.options,
   },
 } as const;
 

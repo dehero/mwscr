@@ -23,8 +23,8 @@ import {
   getPostEntryLikes,
   getPostEntryViews,
   getPostRating,
-  POST_TYPES,
-  POST_VIOLATIONS,
+  postTypeDescriptors,
+  postViolationDescriptors,
 } from './post.js';
 import { isPublishablePost, isTrashItem } from './post-variation.js';
 import type { PostsManagerName } from './posts-manager.js';
@@ -260,9 +260,7 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
   }
 
   if (params.type) {
-    result.push(
-      `${POST_TYPES.find((info) => info.id === params.type)?.title.toLocaleLowerCase()}${count !== 1 ? 's' : ''}`,
-    );
+    result.push(`${postTypeDescriptors[params.type].title.toLocaleLowerCase()}${count !== 1 ? 's' : ''}`);
   } else {
     result.push(`post${count !== 1 ? 's' : ''}`);
   }
@@ -303,7 +301,7 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
     } else if (params.violation === NONE_OPTION.value) {
       result.push('with no violations');
     } else {
-      result.push(`with "${POST_VIOLATIONS[params.violation].title}" violation`);
+      result.push(`with "${postViolationDescriptors[params.violation].title}" violation`);
     }
   }
 
