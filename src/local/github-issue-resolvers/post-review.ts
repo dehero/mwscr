@@ -1,8 +1,7 @@
 import { postMark, postViolation } from '../../core/entities/field.js';
 import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
-import type { PostViolation } from '../../core/entities/post.js';
-import { POST_MARKS, POST_VIOLATIONS } from '../../core/entities/post.js';
+import { PostMark, PostViolation } from '../../core/entities/post.js';
 import { label } from '../../core/github-issues/post-review.js';
 import { inbox, posts, trash } from '../data-managers/posts.js';
 import { extractIssueFieldValue, extractIssueUser, issueDropdownToInput } from './utils/issue-utils.js';
@@ -22,8 +21,8 @@ export async function resolve(issue: GithubIssue) {
   const markStr = extractIssueFieldValue(postMark, issue.body);
   const violationStr = extractIssueFieldValue(postViolation, issue.body);
 
-  post.mark = POST_MARKS.find((info) => info.id === markStr)?.id;
-  post.violation = [...Object.keys(POST_VIOLATIONS)].find((id) => id === violationStr) as PostViolation | undefined;
+  post.mark = PostMark.safeParse(markStr).data;
+  post.violation = PostViolation.safeParse(violationStr).data;
 
   await manager.updateItem(id);
 

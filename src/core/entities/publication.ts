@@ -2,7 +2,7 @@ import { z } from 'zod';
 import { asArray } from '../utils/common-utils.js';
 import { getDaysPassed, getMinutesPassed } from '../utils/date-utils.js';
 
-const BaseComment = z.object({ datetime: z.date(), author: z.string(), text: z.string() });
+const BaseComment = z.object({ datetime: z.date(), author: z.string().nonempty(), text: z.string().nonempty() });
 
 export const PublicationComment = BaseComment.extend({
   replies: z.array(BaseComment).optional(),

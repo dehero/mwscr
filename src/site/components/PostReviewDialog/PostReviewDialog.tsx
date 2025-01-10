@@ -1,7 +1,7 @@
 import { createEffect, createResource, createSignal, createUniqueId, splitProps } from 'solid-js';
 import { EMPTY_OPTION } from '../../../core/entities/option.js';
-import type { Post, PostMark, PostViolation } from '../../../core/entities/post.js';
-import { POST_MARKS, POST_VIOLATIONS } from '../../../core/entities/post.js';
+import type { Post } from '../../../core/entities/post.js';
+import { PostMark, PostViolation, postViolationDescriptors } from '../../../core/entities/post.js';
 import { createIssueUrl } from '../../../core/github-issues/post-review.js';
 import { dataExtractor } from '../../data-managers/extractor.js';
 import type { PostRouteParams } from '../../routes/post-route.js';
@@ -57,7 +57,7 @@ export const PostReviewDialog: DetachedDialog<PostRouteParams> = (props) => {
           <Label label="Editor's Mark" vertical>
             <Select
               name="mark"
-              options={[EMPTY_OPTION, ...POST_MARKS.map(({ id }) => ({ value: id }))]}
+              options={[EMPTY_OPTION, ...PostMark.options.map((value) => ({ value }))]}
               value={post().mark}
               onChange={setPostMark}
               class={styles.select}
@@ -70,9 +70,9 @@ export const PostReviewDialog: DetachedDialog<PostRouteParams> = (props) => {
                 name="violation"
                 options={[
                   EMPTY_OPTION,
-                  ...Object.entries(POST_VIOLATIONS).map(([value, violation]) => ({
-                    value: value as PostViolation,
-                    label: violation.title,
+                  ...PostViolation.options.map((value) => ({
+                    value,
+                    label: postViolationDescriptors[value].title,
                   })),
                 ]}
                 value={post().violation}

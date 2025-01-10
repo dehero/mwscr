@@ -1,7 +1,6 @@
 import type { Option } from '../../../../core/entities/option.js';
 import { ANY_OPTION, NONE_OPTION } from '../../../../core/entities/option.js';
-import type { PostMark, PostType } from '../../../../core/entities/post.js';
-import { POST_MARKS, POST_TYPES, POST_VIOLATIONS } from '../../../../core/entities/post.js';
+import { PostMark, PostType, PostViolation } from '../../../../core/entities/post.js';
 import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../../core/entities/post-info.js';
 import { selectPostInfosSortOptions } from '../../../../core/entities/post-info.js';
 import type { SiteRouteInfo } from '../../../../core/entities/site-route.js';
@@ -77,14 +76,14 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
 
   const original = () => stringToBool(searchParams().original);
   const publishable = () => stringToBool(searchParams().publishable);
-  const type = () => POST_TYPES.find((info) => info.id === searchParams().type)?.id;
+  const type = () => PostType.safeParse(searchParams().type).data;
   const tag = () => searchParams().tag;
   const location = () => searchParams().location;
   const author = () => searchParams().author;
   const requester = () => searchParams().requester;
-  const mark = () => POST_MARKS.find((info) => info.id === searchParams().mark)?.id;
+  const mark = () => PostMark.safeParse(searchParams().mark).data;
   const violation = () =>
-    [ANY_OPTION.value, NONE_OPTION.value, ...Object.keys(POST_VIOLATIONS)].find(
+    [ANY_OPTION.value, NONE_OPTION.value, ...PostViolation.options].find(
       (violation) => violation === searchParams().violation,
     ) as SelectPostInfosParams['violation'];
   const sortKey = () =>

@@ -16,8 +16,8 @@ import {
   getPostEntryViews,
   getPostRating,
   getPostTypeAspectRatio,
-  POST_TYPES,
-  POST_VIOLATIONS,
+  postTypeDescriptors,
+  postViolationDescriptors,
 } from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
 import { isPublishablePost, isTrashItem } from '../../../core/entities/post-variation.js';
@@ -346,7 +346,7 @@ export const PostPage = (): JSX.Element => {
                     },
                     {
                       label: 'Type',
-                      value: POST_TYPES.find((info) => info.id === post.type)?.title,
+                      value: postTypeDescriptors[post.type].title,
                       link: postsRoute.createUrl({ managerName: params().managerName, type: post.type }),
                     },
                     ...(data().authorOptions ?? []).map(
@@ -405,9 +405,9 @@ export const PostPage = (): JSX.Element => {
                                 variant="flat"
                                 class={clsx(styles.icon, styles.tableIcon)}
                               >
-                                {POST_VIOLATIONS[post.violation!].letter}
+                                {postViolationDescriptors[post.violation!].letter}
                               </Icon>
-                              {POST_VIOLATIONS[post.violation!].title}
+                              {postViolationDescriptors[post.violation!].title}
                             </>
                           )
                         : undefined,

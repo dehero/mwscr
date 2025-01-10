@@ -1,7 +1,7 @@
 import esc from 'escape-html';
 import TelegramBot from 'node-telegram-bot-api';
-import type { PostViolationInfo } from '../../core/entities/post.js';
-import { POST_VIOLATIONS } from '../../core/entities/post.js';
+import type { PostViolationDescriptor } from '../../core/entities/post.js';
+import { postViolationDescriptors } from '../../core/entities/post.js';
 import type { Resource } from '../../core/entities/resource.js';
 import { site } from '../../core/services/site.js';
 import { telegram } from '../../core/services/telegram.js';
@@ -139,7 +139,7 @@ async function processMessage(message: TelegramBot.Message) {
 
       for (const [id, post] of postEntries) {
         if (post.violation) {
-          const violation: PostViolationInfo = POST_VIOLATIONS[post.violation];
+          const violation: PostViolationDescriptor = postViolationDescriptors[post.violation];
           replies.push(
             `${getRandomRejectPhrase()}\n<blockquote><b>${esc(asArray(post.content).join(', '))}</b>\n${
               violation.reference

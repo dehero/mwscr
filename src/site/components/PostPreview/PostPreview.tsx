@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import { type Component, createSignal, For, Show } from 'solid-js';
-import { getPostTypeAspectRatio, POST_VIOLATIONS } from '../../../core/entities/post.js';
+import { getPostTypeAspectRatio, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { asArray } from '../../../core/utils/common-utils.js';
@@ -123,7 +123,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
                   <Show when={props.postInfo.violation}>
                     {(violation) => (
                       <Icon color="health" size="small" variant="flat">
-                        {POST_VIOLATIONS[violation()].letter}
+                        {postViolationDescriptors[violation()].letter}
                       </Icon>
                     )}
                   </Show>

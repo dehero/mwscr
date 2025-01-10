@@ -1,7 +1,12 @@
 import clsx from 'clsx';
 import { type Component, For, Show, splitProps } from 'solid-js';
 import { createMemo } from 'solid-js';
-import { getPostDateById, getPostTypeAspectRatio, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
+import {
+  getPostDateById,
+  getPostTypeAspectRatio,
+  postTypeDescriptors,
+  postViolationDescriptors,
+} from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { POSTS_MANAGER_INFOS } from '../../../core/entities/posts-manager.js';
@@ -115,7 +120,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
         </span>
       </Show>
       <Show when={local.postInfo.type}>
-        <span class={styles.type}>Type: {POST_TYPES.find((info) => info.id === local.postInfo.type)?.title}</span>
+        <span class={styles.type}>Type: {postTypeDescriptors[local.postInfo.type].title}</span>
       </Show>
       <Show when={local.postInfo.authorOptions.length}>
         <span class={styles.author}>
@@ -158,9 +163,9 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
           <span class={styles.addon}>
             {'Violation: '}
             <Icon color="health" size="small" variant="flat" class={styles.icon}>
-              {POST_VIOLATIONS[violation()].letter}
+              {postViolationDescriptors[violation()].letter}
             </Icon>
-            {POST_VIOLATIONS[violation()].title}
+            {postViolationDescriptors[violation()].title}
           </span>
         )}
       </Show>

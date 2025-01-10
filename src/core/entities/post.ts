@@ -10,10 +10,12 @@ import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, resourceIsImage, resour
 import { checkRules } from './rule.js';
 import { USER_DEFAULT_AUTHOR } from './user.js';
 
+export const POST_RECENTLY_PUBLISHED_DAYS = 31;
+
 export const PostTitle = z.string().nonempty();
 export const PostDescription = z.string().nonempty();
-export const PostContent = z.string().or(z.string().array());
-export const PostLocation = z.string().or(z.string().array());
+export const PostContent = z.string().nonempty().or(z.string().nonempty().array());
+export const PostLocation = z.string().nonempty().or(z.string().nonempty().array());
 export const PostType = z.enum(['shot', 'shot-set', 'video', 'clip', 'redrawing', 'wallpaper', 'wallpaper-v']);
 export const PostAddon = z.enum(['Tribunal', 'Bloodmoon']);
 export const PostEngine = z.enum(['OpenMW', 'Vanilla']);
@@ -30,8 +32,9 @@ export const PostViolation = z.enum([
   'unreachable-resource',
   'unsupported-resource',
 ]);
-export const PostAuthor = z.string().or(z.string().array());
-export const PostRequest = z.object({ date: z.date(), user: z.string(), text: z.string() });
+export const PostAuthor = z.string().nonempty().or(z.string().nonempty().array());
+export const PostTag = z.string().nonempty();
+export const PostRequest = z.object({ date: z.date(), user: z.string().nonempty(), text: z.string().nonempty() });
 
 export const Post = z.object({
   title: PostTitle.optional(),
@@ -43,7 +46,7 @@ export const Post = z.object({
   trash: PostContent.optional(),
   type: PostType,
   author: PostAuthor.optional(),
-  tags: z.string().array().optional(),
+  tags: z.array(PostTag).optional(),
   engine: PostEngine.optional(),
   addon: PostAddon.optional(),
   request: PostRequest.optional(),
@@ -53,7 +56,7 @@ export const Post = z.object({
 });
 
 export type PostTitle = z.infer<typeof PostTitle>;
-export type PostDescription = z.infer<typeof PostTitle>;
+export type PostDescription = z.infer<typeof PostDescription>;
 export type PostContent = z.infer<typeof PostContent>;
 export type PostLocation = z.infer<typeof PostLocation>;
 export type PostType = z.infer<typeof PostType>;
@@ -62,6 +65,7 @@ export type PostEngine = z.infer<typeof PostEngine>;
 export type PostMark = z.infer<typeof PostMark>;
 export type PostViolation = z.infer<typeof PostViolation>;
 export type PostAuthor = z.infer<typeof PostAuthor>;
+export type PostTag = z.infer<typeof PostTag>;
 export type PostRequest = z.infer<typeof PostRequest>;
 
 export type Post = z.infer<typeof Post>;
@@ -83,49 +87,45 @@ export interface PostDistance {
   message: string;
 }
 
-interface PostTypeInfo {
-  id: PostType;
+interface PostTypeDescriptor {
   title: string;
   titleRu: string;
   letter: string;
 }
 
-interface PostMarkInfo {
-  id: PostMark;
+interface PostMarkDescriptor {
   score: number;
 }
 
-export interface PostViolationInfo {
+export interface PostViolationDescriptor {
   title: string;
   letter: string;
   solution?: string;
   reference?: string;
 }
 
-export const POST_TYPES: PostTypeInfo[] = [
-  { id: 'shot', title: 'Shot', titleRu: 'Кадр', letter: 'S' },
-  { id: 'shot-set', title: 'Shot-Set', titleRu: 'Подборка', letter: 'H' },
-  { id: 'video', title: 'Video', titleRu: 'Видео', letter: 'V' },
-  { id: 'clip', title: 'Clip', titleRu: 'Клип', letter: 'C' },
-  { id: 'redrawing', title: 'Redrawing', titleRu: 'Перерисовка', letter: 'R' },
-  { id: 'wallpaper', title: 'Wallpaper', titleRu: 'Обои', letter: 'W' },
-  { id: 'wallpaper-v', title: 'Vertical Wallpaper', titleRu: 'Вертикальные обои', letter: 'M' },
-];
+export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescriptor>>({
+  shot: { title: 'Shot', titleRu: 'Кадр', letter: 'S' },
+  'shot-set': { title: 'Shot-Set', titleRu: 'Подборка', letter: 'H' },
+  video: { title: 'Video', titleRu: 'Видео', letter: 'V' },
+  clip: { title: 'Clip', titleRu: 'Клип', letter: 'C' },
+  redrawing: { title: 'Redrawing', titleRu: 'Перерисовка', letter: 'R' },
+  wallpaper: { title: 'Wallpaper', titleRu: 'Обои', letter: 'W' },
+  'wallpaper-v': { title: 'Vertical Wallpaper', titleRu: 'Вертикальные обои', letter: 'M' },
+});
 
-export const POST_MARKS: PostMarkInfo[] = [
-  { id: 'A1', score: 5 },
-  { id: 'A2', score: 4 },
-  { id: 'B1', score: 3 },
-  { id: 'B2', score: 2 },
-  { id: 'C', score: 1 },
-  { id: 'D', score: -2 },
-  { id: 'E', score: 0 },
-  { id: 'F', score: -1 },
-];
+export const postMarkDescriptors = Object.freeze<Record<PostMark, PostMarkDescriptor>>({
+  A1: { score: 5 },
+  A2: { score: 4 },
+  B1: { score: 3 },
+  B2: { score: 2 },
+  C: { score: 1 },
+  D: { score: -2 },
+  E: { score: 0 },
+  F: { score: -1 },
+});
 
-export const POST_RECENTLY_PUBLISHED_DAYS = 31;
-
-export const POST_VIOLATIONS: Record<PostViolation, PostViolationInfo> = {
+export const postViolationDescriptors = Object.freeze<Record<PostViolation, PostViolationDescriptor>>({
   'inappropriate-content': { title: 'Inappropriate content', letter: 'C' },
   'jpeg-artifacts': { title: 'JPEG artifacts', letter: 'J' },
   'graphic-issues': { title: 'Graphic issues', letter: 'G' },
@@ -156,7 +156,7 @@ export const POST_VIOLATIONS: Record<PostViolation, PostViolationInfo> = {
     reference: 'https://mwscr.dehero.site/help/file-format/',
     letter: 'R',
   },
-};
+});
 
 export function isPost(value: unknown, errors?: string[]): value is Post {
   return checkRules([Post], value, errors);
@@ -273,15 +273,13 @@ export function getPostEntryViews(entry: PostEntry) {
   return getPostEntryPublications(entry).reduce((acc, publication) => acc + (publication.views ?? 0), 0);
 }
 
-export function getPostMarkScore(mark: PostMark) {
-  return POST_MARKS.find((info) => info.id === mark)?.score ?? 0;
-}
-
 export function getPostMarkFromScore(score?: number) {
-  if (!score) {
+  if (typeof score === 'undefined') {
     return;
   }
-  return POST_MARKS.find((info) => info.score === Math.round(score))?.id;
+  const integerScore = Math.round(score);
+
+  return PostMark.options.find((mark) => postMarkDescriptors[mark].score === integerScore);
 }
 
 export function isPostEqual(a: Post, b: Partial<Post>): boolean {

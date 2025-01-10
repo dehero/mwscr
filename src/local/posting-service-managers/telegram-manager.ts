@@ -6,7 +6,7 @@ import { Logger, LogLevel } from 'telegram/extensions/Logger.js';
 // eslint-disable-next-line import/extensions
 import { StringSession } from 'telegram/sessions/index.js';
 import type { Post, PostEntry } from '../../core/entities/post.js';
-import { getPostFirstPublished, getPostTypesFromContent, POST_TYPES } from '../../core/entities/post.js';
+import { getPostFirstPublished, getPostTypesFromContent, postTypeDescriptors } from '../../core/entities/post.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
@@ -96,7 +96,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
     const lines: string[] = [];
     const contributors: string[] = [];
-    const titlePrefix = post.type !== 'shot' ? POST_TYPES.find(({ id }) => id === post.type)?.title : undefined;
+    const titlePrefix = post.type !== 'shot' ? postTypeDescriptors[post.type].title : undefined;
 
     if (post.title) {
       lines.push([titlePrefix, post.title].filter(Boolean).join(': '));

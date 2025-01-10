@@ -7,10 +7,10 @@ import {
   getPostEntryEngagement,
   getPostEntryLikes,
   getPostEntryViews,
-  getPostMarkScore,
   getPostRating,
   isPostEqual,
   mergePostWith,
+  postMarkDescriptors,
 } from './post.js';
 import type { PostAction } from './post-action.js';
 
@@ -97,10 +97,7 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
         if (!mark) {
           continue;
         }
-        const score = getPostMarkScore(mark);
-        if (typeof score === 'undefined') {
-          continue;
-        }
+        const score = postMarkDescriptors[mark].score;
         asArray(post.author).forEach((author) => {
           map.set(author, [...(map.get(author) ?? []), score]);
         });

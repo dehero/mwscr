@@ -1,6 +1,6 @@
 import { postType, userName, userProfileIg, userProfileTg, userProfileVk } from '../../core/entities/field.js';
 import type { GithubIssue } from '../../core/entities/github-issue.js';
-import { POST_TYPES } from '../../core/entities/post.js';
+import { PostType } from '../../core/entities/post.js';
 import type { PostRequest } from '../../core/entities/post-variation.js';
 import { label } from '../../core/github-issues/post-request.js';
 import { createPostRequestId, inbox } from '../data-managers/posts.js';
@@ -18,7 +18,7 @@ export async function resolve(issue: GithubIssue) {
       user,
       date: new Date(issue.created_at),
     },
-    type: POST_TYPES.find((info) => info.id === typeStr)?.id ?? 'shot',
+    type: PostType.safeParse(typeStr).data ?? 'shot',
   };
 
   const id = createPostRequestId(request);

@@ -2,16 +2,18 @@ import clsx from 'clsx';
 import { createEffect, createResource, createSignal, createUniqueId, For, Show, splitProps } from 'solid-js';
 import type { Option } from '../../../core/entities/option.js';
 import { EMPTY_OPTION } from '../../../core/entities/option.js';
-import type { Post, PostMark, PostRequest, PostType, PostViolation } from '../../../core/entities/post.js';
+import type { Post, PostRequest } from '../../../core/entities/post.js';
 import {
   mergeAuthors,
   mergePostLocations,
   mergePostTags,
-  POST_MARKS,
-  POST_TYPES,
-  POST_VIOLATIONS,
   PostAddon,
   PostEngine,
+  PostMark,
+  PostType,
+  postTypeDescriptors,
+  PostViolation,
+  postViolationDescriptors,
 } from '../../../core/entities/post.js';
 import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/post-editing.js';
 import { asArray } from '../../../core/utils/common-utils.js';
@@ -197,7 +199,7 @@ export const PostEditingDialog: DetachedDialog<PostRouteParams> = (props) => {
             <div class={styles.selectWrapper}>
               <Select
                 name="type"
-                options={POST_TYPES.map((info) => ({ label: info.title, value: info.id }))}
+                options={PostType.options.map((value) => ({ label: postTypeDescriptors[value].title, value }))}
                 value={post().type}
                 onChange={setPostType}
                 class={styles.select}
@@ -270,7 +272,7 @@ export const PostEditingDialog: DetachedDialog<PostRouteParams> = (props) => {
             <Label label="Editor's Mark" vertical>
               <Select
                 name="mark"
-                options={[EMPTY_OPTION, ...POST_MARKS.map(({ id }) => ({ value: id }))]}
+                options={[EMPTY_OPTION, ...PostMark.options.map((value) => ({ value }))]}
                 value={post().mark}
                 onChange={setPostMark}
                 class={styles.select}
@@ -283,9 +285,9 @@ export const PostEditingDialog: DetachedDialog<PostRouteParams> = (props) => {
                   name="violation"
                   options={[
                     EMPTY_OPTION,
-                    ...Object.entries(POST_VIOLATIONS).map(([value, violation]) => ({
-                      value: value as PostViolation,
-                      label: violation.title,
+                    ...PostViolation.options.map((value) => ({
+                      value,
+                      label: postViolationDescriptors[value].title,
                     })),
                   ]}
                   value={post().violation}
