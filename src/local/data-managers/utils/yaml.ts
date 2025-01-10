@@ -1,7 +1,6 @@
 import { readFile, writeFile } from 'fs/promises';
 import yaml, { Type } from 'js-yaml';
-import type { PublicationComment } from '../../../core/entities/publication.js';
-import { isPublicationComments } from '../../../core/entities/publication.js';
+import { PublicationComment } from '../../../core/entities/publication.js';
 import { dateToString, stringToDate } from '../../../core/utils/date-utils.js';
 import { compressData, decompressData } from '../../utils/data-utils.js';
 
@@ -73,7 +72,7 @@ export const YAML_SCHEMA = yaml.JSON_SCHEMA.extend({
       kind: 'scalar',
       resolve: (data) => typeof data === 'string',
       construct: (data) => unpackComments(data),
-      predicate: (data) => isPublicationComments(data),
+      predicate: (data) => PublicationComment.array().safeParse(data).success,
       represent: (data) => packComments(data as PublicationComment[]),
     }),
   ],

@@ -93,7 +93,7 @@ async function findLastPublishedPostEntry(
   return undefined;
 }
 
-async function* getAllPublications(service: string): AsyncGenerator<Publication<unknown>> {
+async function* getAllPublications(service: string): AsyncGenerator<Publication> {
   for await (const [, post] of posts.readAllEntries()) {
     if (!post.posts) {
       continue;

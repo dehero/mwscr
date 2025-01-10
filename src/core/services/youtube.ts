@@ -1,28 +1,34 @@
-import type { Post } from '../entities/post.js';
-import type { Publication } from '../entities/publication.js';
+import { z } from 'zod';
+import { Post, PostContent, PostTitle, PostType } from '../entities/post.js';
+import { Publication } from '../entities/publication.js';
 import type { PostingService } from '../entities/service.js';
 
-interface YouTubeSuitablePost extends Post {
-  title: string;
-  content: string;
-  type: 'video';
-}
+export const YouTubePost = Post.extend({
+  title: PostTitle,
+  content: PostContent,
+  type: PostType.extract(['video']),
+});
 
-export type YouTubePost = Publication<string>;
+export const YouTubePublication = Publication.extend({
+  id: z.string().nonempty(),
+});
 
-export class YouTube implements PostingService<YouTubePost> {
+export type YouTubePost = z.infer<typeof YouTubePost>;
+export type YouTubePublication = z.infer<typeof YouTubePublication>;
+
+export class YouTube implements PostingService<YouTubePublication> {
   readonly id = 'yt';
   readonly name = 'YouTube';
 
-  isPost(publication: Publication<unknown>): publication is YouTubePost {
+  isPost(publication: Publication): publication is YouTubePublication {
     return publication.service === this.id && typeof publication.id === 'string';
   }
 
-  canPublishPost(_post: Post, _errors?: string[]): _post is YouTubeSuitablePost {
+  canPublishPost(_post: Post, _errors?: string[]): _post is YouTubePost {
     return false;
   }
 
-  getPublicationUrl(publication: Publication<unknown>, embed?: boolean) {
+  getPublicationUrl(publication: Publication, embed?: boolean) {
     if (!publication.id) {
       return;
     }

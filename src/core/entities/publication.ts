@@ -1,41 +1,30 @@
+import { z } from 'zod';
 import { asArray } from '../utils/common-utils.js';
 import { getDaysPassed, getMinutesPassed } from '../utils/date-utils.js';
-import { checkRules, needObject, needProperty } from './rule.js';
 
-export interface Publication<TId> {
-  service: string;
-  id: TId;
-  code?: string;
-  mediaId?: string;
-  published: Date;
-  updated?: Date;
-  followers?: number;
-  likes?: number;
-  views?: number;
-  reposts?: number;
-  comments?: PublicationComment[];
-}
+const BaseComment = z.object({ datetime: z.date(), author: z.string(), text: z.string() });
 
-export interface PublicationComment {
-  datetime: Date;
-  author: string;
-  text: string;
-  replies?: PublicationComment[];
-}
+export const PublicationComment = BaseComment.extend({
+  replies: z.array(BaseComment).optional(),
+});
+export type PublicationComment = z.infer<typeof PublicationComment>;
 
-export function isPublicationComment(value: unknown, errors?: string[]): value is PublicationComment {
-  return checkRules(
-    [needObject, needProperty('author', 'string'), needProperty('text', 'string'), needProperty('datetime', Date)],
-    value,
-    errors,
-  );
-}
+export const Publication = z.object({
+  service: z.string().nonempty(),
+  id: z.unknown(),
+  code: z.string().nonempty().optional(),
+  mediaId: z.string().nonempty().optional(),
+  published: z.date(),
+  updated: z.date().optional(),
+  followers: z.number().positive().optional(),
+  likes: z.number().positive().optional(),
+  views: z.number().positive().optional(),
+  reposts: z.number().positive().optional(),
+  comments: z.array(PublicationComment).optional(),
+});
+export type Publication = z.infer<typeof Publication>;
 
-export function isPublicationComments(value: unknown, errors?: string[]): value is PublicationComment[] {
-  return Array.isArray(value) && value.every((comment) => isPublicationComment(comment, errors));
-}
-
-export function isPublicationUpdatable(publication: Publication<unknown>): boolean {
+export function isPublicationUpdatable(publication: Publication): boolean {
   const updated = publication.updated ?? publication.published;
 
   const minutesSinceLastUpdate = getMinutesPassed(updated);
@@ -49,15 +38,12 @@ export function isPublicationUpdatable(publication: Publication<unknown>): boole
   );
 }
 
-export function isPublicationEqual(a: Publication<unknown>, b: Publication<unknown>) {
+export function isPublicationEqual(a: Publication, b: Publication) {
   return (
     a.service === b.service && (JSON.stringify(a.id) === JSON.stringify(b.id) || (a.mediaId && a.mediaId === b.mediaId))
   );
 }
-export function mergePublications(
-  posts1: Publication<unknown>[] | undefined,
-  posts2: Publication<unknown>[] | undefined,
-) {
+export function mergePublications(posts1: Publication[] | undefined, posts2: Publication[] | undefined) {
   const result = asArray(posts1);
 
   for (const publication2 of posts2 ?? []) {
@@ -78,4 +64,14 @@ export function mergePublications(
   }
 
   return result.length > 0 ? result : undefined;
+}
+
+export function getPublicationEngagement(info?: Publication) {
+  const reactions = (info?.likes ?? 0) + (info?.reposts ?? 0);
+
+  if (!reactions || !info?.followers) {
+    return 0;
+  }
+
+  return info.followers >= 50 ? (reactions / info.followers) * 100 : reactions;
 }

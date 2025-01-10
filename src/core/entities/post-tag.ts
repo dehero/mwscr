@@ -1,5 +1,5 @@
 import type { Post } from './post.js';
-import { mergePostTags, POST_ADDONS, POST_ENGINES } from './post.js';
+import { mergePostTags, PostAddon, PostEngine } from './post.js';
 
 type PostTagDescriptor = [tag: string, rule: (post: Post) => boolean, parse?: (post: Post) => void];
 
@@ -26,10 +26,10 @@ export const DEFAULT_TAGS: PostTagDescriptor[] = [
     (post) => ['wallpaper', 'wallpaper-v'].includes(post.type),
     (post) => (post.type = ['wallpaper', 'wallpaper-v'].includes(post.type) ? post.type : 'wallpaper'),
   ],
-  ...POST_ADDONS.map(
+  ...PostAddon.options.map(
     (tag): PostTagDescriptor => [tag, (post) => post.addon === tag, (post) => (post.addon = post.addon || tag)],
   ),
-  ...POST_ENGINES.map(
+  ...PostEngine.options.map(
     (tag): PostTagDescriptor => [tag, (post) => post.engine === tag, (post) => (post.engine = post.engine || tag)],
   ),
 ];

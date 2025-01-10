@@ -22,7 +22,7 @@ import type { Publication, PublicationComment } from '../../core/entities/public
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
-import type { InstagramPost } from '../../core/services/instagram.js';
+import type { InstagramPublication } from '../../core/services/instagram.js';
 import { Instagram } from '../../core/services/instagram.js';
 import { site } from '../../core/services/site.js';
 import { asArray } from '../../core/utils/common-utils.js';
@@ -222,7 +222,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
     const followers = await this.grabFollowerCount();
 
-    const newPublications: InstagramPost[] = [{ service: 'ig', id, mediaId, followers, published: new Date() }];
+    const newPublications: InstagramPublication[] = [{ service: 'ig', id, mediaId, followers, published: new Date() }];
 
     // Create story for "wallpaper-v" post type
     if (post.type === 'wallpaper-v') {
@@ -378,7 +378,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     return comments.length > 0 ? comments : undefined;
   }
 
-  async updatePublication(publication: Publication<unknown>) {
+  async updatePublication(publication: Publication) {
     if (!this.isPost(publication) || !publication.mediaId) {
       return;
     }
@@ -400,7 +400,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     return data.followers_count;
   }
 
-  async grabPosts(afterPublication?: Publication<unknown>) {
+  async grabPosts(afterPublication?: Publication) {
     if (afterPublication && !this.isPost(afterPublication)) {
       throw new Error(`Invalid ${this.name} post`);
     }

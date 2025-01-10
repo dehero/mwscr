@@ -12,7 +12,7 @@ import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/re
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import { site } from '../../core/services/site.js';
-import type { TelegramPost } from '../../core/services/telegram.js';
+import type { TelegramPublication } from '../../core/services/telegram.js';
 import { Telegram, TELEGRAM_CHANNEL } from '../../core/services/telegram.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
@@ -281,7 +281,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     );
   }
 
-  async updatePublication(publication: Publication<unknown>) {
+  async updatePublication(publication: Publication) {
     if (!this.isPost(publication)) {
       return;
     }
@@ -329,7 +329,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
     const id = Array.isArray(result) ? result.map((item: Api.Message) => item.id) : result.id;
 
-    const publication: TelegramPost = {
+    const publication: TelegramPublication = {
       service: this.id,
       id,
       followers,
@@ -366,7 +366,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     return { title: message, author: author || USER_DEFAULT_AUTHOR };
   }
 
-  async grabPosts(afterPublication?: Publication<unknown>) {
+  async grabPosts(afterPublication?: Publication) {
     if (afterPublication && !this.isPost(afterPublication)) {
       throw new Error(`Invalid ${this.name} post`);
     }
@@ -411,7 +411,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     const messages = result.messages.filter((message): message is Api.Message => message instanceof Api.Message);
     const posts: Post[] = [];
     let post: Post | undefined;
-    let publication: TelegramPost | undefined;
+    let publication: TelegramPublication | undefined;
 
     for (const message of messages) {
       const id = message.id;

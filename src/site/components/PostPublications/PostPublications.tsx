@@ -1,7 +1,6 @@
 import clsx from 'clsx';
 import { type Component, For, Show } from 'solid-js';
-import { getPublicationEngagement } from '../../../core/entities/post.js';
-import type { Publication } from '../../../core/entities/publication.js';
+import { getPublicationEngagement, type Publication } from '../../../core/entities/publication.js';
 import { postingServices } from '../../../core/services/index.js';
 import { formatDate } from '../../../core/utils/date-utils.js';
 import { Divider } from '../Divider/Divider.js';
@@ -11,7 +10,7 @@ import styles from './PostPublications.module.css';
 
 export interface PostPublicationsProps {
   class?: string;
-  publications: Publication<unknown>[];
+  publications: Publication[];
 }
 
 export const PostPublications: Component<PostPublicationsProps> = (props) => {
