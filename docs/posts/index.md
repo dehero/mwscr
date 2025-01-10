@@ -28,14 +28,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bcc7qNpj-6y/)       | 2017-12-08 |       |    80 |       249 |  32.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_527)  | 2017-12-08 |   197 |    19 |       108 |  17.59 |
-| [`ig`](https://instagram.com/p/DEp5abVM-CW/)       | 2025-01-10 |   135 |    48 |      1525 |   3.15 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2037) | 2025-01-10 |    98 |    14 |      1050 |   1.33 |
-| [`tg`](https://t.me/mwscr/659)                     | 2025-01-10 |   120 |    41 |       647 |   6.34 |
-|                                                    |            |   353 |   103 |      3222 |  12.11 |
+| [`ig`](https://instagram.com/p/DEp5abVM-CW/)       | 2025-01-10 |   151 |    54 |      1525 |   3.54 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2037) | 2025-01-10 |   101 |    14 |      1050 |   1.33 |
+| [`tg`](https://t.me/mwscr/659)                     | 2025-01-10 |   125 |    41 |       647 |   6.34 |
+|                                                    |            |   377 |   109 |      3222 |  12.19 |
 
 #### Comments
 
 - `vk` <ins title="2025-01-10-18-22-15">id872831147</ins> выкупаю их всех, потом отпускаю
+- `ig` <ins title="2025-01-10-23-04-32">non_nobis777</ins> Looks like Caius&#39; Skooma connects finally got tired of him owing them money...
 
 ## <span id="2025-01-09-haze-in-tel-branora">Haze in Tel Branora</span>
 
@@ -60,10 +61,10 @@
 | [`ig`](https://instagram.com/p/BnMZPStF4mh/)       | 2018-09-01 |       |   123 |       407 |  30.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_888)  | 2018-09-01 |   390 |    32 |       219 |  14.61 |
 | [`tg`](https://t.me/mwscr/4)                       | 2018-09-01 |   257 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   290 |    91 |      1525 |   5.97 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   248 |    47 |      1051 |   4.76 |
+| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   291 |    91 |      1525 |   5.97 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   250 |    47 |      1051 |   4.76 |
 | [`tg`](https://t.me/mwscr/658)                     | 2025-01-09 |   218 |    56 |       647 |   8.66 |
-|                                                    |            |   756 |   194 |      3223 |  12.84 |
+|                                                    |            |   759 |   194 |      3223 |  12.84 |
 
 #### Comments
 

@@ -12498,27 +12498,30 @@
       id: DEp5abVM-CW
       mediaId: '17910191286069182'
       published: 2025-01-10-18-10-54
-      updated: 2025-01-10-22-07-14
+      updated: 2025-01-10-23-07-37
       followers: 1525
-      likes: 48
-      views: 135
+      likes: 54
+      views: 151
+      comments: !c |-
+        izOAkZPLQnlFJ2TAAACsbm9uX25vYmlzNzc32U5Mb29rcyBsaWtlIENhaXVzJyBTa29vbWEgY29u
+        bmVjdHMgZmluYWxseSBnb3QgdGlyZWQgb2YgaGltIG93aW5nIHRoZW0gbW9uZXkuLi4D
     - service: vk
       id: 2037
       published: 2025-01-10-18-11-02
-      updated: 2025-01-10-22-07-15
+      updated: 2025-01-10-23-07-37
       followers: 1050
       likes: 14
-      views: 98
+      views: 101
       comments: !c |-
         G1EA+OV/zjWx6UA7yRpw1rS+E4yiqOf5P14PIgswJmkGdDiHJeu8fDmZT+r3nFilgSQyEkvTnPiX
         4YgtXLCCJ+xxoOCEzeRIKviJFRZwEQ==
     - service: tg
       id: 659
       published: 2025-01-10-18-11-10
-      updated: 2025-01-10-22-07-15
+      updated: 2025-01-10-23-07-37
       followers: 647
       likes: 41
-      views: 120
+      views: 125
 2017-12-09-berth-near-grotto:
   title: Berth Near Grotto
   titleRu: Причал у грота
