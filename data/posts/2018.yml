@@ -444,10 +444,10 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2025-01-03-09-08-00
+      updated: 2025-01-10-09-08-19
       followers: 921
       likes: 44
-      views: 301
+      views: 303
       reposts: 2
     - service: tg
       id: 480
@@ -7308,7 +7308,7 @@
     - service: vk
       id: 1642
       published: 2024-07-18-18-21-19
-      updated: 2025-01-03-09-08-01
+      updated: 2025-01-10-09-08-21
       followers: 919
       likes: 39
       views: 276
@@ -7319,10 +7319,10 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2025-01-03-09-07-59
+      updated: 2025-01-10-09-08-19
       followers: 402
       likes: 60
-      views: 690
+      views: 693
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
@@ -8630,24 +8630,24 @@
       id: DEnUpj_TlTF
       mediaId: '18017017646452657'
       published: 2025-01-09-18-11-11
-      updated: 2025-01-10-08-10-39
+      updated: 2025-01-10-09-08-16
       followers: 1525
-      likes: 75
-      views: 219
+      likes: 76
+      views: 225
     - service: tg
       id: 658
       published: 2025-01-09-18-11-31
-      updated: 2025-01-10-08-10-40
+      updated: 2025-01-10-09-08-17
       followers: 647
       likes: 47
-      views: 170
+      views: 172
     - service: vk
       id: 2036
       published: 2025-01-09-19-01-26
-      updated: 2025-01-10-08-10-39
+      updated: 2025-01-10-09-08-17
       followers: 1051
-      likes: 34
-      views: 167
+      likes: 36
+      views: 175
       reposts: 2
 2018-09-02-camps-of-ashlander-women:
   title: Camps of Ashlander Women
@@ -10711,22 +10711,22 @@
       id: DEkvz2SvxhB
       mediaId: '18048819539167489'
       published: 2025-01-08-18-10-47
-      updated: 2025-01-10-08-10-40
+      updated: 2025-01-10-09-08-17
       followers: 1524
       likes: 88
-      views: 338
+      views: 342
     - service: vk
       id: 2034
       published: 2025-01-08-18-10-54
-      updated: 2025-01-10-08-10-41
+      updated: 2025-01-10-09-08-18
       followers: 1052
       likes: 23
-      views: 205
+      views: 206
       reposts: 1
     - service: tg
       id: 657
       published: 2025-01-08-18-11-01
-      updated: 2025-01-10-08-10-41
+      updated: 2025-01-10-09-08-18
       followers: 646
       likes: 55
       views: 219
