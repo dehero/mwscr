@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`9 items`
+`10 items`
+
+## <span id="2025-01-10-lower-circle">Lower Circle</span>
+
+`RU` Низший круг
+
+<a href="https://instagram.com/p/Bcc7qNpj-6y/" title="2017-12-08-lower-circle"><img alt="store:/shots/2017-12-08-lower-circle.png" src="../../assets/previews/shots/2017-12-08-lower-circle.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-01-10-lower-circle&postLocation=)</code> `🚀 OpenMW` `slave`
+
+```
+2025-01-10-lower-circle
+```
+
+> `2017-12-08-lower-circle`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bcc7qNpj-6y/)       | 2017-12-08 |       |    80 |       249 |  32.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_527)  | 2017-12-08 |   197 |    19 |       108 |  17.59 |
+| [`ig`](https://instagram.com/p/DEp5abVM-CW/)       | 2025-01-10 |       |       |      1525 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2037) | 2025-01-10 |       |       |      1050 |        |
+| [`tg`](https://t.me/mwscr/659)                     | 2025-01-10 |       |       |       647 |        |
+|                                                    |            |       |       |      3222 |  24.86 |
 
 ## <span id="2025-01-09-haze-in-tel-branora">Haze in Tel Branora</span>
 
@@ -29,10 +56,10 @@
 | [`ig`](https://instagram.com/p/BnMZPStF4mh/)       | 2018-09-01 |       |   123 |       407 |  30.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_888)  | 2018-09-01 |   390 |    32 |       219 |  14.61 |
 | [`tg`](https://t.me/mwscr/4)                       | 2018-09-01 |   257 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   273 |    89 |      1525 |   5.84 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   232 |    43 |      1051 |   4.38 |
+| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   279 |    90 |      1525 |    5.9 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   234 |    43 |      1051 |   4.38 |
 | [`tg`](https://t.me/mwscr/658)                     | 2025-01-09 |   186 |    51 |       647 |   7.88 |
-|                                                    |            |   691 |   183 |      3223 |  12.59 |
+|                                                    |            |   699 |   184 |      3223 |   12.6 |
 
 #### Comments
 
@@ -62,10 +89,10 @@
 | [`ig`](https://instagram.com/p/BpL7KjoB6oe/)       | 2018-10-21 |       |    91 |       446 |   20.4 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_997)  | 2018-10-21 |   396 |    22 |       257 |   8.56 |
 | [`tg`](https://t.me/mwscr/88)                      | 2018-10-21 |   232 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DEkvz2SvxhB/)       | 2025-01-08 |   363 |    90 |      1524 |   5.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2034) | 2025-01-08 |   212 |    23 |      1052 |   2.28 |
+| [`ig`](https://instagram.com/p/DEkvz2SvxhB/)       | 2025-01-08 |   364 |    91 |      1524 |   5.97 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2034) | 2025-01-08 |   213 |    24 |      1052 |   2.38 |
 | [`tg`](https://t.me/mwscr/657)                     | 2025-01-08 |   227 |    57 |       646 |   8.82 |
-|                                                    |            |   802 |   170 |      3222 |   9.19 |
+|                                                    |            |   804 |   172 |      3222 |   9.23 |
 
 ## <span id="2025-01-07-caldera-north-west-road">Caldera, North-West Road</span>
 
