@@ -28,16 +28,17 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bcc7qNpj-6y/)       | 2017-12-08 |       |    80 |       249 |  32.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_527)  | 2017-12-08 |   197 |    19 |       108 |  17.59 |
-| [`ig`](https://instagram.com/p/DEp5abVM-CW/)       | 2025-01-10 |   229 |    77 |      1525 |   5.05 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2037) | 2025-01-10 |   121 |    19 |      1050 |   1.81 |
+| [`ig`](https://instagram.com/p/DEp5abVM-CW/)       | 2025-01-10 |   241 |    83 |      1525 |   5.44 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2037) | 2025-01-10 |   126 |    20 |      1050 |    1.9 |
 | [`tg`](https://t.me/mwscr/659)                     | 2025-01-10 |   150 |    44 |       647 |    6.8 |
-|                                                    |            |   500 |   140 |      3222 |  12.68 |
+|                                                    |            |   517 |   147 |      3222 |  12.77 |
 
 #### Comments
 
 - `vk` <ins title="2025-01-10-18-22-15">id872831147</ins> выкупаю их всех, потом отпускаю
 - `ig` <ins title="2025-01-10-23-04-32">non_nobis777</ins> Looks like Caius&#39; Skooma connects finally got tired of him owing them money...
 - `ig` <ins title="2025-01-11-02-45-22">gangtake</ins> Кай уехал не в Имперский город значит…
+- `vk` <ins title="2025-01-11-05-46-05">artyom_melikhoff</ins> Вот куда пропал Кай.
 
 ## <span id="2025-01-09-haze-in-tel-branora">Haze in Tel Branora</span>
 
@@ -62,10 +63,10 @@
 | [`ig`](https://instagram.com/p/BnMZPStF4mh/)       | 2018-09-01 |       |   123 |       407 |  30.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_888)  | 2018-09-01 |   390 |    32 |       219 |  14.61 |
 | [`tg`](https://t.me/mwscr/4)                       | 2018-09-01 |   257 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   304 |    92 |      1525 |   6.03 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   256 |    47 |      1051 |   4.76 |
+| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   305 |    93 |      1525 |    6.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   259 |    47 |      1051 |   4.76 |
 | [`tg`](https://t.me/mwscr/658)                     | 2025-01-09 |   224 |    56 |       647 |   8.66 |
-|                                                    |            |   784 |   195 |      3223 |  12.86 |
+|                                                    |            |   788 |   196 |      3223 |  12.87 |
 
 #### Comments
 
