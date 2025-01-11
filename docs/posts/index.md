@@ -4,7 +4,41 @@
 
 # Posted in 2025
 
-`10 items`
+`11 items`
+
+## <span id="2025-01-11-saint-sotha">Saint Sotha</span>
+
+`RU` Святой Сота
+
+<a href="https://instagram.com/p/BWR75lWDTgv/" title="2017-07-08-saint-sotha"><img alt="store:/shots/2017-07-08-saint-sotha.png" src="../../assets/previews/shots/2017-07-08-saint-sotha.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-01-11-saint-sotha&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil`
+
+```
+2025-01-11-saint-sotha
+```
+
+> `2017-07-08-saint-sotha`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BWR75lWDTgv/)       | 2017-07-08 |       |    70 |       188 |  37.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_346)  | 2017-07-08 |   168 |    10 |        66 |  15.15 |
+| [`ig`](https://instagram.com/p/DEseEMkJV7E/)       | 2025-01-11 |       |       |      1524 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2040) | 2025-01-11 |       |       |      1050 |        |
+| [`tg`](https://t.me/mwscr/660)                     | 2025-01-11 |       |       |       648 |        |
+|                                                    |            |       |       |      3222 |  26.19 |
+
+#### Comments
+
+- `ig` <ins title="2017-07-10-11-12-31">digitalboyare</ins> Вот я трибунал так и не прошёл за все года, этого чела даж не видел)
+  - <ins title="2017-07-10-12-12-55">mwscr</ins> @imctlst Если не видеть мёртвого Сота Сила - сохраняется надежда, что он всё ещё жив :-)
+- `vk` <ins title="2017-07-24-15-03-28">petrushkachord</ins> Помянем Сила
+- `ig` <ins title="2018-08-12-01-15-17">asbaccan</ins> Rip
 
 ## <span id="2025-01-10-lower-circle">Lower Circle</span>
 
@@ -28,10 +62,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bcc7qNpj-6y/)       | 2017-12-08 |       |    80 |       249 |  32.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_527)  | 2017-12-08 |   197 |    19 |       108 |  17.59 |
-| [`ig`](https://instagram.com/p/DEp5abVM-CW/)       | 2025-01-10 |   368 |   109 |      1525 |   7.15 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2037) | 2025-01-10 |   182 |    29 |      1050 |   2.76 |
-| [`tg`](https://t.me/mwscr/659)                     | 2025-01-10 |   181 |    49 |       647 |   7.57 |
-|                                                    |            |   731 |   187 |      3222 |  13.44 |
+| [`ig`](https://instagram.com/p/DEp5abVM-CW/)       | 2025-01-10 |   386 |   112 |      1525 |   7.34 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2037) | 2025-01-10 |   184 |    29 |      1050 |   2.76 |
+| [`tg`](https://t.me/mwscr/659)                     | 2025-01-10 |   185 |    49 |       647 |   7.57 |
+|                                                    |            |   755 |   190 |      3222 |  13.48 |
 
 #### Comments
 
@@ -63,10 +97,10 @@
 | [`ig`](https://instagram.com/p/BnMZPStF4mh/)       | 2018-09-01 |       |   123 |       407 |  30.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_888)  | 2018-09-01 |   390 |    32 |       219 |  14.61 |
 | [`tg`](https://t.me/mwscr/4)                       | 2018-09-01 |   257 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   321 |    98 |      1525 |   6.43 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   281 |    48 |      1051 |   4.85 |
+| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   326 |    98 |      1525 |   6.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   283 |    48 |      1051 |   4.85 |
 | [`tg`](https://t.me/mwscr/658)                     | 2025-01-09 |   236 |    57 |       647 |   8.81 |
-|                                                    |            |   838 |   203 |      3223 |  12.98 |
+|                                                    |            |   845 |   203 |      3223 |  12.98 |
 
 #### Comments
 
