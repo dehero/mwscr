@@ -3686,10 +3686,10 @@
     - service: vk
       id: 1855
       published: 2024-10-25-18-10-15
-      updated: 2025-01-04-05-07-20
+      updated: 2025-01-11-05-07-26
       followers: 997
       likes: 41
-      views: 302
+      views: 303
       reposts: 1
       comments: !c |-
         G9QBgCwKbGOzhuhJv0vFoSZyr8ka/09/MdI3/lv0MNMSTBJPzgVdVbcLLW8EAkGCAkdSHpZv29cJ
@@ -3700,10 +3700,10 @@
     - service: tg
       id: 575
       published: 2024-10-25-18-10-23
-      updated: 2025-01-04-05-07-21
+      updated: 2025-01-11-05-07-25
       followers: 563
       likes: 60
-      views: 565
+      views: 567
 2018-04-12-mushroom-stairs:
   title: Mushroom Stairs
   titleRu: Грибная лестница
@@ -8630,24 +8630,24 @@
       id: DEnUpj_TlTF
       mediaId: '18017017646452657'
       published: 2025-01-09-18-11-11
-      updated: 2025-01-11-04-09-26
+      updated: 2025-01-11-05-07-24
       followers: 1525
       likes: 92
-      views: 301
+      views: 304
     - service: tg
       id: 658
       published: 2025-01-09-18-11-31
-      updated: 2025-01-11-04-09-26
+      updated: 2025-01-11-05-07-25
       followers: 647
       likes: 56
-      views: 222
+      views: 224
     - service: vk
       id: 2036
       published: 2025-01-09-19-01-26
-      updated: 2025-01-11-04-09-26
+      updated: 2025-01-11-05-07-25
       followers: 1051
       likes: 47
-      views: 255
+      views: 256
       reposts: 3
 2018-09-02-camps-of-ashlander-women:
   title: Camps of Ashlander Women
@@ -11271,10 +11271,10 @@
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2025-01-04-05-07-22
+      updated: 2025-01-11-05-07-27
       followers: 961
       likes: 31
-      views: 330
+      views: 331
     - service: tg
       id: 561
       published: 2024-10-11-18-10-00

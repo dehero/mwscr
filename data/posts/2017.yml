@@ -4166,10 +4166,10 @@
     - service: tg
       id: 568
       published: 2024-10-18-18-10-48
-      updated: 2025-01-04-05-07-21
+      updated: 2025-01-11-05-07-26
       followers: 561
       likes: 68
-      views: 618
+      views: 621
       comments: !c Cw6AkZPLQnkqSlCGAACtTG9mdHlkZWx1c2lvbqN3b3cD
     - service: vk
       id: 1842
@@ -12498,10 +12498,10 @@
       id: DEp5abVM-CW
       mediaId: '17910191286069182'
       published: 2025-01-10-18-10-54
-      updated: 2025-01-11-04-09-25
+      updated: 2025-01-11-05-07-23
       followers: 1525
-      likes: 76
-      views: 219
+      likes: 77
+      views: 229
       comments: !c |-
         G8MAQByHsdtkaD4uLWxEy6c/NRbRZwFZ57kIjzVEE5GkrUB9vo/Rvm37e3zOrYjji9BtSyBkBbXL
         lNkdnZzowfw7yDWjXGvJmXIbO19RDCToNG77C1ZLlYckHbFbxQTJhQwmG0JZwpi81f6HC3Q+fpZg
@@ -12510,20 +12510,20 @@
     - service: vk
       id: 2037
       published: 2025-01-10-18-11-02
-      updated: 2025-01-11-04-09-25
+      updated: 2025-01-11-05-07-23
       followers: 1050
-      likes: 18
-      views: 120
+      likes: 19
+      views: 121
       comments: !c |-
         G1EA+OV/zjWx6UA7yRpw1rS+E4yiqOf5P14PIgswJmkGdDiHJeu8fDmZT+r3nFilgSQyEkvTnPiX
         4YgtXLCCJ+xxoOCEzeRIKviJFRZwEQ==
     - service: tg
       id: 659
       published: 2025-01-10-18-11-10
-      updated: 2025-01-11-04-09-25
+      updated: 2025-01-11-05-07-24
       followers: 647
       likes: 44
-      views: 144
+      views: 150
 2017-12-09-berth-near-grotto:
   title: Berth Near Grotto
   titleRu: Причал у грота
