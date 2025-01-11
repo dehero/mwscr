@@ -209,17 +209,17 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2025-01-03-23-07-56
+      updated: 2025-01-11-00-36-36
       followers: 893
       likes: 35
       views: 261
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2025-01-03-23-07-51
+      updated: 2025-01-11-00-36-34
       followers: 345
       likes: 58
-      views: 557
+      views: 560
 2024-03-08-a-bridge-to-ascadian-isles:
   title: A Bridge to Ascadian Isles
   titleRu: Мост к Аскадианским островам
@@ -574,7 +574,7 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2025-01-03-23-07-55
+      updated: 2025-01-11-00-36-35
       followers: 896
       likes: 42
       views: 301
@@ -585,7 +585,7 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2025-01-03-23-07-50
+      updated: 2025-01-11-00-36-32
       followers: 352
       likes: 58
       views: 473
@@ -881,7 +881,7 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2025-01-03-23-07-53
+      updated: 2025-01-11-00-36-33
       followers: 906
       likes: 51
       views: 440
@@ -889,10 +889,10 @@
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2025-01-03-23-07-49
+      updated: 2025-01-11-00-36-31
       followers: 354
       likes: 62
-      views: 479
+      views: 480
 2024-04-05-rain-of-sparks: 2017-09-29-rain-of-sparks
 2024-04-06-falling-towers:
   title: Falling Towers
@@ -1084,17 +1084,17 @@
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2025-01-03-23-07-52
+      updated: 2025-01-11-00-36-32
       followers: 911
       likes: 27
       views: 233
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2025-01-03-23-07-48
+      updated: 2025-01-11-00-36-31
       followers: 352
       likes: 67
-      views: 1111
+      views: 1112
 2024-04-12-sadrith-mora-gateway-inn: 2017-01-19-sadrith-mora-gateway-inn
 2024-04-13-manwe:
   title: Manwe
@@ -2974,17 +2974,17 @@
     - service: tg
       id: 617
       published: 2024-12-06-18-11-36
-      updated: 2025-01-03-23-07-43
+      updated: 2025-01-11-00-36-25
       followers: 578
       likes: 56
-      views: 434
+      views: 443
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2025-01-03-23-07-44
+      updated: 2025-01-11-00-36-25
       followers: 1013
-      likes: 40
-      views: 363
+      likes: 42
+      views: 370
       reposts: 3
 2024-12-07-farm-watchman:
   title: Farm Watchman
