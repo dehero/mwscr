@@ -1704,17 +1704,17 @@
     - service: vk
       id: 1528
       published: 2024-05-10-18-18-43
-      updated: 2025-01-04-18-09-24
+      updated: 2025-01-11-19-01-25
       followers: 913
       likes: 26
       views: 240
     - service: tg
       id: 404
       published: 2024-05-10-18-18-49
-      updated: 2025-01-04-18-09-23
+      updated: 2025-01-11-19-01-22
       followers: 371
       likes: 63
-      views: 491
+      views: 493
       comments: !c ixmAkZTLQnj2PdPrgACremhlY2hrYV9kcnak8J+YrZPLQnj2QKVbAACpR2F0ZW1hdGU3o3VzPwM=
 2024-05-11-guard-tower-of-suran: 2017-08-31-guard-tower-of-suran
 2024-05-12-road-to-the-well:
@@ -1826,7 +1826,7 @@
     - service: vk
       id: 1535
       published: 2024-05-17-18-19-43
-      updated: 2025-01-04-18-09-23
+      updated: 2025-01-11-19-01-24
       followers: 915
       likes: 24
       views: 330
@@ -1836,10 +1836,10 @@
     - service: tg
       id: 411
       published: 2024-05-17-18-19-48
-      updated: 2025-01-04-18-09-23
+      updated: 2025-01-11-19-01-21
       followers: 372
       likes: 51
-      views: 437
+      views: 438
       comments: !c |-
         G8oAIBwHuZnlPm4xQkFqTf7HqSHMxROwNYQjnk1jt6VNm9YGmu8DF1vw+ObaUr1PNqstyoFDhmyD
         bYKGFPf0NMCygLgCSVpa7fCD3v0G1xu2458oWuGQj53uU/uGv1XILLVIrVP9GQ59CrGmCGdsKceB
@@ -1964,7 +1964,7 @@
     - service: vk
       id: 1556
       published: 2024-05-31-18-19-13
-      updated: 2025-01-04-18-09-23
+      updated: 2025-01-11-19-01-23
       followers: 915
       likes: 45
       views: 296
@@ -1979,10 +1979,10 @@
     - service: tg
       id: 425
       published: 2024-05-31-18-19-20
-      updated: 2025-01-04-18-09-22
+      updated: 2025-01-11-19-01-21
       followers: 379
       likes: 64
-      views: 472
+      views: 474
 2024-06-01-visiting-imperial-fort:
   title: Visiting Imperial Fort
   titleRu: Посещение имперского форта
