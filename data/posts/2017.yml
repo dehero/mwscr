@@ -12498,30 +12498,32 @@
       id: DEp5abVM-CW
       mediaId: '17910191286069182'
       published: 2025-01-10-18-10-54
-      updated: 2025-01-11-02-09-58
+      updated: 2025-01-11-03-13-37
       followers: 1525
-      likes: 65
-      views: 195
+      likes: 72
+      views: 209
       comments: !c |-
-        izOAkZPLQnlFJ2TAAACsbm9uX25vYmlzNzc32U5Mb29rcyBsaWtlIENhaXVzJyBTa29vbWEgY29u
-        bmVjdHMgZmluYWxseSBnb3QgdGlyZWQgb2YgaGltIG93aW5nIHRoZW0gbW9uZXkuLi4D
+        G8MAQByHsdtkaD4uLWxEy6c/NRbRZwFZ57kIjzVEE5GkrUB9vo/Rvm37e3zOrYjji9BtSyBkBbXL
+        lNkdnZzowfw7yDWjXGvJmXIbO19RDCToNG77C1ZLlYckHbFbxQTJhQwmG0JZwpi81f6HC3Q+fpZg
+        ITzc7MLfZqz+PNGhBM/tUdWVXdVe2huGcdFeiKk9TDcdewXmdV26ME1njmlcDxjSLgxQhyQtUZ9W
+        MZTx6zkG
     - service: vk
       id: 2037
       published: 2025-01-10-18-11-02
-      updated: 2025-01-11-02-09-59
+      updated: 2025-01-11-03-13-37
       followers: 1050
       likes: 16
-      views: 115
+      views: 116
       comments: !c |-
         G1EA+OV/zjWx6UA7yRpw1rS+E4yiqOf5P14PIgswJmkGdDiHJeu8fDmZT+r3nFilgSQyEkvTnPiX
         4YgtXLCCJ+xxoOCEzeRIKviJFRZwEQ==
     - service: tg
       id: 659
       published: 2025-01-10-18-11-10
-      updated: 2025-01-11-02-09-58
+      updated: 2025-01-11-03-13-38
       followers: 647
-      likes: 42
-      views: 134
+      likes: 44
+      views: 140
 2017-12-09-berth-near-grotto:
   title: Berth Near Grotto
   titleRu: Причал у грота
