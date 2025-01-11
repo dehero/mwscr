@@ -2237,18 +2237,18 @@
     - service: vk
       id: 1979
       published: 2024-12-21-18-09-23
-      updated: 2025-01-04-20-07-41
+      updated: 2025-01-11-20-07-52
       followers: 1026
-      likes: 42
-      views: 301
-      reposts: 2
+      likes: 45
+      views: 309
+      reposts: 3
     - service: tg
       id: 632
       published: 2024-12-21-18-09-32
-      updated: 2025-01-04-20-07-40
+      updated: 2025-01-11-20-07-50
       followers: 584
-      likes: 62
-      views: 565
+      likes: 63
+      views: 603
       comments: !c iwyAkZPLQnk+pqKHAACnZG1lcGlraKbQktCw0YMD
 2017-02-28-army-of-stone:
   title: Army of Stone
@@ -7196,25 +7196,25 @@
       id: DEseEMkJV7E
       mediaId: '17878492290233748'
       published: 2025-01-11-18-09-39
-      updated: 2025-01-11-19-01-17
+      updated: 2025-01-11-20-07-44
       followers: 1524
-      likes: 33
-      views: 74
+      likes: 46
+      views: 98
     - service: vk
       id: 2040
       published: 2025-01-11-18-09-47
-      updated: 2025-01-11-19-01-17
+      updated: 2025-01-11-20-07-44
       followers: 1050
-      likes: 7
-      views: 46
+      likes: 9
+      views: 72
       reposts: 1
     - service: tg
       id: 660
       published: 2025-01-11-18-09-56
-      updated: 2025-01-11-19-01-18
+      updated: 2025-01-11-20-07-45
       followers: 648
-      likes: 16
-      views: 70
+      likes: 23
+      views: 96
 2017-07-09-near-mining-company-office:
   title: Near Mining Company Office
   titleRu: У офиса Горнодобывающей Компании
@@ -9607,10 +9607,10 @@
       id: DEfmNjaz7er
       mediaId: '18059335300902048'
       published: 2025-01-06-18-10-43
-      updated: 2025-01-10-19-01-28
+      updated: 2025-01-11-20-07-49
       followers: 1523
-      likes: 92
-      views: 352
+      likes: 93
+      views: 365
       comments: !c |-
         G3oAYIzTHbGYg5/W/537hGd7E4oCH97dOkUDdBQtNqoCDPWA2/UtpWlx/lTzGDsXJdPi2Xa32Ejv
         PwJcgZPlOLcLKzOs1LBw7kThpkUFkxoIhyh99QJ8eAQm4uMKc2LgPDvrDA7Wp2VzHXd/bIAhqDKa
@@ -9618,20 +9618,21 @@
     - service: vk
       id: 2026
       published: 2025-01-06-18-10-49
-      updated: 2025-01-10-19-01-27
+      updated: 2025-01-11-20-07-48
       followers: 1048
-      likes: 33
-      views: 254
+      likes: 36
+      views: 276
+      reposts: 1
       comments: !c |-
         G4EA+J0JvAnrMji1L5ZQPE/eRjjiiJPEtkFSwS7BLqLkfbJ0cyUlMdRdkA/3z8yRyW4PHKI8KUpI
         NBUI/+zm/S1HnKU826oqvHkzsFqmDE7LUR2dlunmqOlWZ0egnD73LjxIN5jGymDl9AxQSPw5Lw==
     - service: tg
       id: 655
       published: 2025-01-06-18-10-56
-      updated: 2025-01-10-19-01-26
+      updated: 2025-01-11-20-07-48
       followers: 645
       likes: 63
-      views: 317
+      views: 331
 2017-09-17-night-square:
   title: Night Square
   titleRu: Ночная площадь
@@ -11020,18 +11021,18 @@
       id: DEiLC17uOow
       mediaId: '18081052477524929'
       published: 2025-01-07-18-11-04
-      updated: 2025-01-10-19-01-26
+      updated: 2025-01-11-20-07-47
       followers: 1524
       likes: 108
-      views: 333
+      views: 343
       comments: !c CxiAkZPLQnlEKOv5gACpaXN0c2llbGl6u09uZSBvZiB0aGUgbmljZXN0IHRvd25zIOKcqAM=
     - service: vk
       id: 2028
       published: 2025-01-07-18-11-12
-      updated: 2025-01-10-19-01-26
+      updated: 2025-01-11-20-07-47
       followers: 1049
-      likes: 45
-      views: 296
+      likes: 47
+      views: 313
       reposts: 4
       comments: !c |-
         G5UDQCwPbLcJBLprx+HWndCTiP+nv+f3OaGjzbx/Zz7EkWeJBVwCQZEla4umn/t5X0g9ZQgUkFwK
@@ -11046,10 +11047,10 @@
     - service: tg
       id: 656
       published: 2025-01-07-18-11-21
-      updated: 2025-01-10-19-01-25
+      updated: 2025-01-11-20-07-47
       followers: 646
       likes: 70
-      views: 279
+      views: 320
       comments: !c iw+AkZPLQnlEWvPWAACvQWxleGV5IFN0ZXBhbm92pPCfmI0D
 2017-10-29-wilted-littoral:
   title: Wilted Littoral
@@ -12521,10 +12522,10 @@
       id: DEp5abVM-CW
       mediaId: '17910191286069182'
       published: 2025-01-10-18-10-54
-      updated: 2025-01-11-19-01-18
+      updated: 2025-01-11-20-07-45
       followers: 1525
-      likes: 113
-      views: 404
+      likes: 117
+      views: 417
       comments: !c |-
         G8MAQByHsdtkaD4uLWxEy6c/NRbRZwFZ57kIjzVEE5GkrUB9vo/Rvm37e3zOrYjji9BtSyBkBbXL
         lNkdnZzowfw7yDWjXGvJmXIbO19RDCToNG77C1ZLlYckHbFbxQTJhQwmG0JZwpi81f6HC3Q+fpZg
@@ -12533,10 +12534,10 @@
     - service: vk
       id: 2037
       published: 2025-01-10-18-11-02
-      updated: 2025-01-11-19-01-19
+      updated: 2025-01-11-20-07-46
       followers: 1050
-      likes: 29
-      views: 187
+      likes: 30
+      views: 189
       comments: !c |-
         G5IAsB0HdqNXTRD2ahvB3UKKXYQPFHqYWMAlmCSe7PRkJWqJkIKSPhO42QfPmQyk/2uJRhUmlVM7
         5UQD88AyawtiD/TAhw04kBhD2wbbf93ni4Ni/qvdafMc4jGEhPsFlQ0zE+Qsk/XWURGTpcwZEXI6
@@ -12544,10 +12545,10 @@
     - service: tg
       id: 659
       published: 2025-01-10-18-11-10
-      updated: 2025-01-11-19-01-18
+      updated: 2025-01-11-20-07-46
       followers: 647
       likes: 49
-      views: 194
+      views: 196
 2017-12-09-berth-near-grotto:
   title: Berth Near Grotto
   titleRu: Причал у грота
