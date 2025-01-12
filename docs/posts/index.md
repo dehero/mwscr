@@ -4,7 +4,36 @@
 
 # Posted in 2025
 
-`11 items`
+`12 items`
+
+## <span id="2025-01-12-towers-of-mzanchend">Towers of Mzanchend</span>
+
+`RU` Башни Мзанченда
+
+<a href="https://instagram.com/p/BxbzcNSh63K/" title="2019-05-14-towers-of-mzanchend"><img alt="store:/drawings/2019-05-14-towers-of-mzanchend.png" src="../../assets/previews/drawings/2019-05-14-towers-of-mzanchend.avif" /></a>
+<a href="https://instagram.com/p/BxbzcNSh63K/" title="2019-04-02-towers-of-mzanchend"><img alt="store:/shots/2019-04-02-towers-of-mzanchend.png" src="../../assets/previews/shots/2019-04-02-towers-of-mzanchend.avif" /></a>
+
+`redrawing` by [Knives Out](../contributors.md#knives-out), [dehero](../contributors.md#dehero)
+
+`A2` `📍 Mzanchend` `🚀 OpenMW` `dwemer` `tower`
+
+```
+2025-01-12-towers-of-mzanchend
+```
+
+> `2019-05-14-towers-of-mzanchend-by-knives-out`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BxbzcNSh63K/)       | 2019-05-14 |       |   159 |       802 |  19.83 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1169) | 2019-05-14 |   772 |    44 |       350 |  12.57 |
+| [`tg`](https://t.me/mwscr/179,180,181)             | 2019-05-14 |   721 |     2 |           |        |
+| [`ig`](https://instagram.com/p/DEvC4deuAgT/)       | 2025-01-12 |       |       |      1526 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2050) | 2025-01-12 |       |       |      1052 |        |
+| [`tg`](https://t.me/mwscr/661,662)                 | 2025-01-12 |       |       |       648 |        |
+|                                                    |            |       |       |      3226 |   16.2 |
 
 ## <span id="2025-01-11-saint-sotha">Saint Sotha</span>
 
@@ -28,10 +57,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWR75lWDTgv/)       | 2017-07-08 |       |    70 |       188 |  37.23 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_346)  | 2017-07-08 |   168 |    10 |        66 |  15.15 |
-| [`ig`](https://instagram.com/p/DEseEMkJV7E/)       | 2025-01-11 |   278 |   108 |      1524 |   7.09 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2040) | 2025-01-11 |   185 |    24 |      1050 |   2.38 |
-| [`tg`](https://t.me/mwscr/660)                     | 2025-01-11 |   194 |    40 |       648 |   6.17 |
-|                                                    |            |   657 |   172 |      3222 |  13.61 |
+| [`ig`](https://instagram.com/p/DEseEMkJV7E/)       | 2025-01-11 |   284 |   112 |      1524 |   7.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2040) | 2025-01-11 |   189 |    24 |      1050 |   2.38 |
+| [`tg`](https://t.me/mwscr/660)                     | 2025-01-11 |   197 |    40 |       648 |   6.17 |
+|                                                    |            |   670 |   176 |      3222 |  13.66 |
 
 #### Comments
 
@@ -42,6 +71,7 @@
 - `tg` <ins title="2025-01-11-22-42-46">Untergrundbahn</ins> Много играл в морру, но так и не прошёл
 - `tg` <ins title="2025-01-11-23-12-21">Havoke</ins> 
 - `ig` <ins title="2025-01-11-23-51-57">ryanthebronson</ins> RIP I do not forgive you for that Red Mountain debacle but you deserved better than this:(
+- `ig` <ins title="2025-01-12-17-39-53">life_is_a_beach00</ins> Best twist in history 🙏✋️✋️
 
 ## <span id="2025-01-10-lower-circle">Lower Circle</span>
 
@@ -65,10 +95,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bcc7qNpj-6y/)       | 2017-12-08 |       |    80 |       249 |  32.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_527)  | 2017-12-08 |   197 |    19 |       108 |  17.59 |
-| [`ig`](https://instagram.com/p/DEp5abVM-CW/)       | 2025-01-10 |   531 |   126 |      1525 |   8.26 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2037) | 2025-01-10 |   223 |    32 |      1050 |   3.05 |
-| [`tg`](https://t.me/mwscr/659)                     | 2025-01-10 |   227 |    52 |       647 |   8.04 |
-|                                                    |            |   981 |   210 |      3222 |  13.81 |
+| [`ig`](https://instagram.com/p/DEp5abVM-CW/)       | 2025-01-10 |   536 |   128 |      1525 |   8.39 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2037) | 2025-01-10 |   226 |    32 |      1050 |   3.05 |
+| [`tg`](https://t.me/mwscr/659)                     | 2025-01-10 |   228 |    52 |       647 |   8.04 |
+|                                                    |            |   990 |   212 |      3222 |  13.84 |
 
 #### Comments
 
@@ -77,6 +107,8 @@
   - <ins title="2025-01-12-09-40-13">id872831147</ins> Sergey, я бабло на дреморах быстрее делаю, чем они рабов ловят)
   - <ins title="2025-01-12-11-06-12">id820702664</ins> Mister, я тоже, уже пол-ляма золота, не знаю куды деть его. <br>На убеждения данмеров и прочих хаджитов  трачу по тысяче золотых, не жалко!
   - <ins title="2025-01-12-11-27-48">id872831147</ins> Arya, вот бы в жизни так😌 попутешествовал с комфортом по многим странам, а бабла дофига осталось
+  - <ins title="2025-01-12-17-02-22">id889222999</ins> Mister, обмен даэдрической арматуры на мясо ))
+  - <ins title="2025-01-12-17-03-42">id889222999</ins> Mister, тогда бы здесь в игре играли за бомжей ))
 - `ig` <ins title="2025-01-10-23-04-32">non_nobis777</ins> Looks like Caius&#39; Skooma connects finally got tired of him owing them money...
 - `ig` <ins title="2025-01-11-02-45-22">gangtake</ins> Кай уехал не в Имперский город значит…
 - `vk` <ins title="2025-01-11-05-46-05">artyom_melikhoff</ins> Вот куда пропал Кай.
@@ -108,8 +140,8 @@
 | [`tg`](https://t.me/mwscr/4)                       | 2018-09-01 |   257 |     4 |           |        |
 | [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   326 |    98 |      1525 |   6.43 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   283 |    48 |      1051 |   4.85 |
-| [`tg`](https://t.me/mwscr/658)                     | 2025-01-09 |   236 |    57 |       647 |   8.81 |
-|                                                    |            |   845 |   203 |      3223 |  12.98 |
+| [`tg`](https://t.me/mwscr/658)                     | 2025-01-09 |   255 |    58 |       647 |   8.96 |
+|                                                    |            |   864 |   204 |      3223 |  13.02 |
 
 #### Comments
 
