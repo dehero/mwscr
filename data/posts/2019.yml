@@ -1374,17 +1374,27 @@
       id: DEvC4deuAgT
       mediaId: '17896461711134669'
       published: 2025-01-12-18-09-51
+      updated: 2025-01-12-19-01-26
       followers: 1526
+      likes: 31
+      views: 49
     - service: vk
       id: 2050
       published: 2025-01-12-18-10-03
+      updated: 2025-01-12-19-01-27
       followers: 1052
+      likes: 13
+      views: 57
+      reposts: 1
     - service: tg
       id:
         - 661
         - 662
       published: 2025-01-12-18-10-23
+      updated: 2025-01-12-19-01-27
       followers: 648
+      likes: 25
+      views: 81
 2019-05-15-urshilaku-camp:
   title: Urshilaku Camp
   titleRu: Лагерь Уршилаку
