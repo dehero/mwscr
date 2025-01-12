@@ -7196,28 +7196,28 @@
       id: DEseEMkJV7E
       mediaId: '17878492290233748'
       published: 2025-01-11-18-09-39
-      updated: 2025-01-12-07-06-09
+      updated: 2025-01-12-08-09-19
       followers: 1524
-      likes: 91
-      views: 230
+      likes: 93
+      views: 235
       comments: !c |-
         G3UASI2UqO14Rp6G8DHAwaTTesHamBOwJDVvUkwug0MO2A/Y4ohjzzjYgENIs/n109t8UffHTb52
         cco+Dty2Kruq/G1pWjDhVyirHmHVRskYYKkGhLMeGfiH8vID1/HyAO7Qg/0gV9cjfjEK
     - service: vk
       id: 2040
       published: 2025-01-11-18-09-47
-      updated: 2025-01-12-07-06-09
+      updated: 2025-01-12-08-09-20
       followers: 1050
-      likes: 18
-      views: 139
+      likes: 20
+      views: 148
       reposts: 1
     - service: tg
       id: 660
       published: 2025-01-11-18-09-56
-      updated: 2025-01-12-07-06-10
+      updated: 2025-01-12-08-09-20
       followers: 648
       likes: 37
-      views: 164
+      views: 166
       comments: !c |-
         CzmAkpPLQnlFej0AgACmSGF2b2tloJPLQnlFeIunAACuVW50ZXJncnVuZGJhaG7ZRdCc0L3QvtCz
         0L4g0LjQs9GA0LDQuyDQsiDQvNC+0YDRgNGDLCDQvdC+INGC0LDQuiDQuCDQvdC1INC/0YDQvtGI
@@ -12529,10 +12529,10 @@
       id: DEp5abVM-CW
       mediaId: '17910191286069182'
       published: 2025-01-10-18-10-54
-      updated: 2025-01-12-07-06-10
+      updated: 2025-01-12-08-09-20
       followers: 1525
       likes: 125
-      views: 492
+      views: 499
       comments: !c |-
         G8MAQByHsdtkaD4uLWxEy6c/NRbRZwFZ57kIjzVEE5GkrUB9vo/Rvm37e3zOrYjji9BtSyBkBbXL
         lNkdnZzowfw7yDWjXGvJmXIbO19RDCToNG77C1ZLlYckHbFbxQTJhQwmG0JZwpi81f6HC3Q+fpZg
@@ -12541,21 +12541,23 @@
     - service: vk
       id: 2037
       published: 2025-01-10-18-11-02
-      updated: 2025-01-12-07-06-10
+      updated: 2025-01-12-08-09-21
       followers: 1050
       likes: 30
-      views: 202
+      views: 204
       comments: !c |-
-        G5IAsB0HdqNXTRD2ahvB3UKKXYQPFHqYWMAlmCSe7PRkJWqJkIKSPhO42QfPmQyk/2uJRhUmlVM7
-        5UQD88AyawtiD/TAhw04kBhD2wbbf93ni4Ni/qvdafMc4jGEhPsFlQ0zE+Qsk/XWURGTpcwZEXI6
-        Qr0ub5T1kCVa4sRB5Geu+4N+B2bWMPGcwJVE2wE=
+        G3gBKKwOeDOWJwkGc9MdzGkG8wimaaLn4YYRfg0KPQysLOBtYpOJT+6Z7YwTiHMdJ/T9DdZWe3Wb
+        LViKVdCWDfHbivBzeQxWE/V6a9mm/Gz/W6FgDGMoQorPCx/Lp6cBBoGEmmlbwBG0c4LXk37tkh4o
+        Pdk6QRaenm3YJJ96ff7zXuZ/lu+ZmJAdgCcdmMtEUO58U3BTa6tflYKE8o2lx3YWDJBSj3ZfPnYA
+        mUFF8DWCstduvnASL0ZltogS4BlzQKNMdCs1q+HDwp/fcd5fM848Wq+rFO2HwSITN26CaIO78wjr
+        aq/Nslh5/0QbJiM6RECIRegNDlMFz1JZAg==
     - service: tg
       id: 659
       published: 2025-01-10-18-11-10
-      updated: 2025-01-12-07-06-11
+      updated: 2025-01-12-08-09-21
       followers: 647
       likes: 51
-      views: 216
+      views: 217
 2017-12-09-berth-near-grotto:
   title: Berth Near Grotto
   titleRu: Причал у грота
