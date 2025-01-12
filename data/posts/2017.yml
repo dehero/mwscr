@@ -7196,28 +7196,32 @@
       id: DEseEMkJV7E
       mediaId: '17878492290233748'
       published: 2025-01-11-18-09-39
-      updated: 2025-01-11-23-04-42
+      updated: 2025-01-12-00-40-19
       followers: 1524
-      likes: 64
-      views: 161
+      likes: 71
+      views: 182
+      comments: !c |-
+        G3UASI2UqO14Rp6G8DHAwaTTesHamBOwJDVvUkwug0MO2A/Y4ohjzzjYgENIs/n109t8UffHTb52
+        cco+Dty2Kruq/G1pWjDhVyirHmHVRskYYKkGhLMeGfiH8vID1/HyAO7Qg/0gV9cjfjEK
     - service: vk
       id: 2040
       published: 2025-01-11-18-09-47
-      updated: 2025-01-11-23-04-43
+      updated: 2025-01-12-00-40-19
       followers: 1050
       likes: 15
-      views: 107
+      views: 112
       reposts: 1
     - service: tg
       id: 660
       published: 2025-01-11-18-09-56
-      updated: 2025-01-11-23-04-43
+      updated: 2025-01-12-00-40-19
       followers: 648
-      likes: 28
-      views: 125
+      likes: 32
+      views: 140
       comments: !c |-
-        G2AA+I2UbsI8+H5uS/HoK0lYCoqgaUEQtH2wCKZhCTZTsbyLgm6spGIJ4hEO+rUq+QzEkuSHoZuy
-        3V+3l+16UnojtkzLWsehn+tfKAIIhJGD5sSIB4fDRxYB3oJFWG19TjcO
+        CzmAkpPLQnlFej0AgACmSGF2b2tloJPLQnlFeIunAACuVW50ZXJncnVuZGJhaG7ZRdCc0L3QvtCz
+        0L4g0LjQs9GA0LDQuyDQsiDQvNC+0YDRgNGDLCDQvdC+INGC0LDQuiDQuCDQvdC1INC/0YDQvtGI
+        0ZHQuwM=
 2017-07-09-near-mining-company-office:
   title: Near Mining Company Office
   titleRu: У офиса Горнодобывающей Компании
@@ -12525,10 +12529,10 @@
       id: DEp5abVM-CW
       mediaId: '17910191286069182'
       published: 2025-01-10-18-10-54
-      updated: 2025-01-11-23-04-43
+      updated: 2025-01-12-00-40-21
       followers: 1525
-      likes: 119
-      views: 449
+      likes: 122
+      views: 462
       comments: !c |-
         G8MAQByHsdtkaD4uLWxEy6c/NRbRZwFZ57kIjzVEE5GkrUB9vo/Rvm37e3zOrYjji9BtSyBkBbXL
         lNkdnZzowfw7yDWjXGvJmXIbO19RDCToNG77C1ZLlYckHbFbxQTJhQwmG0JZwpi81f6HC3Q+fpZg
@@ -12537,10 +12541,10 @@
     - service: vk
       id: 2037
       published: 2025-01-10-18-11-02
-      updated: 2025-01-11-23-04-44
+      updated: 2025-01-12-00-40-20
       followers: 1050
       likes: 30
-      views: 194
+      views: 196
       comments: !c |-
         G5IAsB0HdqNXTRD2ahvB3UKKXYQPFHqYWMAlmCSe7PRkJWqJkIKSPhO42QfPmQyk/2uJRhUmlVM7
         5UQD88AyawtiD/TAhw04kBhD2wbbf93ni4Ni/qvdafMc4jGEhPsFlQ0zE+Qsk/XWURGTpcwZEXI6
@@ -12548,10 +12552,10 @@
     - service: tg
       id: 659
       published: 2025-01-10-18-11-10
-      updated: 2025-01-11-23-04-44
+      updated: 2025-01-12-00-40-20
       followers: 647
       likes: 49
-      views: 201
+      views: 204
 2017-12-09-berth-near-grotto:
   title: Berth Near Grotto
   titleRu: Причал у грота
