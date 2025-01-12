@@ -4538,18 +4538,18 @@
     - service: vk
       id: 1928
       published: 2024-12-01-18-09-48
-      updated: 2025-01-05-23-02-22
+      updated: 2025-01-12-23-03-50
       followers: 1012
-      likes: 46
-      views: 377
+      likes: 48
+      views: 382
       reposts: 4
     - service: tg
       id: 612
       published: 2024-12-01-18-09-57
-      updated: 2025-01-05-23-02-21
+      updated: 2025-01-12-23-03-48
       followers: 576
       likes: 65
-      views: 597
+      views: 604
     - service: ig
       id: DDGK86wO8YJ
       mediaId: '18296802376229812'
@@ -7068,11 +7068,11 @@
     - service: vk
       id: 1983
       published: 2024-12-22-18-09-04
-      updated: 2025-01-05-22-02-59
+      updated: 2025-01-12-23-03-47
       followers: 1026
-      likes: 52
-      views: 398
-      reposts: 4
+      likes: 54
+      views: 405
+      reposts: 5
     - service: tg
       id: 633
       published: 2024-12-22-18-09-11
