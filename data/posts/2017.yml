@@ -1969,7 +1969,7 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2025-01-05-15-02-09
+      updated: 2025-01-12-17-02-01
       followers: 916
       likes: 53
       views: 428
@@ -6447,7 +6447,7 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2025-01-05-15-02-08
+      updated: 2025-01-12-17-02-00
       followers: 920
       likes: 38
       views: 294
@@ -7196,28 +7196,28 @@
       id: DEseEMkJV7E
       mediaId: '17878492290233748'
       published: 2025-01-11-18-09-39
-      updated: 2025-01-12-16-07-37
+      updated: 2025-01-12-17-01-57
       followers: 1524
-      likes: 107
-      views: 272
+      likes: 108
+      views: 278
       comments: !c |-
         G3UASI2UqO14Rp6G8DHAwaTTesHamBOwJDVvUkwug0MO2A/Y4ohjzzjYgENIs/n109t8UffHTb52
         cco+Dty2Kruq/G1pWjDhVyirHmHVRskYYKkGhLMeGfiH8vID1/HyAO7Qg/0gV9cjfjEK
     - service: vk
       id: 2040
       published: 2025-01-11-18-09-47
-      updated: 2025-01-12-16-07-37
+      updated: 2025-01-12-17-01-58
       followers: 1050
       likes: 24
-      views: 183
+      views: 185
       reposts: 1
     - service: tg
       id: 660
       published: 2025-01-11-18-09-56
-      updated: 2025-01-12-16-07-37
+      updated: 2025-01-12-17-01-58
       followers: 648
       likes: 40
-      views: 191
+      views: 194
       comments: !c |-
         CzmAkpPLQnlFej0AgACmSGF2b2tloJPLQnlFeIunAACuVW50ZXJncnVuZGJhaG7ZRdCc0L3QvtCz
         0L4g0LjQs9GA0LDQuyDQsiDQvNC+0YDRgNGDLCDQvdC+INGC0LDQuiDQuCDQvdC1INC/0YDQvtGI
@@ -12529,10 +12529,10 @@
       id: DEp5abVM-CW
       mediaId: '17910191286069182'
       published: 2025-01-10-18-10-54
-      updated: 2025-01-12-16-07-39
+      updated: 2025-01-12-17-01-59
       followers: 1525
       likes: 126
-      views: 527
+      views: 531
       comments: !c |-
         G8MAQByHsdtkaD4uLWxEy6c/NRbRZwFZ57kIjzVEE5GkrUB9vo/Rvm37e3zOrYjji9BtSyBkBbXL
         lNkdnZzowfw7yDWjXGvJmXIbO19RDCToNG77C1ZLlYckHbFbxQTJhQwmG0JZwpi81f6HC3Q+fpZg
@@ -12541,10 +12541,10 @@
     - service: vk
       id: 2037
       published: 2025-01-10-18-11-02
-      updated: 2025-01-12-15-01-55
+      updated: 2025-01-12-17-01-59
       followers: 1050
       likes: 32
-      views: 218
+      views: 223
       comments: !c |-
         GzUEACwOeDJeg5E8VPsQj8+jHgNxlBD9I4ONTEmfyAaEzjAVo6W5btI5S7BYspZ7qanicDgLwqNR
         fG2Q5wuXlXavXeZ/nBqRXHiJrC0Q0K2xn/czOhd1a4F6RWq5UB+dM/7KbSZRBWLTO9vUIj+eNSUO
@@ -12559,10 +12559,10 @@
     - service: tg
       id: 659
       published: 2025-01-10-18-11-10
-      updated: 2025-01-12-16-07-38
+      updated: 2025-01-12-17-01-59
       followers: 647
       likes: 52
-      views: 226
+      views: 227
 2017-12-09-berth-near-grotto:
   title: Berth Near Grotto
   titleRu: Причал у грота
