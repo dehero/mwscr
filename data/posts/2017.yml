@@ -4520,7 +4520,7 @@
     - service: vk
       id: 1575
       published: 2024-06-08-18-18-38
-      updated: 2025-01-05-11-02-01
+      updated: 2025-01-12-12-12-18
       followers: 916
       likes: 36
       views: 317
@@ -4528,10 +4528,10 @@
     - service: tg
       id: 433
       published: 2024-06-08-18-18-44
-      updated: 2025-01-05-11-01-59
+      updated: 2025-01-12-12-12-14
       followers: 384
       likes: 55
-      views: 468
+      views: 469
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
   titleRu: Мрачный курган
@@ -4807,7 +4807,7 @@
     - service: vk
       id: 1705
       published: 2024-08-24-18-18-18
-      updated: 2025-01-05-11-01-55
+      updated: 2025-01-12-12-12-12
       followers: 940
       likes: 35
       views: 305
@@ -4815,10 +4815,10 @@
     - service: tg
       id: 511
       published: 2024-08-24-18-18-25
-      updated: 2025-01-05-11-01-54
+      updated: 2025-01-12-12-12-10
       followers: 541
       likes: 55
-      views: 563
+      views: 564
 2017-05-05-sunset-fir-trees:
   title: Sunset Fir-Trees
   titleRu: Закатные ели
@@ -4881,7 +4881,7 @@
     - service: vk
       id: 1695
       published: 2024-08-17-18-19-02
-      updated: 2025-01-05-11-01-56
+      updated: 2025-01-12-12-12-13
       followers: 934
       likes: 32
       views: 274
@@ -4889,10 +4889,10 @@
     - service: tg
       id: 504
       published: 2024-08-17-18-19-11
-      updated: 2025-01-05-11-01-55
+      updated: 2025-01-12-12-12-11
       followers: 527
       likes: 61
-      views: 624
+      views: 625
       comments: !c |-
         G5kAGKyOt6Fh2DII9SraGD9X/MgjVPrf33zCH3gV4CCaONb5A6mtc51HiSdUhy6Lw0sQm6m2eEF7
         10hP2eKS5i0PNuCAvQgHGxBmPLvAIdUUWLSgYygr1ZEd4Y7zHD3ybT007Y+2bxgCxB5X7rrk7kIe
@@ -4933,7 +4933,7 @@
     - service: vk
       id: 1658
       published: 2024-07-27-18-20-23
-      updated: 2025-01-05-11-01-59
+      updated: 2025-01-12-12-12-16
       followers: 923
       likes: 34
       views: 295
@@ -4941,10 +4941,10 @@
     - service: tg
       id: 482
       published: 2024-07-27-18-20-29
-      updated: 2025-01-05-11-01-57
+      updated: 2025-01-12-12-12-13
       followers: 401
       likes: 57
-      views: 617
+      views: 618
       comments: !c |-
         G/kAgByHcSyxjmBicU1/f/MRp4m1cSwu4M4/WGtxG2Qs22JRFvd/NwML9D8P80ADvTEWSuinVRma
         Tk40MH47SAuowMKQIo6zdIfPHSOmprQ+rncT67T+DEEpGYRvZb4nHr7OCgLfhTugNQLOoXtlQt+4
@@ -7196,28 +7196,28 @@
       id: DEseEMkJV7E
       mediaId: '17878492290233748'
       published: 2025-01-11-18-09-39
-      updated: 2025-01-12-11-01-25
+      updated: 2025-01-12-12-12-08
       followers: 1524
-      likes: 98
-      views: 251
+      likes: 100
+      views: 257
       comments: !c |-
         G3UASI2UqO14Rp6G8DHAwaTTesHamBOwJDVvUkwug0MO2A/Y4ohjzzjYgENIs/n109t8UffHTb52
         cco+Dty2Kruq/G1pWjDhVyirHmHVRskYYKkGhLMeGfiH8vID1/HyAO7Qg/0gV9cjfjEK
     - service: vk
       id: 2040
       published: 2025-01-11-18-09-47
-      updated: 2025-01-12-11-01-25
+      updated: 2025-01-12-12-12-09
       followers: 1050
-      likes: 20
-      views: 158
+      likes: 21
+      views: 162
       reposts: 1
     - service: tg
       id: 660
       published: 2025-01-11-18-09-56
-      updated: 2025-01-12-11-01-26
+      updated: 2025-01-12-12-12-09
       followers: 648
       likes: 39
-      views: 181
+      views: 184
       comments: !c |-
         CzmAkpPLQnlFej0AgACmSGF2b2tloJPLQnlFeIunAACuVW50ZXJncnVuZGJhaG7ZRdCc0L3QvtCz
         0L4g0LjQs9GA0LDQuyDQsiDQvNC+0YDRgNGDLCDQvdC+INGC0LDQuiDQuCDQvdC1INC/0YDQvtGI
@@ -12529,10 +12529,10 @@
       id: DEp5abVM-CW
       mediaId: '17910191286069182'
       published: 2025-01-10-18-10-54
-      updated: 2025-01-12-11-01-26
+      updated: 2025-01-12-12-12-10
       followers: 1525
       likes: 125
-      views: 515
+      views: 517
       comments: !c |-
         G8MAQByHsdtkaD4uLWxEy6c/NRbRZwFZ57kIjzVEE5GkrUB9vo/Rvm37e3zOrYjji9BtSyBkBbXL
         lNkdnZzowfw7yDWjXGvJmXIbO19RDCToNG77C1ZLlYckHbFbxQTJhQwmG0JZwpi81f6HC3Q+fpZg
@@ -12541,21 +12541,25 @@
     - service: vk
       id: 2037
       published: 2025-01-10-18-11-02
-      updated: 2025-01-12-11-01-26
+      updated: 2025-01-12-12-12-11
       followers: 1050
-      likes: 30
-      views: 210
+      likes: 32
+      views: 213
       comments: !c |-
-        G/sBoKwKeDIWuaVQ+NpjFQjMo8LVCssl/nn+ZCN8+mETiiTMwrKAq4SSxJNzdTqd/oW/vrfTN6o0
-        kPAxirrNFizFKmgrFkPcdwTh58cYzKYp6vUWi/Kz/W+F4jDMhiKk+L7wsfR0earBxyyQoMZ08eqi
-        CvX8BXuxko6tBSpZnZvQHdEdiXbUWMi+en7+/T54+rF9L5kJ2QMEsoaZnRooAnxvvkXPtemFSStB
-        pHjhya5rx4KTyKpt/T49bgALI6wkmhDMeo+7L1nK81Fro4z2v2nMdj5MkN2emrVolL5PusJqdFV/
-        g3LWgCkaDQDer3AoQGfMQX2Ir8uqKCRokwmodGGNZKFM682AGn/zO5/390pLZx9tl2I1WZFskZ69
-        koGhD/zHUWreW9mbVog9xxrpg6JElGcBIeaJ1BuOpXIe0osa
+        GzUEACwOeDJeg5E8VPsQj8+jHgNxlBD9I4ONTEmfyAaEzjAVo6W5btI5S7BYspZ7qanicDgLwqNR
+        fG2Q5wuXlXavXeZ/nBqRXHiJrC0Q0K2xn/czOhd1a4F6RWq5UB+dM/7KbSZRBWLTO9vUIj+eNSUO
+        pXGO3OWwdE1ZVfV52SXBvcZV2TXjm+pa3Zpb+xR+JIIC59ktlMaxR199//oLvlhaj9fD90sZBjo0
+        StkAdNJcj01oNbU+ALeh2INaM+N0EM3Vh1H1tFz7YaRPSnQQ6m13nNVOBwY3zfxOrYEEpge8+qlS
+        TFuMI1GDBnA7NG9+Z0Zqk7Z8Z4Sl7rp6GlyRnY//aaqPrvUkkDjOgNGICYygfgqhqbH4ZbtVNkH8
+        orCRv3BMhpi1xuq8xN/FCS0Dqb238H8c3dZRTsxK+JaJ/OrbWsAU5BhAYkkLqJge0wXKQov/GnXn
+        6AWLJSZjHw512EyJQ7AIcrtu3TRsRM2eeqCyCm+/bCGCxrhsxHNlVmbN68ueDFzH02NQ3yedMzH/
+        3PcmS9AIlEok2IsSzR3/n8vbTORkPFgTRkqbEM/x1a43SSSWALeChpVJvEoRkQ5BXErwAQUvFOtU
+        fxhOS3DVXHwO5AMnToef5/38limZqrEb2qWuQbPbgA9yxYgmiO6g3d6LlM0rDJP/Apq1JZ0rzXAb
+        UEKBkN1JrkfmwklINx7M1VLkB1XTHgBMZgEADpUZE/wCLqORYZ4U+G5ept+6CpNFEHCKH94A
     - service: tg
       id: 659
       published: 2025-01-10-18-11-10
-      updated: 2025-01-12-11-01-27
+      updated: 2025-01-12-12-12-09
       followers: 647
       likes: 52
       views: 223
