@@ -1374,27 +1374,35 @@
       id: DEvC4deuAgT
       mediaId: '17896461711134669'
       published: 2025-01-12-18-09-51
-      updated: 2025-01-12-20-07-50
+      updated: 2025-01-12-21-02-12
       followers: 1526
-      likes: 50
-      views: 130
+      likes: 59
+      views: 160
+      comments: !c ixeAkZPLQnlFxA9wgACsaGF0dGllbGVlYXJ0t09oIHRoaXMgaXMgYXdlc29tZSDwn5SlAw==
     - service: vk
       id: 2050
       published: 2025-01-12-18-10-03
-      updated: 2025-01-12-20-07-51
+      updated: 2025-01-12-21-02-12
       followers: 1052
-      likes: 13
-      views: 83
+      likes: 14
+      views: 102
       reposts: 1
     - service: tg
       id:
         - 661
         - 662
       published: 2025-01-12-18-10-23
-      updated: 2025-01-12-20-07-52
+      updated: 2025-01-12-21-02-13
       followers: 648
-      likes: 33
-      views: 108
+      likes: 37
+      views: 126
+      comments: !c |-
+        G30CgCwOeHPoJNRUmP1wJwQFokIufMKLfx70xSrQpAZNClouQWVW1YkEoUkD5JLrJbuXJh46P/Tz
+        N03F1LVmA+/YFx0MQinmXdHkN7au525ZYrFY9uYs1l3IAfB3SPgUP207Zph9pS1qSWEYUETpNh9v
+        7whrHaaJiC28P/8rm99xHL8HicGZjnCMpZL3/8/cykjBFNjn8CH9l+YghB5qlrjin+iUX0NUS0v4
+        YU1j0fPECAo03QY+XPKFzby8gOhbWNXnksrI9HKU82bcYtHEog9C2pUpPeOwOLvHP9hbb9+XYP/9
+        aR7gbmuN7GJoWqZAcFTgnwG4T9BARrlR5MQYVIZkSgoSW0InaQzrfO6pd6heKxfsNqQYzxnwCMld
+        DZVdF2MJm54iB0RSmujrshtRHHHHSLbKwvBIRE5aFofreYLlIjYsAaBEfe4u
 2019-05-15-urshilaku-camp:
   title: Urshilaku Camp
   titleRu: Лагерь Уршилаку
