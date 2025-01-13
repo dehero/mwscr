@@ -807,18 +807,18 @@
     - service: vk
       id: 1847
       published: 2024-10-20-18-09-14
-      updated: 2025-01-06-02-14-22
+      updated: 2025-01-13-02-15-12
       followers: 986
       likes: 55
-      views: 360
+      views: 361
       reposts: 1
     - service: tg
       id: 570
       published: 2024-10-20-18-09-24
-      updated: 2025-01-06-02-14-20
+      updated: 2025-01-13-02-15-09
       followers: 561
       likes: 68
-      views: 758
+      views: 760
       comments: !c CwqAkZPLQnkqshBWgACod2lsenV1bGygAw==
 2019-03-07-mzahnch:
   title: Mzahnch
@@ -1374,28 +1374,28 @@
       id: DEvC4deuAgT
       mediaId: '17896461711134669'
       published: 2025-01-12-18-09-51
-      updated: 2025-01-13-00-39-00
+      updated: 2025-01-13-02-15-07
       followers: 1526
-      likes: 74
-      views: 239
+      likes: 75
+      views: 258
       comments: !c ixeAkZPLQnlFxA9wgACsaGF0dGllbGVlYXJ0t09oIHRoaXMgaXMgYXdlc29tZSDwn5SlAw==
     - service: vk
       id: 2050
       published: 2025-01-12-18-10-03
-      updated: 2025-01-13-00-39-01
+      updated: 2025-01-13-02-15-07
       followers: 1052
       likes: 17
-      views: 121
+      views: 126
       reposts: 1
     - service: tg
       id:
         - 661
         - 662
       published: 2025-01-12-18-10-23
-      updated: 2025-01-13-00-39-01
+      updated: 2025-01-13-02-15-07
       followers: 648
-      likes: 41
-      views: 150
+      likes: 43
+      views: 153
       comments: !c |-
         G30CgCwOeHPoJNRUmP1wJwQFokIufMKLfx70xSrQpAZNClouQWVW1YkEoUkD5JLrJbuXJh46P/Tz
         N03F1LVmA+/YFx0MQinmXdHkN7au525ZYrFY9uYs1l3IAfB3SPgUP207Zph9pS1qSWEYUETpNh9v
