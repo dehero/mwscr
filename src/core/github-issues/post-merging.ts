@@ -1,5 +1,5 @@
-import { mergeWithIds } from '../entities/field.js';
 import { GITHUB_ISSUE_CREATE_URL, GITHUB_ISSUE_DEFAULT_TITLE } from '../entities/github-issue.js';
+import { mergeWithIds } from '../entities/github-issue-field.js';
 
 export const label = 'post-merging';
 

@@ -30,6 +30,10 @@ export function capitalizeFirstLetter(value: string) {
   return value.charAt(0).toLocaleUpperCase() + value.slice(1);
 }
 
+export function uncapitalizeFirstLetter(value: string) {
+  return value.charAt(0).toLocaleLowerCase() + value.slice(1);
+}
+
 export function cleanupUndefinedProps<T extends Record<string, unknown>>(value: T): T {
   Object.keys(value).forEach((key) => value[key] === undefined && delete value[key]);
 

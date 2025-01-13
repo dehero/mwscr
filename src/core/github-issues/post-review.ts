@@ -1,5 +1,5 @@
-import { postMark, postViolation } from '../entities/field.js';
 import { GITHUB_ISSUE_CREATE_URL, GITHUB_ISSUE_DEFAULT_TITLE } from '../entities/github-issue.js';
+import { postMark, postViolation } from '../entities/github-issue-field.js';
 import type { Post } from '../entities/post.js';
 
 export const label = 'post-review';

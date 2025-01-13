@@ -1,59 +1,11 @@
 import { readFile, writeFile } from 'fs/promises';
 import yaml, { Type } from 'js-yaml';
+import { Field } from '../../../core/entities/field.js';
 import { PublicationComment } from '../../../core/entities/publication.js';
 import { dateToString, stringToDate } from '../../../core/utils/date-utils.js';
 import { compressData, decompressData } from '../../utils/data-utils.js';
 
 const YAML_DATE_REGEXP = /^\d{4}-\d{2}-\d{2}(?:-\d{2}-\d{2}-\d{2})?$/;
-
-const orderedKeys = [
-  // Post
-  'title',
-  'titleRu',
-  'description',
-  'descriptionRu',
-  'location',
-  'content',
-  'trash',
-  'type',
-  'author',
-  'engine',
-  'addon',
-  'tags',
-  'request',
-  'reject',
-  'mark',
-  'violation',
-  'posts',
-
-  // Request
-  'date',
-  'user',
-  'text',
-
-  // Publication
-  'service',
-  'id',
-  'code',
-  'mediaId',
-  'published',
-  'updated',
-  'followers',
-  'likes',
-  'views',
-  'reposts',
-  'comments',
-
-  // User
-  'name',
-  'nameRu',
-  'nameRuFrom',
-  'admin',
-  'profiles',
-
-  // Location
-  'cell',
-];
 
 type SerializedComment = [datetime: number, author: string, text: string, ...replies: SerializedComment[]];
 
@@ -82,7 +34,7 @@ function sortKeys(a: unknown, b: unknown) {
   if (typeof a !== 'string' || typeof b !== 'string') {
     return 0;
   }
-  return orderedKeys.indexOf(a) - orderedKeys.indexOf(b) || a.localeCompare(b);
+  return Field.options.indexOf(a as Field) - Field.options.indexOf(b as Field) || a.localeCompare(b);
 }
 
 export async function loadYaml(filename: string): Promise<unknown> {

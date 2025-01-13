@@ -1,5 +1,11 @@
-import { postType, userName, userProfileIg, userProfileTg, userProfileVk } from '../../core/entities/field.js';
 import type { GithubIssue } from '../../core/entities/github-issue.js';
+import {
+  postType,
+  userName,
+  userProfileIg,
+  userProfileTg,
+  userProfileVk,
+} from '../../core/entities/github-issue-field.js';
 import { PostType } from '../../core/entities/post.js';
 import type { PostRequest } from '../../core/entities/post-variation.js';
 import { label } from '../../core/github-issues/post-request.js';

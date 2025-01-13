@@ -1,11 +1,11 @@
 import { z } from 'zod';
-import { Post, PostContent, PostTitle, PostType } from '../entities/post.js';
+import { Post, PostContent, PostTitleRu, PostType } from '../entities/post.js';
 import { Publication } from '../entities/publication.js';
 import { checkRules } from '../entities/rule.js';
 import type { PostingService } from '../entities/service.js';
 
 export const VKPost = Post.extend({
-  titleRu: PostTitle,
+  titleRu: PostTitleRu,
   content: PostContent,
   type: PostType.extract(['shot', 'wallpaper', 'wallpaper-v', 'redrawing', 'shot-set']),
 });

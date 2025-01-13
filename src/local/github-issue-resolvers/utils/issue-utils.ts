@@ -1,5 +1,5 @@
-import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../../core/entities/field.js';
 import type { GithubIssue } from '../../../core/entities/github-issue.js';
+import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../../core/entities/github-issue-field.js';
 import type { ListReaderEntry } from '../../../core/entities/list-manager.js';
 import type { User } from '../../../core/entities/user.js';
 import { users } from '../../data-managers/users.js';

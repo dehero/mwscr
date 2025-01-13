@@ -1,3 +1,4 @@
+import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
 import {
   postAddon,
   postAuthor,
@@ -12,8 +13,7 @@ import {
   postTrash,
   postType,
   postViolation,
-} from '../../core/entities/field.js';
-import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
+} from '../../core/entities/github-issue-field.js';
 import type { ListReaderEntry } from '../../core/entities/list-manager.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import type { Location } from '../../core/entities/location.js';

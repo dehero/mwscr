@@ -1,5 +1,7 @@
-import type { z } from 'zod';
+import { z } from 'zod';
+import { partition, uncapitalizeFirstLetter } from '../utils/common-utils.js';
 import type { UnionToIntersection } from '../utils/type-utils.js';
+import { getFieldTitle } from './field.js';
 
 export type SimpleRule<TValue, TContext = unknown, TType extends TValue = TValue> = (
   value: TValue,
@@ -8,7 +10,7 @@ export type SimpleRule<TValue, TContext = unknown, TType extends TValue = TValue
 
 export type Rule<TValue, TContext = unknown, TType extends TValue = TValue> =
   | SimpleRule<TValue, TContext, TType>
-  | z.ZodTypeAny;
+  | z.ZodType<TValue>;
 
 type CombineRules<TValue, TContext, TRules extends Rule<TValue, TContext, TValue>[]> = UnionToIntersection<
   {
@@ -42,11 +44,31 @@ export function checkRules<TValue, TContext, TRules extends Rule<TValue, TContex
       if (!success) {
         result = false;
 
-        const { formErrors, fieldErrors } = error.flatten();
-        formErrors.forEach((error) => messages?.push(error));
-        Object.entries(fieldErrors).map(
-          ([field, errors]) => errors?.forEach((error) => messages?.push(`${error} for field "${field}"`)),
+        const issues = error.issues.flatMap((issue) =>
+          issue.code === z.ZodIssueCode.invalid_union ? issue.unionErrors.flatMap((e) => e.issues) : [issue],
         );
+
+        const [outputIssues, restIssues] = partition(
+          issues,
+          (issue) => issue.code === z.ZodIssueCode.invalid_type && issue.received === typeof undefined,
+        );
+
+        if (outputIssues.length > 0) {
+          const titles = new Set(outputIssues.map((issue) => getFieldTitleFromPath(issue.path)));
+          messages?.push(`Need ${[...titles].join(', ')}`);
+        }
+
+        messages?.push(
+          ...restIssues.map((issue) =>
+            [getFieldTitleFromPath(issue.path), uncapitalizeFirstLetter(issue.message)].filter(Boolean).join(' '),
+          ),
+        );
+
+        // const { formErrors, fieldErrors } = error.flatten();
+        // formErrors.forEach((error) => messages?.push(error));
+        // Object.entries(fieldErrors).map(
+        //   ([field, errors]) => errors?.forEach((error) => messages?.push(`${error} for field "${field}"`)),
+        // );
       }
     }
   }
@@ -54,38 +76,6 @@ export function checkRules<TValue, TContext, TRules extends Rule<TValue, TContex
   return result;
 }
 
-export function needObject(value: unknown): value is Record<string, unknown> {
-  const type = typeof value;
-
-  if (!(type === 'object' && value !== null)) {
-    throw new Error(`need object, got ${value === null ? 'null' : type}`);
-  }
-  return true;
-}
-
-export function needProperty<T>(prop: string, type: string | (new (...args: unknown[]) => unknown)) {
-  return (value: unknown): value is T => {
-    if (!needObject(value)) {
-      return false;
-    }
-
-    const propValue = prop in value ? value[prop] : undefined;
-
-    if (typeof type === 'string') {
-      const propType = typeof propValue;
-      if (propType !== type) {
-        throw new Error(`need "${prop}" property of type "${type}", got "${propType}"`);
-      }
-    } else {
-      if (!needObject(propValue)) {
-        return false;
-      }
-
-      if (!(propValue instanceof type)) {
-        throw new TypeError(`need "${prop}" property of type "${type.name}", got "${propValue.constructor.name}"`);
-      }
-    }
-
-    return true;
-  };
+function getFieldTitleFromPath(path: Array<string | number>) {
+  return path.map((field) => uncapitalizeFirstLetter(getFieldTitle(field))).join(' in ');
 }

@@ -1,5 +1,5 @@
-import { postMark, postViolation } from '../../core/entities/field.js';
 import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
+import { postMark, postViolation } from '../../core/entities/github-issue-field.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import { PostMark, PostViolation } from '../../core/entities/post.js';
 import { label } from '../../core/github-issues/post-review.js';

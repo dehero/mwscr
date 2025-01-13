@@ -1,5 +1,5 @@
-import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../core/entities/field.js';
 import type { GithubIssue } from '../../core/entities/github-issue.js';
+import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../core/entities/github-issue-field.js';
 import { label } from '../../core/github-issues/post-proposal.js';
 import { inbox } from '../data-managers/posts.js';
 import { importResourceToStore } from '../data-managers/store-resources.js';

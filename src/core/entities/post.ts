@@ -4,6 +4,7 @@ import { arrayFromAsync, asArray } from '../utils/common-utils.js';
 import { dateToString, isDateInRange, stringToDate } from '../utils/date-utils.js';
 import { areNestedLocations as areRelatedLocations } from './location.js';
 import type { MediaAspectRatio } from './media.js';
+import { postTitleFromString } from './post-title.js';
 import type { PublicationComment } from './publication.js';
 import { getPublicationEngagement, isPublicationEqual, mergePublications, Publication } from './publication.js';
 import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, resourceIsImage, resourceIsVideo } from './resource.js';
@@ -12,8 +13,9 @@ import { USER_DEFAULT_AUTHOR } from './user.js';
 
 export const POST_RECENTLY_PUBLISHED_DAYS = 31;
 
-export const PostTitle = z.string().nonempty();
-export const PostDescription = z.string().nonempty();
+export const PostTitle = z.string().trim().nonempty().transform(postTitleFromString);
+export const PostTitleRu = z.string().trim().nonempty();
+export const PostDescription = z.string().trim().nonempty();
 export const PostContent = z.string().nonempty().or(z.string().nonempty().array());
 export const PostLocation = z.string().nonempty().or(z.string().nonempty().array());
 export const PostType = z.enum(['shot', 'shot-set', 'video', 'clip', 'redrawing', 'wallpaper', 'wallpaper-v']);
@@ -38,7 +40,7 @@ export const PostRequest = z.object({ date: z.date(), user: z.string().nonempty(
 
 export const Post = z.object({
   title: PostTitle.optional(),
-  titleRu: PostTitle.optional(),
+  titleRu: PostTitleRu.optional(),
   description: PostDescription.optional(),
   descriptionRu: PostDescription.optional(),
   location: PostLocation.optional(),
@@ -56,6 +58,7 @@ export const Post = z.object({
 });
 
 export type PostTitle = z.infer<typeof PostTitle>;
+export type PostTitleRu = z.infer<typeof PostTitleRu>;
 export type PostDescription = z.infer<typeof PostDescription>;
 export type PostContent = z.infer<typeof PostContent>;
 export type PostLocation = z.infer<typeof PostLocation>;

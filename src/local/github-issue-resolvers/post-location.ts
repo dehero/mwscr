@@ -1,5 +1,5 @@
-import { postLocation } from '../../core/entities/field.js';
 import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
+import { postLocation } from '../../core/entities/github-issue-field.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import { mergePostLocations } from '../../core/entities/post.js';
 import { label } from '../../core/github-issues/post-location.js';
