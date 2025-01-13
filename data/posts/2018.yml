@@ -5120,18 +5120,18 @@
     - service: vk
       id: 1875
       published: 2024-11-03-18-10-30
-      updated: 2025-01-06-00-38-31
+      updated: 2025-01-13-00-39-05
       followers: 1003
       likes: 38
-      views: 340
+      views: 343
       reposts: 1
     - service: tg
       id: 584
       published: 2024-11-03-18-10-35
-      updated: 2025-01-06-00-38-31
+      updated: 2025-01-13-00-39-03
       followers: 565
       likes: 61
-      views: 548
+      views: 550
       comments: !c |-
         CyiAk5PLQnkw+mEZAACrYmh1dmFuYXNyaWmk8J+NrZPLQnkvTUbBgACpR2F0ZW1hdGU3qDIwMTgu
         Li4/k8tCeS9MvQ+AAKh3aWx6dXVsbKTwn6eQAw==
@@ -9495,10 +9495,10 @@
     - service: tg
       id: 598
       published: 2024-11-17-18-09-44
-      updated: 2025-01-06-00-38-28
+      updated: 2025-01-13-00-39-02
       followers: 573
       likes: 57
-      views: 575
+      views: 579
     - service: vk
       id: 1901
       published: 2024-11-17-19-01-38
@@ -12029,17 +12029,17 @@
     - service: vk
       id: 1888
       published: 2024-11-10-18-09-11
-      updated: 2025-01-06-00-38-30
+      updated: 2025-01-13-00-39-04
       followers: 1006
       likes: 46
-      views: 286
+      views: 288
     - service: tg
       id: 591
       published: 2024-11-10-18-10-13
-      updated: 2025-01-06-00-38-29
+      updated: 2025-01-13-00-39-03
       followers: 564
       likes: 57
-      views: 599
+      views: 602
 2018-11-23-flooded-door:
   title: Flooded Door
   titleRu: Затопленная дверь
