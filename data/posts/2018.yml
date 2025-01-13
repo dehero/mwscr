@@ -8637,10 +8637,10 @@
     - service: tg
       id: 658
       published: 2025-01-09-18-11-31
-      updated: 2025-01-12-18-09-22
+      updated: 2025-01-13-18-11-04
       followers: 647
-      likes: 58
-      views: 255
+      likes: 61
+      views: 300
     - service: vk
       id: 2036
       published: 2025-01-09-19-01-26
@@ -10154,6 +10154,23 @@
       updated: 2025-01-08-07-01-35
       likes: 3
       views: 202
+    - service: ig
+      id: DExn5skTWOM
+      mediaId: '17876857326238567'
+      published: 2025-01-13-18-11-48
+      followers: 1524
+    - service: vk
+      id: 2052
+      published: 2025-01-13-18-12-09
+      followers: 1052
+    - service: tg
+      id:
+        - 663
+        - 664
+        - 665
+        - 666
+      published: 2025-01-13-18-12-27
+      followers: 648
 2018-10-07-on-the-way-to-the-crater:
   title: On the Way to the Crater
   titleRu: На пути к кратеру
