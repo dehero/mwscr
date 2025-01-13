@@ -10158,11 +10158,17 @@
       id: DExn5skTWOM
       mediaId: '17876857326238567'
       published: 2025-01-13-18-11-48
+      updated: 2025-01-13-19-01-20
       followers: 1524
+      likes: 32
+      views: 55
     - service: vk
       id: 2052
       published: 2025-01-13-18-12-09
+      updated: 2025-01-13-19-01-21
       followers: 1052
+      likes: 8
+      views: 48
     - service: tg
       id:
         - 663
@@ -10170,7 +10176,10 @@
         - 665
         - 666
       published: 2025-01-13-18-12-27
+      updated: 2025-01-13-19-01-21
       followers: 648
+      likes: 29
+      views: 118
 2018-10-07-on-the-way-to-the-crater:
   title: On the Way to the Crater
   titleRu: На пути к кратеру
