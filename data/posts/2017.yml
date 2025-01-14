@@ -1095,14 +1095,14 @@
     - service: vk
       id: 1814
       published: 2024-10-07-18-10-38
-      updated: 2025-01-07-05-08-12
+      updated: 2025-01-14-06-10-39
       followers: 958
       likes: 41
       views: 322
     - service: tg
       id: 557
       published: 2024-10-07-18-10-45
-      updated: 2025-01-07-05-08-11
+      updated: 2025-01-14-06-10-39
       followers: 559
       likes: 62
       views: 474
@@ -7028,10 +7028,10 @@
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2025-01-07-05-08-13
+      updated: 2025-01-14-06-10-42
       followers: 557
       likes: 67
-      views: 507
+      views: 512
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
