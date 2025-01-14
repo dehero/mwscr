@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 971 posted, 13 pending, 67 rejected  
 Requested: 6 pending  
-Likes: 168784  
+Likes: 168787  
 
 ```
 dehero
@@ -45,7 +45,7 @@ darkness-rifho
 
 Roles: `author` `drawer`  
 Authored: 3 posted  
-Likes: 849  
+Likes: 850  
 
 ```
 knives-out
