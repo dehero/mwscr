@@ -1187,7 +1187,7 @@
     - service: vk
       id: 1732
       published: 2024-09-02-18-29-04
-      updated: 2025-01-07-06-11-33
+      updated: 2025-01-14-07-07-38
       followers: 942
       likes: 40
       views: 399
@@ -1198,10 +1198,10 @@
     - service: tg
       id: 520
       published: 2024-09-02-18-29-11
-      updated: 2025-01-07-06-11-32
+      updated: 2025-01-14-07-07-36
       followers: 550
       likes: 62
-      views: 639
+      views: 641
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
@@ -5456,7 +5456,7 @@
     - service: vk
       id: 1745
       published: 2024-09-09-18-29-21
-      updated: 2025-01-07-06-11-33
+      updated: 2025-01-14-07-07-37
       followers: 945
       likes: 41
       views: 304
@@ -5467,7 +5467,7 @@
     - service: tg
       id: 527
       published: 2024-09-09-18-29-28
-      updated: 2025-01-07-06-11-31
+      updated: 2025-01-14-07-07-35
       followers: 552
       likes: 66
       views: 540
@@ -6173,10 +6173,10 @@
     - service: tg
       id: 513
       published: 2024-08-26-18-20-21
-      updated: 2025-01-07-06-11-32
+      updated: 2025-01-14-07-07-37
       followers: 544
       likes: 66
-      views: 592
+      views: 593
 2018-06-19-thelas-ancestral-tomb:
   title: Thelas Ancestral Tomb
   titleRu: Родовая гробница Телас
@@ -10158,20 +10158,20 @@
       id: DExn5skTWOM
       mediaId: '17876857326238567'
       published: 2025-01-13-18-11-48
-      updated: 2025-01-14-06-10-33
+      updated: 2025-01-14-07-07-33
       followers: 1524
-      likes: 98
-      views: 258
+      likes: 102
+      views: 265
       comments: !c |-
         CyOAkpPLQnlGFtiOAACpaXN0c2llbGl6rPCflKXwn5Sl8J+UpZPLQnlGEL4OAACoMjJjb2luczex
         QmV0dHkgYmV0dHkgbmV0Y2gD
     - service: vk
       id: 2052
       published: 2025-01-13-18-12-09
-      updated: 2025-01-14-06-10-33
+      updated: 2025-01-14-07-07-34
       followers: 1052
       likes: 26
-      views: 139
+      views: 148
       reposts: 2
       comments: !c CxGAkZPLQnlGEVhaAACmbWlicm5ksNCa0YDQsNGB0L7RgtCwISED
     - service: tg
@@ -10181,10 +10181,10 @@
         - 665
         - 666
       published: 2025-01-13-18-12-27
-      updated: 2025-01-14-06-10-34
+      updated: 2025-01-14-07-07-34
       followers: 648
       likes: 41
-      views: 212
+      views: 219
 2018-10-07-on-the-way-to-the-crater:
   title: On the Way to the Crater
   titleRu: На пути к кратеру
