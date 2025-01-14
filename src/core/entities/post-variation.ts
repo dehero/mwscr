@@ -9,8 +9,10 @@ import {
   PostRequest as PostRequestField,
   PostTitle,
   PostTitleRu,
+  PostType,
   PostViolation,
 } from './post.js';
+import { ImageResourceUrl, VideoResourceUrl } from './resource.js';
 import { checkRules } from './rule.js';
 
 export type PostCheck<TPost extends Post> = (post: Post, errors?: string[]) => post is TPost;
@@ -50,6 +52,43 @@ export const PublishablePost = z.intersection(
     }
   }),
 );
+
+const BasePublishablePost = Post.extend({
+  title: PostTitle,
+  titleRu: PostTitleRu,
+  author: PostAuthor,
+  mark: PostMark.extract(['A1', 'A2', 'B1', 'B2', 'C', 'E']),
+});
+
+export const ShotPost = BasePublishablePost.extend({ type: PostType.extract(['shot']), content: ImageResourceUrl });
+export const ShotSetPost = BasePublishablePost.extend({
+  type: PostType.extract(['shot-set']),
+  content: z.tuple([ImageResourceUrl, ImageResourceUrl, ImageResourceUrl, ImageResourceUrl]),
+});
+export const RedrawingPost = BasePublishablePost.extend({
+  type: PostType.extract(['redrawing']),
+  content: z.tuple([ImageResourceUrl, ImageResourceUrl]),
+});
+export const WallpaperPost = BasePublishablePost.extend({
+  type: PostType.extract(['wallpaper']),
+  content: ImageResourceUrl,
+});
+export const WallpaperVPost = BasePublishablePost.extend({
+  type: PostType.extract(['wallpaper-v']),
+  content: ImageResourceUrl,
+});
+export const VideoPost = BasePublishablePost.extend({ type: PostType.extract(['video']), content: VideoResourceUrl });
+export const ClipPost = BasePublishablePost.extend({ type: PostType.extract(['clip']), content: VideoResourceUrl });
+
+export const PublishablePostTest = z.discriminatedUnion('type', [
+  ShotPost,
+  ShotSetPost,
+  RedrawingPost,
+  WallpaperPost,
+  WallpaperVPost,
+  VideoPost,
+  ClipPost,
+]);
 
 export type ViolatingPost = z.infer<typeof ViolatingPost>;
 export type OrdinaryPost = z.infer<typeof OrdinaryPost>;

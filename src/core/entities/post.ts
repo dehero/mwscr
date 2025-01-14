@@ -7,7 +7,13 @@ import type { MediaAspectRatio } from './media.js';
 import { postTitleFromString } from './post-title.js';
 import type { PublicationComment } from './publication.js';
 import { getPublicationEngagement, isPublicationEqual, mergePublications, Publication } from './publication.js';
-import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, resourceIsImage, resourceIsVideo } from './resource.js';
+import {
+  RESOURCE_MISSING_IMAGE,
+  RESOURCE_MISSING_VIDEO,
+  resourceIsImage,
+  resourceIsVideo,
+  ResourceUrl,
+} from './resource.js';
 import { checkRules } from './rule.js';
 import { USER_DEFAULT_AUTHOR } from './user.js';
 
@@ -16,7 +22,7 @@ export const POST_RECENTLY_PUBLISHED_DAYS = 31;
 export const PostTitle = z.string().trim().nonempty().transform(postTitleFromString);
 export const PostTitleRu = z.string().trim().nonempty();
 export const PostDescription = z.string().trim().nonempty();
-export const PostContent = z.string().nonempty().or(z.string().nonempty().array());
+export const PostContent = ResourceUrl.or(ResourceUrl.array());
 export const PostLocation = z.string().nonempty().or(z.string().nonempty().array());
 export const PostType = z.enum(['shot', 'shot-set', 'video', 'clip', 'redrawing', 'wallpaper', 'wallpaper-v']);
 export const PostAddon = z.enum(['Tribunal', 'Bloodmoon']);
