@@ -8580,7 +8580,7 @@
     - service: vk
       id: 1597
       published: 2024-06-24-18-20-03
-      updated: 2025-01-07-15-17-08
+      updated: 2025-01-14-16-08-55
       followers: 917
       likes: 51
       views: 319
@@ -8588,10 +8588,10 @@
     - service: tg
       id: 449
       published: 2024-06-24-18-20-11
-      updated: 2025-01-07-15-17-07
+      updated: 2025-01-14-16-08-54
       followers: 388
       likes: 66
-      views: 576
+      views: 579
 2018-09-01-haze-in-tel-branora:
   title: Haze in Tel Branora
   titleRu: Мгла в Тель Браноре
@@ -10158,20 +10158,20 @@
       id: DExn5skTWOM
       mediaId: '17876857326238567'
       published: 2025-01-13-18-11-48
-      updated: 2025-01-14-15-07-41
+      updated: 2025-01-14-16-08-54
       followers: 1524
-      likes: 119
-      views: 322
+      likes: 120
+      views: 328
       comments: !c |-
         CyOAkpPLQnlGFtiOAACpaXN0c2llbGl6rPCflKXwn5Sl8J+UpZPLQnlGEL4OAACoMjJjb2luczex
         QmV0dHkgYmV0dHkgbmV0Y2gD
     - service: vk
       id: 2052
       published: 2025-01-13-18-12-09
-      updated: 2025-01-14-15-07-41
+      updated: 2025-01-14-16-08-53
       followers: 1052
       likes: 33
-      views: 184
+      views: 189
       reposts: 2
       comments: !c |-
         G/IAQKwK7IbbG4mEyPimTtAR+zqr+Oh5OFmEf6MGkyjLJAkKIizwJEk8uafqdq1vFE5uNUBygyVB
@@ -10185,10 +10185,10 @@
         - 665
         - 666
       published: 2025-01-13-18-12-27
-      updated: 2025-01-14-15-07-42
+      updated: 2025-01-14-16-08-53
       followers: 648
       likes: 46
-      views: 266
+      views: 271
 2018-10-07-on-the-way-to-the-crater:
   title: On the Way to the Crater
   titleRu: На пути к кратеру
