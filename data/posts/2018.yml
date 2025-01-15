@@ -929,18 +929,18 @@
     - service: vk
       id: 1990
       published: 2024-12-25-18-10-00
-      updated: 2025-01-08-18-10-30
+      updated: 2025-01-15-19-01-31
       followers: 1030
-      likes: 37
-      views: 306
+      likes: 38
+      views: 311
       reposts: 1
     - service: tg
       id: 637
       published: 2024-12-25-18-10-08
-      updated: 2025-01-08-18-10-29
+      updated: 2025-01-15-19-01-32
       followers: 612
-      likes: 63
-      views: 537
+      likes: 64
+      views: 565
       comments: !c |-
         CyiAkZTLQnlAVEbPAACtT2xtZXJfSXpkZXlsYbJXaGF0IGlzIHRoZSBwbGFjZT+Ty0J5QFYdBgAA
         pW13c2NytEFsZCBWZWxvdGhpLCBPdXRwb3N0Aw==
@@ -5395,15 +5395,25 @@
       id: DE2xU3uvvrq
       mediaId: '17962967642840380'
       published: 2025-01-15-18-10-22
+      updated: 2025-01-15-19-01-28
       followers: 1522
+      likes: 24
+      views: 41
+      comments: !c CxSAkZPLQnlGs9PPgACtZGFuaWVsbGVfaGlpaa9JIGxpa2UgUGVsYWdpYWQD
     - service: vk
       id: 2067
       published: 2025-01-15-18-10-29
+      updated: 2025-01-15-19-01-27
       followers: 1053
+      likes: 10
+      views: 48
     - service: tg
       id: 668
       published: 2025-01-15-18-10-36
+      updated: 2025-01-15-19-01-28
       followers: 654
+      likes: 25
+      views: 73
 2018-05-29-at-the-tops-of-fir-trees:
   title: At the Tops of Fir-Trees
   titleRu: В вершинах елей

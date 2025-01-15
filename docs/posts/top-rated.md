@@ -763,35 +763,6 @@
 - `vk` <ins title="2017-03-20-15-04-04">idalexeyvav</ins> Антон, секс, наркотики и рок&#39;н&#39;ролл
 - `vk` <ins title="2017-03-20-15-04-39">dehero</ins> Дима, этот-то я знаю 😊
 
-## <span id="2018-05-28-passing-by-pelagiad">Passing by Pelagiad</span>
-
-`RU` Проезжая Пелагиад
-
-<a href="https://instagram.com/p/BjVMKDAld2_/" title="2018-05-28-passing-by-pelagiad"><img alt="store:/shots/2018-05-28-passing-by-pelagiad.png" src="../../assets/previews/shots/2018-05-28-passing-by-pelagiad.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B2` `📍 Pelagiad` `🚀 OpenMW`
-
-```
-2018-05-28-passing-by-pelagiad
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BjVMKDAld2_/)       | 2018-05-28 |       |   139 |       336 |  41.37 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_746)  | 2018-05-28 |   279 |    25 |       167 |  14.97 |
-| [`ig`](https://instagram.com/p/DE2xU3uvvrq/)       | 2025-01-15 |       |       |      1522 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2067) | 2025-01-15 |       |       |      1053 |        |
-| [`tg`](https://t.me/mwscr/668)                     | 2025-01-15 |       |       |       654 |        |
-|                                                    |            |   279 |   164 |       503 |  28.17 |
-
-#### Comments
-
-- `vk` <ins title="2018-05-29-07-00-16">dropnz</ins> Самый первый город, который я посетил в Морровинде. Мне сказали как добраться до балморы, а блохами я пользоваться не научился еще. Пошел пешком и наткнулся на этот город))
-
 ## <span id="2018-10-31-creeper-and-dagger">Creeper and Dagger</span>
 
 `RU` Ползун и кинжал
@@ -1293,6 +1264,34 @@
 
 - `ig` <ins title="2017-06-20-10-24-13">mighty_markyys</ins> Still playing this game, Im not using any mods, only resolution fix, so I can use 1920x1080. I also use my graphic cards anti-aliasing settings for 32xAA. Game difficulty 100 (hard as fuck). I like to imagine games short view distance as &quot;fog&quot; ,so it wont bother me :) Do you play any other elder scrolls games?
 - `ig` <ins title="2017-06-20-11-01-49">mwscr</ins> @mighty_markyys I played Oblivion and Skyrim, both brilliant games, but only Morrowind stays truly immortal for me. I like and encourage the way you play it :-) And this mysterious fog of war is one of the things that creates unique atmosphere.
+
+## <span id="2017-08-27-deadly-pass">Deadly Pass</span>
+
+`RU` Смертельный проход
+
+<a href="https://instagram.com/p/BYS-3-BjlB2/" title="2017-08-27-deadly-pass"><img alt="store:/shots/2017-08-27-deadly-pass.png" src="../../assets/previews/shots/2017-08-27-deadly-pass.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-08-27-deadly-pass&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal`
+
+```
+2017-08-27-deadly-pass
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BYS-3-BjlB2/)      | 2017-08-27 |       |    74 |       198 |  37.37 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_407) | 2017-08-27 |   135 |    12 |        74 |  16.22 |
+|                                                   |            |   135 |    86 |       272 |  26.79 |
+
+#### Comments
+
+- `ig` <ins title="2017-08-27-20-18-29">_porch_honky</ins> This from morrowind? Looks like a vault.
+  - <ins title="2017-08-27-20-24-55">mwscr</ins> @dumster_baby_ This is Clockwork City from Tribunal addon.
+- `ig` <ins title="2017-08-27-23-41-56">_porch_honky</ins> Crazy.i been balls deep in jade Empire on xbox havent gotten a chance to play my game of the year edition of Morrowind
 
 ---
 
