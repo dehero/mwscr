@@ -1,6 +1,6 @@
 import {
   getPostContentDistance,
-  getPostTypesFromContent,
+  getPostTypeFromContent,
   mergePostContents,
   mergePostWith,
 } from '../../core/entities/post.js';
@@ -55,7 +55,7 @@ async function importNewItems(items: StoreItem[]) {
       continue;
     }
 
-    const type = getPostTypesFromContent(item.url)[0];
+    const type = getPostTypeFromContent(item.url);
     if (!type) {
       continue;
     }

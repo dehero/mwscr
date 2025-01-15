@@ -16,7 +16,7 @@ import {
 import fetch, { File, FormData } from 'node-fetch';
 import sharp from 'sharp';
 import type { Post, PostEntry } from '../../core/entities/post.js';
-import { getPostFirstPublished, getPostTypesFromContent, postTypeDescriptors } from '../../core/entities/post.js';
+import { getPostFirstPublished, getPostTypeFromContent, postTypeDescriptors } from '../../core/entities/post.js';
 import { createPostTags } from '../../core/entities/post-tag.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
@@ -469,7 +469,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
           author,
           tags,
           // request,
-          type: getPostTypesFromContent(content)[0] ?? 'shot', // TODO: get proper type from media
+          type: getPostTypeFromContent(content) ?? 'shot', // TODO: get proper type from media
           posts: [
             {
               service: 'ig',

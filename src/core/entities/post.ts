@@ -1,20 +1,15 @@
 import type { InferOutput } from 'valibot';
-import { array, date, nonEmpty, object, optional, picklist, pipe, string, transform, trim, union } from 'valibot';
+import { array, date, is, nonEmpty, object, optional, picklist, pipe, string, transform, trim, union } from 'valibot';
 import type { SortDirection } from '../utils/common-types.js';
 import { arrayFromAsync, asArray } from '../utils/common-utils.js';
 import { dateToString, isDateInRange, stringToDate } from '../utils/date-utils.js';
 import { areNestedLocations as areRelatedLocations } from './location.js';
 import type { MediaAspectRatio } from './media.js';
 import { postTitleFromString } from './post-title.js';
+import { PostVariant } from './post-variant.js';
 import type { PublicationComment } from './publication.js';
 import { getPublicationEngagement, isPublicationEqual, mergePublications, Publication } from './publication.js';
-import {
-  RESOURCE_MISSING_IMAGE,
-  RESOURCE_MISSING_VIDEO,
-  resourceIsImage,
-  resourceIsVideo,
-  ResourceUrl,
-} from './resource.js';
+import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, ResourceUrl } from './resource.js';
 import { checkRules } from './rule.js';
 import { USER_DEFAULT_AUTHOR } from './user.js';
 
@@ -25,7 +20,7 @@ export const PostTitleRu = pipe(string(), trim(), nonEmpty());
 export const PostDescription = pipe(string(), trim(), nonEmpty());
 export const PostContent = union([ResourceUrl, array(ResourceUrl)]);
 export const PostLocation = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
-export const PostType = picklist(['shot', 'shot-set', 'video', 'clip', 'redrawing', 'wallpaper', 'wallpaper-v']);
+export const PostType = picklist(PostVariant.options.map((type) => type.entries.type.literal));
 export const PostAddon = picklist(['Tribunal', 'Bloodmoon']);
 export const PostEngine = picklist(['OpenMW', 'Vanilla']);
 export const PostMark = picklist(['A1', 'A2', 'B1', 'B2', 'C', 'D', 'E', 'F']);
@@ -306,23 +301,8 @@ export function isPostEqual(a: Post, b: Partial<Post>): boolean {
         dateToString(date1) === dateToString(date2);
 }
 
-export function getPostTypesFromContent(content?: PostContent): PostType[] {
-  const urls = asArray(content);
-
-  if (urls.length === 4 && urls.every((url) => resourceIsImage(url) || RESOURCE_MISSING_IMAGE === url)) {
-    return ['shot-set'];
-  }
-  if (urls.length === 2 && urls.every((url) => resourceIsImage(url) || RESOURCE_MISSING_IMAGE === url)) {
-    return ['redrawing'];
-  }
-  if (urls.length === 1 && urls[0] && (resourceIsImage(urls[0]) || RESOURCE_MISSING_IMAGE === urls[0])) {
-    return ['shot', 'wallpaper', 'wallpaper-v'];
-  }
-  if (urls.length === 1 && urls[0] && (resourceIsVideo(urls[0]) || RESOURCE_MISSING_VIDEO === urls[0])) {
-    return ['clip', 'video'];
-  }
-
-  return [];
+export function getPostTypeFromContent(content?: PostContent): PostType | undefined {
+  return PostVariant.options.find((variant) => is(variant.entries.content, content))?.entries.type.literal;
 }
 
 export function getPostTypeAspectRatio(type: PostType): MediaAspectRatio {

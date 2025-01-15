@@ -1,12 +1,15 @@
 import type { InferOutput } from 'valibot';
-import { number, object, variant } from 'valibot';
-import type { Post } from '../entities/post.js';
-import { RedrawingPost, ShotPost, ShotSetPost, WallpaperPost, WallpaperVPost } from '../entities/post-variation.js';
+import { intersect, number, object, variant } from 'valibot';
+import { Post, PostTitleRu } from '../entities/post.js';
+import { Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
 import { Publication } from '../entities/publication.js';
 import { checkRules } from '../entities/rule.js';
 import type { PostingService } from '../entities/service.js';
 
-export const VKPost = variant('type', [ShotPost, ShotSetPost, RedrawingPost, WallpaperPost, WallpaperVPost]);
+export const VKPost = intersect([
+  object({ ...Post.entries, titleRu: PostTitleRu }),
+  variant('type', [Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper]),
+]);
 
 export const VKPublication = object({
   ...Publication.entries,

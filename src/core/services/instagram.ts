@@ -1,12 +1,15 @@
 import type { InferOutput } from 'valibot';
-import { nonEmpty, object, pipe, string, variant } from 'valibot';
-import type { Post } from '../entities/post.js';
-import { RedrawingPost, ShotPost, ShotSetPost, WallpaperPost, WallpaperVPost } from '../entities/post-variation.js';
+import { intersect, nonEmpty, object, pipe, string, variant } from 'valibot';
+import { Post, PostTitle } from '../entities/post.js';
+import { Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
 import { Publication } from '../entities/publication.js';
 import { checkRules } from '../entities/rule.js';
 import type { PostingService } from '../entities/service.js';
 
-export const InstagramPost = variant('type', [ShotPost, ShotSetPost, RedrawingPost, WallpaperPost, WallpaperVPost]);
+export const InstagramPost = intersect([
+  object({ ...Post.entries, title: PostTitle }),
+  variant('type', [Redrawing, Shot, ShotSet, Wallpaper, VerticalWallpaper]),
+]);
 
 export const InstagramPublication = object({ ...Publication.entries, id: pipe(string(), nonEmpty()) });
 

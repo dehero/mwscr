@@ -5,7 +5,7 @@ import type { WallWallComment } from 'vk-io/lib/api/schemas/objects';
 // @ts-expect-error No proper typing
 import type { WallGetCommentExtendedResponse } from 'vk-io/lib/api/schemas/responses';
 import type { Post, PostEntry } from '../../core/entities/post.js';
-import { getPostFirstPublished, getPostTypesFromContent, postTypeDescriptors } from '../../core/entities/post.js';
+import { getPostFirstPublished, getPostTypeFromContent, postTypeDescriptors } from '../../core/entities/post.js';
 import { createPostTags } from '../../core/entities/post-tag.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
@@ -336,7 +336,7 @@ export class VKManager extends VKService implements PostingServiceManager {
           content,
           author,
           tags,
-          type: getPostTypesFromContent(content)[0] ?? 'shot', // TODO: get proper type from media
+          type: getPostTypeFromContent(content) ?? 'shot', // TODO: get proper type from media
           posts: [
             {
               service: 'vk',

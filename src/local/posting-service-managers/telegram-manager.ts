@@ -6,7 +6,7 @@ import { Logger, LogLevel } from 'telegram/extensions/Logger.js';
 // eslint-disable-next-line import/extensions
 import { StringSession } from 'telegram/sessions/index.js';
 import type { Post, PostEntry } from '../../core/entities/post.js';
-import { getPostFirstPublished, getPostTypesFromContent, postTypeDescriptors } from '../../core/entities/post.js';
+import { getPostFirstPublished, getPostTypeFromContent, postTypeDescriptors } from '../../core/entities/post.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
@@ -440,7 +440,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
           title,
           content,
           author,
-          type: getPostTypesFromContent(content)[0] ?? 'shot', // TODO: get proper type from media
+          type: getPostTypeFromContent(content) ?? 'shot', // TODO: get proper type from media
           posts: [publication],
         };
         posts.push(post);
@@ -449,7 +449,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
         publication.likes = Math.max(publication.likes || 0, likes || 0) || undefined;
         publication.views = Math.max(publication.views || 0, message.views || 0) || undefined;
         post.content = publication.id.map(() => RESOURCE_MISSING_IMAGE);
-        post.type = getPostTypesFromContent(post.content)[0] ?? post.type;
+        post.type = getPostTypeFromContent(post.content) ?? post.type;
       }
     }
 

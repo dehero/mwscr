@@ -86,7 +86,8 @@ function validbotIssuesToMessages(issues: BaseIssue<unknown>[]): string[] {
   );
 
   if (outputIssues.length > 0) {
-    messages.push(`missing ${outputIssues.map((issue) => getFieldTitleFromPath(issue.path)).join(', ')}`);
+    const fields = new Set(outputIssues.map((issue) => getFieldTitleFromPath(issue.path)));
+    messages.push(`missing ${[...fields].join(', ')}`);
   }
 
   [outputIssues, restIssues] = partition(restIssues, (issue) => issue.kind === 'schema');
