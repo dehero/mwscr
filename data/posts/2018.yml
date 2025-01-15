@@ -495,7 +495,7 @@
     - service: vk
       id: 1815
       published: 2024-10-08-18-10-28
-      updated: 2025-01-08-03-13-29
+      updated: 2025-01-15-04-09-37
       followers: 958
       likes: 37
       views: 331
@@ -504,10 +504,10 @@
     - service: tg
       id: 558
       published: 2024-10-08-18-10-34
-      updated: 2025-01-08-03-13-27
+      updated: 2025-01-15-04-09-36
       followers: 559
       likes: 64
-      views: 474
+      views: 475
 2018-01-15-no-students-for-hasphat-antabolis:
   title: No Students for Hasphat Antabolis
   titleRu: Хасфат Антаболис в поиске учеников
@@ -1326,7 +1326,7 @@
     - service: vk
       id: 1712
       published: 2024-08-27-18-20-10
-      updated: 2025-01-08-03-13-33
+      updated: 2025-01-15-04-09-41
       followers: 939
       likes: 30
       views: 335
@@ -1334,10 +1334,10 @@
     - service: tg
       id: 514
       published: 2024-08-27-18-20-15
-      updated: 2025-01-08-03-13-30
+      updated: 2025-01-15-04-09-40
       followers: 544
       likes: 62
-      views: 618
+      views: 619
 2018-02-06-evening-trees:
   title: Evening Trees
   titleRu: Вечерние деревья
@@ -2683,14 +2683,14 @@
     - service: vk
       id: 1795
       published: 2024-10-01-18-12-42
-      updated: 2025-01-08-03-13-30
+      updated: 2025-01-15-04-09-38
       followers: 957
       likes: 36
-      views: 526
+      views: 527
     - service: tg
       id: 551
       published: 2024-10-01-18-12-49
-      updated: 2025-01-08-03-13-28
+      updated: 2025-01-15-04-09-37
       followers: 557
       likes: 59
       views: 551
@@ -5732,10 +5732,10 @@
     - service: vk
       id: 1921
       published: 2024-11-26-18-11-20
-      updated: 2025-01-08-03-13-26
+      updated: 2025-01-15-04-09-34
       followers: 1010
       likes: 47
-      views: 508
+      views: 514
       reposts: 3
     - service: tg
       id: 607
@@ -7400,10 +7400,10 @@
     - service: vk
       id: 1829
       published: 2024-10-15-18-10-16
-      updated: 2025-01-08-03-13-28
+      updated: 2025-01-15-04-09-36
       followers: 964
       likes: 57
-      views: 640
+      views: 643
       reposts: 3
       comments: !c |-
         G8wCAKwK7Db0SzHo5mWOcC1a8xD/j9yjZM1L7Sc/qUKpIPWCtjawZTThyblkU1XZnuPmREIcr5cl
@@ -7416,10 +7416,10 @@
     - service: tg
       id: 565
       published: 2024-10-15-18-10-22
-      updated: 2025-01-08-03-13-26
+      updated: 2025-01-15-04-09-35
       followers: 562
       likes: 60
-      views: 522
+      views: 524
 2018-07-26-framed-by-lianas:
   title: Framed by Lianas
   titleRu: В обрамлении лиан
@@ -10158,17 +10158,17 @@
       id: DExn5skTWOM
       mediaId: '17876857326238567'
       published: 2025-01-13-18-11-48
-      updated: 2025-01-15-03-09-29
+      updated: 2025-01-15-04-09-32
       followers: 1524
-      likes: 128
-      views: 364
+      likes: 129
+      views: 367
       comments: !c |-
         CyOAkpPLQnlGFtiOAACpaXN0c2llbGl6rPCflKXwn5Sl8J+UpZPLQnlGEL4OAACoMjJjb2luczex
         QmV0dHkgYmV0dHkgbmV0Y2gD
     - service: vk
       id: 2052
       published: 2025-01-13-18-12-09
-      updated: 2025-01-15-03-09-30
+      updated: 2025-01-15-04-09-33
       followers: 1052
       likes: 34
       views: 209
@@ -10187,10 +10187,10 @@
         - 665
         - 666
       published: 2025-01-13-18-12-27
-      updated: 2025-01-15-03-09-29
+      updated: 2025-01-15-04-09-33
       followers: 648
       likes: 54
-      views: 365
+      views: 370
 2018-10-07-on-the-way-to-the-crater:
   title: On the Way to the Crater
   titleRu: На пути к кратеру

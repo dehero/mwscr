@@ -8475,15 +8475,15 @@
     - service: tg
       id: 586
       published: 2024-11-05-18-10-44
-      updated: 2025-01-08-03-13-24
+      updated: 2025-01-15-04-09-34
       followers: 566
       likes: 63
-      views: 563
+      views: 566
       comments: !c iw2AkZPLQnkw+mTCgACrYmh1dmFuYXNyaWmk8J+klQM=
     - service: vk
       id: 1879
       published: 2024-11-05-19-01-20
-      updated: 2025-01-08-03-13-27
+      updated: 2025-01-15-04-09-35
       followers: 1003
       likes: 32
       views: 359
@@ -12041,25 +12041,25 @@
       id: DE0MjAjSIq6
       mediaId: '18023130176338578'
       published: 2025-01-14-18-10-31
-      updated: 2025-01-15-03-09-27
+      updated: 2025-01-15-04-09-31
       followers: 1525
-      likes: 44
-      views: 134
+      likes: 45
+      views: 138
     - service: vk
       id: 2057
       published: 2025-01-14-18-10-37
-      updated: 2025-01-15-03-09-28
+      updated: 2025-01-15-04-09-31
       followers: 1052
       likes: 26
-      views: 101
+      views: 105
       reposts: 1
     - service: tg
       id: 667
       published: 2025-01-14-18-10-44
-      updated: 2025-01-15-03-09-28
+      updated: 2025-01-15-04-09-32
       followers: 650
-      likes: 45
-      views: 135
+      likes: 46
+      views: 137
 2017-11-26-in-the-cell-of-vuvil-senim:
   title: In the Cell of Vuvil Senim
   titleRu: В камере Вувила Сенима
@@ -12237,17 +12237,17 @@
     - service: vk
       id: 1735
       published: 2024-09-03-18-29-25
-      updated: 2025-01-08-03-13-32
+      updated: 2025-01-15-04-09-40
       followers: 942
       likes: 26
       views: 355
     - service: tg
       id: 521
       published: 2024-09-03-18-29-34
-      updated: 2025-01-08-03-13-30
+      updated: 2025-01-15-04-09-39
       followers: 550
       likes: 65
-      views: 566
+      views: 568
 2017-12-01-speak-quickly-outlander:
   title: Speak Quickly, Outlander
   titleRu: Говори скорее
