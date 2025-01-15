@@ -10687,10 +10687,10 @@
     - service: tg
       id: 358
       published: 2024-03-26-18-10-55
-      updated: 2025-01-08-17-05-00
+      updated: 2025-01-15-18-10-08
       followers: 352
       likes: 68
-      views: 543
+      views: 544
       comments: !c |-
         G9kBAIzDdOMtD8uLoNCb/uY3rEvgXRaFcVs8ojGmRePvATimyLdobakOeKISVRqhnL/uvmhIEaJX
         IlM39fHx8YF4jiaXdWGcZZLo0n0eQm8T8ZGeji5LY4lh62Ne3NjmP1g4BM1EkzH5Ymsiv7nDKENw
@@ -12041,22 +12041,27 @@
       id: DE0MjAjSIq6
       mediaId: '18023130176338578'
       published: 2025-01-14-18-10-31
-      updated: 2025-01-15-17-03-08
+      updated: 2025-01-15-18-10-05
       followers: 1525
-      likes: 61
-      views: 204
+      likes: 62
+      views: 208
     - service: vk
       id: 2057
       published: 2025-01-14-18-10-37
-      updated: 2025-01-15-17-03-08
+      updated: 2025-01-15-18-10-06
       followers: 1052
-      likes: 37
-      views: 166
+      likes: 39
+      views: 170
       reposts: 2
+      comments: !c |-
+        GwoBSJwJdiyXCQdrkR4XF/0TN4rwjxdwxhk2CR7hyT7VtvQJb084hCuDQrNXWILlTYy/nz1ZTnfH
+        mAl6Vqo0IsuDXBwPdyMPBF4kMEgDDoTzGIvhOa5jeen9/m34Vzp+T9WtmEfk97+Dg4cSnoPVxyBO
+        YZqgcQipMxuCG1UDhYBFPRZR0oX7DLYxgKRzrqCdipolqQ4pvngVcM06U2UzaRodUaC5jYWhW+Qj
+        Nw==
     - service: tg
       id: 667
       published: 2025-01-14-18-10-44
-      updated: 2025-01-15-17-03-10
+      updated: 2025-01-15-18-10-06
       followers: 650
       likes: 54
       views: 177
