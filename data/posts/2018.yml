@@ -10158,28 +10158,30 @@
       id: DExn5skTWOM
       mediaId: '17876857326238567'
       published: 2025-01-13-18-11-48
-      updated: 2025-01-15-04-09-32
+      updated: 2025-01-15-05-08-00
       followers: 1524
-      likes: 129
-      views: 367
+      likes: 130
+      views: 371
       comments: !c |-
         CyOAkpPLQnlGFtiOAACpaXN0c2llbGl6rPCflKXwn5Sl8J+UpZPLQnlGEL4OAACoMjJjb2luczex
         QmV0dHkgYmV0dHkgbmV0Y2gD
     - service: vk
       id: 2052
       published: 2025-01-13-18-12-09
-      updated: 2025-01-15-04-09-33
+      updated: 2025-01-15-05-08-01
       followers: 1052
-      likes: 34
-      views: 209
+      likes: 35
+      views: 210
       reposts: 2
       comments: !c |-
-        G8sBICwPeDJe82REuYjvSfQYqv6tIYie7+/RcIRuPuVn5kkoFpNIIIWKlwJeqVS8soesitsIJZqz
-        m6MaL/B5gV/4b26pL8Xl9P4vt7HDY6kKgljE0GwjsTpsmSOTXVp5GbHTte70hFe++UX+X+QUYIsy
-        zKNzWZpAgOkNpd+jtZKLKSfe778eh1K+X08/Px6//xmQJMPpRBrWHH6ej9tNAX59u0DDYMG5Ltf+
-        Xkztzc2bMcQAM5OFvm3Wff4Bm+05O7VEJD1wlx5V+gJKjXK0lAMzZRQZs5A18SfiYcH77HtLxHk5
-        NL7229AF5YaaUgkPu7hpTiIDre2otqySoRo9Ki/L8khQwaiRFjZwpmpo3OA3YYxJHLPGGTVSwUlS
-        YAYmVP7r/gI=
+        G7sCICwPeLK94jRkvxRi0U1OxT+lYR3//P897fMI3f+oac0bCCTjgQhLGuAkwmQfslSdOERH2TC+
+        dE1nZ/fTWnPTxrXgVPIQBjCCE/j+sqfwmN1gxXLTiKxOTxbr99nRqsmCnLQqtfKgO2Kna9DUTf3z
+        B9vGD/iGS2gXhlGAXZRhwOkalkCA6TZFL5+eIGFGRy3YFc/vPzVcjuPn41E7fd9XgIQjnGfRoP9w
+        /D6KSA6Qf/3hDQKDYpy3bX2/N27tmcsrYmAdZCQTjTX7f/4DFlXNi4lL1EkLeKUerUQFVAlLRwBO
+        CBgplo7CWMDbK539tVm+z/X63JKk9PXo+Cjahp6RbjjJSDy3Ct6Uk5CO5rq4S8xSBRWjhQqP4u3i
+        QAUKRdGEBSpSxdD4gi1hzGISMHvcAmOKcRIuwAiKcP7v6vOs0P/zeIJwULLX/mDQ0LgNjQ5lemsF
+        ExnHjCmiOHtEAI3F2DkaxNIz4fgl+uhzbH1OlCwgluBtFMsux4iAuirB+1z8+OPhCjwlAspnuTiw
+        gDU0yw0smwvkgroD
     - service: tg
       id:
         - 663
@@ -10187,10 +10189,10 @@
         - 665
         - 666
       published: 2025-01-13-18-12-27
-      updated: 2025-01-15-04-09-33
+      updated: 2025-01-15-05-08-01
       followers: 648
       likes: 54
-      views: 370
+      views: 376
 2018-10-07-on-the-way-to-the-crater:
   title: On the Way to the Crater
   titleRu: На пути к кратеру
