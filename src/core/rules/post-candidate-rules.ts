@@ -13,7 +13,7 @@ export type PostCandidateRule = Rule<PublishablePost, PostEntries>;
 
 export function needMinContentDistance(minContentDistance: number): PostCandidateRule {
   return (post: PublishablePost, postEntries?: PostEntries): post is PublishablePost => {
-    if (!post.content || !postEntries) {
+    if (!postEntries) {
       return false;
     }
 

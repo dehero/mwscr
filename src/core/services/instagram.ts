@@ -1,21 +1,17 @@
-import { z } from 'zod';
-import { Post, PostContent, PostTitle, PostType } from '../entities/post.js';
+import type { InferOutput } from 'valibot';
+import { nonEmpty, object, pipe, string, variant } from 'valibot';
+import type { Post } from '../entities/post.js';
+import { RedrawingPost, ShotPost, ShotSetPost, WallpaperPost, WallpaperVPost } from '../entities/post-variation.js';
 import { Publication } from '../entities/publication.js';
 import { checkRules } from '../entities/rule.js';
 import type { PostingService } from '../entities/service.js';
 
-export const InstagramPost = Post.extend({
-  title: PostTitle,
-  content: PostContent,
-  type: PostType.extract(['shot', 'wallpaper', 'wallpaper-v', 'redrawing', 'shot-set']),
-});
+export const InstagramPost = variant('type', [ShotPost, ShotSetPost, RedrawingPost, WallpaperPost, WallpaperVPost]);
 
-export const InstagramPublication = Publication.extend({
-  id: z.string().nonempty(),
-});
+export const InstagramPublication = object({ ...Publication.entries, id: pipe(string(), nonEmpty()) });
 
-export type InstagramPost = z.infer<typeof InstagramPost>;
-export type InstagramPublication = z.infer<typeof InstagramPublication>;
+export type InstagramPost = InferOutput<typeof InstagramPost>;
+export type InstagramPublication = InferOutput<typeof InstagramPublication>;
 
 export class Instagram implements PostingService<InstagramPublication> {
   readonly id = 'ig';

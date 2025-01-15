@@ -27,8 +27,10 @@ import {
   PostType,
   PostViolation,
 } from '../../core/entities/post.js';
+import { ResourceUrl } from '../../core/entities/resource.js';
 import { label } from '../../core/github-issues/post-editing.js';
 import { asArray } from '../../core/utils/common-utils.js';
+import { safeParseOutput } from '../../core/utils/validation-utils.js';
 import { locations } from '../data-managers/locations.js';
 import { inbox, trash } from '../data-managers/posts.js';
 import {
@@ -56,8 +58,14 @@ export async function resolve(issue: GithubIssue) {
   const violationStr = extractIssueFieldValue(postViolation, issue.body);
   const rawLocation = extractIssueTextareaValue(postLocation, issue.body)?.split(/\r?\n/).filter(Boolean);
   const requestText = extractIssueFieldValue(postRequestText, issue.body);
-  const rawContent = extractIssueTextareaValue(postContent, issue.body)?.split(/\r?\n/).filter(Boolean);
-  const rawTrash = extractIssueTextareaValue(postTrash, issue.body)?.split(/\r?\n/).filter(Boolean);
+  const rawContent = extractIssueTextareaValue(postContent, issue.body)
+    ?.split(/\r?\n/)
+    .map((url) => safeParseOutput(ResourceUrl, url))
+    .filter((url): url is ResourceUrl => typeof url !== 'undefined');
+  const rawTrash = extractIssueTextareaValue(postTrash, issue.body)
+    ?.split(/\r?\n/)
+    .map((url) => safeParseOutput(ResourceUrl, url))
+    .filter((url): url is ResourceUrl => typeof url !== 'undefined');
   const oldContent = post.content;
   const oldTrash = post.trash;
 
@@ -72,12 +80,12 @@ export async function resolve(issue: GithubIssue) {
     asArray(oldContent).filter((url) => !rawContent?.includes(url)),
   );
   post.author = mergeAuthors(extractIssueFieldValue(postAuthor, issue.body)?.split(/\s+/).filter(Boolean));
-  post.type = PostType.safeParse(typeStr).data ?? 'shot';
+  post.type = safeParseOutput(PostType, typeStr) ?? 'shot';
   post.tags = extractIssueFieldValue(postTags, issue.body)?.split(/\s+/).filter(Boolean);
-  post.engine = PostEngine.safeParse(engineStr).data;
-  post.addon = PostAddon.safeParse(addonStr).data;
-  post.mark = PostMark.safeParse(markStr).data;
-  post.violation = PostViolation.safeParse(violationStr).data;
+  post.engine = safeParseOutput(PostEngine, engineStr);
+  post.addon = safeParseOutput(PostAddon, addonStr);
+  post.mark = safeParseOutput(PostMark, markStr);
+  post.violation = safeParseOutput(PostViolation, violationStr);
   post.location = mergePostLocations(
     rawLocation
       ? (await locations.findEntries(rawLocation.map((title) => ({ title }))))

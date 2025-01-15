@@ -1,21 +1,20 @@
-import { z } from 'zod';
-import { Post, PostContent, PostTitle, PostType } from '../entities/post.js';
+import type { InferOutput } from 'valibot';
+import { array, number, object, union, variant } from 'valibot';
+import type { Post } from '../entities/post.js';
+import { RedrawingPost, ShotPost, ShotSetPost, WallpaperPost, WallpaperVPost } from '../entities/post-variation.js';
 import { Publication } from '../entities/publication.js';
 import { checkRules } from '../entities/rule.js';
 import type { PostingService } from '../entities/service.js';
 
-export const TelegramPost = Post.extend({
-  title: PostTitle,
-  content: PostContent,
-  type: PostType.extract(['shot', 'wallpaper', 'wallpaper-v', 'redrawing', 'shot-set']),
+export const TelegramPost = variant('type', [ShotPost, ShotSetPost, RedrawingPost, WallpaperPost, WallpaperVPost]);
+
+export const TelegramPublication = object({
+  ...Publication.entries,
+  id: union([number(), array(number())]),
 });
 
-export const TelegramPublication = Publication.extend({
-  id: z.number().or(z.number().array()),
-});
-
-export type TelegramPost = z.infer<typeof TelegramPost>;
-export type TelegramPublication = z.infer<typeof TelegramPublication>;
+export type TelegramPost = InferOutput<typeof TelegramPost>;
+export type TelegramPublication = InferOutput<typeof TelegramPublication>;
 
 export const TELEGRAM_CHANNEL = 'mwscr';
 

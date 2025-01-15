@@ -1,50 +1,40 @@
-import { z } from 'zod';
+import type { InferOutput } from 'valibot';
+import { custom, is, nonEmpty, picklist, pipe, string } from 'valibot';
 import { listItems } from '../utils/common-utils.js';
 
-export const ResourceProtocol = z.enum(['store:', 'file:', 'http:', 'https:']);
-export const ResourceType = z.enum(['image', 'video', 'archive']);
+export const ResourceProtocol = picklist(['store:', 'file:', 'http:', 'https:']);
+export const ResourceType = picklist(['image', 'video', 'archive']);
 
-export const ImageResourceExtension = z.enum(['.png', '.webp', '.jpg']);
-export const VideoResourceExtension = z.enum(['.avi', '.mp4']);
+export const ImageResourceExtension = picklist(['.png', '.webp', '.jpg']);
+export const VideoResourceExtension = picklist(['.avi', '.mp4']);
 
 export const RESOURCE_MISSING_IMAGE = 'MISSING_IMAGE.png';
 export const RESOURCE_MISSING_VIDEO = 'MISSING_VIDEO.mp4';
 
-export type ResourceProtocol = z.infer<typeof ResourceProtocol>;
-export type ResourceType = z.infer<typeof ResourceType>;
+export type ResourceProtocol = InferOutput<typeof ResourceProtocol>;
+export type ResourceType = InferOutput<typeof ResourceType>;
 
-export const ResourceUrl = z.union([
-  z.literal(RESOURCE_MISSING_IMAGE),
-  z.literal(RESOURCE_MISSING_VIDEO),
-  z.custom<`${ResourceProtocol}/${string}`>(
-    (value) => ResourceProtocol.options.some((protocol) => String(value).startsWith(protocol + '/')),
-    (value) => ({
-      message: `need to start with protocol ${listItems(
-        ResourceProtocol.options,
-        true,
-      )} and further slash, got "${value}"`,
-    }),
-  ),
-]);
-export type ResourceUrl = z.infer<typeof ResourceUrl>;
+export const ResourceUrl = pipe(string('Should be resource string'), nonEmpty('Should not be empty'));
 
-export const ImageResourceUrl = ResourceUrl.and(
-  z.custom<`${ResourceProtocol}/${string}${z.infer<typeof ImageResourceExtension>}`>(
+export const ImageResourceUrl = pipe(
+  ResourceUrl,
+  custom<`${string}${InferOutput<typeof ImageResourceExtension>}`>(
     (value) => ImageResourceExtension.options.some((ext) => String(value).endsWith(ext)),
-    (value) => ({
-      message: `need to end with image extension ${listItems(ImageResourceExtension.options, true)}, got "${value}"`,
-    }),
+    `Should end with image extension ${listItems(ImageResourceExtension.options, true)}"`,
   ),
 );
 
-export const VideoResourceUrl = ResourceUrl.and(
-  z.custom<`${ResourceProtocol}/${string}${z.infer<typeof VideoResourceExtension>}`>(
+export const VideoResourceUrl = pipe(
+  ResourceUrl,
+  custom<`${string}${InferOutput<typeof VideoResourceExtension>}`>(
     (value) => VideoResourceExtension.options.some((ext) => String(value).endsWith(ext)),
-    (value) => ({
-      message: `need to end with video extension ${listItems(VideoResourceExtension.options, true)}, got "${value}"`,
-    }),
+    `Should end with video extension ${listItems(VideoResourceExtension.options, true)}"`,
   ),
 );
+
+export type ResourceUrl = InferOutput<typeof ResourceUrl>;
+export type ImageResourceUrl = InferOutput<typeof ImageResourceUrl>;
+export type VideoResourceUrl = InferOutput<typeof VideoResourceUrl>;
 
 export interface ResourceParsedUrl {
   protocol: ResourceProtocol;
@@ -58,14 +48,12 @@ export interface ResourceParsedUrl {
 export type Resource = [data: Buffer, mimeType: string | null, filename: string];
 
 export function parseResourceUrl(url: string): ResourceParsedUrl {
-  const { protocol: rawProtocol, host, pathname } = new URL(url, 'file://');
+  const { protocol, host, pathname } = new URL(url, 'file://');
   const [, dir = '', base = ''] = /^(\/.+)?\/([^\/]+)$/.exec(pathname) ?? [];
   const [, name = '', ext = ''] = /^(.*)(\.[^.]+)$/.exec(base) ?? [];
 
-  const protocol = ResourceProtocol.safeParse(rawProtocol).data;
-
-  if (!protocol) {
-    throw new Error(`Unknown protocol ${rawProtocol}`);
+  if (!is(ResourceProtocol, protocol)) {
+    throw new Error(`Unknown protocol ${protocol}`);
   }
 
   return {
@@ -78,10 +66,10 @@ export function parseResourceUrl(url: string): ResourceParsedUrl {
   };
 }
 
-export function resourceIsImage(url: string): boolean {
-  return ImageResourceUrl.safeParse(url).success;
+export function resourceIsImage(url: string): url is ImageResourceUrl {
+  return is(ImageResourceUrl, url);
 }
 
-export function resourceIsVideo(url: string): boolean {
-  return VideoResourceUrl.safeParse(url).success;
+export function resourceIsVideo(url: string): url is VideoResourceUrl {
+  return is(VideoResourceUrl, url);
 }

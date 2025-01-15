@@ -1,20 +1,16 @@
-import { z } from 'zod';
-import { Post, PostContent, PostTitle, PostType } from '../entities/post.js';
+import type { InferOutput } from 'valibot';
+import { nonEmpty, object, pipe, string } from 'valibot';
+import type { Post } from '../entities/post.js';
+import { VideoPost } from '../entities/post-variation.js';
 import { Publication } from '../entities/publication.js';
 import type { PostingService } from '../entities/service.js';
 
-export const YouTubePost = Post.extend({
-  title: PostTitle,
-  content: PostContent,
-  type: PostType.extract(['video']),
-});
+export const YouTubePost = VideoPost;
 
-export const YouTubePublication = Publication.extend({
-  id: z.string().nonempty(),
-});
+export const YouTubePublication = object({ ...Publication.entries, id: pipe(string(), nonEmpty()) });
 
-export type YouTubePost = z.infer<typeof YouTubePost>;
-export type YouTubePublication = z.infer<typeof YouTubePublication>;
+export type YouTubePost = InferOutput<typeof YouTubePost>;
+export type YouTubePublication = InferOutput<typeof YouTubePublication>;
 
 export class YouTube implements PostingService<YouTubePublication> {
   readonly id = 'yt';

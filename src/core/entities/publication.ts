@@ -1,28 +1,33 @@
-import { z } from 'zod';
+import type { InferOutput } from 'valibot';
+import { array, date, minValue, nonEmpty, number, object, optional, pipe, string, trim, unknown } from 'valibot';
 import { asArray } from '../utils/common-utils.js';
 import { getDaysPassed, getMinutesPassed } from '../utils/date-utils.js';
 
-const BaseComment = z.object({ datetime: z.date(), author: z.string().nonempty(), text: z.string().trim() });
+const BaseComment = object({ datetime: date(), author: pipe(string(), nonEmpty()), text: pipe(string(), trim()) });
 
-export const PublicationComment = BaseComment.extend({
-  replies: z.array(BaseComment).optional(),
+export const PublicationComment = object({
+  ...BaseComment.entries,
+  replies: optional(array(BaseComment)),
 });
-export type PublicationComment = z.infer<typeof PublicationComment>;
+export type PublicationComment = InferOutput<typeof PublicationComment>;
 
-export const Publication = z.object({
-  service: z.string().nonempty(),
-  id: z.unknown(),
-  code: z.string().nonempty().optional(),
-  mediaId: z.string().nonempty().optional(),
-  published: z.date(),
-  updated: z.date().optional(),
-  followers: z.number().positive().optional(),
-  likes: z.number().positive().optional(),
-  views: z.number().positive().optional(),
-  reposts: z.number().positive().optional(),
-  comments: z.array(PublicationComment).optional(),
+export const PublicationComments = array(PublicationComment);
+export type PublicationComments = InferOutput<typeof PublicationComments>;
+
+export const Publication = object({
+  service: pipe(string(), nonEmpty()),
+  id: unknown(),
+  code: optional(pipe(string(), nonEmpty())),
+  mediaId: optional(pipe(string(), nonEmpty())),
+  published: date(),
+  updated: optional(date()),
+  followers: optional(pipe(number(), minValue(0))),
+  likes: optional(pipe(number(), minValue(0))),
+  views: optional(pipe(number(), minValue(0))),
+  reposts: optional(pipe(number(), minValue(0))),
+  comments: optional(array(PublicationComment)),
 });
-export type Publication = z.infer<typeof Publication>;
+export type Publication = InferOutput<typeof Publication>;
 
 export function isPublicationUpdatable(publication: Publication): boolean {
   const updated = publication.updated ?? publication.published;

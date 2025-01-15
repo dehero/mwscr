@@ -9,6 +9,7 @@ import {
 import { PostType } from '../../core/entities/post.js';
 import type { PostRequest } from '../../core/entities/post-variation.js';
 import { label } from '../../core/github-issues/post-request.js';
+import { safeParseOutput } from '../../core/utils/validation-utils.js';
 import { createPostRequestId, inbox } from '../data-managers/posts.js';
 import { extractIssueFieldValue, extractIssueUser } from './utils/issue-utils.js';
 
@@ -24,7 +25,7 @@ export async function resolve(issue: GithubIssue) {
       user,
       date: new Date(issue.created_at),
     },
-    type: PostType.safeParse(typeStr).data ?? 'shot',
+    type: safeParseOutput(PostType, typeStr) ?? 'shot',
   };
 
   const id = createPostRequestId(request);

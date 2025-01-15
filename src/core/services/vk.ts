@@ -1,21 +1,20 @@
-import { z } from 'zod';
-import { Post, PostContent, PostTitleRu, PostType } from '../entities/post.js';
+import type { InferOutput } from 'valibot';
+import { number, object, variant } from 'valibot';
+import type { Post } from '../entities/post.js';
+import { RedrawingPost, ShotPost, ShotSetPost, WallpaperPost, WallpaperVPost } from '../entities/post-variation.js';
 import { Publication } from '../entities/publication.js';
 import { checkRules } from '../entities/rule.js';
 import type { PostingService } from '../entities/service.js';
 
-export const VKPost = Post.extend({
-  titleRu: PostTitleRu,
-  content: PostContent,
-  type: PostType.extract(['shot', 'wallpaper', 'wallpaper-v', 'redrawing', 'shot-set']),
+export const VKPost = variant('type', [ShotPost, ShotSetPost, RedrawingPost, WallpaperPost, WallpaperVPost]);
+
+export const VKPublication = object({
+  ...Publication.entries,
+  id: number(),
 });
 
-export const VKPublication = Publication.extend({
-  id: z.number(),
-});
-
-export type VKPost = z.infer<typeof VKPost>;
-export type VKPublication = z.infer<typeof VKPublication>;
+export type VKPost = InferOutput<typeof VKPost>;
+export type VKPublication = InferOutput<typeof VKPublication>;
 
 export const VK_GROUP_NAME = 'mwscr';
 export const VK_GROUP_ID = -138249959;

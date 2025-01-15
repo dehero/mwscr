@@ -1,86 +1,77 @@
-import { z } from 'zod';
-import { listItems } from '../utils/common-utils.js';
+import type { InferOutput } from 'valibot';
+import { literal, object, picklist, tuple, union, variant } from 'valibot';
 import {
-  getPostTypesFromContent,
   Post,
   PostAuthor,
   PostContent,
-  PostMark,
   PostRequest as PostRequestField,
   PostTitle,
   PostTitleRu,
-  PostType,
   PostViolation,
 } from './post.js';
 import { ImageResourceUrl, VideoResourceUrl } from './resource.js';
 import { checkRules } from './rule.js';
 
-export type PostCheck<TPost extends Post> = (post: Post, errors?: string[]) => post is TPost;
+export const ViolatingPost = object({ ...Post.entries, violation: PostViolation });
+export const OrdinaryPost = object({ ...Post.entries, mark: picklist(['D', 'F']) });
+export const RevisitablePost = object({ ...Post.entries, mark: picklist(['F']) });
+export const TrashItem = union([ViolatingPost, OrdinaryPost]);
 
-export const ViolatingPost = Post.extend({ violation: PostViolation });
-export const OrdinaryPost = Post.extend({ mark: PostMark.extract(['D', 'F']) });
-export const RevisitablePost = Post.extend({ mark: PostMark.extract(['F']) });
-export const TrashItem = z.union([ViolatingPost, OrdinaryPost]);
+export const PostDraft = object({ ...Post.entries, content: PostContent, author: PostAuthor });
+export const PostRequest = object({ ...Post.entries, request: PostRequestField });
+export const InboxItem = union([PostDraft, PostRequest]);
 
-export const PostDraft = Post.extend({ content: PostContent, author: PostAuthor });
-export const PostRequest = Post.extend({ request: PostRequestField });
-export const InboxItem = z.union([PostDraft, PostRequest]);
+export const TrashOrInboxItem = union([TrashItem, InboxItem]);
 
-export const TrashOrInboxItem = z.union([TrashItem, InboxItem]);
-
-export const PublishablePost = z.intersection(
-  Post.extend({
-    title: PostTitle,
-    titleRu: PostTitleRu,
-    author: PostAuthor,
-    mark: PostMark.extract(['A1', 'A2', 'B1', 'B2', 'C', 'E']),
-  }),
-  // https://github.com/colinhacks/zod/issues/2524
-  Post.extend({
-    content: PostContent,
-  }).superRefine((value, ctx) => {
-    const possibleTypes = getPostTypesFromContent(value.content);
-
-    if (!possibleTypes.includes(value.type)) {
-      ctx.addIssue({
-        code: z.ZodIssueCode.custom,
-        message:
-          possibleTypes.length === 0
-            ? 'Unable to detect possible post type from content'
-            : `Detected post type ${listItems(possibleTypes, true)}, got "${value.type}"`,
-      });
-    }
-  }),
-);
-
-const BasePublishablePost = Post.extend({
+const BasePublishablePost = object({
+  ...Post.entries,
   title: PostTitle,
   titleRu: PostTitleRu,
   author: PostAuthor,
-  mark: PostMark.extract(['A1', 'A2', 'B1', 'B2', 'C', 'E']),
+  content: PostContent,
+  mark: picklist(['A1', 'A2', 'B1', 'B2', 'C', 'E']),
 });
 
-export const ShotPost = BasePublishablePost.extend({ type: PostType.extract(['shot']), content: ImageResourceUrl });
-export const ShotSetPost = BasePublishablePost.extend({
-  type: PostType.extract(['shot-set']),
-  content: z.tuple([ImageResourceUrl, ImageResourceUrl, ImageResourceUrl, ImageResourceUrl]),
-});
-export const RedrawingPost = BasePublishablePost.extend({
-  type: PostType.extract(['redrawing']),
-  content: z.tuple([ImageResourceUrl, ImageResourceUrl]),
-});
-export const WallpaperPost = BasePublishablePost.extend({
-  type: PostType.extract(['wallpaper']),
+export const ShotPost = object({
+  ...BasePublishablePost.entries,
+  type: literal('shot'),
   content: ImageResourceUrl,
 });
-export const WallpaperVPost = BasePublishablePost.extend({
-  type: PostType.extract(['wallpaper-v']),
+export const ShotSetPost = object({
+  ...BasePublishablePost.entries,
+  type: literal('shot-set'),
+  content: tuple(
+    [ImageResourceUrl, ImageResourceUrl, ImageResourceUrl, ImageResourceUrl],
+    'Should be 4 shot resources',
+  ),
+});
+export const RedrawingPost = object({
+  ...BasePublishablePost.entries,
+  type: literal('redrawing'),
+  content: tuple([ImageResourceUrl, ImageResourceUrl], 'Should be a tuple of drawing and shot resources'),
+});
+export const WallpaperPost = object({
+  ...BasePublishablePost.entries,
+  type: literal('wallpaper'),
   content: ImageResourceUrl,
 });
-export const VideoPost = BasePublishablePost.extend({ type: PostType.extract(['video']), content: VideoResourceUrl });
-export const ClipPost = BasePublishablePost.extend({ type: PostType.extract(['clip']), content: VideoResourceUrl });
+export const WallpaperVPost = object({
+  ...BasePublishablePost.entries,
+  type: literal('wallpaper-v'),
+  content: ImageResourceUrl,
+});
+export const VideoPost = object({
+  ...BasePublishablePost.entries,
+  type: literal('video'),
+  content: VideoResourceUrl,
+});
+export const ClipPost = object({
+  ...BasePublishablePost.entries,
+  type: literal('clip'),
+  content: VideoResourceUrl,
+});
 
-export const PublishablePostTest = z.discriminatedUnion('type', [
+const PublishablePost = variant('type', [
   ShotPost,
   ShotSetPost,
   RedrawingPost,
@@ -90,14 +81,14 @@ export const PublishablePostTest = z.discriminatedUnion('type', [
   ClipPost,
 ]);
 
-export type ViolatingPost = z.infer<typeof ViolatingPost>;
-export type OrdinaryPost = z.infer<typeof OrdinaryPost>;
-export type RevisitablePost = z.infer<typeof RevisitablePost>;
-export type TrashItem = z.infer<typeof TrashItem>;
-export type PostDraft = z.infer<typeof PostDraft>;
-export type PostRequest = z.infer<typeof PostRequest>;
-export type InboxItem = z.infer<typeof InboxItem>;
-export type PublishablePost = z.infer<typeof PublishablePost>;
+export type ViolatingPost = InferOutput<typeof ViolatingPost>;
+export type OrdinaryPost = InferOutput<typeof OrdinaryPost>;
+export type RevisitablePost = InferOutput<typeof RevisitablePost>;
+export type TrashItem = InferOutput<typeof TrashItem>;
+export type PostDraft = InferOutput<typeof PostDraft>;
+export type PostRequest = InferOutput<typeof PostRequest>;
+export type InboxItem = InferOutput<typeof InboxItem>;
+export type PublishablePost = InferOutput<typeof PublishablePost>;
 
 export function isRevisitablePost(post: Post, errors?: string[]): post is RevisitablePost {
   return checkRules([RevisitablePost], post, errors);
@@ -135,3 +126,19 @@ export function getPublishedPostChunkName(id: string) {
 export function getPostDraftChunkName(id: string) {
   return id.split('.')[1]?.split('-')[0] ?? new Date().getFullYear().toString();
 }
+
+// try {
+//   const result = parse(PublishablePost, {
+//     content: [
+//       'store:/inbox/dehero.2024-09-21-11-34-14.png',
+//       'store:/inbox/dehero.2024-09-21-11-33-54.png',
+//       'store:/inbox/dehero.2024-09-21-11-33-50.png',
+//     ],
+//     type: 'shot-set',
+//     author: 'dehero',
+//   });
+
+//   console.log(result);
+// } catch (error: unknown) {
+//   console.log(JSON.stringify(error));
+// }

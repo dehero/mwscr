@@ -3,6 +3,7 @@ import { postMark, postViolation } from '../../core/entities/github-issue-field.
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import { PostMark, PostViolation } from '../../core/entities/post.js';
 import { label } from '../../core/github-issues/post-review.js';
+import { safeParseOutput } from '../../core/utils/validation-utils.js';
 import { inbox, posts, trash } from '../data-managers/posts.js';
 import { extractIssueFieldValue, extractIssueUser, issueDropdownToInput } from './utils/issue-utils.js';
 
@@ -21,8 +22,8 @@ export async function resolve(issue: GithubIssue) {
   const markStr = extractIssueFieldValue(postMark, issue.body);
   const violationStr = extractIssueFieldValue(postViolation, issue.body);
 
-  post.mark = PostMark.safeParse(markStr).data;
-  post.violation = PostViolation.safeParse(violationStr).data;
+  post.mark = safeParseOutput(PostMark, markStr);
+  post.violation = safeParseOutput(PostViolation, violationStr);
 
   await manager.updateItem(id);
 

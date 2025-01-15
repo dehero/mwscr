@@ -7,6 +7,7 @@ import type { SiteRouteInfo } from '../../../../core/entities/site-route.js';
 import type { DateRange, SortDirection } from '../../../../core/utils/common-types.js';
 import { isObjectEqual, stringToBool } from '../../../../core/utils/common-utils.js';
 import { dateRangeToString, stringToDateRange } from '../../../../core/utils/date-utils.js';
+import { safeParseOutput } from '../../../../core/utils/validation-utils.js';
 import { useSearchParams } from '../../../hooks/useSearchParams.js';
 import type { PostsRouteParams } from '../../../routes/posts-route.js';
 import type { PostsPageInfo, PostsPageSearchParams } from '../PostsPage.jsx';
@@ -76,12 +77,12 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
 
   const original = () => stringToBool(searchParams().original);
   const publishable = () => stringToBool(searchParams().publishable);
-  const type = () => PostType.safeParse(searchParams().type).data;
+  const type = () => safeParseOutput(PostType, searchParams().type);
   const tag = () => searchParams().tag;
   const location = () => searchParams().location;
   const author = () => searchParams().author;
   const requester = () => searchParams().requester;
-  const mark = () => PostMark.safeParse(searchParams().mark).data;
+  const mark = () => safeParseOutput(PostMark, searchParams().mark);
   const violation = () =>
     [ANY_OPTION.value, NONE_OPTION.value, ...PostViolation.options].find(
       (violation) => violation === searchParams().violation,

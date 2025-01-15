@@ -1,7 +1,8 @@
-import { z } from 'zod';
+import type { InferOutput } from 'valibot';
+import { picklist } from 'valibot';
 
 // Cross-entity field names in order of serialization
-export const Field = z.enum([
+export const Field = picklist([
   // Post
   'title',
   'titleRu',
@@ -50,7 +51,7 @@ export const Field = z.enum([
   'cell',
 ]);
 
-export type Field = z.infer<typeof Field>;
+export type Field = InferOutput<typeof Field>;
 
 interface FieldDescriptor {
   title: string;

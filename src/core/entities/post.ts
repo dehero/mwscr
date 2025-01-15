@@ -1,4 +1,5 @@
-import { z } from 'zod';
+import type { InferOutput } from 'valibot';
+import { array, date, nonEmpty, object, optional, picklist, pipe, string, transform, trim, union } from 'valibot';
 import type { SortDirection } from '../utils/common-types.js';
 import { arrayFromAsync, asArray } from '../utils/common-utils.js';
 import { dateToString, isDateInRange, stringToDate } from '../utils/date-utils.js';
@@ -19,16 +20,16 @@ import { USER_DEFAULT_AUTHOR } from './user.js';
 
 export const POST_RECENTLY_PUBLISHED_DAYS = 31;
 
-export const PostTitle = z.string().trim().nonempty().transform(postTitleFromString);
-export const PostTitleRu = z.string().trim().nonempty();
-export const PostDescription = z.string().trim().nonempty();
-export const PostContent = ResourceUrl.or(ResourceUrl.array());
-export const PostLocation = z.string().nonempty().or(z.string().nonempty().array());
-export const PostType = z.enum(['shot', 'shot-set', 'video', 'clip', 'redrawing', 'wallpaper', 'wallpaper-v']);
-export const PostAddon = z.enum(['Tribunal', 'Bloodmoon']);
-export const PostEngine = z.enum(['OpenMW', 'Vanilla']);
-export const PostMark = z.enum(['A1', 'A2', 'B1', 'B2', 'C', 'D', 'E', 'F']);
-export const PostViolation = z.enum([
+export const PostTitle = pipe(string(), trim(), nonEmpty(), transform(postTitleFromString));
+export const PostTitleRu = pipe(string(), trim(), nonEmpty());
+export const PostDescription = pipe(string(), trim(), nonEmpty());
+export const PostContent = union([ResourceUrl, array(ResourceUrl)]);
+export const PostLocation = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
+export const PostType = picklist(['shot', 'shot-set', 'video', 'clip', 'redrawing', 'wallpaper', 'wallpaper-v']);
+export const PostAddon = picklist(['Tribunal', 'Bloodmoon']);
+export const PostEngine = picklist(['OpenMW', 'Vanilla']);
+export const PostMark = picklist(['A1', 'A2', 'B1', 'B2', 'C', 'D', 'E', 'F']);
+export const PostViolation = picklist([
   'inappropriate-content',
   'jpeg-artifacts',
   'graphic-issues',
@@ -40,44 +41,44 @@ export const PostViolation = z.enum([
   'unreachable-resource',
   'unsupported-resource',
 ]);
-export const PostAuthor = z.string().nonempty().or(z.string().nonempty().array());
-export const PostTag = z.string().nonempty();
-export const PostRequest = z.object({ date: z.date(), user: z.string().nonempty(), text: z.string().nonempty() });
+export const PostAuthor = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
+export const PostTag = pipe(string(), nonEmpty());
+export const PostRequest = object({ date: date(), user: pipe(string(), nonEmpty()), text: pipe(string(), nonEmpty()) });
 
-export const Post = z.object({
-  title: PostTitle.optional(),
-  titleRu: PostTitleRu.optional(),
-  description: PostDescription.optional(),
-  descriptionRu: PostDescription.optional(),
-  location: PostLocation.optional(),
-  content: PostContent.optional(),
-  trash: PostContent.optional(),
+export const Post = object({
+  title: optional(PostTitle),
+  titleRu: optional(PostTitleRu),
+  description: optional(PostDescription),
+  descriptionRu: optional(PostDescription),
+  location: optional(PostLocation),
+  content: optional(PostContent),
+  trash: optional(PostContent),
   type: PostType,
-  author: PostAuthor.optional(),
-  tags: z.array(PostTag).optional(),
-  engine: PostEngine.optional(),
-  addon: PostAddon.optional(),
-  request: PostRequest.optional(),
-  mark: PostMark.optional(),
-  violation: PostViolation.optional(),
-  posts: z.array(Publication).optional(),
+  author: optional(PostAuthor),
+  tags: optional(array(PostTag)),
+  engine: optional(PostEngine),
+  addon: optional(PostAddon),
+  request: optional(PostRequest),
+  mark: optional(PostMark),
+  violation: optional(PostViolation),
+  posts: optional(array(Publication)),
 });
 
-export type PostTitle = z.infer<typeof PostTitle>;
-export type PostTitleRu = z.infer<typeof PostTitleRu>;
-export type PostDescription = z.infer<typeof PostDescription>;
-export type PostContent = z.infer<typeof PostContent>;
-export type PostLocation = z.infer<typeof PostLocation>;
-export type PostType = z.infer<typeof PostType>;
-export type PostAddon = z.infer<typeof PostAddon>;
-export type PostEngine = z.infer<typeof PostEngine>;
-export type PostMark = z.infer<typeof PostMark>;
-export type PostViolation = z.infer<typeof PostViolation>;
-export type PostAuthor = z.infer<typeof PostAuthor>;
-export type PostTag = z.infer<typeof PostTag>;
-export type PostRequest = z.infer<typeof PostRequest>;
+export type PostTitle = InferOutput<typeof PostTitle>;
+export type PostTitleRu = InferOutput<typeof PostTitleRu>;
+export type PostDescription = InferOutput<typeof PostDescription>;
+export type PostContent = InferOutput<typeof PostContent>;
+export type PostLocation = InferOutput<typeof PostLocation>;
+export type PostType = InferOutput<typeof PostType>;
+export type PostAddon = InferOutput<typeof PostAddon>;
+export type PostEngine = InferOutput<typeof PostEngine>;
+export type PostMark = InferOutput<typeof PostMark>;
+export type PostViolation = InferOutput<typeof PostViolation>;
+export type PostAuthor = InferOutput<typeof PostAuthor>;
+export type PostTag = InferOutput<typeof PostTag>;
+export type PostRequest = InferOutput<typeof PostRequest>;
 
-export type Post = z.infer<typeof Post>;
+export type Post = InferOutput<typeof Post>;
 
 export type PostEntry<TPost extends Post = Post> = [id: string, post: TPost, refId?: string];
 export type PostEntries<TPost extends Post = Post> = ReadonlyArray<PostEntry<TPost>>;
