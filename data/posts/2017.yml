@@ -160,7 +160,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2025-01-08-20-08-25
+      updated: 2025-01-15-21-02-15
       followers: 894
       likes: 47
       views: 367
@@ -9161,10 +9161,10 @@
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-01-08-20-08-23
+      updated: 2025-01-15-21-02-14
       followers: 1038
-      likes: 37
-      views: 379
+      likes: 38
+      views: 394
       reposts: 1
       comments: !c |-
         G1IA+J0JdiwXiwm2XHYcUe1IT5+tDJsEI0z2PGWlNCWbjYcPp1yKLYw4kWMgAT5zZLJTE42yKmre
@@ -9172,10 +9172,10 @@
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-01-08-20-08-24
+      updated: 2025-01-15-21-02-13
       followers: 644
-      likes: 63
-      views: 373
+      likes: 65
+      views: 456
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
@@ -12041,17 +12041,17 @@
       id: DE0MjAjSIq6
       mediaId: '18023130176338578'
       published: 2025-01-14-18-10-31
-      updated: 2025-01-15-20-08-08
+      updated: 2025-01-15-21-02-10
       followers: 1525
-      likes: 63
-      views: 211
+      likes: 64
+      views: 212
     - service: vk
       id: 2057
       published: 2025-01-14-18-10-37
-      updated: 2025-01-15-20-08-10
+      updated: 2025-01-15-21-02-11
       followers: 1052
       likes: 40
-      views: 180
+      views: 185
       reposts: 2
       comments: !c |-
         GwoBSJwJdiyXCQdrkR4XF/0TN4rwjxdwxhk2CR7hyT7VtvQJb084hCuDQrNXWILlTYy/nz1ZTnfH
@@ -12061,10 +12061,10 @@
     - service: tg
       id: 667
       published: 2025-01-14-18-10-44
-      updated: 2025-01-15-20-08-09
+      updated: 2025-01-15-21-02-11
       followers: 650
       likes: 56
-      views: 200
+      views: 204
 2017-11-26-in-the-cell-of-vuvil-senim:
   title: In the Cell of Vuvil Senim
   titleRu: В камере Вувила Сенима
