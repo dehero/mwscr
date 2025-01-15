@@ -1240,7 +1240,7 @@
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2025-01-08-10-08-28
+      updated: 2025-01-15-11-02-10
       followers: 926
       likes: 28
       views: 282
@@ -1248,10 +1248,10 @@
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2025-01-08-10-08-27
+      updated: 2025-01-15-11-02-08
       followers: 502
       likes: 70
-      views: 634
+      views: 635
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -2994,7 +2994,7 @@
     - service: vk
       id: 1550
       published: 2024-05-28-18-19-10
-      updated: 2025-01-08-10-08-37
+      updated: 2025-01-15-11-02-18
       followers: 917
       likes: 25
       views: 290
@@ -3005,10 +3005,10 @@
     - service: tg
       id: 422
       published: 2024-05-28-18-19-16
-      updated: 2025-01-08-10-08-33
+      updated: 2025-01-15-11-02-15
       followers: 378
       likes: 64
-      views: 449
+      views: 450
 2018-03-25-ships:
   title: Ships
   titleRu: Корабли
@@ -4735,7 +4735,7 @@
     - service: vk
       id: 1628
       published: 2024-07-09-18-20-20
-      updated: 2025-01-08-10-08-32
+      updated: 2025-01-15-11-02-14
       followers: 920
       likes: 35
       views: 259
@@ -4743,10 +4743,10 @@
     - service: tg
       id: 464
       published: 2024-07-09-18-20-26
-      updated: 2025-01-08-10-08-30
+      updated: 2025-01-15-11-02-11
       followers: 396
       likes: 69
-      views: 470
+      views: 471
     - service: ig
       id: C9VfE-NtTXs
       mediaId: '18072831043475404'
@@ -5802,10 +5802,10 @@
     - service: vk
       id: 1611
       published: 2024-07-02-18-20-16
-      updated: 2025-01-08-10-08-33
+      updated: 2025-01-15-11-02-15
       followers: 918
       likes: 40
-      views: 380
+      views: 381
       reposts: 1
       comments: !c |-
         G7oA+B2JsY2aLays8sOF+H+ek+kEv012hj7ETpJg4sl9RqnbLCF6DMViH+fi9Hxa3tQsSkXyY/xs
@@ -5814,10 +5814,10 @@
     - service: tg
       id: 457
       published: 2024-07-02-18-20-23
-      updated: 2025-01-08-10-08-31
+      updated: 2025-01-15-11-02-12
       followers: 391
       likes: 58
-      views: 441
+      views: 443
     - service: ig
       id: C9O19DjtjrY
       mediaId: '17907523406989990'
@@ -10158,20 +10158,20 @@
       id: DExn5skTWOM
       mediaId: '17876857326238567'
       published: 2025-01-13-18-11-48
-      updated: 2025-01-15-10-08-16
+      updated: 2025-01-15-11-02-05
       followers: 1524
-      likes: 134
-      views: 387
+      likes: 135
+      views: 389
       comments: !c |-
         CyOAkpPLQnlGFtiOAACpaXN0c2llbGl6rPCflKXwn5Sl8J+UpZPLQnlGEL4OAACoMjJjb2luczex
         QmV0dHkgYmV0dHkgbmV0Y2gD
     - service: vk
       id: 2052
       published: 2025-01-13-18-12-09
-      updated: 2025-01-15-10-08-17
+      updated: 2025-01-15-11-02-06
       followers: 1052
       likes: 36
-      views: 217
+      views: 220
       reposts: 2
       comments: !c |-
         G7sCICwPeLK94jRkvxRi0U1OxT+lYR3//P897fMI3f+oac0bCCTjgQhLGuAkwmQfslSdOERH2TC+
@@ -10189,10 +10189,10 @@
         - 665
         - 666
       published: 2025-01-13-18-12-27
-      updated: 2025-01-15-10-08-17
+      updated: 2025-01-15-11-02-06
       followers: 648
       likes: 55
-      views: 409
+      views: 419
 2018-10-07-on-the-way-to-the-crater:
   title: On the Way to the Crater
   titleRu: На пути к кратеру
