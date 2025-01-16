@@ -2979,7 +2979,7 @@
     - service: vk
       id: 1690
       published: 2024-08-14-18-25-51
-      updated: 2025-01-09-07-08-12
+      updated: 2025-01-16-08-10-14
       followers: 931
       likes: 52
       views: 499
@@ -2987,7 +2987,7 @@
     - service: tg
       id: 501
       published: 2024-08-14-18-26-00
-      updated: 2025-01-09-07-08-10
+      updated: 2025-01-16-08-10-13
       followers: 527
       likes: 67
       views: 658
@@ -7617,7 +7617,7 @@
     - service: vk
       id: 1736
       published: 2024-09-04-18-31-41
-      updated: 2025-01-09-07-08-09
+      updated: 2025-01-16-08-10-12
       followers: 942
       likes: 37
       views: 344
@@ -7628,10 +7628,10 @@
     - service: tg
       id: 522
       published: 2024-09-04-18-31-49
-      updated: 2025-01-09-07-08-08
+      updated: 2025-01-16-08-10-11
       followers: 550
       likes: 67
-      views: 790
+      views: 792
 2017-07-21-scamp-defending-the-entrance-to-maelkashishi:
   title: Scamp Defending the Entrance to Maelkashishi
   titleRu: Скамп, охраняющий вход в Мелкашиши
@@ -12041,17 +12041,17 @@
       id: DE0MjAjSIq6
       mediaId: '18023130176338578'
       published: 2025-01-14-18-10-31
-      updated: 2025-01-16-07-07-40
+      updated: 2025-01-16-08-10-09
       followers: 1525
       likes: 67
-      views: 222
+      views: 223
     - service: vk
       id: 2057
       published: 2025-01-14-18-10-37
-      updated: 2025-01-16-07-07-41
+      updated: 2025-01-16-08-10-10
       followers: 1052
       likes: 41
-      views: 188
+      views: 191
       reposts: 2
       comments: !c |-
         GwoBSJwJdiyXCQdrkR4XF/0TN4rwjxdwxhk2CR7hyT7VtvQJb084hCuDQrNXWILlTYy/nz1ZTnfH
@@ -12061,10 +12061,10 @@
     - service: tg
       id: 667
       published: 2025-01-14-18-10-44
-      updated: 2025-01-16-07-07-40
+      updated: 2025-01-16-08-10-09
       followers: 650
       likes: 59
-      views: 213
+      views: 216
 2017-11-26-in-the-cell-of-vuvil-senim:
   title: In the Cell of Vuvil Senim
   titleRu: В камере Вувила Сенима
