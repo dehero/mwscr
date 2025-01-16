@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRfgcN7DM6L/)       | 2017-03-11 |       |    39 |       105 |  37.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_192)  | 2017-03-11 |   144 |     8 |        45 |      9 |
-| [`ig`](https://instagram.com/p/DE5WIOBTqaO/)       | 2025-01-16 |   213 |    68 |      1522 |   4.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |    95 |    16 |      1053 |   1.61 |
-| [`tg`](https://t.me/mwscr/669)                     | 2025-01-16 |   104 |    36 |       655 |    5.5 |
-|                                                    |            |   412 |   120 |      3230 |  11.54 |
+| [`ig`](https://instagram.com/p/DE5WIOBTqaO/)       | 2025-01-16 |   234 |    68 |      1522 |   4.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   101 |    19 |      1053 |    1.9 |
+| [`tg`](https://t.me/mwscr/669)                     | 2025-01-16 |   114 |    38 |       655 |    5.8 |
+|                                                    |            |   449 |   125 |      3230 |  11.66 |
 
 #### Comments
 
@@ -44,6 +44,7 @@
 - `vk` <ins title="2017-03-11-15-48-46">dehero</ins> Никита, насколько мне известно, разработка такого конвертера идёт, но довольно медленными темпами. Использовать его мне не приходилось, сборок для Windows я тоже не видел.<br>Спасибо за оценку.
 - `ig` <ins title="2025-01-16-19-13-20">delanospies</ins> @dravenjv
   - <ins title="2025-01-16-21-48-54">dravenjv</ins> let us go on a pilgrimage, brother
+  - <ins title="2025-01-16-22-11-44">delanospies</ins> @dravenjv yes brother, ill take large kwama eggs with me
 - `ig` <ins title="2025-01-16-21-21-15">ride_the_rathorn</ins> Always loved that area, may I shrink to dust…
 - `tg` <ins title="2025-01-16-21-28-53">Aellaria</ins> Які кольори, яка краса!
 
@@ -71,8 +72,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_746)  | 2018-05-28 |   279 |    25 |       167 |  14.97 |
 | [`ig`](https://instagram.com/p/DE2xU3uvvrq/)       | 2025-01-15 |   282 |    85 |      1522 |   5.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2067) | 2025-01-15 |   284 |    37 |      1053 |    3.7 |
-| [`tg`](https://t.me/mwscr/668)                     | 2025-01-15 |   186 |    59 |       654 |   9.02 |
-|                                                    |            |   752 |   181 |      3229 |  14.93 |
+| [`tg`](https://t.me/mwscr/668)                     | 2025-01-15 |   191 |    59 |       654 |   9.02 |
+|                                                    |            |   757 |   181 |      3229 |  14.93 |
 
 #### Comments
 

@@ -2748,29 +2748,30 @@
       id: DE5WIOBTqaO
       mediaId: '18075654520713798'
       published: 2025-01-16-18-10-26
-      updated: 2025-01-16-22-06-58
+      updated: 2025-01-16-23-07-54
       followers: 1522
       likes: 68
-      views: 213
+      views: 234
       comments: !c |-
-        G6MA4B0Jtq2aNeDB4o/sIJb3mHUxRV4iQbQNeLe7yZBWZMt/f5P0XSCBjg0U/jka2zINMc0pB+y1
-        SBIIBNLw9xhb12OYyHPMxd3q94cXhgu0aYEWsulxiV9ahuAFLeaELZAbelj1YqKDbczD/D97EVyk
-        Cy7hSRzXyYj1zSzkENEeAmE5wMHxS7zYYF9BjTBGIDAZr5YRo0wF
+        G/MAYBwHzpkvTmcI9S+FLu3y9DG2gHIBiQZXB5Y87XmwixboGqAFK1CLbNlyW6rXqiEZ3W/eAH3+
+        HY86YjRGqk9PNDCupUnQVtaWSIQhtUB/veHDc2h7JDVSPru+HSn+swCPLzu3InPz0rM3m3Iwgs7R
+        4mrhVWVg4ZFbsRPdtbH8wzSCvaC2BNhRxTyuwvi0Jg/teMgG9n4BNpUXBuOrE15U2x0qaP18pQqY
+        kvyplYBA81UWjn0KZccdSA43CCw0tQVJThg=
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-01-16-22-06-58
+      updated: 2025-01-16-23-07-54
       followers: 1053
-      likes: 16
-      views: 95
+      likes: 19
+      views: 101
       reposts: 1
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-01-16-22-06-58
+      updated: 2025-01-16-23-07-54
       followers: 655
-      likes: 36
-      views: 104
+      likes: 38
+      views: 114
       comments: !c |-
         Cx+AkZPLQnlHEE4ggACoQWVsbGFyaWHZKdCv0LrRliDQutC+0LvRjNC+0YDQuCwg0Y/QutCwINC6
         0YDQsNGB0LAhAw==
@@ -6686,7 +6687,7 @@
     - service: vk
       id: 1445
       published: 2024-03-13-18-17-34
-      updated: 2025-01-09-22-07-21
+      updated: 2025-01-16-23-08-01
       followers: 897
       likes: 33
       views: 287
@@ -6697,10 +6698,10 @@
     - service: tg
       id: 344
       published: 2024-03-13-18-17-41
-      updated: 2025-01-09-22-07-19
+      updated: 2025-01-16-23-07-58
       followers: 349
       likes: 64
-      views: 538
+      views: 540
       comments: !c |-
         G+4DIJwHtg3vDJUeLhr3Ytksel4GJ8VfjU2IonUTmmlCUlQZIZopShGVe2abWOWrKpxsJVc1M7kn
         geMPkkfqWXBuQjMYRir9LQt4FqkTGEiCtJHbYgK/vtTEf4JZTpRIXWb+bwn6MdAMw8yu066bbuxF
@@ -8661,10 +8662,10 @@
     - service: vk
       id: 1885
       published: 2024-11-07-18-10-36
-      updated: 2025-01-09-22-07-20
+      updated: 2025-01-16-23-08-00
       followers: 1005
       likes: 31
-      views: 314
+      views: 315
       reposts: 1
     - service: tg
       id: 588
