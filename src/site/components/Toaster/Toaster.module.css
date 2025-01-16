@@ -23,3 +23,8 @@
   text-align: center;
   text-wrap: balance;
 }
+
+.messageBoxMessage {
+  max-width: 300px;
+  margin: 0;
+}

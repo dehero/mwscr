@@ -2,6 +2,8 @@ import { ReactiveMap } from '@solid-primitives/map';
 import type { Component, JSX } from 'solid-js';
 import { createContext, createEffect, createSignal, For, onCleanup, Show, useContext } from 'solid-js';
 import { isServer } from 'solid-js/web';
+import { Button } from '../Button/Button.jsx';
+import { Dialog } from '../Dialog/Dialog.js';
 import { Frame } from '../Frame/Frame.js';
 import { Loader } from '../Loader/Loader.js';
 import styles from './Toaster.module.css';
@@ -9,11 +11,13 @@ import styles from './Toaster.module.css';
 export interface ToasterContext {
   addToast: (message: string, duration?: number, loading?: boolean) => string;
   removeToast: (id: string) => void;
+  messageBox: (message: string, buttons: string[]) => Promise<number>;
 }
 
 export const ToasterContext = createContext<ToasterContext>({
   addToast: () => '',
   removeToast: () => {},
+  messageBox: () => Promise.resolve(-1),
 });
 
 export const useToaster = () => useContext(ToasterContext);
@@ -32,14 +36,22 @@ export interface ToasterProps {
   initialToasts?: Array<[string, ToastProps]>;
 }
 
+interface MessageBoxProps {
+  message: string;
+  buttons: string[];
+}
+
 function createToastId() {
   return Math.random().toString();
 }
 
 export const Toaster: Component<ToasterProps> = (props) => {
+  let messageBoxResolve: ((value: number | PromiseLike<number>) => void) | undefined;
+
   const toasts = new ReactiveMap<string, Toast>(props.initialToasts?.filter(([, props]) => props.show) || []);
   const [toastIdsWaitingForAnimationEnd, setToastIdsWaitingForAnimationEnd] = createSignal<string[]>([]);
   const [isAnimatingLoader, setIsAnimatingLoader] = createSignal(true);
+  const [messageBoxProps, setMessageBoxProps] = createSignal<MessageBoxProps | undefined>();
 
   const addToast = (message: string, duration = 3000, loading = false) => {
     const id = createToastId();
@@ -58,6 +70,13 @@ export const Toaster: Component<ToasterProps> = (props) => {
     }
   };
 
+  const messageBox = (message: string, buttons: string[]): Promise<number> => {
+    setMessageBoxProps({ message, buttons });
+    return new Promise<number>((resolve) => {
+      messageBoxResolve = resolve;
+    });
+  };
+
   const hints = () => [...toasts].filter(([, toast]) => !toast.loading);
   const activeLoaderEntry = () => [...toasts].filter(([, toast]) => toast.loading)[0];
 
@@ -69,6 +88,12 @@ export const Toaster: Component<ToasterProps> = (props) => {
       toasts.delete(id);
     }
     setToastIdsWaitingForAnimationEnd([]);
+  };
+
+  const handleMessageBoxButtonClick = (index: number) => {
+    messageBoxResolve?.(index);
+    messageBoxResolve = undefined;
+    setMessageBoxProps(undefined);
   };
 
   createEffect(() => {
@@ -86,7 +111,7 @@ export const Toaster: Component<ToasterProps> = (props) => {
   });
 
   return (
-    <ToasterContext.Provider value={{ addToast, removeToast }}>
+    <ToasterContext.Provider value={{ addToast, removeToast, messageBox }}>
       {props.children}
       <div class={styles.container}>
         <For each={hints()}>{([, toast]) => <Frame class={styles.item}>{toast.message}</Frame>}</For>
@@ -105,6 +130,18 @@ export const Toaster: Component<ToasterProps> = (props) => {
           )}
         </Show>
       </div>
+
+      <Dialog
+        modal
+        show={Boolean(messageBoxProps())}
+        onClose={() => handleMessageBoxButtonClick(-1)}
+        class={styles.messageBox}
+        actions={messageBoxProps()?.buttons.map((text, index) => (
+          <Button onClick={() => handleMessageBoxButtonClick(index)}>{text}</Button>
+        ))}
+      >
+        <p class={styles.messageBoxMessage}>{messageBoxProps()?.message}</p>
+      </Dialog>
     </ToasterContext.Provider>
   );
 };
