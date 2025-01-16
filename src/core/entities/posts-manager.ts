@@ -24,7 +24,7 @@ import {
 } from './post.js';
 import type { PostAction } from './post-action.js';
 import { PostVariant } from './post-variant.js';
-import { checkRules } from './rule.js';
+import { checkSchema } from './schema.js';
 
 export const ViolatingProposal = object({ ...Post.entries, violation: PostViolation });
 export const OrdinaryProposal = object({ ...Post.entries, mark: literal('D') });
@@ -74,27 +74,27 @@ export const postsManagerDescriptors = Object.freeze<Record<PostsManagerName, Po
 });
 
 export function isReferenceProposal(post: Post, errors?: string[]): post is ReferenceProposal {
-  return checkRules([ReferenceProposal], post, errors);
+  return checkSchema(ReferenceProposal, post, errors);
 }
 
 export function isTrashItem(post: Post, errors?: string[]): post is TrashItem {
-  return checkRules([TrashItem], post, errors);
+  return checkSchema(TrashItem, post, errors);
 }
 
 export function isPublishablePost(post: Post, errors?: string[]): post is PublishablePost {
-  return checkRules([PublishablePost], post, errors);
+  return checkSchema(PublishablePost, post, errors);
 }
 
 export function isRequestProposal(post: Post, errors?: string[]): post is RequestProposal {
-  return checkRules([RequestProposal], post, errors);
+  return checkSchema(RequestProposal, post, errors);
 }
 
 export function isInboxItem(post: Post, errors?: string[]): post is InboxItem {
-  return checkRules([InboxItem], post, errors);
+  return checkSchema(InboxItem, post, errors);
 }
 
 export function isTrashOrInboxItem(post: Post, errors?: string[]): post is TrashItem | InboxItem {
-  return checkRules([TrashOrInboxItem], post, errors);
+  return checkSchema(TrashOrInboxItem, post, errors);
 }
 
 export function getPublishedPostChunkName(id: string) {

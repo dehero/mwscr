@@ -3,7 +3,7 @@ import { intersect, nonEmpty, object, pipe, string, variant } from 'valibot';
 import { Post, PostTitle } from '../entities/post.js';
 import { Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
 import { Publication } from '../entities/publication.js';
-import { checkRules } from '../entities/rule.js';
+import { checkSchema } from '../entities/schema.js';
 import type { PostingService } from '../entities/service.js';
 
 export const InstagramPost = intersect([
@@ -25,7 +25,7 @@ export class Instagram implements PostingService<InstagramPublication> {
   }
 
   canPublishPost(post: Post, errors: string[] = []): post is InstagramPost {
-    return checkRules([InstagramPost], post, errors);
+    return checkSchema(InstagramPost, post, errors);
   }
 
   getPublicationUrl(publication: Publication) {

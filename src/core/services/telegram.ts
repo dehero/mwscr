@@ -3,8 +3,11 @@ import { array, intersect, number, object, union, variant } from 'valibot';
 import { Post, PostTitle } from '../entities/post.js';
 import { Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
 import { Publication } from '../entities/publication.js';
-import { checkRules } from '../entities/rule.js';
+import { checkSchema } from '../entities/schema.js';
 import type { PostingService } from '../entities/service.js';
+
+export const TELEGRAM_CHANNEL = 'mwscr';
+export const TELEGRAM_BOT_NAME = 'mwscrbot';
 
 export const TelegramPost = intersect([
   object({ ...Post.entries, title: PostTitle }),
@@ -19,10 +22,6 @@ export const TelegramPublication = object({
 export type TelegramPost = InferOutput<typeof TelegramPost>;
 export type TelegramPublication = InferOutput<typeof TelegramPublication>;
 
-export const TELEGRAM_CHANNEL = 'mwscr';
-
-export const TELEGRAM_BOT_NAME = 'mwscrbot';
-
 export class Telegram implements PostingService<TelegramPublication> {
   readonly id = 'tg';
   readonly name = 'Telegram';
@@ -36,7 +35,7 @@ export class Telegram implements PostingService<TelegramPublication> {
   }
 
   canPublishPost(post: Post, errors: string[] = []): post is TelegramPost {
-    return checkRules([TelegramPost], post, errors);
+    return checkSchema(TelegramPost, post, errors);
   }
 
   getPublicationUrl(publication: Publication) {

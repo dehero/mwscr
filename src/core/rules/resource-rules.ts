@@ -4,32 +4,32 @@ import { listItems } from '../utils/common-utils.js';
 
 export type ResourceRule = Rule<Resource>;
 
-export function needCertainMimeType(mimeTypes: string[]) {
-  return (resource: Resource): resource is Resource => {
+export function needCertainMimeType(mimeTypes: string[]): ResourceRule {
+  return (resource: Resource) => {
     const [, mimeType] = resource;
     if (!mimeType || !mimeTypes.includes(mimeType)) {
-      throw new Error(`need mime type ${listItems(mimeTypes, true)}, got "${mimeType}"`);
+      return `need mime type ${listItems(mimeTypes, true)}, got "${mimeType}"`;
     }
-    return true;
+    return undefined;
   };
 }
 
-export function needMinSize(minSize: number) {
-  return (resource: Resource): resource is Resource => {
+export function needMinSize(minSize: number): ResourceRule {
+  return (resource: Resource) => {
     const [data] = resource;
     if (data.length < minSize) {
-      throw new Error(`need min size ${minSize}, got ${data.length}`);
+      return `need min size ${minSize}, got ${data.length}`;
     }
-    return true;
+    return undefined;
   };
 }
 
-export function needMaxSize(maxSize: number) {
-  return (resource: Resource): resource is Resource => {
+export function needMaxSize(maxSize: number): ResourceRule {
+  return (resource: Resource) => {
     const [data] = resource;
     if (data.length > maxSize) {
-      throw new Error(`need max size ${maxSize}, got ${data.length}`);
+      return `need max size ${maxSize}, got ${data.length}`;
     }
-    return true;
+    return undefined;
   };
 }

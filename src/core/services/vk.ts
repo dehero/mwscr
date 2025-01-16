@@ -3,8 +3,11 @@ import { intersect, number, object, variant } from 'valibot';
 import { Post, PostTitleRu } from '../entities/post.js';
 import { Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
 import { Publication } from '../entities/publication.js';
-import { checkRules } from '../entities/rule.js';
+import { checkSchema } from '../entities/schema.js';
 import type { PostingService } from '../entities/service.js';
+
+export const VK_GROUP_NAME = 'mwscr';
+export const VK_GROUP_ID = -138249959;
 
 export const VKPost = intersect([
   object({ ...Post.entries, titleRu: PostTitleRu }),
@@ -19,9 +22,6 @@ export const VKPublication = object({
 export type VKPost = InferOutput<typeof VKPost>;
 export type VKPublication = InferOutput<typeof VKPublication>;
 
-export const VK_GROUP_NAME = 'mwscr';
-export const VK_GROUP_ID = -138249959;
-
 export class VK implements PostingService<VKPublication> {
   readonly id = 'vk';
   readonly name = 'VK';
@@ -32,7 +32,7 @@ export class VK implements PostingService<VKPublication> {
   }
 
   canPublishPost(post: Post, errors: string[] = []): post is VKPost {
-    return checkRules([VKPost], post, errors);
+    return checkSchema(VKPost, post, errors);
   }
 
   getDonationUrl() {

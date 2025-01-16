@@ -5,12 +5,12 @@ import { createResource, createSignal, For, Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION } from '../../../core/entities/option.js';
+import { safeParseSchema } from '../../../core/entities/schema.js';
 import { UserRole } from '../../../core/entities/user.js';
 import type { SelectUserInfosParams, SelectUserInfosSortKey } from '../../../core/entities/user-info.js';
 import { selectUserInfosResultToString, selectUserInfosSortOptions } from '../../../core/entities/user-info.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { isObjectEqual } from '../../../core/utils/common-utils.js';
-import { safeParseOutput } from '../../../core/utils/validation-utils.js';
 import { dataExtractor } from '../../data-managers/extractor.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
@@ -76,7 +76,7 @@ export const UsersPage = (): JSX.Element => {
     return options;
   };
 
-  const userRole = () => safeParseOutput(UserRole, searchParams().role);
+  const userRole = () => safeParseSchema(UserRole, searchParams().role);
   const sortKey = () =>
     selectUserInfosSortOptions.find((sortOption) => sortOption.value === searchParams().sort?.split(',')[0])?.value ||
     'contribution';

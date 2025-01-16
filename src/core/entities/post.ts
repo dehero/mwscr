@@ -10,7 +10,7 @@ import { PostVariant } from './post-variant.js';
 import type { PublicationComment } from './publication.js';
 import { getPublicationEngagement, isPublicationEqual, mergePublications, Publication } from './publication.js';
 import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, ResourceUrl } from './resource.js';
-import { checkRules } from './rule.js';
+import { checkSchema } from './schema.js';
 import { USER_DEFAULT_AUTHOR } from './user.js';
 
 export const POST_RECENTLY_PUBLISHED_DAYS = 31;
@@ -164,7 +164,7 @@ export const postViolationDescriptors = Object.freeze<Record<PostViolation, Post
 });
 
 export function isPost(value: unknown, errors?: string[]): value is Post {
-  return checkRules([Post], value, errors);
+  return checkSchema(Post, value, errors);
 }
 
 export function getPostTotalLikes(post: Post) {

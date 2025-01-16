@@ -12,100 +12,104 @@ import type { Rule } from '../entities/rule.js';
 export type PostCandidateRule = Rule<PublishablePost, PostEntries>;
 
 export function needMinContentDistance(minContentDistance: number): PostCandidateRule {
-  return (post: PublishablePost, postEntries?: PostEntries): post is PublishablePost => {
+  return (post: PublishablePost, postEntries?: PostEntries) => {
     if (!postEntries) {
-      return false;
+      return undefined;
     }
 
     const { distance, message } = getPostContentDistance(post.content, postEntries);
 
     if (distance < minContentDistance) {
-      throw new Error(`${message}, expected minimum ${minContentDistance}`);
+      return `${message}, expected minimum ${minContentDistance}`;
     }
-    return true;
+
+    return undefined;
   };
 }
 
 export function needMinTypeDistance(minTypeDistance: number): PostCandidateRule {
-  return (post: PublishablePost, postEntries?: PostEntries): post is PublishablePost => {
+  return (post: PublishablePost, postEntries?: PostEntries) => {
     if (!postEntries) {
-      return false;
+      return undefined;
     }
 
     const { distance, message } = getPostTypeDistance(post.type, postEntries);
 
     if (distance < minTypeDistance) {
-      throw new Error(`${message}, expected minimum ${minTypeDistance}`);
+      return `${message}, expected minimum ${minTypeDistance}`;
     }
-    return true;
+
+    return undefined;
   };
 }
 
 export function needMinAuthorDistance(minAuthorDistance: number): PostCandidateRule {
-  return (post: PublishablePost, postEntries?: PostEntries): post is PublishablePost => {
+  return (post: PublishablePost, postEntries?: PostEntries) => {
     if (!post.author || !postEntries) {
-      return false;
+      return undefined;
     }
 
     const { distance, message } = getPostAuthorDistance(post.author, postEntries);
 
     if (distance < minAuthorDistance) {
-      throw new Error(`${message}, expected minimum ${minAuthorDistance}`);
+      return `${message}, expected minimum ${minAuthorDistance}`;
     }
-    return true;
+
+    return undefined;
   };
 }
 
 export function needMinMarkDistance(mark: PostMark, minMarkDistance: number): PostCandidateRule {
-  return (post: PublishablePost, postEntries?: PostEntries): post is PublishablePost => {
+  return (post: PublishablePost, postEntries?: PostEntries) => {
     if (!postEntries) {
-      return false;
+      return undefined;
     }
 
     if (post.mark !== mark) {
-      return true;
+      return undefined;
     }
 
     const { distance, message } = getPostMarkDistance(post.mark, postEntries);
 
     if (distance < minMarkDistance) {
-      throw new Error(`${message}, expected minimum ${minMarkDistance}`);
+      return `${message}, expected minimum ${minMarkDistance}`;
     }
-    return true;
+
+    return undefined;
   };
 }
 
 export function needMaxMarkDistance(mark: PostMark, maxMarkDistance: number): PostCandidateRule {
-  return (post: PublishablePost, postEntries?: PostEntries): post is PublishablePost => {
+  return (post: PublishablePost, postEntries?: PostEntries) => {
     if (!postEntries) {
-      return false;
+      return undefined;
     }
 
     const { distance } = getPostMarkDistance(mark, postEntries);
 
     if (distance > maxMarkDistance && post.mark !== mark) {
-      throw new Error(`need mark ${mark}, got ${post.mark}`);
+      return `need mark ${mark}, got ${post.mark}`;
     }
 
-    return true;
+    return undefined;
   };
 }
 
 export function needMinRelatedLocationDistance(minLocationDistance: number): PostCandidateRule {
-  return (post: PublishablePost, postEntries?: PostEntries): post is PublishablePost => {
+  return (post: PublishablePost, postEntries?: PostEntries) => {
     if (!postEntries) {
-      return false;
+      return undefined;
     }
 
     if (!post.location) {
-      return true;
+      return undefined;
     }
 
     const { distance, message } = getPostRelatedLocationDistance(post.location, postEntries);
     if (distance < minLocationDistance) {
-      throw new Error(`${message}, expected minimum ${minLocationDistance}`);
+      return `${message}, expected minimum ${minLocationDistance}`;
     }
 
-    return true;
+    return undefined;
   };
 }

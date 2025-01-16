@@ -8,7 +8,8 @@ import type { DraftProposal, InboxItem, PublishablePost, TrashItem } from '../..
 import { createInboxItemId } from '../../core/entities/posts-manager.js';
 import type { Resource, ResourceType } from '../../core/entities/resource.js';
 import { ImageResourceUrl, parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
-import { assertRules, checkRules } from '../../core/entities/rule.js';
+import { checkRules } from '../../core/entities/rule.js';
+import { assertSchema } from '../../core/entities/schema.js';
 import {
   getTargetStoreDirFromPostType,
   parseStoreResourceUrl,
@@ -186,7 +187,7 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
       const newUrl = `store:/${dir}/${id}${ext}`;
       const { originalUrl: newOriginalUrl } = parseStoreResourceUrl(newUrl);
 
-      assertRules([ImageResourceUrl], newUrl, (message) => `Cannot create published shot url: ${message}`);
+      assertSchema(ImageResourceUrl, newUrl, (message) => `Cannot create published shot url: ${message}`);
 
       if (post.content !== RESOURCE_MISSING_IMAGE) {
         await moveResource(post.content, newUrl);
@@ -216,7 +217,7 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
       const { ext } = parseResourceUrl(oldDrawingUrl);
       const newDrawingUrl = `store:/${STORE_DRAWINGS_DIR}/${id}${ext}`;
 
-      assertRules([ImageResourceUrl], newDrawingUrl, (message) => `Cannot create published drawing url: ${message}`);
+      assertSchema(ImageResourceUrl, newDrawingUrl, (message) => `Cannot create published drawing url: ${message}`);
 
       if (shotUrl !== RESOURCE_MISSING_IMAGE && !(await resourceExists(shotUrl))) {
         throw new Error(`Need "${shotUrl}" to exist for post type "${post.type}"`);
