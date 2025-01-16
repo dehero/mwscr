@@ -11,9 +11,9 @@ body:
       options:
         - shot
         - shot-set
+        - redrawing
         - video
         - clip
-        - redrawing
         - wallpaper
         - wallpaper-v
       default: 0

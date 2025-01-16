@@ -26,7 +26,7 @@ body:
     id: postType
     attributes:
       label: Post Type
-      placeholder: shot shot-set video clip redrawing wallpaper wallpaper-v
+      placeholder: shot shot-set redrawing video clip wallpaper wallpaper-v
   - type: input
     id: postAuthor
     attributes:
@@ -63,9 +63,9 @@ body:
     attributes:
       label: Violation
       placeholder: >-
-        Inappropriate content JPEG artifacts Graphic issues No anti-aliasing
-        Non-vanilla look Uses or requires mods UI is visible Unclear request
-        Unreachable resource Unsupported resource
+        inappropriate-content jpeg-artifacts graphic-issues no-anti-aliasing
+        non-vanilla-look uses-mods ui-visible unclear-request
+        unreachable-resource unsupported-resource
   - type: textarea
     id: postTrash
     attributes:
