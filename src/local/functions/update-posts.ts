@@ -26,7 +26,7 @@ async function updatePublications(service: PostingServiceManager, postEntries: P
 
   const updatablePublications = postEntries
     .flatMap(
-      ([id, post]): Array<[id: string, publication: Publication<unknown>]> =>
+      ([id, post]): Array<[id: string, publication: Publication]> =>
         post.posts
           ?.filter((publication) => publication.service === service.id && isPublicationUpdatable(publication))
           ?.map((publication) => [id, publication]) ?? [],

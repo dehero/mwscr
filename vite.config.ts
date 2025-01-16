@@ -8,7 +8,7 @@ import { imagetools } from 'vite-imagetools';
 import multiplePublicDirPlugin from 'vite-multiple-assets';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 import pkg from './package.json';
-import { POSTS_MANAGER_INFOS } from './src/core/entities/posts-manager.js';
+import { PostsManagerName } from './src/core/entities/posts-manager.js';
 import { dataExtractor } from './src/local/data-managers/extractor.js';
 import { YAML_SCHEMA } from './src/local/data-managers/utils/yaml.js';
 
@@ -63,7 +63,7 @@ export default defineConfig(({ isSsrBuild }) => ({
           transform: async () => JSON.stringify(await dataExtractor.getAllUserInfos()),
           rename: 'user-infos.json',
         },
-        ...POSTS_MANAGER_INFOS.map(({ name }) => ({
+        ...PostsManagerName.options.map((name) => ({
           src: `../../data/${name}/*.yml`,
           dest: `data/${name}`,
           transform: async () => JSON.stringify(await dataExtractor.getAllPostInfos(name)),

@@ -1,21 +1,40 @@
-export const RESOURCE_PROTOCOLS = ['store:', 'file:', 'http:', 'https:'] as const;
+import type { InferOutput } from 'valibot';
+import { custom, is, nonEmpty, picklist, pipe, string } from 'valibot';
+import { listItems } from '../utils/common-utils.js';
 
-export const RESOURCE_TYPES = ['image', 'video', 'archive'] as const;
+export const ResourceProtocol = picklist(['store:', 'file:', 'http:', 'https:']);
+export const ResourceType = picklist(['image', 'video', 'archive']);
 
-const RESOURCE_REGEX_IMAGE = /.(png|webp|jpg)$/;
-const RESOURCE_REGEX_VIDEO = /.(avi|mp4)$/;
+export const ImageResourceExtension = picklist(['.png', '.webp', '.jpg']);
+export const VideoResourceExtension = picklist(['.avi', '.mp4']);
 
 export const RESOURCE_MISSING_IMAGE = 'MISSING_IMAGE.png';
 export const RESOURCE_MISSING_VIDEO = 'MISSING_VIDEO.mp4';
 
-export type ResourceProtocol = (typeof RESOURCE_PROTOCOLS)[number];
-export type ResourceType = (typeof RESOURCE_TYPES)[number];
+export type ResourceProtocol = InferOutput<typeof ResourceProtocol>;
+export type ResourceType = InferOutput<typeof ResourceType>;
 
-export function isResourceProtocol(value: unknown): value is ResourceProtocol {
-  return typeof value === 'string' && RESOURCE_PROTOCOLS.includes(value as ResourceProtocol);
-}
+export const ResourceUrl = pipe(string('Should be resource string'), nonEmpty('Should not be empty'));
 
-export type ResourceUrl = `${ResourceProtocol}/${string}`;
+export const ImageResourceUrl = pipe(
+  ResourceUrl,
+  custom<`${string}${InferOutput<typeof ImageResourceExtension>}`>(
+    (value) => ImageResourceExtension.options.some((ext) => String(value).endsWith(ext)),
+    `Should end with image extension ${listItems(ImageResourceExtension.options, true)}"`,
+  ),
+);
+
+export const VideoResourceUrl = pipe(
+  ResourceUrl,
+  custom<`${string}${InferOutput<typeof VideoResourceExtension>}`>(
+    (value) => VideoResourceExtension.options.some((ext) => String(value).endsWith(ext)),
+    `Should end with video extension ${listItems(VideoResourceExtension.options, true)}"`,
+  ),
+);
+
+export type ResourceUrl = InferOutput<typeof ResourceUrl>;
+export type ImageResourceUrl = InferOutput<typeof ImageResourceUrl>;
+export type VideoResourceUrl = InferOutput<typeof VideoResourceUrl>;
 
 export interface ResourceParsedUrl {
   protocol: ResourceProtocol;
@@ -33,7 +52,7 @@ export function parseResourceUrl(url: string): ResourceParsedUrl {
   const [, dir = '', base = ''] = /^(\/.+)?\/([^\/]+)$/.exec(pathname) ?? [];
   const [, name = '', ext = ''] = /^(.*)(\.[^.]+)$/.exec(base) ?? [];
 
-  if (!isResourceProtocol(protocol)) {
+  if (!is(ResourceProtocol, protocol)) {
     throw new Error(`Unknown protocol ${protocol}`);
   }
 
@@ -47,10 +66,10 @@ export function parseResourceUrl(url: string): ResourceParsedUrl {
   };
 }
 
-export function resourceIsImage(url: string): boolean {
-  return RESOURCE_REGEX_IMAGE.test(url);
+export function resourceIsImage(url: string): url is ImageResourceUrl {
+  return is(ImageResourceUrl, url);
 }
 
-export function resourceIsVideo(url: string): boolean {
-  return RESOURCE_REGEX_VIDEO.test(url);
+export function resourceIsVideo(url: string): url is VideoResourceUrl {
+  return is(VideoResourceUrl, url);
 }

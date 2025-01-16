@@ -4,10 +4,11 @@ import mime from 'mime';
 import type { PostContent, PostEntry, PostViolation } from '../../core/entities/post.js';
 import { mergePostContents } from '../../core/entities/post.js';
 import { postTitleFromString } from '../../core/entities/post-title.js';
-import type { InboxItem, PostDraft, PublishablePost, TrashItem } from '../../core/entities/post-variation.js';
+import type { DraftProposal, InboxItem, PublishablePost, TrashItem } from '../../core/entities/posts-manager.js';
+import { createInboxItemId } from '../../core/entities/posts-manager.js';
 import type { Resource, ResourceType } from '../../core/entities/resource.js';
-import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
-import { checkRules } from '../../core/entities/rule.js';
+import { ImageResourceUrl, parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
+import { assertRules, checkRules } from '../../core/entities/rule.js';
 import {
   getTargetStoreDirFromPostType,
   parseStoreResourceUrl,
@@ -17,10 +18,8 @@ import {
 } from '../../core/entities/store.js';
 import { USER_UNKNOWN } from '../../core/entities/user.js';
 import { importingScenarios } from '../../core/scenarios/importing.js';
-import { asArray } from '../../core/utils/common-utils.js';
+import { asArray, getDataHash } from '../../core/utils/common-utils.js';
 import { extractDateFromString } from '../../core/utils/date-utils.js';
-import { getDataHash } from '../utils/data-utils.js';
-import { createInboxItemId } from './posts.js';
 import {
   extractResourceMediaMetadata,
   moveResource,
@@ -31,9 +30,9 @@ import {
 
 export async function importResourceToStore(
   resource: string | Resource,
-  template?: Partial<PostDraft>,
+  template?: Partial<DraftProposal>,
   templateDate?: Date,
-): Promise<PostEntry<PostDraft>[]> {
+): Promise<PostEntry<DraftProposal>[]> {
   let violation: PostViolation | undefined;
   let data, mimeType, filename;
 
@@ -102,7 +101,7 @@ export async function importResourceToStore(
       }
 
       if (files) {
-        const result: PostEntry<PostDraft>[] = [];
+        const result: PostEntry<DraftProposal>[] = [];
 
         for (const file of files) {
           if (file.type !== 'file') {
@@ -124,7 +123,7 @@ export async function importResourceToStore(
     }
   }
 
-  const draft: PostDraft = {
+  const draft: DraftProposal = {
     ...template,
     content,
     author,
@@ -178,12 +177,6 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
     case 'shot':
     case 'wallpaper':
     case 'wallpaper-v': {
-      if (typeof post.content !== 'string') {
-        throw new TypeError(
-          `Need content to be of type "string" for post type "${post.type}", got "${typeof post.content}"`,
-        );
-      }
-
       const dir = getTargetStoreDirFromPostType(post.type);
       if (!dir) {
         throw new Error(`Unable to detect target store directory for post type "${post.type}"`);
@@ -192,6 +185,8 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
       const { ext, originalUrl } = parseStoreResourceUrl(post.content);
       const newUrl = `store:/${dir}/${id}${ext}`;
       const { originalUrl: newOriginalUrl } = parseStoreResourceUrl(newUrl);
+
+      assertRules([ImageResourceUrl], newUrl, (message) => `Cannot create published shot url: ${message}`);
 
       if (post.content !== RESOURCE_MISSING_IMAGE) {
         await moveResource(post.content, newUrl);
@@ -207,11 +202,6 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
       break;
     }
     case 'shot-set': {
-      if (!Array.isArray(post.content)) {
-        throw new TypeError(
-          `Need content to be of type "Array" for post type "${post.type}", got "${typeof post.content}"`,
-        );
-      }
       for (const url of post.content) {
         if (url !== RESOURCE_MISSING_IMAGE && !(await resourceExists(url))) {
           throw new Error(`Need "${url}" to exist for post type "${post.type}"`);
@@ -220,25 +210,13 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
       break;
     }
     case 'redrawing': {
-      if (!Array.isArray(post.content)) {
-        throw new TypeError(
-          `Need content to be of type "Array" for post type "${post.type}", got "${typeof post.content}"`,
-        );
-      }
-
       const oldDrawingUrl = post.content[0];
       const shotUrl = post.content[1];
 
-      if (!oldDrawingUrl) {
-        throw new TypeError(`No drawing url in content for post type "${post.type}"`);
-      }
-
-      if (!shotUrl) {
-        throw new TypeError(`No shot url in content for post type "${post.type}"`);
-      }
-
       const { ext } = parseResourceUrl(oldDrawingUrl);
       const newDrawingUrl = `store:/${STORE_DRAWINGS_DIR}/${id}${ext}`;
+
+      assertRules([ImageResourceUrl], newDrawingUrl, (message) => `Cannot create published drawing url: ${message}`);
 
       if (shotUrl !== RESOURCE_MISSING_IMAGE && !(await resourceExists(shotUrl))) {
         throw new Error(`Need "${shotUrl}" to exist for post type "${post.type}"`);

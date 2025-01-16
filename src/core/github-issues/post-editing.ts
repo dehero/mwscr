@@ -1,3 +1,4 @@
+import { GITHUB_ISSUE_CREATE_URL, GITHUB_ISSUE_DEFAULT_TITLE } from '../entities/github-issue.js';
 import {
   postAddon,
   postAuthor,
@@ -12,8 +13,7 @@ import {
   postTrash,
   postType,
   postViolation,
-} from '../entities/field.js';
-import { GITHUB_ISSUE_CREATE_URL, GITHUB_ISSUE_DEFAULT_TITLE } from '../entities/github-issue.js';
+} from '../entities/github-issue-field.js';
 import type { Post } from '../entities/post.js';
 import { asArray } from '../utils/common-utils.js';
 

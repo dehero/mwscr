@@ -1,3 +1,4 @@
+import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
 import {
   postAddon,
   postAuthor,
@@ -12,24 +13,24 @@ import {
   postTrash,
   postType,
   postViolation,
-} from '../../core/entities/field.js';
-import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
+} from '../../core/entities/github-issue-field.js';
 import type { ListReaderEntry } from '../../core/entities/list-manager.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import type { Location } from '../../core/entities/location.js';
-import type { PostViolation } from '../../core/entities/post.js';
 import {
   mergeAuthors,
   mergePostContents,
   mergePostLocations,
-  POST_ADDONS,
-  POST_ENGINES,
-  POST_MARKS,
-  POST_TYPES,
-  POST_VIOLATIONS,
+  PostAddon,
+  PostEngine,
+  PostMark,
+  PostType,
+  PostViolation,
 } from '../../core/entities/post.js';
+import { ResourceUrl } from '../../core/entities/resource.js';
 import { label } from '../../core/github-issues/post-editing.js';
 import { asArray } from '../../core/utils/common-utils.js';
+import { safeParseOutput } from '../../core/utils/validation-utils.js';
 import { locations } from '../data-managers/locations.js';
 import { inbox, trash } from '../data-managers/posts.js';
 import {
@@ -57,8 +58,14 @@ export async function resolve(issue: GithubIssue) {
   const violationStr = extractIssueFieldValue(postViolation, issue.body);
   const rawLocation = extractIssueTextareaValue(postLocation, issue.body)?.split(/\r?\n/).filter(Boolean);
   const requestText = extractIssueFieldValue(postRequestText, issue.body);
-  const rawContent = extractIssueTextareaValue(postContent, issue.body)?.split(/\r?\n/).filter(Boolean);
-  const rawTrash = extractIssueTextareaValue(postTrash, issue.body)?.split(/\r?\n/).filter(Boolean);
+  const rawContent = extractIssueTextareaValue(postContent, issue.body)
+    ?.split(/\r?\n/)
+    .map((url) => safeParseOutput(ResourceUrl, url))
+    .filter((url): url is ResourceUrl => typeof url !== 'undefined');
+  const rawTrash = extractIssueTextareaValue(postTrash, issue.body)
+    ?.split(/\r?\n/)
+    .map((url) => safeParseOutput(ResourceUrl, url))
+    .filter((url): url is ResourceUrl => typeof url !== 'undefined');
   const oldContent = post.content;
   const oldTrash = post.trash;
 
@@ -73,12 +80,12 @@ export async function resolve(issue: GithubIssue) {
     asArray(oldContent).filter((url) => !rawContent?.includes(url)),
   );
   post.author = mergeAuthors(extractIssueFieldValue(postAuthor, issue.body)?.split(/\s+/).filter(Boolean));
-  post.type = POST_TYPES.find((info) => info.id === typeStr)?.id ?? 'shot';
+  post.type = safeParseOutput(PostType, typeStr) ?? 'shot';
   post.tags = extractIssueFieldValue(postTags, issue.body)?.split(/\s+/).filter(Boolean);
-  post.engine = POST_ENGINES.find((engine) => engine === engineStr);
-  post.addon = POST_ADDONS.find((addon) => addon === addonStr);
-  post.mark = POST_MARKS.find((info) => info.id === markStr)?.id;
-  post.violation = [...Object.keys(POST_VIOLATIONS)].find((id) => id === violationStr) as PostViolation | undefined;
+  post.engine = safeParseOutput(PostEngine, engineStr);
+  post.addon = safeParseOutput(PostAddon, addonStr);
+  post.mark = safeParseOutput(PostMark, markStr);
+  post.violation = safeParseOutput(PostViolation, violationStr);
   post.location = mergePostLocations(
     rawLocation
       ? (await locations.findEntries(rawLocation.map((title) => ({ title }))))

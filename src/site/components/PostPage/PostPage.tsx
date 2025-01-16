@@ -16,12 +16,11 @@ import {
   getPostEntryViews,
   getPostRating,
   getPostTypeAspectRatio,
-  POST_TYPES,
-  POST_VIOLATIONS,
+  postTypeDescriptors,
+  postViolationDescriptors,
 } from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
-import { isPublishablePost, isTrashItem } from '../../../core/entities/post-variation.js';
-import { POSTS_MANAGER_INFOS } from '../../../core/entities/posts-manager.js';
+import { isPublishablePost, isTrashItem, postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { youtube } from '../../../core/services/youtube.js';
@@ -62,9 +61,7 @@ export const PostPage = (): JSX.Element => {
 
   const [selectedContentIndex, setSelectedContentIndex] = createSignal(0);
 
-  const postActions = createMemo(
-    (): PostAction[] => POSTS_MANAGER_INFOS.find((info) => info.name === params().managerName)?.actions ?? [],
-  );
+  const postActions = createMemo((): PostAction[] => postsManagerDescriptors[params().managerName].actions);
   const postEntry = (): PostEntry | undefined => (data().post ? [params().id, data().post!] : undefined);
 
   const date = () => getPostDateById(params().id);
@@ -346,7 +343,7 @@ export const PostPage = (): JSX.Element => {
                     },
                     {
                       label: 'Type',
-                      value: POST_TYPES.find((info) => info.id === post.type)?.title,
+                      value: postTypeDescriptors[post.type].title,
                       link: postsRoute.createUrl({ managerName: params().managerName, type: post.type }),
                     },
                     ...(data().authorOptions ?? []).map(
@@ -405,9 +402,9 @@ export const PostPage = (): JSX.Element => {
                                 variant="flat"
                                 class={clsx(styles.icon, styles.tableIcon)}
                               >
-                                {POST_VIOLATIONS[post.violation!].letter}
+                                {postViolationDescriptors[post.violation!].letter}
                               </Icon>
-                              {POST_VIOLATIONS[post.violation!].title}
+                              {postViolationDescriptors[post.violation!].title}
                             </>
                           )
                         : undefined,

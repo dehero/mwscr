@@ -1,5 +1,5 @@
-import { postLocation } from '../entities/field.js';
 import { GITHUB_ISSUE_CREATE_URL, GITHUB_ISSUE_DEFAULT_TITLE } from '../entities/github-issue.js';
+import { postLocation } from '../entities/github-issue-field.js';
 import type { PostLocation } from '../entities/post.js';
 import { asArray } from '../utils/common-utils.js';
 

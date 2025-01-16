@@ -1,34 +1,34 @@
-import type { Post } from '../entities/post.js';
-import type { Publication } from '../entities/publication.js';
+import type { InferOutput } from 'valibot';
+import { intersect, nonEmpty, object, pipe, string, variant } from 'valibot';
+import { Post, PostTitle } from '../entities/post.js';
+import { Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
+import { Publication } from '../entities/publication.js';
 import { checkRules } from '../entities/rule.js';
 import type { PostingService } from '../entities/service.js';
-import { needCertainType, needContent, needTitle } from '../rules/post-rules.js';
 
-export interface InstagramSuitablePost extends Post {
-  title: string;
-  content: string;
-  type: 'shot';
-}
+export const InstagramPost = intersect([
+  object({ ...Post.entries, title: PostTitle }),
+  variant('type', [Redrawing, Shot, ShotSet, Wallpaper, VerticalWallpaper]),
+]);
 
-export type InstagramPost = Publication<string>;
+export const InstagramPublication = object({ ...Publication.entries, id: pipe(string(), nonEmpty()) });
 
-export class Instagram implements PostingService<InstagramPost> {
+export type InstagramPost = InferOutput<typeof InstagramPost>;
+export type InstagramPublication = InferOutput<typeof InstagramPublication>;
+
+export class Instagram implements PostingService<InstagramPublication> {
   readonly id = 'ig';
   readonly name = 'Instagram';
 
-  isPost(publication: Publication<unknown>): publication is InstagramPost {
+  isPost(publication: Publication): publication is InstagramPublication {
     return publication.service === this.id && typeof publication.id === 'string';
   }
 
-  canPublishPost(post: Post, errors: string[] = []): post is InstagramSuitablePost {
-    return checkRules(
-      [needCertainType('shot', 'wallpaper', 'wallpaper-v', 'redrawing', 'shot-set'), needTitle, needContent],
-      post,
-      errors,
-    );
+  canPublishPost(post: Post, errors: string[] = []): post is InstagramPost {
+    return checkRules([InstagramPost], post, errors);
   }
 
-  getPublicationUrl(publication: Publication<unknown>) {
+  getPublicationUrl(publication: Publication) {
     if (!this.isPost(publication)) {
       return;
     }

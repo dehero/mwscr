@@ -4,8 +4,13 @@ import { type Component, createMemo, createSignal, Match, Show, Switch } from 's
 import type { LocationInfo } from '../../../core/entities/location-info.js';
 import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../core/entities/option.js';
-import type { PostViolation } from '../../../core/entities/post.js';
-import { POST_MARKS, POST_TYPES, POST_VIOLATIONS } from '../../../core/entities/post.js';
+import {
+  PostMark,
+  PostType,
+  postTypeDescriptors,
+  PostViolation,
+  postViolationDescriptors,
+} from '../../../core/entities/post.js';
 import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
 import { boolToString, stringToBool } from '../../../core/utils/common-utils.js';
 import type { PostsRouteParams } from '../../routes/posts-route.js';
@@ -226,9 +231,9 @@ export const Parameters: Component<ParametersProps> = (props) => {
                       name="type"
                       options={[
                         ALL_OPTION,
-                        ...POST_TYPES.map((info) => ({ value: info.id, label: info.title })).sort((a, b) =>
-                          a.label.localeCompare(b.label),
-                        ),
+                        ...PostType.options
+                          .map((value) => ({ value, label: postTypeDescriptors[value].title }))
+                          .sort((a, b) => a.label.localeCompare(b.label)),
                       ]}
                       value={props.parameters.type()}
                       onChange={props.parameters.setType}
@@ -322,7 +327,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                   <div class={styles.selectWrapper}>
                     <Select
                       name="mark"
-                      options={[ALL_OPTION, ...POST_MARKS.map(({ id }) => ({ value: id }))]}
+                      options={[ALL_OPTION, ...PostMark.options.map((value) => ({ value }))]}
                       value={props.parameters.mark()}
                       onChange={props.parameters.setMark}
                       class={styles.select}
@@ -340,9 +345,9 @@ export const Parameters: Component<ParametersProps> = (props) => {
                         ALL_OPTION,
                         ANY_OPTION,
                         NONE_OPTION,
-                        ...Object.entries(POST_VIOLATIONS).map(([value, violation]) => ({
-                          value: value as PostViolation,
-                          label: violation.title,
+                        ...PostViolation.options.map((value) => ({
+                          value,
+                          label: postViolationDescriptors[value].title,
                         })),
                       ]}
                       value={props.parameters.violation()}

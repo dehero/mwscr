@@ -17,11 +17,11 @@ import {
   getPostEntryLikes,
   getPostEntryViews,
   getPostRating,
-  getPublicationEngagement,
-  POST_VIOLATIONS,
+  postViolationDescriptors,
 } from '../../core/entities/post.js';
 import type { PostAction } from '../../core/entities/post-action.js';
-import { isTrashItem } from '../../core/entities/post-variation.js';
+import { isTrashItem } from '../../core/entities/posts-manager.js';
+import { getPublicationEngagement } from '../../core/entities/publication.js';
 import { parseResourceUrl } from '../../core/entities/resource.js';
 import type { PostingService } from '../../core/entities/service.js';
 import { USER_UNKNOWN } from '../../core/entities/user.js';
@@ -273,7 +273,7 @@ async function renderPostEntry(postEntry: PostEntry, options: RenderPostsOptions
   }
 
   if (post.violation) {
-    lines.push('> [!CAUTION]', `> ${POST_VIOLATIONS[post.violation]}.`, '');
+    lines.push('> [!CAUTION]', `> ${postViolationDescriptors[post.violation]}.`, '');
   }
 
   const errors: string[] = [];

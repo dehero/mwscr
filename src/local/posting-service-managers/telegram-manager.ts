@@ -6,13 +6,13 @@ import { Logger, LogLevel } from 'telegram/extensions/Logger.js';
 // eslint-disable-next-line import/extensions
 import { StringSession } from 'telegram/sessions/index.js';
 import type { Post, PostEntry } from '../../core/entities/post.js';
-import { getPostFirstPublished, getPostTypesFromContent, POST_TYPES } from '../../core/entities/post.js';
+import { getPostFirstPublished, getPostTypeFromContent, postTypeDescriptors } from '../../core/entities/post.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import { site } from '../../core/services/site.js';
-import type { TelegramPost } from '../../core/services/telegram.js';
+import type { TelegramPublication } from '../../core/services/telegram.js';
 import { Telegram, TELEGRAM_CHANNEL } from '../../core/services/telegram.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
@@ -96,7 +96,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
     const lines: string[] = [];
     const contributors: string[] = [];
-    const titlePrefix = post.type !== 'shot' ? POST_TYPES.find(({ id }) => id === post.type)?.title : undefined;
+    const titlePrefix = post.type !== 'shot' ? postTypeDescriptors[post.type].title : undefined;
 
     if (post.title) {
       lines.push([titlePrefix, post.title].filter(Boolean).join(': '));
@@ -281,7 +281,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     );
   }
 
-  async updatePublication(publication: Publication<unknown>) {
+  async updatePublication(publication: Publication) {
     if (!this.isPost(publication)) {
       return;
     }
@@ -329,7 +329,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
     const id = Array.isArray(result) ? result.map((item: Api.Message) => item.id) : result.id;
 
-    const publication: TelegramPost = {
+    const publication: TelegramPublication = {
       service: this.id,
       id,
       followers,
@@ -366,7 +366,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     return { title: message, author: author || USER_DEFAULT_AUTHOR };
   }
 
-  async grabPosts(afterPublication?: Publication<unknown>) {
+  async grabPosts(afterPublication?: Publication) {
     if (afterPublication && !this.isPost(afterPublication)) {
       throw new Error(`Invalid ${this.name} post`);
     }
@@ -411,7 +411,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     const messages = result.messages.filter((message): message is Api.Message => message instanceof Api.Message);
     const posts: Post[] = [];
     let post: Post | undefined;
-    let publication: TelegramPost | undefined;
+    let publication: TelegramPublication | undefined;
 
     for (const message of messages) {
       const id = message.id;
@@ -440,7 +440,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
           title,
           content,
           author,
-          type: getPostTypesFromContent(content)[0] ?? 'shot', // TODO: get proper type from media
+          type: getPostTypeFromContent(content) ?? 'shot', // TODO: get proper type from media
           posts: [publication],
         };
         posts.push(post);
@@ -449,7 +449,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
         publication.likes = Math.max(publication.likes || 0, likes || 0) || undefined;
         publication.views = Math.max(publication.views || 0, message.views || 0) || undefined;
         post.content = publication.id.map(() => RESOURCE_MISSING_IMAGE);
-        post.type = getPostTypesFromContent(post.content)[0] ?? post.type;
+        post.type = getPostTypeFromContent(post.content) ?? post.type;
       }
     }
 

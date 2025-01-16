@@ -1,41 +1,35 @@
+import type { InferOutput } from 'valibot';
+import { array, date, minValue, nonEmpty, number, object, optional, pipe, string, trim, unknown } from 'valibot';
 import { asArray } from '../utils/common-utils.js';
 import { getDaysPassed, getMinutesPassed } from '../utils/date-utils.js';
-import { checkRules, needObject, needProperty } from './rule.js';
 
-export interface Publication<TId> {
-  service: string;
-  id: TId;
-  code?: string;
-  mediaId?: string;
-  published: Date;
-  updated?: Date;
-  followers?: number;
-  likes?: number;
-  views?: number;
-  reposts?: number;
-  comments?: PublicationComment[];
-}
+const BaseComment = object({ datetime: date(), author: pipe(string(), nonEmpty()), text: pipe(string(), trim()) });
 
-export interface PublicationComment {
-  datetime: Date;
-  author: string;
-  text: string;
-  replies?: PublicationComment[];
-}
+export const PublicationComment = object({
+  ...BaseComment.entries,
+  replies: optional(array(BaseComment)),
+});
+export type PublicationComment = InferOutput<typeof PublicationComment>;
 
-export function isPublicationComment(value: unknown, errors?: string[]): value is PublicationComment {
-  return checkRules(
-    [needObject, needProperty('author', 'string'), needProperty('text', 'string'), needProperty('datetime', Date)],
-    value,
-    errors,
-  );
-}
+export const PublicationComments = array(PublicationComment);
+export type PublicationComments = InferOutput<typeof PublicationComments>;
 
-export function isPublicationComments(value: unknown, errors?: string[]): value is PublicationComment[] {
-  return Array.isArray(value) && value.every((comment) => isPublicationComment(comment, errors));
-}
+export const Publication = object({
+  service: pipe(string(), nonEmpty()),
+  id: unknown(),
+  code: optional(pipe(string(), nonEmpty())),
+  mediaId: optional(pipe(string(), nonEmpty())),
+  published: date(),
+  updated: optional(date()),
+  followers: optional(pipe(number(), minValue(0))),
+  likes: optional(pipe(number(), minValue(0))),
+  views: optional(pipe(number(), minValue(0))),
+  reposts: optional(pipe(number(), minValue(0))),
+  comments: optional(array(PublicationComment)),
+});
+export type Publication = InferOutput<typeof Publication>;
 
-export function isPublicationUpdatable(publication: Publication<unknown>): boolean {
+export function isPublicationUpdatable(publication: Publication): boolean {
   const updated = publication.updated ?? publication.published;
 
   const minutesSinceLastUpdate = getMinutesPassed(updated);
@@ -49,15 +43,12 @@ export function isPublicationUpdatable(publication: Publication<unknown>): boole
   );
 }
 
-export function isPublicationEqual(a: Publication<unknown>, b: Publication<unknown>) {
+export function isPublicationEqual(a: Publication, b: Publication) {
   return (
     a.service === b.service && (JSON.stringify(a.id) === JSON.stringify(b.id) || (a.mediaId && a.mediaId === b.mediaId))
   );
 }
-export function mergePublications(
-  posts1: Publication<unknown>[] | undefined,
-  posts2: Publication<unknown>[] | undefined,
-) {
+export function mergePublications(posts1: Publication[] | undefined, posts2: Publication[] | undefined) {
   const result = asArray(posts1);
 
   for (const publication2 of posts2 ?? []) {
@@ -78,4 +69,14 @@ export function mergePublications(
   }
 
   return result.length > 0 ? result : undefined;
+}
+
+export function getPublicationEngagement(info?: Publication) {
+  const reactions = (info?.likes ?? 0) + (info?.reposts ?? 0);
+
+  if (!reactions || !info?.followers) {
+    return 0;
+  }
+
+  return info.followers >= 50 ? (reactions / info.followers) * 100 : reactions;
 }

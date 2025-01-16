@@ -1,28 +1,30 @@
+import type { InferOutput } from 'valibot';
+import { nonEmpty, object, pipe, string } from 'valibot';
 import type { Post } from '../entities/post.js';
-import type { Publication } from '../entities/publication.js';
+import { Video } from '../entities/post-variant.js';
+import { Publication } from '../entities/publication.js';
 import type { PostingService } from '../entities/service.js';
 
-interface YouTubeSuitablePost extends Post {
-  title: string;
-  content: string;
-  type: 'video';
-}
+export const YouTubePost = Video;
 
-export type YouTubePost = Publication<string>;
+export const YouTubePublication = object({ ...Publication.entries, id: pipe(string(), nonEmpty()) });
 
-export class YouTube implements PostingService<YouTubePost> {
+export type YouTubePost = InferOutput<typeof YouTubePost>;
+export type YouTubePublication = InferOutput<typeof YouTubePublication>;
+
+export class YouTube implements PostingService<YouTubePublication> {
   readonly id = 'yt';
   readonly name = 'YouTube';
 
-  isPost(publication: Publication<unknown>): publication is YouTubePost {
+  isPost(publication: Publication): publication is YouTubePublication {
     return publication.service === this.id && typeof publication.id === 'string';
   }
 
-  canPublishPost(_post: Post, _errors?: string[]): _post is YouTubeSuitablePost {
+  canPublishPost(_post: Post, _errors?: string[]): _post is YouTubePost {
     return false;
   }
 
-  getPublicationUrl(publication: Publication<unknown>, embed?: boolean) {
+  getPublicationUrl(publication: Publication, embed?: boolean) {
     if (!publication.id) {
       return;
     }

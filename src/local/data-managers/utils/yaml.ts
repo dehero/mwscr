@@ -1,60 +1,12 @@
 import { readFile, writeFile } from 'fs/promises';
 import yaml, { Type } from 'js-yaml';
-import type { PublicationComment } from '../../../core/entities/publication.js';
-import { isPublicationComments } from '../../../core/entities/publication.js';
+import { is } from 'valibot';
+import { Field } from '../../../core/entities/field.js';
+import { PublicationComments } from '../../../core/entities/publication.js';
 import { dateToString, stringToDate } from '../../../core/utils/date-utils.js';
 import { compressData, decompressData } from '../../utils/data-utils.js';
 
 const YAML_DATE_REGEXP = /^\d{4}-\d{2}-\d{2}(?:-\d{2}-\d{2}-\d{2})?$/;
-
-const orderedKeys = [
-  // Post
-  'title',
-  'titleRu',
-  'description',
-  'descriptionRu',
-  'location',
-  'content',
-  'trash',
-  'type',
-  'author',
-  'engine',
-  'addon',
-  'tags',
-  'request',
-  'reject',
-  'mark',
-  'violation',
-  'posts',
-
-  // Request
-  'date',
-  'user',
-  'text',
-
-  // Publication
-  'service',
-  'id',
-  'code',
-  'mediaId',
-  'published',
-  'updated',
-  'followers',
-  'likes',
-  'views',
-  'reposts',
-  'comments',
-
-  // User
-  'name',
-  'nameRu',
-  'nameRuFrom',
-  'admin',
-  'profiles',
-
-  // Location
-  'cell',
-];
 
 type SerializedComment = [datetime: number, author: string, text: string, ...replies: SerializedComment[]];
 
@@ -73,8 +25,8 @@ export const YAML_SCHEMA = yaml.JSON_SCHEMA.extend({
       kind: 'scalar',
       resolve: (data) => typeof data === 'string',
       construct: (data) => unpackComments(data),
-      predicate: (data) => isPublicationComments(data),
-      represent: (data) => packComments(data as PublicationComment[]),
+      predicate: (data) => is(PublicationComments, data),
+      represent: (data) => packComments(data as PublicationComments),
     }),
   ],
 });
@@ -83,7 +35,7 @@ function sortKeys(a: unknown, b: unknown) {
   if (typeof a !== 'string' || typeof b !== 'string') {
     return 0;
   }
-  return orderedKeys.indexOf(a) - orderedKeys.indexOf(b) || a.localeCompare(b);
+  return Field.options.indexOf(a as Field) - Field.options.indexOf(b as Field) || a.localeCompare(b);
 }
 
 export async function loadYaml(filename: string): Promise<unknown> {
@@ -101,7 +53,7 @@ export function saveYaml(filename: string, data: unknown) {
   return writeFile(filename, file);
 }
 
-function packComments(comments?: PublicationComment[]): string | undefined {
+function packComments(comments?: PublicationComments): string | undefined {
   if (!comments || typeof comments === 'string') {
     return comments;
   }
@@ -118,7 +70,7 @@ function packComments(comments?: PublicationComment[]): string | undefined {
   return compressData(data);
 }
 
-function unpackComments(value?: string): PublicationComment[] | undefined {
+function unpackComments(value?: string): PublicationComments | undefined {
   if (!value) {
     return;
   }

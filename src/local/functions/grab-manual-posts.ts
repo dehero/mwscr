@@ -1,11 +1,11 @@
 import type { Post, PostEntry } from '../../core/entities/post.js';
 import { isPostEqual, mergePostWith } from '../../core/entities/post.js';
-import type { PublishablePost } from '../../core/entities/post-variation.js';
-import { isPublishablePost } from '../../core/entities/post-variation.js';
+import type { PublishablePost } from '../../core/entities/posts-manager.js';
+import { createNewPostId, isPublishablePost } from '../../core/entities/posts-manager.js';
 import type { Publication } from '../../core/entities/publication.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { arrayFromAsync } from '../../core/utils/common-utils.js';
-import { createPublishedPostId, posts } from '../data-managers/posts.js';
+import { posts } from '../data-managers/posts.js';
 import { postingServiceManagers } from '../posting-service-managers/index.js';
 
 export async function grabManualPosts() {
@@ -60,7 +60,7 @@ async function grabManualPublications(service: PostingServiceManager) {
           throw new Error(errors.join(', ') || 'cannot add post');
         }
 
-        const newId = createPublishedPostId(newPost);
+        const newId = createNewPostId(newPost);
         await posts.addItem(newPost, newId);
 
         console.info(`Imported manual ${service.name} post "${newId}".`);
@@ -93,7 +93,7 @@ async function findLastPublishedPostEntry(
   return undefined;
 }
 
-async function* getAllPublications(service: string): AsyncGenerator<Publication<unknown>> {
+async function* getAllPublications(service: string): AsyncGenerator<Publication> {
   for await (const [, post] of posts.readAllEntries()) {
     if (!post.posts) {
       continue;

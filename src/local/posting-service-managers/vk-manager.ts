@@ -5,14 +5,14 @@ import type { WallWallComment } from 'vk-io/lib/api/schemas/objects';
 // @ts-expect-error No proper typing
 import type { WallGetCommentExtendedResponse } from 'vk-io/lib/api/schemas/responses';
 import type { Post, PostEntry } from '../../core/entities/post.js';
-import { getPostFirstPublished, getPostTypesFromContent, POST_TYPES } from '../../core/entities/post.js';
+import { getPostFirstPublished, getPostTypeFromContent, postTypeDescriptors } from '../../core/entities/post.js';
 import { createPostTags } from '../../core/entities/post-tag.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import { site } from '../../core/services/site.js';
-import type { VKPost } from '../../core/services/vk.js';
+import type { VKPublication } from '../../core/services/vk.js';
 import { VK as VKService, VK_GROUP_ID, VK_GROUP_NAME } from '../../core/services/vk.js';
 import { asArray, randomDelay } from '../../core/utils/common-utils.js';
 import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
@@ -61,7 +61,7 @@ export class VKManager extends VKService implements PostingServiceManager {
     const lines: string[] = [];
     const tags = createPostTags(post);
     const contributors: string[] = [];
-    const titlePrefix = post.type !== 'shot' ? POST_TYPES.find(({ id }) => id === post.type)?.titleRu : undefined;
+    const titlePrefix = post.type !== 'shot' ? postTypeDescriptors[post.type].titleRu : undefined;
 
     if (post.titleRu) {
       lines.push([titlePrefix, post.titleRu].filter(Boolean).join(': '));
@@ -182,7 +182,7 @@ export class VKManager extends VKService implements PostingServiceManager {
     });
     const followers = await this.grabFollowerCount();
 
-    const publication: VKPost = { service: this.id, id: result.post_id, followers, published: new Date() };
+    const publication: VKPublication = { service: this.id, id: result.post_id, followers, published: new Date() };
 
     post.posts = [...(post.posts ?? []), publication];
   }
@@ -262,7 +262,7 @@ export class VKManager extends VKService implements PostingServiceManager {
     };
   }
 
-  async updatePublication(publication: Publication<unknown>) {
+  async updatePublication(publication: Publication) {
     if (!this.isPost(publication)) {
       return;
     }
@@ -282,7 +282,7 @@ export class VKManager extends VKService implements PostingServiceManager {
     return (await vk.api.groups.getMembers({ group_id: VK_GROUP_NAME, count: 0 })).count;
   }
 
-  async grabPosts(afterPublication?: Publication<unknown>) {
+  async grabPosts(afterPublication?: Publication) {
     if (afterPublication && !this.isPost(afterPublication)) {
       throw new Error(`Invalid ${this.name} post`);
     }
@@ -336,7 +336,7 @@ export class VKManager extends VKService implements PostingServiceManager {
           content,
           author,
           tags,
-          type: getPostTypesFromContent(content)[0] ?? 'shot', // TODO: get proper type from media
+          type: getPostTypeFromContent(content) ?? 'shot', // TODO: get proper type from media
           posts: [
             {
               service: 'vk',

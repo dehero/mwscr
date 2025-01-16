@@ -4,7 +4,7 @@ import {
   getPostEntriesFromSource,
   POST_RECENTLY_PUBLISHED_DAYS,
 } from '../../core/entities/post.js';
-import type { PublishablePost } from '../../core/entities/post-variation.js';
+import type { PublishablePost } from '../../core/entities/posts-manager.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { getDaysPassed, getHoursPassed } from '../../core/utils/date-utils.js';
 import { posts } from '../data-managers/posts.js';

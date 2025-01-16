@@ -1,26 +1,33 @@
-import type { Post } from '../entities/post.js';
-import type { Publication } from '../entities/publication.js';
+import type { InferOutput } from 'valibot';
+import { array, intersect, number, object, union, variant } from 'valibot';
+import { Post, PostTitle } from '../entities/post.js';
+import { Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
+import { Publication } from '../entities/publication.js';
 import { checkRules } from '../entities/rule.js';
 import type { PostingService } from '../entities/service.js';
-import { needCertainType, needContent, needTitle } from '../rules/post-rules.js';
 
-interface TelegramSuitablePost extends Post {
-  title: string;
-  content: string;
-  type: 'shot';
-}
+export const TelegramPost = intersect([
+  object({ ...Post.entries, title: PostTitle }),
+  variant('type', [Redrawing, Shot, ShotSet, Wallpaper, VerticalWallpaper]),
+]);
 
-export type TelegramPost = Publication<number | number[]>;
+export const TelegramPublication = object({
+  ...Publication.entries,
+  id: union([number(), array(number())]),
+});
+
+export type TelegramPost = InferOutput<typeof TelegramPost>;
+export type TelegramPublication = InferOutput<typeof TelegramPublication>;
 
 export const TELEGRAM_CHANNEL = 'mwscr';
 
 export const TELEGRAM_BOT_NAME = 'mwscrbot';
 
-export class Telegram implements PostingService<TelegramPost> {
+export class Telegram implements PostingService<TelegramPublication> {
   readonly id = 'tg';
   readonly name = 'Telegram';
 
-  isPost(publication: Publication<unknown>): publication is TelegramPost {
+  isPost(publication: Publication): publication is TelegramPublication {
     return (
       publication.service === this.id &&
       (typeof publication.id === 'number' ||
@@ -28,15 +35,11 @@ export class Telegram implements PostingService<TelegramPost> {
     );
   }
 
-  canPublishPost(post: Post, errors: string[] = []): post is TelegramSuitablePost {
-    return checkRules(
-      [needCertainType('shot', 'wallpaper', 'wallpaper-v', 'redrawing', 'shot-set'), needTitle, needContent],
-      post,
-      errors,
-    );
+  canPublishPost(post: Post, errors: string[] = []): post is TelegramPost {
+    return checkRules([TelegramPost], post, errors);
   }
 
-  getPublicationUrl(publication: Publication<unknown>) {
+  getPublicationUrl(publication: Publication) {
     if (!this.isPost(publication)) {
       return;
     }

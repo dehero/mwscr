@@ -1,13 +1,27 @@
+import type { BaseIssue, BaseSchema, InferOutput, IssuePathItem } from 'valibot';
+import { isValiError, parse } from 'valibot';
+import { partition, uncapitalizeFirstLetter } from '../utils/common-utils.js';
 import type { UnionToIntersection } from '../utils/type-utils.js';
+import { getFieldTitle } from './field.js';
 
-export type Rule<TValue, TContext = unknown, TType extends TValue = TValue> = (
+export type FunctionalRule<TValue, TContext = unknown, TType extends TValue = TValue> = (
   value: TValue,
   context?: TContext,
 ) => value is TType;
 
+export type ValibotRule<TType> = BaseSchema<unknown, TType, BaseIssue<unknown>>;
+
+export type Rule<TValue, TContext = unknown, TType extends TValue = TValue> =
+  | FunctionalRule<TValue, TContext, TType>
+  | ValibotRule<TValue>;
+
 type CombineRules<TValue, TContext, TRules extends Rule<TValue, TContext, TValue>[]> = UnionToIntersection<
   {
-    [K in keyof TRules]: TRules[K] extends Rule<TValue, TContext, infer U> ? U : never;
+    [K in keyof TRules]: TRules[K] extends FunctionalRule<TValue, TContext, infer U>
+      ? U
+      : TRules[K] extends ValibotRule<TValue>
+        ? InferOutput<TRules[K]>
+        : never;
   }[number]
 >;
 
@@ -18,13 +32,25 @@ export function checkRules<TValue, TContext, TRules extends Rule<TValue, TContex
   context?: TContext,
 ): value is TValue & CombineRules<TValue, TContext, TRules> {
   let result = true;
+
   for (const rule of rules) {
-    try {
-      rule(value, context);
-    } catch (error: unknown) {
-      result = false;
-      if (error instanceof Error) {
-        messages?.push(error.message);
+    if (typeof rule === 'function') {
+      try {
+        rule(value, context);
+      } catch (error: unknown) {
+        result = false;
+        if (error instanceof Error) {
+          messages?.push(error.message);
+        }
+      }
+    } else {
+      try {
+        parse(rule, value);
+      } catch (error: unknown) {
+        result = false;
+        if (isValiError(error)) {
+          messages?.push(...validbotIssuesToMessages(error.issues));
+        }
       }
     }
   }
@@ -32,38 +58,51 @@ export function checkRules<TValue, TContext, TRules extends Rule<TValue, TContex
   return result;
 }
 
-export function needObject(value: unknown): value is Record<string, unknown> {
-  const type = typeof value;
+export function assertRules<TValue, TContext, TRules extends Rule<TValue, TContext, TValue>[]>(
+  rules: TRules,
+  value: TValue,
+  errorMessage?: string | ((message: string) => string),
+  context?: TContext,
+): asserts value is TValue & CombineRules<TValue, TContext, TRules> {
+  const messages: string[] = [];
+  const result = checkRules(rules, value, messages, context);
 
-  if (!(type === 'object' && value !== null)) {
-    throw new Error(`need object, got ${value === null ? 'null' : type}`);
+  if (!result) {
+    const message = messages.map((message) => uncapitalizeFirstLetter(message)).join(', ');
+    throw new Error(typeof errorMessage === 'function' ? errorMessage(message) : message);
   }
-  return true;
 }
 
-export function needProperty<T>(prop: string, type: string | (new (...args: unknown[]) => unknown)) {
-  return (value: unknown): value is T => {
-    if (!needObject(value)) {
-      return false;
-    }
+function getFieldTitleFromPath(path: IssuePathItem[] | undefined) {
+  return path?.map((item) => uncapitalizeFirstLetter(getFieldTitle(String(item.key)))).join(' in ');
+}
 
-    const propValue = prop in value ? value[prop] : undefined;
+function validbotIssuesToMessages(issues: BaseIssue<unknown>[]): string[] {
+  const messages: string[] = [];
 
-    if (typeof type === 'string') {
-      const propType = typeof propValue;
-      if (propType !== type) {
-        throw new Error(`need "${prop}" property of type "${type}", got "${propType}"`);
-      }
-    } else {
-      if (!needObject(propValue)) {
-        return false;
-      }
+  let [outputIssues, restIssues] = partition(
+    issues,
+    (issue) => issue.kind === 'schema' && issue.received === typeof undefined,
+  );
 
-      if (!(propValue instanceof type)) {
-        throw new TypeError(`need "${prop}" property of type "${type.name}", got "${propValue.constructor.name}"`);
-      }
-    }
+  if (outputIssues.length > 0) {
+    const fields = new Set(outputIssues.map((issue) => getFieldTitleFromPath(issue.path)));
+    messages.push(`missing ${[...fields].join(', ')}`);
+  }
 
-    return true;
-  };
+  [outputIssues, restIssues] = partition(restIssues, (issue) => issue.kind === 'schema');
+
+  messages.push(
+    ...outputIssues.map(
+      (issue) =>
+        `${getFieldTitleFromPath(issue.path)} ${uncapitalizeFirstLetter(issue.message)}, got ${uncapitalizeFirstLetter(
+          issue.received,
+        )}`,
+    ),
+    ...restIssues.map((issue) =>
+      [getFieldTitleFromPath(issue.path), uncapitalizeFirstLetter(issue.message)].filter(Boolean).join(' '),
+    ),
+  );
+
+  return messages;
 }

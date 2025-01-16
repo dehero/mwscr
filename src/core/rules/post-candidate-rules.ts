@@ -6,14 +6,14 @@ import {
   getPostRelatedLocationDistance,
   getPostTypeDistance,
 } from '../entities/post.js';
-import type { PublishablePost } from '../entities/post-variation.js';
+import type { PublishablePost } from '../entities/posts-manager.js';
 import type { Rule } from '../entities/rule.js';
 
 export type PostCandidateRule = Rule<PublishablePost, PostEntries>;
 
 export function needMinContentDistance(minContentDistance: number): PostCandidateRule {
   return (post: PublishablePost, postEntries?: PostEntries): post is PublishablePost => {
-    if (!post.content || !postEntries) {
+    if (!postEntries) {
       return false;
     }
 

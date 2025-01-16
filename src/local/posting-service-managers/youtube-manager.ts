@@ -85,7 +85,7 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
     return { datetime, author, text };
   }
 
-  async updatePublication(publication: Publication<unknown>) {
+  async updatePublication(publication: Publication) {
     if (!this.isPost(publication)) {
       return;
     }
@@ -107,7 +107,7 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
     return Number(data.items?.[0]?.statistics?.subscriberCount);
   }
 
-  async grabPosts(_afterPublication?: Publication<unknown>) {
+  async grabPosts(_afterPublication?: Publication) {
     return [];
   }
 }

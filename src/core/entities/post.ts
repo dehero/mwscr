@@ -1,59 +1,136 @@
+import type { InferOutput } from 'valibot';
+import { array, date, is, nonEmpty, object, optional, picklist, pipe, string, transform, trim, union } from 'valibot';
 import type { SortDirection } from '../utils/common-types.js';
 import { arrayFromAsync, asArray } from '../utils/common-utils.js';
 import { dateToString, isDateInRange, stringToDate } from '../utils/date-utils.js';
 import { areNestedLocations as areRelatedLocations } from './location.js';
 import type { MediaAspectRatio } from './media.js';
-import type { Publication, PublicationComment } from './publication.js';
-import { isPublicationEqual, mergePublications } from './publication.js';
-import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, resourceIsImage, resourceIsVideo } from './resource.js';
-import { checkRules, needObject, needProperty } from './rule.js';
+import { postTitleFromString } from './post-title.js';
+import { PostVariant } from './post-variant.js';
+import type { PublicationComment } from './publication.js';
+import { getPublicationEngagement, isPublicationEqual, mergePublications, Publication } from './publication.js';
+import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, ResourceUrl } from './resource.js';
+import { checkRules } from './rule.js';
 import { USER_DEFAULT_AUTHOR } from './user.js';
 
-interface PostTypeInfo {
-  id: string;
+export const POST_RECENTLY_PUBLISHED_DAYS = 31;
+
+export const PostTitle = pipe(string(), trim(), nonEmpty(), transform(postTitleFromString));
+export const PostTitleRu = pipe(string(), trim(), nonEmpty());
+export const PostDescription = pipe(string(), trim(), nonEmpty());
+export const PostContent = union([ResourceUrl, array(ResourceUrl)]);
+export const PostLocation = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
+export const PostType = picklist(PostVariant.options.map((type) => type.entries.type.literal));
+export const PostAddon = picklist(['Tribunal', 'Bloodmoon']);
+export const PostEngine = picklist(['OpenMW', 'Vanilla']);
+export const PostMark = picklist(['A1', 'A2', 'B1', 'B2', 'C', 'D', 'E', 'F']);
+export const PostViolation = picklist([
+  'inappropriate-content',
+  'jpeg-artifacts',
+  'graphic-issues',
+  'no-anti-aliasing',
+  'non-vanilla-look',
+  'uses-mods',
+  'ui-visible',
+  'unclear-request',
+  'unreachable-resource',
+  'unsupported-resource',
+]);
+export const PostAuthor = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
+export const PostTag = pipe(string(), nonEmpty());
+export const PostRequest = object({ date: date(), user: pipe(string(), nonEmpty()), text: pipe(string(), nonEmpty()) });
+
+export const Post = object({
+  title: optional(PostTitle),
+  titleRu: optional(PostTitleRu),
+  description: optional(PostDescription),
+  descriptionRu: optional(PostDescription),
+  location: optional(PostLocation),
+  content: optional(PostContent),
+  trash: optional(PostContent),
+  type: PostType,
+  author: optional(PostAuthor),
+  tags: optional(array(PostTag)),
+  engine: optional(PostEngine),
+  addon: optional(PostAddon),
+  request: optional(PostRequest),
+  mark: optional(PostMark),
+  violation: optional(PostViolation),
+  posts: optional(array(Publication)),
+});
+
+export type PostTitle = InferOutput<typeof PostTitle>;
+export type PostTitleRu = InferOutput<typeof PostTitleRu>;
+export type PostDescription = InferOutput<typeof PostDescription>;
+export type PostContent = InferOutput<typeof PostContent>;
+export type PostLocation = InferOutput<typeof PostLocation>;
+export type PostType = InferOutput<typeof PostType>;
+export type PostAddon = InferOutput<typeof PostAddon>;
+export type PostEngine = InferOutput<typeof PostEngine>;
+export type PostMark = InferOutput<typeof PostMark>;
+export type PostViolation = InferOutput<typeof PostViolation>;
+export type PostAuthor = InferOutput<typeof PostAuthor>;
+export type PostTag = InferOutput<typeof PostTag>;
+export type PostRequest = InferOutput<typeof PostRequest>;
+
+export type Post = InferOutput<typeof Post>;
+
+export type PostEntry<TPost extends Post = Post> = [id: string, post: TPost, refId?: string];
+export type PostEntries<TPost extends Post = Post> = ReadonlyArray<PostEntry<TPost>>;
+export type PostEntriesComparator = (a: PostEntry, b: PostEntry) => number;
+export type PostFilter<TPost extends Post, TFilteredPost extends TPost> = (post: Post) => post is TFilteredPost;
+
+export type PostSource<TPost extends Post> = () => AsyncGenerator<PostEntry<TPost>>;
+
+export interface PostComment extends PublicationComment {
+  service: string;
+}
+
+export interface PostDistance {
+  id: string | undefined;
+  distance: number;
+  message: string;
+}
+
+interface PostTypeDescriptor {
   title: string;
   titleRu: string;
   letter: string;
 }
 
-interface PostMarkInfo {
-  id: string;
+interface PostMarkDescriptor {
   score: number;
 }
 
-export interface PostViolationInfo {
+export interface PostViolationDescriptor {
   title: string;
   letter: string;
   solution?: string;
   reference?: string;
 }
 
-export const POST_TYPES = [
-  { id: 'shot', title: 'Shot', titleRu: 'Кадр', letter: 'S' },
-  { id: 'shot-set', title: 'Shot-Set', titleRu: 'Подборка', letter: 'H' },
-  { id: 'video', title: 'Video', titleRu: 'Видео', letter: 'V' },
-  { id: 'clip', title: 'Clip', titleRu: 'Клип', letter: 'C' },
-  { id: 'redrawing', title: 'Redrawing', titleRu: 'Перерисовка', letter: 'R' },
-  { id: 'wallpaper', title: 'Wallpaper', titleRu: 'Обои', letter: 'W' },
-  { id: 'wallpaper-v', title: 'Vertical Wallpaper', titleRu: 'Вертикальные обои', letter: 'M' },
-] as const satisfies PostTypeInfo[];
+export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescriptor>>({
+  shot: { title: 'Shot', titleRu: 'Кадр', letter: 'S' },
+  'shot-set': { title: 'Shot-Set', titleRu: 'Подборка', letter: 'H' },
+  video: { title: 'Video', titleRu: 'Видео', letter: 'V' },
+  clip: { title: 'Clip', titleRu: 'Клип', letter: 'C' },
+  redrawing: { title: 'Redrawing', titleRu: 'Перерисовка', letter: 'R' },
+  wallpaper: { title: 'Wallpaper', titleRu: 'Обои', letter: 'W' },
+  'wallpaper-v': { title: 'Vertical Wallpaper', titleRu: 'Вертикальные обои', letter: 'M' },
+});
 
-export const POST_ADDONS = ['Tribunal', 'Bloodmoon'] as const;
-export const POST_ENGINES = ['OpenMW', 'Vanilla'] as const;
-export const POST_MARKS = [
-  { id: 'A1', score: 5 },
-  { id: 'A2', score: 4 },
-  { id: 'B1', score: 3 },
-  { id: 'B2', score: 2 },
-  { id: 'C', score: 1 },
-  { id: 'D', score: -2 },
-  { id: 'E', score: 0 },
-  { id: 'F', score: -1 },
-] as const satisfies PostMarkInfo[];
+export const postMarkDescriptors = Object.freeze<Record<PostMark, PostMarkDescriptor>>({
+  A1: { score: 5 },
+  A2: { score: 4 },
+  B1: { score: 3 },
+  B2: { score: 2 },
+  C: { score: 1 },
+  D: { score: -2 },
+  E: { score: 0 },
+  F: { score: -1 },
+});
 
-export const POST_RECENTLY_PUBLISHED_DAYS = 31;
-
-export const POST_VIOLATIONS = {
+export const postViolationDescriptors = Object.freeze<Record<PostViolation, PostViolationDescriptor>>({
   'inappropriate-content': { title: 'Inappropriate content', letter: 'C' },
   'jpeg-artifacts': { title: 'JPEG artifacts', letter: 'J' },
   'graphic-issues': { title: 'Graphic issues', letter: 'G' },
@@ -84,69 +161,10 @@ export const POST_VIOLATIONS = {
     reference: 'https://mwscr.dehero.site/help/file-format/',
     letter: 'R',
   },
-} as const satisfies Record<string, PostViolationInfo>;
-
-export type PostType = (typeof POST_TYPES)[number]['id'];
-export type PostAddon = (typeof POST_ADDONS)[number];
-export type PostEngine = (typeof POST_ENGINES)[number];
-export type PostMark = (typeof POST_MARKS)[number]['id'];
-export type PostViolation = keyof typeof POST_VIOLATIONS;
-export type PostAuthor = string | string[];
-export type PostContent = string | string[];
-export type PostLocation = string | string[];
-
-export interface PostRequest {
-  date: Date;
-  user: string;
-  text: string;
-}
-
-export interface Post {
-  title?: string;
-  titleRu?: string;
-  description?: string;
-  descriptionRu?: string;
-  location?: PostLocation;
-  content?: PostContent;
-  trash?: PostContent;
-  type: PostType;
-  author?: PostAuthor;
-  tags?: string[];
-  engine?: PostEngine;
-  addon?: PostAddon;
-  request?: PostRequest;
-  mark?: PostMark;
-  violation?: PostViolation;
-  posts?: Publication<unknown>[];
-}
-
-export type PostEntry<TPost extends Post = Post> = [id: string, post: TPost, refId?: string];
-export type PostEntries<TPost extends Post = Post> = ReadonlyArray<PostEntry<TPost>>;
-export type PostEntriesComparator = (a: PostEntry, b: PostEntry) => number;
-export type PostFilter<TPost extends Post, TFilteredPost extends TPost> = (post: Post) => post is TFilteredPost;
-
-export type PostSource<TPost extends Post> = () => AsyncGenerator<PostEntry<TPost>>;
-
-export interface PostComment extends PublicationComment {
-  service: string;
-}
-
-export interface PostDistance {
-  id: string | undefined;
-  distance: number;
-  message: string;
-}
+});
 
 export function isPost(value: unknown, errors?: string[]): value is Post {
-  return checkRules([needObject, needProperty('type', 'string')], value, errors);
-
-  // TODO: improve type checking
-  // if (typeof value.type !== 'string' || !POST_TYPES.includes(value.type as PostType)) {
-  //   errors?.push(`post type expected to be in a list "${POST_TYPES.join(', ')}", got "${value.type}"`);
-  //   return false;
-  // }
-
-  // return true;
+  return checkRules([Post], value, errors);
 }
 
 export function getPostTotalLikes(post: Post) {
@@ -260,25 +278,13 @@ export function getPostEntryViews(entry: PostEntry) {
   return getPostEntryPublications(entry).reduce((acc, publication) => acc + (publication.views ?? 0), 0);
 }
 
-export function getPostMarkScore(mark: PostMark) {
-  return POST_MARKS.find((info) => info.id === mark)?.score ?? 0;
-}
-
 export function getPostMarkFromScore(score?: number) {
-  if (!score) {
+  if (typeof score === 'undefined') {
     return;
   }
-  return POST_MARKS.find((info) => info.score === Math.round(score))?.id;
-}
+  const integerScore = Math.round(score);
 
-export function getPublicationEngagement(info?: Publication<unknown>) {
-  const reactions = (info?.likes ?? 0) + (info?.reposts ?? 0);
-
-  if (!reactions || !info?.followers) {
-    return 0;
-  }
-
-  return info.followers >= 50 ? (reactions / info.followers) * 100 : reactions;
+  return PostMark.options.find((mark) => postMarkDescriptors[mark].score === integerScore);
 }
 
 export function isPostEqual(a: Post, b: Partial<Post>): boolean {
@@ -295,23 +301,8 @@ export function isPostEqual(a: Post, b: Partial<Post>): boolean {
         dateToString(date1) === dateToString(date2);
 }
 
-export function getPostTypesFromContent(content?: PostContent): PostType[] {
-  const urls = asArray(content);
-
-  if (urls.length === 4 && urls.every((url) => resourceIsImage(url) || RESOURCE_MISSING_IMAGE === url)) {
-    return ['shot-set'];
-  }
-  if (urls.length === 2 && urls.every((url) => resourceIsImage(url) || RESOURCE_MISSING_IMAGE === url)) {
-    return ['redrawing'];
-  }
-  if (urls.length === 1 && urls[0] && (resourceIsImage(urls[0]) || RESOURCE_MISSING_IMAGE === urls[0])) {
-    return ['shot', 'wallpaper', 'wallpaper-v'];
-  }
-  if (urls.length === 1 && urls[0] && (resourceIsVideo(urls[0]) || RESOURCE_MISSING_VIDEO === urls[0])) {
-    return ['clip', 'video'];
-  }
-
-  return [];
+export function getPostTypeFromContent(content?: PostContent): PostType | undefined {
+  return PostVariant.options.find((variant) => is(variant.entries.content, content))?.entries.type.literal;
 }
 
 export function getPostTypeAspectRatio(type: PostType): MediaAspectRatio {
