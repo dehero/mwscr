@@ -5395,26 +5395,26 @@
       id: DE2xU3uvvrq
       mediaId: '17962967642840380'
       published: 2025-01-15-18-10-22
-      updated: 2025-01-16-17-02-19
+      updated: 2025-01-16-18-10-06
       followers: 1522
-      likes: 83
-      views: 263
+      likes: 84
+      views: 268
       comments: !c CxSAkZPLQnlGs9PPgACtZGFuaWVsbGVfaGlpaa9JIGxpa2UgUGVsYWdpYWQD
     - service: vk
       id: 2067
       published: 2025-01-15-18-10-29
-      updated: 2025-01-16-17-02-18
+      updated: 2025-01-16-18-10-06
       followers: 1053
       likes: 36
-      views: 261
+      views: 263
       reposts: 2
     - service: tg
       id: 668
       published: 2025-01-15-18-10-36
-      updated: 2025-01-16-17-02-19
+      updated: 2025-01-16-18-10-07
       followers: 654
-      likes: 56
-      views: 167
+      likes: 57
+      views: 169
       comments: !c |-
         G2ABQCwPeHM3VCEV9Y6OXpSHfFTQ7QkPKCAMiiCCZNaWW+9L1mQKhvSwIX8IEKrqttqkm9O+gS/C
         2rQZQjeNvOGTJW843ezyOqzsLRvE7IAgtbiyQEr77Zlv++2FHuj1ZEWRFD58OoPP+890jfOtr6k/
@@ -9932,18 +9932,18 @@
     - service: vk
       id: 1883
       published: 2024-11-06-18-11-45
-      updated: 2025-01-09-17-06-40
+      updated: 2025-01-16-18-10-10
       followers: 1004
       likes: 38
-      views: 395
+      views: 396
       reposts: 3
     - service: tg
       id: 587
       published: 2024-11-06-18-11-51
-      updated: 2025-01-09-17-06-40
+      updated: 2025-01-16-18-10-09
       followers: 566
       likes: 58
-      views: 611
+      views: 612
 2018-10-02-shatalg:
   title: Shatalg
   titleRu: Шаталг

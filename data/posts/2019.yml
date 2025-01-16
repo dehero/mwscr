@@ -1374,22 +1374,24 @@
       id: DEvC4deuAgT
       mediaId: '17896461711134669'
       published: 2025-01-12-18-09-51
-      updated: 2025-01-15-17-03-10
+      updated: 2025-01-16-18-10-09
       followers: 1526
-      likes: 131
-      views: 487
+      likes: 134
+      views: 499
       comments: !c ixeAkZPLQnlFxA9wgACsaGF0dGllbGVlYXJ0t09oIHRoaXMgaXMgYXdlc29tZSDwn5SlAw==
     - service: vk
       id: 2050
       published: 2025-01-12-18-10-03
-      updated: 2025-01-15-17-03-10
+      updated: 2025-01-16-18-10-09
       followers: 1052
-      likes: 32
-      views: 266
+      likes: 34
+      views: 284
       reposts: 2
       comments: !c |-
-        CyiAkZPLQnlF9nlyAACsc2xhdmFpc2F5a2lu2TfQkNGC0LzQvtGB0YTQtdGA0LAg0L7RgtC70LjR
-        h9C90L4g0L/QtdGA0LXQtNCw0L3QsCDwn5GNAw==
+        G/wA6B0JdgzlC+MRAyPsESqd/omL+Qn9xjv1OOGkBIss2UcWZW3TUKKpWpqYLCILaSfz4PH9289f
+        8xAjOcUj0t7/F7k10cwOdLABRxoYT/iANuFIZ0OOUh7oUD09X1+pqP9SEMTnHumN7pd6H/rJJahh
+        l0KNGMAozFmLoJcDhPebr0dstfefIb1vlkiTAknzPHt9DRzvbmE9Ft+Y0NWvHcHkTIPARtGIHM7D
+        4+fUKqDHQhhQKNw5NqshYOf0OeRC0NljNq2lV3CSLg==
     - service: tg
       id:
         - 661
