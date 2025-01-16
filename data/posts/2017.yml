@@ -2375,10 +2375,10 @@
     - service: vk
       id: 1641
       published: 2024-07-17-18-20-24
-      updated: 2025-01-09-12-13-42
+      updated: 2025-01-16-13-14-36
       followers: 919
       likes: 39
-      views: 312
+      views: 313
     - service: tg
       id: 472
       published: 2024-07-17-18-20-31
@@ -3867,7 +3867,7 @@
     - service: vk
       id: 1588
       published: 2024-06-19-18-19-29
-      updated: 2025-01-09-12-13-44
+      updated: 2025-01-16-13-14-38
       followers: 917
       likes: 44
       views: 334
@@ -3879,10 +3879,10 @@
     - service: tg
       id: 444
       published: 2024-06-19-18-19-35
-      updated: 2025-01-09-12-13-41
+      updated: 2025-01-16-13-14-35
       followers: 387
       likes: 56
-      views: 483
+      views: 485
       comments: !c ixCAkZPLQnkDJCOFgACqYWxleF9lbXNvd6tCZWVuIHRoZXJlKQM=
 2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain:
   title: It's Cloudy in Balmora with a Chance of Rain
@@ -5293,7 +5293,7 @@
     - service: vk
       id: 1629
       published: 2024-07-10-18-22-25
-      updated: 2025-01-09-12-13-43
+      updated: 2025-01-16-13-14-37
       followers: 919
       likes: 37
       views: 261
@@ -5354,7 +5354,7 @@
     - service: vk
       id: 1655
       published: 2024-07-24-18-21-03
-      updated: 2025-01-09-12-13-41
+      updated: 2025-01-16-13-14-35
       followers: 921
       likes: 44
       views: 384
@@ -12041,17 +12041,17 @@
       id: DE0MjAjSIq6
       mediaId: '18023130176338578'
       published: 2025-01-14-18-10-31
-      updated: 2025-01-16-12-13-18
+      updated: 2025-01-16-13-14-33
       followers: 1525
       likes: 69
-      views: 230
+      views: 231
     - service: vk
       id: 2057
       published: 2025-01-14-18-10-37
-      updated: 2025-01-16-12-13-19
+      updated: 2025-01-16-13-14-34
       followers: 1052
       likes: 43
-      views: 203
+      views: 205
       reposts: 2
       comments: !c |-
         GwoBSJwJdiyXCQdrkR4XF/0TN4rwjxdwxhk2CR7hyT7VtvQJb084hCuDQrNXWILlTYy/nz1ZTnfH
@@ -12061,7 +12061,7 @@
     - service: tg
       id: 667
       published: 2025-01-14-18-10-44
-      updated: 2025-01-16-12-13-19
+      updated: 2025-01-16-13-14-34
       followers: 650
       likes: 60
       views: 218
