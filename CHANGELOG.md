@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.32.1](https://github.com/dehero/mwscr/compare/v1.32.0...v1.32.1) (2025-01-16)
+
+### Code Refactoring
+
+- separate rules and schemas
+  ([beeb9dd](https://github.com/dehero/mwscr/commit/beeb9dd1c5a520fa6429c430aaabc0fc3c2eb3b7))
+
 ## [1.32.0](https://github.com/dehero/mwscr/compare/v1.31.3...v1.32.0) (2025-01-16)
 
 ### Features
