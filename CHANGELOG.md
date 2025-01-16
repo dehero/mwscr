@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.32.0](https://github.com/dehero/mwscr/compare/v1.31.3...v1.32.0) (2025-01-16)
+
+### Features
+
+- start using Valibot for entity type declarations and data validation
+  ([#199](https://github.com/dehero/mwscr/issues/199))
+  ([ac56f21](https://github.com/dehero/mwscr/commit/ac56f21c7bbb4547bf4152d466489eb07017d0c8))
+
 ## [1.31.3](https://github.com/dehero/mwscr/compare/v1.31.2...v1.31.3) (2025-01-06)
 
 ### Bug Fixes
