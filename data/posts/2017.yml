@@ -2748,26 +2748,32 @@
       id: DE5WIOBTqaO
       mediaId: '18075654520713798'
       published: 2025-01-16-18-10-26
-      updated: 2025-01-16-21-01-19
+      updated: 2025-01-16-22-06-58
       followers: 1522
-      likes: 59
-      views: 175
-      comments: !c CxCAkZPLQnlHCIyIAACrZGVsYW5vc3BpZXOpQGRyYXZlbmp2Aw==
+      likes: 68
+      views: 213
+      comments: !c |-
+        G6MA4B0Jtq2aNeDB4o/sIJb3mHUxRV4iQbQNeLe7yZBWZMt/f5P0XSCBjg0U/jka2zINMc0pB+y1
+        SBIIBNLw9xhb12OYyHPMxd3q94cXhgu0aYEWsulxiV9ahuAFLeaELZAbelj1YqKDbczD/D97EVyk
+        Cy7hSRzXyYj1zSzkENEeAmE5wMHxS7zYYF9BjTBGIDAZr5YRo0wF
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-01-16-21-01-19
+      updated: 2025-01-16-22-06-58
       followers: 1053
-      likes: 14
-      views: 85
+      likes: 16
+      views: 95
       reposts: 1
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-01-16-21-01-20
+      updated: 2025-01-16-22-06-58
       followers: 655
-      likes: 34
-      views: 100
+      likes: 36
+      views: 104
+      comments: !c |-
+        Cx+AkZPLQnlHEE4ggACoQWVsbGFyaWHZKdCv0LrRliDQutC+0LvRjNC+0YDQuCwg0Y/QutCwINC6
+        0YDQsNGB0LAhAw==
 2017-03-12-silhouettes:
   title: Silhouettes
   titleRu: Силуэты
