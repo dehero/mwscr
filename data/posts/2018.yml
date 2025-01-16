@@ -3080,17 +3080,17 @@
     - service: tg
       id: 580
       published: 2024-10-30-18-10-40
-      updated: 2025-01-09-00-36-29
+      updated: 2025-01-16-02-06-04
       followers: 563
       likes: 59
-      views: 561
+      views: 562
     - service: vk
       id: 1867
       published: 2024-10-30-19-01-22
-      updated: 2025-01-09-00-36-30
+      updated: 2025-01-16-02-06-07
       followers: 1001
       likes: 46
-      views: 319
+      views: 320
 2018-03-27-in-the-branches:
   title: In the Branches
   titleRu: Среди ветвей
@@ -5395,25 +5395,26 @@
       id: DE2xU3uvvrq
       mediaId: '17962967642840380'
       published: 2025-01-15-18-10-22
-      updated: 2025-01-16-00-35-12
+      updated: 2025-01-16-02-06-00
       followers: 1522
-      likes: 59
-      views: 169
+      likes: 62
+      views: 178
       comments: !c CxSAkZPLQnlGs9PPgACtZGFuaWVsbGVfaGlpaa9JIGxpa2UgUGVsYWdpYWQD
     - service: vk
       id: 2067
       published: 2025-01-15-18-10-29
-      updated: 2025-01-16-00-35-12
+      updated: 2025-01-16-02-06-00
       followers: 1053
-      likes: 21
-      views: 110
+      likes: 24
+      views: 116
+      reposts: 1
     - service: tg
       id: 668
       published: 2025-01-15-18-10-36
-      updated: 2025-01-16-00-35-12
+      updated: 2025-01-16-02-06-00
       followers: 654
-      likes: 42
-      views: 120
+      likes: 43
+      views: 124
 2018-05-29-at-the-tops-of-fir-trees:
   title: At the Tops of Fir-Trees
   titleRu: В вершинах елей
