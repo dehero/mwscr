@@ -1,7 +1,7 @@
 import { cleanupUndefinedProps } from '../utils/common-utils.js';
 import type { ListReaderStats } from './list-manager.js';
-import type { PostsManager, PostsManagerName } from './posts-manager.js';
-import { POSTS_MANAGER_INFOS } from './posts-manager.js';
+import type { PostsManager } from './posts-manager.js';
+import { postsManagerDescriptors, PostsManagerName } from './posts-manager.js';
 
 export type PostsUsage = Partial<Record<PostsManagerName, number>>;
 
@@ -34,9 +34,9 @@ export async function createPostsUsage(
 }
 
 export function comparePostsUsages(a: PostsUsage | undefined, b?: PostsUsage | undefined) {
-  for (const info of POSTS_MANAGER_INFOS) {
-    const aValue = a?.[info.name] ?? 0;
-    const bValue = b?.[info.name] ?? 0;
+  for (const name of PostsManagerName.options) {
+    const aValue = a?.[name] ?? 0;
+    const bValue = b?.[name] ?? 0;
     if (aValue !== bValue) {
       return aValue - bValue;
     }
@@ -50,7 +50,8 @@ export function postsUsageToString(usage: PostsUsage | undefined) {
     return '';
   }
 
-  return POSTS_MANAGER_INFOS.map((info) => (usage[info.name] ? `${usage[info.name]} ${info.label}` : undefined))
+  return PostsManagerName.options
+    .map((name) => (usage[name] ? `${usage[name]} ${postsManagerDescriptors[name].label}` : undefined))
     .filter((a) => a)
     .join(', ');
 }

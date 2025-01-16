@@ -1,24 +1,27 @@
+import type { InferOutput } from 'valibot';
+import { boolean, nonEmpty, number, object, optional, picklist, pipe, record, string, trim } from 'valibot';
 import type { Link } from './link.js';
 import type { Option } from './option.js';
 import type { Service } from './service.js';
 
-export const USER_ROLES = ['admin', 'author', 'requester', 'drawer', 'beginner', 'foreigner'] as const;
-
-export type UserRole = (typeof USER_ROLES)[number];
-
 export const USER_DEFAULT_AUTHOR = 'dehero';
 export const USER_UNKNOWN = 'anonimous';
 
-export type UserProfiles = Record<string, string | undefined>;
+export const UserRole = picklist(['admin', 'author', 'requester', 'drawer', 'beginner', 'foreigner']);
+export const UserProfiles = record(pipe(string(), nonEmpty()), optional(pipe(string(), trim(), nonEmpty())));
 
-export interface User {
-  name?: string;
-  nameRu?: string;
-  nameRuFrom?: string;
-  admin?: boolean;
-  telegramBotChatId?: number;
-  profiles?: UserProfiles;
-}
+export const User = object({
+  name: optional(pipe(string(), trim(), nonEmpty())),
+  nameRu: optional(pipe(string(), trim(), nonEmpty())),
+  nameRuFrom: optional(pipe(string(), trim(), nonEmpty())),
+  admin: optional(boolean()),
+  telegramBotChatId: optional(number()),
+  profiles: optional(UserProfiles),
+});
+
+export type UserRole = InferOutput<typeof UserRole>;
+export type UserProfiles = Record<string, string | undefined>;
+export type User = InferOutput<typeof User>;
 
 export type UserEntry = [string, User | undefined, ...unknown[]];
 

@@ -7,10 +7,11 @@ import {
   userProfileVk,
 } from '../../core/entities/github-issue-field.js';
 import { PostType } from '../../core/entities/post.js';
-import type { PostRequest } from '../../core/entities/post-variation.js';
+import type { RequestProposal } from '../../core/entities/posts-manager.js';
+import { createRequestProposalId } from '../../core/entities/posts-manager.js';
 import { label } from '../../core/github-issues/post-request.js';
 import { safeParseOutput } from '../../core/utils/validation-utils.js';
-import { createPostRequestId, inbox } from '../data-managers/posts.js';
+import { inbox } from '../data-managers/posts.js';
 import { extractIssueFieldValue, extractIssueUser } from './utils/issue-utils.js';
 
 export * from '../../core/github-issues/post-request.js';
@@ -19,7 +20,7 @@ export async function resolve(issue: GithubIssue) {
   const [user] = await extractIssueUser(issue);
   const typeStr = extractIssueFieldValue(postType, issue.body);
 
-  const request: PostRequest = {
+  const request: RequestProposal = {
     request: {
       text: issue.title,
       user,
@@ -28,7 +29,7 @@ export async function resolve(issue: GithubIssue) {
     type: safeParseOutput(PostType, typeStr) ?? 'shot',
   };
 
-  const id = createPostRequestId(request);
+  const id = createRequestProposalId(request);
   await inbox.addItem(request, id);
 
   console.info(`Created post request "${id}".`);

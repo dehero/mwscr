@@ -1,4 +1,4 @@
-import { isTrashItem } from '../../core/entities/post-variation.js';
+import { isTrashItem } from '../../core/entities/posts-manager.js';
 import { inbox, trash } from '../data-managers/posts.js';
 import { moveInboxItemResourcesToTrash, restoreTrashItemResources } from '../data-managers/store-resources.js';
 

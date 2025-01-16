@@ -3,11 +3,11 @@ import type { Doc } from '../../core/entities/doc.js';
 import type { Post } from '../../core/entities/post.js';
 import { comparePostEntriesById, comparePostEntriesByRating } from '../../core/entities/post.js';
 import {
-  isPostRequest,
   isPublishablePost,
-  isRevisitablePost,
+  isReferenceProposal,
+  isRequestProposal,
   isTrashItem,
-} from '../../core/entities/post-variation.js';
+} from '../../core/entities/posts-manager.js';
 import { inbox, posts, postsManagers, trash } from '../data-managers/posts.js';
 import { users } from '../data-managers/users.js';
 import type { PostEntriesDoc } from '../doc-renderers/render-post-entries.js';
@@ -157,7 +157,7 @@ async function renderInbox() {
       linkText: 'Requests',
       filename: `${INBOX_DOCS_PATH}/requests.md`,
       source: inbox.readAllEntries,
-      filterFn: isPostRequest,
+      filterFn: isRequestProposal,
       compareFn: comparePostEntriesById('desc'),
     },
     ...years
@@ -203,7 +203,7 @@ async function renderTrash() {
       filename: `${TRASH_DOCS_PATH}/revisit.md`,
       source: trash.readAllEntries,
       compareFn: comparePostEntriesById('desc'),
-      filterFn: isRevisitablePost,
+      filterFn: isReferenceProposal,
     },
     ...years
       .sort((a, b) => Number(b) - Number(a))

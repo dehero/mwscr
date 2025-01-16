@@ -20,7 +20,7 @@ import {
   postViolationDescriptors,
 } from '../../core/entities/post.js';
 import type { PostAction } from '../../core/entities/post-action.js';
-import { isTrashItem } from '../../core/entities/post-variation.js';
+import { isTrashItem } from '../../core/entities/posts-manager.js';
 import { getPublicationEngagement } from '../../core/entities/publication.js';
 import { parseResourceUrl } from '../../core/entities/resource.js';
 import type { PostingService } from '../../core/entities/service.js';

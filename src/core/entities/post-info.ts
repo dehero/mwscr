@@ -26,8 +26,8 @@ import {
   postTypeDescriptors,
   postViolationDescriptors,
 } from './post.js';
-import { isPublishablePost, isTrashItem } from './post-variation.js';
 import type { PostsManagerName } from './posts-manager.js';
+import { isPublishablePost, isTrashItem } from './posts-manager.js';
 import { createUserOption } from './user.js';
 import type { UsersManager } from './users-manager.js';
 

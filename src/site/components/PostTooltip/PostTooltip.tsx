@@ -9,7 +9,7 @@ import {
 } from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
-import { POSTS_MANAGER_INFOS } from '../../../core/entities/posts-manager.js';
+import { postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
@@ -36,9 +36,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
   const aspectRatio = () => getPostTypeAspectRatio(local.postInfo.type);
   const alt = () => props.postInfo.tags?.join(' ');
 
-  const postActions = createMemo(
-    (): PostAction[] => POSTS_MANAGER_INFOS.find((info) => info.name === local.postInfo.managerName)?.actions ?? [],
-  );
+  const postActions = createMemo((): PostAction[] => postsManagerDescriptors[local.postInfo.managerName].actions);
 
   return (
     <Tooltip

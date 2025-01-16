@@ -1,8 +1,10 @@
 import type { Post } from '../../core/entities/post.js';
-import type { InboxItem, PublishablePost, TrashItem } from '../../core/entities/post-variation.js';
-import { getPostDraftChunkName, getPublishedPostChunkName } from '../../core/entities/post-variation.js';
-import type { PostsManagerName } from '../../core/entities/posts-manager.js';
-import { PostsManager } from '../../core/entities/posts-manager.js';
+import type { InboxItem, PostsManagerName, PublishablePost, TrashItem } from '../../core/entities/posts-manager.js';
+import {
+  getProposedPostChunkName,
+  getPublishedPostChunkName,
+  PostsManager,
+} from '../../core/entities/posts-manager.js';
 
 interface SitePostsManagerProps {
   name: PostsManagerName;
@@ -76,12 +78,12 @@ export const posts = new SitePostsManager<PublishablePost>({
 
 export const inbox = new SitePostsManager<InboxItem>({
   name: 'inbox',
-  getItemChunkName: getPostDraftChunkName,
+  getItemChunkName: getProposedPostChunkName,
 });
 
 export const trash = new SitePostsManager<TrashItem | InboxItem>({
   name: 'trash',
-  getItemChunkName: getPostDraftChunkName,
+  getItemChunkName: getProposedPostChunkName,
 });
 
 export const postsManagers: PostsManager[] = [posts, inbox, trash];

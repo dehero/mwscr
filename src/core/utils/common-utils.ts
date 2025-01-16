@@ -1,4 +1,5 @@
 import slugify from '@sindresorhus/slugify';
+import md5Hex from 'md5-hex';
 
 export function asArray<T>(value?: T | T[]): T[] {
   return Array.isArray(value) ? value : typeof value !== 'undefined' ? [value] : [];
@@ -163,4 +164,7 @@ export function isObjectEqual(a: object, b: object): boolean {
     Object.keys(a).length === Object.keys(b).length &&
     Object.entries(a).every(([key, value]) => b[key as keyof typeof b] === value)
   );
+}
+export function getDataHash(data: Uint8Array | string) {
+  return md5Hex(data).slice(0, 8);
 }

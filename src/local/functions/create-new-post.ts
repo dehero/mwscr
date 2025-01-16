@@ -1,12 +1,11 @@
 import type { PostEntries, PostEntry } from '../../core/entities/post.js';
 import { comparePostEntriesById, getPostEntriesFromSource } from '../../core/entities/post.js';
-import type { PublishablePost } from '../../core/entities/post-variation.js';
-import { isPublishablePost } from '../../core/entities/post-variation.js';
-import type { PostsManager } from '../../core/entities/posts-manager.js';
+import type { PostsManager, PublishablePost } from '../../core/entities/posts-manager.js';
+import { createNewPostId, createRepostId, isPublishablePost } from '../../core/entities/posts-manager.js';
 import { checkRules } from '../../core/entities/rule.js';
 import type { PostingScenario } from '../../core/scenarios/posting.js';
 import { postingScenarios } from '../../core/scenarios/posting.js';
-import { createPublishedPostId, createRepostId, inbox, posts } from '../data-managers/posts.js';
+import { inbox, posts } from '../data-managers/posts.js';
 import { movePublishedPostResources } from '../data-managers/store-resources.js';
 
 const DEBUG_POSTING = Boolean(process.env.DEBUG_POSTING) || false;
@@ -28,7 +27,7 @@ export async function createNewPost() {
       const [id, post] = entry;
 
       if (!post.posts) {
-        const newId = createPublishedPostId(post);
+        const newId = createNewPostId(post);
 
         await movePublishedPostResources([newId, post]);
         await posts.addItem(post, newId);

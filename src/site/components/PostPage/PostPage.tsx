@@ -20,8 +20,7 @@ import {
   postViolationDescriptors,
 } from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
-import { isPublishablePost, isTrashItem } from '../../../core/entities/post-variation.js';
-import { POSTS_MANAGER_INFOS } from '../../../core/entities/posts-manager.js';
+import { isPublishablePost, isTrashItem, postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { youtube } from '../../../core/services/youtube.js';
@@ -62,9 +61,7 @@ export const PostPage = (): JSX.Element => {
 
   const [selectedContentIndex, setSelectedContentIndex] = createSignal(0);
 
-  const postActions = createMemo(
-    (): PostAction[] => POSTS_MANAGER_INFOS.find((info) => info.name === params().managerName)?.actions ?? [],
-  );
+  const postActions = createMemo((): PostAction[] => postsManagerDescriptors[params().managerName].actions);
   const postEntry = (): PostEntry | undefined => (data().post ? [params().id, data().post!] : undefined);
 
   const date = () => getPostDateById(params().id);

@@ -1,20 +1,16 @@
 import { readdir } from 'fs/promises';
 import type { Post } from '../../core/entities/post.js';
-import { getPostFirstPublished, isPost } from '../../core/entities/post.js';
+import { isPost } from '../../core/entities/post.js';
 import { stripPostTags } from '../../core/entities/post-tag.js';
-import type { InboxItem, PostRequest, PublishablePost, TrashItem } from '../../core/entities/post-variation.js';
+import type { InboxItem, PostsManagerName, PublishablePost, TrashItem } from '../../core/entities/posts-manager.js';
 import {
-  getPostDraftChunkName,
+  getProposedPostChunkName,
   getPublishedPostChunkName,
   isInboxItem,
   isPublishablePost,
   isTrashOrInboxItem,
-} from '../../core/entities/post-variation.js';
-import type { PostsManagerName } from '../../core/entities/posts-manager.js';
-import { PostsManager } from '../../core/entities/posts-manager.js';
-import { asArray, textToId } from '../../core/utils/common-utils.js';
-import { dateToString } from '../../core/utils/date-utils.js';
-import { getDataHash } from '../utils/data-utils.js';
+  PostsManager,
+} from '../../core/entities/posts-manager.js';
 import { pathExists } from '../utils/file-utils.js';
 import { loadYaml, saveYaml } from './utils/yaml.js';
 
@@ -117,7 +113,7 @@ export const inbox = new LocalPostsManager<InboxItem>({
   name: 'inbox',
   dirPath: 'data/inbox',
   checkPost: isInboxItem,
-  getItemChunkName: getPostDraftChunkName,
+  getItemChunkName: getProposedPostChunkName,
 });
 
 // Allow trash to contain restorable inbox items temporarily
@@ -125,34 +121,7 @@ export const trash = new LocalPostsManager<TrashItem | InboxItem>({
   name: 'trash',
   dirPath: 'data/trash',
   checkPost: isTrashOrInboxItem,
-  getItemChunkName: getPostDraftChunkName,
+  getItemChunkName: getProposedPostChunkName,
 });
-
-export function createPublishedPostId(post: PublishablePost, index?: number) {
-  const created = getPostFirstPublished(post) ?? new Date();
-  const dateStr = dateToString(created);
-  const name = textToId(post.title);
-
-  return [dateStr, index, name].filter((item) => Boolean(item)).join('-');
-}
-
-export function createRepostId(post: PublishablePost) {
-  const created = new Date();
-  const dateStr = dateToString(created);
-  const name = textToId(post.title);
-
-  return [dateStr, name].filter((item) => Boolean(item)).join('-');
-}
-
-export function createInboxItemId(creator: string | string[], date: Date, title: string, hash?: string): string {
-  const firstCreator = asArray(creator)[0];
-  return `${firstCreator}.${dateToString(date)}-${textToId(title)}${hash ? `-${hash}` : ''}`;
-}
-
-export function createPostRequestId(request: PostRequest) {
-  const hash = getDataHash(request.request.text);
-
-  return createInboxItemId(request.request.user, request.request.date, hash);
-}
 
 export const postsManagers: PostsManager[] = [posts, inbox, trash];

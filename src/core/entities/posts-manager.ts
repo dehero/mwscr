@@ -1,33 +1,137 @@
-import { asArray } from '../utils/common-utils.js';
+import type { InferOutput } from 'valibot';
+import { intersect, literal, object, picklist, union } from 'valibot';
+import { asArray, getDataHash, textToId } from '../utils/common-utils.js';
+import { dateToString } from '../utils/date-utils.js';
 import type { ListReaderStats } from './list-manager.js';
 import { ListManager } from './list-manager.js';
-import type { Post } from './post.js';
 import {
   getPostDrawer,
   getPostEntryEngagement,
   getPostEntryLikes,
   getPostEntryViews,
+  getPostFirstPublished,
   getPostRating,
   isPostEqual,
   mergePostWith,
+  Post,
+  PostAuthor,
+  PostContent,
   postMarkDescriptors,
+  PostRequest,
+  PostTitle,
+  PostTitleRu,
+  PostViolation,
 } from './post.js';
 import type { PostAction } from './post-action.js';
+import { PostVariant } from './post-variant.js';
+import { checkRules } from './rule.js';
 
-export interface PostsManagerInfo {
-  name: string;
+export const ViolatingProposal = object({ ...Post.entries, violation: PostViolation });
+export const OrdinaryProposal = object({ ...Post.entries, mark: literal('D') });
+export const ReferenceProposal = object({ ...Post.entries, mark: literal('F') });
+export const DraftProposal = object({ ...Post.entries, content: PostContent, author: PostAuthor });
+export const RequestProposal = object({ ...Post.entries, request: PostRequest });
+
+export const TrashItem = union([ViolatingProposal, OrdinaryProposal, ReferenceProposal]);
+export const InboxItem = union([DraftProposal, RequestProposal]);
+export const TrashOrInboxItem = union([TrashItem, InboxItem]);
+
+export const PublishablePost = intersect([
+  object({
+    ...Post.entries,
+    title: PostTitle,
+    titleRu: PostTitleRu,
+    author: PostAuthor,
+    content: PostContent,
+    mark: picklist(['A1', 'A2', 'B1', 'B2', 'C', 'E']),
+  }),
+  PostVariant,
+]);
+
+export type ViolatingProposal = InferOutput<typeof ViolatingProposal>;
+export type OrdinaryProposal = InferOutput<typeof OrdinaryProposal>;
+export type ReferenceProposal = InferOutput<typeof ReferenceProposal>;
+export type DraftProposal = InferOutput<typeof DraftProposal>;
+export type RequestProposal = InferOutput<typeof RequestProposal>;
+
+export type TrashItem = InferOutput<typeof TrashItem>;
+export type InboxItem = InferOutput<typeof InboxItem>;
+export type PublishablePost = InferOutput<typeof PublishablePost>;
+
+export const PostsManagerName = picklist(['posts', 'inbox', 'trash']);
+export type PostsManagerName = InferOutput<typeof PostsManagerName>;
+
+export interface PostsManagerDescriptor {
   title: string;
   label: string;
   actions: PostAction[];
 }
 
-export const POSTS_MANAGER_INFOS = [
-  { name: 'posts', title: 'Posts', label: 'posted', actions: ['locate'] },
-  { name: 'inbox', title: 'Inbox', label: 'pending', actions: ['locate', 'edit', 'review', 'merge'] },
-  { name: 'trash', title: 'Trash', label: 'rejected', actions: ['locate', 'edit', 'review', 'merge'] },
-] as const satisfies PostsManagerInfo[];
+export const postsManagerDescriptors = Object.freeze<Record<PostsManagerName, PostsManagerDescriptor>>({
+  posts: { title: 'Posts', label: 'posted', actions: ['locate'] },
+  inbox: { title: 'Inbox', label: 'pending', actions: ['locate', 'edit', 'review', 'merge'] },
+  trash: { title: 'Trash', label: 'rejected', actions: ['locate', 'edit', 'review', 'merge'] },
+});
 
-export type PostsManagerName = (typeof POSTS_MANAGER_INFOS)[number]['name'];
+export function isReferenceProposal(post: Post, errors?: string[]): post is ReferenceProposal {
+  return checkRules([ReferenceProposal], post, errors);
+}
+
+export function isTrashItem(post: Post, errors?: string[]): post is TrashItem {
+  return checkRules([TrashItem], post, errors);
+}
+
+export function isPublishablePost(post: Post, errors?: string[]): post is PublishablePost {
+  return checkRules([PublishablePost], post, errors);
+}
+
+export function isRequestProposal(post: Post, errors?: string[]): post is RequestProposal {
+  return checkRules([RequestProposal], post, errors);
+}
+
+export function isInboxItem(post: Post, errors?: string[]): post is InboxItem {
+  return checkRules([InboxItem], post, errors);
+}
+
+export function isTrashOrInboxItem(post: Post, errors?: string[]): post is TrashItem | InboxItem {
+  return checkRules([TrashOrInboxItem], post, errors);
+}
+
+export function getPublishedPostChunkName(id: string) {
+  const chunkName = id.split('-')[0];
+
+  if (!chunkName) {
+    throw new Error(`Cannot get year from post id: ${id}`);
+  }
+  return chunkName;
+}
+
+export function getProposedPostChunkName(id: string) {
+  return id.split('.')[1]?.split('-')[0] ?? new Date().getFullYear().toString();
+}
+
+export function createNewPostId(post: PublishablePost, index?: number) {
+  const created = getPostFirstPublished(post) ?? new Date();
+  const dateStr = dateToString(created);
+  const name = textToId(post.title);
+
+  return [dateStr, index, name].filter((item) => Boolean(item)).join('-');
+}
+
+export function createRepostId(post: PublishablePost) {
+  return createNewPostId({ ...post, posts: undefined });
+}
+
+export function createInboxItemId(creator: string | string[], date: Date, title: string, hash?: string): string {
+  const firstCreator = asArray(creator)[0];
+  return `${firstCreator}.${dateToString(date)}-${textToId(title)}${hash ? `-${hash}` : ''}`;
+}
+
+export function createRequestProposalId(request: RequestProposal) {
+  const hash = getDataHash(request.request.text);
+
+  return createInboxItemId(request.request.user, request.request.date, hash);
+}
 
 export abstract class PostsManager<TPost extends Post = Post> extends ListManager<TPost> {
   abstract readonly name: PostsManagerName;

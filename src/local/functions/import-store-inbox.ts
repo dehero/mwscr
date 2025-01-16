@@ -4,12 +4,13 @@ import {
   mergePostContents,
   mergePostWith,
 } from '../../core/entities/post.js';
-import type { PostDraft } from '../../core/entities/post-variation.js';
+import type { DraftProposal } from '../../core/entities/posts-manager.js';
+import { createInboxItemId } from '../../core/entities/posts-manager.js';
 import { resourceIsImage, resourceIsVideo } from '../../core/entities/resource.js';
 import type { StoreItem } from '../../core/entities/store.js';
 import { parseStoreResourceUrl, STORE_INBOX_DIR } from '../../core/entities/store.js';
 import { asArray, partition } from '../../core/utils/common-utils.js';
-import { createInboxItemId, inbox } from '../data-managers/posts.js';
+import { inbox } from '../data-managers/posts.js';
 import { storeManager } from '../store-managers/index.js';
 
 export async function importStoreInbox() {
@@ -60,7 +61,7 @@ async function importNewItems(items: StoreItem[]) {
       continue;
     }
 
-    const draft: PostDraft = {
+    const draft: DraftProposal = {
       content: item.url,
       type,
       author,

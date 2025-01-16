@@ -1,13 +1,8 @@
-import crypto from 'crypto';
 import { Packr } from 'msgpackr';
 import type { Readable } from 'stream';
 import zlib from 'zlib';
 
 const packr = new Packr();
-
-export function getDataHash(data: crypto.BinaryLike) {
-  return crypto.createHash('shake256', { outputLength: 4 }).update(data).digest('hex');
-}
 
 export function compressData(data: unknown): string | undefined {
   return zlib
