@@ -97,7 +97,7 @@ export class DataManager<TPostsManager extends PostsManager = PostsManager> {
         comparePostEntriesByDate('desc'),
       );
 
-      return await Promise.all(entries.map((entry) => createPostInfo(entry, this.users, manager)));
+      return await Promise.all(entries.map((entry) => createPostInfo(entry, this.users, manager.name)));
     });
   }
 

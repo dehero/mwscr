@@ -165,6 +165,7 @@ export function isObjectEqual(a: object, b: object): boolean {
     Object.entries(a).every(([key, value]) => b[key as keyof typeof b] === value)
   );
 }
-export function getDataHash(data: Uint8Array | string) {
+
+export function getRevisionHash(data: Uint8Array | string) {
   return md5Hex(data).slice(0, 8);
 }

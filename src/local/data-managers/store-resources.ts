@@ -19,7 +19,7 @@ import {
 } from '../../core/entities/store.js';
 import { USER_UNKNOWN } from '../../core/entities/user.js';
 import { importingScenarios } from '../../core/scenarios/importing.js';
-import { asArray, getDataHash } from '../../core/utils/common-utils.js';
+import { asArray, getRevisionHash } from '../../core/utils/common-utils.js';
 import { extractDateFromString } from '../../core/utils/date-utils.js';
 import {
   extractResourceMediaMetadata,
@@ -60,7 +60,7 @@ export async function importResourceToStore(
   const [date, text] = extractDateFromString(template?.title ?? '');
   const title = postTitleFromString(text || nameTitle);
 
-  const hash = getDataHash(data ?? filename);
+  const hash = getRevisionHash(data ?? filename);
 
   const id = createInboxItemId(author, nameDate || date || templateDate || new Date(), title, hash);
   let content: PostContent = typeof resource === 'string' ? resource : filename;

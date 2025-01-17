@@ -3,21 +3,29 @@ import type { InboxItem, PostsManagerName, PublishablePost, TrashItem } from '..
 import {
   getProposedPostChunkName,
   getPublishedPostChunkName,
+  isInboxItem,
+  isPublishablePost,
+  isTrashOrInboxItem,
   PostsManager,
 } from '../../core/entities/posts-manager.js';
 
-interface SitePostsManagerProps {
+interface SitePostsManagerProps<TPost extends Post> {
   name: PostsManagerName;
+  checkPost: (post: Post, errors?: string[]) => post is TPost;
   getItemChunkName: (id: string) => string;
 }
 
-class SitePostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
+export class SitePostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
   readonly name: PostsManagerName;
+
+  readonly checkPost: (post: Post, errors?: string[]) => post is TPost;
   readonly getItemChunkName: (id: string) => string;
 
-  constructor({ name, getItemChunkName }: SitePostsManagerProps) {
+  constructor({ name, checkPost, getItemChunkName }: SitePostsManagerProps<TPost>) {
     super();
     this.name = name;
+    this.checkPost = checkPost;
+
     this.getItemChunkName = getItemChunkName;
   }
 
@@ -73,17 +81,20 @@ class SitePostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
 
 export const posts = new SitePostsManager<PublishablePost>({
   name: 'posts',
+  checkPost: isPublishablePost,
   getItemChunkName: getPublishedPostChunkName,
 });
 
 export const inbox = new SitePostsManager<InboxItem>({
   name: 'inbox',
+  checkPost: isInboxItem,
   getItemChunkName: getProposedPostChunkName,
 });
 
 export const trash = new SitePostsManager<TrashItem | InboxItem>({
   name: 'trash',
+  checkPost: isTrashOrInboxItem,
   getItemChunkName: getProposedPostChunkName,
 });
 
-export const postsManagers: PostsManager[] = [posts, inbox, trash];
+export const postsManagers: SitePostsManager[] = [posts, inbox, trash];

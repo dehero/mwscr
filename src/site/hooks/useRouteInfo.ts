@@ -3,8 +3,8 @@
 // import { resolveRoute } from 'vike/routing';
 import { createMemo } from 'solid-js';
 import type { PageContext } from 'vike/types';
+import type { DataManager } from '../../core/entities/data-manager.js';
 import type { SiteRoute, SiteRouteInfo, SiteRouteMeta, SiteRouteParams } from '../../core/entities/site-route.js';
-import { dataManager } from '../data-managers/manager.js';
 import { resolveFirstRoute } from '../routes/index.js';
 
 // const isPatched = false;
@@ -12,7 +12,7 @@ import { resolveFirstRoute } from '../routes/index.js';
 export function useRouteInfo<TParams extends SiteRouteParams, TData, TMeta extends SiteRouteMeta>(
   pageContext: PageContext,
   _route?: SiteRoute<TParams, TData, TMeta>,
-  _dataExtractor?: DataExtractor,
+  _dataExtractor?: DataManager,
 ): SiteRouteInfo<TParams, TData, TMeta> {
   const pathname = () => pageContext.urlPathname;
   const currentRouteMatch = () => resolveFirstRoute(pageContext.urlPathname);

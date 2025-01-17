@@ -1,4 +1,3 @@
-import type { DataManagerArgs } from '../../core/entities/data-manager.js';
 import { DataManager } from '../../core/entities/data-manager.js';
 import type { LocationInfo } from '../../core/entities/location-info.js';
 import type { PostInfo } from '../../core/entities/post-info.js';
