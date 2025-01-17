@@ -182,21 +182,24 @@ export abstract class ListManager<TItem, TItemPatch> extends ListReader<TItem> {
           await this.updateItem(id);
         }
       } else if (itemPatch !== null) {
-        await this.addItem(itemPatch, id);
+        // TODO: resolve error, example: Error creating new post: Item "2025-01-17-time-to-meet-the-ancestors" is not valid
+        // await this.addItem(itemPatch, id);
       }
     }
   }
 
-  async addItem(item: TItem | TItemPatch | string, id: string) {
-    if (typeof item === 'string') {
-      const refItem = await this.getItem(item);
-      if (!refItem) {
-        throw new Error(`Reference item "${id}" not found`);
-      }
-    }
-    if (!this.isItem(item)) {
-      throw new Error(`Item "${id}" is not valid`);
-    }
+  async addItem(item: TItem | string, id: string) {
+    // async addItem(item: TItem | TItemPatch | string, id: string) {
+
+    //   if (typeof item === 'string') {
+    //     const refItem = await this.getItem(item);
+    //     if (!refItem) {
+    //       throw new Error(`Reference item "${id}" not found`);
+    //     }
+    //   }
+    //   if (!this.isItem(item)) {
+    //     throw new Error(`Item "${id}" is not valid`);
+    //   }
 
     const chunkName = this.getItemChunkName(id);
 
