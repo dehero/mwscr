@@ -2748,10 +2748,10 @@
       id: DE5WIOBTqaO
       mediaId: '18075654520713798'
       published: 2025-01-16-18-10-26
-      updated: 2025-01-17-10-07-57
+      updated: 2025-01-17-11-01-19
       followers: 1522
-      likes: 103
-      views: 352
+      likes: 107
+      views: 368
       comments: !c |-
         G/MAYBwHzpkvTmcI9S+FLu3y9DG2gHIBiQZXB5Y87XmwixboGqAFK1CLbNlyW6rXqiEZ3W/eAH3+
         HY86YjRGqk9PNDCupUnQVtaWSIQhtUB/veHDc2h7JDVSPru+HSn+swCPLzu3InPz0rM3m3Iwgs7R
@@ -2760,18 +2760,18 @@
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-01-17-10-07-55
+      updated: 2025-01-17-11-01-18
       followers: 1053
-      likes: 29
-      views: 148
+      likes: 31
+      views: 157
       reposts: 1
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-01-17-10-07-55
+      updated: 2025-01-17-11-01-18
       followers: 655
       likes: 48
-      views: 156
+      views: 159
       comments: !c |-
         Cx+AkZPLQnlHEE4ggACoQWVsbGFyaWHZKdCv0LrRliDQutC+0LvRjNC+0YDQuCwg0Y/QutCwINC6
         0YDQsNGB0LAhAw==
