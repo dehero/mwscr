@@ -1,0 +1,11 @@
+name: Patch Data
+description: Apply JSON patch to project's data .
+labels:
+  - data-patch
+body:
+  - type: textarea
+    id: text
+    attributes:
+      label: Data Patch Text
+      description: Write down data patch (JSON).
+      render: json
