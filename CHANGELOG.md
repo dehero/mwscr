@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.33.0](https://github.com/dehero/mwscr/compare/v1.32.1...v1.33.0) (2025-01-17)
+
+### Features
+
+- implement data patch entity and issue resolver
+  ([cb56b08](https://github.com/dehero/mwscr/commit/cb56b08f6bfc0c7582cf8a34f9df17eded39890a))
+- **site:** implement method to show message boxes
+  ([5863f4f](https://github.com/dehero/mwscr/commit/5863f4fbc80bd38d150b13f8e4f964c199052c5d))
+
+### Bug Fixes
+
+- resolve merging issues ([90a8904](https://github.com/dehero/mwscr/commit/90a89048858f11b29d4d17af223460906e90950c))
+
+### Code Refactoring
+
+- rename DataExtractor to DataManager
+  ([56a9d62](https://github.com/dehero/mwscr/commit/56a9d62e02c41b0ad704cf88372e5747b9ef167f))
+
 ## [1.32.1](https://github.com/dehero/mwscr/compare/v1.32.0...v1.32.1) (2025-01-16)
 
 ### Code Refactoring
