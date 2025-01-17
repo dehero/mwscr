@@ -4,7 +4,35 @@
 
 # Posted in 2025
 
-`16 items`
+`17 items`
+
+## <span id="2025-01-17-three-imperial-dragons">Three Imperial Dragons</span>
+
+`RU` Три имперских дракона
+
+<a href="https://instagram.com/p/Bq4kQSlB62U/" title="2018-12-02-three-imperial-dragons"><img alt="store:/shots/2018-12-02-three-imperial-dragons.png" src="../../assets/previews/shots/2018-12-02-three-imperial-dragons.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Fort Frostmoth` `🚀 OpenMW` `🔗 Bloodmoon`
+
+```
+2025-01-17-three-imperial-dragons
+```
+
+> `2018-12-02-three-imperial-dragons`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bq4kQSlB62U/)       | 2018-12-02 |       |   114 |       484 |  23.55 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1086) | 2018-12-02 |  1040 |    38 |       298 |  12.75 |
+| [`tg`](https://t.me/mwscr/133)                     | 2018-12-02 |   432 |     2 |           |        |
+| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |       |       |      1525 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |       |       |      1053 |        |
+| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |       |       |       655 |        |
+|                                                    |            |       |       |      3233 |  18.15 |
 
 ## <span id="2025-01-16-fields-of-kummu-in-the-sunset-light">Fields of Kummu in the Sunset Light</span>
 
@@ -28,10 +56,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRfgcN7DM6L/)       | 2017-03-11 |       |    39 |       105 |  37.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_192)  | 2017-03-11 |   144 |     8 |        45 |      9 |
-| [`ig`](https://instagram.com/p/DE5WIOBTqaO/)       | 2025-01-16 |   441 |   122 |      1522 |   8.02 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   189 |    39 |      1053 |    3.8 |
+| [`ig`](https://instagram.com/p/DE5WIOBTqaO/)       | 2025-01-16 |   450 |   122 |      1522 |   8.02 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   191 |    39 |      1053 |    3.8 |
 | [`tg`](https://t.me/mwscr/669)                     | 2025-01-16 |   172 |    52 |       655 |   7.94 |
-|                                                    |            |   802 |   213 |      3230 |  13.18 |
+|                                                    |            |   813 |   213 |      3230 |  13.18 |
 
 #### Comments
 
@@ -107,10 +135,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bb7ZYdQj1JH/)       | 2017-11-25 |       |    68 |       240 |  28.33 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_511)  | 2017-11-25 |   157 |    11 |       101 |  10.89 |
-| [`ig`](https://instagram.com/p/DE0MjAjSIq6/)       | 2025-01-14 |   238 |    69 |      1525 |   4.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2057) | 2025-01-14 |   213 |    45 |      1052 |   4.47 |
-| [`tg`](https://t.me/mwscr/667)                     | 2025-01-14 |   221 |    60 |       650 |   9.23 |
-|                                                    |            |   672 |   174 |      3227 |  11.49 |
+| [`ig`](https://instagram.com/p/DE0MjAjSIq6/)       | 2025-01-14 |   245 |    71 |      1525 |   4.66 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2057) | 2025-01-14 |   246 |    49 |      1052 |   4.85 |
+| [`tg`](https://t.me/mwscr/667)                     | 2025-01-14 |   248 |    61 |       650 |   9.38 |
+|                                                    |            |   739 |   181 |      3227 |  11.62 |
 
 #### Comments
 
@@ -189,10 +217,10 @@
 | [`ig`](https://instagram.com/p/BxbzcNSh63K/)       | 2019-05-14 |       |   159 |       802 |  19.83 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1169) | 2019-05-14 |   772 |    44 |       350 |  12.57 |
 | [`tg`](https://t.me/mwscr/179,180,181)             | 2019-05-14 |   722 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DEvC4deuAgT/)       | 2025-01-12 |   499 |   134 |      1526 |   8.78 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2050) | 2025-01-12 |   284 |    34 |      1052 |   3.42 |
+| [`ig`](https://instagram.com/p/DEvC4deuAgT/)       | 2025-01-12 |   502 |   134 |      1526 |   8.78 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2050) | 2025-01-12 |   297 |    35 |      1052 |   3.52 |
 | [`tg`](https://t.me/mwscr/661,662)                 | 2025-01-12 |   326 |    60 |       648 |   9.26 |
-|                                                    |            |  1109 |   228 |      3226 |  10.77 |
+|                                                    |            |  1125 |   229 |      3226 |  10.79 |
 
 #### Comments
 

@@ -2748,10 +2748,10 @@
       id: DE5WIOBTqaO
       mediaId: '18075654520713798'
       published: 2025-01-16-18-10-26
-      updated: 2025-01-17-18-10-00
+      updated: 2025-01-17-18-52-22
       followers: 1522
       likes: 122
-      views: 441
+      views: 450
       comments: !c |-
         G/MAYBwHzpkvTmcI9S+FLu3y9DG2gHIBiQZXB5Y87XmwixboGqAFK1CLbNlyW6rXqiEZ3W/eAH3+
         HY86YjRGqk9PNDCupUnQVtaWSIQhtUB/veHDc2h7JDVSPru+HSn+swCPLzu3InPz0rM3m3Iwgs7R
@@ -2760,15 +2760,15 @@
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-01-17-18-09-59
+      updated: 2025-01-17-18-52-21
       followers: 1053
       likes: 39
-      views: 189
+      views: 191
       reposts: 1
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-01-17-18-09-59
+      updated: 2025-01-17-18-52-21
       followers: 655
       likes: 52
       views: 172
@@ -12072,17 +12072,17 @@
       id: DE0MjAjSIq6
       mediaId: '18023130176338578'
       published: 2025-01-14-18-10-31
-      updated: 2025-01-16-18-10-07
+      updated: 2025-01-17-18-52-23
       followers: 1525
-      likes: 69
-      views: 238
+      likes: 71
+      views: 245
     - service: vk
       id: 2057
       published: 2025-01-14-18-10-37
-      updated: 2025-01-16-18-10-08
+      updated: 2025-01-17-18-52-22
       followers: 1052
-      likes: 45
-      views: 213
+      likes: 49
+      views: 246
       reposts: 2
       comments: !c |-
         GwoBSJwJdiyXCQdrkR4XF/0TN4rwjxdwxhk2CR7hyT7VtvQJb084hCuDQrNXWILlTYy/nz1ZTnfH
@@ -12092,10 +12092,10 @@
     - service: tg
       id: 667
       published: 2025-01-14-18-10-44
-      updated: 2025-01-16-18-10-08
+      updated: 2025-01-17-18-52-22
       followers: 650
-      likes: 60
-      views: 221
+      likes: 61
+      views: 248
 2017-11-26-in-the-cell-of-vuvil-senim:
   title: In the Cell of Vuvil Senim
   titleRu: В камере Вувила Сенима
