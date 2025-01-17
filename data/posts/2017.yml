@@ -416,7 +416,7 @@
     - service: vk
       id: 1753
       published: 2024-09-12-18-31-04
-      updated: 2025-01-10-05-08-24
+      updated: 2025-01-17-06-10-45
       followers: 945
       likes: 39
       views: 318
@@ -428,7 +428,7 @@
     - service: tg
       id: 530
       published: 2024-09-12-18-31-10
-      updated: 2025-01-10-05-08-23
+      updated: 2025-01-17-06-10-44
       followers: 555
       likes: 62
       views: 509
@@ -2748,10 +2748,10 @@
       id: DE5WIOBTqaO
       mediaId: '18075654520713798'
       published: 2025-01-16-18-10-26
-      updated: 2025-01-17-05-08-03
+      updated: 2025-01-17-06-10-42
       followers: 1522
-      likes: 96
-      views: 317
+      likes: 98
+      views: 326
       comments: !c |-
         G/MAYBwHzpkvTmcI9S+FLu3y9DG2gHIBiQZXB5Y87XmwixboGqAFK1CLbNlyW6rXqiEZ3W/eAH3+
         HY86YjRGqk9PNDCupUnQVtaWSIQhtUB/veHDc2h7JDVSPru+HSn+swCPLzu3InPz0rM3m3Iwgs7R
@@ -2760,18 +2760,18 @@
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-01-17-05-08-03
+      updated: 2025-01-17-06-10-41
       followers: 1053
       likes: 26
-      views: 124
+      views: 130
       reposts: 1
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-01-17-05-08-03
+      updated: 2025-01-17-06-10-42
       followers: 655
       likes: 43
-      views: 132
+      views: 134
       comments: !c |-
         Cx+AkZPLQnlHEE4ggACoQWVsbGFyaWHZKdCv0LrRliDQutC+0LvRjNC+0YDQuCwg0Y/QutCwINC6
         0YDQsNGB0LAhAw==
@@ -4044,17 +4044,17 @@
     - service: vk
       id: 1701
       published: 2024-08-22-18-19-48
-      updated: 2025-01-10-05-08-27
+      updated: 2025-01-17-06-10-48
       followers: 937
       likes: 31
       views: 281
     - service: tg
       id: 509
       published: 2024-08-22-18-19-55
-      updated: 2025-01-10-05-08-25
+      updated: 2025-01-17-06-10-46
       followers: 539
       likes: 55
-      views: 585
+      views: 586
 2017-04-14-in-the-bar:
   title: In the Bar
   titleRu: У барной стойки
@@ -10381,14 +10381,14 @@
     - service: vk
       id: 1773
       published: 2024-09-19-18-29-58
-      updated: 2025-01-10-05-08-22
+      updated: 2025-01-17-06-10-44
       followers: 948
       likes: 37
       views: 308
     - service: tg
       id: 538
       published: 2024-09-19-18-30-04
-      updated: 2025-01-10-05-08-22
+      updated: 2025-01-17-06-10-44
       followers: 555
       likes: 59
       views: 543
