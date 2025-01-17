@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.33.1](https://github.com/dehero/mwscr/compare/v1.33.0...v1.33.1) (2025-01-17)
+
+### Bug Fixes
+
+- quickly resolve addItem issue on ListManager
+  ([08d296e](https://github.com/dehero/mwscr/commit/08d296eff6cb16b80a472aee0db606fff8ad85dc))
+
 ## [1.33.0](https://github.com/dehero/mwscr/compare/v1.32.1...v1.33.0) (2025-01-17)
 
 ### Features
