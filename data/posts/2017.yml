@@ -2748,10 +2748,10 @@
       id: DE5WIOBTqaO
       mediaId: '18075654520713798'
       published: 2025-01-16-18-10-26
-      updated: 2025-01-17-21-01-10
+      updated: 2025-01-17-22-02-09
       followers: 1522
       likes: 124
-      views: 455
+      views: 459
       comments: !c |-
         G/MAYBwHzpkvTmcI9S+FLu3y9DG2gHIBiQZXB5Y87XmwixboGqAFK1CLbNlyW6rXqiEZ3W/eAH3+
         HY86YjRGqk9PNDCupUnQVtaWSIQhtUB/veHDc2h7JDVSPru+HSn+swCPLzu3InPz0rM3m3Iwgs7R
@@ -2760,7 +2760,7 @@
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-01-17-21-01-10
+      updated: 2025-01-17-22-02-09
       followers: 1053
       likes: 40
       views: 195
@@ -2768,10 +2768,10 @@
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-01-17-21-01-10
+      updated: 2025-01-17-22-02-08
       followers: 655
-      likes: 54
-      views: 198
+      likes: 55
+      views: 203
       comments: !c |-
         Cx+AkZPLQnlHEE4ggACoQWVsbGFyaWHZKdCv0LrRliDQutC+0LvRjNC+0YDQuCwg0Y/QutCwINC6
         0YDQsNGB0LAhAw==
@@ -11007,17 +11007,17 @@
       id: DEX30_wv76a
       mediaId: '18116624404379470'
       published: 2025-01-03-18-10-44
-      updated: 2025-01-10-21-01-31
+      updated: 2025-01-17-22-02-09
       followers: 1520
-      likes: 116
-      views: 453
+      likes: 118
+      views: 488
     - service: vk
       id: 2014
       published: 2025-01-03-18-10-50
-      updated: 2025-01-10-21-01-32
+      updated: 2025-01-17-22-02-10
       followers: 1041
-      likes: 52
-      views: 334
+      likes: 54
+      views: 354
       reposts: 2
       comments: !c |-
         G1IA6J0J5vkzpaAMV97BFUHVLk4o4bBIkzxJPwyaSjDCZM9z+JyvoJQtce4AM0cmOwVJCqxqqNrs
@@ -11025,10 +11025,10 @@
     - service: tg
       id: 646
       published: 2025-01-03-18-10-56
-      updated: 2025-01-10-21-01-32
+      updated: 2025-01-17-22-02-10
       followers: 646
-      likes: 75
-      views: 495
+      likes: 78
+      views: 582
 2017-10-28-caldera-north-west-road:
   title: Caldera, North-West Road
   titleRu: Кальдера, северо-западная дорога
