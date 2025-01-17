@@ -1,7 +1,5 @@
 import { readdir } from 'fs/promises';
 import type { Post } from '../../core/entities/post.js';
-import { isPost } from '../../core/entities/post.js';
-import { stripPostTags } from '../../core/entities/post-tag.js';
 import type { InboxItem, PostsManagerName, PublishablePost, TrashItem } from '../../core/entities/posts-manager.js';
 import {
   getProposedPostChunkName,
@@ -78,27 +76,6 @@ class LocalPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
     const data = Object.fromEntries(chunk.entries());
 
     return saveYaml(filename, data);
-  }
-
-  private validatePost(value: [string, unknown]): [id: string, post: TPost | string] {
-    const [id, post] = value;
-    if (typeof post === 'string') {
-      return [id, post];
-    }
-
-    const errors: string[] = [];
-
-    if (!isPost(post, errors)) {
-      throw new TypeError(`Post "${id}" is not valid: ${errors.join(', ')}`);
-    }
-
-    if (!this.checkPost(post, errors)) {
-      throw new TypeError(`Post "${id}" is not valid: ${errors.join(', ')}`);
-    }
-
-    stripPostTags(post);
-
-    return [id, post];
   }
 }
 

@@ -1,4 +1,5 @@
 import { arrayFromAsync, asArray } from '../utils/common-utils.js';
+import type { DataPatch } from './data-patch.js';
 import { isNestedLocation } from './location.js';
 import type { LocationInfo } from './location-info.js';
 import { createLocationInfo } from './location-info.js';
@@ -9,7 +10,6 @@ import { comparePostEntriesByDate, getPostEntriesFromSource } from './post.js';
 import type { PostInfo, PostInfoSelection, SelectPostInfosParams } from './post-info.js';
 import { createPostInfo, selectPostInfos } from './post-info.js';
 import type { PostsManager, PostsManagerName } from './posts-manager.js';
-// import { getUserEntryTitle } from './user.js';
 import type { SelectUserInfosParams, UserInfo } from './user-info.js';
 import { createUserInfo, selectUserInfos } from './user-info.js';
 import type { UsersManager } from './users-manager.js';
@@ -45,6 +45,18 @@ export class DataManager<TPostsManager extends PostsManager = PostsManager> {
     this.postsManagers = args.postsManagers;
     this.locations = args.locations;
     this.users = args.users;
+  }
+
+  async applyPatch(patch: DataPatch) {
+    for (const manager of this.postsManagers) {
+      const managerPatch = patch[manager.name];
+      if (managerPatch) {
+        await manager.applyPatch(managerPatch);
+      }
+    }
+    if (patch.users) {
+      this.users.applyPatch(patch.users);
+    }
   }
 
   async findWorldMapLocationInfo(location: PostLocation): Promise<LocationInfo | undefined> {
@@ -85,6 +97,7 @@ export class DataManager<TPostsManager extends PostsManager = PostsManager> {
         comparePostEntriesByDate('desc'),
       );
 
+      return await Promise.all(entries.map((entry) => createPostInfo(entry, this.users, manager)));
     });
   }
 

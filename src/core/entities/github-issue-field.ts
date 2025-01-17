@@ -175,3 +175,13 @@ export const userProfileVk = {
     placeholder: 'cliffracer_destroyer',
   },
 };
+
+export const dataPatchText = {
+  type: 'textarea',
+  id: 'text',
+  attributes: {
+    label: 'Data Patch Text',
+    description: 'Write down data patch (JSON).',
+    render: 'json',
+  },
+};

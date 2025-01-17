@@ -1,5 +1,20 @@
 import type { InferOutput } from 'valibot';
-import { array, date, is, nonEmpty, object, optional, picklist, pipe, string, transform, trim, union } from 'valibot';
+import {
+  array,
+  date,
+  is,
+  nonEmpty,
+  nullable,
+  object,
+  optional,
+  partial,
+  picklist,
+  pipe,
+  string,
+  transform,
+  trim,
+  union,
+} from 'valibot';
 import type { SortDirection } from '../utils/common-types.js';
 import { arrayFromAsync, asArray } from '../utils/common-utils.js';
 import { dateToString, isDateInRange, stringToDate } from '../utils/date-utils.js';
@@ -59,6 +74,26 @@ export const Post = object({
   posts: optional(array(Publication)),
 });
 
+export const PostPatch = partial(
+  object({
+    title: nullable(Post.entries.title),
+    titleRu: nullable(Post.entries.titleRu),
+    description: nullable(Post.entries.description),
+    descriptionRu: nullable(Post.entries.descriptionRu),
+    location: nullable(Post.entries.location),
+    content: nullable(Post.entries.content),
+    trash: nullable(Post.entries.trash),
+    type: Post.entries.type,
+    author: nullable(Post.entries.author),
+    tags: nullable(Post.entries.tags),
+    engine: nullable(Post.entries.engine),
+    addon: nullable(Post.entries.addon),
+    request: nullable(Post.entries.request),
+    mark: nullable(Post.entries.mark),
+    violation: nullable(Post.entries.violation),
+  }),
+);
+
 export type PostTitle = InferOutput<typeof PostTitle>;
 export type PostTitleRu = InferOutput<typeof PostTitleRu>;
 export type PostDescription = InferOutput<typeof PostDescription>;
@@ -74,6 +109,8 @@ export type PostTag = InferOutput<typeof PostTag>;
 export type PostRequest = InferOutput<typeof PostRequest>;
 
 export type Post = InferOutput<typeof Post>;
+
+export type PostPatch = InferOutput<typeof PostPatch>;
 
 export type PostEntry<TPost extends Post = Post> = [id: string, post: TPost, refId?: string];
 export type PostEntries<TPost extends Post = Post> = ReadonlyArray<PostEntry<TPost>>;
@@ -410,6 +447,22 @@ export function getPostRelatedLocationDistance(location: PostLocation, postEntri
 
 export function getPostDrawer(post: Post) {
   return post.type === 'redrawing' ? asArray(post.author)[0] : undefined;
+}
+
+export function patchPost(post: Post, patch: PostPatch) {
+  let field: keyof typeof PostPatch.entries;
+
+  for (field in PostPatch.entries) {
+    if (Object.hasOwn(patch, field)) {
+      if (patch[field] === null) {
+        post[field] = undefined as never;
+      } else {
+        post[field] = patch[field] as never;
+      }
+    }
+  }
+
+  return post;
 }
 
 export function mergePostWith(post: Post, withPost: Post) {

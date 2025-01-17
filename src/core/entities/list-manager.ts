@@ -1,3 +1,5 @@
+import type { BaseIssue, BaseSchema, InferOutput } from 'valibot';
+import { null as nullSchema, record, string, union } from 'valibot';
 import { arrayFromAsync, listItems } from '../utils/common-utils.js';
 
 export const LIST_READER_CHUNK_NAME_DEFAULT = 'default';
@@ -14,17 +16,17 @@ export abstract class ListReader<TItem> {
   protected loadedChunkNames: string[] | undefined;
   protected chunks: Map<string, Promise<ListReaderChunk<TItem>>> = new Map();
 
-  protected statsCaches: Record<string, Promise<ListReaderStats>> = {};
+  protected cache: Record<string, unknown> = {};
 
-  protected async createStatsCache(key: string, creator: () => Promise<ListReaderStats>): Promise<ListReaderStats> {
-    if (!this.statsCaches[key]) {
-      this.statsCaches[key] = creator();
+  protected async createCache<T>(key: string, creator: () => Promise<T>): Promise<T> {
+    if (!this.cache[key]) {
+      this.cache[key] = creator();
     }
-    return this.statsCaches[key] as Promise<ListReaderStats>;
+    return this.cache[key] as T;
   }
 
-  protected clearStateCaches() {
-    this.statsCaches = {};
+  clearCache() {
+    this.cache = {};
   }
 
   async getChunkNames(): Promise<string[]> {
@@ -157,14 +159,51 @@ export abstract class ListReader<TItem> {
   }
 }
 
-export abstract class ListManager<TItem> extends ListReader<TItem> {
-  async addItem(item: TItem | string, id: string) {
+export const ListManagerPatch = <TItemPatch>(ItemPatch: BaseSchema<unknown, TItemPatch, BaseIssue<unknown>>) =>
+  record(string(), union([ItemPatch, string(), nullSchema()]));
+
+export type ListManagerPatch<TItemPatch> = InferOutput<ReturnType<typeof ListManagerPatch<TItemPatch>>>;
+
+export abstract class ListManager<TItem, TItemPatch> extends ListReader<TItem> {
+  isItemSaved(_id: string): boolean {
+    return true;
+  }
+
+  async applyPatch(patch: ListManagerPatch<TItemPatch>) {
+    for (const [id, itemPatch] of Object.entries(patch)) {
+      const patchedItem = await this.getItem(id);
+      if (patchedItem) {
+        if (itemPatch === null) {
+          await this.removeItem(id);
+        } else if (typeof itemPatch === 'string') {
+          await this.addItem(itemPatch, id);
+        } else {
+          this.patchItemWith(patchedItem, itemPatch);
+          await this.updateItem(id);
+        }
+      } else if (itemPatch !== null) {
+        await this.addItem(itemPatch, id);
+      }
+    }
+  }
+
+  async addItem(item: TItem | TItemPatch | string, id: string) {
+    if (typeof item === 'string') {
+      const refItem = await this.getItem(item);
+      if (!refItem) {
+        throw new Error(`Reference item "${id}" not found`);
+      }
+    }
+    if (!this.isItem(item)) {
+      throw new Error(`Item "${id}" is not valid`);
+    }
+
     const chunkName = this.getItemChunkName(id);
 
     const chunk = await this.loadChunk(chunkName);
     chunk.set(id, item);
 
-    this.clearStateCaches();
+    this.clearCache();
 
     return this.saveChunk(chunkName);
   }
@@ -195,7 +234,7 @@ export abstract class ListManager<TItem> extends ListReader<TItem> {
 
     chunk.delete(id);
 
-    this.clearStateCaches();
+    this.clearCache();
 
     return this.saveChunk(chunkName);
   }
@@ -208,7 +247,7 @@ export abstract class ListManager<TItem> extends ListReader<TItem> {
     const refId = typeof item === 'string' ? item : id;
     const refChunkName = this.getItemChunkName(refId);
 
-    this.clearStateCaches();
+    this.clearCache();
 
     return this.saveChunk(refChunkName);
   }
@@ -216,6 +255,10 @@ export abstract class ListManager<TItem> extends ListReader<TItem> {
   protected createItemId(_item: TItem): string | undefined {
     throw new Error(`Implement ${this.constructor.name}.createItemId method`);
   }
+
+  protected abstract isItem(item: unknown, errors?: string[]): item is TItem;
+
+  protected abstract patchItemWith(item: TItem, patch: TItemPatch): void;
 
   protected abstract mergeItemWith(item: TItem, withItem: TItem): void;
 

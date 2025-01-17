@@ -1,9 +1,10 @@
 import type { InferOutput } from 'valibot';
 import { intersect, literal, object, picklist, union } from 'valibot';
-import { asArray, getDataHash, textToId } from '../utils/common-utils.js';
+import { asArray, getRevisionHash, textToId } from '../utils/common-utils.js';
 import { dateToString } from '../utils/date-utils.js';
 import type { ListReaderStats } from './list-manager.js';
 import { ListManager } from './list-manager.js';
+import type { PostPatch } from './post.js';
 import {
   getPostDrawer,
   getPostEntryEngagement,
@@ -11,8 +12,10 @@ import {
   getPostEntryViews,
   getPostFirstPublished,
   getPostRating,
+  isPost,
   isPostEqual,
   mergePostWith,
+  patchPost,
   Post,
   PostAuthor,
   PostContent,
@@ -23,6 +26,7 @@ import {
   PostViolation,
 } from './post.js';
 import type { PostAction } from './post-action.js';
+import { stripPostTags } from './post-tag.js';
 import { PostVariant } from './post-variant.js';
 import { checkSchema } from './schema.js';
 
@@ -128,22 +132,40 @@ export function createInboxItemId(creator: string | string[], date: Date, title:
 }
 
 export function createRequestProposalId(request: RequestProposal) {
-  const hash = getDataHash(request.request.text);
+  const hash = getRevisionHash(request.request.text);
 
   return createInboxItemId(request.request.user, request.request.date, hash);
 }
 
-export abstract class PostsManager<TPost extends Post = Post> extends ListManager<TPost> {
+export abstract class PostsManager<TPost extends Post = Post> extends ListManager<TPost, PostPatch> {
   abstract readonly name: PostsManagerName;
 
-  // TODO: maybe remove isPostEqual and mergePostWith as separate functions
+  abstract readonly checkPost: (post: Post, errors?: string[]) => post is TPost;
 
   protected isItemEqual = isPostEqual;
 
   protected mergeItemWith = mergePostWith;
 
+  protected patchItemWith = patchPost;
+
+  get descriptor(): PostsManagerDescriptor {
+    return postsManagerDescriptors[this.name];
+  }
+
+  isItem(item: unknown, errors?: string[]): item is TPost {
+    if (!isPost(item, errors)) {
+      return false;
+    }
+
+    if (!this.checkPost(item, errors)) {
+      return false;
+    }
+
+    return true;
+  }
+
   async getAuthorsLikesStats(): Promise<ListReaderStats> {
-    return this.createStatsCache(this.getAuthorsLikesStats.name, async () => {
+    return this.createCache(this.getAuthorsLikesStats.name, async () => {
       const stats = new Map<string, number>();
 
       for await (const entry of this.readAllEntries()) {
@@ -158,7 +180,7 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
   }
 
   async getAuthorsViewsStats(): Promise<ListReaderStats> {
-    return this.createStatsCache(this.getAuthorsViewsStats.name, async () => {
+    return this.createCache(this.getAuthorsViewsStats.name, async () => {
       const stats = new Map<string, number>();
 
       for await (const entry of this.readAllEntries()) {
@@ -173,7 +195,7 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
   }
 
   async getAuthorsEngagementStats(): Promise<ListReaderStats> {
-    return this.createStatsCache(this.getAuthorsEngagementStats.name, async () => {
+    return this.createCache(this.getAuthorsEngagementStats.name, async () => {
       const map = new Map<string, number[]>();
 
       for await (const entry of this.readAllEntries(true)) {
@@ -193,7 +215,7 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
   }
 
   async getAuthorsMarkScoreStats(): Promise<ListReaderStats> {
-    return this.createStatsCache(this.getAuthorsMarkScoreStats.name, async () => {
+    return this.createCache(this.getAuthorsMarkScoreStats.name, async () => {
       const map = new Map<string, number[]>();
 
       for await (const [, post] of this.readAllEntries(true)) {
@@ -212,7 +234,7 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
   }
 
   async getAuthorsRatingStats(): Promise<ListReaderStats> {
-    return this.createStatsCache(this.getAuthorsRatingStats.name, async () => {
+    return this.createCache(this.getAuthorsRatingStats.name, async () => {
       const ratings = new Map<string, number[]>();
 
       for await (const [, post] of this.readAllEntries(true)) {
@@ -232,7 +254,7 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
   }
 
   async getAuthorsUsageStats(): Promise<ListReaderStats> {
-    return this.createStatsCache(this.getAuthorsUsageStats.name, async () => {
+    return this.createCache(this.getAuthorsUsageStats.name, async () => {
       const stats = new Map<string, number>();
 
       for await (const [, post] of this.readAllEntries(true)) {
@@ -246,7 +268,7 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
   }
 
   async getDrawersUsageStats(): Promise<ListReaderStats> {
-    return this.createStatsCache(this.getDrawersUsageStats.name, async () => {
+    return this.createCache(this.getDrawersUsageStats.name, async () => {
       const stats = new Map<string, number>();
 
       for await (const [, post] of this.readAllEntries(true)) {
@@ -261,7 +283,7 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
   }
 
   async getLocationsUsageStats(): Promise<ListReaderStats> {
-    return this.createStatsCache(this.getLocationsUsageStats.name, async () => {
+    return this.createCache(this.getLocationsUsageStats.name, async () => {
       const stats = new Map<string, number>();
 
       for await (const [, post] of this.readAllEntries(true)) {
@@ -275,7 +297,7 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
   }
 
   async getRequesterUsageStats(): Promise<ListReaderStats> {
-    return this.createStatsCache(this.getRequesterUsageStats.name, async () => {
+    return this.createCache(this.getRequesterUsageStats.name, async () => {
       const stats = new Map<string, number>();
 
       for await (const [, post] of this.readAllEntries(true)) {
@@ -289,7 +311,7 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
   }
 
   async getTagsUsageStats(): Promise<ListReaderStats> {
-    return this.createStatsCache(this.getTagsUsageStats.name, async () => {
+    return this.createCache(this.getTagsUsageStats.name, async () => {
       const stats = new Map<string, number>();
 
       for await (const [, post] of this.readAllEntries(true)) {
@@ -300,5 +322,22 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
 
       return stats;
     });
+  }
+
+  protected validatePost(value: [string, unknown]): [id: string, post: TPost | string] {
+    const [id, post] = value;
+    if (typeof post === 'string') {
+      return [id, post];
+    }
+
+    const errors: string[] = [];
+
+    if (!this.isItem(post, errors)) {
+      throw new TypeError(`Post "${id}" is not valid: ${errors.join(', ')}`);
+    }
+
+    stripPostTags(post);
+
+    return [id, post];
   }
 }
