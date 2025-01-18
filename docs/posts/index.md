@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/Bq4kQSlB62U/)       | 2018-12-02 |       |   114 |       484 |  23.55 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1086) | 2018-12-02 |  1040 |    38 |       298 |  12.75 |
 | [`tg`](https://t.me/mwscr/133)                     | 2018-12-02 |   432 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   162 |    58 |      1525 |    3.8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   106 |    19 |      1053 |    1.9 |
-| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   137 |    44 |       655 |   6.72 |
-|                                                    |            |   405 |   121 |      3233 |   9.75 |
+| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   166 |    60 |      1525 |   3.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   118 |    22 |      1053 |   2.18 |
+| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   139 |    44 |       655 |   6.72 |
+|                                                    |            |   423 |   126 |      3233 |   9.83 |
 
 ## <span id="2025-01-16-fields-of-kummu-in-the-sunset-light">Fields of Kummu in the Sunset Light</span>
 
@@ -57,9 +57,9 @@
 | [`ig`](https://instagram.com/p/BRfgcN7DM6L/)       | 2017-03-11 |       |    39 |       105 |  37.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_192)  | 2017-03-11 |   144 |     8 |        45 |      9 |
 | [`ig`](https://instagram.com/p/DE5WIOBTqaO/)       | 2025-01-16 |   478 |   127 |      1522 |   8.34 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   203 |    41 |      1053 |   3.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   205 |    41 |      1053 |   3.99 |
 | [`tg`](https://t.me/mwscr/669)                     | 2025-01-16 |   213 |    59 |       655 |   9.01 |
-|                                                    |            |   894 |   227 |      3230 |   13.5 |
+|                                                    |            |   896 |   227 |      3230 |   13.5 |
 
 #### Comments
 
