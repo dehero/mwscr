@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/Bq4kQSlB62U/)       | 2018-12-02 |       |   114 |       484 |  23.55 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1086) | 2018-12-02 |  1040 |    38 |       298 |  12.75 |
 | [`tg`](https://t.me/mwscr/133)                     | 2018-12-02 |   432 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   177 |    62 |      1525 |   4.07 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   132 |    24 |      1053 |   2.37 |
-| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   147 |    45 |       655 |   6.87 |
-|                                                    |            |   456 |   131 |      3233 |   9.92 |
+| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   185 |    62 |      1525 |   4.07 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   134 |    24 |      1053 |   2.37 |
+| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   151 |    47 |       655 |   7.18 |
+|                                                    |            |   470 |   133 |      3233 |   9.98 |
 
 ## <span id="2025-01-16-fields-of-kummu-in-the-sunset-light">Fields of Kummu in the Sunset Light</span>
 
@@ -57,9 +57,9 @@
 | [`ig`](https://instagram.com/p/BRfgcN7DM6L/)       | 2017-03-11 |       |    39 |       105 |  37.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_192)  | 2017-03-11 |   144 |     8 |        45 |      9 |
 | [`ig`](https://instagram.com/p/DE5WIOBTqaO/)       | 2025-01-16 |   480 |   128 |      1522 |   8.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   210 |    41 |      1053 |   3.99 |
-| [`tg`](https://t.me/mwscr/669)                     | 2025-01-16 |   217 |    59 |       655 |   9.01 |
-|                                                    |            |   907 |   228 |      3230 |  13.51 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   212 |    42 |      1053 |   4.08 |
+| [`tg`](https://t.me/mwscr/669)                     | 2025-01-16 |   218 |    60 |       655 |   9.16 |
+|                                                    |            |   910 |   230 |      3230 |  13.56 |
 
 #### Comments
 
