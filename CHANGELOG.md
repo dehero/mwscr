@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.33.2](https://github.com/dehero/mwscr/compare/v1.33.1...v1.33.2) (2025-01-18)
+
+### Bug Fixes
+
+- temporarily disable redrawings reposting, need more content distance checks
+  ([9330938](https://github.com/dehero/mwscr/commit/9330938c5c7721b6a48988fc1057d298149a2b34))
+
 ## [1.33.1](https://github.com/dehero/mwscr/compare/v1.33.0...v1.33.1) (2025-01-17)
 
 ### Bug Fixes
