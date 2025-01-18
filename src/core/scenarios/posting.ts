@@ -1,4 +1,4 @@
-import { POST_RECENTLY_PUBLISHED_DAYS } from '../entities/post.js';
+// import { POST_RECENTLY_PUBLISHED_DAYS } from '../entities/post.js';
 import type { PostCandidateRule } from '../rules/post-candidate-rules.js';
 import {
   needMaxMarkDistance,
@@ -14,11 +14,11 @@ import { afterHour, lastPostedDaysAgo, lastPublishedHoursAgo } from '../rules/po
 
 export type PostingScenario = [title: string, postingRules: PostingRule[], postCandidateRules: PostCandidateRule[]];
 
-const redrawing: PostingScenario = [
-  'redrawing',
-  [afterHour(18), lastPublishedHoursAgo(12), lastPostedDaysAgo(1)],
-  [needCertainType('redrawing'), needMinTypeDistance(7), needMinContentDistance(POST_RECENTLY_PUBLISHED_DAYS)],
-];
+// const redrawing: PostingScenario = [
+//   'redrawing',
+//   [afterHour(18), lastPublishedHoursAgo(12), lastPostedDaysAgo(1)],
+//   [needCertainType('redrawing'), needMinTypeDistance(14), needMinContentDistance(POST_RECENTLY_PUBLISHED_DAYS)],
+// ];
 
 const shotSet: PostingScenario = [
   'shot-set',
@@ -49,4 +49,8 @@ const wallpaper: PostingScenario = [
   [needCertainType('wallpaper', 'wallpaper-v'), needMinTypeDistance(7), needMinContentDistance(365)],
 ];
 
-export const postingScenarios: PostingScenario[] = [wallpaper, redrawing, shotSet, shot];
+export const postingScenarios: PostingScenario[] = [
+  wallpaper, //redrawing,
+  shotSet,
+  shot,
+];
