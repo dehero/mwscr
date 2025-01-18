@@ -3686,10 +3686,10 @@
     - service: vk
       id: 1855
       published: 2024-10-25-18-10-15
-      updated: 2025-01-11-05-07-26
+      updated: 2025-01-18-06-09-19
       followers: 997
       likes: 41
-      views: 303
+      views: 304
       reposts: 1
       comments: !c |-
         G9QBgCwKbGOzhuhJv0vFoSZyr8ka/09/MdI3/lv0MNMSTBJPzgVdVbcLLW8EAkGCAkdSHpZv29cJ
@@ -3700,10 +3700,10 @@
     - service: tg
       id: 575
       published: 2024-10-25-18-10-23
-      updated: 2025-01-11-05-07-25
+      updated: 2025-01-18-06-09-18
       followers: 563
       likes: 60
-      views: 567
+      views: 570
 2018-04-12-mushroom-stairs:
   title: Mushroom Stairs
   titleRu: Грибная лестница
@@ -11350,10 +11350,10 @@
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2025-01-11-05-07-27
+      updated: 2025-01-18-06-09-20
       followers: 961
       likes: 31
-      views: 331
+      views: 332
     - service: tg
       id: 561
       published: 2024-10-11-18-10-00
@@ -12397,25 +12397,25 @@
       id: DE7_wC1PgTr
       mediaId: '18065439076892825'
       published: 2025-01-17-18-52-37
-      updated: 2025-01-18-05-04-52
+      updated: 2025-01-18-06-09-15
       followers: 1525
-      likes: 57
-      views: 156
+      likes: 58
+      views: 162
     - service: vk
       id: 2069
       published: 2025-01-17-18-52-43
-      updated: 2025-01-18-05-04-52
+      updated: 2025-01-18-06-09-16
       followers: 1053
-      likes: 18
-      views: 100
+      likes: 19
+      views: 106
       reposts: 1
     - service: tg
       id: 670
       published: 2025-01-17-18-52-49
-      updated: 2025-01-18-05-04-52
+      updated: 2025-01-18-06-09-16
       followers: 655
       likes: 44
-      views: 135
+      views: 137
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели
