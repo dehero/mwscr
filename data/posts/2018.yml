@@ -12348,17 +12348,17 @@
     - service: vk
       id: 1962
       published: 2024-12-14-18-10-09
-      updated: 2025-01-11-22-02-20
+      updated: 2025-01-18-23-02-17
       followers: 1026
       likes: 43
-      views: 345
+      views: 349
     - service: tg
       id: 625
       published: 2024-12-14-18-10-18
-      updated: 2025-01-11-22-02-19
+      updated: 2025-01-18-23-02-17
       followers: 581
       likes: 59
-      views: 509
+      views: 522
       comments: !c |-
         ixuAkZPLQnk8ZjQfAACmQzRINk802SR0aGlzIGhhaXJzdHlsZSBvbiBkdW5tZXJzLi4g8J+kjPCf
         kqQD
@@ -12397,14 +12397,14 @@
       id: DE7_wC1PgTr
       mediaId: '18065439076892825'
       published: 2025-01-17-18-52-37
-      updated: 2025-01-18-22-02-11
+      updated: 2025-01-18-23-02-15
       followers: 1525
       likes: 70
-      views: 224
+      views: 225
     - service: vk
       id: 2069
       published: 2025-01-17-18-52-43
-      updated: 2025-01-18-22-02-12
+      updated: 2025-01-18-23-02-16
       followers: 1053
       likes: 26
       views: 167
@@ -12412,10 +12412,10 @@
     - service: tg
       id: 670
       published: 2025-01-17-18-52-49
-      updated: 2025-01-18-22-02-12
+      updated: 2025-01-18-23-02-16
       followers: 655
       likes: 54
-      views: 188
+      views: 190
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели
