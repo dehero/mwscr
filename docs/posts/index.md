@@ -4,7 +4,45 @@
 
 # Posted in 2025
 
-`17 items`
+`18 items`
+
+## <span id="2025-01-18-the-wind-is-getting-stronger">The Wind Is Getting Stronger</span>
+
+`RU` Ветер крепчает
+
+<a href="https://instagram.com/p/B37bQmehLWi/" title="2019-10-22-the-wind-is-getting-stronger"><img alt="store:/shots/2019-10-22-the-wind-is-getting-stronger.png" src="../../assets/previews/shots/2019-10-22-the-wind-is-getting-stronger.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-01-18-the-wind-is-getting-stronger&postLocation=)</code> `🚀 OpenMW`
+
+```
+2025-01-18-the-wind-is-getting-stronger
+```
+
+> `2019-10-22-the-wind-is-getting-stronger`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/B37bQmehLWi/)       | 2019-10-22 |       |   204 |       838 |  24.34 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1205) | 2019-10-22 |  1326 |    61 |       371 |  16.71 |
+| [`tg`](https://t.me/mwscr/202)                     | 2019-10-22 |  1086 |     2 |           |        |
+| [`ig`](https://instagram.com/p/DE-fki3RAq5/)       | 2025-01-18 |       |       |      1526 |        |
+| [`tg`](https://t.me/mwscr/671)                     | 2025-01-18 |       |       |       655 |        |
+|                                                    |            |       |       |      2181 |  20.53 |
+
+#### Comments
+
+- `ig` <ins title="2019-10-22-18-18-47">kitchensnineteenninetyseven</ins> Good pic for Halloween coming up 👌
+- `vk` <ins title="2019-10-22-21-32-06">peteevandrew</ins> Пора прятаться в норки
+- `vk` <ins title="2019-10-23-14-31-36">id4936513</ins> &quot;Крепчает ветер!.. Значит – жить сначала!&quot; (с) Поль Валери
+  - <ins title="2019-10-24-00-06-49">peteevandrew</ins> Светлана, моровая буря, просто, скоро.
+- `ig` <ins title="2019-11-13-22-51-19">eastcoast_lg</ins> i miss the daily dose of these
+- `vk` <ins title="2019-11-20-19-02-06">ambience77</ins> Группа опять ушла на временный отдых?)
+- `ig` <ins title="2019-12-15-03-28-43">makanatandsasha</ins> I’m just watching my dad play morrowind
+- `vk` <ins title="2020-01-09-13-34-28">peteevandrew</ins> Всех с новым, красным годом!!!
 
 ## <span id="2025-01-17-three-imperial-dragons">Three Imperial Dragons</span>
 
@@ -29,10 +67,10 @@
 | [`ig`](https://instagram.com/p/Bq4kQSlB62U/)       | 2018-12-02 |       |   114 |       484 |  23.55 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1086) | 2018-12-02 |  1040 |    38 |       298 |  12.75 |
 | [`tg`](https://t.me/mwscr/133)                     | 2018-12-02 |   432 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   212 |    66 |      1525 |   4.33 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   158 |    25 |      1053 |   2.47 |
-| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   165 |    53 |       655 |   8.09 |
-|                                                    |            |   535 |   144 |      3233 |  10.24 |
+| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   218 |    69 |      1525 |   4.52 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   160 |    25 |      1053 |   2.47 |
+| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   167 |    53 |       655 |   8.09 |
+|                                                    |            |   545 |   147 |      3233 |  10.28 |
 
 ## <span id="2025-01-16-fields-of-kummu-in-the-sunset-light">Fields of Kummu in the Sunset Light</span>
 
@@ -57,9 +95,9 @@
 | [`ig`](https://instagram.com/p/BRfgcN7DM6L/)       | 2017-03-11 |       |    39 |       105 |  37.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_192)  | 2017-03-11 |   144 |     8 |        45 |      9 |
 | [`ig`](https://instagram.com/p/DE5WIOBTqaO/)       | 2025-01-16 |   488 |   129 |      1522 |   8.48 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   220 |    43 |      1053 |   4.18 |
-| [`tg`](https://t.me/mwscr/669)                     | 2025-01-16 |   224 |    62 |       655 |   9.47 |
-|                                                    |            |   932 |   234 |      3230 |  13.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   221 |    43 |      1053 |   4.18 |
+| [`tg`](https://t.me/mwscr/669)                     | 2025-01-16 |   225 |    62 |       655 |   9.47 |
+|                                                    |            |   934 |   234 |      3230 |  13.65 |
 
 #### Comments
 
