@@ -209,14 +209,14 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2025-01-11-00-36-36
+      updated: 2025-01-18-02-03-28
       followers: 893
       likes: 35
       views: 261
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2025-01-11-00-36-34
+      updated: 2025-01-18-02-03-23
       followers: 345
       likes: 58
       views: 560
@@ -574,7 +574,7 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2025-01-11-00-36-35
+      updated: 2025-01-18-02-03-26
       followers: 896
       likes: 42
       views: 301
@@ -585,10 +585,10 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2025-01-11-00-36-32
+      updated: 2025-01-18-02-03-22
       followers: 352
       likes: 58
-      views: 473
+      views: 474
       comments: !c |-
         CymAkZTLQnjmKMfPAACpR2F0ZW1hdGU32SZ0aGlzIGlzIGEgbWFzb25pYyBsb2RnZT8gbm90IG1v
         cnJvd2luZJPLQnjmKXtAgAClYW5zaXOlaGFoYWgD
@@ -881,7 +881,7 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2025-01-11-00-36-33
+      updated: 2025-01-18-02-03-24
       followers: 906
       likes: 51
       views: 440
@@ -889,7 +889,7 @@
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2025-01-11-00-36-31
+      updated: 2025-01-18-02-03-21
       followers: 354
       likes: 62
       views: 480
@@ -1084,17 +1084,17 @@
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2025-01-11-00-36-32
+      updated: 2025-01-18-02-03-23
       followers: 911
       likes: 27
       views: 233
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2025-01-11-00-36-31
+      updated: 2025-01-18-02-03-20
       followers: 352
       likes: 67
-      views: 1112
+      views: 1113
 2024-04-12-sadrith-mora-gateway-inn: 2017-01-19-sadrith-mora-gateway-inn
 2024-04-13-manwe:
   title: Manwe
@@ -2974,17 +2974,17 @@
     - service: tg
       id: 617
       published: 2024-12-06-18-11-36
-      updated: 2025-01-11-00-36-25
+      updated: 2025-01-18-02-03-15
       followers: 578
       likes: 56
-      views: 443
+      views: 449
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2025-01-11-00-36-25
+      updated: 2025-01-18-02-03-16
       followers: 1013
-      likes: 42
-      views: 370
+      likes: 43
+      views: 375
       reposts: 3
 2024-12-07-farm-watchman:
   title: Farm Watchman
