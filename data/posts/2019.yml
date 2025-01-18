@@ -1374,18 +1374,18 @@
       id: DEvC4deuAgT
       mediaId: '17896461711134669'
       published: 2025-01-12-18-09-51
-      updated: 2025-01-17-18-52-24
+      updated: 2025-01-18-19-01-27
       followers: 1526
       likes: 134
-      views: 502
+      views: 512
       comments: !c ixeAkZPLQnlFxA9wgACsaGF0dGllbGVlYXJ0t09oIHRoaXMgaXMgYXdlc29tZSDwn5SlAw==
     - service: vk
       id: 2050
       published: 2025-01-12-18-10-03
-      updated: 2025-01-17-18-52-23
+      updated: 2025-01-18-19-01-27
       followers: 1052
       likes: 35
-      views: 297
+      views: 314
       reposts: 2
       comments: !c |-
         G/wA6B0JdgzlC+MRAyPsESqd/omL+Qn9xjv1OOGkBIss2UcWZW3TUKKpWpqYLCILaSfz4PH9289f
@@ -2259,8 +2259,18 @@
       id: DE-fki3RAq5
       mediaId: '17882700603216773'
       published: 2025-01-18-18-09-10
+      updated: 2025-01-18-19-01-24
       followers: 1526
+      likes: 19
+      views: 34
     - service: tg
       id: 671
       published: 2025-01-18-18-09-39
+      updated: 2025-01-18-19-01-24
       followers: 655
+      likes: 27
+      views: 96
+    - service: vk
+      id: 2070
+      published: 2025-01-18-19-01-37
+      followers: 1054
