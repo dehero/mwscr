@@ -678,7 +678,7 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2025-01-11-08-09-41
+      updated: 2025-01-18-09-01-20
       followers: 943
       likes: 33
       views: 341
@@ -694,10 +694,10 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2025-01-11-08-09-39
+      updated: 2025-01-18-09-01-17
       followers: 551
       likes: 66
-      views: 573
+      views: 574
       comments: !c |-
         G9EAYJwH2anxBLva/Y3sGEkF9bHffopvfgqKWEk0KpUkYo3okRJ1LzVwnRslZCLFUO8nTlFum6OQ
         ohy+sCBcGNj64mKxOOjd4ERjzCGMSmjTXSfaY2w8W/Sl5Ph8do7Gqfgq27FUcK0DMd5N4EBt1YwP
@@ -3203,30 +3203,30 @@
     - service: vk
       id: 1702
       published: 2024-08-23-18-19-34
-      updated: 2025-01-11-08-09-44
+      updated: 2025-01-18-09-01-22
       followers: 939
       likes: 42
       views: 282
       comments: !c |-
-        GzsHQCwOeJOFZ50WwZt4DhNeIoI/fIsmmm6bR79bLIARSycItiKQI6uzYleansb8+W2XYfpik8kY
-        JCUHXB7885w/2lZkYQH9gIoozt67+/01G2AnW+N4lmA9tUZXTU8W681n16JGiPHuf04LQDLG9tWr
-        /rv+EgRQNXFjCqjYzUVGTrhZIhejJuyUmW0mPkYLg9FXl4Vb1NNNJPj449PHy2NvG/zX6cMJ0uI8
-        fmla7702R9kmUGyum2Al+SA+HFCTwgdvUH909/e09n51qgMaqOafN/2TCZWE9jFVqApVEAlRsEKt
-        cYaFq/ZjETWOiixqLtlOBYIlzmIOl8VUevwcmqYp622U1hlKoGHBUvHIv7fxZmO92Qz4+tKbUziU
-        d9CAY0peTG0N9CO0mFvq9pgsy6fRZuEXWZfGjgkHknCl9vV0vS5tkYgVRBmUjyasNBQNDieT1bhY
-        Y3RN8xP8MwTAHr/5yAgHfF3vLGkm+rfUB/dxcDePjV5KtEvLlJV5tasSRtnG3zEpk+CbPP53BPD4
-        87eDGHtk9aHZTDkcjeuWBMrUADJ2lKyo0pF7ti0JcgAib6tYaXDSIbdg8ccD88NFONUD5Gvo/ntt
-        qmgs61XYMTNMsolxaBOBWldeMwDLxlTdkMNa0aYPZYmxGHXABFcyam5fjiIXiGbSuYHYylKhLHIf
-        Sp3UrHJtLpPKWaw59sVCsxlRWBjlSjOQwRdA1o5PJ7gn7pPtUNsbJnnoNrAP5hEK+O1vjm/efsfl
-        N9dI5tBm1gVc2m+Lrokc9y1ZagYlx6pd95Vuk2UytjHQJERWsrwFqE2x2vXTlDMcM6G5h2642Awd
-        zaVxpBAQtTUaa7G9++LSh81MIJAmo425iYGb5weYFknwdTZjnDJ7P21GWrgX48UwUMaFH8R0teGH
-        S/tQotGRqRB1Z3S0zk+Hp9VYSc3quQUjS65psoudNyXFTFU/0nMnNlXjYpCzpDxfDS+LW5Bkt3Wi
-        z70YIQ9TGkEbOhlK2QBxQF3FvXHQxhPHCCzLmqTuxadyxgRL5eiOMuB/NKJABU0tSOMUtHCFSPvA
-        mFplhXXZGmNShlKUppoP2ky237EwtJpOAQ==
+        GzkHQCwO7DYvSxhOqllgM+/QujYkaNjCgqW7YdV1h0NIlEFhFLIV4UHJmjGO8s2+xvz5bZdh+mKT
+        yRgkfTngAvzznD/aVhGFgf2AiijO3rv7/TUbYCdb43iWYD1FxlZNTxbrP8a1KAkx3/3PaQFIxti+
+        etX7t5/CqQCrNW5MARU9Fxk5OTdhgFyEmdFTZv7WDz+iYDD6qpvYqU+XyOGnN7cvl8feNviv09Np
+        tzD8/W4fvDZH2SZQLK6bYCX5ID5sqEnZVo+M/uj+72nt+UQRA9Tknzf9kwGVhPYxVKgKVRAJUbBC
+        rXGGhav2YxE1dkUmNZdspQLBEqmEw2XxFB4/h6ZpynobpXV+kmpYsFQ88u9tPN9Yb5YCvr705hQO
+        ZR083HhSF09Tg9UmfUYFdXNMmeVzaDPxm6xLY5vgRBKulL49na1LWxCv0iiY8tGElYaivSFNZhNh
+        hTEyzU7wVYgxjvnNR0Y44et6Z0pDelcSmSfY3Mtjp5eS261lysq8WlPJRuXGz6BCxJ4U878jQMyf
+        P3cw9srqQ7N5Mjge1X3pk6f9Y+EsmVGlg2u5LQiaAEfVUrHVINEpt2DiJwbztwWY2mKo1qzFe2eo
+        3GTWq7ZiZkYUEOHQJho1rrznACzLUjcOOewUbbpQdhhLUScMcAWj4/bFKDiZaB6du4iNLC3KJI+h
+        1EEtK+fuNKiYJRtjX0w0mhGFhbGuRIEIvgGytn8l3BNXyc6o7R0GbBsL0MfoAAJJ+5vjm7c/cvmN
+        Ncgbpoy6QESrbdE1EeOJJUvNoORYs5t/q42myeTGjChEtrLcMla7YrXnpydjOGdAcw8Fk64WQmVj
+        aiSFMFEnR2MnlnffXPqwkQkLhMlq8dzFwAXA4PYwSYKvyxnjHNnHaTPSwr0ELw4XZVz4QUxXOz9c
+        2gcSo45Chag7t6N5fDo8zcZKalaPPRhZYs2RVep8KClGqvqVPgexoRoXg5wv4flqeJncgiS7bRh8
+        nsQIeZjViLWrk6GsBSxOqKu4Nw7amBwjsCgrSs3jUzeDMFWFrjgC/kcjClTQ1IQ0TkETZ4iwT42p
+        VVZYl60xBmQ4RHmi+aLFZPmdDEPSdAo=
     - service: tg
       id: 510
       published: 2024-08-23-18-19-41
-      updated: 2025-01-11-08-09-41
+      updated: 2025-01-18-09-01-18
       followers: 538
       likes: 60
       views: 583
@@ -3740,15 +3740,15 @@
     - service: vk
       id: 1683
       published: 2024-08-09-18-20-05
-      updated: 2025-01-11-08-09-46
+      updated: 2025-01-18-09-01-24
       followers: 927
       likes: 33
-      views: 286
+      views: 287
       reposts: 1
     - service: tg
       id: 496
       published: 2024-08-09-18-20-14
-      updated: 2025-01-11-08-09-43
+      updated: 2025-01-18-09-01-20
       followers: 513
       likes: 72
       views: 647
@@ -10469,14 +10469,14 @@
     - service: vk
       id: 1693
       published: 2024-08-16-18-20-13
-      updated: 2025-01-11-08-09-45
+      updated: 2025-01-18-09-01-23
       followers: 933
       likes: 46
       views: 286
     - service: tg
       id: 503
       published: 2024-08-16-18-20-22
-      updated: 2025-01-11-08-09-42
+      updated: 2025-01-18-09-01-19
       followers: 527
       likes: 67
       views: 663
@@ -12397,25 +12397,25 @@
       id: DE7_wC1PgTr
       mediaId: '18065439076892825'
       published: 2025-01-17-18-52-37
-      updated: 2025-01-18-08-08-50
+      updated: 2025-01-18-09-01-16
       followers: 1525
-      likes: 60
-      views: 171
+      likes: 62
+      views: 177
     - service: vk
       id: 2069
       published: 2025-01-17-18-52-43
-      updated: 2025-01-18-08-08-51
+      updated: 2025-01-18-09-01-15
       followers: 1053
-      likes: 23
-      views: 129
+      likes: 24
+      views: 132
       reposts: 1
     - service: tg
       id: 670
       published: 2025-01-17-18-52-49
-      updated: 2025-01-18-08-08-51
+      updated: 2025-01-18-09-01-15
       followers: 655
       likes: 45
-      views: 146
+      views: 147
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели
