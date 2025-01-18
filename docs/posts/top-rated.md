@@ -606,34 +606,6 @@
 - `vk` <ins title="2018-03-19-07-51-59">ilyatamrielsky</ins> Красота)
 - `vk` <ins title="2018-03-22-10-31-50">max.tsei</ins> Помню как я мучался искать эту дверь...
 
-## <span id="2018-05-25-the-one-who-holds-baar-dau">The One Who Holds Baar Dau</span>
-
-`RU` Тот, кто держит Баар Дау
-
-<a href="https://instagram.com/p/BjNe9N2ldfq/" title="2018-05-25-the-one-who-holds-baar-dau"><img alt="store:/shots/2018-05-25-the-one-who-holds-baar-dau.png" src="../../assets/previews/shots/2018-05-25-the-one-who-holds-baar-dau.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-05-25-the-one-who-holds-baar-dau&postLocation=)</code> `🚀 OpenMW` `moon`
-
-```
-2018-05-25-the-one-who-holds-baar-dau
-```
-
-### Reactions
-
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BjNe9N2ldfq/)      | 2018-05-25 |       |   141 |       336 |  41.96 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_742) | 2018-05-25 |   306 |    29 |       166 |  17.47 |
-|                                                   |            |   306 |   170 |       502 |  29.72 |
-
-#### Comments
-
-- `ig` <ins title="2018-05-25-18-57-50">youngscrolls</ins> yooo it really looks like he&#39;s holding it from this angle i never noticed that
-- `vk` <ins title="2018-05-25-18-59-12">vancleve</ins> Памятник гордыне ложных богов, обернувшийся гибелью их народа
-- `vk` <ins title="2018-06-01-18-26-31">id489808016</ins> Сфоткай, типа я Баар Дау держу :)
-
 ## <span id="2017-07-13-corpse-preparation-volume-one">Corpse Preparation, Volume One</span>
 
 `RU` О подготовке тел, т. I
@@ -655,6 +627,34 @@
 | [`ig`](https://instagram.com/p/BWe7pOwj9Lf/)      | 2017-07-13 |       |    72 |       188 |   38.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_352) | 2017-07-13 |   183 |    13 |        67 |   20.9 |
 |                                                   |            |   183 |    85 |       255 |   29.6 |
+
+## <span id="2018-05-25-the-one-who-holds-baar-dau">The One Who Holds Baar Dau</span>
+
+`RU` Тот, кто держит Баар Дау
+
+<a href="https://instagram.com/p/BjNe9N2ldfq/" title="2018-05-25-the-one-who-holds-baar-dau"><img alt="store:/shots/2018-05-25-the-one-who-holds-baar-dau.png" src="../../assets/previews/shots/2018-05-25-the-one-who-holds-baar-dau.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-05-25-the-one-who-holds-baar-dau&postLocation=)</code> `🚀 OpenMW` `moon`
+
+```
+2018-05-25-the-one-who-holds-baar-dau
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BjNe9N2ldfq/)      | 2018-05-25 |       |   140 |       336 |  41.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_742) | 2018-05-25 |   306 |    29 |       166 |  17.47 |
+|                                                   |            |   306 |   169 |       502 |  29.57 |
+
+#### Comments
+
+- `ig` <ins title="2018-05-25-18-57-50">youngscrolls</ins> yooo it really looks like he&#39;s holding it from this angle i never noticed that
+- `vk` <ins title="2018-05-25-18-59-12">vancleve</ins> Памятник гордыне ложных богов, обернувшийся гибелью их народа
+- `vk` <ins title="2018-06-01-18-26-31">id489808016</ins> Сфоткай, типа я Баар Дау держу :)
 
 ## <span id="2018-03-04-monsters">Monsters</span>
 
@@ -1084,36 +1084,6 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_631) | 2018-02-27 |   190 |    22 |       136 |  16.91 |
 |                                                   |            |   190 |   133 |       430 |  27.33 |
 
-## <span id="2018-06-10-left-side-portraits">Left-Side Portraits</span>
-
-`RU` Левосторонние портреты
-
-<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-05-09-youd-better-do-what-they-say"><img alt="store:/shots/2017-05-09-youd-better-do-what-they-say.png" src="../../assets/previews/shots/2017-05-09-youd-better-do-what-they-say.avif" /></a>
-<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-05-19-queen-mother-in-her-chambers"><img alt="store:/shots/2017-05-19-queen-mother-in-her-chambers.png" src="../../assets/previews/shots/2017-05-19-queen-mother-in-her-chambers.avif" /></a>
-<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-09-20-director-of-corprusarium"><img alt="store:/shots/2017-09-20-director-of-corprusarium.png" src="../../assets/previews/shots/2017-09-20-director-of-corprusarium.avif" /></a>
-<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-10-21-socucius-ergalla"><img alt="store:/shots/2017-10-21-socucius-ergalla.png" src="../../assets/previews/shots/2017-10-21-socucius-ergalla.avif" /></a>
-
-`shot-set` by [dehero](../contributors.md#dehero)
-
-`B1` `🚀 OpenMW` `npc`
-
-```
-2018-06-10-left-side-portraits
-```
-
-### Reactions
-
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/Bj2uQ_RlPrt/)      | 2018-06-10 |       |   143 |       341 |  41.94 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_762) | 2018-06-10 |   247 |    22 |       173 |  12.72 |
-|                                                   |            |   247 |   165 |       514 |  27.33 |
-
-#### Comments
-
-- `ig` <ins title="2018-06-10-19-48-27">defiant_laughter</ins> Divayth Fyr is my favorite mage of all time.
-- `ig` <ins title="2018-06-10-22-50-43">munson_sargassum</ins> Saint Jiub is cool.
-
 ## <span id="2017-02-15-sailboat-in-coastal-waters">Sailboat in Coastal Waters</span>
 
 `RU` Парусная шлюпка в прибрежных водах
@@ -1139,6 +1109,36 @@
 #### Comments
 
 - `vk` <ins title="2017-02-15-23-05-10">id227500203</ins> Вода^_^
+
+## <span id="2018-06-10-left-side-portraits">Left-Side Portraits</span>
+
+`RU` Левосторонние портреты
+
+<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-05-09-youd-better-do-what-they-say"><img alt="store:/shots/2017-05-09-youd-better-do-what-they-say.png" src="../../assets/previews/shots/2017-05-09-youd-better-do-what-they-say.avif" /></a>
+<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-05-19-queen-mother-in-her-chambers"><img alt="store:/shots/2017-05-19-queen-mother-in-her-chambers.png" src="../../assets/previews/shots/2017-05-19-queen-mother-in-her-chambers.avif" /></a>
+<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-09-20-director-of-corprusarium"><img alt="store:/shots/2017-09-20-director-of-corprusarium.png" src="../../assets/previews/shots/2017-09-20-director-of-corprusarium.avif" /></a>
+<a href="https://instagram.com/p/Bj2uQ_RlPrt/" title="2017-10-21-socucius-ergalla"><img alt="store:/shots/2017-10-21-socucius-ergalla.png" src="../../assets/previews/shots/2017-10-21-socucius-ergalla.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+`B1` `🚀 OpenMW` `npc`
+
+```
+2018-06-10-left-side-portraits
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Bj2uQ_RlPrt/)      | 2018-06-10 |       |   142 |       341 |  41.64 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_762) | 2018-06-10 |   247 |    22 |       173 |  12.72 |
+|                                                   |            |   247 |   164 |       514 |  27.18 |
+
+#### Comments
+
+- `ig` <ins title="2018-06-10-19-48-27">defiant_laughter</ins> Divayth Fyr is my favorite mage of all time.
+- `ig` <ins title="2018-06-10-22-50-43">munson_sargassum</ins> Saint Jiub is cool.
 
 ## <span id="2017-12-27-entrance-to-nchurdamz">Entrance to Nchurdamz</span>
 
