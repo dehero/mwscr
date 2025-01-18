@@ -2748,10 +2748,10 @@
       id: DE5WIOBTqaO
       mediaId: '18075654520713798'
       published: 2025-01-16-18-10-26
-      updated: 2025-01-18-02-03-15
+      updated: 2025-01-18-03-07-39
       followers: 1522
-      likes: 125
-      views: 468
+      likes: 126
+      views: 475
       comments: !c |-
         G/MAYBwHzpkvTmcI9S+FLu3y9DG2gHIBiQZXB5Y87XmwixboGqAFK1CLbNlyW6rXqiEZ3W/eAH3+
         HY86YjRGqk9PNDCupUnQVtaWSIQhtUB/veHDc2h7JDVSPru+HSn+swCPLzu3InPz0rM3m3Iwgs7R
@@ -2760,18 +2760,18 @@
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-01-18-02-03-14
+      updated: 2025-01-18-03-07-39
       followers: 1053
       likes: 40
-      views: 197
+      views: 198
       reposts: 1
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-01-18-02-03-14
+      updated: 2025-01-18-03-07-39
       followers: 655
-      likes: 56
-      views: 208
+      likes: 57
+      views: 209
       comments: !c |-
         Cx+AkZPLQnlHEE4ggACoQWVsbGFyaWHZKdCv0LrRliDQutC+0LvRjNC+0YDQuCwg0Y/QutCwINC6
         0YDQsNGB0LAhAw==
@@ -7480,10 +7480,10 @@
     - service: tg
       id: 354
       published: 2024-03-22
-      updated: 2025-01-11-02-10-01
+      updated: 2025-01-18-03-07-41
       followers: 353
       likes: 64
-      views: 533
+      views: 534
       comments: !c |-
         G4cAgGXgnAMfSIG1VdFwmPFs4O+AVXg6UOtBjtfJiR4PJrWVBhKmtQUgAWDgHMNmyQsGOeflT+bl
         Xej9sc90BmyLaiXKg0byRX/YB8QMeW3JqDagqArlswXPXx+8tp3qtIJCm75146DROM/JXltF1W+y
@@ -8400,18 +8400,18 @@
     - service: tg
       id: 582
       published: 2024-11-01-18-10-31
-      updated: 2025-01-11-02-10-00
+      updated: 2025-01-18-03-07-40
       followers: 565
       likes: 56
-      views: 579
+      views: 583
       comments: !c iw2AkZPLQnkuyHj0AACremhlY2hrYV9kcnak8J+lugM=
     - service: vk
       id: 1871
       published: 2024-11-01-19-02-16
-      updated: 2025-01-11-02-10-02
+      updated: 2025-01-18-03-07-40
       followers: 1002
       likes: 36
-      views: 317
+      views: 318
 2017-08-13-hanud:
   title: Hanud
   titleRu: Хануд
