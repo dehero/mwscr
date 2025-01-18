@@ -279,7 +279,7 @@
     - service: vk
       id: 1607
       published: 2024-06-28-18-19-25
-      updated: 2025-01-11-10-07-10
+      updated: 2025-01-18-11-02-05
       followers: 917
       likes: 38
       views: 293
@@ -287,10 +287,10 @@
     - service: tg
       id: 453
       published: 2024-06-28-18-19-31
-      updated: 2025-01-11-10-07-07
+      updated: 2025-01-18-11-01-59
       followers: 387
       likes: 59
-      views: 548
+      views: 550
 2018-01-10-rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
@@ -5691,7 +5691,7 @@
     - service: vk
       id: 1657
       published: 2024-07-26-18-20-40
-      updated: 2025-01-11-10-07-06
+      updated: 2025-01-18-11-02-01
       followers: 923
       likes: 34
       views: 276
@@ -5699,7 +5699,7 @@
     - service: tg
       id: 481
       published: 2024-07-26-18-20-48
-      updated: 2025-01-11-10-07-05
+      updated: 2025-01-18-11-01-57
       followers: 400
       likes: 69
       views: 632
@@ -9212,14 +9212,14 @@
     - service: tg
       id: 460
       published: 2024-07-05-18-19-50
-      updated: 2025-01-11-10-07-07
+      updated: 2025-01-18-11-01-59
       followers: 393
       likes: 52
       views: 459
     - service: vk
       id: 1615
       published: 2024-07-05-19-12-06
-      updated: 2025-01-11-10-07-09
+      updated: 2025-01-18-11-02-04
       followers: 919
       likes: 32
       views: 292
@@ -12397,25 +12397,25 @@
       id: DE7_wC1PgTr
       mediaId: '18065439076892825'
       published: 2025-01-17-18-52-37
-      updated: 2025-01-18-10-02-13
+      updated: 2025-01-18-11-01-55
       followers: 1525
       likes: 62
-      views: 185
+      views: 187
     - service: vk
       id: 2069
       published: 2025-01-17-18-52-43
-      updated: 2025-01-18-10-02-13
+      updated: 2025-01-18-11-02-00
       followers: 1053
       likes: 24
-      views: 134
+      views: 140
       reposts: 1
     - service: tg
       id: 670
       published: 2025-01-17-18-52-49
-      updated: 2025-01-18-10-02-14
+      updated: 2025-01-18-11-01-56
       followers: 655
       likes: 47
-      views: 151
+      views: 153
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели
