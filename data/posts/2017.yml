@@ -577,7 +577,7 @@
     - service: vk
       id: 1491
       published: 2024-04-12-18-14-50
-      updated: 2025-01-11-14-02-22
+      updated: 2025-01-18-15-02-15
       followers: 911
       likes: 35
       views: 269
@@ -585,10 +585,10 @@
     - service: tg
       id: 376
       published: 2024-04-12-18-15-00
-      updated: 2025-01-11-14-02-22
+      updated: 2025-01-18-15-01-58
       followers: 352
       likes: 70
-      views: 469
+      views: 470
       comments: !c |-
         G3kCICwOeHPoJNT0dgTVz0b0TxysCP/kgSRBxlEgcVjABcGRnOxTdSMYodAkCN/vK5SzFXt/92vU
         bJIm1nd3w9venyuqqBayEqSCS7uerJZP65+m2NyG1hh0Ux8fFA7oVxM/3TgWZoElGng0tkYQYIC9
@@ -2748,10 +2748,10 @@
       id: DE5WIOBTqaO
       mediaId: '18075654520713798'
       published: 2025-01-16-18-10-26
-      updated: 2025-01-18-14-01-27
+      updated: 2025-01-18-15-01-56
       followers: 1522
       likes: 128
-      views: 485
+      views: 487
       comments: !c |-
         G/MAYBwHzpkvTmcI9S+FLu3y9DG2gHIBiQZXB5Y87XmwixboGqAFK1CLbNlyW6rXqiEZ3W/eAH3+
         HY86YjRGqk9PNDCupUnQVtaWSIQhtUB/veHDc2h7JDVSPru+HSn+swCPLzu3InPz0rM3m3Iwgs7R
@@ -2760,18 +2760,18 @@
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-01-18-14-01-28
+      updated: 2025-01-18-15-02-08
       followers: 1053
       likes: 43
-      views: 217
+      views: 218
       reposts: 1
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-01-18-14-01-26
+      updated: 2025-01-18-15-01-56
       followers: 655
       likes: 61
-      views: 221
+      views: 222
       comments: !c |-
         Cx+AkZPLQnlHEE4ggACoQWVsbGFyaWHZKdCv0LrRliDQutC+0LvRjNC+0YDQuCwg0Y/QutCwINC6
         0YDQsNGB0LAhAw==
@@ -4600,17 +4600,17 @@
     - service: vk
       id: 1545
       published: 2024-05-24-18-19-24
-      updated: 2025-01-11-14-02-21
+      updated: 2025-01-18-15-02-11
       followers: 917
       likes: 38
       views: 292
     - service: tg
       id: 418
       published: 2024-05-24-18-19-31
-      updated: 2025-01-11-14-02-20
+      updated: 2025-01-18-15-01-57
       followers: 376
       likes: 57
-      views: 507
+      views: 508
       comments: !c |-
         ix6AkZTLQnj6vWCNAACpQm9yaXNfaW5rs9Ch0L7Qu9GF0YHRgtC10LnQvD+Ty0J4+r5/qQAApW13
         c2NypNCU0LAD
