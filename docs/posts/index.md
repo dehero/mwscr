@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/B37bQmehLWi/)       | 2019-10-22 |       |   204 |       838 |  24.34 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1205) | 2019-10-22 |  1326 |    61 |       371 |  16.71 |
 | [`tg`](https://t.me/mwscr/202)                     | 2019-10-22 |  1086 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE-fki3RAq5/)       | 2025-01-18 |   264 |    69 |      1526 |   4.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2070) | 2025-01-18 |   111 |    16 |      1054 |   1.52 |
-| [`tg`](https://t.me/mwscr/671)                     | 2025-01-18 |   168 |    44 |       655 |   6.72 |
-|                                                    |            |   543 |   129 |      3235 |  10.76 |
+| [`ig`](https://instagram.com/p/DE-fki3RAq5/)       | 2025-01-18 |   273 |    71 |      1526 |   4.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2070) | 2025-01-18 |   114 |    17 |      1054 |   1.61 |
+| [`tg`](https://t.me/mwscr/671)                     | 2025-01-18 |   170 |    44 |       655 |   6.72 |
+|                                                    |            |   557 |   132 |      3235 |  10.81 |
 
 #### Comments
 
@@ -68,10 +68,10 @@
 | [`ig`](https://instagram.com/p/Bq4kQSlB62U/)       | 2018-12-02 |       |   114 |       484 |  23.55 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1086) | 2018-12-02 |  1040 |    38 |       298 |  12.75 |
 | [`tg`](https://t.me/mwscr/133)                     | 2018-12-02 |   432 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   230 |    71 |      1525 |   4.66 |
+| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   233 |    72 |      1525 |   4.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   171 |    26 |      1053 |   2.56 |
-| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   193 |    54 |       655 |   8.24 |
-|                                                    |            |   594 |   151 |      3233 |  10.35 |
+| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   194 |    54 |       655 |   8.24 |
+|                                                    |            |   598 |   152 |      3233 |  10.37 |
 
 ## <span id="2025-01-16-fields-of-kummu-in-the-sunset-light">Fields of Kummu in the Sunset Light</span>
 
