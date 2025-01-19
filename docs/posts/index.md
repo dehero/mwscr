@@ -28,14 +28,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bf_bfxdDVaA/)       | 2018-03-06 |       |    97 |       298 |  32.55 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_641)  | 2018-03-06 |   164 |    14 |       139 |  10.07 |
-| [`ig`](https://instagram.com/p/DFBEXoPSXmc/)       | 2025-01-19 |       |       |      1528 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2072) | 2025-01-19 |       |       |      1054 |        |
-| [`tg`](https://t.me/mwscr/672)                     | 2025-01-19 |       |       |       655 |        |
-|                                                    |            |       |       |      3237 |  21.31 |
+| [`ig`](https://instagram.com/p/DFBEXoPSXmc/)       | 2025-01-19 |    29 |    21 |      1528 |   1.37 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2072) | 2025-01-19 |    37 |     5 |      1054 |   0.57 |
+| [`tg`](https://t.me/mwscr/672)                     | 2025-01-19 |    72 |    25 |       655 |   3.82 |
+|                                                    |            |   138 |    51 |      3237 |   9.68 |
 
 #### Comments
 
 - `ig` <ins title="2018-08-24-23-30-10">asbaccan</ins> 👏👏
+- `tg` <ins title="2025-01-19-18-11-59">Vail Astor'zkiy</ins> wow
 
 ## <span id="2025-01-18-the-wind-is-getting-stronger">The Wind Is Getting Stronger</span>
 
@@ -60,10 +61,10 @@
 | [`ig`](https://instagram.com/p/B37bQmehLWi/)       | 2019-10-22 |       |   204 |       838 |  24.34 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1205) | 2019-10-22 |  1326 |    61 |       371 |  16.71 |
 | [`tg`](https://t.me/mwscr/202)                     | 2019-10-22 |  1086 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE-fki3RAq5/)       | 2025-01-18 |   365 |    82 |      1526 |   5.37 |
+| [`ig`](https://instagram.com/p/DE-fki3RAq5/)       | 2025-01-18 |   369 |    83 |      1526 |   5.44 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2070) | 2025-01-18 |   173 |    29 |      1054 |   2.75 |
-| [`tg`](https://t.me/mwscr/671)                     | 2025-01-18 |   222 |    53 |       655 |   8.09 |
-|                                                    |            |   760 |   164 |      3235 |  11.45 |
+| [`tg`](https://t.me/mwscr/671)                     | 2025-01-18 |   235 |    54 |       655 |   8.24 |
+|                                                    |            |   777 |   166 |      3235 |   11.5 |
 
 #### Comments
 
@@ -127,10 +128,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BRfgcN7DM6L/)       | 2017-03-11 |       |    39 |       105 |  37.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_192)  | 2017-03-11 |   144 |     8 |        45 |      9 |
-| [`ig`](https://instagram.com/p/DE5WIOBTqaO/)       | 2025-01-16 |   488 |   129 |      1522 |   8.48 |
+| [`ig`](https://instagram.com/p/DE5WIOBTqaO/)       | 2025-01-16 |   504 |   131 |      1522 |   8.61 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   241 |    46 |      1053 |   4.46 |
 | [`tg`](https://t.me/mwscr/669)                     | 2025-01-16 |   245 |    65 |       655 |   9.92 |
-|                                                    |            |   974 |   240 |      3230 |   13.8 |
+|                                                    |            |   990 |   242 |      3230 |  13.83 |
 
 #### Comments
 
@@ -169,10 +170,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BjVMKDAld2_/)       | 2018-05-28 |       |   139 |       336 |  41.37 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_746)  | 2018-05-28 |   279 |    25 |       167 |  14.97 |
-| [`ig`](https://instagram.com/p/DE2xU3uvvrq/)       | 2025-01-15 |   304 |    93 |      1522 |   6.11 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2067) | 2025-01-15 |   339 |    41 |      1053 |   4.08 |
+| [`ig`](https://instagram.com/p/DE2xU3uvvrq/)       | 2025-01-15 |   316 |    93 |      1522 |   6.11 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2067) | 2025-01-15 |   354 |    42 |      1053 |   4.18 |
 | [`tg`](https://t.me/mwscr/668)                     | 2025-01-15 |   242 |    65 |       654 |   9.94 |
-|                                                    |            |   885 |   199 |      3229 |  15.29 |
+|                                                    |            |   912 |   200 |      3229 |  15.31 |
 
 #### Comments
 
@@ -183,6 +184,7 @@
 - `tg` <ins title="2025-01-16-06-55-15">Alexey Stepanov</ins> І вже стартувати в екіпіровці
 - `tg` <ins title="2025-01-17-13-15-44">zhechka_drv</ins> или это не тот город...
   - <ins title="2025-01-17-14-03-05">Vail Astor'zkiy</ins> Перепутать Сейда Нин и Пелагиад это, конечно, сильно..
+- `ig` <ins title="2025-01-19-17-47-45">berskate</ins> So cosy place to stay. Do you know if you use tcl and check the underground near the &quot;seven plates&quot;, you will find something interesting??
 
 ## <span id="2025-01-14-ashinabi">Ashinabi</span>
 

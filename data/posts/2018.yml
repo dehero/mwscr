@@ -2349,15 +2349,26 @@
       id: DFBEXoPSXmc
       mediaId: '17980418576651269'
       published: 2025-01-19-18-09-10
+      updated: 2025-01-19-19-01-25
       followers: 1528
+      likes: 21
+      views: 29
     - service: vk
       id: 2072
       published: 2025-01-19-18-09-17
+      updated: 2025-01-19-19-01-26
       followers: 1054
+      likes: 5
+      views: 37
+      reposts: 1
     - service: tg
       id: 672
       published: 2025-01-19-18-09-23
+      updated: 2025-01-19-19-01-26
       followers: 655
+      likes: 25
+      views: 72
+      comments: !c Cw+AkZPLQnlH/DsZgACvVmFpbCBBc3Rvcid6a2l5o3dvdwM=
 2018-03-07-in-the-yard-of-wolverine-hall:
   title: In the Yard of Wolverine Hall
   titleRu: Во дворе Волверин Холла
@@ -2396,7 +2407,7 @@
     - service: vk
       id: 1537
       published: 2024-05-18-18-18-31
-      updated: 2025-01-12-18-09-23
+      updated: 2025-01-19-19-01-29
       followers: 915
       likes: 27
       views: 272
@@ -2404,10 +2415,10 @@
     - service: tg
       id: 412
       published: 2024-05-18-18-18-39
-      updated: 2025-01-12-18-09-23
+      updated: 2025-01-19-19-01-27
       followers: 372
       likes: 52
-      views: 445
+      views: 446
       comments: !c iw2AkZPLQnj40RlbgACrYm9icm92bmlrb3akY296eQM=
 2018-03-08-dead-guar:
   title: Dead Guar
@@ -4456,7 +4467,7 @@
     - service: vk
       id: 1511
       published: 2024-04-27-18-16-27
-      updated: 2025-01-12-18-09-25
+      updated: 2025-01-19-19-01-31
       followers: 911
       likes: 30
       views: 253
@@ -4464,10 +4475,10 @@
     - service: tg
       id: 391
       published: 2024-04-27-18-16-36
-      updated: 2025-01-12-18-09-25
+      updated: 2025-01-19-19-01-29
       followers: 354
       likes: 59
-      views: 489
+      views: 490
 2018-05-04-table-for-two:
   title: Table for Two
   titleRu: Столик на двоих
@@ -5408,18 +5419,21 @@
       id: DE2xU3uvvrq
       mediaId: '17962967642840380'
       published: 2025-01-15-18-10-22
-      updated: 2025-01-18-19-01-25
+      updated: 2025-01-19-19-01-29
       followers: 1522
       likes: 93
-      views: 304
-      comments: !c CxSAkZPLQnlGs9PPgACtZGFuaWVsbGVfaGlpaa9JIGxpa2UgUGVsYWdpYWQD
+      views: 316
+      comments: !c |-
+        G8cAIIzEOBbxxoGgN3GuESVJhdV5VNh4uInsmyAjWWb13eBIB+KC5sfBFpp9G3S3MX67EQYl0rDn
+        NB/JnvsHDsBi2EUZ6pX9H5UUNtOyh81C8N886XQ9QFTpO7HWpQ1XZgTriQWfLSfLyWWNrM6JrxJV
+        AWwHpFIls5/AMITG9ryeO0tPfDuKbNXzff8gSBkXk627vm4B
     - service: vk
       id: 2067
       published: 2025-01-15-18-10-29
-      updated: 2025-01-18-19-01-25
+      updated: 2025-01-19-19-01-28
       followers: 1053
-      likes: 41
-      views: 339
+      likes: 42
+      views: 354
       reposts: 2
     - service: tg
       id: 668
