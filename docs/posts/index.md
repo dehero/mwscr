@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/B37bQmehLWi/)       | 2019-10-22 |       |   204 |       838 |  24.34 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1205) | 2019-10-22 |  1326 |    61 |       371 |  16.71 |
 | [`tg`](https://t.me/mwscr/202)                     | 2019-10-22 |  1086 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE-fki3RAq5/)       | 2025-01-18 |   299 |    76 |      1526 |   4.98 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2070) | 2025-01-18 |   137 |    24 |      1054 |   2.28 |
-| [`tg`](https://t.me/mwscr/671)                     | 2025-01-18 |   193 |    50 |       655 |   7.63 |
-|                                                    |            |   629 |   150 |      3235 |  11.19 |
+| [`ig`](https://instagram.com/p/DE-fki3RAq5/)       | 2025-01-18 |   307 |    76 |      1526 |   4.98 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2070) | 2025-01-18 |   139 |    24 |      1054 |   2.28 |
+| [`tg`](https://t.me/mwscr/671)                     | 2025-01-18 |   198 |    51 |       655 |   7.79 |
+|                                                    |            |   644 |   151 |      3235 |  11.22 |
 
 #### Comments
 
@@ -69,10 +69,10 @@
 | [`ig`](https://instagram.com/p/Bq4kQSlB62U/)       | 2018-12-02 |       |   114 |       484 |  23.55 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1086) | 2018-12-02 |  1040 |    38 |       298 |  12.75 |
 | [`tg`](https://t.me/mwscr/133)                     | 2018-12-02 |   432 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   236 |    73 |      1525 |   4.79 |
+| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   238 |    74 |      1525 |   4.85 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   175 |    26 |      1053 |   2.56 |
 | [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   201 |    56 |       655 |   8.55 |
-|                                                    |            |   612 |   155 |      3233 |  10.44 |
+|                                                    |            |   614 |   156 |      3233 |  10.45 |
 
 ## <span id="2025-01-16-fields-of-kummu-in-the-sunset-light">Fields of Kummu in the Sunset Light</span>
 
