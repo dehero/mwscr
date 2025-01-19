@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/B37bQmehLWi/)       | 2019-10-22 |       |   204 |       838 |  24.34 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1205) | 2019-10-22 |  1326 |    61 |       371 |  16.71 |
 | [`tg`](https://t.me/mwscr/202)                     | 2019-10-22 |  1086 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE-fki3RAq5/)       | 2025-01-18 |   283 |    74 |      1526 |   4.85 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2070) | 2025-01-18 |   122 |    20 |      1054 |    1.9 |
-| [`tg`](https://t.me/mwscr/671)                     | 2025-01-18 |   182 |    47 |       655 |   7.18 |
-|                                                    |            |   587 |   141 |      3235 |     11 |
+| [`ig`](https://instagram.com/p/DE-fki3RAq5/)       | 2025-01-18 |   289 |    75 |      1526 |   4.91 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2070) | 2025-01-18 |   130 |    23 |      1054 |   2.18 |
+| [`tg`](https://t.me/mwscr/671)                     | 2025-01-18 |   187 |    49 |       655 |   7.48 |
+|                                                    |            |   606 |   147 |      3235 |  11.13 |
 
 #### Comments
 
@@ -44,6 +44,7 @@
 - `vk` <ins title="2019-11-20-19-02-06">ambience77</ins> Группа опять ушла на временный отдых?)
 - `ig` <ins title="2019-12-15-03-28-43">makanatandsasha</ins> I’m just watching my dad play morrowind
 - `vk` <ins title="2020-01-09-13-34-28">peteevandrew</ins> Всех с новым, красным годом!!!
+- `tg` <ins title="2025-01-19-07-13-35">mlennic</ins> los angeles
 
 ## <span id="2025-01-17-three-imperial-dragons">Three Imperial Dragons</span>
 
@@ -68,10 +69,10 @@
 | [`ig`](https://instagram.com/p/Bq4kQSlB62U/)       | 2018-12-02 |       |   114 |       484 |  23.55 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1086) | 2018-12-02 |  1040 |    38 |       298 |  12.75 |
 | [`tg`](https://t.me/mwscr/133)                     | 2018-12-02 |   432 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   234 |    73 |      1525 |   4.79 |
+| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   236 |    73 |      1525 |   4.79 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   173 |    26 |      1053 |   2.56 |
 | [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   199 |    56 |       655 |   8.55 |
-|                                                    |            |   606 |   155 |      3233 |  10.44 |
+|                                                    |            |   608 |   155 |      3233 |  10.44 |
 
 ## <span id="2025-01-16-fields-of-kummu-in-the-sunset-light">Fields of Kummu in the Sunset Light</span>
 
