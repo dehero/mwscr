@@ -1940,22 +1940,22 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2025-01-12-12-12-15
+      updated: 2025-01-19-13-10-23
       followers: 927
       likes: 26
       views: 265
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
-      updated: 2025-01-12-12-12-12
+      updated: 2025-01-19-13-10-23
       followers: 514
       likes: 55
       views: 586
       comments: !c |-
-        G7oAAByJcSzJSmHuhlLfs67fli/fu0pWQl9yKJz5QuibIDLkNUGhkxM43S4YAIdFFIhGLaW0FIUz
-        KwB8Gxy7ZyV9DSsIYo1NFdDk1G8RzGLZxQc4gQO4hRs4xQK27W7gCgtwgMUWjrCGbTpyfmKTnF/p
-        tBu+ZyVTfisQq0Zf2BleIecHiyD/mnI7de4Ut1FvCcUY6wv8Gs958gvzUDzps1jPsACncADX2IFb
-        uCPnJ/tF/xo=
+        G7cAAByJcSzJSmHuRqj0e9b12/Lle1fJSuhLDoUzXwh9E0SGvCYo3OAEkjDBQPiJBtFxGnE9KwEo
+        8XwbHLtnJX0NKwhijU0V0OTUbxHMYtnFBziBA7iFGzjFArbtbnCFBTjAYgtHWMM2HTk/sUnOr3Sa
+        Dd+zkim/FYhVoy/sDK+Q84NFkH9NuZ2aO8Vt1FtCMcb6Ar/Gc6sNi9EYcht9xjMswCkcwDV24Bbu
+        yPnJ/tG/Bg==
 2018-02-24-in-the-skaal-village:
   title: In the Skaal Village
   titleRu: В деревне Скаалов
@@ -4982,15 +4982,15 @@
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2025-01-12-12-12-17
+      updated: 2025-01-19-13-10-27
       followers: 919
       likes: 56
-      views: 836
+      views: 838
       reposts: 5
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2025-01-12-12-12-14
+      updated: 2025-01-19-13-10-25
       followers: 400
       likes: 67
       views: 622
@@ -7231,17 +7231,17 @@
     - service: vk
       id: 1666
       published: 2024-08-03-18-19-32
-      updated: 2025-01-12-12-12-15
+      updated: 2025-01-19-13-10-25
       followers: 925
       likes: 33
       views: 293
     - service: tg
       id: 489
       published: 2024-08-03-18-19-41
-      updated: 2025-01-12-12-12-12
+      updated: 2025-01-19-13-10-24
       followers: 428
       likes: 57
-      views: 6597
+      views: 6604
       comments: !c |-
         izGAkZTLQnkRxbvWAACremhlY2hrYV9kcnak8J+YjZPLQnkRxdocAAClYW5zaXPZNmV2ZXJ5IGdy
         YXplbGFuZGVyIGJveSBsb3ZlcyBoaW1zZWxmIGEgZ3VhciBoZXJkZXIgZ2lybAM=
@@ -12397,25 +12397,25 @@
       id: DE7_wC1PgTr
       mediaId: '18065439076892825'
       published: 2025-01-17-18-52-37
-      updated: 2025-01-19-12-11-36
+      updated: 2025-01-19-13-10-19
       followers: 1525
-      likes: 75
-      views: 243
+      likes: 76
+      views: 244
     - service: vk
       id: 2069
       published: 2025-01-17-18-52-43
-      updated: 2025-01-19-12-11-37
+      updated: 2025-01-19-13-10-20
       followers: 1053
       likes: 27
-      views: 178
+      views: 179
       reposts: 1
     - service: tg
       id: 670
       published: 2025-01-17-18-52-49
-      updated: 2025-01-19-12-11-37
+      updated: 2025-01-19-13-10-21
       followers: 655
       likes: 57
-      views: 203
+      views: 205
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели
