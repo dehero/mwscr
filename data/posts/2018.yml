@@ -5963,10 +5963,10 @@
     - service: vk
       id: 1857
       published: 2024-10-26-18-09-18
-      updated: 2025-01-12-03-20-04
+      updated: 2025-01-19-04-09-01
       followers: 1000
       likes: 53
-      views: 376
+      views: 377
       reposts: 3
       comments: !c |-
         GxwB4C0OzHOdB2ow3rAbn0ohbDz/z6GG8J/YBo3x1AmaE0pA1iBcvQ+01ULNLeRKqEZdNyPzHMPx
@@ -5977,10 +5977,10 @@
     - service: tg
       id: 576
       published: 2024-10-26-18-09-24
-      updated: 2025-01-12-03-20-03
+      updated: 2025-01-19-04-09-00
       followers: 564
       likes: 62
-      views: 603
+      views: 606
       comments: !c CxSAkpPLQnksrSYPAACobW9uZ2xlcmmgk8tCeSygVUwAAKh3aWx6dXVsbKAD
 2018-06-13-lich:
   title: Lich
@@ -12397,25 +12397,25 @@
       id: DE7_wC1PgTr
       mediaId: '18065439076892825'
       published: 2025-01-17-18-52-37
-      updated: 2025-01-19-03-12-38
+      updated: 2025-01-19-04-08-58
       followers: 1525
       likes: 71
-      views: 229
+      views: 230
     - service: vk
       id: 2069
       published: 2025-01-17-18-52-43
-      updated: 2025-01-19-03-12-39
+      updated: 2025-01-19-04-09-00
       followers: 1053
       likes: 26
-      views: 170
+      views: 171
       reposts: 1
     - service: tg
       id: 670
       published: 2025-01-17-18-52-49
-      updated: 2025-01-19-03-12-39
+      updated: 2025-01-19-04-08-59
       followers: 655
       likes: 54
-      views: 192
+      views: 193
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели
