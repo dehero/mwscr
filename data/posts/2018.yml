@@ -2102,7 +2102,7 @@
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2025-01-13-21-01-35
+      updated: 2025-01-20-21-02-42
       followers: 894
       likes: 34
       views: 298
@@ -2110,7 +2110,7 @@
     - service: tg
       id: 334
       published: 2024-03-03-18-16-50
-      updated: 2025-01-13-21-01-28
+      updated: 2025-01-20-21-02-23
       followers: 341
       likes: 63
       views: 524
@@ -2182,7 +2182,7 @@
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
-      updated: 2025-01-13-21-01-30
+      updated: 2025-01-20-21-02-36
       followers: 909
       likes: 46
       views: 308
@@ -2194,10 +2194,10 @@
     - service: tg
       id: 385
       published: 2024-04-21-18-17-47
-      updated: 2025-01-13-21-01-24
+      updated: 2025-01-20-21-02-18
       followers: 354
       likes: 64
-      views: 468
+      views: 469
       comments: !c |-
         GxUB4B2J6TY4WRjE4Mgnp1zkmUcccdHnh9N9+lNDlHuYbByrY3PPM8a2CJSsggX62iyD54f/3Ikm
         GAC/a7vtb9GHtjAN7AA0saC2ObcMzVoKdhBf9Sn9ndec8R1/Kq3Rhveo9epmJvELYVP/9xlRg7HB
@@ -2349,25 +2349,25 @@
       id: DFBEXoPSXmc
       mediaId: '17980418576651269'
       published: 2025-01-19-18-09-10
-      updated: 2025-01-20-20-07-42
+      updated: 2025-01-20-21-02-15
       followers: 1528
       likes: 67
       views: 214
     - service: vk
       id: 2072
       published: 2025-01-19-18-09-17
-      updated: 2025-01-20-20-07-43
+      updated: 2025-01-20-21-02-15
       followers: 1054
       likes: 29
-      views: 183
+      views: 184
       reposts: 1
     - service: tg
       id: 672
       published: 2025-01-19-18-09-23
-      updated: 2025-01-20-20-07-43
+      updated: 2025-01-20-21-02-15
       followers: 655
       likes: 55
-      views: 192
+      views: 198
       comments: !c Cw+AkZPLQnlH/DsZgACvVmFpbCBBc3Rvcid6a2l5o3dvdwM=
 2018-03-07-in-the-yard-of-wolverine-hall:
   title: In the Yard of Wolverine Hall
@@ -4718,17 +4718,17 @@
     - service: vk
       id: 1468
       published: 2024-03-24-18-11-49
-      updated: 2025-01-13-21-01-33
+      updated: 2025-01-20-21-02-39
       followers: 898
       likes: 41
       views: 349
     - service: tg
       id: 356
       published: 2024-03-24-18-11-58
-      updated: 2025-01-13-21-01-26
+      updated: 2025-01-20-21-02-21
       followers: 352
       likes: 60
-      views: 541
+      views: 542
       comments: !c iw2AkZPLQnjnGx3lAACrYm9icm92bmlrb3ak8J+VrwM=
 2018-05-10-drooping-sun-of-molag-amur:
   title: Drooping Sun of Molag Amur
