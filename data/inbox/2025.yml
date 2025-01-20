@@ -100,11 +100,20 @@ dehero.2025-01-19-19-23-17:
   type: shot
   author: dehero
 dehero.2025-01-19-19-23-17-2:
-  content:
-    - store:/inbox/dehero.2025-01-19-19-23-17-2.1.png
-    - store:/inbox/dehero.2025-01-19-19-23-17-2.png
+  title: Telvanni Vault Ledger
+  titleRu: Складская книга Телванни
+  location: Vivec, Telvanni Vault
+  content: store:/inbox/dehero.2025-01-19-19-23-17-2.1.png
+  trash: store:/inbox/dehero.2025-01-19-19-23-17-2.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - book
+    - quill
+    - ordinator
+    - candle
+  mark: B1
 dehero.2025-01-19-19-26-49:
   content:
     - store:/inbox/dehero.2025-01-19-19-26-49.1.png
