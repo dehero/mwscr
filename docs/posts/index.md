@@ -4,7 +4,30 @@
 
 # Posted in 2025
 
-`19 items`
+`20 items`
+
+## <span id="2025-01-20-telvanni-vault-ledger">Telvanni Vault Ledger</span>
+
+`RU` Складская книга Телванни
+
+<a href="https://instagram.com/p/DFDsz7MJOTU/" title="2025-01-20-telvanni-vault-ledger"><img alt="store:/shots/2025-01-20-telvanni-vault-ledger.png" src="../../assets/previews/shots/2025-01-20-telvanni-vault-ledger.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Vivec, Telvanni Vault` `🚀 OpenMW` `book` `quill` `ordinator` `candle`
+
+```
+2025-01-20-telvanni-vault-ledger
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DFDsz7MJOTU/)       | 2025-01-20 |      1529 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2073) | 2025-01-20 |      1054 |
+| [`tg`](https://t.me/mwscr/673)                     | 2025-01-20 |       654 |
+|                                                    |            |      3237 |
 
 ## <span id="2025-01-19-near-hlormaren">Near Hlormaren</span>
 
@@ -28,10 +51,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bf_bfxdDVaA/)       | 2018-03-06 |       |    97 |       298 |  32.55 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_641)  | 2018-03-06 |   164 |    14 |       139 |  10.07 |
-| [`ig`](https://instagram.com/p/DFBEXoPSXmc/)       | 2025-01-19 |   212 |    66 |      1528 |   4.32 |
+| [`ig`](https://instagram.com/p/DFBEXoPSXmc/)       | 2025-01-19 |   213 |    66 |      1528 |   4.32 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2072) | 2025-01-19 |   176 |    28 |      1054 |   2.75 |
-| [`tg`](https://t.me/mwscr/672)                     | 2025-01-19 |   170 |    52 |       655 |   7.94 |
-|                                                    |            |   558 |   146 |      3237 |  11.53 |
+| [`tg`](https://t.me/mwscr/672)                     | 2025-01-19 |   171 |    52 |       655 |   7.94 |
+|                                                    |            |   560 |   146 |      3237 |  11.53 |
 
 #### Comments
 

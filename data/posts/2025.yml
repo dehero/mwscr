@@ -64,3 +64,31 @@
 2025-01-17-three-imperial-dragons: 2018-12-02-three-imperial-dragons
 2025-01-18-the-wind-is-getting-stronger: 2019-10-22-the-wind-is-getting-stronger
 2025-01-19-near-hlormaren: 2018-03-06-near-hlormaren
+2025-01-20-telvanni-vault-ledger:
+  title: Telvanni Vault Ledger
+  titleRu: Складская книга Телванни
+  location: Vivec, Telvanni Vault
+  content: store:/shots/2025-01-20-telvanni-vault-ledger.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - book
+    - quill
+    - ordinator
+    - candle
+  mark: B1
+  posts:
+    - service: ig
+      id: DFDsz7MJOTU
+      mediaId: '18020437565397271'
+      published: 2025-01-20-18-41-02
+      followers: 1529
+    - service: vk
+      id: 2073
+      published: 2025-01-20-18-41-09
+      followers: 1054
+    - service: tg
+      id: 673
+      published: 2025-01-20-18-41-15
+      followers: 654
