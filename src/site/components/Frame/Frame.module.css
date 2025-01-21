@@ -12,6 +12,18 @@
   border-image-slice: 2;
 }
 
+.thin.selected {
+  border-width: 2px;
+  border-image-source: url(../../images/frame-thin-selected.png);
+  border-image-slice: 2;
+}
+
+.thin.unsaved {
+  border-width: 2px;
+  border-image-source: url(../../images/frame-thin-unsaved.png);
+  border-image-slice: 2;
+}
+
 .thick {
   border-width: 4px;
   border-image-source: url(../../images/frame-thick.png);

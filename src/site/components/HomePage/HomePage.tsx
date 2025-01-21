@@ -29,27 +29,10 @@ export const HomePage = (): JSX.Element => {
     <>
       <Show when={data()}>
         {(data) => {
-          const {
-            buildDate,
-            totalPosts,
-            authorCount,
-            requesterCount,
-            topRatedPostInfo,
-            topLikedPostInfo,
-            lastRequestedPostInfo,
-            lastProposedPostInfo,
-            lastFulfilledPostInfo,
-            lastOriginalPostInfo,
-            editorsChoicePostInfo,
-            totalLikes,
-            totalCommentCount,
-            recentPostInfos,
-          } = data();
-
-          const lastPostInfo = recentPostInfos.items[0];
+          const lastPostInfo = () => data().recentPostInfos.items[0];
 
           const recentMostEngagingPostInfo = () =>
-            selectPostInfos(recentPostInfos.items, { sortDirection: 'desc', sortKey: 'engagement' }, 1);
+            selectPostInfos(data().recentPostInfos.items, { sortDirection: 'desc', sortKey: 'engagement' }, 1);
 
           return (
             <Frame component="main" class={styles.container}>
@@ -86,7 +69,7 @@ export const HomePage = (): JSX.Element => {
                 <p class={styles.version}>
                   v{import.meta.env.VITE_APP_VERSION}
                   {', '}
-                  {formatDate(buildDate)}, {formatTime(buildDate)}
+                  {formatDate(data().buildDate)}, {formatTime(data().buildDate)}
                 </p>
                 <p class={styles.copyright}>
                   <GoldIcon />{' '}
@@ -122,18 +105,26 @@ export const HomePage = (): JSX.Element => {
                   rows={[
                     {
                       label: 'Posts',
-                      value: totalPosts.posts
+                      value: data().totalPosts.posts
                         ? () => (
                             <>
                               <GoldIcon class={styles.goldIcon} />
-                              {totalPosts.posts}
+                              {data().totalPosts.posts}
                             </>
                           )
                         : undefined,
                       link: postsRoute.createUrl({ managerName: 'posts' }),
                     },
-                    { label: 'Inbox', value: totalPosts.inbox, link: postsRoute.createUrl({ managerName: 'inbox' }) },
-                    { label: 'Trash', value: totalPosts.trash, link: postsRoute.createUrl({ managerName: 'trash' }) },
+                    {
+                      label: 'Inbox',
+                      value: data().totalPosts.inbox,
+                      link: postsRoute.createUrl({ managerName: 'inbox' }),
+                    },
+                    {
+                      label: 'Trash',
+                      value: data().totalPosts.trash,
+                      link: postsRoute.createUrl({ managerName: 'trash' }),
+                    },
                   ]}
                 />
                 <Divider />
@@ -143,12 +134,12 @@ export const HomePage = (): JSX.Element => {
                   rows={[
                     {
                       label: 'Authors',
-                      value: authorCount,
+                      value: data().authorCount,
                       link: usersRoute.createUrl({ role: 'author', sort: 'contribution,desc' }),
                     },
                     {
                       label: 'Requesters',
-                      value: requesterCount,
+                      value: data().requesterCount,
                       link: usersRoute.createUrl({ role: 'requester', sort: 'contribution,desc' }),
                     },
                   ]}
@@ -159,15 +150,15 @@ export const HomePage = (): JSX.Element => {
                   rows={[
                     {
                       label: 'Followers',
-                      value: lastPostInfo?.followers,
+                      value: lastPostInfo()?.followers,
                     },
                     {
                       label: 'Likes',
-                      value: totalLikes,
+                      value: data().totalLikes,
                     },
                     {
                       label: 'Comments',
-                      value: totalCommentCount,
+                      value: data().totalCommentCount,
                     },
                   ]}
                 />
@@ -208,13 +199,13 @@ export const HomePage = (): JSX.Element => {
                 <PostHighlights
                   class={styles.postHighlights}
                   items={[
-                    { label: 'Last Post', primary: true, selection: recentPostInfos },
-                    { label: 'Last Original Post', primary: true, selection: lastOriginalPostInfo },
+                    { label: 'Last Post', primary: true, selection: data().recentPostInfos },
+                    { label: 'Last Original Post', primary: true, selection: data().lastOriginalPostInfo },
                     { label: 'Recent Engaging Post', primary: true, selection: recentMostEngagingPostInfo() },
-                    { label: "Editor's Choice Post", selection: editorsChoicePostInfo },
-                    { label: 'Top Rated Post', selection: topRatedPostInfo },
-                    { label: 'Top Liked Post', selection: topLikedPostInfo },
-                    { label: 'Last Fulfilled Request', selection: lastFulfilledPostInfo },
+                    { label: "Editor's Choice Post", selection: data().editorsChoicePostInfo },
+                    { label: 'Top Rated Post', selection: data().topRatedPostInfo },
+                    { label: 'Top Liked Post', selection: data().topLikedPostInfo },
+                    { label: 'Last Fulfilled Request', selection: data().lastFulfilledPostInfo },
                     // TODO: Last Week Top Rated Post, Current Month Top Rated Post, Previous Month Top Rated Post etc.
                   ]}
                 />
@@ -222,8 +213,8 @@ export const HomePage = (): JSX.Element => {
                 <PostHighlights
                   class={styles.postHighlights}
                   items={[
-                    { label: 'Last Proposal', primary: true, selection: lastProposedPostInfo },
-                    { label: 'Last Pending Request', selection: lastRequestedPostInfo },
+                    { label: 'Last Proposal', primary: true, selection: data().lastProposedPostInfo },
+                    { label: 'Last Pending Request', selection: data().lastRequestedPostInfo },
                   ]}
                 />
               </Frame>
@@ -232,7 +223,7 @@ export const HomePage = (): JSX.Element => {
                 <Diagram
                   class={styles.diagram}
                   label="Followers Count"
-                  items={recentPostInfos.items}
+                  items={data().recentPostInfos.items}
                   getItemInterval={(item) => dateToString(getPostDateById(item.id) ?? new Date())}
                   getIntervalValue={(_, values) => values[0]?.followers || 0}
                   getIntervalLink={(_, values) =>
@@ -251,7 +242,7 @@ export const HomePage = (): JSX.Element => {
                 <Diagram
                   class={styles.diagram}
                   label="Recent Posts Engagement"
-                  items={recentPostInfos.items}
+                  items={data().recentPostInfos.items}
                   getItemInterval={(item) => dateToString(getPostDateById(item.id) ?? new Date())}
                   getIntervalValue={(_, values) => values[0]?.engagement || 0}
                   getIntervalLink={(_, values) =>

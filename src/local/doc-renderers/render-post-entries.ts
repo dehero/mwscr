@@ -137,7 +137,7 @@ function renderPostEntryReactions(postEntry: PostEntry) {
     lines.push('');
   }
 
-  const comments = getAllPostCommentsSorted(post);
+  const comments = getAllPostCommentsSorted(post.posts);
 
   if (comments.length > 0) {
     lines.push('#### Comments');

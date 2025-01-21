@@ -7,10 +7,14 @@ export function useHash(): [Accessor<string>, (value: string) => void] {
   createEffect(() => {
     const callback = () => setHash(window.location.hash);
     window.addEventListener('hashchange', callback);
+    window.addEventListener('popstate', callback);
 
     callback();
 
-    onCleanup(() => window.removeEventListener('hashchange', callback));
+    onCleanup(() => {
+      window.removeEventListener('hashchange', callback);
+      window.removeEventListener('popstate', callback);
+    });
   });
 
   const setWindowHash = (value: string) => {

@@ -15,8 +15,9 @@ export async function resolve(issue: GithubIssue) {
   }
 
   const rawDataPatch = extractIssueTextareaValue(dataPatchText, issue.body) ?? '';
+  dataManager.mergeLocalPatch(stringToDataPatch(rawDataPatch));
 
-  await dataManager.applyPatch(stringToDataPatch(rawDataPatch));
+  await dataManager.applyLocalPatch();
 
   console.info('Data patched.');
 }
@@ -24,7 +25,8 @@ export async function resolve(issue: GithubIssue) {
 export async function createIssueTemplate() {
   return {
     name: 'Patch Data',
-    description: "Apply JSON patch to project's data .",
+    description: "Apply JSON patch to project's data.",
+    title: 'data-patch',
     labels: [label],
     body: [dataPatchText],
   };

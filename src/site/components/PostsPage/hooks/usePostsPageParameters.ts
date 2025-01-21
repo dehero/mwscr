@@ -1,3 +1,4 @@
+import { ListReaderItemStatus } from '../../../../core/entities/list-manager.js';
 import type { Option } from '../../../../core/entities/option.js';
 import { ANY_OPTION, NONE_OPTION } from '../../../../core/entities/option.js';
 import { PostMark, PostType, PostViolation } from '../../../../core/entities/post.js';
@@ -25,6 +26,7 @@ const emptySearchParams: PostsPageSearchParams = {
   search: undefined,
   sort: undefined,
   date: undefined,
+  status: undefined,
 };
 
 interface PostsPagePreset extends Option {
@@ -53,7 +55,17 @@ export type PresetKey = (typeof presets)[number]['value'];
 
 export type FilterKey = keyof Pick<
   PostsPageSearchParams,
-  'type' | 'tag' | 'location' | 'author' | 'mark' | 'violation' | 'publishable' | 'original' | 'requester' | 'date'
+  | 'type'
+  | 'tag'
+  | 'location'
+  | 'author'
+  | 'mark'
+  | 'violation'
+  | 'publishable'
+  | 'original'
+  | 'requester'
+  | 'date'
+  | 'status'
 >;
 
 export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams, unknown, PostsPageInfo>) {
@@ -93,6 +105,10 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
   const search = () => searchParams().search;
   const preset = () => presetOptions().find((preset) => isObjectEqual(preset.searchParams, searchParams()))?.value;
   const date = (): DateRange | undefined => (searchParams().date ? stringToDateRange(searchParams().date!) : undefined);
+  const status = () =>
+    [ANY_OPTION.value, NONE_OPTION.value, ...ListReaderItemStatus.options].find(
+      (status) => status === searchParams().status,
+    ) as SelectPostInfosParams['status'];
 
   const setPreset = (preset: string | undefined) =>
     setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.searchParams });
@@ -114,6 +130,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
   const setDate = (date: DateRange | undefined) => {
     setSearchParams({ date: date ? dateRangeToString(date) : undefined });
   };
+  const setStatus = (status: SelectPostInfosParams['status'] | undefined) => setSearchParams({ status });
 
   return {
     sortOptions,
@@ -132,6 +149,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     sortDirection,
     search,
     date,
+    status,
     setPreset,
     setOriginal,
     setPublishable,
@@ -146,5 +164,6 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     setSortKey,
     setSortDirection,
     setDate,
+    setStatus,
   };
 }

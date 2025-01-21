@@ -13,12 +13,14 @@ import { postsManagerDescriptors } from '../../../core/entities/posts-manager.js
 import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
+import { dataManager } from '../../data-managers/manager.js';
 import { postRoute } from '../../routes/post-route.js';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.jsx';
+import { useToaster } from '../Toaster/Toaster.jsx';
 import type { TooltipAction, TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './PostTooltip.module.css';
@@ -29,6 +31,8 @@ interface PostTooltipProps extends Omit<TooltipProps, 'children' | 'actions'> {
 }
 
 export const PostTooltip: Component<PostTooltipProps> = (props) => {
+  const { messageBox } = useToaster();
+
   const [local, rest] = splitProps(props, ['postInfo', 'showContent']);
   const date = () => getPostDateById(local.postInfo.id);
   const refDate = () => (local.postInfo.refId ? getPostDateById(local.postInfo.refId) : undefined);
@@ -38,49 +42,66 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
 
   const postActions = createMemo((): PostAction[] => postsManagerDescriptors[local.postInfo.managerName].actions);
 
+  const handleReset = async () => {
+    const result = await messageBox('Are you sure you want to reset current local changes for this post?', [
+      'Yes',
+      'No',
+    ]);
+    if (result === 0) {
+      const targetId = local.postInfo.refId || local.postInfo.id;
+      dataManager.findPostsManager(local.postInfo.managerName)?.resetLocallyPatchedItem(targetId);
+    }
+  };
+
+  const actions = () =>
+    [
+      { url: postRoute.createUrl({ managerName: local.postInfo.managerName, id: local.postInfo.id }), label: 'View' },
+      props.postInfo.status !== 'removed' && postActions().includes('edit')
+        ? {
+            url: createDetachedDialogFragment('post-editing', {
+              managerName: local.postInfo.managerName,
+              id: local.postInfo.id,
+            }),
+            label: 'Edit',
+          }
+        : undefined,
+      props.postInfo.status !== 'removed' && postActions().includes('review')
+        ? {
+            url: createDetachedDialogFragment('post-review', {
+              managerName: local.postInfo.managerName,
+              id: local.postInfo.id,
+            }),
+            label: 'Review',
+          }
+        : undefined,
+      props.postInfo.status !== 'removed' && postActions().includes('merge')
+        ? {
+            url: createDetachedDialogFragment('post-merge', {
+              managerName: local.postInfo.managerName,
+              id: local.postInfo.id,
+            }),
+            label: 'Merge',
+          }
+        : undefined,
+      props.postInfo.status !== 'removed' && postActions().includes('locate')
+        ? {
+            url: createDetachedDialogFragment('post-location', {
+              id: local.postInfo.id,
+              managerName: local.postInfo.managerName,
+            }),
+            label: local.postInfo.location ? 'Precise Location' : 'Locate',
+          }
+        : undefined,
+      props.postInfo.status
+        ? {
+            label: 'Reset',
+            onClick: handleReset,
+          }
+        : undefined,
+    ].filter(Boolean) as TooltipAction[];
+
   return (
-    <Tooltip
-      actions={[
-        { url: postRoute.createUrl({ managerName: local.postInfo.managerName, id: local.postInfo.id }), label: 'View' },
-        postActions().includes('edit')
-          ? {
-              url: createDetachedDialogFragment('post-editing', {
-                managerName: local.postInfo.managerName,
-                id: local.postInfo.id,
-              }),
-              label: 'Edit',
-            }
-          : undefined,
-        postActions().includes('review')
-          ? {
-              url: createDetachedDialogFragment('post-review', {
-                managerName: local.postInfo.managerName,
-                id: local.postInfo.id,
-              }),
-              label: 'Review',
-            }
-          : undefined,
-        postActions().includes('merge')
-          ? {
-              url: createDetachedDialogFragment('post-merge', {
-                managerName: local.postInfo.managerName,
-                id: local.postInfo.id,
-              }),
-              label: 'Merge',
-            }
-          : undefined,
-        postActions().includes('locate')
-          ? {
-              url: createDetachedDialogFragment('post-location', {
-                id: local.postInfo.id,
-                managerName: local.postInfo.managerName,
-              }),
-              label: local.postInfo.location ? 'Precise Location' : 'Locate',
-            }
-          : undefined,
-      ].filter((value): value is TooltipAction => Boolean(value))}
-      {...rest}
-    >
+    <Tooltip actions={actions()} {...rest}>
       <Show when={content().length > 0 && local.showContent}>
         <Show
           when={content().length > 2}
@@ -156,6 +177,15 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       <Show when={local.postInfo.addon}>
         <span class={styles.addon}>Addon: {local.postInfo.addon}</span>
       </Show>
+      <Show when={local.postInfo.mark}>
+        <span class={styles.mark}>
+          {"Editor's Mark: "}
+          <Icon color="combat" size="small" variant="flat" class={styles.icon}>
+            {props.postInfo.mark?.[0]}
+          </Icon>
+          {local.postInfo.mark?.[1]}
+        </span>
+      </Show>
       <Show when={local.postInfo.violation}>
         {(violation) => (
           <span class={styles.addon}>
@@ -169,15 +199,6 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       </Show>
       <Show when={local.postInfo.tags?.length}>
         <span class={styles.tags}>Tags: {local.postInfo.tags?.join(', ')}</span>
-      </Show>
-      <Show when={local.postInfo.mark}>
-        <span class={styles.mark}>
-          {"Editor's Mark: "}
-          <Icon color="combat" size="small" variant="flat" class={styles.icon}>
-            {props.postInfo.mark?.[0]}
-          </Icon>
-          {local.postInfo.mark?.[1]}
-        </span>
       </Show>
       <Show when={local.postInfo.rating}>
         <span class={styles.rating}>Rating: {local.postInfo.rating}</span>
@@ -197,22 +218,37 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       <Show when={local.postInfo.commentCount}>
         <span class={styles.commentCount}>Comments: {local.postInfo.commentCount}</span>
       </Show>
-      <Show when={isValidDate(refDate())}>
+
+      <Show when={isValidDate(refDate()) || local.postInfo.publishableErrors || local.postInfo.status}>
         <Divider class={styles.divider} />
-        <span class={styles.date}>* {formatDate(refDate()!)}</span>
-      </Show>
-      <Show when={local.postInfo.publishableErrors}>
-        {(errors) => (
-          <>
-            <Divider class={styles.divider} />
-            <p class={styles.publishableErrors}>
+
+        <Show when={isValidDate(refDate())}>
+          <span class={styles.date}>* {formatDate(refDate()!)}</span>
+        </Show>
+
+        <Show when={local.postInfo.status}>
+          {(status) => (
+            <span class={styles.status}>
               <Icon color="attribute" size="small" variant="flat">
-                !
+                {capitalizeFirstLetter(status())[0]}
               </Icon>{' '}
-              {capitalizeFirstLetter(errors().join(', '))}
-            </p>
-          </>
-        )}
+              {capitalizeFirstLetter(status())} Locally
+            </span>
+          )}
+        </Show>
+
+        <Show when={local.postInfo.publishableErrors}>
+          {(errors) => (
+            <>
+              <p class={styles.publishableErrors}>
+                <Icon color="attribute" size="small" variant="flat">
+                  !
+                </Icon>{' '}
+                {capitalizeFirstLetter(errors().join(', '))}
+              </p>
+            </>
+          )}
+        </Show>
       </Show>
     </Tooltip>
   );

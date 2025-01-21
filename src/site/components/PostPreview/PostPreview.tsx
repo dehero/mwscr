@@ -3,7 +3,7 @@ import { type Component, createSignal, For, Show } from 'solid-js';
 import { getPostTypeAspectRatio, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
-import { asArray } from '../../../core/utils/common-utils.js';
+import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { postRoute } from '../../routes/post-route.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
@@ -33,48 +33,74 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
   const url = () => postRoute.createUrl({ managerName: props.postInfo.managerName, id: props.postInfo.id });
   const aspectRatio = () => getPostTypeAspectRatio(props.postInfo.type);
   const alt = () => props.postInfo.tags?.join(' ');
+  const frameState = () => (props.postInfo.status ? 'unsaved' : undefined);
 
   const [ref, setRef] = createSignal<HTMLElement>();
 
   return (
-    <a class={clsx(styles.container, props.class)} ref={setRef} href={url()}>
+    <a
+      class={clsx(styles.container, props.class, props.postInfo.status === 'removed' && styles.removed)}
+      ref={setRef}
+      href={url()}
+    >
       <Show
-        when={content().length > 0}
+        when={props.postInfo.status !== 'removed'}
         fallback={
-          <Show when={props.postInfo.request}>
-            {(request) => (
-              <Frame variant="thin" class={styles.request} style={{ 'aspect-ratio': aspectRatio() }}>
-                <p class={styles.requestText}>{request().text}</p>
-
-                <Show when={props.postInfo.requesterOption}>
-                  {(option) => <p class={styles.requestUser}>{option().label}</p>}
-                </Show>
-              </Frame>
-            )}
-          </Show>
+          <Frame variant="thin" state={frameState()} class={styles.request} style={{ 'aspect-ratio': aspectRatio() }}>
+            <span class={styles.status}>
+              <Icon color="attribute" size="small" variant="flat">
+                {capitalizeFirstLetter(props.postInfo.status!)[0]}
+              </Icon>{' '}
+              {capitalizeFirstLetter(props.postInfo.status!)} Locally
+            </span>
+          </Frame>
         }
       >
         <Show
-          when={content().length > 2}
+          when={content().length > 0}
           fallback={
-            <ResourcePreview
-              url={content()[0] || ''}
-              aspectRatio={aspectRatio()}
-              class={styles.image}
-              alt={alt()}
-              maxHeightMultiplier={props.maxHeightMultiplier}
-            />
+            <Show when={props.postInfo.request}>
+              {(request) => (
+                <Frame
+                  variant="thin"
+                  state={frameState()}
+                  class={styles.request}
+                  style={{ 'aspect-ratio': aspectRatio() }}
+                >
+                  <p class={styles.requestText}>{request().text}</p>
+
+                  <Show when={props.postInfo.requesterOption}>
+                    {(option) => <p class={styles.requestUser}>{option().label}</p>}
+                  </Show>
+                </Frame>
+              )}
+            </Show>
           }
         >
-          <div class={clsx(styles[props.postInfo.type], styles.setContainer)}>
-            <For each={content()}>
-              {(url) => <ResourcePreview url={url} class={styles.setItem} aspectRatio="1/1" />}
-            </For>
-          </div>
+          <Show
+            when={content().length > 2}
+            fallback={
+              <ResourcePreview
+                url={content()[0] || ''}
+                aspectRatio={aspectRatio()}
+                class={styles.image}
+                alt={alt()}
+                maxHeightMultiplier={props.maxHeightMultiplier}
+                state={frameState()}
+              />
+            }
+          >
+            <div class={clsx(styles[props.postInfo.type], styles.setContainer)}>
+              <For each={content()}>
+                {(url) => <ResourcePreview url={url} class={styles.setItem} aspectRatio="1/1" state={frameState()} />}
+              </For>
+            </div>
+          </Show>
         </Show>
       </Show>
+
       <Show when={title() || props.postInfo.rating}>
-        <Frame variant="thin" class={styles.info}>
+        <Frame variant="thin" state={frameState()} class={styles.info}>
           <div class={styles.header}>
             <div class={styles.title}>{title()}</div>
             <Show when={props.postInfo.refId}>*</Show>
@@ -90,11 +116,13 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
 
               <Show
                 when={
-                  authorLetters().length > 0 ||
-                  requesterLetter() ||
-                  props.postInfo.mark ||
-                  props.postInfo.violation ||
-                  props.postInfo.publishableErrors
+                  props.postInfo.status !== 'removed' &&
+                  (authorLetters().length > 0 ||
+                    requesterLetter() ||
+                    props.postInfo.mark ||
+                    props.postInfo.violation ||
+                    props.postInfo.publishableErrors ||
+                    props.postInfo.status)
                 }
               >
                 <Frame class={styles.icons}>
@@ -124,6 +152,14 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
                     {(violation) => (
                       <Icon color="health" size="small" variant="flat">
                         {postViolationDescriptors[violation()].letter}
+                      </Icon>
+                    )}
+                  </Show>
+
+                  <Show when={props.postInfo.status}>
+                    {(status) => (
+                      <Icon color="attribute" size="small" variant="flat">
+                        {capitalizeFirstLetter(status())[0]}
                       </Icon>
                     )}
                   </Show>
