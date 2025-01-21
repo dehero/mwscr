@@ -2,6 +2,7 @@ import { type Component, For, Show } from 'solid-js';
 import { navigate } from 'vike/client/router';
 import { usePageContext } from 'vike-solid/usePageContext';
 import type { Option } from '../../../core/entities/option.js';
+import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { homeRoute } from '../../routes/home-route.js';
@@ -10,6 +11,7 @@ import { resolveFirstRoute } from '../../routes/index.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { Button } from '../Button/Button.js';
+import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Select } from '../Select/Select.js';
 import { Spacer } from '../Spacer/Spacer.js';
 import styles from './Navigation.module.css';
@@ -35,8 +37,10 @@ export function createOption({ route, params }: RouteMatch): Option {
 
 export const Navigation: Component = () => {
   const pageContext = usePageContext();
-  const pathname = () => useRouteInfo(pageContext).pathname();
+  const pathname = () => pageContext.urlPathname;
   const meta = () => useRouteInfo(pageContext).meta();
+
+  const patchSize = useLocalPatch();
 
   const options = () => navigationItems.map((item) => createOption(item));
   const selectedOption = () =>
@@ -87,8 +91,13 @@ export const Navigation: Component = () => {
         class={styles.menu}
       />
 
+      <Button href={createDetachedDialogFragment('data-patch')}>
+        Local Patch<Show when={patchSize() > 0}> ({patchSize()})</Show>
+      </Button>
+
+      <Spacer />
+
       <Show when={breadcrumbs().length > 1}>
-        <Spacer />
         <span class={styles.breadcrumbs}>
           <For each={breadcrumbs()}>
             {(breadcrumb, index) => (

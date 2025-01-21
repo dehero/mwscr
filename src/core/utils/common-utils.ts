@@ -1,8 +1,8 @@
 import slugify from '@sindresorhus/slugify';
 import md5Hex from 'md5-hex';
 
-export function asArray<T>(value?: T | T[]): T[] {
-  return Array.isArray(value) ? value : typeof value !== 'undefined' ? [value] : [];
+export function asArray<T>(value: T | T[] | undefined | null): T[] {
+  return Array.isArray(value) ? value : typeof value !== 'undefined' && value != null ? [value] : [];
 }
 
 export async function arrayFromAsync<T>(
@@ -168,4 +168,8 @@ export function isObjectEqual(a: object, b: object): boolean {
 
 export function getRevisionHash(data: Uint8Array | string) {
   return md5Hex(data).slice(0, 8);
+}
+
+export function isObject(value: unknown): value is Record<string, unknown> {
+  return typeof value === 'object' && value !== null;
 }

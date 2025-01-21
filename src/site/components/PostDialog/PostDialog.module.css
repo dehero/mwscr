@@ -2,11 +2,7 @@
   display: flex;
   flex-flow: column nowrap;
   gap: 8px;
-}
-
-.submissionAlert {
-  margin: 0;
-  color: var(--color-text-light);
+  max-width: 360px;
 }
 
 .selectWrapper {
@@ -61,8 +57,9 @@
 }
 
 @media only screen and (min-width: 380px) {
-  .form {
+  .form.useColumnLayout {
     display: grid;
     grid-template-columns: minmax(180px, 360px) minmax(180px, 360px);
+    max-width: none;
   }
 }

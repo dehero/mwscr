@@ -64,6 +64,7 @@
     "@solid-primitives/resize-observer": "^2.0.25",
     "@solid-primitives/scheduled": "^1.4.3",
     "@solid-primitives/storage": "^3.5.0",
+    "@solid-primitives/upload": "^0.0.117",
     "@thisbeyond/solid-dnd": "^0.7.5",
     "basic-ftp": "^5.0.5",
     "clsx": "^2.1.0",

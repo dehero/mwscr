@@ -12,7 +12,8 @@ import {
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
 import { batch, For } from 'solid-js';
-import { mergePostContents, type Post } from '../../../core/entities/post.js';
+import type { PostContent } from '../../../core/entities/post.js';
+import { mergePostContents } from '../../../core/entities/post.js';
 import { asArray } from '../../../core/utils/common-utils.js';
 import { Frame } from '../Frame/Frame.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
@@ -44,7 +45,7 @@ const Item: Component<ItemProps> = (props) => {
   const sortable = createSortable(props.url);
   const [context] = useDragDropContext() ?? [];
   return (
-    <div ref={sortable} class={clsx(styles.item, sortable.isActiveDraggable && styles.dragged)}>
+    <div ref={sortable} class={clsx(styles.item, sortable.isActiveDraggable && styles.draggedItem)}>
       <ResourcePreview url={props.url} showTooltip={!context?.active.draggable} />
     </div>
   );
@@ -70,14 +71,19 @@ const List: Component<ListProps> = (props) => {
 };
 
 export interface PostContentEditorProps {
-  value: Pick<Post, 'content' | 'trash'>;
-  onChange: (value: Pick<Post, 'content' | 'trash'>) => void;
+  content: PostContent | undefined;
+  trash: PostContent | undefined;
+  onChange: (content: PostContent | undefined, trash: PostContent | undefined) => void;
 }
 
 export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
-  const containers = () => ({ content: asArray(props.value.content), trash: asArray(props.value.trash) });
+  const containers = () => ({ content: asArray(props.content), trash: asArray(props.trash) });
   const setContainerItems = (containerId: ContainerId, items: (items: string[]) => string[]) => {
-    props.onChange({ ...props.value, [containerId]: mergePostContents(items(containers()[containerId])) });
+    const changedContent = mergePostContents(items(containers()[containerId]));
+    props.onChange(
+      containerId === 'content' ? changedContent : props.content,
+      containerId === 'trash' ? changedContent : props.trash,
+    );
   };
 
   const getItemContainerId = (id: string | number): ContainerId | undefined => {
@@ -170,7 +176,7 @@ export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
     <DragDropProvider onDragOver={onDragOver} onDragEnd={onDragEnd} collisionDetector={closestContainerOrItem}>
       <DragDropSensors />
       <For each={containerIds}>{(key) => <List id={key} urls={containers()[key]} />}</For>
-      <DragOverlay>
+      <DragOverlay class={styles.dragOverlay}>
         {(draggable) => (
           <div class={styles.item}>
             <ResourcePreview url={draggable?.id.toString() || ''} />

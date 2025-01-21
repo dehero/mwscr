@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  max-width: 320px;
+}
+
+.text {
+  margin: 0;
+  color: var(--color-text-light);
+}
+
+.toolbar {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
+}
+
+.tableWrapper {
+  padding: 4px 6px;
+  min-height: 80px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.fallback {
+  color: var(--color-text-light);
+  align-self: center;
+}
+
+.submitVariant {
+  flex: 1;
+}

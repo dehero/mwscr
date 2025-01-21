@@ -7,6 +7,7 @@ import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../cor
 import { selectPostInfosResultToString } from '../../../core/entities/post-info.js';
 import type { SiteRouteMeta } from '../../../core/entities/site-route.js';
 import { dataManager } from '../../data-managers/manager.js';
+import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { Frame } from '../Frame/Frame.js';
@@ -29,6 +30,7 @@ export interface PostsPageSearchParams {
   search?: string;
   sort?: string;
   date?: string;
+  status?: string;
 }
 
 export interface PostsPageInfo extends SiteRouteMeta {
@@ -67,14 +69,16 @@ export const PostsPage = (): JSX.Element => {
     sortKey: parameters.sortKey(),
     sortDirection: parameters.sortDirection(),
     date: parameters.date(),
+    status: parameters.status(),
   });
 
-  const [selectedPostInfos] = createResource(selectParams, (selectParams) =>
-    dataManager.selectPostInfos(params().managerName, selectParams),
+  const [postInfos, { refetch }] = createResource(
+    selectParams,
+    (selectParams) => dataManager.selectPostInfos(params().managerName, selectParams),
+    { initialValue: data().lastPostInfos },
   );
 
-  const postInfos = () =>
-    selectedPostInfos.state === 'ready' ? selectedPostInfos() : selectedPostInfos.latest || data().lastPostInfos;
+  useLocalPatch(refetch);
 
   return (
     <Frame component="main" class={styles.container} ref={containerRef}>

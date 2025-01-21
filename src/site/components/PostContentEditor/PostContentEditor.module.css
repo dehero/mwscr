@@ -19,6 +19,10 @@
   user-select: none;
 }
 
-.dragged {
+.draggedItem {
   opacity: 0.5;
+}
+
+.dragOverlay {
+  z-index: 99999;
 }

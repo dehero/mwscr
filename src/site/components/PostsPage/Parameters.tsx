@@ -1,6 +1,7 @@
 import { createMediaQuery } from '@solid-primitives/media';
 import clsx from 'clsx';
 import { type Component, createMemo, createSignal, Match, Show, Switch } from 'solid-js';
+import { ListReaderItemStatus } from '../../../core/entities/list-manager.js';
 import type { LocationInfo } from '../../../core/entities/location-info.js';
 import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../core/entities/option.js';
@@ -12,7 +13,7 @@ import {
   postViolationDescriptors,
 } from '../../../core/entities/post.js';
 import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
-import { boolToString, stringToBool } from '../../../core/utils/common-utils.js';
+import { boolToString, capitalizeFirstLetter, stringToBool } from '../../../core/utils/common-utils.js';
 import type { PostsRouteParams } from '../../routes/posts-route.js';
 import { Button } from '../Button/Button.js';
 import { Checkbox } from '../Checkbox/Checkbox.js';
@@ -352,6 +353,28 @@ export const Parameters: Component<ParametersProps> = (props) => {
                       ]}
                       value={props.parameters.violation()}
                       onChange={props.parameters.setViolation}
+                      class={styles.select}
+                    />
+                  </div>
+                </Label>
+              </Show>
+
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('status')}>
+                <Label label="Local Status" vertical>
+                  <div class={styles.selectWrapper}>
+                    <Select
+                      name="status"
+                      options={[
+                        ALL_OPTION,
+                        ANY_OPTION,
+                        NONE_OPTION,
+                        ...ListReaderItemStatus.options.map((value) => ({
+                          label: capitalizeFirstLetter(value),
+                          value,
+                        })),
+                      ]}
+                      value={props.parameters.status()}
+                      onChange={props.parameters.setStatus}
                       class={styles.select}
                     />
                   </div>

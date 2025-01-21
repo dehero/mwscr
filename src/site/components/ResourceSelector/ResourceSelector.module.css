@@ -15,5 +15,5 @@
 
 .radio:checked + .preview {
   border-color: var(--color-text-selected);
-  border-image-source: url(../../images/frame-thin-select.png);
+  border-image-source: url(../../images/frame-thin-selected.png);
 }

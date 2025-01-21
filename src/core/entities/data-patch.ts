@@ -1,16 +1,19 @@
 import type { InferOutput } from 'valibot';
-import { intersect, object, optional, record } from 'valibot';
+import { object, partial } from 'valibot';
 import { getRevisionHash } from '../utils/common-utils.js';
-import { ListManagerPatch } from './list-manager.js';
-import { PostPatch } from './post.js';
-import { PostsManagerName } from './posts-manager.js';
+import { jsonDateReviver } from '../utils/date-utils.js';
+import { PostsManagerPatch } from './posts-manager.js';
 import { parseSchema } from './schema.js';
-import { UserPatch } from './user.js';
+import { UsersManagerPatch } from './users-manager.js';
 
-export const DataPatch = intersect([
-  record(PostsManagerName, ListManagerPatch(PostPatch)),
-  object({ users: optional(ListManagerPatch(UserPatch)) }),
-]);
+export const DataPatch = partial(
+  object({
+    posts: PostsManagerPatch,
+    inbox: PostsManagerPatch,
+    trash: PostsManagerPatch,
+    users: UsersManagerPatch,
+  }),
+);
 
 export type DataPatch = InferOutput<typeof DataPatch>;
 
@@ -33,5 +36,5 @@ export function dataPatchToString(patch: DataPatch, minify?: boolean): string {
 }
 
 export function stringToDataPatch(str: string): DataPatch {
-  return parseSchema(DataPatch, JSON.parse(str));
+  return parseSchema(DataPatch, JSON.parse(str, jsonDateReviver));
 }

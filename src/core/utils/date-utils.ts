@@ -1,5 +1,6 @@
 import type { DateRange } from './common-types.js';
 
+const DATE_REVIVE_REGEX = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/;
 const DATE_EXTRACT_REGEX_YYYYMMDD = /^(.*)(2\d{3})[^\d]?([0-1]\d)[^\d]?([0-3]\d)(.*)$/;
 const DATE_EXTRACT_REGEX_DDMMYYYY = /^(.*)([0-3]\d)[^\d]?([0-1]\d)[^\d]?(2\d{3})(.*)$/;
 
@@ -161,4 +162,12 @@ export function stringToDateRange(value: string): DateRange | undefined {
     .filter(isValidDate);
 
   return parts[0] ? [parts[0], parts[1] || undefined] : undefined;
+}
+
+export function jsonDateReviver(_key: string, value: unknown) {
+  if (typeof value === 'string' && DATE_REVIVE_REGEX.test(value)) {
+    return new Date(value);
+  }
+
+  return value;
 }

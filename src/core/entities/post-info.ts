@@ -1,6 +1,7 @@
 import type { DateRange, EntitySelection, SortDirection } from '../utils/common-types.js';
 import { asArray, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
 import { dateToString, formatDate, isDateInRange, isValidDate } from '../utils/date-utils.js';
+import type { ListReaderItemStatus } from './list-manager.js';
 import { isNestedLocation } from './location.js';
 import type { Option } from './option.js';
 import { ANY_OPTION, NONE_OPTION } from './option.js';
@@ -26,7 +27,7 @@ import {
   postTypeDescriptors,
   postViolationDescriptors,
 } from './post.js';
-import type { PostsManagerName } from './posts-manager.js';
+import type { PostsManager, PostsManagerName } from './posts-manager.js';
 import { isPublishablePost, isTrashItem } from './posts-manager.js';
 import { createUserOption } from './user.js';
 import type { UsersManager } from './users-manager.js';
@@ -46,6 +47,7 @@ export interface PostInfo {
   engine?: PostEngine;
   addon?: PostAddon;
   requesterOption?: Option;
+  // TODO: don't include request.user, use requesterOption
   request?: PostRequest;
   mark?: PostMark;
   violation?: PostViolation;
@@ -58,6 +60,7 @@ export interface PostInfo {
   engagement: number;
   rating: number;
   managerName: PostsManagerName;
+  status?: ListReaderItemStatus;
 }
 
 export type PostInfoComparator = (a: PostInfo, b: PostInfo) => number;
@@ -92,6 +95,7 @@ export interface SelectPostInfosParams {
   sortKey?: SelectPostInfosSortKey;
   sortDirection?: SortDirection;
   date?: DateRange;
+  status?: ListReaderItemStatus | typeof ANY_OPTION.value | typeof NONE_OPTION.value;
 }
 
 export type PostInfoSelection = EntitySelection<PostInfo, SelectPostInfosParams>;
@@ -99,12 +103,14 @@ export type PostInfoSelection = EntitySelection<PostInfo, SelectPostInfosParams>
 export async function createPostInfo(
   entry: PostEntry,
   usersManager: UsersManager,
-  managerName: PostsManagerName,
+  manager: PostsManager,
 ): Promise<PostInfo> {
   const [id, post, refId] = entry;
   const errors: string[] = [];
 
-  if (!isTrashItem(post)) {
+  const status = await manager.getItemLocalStatus(id);
+
+  if (status !== 'removed' && !isTrashItem(post)) {
     isPublishablePost(post, errors);
   }
 
@@ -133,7 +139,8 @@ export async function createPostInfo(
     followers: getPostEntryFollowers(entry),
     engagement: Number(getPostEntryEngagement(entry).toFixed(2)),
     rating: Number(getPostRating(post).toFixed(2)),
-    managerName,
+    managerName: manager.name,
+    status,
   });
 }
 
@@ -216,6 +223,10 @@ export const selectPostInfos = (
         (typeof params.date === 'undefined' ||
           (isValidDate(date) ? isDateInRange(date, params.date, 'date') : false)) &&
         (typeof params.original === 'undefined' || params.original !== Boolean(info.refId)) &&
+        (typeof params.status === 'undefined' ||
+          (params.status === ANY_OPTION.value && info.status) ||
+          (params.status === NONE_OPTION.value && !info.status) ||
+          info.status === params.status) &&
         (typeof params.type === 'undefined' || info.type === params.type) &&
         (typeof params.tag === 'undefined' || info.tags?.includes(params.tag)) &&
         (typeof params.author === 'undefined' || info.authorOptions.some((option) => option.value === params.author)) &&
@@ -242,6 +253,16 @@ export const selectPostInfos = (
 export function selectPostInfosResultToString(count: number, params: SelectPostInfosParams) {
   const result: string[] = [count.toString()];
   const sortOption = selectPostInfosSortOptions.find((comparator) => comparator.value === params.sortKey);
+
+  if (params.status) {
+    if (params.status === ANY_OPTION.value) {
+      result.push('with any local status');
+    } else if (params.status === NONE_OPTION.value) {
+      result.push('with no local status');
+    } else {
+      result.push(`locally ${params.status}`);
+    }
+  }
 
   if (typeof params.original !== 'undefined') {
     result.push(params.original ? 'original' : 'reposted');
