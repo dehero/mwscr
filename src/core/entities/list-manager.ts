@@ -1,14 +1,18 @@
 import type { BaseIssue, BaseSchema, InferOutput } from 'valibot';
-import { null as nullSchema, record, string, union } from 'valibot';
-import { arrayFromAsync, listItems } from '../utils/common-utils.js';
+import { null as nullSchema, picklist, record, string, union } from 'valibot';
+import { arrayFromAsync, isObject, listItems } from '../utils/common-utils.js';
 
 export const LIST_READER_CHUNK_NAME_DEFAULT = 'default';
+
+export const ListReaderItemStatus = picklist(['added', 'changed', 'removed']);
 
 export type ListReaderEntry<TItem> = [id: string, item: TItem, refId?: string];
 
 export type ListReaderChunk<TItem> = Map<string, TItem | string>;
 
 export type ListReaderStats = ReadonlyMap<string, number>;
+
+export type ListReaderItemStatus = InferOutput<typeof ListReaderItemStatus>;
 
 export abstract class ListReader<TItem> {
   abstract readonly name: string;
@@ -25,7 +29,7 @@ export abstract class ListReader<TItem> {
     return this.cache[key] as T;
   }
 
-  clearCache() {
+  protected clearCache() {
     this.cache = {};
   }
 
@@ -165,12 +169,59 @@ export const ListManagerPatch = <TItemPatch>(ItemPatch: BaseSchema<unknown, TIte
 export type ListManagerPatch<TItemPatch> = InferOutput<ReturnType<typeof ListManagerPatch<TItemPatch>>>;
 
 export abstract class ListManager<TItem, TItemPatch> extends ListReader<TItem> {
-  isItemSaved(_id: string): boolean {
-    return true;
+  protected localPatch = new Map<string, TItemPatch | string | null>();
+
+  getLocalPatch(): ListManagerPatch<TItemPatch> | undefined {
+    return this.localPatch.size > 0 ? Object.fromEntries(this.localPatch) : undefined;
   }
 
-  async applyPatch(patch: ListManagerPatch<TItemPatch>) {
+  get localPatchSize() {
+    return this.localPatch.size;
+  }
+
+  mergeLocalPatch(patch: Partial<ListManagerPatch<TItemPatch>>) {
     for (const [id, itemPatch] of Object.entries(patch)) {
+      const item = this.localPatch.get(id);
+      if (item && isObject(item) && isObject(itemPatch)) {
+        this.localPatch.set(id, { ...item, ...itemPatch });
+      } else if (typeof itemPatch === 'undefined') {
+        this.localPatch.delete(id);
+      } else {
+        this.localPatch.set(id, itemPatch);
+      }
+    }
+  }
+
+  clearLocalPatch() {
+    this.localPatch.clear();
+  }
+
+  resetLocallyPatchedItem(id: string) {
+    this.mergeLocalPatch({ [id]: undefined });
+  }
+
+  async getItemLocalStatus(id: string): Promise<ListReaderItemStatus | undefined> {
+    const entry = await this.getEntry(id);
+    const targetId = entry[2] || id;
+
+    const patch = this.getLocalPatch();
+    if (typeof patch?.[targetId] === 'undefined') {
+      return undefined;
+    }
+
+    if (patch[targetId] === null) {
+      return 'removed';
+    }
+
+    if (!entry[1]) {
+      return 'added';
+    }
+
+    return 'changed';
+  }
+
+  async applyLocalPatch() {
+    for (const [id, itemPatch] of this.localPatch) {
       const patchedItem = await this.getItem(id);
       if (patchedItem) {
         if (itemPatch === null) {
@@ -186,6 +237,18 @@ export abstract class ListManager<TItem, TItemPatch> extends ListReader<TItem> {
         // await this.addItem(itemPatch, id);
       }
     }
+  }
+
+  async getChunkNames(): Promise<string[]> {
+    const result = await super.getChunkNames();
+
+    if (this.localPatchSize === 0) {
+      return result;
+    }
+
+    const patchChunkNames = [...this.localPatch.keys()].map((id) => this.getItemChunkName(id));
+
+    return [...new Set([...result, ...patchChunkNames])];
   }
 
   async addItem(item: TItem | string, id: string) {
@@ -261,9 +324,39 @@ export abstract class ListManager<TItem, TItemPatch> extends ListReader<TItem> {
 
   protected abstract isItem(item: unknown, errors?: string[]): item is TItem;
 
-  protected abstract patchItemWith(item: TItem, patch: TItemPatch): void;
+  protected abstract patchItemWith(item: Readonly<TItem>, patch: Readonly<TItemPatch>): TItem;
 
   protected abstract mergeItemWith(item: TItem, withItem: TItem): void;
+
+  protected async loadChunk(chunkName: string) {
+    let chunk = await super.loadChunk(chunkName);
+    const patchEntries = [...this.localPatch].filter(([id]) => this.getItemChunkName(id) === chunkName);
+
+    if (patchEntries.length > 0) {
+      chunk = new Map(chunk);
+
+      for (const [id, patch] of patchEntries) {
+        if (patch === null) {
+          // Do nothing, this item will be deleted when patch applies, don't delete it now
+        } else if (typeof patch === 'string') {
+          chunk.set(id, patch);
+        } else {
+          const item = chunk.get(id);
+
+          if (typeof item === 'string') {
+            // Do nothing, cannot patch reference item
+          } else if (typeof item === 'undefined') {
+            // TODO: validate item
+            chunk.set(id, patch as TItem);
+          } else {
+            chunk.set(id, this.patchItemWith(item, patch));
+          }
+        }
+      }
+    }
+
+    return chunk;
+  }
 
   protected abstract saveChunk(chunkName: string): Promise<void>;
 }

@@ -15,8 +15,9 @@ const CURSOR_OFFSET_Y = 32;
 const CURSOR_SIZE = 16;
 
 export interface TooltipAction {
-  url: string;
   label: string;
+  url?: string;
+  onClick?: () => void;
 }
 
 export interface TooltipProps {
@@ -132,6 +133,7 @@ export const Tooltip: Component<TooltipProps> = (props) => {
                   <Button
                     href={action.url}
                     onClick={() => {
+                      action.onClick?.();
                       setContextMenuPosition(null);
                     }}
                   >
