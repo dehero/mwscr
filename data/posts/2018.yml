@@ -1485,7 +1485,7 @@
     - service: vk
       id: 1668
       published: 2024-08-05-18-20-39
-      updated: 2025-01-14-13-13-58
+      updated: 2025-01-21-13-14-56
       followers: 926
       likes: 43
       views: 315
@@ -1493,10 +1493,10 @@
     - service: tg
       id: 491
       published: 2024-08-05-18-20-53
-      updated: 2025-01-14-13-13-57
+      updated: 2025-01-21-13-14-56
       followers: 490
       likes: 75
-      views: 682
+      views: 684
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
@@ -2243,7 +2243,7 @@
     - service: vk
       id: 1698
       published: 2024-08-19-18-19-41
-      updated: 2025-01-14-13-13-56
+      updated: 2025-01-21-13-14-54
       followers: 934
       likes: 32
       views: 298
@@ -2251,10 +2251,10 @@
     - service: tg
       id: 506
       published: 2024-08-19-18-19-47
-      updated: 2025-01-14-13-13-55
+      updated: 2025-01-21-13-14-54
       followers: 534
       likes: 66
-      views: 603
+      views: 604
 2018-03-04-monsters:
   title: Monsters
   titleRu: Монстры
@@ -2349,25 +2349,25 @@
       id: DFBEXoPSXmc
       mediaId: '17980418576651269'
       published: 2025-01-19-18-09-10
-      updated: 2025-01-21-12-13-35
+      updated: 2025-01-21-13-14-52
       followers: 1528
       likes: 69
-      views: 225
+      views: 227
     - service: vk
       id: 2072
       published: 2025-01-19-18-09-17
-      updated: 2025-01-21-12-13-36
+      updated: 2025-01-21-13-14-53
       followers: 1054
       likes: 30
-      views: 202
+      views: 203
       reposts: 1
     - service: tg
       id: 672
       published: 2025-01-19-18-09-23
-      updated: 2025-01-21-12-13-36
+      updated: 2025-01-21-13-14-53
       followers: 655
       likes: 56
-      views: 217
+      views: 220
       comments: !c Cw+AkZPLQnlH/DsZgACvVmFpbCBBc3Rvcid6a2l5o3dvdwM=
 2018-03-07-in-the-yard-of-wolverine-hall:
   title: In the Yard of Wolverine Hall
@@ -6528,7 +6528,7 @@
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
-      updated: 2025-01-14-13-13-59
+      updated: 2025-01-21-13-14-57
       followers: 924
       likes: 34
       views: 268
@@ -6536,7 +6536,7 @@
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
-      updated: 2025-01-14-13-13-58
+      updated: 2025-01-21-13-14-56
       followers: 414
       likes: 59
       views: 673
