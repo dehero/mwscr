@@ -4,7 +4,37 @@
 
 # Posted in 2025
 
-`20 items`
+`21 items`
+
+## <span id="2025-01-21-the-symmetry-of-vivec">The Symmetry of Vivec</span>
+
+`RU` Симметрия Вивека
+
+<a href="https://instagram.com/p/BhUdSr4jFec/" title="2016-12-03-st-delyn-vs-st-olms"><img alt="store:/shots/2016-12-03-st-delyn-vs-st-olms.png" src="../../assets/previews/shots/2016-12-03-st-delyn-vs-st-olms.avif" /></a>
+<a href="https://instagram.com/p/BhUdSr4jFec/" title="2017-04-26-divine-pentagon"><img alt="store:/shots/2017-04-26-divine-pentagon.png" src="../../assets/previews/shots/2017-04-26-divine-pentagon.avif" /></a>
+<a href="https://instagram.com/p/BhUdSr4jFec/" title="2017-04-30-palace-of-vivec"><img alt="store:/shots/2017-04-30-palace-of-vivec.png" src="../../assets/previews/shots/2017-04-30-palace-of-vivec.avif" /></a>
+<a href="https://instagram.com/p/BhUdSr4jFec/" title="2017-05-14-entrance-to-vivec"><img alt="store:/shots/2017-05-14-entrance-to-vivec.png" src="../../assets/previews/shots/2017-05-14-entrance-to-vivec.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Vivec` `🚀 OpenMW` `symmetry`
+
+```
+2025-01-21-the-symmetry-of-vivec
+```
+
+> `2018-04-08-the-symmetry-of-vivec`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BhUdSr4jFec/)       | 2018-04-08 |       |   121 |       314 |  38.54 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_681)  | 2018-04-08 |   207 |    21 |       150 |     14 |
+| [`ig`](https://instagram.com/p/DFGONk_zuDM/)       | 2025-01-21 |       |       |      1529 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2075) | 2025-01-21 |       |       |      1054 |        |
+| [`tg`](https://t.me/mwscr/674,675,676,677)         | 2025-01-21 |       |       |       654 |        |
+|                                                    |            |       |       |      3237 |  26.27 |
 
 ## <span id="2025-01-20-telvanni-vault-ledger">Telvanni Vault Ledger</span>
 
@@ -24,10 +54,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFDsz7MJOTU/)       | 2025-01-20 |   342 |    79 |      1529 |   5.17 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2073) | 2025-01-20 |   209 |    27 |      1054 |   2.75 |
+| [`ig`](https://instagram.com/p/DFDsz7MJOTU/)       | 2025-01-20 |   348 |    81 |      1529 |    5.3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2073) | 2025-01-20 |   213 |    27 |      1054 |   2.75 |
 | [`tg`](https://t.me/mwscr/673)                     | 2025-01-20 |   172 |    47 |       654 |   7.19 |
-|                                                    |            |   723 |   153 |      3237 |   5.03 |
+|                                                    |            |   733 |   155 |      3237 |   5.08 |
 
 #### Comments
 
@@ -88,10 +118,10 @@
 | [`ig`](https://instagram.com/p/B37bQmehLWi/)       | 2019-10-22 |       |   204 |       838 |  24.34 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1205) | 2019-10-22 |  1326 |    61 |       371 |  16.71 |
 | [`tg`](https://t.me/mwscr/202)                     | 2019-10-22 |  1086 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE-fki3RAq5/)       | 2025-01-18 |   407 |    91 |      1526 |   5.96 |
+| [`ig`](https://instagram.com/p/DE-fki3RAq5/)       | 2025-01-18 |   415 |    93 |      1526 |   6.09 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2070) | 2025-01-18 |   204 |    33 |      1054 |   3.13 |
-| [`tg`](https://t.me/mwscr/671)                     | 2025-01-18 |   269 |    58 |       655 |   8.85 |
-|                                                    |            |   880 |   182 |      3235 |   11.8 |
+| [`tg`](https://t.me/mwscr/671)                     | 2025-01-18 |   299 |    61 |       655 |   9.31 |
+|                                                    |            |   918 |   187 |      3235 |  11.92 |
 
 #### Comments
 
@@ -128,10 +158,10 @@
 | [`ig`](https://instagram.com/p/Bq4kQSlB62U/)       | 2018-12-02 |       |   114 |       484 |  23.55 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1086) | 2018-12-02 |  1040 |    38 |       298 |  12.75 |
 | [`tg`](https://t.me/mwscr/133)                     | 2018-12-02 |   432 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   302 |    84 |      1525 |   5.51 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   202 |    30 |      1053 |   2.94 |
-| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   230 |    59 |       655 |   9.01 |
-|                                                    |            |   734 |   173 |      3233 |  10.75 |
+| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   329 |    85 |      1525 |   5.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   217 |    31 |      1053 |   3.04 |
+| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   262 |    60 |       655 |   9.16 |
+|                                                    |            |   808 |   176 |      3233 |  10.82 |
 
 ## <span id="2025-01-16-fields-of-kummu-in-the-sunset-light">Fields of Kummu in the Sunset Light</span>
 
@@ -156,9 +186,9 @@
 | [`ig`](https://instagram.com/p/BRfgcN7DM6L/)       | 2017-03-11 |       |    39 |       105 |  37.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_192)  | 2017-03-11 |   144 |     8 |        45 |      9 |
 | [`ig`](https://instagram.com/p/DE5WIOBTqaO/)       | 2025-01-16 |   516 |   133 |      1522 |   8.74 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   259 |    47 |      1053 |   4.56 |
-| [`tg`](https://t.me/mwscr/669)                     | 2025-01-16 |   276 |    65 |       655 |   9.92 |
-|                                                    |            |  1051 |   245 |      3230 |  13.87 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   272 |    48 |      1053 |   4.65 |
+| [`tg`](https://t.me/mwscr/669)                     | 2025-01-16 |   297 |    65 |       655 |   9.92 |
+|                                                    |            |  1085 |   246 |      3230 |  13.89 |
 
 #### Comments
 
