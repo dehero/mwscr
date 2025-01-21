@@ -172,18 +172,18 @@
     - service: vk
       id: 1876
       published: 2024-11-04-18-10-22
-      updated: 2025-01-14-03-08-14
+      updated: 2025-01-21-03-09-44
       followers: 1003
       likes: 30
-      views: 297
+      views: 298
       reposts: 1
     - service: tg
       id: 585
       published: 2024-11-04-18-10-32
-      updated: 2025-01-14-03-08-12
+      updated: 2025-01-21-03-09-43
       followers: 565
       likes: 57
-      views: 603
+      views: 608
 2018-01-07-vistha-kai-warden-of-the-corprusarium:
   title: Vistha-Kai, Warden of the Corprusarium
   titleRu: Виста-Кай, смотритель Корпрусариума
@@ -2349,14 +2349,14 @@
       id: DFBEXoPSXmc
       mediaId: '17980418576651269'
       published: 2025-01-19-18-09-10
-      updated: 2025-01-21-02-06-48
+      updated: 2025-01-21-03-09-41
       followers: 1528
-      likes: 67
-      views: 217
+      likes: 68
+      views: 218
     - service: vk
       id: 2072
       published: 2025-01-19-18-09-17
-      updated: 2025-01-21-02-06-49
+      updated: 2025-01-21-03-09-39
       followers: 1054
       likes: 30
       views: 191
@@ -2364,10 +2364,10 @@
     - service: tg
       id: 672
       published: 2025-01-19-18-09-23
-      updated: 2025-01-21-02-06-49
+      updated: 2025-01-21-03-09-40
       followers: 655
       likes: 56
-      views: 206
+      views: 209
       comments: !c Cw+AkZPLQnlH/DsZgACvVmFpbCBBc3Rvcid6a2l5o3dvdwM=
 2018-03-07-in-the-yard-of-wolverine-hall:
   title: In the Yard of Wolverine Hall
