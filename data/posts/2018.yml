@@ -3606,18 +3606,18 @@
       id: DFGONk_zuDM
       mediaId: '18039249929460023'
       published: 2025-01-21-18-11-24
-      updated: 2025-01-21-21-03-03
+      updated: 2025-01-21-22-07-00
       followers: 1529
-      likes: 51
-      views: 129
+      likes: 61
+      views: 152
     - service: vk
       id: 2075
       published: 2025-01-21-18-11-42
-      updated: 2025-01-21-21-03-03
+      updated: 2025-01-21-22-07-01
       followers: 1054
-      likes: 15
-      views: 93
-      reposts: 1
+      likes: 17
+      views: 102
+      reposts: 2
     - service: tg
       id:
         - 674
@@ -3625,10 +3625,10 @@
         - 676
         - 677
       published: 2025-01-21-18-12-00
-      updated: 2025-01-21-21-03-03
+      updated: 2025-01-21-22-07-01
       followers: 654
       likes: 42
-      views: 119
+      views: 123
 2018-04-09-empty-arena:
   title: Empty Arena
   titleRu: Пустая Арена
