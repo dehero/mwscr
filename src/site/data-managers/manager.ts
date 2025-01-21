@@ -1,14 +1,25 @@
+import type { DataManagerArgs } from '../../core/entities/data-manager.js';
 import { DataManager } from '../../core/entities/data-manager.js';
 import type { LocationInfo } from '../../core/entities/location-info.js';
 import type { PostInfo } from '../../core/entities/post-info.js';
 import type { PostsManagerName } from '../../core/entities/posts-manager.js';
 import type { UserInfo } from '../../core/entities/user-info.js';
+import { jsonDateReviver } from '../../core/utils/date-utils.js';
 import { locations } from './locations.js';
-import type { SitePostsManager } from './posts.js';
 import { postsManagers } from './posts.js';
 import { users } from './users.js';
 
-class SiteDataManager extends DataManager<SitePostsManager> {
+class SiteDataManager extends DataManager {
+  constructor(args: DataManagerArgs) {
+    super(args);
+
+    if (typeof window !== 'undefined') {
+      window.addEventListener('storage', () => {
+        this.clearCache();
+      });
+    }
+  }
+
   async getAllLocationInfos(): Promise<LocationInfo[]> {
     return this.createCache(this.getAllLocationInfos.name, async () => {
       const filename = '/data/location-infos.json';
@@ -28,11 +39,16 @@ class SiteDataManager extends DataManager<SitePostsManager> {
   }
 
   async getAllPostInfos(managerName: PostsManagerName): Promise<PostInfo[]> {
+    const manager = this.findPostsManager(managerName);
+    if (manager && manager.localPatchSize > 0) {
+      return super.getAllPostInfos(managerName);
+    }
+
     return this.createCache(`${this.getAllPostInfos.name}.${managerName}`, async () => {
       const filename = `/data/${managerName}/infos.json`;
 
       try {
-        const data = await fetch(filename).then((r) => r.json());
+        const data = JSON.parse(await fetch(filename).then((r) => r.text()), jsonDateReviver) as unknown;
 
         if (!Array.isArray(data)) {
           throw new TypeError(`File "${filename}" expected to be the array of post infos`);

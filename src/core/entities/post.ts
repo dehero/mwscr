@@ -234,9 +234,9 @@ export function getPostRating(post: Post) {
   return ratings.reduce((acc, number) => acc + number, 0) / ratings.length;
 }
 
-export function getAllPostCommentsSorted(post: Post): PostComment[] {
+export function getAllPostCommentsSorted(publications: Publication[] | undefined): PostComment[] {
   return (
-    post.posts
+    publications
       ?.flatMap(
         (publication) =>
           publication.comments?.map((comment) => ({
@@ -449,20 +449,21 @@ export function getPostDrawer(post: Post) {
   return post.type === 'redrawing' ? asArray(post.author)[0] : undefined;
 }
 
-export function patchPost(post: Post, patch: PostPatch) {
+export function patchPost(post: Readonly<Post>, patch: Readonly<PostPatch>) {
   let field: keyof typeof PostPatch.entries;
+  const result: Post = { ...post };
 
   for (field in PostPatch.entries) {
     if (Object.hasOwn(patch, field)) {
       if (patch[field] === null) {
-        post[field] = undefined as never;
+        result[field] = undefined as never;
       } else {
-        post[field] = patch[field] as never;
+        result[field] = patch[field] as never;
       }
     }
   }
 
-  return post;
+  return result;
 }
 
 export function mergePostWith(post: Post, withPost: Post) {

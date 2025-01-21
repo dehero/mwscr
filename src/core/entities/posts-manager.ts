@@ -3,8 +3,7 @@ import { intersect, literal, object, picklist, union } from 'valibot';
 import { asArray, getRevisionHash, textToId } from '../utils/common-utils.js';
 import { dateToString } from '../utils/date-utils.js';
 import type { ListReaderStats } from './list-manager.js';
-import { ListManager } from './list-manager.js';
-import type { PostPatch } from './post.js';
+import { ListManager, ListManagerPatch } from './list-manager.js';
 import {
   getPostDrawer,
   getPostEntryEngagement,
@@ -20,6 +19,7 @@ import {
   PostAuthor,
   PostContent,
   postMarkDescriptors,
+  PostPatch,
   PostRequest,
   PostTitle,
   PostTitleRu,
@@ -64,6 +64,9 @@ export type PublishablePost = InferOutput<typeof PublishablePost>;
 
 export const PostsManagerName = picklist(['posts', 'inbox', 'trash']);
 export type PostsManagerName = InferOutput<typeof PostsManagerName>;
+
+export const PostsManagerPatch = ListManagerPatch(PostPatch);
+export type PostsManagerPatch = InferOutput<typeof PostsManagerPatch>;
 
 export interface PostsManagerDescriptor {
   title: string;
@@ -146,7 +149,15 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
 
   protected mergeItemWith = mergePostWith;
 
-  protected patchItemWith = patchPost;
+  protected patchItemWith(item: Readonly<TPost>, patch: Readonly<PostPatch>) {
+    const result = patchPost(item, patch);
+
+    if (this.checkPost(result)) {
+      return result;
+    }
+
+    return item;
+  }
 
   get descriptor(): PostsManagerDescriptor {
     return postsManagerDescriptors[this.name];

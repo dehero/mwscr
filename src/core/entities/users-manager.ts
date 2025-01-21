@@ -1,7 +1,10 @@
 import { textToId } from '../utils/common-utils.js';
-import { ListManager } from './list-manager.js';
-import type { User, UserPatch } from './user.js';
-import { isUser, isUserEqual, mergeUserWith, patchUser } from './user.js';
+import { ListManager, ListManagerPatch } from './list-manager.js';
+import type { User } from './user.js';
+import { isUser, isUserEqual, mergeUserWith, patchUser, UserPatch } from './user.js';
+
+export const UsersManagerPatch = ListManagerPatch(UserPatch);
+export type UsersManagerPatch = ListManagerPatch<UserPatch>;
 
 export abstract class UsersManager extends ListManager<User, UserPatch> {
   readonly name = 'users';

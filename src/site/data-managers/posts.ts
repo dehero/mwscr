@@ -1,4 +1,5 @@
-import type { Post } from '../../core/entities/post.js';
+import type { ListManagerPatch } from '../../core/entities/list-manager.js';
+import type { Post, PostPatch } from '../../core/entities/post.js';
 import type { InboxItem, PostsManagerName, PublishablePost, TrashItem } from '../../core/entities/posts-manager.js';
 import {
   getProposedPostChunkName,
@@ -7,7 +8,12 @@ import {
   isPublishablePost,
   isTrashOrInboxItem,
   PostsManager,
+  PostsManagerPatch,
 } from '../../core/entities/posts-manager.js';
+import { safeParseSchema } from '../../core/entities/schema.js';
+import { isObject } from '../../core/utils/common-utils.js';
+import { jsonDateReviver } from '../../core/utils/date-utils.js';
+import { setStorageItemWithEvent } from '../utils/storage-utils.js';
 
 interface SitePostsManagerProps<TPost extends Post> {
   name: PostsManagerName;
@@ -25,21 +31,60 @@ export class SitePostsManager<TPost extends Post = Post> extends PostsManager<TP
     super();
     this.name = name;
     this.checkPost = checkPost;
-
     this.getItemChunkName = getItemChunkName;
+
+    if (typeof window !== 'undefined') {
+      this.readLocalStorage();
+      window.addEventListener('storage', () => {
+        this.clearCache();
+      });
+    }
   }
 
-  addItem = async (post: string | Post, id: string | undefined) => {
-    console.log('addPost', id, post);
-  };
+  readLocalStorage() {
+    const data = localStorage.getItem(`${this.name}.patch`);
+    if (!data) {
+      return;
+    }
 
-  removeItem = async (id: string) => {
-    console.log('removePost', id);
-  };
+    const patch = safeParseSchema(PostsManagerPatch, JSON.parse(data, jsonDateReviver));
+    if (patch) {
+      this.mergeLocalPatch(patch);
+    }
+  }
 
-  updateItem = async (id: string) => {
-    console.log('updatePost', id);
-  };
+  updateLocalStorage() {
+    const localPatch = this.getLocalPatch();
+    setStorageItemWithEvent(localStorage, `${this.name}.patch`, localPatch ? JSON.stringify(localPatch) : null);
+  }
+
+  mergeLocalPatch(patch: Partial<ListManagerPatch<PostPatch>>) {
+    super.mergeLocalPatch(patch);
+    this.updateLocalStorage();
+  }
+
+  clearLocalPatch() {
+    super.clearLocalPatch();
+    this.updateLocalStorage();
+  }
+
+  async addItem(post: string | Post, id: string) {
+    const [, validPost] = this.validatePost([id, post]);
+
+    this.mergeLocalPatch({ [id]: validPost });
+  }
+
+  async removeItem(id: string) {
+    this.mergeLocalPatch({ [id]: null });
+  }
+
+  async updateItem(id: string) {
+    const item = await this.getItem(id);
+    if (!item) {
+      throw new Error(`Item "${id}" not found when trying to update.`);
+    }
+    this.mergeLocalPatch({ [id]: item });
+  }
 
   async loadChunkNames() {
     const index = (await fetch('/data/index.json').then((r) => r.json())) as string[];
@@ -57,25 +102,20 @@ export class SitePostsManager<TPost extends Post = Post> extends PostsManager<TP
     }
 
     try {
-      const data = JSON.parse(await fetch(filename).then((r) => r.text()), (_, value) => {
-        if (typeof value === 'string' && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/.test(value)) {
-          return new Date(value);
-        }
-        return value;
-      }) as unknown;
+      const data = JSON.parse(await fetch(filename).then((r) => r.text()), jsonDateReviver) as unknown;
 
-      if (typeof data !== 'object' || data === null) {
+      if (!isObject(data)) {
         throw new TypeError(`File "${filename}" expected to be the map of posts`);
       }
 
-      return [...Object.entries(data)].sort(([id1], [id2]) => id1.localeCompare(id2));
+      return [...Object.entries(data as object)].sort(([id1], [id2]) => id1.localeCompare(id2));
     } catch (error) {
       throw new Error(`Failed to load chunk "${chunkName}": ${error}`);
     }
   }
 
   protected async saveChunk(chunkName: string) {
-    console.log('Saving chunk', chunkName);
+    throw new Error(`Cannot save chunk ${chunkName} on site.`);
   }
 }
 

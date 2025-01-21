@@ -14,14 +14,14 @@ import type { SelectUserInfosParams, UserInfo } from './user-info.js';
 import { createUserInfo, selectUserInfos } from './user-info.js';
 import type { UsersManager } from './users-manager.js';
 
-export interface DataManagerArgs<TPostsManager extends PostsManager> {
-  postsManagers: TPostsManager[];
+export interface DataManagerArgs {
+  postsManagers: PostsManager[];
   locations: LocationsReader;
   users: UsersManager;
 }
 
-export class DataManager<TPostsManager extends PostsManager = PostsManager> {
-  readonly postsManagers: TPostsManager[];
+export class DataManager {
+  readonly postsManagers: PostsManager[];
   readonly locations: LocationsReader;
   readonly users: UsersManager;
 
@@ -36,27 +36,57 @@ export class DataManager<TPostsManager extends PostsManager = PostsManager> {
 
   protected clearCache() {
     this.cache = {};
-    this.postsManagers.forEach((manager) => manager.clearCache());
-    this.locations.clearCache();
-    this.users.clearCache();
   }
 
-  constructor(args: DataManagerArgs<TPostsManager>) {
+  constructor(args: DataManagerArgs) {
     this.postsManagers = args.postsManagers;
     this.locations = args.locations;
     this.users = args.users;
   }
 
-  async applyPatch(patch: DataPatch) {
+  getLocalPatch(): DataPatch {
+    const patch: DataPatch = {};
+
+    for (const manager of this.postsManagers) {
+      const managerPatch = manager.getLocalPatch();
+      patch[manager.name] = managerPatch;
+    }
+
+    patch.users = this.users.getLocalPatch();
+
+    return patch;
+  }
+
+  mergeLocalPatch(patch: DataPatch) {
     for (const manager of this.postsManagers) {
       const managerPatch = patch[manager.name];
       if (managerPatch) {
-        await manager.applyPatch(managerPatch);
+        manager.mergeLocalPatch(managerPatch);
       }
     }
     if (patch.users) {
-      this.users.applyPatch(patch.users);
+      this.users.mergeLocalPatch(patch.users);
     }
+  }
+
+  get localPatchSize() {
+    return (
+      this.postsManagers.reduce((acc, postManager) => acc + postManager.localPatchSize, 0) + this.users.localPatchSize
+    );
+  }
+
+  clearLocalPatch() {
+    for (const manager of this.postsManagers) {
+      manager.clearLocalPatch();
+    }
+    this.users.clearLocalPatch();
+  }
+
+  async applyLocalPatch() {
+    for (const manager of this.postsManagers) {
+      await manager.applyLocalPatch();
+    }
+    await this.users.applyLocalPatch();
   }
 
   async findWorldMapLocationInfo(location: PostLocation): Promise<LocationInfo | undefined> {
@@ -82,7 +112,7 @@ export class DataManager<TPostsManager extends PostsManager = PostsManager> {
     return undefined;
   }
 
-  findPostsManager(managerName: string): TPostsManager | undefined {
+  findPostsManager(managerName: string): PostsManager | undefined {
     return this.postsManagers.find((manager) => manager.name === managerName);
   }
 
@@ -97,7 +127,7 @@ export class DataManager<TPostsManager extends PostsManager = PostsManager> {
         comparePostEntriesByDate('desc'),
       );
 
-      return await Promise.all(entries.map((entry) => createPostInfo(entry, this.users, manager.name)));
+      return await Promise.all(entries.map((entry) => createPostInfo(entry, this.users, manager)));
     });
   }
 
@@ -142,6 +172,10 @@ export class DataManager<TPostsManager extends PostsManager = PostsManager> {
 
   async getLocationInfo(id: string) {
     return (await this.getAllLocationInfos()).find((info) => info.title === id);
+  }
+
+  async getPostInfo(managerName: PostsManagerName, id: string) {
+    return (await this.getAllPostInfos(managerName)).find((info) => info.id === id);
   }
 
   async getUserInfos(id: string | string[]): Promise<UserInfo[] | undefined> {

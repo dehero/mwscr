@@ -11,11 +11,11 @@ export interface PostRouteParams extends SiteRouteParams {
 export const postRoute: SiteRoute<PostRouteParams, PostPageData> = {
   path: '/@managerName/@id',
   meta: (params, data) => ({
-    title: data?.post?.title || params.id,
+    title: data?.title || params.id,
     description: `Information, content, statistics and comments of ${params.managerName} post "${
-      data?.post?.title || params.id
+      data?.title || params.id
     }" in Morrowind Screenshots project.`,
-    imageUrl: data?.post?.content,
+    imageUrl: data?.content,
   }),
   createUrl: (params) => `/${params.managerName}/${params.id}/`,
   getData: getPostPageData,

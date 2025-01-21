@@ -12,6 +12,7 @@ import { selectUserInfosResultToString, selectUserInfosSortOptions } from '../..
 import type { SortDirection } from '../../../core/utils/common-types.js';
 import { isObjectEqual } from '../../../core/utils/common-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
+import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
 import { usersRoute } from '../../routes/users-route.js';
@@ -105,10 +106,11 @@ export const UsersPage = (): JSX.Element => {
     sortDirection: sortDirection(),
   });
 
-  const [selectedUserInfos] = createResource(selectParams, (params) => dataManager.selectUserInfos(params));
+  const [userInfos, { refetch }] = createResource(selectParams, (params) => dataManager.selectUserInfos(params), {
+    initialValue: data().firstUserInfos,
+  });
 
-  const userInfos = () =>
-    selectedUserInfos.state === 'ready' ? selectedUserInfos() : selectedUserInfos.latest || data().firstUserInfos;
+  useLocalPatch(refetch);
 
   return (
     <Frame component="main" class={styles.container}>

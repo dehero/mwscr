@@ -5,6 +5,7 @@ import { getAspectRatioHeightMultiplier, type MediaAspectRatio } from '../../../
 import { parseResourceUrl } from '../../../core/entities/resource.js';
 import { getResourcePreviewUrl } from '../../data-managers/resources.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
+import type { FrameState } from '../Frame/Frame.js';
 import { Frame } from '../Frame/Frame.js';
 import { useToaster } from '../Toaster/Toaster.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
@@ -19,6 +20,7 @@ export interface ResourcePreviewProps {
   aspectRatio?: MediaAspectRatio;
   maxHeightMultiplier?: number;
   alt?: string;
+  state?: FrameState;
 }
 
 export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
@@ -63,6 +65,7 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
               variant="thin"
               class={clsx(styles.fallback, props.class)}
               style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
+              state={props.state}
             >
               <span class={styles.url}>{props.url}</span>
             </Frame>
@@ -82,10 +85,11 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
                   onError={handleError}
                   style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
                   aria-label={url === YellowExclamationMark ? 'yellow exclamation mark' : props.alt || props.url}
+                  state={props.state}
                 />
               }
             >
-              <Frame class={clsx(styles.blurredBackgroundWrapper, props.class)}>
+              <Frame class={clsx(styles.blurredBackgroundWrapper, props.class)} state={props.state}>
                 <img
                   src={url}
                   class={styles.blurredBackground}
