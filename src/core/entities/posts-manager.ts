@@ -26,7 +26,6 @@ import {
   PostViolation,
 } from './post.js';
 import type { PostAction } from './post-action.js';
-import { stripPostTags } from './post-tag.js';
 import { PostVariant } from './post-variant.js';
 import { checkSchema } from './schema.js';
 
@@ -346,8 +345,6 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
     if (!this.isItem(post, errors)) {
       throw new TypeError(`Post "${id}" is not valid: ${errors.join(', ')}`);
     }
-
-    stripPostTags(post);
 
     return [id, post];
   }
