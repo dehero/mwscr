@@ -5,8 +5,12 @@ import type { WallWallComment } from 'vk-io/lib/api/schemas/objects';
 // @ts-expect-error No proper typing
 import type { WallGetCommentExtendedResponse } from 'vk-io/lib/api/schemas/responses';
 import type { Post, PostEntry } from '../../core/entities/post.js';
-import { getPostFirstPublished, getPostTypeFromContent, postTypeDescriptors } from '../../core/entities/post.js';
-import { createPostTags } from '../../core/entities/post-tag.js';
+import {
+  createPostPublicationTags,
+  getPostFirstPublished,
+  getPostTypeFromContent,
+  postTypeDescriptors,
+} from '../../core/entities/post.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
@@ -59,7 +63,7 @@ export class VKManager extends VKService implements PostingServiceManager {
     const [id, post] = entry;
 
     const lines: string[] = [];
-    const tags = createPostTags(post);
+    const tags = createPostPublicationTags(post);
     const contributors: string[] = [];
     const titlePrefix = post.type !== 'shot' ? postTypeDescriptors[post.type].titleRu : undefined;
 
