@@ -160,7 +160,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2025-01-15-21-02-15
+      updated: 2025-01-22-22-07-15
       followers: 894
       likes: 47
       views: 367
@@ -9192,10 +9192,10 @@
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-01-15-21-02-14
+      updated: 2025-01-22-22-07-14
       followers: 1038
       likes: 38
-      views: 394
+      views: 401
       reposts: 1
       comments: !c |-
         G1IA+J0JdiwXiwm2XHYcUe1IT5+tDJsEI0z2PGWlNCWbjYcPp1yKLYw4kWMgAT5zZLJTE42yKmre
@@ -9203,10 +9203,10 @@
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-01-15-21-02-13
+      updated: 2025-01-22-22-07-13
       followers: 644
-      likes: 65
-      views: 456
+      likes: 66
+      views: 475
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
