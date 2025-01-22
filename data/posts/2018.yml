@@ -495,19 +495,19 @@
     - service: vk
       id: 1815
       published: 2024-10-08-18-10-28
-      updated: 2025-01-15-04-09-37
+      updated: 2025-01-22-04-10-08
       followers: 958
       likes: 37
-      views: 331
+      views: 332
       reposts: 1
       comments: !c ixWAkZPLQnkm705GAACvMTdoYWRlbl9ibGFrZTEwsFNwaW5uaW5nIHdoZWVsICkD
     - service: tg
       id: 558
       published: 2024-10-08-18-10-34
-      updated: 2025-01-15-04-09-36
+      updated: 2025-01-22-04-10-07
       followers: 559
       likes: 64
-      views: 475
+      views: 480
 2018-01-15-no-students-for-hasphat-antabolis:
   title: No Students for Hasphat Antabolis
   titleRu: Хасфат Антаболис в поиске учеников
@@ -1326,7 +1326,7 @@
     - service: vk
       id: 1712
       published: 2024-08-27-18-20-10
-      updated: 2025-01-15-04-09-41
+      updated: 2025-01-22-04-10-12
       followers: 939
       likes: 30
       views: 335
@@ -1334,10 +1334,10 @@
     - service: tg
       id: 514
       published: 2024-08-27-18-20-15
-      updated: 2025-01-15-04-09-40
+      updated: 2025-01-22-04-10-10
       followers: 544
       likes: 62
-      views: 619
+      views: 623
 2018-02-06-evening-trees:
   title: Evening Trees
   titleRu: Вечерние деревья
@@ -2707,17 +2707,17 @@
     - service: vk
       id: 1795
       published: 2024-10-01-18-12-42
-      updated: 2025-01-15-04-09-38
+      updated: 2025-01-22-04-10-09
       followers: 957
       likes: 36
-      views: 527
+      views: 529
     - service: tg
       id: 551
       published: 2024-10-01-18-12-49
-      updated: 2025-01-15-04-09-37
+      updated: 2025-01-22-04-10-08
       followers: 557
       likes: 59
-      views: 551
+      views: 555
 2018-03-17-suran-temple:
   title: Suran Temple
   titleRu: Храм в Суране
@@ -3606,17 +3606,17 @@
       id: DFGONk_zuDM
       mediaId: '18039249929460023'
       published: 2025-01-21-18-11-24
-      updated: 2025-01-22-03-11-31
+      updated: 2025-01-22-04-10-03
       followers: 1529
-      likes: 84
-      views: 232
+      likes: 87
+      views: 241
     - service: vk
       id: 2075
       published: 2025-01-21-18-11-42
-      updated: 2025-01-22-03-11-32
+      updated: 2025-01-22-04-10-03
       followers: 1054
       likes: 21
-      views: 121
+      views: 127
       reposts: 2
     - service: tg
       id:
@@ -3625,10 +3625,10 @@
         - 676
         - 677
       published: 2025-01-21-18-12-00
-      updated: 2025-01-22-03-11-32
+      updated: 2025-01-22-04-10-04
       followers: 654
-      likes: 46
-      views: 138
+      likes: 47
+      views: 141
 2018-04-09-empty-arena:
   title: Empty Arena
   titleRu: Пустая Арена
@@ -5818,10 +5818,10 @@
     - service: vk
       id: 1921
       published: 2024-11-26-18-11-20
-      updated: 2025-01-15-04-09-34
+      updated: 2025-01-22-04-10-05
       followers: 1010
       likes: 47
-      views: 514
+      views: 523
       reposts: 3
     - service: tg
       id: 607
@@ -7486,10 +7486,10 @@
     - service: vk
       id: 1829
       published: 2024-10-15-18-10-16
-      updated: 2025-01-15-04-09-36
+      updated: 2025-01-22-04-10-07
       followers: 964
       likes: 57
-      views: 643
+      views: 658
       reposts: 3
       comments: !c |-
         G8wCAKwK7Db0SzHo5mWOcC1a8xD/j9yjZM1L7Sc/qUKpIPWCtjawZTThyblkU1XZnuPmREIcr5cl
@@ -7502,10 +7502,10 @@
     - service: tg
       id: 565
       published: 2024-10-15-18-10-22
-      updated: 2025-01-15-04-09-35
+      updated: 2025-01-22-04-10-06
       followers: 562
       likes: 60
-      views: 524
+      views: 527
 2018-07-26-framed-by-lianas:
   title: Framed by Lianas
   titleRu: В обрамлении лиан

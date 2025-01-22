@@ -8506,18 +8506,18 @@
     - service: tg
       id: 586
       published: 2024-11-05-18-10-44
-      updated: 2025-01-15-04-09-34
+      updated: 2025-01-22-04-10-06
       followers: 566
       likes: 63
-      views: 566
+      views: 571
       comments: !c iw2AkZPLQnkw+mTCgACrYmh1dmFuYXNyaWmk8J+klQM=
     - service: vk
       id: 1879
       published: 2024-11-05-19-01-20
-      updated: 2025-01-15-04-09-35
+      updated: 2025-01-22-04-10-07
       followers: 1003
       likes: 32
-      views: 359
+      views: 360
       reposts: 2
       comments: !c |-
         G5UA6OXnr/lJrjzx7Fo80qK2WScPh9EC/fBEhnPKgXtagC3htrvmd8pxpgFGSQuS49di/VBq3O+P
@@ -12273,17 +12273,17 @@
     - service: vk
       id: 1735
       published: 2024-09-03-18-29-25
-      updated: 2025-01-15-04-09-40
+      updated: 2025-01-22-04-10-11
       followers: 942
       likes: 26
       views: 355
     - service: tg
       id: 521
       published: 2024-09-03-18-29-34
-      updated: 2025-01-15-04-09-39
+      updated: 2025-01-22-04-10-10
       followers: 550
       likes: 65
-      views: 568
+      views: 572
 2017-12-01-speak-quickly-outlander:
   title: Speak Quickly, Outlander
   titleRu: Говори скорее
