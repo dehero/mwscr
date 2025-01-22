@@ -55,24 +55,40 @@ export const PostAuthor = union([pipe(string(), nonEmpty()), array(pipe(string()
 export const PostTag = pipe(string(), nonEmpty());
 export const PostRequest = object({ date: date(), user: pipe(string(), nonEmpty()), text: pipe(string(), nonEmpty()) });
 
-export const Post = object({
-  title: optional(PostTitle),
-  titleRu: optional(PostTitleRu),
-  description: optional(PostDescription),
-  descriptionRu: optional(PostDescription),
-  location: optional(PostLocation),
-  content: optional(PostContent),
-  trash: optional(PostContent),
-  type: PostType,
-  author: optional(PostAuthor),
-  tags: optional(array(PostTag)),
-  engine: optional(PostEngine),
-  addon: optional(PostAddon),
-  request: optional(PostRequest),
-  mark: optional(PostMark),
-  violation: optional(PostViolation),
-  posts: optional(array(Publication)),
-});
+export const Post = pipe(
+  object({
+    title: optional(PostTitle),
+    titleRu: optional(PostTitleRu),
+    description: optional(PostDescription),
+    descriptionRu: optional(PostDescription),
+    location: optional(PostLocation),
+    content: optional(PostContent),
+    trash: optional(PostContent),
+    type: PostType,
+    author: optional(PostAuthor),
+    tags: optional(array(PostTag)),
+    engine: optional(PostEngine),
+    addon: optional(PostAddon),
+    request: optional(PostRequest),
+    mark: optional(PostMark),
+    violation: optional(PostViolation),
+    posts: optional(array(Publication)),
+  }),
+  transform((input) => {
+    const excludeTags: string[] = [];
+
+    for (const [tag, , parse] of defaultTags) {
+      if (input.tags?.includes(tag)) {
+        parse?.(input);
+        excludeTags.push(tag);
+      }
+    }
+
+    input.tags = mergePostTags(input.tags?.filter((tag) => !excludeTags.includes(tag)));
+
+    return input;
+  }),
+);
 
 export const PostPatch = partial(
   object({
@@ -145,6 +161,39 @@ export interface PostViolationDescriptor {
   solution?: string;
   reference?: string;
 }
+
+type PostTagDescriptor = [tag: PostTag, rule: (post: Post) => boolean, parse?: (post: Post) => void];
+
+const defaultTags = Object.freeze<PostTagDescriptor[]>([
+  ['morrowind', () => true],
+  ['elderscrolls', () => true],
+  [
+    'drawing',
+    (post) => ['redrawing'].includes(post.type),
+    (post) => (post.type = ['redrawing'].includes(post.type) ? post.type : 'shot'),
+  ],
+  [
+    'screenshot',
+    (post) => ['shot', 'shot-set', 'redrawing'].includes(post.type),
+    (post) => (post.type = ['shot', 'shot-set', 'redrawing'].includes(post.type) ? post.type : 'shot'),
+  ],
+  [
+    'footage',
+    (post) => ['clip', 'video'].includes(post.type),
+    (post) => (post.type = ['clip', 'video'].includes(post.type) ? post.type : 'clip'),
+  ],
+  [
+    'wallpaper',
+    (post) => ['wallpaper', 'wallpaper-v'].includes(post.type),
+    (post) => (post.type = ['wallpaper', 'wallpaper-v'].includes(post.type) ? post.type : 'wallpaper'),
+  ],
+  ...PostAddon.options.map(
+    (tag): PostTagDescriptor => [tag, (post) => post.addon === tag, (post) => (post.addon = post.addon || tag)],
+  ),
+  ...PostEngine.options.map(
+    (tag): PostTagDescriptor => [tag, (post) => post.engine === tag, (post) => (post.engine = post.engine || tag)],
+  ),
+]);
 
 export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescriptor>>({
   shot: { title: 'Shot', titleRu: 'Кадр', letter: 'S' },
@@ -545,6 +594,22 @@ export function mergePostTags(tags1: string[] | undefined, tags2?: string[] | un
   const result = new Set([...(tags1 ?? []), ...(tags2 ?? [])]);
 
   return result.size > 0 ? [...result] : undefined;
+}
+
+export function createPostPublicationTags(post: Post): string[] {
+  const result: string[] = [];
+
+  for (const [tag, rule] of defaultTags) {
+    if (rule(post)) {
+      result.push(tag);
+    }
+  }
+
+  if (post.tags) {
+    result.push(...post.tags);
+  }
+
+  return [...new Set(result)].map((tag) => tag.toLowerCase());
 }
 
 export function getPostDateById(id: string) {

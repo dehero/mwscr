@@ -16,8 +16,12 @@ import {
 import fetch, { File, FormData } from 'node-fetch';
 import sharp from 'sharp';
 import type { Post, PostEntry } from '../../core/entities/post.js';
-import { getPostFirstPublished, getPostTypeFromContent, postTypeDescriptors } from '../../core/entities/post.js';
-import { createPostTags } from '../../core/entities/post-tag.js';
+import {
+  createPostPublicationTags,
+  getPostFirstPublished,
+  getPostTypeFromContent,
+  postTypeDescriptors,
+} from '../../core/entities/post.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
@@ -59,7 +63,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
   async createCaption(entry: PostEntry) {
     const [id, post] = entry;
     const lines: string[] = [];
-    const tags = createPostTags(post);
+    const tags = createPostPublicationTags(post);
     const contributors: string[] = [];
     const titlePrefix = post.type !== 'shot' ? postTypeDescriptors[post.type].title : undefined;
 
