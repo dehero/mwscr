@@ -4,7 +4,40 @@
 
 # Posted in 2025
 
-`21 items`
+`22 items`
+
+## <span id="2025-01-22-tel-aruhn-at-dawn">Tel Aruhn at Dawn</span>
+
+`RU` Тель Арун на заре
+
+<a href="https://instagram.com/p/Cfe829FstUf/" title="2022-07-01-tel-aruhn-at-dawn"><img alt="store:/shots/2022-07-01-tel-aruhn-at-dawn.png" src="../../assets/previews/shots/2022-07-01-tel-aruhn-at-dawn.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Tel Aruhn` `🚀 OpenMW`
+
+```
+2025-01-22-tel-aruhn-at-dawn
+```
+
+> `2022-07-01-tel-aruhn-at-dawn`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/Cfe829FstUf/)       | 2022-07-01 |       |   132 |      1101 |  11.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1319) | 2022-07-01 |   542 |    58 |       738 |   8.13 |
+| [`tg`](https://t.me/mwscr/258)                     | 2022-07-01 |   628 |    47 |       247 |  19.03 |
+| [`ig`](https://instagram.com/p/DFIy-QvpBXC/)       | 2025-01-22 |       |       |      1529 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2077) | 2025-01-22 |       |       |      1054 |        |
+| [`tg`](https://t.me/mwscr/678)                     | 2025-01-22 |       |       |       655 |        |
+|                                                    |            |       |       |      3238 |  13.05 |
+
+#### Comments
+
+- `ig` <ins title="2022-07-02-09-38-48">m_salashchenko</ins> Atnosphere
+- `ig` <ins title="2022-07-02-13-37-22">ruslanfivsky</ins> ❤️
 
 ## <span id="2025-01-21-the-symmetry-of-vivec">The Symmetry of Vivec</span>
 
@@ -31,10 +64,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BhUdSr4jFec/)       | 2018-04-08 |       |   121 |       314 |  38.54 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_681)  | 2018-04-08 |   207 |    21 |       150 |     14 |
-| [`ig`](https://instagram.com/p/DFGONk_zuDM/)       | 2025-01-21 |   337 |   109 |      1529 |   7.13 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2075) | 2025-01-21 |   246 |    32 |      1054 |   3.32 |
-| [`tg`](https://t.me/mwscr/674,675,676,677)         | 2025-01-21 |   166 |    55 |       654 |   8.41 |
-|                                                    |            |   749 |   196 |      3237 |  14.28 |
+| [`ig`](https://instagram.com/p/DFGONk_zuDM/)       | 2025-01-21 |   339 |   110 |      1529 |   7.19 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2075) | 2025-01-21 |   249 |    32 |      1054 |   3.32 |
+| [`tg`](https://t.me/mwscr/674,675,676,677)         | 2025-01-21 |   168 |    55 |       654 |   8.41 |
+|                                                    |            |   756 |   197 |      3237 |  14.29 |
 
 ## <span id="2025-01-20-telvanni-vault-ledger">Telvanni Vault Ledger</span>
 
@@ -54,10 +87,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFDsz7MJOTU/)       | 2025-01-20 |   392 |    87 |      1529 |   5.69 |
+| [`ig`](https://instagram.com/p/DFDsz7MJOTU/)       | 2025-01-20 |   394 |    87 |      1529 |   5.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2073) | 2025-01-20 |   241 |    30 |      1054 |   3.04 |
-| [`tg`](https://t.me/mwscr/673)                     | 2025-01-20 |   216 |    50 |       654 |   7.65 |
-|                                                    |            |   849 |   167 |      3237 |   5.46 |
+| [`tg`](https://t.me/mwscr/673)                     | 2025-01-20 |   217 |    50 |       654 |   7.65 |
+|                                                    |            |   852 |   167 |      3237 |   5.46 |
 
 #### Comments
 
@@ -118,10 +151,10 @@
 | [`ig`](https://instagram.com/p/B37bQmehLWi/)       | 2019-10-22 |       |   204 |       838 |  24.34 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1205) | 2019-10-22 |  1326 |    61 |       371 |  16.71 |
 | [`tg`](https://t.me/mwscr/202)                     | 2019-10-22 |  1086 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE-fki3RAq5/)       | 2025-01-18 |   415 |    93 |      1526 |   6.09 |
+| [`ig`](https://instagram.com/p/DE-fki3RAq5/)       | 2025-01-18 |   425 |    94 |      1526 |   6.16 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2070) | 2025-01-18 |   223 |    34 |      1054 |   3.23 |
-| [`tg`](https://t.me/mwscr/671)                     | 2025-01-18 |   299 |    61 |       655 |   9.31 |
-|                                                    |            |   937 |   188 |      3235 |  11.94 |
+| [`tg`](https://t.me/mwscr/671)                     | 2025-01-18 |   328 |    61 |       655 |   9.31 |
+|                                                    |            |   976 |   189 |      3235 |  11.95 |
 
 #### Comments
 
@@ -158,10 +191,10 @@
 | [`ig`](https://instagram.com/p/Bq4kQSlB62U/)       | 2018-12-02 |       |   114 |       484 |  23.55 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1086) | 2018-12-02 |  1040 |    38 |       298 |  12.75 |
 | [`tg`](https://t.me/mwscr/133)                     | 2018-12-02 |   432 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   329 |    85 |      1525 |   5.57 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   217 |    31 |      1053 |   3.04 |
-| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   262 |    60 |       655 |   9.16 |
-|                                                    |            |   808 |   176 |      3233 |  10.82 |
+| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   335 |    86 |      1525 |   5.64 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   229 |    32 |      1053 |   3.13 |
+| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   279 |    60 |       655 |   9.16 |
+|                                                    |            |   843 |   178 |      3233 |  10.85 |
 
 ## <span id="2025-01-16-fields-of-kummu-in-the-sunset-light">Fields of Kummu in the Sunset Light</span>
 
@@ -186,9 +219,9 @@
 | [`ig`](https://instagram.com/p/BRfgcN7DM6L/)       | 2017-03-11 |       |    39 |       105 |  37.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_192)  | 2017-03-11 |   144 |     8 |        45 |      9 |
 | [`ig`](https://instagram.com/p/DE5WIOBTqaO/)       | 2025-01-16 |   530 |   136 |      1522 |   8.94 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   272 |    48 |      1053 |   4.65 |
-| [`tg`](https://t.me/mwscr/669)                     | 2025-01-16 |   297 |    65 |       655 |   9.92 |
-|                                                    |            |  1099 |   249 |      3230 |  13.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   276 |    48 |      1053 |   4.65 |
+| [`tg`](https://t.me/mwscr/669)                     | 2025-01-16 |   306 |    65 |       655 |   9.92 |
+|                                                    |            |  1112 |   249 |      3230 |  13.93 |
 
 #### Comments
 
