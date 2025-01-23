@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`3 items`
+`2 items`
 
 ## <span id="dehero.2025-01-19-19-09-10">Dark Moon</span>
 
@@ -24,26 +24,6 @@
 
 ```
 dehero.2025-01-19-19-09-10
-```
-
-## <span id="dehero.2025-01-19-18-49-12">Eternal Halt</span>
-
-`RU` Вечный привал
-
-![store:/inbox/dehero.2025-01-19-18-49-12.1.png](../../assets/previews/inbox/dehero.2025-01-19-18-49-12.1.avif "dehero.2025-01-19-18-49-12.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2025-01-19-18-49-12.png](../../assets/previews/inbox/dehero.2025-01-19-18-49-12.avif "dehero.2025-01-19-18-49-12")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-01-19-18-49-12&amp;postContent=store%3A%2Finbox%2Fdehero.2025-01-19-18-49-12.1.png&amp;postTitle=Eternal+Halt&amp;postTitleRu=%D0%92%D0%B5%D1%87%D0%BD%D1%8B%D0%B9+%D0%BF%D1%80%D0%B8%D0%B2%D0%B0%D0%BB&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=skeleton+death&amp;postLocation=Aryon+Ancestral+Tomb&amp;postMark=A2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-01-19-18-49-12.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2025-01-19-18-49-12&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-01-19-18-49-12&amp;mergeWithIds=) `A2` `📍 Aryon Ancestral Tomb` `🚀 OpenMW` `skeleton` `death`
-
-```
-dehero.2025-01-19-18-49-12
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>

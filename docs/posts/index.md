@@ -4,7 +4,30 @@
 
 # Posted in 2025
 
-`22 items`
+`23 items`
+
+## <span id="2025-01-23-eternal-halt">Eternal Halt</span>
+
+`RU` Вечный привал
+
+<a href="https://instagram.com/p/DFLcUlsuE4R/" title="2025-01-23-eternal-halt"><img alt="store:/shots/2025-01-23-eternal-halt.png" src="../../assets/previews/shots/2025-01-23-eternal-halt.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Aryon Ancestral Tomb` `🚀 OpenMW` `skeleton` `death`
+
+```
+2025-01-23-eternal-halt
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DFLcUlsuE4R/)       | 2025-01-23 |      1528 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2079) | 2025-01-23 |      1054 |
+| [`tg`](https://t.me/mwscr/679)                     | 2025-01-23 |       655 |
+|                                                    |            |      3237 |
 
 ## <span id="2025-01-22-tel-aruhn-at-dawn">Tel Aruhn at Dawn</span>
 
