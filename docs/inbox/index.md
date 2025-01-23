@@ -4,34 +4,20 @@
 
 # Inbox for 2025
 
-`22 items`
-
-## <span id="dehero.2025-01-19-19-27-14">dehero.2025-01-19-19-27-14</span>
-
-![store:/inbox/dehero.2025-01-19-19-27-14.png](../../assets/previews/inbox/dehero.2025-01-19-19-27-14.avif "dehero.2025-01-19-19-27-14")
-
-`shot` by [dehero](../contributors.md#dehero)
-
-> [!WARNING]
-> Missing english title, russian title, editor's mark.
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-01-19-19-27-14&amp;postContent=store%3A%2Finbox%2Fdehero.2025-01-19-19-27-14.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2025-01-19-19-27-14&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-01-19-19-27-14&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=dehero.2025-01-19-19-27-14&postLocation=)</code>
-
-```
-dehero.2025-01-19-19-27-14
-```
+`21 items`
 
 ## <span id="dehero.2025-01-19-19-26-49">dehero.2025-01-19-19-26-49</span>
 
 ![store:/inbox/dehero.2025-01-19-19-26-49.1.png](../../assets/previews/inbox/dehero.2025-01-19-19-26-49.1.avif "dehero.2025-01-19-19-26-49.1")
 ![store:/inbox/dehero.2025-01-19-19-26-49.png](../../assets/previews/inbox/dehero.2025-01-19-19-26-49.avif "dehero.2025-01-19-19-26-49")
+![store:/inbox/dehero.2025-01-19-19-27-14.png](../../assets/previews/inbox/dehero.2025-01-19-19-27-14.avif "dehero.2025-01-19-19-27-14")
 
 `shot` by [dehero](../contributors.md#dehero)
 
 > [!WARNING]
 > Missing english title, russian title, editor's mark, content should be resource string, got array.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-01-19-19-26-49&amp;postContent=store%3A%2Finbox%2Fdehero.2025-01-19-19-26-49.1.png%0Astore%3A%2Finbox%2Fdehero.2025-01-19-19-26-49.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2025-01-19-19-26-49&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-01-19-19-26-49&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=dehero.2025-01-19-19-26-49&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-01-19-19-26-49&amp;postContent=store%3A%2Finbox%2Fdehero.2025-01-19-19-26-49.1.png%0Astore%3A%2Finbox%2Fdehero.2025-01-19-19-26-49.png%0Astore%3A%2Finbox%2Fdehero.2025-01-19-19-27-14.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2025-01-19-19-26-49&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-01-19-19-26-49&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=dehero.2025-01-19-19-26-49&postLocation=)</code>
 
 ```
 dehero.2025-01-19-19-26-49
