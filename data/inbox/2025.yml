@@ -70,11 +70,21 @@ dehero.2025-01-19-19-07-05:
   type: shot
   author: dehero
 dehero.2025-01-19-19-09-10:
-  content:
-    - store:/inbox/dehero.2025-01-19-19-09-10.1.png
-    - store:/inbox/dehero.2025-01-19-19-09-10.png
+  title: Dark Moon
+  titleRu: Тёмная луна
+  location:
+    - Vivec, Temple
+    - Vivec, St. Delyn
+  content: store:/inbox/dehero.2025-01-19-19-09-10.1.png
+  trash: store:/inbox/dehero.2025-01-19-19-09-10.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - moon
+    - night
+    - sky
+  mark: A2
 dehero.2025-01-19-19-10-43:
   content: store:/inbox/dehero.2025-01-19-19-10-43.png
   type: shot

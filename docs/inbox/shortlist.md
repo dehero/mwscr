@@ -4,7 +4,27 @@
 
 # Shortlist
 
-`2 items`
+`3 items`
+
+## <span id="dehero.2025-01-19-19-09-10">Dark Moon</span>
+
+`RU` Тёмная луна
+
+![store:/inbox/dehero.2025-01-19-19-09-10.1.png](../../assets/previews/inbox/dehero.2025-01-19-19-09-10.1.avif "dehero.2025-01-19-19-09-10.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2025-01-19-19-09-10.png](../../assets/previews/inbox/dehero.2025-01-19-19-09-10.avif "dehero.2025-01-19-19-09-10")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-01-19-19-09-10&amp;postContent=store%3A%2Finbox%2Fdehero.2025-01-19-19-09-10.1.png&amp;postTitle=Dark+Moon&amp;postTitleRu=%D0%A2%D1%91%D0%BC%D0%BD%D0%B0%D1%8F+%D0%BB%D1%83%D0%BD%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=moon+night+sky&amp;postLocation=Vivec%2C+Temple%0AVivec%2C+St.+Delyn&amp;postMark=A2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-01-19-19-09-10.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2025-01-19-19-09-10&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-01-19-19-09-10&amp;mergeWithIds=) `A2` `📍 Vivec, Temple` `📍 Vivec, St. Delyn` `🚀 OpenMW` `moon` `night` `sky`
+
+```
+dehero.2025-01-19-19-09-10
+```
 
 ## <span id="dehero.2025-01-19-18-49-12">Eternal Halt</span>
 
