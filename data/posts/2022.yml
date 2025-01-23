@@ -389,17 +389,18 @@
       id: DFIy-QvpBXC
       mediaId: '17919683631030829'
       published: 2025-01-22-18-11-06
-      updated: 2025-01-23-15-07-51
+      updated: 2025-01-23-16-09-11
       followers: 1529
-      likes: 58
-      views: 196
+      likes: 59
+      views: 199
     - service: vk
       id: 2077
       published: 2025-01-22-18-11-15
-      updated: 2025-01-23-15-07-52
+      updated: 2025-01-23-16-09-12
       followers: 1054
-      likes: 27
-      views: 147
+      likes: 28
+      views: 149
+      reposts: 1
       comments: !c |-
         G0kB6K2Od5WAvPjyGU2KFtE4LGSyKfmZggQWrMVJgpEoiempbgajLAgzFkr68XYgbsvdnLafo6Ig
         pqqVxJY5MtqJQ5ank+MTHsTbIaUDZhjCOeZgAw51olq2X/l8/22Pk+P3DhUeL6sIHk5CHWLPpfAz
@@ -408,10 +409,10 @@
     - service: tg
       id: 678
       published: 2025-01-22-18-11-24
-      updated: 2025-01-23-15-07-52
+      updated: 2025-01-23-16-09-13
       followers: 655
       likes: 52
-      views: 163
+      views: 164
 2022-07-02-niras-farys-priest:
   title: Niras Farys, Priest
   titleRu: Нирас Фарис, священник
