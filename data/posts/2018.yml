@@ -3104,17 +3104,17 @@
     - service: tg
       id: 580
       published: 2024-10-30-18-10-40
-      updated: 2025-01-16-02-06-04
+      updated: 2025-01-23-02-06-51
       followers: 563
       likes: 59
-      views: 562
+      views: 568
     - service: vk
       id: 1867
       published: 2024-10-30-19-01-22
-      updated: 2025-01-16-02-06-07
+      updated: 2025-01-23-02-06-53
       followers: 1001
       likes: 46
-      views: 320
+      views: 321
 2018-03-27-in-the-branches:
   title: In the Branches
   titleRu: Среди ветвей
@@ -3606,14 +3606,14 @@
       id: DFGONk_zuDM
       mediaId: '18039249929460023'
       published: 2025-01-21-18-11-24
-      updated: 2025-01-23-00-35-36
+      updated: 2025-01-23-02-06-48
       followers: 1529
       likes: 116
-      views: 360
+      views: 363
     - service: vk
       id: 2075
       published: 2025-01-21-18-11-42
-      updated: 2025-01-23-00-35-37
+      updated: 2025-01-23-02-06-49
       followers: 1054
       likes: 35
       views: 267
@@ -3625,10 +3625,10 @@
         - 676
         - 677
       published: 2025-01-21-18-12-00
-      updated: 2025-01-23-00-35-37
+      updated: 2025-01-23-02-06-49
       followers: 654
-      likes: 57
-      views: 202
+      likes: 58
+      views: 203
 2018-04-09-empty-arena:
   title: Empty Arena
   titleRu: Пустая Арена
