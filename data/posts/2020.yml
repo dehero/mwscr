@@ -1089,17 +1089,17 @@
     - service: vk
       id: 2011
       published: 2025-01-02-18-10-56
-      updated: 2025-01-16-21-01-21
+      updated: 2025-01-23-22-02-56
       followers: 1040
       likes: 54
-      views: 329
+      views: 334
     - service: tg
       id: 645
       published: 2025-01-02-18-11-03
-      updated: 2025-01-16-21-01-22
+      updated: 2025-01-23-22-02-56
       followers: 646
-      likes: 68
-      views: 457
+      likes: 69
+      views: 479
       comments: !c ixGAkZPLQnlChFvpgACmQzRINk80sUxpa2UgbG92ZWx5IGRyZWFtAw==
 2020-10-22-clagius-clanler-outfitter:
   title: Clagius Clanler, Outfitter
