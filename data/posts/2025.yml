@@ -122,22 +122,25 @@
       id: DFLcUlsuE4R
       mediaId: '18033170561578102'
       published: 2025-01-23-18-50-53
-      updated: 2025-01-24-00-35-22
+      updated: 2025-01-24-02-07-22
       followers: 1528
-      likes: 69
-      views: 203
+      likes: 72
+      views: 232
     - service: vk
       id: 2079
       published: 2025-01-23-18-50-59
-      updated: 2025-01-24-00-35-22
+      updated: 2025-01-24-02-07-22
       followers: 1054
-      likes: 22
-      views: 88
-      reposts: 1
+      likes: 29
+      views: 105
+      reposts: 2
+      comments: !c |-
+        iyeAkZPLQnlJX7ElgACraWQ4ODkyMjI5OTnZN9Cp0LAg0LTQvtC60YPRgNGOINC4INC00LDQu9GM
+        0YjQtSDQv9C+0LnQtNGR0LwgKNC90LXRgikD
     - service: tg
       id: 679
       published: 2025-01-23-18-51-07
-      updated: 2025-01-24-00-35-22
+      updated: 2025-01-24-02-07-22
       followers: 655
-      likes: 43
-      views: 113
+      likes: 45
+      views: 119
