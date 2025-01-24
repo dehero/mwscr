@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`23 items`
+`24 items`
+
+## <span id="2025-01-24-near-mining-company-office">Near Mining Company Office</span>
+
+`RU` У офиса Горнодобывающей Компании
+
+<a href="https://instagram.com/p/BWUanZtjxTc/" title="2017-07-09-near-mining-company-office"><img alt="store:/shots/2017-07-09-near-mining-company-office.png" src="../../assets/previews/shots/2017-07-09-near-mining-company-office.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-01-24-near-mining-company-office&postLocation=)</code> `🚀 OpenMW`
+
+```
+2025-01-24-near-mining-company-office
+```
+
+> `2017-07-09-near-mining-company-office`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BWUanZtjxTc/)       | 2017-07-09 |       |    57 |       188 |  30.32 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_348)  | 2017-07-09 |   107 |     6 |        66 |   9.09 |
+| [`ig`](https://instagram.com/p/DFN8igoMuR6/)       | 2025-01-24 |       |       |      1530 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2084) | 2025-01-24 |       |       |      1054 |        |
+| [`tg`](https://t.me/mwscr/680)                     | 2025-01-24 |       |       |       656 |        |
+|                                                    |            |       |       |      3240 |  19.71 |
 
 ## <span id="2025-01-23-eternal-halt">Eternal Halt</span>
 
@@ -24,15 +51,16 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFLcUlsuE4R/)       | 2025-01-23 |   507 |   117 |      1528 |   7.66 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2079) | 2025-01-23 |   244 |    40 |      1054 |   4.27 |
-| [`tg`](https://t.me/mwscr/679)                     | 2025-01-23 |   174 |    57 |       655 |    8.7 |
-|                                                    |            |   925 |   214 |      3237 |   6.88 |
+| [`ig`](https://instagram.com/p/DFLcUlsuE4R/)       | 2025-01-23 |   544 |   118 |      1528 |   7.72 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2079) | 2025-01-23 |   248 |    41 |      1054 |   4.36 |
+| [`tg`](https://t.me/mwscr/679)                     | 2025-01-23 |   177 |    57 |       655 |    8.7 |
+|                                                    |            |   969 |   216 |      3237 |   6.93 |
 
 #### Comments
 
 - `vk` <ins title="2025-01-24-01-44-07">id889222999</ins> Ща докурю и дальше пойдём (нет)
 - `vk` <ins title="2025-01-24-08-42-44">krem_san</ins> 🔥🔥🔥
+- `vk` <ins title="2025-01-24-17-18-38">id820702664</ins> Кроме костной муки с них нечего взять...
 
 ## <span id="2025-01-22-tel-aruhn-at-dawn">Tel Aruhn at Dawn</span>
 
@@ -58,9 +86,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1319) | 2022-07-01 |   542 |    58 |       738 |   8.13 |
 | [`tg`](https://t.me/mwscr/258)                     | 2022-07-01 |   628 |    47 |       247 |  19.03 |
 | [`ig`](https://instagram.com/p/DFIy-QvpBXC/)       | 2025-01-22 |   234 |    70 |      1529 |   4.58 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2077) | 2025-01-22 |   180 |    31 |      1054 |   3.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2077) | 2025-01-22 |   182 |    31 |      1054 |   3.04 |
 | [`tg`](https://t.me/mwscr/678)                     | 2025-01-22 |   209 |    57 |       655 |    8.7 |
-|                                                    |            |   623 |   158 |      3238 |   9.24 |
+|                                                    |            |   625 |   158 |      3238 |   9.24 |
 
 #### Comments
 
@@ -93,10 +121,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BhUdSr4jFec/)       | 2018-04-08 |       |   121 |       314 |  38.54 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_681)  | 2018-04-08 |   207 |    21 |       150 |     14 |
-| [`ig`](https://instagram.com/p/DFGONk_zuDM/)       | 2025-01-21 |   396 |   123 |      1529 |   8.04 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2075) | 2025-01-21 |   293 |    38 |      1054 |   3.89 |
-| [`tg`](https://t.me/mwscr/674,675,676,677)         | 2025-01-21 |   219 |    61 |       654 |   9.33 |
-|                                                    |            |   908 |   222 |      3237 |  14.76 |
+| [`ig`](https://instagram.com/p/DFGONk_zuDM/)       | 2025-01-21 |   414 |   127 |      1529 |   8.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2075) | 2025-01-21 |   327 |    42 |      1054 |   4.55 |
+| [`tg`](https://t.me/mwscr/674,675,676,677)         | 2025-01-21 |   247 |    63 |       654 |   9.63 |
+|                                                    |            |   988 |   232 |      3237 |  15.01 |
 
 ## <span id="2025-01-20-telvanni-vault-ledger">Telvanni Vault Ledger</span>
 
@@ -147,10 +175,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/Bf_bfxdDVaA/)       | 2018-03-06 |       |    97 |       298 |  32.55 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_641)  | 2018-03-06 |   164 |    14 |       139 |  10.07 |
-| [`ig`](https://instagram.com/p/DFBEXoPSXmc/)       | 2025-01-19 |   250 |    74 |      1528 |   4.84 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2072) | 2025-01-19 |   244 |    34 |      1054 |   3.42 |
-| [`tg`](https://t.me/mwscr/672)                     | 2025-01-19 |   275 |    59 |       655 |   9.01 |
-|                                                    |            |   769 |   167 |      3237 |  11.98 |
+| [`ig`](https://instagram.com/p/DFBEXoPSXmc/)       | 2025-01-19 |   258 |    75 |      1528 |   4.91 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2072) | 2025-01-19 |   259 |    35 |      1054 |   3.51 |
+| [`tg`](https://t.me/mwscr/672)                     | 2025-01-19 |   315 |    61 |       655 |   9.31 |
+|                                                    |            |   832 |   171 |      3237 |  12.07 |
 
 #### Comments
 

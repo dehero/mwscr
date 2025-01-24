@@ -949,7 +949,7 @@
     - service: vk
       id: 1554
       published: 2024-05-30-18-20-43
-      updated: 2025-01-17-18-10-04
+      updated: 2025-01-24-18-10-35
       followers: 916
       likes: 49
       views: 402
@@ -962,10 +962,10 @@
     - service: tg
       id: 424
       published: 2024-05-30-18-20-52
-      updated: 2025-01-17-18-10-03
+      updated: 2025-01-24-18-10-35
       followers: 378
       likes: 60
-      views: 496
+      views: 497
 2017-01-28-1-meditative-evening-in-ahemmusa-camp:
   title: Meditative Evening in Ahemmusa Camp
   titleRu: Медитативный вечер в лагере Ахеммуза
@@ -7280,6 +7280,19 @@
       followers: 66
       likes: 6
       views: 107
+    - service: ig
+      id: DFN8igoMuR6
+      mediaId: '17899267410033309'
+      published: 2025-01-24-18-10-52
+      followers: 1530
+    - service: vk
+      id: 2084
+      published: 2025-01-24-18-11-00
+      followers: 1054
+    - service: tg
+      id: 680
+      published: 2025-01-24-18-11-10
+      followers: 656
 2017-07-10-inland-waters:
   title: Inland Waters
   titleRu: Внутренние воды
@@ -12704,7 +12717,7 @@
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
-      updated: 2025-01-17-18-10-02
+      updated: 2025-01-24-18-10-33
       followers: 917
       likes: 43
       views: 320
@@ -12712,7 +12725,7 @@
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
-      updated: 2025-01-17-18-10-01
+      updated: 2025-01-24-18-10-33
       followers: 388
       likes: 56
       views: 486
