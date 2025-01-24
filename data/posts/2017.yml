@@ -7284,24 +7284,25 @@
       id: DFN8igoMuR6
       mediaId: '17899267410033309'
       published: 2025-01-24-18-10-52
-      updated: 2025-01-24-21-02-02
+      updated: 2025-01-24-22-06-55
       followers: 1530
-      likes: 40
-      views: 106
+      likes: 47
+      views: 118
     - service: vk
       id: 2084
       published: 2025-01-24-18-11-00
-      updated: 2025-01-24-21-02-02
+      updated: 2025-01-24-22-06-56
       followers: 1054
-      likes: 11
-      views: 56
+      likes: 18
+      views: 69
+      reposts: 1
     - service: tg
       id: 680
       published: 2025-01-24-18-11-10
-      updated: 2025-01-24-21-02-03
+      updated: 2025-01-24-22-06-56
       followers: 656
-      likes: 34
-      views: 111
+      likes: 38
+      views: 117
 2017-07-10-inland-waters:
   title: Inland Waters
   titleRu: Внутренние воды
@@ -11029,17 +11030,17 @@
       id: DEX30_wv76a
       mediaId: '18116624404379470'
       published: 2025-01-03-18-10-44
-      updated: 2025-01-17-22-02-09
+      updated: 2025-01-24-22-06-56
       followers: 1520
-      likes: 118
-      views: 488
+      likes: 121
+      views: 500
     - service: vk
       id: 2014
       published: 2025-01-03-18-10-50
-      updated: 2025-01-17-22-02-10
+      updated: 2025-01-24-22-06-58
       followers: 1041
-      likes: 54
-      views: 354
+      likes: 55
+      views: 361
       reposts: 2
       comments: !c |-
         G1IA6J0J5vkzpaAMV97BFUHVLk4o4bBIkzxJPwyaSjDCZM9z+JyvoJQtce4AM0cmOwVJCqxqqNrs
@@ -11047,10 +11048,10 @@
     - service: tg
       id: 646
       published: 2025-01-03-18-10-56
-      updated: 2025-01-17-22-02-10
+      updated: 2025-01-24-22-06-57
       followers: 646
       likes: 78
-      views: 582
+      views: 610
 2017-10-28-caldera-north-west-road:
   title: Caldera, North-West Road
   titleRu: Кальдера, северо-западная дорога
