@@ -416,10 +416,10 @@
     - service: vk
       id: 1753
       published: 2024-09-12-18-31-04
-      updated: 2025-01-17-06-10-45
+      updated: 2025-01-24-06-11-03
       followers: 945
       likes: 39
-      views: 318
+      views: 319
       reposts: 1
       comments: !c |-
         G68A+J0HdiwYYWY9Oo+Inq/bEX6QAwopg6BJMMJkH1lQbiuhLjSr8Rw/eOZQdVsJpnJBxFdz2i9H
@@ -428,10 +428,10 @@
     - service: tg
       id: 530
       published: 2024-09-12-18-31-10
-      updated: 2025-01-17-06-10-44
+      updated: 2025-01-24-06-11-03
       followers: 555
       likes: 62
-      views: 509
+      views: 512
       comments: !c |-
         G2sAOIzUWa03lyNU+v/dPKLet8DKxxK83ZwWphNwEgdUuf7DBpwgBJhrtOAhIqWwqvVZ9s8YlcGe
         EXpd3PAUN1zXBzk0AsIamiCst/PwT+jEWR3WvxY2quDAMGdVSCEfqHDB4R4t8qrJwoaDBg==
@@ -4044,17 +4044,17 @@
     - service: vk
       id: 1701
       published: 2024-08-22-18-19-48
-      updated: 2025-01-17-06-10-48
+      updated: 2025-01-24-06-11-06
       followers: 937
       likes: 31
       views: 281
     - service: tg
       id: 509
       published: 2024-08-22-18-19-55
-      updated: 2025-01-17-06-10-46
+      updated: 2025-01-24-06-11-06
       followers: 539
       likes: 55
-      views: 586
+      views: 588
 2017-04-14-in-the-bar:
   title: In the Bar
   titleRu: У барной стойки
@@ -10381,17 +10381,17 @@
     - service: vk
       id: 1773
       published: 2024-09-19-18-29-58
-      updated: 2025-01-17-06-10-44
+      updated: 2025-01-24-06-11-02
       followers: 948
       likes: 37
       views: 308
     - service: tg
       id: 538
       published: 2024-09-19-18-30-04
-      updated: 2025-01-17-06-10-44
+      updated: 2025-01-24-06-11-02
       followers: 555
       likes: 59
-      views: 543
+      views: 546
 2017-10-10-on-the-pass:
   title: On the Pass
   titleRu: На перевале
