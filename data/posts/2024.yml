@@ -53,7 +53,7 @@
     - service: tg
       id: 330
       published: 2024-02-28-19-19-34
-      updated: 2025-01-16-23-07-58
+      updated: 2025-01-24-00-35-25
       followers: 338
       likes: 74
       views: 622
@@ -2927,10 +2927,10 @@
     - service: vk
       id: 1943
       published: 2024-12-05-18-10-12
-      updated: 2025-01-16-23-07-59
+      updated: 2025-01-24-00-35-26
       followers: 1013
       likes: 63
-      views: 447
+      views: 448
       reposts: 4
       comments: !c |-
         GwUB4CwO7OYtj7Bw2jiP1wqOkDmd/omLRfj1JPVmsiNqSqw4kWQfWTq3UqrNkNw+d4QBHstbS0KX
@@ -2940,10 +2940,10 @@
     - service: tg
       id: 616
       published: 2024-12-05-18-10-19
-      updated: 2025-01-16-23-07-57
+      updated: 2025-01-24-00-35-24
       followers: 578
       likes: 72
-      views: 489
+      views: 490
 2024-12-06-tel-naga-great-hall:
   title: Tel Naga Great Hall
   titleRu: Большой Зал Тель Наги
@@ -3178,7 +3178,7 @@
     - service: vk
       id: 1959
       published: 2024-12-12-18-11-51
-      updated: 2025-01-16-23-07-58
+      updated: 2025-01-24-00-35-25
       followers: 1023
       likes: 45
       views: 362
@@ -3190,10 +3190,10 @@
     - service: tg
       id: 623
       published: 2024-12-12-18-11-57
-      updated: 2025-01-16-23-07-56
+      updated: 2025-01-24-00-35-24
       followers: 580
       likes: 61
-      views: 565
+      views: 567
 2024-12-13-redoran-stronghold-of-molag-mar: 2016-12-06-redoran-stronghold-of-molag-mar
 2024-12-14-gathal-llethri: 2018-11-30-gathal-llethri
 2024-12-15-aleft: 2017-01-26-aleft
@@ -3232,10 +3232,10 @@
     - service: vk
       id: 1991
       published: 2024-12-26-19-32-05
-      updated: 2025-01-16-23-07-56
+      updated: 2025-01-24-00-35-23
       followers: 1031
       likes: 56
-      views: 425
+      views: 427
       reposts: 3
       comments: !c |-
         G+sAOKwOzEOi+ZuB4LkjW4+c/MTz+Dc+wrtnbYWhJVmaBVyCEf797VyouZVSLfGHoAzwBB0cexx5
@@ -3245,10 +3245,10 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2025-01-16-23-07-56
+      updated: 2025-01-24-00-35-23
       followers: 626
       likes: 72
-      views: 516
+      views: 528
 2024-12-27-tiny-boat:
   title: Tiny Boat
   titleRu: Маленькая лодочка
