@@ -96,7 +96,7 @@
     - service: vk
       id: 1977
       published: 2024-12-20-18-10-34
-      updated: 2025-01-17-23-01-30
+      updated: 2025-01-24-23-07-46
       followers: 1027
       likes: 39
       views: 386
@@ -105,10 +105,10 @@
     - service: tg
       id: 631
       published: 2024-12-20-18-10-40
-      updated: 2025-01-17-23-01-30
+      updated: 2025-01-24-23-07-46
       followers: 584
       likes: 59
-      views: 552
+      views: 559
 2020-05-15-brave-riekling:
   title: Brave Riekling
   titleRu: Храбрый рьеклинг
