@@ -2237,18 +2237,18 @@
     - service: vk
       id: 1979
       published: 2024-12-21-18-09-23
-      updated: 2025-01-18-21-01-29
+      updated: 2025-01-25-21-01-53
       followers: 1026
       likes: 45
-      views: 316
+      views: 317
       reposts: 3
     - service: tg
       id: 632
       published: 2024-12-21-18-09-32
-      updated: 2025-01-18-21-01-29
+      updated: 2025-01-25-21-01-52
       followers: 584
       likes: 63
-      views: 624
+      views: 635
       comments: !c iwyAkZPLQnk+pqKHAACnZG1lcGlraKbQktCw0YMD
 2017-02-28-army-of-stone:
   title: Army of Stone
@@ -7227,10 +7227,10 @@
       id: DEseEMkJV7E
       mediaId: '17878492290233748'
       published: 2025-01-11-18-09-39
-      updated: 2025-01-18-21-01-26
+      updated: 2025-01-25-21-01-50
       followers: 1524
-      likes: 136
-      views: 404
+      likes: 139
+      views: 439
       comments: !c |-
         G7kAQIzEdGuHDJP44gyhqZsv0PlTHIcBPjbmsMAmLep8WeABpYHU0yMNw0SCLLDWliRJmpwP+u3C
         J/wbJ7rJLs/LPSzDoIPM/GLrDs8d3yTKokZrP9xUxW9Za3ASTcgW3ERWBH3cj4i0sOBWeQr4v2Pz
@@ -7239,18 +7239,18 @@
     - service: vk
       id: 2040
       published: 2025-01-11-18-09-47
-      updated: 2025-01-18-21-01-26
+      updated: 2025-01-25-21-01-50
       followers: 1050
-      likes: 33
-      views: 298
+      likes: 34
+      views: 310
       reposts: 1
     - service: tg
       id: 660
       published: 2025-01-11-18-09-56
-      updated: 2025-01-18-21-01-27
+      updated: 2025-01-25-21-01-50
       followers: 648
       likes: 58
-      views: 368
+      views: 444
       comments: !c |-
         G3UBICwOeHPoJLQW7EJO+GREFNzoOKHNE8kCSiiBwAMPP4KXWVU34xFWPiQYEoQt30aab+uVxNo5
         Tz9QP5gGy2a4P4kiUmIYNZ6e8D3d5vX69d6LpMRQCJL8vt5XHZ5ogDAKI52VUMgNKND8BNeTJSH+
@@ -7284,25 +7284,25 @@
       id: DFN8igoMuR6
       mediaId: '17899267410033309'
       published: 2025-01-24-18-10-52
-      updated: 2025-01-25-20-07-11
+      updated: 2025-01-25-21-01-48
       followers: 1530
-      likes: 85
-      views: 263
+      likes: 86
+      views: 265
     - service: vk
       id: 2084
       published: 2025-01-24-18-11-00
-      updated: 2025-01-25-20-07-12
+      updated: 2025-01-25-21-01-49
       followers: 1054
       likes: 38
-      views: 175
+      views: 178
       reposts: 3
     - service: tg
       id: 680
       published: 2025-01-24-18-11-10
-      updated: 2025-01-25-20-07-12
+      updated: 2025-01-25-21-01-49
       followers: 656
       likes: 54
-      views: 180
+      views: 183
 2017-07-10-inland-waters:
   title: Inland Waters
   titleRu: Внутренние воды
