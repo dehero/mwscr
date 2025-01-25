@@ -3291,15 +3291,15 @@
     - service: tg
       id: 547
       published: 2024-09-27-18-10-13
-      updated: 2025-01-18-07-01-15
+      updated: 2025-01-25-07-02-12
       followers: 557
       likes: 69
-      views: 550
+      views: 556
       comments: !c iw2AkZPLQnkjerjngACremhlY2hrYV9kcnak8J+YjgM=
     - service: vk
       id: 1786
       published: 2024-09-27-19-01-39
-      updated: 2025-01-18-07-01-15
+      updated: 2025-01-25-07-02-12
       followers: 957
       likes: 41
       views: 347
@@ -7284,25 +7284,25 @@
       id: DFN8igoMuR6
       mediaId: '17899267410033309'
       published: 2025-01-24-18-10-52
-      updated: 2025-01-25-06-09-25
+      updated: 2025-01-25-07-02-09
       followers: 1530
       likes: 70
-      views: 206
+      views: 209
     - service: vk
       id: 2084
       published: 2025-01-24-18-11-00
-      updated: 2025-01-25-06-09-25
+      updated: 2025-01-25-07-02-09
       followers: 1054
-      likes: 27
-      views: 101
+      likes: 28
+      views: 109
       reposts: 3
     - service: tg
       id: 680
       published: 2025-01-24-18-11-10
-      updated: 2025-01-25-06-09-25
+      updated: 2025-01-25-07-02-09
       followers: 656
-      likes: 43
-      views: 137
+      likes: 45
+      views: 140
 2017-07-10-inland-waters:
   title: Inland Waters
   titleRu: Внутренние воды
