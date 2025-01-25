@@ -577,7 +577,7 @@
     - service: vk
       id: 1491
       published: 2024-04-12-18-14-50
-      updated: 2025-01-18-15-02-15
+      updated: 2025-01-25-16-07-21
       followers: 911
       likes: 35
       views: 269
@@ -585,7 +585,7 @@
     - service: tg
       id: 376
       published: 2024-04-12-18-15-00
-      updated: 2025-01-18-15-01-58
+      updated: 2025-01-25-16-07-20
       followers: 352
       likes: 70
       views: 470
@@ -4600,14 +4600,14 @@
     - service: vk
       id: 1545
       published: 2024-05-24-18-19-24
-      updated: 2025-01-18-15-02-11
+      updated: 2025-01-25-16-07-20
       followers: 917
       likes: 38
       views: 292
     - service: tg
       id: 418
       published: 2024-05-24-18-19-31
-      updated: 2025-01-18-15-01-57
+      updated: 2025-01-25-16-07-19
       followers: 376
       likes: 57
       views: 508
@@ -7284,22 +7284,22 @@
       id: DFN8igoMuR6
       mediaId: '17899267410033309'
       published: 2025-01-24-18-10-52
-      updated: 2025-01-25-15-01-19
+      updated: 2025-01-25-16-07-17
       followers: 1530
-      likes: 78
-      views: 247
+      likes: 80
+      views: 250
     - service: vk
       id: 2084
       published: 2025-01-24-18-11-00
-      updated: 2025-01-25-15-01-20
+      updated: 2025-01-25-16-07-17
       followers: 1054
-      likes: 34
-      views: 157
+      likes: 35
+      views: 161
       reposts: 3
     - service: tg
       id: 680
       published: 2025-01-24-18-11-10
-      updated: 2025-01-25-15-01-20
+      updated: 2025-01-25-16-07-18
       followers: 656
       likes: 50
       views: 158
