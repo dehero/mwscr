@@ -4,7 +4,39 @@
 
 # Posted in 2025
 
-`24 items`
+`25 items`
+
+## <span id="2025-01-25-sunset-ridge">Sunset Ridge</span>
+
+`RU` Закатный хребет
+
+<a href="https://instagram.com/p/B31OVTChh1C/" title="2019-10-20-sunset-ridge"><img alt="store:/shots/2019-10-20-sunset-ridge.png" src="../../assets/previews/shots/2019-10-20-sunset-ridge.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-01-25-sunset-ridge&postLocation=)</code> `🚀 OpenMW`
+
+```
+2025-01-25-sunset-ridge
+```
+
+> `2019-10-20-sunset-ridge`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/B31OVTChh1C/)       | 2019-10-20 |       |   161 |       837 |  19.24 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1201) | 2019-10-20 |   833 |    48 |       370 |  12.97 |
+| [`tg`](https://t.me/mwscr/200)                     | 2019-10-20 |   942 |     2 |           |        |
+| [`ig`](https://instagram.com/p/DFQhKTwzYmm/)       | 2025-01-25 |       |       |      1529 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2086) | 2025-01-25 |       |       |      1054 |        |
+| [`tg`](https://t.me/mwscr/681)                     | 2025-01-25 |       |       |       658 |        |
+|                                                    |            |       |       |      3241 |   16.1 |
+
+#### Comments
+
+- `vk` <ins title="2019-10-20-14-47-10">id4936513</ins> Что ж красиво-то так!
 
 ## <span id="2025-01-24-near-mining-company-office">Near Mining Company Office</span>
 
@@ -28,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWUanZtjxTc/)       | 2017-07-09 |       |    57 |       188 |  30.32 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_348)  | 2017-07-09 |   107 |     6 |        66 |   9.09 |
-| [`ig`](https://instagram.com/p/DFN8igoMuR6/)       | 2025-01-24 |   253 |    82 |      1530 |   5.36 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2084) | 2025-01-24 |   164 |    36 |      1054 |    3.7 |
+| [`ig`](https://instagram.com/p/DFN8igoMuR6/)       | 2025-01-24 |   261 |    83 |      1530 |   5.42 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2084) | 2025-01-24 |   166 |    37 |      1054 |    3.8 |
 | [`tg`](https://t.me/mwscr/680)                     | 2025-01-24 |   159 |    50 |       656 |   7.62 |
-|                                                    |            |   576 |   168 |      3240 |  11.22 |
+|                                                    |            |   586 |   170 |      3240 |  11.25 |
 
 ## <span id="2025-01-23-eternal-halt">Eternal Halt</span>
 
@@ -51,10 +83,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFLcUlsuE4R/)       | 2025-01-23 |   751 |   131 |      1528 |   8.57 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2079) | 2025-01-23 |   314 |    48 |      1054 |   5.12 |
+| [`ig`](https://instagram.com/p/DFLcUlsuE4R/)       | 2025-01-23 |   753 |   134 |      1528 |   8.77 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2079) | 2025-01-23 |   315 |    48 |      1054 |   5.12 |
 | [`tg`](https://t.me/mwscr/679)                     | 2025-01-23 |   223 |    64 |       655 |   9.77 |
-|                                                    |            |  1288 |   243 |      3237 |   7.82 |
+|                                                    |            |  1291 |   246 |      3237 |   7.89 |
 
 #### Comments
 
