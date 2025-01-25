@@ -2349,25 +2349,25 @@
       id: DFBEXoPSXmc
       mediaId: '17980418576651269'
       published: 2025-01-19-18-09-10
-      updated: 2025-01-24-18-10-30
+      updated: 2025-01-25-19-01-33
       followers: 1528
-      likes: 75
-      views: 258
+      likes: 76
+      views: 262
     - service: vk
       id: 2072
       published: 2025-01-19-18-09-17
-      updated: 2025-01-24-18-10-32
+      updated: 2025-01-25-19-01-33
       followers: 1054
-      likes: 35
-      views: 259
+      likes: 36
+      views: 274
       reposts: 2
     - service: tg
       id: 672
       published: 2025-01-19-18-09-23
-      updated: 2025-01-24-18-10-32
+      updated: 2025-01-25-19-01-31
       followers: 655
-      likes: 61
-      views: 315
+      likes: 64
+      views: 334
       comments: !c Cw+AkZPLQnlH/DsZgACvVmFpbCBBc3Rvcid6a2l5o3dvdwM=
 2018-03-07-in-the-yard-of-wolverine-hall:
   title: In the Yard of Wolverine Hall
@@ -3606,18 +3606,22 @@
       id: DFGONk_zuDM
       mediaId: '18039249929460023'
       published: 2025-01-21-18-11-24
-      updated: 2025-01-24-18-10-30
+      updated: 2025-01-25-19-01-31
       followers: 1529
-      likes: 127
-      views: 414
+      likes: 129
+      views: 430
     - service: vk
       id: 2075
       published: 2025-01-21-18-11-42
-      updated: 2025-01-24-18-10-31
+      updated: 2025-01-25-19-01-31
       followers: 1054
-      likes: 42
-      views: 327
+      likes: 44
+      views: 348
       reposts: 6
+      comments: !c |-
+        G/AA6B0Hdiyz8HB04MYu/p/nZCP8x7ehD7ETSeLJfaAFpW7GmEkSLPJ5WlI2erNqW+40ShKTtn+Y
+        52aJATbgxAPjgVYaSHerCXaWqAi83l+u4v+/eByfJ06rwBM8zbUcM9D1771OuAOE4rEAw2qZjdlz
+        qD6nqaHTGk93+lcf4YowO0gzUExD/o5rBnnl580VQAR6ehGU1JEKYIpaYu3nlIZH0GIzKUT0uwE=
     - service: tg
       id:
         - 674
@@ -3625,10 +3629,10 @@
         - 676
         - 677
       published: 2025-01-21-18-12-00
-      updated: 2025-01-24-18-10-31
+      updated: 2025-01-25-19-01-30
       followers: 654
-      likes: 63
-      views: 247
+      likes: 68
+      views: 301
 2018-04-09-empty-arena:
   title: Empty Arena
   titleRu: Пустая Арена
