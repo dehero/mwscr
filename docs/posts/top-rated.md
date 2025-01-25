@@ -83,7 +83,6 @@
 
 - `ig` <ins title="2018-02-04-15-30-17">mwscr</ins> Experimental format: weekend thematic set of four past shots.
 - `vk` <ins title="2018-02-04-15-34-59">mwscr</ins> Экспериментальный формат по выходным: тематическая подборка из четырёх старых скриншотов.
-- `ig` <ins title="2018-02-05-05-01-51">syfy_bioware123</ins> Nice
 - `ig` <ins title="2018-09-04-10-43-00">m4niou</ins> this is just like Sadrith Mora looked like when I first saw it ♥ I fell in love instantly and joined House Telvanni right away 😂
 
 ## <span id="2017-12-24-little-helper">Little Helper</span>
@@ -823,34 +822,6 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_51) | 2017-01-22 |    90 |     2 |         4 |      2 |
 |                                                  |            |    90 |    34 |        63 |  28.12 |
 
-## <span id="2018-06-15-under-the-magic-eye">Under the Magic Eye</span>
-
-`RU` Под магическим глазом
-
-<a href="https://instagram.com/p/BkDhnF8lx7i/" title="2018-06-15-under-the-magic-eye"><img alt="store:/shots/2018-06-15-under-the-magic-eye.png" src="../../assets/previews/shots/2018-06-15-under-the-magic-eye.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B1` `📍 Balmora` `🚀 OpenMW`
-
-```
-2018-06-15-under-the-magic-eye
-```
-
-### Reactions
-
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BkDhnF8lx7i/)      | 2018-06-15 |       |   156 |       345 |  45.22 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_767) | 2018-06-15 |   262 |    19 |       174 |  10.92 |
-|                                                   |            |   262 |   175 |       519 |  28.07 |
-
-#### Comments
-
-- `ig` <ins title="2018-06-15-18-21-07">verian21</ins> I used to steal soul gems from that asshole bosmer girl in there :D
-  - <ins title="2018-06-15-18-25-55">ekaterina_ber_12</ins> lol
-- `vk` <ins title="2018-06-16-15-51-39">id402400667</ins> добра и счастья всем! Подскажите поалуйста как скачать Морровинд бесплатно. желательно сайт. соскучился очень
-
 ## <span id="2018-05-29-at-the-tops-of-fir-trees">At the Tops of Fir-Trees</span>
 
 `RU` В вершинах елей
@@ -975,6 +946,34 @@
 | [`ig`](https://instagram.com/p/Bh4gKCnl0Qj/)      | 2018-04-22 |       |   126 |       318 |  39.62 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_696) | 2018-04-22 |   221 |    25 |       154 |  16.23 |
 |                                                   |            |   221 |   151 |       472 |  27.93 |
+
+## <span id="2018-06-15-under-the-magic-eye">Under the Magic Eye</span>
+
+`RU` Под магическим глазом
+
+<a href="https://instagram.com/p/BkDhnF8lx7i/" title="2018-06-15-under-the-magic-eye"><img alt="store:/shots/2018-06-15-under-the-magic-eye.png" src="../../assets/previews/shots/2018-06-15-under-the-magic-eye.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Balmora` `🚀 OpenMW`
+
+```
+2018-06-15-under-the-magic-eye
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BkDhnF8lx7i/)      | 2018-06-15 |       |   155 |       345 |  44.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_767) | 2018-06-15 |   262 |    19 |       174 |  10.92 |
+|                                                   |            |   262 |   174 |       519 |  27.92 |
+
+#### Comments
+
+- `ig` <ins title="2018-06-15-18-21-07">verian21</ins> I used to steal soul gems from that asshole bosmer girl in there :D
+  - <ins title="2018-06-15-18-25-55">ekaterina_ber_12</ins> lol
+- `vk` <ins title="2018-06-16-15-51-39">id402400667</ins> добра и счастья всем! Подскажите поалуйста как скачать Морровинд бесплатно. желательно сайт. соскучился очень
 
 ## <span id="2018-02-25-la-va-land">La-Va Land</span>
 
