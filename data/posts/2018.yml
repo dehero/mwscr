@@ -3737,7 +3737,7 @@
     - service: vk
       id: 1855
       published: 2024-10-25-18-10-15
-      updated: 2025-01-18-06-09-19
+      updated: 2025-01-25-06-09-27
       followers: 997
       likes: 41
       views: 304
@@ -3751,10 +3751,10 @@
     - service: tg
       id: 575
       published: 2024-10-25-18-10-23
-      updated: 2025-01-18-06-09-18
+      updated: 2025-01-25-06-09-26
       followers: 563
       likes: 60
-      views: 570
+      views: 572
 2018-04-12-mushroom-stairs:
   title: Mushroom Stairs
   titleRu: Грибная лестница
@@ -11404,7 +11404,7 @@
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2025-01-18-06-09-20
+      updated: 2025-01-25-06-09-28
       followers: 961
       likes: 31
       views: 332
