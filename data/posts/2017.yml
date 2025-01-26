@@ -2125,7 +2125,7 @@
     - service: vk
       id: 1927
       published: 2024-11-30-18-09-35
-      updated: 2025-01-19-03-12-41
+      updated: 2025-01-26-04-08-59
       followers: 1012
       likes: 38
       views: 306
@@ -2133,10 +2133,10 @@
     - service: tg
       id: 611
       published: 2024-11-30-18-09-42
-      updated: 2025-01-19-03-12-40
+      updated: 2025-01-26-04-08-59
       followers: 576
       likes: 60
-      views: 582
+      views: 585
     - service: ig
       id: DDFQmrONeev
       mediaId: '17864652573276614'
@@ -2658,20 +2658,20 @@
     - service: vk
       id: 1887
       published: 2024-11-09-18-08-47
-      updated: 2025-01-19-03-12-44
+      updated: 2025-01-26-04-09-02
       followers: 1006
       likes: 55
-      views: 362
+      views: 363
       comments: !c |-
         G2wA+C0OzHOdDmzoisHxBSnkR1HcIvzxJOMo8CTBJpHIkz3Mbeys0xmFSEJobmPt3Tmt25QgCLJM
         NrrNoAmfwiBxP59f27nb8h6cHX+oPlDn4tRSxaGBkCzrtA7L+CADgUw7jhpGVAM=
     - service: tg
       id: 590
       published: 2024-11-09-18-09-56
-      updated: 2025-01-19-03-12-41
+      updated: 2025-01-26-04-09-01
       followers: 564
       likes: 64
-      views: 620
+      views: 624
 2017-03-10-aldruhn-guild-of-mages:
   title: Ald'ruhn, Guild of Mages
   titleRu: Альд'рун, Гильдия Магов
@@ -7284,14 +7284,14 @@
       id: DFN8igoMuR6
       mediaId: '17899267410033309'
       published: 2025-01-24-18-10-52
-      updated: 2025-01-26-03-10-43
+      updated: 2025-01-26-04-08-59
       followers: 1530
       likes: 87
-      views: 275
+      views: 276
     - service: vk
       id: 2084
       published: 2025-01-24-18-11-00
-      updated: 2025-01-26-03-10-43
+      updated: 2025-01-26-04-08-58
       followers: 1054
       likes: 40
       views: 182
@@ -7299,7 +7299,7 @@
     - service: tg
       id: 680
       published: 2025-01-24-18-11-10
-      updated: 2025-01-26-03-10-43
+      updated: 2025-01-26-04-08-58
       followers: 656
       likes: 54
       views: 192
@@ -7495,7 +7495,7 @@
     - service: vk
       id: 1464
       published: 2024-03-22-18-12-46
-      updated: 2025-01-19-03-12-47
+      updated: 2025-01-26-04-09-05
       followers: 896
       likes: 34
       views: 321
@@ -7879,10 +7879,10 @@
     - service: tg
       id: 583
       published: 2024-11-02-18-09-25
-      updated: 2025-01-19-03-12-42
+      updated: 2025-01-26-04-09-02
       followers: 565
       likes: 62
-      views: 585
+      views: 590
       comments: !c |-
         Cx2AkZPLQnku4vuTAACtTG9mdHlkZWx1c2lvbtkgSGFpbCB0byB0aGV5IGFyZSBmYXRoZXIgc3Bs
         aW50ZXID
@@ -10135,7 +10135,7 @@
     - service: vk
       id: 1483
       published: 2024-04-05-18-17-17
-      updated: 2025-01-19-03-12-45
+      updated: 2025-01-26-04-09-04
       followers: 908
       likes: 36
       views: 271
