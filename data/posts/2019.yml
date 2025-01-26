@@ -2177,25 +2177,26 @@
       id: DFQhKTwzYmm
       mediaId: '18085898038560737'
       published: 2025-01-25-18-09-22
-      updated: 2025-01-26-02-09-27
+      updated: 2025-01-26-03-10-42
       followers: 1529
-      likes: 53
-      views: 156
+      likes: 54
+      views: 159
+      comments: !c CxaAkZPLQnlKBpwagACpbnk3NHRfNHJ0t1ByZXR0aWVyIHRoYW4gcmVhbCBsaWZlAw==
     - service: vk
       id: 2086
       published: 2025-01-25-18-09-30
-      updated: 2025-01-26-02-09-28
+      updated: 2025-01-26-03-10-42
       followers: 1054
       likes: 14
-      views: 95
+      views: 97
       reposts: 1
     - service: tg
       id: 681
       published: 2025-01-25-18-09-38
-      updated: 2025-01-26-02-09-28
+      updated: 2025-01-26-03-10-42
       followers: 658
       likes: 39
-      views: 119
+      views: 123
 2019-10-21-skaal-circle:
   title: Skaal Circle
   titleRu: Круг Скаалов
