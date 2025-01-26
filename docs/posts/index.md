@@ -4,7 +4,30 @@
 
 # Posted in 2025
 
-`25 items`
+`26 items`
+
+## <span id="2025-01-26-dark-moon">Dark Moon</span>
+
+`RU` Тёмная луна
+
+<a href="https://instagram.com/p/DFTF9snJKLL/" title="2025-01-26-dark-moon"><img alt="store:/shots/2025-01-26-dark-moon.png" src="../../assets/previews/shots/2025-01-26-dark-moon.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Vivec, Temple` `📍 Vivec, St. Delyn` `🚀 OpenMW` `moon` `night` `sky`
+
+```
+2025-01-26-dark-moon
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DFTF9snJKLL/)       | 2025-01-26 |      1531 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2089) | 2025-01-26 |      1055 |
+| [`tg`](https://t.me/mwscr/682)                     | 2025-01-26 |       660 |
+|                                                    |            |      3246 |
 
 ## <span id="2025-01-25-sunset-ridge">Sunset Ridge</span>
 
@@ -29,10 +52,10 @@
 | [`ig`](https://instagram.com/p/B31OVTChh1C/)       | 2019-10-20 |       |   161 |       837 |  19.24 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1201) | 2019-10-20 |   833 |    48 |       370 |  12.97 |
 | [`tg`](https://t.me/mwscr/200)                     | 2019-10-20 |   942 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DFQhKTwzYmm/)       | 2025-01-25 |   217 |    70 |      1529 |   4.58 |
+| [`ig`](https://instagram.com/p/DFQhKTwzYmm/)       | 2025-01-25 |   224 |    73 |      1529 |   4.77 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2086) | 2025-01-25 |   139 |    21 |      1054 |   2.09 |
-| [`tg`](https://t.me/mwscr/681)                     | 2025-01-25 |   169 |    46 |       658 |   6.99 |
-|                                                    |            |   525 |   137 |      3241 |   9.17 |
+| [`tg`](https://t.me/mwscr/681)                     | 2025-01-25 |   173 |    47 |       658 |   7.14 |
+|                                                    |            |   536 |   141 |      3241 |   9.24 |
 
 #### Comments
 
@@ -61,10 +84,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWUanZtjxTc/)       | 2017-07-09 |       |    57 |       188 |  30.32 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_348)  | 2017-07-09 |   107 |     6 |        66 |   9.09 |
-| [`ig`](https://instagram.com/p/DFN8igoMuR6/)       | 2025-01-24 |   292 |    90 |      1530 |   5.88 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2084) | 2025-01-24 |   201 |    41 |      1054 |   4.17 |
-| [`tg`](https://t.me/mwscr/680)                     | 2025-01-24 |   214 |    56 |       656 |   8.54 |
-|                                                    |            |   707 |   187 |      3240 |   11.6 |
+| [`ig`](https://instagram.com/p/DFN8igoMuR6/)       | 2025-01-24 |   294 |    91 |      1530 |   5.95 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2084) | 2025-01-24 |   202 |    41 |      1054 |   4.17 |
+| [`tg`](https://t.me/mwscr/680)                     | 2025-01-24 |   216 |    56 |       656 |   8.54 |
+|                                                    |            |   712 |   188 |      3240 |  11.61 |
 
 ## <span id="2025-01-23-eternal-halt">Eternal Halt</span>
 

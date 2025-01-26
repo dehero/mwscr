@@ -148,3 +148,32 @@
       views: 223
 2025-01-24-near-mining-company-office: 2017-07-09-near-mining-company-office
 2025-01-25-sunset-ridge: 2019-10-20-sunset-ridge
+2025-01-26-dark-moon:
+  title: Dark Moon
+  titleRu: Тёмная луна
+  location:
+    - Vivec, Temple
+    - Vivec, St. Delyn
+  content: store:/shots/2025-01-26-dark-moon.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - moon
+    - night
+    - sky
+  mark: A2
+  posts:
+    - service: ig
+      id: DFTF9snJKLL
+      mediaId: '18002990525547261'
+      published: 2025-01-26-18-09-25
+      followers: 1531
+    - service: vk
+      id: 2089
+      published: 2025-01-26-18-09-31
+      followers: 1055
+    - service: tg
+      id: 682
+      published: 2025-01-26-18-09-37
+      followers: 660
