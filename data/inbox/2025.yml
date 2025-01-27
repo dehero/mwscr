@@ -67,9 +67,18 @@ dehero.2025-01-19-19-23-17:
   type: shot
   author: dehero
 dehero.2025-01-19-19-26-49:
-  content:
-    - store:/inbox/dehero.2025-01-19-19-26-49.1.png
-    - store:/inbox/dehero.2025-01-19-19-26-49.png
+  title: Smokey Morth
+  titleRu: Смоки Морт
+  location: Vos, Varo Tradehouse
+  content: store:/inbox/dehero.2025-01-19-19-26-49.1.png
+  trash:
     - store:/inbox/dehero.2025-01-19-19-27-14.png
+    - store:/inbox/dehero.2025-01-19-19-26-49.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - book
+    - candle
+    - mushroom
+  mark: B2

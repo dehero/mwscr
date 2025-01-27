@@ -4,7 +4,28 @@
 
 # Shortlist
 
-`1 items`
+`2 items`
+
+## <span id="dehero.2025-01-19-19-26-49">Smokey Morth</span>
+
+`RU` Смоки Морт
+
+![store:/inbox/dehero.2025-01-19-19-26-49.1.png](../../assets/previews/inbox/dehero.2025-01-19-19-26-49.1.avif "dehero.2025-01-19-19-26-49.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2025-01-19-19-27-14.png](../../assets/previews/inbox/dehero.2025-01-19-19-27-14.avif "dehero.2025-01-19-19-27-14")
+![store:/inbox/dehero.2025-01-19-19-26-49.png](../../assets/previews/inbox/dehero.2025-01-19-19-26-49.avif "dehero.2025-01-19-19-26-49")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-01-19-19-26-49&amp;postContent=store%3A%2Finbox%2Fdehero.2025-01-19-19-26-49.1.png&amp;postTitle=Smokey+Morth&amp;postTitleRu=%D0%A1%D0%BC%D0%BE%D0%BA%D0%B8+%D0%9C%D0%BE%D1%80%D1%82&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=book+candle+mushroom&amp;postLocation=Vos%2C+Varo+Tradehouse&amp;postMark=B2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-01-19-19-27-14.png%0Astore%3A%2Finbox%2Fdehero.2025-01-19-19-26-49.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2025-01-19-19-26-49&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-01-19-19-26-49&amp;mergeWithIds=) `B2` `📍 Vos, Varo Tradehouse` `🚀 OpenMW` `book` `candle` `mushroom`
+
+```
+dehero.2025-01-19-19-26-49
+```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
 
