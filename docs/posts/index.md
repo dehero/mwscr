@@ -4,7 +4,30 @@
 
 # Posted in 2025
 
-`26 items`
+`27 items`
+
+## <span id="2025-01-27-fishing-in-the-rain">Fishing in the Rain</span>
+
+`RU` Рыбалка под дождём
+
+<a href="https://instagram.com/p/DFVq7NZtJkU/" title="2025-01-27-fishing-in-the-rain"><img alt="store:/shots/2025-01-27-fishing-in-the-rain.png" src="../../assets/previews/shots/2025-01-27-fishing-in-the-rain.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Ald Velothi` `🚀 OpenMW` `rain` `fishingrod` `bottle` `stool` `ship` `water`
+
+```
+2025-01-27-fishing-in-the-rain
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DFVq7NZtJkU/)       | 2025-01-27 |      1534 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2090) | 2025-01-27 |      1055 |
+| [`tg`](https://t.me/mwscr/683)                     | 2025-01-27 |       662 |
+|                                                    |            |      3251 |
 
 ## <span id="2025-01-26-dark-moon">Dark Moon</span>
 
@@ -24,10 +47,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFTF9snJKLL/)       | 2025-01-26 |   499 |    91 |      1531 |   5.94 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2089) | 2025-01-26 |   195 |    37 |      1055 |   3.79 |
-| [`tg`](https://t.me/mwscr/682)                     | 2025-01-26 |   200 |    56 |       660 |   8.48 |
-|                                                    |            |   894 |   184 |      3246 |   6.07 |
+| [`ig`](https://instagram.com/p/DFTF9snJKLL/)       | 2025-01-26 |   519 |    93 |      1531 |   6.07 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2089) | 2025-01-26 |   202 |    39 |      1055 |   4.08 |
+| [`tg`](https://t.me/mwscr/682)                     | 2025-01-26 |   201 |    56 |       660 |   8.48 |
+|                                                    |            |   922 |   188 |      3246 |   6.21 |
 
 #### Comments
 
@@ -91,10 +114,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWUanZtjxTc/)       | 2017-07-09 |       |    57 |       188 |  30.32 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_348)  | 2017-07-09 |   107 |     6 |        66 |   9.09 |
-| [`ig`](https://instagram.com/p/DFN8igoMuR6/)       | 2025-01-24 |   294 |    91 |      1530 |   5.95 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2084) | 2025-01-24 |   202 |    41 |      1054 |   4.17 |
-| [`tg`](https://t.me/mwscr/680)                     | 2025-01-24 |   216 |    56 |       656 |   8.54 |
-|                                                    |            |   712 |   188 |      3240 |  11.61 |
+| [`ig`](https://instagram.com/p/DFN8igoMuR6/)       | 2025-01-24 |   308 |    93 |      1530 |   6.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2084) | 2025-01-24 |   234 |    46 |      1054 |   4.65 |
+| [`tg`](https://t.me/mwscr/680)                     | 2025-01-24 |   252 |    64 |       656 |   9.76 |
+|                                                    |            |   794 |   203 |      3240 |  11.98 |
 
 ## <span id="2025-01-23-eternal-halt">Eternal Halt</span>
 

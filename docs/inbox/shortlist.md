@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`3 items`
+`2 items`
 
 ## <span id="dehero.2025-01-19-19-26-49">Smokey Morth</span>
 
@@ -25,26 +25,6 @@
 
 ```
 dehero.2025-01-19-19-26-49
-```
-
-## <span id="dehero.2025-01-19-18-36-32">Fishing in the Rain</span>
-
-`RU` Рыбалка под дождём
-
-![store:/inbox/dehero.2025-01-19-18-36-32.1.png](../../assets/previews/inbox/dehero.2025-01-19-18-36-32.1.avif "dehero.2025-01-19-18-36-32.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2025-01-19-18-36-32.png](../../assets/previews/inbox/dehero.2025-01-19-18-36-32.avif "dehero.2025-01-19-18-36-32")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-01-19-18-36-32&amp;postContent=store%3A%2Finbox%2Fdehero.2025-01-19-18-36-32.1.png&amp;postTitle=Fishing+in+the+Rain&amp;postTitleRu=%D0%A0%D1%8B%D0%B1%D0%B0%D0%BB%D0%BA%D0%B0+%D0%BF%D0%BE%D0%B4+%D0%B4%D0%BE%D0%B6%D0%B4%D1%91%D0%BC&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=rain+fishingrod+bottle+stool+ship+water&amp;postLocation=Ald+Velothi&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-01-19-18-36-32.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2025-01-19-18-36-32&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-01-19-18-36-32&amp;mergeWithIds=) `B1` `📍 Ald Velothi` `🚀 OpenMW` `rain` `fishingrod` `bottle` `stool` `ship` `water`
-
-```
-dehero.2025-01-19-18-36-32
 ```
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
