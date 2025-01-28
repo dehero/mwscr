@@ -235,7 +235,7 @@
     - service: vk
       id: 56
       published: 2017-01-22
-      updated: 2025-01-21-21-03-08
+      updated: 2025-01-28-22-07-13
       likes: 5
       views: 72
     - service: ig
@@ -2484,10 +2484,10 @@
     - service: vk
       id: 1988
       published: 2024-12-24-18-10-38
-      updated: 2025-01-21-22-07-04
+      updated: 2025-01-28-22-07-10
       followers: 1028
       likes: 47
-      views: 394
+      views: 396
       reposts: 4
       comments: !c |-
         G+UAyJwHtqOdVUH8g2aySSee+J2kl0dhnkGGexMb6eQfpG6EERIlL7BmfAVh0bnFCjAgspnT0aDF
@@ -2496,10 +2496,10 @@
     - service: tg
       id: 636
       published: 2024-12-24-18-10-47
-      updated: 2025-01-21-22-07-03
+      updated: 2025-01-28-22-07-09
       followers: 603
       likes: 64
-      views: 636
+      views: 651
 2017-03-06-night-encounter-at-the-bridge:
   title: Night Encounter at the Bridge
   titleRu: Ночная встреча у моста
@@ -11086,18 +11086,18 @@
       id: DEiLC17uOow
       mediaId: '18081052477524929'
       published: 2025-01-07-18-11-04
-      updated: 2025-01-21-22-07-02
+      updated: 2025-01-28-22-07-08
       followers: 1524
-      likes: 112
-      views: 419
+      likes: 116
+      views: 437
       comments: !c CxiAkZPLQnlEKOv5gACpaXN0c2llbGl6u09uZSBvZiB0aGUgbmljZXN0IHRvd25zIOKcqAM=
     - service: vk
       id: 2028
       published: 2025-01-07-18-11-12
-      updated: 2025-01-21-22-07-03
+      updated: 2025-01-28-22-07-08
       followers: 1049
-      likes: 51
-      views: 362
+      likes: 52
+      views: 371
       reposts: 4
       comments: !c |-
         G5UDQCwPbLcJBLprx+HWndCTiP+nv+f3OaGjzbx/Zz7EkWeJBVwCQZEla4umn/t5X0g9ZQgUkFwK
@@ -11112,10 +11112,10 @@
     - service: tg
       id: 656
       published: 2025-01-07-18-11-21
-      updated: 2025-01-21-22-07-02
+      updated: 2025-01-28-22-07-07
       followers: 646
       likes: 74
-      views: 485
+      views: 519
       comments: !c iw+AkZPLQnlEWvPWAACvQWxleGV5IFN0ZXBhbm92pPCfmI0D
 2017-10-29-wilted-littoral:
   title: Wilted Littoral
