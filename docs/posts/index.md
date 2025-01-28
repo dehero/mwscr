@@ -4,7 +4,36 @@
 
 # Posted in 2025
 
-`27 items`
+`28 items`
+
+## <span id="2025-01-28-smokey-morth">Smokey Morth</span>
+
+`RU` Смоки Морт
+
+<a href="https://instagram.com/p/DFYPtihpryV/" title="2025-01-28-smokey-morth"><img alt="store:/shots/2025-01-28-smokey-morth.png" src="../../assets/previews/shots/2025-01-28-smokey-morth.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2025-01-19-19-27-14.png](../../assets/previews/trash/dehero.2025-01-19-19-27-14.avif "dehero.2025-01-19-19-27-14")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` `📍 Vos, Varo Tradehouse` `🚀 OpenMW` `book` `candle` `mushroom`
+
+```
+2025-01-28-smokey-morth
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DFYPtihpryV/)       | 2025-01-28 |      1535 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2094) | 2025-01-28 |      1056 |
+| [`tg`](https://t.me/mwscr/684)                     | 2025-01-28 |       661 |
+|                                                    |            |      3252 |
 
 ## <span id="2025-01-27-fishing-in-the-rain">Fishing in the Rain</span>
 
@@ -24,10 +53,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFVq7NZtJkU/)       | 2025-01-27 |   295 |    93 |      1534 |   6.06 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2090) | 2025-01-27 |   415 |    51 |      1055 |   5.31 |
+| [`ig`](https://instagram.com/p/DFVq7NZtJkU/)       | 2025-01-27 |   299 |    93 |      1534 |   6.06 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2090) | 2025-01-27 |   424 |    51 |      1055 |   5.31 |
 | [`tg`](https://t.me/mwscr/683)                     | 2025-01-27 |   161 |    57 |       662 |   8.61 |
-|                                                    |            |   871 |   201 |      3251 |   6.66 |
+|                                                    |            |   884 |   201 |      3251 |   6.66 |
 
 #### Comments
 
@@ -88,10 +117,10 @@
 | [`ig`](https://instagram.com/p/B31OVTChh1C/)       | 2019-10-20 |       |   161 |       837 |  19.24 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1201) | 2019-10-20 |   833 |    48 |       370 |  12.97 |
 | [`tg`](https://t.me/mwscr/200)                     | 2019-10-20 |   942 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DFQhKTwzYmm/)       | 2025-01-25 |   257 |    76 |      1529 |   4.97 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2086) | 2025-01-25 |   163 |    23 |      1054 |   2.28 |
-| [`tg`](https://t.me/mwscr/681)                     | 2025-01-25 |   229 |    57 |       658 |   8.66 |
-|                                                    |            |   649 |   156 |      3241 |   9.62 |
+| [`ig`](https://instagram.com/p/DFQhKTwzYmm/)       | 2025-01-25 |   271 |    78 |      1529 |    5.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2086) | 2025-01-25 |   187 |    28 |      1054 |   2.75 |
+| [`tg`](https://t.me/mwscr/681)                     | 2025-01-25 |   244 |    60 |       658 |   9.12 |
+|                                                    |            |   702 |   166 |      3241 |   9.84 |
 
 #### Comments
 
