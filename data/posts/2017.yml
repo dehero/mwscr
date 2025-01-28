@@ -1167,7 +1167,7 @@
     - service: vk
       id: 1531
       published: 2024-05-13-18-17-48
-      updated: 2025-01-21-18-10-34
+      updated: 2025-01-28-19-01-33
       followers: 915
       likes: 35
       views: 260
@@ -1175,10 +1175,10 @@
     - service: tg
       id: 407
       published: 2024-05-13-18-17-54
-      updated: 2025-01-21-18-10-31
+      updated: 2025-01-28-19-01-31
       followers: 370
       likes: 62
-      views: 445
+      views: 446
       comments: !c |-
         iz6AkZTLQnj3MuobgACpR2F0ZW1hdGU3vWhvdyBkbyBpIHN1Ym1pdCBhIHNjcmVlbnNob3Q/k8tC
         ePcy8qcAAKVtd3Njctk5aHR0cHM6Ly9naXRodWIuY29tL2RlaGVyby9td3Njci9ibG9iL21haW4v
@@ -5461,7 +5461,7 @@
     - service: vk
       id: 1456
       published: 2024-03-18-18-11-07
-      updated: 2025-01-21-18-10-39
+      updated: 2025-01-28-19-01-39
       followers: 896
       likes: 32
       views: 281
@@ -5473,10 +5473,10 @@
     - service: tg
       id: 350
       published: 2024-03-18-18-11-16
-      updated: 2025-01-21-18-10-34
+      updated: 2025-01-28-19-01-36
       followers: 353
       likes: 55
-      views: 481
+      views: 482
 2017-05-19-queen-mother-in-her-chambers:
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
@@ -7284,25 +7284,25 @@
       id: DFN8igoMuR6
       mediaId: '17899267410033309'
       published: 2025-01-24-18-10-52
-      updated: 2025-01-27-18-10-28
+      updated: 2025-01-28-19-01-31
       followers: 1530
-      likes: 93
-      views: 308
+      likes: 95
+      views: 315
     - service: vk
       id: 2084
       published: 2025-01-24-18-11-00
-      updated: 2025-01-27-18-10-28
+      updated: 2025-01-28-19-01-30
       followers: 1054
-      likes: 46
-      views: 234
+      likes: 50
+      views: 268
       reposts: 3
     - service: tg
       id: 680
       published: 2025-01-24-18-11-10
-      updated: 2025-01-27-18-10-29
+      updated: 2025-01-28-19-01-30
       followers: 656
-      likes: 64
-      views: 252
+      likes: 66
+      views: 292
 2017-07-10-inland-waters:
   title: Inland Waters
   titleRu: Внутренние воды
@@ -9853,7 +9853,7 @@
     - service: vk
       id: 1548
       published: 2024-05-27-18-19-06
-      updated: 2025-01-21-18-10-32
+      updated: 2025-01-28-19-01-32
       followers: 918
       likes: 36
       views: 270
@@ -11898,17 +11898,17 @@
     - service: vk
       id: 1477
       published: 2024-04-01-18-10-59
-      updated: 2025-01-21-18-10-39
+      updated: 2025-01-28-19-01-38
       followers: 906
       likes: 33
       views: 310
     - service: tg
       id: 364
       published: 2024-04-01-18-11-06
-      updated: 2025-01-21-18-10-34
+      updated: 2025-01-28-19-01-35
       followers: 354
       likes: 61
-      views: 469
+      views: 470
       comments: !c CxOAkZPLQnjps+/8gACoQWVsbGFyaWGyVmVsZGlnIGZpbnQgYmlsZGUhAw==
 2017-11-19-bottle-collection:
   title: Bottle Collection
