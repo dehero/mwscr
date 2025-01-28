@@ -24,14 +24,15 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFVq7NZtJkU/)       | 2025-01-27 |   238 |    81 |      1534 |   5.28 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2090) | 2025-01-27 |   299 |    39 |      1055 |   4.08 |
-| [`tg`](https://t.me/mwscr/683)                     | 2025-01-27 |   142 |    54 |       662 |   8.16 |
-|                                                    |            |   679 |   174 |      3251 |   5.84 |
+| [`ig`](https://instagram.com/p/DFVq7NZtJkU/)       | 2025-01-27 |   243 |    83 |      1534 |   5.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2090) | 2025-01-27 |   312 |    39 |      1055 |   4.08 |
+| [`tg`](https://t.me/mwscr/683)                     | 2025-01-27 |   147 |    54 |       662 |   8.16 |
+|                                                    |            |   702 |   176 |      3251 |   5.88 |
 
 #### Comments
 
 - `vk` <ins title="2025-01-28-04-03-41">id889222999</ins> Буквально всё за чем идут на берег - посидеть и подумать о жизни ))
+- `ig` <ins title="2025-01-28-08-59-35">roastduckmeme</ins> would you ever screenshot Tamriel Rebuilt or Project Tamriel content?
 
 ## <span id="2025-01-26-dark-moon">Dark Moon</span>
 
@@ -51,10 +52,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFTF9snJKLL/)       | 2025-01-26 |   565 |    97 |      1531 |   6.34 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2089) | 2025-01-26 |   231 |    42 |      1055 |   4.36 |
-| [`tg`](https://t.me/mwscr/682)                     | 2025-01-26 |   226 |    63 |       660 |   9.55 |
-|                                                    |            |  1022 |   202 |      3246 |   6.75 |
+| [`ig`](https://instagram.com/p/DFTF9snJKLL/)       | 2025-01-26 |   568 |    97 |      1531 |   6.34 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2089) | 2025-01-26 |   232 |    42 |      1055 |   4.36 |
+| [`tg`](https://t.me/mwscr/682)                     | 2025-01-26 |   228 |    63 |       660 |   9.55 |
+|                                                    |            |  1028 |   202 |      3246 |   6.75 |
 
 #### Comments
 
