@@ -211,14 +211,14 @@
     - service: vk
       id: 1585
       published: 2024-06-17-18-19-59
-      updated: 2025-01-21-13-15-02
+      updated: 2025-01-28-14-01-33
       followers: 918
       likes: 33
       views: 270
     - service: tg
       id: 442
       published: 2024-06-17-18-20-05
-      updated: 2025-01-21-13-15-01
+      updated: 2025-01-28-14-01-29
       followers: 385
       likes: 58
       views: 480
@@ -5665,7 +5665,7 @@
     - service: vk
       id: 1610
       published: 2024-07-01-18-20-13
-      updated: 2025-01-21-13-15-01
+      updated: 2025-01-28-14-01-32
       followers: 918
       likes: 54
       views: 329
@@ -5673,7 +5673,7 @@
     - service: tg
       id: 456
       published: 2024-07-01-18-20-19
-      updated: 2025-01-21-13-15-00
+      updated: 2025-01-28-14-01-28
       followers: 390
       likes: 61
       views: 478
@@ -7162,7 +7162,7 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2025-01-21-13-14-59
+      updated: 2025-01-28-14-01-31
       followers: 919
       likes: 37
       views: 291
@@ -7176,10 +7176,10 @@
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2025-01-21-13-14-59
+      updated: 2025-01-28-14-01-28
       followers: 395
       likes: 60
-      views: 492
+      views: 493
       comments: !c CxiAkZPLQnkP1+/4gACpR2F0ZW1hdGU3u2hhdHcgdGhlc2UgbW90aGVyIGZ1Y2tlcnMuLgM=
     - service: ig
       id: C9Ug-PYxnq2
@@ -9903,7 +9903,7 @@
     - service: vk
       id: 1688
       published: 2024-08-12-18-30-39
-      updated: 2025-01-21-13-14-55
+      updated: 2025-01-28-14-01-26
       followers: 931
       likes: 41
       views: 307
@@ -9911,10 +9911,10 @@
     - service: tg
       id: 499
       published: 2024-08-12-18-30-46
-      updated: 2025-01-21-13-14-55
+      updated: 2025-01-28-14-01-25
       followers: 523
       likes: 60
-      views: 580
+      views: 581
       comments: !c |-
         G44A4MX/Oi0CGX8WDsU7YHi3p9S/V8UaaGviB3QecLPiWqVZOaJFmgQeslZeTDbmtTv+4o1/eGee
         dyuYUx1zKvoyrJipVECQqqtIHQhO4aM4sZ4q+pfzvVoqSC1Z9YZgJZ+Pe9FXVBHYXK00xLDdoNJg
@@ -10059,7 +10059,7 @@
     - service: vk
       id: 1650
       published: 2024-07-22-18-20-29
-      updated: 2025-01-21-13-14-58
+      updated: 2025-01-28-14-01-29
       followers: 920
       likes: 38
       views: 309
@@ -10071,10 +10071,10 @@
     - service: tg
       id: 477
       published: 2024-07-22-18-20-38
-      updated: 2025-01-21-13-14-57
+      updated: 2025-01-28-14-01-26
       followers: 400
       likes: 64
-      views: 597
+      views: 598
 2017-09-28-mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
@@ -10577,7 +10577,7 @@
     - service: vk
       id: 1638
       published: 2024-07-15-18-20-44
-      updated: 2025-01-21-13-14-59
+      updated: 2025-01-28-14-01-30
       followers: 919
       likes: 42
       views: 269
@@ -10585,10 +10585,10 @@
     - service: tg
       id: 470
       published: 2024-07-15-18-20-51
-      updated: 2025-01-21-13-14-58
+      updated: 2025-01-28-14-01-27
       followers: 399
       likes: 62
-      views: 779
+      views: 780
 2017-10-15-mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров
