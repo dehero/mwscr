@@ -24,15 +24,16 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFVq7NZtJkU/)       | 2025-01-27 |   243 |    83 |      1534 |   5.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2090) | 2025-01-27 |   312 |    39 |      1055 |   4.08 |
-| [`tg`](https://t.me/mwscr/683)                     | 2025-01-27 |   147 |    54 |       662 |   8.16 |
-|                                                    |            |   702 |   176 |      3251 |   5.88 |
+| [`ig`](https://instagram.com/p/DFVq7NZtJkU/)       | 2025-01-27 |   251 |    85 |      1534 |   5.54 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2090) | 2025-01-27 |   330 |    43 |      1055 |   4.45 |
+| [`tg`](https://t.me/mwscr/683)                     | 2025-01-27 |   151 |    55 |       662 |   8.31 |
+|                                                    |            |   732 |   183 |      3251 |    6.1 |
 
 #### Comments
 
 - `vk` <ins title="2025-01-28-04-03-41">id889222999</ins> Буквально всё за чем идут на берег - посидеть и подумать о жизни ))
 - `ig` <ins title="2025-01-28-08-59-35">roastduckmeme</ins> would you ever screenshot Tamriel Rebuilt or Project Tamriel content?
+  - <ins title="2025-01-28-09-24-20">mwscr</ins> I don&#39;t rule it out in the future.
 
 ## <span id="2025-01-26-dark-moon">Dark Moon</span>
 
@@ -52,10 +53,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFTF9snJKLL/)       | 2025-01-26 |   568 |    97 |      1531 |   6.34 |
+| [`ig`](https://instagram.com/p/DFTF9snJKLL/)       | 2025-01-26 |   570 |    97 |      1531 |   6.34 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2089) | 2025-01-26 |   232 |    42 |      1055 |   4.36 |
-| [`tg`](https://t.me/mwscr/682)                     | 2025-01-26 |   228 |    63 |       660 |   9.55 |
-|                                                    |            |  1028 |   202 |      3246 |   6.75 |
+| [`tg`](https://t.me/mwscr/682)                     | 2025-01-26 |   231 |    64 |       660 |    9.7 |
+|                                                    |            |  1033 |   203 |      3246 |    6.8 |
 
 #### Comments
 
