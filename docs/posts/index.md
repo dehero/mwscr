@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFYPtihpryV/)       | 2025-01-28 |    72 |    40 |      1535 |   2.61 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2094) | 2025-01-28 |    73 |    14 |      1056 |   1.33 |
-| [`tg`](https://t.me/mwscr/684)                     | 2025-01-28 |    89 |    33 |       661 |   4.99 |
-|                                                    |            |   234 |    87 |      3252 |   2.97 |
+| [`ig`](https://instagram.com/p/DFYPtihpryV/)       | 2025-01-28 |    97 |    43 |      1535 |    2.8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2094) | 2025-01-28 |    81 |    16 |      1056 |   1.52 |
+| [`tg`](https://t.me/mwscr/684)                     | 2025-01-28 |    99 |    37 |       661 |    5.6 |
+|                                                    |            |   277 |    96 |      3252 |    3.3 |
 
 ## <span id="2025-01-27-fishing-in-the-rain">Fishing in the Rain</span>
 
@@ -53,10 +53,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFVq7NZtJkU/)       | 2025-01-27 |   304 |    95 |      1534 |   6.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2090) | 2025-01-27 |   430 |    51 |      1055 |   5.31 |
-| [`tg`](https://t.me/mwscr/683)                     | 2025-01-27 |   187 |    60 |       662 |   9.06 |
-|                                                    |            |   921 |   206 |      3251 |   6.85 |
+| [`ig`](https://instagram.com/p/DFVq7NZtJkU/)       | 2025-01-27 |   305 |    96 |      1534 |   6.26 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2090) | 2025-01-27 |   434 |    51 |      1055 |   5.31 |
+| [`tg`](https://t.me/mwscr/683)                     | 2025-01-27 |   188 |    60 |       662 |   9.06 |
+|                                                    |            |   927 |   207 |      3251 |   6.88 |
 
 #### Comments
 
@@ -209,10 +209,10 @@
 | [`ig`](https://instagram.com/p/Cfe829FstUf/)       | 2022-07-01 |       |   132 |      1101 |  11.99 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1319) | 2022-07-01 |   542 |    58 |       738 |   8.13 |
 | [`tg`](https://t.me/mwscr/258)                     | 2022-07-01 |   628 |    47 |       247 |  19.03 |
-| [`ig`](https://instagram.com/p/DFIy-QvpBXC/)       | 2025-01-22 |   262 |    75 |      1529 |   4.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2077) | 2025-01-22 |   223 |    34 |      1054 |   3.32 |
-| [`tg`](https://t.me/mwscr/678)                     | 2025-01-22 |   315 |    64 |       655 |   9.77 |
-|                                                    |            |   800 |   173 |      3238 |   9.52 |
+| [`ig`](https://instagram.com/p/DFIy-QvpBXC/)       | 2025-01-22 |   269 |    75 |      1529 |   4.91 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2077) | 2025-01-22 |   231 |    35 |      1054 |   3.42 |
+| [`tg`](https://t.me/mwscr/678)                     | 2025-01-22 |   325 |    64 |       655 |   9.77 |
+|                                                    |            |   825 |   174 |      3238 |   9.54 |
 
 #### Comments
 
@@ -245,14 +245,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BhUdSr4jFec/)       | 2018-04-08 |       |   121 |       314 |  38.54 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_681)  | 2018-04-08 |   207 |    21 |       150 |     14 |
-| [`ig`](https://instagram.com/p/DFGONk_zuDM/)       | 2025-01-21 |   449 |   133 |      1529 |    8.7 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2075) | 2025-01-21 |   379 |    46 |      1054 |   4.93 |
-| [`tg`](https://t.me/mwscr/674,675,676,677)         | 2025-01-21 |   388 |    70 |       654 |   10.7 |
-|                                                    |            |  1216 |   249 |      3237 |  15.37 |
+| [`ig`](https://instagram.com/p/DFGONk_zuDM/)       | 2025-01-21 |   463 |   139 |      1529 |   9.09 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2075) | 2025-01-21 |   394 |    48 |      1054 |   5.12 |
+| [`tg`](https://t.me/mwscr/674,675,676,677)         | 2025-01-21 |   413 |    70 |       654 |   10.7 |
+|                                                    |            |  1270 |   257 |      3237 |  15.49 |
 
 #### Comments
 
 - `vk` <ins title="2025-01-25-16-13-52">artyom_melikhoff</ins> Побродив вдоволь по городу, нашёл в нём что-то прекрасное✨ Даже более-менее начал ориентироваться, иногда с картой.
+- `ig` <ins title="2025-01-28-12-42-05">petarvuc</ins> This is God&#39;s city, different from others. Cities from foreign countries put their denizens to sleep and walk to the star-wounded East to pay homage to me. The capital of the northern men, crusty with eon&#39;s ice, bows before Vivec the city, me it together.
 
 ## <span id="2025-01-20-telvanni-vault-ledger">Telvanni Vault Ledger</span>
 

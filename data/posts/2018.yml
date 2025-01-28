@@ -3606,17 +3606,22 @@
       id: DFGONk_zuDM
       mediaId: '18039249929460023'
       published: 2025-01-21-18-11-24
-      updated: 2025-01-27-20-09-02
+      updated: 2025-01-28-21-01-21
       followers: 1529
-      likes: 133
-      views: 449
+      likes: 139
+      views: 463
+      comments: !c |-
+        GxQBKKwSeE7K+EXnLuyFgxIuErUmlxOAyr2E/i23pXqNgpRqaHZ8bvMDvINHhyE1UwnQedsRsO+9
+        221Es8EgK8EM09L0hs+ttEe8yiUR+UzLl9Fzf6b86zBltxIGWIsUj2R5ui9GgqOowrmxd9OOwqYf
+        24AbKrOwyjL9YI3Nt2EIPbrhzguXreNsKlOTXB5RHlHZIqTP4SsoPWgtDKgw4rR3kpmHPhQAKWyV
+        UIeZlgA=
     - service: vk
       id: 2075
       published: 2025-01-21-18-11-42
-      updated: 2025-01-27-20-09-04
+      updated: 2025-01-28-21-01-20
       followers: 1054
-      likes: 46
-      views: 379
+      likes: 48
+      views: 394
       reposts: 6
       comments: !c |-
         G/AA6B0Hdiyz8HB04MYu/p/nZCP8x7ehD7ETSeLJfaAFpW7GmEkSLPJ5WlI2erNqW+40ShKTtn+Y
@@ -3629,10 +3634,10 @@
         - 676
         - 677
       published: 2025-01-21-18-12-00
-      updated: 2025-01-27-20-09-03
+      updated: 2025-01-28-21-01-19
       followers: 654
       likes: 70
-      views: 388
+      views: 413
 2018-04-09-empty-arena:
   title: Empty Arena
   titleRu: Пустая Арена
