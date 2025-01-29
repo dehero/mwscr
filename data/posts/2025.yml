@@ -215,10 +215,10 @@
       id: DFVq7NZtJkU
       mediaId: '18037955792456265'
       published: 2025-01-27-18-10-51
-      updated: 2025-01-29-11-01-17
+      updated: 2025-01-29-12-13-41
       followers: 1534
       likes: 101
-      views: 329
+      views: 331
       comments: !c |-
         G5MAOJwJtu2ErbMLoQ9kY1INNuAS0AXGRR5fb6k+JKEqRSjGw8d9u3+mZJLcdMOMEqAWESrqpJMD
         9u/ftzAIEo89kIRygyPPwzId7HF60Yn+6N5dZaKSp1UvjZHx10Bv8fWQIsuZMithf9lLNKhBMuOx
@@ -226,10 +226,10 @@
     - service: vk
       id: 2090
       published: 2025-01-27-18-11-00
-      updated: 2025-01-29-11-01-17
+      updated: 2025-01-29-12-13-42
       followers: 1055
       likes: 52
-      views: 458
+      views: 460
       reposts: 5
       comments: !c |-
         G44A+C0SeO5TBzgiXxoxzNy5URG3CF+DGDJsEoww2dO5hVyJ8SCfTOHo5FTPLeS4/5BcyhyZ7FYi
@@ -237,10 +237,10 @@
     - service: tg
       id: 683
       published: 2025-01-27-18-11-08
-      updated: 2025-01-29-11-01-17
+      updated: 2025-01-29-12-13-42
       followers: 662
       likes: 62
-      views: 204
+      views: 207
 2025-01-28-smokey-morth:
   title: Smokey Morth
   titleRu: Смоки Морт
@@ -260,21 +260,21 @@
       id: DFYPtihpryV
       mediaId: '17881924440227138'
       published: 2025-01-28-18-10-49
-      updated: 2025-01-29-11-01-16
+      updated: 2025-01-29-12-13-41
       followers: 1535
       likes: 79
-      views: 239
+      views: 248
     - service: vk
       id: 2094
       published: 2025-01-28-18-10-56
-      updated: 2025-01-29-11-01-16
+      updated: 2025-01-29-12-13-41
       followers: 1056
-      likes: 21
-      views: 140
+      likes: 22
+      views: 145
     - service: tg
       id: 684
       published: 2025-01-28-18-11-02
-      updated: 2025-01-29-11-01-16
+      updated: 2025-01-29-12-13-41
       followers: 661
-      likes: 49
-      views: 150
+      likes: 50
+      views: 154
