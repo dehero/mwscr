@@ -641,10 +641,10 @@
     - service: tg
       id: 267
       published: 2022-07-07
-      updated: 2025-01-22-05-08-31
+      updated: 2025-01-29-06-11-02
       followers: 256
       likes: 55
-      views: 697
+      views: 698
       comments: !c |-
         G+YA4C0PbCdsQEoGblB9aZrixc8IlW7BtY5wQa8tyeoz6Kmw2juEchZP7N3GHHt2dhCNK5J0ogqC
         zjy8s17sxOVXZWkZ0AHy9LgtSDhKE0w14RZ4GKbY9h0u/B4UDDGNEohuv4yHL4fnrFsVNm42mwvc
@@ -677,10 +677,10 @@
     - service: tg
       id: 268
       published: 2022-07-08
-      updated: 2025-01-22-05-08-30
+      updated: 2025-01-29-06-11-01
       followers: 256
       likes: 48
-      views: 639
+      views: 640
 2022-07-09-three-coins-for-the-bard:
   title: Three Coins for the Bard
   titleRu: Три монеты для барда
@@ -716,10 +716,10 @@
     - service: tg
       id: 269
       published: 2022-07-09
-      updated: 2025-01-22-05-08-30
+      updated: 2025-01-29-06-11-01
       followers: 257
       likes: 55
-      views: 697
+      views: 698
       comments: !c |-
         G3IAMGTomkf01eCtTw8UFVsDFWiRTxtwsAEH7Om2bgPqoMMGnPD8OqeyPR7OD2WAVs8/APc0z/zE
         rcIfsZSnIcRWRPJKEzYIw84p+e3Xyw24pH1tVz/aMJ0qbAJEzytTQLSwakZEb6vQTej6TQwA
@@ -757,10 +757,10 @@
     - service: tg
       id: 270
       published: 2022-07-10
-      updated: 2025-01-22-05-08-30
+      updated: 2025-01-29-06-11-01
       followers: 257
       likes: 59
-      views: 775
+      views: 777
       comments: !c |-
         G9IA4C0PuHOPAjgZWKbBTH3lYT6e8G+f6O/mLdBYA22lLQwjSN6p20rphi7sg+kY6kNVT5a7nPDB
         xqYE06pScMkyNrwka5PrrzfQbG5wIp54QZRq3mC+x9iznsERwzyun553P2O8nprXrNXubKpawd79
@@ -807,10 +807,10 @@
         - 273
         - 274
       published: 2022-07-11
-      updated: 2025-01-22-05-08-29
+      updated: 2025-01-29-06-11-00
       followers: 257
       likes: 56
-      views: 734
+      views: 736
       comments: !c |-
         G4IBAKwOeHMoL9maWoSkkwjmPp7wb6SnbR881URbBdxqiyh5RxZI8L/c1pqxm7N3hvq2A/3CQPjP
         3SkfHnAI9/52yyqB5qnXSrI0uvJ4rK9sy12ggQUagN5OszCh38+/JRZZ8SeJRpRz89zxOJZFVJLH
@@ -901,10 +901,10 @@
     - service: tg
       id: 275
       published: 2022-07-12
-      updated: 2025-01-22-05-08-29
+      updated: 2025-01-29-06-11-00
       followers: 258
       likes: 48
-      views: 706
+      views: 708
 2022-07-13-cold-waters-of-west-gash:
   title: Cold Waters of West Gash
   titleRu: Холодные воды Западного Нагорья
@@ -940,10 +940,10 @@
     - service: tg
       id: 276
       published: 2022-07-13
-      updated: 2025-01-22-05-08-29
+      updated: 2025-01-29-06-10-59
       followers: 260
       likes: 51
-      views: 740
+      views: 742
       comments: !c |-
         G3kCQIzDdOMrh4PxrBURRLGmr9zfTGxYGDISEFVSRlmFIDzwXsuuQlXVDWfRHqcx5Ako7NhSKP/X
         C/vBmzwbDjAQvl/PAyz8nPY1sADPxVhH6TavKIhuMbVCMtnTt7X1R3/P3Pg0h8ZuudtMNvbLfWGR
@@ -986,10 +986,10 @@
     - service: tg
       id: 277
       published: 2022-07-14
-      updated: 2025-01-22-05-08-28
+      updated: 2025-01-29-06-10-59
       followers: 260
       likes: 40
-      views: 738
+      views: 740
 2022-07-15-sail-on:
   title: Sail On
   titleRu: Плыть дальше
@@ -1023,10 +1023,10 @@
     - service: tg
       id: 278
       published: 2022-07-15
-      updated: 2025-01-22-05-08-28
+      updated: 2025-01-29-06-10-58
       followers: 262
       likes: 50
-      views: 767
+      views: 768
 2022-07-16-two-at-the-lantern:
   title: Two at the Lantern
   titleRu: Двое у фонаря
@@ -1057,10 +1057,10 @@
     - service: tg
       id: 279
       published: 2022-07-16
-      updated: 2025-01-22-05-08-27
+      updated: 2025-01-29-06-10-58
       followers: 262
       likes: 48
-      views: 778
+      views: 779
 2022-07-17-slaves-sight:
   title: Slave's Sight
   titleRu: Взгляд раба
@@ -1090,10 +1090,10 @@
     - service: tg
       id: 280
       published: 2022-07-17
-      updated: 2025-01-22-05-08-27
+      updated: 2025-01-29-06-10-58
       followers: 262
       likes: 49
-      views: 771
+      views: 772
 2022-07-18-long-talk:
   title: Long Talk
   titleRu: Долгий разговор
@@ -1133,10 +1133,10 @@
     - service: tg
       id: 281
       published: 2022-07-18
-      updated: 2025-01-22-05-08-26
+      updated: 2025-01-29-06-10-57
       followers: 267
       likes: 50
-      views: 797
+      views: 798
 2022-07-19-stillness-of-vivec:
   title: Stillness of Vivec
   titleRu: Тишина Вивека
@@ -1168,10 +1168,10 @@
     - service: tg
       id: 282
       published: 2022-07-19
-      updated: 2025-01-22-05-08-26
+      updated: 2025-01-29-06-10-57
       followers: 267
       likes: 62
-      views: 818
+      views: 819
 2022-07-20-norvayn-ancestral-tomb:
   title: Norvayn Ancestral Tomb
   titleRu: Родовая гробница Норвайнов
@@ -1201,10 +1201,10 @@
     - service: tg
       id: 283
       published: 2022-07-20
-      updated: 2025-01-22-05-08-26
+      updated: 2025-01-29-06-10-56
       followers: 266
       likes: 55
-      views: 827
+      views: 828
       comments: !c |-
         G1sBAJwHtg1rG5qW5G4sl18E/cdppB8omPFgI0w0wfRrFbRUorqPjuS62W0hJydEoQj9j2037EmV
         uY1SnimbynwQeeGEZzFrMTWr+ZZxZ7kT+z0+ZYHIPbRV1pKEA0kzihNOyqiF2S0nZTMRZJLO/+Zy
@@ -1245,10 +1245,10 @@
     - service: tg
       id: 284
       published: 2022-07-21
-      updated: 2025-01-22-05-08-25
+      updated: 2025-01-29-06-10-56
       followers: 267
       likes: 50
-      views: 1584
+      views: 1587
       comments: !c ixmAkpPLQngiXaFxAACnZGVsZXRlZKjQmNC80LHQsJPLQngiKf06AAClbXdzY3KnQUxNU0lWSQM=
 2022-07-22-lonely-towers:
   title: Lonely Towers
@@ -1292,10 +1292,10 @@
         - 287
         - 288
       published: 2022-07-22
-      updated: 2025-01-22-05-08-25
+      updated: 2025-01-29-06-10-55
       followers: 271
       likes: 59
-      views: 861
+      views: 862
 2022-07-23-draggle-tail-sunrise:
   title: Draggle-Tail Sunrise
   titleRu: Рассвет грязнохвостника
@@ -1326,10 +1326,10 @@
     - service: tg
       id: 289
       published: 2022-07-23
-      updated: 2025-01-22-05-08-25
+      updated: 2025-01-29-06-10-55
       followers: 272
       likes: 55
-      views: 908
+      views: 909
       comments: !c Cw2AkZPLQngi0DtVAAClbXdzY3KpYmVhdXRpZnVsAw==
 2022-07-24-thorny-lamps:
   title: Thorny Lamps
@@ -1358,10 +1358,10 @@
     - service: tg
       id: 290
       published: 2022-07-24
-      updated: 2025-01-22-05-08-24
+      updated: 2025-01-29-06-10-55
       followers: 272
       likes: 53
-      views: 947
+      views: 948
 2022-07-25-rainy-coast:
   title: Rainy Coast
   titleRu: Дождливое побережье
@@ -1389,10 +1389,10 @@
     - service: tg
       id: 291
       published: 2022-07-25
-      updated: 2025-01-22-05-08-24
+      updated: 2025-01-29-06-10-54
       followers: 272
       likes: 55
-      views: 1016
+      views: 1017
 2022-07-26-imperial-castles:
   title: Imperial Castles
   titleRu: Имперские замки
@@ -1434,10 +1434,10 @@
         - 294
         - 295
       published: 2022-07-26
-      updated: 2025-01-22-05-08-24
+      updated: 2025-01-29-06-10-54
       followers: 273
       likes: 55
-      views: 1060
+      views: 1061
       comments: !c |-
         G7oA6C0OeJNxZZAtoAs6/wkF/6/nl/BhJ7SkQgVsUl38LRkUCvsJLoOBjyrnuk2f5+05hZCpUUu8
         KaciyQY5WYtaFpIJH8EU9Aw24JAD0WCVgXTBU4oHa3fcI5H+GsKT2ZViTV7YTQ5YdTVocRDAuxhO
@@ -1468,10 +1468,10 @@
     - service: tg
       id: 296
       published: 2022-07-27
-      updated: 2025-01-22-05-08-23
+      updated: 2025-01-29-06-10-53
       followers: 272
       likes: 54
-      views: 1126
+      views: 1127
       comments: !c |-
         G28BAJwHtvOUwGJhR3LwhEM4FIl/+L9hhB/CSKOoMAgooibQOYORTO5zc/qcJ60sJsHQNR/t2yrt
         ASMaaxWUQiOdHi4dcE7h33aiA+TukuAJtPBbJAkGunh1np56OR6i2L6K9Pf5/IVxPp5/qL6bZ3ep
@@ -1517,10 +1517,10 @@
     - service: tg
       id: 297
       published: 2022-07-28
-      updated: 2025-01-22-05-08-23
+      updated: 2025-01-29-06-10-53
       followers: 274
       likes: 55
-      views: 1181
+      views: 1182
 2022-07-29-sunset-cypresses:
   title: Sunset Cypresses
   titleRu: Закатные кипарисы
@@ -1559,10 +1559,10 @@
     - service: tg
       id: 298
       published: 2022-07-29
-      updated: 2025-01-22-05-08-23
+      updated: 2025-01-29-06-10-52
       followers: 274
       likes: 59
-      views: 1349
+      views: 1350
 2022-07-30-sorority:
   title: Sorority
   titleRu: Женское общество
@@ -1590,10 +1590,10 @@
     - service: tg
       id: 299
       published: 2022-07-30
-      updated: 2025-01-22-05-08-22
+      updated: 2025-01-29-06-10-52
       followers: 278
       likes: 51
-      views: 1338
+      views: 1339
 2022-07-31-alchemy:
   title: Alchemy
   titleRu: Алхимия
@@ -1640,10 +1640,10 @@
         - 302
         - 303
       published: 2022-07-31
-      updated: 2025-01-22-05-08-22
+      updated: 2025-01-29-06-10-52
       followers: 277
       likes: 57
-      views: 1578
+      views: 1580
 2022-08-01-caravaneers-workplace:
   title: Caravaneer's Workplace
   titleRu: Рабочее место караванщика
@@ -1676,10 +1676,10 @@
     - service: tg
       id: 304
       published: 2022-08-01
-      updated: 2025-01-22-05-08-22
+      updated: 2025-01-29-06-10-51
       followers: 279
       likes: 56
-      views: 1655
+      views: 1657
       comments: !c |-
         G9QAwJwHtuOVBcnhoxXSwUkQuUsszZIwoAosoCerBVjgrUiTe8htrDOnREGY2jZAgOoGz40wyobW
         j2gd2YUvfJ0c6Vkjbac8kpbkXEJlltsYeK4I1qnC1Zwv7QIFM1fqZDdJM3XbW5fRtQR4+HY80rqq
@@ -1716,10 +1716,10 @@
     - service: tg
       id: 305
       published: 2022-08-02
-      updated: 2025-01-22-05-08-21
+      updated: 2025-01-29-06-10-50
       followers: 281
       likes: 69
-      views: 2186
+      views: 2188
       comments: !c |-
         i0SAlJPLQnjqgZW9AACremhlY2hrYV9kcna60L3QsCDQutCw0YDQsNC9INC/0L7RhdC+0LaTy0J4
         Jobp2AAAqWFuYWtpbmVyc6VncmVhdJPLQngmLFQlgACsQnVzaGlkb0Jpa2VyrtCo0LjQutCw0YDQ
@@ -1763,10 +1763,10 @@
     - service: tg
       id: 306
       published: 2022-08-03
-      updated: 2025-01-22-05-08-21
+      updated: 2025-01-29-06-10-50
       followers: 281
       likes: 81
-      views: 2217
+      views: 2219
       comments: !c |-
         G5QFAByFccNdfnwRcXnz2xZRYogE8XC/+qC7IPsW86I0Gzgi6QNdaxfQgeSM8C1ON+uRAuO/pUi+
         cEtPaNo8I+A7FMPvz34oC21p0UjGKY1CO6mB7UIBX+in+z9VEwtYQvWS5RXx/nWtn2zsHBm4sTSA
