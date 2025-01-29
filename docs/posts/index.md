@@ -31,10 +31,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BfWPktyjmEy/)       | 2018-02-18 |       |   134 |       288 |  46.53 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_622)  | 2018-02-18 |   216 |    24 |       131 |  19.08 |
-| [`ig`](https://instagram.com/p/DFa0i_9Tfls/)       | 2025-01-29 |       |       |      1533 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2095) | 2025-01-29 |       |       |      1057 |        |
-| [`tg`](https://t.me/mwscr/685,686,687,688)         | 2025-01-29 |       |       |       661 |        |
-|                                                    |            |       |       |      3251 |  32.81 |
+| [`ig`](https://instagram.com/p/DFa0i_9Tfls/)       | 2025-01-29 |    56 |    27 |      1533 |   1.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2095) | 2025-01-29 |    49 |     9 |      1057 |   0.85 |
+| [`tg`](https://t.me/mwscr/685,686,687,688)         | 2025-01-29 |    76 |    30 |       661 |   4.54 |
+|                                                    |            |   181 |    66 |      3251 |  14.55 |
 
 #### Comments
 
@@ -42,6 +42,10 @@
 - `ig` <ins title="2018-02-19-00-07-39">the_athletic_photographer</ins> Miss the data
 - `ig` <ins title="2018-02-19-00-07-41">the_athletic_photographer</ins> Days
 - `ig` <ins title="2018-02-25-17-06-57">dp2.0_music</ins> Miss this place
+- `ig` <ins title="2025-01-29-18-15-42">delanospies</ins> Iconic town 🙌
+- `ig` <ins title="2025-01-29-18-17-09">istsieliz</ins> The best town
+- `tg` <ins title="2025-01-29-18-32-32">TrueLoveInc</ins> I live here
+- `tg` <ins title="2025-01-29-18-48-21">Gatemate7</ins> this is my hood
 
 ## <span id="2025-01-28-smokey-morth">Smokey Morth</span>
 
@@ -67,10 +71,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFYPtihpryV/)       | 2025-01-28 |   276 |    83 |      1535 |   5.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2094) | 2025-01-28 |   160 |    23 |      1056 |   2.18 |
-| [`tg`](https://t.me/mwscr/684)                     | 2025-01-28 |   164 |    53 |       661 |   8.02 |
-|                                                    |            |   600 |   159 |      3252 |    5.2 |
+| [`ig`](https://instagram.com/p/DFYPtihpryV/)       | 2025-01-28 |   282 |    86 |      1535 |    5.6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2094) | 2025-01-28 |   163 |    23 |      1056 |   2.18 |
+| [`tg`](https://t.me/mwscr/684)                     | 2025-01-28 |   178 |    54 |       661 |   8.17 |
+|                                                    |            |   623 |   163 |      3252 |   5.32 |
 
 ## <span id="2025-01-27-fishing-in-the-rain">Fishing in the Rain</span>
 
@@ -154,10 +158,10 @@
 | [`ig`](https://instagram.com/p/B31OVTChh1C/)       | 2019-10-20 |       |   161 |       837 |  19.24 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1201) | 2019-10-20 |   833 |    48 |       370 |  12.97 |
 | [`tg`](https://t.me/mwscr/200)                     | 2019-10-20 |   943 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DFQhKTwzYmm/)       | 2025-01-25 |   271 |    78 |      1529 |    5.1 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2086) | 2025-01-25 |   187 |    28 |      1054 |   2.75 |
-| [`tg`](https://t.me/mwscr/681)                     | 2025-01-25 |   244 |    60 |       658 |   9.12 |
-|                                                    |            |   702 |   166 |      3241 |   9.84 |
+| [`ig`](https://instagram.com/p/DFQhKTwzYmm/)       | 2025-01-25 |   278 |    79 |      1529 |   5.17 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2086) | 2025-01-25 |   202 |    29 |      1054 |   2.85 |
+| [`tg`](https://t.me/mwscr/681)                     | 2025-01-25 |   291 |    60 |       658 |   9.12 |
+|                                                    |            |   771 |   168 |      3241 |   9.87 |
 
 #### Comments
 

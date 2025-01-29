@@ -136,41 +136,6 @@
 
 - `ig` <ins title="2018-01-27-19-25-32">tommytoja</ins> Good Balmora vibes. Thank You!
 
-## <span id="2018-02-18-balmora">Balmora</span>
-
-`RU` Балмора
-
-<a href="https://instagram.com/p/BfWPktyjmEy/" title="2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain"><img alt="store:/shots/2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain.png" src="../../assets/previews/shots/2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain.avif" /></a>
-<a href="https://instagram.com/p/BfWPktyjmEy/" title="2017-02-05-night-street-of-balmora"><img alt="store:/shots/2017-02-05-night-street-of-balmora.png" src="../../assets/previews/shots/2017-02-05-night-street-of-balmora.avif" /></a>
-<a href="https://instagram.com/p/BfWPktyjmEy/" title="2017-02-03-hlaalu-council-manor"><img alt="store:/shots/2017-02-03-hlaalu-council-manor.png" src="../../assets/previews/shots/2017-02-03-hlaalu-council-manor.avif" /></a>
-<a href="https://instagram.com/p/BfWPktyjmEy/" title="2017-03-29-guilds-and-stores"><img alt="store:/shots/2017-03-29-guilds-and-stores.png" src="../../assets/previews/shots/2017-03-29-guilds-and-stores.avif" /></a>
-
-`shot-set` by [dehero](../contributors.md#dehero)
-
-`A2` `📍 Balmora` `🚀 OpenMW`
-
-```
-2018-02-18-balmora
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BfWPktyjmEy/)       | 2018-02-18 |       |   134 |       288 |  46.53 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_622)  | 2018-02-18 |   216 |    24 |       131 |  19.08 |
-| [`ig`](https://instagram.com/p/DFa0i_9Tfls/)       | 2025-01-29 |       |       |      1533 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2095) | 2025-01-29 |       |       |      1057 |        |
-| [`tg`](https://t.me/mwscr/685,686,687,688)         | 2025-01-29 |       |       |       661 |        |
-|                                                    |            |   216 |   158 |       419 |  32.81 |
-
-#### Comments
-
-- `ig` <ins title="2018-02-18-18-10-30">tommytoja</ins> Thank you, as you know I&#39;m a huge fan of Balmora &lt;3
-- `ig` <ins title="2018-02-19-00-07-39">the_athletic_photographer</ins> Miss the data
-- `ig` <ins title="2018-02-19-00-07-41">the_athletic_photographer</ins> Days
-- `ig` <ins title="2018-02-25-17-06-57">dp2.0_music</ins> Miss this place
-
 ## <span id="2017-01-02-backdoor-to-tel-vos">Backdoor to Tel Vos</span>
 
 `RU` Запасной вход в Тель Вос
@@ -1294,6 +1259,38 @@
 - `ig` <ins title="2017-08-27-20-18-29">_porch_honky</ins> This from morrowind? Looks like a vault.
   - <ins title="2017-08-27-20-24-55">mwscr</ins> @dumster_baby_ This is Clockwork City from Tribunal addon.
 - `ig` <ins title="2017-08-27-23-41-56">_porch_honky</ins> Crazy.i been balls deep in jade Empire on xbox havent gotten a chance to play my game of the year edition of Morrowind
+
+## <span id="2018-09-23-bridges">Bridges</span>
+
+`RU` Мосты
+
+<a href="https://instagram.com/p/BoFCn79hqRl/" title="2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz"><img alt="store:/shots/2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.png" src="../../assets/previews/shots/2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.avif" /></a>
+<a href="https://instagram.com/p/BoFCn79hqRl/" title="2017-09-26-bridges"><img alt="store:/shots/2017-09-26-bridges.png" src="../../assets/previews/shots/2017-09-26-bridges.avif" /></a>
+<a href="https://instagram.com/p/BoFCn79hqRl/" title="2018-02-22-bridge-at-the-border-of-two-regions"><img alt="store:/shots/2018-02-22-bridge-at-the-border-of-two-regions.png" src="../../assets/previews/shots/2018-02-22-bridge-at-the-border-of-two-regions.avif" /></a>
+<a href="https://instagram.com/p/BoFCn79hqRl/" title="2018-03-29-soaring-trail"><img alt="store:/shots/2018-03-29-soaring-trail.png" src="../../assets/previews/shots/2018-03-29-soaring-trail.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+`A2` `🚀 OpenMW` `bridge`
+
+```
+2018-09-23-bridges
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BoFCn79hqRl/)      | 2018-09-23 |       |   146 |       427 |  34.19 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_940) | 2018-09-23 |   452 |    44 |       238 |  19.33 |
+| [`tg`](https://t.me/mwscr/43,44,45,46,48)         | 2018-09-23 |   204 |     3 |           |        |
+|                                                   |            |   656 |   193 |           |  26.76 |
+
+#### Comments
+
+- `ig` <ins title="2018-09-23-19-23-44">voodoochild_4206923</ins> So happy people still love morrowind, even though it has quite a few flaws its one of my favorite games of all time
+- `ig` <ins title="2018-09-23-21-09-21">_lijee__</ins> Love this page so much!! Thx for posting
+  - <ins title="2018-09-24-09-52-50">mwscr</ins> @elijah_tha_prophet Thank you!
 
 ---
 
