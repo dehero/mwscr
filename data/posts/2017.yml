@@ -169,10 +169,10 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2025-01-22-20-08-54
+      updated: 2025-01-29-21-02-04
       followers: 337
       likes: 91
-      views: 615
+      views: 617
       comments: !c |-
         ixyAkZTLQnjexabnAACucXVpbnR1c19mYWJpdXOtV2UncmUgc28gYmFja5PLQnjexcSwAAClYW5z
         aXOhLgM=
@@ -10733,7 +10733,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2025-01-22-20-08-57
+      updated: 2025-01-29-21-02-06
       followers: 904
       likes: 44
       views: 296
@@ -11773,7 +11773,7 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2025-01-22-20-08-59
+      updated: 2025-01-29-21-02-09
       followers: 895
       likes: 35
       views: 295
@@ -11781,10 +11781,10 @@
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2025-01-22-20-08-54
+      updated: 2025-01-29-21-02-03
       followers: 343
       likes: 69
-      views: 534
+      views: 535
       comments: !c ixOAkZPLQnjhAF9lAACucXVpbnR1c19mYWJpdXOt8J+Pg+KAjeKZgu+4jwM=
 2017-11-16-cozy-workplace-in-the-basement:
   title: Cozy Workplace in the Basement
