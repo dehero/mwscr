@@ -1823,10 +1823,10 @@
     - service: vk
       id: 1954
       published: 2024-12-10-18-11-44
-      updated: 2025-01-22-00-35-47
+      updated: 2025-01-29-02-06-07
       followers: 1018
       likes: 45
-      views: 390
+      views: 391
       reposts: 3
       comments: !c |-
         iyiAkZPLQnk7Hi+1gACrZmlubnZlcmJlcmfZOdCR0YPQutCy0LDQu9GM0L3QviDQstC40LQg0LjQ
@@ -1834,10 +1834,10 @@
     - service: tg
       id: 621
       published: 2024-12-10-18-11-50
-      updated: 2025-01-22-00-35-46
+      updated: 2025-01-29-02-06-06
       followers: 581
       likes: 71
-      views: 718
+      views: 726
 2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz:
   title: Dwemer Bridge to Arkngthunch-Sturdumz
   titleRu: Двемерский мост в Аркнгтунч-Штурдумц
@@ -3431,7 +3431,7 @@
     - service: vk
       id: 1967
       published: 2024-12-17-18-12-07
-      updated: 2025-01-22-00-35-46
+      updated: 2025-01-29-02-06-07
       followers: 1028
       likes: 38
       views: 362
@@ -3444,10 +3444,10 @@
     - service: tg
       id: 628
       published: 2024-12-17-18-12-14
-      updated: 2025-01-22-00-35-46
+      updated: 2025-01-29-02-06-06
       followers: 581
       likes: 63
-      views: 580
+      views: 586
 2017-03-29-guilds-and-stores:
   title: Guilds and Stores
   titleRu: Гильдии и магазины
