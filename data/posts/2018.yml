@@ -1797,20 +1797,20 @@
       id: DFa0i_9Tfls
       mediaId: '17973639803821798'
       published: 2025-01-29-18-11-12
-      updated: 2025-01-29-22-05-24
+      updated: 2025-01-29-23-07-26
       followers: 1533
-      likes: 58
-      views: 153
+      likes: 63
+      views: 174
       comments: !c |-
         iySAkpPLQnlLNIBIgACpaXN0c2llbGl6rVRoZSBiZXN0IHRvd26Ty0J5SzRrCwAAq2RlbGFub3Nw
         aWVzsEljb25pYyB0b3duIPCfmYwD
     - service: vk
       id: 2095
       published: 2025-01-29-18-11-37
-      updated: 2025-01-29-22-05-25
+      updated: 2025-01-29-23-07-25
       followers: 1057
-      likes: 18
-      views: 97
+      likes: 19
+      views: 105
     - service: tg
       id:
         - 685
@@ -1818,10 +1818,10 @@
         - 687
         - 688
       published: 2025-01-29-18-12-03
-      updated: 2025-01-29-22-05-25
+      updated: 2025-01-29-23-07-25
       followers: 661
-      likes: 41
-      views: 117
+      likes: 42
+      views: 121
       comments: !c |-
         CyOAkpPLQnlLNklQgACpR2F0ZW1hdGU3r3RoaXMgaXMgbXkgaG9vZJPLQnlLNWGgAACrVHJ1ZUxv
         dmVJbmOrSSBsaXZlIGhlcmUD
@@ -10886,25 +10886,25 @@
       id: DEkvz2SvxhB
       mediaId: '18048819539167489'
       published: 2025-01-08-18-10-47
-      updated: 2025-01-22-22-07-12
+      updated: 2025-01-29-23-07-28
       followers: 1524
-      likes: 95
-      views: 443
+      likes: 97
+      views: 511
     - service: vk
       id: 2034
       published: 2025-01-08-18-10-54
-      updated: 2025-01-22-22-07-13
+      updated: 2025-01-29-23-07-27
       followers: 1052
-      likes: 30
-      views: 307
+      likes: 33
+      views: 315
       reposts: 1
     - service: tg
       id: 657
       published: 2025-01-08-18-11-01
-      updated: 2025-01-22-22-07-12
+      updated: 2025-01-29-23-07-26
       followers: 646
       likes: 65
-      views: 412
+      views: 443
 2018-10-21-trees-and-skies:
   title: Trees and Skies
   titleRu: Деревья и небеса
