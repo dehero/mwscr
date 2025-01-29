@@ -576,10 +576,10 @@
     - service: vk
       id: 1497
       published: 2024-04-16-18-16-52
-      updated: 2025-01-22-15-07-54
+      updated: 2025-01-29-16-09-32
       followers: 910
       likes: 33
-      views: 283
+      views: 284
       reposts: 3
     - service: tg
       id: 380
@@ -1106,17 +1106,17 @@
     - service: vk
       id: 1514
       published: 2024-04-30-20-27-56
-      updated: 2025-01-22-16-09-18
+      updated: 2025-01-29-16-09-30
       followers: 911
       likes: 30
       views: 238
     - service: tg
       id: 394
       published: 2024-04-30-20-28-22
-      updated: 2025-01-22-16-09-18
+      updated: 2025-01-29-16-09-30
       followers: 363
       likes: 67
-      views: 498
+      views: 499
 2018-02-01-far-swamps:
   title: Far Swamps
   titleRu: Дальние болота
