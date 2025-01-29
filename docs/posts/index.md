@@ -4,7 +4,44 @@
 
 # Posted in 2025
 
-`28 items`
+`29 items`
+
+## <span id="2025-01-29-balmora">Balmora</span>
+
+`RU` Балмора
+
+<a href="https://instagram.com/p/BfWPktyjmEy/" title="2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain"><img alt="store:/shots/2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain.png" src="../../assets/previews/shots/2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain.avif" /></a>
+<a href="https://instagram.com/p/BfWPktyjmEy/" title="2017-02-05-night-street-of-balmora"><img alt="store:/shots/2017-02-05-night-street-of-balmora.png" src="../../assets/previews/shots/2017-02-05-night-street-of-balmora.avif" /></a>
+<a href="https://instagram.com/p/BfWPktyjmEy/" title="2017-02-03-hlaalu-council-manor"><img alt="store:/shots/2017-02-03-hlaalu-council-manor.png" src="../../assets/previews/shots/2017-02-03-hlaalu-council-manor.avif" /></a>
+<a href="https://instagram.com/p/BfWPktyjmEy/" title="2017-03-29-guilds-and-stores"><img alt="store:/shots/2017-03-29-guilds-and-stores.png" src="../../assets/previews/shots/2017-03-29-guilds-and-stores.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Balmora` `🚀 OpenMW`
+
+```
+2025-01-29-balmora
+```
+
+> `2018-02-18-balmora`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BfWPktyjmEy/)       | 2018-02-18 |       |   134 |       288 |  46.53 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_622)  | 2018-02-18 |   216 |    24 |       131 |  19.08 |
+| [`ig`](https://instagram.com/p/DFa0i_9Tfls/)       | 2025-01-29 |       |       |      1533 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2095) | 2025-01-29 |       |       |      1057 |        |
+| [`tg`](https://t.me/mwscr/685,686,687,688)         | 2025-01-29 |       |       |       661 |        |
+|                                                    |            |       |       |      3251 |  32.81 |
+
+#### Comments
+
+- `ig` <ins title="2018-02-18-18-10-30">tommytoja</ins> Thank you, as you know I&#39;m a huge fan of Balmora &lt;3
+- `ig` <ins title="2018-02-19-00-07-39">the_athletic_photographer</ins> Miss the data
+- `ig` <ins title="2018-02-19-00-07-41">the_athletic_photographer</ins> Days
+- `ig` <ins title="2018-02-25-17-06-57">dp2.0_music</ins> Miss this place
 
 ## <span id="2025-01-28-smokey-morth">Smokey Morth</span>
 
@@ -30,10 +67,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFYPtihpryV/)       | 2025-01-28 |   272 |    83 |      1535 |   5.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2094) | 2025-01-28 |   155 |    22 |      1056 |   2.08 |
-| [`tg`](https://t.me/mwscr/684)                     | 2025-01-28 |   163 |    52 |       661 |   7.87 |
-|                                                    |            |   590 |   157 |      3252 |   5.12 |
+| [`ig`](https://instagram.com/p/DFYPtihpryV/)       | 2025-01-28 |   276 |    83 |      1535 |   5.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2094) | 2025-01-28 |   160 |    23 |      1056 |   2.18 |
+| [`tg`](https://t.me/mwscr/684)                     | 2025-01-28 |   164 |    53 |       661 |   8.02 |
+|                                                    |            |   600 |   159 |      3252 |    5.2 |
 
 ## <span id="2025-01-27-fishing-in-the-rain">Fishing in the Rain</span>
 
@@ -53,10 +90,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFVq7NZtJkU/)       | 2025-01-27 |   341 |   102 |      1534 |   6.65 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2090) | 2025-01-27 |   473 |    52 |      1055 |    5.4 |
-| [`tg`](https://t.me/mwscr/683)                     | 2025-01-27 |   212 |    63 |       662 |   9.52 |
-|                                                    |            |  1026 |   217 |      3251 |   7.19 |
+| [`ig`](https://instagram.com/p/DFVq7NZtJkU/)       | 2025-01-27 |   342 |   102 |      1534 |   6.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2090) | 2025-01-27 |   475 |    52 |      1055 |    5.4 |
+| [`tg`](https://t.me/mwscr/683)                     | 2025-01-27 |   213 |    64 |       662 |   9.67 |
+|                                                    |            |  1030 |   218 |      3251 |   7.24 |
 
 #### Comments
 
@@ -82,10 +119,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFTF9snJKLL/)       | 2025-01-26 |   578 |    98 |      1531 |    6.4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2089) | 2025-01-26 |   246 |    44 |      1055 |   4.55 |
-| [`tg`](https://t.me/mwscr/682)                     | 2025-01-26 |   235 |    64 |       660 |    9.7 |
-|                                                    |            |  1059 |   206 |      3246 |   6.88 |
+| [`ig`](https://instagram.com/p/DFTF9snJKLL/)       | 2025-01-26 |   593 |   103 |      1531 |   6.73 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2089) | 2025-01-26 |   269 |    46 |      1055 |   4.74 |
+| [`tg`](https://t.me/mwscr/682)                     | 2025-01-26 |   255 |    65 |       660 |   9.85 |
+|                                                    |            |  1117 |   214 |      3246 |   7.11 |
 
 #### Comments
 

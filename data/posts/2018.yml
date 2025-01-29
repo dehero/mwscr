@@ -1793,6 +1793,23 @@
       likes: 24
       views: 216
       reposts: 1
+    - service: ig
+      id: DFa0i_9Tfls
+      mediaId: '17973639803821798'
+      published: 2025-01-29-18-11-12
+      followers: 1533
+    - service: vk
+      id: 2095
+      published: 2025-01-29-18-11-37
+      followers: 1057
+    - service: tg
+      id:
+        - 685
+        - 686
+        - 687
+        - 688
+      published: 2025-01-29-18-12-03
+      followers: 661
 2018-02-19-body-and-soul:
   title: Body and Soul
   titleRu: Тело и душа
