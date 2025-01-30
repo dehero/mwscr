@@ -34,7 +34,7 @@
     - service: vk
       id: 1420
       published: 2024-02-28-19-19-28
-      updated: 2025-01-23-22-03-04
+      updated: 2025-01-30-22-05-39
       followers: 894
       likes: 40
       views: 326
@@ -711,7 +711,7 @@
     - service: vk
       id: 1471
       published: 2024-03-27-18-11-59
-      updated: 2025-01-23-22-03-01
+      updated: 2025-01-30-22-05-36
       followers: 905
       likes: 30
       views: 274
@@ -1040,7 +1040,7 @@
     - service: vk
       id: 1489
       published: 2024-04-10-18-19-29
-      updated: 2025-01-23-22-03-00
+      updated: 2025-01-30-22-05-35
       followers: 911
       likes: 30
       views: 227
@@ -1347,7 +1347,7 @@
     - service: vk
       id: 1508
       published: 2024-04-24-18-17-29
-      updated: 2025-01-23-22-02-58
+      updated: 2025-01-30-22-05-33
       followers: 909
       likes: 31
       views: 276
@@ -1355,10 +1355,10 @@
     - service: tg
       id: 388
       published: 2024-04-24-18-17-38
-      updated: 2025-01-23-22-02-57
+      updated: 2025-01-30-22-05-31
       followers: 354
       likes: 66
-      views: 509
+      views: 511
 2024-04-25-abandoned-island: 2017-09-14-abandoned-island
 2024-04-26-winter-and-summer:
   title: Winter and Summer
@@ -1661,7 +1661,7 @@
     - service: vk
       id: 1525
       published: 2024-05-08-18-19-16
-      updated: 2025-01-23-22-02-57
+      updated: 2025-01-30-22-05-31
       followers: 913
       likes: 42
       views: 298
