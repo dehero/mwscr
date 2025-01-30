@@ -1797,20 +1797,20 @@
       id: DFa0i_9Tfls
       mediaId: '17973639803821798'
       published: 2025-01-29-18-11-12
-      updated: 2025-01-30-18-10-29
+      updated: 2025-01-30-19-01-24
       followers: 1533
       likes: 109
-      views: 333
+      views: 337
       comments: !c |-
         iySAkpPLQnlLNIBIgACpaXN0c2llbGl6rVRoZSBiZXN0IHRvd26Ty0J5SzRrCwAAq2RlbGFub3Nw
         aWVzsEljb25pYyB0b3duIPCfmYwD
     - service: vk
       id: 2095
       published: 2025-01-29-18-11-37
-      updated: 2025-01-30-18-10-28
+      updated: 2025-01-30-19-01-24
       followers: 1057
-      likes: 41
-      views: 301
+      likes: 43
+      views: 312
       reposts: 5
       comments: !c |-
         G5UAqI2UbsL8CJnT4Xk69Qg/SNaipbG01dKYVIt1+AbuBirwfIcRK9TcSsiERKjA0Dl5zgNuV0Sr
@@ -1823,10 +1823,10 @@
         - 687
         - 688
       published: 2025-01-29-18-12-03
-      updated: 2025-01-30-18-10-29
+      updated: 2025-01-30-19-01-24
       followers: 661
-      likes: 54
-      views: 176
+      likes: 61
+      views: 198
       comments: !c |-
         G28A4GTq1Cd8kSS+B8gY0wI8zqO7Fa9gYQNONDB+tQFwn/3uhFIv47L98ElAOXUGB2O1Xma1Hvap
         4MgmGBaFuwLXNP8D8IiF306ul3ZNVOTfCFoZ7Go4eTcFYu3lMuvOE4ve43Ln4tpDkg==
@@ -10036,18 +10036,18 @@
     - service: vk
       id: 1883
       published: 2024-11-06-18-11-45
-      updated: 2025-01-23-18-10-29
+      updated: 2025-01-30-19-01-27
       followers: 1004
       likes: 38
-      views: 396
+      views: 397
       reposts: 3
     - service: tg
       id: 587
       published: 2024-11-06-18-11-51
-      updated: 2025-01-23-18-10-29
+      updated: 2025-01-30-19-01-26
       followers: 566
       likes: 58
-      views: 619
+      views: 624
 2018-10-02-shatalg:
   title: Shatalg
   titleRu: Шаталг

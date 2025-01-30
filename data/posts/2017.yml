@@ -2760,18 +2760,18 @@
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-01-23-18-47-21
+      updated: 2025-01-30-19-01-26
       followers: 1053
-      likes: 48
-      views: 284
+      likes: 49
+      views: 300
       reposts: 1
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-01-23-18-47-21
+      updated: 2025-01-30-19-01-25
       followers: 655
-      likes: 65
-      views: 311
+      likes: 69
+      views: 419
       comments: !c |-
         Cx+AkZPLQnlHEE4ggACoQWVsbGFyaWHZKdCv0LrRliDQutC+0LvRjNC+0YDQuCwg0Y/QutCwINC6
         0YDQsNGB0LAhAw==
@@ -6619,7 +6619,7 @@
     - service: vk
       id: 1663
       published: 2024-08-01-04-18-52
-      updated: 2025-01-23-18-10-30
+      updated: 2025-01-30-19-01-28
       followers: 924
       likes: 31
       views: 279
@@ -7106,10 +7106,10 @@
     - service: tg
       id: 352
       published: 2024-03-20-18-11-08
-      updated: 2025-01-23-18-10-31
+      updated: 2025-01-30-19-01-28
       followers: 352
       likes: 58
-      views: 452
+      views: 453
 2017-07-06-snowy-granius-meets-travelers-near-arkngthand:
   title: Snowy Granius Meets Travelers Near Arkngthand
   titleRu: Граниус Снежный встречает путников у Аркнтанда
@@ -9209,10 +9209,10 @@
       id: DESuLyyPPAX
       mediaId: '17995420544733093'
       published: 2025-01-01-18-10-15
-      updated: 2025-01-23-18-10-28
+      updated: 2025-01-30-19-01-25
       followers: 1520
-      likes: 127
-      views: 559
+      likes: 128
+      views: 579
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
@@ -10878,10 +10878,10 @@
     - service: tg
       id: 337
       published: 2024-03-06-18-18-32
-      updated: 2025-01-23-18-10-32
+      updated: 2025-01-30-19-01-28
       followers: 343
       likes: 62
-      views: 614
+      views: 615
       comments: !c |-
         G+AA4I2UqJ2vI0tTl/38uUb4bVaJrbNx5Xvruwa8Zmw8+Led6Aam/9vw3U0GGHjmaeABpzv8zklk
         mWj75bG5/vvCRFF54ZS24ZSqP6ONHoBMkAGmfcO1rxaHAfmh80zGNljdQSJ4njZDGMvxdyRY5Sii
