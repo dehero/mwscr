@@ -1797,24 +1797,25 @@
       id: DFa0i_9Tfls
       mediaId: '17973639803821798'
       published: 2025-01-29-18-11-12
-      updated: 2025-01-30-06-10-45
+      updated: 2025-01-30-07-07-35
       followers: 1533
-      likes: 82
-      views: 234
+      likes: 84
+      views: 236
       comments: !c |-
         iySAkpPLQnlLNIBIgACpaXN0c2llbGl6rVRoZSBiZXN0IHRvd26Ty0J5SzRrCwAAq2RlbGFub3Nw
         aWVzsEljb25pYyB0b3duIPCfmYwD
     - service: vk
       id: 2095
       published: 2025-01-29-18-11-37
-      updated: 2025-01-30-06-10-46
+      updated: 2025-01-30-07-07-35
       followers: 1057
-      likes: 29
-      views: 147
-      reposts: 2
+      likes: 33
+      views: 178
+      reposts: 3
       comments: !c |-
-        CyKAkZPLQnlLUlU/AACqZHIuamFja3lsbNkt0JrQsNC6INC20LUg0Y8g0LvRjtCx0LvRjiDQkdCw
-        0LvQvNC+0YDRgyDwn6W5Aw==
+        G5UAqI2UbsL8CJnT4Xk69Qg/SNaipbG01dKYVIt1+AbuBirwfIcRK9TcSsiERKjA0Dl5zgNuV0Sr
+        ZUSstCcG+sCn6EjXMD1VWYfjq6jLqpMqde/NTVvXs1ljiHhwOaK3wugNSROMYBDElvz99AS1u74s
+        1GPcC5LEywdJk4CAC9iav2hAwhKya0Kil3y+MQA=
     - service: tg
       id:
         - 685
@@ -1822,10 +1823,10 @@
         - 687
         - 688
       published: 2025-01-29-18-12-03
-      updated: 2025-01-30-06-10-46
+      updated: 2025-01-30-07-07-35
       followers: 661
-      likes: 45
-      views: 144
+      likes: 47
+      views: 148
       comments: !c |-
         CyOAkpPLQnlLNklQgACpR2F0ZW1hdGU3r3RoaXMgaXMgbXkgaG9vZJPLQnlLNWGgAACrVHJ1ZUxv
         dmVJbmOrSSBsaXZlIGhlcmUD
