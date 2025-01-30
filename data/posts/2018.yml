@@ -1797,21 +1797,21 @@
       id: DFa0i_9Tfls
       mediaId: '17973639803821798'
       published: 2025-01-29-18-11-12
-      updated: 2025-01-30-09-08-13
+      updated: 2025-01-30-10-08-04
       followers: 1533
-      likes: 93
-      views: 263
+      likes: 94
+      views: 273
       comments: !c |-
         iySAkpPLQnlLNIBIgACpaXN0c2llbGl6rVRoZSBiZXN0IHRvd26Ty0J5SzRrCwAAq2RlbGFub3Nw
         aWVzsEljb25pYyB0b3duIPCfmYwD
     - service: vk
       id: 2095
       published: 2025-01-29-18-11-37
-      updated: 2025-01-30-09-08-12
+      updated: 2025-01-30-10-08-04
       followers: 1057
       likes: 35
-      views: 210
-      reposts: 3
+      views: 221
+      reposts: 4
       comments: !c |-
         G5UAqI2UbsL8CJnT4Xk69Qg/SNaipbG01dKYVIt1+AbuBirwfIcRK9TcSsiERKjA0Dl5zgNuV0Sr
         ZUSstCcG+sCn6EjXMD1VWYfjq6jLqpMqde/NTVvXs1ljiHhwOaK3wugNSROMYBDElvz99AS1u74s
@@ -1823,10 +1823,10 @@
         - 687
         - 688
       published: 2025-01-29-18-12-03
-      updated: 2025-01-30-09-08-13
+      updated: 2025-01-30-10-08-05
       followers: 661
-      likes: 49
-      views: 155
+      likes: 50
+      views: 157
       comments: !c |-
         CyOAkpPLQnlLNklQgACpR2F0ZW1hdGU3r3RoaXMgaXMgbXkgaG9vZJPLQnlLNWGgAACrVHJ1ZUxv
         dmVJbmOrSSBsaXZlIGhlcmUD
@@ -6526,7 +6526,7 @@
     - service: vk
       id: 779
       published: 2018-06-25
-      updated: 2025-01-23-09-08-45
+      updated: 2025-01-30-10-08-20
       followers: 177
       likes: 24
       views: 280
@@ -6553,7 +6553,7 @@
     - service: vk
       id: 780
       published: 2018-06-26
-      updated: 2025-01-23-09-08-44
+      updated: 2025-01-30-10-08-19
       followers: 177
       likes: 27
       views: 316
@@ -6583,7 +6583,7 @@
     - service: vk
       id: 784
       published: 2018-06-27
-      updated: 2025-01-23-09-08-43
+      updated: 2025-01-30-10-08-18
       followers: 178
       likes: 20
       views: 286
@@ -6637,7 +6637,7 @@
     - service: vk
       id: 786
       published: 2018-06-28
-      updated: 2025-01-23-09-08-42
+      updated: 2025-01-30-10-08-17
       followers: 178
       likes: 19
       views: 267
@@ -6663,7 +6663,7 @@
     - service: vk
       id: 787
       published: 2018-06-29
-      updated: 2025-01-23-09-08-41
+      updated: 2025-01-30-10-08-16
       followers: 180
       likes: 22
       views: 271
@@ -6689,7 +6689,7 @@
     - service: vk
       id: 790
       published: 2018-06-30
-      updated: 2025-01-23-09-08-40
+      updated: 2025-01-30-10-08-16
       followers: 180
       likes: 20
       views: 267
@@ -6721,7 +6721,7 @@
     - service: vk
       id: 791
       published: 2018-07-01
-      updated: 2025-01-23-09-08-40
+      updated: 2025-01-30-10-08-15
       followers: 182
       likes: 24
       views: 276
@@ -6747,7 +6747,7 @@
     - service: vk
       id: 792
       published: 2018-07-02
-      updated: 2025-01-23-09-08-39
+      updated: 2025-01-30-10-08-14
       followers: 185
       likes: 14
       views: 266
@@ -6777,7 +6777,7 @@
     - service: vk
       id: 793
       published: 2018-07-03
-      updated: 2025-01-23-09-08-38
+      updated: 2025-01-30-10-08-13
       followers: 185
       likes: 15
       views: 276
@@ -6801,7 +6801,7 @@
     - service: vk
       id: 794
       published: 2018-07-04
-      updated: 2025-01-23-09-08-37
+      updated: 2025-01-30-10-08-12
       followers: 185
       likes: 15
       views: 257
@@ -6825,7 +6825,7 @@
     - service: vk
       id: 795
       published: 2018-07-05
-      updated: 2025-01-23-09-08-36
+      updated: 2025-01-30-10-08-11
       followers: 185
       likes: 19
       views: 262
@@ -6895,7 +6895,7 @@
     - service: vk
       id: 797
       published: 2018-07-06
-      updated: 2025-01-23-09-08-35
+      updated: 2025-01-30-10-08-10
       followers: 185
       likes: 16
       views: 249
@@ -6919,7 +6919,7 @@
     - service: vk
       id: 798
       published: 2018-07-07
-      updated: 2025-01-23-09-08-35
+      updated: 2025-01-30-10-08-09
       followers: 185
       likes: 21
       views: 252
@@ -6971,7 +6971,7 @@
     - service: vk
       id: 799
       published: 2018-07-08
-      updated: 2025-01-23-09-08-34
+      updated: 2025-01-30-10-08-08
       followers: 185
       likes: 20
       views: 261
@@ -6995,7 +6995,7 @@
     - service: vk
       id: 800
       published: 2018-07-09
-      updated: 2025-01-23-09-08-33
+      updated: 2025-01-30-10-08-08
       followers: 185
       likes: 20
       views: 257
@@ -7021,7 +7021,7 @@
     - service: vk
       id: 801
       published: 2018-07-10
-      updated: 2025-01-23-09-08-32
+      updated: 2025-01-30-10-08-07
       followers: 185
       likes: 16
       views: 253
@@ -7045,7 +7045,7 @@
     - service: vk
       id: 802
       published: 2018-07-11
-      updated: 2025-01-23-09-08-31
+      updated: 2025-01-30-10-08-06
       followers: 186
       likes: 22
       views: 278
