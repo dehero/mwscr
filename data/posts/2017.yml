@@ -8950,7 +8950,7 @@
     - service: vk
       id: 1817
       published: 2024-10-09-18-11-13
-      updated: 2025-01-23-05-08-20
+      updated: 2025-01-30-06-10-50
       followers: 957
       likes: 43
       views: 357
@@ -8958,10 +8958,10 @@
     - service: tg
       id: 559
       published: 2024-10-09-18-11-21
-      updated: 2025-01-23-05-08-20
+      updated: 2025-01-30-06-10-48
       followers: 559
       likes: 68
-      views: 628
+      views: 632
 2017-08-27-deadly-pass:
   title: Deadly Pass
   titleRu: Смертельный проход
@@ -12782,7 +12782,7 @@
     - service: vk
       id: 1833
       published: 2024-10-16-18-11-44
-      updated: 2025-01-23-05-08-19
+      updated: 2025-01-30-06-10-49
       followers: 965
       likes: 43
       views: 441
@@ -12790,13 +12790,13 @@
     - service: tg
       id: 566
       published: 2024-10-16-18-11-53
-      updated: 2025-01-23-05-08-19
+      updated: 2025-01-30-06-10-47
       followers: 562
       likes: 65
-      views: 511
+      views: 515
       comments: !c |-
-        CyeAkZTLQnkpaLsDAAClQWRlbGW9d2hlcmUgaXMgdGhpcyBzdGF0dWUgbG9jYXRlZD+Ty0J5KWm0
-        CQAApW13c2Nyr1NocmluZSBvZiBBenVyYQM=
+        iyuAkZTLQnkpaLsDAACuU2hpc2tvcmliYWZpc2i9d2hlcmUgaXMgdGhpcyBzdGF0dWUgbG9jYXRl
+        ZD+Ty0J5KWm0CQAApW13c2Nyr1NocmluZSBvZiBBenVyYQM=
 2017-12-12-roar-of-a-bear:
   title: Roar of a Bear
   titleRu: Медвежий рёв

@@ -1797,20 +1797,20 @@
       id: DFa0i_9Tfls
       mediaId: '17973639803821798'
       published: 2025-01-29-18-11-12
-      updated: 2025-01-30-05-01-20
+      updated: 2025-01-30-06-10-45
       followers: 1533
-      likes: 79
-      views: 222
+      likes: 82
+      views: 234
       comments: !c |-
         iySAkpPLQnlLNIBIgACpaXN0c2llbGl6rVRoZSBiZXN0IHRvd26Ty0J5SzRrCwAAq2RlbGFub3Nw
         aWVzsEljb25pYyB0b3duIPCfmYwD
     - service: vk
       id: 2095
       published: 2025-01-29-18-11-37
-      updated: 2025-01-30-05-01-20
+      updated: 2025-01-30-06-10-46
       followers: 1057
-      likes: 28
-      views: 142
+      likes: 29
+      views: 147
       reposts: 2
       comments: !c |-
         CyKAkZPLQnlLUlU/AACqZHIuamFja3lsbNkt0JrQsNC6INC20LUg0Y8g0LvRjtCx0LvRjiDQkdCw
@@ -1822,10 +1822,10 @@
         - 687
         - 688
       published: 2025-01-29-18-12-03
-      updated: 2025-01-30-05-01-21
+      updated: 2025-01-30-06-10-46
       followers: 661
-      likes: 44
-      views: 140
+      likes: 45
+      views: 144
       comments: !c |-
         CyOAkpPLQnlLNklQgACpR2F0ZW1hdGU3r3RoaXMgaXMgbXkgaG9vZJPLQnlLNWGgAACrVHJ1ZUxv
         dmVJbmOrSSBsaXZlIGhlcmUD
@@ -4443,10 +4443,10 @@
     - service: tg
       id: 552
       published: 2024-10-02-18-10-41
-      updated: 2025-01-23-05-08-21
+      updated: 2025-01-30-06-10-49
       followers: 560
       likes: 66
-      views: 516
+      views: 519
 2018-05-01-view-of-bthanchend:
   title: View of Bthanchend
   titleRu: Вид на Бтанченд
@@ -11428,7 +11428,7 @@
     - service: vk
       id: 1025
       published: 2018-11-02
-      updated: 2025-01-23-05-08-24
+      updated: 2025-01-30-06-10-53
       followers: 279
       likes: 29
       views: 466
@@ -11480,7 +11480,7 @@
     - service: vk
       id: 1026
       published: 2018-11-04
-      updated: 2025-01-23-05-08-23
+      updated: 2025-01-30-06-10-52
       followers: 280
       likes: 29
       views: 443
@@ -11513,7 +11513,7 @@
     - service: vk
       id: 1027
       published: 2018-11-05
-      updated: 2025-01-23-05-08-22
+      updated: 2025-01-30-06-10-51
       followers: 282
       likes: 24
       views: 479
@@ -11553,7 +11553,7 @@
     - service: vk
       id: 1031
       published: 2018-11-06
-      updated: 2025-01-23-05-08-21
+      updated: 2025-01-30-06-10-51
       followers: 284
       likes: 25
       views: 496
@@ -11643,7 +11643,7 @@
     - service: vk
       id: 1850
       published: 2024-10-23-18-10-16
-      updated: 2025-01-23-05-08-18
+      updated: 2025-01-30-06-10-48
       followers: 994
       likes: 44
       views: 344
@@ -11656,10 +11656,10 @@
     - service: tg
       id: 573
       published: 2024-10-23-18-10-22
-      updated: 2025-01-23-05-08-18
+      updated: 2025-01-30-06-10-47
       followers: 563
       likes: 68
-      views: 535
+      views: 539
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов
