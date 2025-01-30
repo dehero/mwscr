@@ -31,10 +31,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BfWPktyjmEy/)       | 2018-02-18 |       |   134 |       288 |  46.53 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_622)  | 2018-02-18 |   216 |    24 |       131 |  19.08 |
-| [`ig`](https://instagram.com/p/DFa0i_9Tfls/)       | 2025-01-29 |   195 |    71 |      1533 |   4.63 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2095) | 2025-01-29 |   120 |    23 |      1057 |   2.18 |
-| [`tg`](https://t.me/mwscr/685,686,687,688)         | 2025-01-29 |   131 |    43 |       661 |   6.51 |
-|                                                    |            |   446 |   137 |      3251 |  15.78 |
+| [`ig`](https://instagram.com/p/DFa0i_9Tfls/)       | 2025-01-29 |   204 |    72 |      1533 |    4.7 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2095) | 2025-01-29 |   125 |    24 |      1057 |   2.37 |
+| [`tg`](https://t.me/mwscr/685,686,687,688)         | 2025-01-29 |   133 |    43 |       661 |   6.51 |
+|                                                    |            |   462 |   139 |      3251 |  15.84 |
 
 #### Comments
 
@@ -46,6 +46,7 @@
 - `ig` <ins title="2025-01-29-18-17-09">istsieliz</ins> The best town
 - `tg` <ins title="2025-01-29-18-32-32">TrueLoveInc</ins> I live here
 - `tg` <ins title="2025-01-29-18-48-21">Gatemate7</ins> this is my hood
+- `vk` <ins title="2025-01-30-02-58-30">dr.jackyll</ins> Как же я люблю Балмору 🥹
 
 ## <span id="2025-01-28-smokey-morth">Smokey Morth</span>
 
@@ -71,10 +72,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFYPtihpryV/)       | 2025-01-28 |   301 |    87 |      1535 |   5.67 |
+| [`ig`](https://instagram.com/p/DFYPtihpryV/)       | 2025-01-28 |   302 |    87 |      1535 |   5.67 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2094) | 2025-01-28 |   167 |    23 |      1056 |   2.18 |
-| [`tg`](https://t.me/mwscr/684)                     | 2025-01-28 |   190 |    54 |       661 |   8.17 |
-|                                                    |            |   658 |   164 |      3252 |   5.34 |
+| [`tg`](https://t.me/mwscr/684)                     | 2025-01-28 |   191 |    54 |       661 |   8.17 |
+|                                                    |            |   660 |   164 |      3252 |   5.34 |
 
 ## <span id="2025-01-27-fishing-in-the-rain">Fishing in the Rain</span>
 
