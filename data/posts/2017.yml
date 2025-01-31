@@ -951,7 +951,7 @@
     - service: vk
       id: 1554
       published: 2024-05-30-18-20-43
-      updated: 2025-01-24-18-10-35
+      updated: 2025-01-31-19-01-24
       followers: 916
       likes: 49
       views: 402
@@ -964,10 +964,10 @@
     - service: tg
       id: 424
       published: 2024-05-30-18-20-52
-      updated: 2025-01-24-18-10-35
+      updated: 2025-01-31-19-01-21
       followers: 378
       likes: 60
-      views: 497
+      views: 498
 2017-01-28-1-meditative-evening-in-ahemmusa-camp:
   title: Meditative Evening in Ahemmusa Camp
   titleRu: Медитативный вечер в лагере Ахеммуза
@@ -10548,15 +10548,25 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
+      updated: 2025-01-31-19-01-17
       followers: 1534
+      likes: 21
+      views: 32
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
+      updated: 2025-01-31-19-01-17
       followers: 1057
+      likes: 11
+      views: 53
+      reposts: 2
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
+      updated: 2025-01-31-19-01-18
       followers: 662
+      likes: 29
+      views: 74
 2017-10-14-land-of-ruins:
   title: Land of Ruins
   titleRu: Земля руин
@@ -12746,7 +12756,7 @@
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
-      updated: 2025-01-24-18-10-33
+      updated: 2025-01-31-19-01-22
       followers: 917
       likes: 43
       views: 320
@@ -12754,10 +12764,10 @@
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
-      updated: 2025-01-24-18-10-33
+      updated: 2025-01-31-19-01-20
       followers: 388
       likes: 56
-      views: 486
+      views: 487
 2017-12-11-princess-of-dusk-and-dawn:
   title: Princess of Dusk and Dawn
   titleRu: Принцесса рассвета и заката
