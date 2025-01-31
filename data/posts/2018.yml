@@ -452,10 +452,10 @@
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2025-01-24-06-11-08
+      updated: 2025-01-31-07-07-44
       followers: 399
       likes: 72
-      views: 668
+      views: 670
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -1797,20 +1797,20 @@
       id: DFa0i_9Tfls
       mediaId: '17973639803821798'
       published: 2025-01-29-18-11-12
-      updated: 2025-01-31-06-10-30
+      updated: 2025-01-31-07-07-38
       followers: 1533
-      likes: 115
-      views: 375
+      likes: 116
+      views: 378
       comments: !c |-
         iySAkpPLQnlLNIBIgACpaXN0c2llbGl6rVRoZSBiZXN0IHRvd26Ty0J5SzRrCwAAq2RlbGFub3Nw
         aWVzsEljb25pYyB0b3duIPCfmYwD
     - service: vk
       id: 2095
       published: 2025-01-29-18-11-37
-      updated: 2025-01-31-06-10-30
+      updated: 2025-01-31-07-07-37
       followers: 1057
-      likes: 45
-      views: 343
+      likes: 47
+      views: 347
       reposts: 5
       comments: !c |-
         G9oAIB0JdqzJ4MNXbKSM+K/bEb5jP0msmbP0BJopoICT/aABpXMLMdASzWao6IZD+H90E+nXov/S
@@ -1824,10 +1824,10 @@
         - 687
         - 688
       published: 2025-01-29-18-12-03
-      updated: 2025-01-31-06-10-30
+      updated: 2025-01-31-07-07-37
       followers: 661
-      likes: 63
-      views: 219
+      likes: 64
+      views: 220
       comments: !c |-
         G28A4GTq1Cd8kSS+B8gY0wI8zqO7Fa9gYQNONDB+tQFwn/3uhFIv47L98ElAOXUGB2O1Xma1Hvap
         4MgmGBaFuwLXNP8D8IiF306ul3ZNVOTfCFoZ7Go4eTcFYu3lMuvOE4ve43Ln4tpDkg==
@@ -8170,7 +8170,7 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2025-01-24-06-11-04
+      updated: 2025-01-31-07-07-40
       followers: 943
       likes: 27
       views: 276
@@ -8181,10 +8181,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2025-01-24-06-11-04
+      updated: 2025-01-31-07-07-39
       followers: 551
       likes: 56
-      views: 534
+      views: 536
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
@@ -8594,7 +8594,7 @@
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2025-01-24-06-11-08
+      updated: 2025-01-31-07-07-44
       followers: 927
       likes: 37
       views: 332
@@ -8605,10 +8605,10 @@
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2025-01-24-06-11-07
+      updated: 2025-01-31-07-07-43
       followers: 508
       likes: 66
-      views: 623
+      views: 625
       comments: !c ixGAkZPLQnkT2JKcgACoZGFhcmthbmGvd2FubmEgbGl2ZSBoZXJlAw==
 2018-08-29-darius:
   title: Darius
@@ -10225,7 +10225,7 @@
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2025-01-24-06-11-07
+      updated: 2025-01-31-07-07-43
       followers: 932
       likes: 36
       views: 319
@@ -10235,10 +10235,10 @@
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2025-01-24-06-11-06
+      updated: 2025-01-31-07-07-42
       followers: 527
       likes: 60
-      views: 644
+      views: 646
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
