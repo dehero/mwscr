@@ -2016,7 +2016,7 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2025-01-24-11-01-32
+      updated: 2025-01-31-12-13-26
       followers: 919
       likes: 32
       views: 277
@@ -2024,10 +2024,10 @@
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2025-01-24-11-01-30
+      updated: 2025-01-31-12-13-24
       followers: 391
       likes: 57
-      views: 580
+      views: 582
     - service: ig
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
@@ -3061,7 +3061,7 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2025-01-24-11-01-32
+      updated: 2025-01-31-12-13-27
       followers: 919
       likes: 48
       views: 336
@@ -3069,10 +3069,10 @@
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2025-01-24-11-01-31
+      updated: 2025-01-31-12-13-25
       followers: 387
       likes: 65
-      views: 497
+      views: 500
       comments: !c |-
         iyWAkZPLQnkECYQ5gACtQmVybXVkYTgxMl9ZRdkx0K3RgtC+INCy0YvQs9C70Y/QtNC40YIg0YLQ
         sNC6INC/0YDQtdC60YDQsNGB0L3QvgM=
@@ -4330,17 +4330,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2025-01-24-11-01-30
+      updated: 2025-01-31-12-13-25
       followers: 920
       likes: 40
       views: 265
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2025-01-24-11-01-29
+      updated: 2025-01-31-12-13-23
       followers: 397
       likes: 62
-      views: 507
+      views: 510
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
