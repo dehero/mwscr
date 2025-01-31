@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaM4_DqjfYW/)       | 2017-10-13 |       |    69 |       223 |  30.94 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_459)  | 2017-10-13 |   141 |    13 |        91 |  14.29 |
-| [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |    32 |    21 |      1534 |   1.37 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |    53 |    11 |      1057 |   1.23 |
-| [`tg`](https://t.me/mwscr/690)                     | 2025-01-31 |    74 |    29 |       662 |   4.38 |
-|                                                    |            |   159 |    61 |      3253 |  10.44 |
+| [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |    85 |    34 |      1534 |   2.22 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |    79 |    11 |      1057 |   1.23 |
+| [`tg`](https://t.me/mwscr/690)                     | 2025-01-31 |   140 |    38 |       662 |   5.74 |
+|                                                    |            |   304 |    83 |      3253 |  10.88 |
 
 ## <span id="2025-01-30-red-threat">Red Threat</span>
 
@@ -56,10 +56,10 @@
 | [`ig`](https://instagram.com/p/B3ek-PUhulb/)       | 2019-10-11 |       |   203 |       831 |  24.43 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1192) | 2019-10-11 |   634 |    51 |       364 |  14.29 |
 | [`tg`](https://t.me/mwscr/195)                     | 2019-10-11 |   723 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DFdZSvtpKtB/)       | 2025-01-30 |   319 |    84 |      1534 |   5.48 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2098) | 2025-01-30 |   148 |    26 |      1057 |   2.55 |
-| [`tg`](https://t.me/mwscr/689)                     | 2025-01-30 |   190 |    58 |       661 |   8.77 |
-|                                                    |            |   657 |   168 |      3252 |   11.1 |
+| [`ig`](https://instagram.com/p/DFdZSvtpKtB/)       | 2025-01-30 |   324 |    85 |      1534 |   5.54 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2098) | 2025-01-30 |   150 |    26 |      1057 |   2.55 |
+| [`tg`](https://t.me/mwscr/689)                     | 2025-01-30 |   233 |    60 |       661 |   9.08 |
+|                                                    |            |   707 |   171 |      3252 |  11.18 |
 
 ## <span id="2025-01-29-balmora">Balmora</span>
 
@@ -478,10 +478,10 @@
 | [`ig`](https://instagram.com/p/Bq4kQSlB62U/)       | 2018-12-02 |       |   114 |       484 |  23.55 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1086) | 2018-12-02 |  1040 |    38 |       298 |  12.75 |
 | [`tg`](https://t.me/mwscr/133)                     | 2018-12-02 |   432 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   346 |    89 |      1525 |   5.84 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   247 |    33 |      1053 |   3.23 |
-| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   309 |    61 |       655 |   9.31 |
-|                                                    |            |   902 |   183 |      3233 |  10.94 |
+| [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   377 |    92 |      1525 |   6.03 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2069) | 2025-01-17 |   259 |    35 |      1053 |   3.42 |
+| [`tg`](https://t.me/mwscr/670)                     | 2025-01-17 |   406 |    62 |       655 |   9.47 |
+|                                                    |            |  1042 |   189 |      3233 |  11.04 |
 
 ## <span id="2025-01-16-fields-of-kummu-in-the-sunset-light">Fields of Kummu in the Sunset Light</span>
 
