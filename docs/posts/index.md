@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`30 items`
+`31 items`
+
+## <span id="2025-01-31-cult-of-candles">Cult of Candles</span>
+
+`RU` Культ свечей
+
+<a href="https://instagram.com/p/BaM4_DqjfYW/" title="2017-10-13-cult-of-candles"><img alt="store:/shots/2017-10-13-cult-of-candles.png" src="../../assets/previews/shots/2017-10-13-cult-of-candles.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-01-31-cult-of-candles&postLocation=)</code> `🚀 OpenMW` `candle`
+
+```
+2025-01-31-cult-of-candles
+```
+
+> `2017-10-13-cult-of-candles`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BaM4_DqjfYW/)       | 2017-10-13 |       |    69 |       223 |  30.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_459)  | 2017-10-13 |   141 |    13 |        91 |  14.29 |
+| [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |       |       |      1534 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |       |       |      1057 |        |
+| [`tg`](https://t.me/mwscr/690)                     | 2025-01-31 |       |       |       662 |        |
+|                                                    |            |       |       |      3253 |  22.61 |
 
 ## <span id="2025-01-30-red-threat">Red Threat</span>
 
@@ -29,10 +56,10 @@
 | [`ig`](https://instagram.com/p/B3ek-PUhulb/)       | 2019-10-11 |       |   203 |       831 |  24.43 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1192) | 2019-10-11 |   634 |    51 |       364 |  14.29 |
 | [`tg`](https://t.me/mwscr/195)                     | 2019-10-11 |   723 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DFdZSvtpKtB/)       | 2025-01-30 |   310 |    81 |      1534 |   5.28 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2098) | 2025-01-30 |   144 |    26 |      1057 |   2.55 |
-| [`tg`](https://t.me/mwscr/689)                     | 2025-01-30 |   168 |    55 |       661 |   8.32 |
-|                                                    |            |   622 |   162 |      3252 |  10.97 |
+| [`ig`](https://instagram.com/p/DFdZSvtpKtB/)       | 2025-01-30 |   316 |    83 |      1534 |   5.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2098) | 2025-01-30 |   146 |    26 |      1057 |   2.55 |
+| [`tg`](https://t.me/mwscr/689)                     | 2025-01-30 |   170 |    55 |       661 |   8.32 |
+|                                                    |            |   632 |   164 |      3252 |     11 |
 
 ## <span id="2025-01-29-balmora">Balmora</span>
 
@@ -59,10 +86,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BfWPktyjmEy/)       | 2018-02-18 |       |   134 |       288 |  46.53 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_622)  | 2018-02-18 |   216 |    24 |       131 |  19.08 |
-| [`ig`](https://instagram.com/p/DFa0i_9Tfls/)       | 2025-01-29 |   407 |   120 |      1533 |   7.83 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2095) | 2025-01-29 |   387 |    49 |      1057 |    5.3 |
-| [`tg`](https://t.me/mwscr/685,686,687,688)         | 2025-01-29 |   223 |    64 |       661 |   9.68 |
-|                                                    |            |  1017 |   233 |      3251 |  17.68 |
+| [`ig`](https://instagram.com/p/DFa0i_9Tfls/)       | 2025-01-29 |   410 |   120 |      1533 |   7.83 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2095) | 2025-01-29 |   393 |    49 |      1057 |    5.3 |
+| [`tg`](https://t.me/mwscr/685,686,687,688)         | 2025-01-29 |   225 |    64 |       661 |   9.68 |
+|                                                    |            |  1028 |   233 |      3251 |  17.68 |
 
 #### Comments
 
