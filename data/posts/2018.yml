@@ -1797,20 +1797,20 @@
       id: DFa0i_9Tfls
       mediaId: '17973639803821798'
       published: 2025-01-29-18-11-12
-      updated: 2025-01-31-05-01-17
+      updated: 2025-01-31-06-10-30
       followers: 1533
       likes: 115
-      views: 374
+      views: 375
       comments: !c |-
         iySAkpPLQnlLNIBIgACpaXN0c2llbGl6rVRoZSBiZXN0IHRvd26Ty0J5SzRrCwAAq2RlbGFub3Nw
         aWVzsEljb25pYyB0b3duIPCfmYwD
     - service: vk
       id: 2095
       published: 2025-01-29-18-11-37
-      updated: 2025-01-31-05-01-18
+      updated: 2025-01-31-06-10-30
       followers: 1057
       likes: 45
-      views: 339
+      views: 343
       reposts: 5
       comments: !c |-
         G9oAIB0JdqzJ4MNXbKSM+K/bEb5jP0msmbP0BJopoICT/aABpXMLMdASzWao6IZD+H90E+nXov/S
@@ -1824,10 +1824,10 @@
         - 687
         - 688
       published: 2025-01-29-18-12-03
-      updated: 2025-01-31-05-01-18
+      updated: 2025-01-31-06-10-30
       followers: 661
       likes: 63
-      views: 216
+      views: 219
       comments: !c |-
         G28A4GTq1Cd8kSS+B8gY0wI8zqO7Fa9gYQNONDB+tQFwn/3uhFIv47L98ElAOXUGB2O1Xma1Hvap
         4MgmGBaFuwLXNP8D8IiF306ul3ZNVOTfCFoZ7Go4eTcFYu3lMuvOE4ve43Ln4tpDkg==
@@ -11244,7 +11244,7 @@
     - service: vk
       id: 1783
       published: 2024-09-26-18-09-47
-      updated: 2025-01-24-05-08-08
+      updated: 2025-01-31-06-10-35
       followers: 958
       likes: 35
       views: 315
@@ -11260,10 +11260,10 @@
     - service: tg
       id: 546
       published: 2024-09-26-18-09-56
-      updated: 2025-01-24-05-08-06
+      updated: 2025-01-31-06-10-33
       followers: 557
       likes: 67
-      views: 535
+      views: 537
 2018-10-30-stairway-to-god:
   title: Stairway to God
   titleRu: Лестница к богу
