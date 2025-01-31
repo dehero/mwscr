@@ -765,7 +765,7 @@
     - service: vk
       id: 1868
       published: 2024-10-31-18-23-28
-      updated: 2025-01-24-04-09-35
+      updated: 2025-01-31-04-09-48
       followers: 1002
       likes: 33
       views: 294
@@ -777,11 +777,13 @@
     - service: tg
       id: 581
       published: 2024-10-31-18-23-34
-      updated: 2025-01-24-04-09-34
+      updated: 2025-01-31-04-09-48
       followers: 564
       likes: 68
-      views: 567
-      comments: !c ixeAkpPLQnkuQKV4AACqU2VidWxiYTUxOKTwn5igk8tCeS5AmQSAAKVBZGVsZaTwn5GBAw==
+      views: 568
+      comments: !c |-
+        CxyAkpPLQnkuQKV4AACqU2VidWxiYTUxOKTwn5igk8tCeS5AmQSAAK5TaGlza29yaWJhZmlzaKTw
+        n5GBAw==
 2017-01-24-welcome-to-gnaar-mok:
   title: Welcome to Gnaar Mok
   titleRu: Добро пожаловать в Гнаар Мок
@@ -12523,7 +12525,7 @@
     - service: vk
       id: 1852
       published: 2024-10-24-18-10-30
-      updated: 2025-01-24-04-09-36
+      updated: 2025-01-31-04-09-49
       followers: 995
       likes: 48
       views: 331
@@ -12536,10 +12538,10 @@
     - service: tg
       id: 574
       published: 2024-10-24-18-10-36
-      updated: 2025-01-24-04-09-35
+      updated: 2025-01-31-04-09-48
       followers: 563
       likes: 61
-      views: 557
+      views: 560
 2017-12-07-puzzled-ashlanders:
   title: Puzzled Ashlanders
   titleRu: Озадаченные эшлендеры
