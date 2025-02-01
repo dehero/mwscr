@@ -2231,18 +2231,18 @@
     - service: vk
       id: 1979
       published: 2024-12-21-18-09-23
-      updated: 2025-01-25-21-01-53
+      updated: 2025-02-01-22-01-23
       followers: 1026
       likes: 45
-      views: 317
+      views: 320
       reposts: 3
     - service: tg
       id: 632
       published: 2024-12-21-18-09-32
-      updated: 2025-01-25-21-01-52
+      updated: 2025-02-01-22-01-23
       followers: 584
-      likes: 63
-      views: 635
+      likes: 64
+      views: 644
       comments: !c iwyAkZPLQnk+pqKHAACnZG1lcGlraKbQktCw0YMD
 2017-02-28-army-of-stone:
   title: Army of Stone
@@ -7218,10 +7218,10 @@
       id: DEseEMkJV7E
       mediaId: '17878492290233748'
       published: 2025-01-11-18-09-39
-      updated: 2025-01-25-21-01-50
+      updated: 2025-02-01-22-01-21
       followers: 1524
       likes: 139
-      views: 439
+      views: 451
       comments: !c |-
         G7kAQIzEdGuHDJP44gyhqZsv0PlTHIcBPjbmsMAmLep8WeABpYHU0yMNw0SCLLDWliRJmpwP+u3C
         J/wbJ7rJLs/LPSzDoIPM/GLrDs8d3yTKokZrP9xUxW9Za3ASTcgW3ERWBH3cj4i0sOBWeQr4v2Pz
@@ -7230,18 +7230,18 @@
     - service: vk
       id: 2040
       published: 2025-01-11-18-09-47
-      updated: 2025-01-25-21-01-50
+      updated: 2025-02-01-22-01-21
       followers: 1050
       likes: 34
-      views: 310
+      views: 318
       reposts: 1
     - service: tg
       id: 660
       published: 2025-01-11-18-09-56
-      updated: 2025-01-25-21-01-50
+      updated: 2025-02-01-22-01-20
       followers: 648
-      likes: 58
-      views: 444
+      likes: 59
+      views: 483
       comments: !c |-
         G3UBICwOeHPoJLQW7EJO+GREFNzoOKHNE8kCSiiBwAMPP4KXWVU34xFWPiQYEoQt30aab+uVxNo5
         Tz9QP5gGy2a4P4kiUmIYNZ6e8D3d5vX69d6LpMRQCJL8vt5XHZ5ogDAKI52VUMgNKND8BNeTJSH+
@@ -10536,20 +10536,20 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-02-01-21-01-16
+      updated: 2025-02-01-22-01-18
       followers: 1534
       likes: 84
-      views: 372
+      views: 380
       comments: !c |-
         G2sAwCwObHcIMQur7TkrjuLN8iYGsZuNYHD4x75USlK0DjbgSMNAcJxXPVuEFEthvpaYPOCqRS0h
         xIlNMTzG1kEZSsmzz5Nc1HMAk6EKxGzL1SUA3mXZxL6bIm0G4k8weoezYY4GkpLGVuKlBg==
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-02-01-21-01-17
+      updated: 2025-02-01-22-01-19
       followers: 1057
-      likes: 43
-      views: 210
+      likes: 44
+      views: 213
       reposts: 2
       comments: !c |-
         GyMCYCwSbFsOb+N0gZCm0+FLY+Off042ntDXnbMNNOM0ywKukwYSYXKfaDrcYnsz2qshWwwaEvxO
@@ -10561,10 +10561,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-02-01-21-01-17
+      updated: 2025-02-01-22-01-19
       followers: 662
       likes: 64
-      views: 277
+      views: 279
 2017-10-14-land-of-ruins:
   title: Land of Ruins
   titleRu: Земля руин
