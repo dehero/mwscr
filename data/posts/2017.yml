@@ -4207,7 +4207,7 @@
     - service: vk
       id: 1842
       published: 2024-10-18-19-02-17
-      updated: 2025-01-25-09-02-57
+      updated: 2025-02-01-10-07-21
       followers: 965
       likes: 52
       views: 427
@@ -4489,7 +4489,7 @@
     - service: vk
       id: 1754
       published: 2024-09-13-18-29-45
-      updated: 2025-01-25-09-02-59
+      updated: 2025-02-01-10-07-22
       followers: 946
       likes: 52
       views: 394
@@ -5077,7 +5077,7 @@
     - service: vk
       id: 1721
       published: 2024-08-30-18-29-34
-      updated: 2025-01-25-09-03-01
+      updated: 2025-02-01-10-07-25
       followers: 941
       likes: 46
       views: 324
@@ -5094,10 +5094,10 @@
     - service: tg
       id: 517
       published: 2024-08-30-18-29-41
-      updated: 2025-01-25-09-02-56
+      updated: 2025-02-01-10-07-21
       followers: 545
       likes: 72
-      views: 615
+      views: 616
       comments: !c |-
         CzCAk5PLQnlHWu7dAACnS2FCQkJpRbjQrdGFLCBiYXJlZm9vdCBjaGlsZGhvb2STy0J5GnTGOYAA
         qmhpbW1lbGhlcnqk8J+Zj5PLQnkaUBbeAACremhlY2hrYV9kcnak8J+YjAM=
@@ -9342,7 +9342,7 @@
     - service: vk
       id: 1664
       published: 2024-08-02-18-20-03
-      updated: 2025-01-25-09-03-04
+      updated: 2025-02-01-10-07-28
       followers: 925
       likes: 45
       views: 317
@@ -9353,10 +9353,10 @@
     - service: tg
       id: 488
       published: 2024-08-02-18-20-10
-      updated: 2025-01-25-09-02-59
+      updated: 2025-02-01-10-07-24
       followers: 428
       likes: 66
-      views: 705
+      views: 706
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки
@@ -10548,20 +10548,20 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-02-01-09-02-44
+      updated: 2025-02-01-10-07-19
       followers: 1534
-      likes: 68
-      views: 248
+      likes: 72
+      views: 272
       comments: !c |-
         G2sAwCwObHcIMQur7TkrjuLN8iYGsZuNYHD4x75USlK0DjbgSMNAcJxXPVuEFEthvpaYPOCqRS0h
         xIlNMTzG1kEZSsmzz5Nc1HMAk6EKxGzL1SUA3mXZxL6bIm0G4k8weoezYY4GkpLGVuKlBg==
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-02-01-09-02-45
+      updated: 2025-02-01-10-07-19
       followers: 1057
       likes: 33
-      views: 154
+      views: 161
       reposts: 2
       comments: !c |-
         GyMCYCwSbFsOb+N0gZCm0+FLY+Off042ntDXnbMNNOM0ywKukwYSYXKfaDrcYnsz2qshWwwaEvxO
@@ -10573,10 +10573,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-02-01-09-02-44
+      updated: 2025-02-01-10-07-19
       followers: 662
-      likes: 54
-      views: 225
+      likes: 55
+      views: 228
 2017-10-14-land-of-ruins:
   title: Land of Ruins
   titleRu: Земля руин
