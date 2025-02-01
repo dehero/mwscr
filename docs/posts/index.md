@@ -4,7 +4,30 @@
 
 # Posted in 2025
 
-`31 items`
+`32 items`
+
+## <span id="2025-02-01-harbour-view">Harbour View</span>
+
+`RU` Вид на гавань
+
+<a href="https://instagram.com/p/DFiitdtslUk/" title="2025-02-01-harbour-view"><img alt="store:/shots/2025-02-01-harbour-view.png" src="../../assets/previews/shots/2025-02-01-harbour-view.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Ald Velothi` `🚀 OpenMW` `ship` `sandyshore` `shack`
+
+```
+2025-02-01-harbour-view
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DFiitdtslUk/)       | 2025-02-01 |      1535 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2105) | 2025-02-01 |      1059 |
+| [`tg`](https://t.me/mwscr/691)                     | 2025-02-01 |       662 |
+|                                                    |            |      3256 |
 
 ## <span id="2025-01-31-cult-of-candles">Cult of Candles</span>
 
@@ -28,10 +51,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaM4_DqjfYW/)       | 2017-10-13 |       |    69 |       223 |  30.94 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_459)  | 2017-10-13 |   141 |    13 |        91 |  14.29 |
-| [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |   342 |    81 |      1534 |   5.28 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |   196 |    41 |      1057 |   4.07 |
-| [`tg`](https://t.me/mwscr/690)                     | 2025-01-31 |   248 |    60 |       662 |   9.06 |
-|                                                    |            |   786 |   182 |      3253 |  12.73 |
+| [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |   349 |    82 |      1534 |   5.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |   200 |    42 |      1057 |   4.16 |
+| [`tg`](https://t.me/mwscr/690)                     | 2025-01-31 |   250 |    61 |       662 |   9.21 |
+|                                                    |            |   799 |   185 |      3253 |  12.79 |
 
 #### Comments
 
@@ -65,10 +88,10 @@
 | [`ig`](https://instagram.com/p/B3ek-PUhulb/)       | 2019-10-11 |       |   203 |       831 |  24.43 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1192) | 2019-10-11 |   634 |    51 |       364 |  14.29 |
 | [`tg`](https://t.me/mwscr/195)                     | 2019-10-11 |   723 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DFdZSvtpKtB/)       | 2025-01-30 |   362 |    90 |      1534 |   5.87 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2098) | 2025-01-30 |   172 |    29 |      1057 |   2.84 |
-| [`tg`](https://t.me/mwscr/689)                     | 2025-01-30 |   292 |    65 |       661 |   9.83 |
-|                                                    |            |   826 |   184 |      3252 |  11.45 |
+| [`ig`](https://instagram.com/p/DFdZSvtpKtB/)       | 2025-01-30 |   363 |    90 |      1534 |   5.87 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2098) | 2025-01-30 |   173 |    29 |      1057 |   2.84 |
+| [`tg`](https://t.me/mwscr/689)                     | 2025-01-30 |   294 |    65 |       661 |   9.83 |
+|                                                    |            |   830 |   184 |      3252 |  11.45 |
 
 #### Comments
 
