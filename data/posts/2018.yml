@@ -279,7 +279,7 @@
     - service: vk
       id: 1607
       published: 2024-06-28-18-19-25
-      updated: 2025-01-25-12-11-38
+      updated: 2025-02-01-12-11-51
       followers: 917
       likes: 38
       views: 293
@@ -287,10 +287,10 @@
     - service: tg
       id: 453
       published: 2024-06-28-18-19-31
-      updated: 2025-01-25-12-11-35
+      updated: 2025-02-01-12-11-51
       followers: 387
       likes: 59
-      views: 551
+      views: 552
 2018-01-10-rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
@@ -5793,7 +5793,7 @@
     - service: vk
       id: 1657
       published: 2024-07-26-18-20-40
-      updated: 2025-01-25-12-11-34
+      updated: 2025-02-01-12-11-47
       followers: 923
       likes: 34
       views: 276
@@ -5801,10 +5801,10 @@
     - service: tg
       id: 481
       published: 2024-07-26-18-20-48
-      updated: 2025-01-25-12-11-33
+      updated: 2025-02-01-12-11-47
       followers: 400
       likes: 69
-      views: 633
+      views: 634
       comments: !c CwuAkZPLQnkPIJkoAACmQzRINk80pPCfmI4D
 2018-06-06-i-think-i-got-sick:
   title: I Think I Got Sick
@@ -9314,14 +9314,14 @@
     - service: tg
       id: 460
       published: 2024-07-05-18-19-50
-      updated: 2025-01-25-12-11-34
+      updated: 2025-02-01-12-11-49
       followers: 393
       likes: 52
-      views: 459
+      views: 461
     - service: vk
       id: 1615
       published: 2024-07-05-19-12-06
-      updated: 2025-01-25-12-11-37
+      updated: 2025-02-01-12-11-50
       followers: 919
       likes: 32
       views: 292

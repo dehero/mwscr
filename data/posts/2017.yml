@@ -7620,7 +7620,7 @@
     - service: vk
       id: 1631
       published: 2024-07-12-18-21-28
-      updated: 2025-01-25-12-11-36
+      updated: 2025-02-01-12-11-49
       followers: 920
       likes: 33
       views: 272
@@ -7628,10 +7628,10 @@
     - service: tg
       id: 467
       published: 2024-07-12-18-21-35
-      updated: 2025-01-25-12-11-34
+      updated: 2025-02-01-12-11-48
       followers: 397
       likes: 59
-      views: 485
+      views: 487
     - service: ig
       id: C9YKgzryToO
       mediaId: '17930722637791965'
@@ -10548,20 +10548,20 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-02-01-11-01-48
+      updated: 2025-02-01-12-11-46
       followers: 1534
-      likes: 73
-      views: 282
+      likes: 74
+      views: 290
       comments: !c |-
         G2sAwCwObHcIMQur7TkrjuLN8iYGsZuNYHD4x75USlK0DjbgSMNAcJxXPVuEFEthvpaYPOCqRS0h
         xIlNMTzG1kEZSsmzz5Nc1HMAk6EKxGzL1SUA3mXZxL6bIm0G4k8weoezYY4GkpLGVuKlBg==
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-02-01-11-01-48
+      updated: 2025-02-01-12-11-45
       followers: 1057
-      likes: 35
-      views: 165
+      likes: 36
+      views: 171
       reposts: 2
       comments: !c |-
         GyMCYCwSbFsOb+N0gZCm0+FLY+Off042ntDXnbMNNOM0ywKukwYSYXKfaDrcYnsz2qshWwwaEvxO
@@ -10573,10 +10573,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-02-01-11-01-48
+      updated: 2025-02-01-12-11-46
       followers: 662
-      likes: 55
-      views: 229
+      likes: 56
+      views: 239
 2017-10-14-land-of-ruins:
   title: Land of Ruins
   titleRu: Земля руин
