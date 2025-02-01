@@ -28,10 +28,14 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaM4_DqjfYW/)       | 2017-10-13 |       |    69 |       223 |  30.94 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_459)  | 2017-10-13 |   141 |    13 |        91 |  14.29 |
-| [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |   147 |    49 |      1534 |   3.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |   116 |    22 |      1057 |   2.27 |
-| [`tg`](https://t.me/mwscr/690)                     | 2025-01-31 |   185 |    46 |       662 |   6.95 |
-|                                                    |            |   448 |   117 |      3253 |  11.53 |
+| [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |   168 |    53 |      1534 |   3.46 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |   117 |    22 |      1057 |   2.27 |
+| [`tg`](https://t.me/mwscr/690)                     | 2025-01-31 |   189 |    48 |       662 |   7.25 |
+|                                                    |            |   474 |   123 |      3253 |  11.64 |
+
+#### Comments
+
+- `ig` <ins title="2025-02-01-01-55-49">walter_nyqvist</ins> you post the most beautiful scenes, thank you
 
 ## <span id="2025-01-30-red-threat">Red Threat</span>
 
@@ -56,10 +60,15 @@
 | [`ig`](https://instagram.com/p/B3ek-PUhulb/)       | 2019-10-11 |       |   203 |       831 |  24.43 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1192) | 2019-10-11 |   634 |    51 |       364 |  14.29 |
 | [`tg`](https://t.me/mwscr/195)                     | 2019-10-11 |   723 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DFdZSvtpKtB/)       | 2025-01-30 |   332 |    86 |      1534 |   5.61 |
+| [`ig`](https://instagram.com/p/DFdZSvtpKtB/)       | 2025-01-30 |   333 |    88 |      1534 |   5.74 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2098) | 2025-01-30 |   155 |    26 |      1057 |   2.55 |
-| [`tg`](https://t.me/mwscr/689)                     | 2025-01-30 |   255 |    60 |       661 |   9.08 |
-|                                                    |            |   742 |   172 |      3252 |  11.19 |
+| [`tg`](https://t.me/mwscr/689)                     | 2025-01-30 |   258 |    61 |       661 |   9.23 |
+|                                                    |            |   746 |   175 |      3252 |  11.25 |
+
+#### Comments
+
+- `ig` <ins title="2025-02-01-01-56-47">walter_nyqvist</ins> Amazing
+- `ig` <ins title="2025-02-01-01-57-08">walter_nyqvist</ins> almost frightening
 
 ## <span id="2025-01-29-balmora">Balmora</span>
 
