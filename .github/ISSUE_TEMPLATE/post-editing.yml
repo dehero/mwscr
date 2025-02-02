@@ -1,6 +1,5 @@
 name: Edit Post
-description: Paste in the title the ID of post from inbox or trash.
-title: POST_ID
+description: Paste in the title the ID of post.
 labels:
   - post-editing
 body:
