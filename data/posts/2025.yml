@@ -299,21 +299,25 @@
       id: DFiitdtslUk
       mediaId: '17868184683299400'
       published: 2025-02-01-18-09-17
-      updated: 2025-02-02-03-11-23
+      updated: 2025-02-02-04-08-47
       followers: 1535
-      likes: 71
-      views: 181
+      likes: 75
+      views: 188
+      comments: !c |-
+        Cx+AkZPLQnlMS5VaAACtbGVubnlnb2xkZnVua9kkSSB3YW50IHRvIGNhdGNoIG95c3RlciBhbmQg
+        Y3JhYiBoZXJlAw==
     - service: vk
       id: 2105
       published: 2025-02-01-18-09-25
-      updated: 2025-02-02-03-11-23
+      updated: 2025-02-02-04-08-47
       followers: 1059
-      likes: 13
-      views: 104
+      likes: 15
+      views: 107
+      reposts: 1
     - service: tg
       id: 691
       published: 2025-02-01-18-09-32
-      updated: 2025-02-02-03-11-24
+      updated: 2025-02-02-04-08-47
       followers: 662
       likes: 43
-      views: 122
+      views: 123

@@ -24,10 +24,14 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFiitdtslUk/)       | 2025-02-01 |   181 |    71 |      1535 |   4.63 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2105) | 2025-02-01 |   104 |    13 |      1059 |   1.23 |
-| [`tg`](https://t.me/mwscr/691)                     | 2025-02-01 |   122 |    43 |       662 |    6.5 |
-|                                                    |            |   407 |   127 |      3256 |   4.12 |
+| [`ig`](https://instagram.com/p/DFiitdtslUk/)       | 2025-02-01 |   188 |    75 |      1535 |   4.89 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2105) | 2025-02-01 |   107 |    15 |      1059 |   1.51 |
+| [`tg`](https://t.me/mwscr/691)                     | 2025-02-01 |   123 |    43 |       662 |    6.5 |
+|                                                    |            |   418 |   133 |      3256 |    4.3 |
+
+#### Comments
+
+- `ig` <ins title="2025-02-02-03-34-28">lennygoldfunk</ins> I want to catch oyster and crab here
 
 ## <span id="2025-01-31-cult-of-candles">Cult of Candles</span>
 
@@ -51,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaM4_DqjfYW/)       | 2017-10-13 |       |    69 |       223 |  30.94 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_459)  | 2017-10-13 |   141 |    13 |        91 |  14.29 |
-| [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |   391 |    88 |      1534 |   5.74 |
+| [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |   392 |    88 |      1534 |   5.74 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |   218 |    44 |      1057 |   4.35 |
 | [`tg`](https://t.me/mwscr/690)                     | 2025-01-31 |   284 |    64 |       662 |   9.67 |
-|                                                    |            |   893 |   196 |      3253 |     13 |
+|                                                    |            |   894 |   196 |      3253 |     13 |
 
 #### Comments
 
