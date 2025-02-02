@@ -10536,10 +10536,10 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-02-02-09-04-00
+      updated: 2025-02-02-10-05-10
       followers: 1534
       likes: 92
-      views: 401
+      views: 403
       comments: !c |-
         G98AwJyHsbGs8SG7EA7eih9t0NTcPsW/vq2uizWxqIi/eCNyVBIhirW6bgOcXKaTIz2e/Bc6Ny/R
         ACAoFa7mn55oGpDWWluB5m0lEnMYXq43vB5iSe1Zi/XWnnHuAfDHCx3fnHTgG0RPc5v++Q5kTduC
@@ -10548,7 +10548,7 @@
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-02-02-09-04-00
+      updated: 2025-02-02-10-05-11
       followers: 1057
       likes: 45
       views: 228
@@ -10563,10 +10563,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-02-02-09-04-01
+      updated: 2025-02-02-10-05-10
       followers: 662
       likes: 65
-      views: 293
+      views: 294
 2017-10-14-land-of-ruins:
   title: Land of Ruins
   titleRu: Земля руин
