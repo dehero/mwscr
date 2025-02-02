@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`32 items`
+`33 items`
+
+## <span id="2025-02-02-heran-ancestral-tomb">Heran Ancestral Tomb</span>
+
+`RU` Родовая гробница Херанов
+
+<a href="https://instagram.com/p/BVwhJnrDLbo/" title="2017-06-25-heran-ancestral-tomb"><img alt="store:/shots/2017-06-25-heran-ancestral-tomb.png" src="../../assets/previews/shots/2017-06-25-heran-ancestral-tomb.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Heran Ancestral Tomb` `🚀 OpenMW` `rain` `tomb`
+
+```
+2025-02-02-heran-ancestral-tomb
+```
+
+> `2017-06-25-heran-ancestral-tomb`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BVwhJnrDLbo/)       | 2017-06-25 |       |    65 |       184 |  35.33 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_333)  | 2017-06-25 |    99 |     9 |        65 |  13.85 |
+| [`ig`](https://instagram.com/p/DFlHfSRzWCN/)       | 2025-02-02 |       |       |      1536 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2107) | 2025-02-02 |       |       |      1060 |        |
+| [`tg`](https://t.me/mwscr/692)                     | 2025-02-02 |       |       |       662 |        |
+|                                                    |            |       |       |      3258 |  24.59 |
 
 ## <span id="2025-02-01-harbour-view">Harbour View</span>
 
@@ -24,10 +51,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFiitdtslUk/)       | 2025-02-01 |   269 |    92 |      1535 |   5.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2105) | 2025-02-01 |   169 |    23 |      1059 |   2.27 |
-| [`tg`](https://t.me/mwscr/691)                     | 2025-02-01 |   165 |    54 |       662 |   8.16 |
-|                                                    |            |   603 |   169 |      3256 |   5.47 |
+| [`ig`](https://instagram.com/p/DFiitdtslUk/)       | 2025-02-01 |   274 |    92 |      1535 |   5.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2105) | 2025-02-01 |   173 |    24 |      1059 |   2.36 |
+| [`tg`](https://t.me/mwscr/691)                     | 2025-02-01 |   169 |    55 |       662 |   8.31 |
+|                                                    |            |   616 |   171 |      3256 |   5.55 |
 
 #### Comments
 
@@ -56,9 +83,9 @@
 | [`ig`](https://instagram.com/p/BaM4_DqjfYW/)       | 2017-10-13 |       |    69 |       223 |  30.94 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_459)  | 2017-10-13 |   141 |    13 |        91 |  14.29 |
 | [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |   421 |    95 |      1534 |   6.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |   238 |    47 |      1057 |   4.64 |
-| [`tg`](https://t.me/mwscr/690)                     | 2025-01-31 |   303 |    66 |       662 |   9.97 |
-|                                                    |            |   962 |   208 |      3253 |  13.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |   241 |    47 |      1057 |   4.64 |
+| [`tg`](https://t.me/mwscr/690)                     | 2025-01-31 |   306 |    67 |       662 |  10.12 |
+|                                                    |            |   968 |   209 |      3253 |  13.24 |
 
 #### Comments
 

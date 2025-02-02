@@ -6757,6 +6757,19 @@
       followers: 65
       likes: 9
       views: 99
+    - service: ig
+      id: DFlHfSRzWCN
+      mediaId: '17955260624870999'
+      published: 2025-02-02-18-09-05
+      followers: 1536
+    - service: vk
+      id: 2107
+      published: 2025-02-02-18-09-12
+      followers: 1060
+    - service: tg
+      id: 692
+      published: 2025-02-02-18-09-19
+      followers: 662
 2017-06-26-floating-over-the-green-hills:
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами
@@ -10536,7 +10549,7 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-02-02-17-01-21
+      updated: 2025-02-02-18-08-51
       followers: 1534
       likes: 95
       views: 421
@@ -10548,10 +10561,10 @@
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-02-02-17-01-21
+      updated: 2025-02-02-18-08-51
       followers: 1057
       likes: 47
-      views: 238
+      views: 241
       reposts: 2
       comments: !c |-
         G1MCgKwOzFOmAyaDC3lcpr4TaSwTFXGwOKHXZirQjNMsCzhIJMJkTzSVbbHZjPZqyBaDhnTAyZh8
@@ -10563,10 +10576,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-02-02-17-01-20
+      updated: 2025-02-02-18-08-51
       followers: 662
-      likes: 66
-      views: 303
+      likes: 67
+      views: 306
       comments: !c CxiAkZPLQnlMaCGzgACobW9uZ2xlcmm8ZGFtbiB0aG9zZSBjYW5kZXMgYXJlIHByZXR0eQM=
 2017-10-14-land-of-ruins:
   title: Land of Ruins
