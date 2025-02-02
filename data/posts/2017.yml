@@ -10133,10 +10133,10 @@
     - service: tg
       id: 369
       published: 2024-04-05-18-17-25
-      updated: 2025-01-26-02-09-30
+      updated: 2025-02-02-02-09-58
       followers: 355
       likes: 64
-      views: 474
+      views: 476
       comments: !c |-
         C0mAkpPLQnjrJoNrAACvQWxleGV5IFN0ZXBhbm922SvRj9C6INCd0L7QstC40Lkg0YDRltC6INC/
         0YDRj9C88J+YgvCfmILwn5iClMtCeOr63pEAAKhBZWxsYXJpYa3QkCDQtNC1INGG0LU/k8tCeOr8
@@ -10536,20 +10536,20 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-02-02-00-38-02
+      updated: 2025-02-02-02-09-57
       followers: 1534
-      likes: 87
-      views: 388
+      likes: 88
+      views: 390
       comments: !c |-
         G2sAwCwObHcIMQur7TkrjuLN8iYGsZuNYHD4x75USlK0DjbgSMNAcJxXPVuEFEthvpaYPOCqRS0h
         xIlNMTzG1kEZSsmzz5Nc1HMAk6EKxGzL1SUA3mXZxL6bIm0G4k8weoezYY4GkpLGVuKlBg==
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-02-02-00-38-01
+      updated: 2025-02-02-02-09-57
       followers: 1057
       likes: 44
-      views: 215
+      views: 216
       reposts: 2
       comments: !c |-
         GyMCYCwSbFsOb+N0gZCm0+FLY+Off042ntDXnbMNNOM0ywKukwYSYXKfaDrcYnsz2qshWwwaEvxO
@@ -10561,10 +10561,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-02-02-00-38-01
+      updated: 2025-02-02-02-09-57
       followers: 662
       likes: 64
-      views: 280
+      views: 283
 2017-10-14-land-of-ruins:
   title: Land of Ruins
   titleRu: Земля руин
