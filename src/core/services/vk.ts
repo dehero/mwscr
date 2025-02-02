@@ -25,7 +25,7 @@ export type VKPublication = InferOutput<typeof VKPublication>;
 export class VK implements PostingService<VKPublication> {
   readonly id = 'vk';
   readonly name = 'VK';
-  readonly donationName = 'VK Donut';
+  readonly sponsorshipName = 'VK Donut';
 
   isPost(publication: Publication): publication is VKPublication {
     return publication.service === this.id && typeof publication.id === 'number';
@@ -35,8 +35,8 @@ export class VK implements PostingService<VKPublication> {
     return checkSchema(VKPost, post, errors);
   }
 
-  getDonationUrl() {
-    return `https://vk.com/donut/${VK_GROUP_NAME}`;
+  getSponsorshipUrl() {
+    return `https://vk.com/${VK_GROUP_NAME}`;
   }
 
   getPublicationUrl(publication: Publication) {

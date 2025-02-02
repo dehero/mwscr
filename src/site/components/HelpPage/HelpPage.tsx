@@ -97,8 +97,8 @@ export const HelpPage = (): JSX.Element => {
             </a>
           </li>
           <li>
-            <a class={styles.topic} href={createDetachedDialogFragment('donation')}>
-              Donate
+            <a class={styles.topic} href={createDetachedDialogFragment('sponsorship')}>
+              Sponsor
             </a>
           </li>
           <li>

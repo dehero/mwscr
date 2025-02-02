@@ -3,13 +3,13 @@ import type { SiteRouteParams } from '../../../core/entities/site-route.js';
 import { parseSiteRouteFragment, stringifySiteRouteFragment } from '../../../core/entities/site-route.js';
 import { useHash } from '../../hooks/useHash.js';
 import { ContributingDialog } from '../ContributingDialog/ContributingDialog.jsx';
-import { DonationDialog } from '../DonationDialog/DonationDialog.jsx';
 import { PostEditingDialog } from '../PostEditingDialog/PostEditingDialog.jsx';
 import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.jsx';
 import { PostMergeDialog } from '../PostMergeDialog/PostMergeDialog.jsx';
 import { PostProposalDialog } from '../PostProposalDialog/PostProposalDialog.jsx';
 import { PostRequestDialog } from '../PostRequestDialog/PostRequestDialog.jsx';
 import { PostReviewDialog } from '../PostReviewDialog/PostReviewDialog.jsx';
+import { SponsorshipDialog } from '../SponsorshipDialog/SponsorshipDialog.jsx';
 import { SubscriptionDialog } from '../SubscriptionDialog/SubscriptionDialog.jsx';
 
 export interface DetachedDialogProps<TParams extends SiteRouteParams> {
@@ -29,7 +29,7 @@ const detachedDialogs = {
   'post-review': PostReviewDialog,
   subscription: SubscriptionDialog,
   contributing: ContributingDialog,
-  donation: DonationDialog,
+  sponsorship: SponsorshipDialog,
 } satisfies Record<string, DetachedDialog | undefined>;
 
 export type DialogName = keyof typeof detachedDialogs;

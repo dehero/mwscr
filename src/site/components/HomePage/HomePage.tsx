@@ -113,7 +113,7 @@ export const HomePage = (): JSX.Element => {
 
                   <Button href={createDetachedDialogFragment('contributing')}>Contribute</Button>
 
-                  <Button href={createDetachedDialogFragment('donation')}>Donate</Button>
+                  <Button href={createDetachedDialogFragment('sponsorship')}>Sponsor</Button>
                 </p>
               </Frame>
 

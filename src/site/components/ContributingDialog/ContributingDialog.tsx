@@ -12,7 +12,7 @@ import styles from './ContributingDialog.module.css';
 
 export const ContributingDialog: DetachedDialog = (props) => {
   return (
-    <Dialog modal {...props} actions={[<Button onClick={props.onClose}>Cancel</Button>]}>
+    <Dialog modal {...props} actions={[<Button onClick={props.onClose}>OK</Button>]}>
       <div class={styles.container}>
         <Frame component="img" src={mage} class={styles.icon} alt="mage class" width={256} />
         <section class={styles.heading}>

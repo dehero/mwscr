@@ -9,7 +9,7 @@ import styles from './SubscriptionDialog.module.css';
 
 export const SubscriptionDialog: DetachedDialog = (props) => {
   return (
-    <Dialog modal {...props} actions={[<Button onClick={props.onClose}>Cancel</Button>]}>
+    <Dialog modal {...props} actions={[<Button onClick={props.onClose}>OK</Button>]}>
       <div class={styles.container}>
         <Frame component="img" src={bard} class={styles.icon} alt="bard class" width={256} />
         <section class={styles.heading}>

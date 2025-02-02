@@ -9,10 +9,10 @@ export interface ServiceMessagingOptions {
 export interface Service {
   id: string;
   name: string;
-  donationName?: string;
+  sponsorshipName?: string;
   origin?: string;
 
-  getDonationUrl?: () => string;
+  getSponsorshipUrl?: () => string;
 
   getPostUrl?: (postId: string) => string | undefined;
 

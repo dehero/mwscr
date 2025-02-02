@@ -25,6 +25,7 @@ export type TelegramPublication = InferOutput<typeof TelegramPublication>;
 export class Telegram implements PostingService<TelegramPublication> {
   readonly id = 'tg';
   readonly name = 'Telegram';
+  readonly sponsorshipName = 'Telegram Stars';
 
   isPost(publication: Publication): publication is TelegramPublication {
     return (
@@ -43,6 +44,10 @@ export class Telegram implements PostingService<TelegramPublication> {
       return;
     }
     return `https://t.me/${TELEGRAM_CHANNEL}/${publication.id}`;
+  }
+
+  getSponsorshipUrl(): string {
+    return `https://t.me/${TELEGRAM_CHANNEL}`;
   }
 
   getSubscriptionUrl(): string {
