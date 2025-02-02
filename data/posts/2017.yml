@@ -10536,20 +10536,22 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-02-02-06-09-52
+      updated: 2025-02-02-07-01-16
       followers: 1534
-      likes: 89
-      views: 395
+      likes: 91
+      views: 396
       comments: !c |-
-        G2sAwCwObHcIMQur7TkrjuLN8iYGsZuNYHD4x75USlK0DjbgSMNAcJxXPVuEFEthvpaYPOCqRS0h
-        xIlNMTzG1kEZSsmzz5Nc1HMAk6EKxGzL1SUA3mXZxL6bIm0G4k8weoezYY4GkpLGVuKlBg==
+        G98AwJyHsbGs8SG7EA7eih9t0NTcPsW/vq2uizWxqIi/eCNyVBIhirW6bgOcXKaTIz2e/Bc6Ny/R
+        ACAoFa7mn55oGpDWWluB5m0lEnMYXq43vB5iSe1Zi/XWnnHuAfDHCx3fnHTgG0RPc5v++Q5kTduC
+        NAzTWzldPI3K+URCRXCYcpUut8032uPOqjJwKv7hCr4LhDjrGEZofxxODywUgPp6eVHDgS9pdzJE
+        bhmf7UGC6+g+ao7DqQSz4CTBMh4=
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-02-02-06-09-52
+      updated: 2025-02-02-07-01-16
       followers: 1057
       likes: 44
-      views: 219
+      views: 221
       reposts: 2
       comments: !c |-
         GyMCYCwSbFsOb+N0gZCm0+FLY+Off042ntDXnbMNNOM0ywKukwYSYXKfaDrcYnsz2qshWwwaEvxO
@@ -10561,10 +10563,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-02-02-06-09-52
+      updated: 2025-02-02-07-01-16
       followers: 662
-      likes: 64
-      views: 285
+      likes: 65
+      views: 289
 2017-10-14-land-of-ruins:
   title: Land of Ruins
   titleRu: Земля руин
