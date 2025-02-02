@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.34.0](https://github.com/dehero/mwscr/compare/v1.33.2...v1.34.0) (2025-02-02)
+
+### Features
+
+- **site:** rename donation to sponsorship, remove Boosty link, change VK Donut link and mention Telegram Stars
+  ([78069af](https://github.com/dehero/mwscr/commit/78069af4ca5e4da5a92cd57b0af43ebf05dca540))
+
+### Bug Fixes
+
+- remove default title for GitHub issues after it started prepending title from parameter
+  ([8338410](https://github.com/dehero/mwscr/commit/83384101fc880ccdd1b41f0f9e9ea4b3aec11811))
+
 ## [1.33.2](https://github.com/dehero/mwscr/compare/v1.33.1...v1.33.2) (2025-01-18)
 
 ### Bug Fixes
