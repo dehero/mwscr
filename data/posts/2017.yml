@@ -2314,7 +2314,7 @@
     - service: vk
       id: 1454
       published: 2024-03-16-18-10-42
-      updated: 2025-01-26-22-01-58
+      updated: 2025-02-02-22-02-18
       followers: 896
       likes: 37
       views: 294
@@ -2322,10 +2322,10 @@
     - service: tg
       id: 348
       published: 2024-03-16-18-10-49
-      updated: 2025-01-26-22-01-55
+      updated: 2025-02-02-22-02-15
       followers: 353
       likes: 55
-      views: 452
+      views: 453
 2017-03-02-tel-vos:
   title: Tel Vos
   titleRu: Тель Вос
@@ -6761,24 +6761,27 @@
       id: DFlHfSRzWCN
       mediaId: '17955260624870999'
       published: 2025-02-02-18-09-05
-      updated: 2025-02-02-21-02-25
+      updated: 2025-02-02-22-02-09
       followers: 1536
-      likes: 27
-      views: 76
+      likes: 35
+      views: 97
     - service: vk
       id: 2107
       published: 2025-02-02-18-09-12
-      updated: 2025-02-02-21-02-27
+      updated: 2025-02-02-22-02-10
       followers: 1060
-      likes: 17
-      views: 79
+      likes: 20
+      views: 89
+      comments: !c |-
+        G2gA+I2E3ETrZfliuUhQtXvCGw88kyTAgOImwQiT3bdtXpGwdrvRnGr81gpsBRF2TidwyKkeAL4g
+        cAy4HoecgEzyO/fnVfabVW+OhBABicKvDBWPikXB9Ly7oIKNy9zZpuCcsDAZY9nV1l47
     - service: tg
       id: 692
       published: 2025-02-02-18-09-19
-      updated: 2025-02-02-21-02-26
+      updated: 2025-02-02-22-02-10
       followers: 662
-      likes: 36
-      views: 120
+      likes: 39
+      views: 137
 2017-06-26-floating-over-the-green-hills:
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами
@@ -9157,7 +9160,7 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2025-01-26-22-01-53
+      updated: 2025-02-02-22-02-13
       followers: 915
       likes: 41
       views: 286
