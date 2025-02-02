@@ -24,10 +24,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFiitdtslUk/)       | 2025-02-01 |   233 |    85 |      1535 |   5.54 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2105) | 2025-02-01 |   145 |    20 |      1059 |   1.98 |
-| [`tg`](https://t.me/mwscr/691)                     | 2025-02-01 |   143 |    48 |       662 |   7.25 |
-|                                                    |            |   521 |   153 |      3256 |   4.92 |
+| [`ig`](https://instagram.com/p/DFiitdtslUk/)       | 2025-02-01 |   241 |    87 |      1535 |   5.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2105) | 2025-02-01 |   150 |    22 |      1059 |   2.17 |
+| [`tg`](https://t.me/mwscr/691)                     | 2025-02-01 |   149 |    49 |       662 |    7.4 |
+|                                                    |            |   540 |   158 |      3256 |   5.08 |
 
 #### Comments
 
@@ -55,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaM4_DqjfYW/)       | 2017-10-13 |       |    69 |       223 |  30.94 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_459)  | 2017-10-13 |   141 |    13 |        91 |  14.29 |
-| [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |   403 |    92 |      1534 |      6 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |   229 |    45 |      1057 |   4.45 |
-| [`tg`](https://t.me/mwscr/690)                     | 2025-01-31 |   295 |    65 |       662 |   9.82 |
-|                                                    |            |   927 |   202 |      3253 |   13.1 |
+| [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |   410 |    93 |      1534 |   6.06 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |   232 |    46 |      1057 |   4.54 |
+| [`tg`](https://t.me/mwscr/690)                     | 2025-01-31 |   300 |    65 |       662 |   9.82 |
+|                                                    |            |   942 |   204 |      3253 |  13.13 |
 
 #### Comments
 
@@ -70,6 +70,7 @@
 - `vk` <ins title="2025-02-01-07-39-32">id820702664</ins> Там темнота, там слоник бродит,<br>И крыс в ночнушке <br>Током бьёт...
 - `ig` <ins title="2025-02-01-08-31-05">doots_spookman</ins> beautiful
 - `ig` <ins title="2025-02-02-06-57-48">ride_the_rathorn</ins> I’m scared just looking at that picture. Lol. Beautiful, but I have Sixth House PTSD.
+- `tg` <ins title="2025-02-02-11-53-23">mongleri</ins> damn those candes are pretty
 
 ## <span id="2025-01-30-red-threat">Red Threat</span>
 
