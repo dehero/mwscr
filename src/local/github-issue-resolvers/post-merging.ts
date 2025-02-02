@@ -1,4 +1,4 @@
-import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
+import { type GithubIssue } from '../../core/entities/github-issue.js';
 import { mergeWithIds } from '../../core/entities/github-issue-field.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import { mergePostWith } from '../../core/entities/post.js';
@@ -40,7 +40,7 @@ export async function createIssueTemplate(id?: string) {
   const result = {
     name: 'Merge Posts',
     description: 'Paste in the title the ID of post from inbox or trash.',
-    title: id || GITHUB_ISSUE_DEFAULT_TITLE,
+    title: id,
     labels: [label],
     body: [mergeWithIds],
   };

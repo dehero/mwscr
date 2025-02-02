@@ -1,4 +1,4 @@
-import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
+import { type GithubIssue } from '../../core/entities/github-issue.js';
 import { postMark, postViolation } from '../../core/entities/github-issue-field.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import { PostMark, PostViolation } from '../../core/entities/post.js';
@@ -34,7 +34,6 @@ export async function createIssueTemplate() {
   return {
     name: 'Review Post',
     description: 'Paste in the title the ID of post.',
-    title: GITHUB_ISSUE_DEFAULT_TITLE,
     labels: [label],
     body: [issueDropdownToInput(postMark) as object, issueDropdownToInput(postViolation) as object],
   };

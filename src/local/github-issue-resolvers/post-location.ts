@@ -1,4 +1,4 @@
-import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
+import { type GithubIssue } from '../../core/entities/github-issue.js';
 import { postLocation } from '../../core/entities/github-issue-field.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import { mergePostLocations } from '../../core/entities/post.js';
@@ -51,7 +51,6 @@ export async function createIssueTemplate() {
   return {
     name: 'Locate Post',
     description: 'Select where the shot was done.',
-    title: GITHUB_ISSUE_DEFAULT_TITLE,
     labels: [label],
     body: [postLocation],
   };

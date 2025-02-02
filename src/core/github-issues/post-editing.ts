@@ -1,4 +1,4 @@
-import { GITHUB_ISSUE_CREATE_URL, GITHUB_ISSUE_DEFAULT_TITLE } from '../entities/github-issue.js';
+import { GITHUB_ISSUE_CREATE_URL } from '../entities/github-issue.js';
 import {
   postAddon,
   postAuthor,
@@ -23,7 +23,7 @@ export function createIssueUrl(id?: string, post?: Post): string {
   const url = new URL(GITHUB_ISSUE_CREATE_URL);
   url.searchParams.set('labels', label);
   url.searchParams.set('template', `${label}.yml`);
-  url.searchParams.set('title', id || GITHUB_ISSUE_DEFAULT_TITLE);
+  url.searchParams.set('title', id || '');
   url.searchParams.set(postContent.id, asArray(post?.content).join('\n'));
   url.searchParams.set(postTitle.id, post?.title || '');
   url.searchParams.set(postTitleRu.id, post?.titleRu || '');

@@ -1,4 +1,4 @@
-import { GITHUB_ISSUE_DEFAULT_TITLE, type GithubIssue } from '../../core/entities/github-issue.js';
+import { type GithubIssue } from '../../core/entities/github-issue.js';
 import {
   postAddon,
   postAuthor,
@@ -106,8 +106,7 @@ export async function resolve(issue: GithubIssue) {
 export async function createIssueTemplate() {
   return {
     name: 'Edit Post',
-    description: 'Paste in the title the ID of post from inbox or trash.',
-    title: GITHUB_ISSUE_DEFAULT_TITLE,
+    description: 'Paste in the title the ID of post.',
     labels: [label],
     body: [
       postContent,
