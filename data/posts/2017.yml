@@ -6256,7 +6256,7 @@
     - service: vk
       id: 1862
       published: 2024-10-27-18-09-23
-      updated: 2025-01-27-04-10-07
+      updated: 2025-02-03-05-08-26
       followers: 1000
       likes: 36
       views: 317
@@ -6761,27 +6761,27 @@
       id: DFlHfSRzWCN
       mediaId: '17955260624870999'
       published: 2025-02-02-18-09-05
-      updated: 2025-02-03-04-10-07
+      updated: 2025-02-03-05-08-23
       followers: 1536
       likes: 52
-      views: 139
+      views: 144
     - service: vk
       id: 2107
       published: 2025-02-02-18-09-12
-      updated: 2025-02-03-04-10-07
+      updated: 2025-02-03-05-08-24
       followers: 1060
-      likes: 26
-      views: 130
+      likes: 28
+      views: 141
       comments: !c |-
         G2gA+I2E3ETrZfliuUhQtXvCGw88kyTAgOImwQiT3bdtXpGwdrvRnGr81gpsBRF2TidwyKkeAL4g
         cAy4HoecgEzyO/fnVfabVW+OhBABicKvDBWPikXB9Ly7oIKNy9zZpuCcsDAZY9nV1l47
     - service: tg
       id: 692
       published: 2025-02-02-18-09-19
-      updated: 2025-02-03-04-10-08
+      updated: 2025-02-03-05-08-23
       followers: 662
-      likes: 41
-      views: 179
+      likes: 42
+      views: 184
 2017-06-26-floating-over-the-green-hills:
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами
