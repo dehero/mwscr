@@ -62,6 +62,7 @@ async function grabManualPublications(service: PostingServiceManager) {
 
         const newId = createNewPostId(newPost);
         await posts.addItem(newPost, newId);
+        await posts.save();
 
         console.info(`Imported manual ${service.name} post "${newId}".`);
       } catch (error) {
@@ -71,7 +72,7 @@ async function grabManualPublications(service: PostingServiceManager) {
       }
     } else {
       mergePostWith(post, newPost);
-      await posts.updateItem(id);
+      await posts.save();
       console.info(`Merged manual ${service.name} post with existing post "${id}".`);
     }
   }

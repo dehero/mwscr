@@ -8,10 +8,12 @@ class TestUsersManager extends UsersManager {
     return super.createItemId(item);
   }
 
-  public async saveChunk(_chunkName: string): Promise<void> {}
+  public async removeChunkData(_chunkName: string) {}
 
-  public async loadChunkData(_chunkName: string): Promise<Array<[string, User | string]>> {
-    return [];
+  public async saveChunkData(_chunkName: string) {}
+
+  public async loadChunkData(_chunkName: string) {
+    return {};
   }
 }
 

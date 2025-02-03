@@ -1,21 +1,7 @@
 import type { InferOutput } from 'valibot';
-import {
-  boolean,
-  nonEmpty,
-  nullable,
-  number,
-  object,
-  optional,
-  partial,
-  picklist,
-  pipe,
-  record,
-  string,
-  trim,
-} from 'valibot';
+import { boolean, nonEmpty, number, object, optional, picklist, pipe, record, string, trim } from 'valibot';
 import type { Link } from './link.js';
 import type { Option } from './option.js';
-import { checkSchema } from './schema.js';
 import type { Service } from './service.js';
 
 export const USER_DEFAULT_AUTHOR = 'dehero';
@@ -33,25 +19,11 @@ export const User = object({
   profiles: optional(UserProfiles),
 });
 
-export const UserPatch = partial(
-  object({
-    name: nullable(User.entries.name),
-    nameRu: nullable(User.entries.nameRu),
-    nameRuFrom: nullable(User.entries.nameRuFrom),
-  }),
-);
-
 export type UserRole = InferOutput<typeof UserRole>;
 export type UserProfiles = Record<string, string | undefined>;
 export type User = InferOutput<typeof User>;
 
-export type UserPatch = InferOutput<typeof UserPatch>;
-
 export type UserEntry = [string, User | undefined, ...unknown[]];
-
-export function isUser(value: unknown, errors?: string[]): value is User {
-  return checkSchema(User, value, errors);
-}
 
 export function createUserLinks(userEntry: UserEntry, services: Service[]): Link[] {
   const links = [];
@@ -82,22 +54,6 @@ export function createUserOption(entry: UserEntry): Option {
     value: entry[0],
     label: getUserEntryTitle(entry),
   };
-}
-
-export function patchUser(user: User, patch: UserPatch) {
-  let field: keyof typeof UserPatch.entries;
-
-  for (field in UserPatch.entries) {
-    if (Object.hasOwn(patch, field)) {
-      if (patch[field] === null) {
-        user[field] = undefined as never;
-      } else {
-        user[field] = patch[field] as never;
-      }
-    }
-  }
-
-  return user;
 }
 
 export function isUserEqual(a: User, b: User) {

@@ -23,6 +23,9 @@ async function cleanupInbox() {
           await inbox.removeItem(id);
           await trash.addItem(item, id);
 
+          await inbox.save();
+          await trash.save();
+
           console.info(`Moved rejected inbox item "${id}" to trash.`);
         } catch (error) {
           if (error instanceof Error) {
@@ -46,8 +49,11 @@ async function tryRestoreTrashItems() {
       if (!isTrashItem(item)) {
         try {
           await restoreTrashItemResources(item);
-          await trash.removeItem(id);
           await inbox.addItem(item, id);
+          await trash.removeItem(id);
+
+          await inbox.save();
+          await trash.save();
 
           console.info(`Restored trash item "${id}".`);
         } catch (error) {

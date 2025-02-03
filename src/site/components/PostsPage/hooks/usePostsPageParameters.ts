@@ -7,8 +7,9 @@ import { selectPostInfosSortOptions } from '../../../../core/entities/post-info.
 import { safeParseSchema } from '../../../../core/entities/schema.js';
 import type { SiteRouteInfo } from '../../../../core/entities/site-route.js';
 import type { DateRange, SortDirection } from '../../../../core/utils/common-types.js';
-import { isObjectEqual, stringToBool } from '../../../../core/utils/common-utils.js';
+import { stringToBool } from '../../../../core/utils/common-utils.js';
 import { dateRangeToString, stringToDateRange } from '../../../../core/utils/date-utils.js';
+import { isObjectEqual } from '../../../../core/utils/object-utils.js';
 import { useSearchParams } from '../../../hooks/useSearchParams.js';
 import type { PostsRouteParams } from '../../../routes/posts-route.js';
 import type { PostsPageInfo, PostsPageSearchParams } from '../PostsPage.jsx';

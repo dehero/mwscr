@@ -98,7 +98,7 @@ export async function resolve(issue: GithubIssue) {
     post.request.text = requestText;
   }
 
-  await manager.updateItem(id);
+  await manager.save();
 
   console.info(`Post "${id}" updated.`);
 }

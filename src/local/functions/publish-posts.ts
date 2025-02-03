@@ -45,7 +45,7 @@ export async function publishPostToService(service: PostingServiceManager, entry
     console.info(`Publishing post "${id}" to ${service.name}...`);
     await service.connect();
     await service.publishPostEntry(entry);
-    await posts.updateItem(id);
+    await posts.save();
     await service.disconnect();
     console.info(`Published post "${id}" to ${service.name}.`);
   } catch (error) {

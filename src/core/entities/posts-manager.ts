@@ -11,15 +11,12 @@ import {
   getPostEntryViews,
   getPostFirstPublished,
   getPostRating,
-  isPost,
   isPostEqual,
   mergePostWith,
-  patchPost,
   Post,
   PostAuthor,
   PostContent,
   postMarkDescriptors,
-  PostPatch,
   PostRequest,
   PostTitle,
   PostTitleRu,
@@ -27,6 +24,7 @@ import {
 } from './post.js';
 import type { PostAction } from './post-action.js';
 import { PostVariant } from './post-variant.js';
+import type { Schema } from './schema.js';
 import { checkSchema } from './schema.js';
 
 export const ViolatingProposal = object({ ...Post.entries, violation: PostViolation });
@@ -59,12 +57,13 @@ export type RequestProposal = InferOutput<typeof RequestProposal>;
 
 export type TrashItem = InferOutput<typeof TrashItem>;
 export type InboxItem = InferOutput<typeof InboxItem>;
+export type TrashOrInboxItem = InferOutput<typeof TrashOrInboxItem>;
 export type PublishablePost = InferOutput<typeof PublishablePost>;
 
 export const PostsManagerName = picklist(['posts', 'inbox', 'trash']);
 export type PostsManagerName = InferOutput<typeof PostsManagerName>;
 
-export const PostsManagerPatch = ListManagerPatch(PostPatch);
+export const PostsManagerPatch = ListManagerPatch<Post>(Post);
 export type PostsManagerPatch = InferOutput<typeof PostsManagerPatch>;
 
 export interface PostsManagerDescriptor {
@@ -139,39 +138,17 @@ export function createRequestProposalId(request: RequestProposal) {
   return createInboxItemId(request.request.user, request.request.date, hash);
 }
 
-export abstract class PostsManager<TPost extends Post = Post> extends ListManager<TPost, PostPatch> {
+export abstract class PostsManager<TPost extends Post = Post> extends ListManager<TPost> {
   abstract readonly name: PostsManagerName;
 
-  abstract readonly checkPost: (post: Post, errors?: string[]) => post is TPost;
+  readonly ItemSchema: Schema<TPost> = Post as Schema<TPost>;
 
   protected isItemEqual = isPostEqual;
 
   protected mergeItemWith = mergePostWith;
 
-  protected patchItemWith(item: Readonly<TPost>, patch: Readonly<PostPatch>) {
-    const result = patchPost(item, patch);
-
-    if (this.checkPost(result)) {
-      return result;
-    }
-
-    return item;
-  }
-
   get descriptor(): PostsManagerDescriptor {
     return postsManagerDescriptors[this.name];
-  }
-
-  isItem(item: unknown, errors?: string[]): item is TPost {
-    if (!isPost(item, errors)) {
-      return false;
-    }
-
-    if (!this.checkPost(item, errors)) {
-      return false;
-    }
-
-    return true;
   }
 
   async getAuthorsLikesStats(): Promise<ListReaderStats> {
@@ -332,20 +309,5 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
 
       return stats;
     });
-  }
-
-  protected validatePost(value: [string, unknown]): [id: string, post: TPost | string] {
-    const [id, post] = value;
-    if (typeof post === 'string') {
-      return [id, post];
-    }
-
-    const errors: string[] = [];
-
-    if (!this.isItem(post, errors)) {
-      throw new TypeError(`Post "${id}" is not valid: ${errors.join(', ')}`);
-    }
-
-    return [id, post];
   }
 }

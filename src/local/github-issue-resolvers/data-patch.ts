@@ -15,9 +15,9 @@ export async function resolve(issue: GithubIssue) {
   }
 
   const rawDataPatch = extractIssueTextareaValue(dataPatchText, issue.body) ?? '';
-  dataManager.mergeLocalPatch(stringToDataPatch(rawDataPatch));
+  dataManager.mergePatch(stringToDataPatch(rawDataPatch));
 
-  await dataManager.applyLocalPatch();
+  await dataManager.save();
 
   console.info('Data patched.');
 }

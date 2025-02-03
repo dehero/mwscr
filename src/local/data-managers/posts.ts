@@ -1,42 +1,39 @@
-import { readdir } from 'fs/promises';
+import { readdir, unlink } from 'fs/promises';
+import type { ListReaderChunk } from '../../core/entities/list-manager.js';
 import type { Post } from '../../core/entities/post.js';
-import type { InboxItem, PostsManagerName, PublishablePost, TrashItem } from '../../core/entities/posts-manager.js';
+import type { PostsManagerName, TrashItem } from '../../core/entities/posts-manager.js';
 import {
   getProposedPostChunkName,
   getPublishedPostChunkName,
-  isInboxItem,
-  isPublishablePost,
-  isTrashOrInboxItem,
+  InboxItem,
   PostsManager,
+  PublishablePost,
+  TrashOrInboxItem,
 } from '../../core/entities/posts-manager.js';
+import type { Schema } from '../../core/entities/schema.js';
+import { isObject } from '../../core/utils/object-utils.js';
 import { pathExists } from '../utils/file-utils.js';
 import { loadYaml, saveYaml } from './utils/yaml.js';
 
 interface LocalPostsManagerProps<TPost extends Post> {
   name: PostsManagerName;
   dirPath: string;
-  checkPost: (post: Post, errors?: string[]) => post is TPost;
   getItemChunkName: (id: string) => string;
+  ItemSchema: Schema<TPost>;
 }
 
 class LocalPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
   readonly name: PostsManagerName;
-  readonly checkPost: (post: Post, errors?: string[]) => post is TPost;
   readonly getItemChunkName: (id: string) => string;
   readonly dirPath: string;
+  readonly ItemSchema: Schema<TPost>;
 
-  constructor({ name, dirPath, checkPost, getItemChunkName }: LocalPostsManagerProps<TPost>) {
+  constructor({ name, dirPath, getItemChunkName, ItemSchema }: LocalPostsManagerProps<TPost>) {
     super();
     this.name = name;
-    this.checkPost = checkPost;
     this.dirPath = dirPath;
     this.getItemChunkName = getItemChunkName;
-  }
-
-  async addItem(post: Post | string, id: string) {
-    const [, validPost] = this.validatePost([id, post]);
-
-    return super.addItem(validPost, id);
+    this.ItemSchema = ItemSchema;
   }
 
   protected async loadChunkNames(): Promise<string[]> {
@@ -51,29 +48,27 @@ class LocalPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
     const filename = `${this.dirPath}/${chunkName}.yml`;
 
     if (!(await pathExists(filename))) {
-      return [];
+      return {};
     }
 
     const data = await loadYaml(filename);
 
-    if (typeof data !== 'object' || data === null) {
+    if (!isObject(data)) {
+      // TODO:  add and use chunk schema
       throw new TypeError(`File "${filename}" expected to be the map of posts`);
     }
 
-    return [...Object.entries(data)]
-      .map((entry) => this.validatePost(entry))
-      .sort(([id1], [id2]) => id1.localeCompare(id2));
+    return data as ListReaderChunk<TPost>;
   }
 
-  protected async saveChunk(chunkName: string) {
-    const chunk = await this.chunks.get(chunkName);
+  protected async removeChunkData(chunkName: string) {
     const filename = `${this.dirPath}/${chunkName}.yml`;
 
-    if (!chunk) {
-      return;
-    }
+    return unlink(filename);
+  }
 
-    const data = Object.fromEntries(chunk.entries());
+  protected async saveChunkData(chunkName: string, data: ListReaderChunk<TPost>) {
+    const filename = `${this.dirPath}/${chunkName}.yml`;
 
     return saveYaml(filename, data);
   }
@@ -82,23 +77,23 @@ class LocalPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
 export const posts = new LocalPostsManager<PublishablePost>({
   name: 'posts',
   dirPath: 'data/posts',
-  checkPost: isPublishablePost,
   getItemChunkName: getPublishedPostChunkName,
+  ItemSchema: PublishablePost,
 });
 
 export const inbox = new LocalPostsManager<InboxItem>({
   name: 'inbox',
   dirPath: 'data/inbox',
-  checkPost: isInboxItem,
   getItemChunkName: getProposedPostChunkName,
+  ItemSchema: InboxItem,
 });
 
 // Allow trash to contain restorable inbox items temporarily
 export const trash = new LocalPostsManager<TrashItem | InboxItem>({
   name: 'trash',
   dirPath: 'data/trash',
-  checkPost: isTrashOrInboxItem,
   getItemChunkName: getProposedPostChunkName,
+  ItemSchema: TrashOrInboxItem,
 });
 
 export const postsManagers: PostsManager[] = [posts, inbox, trash];

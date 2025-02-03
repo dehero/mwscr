@@ -1,11 +1,29 @@
-import type { BaseIssue, BaseSchema, InferOutput, IssuePathItem } from 'valibot';
+import type {
+  BaseIssue,
+  BaseSchema,
+  InferOutput,
+  IssuePathItem,
+  ObjectSchema as ValibotObjectSchema,
+  RecordSchema as ValibotRecordSchema,
+} from 'valibot';
 import { is, safeParse } from 'valibot';
 import { partition, uncapitalizeFirstLetter } from '../utils/common-utils.js';
 import { getFieldTitle } from './field.js';
 
-export type Schema = BaseSchema<unknown, unknown, BaseIssue<unknown>>;
+export type Schema<TOutput> = BaseSchema<unknown, TOutput, BaseIssue<unknown>>;
 
-export function parseSchema<TSchema extends Schema>(
+export type ObjectSchema<TOutput extends object> = ValibotObjectSchema<
+  Record<string, Schema<TOutput[keyof TOutput]>>,
+  undefined
+>;
+
+export type RecordSchema<TKey extends string | number | symbol, TValue> = ValibotRecordSchema<
+  BaseSchema<string, TKey, BaseIssue<unknown>>,
+  Schema<TValue>,
+  undefined
+>;
+
+export function parseSchema<TSchema extends Schema<unknown>>(
   schema: TSchema,
   input: unknown,
   errorMessage?: string | ((message: string) => string),
@@ -22,7 +40,7 @@ export function parseSchema<TSchema extends Schema>(
 }
 
 // TODO: remove this function usages in order to use `safeParse` directly and show errors on fail
-export function safeParseSchema<TSchema extends Schema>(
+export function safeParseSchema<TSchema extends Schema<unknown>>(
   schema: TSchema,
   input: unknown,
   messages?: string[],
@@ -38,7 +56,7 @@ export function safeParseSchema<TSchema extends Schema>(
   return undefined;
 }
 
-export function checkSchema<TSchema extends Schema>(
+export function checkSchema<TSchema extends Schema<unknown>>(
   schema: TSchema,
   input: unknown,
   messages?: string[],
@@ -58,7 +76,7 @@ export function checkSchema<TSchema extends Schema>(
   return true;
 }
 
-export function assertSchema<TSchema extends Schema>(
+export function assertSchema<TSchema extends Schema<unknown>>(
   schema: TSchema,
   input: unknown,
   errorMessage?: string | ((message: string) => string),
