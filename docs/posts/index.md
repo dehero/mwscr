@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`33 items`
+`34 items`
+
+## <span id="2025-02-03-tree-stone">Tree Stone</span>
+
+`RU` Камень дерева
+
+<a href="https://instagram.com/p/BS8Glo-D80J/" title="2017-04-16-tree-stone"><img alt="store:/shots/2017-04-16-tree-stone.png" src="../../assets/previews/shots/2017-04-16-tree-stone.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-03-tree-stone&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `stone` `obelisk`
+
+```
+2025-02-03-tree-stone
+```
+
+> `2017-04-16-tree-stone`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BS8Glo-D80J/)       | 2017-04-16 |       |    69 |       172 |  40.12 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_260)  | 2017-04-16 |   133 |     8 |        52 |  15.38 |
+| [`ig`](https://instagram.com/p/DFnseKAT28i/)       | 2025-02-03 |       |       |      1535 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2110) | 2025-02-03 |       |       |      1059 |        |
+| [`tg`](https://t.me/mwscr/693)                     | 2025-02-03 |       |       |       664 |        |
+|                                                    |            |       |       |      3258 |  27.75 |
 
 ## <span id="2025-02-02-heran-ancestral-tomb">Heran Ancestral Tomb</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BVwhJnrDLbo/)       | 2017-06-25 |       |    65 |       184 |  35.33 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_333)  | 2017-06-25 |    99 |     9 |        65 |  13.85 |
-| [`ig`](https://instagram.com/p/DFlHfSRzWCN/)       | 2025-02-02 |   204 |    66 |      1536 |    4.3 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2107) | 2025-02-02 |   184 |    33 |      1060 |   3.11 |
-| [`tg`](https://t.me/mwscr/692)                     | 2025-02-02 |   220 |    49 |       662 |    7.4 |
-|                                                    |            |   608 |   148 |      3258 |   12.8 |
+| [`ig`](https://instagram.com/p/DFlHfSRzWCN/)       | 2025-02-02 |   209 |    68 |      1536 |   4.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2107) | 2025-02-02 |   186 |    33 |      1060 |   3.11 |
+| [`tg`](https://t.me/mwscr/692)                     | 2025-02-02 |   223 |    49 |       662 |    7.4 |
+|                                                    |            |   618 |   150 |      3258 |  12.82 |
 
 #### Comments
 
@@ -87,10 +114,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BaM4_DqjfYW/)       | 2017-10-13 |       |    69 |       223 |  30.94 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_459)  | 2017-10-13 |   141 |    13 |        91 |  14.29 |
-| [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |   421 |    95 |      1534 |   6.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |   241 |    47 |      1057 |   4.64 |
-| [`tg`](https://t.me/mwscr/690)                     | 2025-01-31 |   306 |    67 |       662 |  10.12 |
-|                                                    |            |   968 |   209 |      3253 |  13.24 |
+| [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |   429 |    98 |      1534 |   6.39 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |   260 |    50 |      1057 |   4.92 |
+| [`tg`](https://t.me/mwscr/690)                     | 2025-01-31 |   335 |    68 |       662 |  10.27 |
+|                                                    |            |  1024 |   216 |      3253 |  13.36 |
 
 #### Comments
 
