@@ -9,7 +9,7 @@ const locationIds = (await arrayFromAsync(locations.readAllEntries(true)))
   .map(([id]) => id)
   .sort((a, b) => b.length - a.length);
 
-for (const [id, post] of publishedPostEntries) {
+for (const [, post] of publishedPostEntries) {
   if (post.location) {
     continue;
   }
@@ -21,7 +21,7 @@ for (const [id, post] of publishedPostEntries) {
 
     if (locationRegex.test(lowerCaseTitle)) {
       post.location = location;
-      await posts.updateItem(id);
+      await posts.save();
       break;
     }
   }

@@ -27,6 +27,7 @@ export async function resolve(issue: GithubIssue) {
 
     for (const [id, post] of draftEntries) {
       await inbox.addItem(post, id);
+      await inbox.save();
 
       console.info(`Created inbox item "${id}" from "${url}".`);
     }

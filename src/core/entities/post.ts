@@ -1,22 +1,7 @@
 import type { InferOutput } from 'valibot';
-import {
-  array,
-  date,
-  is,
-  nonEmpty,
-  nullable,
-  object,
-  optional,
-  partial,
-  picklist,
-  pipe,
-  string,
-  transform,
-  trim,
-  union,
-} from 'valibot';
+import { array, date, is, nonEmpty, object, optional, picklist, pipe, string, transform, trim, union } from 'valibot';
 import type { SortDirection } from '../utils/common-types.js';
-import { arrayFromAsync, asArray } from '../utils/common-utils.js';
+import { arrayFromAsync, asArray, cleanupUndefinedProps } from '../utils/common-utils.js';
 import { dateToString, isDateInRange, stringToDate } from '../utils/date-utils.js';
 import { areNestedLocations as areRelatedLocations } from './location.js';
 import type { MediaAspectRatio } from './media.js';
@@ -25,7 +10,6 @@ import { PostVariant } from './post-variant.js';
 import type { PublicationComment } from './publication.js';
 import { getPublicationEngagement, isPublicationEqual, mergePublications, Publication } from './publication.js';
 import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, ResourceUrl } from './resource.js';
-import { checkSchema } from './schema.js';
 import { USER_DEFAULT_AUTHOR } from './user.js';
 
 export const POST_RECENTLY_PUBLISHED_DAYS = 31;
@@ -86,27 +70,7 @@ export const Post = pipe(
 
     input.tags = mergePostTags(input.tags?.filter((tag) => !excludeTags.includes(tag)));
 
-    return input;
-  }),
-);
-
-export const PostPatch = partial(
-  object({
-    title: nullable(Post.entries.title),
-    titleRu: nullable(Post.entries.titleRu),
-    description: nullable(Post.entries.description),
-    descriptionRu: nullable(Post.entries.descriptionRu),
-    location: nullable(Post.entries.location),
-    content: nullable(Post.entries.content),
-    trash: nullable(Post.entries.trash),
-    type: Post.entries.type,
-    author: nullable(Post.entries.author),
-    tags: nullable(Post.entries.tags),
-    engine: nullable(Post.entries.engine),
-    addon: nullable(Post.entries.addon),
-    request: nullable(Post.entries.request),
-    mark: nullable(Post.entries.mark),
-    violation: nullable(Post.entries.violation),
+    return cleanupUndefinedProps(input);
   }),
 );
 
@@ -125,8 +89,6 @@ export type PostTag = InferOutput<typeof PostTag>;
 export type PostRequest = InferOutput<typeof PostRequest>;
 
 export type Post = InferOutput<typeof Post>;
-
-export type PostPatch = InferOutput<typeof PostPatch>;
 
 export type PostEntry<TPost extends Post = Post> = [id: string, post: TPost, refId?: string];
 export type PostEntries<TPost extends Post = Post> = ReadonlyArray<PostEntry<TPost>>;
@@ -248,10 +210,6 @@ export const postViolationDescriptors = Object.freeze<Record<PostViolation, Post
     letter: 'R',
   },
 });
-
-export function isPost(value: unknown, errors?: string[]): value is Post {
-  return checkSchema(Post, value, errors);
-}
 
 export function getPostTotalLikes(post: Post) {
   return post.posts?.reduce((acc, post) => acc + (post.likes ?? 0), 0) ?? 0;
@@ -496,23 +454,6 @@ export function getPostRelatedLocationDistance(location: PostLocation, postEntri
 
 export function getPostDrawer(post: Post) {
   return post.type === 'redrawing' ? asArray(post.author)[0] : undefined;
-}
-
-export function patchPost(post: Readonly<Post>, patch: Readonly<PostPatch>) {
-  let field: keyof typeof PostPatch.entries;
-  const result: Post = { ...post };
-
-  for (field in PostPatch.entries) {
-    if (Object.hasOwn(patch, field)) {
-      if (patch[field] === null) {
-        result[field] = undefined as never;
-      } else {
-        result[field] = patch[field] as never;
-      }
-    }
-  }
-
-  return result;
 }
 
 export function mergePostWith(post: Post, withPost: Post) {

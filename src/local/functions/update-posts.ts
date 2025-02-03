@@ -52,7 +52,7 @@ async function updatePublications(service: PostingServiceManager, postEntries: P
   for (const [id, publication] of updatablePublications) {
     try {
       await service.updatePublication(publication);
-      await posts.updateItem(id);
+      await posts.save();
       console.info(`Updated ${service.name} reactions for post "${id}".`);
       failCount = 0;
     } catch (error) {

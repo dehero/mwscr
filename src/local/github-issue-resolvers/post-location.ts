@@ -37,7 +37,8 @@ export async function resolve(issue: GithubIssue) {
     }
 
     post.location = mergePostLocations(locationIds);
-    await manager.updateItem(id);
+
+    await manager.save();
 
     if (post.location) {
       console.info(`Set locations ${listItems(locationIds, true)} for ${manager.name} item "${id}".`);

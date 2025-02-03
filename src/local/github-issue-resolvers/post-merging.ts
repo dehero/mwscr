@@ -27,10 +27,11 @@ export async function resolve(issue: GithubIssue) {
       } else {
         mergePostWith(post, withPost);
         await withManager.removeItem(withId);
+        await withManager.save();
         console.info(`Item "${id}" merged with "${withId}".`);
       }
     }
-    await manager.updateItem(id);
+    await manager.save();
   } else {
     console.info(`No items to merge with "${id}".`);
   }

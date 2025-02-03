@@ -10,7 +10,7 @@ import { UserRole } from '../../../core/entities/user.js';
 import type { SelectUserInfosParams, SelectUserInfosSortKey } from '../../../core/entities/user-info.js';
 import { selectUserInfosResultToString, selectUserInfosSortOptions } from '../../../core/entities/user-info.js';
 import type { SortDirection } from '../../../core/utils/common-types.js';
-import { isObjectEqual } from '../../../core/utils/common-utils.js';
+import { isObjectEqual } from '../../../core/utils/object-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';

@@ -81,10 +81,10 @@ async function importNewItems(items: StoreItem[]) {
 
     if (inboxItem) {
       mergePostWith(inboxItem, draft);
-      await inbox.updateItem(id);
     } else {
       await inbox.addItem(draft, id);
     }
+    await inbox.save();
 
     console.info(`Imported new inbox item "${item.url}" to "${id}".`);
     addedItems++;
@@ -112,7 +112,7 @@ async function moveDeletedItemsToTrash(items: StoreItem[]) {
     if (content.length === 0 && !item.request) {
       item.mark = 'D';
 
-      await inbox.updateItem(id);
+      await inbox.save();
 
       console.info(`Rejected inbox item "${id}".`);
       processedItems++;
@@ -120,7 +120,7 @@ async function moveDeletedItemsToTrash(items: StoreItem[]) {
       item.content = mergePostContents(content);
       item.trash = mergePostContents(item.trash, trash);
 
-      await inbox.updateItem(id);
+      await inbox.save();
 
       console.info(`Moved "${trash.join('", "')}" to trash for inbox item "${id}".`);
       processedItems++;

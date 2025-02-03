@@ -73,7 +73,7 @@ const replace: Array<[string, string | null]> = [
   ['waterreflections', 'waterreflection'],
 ];
 
-for await (const [id, post] of posts.readAllEntries(true)) {
+for await (const [, post] of posts.readAllEntries(true)) {
   post.tags = mergePostTags(
     post.tags
       ?.map((tag) => {
@@ -82,6 +82,6 @@ for await (const [id, post] of posts.readAllEntries(true)) {
       })
       .filter((tag): tag is string => typeof tag === 'string'),
   );
-
-  await posts.updateItem(id);
 }
+
+await posts.save();

@@ -23,21 +23,20 @@ export class SiteUsersManager extends UsersManager {
     }
 
     const patch = parseSchema(UsersManagerPatch, JSON.parse(data, jsonDateReviver));
-    this.mergeLocalPatch(patch);
+    this.mergePatch(patch);
   }
 
   updateLocalStorage() {
-    const localPatch = this.getLocalPatch();
-    setStorageItemWithEvent(localStorage, `${this.name}.patch`, localPatch ? JSON.stringify(localPatch) : null);
+    setStorageItemWithEvent(localStorage, `${this.name}.patch`, this.patch ? JSON.stringify(this.patch) : null);
   }
 
-  mergeLocalPatch(patch: Partial<UsersManagerPatch>) {
-    super.mergeLocalPatch(patch);
+  mergePatch(patch: UsersManagerPatch) {
+    super.mergePatch(patch);
     this.updateLocalStorage();
   }
 
-  clearLocalPatch() {
-    super.clearLocalPatch();
+  clearPatch() {
+    super.clearPatch();
     this.updateLocalStorage();
   }
 
@@ -48,11 +47,15 @@ export class SiteUsersManager extends UsersManager {
       throw new TypeError('Users data must be an object');
     }
 
-    return Object.entries(data as Record<string, User>);
+    return data as Record<string, User>;
   }
 
-  protected async saveChunk(chunkName: string) {
-    console.log('Saving chunk', chunkName);
+  protected async removeChunkData(chunkName: string) {
+    throw new Error(`Cannot remove chunk data "${chunkName}" on site.`);
+  }
+
+  protected async saveChunkData(chunkName: string) {
+    throw new Error(`Cannot save chunk data "${chunkName}" on site.`);
   }
 }
 
