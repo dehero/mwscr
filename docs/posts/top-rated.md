@@ -972,31 +972,6 @@
 
 - `ig` <ins title="2018-02-25-17-01-35">dp2.0_music</ins> Need
 
-## <span id="2017-04-16-tree-stone">Tree Stone</span>
-
-`RU` Камень дерева
-
-<a href="https://instagram.com/p/BS8Glo-D80J/" title="2017-04-16-tree-stone"><img alt="store:/shots/2017-04-16-tree-stone.png" src="../../assets/previews/shots/2017-04-16-tree-stone.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-04-16-tree-stone&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `stone` `obelisk`
-
-```
-2017-04-16-tree-stone
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BS8Glo-D80J/)       | 2017-04-16 |       |    69 |       172 |  40.12 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_260)  | 2017-04-16 |   133 |     8 |        52 |  15.38 |
-| [`ig`](https://instagram.com/p/DFnseKAT28i/)       | 2025-02-03 |       |       |      1535 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2110) | 2025-02-03 |       |       |      1059 |        |
-| [`tg`](https://t.me/mwscr/693)                     | 2025-02-03 |       |       |       664 |        |
-|                                                    |            |   133 |    77 |       224 |  27.75 |
-
 ## <span id="2018-08-12-waterfalls">Waterfalls</span>
 
 `RU` Водопады
@@ -1294,6 +1269,28 @@
 - `ig` <ins title="2018-09-23-19-23-44">voodoochild_4206923</ins> So happy people still love morrowind, even though it has quite a few flaws its one of my favorite games of all time
 - `ig` <ins title="2018-09-23-21-09-21">_lijee__</ins> Love this page so much!! Thx for posting
   - <ins title="2018-09-24-09-52-50">mwscr</ins> @elijah_tha_prophet Thank you!
+
+## <span id="2018-01-02-nchuleftingth">Nchuleftingth</span>
+
+`RU` Нчулефтингт
+
+<a href="https://instagram.com/p/BddRajKDOUS/" title="2018-01-02-nchuleftingth"><img alt="store:/shots/2018-01-02-nchuleftingth.png" src="../../assets/previews/shots/2018-01-02-nchuleftingth.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` `📍 Nchuleftingth` `🚀 OpenMW` `dwemer` `tower`
+
+```
+2018-01-02-nchuleftingth
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BddRajKDOUS/)      | 2018-01-02 |       |   104 |       268 |  38.81 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_560) | 2018-01-02 |   240 |    17 |       116 |  14.66 |
+|                                                   |            |   240 |   121 |       384 |  26.73 |
 
 ---
 
