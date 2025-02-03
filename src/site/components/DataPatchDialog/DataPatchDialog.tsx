@@ -46,7 +46,7 @@ export const DataPatchDialog: DetachedDialog = (props) => {
     for (const item of items) {
       try {
         const data = stringToDataPatch(await item.file.text());
-        dataManager.mergeLocalPatch(data);
+        dataManager.mergePatch(data);
         addToast(`Patch "${item.name}" imported`);
       } catch (error) {
         if (error instanceof Error) {
@@ -71,7 +71,7 @@ export const DataPatchDialog: DetachedDialog = (props) => {
   };
 
   const handleExport = async () => {
-    const patch = dataManager.getLocalPatch();
+    const patch = dataManager.getPatch();
     const data = dataPatchToString(patch);
     const filename = getDataPatchFilename(patch);
 
@@ -94,7 +94,7 @@ export const DataPatchDialog: DetachedDialog = (props) => {
   };
 
   const handleCopy = async () => {
-    const patch = dataManager.getLocalPatch();
+    const patch = dataManager.getPatch();
     const data = dataPatchToString(patch);
 
     writeClipboard(data);
@@ -108,7 +108,7 @@ export const DataPatchDialog: DetachedDialog = (props) => {
   const handleClear = async () => {
     const result = await messageBox('Are you sure you want to reset current patch?', ['Yes', 'No']);
     if (result === 0) {
-      dataManager.clearLocalPatch();
+      dataManager.clearPatch();
     }
   };
 
@@ -117,7 +117,7 @@ export const DataPatchDialog: DetachedDialog = (props) => {
       ...dataManager.postsManagers.map(
         (manager): TableRow => ({
           label: manager.descriptor.title,
-          value: manager.localPatchSize,
+          value: manager.patchSize,
           link:
             postsRoute.createUrl({ managerName: manager.name, status: ANY_OPTION.value }) +
             createDetachedDialogFragment('data-patch'),
@@ -125,7 +125,7 @@ export const DataPatchDialog: DetachedDialog = (props) => {
       ),
       {
         label: 'Users',
-        value: dataManager.users.localPatchSize,
+        value: dataManager.users.patchSize,
         link: usersRoute.createUrl({ status: ANY_OPTION.value }) + createDetachedDialogFragment('data-patch'),
       },
     ]);
@@ -141,11 +141,11 @@ export const DataPatchDialog: DetachedDialog = (props) => {
     switch (action) {
       case 'github-issue':
         return {
-          href: createIssueUrl(dataManager.getLocalPatch()),
+          href: createIssueUrl(dataManager.getPatch()),
           target: '_blank',
         };
       case 'email': {
-        const patch = dataManager.getLocalPatch();
+        const patch = dataManager.getPatch();
 
         return {
           href: email.getUserMessagingUrl('dehero@outlook.com', {

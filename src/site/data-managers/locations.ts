@@ -9,7 +9,7 @@ class SiteLocationsReader extends LocationsReader {
       throw new TypeError('Locations data must be an array');
     }
 
-    return (data as Location[]).map((location): [string, Location] => [location.title, location]);
+    return Object.fromEntries((data as Location[]).map((location): [string, Location] => [location.title, location]));
   }
 }
 

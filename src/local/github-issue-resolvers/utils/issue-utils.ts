@@ -59,23 +59,27 @@ export function extractIssueTextareaValue(field: IssueFieldWithLabel, text: stri
 }
 
 export async function extractIssueUser(issue: GithubIssue): Promise<ListReaderEntry<User>> {
-  const [issueUserId, issueUser] = await users.mergeItem({ profiles: { gh: issue.user.login } });
+  try {
+    const [issueUserId, issueUser] = await users.mergeItem({ profiles: { gh: issue.user.login } });
 
-  const name = extractIssueFieldValue(userName, issue.body);
-  if (name) {
-    const [userId] = (await users.findEntry({ name })) ?? [];
-    // Administrator can override issue user, his name and profiles
-    // New user can set his own name and profiles
-    if (!userId || userId === issueUserId || issueUser.admin) {
-      const ig = extractIssueFieldValue(userProfileIg, issue.body);
-      const tg = extractIssueFieldValue(userProfileTg, issue.body);
-      const vk = extractIssueFieldValue(userProfileVk, issue.body);
+    const name = extractIssueFieldValue(userName, issue.body);
+    if (name) {
+      const [userId] = (await users.findEntry({ name })) ?? [];
+      // Administrator can override issue user, his name and profiles
+      // New user can set his own name and profiles
+      if (!userId || userId === issueUserId || issueUser.admin) {
+        const ig = extractIssueFieldValue(userProfileIg, issue.body);
+        const tg = extractIssueFieldValue(userProfileTg, issue.body);
+        const vk = extractIssueFieldValue(userProfileVk, issue.body);
 
-      return users.mergeItem({ name, profiles: { ig, tg, vk } });
+        return users.mergeItem({ name, profiles: { ig, tg, vk } });
+      }
     }
-  }
 
-  return [issueUserId, issueUser];
+    return [issueUserId, issueUser];
+  } finally {
+    await users.save();
+  }
 }
 
 export function extractIssueLinks(text: string) {

@@ -1,6 +1,11 @@
-import type { BaseIssue, BaseSchema, InferOutput } from 'valibot';
-import { null as nullSchema, picklist, record, string, union } from 'valibot';
-import { arrayFromAsync, isObject, listItems } from '../utils/common-utils.js';
+import { DeepProxy } from 'proxy-deep';
+import type { InferOutput } from 'valibot';
+import { null as nullSchema, picklist, record, string, undefined as undefinedSchema, union } from 'valibot';
+import { arrayFromAsync, listItems } from '../utils/common-utils.js';
+import { getObjectValue, isObject, isPlainObject, mergeObjects, setObjectValue } from '../utils/object-utils.js';
+import { Patch, patchObject } from './patch.js';
+import type { ObjectSchema, RecordSchema, Schema } from './schema.js';
+import { checkSchema, parseSchema } from './schema.js';
 
 export const LIST_READER_CHUNK_NAME_DEFAULT = 'default';
 
@@ -8,7 +13,7 @@ export const ListReaderItemStatus = picklist(['added', 'changed', 'removed']);
 
 export type ListReaderEntry<TItem> = [id: string, item: TItem, refId?: string];
 
-export type ListReaderChunk<TItem> = Map<string, TItem | string>;
+export type ListReaderChunk<TItem> = Record<string, TItem | string>;
 
 export type ListReaderStats = ReadonlyMap<string, number>;
 
@@ -17,10 +22,14 @@ export type ListReaderItemStatus = InferOutput<typeof ListReaderItemStatus>;
 export abstract class ListReader<TItem> {
   abstract readonly name: string;
 
-  protected loadedChunkNames: string[] | undefined;
+  protected savedChunkNames: string[] | undefined;
   protected chunks: Map<string, Promise<ListReaderChunk<TItem>>> = new Map();
 
   protected cache: Record<string, unknown> = {};
+
+  protected createChunk(data: ListReaderChunk<TItem>): ListReaderChunk<TItem> {
+    return data;
+  }
 
   protected async createCache<T>(key: string, creator: () => Promise<T>): Promise<T> {
     if (!this.cache[key]) {
@@ -33,46 +42,78 @@ export abstract class ListReader<TItem> {
     this.cache = {};
   }
 
+  /**
+   * Returns a list of all chunk names used in the list, including the initial
+   * chunks loaded from `loadChunkNames` and any chunks added later.
+   */
   async getChunkNames(): Promise<string[]> {
-    if (!this.loadedChunkNames) {
-      this.loadedChunkNames = await this.loadChunkNames();
+    if (!this.savedChunkNames) {
+      this.savedChunkNames = await this.loadChunkNames();
     }
 
-    return [...new Set([...this.loadedChunkNames, ...this.chunks.keys()])];
+    return [...new Set([...this.savedChunkNames, ...this.chunks.keys()])];
   }
 
+  /**
+   * Returns the total number of items in the list across all chunks.
+   */
   async getItemCount(): Promise<number> {
     const chunkNames = await this.getChunkNames();
     let count = 0;
 
     for (const chunkName of chunkNames) {
       const chunk = await this.loadChunk(chunkName);
-      count += chunk.size;
+      count += Object.getOwnPropertyNames(chunk).length;
     }
 
     return count;
   }
 
+  /**
+   * Returns the name of the chunk that should contain the item with the given
+   * ID. This is used to group items together into chunks when loading and
+   * saving the list.
+   */
   protected getItemChunkName(_id: string) {
     return LIST_READER_CHUNK_NAME_DEFAULT;
   }
 
+  /**
+   * Returns the item with the given ID, or undefined if the item does not exist in the list.
+   */
   async getItem(id: string): Promise<TItem | undefined> {
     return (await this.getEntry(id))[1];
   }
 
+  /**
+   * Returns all entries in the list, optionally skipping references.
+   */
   async getAllEntries(skipReferences?: boolean): Promise<ListReaderEntry<TItem>[]> {
     return arrayFromAsync(this.readAllEntries(skipReferences));
   }
 
+  /**
+   * Returns all entries in the given chunk, optionally skipping references.
+   */
   async getChunkEntries(chunkName: string, skipReferences?: boolean): Promise<ListReaderEntry<TItem>[]> {
     return arrayFromAsync(this.readChunkEntries(chunkName, skipReferences));
   }
 
+  /**
+   * Returns the entry with the given ID, or undefined if the entry does not exist in the list.
+   * If the entry is a reference, it will be resolved and the referenced entry will be returned.
+   * If the referenced entry is another reference, it will be resolved recursively until a non-reference entry is found.
+   * The resolved entry will be returned, with the ID of the original entry and the resolved entry's ID as the reference.
+   * If the referenced entry does not exist, the original ID will be returned with undefined as the entry.
+   */
   async getEntry(id: string): Promise<ListReaderEntry<TItem | undefined>> {
     const chunkName = this.getItemChunkName(id);
+    if (!(await this.getChunkNames()).includes(chunkName)) {
+      return [id, undefined];
+    }
+
     const chunk = await this.loadChunk(chunkName);
-    const item = chunk.get(id);
+    const item = chunk[id];
 
     if (typeof item === 'string') {
       const entry = await this.getEntry(item);
@@ -83,6 +124,11 @@ export abstract class ListReader<TItem> {
     return [id, item];
   }
 
+  /**
+   * Returns an array of all entries in the list with the given IDs. If any of
+   * the IDs do not correspond to an item in the list, the returned array will
+   * contain an entry with `undefined` as the item value.
+   */
   async getEntries(ids: string[]): Promise<ListReaderEntry<TItem | undefined>[]> {
     return Promise.all(ids.map((id) => this.getEntry(id)));
   }
@@ -106,6 +152,12 @@ export abstract class ListReader<TItem> {
 
   protected abstract isItemEqual(a: TItem, b: Partial<TItem>): boolean;
 
+  /**
+   * Loads a chunk of the list by name. If the chunk is not already in memory,
+   * it will be loaded from storage. If the chunk does not exist, a TypeError
+   * will be thrown.
+   * @throws TypeError if the chunk data could not be loaded.
+   */
   protected async loadChunk(chunkName: string): Promise<ListReaderChunk<TItem>> {
     let chunk = this.chunks.get(chunkName);
     if (!chunk) {
@@ -113,7 +165,7 @@ export abstract class ListReader<TItem> {
         try {
           const data = await this.loadChunkData(chunkName);
 
-          return new Map(data);
+          return this.createChunk(data);
         } catch (error) {
           throw new TypeError(
             `Cannot load ${this.name} chunk "${chunkName}" data: ${error instanceof Error ? error.message : error}`,
@@ -127,12 +179,30 @@ export abstract class ListReader<TItem> {
     return chunk;
   }
 
-  protected abstract loadChunkData(chunkName: string): Promise<Array<[string, TItem | string]>>;
+  /**
+   * Loads the data for a chunk of the list by name. This method must be
+   * implemented by subclasses and should return a Promise that resolves to
+   * the loaded data, which must be an object with string keys and values
+   * that are either `TItem` objects or strings referring to items in other
+   * chunks.
+   */
+  protected abstract loadChunkData(chunkName: string): Promise<ListReaderChunk<TItem>>;
 
+  /**
+   * Returns a list of saved chunk names used by the list. The default
+   * implementation returns a single chunk named
+   * {@link LIST_READER_CHUNK_NAME_DEFAULT}. Override this method to
+   * return a different list of chunk names.
+   */
   protected async loadChunkNames(): Promise<string[]> {
     return [LIST_READER_CHUNK_NAME_DEFAULT];
   }
 
+  /**
+   * Yields all entries in the list, including entries in all chunks, and
+   * optionally skipping references. This is a convenience method for
+   * iterating over all entries in the list.
+   */
   protected async *yieldAllEntries(skipReferences?: boolean): AsyncGenerator<ListReaderEntry<TItem>> {
     const chunkNames = await this.getChunkNames();
 
@@ -141,13 +211,18 @@ export abstract class ListReader<TItem> {
     }
   }
 
+  /**
+   * Yields all entries in the given chunk, and optionally skipping references.
+   * If an entry is a reference, it will be resolved and the referenced entry will be yielded.
+   * @throws Error if the referenced entry does not exist.
+   */
   protected async *yieldChunkEntries(
     chunkName: string,
     skipReferences?: boolean,
   ): AsyncGenerator<ListReaderEntry<TItem>> {
     const chunk = await this.loadChunk(chunkName);
 
-    for (const [key, value] of chunk) {
+    for (const [key, value] of Object.entries(chunk)) {
       if (typeof value === 'string') {
         if (!skipReferences) {
           const item = await this.getItem(value);
@@ -163,115 +238,147 @@ export abstract class ListReader<TItem> {
   }
 }
 
-export const ListManagerPatch = <TItemPatch>(ItemPatch: BaseSchema<unknown, TItemPatch, BaseIssue<unknown>>) =>
-  record(string(), union([ItemPatch, string(), nullSchema()]));
+export const ListManagerPatch = <TItem extends object>(ItemSchema: ObjectSchema<TItem>) =>
+  record(string(), union([ItemSchema, Patch(ItemSchema), string(), nullSchema(), undefinedSchema()])) as RecordSchema<
+    string,
+    TItem | Patch<TItem> | string | null | undefined
+  >;
 
-export type ListManagerPatch<TItemPatch> = InferOutput<ReturnType<typeof ListManagerPatch<TItemPatch>>>;
+export type ListManagerPatch<TItem extends object> = InferOutput<ReturnType<typeof ListManagerPatch<TItem>>>;
 
-export abstract class ListManager<TItem, TItemPatch> extends ListReader<TItem> {
-  protected localPatch = new Map<string, TItemPatch | string | null>();
+export class ListManagerChunkProxy<TItem extends object> extends DeepProxy<ListReaderChunk<TItem>> {
+  /**
+   * Creates a proxy for the given chunk data that will apply the patches in the given manager to the data.
+   * If the manager's `skipProxy` property is true, the proxy will not be used.
+   */
+  constructor(manager: ListManager<TItem>, data: ListReaderChunk<TItem>) {
+    super(data, {
+      /**
+       * Traps the [[Get]] operation on the proxy and applies the patches in the given manager to the value being retrieved.
+       * If the manager's `skipProxy` property is true, the original value will be returned.
+       * If the value is an object or array, it will be recursively proxied.
+       * If a patch value is found, it will be returned instead of the original value.
+       * If the patch value is null, the property will be deleted from the original object.
+       */
+      get(target, key, receiver) {
+        if (key === 'toJSON') {
+          return () => {
+            const value = structuredClone(target);
+            const patchValue = getObjectValue(manager.patch, this.path);
 
-  getLocalPatch(): ListManagerPatch<TItemPatch> | undefined {
-    return this.localPatch.size > 0 ? Object.fromEntries(this.localPatch) : undefined;
-  }
+            if ((isPlainObject(value) || Array.isArray(value)) && isPlainObject(patchValue)) {
+              patchObject(value, patchValue as Patch<typeof value>);
+            }
 
-  get localPatchSize() {
-    return this.localPatch.size;
-  }
-
-  mergeLocalPatch(patch: Partial<ListManagerPatch<TItemPatch>>) {
-    for (const [id, itemPatch] of Object.entries(patch)) {
-      const item = this.localPatch.get(id);
-      if (item && isObject(item) && isObject(itemPatch)) {
-        this.localPatch.set(id, { ...item, ...itemPatch });
-      } else if (typeof itemPatch === 'undefined') {
-        this.localPatch.delete(id);
-      } else {
-        this.localPatch.set(id, itemPatch);
-      }
-    }
-  }
-
-  clearLocalPatch() {
-    this.localPatch.clear();
-  }
-
-  resetLocallyPatchedItem(id: string) {
-    this.mergeLocalPatch({ [id]: undefined });
-  }
-
-  async getItemLocalStatus(id: string): Promise<ListReaderItemStatus | undefined> {
-    const entry = await this.getEntry(id);
-    const targetId = entry[2] || id;
-
-    const patch = this.getLocalPatch();
-    if (typeof patch?.[targetId] === 'undefined') {
-      return undefined;
-    }
-
-    if (patch[targetId] === null) {
-      return 'removed';
-    }
-
-    if (!entry[1]) {
-      return 'added';
-    }
-
-    return 'changed';
-  }
-
-  async applyLocalPatch() {
-    for (const [id, itemPatch] of this.localPatch) {
-      const patchedItem = await this.getItem(id);
-      if (patchedItem) {
-        if (itemPatch === null) {
-          await this.removeItem(id);
-        } else if (typeof itemPatch === 'string') {
-          await this.addItem(itemPatch, id);
-        } else {
-          this.patchItemWith(patchedItem, itemPatch);
-          await this.updateItem(id);
+            return value;
+          };
         }
-      } else if (itemPatch !== null) {
-        // TODO: resolve error, example: Error creating new post: Item "2025-01-17-time-to-meet-the-ancestors" is not valid
-        // await this.addItem(itemPatch, id);
+
+        const value = Reflect.get(target, key, receiver);
+        if (manager.skipProxy) {
+          return value;
+        }
+
+        const patchValue = getObjectValue(manager.patch, [...this.path, key.toString()]);
+        if (patchValue === null) {
+          return undefined;
+        }
+
+        if (isPlainObject(value) || Array.isArray(value)) {
+          return this.nest(value);
+        }
+
+        if (typeof patchValue !== 'undefined') {
+          return patchValue;
+        }
+
+        return value;
+      },
+      /**
+       * Traps the [[Set]] operation on the proxy and applies the patches in the given manager to the value being set.
+       * If the manager's `skipProxy` property is true, the original value will be set.
+       * Otherwise the change will be saved to manager patch.
+       */
+      set(target, key, value, receiver) {
+        if (manager.skipProxy) {
+          Reflect.set(target, key, value, receiver);
+          return true;
+        }
+
+        const patch = {};
+        const patchValue = typeof value === 'undefined' ? null : value;
+
+        setObjectValue(patch, [...this.path, key.toString()], patchValue);
+        manager.mergePatch(patch);
+
+        return true;
+      },
+      ownKeys(target) {
+        const result = Reflect.ownKeys(target);
+        const patchValue = getObjectValue(manager.patch, this.path);
+
+        if (isPlainObject(patchValue)) {
+          const newKeys = Object.entries(patchValue)
+            .filter(([_, value]) => value !== null)
+            .map(([key]) => key);
+
+          // TODO: Array.isArray(patchValue)
+          return [
+            ...new Set(result.filter((key) => typeof key === 'string' && patchValue[key] !== null).concat(newKeys)),
+          ];
+        }
+
+        return result;
+      },
+    });
+  }
+}
+
+export abstract class ListManager<TItem extends object> extends ListReader<TItem> {
+  abstract readonly ItemSchema: Schema<TItem>;
+
+  skipProxy = false;
+  patch: ListManagerPatch<TItem> | undefined;
+
+  protected createChunk(data: ListReaderChunk<TItem>): ListReaderChunk<TItem> {
+    return new ListManagerChunkProxy(this, data);
+  }
+
+  /**
+   * Returns true if the given value is a valid item according to the ItemSchema,
+   * false otherwise.
+   */
+  isItem(value: unknown): value is TItem {
+    return checkSchema(this.ItemSchema, value);
+  }
+
+  /**
+   * Adds a new item to the list.
+   * @throws Error if an item with the given ID already exists.
+   * @throws Error if the given reference item ID does not exist.
+   * @throws Error if the given item is invalid according to the ItemSchema.
+   */
+  async addItem(item: TItem | string, id: string): Promise<TItem> {
+    let parsedItem = item;
+
+    if (await this.getItem(id)) {
+      throw new Error(`Error adding "${id}": item already exists`);
+    }
+
+    if (typeof parsedItem === 'string') {
+      const refItem = await this.getItem(parsedItem);
+      if (!refItem) {
+        throw new Error(`Error adding "${id}": reference item "${parsedItem}" was not found`);
       }
-    }
-  }
-
-  async getChunkNames(): Promise<string[]> {
-    const result = await super.getChunkNames();
-
-    if (this.localPatchSize === 0) {
-      return result;
+      this.mergePatch({ [id]: parsedItem });
+      return refItem;
     }
 
-    const patchChunkNames = [...this.localPatch.keys()].map((id) => this.getItemChunkName(id));
+    parsedItem = parseSchema(this.ItemSchema, parsedItem, (message: string) => `Error adding "${id}": ${message}`);
 
-    return [...new Set([...result, ...patchChunkNames])];
-  }
+    this.mergePatch({ [id]: parsedItem });
 
-  async addItem(item: TItem | string, id: string) {
-    // async addItem(item: TItem | TItemPatch | string, id: string) {
-
-    //   if (typeof item === 'string') {
-    //     const refItem = await this.getItem(item);
-    //     if (!refItem) {
-    //       throw new Error(`Reference item "${id}" not found`);
-    //     }
-    //   }
-    //   if (!this.isItem(item)) {
-    //     throw new Error(`Item "${id}" is not valid`);
-    //   }
-
-    const chunkName = this.getItemChunkName(id);
-
-    const chunk = await this.loadChunk(chunkName);
-    chunk.set(id, item);
-
-    this.clearCache();
-
-    return this.saveChunk(chunkName);
+    return parsedItem;
   }
 
   async mergeItem(item: TItem): Promise<ListReaderEntry<TItem>> {
@@ -283,86 +390,208 @@ export abstract class ListManager<TItem, TItemPatch> extends ListReader<TItem> {
         throw new Error(`Cannot create item ID for ${JSON.stringify(item)}`);
       }
 
-      await this.addItem(item, id);
-
-      return [id, item];
+      return [id, await this.addItem(item, id)];
     }
 
     this.mergeItemWith(entry[1], item);
-    await this.updateItem(entry[0]);
 
     return entry;
   }
 
+  /**
+   * Removes an item from the list.
+   * @throws Error if the item to remove does not exist.
+   */
   async removeItem(id: string) {
-    const chunkName = this.getItemChunkName(id);
-    const chunk = await this.loadChunk(chunkName);
+    if (!(await this.getItem(id))) {
+      throw new Error(`Error removing "${id}": item does not exists`);
+    }
 
-    chunk.delete(id);
-
-    this.clearCache();
-
-    return this.saveChunk(chunkName);
+    if ((await this.getItemStatus(id)) === 'added') {
+      this.mergePatch({ [id]: undefined });
+    } else {
+      this.mergePatch({ [id]: null });
+    }
   }
 
-  async updateItem(id: string) {
-    const chunkName = this.getItemChunkName(id);
-    const chunk = await this.loadChunk(chunkName);
-    const item = chunk.get(id);
+  /**
+   * Saves all changes made to the list to the storage.
+   * It will only save changes made to the list since the last save.
+   * If a chunk does not exist, it will be created.
+   * If a chunk exists, it will be overwritten.
+   */
+  async save() {
+    if (!this.patch) {
+      return;
+    }
 
-    const refId = typeof item === 'string' ? item : id;
-    const refChunkName = this.getItemChunkName(refId);
+    const patchChunkNames = Object.keys(this.patch).map((id) => this.getItemChunkName(id));
 
-    this.clearCache();
+    for (const chunkName of patchChunkNames) {
+      await this.saveChunk(chunkName);
+    }
 
-    return this.saveChunk(refChunkName);
+    await this.applyPatch();
   }
 
   protected createItemId(_item: TItem): string | undefined {
     throw new Error(`Implement ${this.constructor.name}.createItemId method`);
   }
 
-  protected abstract isItem(item: unknown, errors?: string[]): item is TItem;
-
-  protected abstract patchItemWith(item: Readonly<TItem>, patch: Readonly<TItemPatch>): TItem;
+  // protected abstract patchItem(item: TItem, patch: TItemPatch): void;
 
   protected abstract mergeItemWith(item: TItem, withItem: TItem): void;
 
-  protected async loadChunk(chunkName: string) {
-    let chunk = await super.loadChunk(chunkName);
-    const patchEntries = [...this.localPatch].filter(([id]) => this.getItemChunkName(id) === chunkName);
+  protected async saveChunk(chunkName: string): Promise<void> {
+    const data = await this.loadChunk(chunkName);
 
-    if (patchEntries.length > 0) {
-      chunk = new Map(chunk);
+    // Don't use Object.keys, need to properly implement getOwnPropertyDescriptor for it:
+    // https://stackoverflow.com/questions/40352613/why-does-object-keys-and-object-getownpropertynames-produce-different-output
+    // https://stackoverflow.com/questions/75148897/get-on-proxy-property-items-is-a-read-only-and-non-configurable-data-proper
+    if (Object.getOwnPropertyNames(data).length === 0) {
+      return this.removeChunkData(chunkName);
+    }
+    return this.saveChunkData(chunkName, data);
+  }
 
-      for (const [id, patch] of patchEntries) {
-        if (patch === null) {
-          // Do nothing, this item will be deleted when patch applies, don't delete it now
-        } else if (typeof patch === 'string') {
-          chunk.set(id, patch);
-        } else {
-          const item = chunk.get(id);
+  /**
+   * Abstract method to save the chunk data of the list by name. This method must be
+   * implemented by subclasses.
+   */
+  protected abstract saveChunkData(chunkName: string, data: ListReaderChunk<TItem>): Promise<void>;
 
-          if (typeof item === 'string') {
-            // Do nothing, cannot patch reference item
-          } else if (typeof item === 'undefined') {
-            // TODO: validate item
-            chunk.set(id, patch as TItem);
-          } else {
-            chunk.set(id, this.patchItemWith(item, patch));
-          }
+  /**
+   * Abstract method to remove the chunk data. . This method must be
+   * implemented by subclasses.
+   */
+  protected abstract removeChunkData(chunkName: string): Promise<void>;
+
+  /**
+   * Returns the number of items in the current patch.
+   * If the current patch is `undefined`, returns 0.
+   */
+  get patchSize() {
+    if (!this.patch) {
+      return 0;
+    }
+    return Object.getOwnPropertyNames(this.patch).length;
+  }
+
+  /**
+   * Merges the given patch into the current patch.
+   * If a property in the patch is set to `undefined`, it will be deleted from the current patch.
+   * If a property in the patch is an object, it will be merged with the corresponding property in the current patch.
+   * If a property in the patch is not an object, it will be set in the current patch.
+   * After merging the patch, the cache is cleared.
+   */
+  mergePatch(patch: ListManagerPatch<TItem>) {
+    for (const [id, itemPatch] of Object.entries(patch)) {
+      const chunkName = this.getItemChunkName(id);
+      if (!this.chunks.has(chunkName)) {
+        this.chunks.set(chunkName, (async () => this.createChunk({}))());
+      }
+
+      const item = this.patch?.[id];
+      if (item && isObject(item) && isObject(itemPatch)) {
+        mergeObjects(item, itemPatch);
+      } else if (typeof itemPatch === 'undefined') {
+        delete this.patch?.[id];
+      } else {
+        if (!this.patch) {
+          this.patch = {};
         }
+        this.patch[id] = itemPatch;
       }
     }
 
-    return chunk;
+    if (this.patch && Object.keys(this.patch).length === 0) {
+      this.patch = undefined;
+    }
+
+    this.clearCache();
   }
 
-  protected abstract saveChunk(chunkName: string): Promise<void>;
+  /**
+   * Applies the current patch to the underlying data.
+   * This method is usually called when saving the list.
+   * It will apply the patch to all chunks, and then clear the patch.
+   * If you want to just clear the patch, call `clearPatch()` instead.
+   */
+  async applyPatch() {
+    if (!this.patch) {
+      return;
+    }
+
+    this.skipProxy = true;
+
+    const patchChunks: Record<string, ListManagerPatch<TItem>> = {};
+
+    for (const [id, itemPatch] of Object.entries(this.patch)) {
+      const chunkName = this.getItemChunkName(id);
+
+      patchChunks[chunkName] = { ...patchChunks[chunkName], [id]: itemPatch };
+    }
+
+    for (const [chunkName, patch] of Object.entries(patchChunks)) {
+      const chunk = await this.chunks.get(chunkName);
+      if (chunk) {
+        patchObject(chunk, patch as Patch<ListReaderChunk<TItem>>);
+      }
+    }
+
+    this.skipProxy = false;
+
+    this.clearPatch();
+  }
+
+  clearPatch() {
+    this.patch = undefined;
+    this.clearCache();
+  }
+
+  /**
+   * Resets the patch for the item with the given ID. If the item was in the patch,
+   * it will be removed from the patch. If the item was not in the patch, this
+   * method does nothing.
+   */
+  resetItemPatch(id: string) {
+    this.mergePatch({ [id]: undefined });
+  }
+
+  /**
+   * Returns the status of the item with the given ID.
+   * Item status indicates what operation will be performed when the patch is applied.
+   * If the item is not in the patch, returns undefined.
+   * The possible statuses are:
+   * - 'added' if the item will be added
+   * - 'changed' if the item will be changed
+   * - 'removed' if the item will be removed
+   */
+  async getItemStatus(id: string): Promise<ListReaderItemStatus | undefined> {
+    this.skipProxy = true;
+    const entry = await this.getEntry(id);
+    this.skipProxy = false;
+
+    const targetId = entry[2] ?? id;
+
+    if (typeof this.patch?.[targetId] === 'undefined') {
+      return undefined;
+    }
+
+    if (this.patch[targetId] === null) {
+      return 'removed';
+    }
+
+    if (!entry[1]) {
+      return 'added';
+    }
+
+    return 'changed';
+  }
 }
 
 export async function searchListReaderItem<
-  TListReader extends ListReader<unknown>,
+  TListReader extends ListReader<object>,
   TItem extends TListReader extends ListReader<infer T> ? T : never,
 >(id: string, managers: TListReader[]): Promise<[TItem, TListReader]> {
   for (const manager of managers) {

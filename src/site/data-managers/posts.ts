@@ -1,36 +1,36 @@
-import type { ListManagerPatch } from '../../core/entities/list-manager.js';
-import type { Post, PostPatch } from '../../core/entities/post.js';
-import type { InboxItem, PostsManagerName, PublishablePost, TrashItem } from '../../core/entities/posts-manager.js';
+import type { ListManagerPatch, ListReaderChunk } from '../../core/entities/list-manager.js';
+import type { Post } from '../../core/entities/post.js';
+import type { PostsManagerName } from '../../core/entities/posts-manager.js';
 import {
   getProposedPostChunkName,
   getPublishedPostChunkName,
-  isInboxItem,
-  isPublishablePost,
-  isTrashOrInboxItem,
+  InboxItem,
   PostsManager,
   PostsManagerPatch,
+  PublishablePost,
+  TrashOrInboxItem,
 } from '../../core/entities/posts-manager.js';
+import type { Schema } from '../../core/entities/schema.js';
 import { safeParseSchema } from '../../core/entities/schema.js';
-import { isObject } from '../../core/utils/common-utils.js';
 import { jsonDateReviver } from '../../core/utils/date-utils.js';
+import { isObject } from '../../core/utils/object-utils.js';
 import { setStorageItemWithEvent } from '../utils/storage-utils.js';
 
 interface SitePostsManagerProps<TPost extends Post> {
   name: PostsManagerName;
-  checkPost: (post: Post, errors?: string[]) => post is TPost;
   getItemChunkName: (id: string) => string;
+  ItemSchema: Schema<TPost>;
 }
 
 export class SitePostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
   readonly name: PostsManagerName;
-
-  readonly checkPost: (post: Post, errors?: string[]) => post is TPost;
   readonly getItemChunkName: (id: string) => string;
+  readonly ItemSchema: Schema<TPost>;
 
-  constructor({ name, checkPost, getItemChunkName }: SitePostsManagerProps<TPost>) {
+  constructor({ name, ItemSchema, getItemChunkName }: SitePostsManagerProps<TPost>) {
     super();
     this.name = name;
-    this.checkPost = checkPost;
+    this.ItemSchema = ItemSchema;
     this.getItemChunkName = getItemChunkName;
 
     if (typeof window !== 'undefined') {
@@ -47,43 +47,25 @@ export class SitePostsManager<TPost extends Post = Post> extends PostsManager<TP
       return;
     }
 
+    // TODO: use patch schema based on TItem
     const patch = safeParseSchema(PostsManagerPatch, JSON.parse(data, jsonDateReviver));
     if (patch) {
-      this.mergeLocalPatch(patch);
+      this.mergePatch(patch as ListManagerPatch<TPost>);
     }
   }
 
   updateLocalStorage() {
-    const localPatch = this.getLocalPatch();
-    setStorageItemWithEvent(localStorage, `${this.name}.patch`, localPatch ? JSON.stringify(localPatch) : null);
+    setStorageItemWithEvent(localStorage, `${this.name}.patch`, this.patch ? JSON.stringify(this.patch) : null);
   }
 
-  mergeLocalPatch(patch: Partial<ListManagerPatch<PostPatch>>) {
-    super.mergeLocalPatch(patch);
+  mergePatch(patch: ListManagerPatch<TPost>) {
+    super.mergePatch(patch);
     this.updateLocalStorage();
   }
 
-  clearLocalPatch() {
-    super.clearLocalPatch();
+  clearPatch() {
+    super.clearPatch();
     this.updateLocalStorage();
-  }
-
-  async addItem(post: string | Post, id: string) {
-    const [, validPost] = this.validatePost([id, post]);
-
-    this.mergeLocalPatch({ [id]: validPost });
-  }
-
-  async removeItem(id: string) {
-    this.mergeLocalPatch({ [id]: null });
-  }
-
-  async updateItem(id: string) {
-    const item = await this.getItem(id);
-    if (!item) {
-      throw new Error(`Item "${id}" not found when trying to update.`);
-    }
-    this.mergeLocalPatch({ [id]: item });
   }
 
   async loadChunkNames() {
@@ -108,33 +90,37 @@ export class SitePostsManager<TPost extends Post = Post> extends PostsManager<TP
         throw new TypeError(`File "${filename}" expected to be the map of posts`);
       }
 
-      return [...Object.entries(data as object)].sort(([id1], [id2]) => id1.localeCompare(id2));
+      return data as ListReaderChunk<TPost>;
     } catch (error) {
       throw new Error(`Failed to load chunk "${chunkName}": ${error}`);
     }
   }
 
-  protected async saveChunk(chunkName: string) {
-    throw new Error(`Cannot save chunk ${chunkName} on site.`);
+  protected async removeChunkData(chunkName: string) {
+    throw new Error(`Cannot remove chunk data "${chunkName}" on site.`);
+  }
+
+  protected async saveChunkData(chunkName: string) {
+    throw new Error(`Cannot save chunk data "${chunkName}" on site.`);
   }
 }
 
 export const posts = new SitePostsManager<PublishablePost>({
   name: 'posts',
-  checkPost: isPublishablePost,
   getItemChunkName: getPublishedPostChunkName,
+  ItemSchema: PublishablePost,
 });
 
 export const inbox = new SitePostsManager<InboxItem>({
   name: 'inbox',
-  checkPost: isInboxItem,
   getItemChunkName: getProposedPostChunkName,
+  ItemSchema: InboxItem,
 });
 
-export const trash = new SitePostsManager<TrashItem | InboxItem>({
+export const trash = new SitePostsManager<TrashOrInboxItem>({
   name: 'trash',
-  checkPost: isTrashOrInboxItem,
   getItemChunkName: getProposedPostChunkName,
+  ItemSchema: TrashOrInboxItem,
 });
 
 export const postsManagers: SitePostsManager[] = [posts, inbox, trash];

@@ -104,6 +104,7 @@ async function processMessage(message: TelegramBot.Message) {
       telegramBotChatId: message.chat.id,
       profiles: { tg: message.from.username },
     });
+    await users.save();
   } catch (error) {
     if (error instanceof Error) {
       console.error(`Cannot merge Telegram user ${message.from.username}: ${error.message}`);
@@ -149,6 +150,7 @@ async function processMessage(message: TelegramBot.Message) {
           );
         } else {
           await inbox.addItem(post, id);
+          await inbox.save();
 
           console.info(`Created inbox item "${id}" from "${url}".`);
 

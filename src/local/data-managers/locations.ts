@@ -16,7 +16,7 @@ class LocalLocationsReader extends LocationsReader {
       throw new TypeError('Locations data must be an array');
     }
 
-    return data.map((location): [string, Location] => [location.title, location]);
+    return Object.fromEntries(data.map((location): [string, Location] => [location.title, location]));
   }
 }
 

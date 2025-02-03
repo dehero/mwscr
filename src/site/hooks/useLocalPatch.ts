@@ -5,7 +5,7 @@ export function useLocalPatch(onPatchChange?: (patchSize: number) => void) {
   const [patchSize, setPatchSize] = createSignal(0);
 
   const handlePatchChange = () => {
-    const patchSize = dataManager.localPatchSize;
+    const patchSize = dataManager.patchSize;
     setPatchSize(patchSize);
     onPatchChange?.(patchSize);
   };

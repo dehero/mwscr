@@ -49,7 +49,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
     ]);
     if (result === 0) {
       const targetId = local.postInfo.refId || local.postInfo.id;
-      dataManager.findPostsManager(local.postInfo.managerName)?.resetLocallyPatchedItem(targetId);
+      dataManager.findPostsManager(local.postInfo.managerName)?.resetItemPatch(targetId);
     }
   };
 

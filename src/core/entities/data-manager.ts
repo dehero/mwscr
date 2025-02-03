@@ -44,49 +44,47 @@ export class DataManager {
     this.users = args.users;
   }
 
-  getLocalPatch(): DataPatch {
+  getPatch(): DataPatch {
     const patch: DataPatch = {};
 
     for (const manager of this.postsManagers) {
-      const managerPatch = manager.getLocalPatch();
+      const managerPatch = manager.patch;
       patch[manager.name] = managerPatch;
     }
 
-    patch.users = this.users.getLocalPatch();
+    patch.users = this.users.patch;
 
     return patch;
   }
 
-  mergeLocalPatch(patch: DataPatch) {
+  mergePatch(patch: DataPatch) {
     for (const manager of this.postsManagers) {
       const managerPatch = patch[manager.name];
       if (managerPatch) {
-        manager.mergeLocalPatch(managerPatch);
+        manager.mergePatch(managerPatch);
       }
     }
     if (patch.users) {
-      this.users.mergeLocalPatch(patch.users);
+      this.users.mergePatch(patch.users);
     }
   }
 
-  get localPatchSize() {
-    return (
-      this.postsManagers.reduce((acc, postManager) => acc + postManager.localPatchSize, 0) + this.users.localPatchSize
-    );
+  get patchSize() {
+    return this.postsManagers.reduce((acc, postManager) => acc + postManager.patchSize, 0) + this.users.patchSize;
   }
 
-  clearLocalPatch() {
+  clearPatch() {
     for (const manager of this.postsManagers) {
-      manager.clearLocalPatch();
+      manager.clearPatch();
     }
-    this.users.clearLocalPatch();
+    this.users.clearPatch();
   }
 
-  async applyLocalPatch() {
+  async save() {
     for (const manager of this.postsManagers) {
-      await manager.applyLocalPatch();
+      await manager.save();
     }
-    await this.users.applyLocalPatch();
+    await this.users.save();
   }
 
   async findWorldMapLocationInfo(location: PostLocation): Promise<LocationInfo | undefined> {

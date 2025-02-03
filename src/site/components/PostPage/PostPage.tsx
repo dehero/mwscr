@@ -131,7 +131,7 @@ export const PostPage = (): JSX.Element => {
     ]);
     if (result === 0) {
       const targetId = postInfo()?.refId || params().id;
-      dataManager.findPostsManager(params().managerName)?.resetLocallyPatchedItem(targetId);
+      dataManager.findPostsManager(params().managerName)?.resetItemPatch(targetId);
     }
   };
 
