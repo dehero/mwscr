@@ -2140,7 +2140,7 @@
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2025-01-27-21-05-00
+      updated: 2025-02-03-21-06-33
       followers: 894
       likes: 34
       views: 298
@@ -2148,10 +2148,10 @@
     - service: tg
       id: 334
       published: 2024-03-03-18-16-50
-      updated: 2025-01-27-21-04-53
+      updated: 2025-02-03-21-06-24
       followers: 341
       likes: 63
-      views: 524
+      views: 526
 2018-03-01-guardess-of-assernerairan:
   title: Guardess of Assernerairan
   titleRu: Охранница Ассернерайрана
@@ -2220,7 +2220,7 @@
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
-      updated: 2025-01-27-21-04-54
+      updated: 2025-02-03-21-06-27
       followers: 909
       likes: 46
       views: 308
@@ -2232,10 +2232,10 @@
     - service: tg
       id: 385
       published: 2024-04-21-18-17-47
-      updated: 2025-01-27-21-04-49
+      updated: 2025-02-03-21-06-20
       followers: 354
       likes: 64
-      views: 470
+      views: 471
       comments: !c |-
         GxUB4B2J6TY4WRjE4Mgnp1zkmUcccdHnh9N9+lNDlHuYbByrY3PPM8a2CJSsggX62iyD54f/3Ikm
         GAC/a7vtb9GHtjAN7AA0saC2ObcMzVoKdhBf9Sn9ndec8R1/Kq3Rhveo9epmJvELYVP/9xlRg7HB
@@ -4792,17 +4792,17 @@
     - service: vk
       id: 1468
       published: 2024-03-24-18-11-49
-      updated: 2025-01-27-21-04-57
+      updated: 2025-02-03-21-06-31
       followers: 898
       likes: 41
       views: 349
     - service: tg
       id: 356
       published: 2024-03-24-18-11-58
-      updated: 2025-01-27-21-04-52
+      updated: 2025-02-03-21-06-22
       followers: 352
       likes: 60
-      views: 542
+      views: 544
       comments: !c iw2AkZPLQnjnGx3lAACrYm9icm92bmlrb3ak8J+VrwM=
 2018-05-10-drooping-sun-of-molag-amur:
   title: Drooping Sun of Molag Amur
@@ -10292,20 +10292,20 @@
       id: DExn5skTWOM
       mediaId: '17876857326238567'
       published: 2025-01-13-18-11-48
-      updated: 2025-01-27-20-09-03
+      updated: 2025-02-03-21-06-18
       followers: 1524
-      likes: 159
-      views: 505
+      likes: 160
+      views: 526
       comments: !c |-
         CyOAkpPLQnlGFtiOAACpaXN0c2llbGl6rPCflKXwn5Sl8J+UpZPLQnlGEL4OAACoMjJjb2luczex
         QmV0dHkgYmV0dHkgbmV0Y2gD
     - service: vk
       id: 2052
       published: 2025-01-13-18-12-09
-      updated: 2025-01-27-20-09-06
+      updated: 2025-02-03-21-06-19
       followers: 1052
-      likes: 47
-      views: 320
+      likes: 48
+      views: 329
       reposts: 2
       comments: !c |-
         G2QHACwO7MavWeDuMRRl0wk1Qm8l/p84/FxeobeftqWChCAWq2KZWGnApRHVc8WCXaVVO5TEoxzC
@@ -10330,10 +10330,10 @@
         - 665
         - 666
       published: 2025-01-13-18-12-27
-      updated: 2025-01-27-20-09-05
+      updated: 2025-02-03-21-06-18
       followers: 648
       likes: 65
-      views: 747
+      views: 787
 2018-10-07-on-the-way-to-the-crater:
   title: On the Way to the Crater
   titleRu: На пути к кратеру

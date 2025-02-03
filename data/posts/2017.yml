@@ -4132,25 +4132,25 @@
       id: DFnseKAT28i
       mediaId: '18140510668337607'
       published: 2025-02-03-18-10-45
-      updated: 2025-02-03-20-08-36
+      updated: 2025-02-03-21-06-15
       followers: 1535
-      likes: 45
-      views: 91
+      likes: 49
+      views: 120
     - service: vk
       id: 2110
       published: 2025-02-03-18-10-54
-      updated: 2025-02-03-20-08-37
+      updated: 2025-02-03-21-06-16
       followers: 1059
-      likes: 13
-      views: 63
+      likes: 17
+      views: 76
       reposts: 1
     - service: tg
       id: 693
       published: 2025-02-03-18-11-03
-      updated: 2025-02-03-20-08-37
+      updated: 2025-02-03-21-06-16
       followers: 664
-      likes: 30
-      views: 91
+      likes: 32
+      views: 98
 2017-04-17-lost-and-robbed:
   title: Lost and Robbed
   titleRu: Потерян и ограблен
@@ -4694,7 +4694,7 @@
     - service: vk
       id: 1494
       published: 2024-04-14-20-32-17
-      updated: 2025-01-27-21-04-55
+      updated: 2025-02-03-21-06-28
       followers: 911
       likes: 41
       views: 301
@@ -4702,10 +4702,10 @@
     - service: tg
       id: 378
       published: 2024-04-14-20-32-22
-      updated: 2025-01-27-21-04-49
+      updated: 2025-02-03-21-06-21
       followers: 351
       likes: 64
-      views: 540
+      views: 542
 2017-05-01-altmer-camp:
   title: Altmer Camp
   titleRu: Лагерь альтмеров
@@ -6784,17 +6784,17 @@
       id: DFlHfSRzWCN
       mediaId: '17955260624870999'
       published: 2025-02-02-18-09-05
-      updated: 2025-02-03-20-08-37
+      updated: 2025-02-03-21-06-16
       followers: 1536
       likes: 69
-      views: 210
+      views: 211
     - service: vk
       id: 2107
       published: 2025-02-02-18-09-12
-      updated: 2025-02-03-20-08-38
+      updated: 2025-02-03-21-06-17
       followers: 1060
       likes: 33
-      views: 189
+      views: 190
       comments: !c |-
         GyIBMCwOeHPUIcRE+eFaNxlujf+nv9jOEr38g2ecYTMJFWFyLvy7rdCjVbpNum9D+cN5O3Vb7s8G
         Y9x2TE6OPERj1RtsXhQ661ZkeW5wOuCEDyDDgPOA44KjTmu0GxxEFBdJPdE8/v7842jfruv3ckKh
@@ -6803,10 +6803,10 @@
     - service: tg
       id: 692
       published: 2025-02-02-18-09-19
-      updated: 2025-02-03-20-08-38
+      updated: 2025-02-03-21-06-17
       followers: 662
       likes: 51
-      views: 248
+      views: 252
 2017-06-26-floating-over-the-green-hills:
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами
@@ -9713,10 +9713,10 @@
       id: DEfmNjaz7er
       mediaId: '18059335300902048'
       published: 2025-01-06-18-10-43
-      updated: 2025-01-27-21-04-47
+      updated: 2025-02-03-21-06-20
       followers: 1523
       likes: 97
-      views: 424
+      views: 433
       comments: !c |-
         G3oAYIzTHbGYg5/W/537hGd7E4oCH97dOkUDdBQtNqoCDPWA2/UtpWlx/lTzGDsXJdPi2Xa32Ejv
         PwJcgZPlOLcLKzOs1LBw7kThpkUFkxoIhyh99QJ8eAQm4uMKc2LgPDvrDA7Wp2VzHXd/bIAhqDKa
@@ -9724,10 +9724,10 @@
     - service: vk
       id: 2026
       published: 2025-01-06-18-10-49
-      updated: 2025-01-27-21-04-48
+      updated: 2025-02-03-21-06-20
       followers: 1048
       likes: 40
-      views: 319
+      views: 324
       reposts: 1
       comments: !c |-
         G4EA+J0JvAnrMji1L5ZQPE/eRjjiiJPEtkFSwS7BLqLkfbJ0cyUlMdRdkA/3z8yRyW4PHKI8KUpI
@@ -9735,10 +9735,10 @@
     - service: tg
       id: 655
       published: 2025-01-06-18-10-56
-      updated: 2025-01-27-21-04-47
+      updated: 2025-02-03-21-06-19
       followers: 645
       likes: 68
-      views: 478
+      views: 495
 2017-09-17-night-square:
   title: Night Square
   titleRu: Ночная площадь
@@ -11535,7 +11535,7 @@
     - service: vk
       id: 1547
       published: 2024-05-26-18-17-46
-      updated: 2025-01-27-21-04-50
+      updated: 2025-02-03-21-06-23
       followers: 918
       likes: 32
       views: 291
