@@ -30,14 +30,19 @@ export async function createNewPost() {
         const newId = createNewPostId(post);
 
         await movePublishedPostResources([newId, post]);
+
         await posts.addItem(post, newId);
         await inbox.removeItem(id);
+
+        await posts.save();
+        await inbox.save();
 
         console.info(`Created post "${newId}" from inbox item "${id}".`);
       } else {
         const newId = createRepostId(post);
 
-        await posts.addItem(id, newId);
+        posts.addItem(id, newId);
+        await posts.save();
 
         console.info(`Reposted "${id}" as "${newId}".`);
       }

@@ -40,7 +40,7 @@ class SiteDataManager extends DataManager {
 
   async getAllPostInfos(managerName: PostsManagerName): Promise<PostInfo[]> {
     const manager = this.findPostsManager(managerName);
-    if (manager && manager.localPatchSize > 0) {
+    if (manager && manager.patchSize > 0) {
       return super.getAllPostInfos(managerName);
     }
 

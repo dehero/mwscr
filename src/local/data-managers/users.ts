@@ -1,3 +1,5 @@
+import { unlink } from 'fs/promises';
+import type { ListReaderChunk } from '../../core/entities/list-manager.js';
 import type { User } from '../../core/entities/user.js';
 import { UsersManager } from '../../core/entities/users-manager.js';
 import { loadYaml, saveYaml } from './utils/yaml.js';
@@ -12,11 +14,14 @@ class LocalUsersManager extends UsersManager {
       throw new TypeError('Users data must be an object');
     }
 
-    return Object.entries(data as Record<string, User>);
+    return data as Record<string, User>;
   }
 
-  protected async saveChunk() {
-    const data = Object.fromEntries(await this.getAllEntries());
+  protected removeChunkData(_: string) {
+    return unlink(USERS_FILENAME);
+  }
+
+  protected async saveChunkData(_: string, data: ListReaderChunk<User>) {
     return saveYaml(USERS_FILENAME, data);
   }
 }

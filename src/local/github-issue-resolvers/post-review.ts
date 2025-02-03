@@ -25,7 +25,7 @@ export async function resolve(issue: GithubIssue) {
   post.mark = safeParseSchema(PostMark, markStr);
   post.violation = safeParseSchema(PostViolation, violationStr);
 
-  await manager.updateItem(id);
+  await manager.save();
 
   console.info(`Post "${id}" updated".`);
 }

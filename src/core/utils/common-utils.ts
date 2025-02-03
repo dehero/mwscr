@@ -159,17 +159,6 @@ export function unknownToString(value?: unknown): string | undefined {
   return JSON.stringify(value);
 }
 
-export function isObjectEqual(a: object, b: object): boolean {
-  return (
-    Object.keys(a).length === Object.keys(b).length &&
-    Object.entries(a).every(([key, value]) => b[key as keyof typeof b] === value)
-  );
-}
-
 export function getRevisionHash(data: Uint8Array | string) {
   return md5Hex(data).slice(0, 8);
-}
-
-export function isObject(value: unknown): value is Record<string, unknown> {
-  return typeof value === 'object' && value !== null;
 }

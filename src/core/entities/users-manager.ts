@@ -1,13 +1,14 @@
 import { textToId } from '../utils/common-utils.js';
 import { ListManager, ListManagerPatch } from './list-manager.js';
-import type { User } from './user.js';
-import { isUser, isUserEqual, mergeUserWith, patchUser, UserPatch } from './user.js';
+import { isUserEqual, mergeUserWith, User } from './user.js';
 
-export const UsersManagerPatch = ListManagerPatch(UserPatch);
-export type UsersManagerPatch = ListManagerPatch<UserPatch>;
+export const UsersManagerPatch = ListManagerPatch<User>(User);
+export type UsersManagerPatch = ListManagerPatch<User>;
 
-export abstract class UsersManager extends ListManager<User, UserPatch> {
+export abstract class UsersManager extends ListManager<User> {
   readonly name = 'users';
+
+  readonly ItemSchema = User;
 
   protected createItemId(item: User) {
     let result = textToId(item.name ?? '');
@@ -21,8 +22,4 @@ export abstract class UsersManager extends ListManager<User, UserPatch> {
   protected isItemEqual = isUserEqual;
 
   protected mergeItemWith = mergeUserWith;
-
-  protected patchItemWith = patchUser;
-
-  isItem = isUser;
 }

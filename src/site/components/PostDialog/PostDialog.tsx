@@ -5,12 +5,13 @@ import type { InferOutput } from 'valibot';
 import { picklist } from 'valibot';
 import type { Option } from '../../../core/entities/option.js';
 import { EMPTY_OPTION } from '../../../core/entities/option.js';
-import type { PostContent, PostPatch, PostRequest } from '../../../core/entities/post.js';
+import type { Patch } from '../../../core/entities/patch.js';
+import { patchObject } from '../../../core/entities/patch.js';
+import type { Post, PostContent, PostRequest } from '../../../core/entities/post.js';
 import {
   mergeAuthors,
   mergePostLocations,
   mergePostTags,
-  patchPost,
   PostAddon,
   PostEngine,
   PostMark,
@@ -41,7 +42,7 @@ export type PostDialogPreset = InferOutput<typeof PostDialogPreset>;
 
 export interface PostDialogPresetDescriptor {
   title: string;
-  fields: Array<keyof PostPatch>;
+  fields: Array<keyof Post>;
   useColumnLayout?: boolean;
 }
 
@@ -105,19 +106,21 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
 
   const [postEntry] = createResource(
     () => (props.show && props.id ? props.id : undefined),
-    (id) => manager()?.getEntry(id),
+    (id) => structuredClone(manager()?.getEntry(id)),
   );
-  const [patch, setPatch] = createSignal<PostPatch>({});
+  const [patch, setPatch] = createSignal<Patch<Post>>({});
   const post = createMemo(() => {
     const post = postEntry()?.[1];
     if (!post) {
       return undefined;
     }
-    return patchPost(post, patch());
+    patchObject(post, patch());
+
+    return post;
   });
 
-  const setPatchField = <TField extends keyof PostPatch>(field: TField, value: PostPatch[TField]) => {
-    let newValue: PostPatch[TField] | null = value;
+  const setPatchField = <TField extends keyof Patch<Post>>(field: TField, value: Patch<Post>[TField]) => {
+    let newValue: Patch<Post>[TField] | null = value;
 
     if (field !== 'type' && typeof newValue === 'undefined') {
       newValue = null;
@@ -141,9 +144,9 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
         return {
           onClick: () => {
             if (Object.keys(patch()).length === 0) {
-              manager()?.resetLocallyPatchedItem(targetId);
+              manager()?.resetItemPatch(targetId);
             } else {
-              manager()?.mergeLocalPatch({ [targetId]: patch() });
+              manager()?.mergePatch({ [targetId]: patch() });
             }
           },
         };

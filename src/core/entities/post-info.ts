@@ -108,7 +108,7 @@ export async function createPostInfo(
   const [id, post, refId] = entry;
   const errors: string[] = [];
 
-  const status = await manager.getItemLocalStatus(id);
+  const status = await manager.getItemStatus(id);
 
   if (status !== 'removed' && !isTrashItem(post)) {
     isPublishablePost(post, errors);

@@ -6,4 +6,10 @@ export type UnionToIntersection<U> = (U extends unknown ? (k: U) => void : never
 
 export type UndefinedToNull<T> = T extends undefined ? T | null : T;
 
-export type UndefinedPropsToNull<T> = { [K in keyof T]: UndefinedToNull<T[K]> };
+export type Immutable<T> = T extends unknown ? T : Readonly<T>;
+
+export type NestedKeyOf<TObjectType extends object> = {
+  [Key in keyof TObjectType & (string | number)]: TObjectType[Key] extends object
+    ? `${Key}` | `${Key}.${NestedKeyOf<TObjectType[Key]>}`
+    : `${Key}`;
+}[keyof TObjectType & (string | number)];
