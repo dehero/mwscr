@@ -6264,10 +6264,10 @@
     - service: tg
       id: 577
       published: 2024-10-27-18-09-29
-      updated: 2025-01-27-04-10-06
+      updated: 2025-02-03-04-10-09
       followers: 564
       likes: 62
-      views: 480
+      views: 481
 2017-06-11-castle-karstaag:
   title: Castle Karstaag
   titleRu: Замок Карстааг
@@ -6761,27 +6761,27 @@
       id: DFlHfSRzWCN
       mediaId: '17955260624870999'
       published: 2025-02-02-18-09-05
-      updated: 2025-02-03-03-12-28
+      updated: 2025-02-03-04-10-07
       followers: 1536
-      likes: 49
-      views: 132
+      likes: 52
+      views: 139
     - service: vk
       id: 2107
       published: 2025-02-02-18-09-12
-      updated: 2025-02-03-03-12-28
+      updated: 2025-02-03-04-10-07
       followers: 1060
-      likes: 25
-      views: 123
+      likes: 26
+      views: 130
       comments: !c |-
         G2gA+I2E3ETrZfliuUhQtXvCGw88kyTAgOImwQiT3bdtXpGwdrvRnGr81gpsBRF2TidwyKkeAL4g
         cAy4HoecgEzyO/fnVfabVW+OhBABicKvDBWPikXB9Ly7oIKNy9zZpuCcsDAZY9nV1l47
     - service: tg
       id: 692
       published: 2025-02-02-18-09-19
-      updated: 2025-02-03-03-12-29
+      updated: 2025-02-03-04-10-08
       followers: 662
       likes: 41
-      views: 175
+      views: 179
 2017-06-26-floating-over-the-green-hills:
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами
