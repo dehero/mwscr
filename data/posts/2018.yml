@@ -4636,18 +4636,18 @@
     - service: vk
       id: 1928
       published: 2024-12-01-18-09-48
-      updated: 2025-01-27-02-08-47
+      updated: 2025-02-03-03-12-34
       followers: 1012
       likes: 48
-      views: 384
+      views: 387
       reposts: 4
     - service: tg
       id: 612
       published: 2024-12-01-18-09-57
-      updated: 2025-01-27-02-08-45
+      updated: 2025-02-03-03-12-31
       followers: 576
       likes: 65
-      views: 610
+      views: 615
     - service: ig
       id: DDGK86wO8YJ
       mediaId: '18296802376229812'
@@ -5218,7 +5218,7 @@
     - service: vk
       id: 1875
       published: 2024-11-03-18-10-30
-      updated: 2025-01-27-02-08-50
+      updated: 2025-02-03-03-12-37
       followers: 1003
       likes: 38
       views: 346
@@ -5226,10 +5226,10 @@
     - service: tg
       id: 584
       published: 2024-11-03-18-10-35
-      updated: 2025-01-27-02-08-49
+      updated: 2025-02-03-03-12-35
       followers: 565
       likes: 61
-      views: 559
+      views: 562
       comments: !c |-
         CyiAk5PLQnkw+mEZAACrYmh1dmFuYXNyaWmk8J+NrZPLQnkvTUbBgACpR2F0ZW1hdGU3qDIwMTgu
         Li4/k8tCeS9MvQ+AAKh3aWx6dXVsbKTwn6eQAw==
@@ -7202,10 +7202,10 @@
     - service: vk
       id: 1983
       published: 2024-12-22-18-09-04
-      updated: 2025-01-27-02-08-44
+      updated: 2025-02-03-03-12-30
       followers: 1026
       likes: 54
-      views: 410
+      views: 413
       reposts: 5
     - service: tg
       id: 633
@@ -9629,10 +9629,10 @@
     - service: tg
       id: 598
       published: 2024-11-17-18-09-44
-      updated: 2025-01-27-02-08-47
+      updated: 2025-02-03-03-12-33
       followers: 573
       likes: 57
-      views: 584
+      views: 586
     - service: vk
       id: 1901
       published: 2024-11-17-19-01-38
@@ -12210,17 +12210,17 @@
     - service: vk
       id: 1888
       published: 2024-11-10-18-09-11
-      updated: 2025-01-27-02-08-49
+      updated: 2025-02-03-03-12-36
       followers: 1006
       likes: 46
-      views: 289
+      views: 291
     - service: tg
       id: 591
       published: 2024-11-10-18-10-13
-      updated: 2025-01-27-02-08-48
+      updated: 2025-02-03-03-12-34
       followers: 564
       likes: 57
-      views: 611
+      views: 614
 2018-11-23-flooded-door:
   title: Flooded Door
   titleRu: Затопленная дверь
