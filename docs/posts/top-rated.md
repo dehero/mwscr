@@ -573,31 +573,6 @@
 - `vk` <ins title="2018-03-19-07-51-59">ilyatamrielsky</ins> Красота)
 - `vk` <ins title="2018-03-22-10-31-50">max.tsei</ins> Помню как я мучался искать эту дверь...
 
-## <span id="2017-07-13-corpse-preparation-volume-one">Corpse Preparation, Volume One</span>
-
-`RU` О подготовке тел, т. I
-
-<a href="https://instagram.com/p/BWe7pOwj9Lf/" title="2017-07-13-corpse-preparation-volume-one"><img alt="store:/shots/2017-07-13-corpse-preparation-volume-one.png" src="../../assets/previews/shots/2017-07-13-corpse-preparation-volume-one.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-07-13-corpse-preparation-volume-one&postLocation=)</code> `🚀 OpenMW` `necromancy` `book` `alchemy`
-
-```
-2017-07-13-corpse-preparation-volume-one
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | rating |
-|----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BWe7pOwj9Lf/)       | 2017-07-13 |       |    72 |       188 |   38.3 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_352)  | 2017-07-13 |   183 |    13 |        67 |   20.9 |
-| [`ig`](https://instagram.com/p/DFqRQNtS7PN/)       | 2025-02-04 |       |       |      1535 |        |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2112) | 2025-02-04 |       |       |      1059 |        |
-| [`tg`](https://t.me/mwscr/694)                     | 2025-02-04 |       |       |       664 |        |
-|                                                    |            |   183 |    85 |       255 |   29.6 |
-
 ## <span id="2018-05-25-the-one-who-holds-baar-dau">The One Who Holds Baar Dau</span>
 
 `RU` Тот, кто держит Баар Дау
@@ -1294,6 +1269,28 @@
 | [`ig`](https://instagram.com/p/BddRajKDOUS/)      | 2018-01-02 |       |   104 |       268 |  38.81 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_560) | 2018-01-02 |   240 |    17 |       116 |  14.66 |
 |                                                   |            |   240 |   121 |       384 |  26.73 |
+
+## <span id="2017-04-01-help-me-find-my-pants-you-imperial-scum">Help Me Find My Pants You Imperial Scum!</span>
+
+`RU` Помоги найти мои штаны, ты, имперский ублюдок!
+
+<a href="https://instagram.com/p/BSVOs-GDRSn/" title="2017-04-01-help-me-find-my-pants-you-imperial-scum"><img alt="store:/shots/2017-04-01-help-me-find-my-pants-you-imperial-scum.png" src="../../assets/previews/shots/2017-04-01-help-me-find-my-pants-you-imperial-scum.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`C` `📍 Gnisis` `🚀 OpenMW` `foolsday` `siltstrider`
+
+```
+2017-04-01-help-me-find-my-pants-you-imperial-scum
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | rating |
+|---------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BSVOs-GDRSn/)      | 2017-04-01 |       |    72 |       166 |  43.37 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_239) | 2017-04-01 |   136 |     5 |        50 |     10 |
+|                                                   |            |   136 |    77 |       216 |  26.69 |
 
 ---
 

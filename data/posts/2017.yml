@@ -4132,17 +4132,17 @@
       id: DFnseKAT28i
       mediaId: '18140510668337607'
       published: 2025-02-03-18-10-45
-      updated: 2025-02-04-18-10-23
+      updated: 2025-02-04-19-01-14
       followers: 1535
       likes: 84
       views: 257
     - service: vk
       id: 2110
       published: 2025-02-03-18-10-54
-      updated: 2025-02-04-18-10-24
+      updated: 2025-02-04-19-01-15
       followers: 1059
       likes: 33
-      views: 183
+      views: 190
       reposts: 2
       comments: !c |-
         GxMBQK0SeJNvUVkKnbLHj1E8j92O8O+o2zqGxAJtCUaYvA/lthK60ZKOx8lg7gfq5Nhj+7/obfeU
@@ -4152,10 +4152,10 @@
     - service: tg
       id: 693
       published: 2025-02-03-18-11-03
-      updated: 2025-02-04-18-10-24
+      updated: 2025-02-04-19-01-15
       followers: 664
-      likes: 49
-      views: 166
+      likes: 51
+      views: 212
 2017-04-17-lost-and-robbed:
   title: Lost and Robbed
   titleRu: Потерян и ограблен
@@ -7477,15 +7477,23 @@
       id: DFqRQNtS7PN
       mediaId: '18153897166344611'
       published: 2025-02-04-18-10-38
+      updated: 2025-02-04-19-01-13
       followers: 1535
+      likes: 23
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
+      updated: 2025-02-04-19-01-14
       followers: 1059
+      likes: 2
+      views: 28
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
+      updated: 2025-02-04-19-01-14
       followers: 664
+      likes: 25
+      views: 107
 2017-07-14-near-the-night-campfire:
   title: Near the Night Campfire
   titleRu: Возле ночного костра
@@ -10604,10 +10612,10 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-02-03-18-10-29
+      updated: 2025-02-04-19-01-15
       followers: 1534
-      likes: 98
-      views: 429
+      likes: 100
+      views: 437
       comments: !c |-
         G98AwJyHsbGs8SG7EA7eih9t0NTcPsW/vq2uizWxqIi/eCNyVBIhirW6bgOcXKaTIz2e/Bc6Ny/R
         ACAoFa7mn55oGpDWWluB5m0lEnMYXq43vB5iSe1Zi/XWnnHuAfDHCx3fnHTgG0RPc5v++Q5kTduC
@@ -10616,10 +10624,10 @@
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-02-03-18-10-29
+      updated: 2025-02-04-19-01-16
       followers: 1057
-      likes: 50
-      views: 260
+      likes: 52
+      views: 275
       reposts: 2
       comments: !c |-
         G1MCgKwOzFOmAyaDC3lcpr4TaSwTFXGwOKHXZirQjNMsCzhIJMJkTzSVbbHZjPZqyBaDhnTAyZh8
@@ -10631,10 +10639,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-02-03-18-10-29
+      updated: 2025-02-04-19-01-16
       followers: 662
       likes: 68
-      views: 335
+      views: 374
       comments: !c CxiAkZPLQnlMaCGzgACobW9uZ2xlcmm8ZGFtbiB0aG9zZSBjYW5kZXMgYXJlIHByZXR0eQM=
 2017-10-14-land-of-ruins:
   title: Land of Ruins
