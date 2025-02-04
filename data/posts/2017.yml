@@ -1165,7 +1165,7 @@
     - service: vk
       id: 1531
       published: 2024-05-13-18-17-48
-      updated: 2025-01-28-19-01-33
+      updated: 2025-02-04-20-08-59
       followers: 915
       likes: 35
       views: 260
@@ -1173,10 +1173,10 @@
     - service: tg
       id: 407
       published: 2024-05-13-18-17-54
-      updated: 2025-01-28-19-01-31
+      updated: 2025-02-04-20-08-57
       followers: 370
       likes: 62
-      views: 446
+      views: 447
       comments: !c |-
         iz6AkZTLQnj3MuobgACpR2F0ZW1hdGU3vWhvdyBkbyBpIHN1Ym1pdCBhIHNjcmVlbnNob3Q/k8tC
         ePcy8qcAAKVtd3Njctk5aHR0cHM6Ly9naXRodWIuY29tL2RlaGVyby9td3Njci9ibG9iL21haW4v
@@ -4132,17 +4132,17 @@
       id: DFnseKAT28i
       mediaId: '18140510668337607'
       published: 2025-02-03-18-10-45
-      updated: 2025-02-04-19-01-14
+      updated: 2025-02-04-20-08-51
       followers: 1535
-      likes: 84
-      views: 257
+      likes: 85
+      views: 259
     - service: vk
       id: 2110
       published: 2025-02-03-18-10-54
-      updated: 2025-02-04-19-01-15
+      updated: 2025-02-04-20-08-52
       followers: 1059
       likes: 33
-      views: 190
+      views: 199
       reposts: 2
       comments: !c |-
         GxMBQK0SeJNvUVkKnbLHj1E8j92O8O+o2zqGxAJtCUaYvA/lthK60ZKOx8lg7gfq5Nhj+7/obfeU
@@ -4152,10 +4152,10 @@
     - service: tg
       id: 693
       published: 2025-02-03-18-11-03
-      updated: 2025-02-04-19-01-15
+      updated: 2025-02-04-20-08-53
       followers: 664
       likes: 51
-      views: 212
+      views: 233
 2017-04-17-lost-and-robbed:
   title: Lost and Robbed
   titleRu: Потерян и ограблен
@@ -5479,7 +5479,7 @@
     - service: vk
       id: 1456
       published: 2024-03-18-18-11-07
-      updated: 2025-01-28-19-01-39
+      updated: 2025-02-04-20-09-05
       followers: 896
       likes: 32
       views: 281
@@ -5491,7 +5491,7 @@
     - service: tg
       id: 350
       published: 2024-03-18-18-11-16
-      updated: 2025-01-28-19-01-36
+      updated: 2025-02-04-20-09-01
       followers: 353
       likes: 55
       views: 482
@@ -7477,23 +7477,24 @@
       id: DFqRQNtS7PN
       mediaId: '18153897166344611'
       published: 2025-02-04-18-10-38
-      updated: 2025-02-04-19-01-13
+      updated: 2025-02-04-20-08-50
       followers: 1535
-      likes: 23
+      likes: 34
+      views: 72
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
-      updated: 2025-02-04-19-01-14
+      updated: 2025-02-04-20-08-51
       followers: 1059
-      likes: 2
-      views: 28
+      likes: 3
+      views: 46
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
-      updated: 2025-02-04-19-01-14
+      updated: 2025-02-04-20-08-52
       followers: 664
-      likes: 25
-      views: 107
+      likes: 32
+      views: 150
 2017-07-14-near-the-night-campfire:
   title: Near the Night Campfire
   titleRu: Возле ночного костра
@@ -9920,7 +9921,7 @@
     - service: vk
       id: 1548
       published: 2024-05-27-18-19-06
-      updated: 2025-01-28-19-01-32
+      updated: 2025-02-04-20-08-57
       followers: 918
       likes: 36
       views: 270
@@ -12001,17 +12002,17 @@
     - service: vk
       id: 1477
       published: 2024-04-01-18-10-59
-      updated: 2025-01-28-19-01-38
+      updated: 2025-02-04-20-09-04
       followers: 906
       likes: 33
       views: 310
     - service: tg
       id: 364
       published: 2024-04-01-18-11-06
-      updated: 2025-01-28-19-01-35
+      updated: 2025-02-04-20-09-01
       followers: 354
       likes: 61
-      views: 470
+      views: 471
       comments: !c CxOAkZPLQnjps+/8gACoQWVsbGFyaWGyVmVsZGlnIGZpbnQgYmlsZGUhAw==
 2017-11-19-bottle-collection:
   title: Bottle Collection
@@ -12198,17 +12199,17 @@
       id: DE0MjAjSIq6
       mediaId: '18023130176338578'
       published: 2025-01-14-18-10-31
-      updated: 2025-01-28-20-08-31
+      updated: 2025-02-04-20-08-56
       followers: 1525
       likes: 77
-      views: 352
+      views: 357
     - service: vk
       id: 2057
       published: 2025-01-14-18-10-37
-      updated: 2025-01-28-20-08-32
+      updated: 2025-02-04-20-08-56
       followers: 1052
       likes: 58
-      views: 317
+      views: 323
       reposts: 2
       comments: !c |-
         GwoBSJwJdiyXCQdrkR4XF/0TN4rwjxdwxhk2CR7hyT7VtvQJb084hCuDQrNXWILlTYy/nz1ZTnfH
@@ -12218,10 +12219,10 @@
     - service: tg
       id: 667
       published: 2025-01-14-18-10-44
-      updated: 2025-01-28-20-08-30
+      updated: 2025-02-04-20-08-56
       followers: 650
-      likes: 68
-      views: 511
+      likes: 69
+      views: 539
 2017-11-26-in-the-cell-of-vuvil-senim:
   title: In the Cell of Vuvil Senim
   titleRu: В камере Вувила Сенима
