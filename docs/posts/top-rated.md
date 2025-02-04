@@ -589,11 +589,14 @@
 
 ### Reactions
 
-|                                                   | published  | views | likes | followers | rating |
-|---------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/BWe7pOwj9Lf/)      | 2017-07-13 |       |    72 |       188 |   38.3 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_352) | 2017-07-13 |   183 |    13 |        67 |   20.9 |
-|                                                   |            |   183 |    85 |       255 |   29.6 |
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BWe7pOwj9Lf/)       | 2017-07-13 |       |    72 |       188 |   38.3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_352)  | 2017-07-13 |   183 |    13 |        67 |   20.9 |
+| [`ig`](https://instagram.com/p/DFqRQNtS7PN/)       | 2025-02-04 |       |       |      1535 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2112) | 2025-02-04 |       |       |      1059 |        |
+| [`tg`](https://t.me/mwscr/694)                     | 2025-02-04 |       |       |       664 |        |
+|                                                    |            |   183 |    85 |       255 |   29.6 |
 
 ## <span id="2018-05-25-the-one-who-holds-baar-dau">The One Who Holds Baar Dau</span>
 

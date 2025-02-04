@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`34 items`
+`35 items`
+
+## <span id="2025-02-04-corpse-preparation-volume-one">Corpse Preparation, Volume One</span>
+
+`RU` О подготовке тел, т. I
+
+<a href="https://instagram.com/p/BWe7pOwj9Lf/" title="2017-07-13-corpse-preparation-volume-one"><img alt="store:/shots/2017-07-13-corpse-preparation-volume-one.png" src="../../assets/previews/shots/2017-07-13-corpse-preparation-volume-one.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-04-corpse-preparation-volume-one&postLocation=)</code> `🚀 OpenMW` `necromancy` `book` `alchemy`
+
+```
+2025-02-04-corpse-preparation-volume-one
+```
+
+> `2017-07-13-corpse-preparation-volume-one`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BWe7pOwj9Lf/)       | 2017-07-13 |       |    72 |       188 |   38.3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_352)  | 2017-07-13 |   183 |    13 |        67 |   20.9 |
+| [`ig`](https://instagram.com/p/DFqRQNtS7PN/)       | 2025-02-04 |       |       |      1535 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2112) | 2025-02-04 |       |       |      1059 |        |
+| [`tg`](https://t.me/mwscr/694)                     | 2025-02-04 |       |       |       664 |        |
+|                                                    |            |       |       |      3258 |   29.6 |
 
 ## <span id="2025-02-03-tree-stone">Tree Stone</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BS8Glo-D80J/)       | 2017-04-16 |       |    69 |       172 |  40.12 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_260)  | 2017-04-16 |   133 |     8 |        52 |  15.38 |
-| [`ig`](https://instagram.com/p/DFnseKAT28i/)       | 2025-02-03 |   256 |    82 |      1535 |   5.34 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2110) | 2025-02-03 |   176 |    33 |      1059 |   3.31 |
-| [`tg`](https://t.me/mwscr/693)                     | 2025-02-03 |   165 |    49 |       664 |   7.38 |
-|                                                    |            |   597 |   164 |      3258 |  14.31 |
+| [`ig`](https://instagram.com/p/DFnseKAT28i/)       | 2025-02-03 |   257 |    84 |      1535 |   5.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2110) | 2025-02-03 |   183 |    33 |      1059 |   3.31 |
+| [`tg`](https://t.me/mwscr/693)                     | 2025-02-03 |   166 |    49 |       664 |   7.38 |
+|                                                    |            |   606 |   166 |      3258 |  14.33 |
 
 #### Comments
 
@@ -87,10 +114,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFiitdtslUk/)       | 2025-02-01 |   320 |   109 |      1535 |    7.1 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2105) | 2025-02-01 |   220 |    29 |      1059 |   2.93 |
-| [`tg`](https://t.me/mwscr/691)                     | 2025-02-01 |   212 |    60 |       662 |   9.06 |
-|                                                    |            |   752 |   198 |      3256 |   6.36 |
+| [`ig`](https://instagram.com/p/DFiitdtslUk/)       | 2025-02-01 |   391 |   112 |      1535 |    7.3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2105) | 2025-02-01 |   241 |    31 |      1059 |   3.21 |
+| [`tg`](https://t.me/mwscr/691)                     | 2025-02-01 |   232 |    60 |       662 |   9.06 |
+|                                                    |            |   864 |   203 |      3256 |   6.52 |
 
 #### Comments
 
