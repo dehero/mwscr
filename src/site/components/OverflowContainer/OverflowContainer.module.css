@@ -1,0 +1,24 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+
+.container.isOverflowing {
+  overflow: visible;
+}
+
+.fallback {
+  display: none;
+}
+
+.isOverflowing > .fallback {
+  display: block;
+}
+
+.isOverflowing > .children {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}

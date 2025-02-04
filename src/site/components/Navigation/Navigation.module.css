@@ -2,12 +2,18 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: baseline;
-  gap: 8px 4px;
+  gap: 8px;
   padding: 8px;
 }
 
-.button {
-  display: none;
+.menuWrapper {
+  flex: 1 1 content;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 4px;
 }
 
 .breadcrumbs {
@@ -24,18 +30,4 @@
 
 .link:hover {
   color: var(--color-text-selected-hover);
-}
-
-@media only screen and (min-width: 512px) {
-  .nav {
-    flex-flow: row wrap;
-  }
-
-  .menu {
-    display: none;
-  }
-
-  .button {
-    display: block;
-  }
 }
