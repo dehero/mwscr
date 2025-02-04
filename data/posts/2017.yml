@@ -235,7 +235,7 @@
     - service: vk
       id: 56
       published: 2017-01-22
-      updated: 2025-01-28-22-07-13
+      updated: 2025-02-04-22-07-23
       likes: 5
       views: 72
     - service: ig
@@ -2475,10 +2475,10 @@
     - service: vk
       id: 1988
       published: 2024-12-24-18-10-38
-      updated: 2025-01-28-22-07-10
+      updated: 2025-02-04-22-07-20
       followers: 1028
-      likes: 47
-      views: 396
+      likes: 48
+      views: 401
       reposts: 4
       comments: !c |-
         G+UAyJwHtqOdVUH8g2aySSee+J2kl0dhnkGGexMb6eQfpG6EERIlL7BmfAVh0bnFCjAgspnT0aDF
@@ -2487,10 +2487,10 @@
     - service: tg
       id: 636
       published: 2024-12-24-18-10-47
-      updated: 2025-01-28-22-07-09
+      updated: 2025-02-04-22-07-19
       followers: 603
       likes: 64
-      views: 651
+      views: 662
 2017-03-06-night-encounter-at-the-bridge:
   title: Night Encounter at the Bridge
   titleRu: Ночная встреча у моста
@@ -4132,17 +4132,17 @@
       id: DFnseKAT28i
       mediaId: '18140510668337607'
       published: 2025-02-03-18-10-45
-      updated: 2025-02-04-21-06-10
+      updated: 2025-02-04-22-07-17
       followers: 1535
       likes: 85
-      views: 260
+      views: 264
     - service: vk
       id: 2110
       published: 2025-02-03-18-10-54
-      updated: 2025-02-04-21-06-10
+      updated: 2025-02-04-22-07-17
       followers: 1059
       likes: 34
-      views: 205
+      views: 206
       reposts: 2
       comments: !c |-
         GxMBQK0SeJNvUVkKnbLHj1E8j92O8O+o2zqGxAJtCUaYvA/lthK60ZKOx8lg7gfq5Nhj+7/obfeU
@@ -4152,10 +4152,10 @@
     - service: tg
       id: 693
       published: 2025-02-03-18-11-03
-      updated: 2025-02-04-21-06-10
+      updated: 2025-02-04-22-07-16
       followers: 664
       likes: 52
-      views: 239
+      views: 247
 2017-04-17-lost-and-robbed:
   title: Lost and Robbed
   titleRu: Потерян и ограблен
@@ -7477,24 +7477,27 @@
       id: DFqRQNtS7PN
       mediaId: '18153897166344611'
       published: 2025-02-04-18-10-38
-      updated: 2025-02-04-21-06-09
+      updated: 2025-02-04-22-07-16
       followers: 1535
-      likes: 38
-      views: 97
+      likes: 46
+      views: 118
+      comments: !c |-
+        ixqAkZPLQnlNLcDEAACrZGVsYW5vc3BpZXO+QGRyYXZlbmp2IGlzbnQgdGhpcyB5b3VyIGRlc2s/
+        Aw==
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
-      updated: 2025-02-04-21-06-09
+      updated: 2025-02-04-22-07-15
       followers: 1059
-      likes: 6
-      views: 59
+      likes: 7
+      views: 63
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
-      updated: 2025-02-04-21-06-09
+      updated: 2025-02-04-22-07-15
       followers: 664
-      likes: 36
-      views: 161
+      likes: 38
+      views: 174
 2017-07-14-near-the-night-campfire:
   title: Near the Night Campfire
   titleRu: Возле ночного костра
@@ -11190,18 +11193,18 @@
       id: DEiLC17uOow
       mediaId: '18081052477524929'
       published: 2025-01-07-18-11-04
-      updated: 2025-01-28-22-07-08
+      updated: 2025-02-04-22-07-18
       followers: 1524
       likes: 116
-      views: 437
+      views: 445
       comments: !c CxiAkZPLQnlEKOv5gACpaXN0c2llbGl6u09uZSBvZiB0aGUgbmljZXN0IHRvd25zIOKcqAM=
     - service: vk
       id: 2028
       published: 2025-01-07-18-11-12
-      updated: 2025-01-28-22-07-08
+      updated: 2025-02-04-22-07-18
       followers: 1049
       likes: 52
-      views: 371
+      views: 378
       reposts: 4
       comments: !c |-
         G5UDQCwPbLcJBLprx+HWndCTiP+nv+f3OaGjzbx/Zz7EkWeJBVwCQZEla4umn/t5X0g9ZQgUkFwK
@@ -11216,10 +11219,10 @@
     - service: tg
       id: 656
       published: 2025-01-07-18-11-21
-      updated: 2025-01-28-22-07-07
+      updated: 2025-02-04-22-07-17
       followers: 646
-      likes: 74
-      views: 519
+      likes: 75
+      views: 540
       comments: !c iw+AkZPLQnlEWvPWAACvQWxleGV5IFN0ZXBhbm92pPCfmI0D
 2017-10-29-wilted-littoral:
   title: Wilted Littoral
