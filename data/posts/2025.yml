@@ -302,28 +302,55 @@
       id: DFiitdtslUk
       mediaId: '17868184683299400'
       published: 2025-02-01-18-09-17
-      updated: 2025-02-04-18-10-25
+      updated: 2025-02-05-18-10-35
       followers: 1535
-      likes: 112
-      views: 391
+      likes: 114
+      views: 417
       comments: !c |-
         Cx+AkZPLQnlMS5VaAACtbGVubnlnb2xkZnVua9kkSSB3YW50IHRvIGNhdGNoIG95c3RlciBhbmQg
         Y3JhYiBoZXJlAw==
     - service: vk
       id: 2105
       published: 2025-02-01-18-09-25
-      updated: 2025-02-04-18-10-25
+      updated: 2025-02-05-18-10-36
       followers: 1059
-      likes: 31
-      views: 241
+      likes: 35
+      views: 286
       reposts: 3
     - service: tg
       id: 691
       published: 2025-02-01-18-09-32
-      updated: 2025-02-04-18-10-24
+      updated: 2025-02-05-18-10-35
       followers: 662
-      likes: 60
-      views: 232
+      likes: 63
+      views: 353
 2025-02-02-heran-ancestral-tomb: 2017-06-25-heran-ancestral-tomb
 2025-02-03-tree-stone: 2017-04-16-tree-stone
 2025-02-04-corpse-preparation-volume-one: 2017-07-13-corpse-preparation-volume-one
+2025-02-05-the-storm-is-passing:
+  title: The Storm is Passing
+  titleRu: Буря проходит
+  content: store:/shots/2025-02-05-the-storm-is-passing.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - cliffracer
+    - tree
+    - sky
+    - sun
+  mark: A2
+  posts:
+    - service: ig
+      id: DFs2F0zzJxc
+      mediaId: '17874312648182641'
+      published: 2025-02-05-18-11-01
+      followers: 1535
+    - service: vk
+      id: 2114
+      published: 2025-02-05-18-11-07
+      followers: 1060
+    - service: tg
+      id: 695
+      published: 2025-02-05-18-11-12
+      followers: 664

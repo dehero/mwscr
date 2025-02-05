@@ -4,27 +4,7 @@
 
 # Shortlist
 
-`2 items`
-
-## <span id="dehero.2025-01-19-18-38-35">The Storm is Passing</span>
-
-`RU` Буря проходит
-
-![store:/inbox/dehero.2025-01-19-18-38-35.1.png](../../assets/previews/inbox/dehero.2025-01-19-18-38-35.1.avif "dehero.2025-01-19-18-38-35.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2025-01-19-18-38-35.png](../../assets/previews/inbox/dehero.2025-01-19-18-38-35.avif "dehero.2025-01-19-18-38-35")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-01-19-18-38-35&amp;postContent=store%3A%2Finbox%2Fdehero.2025-01-19-18-38-35.1.png&amp;postTitle=The+Storm+is+Passing&amp;postTitleRu=%D0%91%D1%83%D1%80%D1%8F+%D0%BF%D1%80%D0%BE%D1%85%D0%BE%D0%B4%D0%B8%D1%82&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=cliffracer+tree+sky+sun&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-01-19-18-38-35.png&amp;postRequest=) [`Review`](https://github.com/dehero/mwscr/issues/new?labels=post-review&amp;template=post-review.yml&amp;title=dehero.2025-01-19-18-38-35&amp;postMark=&amp;postViolation=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-01-19-18-38-35&amp;mergeWithIds=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=dehero.2025-01-19-18-38-35&postLocation=)</code> `🚀 OpenMW` `cliffracer` `tree` `sky` `sun`
-
-```
-dehero.2025-01-19-18-38-35
-```
+`1 items`
 
 ## <span id="dehero.2020-05-19-night-guards">Night Watch</span>
 

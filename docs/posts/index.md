@@ -4,7 +4,30 @@
 
 # Posted in 2025
 
-`35 items`
+`36 items`
+
+## <span id="2025-02-05-the-storm-is-passing">The Storm is Passing</span>
+
+`RU` Буря проходит
+
+<a href="https://instagram.com/p/DFs2F0zzJxc/" title="2025-02-05-the-storm-is-passing"><img alt="store:/shots/2025-02-05-the-storm-is-passing.png" src="../../assets/previews/shots/2025-02-05-the-storm-is-passing.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-05-the-storm-is-passing&postLocation=)</code> `🚀 OpenMW` `cliffracer` `tree` `sky` `sun`
+
+```
+2025-02-05-the-storm-is-passing
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DFs2F0zzJxc/)       | 2025-02-05 |      1535 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2114) | 2025-02-05 |      1060 |
+| [`tg`](https://t.me/mwscr/695)                     | 2025-02-05 |       664 |
+|                                                    |            |      3259 |
 
 ## <span id="2025-02-04-corpse-preparation-volume-one">Corpse Preparation, Volume One</span>
 
@@ -28,10 +51,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWe7pOwj9Lf/)       | 2017-07-13 |       |    72 |       188 |   38.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_352)  | 2017-07-13 |   183 |    13 |        67 |   20.9 |
-| [`ig`](https://instagram.com/p/DFqRQNtS7PN/)       | 2025-02-04 |   246 |    86 |      1535 |    5.6 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2112) | 2025-02-04 |   120 |    13 |      1059 |   1.23 |
-| [`tg`](https://t.me/mwscr/694)                     | 2025-02-04 |   250 |    51 |       664 |   7.68 |
-|                                                    |            |   616 |   150 |      3258 |  14.74 |
+| [`ig`](https://instagram.com/p/DFqRQNtS7PN/)       | 2025-02-04 |   250 |    86 |      1535 |    5.6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2112) | 2025-02-04 |   124 |    14 |      1059 |   1.32 |
+| [`tg`](https://t.me/mwscr/694)                     | 2025-02-04 |   252 |    52 |       664 |   7.83 |
+|                                                    |            |   626 |   152 |      3258 |  14.79 |
 
 #### Comments
 
@@ -60,9 +83,9 @@
 | [`ig`](https://instagram.com/p/BS8Glo-D80J/)       | 2017-04-16 |       |    69 |       172 |  40.12 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_260)  | 2017-04-16 |   133 |     8 |        52 |  15.38 |
 | [`ig`](https://instagram.com/p/DFnseKAT28i/)       | 2025-02-03 |   286 |    88 |      1535 |   5.73 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2110) | 2025-02-03 |   247 |    38 |      1059 |   3.78 |
-| [`tg`](https://t.me/mwscr/693)                     | 2025-02-03 |   292 |    57 |       664 |   8.58 |
-|                                                    |            |   825 |   183 |      3258 |  14.72 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2110) | 2025-02-03 |   249 |    38 |      1059 |   3.78 |
+| [`tg`](https://t.me/mwscr/693)                     | 2025-02-03 |   294 |    58 |       664 |   8.73 |
+|                                                    |            |   829 |   184 |      3258 |  14.75 |
 
 #### Comments
 
@@ -119,10 +142,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFiitdtslUk/)       | 2025-02-01 |   391 |   112 |      1535 |    7.3 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2105) | 2025-02-01 |   241 |    31 |      1059 |   3.21 |
-| [`tg`](https://t.me/mwscr/691)                     | 2025-02-01 |   232 |    60 |       662 |   9.06 |
-|                                                    |            |   864 |   203 |      3256 |   6.52 |
+| [`ig`](https://instagram.com/p/DFiitdtslUk/)       | 2025-02-01 |   417 |   114 |      1535 |   7.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2105) | 2025-02-01 |   286 |    35 |      1059 |   3.59 |
+| [`tg`](https://t.me/mwscr/691)                     | 2025-02-01 |   353 |    63 |       662 |   9.52 |
+|                                                    |            |  1056 |   212 |      3256 |   6.84 |
 
 #### Comments
 
