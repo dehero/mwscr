@@ -4132,17 +4132,17 @@
       id: DFnseKAT28i
       mediaId: '18140510668337607'
       published: 2025-02-03-18-10-45
-      updated: 2025-02-05-16-09-12
+      updated: 2025-02-05-17-03-44
       followers: 1535
       likes: 88
       views: 286
     - service: vk
       id: 2110
       published: 2025-02-03-18-10-54
-      updated: 2025-02-05-16-09-11
+      updated: 2025-02-05-17-03-45
       followers: 1059
       likes: 38
-      views: 246
+      views: 247
       reposts: 2
       comments: !c |-
         G7kBYCyPdxkHmXhIoG6WXOXpbfw/co+W8KXUn/RjpVyT8kAGumTAkxFWzlV1M8Jf4hCu3xnp2dcm
@@ -4153,10 +4153,10 @@
     - service: tg
       id: 693
       published: 2025-02-03-18-11-03
-      updated: 2025-02-05-16-09-11
+      updated: 2025-02-05-17-03-44
       followers: 664
       likes: 57
-      views: 290
+      views: 292
 2017-04-17-lost-and-robbed:
   title: Lost and Robbed
   titleRu: Потерян и ограблен
@@ -6790,17 +6790,17 @@
       id: DFlHfSRzWCN
       mediaId: '17955260624870999'
       published: 2025-02-02-18-09-05
-      updated: 2025-02-04-17-02-14
+      updated: 2025-02-05-17-03-45
       followers: 1536
-      likes: 72
-      views: 233
+      likes: 73
+      views: 238
     - service: vk
       id: 2107
       published: 2025-02-02-18-09-12
-      updated: 2025-02-04-17-02-15
+      updated: 2025-02-05-17-03-47
       followers: 1060
-      likes: 38
-      views: 211
+      likes: 41
+      views: 244
       comments: !c |-
         GyIBMCwOeHPUIcRE+eFaNxlujf+nv9jOEr38g2ecYTMJFWFyLvy7rdCjVbpNum9D+cN5O3Vb7s8G
         Y9x2TE6OPERj1RtsXhQ661ZkeW5wOuCEDyDDgPOA44KjTmu0GxxEFBdJPdE8/v7842jfruv3ckKh
@@ -6809,10 +6809,10 @@
     - service: tg
       id: 692
       published: 2025-02-02-18-09-19
-      updated: 2025-02-04-17-02-15
+      updated: 2025-02-05-17-03-45
       followers: 662
-      likes: 55
-      views: 271
+      likes: 61
+      views: 375
 2017-06-26-floating-over-the-green-hills:
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами
@@ -7478,27 +7478,27 @@
       id: DFqRQNtS7PN
       mediaId: '18153897166344611'
       published: 2025-02-04-18-10-38
-      updated: 2025-02-05-16-09-10
+      updated: 2025-02-05-17-03-43
       followers: 1535
-      likes: 83
-      views: 241
+      likes: 86
+      views: 246
       comments: !c |-
         ixqAkZPLQnlNLcDEAACrZGVsYW5vc3BpZXO+QGRyYXZlbmp2IGlzbnQgdGhpcyB5b3VyIGRlc2s/
         Aw==
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
-      updated: 2025-02-05-16-09-10
+      updated: 2025-02-05-17-03-43
       followers: 1059
       likes: 13
-      views: 119
+      views: 120
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
-      updated: 2025-02-05-16-09-10
+      updated: 2025-02-05-17-03-44
       followers: 664
-      likes: 50
-      views: 248
+      likes: 51
+      views: 250
 2017-07-14-near-the-night-campfire:
   title: Near the Night Campfire
   titleRu: Возле ночного костра
@@ -12322,7 +12322,7 @@
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
-      updated: 2025-01-29-16-09-31
+      updated: 2025-02-05-17-03-49
       followers: 909
       likes: 40
       views: 304
