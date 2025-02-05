@@ -97,7 +97,7 @@ export async function renderDocs() {
 async function renderPosts() {
   await createEmptyDir(POSTS_DOCS_PATH);
 
-  const years = await posts.getChunkNames();
+  const years = [...(await posts.getAllChunkNames())];
   const docs: PostEntriesDoc[] = [
     {
       title: 'Top Rated',
@@ -141,7 +141,7 @@ async function renderPosts() {
 async function renderInbox() {
   await createEmptyDir(INBOX_DOCS_PATH);
 
-  const years = await inbox.getChunkNames();
+  const years = [...(await inbox.getAllChunkNames())];
 
   const docs: PostEntriesDoc[] = [
     {
@@ -195,7 +195,7 @@ async function renderInbox() {
 async function renderTrash() {
   await createEmptyDir(TRASH_DOCS_PATH);
 
-  const years = await trash.getChunkNames();
+  const years = [...(await trash.getAllChunkNames())];
   const docs: PostEntriesDoc[] = [
     {
       title: 'Revisit',

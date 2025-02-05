@@ -22,12 +22,12 @@ export type ListReaderItemStatus = InferOutput<typeof ListReaderItemStatus>;
 export abstract class ListReader<TItem> {
   abstract readonly name: string;
 
-  protected savedChunkNames: string[] | undefined;
+  protected savedChunkNames: Promise<Set<string>> | undefined;
   protected chunks: Map<string, Promise<ListReaderChunk<TItem>>> = new Map();
 
   protected cache: Record<string, unknown> = {};
 
-  protected createChunk(data: ListReaderChunk<TItem>): ListReaderChunk<TItem> {
+  protected createChunk(_chunkName: string, data: ListReaderChunk<TItem>): ListReaderChunk<TItem> {
     return data;
   }
 
@@ -46,19 +46,23 @@ export abstract class ListReader<TItem> {
    * Returns a list of all chunk names used in the list, including the initial
    * chunks loaded from `loadChunkNames` and any chunks added later.
    */
-  async getChunkNames(): Promise<string[]> {
+  async getAllChunkNames(): Promise<Set<string>> {
+    return this.getSavedChunkNames();
+  }
+
+  async getSavedChunkNames(): Promise<Set<string>> {
     if (!this.savedChunkNames) {
-      this.savedChunkNames = await this.loadChunkNames();
+      this.savedChunkNames = (async () => new Set(await this.loadChunkNames()))();
     }
 
-    return [...new Set([...this.savedChunkNames, ...this.chunks.keys()])];
+    return this.savedChunkNames;
   }
 
   /**
    * Returns the total number of items in the list across all chunks.
    */
   async getItemCount(): Promise<number> {
-    const chunkNames = await this.getChunkNames();
+    const chunkNames = await this.getAllChunkNames();
     let count = 0;
 
     for (const chunkName of chunkNames) {
@@ -108,7 +112,9 @@ export abstract class ListReader<TItem> {
    */
   async getEntry(id: string): Promise<ListReaderEntry<TItem | undefined>> {
     const chunkName = this.getItemChunkName(id);
-    if (!(await this.getChunkNames()).includes(chunkName)) {
+    const allChunkNames = await this.getAllChunkNames();
+
+    if (!allChunkNames.has(chunkName)) {
       return [id, undefined];
     }
 
@@ -163,9 +169,19 @@ export abstract class ListReader<TItem> {
     if (!chunk) {
       chunk = (async () => {
         try {
-          const data = await this.loadChunkData(chunkName);
+          const savedChunkNames = await this.getSavedChunkNames();
+          const allChunkNames = await this.getAllChunkNames();
+          let data;
 
-          return this.createChunk(data);
+          if (savedChunkNames.has(chunkName)) {
+            data = await this.loadChunkData(chunkName);
+          } else if (allChunkNames.has(chunkName)) {
+            data = {};
+          } else {
+            throw new Error(`Chunk "${chunkName}" not found`);
+          }
+
+          return this.createChunk(chunkName, data);
         } catch (error) {
           throw new TypeError(
             `Cannot load ${this.name} chunk "${chunkName}" data: ${error instanceof Error ? error.message : error}`,
@@ -204,7 +220,7 @@ export abstract class ListReader<TItem> {
    * iterating over all entries in the list.
    */
   protected async *yieldAllEntries(skipReferences?: boolean): AsyncGenerator<ListReaderEntry<TItem>> {
-    const chunkNames = await this.getChunkNames();
+    const chunkNames = await this.getAllChunkNames();
 
     for (const chunkName of chunkNames) {
       yield* this.yieldChunkEntries(chunkName, skipReferences);
@@ -222,7 +238,8 @@ export abstract class ListReader<TItem> {
   ): AsyncGenerator<ListReaderEntry<TItem>> {
     const chunk = await this.loadChunk(chunkName);
 
-    for (const [key, value] of Object.entries(chunk)) {
+    for (const key of Object.getOwnPropertyNames(chunk)) {
+      const value = chunk[key] as TItem | string;
       if (typeof value === 'string') {
         if (!skipReferences) {
           const item = await this.getItem(value);
@@ -251,7 +268,7 @@ export class ListManagerChunkProxy<TItem extends object> extends DeepProxy<ListR
    * Creates a proxy for the given chunk data that will apply the patches in the given manager to the data.
    * If the manager's `skipProxy` property is true, the proxy will not be used.
    */
-  constructor(manager: ListManager<TItem>, data: ListReaderChunk<TItem>) {
+  constructor(manager: ListManager<TItem>, chunkName: string, data: ListReaderChunk<TItem>) {
     super(data, {
       /**
        * Traps the [[Get]] operation on the proxy and applies the patches in the given manager to the value being retrieved.
@@ -264,7 +281,7 @@ export class ListManagerChunkProxy<TItem extends object> extends DeepProxy<ListR
         if (key === 'toJSON') {
           return () => {
             const value = structuredClone(target);
-            const patchValue = getObjectValue(manager.patch, this.path);
+            const patchValue = getObjectValue(manager.getChunkPatch(chunkName), this.path);
 
             if ((isPlainObject(value) || Array.isArray(value)) && isPlainObject(patchValue)) {
               patchObject(value, patchValue as Patch<typeof value>);
@@ -279,7 +296,7 @@ export class ListManagerChunkProxy<TItem extends object> extends DeepProxy<ListR
           return value;
         }
 
-        const patchValue = getObjectValue(manager.patch, [...this.path, key.toString()]);
+        const patchValue = getObjectValue(manager.getChunkPatch(chunkName), [...this.path, key.toString()]);
         if (patchValue === null) {
           return undefined;
         }
@@ -315,7 +332,7 @@ export class ListManagerChunkProxy<TItem extends object> extends DeepProxy<ListR
       },
       ownKeys(target) {
         const result = Reflect.ownKeys(target);
-        const patchValue = getObjectValue(manager.patch, this.path);
+        const patchValue = getObjectValue(manager.getChunkPatch(chunkName), this.path);
 
         if (isPlainObject(patchValue)) {
           const newKeys = Object.entries(patchValue)
@@ -324,7 +341,7 @@ export class ListManagerChunkProxy<TItem extends object> extends DeepProxy<ListR
 
           // TODO: Array.isArray(patchValue)
           return [
-            ...new Set(result.filter((key) => typeof key === 'string' && patchValue[key] !== null).concat(newKeys)),
+            ...new Set([...result.filter((key) => typeof key === 'string' && patchValue[key] !== null), ...newKeys]),
           ];
         }
 
@@ -340,8 +357,23 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
   skipProxy = false;
   patch: ListManagerPatch<TItem> | undefined;
 
-  protected createChunk(data: ListReaderChunk<TItem>): ListReaderChunk<TItem> {
-    return new ListManagerChunkProxy(this, data);
+  protected createChunk(chunkName: string, data: ListReaderChunk<TItem>): ListReaderChunk<TItem> {
+    return new ListManagerChunkProxy(this, chunkName, data);
+  }
+
+  async getAllChunkNames(): Promise<Set<string>> {
+    const savedChunkNames = await this.getSavedChunkNames();
+    const patchChunkNames = this.getPatchChunkNames();
+
+    return new Set([...savedChunkNames, ...patchChunkNames]);
+  }
+
+  getPatchChunkNames(): ReadonlyArray<string> {
+    if (!this.patch) {
+      return [];
+    }
+
+    return [...new Set([...Object.keys(this.patch).map((id) => this.getItemChunkName(id))])];
   }
 
   /**
@@ -421,11 +453,7 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
    * If a chunk exists, it will be overwritten.
    */
   async save() {
-    if (!this.patch) {
-      return;
-    }
-
-    const patchChunkNames = Object.keys(this.patch).map((id) => this.getItemChunkName(id));
+    const patchChunkNames = this.getPatchChunkNames();
 
     for (const chunkName of patchChunkNames) {
       await this.saveChunk(chunkName);
@@ -444,13 +472,17 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
 
   protected async saveChunk(chunkName: string): Promise<void> {
     const data = await this.loadChunk(chunkName);
+    const savedChunkNames = await this.getSavedChunkNames();
 
     // Don't use Object.keys, need to properly implement getOwnPropertyDescriptor for it:
     // https://stackoverflow.com/questions/40352613/why-does-object-keys-and-object-getownpropertynames-produce-different-output
     // https://stackoverflow.com/questions/75148897/get-on-proxy-property-items-is-a-read-only-and-non-configurable-data-proper
     if (Object.getOwnPropertyNames(data).length === 0) {
+      savedChunkNames.delete(chunkName);
       return this.removeChunkData(chunkName);
     }
+
+    savedChunkNames.add(chunkName);
     return this.saveChunkData(chunkName, data);
   }
 
@@ -486,11 +518,6 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
    */
   mergePatch(patch: ListManagerPatch<TItem>) {
     for (const [id, itemPatch] of Object.entries(patch)) {
-      const chunkName = this.getItemChunkName(id);
-      if (!this.chunks.has(chunkName)) {
-        this.chunks.set(chunkName, (async () => this.createChunk({}))());
-      }
-
       const item = this.patch?.[id];
       if (item && isObject(item) && isObject(itemPatch)) {
         mergeObjects(item, itemPatch);
@@ -533,10 +560,9 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     }
 
     for (const [chunkName, patch] of Object.entries(patchChunks)) {
-      const chunk = await this.chunks.get(chunkName);
-      if (chunk) {
-        patchObject(chunk, patch as Patch<ListReaderChunk<TItem>>);
-      }
+      const chunk = await this.loadChunk(chunkName);
+
+      patchObject(chunk, patch as Patch<ListReaderChunk<TItem>>);
     }
 
     this.skipProxy = false;
@@ -556,6 +582,16 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
    */
   resetItemPatch(id: string) {
     this.mergePatch({ [id]: undefined });
+  }
+
+  getChunkPatch(chunkName: string): ListManagerPatch<TItem> | undefined {
+    if (!this.patch) {
+      return;
+    }
+
+    const entries = Object.entries(this.patch).filter(([id]) => this.getItemChunkName(id) === chunkName);
+
+    return entries.length > 0 ? Object.fromEntries(entries) : undefined;
   }
 
   /**

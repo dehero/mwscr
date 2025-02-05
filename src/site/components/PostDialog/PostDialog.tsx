@@ -106,14 +106,18 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
 
   const [postEntry] = createResource(
     () => (props.show && props.id ? props.id : undefined),
-    (id) => structuredClone(manager()?.getEntry(id)),
+    (id) => manager()?.getEntry(id),
   );
+
   const [patch, setPatch] = createSignal<Patch<Post>>({});
   const post = createMemo(() => {
-    const post = postEntry()?.[1];
-    if (!post) {
-      return undefined;
+    const post: Post = { type: 'shot' };
+    const existingPost = postEntry()?.[1];
+
+    if (existingPost) {
+      patchObject(post, existingPost);
     }
+
     patchObject(post, patch());
 
     return post;
@@ -160,7 +164,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
             href = createEditIssueUrl(targetId, post()!);
             break;
           case 'locate':
-            href = createLocateIssueUrl(targetId, post()?.location);
+            href = createLocateIssueUrl(targetId, post().location);
             break;
           case 'review':
             href = createReviewIssueUrl(targetId, post()!);
@@ -180,7 +184,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
             body = JSON.stringify(patch(), null, 2);
             break;
           case 'locate':
-            body = asArray(post()?.location).join('\n');
+            body = asArray(post().location).join('\n');
             break;
           default:
         }
@@ -204,7 +208,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   const setPostContentAndTrash = (content: PostContent | undefined, trash: PostContent | undefined) =>
     setPatch({ ...patch(), content, trash });
   const setPostRequest = (request: Partial<PostRequest>) => {
-    const oldRequest = post()?.request;
+    const oldRequest = post().request;
     const user = 'user' in request ? request.user : oldRequest?.user;
     const date = ('date' in request ? request.date : oldRequest?.date) || new Date();
     const text = ('text' in request ? request.text : oldRequest?.text) || '';
@@ -213,7 +217,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   };
 
   const setPostAuthor = (index: number, author: string | undefined) => {
-    const authors = asArray(post()?.author);
+    const authors = asArray(post().author);
     if (author) {
       if (index < authors.length) {
         authors[index] = author;
@@ -227,7 +231,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   };
 
   const setPostLocation = (index: number, location: string | undefined) => {
-    const locations = asArray(post()?.location);
+    const locations = asArray(post().location);
     if (location) {
       if (index < locations.length) {
         locations[index] = location;
@@ -295,8 +299,8 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
         <form id={form} class={clsx(styles.form, preset().useColumnLayout && styles.useColumnLayout)}>
           <Show when={preset().fields.includes('content') || preset().fields.includes('trash')}>
             <PostContentEditor
-              content={post()?.content ?? undefined}
-              trash={post()?.trash ?? undefined}
+              content={post().content ?? undefined}
+              trash={post().trash ?? undefined}
               onChange={setPostContentAndTrash}
             />
           </Show>
@@ -307,7 +311,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                 <Label label="Title and Description" vertical>
                   <Input
                     name="title"
-                    value={post()?.title ?? undefined}
+                    value={post().title ?? undefined}
                     onChange={(value) => setPatchField('title', value)}
                   />
                 </Label>
@@ -316,7 +320,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
               <Show when={preset().fields.includes('description')}>
                 <Input
                   name="description"
-                  value={post()?.description ?? undefined}
+                  value={post().description ?? undefined}
                   onChange={(value) => setPatchField('description', value)}
                   multiline
                   rows={5}
@@ -332,7 +336,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                 <Label label="Title and Description on Russian" vertical>
                   <Input
                     name="titleRu"
-                    value={post()?.titleRu ?? undefined}
+                    value={post().titleRu ?? undefined}
                     onChange={(value) => setPatchField('titleRu', value)}
                   />
                 </Label>
@@ -341,7 +345,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
               <Show when={preset().fields.includes('descriptionRu')}>
                 <Input
                   name="descriptionRu"
-                  value={post()?.descriptionRu ?? undefined}
+                  value={post().descriptionRu ?? undefined}
                   onChange={(value) => setPatchField('descriptionRu', value)}
                   multiline
                   rows={5}
@@ -354,7 +358,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           <Show when={preset().fields.includes('location')}>
             <Label label="Location" class={styles.location} vertical>
               <fieldset class={clsx(styles.fieldset, styles.locations)}>
-                <For each={asArray(post()?.location)}>
+                <For each={asArray(post().location)}>
                   {(location, index) => (
                     <div class={styles.selectWrapper}>
                       <Select
@@ -372,7 +376,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                     options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
                     name="location"
                     value={undefined}
-                    onChange={(location) => setPostLocation(asArray(post()?.location).length, location)}
+                    onChange={(location) => setPostLocation(asArray(post().location).length, location)}
                     class={styles.select}
                   />
                 </div>
@@ -386,7 +390,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                 <Select
                   name="type"
                   options={PostType.options.map((value) => ({ label: postTypeDescriptors[value].title, value }))}
-                  value={post()?.type}
+                  value={post().type}
                   onChange={(value) => setPatchField('type', value)}
                   class={styles.select}
                 />
@@ -408,7 +412,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                     <Select
                       name="engine"
                       options={[EMPTY_OPTION, ...PostEngine.options.map((value) => ({ value }))]}
-                      value={post()?.engine}
+                      value={post().engine}
                       onChange={(value) => setPatchField('engine', value)}
                       class={styles.select}
                     />
@@ -422,7 +426,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                     <Select
                       name="addon"
                       options={[EMPTY_OPTION, ...PostAddon.options.map((value) => ({ value }))]}
-                      value={post()?.addon ?? undefined}
+                      value={post().addon ?? undefined}
                       onChange={(value) => setPatchField('addon', value)}
                       class={styles.select}
                     />
@@ -434,7 +438,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                 <Label label="Tags" vertical class={styles.tags}>
                   <Input
                     name="tags"
-                    value={asArray(post()?.tags).join(' ')}
+                    value={asArray(post().tags).join(' ')}
                     onChange={(value) => setPatchField('tags', mergePostTags(value.split(' ')))}
                   />
                 </Label>
@@ -445,7 +449,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           <Show when={preset().fields.includes('author')}>
             <Label label="Author" vertical class={styles.author}>
               <fieldset class={clsx(styles.fieldset, styles.authors)}>
-                <For each={asArray(post()?.author)}>
+                <For each={asArray(post().author)}>
                   {(author, index) => (
                     <div class={styles.selectWrapper}>
                       <Select
@@ -463,7 +467,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                     options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...(userOptions() ?? [])]}
                     name="author"
                     value={undefined}
-                    onChange={(author) => setPostAuthor(asArray(post()?.author).length, author)}
+                    onChange={(author) => setPostAuthor(asArray(post().author).length, author)}
                     class={styles.select}
                   />
                 </div>
@@ -478,7 +482,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                   <Select
                     name="mark"
                     options={[EMPTY_OPTION, ...PostMark.options.map((value) => ({ value }))]}
-                    value={post()?.mark ?? undefined}
+                    value={post().mark ?? undefined}
                     onChange={(value) => setPatchField('mark', value)}
                     class={styles.select}
                   />
@@ -497,7 +501,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                           label: postViolationDescriptors[value].title,
                         })),
                       ]}
-                      value={post()?.violation ?? undefined}
+                      value={post().violation ?? undefined}
                       onChange={(value) => setPatchField('violation', value)}
                       class={styles.select}
                     />
@@ -514,16 +518,16 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                   <Select
                     options={[EMPTY_OPTION, ...(userOptions() ?? [])]}
                     name="request[user]"
-                    value={post()?.request?.user}
-                    onChange={(user) => setPostRequest({ ...post()?.request, user })}
+                    value={post().request?.user}
+                    onChange={(user) => setPostRequest({ ...post().request, user })}
                     class={styles.select}
                   />
                 </div>
 
-                <Show when={post()?.request?.user}>
+                <Show when={post().request?.user}>
                   <DatePicker
                     // TODO: implement name="request[date]"
-                    value={post()?.request?.date}
+                    value={post().request?.date}
                     period={false}
                     onChange={(date) => setPostRequest({ date })}
                     emptyLabel="Pick Request Date"
@@ -531,7 +535,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
 
                   <Input
                     name="request[text]"
-                    value={post()?.request?.text}
+                    value={post().request?.text}
                     onChange={(text) => setPostRequest({ text })}
                     multiline
                     rows={3}
