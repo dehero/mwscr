@@ -169,7 +169,7 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2025-01-29-21-02-04
+      updated: 2025-02-05-21-07-24
       followers: 337
       likes: 91
       views: 617
@@ -7478,27 +7478,27 @@
       id: DFqRQNtS7PN
       mediaId: '18153897166344611'
       published: 2025-02-04-18-10-38
-      updated: 2025-02-05-20-09-04
+      updated: 2025-02-05-21-07-19
       followers: 1535
-      likes: 88
-      views: 256
+      likes: 89
+      views: 262
       comments: !c |-
         ixqAkZPLQnlNLcDEAACrZGVsYW5vc3BpZXO+QGRyYXZlbmp2IGlzbnQgdGhpcyB5b3VyIGRlc2s/
         Aw==
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
-      updated: 2025-02-05-20-09-04
+      updated: 2025-02-05-21-07-20
       followers: 1059
       likes: 17
-      views: 135
+      views: 136
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
-      updated: 2025-02-05-20-09-04
+      updated: 2025-02-05-21-07-19
       followers: 664
-      likes: 54
-      views: 269
+      likes: 56
+      views: 275
 2017-07-14-near-the-night-campfire:
   title: Near the Night Campfire
   titleRu: Возле ночного костра
@@ -10841,7 +10841,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2025-01-29-21-02-06
+      updated: 2025-02-05-21-07-25
       followers: 904
       likes: 44
       views: 296
@@ -11881,7 +11881,7 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2025-01-29-21-02-09
+      updated: 2025-02-05-21-07-27
       followers: 895
       likes: 35
       views: 295
@@ -11889,7 +11889,7 @@
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2025-01-29-21-02-03
+      updated: 2025-02-05-21-07-23
       followers: 343
       likes: 69
       views: 535
