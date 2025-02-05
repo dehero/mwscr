@@ -160,7 +160,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2025-01-29-23-07-29
+      updated: 2025-02-05-23-07-51
       followers: 894
       likes: 47
       views: 367
@@ -7478,27 +7478,27 @@
       id: DFqRQNtS7PN
       mediaId: '18153897166344611'
       published: 2025-02-04-18-10-38
-      updated: 2025-02-05-22-01-29
+      updated: 2025-02-05-23-07-50
       followers: 1535
       likes: 89
-      views: 268
+      views: 269
       comments: !c |-
         ixqAkZPLQnlNLcDEAACrZGVsYW5vc3BpZXO+QGRyYXZlbmp2IGlzbnQgdGhpcyB5b3VyIGRlc2s/
         Aw==
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
-      updated: 2025-02-05-22-01-30
+      updated: 2025-02-05-23-07-48
       followers: 1059
       likes: 17
       views: 138
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
-      updated: 2025-02-05-22-01-30
+      updated: 2025-02-05-23-07-48
       followers: 664
       likes: 56
-      views: 279
+      views: 280
 2017-07-14-near-the-night-campfire:
   title: Near the Night Campfire
   titleRu: Возле ночного костра
@@ -9287,10 +9287,10 @@
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-01-29-23-07-28
+      updated: 2025-02-05-23-07-50
       followers: 1038
       likes: 39
-      views: 405
+      views: 410
       reposts: 1
       comments: !c |-
         G1IA+J0JdiwXiwm2XHYcUe1IT5+tDJsEI0z2PGWlNCWbjYcPp1yKLYw4kWMgAT5zZLJTE42yKmre
@@ -9298,10 +9298,10 @@
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-01-29-23-07-27
+      updated: 2025-02-05-23-07-50
       followers: 644
       likes: 67
-      views: 492
+      views: 504
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
