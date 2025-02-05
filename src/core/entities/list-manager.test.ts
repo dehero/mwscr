@@ -126,6 +126,13 @@ test('ListManager.addItem', async (t) => {
     assert.deepStrictEqual(manager.patch, { [addedId]: addedItem });
   });
 
+  await t.test('should increase item count after adding item', async () => {
+    const oldItemCount = await manager.getItemCount();
+    await manager.addItem(addedItem, addedId);
+
+    assert.strictEqual(await manager.getItemCount(), oldItemCount + 1);
+  });
+
   await t.test('should throw an error if the item ID already exists', async () => {
     const manager = new TestListManager();
     const [id, post] = test2024WallpaperSuran;
@@ -162,7 +169,7 @@ test('ListManager.addItem', async (t) => {
   await t.test('should create chunk name for added item', async () => {
     await manager.addItem(addedItem, addedId);
 
-    assert.deepStrictEqual(await manager.getChunkNames(), ['2024', '2025', '2016']);
+    assert.deepStrictEqual(await manager.getAllChunkNames(), new Set(['2024', '2025', '2016']));
   });
 });
 
@@ -187,6 +194,13 @@ test('ListManager.removeItem', async (t) => {
     assert.deepStrictEqual(manager.patch, { [removedId]: null });
   });
 
+  await t.test('should decrease item count after removing item', async () => {
+    const oldItemCount = await manager.getItemCount();
+    await manager.removeItem(removedId);
+
+    assert.strictEqual(await manager.getItemCount(), oldItemCount - 1);
+  });
+
   await t.test('should throw an error if removed item does not exist', async () => {
     const id = '2014-06-17-does-not-exist';
 
@@ -202,7 +216,7 @@ test('ListManager.removeItem', async (t) => {
   await t.test('should not remove chunk name for removed item when chunk becomes empty', async () => {
     await manager.removeItem(removedId);
 
-    assert.deepStrictEqual(await manager.getChunkNames(), ['2024', '2025']);
+    assert.deepStrictEqual(await manager.getAllChunkNames(), new Set(['2024', '2025']));
   });
 
   await t.test('should keep patch empty after item was added, then removed', async () => {
