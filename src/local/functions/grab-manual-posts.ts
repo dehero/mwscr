@@ -81,7 +81,7 @@ async function grabManualPublications(service: PostingServiceManager) {
 async function findLastPublishedPostEntry(
   filter: (post: Post) => boolean,
 ): Promise<PostEntry<PublishablePost> | undefined> {
-  const years = (await posts.getChunkNames()).reverse();
+  const years = [...(await posts.getAllChunkNames())].reverse();
 
   for (const year of years) {
     const postEntries = await posts.getChunkEntries(year);
