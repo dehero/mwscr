@@ -1240,7 +1240,7 @@
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2025-01-29-12-13-46
+      updated: 2025-02-05-12-14-38
       followers: 926
       likes: 28
       views: 282
@@ -1248,7 +1248,7 @@
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2025-01-29-12-13-44
+      updated: 2025-02-05-12-14-37
       followers: 502
       likes: 70
       views: 640
@@ -3056,7 +3056,7 @@
     - service: vk
       id: 1550
       published: 2024-05-28-18-19-10
-      updated: 2025-01-29-12-13-54
+      updated: 2025-02-05-12-14-46
       followers: 917
       likes: 25
       views: 290
@@ -3067,10 +3067,10 @@
     - service: tg
       id: 422
       published: 2024-05-28-18-19-16
-      updated: 2025-01-29-12-13-49
+      updated: 2025-02-05-12-14-44
       followers: 378
       likes: 64
-      views: 452
+      views: 454
 2018-03-25-ships:
   title: Ships
   titleRu: Корабли
@@ -4833,7 +4833,7 @@
     - service: vk
       id: 1628
       published: 2024-07-09-18-20-20
-      updated: 2025-01-29-12-13-50
+      updated: 2025-02-05-12-14-42
       followers: 920
       likes: 35
       views: 259
@@ -4841,10 +4841,10 @@
     - service: tg
       id: 464
       published: 2024-07-09-18-20-26
-      updated: 2025-01-29-12-13-46
+      updated: 2025-02-05-12-14-40
       followers: 396
       likes: 69
-      views: 473
+      views: 474
     - service: ig
       id: C9VfE-NtTXs
       mediaId: '18072831043475404'
@@ -5936,7 +5936,7 @@
     - service: vk
       id: 1611
       published: 2024-07-02-18-20-16
-      updated: 2025-01-29-12-13-51
+      updated: 2025-02-05-12-14-43
       followers: 918
       likes: 40
       views: 388
@@ -5948,10 +5948,10 @@
     - service: tg
       id: 457
       published: 2024-07-02-18-20-23
-      updated: 2025-01-29-12-13-47
+      updated: 2025-02-05-12-14-41
       followers: 391
       likes: 58
-      views: 444
+      views: 446
     - service: ig
       id: C9O19DjtjrY
       mediaId: '17907523406989990'

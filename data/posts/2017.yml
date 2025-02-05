@@ -631,7 +631,7 @@
     - service: vk
       id: 1699
       published: 2024-08-20-18-20-17
-      updated: 2025-01-29-12-13-44
+      updated: 2025-02-05-12-14-36
       followers: 936
       likes: 45
       views: 316
@@ -639,7 +639,7 @@
     - service: tg
       id: 507
       published: 2024-08-20-18-20-26
-      updated: 2025-01-29-12-13-43
+      updated: 2025-02-05-12-14-36
       followers: 534
       likes: 61
       views: 637
@@ -1344,7 +1344,7 @@
     - service: vk
       id: 1598
       published: 2024-06-25-18-21-05
-      updated: 2025-01-29-12-13-52
+      updated: 2025-02-05-12-14-44
       followers: 917
       likes: 44
       views: 324
@@ -1352,7 +1352,7 @@
     - service: tg
       id: 450
       published: 2024-06-25-18-21-11
-      updated: 2025-01-29-12-13-47
+      updated: 2025-02-05-12-14-42
       followers: 388
       likes: 64
       views: 584
@@ -4132,17 +4132,17 @@
       id: DFnseKAT28i
       mediaId: '18140510668337607'
       published: 2025-02-03-18-10-45
-      updated: 2025-02-05-11-01-24
+      updated: 2025-02-05-12-14-35
       followers: 1535
       likes: 88
       views: 280
     - service: vk
       id: 2110
       published: 2025-02-03-18-10-54
-      updated: 2025-02-05-11-01-22
+      updated: 2025-02-05-12-14-34
       followers: 1059
       likes: 36
-      views: 232
+      views: 237
       reposts: 2
       comments: !c |-
         G7kBYCyPdxkHmXhIoG6WXOXpbfw/co+W8KXUn/RjpVyT8kAGumTAkxFWzlV1M8Jf4hCu3xnp2dcm
@@ -4153,10 +4153,10 @@
     - service: tg
       id: 693
       published: 2025-02-03-18-11-03
-      updated: 2025-02-05-11-01-23
+      updated: 2025-02-05-12-14-35
       followers: 664
       likes: 57
-      views: 282
+      views: 284
 2017-04-17-lost-and-robbed:
   title: Lost and Robbed
   titleRu: Потерян и ограблен
@@ -5040,7 +5040,7 @@
     - service: vk
       id: 1639
       published: 2024-07-16-18-20-48
-      updated: 2025-01-29-12-13-49
+      updated: 2025-02-05-12-14-41
       followers: 919
       likes: 28
       views: 260
@@ -5048,7 +5048,7 @@
     - service: tg
       id: 471
       published: 2024-07-16-18-20-54
-      updated: 2025-01-29-12-13-45
+      updated: 2025-02-05-12-14-40
       followers: 400
       likes: 54
       views: 555
@@ -7478,27 +7478,27 @@
       id: DFqRQNtS7PN
       mediaId: '18153897166344611'
       published: 2025-02-04-18-10-38
-      updated: 2025-02-05-11-01-23
+      updated: 2025-02-05-12-14-34
       followers: 1535
-      likes: 76
-      views: 217
+      likes: 80
+      views: 222
       comments: !c |-
         ixqAkZPLQnlNLcDEAACrZGVsYW5vc3BpZXO+QGRyYXZlbmp2IGlzbnQgdGhpcyB5b3VyIGRlc2s/
         Aw==
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
-      updated: 2025-02-05-11-01-21
+      updated: 2025-02-05-12-14-33
       followers: 1059
-      likes: 10
-      views: 107
+      likes: 11
+      views: 111
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
-      updated: 2025-02-05-11-01-22
+      updated: 2025-02-05-12-14-33
       followers: 664
       likes: 49
-      views: 235
+      views: 238
 2017-07-14-near-the-night-campfire:
   title: Near the Night Campfire
   titleRu: Возле ночного костра
@@ -8969,17 +8969,17 @@
     - service: vk
       id: 1587
       published: 2024-06-18-18-20-59
-      updated: 2025-01-29-12-13-52
+      updated: 2025-02-05-12-14-45
       followers: 917
       likes: 37
       views: 273
     - service: tg
       id: 443
       published: 2024-06-18-18-21-06
-      updated: 2025-01-29-12-13-48
+      updated: 2025-02-05-12-14-43
       followers: 385
       likes: 56
-      views: 472
+      views: 473
 2017-08-26-raven-rock:
   title: Raven Rock
   titleRu: Воронья Скала
@@ -9621,14 +9621,14 @@
     - service: vk
       id: 1661
       published: 2024-07-30-18-20-32
-      updated: 2025-01-29-12-13-47
+      updated: 2025-02-05-12-14-39
       followers: 924
       likes: 32
       views: 253
     - service: tg
       id: 485
       published: 2024-07-30-18-20-38
-      updated: 2025-01-29-12-13-44
+      updated: 2025-02-05-12-14-38
       followers: 418
       likes: 52
       views: 657
