@@ -584,10 +584,10 @@
     - service: tg
       id: 380
       published: 2024-04-16-18-16-59
-      updated: 2025-01-29-15-07-59
+      updated: 2025-02-05-15-08-08
       followers: 353
       likes: 59
-      views: 456
+      views: 457
       comments: !c |-
         iymAkZTLQnjuiXXlAACqYWxleF9lbXNvd7pJIGp1c3QgaGF0ZSB0aGlzIHBsYWNl8J+YhZPLQnju
         iwdDAACpR2F0ZW1hdGU3rnRoaXMgaXMgYSBtb2Q/Aw==
@@ -851,7 +851,7 @@
     - service: vk
       id: 1747
       published: 2024-09-10-23-20-58
-      updated: 2025-01-29-15-07-55
+      updated: 2025-02-05-15-08-04
       followers: 945
       likes: 28
       views: 355
@@ -863,7 +863,7 @@
     - service: tg
       id: 528
       published: 2024-09-10-23-21-05
-      updated: 2025-01-29-15-07-55
+      updated: 2025-02-05-15-08-03
       followers: 554
       likes: 55
       views: 548
@@ -4140,17 +4140,17 @@
     - service: vk
       id: 1540
       published: 2024-05-21-18-18-53
-      updated: 2025-01-29-15-07-56
+      updated: 2025-02-05-15-08-05
       followers: 916
       likes: 26
       views: 297
     - service: tg
       id: 415
       published: 2024-05-21-18-18-59
-      updated: 2025-01-29-15-07-57
+      updated: 2025-02-05-15-08-05
       followers: 373
       likes: 57
-      views: 481
+      views: 482
 2018-04-22-evening-dwemer-architecture:
   title: Evening Dwemer Architecture
   titleRu: Вечерняя двемерская архитектура
