@@ -4,7 +4,33 @@
 
 # Posted in 2025
 
-`36 items`
+`37 items`
+
+## <span id="2025-02-06-night-watch">Night Watch</span>
+
+`RU` Ночной дозор
+
+<a href="https://instagram.com/p/DFva6jgtZhu/" title="2020-05-19-night-guard"><img alt="store:/shots/2020-05-19-night-guard.png" src="../../assets/previews/shots/2020-05-19-night-guard.avif" /></a>
+<a href="https://instagram.com/p/DFva6jgtZhu/" title="2018-03-24-two-legioners-talking"><img alt="store:/shots/2018-03-24-two-legioners-talking.png" src="../../assets/previews/shots/2018-03-24-two-legioners-talking.avif" /></a>
+<a href="https://instagram.com/p/DFva6jgtZhu/" title="2017-01-23-when-you-meet-yourself"><img alt="store:/shots/2017-01-23-when-you-meet-yourself.png" src="../../assets/previews/shots/2017-01-23-when-you-meet-yourself.avif" /></a>
+<a href="https://instagram.com/p/DFva6jgtZhu/" title="2017-02-07-night-patrol"><img alt="store:/shots/2017-02-07-night-patrol.png" src="../../assets/previews/shots/2017-02-07-night-patrol.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+`A1` `🚀 OpenMW` `guard` `night` `torch`
+
+```
+2025-02-06-night-watch
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |      1534 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2115) | 2025-02-06 |      1061 |
+| [`tg`](https://t.me/mwscr/696,697,698,699)         | 2025-02-06 |       664 |
+|                                                    |            |      3259 |
 
 ## <span id="2025-02-05-the-storm-is-passing">The Storm is Passing</span>
 
@@ -24,10 +50,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFs2F0zzJxc/)       | 2025-02-05 |   233 |    74 |      1535 |   4.82 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2114) | 2025-02-05 |   193 |    37 |      1060 |   3.77 |
-| [`tg`](https://t.me/mwscr/695)                     | 2025-02-05 |   184 |    48 |       664 |   7.23 |
-|                                                    |            |   610 |   159 |      3259 |   5.27 |
+| [`ig`](https://instagram.com/p/DFs2F0zzJxc/)       | 2025-02-05 |   239 |    75 |      1535 |   4.89 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2114) | 2025-02-05 |   195 |    37 |      1060 |   3.77 |
+| [`tg`](https://t.me/mwscr/695)                     | 2025-02-05 |   186 |    48 |       664 |   7.23 |
+|                                                    |            |   620 |   160 |      3259 |    5.3 |
 
 ## <span id="2025-02-04-corpse-preparation-volume-one">Corpse Preparation, Volume One</span>
 
@@ -51,10 +77,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWe7pOwj9Lf/)       | 2017-07-13 |       |    72 |       188 |   38.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_352)  | 2017-07-13 |   183 |    13 |        67 |   20.9 |
-| [`ig`](https://instagram.com/p/DFqRQNtS7PN/)       | 2025-02-04 |   314 |    96 |      1535 |   6.25 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2112) | 2025-02-04 |   162 |    19 |      1059 |   1.79 |
-| [`tg`](https://t.me/mwscr/694)                     | 2025-02-04 |   298 |    57 |       664 |   8.58 |
-|                                                    |            |   774 |   172 |      3258 |  15.17 |
+| [`ig`](https://instagram.com/p/DFqRQNtS7PN/)       | 2025-02-04 |   319 |    96 |      1535 |   6.25 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2112) | 2025-02-04 |   163 |    19 |      1059 |   1.79 |
+| [`tg`](https://t.me/mwscr/694)                     | 2025-02-04 |   300 |    57 |       664 |   8.58 |
+|                                                    |            |   782 |   172 |      3258 |  15.17 |
 
 #### Comments
 
@@ -116,10 +142,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BVwhJnrDLbo/)       | 2017-06-25 |       |    65 |       184 |  35.33 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_333)  | 2017-06-25 |    99 |     9 |        65 |  13.85 |
-| [`ig`](https://instagram.com/p/DFlHfSRzWCN/)       | 2025-02-02 |   238 |    73 |      1536 |   4.75 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2107) | 2025-02-02 |   244 |    41 |      1060 |   3.87 |
-| [`tg`](https://t.me/mwscr/692)                     | 2025-02-02 |   375 |    61 |       662 |   9.21 |
-|                                                    |            |   857 |   175 |      3258 |   13.4 |
+| [`ig`](https://instagram.com/p/DFlHfSRzWCN/)       | 2025-02-02 |   246 |    74 |      1536 |   4.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2107) | 2025-02-02 |   267 |    44 |      1060 |   4.15 |
+| [`tg`](https://t.me/mwscr/692)                     | 2025-02-02 |   416 |    63 |       662 |   9.52 |
+|                                                    |            |   929 |   181 |      3258 |  13.53 |
 
 #### Comments
 

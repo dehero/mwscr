@@ -2563,7 +2563,7 @@
     - service: vk
       id: 1541
       published: 2024-05-22-18-19-25
-      updated: 2025-01-30-17-04-06
+      updated: 2025-02-06-18-10-34
       followers: 917
       likes: 31
       views: 258
@@ -2574,7 +2574,7 @@
     - service: tg
       id: 416
       published: 2024-05-22-18-19-31
-      updated: 2025-01-30-17-04-07
+      updated: 2025-02-06-18-10-32
       followers: 375
       likes: 57
       views: 465
@@ -4803,7 +4803,7 @@
     - service: vk
       id: 1569
       published: 2024-06-05-18-19-31
-      updated: 2025-01-30-17-04-05
+      updated: 2025-02-06-18-10-32
       followers: 916
       likes: 45
       views: 328
@@ -4815,7 +4815,7 @@
     - service: tg
       id: 430
       published: 2024-06-05-18-19-36
-      updated: 2025-01-30-17-04-06
+      updated: 2025-02-06-18-10-31
       followers: 385
       likes: 70
       views: 539
@@ -5987,17 +5987,17 @@
     - service: vk
       id: 1612
       published: 2024-07-03-18-19-45
-      updated: 2025-01-30-17-04-02
+      updated: 2025-02-06-18-10-29
       followers: 917
       likes: 28
       views: 235
     - service: tg
       id: 458
       published: 2024-07-03-18-19-53
-      updated: 2025-01-30-17-04-03
+      updated: 2025-02-06-18-10-29
       followers: 391
       likes: 50
-      views: 453
+      views: 455
       comments: !c |-
         CyGAkZTLQnkHndcVAACrYm9icm92bmlrb3azUklQIEQuIEJyeWFudCAg8J+qppPLQnkHngW2gACp
         R2F0ZW1hdGU3oz8/PwM=
@@ -6630,10 +6630,10 @@
     - service: tg
       id: 487
       published: 2024-08-01-03-18-14
-      updated: 2025-01-30-17-04-02
+      updated: 2025-02-06-18-10-28
       followers: 423
       likes: 60
-      views: 777
+      views: 779
       comments: !c Cw6AkZPLQnkTOt+EgACscHVzdG90aXZldHJhpPCfmIID
     - service: vk
       id: 1663
@@ -6790,17 +6790,17 @@
       id: DFlHfSRzWCN
       mediaId: '17955260624870999'
       published: 2025-02-02-18-09-05
-      updated: 2025-02-05-17-03-45
+      updated: 2025-02-06-18-10-28
       followers: 1536
-      likes: 73
-      views: 238
+      likes: 74
+      views: 246
     - service: vk
       id: 2107
       published: 2025-02-02-18-09-12
-      updated: 2025-02-05-17-03-47
+      updated: 2025-02-06-18-10-28
       followers: 1060
-      likes: 41
-      views: 244
+      likes: 44
+      views: 267
       comments: !c |-
         GyIBMCwOeHPUIcRE+eFaNxlujf+nv9jOEr38g2ecYTMJFWFyLvy7rdCjVbpNum9D+cN5O3Vb7s8G
         Y9x2TE6OPERj1RtsXhQ661ZkeW5wOuCEDyDDgPOA44KjTmu0GxxEFBdJPdE8/v7842jfruv3ckKh
@@ -6809,10 +6809,10 @@
     - service: tg
       id: 692
       published: 2025-02-02-18-09-19
-      updated: 2025-02-05-17-03-45
+      updated: 2025-02-06-18-10-27
       followers: 662
-      likes: 61
-      views: 375
+      likes: 63
+      views: 416
 2017-06-26-floating-over-the-green-hills:
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами
@@ -7478,10 +7478,10 @@
       id: DFqRQNtS7PN
       mediaId: '18153897166344611'
       published: 2025-02-04-18-10-38
-      updated: 2025-02-06-17-01-13
+      updated: 2025-02-06-18-10-27
       followers: 1535
       likes: 96
-      views: 314
+      views: 319
       comments: !c |-
         G50AABSh0v//e/cIL32bgSybFNAfY1nD5qKo7Z2obQH9k0iaTk7PeNFIi9JjoHlbABBJ7VyfqK1r
         Sz2NZp9CUsXvb4ROvKAzpuXZiuBdc7zLhIKphqB4pj8hEeERKDsR7eWb1umcDEgafuvpRhjtfwuh
@@ -7489,17 +7489,17 @@
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
-      updated: 2025-02-06-17-01-13
+      updated: 2025-02-06-18-10-27
       followers: 1059
       likes: 19
-      views: 162
+      views: 163
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
-      updated: 2025-02-06-17-01-12
+      updated: 2025-02-06-18-10-26
       followers: 664
       likes: 57
-      views: 298
+      views: 300
 2017-07-14-near-the-night-campfire:
   title: Near the Night Campfire
   titleRu: Возле ночного костра
@@ -10551,14 +10551,14 @@
     - service: vk
       id: 1603
       published: 2024-06-26-18-19-40
-      updated: 2025-01-30-17-04-03
+      updated: 2025-02-06-18-10-30
       followers: 917
       likes: 42
       views: 264
     - service: tg
       id: 451
       published: 2024-06-26-18-19-49
-      updated: 2025-01-30-17-04-04
+      updated: 2025-02-06-18-10-30
       followers: 388
       likes: 56
       views: 486
