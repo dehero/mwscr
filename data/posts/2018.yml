@@ -362,7 +362,7 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2025-01-30-09-08-19
+      updated: 2025-02-06-09-08-30
       followers: 927
       likes: 47
       views: 330
@@ -370,7 +370,7 @@
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2025-01-30-09-08-17
+      updated: 2025-02-06-09-08-27
       followers: 504
       likes: 75
       views: 745
@@ -6935,17 +6935,17 @@
     - service: vk
       id: 1700
       published: 2024-08-21-18-19-57
-      updated: 2025-01-30-09-08-17
+      updated: 2025-02-06-09-08-28
       followers: 937
       likes: 41
       views: 296
     - service: tg
       id: 508
       published: 2024-08-21-18-20-03
-      updated: 2025-01-30-09-08-16
+      updated: 2025-02-06-09-08-26
       followers: 538
       likes: 60
-      views: 571
+      views: 572
 2018-07-08-statues-of-gods:
   title: Statues of Gods
   titleRu: Статуи богов
@@ -11049,7 +11049,7 @@
     - service: vk
       id: 1001
       published: 2018-10-24
-      updated: 2025-01-30-09-08-22
+      updated: 2025-02-06-09-08-33
       followers: 258
       likes: 48
       views: 1009
@@ -11085,7 +11085,7 @@
     - service: vk
       id: 1002
       published: 2018-10-25
-      updated: 2025-01-30-09-08-21
+      updated: 2025-02-06-09-08-32
       followers: 259
       likes: 39
       views: 667
@@ -11116,7 +11116,7 @@
     - service: vk
       id: 1003
       published: 2018-10-26
-      updated: 2025-01-30-09-08-21
+      updated: 2025-02-06-09-08-31
       followers: 258
       likes: 22
       views: 419
@@ -11149,7 +11149,7 @@
     - service: vk
       id: 1004
       published: 2018-10-27
-      updated: 2025-01-30-09-08-20
+      updated: 2025-02-06-09-08-31
       followers: 258
       likes: 35
       views: 588
