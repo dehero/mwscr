@@ -301,7 +301,10 @@ export class ListManagerChunkProxy<TItem extends object> extends DeepProxy<ListR
           return undefined;
         }
 
-        if (isPlainObject(value) || Array.isArray(value)) {
+        if (
+          (isPlainObject(patchValue) || typeof patchValue === 'undefined') &&
+          (isPlainObject(value) || Array.isArray(value))
+        ) {
           return this.nest(value);
         }
 

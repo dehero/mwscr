@@ -33,19 +33,19 @@ export function Patch<T extends object>(schema: ObjectSchema<T>) {
 }
 
 export function patchObject<T extends object>(target: T, patch: Patch<T>) {
-  for (const key in patch) {
-    const oldValue = target[key] as unknown;
-    const newValue = patch[key] as unknown;
+  for (const key of Object.getOwnPropertyNames(patch)) {
+    const oldValue = target[key as keyof T] as unknown;
+    const newValue = patch[key as keyof T] as unknown;
 
     if ((isPlainObject(oldValue) || Array.isArray(oldValue)) && isPlainObject(newValue)) {
       patchObject(oldValue, newValue);
     } else if (newValue === null) {
-      delete target[key];
+      delete target[key as keyof T];
     } else if (isPlainObject(newValue)) {
-      target[key] = {} as T[typeof key];
-      patchObject(target[key] as object, newValue);
+      target[key as keyof T] = {} as T[keyof T];
+      patchObject(target[key as keyof T] as object, newValue);
     } else {
-      target[key] = newValue as T[typeof key];
+      target[key as keyof T] = newValue as T[keyof T];
     }
   }
 }
