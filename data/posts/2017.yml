@@ -3807,18 +3807,18 @@
     - service: vk
       id: 1893
       published: 2024-11-13-18-10-28
-      updated: 2025-01-30-03-09-09
+      updated: 2025-02-06-03-11-53
       followers: 1006
       likes: 45
-      views: 349
+      views: 350
       reposts: 1
     - service: tg
       id: 594
       published: 2024-11-13-18-10-36
-      updated: 2025-01-30-03-09-08
+      updated: 2025-02-06-03-11-51
       followers: 567
       likes: 54
-      views: 484
+      views: 485
 2017-04-08-museum-centurion:
   title: Museum Centurion
   titleRu: Музейный центурион
@@ -7478,10 +7478,10 @@
       id: DFqRQNtS7PN
       mediaId: '18153897166344611'
       published: 2025-02-04-18-10-38
-      updated: 2025-02-06-02-08-40
+      updated: 2025-02-06-03-11-50
       followers: 1535
-      likes: 90
-      views: 279
+      likes: 91
+      views: 285
       comments: !c |-
         G3AAaOXgmk949NYgZUkPFJH8tgyaFvjaBjSx6ZxyooFxeRAGhm0nOWzAITWO44P8NF99+E7B7m8E
         uZhWqMVJkXpWcWXNXKut2K/BK+KyOeTM5MMsNQz+vY9wftHO0lyItNKCm0IbEPZk06CmSRIX8Dvs
@@ -7489,14 +7489,14 @@
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
-      updated: 2025-02-06-02-08-38
+      updated: 2025-02-06-03-11-50
       followers: 1059
       likes: 17
-      views: 138
+      views: 140
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
-      updated: 2025-02-06-02-08-38
+      updated: 2025-02-06-03-11-49
       followers: 664
       likes: 57
       views: 283
@@ -13399,17 +13399,17 @@
     - service: vk
       id: 1909
       published: 2024-11-20-18-10-51
-      updated: 2025-01-30-03-09-08
+      updated: 2025-02-06-03-11-52
       followers: 1007
       likes: 30
-      views: 276
+      views: 277
     - service: tg
       id: 601
       published: 2024-11-20-18-10-57
-      updated: 2025-01-30-03-09-07
+      updated: 2025-02-06-03-11-51
       followers: 574
       likes: 54
-      views: 475
+      views: 476
 2017-12-29-crab-creek:
   title: Crab Creek
   titleRu: Крабовый залив
