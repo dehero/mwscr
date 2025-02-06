@@ -4445,7 +4445,7 @@
     - service: tg
       id: 552
       published: 2024-10-02-18-10-41
-      updated: 2025-01-30-06-10-49
+      updated: 2025-02-06-06-11-42
       followers: 560
       likes: 66
       views: 519
@@ -11430,7 +11430,7 @@
     - service: vk
       id: 1025
       published: 2018-11-02
-      updated: 2025-01-30-06-10-53
+      updated: 2025-02-06-06-11-46
       followers: 279
       likes: 29
       views: 466
@@ -11482,7 +11482,7 @@
     - service: vk
       id: 1026
       published: 2018-11-04
-      updated: 2025-01-30-06-10-52
+      updated: 2025-02-06-06-11-45
       followers: 280
       likes: 29
       views: 443
@@ -11515,7 +11515,7 @@
     - service: vk
       id: 1027
       published: 2018-11-05
-      updated: 2025-01-30-06-10-51
+      updated: 2025-02-06-06-11-44
       followers: 282
       likes: 24
       views: 479
@@ -11555,7 +11555,7 @@
     - service: vk
       id: 1031
       published: 2018-11-06
-      updated: 2025-01-30-06-10-51
+      updated: 2025-02-06-06-11-43
       followers: 284
       likes: 25
       views: 496
@@ -11645,10 +11645,10 @@
     - service: vk
       id: 1850
       published: 2024-10-23-18-10-16
-      updated: 2025-01-30-06-10-48
+      updated: 2025-02-06-06-11-41
       followers: 994
       likes: 44
-      views: 344
+      views: 345
       reposts: 2
       comments: !c |-
         G/4AuJwHto3sPCaIX+5CstH4f56TjfDrzjaGDDthgBEm96luGmEJaIQvfDx9YUXYq9tKtrQJIr6a
@@ -11658,10 +11658,10 @@
     - service: tg
       id: 573
       published: 2024-10-23-18-10-22
-      updated: 2025-01-30-06-10-47
+      updated: 2025-02-06-06-11-39
       followers: 563
       likes: 68
-      views: 539
+      views: 540
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов
