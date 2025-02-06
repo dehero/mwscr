@@ -2751,18 +2751,18 @@
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-01-30-19-01-26
+      updated: 2025-02-06-19-01-39
       followers: 1053
-      likes: 49
-      views: 300
+      likes: 50
+      views: 312
       reposts: 1
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-01-30-19-01-25
+      updated: 2025-02-06-19-01-38
       followers: 655
-      likes: 69
-      views: 419
+      likes: 71
+      views: 449
       comments: !c |-
         Cx+AkZPLQnlHEE4ggACoQWVsbGFyaWHZKdCv0LrRliDQutC+0LvRjNC+0YDQuCwg0Y/QutCwINC6
         0YDQsNGB0LAhAw==
@@ -4132,17 +4132,17 @@
       id: DFnseKAT28i
       mediaId: '18140510668337607'
       published: 2025-02-03-18-10-45
-      updated: 2025-02-05-18-10-34
+      updated: 2025-02-06-19-01-34
       followers: 1535
-      likes: 88
-      views: 286
+      likes: 91
+      views: 299
     - service: vk
       id: 2110
       published: 2025-02-03-18-10-54
-      updated: 2025-02-05-18-10-35
+      updated: 2025-02-06-19-01-36
       followers: 1059
-      likes: 38
-      views: 249
+      likes: 39
+      views: 272
       reposts: 2
       comments: !c |-
         G7kBYCyPdxkHmXhIoG6WXOXpbfw/co+W8KXUn/RjpVyT8kAGumTAkxFWzlV1M8Jf4hCu3xnp2dcm
@@ -4153,10 +4153,10 @@
     - service: tg
       id: 693
       published: 2025-02-03-18-11-03
-      updated: 2025-02-05-18-10-34
+      updated: 2025-02-06-19-01-35
       followers: 664
-      likes: 58
-      views: 294
+      likes: 60
+      views: 327
 2017-04-17-lost-and-robbed:
   title: Lost and Robbed
   titleRu: Потерян и ограблен
@@ -6638,7 +6638,7 @@
     - service: vk
       id: 1663
       published: 2024-08-01-04-18-52
-      updated: 2025-01-30-19-01-28
+      updated: 2025-02-06-19-01-41
       followers: 924
       likes: 31
       views: 279
@@ -7152,7 +7152,7 @@
     - service: tg
       id: 352
       published: 2024-03-20-18-11-08
-      updated: 2025-01-30-19-01-28
+      updated: 2025-02-06-19-01-41
       followers: 352
       likes: 58
       views: 453
@@ -9281,10 +9281,10 @@
       id: DESuLyyPPAX
       mediaId: '17995420544733093'
       published: 2025-01-01-18-10-15
-      updated: 2025-01-30-19-01-25
+      updated: 2025-02-06-19-01-38
       followers: 1520
       likes: 128
-      views: 579
+      views: 583
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
@@ -10618,10 +10618,10 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-02-05-19-01-25
+      updated: 2025-02-06-19-01-37
       followers: 1534
-      likes: 101
-      views: 441
+      likes: 102
+      views: 449
       comments: !c |-
         G98AwJyHsbGs8SG7EA7eih9t0NTcPsW/vq2uizWxqIi/eCNyVBIhirW6bgOcXKaTIz2e/Bc6Ny/R
         ACAoFa7mn55oGpDWWluB5m0lEnMYXq43vB5iSe1Zi/XWnnHuAfDHCx3fnHTgG0RPc5v++Q5kTduC
@@ -10630,10 +10630,10 @@
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-02-05-19-01-25
+      updated: 2025-02-06-19-01-38
       followers: 1057
-      likes: 55
-      views: 298
+      likes: 56
+      views: 307
       reposts: 2
       comments: !c |-
         G1MCgKwOzFOmAyaDC3lcpr4TaSwTFXGwOKHXZirQjNMsCzhIJMJkTzSVbbHZjPZqyBaDhnTAyZh8
@@ -10645,10 +10645,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-02-05-19-01-24
+      updated: 2025-02-06-19-01-37
       followers: 662
       likes: 69
-      views: 396
+      views: 410
       comments: !c CxiAkZPLQnlMaCGzgACobW9uZ2xlcmm8ZGFtbiB0aG9zZSBjYW5kZXMgYXJlIHByZXR0eQM=
 2017-10-14-land-of-ruins:
   title: Land of Ruins
@@ -10986,7 +10986,7 @@
     - service: tg
       id: 337
       published: 2024-03-06-18-18-32
-      updated: 2025-01-30-19-01-28
+      updated: 2025-02-06-19-01-42
       followers: 343
       likes: 62
       views: 615

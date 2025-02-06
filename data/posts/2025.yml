@@ -302,28 +302,28 @@
       id: DFiitdtslUk
       mediaId: '17868184683299400'
       published: 2025-02-01-18-09-17
-      updated: 2025-02-05-18-10-35
+      updated: 2025-02-06-19-01-36
       followers: 1535
-      likes: 114
-      views: 417
+      likes: 115
+      views: 427
       comments: !c |-
         Cx+AkZPLQnlMS5VaAACtbGVubnlnb2xkZnVua9kkSSB3YW50IHRvIGNhdGNoIG95c3RlciBhbmQg
         Y3JhYiBoZXJlAw==
     - service: vk
       id: 2105
       published: 2025-02-01-18-09-25
-      updated: 2025-02-05-18-10-36
+      updated: 2025-02-06-19-01-37
       followers: 1059
-      likes: 35
-      views: 286
+      likes: 37
+      views: 299
       reposts: 3
     - service: tg
       id: 691
       published: 2025-02-01-18-09-32
-      updated: 2025-02-05-18-10-35
+      updated: 2025-02-06-19-01-36
       followers: 662
-      likes: 63
-      views: 353
+      likes: 64
+      views: 380
 2025-02-02-heran-ancestral-tomb: 2017-06-25-heran-ancestral-tomb
 2025-02-03-tree-stone: 2017-04-16-tree-stone
 2025-02-04-corpse-preparation-volume-one: 2017-07-13-corpse-preparation-volume-one
@@ -345,25 +345,25 @@
       id: DFs2F0zzJxc
       mediaId: '17874312648182641'
       published: 2025-02-05-18-11-01
-      updated: 2025-02-06-18-10-26
+      updated: 2025-02-06-19-01-34
       followers: 1535
       likes: 75
-      views: 239
+      views: 243
     - service: vk
       id: 2114
       published: 2025-02-05-18-11-07
-      updated: 2025-02-06-18-10-26
+      updated: 2025-02-06-19-01-35
       followers: 1060
       likes: 37
-      views: 195
+      views: 199
       reposts: 3
     - service: tg
       id: 695
       published: 2025-02-05-18-11-12
-      updated: 2025-02-06-18-10-26
+      updated: 2025-02-06-19-01-35
       followers: 664
-      likes: 48
-      views: 186
+      likes: 50
+      views: 207
 2025-02-06-night-watch:
   title: Night Watch
   titleRu: Ночной дозор
@@ -385,11 +385,17 @@
       id: DFva6jgtZhu
       mediaId: '17959942712749458'
       published: 2025-02-06-18-11-14
+      updated: 2025-02-06-19-01-33
       followers: 1534
+      likes: 20
+      views: 46
     - service: vk
       id: 2115
       published: 2025-02-06-18-11-33
+      updated: 2025-02-06-19-01-34
       followers: 1061
+      likes: 8
+      views: 41
     - service: tg
       id:
         - 696
@@ -397,4 +403,7 @@
         - 698
         - 699
       published: 2025-02-06-18-11-51
+      updated: 2025-02-06-19-01-34
       followers: 664
+      likes: 23
+      views: 66
