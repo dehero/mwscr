@@ -24,10 +24,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFs2F0zzJxc/)       | 2025-02-05 |   218 |    73 |      1535 |   4.76 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2114) | 2025-02-05 |   176 |    34 |      1060 |   3.49 |
-| [`tg`](https://t.me/mwscr/695)                     | 2025-02-05 |   180 |    47 |       664 |   7.08 |
-|                                                    |            |   574 |   154 |      3259 |   5.11 |
+| [`ig`](https://instagram.com/p/DFs2F0zzJxc/)       | 2025-02-05 |   224 |    74 |      1535 |   4.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2114) | 2025-02-05 |   184 |    36 |      1060 |   3.68 |
+| [`tg`](https://t.me/mwscr/695)                     | 2025-02-05 |   181 |    47 |       664 |   7.08 |
+|                                                    |            |   589 |   157 |      3259 |   5.19 |
 
 ## <span id="2025-02-04-corpse-preparation-volume-one">Corpse Preparation, Volume One</span>
 
@@ -51,15 +51,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BWe7pOwj9Lf/)       | 2017-07-13 |       |    72 |       188 |   38.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_352)  | 2017-07-13 |   183 |    13 |        67 |   20.9 |
-| [`ig`](https://instagram.com/p/DFqRQNtS7PN/)       | 2025-02-04 |   306 |    95 |      1535 |   6.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2112) | 2025-02-04 |   155 |    18 |      1059 |    1.7 |
-| [`tg`](https://t.me/mwscr/694)                     | 2025-02-04 |   294 |    57 |       664 |   8.58 |
-|                                                    |            |   755 |   170 |      3258 |  15.13 |
+| [`ig`](https://instagram.com/p/DFqRQNtS7PN/)       | 2025-02-04 |   310 |    96 |      1535 |   6.25 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2112) | 2025-02-04 |   157 |    18 |      1059 |    1.7 |
+| [`tg`](https://t.me/mwscr/694)                     | 2025-02-04 |   295 |    57 |       664 |   8.58 |
+|                                                    |            |   762 |   171 |      3258 |  15.15 |
 
 #### Comments
 
 - `ig` <ins title="2025-02-04-21-27-04">delanospies</ins> @dravenjv isnt this your desk?
   - <ins title="2025-02-06-00-36-14">dravenjv</ins> yeah mate but now I have 2 Spoons 🙌
+  - <ins title="2025-02-06-13-58-07">delanospies</ins> @dravenjv aaaayyy 🔥
 
 ## <span id="2025-02-03-tree-stone">Tree Stone</span>
 
