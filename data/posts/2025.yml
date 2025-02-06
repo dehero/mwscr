@@ -345,25 +345,25 @@
       id: DFs2F0zzJxc
       mediaId: '17874312648182641'
       published: 2025-02-05-18-11-01
-      updated: 2025-02-06-22-07-46
+      updated: 2025-02-06-23-08-06
       followers: 1535
       likes: 78
-      views: 247
+      views: 248
     - service: vk
       id: 2114
       published: 2025-02-05-18-11-07
-      updated: 2025-02-06-22-07-47
+      updated: 2025-02-06-23-08-06
       followers: 1060
       likes: 37
-      views: 204
+      views: 207
       reposts: 3
     - service: tg
       id: 695
       published: 2025-02-05-18-11-12
-      updated: 2025-02-06-22-07-47
+      updated: 2025-02-06-23-08-06
       followers: 664
       likes: 52
-      views: 220
+      views: 222
 2025-02-06-night-watch:
   title: Night Watch
   titleRu: Ночной дозор
@@ -385,18 +385,18 @@
       id: DFva6jgtZhu
       mediaId: '17959942712749458'
       published: 2025-02-06-18-11-14
-      updated: 2025-02-06-22-07-46
+      updated: 2025-02-06-23-08-06
       followers: 1534
-      likes: 51
-      views: 142
+      likes: 55
+      views: 159
     - service: vk
       id: 2115
       published: 2025-02-06-18-11-33
-      updated: 2025-02-06-22-07-46
+      updated: 2025-02-06-23-08-06
       followers: 1061
-      likes: 14
-      views: 88
-      reposts: 1
+      likes: 19
+      views: 100
+      reposts: 2
     - service: tg
       id:
         - 696
@@ -404,7 +404,7 @@
         - 698
         - 699
       published: 2025-02-06-18-11-51
-      updated: 2025-02-06-22-07-46
+      updated: 2025-02-06-23-08-06
       followers: 664
-      likes: 37
-      views: 106
+      likes: 38
+      views: 109
