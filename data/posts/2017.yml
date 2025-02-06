@@ -7478,10 +7478,10 @@
       id: DFqRQNtS7PN
       mediaId: '18153897166344611'
       published: 2025-02-04-18-10-38
-      updated: 2025-02-06-07-07-58
+      updated: 2025-02-06-08-10-48
       followers: 1535
       likes: 92
-      views: 290
+      views: 294
       comments: !c |-
         G3AAaOXgmk949NYgZUkPFJH8tgyaFvjaBjSx6ZxyooFxeRAGhm0nOWzAITWO44P8NF99+E7B7m8E
         uZhWqMVJkXpWcWXNXKut2K/BK+KyOeTM5MMsNQz+vY9wftHO0lyItNKCm0IbEPZk06CmSRIX8Dvs
@@ -7489,14 +7489,14 @@
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
-      updated: 2025-02-06-07-07-58
+      updated: 2025-02-06-08-10-48
       followers: 1059
       likes: 17
-      views: 144
+      views: 147
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
-      updated: 2025-02-06-07-07-57
+      updated: 2025-02-06-08-10-48
       followers: 664
       likes: 57
       views: 289
