@@ -27,10 +27,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |   183 |    66 |      1534 |    4.3 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2115) | 2025-02-06 |   107 |    21 |      1061 |   2.17 |
-| [`tg`](https://t.me/mwscr/696,697,698,699)         | 2025-02-06 |   112 |    39 |       664 |   5.87 |
-|                                                    |            |   402 |   126 |      3259 |   4.11 |
+| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |   197 |    70 |      1534 |   4.56 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2115) | 2025-02-06 |   114 |    23 |      1061 |   2.45 |
+| [`tg`](https://t.me/mwscr/696,697,698,699)         | 2025-02-06 |   116 |    41 |       664 |   6.17 |
+|                                                    |            |   427 |   134 |      3259 |    4.4 |
 
 ## <span id="2025-02-05-the-storm-is-passing">The Storm is Passing</span>
 
@@ -50,10 +50,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFs2F0zzJxc/)       | 2025-02-05 |   249 |    78 |      1535 |   5.08 |
+| [`ig`](https://instagram.com/p/DFs2F0zzJxc/)       | 2025-02-05 |   250 |    78 |      1535 |   5.08 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2114) | 2025-02-05 |   208 |    37 |      1060 |   3.77 |
-| [`tg`](https://t.me/mwscr/695)                     | 2025-02-05 |   223 |    52 |       664 |   7.83 |
-|                                                    |            |   680 |   167 |      3259 |   5.56 |
+| [`tg`](https://t.me/mwscr/695)                     | 2025-02-05 |   224 |    52 |       664 |   7.83 |
+|                                                    |            |   682 |   167 |      3259 |   5.56 |
 
 ## <span id="2025-02-04-corpse-preparation-volume-one">Corpse Preparation, Volume One</span>
 
