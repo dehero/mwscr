@@ -27,10 +27,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |   291 |   100 |      1534 |   6.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2115) | 2025-02-06 |   262 |    27 |      1061 |   2.83 |
-| [`tg`](https://t.me/mwscr/696,697,698,699)         | 2025-02-06 |   432 |    52 |       664 |   7.83 |
-|                                                    |            |   985 |   179 |      3259 |   5.73 |
+| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |   298 |   102 |      1534 |   6.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2115) | 2025-02-06 |   269 |    28 |      1061 |   2.92 |
+| [`tg`](https://t.me/mwscr/696,697,698,699)         | 2025-02-06 |   448 |    56 |       664 |   8.43 |
+|                                                    |            |  1015 |   186 |      3259 |      6 |
 
 ## <span id="2025-02-05-the-storm-is-passing">The Storm is Passing</span>
 
@@ -50,10 +50,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFs2F0zzJxc/)       | 2025-02-05 |   259 |    80 |      1535 |   5.21 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2114) | 2025-02-05 |   227 |    37 |      1060 |   3.77 |
-| [`tg`](https://t.me/mwscr/695)                     | 2025-02-05 |   241 |    54 |       664 |   8.13 |
-|                                                    |            |   727 |   171 |      3259 |   5.71 |
+| [`ig`](https://instagram.com/p/DFs2F0zzJxc/)       | 2025-02-05 |   261 |    80 |      1535 |   5.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2114) | 2025-02-05 |   229 |    37 |      1060 |   3.77 |
+| [`tg`](https://t.me/mwscr/695)                     | 2025-02-05 |   244 |    54 |       664 |   8.13 |
+|                                                    |            |   734 |   171 |      3259 |   5.71 |
 
 ## <span id="2025-02-04-corpse-preparation-volume-one">Corpse Preparation, Volume One</span>
 
