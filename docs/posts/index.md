@@ -27,10 +27,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |   159 |    55 |      1534 |   3.59 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2115) | 2025-02-06 |   100 |    19 |      1061 |   1.98 |
-| [`tg`](https://t.me/mwscr/696,697,698,699)         | 2025-02-06 |   109 |    38 |       664 |   5.72 |
-|                                                    |            |   368 |   112 |      3259 |   3.76 |
+| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |   183 |    66 |      1534 |    4.3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2115) | 2025-02-06 |   107 |    21 |      1061 |   2.17 |
+| [`tg`](https://t.me/mwscr/696,697,698,699)         | 2025-02-06 |   112 |    39 |       664 |   5.87 |
+|                                                    |            |   402 |   126 |      3259 |   4.11 |
 
 ## <span id="2025-02-05-the-storm-is-passing">The Storm is Passing</span>
 
@@ -50,10 +50,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFs2F0zzJxc/)       | 2025-02-05 |   248 |    78 |      1535 |   5.08 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2114) | 2025-02-05 |   207 |    37 |      1060 |   3.77 |
-| [`tg`](https://t.me/mwscr/695)                     | 2025-02-05 |   222 |    52 |       664 |   7.83 |
-|                                                    |            |   677 |   167 |      3259 |   5.56 |
+| [`ig`](https://instagram.com/p/DFs2F0zzJxc/)       | 2025-02-05 |   249 |    78 |      1535 |   5.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2114) | 2025-02-05 |   208 |    37 |      1060 |   3.77 |
+| [`tg`](https://t.me/mwscr/695)                     | 2025-02-05 |   223 |    52 |       664 |   7.83 |
+|                                                    |            |   680 |   167 |      3259 |   5.56 |
 
 ## <span id="2025-02-04-corpse-preparation-volume-one">Corpse Preparation, Volume One</span>
 
@@ -983,10 +983,10 @@
 | [`ig`](https://instagram.com/p/BnMZPStF4mh/)       | 2018-09-01 |       |   123 |       407 |  30.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_888)  | 2018-09-01 |   390 |    32 |       219 |  14.61 |
 | [`tg`](https://t.me/mwscr/4)                       | 2018-09-01 |   263 |     4 |           |        |
-| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   606 |   107 |      1525 |   7.02 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   365 |    58 |      1051 |    5.8 |
+| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   624 |   108 |      1525 |   7.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   371 |    58 |      1051 |    5.8 |
 | [`tg`](https://t.me/mwscr/658)                     | 2025-01-09 |   470 |    64 |       647 |   9.89 |
-|                                                    |            |  1441 |   229 |      3223 |  13.51 |
+|                                                    |            |  1465 |   230 |      3223 |  13.52 |
 
 #### Comments
 
