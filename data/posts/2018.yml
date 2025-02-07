@@ -1651,7 +1651,7 @@
     - service: vk
       id: 1573
       published: 2024-06-06-18-19-32
-      updated: 2025-01-31-19-01-23
+      updated: 2025-02-07-20-09-00
       followers: 916
       likes: 37
       views: 287
@@ -1659,7 +1659,7 @@
     - service: tg
       id: 431
       published: 2024-06-06-18-19-42
-      updated: 2025-01-31-19-01-20
+      updated: 2025-02-07-20-08-59
       followers: 384
       likes: 58
       views: 452
@@ -3434,7 +3434,7 @@
     - service: vk
       id: 1534
       published: 2024-05-16-18-18-18
-      updated: 2025-01-31-19-01-26
+      updated: 2025-02-07-20-09-03
       followers: 915
       likes: 41
       views: 324
@@ -3446,10 +3446,10 @@
     - service: tg
       id: 410
       published: 2024-05-16-18-18-25
-      updated: 2025-01-31-19-01-22
+      updated: 2025-02-07-20-09-02
       followers: 370
       likes: 58
-      views: 491
+      views: 492
       comments: !c |-
         iyuAkpPLQnj4TMeUAACpR2F0ZW1hdGU3tXRoZSBob29kIG9mIG1vcnJvd2luZJPLQnj4K14cgACr
         Ym9icm92bmlrb3a2R29vZCBldmVuaW5nLCBldmVyeW9uZQM=
@@ -4991,7 +4991,7 @@
     - service: vk
       id: 1543
       published: 2024-05-23-18-18-57
-      updated: 2025-01-31-19-01-25
+      updated: 2025-02-07-20-09-02
       followers: 917
       likes: 46
       views: 295
@@ -5002,7 +5002,7 @@
     - service: tg
       id: 417
       published: 2024-05-23-18-19-02
-      updated: 2025-01-31-19-01-22
+      updated: 2025-02-07-20-09-01
       followers: 376
       likes: 64
       views: 509
@@ -5161,7 +5161,7 @@
     - service: vk
       id: 1526
       published: 2024-05-09-18-18-25
-      updated: 2025-01-31-19-01-26
+      updated: 2025-02-07-20-09-04
       followers: 913
       likes: 39
       views: 278
@@ -5171,7 +5171,7 @@
     - service: tg
       id: 403
       published: 2024-05-09-18-18-32
-      updated: 2025-01-31-19-01-23
+      updated: 2025-02-07-20-09-03
       followers: 370
       likes: 61
       views: 463
@@ -7606,24 +7606,24 @@
       id: DFx_pEkJY6I
       mediaId: '18441845239072911'
       published: 2025-02-07-18-10-38
-      updated: 2025-02-07-19-01-16
+      updated: 2025-02-07-20-08-52
       followers: 1534
-      likes: 12
-      views: 24
+      likes: 27
+      views: 66
     - service: vk
       id: 2116
       published: 2025-02-07-18-10-45
-      updated: 2025-02-07-19-01-17
+      updated: 2025-02-07-20-08-52
       followers: 1062
-      likes: 5
-      views: 31
+      likes: 9
+      views: 49
     - service: tg
       id: 700
       published: 2025-02-07-18-10-54
-      updated: 2025-02-07-19-01-17
+      updated: 2025-02-07-20-08-53
       followers: 670
-      likes: 22
-      views: 66
+      likes: 27
+      views: 87
 2018-07-28-sulfur-forest:
   title: Sulfur Forest
   titleRu: Серный лес
@@ -12521,25 +12521,25 @@
       id: DE7_wC1PgTr
       mediaId: '18065439076892825'
       published: 2025-01-17-18-52-37
-      updated: 2025-01-31-20-08-22
+      updated: 2025-02-07-20-08-57
       followers: 1525
-      likes: 92
-      views: 377
+      likes: 93
+      views: 390
     - service: vk
       id: 2069
       published: 2025-01-17-18-52-43
-      updated: 2025-01-31-20-08-22
+      updated: 2025-02-07-20-08-58
       followers: 1053
-      likes: 35
-      views: 259
+      likes: 36
+      views: 270
       reposts: 1
     - service: tg
       id: 670
       published: 2025-01-17-18-52-49
-      updated: 2025-01-31-20-08-22
+      updated: 2025-02-07-20-08-57
       followers: 655
-      likes: 62
-      views: 406
+      likes: 63
+      views: 439
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели
