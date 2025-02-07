@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`37 items`
+`38 items`
+
+## <span id="2025-02-07-the-book-of-dawn-and-dusk">The Book of Dawn and Dusk</span>
+
+`RU` Книга рассвета и заката
+
+<a href="https://instagram.com/p/BlvxNcqFzw9/" title="2018-07-27-the-book-of-dawn-and-dusk"><img alt="store:/shots/2018-07-27-the-book-of-dawn-and-dusk.png" src="../../assets/previews/shots/2018-07-27-the-book-of-dawn-and-dusk.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-07-the-book-of-dawn-and-dusk&postLocation=)</code> `🚀 OpenMW` `book`
+
+```
+2025-02-07-the-book-of-dawn-and-dusk
+```
+
+> `2018-07-27-the-book-of-dawn-and-dusk`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BlvxNcqFzw9/)       | 2018-07-27 |       |   114 |       363 |   31.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_829)  | 2018-07-27 |   358 |    28 |       193 |  14.51 |
+| [`ig`](https://instagram.com/p/DFx_pEkJY6I/)       | 2025-02-07 |       |       |      1534 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2116) | 2025-02-07 |       |       |      1062 |        |
+| [`tg`](https://t.me/mwscr/700)                     | 2025-02-07 |       |       |       670 |        |
+|                                                    |            |       |       |      3266 |  22.96 |
 
 ## <span id="2025-02-06-night-watch">Night Watch</span>
 
@@ -27,10 +54,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |   312 |   106 |      1534 |   6.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2115) | 2025-02-06 |   277 |    29 |      1061 |   3.02 |
-| [`tg`](https://t.me/mwscr/696,697,698,699)         | 2025-02-06 |   503 |    56 |       664 |   8.43 |
-|                                                    |            |  1092 |   191 |      3259 |   6.12 |
+| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |   318 |   108 |      1534 |   7.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2115) | 2025-02-06 |   283 |    30 |      1061 |   3.11 |
+| [`tg`](https://t.me/mwscr/696,697,698,699)         | 2025-02-06 |   514 |    56 |       664 |   8.43 |
+|                                                    |            |  1115 |   194 |      3259 |   6.19 |
 
 ## <span id="2025-02-05-the-storm-is-passing">The Storm is Passing</span>
 
@@ -51,9 +78,9 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/DFs2F0zzJxc/)       | 2025-02-05 |   261 |    80 |      1535 |   5.21 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2114) | 2025-02-05 |   233 |    38 |      1060 |   3.87 |
-| [`tg`](https://t.me/mwscr/695)                     | 2025-02-05 |   251 |    54 |       664 |   8.13 |
-|                                                    |            |   745 |   172 |      3259 |   5.74 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2114) | 2025-02-05 |   235 |    38 |      1060 |   3.87 |
+| [`tg`](https://t.me/mwscr/695)                     | 2025-02-05 |   254 |    54 |       664 |   8.13 |
+|                                                    |            |   750 |   172 |      3259 |   5.74 |
 
 ## <span id="2025-02-04-corpse-preparation-volume-one">Corpse Preparation, Volume One</span>
 
