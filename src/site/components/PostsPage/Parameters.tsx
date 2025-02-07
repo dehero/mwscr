@@ -360,7 +360,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('status')}>
-                <Label label="Local Status" vertical>
+                <Label label="Unsaved Status" vertical>
                   <div class={styles.selectWrapper}>
                     <Select
                       name="status"

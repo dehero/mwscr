@@ -7,3 +7,9 @@ export interface EntitySelection<TItem, TParams> {
   params: TParams;
   totalCount: number;
 }
+
+export interface Action {
+  label: string;
+  url?: string;
+  onExecute?: () => void;
+}

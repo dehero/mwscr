@@ -472,8 +472,6 @@ export function mergePostWith(post: Post, withPost: Post) {
   post.mark = post.mark || withPost.mark;
   post.violation = post.violation || withPost.violation;
   post.posts = mergePublications(post.posts, withPost.posts);
-
-  return post;
 }
 
 export function mergeAuthors(author1: PostAuthor | undefined, author2?: PostAuthor | undefined) {

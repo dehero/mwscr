@@ -120,10 +120,10 @@ export class DataManager {
       if (!manager) {
         throw new Error(`Cannot find posts manager "${managerName}"`);
       }
-      const entries = await getPostEntriesFromSource(
-        () => manager.readAllEntries(false),
-        comparePostEntriesByDate('desc'),
-      );
+      const entries = [
+        ...(await getPostEntriesFromSource(() => manager.readAllEntries(false), comparePostEntriesByDate('desc'))),
+        ...(await manager.getRemovedEntries()),
+      ];
 
       return await Promise.all(entries.map((entry) => createPostInfo(entry, this.users, manager)));
     });

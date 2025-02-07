@@ -11,6 +11,7 @@ import type { PostAction } from '../../../core/entities/post-action.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
+import type { Action } from '../../../core/utils/common-types.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
@@ -21,13 +22,15 @@ import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.jsx';
 import { useToaster } from '../Toaster/Toaster.jsx';
-import type { TooltipAction, TooltipProps } from '../Tooltip/Tooltip.js';
+import type { TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './PostTooltip.module.css';
 
 interface PostTooltipProps extends Omit<TooltipProps, 'children' | 'actions'> {
   postInfo: PostInfo;
   showContent?: boolean;
+  selected?: boolean;
+  onSelectedChange?: (value: boolean) => void;
 }
 
 export const PostTooltip: Component<PostTooltipProps> = (props) => {
@@ -48,8 +51,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       'No',
     ]);
     if (result === 0) {
-      const targetId = local.postInfo.refId || local.postInfo.id;
-      dataManager.findPostsManager(local.postInfo.managerName)?.resetItemPatch(targetId);
+      dataManager.findPostsManager(local.postInfo.managerName)?.resetItemPatch(local.postInfo.id);
     }
   };
 
@@ -74,13 +76,10 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
             label: 'Review',
           }
         : undefined,
-      props.postInfo.status !== 'removed' && postActions().includes('merge')
+      props.postInfo.status !== 'removed' && postActions().includes('merge') && props.onSelectedChange
         ? {
-            url: createDetachedDialogFragment('post-merge', {
-              managerName: local.postInfo.managerName,
-              id: local.postInfo.id,
-            }),
-            label: 'Merge',
+            onExecute: () => props.onSelectedChange?.(!props.selected),
+            label: props.selected ? 'Unselect' : 'Select',
           }
         : undefined,
       props.postInfo.status !== 'removed' && postActions().includes('locate')
@@ -95,10 +94,10 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       props.postInfo.status
         ? {
             label: 'Reset',
-            onClick: handleReset,
+            onExecute: handleReset,
           }
         : undefined,
-    ].filter(Boolean) as TooltipAction[];
+    ].filter(Boolean) as Action[];
 
   return (
     <Tooltip actions={actions()} {...rest}>
@@ -232,7 +231,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
               <Icon color="attribute" size="small" variant="flat">
                 {capitalizeFirstLetter(status())[0]}
               </Icon>{' '}
-              {capitalizeFirstLetter(status())} Locally
+              {capitalizeFirstLetter(status())}
             </span>
           )}
         </Show>

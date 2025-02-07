@@ -290,7 +290,7 @@ export const PostPage = (): JSX.Element => {
                     <Icon color="attribute" size="small" variant="flat">
                       {capitalizeFirstLetter(status())[0]}
                     </Icon>{' '}
-                    {capitalizeFirstLetter(status())} Locally
+                    {capitalizeFirstLetter(status())}
                   </span>
                 )}
               </Show>
