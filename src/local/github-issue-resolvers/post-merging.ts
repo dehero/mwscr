@@ -1,8 +1,8 @@
 import { type GithubIssue } from '../../core/entities/github-issue.js';
 import { mergeWithIds } from '../../core/entities/github-issue-field.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
-import { mergePostWith } from '../../core/entities/post.js';
 import { label } from '../../core/github-issues/post-merging.js';
+import { listItems } from '../../core/utils/common-utils.js';
 import { inbox, trash } from '../data-managers/posts.js';
 import { extractIssueTextareaValue, extractIssueUser } from './utils/issue-utils.js';
 
@@ -15,23 +15,14 @@ export async function resolve(issue: GithubIssue) {
   }
 
   const id = issue.title;
-  const [post, manager] = await searchListReaderItem(issue.title, [inbox, trash]);
+  const [, manager] = await searchListReaderItem(issue.title, [inbox, trash]);
 
   const withIds = extractIssueTextareaValue(mergeWithIds, issue.body)?.split(/\r?\n/).filter(Boolean);
 
   if (withIds) {
-    for (const withId of withIds) {
-      const [withPost, withManager] = await searchListReaderItem(withId, [inbox, trash]);
-      if (manager !== withManager) {
-        throw new Error(`Cannot merge ${manager.name} and ${withManager.name} items.`);
-      } else {
-        mergePostWith(post, withPost);
-        await withManager.removeItem(withId);
-        await withManager.save();
-        console.info(`Item "${id}" merged with "${withId}".`);
-      }
-    }
+    await manager.mergeItems(id, ...withIds);
     await manager.save();
+    console.info(`Item "${id}" merged with ${listItems(withIds, true, 'and')}.`);
   } else {
     console.info(`No items to merge with "${id}".`);
   }

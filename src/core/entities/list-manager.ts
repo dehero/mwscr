@@ -337,12 +337,12 @@ export class ListManagerChunkProxy<TItem extends object> extends DeepProxy<ListR
         const result = Reflect.ownKeys(target);
         const patchValue = getObjectValue(manager.getChunkPatch(chunkName), this.path);
 
+        // TODO: check Array.isArray(patchValue)
         if (isPlainObject(patchValue)) {
           const newKeys = Object.entries(patchValue)
             .filter(([_, value]) => value !== null)
             .map(([key]) => key);
 
-          // TODO: Array.isArray(patchValue)
           return [
             ...new Set([...result.filter((key) => typeof key === 'string' && patchValue[key] !== null), ...newKeys]),
           ];
@@ -369,6 +369,18 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     const patchChunkNames = this.getPatchChunkNames();
 
     return new Set([...savedChunkNames, ...patchChunkNames]);
+  }
+
+  async getRemovedEntries(): Promise<ListReaderEntry<TItem>[]> {
+    if (!this.patch) {
+      return [];
+    }
+    const ids = Object.getOwnPropertyNames(this.patch).filter((id) => this.patch?.[id] === null);
+    this.skipProxy = true;
+    const result = await this.getEntries(ids);
+    this.skipProxy = false;
+
+    return result.filter((entry): entry is ListReaderEntry<TItem> => typeof entry[1] !== 'undefined');
   }
 
   getPatchChunkNames(): ReadonlyArray<string> {
@@ -414,6 +426,24 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     this.mergePatch({ [id]: parsedItem });
 
     return parsedItem;
+  }
+
+  async mergeItems(id: string, ...withIds: string[]): Promise<TItem> {
+    const item = await this.getItem(id);
+    if (!item) {
+      throw new Error(`Error merging "${id}": item was not found`);
+    }
+
+    for (const withId of withIds) {
+      const mergedItem = await this.getItem(withId);
+      if (!mergedItem) {
+        throw new Error(`Error merging "${id}": item "${withId}" was not found`);
+      }
+      this.mergeItemWith(item, mergedItem);
+      this.mergePatch({ [withId]: null });
+    }
+
+    return item;
   }
 
   async mergeItem(item: TItem): Promise<ListReaderEntry<TItem>> {
@@ -611,13 +641,11 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     const entry = await this.getEntry(id);
     this.skipProxy = false;
 
-    const targetId = entry[2] ?? id;
-
-    if (typeof this.patch?.[targetId] === 'undefined') {
+    if (typeof this.patch?.[id] === 'undefined') {
       return undefined;
     }
 
-    if (this.patch[targetId] === null) {
+    if (this.patch[id] === null) {
       return 'removed';
     }
 

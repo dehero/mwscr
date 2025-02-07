@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import { type Component, createSignal, For, Show } from 'solid-js';
+import { Dynamic } from 'solid-js/web';
 import { getPostTypeAspectRatio, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
@@ -22,6 +23,9 @@ export interface PostPreviewProps {
   class?: string;
   postInfo: PostInfo;
   maxHeightMultiplier?: number;
+  toggleSelectedOnClick?: boolean;
+  selected?: boolean;
+  onSelectedChange?: (value: boolean) => void;
 }
 
 export const PostPreview: Component<PostPreviewProps> = (props) => {
@@ -33,15 +37,17 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
   const url = () => postRoute.createUrl({ managerName: props.postInfo.managerName, id: props.postInfo.id });
   const aspectRatio = () => getPostTypeAspectRatio(props.postInfo.type);
   const alt = () => props.postInfo.tags?.join(' ');
-  const frameState = () => (props.postInfo.status ? 'unsaved' : undefined);
+  const frameState = () => (props.selected ? 'selected' : props.postInfo.status ? 'unsaved' : undefined);
 
   const [ref, setRef] = createSignal<HTMLElement>();
 
   return (
-    <a
+    <Dynamic
+      component={props.toggleSelectedOnClick ? 'div' : 'a'}
       class={clsx(styles.container, props.class, props.postInfo.status === 'removed' && styles.removed)}
       ref={setRef}
-      href={url()}
+      href={props.toggleSelectedOnClick ? undefined : url()}
+      onClick={props.toggleSelectedOnClick ? () => props.onSelectedChange?.(!props.selected) : undefined}
     >
       <Show
         when={props.postInfo.status !== 'removed'}
@@ -51,7 +57,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
               <Icon color="attribute" size="small" variant="flat">
                 {capitalizeFirstLetter(props.postInfo.status!)[0]}
               </Icon>{' '}
-              {capitalizeFirstLetter(props.postInfo.status!)} Locally
+              {capitalizeFirstLetter(props.postInfo.status!)}
             </span>
           </Frame>
         }
@@ -179,7 +185,12 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
           </Show>
         </Frame>
       </Show>
-      <PostTooltip forRef={ref()} postInfo={props.postInfo} />
-    </a>
+      <PostTooltip
+        forRef={ref()}
+        postInfo={props.postInfo}
+        selected={props.selected}
+        onSelectedChange={props.onSelectedChange}
+      />
+    </Dynamic>
   );
 };

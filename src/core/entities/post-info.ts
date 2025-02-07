@@ -250,17 +250,25 @@ export const selectPostInfos = (
   };
 };
 
-export function selectPostInfosResultToString(count: number, params: SelectPostInfosParams) {
+export function selectPostInfosResultToString(count: number, params: SelectPostInfosParams, selected: number) {
   const result: string[] = [count.toString()];
   const sortOption = selectPostInfosSortOptions.find((comparator) => comparator.value === params.sortKey);
 
+  if (selected) {
+    if (selected === count) {
+      result.unshift('Selected all');
+    } else {
+      result.unshift(`Selected ${selected} of`);
+    }
+  }
+
   if (params.status) {
     if (params.status === ANY_OPTION.value) {
-      result.push('with any local status');
+      result.push('with any unsaved status');
     } else if (params.status === NONE_OPTION.value) {
-      result.push('with no local status');
+      result.push('with no unsaved status');
     } else {
-      result.push(`locally ${params.status}`);
+      result.push(params.status);
     }
   }
 
