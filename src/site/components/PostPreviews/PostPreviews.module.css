@@ -12,10 +12,46 @@
   grid-template-columns: repeat(auto-fill, minmax(min(164px, 100%), 1fr));
 }
 
+.toolbar {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 8px;
+  align-items: center;
+  height: 24px;
+  box-sizing: content-box;
+}
+
 .label {
   color: var(--color-text-light);
   margin: 0;
-  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1 1 auto;
+}
+
+.actions {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
+}
+
+.virtualContainerWrapper {
+  /* Compensate column width rounding shift with container's right padding */
+  padding: 4px 0 4px 4px;
+}
+
+.virtualToolbar {
+  padding: 4px 8px 4px 4px;
+}
+
+.virtualItem {
+  padding: 4px;
+  outline: none;
+}
+
+.item {
+  height: 100%;
 }
 
 @media only screen and (min-width: 812px) {

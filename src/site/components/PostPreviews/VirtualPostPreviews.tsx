@@ -5,9 +5,10 @@ import {
   POST_PREVIEW_INFO_MIN_HEIGHT,
   POST_PREVIEW_MAX_WIDTH,
   PostPreview,
-} from '../PostPreview/PostPreview.js';
-import styles from './ClientVirtualScrollContainer.module.css';
-import type { PostPreviewsProps } from './PostPreviews.js';
+} from '../PostPreview/PostPreview.jsx';
+import type { PostPreviewsProps } from './PostPreviews.jsx';
+import styles from './PostPreviews.module.css';
+import { Toolbar } from './Toolbar.jsx';
 
 const gap = 8;
 const padding = 4;
@@ -24,13 +25,13 @@ const calculateGridItemSize = (crossAxisSize: number) => {
   };
 };
 
-export const ClientVirtualScrollContainer: Component<PostPreviewsProps> = (props) => {
+export const VirtualPostPreviews: Component<PostPreviewsProps> = (props) => {
   let containerRef;
 
   return (
-    <div class={styles.container}>
-      <Show when={props.label}>
-        <p class={styles.label}>{props.label}</p>
+    <div class={styles.virtualContainerWrapper}>
+      <Show when={props.label || props.actions?.length}>
+        <Toolbar label={props.label} actions={props.actions} class={styles.virtualToolbar} />
       </Show>
       <VirtualContainer
         items={props.postInfos}
@@ -41,7 +42,14 @@ export const ClientVirtualScrollContainer: Component<PostPreviewsProps> = (props
       >
         {(itemProps) => (
           <div style={itemProps.style} class={styles.virtualItem} tabIndex={itemProps.tabIndex} role="listitem">
-            <PostPreview postInfo={itemProps.item} class={styles.item} maxHeightMultiplier={1} />
+            <PostPreview
+              postInfo={itemProps.item}
+              class={styles.item}
+              maxHeightMultiplier={1}
+              toggleSelectedOnClick={Boolean(props.selected?.length)}
+              selected={props.selected?.includes(itemProps.item.id)}
+              onSelectedChange={(value) => props.onSelectedChange?.(itemProps.item.id, value)}
+            />
           </div>
         )}
       </VirtualContainer>
@@ -49,4 +57,4 @@ export const ClientVirtualScrollContainer: Component<PostPreviewsProps> = (props
   );
 };
 
-export default ClientVirtualScrollContainer;
+export default VirtualPostPreviews;
