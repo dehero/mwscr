@@ -4,7 +4,40 @@
 
 # Posted in 2025
 
-`38 items`
+`39 items`
+
+## <span id="2025-02-08-three-hunters">Three Hunters</span>
+
+`RU` Три охотника
+
+<a href="https://instagram.com/p/BuPHSbwhI-4/" title="2019-02-23-three-hunters"><img alt="store:/shots/2019-02-23-three-hunters.png" src="../../assets/previews/shots/2019-02-23-three-hunters.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`C` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-08-three-hunters&postLocation=)</code> `🚀 OpenMW`
+
+```
+2025-02-08-three-hunters
+```
+
+> `2019-02-23-three-hunters`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BuPHSbwhI-4/)       | 2019-02-23 |       |   140 |       778 |  17.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1132) | 2019-02-23 |   584 |    41 |       328 |   12.8 |
+| [`tg`](https://t.me/mwscr/155)                     | 2019-02-23 |   494 |     2 |           |        |
+| [`ig`](https://instagram.com/p/DF0kRfGTwtB/)       | 2025-02-08 |       |       |      1533 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2119) | 2025-02-08 |       |       |      1062 |        |
+| [`tg`](https://t.me/mwscr/701)                     | 2025-02-08 |       |       |       672 |        |
+|                                                    |            |       |       |      3267 |   15.4 |
+
+#### Comments
+
+- `ig` <ins title="2019-02-25-18-06-33">17haden_blake10</ins> Cool 😎
+- `ig` <ins title="2019-02-26-20-53-29">iichuckelzz</ins> I need it remastered
 
 ## <span id="2025-02-07-the-book-of-dawn-and-dusk">The Book of Dawn and Dusk</span>
 
@@ -28,10 +61,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BlvxNcqFzw9/)       | 2018-07-27 |       |   113 |       363 |  31.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_829)  | 2018-07-27 |   358 |    28 |       193 |  14.51 |
-| [`ig`](https://instagram.com/p/DFx_pEkJY6I/)       | 2025-02-07 |   213 |    68 |      1534 |   4.43 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2116) | 2025-02-07 |   162 |    28 |      1062 |   2.64 |
-| [`tg`](https://t.me/mwscr/700)                     | 2025-02-07 |   166 |    47 |       670 |   7.01 |
-|                                                    |            |   541 |   143 |      3266 |  11.94 |
+| [`ig`](https://instagram.com/p/DFx_pEkJY6I/)       | 2025-02-07 |   219 |    71 |      1534 |   4.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2116) | 2025-02-07 |   163 |    28 |      1062 |   2.64 |
+| [`tg`](https://t.me/mwscr/700)                     | 2025-02-07 |   169 |    48 |       670 |   7.16 |
+|                                                    |            |   551 |   147 |      3266 |  12.01 |
 
 ## <span id="2025-02-06-night-watch">Night Watch</span>
 
@@ -54,10 +87,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |   393 |   125 |      1534 |   8.15 |
+| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |   396 |   125 |      1534 |   8.15 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2115) | 2025-02-06 |   324 |    31 |      1061 |    3.2 |
-| [`tg`](https://t.me/mwscr/696,697,698,699)         | 2025-02-06 |   693 |    60 |       664 |   9.04 |
-|                                                    |            |  1410 |   216 |      3259 |    6.8 |
+| [`tg`](https://t.me/mwscr/696,697,698,699)         | 2025-02-06 |   701 |    61 |       664 |   9.19 |
+|                                                    |            |  1421 |   217 |      3259 |   6.85 |
 
 ## <span id="2025-02-05-the-storm-is-passing">The Storm is Passing</span>
 
