@@ -11,7 +11,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 979 posted, 21 pending, 67 rejected  
 Requested: 6 pending  
-Likes: 174373  
+Likes: 174382  
 
 ```
 dehero
@@ -69,7 +69,7 @@ irina-bystritskaya
 
 Roles: `author`  
 Authored: 1 posted, 1 rejected  
-Likes: 207  
+Likes: 209  
 
 ```
 3akrom
