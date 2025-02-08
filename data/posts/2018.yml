@@ -3784,10 +3784,10 @@
     - service: vk
       id: 1855
       published: 2024-10-25-18-10-15
-      updated: 2025-02-01-06-09-36
+      updated: 2025-02-08-06-10-02
       followers: 997
       likes: 41
-      views: 304
+      views: 305
       reposts: 1
       comments: !c |-
         G9QBgCwKbGOzhuhJv0vFoSZyr8ka/09/MdI3/lv0MNMSTBJPzgVdVbcLLW8EAkGCAkdSHpZv29cJ
@@ -3798,10 +3798,10 @@
     - service: tg
       id: 575
       published: 2024-10-25-18-10-23
-      updated: 2025-02-01-06-09-35
+      updated: 2025-02-08-06-10-03
       followers: 563
       likes: 60
-      views: 574
+      views: 577
 2018-04-12-mushroom-stairs:
   title: Mushroom Stairs
   titleRu: Грибная лестница
@@ -7606,24 +7606,24 @@
       id: DFx_pEkJY6I
       mediaId: '18441845239072911'
       published: 2025-02-07-18-10-38
-      updated: 2025-02-08-05-07-22
+      updated: 2025-02-08-06-10-00
       followers: 1534
-      likes: 53
-      views: 163
+      likes: 54
+      views: 164
     - service: vk
       id: 2116
       published: 2025-02-07-18-10-45
-      updated: 2025-02-08-05-07-22
+      updated: 2025-02-08-06-10-01
       followers: 1062
       likes: 24
-      views: 104
+      views: 111
     - service: tg
       id: 700
       published: 2025-02-07-18-10-54
-      updated: 2025-02-08-05-07-23
+      updated: 2025-02-08-06-10-01
       followers: 670
-      likes: 39
-      views: 130
+      likes: 41
+      views: 134
 2018-07-28-sulfur-forest:
   title: Sulfur Forest
   titleRu: Серный лес
@@ -11474,7 +11474,7 @@
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2025-02-01-06-09-37
+      updated: 2025-02-08-06-10-04
       followers: 961
       likes: 31
       views: 332
