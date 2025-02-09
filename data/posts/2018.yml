@@ -1985,10 +1985,10 @@
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
-      updated: 2025-02-02-14-02-11
+      updated: 2025-02-09-15-02-09
       followers: 514
       likes: 55
-      views: 589
+      views: 590
       comments: !c |-
         G7cAAByJcSzJSmHuRqj0e9b12/Lle1fJSuhLDoUzXwh9E0SGvCYo3OAEkjDBQPiJBtFxGnE9KwEo
         8XwbHLtnJX0NKwhijU0V0OTUbxHMYtnFBziBA7iFGzjFArbtbnCFBTjAYgtHWMM2HTk/sUnOr3Sa
@@ -7340,10 +7340,10 @@
     - service: tg
       id: 489
       published: 2024-08-03-18-19-41
-      updated: 2025-02-02-14-02-12
+      updated: 2025-02-09-15-02-09
       followers: 428
       likes: 57
-      views: 6627
+      views: 6635
       comments: !c |-
         izGAkZTLQnkRxbvWAACremhlY2hrYV9kcnak8J+YjZPLQnkRxdocAAClYW5zaXPZNmV2ZXJ5IGdy
         YXplbGFuZGVyIGJveSBsb3ZlcyBoaW1zZWxmIGEgZ3VhciBoZXJkZXIgZ2lybAM=
@@ -7606,24 +7606,24 @@
       id: DFx_pEkJY6I
       mediaId: '18441845239072911'
       published: 2025-02-07-18-10-38
-      updated: 2025-02-09-14-01-24
+      updated: 2025-02-09-15-02-05
       followers: 1534
-      likes: 77
-      views: 257
+      likes: 78
+      views: 258
     - service: vk
       id: 2116
       published: 2025-02-07-18-10-45
-      updated: 2025-02-09-14-01-25
+      updated: 2025-02-09-15-02-05
       followers: 1062
       likes: 31
-      views: 194
+      views: 195
     - service: tg
       id: 700
       published: 2025-02-07-18-10-54
-      updated: 2025-02-09-14-01-25
+      updated: 2025-02-09-15-02-06
       followers: 670
       likes: 52
-      views: 216
+      views: 218
 2018-07-28-sulfur-forest:
   title: Sulfur Forest
   titleRu: Серный лес
