@@ -1963,10 +1963,10 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2025-02-02-19-01-41
+      updated: 2025-02-09-20-07-27
       followers: 916
       likes: 53
-      views: 430
+      views: 432
       reposts: 7
     - service: tg
       id: 440
@@ -6500,10 +6500,10 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2025-02-02-19-01-40
+      updated: 2025-02-09-20-07-26
       followers: 920
       likes: 38
-      views: 294
+      views: 295
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
@@ -6811,10 +6811,10 @@
     - service: tg
       id: 692
       published: 2025-02-02-18-09-19
-      updated: 2025-02-08-19-01-24
+      updated: 2025-02-09-20-07-25
       followers: 662
       likes: 66
-      views: 484
+      views: 500
 2017-06-26-floating-over-the-green-hills:
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами
@@ -7480,10 +7480,10 @@
       id: DFqRQNtS7PN
       mediaId: '18153897166344611'
       published: 2025-02-04-18-10-38
-      updated: 2025-02-08-19-01-24
+      updated: 2025-02-09-20-07-25
       followers: 1535
-      likes: 100
-      views: 342
+      likes: 102
+      views: 353
       comments: !c |-
         G50AABSh0v//e/cIL32bgSybFNAfY1nD5qKo7Z2obQH9k0iaTk7PeNFIi9JjoHlbABBJ7VyfqK1r
         Sz2NZp9CUsXvb4ROvKAzpuXZiuBdc7zLhIKphqB4pj8hEeERKDsR7eWb1umcDEgafuvpRhjtfwuh
@@ -7491,17 +7491,17 @@
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
-      updated: 2025-02-08-19-01-23
+      updated: 2025-02-09-20-07-24
       followers: 1059
       likes: 20
-      views: 189
+      views: 201
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
-      updated: 2025-02-08-19-01-23
+      updated: 2025-02-09-20-07-24
       followers: 664
       likes: 62
-      views: 400
+      views: 433
 2017-07-14-near-the-night-campfire:
   title: Near the Night Campfire
   titleRu: Возле ночного костра
