@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/BuPHSbwhI-4/)       | 2019-02-23 |       |   140 |       778 |  17.99 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1132) | 2019-02-23 |   584 |    41 |       328 |   12.8 |
 | [`tg`](https://t.me/mwscr/155)                     | 2019-02-23 |   494 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DF0kRfGTwtB/)       | 2025-02-08 |   161 |    66 |      1533 |   4.31 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2119) | 2025-02-08 |   135 |    21 |      1062 |   1.98 |
+| [`ig`](https://instagram.com/p/DF0kRfGTwtB/)       | 2025-02-08 |   163 |    66 |      1533 |   4.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2119) | 2025-02-08 |   138 |    23 |      1062 |   2.17 |
 | [`tg`](https://t.me/mwscr/701)                     | 2025-02-08 |   168 |    40 |       672 |   5.95 |
-|                                                    |            |   464 |   127 |      3267 |   8.61 |
+|                                                    |            |   469 |   129 |      3267 |   8.64 |
 
 #### Comments
 
@@ -62,9 +62,9 @@
 | [`ig`](https://instagram.com/p/BlvxNcqFzw9/)       | 2018-07-27 |       |   113 |       363 |  31.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_829)  | 2018-07-27 |   358 |    28 |       193 |  14.51 |
 | [`ig`](https://instagram.com/p/DFx_pEkJY6I/)       | 2025-02-07 |   257 |    77 |      1534 |   5.02 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2116) | 2025-02-07 |   191 |    30 |      1062 |   2.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2116) | 2025-02-07 |   193 |    31 |      1062 |   2.92 |
 | [`tg`](https://t.me/mwscr/700)                     | 2025-02-07 |   216 |    52 |       670 |   7.76 |
-|                                                    |            |   664 |   159 |      3266 |  12.25 |
+|                                                    |            |   666 |   160 |      3266 |  12.27 |
 
 ## <span id="2025-02-06-night-watch">Night Watch</span>
 
