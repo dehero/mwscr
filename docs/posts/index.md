@@ -4,7 +4,39 @@
 
 # Posted in 2025
 
-`39 items`
+`40 items`
+
+## <span id="2025-02-09-guardians-of-the-cave">Guardians of the Cave</span>
+
+`RU` Стражи пещеры
+
+<a href="https://instagram.com/p/BudTo8ThXO7/" title="2019-03-01-guardians-of-the-cave"><img alt="store:/shots/2019-03-01-guardians-of-the-cave.png" src="../../assets/previews/shots/2019-03-01-guardians-of-the-cave.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-09-guardians-of-the-cave&postLocation=)</code> `🚀 OpenMW` `netch` `cave`
+
+```
+2025-02-09-guardians-of-the-cave
+```
+
+> `2019-03-01-guardians-of-the-cave`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BudTo8ThXO7/)       | 2019-03-01 |       |   112 |       783 |   14.3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1140) | 2019-03-01 |   628 |    41 |       329 |  12.46 |
+| [`tg`](https://t.me/mwscr/159)                     | 2019-03-01 |   548 |     3 |           |        |
+| [`ig`](https://instagram.com/p/DF3JEd9JyL_/)       | 2025-02-09 |       |       |      1532 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2120) | 2025-02-09 |       |       |      1063 |        |
+| [`tg`](https://t.me/mwscr/702)                     | 2025-02-09 |       |       |       673 |        |
+|                                                    |            |       |       |      3268 |  13.38 |
+
+#### Comments
+
+- `ig` <ins title="2019-03-01-08-08-27">egorushkaletov</ins> Силтстрайдеры - прекрасные существа.
 
 ## <span id="2025-02-08-three-hunters">Three Hunters</span>
 
@@ -29,10 +61,10 @@
 | [`ig`](https://instagram.com/p/BuPHSbwhI-4/)       | 2019-02-23 |       |   140 |       778 |  17.99 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1132) | 2019-02-23 |   584 |    41 |       328 |   12.8 |
 | [`tg`](https://t.me/mwscr/155)                     | 2019-02-23 |   494 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DF0kRfGTwtB/)       | 2025-02-08 |   171 |    67 |      1533 |   4.37 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2119) | 2025-02-08 |   145 |    23 |      1062 |   2.17 |
-| [`tg`](https://t.me/mwscr/701)                     | 2025-02-08 |   175 |    43 |       672 |    6.4 |
-|                                                    |            |   491 |   133 |      3267 |   8.75 |
+| [`ig`](https://instagram.com/p/DF0kRfGTwtB/)       | 2025-02-08 |   175 |    68 |      1533 |   4.44 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2119) | 2025-02-08 |   146 |    24 |      1062 |   2.26 |
+| [`tg`](https://t.me/mwscr/701)                     | 2025-02-08 |   177 |    43 |       672 |    6.4 |
+|                                                    |            |   498 |   135 |      3267 |   8.78 |
 
 #### Comments
 
@@ -61,10 +93,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BlvxNcqFzw9/)       | 2018-07-27 |       |   113 |       363 |  31.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_829)  | 2018-07-27 |   358 |    28 |       193 |  14.51 |
-| [`ig`](https://instagram.com/p/DFx_pEkJY6I/)       | 2025-02-07 |   259 |    78 |      1534 |   5.08 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2116) | 2025-02-07 |   196 |    31 |      1062 |   2.92 |
-| [`tg`](https://t.me/mwscr/700)                     | 2025-02-07 |   219 |    52 |       670 |   7.76 |
-|                                                    |            |   674 |   161 |      3266 |  12.28 |
+| [`ig`](https://instagram.com/p/DFx_pEkJY6I/)       | 2025-02-07 |   261 |    81 |      1534 |   5.28 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2116) | 2025-02-07 |   197 |    31 |      1062 |   2.92 |
+| [`tg`](https://t.me/mwscr/700)                     | 2025-02-07 |   220 |    52 |       670 |   7.76 |
+|                                                    |            |   678 |   164 |      3266 |  12.32 |
 
 ## <span id="2025-02-06-night-watch">Night Watch</span>
 
@@ -87,10 +119,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |   396 |   125 |      1534 |   8.15 |
+| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |   415 |   127 |      1534 |   8.28 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2115) | 2025-02-06 |   324 |    31 |      1061 |    3.2 |
 | [`tg`](https://t.me/mwscr/696,697,698,699)         | 2025-02-06 |   701 |    61 |       664 |   9.19 |
-|                                                    |            |  1421 |   217 |      3259 |   6.85 |
+|                                                    |            |  1440 |   219 |      3259 |   6.89 |
 
 ## <span id="2025-02-05-the-storm-is-passing">The Storm is Passing</span>
 

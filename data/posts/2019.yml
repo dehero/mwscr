@@ -636,24 +636,24 @@
       id: DF0kRfGTwtB
       mediaId: '17881076058238794'
       published: 2025-02-08-18-09-14
-      updated: 2025-02-09-17-01-34
+      updated: 2025-02-09-18-08-59
       followers: 1533
-      likes: 67
-      views: 171
+      likes: 68
+      views: 175
     - service: vk
       id: 2119
       published: 2025-02-08-18-09-23
-      updated: 2025-02-09-17-01-34
+      updated: 2025-02-09-18-08-59
       followers: 1062
-      likes: 23
-      views: 145
+      likes: 24
+      views: 146
     - service: tg
       id: 701
       published: 2025-02-08-18-09-32
-      updated: 2025-02-09-17-01-35
+      updated: 2025-02-09-18-08-59
       followers: 672
       likes: 43
-      views: 175
+      views: 177
 2019-02-24-mehrunes-dagon-and-his-worshiper:
   title: Mehrunes Dagon and His Worshiper
   titleRu: Мехрун Дагон и его идолопоклонник
@@ -788,6 +788,19 @@
       updated: 2025-02-05-10-08-27
       likes: 3
       views: 548
+    - service: ig
+      id: DF3JEd9JyL_
+      mediaId: '18213612274290818'
+      published: 2025-02-09-18-09-14
+      followers: 1532
+    - service: vk
+      id: 2120
+      published: 2025-02-09-18-09-21
+      followers: 1063
+    - service: tg
+      id: 702
+      published: 2025-02-09-18-09-27
+      followers: 673
 2019-03-04-evening-road:
   title: Evening Road
   titleRu: Вечерняя дорога
