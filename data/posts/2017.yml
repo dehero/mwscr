@@ -2119,18 +2119,18 @@
     - service: vk
       id: 1927
       published: 2024-11-30-18-09-35
-      updated: 2025-02-02-05-07-15
+      updated: 2025-02-09-05-07-28
       followers: 1012
       likes: 38
-      views: 308
+      views: 311
       reposts: 1
     - service: tg
       id: 611
       published: 2024-11-30-18-09-42
-      updated: 2025-02-02-05-07-14
+      updated: 2025-02-09-05-07-27
       followers: 576
       likes: 60
-      views: 589
+      views: 595
     - service: ig
       id: DDFQmrONeev
       mediaId: '17864652573276614'
@@ -2649,20 +2649,20 @@
     - service: vk
       id: 1887
       published: 2024-11-09-18-08-47
-      updated: 2025-02-02-05-07-18
+      updated: 2025-02-09-05-07-31
       followers: 1006
       likes: 55
-      views: 364
+      views: 365
       comments: !c |-
         G2wA+C0OzHOdDmzoisHxBSnkR1HcIvzxJOMo8CTBJpHIkz3Mbeys0xmFSEJobmPt3Tmt25QgCLJM
         NrrNoAmfwiBxP59f27nb8h6cHX+oPlDn4tRSxaGBkCzrtA7L+CADgUw7jhpGVAM=
     - service: tg
       id: 590
       published: 2024-11-09-18-09-56
-      updated: 2025-02-02-05-07-16
+      updated: 2025-02-09-05-07-29
       followers: 564
       likes: 64
-      views: 627
+      views: 632
 2017-03-10-aldruhn-guild-of-mages:
   title: Ald'ruhn, Guild of Mages
   titleRu: Альд'рун, Гильдия Магов
@@ -7570,7 +7570,7 @@
     - service: vk
       id: 1464
       published: 2024-03-22-18-12-46
-      updated: 2025-02-02-05-07-22
+      updated: 2025-02-09-05-07-35
       followers: 896
       likes: 34
       views: 321
@@ -7954,10 +7954,10 @@
     - service: tg
       id: 583
       published: 2024-11-02-18-09-25
-      updated: 2025-02-02-05-07-17
+      updated: 2025-02-09-05-07-29
       followers: 565
       likes: 62
-      views: 593
+      views: 598
       comments: !c |-
         Cx2AkZPLQnku4vuTAACtTG9mdHlkZWx1c2lvbtkgSGFpbCB0byB0aGV5IGFyZSBmYXRoZXIgc3Bs
         aW50ZXID
@@ -10210,7 +10210,7 @@
     - service: vk
       id: 1483
       published: 2024-04-05-18-17-17
-      updated: 2025-02-02-05-07-21
+      updated: 2025-02-09-05-07-33
       followers: 908
       likes: 36
       views: 271
