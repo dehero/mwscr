@@ -7210,10 +7210,10 @@
     - service: tg
       id: 633
       published: 2024-12-22-18-09-11
-      updated: 2025-02-02-22-02-12
+      updated: 2025-02-09-22-02-17
       followers: 584
-      likes: 67
-      views: 754
+      likes: 68
+      views: 770
 2018-07-17-safe-harbour:
   title: Safe Harbour
   titleRu: Тихая гавань
@@ -10147,10 +10147,10 @@
     - service: vk
       id: 1996
       published: 2024-12-29-18-00-28
-      updated: 2025-02-02-22-02-12
+      updated: 2025-02-09-22-02-18
       followers: 1037
       likes: 39
-      views: 399
+      views: 403
       reposts: 1
       comments: !c |-
         G7EBwJwHtiP6ZSCfeipl5Br/j9yzT/j0b8WQRVyBtxVhcu6WTue0ffylv5BTsl/ewAGK2c5iCC3M
@@ -10161,10 +10161,10 @@
     - service: tg
       id: 641
       published: 2024-12-29-18-00-34
-      updated: 2025-02-02-21-02-27
+      updated: 2025-02-09-22-02-17
       followers: 642
       likes: 67
-      views: 528
+      views: 542
 2018-10-04-netch-over-the-puddle:
   title: Netch Over the Puddle
   titleRu: Нетч над лужей

@@ -4132,17 +4132,17 @@
       id: DFnseKAT28i
       mediaId: '18140510668337607'
       published: 2025-02-03-18-10-45
-      updated: 2025-02-08-21-02-17
+      updated: 2025-02-09-22-02-14
       followers: 1535
       likes: 93
-      views: 309
+      views: 312
     - service: vk
       id: 2110
       published: 2025-02-03-18-10-54
-      updated: 2025-02-08-21-02-18
+      updated: 2025-02-09-22-02-16
       followers: 1059
-      likes: 43
-      views: 322
+      likes: 44
+      views: 344
       reposts: 2
       comments: !c |-
         G6YCgKyLd9mEERHbmqbg0J0wvbMsjnriHg3hm1D+TH4sErRwQQpaKWClhJE9VacE8MGxAubmTGmO
@@ -4155,10 +4155,10 @@
     - service: tg
       id: 693
       published: 2025-02-03-18-11-03
-      updated: 2025-02-08-21-02-18
+      updated: 2025-02-09-22-02-15
       followers: 664
       likes: 64
-      views: 430
+      views: 445
 2017-04-17-lost-and-robbed:
   title: Lost and Robbed
   titleRu: Потерян и ограблен
@@ -9219,7 +9219,7 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2025-02-02-22-02-13
+      updated: 2025-02-09-22-02-19
       followers: 915
       likes: 41
       views: 286
