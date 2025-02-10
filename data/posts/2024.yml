@@ -335,7 +335,7 @@
     - service: vk
       id: 1442
       published: 2024-03-10-18-00-51
-      updated: 2025-02-03-21-06-32
+      updated: 2025-02-10-21-07-50
       followers: 895
       likes: 34
       views: 252
@@ -343,7 +343,7 @@
     - service: tg
       id: 341
       published: 2024-03-10-18-00-59
-      updated: 2025-02-03-21-06-24
+      updated: 2025-02-10-21-07-43
       followers: 349
       likes: 60
       views: 516
@@ -493,7 +493,7 @@
     - service: vk
       id: 1455
       published: 2024-03-17-18-09-55
-      updated: 2025-02-03-21-06-32
+      updated: 2025-02-10-21-07-49
       followers: 896
       likes: 42
       views: 327
@@ -502,10 +502,10 @@
     - service: tg
       id: 349
       published: 2024-03-17-18-10-02
-      updated: 2025-02-03-21-06-23
+      updated: 2025-02-10-21-07-43
       followers: 353
       likes: 64
-      views: 499
+      views: 500
       comments: !c ixCAkZPLQnjk2fJHgACx2YXYrdmF2K8g2K7Yp9mE2K+kQ29vbAM=
 2024-03-18-evening-on-azuras-coast: 2017-05-18-evening-on-azuras-coast
 2024-03-19-dirty-muriels-cornerclub:
@@ -802,7 +802,7 @@
     - service: vk
       id: 1476
       published: 2024-03-31-18-10-32
-      updated: 2025-02-03-21-06-30
+      updated: 2025-02-10-21-07-48
       followers: 905
       likes: 29
       views: 264
@@ -810,7 +810,7 @@
     - service: tg
       id: 363
       published: 2024-03-31-18-10-38
-      updated: 2025-02-03-21-06-22
+      updated: 2025-02-10-21-07-41
       followers: 354
       likes: 58
       views: 492
@@ -1545,10 +1545,10 @@
     - service: vk
       id: 1519
       published: 2024-05-05-18-17-05
-      updated: 2025-02-03-21-06-26
+      updated: 2025-02-10-21-07-44
       followers: 913
       likes: 38
-      views: 274
+      views: 275
       comments: !c |-
         G4oBoBypnX6YvuB5uFbDK1RUbS0U2bYXEZolcJbv4+gBnbqtVEONaheb+RwP87q1YhXQm+1Epz60
         v91g1IUBTuviIg0sznYBRphtkzbRYZUX4woiLD48/oxMX2Q258pDb02lio+/VQ2cswmMK9sQaSFG
@@ -1558,7 +1558,7 @@
     - service: tg
       id: 399
       published: 2024-05-05-18-17-11
-      updated: 2025-02-03-21-06-20
+      updated: 2025-02-10-21-07-38
       followers: 370
       likes: 61
       views: 484
@@ -1744,14 +1744,14 @@
     - service: tg
       id: 406
       published: 2024-05-12-18-20-07
-      updated: 2025-02-03-21-06-19
+      updated: 2025-02-10-21-07-37
       followers: 371
       likes: 57
       views: 460
     - service: vk
       id: 1530
       published: 2024-05-12-19-11-11
-      updated: 2025-02-03-21-06-25
+      updated: 2025-02-10-21-07-43
       followers: 915
       likes: 28
       views: 253
@@ -1876,7 +1876,7 @@
     - service: vk
       id: 1538
       published: 2024-05-19-18-18-25
-      updated: 2025-02-03-21-06-24
+      updated: 2025-02-10-21-07-42
       followers: 916
       likes: 37
       views: 253
@@ -2062,7 +2062,7 @@
     - service: vk
       id: 1576
       published: 2024-06-09-18-18-45
-      updated: 2025-02-03-21-06-21
+      updated: 2025-02-10-21-07-39
       followers: 916
       likes: 33
       views: 282

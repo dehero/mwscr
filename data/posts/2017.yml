@@ -1616,24 +1616,24 @@
       id: DF5uC6lv4wa
       mediaId: '18077453773581396'
       published: 2025-02-10-18-10-49
-      updated: 2025-02-10-20-01-36
+      updated: 2025-02-10-21-07-31
       followers: 1533
-      likes: 24
-      views: 51
+      likes: 35
+      views: 84
     - service: vk
       id: 2121
       published: 2025-02-10-18-10-56
-      updated: 2025-02-10-20-01-37
+      updated: 2025-02-10-21-07-31
       followers: 1064
-      likes: 10
-      views: 46
+      likes: 11
+      views: 60
     - service: tg
       id: 703
       published: 2025-02-10-18-11-03
-      updated: 2025-02-10-20-01-37
+      updated: 2025-02-10-21-07-32
       followers: 673
-      likes: 20
-      views: 85
+      likes: 28
+      views: 105
 2017-02-12-1-travel-from-seyda-neen-to-balmora:
   title: Travel from Seyda Neen to Balmora
   titleRu: Путешествие из Сейда Нина в Балмору
@@ -4724,15 +4724,15 @@
     - service: vk
       id: 1494
       published: 2024-04-14-20-32-17
-      updated: 2025-02-03-21-06-28
+      updated: 2025-02-10-21-07-46
       followers: 911
       likes: 41
-      views: 301
+      views: 302
       reposts: 2
     - service: tg
       id: 378
       published: 2024-04-14-20-32-22
-      updated: 2025-02-03-21-06-21
+      updated: 2025-02-10-21-07-40
       followers: 351
       likes: 64
       views: 542
@@ -7502,10 +7502,10 @@
       id: DFqRQNtS7PN
       mediaId: '18153897166344611'
       published: 2025-02-04-18-10-38
-      updated: 2025-02-09-20-07-25
+      updated: 2025-02-10-21-07-35
       followers: 1535
-      likes: 102
-      views: 353
+      likes: 103
+      views: 361
       comments: !c |-
         G50AABSh0v//e/cIL32bgSybFNAfY1nD5qKo7Z2obQH9k0iaTk7PeNFIi9JjoHlbABBJ7VyfqK1r
         Sz2NZp9CUsXvb4ROvKAzpuXZiuBdc7zLhIKphqB4pj8hEeERKDsR7eWb1umcDEgafuvpRhjtfwuh
@@ -7513,17 +7513,17 @@
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
-      updated: 2025-02-09-20-07-24
+      updated: 2025-02-10-21-07-34
       followers: 1059
-      likes: 20
-      views: 201
+      likes: 22
+      views: 209
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
-      updated: 2025-02-09-20-07-24
+      updated: 2025-02-10-21-07-34
       followers: 664
       likes: 62
-      views: 433
+      views: 451
 2017-07-14-near-the-night-campfire:
   title: Near the Night Campfire
   titleRu: Возле ночного костра
@@ -9769,10 +9769,10 @@
       id: DEfmNjaz7er
       mediaId: '18059335300902048'
       published: 2025-01-06-18-10-43
-      updated: 2025-02-03-21-06-20
+      updated: 2025-02-10-21-07-41
       followers: 1523
       likes: 97
-      views: 433
+      views: 436
       comments: !c |-
         G3oAYIzTHbGYg5/W/537hGd7E4oCH97dOkUDdBQtNqoCDPWA2/UtpWlx/lTzGDsXJdPi2Xa32Ejv
         PwJcgZPlOLcLKzOs1LBw7kThpkUFkxoIhyh99QJ8eAQm4uMKc2LgPDvrDA7Wp2VzHXd/bIAhqDKa
@@ -9780,10 +9780,10 @@
     - service: vk
       id: 2026
       published: 2025-01-06-18-10-49
-      updated: 2025-02-03-21-06-20
+      updated: 2025-02-10-21-07-38
       followers: 1048
-      likes: 40
-      views: 324
+      likes: 41
+      views: 331
       reposts: 1
       comments: !c |-
         G4EA+J0JvAnrMji1L5ZQPE/eRjjiiJPEtkFSwS7BLqLkfbJ0cyUlMdRdkA/3z8yRyW4PHKI8KUpI
@@ -9791,10 +9791,10 @@
     - service: tg
       id: 655
       published: 2025-01-06-18-10-56
-      updated: 2025-02-03-21-06-19
+      updated: 2025-02-10-21-07-37
       followers: 645
       likes: 68
-      views: 495
+      views: 514
 2017-09-17-night-square:
   title: Night Square
   titleRu: Ночная площадь
@@ -11591,7 +11591,7 @@
     - service: vk
       id: 1547
       published: 2024-05-26-18-17-46
-      updated: 2025-02-03-21-06-23
+      updated: 2025-02-10-21-07-41
       followers: 918
       likes: 32
       views: 291
