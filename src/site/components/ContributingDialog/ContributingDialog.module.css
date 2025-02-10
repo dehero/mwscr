@@ -3,42 +3,51 @@
   flex-flow: column nowrap;
   gap: 8px;
   margin: 0;
-  align-items: center;
-  justify-content: center;
+  height: 315px;
 }
 
-.buttons {
+.tabs {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  max-width: 320px;
+  gap: 4px;
 }
 
-.title {
-  margin: 0;
+.variants {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+}
+
+.variant {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: 'icon title' 'icon description';
+  padding: 6px;
+  flex-flow: row nowrap;
+  gap: 4px 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.variantIcon {
+  grid-area: icon;
+}
+
+.variantTitle {
+  grid-area: title;
   color: var(--color-text-light);
-  text-align: center;
+  margin: 0;
 }
 
-.description {
+.variantDescription {
+  grid-area: description;
   margin: 0;
-  max-width: 320px;
-  text-align: center;
 }
 
 .heading {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
   gap: 4px;
-}
-
-.icon {
-  max-width: 100%;
-  aspect-ratio: 2 / 1;
-  image-rendering: auto;
 }
 
 .link {
@@ -48,4 +57,17 @@
 
 .link:hover {
   color: var(--color-text-selected-hover);
+}
+
+.tabContent {
+  display: flex;
+  width: 320px;
+  max-width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  flex: 1 1;
+}
+
+.patchEditor {
+  flex: 1 1;
 }

@@ -1,9 +1,17 @@
-.nav {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: baseline;
-  gap: 8px 4px;
+.container {
+  display: block;
   padding: 8px;
+  margin: -4px -2px;
+}
+
+.shortcuts {
+  float: right;
+  margin: 8px 0px;
+}
+
+.menu {
+  display: inline-block;
+  margin: 4px 2px;
 }
 
 .button {
@@ -15,6 +23,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
   display: inline-block;
+  vertical-align: baseline;
+  margin: 0 4px -4px 0;
+  max-width: 100%;
 }
 
 .link {
@@ -26,16 +37,13 @@
   color: var(--color-text-selected-hover);
 }
 
-@media only screen and (min-width: 512px) {
-  .nav {
-    flex-flow: row wrap;
-  }
-
+@media only screen and (min-width: 555px) {
   .menu {
     display: none;
   }
 
   .button {
-    display: block;
+    display: inline-block;
+    margin: 4px 2px;
   }
 }
