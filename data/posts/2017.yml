@@ -1616,24 +1616,24 @@
       id: DF5uC6lv4wa
       mediaId: '18077453773581396'
       published: 2025-02-10-18-10-49
-      updated: 2025-02-10-21-07-31
+      updated: 2025-02-10-22-07-40
       followers: 1533
-      likes: 35
-      views: 84
+      likes: 42
+      views: 112
     - service: vk
       id: 2121
       published: 2025-02-10-18-10-56
-      updated: 2025-02-10-21-07-31
+      updated: 2025-02-10-22-07-41
       followers: 1064
       likes: 11
-      views: 60
+      views: 64
     - service: tg
       id: 703
       published: 2025-02-10-18-11-03
-      updated: 2025-02-10-21-07-32
+      updated: 2025-02-10-22-07-41
       followers: 673
-      likes: 28
-      views: 105
+      likes: 29
+      views: 113
 2017-02-12-1-travel-from-seyda-neen-to-balmora:
   title: Travel from Seyda Neen to Balmora
   titleRu: Путешествие из Сейда Нина в Балмору
@@ -4154,17 +4154,17 @@
       id: DFnseKAT28i
       mediaId: '18140510668337607'
       published: 2025-02-03-18-10-45
-      updated: 2025-02-09-22-02-14
+      updated: 2025-02-10-22-07-42
       followers: 1535
-      likes: 93
-      views: 312
+      likes: 94
+      views: 316
     - service: vk
       id: 2110
       published: 2025-02-03-18-10-54
-      updated: 2025-02-09-22-02-16
+      updated: 2025-02-10-22-07-43
       followers: 1059
       likes: 44
-      views: 344
+      views: 348
       reposts: 2
       comments: !c |-
         G6YCgKyLd9mEERHbmqbg0J0wvbMsjnriHg3hm1D+TH4sErRwQQpaKWClhJE9VacE8MGxAubmTGmO
@@ -4177,10 +4177,13 @@
     - service: tg
       id: 693
       published: 2025-02-03-18-11-03
-      updated: 2025-02-09-22-02-15
+      updated: 2025-02-10-22-07-43
       followers: 664
-      likes: 64
-      views: 445
+      likes: 65
+      views: 461
+      comments: !c |-
+        iyqAkZPLQnlO8kY5gACqRGltYW1vdG9kcNk+0JrQsNC6INGA0LDQtyDRgdC10LnRh9Cw0YEg0L/R
+        gNC+0YXQvtC20YMg0Y3RgtC4INC60LLQtdGB0YLRiykD
 2017-04-17-lost-and-robbed:
   title: Lost and Robbed
   titleRu: Потерян и ограблен
