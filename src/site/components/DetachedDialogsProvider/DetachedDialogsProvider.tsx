@@ -3,7 +3,6 @@ import type { SiteRouteParams } from '../../../core/entities/site-route.js';
 import { parseSiteRouteFragment, stringifySiteRouteFragment } from '../../../core/entities/site-route.js';
 import { useHash } from '../../hooks/useHash.js';
 import { ContributingDialog } from '../ContributingDialog/ContributingDialog.jsx';
-import { DataPatchDialog } from '../DataPatchDialog/DataPatchDialog.jsx';
 import { PostEditingDialog } from '../PostEditingDialog/PostEditingDialog.jsx';
 import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.jsx';
 import { PostMergeDialog } from '../PostMergeDialog/PostMergeDialog.jsx';
@@ -31,7 +30,6 @@ const detachedDialogs = {
   subscription: SubscriptionDialog,
   contributing: ContributingDialog,
   sponsorship: SponsorshipDialog,
-  'data-patch': DataPatchDialog,
 } satisfies Record<string, DetachedDialog | undefined>;
 
 export type DialogName = keyof typeof detachedDialogs;
@@ -70,7 +68,11 @@ export const DetachedDialogsProvider: Component<DialogsProviderProps> = (props: 
 
       <For each={Object.entries(detachedDialogs)}>
         {([dialogName, Dialog]) => (
-          <Dialog show={Boolean(fragment()[dialogName])} onClose={() => setHash('')} params={fragment()[dialogName]!} />
+          <Dialog
+            show={Boolean(fragment()[dialogName])}
+            onClose={() => setHash('')}
+            params={fragment()[dialogName] ?? {}}
+          />
         )}
       </For>
     </>

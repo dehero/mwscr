@@ -1,7 +1,9 @@
 import { writeClipboard } from '@solid-primitives/clipboard';
 import type { UploadFile } from '@solid-primitives/upload';
 import { createDropzone, createFileUploader } from '@solid-primitives/upload';
+import clsx from 'clsx';
 import JsFileDownloader from 'js-file-downloader';
+import type { Component } from 'solid-js';
 import { createMemo, createSignal, Show } from 'solid-js';
 import {
   dataPatchToString,
@@ -17,19 +19,19 @@ import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
 import { Button } from '../Button/Button.jsx';
-import {
-  createDetachedDialogFragment,
-  type DetachedDialog,
-} from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
-import { Dialog } from '../Dialog/Dialog.jsx';
+import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Frame } from '../Frame/Frame.jsx';
 import { Select } from '../Select/Select.jsx';
 import type { TableRow } from '../Table/Table.jsx';
 import { Table } from '../Table/Table.jsx';
 import { useToaster } from '../Toaster/Toaster.jsx';
-import styles from './DataPatchDialog.module.css';
+import styles from './DataPatchEditor.module.css';
 
-export const DataPatchDialog: DetachedDialog = (props) => {
+export interface DataPatchEditorProps {
+  class?: string;
+}
+
+export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
   const { addToast, messageBox } = useToaster();
 
   const processUploadFiles = async (items: UploadFile[]) => {
@@ -120,13 +122,15 @@ export const DataPatchDialog: DetachedDialog = (props) => {
           value: manager.patchSize,
           link:
             postsRoute.createUrl({ managerName: manager.name, status: ANY_OPTION.value }) +
-            createDetachedDialogFragment('data-patch'),
+            createDetachedDialogFragment('contributing'),
         }),
       ),
       {
         label: 'Users',
         value: dataManager.users.patchSize,
-        link: usersRoute.createUrl({ status: ANY_OPTION.value }) + createDetachedDialogFragment('data-patch'),
+        link:
+          usersRoute.createUrl({ status: ANY_OPTION.value }) +
+          createDetachedDialogFragment('contributing', { tab: 'patch' }),
       },
     ]);
 
@@ -161,41 +165,37 @@ export const DataPatchDialog: DetachedDialog = (props) => {
   });
 
   return (
-    <Dialog title="Local Patch" modal {...props} actions={[<Button onClick={props.onClose}>OK</Button>]}>
-      <div class={styles.container}>
-        <p class={styles.text}>
-          Edit posts locally, then send all edits as a single patch. Use context menu to speed up.
-        </p>
+    <div class={clsx(styles.container, props.class)}>
+      <p class={styles.text}>Make edits, then send them as a single patch. Use context menu to speed up.</p>
 
-        <div class={styles.toolbar}>
-          <Button onClick={handleImport}>Import</Button>
-          <Button onClick={handleExport}>Export</Button>
-          <Button onClick={handleCopy}>Copy</Button>
-          <Button onClick={handleClear}>Reset</Button>
-        </div>
-
-        <Frame class={styles.tableWrapper} ref={dropzoneRef}>
-          <Show when={patchSize() > 0} fallback={<span class={styles.fallback}>No patch</span>}>
-            <Table label="Patch" value={patchSize()} rows={rows()} />
-          </Show>
-        </Frame>
-
-        <div class={styles.toolbar}>
-          <Select
-            options={[
-              { label: 'Create GitHub Issue', value: 'github-issue' },
-              { label: 'Send via email', value: 'email' },
-            ]}
-            value={submitVariant()}
-            onChange={setSubmitVariant}
-            class={styles.submitVariant}
-          />
-
-          <Button {...submitButtonProps()} onClick={handleSubmit}>
-            Send
-          </Button>
-        </div>
+      <div class={styles.toolbar}>
+        <Button onClick={handleImport}>Import</Button>
+        <Button onClick={handleExport}>Export</Button>
+        <Button onClick={handleCopy}>Copy</Button>
+        <Button onClick={handleClear}>Reset</Button>
       </div>
-    </Dialog>
+
+      <Frame class={styles.tableWrapper} ref={dropzoneRef}>
+        <Show when={patchSize() > 0} fallback={<span class={styles.fallback}>No unsaved edits</span>}>
+          <Table label="Unsaved Edits" value={patchSize()} rows={rows()} />
+        </Show>
+      </Frame>
+
+      <div class={styles.toolbar}>
+        <Select
+          options={[
+            { label: 'Create GitHub Issue', value: 'github-issue' },
+            { label: 'Send via email', value: 'email' },
+          ]}
+          value={submitVariant()}
+          onChange={setSubmitVariant}
+          class={styles.submitVariant}
+        />
+
+        <Button {...submitButtonProps()} onClick={handleSubmit}>
+          Send
+        </Button>
+      </div>
+    </div>
   );
 };

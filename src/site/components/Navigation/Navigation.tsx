@@ -13,7 +13,6 @@ import { usersRoute } from '../../routes/users-route.js';
 import { Button } from '../Button/Button.js';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Select } from '../Select/Select.js';
-import { Spacer } from '../Spacer/Spacer.js';
 import styles from './Navigation.module.css';
 
 const navigationItems = [
@@ -74,7 +73,17 @@ export const Navigation: Component = () => {
   };
 
   return (
-    <nav class={styles.nav}>
+    <nav class={styles.container}>
+      <div class={styles.shortcuts}>
+        <Button
+          href={createDetachedDialogFragment('contributing', { tab: patchSize() > 0 ? 'patch' : 'variants' })}
+          class={styles.patch}
+        >
+          <Show fallback="Contribute" when={patchSize() > 0}>
+            Contribute ({patchSize()})
+          </Show>
+        </Button>
+      </div>
       <For each={options()}>
         {(option) => (
           <Button href={option.value} active={option.value === selectedOption()?.value} class={styles.button}>
@@ -82,21 +91,13 @@ export const Navigation: Component = () => {
           </Button>
         )}
       </For>
-
       <Select
         options={options()}
         // @ts-expect-error No proper typing for navigate
         onChange={(value) => navigate(value)}
         value={selectedOption()?.value}
         class={styles.menu}
-      />
-
-      <Button href={createDetachedDialogFragment('data-patch')}>
-        Local Patch<Show when={patchSize() > 0}> ({patchSize()})</Show>
-      </Button>
-
-      <Spacer />
-
+      />{' '}
       <Show when={breadcrumbs().length > 1}>
         <span class={styles.breadcrumbs}>
           <For each={breadcrumbs()}>

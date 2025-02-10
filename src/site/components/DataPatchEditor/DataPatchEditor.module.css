@@ -21,6 +21,7 @@
   min-height: 80px;
   display: flex;
   flex-flow: column nowrap;
+  flex: 1 1;
 }
 
 .fallback {
