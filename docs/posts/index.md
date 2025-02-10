@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`40 items`
+`41 items`
+
+## <span id="2025-02-10-first-tower-of-bthuand">First Tower of Bthuand</span>
+
+`RU` Первая башня Бтуанда
+
+<a href="https://instagram.com/p/BQXP6BUFdVY/" title="2017-02-11-first-tower-of-bthuand"><img alt="store:/shots/2017-02-11-first-tower-of-bthuand.png" src="../../assets/previews/shots/2017-02-11-first-tower-of-bthuand.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`B1` `📍 Bthuand` `🚀 OpenMW` `tower` `dwemer`
+
+```
+2025-02-10-first-tower-of-bthuand
+```
+
+> `2017-02-11-first-tower-of-bthuand`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BQXP6BUFdVY/)       | 2017-02-11 |       |    27 |        83 |  32.53 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_134)  | 2017-02-11 |   169 |     8 |        30 |      8 |
+| [`ig`](https://instagram.com/p/DF5uC6lv4wa/)       | 2025-02-10 |       |       |      1533 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2121) | 2025-02-10 |       |       |      1064 |        |
+| [`tg`](https://t.me/mwscr/703)                     | 2025-02-10 |       |       |       673 |        |
+|                                                    |            |       |       |      3270 |  20.27 |
 
 ## <span id="2025-02-09-guardians-of-the-cave">Guardians of the Cave</span>
 
@@ -30,9 +57,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1140) | 2019-03-01 |   628 |    41 |       329 |  12.46 |
 | [`tg`](https://t.me/mwscr/159)                     | 2019-03-01 |   548 |     3 |           |        |
 | [`ig`](https://instagram.com/p/DF3JEd9JyL_/)       | 2025-02-09 |   158 |    51 |      1532 |   3.33 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2120) | 2025-02-09 |   162 |    27 |      1063 |   2.63 |
-| [`tg`](https://t.me/mwscr/702)                     | 2025-02-09 |   170 |    49 |       673 |   7.28 |
-|                                                    |            |   490 |   127 |      3268 |      8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2120) | 2025-02-09 |   165 |    28 |      1063 |   2.73 |
+| [`tg`](https://t.me/mwscr/702)                     | 2025-02-09 |   172 |    49 |       673 |   7.28 |
+|                                                    |            |   495 |   128 |      3268 |   8.02 |
 
 #### Comments
 
@@ -93,10 +120,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BlvxNcqFzw9/)       | 2018-07-27 |       |   113 |       363 |  31.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_829)  | 2018-07-27 |   358 |    28 |       193 |  14.51 |
-| [`ig`](https://instagram.com/p/DFx_pEkJY6I/)       | 2025-02-07 |   261 |    81 |      1534 |   5.28 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2116) | 2025-02-07 |   197 |    31 |      1062 |   2.92 |
-| [`tg`](https://t.me/mwscr/700)                     | 2025-02-07 |   220 |    52 |       670 |   7.76 |
-|                                                    |            |   678 |   164 |      3266 |  12.32 |
+| [`ig`](https://instagram.com/p/DFx_pEkJY6I/)       | 2025-02-07 |   271 |    82 |      1534 |   5.35 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2116) | 2025-02-07 |   215 |    32 |      1062 |   3.01 |
+| [`tg`](https://t.me/mwscr/700)                     | 2025-02-07 |   246 |    56 |       670 |   8.36 |
+|                                                    |            |   732 |   170 |      3266 |  12.47 |
 
 ## <span id="2025-02-06-night-watch">Night Watch</span>
 
@@ -119,10 +146,10 @@
 
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
-| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |   415 |   127 |      1534 |   8.28 |
+| [`ig`](https://instagram.com/p/DFva6jgtZhu/)       | 2025-02-06 |   437 |   135 |      1534 |    8.8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2115) | 2025-02-06 |   350 |    32 |      1061 |    3.3 |
 | [`tg`](https://t.me/mwscr/696,697,698,699)         | 2025-02-06 |   781 |    62 |       664 |   9.34 |
-|                                                    |            |  1546 |   221 |      3259 |   6.97 |
+|                                                    |            |  1568 |   229 |      3259 |   7.15 |
 
 ## <span id="2025-02-05-the-storm-is-passing">The Storm is Passing</span>
 
