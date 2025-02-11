@@ -1093,17 +1093,17 @@
     - service: vk
       id: 1814
       published: 2024-10-07-18-10-38
-      updated: 2025-02-04-07-08-26
+      updated: 2025-02-11-08-10-48
       followers: 958
       likes: 41
-      views: 323
+      views: 324
     - service: tg
       id: 557
       published: 2024-10-07-18-10-45
-      updated: 2025-02-04-07-08-25
+      updated: 2025-02-11-08-10-47
       followers: 559
       likes: 62
-      views: 484
+      views: 488
 2017-01-31-clear-sky-over-caldera:
   title: Clear Sky Over Caldera
   titleRu: Чистое небо над Кальдерой
@@ -1616,25 +1616,25 @@
       id: DF5uC6lv4wa
       mediaId: '18077453773581396'
       published: 2025-02-10-18-10-49
-      updated: 2025-02-11-07-07-58
+      updated: 2025-02-11-08-10-43
       followers: 1533
-      likes: 59
-      views: 190
+      likes: 60
+      views: 197
     - service: vk
       id: 2121
       published: 2025-02-10-18-10-56
-      updated: 2025-02-11-07-07-59
+      updated: 2025-02-11-08-10-43
       followers: 1064
       likes: 18
-      views: 112
+      views: 126
       reposts: 1
     - service: tg
       id: 703
       published: 2025-02-10-18-11-03
-      updated: 2025-02-11-07-07-59
+      updated: 2025-02-11-08-10-44
       followers: 673
       likes: 39
-      views: 151
+      views: 153
 2017-02-12-1-travel-from-seyda-neen-to-balmora:
   title: Travel from Seyda Neen to Balmora
   titleRu: Путешествие из Сейда Нина в Балмору
@@ -7134,10 +7134,10 @@
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2025-02-04-07-08-27
+      updated: 2025-02-11-08-10-49
       followers: 557
       likes: 67
-      views: 519
+      views: 521
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
