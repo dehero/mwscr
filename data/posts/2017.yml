@@ -211,14 +211,14 @@
     - service: vk
       id: 1585
       published: 2024-06-17-18-19-59
-      updated: 2025-02-04-14-08-03
+      updated: 2025-02-11-15-08-37
       followers: 918
       likes: 33
       views: 270
     - service: tg
       id: 442
       published: 2024-06-17-18-20-05
-      updated: 2025-02-04-14-08-02
+      updated: 2025-02-11-15-08-35
       followers: 385
       likes: 58
       views: 482
@@ -1616,25 +1616,28 @@
       id: DF5uC6lv4wa
       mediaId: '18077453773581396'
       published: 2025-02-10-18-10-49
-      updated: 2025-02-11-14-01-20
+      updated: 2025-02-11-15-08-27
       followers: 1533
-      likes: 66
-      views: 230
+      likes: 67
+      views: 233
     - service: vk
       id: 2121
       published: 2025-02-10-18-10-56
-      updated: 2025-02-11-14-01-21
+      updated: 2025-02-11-15-08-27
       followers: 1064
       likes: 19
-      views: 156
+      views: 167
       reposts: 1
+      comments: !c |-
+        ixyAkZPLQnlPVZCugACraWQ4MjA3MDI2NjTZIdCQINGN0YLQviDQs9C00LUg0L3QsCDQutCw0YDR
+        gtC1PwM=
     - service: tg
       id: 703
       published: 2025-02-10-18-11-03
-      updated: 2025-02-11-14-01-21
+      updated: 2025-02-11-15-08-28
       followers: 673
-      likes: 42
-      views: 167
+      likes: 43
+      views: 169
 2017-02-12-1-travel-from-seyda-neen-to-balmora:
   title: Travel from Seyda Neen to Balmora
   titleRu: Путешествие из Сейда Нина в Балмору
@@ -5712,7 +5715,7 @@
     - service: vk
       id: 1610
       published: 2024-07-01-18-20-13
-      updated: 2025-02-04-14-08-03
+      updated: 2025-02-11-15-08-36
       followers: 918
       likes: 54
       views: 329
@@ -5720,10 +5723,10 @@
     - service: tg
       id: 456
       published: 2024-07-01-18-20-19
-      updated: 2025-02-04-14-08-01
+      updated: 2025-02-11-15-08-34
       followers: 390
       likes: 61
-      views: 480
+      views: 482
     - service: ig
       id: C9N-Whvuckx
       mediaId: '18031847912032202'
@@ -7237,7 +7240,7 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2025-02-04-14-08-01
+      updated: 2025-02-11-15-08-35
       followers: 919
       likes: 37
       views: 291
@@ -7251,7 +7254,7 @@
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2025-02-04-14-08-00
+      updated: 2025-02-11-15-08-34
       followers: 395
       likes: 60
       views: 495
@@ -10004,7 +10007,7 @@
     - service: vk
       id: 1688
       published: 2024-08-12-18-30-39
-      updated: 2025-02-04-14-07-56
+      updated: 2025-02-11-15-08-30
       followers: 931
       likes: 41
       views: 307
@@ -10012,10 +10015,10 @@
     - service: tg
       id: 499
       published: 2024-08-12-18-30-46
-      updated: 2025-02-04-14-07-56
+      updated: 2025-02-11-15-08-30
       followers: 523
       likes: 60
-      views: 582
+      views: 584
       comments: !c |-
         G44A4MX/Oi0CGX8WDsU7YHi3p9S/V8UaaGviB3QecLPiWqVZOaJFmgQeslZeTDbmtTv+4o1/eGee
         dyuYUx1zKvoyrJipVECQqqtIHQhO4aM4sZ4q+pfzvVoqSC1Z9YZgJZ+Pe9FXVBHYXK00xLDdoNJg
@@ -10160,7 +10163,7 @@
     - service: vk
       id: 1650
       published: 2024-07-22-18-20-29
-      updated: 2025-02-04-14-07-59
+      updated: 2025-02-11-15-08-33
       followers: 920
       likes: 38
       views: 309
@@ -10172,10 +10175,10 @@
     - service: tg
       id: 477
       published: 2024-07-22-18-20-38
-      updated: 2025-02-04-14-07-58
+      updated: 2025-02-11-15-08-32
       followers: 400
       likes: 64
-      views: 600
+      views: 601
 2017-09-28-mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
@@ -10714,7 +10717,7 @@
     - service: vk
       id: 1638
       published: 2024-07-15-18-20-44
-      updated: 2025-02-04-14-08-00
+      updated: 2025-02-11-15-08-34
       followers: 919
       likes: 42
       views: 269
@@ -10722,10 +10725,10 @@
     - service: tg
       id: 470
       published: 2024-07-15-18-20-51
-      updated: 2025-02-04-14-07-59
+      updated: 2025-02-11-15-08-33
       followers: 399
       likes: 62
-      views: 782
+      views: 784
 2017-10-15-mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров
