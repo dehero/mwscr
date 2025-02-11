@@ -1616,28 +1616,29 @@
       id: DF5uC6lv4wa
       mediaId: '18077453773581396'
       published: 2025-02-10-18-10-49
-      updated: 2025-02-11-18-08-57
+      updated: 2025-02-11-19-01-38
       followers: 1533
       likes: 70
-      views: 242
+      views: 246
     - service: vk
       id: 2121
       published: 2025-02-10-18-10-56
-      updated: 2025-02-11-18-08-57
+      updated: 2025-02-11-19-01-39
       followers: 1064
       likes: 19
-      views: 183
+      views: 187
       reposts: 1
       comments: !c |-
-        ixyAkZPLQnlPVZCugACraWQ4MjA3MDI2NjTZIdCQINGN0YLQviDQs9C00LUg0L3QsCDQutCw0YDR
-        gtC1PwM=
+        CzeAkpPLQnlPVZCugACraWQ4MjA3MDI2NjTZIdCQINGN0YLQviDQs9C00LUg0L3QsCDQutCw0YDR
+        gtC1P5PLQnlPZUSzgACvbWVnYWNoaWYxMTc4ODk2utCg0LXRgtGA0LDQs9GA0LDQtNGB0YLQstC+
+        Aw==
     - service: tg
       id: 703
       published: 2025-02-10-18-11-03
-      updated: 2025-02-11-18-08-58
+      updated: 2025-02-11-19-01-39
       followers: 673
-      likes: 43
-      views: 176
+      likes: 45
+      views: 196
 2017-02-12-1-travel-from-seyda-neen-to-balmora:
   title: Travel from Seyda Neen to Balmora
   titleRu: Путешествие из Сейда Нина в Балмору
@@ -8568,15 +8569,25 @@
       id: DF8SqGItDLm
       mediaId: '18062621761902568'
       published: 2025-02-11-18-09-13
+      updated: 2025-02-11-19-01-37
       followers: 1534
+      likes: 16
+      views: 35
     - service: vk
       id: 2123
       published: 2025-02-11-18-09-21
+      updated: 2025-02-11-19-01-38
       followers: 1065
+      likes: 13
+      views: 38
     - service: tg
       id: 704
       published: 2025-02-11-18-09-30
+      updated: 2025-02-11-19-01-38
       followers: 672
+      likes: 24
+      views: 83
+      comments: !c ixKAkZPLQnlPY0INgACnQmFyYUZveLJIdWgsIHdoZXJlJ3MgdGhhdD8D
 2017-08-14-maiq-the-liar:
   title: M'Aiq the Liar
   titleRu: М'Айк Лжец
