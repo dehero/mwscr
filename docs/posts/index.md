@@ -4,7 +4,38 @@
 
 # Posted in 2025
 
-`41 items`
+`42 items`
+
+## <span id="2025-02-11-hanud">Hanud</span>
+
+`RU` Хануд
+
+<a href="https://instagram.com/p/BXuuXHvDyDT/" title="2017-08-13-hanud"><img alt="store:/shots/2017-08-13-hanud.png" src="../../assets/previews/shots/2017-08-13-hanud.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`A2` `📍 Hanud` `🚀 OpenMW`
+
+```
+2025-02-11-hanud
+```
+
+> `2017-08-13-hanud`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BXuuXHvDyDT/)       | 2017-08-13 |       |    57 |       192 |  29.69 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_391)  | 2017-08-13 |   117 |     8 |        74 |  10.81 |
+| [`ig`](https://instagram.com/p/DF8SqGItDLm/)       | 2025-02-11 |       |       |      1534 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2123) | 2025-02-11 |       |       |      1065 |        |
+| [`tg`](https://t.me/mwscr/704)                     | 2025-02-11 |       |       |       672 |        |
+|                                                    |            |       |       |      3271 |  20.25 |
+
+#### Comments
+
+- `ig` <ins title="2017-08-13-10-33-02">l3nku</ins> ×mood
 
 ## <span id="2025-02-10-first-tower-of-bthuand">First Tower of Bthuand</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BQXP6BUFdVY/)       | 2017-02-11 |       |    27 |        83 |  32.53 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_134)  | 2017-02-11 |   169 |     8 |        30 |      8 |
-| [`ig`](https://instagram.com/p/DF5uC6lv4wa/)       | 2025-02-10 |   239 |    69 |      1533 |    4.5 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2121) | 2025-02-10 |   173 |    19 |      1064 |   1.88 |
-| [`tg`](https://t.me/mwscr/703)                     | 2025-02-10 |   175 |    43 |       673 |   6.39 |
-|                                                    |            |   587 |   131 |      3270 |  10.66 |
+| [`ig`](https://instagram.com/p/DF5uC6lv4wa/)       | 2025-02-10 |   242 |    70 |      1533 |   4.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2121) | 2025-02-10 |   183 |    19 |      1064 |   1.88 |
+| [`tg`](https://t.me/mwscr/703)                     | 2025-02-10 |   176 |    43 |       673 |   6.39 |
+|                                                    |            |   601 |   132 |      3270 |  10.67 |
 
 #### Comments
 
@@ -60,10 +91,10 @@
 | [`ig`](https://instagram.com/p/BudTo8ThXO7/)       | 2019-03-01 |       |   112 |       783 |   14.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1140) | 2019-03-01 |   628 |    41 |       329 |  12.46 |
 | [`tg`](https://t.me/mwscr/159)                     | 2019-03-01 |   548 |     3 |           |        |
-| [`ig`](https://instagram.com/p/DF3JEd9JyL_/)       | 2025-02-09 |   191 |    56 |      1532 |   3.66 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2120) | 2025-02-09 |   188 |    28 |      1063 |   2.73 |
-| [`tg`](https://t.me/mwscr/702)                     | 2025-02-09 |   222 |    53 |       673 |   7.88 |
-|                                                    |            |   601 |   137 |      3268 |    8.2 |
+| [`ig`](https://instagram.com/p/DF3JEd9JyL_/)       | 2025-02-09 |   192 |    56 |      1532 |   3.66 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2120) | 2025-02-09 |   191 |    28 |      1063 |   2.73 |
+| [`tg`](https://t.me/mwscr/702)                     | 2025-02-09 |   223 |    53 |       673 |   7.88 |
+|                                                    |            |   606 |   137 |      3268 |    8.2 |
 
 #### Comments
 
