@@ -1616,17 +1616,17 @@
       id: DF5uC6lv4wa
       mediaId: '18077453773581396'
       published: 2025-02-10-18-10-49
-      updated: 2025-02-11-23-01-20
+      updated: 2025-02-12-00-36-08
       followers: 1533
       likes: 71
-      views: 255
+      views: 257
     - service: vk
       id: 2121
       published: 2025-02-10-18-10-56
-      updated: 2025-02-11-23-01-21
+      updated: 2025-02-12-00-36-08
       followers: 1064
-      likes: 19
-      views: 195
+      likes: 20
+      views: 200
       reposts: 1
       comments: !c |-
         CzeAkpPLQnlPVZCugACraWQ4MjA3MDI2NjTZIdCQINGN0YLQviDQs9C00LUg0L3QsCDQutCw0YDR
@@ -1635,7 +1635,7 @@
     - service: tg
       id: 703
       published: 2025-02-10-18-11-03
-      updated: 2025-02-11-23-01-20
+      updated: 2025-02-12-00-36-09
       followers: 673
       likes: 50
       views: 207
@@ -8569,24 +8569,25 @@
       id: DF8SqGItDLm
       mediaId: '18062621761902568'
       published: 2025-02-11-18-09-13
-      updated: 2025-02-11-23-01-19
+      updated: 2025-02-12-00-36-07
       followers: 1534
-      likes: 33
-      views: 114
+      likes: 36
+      views: 123
     - service: vk
       id: 2123
       published: 2025-02-11-18-09-21
-      updated: 2025-02-11-23-01-19
+      updated: 2025-02-12-00-36-07
       followers: 1065
-      likes: 20
-      views: 86
+      likes: 23
+      views: 97
+      reposts: 1
     - service: tg
       id: 704
       published: 2025-02-11-18-09-30
-      updated: 2025-02-11-23-01-19
+      updated: 2025-02-12-00-36-08
       followers: 672
-      likes: 41
-      views: 119
+      likes: 43
+      views: 126
       comments: !c ixKAkZPLQnlPY0INgACnQmFyYUZveLJIdWgsIHdoZXJlJ3MgdGhhdD8D
 2017-08-14-maiq-the-liar:
   title: M'Aiq the Liar
