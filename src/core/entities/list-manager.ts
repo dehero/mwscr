@@ -486,13 +486,15 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
    * If a chunk exists, it will be overwritten.
    */
   async save() {
+    await this.applyPatch();
+
     const patchChunkNames = this.getPatchChunkNames();
 
     for (const chunkName of patchChunkNames) {
       await this.saveChunk(chunkName);
     }
 
-    await this.applyPatch();
+    this.clearPatch();
   }
 
   protected createItemId(_item: TItem): string | undefined {
@@ -599,8 +601,6 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     }
 
     this.skipProxy = false;
-
-    this.clearPatch();
   }
 
   clearPatch() {
