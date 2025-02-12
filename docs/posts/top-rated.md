@@ -581,7 +581,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` `📍 Vivec, Temple` `🚀 OpenMW` `moon`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-05-25-the-one-who-holds-baar-dau&postLocation=)</code> `🚀 OpenMW` `moon`
 
 ```
 2018-05-25-the-one-who-holds-baar-dau
@@ -719,7 +719,7 @@
 > Очень хочется фото скампа торговца!!! Я давно не был у него в гостях в Кальдере, интересно, как он поживает..?  
 > [Владимир](../contributors.md#id172608176 "2018-10-31")
 
-`A2` `📍 Caldera, Ghorak Manor` `🚀 OpenMW` `scamp` `dagger`
+`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-10-31-creeper-and-dagger&postLocation=)</code> `🚀 OpenMW` `scamp` `dagger`
 
 ```
 2018-10-31-creeper-and-dagger
