@@ -2,6 +2,41 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.35.0](https://github.com/dehero/mwscr/compare/v1.34.0...v1.35.0) (2025-02-12)
+
+### Features
+
+- reimplement ListManager using proxied chunks and patch
+  ([919a67e](https://github.com/dehero/mwscr/commit/919a67e98747a802047413c8cd5c82e93f16b4a6))
+- **site:** add Edits posts page preset
+  ([237d679](https://github.com/dehero/mwscr/commit/237d679e10c9cbe07fdf29c439977e06824a49d9))
+- **site:** add text shadow to all controls floating above world map
+  ([c6f044f](https://github.com/dehero/mwscr/commit/c6f044fa084bc2a1fa48dca8d145349edd270eba))
+- **site:** combine Contributing and Patch dialogs, improve navigation bar
+  ([3304d29](https://github.com/dehero/mwscr/commit/3304d290fdd34e7d46f089e70f59c06615e2c801))
+- **site:** decrease HTML and JSON caching tme
+  ([0e89b8d](https://github.com/dehero/mwscr/commit/0e89b8d4bc4a659ea7dbe9d1b5aa9af5a24a799c))
+- **site:** implement mass posts editing using local patch
+  ([01d7e64](https://github.com/dehero/mwscr/commit/01d7e64032300ab38bab93efd7eb5bf61f29d837))
+- **site:** implement posts selecting and merging
+  ([c349963](https://github.com/dehero/mwscr/commit/c3499635c5c12a968a6e38e51407ef14db93d95a))
+- **site:** improve posts page parameters and actions
+  ([ffa5d8c](https://github.com/dehero/mwscr/commit/ffa5d8cc9a011c5ea555f865b5ed5a0a56cbbfd6))
+
+### Bug Fixes
+
+- create new arrays when merging entities
+  ([44d8c8f](https://github.com/dehero/mwscr/commit/44d8c8fa863ee883126b4b05c757dfb50609882c))
+- resolve ListManagerChunkProxy issues
+  ([1bd9c6f](https://github.com/dehero/mwscr/commit/1bd9c6fa8ee93cdb66302567a89e7fc5b6b14148))
+- resolve new ListManager implementation bugs
+  ([e280ba1](https://github.com/dehero/mwscr/commit/e280ba18ad630754e065bb6c6935945c39463055))
+
+### Code Refactoring
+
+- move tags stripping to Post schema transformation
+  ([dde6574](https://github.com/dehero/mwscr/commit/dde65742a744819b8452e90e7b8decb60cb5cadb))
+
 ## [1.34.0](https://github.com/dehero/mwscr/compare/v1.33.2...v1.34.0) (2025-02-02)
 
 ### Features
