@@ -49,7 +49,7 @@ export function isPublicationEqual(a: Publication, b: Publication) {
   );
 }
 export function mergePublications(posts1: Publication[] | undefined, posts2: Publication[] | undefined) {
-  const result = asArray(posts1);
+  const result = [...asArray(posts1)];
 
   for (const publication2 of posts2 ?? []) {
     const publication1 = result.find((publication1) => isPublicationEqual(publication1, publication2));

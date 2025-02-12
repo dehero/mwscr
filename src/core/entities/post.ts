@@ -475,7 +475,7 @@ export function mergePostWith(post: Post, withPost: Post) {
 }
 
 export function mergeAuthors(author1: PostAuthor | undefined, author2?: PostAuthor | undefined) {
-  const result = asArray(author1);
+  const result = [...asArray(author1)];
   const users2 = asArray(author2);
 
   for (const user2 of users2) {
@@ -488,7 +488,7 @@ export function mergeAuthors(author1: PostAuthor | undefined, author2?: PostAuth
 }
 
 export function mergePostContents(content1: PostContent | undefined, content2?: PostContent | undefined) {
-  const result = asArray(content1);
+  const result = [...asArray(content1)];
   const urls2 = asArray(content2);
 
   for (const url2 of urls2) {
