@@ -28,6 +28,11 @@
   overflow: hidden;
   text-overflow: ellipsis;
   flex: 1 1 auto;
+  text-align: center;
+}
+
+.toolbar.withActions .label {
+  text-align: end;
 }
 
 .actions {
