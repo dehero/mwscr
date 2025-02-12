@@ -631,18 +631,18 @@
     - service: vk
       id: 1699
       published: 2024-08-20-18-20-17
-      updated: 2025-02-05-12-14-36
+      updated: 2025-02-12-18-34-44
       followers: 936
       likes: 45
-      views: 316
+      views: 317
       reposts: 4
     - service: tg
       id: 507
       published: 2024-08-20-18-20-26
-      updated: 2025-02-05-12-14-36
+      updated: 2025-02-12-18-34-43
       followers: 534
       likes: 61
-      views: 637
+      views: 640
 2017-01-21-building-akulakhan:
   title: Building Akulakhan
   titleRu: Строительство Акулахана
@@ -1344,7 +1344,7 @@
     - service: vk
       id: 1598
       published: 2024-06-25-18-21-05
-      updated: 2025-02-05-12-14-44
+      updated: 2025-02-12-18-34-52
       followers: 917
       likes: 44
       views: 324
@@ -1352,10 +1352,10 @@
     - service: tg
       id: 450
       published: 2024-06-25-18-21-11
-      updated: 2025-02-05-12-14-42
+      updated: 2025-02-12-18-34-48
       followers: 388
       likes: 64
-      views: 584
+      views: 585
 2017-02-06-maurrie-is-waiting-for-nelos:
   title: Maurrie Is Waiting for Nelos
   titleRu: Морри ждёт Нелоса
@@ -1543,7 +1543,7 @@
     - service: vk
       id: 1532
       published: 2024-05-14-18-18-38
-      updated: 2025-02-05-15-08-06
+      updated: 2025-02-12-18-34-58
       followers: 915
       likes: 47
       views: 328
@@ -1551,7 +1551,7 @@
     - service: tg
       id: 408
       published: 2024-05-14-18-18-46
-      updated: 2025-02-05-15-08-06
+      updated: 2025-02-12-18-34-52
       followers: 370
       likes: 61
       views: 449
@@ -5072,18 +5072,18 @@
     - service: vk
       id: 1639
       published: 2024-07-16-18-20-48
-      updated: 2025-02-05-12-14-41
+      updated: 2025-02-12-18-34-49
       followers: 919
       likes: 28
-      views: 260
+      views: 261
       reposts: 1
     - service: tg
       id: 471
       published: 2024-07-16-18-20-54
-      updated: 2025-02-05-12-14-40
+      updated: 2025-02-12-18-34-46
       followers: 400
       likes: 54
-      views: 555
+      views: 557
 2017-05-09-youd-better-do-what-they-say:
   title: You'd Better Do What They Say
   titleRu: Вам лучше сделать, как они говорят
@@ -8569,26 +8569,26 @@
       id: DF8SqGItDLm
       mediaId: '18062621761902568'
       published: 2025-02-11-18-09-13
-      updated: 2025-02-12-11-01-21
+      updated: 2025-02-12-18-34-39
       followers: 1534
-      likes: 42
-      views: 171
+      likes: 46
+      views: 186
     - service: vk
       id: 2123
       published: 2025-02-11-18-09-21
-      updated: 2025-02-12-11-01-22
+      updated: 2025-02-12-18-34-39
       followers: 1065
-      likes: 32
-      views: 160
+      likes: 33
+      views: 184
       reposts: 1
       comments: !c ixaAkZPLQnlPl8ddgACraWQ1OTkzMjAwNjm20KLQsNC8INCy0LDQvNC/0LjRgNGLPwM=
     - service: tg
       id: 704
       published: 2025-02-11-18-09-30
-      updated: 2025-02-12-11-01-22
+      updated: 2025-02-12-18-34-40
       followers: 672
       likes: 55
-      views: 170
+      views: 178
       comments: !c ixKAkZPLQnlPY0INgACnQmFyYUZveLJIdWgsIHdoZXJlJ3MgdGhhdD8D
 2017-08-14-maiq-the-liar:
   title: M'Aiq the Liar
@@ -9027,17 +9027,17 @@
     - service: vk
       id: 1587
       published: 2024-06-18-18-20-59
-      updated: 2025-02-05-12-14-45
+      updated: 2025-02-12-18-34-53
       followers: 917
       likes: 37
       views: 273
     - service: tg
       id: 443
       published: 2024-06-18-18-21-06
-      updated: 2025-02-05-12-14-43
+      updated: 2025-02-12-18-34-48
       followers: 385
       likes: 56
-      views: 473
+      views: 474
 2017-08-26-raven-rock:
   title: Raven Rock
   titleRu: Воронья Скала
@@ -9679,17 +9679,17 @@
     - service: vk
       id: 1661
       published: 2024-07-30-18-20-32
-      updated: 2025-02-05-12-14-39
+      updated: 2025-02-12-18-34-47
       followers: 924
       likes: 32
       views: 253
     - service: tg
       id: 485
       published: 2024-07-30-18-20-38
-      updated: 2025-02-05-12-14-38
+      updated: 2025-02-12-18-34-45
       followers: 418
       likes: 52
-      views: 657
+      views: 659
 2017-09-14-abandoned-island:
   title: Abandoned Island
   titleRu: Покинутый остров
@@ -12380,7 +12380,7 @@
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
-      updated: 2025-02-05-17-03-49
+      updated: 2025-02-12-18-35-00
       followers: 909
       likes: 40
       views: 304
@@ -12391,10 +12391,10 @@
     - service: tg
       id: 387
       published: 2024-04-23-18-17-22
-      updated: 2025-02-05-15-08-07
+      updated: 2025-02-12-18-34-53
       followers: 355
       likes: 62
-      views: 1156
+      views: 1157
       comments: !c |-
         ix+AkpPLQnjxEjRDgACobW9uZ2xlcmmtQ2l0eSBvZiBNYWdpY5PLQnjw/03igAClYW5zaXOtQ2l0
         eSBvZiBMaWdodAM=

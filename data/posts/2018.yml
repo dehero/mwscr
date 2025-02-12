@@ -576,7 +576,7 @@
     - service: vk
       id: 1497
       published: 2024-04-16-18-16-52
-      updated: 2025-02-05-17-03-49
+      updated: 2025-02-12-18-35-01
       followers: 910
       likes: 33
       views: 285
@@ -584,7 +584,7 @@
     - service: tg
       id: 380
       published: 2024-04-16-18-16-59
-      updated: 2025-02-05-15-08-08
+      updated: 2025-02-12-18-34-54
       followers: 353
       likes: 59
       views: 457
@@ -851,10 +851,10 @@
     - service: vk
       id: 1747
       published: 2024-09-10-23-20-58
-      updated: 2025-02-05-15-08-04
+      updated: 2025-02-12-18-34-43
       followers: 945
       likes: 28
-      views: 355
+      views: 357
       comments: !c |-
         G/4AWJwHtvOUwOL5VzcQDEQF3UgP6NXjyEowwmQWsjlrzYTVezIejvaTSrupm0/y52u1NJPsqWlz
         iCUYwYPkdRgZTlpoxmmCAWks3YPRZCQDHGzA8QzbqNEI++PP+6cN/P6nXd/VlEykDBPrH+9cMdy9
@@ -863,10 +863,10 @@
     - service: tg
       id: 528
       published: 2024-09-10-23-21-05
-      updated: 2025-02-05-15-08-03
+      updated: 2025-02-12-18-34-42
       followers: 554
       likes: 55
-      views: 548
+      views: 549
 2018-01-24-in-the-misty-emptiness:
   title: In the Misty Emptiness
   titleRu: В туманной пустоте
@@ -1106,14 +1106,14 @@
     - service: vk
       id: 1514
       published: 2024-04-30-20-27-56
-      updated: 2025-02-05-18-10-36
+      updated: 2025-02-12-18-34-59
       followers: 911
       likes: 30
       views: 238
     - service: tg
       id: 394
       published: 2024-04-30-20-28-22
-      updated: 2025-02-05-17-03-46
+      updated: 2025-02-12-18-34-53
       followers: 363
       likes: 67
       views: 500
@@ -1240,18 +1240,18 @@
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2025-02-05-12-14-38
+      updated: 2025-02-12-18-34-46
       followers: 926
       likes: 28
-      views: 282
+      views: 283
       reposts: 1
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2025-02-05-12-14-37
+      updated: 2025-02-12-18-34-44
       followers: 502
       likes: 70
-      views: 640
+      views: 643
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -3056,7 +3056,7 @@
     - service: vk
       id: 1550
       published: 2024-05-28-18-19-10
-      updated: 2025-02-05-12-14-46
+      updated: 2025-02-12-18-34-56
       followers: 917
       likes: 25
       views: 290
@@ -3067,10 +3067,10 @@
     - service: tg
       id: 422
       published: 2024-05-28-18-19-16
-      updated: 2025-02-05-12-14-44
+      updated: 2025-02-12-18-34-50
       followers: 378
       likes: 64
-      views: 454
+      views: 455
 2018-03-25-ships:
   title: Ships
   titleRu: Корабли
@@ -4140,14 +4140,14 @@
     - service: vk
       id: 1540
       published: 2024-05-21-18-18-53
-      updated: 2025-02-05-15-08-05
+      updated: 2025-02-12-18-34-57
       followers: 916
       likes: 26
       views: 297
     - service: tg
       id: 415
       published: 2024-05-21-18-18-59
-      updated: 2025-02-05-15-08-05
+      updated: 2025-02-12-18-34-51
       followers: 373
       likes: 57
       views: 482
@@ -4833,7 +4833,7 @@
     - service: vk
       id: 1628
       published: 2024-07-09-18-20-20
-      updated: 2025-02-05-12-14-42
+      updated: 2025-02-12-18-34-50
       followers: 920
       likes: 35
       views: 259
@@ -4841,7 +4841,7 @@
     - service: tg
       id: 464
       published: 2024-07-09-18-20-26
-      updated: 2025-02-05-12-14-40
+      updated: 2025-02-12-18-34-46
       followers: 396
       likes: 69
       views: 474
@@ -5672,7 +5672,7 @@
 2018-06-02-mournhold-cactus:
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
-  location: "Mournhold, Royal Palace: Guards' Quarters"
+  location: 'Mournhold, Royal Palace: Guards'' Quarters'
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   author: dehero
@@ -5936,10 +5936,10 @@
     - service: vk
       id: 1611
       published: 2024-07-02-18-20-16
-      updated: 2025-02-05-12-14-43
+      updated: 2025-02-12-18-34-51
       followers: 918
       likes: 40
-      views: 388
+      views: 390
       reposts: 1
       comments: !c |-
         G7oA+B2JsY2aLays8sOF+H+ek+kEv012hj7ETpJg4sl9RqnbLCF6DMViH+fi9Hxa3tQsSkXyY/xs
@@ -5948,10 +5948,10 @@
     - service: tg
       id: 457
       published: 2024-07-02-18-20-23
-      updated: 2025-02-05-12-14-41
+      updated: 2025-02-12-18-34-47
       followers: 391
       likes: 58
-      views: 446
+      views: 448
     - service: ig
       id: C9O19DjtjrY
       mediaId: '17907523406989990'
@@ -12043,6 +12043,14 @@
       mediaId: '1'
       published: 2025-05-12-18-11-14
       followers: 1534
+    - service: vk
+      id: 2126
+      published: 2025-02-12-18-35-09
+      followers: 1066
+    - service: tg
+      id: 705
+      published: 2025-02-12-18-35-16
+      followers: 674
 2018-11-19-the-city-of-gondolas:
   title: The City of Gondolas
   titleRu: Город гондол

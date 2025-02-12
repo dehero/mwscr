@@ -4,7 +4,39 @@
 
 # Posted in 2025
 
-`42 items`
+`43 items`
+
+## <span id="2025-02-13-horror-of-the-red-corridor">Horror of the Red Corridor</span>
+
+`RU` Ужас красного коридора
+
+<a href="https://instagram.com/p/BqVKLbFhIw8/" title="2018-11-18-horror-of-the-red-corridor"><img alt="store:/shots/2018-11-18-horror-of-the-red-corridor.png" src="../../assets/previews/shots/2018-11-18-horror-of-the-red-corridor.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-13-horror-of-the-red-corridor&postLocation=)</code> `🚀 OpenMW`
+
+```
+2025-02-13-horror-of-the-red-corridor
+```
+
+> `2018-11-18-horror-of-the-red-corridor`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/BqVKLbFhIw8/)       | 2018-11-18 |       |   119 |       474 |  25.11 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1058) | 2018-11-18 |   535 |    37 |       286 |  12.94 |
+| [`tg`](https://t.me/mwscr/122)                     | 2018-11-18 |   366 |     3 |           |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2126) | 2025-02-12 |       |       |      1066 |        |
+| [`tg`](https://t.me/mwscr/705)                     | 2025-02-12 |       |       |       674 |        |
+| [`ig`](https://instagram.com/p/DF-3pqzpcCB/)       | 2025-05-12 |       |       |      1534 |        |
+|                                                    |            |       |       |           |  19.02 |
+
+#### Comments
+
+- `vk` <ins title="2018-11-18-18-20-48">dead___end</ins> очень страшно 😰
 
 ## <span id="2025-02-11-hanud">Hanud</span>
 
@@ -28,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BXuuXHvDyDT/)       | 2017-08-13 |       |    57 |       192 |  29.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_391)  | 2017-08-13 |   117 |     8 |        74 |  10.81 |
-| [`ig`](https://instagram.com/p/DF8SqGItDLm/)       | 2025-02-11 |   171 |    42 |      1534 |   2.74 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2123) | 2025-02-11 |   160 |    32 |      1065 |    3.1 |
-| [`tg`](https://t.me/mwscr/704)                     | 2025-02-11 |   170 |    55 |       672 |   8.18 |
-|                                                    |            |   501 |   129 |      3271 |   10.9 |
+| [`ig`](https://instagram.com/p/DF8SqGItDLm/)       | 2025-02-11 |   186 |    46 |      1534 |      3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2123) | 2025-02-11 |   184 |    33 |      1065 |   3.19 |
+| [`tg`](https://t.me/mwscr/704)                     | 2025-02-11 |   178 |    55 |       672 |   8.18 |
+|                                                    |            |   548 |   134 |      3271 |  10.97 |
 
 #### Comments
 
@@ -94,10 +126,10 @@
 | [`ig`](https://instagram.com/p/BudTo8ThXO7/)       | 2019-03-01 |       |   112 |       783 |   14.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1140) | 2019-03-01 |   628 |    41 |       329 |  12.46 |
 | [`tg`](https://t.me/mwscr/159)                     | 2019-03-01 |   548 |     3 |           |        |
-| [`ig`](https://instagram.com/p/DF3JEd9JyL_/)       | 2025-02-09 |   192 |    56 |      1532 |   3.66 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2120) | 2025-02-09 |   191 |    28 |      1063 |   2.73 |
-| [`tg`](https://t.me/mwscr/702)                     | 2025-02-09 |   223 |    53 |       673 |   7.88 |
-|                                                    |            |   606 |   137 |      3268 |    8.2 |
+| [`ig`](https://instagram.com/p/DF3JEd9JyL_/)       | 2025-02-09 |   199 |    58 |      1532 |   3.79 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2120) | 2025-02-09 |   207 |    30 |      1063 |   2.92 |
+| [`tg`](https://t.me/mwscr/702)                     | 2025-02-09 |   252 |    56 |       673 |   8.32 |
+|                                                    |            |   658 |   144 |      3268 |   8.36 |
 
 #### Comments
 
@@ -126,10 +158,10 @@
 | [`ig`](https://instagram.com/p/BuPHSbwhI-4/)       | 2019-02-23 |       |   140 |       778 |  17.99 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1132) | 2019-02-23 |   584 |    41 |       328 |   12.8 |
 | [`tg`](https://t.me/mwscr/155)                     | 2019-02-23 |   494 |     2 |           |        |
-| [`ig`](https://instagram.com/p/DF0kRfGTwtB/)       | 2025-02-08 |   228 |    75 |      1533 |   4.89 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2119) | 2025-02-08 |   181 |    27 |      1062 |   2.54 |
-| [`tg`](https://t.me/mwscr/701)                     | 2025-02-08 |   256 |    48 |       672 |   7.14 |
-|                                                    |            |   665 |   150 |      3267 |   9.08 |
+| [`ig`](https://instagram.com/p/DF0kRfGTwtB/)       | 2025-02-08 |   233 |    77 |      1533 |   5.02 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2119) | 2025-02-08 |   201 |    30 |      1062 |   2.82 |
+| [`tg`](https://t.me/mwscr/701)                     | 2025-02-08 |   290 |    50 |       672 |   7.44 |
+|                                                    |            |   724 |   157 |      3267 |   9.22 |
 
 #### Comments
 
