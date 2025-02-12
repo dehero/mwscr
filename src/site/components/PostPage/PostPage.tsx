@@ -89,6 +89,7 @@ export const PostPage = (): JSX.Element => {
 
   const selectContent = (url: string) => {
     const index = content().findIndex((u) => u === url);
+    setIsLoading(true);
     setSelectedContentIndex(index);
   };
 
@@ -157,6 +158,7 @@ export const PostPage = (): JSX.Element => {
         postInfo()?.type && styles[postInfo()!.type],
       )}
     >
+      <Toast message="Loading Page" show={postInfo.loading} loading />
       <Toast message="Loading Content" show={content().length > 0 && isLoading()} loading />
       <Show when={postInfo()}>
         {(postInfo) => (
