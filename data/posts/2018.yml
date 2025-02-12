@@ -929,18 +929,18 @@
     - service: vk
       id: 1990
       published: 2024-12-25-18-10-00
-      updated: 2025-02-05-21-07-23
+      updated: 2025-02-12-22-07-44
       followers: 1030
       likes: 38
-      views: 322
+      views: 326
       reposts: 1
     - service: tg
       id: 637
       published: 2024-12-25-18-10-08
-      updated: 2025-02-05-21-07-22
+      updated: 2025-02-12-22-07-42
       followers: 612
       likes: 64
-      views: 605
+      views: 618
       comments: !c |-
         CyiAkZTLQnlAVEbPAACtT2xtZXJfSXpkZXlsYbJXaGF0IGlzIHRoZSBwbGFjZT+Ty0J5QFYdBgAA
         pW13c2NytEFsZCBWZWxvdGhpLCBPdXRwb3N0Aw==
@@ -5493,10 +5493,10 @@
       id: DE2xU3uvvrq
       mediaId: '17962967642840380'
       published: 2025-01-15-18-10-22
-      updated: 2025-02-05-21-07-21
+      updated: 2025-02-12-22-07-40
       followers: 1522
       likes: 99
-      views: 369
+      views: 372
       comments: !c |-
         G/8AYByJsY2a7eaF0KZN546O6HZbZK29WkAtgji9edSWJIkGB0kG3YzwWgM8wAL7MZtLKePEypxZ
         fTc40h0Xbnh+HGzQZfZtwqFuuGzUl5QjA3/MVz+ReAdWUevWsV19qrK02WZHs8cbPMt6jYs9HjI7
@@ -5505,18 +5505,18 @@
     - service: vk
       id: 2067
       published: 2025-01-15-18-10-29
-      updated: 2025-02-05-21-07-22
+      updated: 2025-02-12-22-07-42
       followers: 1053
-      likes: 43
-      views: 409
+      likes: 44
+      views: 426
       reposts: 2
     - service: tg
       id: 668
       published: 2025-01-15-18-10-36
-      updated: 2025-02-05-21-07-20
+      updated: 2025-02-12-22-07-41
       followers: 654
       likes: 70
-      views: 499
+      views: 530
       comments: !c |-
         G6UCIKwObGPSS486iGLrDaMHpSneRv7G//OcbIT/+E6GGUwg2cSCCJL7TF3M+1cvJQrjCAGhbt0u
         K+2uFZa/n1uqa57Xt1TmiOgTxKRUOiX90jgKICaNkrzTw+jIzJPLBSpqtSa9x8d4RhnQtNAbTjEZ
@@ -12046,17 +12046,17 @@
     - service: vk
       id: 2126
       published: 2025-02-12-18-35-09
-      updated: 2025-02-12-21-07-01
+      updated: 2025-02-12-22-07-38
       followers: 1066
-      likes: 9
-      views: 48
+      likes: 11
+      views: 54
     - service: tg
       id: 705
       published: 2025-02-12-18-35-16
-      updated: 2025-02-12-21-07-02
+      updated: 2025-02-12-22-07-38
       followers: 674
-      likes: 27
-      views: 102
+      likes: 31
+      views: 116
 2018-11-19-the-city-of-gondolas:
   title: The City of Gondolas
   titleRu: Город гондол
