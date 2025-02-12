@@ -41,6 +41,11 @@ const presets = [
     label: "Editor's Choice",
     searchParams: { sort: 'mark,desc', original: 'true' },
   },
+  {
+    value: 'edits',
+    label: 'Edits',
+    searchParams: { status: 'any' },
+  },
   { value: 'shortlist', label: 'Shortlist', searchParams: { publishable: 'true' } },
   { value: 'requests', label: 'Requests', searchParams: { requester: 'any', original: 'true' } },
   { value: 'revisit', label: 'Revisit', searchParams: { mark: 'F' } },

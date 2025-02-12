@@ -262,16 +262,6 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
     }
   }
 
-  if (params.status) {
-    if (params.status === ANY_OPTION.value) {
-      result.push('with any unsaved status');
-    } else if (params.status === NONE_OPTION.value) {
-      result.push('with no unsaved status');
-    } else {
-      result.push(params.status);
-    }
-  }
-
   if (typeof params.original !== 'undefined') {
     result.push(params.original ? 'original' : 'reposted');
   }
@@ -292,6 +282,16 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
     result.push(`${postTypeDescriptors[params.type].title.toLocaleLowerCase()}${count !== 1 ? 's' : ''}`);
   } else {
     result.push(`post${count !== 1 ? 's' : ''}`);
+  }
+
+  if (params.status) {
+    if (params.status === ANY_OPTION.value) {
+      result.push('with any unsaved status');
+    } else if (params.status === NONE_OPTION.value) {
+      result.push('with no unsaved status');
+    } else {
+      result.push(`with "${params.status} status`);
+    }
   }
 
   if (params.search) {
