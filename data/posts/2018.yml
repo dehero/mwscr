@@ -12046,17 +12046,18 @@
     - service: vk
       id: 2126
       published: 2025-02-12-18-35-09
-      updated: 2025-02-12-22-07-38
+      updated: 2025-02-12-23-02-15
       followers: 1066
-      likes: 11
-      views: 54
+      likes: 16
+      views: 60
+      reposts: 1
     - service: tg
       id: 705
       published: 2025-02-12-18-35-16
-      updated: 2025-02-12-22-07-38
+      updated: 2025-02-12-23-02-15
       followers: 674
       likes: 31
-      views: 116
+      views: 124
 2018-11-19-the-city-of-gondolas:
   title: The City of Gondolas
   titleRu: Город гондол
