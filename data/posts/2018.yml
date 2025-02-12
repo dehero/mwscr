@@ -896,6 +896,7 @@
 2018-01-25-grand-ladder:
   title: Grand Ladder
   titleRu: Большая лестница
+  location: Ald Velothi, Outpost
   content: store:/shots/2018-01-25-grand-ladder.png
   type: shot
   author: dehero
@@ -2494,6 +2495,7 @@
 2018-03-09-among-the-night-lights:
   title: Among the Night Lights
   titleRu: Среди ночных фонарей
+  location: Sadrith Mora
   content: store:/shots/2018-03-09-among-the-night-lights.png
   type: shot
   author: dehero
@@ -2711,6 +2713,7 @@
 2018-03-16-slave-and-slaver:
   title: Slave and Slaver
   titleRu: Раб и работорговец
+  location: Sadrith Mora
   content: store:/shots/2018-03-16-slave-and-slaver.png
   type: shot
   author: dehero
@@ -3679,6 +3682,7 @@
 2018-04-09-empty-arena:
   title: Empty Arena
   titleRu: Пустая Арена
+  location: Vivec, Arena Pit
   content: store:/shots/2018-04-09-empty-arena.png
   type: shot
   author: dehero
@@ -4101,6 +4105,7 @@
 2018-04-21-in-the-cage:
   title: In the Cage
   titleRu: В клетке
+  location: Sadrith Mora
   content: store:/shots/2018-04-21-in-the-cage.png
   type: shot
   author: dehero
@@ -4605,6 +4610,7 @@
 2018-05-05-uncle-sweetshares-workshop:
   title: Uncle Sweetshare's Workshop
   titleRu: Мастерская Дядюшки Сладкая Доля
+  location: Solstheim, Uncle Sweetshare's Workshop
   content: store:/shots/2018-05-05-uncle-sweetshares-workshop.png
   type: shot
   author: dehero
@@ -4884,6 +4890,7 @@
 2018-05-12-two-sheds:
   title: Two Sheds
   titleRu: Две хижины
+  location: Ald Velothi
   content: store:/shots/2018-05-12-two-sheds.png
   type: shot
   author: dehero
@@ -5039,6 +5046,7 @@
 2018-05-16-let-the-sun-rise:
   title: Let the Sun Rise
   titleRu: Пусть восходит солнце
+  location: Vivec, Temple
   content: store:/shots/2018-05-16-let-the-sun-rise.png
   type: shot
   author: dehero
@@ -5372,6 +5380,7 @@
 2018-05-25-the-one-who-holds-baar-dau:
   title: The One Who Holds Baar Dau
   titleRu: Тот, кто держит Баар Дау
+  location: Vivec, Temple
   content: store:/shots/2018-05-25-the-one-who-holds-baar-dau.png
   type: shot
   author: dehero
@@ -7918,6 +7927,7 @@
 2018-08-07-spear-of-god:
   title: Spear of God
   titleRu: Копьё бога
+  location: Vivec, Temple
   content: store:/shots/2018-08-07-spear-of-god.png
   type: shot
   author: dehero
@@ -8635,6 +8645,7 @@
 2018-08-29-darius:
   title: Darius
   titleRu: Дариус
+  location: Gnisis, Fort Darius
   content: store:/shots/2018-08-29-darius.png
   type: shot
   author: dehero
@@ -9914,6 +9925,7 @@
 2018-09-28-please-no-more-kwama-eggs:
   title: Please No More Kwama Eggs
   titleRu: Пожалуйста, не надо больше яиц квама
+  location: Gnisis
   content: store:/shots/2018-09-28-please-no-more-kwama-eggs.png
   type: shot
   author: dehero
@@ -10018,6 +10030,7 @@
 2018-10-01-near-the-fighters-guild-of-aldruhn:
   title: Near the Fighters Guild of Ald'ruhn
   titleRu: У Гильдии бойцов Альд'руна
+  location: Ald-ruhn, Guild of Fighters
   content: store:/shots/2018-10-01-near-the-fighters-guild-of-aldruhn.png
   type: shot
   author: dehero
@@ -11151,6 +11164,7 @@
 2018-10-27-house-of-desires:
   title: House of Desires
   titleRu: Дом желаний
+  location: Suran, Desele's House of Earthly Delights
   content: store:/shots/2018-10-27-house-of-desires.png
   type: shot
   author: dehero
@@ -11334,6 +11348,7 @@
 2018-10-31-creeper-and-dagger:
   title: Creeper and Dagger
   titleRu: Ползун и кинжал
+  location: Caldera, Ghorak Manor
   content: store:/shots/2018-10-31-creeper-and-dagger.png
   type: shot
   author: dehero
