@@ -36,7 +36,7 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
 
   const processUploadFiles = async (items: UploadFile[]) => {
     if (patchSize() > 0) {
-      const result = await messageBox('Are you sure you want to merge selected patches into current patch?', [
+      const result = await messageBox('Are you sure you want to merge selected patches with current edits?', [
         'Yes',
         'No',
       ]);
@@ -52,10 +52,10 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
         addToast(`Patch "${item.name}" imported`);
       } catch (error) {
         if (error instanceof Error) {
-          addToast(`Failed to import patch: ${error.message}`);
+          addToast(`Failed to import patch "${item.name}": ${error.message}`);
           console.error(error.message);
         } else {
-          addToast(`Failed to import patch: ${error}`);
+          addToast(`Failed to import patch "${item.name}": ${error}`);
         }
       }
     }
@@ -108,7 +108,7 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
   };
 
   const handleClear = async () => {
-    const result = await messageBox('Are you sure you want to reset current patch?', ['Yes', 'No']);
+    const result = await messageBox('Are you sure you want to reset current edits?', ['Yes', 'No']);
     if (result === 0) {
       dataManager.clearPatch();
     }
@@ -122,7 +122,7 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
           value: manager.patchSize,
           link:
             postsRoute.createUrl({ managerName: manager.name, status: ANY_OPTION.value }) +
-            createDetachedDialogFragment('contributing'),
+            createDetachedDialogFragment('contributing', { tab: 'patch' }),
         }),
       ),
       {
@@ -176,8 +176,8 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
       </div>
 
       <Frame class={styles.tableWrapper} ref={dropzoneRef}>
-        <Show when={patchSize() > 0} fallback={<span class={styles.fallback}>No unsaved edits</span>}>
-          <Table label="Unsaved Edits" value={patchSize()} rows={rows()} />
+        <Show when={patchSize() > 0} fallback={<span class={styles.fallback}>No edits</span>}>
+          <Table label="Edits" value={patchSize()} rows={rows()} />
         </Show>
       </Frame>
 
