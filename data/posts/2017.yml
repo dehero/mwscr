@@ -1216,17 +1216,17 @@
     - service: tg
       id: 572
       published: 2024-10-22-18-11-08
-      updated: 2025-02-05-09-08-42
+      updated: 2025-02-12-10-08-36
       followers: 561
       likes: 65
-      views: 665
+      views: 671
     - service: vk
       id: 1849
       published: 2024-10-22-19-02-11
-      updated: 2025-02-05-09-08-42
+      updated: 2025-02-12-10-08-35
       followers: 994
       likes: 54
-      views: 367
+      views: 369
       reposts: 2
 2017-02-03-hlaalu-council-manor:
   title: Hlaalu Council Manor
@@ -1616,17 +1616,17 @@
       id: DF5uC6lv4wa
       mediaId: '18077453773581396'
       published: 2025-02-10-18-10-49
-      updated: 2025-02-12-09-08-33
+      updated: 2025-02-12-10-08-31
       followers: 1533
       likes: 72
-      views: 264
+      views: 265
     - service: vk
       id: 2121
       published: 2025-02-10-18-10-56
-      updated: 2025-02-12-09-08-34
+      updated: 2025-02-12-10-08-32
       followers: 1064
       likes: 20
-      views: 209
+      views: 210
       reposts: 1
       comments: !c |-
         CzeAkpPLQnlPVZCugACraWQ4MjA3MDI2NjTZIdCQINGN0YLQviDQs9C00LUg0L3QsCDQutCw0YDR
@@ -1635,10 +1635,10 @@
     - service: tg
       id: 703
       published: 2025-02-10-18-11-03
-      updated: 2025-02-12-09-08-34
+      updated: 2025-02-12-10-08-33
       followers: 673
       likes: 52
-      views: 224
+      views: 225
 2017-02-12-1-travel-from-seyda-neen-to-balmora:
   title: Travel from Seyda Neen to Balmora
   titleRu: Путешествие из Сейда Нина в Балмору
@@ -7467,17 +7467,17 @@
     - service: vk
       id: 1768
       published: 2024-09-17-18-30-40
-      updated: 2025-02-05-09-08-43
+      updated: 2025-02-12-10-08-36
       followers: 947
       likes: 43
-      views: 317
+      views: 319
     - service: tg
       id: 535
       published: 2024-09-17-18-30-46
-      updated: 2025-02-05-09-08-43
+      updated: 2025-02-12-10-08-37
       followers: 557
       likes: 68
-      views: 531
+      views: 533
 2017-07-13-corpse-preparation-volume-one:
   title: Corpse Preparation, Volume One
   titleRu: О подготовке тел, т. I
@@ -8569,25 +8569,26 @@
       id: DF8SqGItDLm
       mediaId: '18062621761902568'
       published: 2025-02-11-18-09-13
-      updated: 2025-02-12-09-08-32
+      updated: 2025-02-12-10-08-30
       followers: 1534
-      likes: 41
-      views: 162
+      likes: 42
+      views: 167
     - service: vk
       id: 2123
       published: 2025-02-11-18-09-21
-      updated: 2025-02-12-09-08-32
+      updated: 2025-02-12-10-08-31
       followers: 1065
-      likes: 30
-      views: 147
+      likes: 32
+      views: 155
       reposts: 1
+      comments: !c ixaAkZPLQnlPl8ddgACraWQ1OTkzMjAwNjm20KLQsNC8INCy0LDQvNC/0LjRgNGLPwM=
     - service: tg
       id: 704
       published: 2025-02-11-18-09-30
-      updated: 2025-02-12-09-08-33
+      updated: 2025-02-12-10-08-31
       followers: 672
       likes: 54
-      views: 165
+      views: 168
       comments: !c ixKAkZPLQnlPY0INgACnQmFyYUZveLJIdWgsIHdoZXJlJ3MgdGhhdD8D
 2017-08-14-maiq-the-liar:
   title: M'Aiq the Liar
