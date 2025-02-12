@@ -12,10 +12,11 @@ export interface ToolbarProps {
 }
 
 export const Toolbar: Component<ToolbarProps> = (props) => {
+  const withActions = () => props.actions && props.actions.length > 0;
+
   return (
-    <div class={clsx(styles.toolbar, props.class)}>
-      <p class={styles.label}>{props.label}</p>
-      <Show when={props.actions}>
+    <div class={clsx(styles.toolbar, withActions() && styles.withActions, props.class)}>
+      <Show when={withActions()}>
         <div class={styles.actions}>
           <For each={props.actions}>
             {(action) => (
@@ -26,6 +27,7 @@ export const Toolbar: Component<ToolbarProps> = (props) => {
           </For>
         </div>
       </Show>
+      <p class={styles.label}>{props.label}</p>
     </div>
   );
 };

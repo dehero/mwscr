@@ -130,21 +130,14 @@ export const Parameters: Component<ParametersProps> = (props) => {
           <Show
             when={expanded()}
             fallback={
-              <fieldset class={styles.fieldset}>
+              <div class={styles.selectWrapper}>
                 <Select
                   options={props.parameters.presetOptions()}
                   value={props.parameters.preset()}
                   onChange={props.parameters.setPreset}
+                  class={styles.select}
                 />
-                <Button
-                  onClick={(e: Event) => {
-                    e.preventDefault();
-                    props.parameters.setPreset(undefined);
-                  }}
-                >
-                  Reset
-                </Button>
-              </fieldset>
+              </div>
             }
           >
             <RadioGroup name="view" options={viewOptions} value={view()} onChange={setView} class={styles.view} />
@@ -171,25 +164,14 @@ export const Parameters: Component<ParametersProps> = (props) => {
           <Match when={typeof view() === 'undefined'}>
             <form class={styles.parameters}>
               <Label label="Preset" vertical>
-                <fieldset class={styles.fieldset}>
-                  <div class={styles.selectWrapper}>
-                    <Select
-                      options={props.parameters.presetOptions()}
-                      value={props.parameters.preset()}
-                      onChange={props.parameters.setPreset}
-                      class={styles.select}
-                    />
-                  </div>
-
-                  <Button
-                    onClick={(e: Event) => {
-                      e.preventDefault();
-                      props.parameters.setPreset(undefined);
-                    }}
-                  >
-                    Reset
-                  </Button>
-                </fieldset>
+                <div class={styles.selectWrapper}>
+                  <Select
+                    options={props.parameters.presetOptions()}
+                    value={props.parameters.preset()}
+                    onChange={props.parameters.setPreset}
+                    class={styles.select}
+                  />
+                </div>
               </Label>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('original')}>
