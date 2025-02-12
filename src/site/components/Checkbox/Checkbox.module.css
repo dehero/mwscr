@@ -2,6 +2,7 @@
   padding: 0 8px;
   color: var(--color-text);
   outline: none;
+  text-shadow: 1px 1px 1px black;
 }
 
 .checkbox:focus,

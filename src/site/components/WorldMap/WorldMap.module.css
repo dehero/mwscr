@@ -77,6 +77,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   flex: 1 1 auto;
+  text-shadow: 1px 1px 1px black;
 }
 
 .currentLocationTitle {
@@ -86,6 +87,7 @@
   text-overflow: ellipsis;
   flex: 1 0 auto;
   text-align: right;
+  text-shadow: 1px 1px 1px black;
 }
 
 .resetButton {
