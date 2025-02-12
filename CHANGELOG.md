@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.35.1](https://github.com/dehero/mwscr/compare/v1.35.0...v1.35.1) (2025-02-12)
+
+### Bug Fixes
+
+- first apply list patch, then save
+  ([412baad](https://github.com/dehero/mwscr/commit/412baad813e8bf02fee9c4b924bf5dbd2a6903f7))
+- **site:** add additional loading page and content indicators to post page
+  ([8901ec2](https://github.com/dehero/mwscr/commit/8901ec209bd9a841bdfaf98466268cb24b0ca312))
+- **site:** correct missing locations link in contributing dialog
+  ([3f43966](https://github.com/dehero/mwscr/commit/3f43966c15197320e7c81d502941d99aaa1666c3))
+
 ## [1.35.0](https://github.com/dehero/mwscr/compare/v1.34.0...v1.35.0) (2025-02-12)
 
 ### Features
