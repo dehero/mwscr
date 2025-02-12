@@ -85,7 +85,7 @@ export const ContributingDialog: DetachedDialog<ContributingDialogParams> = (pro
 
                 <Frame
                   component="a"
-                  href={postsRoute.createUrl({ managerName: 'posts', location: NONE_OPTION.value })}
+                  href={postsRoute.createUrl({ managerName: 'posts', location: NONE_OPTION.value, original: 'true' })}
                   onClick={props.onClose}
                   variant="thin"
                   class={styles.variant}
