@@ -646,6 +646,7 @@
 2017-01-21-building-akulakhan:
   title: Building Akulakhan
   titleRu: Строительство Акулахана
+  location: Akulakhan's Chamber
   content: store:/shots/2017-01-21-building-akulakhan.png
   type: shot
   author: dehero
@@ -1945,6 +1946,7 @@
 2017-02-20-waterfall-camp:
   title: Waterfall Camp
   titleRu: Лагерь у водопада
+  location: West Gash Region
   content: store:/shots/2017-02-20-waterfall-camp.png
   type: shot
   author: dehero
@@ -5614,6 +5616,7 @@
 2017-05-22-is-this-my-tower:
   title: Is This My Tower?
   titleRu: Это и есть моя башня?
+  location: Tel Uvirith
   content: store:/shots/2017-05-22-is-this-my-tower.png
   type: shot
   author: dehero
@@ -6768,6 +6771,7 @@
 2017-06-24-entering-aldruhn:
   title: Entering Ald-ruhn
   titleRu: Вступая в Альд'рун
+  location: Ald-ruhn
   content: store:/shots/2017-06-24-entering-aldruhn.png
   type: shot
   author: dehero
@@ -7745,6 +7749,7 @@
 2017-07-20-fort-darius:
   title: Fort Darius
   titleRu: Форт Дариус
+  location: Gnisis, Fort Darius
   content: store:/shots/2017-07-20-fort-darius.png
   type: shot
   author: dehero
@@ -9512,6 +9517,7 @@
 2017-09-08-sky-castle:
   title: Sky Castle
   titleRu: Замок в небе
+  location: Ebonheart
   content: store:/shots/2017-09-08-sky-castle.png
   type: shot
   author: dehero
