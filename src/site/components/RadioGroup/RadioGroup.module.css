@@ -10,6 +10,7 @@
   flex-shrink: 0;
   color: var(--color-text);
   outline: none;
+  text-shadow: 1px 1px 1px black;
 }
 
 .option:focus,
