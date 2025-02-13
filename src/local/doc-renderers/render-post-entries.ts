@@ -32,7 +32,6 @@ import { getResourcePreviewPath } from '../data-managers/resources.js';
 import { createIssueUrl as createEditUrl } from '../github-issue-resolvers/post-editing.js';
 import { createIssueUrl as createLocateUrl } from '../github-issue-resolvers/post-location.js';
 import { createIssueUrl as createMergeUrl } from '../github-issue-resolvers/post-merging.js';
-import { createIssueUrl as createReviewUrl } from '../github-issue-resolvers/post-review.js';
 import { postingServiceManagers } from '../posting-service-managers/index.js';
 import { renderNavs } from './utils/doc-utils.js';
 import { renderMarkdownTable } from './utils/markdown-utils.js';
@@ -303,8 +302,8 @@ async function renderPostEntry(postEntry: PostEntry, options: RenderPostsOptions
     tags.push(`[\`Edit\`](${esc(createEditUrl(id, post))})`);
   }
 
-  if (postActions?.includes('review')) {
-    tags.push(`[\`Review\`](${esc(createReviewUrl(id))})`);
+  if (postActions?.includes('precise')) {
+    tags.push(`[\`Precise\`](${esc(createEditUrl(id, post))})`);
   }
 
   if (postActions?.includes('merge')) {
@@ -317,7 +316,7 @@ async function renderPostEntry(postEntry: PostEntry, options: RenderPostsOptions
 
   if (post.location) {
     tags.push(...asArray(post.location).map((location) => `\`📍 ${location}\``));
-  } else if (postActions?.includes('locate') && post.type !== 'shot-set') {
+  } else if (postActions?.includes('locate')) {
     tags.push(`<code>📍 [Locate](${createLocateUrl(id)})</code>`);
   }
 

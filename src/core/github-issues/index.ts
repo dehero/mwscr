@@ -5,7 +5,6 @@ import * as postLocation from './post-location.js';
 import * as postMerging from './post-merging.js';
 import * as postProposal from './post-proposal.js';
 import * as postRequest from './post-request.js';
-import * as postReview from './post-review.js';
 
 export const githubIssues: GithubIssueInfo[] = [
   dataPatch,
@@ -14,5 +13,4 @@ export const githubIssues: GithubIssueInfo[] = [
   postEditing,
   postMerging,
   postLocation,
-  postReview,
 ];

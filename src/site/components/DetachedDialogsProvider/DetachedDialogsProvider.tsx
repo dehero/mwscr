@@ -6,9 +6,9 @@ import { ContributingDialog } from '../ContributingDialog/ContributingDialog.jsx
 import { PostEditingDialog } from '../PostEditingDialog/PostEditingDialog.jsx';
 import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.jsx';
 import { PostMergeDialog } from '../PostMergeDialog/PostMergeDialog.jsx';
+import { PostPrecisingDialog } from '../PostPrecisingDialog/PostPrecisingDialog.jsx';
 import { PostProposalDialog } from '../PostProposalDialog/PostProposalDialog.jsx';
 import { PostRequestDialog } from '../PostRequestDialog/PostRequestDialog.jsx';
-import { PostReviewDialog } from '../PostReviewDialog/PostReviewDialog.jsx';
 import { SponsorshipDialog } from '../SponsorshipDialog/SponsorshipDialog.jsx';
 import { SubscriptionDialog } from '../SubscriptionDialog/SubscriptionDialog.jsx';
 
@@ -26,7 +26,7 @@ const detachedDialogs = {
   'post-merge': PostMergeDialog,
   'post-proposal': PostProposalDialog,
   'post-request': PostRequestDialog,
-  'post-review': PostReviewDialog,
+  'post-precising': PostPrecisingDialog,
   subscription: SubscriptionDialog,
   contributing: ContributingDialog,
   sponsorship: SponsorshipDialog,

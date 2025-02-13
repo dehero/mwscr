@@ -13,8 +13,7 @@ jobs:
       contains(github.event.issue.labels.*.name, 'data-patch') || contains(github.event.issue.labels.*.name,
       'post-proposal') || contains(github.event.issue.labels.*.name, 'post-request') ||
       contains(github.event.issue.labels.*.name, 'post-editing') || contains(github.event.issue.labels.*.name,
-      'post-location') || contains(github.event.issue.labels.*.name, 'post-merging') ||
-      contains(github.event.issue.labels.*.name, 'post-review')
+      'post-location') || contains(github.event.issue.labels.*.name, 'post-merging')
     runs-on: ubuntu-latest
     env:
       GITHUB_ACTION_CONTEXT: ${{ toJson(github) }}

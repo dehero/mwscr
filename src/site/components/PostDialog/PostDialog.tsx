@@ -23,7 +23,6 @@ import {
 } from '../../../core/entities/post.js';
 import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/post-editing.js';
 import { createIssueUrl as createLocateIssueUrl } from '../../../core/github-issues/post-location.js';
-import { createIssueUrl as createReviewIssueUrl } from '../../../core/github-issues/post-review.js';
 import { email } from '../../../core/services/email.js';
 import { asArray, listItems } from '../../../core/utils/common-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
@@ -38,7 +37,7 @@ import { Select } from '../Select/Select.jsx';
 import { Toast } from '../Toaster/Toaster.jsx';
 import styles from './PostDialog.module.css';
 
-export const PostDialogPreset = picklist(['edit', 'locate', 'review']);
+export const PostDialogPreset = picklist(['edit', 'locate', 'precise']);
 export type PostDialogPreset = InferOutput<typeof PostDialogPreset>;
 
 export interface PostDialogPresetDescriptor {
@@ -71,7 +70,24 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
     useColumnLayout: true,
   },
   locate: { title: 'Locate Post', fields: ['location', 'placement'] },
-  review: { title: 'Review Post', fields: ['mark', 'violation'] },
+  precise: {
+    title: 'Precise Post',
+    fields: [
+      'title',
+      'titleRu',
+      'engine',
+      'addon',
+      'author',
+      'tags',
+      'description',
+      'descriptionRu',
+      'location',
+      'placement',
+      'mark',
+      'request',
+    ],
+    useColumnLayout: true,
+  },
 });
 
 async function getLocationOptions(): Promise<Option[]> {
@@ -168,9 +184,6 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           case 'locate':
             href = createLocateIssueUrl(targetId, post().location);
             break;
-          case 'review':
-            href = createReviewIssueUrl(targetId, post()!);
-            break;
           default:
         }
 
@@ -182,7 +195,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
 
         switch (local.preset) {
           case 'edit':
-          case 'review':
+          case 'precise':
             body = JSON.stringify(patch(), null, 2);
             break;
           case 'locate':
@@ -284,7 +297,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
         actions={[
           <Select
             options={[
-              { label: 'Add to Local Patch', value: 'patch' },
+              { label: 'Save to Edits', value: 'patch' },
               { label: 'Create GitHub Issue', value: 'github-issue' },
               { label: 'Sent via email', value: 'email' },
             ]}

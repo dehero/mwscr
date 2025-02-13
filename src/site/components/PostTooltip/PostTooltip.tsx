@@ -57,6 +57,12 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
 
   const actions = () =>
     [
+      props.postInfo.status !== 'removed' && postActions().includes('merge') && props.onSelectedChange
+        ? {
+            onExecute: () => props.onSelectedChange?.(!props.selected),
+            label: props.selected ? 'Unselect' : 'Select',
+          }
+        : undefined,
       { url: postRoute.createUrl({ managerName: local.postInfo.managerName, id: local.postInfo.id }), label: 'View' },
       props.postInfo.status !== 'removed' && postActions().includes('edit')
         ? {
@@ -67,28 +73,22 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
             label: 'Edit',
           }
         : undefined,
-      props.postInfo.status !== 'removed' && postActions().includes('review')
+      props.postInfo.status !== 'removed' && postActions().includes('precise')
         ? {
-            url: createDetachedDialogFragment('post-review', {
+            url: createDetachedDialogFragment('post-precising', {
               managerName: local.postInfo.managerName,
               id: local.postInfo.id,
             }),
-            label: 'Review',
+            label: 'Precise',
           }
         : undefined,
-      props.postInfo.status !== 'removed' && postActions().includes('merge') && props.onSelectedChange
-        ? {
-            onExecute: () => props.onSelectedChange?.(!props.selected),
-            label: props.selected ? 'Unselect' : 'Select',
-          }
-        : undefined,
-      props.postInfo.status !== 'removed' && postActions().includes('locate')
+      props.postInfo.status !== 'removed' && !local.postInfo.location && postActions().includes('locate')
         ? {
             url: createDetachedDialogFragment('post-location', {
               id: local.postInfo.id,
               managerName: local.postInfo.managerName,
             }),
-            label: local.postInfo.location ? 'Precise Location' : 'Locate',
+            label: 'Locate',
           }
         : undefined,
       props.postInfo.status

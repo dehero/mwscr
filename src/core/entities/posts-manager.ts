@@ -73,9 +73,9 @@ export interface PostsManagerDescriptor {
 }
 
 export const postsManagerDescriptors = Object.freeze<Record<PostsManagerName, PostsManagerDescriptor>>({
-  posts: { title: 'Posts', label: 'posted', actions: ['locate'] },
-  inbox: { title: 'Inbox', label: 'pending', actions: ['locate', 'edit', 'review', 'merge'] },
-  trash: { title: 'Trash', label: 'rejected', actions: ['locate', 'edit', 'review', 'merge'] },
+  posts: { title: 'Posts', label: 'posted', actions: ['locate', 'precise'] },
+  inbox: { title: 'Inbox', label: 'pending', actions: ['edit', 'merge'] },
+  trash: { title: 'Trash', label: 'rejected', actions: ['edit', 'merge'] },
 });
 
 export function isReferenceProposal(post: Post, errors?: string[]): post is ReferenceProposal {

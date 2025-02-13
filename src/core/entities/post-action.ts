@@ -1,1 +1,1 @@
-export type PostAction = 'edit' | 'locate' | 'merge' | 'review';
+export type PostAction = 'edit' | 'locate' | 'merge' | 'precise';

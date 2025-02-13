@@ -125,7 +125,7 @@ async function renderPosts() {
       await renderPostEntriesDoc({
         doc,
         navs: [...navs, docs],
-        postActions: ['locate'],
+        postActions: ['precise', 'locate'],
         postCheck: isPublishablePost,
         users,
       });
@@ -179,7 +179,7 @@ async function renderInbox() {
       await renderPostEntriesDoc({
         doc,
         navs: [...navs, docs],
-        postActions: ['review', 'edit', 'merge', 'locate'],
+        postActions: ['edit', 'merge', 'locate'],
         postCheck: isPublishablePost,
         users,
       });
@@ -223,7 +223,7 @@ async function renderTrash() {
       await renderPostEntriesDoc({
         doc,
         navs: [...navs, docs],
-        postActions: ['review', 'edit', 'merge', 'locate'],
+        postActions: ['edit', 'merge', 'locate'],
         postCheck: isTrashItem,
         users,
       });

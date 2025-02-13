@@ -299,7 +299,7 @@ export const PostPage = (): JSX.Element => {
 
               <Show
                 when={
-                  postActions().some((action) => ['edit', 'review', 'merge'].includes(action)) ||
+                  postActions().some((action) => ['edit', 'precise', 'merge'].includes(action)) ||
                   (!postInfo().location && postActions().includes('locate')) ||
                   postInfo().status
                 }
@@ -317,15 +317,15 @@ export const PostPage = (): JSX.Element => {
                     </Button>
                   </Show>
 
-                  <Show when={postInfo().status !== 'removed' && postActions().includes('review')}>
+                  <Show when={postInfo().status !== 'removed' && postActions().includes('precise')}>
                     <Button
-                      href={createDetachedDialogFragment('post-review', {
+                      href={createDetachedDialogFragment('post-precising', {
                         id: params().id,
                         managerName: params().managerName,
                       })}
                       class={styles.action}
                     >
-                      Review
+                      Precise
                     </Button>
                   </Show>
 
@@ -449,20 +449,6 @@ export const PostPage = (): JSX.Element => {
 
                 <Table
                   label="Locations"
-                  value={() =>
-                    postInfo().status !== 'removed' &&
-                    postActions().includes('locate') && (
-                      <Button
-                        class={styles.action}
-                        href={createDetachedDialogFragment('post-location', {
-                          id: params().id,
-                          managerName: params().managerName,
-                        })}
-                      >
-                        Precise
-                      </Button>
-                    )
-                  }
                   rows={
                     data().locationInfos?.map((info) => ({
                       label: info.title,

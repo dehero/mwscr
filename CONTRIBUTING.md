@@ -383,12 +383,8 @@ determined, the region of shooting is specified (for exterior shots).
 
 ### Selecting an editor's mark
 
-The editor's mark helps to filter proposed works and monitor the overall quality of the project's post feed. To set a
-mark
-[review issue](https://github.com/dehero/mwscr/issues/new?labels=post-review&template=post-review.yml&title=POST_ID) is
-used.
-
-The mark is subjective, but the general guidelines for selecting it are described here:
+The editor's mark helps to filter proposed works and monitor the overall quality of the project's post feed. The mark is
+subjective, but the general guidelines for selecting it are described here:
 
 | Indicator         | `A1`  | `A2`  | `B1`  | `B2`  | `C` | `D` | `E` | `F` | Evaluated                                             |
 | ----------------- | :---: | :---: | :---: | :---: | :-: | :-: | :-: | :-: | ----------------------------------------------------- |
