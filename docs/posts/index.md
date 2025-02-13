@@ -6,7 +6,7 @@
 
 `43 items`
 
-## <span id="2025-02-13-horror-of-the-red-corridor">Horror of the Red Corridor</span>
+## <span id="2025-02-12-horror-of-the-red-corridor">Horror of the Red Corridor</span>
 
 `RU` Ужас красного коридора
 
@@ -14,10 +14,10 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-13-horror-of-the-red-corridor&postLocation=)</code> `🚀 OpenMW`
+`E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-12-horror-of-the-red-corridor&postLocation=)</code> `🚀 OpenMW`
 
 ```
-2025-02-13-horror-of-the-red-corridor
+2025-02-12-horror-of-the-red-corridor
 ```
 
 > `2018-11-18-horror-of-the-red-corridor`
@@ -30,9 +30,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1058) | 2018-11-18 |   535 |    37 |       286 |  12.94 |
 | [`tg`](https://t.me/mwscr/122)                     | 2018-11-18 |   366 |     3 |           |        |
 | [`ig`](https://instagram.com/p/DF-3pqzpcCB/)       | 2025-02-12 |   173 |    60 |      1534 |   3.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2126) | 2025-02-12 |    92 |    21 |      1066 |   2.06 |
-| [`tg`](https://t.me/mwscr/705)                     | 2025-02-12 |   156 |    38 |       674 |   5.64 |
-|                                                    |            |       |       |           |   9.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2126) | 2025-02-12 |    93 |    21 |      1066 |   2.06 |
+| [`tg`](https://t.me/mwscr/705)                     | 2025-02-12 |   158 |    40 |       674 |   5.93 |
+|                                                    |            |   424 |   121 |      3274 |   9.99 |
 
 #### Comments
 
@@ -63,9 +63,9 @@
 | [`ig`](https://instagram.com/p/BXuuXHvDyDT/)       | 2017-08-13 |       |    57 |       192 |  29.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_391)  | 2017-08-13 |   117 |     8 |        74 |  10.81 |
 | [`ig`](https://instagram.com/p/DF8SqGItDLm/)       | 2025-02-11 |   202 |    49 |      1534 |   3.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2123) | 2025-02-11 |   196 |    35 |      1065 |   3.38 |
-| [`tg`](https://t.me/mwscr/704)                     | 2025-02-11 |   216 |    57 |       672 |   8.48 |
-|                                                    |            |   614 |   141 |      3271 |  11.11 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2123) | 2025-02-11 |   197 |    35 |      1065 |   3.38 |
+| [`tg`](https://t.me/mwscr/704)                     | 2025-02-11 |   217 |    57 |       672 |   8.48 |
+|                                                    |            |   616 |   141 |      3271 |  11.11 |
 
 #### Comments
 
