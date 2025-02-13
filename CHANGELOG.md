@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.36.0](https://github.com/dehero/mwscr/compare/v1.35.0...v1.36.0) (2025-02-13)
+
+### Features
+
+- create post precising action and dialog, remove post review action and GitHub issue
+  ([6d97eb0](https://github.com/dehero/mwscr/commit/6d97eb05e446e6af30640330f83f34b0d90fafa5))
+- implement placement field for posts
+  ([67bf3b4](https://github.com/dehero/mwscr/commit/67bf3b4825b6ba2e4400d9453d1c8a92b567ceab))
+- **site:** add content preview feature to post dialog
+  ([43ab4e4](https://github.com/dehero/mwscr/commit/43ab4e4c779c6790721a6e37f473e806bf29263e))
+
 ## [1.35.0](https://github.com/dehero/mwscr/compare/v1.34.0...v1.35.0) (2025-02-13)
 
 ### Features
