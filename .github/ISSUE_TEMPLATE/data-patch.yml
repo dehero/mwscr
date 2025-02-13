@@ -1,5 +1,6 @@
 name: Patch Data
-description: Apply JSON patch to project's data .
+description: Apply JSON patch to project's data.
+title: data-patch
 labels:
   - data-patch
 body:
