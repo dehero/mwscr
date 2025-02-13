@@ -17,7 +17,7 @@
     - service: vk
       id: 3
       published: 2017-01-22
-      updated: 2025-02-06-17-07-22
+      updated: 2025-02-13-18-15-58
       followers: 4
       likes: 3
       views: 55
@@ -75,7 +75,7 @@
     - service: vk
       id: 4
       published: 2017-01-22
-      updated: 2025-02-06-17-07-23
+      updated: 2025-02-13-18-15-59
       followers: 4
       likes: 2
       views: 53
@@ -102,7 +102,7 @@
     - service: vk
       id: 5
       published: 2017-01-22
-      updated: 2025-02-06-17-07-24
+      updated: 2025-02-13-18-16-00
       followers: 4
       likes: 2
       views: 53
@@ -159,7 +159,7 @@
     - service: vk
       id: 6
       published: 2017-01-22
-      updated: 2025-02-06-17-07-25
+      updated: 2025-02-13-18-16-01
       likes: 3
       views: 53
     - service: ig
@@ -209,7 +209,7 @@
     - service: vk
       id: 7
       published: 2017-01-22
-      updated: 2025-02-06-17-07-25
+      updated: 2025-02-13-18-16-01
       followers: 4
       likes: 2
       views: 61
@@ -234,7 +234,7 @@
     - service: vk
       id: 8
       published: 2017-01-22
-      updated: 2025-02-06-17-07-26
+      updated: 2025-02-13-18-16-02
       followers: 4
       likes: 3
       views: 53
@@ -290,7 +290,7 @@
     - service: vk
       id: 9
       published: 2017-01-22
-      updated: 2025-02-06-17-07-27
+      updated: 2025-02-13-18-16-03
       followers: 4
       likes: 2
       views: 51
@@ -305,17 +305,17 @@
     - service: vk
       id: 1553
       published: 2024-05-29-18-18-55
-      updated: 2025-02-06-18-10-33
+      updated: 2025-02-13-18-10-39
       followers: 917
       likes: 26
       views: 272
     - service: tg
       id: 423
       published: 2024-05-29-18-19-00
-      updated: 2025-02-06-18-10-31
+      updated: 2025-02-13-18-10-39
       followers: 378
       likes: 61
-      views: 455
+      views: 456
 2016-11-23-lanterns-of-tel-branora:
   title: Lanterns of Tel Branora
   titleRu: Фонари Тель Браноры
@@ -338,7 +338,7 @@
     - service: vk
       id: 10
       published: 2017-01-22
-      updated: 2025-02-06-17-07-28
+      updated: 2025-02-13-18-16-04
       followers: 4
       likes: 2
       views: 55
@@ -366,10 +366,10 @@
     - service: vk
       id: 11
       published: 2017-01-22
-      updated: 2025-02-06-17-07-28
+      updated: 2025-02-13-18-16-04
       followers: 4
       likes: 2
-      views: 53
+      views: 54
       reposts: 1
 2016-11-25-rain-on-dren-plantation:
   title: Rain on Dren Plantation
@@ -393,7 +393,7 @@
     - service: vk
       id: 12
       published: 2017-01-22
-      updated: 2025-02-06-17-07-29
+      updated: 2025-02-13-18-16-05
       followers: 4
       likes: 2
       views: 49
@@ -421,7 +421,7 @@
     - service: vk
       id: 13
       published: 2017-01-22
-      updated: 2025-02-06-17-07-30
+      updated: 2025-02-13-18-16-06
       followers: 4
       likes: 3
       views: 49
@@ -447,7 +447,7 @@
     - service: vk
       id: 14
       published: 2017-01-22
-      updated: 2025-02-06-17-07-31
+      updated: 2025-02-13-18-16-07
       followers: 4
       likes: 3
       views: 51
@@ -498,7 +498,7 @@
     - service: vk
       id: 15
       published: 2017-01-22
-      updated: 2025-02-06-17-07-31
+      updated: 2025-02-13-18-16-08
       followers: 4
       likes: 1
       views: 54
@@ -522,7 +522,7 @@
     - service: vk
       id: 16
       published: 2017-01-22
-      updated: 2025-02-06-17-07-32
+      updated: 2025-02-13-18-16-08
       followers: 4
       likes: 1
       views: 54
@@ -571,7 +571,7 @@
     - service: vk
       id: 17
       published: 2017-01-22
-      updated: 2025-02-06-17-07-33
+      updated: 2025-02-13-18-16-09
       followers: 4
       likes: 3
       views: 55
@@ -624,7 +624,7 @@
     - service: vk
       id: 18
       published: 2017-01-22
-      updated: 2025-02-06-17-07-34
+      updated: 2025-02-13-18-16-10
       followers: 4
       likes: 2
       views: 58
@@ -648,7 +648,7 @@
     - service: vk
       id: 19
       published: 2017-01-22
-      updated: 2025-02-06-17-07-34
+      updated: 2025-02-13-18-16-11
       followers: 4
       likes: 2
       views: 56
@@ -700,7 +700,7 @@
     - service: vk
       id: 20
       published: 2017-01-22
-      updated: 2025-02-06-17-07-35
+      updated: 2025-02-13-18-16-11
       followers: 4
       likes: 1
       views: 54
@@ -726,7 +726,7 @@
     - service: vk
       id: 21
       published: 2017-01-22
-      updated: 2025-02-06-17-07-36
+      updated: 2025-02-13-18-16-12
       followers: 4
       likes: 2
       views: 59
@@ -775,7 +775,7 @@
     - service: vk
       id: 22
       published: 2017-01-22
-      updated: 2025-02-06-17-07-37
+      updated: 2025-02-13-18-16-13
       followers: 4
       likes: 1
       views: 64
@@ -801,7 +801,7 @@
     - service: vk
       id: 23
       published: 2017-01-22
-      updated: 2025-02-06-17-07-38
+      updated: 2025-02-13-18-16-14
       followers: 4
       likes: 1
       views: 56
@@ -856,7 +856,7 @@
     - service: vk
       id: 24
       published: 2017-01-22
-      updated: 2025-02-06-17-07-38
+      updated: 2025-02-13-18-16-14
       followers: 4
       likes: 1
       views: 57
@@ -880,7 +880,7 @@
     - service: vk
       id: 25
       published: 2017-01-22
-      updated: 2025-02-06-17-07-39
+      updated: 2025-02-13-18-16-15
       followers: 4
       likes: 2
       views: 61
@@ -906,7 +906,7 @@
     - service: vk
       id: 26
       published: 2017-01-22
-      updated: 2025-02-06-17-07-40
+      updated: 2025-02-13-18-16-16
       followers: 4
       views: 62
 2016-12-10-somewhere-nearby-vivec:
@@ -932,10 +932,10 @@
     - service: vk
       id: 27
       published: 2017-01-22
-      updated: 2025-02-06-17-07-41
+      updated: 2025-02-13-18-16-17
       followers: 4
       likes: 1
-      views: 64
+      views: 65
     - service: ig
       id: C7w22D9vfx2
       mediaId: '17851169739208234'
@@ -983,7 +983,7 @@
     - service: vk
       id: 28
       published: 2017-01-22
-      updated: 2025-02-06-17-07-41
+      updated: 2025-02-13-18-16-17
       followers: 4
       views: 89
 2016-12-12-buckmoth-legion-fort-from-aldruhn:
@@ -1010,7 +1010,7 @@
     - service: vk
       id: 29
       published: 2017-01-22
-      updated: 2025-02-06-17-07-42
+      updated: 2025-02-13-18-16-18
       followers: 4
       likes: 2
       views: 63
@@ -1061,7 +1061,7 @@
     - service: vk
       id: 30
       published: 2017-01-22
-      updated: 2025-02-06-17-07-43
+      updated: 2025-02-13-18-16-19
       followers: 4
       likes: 1
       views: 65
@@ -1085,7 +1085,7 @@
     - service: vk
       id: 31
       published: 2017-01-22
-      updated: 2025-02-06-17-07-44
+      updated: 2025-02-13-18-16-20
       followers: 4
       likes: 2
       views: 66
@@ -1110,7 +1110,7 @@
     - service: vk
       id: 32
       published: 2017-01-22
-      updated: 2025-02-06-17-07-44
+      updated: 2025-02-13-18-16-20
       followers: 4
       views: 64
 2016-12-16-gnisis-temple:
@@ -1135,7 +1135,7 @@
     - service: vk
       id: 33
       published: 2017-01-22
-      updated: 2025-02-06-17-07-45
+      updated: 2025-02-13-18-16-21
       followers: 4
       likes: 1
       views: 62
@@ -1162,9 +1162,9 @@
     - service: vk
       id: 34
       published: 2017-01-22
-      updated: 2025-02-06-17-07-46
+      updated: 2025-02-13-18-16-22
       followers: 4
-      views: 76
+      views: 77
 2016-12-18-the-governors-hall-in-caldera-from-distance:
   title: The Governor's Hall in Caldera from Distance
   titleRu: Дом правительства в Кальдере с расстояния
@@ -1188,7 +1188,7 @@
     - service: vk
       id: 35
       published: 2017-01-22
-      updated: 2025-02-06-17-07-47
+      updated: 2025-02-13-18-16-23
       followers: 4
       likes: 1
       views: 68
@@ -1214,7 +1214,7 @@
     - service: vk
       id: 36
       published: 2017-01-22
-      updated: 2025-02-06-17-07-47
+      updated: 2025-02-13-18-16-23
       followers: 4
       views: 71
       reposts: 1
@@ -1278,7 +1278,7 @@
     - service: vk
       id: 37
       published: 2017-01-22
-      updated: 2025-02-06-17-07-48
+      updated: 2025-02-13-18-16-24
       followers: 4
       likes: 2
       views: 75
@@ -1331,7 +1331,7 @@
     - service: vk
       id: 38
       published: 2017-01-22
-      updated: 2025-02-06-17-07-49
+      updated: 2025-02-13-18-16-25
       followers: 4
       views: 74
 2016-12-22-ebonheart-towers:
@@ -1357,7 +1357,7 @@
     - service: vk
       id: 39
       published: 2017-01-22
-      updated: 2025-02-06-17-07-50
+      updated: 2025-02-13-18-16-26
       followers: 4
       views: 76
     - service: vk
@@ -1407,10 +1407,10 @@
     - service: vk
       id: 40
       published: 2017-01-22
-      updated: 2025-02-06-17-07-50
+      updated: 2025-02-13-18-16-26
       followers: 4
       likes: 2
-      views: 107
+      views: 108
 2016-12-24-double-winged-attack:
   title: Double Winged Attack
   titleRu: Двойная крылатая атака
@@ -1430,7 +1430,7 @@
     - service: vk
       id: 41
       published: 2017-01-22
-      updated: 2025-02-06-17-07-51
+      updated: 2025-02-13-18-16-27
       followers: 4
       likes: 1
       views: 76
@@ -1454,7 +1454,7 @@
     - service: vk
       id: 42
       published: 2017-01-22
-      updated: 2025-02-06-17-07-52
+      updated: 2025-02-13-18-16-28
       followers: 4
       likes: 2
       views: 76
@@ -1481,7 +1481,7 @@
     - service: vk
       id: 43
       published: 2017-01-22
-      updated: 2025-02-06-17-07-53
+      updated: 2025-02-13-18-16-29
       followers: 4
       likes: 1
       views: 78
@@ -1507,7 +1507,7 @@
     - service: vk
       id: 44
       published: 2017-01-22
-      updated: 2025-02-06-17-07-53
+      updated: 2025-02-13-18-16-30
       followers: 4
       likes: 1
       views: 81
@@ -1531,7 +1531,7 @@
     - service: vk
       id: 45
       published: 2017-01-22
-      updated: 2025-02-06-17-07-54
+      updated: 2025-02-13-18-16-30
       followers: 4
       likes: 3
       views: 87
@@ -1589,7 +1589,7 @@
     - service: vk
       id: 46
       published: 2017-01-22
-      updated: 2025-02-06-17-07-55
+      updated: 2025-02-13-18-16-31
       followers: 4
       likes: 1
       views: 93
@@ -1613,7 +1613,7 @@
     - service: vk
       id: 47
       published: 2017-01-22
-      updated: 2025-02-06-17-07-56
+      updated: 2025-02-13-18-16-32
       followers: 4
       likes: 3
       views: 92
@@ -1662,7 +1662,7 @@
     - service: vk
       id: 48
       published: 2017-01-22
-      updated: 2025-02-06-17-07-56
+      updated: 2025-02-13-18-16-33
       followers: 4
       likes: 4
       views: 90

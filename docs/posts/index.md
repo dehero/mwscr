@@ -4,7 +4,67 @@
 
 # Posted in 2025
 
-`43 items`
+`44 items`
+
+## <span id="2025-02-13-a-new-sight">A New Sight</span>
+
+`RU` Новый взгляд
+
+<a href="https://instagram.com/p/CfKLDX6sxiS/" title="2022-06-23-a-new-sight"><img alt="store:/shots/2022-06-23-a-new-sight.png" src="../../assets/previews/shots/2022-06-23-a-new-sight.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-02-13-a-new-sight&amp;postContent=store%3A%2Fshots%2F2022-06-23-a-new-sight.png&amp;postTitle=A+New+Sight&amp;postTitleRu=%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9+%D0%B2%D0%B7%D0%B3%D0%BB%D1%8F%D0%B4&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Bloodmoon&amp;postTags=lantern+nightsky&amp;postLocation=Skaal+Village&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Skaal Village` `🚀 OpenMW` `🔗 Bloodmoon` `lantern` `nightsky`
+
+```
+2025-02-13-a-new-sight
+```
+
+> `2022-06-23-a-new-sight`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | rating |
+|----------------------------------------------------|------------|------:|------:|----------:|-------:|
+| [`ig`](https://instagram.com/p/CfKLDX6sxiS/)       | 2022-06-23 |       |   265 |      1088 |  24.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1303) | 2022-06-23 |   994 |    79 |       700 |     12 |
+| [`tg`](https://t.me/mwscr/246)                     | 2022-06-23 |  1169 |    85 |       226 |  37.61 |
+| [`ig`](https://instagram.com/p/DGBdJ0-PH1J/)       | 2025-02-13 |       |       |      1534 |        |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2129) | 2025-02-13 |       |       |      1069 |        |
+| [`tg`](https://t.me/mwscr/706)                     | 2025-02-13 |       |       |       676 |        |
+|                                                    |            |       |       |      3279 |  24.66 |
+
+#### Comments
+
+- `vk` <ins title="2022-06-23-19-13-37">id153149684</ins> В группе признаки жизни❤😭😭
+- `vk` <ins title="2022-06-23-19-17-37">carpkoi</ins> Пропасть на полтора года без предупреждения и вдруг выпустить пост – это сильно
+  - <ins title="2022-06-24-11-45-27">hyarvar</ins> Никита, А эт специально чтобы уведомление пришло: &quot;Впервые за долгое время опубликовали новую запись&quot;)
+- `ig` <ins title="2022-06-23-19-25-51">tth00ss</ins> 😍
+- `ig` <ins title="2022-06-23-19-33-42">imjustgazin</ins> Yoooo
+- `tg` <ins title="2022-06-23-19-38-54">Dagoth Ur</ins> 🎉
+- `tg` <ins title="2022-06-23-19-39-14">PavelNikto</ins> Он вернулся🥳🥳🥳
+- `tg` <ins title="2022-06-23-19-40-43">PavelNikto</ins> 👍
+- `tg` <ins title="2022-06-23-19-41-28">.</ins> Ну ты и соня
+  - <ins title="2022-06-24-07-21-44">filippov_iurii</ins> его даже вчерашний шторм не разбудил
+- `tg` <ins title="2022-06-23-20-09-40">filippov_iurii</ins> ‼️
+- `ig` <ins title="2022-06-23-20-10-26">66.carat.gold</ins> THE RETURN OF THE KING
+- `ig` <ins title="2022-06-23-21-06-12">m_salashchenko</ins> 😻😻😻
+- `tg` <ins title="2022-06-23-21-33-02">Tunapocalypse</ins> 🐶
+- `ig` <ins title="2022-06-23-22-21-14">gangtake</ins> С возвращением!)))
+- `ig` <ins title="2022-06-23-23-06-51">eastcoast_lg</ins> You’re back!!
+- `tg` <ins title="2022-06-24-00-40-05">Shvechh</ins> 😘
+- `vk` <ins title="2022-06-24-01-59-19">verete1</ins> ожили
+- `ig` <ins title="2022-06-24-02-51-58">chaor_seyda</ins> Ого, кто вернулся :)
+  - <ins title="2022-06-24-10-35-29">mwscr</ins> Бункер открыли :-)
+- `ig` <ins title="2022-06-24-03-04-39">vamurin</ins> Yeeee, boi!! 🔥🔥🔥
+- `ig` <ins title="2022-06-24-04-50-17">mikeypierce420</ins> 🔥 🔥
+- `tg` <ins title="2022-06-24-07-02-58">pupushu</ins> джва года ждала этот скриншот
+- `tg` <ins title="2022-06-24-09-15-39">al_litver</ins> 🥰
+- `tg` <ins title="2022-06-24-10-12-33">ansis</ins> i missed this channel so much
+- `tg` <ins title="2022-06-24-16-10-11">alex_emsow</ins> 🥲
+- `tg` <ins title="2022-06-24-19-32-49">deleted</ins> 👲
+- `tg` <ins title="2022-06-24-19-47-26">sayylc</ins> ОГО! ТАК МНОГО ЛЮДЕЙ ИГРАЮТ В МОРРОВИНД...
+  - <ins title="2022-06-25-04-19-25">fifio20</ins> это лучшая игра всех времен и народов, как в нее не играть
 
 ## <span id="2025-02-12-horror-of-the-red-corridor">Horror of the Red Corridor</span>
 
@@ -29,10 +89,10 @@
 | [`ig`](https://instagram.com/p/BqVKLbFhIw8/)       | 2018-11-18 |       |   119 |       474 |  25.11 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1058) | 2018-11-18 |   535 |    37 |       286 |  12.94 |
 | [`tg`](https://t.me/mwscr/122)                     | 2018-11-18 |   366 |     3 |           |        |
-| [`ig`](https://instagram.com/p/DF-3pqzpcCB/)       | 2025-02-12 |   225 |    72 |      1534 |   4.69 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2126) | 2025-02-12 |   158 |    24 |      1066 |   2.35 |
-| [`tg`](https://t.me/mwscr/705)                     | 2025-02-12 |   183 |    46 |       674 |   6.82 |
-|                                                    |            |   566 |   142 |      3274 |  10.38 |
+| [`ig`](https://instagram.com/p/DF-3pqzpcCB/)       | 2025-02-12 |   232 |    73 |      1534 |   4.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2126) | 2025-02-12 |   160 |    25 |      1066 |   2.44 |
+| [`tg`](https://t.me/mwscr/705)                     | 2025-02-12 |   183 |    47 |       674 |   6.97 |
+|                                                    |            |   575 |   145 |      3274 |  10.44 |
 
 #### Comments
 
@@ -40,6 +100,7 @@
 - `ig` <ins title="2025-02-12-18-16-12">doots_spookman</ins> Are these taken running OpenMW?
   - <ins title="2025-02-12-18-19-47">mwscr</ins> right.
 - `vk` <ins title="2025-02-13-13-11-16">id872831147</ins> не ужас, а источник обрезков металла
+  - <ins title="2025-02-13-18-07-24">id889222999</ins> Mister, скорее источник прикольных звуков и тренажёр для прокачки брони, защиты и рукопашки - а эти обрезки не такая уж редкость
 
 ## <span id="2025-02-11-hanud">Hanud</span>
 
@@ -1466,7 +1527,7 @@
 |                                                    | published  | views | likes | followers | rating |
 |----------------------------------------------------|------------|------:|------:|----------:|-------:|
 | [`ig`](https://instagram.com/p/BYiJhBSjv3T/)       | 2017-09-02 |       |    96 |       199 |  48.24 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_413)  | 2017-09-02 |   134 |     9 |        75 |     12 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_413)  | 2017-09-02 |   135 |     9 |        75 |     12 |
 | [`ig`](https://instagram.com/p/DESuLyyPPAX/)       | 2025-01-01 |   583 |   128 |      1520 |   8.42 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2008) | 2025-01-01 |   418 |    39 |      1038 |   3.85 |
 | [`tg`](https://t.me/mwscr/644)                     | 2025-01-01 |   522 |    67 |       644 |   10.4 |
