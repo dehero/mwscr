@@ -2,7 +2,14 @@ import { DeepProxy } from 'proxy-deep';
 import type { InferOutput } from 'valibot';
 import { null as nullSchema, picklist, record, string, undefined as undefinedSchema, union } from 'valibot';
 import { arrayFromAsync, listItems } from '../utils/common-utils.js';
-import { getObjectValue, isObject, isPlainObject, mergeObjects, setObjectValue } from '../utils/object-utils.js';
+import {
+  getObjectValue,
+  isObject,
+  isPlainObject,
+  isProxy,
+  mergeObjects,
+  setObjectValue,
+} from '../utils/object-utils.js';
 import { Patch, patchObject } from './patch.js';
 import type { ObjectSchema, RecordSchema, Schema } from './schema.js';
 import { checkSchema, parseSchema } from './schema.js';
@@ -291,6 +298,10 @@ export class ListManagerChunkProxy<TItem extends object> extends DeepProxy<ListR
           };
         }
 
+        if (key === isProxy) {
+          return true;
+        }
+
         const value = Reflect.get(target, key, receiver);
         if (manager.skipProxy) {
           return value;
@@ -482,19 +493,25 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
   /**
    * Saves all changes made to the list to the storage.
    * It will only save changes made to the list since the last save.
-   * If a chunk does not exist, it will be created.
-   * If a chunk exists, it will be overwritten.
    */
   async save() {
+    // Get patch chunk names BEFORE clearing patch
+    const patchChunkNames = this.getPatchChunkNames();
+
+    // TODO: apply and clear patch AFTER successful save
+
+    // Apply patch to make YAML dump work properly.
+    // It's using Object.keys which is currently not supported by ListManagerChunkProxy.
     await this.applyPatch();
 
-    const patchChunkNames = this.getPatchChunkNames();
+    // Clear patch to avoid "Maximum call stack size exceeded" error
+    // TODO: fix this by saving deep proxy to patch as deep plain object
+    // Example: item.posts = [...(item.posts ?? []), ...[{ service: 'tg', id: 1, published: new Date() }]]
+    this.clearPatch();
 
     for (const chunkName of patchChunkNames) {
       await this.saveChunk(chunkName);
     }
-
-    this.clearPatch();
   }
 
   protected createItemId(_item: TItem): string | undefined {
@@ -505,6 +522,11 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
 
   protected abstract mergeItemWith(item: TItem, withItem: TItem): void;
 
+  /**
+   * Saves a chunk of the list by name.
+   * If a chunk does not exist, it will be created.
+   * If a chunk exists, it will be overwritten.
+   */
   protected async saveChunk(chunkName: string): Promise<void> {
     const data = await this.loadChunk(chunkName);
     const savedChunkNames = await this.getSavedChunkNames();
