@@ -2788,18 +2788,18 @@
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-02-06-19-01-39
+      updated: 2025-02-13-20-08-51
       followers: 1053
-      likes: 50
-      views: 312
+      likes: 52
+      views: 323
       reposts: 1
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-02-06-19-01-38
+      updated: 2025-02-13-20-08-50
       followers: 655
-      likes: 71
-      views: 449
+      likes: 73
+      views: 482
       comments: !c |-
         Cx+AkZPLQnlHEE4ggACoQWVsbGFyaWHZKdCv0LrRliDQutC+0LvRjNC+0YDQuCwg0Y/QutCwINC6
         0YDQsNGB0LAhAw==
@@ -6686,7 +6686,7 @@
     - service: vk
       id: 1663
       published: 2024-08-01-04-18-52
-      updated: 2025-02-06-19-01-41
+      updated: 2025-02-13-20-08-53
       followers: 924
       likes: 31
       views: 279
@@ -7202,10 +7202,10 @@
     - service: tg
       id: 352
       published: 2024-03-20-18-11-08
-      updated: 2025-02-06-19-01-41
+      updated: 2025-02-13-20-08-54
       followers: 352
       likes: 58
-      views: 453
+      views: 454
 2017-07-06-snowy-granius-meets-travelers-near-arkngthand:
   title: Snowy Granius Meets Travelers Near Arkngthand
   titleRu: Граниус Снежный встречает путников у Аркнтанда
@@ -9366,10 +9366,10 @@
       id: DESuLyyPPAX
       mediaId: '17995420544733093'
       published: 2025-01-01-18-10-15
-      updated: 2025-02-06-19-01-38
+      updated: 2025-02-13-20-08-50
       followers: 1520
       likes: 128
-      views: 583
+      views: 584
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
@@ -11074,10 +11074,10 @@
     - service: tg
       id: 337
       published: 2024-03-06-18-18-32
-      updated: 2025-02-06-19-01-42
+      updated: 2025-02-13-20-08-55
       followers: 343
       likes: 62
-      views: 615
+      views: 616
       comments: !c |-
         G+AA4I2UqJ2vI0tTl/38uUb4bVaJrbNx5Xvruwa8Zmw8+Led6Aam/9vw3U0GGHjmaeABpzv8zklk
         mWj75bG5/vvCRFF54ZS24ZSqP6ONHoBMkAGmfcO1rxaHAfmh80zGNljdQSJ4njZDGMvxdyRY5Sii
