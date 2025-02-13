@@ -29,14 +29,16 @@
 | [`ig`](https://instagram.com/p/BqVKLbFhIw8/)       | 2018-11-18 |       |   119 |       474 |  25.11 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1058) | 2018-11-18 |   535 |    37 |       286 |  12.94 |
 | [`tg`](https://t.me/mwscr/122)                     | 2018-11-18 |   366 |     3 |           |        |
+| [`ig`](https://instagram.com/p/DF-3pqzpcCB/)       | 2025-02-12 |   173 |    60 |      1534 |   3.91 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2126) | 2025-02-12 |    92 |    21 |      1066 |   2.06 |
 | [`tg`](https://t.me/mwscr/705)                     | 2025-02-12 |   156 |    38 |       674 |   5.64 |
-| [`ig`](https://instagram.com/p/DF-3pqzpcCB/)       | 2025-05-12 |       |       |      1534 |        |
-|                                                    |            |       |       |           |  11.44 |
+|                                                    |            |       |       |           |   9.93 |
 
 #### Comments
 
 - `vk` <ins title="2018-11-18-18-20-48">dead___end</ins> очень страшно 😰
+- `ig` <ins title="2025-02-12-18-16-12">doots_spookman</ins> Are these taken running OpenMW?
+  - <ins title="2025-02-12-18-19-47">mwscr</ins> right.
 
 ## <span id="2025-02-11-hanud">Hanud</span>
 

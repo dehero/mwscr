@@ -4445,10 +4445,10 @@
     - service: tg
       id: 552
       published: 2024-10-02-18-10-41
-      updated: 2025-02-06-06-11-42
+      updated: 2025-02-13-06-23-14
       followers: 560
       likes: 66
-      views: 519
+      views: 522
 2018-05-01-view-of-bthanchend:
   title: View of Bthanchend
   titleRu: Вид на Бтанченд
@@ -5672,7 +5672,7 @@
 2018-06-02-mournhold-cactus:
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
-  location: "Mournhold, Royal Palace: Guards' Quarters"
+  location: 'Mournhold, Royal Palace: Guards'' Quarters'
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   author: dehero
@@ -11452,7 +11452,7 @@
     - service: vk
       id: 1025
       published: 2018-11-02
-      updated: 2025-02-06-06-11-46
+      updated: 2025-02-13-06-23-17
       followers: 279
       likes: 29
       views: 466
@@ -11504,7 +11504,7 @@
     - service: vk
       id: 1026
       published: 2018-11-04
-      updated: 2025-02-06-06-11-45
+      updated: 2025-02-13-06-23-16
       followers: 280
       likes: 29
       views: 443
@@ -11537,7 +11537,7 @@
     - service: vk
       id: 1027
       published: 2018-11-05
-      updated: 2025-02-06-06-11-44
+      updated: 2025-02-13-06-23-15
       followers: 282
       likes: 24
       views: 479
@@ -11577,7 +11577,7 @@
     - service: vk
       id: 1031
       published: 2018-11-06
-      updated: 2025-02-06-06-11-43
+      updated: 2025-02-13-06-23-14
       followers: 284
       likes: 25
       views: 496
@@ -11667,10 +11667,10 @@
     - service: vk
       id: 1850
       published: 2024-10-23-18-10-16
-      updated: 2025-02-06-06-11-41
+      updated: 2025-02-13-06-23-11
       followers: 994
       likes: 44
-      views: 345
+      views: 347
       reposts: 2
       comments: !c |-
         G/4AuJwHto3sPCaIX+5CstH4f56TjfDrzjaGDDthgBEm96luGmEJaIQvfDx9YUXYq9tKtrQJIr6a
@@ -11680,10 +11680,10 @@
     - service: tg
       id: 573
       published: 2024-10-23-18-10-22
-      updated: 2025-02-06-06-11-39
+      updated: 2025-02-13-06-23-11
       followers: 563
       likes: 68
-      views: 540
+      views: 546
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов
@@ -12042,7 +12042,13 @@
       id: DF-3pqzpcCB
       mediaId: '18048203351229493'
       published: 2025-02-12-18-10-55
+      updated: 2025-02-13-06-23-12
       followers: 1534
+      likes: 60
+      views: 173
+      comments: !c |-
+        CyiAkZTLQnlPtgLeAACuZG9vdHNfc3Bvb2ttYW6/QXJlIHRoZXNlIHRha2VuIHJ1bm5pbmcgT3Bl
+        bk1XP5PLQnlPtjdbgAClbXdzY3KmcmlnaHQuAw==
     - service: vk
       id: 2126
       published: 2025-02-12-18-35-09
