@@ -83,6 +83,7 @@
 2016-11-20-3-molag-amur:
   title: Molag Amur
   titleRu: Молаг Амур
+  placement: Outdoors
   location: Molag Amur Region
   content: store:/shots/2016-11-20-3-molag-amur.png
   type: shot
@@ -215,6 +216,7 @@
 2016-11-21-sheogorad:
   title: Sheogorad
   titleRu: Шигорад
+  placement: Outdoors
   location: Sheogorad Region
   content: store:/shots/2016-11-21-sheogorad.png
   type: shot
@@ -479,6 +481,7 @@
 2016-11-28-forest-on-the-border-of-ashlands:
   title: Forest on the Border of Ashlands
   titleRu: Лес на границе Эшленда
+  placement: Outdoors
   location: Ashlands Region
   content: store:/shots/2016-11-28-forest-on-the-border-of-ashlands.png
   type: shot
@@ -909,6 +912,7 @@
 2016-12-10-somewhere-nearby-vivec:
   title: Somewhere Nearby Vivec
   titleRu: Где-то около Вивека
+  placement: Outdoors
   location: Ascadian Isles Region
   content: store:/shots/2016-12-10-somewhere-nearby-vivec.png
   type: shot
@@ -1457,6 +1461,7 @@
 2016-12-26-grazelands:
   title: Grazelands
   titleRu: Грейзленд
+  placement: Outdoors
   location: Grazelands Region
   content: store:/shots/2016-12-26-grazelands.png
   type: shot

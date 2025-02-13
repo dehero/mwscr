@@ -459,6 +459,7 @@
 2020-05-24-at-the-bitter-coast:
   title: At the Bitter Coast
   titleRu: На Горьком берегу
+  placement: Outdoors
   location: Bitter Coast Region
   content: store:/shots/2020-05-24-at-the-bitter-coast.png
   type: shot
@@ -1035,6 +1036,7 @@
 2020-10-21-land-of-rain:
   title: Land of Rain
   titleRu: Земля дождя
+  placement: Outdoors
   location: Grazelands Region
   content: store:/shots/2020-10-21-land-of-rain.png
   type: shot
@@ -1259,6 +1261,7 @@
 2020-10-26-nook-of-bitter-coast:
   title: Nook of Bitter Coast
   titleRu: Уголок Горького берега
+  placement: Outdoors
   location: Bitter Coast Region
   content: store:/shots/2020-10-26-nook-of-bitter-coast.png
   type: shot
@@ -1476,6 +1479,7 @@
 2020-11-01-grazing-grazelands:
   title: Grazing Grazelands
   titleRu: Паря над Грейзлендом
+  placement: Outdoors
   location: Grazelands Region
   content: store:/shots/2020-11-01-grazing-grazelands.png
   type: shot

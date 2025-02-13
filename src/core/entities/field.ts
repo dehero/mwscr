@@ -8,6 +8,7 @@ export const Field = picklist([
   'titleRu',
   'description',
   'descriptionRu',
+  'placement',
   'location',
   'content',
   'trash',

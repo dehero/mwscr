@@ -2,6 +2,7 @@
 2024-02-28-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
+  placement: Outdoors
   location:
     - Molag Amur Region
     - Omalen Ancestral Tomb
@@ -62,6 +63,7 @@
 2024-03-01-rat-in-the-pasture:
   title: Rat in the Pasture
   titleRu: Крыса на пастбище
+  placement: Outdoors
   location: Grazelands Region
   content: store:/shots/2024-03-01-rat-in-the-pasture.png
   trash:
@@ -107,6 +109,7 @@
 2024-03-02-queue:
   title: Queue
   titleRu: Очередь
+  placement: Outdoors
   location: Ascadian Isles Region
   content: store:/shots/2024-03-02-queue.png
   trash: store:/trash/dehero.2022-06-29-22-45-03.1.png
@@ -145,6 +148,7 @@
 2024-03-04-an-old-sprout:
   title: An Old Sprout
   titleRu: Старый росток
+  placement: Outdoors
   location: Grazelands Region
   content: store:/shots/2024-03-04-an-old-sprout.png
   trash:
@@ -223,6 +227,7 @@
 2024-03-08-a-bridge-to-ascadian-isles:
   title: A Bridge to Ascadian Isles
   titleRu: Мост к Аскадианским островам
+  placement: Outdoors
   location:
     - Bitter Coast Region
     - Ascadian Isles Region
@@ -350,6 +355,7 @@
 2024-03-11-gray-thorns:
   title: Gray Thorns
   titleRu: Серые шипы
+  placement: Outdoors
   location: Molag Amur Region
   content: store:/shots/2024-03-11-gray-thorns.png
   trash:
@@ -465,6 +471,7 @@
 2024-03-17-teeth-of-pelagiad:
   title: Teeth of Pelagiad
   titleRu: Зубы Пелагиада
+  placement: Outdoors
   location:
     - Ascadian Isles Region
     - Pelagiad
@@ -596,6 +603,7 @@
 2024-03-23-sunrise-over-molag-amur-coast:
   title: Sunrise Over Molag Amur Coast
   titleRu: Восход над побережьем Молаг Амур
+  placement: Outdoors
   location:
     - Ascadian Isles Region
     - Molag Amur Region
@@ -641,6 +649,7 @@
 2024-03-25-bridge-at-ghostfence:
   title: Bridge at Ghostfence
   titleRu: Мост у Призрачного Предела
+  placement: Outdoors
   location: Red Mountain Region
   content: store:/shots/2024-03-25-bridge-at-ghostfence.png
   trash:
@@ -685,6 +694,7 @@
 2024-03-27-evening-flight:
   title: Evening Flight
   titleRu: Вечерний полёт
+  placement: Outdoors
   location: Ascadian Isles Region
   content: store:/shots/2024-03-27-evening-flight.png
   trash:
@@ -897,6 +907,7 @@
 2024-04-06-falling-towers:
   title: Falling Towers
   titleRu: Падающие башни
+  placement: Outdoors
   location: Red Mountain Region
   content: store:/shots/2024-04-06-falling-towers.png
   type: shot
@@ -937,6 +948,7 @@
 2024-04-08-lava-fork:
   title: Lava Fork
   titleRu: Лавовая развилка
+  placement: Outdoors
   location: Molag Amur Region
   content: store:/shots/2024-04-08-lava-fork.png
   trash:
@@ -1019,6 +1031,7 @@
 2024-04-10-sun-mushrooms:
   title: Sun Mushrooms
   titleRu: Солнечные грибы
+  placement: Outdoors
   location: Azura's Coast Region
   content: store:/shots/2024-04-10-sun-mushrooms.png
   type: shot
@@ -1145,6 +1158,7 @@
 2024-04-15-night-at-red-mountain:
   title: Night at Red Mountain
   titleRu: Ночь у Красной горы
+  placement: Outdoors
   location: Red Mountain Region
   content: store:/shots/2024-04-15-night-at-red-mountain.png
   trash:
@@ -1194,6 +1208,7 @@
 2024-04-19-evening-shelter:
   title: Evening Shelter
   titleRu: Вечерний приют
+  placement: Outdoors
   location: Ascadian Isles Region
   content: store:/shots/2024-04-19-evening-shelter.png
   type: shot
@@ -1279,6 +1294,7 @@
 2024-04-22-sunset-over-molag-amur:
   title: Sunset Over Molag Amur
   titleRu: Закат над Молаг Амур
+  placement: Outdoors
   location: Molag Amur Region
   content: store:/shots/2024-04-22-sunset-over-molag-amur.png
   trash:
@@ -1404,6 +1420,7 @@
 2024-04-29-all-paths-lead-left:
   title: All Paths Lead Left
   titleRu: Все пути ведут налево
+  placement: Outdoors
   location: Molag Amur Region
   content: store:/shots/2024-04-29-all-paths-lead-left.png
   type: shot
@@ -2111,6 +2128,7 @@
 2024-06-11-emperor-parasols-under-the-rain-of-stars:
   title: Emperor Parasols Under the Rain of Stars
   titleRu: Императорские зонтики под звёздным дождем
+  placement: Outdoors
   location: Ascadian Isles Region
   content: store:/shots/2024-06-11-emperor-parasols-under-the-rain-of-stars.png
   trash: store:/trash/natty.2024-03-10-12-54-37.png
@@ -2152,6 +2170,7 @@
 2024-06-12-beran-ancestral-tomb:
   title: Beran Ancestral Tomb
   titleRu: Родовая гробница Беранов
+  placement: Outdoors
   location:
     - Azura's Coast Region
     - Beran Ancestral Tomb
@@ -2235,6 +2254,7 @@
 2024-06-14-sleeping-silt-strider:
   title: Sleeping Silt Strider
   titleRu: Спящий Силт Страйдер
+  placement: Outdoors
   location: Ashlands Region
   content: store:/shots/2024-06-14-sleeping-silt-strider.png
   trash:
@@ -2610,6 +2630,7 @@
 2024-10-04-grytewake:
   title: Grytewake
   titleRu: Гритвейк
+  placement: Outdoors
   location:
     - Grytewake
     - Bitter Coast Region
@@ -2854,6 +2875,7 @@
 2024-12-04-flash-of-lightning:
   title: Flash of Lightning
   titleRu: Вспышка молнии
+  placement: Outdoors
   location: Grazelands Region
   content: store:/shots/2024-12-04-flash-of-lightning.png
   trash:
@@ -3111,6 +3133,7 @@
 2024-12-11-night-calmness:
   title: Night Calmness
   titleRu: Ночное спокойствие
+  placement: Outdoors
   location: Ascadian Isles Region
   content: store:/shots/2024-12-11-night-calmness.png
   trash:
@@ -3156,6 +3179,7 @@
 2024-12-12-underwater-glow:
   title: Underwater Glow
   titleRu: Подводное сияние
+  placement: Outdoors
   location: Azura's Coast Region
   content: store:/shots/2024-12-12-underwater-glow.png
   trash: store:/trash/dehero.2024-02-17-11-02-07.png

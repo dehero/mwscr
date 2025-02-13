@@ -997,6 +997,7 @@
 2018-01-28-teeth-of-ashlands:
   title: Teeth of Ashlands
   titleRu: Клыки Эшленда
+  placement: Outdoors
   location: Ashlands Region
   content: store:/shots/2018-01-28-teeth-of-ashlands.png
   type: shot
@@ -2462,6 +2463,7 @@
 2018-03-08-dead-guar:
   title: Dead Guar
   titleRu: Мёртвый гуар
+  placement: Outdoors
   location: Bitter Coast Region
   content: store:/shots/2018-03-08-dead-guar.png
   type: shot
@@ -3402,6 +3404,7 @@
 2018-04-03-evening-expanse-of-ashlands:
   title: Evening Expanse of Ashlands
   titleRu: Вечерние просторы Эшленда
+  placement: Outdoors
   location: Ashlands Region
   content: store:/shots/2018-04-03-evening-expanse-of-ashlands.png
   type: shot
@@ -4241,6 +4244,7 @@
 2018-04-25-night-travellers:
   title: Night Travellers
   titleRu: Ночные странники
+  placement: Outdoors
   location: Bitter Coast Region
   content: store:/shots/2018-04-25-night-travellers.png
   type: shot
@@ -4729,6 +4733,7 @@
 2018-05-08-at-the-border-of-grazelands-and-ashlands:
   title: At the Border of Grazelands and Ashlands
   titleRu: На границе Грейзленда и Эшленда
+  placement: Outdoors
   location:
     - Grazelands Region
     - Ashlands Region
@@ -4813,6 +4818,7 @@
 2018-05-10-drooping-sun-of-molag-amur:
   title: Drooping Sun of Molag Amur
   titleRu: Усталое солнце Молаг Амура
+  placement: Outdoors
   location: Molag Amur Region
   content: store:/shots/2018-05-10-drooping-sun-of-molag-amur.png
   type: shot
@@ -7790,6 +7796,7 @@
 2018-08-02-alongshore:
   title: Alongshore
   titleRu: Вдоль берега
+  placement: Outdoors
   location: Ascadian Isles Region
   content: store:/shots/2018-08-02-alongshore.png
   type: shot
@@ -7814,6 +7821,7 @@
 2018-08-03-the-road-to-hlormaren:
   title: The Road to Hlormaren
   titleRu: Дорога к Хлормарену
+  placement: Outdoors
   location:
     - Bitter Coast Region
     - Hlormaren
@@ -8333,6 +8341,7 @@
 2018-08-20-mushroom-glade:
   title: Mushroom Glade
   titleRu: Грибная поляна
+  placement: Outdoors
   location: Ascadian Isles Region
   content: store:/shots/2018-08-20-mushroom-glade.png
   type: shot
@@ -8392,6 +8401,7 @@
 2018-08-22-river-bank-in-west-gash:
   title: River Bank in West Gash
   titleRu: Берег реки в Западном нагорье
+  placement: Outdoors
   location: West Gash Region
   content: store:/shots/2018-08-22-river-bank-in-west-gash.png
   type: shot
@@ -11962,6 +11972,7 @@
 2018-11-17-night-coast:
   title: Night Coast
   titleRu: Ночное побережье
+  placement: Outdoors
   location: Bitter Coast Region
   content: store:/shots/2018-11-17-night-coast.png
   type: shot
@@ -12230,6 +12241,7 @@
 2018-11-22-three-trees-by-the-road:
   title: Three Trees by the Road
   titleRu: Три дерева у дороги
+  placement: Outdoors
   location: Grazelands Region
   content: store:/shots/2018-11-22-three-trees-by-the-road.png
   type: shot

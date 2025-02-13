@@ -25,6 +25,7 @@
 2017-01-02-backdoor-to-tel-vos:
   title: Backdoor to Tel Vos
   titleRu: Запасной вход в Тель Вос
+  placement: Outdoors
   location:
     - Grazelands Region
     - Tel Vos
@@ -123,6 +124,7 @@
 2017-01-06-daedroth-in-grazelands:
   title: Daedroth in Grazelands
   titleRu: Даэдрот в Грейзленде
+  placement: Outdoors
   location: Grazelands Region
   content: store:/shots/2017-01-06-daedroth-in-grazelands.png
   type: shot
@@ -328,6 +330,7 @@
 2017-01-12-sunset-on-ascadian-isles:
   title: Sunset on Ascadian Isles
   titleRu: Закат на Аскадианских островах
+  placement: Outdoors
   location: Ascadian Isles Region
   content: store:/shots/2017-01-12-sunset-on-ascadian-isles.png
   type: shot
@@ -1946,6 +1949,7 @@
 2017-02-20-waterfall-camp:
   title: Waterfall Camp
   titleRu: Лагерь у водопада
+  placement: Outdoors
   location: West Gash Region
   content: store:/shots/2017-02-20-waterfall-camp.png
   type: shot
@@ -2087,6 +2091,7 @@
 2017-02-23-surroundings-of-pelagiad:
   title: Surroundings of Pelagiad
   titleRu: Окрестности Пелагиада
+  placement: Outdoors
   location:
     - Ascadian Isles Region
     - Pelagiad, Fort Pelagiad
@@ -2413,6 +2418,7 @@
 2017-03-03-grazelands:
   title: Grazelands
   titleRu: Грейзленд
+  placement: Outdoors
   location: Grazelands Region
   content: store:/shots/2017-03-03-grazelands.png
   type: shot
@@ -2470,6 +2476,7 @@
 2017-03-05-coast-of-west-gash:
   title: Coast of West Gash
   titleRu: Берег Западного нагорья
+  placement: Outdoors
   location: West Gash Region
   content: store:/shots/2017-03-05-coast-of-west-gash.png
   type: shot
@@ -3328,6 +3335,7 @@
 2017-03-26-exploring-bitter-coast:
   title: Exploring Bitter Coast
   titleRu: На горьком берегу
+  placement: Outdoors
   location: Bitter Coast Region
   content: store:/shots/2017-03-26-exploring-bitter-coast.png
   type: shot
@@ -5481,6 +5489,7 @@
 2017-05-18-evening-on-azuras-coast:
   title: Evening on Azura's Coast
   titleRu: Вечер на побережье Азуры
+  placement: Outdoors
   location: Azura's Coast Region
   content: store:/shots/2017-05-18-evening-on-azuras-coast.png
   type: shot
@@ -7223,6 +7232,7 @@
 2017-07-07-sneaking-scamp-at-bitter-coast:
   title: Sneaking Scamp at Bitter Coast
   titleRu: Крадущийся скамп на Горьком берегу
+  placement: Outdoors
   location: Bitter Coast Region
   content: store:/shots/2017-07-07-sneaking-scamp-at-bitter-coast.png
   type: shot
@@ -7907,6 +7917,7 @@
 2017-07-25-somewhere-at-bitter-coast:
   title: Somewhere at Bitter Coast
   titleRu: Где-то на Горьком берегу
+  placement: Outdoors
   location: Bitter Coast Region
   content: store:/shots/2017-07-25-somewhere-at-bitter-coast.png
   type: shot
@@ -8016,6 +8027,7 @@
 2017-07-28-on-the-roads-of-grazelands:
   title: On the Roads of Grazelands
   titleRu: На дорогах Грейзленда
+  placement: Outdoors
   location: Grazelands Region
   content: store:/shots/2017-07-28-on-the-roads-of-grazelands.png
   type: shot
@@ -8418,6 +8430,7 @@
 2017-08-09-night-sky-of-molag-amur:
   title: Night Sky of Molag Amur
   titleRu: Ночное небо Молаг Амур
+  placement: Outdoors
   location: Molag Amur Region
   content: store:/shots/2017-08-09-night-sky-of-molag-amur.png
   type: shot
@@ -8470,6 +8483,7 @@
 2017-08-11-west-gash:
   title: West Gash
   titleRu: Западное нагорье
+  placement: Outdoors
   location: West Gash Region
   content: store:/shots/2017-08-11-west-gash.png
   type: shot
@@ -8837,6 +8851,7 @@
 2017-08-19-surroundings-of-hlormaren:
   title: Surroundings of Hlormaren
   titleRu: В окрестностях Хлормарена
+  placement: Outdoors
   location:
     - Bitter Coast Region
     - Hlormaren
@@ -9001,6 +9016,7 @@
 2017-08-25-near-suran:
   title: Near Suran
   titleRu: У Сурана
+  placement: Outdoors
   location: Ascadian Isles Region
   content: store:/shots/2017-08-25-near-suran.png
   type: shot
@@ -9419,6 +9435,7 @@
 2017-09-05-martyr-of-red-mountain:
   title: Martyr of Red Mountain
   titleRu: Мученик Красной Горы
+  placement: Outdoors
   location: Red Mountain Region
   content: store:/shots/2017-09-05-martyr-of-red-mountain.png
   type: shot
@@ -12037,6 +12054,7 @@
 2017-11-18-at-the-edge-of-sheogorad:
   title: At the Edge of Sheogorad
   titleRu: На краю Шигорада
+  placement: Outdoors
   location: Sheogorad Region
   content: store:/shots/2017-11-18-at-the-edge-of-sheogorad.png
   type: shot
@@ -12144,6 +12162,7 @@
 2017-11-21-on-the-roads-of-bitter-coast:
   title: On the Roads of Bitter Coast
   titleRu: На дорогах Горького берега
+  placement: Outdoors
   location: Bitter Coast Region
   content: store:/shots/2017-11-21-on-the-roads-of-bitter-coast.png
   type: shot
@@ -12221,6 +12240,7 @@
 2017-11-24-reeds-of-grazelands:
   title: Reeds of Grazelands
   titleRu: Тростниковые заросли Грейзленда
+  placement: Outdoors
   location: Grazelands Region
   content: store:/shots/2017-11-24-reeds-of-grazelands.png
   type: shot
@@ -13137,6 +13157,7 @@
 2017-12-17-sky-of-grazelands-before-the-evening:
   title: Sky of Grazelands Before the Evening
   titleRu: Предвечернее небо Грейзленда
+  placement: Outdoors
   location: Grazelands Region
   content: store:/shots/2017-12-17-sky-of-grazelands-before-the-evening.png
   type: shot

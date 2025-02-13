@@ -448,6 +448,7 @@
 2022-07-03-crossing-the-edge-of-bitter-coast:
   title: Crossing the Edge of Bitter Coast
   titleRu: Пересекая край Горького берега
+  placement: Outdoors
   location: Bitter Coast Region
   content: store:/shots/2022-07-03-crossing-the-edge-of-bitter-coast.png
   type: shot
@@ -653,6 +654,7 @@
 2022-07-08-squad:
   title: Squad
   titleRu: Отряд
+  placement: Outdoors
   location: Ascadian Isles Region
   content: store:/shots/2022-07-08-squad.png
   type: shot
@@ -908,6 +910,7 @@
 2022-07-13-cold-waters-of-west-gash:
   title: Cold Waters of West Gash
   titleRu: Холодные воды Западного Нагорья
+  placement: Outdoors
   location: West Gash Region
   content: store:/shots/2022-07-13-cold-waters-of-west-gash.png
   type: shot
@@ -1524,6 +1527,7 @@
 2022-07-29-sunset-cypresses:
   title: Sunset Cypresses
   titleRu: Закатные кипарисы
+  placement: Outdoors
   location: Bitter Coast Region
   content: store:/shots/2022-07-29-sunset-cypresses.png
   trash:
