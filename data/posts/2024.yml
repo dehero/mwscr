@@ -393,6 +393,7 @@
 2024-03-12-neloth:
   title: Neloth
   titleRu: Нелот
+  placement: Indoors
   location: Sadrith Mora, Tel Naga Upper Tower
   content: store:/shots/2024-03-12-neloth.png
   type: shot
@@ -434,6 +435,7 @@
 2024-03-15-bonemold-shield-seller:
   title: Bonemold Shield Seller
   titleRu: Продавец костяного щита
+  placement: Indoors
   location: 'Pelagiad, Mebestien Ence: Trader'
   content: store:/shots/2024-03-15-bonemold-shield-seller.png
   type: shot
@@ -518,6 +520,7 @@
 2024-03-19-dirty-muriels-cornerclub:
   title: Dirty Muriel's Cornerclub
   titleRu: Трактир Грязной Мюриэль
+  placement: Outdoors
   location: Wolverine Hall
   content: store:/shots/2024-03-19-dirty-muriels-cornerclub.png
   trash:
@@ -560,6 +563,7 @@
 2024-03-21-first-stars-above-falasmaryon:
   title: First Stars Above Falasmaryon
   titleRu: Первые звёзды над Фаласмарионом
+  placement: Outdoors
   location: Falasmaryon
   content: store:/shots/2024-03-21-first-stars-above-falasmaryon.png
   type: shot
@@ -743,6 +747,7 @@
 2024-03-29-sneaking-scamp:
   title: Sneaking Scamp
   titleRu: Крадущийся скамп
+  placement: Indoors
   location: Punabi
   content: store:/shots/2024-03-29-sneaking-scamp.png
   trash: store:/trash/natty.2024-03-28-20-30-57.2.png
@@ -788,6 +793,7 @@
 2024-03-31-fire-river:
   title: Fire River
   titleRu: Огненная река
+  placement: Outdoors
   location: Mzanchend
   content: store:/shots/2024-03-31-fire-river.png
   trash: store:/trash/natty.2024-03-10-18-31-53.png
@@ -828,6 +834,7 @@
 2024-04-02-hanged-man:
   title: Hanged Man
   titleRu: Висельник
+  placement: Outdoors
   location: Wolverine Hall
   content: store:/shots/2024-04-02-hanged-man.png
   type: shot
@@ -865,6 +872,7 @@
 2024-04-04-view-of-elf-skerring:
   title: View of Elf-Skerring
   titleRu: Вид на Эльфийский Мореплаватель
+  placement: Outdoors
   location:
     - Sadrith Mora
     - Elf-Skerring
@@ -990,6 +998,7 @@
 2024-04-09-telvanni-council-house:
   title: Telvanni Council House
   titleRu: Дом Совета Телванни
+  placement: Outdoors
   location: Sadrith Mora
   content: store:/shots/2024-04-09-telvanni-council-house.png
   trash:
@@ -1067,6 +1076,7 @@
 2024-04-11-heros-skeleton:
   title: Hero's Skeleton
   titleRu: Скелет героя
+  placement: Indoors
   location: Endusal, Kagrenac's study
   content: store:/shots/2024-04-11-heros-skeleton.png
   trash:
@@ -1112,6 +1122,7 @@
 2024-04-13-manwe:
   title: Manwe
   titleRu: Манве
+  placement: Indoors
   location: Punabi
   content: store:/shots/2024-04-13-manwe.png
   trash:
@@ -1251,6 +1262,7 @@
 2024-04-20-fallen-sanctuary:
   title: Fallen Sanctuary
   titleRu: Павшее святилище
+  placement: Indoors
   location: Beran Ancestral Tomb
   content: store:/shots/2024-04-20-fallen-sanctuary.png
   trash:
@@ -1338,6 +1350,7 @@
 2024-04-24-muckspunges-on-the-coast:
   title: Muckspunges on the Coast
   titleRu: Мускпунж на побережье
+  placement: Outdoors
   content: store:/shots/2024-04-24-muckspunges-on-the-coast.png
   trash:
     - store:/trash/natty.2024-03-24-11-44-29.png
@@ -1379,6 +1392,7 @@
 2024-04-26-winter-and-summer:
   title: Winter and Summer
   titleRu: Зима и лето
+  placement: Outdoors
   content: store:/shots/2024-04-26-winter-and-summer.png
   type: shot
   author:
@@ -1463,6 +1477,7 @@
 2024-05-03-coastal-silt-strider:
   title: Coastal Silt Strider
   titleRu: Прибрежный силт-страйдер
+  placement: Outdoors
   content: store:/shots/2024-05-03-coastal-silt-strider.png
   type: shot
   author: dehero
@@ -1499,6 +1514,7 @@
 2024-05-04-ahnassi:
   title: Ahnassi
   titleRu: Анасси
+  placement: Indoors
   location: Pelagiad, Halfway Tavern
   content: store:/shots/2024-05-04-ahnassi.png
   type: shot
@@ -1536,6 +1552,7 @@
 2024-05-05-dinner-for-four:
   title: Dinner for Four
   titleRu: Обед на четверых
+  placement: Indoors
   content: store:/shots/2024-05-05-dinner-for-four.png
   trash:
     - store:/trash/dehero.2024-03-05-20-01-36.png
@@ -1582,6 +1599,7 @@
 2024-05-06-alchemist-table:
   title: Alchemist Table
   titleRu: Стол алхимика
+  placement: Indoors
   location: Vivec, Guild of Mages
   content: store:/shots/2024-05-06-alchemist-table.png
   trash: store:/trash/dehero.2019-05-08-18-13-56.png
@@ -1619,6 +1637,7 @@
 2024-05-07-campfire:
   title: Campfire
   titleRu: У костра
+  placement: Outdoors
   content: store:/shots/2024-05-07-campfire.png
   trash: store:/trash/dehero.2019-02-16-21-46-51.png
   type: shot
@@ -1654,6 +1673,7 @@
 2024-05-08-slaves-sleep-peacefully-in-their-shacks:
   title: Slaves Sleep Peacefully in Their Shacks
   titleRu: Рабы мирно спят в своих хижинах
+  placement: Outdoors
   content: store:/shots/2024-05-08-slaves-sleep-peacefully-in-their-shacks.png
   type: shot
   author:
@@ -1697,6 +1717,7 @@
 2024-05-10-after-the-repast:
   title: After the Repast
   titleRu: После трапезы
+  placement: Indoors
   location: Pelagiad, Halfway Tavern
   content: store:/shots/2024-05-10-after-the-repast.png
   trash: store:/trash/natty.2024-03-10-12-38-09.png
@@ -1737,6 +1758,7 @@
 2024-05-12-road-to-the-well:
   title: Road to the Well
   titleRu: Дорога к колодцу
+  placement: Outdoors
   location: Wolverine Hall
   content: store:/shots/2024-05-12-road-to-the-well.png
   type: shot
@@ -1777,6 +1799,7 @@
 2024-05-15-royal-draggle-tail:
   title: Royal Draggle-Tail
   titleRu: Королевский грязнохвостник
+  placement: Indoors
   location: Ules Manor
   content: store:/shots/2024-05-15-royal-draggle-tail.png
   trash:
@@ -1821,6 +1844,7 @@
 2024-05-17-both-gro-durug:
   title: Both Gro-Durug
   titleRu: Бот гро-Дуруг
+  placement: Indoors
   location: Sadrith Mora, Dirty Muriel's Cornerclub
   content: store:/shots/2024-05-17-both-gro-durug.png
   type: shot
@@ -1866,6 +1890,7 @@
 2024-05-19-druscashti:
   title: Druscashti
   titleRu: Друскашти
+  placement: Outdoors
   location: Druscashti
   content: store:/shots/2024-05-19-druscashti.png
   trash:
@@ -1909,6 +1934,7 @@
 2024-05-20-place-to-sleep:
   title: Place to Sleep
   titleRu: Место для сна
+  placement: Indoors
   content: store:/shots/2024-05-20-place-to-sleep.png
   type: shot
   author:
@@ -1960,6 +1986,7 @@
 2024-05-31-in-fir-branches:
   title: In Fir Branches
   titleRu: В ветвях ели
+  placement: Outdoors
   content: store:/shots/2024-05-31-in-fir-branches.png
   type: shot
   author: dehero
@@ -2003,6 +2030,7 @@
 2024-06-01-visiting-imperial-fort:
   title: Visiting Imperial Fort
   titleRu: Посещение имперского форта
+  placement: Indoors
   location: Buckmoth Legion Fort, Interior
   content: store:/shots/2024-06-01-visiting-imperial-fort.png
   type: shot
@@ -2053,6 +2081,7 @@
 2024-06-09-endusal:
   title: Endusal
   titleRu: Эндусал
+  placement: Outdoors
   location: Endusal
   content: store:/shots/2024-06-09-endusal.png
   trash:
@@ -2093,6 +2122,7 @@
 2024-06-10-utensil:
   title: Utensil
   titleRu: Утварь
+  placement: Indoors
   content: store:/shots/2024-06-10-utensil.png
   trash: store:/trash/dehero.2022-06-29-23-10-27.png
   type: shot
@@ -2219,6 +2249,7 @@
 2024-06-13-propylon:
   title: Propylon
   titleRu: Пропильон
+  placement: Indoors
   content: store:/shots/2024-06-13-propylon.png
   trash: store:/trash/dehero.2024-03-24-11-41-57.2.png
   type: shot
@@ -2369,6 +2400,7 @@
 2024-08-13-night-sky-above-suran:
   title: Night Sky Above Suran
   titleRu: Ночное небо над Сураном
+  placement: Outdoors
   location: Suran
   content: store:/wallpapers/2024-08-13-night-sky-above-suran.png
   trash: store:/trash/dehero.2022-04-11-23-55-01.1.png
@@ -2427,6 +2459,7 @@
 2024-08-29-death-under-rain:
   title: Death Under Rain
   titleRu: Смерть под дождём
+  placement: Outdoors
   location: Palansour
   content: store:/shots/2024-08-29-death-under-rain.png
   type: shot
@@ -2492,6 +2525,7 @@
 2024-09-23-near-imperial-office:
   title: Near Imperial Office
   titleRu: У Имперской канцелярии
+  placement: Outdoors
   location: Seyda Neen
   content: store:/shots/2024-09-23-near-imperial-office.png
   trash:
@@ -2543,6 +2577,7 @@
 2024-09-24-towers-and-castle:
   title: Towers and Castle
   titleRu: Башни и замок
+  placement: Outdoors
   location: Caldera
   content: store:/shots/2024-09-24-towers-and-castle.png
   trash: store:/trash/natty.2024-04-22-20-33-04.png
