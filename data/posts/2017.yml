@@ -3276,6 +3276,7 @@
 2017-03-25-the-two-towers:
   title: The Two Towers
   titleRu: Две башни
+  location: Dagon Fel
   content: store:/shots/2017-03-25-the-two-towers.png
   type: shot
   author: dehero
@@ -3963,8 +3964,9 @@
       likes: 12
       views: 244
 2017-04-11-entrance-to-adamassartus:
-  title: Entrance to Adamassartus
-  titleRu: Вход в Адамассартус
+  title: Entrance to Addamasartus
+  titleRu: Вход в Аддамасартус
+  location: Addamasartus
   content: store:/shots/2017-04-11-entrance-to-adamassartus.png
   type: shot
   author: dehero
@@ -11060,6 +11062,7 @@
 2017-10-23-flacassia-fauseius-on-the-spot:
   title: Flacassia Fauseius On-The-Spot
   titleRu: Флакассия Фаузейус на рабочем месте
+  location: Vivec, Guild of Mages
   content: store:/shots/2017-10-23-flacassia-fauseius-on-the-spot.png
   type: shot
   author: dehero
@@ -11086,6 +11089,7 @@
 2017-10-24-valvius-mevurenius-fireplace:
   title: Valvius Mevurenius' Fireplace
   titleRu: Камин Вальвиуса Мевурейуса
+  location: Caldera, Valvius Mevureius' House
   content: store:/shots/2017-10-24-valvius-mevurenius-fireplace.png
   type: shot
   author: dehero
@@ -11850,6 +11854,7 @@
 2017-11-13-three-guars-at-the-crossroads:
   title: Three Guars at the Crossroads
   titleRu: Три гуара на распутье
+  location: Bitter Coast Region
   content: store:/shots/2017-11-13-three-guars-at-the-crossroads.png
   type: shot
   author: dehero
@@ -12407,6 +12412,7 @@
 2017-11-29-ingmars-house:
   title: Ingmar's House
   titleRu: Дом Ингмара
+  location: Skaal Village, Ingmar's House
   content: store:/shots/2017-11-29-ingmars-house.png
   type: shot
   author: dehero
