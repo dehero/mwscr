@@ -160,7 +160,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2025-02-05-23-07-51
+      updated: 2025-02-13-00-36-12
       followers: 894
       likes: 47
       views: 367
@@ -8569,14 +8569,14 @@
       id: DF8SqGItDLm
       mediaId: '18062621761902568'
       published: 2025-02-11-18-09-13
-      updated: 2025-02-12-23-02-14
+      updated: 2025-02-13-00-36-06
       followers: 1534
-      likes: 46
-      views: 195
+      likes: 47
+      views: 198
     - service: vk
       id: 2123
       published: 2025-02-11-18-09-21
-      updated: 2025-02-12-23-02-16
+      updated: 2025-02-13-00-36-09
       followers: 1065
       likes: 34
       views: 188
@@ -8585,7 +8585,7 @@
     - service: tg
       id: 704
       published: 2025-02-11-18-09-30
-      updated: 2025-02-12-23-02-16
+      updated: 2025-02-13-00-36-08
       followers: 672
       likes: 57
       views: 207
@@ -9345,10 +9345,10 @@
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-02-05-23-07-50
+      updated: 2025-02-13-00-36-11
       followers: 1038
       likes: 39
-      views: 410
+      views: 418
       reposts: 1
       comments: !c |-
         G1IA+J0JdiwXiwm2XHYcUe1IT5+tDJsEI0z2PGWlNCWbjYcPp1yKLYw4kWMgAT5zZLJTE42yKmre
@@ -9356,10 +9356,10 @@
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-02-05-23-07-50
+      updated: 2025-02-13-00-36-10
       followers: 644
       likes: 67
-      views: 504
+      views: 522
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
