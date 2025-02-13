@@ -14,7 +14,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-01-01-ghostfence&postLocation=)</code> `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-01-01-ghostfence&amp;postContent=store%3A%2Fshots%2F2017-01-01-ghostfence.png&amp;postTitle=Ghostfence&amp;postTitleRu=%D0%9F%D1%80%D0%B8%D0%B7%D1%80%D0%B0%D1%87%D0%BD%D1%8B%D0%B9+%D0%9F%D1%80%D0%B5%D0%B4%D0%B5%D0%BB&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-01-01-ghostfence&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2017-01-01-ghostfence
@@ -36,7 +36,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Arkngthunch-Sturdumz` `🚀 OpenMW` `bridge`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz&amp;postContent=store%3A%2Fshots%2F2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.png&amp;postTitle=Dwemer+Bridge+to+Arkngthunch-Sturdumz&amp;postTitleRu=%D0%94%D0%B2%D0%B5%D0%BC%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9+%D0%BC%D0%BE%D1%81%D1%82+%D0%B2+%D0%90%D1%80%D0%BA%D0%BD%D0%B3%D1%82%D1%83%D0%BD%D1%87-%D0%A8%D1%82%D1%83%D1%80%D0%B4%D1%83%D0%BC%D1%86&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=bridge&amp;postLocation=Arkngthunch-Sturdumz&amp;postMark=A1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A1` `📍 Arkngthunch-Sturdumz` `🚀 OpenMW` `bridge`
 
 ```
 2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz
@@ -65,7 +65,7 @@
 > How about the packrat from mournhold?  
 > [buck-the-cuck](../contributors.md#buck-the-cuck "2017-12-23")
 
-`B1` `📍 Mournhold, Great Bazaar` `🚀 OpenMW` `🔗 Tribunal` `rat`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-12-24-little-helper&amp;postContent=store%3A%2Fshots%2F2017-12-24-little-helper.png&amp;postTitle=Little+Helper&amp;postTitleRu=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B8%D0%B9+%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%BD%D0%B8%D0%BA&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Tribunal&amp;postTags=rat&amp;postLocation=Mournhold%2C+Great+Bazaar&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=How+about+the+packrat+from+mournhold%3F) `B1` `📍 Mournhold, Great Bazaar` `🚀 OpenMW` `🔗 Tribunal` `rat`
 
 ```
 2017-12-24-little-helper
@@ -90,7 +90,7 @@
 
 `shot-set` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Sadrith Mora` `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-02-04-sadrith-mora&amp;postContent=store%3A%2Fshots%2F2017-01-19-sadrith-mora-gateway-inn.png%0Astore%3A%2Fshots%2F2017-01-08-dirty-muriels-cornerclub-and-tel-naga.png%0Astore%3A%2Fshots%2F2017-02-09-climbing-aboard-the-elf-skerring.png%0Astore%3A%2Fshots%2F2017-01-27-telvanni-council-house.png&amp;postTitle=Sadrith+Mora&amp;postTitleRu=%D0%A1%D0%B0%D0%B4%D1%80%D0%B8%D1%82+%D0%9C%D0%BE%D1%80%D0%B0&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Sadrith+Mora&amp;postMark=A1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A1` `📍 Sadrith Mora` `🚀 OpenMW`
 
 ```
 2018-02-04-sadrith-mora
@@ -118,7 +118,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Balmora` `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-01-27-evening-beat&amp;postContent=store%3A%2Fshots%2F2018-01-27-evening-beat.png&amp;postTitle=Evening+Beat&amp;postTitleRu=%D0%92%D0%B5%D1%87%D0%B5%D1%80%D0%BD%D0%B8%D0%B9+%D0%BE%D0%B1%D1%85%D0%BE%D0%B4&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Balmora&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Balmora` `🚀 OpenMW`
 
 ```
 2018-01-27-evening-beat
@@ -144,7 +144,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` `📍 Grazelands Region` `📍 Tel Vos` `🚀 OpenMW` `fort`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-01-02-backdoor-to-tel-vos&amp;postContent=store%3A%2Fshots%2F2017-01-02-backdoor-to-tel-vos.png&amp;postTitle=Backdoor+to+Tel+Vos&amp;postTitleRu=%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+%D0%B2%D1%85%D0%BE%D0%B4+%D0%B2+%D0%A2%D0%B5%D0%BB%D1%8C+%D0%92%D0%BE%D1%81&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=fort&amp;postLocation=Grazelands+Region%0ATel+Vos&amp;postMark=B2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B2` `📍 Grazelands Region` `📍 Tel Vos` `🚀 OpenMW` `fort`
 
 ```
 2017-01-02-backdoor-to-tel-vos
@@ -166,7 +166,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Molag Amur Region` `🚀 OpenMW` `sky` `tree` `night`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-08-09-night-sky-of-molag-amur&amp;postContent=store%3A%2Fshots%2F2017-08-09-night-sky-of-molag-amur.png&amp;postTitle=Night+Sky+of+Molag+Amur&amp;postTitleRu=%D0%9D%D0%BE%D1%87%D0%BD%D0%BE%D0%B5+%D0%BD%D0%B5%D0%B1%D0%BE+%D0%9C%D0%BE%D0%BB%D0%B0%D0%B3+%D0%90%D0%BC%D1%83%D1%80&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=sky+tree+night&amp;postLocation=Molag+Amur+Region&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Molag Amur Region` `🚀 OpenMW` `sky` `tree` `night`
 
 ```
 2017-08-09-night-sky-of-molag-amur
@@ -188,7 +188,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Balmora` `🚀 OpenMW` `rain` `siltstrider`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain&amp;postContent=store%3A%2Fshots%2F2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain.png&amp;postTitle=It%27s+Cloudy+in+Balmora+with+a+Chance+of+Rain&amp;postTitleRu=%D0%92+%D0%91%D0%B0%D0%BB%D0%BC%D0%BE%D1%80%D0%B5+%D0%BF%D0%B0%D1%81%D0%BC%D1%83%D1%80%D0%BD%D0%BE%2C+%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D1%8B+%D0%B4%D0%BE%D0%B6%D0%B4%D0%B8&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=rain+siltstrider&amp;postLocation=Balmora&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Balmora` `🚀 OpenMW` `rain` `siltstrider`
 
 ```
 2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain
@@ -213,7 +213,7 @@
 
 `shot-set` by [dehero](../contributors.md#dehero)
 
-`A2` `🚀 OpenMW` `skeleton`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-03-11-skeletons&amp;postContent=store%3A%2Fshots%2F2017-03-30-morning-hunt.png%0Astore%3A%2Fshots%2F2017-09-12-ice-prisoner.png%0Astore%3A%2Fshots%2F2017-05-29-so-hello.png%0Astore%3A%2Fshots%2F2017-11-07-corridor-keeper.png&amp;postTitle=Skeletons&amp;postTitleRu=%D0%A1%D0%BA%D0%B5%D0%BB%D0%B5%D1%82%D1%8B&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=skeleton&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-03-11-skeletons&postLocation=)</code> `🚀 OpenMW` `skeleton`
 
 ```
 2018-03-11-skeletons
@@ -241,7 +241,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Ald-ruhn, Guild of Mages` `🚀 OpenMW` `candle`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-03-10-aldruhn-guild-of-mages&amp;postContent=store%3A%2Fshots%2F2017-03-10-aldruhn-guild-of-mages.png&amp;postTitle=Ald%27ruhn%2C+Guild+of+Mages&amp;postTitleRu=%D0%90%D0%BB%D1%8C%D0%B4%27%D1%80%D1%83%D0%BD%2C+%D0%93%D0%B8%D0%BB%D1%8C%D0%B4%D0%B8%D1%8F+%D0%9C%D0%B0%D0%B3%D0%BE%D0%B2&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=candle&amp;postLocation=Ald-ruhn%2C+Guild+of+Mages&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Ald-ruhn, Guild of Mages` `🚀 OpenMW` `candle`
 
 ```
 2017-03-10-aldruhn-guild-of-mages
@@ -267,7 +267,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Tower of Tel Fyr, Hall of Fyr` `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-09-20-director-of-corprusarium&amp;postContent=store%3A%2Fshots%2F2017-09-20-director-of-corprusarium.png&amp;postTitle=Director+of+Corprusarium&amp;postTitleRu=%D0%94%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80+%D0%BA%D0%BE%D1%80%D0%BF%D1%80%D1%83%D1%81%D0%B0%D1%80%D0%B8%D1%83%D0%BC%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Tower+of+Tel+Fyr%2C+Hall+of+Fyr&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Tower of Tel Fyr, Hall of Fyr` `🚀 OpenMW`
 
 ```
 2017-09-20-director-of-corprusarium
@@ -299,7 +299,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-08-23-blessed-rain&postLocation=)</code> `🚀 OpenMW` `rain` `statue`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-08-23-blessed-rain&amp;postContent=store%3A%2Fshots%2F2017-08-23-blessed-rain.png&amp;postTitle=Blessed+Rain&amp;postTitleRu=%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D1%81%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9+%D0%B4%D0%BE%D0%B6%D0%B4%D1%8C&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=rain+statue&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-08-23-blessed-rain&postLocation=)</code> `🚀 OpenMW` `rain` `statue`
 
 ```
 2017-08-23-blessed-rain
@@ -321,7 +321,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-04-15-moon-and-stars&postLocation=)</code> `🚀 OpenMW` `moon` `star` `azura`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-04-15-moon-and-stars&amp;postContent=store%3A%2Fshots%2F2017-04-15-moon-and-stars.png&amp;postTitle=Moon+and+Stars&amp;postTitleRu=%D0%9B%D1%83%D0%BD%D0%B0+%D0%B8+%D0%B7%D0%B2%D1%91%D0%B7%D0%B4%D1%8B&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=moon+star+azura&amp;postLocation=&amp;postMark=A1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-04-15-moon-and-stars&postLocation=)</code> `🚀 OpenMW` `moon` `star` `azura`
 
 ```
 2017-04-15-moon-and-stars
@@ -343,7 +343,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-06-28-misty-ledges&postLocation=)</code> `🚀 OpenMW` `redoran`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-06-28-misty-ledges&amp;postContent=store%3A%2Fshots%2F2017-06-28-misty-ledges.png&amp;postTitle=Misty+Ledges&amp;postTitleRu=%D0%A2%D1%83%D0%BC%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5+%D0%B3%D1%80%D1%8F%D0%B4%D1%8B&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=redoran&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-06-28-misty-ledges&postLocation=)</code> `🚀 OpenMW` `redoran`
 
 ```
 2017-06-28-misty-ledges
@@ -365,7 +365,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Balmora` `🚀 OpenMW` `eveningstreet`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-03-29-guilds-and-stores&amp;postContent=store%3A%2Fshots%2F2017-03-29-guilds-and-stores.png&amp;postTitle=Guilds+and+Stores&amp;postTitleRu=%D0%93%D0%B8%D0%BB%D1%8C%D0%B4%D0%B8%D0%B8+%D0%B8+%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=eveningstreet&amp;postLocation=Balmora&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Balmora` `🚀 OpenMW` `eveningstreet`
 
 ```
 2017-03-29-guilds-and-stores
@@ -392,7 +392,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` `📍 Gnisis` `🚀 OpenMW` `depression` `npc`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-06-19-hentus-still-looks-for-his-pants&amp;postContent=store%3A%2Fshots%2F2017-06-19-hentus-still-looks-for-his-pants.png&amp;postTitle=Hentus+Still+Looks+for+His+Pants&amp;postTitleRu=%D0%A5%D0%B5%D0%BD%D1%82%D1%83%D1%81+%D0%B2%D1%81%D1%91+%D0%B5%D1%89%D1%91+%D0%B8%D1%89%D0%B5%D1%82+%D1%81%D0%B2%D0%BE%D0%B8+%D1%88%D1%82%D0%B0%D0%BD%D1%8B&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=depression+npc&amp;postLocation=Gnisis&amp;postMark=E&amp;postViolation=&amp;postTrash=&amp;postRequest=) `E` `📍 Gnisis` `🚀 OpenMW` `depression` `npc`
 
 ```
 2017-06-19-hentus-still-looks-for-his-pants
@@ -414,7 +414,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-05-17-nice-time-to-go-boating&postLocation=)</code> `🚀 OpenMW` `boat` `boating`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-05-17-nice-time-to-go-boating&amp;postContent=store%3A%2Fshots%2F2017-05-17-nice-time-to-go-boating.png&amp;postTitle=Nice+Time+to+Go+Boating&amp;postTitleRu=%D0%A5%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%B5+%D0%B2%D1%80%D0%B5%D0%BC%D1%8F%2C+%D1%87%D1%82%D0%BE%D0%B1%D1%8B+%D0%BF%D0%BE%D0%BF%D0%BB%D0%B0%D0%B2%D0%B0%D1%82%D1%8C+%D0%BD%D0%B0+%D0%BB%D0%BE%D0%B4%D0%BA%D0%B5&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=boat+boating&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-05-17-nice-time-to-go-boating&postLocation=)</code> `🚀 OpenMW` `boat` `boating`
 
 ```
 2017-05-17-nice-time-to-go-boating
@@ -436,7 +436,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-01-05-alchemy-corner&postLocation=)</code> `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-01-05-alchemy-corner&amp;postContent=store%3A%2Fshots%2F2017-01-05-alchemy-corner.png&amp;postTitle=Alchemy+Corner&amp;postTitleRu=%D0%90%D0%BB%D1%85%D0%B8%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D1%83%D0%B3%D0%BE%D0%BB%D0%BE%D0%BA&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-01-05-alchemy-corner&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2017-01-05-alchemy-corner
@@ -458,7 +458,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-04-12-lets-set-sail&postLocation=)</code> `🚀 OpenMW` `ship` `boating`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-04-12-lets-set-sail&amp;postContent=store%3A%2Fshots%2F2017-04-12-lets-set-sail.png&amp;postTitle=Let%27s+Set+Sail%21&amp;postTitleRu=%D0%9E%D1%82%D1%87%D0%B0%D0%BB%D0%B8%D0%B2%D0%B0%D0%B5%D0%BC%21&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=ship+boating&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-04-12-lets-set-sail&postLocation=)</code> `🚀 OpenMW` `ship` `boating`
 
 ```
 2017-04-12-lets-set-sail
@@ -480,7 +480,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Ald Sotha` `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-04-18-ald-sotha&amp;postContent=store%3A%2Fshots%2F2018-04-18-ald-sotha.png&amp;postTitle=Ald+Sotha&amp;postTitleRu=%D0%90%D0%BB%D1%8C%D0%B4+%D0%A1%D0%BE%D1%82%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Ald+Sotha&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Ald Sotha` `🚀 OpenMW`
 
 ```
 2018-04-18-ald-sotha
@@ -506,7 +506,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Solstheim, Castle Karstaag` `🚀 OpenMW` `🔗 Bloodmoon` `ice` `castle`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-06-11-castle-karstaag&amp;postContent=store%3A%2Fshots%2F2017-06-11-castle-karstaag.png&amp;postTitle=Castle+Karstaag&amp;postTitleRu=%D0%97%D0%B0%D0%BC%D0%BE%D0%BA+%D0%9A%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%B0%D0%B3&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Bloodmoon&amp;postTags=ice+castle&amp;postLocation=Solstheim%2C+Castle+Karstaag&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Solstheim, Castle Karstaag` `🚀 OpenMW` `🔗 Bloodmoon` `ice` `castle`
 
 ```
 2017-06-11-castle-karstaag
@@ -528,7 +528,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Ascadian Isles Region` `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-01-12-sunset-on-ascadian-isles&amp;postContent=store%3A%2Fshots%2F2017-01-12-sunset-on-ascadian-isles.png&amp;postTitle=Sunset+on+Ascadian+Isles&amp;postTitleRu=%D0%97%D0%B0%D0%BA%D0%B0%D1%82+%D0%BD%D0%B0+%D0%90%D1%81%D0%BA%D0%B0%D0%B4%D0%B8%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D1%85+%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B0%D1%85&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Ascadian+Isles+Region&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Ascadian Isles Region` `🚀 OpenMW`
 
 ```
 2017-01-12-sunset-on-ascadian-isles
@@ -553,7 +553,7 @@
 
 `shot-set` by [dehero](../contributors.md#dehero)
 
-`A2` `🚀 OpenMW` `moon`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-03-18-two-moons&amp;postContent=store%3A%2Fshots%2F2017-04-22-entrance-to-cavern-of-the-incarnate.png%0Astore%3A%2Fshots%2F2017-04-15-moon-and-stars.png%0Astore%3A%2Fshots%2F2017-02-24-secunda-over-the-towers-of-ebonheart.png%0Astore%3A%2Fshots%2F2017-05-28-masser-over-the-mournhold-temple.png&amp;postTitle=Two+Moons&amp;postTitleRu=%D0%94%D0%B2%D0%B5+%D0%BB%D1%83%D0%BD%D1%8B&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=moon&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-03-18-two-moons&postLocation=)</code> `🚀 OpenMW` `moon`
 
 ```
 2018-03-18-two-moons
@@ -581,7 +581,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`E` `📍 Vivec, Temple` `🚀 OpenMW` `moon`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-05-25-the-one-who-holds-baar-dau&amp;postContent=store%3A%2Fshots%2F2018-05-25-the-one-who-holds-baar-dau.png&amp;postTitle=The+One+Who+Holds+Baar+Dau&amp;postTitleRu=%D0%A2%D0%BE%D1%82%2C+%D0%BA%D1%82%D0%BE+%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D1%82+%D0%91%D0%B0%D0%B0%D1%80+%D0%94%D0%B0%D1%83&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=moon&amp;postLocation=Vivec%2C+Temple&amp;postMark=E&amp;postViolation=&amp;postTrash=&amp;postRequest=) `E` `📍 Vivec, Temple` `🚀 OpenMW` `moon`
 
 ```
 2018-05-25-the-one-who-holds-baar-dau
@@ -612,7 +612,7 @@
 
 `shot-set` by [dehero](../contributors.md#dehero)
 
-`A2` `🚀 OpenMW` `monster`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-03-04-monsters&amp;postContent=store%3A%2Fshots%2F2017-01-06-daedroth-in-grazelands.png%0Astore%3A%2Fshots%2F2016-12-24-double-winged-attack.png%0Astore%3A%2Fshots%2F2017-09-05-martyr-of-red-mountain.png%0Astore%3A%2Fshots%2F2017-08-12-fearsome-grahl.png&amp;postTitle=Monsters&amp;postTitleRu=%D0%9C%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%8B&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=monster&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-03-04-monsters&postLocation=)</code> `🚀 OpenMW` `monster`
 
 ```
 2018-03-04-monsters
@@ -638,7 +638,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Gnisis` `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-01-30-madach-tradehouse&amp;postContent=store%3A%2Fshots%2F2018-01-30-madach-tradehouse.png&amp;postTitle=Madach+Tradehouse&amp;postTitleRu=%D0%A2%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%80+%D0%9C%D0%B0%D0%B4%D0%B0%D1%87&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Gnisis&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Gnisis` `🚀 OpenMW`
 
 ```
 2018-01-30-madach-tradehouse
@@ -665,7 +665,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Vivec` `🚀 OpenMW` `sunset`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-03-20-sun-moon-vivec&amp;postContent=store%3A%2Fshots%2F2017-03-20-sun-moon-vivec.png&amp;postTitle=Sun%2C+Moon%2C+Vivec&amp;postTitleRu=%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B5%2C+%D0%BB%D1%83%D0%BD%D0%B0%2C+%D0%92%D0%B8%D0%B2%D0%B5%D0%BA&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=sunset&amp;postLocation=Vivec&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Vivec` `🚀 OpenMW` `sunset`
 
 ```
 2017-03-20-sun-moon-vivec
@@ -694,7 +694,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-02-07-grazing-netches&postLocation=)</code> `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-02-07-grazing-netches&amp;postContent=store%3A%2Fshots%2F2018-02-07-grazing-netches.png&amp;postTitle=Grazing+Netches&amp;postTitleRu=%D0%9F%D0%B0%D1%81%D1%83%D1%89%D0%B8%D0%B5%D1%81%D1%8F+%D0%BD%D0%B5%D1%82%D1%87%D0%B8&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-02-07-grazing-netches&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2018-02-07-grazing-netches
@@ -719,7 +719,7 @@
 > Очень хочется фото скампа торговца!!! Я давно не был у него в гостях в Кальдере, интересно, как он поживает..?  
 > [Владимир](../contributors.md#id172608176 "2018-10-31")
 
-`A2` `📍 Caldera, Ghorak Manor` `🚀 OpenMW` `scamp` `dagger`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-10-31-creeper-and-dagger&amp;postContent=store%3A%2Fshots%2F2018-10-31-creeper-and-dagger.png&amp;postTitle=Creeper+and+Dagger&amp;postTitleRu=%D0%9F%D0%BE%D0%BB%D0%B7%D1%83%D0%BD+%D0%B8+%D0%BA%D0%B8%D0%BD%D0%B6%D0%B0%D0%BB&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=scamp+dagger&amp;postLocation=Caldera%2C+Ghorak+Manor&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=%D0%9E%D1%87%D0%B5%D0%BD%D1%8C+%D1%85%D0%BE%D1%87%D0%B5%D1%82%D1%81%D1%8F+%D1%84%D0%BE%D1%82%D0%BE+%D1%81%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0+%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D1%86%D0%B0%21%21%21+%D0%AF+%D0%B4%D0%B0%D0%B2%D0%BD%D0%BE+%D0%BD%D0%B5+%D0%B1%D1%8B%D0%BB+%D1%83+%D0%BD%D0%B5%D0%B3%D0%BE+%D0%B2+%D0%B3%D0%BE%D1%81%D1%82%D1%8F%D1%85+%D0%B2+%D0%9A%D0%B0%D0%BB%D1%8C%D0%B4%D0%B5%D1%80%D0%B5%2C+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D0%BE%2C+%D0%BA%D0%B0%D0%BA+%D0%BE%D0%BD+%D0%BF%D0%BE%D0%B6%D0%B8%D0%B2%D0%B0%D0%B5%D1%82..%3F) `A2` `📍 Caldera, Ghorak Manor` `🚀 OpenMW` `scamp` `dagger`
 
 ```
 2018-10-31-creeper-and-dagger
@@ -754,7 +754,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Seyda Neen` `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-01-03-census-and-excise-office-from-lighthouse&amp;postContent=store%3A%2Fshots%2F2017-01-03-census-and-excise-office-from-lighthouse.png&amp;postTitle=Census+and+Excise+Office+from+Lighthouse&amp;postTitleRu=%D0%9E%D1%84%D0%B8%D1%81+%D0%9A%D0%B0%D0%BD%D1%86%D0%B5%D0%BB%D1%8F%D1%80%D0%B8%D0%B8+%D0%9D%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2+%D0%B8+%D0%A1%D0%B1%D0%BE%D1%80%D0%BE%D0%B2+%D1%81+%D0%BC%D0%B0%D1%8F%D0%BA%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Seyda+Neen&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Seyda Neen` `🚀 OpenMW`
 
 ```
 2017-01-03-census-and-excise-office-from-lighthouse
@@ -779,7 +779,7 @@
 
 `shot-set` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Caldera` `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-04-29-caldera&amp;postContent=store%3A%2Fshots%2F2016-12-28-close-to-caldera-clothier.png%0Astore%3A%2Fshots%2F2017-03-22-betty-netch-and-far-caldera.png%0Astore%3A%2Fshots%2F2017-10-28-caldera-north-west-road.png%0Astore%3A%2Fshots%2F2017-01-25-morning-mist-of-caldera.png&amp;postTitle=Caldera&amp;postTitleRu=%D0%9A%D0%B0%D0%BB%D1%8C%D0%B4%D0%B5%D1%80%D0%B0&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Caldera&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Caldera` `🚀 OpenMW`
 
 ```
 2018-04-29-caldera
@@ -801,7 +801,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-08-29-at-the-coast-of-hirstaang-forest&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `coast` `firtree`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-08-29-at-the-coast-of-hirstaang-forest&amp;postContent=store%3A%2Fshots%2F2017-08-29-at-the-coast-of-hirstaang-forest.png&amp;postTitle=At+the+Coast+of+Hirstaang+Forest&amp;postTitleRu=%D0%9D%D0%B0+%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D1%83+%D0%9B%D0%B5%D1%81%D0%B0+%D0%A5%D0%B8%D1%80%D1%81%D1%82%D0%B0%D0%B0%D0%BD%D0%B3&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Bloodmoon&amp;postTags=coast+firtree&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-08-29-at-the-coast-of-hirstaang-forest&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `coast` `firtree`
 
 ```
 2017-08-29-at-the-coast-of-hirstaang-forest
@@ -827,7 +827,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` `📍 Ald Sotha` `🚀 OpenMW` `rain`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-04-23-ald-sotha-in-rainy-haze&amp;postContent=store%3A%2Fshots%2F2017-04-23-ald-sotha-in-rainy-haze.png&amp;postTitle=Ald+Sotha+in+Rainy+Haze&amp;postTitleRu=%D0%90%D0%BB%D1%8C%D0%B4+%D0%A1%D0%BE%D1%82%D0%B0+%D0%B2+%D0%B4%D0%BE%D0%B6%D0%B4%D0%BB%D0%B8%D0%B2%D0%BE%D0%B9+%D0%BC%D0%B3%D0%BB%D0%B5&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=rain&amp;postLocation=Ald+Sotha&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Ald Sotha` `🚀 OpenMW` `rain`
 
 ```
 2017-04-23-ald-sotha-in-rainy-haze
@@ -852,7 +852,7 @@
 
 `shot-set` by [dehero](../contributors.md#dehero)
 
-`A2` `🚀 OpenMW` `architecture`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-04-22-evening-dwemer-architecture&amp;postContent=store%3A%2Fshots%2F2017-03-08-nchurdamz-at-the-sunset.png%0Astore%3A%2Fshots%2F2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.png%0Astore%3A%2Fshots%2F2017-01-26-aleft.png%0Astore%3A%2Fshots%2F2017-08-22-arkngthunch-sturdumz.png&amp;postTitle=Evening+Dwemer+Architecture&amp;postTitleRu=%D0%92%D0%B5%D1%87%D0%B5%D1%80%D0%BD%D1%8F%D1%8F+%D0%B4%D0%B2%D0%B5%D0%BC%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F+%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=architecture&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-04-22-evening-dwemer-architecture&postLocation=)</code> `🚀 OpenMW` `architecture`
 
 ```
 2018-04-22-evening-dwemer-architecture
@@ -874,7 +874,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Balmora` `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-06-15-under-the-magic-eye&amp;postContent=store%3A%2Fshots%2F2018-06-15-under-the-magic-eye.png&amp;postTitle=Under+the+Magic+Eye&amp;postTitleRu=%D0%9F%D0%BE%D0%B4+%D0%BC%D0%B0%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC+%D0%B3%D0%BB%D0%B0%D0%B7%D0%BE%D0%BC&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Balmora&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Balmora` `🚀 OpenMW`
 
 ```
 2018-06-15-under-the-magic-eye
@@ -902,7 +902,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-05-29-at-the-tops-of-fir-trees&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `firtree` `moon` `masser` `secunda`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-05-29-at-the-tops-of-fir-trees&amp;postContent=store%3A%2Fshots%2F2018-05-29-at-the-tops-of-fir-trees.png&amp;postTitle=At+the+Tops+of+Fir-Trees&amp;postTitleRu=%D0%92+%D0%B2%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D0%B0%D1%85+%D0%B5%D0%BB%D0%B5%D0%B9&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Bloodmoon&amp;postTags=firtree+moon+masser+secunda&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-05-29-at-the-tops-of-fir-trees&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon` `firtree` `moon` `masser` `secunda`
 
 ```
 2018-05-29-at-the-tops-of-fir-trees
@@ -932,7 +932,7 @@
 
 `shot-set` by [dehero](../contributors.md#dehero)
 
-`A2` `🚀 OpenMW` `lava`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-02-25-la-va-land&amp;postContent=store%3A%2Fshots%2F2017-09-15-lava-swamps.png%0Astore%3A%2Fshots%2F2017-08-02-over-the-lava.png%0Astore%3A%2Fshots%2F2016-12-30-lava-lake-near-mzanchend.png%0Astore%3A%2Fshots%2F2017-03-16-in-the-chambers-of-nchurdamz.png&amp;postTitle=La-Va+Land&amp;postTitleRu=%D0%9B%D0%B0-%D0%92%D0%B0+%D0%9B%D0%B5%D0%BD%D0%B4&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=lava&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-02-25-la-va-land&postLocation=)</code> `🚀 OpenMW` `lava`
 
 ```
 2018-02-25-la-va-land
@@ -961,7 +961,7 @@
 
 `shot-set` by [dehero](../contributors.md#dehero)
 
-`A2` `🚀 OpenMW` `waterfall`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-08-12-waterfalls&amp;postContent=store%3A%2Fshots%2F2017-02-20-waterfall-camp.png%0Astore%3A%2Fshots%2F2018-01-08-aqueduct-of-old-mournhold.png%0Astore%3A%2Fshots%2F2018-06-01-waterfalls-of-puzzle-canal.png%0Astore%3A%2Fshots%2F2018-02-10-in-the-evening-canals-of-vivec.png&amp;postTitle=Waterfalls&amp;postTitleRu=%D0%92%D0%BE%D0%B4%D0%BE%D0%BF%D0%B0%D0%B4%D1%8B&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=waterfall&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-08-12-waterfalls&postLocation=)</code> `🚀 OpenMW` `waterfall`
 
 ```
 2018-08-12-waterfalls
@@ -993,7 +993,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-02-27-fieldwork&postLocation=)</code> `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-02-27-fieldwork&amp;postContent=store%3A%2Fshots%2F2018-02-27-fieldwork.png&amp;postTitle=Fieldwork&amp;postTitleRu=%D0%9F%D0%BE%D0%BB%D0%B5%D0%B2%D1%8B%D0%B5+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=B2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-02-27-fieldwork&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2018-02-27-fieldwork
@@ -1015,7 +1015,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-02-15-sailboat-in-coastal-waters&postLocation=)</code> `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-02-15-sailboat-in-coastal-waters&amp;postContent=store%3A%2Fshots%2F2017-02-15-sailboat-in-coastal-waters.png&amp;postTitle=Sailboat+in+Coastal+Waters&amp;postTitleRu=%D0%9F%D0%B0%D1%80%D1%83%D1%81%D0%BD%D0%B0%D1%8F+%D1%88%D0%BB%D1%8E%D0%BF%D0%BA%D0%B0+%D0%B2+%D0%BF%D1%80%D0%B8%D0%B1%D1%80%D0%B5%D0%B6%D0%BD%D1%8B%D1%85+%D0%B2%D0%BE%D0%B4%D0%B0%D1%85&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-02-15-sailboat-in-coastal-waters&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2017-02-15-sailboat-in-coastal-waters
@@ -1044,7 +1044,7 @@
 
 `shot-set` by [dehero](../contributors.md#dehero)
 
-`B1` `🚀 OpenMW` `npc`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-06-10-left-side-portraits&amp;postContent=store%3A%2Fshots%2F2017-05-09-youd-better-do-what-they-say.png%0Astore%3A%2Fshots%2F2017-05-19-queen-mother-in-her-chambers.png%0Astore%3A%2Fshots%2F2017-09-20-director-of-corprusarium.png%0Astore%3A%2Fshots%2F2017-10-21-socucius-ergalla.png&amp;postTitle=Left-Side+Portraits&amp;postTitleRu=%D0%9B%D0%B5%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D0%B5+%D0%BF%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82%D1%8B&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=npc&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-06-10-left-side-portraits&postLocation=)</code> `🚀 OpenMW` `npc`
 
 ```
 2018-06-10-left-side-portraits
@@ -1071,7 +1071,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` `📍 Nchurdamz` `🚀 OpenMW` `dwemer`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-12-27-entrance-to-nchurdamz&amp;postContent=store%3A%2Fshots%2F2017-12-27-entrance-to-nchurdamz.png&amp;postTitle=Entrance+to+Nchurdamz&amp;postTitleRu=%D0%92%D1%85%D0%BE%D0%B4+%D0%B2+%D0%9D%D1%87%D1%83%D1%80%D0%B4%D0%B0%D0%BC%D1%86&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=dwemer&amp;postLocation=Nchurdamz&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Nchurdamz` `🚀 OpenMW` `dwemer`
 
 ```
 2017-12-27-entrance-to-nchurdamz
@@ -1093,7 +1093,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-04-21-fishers-bliss&postLocation=)</code> `🚀 OpenMW` `bottle` `fishingrod` `stool`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-04-21-fishers-bliss&amp;postContent=store%3A%2Fshots%2F2017-04-21-fishers-bliss.png&amp;postTitle=Fisher%27s+Bliss&amp;postTitleRu=%D0%A1%D1%87%D0%B0%D1%81%D1%82%D1%8C%D0%B5+%D1%80%D1%8B%D0%B1%D0%B0%D0%BA%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=bottle+fishingrod+stool&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-04-21-fishers-bliss&postLocation=)</code> `🚀 OpenMW` `bottle` `fishingrod` `stool`
 
 ```
 2017-04-21-fishers-bliss
@@ -1119,7 +1119,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-06-26-floating-over-the-green-hills&postLocation=)</code> `🚀 OpenMW` `road` `netch`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-06-26-floating-over-the-green-hills&amp;postContent=store%3A%2Fshots%2F2017-06-26-floating-over-the-green-hills.png&amp;postTitle=Floating+Over+the+Green+Hills&amp;postTitleRu=%D0%9F%D0%B0%D1%80%D1%8F+%D0%BD%D0%B0%D0%B4+%D0%B7%D0%B5%D0%BB%D1%91%D0%BD%D1%8B%D0%BC%D0%B8+%D1%85%D0%BE%D0%BB%D0%BC%D0%B0%D0%BC%D0%B8&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=road+netch&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-06-26-floating-over-the-green-hills&postLocation=)</code> `🚀 OpenMW` `road` `netch`
 
 ```
 2017-06-26-floating-over-the-green-hills
@@ -1141,7 +1141,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A1` `📍 Caldera` `🚀 OpenMW` `netch`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-03-22-betty-netch-and-far-caldera&amp;postContent=store%3A%2Fshots%2F2017-03-22-betty-netch-and-far-caldera.png&amp;postTitle=Betty+Netch+and+Far+Caldera&amp;postTitleRu=%D0%A1%D0%B0%D0%BC%D0%BA%D0%B0+%D0%BD%D0%B5%D1%82%D1%87%D0%B0+%D0%B8+%D0%B4%D0%B0%D0%BB%D1%91%D0%BA%D0%B0%D1%8F+%D0%9A%D0%B0%D0%BB%D1%8C%D0%B4%D0%B5%D1%80%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=netch&amp;postLocation=Caldera&amp;postMark=A1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A1` `📍 Caldera` `🚀 OpenMW` `netch`
 
 ```
 2017-03-22-betty-netch-and-far-caldera
@@ -1169,7 +1169,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-06-20-crossing-swampy-islands&postLocation=)</code> `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-06-20-crossing-swampy-islands&amp;postContent=store%3A%2Fshots%2F2017-06-20-crossing-swampy-islands.png&amp;postTitle=Crossing+Swampy+Islands&amp;postTitleRu=%D0%9F%D0%B5%D1%80%D0%B5%D1%81%D0%B5%D0%BA%D0%B0%D1%8F+%D0%B1%D0%BE%D0%BB%D0%BE%D1%82%D0%B8%D1%81%D1%82%D1%8B%D0%B5+%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-06-20-crossing-swampy-islands&postLocation=)</code> `🚀 OpenMW`
 
 ```
 2017-06-20-crossing-swampy-islands
@@ -1196,7 +1196,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-08-27-deadly-pass&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-08-27-deadly-pass&amp;postContent=store%3A%2Fshots%2F2017-08-27-deadly-pass.png&amp;postTitle=Deadly+Pass&amp;postTitleRu=%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%BF%D1%80%D0%BE%D1%85%D0%BE%D0%B4&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Tribunal&amp;postTags=&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-08-27-deadly-pass&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal`
 
 ```
 2017-08-27-deadly-pass
@@ -1227,7 +1227,7 @@
 
 `shot-set` by [dehero](../contributors.md#dehero)
 
-`A2` `🚀 OpenMW` `bridge`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-09-23-bridges&amp;postContent=store%3A%2Fshots%2F2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.png%0Astore%3A%2Fshots%2F2017-09-26-bridges.png%0Astore%3A%2Fshots%2F2018-02-22-bridge-at-the-border-of-two-regions.png%0Astore%3A%2Fshots%2F2018-03-29-soaring-trail.png&amp;postTitle=Bridges&amp;postTitleRu=%D0%9C%D0%BE%D1%81%D1%82%D1%8B&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=bridge&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-09-23-bridges&postLocation=)</code> `🚀 OpenMW` `bridge`
 
 ```
 2018-09-23-bridges
@@ -1256,7 +1256,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`B2` `📍 Nchuleftingth` `🚀 OpenMW` `dwemer` `tower`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-01-02-nchuleftingth&amp;postContent=store%3A%2Fshots%2F2018-01-02-nchuleftingth.png&amp;postTitle=Nchuleftingth&amp;postTitleRu=%D0%9D%D1%87%D1%83%D0%BB%D0%B5%D1%84%D1%82%D0%B8%D0%BD%D0%B3%D1%82&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=dwemer+tower&amp;postLocation=Nchuleftingth&amp;postMark=B2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B2` `📍 Nchuleftingth` `🚀 OpenMW` `dwemer` `tower`
 
 ```
 2018-01-02-nchuleftingth
@@ -1278,7 +1278,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-`C` `📍 Gnisis` `🚀 OpenMW` `foolsday` `siltstrider`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-04-01-help-me-find-my-pants-you-imperial-scum&amp;postContent=store%3A%2Fshots%2F2017-04-01-help-me-find-my-pants-you-imperial-scum.png&amp;postTitle=Help+Me+Find+My+Pants+You+Imperial+Scum%21&amp;postTitleRu=%D0%9F%D0%BE%D0%BC%D0%BE%D0%B3%D0%B8+%D0%BD%D0%B0%D0%B9%D1%82%D0%B8+%D0%BC%D0%BE%D0%B8+%D1%88%D1%82%D0%B0%D0%BD%D1%8B%2C+%D1%82%D1%8B%2C+%D0%B8%D0%BC%D0%BF%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9+%D1%83%D0%B1%D0%BB%D1%8E%D0%B4%D0%BE%D0%BA%21&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=foolsday+siltstrider&amp;postLocation=Gnisis&amp;postMark=C&amp;postViolation=&amp;postTrash=&amp;postRequest=) `C` `📍 Gnisis` `🚀 OpenMW` `foolsday` `siltstrider`
 
 ```
 2017-04-01-help-me-find-my-pants-you-imperial-scum
