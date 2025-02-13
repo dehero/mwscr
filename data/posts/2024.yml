@@ -3127,10 +3127,10 @@
     - service: vk
       id: 1957
       published: 2024-12-11-18-16-04
-      updated: 2025-02-06-02-08-41
+      updated: 2025-02-13-02-09-17
       followers: 1022
       likes: 47
-      views: 353
+      views: 356
       comments: !c |-
         G6kA+J0HtiP6ZSAvPcidQliIorhF+CDFXJgFXELNRJbsueksqRg6budnXpk6p0/2YFEr0AGtLVqz
         fDfUnX/kpy4qzdQxPMEMO4L7+a1T/OBavj0og6B2Yj8PGgW99bzW86hadqj+ufWdBjcxj49EvEdn
@@ -3138,10 +3138,10 @@
     - service: tg
       id: 622
       published: 2024-12-11-18-16-12
-      updated: 2025-02-06-02-08-39
+      updated: 2025-02-13-02-09-16
       followers: 581
       likes: 69
-      views: 594
+      views: 604
     - service: ig
       id: DDcvXvhTd7j
       mediaId: '18474431095051833'
