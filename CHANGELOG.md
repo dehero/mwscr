@@ -2,6 +2,49 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.35.0](https://github.com/dehero/mwscr/compare/v1.34.0...v1.35.0) (2025-02-13)
+
+### Features
+
+- reimplement ListManager using proxied chunks and patch
+  ([56f0149](https://github.com/dehero/mwscr/commit/56f0149cfb308ccc9d14903329d44ac8e3ea3060))
+- **site:** add Edits posts page preset
+  ([f5d177b](https://github.com/dehero/mwscr/commit/f5d177ba6dbb25a65cd651e26d879ad8b58af603))
+- **site:** add text shadow to all controls floating above world map
+  ([258feff](https://github.com/dehero/mwscr/commit/258feffc28264fcc48582d71bf2565cc6a053d38))
+- **site:** combine Contributing and Patch dialogs, improve navigation bar
+  ([fba94b4](https://github.com/dehero/mwscr/commit/fba94b469cea83a8bdfd05081e0eafe85fa93a9f))
+- **site:** decrease HTML and JSON caching tme
+  ([6e84a7e](https://github.com/dehero/mwscr/commit/6e84a7eb6665f8c34705e1b4672dbc178bf3d001))
+- **site:** implement mass posts editing using local patch
+  ([8e02772](https://github.com/dehero/mwscr/commit/8e0277235e39b16633f6c58b091b2afd0611ed63))
+- **site:** implement posts selecting and merging
+  ([6d7aae7](https://github.com/dehero/mwscr/commit/6d7aae7141d468841556415520fb2d7f15122350))
+- **site:** improve posts page parameters and actions
+  ([a61f342](https://github.com/dehero/mwscr/commit/a61f3427b519c532a84d4a79e35a3e13785fa12c))
+
+### Bug Fixes
+
+- create new arrays when merging entities
+  ([1999762](https://github.com/dehero/mwscr/commit/1999762ff38b6493e4dd49ca038fd8a00757457a))
+- first apply list patch, then save
+  ([d68f180](https://github.com/dehero/mwscr/commit/d68f1807e63723d9d0ee0913546eac8b60726039))
+- resolve "Maximum call stack size exceeded" issue when saving using DeepProxy recursively
+  ([12c7813](https://github.com/dehero/mwscr/commit/12c7813198251f20dbdebad00dddc0e7d9704d48))
+- resolve ListManagerChunkProxy issues
+  ([fe82d2a](https://github.com/dehero/mwscr/commit/fe82d2a9cf55d5f90aac8c3e3aadead69f12438f))
+- resolve new ListManager implementation bugs
+  ([7afc1f0](https://github.com/dehero/mwscr/commit/7afc1f09bfdb995b3cefd631722a0a8160e86a4f))
+- **site:** add additional loading page and content indicators to post page
+  ([3146337](https://github.com/dehero/mwscr/commit/3146337423b3940aa06eddf94be150d27d3b5e46))
+- **site:** correct missing locations link in contributing dialog
+  ([dd30a72](https://github.com/dehero/mwscr/commit/dd30a72c866d54c12a2997a4c728f6315035f75e))
+
+### Code Refactoring
+
+- move tags stripping to Post schema transformation
+  ([8f51fa7](https://github.com/dehero/mwscr/commit/8f51fa77c6b108d8a61f4237e2cf6353fa1b6ef5))
+
 ## [1.34.0](https://github.com/dehero/mwscr/compare/v1.33.2...v1.34.0) (2025-02-02)
 
 ### Features
