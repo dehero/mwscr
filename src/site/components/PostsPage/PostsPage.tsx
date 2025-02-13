@@ -25,6 +25,7 @@ export interface PostsPageSearchParams {
   type?: string;
   tag?: string;
   location?: string;
+  placement?: string;
   author?: string;
   requester?: string;
   mark?: string;
@@ -105,6 +106,7 @@ export const PostsPage = (): JSX.Element => {
     sortDirection: parameters.sortDirection(),
     date: parameters.date(),
     status: parameters.status(),
+    placement: parameters.placement(),
   });
 
   const [postInfos, { refetch }] = createResource(

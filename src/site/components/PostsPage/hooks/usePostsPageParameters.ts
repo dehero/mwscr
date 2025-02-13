@@ -1,7 +1,7 @@
 import { ListReaderItemStatus } from '../../../../core/entities/list-manager.js';
 import type { Option } from '../../../../core/entities/option.js';
 import { ANY_OPTION, NONE_OPTION } from '../../../../core/entities/option.js';
-import { PostMark, PostType, PostViolation } from '../../../../core/entities/post.js';
+import { PostMark, PostPlacement, PostType, PostViolation } from '../../../../core/entities/post.js';
 import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../../core/entities/post-info.js';
 import { selectPostInfosSortOptions } from '../../../../core/entities/post-info.js';
 import { safeParseSchema } from '../../../../core/entities/schema.js';
@@ -18,6 +18,7 @@ const emptySearchParams: PostsPageSearchParams = {
   type: undefined,
   tag: undefined,
   location: undefined,
+  placement: undefined,
   author: undefined,
   requester: undefined,
   mark: undefined,
@@ -72,6 +73,7 @@ export type FilterKey = keyof Pick<
   | 'requester'
   | 'date'
   | 'status'
+  | 'placement'
 >;
 
 export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams, unknown, PostsPageInfo>) {
@@ -115,6 +117,10 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     [ANY_OPTION.value, NONE_OPTION.value, ...ListReaderItemStatus.options].find(
       (status) => status === searchParams().status,
     ) as SelectPostInfosParams['status'];
+  const placement = () =>
+    [ANY_OPTION.value, NONE_OPTION.value, ...PostPlacement.options].find(
+      (placement) => placement === searchParams().placement,
+    ) as SelectPostInfosParams['placement'];
 
   const setPreset = (preset: string | undefined) =>
     setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.searchParams });
@@ -137,6 +143,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     setSearchParams({ date: date ? dateRangeToString(date) : undefined });
   };
   const setStatus = (status: SelectPostInfosParams['status'] | undefined) => setSearchParams({ status });
+  const setPlacement = (placement: SelectPostInfosParams['placement'] | undefined) => setSearchParams({ placement });
 
   return {
     sortOptions,
@@ -156,6 +163,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     search,
     date,
     status,
+    placement,
     setPreset,
     setOriginal,
     setPublishable,
@@ -171,5 +179,6 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     setSortDirection,
     setDate,
     setStatus,
+    setPlacement,
   };
 }

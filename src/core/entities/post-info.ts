@@ -12,6 +12,7 @@ import type {
   PostEntry,
   PostLocation,
   PostMark,
+  PostPlacement,
   PostRequest,
   PostType,
   PostViolation,
@@ -40,6 +41,7 @@ export interface PostInfo {
   description?: string;
   descriptionRu?: string;
   location?: PostLocation;
+  placement?: PostPlacement;
   content?: PostContent;
   type: PostType;
   authorOptions: Option[];
@@ -85,6 +87,7 @@ export interface SelectPostInfosParams {
   type?: PostType;
   tag?: string;
   location?: string;
+  placement?: PostPlacement | typeof ANY_OPTION.value | typeof NONE_OPTION.value;
   search?: string;
   author?: string;
   requester?: string;
@@ -121,6 +124,7 @@ export async function createPostInfo(
     titleRu: post.titleRu,
     description: post.description,
     location: post.location,
+    placement: post.placement,
     content: post.content,
     type: post.type,
     authorOptions: (await usersManager.getEntries(asArray(post.author))).map(createUserOption),
@@ -227,6 +231,10 @@ export const selectPostInfos = (
           (params.status === ANY_OPTION.value && info.status) ||
           (params.status === NONE_OPTION.value && !info.status) ||
           info.status === params.status) &&
+        (typeof params.placement === 'undefined' ||
+          (params.placement === ANY_OPTION.value && info.placement) ||
+          (params.placement === NONE_OPTION.value && !info.placement) ||
+          info.placement === params.placement) &&
         (typeof params.type === 'undefined' || info.type === params.type) &&
         (typeof params.tag === 'undefined' || info.tags?.includes(params.tag)) &&
         (typeof params.author === 'undefined' || info.authorOptions.some((option) => option.value === params.author)) &&
@@ -305,6 +313,18 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
       result.push('in unknown location');
     } else {
       result.push(`in "${params.location}"`);
+    }
+  }
+
+  if (params.placement) {
+    if (params.placement === ANY_OPTION.value) {
+      result.push('with any placement');
+    } else if (params.placement === NONE_OPTION.value) {
+      result.push('with unknown placement');
+    } else if (params.placement === 'Mixed') {
+      result.push('with mixed placement');
+    } else {
+      result.push(`placed ${params.placement.toLocaleLowerCase()}`);
     }
   }
 

@@ -19,6 +19,7 @@ export const PostTitleRu = pipe(string(), trim(), nonEmpty());
 export const PostDescription = pipe(string(), trim(), nonEmpty());
 export const PostContent = union([ResourceUrl, array(ResourceUrl)]);
 export const PostLocation = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
+export const PostPlacement = picklist(['Indoors', 'Outdoors', 'Mixed']);
 export const PostType = picklist(PostVariant.options.map((type) => type.entries.type.literal));
 export const PostAddon = picklist(['Tribunal', 'Bloodmoon']);
 export const PostEngine = picklist(['OpenMW', 'Vanilla']);
@@ -46,6 +47,7 @@ export const Post = pipe(
     description: optional(PostDescription),
     descriptionRu: optional(PostDescription),
     location: optional(PostLocation),
+    placement: optional(PostPlacement),
     content: optional(PostContent),
     trash: optional(PostContent),
     type: PostType,
@@ -79,6 +81,7 @@ export type PostTitleRu = InferOutput<typeof PostTitleRu>;
 export type PostDescription = InferOutput<typeof PostDescription>;
 export type PostContent = InferOutput<typeof PostContent>;
 export type PostLocation = InferOutput<typeof PostLocation>;
+export type PostPlacement = InferOutput<typeof PostPlacement>;
 export type PostType = InferOutput<typeof PostType>;
 export type PostAddon = InferOutput<typeof PostAddon>;
 export type PostEngine = InferOutput<typeof PostEngine>;
@@ -468,7 +471,8 @@ export function mergePostWith(post: Post, withPost: Post) {
   post.addon = post.addon || withPost.addon;
   post.author = mergeAuthors(post.author, withPost.author);
   post.location = mergePostLocations(post.location, withPost.location);
-  post.request = mergePostMessages(post.request, withPost.request);
+  post.placement = mergePostPlacements(post.placement, withPost.placement);
+  post.request = mergePostRequests(post.request, withPost.request);
   post.mark = post.mark || withPost.mark;
   post.violation = post.violation || withPost.violation;
   post.posts = mergePublications(post.posts, withPost.posts);
@@ -503,7 +507,7 @@ export function mergePostContents(content1: PostContent | undefined, content2?: 
   return result.length > 0 ? (result.length === 1 ? result[0] : result) : undefined;
 }
 
-export function mergePostMessages(
+export function mergePostRequests(
   action1: PostRequest | undefined,
   action2: PostRequest | undefined,
 ): PostRequest | undefined {
@@ -527,6 +531,15 @@ export function mergePostLocations(
   const result = [...new Set([...asArray(location1), ...asArray(location2)])];
 
   return result.length > 0 ? (result.length === 1 ? result[0] : result) : undefined;
+}
+
+export function mergePostPlacements(
+  placement1: PostPlacement | undefined,
+  placement2: PostPlacement | undefined,
+): PostPlacement | undefined {
+  const result = [...new Set([placement1, placement2].filter(Boolean))];
+
+  return result.length > 0 ? (result.length === 1 ? result[0] : 'Mixed') : undefined;
 }
 
 export function mergePostTags(tags1: string[] | undefined, tags2?: string[] | undefined): string[] | undefined {

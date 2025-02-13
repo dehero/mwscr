@@ -7,6 +7,7 @@ import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../core/entities/option.js';
 import {
   PostMark,
+  PostPlacement,
   PostType,
   postTypeDescriptors,
   PostViolation,
@@ -174,6 +175,34 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </div>
               </Label>
 
+              <Label label="Search by Title or Description" vertical>
+                <fieldset class={styles.fieldset}>
+                  <div class={styles.searchInputWrapper}>
+                    <Input
+                      name="search"
+                      value={props.parameters.search()}
+                      onChange={() => setIsSearching(true)}
+                      onDebouncedChange={(value) => {
+                        props.parameters.setSearch(value);
+                        setIsSearching(false);
+                      }}
+                    />
+                  </div>
+
+                  <Button
+                    onClick={(e: Event) => {
+                      e.preventDefault();
+                      props.parameters.setSearch('');
+                      setIsSearching(false);
+                    }}
+                  >
+                    Clear
+                  </Button>
+
+                  <Toast message="Searching Posts" show={isSearching()} loading />
+                </fieldset>
+              </Label>
+
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('original')}>
                 <Label label="Originality" component="div" vertical>
                   <RadioGroup
@@ -226,33 +255,24 @@ export const Parameters: Component<ParametersProps> = (props) => {
                 </Label>
               </Show>
 
-              <Label label="Search by Title or Description" vertical>
-                <fieldset class={styles.fieldset}>
-                  <div class={styles.searchInputWrapper}>
-                    <Input
-                      name="search"
-                      value={props.parameters.search()}
-                      onChange={() => setIsSearching(true)}
-                      onDebouncedChange={(value) => {
-                        props.parameters.setSearch(value);
-                        setIsSearching(false);
-                      }}
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('placement')}>
+                <Label label="Placement" vertical>
+                  <div class={styles.selectWrapper}>
+                    <Select
+                      name="placement"
+                      options={[
+                        ALL_OPTION,
+                        ANY_OPTION,
+                        NONE_OPTION,
+                        ...PostPlacement.options.map((value) => ({ value })),
+                      ]}
+                      value={props.parameters.placement()}
+                      onChange={props.parameters.setPlacement}
+                      class={styles.select}
                     />
                   </div>
-
-                  <Button
-                    onClick={(e: Event) => {
-                      e.preventDefault();
-                      props.parameters.setSearch('');
-                      setIsSearching(false);
-                    }}
-                  >
-                    Clear
-                  </Button>
-
-                  <Toast message="Searching Posts" show={isSearching()} loading />
-                </fieldset>
-              </Label>
+                </Label>
+              </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('location')}>
                 <Label label="Location" vertical class={styles.label}>

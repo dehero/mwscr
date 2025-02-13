@@ -15,6 +15,7 @@ import {
   PostAddon,
   PostEngine,
   PostMark,
+  PostPlacement,
   PostType,
   postTypeDescriptors,
   PostViolation,
@@ -62,13 +63,14 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
       'description',
       'descriptionRu',
       'location',
+      'placement',
       'mark',
       'violation',
       'request',
     ],
     useColumnLayout: true,
   },
-  locate: { title: 'Locate Post', fields: ['location'] },
+  locate: { title: 'Locate Post', fields: ['location', 'placement'] },
   review: { title: 'Review Post', fields: ['mark', 'violation'] },
 });
 
@@ -355,6 +357,38 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
             </fieldset>
           </Show>
 
+          <Show when={preset().fields.includes('placement') || preset().fields.includes('type')}>
+            <fieldset class={styles.fieldset}>
+              <Show when={preset().fields.includes('type')}>
+                <Label label="Type" vertical>
+                  <div class={styles.selectWrapper}>
+                    <Select
+                      name="type"
+                      options={PostType.options.map((value) => ({ label: postTypeDescriptors[value].title, value }))}
+                      value={post().type}
+                      onChange={(value) => setPatchField('type', value)}
+                      class={styles.select}
+                    />
+                  </div>
+                </Label>
+              </Show>
+
+              <Show when={preset().fields.includes('placement')}>
+                <Label label="Placement" vertical>
+                  <div class={styles.selectWrapper}>
+                    <Select
+                      name="placement"
+                      options={[EMPTY_OPTION, ...PostPlacement.options.map((value) => ({ value }))]}
+                      value={post().placement ?? undefined}
+                      onChange={(value) => setPatchField('placement', value)}
+                      class={styles.select}
+                    />
+                  </div>
+                </Label>
+              </Show>
+            </fieldset>
+          </Show>
+
           <Show when={preset().fields.includes('location')}>
             <Label label="Location" class={styles.location} vertical>
               <fieldset class={clsx(styles.fieldset, styles.locations)}>
@@ -381,20 +415,6 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                   />
                 </div>
               </fieldset>
-            </Label>
-          </Show>
-
-          <Show when={preset().fields.includes('type')}>
-            <Label label="Type" vertical>
-              <div class={styles.selectWrapper}>
-                <Select
-                  name="type"
-                  options={PostType.options.map((value) => ({ label: postTypeDescriptors[value].title, value }))}
-                  value={post().type}
-                  onChange={(value) => setPatchField('type', value)}
-                  class={styles.select}
-                />
-              </div>
             </Label>
           </Show>
 

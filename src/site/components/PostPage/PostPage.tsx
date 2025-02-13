@@ -412,6 +412,11 @@ export const PostPage = (): JSX.Element => {
                       : undefined,
                     tooltip: (ref) => <UserTooltip forRef={ref} user={postInfo().requesterOption!.value} />,
                   },
+                  {
+                    label: 'Placement',
+                    value: postInfo().placement,
+                    link: postsRoute.createUrl({ managerName: params().managerName, placement: postInfo().placement }),
+                  },
                   { label: 'Engine', value: postInfo().engine },
                   { label: 'Addon', value: postInfo().addon },
 
