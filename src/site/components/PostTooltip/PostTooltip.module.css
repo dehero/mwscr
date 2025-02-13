@@ -22,18 +22,3 @@
   max-width: 240px;
   max-height: 320px;
 }
-
-.setContainer {
-  margin: 4px 0;
-  max-width: 240px;
-  display: flex;
-  flex-flow: row wrap;
-  gap: 3px;
-  box-sizing: border-box;
-}
-
-.setItem {
-  width: calc(50% - 2px);
-  height: auto;
-  box-sizing: border-box;
-}

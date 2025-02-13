@@ -1,12 +1,6 @@
-import clsx from 'clsx';
 import { type Component, For, Show, splitProps } from 'solid-js';
 import { createMemo } from 'solid-js';
-import {
-  getPostDateById,
-  getPostTypeAspectRatio,
-  postTypeDescriptors,
-  postViolationDescriptors,
-} from '../../../core/entities/post.js';
+import { getPostDateById, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
@@ -20,7 +14,7 @@ import { createDetachedDialogFragment } from '../DetachedDialogsProvider/Detache
 import { Divider } from '../Divider/Divider.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
-import { ResourcePreview } from '../ResourcePreview/ResourcePreview.jsx';
+import { PostContentPreview } from '../PostContentPreview/PostContentPreview.jsx';
 import { useToaster } from '../Toaster/Toaster.jsx';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
@@ -39,8 +33,6 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
   const [local, rest] = splitProps(props, ['postInfo', 'showContent']);
   const date = () => getPostDateById(local.postInfo.id);
   const refDate = () => (local.postInfo.refId ? getPostDateById(local.postInfo.refId) : undefined);
-  const content = () => asArray(local.postInfo.content).slice(0, 4);
-  const aspectRatio = () => getPostTypeAspectRatio(local.postInfo.type);
   const alt = () => props.postInfo.tags?.join(' ');
 
   const postActions = createMemo((): PostAction[] => postsManagerDescriptors[local.postInfo.managerName].actions);
@@ -101,25 +93,14 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
 
   return (
     <Tooltip actions={actions()} {...rest}>
-      <Show when={content().length > 0 && local.showContent}>
-        <Show
-          when={content().length > 2}
-          fallback={
-            <ResourcePreview
-              url={content()[0] || ''}
-              aspectRatio={aspectRatio()}
-              class={styles.image}
-              alt={alt()}
-              maxHeightMultiplier={1.25}
-            />
-          }
-        >
-          <div class={clsx(styles[props.postInfo.type], styles.setContainer)}>
-            <For each={content()}>
-              {(url) => <ResourcePreview url={url} class={styles.setItem} aspectRatio="1/1" />}
-            </For>
-          </div>
-        </Show>
+      <Show when={local.showContent}>
+        <PostContentPreview
+          content={local.postInfo.content}
+          type={local.postInfo.type}
+          maxHeightMultiplier={1.25}
+          alt={alt()}
+          class={styles.image}
+        />
       </Show>
       <span class={styles.title}>{local.postInfo.title || local.postInfo.id}</span>
       <Show when={local.postInfo.titleRu}>

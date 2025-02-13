@@ -1,0 +1,12 @@
+.setContainer {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 3px;
+  box-sizing: border-box;
+}
+
+.setItem {
+  width: calc(50% - 2px);
+  height: auto;
+  box-sizing: border-box;
+}

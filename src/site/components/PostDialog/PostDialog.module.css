@@ -1,8 +1,16 @@
+.container {
+  display: flex;
+  gap: 12px;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
 .form {
   display: flex;
   flex-flow: column nowrap;
   gap: 8px;
   max-width: 360px;
+  flex: 1 0 360px;
 }
 
 .selectWrapper {
@@ -34,6 +42,11 @@
   grid-column: span 2;
 }
 
+.contentPreview {
+  max-width: 324px;
+  max-height: 324px;
+}
+
 .tags {
   flex: 1 1 50%;
 }
@@ -57,9 +70,17 @@
 }
 
 @media only screen and (min-width: 380px) {
-  .form.useColumnLayout {
+  .container.useColumnLayout .form {
     display: grid;
     grid-template-columns: minmax(180px, 360px) minmax(180px, 360px);
     max-width: none;
+  }
+}
+
+@media only screen and (min-width: 680px) {
+  .container.previewContent {
+    display: grid;
+    grid-template-columns: 324px minmax(180px, 360px);
+    align-items: start;
   }
 }

@@ -4,14 +4,14 @@ import { Dynamic } from 'solid-js/web';
 import { getPostTypeAspectRatio, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
-import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
+import { capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { postRoute } from '../../routes/post-route.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
+import { PostContentPreview } from '../PostContentPreview/PostContentPreview.jsx';
 import { PostTooltip } from '../PostTooltip/PostTooltip.js';
-import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import { Spacer } from '../Spacer/Spacer.js';
 import styles from './PostPreview.module.css';
 
@@ -30,7 +30,6 @@ export interface PostPreviewProps {
 
 export const PostPreview: Component<PostPreviewProps> = (props) => {
   const title = () => props.postInfo.title || props.postInfo.id;
-  const content = () => asArray(props.postInfo.content).slice(0, 4);
   const authorLetters = () => props.postInfo.authorOptions.map((option) => getUserTitleLetter(option.label));
   const requesterLetter = () =>
     props.postInfo.requesterOption ? getUserTitleLetter(props.postInfo.requesterOption.label) : undefined;
@@ -62,8 +61,13 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
           </Frame>
         }
       >
-        <Show
-          when={content().length > 0}
+        <PostContentPreview
+          class={styles.image}
+          content={props.postInfo.content}
+          type={props.postInfo.type}
+          alt={alt()}
+          frameState={frameState()}
+          maxHeightMultiplier={props.maxHeightMultiplier}
           fallback={
             <Show when={props.postInfo.request}>
               {(request) => (
@@ -82,27 +86,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
               )}
             </Show>
           }
-        >
-          <Show
-            when={content().length > 2}
-            fallback={
-              <ResourcePreview
-                url={content()[0] || ''}
-                aspectRatio={aspectRatio()}
-                class={styles.image}
-                alt={alt()}
-                maxHeightMultiplier={props.maxHeightMultiplier}
-                state={frameState()}
-              />
-            }
-          >
-            <div class={clsx(styles[props.postInfo.type], styles.setContainer)}>
-              <For each={content()}>
-                {(url) => <ResourcePreview url={url} class={styles.setItem} aspectRatio="1/1" state={frameState()} />}
-              </For>
-            </div>
-          </Show>
-        </Show>
+        />
       </Show>
 
       <Show when={title() || props.postInfo.rating}>
