@@ -4,6 +4,7 @@
 2025-01-04-mzahnch:
   title: Mzahnch
   titleRu: Мзанч
+  placement: Outdoors
   location: Mzahnch
   content:
     - store:/drawings/2025-01-04-mzahnch.png
@@ -67,6 +68,7 @@
 2025-01-20-telvanni-vault-ledger:
   title: Telvanni Vault Ledger
   titleRu: Складская книга Телванни
+  placement: Indoors
   location: Vivec, Telvanni Vault
   content: store:/shots/2025-01-20-telvanni-vault-ledger.png
   trash:
@@ -111,6 +113,7 @@
 2025-01-23-eternal-halt:
   title: Eternal Halt
   titleRu: Вечный привал
+  placement: Indoors
   location: Aryon Ancestral Tomb
   content: store:/shots/2025-01-23-eternal-halt.png
   type: shot
@@ -156,6 +159,7 @@
 2025-01-26-dark-moon:
   title: Dark Moon
   titleRu: Тёмная луна
+  placement: Outdoors
   location:
     - Vivec, Temple
     - Vivec, St. Delyn
@@ -200,6 +204,7 @@
 2025-01-27-fishing-in-the-rain:
   title: Fishing in the Rain
   titleRu: Рыбалка под дождём
+  placement: Outdoors
   location: Ald Velothi
   content: store:/shots/2025-01-27-fishing-in-the-rain.png
   type: shot
@@ -247,6 +252,7 @@
 2025-01-28-smokey-morth:
   title: Smokey Morth
   titleRu: Смоки Морт
+  placement: Indoors
   location: Vos, Varo Tradehouse
   content: store:/shots/2025-01-28-smokey-morth.png
   trash: store:/trash/dehero.2025-01-19-19-27-14.png
@@ -287,6 +293,7 @@
 2025-02-01-harbour-view:
   title: Harbour View
   titleRu: Вид на гавань
+  placement: Outdoors
   location: Ald Velothi
   content: store:/shots/2025-02-01-harbour-view.png
   type: shot
@@ -330,6 +337,7 @@
 2025-02-05-the-storm-is-passing:
   title: The Storm is Passing
   titleRu: Буря проходит
+  placement: Outdoors
   content: store:/shots/2025-02-05-the-storm-is-passing.png
   type: shot
   author: dehero
@@ -367,6 +375,7 @@
 2025-02-06-night-watch:
   title: Night Watch
   titleRu: Ночной дозор
+  placement: Outdoors
   content:
     - store:/shots/2020-05-19-night-guard.png
     - store:/shots/2018-03-24-two-legioners-talking.png

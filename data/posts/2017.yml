@@ -1592,6 +1592,7 @@
 2017-02-11-first-tower-of-bthuand:
   title: First Tower of Bthuand
   titleRu: Первая башня Бтуанда
+  placement: Outdoors
   location: Bthuand
   content: store:/shots/2017-02-11-first-tower-of-bthuand.png
   type: shot
@@ -4143,6 +4144,7 @@
 2017-04-16-tree-stone:
   title: Tree Stone
   titleRu: Камень дерева
+  placement: Outdoors
   content: store:/shots/2017-04-16-tree-stone.png
   type: shot
   author: dehero
@@ -6809,6 +6811,7 @@
 2017-06-25-heran-ancestral-tomb:
   title: Heran Ancestral Tomb
   titleRu: Родовая гробница Херанов
+  placement: Outdoors
   location: Heran Ancestral Tomb
   content: store:/shots/2017-06-25-heran-ancestral-tomb.png
   type: shot
@@ -7497,6 +7500,7 @@
 2017-07-13-corpse-preparation-volume-one:
   title: Corpse Preparation, Volume One
   titleRu: О подготовке тел, т. I
+  placement: Indoors
   content: store:/shots/2017-07-13-corpse-preparation-volume-one.png
   type: shot
   author: dehero
@@ -8564,6 +8568,7 @@
 2017-08-13-hanud:
   title: Hanud
   titleRu: Хануд
+  placement: Outdoors
   location: Hanud
   content: store:/shots/2017-08-13-hanud.png
   type: shot
@@ -10674,6 +10679,7 @@
 2017-10-13-cult-of-candles:
   title: Cult of Candles
   titleRu: Культ свечей
+  placement: Indoors
   content: store:/shots/2017-10-13-cult-of-candles.png
   type: shot
   author: dehero

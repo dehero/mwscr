@@ -603,6 +603,7 @@
 2019-02-23-three-hunters:
   title: Three Hunters
   titleRu: Три охотника
+  placement: Outdoors
   content: store:/shots/2019-02-23-three-hunters.png
   type: shot
   author: dehero
@@ -757,6 +758,7 @@
 2019-03-01-guardians-of-the-cave:
   title: Guardians of the Cave
   titleRu: Стражи пещеры
+  placement: Outdoors
   content: store:/shots/2019-03-01-guardians-of-the-cave.png
   type: shot
   author: dehero
@@ -2005,6 +2007,7 @@
 2019-10-11-red-threat:
   title: Red Threat
   titleRu: Красная угроза
+  placement: Outdoors
   content: store:/shots/2019-10-11-red-threat.png
   type: shot
   author: dehero

@@ -1765,6 +1765,7 @@
 2018-02-18-balmora:
   title: Balmora
   titleRu: Балмора
+  placement: Outdoors
   location: Balmora
   content:
     - store:/shots/2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain.png
@@ -7595,6 +7596,7 @@
 2018-07-27-the-book-of-dawn-and-dusk:
   title: The Book of Dawn and Dusk
   titleRu: Книга рассвета и заката
+  placement: Indoors
   content: store:/shots/2018-07-27-the-book-of-dawn-and-dusk.png
   type: shot
   author: dehero
@@ -12037,6 +12039,7 @@
 2018-11-18-horror-of-the-red-corridor:
   title: Horror of the Red Corridor
   titleRu: Ужас красного коридора
+  placement: Indoors
   content: store:/shots/2018-11-18-horror-of-the-red-corridor.png
   type: shot
   author: dehero
