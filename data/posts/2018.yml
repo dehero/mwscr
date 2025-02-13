@@ -362,18 +362,18 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2025-02-06-09-08-30
+      updated: 2025-02-13-09-08-54
       followers: 927
       likes: 47
-      views: 330
+      views: 331
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2025-02-06-09-08-27
+      updated: 2025-02-13-09-08-53
       followers: 504
       likes: 75
-      views: 745
+      views: 746
       comments: !c |-
         G3sA4J0J8eYvY9w1zRIh5EsnB5hJQAcNMEnwwAWchh42r6iW1W1P8amZ8uXij8eBHsGcTcmWmIBK
         4wYH7BVQHAU62AA47ilLSVUQFPt+yYqr3JMaFOvrN6RW9EHlhD0MB0O3Ze7vyPQIKRWX9Uhj9h5Y
@@ -6944,17 +6944,17 @@
     - service: vk
       id: 1700
       published: 2024-08-21-18-19-57
-      updated: 2025-02-06-09-08-28
+      updated: 2025-02-13-09-08-52
       followers: 937
       likes: 41
-      views: 296
+      views: 297
     - service: tg
       id: 508
       published: 2024-08-21-18-20-03
-      updated: 2025-02-06-09-08-26
+      updated: 2025-02-13-09-08-51
       followers: 538
       likes: 60
-      views: 572
+      views: 574
 2018-07-08-statues-of-gods:
   title: Statues of Gods
   titleRu: Статуи богов
@@ -11084,7 +11084,7 @@
     - service: vk
       id: 1001
       published: 2018-10-24
-      updated: 2025-02-06-09-08-33
+      updated: 2025-02-13-09-08-58
       followers: 258
       likes: 48
       views: 1009
@@ -11120,7 +11120,7 @@
     - service: vk
       id: 1002
       published: 2018-10-25
-      updated: 2025-02-06-09-08-32
+      updated: 2025-02-13-09-08-57
       followers: 259
       likes: 39
       views: 667
@@ -11151,7 +11151,7 @@
     - service: vk
       id: 1003
       published: 2018-10-26
-      updated: 2025-02-06-09-08-31
+      updated: 2025-02-13-09-08-56
       followers: 258
       likes: 22
       views: 419
@@ -11185,7 +11185,7 @@
     - service: vk
       id: 1004
       published: 2018-10-27
-      updated: 2025-02-06-09-08-31
+      updated: 2025-02-13-09-08-55
       followers: 258
       likes: 35
       views: 588
@@ -12057,28 +12057,28 @@
       id: DF-3pqzpcCB
       mediaId: '18048203351229493'
       published: 2025-02-12-18-10-55
-      updated: 2025-02-13-08-10-54
+      updated: 2025-02-13-09-08-47
       followers: 1534
-      likes: 61
-      views: 182
+      likes: 63
+      views: 185
       comments: !c |-
         CyiAkZTLQnlPtgLeAACuZG9vdHNfc3Bvb2ttYW6/QXJlIHRoZXNlIHRha2VuIHJ1bm5pbmcgT3Bl
         bk1XP5PLQnlPtjdbgAClbXdzY3KmcmlnaHQuAw==
     - service: vk
       id: 2126
       published: 2025-02-12-18-35-09
-      updated: 2025-02-13-08-10-54
+      updated: 2025-02-13-09-08-46
       followers: 1066
-      likes: 23
-      views: 108
+      likes: 24
+      views: 119
       reposts: 1
     - service: tg
       id: 705
       published: 2025-02-12-18-35-16
-      updated: 2025-02-13-08-10-54
+      updated: 2025-02-13-09-08-46
       followers: 674
-      likes: 42
-      views: 167
+      likes: 43
+      views: 168
 2018-11-19-the-city-of-gondolas:
   title: The City of Gondolas
   titleRu: Город гондол
