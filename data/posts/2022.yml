@@ -129,6 +129,7 @@
   title: Night Pasture
   titleRu: Ночной выпас
   placement: Outdoors
+  location: Omani Manor
   content:
     - store:/drawings/2022-06-25-night-pasture.png
     - store:/shots/2020-11-05-night-pasture.png
@@ -341,6 +342,7 @@
   title: Rivals
   titleRu: Соперники
   placement: Outdoors
+  location: Ascadian Isles Region
   content: store:/shots/2022-06-30-rivals.png
   type: shot
   author: dehero
@@ -450,6 +452,7 @@
   title: Niras Farys, Priest
   titleRu: Нирас Фарис, священник
   placement: Indoors
+  location: Sadrith Mora, Telvanni Council House, Chambers
   content: store:/shots/2022-07-02-niras-farys-priest.png
   trash: store:/inbox/dehero.2022-06-29-23-14-14.png
   type: shot
@@ -1085,6 +1088,7 @@
   title: Two at the Lantern
   titleRu: Двое у фонаря
   placement: Outdoors
+  location: Omani Manor
   content: store:/shots/2022-07-16-two-at-the-lantern.png
   type: shot
   author: dehero
@@ -1275,6 +1279,7 @@
   title: Three Gods, One True Faith
   titleRu: Три бога, одна истинная вера
   placement: Indoors
+  location: Sadrith Mora, Telvanni Council House, Chambers
   content: store:/shots/2022-07-21-three-gods-one-true-faith.png
   type: shot
   author: dehero
@@ -1638,6 +1643,7 @@
   title: Sorority
   titleRu: Женское общество
   placement: Outdoors
+  location: Gro-Bagrat Plantation
   content: store:/shots/2022-07-30-sorority.png
   type: shot
   author: dehero
