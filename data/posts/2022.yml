@@ -1166,6 +1166,7 @@
 2022-07-19-stillness-of-vivec:
   title: Stillness of Vivec
   titleRu: Тишина Вивека
+  placement: Outdoors
   location: Vivec
   content: store:/shots/2022-07-19-stillness-of-vivec.png
   type: shot
@@ -1201,6 +1202,7 @@
 2022-07-20-norvayn-ancestral-tomb:
   title: Norvayn Ancestral Tomb
   titleRu: Родовая гробница Норвайнов
+  placement: Outdoors
   location: Norvayn Ancestral Tomb
   content: store:/shots/2022-07-20-norvayn-ancestral-tomb.png
   type: shot
@@ -1240,6 +1242,7 @@
 2022-07-21-three-gods-one-true-faith:
   title: Three Gods, One True Faith
   titleRu: Три бога, одна истинная вера
+  placement: Indoors
   content: store:/shots/2022-07-21-three-gods-one-true-faith.png
   type: shot
   author: dehero
@@ -1279,6 +1282,7 @@
 2022-07-22-lonely-towers:
   title: Lonely Towers
   titleRu: Одинокие башни
+  placement: Outdoors
   content:
     - store:/shots/2018-06-29-road-to-a-dwemer-tower.png
     - store:/shots/2017-02-19-first-stars-on-the-quay-of-suran.png
@@ -1325,6 +1329,7 @@
 2022-07-23-draggle-tail-sunrise:
   title: Draggle-Tail Sunrise
   titleRu: Рассвет грязнохвостника
+  placement: Outdoors
   content: store:/shots/2022-07-23-draggle-tail-sunrise.png
   type: shot
   author: dehero
@@ -1360,6 +1365,7 @@
 2022-07-24-thorny-lamps:
   title: Thorny Lamps
   titleRu: Колючие светильники
+  placement: Outdoors
   content: store:/shots/2022-07-24-thorny-lamps.png
   type: shot
   author: dehero
@@ -1391,6 +1397,7 @@
 2022-07-25-rainy-coast:
   title: Rainy Coast
   titleRu: Дождливое побережье
+  placement: Outdoors
   content: store:/shots/2022-07-25-rainy-coast.png
   type: shot
   author: dehero
@@ -1422,6 +1429,7 @@
 2022-07-26-imperial-castles:
   title: Imperial Castles
   titleRu: Имперские замки
+  placement: Outdoors
   content:
     - store:/shots/2017-03-22-betty-netch-and-far-caldera.png
     - store:/shots/2017-04-25-castle-ebonheart.png
@@ -1471,6 +1479,7 @@
 2022-07-27-camp-by-the-old-tree:
   title: Camp by the Old Tree
   titleRu: Лагерь у старого дерева
+  placement: Outdoors
   content: store:/shots/2022-07-27-camp-by-the-old-tree.png
   type: shot
   author: dehero
@@ -1507,6 +1516,7 @@
 2022-07-28-steady-dinner:
   title: Steady Dinner
   titleRu: Надёжный ужин
+  placement: Indoors
   content: store:/shots/2022-07-28-steady-dinner.png
   type: shot
   author: dehero
@@ -1593,6 +1603,7 @@
 2022-07-30-sorority:
   title: Sorority
   titleRu: Женское общество
+  placement: Outdoors
   content: store:/shots/2022-07-30-sorority.png
   type: shot
   author: dehero
@@ -1624,6 +1635,7 @@
 2022-07-31-alchemy:
   title: Alchemy
   titleRu: Алхимия
+  placement: Indoors
   content:
     - store:/shots/2017-01-05-alchemy-corner.png
     - store:/shots/2017-05-21-table-in-magic-shop.png
@@ -1674,6 +1686,7 @@
 2022-08-01-caravaneers-workplace:
   title: Caravaneer's Workplace
   titleRu: Рабочее место караванщика
+  placement: Outdoors
   location: Suran
   content: store:/shots/2022-08-01-caravaneers-workplace.png
   type: shot
@@ -1715,6 +1728,7 @@
 2022-08-02-dark-spells:
   title: Dark Spells
   titleRu: Тёмные заклинания
+  placement: Indoors
   content: store:/shots/2022-08-02-dark-spells.png
   type: shot
   author: dehero
@@ -1754,6 +1768,7 @@
 2022-08-03-a-haven-on-bad-weather:
   title: A Haven on Bad Weather
   titleRu: Пристанище в ненастье
+  placement: Outdoors
   content: store:/shots/2022-08-03-a-haven-on-bad-weather.png
   type: shot
   author: dehero

@@ -189,6 +189,7 @@
 2024-03-07-night-tradeswoman:
   title: Night Tradeswoman
   titleRu: Ночная торговка
+  placement: Outdoors
   location: Gnisis
   content: store:/shots/2024-03-07-night-tradeswoman.png
   trash: store:/trash/darkness-rifho.2023-09-13-12-39-27-72112358.png
@@ -276,6 +277,7 @@
 2024-03-09-wandering-around-the-fort:
   title: Wandering Around the Fort
   titleRu: Прогулка по форту
+  placement: Indoors
   location: Buckmoth Legion Fort, Towers
   content: store:/shots/2024-03-09-wandering-around-the-fort.png
   trash: store:/trash/dehero.2024-03-05-20-04-27.1.png
@@ -317,6 +319,7 @@
 2024-03-10-fortresss-face:
   title: Fortress's Face
   titleRu: Лицо крепости
+  placement: Outdoors
   location: Pelagiad
   content: store:/shots/2024-03-10-fortresss-face.png
   type: shot
