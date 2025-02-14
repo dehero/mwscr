@@ -5307,6 +5307,7 @@
 2018-05-22-knights-in-skirts:
   title: Knights in Skirts
   titleRu: Рыцари в юбках
+  placement: Indoors
   content: store:/shots/2018-05-22-knights-in-skirts.png
   type: shot
   author: dehero
@@ -5334,6 +5335,7 @@
 2018-05-23-gorge-of-dead-trunks:
   title: Gorge of Dead Trunks
   titleRu: Ущелье мёртвых стволов
+  placement: Outdoors
   content: store:/shots/2018-05-23-gorge-of-dead-trunks.png
   type: shot
   author: dehero
@@ -5360,6 +5362,7 @@
 2018-05-24-firry-island:
   title: Firry Island
   titleRu: Еловый остров
+  placement: Outdoors
   content: store:/shots/2018-05-24-firry-island.png
   type: shot
   author: dehero
@@ -5387,6 +5390,7 @@
 2018-05-25-the-one-who-holds-baar-dau:
   title: The One Who Holds Baar Dau
   titleRu: Тот, кто держит Баар Дау
+  placement: Outdoors
   location: Vivec, Temple
   content: store:/shots/2018-05-25-the-one-who-holds-baar-dau.png
   type: shot
@@ -5421,6 +5425,7 @@
 2018-05-26-roaring-alit:
   title: Roaring Alit
   titleRu: Ревущий алит
+  placement: Outdoors
   content: store:/shots/2018-05-26-roaring-alit.png
   type: shot
   author: dehero
@@ -5446,6 +5451,7 @@
 2018-05-27-daedric-ruins:
   title: Daedric Ruins
   titleRu: Даэдрические руины
+  placement: Outdoors
   content:
     - store:/shots/2017-10-14-land-of-ruins.png
     - store:/shots/2017-04-23-ald-sotha-in-rainy-haze.png
@@ -5479,6 +5485,7 @@
 2018-05-28-passing-by-pelagiad:
   title: Passing by Pelagiad
   titleRu: Проезжая Пелагиад
+  placement: Outdoors
   location: Pelagiad
   content: store:/shots/2018-05-28-passing-by-pelagiad.png
   type: shot
@@ -5544,6 +5551,7 @@
 2018-05-29-at-the-tops-of-fir-trees:
   title: At the Tops of Fir-Trees
   titleRu: В вершинах елей
+  placement: Outdoors
   content: store:/shots/2018-05-29-at-the-tops-of-fir-trees.png
   type: shot
   author: dehero
@@ -5577,6 +5585,7 @@
 2018-05-30-near-six-fishes:
   title: Near "Six Fishes"
   titleRu: У "Шести рыб"
+  placement: Outdoors
   location: Ebonheart
   content: store:/shots/2018-05-30-near-six-fishes.png
   type: shot
@@ -5636,6 +5645,7 @@
 2018-05-31-clandestine-lab:
   title: Clandestine Lab
   titleRu: Подпольная лаборатория
+  placement: Indoors
   content: store:/shots/2018-05-31-clandestine-lab.png
   type: shot
   author: dehero
@@ -5662,6 +5672,7 @@
 2018-06-01-waterfalls-of-puzzle-canal:
   title: Waterfalls of Puzzle Canal
   titleRu: Водопады Канала Загадок
+  placement: Outdoors
   content: store:/shots/2018-06-01-waterfalls-of-puzzle-canal.png
   type: shot
   author: dehero
@@ -5688,6 +5699,7 @@
 2018-06-02-mournhold-cactus:
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
+  placement: Indoors
   location: 'Mournhold, Royal Palace: Guards'' Quarters'
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
@@ -5714,6 +5726,7 @@
 2018-06-03-death:
   title: Death
   titleRu: Смерть
+  placement: Mixed
   content:
     - store:/shots/2017-09-01-the-last-refuge.png
     - store:/shots/2017-07-08-saint-sotha.png
@@ -5743,6 +5756,7 @@
 2018-06-04-imperial-dragon:
   title: Imperial Dragon
   titleRu: Имперский дракон
+  placement: Outdoors
   location: Ebonheart
   content: store:/shots/2018-06-04-imperial-dragon.png
   type: shot
@@ -5770,6 +5784,7 @@
 2018-06-05-some-scrolls:
   title: Some Scrolls
   titleRu: Немного свитков
+  placement: Indoors
   content: store:/shots/2018-06-05-some-scrolls.png
   type: shot
   author: dehero
@@ -5825,6 +5840,7 @@
 2018-06-06-i-think-i-got-sick:
   title: I Think I Got Sick
   titleRu: Кажется, я заболела
+  placement: Outdoors
   content: store:/shots/2018-06-06-i-think-i-got-sick.png
   type: shot
   author: dehero
@@ -5850,6 +5866,7 @@
 2018-06-07-fishing-bay-of-seyda-neen:
   title: Fishing Bay of Seyda Neen
   titleRu: Рыбацкий залив Сейда Нина
+  placement: Outdoors
   location: Seyda Neen
   content: store:/shots/2018-06-07-fishing-bay-of-seyda-neen.png
   type: shot
@@ -5901,6 +5918,7 @@
 2018-06-08-in-the-secret-basement-of-hasphat-antabolis:
   title: In the Secret Basement of Hasphat Antabolis
   titleRu: В секретном подвале Хасфата Антаболиса
+  placement: Indoors
   content: store:/shots/2018-06-08-in-the-secret-basement-of-hasphat-antabolis.png
   type: shot
   author: dehero
@@ -5926,6 +5944,7 @@
 2018-06-09-the-skar:
   title: The Skar
   titleRu: Скар
+  placement: Outdoors
   location: Ald-ruhn
   content: store:/shots/2018-06-09-the-skar.png
   type: shot
@@ -5983,6 +6002,7 @@
 2018-06-10-left-side-portraits:
   title: Left-Side Portraits
   titleRu: Левосторонние портреты
+  placement: Indoors
   content:
     - store:/shots/2017-05-09-youd-better-do-what-they-say.png
     - store:/shots/2017-05-19-queen-mother-in-her-chambers.png
@@ -6016,6 +6036,7 @@
 2018-06-11-in-the-yard-of-frostmoth-fort:
   title: In the Yard of Frostmoth Fort
   titleRu: Во дворе Форта Инеевой Бабочки
+  placement: Outdoors
   location: Fort Frostmoth
   content: store:/shots/2018-06-11-in-the-yard-of-frostmoth-fort.png
   type: shot
@@ -6045,6 +6066,7 @@
 2018-06-12-bear-and-fir-tree:
   title: Bear and Fir-Tree
   titleRu: Медведь и ель
+  placement: Outdoors
   content: store:/shots/2018-06-12-bear-and-fir-tree.png
   type: shot
   author: dehero
@@ -6103,6 +6125,7 @@
 2018-06-13-lich:
   title: Lich
   titleRu: Лич
+  placement: Indoors
   content: store:/shots/2018-06-13-lich.png
   type: shot
   author: dehero
@@ -6161,6 +6184,7 @@
 2018-06-14-the-blue-corridor:
   title: The Blue Corridor
   titleRu: Синий коридор
+  placement: Indoors
   content: store:/shots/2018-06-14-the-blue-corridor.png
   type: shot
   author: dehero
@@ -6187,6 +6211,7 @@
 2018-06-15-under-the-magic-eye:
   title: Under the Magic Eye
   titleRu: Под магическим глазом
+  placement: Outdoors
   location: Balmora
   content: store:/shots/2018-06-15-under-the-magic-eye.png
   type: shot
@@ -6219,6 +6244,7 @@
 2018-06-16-stone-trail:
   title: Stone Trail
   titleRu: Каменная тропа
+  placement: Outdoors
   content: store:/shots/2018-06-16-stone-trail.png
   type: shot
   author: dehero
@@ -6249,6 +6275,7 @@
 2018-06-17-forts-of-imperial-legion:
   title: Forts of Imperial Legion
   titleRu: Форты Имперского легиона
+  placement: Outdoors
   content:
     - store:/shots/2017-09-16-fort-surrounded-by-fir-trees.png
     - store:/shots/2016-12-21-fort-darius.png
@@ -6281,6 +6308,7 @@
 2018-06-18-azura-from-underwater:
   title: Azura from Underwater
   titleRu: Азура из-под воды
+  placement: Outdoors
   content: store:/shots/2018-06-18-azura-from-underwater.png
   type: shot
   author: dehero
@@ -6330,6 +6358,7 @@
 2018-06-19-thelas-ancestral-tomb:
   title: Thelas Ancestral Tomb
   titleRu: Родовая гробница Телас
+  placement: Outdoors
   location: Thelas Ancestral Tomb
   content: store:/shots/2018-06-19-thelas-ancestral-tomb.png
   type: shot
@@ -6356,6 +6385,7 @@
 2018-06-20-redoran-lantern:
   title: Redoran Lantern
   titleRu: Редоранский фонарь
+  placement: Indoors
   content: store:/shots/2018-06-20-redoran-lantern.png
   type: shot
   author: dehero
@@ -6384,6 +6414,7 @@
 2018-06-21-ice-cave-in-the-ice-bay:
   title: Ice Cave in the Ice Bay
   titleRu: Ледяная пещера в ледяном заливе
+  placement: Outdoors
   content: store:/shots/2018-06-21-ice-cave-in-the-ice-bay.png
   type: shot
   author: dehero
@@ -6436,6 +6467,7 @@
 2018-06-22-time-to-write:
   title: Time to Write
   titleRu: Время писать
+  placement: Indoors
   content: store:/shots/2018-06-22-time-to-write.png
   type: shot
   author: dehero
@@ -6464,6 +6496,7 @@
 2018-06-23-canals:
   title: Canals
   titleRu: Каналы
+  placement: Outdoors
   location: Vivec
   content: store:/shots/2018-06-23-canals.png
   type: shot
@@ -6493,6 +6526,7 @@
 2018-06-24-night-encounters:
   title: Night Encounters
   titleRu: Ночные встречи
+  placement: Outdoors
   content:
     - store:/shots/2017-01-23-when-you-meet-yourself.png
     - store:/shots/2017-03-06-night-encounter-at-the-bridge.png
@@ -6525,6 +6559,7 @@
 2018-06-25-treasures:
   title: Treasures
   titleRu: Сокровища
+  placement: Indoors
   content: store:/shots/2018-06-25-treasures.png
   type: shot
   author: dehero
@@ -6550,6 +6585,7 @@
 2018-06-26-smoking-house:
   title: Smoking House
   titleRu: Дымящий дом
+  placement: Outdoors
   content: store:/shots/2018-06-26-smoking-house.png
   type: shot
   author: dehero
@@ -6581,6 +6617,7 @@
 2018-06-27-arch-with-a-canopy:
   title: Arch with a Canopy
   titleRu: Арка с навесом
+  placement: Outdoors
   location: Balmora
   content: store:/shots/2018-06-27-arch-with-a-canopy.png
   type: shot
@@ -6634,6 +6671,7 @@
 2018-06-28-light-on-the-water:
   title: Light on the Water
   titleRu: Свет над водой
+  placement: Outdoors
   content: store:/shots/2018-06-28-light-on-the-water.png
   type: shot
   author: dehero
@@ -6661,6 +6699,7 @@
 2018-06-29-road-to-a-dwemer-tower:
   title: Road to a Dwemer Tower
   titleRu: Дорога к двемерской башне
+  placement: Outdoors
   content: store:/shots/2018-06-29-road-to-a-dwemer-tower.png
   type: shot
   author: dehero
@@ -6687,6 +6726,7 @@
 2018-06-30-gloomy-northern-forest:
   title: Gloomy Northern Forest
   titleRu: Хмурый северный лес
+  placement: Outdoors
   content: store:/shots/2018-06-30-gloomy-northern-forest.png
   type: shot
   author: dehero
@@ -6713,6 +6753,7 @@
 2018-07-01-dwemer-towers:
   title: Dwemer Towers
   titleRu: Башни двемеров
+  placement: Outdoors
   content:
     - store:/shots/2017-07-16-mzanchend-before-the-ash-storm.png
     - store:/shots/2017-09-10-mzahnch.png
@@ -6745,6 +6786,7 @@
 2018-07-02-daedric-hall:
   title: Daedric Hall
   titleRu: Даэдрический зал
+  placement: Indoors
   content: store:/shots/2018-07-02-daedric-hall.png
   type: shot
   author: dehero
@@ -6771,6 +6813,7 @@
 2018-07-03-labyrinth-of-houses:
   title: Labyrinth of Houses
   titleRu: Лабиринт домов
+  placement: Outdoors
   content: store:/shots/2018-07-03-labyrinth-of-houses.png
   type: shot
   author: dehero
@@ -6801,6 +6844,7 @@
 2018-07-04-view-of-tel-vos:
   title: View of Tel Vos
   titleRu: Вид на Тель Вос
+  placement: Outdoors
   location: Tel Vos
   content: store:/shots/2018-07-04-view-of-tel-vos.png
   type: shot
@@ -6825,6 +6869,7 @@
 2018-07-05-a-little-rat-entering-holamayan:
   title: A Little Rat Entering Holamayan
   titleRu: Маленькая крыса входит в Холамаян
+  placement: Outdoors
   location: Holamayan
   content: store:/shots/2018-07-05-a-little-rat-entering-holamayan.png
   type: shot
@@ -6892,6 +6937,7 @@
 2018-07-06-druscashti:
   title: Druscashti
   titleRu: Друскашти
+  placement: Outdoors
   location: Druscashti
   content: store:/shots/2018-07-06-druscashti.png
   type: shot
@@ -6919,6 +6965,7 @@
 2018-07-07-streets-of-vos:
   title: Streets of Vos
   titleRu: Улицы Воса
+  placement: Outdoors
   location: Vos
   content: store:/shots/2018-07-07-streets-of-vos.png
   type: shot
@@ -6965,6 +7012,7 @@
 2018-07-08-statues-of-gods:
   title: Statues of Gods
   titleRu: Статуи богов
+  placement: Mixed
   content:
     - store:/shots/2017-01-14-statue-of-molag-bal.png
     - store:/shots/2017-06-03-almalexia-pierces-dagon.png
@@ -6995,6 +7043,7 @@
 2018-07-09-plans-of-vivec:
   title: Plans of Vivec
   titleRu: Планы Вивека
+  placement: Indoors
   location: Vivec, Palace of Vivec
   content: store:/shots/2018-07-09-plans-of-vivec.png
   type: shot
@@ -7019,6 +7068,7 @@
 2018-07-10-balmora-temple:
   title: Balmora, Temple
   titleRu: Балмора, Храм
+  placement: Outdoors
   location: Balmora, Temple
   content: store:/shots/2018-07-10-balmora-temple.png
   type: shot
@@ -7045,6 +7095,7 @@
 2018-07-11-casual-viewer:
   title: Casual Viewer
   titleRu: Случайный зритель
+  placement: Outdoors
   content: store:/shots/2018-07-11-casual-viewer.png
   type: shot
   author: dehero
@@ -7069,6 +7120,7 @@
 2018-07-12-through-the-waterfalls:
   title: Through the Waterfalls
   titleRu: Сквозь водопады
+  placement: Outdoors
   location: Vivec
   content: store:/shots/2018-07-12-through-the-waterfalls.png
   type: shot
@@ -7095,6 +7147,7 @@
 2018-07-13-time-to-sleep:
   title: Time to Sleep
   titleRu: Время спать
+  placement: Indoors
   content: store:/shots/2018-07-13-time-to-sleep.png
   type: shot
   author: dehero
@@ -7120,6 +7173,7 @@
 2018-07-14-passing-guard:
   title: Passing Guard
   titleRu: Проходящий стражник
+  placement: Outdoors
   content: store:/shots/2018-07-14-passing-guard.png
   type: shot
   author: dehero
@@ -7147,6 +7201,7 @@
 2018-07-15-in-the-shadow-of-ancestral-tombs:
   title: In the Shadow of Ancestral Tombs
   titleRu: В тени родовых гробниц
+  placement: Indoors
   content:
     - store:/shots/2017-03-04-boooo.png
     - store:/shots/2017-06-10-ancestors-and-almalexia.png
@@ -7180,6 +7235,7 @@
 2018-07-16-to-the-swamps:
   title: To the Swamps
   titleRu: К болотам
+  placement: Outdoors
   content: store:/shots/2018-07-16-to-the-swamps.png
   type: shot
   author: dehero
@@ -7233,6 +7289,7 @@
 2018-07-17-safe-harbour:
   title: Safe Harbour
   titleRu: Тихая гавань
+  placement: Outdoors
   content: store:/shots/2018-07-17-safe-harbour.png
   type: shot
   author: dehero
