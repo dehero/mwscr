@@ -569,6 +569,11 @@
   title: Waterside Encounters
   titleRu: Встречи у берега
   placement: Outdoors
+  location:
+    - Fort Frostmoth
+    - Sheogorad Region
+    - Gnisis
+    - Holamayan
   content:
     - store:/shots/2018-04-24-did-you-hear-that-cry.png
     - store:/shots/2017-08-14-maiq-the-liar.png

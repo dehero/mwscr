@@ -1481,6 +1481,7 @@
   title: Coastal Silt Strider
   titleRu: Прибрежный силт-страйдер
   placement: Outdoors
+  location: Vivec
   content: store:/shots/2024-05-03-coastal-silt-strider.png
   type: shot
   author: dehero
@@ -2126,6 +2127,7 @@
   title: Utensil
   titleRu: Утварь
   placement: Indoors
+  location: Sadrith Mora, Dirty Muriel's Cornerclub
   content: store:/shots/2024-06-10-utensil.png
   trash: store:/trash/dehero.2022-06-29-23-10-27.png
   type: shot
@@ -3139,6 +3141,7 @@
   title: Bridge Over the Gorge
   titleRu: Мост над ущельем
   placement: Outdoors
+  location: Arkngthunch-Sturdumz
   content: store:/shots/2024-12-09-bridge-over-the-gorge.png
   type: shot
   author: natty
@@ -3325,6 +3328,7 @@
   title: Tiny Boat
   titleRu: Маленькая лодочка
   placement: Outdoors
+  location: Gnaar Mok
   content: store:/shots/2024-12-27-tiny-boat.png
   type: shot
   author: 3akrom

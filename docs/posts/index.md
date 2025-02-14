@@ -1361,7 +1361,7 @@
 
 `shot-set` by [dehero](../contributors.md#dehero)
 
-[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-01-05-silt-striders&amp;postContent=store%3A%2Fshots%2F2018-09-22-two-ways.png%0Astore%3A%2Fshots%2F2018-08-16-wall-of-suran.png%0Astore%3A%2Fshots%2F2018-02-17-cry-of-silt-strider-in-morning-mist.png%0Astore%3A%2Fshots%2F2016-12-09-silt-strider-port-of-molag-mar.png&amp;postTitle=Silt+Striders&amp;postTitleRu=%D0%A1%D0%B8%D0%BB%D1%82-%D1%81%D1%82%D1%80%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D1%8B&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-01-05-silt-striders&postLocation=)</code> `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-01-05-silt-striders&amp;postContent=store%3A%2Fshots%2F2018-09-22-two-ways.png%0Astore%3A%2Fshots%2F2018-08-16-wall-of-suran.png%0Astore%3A%2Fshots%2F2018-02-17-cry-of-silt-strider-in-morning-mist.png%0Astore%3A%2Fshots%2F2016-12-09-silt-strider-port-of-molag-mar.png&amp;postTitle=Silt+Striders&amp;postTitleRu=%D0%A1%D0%B8%D0%BB%D1%82-%D1%81%D1%82%D1%80%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D1%8B&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Ald-ruhn%0ASuran%0AVivec%0AMolag+Mar&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Ald-ruhn` `📍 Suran` `📍 Vivec` `📍 Molag Mar` `🚀 OpenMW`
 
 ```
 2025-01-05-silt-striders

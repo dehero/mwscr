@@ -300,6 +300,7 @@
   title: Window Plant
   titleRu: Оконное растение
   placement: Indoors
+  location: Sadrith Mora, Dirty Muriel's Cornerclub
   content: store:/shots/2022-06-29-window-plant.png
   type: shot
   author: dehero
@@ -724,6 +725,7 @@
   title: Three Coins for the Bard
   titleRu: Три монеты для барда
   placement: Indoors
+  location: Sadrith Mora, Dirty Muriel's Cornerclub
   content: store:/shots/2022-07-09-three-coins-for-the-bard.png
   type: shot
   author: dehero
@@ -810,6 +812,11 @@
   title: Silt Striders
   titleRu: Силт-страйдеры
   placement: Outdoors
+  location:
+    - Ald-ruhn
+    - Suran
+    - Vivec
+    - Molag Mar
   content:
     - store:/shots/2018-09-22-two-ways.png
     - store:/shots/2018-08-16-wall-of-suran.png
@@ -1039,6 +1046,7 @@
   title: Sail On
   titleRu: Плыть дальше
   placement: Outdoors
+  location: Vivec
   content: store:/shots/2022-07-15-sail-on.png
   type: shot
   author: dehero
@@ -1146,6 +1154,7 @@
   title: Long Talk
   titleRu: Долгий разговор
   placement: Indoors
+  location: Sadrith Mora, Dirty Muriel's Cornerclub
   content: store:/shots/2022-07-18-long-talk.png
   type: shot
   author: dehero
@@ -1353,6 +1362,7 @@
   title: Draggle-Tail Sunrise
   titleRu: Рассвет грязнохвостника
   placement: Outdoors
+  location: Bitter Coast Region
   content: store:/shots/2022-07-23-draggle-tail-sunrise.png
   type: shot
   author: dehero
@@ -1389,6 +1399,7 @@
   title: Thorny Lamps
   titleRu: Колючие светильники
   placement: Outdoors
+  location: Tel Aruhn
   content: store:/shots/2022-07-24-thorny-lamps.png
   type: shot
   author: dehero

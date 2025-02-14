@@ -237,6 +237,7 @@
   title: Behind the Wall
   titleRu: За стеной
   placement: Outdoors
+  location: Dagon Fel
   content: store:/shots/2020-05-18-behind-the-wall.png
   type: shot
   author: dehero
@@ -275,6 +276,7 @@
   title: Night Guard
   titleRu: Ночной страж
   placement: Outdoors
+  location: Suran
   content: store:/shots/2020-05-19-night-guard.png
   type: shot
   author: dehero
@@ -1212,6 +1214,7 @@
   title: Tinaso Alan
   titleRu: Тинасо Алан
   placement: Indoors
+  location: Tel Mora, Tower Services
   content: store:/shots/2020-10-24-tinaso-alan.png
   type: shot
   author: dehero
