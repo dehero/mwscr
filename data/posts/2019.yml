@@ -2142,6 +2142,7 @@
 2019-10-14-quiet-mooring:
   title: Quiet Mooring
   titleRu: Тихий причал
+  placement: Outdoors
   content: store:/shots/2019-10-14-quiet-mooring.png
   type: shot
   author: dehero
@@ -2183,6 +2184,7 @@
 2019-10-15-no-name-club:
   title: No Name Club
   titleRu: Клуб "Никаких Имён"
+  placement: Indoors
   location: Vivec, No Name Club
   content: store:/shots/2019-10-15-no-name-club.png
   type: shot
@@ -2220,6 +2222,7 @@
 2019-10-20-sunset-ridge:
   title: Sunset Ridge
   titleRu: Закатный хребет
+  placement: Outdoors
   content: store:/shots/2019-10-20-sunset-ridge.png
   type: shot
   author: dehero
@@ -2276,6 +2279,7 @@
 2019-10-21-skaal-circle:
   title: Skaal Circle
   titleRu: Круг Скаалов
+  placement: Outdoors
   location: Skaal Village
   content: store:/shots/2019-10-21-skaal-circle.png
   type: shot
@@ -2317,6 +2321,7 @@
 2019-10-22-the-wind-is-getting-stronger:
   title: The Wind Is Getting Stronger
   titleRu: Ветер крепчает
+  placement: Outdoors
   content: store:/shots/2019-10-22-the-wind-is-getting-stronger.png
   type: shot
   author: dehero

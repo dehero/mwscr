@@ -1,6 +1,7 @@
 2020-05-13-isolated-shelter:
   title: Isolated Shelter
   titleRu: Изолированное убежище
+  placement: Indoors
   content: store:/shots/2020-05-13-isolated-shelter.png
   type: shot
   author: dehero
@@ -47,6 +48,7 @@
 2020-05-14-inside-a-furnace:
   title: Inside a Furnace
   titleRu: В кузнечном горне
+  placement: Indoors
   content: store:/shots/2020-05-14-inside-a-furnace.png
   type: shot
   author: dehero
@@ -112,6 +114,7 @@
 2020-05-15-brave-riekling:
   title: Brave Riekling
   titleRu: Храбрый рьеклинг
+  placement: Outdoors
   content: store:/shots/2020-05-15-brave-riekling.png
   type: shot
   author: dehero
@@ -158,6 +161,7 @@
 2020-05-16-tel-mora:
   title: Tel Mora
   titleRu: Тель Мора
+  placement: Outdoors
   location: Tel Mora
   content: store:/shots/2020-05-16-tel-mora.png
   type: shot
@@ -196,6 +200,7 @@
 2020-05-17-ama-nin:
   title: Ama Nin
   titleRu: Ама Нин
+  placement: Indoors
   location: Berandas, Underground
   content: store:/shots/2020-05-17-ama-nin.png
   type: shot
@@ -231,6 +236,7 @@
 2020-05-18-behind-the-wall:
   title: Behind the Wall
   titleRu: За стеной
+  placement: Outdoors
   content: store:/shots/2020-05-18-behind-the-wall.png
   type: shot
   author: dehero
@@ -268,6 +274,7 @@
 2020-05-19-night-guard:
   title: Night Guard
   titleRu: Ночной страж
+  placement: Outdoors
   content: store:/shots/2020-05-19-night-guard.png
   type: shot
   author: dehero
@@ -310,6 +317,7 @@
 2020-05-20-bridges:
   title: Bridges
   titleRu: Мосты
+  placement: Outdoors
   content: store:/shots/2020-05-20-bridges.png
   trash:
     - store:/inbox/dehero.2020-05-19-17-26-54.png
@@ -352,6 +360,7 @@
 2020-05-21-deadly-attack:
   title: Deadly Attack
   titleRu: Смертельная атака
+  placement: Indoors
   content: store:/shots/2020-05-21-deadly-attack.png
   type: shot
   author: dehero
@@ -387,6 +396,7 @@
 2020-05-22-apothecary-door:
   title: Apothecary Door
   titleRu: Дверь аптекаря
+  placement: Indoors
   content: store:/shots/2020-05-22-apothecary-door.png
   type: shot
   author: dehero
@@ -422,6 +432,7 @@
 2020-05-23-rainy-day-in-sadrith-mora:
   title: Rainy Day in Sadrith Mora
   titleRu: Дождливый день в Садрит Море
+  placement: Outdoors
   location: Sadrith Mora
   content: store:/shots/2020-05-23-rainy-day-in-sadrith-mora.png
   type: shot
@@ -496,6 +507,7 @@
 2020-05-25-water-supply:
   title: Water Supply
   titleRu: Запас воды
+  placement: Indoors
   content: store:/shots/2020-05-25-water-supply.png
   type: shot
   author: dehero
@@ -535,6 +547,7 @@
 2020-05-26-forgotten-urns:
   title: Forgotten Urns
   titleRu: Забытые урны
+  placement: Outdoors
   location: Ald Velothi
   content: store:/shots/2020-05-26-forgotten-urns.png
   type: shot
@@ -576,6 +589,7 @@
 2020-10-10-assurnabitashpi:
   title: Assurnabitashpi
   titleRu: Ассурнабиташпи
+  placement: Outdoors
   location: Assurnabitashpi
   content: store:/shots/2020-10-10-assurnabitashpi.png
   type: shot
@@ -627,6 +641,7 @@
 2020-10-11-underneath-the-moss:
   title: Underneath the Moss
   titleRu: Подо мхом
+  placement: Outdoors
   content: store:/shots/2020-10-11-underneath-the-moss.png
   type: shot
   author: dehero
@@ -664,6 +679,7 @@
 2020-10-12-evening-lights-of-suran:
   title: Evening Lights of Suran
   titleRu: Вечерние огни Сурана
+  placement: Outdoors
   location: Suran
   content: store:/shots/2020-10-12-evening-lights-of-suran.png
   type: shot
@@ -713,6 +729,7 @@
 2020-10-13-by-the-entrance-to-palansour:
   title: By the Entrance to Palansour
   titleRu: У входа в Палансур
+  placement: Outdoors
   location: Palansour
   content: store:/shots/2020-10-13-by-the-entrance-to-palansour.png
   type: shot
@@ -764,6 +781,7 @@
 2020-10-14-random-visitor:
   title: Random Visitor
   titleRu: Случайный посетитель
+  placement: Outdoors
   content: store:/shots/2020-10-14-random-visitor.png
   type: shot
   author: dehero
@@ -799,6 +817,7 @@
 2020-10-15-guard-of-lower-waistworks:
   title: Guard of Lower Waistworks
   titleRu: Стаж Нижнего Пояса
+  placement: Indoors
   content: store:/shots/2020-10-15-guard-of-lower-waistworks.png
   type: shot
   author: dehero
@@ -841,6 +860,7 @@
 2020-10-16-leaving-the-barrow:
   title: Leaving the Barrow
   titleRu: Выходя из кургана
+  placement: Outdoors
   content: store:/shots/2020-10-16-leaving-the-barrow.png
   type: shot
   author: dehero
@@ -876,6 +896,7 @@
 2020-10-17-in-urshilaku-camp:
   title: In Urshilaku Camp
   titleRu: В лагере Уршилаку
+  placement: Outdoors
   location: Urshilaku Camp
   content: store:/shots/2020-10-17-in-urshilaku-camp.png
   type: shot
@@ -917,6 +938,7 @@
 2020-10-18-on-the-other-side:
   title: On the Other Side
   titleRu: На том берегу
+  placement: Outdoors
   content: store:/shots/2020-10-18-on-the-other-side.png
   type: shot
   author: dehero
@@ -959,6 +981,7 @@
 2020-10-19-nix-hound:
   title: Nix-Hound
   titleRu: Никс-гончая
+  placement: Outdoors
   content: store:/shots/2020-10-19-nix-hound.png
   type: shot
   author: dehero
@@ -998,6 +1021,7 @@
 2020-10-20-longing-for-a-departed-hero:
   title: Longing for a Departed Hero
   titleRu: Тоска по ушедшему герою
+  placement: Indoors
   content: store:/shots/2020-10-20-longing-for-a-departed-hero.png
   type: shot
   author: dehero
@@ -1107,6 +1131,7 @@
 2020-10-22-clagius-clanler-outfitter:
   title: Clagius Clanler, Outfitter
   titleRu: Клагиус Кланлер, галантерейщик
+  placement: Indoors
   location: 'Balmora, Clagius Clanler: Outfitter'
   content: store:/shots/2020-10-22-clagius-clanler-outfitter.png
   type: shot
@@ -1144,6 +1169,7 @@
 2020-10-23-long-long-passageways-of-vivec:
   title: Long-Long Passageways of Vivec
   titleRu: Долгие-долгие коридоры Вивека
+  placement: Indoors
   location: Vivec
   content: store:/shots/2020-10-23-long-long-passageways-of-vivec.png
   type: shot
@@ -1185,6 +1211,7 @@
 2020-10-24-tinaso-alan:
   title: Tinaso Alan
   titleRu: Тинасо Алан
+  placement: Indoors
   content: store:/shots/2020-10-24-tinaso-alan.png
   type: shot
   author: dehero
@@ -1223,6 +1250,7 @@
 2020-10-25-opening-the-doors-of-sotha-sil:
   title: Opening the Doors of Sotha Sil
   titleRu: Открывая двери Сота Сила
+  placement: Indoors
   location: Sotha Sil, Outer Flooded Halls
   content: store:/shots/2020-10-25-opening-the-doors-of-sotha-sil.png
   type: shot
@@ -1293,6 +1321,7 @@
 2020-10-27-misty-passage:
   title: Misty Passage
   titleRu: Туманный переход
+  placement: Outdoors
   content: store:/shots/2020-10-27-misty-passage.png
   type: shot
   author: dehero
@@ -1330,6 +1359,7 @@
 2020-10-28-cave-of-suffering:
   title: Cave of Suffering
   titleRu: Пещера страданий
+  placement: Indoors
   content: store:/shots/2020-10-28-cave-of-suffering.png
   type: shot
   author: dehero
@@ -1375,6 +1405,7 @@
 2020-10-29-red-passage:
   title: Red Passage
   titleRu: Красный переход
+  placement: Outdoors
   content: store:/shots/2020-10-29-red-passage.png
   type: shot
   author: dehero
@@ -1411,6 +1442,7 @@
 2020-10-30-bthungthumz-at-dawn:
   title: Bthungthumz at Dawn
   titleRu: Бтунгтумц на рассвете
+  placement: Outdoors
   location: Bthungthumz
   content: store:/shots/2020-10-30-bthungthumz-at-dawn.png
   type: shot
@@ -1447,6 +1479,7 @@
 2020-10-31-entrance-to-sanni:
   title: Entrance to Sanni
   titleRu: Вход в Санни
+  placement: Outdoors
   location: Sanni
   content: store:/shots/2020-10-31-entrance-to-sanni.png
   type: shot
@@ -1516,6 +1549,7 @@
 2020-11-02-dead-reflections:
   title: Dead Reflections
   titleRu: Мертвые отражения
+  placement: Outdoors
   content: store:/shots/2020-11-02-dead-reflections.png
   type: shot
   author: dehero
@@ -1560,6 +1594,7 @@
 2020-11-03-gray-ruins:
   title: Gray Ruins
   titleRu: Серые руины
+  placement: Outdoors
   content: store:/shots/2020-11-03-gray-ruins.png
   type: shot
   author: dehero
