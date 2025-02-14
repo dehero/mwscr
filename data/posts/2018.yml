@@ -11183,6 +11183,23 @@
       updated: 2025-02-12-11-01-54
       likes: 3
       views: 235
+    - service: ig
+      id: DGEBRCtzBuX
+      mediaId: '18022461131420166'
+      published: 2025-02-14-18-11-11
+      followers: 1533
+    - service: vk
+      id: 2130
+      published: 2025-02-14-18-11-33
+      followers: 1070
+    - service: tg
+      id:
+        - 707
+        - 708
+        - 709
+        - 710
+      published: 2025-02-14-18-11-53
+      followers: 675
 2018-10-22-snowbound-airship:
   title: Snowbound Airship
   titleRu: Летучий корабль в снегах
@@ -12274,20 +12291,20 @@
       id: DF-3pqzpcCB
       mediaId: '18048203351229493'
       published: 2025-02-12-18-10-55
-      updated: 2025-02-14-17-02-23
+      updated: 2025-02-14-18-10-25
       followers: 1534
-      likes: 89
-      views: 290
+      likes: 90
+      views: 291
       comments: !c |-
         CyiAkZTLQnlPtgLeAACuZG9vdHNfc3Bvb2ttYW6/QXJlIHRoZXNlIHRha2VuIHJ1bm5pbmcgT3Bl
         bk1XP5PLQnlPtjdbgAClbXdzY3KmcmlnaHQuAw==
     - service: vk
       id: 2126
       published: 2025-02-12-18-35-09
-      updated: 2025-02-14-17-02-23
+      updated: 2025-02-14-18-10-25
       followers: 1066
       likes: 26
-      views: 181
+      views: 182
       reposts: 1
       comments: !c |-
         G1UBAJwJto2K9cDiFUhZnnieuGGW6D8vLoSCtJIEd5vYCJP3XblZYmQ72TjeZy0aklreYv5n4+t3
@@ -12297,10 +12314,10 @@
     - service: tg
       id: 705
       published: 2025-02-12-18-35-16
-      updated: 2025-02-14-17-02-23
+      updated: 2025-02-14-18-10-25
       followers: 674
       likes: 50
-      views: 233
+      views: 235
 2018-11-19-the-city-of-gondolas:
   title: The City of Gondolas
   titleRu: Город гондол

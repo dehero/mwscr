@@ -4,7 +4,44 @@
 
 # Posted in 2025
 
-`44 items`
+`45 items`
+
+## <span id="2025-02-14-trees-and-skies">Trees and Skies</span>
+
+`RU` Деревья и небеса
+
+<a href="https://instagram.com/p/BpNQHT-BoiQ/" title="2018-04-02-arboreal-obelisks"><img alt="store:/shots/2018-04-02-arboreal-obelisks.png" src="../../assets/previews/shots/2018-04-02-arboreal-obelisks.avif" /></a>
+<a href="https://instagram.com/p/BpNQHT-BoiQ/" title="2016-12-15-cloud-crowns-of-foyada-mamaea"><img alt="store:/shots/2016-12-15-cloud-crowns-of-foyada-mamaea.png" src="../../assets/previews/shots/2016-12-15-cloud-crowns-of-foyada-mamaea.avif" /></a>
+<a href="https://instagram.com/p/BpNQHT-BoiQ/" title="2017-08-09-night-sky-of-molag-amur"><img alt="store:/shots/2017-08-09-night-sky-of-molag-amur.png" src="../../assets/previews/shots/2017-08-09-night-sky-of-molag-amur.avif" /></a>
+<a href="https://instagram.com/p/BpNQHT-BoiQ/" title="2018-08-09-secunda"><img alt="store:/shots/2018-08-09-secunda.png" src="../../assets/previews/shots/2018-08-09-secunda.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-02-14-trees-and-skies&amp;postContent=store%3A%2Fshots%2F2018-04-02-arboreal-obelisks.png%0Astore%3A%2Fshots%2F2016-12-15-cloud-crowns-of-foyada-mamaea.png%0Astore%3A%2Fshots%2F2017-08-09-night-sky-of-molag-amur.png%0Astore%3A%2Fshots%2F2018-08-09-secunda.png&amp;postTitle=Trees+and+Skies&amp;postTitleRu=%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D1%8C%D1%8F+%D0%B8+%D0%BD%D0%B5%D0%B1%D0%B5%D1%81%D0%B0&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=tree+sky&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-14-trees-and-skies&postLocation=)</code> `🚀 OpenMW` `tree` `sky`
+
+```
+2025-02-14-trees-and-skies
+```
+
+> `2018-10-21-trees-and-skies`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BpNQHT-BoiQ/)       | 2018-10-21 |       |   112 |       447 |      25.06 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_998)  | 2018-10-21 |   389 |    31 |           |            |
+| [`tg`](https://t.me/mwscr/89,90,91,92,93)          | 2018-10-21 |   235 |     3 |           |            |
+| [`ig`](https://instagram.com/p/DGEBRCtzBuX/)       | 2025-02-14 |       |       |      1533 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2130) | 2025-02-14 |       |       |      1070 |            |
+| [`tg`](https://t.me/mwscr/707,708,709,710)         | 2025-02-14 |       |       |       675 |            |
+|                                                    |            |       |       |      3278 |            |
+
+#### Comments
+
+- `ig` <ins title="2018-10-21-19-46-48">kevc_9</ins> Keep uploading!! ❤️
+- `ig` <ins title="2018-10-21-21-13-58">voodoochild_4206923</ins> The dead tress always made the game more awesome
+- `ig` <ins title="2018-10-21-21-32-45">hopkick</ins> Dude I love your posts, keep em going.
 
 ## <span id="2025-02-13-a-new-sight">A New Sight</span>
 
@@ -29,10 +66,10 @@
 | [`ig`](https://instagram.com/p/CfKLDX6sxiS/)       | 2022-06-23 |       |   265 |      1088 |      24.36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1303) | 2022-06-23 |   994 |    79 |       700 |         12 |
 | [`tg`](https://t.me/mwscr/246)                     | 2022-06-23 |  1169 |    85 |       226 |      37.61 |
-| [`ig`](https://instagram.com/p/DGBdJ0-PH1J/)       | 2025-02-13 |   210 |    74 |      1534 |       4.82 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2129) | 2025-02-13 |   196 |    43 |      1069 |        4.3 |
-| [`tg`](https://t.me/mwscr/706)                     | 2025-02-13 |   167 |    47 |       676 |       6.95 |
-|                                                    |            |   573 |   164 |      3279 |       5.36 |
+| [`ig`](https://instagram.com/p/DGBdJ0-PH1J/)       | 2025-02-13 |   213 |    75 |      1534 |       4.89 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2129) | 2025-02-13 |   203 |    44 |      1069 |        4.4 |
+| [`tg`](https://t.me/mwscr/706)                     | 2025-02-13 |   171 |    47 |       676 |       6.95 |
+|                                                    |            |   587 |   166 |      3279 |       5.41 |
 
 #### Comments
 
@@ -89,10 +126,10 @@
 | [`ig`](https://instagram.com/p/BqVKLbFhIw8/)       | 2018-11-18 |       |   119 |       474 |      25.11 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1058) | 2018-11-18 |   535 |    37 |       286 |      12.94 |
 | [`tg`](https://t.me/mwscr/122)                     | 2018-11-18 |   366 |     3 |           |            |
-| [`ig`](https://instagram.com/p/DF-3pqzpcCB/)       | 2025-02-12 |   290 |    89 |      1534 |        5.8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2126) | 2025-02-12 |   181 |    26 |      1066 |       2.53 |
-| [`tg`](https://t.me/mwscr/705)                     | 2025-02-12 |   233 |    50 |       674 |       7.42 |
-|                                                    |            |   704 |   165 |      3274 |       5.25 |
+| [`ig`](https://instagram.com/p/DF-3pqzpcCB/)       | 2025-02-12 |   291 |    90 |      1534 |       5.87 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2126) | 2025-02-12 |   182 |    26 |      1066 |       2.53 |
+| [`tg`](https://t.me/mwscr/705)                     | 2025-02-12 |   235 |    50 |       674 |       7.42 |
+|                                                    |            |   708 |   166 |      3274 |       5.27 |
 
 #### Comments
 
@@ -124,10 +161,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BXuuXHvDyDT/)       | 2017-08-13 |       |    57 |       192 |      29.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_391)  | 2017-08-13 |   117 |     8 |        74 |      10.81 |
-| [`ig`](https://instagram.com/p/DF8SqGItDLm/)       | 2025-02-11 |   213 |    52 |      1534 |       3.39 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2123) | 2025-02-11 |   216 |    37 |      1065 |       3.57 |
-| [`tg`](https://t.me/mwscr/704)                     | 2025-02-11 |   230 |    59 |       672 |       8.78 |
-|                                                    |            |   659 |   148 |      3271 |       5.25 |
+| [`ig`](https://instagram.com/p/DF8SqGItDLm/)       | 2025-02-11 |   222 |    55 |      1534 |       3.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2123) | 2025-02-11 |   227 |    39 |      1065 |       3.76 |
+| [`tg`](https://t.me/mwscr/704)                     | 2025-02-11 |   260 |    60 |       672 |       8.93 |
+|                                                    |            |   709 |   154 |      3271 |       5.42 |
 
 #### Comments
 
