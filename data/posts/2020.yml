@@ -1595,6 +1595,7 @@
 2020-11-05-night-pasture:
   title: Night Pasture
   titleRu: Ночной выпас
+  placement: Outdoors
   content: store:/shots/2020-11-05-night-pasture.png
   trash: store:/inbox/dehero.2020-11-05-21-12-57.png
   type: shot
@@ -1634,6 +1635,7 @@
 2020-11-07-mushroom-fields-forever:
   title: Mushroom Fields Forever
   titleRu: Вечно-грибные поля
+  placement: Outdoors
   content: store:/shots/2020-11-07-mushroom-fields-forever.png
   type: shot
   author: dehero
@@ -1673,6 +1675,7 @@
 2020-11-09-erna-the-quiets-house:
   title: Erna the Quiet's House
   titleRu: Дом Эрны Спокойной
+  placement: Outdoors
   location: Skaal Village
   content: store:/shots/2020-11-09-erna-the-quiets-house.png
   type: shot
@@ -1718,6 +1721,7 @@
 2020-11-11-redoran-basement:
   title: Redoran Basement
   titleRu: Редоранский подвал
+  placement: Indoors
   content: store:/shots/2020-11-11-redoran-basement.png
   type: shot
   author: dehero

@@ -1,6 +1,7 @@
 2022-06-23-a-new-sight:
   title: A New Sight
   titleRu: Новый взгляд
+  placement: Outdoors
   location: Skaal Village
   content: store:/shots/2022-06-23-a-new-sight.png
   type: shot
@@ -84,6 +85,7 @@
 2022-06-24-evening-talk-in-vos:
   title: Evening Talk in Vos
   titleRu: Вечерняя беседа в Восе
+  placement: Outdoors
   location: Vos
   content: store:/shots/2022-06-24-evening-talk-in-vos.png
   type: shot
@@ -126,6 +128,7 @@
 2022-06-25-night-pasture:
   title: Night Pasture
   titleRu: Ночной выпас
+  placement: Outdoors
   content:
     - store:/drawings/2022-06-25-night-pasture.png
     - store:/shots/2020-11-05-night-pasture.png
@@ -164,6 +167,7 @@
 2022-06-26-candelabra:
   title: Candelabra
   titleRu: Канделябры
+  placement: Indoors
   content:
     - store:/shots/2017-10-24-valvius-mevurenius-fireplace.png
     - store:/shots/2017-06-14-supper-in-seyda-neen.png
@@ -216,6 +220,7 @@
 2022-06-27-going-out-of-mournhold-armory:
   title: Going Out of Mournhold Armory
   titleRu: Выходя из оружейной Морнхолда
+  placement: Outdoors
   location: Mournhold, Great Bazaar
   content: store:/shots/2022-06-27-going-out-of-mournhold-armory.png
   type: shot
@@ -258,6 +263,7 @@
 2022-06-28-ordinary-day-in-nchurdamz:
   title: Ordinary Day in Nchurdamz
   titleRu: Обычный день в Нчурдамце
+  placement: Outdoors
   location: Nchurdamz
   content: store:/shots/2022-06-28-ordinary-day-in-nchurdamz.png
   type: shot
@@ -293,6 +299,7 @@
 2022-06-29-window-plant:
   title: Window Plant
   titleRu: Оконное растение
+  placement: Indoors
   content: store:/shots/2022-06-29-window-plant.png
   type: shot
   author: dehero
@@ -332,6 +339,7 @@
 2022-06-30-rivals:
   title: Rivals
   titleRu: Соперники
+  placement: Outdoors
   content: store:/shots/2022-06-30-rivals.png
   type: shot
   author: dehero
@@ -376,6 +384,7 @@
 2022-07-01-tel-aruhn-at-dawn:
   title: Tel Aruhn at Dawn
   titleRu: Тель Арун на заре
+  placement: Outdoors
   location: Tel Aruhn
   content: store:/shots/2022-07-01-tel-aruhn-at-dawn.png
   type: shot
@@ -439,6 +448,7 @@
 2022-07-02-niras-farys-priest:
   title: Niras Farys, Priest
   titleRu: Нирас Фарис, священник
+  placement: Indoors
   content: store:/shots/2022-07-02-niras-farys-priest.png
   trash: store:/inbox/dehero.2022-06-29-23-14-14.png
   type: shot
@@ -516,6 +526,7 @@
 2022-07-04-boats:
   title: Boats
   titleRu: Лодки
+  placement: Outdoors
   content:
     - store:/shots/2017-05-17-nice-time-to-go-boating.png
     - store:/shots/2017-02-23-surroundings-of-pelagiad.png
@@ -568,6 +579,7 @@
 2022-07-05-iron-enemy:
   title: Iron Enemy
   titleRu: Железный противник
+  placement: Indoors
   content: store:/shots/2022-07-05-iron-enemy.png
   type: shot
   author: dehero
@@ -599,6 +611,7 @@
 2022-07-06-still-life-with-orc:
   title: Still Life with Orc
   titleRu: Натюрморт с орком
+  placement: Indoors
   location: Sadrith Mora, Dirty Muriel's Cornerclub
   content: store:/shots/2022-07-06-still-life-with-orc.png
   type: shot
@@ -639,6 +652,7 @@
 2022-07-07-misty-peaks:
   title: Misty Peaks
   titleRu: Туманные пики
+  placement: Outdoors
   content: store:/shots/2022-07-07-misty-peaks.png
   type: shot
   author: dehero
@@ -709,6 +723,7 @@
 2022-07-09-three-coins-for-the-bard:
   title: Three Coins for the Bard
   titleRu: Три монеты для барда
+  placement: Indoors
   content: store:/shots/2022-07-09-three-coins-for-the-bard.png
   type: shot
   author: dehero
@@ -751,6 +766,7 @@
 2022-07-10-snowy-coziness:
   title: Snowy Coziness
   titleRu: Снежный уют
+  placement: Outdoors
   location: Skaal Village
   content: store:/shots/2022-07-10-snowy-coziness.png
   type: shot
@@ -793,6 +809,7 @@
 2022-07-11-silt-striders:
   title: Silt Striders
   titleRu: Силт-страйдеры
+  placement: Outdoors
   content:
     - store:/shots/2018-09-22-two-ways.png
     - store:/shots/2018-08-16-wall-of-suran.png
@@ -889,6 +906,7 @@
 2022-07-12-leaving-holamayan:
   title: Leaving Holamayan
   titleRu: Покидая Холамаян
+  placement: Outdoors
   location: Holamayan
   content: store:/shots/2022-07-12-leaving-holamayan.png
   type: shot
@@ -981,6 +999,7 @@
 2022-07-14-blue-lit-basket:
   title: Blue Lit Basket
   titleRu: Корзина в голубом свете
+  placement: Indoors
   content: store:/shots/2022-07-14-blue-lit-basket.png
   type: shot
   author: dehero
@@ -1019,6 +1038,7 @@
 2022-07-15-sail-on:
   title: Sail On
   titleRu: Плыть дальше
+  placement: Outdoors
   content: store:/shots/2022-07-15-sail-on.png
   type: shot
   author: dehero
@@ -1056,6 +1076,7 @@
 2022-07-16-two-at-the-lantern:
   title: Two at the Lantern
   titleRu: Двое у фонаря
+  placement: Outdoors
   content: store:/shots/2022-07-16-two-at-the-lantern.png
   type: shot
   author: dehero
@@ -1090,6 +1111,7 @@
 2022-07-17-slaves-sight:
   title: Slave's Sight
   titleRu: Взгляд раба
+  placement: Outdoors
   content: store:/shots/2022-07-17-slaves-sight.png
   type: shot
   author: dehero
@@ -1123,6 +1145,7 @@
 2022-07-18-long-talk:
   title: Long Talk
   titleRu: Долгий разговор
+  placement: Indoors
   content: store:/shots/2022-07-18-long-talk.png
   type: shot
   author: dehero
