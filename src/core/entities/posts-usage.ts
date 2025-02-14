@@ -16,7 +16,7 @@ export async function createPostsUsage(
   statsMethodName: PostsManagerStatsMethodName,
   key: string | ((key: string) => boolean),
 ): Promise<PostsUsage | undefined> {
-  const result: PostsUsage = {};
+  let result: PostsUsage = {};
 
   for (const manager of postsManagers) {
     const stats = await manager[statsMethodName]();
@@ -30,7 +30,9 @@ export async function createPostsUsage(
     result[manager.name] = count || undefined;
   }
 
-  return Object.values(result).length > 0 ? cleanupUndefinedProps(result) : undefined;
+  result = cleanupUndefinedProps(result);
+
+  return Object.values(result).length > 0 ? result : undefined;
 }
 
 export function comparePostsUsages(a: PostsUsage | undefined, b?: PostsUsage | undefined) {

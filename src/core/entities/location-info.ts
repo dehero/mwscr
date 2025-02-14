@@ -8,7 +8,7 @@ import type { PostAddon } from './post.js';
 import type { PostsManager } from './posts-manager.js';
 import type { PostsUsage } from './posts-usage.js';
 import { createPostsUsage } from './posts-usage.js';
-import { locationCellToWorldMapPolygon } from './world-map.js';
+import { locationToWorldMapPolygonSvg } from './world-map.js';
 
 export interface LocationInfo {
   title: string;
@@ -61,7 +61,7 @@ export async function createLocationInfo(
     addon: location.addon,
     cell: location.cell,
     discovered,
-    worldMapSvg: locationCellToWorldMapPolygon(location.cell)?.svg(),
+    worldMapSvg: locationToWorldMapPolygonSvg(location),
   });
 }
 
