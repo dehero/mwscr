@@ -6755,7 +6755,7 @@
     - service: vk
       id: 1445
       published: 2024-03-13-18-17-34
-      updated: 2025-02-07-00-36-14
+      updated: 2025-02-14-02-09-06
       followers: 897
       likes: 33
       views: 287
@@ -6766,10 +6766,10 @@
     - service: tg
       id: 344
       published: 2024-03-13-18-17-41
-      updated: 2025-02-07-00-36-10
+      updated: 2025-02-14-02-09-03
       followers: 349
       likes: 64
-      views: 543
+      views: 545
       comments: !c |-
         G+4DIJwHtg3vDJUeLhr3Ytksel4GJ8VfjU2IonUTmmlCUlQZIZopShGVe2abWOWrKpxsJVc1M7kn
         geMPkkfqWXBuQjMYRir9LQt4FqkTGEiCtJHbYgK/vtTEf4JZTpRIXWb+bwn6MdAMw8yu066bbuxF
@@ -8841,10 +8841,10 @@
     - service: vk
       id: 1885
       published: 2024-11-07-18-10-36
-      updated: 2025-02-07-00-36-14
+      updated: 2025-02-14-02-09-05
       followers: 1005
       likes: 31
-      views: 318
+      views: 321
       reposts: 1
     - service: tg
       id: 588
