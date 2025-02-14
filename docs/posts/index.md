@@ -32,16 +32,17 @@
 | [`ig`](https://instagram.com/p/BpNQHT-BoiQ/)       | 2018-10-21 |       |   112 |       447 |      25.06 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_998)  | 2018-10-21 |   389 |    31 |           |            |
 | [`tg`](https://t.me/mwscr/89,90,91,92,93)          | 2018-10-21 |   235 |     3 |           |            |
-| [`ig`](https://instagram.com/p/DGEBRCtzBuX/)       | 2025-02-14 |       |       |      1533 |            |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2130) | 2025-02-14 |       |       |      1070 |            |
-| [`tg`](https://t.me/mwscr/707,708,709,710)         | 2025-02-14 |       |       |       675 |            |
-|                                                    |            |       |       |      3278 |            |
+| [`ig`](https://instagram.com/p/DGEBRCtzBuX/)       | 2025-02-14 |    11 |    16 |      1533 |       1.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2130) | 2025-02-14 |    34 |     7 |      1070 |       0.65 |
+| [`tg`](https://t.me/mwscr/707,708,709,710)         | 2025-02-14 |    75 |    17 |       675 |       2.52 |
+|                                                    |            |   120 |    40 |      3278 |       1.41 |
 
 #### Comments
 
 - `ig` <ins title="2018-10-21-19-46-48">kevc_9</ins> Keep uploading!! ❤️
 - `ig` <ins title="2018-10-21-21-13-58">voodoochild_4206923</ins> The dead tress always made the game more awesome
 - `ig` <ins title="2018-10-21-21-32-45">hopkick</ins> Dude I love your posts, keep em going.
+- `ig` <ins title="2025-02-14-18-56-39">someone_simple42</ins> The skies in Morrowind are something else
 
 ## <span id="2025-02-13-a-new-sight">A New Sight</span>
 
@@ -67,9 +68,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1303) | 2022-06-23 |   994 |    79 |       700 |         12 |
 | [`tg`](https://t.me/mwscr/246)                     | 2022-06-23 |  1169 |    85 |       226 |      37.61 |
 | [`ig`](https://instagram.com/p/DGBdJ0-PH1J/)       | 2025-02-13 |   213 |    75 |      1534 |       4.89 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2129) | 2025-02-13 |   203 |    44 |      1069 |        4.4 |
-| [`tg`](https://t.me/mwscr/706)                     | 2025-02-13 |   171 |    47 |       676 |       6.95 |
-|                                                    |            |   587 |   166 |      3279 |       5.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2129) | 2025-02-13 |   206 |    44 |      1069 |        4.4 |
+| [`tg`](https://t.me/mwscr/706)                     | 2025-02-13 |   186 |    48 |       676 |        7.1 |
+|                                                    |            |   605 |   167 |      3279 |       5.46 |
 
 #### Comments
 
@@ -227,10 +228,10 @@
 | [`ig`](https://instagram.com/p/BudTo8ThXO7/)       | 2019-03-01 |       |   112 |       783 |       14.3 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1140) | 2019-03-01 |   628 |    41 |       329 |      12.46 |
 | [`tg`](https://t.me/mwscr/159)                     | 2019-03-01 |   548 |     3 |           |            |
-| [`ig`](https://instagram.com/p/DF3JEd9JyL_/)       | 2025-02-09 |   210 |    63 |      1532 |       4.11 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2120) | 2025-02-09 |   223 |    32 |      1063 |        3.1 |
-| [`tg`](https://t.me/mwscr/702)                     | 2025-02-09 |   299 |    57 |       673 |       8.47 |
-|                                                    |            |   732 |   152 |      3268 |       5.23 |
+| [`ig`](https://instagram.com/p/DF3JEd9JyL_/)       | 2025-02-09 |   215 |    65 |      1532 |       4.24 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2120) | 2025-02-09 |   236 |    34 |      1063 |       3.29 |
+| [`tg`](https://t.me/mwscr/702)                     | 2025-02-09 |   315 |    57 |       673 |       8.47 |
+|                                                    |            |   766 |   156 |      3268 |       5.33 |
 
 #### Comments
 
@@ -259,10 +260,10 @@
 | [`ig`](https://instagram.com/p/BuPHSbwhI-4/)       | 2019-02-23 |       |   140 |       778 |      17.99 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1132) | 2019-02-23 |   584 |    41 |       328 |       12.8 |
 | [`tg`](https://t.me/mwscr/155)                     | 2019-02-23 |   494 |     2 |           |            |
-| [`ig`](https://instagram.com/p/DF0kRfGTwtB/)       | 2025-02-08 |   243 |    77 |      1533 |       5.02 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2119) | 2025-02-08 |   220 |    31 |      1062 |       2.92 |
-| [`tg`](https://t.me/mwscr/701)                     | 2025-02-08 |   318 |    51 |       672 |       7.59 |
-|                                                    |            |   781 |   159 |      3267 |       5.18 |
+| [`ig`](https://instagram.com/p/DF0kRfGTwtB/)       | 2025-02-08 |   245 |    78 |      1533 |       5.09 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2119) | 2025-02-08 |   225 |    32 |      1062 |       3.01 |
+| [`tg`](https://t.me/mwscr/701)                     | 2025-02-08 |   335 |    51 |       672 |       7.59 |
+|                                                    |            |   805 |   161 |      3267 |       5.23 |
 
 #### Comments
 
