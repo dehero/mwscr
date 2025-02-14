@@ -44,6 +44,7 @@
 2019-02-06-barilzar-and-his-satellite:
   title: Barilzar and His Satellite
   titleRu: Барилзар и его приспешник
+  placement: Indoors
   content: store:/shots/2019-02-06-barilzar-and-his-satellite.png
   type: shot
   author: dehero
@@ -75,6 +76,7 @@
 2019-02-07-travel-to-nowhere:
   title: Travel to Nowhere
   titleRu: Путешествие в никуда
+  placement: Outdoors
   content: store:/shots/2019-02-07-travel-to-nowhere.png
   type: shot
   author: dehero
@@ -105,6 +107,7 @@
 2019-02-08-view-of-wolverine-hall:
   title: View of Wolverine Hall
   titleRu: Вид на Волверин Холл
+  placement: Outdoors
   location:
     - Sadrith Mora, Wolverine Hall
     - Wolverine Hall
@@ -136,6 +139,7 @@
 2019-02-09-view-of-caldera:
   title: View of Caldera
   titleRu: Вид на Кальдеру
+  placement: Outdoors
   location: Caldera
   content: store:/shots/2019-02-09-view-of-caldera.png
   type: shot
@@ -176,6 +180,7 @@
 2019-02-10-molag-mar-canalworks:
   title: Molag Mar, Canalworks
   titleRu: Молаг Мар, Каналы
+  placement: Indoors
   location: Molag Mar, Canalworks
   content: store:/shots/2019-02-10-molag-mar-canalworks.png
   type: shot
@@ -212,6 +217,7 @@
 2019-02-11-at-the-entrance-to-nchuleftingth:
   title: At the Entrance to Nchuleftingth
   titleRu: У входа в Нчулефтингт
+  placement: Outdoors
   location: Nchuleftingth
   content: store:/shots/2019-02-11-at-the-entrance-to-nchuleftingth.png
   type: shot
@@ -243,6 +249,7 @@
 2019-02-12-in-the-temple-of-molag-mar:
   title: In the Temple of Molag Mar
   titleRu: В храме Молаг Мара
+  placement: Indoors
   location: Molag Mar, Temple
   content: store:/shots/2019-02-12-in-the-temple-of-molag-mar.png
   type: shot
@@ -277,6 +284,7 @@
 2019-02-13-kaushtarari:
   title: Kaushtarari
   titleRu: Коштарари
+  placement: Outdoors
   location: Kaushtarari
   content: store:/shots/2019-02-13-kaushtarari.png
   type: shot
@@ -308,6 +316,7 @@
 2019-02-14-inside-a-house-in-raven-rock:
   title: Inside a House in Raven Rock
   titleRu: Внутри дома в Вороньей Скале
+  placement: Indoors
   location: Raven Rock
   content: store:/shots/2019-02-14-inside-a-house-in-raven-rock.png
   type: shot
@@ -339,6 +348,7 @@
 2019-02-15-telvanni-table:
   title: Telvanni Table
   titleRu: Стол Телванни
+  placement: Indoors
   content: store:/shots/2019-02-15-telvanni-table.png
   type: shot
   author: dehero
@@ -376,6 +386,7 @@
 2019-02-16-vevrana-aryon:
   title: Vevrana Aryon
   titleRu: Веврана Арион
+  placement: Outdoors
   content: store:/shots/2019-02-16-vevrana-aryon.png
   type: shot
   author: dehero
@@ -410,6 +421,7 @@
 2019-02-17-landscape-with-a-pipe:
   title: Landscape with a Pipe
   titleRu: Пейзаж с трубой
+  placement: Outdoors
   content: store:/shots/2019-02-17-landscape-with-a-pipe.png
   type: shot
   author: dehero
@@ -444,6 +456,7 @@
 2019-02-18-daedric-exit:
   title: Daedric Exit
   titleRu: Даэдрический выход
+  placement: Indoors
   content: store:/shots/2019-02-18-daedric-exit.png
   type: shot
   author: dehero
@@ -505,6 +518,7 @@
 2019-02-20-machine-hall:
   title: Machine Hall
   titleRu: Машинный зал
+  placement: Indoors
   content: store:/shots/2019-02-20-machine-hall.png
   type: shot
   author: dehero
@@ -536,6 +550,7 @@
 2019-02-21-skaal-lantern:
   title: Skaal Lantern
   titleRu: Фонарь скаалов
+  placement: Outdoors
   location: Skaal Village
   content: store:/shots/2019-02-21-skaal-lantern.png
   type: shot
@@ -568,6 +583,7 @@
 2019-02-22-ordinator-of-mournhold:
   title: Ordinator of Mournhold
   titleRu: Ординатор Морнхолда
+  placement: Indoors
   location: Mournhold Temple
   content: store:/shots/2019-02-22-ordinator-of-mournhold.png
   type: shot
@@ -659,6 +675,7 @@
 2019-02-24-mehrunes-dagon-and-his-worshiper:
   title: Mehrunes Dagon and His Worshiper
   titleRu: Мехрун Дагон и его идолопоклонник
+  placement: Indoors
   content: store:/shots/2019-02-24-mehrunes-dagon-and-his-worshiper.png
   type: shot
   author: dehero
@@ -690,6 +707,7 @@
 2019-02-26-mirror-coast:
   title: Mirror Coast
   titleRu: Зеркальный берег
+  placement: Outdoors
   content: store:/shots/2019-02-26-mirror-coast.png
   type: shot
   author: dehero
@@ -724,6 +742,7 @@
 2019-02-27-glassworkers-hall:
   title: Glassworker's Hall
   titleRu: Зал стеклодувов
+  placement: Indoors
   location: Vivec, St. Delyn Glassworker's Hall
   content: store:/shots/2019-02-27-glassworkers-hall.png
   type: shot
@@ -817,6 +836,7 @@
 2019-03-04-evening-road:
   title: Evening Road
   titleRu: Вечерняя дорога
+  placement: Outdoors
   content: store:/shots/2019-03-04-evening-road.png
   type: shot
   author: dehero
@@ -871,6 +891,7 @@
 2019-03-07-mzahnch:
   title: Mzahnch
   titleRu: Мзанч
+  placement: Outdoors
   location: Mzahnch
   content: store:/shots/2019-03-07-mzahnch.png
   type: shot
@@ -908,6 +929,7 @@
 2019-03-11-tel-fyr:
   title: Tel Fyr
   titleRu: Тель Фир
+  placement: Outdoors
   location: Tel Fyr
   content: store:/shots/2019-03-11-tel-fyr.png
   type: shot
@@ -973,6 +995,7 @@
 2019-03-18-misty-pairs:
   title: Misty Pairs
   titleRu: Туманные пары
+  placement: Outdoors
   content: store:/shots/2019-03-18-misty-pairs.png
   type: shot
   author: dehero
@@ -1006,6 +1029,7 @@
 2019-03-19-an-old-bridge:
   title: An Old Bridge
   titleRu: Старый мост
+  placement: Outdoors
   content: store:/shots/2019-03-19-an-old-bridge.png
   type: shot
   author: dehero
@@ -1041,6 +1065,7 @@
 2019-03-21-sorcerers-cosiness:
   title: Sorcerer's Cosiness
   titleRu: Уют чародея
+  placement: Indoors
   content: store:/shots/2019-03-21-sorcerers-cosiness.png
   type: shot
   author: dehero
@@ -1071,6 +1096,7 @@
 2019-04-01-aboard:
   title: Aboard
   titleRu: На борт
+  placement: Outdoors
   content: store:/shots/2019-04-01-aboard.png
   type: shot
   author: dehero
@@ -1109,6 +1135,7 @@
 2019-04-02-towers-of-mzanchend:
   title: Towers of Mzanchend
   titleRu: Башни Мзанченда
+  placement: Outdoors
   location: Mzanchend
   content: store:/shots/2019-04-02-towers-of-mzanchend.png
   type: shot
@@ -1156,6 +1183,7 @@
 2019-05-08-an-old-bridge:
   title: An Old Bridge
   titleRu: Старый мост
+  placement: Outdoors
   content:
     - store:/drawings/2019-05-08-an-old-bridge.png
     - store:/shots/2019-03-19-an-old-bridge.png
@@ -1205,6 +1233,7 @@
 2019-05-09-opposing-the-dusk:
   title: Opposing the Dusk
   titleRu: Против сумерек
+  placement: Outdoors
   content: store:/shots/2019-05-09-opposing-the-dusk.png
   type: shot
   author: dehero
@@ -1234,6 +1263,7 @@
 2019-05-10-at-the-corner-of-guard-tower:
   title: At the Corner of Guard Tower
   titleRu: На углу сторожевой башни
+  placement: Outdoors
   location: Balmora
   content: store:/shots/2019-05-10-at-the-corner-of-guard-tower.png
   type: shot
@@ -1269,6 +1299,7 @@
 2019-05-11-misty-pairs:
   title: Misty Pairs
   titleRu: Туманные пары
+  placement: Outdoors
   content:
     - store:/drawings/2019-05-11-misty-pairs.png
     - store:/shots/2019-03-18-misty-pairs.png
@@ -1308,6 +1339,7 @@
 2019-05-12-in-the-imperial-armory:
   title: In the Imperial Armory
   titleRu: В имперской оружейной
+  placement: Outdoors
   content: store:/shots/2019-05-12-in-the-imperial-armory.png
   type: shot
   author: dehero
@@ -1344,6 +1376,7 @@
 2019-05-13-at-the-bridge:
   title: At the Bridge
   titleRu: У моста
+  placement: Outdoors
   content: store:/shots/2019-05-13-at-the-bridge.png
   type: shot
   author: dehero
@@ -1381,6 +1414,7 @@
 2019-05-14-towers-of-mzanchend-by-knives-out:
   title: Towers of Mzanchend
   titleRu: Башни Мзанченда
+  placement: Outdoors
   location: Mzanchend
   content:
     - store:/drawings/2019-05-14-towers-of-mzanchend.png
@@ -1459,6 +1493,7 @@
 2019-05-15-urshilaku-camp:
   title: Urshilaku Camp
   titleRu: Лагерь Уршилаку
+  placement: Outdoors
   location: Urshilaku Camp
   content: store:/shots/2019-05-15-urshilaku-camp.png
   type: shot
@@ -1494,6 +1529,7 @@
 2019-05-16-near-the-winter-well:
   title: Near the Winter Well
   titleRu: У зимнего колодца
+  placement: Outdoors
   location: Skaal Village
   content: store:/shots/2019-05-16-near-the-winter-well.png
   type: shot
@@ -1555,6 +1591,7 @@
 2019-05-17-three-trees-by-the-road:
   title: Three Trees by the Road
   titleRu: Три дерева у дороги
+  placement: Outdoors
   content: store:/shots/2019-05-17-three-trees-by-the-road.png
   type: shot
   author: dehero
@@ -1591,6 +1628,7 @@
 2019-10-01-a-new-rise:
   title: A New Rise
   titleRu: Новое начало
+  placement: Outdoors
   location: Vivec
   content: store:/shots/2019-10-01-a-new-rise.png
   type: shot
@@ -1635,6 +1673,7 @@
 2019-10-02-dreamer:
   title: Dreamer
   titleRu: Видящий
+  placement: Indoors
   content: store:/shots/2019-10-02-dreamer.png
   type: shot
   author: dehero
@@ -1666,6 +1705,7 @@
 2019-10-03-maiden-and-knight:
   title: Maiden and Knight
   titleRu: Дева и рыцарь
+  placement: Outdoors
   content: store:/shots/2019-10-03-maiden-and-knight.png
   type: shot
   author: dehero
@@ -1698,6 +1738,7 @@
 2019-10-04-rainy-welcome:
   title: Rainy Welcome
   titleRu: Дождливый приём
+  placement: Outdoors
   location: Balmora
   content: store:/shots/2019-10-04-rainy-welcome.png
   type: shot
@@ -1744,6 +1785,7 @@
 2019-10-05-saber-and-heart:
   title: Saber and Heart
   titleRu: Сабля и сердце
+  placement: Indoors
   content: store:/shots/2019-10-05-saber-and-heart.png
   type: shot
   author: dehero
@@ -1817,6 +1859,7 @@
 2019-10-06-dwemer-telescope:
   title: Dwemer Telescope
   titleRu: Двемерский телескоп
+  placement: Indoors
   content: store:/shots/2019-10-06-dwemer-telescope.png
   type: shot
   author: dehero
@@ -1857,6 +1900,7 @@
 2019-10-07-ancestral-web:
   title: Ancestral Web
   titleRu: Родовая паутина
+  placement: Indoors
   content: store:/shots/2019-10-07-ancestral-web.png
   type: shot
   author: dehero
@@ -1895,6 +1939,7 @@
 2019-10-08-dead-road:
   title: Dead Road
   titleRu: Мёртвая дорога
+  placement: Outdoors
   content: store:/shots/2019-10-08-dead-road.png
   type: shot
   author: dehero
@@ -1934,6 +1979,7 @@
 2019-10-09-yellow-mile:
   title: Yellow Mile
   titleRu: Жёлтая миля
+  placement: Indoors
   content: store:/shots/2019-10-09-yellow-mile.png
   type: shot
   author: dehero
@@ -1969,6 +2015,7 @@
 2019-10-10-somewhere-under-mournhold:
   title: Somewhere Under Mournhold
   titleRu: Где-то под Морнхолдом
+  placement: Indoors
   location: Old Mournhold
   content: store:/shots/2019-10-10-somewhere-under-mournhold.png
   type: shot
@@ -2064,6 +2111,7 @@
 2019-10-12-imperial-candelabrum:
   title: Imperial Candelabrum
   titleRu: Имперский канделябр
+  placement: Indoors
   content: store:/shots/2019-10-12-imperial-candelabrum.png
   type: shot
   author: dehero
@@ -2103,6 +2151,7 @@
 2019-10-13-gray-distance:
   title: Gray Distance
   titleRu: Серая даль
+  placement: Outdoors
   content: store:/shots/2019-10-13-gray-distance.png
   type: shot
   author: dehero
