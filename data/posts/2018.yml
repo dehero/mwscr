@@ -4006,6 +4006,7 @@
 2018-04-18-ald-sotha:
   title: Ald Sotha
   titleRu: Альд Сота
+  placement: Outdoors
   location: Ald Sotha
   content: store:/shots/2018-04-18-ald-sotha.png
   type: shot
@@ -4032,6 +4033,7 @@
 2018-04-19-snow-covered-expanses:
   title: Snow-Covered Expanses
   titleRu: Заснеженные просторы
+  placement: Outdoors
   content: store:/shots/2018-04-19-snow-covered-expanses.png
   type: shot
   author: dehero
@@ -4080,6 +4082,8 @@
 2018-04-20-road-through-a-dead-forest:
   title: Road Through a Dead Forest
   titleRu: Дорога сквозь мёртвый лес
+  placement: Outdoors
+  location: West Gash Region
   content: store:/shots/2018-04-20-road-through-a-dead-forest.png
   type: shot
   author: dehero
@@ -4109,6 +4113,7 @@
 2018-04-21-in-the-cage:
   title: In the Cage
   titleRu: В клетке
+  placement: Outdoors
   location: Sadrith Mora
   content: store:/shots/2018-04-21-in-the-cage.png
   type: shot
@@ -4163,6 +4168,7 @@
 2018-04-22-evening-dwemer-architecture:
   title: Evening Dwemer Architecture
   titleRu: Вечерняя двемерская архитектура
+  placement: Outdoors
   content:
     - store:/shots/2017-03-08-nchurdamz-at-the-sunset.png
     - store:/shots/2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.png
@@ -4192,6 +4198,7 @@
 2018-04-23-under-the-lonely-lantern:
   title: Under the Lonely Lantern
   titleRu: Под одиноким фонарём
+  placement: Outdoors
   content: store:/shots/2018-04-23-under-the-lonely-lantern.png
   type: shot
   author: dehero
@@ -4221,6 +4228,7 @@
 2018-04-24-did-you-hear-that-cry:
   title: Did You Hear That Cry?
   titleRu: Ты слышал этот вой?
+  placement: Outdoors
   content: store:/shots/2018-04-24-did-you-hear-that-cry.png
   type: shot
   author: dehero
@@ -4302,6 +4310,7 @@
 2018-04-26-sun-stone:
   title: Sun Stone
   titleRu: Камень Солнца
+  placement: Outdoors
   content: store:/shots/2018-04-26-sun-stone.png
   type: shot
   author: dehero
@@ -4326,6 +4335,7 @@
 2018-04-27-playing-tag:
   title: Playing Tag
   titleRu: Игра в догонялки
+  placement: Outdoors
   content: store:/shots/2018-04-27-playing-tag.png
   type: shot
   author: dehero
@@ -4352,6 +4362,7 @@
 2018-04-28-by-the-redoran-balcony:
   title: By the Redoran Balcony
   titleRu: У редоранского балкона
+  placement: Indoors
   content: store:/shots/2018-04-28-by-the-redoran-balcony.png
   type: shot
   author: dehero
@@ -4378,6 +4389,7 @@
 2018-04-29-caldera:
   title: Caldera
   titleRu: Кальдера
+  placement: Outdoors
   location: Caldera
   content:
     - store:/shots/2016-12-28-close-to-caldera-clothier.png
@@ -4406,6 +4418,7 @@
 2018-04-30-dreughs-arent-afraid-of-rain:
   title: Dreughs Aren't Afraid of Rain
   titleRu: Дреуги дождя не боятся
+  placement: Outdoors
   content: store:/shots/2018-04-30-dreughs-arent-afraid-of-rain.png
   type: shot
   author: dehero
@@ -4462,6 +4475,7 @@
 2018-05-01-view-of-bthanchend:
   title: View of Bthanchend
   titleRu: Вид на Бтанченд
+  placement: Outdoors
   location: Bthanchend
   content: store:/shots/2018-05-01-view-of-bthanchend.png
   type: shot
@@ -4490,6 +4504,7 @@
 2018-05-02-buy-something-or-go-away:
   title: Buy Something or Go Away
   titleRu: Покупай уже что-нибудь, или убирайся
+  placement: Indoors
   content: store:/shots/2018-05-02-buy-something-or-go-away.png
   type: shot
   author: dehero
@@ -4516,6 +4531,7 @@
 2018-05-03-sunset-over-the-lava-river:
   title: Sunset Over the Lava River
   titleRu: Закат над лавовой рекой
+  placement: Outdoors
   content: store:/shots/2018-05-03-sunset-over-the-lava-river.png
   type: shot
   author: dehero
@@ -4566,6 +4582,7 @@
 2018-05-04-table-for-two:
   title: Table for Two
   titleRu: Столик на двоих
+  placement: Indoors
   content: store:/shots/2018-05-04-table-for-two.png
   type: shot
   author: dehero
@@ -4615,6 +4632,7 @@
 2018-05-05-uncle-sweetshares-workshop:
   title: Uncle Sweetshare's Workshop
   titleRu: Мастерская Дядюшки Сладкая Доля
+  placement: Outdoors
   location: Solstheim, Uncle Sweetshare's Workshop
   content: store:/shots/2018-05-05-uncle-sweetshares-workshop.png
   type: shot
@@ -4671,6 +4689,7 @@
 2018-05-06-roads-of-ascadian-isles:
   title: Roads of Ascadian Isles
   titleRu: Дороги Аскадианских островов
+  placement: Outdoors
   location: Ascadian Isles Region
   content:
     - store:/shots/2016-11-30-the-road-most-travelled.png
@@ -4704,6 +4723,7 @@
 2018-05-07-bonelord:
   title: Bonelord
   titleRu: Костяной Лорд
+  placement: Indoors
   content: store:/shots/2018-05-07-bonelord.png
   type: shot
   author: dehero
@@ -4761,6 +4781,7 @@
 2018-05-09-dark-sanctuary-of-dark:
   title: Dark Sanctuary of Dark
   titleRu: Святилище тьмы во тьме
+  placement: Indoors
   content: store:/shots/2018-05-09-dark-sanctuary-of-dark.png
   type: shot
   author: dehero
@@ -4869,6 +4890,7 @@
 2018-05-11-tree-crown-of-indoranyon:
   title: Tree Crown of Indoranyon
   titleRu: Древесная корона Индораниона
+  placement: Outdoors
   location: Indoranyon
   content: store:/shots/2018-05-11-tree-crown-of-indoranyon.png
   type: shot
@@ -4897,6 +4919,7 @@
 2018-05-12-two-sheds:
   title: Two Sheds
   titleRu: Две хижины
+  placement: Outdoors
   location: Ald Velothi
   content: store:/shots/2018-05-12-two-sheds.png
   type: shot
@@ -4933,6 +4956,7 @@
 2018-05-13-candles-and-books:
   title: Candles and Books
   titleRu: Книги и свечи
+  placement: Indoors
   content:
     - store:/shots/2016-12-20-a-boxy-nightstand.png
     - store:/shots/2017-07-13-corpse-preparation-volume-one.png
@@ -4968,6 +4992,7 @@
 2018-05-14-death-and-life:
   title: Death and Life
   titleRu: Смерть и жизнь
+  placement: Outdoors
   content: store:/shots/2018-05-14-death-and-life.png
   type: shot
   author: dehero
@@ -5026,6 +5051,7 @@
 2018-05-15-night-patrol-of-the-coast:
   title: Night Patrol of the Coast
   titleRu: Ночной патруль побережья
+  placement: Outdoors
   content: store:/shots/2018-05-15-night-patrol-of-the-coast.png
   type: shot
   author: dehero
@@ -5053,6 +5079,7 @@
 2018-05-16-let-the-sun-rise:
   title: Let the Sun Rise
   titleRu: Пусть восходит солнце
+  placement: Outdoors
   location: Vivec, Temple
   content: store:/shots/2018-05-16-let-the-sun-rise.png
   type: shot
@@ -5111,6 +5138,7 @@
 2018-05-17-inviting-nchuleft:
   title: Inviting Nchuleft
   titleRu: Манящий Нчулефт
+  placement: Outdoors
   location: Nchuleft
   content: store:/shots/2018-05-17-inviting-nchuleft.png
   type: shot
@@ -5139,6 +5167,7 @@
 2018-05-18-strategic-stock:
   title: Strategic Stock
   titleRu: Стратегический запас
+  placement: Outdoors
   content: store:/shots/2018-05-18-strategic-stock.png
   type: shot
   author: dehero
@@ -5193,6 +5222,7 @@
 2018-05-19-keep-calm-and-wait-for-nerevarine:
   title: Keep Calm and Wait for Nerevarine
   titleRu: Будь спокоен и жди Нереварина
+  placement: Indoors
   content: store:/shots/2018-05-19-keep-calm-and-wait-for-nerevarine.png
   type: shot
   author: dehero
@@ -5251,6 +5281,7 @@
 2018-05-20-views-from-the-outskirts-of-gnisis:
   title: Views from the Outskirts of Gnisis
   titleRu: Виды с окраин Гнисиса
+  placement: Outdoors
   location: Gnisis
   content:
     - store:/shots/2017-04-03-gnisis.png
@@ -5279,6 +5310,7 @@
 2018-05-21-lette-in-front-of-tel-mora-main-tower:
   title: Lette in Front of Tel Mora Main Tower
   titleRu: Летте перед главной башней Тель Моры
+  placement: Outdoors
   location: Tel Mora
   content: store:/shots/2018-05-21-lette-in-front-of-tel-mora-main-tower.png
   type: shot
