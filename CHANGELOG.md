@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.36.1](https://github.com/dehero/mwscr/compare/v1.36.0...v1.36.1) (2025-02-14)
+
+### Performance Improvements
+
+- make creating location info faster
+  ([7973df5](https://github.com/dehero/mwscr/commit/7973df57559f689236c65479826e64957fb4fedd))
+- **site:** speed up data recalculations after edits
+  ([c955f4c](https://github.com/dehero/mwscr/commit/c955f4c8eeca369cd41964005190d0d2a6cd3af8))
+
 ## [1.36.0](https://github.com/dehero/mwscr/compare/v1.35.0...v1.36.0) (2025-02-13)
 
 ### Features
