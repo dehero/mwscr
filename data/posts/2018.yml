@@ -452,10 +452,10 @@
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2025-02-07-07-08-12
+      updated: 2025-02-14-08-10-32
       followers: 399
       likes: 72
-      views: 673
+      views: 675
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -8212,10 +8212,10 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2025-02-07-07-08-11
+      updated: 2025-02-14-08-10-33
       followers: 943
       likes: 27
-      views: 276
+      views: 278
       comments: !c |-
         G4kAABwJtm2DFS6f5Iqx04j/uZniZ21tAxEXoy2KJZqi5V7U8pariU3U3psJbEIUKjYbfn8SgoMM
         NuBAA4WMBqANZz5D4HxxP5/1mYm29/qcY41xrP13OoSBgAeAgkJKMk1xz7wtNSw7RMEup5pJICmx
@@ -8223,10 +8223,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2025-02-07-07-08-09
+      updated: 2025-02-14-08-10-29
       followers: 551
       likes: 56
-      views: 537
+      views: 539
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
@@ -8638,10 +8638,10 @@
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2025-02-07-07-08-15
+      updated: 2025-02-14-08-10-36
       followers: 927
-      likes: 37
-      views: 334
+      likes: 38
+      views: 344
       reposts: 2
       comments: !c |-
         CyKAkZPLQnkTND+3gACxY2xpZmZyYWNlcnNraWxsZXLZJtCl0L7RgNC60LXRgDog0LzRj9C90Y8g
@@ -8649,10 +8649,10 @@
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2025-02-07-07-08-11
+      updated: 2025-02-14-08-10-31
       followers: 508
       likes: 66
-      views: 625
+      views: 626
       comments: !c ixGAkZPLQnkT2JKcgACoZGFhcmthbmGvd2FubmEgbGl2ZSBoZXJlAw==
 2018-08-29-darius:
   title: Darius
@@ -10272,20 +10272,20 @@
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2025-02-07-07-08-14
+      updated: 2025-02-14-08-10-35
       followers: 932
       likes: 36
-      views: 319
+      views: 320
       comments: !c |-
         iyeAkZTLQnkVdl1GgACyeW91cmVuZW1pZXN3aWxscGF5u9Ci0LDQvCDQutC70LDQvSDQkdC10YDQ
         vdC1P5PLQnkVy9vAAACmcDQwamxhpNC00LAD
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2025-02-07-07-08-11
+      updated: 2025-02-14-08-10-31
       followers: 527
       likes: 60
-      views: 647
+      views: 648
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
@@ -12071,20 +12071,20 @@
       id: DF-3pqzpcCB
       mediaId: '18048203351229493'
       published: 2025-02-12-18-10-55
-      updated: 2025-02-14-07-08-04
+      updated: 2025-02-14-08-10-27
       followers: 1534
       likes: 88
-      views: 278
+      views: 279
       comments: !c |-
         CyiAkZTLQnlPtgLeAACuZG9vdHNfc3Bvb2ttYW6/QXJlIHRoZXNlIHRha2VuIHJ1bm5pbmcgT3Bl
         bk1XP5PLQnlPtjdbgAClbXdzY3KmcmlnaHQuAw==
     - service: vk
       id: 2126
       published: 2025-02-12-18-35-09
-      updated: 2025-02-14-07-08-05
+      updated: 2025-02-14-08-10-27
       followers: 1066
       likes: 26
-      views: 174
+      views: 176
       reposts: 1
       comments: !c |-
         G1UBAJwJto2K9cDiFUhZnnieuGGW6D8vLoSCtJIEd5vYCJP3XblZYmQ72TjeZy0aklreYv5n4+t3
@@ -12094,10 +12094,10 @@
     - service: tg
       id: 705
       published: 2025-02-12-18-35-16
-      updated: 2025-02-14-07-08-04
+      updated: 2025-02-14-08-10-26
       followers: 674
       likes: 50
-      views: 222
+      views: 224
 2018-11-19-the-city-of-gondolas:
   title: The City of Gondolas
   titleRu: Город гондол
