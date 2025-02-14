@@ -6,9 +6,7 @@ import type { ListReaderStats } from './list-manager.js';
 import { ListManager, ListManagerPatch } from './list-manager.js';
 import {
   getPostDrawer,
-  getPostEntryEngagement,
-  getPostEntryLikes,
-  getPostEntryViews,
+  getPostEntryStats,
   getPostFirstPublished,
   getPostRating,
   isPostEqual,
@@ -103,7 +101,7 @@ export function isTrashOrInboxItem(post: Post, errors?: string[]): post is Trash
 }
 
 export function getPublishedPostChunkName(id: string) {
-  const chunkName = id.split('-')[0];
+  const chunkName = id.slice(0, 4);
 
   if (!chunkName) {
     throw new Error(`Cannot get year from post id: ${id}`);
@@ -151,54 +149,46 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
     return postsManagerDescriptors[this.name];
   }
 
-  async getAuthorsLikesStats(): Promise<ListReaderStats> {
-    return this.createCache(this.getAuthorsLikesStats.name, async () => {
-      const stats = new Map<string, number>();
+  async getAuthorsStats(): Promise<{ likes: ListReaderStats; views: ListReaderStats; engagement: ListReaderStats }> {
+    return this.createCache(this.getAuthorsStats.name, async () => {
+      const likes = new Map<string, number>();
+      const views = new Map<string, number>();
+      const groupedEngagement = new Map<string, number[]>();
 
       for await (const entry of this.readAllEntries()) {
-        const likes = getPostEntryLikes(entry);
-        asArray(entry[1].author).forEach((author) => {
-          stats.set(author, (stats.get(author) || 0) + likes);
-        });
+        const stats = getPostEntryStats(entry);
+
+        if (!entry[2])
+          asArray(entry[1].author).forEach((author) => {
+            likes.set(author, (likes.get(author) || 0) + stats.likes);
+            views.set(author, (views.get(author) || 0) + stats.views);
+            if (stats.engagement) {
+              groupedEngagement.set(author, [...(groupedEngagement.get(author) ?? []), stats.engagement]);
+            }
+          });
       }
 
-      return stats;
+      const engagement = new Map(
+        [...groupedEngagement].map(([author, engagements]) => [
+          author,
+          engagements.reduce((a, b) => a + b, 0) / engagements.length,
+        ]),
+      );
+
+      return { likes, views, engagement };
     });
+  }
+
+  async getAuthorsLikesStats(): Promise<ListReaderStats> {
+    return (await this.getAuthorsStats()).likes;
   }
 
   async getAuthorsViewsStats(): Promise<ListReaderStats> {
-    return this.createCache(this.getAuthorsViewsStats.name, async () => {
-      const stats = new Map<string, number>();
-
-      for await (const entry of this.readAllEntries()) {
-        const views = getPostEntryViews(entry);
-        asArray(entry[1].author).forEach((author) => {
-          stats.set(author, (stats.get(author) || 0) + views);
-        });
-      }
-
-      return stats;
-    });
+    return (await this.getAuthorsStats()).views;
   }
 
   async getAuthorsEngagementStats(): Promise<ListReaderStats> {
-    return this.createCache(this.getAuthorsEngagementStats.name, async () => {
-      const map = new Map<string, number[]>();
-
-      for await (const entry of this.readAllEntries(true)) {
-        const engagement = getPostEntryEngagement(entry);
-        if (!engagement) {
-          continue;
-        }
-        asArray(entry[1].author).forEach((author) => {
-          map.set(author, [...(map.get(author) ?? []), engagement]);
-        });
-      }
-
-      return new Map(
-        [...map].map(([author, engagements]) => [author, engagements.reduce((a, b) => a + b, 0) / engagements.length]),
-      );
-    });
+    return (await this.getAuthorsStats()).engagement;
   }
 
   async getAuthorsMarkScoreStats(): Promise<ListReaderStats> {

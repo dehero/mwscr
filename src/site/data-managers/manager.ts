@@ -21,6 +21,10 @@ class SiteDataManager extends DataManager {
   }
 
   async getAllLocationInfos(): Promise<LocationInfo[]> {
+    if (this.patchSize > 0) {
+      return super.getAllLocationInfos();
+    }
+
     return this.createCache(this.getAllLocationInfos.name, async () => {
       const filename = '/data/location-infos.json';
 
@@ -62,6 +66,10 @@ class SiteDataManager extends DataManager {
   }
 
   async getAllUserInfos(): Promise<UserInfo[]> {
+    if (this.patchSize > 0) {
+      return super.getAllUserInfos();
+    }
+
     return this.createCache(this.getAllUserInfos.name, async () => {
       const filename = '/data/user-infos.json';
 

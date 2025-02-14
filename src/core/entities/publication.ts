@@ -80,3 +80,39 @@ export function getPublicationEngagement(info?: Publication) {
 
   return info.followers >= 50 ? (reactions / info.followers) * 100 : reactions;
 }
+
+export function getPublicationsTotalFollowers(publications: Publication[]) {
+  const serviceFollowers = Object.entries(
+    Object.fromEntries(
+      publications
+        .sort((a, b) => (a.followers ?? 0) - (b.followers ?? 0))
+        .map((post) => [post.service, post.followers ?? 0]),
+    ),
+  );
+  if (serviceFollowers.length === 0 || serviceFollowers.some(([, followers]) => !followers)) {
+    return;
+  }
+
+  return serviceFollowers.reduce((acc, [, followers]) => acc + followers, 0);
+}
+
+export function getPublicationsAverageEngagement(publications: Publication[]) {
+  const engagements: number[] = publications
+    .map((post) => getPublicationEngagement(post))
+    .filter((engagement) => engagement > 0);
+
+  // Need at least 2 posting service ratings to calculate average rating
+  if (engagements.length < 2) {
+    return 0;
+  }
+
+  return engagements.reduce((acc, number) => acc + number, 0) / engagements.length;
+}
+
+export function getPublicationsTotalLikes(publications: Publication[]) {
+  return publications.reduce((acc, publication) => acc + (publication.likes ?? 0), 0);
+}
+
+export function getPublicationsTotalViews(publications: Publication[]) {
+  return publications.reduce((acc, publication) => acc + (publication.views ?? 0), 0);
+}

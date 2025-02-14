@@ -13,10 +13,7 @@ import type {
 import {
   getAllPostCommentsSorted,
   getPostEntriesFromSource,
-  getPostEntryFollowers,
-  getPostEntryLikes,
-  getPostEntryViews,
-  getPostRating,
+  getPostEntryStats,
   postViolationDescriptors,
 } from '../../core/entities/post.js';
 import type { PostAction } from '../../core/entities/post-action.js';
@@ -50,7 +47,7 @@ interface RenderedPublication {
   followers?: number;
   likes?: number;
   views?: number;
-  rating?: number;
+  engagement?: number;
   link?: string;
 }
 
@@ -109,28 +106,26 @@ function renderPostEntryReactions(postEntry: PostEntry) {
     ...postingServiceManagers
       .flatMap((service) => mapPublication(service, post))
       .sort((a, b) => a.published?.localeCompare(b.published ?? '') ?? 0),
-    {
-      likes: getPostEntryLikes(postEntry),
-      views: getPostEntryViews(postEntry),
-      followers: getPostEntryFollowers(postEntry),
-      rating: getPostRating(post),
-    },
+    getPostEntryStats(postEntry),
   ];
 
   if (serviceInfos.length > 0) {
     lines.push(
-      ...renderMarkdownTable(['', 'published', 'views', 'likes', 'followers', 'rating'], serviceInfos, (row, column) =>
-        row
-          ? column === 'rating'
-            ? Number(row.rating?.toFixed(2))
-            : column
-              ? row[column as keyof RenderedPublication]
-              : row.link && row.service
-                ? `[\`${esc(row.service)}\`](${esc(row.link)})`
-                : row.service
-                  ? `\`${esc(row.service)}\``
-                  : ''
-          : column,
+      ...renderMarkdownTable(
+        ['', 'published', 'views', 'likes', 'followers', 'engagement'],
+        serviceInfos,
+        (row, column) =>
+          row
+            ? column === 'engagement'
+              ? Number(row.engagement?.toFixed(2))
+              : column
+                ? row[column as keyof RenderedPublication]
+                : row.link && row.service
+                  ? `[\`${esc(row.service)}\`](${esc(row.link)})`
+                  : row.service
+                    ? `\`${esc(row.service)}\``
+                    : ''
+            : column,
       ),
     );
     lines.push('');
@@ -154,9 +149,9 @@ function mapPublication(service: PostingService, post: Post): RenderedPublicatio
       ?.filter((info) => info.service === service.id)
       .map((info) => {
         const link = service.getPublicationUrl(info);
-        const rating = getPublicationEngagement(info);
+        const engagement = getPublicationEngagement(info);
 
-        return { ...info, rating, link, published: dateToString(info.published) };
+        return { ...info, engagement, link, published: dateToString(info.published) };
       }) ?? []
   );
 }

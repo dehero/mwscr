@@ -20,10 +20,7 @@ import type {
 import {
   getPostCommentCount,
   getPostDateById,
-  getPostEntryEngagement,
-  getPostEntryFollowers,
-  getPostEntryLikes,
-  getPostEntryViews,
+  getPostEntryStats,
   getPostRating,
   postTypeDescriptors,
   postViolationDescriptors,
@@ -113,9 +110,11 @@ export async function createPostInfo(
 
   const status = await manager.getItemStatus(id);
 
-  if (status !== 'removed' && !isTrashItem(post)) {
+  if (manager.name === 'inbox' && status !== 'removed' && !isTrashItem(post)) {
     isPublishablePost(post, errors);
   }
+
+  const stats = getPostEntryStats(entry);
 
   return cleanupUndefinedProps({
     id,
@@ -138,10 +137,10 @@ export async function createPostInfo(
     published: Boolean(post.posts?.length),
     publishableErrors: errors.length > 0 ? errors : undefined,
     commentCount: getPostCommentCount(post),
-    likes: getPostEntryLikes(entry),
-    views: getPostEntryViews(entry),
-    followers: getPostEntryFollowers(entry),
-    engagement: Number(getPostEntryEngagement(entry).toFixed(2)),
+    likes: stats.likes,
+    views: stats.views,
+    followers: stats.followers,
+    engagement: Number(stats.engagement.toFixed(2)),
     rating: Number(getPostRating(post).toFixed(2)),
     managerName: manager.name,
     status,

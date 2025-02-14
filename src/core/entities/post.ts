@@ -8,7 +8,16 @@ import type { MediaAspectRatio } from './media.js';
 import { postTitleFromString } from './post-title.js';
 import { PostVariant } from './post-variant.js';
 import type { PublicationComment } from './publication.js';
-import { getPublicationEngagement, isPublicationEqual, mergePublications, Publication } from './publication.js';
+import {
+  getPublicationEngagement,
+  getPublicationsAverageEngagement,
+  getPublicationsTotalFollowers,
+  getPublicationsTotalLikes,
+  getPublicationsTotalViews,
+  isPublicationEqual,
+  mergePublications,
+  Publication,
+} from './publication.js';
 import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, ResourceUrl } from './resource.js';
 import { USER_DEFAULT_AUTHOR } from './user.js';
 
@@ -289,40 +298,15 @@ export function getPostEntryPublications([id, post]: PostEntry) {
   return post.posts?.filter((post) => isDateInRange(post.published, [date, secondDate], 'date')) ?? [];
 }
 
-export function getPostEntryFollowers(entry: PostEntry) {
-  const serviceFollowers = Object.entries(
-    Object.fromEntries(
-      getPostEntryPublications(entry)
-        .sort((a, b) => (a.followers ?? 0) - (b.followers ?? 0))
-        .map((post) => [post.service, post.followers ?? 0]),
-    ),
-  );
-  if (serviceFollowers.length === 0 || serviceFollowers.some(([, followers]) => !followers)) {
-    return;
-  }
+export function getPostEntryStats(entry: PostEntry) {
+  const publications = getPostEntryPublications(entry);
 
-  return serviceFollowers.reduce((acc, [, followers]) => acc + followers, 0);
-}
-
-export function getPostEntryEngagement(entry: PostEntry) {
-  const engagements: number[] = getPostEntryPublications(entry)
-    .map((post) => getPublicationEngagement(post))
-    .filter((engagement) => engagement > 0);
-
-  // Need at least 2 posting service ratings to calculate average rating
-  if (engagements.length < 2) {
-    return 0;
-  }
-
-  return engagements.reduce((acc, number) => acc + number, 0) / engagements.length;
-}
-
-export function getPostEntryLikes(entry: PostEntry) {
-  return getPostEntryPublications(entry).reduce((acc, publication) => acc + (publication.likes ?? 0), 0);
-}
-
-export function getPostEntryViews(entry: PostEntry) {
-  return getPostEntryPublications(entry).reduce((acc, publication) => acc + (publication.views ?? 0), 0);
+  return {
+    likes: getPublicationsTotalLikes(publications),
+    followers: getPublicationsTotalFollowers(publications),
+    views: getPublicationsTotalViews(publications),
+    engagement: getPublicationsAverageEngagement(publications),
+  };
 }
 
 export function getPostMarkFromScore(score?: number) {
@@ -595,38 +579,6 @@ export function comparePostEntriesByRating(direction: SortDirection): PostEntrie
   return direction === 'asc'
     ? (a, b) => getPostRating(a[1]) - getPostRating(b[1]) || byId(a, b)
     : (a, b) => getPostRating(b[1]) - getPostRating(a[1]) || byId(a, b);
-}
-
-export function comparePostEntriesByEngagement(direction: SortDirection): PostEntriesComparator {
-  const byId = comparePostEntriesById(direction);
-
-  return direction === 'asc'
-    ? (a, b) => getPostEntryEngagement(a) - getPostEntryEngagement(b) || byId(a, b)
-    : (a, b) => getPostEntryEngagement(b) - getPostEntryEngagement(a) || byId(a, b);
-}
-
-export function comparePostEntriesByLikes(direction: SortDirection): PostEntriesComparator {
-  const byId = comparePostEntriesById(direction);
-
-  return direction === 'asc'
-    ? (a, b) => getPostEntryLikes(a) - getPostEntryLikes(b) || byId(a, b)
-    : (a, b) => getPostEntryLikes(b) - getPostEntryLikes(a) || byId(a, b);
-}
-
-export function comparePostEntriesByViews(direction: SortDirection): PostEntriesComparator {
-  const byId = comparePostEntriesById(direction);
-
-  return direction === 'asc'
-    ? (a, b) => getPostEntryViews(a) - getPostEntryViews(b) || byId(a, b)
-    : (a, b) => getPostEntryViews(b) - getPostEntryViews(a) || byId(a, b);
-}
-
-export function comparePostEntriesByMark(direction: SortDirection): PostEntriesComparator {
-  const byRating = comparePostEntriesByRating(direction);
-
-  return direction === 'asc'
-    ? (a, b) => b[1].mark?.localeCompare(a[1].mark || '') || byRating(a, b)
-    : (a, b) => a[1].mark?.localeCompare(b[1].mark || '') || byRating(a, b);
 }
 
 export function comparePostEntriesByDate(direction: SortDirection): PostEntriesComparator {

@@ -15,7 +15,7 @@ import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { Frame } from '../Frame/Frame.js';
 import { PostPreviews } from '../PostPreviews/PostPreviews.js';
-import { useToaster } from '../Toaster/Toaster.jsx';
+import { Toast, useToaster } from '../Toaster/Toaster.jsx';
 import type { FilterKey, PresetKey } from './hooks/usePostsPageParameters.js';
 import { usePostsPageParameters } from './hooks/usePostsPageParameters.js';
 import { Parameters } from './Parameters.jsx';
@@ -119,6 +119,8 @@ export const PostsPage = (): JSX.Element => {
 
   return (
     <Frame component="main" class={styles.container} ref={containerRef}>
+      <Toast message="Loading Posts" show={postInfos.loading} loading />
+
       <Parameters
         routeInfo={routeInfo}
         parameters={parameters}
