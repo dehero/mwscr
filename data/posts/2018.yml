@@ -7258,6 +7258,7 @@
 2018-07-18-view-of-private-property:
   title: View of Private Property
   titleRu: Вид на частную собственность
+  placement: Outdoors
   content: store:/shots/2018-07-18-view-of-private-property.png
   type: shot
   author: dehero
@@ -7284,6 +7285,7 @@
 2018-07-19-stores-of-great-bazaar:
   title: Stores of Great Bazaar
   titleRu: Лавки Великого Базара
+  placement: Outdoors
   location: Mournhold, Great Bazaar
   content: store:/shots/2018-07-19-stores-of-great-bazaar.png
   type: shot
@@ -7313,6 +7315,7 @@
 2018-07-20-drulene-falen-and-her-guars:
   title: Drulene Falen and Her Guars
   titleRu: Друлен Фален и её гуары
+  placement: Outdoors
   content: store:/shots/2018-07-20-drulene-falen-and-her-guars.png
   type: shot
   author: dehero
@@ -7366,6 +7369,7 @@
 2018-07-21-going-out-to-evening-suran:
   title: Going Out to Evening Suran
   titleRu: Выходя в вечерний Суран
+  placement: Outdoors
   location: Suran
   content: store:/shots/2018-07-21-going-out-to-evening-suran.png
   type: shot
@@ -7396,6 +7400,7 @@
 2018-07-22-near-the-daedric-sanctuaries:
   title: Near the Daedric Sanctuaries
   titleRu: У даэдрических святилищ
+  placement: Outdoors
   content:
     - store:/shots/2017-02-13-kushtashpi.png
     - store:/shots/2017-03-26-exploring-bitter-coast.png
@@ -7424,6 +7429,7 @@
 2018-07-23-along-the-street:
   title: Along the Street
   titleRu: Вдоль по улице
+  placement: Outdoors
   location: Balmora
   content: store:/shots/2018-07-23-along-the-street.png
   type: shot
@@ -7476,6 +7482,7 @@
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
+  placement: Outdoors
   content: store:/shots/2018-07-24-flaming-archer.png
   type: shot
   author: dehero
@@ -7507,6 +7514,7 @@
 2018-07-25-to-the-glory-of-saint-dagoth:
   title: To the Glory of Saint Dagoth
   titleRu: Во славу Святого Дагота
+  placement: Indoors
   content: store:/shots/2018-07-25-to-the-glory-of-saint-dagoth.png
   type: shot
   author: dehero
@@ -7573,6 +7581,7 @@
 2018-07-26-framed-by-lianas:
   title: Framed by Lianas
   titleRu: В обрамлении лиан
+  placement: Outdoors
   content: store:/shots/2018-07-26-framed-by-lianas.png
   type: shot
   author: dehero
@@ -7644,6 +7653,7 @@
 2018-07-28-sulfur-forest:
   title: Sulfur Forest
   titleRu: Серный лес
+  placement: Outdoors
   content: store:/shots/2018-07-28-sulfur-forest.png
   type: shot
   author: dehero
@@ -7689,6 +7699,7 @@
 2018-07-29-stone-guards:
   title: Stone Guards
   titleRu: Каменные стражи
+  placement: Outdoors
   content:
     - store:/shots/2016-12-27-mzanchend-guards.png
     - store:/shots/2017-11-14-the-guard-of-arkngthand.png
@@ -7723,6 +7734,7 @@
 2018-07-30-mad-gentleman:
   title: Mad Gentleman
   titleRu: Безумный джентльмен
+  placement: Indoors
   content: store:/shots/2018-07-30-mad-gentleman.png
   type: shot
   author: dehero
@@ -7748,6 +7760,7 @@
 2018-07-31-spires:
   title: Spires
   titleRu: Острия
+  placement: Outdoors
   content: store:/shots/2018-07-31-spires.png
   type: shot
   author: dehero
@@ -7775,6 +7788,7 @@
 2018-08-01-under-attack:
   title: Under Attack
   titleRu: Под ударом
+  placement: Indoors
   content: store:/shots/2018-08-01-under-attack.png
   type: shot
   author: dehero
@@ -7852,6 +7866,7 @@
 2018-08-04-verene-mene:
   title: Verene Mene
   titleRu: Вирин Мин
+  placement: Indoors
   content: store:/shots/2018-08-04-verene-mene.png
   type: shot
   author: dehero
@@ -7879,6 +7894,7 @@
 2018-08-05-welcome:
   title: Welcome
   titleRu: Добро пожаловать
+  placement: Outdoors
   content:
     - store:/shots/2017-01-24-welcome-to-gnaar-mok.png
     - store:/shots/2017-01-30-entering-gnisis-from-the-north.png
@@ -7911,6 +7927,7 @@
 2018-08-06-uncovered-animunculi:
   title: Uncovered Animunculi
   titleRu: Неизвестный анимункули
+  placement: Indoors
   content: store:/shots/2018-08-06-uncovered-animunculi.png
   type: shot
   author: dehero
@@ -7937,6 +7954,7 @@
 2018-08-07-spear-of-god:
   title: Spear of God
   titleRu: Копьё бога
+  placement: Outdoors
   location: Vivec, Temple
   content: store:/shots/2018-08-07-spear-of-god.png
   type: shot
@@ -7964,6 +7982,7 @@
 2018-08-08-thirsk-upstairs:
   title: Thirsk, Upstairs
   titleRu: Тирск, верхний этаж
+  placement: Indoors
   location:
     - Solstheim, Thirsk
     - Thirsk
@@ -7997,6 +8016,7 @@
 2018-08-09-secunda:
   title: Secunda
   titleRu: Секунда
+  placement: Outdoors
   content: store:/shots/2018-08-09-secunda.png
   type: shot
   author: dehero
@@ -8024,6 +8044,7 @@
 2018-08-10-give-me-your-paw:
   title: Give Me Your Paw
   titleRu: Дай лапу
+  placement: Outdoors
   content: store:/shots/2018-08-10-give-me-your-paw.png
   type: shot
   author: dehero
@@ -8053,6 +8074,7 @@
 2018-08-11-anhaedra:
   title: Anhaedra
   titleRu: Анаэдра
+  placement: Indoors
   content: store:/shots/2018-08-11-anhaedra.png
   type: shot
   author: dehero
@@ -8088,6 +8110,7 @@
 2018-08-12-waterfalls:
   title: Waterfalls
   titleRu: Водопады
+  placement: Mixed
   content:
     - store:/shots/2017-02-20-waterfall-camp.png
     - store:/shots/2018-01-08-aqueduct-of-old-mournhold.png
@@ -8127,6 +8150,7 @@
 2018-08-13-sad-rat:
   title: Sad Rat
   titleRu: Грустная крыса
+  placement: Outdoors
   content: store:/shots/2018-08-13-sad-rat.png
   type: shot
   author: dehero
@@ -8153,6 +8177,7 @@
 2018-08-14-leaving-the-plaza:
   title: Leaving the Plaza
   titleRu: Покидая плазу
+  placement: Outdoors
   content: store:/shots/2018-08-14-leaving-the-plaza.png
   type: shot
   author: dehero
@@ -8180,6 +8205,7 @@
 2018-08-15-thongars-tradehouse:
   title: Thongar's Tradehouse
   titleRu: Трактир Тонгара
+  placement: Indoors
   content: store:/shots/2018-08-15-thongars-tradehouse.png
   type: shot
   author: dehero
@@ -8230,6 +8256,7 @@
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
+  placement: Outdoors
   location: Suran
   content: store:/shots/2018-08-16-wall-of-suran.png
   type: shot
@@ -8258,6 +8285,7 @@
 2018-08-17-emperor-parasols:
   title: Emperor Parasols
   titleRu: Императорские зонтики
+  placement: Outdoors
   content: store:/shots/2018-08-17-emperor-parasols.png
   type: shot
   author: dehero
@@ -8285,6 +8313,7 @@
 2018-08-18-vampire-and-ghost:
   title: Vampire and Ghost
   titleRu: Вампир и призрак
+  placement: Indoors
   content: store:/shots/2018-08-18-vampire-and-ghost.png
   type: shot
   author: dehero
@@ -8313,6 +8342,7 @@
 2018-08-19-night-life:
   title: Night Life
   titleRu: Ночная жизнь
+  placement: Mixed
   content:
     - store:/shots/2017-04-09-deseles-house-of-earthly-delights.png
     - store:/shots/2017-04-05-bards-corner.png
@@ -8371,6 +8401,7 @@
 2018-08-21-dusk-in-hla-oad:
   title: Dusk in Hla Oad
   titleRu: Закат солнца в Хла Оуд
+  placement: Outdoors
   location: Hla Oad
   content: store:/shots/2018-08-21-dusk-in-hla-oad.png
   type: shot
@@ -8428,6 +8459,7 @@
 2018-08-23-night-shipwreck:
   title: Night Shipwreck
   titleRu: Ночное кораблекрушение
+  placement: Outdoors
   content: store:/shots/2018-08-23-night-shipwreck.png
   type: shot
   author: dehero
@@ -8462,6 +8494,7 @@
 2018-08-24-nileras-farmhouse:
   title: Nilera's Farmhouse
   titleRu: Ферма Нилеры
+  placement: Outdoors
   location: Nilera's Farmhouse
   content: store:/shots/2018-08-24-nileras-farmhouse.png
   type: shot
@@ -8512,6 +8545,7 @@
 2018-08-25-on-the-background-of-carpet:
   title: On the Background of Carpet
   titleRu: На фоне ковра
+  placement: Indoors
   content: store:/shots/2018-08-25-on-the-background-of-carpet.png
   type: shot
   author: dehero
@@ -8538,6 +8572,7 @@
 2018-08-26-interiors-of-aldruhn:
   title: Interiors of Ald'ruhn
   titleRu: Интерьеры Альд'руна
+  placement: Indoors
   content:
     - store:/shots/2016-11-20-4-aldruhn-under-skar.png
     - store:/shots/2017-03-10-aldruhn-guild-of-mages.png
@@ -8565,6 +8600,7 @@
 2018-08-27-coming-to-gnaar-mok:
   title: Coming to Gnaar Mok
   titleRu: Прибытие в Гнаар Мок
+  placement: Outdoors
   location: Gnaar Mok
   content: store:/shots/2018-08-27-coming-to-gnaar-mok.png
   type: shot
@@ -8595,6 +8631,7 @@
 2018-08-28-southern-shore-of-northern-land:
   title: Southern Shore of Northern Land
   titleRu: Южный берег северной земли
+  placement: Outdoors
   content: store:/shots/2018-08-28-southern-shore-of-northern-land.png
   type: shot
   author: dehero
@@ -8657,6 +8694,7 @@
 2018-08-29-darius:
   title: Darius
   titleRu: Дариус
+  placement: Outdoors
   location: Gnisis, Fort Darius
   content: store:/shots/2018-08-29-darius.png
   type: shot
@@ -8691,6 +8729,7 @@
 2018-08-30-in-the-chambers-of-bamz-amschend:
   title: In the Chambers of Bamz-Amschend
   titleRu: В чертогах Бамз-Амсшенда
+  placement: Indoors
   location: Bamz-Amschend, Hearthfire Hall
   content: store:/shots/2018-08-30-in-the-chambers-of-bamz-amschend.png
   type: shot
@@ -8718,6 +8757,7 @@
 2018-08-31-night-square-of-suran:
   title: Night Square of Suran
   titleRu: Ночная площадь Сурана
+  placement: Outdoors
   location: Suran
   content: store:/shots/2018-08-31-night-square-of-suran.png
   type: shot
@@ -8774,6 +8814,7 @@
 2018-09-01-haze-in-tel-branora:
   title: Haze in Tel Branora
   titleRu: Мгла в Тель Браноре
+  placement: Outdoors
   location: Tel Branora
   content: store:/shots/2018-09-01-haze-in-tel-branora.png
   type: shot
@@ -8831,6 +8872,7 @@
 2018-09-02-camps-of-ashlander-women:
   title: Camps of Ashlander Women
   titleRu: Стоянки эшлендерских женщин
+  placement: Outdoors
   content:
     - store:/shots/2017-01-17-brave-ashlanders.png
     - store:/shots/2017-08-05-camp-under-the-bridge.png
@@ -8886,6 +8928,7 @@
 2018-09-03-discovering-telasero:
   title: Discovering Telasero
   titleRu: Выходя к Теласеро
+  placement: Outdoors
   location: Telasero
   content: store:/shots/2018-09-03-discovering-telasero.png
   type: shot
@@ -8921,6 +8964,7 @@
 2018-09-04-near-the-ghostgate:
   title: Near the Ghostgate
   titleRu: У Призрачных Врат
+  placement: Outdoors
   location: Ghostgate
   content: store:/shots/2018-09-04-near-the-ghostgate.png
   type: shot
@@ -8977,6 +9021,7 @@
 2018-09-05-bonewalker:
   title: Bonewalker
   titleRu: Ходячий труп
+  placement: Indoors
   content: store:/shots/2018-09-05-bonewalker.png
   type: shot
   author: dehero
@@ -9015,6 +9060,7 @@
 2018-09-06-in-the-wisewomans-yurt:
   title: In the Wisewoman's Yurt
   titleRu: В юрте шаманки
+  placement: Indoors
   content: store:/shots/2018-09-06-in-the-wisewomans-yurt.png
   type: shot
   author: dehero
@@ -9053,6 +9099,7 @@
 2018-09-07-red-light:
   title: Red Light
   titleRu: Красный фонарь
+  placement: Outdoors
   location: Suran
   content: store:/shots/2018-09-07-red-light.png
   type: shot
@@ -9114,6 +9161,7 @@
 2018-09-08-mother-daedra:
   title: Mother Daedra
   titleRu: Даэдра-мать
+  placement: Outdoors
   content: store:/shots/2018-09-08-mother-daedra.png
   type: shot
   author: dehero
@@ -9146,6 +9194,7 @@
 2018-09-09-wild-beasts-of-solstheim:
   title: Wild Beasts of Solstheim
   titleRu: Дикие звери Солстхейма
+  placement: Outdoors
   location: Solstheim
   content:
     - store:/shots/2017-12-12-roar-of-a-bear.png
@@ -9194,6 +9243,7 @@
 2018-09-10-foggy-loneliness:
   title: Foggy Loneliness
   titleRu: Туманное одиночество
+  placement: Outdoors
   content: store:/shots/2018-09-10-foggy-loneliness.png
   type: shot
   author: dehero
@@ -9233,6 +9283,7 @@
 2018-09-11-galmis-dren-smuggler:
   title: Galmis Dren, Smuggler
   titleRu: Гальмис Дрен, контрабандист
+  placement: Indoors
   content: store:/shots/2018-09-11-galmis-dren-smuggler.png
   type: shot
   author: dehero
@@ -9268,6 +9319,7 @@
 2018-09-12-forager:
   title: Forager
   titleRu: Фуражир
+  placement: Outdoors
   content: store:/shots/2018-09-12-forager.png
   type: shot
   author: dehero
@@ -9328,6 +9380,7 @@
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище
+  placement: Outdoors
   content: store:/shots/2018-09-13-another-coven.png
   type: shot
   author: dehero
@@ -9382,6 +9435,7 @@
 2018-09-14-serano-ancestral-tomb:
   title: Serano Ancestral Tomb
   titleRu: Родовая гробница Серано
+  placement: Outdoors
   location: Serano Ancestral Tomb
   content: store:/shots/2018-09-14-serano-ancestral-tomb.png
   type: shot
@@ -9422,6 +9476,7 @@
 2018-09-15-dark-vaults-of-nammu:
   title: Dark Vaults of Nammu
   titleRu: Тёмные своды Намму
+  placement: Indoors
   location: Nammu
   content: store:/shots/2018-09-15-dark-vaults-of-nammu.png
   type: shot
@@ -9459,6 +9514,7 @@
 2018-09-16-city-lights:
   title: City Lights
   titleRu: Городские огни
+  placement: Outdoors
   content:
     - store:/shots/2016-11-23-lanterns-of-tel-branora.png
     - store:/shots/2017-05-07-maar-gan-outpost.png
@@ -9499,6 +9555,7 @@
 2018-09-17-dren-plantation:
   title: Dren Plantation
   titleRu: Плантация Дрен
+  placement: Outdoors
   location: Dren Plantation
   content: store:/shots/2018-09-17-dren-plantation.png
   type: shot
@@ -9536,6 +9593,7 @@
 2018-09-18-dead-grove:
   title: Dead Grove
   titleRu: Мёртвая роща
+  placement: Outdoors
   content: store:/shots/2018-09-18-dead-grove.png
   type: shot
   author: dehero
@@ -9569,6 +9627,7 @@
 2018-09-19-teris-raledran-and-rollie-the-guar:
   title: Teris Raledran and Rollie the Guar
   titleRu: Терис Раледран и Ролли Гуар
+  placement: Outdoors
   content: store:/shots/2018-09-19-teris-raledran-and-rollie-the-guar.png
   trash: store:/inbox/dehero.2018-09-19-21-39-29.png
   type: shot
@@ -9604,6 +9663,7 @@
 2018-09-20-in-the-west-wing-of-gateway-inn:
   title: In the West Wing of Gateway Inn
   titleRu: В западном крыле Привратного трактира
+  placement: Indoors
   content: store:/shots/2018-09-20-in-the-west-wing-of-gateway-inn.png
   type: shot
   author: dehero
