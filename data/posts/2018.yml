@@ -444,7 +444,7 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2025-02-07-12-13-34
+      updated: 2025-02-14-12-13-46
       followers: 921
       likes: 44
       views: 303
@@ -7458,7 +7458,7 @@
     - service: vk
       id: 1642
       published: 2024-07-18-18-21-19
-      updated: 2025-02-07-12-13-35
+      updated: 2025-02-14-12-13-47
       followers: 919
       likes: 39
       views: 276
@@ -7469,10 +7469,10 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2025-02-07-12-13-33
+      updated: 2025-02-14-12-13-44
       followers: 402
       likes: 61
-      views: 698
+      views: 701
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
@@ -12071,7 +12071,7 @@
       id: DF-3pqzpcCB
       mediaId: '18048203351229493'
       published: 2025-02-12-18-10-55
-      updated: 2025-02-14-11-01-23
+      updated: 2025-02-14-12-13-42
       followers: 1534
       likes: 88
       views: 283
@@ -12081,7 +12081,7 @@
     - service: vk
       id: 2126
       published: 2025-02-12-18-35-09
-      updated: 2025-02-14-11-01-20
+      updated: 2025-02-14-12-13-43
       followers: 1066
       likes: 26
       views: 179
@@ -12094,10 +12094,10 @@
     - service: tg
       id: 705
       published: 2025-02-12-18-35-16
-      updated: 2025-02-14-11-01-20
+      updated: 2025-02-14-12-13-42
       followers: 674
       likes: 50
-      views: 228
+      views: 229
 2018-11-19-the-city-of-gondolas:
   title: The City of Gondolas
   titleRu: Город гондол
