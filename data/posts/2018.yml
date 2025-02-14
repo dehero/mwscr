@@ -9633,6 +9633,7 @@
 2018-09-21-wolverine-hall:
   title: Wolverine Hall
   titleRu: Волверин Холл
+  placement: Outdoors
   location: Wolverine Hall
   content: store:/shots/2018-09-21-wolverine-hall.png
   type: shot
@@ -9692,6 +9693,7 @@
 2018-09-22-two-ways:
   title: Two Ways
   titleRu: Два пути
+  placement: Outdoors
   location: Ald-ruhn
   content: store:/shots/2018-09-22-two-ways.png
   type: shot
@@ -9730,6 +9732,7 @@
 2018-09-23-bridges:
   title: Bridges
   titleRu: Мосты
+  placement: Outdoors
   content:
     - store:/shots/2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.png
     - store:/shots/2017-09-26-bridges.png
@@ -9776,6 +9779,7 @@
 2018-09-24-verminous-fabricant:
   title: Verminous Fabricant
   titleRu: Мерзкий фабрикант
+  placement: Indoors
   content: store:/shots/2018-09-24-verminous-fabricant.png
   type: shot
   author: dehero
@@ -9834,6 +9838,7 @@
 2018-09-25-what-do-you-know-about-comfort:
   title: What Do You Know About Comfort?
   titleRu: Что вы знаете о комфорте?
+  placement: Indoors
   content: store:/shots/2018-09-25-what-do-you-know-about-comfort.png
   type: shot
   author: dehero
@@ -9871,6 +9876,7 @@
 2018-09-26-tribunal-temple-in-molag-mar:
   title: Tribunal Temple in Molag Mar
   titleRu: Храм Трибунала в Молаг Маре
+  placement: Outdoors
   location: Molag Mar
   content: store:/shots/2018-09-26-tribunal-temple-in-molag-mar.png
   type: shot
@@ -9904,6 +9910,7 @@
 2018-09-27-sethan-ancestral-tomb:
   title: Sethan Ancestral Tomb
   titleRu: Родовая гробница Сетанов
+  placement: Outdoors
   location: Sethan Ancestral Tomb
   content: store:/shots/2018-09-27-sethan-ancestral-tomb.png
   type: shot
@@ -9937,6 +9944,7 @@
 2018-09-28-please-no-more-kwama-eggs:
   title: Please No More Kwama Eggs
   titleRu: Пожалуйста, не надо больше яиц квама
+  placement: Outdoors
   location: Gnisis
   content: store:/shots/2018-09-28-please-no-more-kwama-eggs.png
   type: shot
@@ -9967,6 +9975,7 @@
 2018-09-29-towers-of-arkngthand:
   title: Towers of Arkngthand
   titleRu: Башни Аркнтанда
+  placement: Outdoors
   location:
     - Arkngthand
     - Moonmoth Legion Fort
@@ -10002,6 +10011,7 @@
 2018-09-30-ancestral-tombs:
   title: Ancestral Tombs
   titleRu: Родовые гробницы
+  placement: Outdoors
   content:
     - store:/shots/2017-08-16-falas-ancestral-tomb.png
     - store:/shots/2018-01-17-nelas-ancestral-tomb.png
@@ -10042,6 +10052,7 @@
 2018-10-01-near-the-fighters-guild-of-aldruhn:
   title: Near the Fighters Guild of Ald'ruhn
   titleRu: У Гильдии бойцов Альд'руна
+  placement: Outdoors
   location: Ald-ruhn, Guild of Fighters
   content: store:/shots/2018-10-01-near-the-fighters-guild-of-aldruhn.png
   type: shot
@@ -10099,6 +10110,7 @@
 2018-10-02-shatalg:
   title: Shatalg
   titleRu: Шаталг
+  placement: Outdoors
   content: store:/shots/2018-10-02-shatalg.png
   type: shot
   author: dehero
@@ -10131,6 +10143,7 @@
 2018-10-03-high-ordinator-surveying-godsreach-at-night:
   title: High Ordinator Surveying Godsreach at Night
   titleRu: Высший ординатор обозревает Годсрич в ночи
+  placement: Outdoors
   content: store:/shots/2018-10-03-high-ordinator-surveying-godsreach-at-night.png
   type: shot
   author: dehero
@@ -10193,6 +10206,7 @@
 2018-10-04-netch-over-the-puddle:
   title: Netch Over the Puddle
   titleRu: Нетч над лужей
+  placement: Outdoors
   content: store:/shots/2018-10-04-netch-over-the-puddle.png
   type: shot
   author: dehero
@@ -10229,6 +10243,7 @@
 2018-10-05-galom-daeus:
   title: Galom Daeus
   titleRu: Галом Дэус
+  placement: Outdoors
   location: Galom Daeus
   content: store:/shots/2018-10-05-galom-daeus.png
   type: shot
@@ -10289,6 +10304,7 @@
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
+  placement: Outdoors
   content:
     - store:/shots/2018-02-07-grazing-netches.png
     - store:/shots/2018-04-25-night-travellers.png
@@ -10384,6 +10400,7 @@
 2018-10-07-on-the-way-to-the-crater:
   title: On the Way to the Crater
   titleRu: На пути к кратеру
+  placement: Outdoors
   content: store:/shots/2018-10-07-on-the-way-to-the-crater.png
   type: shot
   author: dehero
@@ -10424,6 +10441,7 @@
 2018-10-08-evening-time-in-tel-mora:
   title: Evening Time in Tel Mora
   titleRu: Вечернее время в Тель Море
+  placement: Outdoors
   location: Tel Mora
   content: store:/shots/2018-10-08-evening-time-in-tel-mora.png
   type: shot
@@ -10454,6 +10472,7 @@
 2018-10-09-severe-innkeeper:
   title: Severe Innkeeper
   titleRu: Суровый трактирщик
+  placement: Indoors
   content: store:/shots/2018-10-09-severe-innkeeper.png
   type: shot
   author: dehero
@@ -10511,6 +10530,7 @@
 2018-10-10-thunderstorm-cave:
   title: Thunderstorm Cave
   titleRu: Грозовая пещера
+  placement: Outdoors
   content: store:/shots/2018-10-10-thunderstorm-cave.png
   type: shot
   author: dehero
@@ -10541,6 +10561,7 @@
 2018-10-11-books-to-ashes:
   title: Books to Ashes
   titleRu: Книга к праху
+  placement: Indoors
   content: store:/shots/2018-10-11-books-to-ashes.png
   type: shot
   author: dehero
@@ -10576,6 +10597,7 @@
 2018-10-12-rainy-evening-at-the-farm:
   title: Rainy Evening at the Farm
   titleRu: Дождливый вечер на ферме
+  placement: Outdoors
   content: store:/shots/2018-10-12-rainy-evening-at-the-farm.png
   type: shot
   author: dehero
@@ -10637,6 +10659,7 @@
 2018-10-13-the-entrance-to-onyx-hall:
   title: The Entrance to Onyx Hall
   titleRu: Вход в Ониксовый Зал
+  placement: Outdoors
   content: store:/shots/2018-10-13-the-entrance-to-onyx-hall.png
   type: shot
   author: dehero
@@ -10689,6 +10712,7 @@
 2018-10-14-rats:
   title: Rats
   titleRu: Крысы
+  placement: Mixed
   content:
     - store:/shots/2017-12-24-little-helper.png
     - store:/shots/2018-08-13-sad-rat.png
@@ -10737,6 +10761,7 @@
 2018-10-15-near-the-temple:
   title: Near the Temple
   titleRu: У храма
+  placement: Outdoors
   content: store:/shots/2018-10-15-near-the-temple.png
   type: shot
   author: dehero
@@ -10770,6 +10795,7 @@
 2018-10-16-mournhold-temple:
   title: Mournhold Temple
   titleRu: Храм Морнхолда
+  placement: Outdoors
   location:
     - Mournhold, Temple Courtyard
     - Mournhold Temple
@@ -10805,6 +10831,7 @@
 2018-10-18-gang:
   title: Gang
   titleRu: Банда
+  placement: Outdoors
   content: store:/shots/2018-10-18-gang.png
   type: shot
   author: dehero
@@ -10842,6 +10869,7 @@
 2018-10-19-ghostgate:
   title: Ghostgate
   titleRu: Призрачные Врата
+  placement: Outdoors
   location: Ghostgate
   content: store:/shots/2018-10-19-ghostgate.png
   type: shot
@@ -10878,6 +10906,7 @@
 2018-10-20-the-mead-hall:
   title: The Mead Hall
   titleRu: Медовый зал
+  placement: Outdoors
   content: store:/shots/2018-10-20-the-mead-hall.png
   type: shot
   author: dehero
@@ -10909,6 +10938,7 @@
 2018-10-21-bervaso-thenim-apothecary:
   title: Bervaso Thenim, Apothecary
   titleRu: Вэрвасо Теним, аптекарь
+  placement: Indoors
   content: store:/shots/2018-10-21-bervaso-thenim-apothecary.png
   type: shot
   author: dehero
@@ -10961,6 +10991,7 @@
 2018-10-21-trees-and-skies:
   title: Trees and Skies
   titleRu: Деревья и небеса
+  placement: Outdoors
   content:
     - store:/shots/2018-04-02-arboreal-obelisks.png
     - store:/shots/2016-12-15-cloud-crowns-of-foyada-mamaea.png
@@ -11006,6 +11037,7 @@
 2018-10-22-snowbound-airship:
   title: Snowbound Airship
   titleRu: Летучий корабль в снегах
+  placement: Outdoors
   content: store:/shots/2018-10-22-snowbound-airship.png
   type: shot
   author: dehero
@@ -11042,6 +11074,7 @@
 2018-10-23-noble-assassin:
   title: Noble Assassin
   titleRu: Знатный ассассин
+  placement: Indoors
   content: store:/shots/2018-10-23-noble-assassin.png
   type: shot
   author: dehero
@@ -11071,6 +11104,7 @@
 2018-10-24-snowfall-over-the-ice-river:
   title: Snowfall Over the Ice River
   titleRu: Снегопад над ледяной рекой
+  placement: Outdoors
   content: store:/shots/2018-10-24-snowfall-over-the-ice-river.png
   type: shot
   author: dehero
@@ -11110,6 +11144,7 @@
 2018-10-25-night-quay-of-tel-mora:
   title: Night Quay of Tel Mora
   titleRu: Ночная набережная Тель Моры
+  placement: Outdoors
   location: Tel Mora
   content: store:/shots/2018-10-25-night-quay-of-tel-mora.png
   type: shot
@@ -11146,6 +11181,7 @@
 2018-10-26-tel-fyr:
   title: Tel Fyr
   titleRu: Тель Фир
+  placement: Outdoors
   location: Tel Fyr
   content: store:/shots/2018-10-26-tel-fyr.png
   type: shot
@@ -11176,6 +11212,7 @@
 2018-10-27-house-of-desires:
   title: House of Desires
   titleRu: Дом желаний
+  placement: Outdoors
   location: Suran, Desele's House of Earthly Delights
   content: store:/shots/2018-10-27-house-of-desires.png
   type: shot
@@ -11211,6 +11248,7 @@
 2018-10-28-azura:
   title: Azura
   titleRu: Азура
+  placement: Mixed
   content:
     - store:/shots/2017-04-15-moon-and-stars.png
     - store:/shots/2017-04-18-azura-and-fallen-nerevarines.png
@@ -11249,6 +11287,7 @@
 2018-10-29-bread-and-wine:
   title: Bread and Wine
   titleRu: Хлеб и вино
+  placement: Indoors
   content: store:/shots/2018-10-29-bread-and-wine.png
   type: shot
   author: dehero
@@ -11315,6 +11354,7 @@
 2018-10-30-stairway-to-god:
   title: Stairway to God
   titleRu: Лестница к богу
+  placement: Outdoors
   content: store:/shots/2018-10-30-stairway-to-god.png
   type: shot
   author: dehero
@@ -11360,6 +11400,7 @@
 2018-10-31-creeper-and-dagger:
   title: Creeper and Dagger
   titleRu: Ползун и кинжал
+  placement: Indoors
   location: Caldera, Ghorak Manor
   content: store:/shots/2018-10-31-creeper-and-dagger.png
   type: shot
@@ -11416,6 +11457,7 @@
 2018-11-01-mudcrab-merchant-of-mzahnch:
   title: Mudcrab Merchant of Mzahnch
   titleRu: Грязекраб-торговец из Мзанча
+  placement: Outdoors
   location: Mzahnch
   content: store:/shots/2018-11-01-mudcrab-merchant-of-mzahnch.png
   type: shot
@@ -11463,6 +11505,7 @@
 2018-11-02-near-the-yurt:
   title: Near the Yurt
   titleRu: Возле юрты
+  placement: Outdoors
   content: store:/shots/2018-11-02-near-the-yurt.png
   type: shot
   author: dehero
@@ -11515,6 +11558,7 @@
 2018-11-04-dwemer-bay:
   title: Dwemer Bay
   titleRu: Двемерская бухта
+  placement: Outdoors
   content: store:/shots/2018-11-04-dwemer-bay.png
   type: shot
   author: dehero
@@ -11544,6 +11588,7 @@
 2018-11-05-3-1:
   title: 3 + 1
   titleRu: 3 + 1
+  placement: Outdoors
   content: store:/shots/2018-11-05-3-1.png
   type: shot
   author: dehero
@@ -11584,6 +11629,7 @@
 2018-11-06-some-like-it-hot:
   title: Some Like It Hot
   titleRu: Некоторые любят погорячее
+  placement: Indoors
   location: Suran, Desele's House of Earthly Delights
   content: store:/shots/2018-11-06-some-like-it-hot.png
   type: shot
@@ -11623,6 +11669,7 @@
 2018-11-07-onnissiralis:
   title: Onnissiralis
   titleRu: Оннисиралис
+  placement: Outdoors
   location: Onnissiralis
   content: store:/shots/2018-11-07-onnissiralis.png
   type: shot
@@ -11653,6 +11700,7 @@
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
+  placement: Indoors
   content: store:/shots/2018-11-08-bittercup.png
   type: shot
   author: dehero
@@ -11714,6 +11762,7 @@
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов
+  placement: Outdoors
   location: Skaal Village
   content: store:/shots/2018-11-09-dusk-in-the-skaal-village.png
   type: shot
@@ -11784,6 +11833,7 @@
 2018-11-11-through-the-snowy-forest:
   title: Through the Snowy Forest
   titleRu: Сквозь заснеженный лес
+  placement: Outdoors
   content: store:/shots/2018-11-11-through-the-snowy-forest.png
   type: shot
   author: dehero
@@ -11822,6 +11872,7 @@
 2018-11-13-couple-in-love:
   title: Couple in Love
   titleRu: Влюблённая парочка
+  placement: Outdoors
   content: store:/shots/2018-11-13-couple-in-love.png
   type: shot
   author: dehero
@@ -11853,6 +11904,7 @@
 2018-11-14-sad-reed:
   title: Sad Reed
   titleRu: Печальный тростник
+  placement: Outdoors
   content: store:/shots/2018-11-14-sad-reed.png
   type: shot
   author: dehero
