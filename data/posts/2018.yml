@@ -11882,6 +11882,7 @@
 2018-11-15-mushroom-tree:
   title: Mushroom Tree
   titleRu: Грибное дерево
+  placement: Outdoors
   content: store:/shots/2018-11-15-mushroom-tree.png
   type: shot
   author: dehero
@@ -11912,6 +11913,7 @@
 2018-11-16-ship-goods:
   title: Ship Goods
   titleRu: Корабельные товары
+  placement: Outdoors
   content: store:/shots/2018-11-16-ship-goods.png
   type: shot
   author: dehero
@@ -12101,6 +12103,7 @@
 2018-11-19-the-city-of-gondolas:
   title: The City of Gondolas
   titleRu: Город гондол
+  placement: Outdoors
   content: store:/shots/2018-11-19-the-city-of-gondolas.png
   type: shot
   author: dehero
@@ -12138,6 +12141,7 @@
 2018-11-20-evening-arch:
   title: Evening Arch
   titleRu: Вечерняя арка
+  placement: Outdoors
   location: Ebonheart
   content: store:/shots/2018-11-20-evening-arch.png
   type: shot
@@ -12181,6 +12185,7 @@
 2018-11-21-the-entrance-to-bthungthumz:
   title: The Entrance to Bthungthumz
   titleRu: Вход в Бтунгтумц
+  placement: Outdoors
   location: Bthungthumz
   content: store:/shots/2018-11-21-the-entrance-to-bthungthumz.png
   type: shot
@@ -12307,6 +12312,7 @@
 2018-11-23-flooded-door:
   title: Flooded Door
   titleRu: Затопленная дверь
+  placement: Indoors
   content: store:/shots/2018-11-23-flooded-door.png
   type: shot
   author: dehero
@@ -12346,6 +12352,7 @@
 2018-11-24-ministry-of-truth:
   title: Ministry of Truth
   titleRu: Министерство Правды
+  placement: Outdoors
   location:
     - Ministry of Truth
     - Vivec, Temple
@@ -12386,6 +12393,7 @@
 2018-11-26-overnight-in-a-yurt:
   title: Overnight in a Yurt
   titleRu: Ночлег в юрте
+  placement: Indoors
   content: store:/shots/2018-11-26-overnight-in-a-yurt.png
   type: shot
   author: dehero
@@ -12419,6 +12427,7 @@
 2018-11-28-landing:
   title: Landing
   titleRu: Причал
+  placement: Outdoors
   content: store:/shots/2018-11-28-landing.png
   type: shot
   author: dehero
@@ -12452,6 +12461,7 @@
 2018-11-29-shore-meeting:
   title: Shore Meeting
   titleRu: Встреча на берегу
+  placement: Outdoors
   content: store:/shots/2018-11-29-shore-meeting.png
   type: shot
   author: dehero
@@ -12490,6 +12500,7 @@
 2018-11-30-gathal-llethri:
   title: Gathal Llethri
   titleRu: Гатал Ллетри
+  placement: Indoors
   content: store:/shots/2018-11-30-gathal-llethri.png
   type: shot
   author: dehero
@@ -12550,6 +12561,7 @@
 2018-12-02-three-imperial-dragons:
   title: Three Imperial Dragons
   titleRu: Три имперских дракона
+  placement: Outdoors
   location: Fort Frostmoth
   content: store:/shots/2018-12-02-three-imperial-dragons.png
   type: shot
@@ -12604,6 +12616,7 @@
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели
+  placement: Outdoors
   content: store:/shots/2018-12-04-rocks-and-fir-trees.png
   type: shot
   author: dehero
@@ -12636,6 +12649,7 @@
 2018-12-05-belowdecks:
   title: Belowdecks
   titleRu: В трюме
+  placement: Indoors
   content: store:/shots/2018-12-05-belowdecks.png
   type: shot
   author: dehero
