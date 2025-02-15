@@ -679,10 +679,10 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2025-02-08-11-01-35
+      updated: 2025-02-15-12-11-56
       followers: 943
       likes: 33
-      views: 341
+      views: 343
       reposts: 2
       comments: !c |-
         G9oCAKwK7DbyC53aVXL0CN5VcRAVtmgoOTn1l+y/FTiUxoEwOARKYqrVqQh9jqvQZ7CrxzMcL6oV
@@ -695,10 +695,10 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2025-02-08-11-01-33
+      updated: 2025-02-15-12-11-53
       followers: 551
       likes: 66
-      views: 580
+      views: 583
       comments: !c |-
         G9EAYJwH2anxBLva/Y3sGEkF9bHffopvfgqKWEk0KpUkYo3okRJ1LzVwnRslZCLFUO8nTlFum6OQ
         ohy+sCBcGNj64mKxOOjd4ERjzCGMSmjTXSfaY2w8W/Sl5Ph8do7Gqfgq27FUcK0DMd5N4EBt1YwP
@@ -3344,10 +3344,10 @@
     - service: vk
       id: 1702
       published: 2024-08-23-18-19-34
-      updated: 2025-02-08-11-01-38
+      updated: 2025-02-15-12-11-58
       followers: 939
       likes: 42
-      views: 282
+      views: 283
       comments: !c |-
         GzkHQCwO7DYvSxhOqllgM+/QujYkaNjCgqW7YdV1h0NIlEFhFLIV4UHJmjGO8s2+xvz5bZdh+mKT
         yRgkfTngAvzznD/aVhGFgf2AiijO3rv7/TUbYCdb43iWYD1FxlZNTxbrP8a1KAkx3/3PaQFIxti+
@@ -3367,7 +3367,7 @@
     - service: tg
       id: 510
       published: 2024-08-23-18-19-41
-      updated: 2025-02-08-11-01-35
+      updated: 2025-02-15-12-11-54
       followers: 538
       likes: 60
       views: 589
@@ -3931,18 +3931,18 @@
     - service: vk
       id: 1683
       published: 2024-08-09-18-20-05
-      updated: 2025-02-08-11-01-39
+      updated: 2025-02-15-12-12-00
       followers: 927
       likes: 33
-      views: 287
+      views: 288
       reposts: 1
     - service: tg
       id: 496
       published: 2024-08-09-18-20-14
-      updated: 2025-02-08-11-01-36
+      updated: 2025-02-15-12-11-56
       followers: 513
       likes: 72
-      views: 651
+      views: 652
 2018-04-13-solitary-pier:
   title: Solitary Pier
   titleRu: Уединённый причал
@@ -10879,14 +10879,14 @@
     - service: vk
       id: 1693
       published: 2024-08-16-18-20-13
-      updated: 2025-02-08-11-01-38
+      updated: 2025-02-15-12-11-59
       followers: 933
       likes: 46
-      views: 286
+      views: 287
     - service: tg
       id: 503
       published: 2024-08-16-18-20-22
-      updated: 2025-02-08-11-01-35
+      updated: 2025-02-15-12-11-55
       followers: 527
       likes: 67
       views: 669
@@ -11277,20 +11277,20 @@
       id: DGEBRCtzBuX
       mediaId: '18022461131420166'
       published: 2025-02-14-18-11-11
-      updated: 2025-02-15-11-01-21
+      updated: 2025-02-15-12-11-51
       followers: 1533
-      likes: 60
-      views: 167
+      likes: 63
+      views: 177
       comments: !c |-
         CyOAkZPLQnlQXR7lgACwc29tZW9uZV9zaW1wbGU0MtkpVGhlIHNraWVzIGluIE1vcnJvd2luZCBh
         cmUgc29tZXRoaW5nIGVsc2UD
     - service: vk
       id: 2130
       published: 2025-02-14-18-11-33
-      updated: 2025-02-15-11-01-22
+      updated: 2025-02-15-12-11-51
       followers: 1070
-      likes: 40
-      views: 207
+      likes: 41
+      views: 216
       reposts: 4
     - service: tg
       id:
@@ -11299,10 +11299,10 @@
         - 709
         - 710
       published: 2025-02-14-18-11-53
-      updated: 2025-02-15-11-01-23
+      updated: 2025-02-15-12-11-51
       followers: 675
-      likes: 46
-      views: 172
+      likes: 47
+      views: 173
 2018-10-22-snowbound-airship:
   title: Snowbound Airship
   titleRu: Летучий корабль в снегах
