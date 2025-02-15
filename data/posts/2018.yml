@@ -2614,6 +2614,7 @@
 2018-03-13-to-the-sunset:
   title: To the Sunset
   titleRu: К закату
+  placement: Outdoors
   content: store:/shots/2018-03-13-to-the-sunset.png
   type: shot
   author: dehero
@@ -2641,6 +2642,7 @@
 2018-03-14-in-the-heart-of-quarter:
   title: In the Heart of Quarter
   titleRu: В сердце квартала
+  placement: Indoors
   content: store:/shots/2018-03-14-in-the-heart-of-quarter.png
   type: shot
   author: dehero
@@ -2690,6 +2692,7 @@
 2018-03-15-the-other-side:
   title: The Other Side
   titleRu: По ту сторону
+  placement: Outdoors
   content: store:/shots/2018-03-15-the-other-side.png
   type: shot
   author: dehero
@@ -2716,6 +2719,7 @@
 2018-03-16-slave-and-slaver:
   title: Slave and Slaver
   titleRu: Раб и работорговец
+  placement: Outdoors
   location: Sadrith Mora
   content: store:/shots/2018-03-16-slave-and-slaver.png
   type: shot
@@ -2765,6 +2769,7 @@
 2018-03-17-suran-temple:
   title: Suran Temple
   titleRu: Храм в Суране
+  placement: Outdoors
   location: Suran
   content: store:/shots/2018-03-17-suran-temple.png
   type: shot
@@ -2792,6 +2797,7 @@
 2018-03-18-two-moons:
   title: Two Moons
   titleRu: Две луны
+  placement: Outdoors
   content:
     - store:/shots/2017-04-22-entrance-to-cavern-of-the-incarnate.png
     - store:/shots/2017-04-15-moon-and-stars.png
@@ -2826,6 +2832,7 @@
 2018-03-19-view-of-dren-plantation:
   title: View of Dren Plantation
   titleRu: Вид на плантацию Дрен
+  placement: Outdoors
   location: Dren Plantation
   content: store:/shots/2018-03-19-view-of-dren-plantation.png
   type: shot
@@ -2850,6 +2857,7 @@
 2018-03-20-tel-branora:
   title: Tel Branora
   titleRu: Тель Бранора
+  placement: Outdoors
   location: Tel Branora
   content: store:/shots/2018-03-20-tel-branora.png
   type: shot
@@ -2874,6 +2882,7 @@
 2018-03-21-a-bit-of-food-drink-and-knowledge:
   title: A Bit of Food, Drink and Knowledge
   titleRu: Немного еды, напитков и знаний
+  placement: Indoors
   content: store:/shots/2018-03-21-a-bit-of-food-drink-and-knowledge.png
   type: shot
   author: dehero
@@ -2934,6 +2943,7 @@
 2018-03-22-welcome-to-vivec-scum:
   title: Welcome to Vivec, Scum
   titleRu: Добро пожаловать в Вивек, ничтожество
+  placement: Outdoors
   location: Vivec
   content: store:/shots/2018-03-22-welcome-to-vivec-scum.png
   type: shot
@@ -3005,6 +3015,7 @@
 2018-03-23-in-dunmer-stronghold:
   title: In Dunmer Stronghold
   titleRu: В данмерской крепости
+  placement: Indoors
   content: store:/shots/2018-03-23-in-dunmer-stronghold.png
   type: shot
   author: dehero
@@ -3028,6 +3039,7 @@
 2018-03-24-two-legioners-talking:
   title: Two Legioners Talking
   titleRu: Беседа двух легионеров
+  placement: Outdoors
   content: store:/shots/2018-03-24-two-legioners-talking.png
   type: shot
   author: dehero
@@ -3080,6 +3092,7 @@
 2018-03-25-ships:
   title: Ships
   titleRu: Корабли
+  placement: Outdoors
   content:
     - store:/shots/2017-02-04-rumors-are-about-some-two-prisoners.png
     - store:/shots/2017-06-16-in-the-port-of-tel-mora.png
@@ -3112,6 +3125,7 @@
 2018-03-26-traces-of-shipwreck:
   title: Traces of Shipwreck
   titleRu: Следы кораблекрушения
+  placement: Outdoors
   content: store:/shots/2018-03-26-traces-of-shipwreck.png
   type: shot
   author: dehero
@@ -3162,6 +3176,7 @@
 2018-03-27-in-the-branches:
   title: In the Branches
   titleRu: Среди ветвей
+  placement: Outdoors
   content: store:/shots/2018-03-27-in-the-branches.png
   type: shot
   author: dehero
@@ -3187,6 +3202,7 @@
 2018-03-28-ancestors-look-at-you:
   title: Ancestors Look at You
   titleRu: Предки смотрят на тебя
+  placement: Indoors
   content: store:/shots/2018-03-28-ancestors-look-at-you.png
   type: shot
   author: dehero
@@ -3215,6 +3231,7 @@
 2018-03-29-soaring-trail:
   title: Soaring Trail
   titleRu: Парящая тропа
+  placement: Outdoors
   content: store:/shots/2018-03-29-soaring-trail.png
   type: shot
   author: dehero
@@ -3239,6 +3256,7 @@
 2018-03-30-near-the-fishermans-hut:
   title: Near the Fisherman's Hut
   titleRu: У хижины рыбака
+  placement: Outdoors
   content: store:/shots/2018-03-30-near-the-fishermans-hut.png
   type: shot
   author: dehero
@@ -3301,6 +3319,7 @@
 2018-03-31-vori-likes-to-come-here:
   title: Vori Likes to Come Here
   titleRu: Вори любит сюда приходить
+  placement: Outdoors
   content: store:/shots/2018-03-31-vori-likes-to-come-here.png
   type: shot
   author: dehero
@@ -3324,6 +3343,7 @@
 2018-04-01-the-sun-sets-and-rises:
   title: The Sun Sets and Rises
   titleRu: Солнце садится и встаёт
+  placement: Outdoors
   content:
     - store:/shots/2017-01-12-sunset-on-ascadian-isles.png
     - store:/shots/2017-02-16-sunrise-over-the-ash-forest.png
@@ -3358,6 +3378,7 @@
 2018-04-02-arboreal-obelisks:
   title: Arboreal Obelisks
   titleRu: Древесные обелиски
+  placement: Outdoors
   content: store:/shots/2018-04-02-arboreal-obelisks.png
   type: shot
   author: dehero
@@ -3463,6 +3484,7 @@
 2018-04-04-comprehension-of-sciences:
   title: Comprehension of Sciences
   titleRu: Постижение наук
+  placement: Indoors
   content: store:/shots/2018-04-04-comprehension-of-sciences.png
   type: shot
   author: dehero
@@ -3512,6 +3534,7 @@
 2018-04-05-under-the-eaves:
   title: Under the Eaves
   titleRu: Под срезом крыши
+  placement: Outdoors
   content: store:/shots/2018-04-05-under-the-eaves.png
   type: shot
   author: dehero
@@ -3539,6 +3562,7 @@
 2018-04-06-night-at-the-crossroads:
   title: Night at the Crossroads
   titleRu: Ночью у перекрёстка
+  placement: Outdoors
   content: store:/shots/2018-04-06-night-at-the-crossroads.png
   type: shot
   author: dehero
@@ -3564,6 +3588,7 @@
 2018-04-07-dont-go-this-way:
   title: Don't Go This Way
   titleRu: Сюда не ходи
+  placement: Outdoors
   content: store:/shots/2018-04-07-dont-go-this-way.png
   type: shot
   author: dehero
@@ -3620,6 +3645,7 @@
 2018-04-08-the-symmetry-of-vivec:
   title: The Symmetry of Vivec
   titleRu: Симметрия Вивека
+  placement: Mixed
   location: Vivec
   content:
     - store:/shots/2016-12-03-st-delyn-vs-st-olms.png
@@ -3686,6 +3712,7 @@
 2018-04-09-empty-arena:
   title: Empty Arena
   titleRu: Пустая Арена
+  placement: Indoors
   location: Vivec, Arena Pit
   content: store:/shots/2018-04-09-empty-arena.png
   type: shot
@@ -3713,6 +3740,7 @@
 2018-04-10-shipping-house:
   title: Shipping House
   titleRu: Дом Отправки
+  placement: Outdoors
   location: Dren Plantation
   content: store:/shots/2018-04-10-shipping-house.png
   type: shot
@@ -3761,6 +3789,7 @@
 2018-04-11-fatal-rocks:
   title: Fatal Rocks
   titleRu: У гибельных скал
+  placement: Outdoors
   content: store:/shots/2018-04-11-fatal-rocks.png
   type: shot
   author: dehero
@@ -3813,6 +3842,7 @@
 2018-04-12-mushroom-stairs:
   title: Mushroom Stairs
   titleRu: Грибная лестница
+  placement: Outdoors
   content: store:/shots/2018-04-12-mushroom-stairs.png
   type: shot
   author: dehero
@@ -3861,6 +3891,7 @@
 2018-04-13-solitary-pier:
   title: Solitary Pier
   titleRu: Уединённый причал
+  placement: Outdoors
   content: store:/shots/2018-04-13-solitary-pier.png
   type: shot
   author: dehero
@@ -3886,6 +3917,7 @@
 2018-04-14-you-shall-not-pass:
   title: You Shall Not Pass
   titleRu: Ты не пройдёшь
+  placement: Outdoors
   location: Uvirith's Grave
   content: store:/shots/2018-04-14-you-shall-not-pass.png
   type: shot
@@ -3918,6 +3950,7 @@
 2018-04-15-views-of-solstheim:
   title: Views of Solstheim
   titleRu: Виды Солстхейма
+  placement: Outdoors
   location: Solstheim
   content:
     - store:/shots/2017-08-29-at-the-coast-of-hirstaang-forest.png
@@ -3951,6 +3984,7 @@
 2018-04-16-dont-look-back:
   title: Don't Look Back
   titleRu: Не оборачивайся
+  placement: Outdoors
   content: store:/shots/2018-04-16-dont-look-back.png
   type: shot
   author: dehero
@@ -3981,6 +4015,7 @@
 2018-04-17-earthly-delights:
   title: Earthly Delights
   titleRu: Земные наслаждения
+  placement: Indoors
   location: Suran, Desele's House of Earthly Delights
   content: store:/shots/2018-04-17-earthly-delights.png
   type: shot
