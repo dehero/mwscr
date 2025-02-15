@@ -108,6 +108,7 @@
 
 - `ig` <ins title="2018-02-04-15-30-17">mwscr</ins> Experimental format: weekend thematic set of four past shots.
 - `vk` <ins title="2018-02-04-15-34-59">mwscr</ins> Экспериментальный формат по выходным: тематическая подборка из четырёх старых скриншотов.
+- `ig` <ins title="2018-02-05-05-01-51">syfy_bioware123</ins> Nice
 - `ig` <ins title="2018-09-04-10-43-00">m4niou</ins> this is just like Sadrith Mora looked like when I first saw it ♥ I fell in love instantly and joined House Telvanni right away 😂
 
 ## <span id="2018-01-27-evening-beat">Evening Beat</span>
@@ -152,11 +153,14 @@
 
 ### Reactions
 
-|                                                  | published  | views | likes | followers | engagement |
-|--------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BOwBgBAFlLP/)     | 2017-01-02 |       |    35 |        57 |       61.4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_50) | 2017-01-22 |    95 |     4 |         4 |          4 |
-|                                                  |            |    95 |    39 |        61 |       32.7 |
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BOwBgBAFlLP/)       | 2017-01-02 |       |    35 |        57 |       61.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_50)   | 2017-01-22 |    95 |     4 |         4 |          4 |
+| [`ig`](https://instagram.com/p/DGGnmWJT-BO/)       | 2025-02-15 |       |       |      1533 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2132) | 2025-02-15 |       |       |      1070 |            |
+| [`tg`](https://t.me/mwscr/711)                     | 2025-02-15 |       |       |       677 |            |
+|                                                    |            |    95 |    39 |        61 |       32.7 |
 
 ## <span id="2017-08-09-night-sky-of-molag-amur">Night Sky of Molag Amur</span>
 
