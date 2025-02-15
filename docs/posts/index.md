@@ -32,10 +32,10 @@
 | [`ig`](https://instagram.com/p/BpNQHT-BoiQ/)       | 2018-10-21 |       |   112 |       447 |      25.06 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_998)  | 2018-10-21 |   389 |    31 |           |            |
 | [`tg`](https://t.me/mwscr/89,90,91,92,93)          | 2018-10-21 |   235 |     3 |           |            |
-| [`ig`](https://instagram.com/p/DGEBRCtzBuX/)       | 2025-02-14 |   182 |    63 |      1533 |       4.11 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2130) | 2025-02-14 |   243 |    42 |      1070 |        4.3 |
-| [`tg`](https://t.me/mwscr/707,708,709,710)         | 2025-02-14 |   176 |    47 |       675 |       6.96 |
-|                                                    |            |   601 |   152 |      3278 |       5.12 |
+| [`ig`](https://instagram.com/p/DGEBRCtzBuX/)       | 2025-02-14 |   186 |    63 |      1533 |       4.11 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2130) | 2025-02-14 |   252 |    44 |      1070 |       4.49 |
+| [`tg`](https://t.me/mwscr/707,708,709,710)         | 2025-02-14 |   178 |    48 |       675 |       7.11 |
+|                                                    |            |   616 |   155 |      3278 |       5.24 |
 
 #### Comments
 
@@ -43,6 +43,7 @@
 - `ig` <ins title="2018-10-21-21-13-58">voodoochild_4206923</ins> The dead tress always made the game more awesome
 - `ig` <ins title="2018-10-21-21-32-45">hopkick</ins> Dude I love your posts, keep em going.
 - `ig` <ins title="2025-02-14-18-56-39">someone_simple42</ins> The skies in Morrowind are something else
+- `vk` <ins title="2025-02-15-15-50-10">id63571521</ins> Я замечал, что моделек голых древ в Морре от силы штуки 3-4, но разрабы постарались - делали их разного размера, ставили под разными углами и получился шик! Никогда не было ощущения, что локу вокруг кто-то скопировал-вставил, мир казался живым и каждый куст уникальным!
 
 ## <span id="2025-02-13-a-new-sight">A New Sight</span>
 
@@ -67,10 +68,10 @@
 | [`ig`](https://instagram.com/p/CfKLDX6sxiS/)       | 2022-06-23 |       |   265 |      1088 |      24.36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1303) | 2022-06-23 |   994 |    79 |       700 |         12 |
 | [`tg`](https://t.me/mwscr/246)                     | 2022-06-23 |  1169 |    85 |       226 |      37.61 |
-| [`ig`](https://instagram.com/p/DGBdJ0-PH1J/)       | 2025-02-13 |   240 |    79 |      1534 |       5.15 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2129) | 2025-02-13 |   245 |    48 |      1069 |       4.77 |
+| [`ig`](https://instagram.com/p/DGBdJ0-PH1J/)       | 2025-02-13 |   241 |    79 |      1534 |       5.15 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2129) | 2025-02-13 |   248 |    48 |      1069 |       4.77 |
 | [`tg`](https://t.me/mwscr/706)                     | 2025-02-13 |   217 |    54 |       676 |       7.99 |
-|                                                    |            |   702 |   181 |      3279 |       5.97 |
+|                                                    |            |   706 |   181 |      3279 |       5.97 |
 
 #### Comments
 
