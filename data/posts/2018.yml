@@ -11277,20 +11277,20 @@
       id: DGEBRCtzBuX
       mediaId: '18022461131420166'
       published: 2025-02-14-18-11-11
-      updated: 2025-02-15-07-02-37
+      updated: 2025-02-15-08-09-16
       followers: 1533
-      likes: 56
-      views: 154
+      likes: 58
+      views: 156
       comments: !c |-
         CyOAkZPLQnlQXR7lgACwc29tZW9uZV9zaW1wbGU0MtkpVGhlIHNraWVzIGluIE1vcnJvd2luZCBh
         cmUgc29tZXRoaW5nIGVsc2UD
     - service: vk
       id: 2130
       published: 2025-02-14-18-11-33
-      updated: 2025-02-15-07-02-37
+      updated: 2025-02-15-08-09-17
       followers: 1070
-      likes: 33
-      views: 152
+      likes: 35
+      views: 167
       reposts: 3
     - service: tg
       id:
@@ -11299,10 +11299,10 @@
         - 709
         - 710
       published: 2025-02-14-18-11-53
-      updated: 2025-02-15-07-02-38
+      updated: 2025-02-15-08-09-17
       followers: 675
-      likes: 42
-      views: 156
+      likes: 45
+      views: 164
 2018-10-22-snowbound-airship:
   title: Snowbound Airship
   titleRu: Летучий корабль в снегах
@@ -11820,10 +11820,10 @@
     - service: tg
       id: 561
       published: 2024-10-11-18-10-00
-      updated: 2025-02-08-08-09-11
+      updated: 2025-02-15-08-09-18
       followers: 558
       likes: 55
-      views: 495
+      views: 499
 2018-11-04-dwemer-bay:
   title: Dwemer Bay
   titleRu: Двемерская бухта
@@ -12555,20 +12555,20 @@
     - service: vk
       id: 1774
       published: 2024-09-20-18-30-28
-      updated: 2025-02-08-08-09-14
+      updated: 2025-02-15-08-09-21
       followers: 949
       likes: 42
-      views: 354
+      views: 356
       comments: !c |-
         G2AA+J0Jto2E9THoiiB8kPHEexvhDac4HGCCvQSCCJN/zsPnvEZilqbsbGI8mxlVotYrmu/5gyw1
         gcWmGqGd1f38dc09r4zvhCIBT/ttSg1qGQZOX7pUQi8CDkHIRscrk7UA
     - service: tg
       id: 539
       published: 2024-09-20-18-30-37
-      updated: 2025-02-08-08-09-13
+      updated: 2025-02-15-08-09-20
       followers: 555
       likes: 58
-      views: 529
+      views: 532
 2018-11-22-three-trees-by-the-road:
   title: Three Trees by the Road
   titleRu: Три дерева у дороги
