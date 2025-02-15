@@ -648,6 +648,7 @@
 2018-01-19-island-of-cliffracer:
   title: Island of Cliffracer
   titleRu: Остров скального наездника
+  placement: Outdoors
   content: store:/shots/2018-01-19-island-of-cliffracer.png
   type: shot
   author: dehero
@@ -715,6 +716,7 @@
 2018-01-20-nix-hounds-staring-at-stars:
   title: Nix-Hounds Staring at Stars
   titleRu: Никс-гончие любуются звёздами
+  placement: Outdoors
   content: store:/shots/2018-01-20-nix-hounds-staring-at-stars.png
   type: shot
   author: dehero
@@ -763,6 +765,7 @@
 2018-01-21-dwemer-tower-of-dagon-fel:
   title: Dwemer Tower of Dagon Fel
   titleRu: Двемерская башня Дагон Фела
+  placement: Outdoors
   location: Dagon Fel
   content: store:/shots/2018-01-21-dwemer-tower-of-dagon-fel.png
   type: shot
@@ -790,6 +793,7 @@
 2018-01-22-behind-the-overturned-shelf:
   title: Behind the Overturned Shelf
   titleRu: За опрокинутой полкой
+  placement: Indoors
   content: store:/shots/2018-01-22-behind-the-overturned-shelf.png
   type: shot
   author: dehero
@@ -813,6 +817,7 @@
 2018-01-24-goblin-bruiser:
   title: Goblin Bruiser
   titleRu: Гоблин-борец
+  placement: Indoors
   content: store:/shots/2018-01-24-goblin-bruiser.png
   type: shot
   author: dehero
@@ -870,6 +875,7 @@
 2018-01-24-in-the-misty-emptiness:
   title: In the Misty Emptiness
   titleRu: В туманной пустоте
+  placement: Outdoors
   content: store:/shots/2018-01-24-in-the-misty-emptiness.png
   type: shot
   author: dehero
@@ -896,6 +902,7 @@
 2018-01-25-grand-ladder:
   title: Grand Ladder
   titleRu: Большая лестница
+  placement: Indoors
   location: Ald Velothi, Outpost
   content: store:/shots/2018-01-25-grand-ladder.png
   type: shot
@@ -948,6 +955,7 @@
 2018-01-26-teran-hall:
   title: Teran Hall
   titleRu: Зал Терана
+  placement: Indoors
   content: store:/shots/2018-01-26-teran-hall.png
   type: shot
   author: dehero
@@ -972,6 +980,7 @@
 2018-01-27-evening-beat:
   title: Evening Beat
   titleRu: Вечерний обход
+  placement: Outdoors
   location: Balmora
   content: store:/shots/2018-01-27-evening-beat.png
   type: shot
@@ -1022,6 +1031,7 @@
 2018-01-29-saruse-hloran-house-redoran:
   title: Saruse Hloran, House Redoran
   titleRu: Саруз Хлоран, Дом Редоран
+  placement: Indoors
   content: store:/shots/2018-01-29-saruse-hloran-house-redoran.png
   type: shot
   author: dehero
@@ -1047,6 +1057,7 @@
 2018-01-30-madach-tradehouse:
   title: Madach Tradehouse
   titleRu: Трактир Мадач
+  placement: Outdoors
   location: Gnisis
   content: store:/shots/2018-01-30-madach-tradehouse.png
   type: shot
@@ -1074,6 +1085,8 @@
 2018-01-31-tree-of-magnus:
   title: Tree of Magnus
   titleRu: Дерево Магнуса
+  placement: Outdoors
+  location: Grazelands Region
   content: store:/shots/2018-01-31-tree-of-magnus.png
   type: shot
   author: dehero
@@ -1122,6 +1135,8 @@
 2018-02-01-far-swamps:
   title: Far Swamps
   titleRu: Дальние болота
+  placement: Outdoors
+  location: Bitter Coast Region
   content: store:/shots/2018-02-01-far-swamps.png
   type: shot
   author: dehero
@@ -1153,6 +1168,8 @@
 2018-02-02-tonight:
   title: Tonight
   titleRu: Наступающая ночь
+  placement: Outdoors
+  location: Grazelands Region
   content: store:/shots/2018-02-02-tonight.png
   type: shot
   author: dehero
@@ -1207,6 +1224,7 @@
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
+  placement: Outdoors
   location: Omalen Ancestral Tomb
   content: store:/shots/2018-02-03-omalen-ancestral-tomb.png
   type: shot
@@ -1257,6 +1275,7 @@
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
+  placement: Outdoors
   location: Sadrith Mora
   content:
     - store:/shots/2017-01-19-sadrith-mora-gateway-inn.png
@@ -1295,6 +1314,7 @@
 2018-02-05-fork-of-horripilation-and-other-accessories:
   title: Fork of Horripilation and Other Accessories
   titleRu: Вилка Щекотки и другие принадлежности
+  placement: Indoors
   content: store:/shots/2018-02-05-fork-of-horripilation-and-other-accessories.png
   type: shot
   author: dehero
@@ -1343,6 +1363,8 @@
 2018-02-06-evening-trees:
   title: Evening Trees
   titleRu: Вечерние деревья
+  placement: Outdoors
+  location: Ascadian Isles Region
   content: store:/shots/2018-02-06-evening-trees.png
   type: shot
   author: dehero
@@ -1370,6 +1392,7 @@
 2018-02-07-grazing-netches:
   title: Grazing Netches
   titleRu: Пасущиеся нетчи
+  placement: Outdoors
   content: store:/shots/2018-02-07-grazing-netches.png
   type: shot
   author: dehero
@@ -1393,6 +1416,7 @@
 2018-02-08-tharsten-heart-fang:
   title: Tharsten Heart-Fang
   titleRu: Тарстен Клык Сердца
+  placement: Indoors
   content: store:/shots/2018-02-08-tharsten-heart-fang.png
   type: shot
   author: dehero
@@ -1417,6 +1441,7 @@
 2018-02-09-near-assemanu:
   title: Near Assemanu
   titleRu: У Ассеману
+  placement: Outdoors
   location: Assemanu
   content: store:/shots/2018-02-09-near-assemanu.png
   type: shot
@@ -1446,6 +1471,7 @@
 2018-02-10-in-the-evening-canals-of-vivec:
   title: In the Evening Canals of Vivec
   titleRu: В вечерних каналах Вивека
+  placement: Outdoors
   location: Vivec
   content: store:/shots/2018-02-10-in-the-evening-canals-of-vivec.png
   type: shot
@@ -1502,6 +1528,7 @@
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
+  placement: Outdoors
   content:
     - store:/shots/2017-04-24-on-the-red-mountainside.png
     - store:/shots/2017-01-01-ghostfence.png
@@ -1535,6 +1562,7 @@
 2018-02-12-shores-of-the-plantation-region:
   title: Shores of the Plantation Region
   titleRu: Берега района плантаций
+  placement: Outdoors
   content: store:/shots/2018-02-12-shores-of-the-plantation-region.png
   type: shot
   author: dehero
@@ -1558,6 +1586,7 @@
 2018-02-13-urshilaku-camp:
   title: Urshilaku Camp
   titleRu: Лагерь Уршилаку
+  placement: Outdoors
   location: Urshilaku Camp
   content: store:/shots/2018-02-13-urshilaku-camp.png
   type: shot
@@ -1619,6 +1648,7 @@
 2018-02-14-shipwreck-at-the-estuary-of-foyada:
   title: Shipwreck at the Estuary of Foyada
   titleRu: Кораблекрушение в устье фояды
+  placement: Outdoors
   content: store:/shots/2018-02-14-shipwreck-at-the-estuary-of-foyada.png
   type: shot
   author: dehero
@@ -1672,6 +1702,7 @@
 2018-02-15-ald-redaynia-at-night:
   title: Ald Redaynia at Night
   titleRu: Альд Редайния в ночи
+  placement: Outdoors
   location: Ald Redaynia
   content: store:/shots/2018-02-15-ald-redaynia-at-night.png
   type: shot
@@ -1708,6 +1739,7 @@
 2018-02-16-draugr:
   title: Draugr
   titleRu: Драугр
+  placement: Indoors
   content: store:/shots/2018-02-16-draugr.png
   type: shot
   author: dehero
@@ -1736,6 +1768,8 @@
 2018-02-17-cry-of-silt-strider-in-morning-mist:
   title: Cry of Silt Strider in Morning Mist
   titleRu: Крик Силт Страйдера в утренней дымке
+  placement: Outdoors
+  location: Vivec
   content: store:/shots/2018-02-17-cry-of-silt-strider-in-morning-mist.png
   type: shot
   author: dehero
@@ -1837,6 +1871,7 @@
 2018-02-19-body-and-soul:
   title: Body and Soul
   titleRu: Тело и душа
+  placement: Indoors
   content: store:/shots/2018-02-19-body-and-soul.png
   type: shot
   author: dehero
@@ -1868,6 +1903,7 @@
 2018-02-20-nook-of-arena:
   title: Nook of Arena
   titleRu: Закуток Арены
+  placement: Indoors
   content: store:/shots/2018-02-20-nook-of-arena.png
   type: shot
   author: dehero
@@ -1891,6 +1927,7 @@
 2018-02-21-view-from-the-coastal-rocks:
   title: View from the Coastal Rocks
   titleRu: Вид из прибрежных скал
+  placement: Outdoors
   content: store:/shots/2018-02-21-view-from-the-coastal-rocks.png
   type: shot
   author: dehero
@@ -1923,6 +1960,7 @@
 2018-02-22-bridge-at-the-border-of-two-regions:
   title: Bridge at the Border of Two Regions
   titleRu: Мост на границе двух регионов
+  placement: Outdoors
   content: store:/shots/2018-02-22-bridge-at-the-border-of-two-regions.png
   type: shot
   author: dehero
@@ -1950,6 +1988,7 @@
 2018-02-23-uthrel-sarys:
   title: Uthrel Sarys
   titleRu: Утрель Сарис
+  placement: Indoors
   content: store:/shots/2018-02-23-uthrel-sarys.png
   type: shot
   author: dehero
@@ -2000,6 +2039,7 @@
 2018-02-24-in-the-skaal-village:
   title: In the Skaal Village
   titleRu: В деревне Скаалов
+  placement: Outdoors
   location: Skaal Village
   content: store:/shots/2018-02-24-in-the-skaal-village.png
   type: shot
@@ -2025,6 +2065,7 @@
 2018-02-25-la-va-land:
   title: La-Va Land
   titleRu: Ла-Ва Ленд
+  placement: Mixed
   content:
     - store:/shots/2017-09-15-lava-swamps.png
     - store:/shots/2017-08-02-over-the-lava.png
@@ -2055,6 +2096,7 @@
 2018-02-26-near-the-ash-road:
   title: Near the Ash Road
   titleRu: У пепельной дороги
+  placement: Outdoors
   content: store:/shots/2018-02-26-near-the-ash-road.png
   type: shot
   author: dehero
@@ -2080,6 +2122,7 @@
 2018-02-27-fieldwork:
   title: Fieldwork
   titleRu: Полевые работы
+  placement: Outdoors
   content: store:/shots/2018-02-27-fieldwork.png
   type: shot
   author: dehero
@@ -2104,6 +2147,7 @@
 2018-02-28-exit:
   title: Exit
   titleRu: Выход
+  placement: Indoors
   content: store:/shots/2018-02-28-exit.png
   type: shot
   author: dehero
@@ -2158,6 +2202,7 @@
 2018-03-01-guardess-of-assernerairan:
   title: Guardess of Assernerairan
   titleRu: Охранница Ассернерайрана
+  placement: Indoors
   location: Assernerairan
   content: store:/shots/2018-03-01-guardess-of-assernerairan.png
   type: shot
@@ -2184,6 +2229,7 @@
 2018-03-02-a-little-joy-for-hard-worker:
   title: A Little Joy for Hard Worker
   titleRu: Маленькая радость простого работяги
+  placement: Indoors
   content: store:/shots/2018-03-02-a-little-joy-for-hard-worker.png
   type: shot
   author: dehero
@@ -2247,6 +2293,7 @@
 2018-03-03-cosy-bay:
   title: Cosy Bay
   titleRu: Уютный залив
+  placement: Outdoors
   content: store:/shots/2018-03-03-cosy-bay.png
   type: shot
   author: dehero
@@ -2299,6 +2346,7 @@
 2018-03-04-monsters:
   title: Monsters
   titleRu: Монстры
+  placement: Mixed
   content:
     - store:/shots/2017-01-06-daedroth-in-grazelands.png
     - store:/shots/2016-12-24-double-winged-attack.png
@@ -2331,6 +2379,7 @@
 2018-03-05-jonus-maximus:
   title: Jonus Maximus
   titleRu: Йонус Максимус
+  placement: Outdoors
   location: Ebonheart
   content: store:/shots/2018-03-05-jonus-maximus.png
   type: shot
@@ -2364,6 +2413,7 @@
 2018-03-06-near-hlormaren:
   title: Near Hlormaren
   titleRu: У Хлормарена
+  placement: Outdoors
   location: Hlormaren
   content: store:/shots/2018-03-06-near-hlormaren.png
   type: shot
@@ -2413,6 +2463,7 @@
 2018-03-07-in-the-yard-of-wolverine-hall:
   title: In the Yard of Wolverine Hall
   titleRu: Во дворе Волверин Холла
+  placement: Outdoors
   location: Wolverine Hall
   content: store:/shots/2018-03-07-in-the-yard-of-wolverine-hall.png
   type: shot
@@ -2498,6 +2549,7 @@
 2018-03-09-among-the-night-lights:
   title: Among the Night Lights
   titleRu: Среди ночных фонарей
+  placement: Outdoors
   location: Sadrith Mora
   content: store:/shots/2018-03-09-among-the-night-lights.png
   type: shot
@@ -2526,6 +2578,7 @@
 2018-03-10-anudnabia:
   title: Anudnabia
   titleRu: Ануднабия
+  placement: Outdoors
   content: store:/shots/2018-03-10-anudnabia.png
   type: shot
   author: dehero
@@ -2552,6 +2605,7 @@
 2018-03-11-skeletons:
   title: Skeletons
   titleRu: Скелеты
+  placement: Mixed
   content:
     - store:/shots/2017-03-30-morning-hunt.png
     - store:/shots/2017-09-12-ice-prisoner.png
@@ -2586,6 +2640,7 @@
 2018-03-12-mushroom-arch:
   title: Mushroom Arch
   titleRu: Грибная арка
+  placement: Outdoors
   content: store:/shots/2018-03-12-mushroom-arch.png
   type: shot
   author: dehero
