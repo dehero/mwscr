@@ -137,31 +137,6 @@
 
 - `ig` <ins title="2018-01-27-19-25-32">tommytoja</ins> Good Balmora vibes. Thank You!
 
-## <span id="2017-01-02-backdoor-to-tel-vos">Backdoor to Tel Vos</span>
-
-`RU` Запасной вход в Тель Вос
-
-<a href="https://instagram.com/p/BOwBgBAFlLP/" title="2017-01-02-backdoor-to-tel-vos"><img alt="store:/shots/2017-01-02-backdoor-to-tel-vos.png" src="../../assets/previews/shots/2017-01-02-backdoor-to-tel-vos.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-01-02-backdoor-to-tel-vos&amp;postContent=store%3A%2Fshots%2F2017-01-02-backdoor-to-tel-vos.png&amp;postTitle=Backdoor+to+Tel+Vos&amp;postTitleRu=%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+%D0%B2%D1%85%D0%BE%D0%B4+%D0%B2+%D0%A2%D0%B5%D0%BB%D1%8C+%D0%92%D0%BE%D1%81&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=fort&amp;postLocation=Grazelands+Region%0ATel+Vos&amp;postMark=B2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B2` `📍 Grazelands Region` `📍 Tel Vos` `🚀 OpenMW` `fort`
-
-```
-2017-01-02-backdoor-to-tel-vos
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | engagement |
-|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BOwBgBAFlLP/)       | 2017-01-02 |       |    35 |        57 |       61.4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_50)   | 2017-01-22 |    95 |     4 |         4 |          4 |
-| [`ig`](https://instagram.com/p/DGGnmWJT-BO/)       | 2025-02-15 |       |       |      1533 |            |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2132) | 2025-02-15 |       |       |      1070 |            |
-| [`tg`](https://t.me/mwscr/711)                     | 2025-02-15 |       |       |       677 |            |
-|                                                    |            |    95 |    39 |        61 |       32.7 |
-
 ## <span id="2017-08-09-night-sky-of-molag-amur">Night Sky of Molag Amur</span>
 
 `RU` Ночное небо Молаг Амур
@@ -1295,6 +1270,28 @@
 | [`ig`](https://instagram.com/p/BSVOs-GDRSn/)      | 2017-04-01 |       |    72 |       166 |      43.37 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_239) | 2017-04-01 |   136 |     5 |        50 |         10 |
 |                                                   |            |   136 |    77 |       216 |      26.69 |
+
+## <span id="2017-04-17-lost-and-robbed">Lost and Robbed</span>
+
+`RU` Потерян и ограблен
+
+<a href="https://instagram.com/p/BS-u2CUD6k4/" title="2017-04-17-lost-and-robbed"><img alt="store:/shots/2017-04-17-lost-and-robbed.png" src="../../assets/previews/shots/2017-04-17-lost-and-robbed.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-04-17-lost-and-robbed&amp;postContent=store%3A%2Fshots%2F2017-04-17-lost-and-robbed.png&amp;postTitle=Lost+and+Robbed&amp;postTitleRu=%D0%9F%D0%BE%D1%82%D0%B5%D1%80%D1%8F%D0%BD+%D0%B8+%D0%BE%D0%B3%D1%80%D0%B0%D0%B1%D0%BB%D0%B5%D0%BD&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-04-17-lost-and-robbed&postLocation=)</code> `🚀 OpenMW`
+
+```
+2017-04-17-lost-and-robbed
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | engagement |
+|---------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BS-u2CUD6k4/)      | 2017-04-17 |       |    62 |       172 |      36.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_261) | 2017-04-17 |   106 |     9 |        52 |      17.31 |
+|                                                   |            |   106 |    71 |       224 |      26.68 |
 
 ---
 
