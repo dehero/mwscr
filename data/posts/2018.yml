@@ -3876,10 +3876,10 @@
     - service: vk
       id: 1855
       published: 2024-10-25-18-10-15
-      updated: 2025-02-08-06-10-02
+      updated: 2025-02-15-07-02-40
       followers: 997
       likes: 41
-      views: 305
+      views: 307
       reposts: 1
       comments: !c |-
         G9QBgCwKbGOzhuhJv0vFoSZyr8ka/09/MdI3/lv0MNMSTBJPzgVdVbcLLW8EAkGCAkdSHpZv29cJ
@@ -3890,10 +3890,10 @@
     - service: tg
       id: 575
       published: 2024-10-25-18-10-23
-      updated: 2025-02-08-06-10-03
+      updated: 2025-02-15-07-02-39
       followers: 563
       likes: 60
-      views: 577
+      views: 581
 2018-04-12-mushroom-stairs:
   title: Mushroom Stairs
   titleRu: Грибная лестница
@@ -11277,20 +11277,20 @@
       id: DGEBRCtzBuX
       mediaId: '18022461131420166'
       published: 2025-02-14-18-11-11
-      updated: 2025-02-15-06-09-45
+      updated: 2025-02-15-07-02-37
       followers: 1533
-      likes: 54
-      views: 153
+      likes: 56
+      views: 154
       comments: !c |-
         CyOAkZPLQnlQXR7lgACwc29tZW9uZV9zaW1wbGU0MtkpVGhlIHNraWVzIGluIE1vcnJvd2luZCBh
         cmUgc29tZXRoaW5nIGVsc2UD
     - service: vk
       id: 2130
       published: 2025-02-14-18-11-33
-      updated: 2025-02-15-06-09-46
+      updated: 2025-02-15-07-02-37
       followers: 1070
       likes: 33
-      views: 144
+      views: 152
       reposts: 3
     - service: tg
       id:
@@ -11299,10 +11299,10 @@
         - 709
         - 710
       published: 2025-02-14-18-11-53
-      updated: 2025-02-15-06-09-46
+      updated: 2025-02-15-07-02-38
       followers: 675
-      likes: 41
-      views: 151
+      likes: 42
+      views: 156
 2018-10-22-snowbound-airship:
   title: Snowbound Airship
   titleRu: Летучий корабль в снегах
@@ -11813,10 +11813,10 @@
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2025-02-08-06-10-04
+      updated: 2025-02-15-07-02-41
       followers: 961
       likes: 31
-      views: 332
+      views: 334
     - service: tg
       id: 561
       published: 2024-10-11-18-10-00
