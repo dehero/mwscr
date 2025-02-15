@@ -11277,20 +11277,20 @@
       id: DGEBRCtzBuX
       mediaId: '18022461131420166'
       published: 2025-02-14-18-11-11
-      updated: 2025-02-15-10-02-04
+      updated: 2025-02-15-11-01-21
       followers: 1533
       likes: 60
-      views: 165
+      views: 167
       comments: !c |-
         CyOAkZPLQnlQXR7lgACwc29tZW9uZV9zaW1wbGU0MtkpVGhlIHNraWVzIGluIE1vcnJvd2luZCBh
         cmUgc29tZXRoaW5nIGVsc2UD
     - service: vk
       id: 2130
       published: 2025-02-14-18-11-33
-      updated: 2025-02-15-10-02-04
+      updated: 2025-02-15-11-01-22
       followers: 1070
-      likes: 38
-      views: 190
+      likes: 40
+      views: 207
       reposts: 4
     - service: tg
       id:
@@ -11299,10 +11299,10 @@
         - 709
         - 710
       published: 2025-02-14-18-11-53
-      updated: 2025-02-15-10-02-04
+      updated: 2025-02-15-11-01-23
       followers: 675
-      likes: 45
-      views: 170
+      likes: 46
+      views: 172
 2018-10-22-snowbound-airship:
   title: Snowbound Airship
   titleRu: Летучий корабль в снегах
