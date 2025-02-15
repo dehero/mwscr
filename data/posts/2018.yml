@@ -279,7 +279,7 @@
     - service: vk
       id: 1607
       published: 2024-06-28-18-19-25
-      updated: 2025-02-08-12-11-58
+      updated: 2025-02-15-13-10-28
       followers: 917
       likes: 38
       views: 293
@@ -287,10 +287,10 @@
     - service: tg
       id: 453
       published: 2024-06-28-18-19-31
-      updated: 2025-02-08-12-11-56
+      updated: 2025-02-15-13-10-25
       followers: 387
       likes: 59
-      views: 554
+      views: 555
 2018-01-10-rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
@@ -5946,7 +5946,7 @@
     - service: vk
       id: 1657
       published: 2024-07-26-18-20-40
-      updated: 2025-02-08-12-11-54
+      updated: 2025-02-15-13-10-24
       followers: 923
       likes: 34
       views: 276
@@ -5954,10 +5954,10 @@
     - service: tg
       id: 481
       published: 2024-07-26-18-20-48
-      updated: 2025-02-08-12-11-54
+      updated: 2025-02-15-13-10-23
       followers: 400
       likes: 69
-      views: 635
+      views: 636
       comments: !c CwuAkZPLQnkPIJkoAACmQzRINk80pPCfmI4D
 2018-06-06-i-think-i-got-sick:
   title: I Think I Got Sick
@@ -9591,14 +9591,14 @@
     - service: tg
       id: 460
       published: 2024-07-05-18-19-50
-      updated: 2025-02-08-12-11-56
+      updated: 2025-02-15-13-10-25
       followers: 393
       likes: 52
       views: 461
     - service: vk
       id: 1615
       published: 2024-07-05-19-12-06
-      updated: 2025-02-08-12-11-57
+      updated: 2025-02-15-13-10-27
       followers: 919
       likes: 32
       views: 292
@@ -11277,20 +11277,20 @@
       id: DGEBRCtzBuX
       mediaId: '18022461131420166'
       published: 2025-02-14-18-11-11
-      updated: 2025-02-15-12-11-51
+      updated: 2025-02-15-13-10-20
       followers: 1533
       likes: 63
-      views: 177
+      views: 178
       comments: !c |-
         CyOAkZPLQnlQXR7lgACwc29tZW9uZV9zaW1wbGU0MtkpVGhlIHNraWVzIGluIE1vcnJvd2luZCBh
         cmUgc29tZXRoaW5nIGVsc2UD
     - service: vk
       id: 2130
       published: 2025-02-14-18-11-33
-      updated: 2025-02-15-12-11-51
+      updated: 2025-02-15-13-10-20
       followers: 1070
       likes: 41
-      views: 216
+      views: 224
       reposts: 4
     - service: tg
       id:
@@ -11299,10 +11299,10 @@
         - 709
         - 710
       published: 2025-02-14-18-11-53
-      updated: 2025-02-15-12-11-51
+      updated: 2025-02-15-13-10-21
       followers: 675
       likes: 47
-      views: 173
+      views: 174
 2018-10-22-snowbound-airship:
   title: Snowbound Airship
   titleRu: Летучий корабль в снегах

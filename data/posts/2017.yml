@@ -1621,17 +1621,17 @@
       id: DF5uC6lv4wa
       mediaId: '18077453773581396'
       published: 2025-02-10-18-10-49
-      updated: 2025-02-14-12-13-43
+      updated: 2025-02-15-13-10-22
       followers: 1533
-      likes: 78
-      views: 293
+      likes: 79
+      views: 301
     - service: vk
       id: 2121
       published: 2025-02-10-18-10-56
-      updated: 2025-02-14-12-13-44
+      updated: 2025-02-15-13-10-23
       followers: 1064
-      likes: 24
-      views: 263
+      likes: 26
+      views: 296
       reposts: 1
       comments: !c |-
         CzeAkpPLQnlPVZCugACraWQ4MjA3MDI2NjTZIdCQINGN0YLQviDQs9C00LUg0L3QsCDQutCw0YDR
@@ -1640,10 +1640,10 @@
     - service: tg
       id: 703
       published: 2025-02-10-18-11-03
-      updated: 2025-02-14-12-13-43
+      updated: 2025-02-15-13-10-22
       followers: 673
       likes: 57
-      views: 288
+      views: 310
 2017-02-12-1-travel-from-seyda-neen-to-balmora:
   title: Travel from Seyda Neen to Balmora
   titleRu: Путешествие из Сейда Нина в Балмору
@@ -7742,7 +7742,7 @@
     - service: vk
       id: 1631
       published: 2024-07-12-18-21-28
-      updated: 2025-02-08-12-11-56
+      updated: 2025-02-15-13-10-27
       followers: 920
       likes: 33
       views: 272
@@ -7750,7 +7750,7 @@
     - service: tg
       id: 467
       published: 2024-07-12-18-21-35
-      updated: 2025-02-08-12-11-55
+      updated: 2025-02-15-13-10-24
       followers: 397
       likes: 59
       views: 488
