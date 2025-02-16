@@ -6225,10 +6225,10 @@
     - service: vk
       id: 1857
       published: 2024-10-26-18-09-18
-      updated: 2025-02-09-05-07-31
+      updated: 2025-02-16-06-09-57
       followers: 1000
       likes: 53
-      views: 379
+      views: 381
       reposts: 3
       comments: !c |-
         GxwB4C0OzHOdB2ow3rAbn0ohbDz/z6GG8J/YBo3x1AmaE0pA1iBcvQ+01ULNLeRKqEZdNyPzHMPx
@@ -6239,10 +6239,10 @@
     - service: tg
       id: 576
       published: 2024-10-26-18-09-24
-      updated: 2025-02-09-05-07-30
+      updated: 2025-02-16-06-09-57
       followers: 564
       likes: 62
-      views: 615
+      views: 620
       comments: !c CxSAkpPLQnksrSYPAACobW9uZ2xlcmmgk8tCeSygVUwAAKh3aWx6dXVsbKAD
 2018-06-13-lich:
   title: Lich
@@ -9541,10 +9541,10 @@
     - service: vk
       id: 1916
       published: 2024-11-23-18-10-28
-      updated: 2025-02-09-05-07-29
+      updated: 2025-02-16-06-09-54
       followers: 1008
       likes: 40
-      views: 347
+      views: 349
       reposts: 2
       comments: !c |-
         G4kA+C0SbNsJb8cJbulDs+RE8f0twqe/STHJsEkwwmQvJxuGltY7/ikD9WRyFpuo/RQbI0aZI5Od
@@ -9552,10 +9552,10 @@
     - service: tg
       id: 604
       published: 2024-11-23-18-10-35
-      updated: 2025-02-09-05-07-27
+      updated: 2025-02-16-06-09-53
       followers: 575
       likes: 64
-      views: 605
+      views: 611
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище
@@ -11277,20 +11277,20 @@
       id: DGEBRCtzBuX
       mediaId: '18022461131420166'
       published: 2025-02-14-18-11-11
-      updated: 2025-02-16-05-07-25
+      updated: 2025-02-16-06-09-51
       followers: 1533
       likes: 69
-      views: 212
+      views: 214
       comments: !c |-
         CyOAkZPLQnlQXR7lgACwc29tZW9uZV9zaW1wbGU0MtkpVGhlIHNraWVzIGluIE1vcnJvd2luZCBh
         cmUgc29tZXRoaW5nIGVsc2UD
     - service: vk
       id: 2130
       published: 2025-02-14-18-11-33
-      updated: 2025-02-16-05-07-25
+      updated: 2025-02-16-06-09-51
       followers: 1070
       likes: 48
-      views: 312
+      views: 316
       reposts: 5
       comments: !c |-
         G/sBACwOzHO6zrBQug1T6SPj/+kvRvrW99MqZdgkFmlyLnBm7CilE7LZjL/f9kqVCnWbOZvTtnG8
@@ -11305,7 +11305,7 @@
         - 709
         - 710
       published: 2025-02-14-18-11-53
-      updated: 2025-02-16-05-07-25
+      updated: 2025-02-16-06-09-51
       followers: 675
       likes: 54
       views: 224
