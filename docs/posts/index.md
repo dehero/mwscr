@@ -4,7 +4,38 @@
 
 # Posted in 2025
 
-`46 items`
+`47 items`
+
+## <span id="2025-02-16-nchurdamz-at-the-sunset">Nchurdamz at the Sunset</span>
+
+`RU` Нчурдамц на закате
+
+<a href="https://instagram.com/p/BRXvJmKDcu0/" title="2017-03-08-nchurdamz-at-the-sunset"><img alt="store:/shots/2017-03-08-nchurdamz-at-the-sunset.png" src="../../assets/previews/shots/2017-03-08-nchurdamz-at-the-sunset.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-02-16-nchurdamz-at-the-sunset&amp;postContent=store%3A%2Fshots%2F2017-03-08-nchurdamz-at-the-sunset.png&amp;postTitle=Nchurdamz+at+the+Sunset&amp;postTitleRu=%D0%9D%D1%87%D1%83%D1%80%D0%B4%D0%B0%D0%BC%D1%86+%D0%BD%D0%B0+%D0%B7%D0%B0%D0%BA%D0%B0%D1%82%D0%B5&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=moon+sunset+castle&amp;postLocation=Nchurdamz&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Nchurdamz` `🚀 OpenMW` `moon` `sunset` `castle`
+
+```
+2025-02-16-nchurdamz-at-the-sunset
+```
+
+> `2017-03-08-nchurdamz-at-the-sunset`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BRXvJmKDcu0/)       | 2017-03-08 |       |    43 |       105 |      40.95 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_188)  | 2017-03-08 |   142 |     9 |        44 |          9 |
+| [`ig`](https://instagram.com/p/DGJKqKVyLQy/)       | 2025-02-16 |       |       |      1538 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2133) | 2025-02-16 |       |       |      1071 |            |
+| [`tg`](https://t.me/mwscr/712)                     | 2025-02-16 |       |       |       677 |            |
+|                                                    |            |       |       |      3286 |            |
+
+#### Comments
+
+- `vk` <ins title="2017-03-09-20-02-30">idalexeyvav</ins> Всегда боялся двемерских крепостей;(
 
 ## <span id="2025-02-15-backdoor-to-tel-vos">Backdoor to Tel Vos</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BOwBgBAFlLP/)       | 2017-01-02 |       |    35 |        57 |       61.4 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_50)   | 2017-01-22 |    95 |     4 |         4 |          4 |
-| [`ig`](https://instagram.com/p/DGGnmWJT-BO/)       | 2025-02-15 |   360 |    71 |      1533 |       4.63 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2132) | 2025-02-15 |   168 |    33 |      1070 |       3.27 |
-| [`tg`](https://t.me/mwscr/711)                     | 2025-02-15 |   169 |    50 |       677 |       7.39 |
-|                                                    |            |   697 |   154 |      3280 |        5.1 |
+| [`ig`](https://instagram.com/p/DGGnmWJT-BO/)       | 2025-02-15 |   368 |    71 |      1533 |       4.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2132) | 2025-02-15 |   173 |    33 |      1070 |       3.27 |
+| [`tg`](https://t.me/mwscr/711)                     | 2025-02-15 |   171 |    51 |       677 |       7.53 |
+|                                                    |            |   712 |   155 |      3280 |       5.15 |
 
 #### Comments
 
@@ -63,10 +94,10 @@
 | [`ig`](https://instagram.com/p/BpNQHT-BoiQ/)       | 2018-10-21 |       |   112 |       447 |      25.06 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_998)  | 2018-10-21 |   389 |    31 |           |            |
 | [`tg`](https://t.me/mwscr/89,90,91,92,93)          | 2018-10-21 |   235 |     3 |           |            |
-| [`ig`](https://instagram.com/p/DGEBRCtzBuX/)       | 2025-02-14 |   221 |    70 |      1533 |       4.57 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2130) | 2025-02-14 |   382 |    50 |      1070 |       5.23 |
-| [`tg`](https://t.me/mwscr/707,708,709,710)         | 2025-02-14 |   240 |    55 |       675 |       8.15 |
-|                                                    |            |   843 |   175 |      3278 |       5.98 |
+| [`ig`](https://instagram.com/p/DGEBRCtzBuX/)       | 2025-02-14 |   224 |    72 |      1533 |        4.7 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2130) | 2025-02-14 |   386 |    50 |      1070 |       5.23 |
+| [`tg`](https://t.me/mwscr/707,708,709,710)         | 2025-02-14 |   241 |    55 |       675 |       8.15 |
+|                                                    |            |   851 |   177 |      3278 |       6.03 |
 
 #### Comments
 
@@ -99,10 +130,10 @@
 | [`ig`](https://instagram.com/p/CfKLDX6sxiS/)       | 2022-06-23 |       |   265 |      1088 |      24.36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1303) | 2022-06-23 |   994 |    79 |       700 |         12 |
 | [`tg`](https://t.me/mwscr/246)                     | 2022-06-23 |  1169 |    85 |       226 |      37.61 |
-| [`ig`](https://instagram.com/p/DGBdJ0-PH1J/)       | 2025-02-13 |   248 |    81 |      1534 |       5.28 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2129) | 2025-02-13 |   256 |    48 |      1069 |       4.77 |
-| [`tg`](https://t.me/mwscr/706)                     | 2025-02-13 |   218 |    54 |       676 |       7.99 |
-|                                                    |            |   722 |   183 |      3279 |       6.01 |
+| [`ig`](https://instagram.com/p/DGBdJ0-PH1J/)       | 2025-02-13 |   259 |    83 |      1534 |       5.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2129) | 2025-02-13 |   295 |    51 |      1069 |       5.05 |
+| [`tg`](https://t.me/mwscr/706)                     | 2025-02-13 |   240 |    56 |       676 |       8.28 |
+|                                                    |            |   794 |   190 |      3279 |       6.25 |
 
 #### Comments
 
@@ -135,6 +166,8 @@
 - `tg` <ins title="2022-06-24-19-32-49">deleted</ins> 👲
 - `tg` <ins title="2022-06-24-19-47-26">sayylc</ins> ОГО! ТАК МНОГО ЛЮДЕЙ ИГРАЮТ В МОРРОВИНД...
   - <ins title="2022-06-25-04-19-25">fifio20</ins> это лучшая игра всех времен и народов, как в нее не играть
+- `ig` <ins title="2025-02-16-16-56-36">berskate</ins> Ur screenshots r always perfect 👌
+  - <ins title="2025-02-16-17-02-23">mwscr</ins> Thanks 🙏
 
 ## <span id="2025-02-12-horror-of-the-red-corridor">Horror of the Red Corridor</span>
 

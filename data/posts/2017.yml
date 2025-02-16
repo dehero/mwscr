@@ -55,28 +55,28 @@
       id: DGGnmWJT-BO
       mediaId: '18035517593426073'
       published: 2025-02-15-18-24-38
-      updated: 2025-02-16-17-02-09
+      updated: 2025-02-16-18-09-08
       followers: 1533
       likes: 71
-      views: 360
+      views: 368
       comments: !c |-
         ixyAkZPLQnlQrpMxAACpbnk3NHRfNHJ02SNUaGlzIGlzIG5vIGR1bmdlb24gaXTigJlzIGEgZnVu
         Z2VvbgM=
     - service: vk
       id: 2132
       published: 2025-02-15-18-24-45
-      updated: 2025-02-16-17-02-08
+      updated: 2025-02-16-18-09-08
       followers: 1070
       likes: 33
-      views: 168
+      views: 173
       reposts: 2
     - service: tg
       id: 711
       published: 2025-02-15-18-24-51
-      updated: 2025-02-16-17-02-08
+      updated: 2025-02-16-18-09-09
       followers: 677
-      likes: 50
-      views: 169
+      likes: 51
+      views: 171
 2017-01-03-census-and-excise-office-from-lighthouse:
   title: Census and Excise Office from Lighthouse
   titleRu: Офис Канцелярии Налогов и Сборов с маяка
@@ -2672,6 +2672,19 @@
       comments: !c |-
         iy2AkZPLQnWrSqY/AACraWRhbGV4ZXl2YXbZQ9CS0YHQtdCz0LTQsCDQsdC+0Y/Qu9GB0Y8g0LTQ
         stC10LzQtdGA0YHQutC40YUg0LrRgNC10L/QvtGB0YLQtdC5OygD
+    - service: ig
+      id: DGJKqKVyLQy
+      mediaId: '18046144337035450'
+      published: 2025-02-16-18-09-27
+      followers: 1538
+    - service: vk
+      id: 2133
+      published: 2025-02-16-18-09-34
+      followers: 1071
+    - service: tg
+      id: 712
+      published: 2025-02-16-18-09-40
+      followers: 677
 2017-03-09-dirty-muriels-cornerclub-under-mushrooms:
   title: Dirty Muriel's Cornerclub Under Mushrooms
   titleRu: Трактир грязной Мюриэль под грибами
