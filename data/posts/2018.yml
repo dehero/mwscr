@@ -2038,10 +2038,10 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2025-02-09-16-07-28
+      updated: 2025-02-16-16-07-41
       followers: 927
       likes: 26
-      views: 265
+      views: 266
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
@@ -5230,18 +5230,18 @@
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2025-02-09-16-07-31
+      updated: 2025-02-16-16-07-44
       followers: 919
       likes: 56
-      views: 844
+      views: 846
       reposts: 5
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2025-02-09-16-07-30
+      updated: 2025-02-16-16-07-41
       followers: 400
       likes: 67
-      views: 626
+      views: 628
       comments: !c CxWAkZPLQnkNGo4EAACpR2F0ZW1hdGU3tXRoaXMgaXMgZnJvbSAyMDE4IHRobwM=
 2018-05-17-inviting-nchuleft:
   title: Inviting Nchuleft
@@ -7549,7 +7549,7 @@
     - service: vk
       id: 1666
       published: 2024-08-03-18-19-32
-      updated: 2025-02-09-16-07-29
+      updated: 2025-02-16-16-07-42
       followers: 925
       likes: 33
       views: 293
@@ -11295,7 +11295,7 @@
       id: DGEBRCtzBuX
       mediaId: '18022461131420166'
       published: 2025-02-14-18-11-11
-      updated: 2025-02-16-15-02-52
+      updated: 2025-02-16-16-07-40
       followers: 1533
       likes: 70
       views: 221
@@ -11305,11 +11305,11 @@
     - service: vk
       id: 2130
       published: 2025-02-14-18-11-33
-      updated: 2025-02-16-15-02-51
+      updated: 2025-02-16-16-07-39
       followers: 1070
-      likes: 49
-      views: 366
-      reposts: 5
+      likes: 50
+      views: 374
+      reposts: 6
       comments: !c |-
         G/sBACwOzHO6zrBQug1T6SPj/+kvRvrW99MqZdgkFmlyLnBm7CilE7LZjL/f9kqVCnWbOZvTtnG8
         TDB1U9IBx5B7Ia+hyPJI/e+tzTb8oAPaAOzqOKnoWyfIf+mloeURRhml6TZRhI7OBCW7shF78P35
@@ -11323,7 +11323,7 @@
         - 709
         - 710
       published: 2025-02-14-18-11-53
-      updated: 2025-02-16-15-02-52
+      updated: 2025-02-16-16-07-39
       followers: 675
       likes: 55
       views: 239
