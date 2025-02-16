@@ -55,17 +55,17 @@
       id: DGGnmWJT-BO
       mediaId: '18035517593426073'
       published: 2025-02-15-18-24-38
-      updated: 2025-02-16-21-02-10
+      updated: 2025-02-16-22-02-57
       followers: 1533
       likes: 74
-      views: 396
+      views: 404
       comments: !c |-
         ixyAkZPLQnlQrpMxAACpbnk3NHRfNHJ02SNUaGlzIGlzIG5vIGR1bmdlb24gaXTigJlzIGEgZnVu
         Z2VvbgM=
     - service: vk
       id: 2132
       published: 2025-02-15-18-24-45
-      updated: 2025-02-16-21-02-11
+      updated: 2025-02-16-22-02-57
       followers: 1070
       likes: 34
       views: 179
@@ -73,10 +73,10 @@
     - service: tg
       id: 711
       published: 2025-02-15-18-24-51
-      updated: 2025-02-16-21-02-10
+      updated: 2025-02-16-22-02-58
       followers: 677
-      likes: 55
-      views: 189
+      likes: 56
+      views: 193
 2017-01-03-census-and-excise-office-from-lighthouse:
   title: Census and Excise Office from Lighthouse
   titleRu: Офис Канцелярии Налогов и Сборов с маяка
@@ -2676,24 +2676,25 @@
       id: DGJKqKVyLQy
       mediaId: '18046144337035450'
       published: 2025-02-16-18-09-27
-      updated: 2025-02-16-21-02-08
+      updated: 2025-02-16-22-02-55
       followers: 1538
-      likes: 47
-      views: 134
+      likes: 54
+      views: 166
     - service: vk
       id: 2133
       published: 2025-02-16-18-09-34
-      updated: 2025-02-16-21-02-09
+      updated: 2025-02-16-22-02-56
       followers: 1071
       likes: 15
-      views: 65
+      views: 67
+      reposts: 1
     - service: tg
       id: 712
       published: 2025-02-16-18-09-40
-      updated: 2025-02-16-21-02-09
+      updated: 2025-02-16-22-02-56
       followers: 677
-      likes: 40
-      views: 94
+      likes: 44
+      views: 104
       comments: !c |-
         izKAkZPLQnlQ/7sSAACrYWFyeWNoYWdvZmbZTdCT0LvQsNCy0L3QvtC1IC0g0L3QtSDQv9GD0YLQ
         sNGC0Ywg0J3Rh9GD0YDQtNCw0LzRhiDQuCDQndGH0LDRgNC00YPQvNGGLiDwn5iBAw==
@@ -6891,17 +6892,17 @@
       id: DFlHfSRzWCN
       mediaId: '17955260624870999'
       published: 2025-02-02-18-09-05
-      updated: 2025-02-09-21-02-14
+      updated: 2025-02-16-22-02-57
       followers: 1536
-      likes: 75
-      views: 254
+      likes: 79
+      views: 271
     - service: vk
       id: 2107
       published: 2025-02-02-18-09-12
-      updated: 2025-02-09-21-02-15
+      updated: 2025-02-16-22-02-59
       followers: 1060
-      likes: 48
-      views: 309
+      likes: 49
+      views: 337
       comments: !c |-
         GyIBMCwOeHPUIcRE+eFaNxlujf+nv9jOEr38g2ecYTMJFWFyLvy7rdCjVbpNum9D+cN5O3Vb7s8G
         Y9x2TE6OPERj1RtsXhQ661ZkeW5wOuCEDyDDgPOA44KjTmu0GxxEFBdJPdE8/v7842jfruv3ckKh
@@ -9345,7 +9346,7 @@
     - service: tg
       id: 405
       published: 2024-05-11-18-18-01
-      updated: 2025-02-09-21-02-16
+      updated: 2025-02-16-22-03-04
       followers: 371
       likes: 68
       views: 509
@@ -9353,7 +9354,7 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2025-02-09-22-02-19
+      updated: 2025-02-16-22-03-05
       followers: 915
       likes: 41
       views: 286
