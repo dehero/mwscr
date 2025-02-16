@@ -10487,6 +10487,7 @@
 2017-10-06-omani-manor:
   title: Omani Manor
   titleRu: Поместье Омани
+  placement: Outdoors
   location: Omani Manor
   content: store:/shots/2017-10-06-omani-manor.png
   type: shot
@@ -10511,6 +10512,7 @@
 2017-10-07-hazy-ravine:
   title: Hazy Ravine
   titleRu: Туманное ущелье
+  placement: Outdoors
   content: store:/shots/2017-10-07-hazy-ravine.png
   type: shot
   author: dehero
@@ -10534,6 +10536,7 @@
 2017-10-08-aeronautics:
   title: Aeronautics
   titleRu: Воздухоплавание
+  placement: Outdoors
   content: store:/shots/2017-10-08-aeronautics.png
   type: shot
   author: dehero
@@ -10557,6 +10560,7 @@
 2017-10-09-in-the-evening-under-a-canopy:
   title: In the Evening Under a Canopy
   titleRu: Вечером под навесом
+  placement: Outdoors
   content: store:/shots/2017-10-09-in-the-evening-under-a-canopy.png
   type: shot
   author: dehero
@@ -10604,6 +10608,7 @@
 2017-10-10-on-the-pass:
   title: On the Pass
   titleRu: На перевале
+  placement: Outdoors
   content: store:/shots/2017-10-10-on-the-pass.png
   type: shot
   author: dehero
@@ -10629,6 +10634,7 @@
 2017-10-11-in-an-ice-cave:
   title: In an Ice Cave
   titleRu: В ледяной пещере
+  placement: Indoors
   content: store:/shots/2017-10-11-in-an-ice-cave.png
   type: shot
   author: dehero
@@ -10678,6 +10684,7 @@
 2017-10-12-gnaar-mok:
   title: Gnaar Mok
   titleRu: Гнаар Мок
+  placement: Outdoors
   location: Gnaar Mok
   content: store:/shots/2017-10-12-gnaar-mok.png
   type: shot
@@ -10767,6 +10774,7 @@
 2017-10-14-land-of-ruins:
   title: Land of Ruins
   titleRu: Земля руин
+  placement: Outdoors
   content: store:/shots/2017-10-14-land-of-ruins.png
   type: shot
   author: dehero
@@ -10815,6 +10823,7 @@
 2017-10-15-mysterious-island:
   title: Mysterious Island
   titleRu: Таинственный остров
+  placement: Outdoors
   content: store:/shots/2017-10-15-mysterious-island.png
   type: shot
   author: dehero
@@ -10842,6 +10851,7 @@
 2017-10-16-kings-contempt:
   title: King's Contempt
   titleRu: Королевское презрение
+  placement: Indoors
   location: Mournhold, Royal Palace Throne Room
   content: store:/shots/2017-10-16-kings-contempt.png
   type: shot
@@ -10868,6 +10878,7 @@
 2017-10-17-golden-saint:
   title: Golden Saint
   titleRu: Золотой святоша
+  placement: Indoors
   content: store:/shots/2017-10-17-golden-saint.png
   type: shot
   author: dehero
@@ -10919,6 +10930,7 @@
 2017-10-18-recollecting-the-first-steps:
   title: Recollecting the First Steps
   titleRu: Вспоминая первые шаги
+  placement: Outdoors
   location: Seyda Neen
   content: store:/shots/2017-10-18-recollecting-the-first-steps.png
   type: shot
@@ -10978,6 +10990,7 @@
 2017-10-19-table-for-one:
   title: Table for One
   titleRu: Столик на одного
+  placement: Indoors
   content: store:/shots/2017-10-19-table-for-one.png
   type: shot
   author: dehero
@@ -11003,6 +11016,7 @@
 2017-10-20-corpse-of-a-noble-guard:
   title: Corpse of a Noble Guard
   titleRu: Тело знатного гвардейца
+  placement: Indoors
   content: store:/shots/2017-10-20-corpse-of-a-noble-guard.png
   type: shot
   author: dehero
@@ -11034,6 +11048,7 @@
 2017-10-21-socucius-ergalla:
   title: Socucius Ergalla
   titleRu: Сокуциус Эргалла
+  placement: Indoors
   location: Seyda Neen, Census and Excise Office
   content: store:/shots/2017-10-21-socucius-ergalla.png
   type: shot
@@ -11056,6 +11071,7 @@
 2017-10-22-mushroom-field:
   title: Mushroom Field
   titleRu: Грибное поле
+  placement: Outdoors
   content: store:/shots/2017-10-22-mushroom-field.png
   type: shot
   author: dehero
@@ -11111,6 +11127,7 @@
 2017-10-23-flacassia-fauseius-on-the-spot:
   title: Flacassia Fauseius On-The-Spot
   titleRu: Флакассия Фаузейус на рабочем месте
+  placement: Indoors
   location: Vivec, Guild of Mages
   content: store:/shots/2017-10-23-flacassia-fauseius-on-the-spot.png
   type: shot
@@ -11138,6 +11155,7 @@
 2017-10-24-valvius-mevurenius-fireplace:
   title: Valvius Mevurenius' Fireplace
   titleRu: Камин Вальвиуса Мевурейуса
+  placement: Indoors
   location: Caldera, Valvius Mevureius' House
   content: store:/shots/2017-10-24-valvius-mevurenius-fireplace.png
   type: shot
@@ -11168,6 +11186,7 @@
 2017-10-25-the-last-berth:
   title: The Last Berth
   titleRu: Последний причал
+  placement: Outdoors
   content: store:/shots/2017-10-25-the-last-berth.png
   type: shot
   author: dehero
@@ -11194,6 +11213,7 @@
 2017-10-26-centurion-spider:
   title: Centurion Spider
   titleRu: Паук-центурион
+  placement: Indoors
   content: store:/shots/2017-10-26-centurion-spider.png
   type: shot
   author: dehero
@@ -11226,6 +11246,7 @@
 2017-10-27-nchurdamz-in-sunset-haze:
   title: Nchurdamz in Sunset Haze
   titleRu: Нчурдамц в закатной дымке
+  placement: Outdoors
   location: Nchurdamz
   content: store:/shots/2017-10-27-nchurdamz-in-sunset-haze.png
   type: shot
@@ -11280,6 +11301,7 @@
 2017-10-28-caldera-north-west-road:
   title: Caldera, North-West Road
   titleRu: Кальдера, северо-западная дорога
+  placement: Outdoors
   location: Caldera
   content: store:/shots/2017-10-28-caldera-north-west-road.png
   type: shot
@@ -11345,6 +11367,7 @@
 2017-10-29-wilted-littoral:
   title: Wilted Littoral
   titleRu: Чахлое прибрежье
+  placement: Outdoors
   content: store:/shots/2017-10-29-wilted-littoral.png
   type: shot
   author: dehero
@@ -11372,6 +11395,7 @@
 2017-10-30-rat-and-mudcrab:
   title: Rat and Mudcrab
   titleRu: Крыса и грязекраб
+  placement: Outdoors
   content: store:/shots/2017-10-30-rat-and-mudcrab.png
   type: shot
   author: dehero
@@ -11427,6 +11451,7 @@
 2017-10-31-green-algae-and-dead-lands:
   title: Green Algae and Dead Lands
   titleRu: Зелёные водоросли и мёртвые земли
+  placement: Outdoors
   content: store:/shots/2017-10-31-green-algae-and-dead-lands.png
   type: shot
   author: dehero
@@ -11450,6 +11475,7 @@
 2017-11-01-nerano-ancestral-tomb:
   title: Nerano Ancestral Tomb
   titleRu: Родовая гробница Нерано
+  placement: Outdoors
   location: Nerano Ancestral Tomb
   content: store:/shots/2017-11-01-nerano-ancestral-tomb.png
   type: shot
@@ -11479,6 +11505,7 @@
 2017-11-02-trebonius-artorius:
   title: Trebonius Artorius
   titleRu: Требониус Арториус
+  placement: Indoors
   location: Vivec, Guild of Mages
   content: store:/shots/2017-11-02-trebonius-artorius.png
   type: shot
@@ -11505,6 +11532,7 @@
 2017-11-03-a-ship-from-molag-mar:
   title: A Ship from Molag Mar
   titleRu: Корабль из Молаг Мара
+  placement: Outdoors
   location: Molag Mar
   content: store:/shots/2017-11-03-a-ship-from-molag-mar.png
   type: shot
@@ -11532,6 +11560,7 @@
 2017-11-04-bottles-and-candles:
   title: Bottles and Candles
   titleRu: Бутылки и свечи
+  placement: Indoors
   content: store:/shots/2017-11-04-bottles-and-candles.png
   type: shot
   author: dehero
@@ -11558,6 +11587,7 @@
 2017-11-05-returning-to-balmora:
   title: Returning to Balmora
   titleRu: Возвращаясь в Балмору
+  placement: Outdoors
   location: Balmora
   content: store:/shots/2017-11-05-returning-to-balmora.png
   type: shot
@@ -11649,6 +11679,7 @@
 2017-11-06-shore-shroom:
   title: Shore Shroom
   titleRu: Прибрежный гриб
+  placement: Outdoors
   content: store:/shots/2017-11-06-shore-shroom.png
   type: shot
   author: dehero
@@ -11698,6 +11729,7 @@
 2017-11-07-corridor-keeper:
   title: Corridor Keeper
   titleRu: Хранитель прохода
+  placement: Indoors
   content: store:/shots/2017-11-07-corridor-keeper.png
   type: shot
   author: dehero
@@ -11725,6 +11757,7 @@
 2017-11-08-warehouse-shipping-log:
   title: Warehouse Shipping Log
   titleRu: Складская учётная книга
+  placement: Indoors
   content: store:/shots/2017-11-08-warehouse-shipping-log.png
   type: shot
   author: dehero
@@ -11756,6 +11789,7 @@
 2017-11-09-ashen-sunset:
   title: Ashen Sunset
   titleRu: Пепельный закат
+  placement: Outdoors
   content: store:/shots/2017-11-09-ashen-sunset.png
   type: shot
   author: dehero
@@ -11779,6 +11813,7 @@
 2017-11-10-view-of-the-hlaalu-canton:
   title: View of the Hlaalu Canton
   titleRu: Вид на Поселение Хлаалу
+  placement: Outdoors
   location: Vivec, Hlaalu
   content: store:/shots/2017-11-10-view-of-the-hlaalu-canton.png
   type: shot
@@ -11805,6 +11840,7 @@
 2017-11-11-pelagiad-guard-tower:
   title: Pelagiad, Guard Tower
   titleRu: Пелагиад, Сторожевая Башня
+  placement: Outdoors
   location: Pelagiad, Guard Tower
   content: store:/shots/2017-11-11-pelagiad-guard-tower.png
   type: shot
@@ -11855,6 +11891,7 @@
 2017-11-12-ice-shivers:
   title: Ice Shivers
   titleRu: Ледяные обломки
+  placement: Outdoors
   content: store:/shots/2017-11-12-ice-shivers.png
   type: shot
   author: dehero
@@ -11903,6 +11940,7 @@
 2017-11-13-three-guars-at-the-crossroads:
   title: Three Guars at the Crossroads
   titleRu: Три гуара на распутье
+  placement: Outdoors
   location: Bitter Coast Region
   content: store:/shots/2017-11-13-three-guars-at-the-crossroads.png
   type: shot
@@ -11931,6 +11969,7 @@
 2017-11-14-the-guard-of-arkngthand:
   title: The Guard of Arkngthand
   titleRu: Страж Аркнтанда
+  placement: Outdoors
   location: Arkngthand
   content: store:/shots/2017-11-14-the-guard-of-arkngthand.png
   type: shot
@@ -11960,6 +11999,7 @@
 2017-11-15-mzahnch-at-sunset:
   title: Mzahnch at Sunset
   titleRu: Мзанч на закате
+  placement: Outdoors
   location: Mzahnch
   content: store:/shots/2017-11-15-mzahnch-at-sunset.png
   type: shot
@@ -12015,6 +12055,7 @@
 2017-11-16-cozy-workplace-in-the-basement:
   title: Cozy Workplace in the Basement
   titleRu: Уютное рабочее место в подвале
+  placement: Indoors
   content: store:/shots/2017-11-16-cozy-workplace-in-the-basement.png
   type: shot
   author: dehero
@@ -12062,6 +12103,7 @@
 2017-11-17-pelagiad-descent-to-the-road:
   title: Pelagiad, Descent to the Road
   titleRu: Пелагиад, спуск к дороге
+  placement: Outdoors
   location: Pelagiad
   content: store:/shots/2017-11-17-pelagiad-descent-to-the-road.png
   type: shot
@@ -12140,6 +12182,7 @@
 2017-11-19-bottle-collection:
   title: Bottle Collection
   titleRu: Коллекция бутылок
+  placement: Indoors
   content: store:/shots/2017-11-19-bottle-collection.png
   type: shot
   author: dehero
@@ -12166,6 +12209,7 @@
 2017-11-20-soul-of-scamp-in-mummys-hands:
   title: Soul of Scamp in Mummy's Hands
   titleRu: Душа скампа в руках мумии
+  placement: Indoors
   content: store:/shots/2017-11-20-soul-of-scamp-in-mummys-hands.png
   type: shot
   author: dehero
@@ -12221,6 +12265,7 @@
 2017-11-22-at-the-margin:
   title: At the Margin
   titleRu: У предела
+  placement: Outdoors
   content: store:/shots/2017-11-22-at-the-margin.png
   type: shot
   author: dehero
@@ -12245,6 +12290,7 @@
 2017-11-23-riekling-on-the-northern-coast:
   title: Riekling on the Northern Coast
   titleRu: Рьеклинг на северном побережье
+  placement: Outdoors
   content: store:/shots/2017-11-23-riekling-on-the-northern-coast.png
   type: shot
   author: dehero
@@ -12299,6 +12345,7 @@
 2017-11-25-ashinabi:
   title: Ashinabi
   titleRu: Ашинаби
+  placement: Outdoors
   location: Ashinabi
   content: store:/shots/2017-11-25-ashinabi.png
   type: shot
@@ -12351,6 +12398,7 @@
 2017-11-26-in-the-cell-of-vuvil-senim:
   title: In the Cell of Vuvil Senim
   titleRu: В камере Вувила Сенима
+  placement: Indoors
   content: store:/shots/2017-11-26-in-the-cell-of-vuvil-senim.png
   type: shot
   author: dehero
@@ -12376,6 +12424,7 @@
 2017-11-27-netch-slowly-swims-over-the-water-surface:
   title: Netch Slowly Swims Over the Water Surface
   titleRu: Нетч медленно проплывает над водной гладью
+  placement: Outdoors
   content: store:/shots/2017-11-27-netch-slowly-swims-over-the-water-surface.png
   type: shot
   author: dehero
@@ -12405,6 +12454,7 @@
 2017-11-28-evening-mournhold:
   title: Evening Mournhold
   titleRu: Вечерний Морнхолд
+  placement: Outdoors
   location: Mournhold, Temple Courtyard
   content: store:/shots/2017-11-28-evening-mournhold.png
   type: shot
