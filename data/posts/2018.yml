@@ -1,6 +1,7 @@
 2018-01-01-reloth-ancestral-tomb:
   title: Reloth Ancestral Tomb
   titleRu: Родовая гробница Релотов
+  placement: Outdoors
   location: Reloth Ancestral Tomb
   content: store:/shots/2018-01-01-reloth-ancestral-tomb.png
   type: shot
@@ -27,6 +28,7 @@
 2018-01-02-nchuleftingth:
   title: Nchuleftingth
   titleRu: Нчулефтингт
+  placement: Outdoors
   location: Nchuleftingth
   content: store:/shots/2018-01-02-nchuleftingth.png
   type: shot
@@ -54,6 +56,7 @@
 2018-01-03-one-more-evening-in-balmora:
   title: One More Evening in Balmora
   titleRu: Ещё один вечер в Балморе
+  placement: Outdoors
   location: Balmora
   content: store:/shots/2018-01-03-one-more-evening-in-balmora.png
   type: shot
@@ -82,6 +85,7 @@
 2018-01-04-arch-over-the-trail:
   title: Arch Over the Trail
   titleRu: Арка над тропой
+  placement: Outdoors
   content: store:/shots/2018-01-04-arch-over-the-trail.png
   type: shot
   author: dehero
@@ -105,6 +109,7 @@
 2018-01-05-guards-of-skyrim-mission-in-ebonheart:
   title: Guards of Skyrim Mission in Ebonheart
   titleRu: Стража миссии Скайрима в Эбенгарде
+  placement: Indoors
   location: Ebonheart, Skyrim Mission
   content: store:/shots/2018-01-05-guards-of-skyrim-mission-in-ebonheart.png
   type: shot
@@ -138,6 +143,7 @@
 2018-01-06-guardian-of-ice-rocks:
   title: Guardian of Ice Rocks
   titleRu: Страж ледяных скал
+  placement: Outdoors
   content: store:/shots/2018-01-06-guardian-of-ice-rocks.png
   type: shot
   author: dehero
@@ -187,6 +193,7 @@
 2018-01-07-vistha-kai-warden-of-the-corprusarium:
   title: Vistha-Kai, Warden of the Corprusarium
   titleRu: Виста-Кай, смотритель Корпрусариума
+  placement: Indoors
   location: Corprusarium
   content: store:/shots/2018-01-07-vistha-kai-warden-of-the-corprusarium.png
   type: shot
@@ -216,6 +223,7 @@
 2018-01-08-aqueduct-of-old-mournhold:
   title: Aqueduct of Old Mournhold
   titleRu: Акведук Старого Морнхолда
+  placement: Indoors
   location: 'Old Mournhold: Moril Manor, Courtyard'
   content: store:/shots/2018-01-08-aqueduct-of-old-mournhold.png
   type: shot
@@ -248,6 +256,7 @@
 2018-01-09-dead-trees-of-the-east-coast:
   title: Dead Trees of the East Coast
   titleRu: Мёртвые деревья восточного побережья
+  placement: Outdoors
   content: store:/shots/2018-01-09-dead-trees-of-the-east-coast.png
   type: shot
   author: dehero
@@ -294,6 +303,7 @@
 2018-01-10-rayana-drolans-shack:
   title: Rayana Drolan's Shack
   titleRu: Лачуга Райны Дролан
+  placement: Outdoors
   content: store:/shots/2018-01-10-rayana-drolans-shack.png
   type: shot
   author: dehero
@@ -324,6 +334,7 @@
 2018-01-11-dance-of-dagoth:
   title: Dance of Dagoth
   titleRu: Танец Дагота
+  placement: Indoors
   content: store:/shots/2018-01-11-dance-of-dagoth.png
   type: shot
   author: dehero
@@ -381,6 +392,7 @@
 2018-01-12-dark-brotherhood-apprentice:
   title: Dark Brotherhood Apprentice
   titleRu: Ученик Тёмного Братства
+  placement: Indoors
   content: store:/shots/2018-01-12-dark-brotherhood-apprentice.png
   type: shot
   author: dehero
@@ -409,6 +421,7 @@
 2018-01-13-coming-to-balmora:
   title: Coming to Balmora
   titleRu: Прибытие в Балмору
+  placement: Outdoors
   location: Balmora
   content: store:/shots/2018-01-13-coming-to-balmora.png
   type: shot
@@ -462,6 +475,7 @@
 2018-01-14-clothiers-table:
   title: Clothier's Table
   titleRu: Столик портнихи
+  placement: Indoors
   content: store:/shots/2018-01-14-clothiers-table.png
   type: shot
   author: dehero
@@ -511,6 +525,7 @@
 2018-01-15-no-students-for-hasphat-antabolis:
   title: No Students for Hasphat Antabolis
   titleRu: Хасфат Антаболис в поиске учеников
+  placement: Indoors
   content: store:/shots/2018-01-15-no-students-for-hasphat-antabolis.png
   type: shot
   author: dehero
@@ -537,6 +552,7 @@
 2018-01-16-birth-of-fabricant:
   title: Birth of Fabricant
   titleRu: Рождение фабриканта
+  placement: Indoors
   content: store:/shots/2018-01-16-birth-of-fabricant.png
   type: shot
   author: dehero
@@ -594,6 +610,7 @@
 2018-01-17-nelas-ancestral-tomb:
   title: Nelas Ancestral Tomb
   titleRu: Родовая гробница Неласов
+  placement: Outdoors
   location: Nelas Ancestral Tomb
   content: store:/shots/2018-01-17-nelas-ancestral-tomb.png
   type: shot
@@ -621,6 +638,7 @@
 2018-01-18-endless-dream:
   title: Endless Dream
   titleRu: Вечный сон
+  placement: Indoors
   content: store:/shots/2018-01-18-endless-dream.png
   type: shot
   author: dehero

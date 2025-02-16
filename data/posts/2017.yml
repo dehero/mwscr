@@ -12464,6 +12464,7 @@
 2017-11-29-ingmars-house:
   title: Ingmar's House
   titleRu: Дом Ингмара
+  placement: Outdoors
   location: Skaal Village, Ingmar's House
   content: store:/shots/2017-11-29-ingmars-house.png
   type: shot
@@ -12491,6 +12492,7 @@
 2017-11-30-lava-kwama:
   title: Lava Kwama
   titleRu: Лавовые квама
+  placement: Indoors
   content: store:/shots/2017-11-30-lava-kwama.png
   type: shot
   author: dehero
@@ -12540,6 +12542,7 @@
 2017-12-01-speak-quickly-outlander:
   title: Speak Quickly, Outlander
   titleRu: Говори скорее
+  placement: Indoors
   content: store:/shots/2017-12-01-speak-quickly-outlander.png
   type: shot
   author: dehero
@@ -12566,6 +12569,7 @@
 2017-12-02-overnight-in-the-ice:
   title: Overnight in the Ice
   titleRu: Ночлег во льдах
+  placement: Indoors
   content: store:/shots/2017-12-02-overnight-in-the-ice.png
   type: shot
   author: dehero
@@ -12591,6 +12595,7 @@
 2017-12-03-upper-circles:
   title: Upper Circles
   titleRu: Высокие круги
+  placement: Indoors
   content: store:/shots/2017-12-03-upper-circles.png
   type: shot
   author: dehero
@@ -12639,6 +12644,7 @@
 2017-12-04-ruins-in-a-mountain-dead-end:
   title: Ruins in a Mountain Dead End
   titleRu: Руины в горном тупике
+  placement: Outdoors
   content: store:/shots/2017-12-04-ruins-in-a-mountain-dead-end.png
   type: shot
   author: dehero
@@ -12687,6 +12693,7 @@
 2017-12-05-in-the-boat-by-the-pier:
   title: In the Boat by the Pier
   titleRu: В лодке у причала
+  placement: Outdoors
   content: store:/shots/2017-12-05-in-the-boat-by-the-pier.png
   type: shot
   author: dehero
@@ -12716,6 +12723,7 @@
 2017-12-06-ready-for-a-sermon:
   title: Ready for a Sermon
   titleRu: Всё готово к проповеди
+  placement: Indoors
   content: store:/shots/2017-12-06-ready-for-a-sermon.png
   type: shot
   author: dehero
@@ -12772,6 +12780,7 @@
 2017-12-07-puzzled-ashlanders:
   title: Puzzled Ashlanders
   titleRu: Озадаченные эшлендеры
+  placement: Outdoors
   content: store:/shots/2017-12-07-puzzled-ashlanders.png
   type: shot
   author: dehero
@@ -12822,6 +12831,7 @@
 2017-12-08-lower-circle:
   title: Lower Circle
   titleRu: Низший круг
+  placement: Indoors
   content: store:/shots/2017-12-08-lower-circle.png
   type: shot
   author: dehero
@@ -12887,6 +12897,7 @@
 2017-12-09-berth-near-grotto:
   title: Berth Near Grotto
   titleRu: Причал у грота
+  placement: Outdoors
   content: store:/shots/2017-12-09-berth-near-grotto.png
   type: shot
   author: dehero
@@ -12922,6 +12933,7 @@
 2017-12-10-crates-and-pillows:
   title: Crates and Pillows
   titleRu: Подушки и ящики
+  placement: Indoors
   content: store:/shots/2017-12-10-crates-and-pillows.png
   type: shot
   author: dehero
@@ -12975,6 +12987,7 @@
 2017-12-11-princess-of-dusk-and-dawn:
   title: Princess of Dusk and Dawn
   titleRu: Принцесса рассвета и заката
+  placement: Indoors
   location: Shrine of Azura
   content: store:/shots/2017-12-11-princess-of-dusk-and-dawn.png
   type: shot
@@ -13029,6 +13042,7 @@
 2017-12-12-roar-of-a-bear:
   title: Roar of a Bear
   titleRu: Медвежий рёв
+  placement: Outdoors
   content: store:/shots/2017-12-12-roar-of-a-bear.png
   type: shot
   author: dehero
@@ -13055,6 +13069,7 @@
 2017-12-13-docks-of-ald-velothi:
   title: Docks of Ald Velothi
   titleRu: В доках Альд Велоти
+  placement: Outdoors
   location: Ald Velothi
   content: store:/shots/2017-12-13-docks-of-ald-velothi.png
   type: shot
@@ -13111,6 +13126,7 @@
 2017-12-14-northern-light:
   title: Northern Light
   titleRu: Северный свет
+  placement: Outdoors
   content: store:/shots/2017-12-14-northern-light.png
   type: shot
   author: dehero
@@ -13135,6 +13151,7 @@
 2017-12-15-burning-pipes-of-arkngthand:
   title: Burning Pipes of Arkngthand
   titleRu: Горящие трубы Аркнтанда
+  placement: Indoors
   content: store:/shots/2017-12-15-burning-pipes-of-arkngthand.png
   type: shot
   author: dehero
@@ -13162,6 +13179,7 @@
 2017-12-16-ashy-hills:
   title: Ashy Hills
   titleRu: Пепельные холмы
+  placement: Outdoors
   content: store:/shots/2017-12-16-ashy-hills.png
   type: shot
   author: dehero
@@ -13218,6 +13236,7 @@
 2017-12-18-water-ripples:
   title: Water Ripples
   titleRu: Круги на воде
+  placement: Outdoors
   content: store:/shots/2017-12-18-water-ripples.png
   type: shot
   author: dehero
@@ -13243,6 +13262,7 @@
 2017-12-19-chief-tharsten-reflects-by-the-hearth:
   title: Chief Tharsten Reflects by the Hearth
   titleRu: Вождь Тарстен размышляет у очага
+  placement: Indoors
   content: store:/shots/2017-12-19-chief-tharsten-reflects-by-the-hearth.png
   type: shot
   author: dehero
@@ -13268,6 +13288,7 @@
 2017-12-20-athanden-girith-grieves-over-the-stolen-hides:
   title: Athanden Girith Grieves Over the Stolen Hides
   titleRu: Атанден Гирит скорбит об украденных шкурах
+  placement: Outdoors
   content: store:/shots/2017-12-20-athanden-girith-grieves-over-the-stolen-hides.png
   type: shot
   author: dehero
@@ -13294,6 +13315,7 @@
 2017-12-21-miners-slide:
   title: Miners' Slide
   titleRu: Шахтёрская горка
+  placement: Outdoors
   location: Raven Rock
   content: store:/shots/2017-12-21-miners-slide.png
   type: shot
@@ -13325,6 +13347,7 @@
 2017-12-22-note-to-telvon:
   title: Note to Telvon
   titleRu: Записка Телвону
+  placement: Outdoors
   content: store:/shots/2017-12-22-note-to-telvon.png
   type: shot
   author: dehero
@@ -13350,6 +13373,7 @@
 2017-12-23-secret-love:
   title: Secret Love
   titleRu: Тайная любовь
+  placement: Outdoors
   location: Seyda Neen
   content: store:/shots/2017-12-23-secret-love.png
   type: shot
@@ -13375,6 +13399,7 @@
 2017-12-24-little-helper:
   title: Little Helper
   titleRu: Маленький помощник
+  placement: Outdoors
   location: Mournhold, Great Bazaar
   content: store:/shots/2017-12-24-little-helper.png
   type: shot
@@ -13407,6 +13432,7 @@
 2017-12-25-corridors-of-tribunal:
   title: Corridors of Tribunal
   titleRu: Коридоры Трибунала
+  placement: Indoors
   content: store:/shots/2017-12-25-corridors-of-tribunal.png
   type: shot
   author: dehero
@@ -13433,6 +13459,7 @@
 2017-12-26-with-a-view-of-ashalmawia:
   title: With a View of Ashalmawia
   titleRu: С видом на Ашалмавию
+  placement: Outdoors
   location:
     - Ald Velothi
     - Ashalmawia
@@ -13459,6 +13486,7 @@
 2017-12-27-entrance-to-nchurdamz:
   title: Entrance to Nchurdamz
   titleRu: Вход в Нчурдамц
+  placement: Outdoors
   location: Nchurdamz
   content: store:/shots/2017-12-27-entrance-to-nchurdamz.png
   type: shot
@@ -13485,6 +13513,7 @@
 2017-12-28-triple-storage:
   title: Triple Storage
   titleRu: Тройные запасы
+  placement: Indoors
   content: store:/shots/2017-12-28-triple-storage.png
   type: shot
   author: dehero
@@ -13535,6 +13564,7 @@
 2017-12-29-crab-creek:
   title: Crab Creek
   titleRu: Крабовый залив
+  placement: Outdoors
   content: store:/shots/2017-12-29-crab-creek.png
   type: shot
   author: dehero
@@ -13560,6 +13590,7 @@
 2017-12-30-time-to-meet-the-ancestors:
   title: Time to Meet the Ancestors
   titleRu: Время встретиться с предками
+  placement: Indoors
   content: store:/shots/2017-12-30-time-to-meet-the-ancestors.png
   type: shot
   author: dehero
@@ -13588,6 +13619,7 @@
 2017-12-31-night-rendezvous:
   title: Night Rendezvous
   titleRu: Ночное рандеву
+  placement: Outdoors
   location: Mournhold, Temple Courtyard
   content: store:/shots/2017-12-31-night-rendezvous.png
   type: shot
