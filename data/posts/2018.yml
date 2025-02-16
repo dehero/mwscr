@@ -4726,7 +4726,7 @@
     - service: vk
       id: 1546
       published: 2024-05-25-18-18-01
-      updated: 2025-02-09-20-07-28
+      updated: 2025-02-16-20-08-07
       followers: 918
       likes: 37
       views: 294
@@ -12418,20 +12418,20 @@
       id: DF-3pqzpcCB
       mediaId: '18048203351229493'
       published: 2025-02-12-18-10-55
-      updated: 2025-02-15-19-01-23
+      updated: 2025-02-16-20-08-02
       followers: 1534
-      likes: 92
-      views: 307
+      likes: 95
+      views: 316
       comments: !c |-
         CyiAkZTLQnlPtgLeAACuZG9vdHNfc3Bvb2ttYW6/QXJlIHRoZXNlIHRha2VuIHJ1bm5pbmcgT3Bl
         bk1XP5PLQnlPtjdbgAClbXdzY3KmcmlnaHQuAw==
     - service: vk
       id: 2126
       published: 2025-02-12-18-35-09
-      updated: 2025-02-15-19-01-22
+      updated: 2025-02-16-20-08-01
       followers: 1066
-      likes: 27
-      views: 198
+      likes: 29
+      views: 238
       reposts: 1
       comments: !c |-
         G1UBAJwJto2K9cDiFUhZnnieuGGW6D8vLoSCtJIEd5vYCJP3XblZYmQ72TjeZy0aklreYv5n4+t3
@@ -12441,10 +12441,10 @@
     - service: tg
       id: 705
       published: 2025-02-12-18-35-16
-      updated: 2025-02-15-19-01-22
+      updated: 2025-02-16-20-08-00
       followers: 674
-      likes: 53
-      views: 266
+      likes: 54
+      views: 302
 2018-11-19-the-city-of-gondolas:
   title: The City of Gondolas
   titleRu: Город гондол
