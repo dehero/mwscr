@@ -182,6 +182,16 @@ Roles: `foreigner`
 aleksey
 ```
 
+### Blu
+
+[Telegram](https://t.me/tcnspih)
+
+Roles: `foreigner`  
+
+```
+blu
+```
+
 ### CAIUS COSADES
 
 [Telegram](https://t.me/Gatemate7)

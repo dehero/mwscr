@@ -14,6 +14,11 @@ aleksey:
   name: Алексей
   profiles:
     tg: avrongols
+blu:
+  telegramBotChatId: 5511607316
+  name: Blu
+  profiles:
+    tg: tcnspih
 buck-the-cuck:
   profiles:
     ig: buck_the_cuck
