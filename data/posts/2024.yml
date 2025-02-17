@@ -343,7 +343,7 @@
     - service: vk
       id: 1442
       published: 2024-03-10-18-00-51
-      updated: 2025-02-10-21-07-50
+      updated: 2025-02-17-22-07-36
       followers: 895
       likes: 34
       views: 252
@@ -351,7 +351,7 @@
     - service: tg
       id: 341
       published: 2024-03-10-18-00-59
-      updated: 2025-02-10-21-07-43
+      updated: 2025-02-17-22-07-27
       followers: 349
       likes: 60
       views: 516
@@ -505,7 +505,7 @@
     - service: vk
       id: 1455
       published: 2024-03-17-18-09-55
-      updated: 2025-02-10-21-07-49
+      updated: 2025-02-17-22-07-36
       followers: 896
       likes: 42
       views: 327
@@ -514,10 +514,10 @@
     - service: tg
       id: 349
       published: 2024-03-17-18-10-02
-      updated: 2025-02-10-21-07-43
+      updated: 2025-02-17-22-07-27
       followers: 353
       likes: 64
-      views: 500
+      views: 501
       comments: !c ixCAkZPLQnjk2fJHgACx2YXYrdmF2K8g2K7Yp9mE2K+kQ29vbAM=
 2024-03-18-evening-on-azuras-coast: 2017-05-18-evening-on-azuras-coast
 2024-03-19-dirty-muriels-cornerclub:
@@ -821,7 +821,7 @@
     - service: vk
       id: 1476
       published: 2024-03-31-18-10-32
-      updated: 2025-02-10-21-07-48
+      updated: 2025-02-17-22-07-34
       followers: 905
       likes: 29
       views: 264
@@ -829,10 +829,10 @@
     - service: tg
       id: 363
       published: 2024-03-31-18-10-38
-      updated: 2025-02-10-21-07-41
+      updated: 2025-02-17-22-07-26
       followers: 354
       likes: 58
-      views: 492
+      views: 493
 2024-04-01-at-the-edge-of-sheogorad: 2017-11-18-at-the-edge-of-sheogorad
 2024-04-02-hanged-man:
   title: Hanged Man
@@ -1583,10 +1583,10 @@
     - service: vk
       id: 1519
       published: 2024-05-05-18-17-05
-      updated: 2025-02-10-21-07-44
+      updated: 2025-02-17-22-07-30
       followers: 913
       likes: 38
-      views: 275
+      views: 276
       comments: !c |-
         G4oBoBypnX6YvuB5uFbDK1RUbS0U2bYXEZolcJbv4+gBnbqtVEONaheb+RwP87q1YhXQm+1Epz60
         v91g1IUBTuviIg0sznYBRphtkzbRYZUX4woiLD48/oxMX2Q258pDb02lio+/VQ2cswmMK9sQaSFG
@@ -1596,7 +1596,7 @@
     - service: tg
       id: 399
       published: 2024-05-05-18-17-11
-      updated: 2025-02-10-21-07-38
+      updated: 2025-02-17-22-07-23
       followers: 370
       likes: 61
       views: 484
@@ -1787,17 +1787,17 @@
     - service: tg
       id: 406
       published: 2024-05-12-18-20-07
-      updated: 2025-02-10-21-07-37
+      updated: 2025-02-17-22-07-23
       followers: 371
       likes: 57
       views: 460
     - service: vk
       id: 1530
       published: 2024-05-12-19-11-11
-      updated: 2025-02-10-21-07-43
+      updated: 2025-02-17-22-07-29
       followers: 915
       likes: 28
-      views: 253
+      views: 254
 2024-05-13-pray-with-the-saints: 2017-02-01-pray-with-the-saints
 2024-05-14-climbing-aboard-the-elf-skerring: 2017-02-09-climbing-aboard-the-elf-skerring
 2024-05-15-royal-draggle-tail:
@@ -1922,10 +1922,10 @@
     - service: vk
       id: 1538
       published: 2024-05-19-18-18-25
-      updated: 2025-02-10-21-07-42
+      updated: 2025-02-17-22-07-28
       followers: 916
-      likes: 37
-      views: 253
+      likes: 38
+      views: 254
       reposts: 1
     - service: tg
       id: 413
@@ -2112,10 +2112,10 @@
     - service: vk
       id: 1576
       published: 2024-06-09-18-18-45
-      updated: 2025-02-10-21-07-39
+      updated: 2025-02-17-22-07-26
       followers: 916
       likes: 33
-      views: 282
+      views: 283
     - service: tg
       id: 434
       published: 2024-06-09-18-18-52
