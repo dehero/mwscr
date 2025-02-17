@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.37.0](https://github.com/dehero/mwscr/compare/v1.36.1...v1.37.0) (2025-02-17)
+
+### Features
+
+- **site:** discard blurry background on post previews in favor of cropped previews
+  ([9067024](https://github.com/dehero/mwscr/commit/90670245ae473835f3cb4180e01f3c002d199d4f))
+- **site:** implement post type icons
+  ([9219bb0](https://github.com/dehero/mwscr/commit/9219bb01561ca6b6b2e7f7ece2f611f0c934172b))
+
 ## [1.36.1](https://github.com/dehero/mwscr/compare/v1.36.0...v1.36.1) (2025-02-14)
 
 ### Performance Improvements
