@@ -122,6 +122,7 @@ export async function createPostInfo(
     title: post.title,
     titleRu: post.titleRu,
     description: post.description,
+    descriptionRu: post.descriptionRu,
     location: post.location,
     placement: post.placement,
     content: post.content,
