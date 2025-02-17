@@ -46,6 +46,7 @@ import { Toast, useToaster } from '../Toaster/Toaster.js';
 import { UserTooltip } from '../UserTooltip/UserTooltip.js';
 import { WorldMap } from '../WorldMap/WorldMap.js';
 import styles from './PostPage.module.css';
+import { PostTypeGlyph } from '../PostTypeGlyph/PostTypeGlyph.jsx';
 
 export const PostPage = (): JSX.Element => {
   const { addToast, messageBox } = useToaster();
@@ -377,7 +378,14 @@ export const PostPage = (): JSX.Element => {
                   },
                   {
                     label: 'Type',
-                    value: postTypeDescriptors[postInfo().type].title,
+                    value: () => (
+                      <>
+                        <Icon color="combat" size="small" variant="flat" class={styles.icon}>
+                          <PostTypeGlyph type={postInfo().type} />
+                        </Icon>
+                        {postTypeDescriptors[postInfo().type].title}
+                      </>
+                    ),
                     link: postsRoute.createUrl({ managerName: params().managerName, type: postInfo().type }),
                   },
                   ...postInfo().authorOptions.map(

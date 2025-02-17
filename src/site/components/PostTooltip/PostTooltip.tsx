@@ -15,6 +15,7 @@ import { Divider } from '../Divider/Divider.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import { PostContentPreview } from '../PostContentPreview/PostContentPreview.jsx';
+import { PostTypeGlyph } from '../PostTypeGlyph/PostTypeGlyph.jsx';
 import { useToaster } from '../Toaster/Toaster.jsx';
 import type { TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
@@ -119,7 +120,13 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
         </span>
       </Show>
       <Show when={local.postInfo.type}>
-        <span class={styles.type}>Type: {postTypeDescriptors[local.postInfo.type].title}</span>
+        <span class={styles.type}>
+          {'Type: '}
+          <Icon color="combat" size="small" variant="flat" class={styles.icon}>
+            <PostTypeGlyph type={local.postInfo.type} />
+          </Icon>
+          {postTypeDescriptors[local.postInfo.type].title}
+        </span>
       </Show>
       <Show when={local.postInfo.authorOptions.length}>
         <span class={styles.author}>

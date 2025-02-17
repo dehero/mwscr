@@ -110,14 +110,16 @@ export const Tooltip: Component<TooltipProps> = (props) => {
           variant="thin"
           class={clsx(styles.tooltip, props.class)}
           style={{
-            transform: `translate(${Math.min(
-              Math.max(-CURSOR_OFFSET_X, position()!.x - (size.width ?? 0) / 2),
-              window.innerWidth - (size.width ?? 0) - CURSOR_OFFSET_X,
-            )}px, ${
+            transform: `translate(${Math.round(
+              Math.min(
+                Math.max(-CURSOR_OFFSET_X, position()!.x - (size.width ?? 0) / 2),
+                window.innerWidth - (size.width ?? 0) - CURSOR_OFFSET_X,
+              ),
+            )}px, ${Math.round(
               position()!.y + CURSOR_OFFSET_Y + (size.height ?? 0) > window.innerHeight && invertedTooltipY() > 0
                 ? invertedTooltipY()
-                : position()!.y + CURSOR_OFFSET_Y
-            }px)`,
+                : position()!.y + CURSOR_OFFSET_Y,
+            )}px)`,
           }}
         >
           {children()}

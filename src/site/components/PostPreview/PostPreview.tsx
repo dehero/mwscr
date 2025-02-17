@@ -12,6 +12,7 @@ import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import { PostContentPreview } from '../PostContentPreview/PostContentPreview.jsx';
 import { PostTooltip } from '../PostTooltip/PostTooltip.js';
+import { PostTypeGlyph } from '../PostTypeGlyph/PostTypeGlyph.jsx';
 import { Spacer } from '../Spacer/Spacer.js';
 import styles from './PostPreview.module.css';
 
@@ -116,6 +117,16 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
                 }
               >
                 <Frame class={styles.icons}>
+                  <Icon color="combat" size="small" variant="flat">
+                    <PostTypeGlyph type={props.postInfo.type} />
+                  </Icon>
+
+                  <Show when={props.postInfo.mark}>
+                    <Icon color="combat" size="small" variant="flat">
+                      {props.postInfo.mark?.[0]}
+                    </Icon>
+                  </Show>
+
                   <For each={authorLetters()}>
                     {(letter) => (
                       <Icon size="small" variant="flat" color="stealth">
@@ -131,13 +142,6 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
                       </Icon>
                     )}
                   </Show>
-
-                  <Show when={props.postInfo.mark}>
-                    <Icon color="combat" size="small" variant="flat">
-                      {props.postInfo.mark?.[0]}
-                    </Icon>
-                  </Show>
-
                   <Show when={props.postInfo.violation}>
                     {(violation) => (
                       <Icon color="health" size="small" variant="flat">
