@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`47 items`
+`48 items`
+
+## <span id="2025-02-17-grazing-guar">Grazing Guar</span>
+
+`RU` Пасущийся гуар
+
+<a href="https://instagram.com/p/BXm4Oamj1CB/" title="2017-08-10-grazing-guar"><img alt="store:/shots/2017-08-10-grazing-guar.png" src="../../assets/previews/shots/2017-08-10-grazing-guar.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-02-17-grazing-guar&amp;postContent=store%3A%2Fshots%2F2017-08-10-grazing-guar.png&amp;postTitle=Grazing+Guar&amp;postTitleRu=%D0%9F%D0%B0%D1%81%D1%83%D1%89%D0%B8%D0%B9%D1%81%D1%8F+%D0%B3%D1%83%D0%B0%D1%80&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Bitter+Coast+Region&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Bitter Coast Region` `🚀 OpenMW`
+
+```
+2025-02-17-grazing-guar
+```
+
+> `2017-08-10-grazing-guar`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BXm4Oamj1CB/)       | 2017-08-10 |       |    49 |       192 |      25.52 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_386)  | 2017-08-10 |   117 |     4 |        75 |       5.33 |
+| [`ig`](https://instagram.com/p/DGLvl1opXZD/)       | 2025-02-17 |       |       |      1539 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |       |       |      1084 |            |
+| [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |       |       |       678 |            |
+|                                                    |            |       |       |      3301 |            |
 
 ## <span id="2025-02-16-nchurdamz-at-the-sunset">Nchurdamz at the Sunset</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BRXvJmKDcu0/)       | 2017-03-08 |       |    43 |       105 |      40.95 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_188)  | 2017-03-08 |   142 |     9 |        44 |          9 |
-| [`ig`](https://instagram.com/p/DGJKqKVyLQy/)       | 2025-02-16 |   379 |    99 |      1538 |       6.44 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2133) | 2025-02-16 |   178 |    34 |      1071 |       3.36 |
-| [`tg`](https://t.me/mwscr/712)                     | 2025-02-16 |   162 |    57 |       677 |       8.42 |
-|                                                    |            |   719 |   190 |      3286 |       6.07 |
+| [`ig`](https://instagram.com/p/DGJKqKVyLQy/)       | 2025-02-16 |   388 |    99 |      1538 |       6.44 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2133) | 2025-02-16 |   182 |    35 |      1071 |       3.45 |
+| [`tg`](https://t.me/mwscr/712)                     | 2025-02-16 |   165 |    57 |       677 |       8.42 |
+|                                                    |            |   735 |   191 |      3286 |        6.1 |
 
 #### Comments
 
@@ -62,9 +89,9 @@
 | [`ig`](https://instagram.com/p/BOwBgBAFlLP/)       | 2017-01-02 |       |    35 |        57 |       61.4 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_50)   | 2017-01-22 |    95 |     4 |         4 |          4 |
 | [`ig`](https://instagram.com/p/DGGnmWJT-BO/)       | 2025-02-15 |   439 |    80 |      1533 |       5.22 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2132) | 2025-02-15 |   219 |    41 |      1070 |       4.02 |
-| [`tg`](https://t.me/mwscr/711)                     | 2025-02-15 |   220 |    59 |       677 |       8.71 |
-|                                                    |            |   878 |   180 |      3280 |       5.98 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2132) | 2025-02-15 |   220 |    42 |      1070 |       4.11 |
+| [`tg`](https://t.me/mwscr/711)                     | 2025-02-15 |   222 |    59 |       677 |       8.71 |
+|                                                    |            |   881 |   181 |      3280 |       6.02 |
 
 #### Comments
 
@@ -96,10 +123,10 @@
 | [`ig`](https://instagram.com/p/BpNQHT-BoiQ/)       | 2018-10-21 |       |   112 |       447 |      25.06 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_998)  | 2018-10-21 |   389 |    31 |           |            |
 | [`tg`](https://t.me/mwscr/89,90,91,92,93)          | 2018-10-21 |   235 |     3 |           |            |
-| [`ig`](https://instagram.com/p/DGEBRCtzBuX/)       | 2025-02-14 |   224 |    72 |      1533 |        4.7 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2130) | 2025-02-14 |   386 |    50 |      1070 |       5.23 |
-| [`tg`](https://t.me/mwscr/707,708,709,710)         | 2025-02-14 |   241 |    55 |       675 |       8.15 |
-|                                                    |            |   851 |   177 |      3278 |       6.03 |
+| [`ig`](https://instagram.com/p/DGEBRCtzBuX/)       | 2025-02-14 |   240 |    75 |      1533 |       4.89 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2130) | 2025-02-14 |   439 |    55 |      1070 |        5.7 |
+| [`tg`](https://t.me/mwscr/707,708,709,710)         | 2025-02-14 |   270 |    59 |       675 |       8.74 |
+|                                                    |            |   949 |   189 |      3278 |       6.44 |
 
 #### Comments
 
@@ -132,10 +159,10 @@
 | [`ig`](https://instagram.com/p/CfKLDX6sxiS/)       | 2022-06-23 |       |   265 |      1088 |      24.36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1303) | 2022-06-23 |   994 |    79 |       700 |         12 |
 | [`tg`](https://t.me/mwscr/246)                     | 2022-06-23 |  1169 |    85 |       226 |      37.61 |
-| [`ig`](https://instagram.com/p/DGBdJ0-PH1J/)       | 2025-02-13 |   259 |    83 |      1534 |       5.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2129) | 2025-02-13 |   295 |    51 |      1069 |       5.05 |
-| [`tg`](https://t.me/mwscr/706)                     | 2025-02-13 |   240 |    56 |       676 |       8.28 |
-|                                                    |            |   794 |   190 |      3279 |       6.25 |
+| [`ig`](https://instagram.com/p/DGBdJ0-PH1J/)       | 2025-02-13 |   269 |    85 |      1534 |       5.54 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2129) | 2025-02-13 |   314 |    55 |      1069 |       5.43 |
+| [`tg`](https://t.me/mwscr/706)                     | 2025-02-13 |   269 |    57 |       676 |       8.43 |
+|                                                    |            |   852 |   197 |      3279 |       6.47 |
 
 #### Comments
 

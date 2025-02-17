@@ -55,7 +55,7 @@
       id: DGGnmWJT-BO
       mediaId: '18035517593426073'
       published: 2025-02-15-18-24-38
-      updated: 2025-02-17-17-02-03
+      updated: 2025-02-17-18-10-13
       followers: 1533
       likes: 80
       views: 439
@@ -65,18 +65,18 @@
     - service: vk
       id: 2132
       published: 2025-02-15-18-24-45
-      updated: 2025-02-17-17-02-03
+      updated: 2025-02-17-18-10-11
       followers: 1070
-      likes: 41
-      views: 219
+      likes: 42
+      views: 220
       reposts: 2
     - service: tg
       id: 711
       published: 2025-02-15-18-24-51
-      updated: 2025-02-17-17-02-02
+      updated: 2025-02-17-18-10-11
       followers: 677
       likes: 59
-      views: 220
+      views: 222
 2017-01-03-census-and-excise-office-from-lighthouse:
   title: Census and Excise Office from Lighthouse
   titleRu: Офис Канцелярии Налогов и Сборов с маяка
@@ -2676,26 +2676,26 @@
       id: DGJKqKVyLQy
       mediaId: '18046144337035450'
       published: 2025-02-16-18-09-27
-      updated: 2025-02-17-17-02-01
+      updated: 2025-02-17-18-10-12
       followers: 1538
       likes: 99
-      views: 379
+      views: 388
       comments: !c CxaAkZPLQnlRS5xdAACpdG9tbXl0b2pht0tlZXAgdXAgdGhlIGdyZWF0IHdvcmshAw==
     - service: vk
       id: 2133
       published: 2025-02-16-18-09-34
-      updated: 2025-02-17-17-02-01
+      updated: 2025-02-17-18-10-10
       followers: 1071
-      likes: 34
-      views: 178
+      likes: 35
+      views: 182
       reposts: 2
     - service: tg
       id: 712
       published: 2025-02-16-18-09-40
-      updated: 2025-02-17-17-02-02
+      updated: 2025-02-17-18-10-11
       followers: 677
       likes: 57
-      views: 162
+      views: 165
       comments: !c |-
         izKAkZPLQnlQ/7sSAACrYWFyeWNoYWdvZmbZTdCT0LvQsNCy0L3QvtC1IC0g0L3QtSDQv9GD0YLQ
         sNGC0Ywg0J3Rh9GD0YDQtNCw0LzRhiDQuCDQndGH0LDRgNC00YPQvNGGLiDwn5iBAw==
@@ -3430,15 +3430,15 @@
     - service: vk
       id: 1583
       published: 2024-06-16-18-19-48
-      updated: 2025-02-10-17-06-08
+      updated: 2025-02-17-18-10-23
       followers: 918
       likes: 52
-      views: 378
+      views: 379
       reposts: 3
     - service: tg
       id: 441
       published: 2024-06-16-18-19-56
-      updated: 2025-02-10-17-06-07
+      updated: 2025-02-17-18-10-20
       followers: 386
       likes: 60
       views: 542
@@ -7104,18 +7104,18 @@
     - service: vk
       id: 1659
       published: 2024-07-28-18-20-53
-      updated: 2025-02-10-17-06-01
+      updated: 2025-02-17-18-10-16
       followers: 923
       likes: 38
-      views: 306
+      views: 307
       reposts: 2
     - service: tg
       id: 483
       published: 2024-07-28-18-21-02
-      updated: 2025-02-10-17-06-01
+      updated: 2025-02-17-18-10-14
       followers: 402
       likes: 59
-      views: 2345
+      views: 2351
 2017-07-01-training-room:
   title: Training Room
   titleRu: Тренировочная комната
@@ -8205,10 +8205,10 @@
     - service: vk
       id: 1635
       published: 2024-07-14-18-21-58
-      updated: 2025-02-10-17-06-03
+      updated: 2025-02-17-18-10-19
       followers: 919
       likes: 31
-      views: 264
+      views: 265
       reposts: 1
       comments: !c |-
         G1sBAJwFzrmcjkH4LpGb3KLx/zwnG+G3yc7AZhBZoJ1IEk/uU900wj751Q25cGVZ88KgwPfeJmtZ
@@ -8218,7 +8218,7 @@
     - service: tg
       id: 469
       published: 2024-07-14-18-22-05
-      updated: 2025-02-10-17-06-03
+      updated: 2025-02-17-18-10-16
       followers: 398
       likes: 53
       views: 503
@@ -8608,6 +8608,19 @@
       followers: 75
       likes: 4
       views: 117
+    - service: ig
+      id: DGLvl1opXZD
+      mediaId: '17906384352096938'
+      published: 2025-02-17-18-10-41
+      followers: 1539
+    - service: vk
+      id: 2134
+      published: 2025-02-17-18-10-47
+      followers: 1084
+    - service: tg
+      id: 713
+      published: 2025-02-17-18-10-54
+      followers: 678
 2017-08-11-west-gash:
   title: West Gash
   titleRu: Западное нагорье
@@ -11872,7 +11885,7 @@
     - service: tg
       id: 420
       published: 2024-05-26-18-17-52
-      updated: 2025-02-10-17-06-10
+      updated: 2025-02-17-18-10-21
       followers: 377
       likes: 63
       views: 453
@@ -12068,14 +12081,14 @@
     - service: vk
       id: 1609
       published: 2024-06-30-18-20-32
-      updated: 2025-02-10-17-06-06
+      updated: 2025-02-17-18-10-21
       followers: 918
       likes: 36
-      views: 253
+      views: 254
     - service: tg
       id: 455
       published: 2024-06-30-18-20-40
-      updated: 2025-02-10-17-06-05
+      updated: 2025-02-17-18-10-18
       followers: 388
       likes: 57
       views: 675
@@ -13004,10 +13017,10 @@
     - service: vk
       id: 1621
       published: 2024-07-07-18-18-57
-      updated: 2025-02-10-17-06-05
+      updated: 2025-02-17-18-10-20
       followers: 919
       likes: 37
-      views: 294
+      views: 295
       comments: !c |-
         G60A4B0Hdiyz8PBedh9P7CdbXWlHHz8umbqgDmzCQGEliiWbkuVd1G36nGcVGsKW6cme82sX3GwC
         L2ADTsQDogB3nga8P68YzcH78+Mxx50wfW+Py348z6/tet/2/4tQO44t+bIexT4wgJ1uPKw4jrN+
@@ -13015,7 +13028,7 @@
     - service: tg
       id: 462
       published: 2024-07-07-18-19-06
-      updated: 2025-02-10-17-06-04
+      updated: 2025-02-17-18-10-17
       followers: 393
       likes: 55
       views: 520
