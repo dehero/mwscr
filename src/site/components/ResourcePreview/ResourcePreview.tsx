@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
 import { Match, onMount, Show, Switch } from 'solid-js';
-import { getAspectRatioHeightMultiplier, type MediaAspectRatio } from '../../../core/entities/media.js';
+import type { MediaAspectRatio } from '../../../core/entities/media.js';
 import { parseResourceUrl } from '../../../core/entities/resource.js';
 import { getResourcePreviewUrl } from '../../data-managers/resources.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
@@ -18,9 +18,8 @@ export interface ResourcePreviewProps {
   onError?: () => void;
   showTooltip?: boolean;
   aspectRatio?: MediaAspectRatio;
-  maxHeightMultiplier?: number;
   alt?: string;
-  state?: FrameState;
+  frameState?: FrameState;
 }
 
 export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
@@ -51,11 +50,6 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
     }
   });
 
-  const needBlurredBackground = () =>
-    props.aspectRatio && props.maxHeightMultiplier
-      ? props.maxHeightMultiplier < getAspectRatioHeightMultiplier(props.aspectRatio)
-      : false;
-
   return (
     <Show when={url()} keyed>
       {(url) => (
@@ -65,50 +59,25 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
               variant="thin"
               class={clsx(styles.fallback, props.class)}
               style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
-              state={props.state}
+              state={props.frameState}
             >
               <span class={styles.url}>{props.url}</span>
             </Frame>
           }
         >
           <Match when={parsedUrl().protocol === 'store:'}>
-            <Show
-              when={needBlurredBackground()}
-              fallback={
-                <Frame
-                  component="img"
-                  src={url}
-                  ref={ref}
-                  class={clsx(styles.preview, props.class)}
-                  draggable="false"
-                  onLoad={handleLoad}
-                  onError={handleError}
-                  style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
-                  aria-label={url === YellowExclamationMark ? 'yellow exclamation mark' : props.alt || props.url}
-                  state={props.state}
-                />
-              }
-            >
-              <Frame class={clsx(styles.blurredBackgroundWrapper, props.class)} state={props.state}>
-                <img
-                  src={url}
-                  class={styles.blurredBackground}
-                  draggable="false"
-                  style={{ 'aspect-ratio': `1 / ${props.maxHeightMultiplier ?? 1}` }}
-                />
-
-                <img
-                  src={url}
-                  ref={ref}
-                  class={styles.preview}
-                  draggable="false"
-                  onLoad={handleLoad}
-                  onError={handleError}
-                  style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
-                  aria-label={url === YellowExclamationMark ? 'yellow exclamation mark' : props.alt || props.url}
-                />
-              </Frame>
-            </Show>
+            <Frame
+              component="img"
+              src={url}
+              ref={ref}
+              class={clsx(styles.preview, props.class)}
+              draggable="false"
+              onLoad={handleLoad}
+              onError={handleError}
+              style={props.aspectRatio ? { 'aspect-ratio': props.aspectRatio } : undefined}
+              aria-label={url === YellowExclamationMark ? 'yellow exclamation mark' : props.alt || props.url}
+              state={props.frameState}
+            />
 
             <Show when={props.showTooltip}>
               <Tooltip forRef={ref}>{props.url}</Tooltip>

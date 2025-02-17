@@ -123,6 +123,7 @@ interface PostTypeDescriptor {
   title: string;
   titleRu: string;
   letter: string;
+  aspectRatio: MediaAspectRatio;
 }
 
 interface PostMarkDescriptor {
@@ -170,13 +171,13 @@ const defaultTags = Object.freeze<PostTagDescriptor[]>([
 ]);
 
 export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescriptor>>({
-  shot: { title: 'Shot', titleRu: 'Кадр', letter: 'S' },
-  'shot-set': { title: 'Shot-Set', titleRu: 'Подборка', letter: 'H' },
-  video: { title: 'Video', titleRu: 'Видео', letter: 'V' },
-  clip: { title: 'Clip', titleRu: 'Клип', letter: 'C' },
-  redrawing: { title: 'Redrawing', titleRu: 'Перерисовка', letter: 'R' },
-  wallpaper: { title: 'Wallpaper', titleRu: 'Обои', letter: 'W' },
-  'wallpaper-v': { title: 'Vertical Wallpaper', titleRu: 'Вертикальные обои', letter: 'M' },
+  shot: { title: 'Shot', titleRu: 'Кадр', letter: 'S', aspectRatio: '1/1' },
+  'shot-set': { title: 'Shot-Set', titleRu: 'Подборка', letter: 'H', aspectRatio: '1/1' },
+  video: { title: 'Video', titleRu: 'Видео', letter: 'V', aspectRatio: '16/9' },
+  clip: { title: 'Clip', titleRu: 'Клип', letter: 'C', aspectRatio: '1/1' },
+  redrawing: { title: 'Redrawing', titleRu: 'Перерисовка', letter: 'R', aspectRatio: '1/1' },
+  wallpaper: { title: 'Wallpaper', titleRu: 'Обои', letter: 'W', aspectRatio: '16/9' },
+  'wallpaper-v': { title: 'Vertical Wallpaper', titleRu: 'Вертикальные обои', letter: 'M', aspectRatio: '9/19.5' },
 });
 
 export const postMarkDescriptors = Object.freeze<Record<PostMark, PostMarkDescriptor>>({
@@ -334,18 +335,6 @@ export function isPostEqual(a: Post, b: Partial<Post>): boolean {
 
 export function getPostTypeFromContent(content?: PostContent): PostType | undefined {
   return PostVariant.options.find((variant) => is(variant.entries.content, content))?.entries.type.literal;
-}
-
-export function getPostTypeAspectRatio(type: PostType): MediaAspectRatio {
-  if (type === 'video' || type === 'wallpaper') {
-    return '16/9';
-  }
-
-  if (type === 'wallpaper-v') {
-    return '9/19.5';
-  }
-
-  return '1/1';
 }
 
 export function getPostContentDistance(content: PostContent, postEntries: PostEntries): PostDistance {

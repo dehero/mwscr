@@ -5,12 +5,7 @@ import type { JSX } from 'solid-js';
 import { createMemo, createResource, createSignal, Match, onMount, Show, Switch } from 'solid-js';
 import { navigate } from 'vike/client/router';
 import { usePageContext } from 'vike-solid/usePageContext';
-import {
-  getPostDateById,
-  getPostTypeAspectRatio,
-  postTypeDescriptors,
-  postViolationDescriptors,
-} from '../../../core/entities/post.js';
+import { getPostDateById, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
 import { postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
@@ -36,6 +31,7 @@ import { Input } from '../Input/Input.js';
 import { LocationTooltip } from '../LocationTooltip/LocationTooltip.js';
 import { PostComments } from '../PostComments/PostComments.js';
 import { PostPublications } from '../PostPublications/PostPublications.js';
+import { PostTypeGlyph } from '../PostTypeGlyph/PostTypeGlyph.jsx';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import { ResourcePreviews } from '../ResourcePreviews/ResourcePreviews.js';
 import { ResourceSelector } from '../ResourceSelector/ResourceSelector.js';
@@ -46,7 +42,6 @@ import { Toast, useToaster } from '../Toaster/Toaster.js';
 import { UserTooltip } from '../UserTooltip/UserTooltip.js';
 import { WorldMap } from '../WorldMap/WorldMap.js';
 import styles from './PostPage.module.css';
-import { PostTypeGlyph } from '../PostTypeGlyph/PostTypeGlyph.jsx';
 
 export const PostPage = (): JSX.Element => {
   const { addToast, messageBox } = useToaster();
@@ -71,7 +66,7 @@ export const PostPage = (): JSX.Element => {
   const titleRu = () => postInfo()?.titleRu || 'Без названия';
   const content = () => asArray(postInfo()?.content);
   const contentPublicUrls = () => content().map((url) => store.getPublicUrl(parseResourceUrl(url).pathname));
-  const aspectRatio = () => (postInfo() ? getPostTypeAspectRatio(postInfo()!.type) : '1/1');
+  const aspectRatio = () => (postInfo() ? postTypeDescriptors[postInfo()!.type].aspectRatio : '1/1');
   const alt = () => postInfo()?.tags?.join(' ');
 
   const selectedContent = () => content()[selectedContentIndex()];

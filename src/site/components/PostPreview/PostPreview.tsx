@@ -1,7 +1,8 @@
 import clsx from 'clsx';
 import { type Component, createSignal, For, Show } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
-import { getPostTypeAspectRatio, postViolationDescriptors } from '../../../core/entities/post.js';
+import { getLimitedAspectRatio } from '../../../core/entities/media.js';
+import { postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
@@ -35,7 +36,13 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
   const requesterLetter = () =>
     props.postInfo.requesterOption ? getUserTitleLetter(props.postInfo.requesterOption.label) : undefined;
   const url = () => postRoute.createUrl({ managerName: props.postInfo.managerName, id: props.postInfo.id });
-  const aspectRatio = () => getPostTypeAspectRatio(props.postInfo.type);
+  const minHeightMultiplier = () => (props.postInfo.description ? undefined : 1);
+  const aspectRatio = () =>
+    getLimitedAspectRatio(
+      postTypeDescriptors[props.postInfo.type].aspectRatio,
+      minHeightMultiplier(),
+      props.maxHeightMultiplier,
+    );
   const alt = () => props.postInfo.tags?.join(' ');
   const frameState = () => (props.selected ? 'selected' : props.postInfo.status ? 'unsaved' : undefined);
 
@@ -68,6 +75,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
           type={props.postInfo.type}
           alt={alt()}
           frameState={frameState()}
+          minHeightMultiplier={minHeightMultiplier()}
           maxHeightMultiplier={props.maxHeightMultiplier}
           fallback={
             <Show when={props.postInfo.request}>

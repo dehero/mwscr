@@ -44,7 +44,7 @@
 
 .contentPreview {
   max-width: 324px;
-  max-height: 324px;
+  /* max-height: 324px; */
 }
 
 .tags {

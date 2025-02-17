@@ -82,3 +82,8 @@
   display: inline-flex;
   flex-flow: row nowrap;
 }
+
+.description {
+  display: -webkit-box;
+  line-clamp: 3;
+}

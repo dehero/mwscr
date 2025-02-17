@@ -31,3 +31,22 @@ export function getAspectRatioHeightMultiplier(aspectRatio: MediaAspectRatio) {
   const [w, h] = aspectRatio.split('/');
   return Number(h) / Number(w);
 }
+
+export function getLimitedAspectRatio(
+  aspectRatio: MediaAspectRatio,
+  minHeightMultiplier: number | undefined,
+  maxHeightMultiplier: number | undefined,
+) {
+  const [w, h] = aspectRatio.split('/');
+  const width = Number(w);
+  let height = Number(h);
+  const heightMultiplier = getAspectRatioHeightMultiplier(aspectRatio);
+
+  if (minHeightMultiplier && heightMultiplier < minHeightMultiplier) {
+    height = width * minHeightMultiplier;
+  } else if (maxHeightMultiplier && heightMultiplier > maxHeightMultiplier) {
+    height = width * maxHeightMultiplier;
+  }
+
+  return aspectRatioFromSize(width, height);
+}
