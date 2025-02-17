@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.37.1](https://github.com/dehero/mwscr/compare/v1.37.0...v1.37.1) (2025-02-17)
+
+### Bug Fixes
+
+- **site:** add description on Russian to post info
+  ([d7cd01e](https://github.com/dehero/mwscr/commit/d7cd01e7c954e2f3332900e4d80d136034c73069))
+
 ## [1.37.0](https://github.com/dehero/mwscr/compare/v1.36.1...v1.37.0) (2025-02-17)
 
 ### Features
