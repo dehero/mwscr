@@ -2676,17 +2676,17 @@
       id: DGJKqKVyLQy
       mediaId: '18046144337035450'
       published: 2025-02-16-18-09-27
-      updated: 2025-02-17-22-07-20
+      updated: 2025-02-17-23-07-26
       followers: 1538
-      likes: 101
-      views: 408
+      likes: 103
+      views: 411
       comments: !c |-
         G2YAYJ2JsY2C85julNcsP29/KZ4czyYwnO2eoFRKsulKENL/PRLVxSlDhABracoDLvo5K524FAs2
         xtaXoBkNj7lew/zT8VkgFT4I7FMyRONjyr+SRhgDRKYj2tBSBjTJHTzcmw2lOEoO
     - service: vk
       id: 2133
       published: 2025-02-16-18-09-34
-      updated: 2025-02-17-22-07-20
+      updated: 2025-02-17-23-07-28
       followers: 1071
       likes: 37
       views: 198
@@ -2694,10 +2694,10 @@
     - service: tg
       id: 712
       published: 2025-02-16-18-09-40
-      updated: 2025-02-17-22-07-19
+      updated: 2025-02-17-23-07-26
       followers: 677
       likes: 61
-      views: 186
+      views: 187
       comments: !c |-
         izKAkZPLQnlQ/7sSAACrYWFyeWNoYWdvZmbZTdCT0LvQsNCy0L3QvtC1IC0g0L3QtSDQv9GD0YLQ
         sNGC0Ywg0J3Rh9GD0YDQtNCw0LzRhiDQuCDQndGH0LDRgNC00YPQvNGGLiDwn5iBAw==
@@ -4228,17 +4228,17 @@
       id: DFnseKAT28i
       mediaId: '18140510668337607'
       published: 2025-02-03-18-10-45
-      updated: 2025-02-10-22-07-42
+      updated: 2025-02-17-23-07-27
       followers: 1535
-      likes: 94
-      views: 316
+      likes: 99
+      views: 346
     - service: vk
       id: 2110
       published: 2025-02-03-18-10-54
-      updated: 2025-02-10-22-07-43
+      updated: 2025-02-17-23-07-29
       followers: 1059
-      likes: 44
-      views: 348
+      likes: 45
+      views: 381
       reposts: 2
       comments: !c |-
         G6YCgKyLd9mEERHbmqbg0J0wvbMsjnriHg3hm1D+TH4sErRwQQpaKWClhJE9VacE8MGxAubmTGmO
@@ -4251,10 +4251,10 @@
     - service: tg
       id: 693
       published: 2025-02-03-18-11-03
-      updated: 2025-02-10-22-07-43
+      updated: 2025-02-17-23-07-27
       followers: 664
-      likes: 65
-      views: 461
+      likes: 66
+      views: 548
       comments: !c |-
         iyqAkZPLQnlO8kY5gACqRGltYW1vdG9kcNk+0JrQsNC6INGA0LDQtyDRgdC10LnRh9Cw0YEg0L/R
         gNC+0YXQvtC20YMg0Y3RgtC4INC60LLQtdGB0YLRiykD
@@ -8614,24 +8614,24 @@
       id: DGLvl1opXZD
       mediaId: '17906384352096938'
       published: 2025-02-17-18-10-41
-      updated: 2025-02-17-22-07-18
+      updated: 2025-02-17-23-07-25
       followers: 1539
-      likes: 34
-      views: 112
+      likes: 36
+      views: 121
     - service: vk
       id: 2134
       published: 2025-02-17-18-10-47
-      updated: 2025-02-17-22-07-19
+      updated: 2025-02-17-23-07-26
       followers: 1084
-      likes: 17
-      views: 86
+      likes: 18
+      views: 91
     - service: tg
       id: 713
       published: 2025-02-17-18-10-54
-      updated: 2025-02-17-22-07-18
+      updated: 2025-02-17-23-07-25
       followers: 678
-      likes: 38
-      views: 103
+      likes: 39
+      views: 105
 2017-08-11-west-gash:
   title: West Gash
   titleRu: Западное нагорье
