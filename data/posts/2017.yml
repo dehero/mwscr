@@ -8221,6 +8221,7 @@
 2017-08-01-clannfear-parade:
   title: Clannfear Parade
   titleRu: Парад ужасов
+  placement: Outdoors
   content: store:/shots/2017-08-01-clannfear-parade.png
   type: shot
   author: dehero
@@ -8247,6 +8248,7 @@
 2017-08-02-over-the-lava:
   title: Over the Lava
   titleRu: Над лавой
+  placement: Indoors
   content: store:/shots/2017-08-02-over-the-lava.png
   type: shot
   author: dehero
@@ -8298,6 +8300,7 @@
 2017-08-03-maelkashishi:
   title: Maelkashishi
   titleRu: Мелкашиши
+  placement: Outdoors
   location: Maelkashishi
   content: store:/shots/2017-08-03-maelkashishi.png
   type: shot
@@ -8325,6 +8328,7 @@
 2017-08-04-coastal-muckspunge:
   title: Coastal Muckspunge
   titleRu: Прибрежный мускспунж
+  placement: Outdoors
   content: store:/shots/2017-08-04-coastal-muckspunge.png
   type: shot
   author: dehero
@@ -8351,6 +8355,7 @@
 2017-08-05-camp-under-the-bridge:
   title: Camp Under the Bridge
   titleRu: Лагерь под мостом
+  placement: Outdoors
   content: store:/shots/2017-08-05-camp-under-the-bridge.png
   type: shot
   author: dehero
@@ -8402,6 +8407,7 @@
 2017-08-06-the-embrace-of-azura:
   title: The Embrace of Azura
   titleRu: Объятия Азуры
+  placement: Indoors
   content: store:/shots/2017-08-06-the-embrace-of-azura.png
   type: shot
   author: dehero
@@ -8429,6 +8435,7 @@
 2017-08-07-snow-wolf-near-the-lair:
   title: Snow Wolf Near the Lair
   titleRu: Снежный волк у логова
+  placement: Outdoors
   content: store:/shots/2017-08-07-snow-wolf-near-the-lair.png
   type: shot
   author: dehero
@@ -8457,6 +8464,7 @@
 2017-08-08-elanius-camp:
   title: Elanius Camp
   titleRu: Лагерь Эланиусов
+  placement: Outdoors
   location: Elanius Camp
   content: store:/shots/2017-08-08-elanius-camp.png
   type: shot
@@ -8516,6 +8524,8 @@
 2017-08-10-grazing-guar:
   title: Grazing Guar
   titleRu: Пасущийся гуар
+  placement: Outdoors
+  location: Bitter Coast Region
   content: store:/shots/2017-08-10-grazing-guar.png
   type: shot
   author: dehero
@@ -8566,6 +8576,7 @@
 2017-08-12-fearsome-grahl:
   title: Fearsome Grahl
   titleRu: Грозный грахл
+  placement: Indoors
   content: store:/shots/2017-08-12-fearsome-grahl.png
   type: shot
   author: dehero
@@ -8671,6 +8682,8 @@
 2017-08-14-maiq-the-liar:
   title: M'Aiq the Liar
   titleRu: М'Айк Лжец
+  placement: Outdoors
+  location: Sheogorad Region
   content: store:/shots/2017-08-14-maiq-the-liar.png
   type: shot
   author: dehero
@@ -8697,6 +8710,7 @@
 2017-08-15-yagrum-bagarn-talks-to-uupse-fyr:
   title: Yagrum Bagarn Talks to Uupse Fyr
   titleRu: Ягрум Багарн беседует с Уупсой Фир
+  placement: Indoors
   location: Corprusarium
   content: store:/shots/2017-08-15-yagrum-bagarn-talks-to-uupse-fyr.png
   type: shot
@@ -8757,6 +8771,7 @@
 2017-08-16-falas-ancestral-tomb:
   title: Falas Ancestral Tomb
   titleRu: Родовая гробница Фалас
+  placement: Outdoors
   location: Falas Ancestral Tomb
   content: store:/shots/2017-08-16-falas-ancestral-tomb.png
   type: shot
@@ -8809,6 +8824,7 @@
 2017-08-17-water-stone:
   title: Water Stone
   titleRu: Камень Воды
+  placement: Outdoors
   content: store:/shots/2017-08-17-water-stone.png
   type: shot
   author: dehero
@@ -8859,6 +8875,7 @@
 2017-08-18-captain-bedrir:
   title: Captain Bedrir
   titleRu: Капитан Бедрир
+  placement: Indoors
   content: store:/shots/2017-08-18-captain-bedrir.png
   type: shot
   author: dehero
@@ -8935,6 +8952,7 @@
 2017-08-20-sadrith-mora-at-night:
   title: Sadrith Mora at Night
   titleRu: Садрит Мора в ночи
+  placement: Outdoors
   location: Sadrith Mora
   content: store:/shots/2017-08-20-sadrith-mora-at-night.png
   type: shot
@@ -8961,6 +8979,7 @@
 2017-08-21-meanwhile-in-vivec:
   title: Meanwhile in Vivec
   titleRu: Тем временем в Вивеке
+  placement: Outdoors
   location: Vivec
   content: store:/shots/2017-08-21-meanwhile-in-vivec.png
   type: shot
@@ -8988,6 +9007,7 @@
 2017-08-22-arkngthunch-sturdumz:
   title: Arkngthunch-Sturdumz
   titleRu: Аркнгтунч-Штурдумц
+  placement: Outdoors
   location: Arkngthunch-Sturdumz
   content: store:/shots/2017-08-22-arkngthunch-sturdumz.png
   type: shot
@@ -9020,6 +9040,7 @@
 2017-08-23-blessed-rain:
   title: Blessed Rain
   titleRu: Благословенный дождь
+  placement: Outdoors
   content: store:/shots/2017-08-23-blessed-rain.png
   type: shot
   author: dehero
@@ -9046,6 +9067,7 @@
 2017-08-24-wraith-of-sul-senipul:
   title: Wraith of Sul-Senipul
   titleRu: Призрак Сул-Сенипула
+  placement: Indoors
   content: store:/shots/2017-08-24-wraith-of-sul-senipul.png
   type: shot
   author: dehero
@@ -9121,6 +9143,7 @@
 2017-08-26-raven-rock:
   title: Raven Rock
   titleRu: Воронья Скала
+  placement: Outdoors
   location: Raven Rock
   content: store:/shots/2017-08-26-raven-rock.png
   type: shot
@@ -9174,6 +9197,7 @@
 2017-08-27-deadly-pass:
   title: Deadly Pass
   titleRu: Смертельный проход
+  placement: Indoors
   content: store:/shots/2017-08-27-deadly-pass.png
   type: shot
   author: dehero
@@ -9203,6 +9227,7 @@
 2017-08-28-shishara:
   title: Shishara
   titleRu: Шишара
+  placement: Outdoors
   location: Shishara
   content: store:/shots/2017-08-28-shishara.png
   type: shot
@@ -9250,6 +9275,7 @@
 2017-08-29-at-the-coast-of-hirstaang-forest:
   title: At the Coast of Hirstaang Forest
   titleRu: На берегу Леса Хирстаанг
+  placement: Outdoors
   content: store:/shots/2017-08-29-at-the-coast-of-hirstaang-forest.png
   type: shot
   author: dehero
@@ -9279,6 +9305,7 @@
 2017-08-30-ulfgar-the-unending-in-his-dwelling:
   title: Ulfgar the Unending in His Dwelling
   titleRu: Ульфгар Бесконечный в своём жилище
+  placement: Indoors
   content: store:/shots/2017-08-30-ulfgar-the-unending-in-his-dwelling.png
   type: shot
   author: dehero
@@ -9303,6 +9330,7 @@
 2017-08-31-guard-tower-of-suran:
   title: Guard Tower of Suran
   titleRu: Башня стражи Сурана
+  placement: Outdoors
   location: Suran
   content: store:/shots/2017-08-31-guard-tower-of-suran.png
   type: shot
@@ -9361,6 +9389,7 @@
 2017-09-01-the-last-refuge:
   title: The Last Refuge
   titleRu: Последнее прибежище
+  placement: Outdoors
   content: store:/shots/2017-09-01-the-last-refuge.png
   type: shot
   author: dehero
@@ -9384,6 +9413,7 @@
 2017-09-02-vivec-at-a-loss:
   title: Vivec at a Loss
   titleRu: Вивек в растерянности
+  placement: Outdoors
   location: Vivec, Temple
   content: store:/shots/2017-09-02-vivec-at-a-loss.png
   type: shot
@@ -9443,6 +9473,7 @@
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
+  placement: Outdoors
   content: store:/shots/2017-09-03-night-halt.png
   type: shot
   author: dehero
@@ -9468,6 +9499,7 @@
 2017-09-04-eye-of-a-needle:
   title: Eye of a Needle
   titleRu: Игольное ушко
+  placement: Outdoors
   content: store:/shots/2017-09-04-eye-of-a-needle.png
   type: shot
   author: dehero
@@ -9517,6 +9549,7 @@
 2017-09-06-dark-morning-in-the-colony:
   title: Dark Morning in the Colony
   titleRu: Мрачное утро в колонии
+  placement: Outdoors
   location: Raven Rock
   content: store:/shots/2017-09-06-dark-morning-in-the-colony.png
   type: shot
@@ -9568,6 +9601,7 @@
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки
+  placement: Indoors
   content: store:/shots/2017-09-07-wise-womans-table.png
   type: shot
   author: dehero
@@ -9593,6 +9627,7 @@
 2017-09-08-sky-castle:
   title: Sky Castle
   titleRu: Замок в небе
+  placement: Outdoors
   location: Ebonheart
   content: store:/shots/2017-09-08-sky-castle.png
   type: shot
@@ -9620,6 +9655,7 @@
 2017-09-09-floating-bottle:
   title: Floating Bottle
   titleRu: Плавучая бутылка
+  placement: Outdoors
   content: store:/shots/2017-09-09-floating-bottle.png
   type: shot
   author: dehero
@@ -9646,6 +9682,7 @@
 2017-09-10-mzahnch:
   title: Mzahnch
   titleRu: Мзанч
+  placement: Outdoors
   location: Mzahnch
   content: store:/shots/2017-09-10-mzahnch.png
   type: shot
@@ -9674,6 +9711,7 @@
 2017-09-11-inside-arc-of-tel-vos:
   title: Inside Arc of Tel Vos
   titleRu: Под аркой Тель Воса
+  placement: Outdoors
   location:
     - Tel Vos
     - Vos
@@ -9702,6 +9740,7 @@
 2017-09-12-ice-prisoner:
   title: Ice Prisoner
   titleRu: Ледяной узник
+  placement: Indoors
   content: store:/shots/2017-09-12-ice-prisoner.png
   type: shot
   author: dehero
@@ -9730,6 +9769,7 @@
 2017-09-13-netches-have-fallen-out:
   title: Netches Have Fallen Out
   titleRu: Нетчи в ссоре
+  placement: Indoors
   content: store:/shots/2017-09-13-netches-have-fallen-out.png
   type: shot
   author: dehero
@@ -9775,6 +9815,7 @@
 2017-09-14-abandoned-island:
   title: Abandoned Island
   titleRu: Покинутый остров
+  placement: Outdoors
   location: An Abandoned Shack
   content: store:/shots/2017-09-14-abandoned-island.png
   type: shot
@@ -9829,6 +9870,7 @@
 2017-09-15-lava-swamps:
   title: Lava Swamps
   titleRu: Лавовые болота
+  placement: Outdoors
   content: store:/shots/2017-09-15-lava-swamps.png
   type: shot
   author: dehero
@@ -9854,6 +9896,7 @@
 2017-09-16-fort-surrounded-by-fir-trees:
   title: Fort Surrounded by Fir-Trees
   titleRu: Форт среди елей
+  placement: Indoors
   location: Fort Frostmoth
   content: store:/shots/2017-09-16-fort-surrounded-by-fir-trees.png
   type: shot
@@ -9913,6 +9956,7 @@
 2017-09-17-night-square:
   title: Night Square
   titleRu: Ночная площадь
+  placement: Outdoors
   location: Balmora
   content: store:/shots/2017-09-17-night-square.png
   type: shot
@@ -9943,6 +9987,7 @@
 2017-09-18-frugal-meal:
   title: Frugal Meal
   titleRu: Скромная трапеза
+  placement: Indoors
   content: store:/shots/2017-09-18-frugal-meal.png
   type: shot
   author: dehero
@@ -9968,6 +10013,7 @@
 2017-09-19-ald-velothi-ienas-arvels-shack:
   title: Ald Velothi, Ienas Arvel's Shack
   titleRu: Альд Велоти, хижина Еназа Арвела
+  placement: Outdoors
   location: Ald Velothi, Ienas Arvel's Shack
   content: store:/shots/2017-09-19-ald-velothi-ienas-arvels-shack.png
   type: shot
@@ -9992,6 +10038,7 @@
 2017-09-20-director-of-corprusarium:
   title: Director of Corprusarium
   titleRu: Директор корпрусариума
+  placement: Indoors
   location: Tower of Tel Fyr, Hall of Fyr
   content: store:/shots/2017-09-20-director-of-corprusarium.png
   type: shot
@@ -10025,6 +10072,7 @@
 2017-09-21-flight:
   title: Flight
   titleRu: Полёт
+  placement: Outdoors
   content: store:/shots/2017-09-21-flight.png
   type: shot
   author: dehero
@@ -10083,6 +10131,7 @@
 2017-09-22-near-gnisis-eggmine:
   title: Near Gnisis Eggmine
   titleRu: У яичной шахты Гнисиса
+  placement: Outdoors
   location: Gnisis
   content: store:/shots/2017-09-22-near-gnisis-eggmine.png
   type: shot
@@ -10134,6 +10183,7 @@
 2017-09-23-misty-halt:
   title: Misty Halt
   titleRu: Привал во мгле
+  placement: Outdoors
   content: store:/shots/2017-09-23-misty-halt.png
   type: shot
   author: dehero
@@ -10160,6 +10210,7 @@
 2017-09-24-ash-yam-plantation:
   title: Ash Yam Plantation
   titleRu: Плантация пепельного батата
+  placement: Outdoors
   content: store:/shots/2017-09-24-ash-yam-plantation.png
   type: shot
   author: dehero
@@ -10186,6 +10237,7 @@
 2017-09-25-in-a-mushroom-house:
   title: In a Mushroom House
   titleRu: В грибном доме
+  placement: Indoors
   content: store:/shots/2017-09-25-in-a-mushroom-house.png
   type: shot
   author: dehero
@@ -10211,6 +10263,7 @@
 2017-09-26-bridges:
   title: Bridges
   titleRu: Мосты
+  placement: Outdoors
   content: store:/shots/2017-09-26-bridges.png
   type: shot
   author: dehero
@@ -10236,6 +10289,7 @@
 2017-09-27-aground:
   title: Aground
   titleRu: На мели
+  placement: Outdoors
   content: store:/shots/2017-09-27-aground.png
   type: shot
   author: dehero
@@ -10290,6 +10344,7 @@
 2017-09-28-mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
+  placement: Outdoors
   content: store:/shots/2017-09-28-mining-company-office.png
   type: shot
   author: dehero
@@ -10313,6 +10368,7 @@
 2017-09-29-rain-of-sparks:
   title: Rain of Sparks
   titleRu: Дождь из искр
+  placement: Indoors
   location: Sotha Sil, Dome of Serlyn
   content: store:/shots/2017-09-29-rain-of-sparks.png
   type: shot
@@ -10365,6 +10421,7 @@
 2017-09-30-in-a-warm-hut:
   title: In a Warm Hut
   titleRu: В тёплой хижине
+  placement: Indoors
   content: store:/shots/2017-09-30-in-a-warm-hut.png
   type: shot
   author: dehero
@@ -10388,6 +10445,7 @@
 2017-10-01-floating-over-sadrith-mora:
   title: Floating Over Sadrith Mora
   titleRu: Проплывая над Садрит Морой
+  placement: Outdoors
   location: Sadrith Mora
   content: store:/shots/2017-10-01-floating-over-sadrith-mora.png
   type: shot
@@ -10412,6 +10470,7 @@
 2017-10-02-beran-ancestral-tomb:
   title: Beran Ancestral Tomb
   titleRu: Родовая гробница Беранов
+  placement: Outdoors
   location: Beran Ancestral Tomb
   content: store:/shots/2017-10-02-beran-ancestral-tomb.png
   type: shot
@@ -10438,6 +10497,7 @@
 2017-10-03-worn-dwemer-hatch:
   title: Worn Dwemer Hatch
   titleRu: Изношенный двемерский люк
+  placement: Indoors
   content: store:/shots/2017-10-03-worn-dwemer-hatch.png
   type: shot
   author: dehero
@@ -10463,6 +10523,7 @@
 2017-10-04-in-the-evening-time:
   title: In the Evening Time
   titleRu: В вечерний час
+  placement: Outdoors
   content: store:/shots/2017-10-04-in-the-evening-time.png
   type: shot
   author: dehero
@@ -10486,6 +10547,7 @@
 2017-10-05-in-the-hall-of-thirsk:
   title: In the Hall of Thirsk
   titleRu: В зале Тирска
+  placement: Indoors
   location:
     - Solstheim, Thirsk
     - Thirsk
