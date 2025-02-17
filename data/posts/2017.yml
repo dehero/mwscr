@@ -5890,6 +5890,7 @@
 2017-05-28-masser-over-the-mournhold-temple:
   title: Masser Over the Mournhold Temple
   titleRu: Массер над храмом Морнхолда
+  placement: Outdoors
   location: Mournhold Temple
   content: store:/shots/2017-05-28-masser-over-the-mournhold-temple.png
   type: shot
@@ -5951,6 +5952,7 @@
 2017-05-29-so-hello:
   title: So Hello
   titleRu: Ну привет
+  placement: Outdoors
   content: store:/shots/2017-05-29-so-hello.png
   type: shot
   author: dehero
@@ -5976,6 +5978,7 @@
 2017-05-30-guild-guide-of-caldera:
   title: Guild Guide of Caldera
   titleRu: Проводник Гильдии магов Кальдеры
+  placement: Indoors
   location: Caldera, Guild of Mages
   content: store:/shots/2017-05-30-guild-guide-of-caldera.png
   type: shot
@@ -6003,6 +6006,7 @@
 2017-05-31-steam-and-mist:
   title: Steam and Mist
   titleRu: Пар и мгла
+  placement: Outdoors
   content: store:/shots/2017-05-31-steam-and-mist.png
   type: shot
   author: dehero
@@ -6033,6 +6037,7 @@
 2017-06-01-near-ald-velothi:
   title: Near Ald Velothi
   titleRu: У Альд Велоти
+  placement: Outdoors
   location: Ald Velothi
   content: store:/shots/2017-06-01-near-ald-velothi.png
   type: shot
@@ -6062,6 +6067,7 @@
 2017-06-02-ashes-of-d-bryant:
   title: Ashes of D. Bryant
   titleRu: Прах Д. Бриянта
+  placement: Indoors
   content: store:/shots/2017-06-02-ashes-of-d-bryant.png
   type: shot
   author: dehero
@@ -6113,6 +6119,7 @@
 2017-06-03-almalexia-pierces-dagon:
   title: Almalexia Pierces Dagon
   titleRu: Альмалексия пронзает Дагона
+  placement: Outdoors
   location: Mournhold, Plaza Brindisi Dorom
   content: store:/shots/2017-06-03-almalexia-pierces-dagon.png
   type: shot
@@ -6171,6 +6178,7 @@
 2017-06-04-bthuand:
   title: Bthuand
   titleRu: Бтуанд
+  placement: Outdoors
   location: Bthuand
   content: store:/shots/2017-06-04-bthuand.png
   type: shot
@@ -6200,6 +6208,7 @@
 2017-06-05-corridors-of-royal-palace:
   title: Corridors of Royal Palace
   titleRu: Коридоры королевского дворца
+  placement: Indoors
   content: store:/shots/2017-06-05-corridors-of-royal-palace.png
   type: shot
   author: dehero
@@ -6224,6 +6233,7 @@
 2017-06-06-vos:
   title: Vos
   titleRu: Вос
+  placement: Outdoors
   location: Vos
   content: store:/shots/2017-06-06-vos.png
   type: shot
@@ -6248,6 +6258,7 @@
 2017-06-07-god-of-madness-and-his-follower:
   title: God of Madness and His Follower
   titleRu: Бог безумия и его последователь
+  placement: Indoors
   location: Almurbalarammi, Shrine
   content: store:/shots/2017-06-07-god-of-madness-and-his-follower.png
   type: shot
@@ -6302,6 +6313,7 @@
 2017-06-08-velothi-tower-at-the-crossroads:
   title: Velothi Tower at the Crossroads
   titleRu: Велотийская башня на развилке
+  placement: Outdoors
   content: store:/shots/2017-06-08-velothi-tower-at-the-crossroads.png
   type: shot
   author: dehero
@@ -6329,6 +6341,7 @@
 2017-06-09-clannfear:
   title: Clannfear
   titleRu: Ужас клана
+  placement: Outdoors
   content: store:/shots/2017-06-09-clannfear.png
   type: shot
   author: dehero
@@ -6352,6 +6365,7 @@
 2017-06-10-ancestors-and-almalexia:
   title: Ancestors and Almalexia
   titleRu: Предки и Альмалексия
+  placement: Indoors
   content: store:/shots/2017-06-10-ancestors-and-almalexia.png
   type: shot
   author: dehero
@@ -6400,6 +6414,7 @@
 2017-06-11-castle-karstaag:
   title: Castle Karstaag
   titleRu: Замок Карстааг
+  placement: Outdoors
   location: Solstheim, Castle Karstaag
   content: store:/shots/2017-06-11-castle-karstaag.png
   type: shot
@@ -6428,6 +6443,7 @@
 2017-06-12-night-in-bal-fell:
   title: Night in Bal Fell
   titleRu: Ночь в Бал Фелле
+  placement: Outdoors
   location: Bal Fell
   content: store:/shots/2017-06-12-night-in-bal-fell.png
   type: shot
@@ -6456,6 +6472,7 @@
 2017-06-13-lava-roadsides:
   title: Lava Roadsides
   titleRu: Лавовые обочины
+  placement: Outdoors
   content: store:/shots/2017-06-13-lava-roadsides.png
   type: shot
   author: dehero
@@ -6482,6 +6499,7 @@
 2017-06-14-supper-in-seyda-neen:
   title: Supper in Seyda Neen
   titleRu: Ужин в Сейда Нине
+  placement: Indoors
   location: Seyda Neen, Terurise Girvayne's House
   content: store:/shots/2017-06-14-supper-in-seyda-neen.png
   type: shot
@@ -6513,6 +6531,7 @@
 2017-06-15-abandoned-dwellings:
   title: Abandoned Dwellings
   titleRu: Заброшенные жилища
+  placement: Outdoors
   content: store:/shots/2017-06-15-abandoned-dwellings.png
   type: shot
   author: dehero
@@ -6536,6 +6555,7 @@
 2017-06-16-in-the-port-of-tel-mora:
   title: In the Port of Tel Mora
   titleRu: В порту Тель Моры
+  placement: Outdoors
   location: Tel Mora
   content: store:/shots/2017-06-16-in-the-port-of-tel-mora.png
   type: shot
@@ -6563,6 +6583,7 @@
 2017-06-17-valbrandr-barrow:
   title: Valbrandr Barrow
   titleRu: Курган Валбрандр
+  placement: Outdoors
   content: store:/shots/2017-06-17-valbrandr-barrow.png
   type: shot
   author: dehero
@@ -6612,6 +6633,7 @@
 2017-06-18-manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
+  placement: Indoors
   content: store:/shots/2017-06-18-manse-andus-behind-the-bar.png
   type: shot
   author: dehero
@@ -6637,6 +6659,7 @@
 2017-06-19-hentus-still-looks-for-his-pants:
   title: Hentus Still Looks for His Pants
   titleRu: Хентус всё ещё ищет свои штаны
+  placement: Outdoors
   location: Gnisis
   content: store:/shots/2017-06-19-hentus-still-looks-for-his-pants.png
   type: shot
@@ -6664,6 +6687,7 @@
 2017-06-20-crossing-swampy-islands:
   title: Crossing Swampy Islands
   titleRu: Пересекая болотистые острова
+  placement: Outdoors
   content: store:/shots/2017-06-20-crossing-swampy-islands.png
   type: shot
   author: dehero
@@ -6696,6 +6720,7 @@
 2017-06-21-in-a-fishermans-hut:
   title: In a Fisherman's Hut
   titleRu: В рыбацкой хижине
+  placement: Indoors
   content: store:/shots/2017-06-21-in-a-fishermans-hut.png
   type: shot
   author: dehero
@@ -6746,6 +6771,7 @@
 2017-06-22-the-dreamer-is:
   title: The Dreamer Is...
   titleRu: Спящий просыпается...
+  placement: Indoors
   content: store:/shots/2017-06-22-the-dreamer-is.png
   type: shot
   author: dehero
@@ -6769,6 +6795,7 @@
 2017-06-23-haze:
   title: Haze
   titleRu: Мгла
+  placement: Outdoors
   location: Caldera
   content: store:/shots/2017-06-23-haze.png
   type: shot
@@ -6836,6 +6863,7 @@
 2017-06-24-entering-aldruhn:
   title: Entering Ald-ruhn
   titleRu: Вступая в Альд'рун
+  placement: Outdoors
   location: Ald-ruhn
   content: store:/shots/2017-06-24-entering-aldruhn.png
   type: shot
@@ -6918,6 +6946,7 @@
 2017-06-26-floating-over-the-green-hills:
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами
+  placement: Outdoors
   content: store:/shots/2017-06-26-floating-over-the-green-hills.png
   type: shot
   author: dehero
@@ -6944,6 +6973,7 @@
 2017-06-27-almalexia-gives-instructions-to-her-hand:
   title: Almalexia Gives Instructions to Her Hand
   titleRu: Альмалексия даёт указания своей Руке
+  placement: Indoors
   location: 'Mournhold Temple: High Chapel'
   content: store:/shots/2017-06-27-almalexia-gives-instructions-to-her-hand.png
   type: shot
@@ -6975,6 +7005,7 @@
 2017-06-28-misty-ledges:
   title: Misty Ledges
   titleRu: Туманные гряды
+  placement: Outdoors
   content: store:/shots/2017-06-28-misty-ledges.png
   type: shot
   author: dehero
@@ -7001,6 +7032,7 @@
 2017-06-29-in-sadrith-mora:
   title: In Sadrith Mora
   titleRu: В Садрит Море
+  placement: Outdoors
   location: Sadrith Mora
   content: store:/shots/2017-06-29-in-sadrith-mora.png
   type: shot
@@ -7032,6 +7064,7 @@
 2017-06-30-indoranyon:
   title: Indoranyon
   titleRu: Индоранион
+  placement: Outdoors
   location: Indoranyon
   content: store:/shots/2017-06-30-indoranyon.png
   type: shot
@@ -7085,6 +7118,7 @@
 2017-07-01-training-room:
   title: Training Room
   titleRu: Тренировочная комната
+  placement: Indoors
   content: store:/shots/2017-07-01-training-room.png
   type: shot
   author: dehero
@@ -7111,6 +7145,7 @@
 2017-07-02-ano-andaram-surveys-quarters-of-vivec:
   title: Ano Andaram Surveys Quarters of Vivec
   titleRu: Ано Андарам обозревает кварталы Вивека
+  placement: Outdoors
   location: Vivec
   content: store:/shots/2017-07-02-ano-andaram-surveys-quarters-of-vivec.png
   type: shot
@@ -7137,6 +7172,7 @@
 2017-07-03-in-the-captains-cabin:
   title: In the Captain's Cabin
   titleRu: В каюте капитана
+  placement: Indoors
   content: store:/shots/2017-07-03-in-the-captains-cabin.png
   type: shot
   author: dehero
@@ -7161,6 +7197,7 @@
 2017-07-04-alofs-farmhouse:
   title: Alof's Farmhouse
   titleRu: Ферма Алофа
+  placement: Outdoors
   location: Alof's Farmhouse
   content: store:/shots/2017-07-04-alofs-farmhouse.png
   type: shot
@@ -7216,6 +7253,7 @@
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
   titleRu: Знамя Дома Дагот
+  placement: Indoors
   content: store:/shots/2017-07-05-banner-of-house-dagoth.png
   type: shot
   author: dehero
@@ -7261,6 +7299,7 @@
 2017-07-06-snowy-granius-meets-travelers-near-arkngthand:
   title: Snowy Granius Meets Travelers Near Arkngthand
   titleRu: Граниус Снежный встречает путников у Аркнтанда
+  placement: Outdoors
   location: Arkngthand
   content: store:/shots/2017-07-06-snowy-granius-meets-travelers-near-arkngthand.png
   type: shot
@@ -7343,6 +7382,7 @@
 2017-07-08-saint-sotha:
   title: Saint Sotha
   titleRu: Святой Сота
+  placement: Indoors
   content: store:/shots/2017-07-08-saint-sotha.png
   type: shot
   author: dehero
@@ -7410,6 +7450,7 @@
 2017-07-09-near-mining-company-office:
   title: Near Mining Company Office
   titleRu: У офиса Горнодобывающей Компании
+  placement: Outdoors
   content: store:/shots/2017-07-09-near-mining-company-office.png
   type: shot
   author: dehero
@@ -7456,6 +7497,8 @@
 2017-07-10-inland-waters:
   title: Inland Waters
   titleRu: Внутренние воды
+  placement: Outdoors
+  location: Vivec
   content: store:/shots/2017-07-10-inland-waters.png
   type: shot
   author: dehero
@@ -7484,6 +7527,7 @@
 2017-07-11-behind-the-ghostfence:
   title: Behind the Ghostfence
   titleRu: За Призрачным Пределом
+  placement: Outdoors
   content: store:/shots/2017-07-11-behind-the-ghostfence.png
   type: shot
   author: dehero
@@ -7507,6 +7551,7 @@
 2017-07-12-suburb-muckspunge:
   title: Suburb Muckspunge
   titleRu: Пригородный мускспунж
+  placement: Outdoors
   content: store:/shots/2017-07-12-suburb-muckspunge.png
   type: shot
   author: dehero
@@ -7607,6 +7652,7 @@
 2017-07-14-near-the-night-campfire:
   title: Near the Night Campfire
   titleRu: Возле ночного костра
+  placement: Outdoors
   content: store:/shots/2017-07-14-near-the-night-campfire.png
   type: shot
   author: dehero
@@ -7637,6 +7683,7 @@
 2017-07-15-i-greet-you-in-pelagiad-traveler:
   title: I Greet You in Pelagiad, Traveler
   titleRu: Приветствую тебя в Пелагиаде, странник
+  placement: Outdoors
   location: Pelagiad
   content: store:/shots/2017-07-15-i-greet-you-in-pelagiad-traveler.png
   type: shot
@@ -7691,6 +7738,7 @@
 2017-07-16-mzanchend-before-the-ash-storm:
   title: Mzanchend Before the Ash Storm
   titleRu: Мзанченд перед пепельной бурей
+  placement: Outdoors
   location: Mzanchend
   content: store:/shots/2017-07-16-mzanchend-before-the-ash-storm.png
   type: shot
@@ -7718,6 +7766,7 @@
 2017-07-17-mawia-at-sunrise:
   title: Mawia at Sunrise
   titleRu: Мавия на рассвете
+  placement: Outdoors
   location: Mawia
   content: store:/shots/2017-07-17-mawia-at-sunrise.png
   type: shot
@@ -7742,6 +7791,7 @@
 2017-07-18-in-foggy-gray:
   title: In Foggy Gray
   titleRu: В туманной серости
+  placement: Outdoors
   content: store:/shots/2017-07-18-in-foggy-gray.png
   type: shot
   author: dehero
@@ -7766,6 +7816,7 @@
 2017-07-19-the-main-tower-of-tel-mora:
   title: The Main Tower of Tel Mora
   titleRu: Главная башня Тель Моры
+  placement: Outdoors
   location: Tel Mora
   content: store:/shots/2017-07-19-the-main-tower-of-tel-mora.png
   type: shot
@@ -7817,6 +7868,7 @@
 2017-07-20-fort-darius:
   title: Fort Darius
   titleRu: Форт Дариус
+  placement: Outdoors
   location: Gnisis, Fort Darius
   content: store:/shots/2017-07-20-fort-darius.png
   type: shot
@@ -7867,6 +7919,7 @@
 2017-07-21-scamp-defending-the-entrance-to-maelkashishi:
   title: Scamp Defending the Entrance to Maelkashishi
   titleRu: Скамп, охраняющий вход в Мелкашиши
+  placement: Outdoors
   location: Maelkashishi
   content: store:/shots/2017-07-21-scamp-defending-the-entrance-to-maelkashishi.png
   type: shot
@@ -7893,6 +7946,7 @@
 2017-07-22-terrace-under-the-starry-sky:
   title: Terrace Under the Starry Sky
   titleRu: Терраса под звёздным небом
+  placement: Outdoors
   location: Gnisis
   content: store:/shots/2017-07-22-terrace-under-the-starry-sky.png
   type: shot
@@ -7921,6 +7975,7 @@
 2017-07-23-sun-over-ald-sotha:
   title: Sun Over Ald Sotha
   titleRu: Солнце над Альд Сотой
+  placement: Outdoors
   location: Ald Sotha
   content: store:/shots/2017-07-23-sun-over-ald-sotha.png
   type: shot
@@ -7948,6 +8003,7 @@
 2017-07-24-modest-comfort:
   title: Modest Comfort
   titleRu: Скромный уют
+  placement: Indoors
   content: store:/shots/2017-07-24-modest-comfort.png
   type: shot
   author: dehero
@@ -8000,6 +8056,7 @@
 2017-07-26-corpse-preparation-volume-two:
   title: Corpse Preparation, Volume Two
   titleRu: О подготовке тел, т. II
+  placement: Indoors
   content: store:/shots/2017-07-26-corpse-preparation-volume-two.png
   type: shot
   author: dehero
@@ -8027,6 +8084,7 @@
 2017-07-27-rats-in-the-hold:
   title: Rats in the Hold
   titleRu: Крысы в трюме
+  placement: Indoors
   content: store:/shots/2017-07-27-rats-in-the-hold.png
   type: shot
   author: dehero
@@ -8110,6 +8168,7 @@
 2017-07-29-near-berandas:
   title: Near Berandas
   titleRu: У Берандаса
+  placement: Outdoors
   location: Berandas
   content: store:/shots/2017-07-29-near-berandas.png
   type: shot
@@ -8166,6 +8225,7 @@
 2017-07-30-in-the-sanctuary:
   title: In the Sanctuary
   titleRu: В святилище
+  placement: Indoors
   content: store:/shots/2017-07-30-in-the-sanctuary.png
   type: shot
   author: dehero
@@ -8192,6 +8252,7 @@
 2017-07-31-at-the-coast:
   title: At the Coast
   titleRu: На побережье
+  placement: Outdoors
   content: store:/shots/2017-07-31-at-the-coast.png
   type: shot
   author: dehero
