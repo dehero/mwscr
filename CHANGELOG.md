@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.37.2](https://github.com/dehero/mwscr/compare/v1.37.1...v1.37.2) (2025-02-18)
+
+### Bug Fixes
+
+- use url for posts parameters reset button
+  ([95650dc](https://github.com/dehero/mwscr/commit/95650dce3b18c769eae410e82b4c4eca748e7dd7))
+
 ## [1.37.1](https://github.com/dehero/mwscr/compare/v1.37.0...v1.37.1) (2025-02-17)
 
 ### Bug Fixes
