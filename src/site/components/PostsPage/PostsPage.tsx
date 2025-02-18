@@ -1,7 +1,7 @@
 import { createMediaQuery } from '@solid-primitives/media';
 import { makePersisted } from '@solid-primitives/storage';
 import type { JSX } from 'solid-js';
-import { createMemo, createResource, createSignal } from 'solid-js';
+import { createMemo, createResource, createSignal, Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import type { PostAction } from '../../../core/entities/post-action.js';
 import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../core/entities/post-info.js';
@@ -54,7 +54,7 @@ export const PostsPage = (): JSX.Element => {
 
   const pageContext = usePageContext();
   const routeInfo = useRouteInfo(pageContext, postsRoute);
-  const { data, params } = routeInfo;
+  const { params } = routeInfo;
 
   const parameters = usePostsPageParameters(routeInfo);
   const postActions = createMemo((): PostAction[] => postsManagerDescriptors[params().managerName].actions);
@@ -109,10 +109,8 @@ export const PostsPage = (): JSX.Element => {
     placement: parameters.placement(),
   });
 
-  const [postInfos, { refetch }] = createResource(
-    selectParams,
-    (selectParams) => dataManager.selectPostInfos(params().managerName, selectParams),
-    { initialValue: data().lastPostInfos },
+  const [postInfos, { refetch }] = createResource(selectParams, (selectParams) =>
+    dataManager.selectPostInfos(params().managerName, selectParams),
   );
 
   useLocalPatch(refetch);
@@ -130,22 +128,26 @@ export const PostsPage = (): JSX.Element => {
       />
 
       <Frame variant="thin" class={styles.posts} ref={postsRef}>
-        <PostPreviews
-          scrollTarget={postsScrollTarget()}
-          postInfos={postInfos().items}
-          label={selectPostInfosResultToString(postInfos().totalCount, postInfos().params, selected().length)}
-          selected={selected()}
-          onSelectedChange={postActions().includes('merge') ? handleSelectedChange : undefined}
-          actions={[
-            selected().length > 0 ? <Button onClick={() => setSelected([])}>Clear Selection</Button> : undefined,
-            postActions().includes('merge') && selected().length > 1 ? (
-              <Button onClick={handleMerge}>Merge</Button>
-            ) : undefined,
-            parameters.preset() ? (
-              <Button href={postsRoute.createUrl({ managerName: params().managerName })}>Reset</Button>
-            ) : undefined,
-          ]}
-        />
+        <Show when={postInfos()}>
+          {(postInfos) => (
+            <PostPreviews
+              scrollTarget={postsScrollTarget()}
+              postInfos={postInfos().items}
+              label={selectPostInfosResultToString(postInfos().totalCount, postInfos().params, selected().length)}
+              selected={selected()}
+              onSelectedChange={postActions().includes('merge') ? handleSelectedChange : undefined}
+              actions={[
+                selected().length > 0 ? <Button onClick={() => setSelected([])}>Clear Selection</Button> : undefined,
+                postActions().includes('merge') && selected().length > 1 ? (
+                  <Button onClick={handleMerge}>Merge</Button>
+                ) : undefined,
+                parameters.preset() ? (
+                  <Button href={postsRoute.createUrl({ managerName: params().managerName })}>Reset</Button>
+                ) : undefined,
+              ]}
+            />
+          )}
+        </Show>
       </Frame>
     </Frame>
   );

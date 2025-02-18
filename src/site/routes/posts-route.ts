@@ -36,10 +36,7 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
 export const postsRoute: SiteRoute<PostsRouteParams, PostsPageData, PostsPageInfo> = {
   path: '/@managerName',
   guard: ({ managerName }) => Object.keys(postsRouteInfos).includes(managerName),
-  meta: ({ managerName }, data) => ({
-    ...postsRouteInfos[managerName],
-    imageUrl: data?.lastPostInfos.items[0]?.content,
-  }),
+  meta: ({ managerName }) => postsRouteInfos[managerName],
   createUrl: (params) => {
     const { managerName, ...rest } = params;
     const searchParams = new URLSearchParams(
