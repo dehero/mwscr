@@ -78,6 +78,7 @@
   title: Travel to Nowhere
   titleRu: Путешествие в никуда
   placement: Outdoors
+  location: Vivec
   content: store:/shots/2019-02-07-travel-to-nowhere.png
   type: shot
   author: dehero
@@ -839,6 +840,7 @@
   title: Evening Road
   titleRu: Вечерняя дорога
   placement: Outdoors
+  location: Bitter Coast Region
   content: store:/shots/2019-03-04-evening-road.png
   type: shot
   author: dehero
@@ -1302,6 +1304,7 @@
   title: Misty Pairs
   titleRu: Туманные пары
   placement: Outdoors
+  location: Ascadian Isles Region
   content:
     - store:/drawings/2019-05-11-misty-pairs.png
     - store:/shots/2019-03-18-misty-pairs.png
@@ -1594,6 +1597,7 @@
   title: Three Trees by the Road
   titleRu: Три дерева у дороги
   placement: Outdoors
+  location: Grazelands Region
   content: store:/shots/2019-05-17-three-trees-by-the-road.png
   type: shot
   author: dehero
@@ -1942,6 +1946,7 @@
   title: Dead Road
   titleRu: Мёртвая дорога
   placement: Outdoors
+  location: West Gash Region
   content: store:/shots/2019-10-08-dead-road.png
   type: shot
   author: dehero
@@ -2057,6 +2062,7 @@
   title: Red Threat
   titleRu: Красная угроза
   placement: Outdoors
+  location: Red Mountain Region
   content: store:/shots/2019-10-11-red-threat.png
   type: shot
   author: dehero

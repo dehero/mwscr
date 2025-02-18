@@ -4444,6 +4444,7 @@
   title: Playing Tag
   titleRu: Игра в догонялки
   placement: Outdoors
+  location: Bitter Coast Region
   content: store:/shots/2018-04-27-playing-tag.png
   type: shot
   author: dehero
@@ -5331,6 +5332,7 @@
   title: Keep Calm and Wait for Nerevarine
   titleRu: Будь спокоен и жди Нереварина
   placement: Indoors
+  location: Vivec, Palace of Vivec
   content: store:/shots/2018-05-19-keep-calm-and-wait-for-nerevarine.png
   type: shot
   author: dehero
@@ -7236,6 +7238,7 @@
   title: Casual Viewer
   titleRu: Случайный зритель
   placement: Outdoors
+  location: Mournhold, Great Bazaar
   content: store:/shots/2018-07-11-casual-viewer.png
   type: shot
   author: dehero
@@ -8483,6 +8486,7 @@
   title: Emperor Parasols
   titleRu: Императорские зонтики
   placement: Outdoors
+  location: Ascadian Isles Region
   content: store:/shots/2018-08-17-emperor-parasols.png
   type: shot
   author: dehero
@@ -9441,6 +9445,7 @@
   title: Foggy Loneliness
   titleRu: Туманное одиночество
   placement: Outdoors
+  location: Grazelands Region
   content: store:/shots/2018-09-10-foggy-loneliness.png
   type: shot
   author: dehero
@@ -11852,6 +11857,7 @@
   title: Dwemer Bay
   titleRu: Двемерская бухта
   placement: Outdoors
+  location: Dagon Fel
   content: store:/shots/2018-11-04-dwemer-bay.png
   type: shot
   author: dehero
@@ -11994,6 +12000,7 @@
   title: Bittercup
   titleRu: Горькая Чаша
   placement: Indoors
+  location: Ald Redaynia, Tower
   content: store:/shots/2018-11-08-bittercup.png
   type: shot
   author: dehero
@@ -12166,6 +12173,7 @@
   title: Couple in Love
   titleRu: Влюблённая парочка
   placement: Outdoors
+  location: Bitter Coast Region
   content: store:/shots/2018-11-13-couple-in-love.png
   type: shot
   author: dehero
@@ -12807,6 +12815,7 @@
   title: Shore Meeting
   titleRu: Встреча на берегу
   placement: Outdoors
+  location: Ascadian Isles Region
   content: store:/shots/2018-11-29-shore-meeting.png
   type: shot
   author: dehero

@@ -615,7 +615,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-01-30-red-threat&amp;postContent=store%3A%2Fshots%2F2019-10-11-red-threat.png&amp;postTitle=Red+Threat&amp;postTitleRu=%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F+%D1%83%D0%B3%D1%80%D0%BE%D0%B7%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=E&amp;postViolation=&amp;postTrash=&amp;postRequest=) `E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-01-30-red-threat&postLocation=)</code> `🚀 OpenMW`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-01-30-red-threat&amp;postContent=store%3A%2Fshots%2F2019-10-11-red-threat.png&amp;postTitle=Red+Threat&amp;postTitleRu=%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F+%D1%83%D0%B3%D1%80%D0%BE%D0%B7%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Red+Mountain+Region&amp;postMark=E&amp;postViolation=&amp;postTrash=&amp;postRequest=) `E` `📍 Red Mountain Region` `🚀 OpenMW`
 
 ```
 2025-01-30-red-threat

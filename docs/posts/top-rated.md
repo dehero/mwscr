@@ -278,7 +278,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-08-23-blessed-rain&amp;postContent=store%3A%2Fshots%2F2017-08-23-blessed-rain.png&amp;postTitle=Blessed+Rain&amp;postTitleRu=%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D1%81%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9+%D0%B4%D0%BE%D0%B6%D0%B4%D1%8C&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=rain+statue&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-08-23-blessed-rain&postLocation=)</code> `🚀 OpenMW` `rain` `statue`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-08-23-blessed-rain&amp;postContent=store%3A%2Fshots%2F2017-08-23-blessed-rain.png&amp;postTitle=Blessed+Rain&amp;postTitleRu=%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D1%81%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9+%D0%B4%D0%BE%D0%B6%D0%B4%D1%8C&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=rain+statue&amp;postLocation=Vivec%2C+Temple&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Vivec, Temple` `🚀 OpenMW` `rain` `statue`
 
 ```
 2017-08-23-blessed-rain

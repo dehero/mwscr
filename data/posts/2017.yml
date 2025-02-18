@@ -4392,6 +4392,7 @@
   title: Azura and Fallen Nerevarines
   titleRu: Азура и павшие Нереварины
   placement: Indoors
+  location: Cavern of the Incarnate
   content: store:/shots/2017-04-18-azura-and-fallen-nerevarines.png
   type: shot
   author: dehero
@@ -4690,6 +4691,7 @@
   title: Divine Pentagon
   titleRu: Божественный пятиугольник
   placement: Indoors
+  location: Vivec, Palace of Vivec
   content: store:/shots/2017-04-26-divine-pentagon.png
   type: shot
   author: dehero
@@ -5285,6 +5287,7 @@
   title: You'd Better Do What They Say
   titleRu: Вам лучше сделать, как они говорят
   placement: Indoors
+  location: Imperial Prison Ship
   content: store:/shots/2017-05-09-youd-better-do-what-they-say.png
   type: shot
   author: dehero
@@ -5739,6 +5742,7 @@
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
   placement: Indoors
+  location: 'Mournhold, Royal Palace: Barenziah''s Chambers'
   content: store:/shots/2017-05-19-queen-mother-in-her-chambers.png
   type: shot
   author: dehero
@@ -6217,6 +6221,7 @@
   title: Ashes of D. Bryant
   titleRu: Прах Д. Бриянта
   placement: Indoors
+  location: Falas Ancestral Tomb
   content: store:/shots/2017-06-02-ashes-of-d-bryant.png
   type: shot
   author: dehero
@@ -6783,6 +6788,7 @@
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
   placement: Indoors
+  location: Maar Gan, Andus Tradehouse
   content: store:/shots/2017-06-18-manse-andus-behind-the-bar.png
   type: shot
   author: dehero
@@ -9274,6 +9280,7 @@
   title: Blessed Rain
   titleRu: Благословенный дождь
   placement: Outdoors
+  location: Vivec, Temple
   content: store:/shots/2017-08-23-blessed-rain.png
   type: shot
   author: dehero
