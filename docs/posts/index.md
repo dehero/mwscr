@@ -29,9 +29,9 @@
 | [`ig`](https://instagram.com/p/BXm4Oamj1CB/)       | 2017-08-10 |       |    49 |       192 |      25.52 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_386)  | 2017-08-10 |   117 |     4 |        75 |       5.33 |
 | [`ig`](https://instagram.com/p/DGLvl1opXZD/)       | 2025-02-17 |   185 |    50 |      1539 |       3.25 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   143 |    25 |      1084 |        2.4 |
-| [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |   137 |    43 |       678 |       6.34 |
-|                                                    |            |   465 |   118 |      3301 |          4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   146 |    25 |      1084 |        2.4 |
+| [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |   139 |    44 |       678 |       6.49 |
+|                                                    |            |   470 |   119 |      3301 |       4.05 |
 
 ## <span id="2025-02-16-nchurdamz-at-the-sunset">Nchurdamz at the Sunset</span>
 
@@ -56,9 +56,9 @@
 | [`ig`](https://instagram.com/p/BRXvJmKDcu0/)       | 2017-03-08 |       |    43 |       105 |      40.95 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_188)  | 2017-03-08 |   142 |     9 |        44 |          9 |
 | [`ig`](https://instagram.com/p/DGJKqKVyLQy/)       | 2025-02-16 |   443 |   107 |      1538 |       6.96 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2133) | 2025-02-16 |   209 |    38 |      1071 |       3.73 |
-| [`tg`](https://t.me/mwscr/712)                     | 2025-02-16 |   201 |    61 |       677 |       9.01 |
-|                                                    |            |   853 |   206 |      3286 |       6.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2133) | 2025-02-16 |   211 |    38 |      1071 |       3.73 |
+| [`tg`](https://t.me/mwscr/712)                     | 2025-02-16 |   202 |    61 |       677 |       9.01 |
+|                                                    |            |   856 |   206 |      3286 |       6.57 |
 
 #### Comments
 

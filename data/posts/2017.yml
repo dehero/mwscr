@@ -1123,17 +1123,17 @@
     - service: vk
       id: 1814
       published: 2024-10-07-18-10-38
-      updated: 2025-02-11-08-10-48
+      updated: 2025-02-18-08-11-07
       followers: 958
       likes: 41
-      views: 324
+      views: 326
     - service: tg
       id: 557
       published: 2024-10-07-18-10-45
-      updated: 2025-02-11-08-10-47
+      updated: 2025-02-18-08-11-05
       followers: 559
       likes: 62
-      views: 488
+      views: 490
 2017-01-31-clear-sky-over-caldera:
   title: Clear Sky Over Caldera
   titleRu: Чистое небо над Кальдерой
@@ -2676,7 +2676,7 @@
       id: DGJKqKVyLQy
       mediaId: '18046144337035450'
       published: 2025-02-16-18-09-27
-      updated: 2025-02-18-07-41-29
+      updated: 2025-02-18-08-11-01
       followers: 1538
       likes: 107
       views: 443
@@ -2686,18 +2686,18 @@
     - service: vk
       id: 2133
       published: 2025-02-16-18-09-34
-      updated: 2025-02-18-07-41-29
+      updated: 2025-02-18-08-11-02
       followers: 1071
       likes: 38
-      views: 209
+      views: 211
       reposts: 2
     - service: tg
       id: 712
       published: 2025-02-16-18-09-40
-      updated: 2025-02-18-07-41-30
+      updated: 2025-02-18-08-11-01
       followers: 677
       likes: 61
-      views: 201
+      views: 202
       comments: !c |-
         izKAkZPLQnlQ/7sSAACrYWFyeWNoYWdvZmbZTdCT0LvQsNCy0L3QvtC1IC0g0L3QtSDQv9GD0YLQ
         sNGC0Ywg0J3Rh9GD0YDQtNCw0LzRhiDQuCDQndGH0LDRgNC00YPQvNGGLiDwn5iBAw==
@@ -7308,10 +7308,10 @@
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2025-02-11-08-10-49
+      updated: 2025-02-18-08-11-07
       followers: 557
       likes: 67
-      views: 521
+      views: 693
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
@@ -8674,25 +8674,25 @@
       id: DGLvl1opXZD
       mediaId: '17906384352096938'
       published: 2025-02-17-18-10-41
-      updated: 2025-02-18-07-41-28
+      updated: 2025-02-18-08-10-59
       followers: 1539
       likes: 50
       views: 185
     - service: vk
       id: 2134
       published: 2025-02-17-18-10-47
-      updated: 2025-02-18-07-41-28
+      updated: 2025-02-18-08-11-00
       followers: 1084
       likes: 25
-      views: 143
+      views: 146
       reposts: 1
     - service: tg
       id: 713
       published: 2025-02-17-18-10-54
-      updated: 2025-02-18-07-41-29
+      updated: 2025-02-18-08-11-01
       followers: 678
-      likes: 43
-      views: 137
+      likes: 44
+      views: 139
 2017-08-11-west-gash:
   title: West Gash
   titleRu: Западное нагорье

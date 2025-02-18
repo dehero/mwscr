@@ -2751,17 +2751,17 @@
     - service: vk
       id: 1865
       published: 2024-10-28-18-10-39
-      updated: 2025-02-11-08-10-45
+      updated: 2025-02-18-08-11-03
       followers: 1000
-      likes: 49
-      views: 314
+      likes: 50
+      views: 316
     - service: tg
       id: 578
       published: 2024-10-28-18-10-46
-      updated: 2025-02-11-08-10-45
+      updated: 2025-02-18-08-11-02
       followers: 564
       likes: 60
-      views: 571
+      views: 572
 2018-03-15-the-other-side:
   title: The Other Side
   titleRu: По ту сторону
@@ -3062,10 +3062,10 @@
     - service: vk
       id: 1792
       published: 2024-09-30-18-10-27
-      updated: 2025-02-11-08-10-49
+      updated: 2025-02-18-08-11-08
       followers: 957
       likes: 45
-      views: 361
+      views: 363
       reposts: 5
       comments: !c |-
         G1kCIKwKbGOR2MNOkzN7H82OsuyiE/9PXOwjfLO2MwVpaIkFXIJBBF/O5W/ut8cSmraHYDGkOXZ6
@@ -3077,10 +3077,10 @@
     - service: tg
       id: 550
       published: 2024-09-30-18-10-33
-      updated: 2025-02-11-08-10-48
+      updated: 2025-02-18-08-11-06
       followers: 558
       likes: 68
-      views: 508
+      views: 510
       comments: !c |-
         G4QAwBwHuRnrjhXVgx9isZgRKh0ib1L8INqHFlhnqmLG2G9CPyXq6DDo5Za7Pes/0AP+2r6sLXur
         C8K0eSqJ5QEX8Ta1MinElS5lSvWmlIKZYhqHF/vdtWqRiuXqfn8+BYBNeprQL0QOg3ULwmQBRleh
@@ -4174,19 +4174,19 @@
     - service: vk
       id: 1824
       published: 2024-10-14-18-10-26
-      updated: 2025-02-11-08-10-47
+      updated: 2025-02-18-08-11-06
       followers: 964
       likes: 48
-      views: 414
+      views: 416
       reposts: 1
       comments: !c CxKAkZPLQnko8uKOAACraWQ4MTA5MDA2OTSt0KHQutC+0YDQviApKQM=
     - service: tg
       id: 564
       published: 2024-10-14-18-10-32
-      updated: 2025-02-11-08-10-46
+      updated: 2025-02-18-08-11-04
       followers: 561
       likes: 64
-      views: 500
+      views: 504
 2018-04-20-road-through-a-dead-forest:
   title: Road Through a Dead Forest
   titleRu: Дорога сквозь мёртвый лес
@@ -10773,17 +10773,17 @@
     - service: vk
       id: 1848
       published: 2024-10-21-18-10-44
-      updated: 2025-02-11-08-10-46
+      updated: 2025-02-18-08-11-05
       followers: 993
       likes: 40
-      views: 334
+      views: 336
     - service: tg
       id: 571
       published: 2024-10-21-18-10-50
-      updated: 2025-02-11-08-10-45
+      updated: 2025-02-18-08-11-03
       followers: 562
       likes: 55
-      views: 721
+      views: 722
 2018-10-10-thunderstorm-cave:
   title: Thunderstorm Cave
   titleRu: Грозовая пещера
