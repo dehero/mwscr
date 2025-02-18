@@ -9,6 +9,7 @@ import { UsersManagerPatch } from './users-manager.js';
 export const DataPatch = partial(
   object({
     posts: PostsManagerPatch,
+    artifacts: PostsManagerPatch,
     inbox: PostsManagerPatch,
     trash: PostsManagerPatch,
     users: UsersManagerPatch,

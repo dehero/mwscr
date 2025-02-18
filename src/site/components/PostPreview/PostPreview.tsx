@@ -39,7 +39,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
   const minHeightMultiplier = () => (props.postInfo.description ? undefined : 1);
   const aspectRatio = () =>
     getLimitedAspectRatio(
-      postTypeDescriptors[props.postInfo.type].aspectRatio,
+      postTypeDescriptors[props.postInfo.type].aspectRatio ?? '1/1',
       minHeightMultiplier(),
       props.maxHeightMultiplier,
     );
@@ -177,7 +177,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
           </div>
           <Show when={props.postInfo.description}>
             <Divider />
-            <div class={styles.description}>{props.postInfo.description}</div>
+            <div class={styles.description} innerHTML={props.postInfo.description} />
           </Show>
         </Frame>
       </Show>

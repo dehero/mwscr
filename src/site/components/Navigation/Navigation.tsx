@@ -18,6 +18,7 @@ import styles from './Navigation.module.css';
 const navigationItems = [
   { route: homeRoute, params: {} },
   { route: postsRoute, params: { managerName: 'posts' } },
+  { route: postsRoute, params: { managerName: 'artifacts' } },
   { route: postsRoute, params: { managerName: 'inbox' } },
   { route: postsRoute, params: { managerName: 'trash' } },
   { route: usersRoute, params: {} },

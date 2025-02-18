@@ -5,14 +5,7 @@ import { ListReaderItemStatus } from '../../../core/entities/list-manager.js';
 import type { LocationInfo } from '../../../core/entities/location-info.js';
 import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../core/entities/option.js';
-import {
-  PostMark,
-  PostPlacement,
-  PostType,
-  postTypeDescriptors,
-  PostViolation,
-  postViolationDescriptors,
-} from '../../../core/entities/post.js';
+import { PostMark, PostPlacement, PostViolation, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
 import { boolToString, capitalizeFirstLetter, stringToBool } from '../../../core/utils/common-utils.js';
 import type { PostsRouteParams } from '../../routes/posts-route.js';
@@ -241,12 +234,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                   <div class={styles.selectWrapper}>
                     <Select
                       name="type"
-                      options={[
-                        ALL_OPTION,
-                        ...PostType.options
-                          .map((value) => ({ value, label: postTypeDescriptors[value].title }))
-                          .sort((a, b) => a.label.localeCompare(b.label)),
-                      ]}
+                      options={props.parameters.typeOptions()}
                       value={props.parameters.type()}
                       onChange={props.parameters.setType}
                       class={styles.select}

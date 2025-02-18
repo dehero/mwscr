@@ -16,6 +16,9 @@ const glyphs: Record<PostType, string> = {
   'wallpaper-v': WallpaperV,
   redrawing: Redrawing,
   video: Video,
+  mention: Shot,
+  news: Shot,
+  photoshop: Shot,
 };
 
 export interface PostTypeGlyphProps {

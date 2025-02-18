@@ -23,11 +23,14 @@ export interface PostContentPreviewProps {
 export const PostContentPreview: Component<PostContentPreviewProps> = (props) => {
   const content = () => asArray(props.content).slice(0, 4);
   const aspectRatio = () =>
-    getLimitedAspectRatio(
-      postTypeDescriptors[props.type].aspectRatio,
-      props.minHeightMultiplier,
-      props.maxHeightMultiplier,
-    );
+    postTypeDescriptors[props.type].aspectRatio
+      ? getLimitedAspectRatio(
+          postTypeDescriptors[props.type].aspectRatio!,
+          props.minHeightMultiplier,
+          props.maxHeightMultiplier,
+        )
+      : undefined;
+  const alignCrop = () => (postTypeDescriptors[props.type].aspectRatio ? 'center' : 'top');
 
   return (
     <Show when={content().length > 0} fallback={props.fallback}>
@@ -40,6 +43,7 @@ export const PostContentPreview: Component<PostContentPreviewProps> = (props) =>
             class={props.class}
             alt={props.alt}
             frameState={props.frameState}
+            alignCrop={alignCrop()}
           />
         }
       >

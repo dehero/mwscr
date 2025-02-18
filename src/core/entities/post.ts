@@ -6,7 +6,7 @@ import { dateToString, isDateInRange, stringToDate } from '../utils/date-utils.j
 import { areNestedLocations as areRelatedLocations } from './location.js';
 import type { MediaAspectRatio } from './media.js';
 import { postTitleFromString } from './post-title.js';
-import { PostVariant } from './post-variant.js';
+import { PostDescription, PostVariant } from './post-variant.js';
 import type { PublicationComment } from './publication.js';
 import {
   getPublicationEngagement,
@@ -25,7 +25,6 @@ export const POST_RECENTLY_PUBLISHED_DAYS = 31;
 
 export const PostTitle = pipe(string(), trim(), nonEmpty(), transform(postTitleFromString));
 export const PostTitleRu = pipe(string(), trim(), nonEmpty());
-export const PostDescription = pipe(string(), trim(), nonEmpty());
 export const PostContent = union([ResourceUrl, array(ResourceUrl)]);
 export const PostLocation = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
 export const PostPlacement = picklist(['Indoors', 'Outdoors', 'Mixed']);
@@ -87,7 +86,6 @@ export const Post = pipe(
 
 export type PostTitle = InferOutput<typeof PostTitle>;
 export type PostTitleRu = InferOutput<typeof PostTitleRu>;
-export type PostDescription = InferOutput<typeof PostDescription>;
 export type PostContent = InferOutput<typeof PostContent>;
 export type PostLocation = InferOutput<typeof PostLocation>;
 export type PostPlacement = InferOutput<typeof PostPlacement>;
@@ -123,7 +121,7 @@ interface PostTypeDescriptor {
   title: string;
   titleRu: string;
   letter: string;
-  aspectRatio: MediaAspectRatio;
+  aspectRatio?: MediaAspectRatio;
 }
 
 interface PostMarkDescriptor {
@@ -178,6 +176,9 @@ export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescri
   redrawing: { title: 'Redrawing', titleRu: 'Перерисовка', letter: 'R', aspectRatio: '1/1' },
   wallpaper: { title: 'Wallpaper', titleRu: 'Обои', letter: 'W', aspectRatio: '16/9' },
   'wallpaper-v': { title: 'Vertical Wallpaper', titleRu: 'Вертикальные обои', letter: 'M', aspectRatio: '9/19.5' },
+  mention: { title: 'Mention', titleRu: 'Упоминание', letter: 'M' },
+  news: { title: 'News', titleRu: 'Новость', letter: 'N' },
+  photoshop: { title: 'Photoshop', titleRu: 'Фотожаба', letter: 'P' },
 });
 
 export const postMarkDescriptors = Object.freeze<Record<PostMark, PostMarkDescriptor>>({
@@ -334,7 +335,8 @@ export function isPostEqual(a: Post, b: Partial<Post>): boolean {
 }
 
 export function getPostTypeFromContent(content?: PostContent): PostType | undefined {
-  return PostVariant.options.find((variant) => is(variant.entries.content, content))?.entries.type.literal;
+  return PostVariant.options.find((variant) => 'content' in variant.entries && is(variant.entries.content, content))
+    ?.entries.type.literal;
 }
 
 export function getPostContentDistance(content: PostContent, postEntries: PostEntries): PostDistance {

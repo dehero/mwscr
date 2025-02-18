@@ -1,7 +1,13 @@
 import { ListReaderItemStatus } from '../../../../core/entities/list-manager.js';
 import type { Option } from '../../../../core/entities/option.js';
-import { ANY_OPTION, NONE_OPTION } from '../../../../core/entities/option.js';
-import { PostMark, PostPlacement, PostType, PostViolation } from '../../../../core/entities/post.js';
+import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../../core/entities/option.js';
+import {
+  PostMark,
+  PostPlacement,
+  PostType,
+  postTypeDescriptors,
+  PostViolation,
+} from '../../../../core/entities/post.js';
 import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../../core/entities/post-info.js';
 import { selectPostInfosSortOptions } from '../../../../core/entities/post-info.js';
 import { safeParseSchema } from '../../../../core/entities/schema.js';
@@ -94,6 +100,12 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
 
     return options;
   };
+  const typeOptions = () => [
+    ALL_OPTION,
+    ...PostType.options
+      .filter((item) => !meta().typeKeys || meta().typeKeys?.includes(item))
+      .map((value) => ({ value, label: postTypeDescriptors[value].title })),
+  ];
 
   const original = () => stringToBool(searchParams().original);
   const publishable = () => stringToBool(searchParams().publishable);
@@ -148,6 +160,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
   return {
     sortOptions,
     presetOptions,
+    typeOptions,
     preset,
     original,
     publishable,

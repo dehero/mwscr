@@ -3,6 +3,7 @@ import { asArray, cleanupUndefinedProps, getSearchTokens, search } from '../util
 import { dateToString, formatDate, isDateInRange, isValidDate } from '../utils/date-utils.js';
 import type { ListReaderItemStatus } from './list-manager.js';
 import { isNestedLocation } from './location.js';
+import { markdownToHtml } from './markdown.js';
 import type { Option } from './option.js';
 import { ANY_OPTION, NONE_OPTION } from './option.js';
 import type {
@@ -115,14 +116,24 @@ export async function createPostInfo(
   }
 
   const stats = getPostEntryStats(entry);
+  let description;
+  let descriptionRu;
+
+  if (post.description) {
+    description = markdownToHtml(post.description).html;
+  }
+
+  if (post.descriptionRu) {
+    descriptionRu = markdownToHtml(post.descriptionRu).html;
+  }
 
   return cleanupUndefinedProps({
     id,
     refId,
     title: post.title,
     titleRu: post.titleRu,
-    description: post.description,
-    descriptionRu: post.descriptionRu,
+    description,
+    descriptionRu,
     location: post.location,
     placement: post.placement,
     content: post.content,

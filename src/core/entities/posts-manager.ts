@@ -58,7 +58,7 @@ export type InboxItem = InferOutput<typeof InboxItem>;
 export type TrashOrInboxItem = InferOutput<typeof TrashOrInboxItem>;
 export type PublishablePost = InferOutput<typeof PublishablePost>;
 
-export const PostsManagerName = picklist(['posts', 'inbox', 'trash']);
+export const PostsManagerName = picklist(['posts', 'artifacts', 'inbox', 'trash']);
 export type PostsManagerName = InferOutput<typeof PostsManagerName>;
 
 export const PostsManagerPatch = ListManagerPatch<Post>(Post);
@@ -72,6 +72,7 @@ export interface PostsManagerDescriptor {
 
 export const postsManagerDescriptors = Object.freeze<Record<PostsManagerName, PostsManagerDescriptor>>({
   posts: { title: 'Posts', label: 'posted', actions: ['locate', 'precise'] },
+  artifacts: { title: 'Artifacts', label: 'artifacts', actions: ['precise'] },
   inbox: { title: 'Inbox', label: 'pending', actions: ['edit', 'merge'] },
   trash: { title: 'Trash', label: 'rejected', actions: ['edit', 'merge'] },
 });

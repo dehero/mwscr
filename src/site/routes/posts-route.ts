@@ -13,7 +13,16 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
     title: 'Posts',
     description: 'Posts of Morrowind Screenshots project.',
     presetKeys: ['editors-choice', 'unlocated', 'requests', 'edits'],
+    typeKeys: ['shot', 'shot-set', 'clip', 'video', 'wallpaper', 'wallpaper-v', 'redrawing'],
     filters: ['date', 'author', 'location', 'mark', 'tag', 'type', 'requester', 'original', 'status', 'placement'],
+  },
+  artifacts: {
+    label: 'Artifacts',
+    title: 'Artifacts',
+    description: 'Artifacts of Morrowind Screenshots project.',
+    presetKeys: ['edits'],
+    typeKeys: ['news', 'mention', 'photoshop', 'redrawing'],
+    filters: ['date', 'author', 'tag', 'type', 'status'],
   },
   inbox: {
     label: 'Inbox',

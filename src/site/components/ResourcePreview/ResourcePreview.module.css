@@ -8,6 +8,10 @@
   z-index: 1;
 }
 
+.preview.top {
+  object-position: top center;
+}
+
 .fallback {
   overflow: hidden;
   text-overflow: ellipsis;

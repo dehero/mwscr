@@ -1,0 +1,57 @@
+2024-04-04-facebook-nerevarine:
+  url: https://www.facebook.com/share/p/1F7v7JGRsF/
+  content:
+    - store:/mentions/2024-04-04.nerevarine-at-the-bitter-coast.jpg
+    - store:/shots/2020-05-24-at-the-bitter-coast.png
+  type: redrawing
+2024-04-05-open-source:
+  description:
+    Morrowind Screenshots has gone Open Source. Check out the repository (https://github.com/dehero/mwscr) which
+    includes detailed contributing guidelines (https://github.com/dehero/mwscr/blob/main/CONTRIBUTING.md).
+  descriptionRu:
+    'Morrowind Screenshots вышел в Open Source. Подробное руководство для участников:
+    https://github.com/dehero/mwscr/blob/main/CONTRIBUTING.md'
+  type: news
+2024-08-06-vk-morrowind:
+  url: https://vk.com/morrowind?w=wall-17291_162975
+  content:
+    - store:/mentions/2024-08-06-puzzled-student.jpg
+    - store:/mentions/2024-08-06-vk-morrowind.png
+  type: photoshop
+  author: dehero
+2024-08-09-site:
+  description:
+    Morrowind Screenshots now receive their own [website](https://mwscr.dehero.site/) where you can search for posts,
+    view details, reactions, comments, contributor profiles and download all original images without compression.
+  descriptionRu:
+    У Morrowind Screenshots появился свой собственный сайт, где вы можете искать посты, просматривать подробности,
+    реакции, комментарии, профили участников проекта и скачивать все оригинальные изображения без сжатия.
+  url: https://mwscr.dehero.site
+  type: news
+  author: dehero
+  posts:
+    - service: tg
+      id: 495
+      published: 2024-08-09-14-41-38
+2024-08-17-reddit:
+  title: This website with Morrowind screenshots looks gorgeous, just had to share it
+  url: https://www.reddit.com/r/Morrowind/comments/1eummhw/this_website_with_morrowind_screenshots_looks/
+  content: store:/mentions/2024-08-17-reddit.png
+  type: mention
+2024-12-23-interview:
+  title: I've been photographing Morrowind for 15 years! Interview with the founder of the Morrowind Screenshots project
+  titleRu: «Фотографирую Morrowind уже 15 лет» — интервью с основателем проекта Morrowind Screenshots
+  description:
+    Dear followers! I would like to share with you an interview conducted by game blogger Dmitry Epikhin. It is entirely
+    dedicated to the story of the Morrowind Screenshots project and Morrowind in general. Enjoy reading it!
+  descriptionRu:
+    Дорогие подписчики! Делюсь с вами интервью, взятым у меня игровым блогером Дмитрием Епихиным. Оно полностью
+    посвящено рассказу о проекте Morrowind Screenshots и о Morrowind в целом. Приятного чтения!
+  url: https://medium.com/@dmepikh/ive-been-photographing-morrowind-for-15-years-interview-with-the-founder-of-the-morrowind-a5ee65712217
+  urlRu:
+    - https://dtf.ru/screenshots/3312760-fotografiruyu-morrowind-uzhe-15-let-intervyu-s-osnovatelem-proekta-morrowind-screenshots
+    - https://stopgame.ru/blogs/topic/117167/fotografiruyu_morrowind_uzhe_15_let_interview_s_osnovatelem_proekta_morrowind_screenshots
+  type: news
+  author:
+    - dmepikh
+    - dehero
