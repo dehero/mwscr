@@ -1,6 +1,7 @@
 2017-01-01-ghostfence:
   title: Ghostfence
   titleRu: Призрачный Предел
+  placement: Outdoors
   content: store:/shots/2017-01-01-ghostfence.png
   type: shot
   author: dehero
@@ -80,6 +81,7 @@
 2017-01-03-census-and-excise-office-from-lighthouse:
   title: Census and Excise Office from Lighthouse
   titleRu: Офис Канцелярии Налогов и Сборов с маяка
+  placement: Outdoors
   location: Seyda Neen
   content: store:/shots/2017-01-03-census-and-excise-office-from-lighthouse.png
   type: shot
@@ -104,6 +106,7 @@
 2017-01-04-death-at-the-shore:
   title: Death at the Shore
   titleRu: Смерть на берегу
+  placement: Outdoors
   content: store:/videos/2017-01-04-death-at-the-shore.mp4
   type: clip
   author: dehero
@@ -127,6 +130,7 @@
 2017-01-05-alchemy-corner:
   title: Alchemy Corner
   titleRu: Алхимический уголок
+  placement: Indoors
   content: store:/shots/2017-01-05-alchemy-corner.png
   type: shot
   author: dehero
@@ -207,6 +211,7 @@
 2017-01-07-28-29-30-ready-or-not-here-i-come:
   title: ...28, 29, 30. Ready or Not, Here I Come!
   titleRu: ...28, 29, 30. Кто не спрятался, я не виноват!
+  placement: Outdoors
   location: Ald-ruhn
   content: store:/shots/2017-01-07-28-29-30-ready-or-not-here-i-come.png
   type: shot
@@ -253,6 +258,7 @@
 2017-01-08-dirty-muriels-cornerclub-and-tel-naga:
   title: Dirty Muriel's Cornerclub and Tel Naga
   titleRu: Трактир Грязной Мюриэль и Тель Нага
+  placement: Outdoors
   location: Wolverine Hall
   content: store:/shots/2017-01-08-dirty-muriels-cornerclub-and-tel-naga.png
   type: shot
@@ -279,6 +285,7 @@
 2017-01-09-a-few-boards-to-ashurnibibi:
   title: A Few Boards to Ashurnibibi
   titleRu: Несколько досок до Ашурнибиби
+  placement: Outdoors
   location: Ashurnibibi
   content: store:/shots/2017-01-09-a-few-boards-to-ashurnibibi.png
   type: shot
@@ -304,6 +311,7 @@
 2017-01-10-propylons-of-indoranyon:
   title: Propylons of Indoranyon
   titleRu: Пропильоны Индораниона
+  placement: Indoors
   location: Indoranyon
   content: store:/videos/2017-01-10-propylons-of-indoranyon.mp4
   type: clip
@@ -332,6 +340,7 @@
 2017-01-11-fort-pelagiad:
   title: Fort Pelagiad
   titleRu: Форт Пелагиад
+  placement: Outdoors
   location: Pelagiad
   content: store:/shots/2017-01-11-fort-pelagiad.png
   type: shot
@@ -381,6 +390,7 @@
 2017-01-13-shoal-shell:
   title: Shoal Shell
   titleRu: Мелководная раковина
+  placement: Outdoors
   content: store:/shots/2017-01-13-shoal-shell.png
   type: shot
   author: dehero
@@ -407,6 +417,7 @@
 2017-01-14-statue-of-molag-bal:
   title: Statue of Molag Bal
   titleRu: Статуя Молаг Бала
+  placement: Indoors
   content: store:/shots/2017-01-14-statue-of-molag-bal.png
   type: shot
   author: dehero
@@ -463,6 +474,7 @@
 2017-01-15-mages-guild-reception:
   title: Mages Guild Reception
   titleRu: Приёмная Гильдии Магов
+  placement: Indoors
   content: store:/shots/2017-01-15-mages-guild-reception.png
   type: shot
   author: dehero
@@ -489,6 +501,7 @@
 2017-01-16-training-to-see-nerevarine:
   title: Training to See Nerevarine
   titleRu: Тренировка перед встречей с Нереварином
+  placement: Indoors
   content: store:/videos/2017-01-16-training-to-see-nerevarine.mp4
   type: clip
   author: dehero
@@ -513,6 +526,7 @@
 2017-01-17-brave-ashlanders:
   title: Brave Ashlanders
   titleRu: Отважные эшлендеры
+  placement: Outdoors
   content: store:/shots/2017-01-17-brave-ashlanders.png
   type: shot
   author: dehero
@@ -536,6 +550,7 @@
 2017-01-18-addadshashanammu:
   title: Addadshashanammu
   titleRu: Аддадшашанамму
+  placement: Outdoors
   location: Addadshashanammu
   content: store:/shots/2017-01-18-addadshashanammu.png
   type: shot
@@ -566,6 +581,7 @@
 2017-01-19-sadrith-mora-gateway-inn:
   title: Sadrith Mora, Gateway Inn
   titleRu: Садрит Мора, Привратный трактир
+  placement: Outdoors
   location: Sadrith Mora, Gateway Inn
   content: store:/shots/2017-01-19-sadrith-mora-gateway-inn.png
   type: shot
@@ -625,6 +641,7 @@
 2017-01-20-sunset-at-the-crossroads:
   title: Sunset at the Crossroads
   titleRu: Закат на распутье
+  placement: Outdoors
   location: Seyda Neen
   content: store:/shots/2017-01-20-sunset-at-the-crossroads.png
   type: shot
@@ -675,6 +692,7 @@
 2017-01-21-building-akulakhan:
   title: Building Akulakhan
   titleRu: Строительство Акулахана
+  placement: Indoors
   location: Akulakhan's Chamber
   content: store:/shots/2017-01-21-building-akulakhan.png
   type: shot
@@ -699,6 +717,7 @@
 2017-01-22-1-rain-rain-everywhere:
   title: Rain, Rain Everywhere
   titleRu: Дождь, дождь повсюду
+  placement: Outdoors
   content: store:/videos/2017-01-22-1-rain-rain-everywhere.mp4
   type: clip
   author: dehero
@@ -9983,7 +10002,7 @@
 2017-09-13-netches-have-fallen-out:
   title: Netches Have Fallen Out
   titleRu: Нетчи в ссоре
-  placement: Indoors
+  placement: Outdoors
   content: store:/shots/2017-09-13-netches-have-fallen-out.png
   type: shot
   author: dehero
@@ -10110,7 +10129,7 @@
 2017-09-16-fort-surrounded-by-fir-trees:
   title: Fort Surrounded by Fir-Trees
   titleRu: Форт среди елей
-  placement: Indoors
+  placement: Outdoors
   location: Fort Frostmoth
   content: store:/shots/2017-09-16-fort-surrounded-by-fir-trees.png
   type: shot

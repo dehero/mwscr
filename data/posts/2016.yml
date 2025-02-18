@@ -1,6 +1,7 @@
 2016-11-20-1-dren-plantation:
   title: Dren Plantation
   titleRu: Плантация Дрена
+  placement: Outdoors
   location: Dren Plantation
   content: store:/shots/2016-11-20-1-dren-plantation.png
   type: shot
@@ -59,6 +60,7 @@
 2016-11-20-2-seyda-neen:
   title: Seyda Neen
   titleRu: Сейда Нин
+  placement: Outdoors
   location: Seyda Neen
   content: store:/shots/2016-11-20-2-seyda-neen.png
   type: shot
@@ -136,6 +138,7 @@
 2016-11-20-4-aldruhn-under-skar:
   title: Ald'ruhn, Under-Skar
   titleRu: Альд'рун, под Скаром
+  placement: Indoors
   location: Ald-ruhn, Manor District
   content: store:/shots/2016-11-20-4-aldruhn-under-skar.png
   type: shot
@@ -192,6 +195,7 @@
 2016-11-20-5-galom-daeus:
   title: Galom Daeus
   titleRu: Галом Дэус
+  placement: Outdoors
   location: Galom Daeus
   content: store:/shots/2016-11-20-5-galom-daeus.png
   type: shot
@@ -270,6 +274,7 @@
 2016-11-22-lord-gothren:
   title: Lord Gothren
   titleRu: Лорд Готрен
+  placement: Indoors
   location: Tel Aruhn, Upper Tower
   content: store:/shots/2016-11-22-lord-gothren.png
   type: shot
@@ -319,6 +324,7 @@
 2016-11-23-lanterns-of-tel-branora:
   title: Lanterns of Tel Branora
   titleRu: Фонари Тель Браноры
+  placement: Outdoors
   location: Tel Branora
   content: store:/shots/2016-11-23-lanterns-of-tel-branora.png
   type: shot
@@ -346,6 +352,7 @@
 2016-11-24-quarters-of-vivec:
   title: Quarters of Vivec
   titleRu: Кварталы Вивека
+  placement: Outdoors
   location: Vivec
   content: store:/shots/2016-11-24-quarters-of-vivec.png
   type: shot
@@ -374,6 +381,7 @@
 2016-11-25-rain-on-dren-plantation:
   title: Rain on Dren Plantation
   titleRu: Дождь на Плантации Дрена
+  placement: Outdoors
   location: Dren Plantation
   content: store:/shots/2016-11-25-rain-on-dren-plantation.png
   type: shot
@@ -400,6 +408,7 @@
 2016-11-26-imperial-pennant-and-masser:
   title: Imperial Pennant and Masser
   titleRu: Имперский вымпел и Массер
+  placement: Outdoors
   content: store:/shots/2016-11-26-imperial-pennant-and-masser.png
   type: shot
   author: dehero
@@ -428,6 +437,7 @@
 2016-11-27-lonely-fargoth:
   title: Lonely Fargoth
   titleRu: Одинокий Фаргот
+  placement: Outdoors
   location: Seyda Neen
   content: store:/shots/2016-11-27-lonely-fargoth.png
   type: shot
@@ -505,6 +515,7 @@
 2016-11-29-nchuleftingth-expedition:
   title: Nchuleftingth Expedition
   titleRu: Экспедиция в Нчулефтингт
+  placement: Indoors
   location: Nchuleftingth
   content: store:/shots/2016-11-29-nchuleftingth-expedition.png
   type: shot
@@ -555,6 +566,7 @@
 2016-11-30-the-road-most-travelled:
   title: The Road Most Travelled
   titleRu: Самая знакомая дорога
+  placement: Outdoors
   content: store:/shots/2016-11-30-the-road-most-travelled.png
   type: shot
   author: dehero
@@ -607,6 +619,7 @@
 2016-12-01-arvs-drelen:
   title: Arvs-Drelen
   titleRu: Арвс-Дрелен
+  placement: Outdoors
   location: Gnisis
   content: store:/shots/2016-12-01-arvs-drelen.png
   type: shot
@@ -631,6 +644,7 @@
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
+  placement: Outdoors
   location: Molag Mar
   content: store:/shots/2016-12-02-molag-mar.png
   type: shot
@@ -683,6 +697,7 @@
 2016-12-03-st-delyn-vs-st-olms:
   title: St. Delyn vs. St. Olms
   titleRu: Святой Делин против Святого Олмса
+  placement: Outdoors
   location: Vivec
   content: store:/shots/2016-12-03-st-delyn-vs-st-olms.png
   type: shot
@@ -707,6 +722,7 @@
 2016-12-04-vos-from-tel-vos:
   title: Vos from Tel Vos
   titleRu: Вос из Тель Воса
+  placement: Outdoors
   location:
     - Tel Vos
     - Vos
@@ -757,6 +773,7 @@
 2016-12-05-balmora-walkthrough:
   title: Balmora Walkthrough
   titleRu: Прогулка по Балморе
+  placement: Outdoors
   location: Balmora
   content: store:/videos/2016-12-05-balmora-walkthrough.mp4
   type: clip
@@ -782,6 +799,7 @@
 2016-12-06-redoran-stronghold-of-molag-mar:
   title: Redoran Stronghold of Molag Mar
   titleRu: Редоранская крепость Молаг Мара
+  placement: Indoors
   location: Molag Mar
   content: store:/shots/2016-12-06-redoran-stronghold-of-molag-mar.png
   type: shot
@@ -837,6 +855,7 @@
 2016-12-07-nchuleft-ruin:
   title: Nchuleft Ruin
   titleRu: Руины Нчулефта
+  placement: Outdoors
   location: Nchuleft Ruin
   content: store:/shots/2016-12-07-nchuleft-ruin.png
   type: shot
@@ -863,6 +882,7 @@
 2016-12-08-manats-farmhouse:
   title: Manat's Farmhouse
   titleRu: Ферма Маната
+  placement: Outdoors
   location: Manat's Farmhouse
   content: store:/shots/2016-12-08-manats-farmhouse.png
   type: shot
@@ -887,6 +907,7 @@
 2016-12-09-silt-strider-port-of-molag-mar:
   title: Silt Strider Port of Molag Mar
   titleRu: Порт Силт Страйдеров Молаг Мара
+  placement: Outdoors
   location: Molag Mar
   content: store:/shots/2016-12-09-silt-strider-port-of-molag-mar.png
   type: shot
@@ -964,6 +985,7 @@
 2016-12-11-khajiit-gives-away:
   title: Khajiit Gives Away
   titleRu: Каджит себя выдал
+  placement: Indoors
   content: store:/videos/2016-12-11-khajiit-gives-away.mp4
   type: clip
   author: dehero
@@ -989,6 +1011,7 @@
 2016-12-12-buckmoth-legion-fort-from-aldruhn:
   title: Buckmoth Legion Fort from Ald'ruhn
   titleRu: Форт Пёстрой Бабочки из Альд'руна
+  placement: Outdoors
   location:
     - Buckmoth Legion Fort
     - Ald-ruhn
@@ -1041,6 +1064,7 @@
 2016-12-13-seyda-neen-lighthouse:
   title: Seyda Neen Lighthouse
   titleRu: Маяк Сейда Нина
+  placement: Outdoors
   location: Seyda Neen
   content: store:/shots/2016-12-13-seyda-neen-lighthouse.png
   type: shot
@@ -1068,6 +1092,7 @@
 2016-12-14-pelagiad:
   title: Pelagiad
   titleRu: Пелагиад
+  placement: Outdoors
   location: Pelagiad
   content: store:/shots/2016-12-14-pelagiad.png
   type: shot
@@ -1092,6 +1117,7 @@
 2016-12-15-cloud-crowns-of-foyada-mamaea:
   title: Cloud Crowns of Foyada Mamaea
   titleRu: Облачные кроны Фояды Мамея
+  placement: Outdoors
   content: store:/shots/2016-12-15-cloud-crowns-of-foyada-mamaea.png
   type: shot
   author: dehero
@@ -1116,6 +1142,7 @@
 2016-12-16-gnisis-temple:
   title: Gnisis Temple
   titleRu: Храм Гнисиса
+  placement: Outdoors
   location: Gnisis
   content: store:/shots/2016-12-16-gnisis-temple.png
   type: shot
@@ -1142,6 +1169,7 @@
 2016-12-17-a-path-to-vivec:
   title: A Path to Vivec
   titleRu: Путь к Вивеку
+  placement: Outdoors
   location: Vivec
   content: store:/videos/2016-12-17-a-path-to-vivec.mp4
   type: clip
@@ -1168,6 +1196,7 @@
 2016-12-18-the-governors-hall-in-caldera-from-distance:
   title: The Governor's Hall in Caldera from Distance
   titleRu: Дом правительства в Кальдере с расстояния
+  placement: Outdoors
   location: Caldera
   content: store:/shots/2016-12-18-the-governors-hall-in-caldera-from-distance.png
   type: shot
@@ -1195,6 +1224,7 @@
 2016-12-19-hla-oad:
   title: Hla Oad
   titleRu: Хла Оуд
+  placement: Outdoors
   location: Hla Oad
   content: store:/shots/2016-12-19-hla-oad.png
   type: shot
@@ -1262,6 +1292,7 @@
 2016-12-20-a-boxy-nightstand:
   title: A Boxy Nightstand
   titleRu: Ящик-тумбочка
+  placement: Indoors
   content: store:/shots/2016-12-20-a-boxy-nightstand.png
   type: shot
   author: dehero
@@ -1314,6 +1345,7 @@
 2016-12-21-fort-darius:
   title: Fort Darius
   titleRu: Форт Дариус
+  placement: Outdoors
   location: Gnisis
   content: store:/shots/2016-12-21-fort-darius.png
   type: shot
@@ -1337,6 +1369,7 @@
 2016-12-22-ebonheart-towers:
   title: Ebonheart Towers
   titleRu: Башни Эбенгарда
+  placement: Outdoors
   location: Ebonheart
   content: store:/shots/2016-12-22-ebonheart-towers.png
   type: shot
@@ -1386,6 +1419,7 @@
 2016-12-23-stillness-of-vivec:
   title: Stillness of Vivec
   titleRu: Спокойствие Вивека
+  placement: Indoors
   location: Vivec, Palace of Vivec
   content: store:/videos/2016-12-23-stillness-of-vivec.mp4
   type: clip
@@ -1414,6 +1448,7 @@
 2016-12-24-double-winged-attack:
   title: Double Winged Attack
   titleRu: Двойная крылатая атака
+  placement: Outdoors
   content: store:/shots/2016-12-24-double-winged-attack.png
   type: shot
   author: dehero
@@ -1437,6 +1472,7 @@
 2016-12-25-telvanni-weaponsmiths-stands:
   title: Telvanni Weaponsmith's Stands
   titleRu: Подставки Телванийского оружейника
+  placement: Outdoors
   location: Sadrith Mora
   content: store:/shots/2016-12-25-telvanni-weaponsmiths-stands.png
   type: shot
@@ -1488,6 +1524,7 @@
 2016-12-27-mzanchend-guards:
   title: Mzanchend Guards
   titleRu: Стражи Мзанченда
+  placement: Outdoors
   location: Mzanchend
   content: store:/shots/2016-12-27-mzanchend-guards.png
   type: shot
@@ -1514,6 +1551,7 @@
 2016-12-28-close-to-caldera-clothier:
   title: Close to Caldera Clothier
   titleRu: У Кальдерского портного
+  placement: Outdoors
   location: Caldera
   content: store:/shots/2016-12-28-close-to-caldera-clothier.png
   type: shot
@@ -1571,6 +1609,7 @@
 2016-12-29-entering-holamayan-monastery:
   title: Entering Holamayan Monastery
   titleRu: Вход в монастырь Холамаян
+  placement: Outdoors
   location: Holamayan
   content: store:/videos/2016-12-29-entering-holamayan-monastery.mp4
   type: clip
@@ -1596,6 +1635,7 @@
 2016-12-30-lava-lake-near-mzanchend:
   title: Lava Lake Near Mzanchend
   titleRu: Озеро лавы вблизи Мзанченда
+  placement: Outdoors
   location: Mzanchend
   content: store:/shots/2016-12-30-lava-lake-near-mzanchend.png
   type: shot
@@ -1644,6 +1684,7 @@
 2016-12-31-far-friends:
   title: Far Friends
   titleRu: Далёкие друзья
+  placement: Outdoors
   content: store:/shots/2016-12-31-far-friends.png
   type: shot
   author: dehero
