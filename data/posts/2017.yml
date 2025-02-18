@@ -3447,6 +3447,7 @@
 2017-03-27-on-the-edge-of-a-dead-forest:
   title: On the Edge of a Dead Forest
   titleRu: На краю мёртвого леса
+  placement: Outdoors
   content: store:/shots/2017-03-27-on-the-edge-of-a-dead-forest.png
   type: shot
   author: dehero
@@ -3479,6 +3480,7 @@
 2017-03-28-entrance-arch-of-propylon-chamber:
   title: Entrance Arch of Propylon Chamber
   titleRu: Вход Арочного зала
+  placement: Indoors
   content: store:/shots/2017-03-28-entrance-arch-of-propylon-chamber.png
   type: shot
   author: dehero
@@ -3536,6 +3538,7 @@
 2017-03-29-guilds-and-stores:
   title: Guilds and Stores
   titleRu: Гильдии и магазины
+  placement: Outdoors
   location: Balmora
   content: store:/shots/2017-03-29-guilds-and-stores.png
   type: shot
@@ -3567,6 +3570,7 @@
 2017-03-30-morning-hunt:
   title: Morning Hunt
   titleRu: Утренняя охота
+  placement: Outdoors
   content: store:/shots/2017-03-30-morning-hunt.png
   type: shot
   author: dehero
@@ -3623,6 +3627,7 @@
 2017-03-31-interior-garden:
   title: Interior Garden
   titleRu: Внутренний сад
+  placement: Indoors
   content: store:/shots/2017-03-31-interior-garden.png
   type: shot
   author: dehero
@@ -3671,6 +3676,7 @@
 2017-04-01-help-me-find-my-pants-you-imperial-scum:
   title: Help Me Find My Pants You Imperial Scum!
   titleRu: Помоги найти мои штаны, ты, имперский ублюдок!
+  placement: Outdoors
   location: Gnisis
   content: store:/shots/2017-04-01-help-me-find-my-pants-you-imperial-scum.png
   type: shot
@@ -3698,6 +3704,7 @@
 2017-04-02-night-street-of-balmora:
   title: Night Street of Balmora
   titleRu: Ночная улица Балморы
+  placement: Outdoors
   location: Balmora
   content: store:/shots/2017-04-02-night-street-of-balmora.png
   type: shot
@@ -3760,6 +3767,7 @@
 2017-04-03-gnisis:
   title: Gnisis
   titleRu: Гнисис
+  placement: Outdoors
   location: Gnisis
   content: store:/shots/2017-04-03-gnisis.png
   type: shot
@@ -3786,6 +3794,7 @@
 2017-04-04-banks-and-arches:
   title: Banks and Arches
   titleRu: Берега и арки
+  placement: Outdoors
   content: store:/shots/2017-04-04-banks-and-arches.png
   type: shot
   author: dehero
@@ -3811,6 +3820,7 @@
 2017-04-05-bards-corner:
   title: Bard's Corner
   titleRu: Уголок барда
+  placement: Indoors
   content: store:/shots/2017-04-05-bards-corner.png
   type: shot
   author: dehero
@@ -3837,6 +3847,7 @@
 2017-04-06-rainy-night-in-tel-aruhn:
   title: Rainy Night in Tel Aruhn
   titleRu: Дождливой ночью в Тель Аруне
+  placement: Outdoors
   location: Tel Aruhn
   content: store:/shots/2017-04-06-rainy-night-in-tel-aruhn.png
   type: shot
@@ -3862,6 +3873,7 @@
 2017-04-07-trees-and-towers:
   title: Trees and Towers
   titleRu: Деревья и башни
+  placement: Outdoors
   content: store:/shots/2017-04-07-trees-and-towers.png
   type: shot
   author: dehero
@@ -3916,6 +3928,7 @@
 2017-04-08-museum-centurion:
   title: Museum Centurion
   titleRu: Музейный центурион
+  placement: Indoors
   content: store:/shots/2017-04-08-museum-centurion.png
   type: shot
   author: dehero
@@ -3943,7 +3956,8 @@
 2017-04-09-deseles-house-of-earthly-delights:
   title: Desele's House of Earthly Delights
   titleRu: Дом Земных Наслаждений Дезель
-  location: Suran
+  placement: Outdoors
+  location: Suran, Desele's House of Earthly Delights
   content: store:/shots/2017-04-09-deseles-house-of-earthly-delights.png
   type: shot
   author: dehero
@@ -4003,6 +4017,7 @@
 2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain:
   title: It's Cloudy in Balmora with a Chance of Rain
   titleRu: В Балморе пасмурно, возможны дожди
+  placement: Outdoors
   location: Balmora
   content: store:/shots/2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain.png
   type: shot
@@ -4030,6 +4045,7 @@
 2017-04-11-entrance-to-adamassartus:
   title: Entrance to Addamasartus
   titleRu: Вход в Аддамасартус
+  placement: Outdoors
   location: Addamasartus
   content: store:/shots/2017-04-11-entrance-to-adamassartus.png
   type: shot
@@ -4072,6 +4088,7 @@
 2017-04-12-lets-set-sail:
   title: Let's Set Sail!
   titleRu: Отчаливаем!
+  placement: Outdoors
   content: store:/shots/2017-04-12-lets-set-sail.png
   type: shot
   author: dehero
@@ -4098,6 +4115,7 @@
 2017-04-13-corridors-of-hlormaren:
   title: Corridors of Hlormaren
   titleRu: Коридоры Хлормарена
+  placement: Indoors
   location: Hlormaren, Keep, Bottom Level
   content: store:/shots/2017-04-13-corridors-of-hlormaren.png
   type: shot
@@ -4144,6 +4162,7 @@
 2017-04-14-in-the-bar:
   title: In the Bar
   titleRu: У барной стойки
+  placement: Indoors
   content: store:/shots/2017-04-14-in-the-bar.png
   type: shot
   author: dehero
@@ -4172,6 +4191,7 @@
 2017-04-15-moon-and-stars:
   title: Moon and Stars
   titleRu: Луна и звёзды
+  placement: Outdoors
   content: store:/shots/2017-04-15-moon-and-stars.png
   type: shot
   author: dehero
@@ -4261,6 +4281,7 @@
 2017-04-17-lost-and-robbed:
   title: Lost and Robbed
   titleRu: Потерян и ограблен
+  placement: Outdoors
   content: store:/shots/2017-04-17-lost-and-robbed.png
   type: shot
   author: dehero
@@ -4284,6 +4305,7 @@
 2017-04-18-azura-and-fallen-nerevarines:
   title: Azura and Fallen Nerevarines
   titleRu: Азура и павшие Нереварины
+  placement: Indoors
   content: store:/shots/2017-04-18-azura-and-fallen-nerevarines.png
   type: shot
   author: dehero
@@ -4340,6 +4362,7 @@
 2017-04-19-moonmoth-in-the-night:
   title: Moonmoth in the Night
   titleRu: Лунная бабочка в ночи
+  placement: Outdoors
   location: Moonmoth Legion Fort
   content: store:/shots/2017-04-19-moonmoth-in-the-night.png
   type: shot
@@ -4367,6 +4390,7 @@
 2017-04-20-roar-of-horker:
   title: Roar of Horker
   titleRu: Рёв хоркера
+  placement: Outdoors
   content: store:/shots/2017-04-20-roar-of-horker.png
   type: shot
   author: dehero
@@ -4394,6 +4418,7 @@
 2017-04-21-fishers-bliss:
   title: Fisher's Bliss
   titleRu: Счастье рыбака
+  placement: Outdoors
   content: store:/shots/2017-04-21-fishers-bliss.png
   type: shot
   author: dehero
@@ -4422,6 +4447,7 @@
 2017-04-22-entrance-to-cavern-of-the-incarnate:
   title: Entrance to Cavern of the Incarnate
   titleRu: Вход в Пещеру Воплощения
+  placement: Outdoors
   location: Cavern of the Incarnate
   content: store:/shots/2017-04-22-entrance-to-cavern-of-the-incarnate.png
   type: shot
@@ -4474,6 +4500,7 @@
 2017-04-23-ald-sotha-in-rainy-haze:
   title: Ald Sotha in Rainy Haze
   titleRu: Альд Сота в дождливой мгле
+  placement: Outdoors
   location: Ald Sotha
   content: store:/shots/2017-04-23-ald-sotha-in-rainy-haze.png
   type: shot
@@ -4501,6 +4528,7 @@
 2017-04-24-on-the-red-mountainside:
   title: On the Red Mountainside
   titleRu: На склоне Красной Горы
+  placement: Outdoors
   content: store:/shots/2017-04-24-on-the-red-mountainside.png
   type: shot
   author: dehero
@@ -4547,6 +4575,7 @@
 2017-04-25-castle-ebonheart:
   title: Castle Ebonheart
   titleRu: Замок Эбенгард
+  placement: Outdoors
   location: Ebonheart
   content: store:/shots/2017-04-25-castle-ebonheart.png
   type: shot
@@ -4574,6 +4603,7 @@
 2017-04-26-divine-pentagon:
   title: Divine Pentagon
   titleRu: Божественный пятиугольник
+  placement: Indoors
   content: store:/shots/2017-04-26-divine-pentagon.png
   type: shot
   author: dehero
@@ -4638,6 +4668,7 @@
 2017-04-27-in-khuul:
   title: In Khuul
   titleRu: В Хууле
+  placement: Outdoors
   location: Khuul
   content: store:/shots/2017-04-27-in-khuul.png
   type: shot
@@ -4687,6 +4718,7 @@
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
   titleRu: Мрачный курган
+  placement: Outdoors
   content: store:/shots/2017-04-28-gloomy-barrow.png
   type: shot
   author: dehero
@@ -4738,6 +4770,7 @@
 2017-04-29-exploring-bethamez:
   title: Exploring Bethamez
   titleRu: Исследуя Бетамец
+  placement: Indoors
   content: store:/shots/2017-04-29-exploring-bethamez.png
   type: shot
   author: dehero
@@ -4765,6 +4798,7 @@
 2017-04-30-palace-of-vivec:
   title: Palace of Vivec
   titleRu: Дворец Вивека
+  placement: Outdoors
   location: Vivec, Temple
   content: store:/shots/2017-04-30-palace-of-vivec.png
   type: shot
@@ -4816,6 +4850,7 @@
 2017-05-01-altmer-camp:
   title: Altmer Camp
   titleRu: Лагерь альтмеров
+  placement: Outdoors
   content: store:/shots/2017-05-01-altmer-camp.png
   type: shot
   author: dehero
@@ -4843,6 +4878,7 @@
 2017-05-02-paper-trail:
   title: Paper Trail
   titleRu: Бумажный след
+  placement: Outdoors
   content: store:/shots/2017-05-02-paper-trail.png
   type: shot
   author: dehero
@@ -4869,6 +4905,7 @@
 2017-05-03-near-seyda-neen:
   title: Near Seyda Neen
   titleRu: В окрестностях Сейда Нина
+  placement: Outdoors
   location: Seyda Neen
   content: store:/shots/2017-05-03-near-seyda-neen.png
   type: shot
@@ -4926,6 +4963,7 @@
 2017-05-04-neighboring-towers:
   title: Neighboring Towers
   titleRu: Башни-соседи
+  placement: Outdoors
   content: store:/shots/2017-05-04-neighboring-towers.png
   type: shot
   author: dehero
@@ -4974,6 +5012,7 @@
 2017-05-05-sunset-fir-trees:
   title: Sunset Fir-Trees
   titleRu: Закатные ели
+  placement: Outdoors
   content: store:/shots/2017-05-05-sunset-fir-trees.png
   type: shot
   author: dehero
@@ -5001,7 +5040,8 @@
 2017-05-06-suran-house-of-pawnbroker:
   title: Suran, House of Pawnbroker
   titleRu: Суран, Дом ростовщика
-  location: Suran
+  placement: Outdoors
+  location: 'Suran, Goldyn Belaram: Pawnbroker'
   content: store:/shots/2017-05-06-suran-house-of-pawnbroker.png
   type: shot
   author: dehero
@@ -5052,6 +5092,7 @@
 2017-05-07-maar-gan-outpost:
   title: Maar Gan, Outpost
   titleRu: Маар Ган, Аванпост
+  placement: Outdoors
   location: Maar Gan
   content: store:/shots/2017-05-07-maar-gan-outpost.png
   type: shot
@@ -5105,6 +5146,7 @@
 2017-05-08-snowy-waiting:
   title: Snowy Waiting
   titleRu: Снежное ожидание
+  placement: Outdoors
   content: store:/shots/2017-05-08-snowy-waiting.png
   type: shot
   author: dehero
@@ -5156,6 +5198,7 @@
 2017-05-09-youd-better-do-what-they-say:
   title: You'd Better Do What They Say
   titleRu: Вам лучше сделать, как они говорят
+  placement: Indoors
   content: store:/shots/2017-05-09-youd-better-do-what-they-say.png
   type: shot
   author: dehero
@@ -5223,6 +5266,7 @@
 2017-05-10-slaves-of-molag-mar:
   title: Slaves of Molag Mar
   titleRu: Рабы Молаг Мара
+  placement: Outdoors
   location: Molag Mar
   content: store:/shots/2017-05-10-slaves-of-molag-mar.png
   type: shot
@@ -5283,6 +5327,7 @@
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
+  placement: Indoors
   content: store:/shots/2017-05-11-inside-of-llethri-manor.png
   type: shot
   author: dehero
@@ -5308,6 +5353,7 @@
 2017-05-12-welcome-to-solstheim:
   title: Welcome to Solstheim
   titleRu: Добро пожаловать на Солстхейм
+  placement: Outdoors
   location: Solstheim
   content: store:/shots/2017-05-12-welcome-to-solstheim.png
   type: shot
@@ -5339,6 +5385,7 @@
 2017-05-13-vampire-attack:
   title: Vampire Attack
   titleRu: Атака вампиров
+  placement: Indoors
   content: store:/shots/2017-05-13-vampire-attack.png
   type: shot
   author: dehero
@@ -5367,6 +5414,7 @@
 2017-05-14-entrance-to-vivec:
   title: Entrance to Vivec
   titleRu: Вход в Вивек
+  placement: Outdoors
   location: Vivec
   content: store:/shots/2017-05-14-entrance-to-vivec.png
   type: shot
@@ -5417,6 +5465,7 @@
 2017-05-15-in-the-courtyard-of-royal-palace:
   title: In the Courtyard of Royal Palace
   titleRu: Во внутреннем дворе Королевского дворца
+  placement: Outdoors
   location: 'Mournhold, Royal Palace: Courtyard'
   content: store:/shots/2017-05-15-in-the-courtyard-of-royal-palace.png
   type: shot
@@ -5469,6 +5518,7 @@
 2017-05-16-in-the-yurt:
   title: In the Yurt
   titleRu: В юрте
+  placement: Indoors
   content: store:/shots/2017-05-16-in-the-yurt.png
   type: shot
   author: dehero
@@ -5520,6 +5570,7 @@
 2017-05-17-nice-time-to-go-boating:
   title: Nice Time to Go Boating
   titleRu: Хорошее время, чтобы поплавать на лодке
+  placement: Outdoors
   content: store:/shots/2017-05-17-nice-time-to-go-boating.png
   type: shot
   author: dehero
@@ -5601,6 +5652,7 @@
 2017-05-19-queen-mother-in-her-chambers:
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
+  placement: Indoors
   content: store:/shots/2017-05-19-queen-mother-in-her-chambers.png
   type: shot
   author: dehero
@@ -5627,6 +5679,7 @@
 2017-05-20-at-the-edge-of-the-world:
   title: At the Edge of the World
   titleRu: На краю света
+  placement: Outdoors
   content: store:/shots/2017-05-20-at-the-edge-of-the-world.png
   type: shot
   author: dehero
@@ -5654,6 +5707,7 @@
 2017-05-21-table-in-magic-shop:
   title: Table in Magic Shop
   titleRu: Столик в магазине магии
+  placement: Indoors
   content: store:/shots/2017-05-21-table-in-magic-shop.png
   type: shot
   author: dehero
@@ -5684,6 +5738,7 @@
 2017-05-22-is-this-my-tower:
   title: Is This My Tower?
   titleRu: Это и есть моя башня?
+  placement: Outdoors
   location: Tel Uvirith
   content: store:/shots/2017-05-22-is-this-my-tower.png
   type: shot
@@ -5708,6 +5763,7 @@
 2017-05-23-equalizer:
   title: Equalizer
   titleRu: Эквалайзер
+  placement: Indoors
   content: store:/shots/2017-05-23-equalizer.png
   type: shot
   author: dehero
@@ -5764,6 +5820,7 @@
 2017-05-24-near-the-ancient-dwelling:
   title: Near the Ancient Dwelling
   titleRu: У древнего жилища
+  placement: Outdoors
   content: store:/shots/2017-05-24-near-the-ancient-dwelling.png
   type: shot
   author: dehero
@@ -5811,6 +5868,7 @@
 2017-05-25-arvela-falas:
   title: Arvela Falas
   titleRu: Арвела Фалас
+  placement: Indoors
   content: store:/shots/2017-05-25-arvela-falas.png
   type: shot
   author: dehero
@@ -5836,6 +5894,7 @@
 2017-05-26-in-the-shrine-of-azura:
   title: In the Shrine of Azura
   titleRu: В святилище Азуры
+  placement: Indoors
   location: Shrine of Azura
   content: store:/shots/2017-05-26-in-the-shrine-of-azura.png
   type: shot
@@ -5865,6 +5924,7 @@
 2017-05-27-rainy-watching:
   title: Rainy Watching
   titleRu: Дождливое дежурство
+  placement: Outdoors
   location: Vivec
   content: store:/shots/2017-05-27-rainy-watching.png
   type: shot

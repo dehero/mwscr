@@ -12,12 +12,10 @@ dehero.2025-01-19-18-35-14:
   content: store:/inbox/dehero.2025-01-19-18-35-14.png
   type: shot
   author: dehero
-dehero.2025-01-19-18-52-08:
-  content: store:/inbox/dehero.2025-01-19-18-52-08.png
-  type: shot
-  author: dehero
 dehero.2025-01-19-18-52-27:
-  content: store:/inbox/dehero.2025-01-19-18-52-27.png
+  content:
+    - store:/inbox/dehero.2025-01-19-18-52-27.png
+    - store:/inbox/dehero.2025-01-19-18-52-08.png
   type: shot
   author: dehero
 dehero.2025-01-19-18-57-18:
