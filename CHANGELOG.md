@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.37.4](https://github.com/dehero/mwscr/compare/v1.37.3...v1.37.4) (2025-02-18)
+
+### Bug Fixes
+
+- don't use pre-calculated last posts on posts page
+  ([61d6e25](https://github.com/dehero/mwscr/commit/61d6e258ab25eba294a9c77faf6b1bff5e7bc5e7))
+
 ## [1.37.3](https://github.com/dehero/mwscr/compare/v1.37.2...v1.37.3) (2025-02-18)
 
 ### Bug Fixes
