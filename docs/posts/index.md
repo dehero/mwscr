@@ -4,7 +4,41 @@
 
 # Posted in 2025
 
-`48 items`
+`49 items`
+
+## <span id="2025-02-18-grazing-grazelands">Grazing Grazelands</span>
+
+`RU` Паря над Грейзлендом
+
+<a href="https://instagram.com/p/CHD60FLByRT/" title="2020-11-01-grazing-grazelands"><img alt="store:/shots/2020-11-01-grazing-grazelands.png" src="../../assets/previews/shots/2020-11-01-grazing-grazelands.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-02-18-grazing-grazelands&amp;postContent=store%3A%2Fshots%2F2020-11-01-grazing-grazelands.png&amp;postTitle=Grazing+Grazelands&amp;postTitleRu=%D0%9F%D0%B0%D1%80%D1%8F+%D0%BD%D0%B0%D0%B4+%D0%93%D1%80%D0%B5%D0%B9%D0%B7%D0%BB%D0%B5%D0%BD%D0%B4%D0%BE%D0%BC&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Grazelands+Region&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Grazelands Region` `🚀 OpenMW`
+
+```
+2025-02-18-grazing-grazelands
+```
+
+> `2020-11-01-grazing-grazelands`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/CHD60FLByRT/)       | 2020-11-01 |       |   128 |       915 |      13.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1284) | 2020-11-01 |  1132 |    57 |       455 |      12.75 |
+| [`tg`](https://t.me/mwscr/239)                     | 2020-11-01 |  1292 |     6 |       167 |       3.59 |
+| [`ig`](https://instagram.com/p/DGOUfCCRu_h/)       | 2025-02-18 |       |       |      1539 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2137) | 2025-02-18 |       |       |      1092 |            |
+| [`tg`](https://t.me/mwscr/714)                     | 2025-02-18 |       |       |       678 |            |
+|                                                    |            |       |       |      3309 |            |
+
+#### Comments
+
+- `tg` <ins title="2020-11-01-21-24-12">okusavina</ins> woooooooow
+- `tg` <ins title="2020-11-02-03-51-59">Dar</ins> To be honest, I never really liked how the majority of trees in Morrowind look dead
+  - <ins title="2020-11-02-05-23-27">Rattenviech</ins> Not too much fertile soil on morrowind
 
 ## <span id="2025-02-17-grazing-guar">Grazing Guar</span>
 
@@ -28,10 +62,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BXm4Oamj1CB/)       | 2017-08-10 |       |    49 |       192 |      25.52 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_386)  | 2017-08-10 |   117 |     4 |        75 |       5.33 |
-| [`ig`](https://instagram.com/p/DGLvl1opXZD/)       | 2025-02-17 |   232 |    59 |      1539 |       3.83 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   190 |    26 |      1084 |       2.49 |
-| [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |   157 |    47 |       678 |       6.93 |
-|                                                    |            |   579 |   132 |      3301 |       4.42 |
+| [`ig`](https://instagram.com/p/DGLvl1opXZD/)       | 2025-02-17 |   239 |    61 |      1539 |       3.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   192 |    27 |      1084 |       2.58 |
+| [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |   158 |    48 |       678 |       7.08 |
+|                                                    |            |   589 |   136 |      3301 |       4.54 |
 
 ## <span id="2025-02-16-nchurdamz-at-the-sunset">Nchurdamz at the Sunset</span>
 
@@ -89,10 +123,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BOwBgBAFlLP/)       | 2017-01-02 |       |    35 |        57 |       61.4 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_50)   | 2017-01-22 |    95 |     4 |         4 |          4 |
-| [`ig`](https://instagram.com/p/DGGnmWJT-BO/)       | 2025-02-15 |   439 |    80 |      1533 |       5.22 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2132) | 2025-02-15 |   220 |    42 |      1070 |       4.11 |
-| [`tg`](https://t.me/mwscr/711)                     | 2025-02-15 |   222 |    59 |       677 |       8.71 |
-|                                                    |            |   881 |   181 |      3280 |       6.02 |
+| [`ig`](https://instagram.com/p/DGGnmWJT-BO/)       | 2025-02-15 |   452 |    84 |      1533 |       5.48 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2132) | 2025-02-15 |   256 |    47 |      1070 |       4.58 |
+| [`tg`](https://t.me/mwscr/711)                     | 2025-02-15 |   240 |    59 |       677 |       8.71 |
+|                                                    |            |   948 |   190 |      3280 |       6.26 |
 
 #### Comments
 
@@ -124,10 +158,10 @@
 | [`ig`](https://instagram.com/p/BpNQHT-BoiQ/)       | 2018-10-21 |       |   112 |       447 |      25.06 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_998)  | 2018-10-21 |   389 |    31 |           |            |
 | [`tg`](https://t.me/mwscr/89,90,91,92,93)          | 2018-10-21 |   235 |     3 |           |            |
-| [`ig`](https://instagram.com/p/DGEBRCtzBuX/)       | 2025-02-14 |   240 |    75 |      1533 |       4.89 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2130) | 2025-02-14 |   439 |    55 |      1070 |        5.7 |
-| [`tg`](https://t.me/mwscr/707,708,709,710)         | 2025-02-14 |   270 |    59 |       675 |       8.74 |
-|                                                    |            |   949 |   189 |      3278 |       6.44 |
+| [`ig`](https://instagram.com/p/DGEBRCtzBuX/)       | 2025-02-14 |   254 |    76 |      1533 |       4.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2130) | 2025-02-14 |   471 |    55 |      1070 |        5.7 |
+| [`tg`](https://t.me/mwscr/707,708,709,710)         | 2025-02-14 |   299 |    59 |       675 |       8.74 |
+|                                                    |            |  1024 |   190 |      3278 |       6.47 |
 
 #### Comments
 
@@ -160,10 +194,10 @@
 | [`ig`](https://instagram.com/p/CfKLDX6sxiS/)       | 2022-06-23 |       |   265 |      1088 |      24.36 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1303) | 2022-06-23 |   994 |    79 |       700 |         12 |
 | [`tg`](https://t.me/mwscr/246)                     | 2022-06-23 |  1169 |    85 |       226 |      37.61 |
-| [`ig`](https://instagram.com/p/DGBdJ0-PH1J/)       | 2025-02-13 |   269 |    85 |      1534 |       5.54 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2129) | 2025-02-13 |   314 |    55 |      1069 |       5.43 |
-| [`tg`](https://t.me/mwscr/706)                     | 2025-02-13 |   269 |    57 |       676 |       8.43 |
-|                                                    |            |   852 |   197 |      3279 |       6.47 |
+| [`ig`](https://instagram.com/p/DGBdJ0-PH1J/)       | 2025-02-13 |   282 |    86 |      1534 |       5.61 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2129) | 2025-02-13 |   339 |    55 |      1069 |       5.43 |
+| [`tg`](https://t.me/mwscr/706)                     | 2025-02-13 |   303 |    57 |       676 |       8.43 |
+|                                                    |            |   924 |   198 |      3279 |       6.49 |
 
 #### Comments
 

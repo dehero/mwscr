@@ -63,28 +63,28 @@
       id: DGBdJ0-PH1J
       mediaId: '17864937378336640'
       published: 2025-02-13-18-17-09
-      updated: 2025-02-17-18-10-17
+      updated: 2025-02-18-18-11-15
       followers: 1534
-      likes: 85
-      views: 269
+      likes: 86
+      views: 282
       comments: !c |-
         iyqAkZTLQnlQ+wvaAACoYmVyc2thdGXZJFVyIHNjcmVlbnNob3RzIHIgYWx3YXlzIHBlcmZlY3Qg
         8J+RjJPLQnlQ+2CRgAClbXdzY3KrVGhhbmtzIPCfmY8D
     - service: vk
       id: 2129
       published: 2025-02-13-18-17-15
-      updated: 2025-02-17-18-10-14
+      updated: 2025-02-18-18-11-12
       followers: 1069
       likes: 55
-      views: 314
+      views: 339
       reposts: 3
     - service: tg
       id: 706
       published: 2025-02-13-18-17-22
-      updated: 2025-02-17-18-10-14
+      updated: 2025-02-18-18-11-11
       followers: 676
       likes: 57
-      views: 269
+      views: 303
 2022-06-24-evening-talk-in-vos:
   title: Evening Talk in Vos
   titleRu: Вечерняя беседа в Восе
