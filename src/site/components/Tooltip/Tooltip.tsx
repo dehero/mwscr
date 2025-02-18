@@ -6,7 +6,6 @@ import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
 import { createEffect, createMemo, createSignal, For, onCleanup, Show } from 'solid-js';
 import { Portal } from 'solid-js/web';
-import type { Action } from '../../../core/utils/common-types.js';
 import { Button } from '../Button/Button.jsx';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Tooltip.module.css';
@@ -15,10 +14,16 @@ const CURSOR_OFFSET_X = 8;
 const CURSOR_OFFSET_Y = 32;
 const CURSOR_SIZE = 16;
 
+export interface TooltipAction {
+  label: string;
+  url?: string;
+  onExecute?: () => void;
+}
+
 export interface TooltipProps {
   class?: string;
   children?: JSX.Element | ((position: PositionRelativeToElement) => JSX.Element);
-  actions?: Action[];
+  actions?: TooltipAction[];
   forRef?: Element;
 }
 

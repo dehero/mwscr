@@ -1,31 +1,22 @@
 import clsx from 'clsx';
-import type { Component } from 'solid-js';
-import { For, Show } from 'solid-js';
-import type { Action } from '../../../core/utils/common-types.js';
-import { Button } from '../Button/Button.js';
+import type { Component, JSX } from 'solid-js';
+import { Show } from 'solid-js';
+import { isJSXElementEmpty } from '../../utils/jsx-utils.js';
 import styles from './PostPreviews.module.css';
 
 export interface ToolbarProps {
   label?: string;
-  actions?: Action[];
+  actions?: JSX.Element;
   class?: string;
 }
 
 export const Toolbar: Component<ToolbarProps> = (props) => {
-  const withActions = () => props.actions && props.actions.length > 0;
+  const withActions = () => !isJSXElementEmpty(props.actions);
 
   return (
     <div class={clsx(styles.toolbar, withActions() && styles.withActions, props.class)}>
       <Show when={withActions()}>
-        <div class={styles.actions}>
-          <For each={props.actions}>
-            {(action) => (
-              <Button href={action.url} onClick={action.onExecute}>
-                {action.label}
-              </Button>
-            )}
-          </For>
-        </div>
+        <div class={styles.actions}>{props.actions}</div>
       </Show>
       <p class={styles.label}>{props.label}</p>
     </div>

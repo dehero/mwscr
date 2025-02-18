@@ -1,5 +1,6 @@
 import { VirtualContainer } from '@minht11/solid-virtual-container';
 import { type Component, Show } from 'solid-js';
+import { isJSXElementEmpty } from '../../utils/jsx-utils.js';
 import {
   POST_PREVIEW_GAP,
   POST_PREVIEW_INFO_MIN_HEIGHT,
@@ -30,7 +31,7 @@ export const VirtualPostPreviews: Component<PostPreviewsProps> = (props) => {
 
   return (
     <div class={styles.virtualContainerWrapper}>
-      <Show when={props.label || props.actions?.length}>
+      <Show when={props.label || !isJSXElementEmpty(props.actions)}>
         <Toolbar label={props.label} actions={props.actions} class={styles.virtualToolbar} />
       </Show>
       <VirtualContainer

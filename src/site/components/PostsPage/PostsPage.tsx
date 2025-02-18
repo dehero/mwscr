@@ -8,11 +8,11 @@ import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../cor
 import { selectPostInfosResultToString } from '../../../core/entities/post-info.js';
 import { postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
 import type { SiteRouteMeta } from '../../../core/entities/site-route.js';
-import type { Action } from '../../../core/utils/common-types.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { postsRoute } from '../../routes/posts-route.js';
+import { Button } from '../Button/Button.jsx';
 import { Frame } from '../Frame/Frame.js';
 import { PostPreviews } from '../PostPreviews/PostPreviews.js';
 import { Toast, useToaster } from '../Toaster/Toaster.jsx';
@@ -136,29 +136,15 @@ export const PostsPage = (): JSX.Element => {
           label={selectPostInfosResultToString(postInfos().totalCount, postInfos().params, selected().length)}
           selected={selected()}
           onSelectedChange={postActions().includes('merge') ? handleSelectedChange : undefined}
-          actions={
-            [
-              selected().length > 0
-                ? {
-                    label: 'Clear Selection',
-                    onExecute: () => setSelected([]),
-                  }
-                : undefined,
-              postActions().includes('merge') && selected().length > 1
-                ? {
-                    label: 'Merge',
-                    onExecute: handleMerge,
-                  }
-                : undefined,
-              parameters.preset()
-                ? {
-                    label: 'Reset',
-                    // Using parameters.setPreset with onExecute throws "TypeError: n is not a function" on production
-                    url: postsRoute.createUrl({ managerName: params().managerName }),
-                  }
-                : undefined,
-            ].filter(Boolean) as Action[]
-          }
+          actions={[
+            selected().length > 0 ? <Button onClick={() => setSelected([])}>Clear Selection</Button> : undefined,
+            postActions().includes('merge') && selected().length > 1 ? (
+              <Button onClick={handleMerge}>Merge</Button>
+            ) : undefined,
+            parameters.preset() ? (
+              <Button href={postsRoute.createUrl({ managerName: params().managerName })}>Reset</Button>
+            ) : undefined,
+          ]}
         />
       </Frame>
     </Frame>

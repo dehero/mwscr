@@ -1,7 +1,8 @@
-import { type Component, For, Show } from 'solid-js';
+import type { Component, JSX } from 'solid-js';
+import { For, Show } from 'solid-js';
 import { clientOnly } from 'vike-solid/clientOnly';
 import type { PostInfo } from '../../../core/entities/post-info.js';
-import type { Action } from '../../../core/utils/common-types.js';
+import { isJSXElementEmpty } from '../../utils/jsx-utils.js';
 import { PostPreview } from '../PostPreview/PostPreview.js';
 import styles from './PostPreviews.module.css';
 import { Toolbar } from './Toolbar.jsx';
@@ -14,7 +15,7 @@ export interface PostPreviewsProps {
   scrollTarget?: HTMLElement;
   selected?: string[];
   onSelectedChange?: (id: string, value: boolean) => void;
-  actions?: Action[];
+  actions?: JSX.Element;
 }
 
 export const PostPreviews: Component<PostPreviewsProps> = (props) => {
@@ -24,7 +25,7 @@ export const PostPreviews: Component<PostPreviewsProps> = (props) => {
     <VirtualPostPreviews
       fallback={
         <div class={styles.container}>
-          <Show when={props.label || props.actions?.length}>
+          <Show when={props.label || !isJSXElementEmpty(props.actions)}>
             <Toolbar label={props.label} actions={props.actions} />
           </Show>
           <div class={styles.items}>

@@ -5,7 +5,6 @@ import type { PostAction } from '../../../core/entities/post-action.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
-import type { Action } from '../../../core/utils/common-types.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
@@ -17,7 +16,7 @@ import { Icon } from '../Icon/Icon.js';
 import { PostContentPreview } from '../PostContentPreview/PostContentPreview.jsx';
 import { PostTypeGlyph } from '../PostTypeGlyph/PostTypeGlyph.jsx';
 import { useToaster } from '../Toaster/Toaster.jsx';
-import type { TooltipProps } from '../Tooltip/Tooltip.js';
+import type { TooltipAction, TooltipProps } from '../Tooltip/Tooltip.js';
 import { Tooltip } from '../Tooltip/Tooltip.js';
 import styles from './PostTooltip.module.css';
 
@@ -90,7 +89,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
             onExecute: handleReset,
           }
         : undefined,
-    ].filter(Boolean) as Action[];
+    ].filter(Boolean) as TooltipAction[];
 
   return (
     <Tooltip actions={actions()} {...rest}>
