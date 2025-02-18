@@ -644,7 +644,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-03-20-sun-moon-vivec&amp;postContent=store%3A%2Fshots%2F2017-03-20-sun-moon-vivec.png&amp;postTitle=Sun%2C+Moon%2C+Vivec&amp;postTitleRu=%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B5%2C+%D0%BB%D1%83%D0%BD%D0%B0%2C+%D0%92%D0%B8%D0%B2%D0%B5%D0%BA&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=sunset&amp;postLocation=Vivec&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Vivec` `🚀 OpenMW` `sunset`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-03-20-sun-moon-vivec&amp;postContent=store%3A%2Fshots%2F2017-03-20-sun-moon-vivec.png&amp;postTitle=Sun%2C+Moon%2C+Vivec&amp;postTitleRu=%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B5%2C+%D0%BB%D1%83%D0%BD%D0%B0%2C+%D0%92%D0%B8%D0%B2%D0%B5%D0%BA&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=sunset&amp;postLocation=Vivec%2C+Temple&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Vivec, Temple` `🚀 OpenMW` `sunset`
 
 ```
 2017-03-20-sun-moon-vivec
