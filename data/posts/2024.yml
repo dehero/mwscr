@@ -986,10 +986,10 @@
     - service: vk
       id: 1487
       published: 2024-04-08-18-19-47
-      updated: 2025-02-11-21-07-14
+      updated: 2025-02-18-22-07-25
       followers: 909
       likes: 31
-      views: 198
+      views: 200
       reposts: 2
     - service: tg
       id: 372
@@ -1202,10 +1202,10 @@
     - service: vk
       id: 1495
       published: 2024-04-15-18-17-46
-      updated: 2025-02-11-21-07-13
+      updated: 2025-02-18-22-07-24
       followers: 910
       likes: 47
-      views: 292
+      views: 293
       reposts: 2
       comments: !c Cw6AkZPLQnjuO8YzAACobW9ydHdha2Wo8J+arPCfl78D
     - service: tg
