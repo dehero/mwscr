@@ -153,7 +153,8 @@ export const PostsPage = (): JSX.Element => {
               parameters.preset()
                 ? {
                     label: 'Reset',
-                    onExecute: () => parameters.setPreset(undefined),
+                    // Using parameters.setPreset with onExecute throws "TypeError: n is not a function" on production
+                    url: postsRoute.createUrl({ managerName: params().managerName }),
                   }
                 : undefined,
             ].filter(Boolean) as Action[]
