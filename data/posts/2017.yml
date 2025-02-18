@@ -2676,17 +2676,17 @@
       id: DGJKqKVyLQy
       mediaId: '18046144337035450'
       published: 2025-02-16-18-09-27
-      updated: 2025-02-18-06-32-38
+      updated: 2025-02-18-07-08-06
       followers: 1538
-      likes: 106
-      views: 438
+      likes: 107
+      views: 443
       comments: !c |-
         G2YAYJ2JsY2C85julNcsP29/KZ4czyYwnO2eoFRKsulKENL/PRLVxSlDhABracoDLvo5K524FAs2
         xtaXoBkNj7lew/zT8VkgFT4I7FMyRONjyr+SRhgDRKYj2tBSBjTJHTzcmw2lOEoO
     - service: vk
       id: 2133
       published: 2025-02-16-18-09-34
-      updated: 2025-02-18-06-32-39
+      updated: 2025-02-18-07-08-06
       followers: 1071
       likes: 38
       views: 208
@@ -2694,10 +2694,10 @@
     - service: tg
       id: 712
       published: 2025-02-16-18-09-40
-      updated: 2025-02-18-06-32-38
+      updated: 2025-02-18-07-08-05
       followers: 677
       likes: 61
-      views: 197
+      views: 199
       comments: !c |-
         izKAkZPLQnlQ/7sSAACrYWFyeWNoYWdvZmbZTdCT0LvQsNCy0L3QvtC1IC0g0L3QtSDQv9GD0YLQ
         sNGC0Ywg0J3Rh9GD0YDQtNCw0LzRhiDQuCDQndGH0LDRgNC00YPQvNGGLiDwn5iBAw==
@@ -8614,25 +8614,25 @@
       id: DGLvl1opXZD
       mediaId: '17906384352096938'
       published: 2025-02-17-18-10-41
-      updated: 2025-02-18-06-32-36
+      updated: 2025-02-18-07-08-04
       followers: 1539
       likes: 49
-      views: 177
+      views: 182
     - service: vk
       id: 2134
       published: 2025-02-17-18-10-47
-      updated: 2025-02-18-06-32-37
+      updated: 2025-02-18-07-08-04
       followers: 1084
-      likes: 24
-      views: 129
+      likes: 25
+      views: 135
       reposts: 1
     - service: tg
       id: 713
       published: 2025-02-17-18-10-54
-      updated: 2025-02-18-06-32-37
+      updated: 2025-02-18-07-08-04
       followers: 678
-      likes: 42
-      views: 131
+      likes: 43
+      views: 135
 2017-08-11-west-gash:
   title: West Gash
   titleRu: Западное нагорье
