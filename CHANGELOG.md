@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.37.3](https://github.com/dehero/mwscr/compare/v1.37.2...v1.37.3) (2025-02-18)
+
+### Bug Fixes
+
+- **site:** make post previews always virtual to avoid re-renderings
+  ([c078c51](https://github.com/dehero/mwscr/commit/c078c51cf6c17200cac5fe36ebb49d6877685795))
+- **site:** pass actions as JSX element for post previews
+  ([b6a9c3f](https://github.com/dehero/mwscr/commit/b6a9c3fddcc2daed220223786b262af235002693))
+
 ## [1.37.2](https://github.com/dehero/mwscr/compare/v1.37.1...v1.37.2) (2025-02-18)
 
 ### Bug Fixes
