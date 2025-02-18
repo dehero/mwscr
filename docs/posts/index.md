@@ -1275,7 +1275,7 @@
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-01-11-saint-sotha&amp;postContent=store%3A%2Fshots%2F2017-07-08-saint-sotha.png&amp;postTitle=Saint+Sotha&amp;postTitleRu=%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B9+%D0%A1%D0%BE%D1%82%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Tribunal&amp;postTags=sothasil&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-01-11-saint-sotha&postLocation=)</code> `🚀 OpenMW` `🔗 Tribunal` `sothasil`
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-01-11-saint-sotha&amp;postContent=store%3A%2Fshots%2F2017-07-08-saint-sotha.png&amp;postTitle=Saint+Sotha&amp;postTitleRu=%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B9+%D0%A1%D0%BE%D1%82%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Tribunal&amp;postTags=sothasil&amp;postLocation=Sotha+Sil%2C+Dome+of+Sotha+Sil&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Sotha Sil, Dome of Sotha Sil` `🚀 OpenMW` `🔗 Tribunal` `sothasil`
 
 ```
 2025-01-11-saint-sotha

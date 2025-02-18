@@ -475,6 +475,7 @@
   title: Mages Guild Reception
   titleRu: Приёмная Гильдии Магов
   placement: Indoors
+  location: Caldera, Guild of Mages
   content: store:/shots/2017-01-15-mages-guild-reception.png
   type: shot
   author: dehero
@@ -502,6 +503,7 @@
   title: Training to See Nerevarine
   titleRu: Тренировка перед встречей с Нереварином
   placement: Indoors
+  location: Dagoth Ur, Facility Cavern
   content: store:/videos/2017-01-16-training-to-see-nerevarine.mp4
   type: clip
   author: dehero
@@ -2987,6 +2989,7 @@
   title: Sandy Shore
   titleRu: Песчаный берег
   placement: Outdoors
+  location: Bitter Coast Region
   content: store:/shots/2017-03-13-sandy-shore.png
   type: shot
   author: dehero
@@ -5770,6 +5773,7 @@
   title: At the Edge of the World
   titleRu: На краю света
   placement: Outdoors
+  location: Ascadian Isles Region
   content: store:/shots/2017-05-20-at-the-edge-of-the-world.png
   type: shot
   author: dehero
@@ -5959,6 +5963,7 @@
   title: Arvela Falas
   titleRu: Арвела Фалас
   placement: Indoors
+  location: Vivec, St. Olms Haunted Manor
   content: store:/shots/2017-05-25-arvela-falas.png
   type: shot
   author: dehero
@@ -7016,7 +7021,7 @@
         DuFgWADWDfo+L8ujlzrPvgp015iB2rY5HmVYRGiYKabRykEswlCuOEoKAiFO46VFqBjeNBD+KPQ+
         uYD4eVUpFIbEcgYW
 2017-06-24-entering-aldruhn:
-  title: Entering Ald-ruhn
+  title: Entering Ald'ruhn
   titleRu: Вступая в Альд'рун
   placement: Outdoors
   location: Ald-ruhn
@@ -7538,6 +7543,7 @@
   title: Saint Sotha
   titleRu: Святой Сота
   placement: Indoors
+  location: Sotha Sil, Dome of Sotha Sil
   content: store:/shots/2017-07-08-saint-sotha.png
   type: shot
   author: dehero
@@ -8624,6 +8630,7 @@
   title: The Embrace of Azura
   titleRu: Объятия Азуры
   placement: Indoors
+  location: Dagoth Ur, Facility Cavern
   content: store:/shots/2017-08-06-the-embrace-of-azura.png
   type: shot
   author: dehero
@@ -9115,6 +9122,7 @@
   title: Captain Bedrir
   titleRu: Капитан Бедрир
   placement: Indoors
+  location: Grytewake
   content: store:/shots/2017-08-18-captain-bedrir.png
   type: shot
   author: dehero
@@ -9308,6 +9316,7 @@
   title: Wraith of Sul-Senipul
   titleRu: Призрак Сул-Сенипула
   placement: Indoors
+  location: Urshilaku, Juno Burial
   content: store:/shots/2017-08-24-wraith-of-sul-senipul.png
   type: shot
   author: dehero
@@ -9438,6 +9447,7 @@
   title: Deadly Pass
   titleRu: Смертельный проход
   placement: Indoors
+  location: Sotha Sil, Dome of Kasia
   content: store:/shots/2017-08-27-deadly-pass.png
   type: shot
   author: dehero
@@ -9546,6 +9556,7 @@
   title: Ulfgar the Unending in His Dwelling
   titleRu: Ульфгар Бесконечный в своём жилище
   placement: Indoors
+  location: Solstheim, Ulfgar the Unending's Dwelling
   content: store:/shots/2017-08-30-ulfgar-the-unending-in-his-dwelling.png
   type: shot
   author: dehero
@@ -12753,6 +12764,7 @@
   title: Netch Slowly Swims Over the Water Surface
   titleRu: Нетч медленно проплывает над водной гладью
   placement: Outdoors
+  location: Ascadian Isles Region
   content: store:/shots/2017-11-27-netch-slowly-swims-over-the-water-surface.png
   type: shot
   author: dehero

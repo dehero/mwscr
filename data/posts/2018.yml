@@ -86,6 +86,7 @@
   title: Arch Over the Trail
   titleRu: Арка над тропой
   placement: Outdoors
+  location: West Gash Region
   content: store:/shots/2018-01-04-arch-over-the-trail.png
   type: shot
   author: dehero
@@ -1946,6 +1947,7 @@
   title: View from the Coastal Rocks
   titleRu: Вид из прибрежных скал
   placement: Outdoors
+  location: West Gash Region
   content: store:/shots/2018-02-21-view-from-the-coastal-rocks.png
   type: shot
   author: dehero
@@ -1979,6 +1981,9 @@
   title: Bridge at the Border of Two Regions
   titleRu: Мост на границе двух регионов
   placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Bitter Coast Region
   content: store:/shots/2018-02-22-bridge-at-the-border-of-two-regions.png
   type: shot
   author: dehero
@@ -2312,6 +2317,7 @@
   title: Cosy Bay
   titleRu: Уютный залив
   placement: Outdoors
+  location: Ascadian Isles Region
   content: store:/shots/2018-03-03-cosy-bay.png
   type: shot
   author: dehero
@@ -3636,6 +3642,7 @@
   title: Night at the Crossroads
   titleRu: Ночью у перекрёстка
   placement: Outdoors
+  location: Ascadian Isles Region
   content: store:/shots/2018-04-06-night-at-the-crossroads.png
   type: shot
   author: dehero
@@ -4277,6 +4284,10 @@
   title: Evening Dwemer Architecture
   titleRu: Вечерняя двемерская архитектура
   placement: Outdoors
+  location:
+    - Nchurdamz
+    - Arkngthunch-Sturdumz
+    - Aleft
   content:
     - store:/shots/2017-03-08-nchurdamz-at-the-sunset.png
     - store:/shots/2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.png
@@ -6145,6 +6156,11 @@
   title: Left-Side Portraits
   titleRu: Левосторонние портреты
   placement: Indoors
+  location:
+    - Imperial Prison Ship
+    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
+    - Tower of Tel Fyr, Hall of Fyr
+    - Seyda Neen, Census and Excise Office
   content:
     - store:/shots/2017-05-09-youd-better-do-what-they-say.png
     - store:/shots/2017-05-19-queen-mother-in-her-chambers.png
@@ -6418,6 +6434,11 @@
   title: Forts of Imperial Legion
   titleRu: Форты Имперского легиона
   placement: Outdoors
+  location:
+    - Fort Frostmoth
+    - Gnisis, Fort Darius
+    - Pelagiad, Fort Pelagiad
+    - Moonmoth Legion Fort
   content:
     - store:/shots/2017-09-16-fort-surrounded-by-fir-trees.png
     - store:/shots/2016-12-21-fort-darius.png
@@ -7782,6 +7803,7 @@
   title: Framed by Lianas
   titleRu: В обрамлении лиан
   placement: Outdoors
+  location: Bitter Coast Region
   content: store:/shots/2018-07-26-framed-by-lianas.png
   type: shot
   author: dehero
@@ -9717,6 +9739,11 @@
   title: City Lights
   titleRu: Городские огни
   placement: Outdoors
+  location:
+    - Tel Branora
+    - Maar Gan
+    - Balmora
+    - Sadrith Mora
   content:
     - store:/shots/2016-11-23-lanterns-of-tel-branora.png
     - store:/shots/2017-05-07-maar-gan-outpost.png
@@ -9995,6 +10022,11 @@
   title: Bridges
   titleRu: Мосты
   placement: Outdoors
+  location:
+    - Arkngthunch-Sturdumz
+    - West Gash Region
+    - Ascadian Isles Region
+    - Bitter Coast Region
   content:
     - store:/shots/2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.png
     - store:/shots/2017-09-26-bridges.png
