@@ -29,16 +29,17 @@
 | [`ig`](https://instagram.com/p/CHD60FLByRT/)       | 2020-11-01 |       |   128 |       915 |      13.99 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1284) | 2020-11-01 |  1132 |    57 |       455 |      12.75 |
 | [`tg`](https://t.me/mwscr/239)                     | 2020-11-01 |  1292 |     6 |       167 |       3.59 |
-| [`ig`](https://instagram.com/p/DGOUfCCRu_h/)       | 2025-02-18 |   120 |    36 |      1539 |       2.34 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2137) | 2025-02-18 |    97 |    18 |      1092 |       1.65 |
-| [`tg`](https://t.me/mwscr/714)                     | 2025-02-18 |   113 |    35 |       678 |       5.16 |
-|                                                    |            |   330 |    89 |      3309 |       3.05 |
+| [`ig`](https://instagram.com/p/DGOUfCCRu_h/)       | 2025-02-18 |   133 |    42 |      1539 |       2.73 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2137) | 2025-02-18 |   106 |    22 |      1092 |       2.01 |
+| [`tg`](https://t.me/mwscr/714)                     | 2025-02-18 |   118 |    35 |       678 |       5.16 |
+|                                                    |            |   357 |    99 |      3309 |        3.3 |
 
 #### Comments
 
 - `tg` <ins title="2020-11-01-21-24-12">okusavina</ins> woooooooow
 - `tg` <ins title="2020-11-02-03-51-59">Dar</ins> To be honest, I never really liked how the majority of trees in Morrowind look dead
   - <ins title="2020-11-02-05-23-27">Rattenviech</ins> Not too much fertile soil on morrowind
+- `vk` <ins title="2025-02-19-00-09-52">id889222999</ins> Те самые &quot;коряги&quot;, что так запали в душу
 
 ## <span id="2025-02-17-grazing-guar">Grazing Guar</span>
 
@@ -62,10 +63,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BXm4Oamj1CB/)       | 2017-08-10 |       |    49 |       192 |      25.52 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_386)  | 2017-08-10 |   117 |     4 |        75 |       5.33 |
-| [`ig`](https://instagram.com/p/DGLvl1opXZD/)       | 2025-02-17 |   255 |    62 |      1539 |       4.03 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   205 |    27 |      1084 |       2.58 |
-| [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |   189 |    51 |       678 |       7.52 |
-|                                                    |            |   649 |   140 |      3301 |       4.71 |
+| [`ig`](https://instagram.com/p/DGLvl1opXZD/)       | 2025-02-17 |   257 |    62 |      1539 |       4.03 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   206 |    27 |      1084 |       2.58 |
+| [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |   190 |    51 |       678 |       7.52 |
+|                                                    |            |   653 |   140 |      3301 |       4.71 |
 
 ## <span id="2025-02-16-nchurdamz-at-the-sunset">Nchurdamz at the Sunset</span>
 
