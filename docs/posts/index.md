@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/CHD60FLByRT/)       | 2020-11-01 |       |   128 |       915 |      13.99 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1284) | 2020-11-01 |  1132 |    57 |       455 |      12.75 |
 | [`tg`](https://t.me/mwscr/239)                     | 2020-11-01 |  1292 |     6 |       167 |       3.59 |
-| [`ig`](https://instagram.com/p/DGOUfCCRu_h/)       | 2025-02-18 |   172 |    48 |      1539 |       3.12 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2137) | 2025-02-18 |   168 |    27 |      1092 |       2.56 |
-| [`tg`](https://t.me/mwscr/714)                     | 2025-02-18 |   152 |    43 |       678 |       6.34 |
-|                                                    |            |   492 |   118 |      3309 |       4.01 |
+| [`ig`](https://instagram.com/p/DGOUfCCRu_h/)       | 2025-02-18 |   173 |    49 |      1539 |       3.18 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2137) | 2025-02-18 |   176 |    27 |      1092 |       2.56 |
+| [`tg`](https://t.me/mwscr/714)                     | 2025-02-18 |   153 |    43 |       678 |       6.34 |
+|                                                    |            |   502 |   119 |      3309 |       4.03 |
 
 #### Comments
 
@@ -64,9 +64,9 @@
 | [`ig`](https://instagram.com/p/BXm4Oamj1CB/)       | 2017-08-10 |       |    49 |       192 |      25.52 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_386)  | 2017-08-10 |   117 |     4 |        75 |       5.33 |
 | [`ig`](https://instagram.com/p/DGLvl1opXZD/)       | 2025-02-17 |   271 |    64 |      1539 |       4.16 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   218 |    27 |      1084 |       2.58 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   221 |    27 |      1084 |       2.58 |
 | [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |   204 |    52 |       678 |       7.67 |
-|                                                    |            |   693 |   143 |      3301 |        4.8 |
+|                                                    |            |   696 |   143 |      3301 |        4.8 |
 
 ## <span id="2025-02-16-nchurdamz-at-the-sunset">Nchurdamz at the Sunset</span>
 

@@ -2905,17 +2905,17 @@
     - service: vk
       id: 1937
       published: 2024-12-03-22-09-03
-      updated: 2025-02-12-10-08-33
+      updated: 2025-02-19-10-08-39
       followers: 1012
       likes: 37
-      views: 345
+      views: 346
     - service: tg
       id: 614
       published: 2024-12-03-22-09-13
-      updated: 2025-02-12-10-08-34
+      updated: 2025-02-19-10-08-40
       followers: 574
-      likes: 56
-      views: 457
+      likes: 57
+      views: 463
 2024-12-04-flash-of-lightning:
   title: Flash of Lightning
   titleRu: Вспышка молнии
