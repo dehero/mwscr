@@ -2745,28 +2745,28 @@
       id: DGJKqKVyLQy
       mediaId: '18046144337035450'
       published: 2025-02-16-18-09-27
-      updated: 2025-02-18-17-07-34
+      updated: 2025-02-19-18-10-49
       followers: 1538
-      likes: 111
-      views: 467
+      likes: 118
+      views: 487
       comments: !c |-
         G2YAYJ2JsY2C85julNcsP29/KZ4czyYwnO2eoFRKsulKENL/PRLVxSlDhABracoDLvo5K524FAs2
         xtaXoBkNj7lew/zT8VkgFT4I7FMyRONjyr+SRhgDRKYj2tBSBjTJHTzcmw2lOEoO
     - service: vk
       id: 2133
       published: 2025-02-16-18-09-34
-      updated: 2025-02-18-17-07-35
+      updated: 2025-02-19-18-10-49
       followers: 1071
-      likes: 38
-      views: 241
-      reposts: 2
+      likes: 41
+      views: 285
+      reposts: 3
     - service: tg
       id: 712
       published: 2025-02-16-18-09-40
-      updated: 2025-02-18-17-07-35
+      updated: 2025-02-19-18-10-51
       followers: 677
-      likes: 61
-      views: 211
+      likes: 63
+      views: 235
       comments: !c |-
         izKAkZPLQnlQ/7sSAACrYWFyeWNoYWdvZmbZTdCT0LvQsNCy0L3QvtC1IC0g0L3QtSDQv9GD0YLQ
         sNGC0Ywg0J3Rh9GD0YDQtNCw0LzRhiDQuCDQndGH0LDRgNC00YPQvNGGLiDwn5iBAw==
@@ -4174,6 +4174,19 @@
         13HiW5+mgpPIjtgsDfS6SCKPdOVzkAyODRhMPrMxFgIHVjzWSFlAYJHtHRRVSCK1aV4USdsatYcS
         WUL2OPjBKrK43+SgCh6KkseF1KaE2ZUBocIk/VaMNyKPrpd0oH4KXie2NWmwfhhoM24rllmAsiaz
         LQNpvAA=
+    - service: ig
+      id: DGQ5PExTAVB
+      mediaId: '17889180243193197'
+      published: 2025-02-19-18-11-09
+      followers: 1536
+    - service: vk
+      id: 2139
+      published: 2025-02-19-18-11-18
+      followers: 1102
+    - service: tg
+      id: 715
+      published: 2025-02-19-18-11-28
+      followers: 681
 2017-04-12-lets-set-sail:
   title: Let's Set Sail!
   titleRu: Отчаливаем!
@@ -8788,10 +8801,10 @@
     - service: tg
       id: 713
       published: 2025-02-17-18-10-54
-      updated: 2025-02-19-17-07-25
+      updated: 2025-02-19-18-10-50
       followers: 678
       likes: 53
-      views: 211
+      views: 212
 2017-08-11-west-gash:
   title: West Gash
   titleRu: Западное нагорье

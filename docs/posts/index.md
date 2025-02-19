@@ -4,7 +4,47 @@
 
 # Posted in 2025
 
-`49 items`
+`50 items`
+
+## <span id="2025-02-19-entrance-to-addamasartus">Entrance to Addamasartus</span>
+
+`RU` Вход в Аддамасартус
+
+<a href="https://instagram.com/p/BSvOPsHDA_1/" title="2017-04-11-entrance-to-adamassartus"><img alt="store:/shots/2017-04-11-entrance-to-adamassartus.png" src="../../assets/previews/shots/2017-04-11-entrance-to-adamassartus.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-02-19-entrance-to-addamasartus&amp;postContent=store%3A%2Fshots%2F2017-04-11-entrance-to-adamassartus.png&amp;postTitle=Entrance+to+Addamasartus&amp;postTitleRu=%D0%92%D1%85%D0%BE%D0%B4+%D0%B2+%D0%90%D0%B4%D0%B4%D0%B0%D0%BC%D0%B0%D1%81%D0%B0%D1%80%D1%82%D1%83%D1%81&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=cave&amp;postLocation=Addamasartus&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Addamasartus` `🚀 OpenMW` `cave`
+
+```
+2025-02-19-entrance-to-addamasartus
+```
+
+> `2017-04-11-entrance-to-adamassartus`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BSvOPsHDA_1/)       | 2017-04-11 |       |    68 |       172 |      39.53 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_249)  | 2017-04-11 |   138 |     4 |        52 |       7.69 |
+| [`ig`](https://instagram.com/p/DGQ5PExTAVB/)       | 2025-02-19 |       |       |      1536 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2139) | 2025-02-19 |       |       |      1102 |            |
+| [`tg`](https://t.me/mwscr/715)                     | 2025-02-19 |       |       |       681 |            |
+|                                                    |            |       |       |      3319 |            |
+
+#### Comments
+
+- `ig` <ins title="2017-04-11-11-36-10">_porch_honky</ins> Damn,this page makes me wanna go but an old ass Xbox so I can play this and some Fabel
+- `ig` <ins title="2017-04-11-11-36-24">_porch_honky</ins> Go buy
+- `ig` <ins title="2017-04-11-12-41-15">mwscr</ins> @marco_j_lello sorry for this 😉
+- `ig` <ins title="2017-04-11-12-44-10">_porch_honky</ins> No it&#39;ll be worth it
+- `vk` <ins title="2017-04-11-15-07-58">id35868942</ins> Когда поедете на Солтсхейм?
+- `vk` <ins title="2017-04-11-16-52-05">dehero</ins> Макс, не могу сказать.  Дополнения лежат в запасе, потому что есть ощущение, что Вварденфелл таит в себе ещё много сюрпризов. Но, может быть, действительно, стоит начать посещать Морнхолд и Солстхейм. Подумаю 😊
+- `vk` <ins title="2017-04-12-04-26-29">id35868942</ins> Антон, а там такие леса... сам бы отправился, но денег даже на дорогу до Хуула не хватает.
+- `vk` <ins title="2017-04-12-09-09-32">dehero</ins> Макс, да, бывал я в тех местах, там красиво и тоже атмосферно. Добраться из реальности до Хуула и всех денег мира не хватит 😊
+- `vk` <ins title="2017-04-12-11-40-05">idalexeyvav</ins> Макс, за что ты меня забанил?)
+- `vk` <ins title="2017-04-12-12-08-04">id35868942</ins> Привычка банить всех встречных 😈
 
 ## <span id="2025-02-18-grazing-grazelands">Grazing Grazelands</span>
 
@@ -29,10 +69,10 @@
 | [`ig`](https://instagram.com/p/CHD60FLByRT/)       | 2020-11-01 |       |   128 |       915 |      13.99 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1284) | 2020-11-01 |  1132 |    57 |       455 |      12.75 |
 | [`tg`](https://t.me/mwscr/239)                     | 2020-11-01 |  1292 |     6 |       167 |       3.59 |
-| [`ig`](https://instagram.com/p/DGOUfCCRu_h/)       | 2025-02-18 |   201 |    57 |      1539 |        3.7 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2137) | 2025-02-18 |   197 |    27 |      1092 |       2.56 |
-| [`tg`](https://t.me/mwscr/714)                     | 2025-02-18 |   172 |    46 |       678 |       6.78 |
-|                                                    |            |   570 |   130 |      3309 |       4.35 |
+| [`ig`](https://instagram.com/p/DGOUfCCRu_h/)       | 2025-02-18 |   205 |    57 |      1539 |        3.7 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2137) | 2025-02-18 |   199 |    27 |      1092 |       2.56 |
+| [`tg`](https://t.me/mwscr/714)                     | 2025-02-18 |   173 |    47 |       678 |       6.93 |
+|                                                    |            |   577 |   131 |      3309 |        4.4 |
 
 #### Comments
 
@@ -65,8 +105,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_386)  | 2017-08-10 |   117 |     4 |        75 |       5.33 |
 | [`ig`](https://instagram.com/p/DGLvl1opXZD/)       | 2025-02-17 |   281 |    69 |      1539 |       4.48 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   230 |    27 |      1084 |       2.58 |
-| [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |   211 |    53 |       678 |       7.82 |
-|                                                    |            |   722 |   149 |      3301 |       4.96 |
+| [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |   212 |    53 |       678 |       7.82 |
+|                                                    |            |   723 |   149 |      3301 |       4.96 |
 
 ## <span id="2025-02-16-nchurdamz-at-the-sunset">Nchurdamz at the Sunset</span>
 
@@ -90,10 +130,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BRXvJmKDcu0/)       | 2017-03-08 |       |    43 |       105 |      40.95 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_188)  | 2017-03-08 |   142 |     9 |        44 |          9 |
-| [`ig`](https://instagram.com/p/DGJKqKVyLQy/)       | 2025-02-16 |   467 |   111 |      1538 |       7.22 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2133) | 2025-02-16 |   241 |    38 |      1071 |       3.73 |
-| [`tg`](https://t.me/mwscr/712)                     | 2025-02-16 |   211 |    61 |       677 |       9.01 |
-|                                                    |            |   919 |   210 |      3286 |       6.65 |
+| [`ig`](https://instagram.com/p/DGJKqKVyLQy/)       | 2025-02-16 |   487 |   118 |      1538 |       7.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2133) | 2025-02-16 |   285 |    41 |      1071 |       4.11 |
+| [`tg`](https://t.me/mwscr/712)                     | 2025-02-16 |   235 |    63 |       677 |       9.31 |
+|                                                    |            |  1007 |   222 |      3286 |       7.03 |
 
 #### Comments
 
