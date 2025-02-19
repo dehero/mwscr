@@ -686,7 +686,7 @@
     - service: tg
       id: 267
       published: 2022-07-07
-      updated: 2025-02-12-06-11-44
+      updated: 2025-02-19-07-08-21
       followers: 256
       likes: 55
       views: 700
@@ -723,7 +723,7 @@
     - service: tg
       id: 268
       published: 2022-07-08
-      updated: 2025-02-12-06-11-43
+      updated: 2025-02-19-07-08-21
       followers: 256
       likes: 48
       views: 642
@@ -764,7 +764,7 @@
     - service: tg
       id: 269
       published: 2022-07-09
-      updated: 2025-02-12-06-11-43
+      updated: 2025-02-19-07-08-20
       followers: 257
       likes: 55
       views: 699
@@ -806,7 +806,7 @@
     - service: tg
       id: 270
       published: 2022-07-10
-      updated: 2025-02-12-06-11-42
+      updated: 2025-02-19-07-08-20
       followers: 257
       likes: 59
       views: 779
@@ -862,7 +862,7 @@
         - 273
         - 274
       published: 2022-07-11
-      updated: 2025-02-12-06-11-42
+      updated: 2025-02-19-07-08-20
       followers: 257
       likes: 56
       views: 737
@@ -957,7 +957,7 @@
     - service: tg
       id: 275
       published: 2022-07-12
-      updated: 2025-02-12-06-11-42
+      updated: 2025-02-19-07-08-19
       followers: 258
       likes: 48
       views: 710
@@ -997,7 +997,7 @@
     - service: tg
       id: 276
       published: 2022-07-13
-      updated: 2025-02-12-06-11-41
+      updated: 2025-02-19-07-08-19
       followers: 260
       likes: 51
       views: 743
@@ -1044,7 +1044,7 @@
     - service: tg
       id: 277
       published: 2022-07-14
-      updated: 2025-02-12-06-11-41
+      updated: 2025-02-19-07-08-18
       followers: 260
       likes: 40
       views: 741
@@ -1083,7 +1083,7 @@
     - service: tg
       id: 278
       published: 2022-07-15
-      updated: 2025-02-12-06-11-40
+      updated: 2025-02-19-07-08-18
       followers: 262
       likes: 50
       views: 769
@@ -1119,7 +1119,7 @@
     - service: tg
       id: 279
       published: 2022-07-16
-      updated: 2025-02-12-06-11-40
+      updated: 2025-02-19-07-08-18
       followers: 262
       likes: 48
       views: 780
@@ -1153,7 +1153,7 @@
     - service: tg
       id: 280
       published: 2022-07-17
-      updated: 2025-02-12-06-11-39
+      updated: 2025-02-19-07-08-17
       followers: 262
       likes: 49
       views: 773
@@ -1198,7 +1198,7 @@
     - service: tg
       id: 281
       published: 2022-07-18
-      updated: 2025-02-12-06-11-39
+      updated: 2025-02-19-07-08-17
       followers: 267
       likes: 50
       views: 799
@@ -1234,7 +1234,7 @@
     - service: tg
       id: 282
       published: 2022-07-19
-      updated: 2025-02-12-06-11-38
+      updated: 2025-02-19-07-08-17
       followers: 267
       likes: 62
       views: 820
@@ -1268,7 +1268,7 @@
     - service: tg
       id: 283
       published: 2022-07-20
-      updated: 2025-02-12-06-11-38
+      updated: 2025-02-19-07-08-16
       followers: 266
       likes: 55
       views: 829
@@ -1314,7 +1314,7 @@
     - service: tg
       id: 284
       published: 2022-07-21
-      updated: 2025-02-12-06-11-37
+      updated: 2025-02-19-07-08-16
       followers: 267
       likes: 50
       views: 1588
@@ -1362,7 +1362,7 @@
         - 287
         - 288
       published: 2022-07-22
-      updated: 2025-02-12-06-11-37
+      updated: 2025-02-19-07-08-16
       followers: 271
       likes: 59
       views: 863
@@ -1398,7 +1398,7 @@
     - service: tg
       id: 289
       published: 2022-07-23
-      updated: 2025-02-12-06-11-37
+      updated: 2025-02-19-07-08-15
       followers: 272
       likes: 55
       views: 910
@@ -1432,7 +1432,7 @@
     - service: tg
       id: 290
       published: 2022-07-24
-      updated: 2025-02-12-06-11-36
+      updated: 2025-02-19-07-08-15
       followers: 272
       likes: 53
       views: 949
@@ -1464,7 +1464,7 @@
     - service: tg
       id: 291
       published: 2022-07-25
-      updated: 2025-02-12-06-11-36
+      updated: 2025-02-19-07-08-15
       followers: 272
       likes: 55
       views: 1018
@@ -1510,7 +1510,7 @@
         - 294
         - 295
       published: 2022-07-26
-      updated: 2025-02-12-06-11-35
+      updated: 2025-02-19-07-08-14
       followers: 273
       likes: 55
       views: 1062
@@ -1545,10 +1545,10 @@
     - service: tg
       id: 296
       published: 2022-07-27
-      updated: 2025-02-12-06-11-35
+      updated: 2025-02-19-07-08-14
       followers: 272
       likes: 54
-      views: 1127
+      views: 1128
       comments: !c |-
         G28BAJwHtvOUwGJhR3LwhEM4FIl/+L9hhB/CSKOoMAgooibQOYORTO5zc/qcJ60sJsHQNR/t2yrt
         ASMaaxWUQiOdHi4dcE7h33aiA+TukuAJtPBbJAkGunh1np56OR6i2L6K9Pf5/IVxPp5/qL6bZ3ep
@@ -1595,7 +1595,7 @@
     - service: tg
       id: 297
       published: 2022-07-28
-      updated: 2025-02-12-06-11-35
+      updated: 2025-02-19-07-08-14
       followers: 274
       likes: 55
       views: 1182
@@ -1638,7 +1638,7 @@
     - service: tg
       id: 298
       published: 2022-07-29
-      updated: 2025-02-12-06-11-34
+      updated: 2025-02-19-07-08-13
       followers: 274
       likes: 59
       views: 1350
@@ -1671,7 +1671,7 @@
     - service: tg
       id: 299
       published: 2022-07-30
-      updated: 2025-02-12-06-11-34
+      updated: 2025-02-19-07-08-13
       followers: 278
       likes: 51
       views: 1339
@@ -1722,10 +1722,10 @@
         - 302
         - 303
       published: 2022-07-31
-      updated: 2025-02-12-06-11-33
+      updated: 2025-02-19-07-08-13
       followers: 277
       likes: 57
-      views: 1580
+      views: 1581
 2022-08-01-caravaneers-workplace:
   title: Caravaneer's Workplace
   titleRu: Рабочее место караванщика
@@ -1759,10 +1759,10 @@
     - service: tg
       id: 304
       published: 2022-08-01
-      updated: 2025-02-12-06-11-33
+      updated: 2025-02-19-07-08-12
       followers: 279
       likes: 56
-      views: 1657
+      views: 1658
       comments: !c |-
         G9QAwJwHtuOVBcnhoxXSwUkQuUsszZIwoAosoCerBVjgrUiTe8htrDOnREGY2jZAgOoGz40wyobW
         j2gd2YUvfJ0c6Vkjbac8kpbkXEJlltsYeK4I1qnC1Zwv7QIFM1fqZDdJM3XbW5fRtQR4+HY80rqq
@@ -1800,7 +1800,7 @@
     - service: tg
       id: 305
       published: 2022-08-02
-      updated: 2025-02-12-06-11-32
+      updated: 2025-02-19-07-08-12
       followers: 281
       likes: 69
       views: 2191
@@ -1848,22 +1848,21 @@
     - service: tg
       id: 306
       published: 2022-08-03
-      updated: 2025-02-12-06-11-32
+      updated: 2025-02-19-07-08-11
       followers: 281
       likes: 81
       views: 2219
       comments: !c |-
-        G5QFAByFccNdfnwRcXnz2xZRYogE8XC/+qC7IPsW86I0Gzgi6QNdaxfQgeSM8C1ON+uRAuO/pUi+
-        cEtPaNo8I+A7FMPvz34oC21p0UjGKY1CO6mB7UIBX+in+z9VEwtYQvWS5RXx/nWtn2zsHBm4sTSA
-        WvCJ3SAt4FKRzbtWM4Ninzg9+eIkOm9/GJTcr69GA0azAyDYxyxgNiBazPwyDhBhiH7M+fLse6JN
-        h9c2a8gbtRjpBKJ+qxM8MPJUYlF+HDgJy6SCv2Sni7+DWxZ7ArAGQZ36EbUyGMhvYWgMn+K/NC0A
-        ekZs0X5gX7Y/RaAFBmi73cBBsqi+eIyH6EewXMj9oZC/XUQEIWsgbKJbtXeqwUbvGzMiD2oFce/p
-        mefRJVPIH/M53Xfz8GlnV6GZQig9rbP6R3tyd93idHr0wlV/MmANnYexTNuGb0APEDvjZ5rHQnKf
-        9SyWvf/z6PGvM+GMehaCPgb9vl07ZE16P1Ow1YWGYY9M9xOglLBoaU0hluNRIUBMx9CVoSRiZcQY
-        hbdhp1DQLITgX9+MQX8AYvYgGUQpgAUUsB8Q2QJQvj81+yiKBamPLkNL7UF6Rsa+VKfJ0+6OcUU+
-        yIAdpsGONhOKQ5KCYdGkVBKX2LuSwsUmkA+bBRkbF+7dtZNFTUoyYLI9wSdmr0LFOAIUZ4GiQnDK
-        UFSVQSZjY4rZ5OQQti8WnEd2q1m3bH0TB8rCfGpgqYKO5kwnb6iLWLZYWKK2FWD53VS+wQVy3rrS
-        wXIQOHEgsAnAh4xqhEO07WzkGSPtl+z1bxMF7JLmjfNvwcBksXAB/SRNqWUBGVoseZn+c/wNwY5M
-        RFdAqzbZuae6DOXtEmAIBRWH4skWC67LDmobhiZIBW1CdCgoIFOT2AKDRFagqKTQQqj7IVd4mQRg
-        dWLi8AWN5G8zqecWyTXJslLw3WmbDhXp+Yt/iAHmyu6rBbQaRdTg0LRvyROmuSvJMl3C6ulnQacH
-        ew==
+        G5EFAJwFTtk8gh05qS95Rm8nf4mQiyg4zAf9gOQe06qmY0SqlUahB0rX3oACUmeFszjdrEcKjP+W
+        IvnCLT2hafOMgO9QzP+5PshEhrPp3qetLwM0EmQdeHYN2ALR4Pl/NyMIOAoDvKjn11iL4jigsW1z
+        Qv/+T9XEApZQvWR5Rbx/XesnGztHBm4sDaAWfGI3SAu4VGTzrtXMoNgnTk++yLy9/hHQuN8JE1+Q
+        dEAtWCQWC2kx88sciBjpx5yvde9JWRqeppXQSWQBd1fgYGSo1HL8ODipqFKpX4rXud/hUWWeADEQ
+        6s6P6JRhFL/FaACf8l+akYCeEUdOGNWXE04OaMFA2+0GlxRZffEYDNEPt5xZLwy9RhHhg3yBmIlu
+        em8rUSW8MQU5ywni3tMzzwueGHqpa1h3czru7CpMUAjNcd2hf8wUu+uyYdiYG3mFr4RHDMtcSdyh
+        PEDszPbSLzXu851F7v/n5PGvM1FdbBHgY95zd+1QKZzPFJqdZxjzyHQ8AUqJyFHWdNVCPCoEiOkM
+        XRklESsjZgpvI15Xl2YhJJ/fjEF/AMEeypAqIBIFCQvJkUDv/aklpJSV1DuXoaUJID2D4GWg3Xja
+        LYQV+SADjNFgF5uJ6pCksCKbSl/iEntXUrnYBK2yWUAQV+/dzdD8eH70RZhM7YnZq9BnHAGKi0Sp
+        EJwsFFVlkMnYmGK2MlnhhGLBeWS3WsyoMTdxoCxspQYWKehiznTvhjqH5ciFJWpbARbeTdk6F8h5
+        66rD3joGJwfBpoAPGdUIh2g71xCNlfZLCXq2iQJ2XXMy/i0MpomFC+gnaUqjCsjQYsnL9Jzjbwh2
+        ZAq6Alq1yXQ+DWcory9gREHFQXhy5ILrikfjwtCEKmgT0lFEQFaT2IKhyAoUlRRXCHU85LpeJnWE
+        6FMShy9oJH/bbHs+zFqKqhR8d8bVUTc9f/EPGDDH8V8tMHp1owaHZsIonjDNXaWouoTV08+CTpd7
