@@ -1853,26 +1853,27 @@
       id: DFa0i_9Tfls
       mediaId: '17973639803821798'
       published: 2025-01-29-18-11-12
-      updated: 2025-02-12-21-07-02
+      updated: 2025-02-19-21-07-13
       followers: 1533
       likes: 141
-      views: 505
+      views: 510
       comments: !c |-
         iySAkpPLQnlLNIBIgACpaXN0c2llbGl6rVRoZSBiZXN0IHRvd26Ty0J5SzRrCwAAq2RlbGFub3Nw
         aWVzsEljb25pYyB0b3duIPCfmYwD
     - service: vk
       id: 2095
       published: 2025-01-29-18-11-37
-      updated: 2025-02-12-21-07-04
+      updated: 2025-02-19-21-07-12
       followers: 1057
-      likes: 65
-      views: 598
+      likes: 67
+      views: 634
       reposts: 8
       comments: !c |-
-        G9oAIB0JdqzJ4MNXbKSM+K/bEb5jP0msmbP0BJopoICT/aABpXMLMdASzWao6IZD+H90E+nXov/S
-        bGkYPWVvDds6NYXTyREEppciayUpZglE1zSoG9ZLhs1M1ksKWevNU1E2vrVr9G8WZIoREB0TT6bO
-        mDqcOIULA1RDzfn3/5S/23nu7d6Gck5wSrUDR6G4hCF18HpDkVObgtSoLQplL1ms2y2nhnKtJSCf
-        MMhUUKu/atTufs1vddoB
+        GxEBAJwHdsOHkZra5wqfOAwF/+/uH+GNKJOCxNqytMDbasvjMDkf9P/8uZBWpdNRaqc9PI2yKDrP
+        EP/Cl9DR8PWDb7kjeAmIfwf9S1ugbW2tJLNAswDbLcpuliTeXuJhp62VT29PBkUzmc3Q7VswoCgQ
+        BpM62i9NtLyrKpMZB958+OF9ebc/cahVRraVAk6SmJ5kEpL85CenEQGQjXv7zZeD/txMH9Xjxf3B
+        l2tQ6edRFO0hkDTPswizZmR0evD5BjzfHM1Jm5d//nK9ZhZU8/+yY1GEld2lhioAfAu0E6VPUfme
+        zy/3
     - service: tg
       id:
         - 685
@@ -1880,10 +1881,10 @@
         - 687
         - 688
       published: 2025-01-29-18-12-03
-      updated: 2025-02-12-21-07-03
+      updated: 2025-02-19-21-07-10
       followers: 661
-      likes: 76
-      views: 511
+      likes: 77
+      views: 544
       comments: !c |-
         G28A4GTq1Cd8kSS+B8gY0wI8zqO7Fa9gYQNONDB+tQFwn/3uhFIv47L98ElAOXUGB2O1Xma1Hvap
         4MgmGBaFuwLXNP8D8IiF306ul3ZNVOTfCFoZ7Go4eTcFYu3lMuvOE4ve43Ln4tpDkg==
@@ -12458,20 +12459,20 @@
       id: DF-3pqzpcCB
       mediaId: '18048203351229493'
       published: 2025-02-12-18-10-55
-      updated: 2025-02-18-20-08-51
+      updated: 2025-02-19-21-07-11
       followers: 1534
-      likes: 98
-      views: 346
+      likes: 99
+      views: 350
       comments: !c |-
         CyiAkZTLQnlPtgLeAACuZG9vdHNfc3Bvb2ttYW6/QXJlIHRoZXNlIHRha2VuIHJ1bm5pbmcgT3Bl
         bk1XP5PLQnlPtjdbgAClbXdzY3KmcmlnaHQuAw==
     - service: vk
       id: 2126
       published: 2025-02-12-18-35-09
-      updated: 2025-02-18-20-08-52
+      updated: 2025-02-19-21-07-10
       followers: 1066
-      likes: 33
-      views: 281
+      likes: 34
+      views: 288
       reposts: 2
       comments: !c |-
         G1UBAJwJto2K9cDiFUhZnnieuGGW6D8vLoSCtJIEd5vYCJP3XblZYmQ72TjeZy0aklreYv5n4+t3
@@ -12481,10 +12482,10 @@
     - service: tg
       id: 705
       published: 2025-02-12-18-35-16
-      updated: 2025-02-18-20-08-50
+      updated: 2025-02-19-21-07-10
       followers: 674
       likes: 57
-      views: 348
+      views: 358
 2018-11-19-the-city-of-gondolas:
   title: The City of Gondolas
   titleRu: Город гондол
