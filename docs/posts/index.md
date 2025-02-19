@@ -29,10 +29,10 @@
 | [`ig`](https://instagram.com/p/CHD60FLByRT/)       | 2020-11-01 |       |   128 |       915 |      13.99 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1284) | 2020-11-01 |  1132 |    57 |       455 |      12.75 |
 | [`tg`](https://t.me/mwscr/239)                     | 2020-11-01 |  1292 |     6 |       167 |       3.59 |
-| [`ig`](https://instagram.com/p/DGOUfCCRu_h/)       | 2025-02-18 |   151 |    47 |      1539 |       3.05 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2137) | 2025-02-18 |   137 |    27 |      1092 |       2.56 |
-| [`tg`](https://t.me/mwscr/714)                     | 2025-02-18 |   134 |    37 |       678 |       5.46 |
-|                                                    |            |   422 |   111 |      3309 |       3.69 |
+| [`ig`](https://instagram.com/p/DGOUfCCRu_h/)       | 2025-02-18 |   155 |    47 |      1539 |       3.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2137) | 2025-02-18 |   149 |    27 |      1092 |       2.56 |
+| [`tg`](https://t.me/mwscr/714)                     | 2025-02-18 |   143 |    41 |       678 |       6.05 |
+|                                                    |            |   447 |   115 |      3309 |       3.89 |
 
 #### Comments
 
@@ -64,9 +64,9 @@
 | [`ig`](https://instagram.com/p/BXm4Oamj1CB/)       | 2017-08-10 |       |    49 |       192 |      25.52 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_386)  | 2017-08-10 |   117 |     4 |        75 |       5.33 |
 | [`ig`](https://instagram.com/p/DGLvl1opXZD/)       | 2025-02-17 |   265 |    63 |      1539 |       4.09 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   212 |    27 |      1084 |       2.58 |
-| [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |   199 |    51 |       678 |       7.52 |
-|                                                    |            |   676 |   141 |      3301 |       4.73 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   214 |    27 |      1084 |       2.58 |
+| [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |   201 |    51 |       678 |       7.52 |
+|                                                    |            |   680 |   141 |      3301 |       4.73 |
 
 ## <span id="2025-02-16-nchurdamz-at-the-sunset">Nchurdamz at the Sunset</span>
 
