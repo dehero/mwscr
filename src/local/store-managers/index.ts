@@ -10,6 +10,14 @@ const storeManagers: StoreManager[] = [yandexDiskManager, siteStoreManager];
 export const storeManager: StoreManager = {
   ...store,
 
+  async getPreviewUrl(path: string, width?: number, height?: number): Promise<string | undefined> {
+    for (const store of storeManagers.filter(storeIncludesPath(path))) {
+      return store.getPreviewUrl(path, width, height);
+    }
+
+    throw new Error(`No store found for "${path}"`);
+  },
+
   async copy(from: string, to: string): Promise<void> {
     const [fromToStores, restStores] = partition(storeManagers, storeIncludesPath(from, to));
     const toStores = restStores.filter(storeIncludesPath(to));

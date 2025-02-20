@@ -41,6 +41,8 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
       comments = await this.grabPostComments(postId);
     }
 
+    // yt.videos.insert({});
+
     return {
       likes: Number(video?.statistics?.likeCount),
       views: Number(video?.statistics?.viewCount),

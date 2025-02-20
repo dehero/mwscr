@@ -6,7 +6,7 @@ import { Publication } from '../entities/publication.js';
 import { checkSchema } from '../entities/schema.js';
 import type { PostingService } from '../entities/service.js';
 
-export const TELEGRAM_CHANNEL = 'mwscr';
+export const TELEGRAM_CHANNEL = 'dehero_en';
 export const TELEGRAM_BOT_NAME = 'mwscrbot';
 
 export const TelegramPost = intersect([

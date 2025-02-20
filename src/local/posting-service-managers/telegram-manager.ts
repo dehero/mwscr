@@ -1,5 +1,6 @@
 import 'dotenv/config';
 import { createInterface } from 'readline';
+// import sharp from 'sharp';
 import { Api, TelegramClient } from 'telegram';
 // eslint-disable-next-line import/extensions
 import { Logger, LogLevel } from 'telegram/extensions/Logger.js';
@@ -16,7 +17,10 @@ import type { TelegramPublication } from '../../core/services/telegram.js';
 import { Telegram, TELEGRAM_CHANNEL } from '../../core/services/telegram.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
-import { readResource } from '../data-managers/resources.js';
+import {
+  // createResourcePreview,
+  readResource,
+} from '../data-managers/resources.js';
 import { users } from '../data-managers/users.js';
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
@@ -312,6 +316,12 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
     const files = [];
 
+    // if (content[0]) {
+    //   await sharp(await createResourcePreview(content[0]))
+    //     .resize(320, 320, { fit: 'outside' })
+    //     .toFile('./test.jpg');
+    // }
+
     for (const url of content) {
       const { base } = parseResourceUrl(url);
       const [file] = await readResource(url);
@@ -325,6 +335,9 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       caption: await this.createCaption(entry),
       file: files.length > 1 ? files : files[0]!,
       parseMode: 'html',
+      supportsStreaming: true,
+      // thumb: './test.jpg',
+      progressCallback: (progress) => console.log(progress),
     });
 
     const id = Array.isArray(result) ? result.map((item: Api.Message) => item.id) : result.id;
