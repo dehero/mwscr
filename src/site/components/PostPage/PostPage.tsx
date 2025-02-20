@@ -40,8 +40,10 @@ import type { TableRow } from '../Table/Table.js';
 import { Table } from '../Table/Table.js';
 import { Toast, useToaster } from '../Toaster/Toaster.js';
 import { UserTooltip } from '../UserTooltip/UserTooltip.js';
+import { VideoPlayer } from '../VideoPlayer/VideoPlayer.jsx';
 import { WorldMap } from '../WorldMap/WorldMap.js';
 import styles from './PostPage.module.css';
+// import { getResourcePreviewUrl } from '../../data-managers/resources.js';
 
 export const PostPage = (): JSX.Element => {
   const { addToast, messageBox } = useToaster();
@@ -50,6 +52,7 @@ export const PostPage = (): JSX.Element => {
   let selectedContentRef: HTMLImageElement | undefined;
 
   const [selectedContentIndex, setSelectedContentIndex] = createSignal(0);
+  const [loadingFailedUrls, setLoadingFailedUrls] = createSignal<string[]>([]);
 
   const [postInfo, { refetch }] = createResource(params, ({ managerName, id }) =>
     dataManager.getPostInfo(managerName, id),
@@ -100,9 +103,7 @@ export const PostPage = (): JSX.Element => {
 
   const handleContentError = (url: string) => {
     addToast(`Failed to load content: ${url}`);
-    if (selectedContentRef && selectedContentRef.src !== YellowExclamationMark) {
-      selectedContentRef.src = YellowExclamationMark;
-    }
+    setLoadingFailedUrls([...loadingFailedUrls(), url]);
     setIsLoading(false);
   };
 
@@ -196,6 +197,20 @@ export const PostPage = (): JSX.Element => {
                           />
                         }
                       >
+                        <Match
+                          when={
+                            loadingFailedUrls().includes(selectedContentPublicUrl()!) ||
+                            loadingFailedUrls().includes(youtubeUrl()!)
+                          }
+                        >
+                          <Frame
+                            component="img"
+                            src={YellowExclamationMark}
+                            class={clsx(styles.selectedContent, styles.image)}
+                            style={{ 'aspect-ratio': aspectRatio() }}
+                            aria-label="yellow exclamation mark"
+                          />
+                        </Match>
                         <Match when={resourceIsVideo(url()) && youtubeUrl()}>
                           <Frame
                             component="iframe"
@@ -212,6 +227,16 @@ export const PostPage = (): JSX.Element => {
                             style={{ 'aspect-ratio': aspectRatio() }}
                           />
                         </Match>
+                        <Match when={resourceIsVideo(url()) && selectedContentPublicUrl()}>
+                          <VideoPlayer
+                            src={selectedContentPublicUrl()!}
+                            // poster={getResourcePreviewUrl(url())}
+                            aspectRatio={aspectRatio()}
+                            onLoad={handleContentLoad}
+                            onError={() => handleContentError(selectedContentPublicUrl()!)}
+                            class={styles.selectedContent}
+                          />
+                        </Match>
                         <Match when={resourceIsImage(url()) && selectedContentPublicUrl()}>
                           <Frame
                             component="img"
@@ -221,7 +246,7 @@ export const PostPage = (): JSX.Element => {
                             onLoad={handleContentLoad}
                             onError={() => handleContentError(selectedContentPublicUrl()!)}
                             style={{ 'aspect-ratio': aspectRatio() }}
-                            aria-label={url() === YellowExclamationMark ? 'yellow exclamation mark' : alt() || url()}
+                            aria-label={alt() || url()}
                           />
 
                           <Button
