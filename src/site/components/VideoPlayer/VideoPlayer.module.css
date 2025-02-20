@@ -1,0 +1,13 @@
+.video {
+  max-height: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+/* https://caniuse.com/mdn-css_selectors_fullscreen */
+.video:fullscreen,
+.video:-webkit-full-screen {
+  object-fit: contain;
+  border: none;
+}
