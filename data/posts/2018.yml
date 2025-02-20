@@ -4577,10 +4577,10 @@
     - service: vk
       id: 1796
       published: 2024-10-02-18-10-34
-      updated: 2025-02-13-08-10-57
+      updated: 2025-02-20-08-11-19
       followers: 957
       likes: 34
-      views: 340
+      views: 341
       reposts: 1
       comments: !c |-
         G58A+B0HzvksjiT2HrnYIoRuT7iXLLUksUCSEivC5EbW1E3UH1MTzCJbi5Z2gf5qbNC0Jsk7Zwcb
@@ -8755,17 +8755,17 @@
     - service: vk
       id: 1772
       published: 2024-09-18-18-20-17
-      updated: 2025-02-13-08-10-57
+      updated: 2025-02-20-08-11-20
       followers: 947
       likes: 37
-      views: 307
+      views: 309
     - service: tg
       id: 537
       published: 2024-09-18-18-20-25
-      updated: 2025-02-13-08-10-56
+      updated: 2025-02-20-08-11-18
       followers: 556
       likes: 58
-      views: 526
+      views: 531
 2018-08-25-on-the-background-of-carpet:
   title: On the Background of Carpet
   titleRu: На фоне ковра
@@ -11767,7 +11767,7 @@
     - service: vk
       id: 1018
       published: 2018-10-31
-      updated: 2025-02-13-08-10-59
+      updated: 2025-02-20-08-11-22
       followers: 271
       likes: 51
       views: 1023
@@ -11819,7 +11819,7 @@
     - service: vk
       id: 1022
       published: 2018-11-01
-      updated: 2025-02-13-08-10-58
+      updated: 2025-02-20-08-11-21
       followers: 278
       likes: 35
       views: 575
