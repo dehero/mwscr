@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.38.0](https://github.com/dehero/mwscr/compare/v1.37.4...v1.38.0) (2025-02-20)
+
+### Features
+
+- **site:** implement playing clips
+  ([a887f3d](https://github.com/dehero/mwscr/commit/a887f3da919a8f17b13d8627fb05ca192c1f44dd))
+
 ## [1.37.4](https://github.com/dehero/mwscr/compare/v1.37.3...v1.37.4) (2025-02-18)
 
 ### Bug Fixes
