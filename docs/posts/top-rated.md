@@ -1106,11 +1106,14 @@
 
 ### Reactions
 
-|                                                   | published  | views | likes | followers | engagement |
-|---------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BVzIxzXj8mN/)      | 2017-06-26 |       |    71 |       184 |      38.59 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_334) | 2017-06-26 |   110 |    10 |        65 |      15.38 |
-|                                                   |            |   110 |    81 |       249 |      26.99 |
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BVzIxzXj8mN/)       | 2017-06-26 |       |    71 |       184 |      38.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_334)  | 2017-06-26 |   110 |    10 |        65 |      15.38 |
+| [`ig`](https://instagram.com/p/DGTeDcPJGYV/)       | 2025-02-20 |       |       |      1537 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2142) | 2025-02-20 |       |       |      1109 |            |
+| [`tg`](https://t.me/mwscr/716)                     | 2025-02-20 |       |       |       681 |            |
+|                                                    |            |   110 |    81 |       249 |      26.99 |
 
 ## <span id="2017-03-22-betty-netch-and-far-caldera">Betty Netch and Far Caldera</span>
 

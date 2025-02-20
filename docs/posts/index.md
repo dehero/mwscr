@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`50 items`
+`51 items`
+
+## <span id="2025-02-20-floating-over-the-green-hills">Floating Over the Green Hills</span>
+
+`RU` Паря над зелёными холмами
+
+<a href="https://instagram.com/p/BVzIxzXj8mN/" title="2017-06-26-floating-over-the-green-hills"><img alt="store:/shots/2017-06-26-floating-over-the-green-hills.png" src="../../assets/previews/shots/2017-06-26-floating-over-the-green-hills.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-02-20-floating-over-the-green-hills&amp;postContent=store%3A%2Fshots%2F2017-06-26-floating-over-the-green-hills.png&amp;postTitle=Floating+Over+the+Green+Hills&amp;postTitleRu=%D0%9F%D0%B0%D1%80%D1%8F+%D0%BD%D0%B0%D0%B4+%D0%B7%D0%B5%D0%BB%D1%91%D0%BD%D1%8B%D0%BC%D0%B8+%D1%85%D0%BE%D0%BB%D0%BC%D0%B0%D0%BC%D0%B8&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=road+netch&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-20-floating-over-the-green-hills&postLocation=)</code> `🚀 OpenMW` `road` `netch`
+
+```
+2025-02-20-floating-over-the-green-hills
+```
+
+> `2017-06-26-floating-over-the-green-hills`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BVzIxzXj8mN/)       | 2017-06-26 |       |    71 |       184 |      38.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_334)  | 2017-06-26 |   110 |    10 |        65 |      15.38 |
+| [`ig`](https://instagram.com/p/DGTeDcPJGYV/)       | 2025-02-20 |       |       |      1537 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2142) | 2025-02-20 |       |       |      1109 |            |
+| [`tg`](https://t.me/mwscr/716)                     | 2025-02-20 |       |       |       681 |            |
+|                                                    |            |       |       |      3327 |            |
 
 ## <span id="2025-02-19-entrance-to-addamasartus">Entrance to Addamasartus</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BSvOPsHDA_1/)       | 2017-04-11 |       |    68 |       172 |      39.53 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_249)  | 2017-04-11 |   138 |     4 |        52 |       7.69 |
-| [`ig`](https://instagram.com/p/DGQ5PExTAVB/)       | 2025-02-19 |   295 |    64 |      1536 |       4.17 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2139) | 2025-02-19 |   168 |    34 |      1102 |       3.09 |
-| [`tg`](https://t.me/mwscr/715)                     | 2025-02-19 |   172 |    44 |       681 |       6.46 |
-|                                                    |            |   635 |   142 |      3319 |       4.57 |
+| [`ig`](https://instagram.com/p/DGQ5PExTAVB/)       | 2025-02-19 |   296 |    64 |      1536 |       4.17 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2139) | 2025-02-19 |   172 |    35 |      1102 |       3.18 |
+| [`tg`](https://t.me/mwscr/715)                     | 2025-02-19 |   174 |    44 |       681 |       6.46 |
+|                                                    |            |   642 |   143 |      3319 |        4.6 |
 
 #### Comments
 
@@ -72,10 +99,10 @@
 | [`ig`](https://instagram.com/p/CHD60FLByRT/)       | 2020-11-01 |       |   128 |       915 |      13.99 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1284) | 2020-11-01 |  1132 |    57 |       455 |      12.75 |
 | [`tg`](https://t.me/mwscr/239)                     | 2020-11-01 |  1292 |     6 |       167 |       3.59 |
-| [`ig`](https://instagram.com/p/DGOUfCCRu_h/)       | 2025-02-18 |   244 |    63 |      1539 |       4.09 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2137) | 2025-02-18 |   232 |    28 |      1092 |       2.66 |
-| [`tg`](https://t.me/mwscr/714)                     | 2025-02-18 |   212 |    50 |       678 |       7.37 |
-|                                                    |            |   688 |   141 |      3309 |       4.71 |
+| [`ig`](https://instagram.com/p/DGOUfCCRu_h/)       | 2025-02-18 |   245 |    63 |      1539 |       4.09 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2137) | 2025-02-18 |   234 |    28 |      1092 |       2.66 |
+| [`tg`](https://t.me/mwscr/714)                     | 2025-02-18 |   214 |    50 |       678 |       7.37 |
+|                                                    |            |   693 |   141 |      3309 |       4.71 |
 
 #### Comments
 
@@ -107,10 +134,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BXm4Oamj1CB/)       | 2017-08-10 |       |    49 |       192 |      25.52 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_386)  | 2017-08-10 |   117 |     4 |        75 |       5.33 |
-| [`ig`](https://instagram.com/p/DGLvl1opXZD/)       | 2025-02-17 |   281 |    69 |      1539 |       4.48 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   230 |    27 |      1084 |       2.58 |
+| [`ig`](https://instagram.com/p/DGLvl1opXZD/)       | 2025-02-17 |   308 |    71 |      1539 |       4.61 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   257 |    27 |      1084 |       2.58 |
 | [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |   212 |    53 |       678 |       7.82 |
-|                                                    |            |   723 |   149 |      3301 |       4.96 |
+|                                                    |            |   777 |   151 |      3301 |          5 |
 
 ## <span id="2025-02-16-nchurdamz-at-the-sunset">Nchurdamz at the Sunset</span>
 
