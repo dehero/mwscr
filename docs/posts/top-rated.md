@@ -1090,31 +1090,6 @@
 
 - `ig` <ins title="2017-04-22-10-31-40">jason_f_heller</ins> 👍
 
-## <span id="2017-06-26-floating-over-the-green-hills">Floating Over the Green Hills</span>
-
-`RU` Паря над зелёными холмами
-
-<a href="https://instagram.com/p/BVzIxzXj8mN/" title="2017-06-26-floating-over-the-green-hills"><img alt="store:/shots/2017-06-26-floating-over-the-green-hills.png" src="../../assets/previews/shots/2017-06-26-floating-over-the-green-hills.avif" /></a>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2017-06-26-floating-over-the-green-hills&amp;postContent=store%3A%2Fshots%2F2017-06-26-floating-over-the-green-hills.png&amp;postTitle=Floating+Over+the+Green+Hills&amp;postTitleRu=%D0%9F%D0%B0%D1%80%D1%8F+%D0%BD%D0%B0%D0%B4+%D0%B7%D0%B5%D0%BB%D1%91%D0%BD%D1%8B%D0%BC%D0%B8+%D1%85%D0%BE%D0%BB%D0%BC%D0%B0%D0%BC%D0%B8&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=road+netch&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2017-06-26-floating-over-the-green-hills&postLocation=)</code> `🚀 OpenMW` `road` `netch`
-
-```
-2017-06-26-floating-over-the-green-hills
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | engagement |
-|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BVzIxzXj8mN/)       | 2017-06-26 |       |    71 |       184 |      38.59 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_334)  | 2017-06-26 |   110 |    10 |        65 |      15.38 |
-| [`ig`](https://instagram.com/p/DGTeDcPJGYV/)       | 2025-02-20 |       |       |      1537 |            |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2142) | 2025-02-20 |       |       |      1109 |            |
-| [`tg`](https://t.me/mwscr/716)                     | 2025-02-20 |       |       |       681 |            |
-|                                                    |            |   110 |    81 |       249 |      26.99 |
-
 ## <span id="2017-03-22-betty-netch-and-far-caldera">Betty Netch and Far Caldera</span>
 
 `RU` Самка нетча и далёкая Кальдера
@@ -1295,6 +1270,35 @@
 | [`ig`](https://instagram.com/p/BS-u2CUD6k4/)      | 2017-04-17 |       |    62 |       172 |      36.05 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_261) | 2017-04-17 |   106 |     9 |        52 |      17.31 |
 |                                                   |            |   106 |    71 |       224 |      26.68 |
+
+## <span id="2018-05-06-roads-of-ascadian-isles">Roads of Ascadian Isles</span>
+
+`RU` Дороги Аскадианских островов
+
+<a href="https://instagram.com/p/BickYadh6dy/" title="2016-11-30-the-road-most-travelled"><img alt="store:/shots/2016-11-30-the-road-most-travelled.png" src="../../assets/previews/shots/2016-11-30-the-road-most-travelled.avif" /></a>
+<a href="https://instagram.com/p/BickYadh6dy/" title="2017-03-17-road-at-the-dawn"><img alt="store:/shots/2017-03-17-road-at-the-dawn.png" src="../../assets/previews/shots/2017-03-17-road-at-the-dawn.avif" /></a>
+<a href="https://instagram.com/p/BickYadh6dy/" title="2017-02-06-maurrie-is-waiting-for-nelos"><img alt="store:/shots/2017-02-06-maurrie-is-waiting-for-nelos.png" src="../../assets/previews/shots/2017-02-06-maurrie-is-waiting-for-nelos.avif" /></a>
+<a href="https://instagram.com/p/BickYadh6dy/" title="2017-11-17-pelagiad-descent-to-the-road"><img alt="store:/shots/2017-11-17-pelagiad-descent-to-the-road.png" src="../../assets/previews/shots/2017-11-17-pelagiad-descent-to-the-road.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-05-06-roads-of-ascadian-isles&amp;postContent=store%3A%2Fshots%2F2016-11-30-the-road-most-travelled.png%0Astore%3A%2Fshots%2F2017-03-17-road-at-the-dawn.png%0Astore%3A%2Fshots%2F2017-02-06-maurrie-is-waiting-for-nelos.png%0Astore%3A%2Fshots%2F2017-11-17-pelagiad-descent-to-the-road.png&amp;postTitle=Roads+of+Ascadian+Isles&amp;postTitleRu=%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B8+%D0%90%D1%81%D0%BA%D0%B0%D0%B4%D0%B8%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D1%85+%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%BE%D0%B2&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=road&amp;postLocation=Ascadian+Isles+Region&amp;postMark=B2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B2` `📍 Ascadian Isles Region` `🚀 OpenMW` `road`
+
+```
+2018-05-06-roads-of-ascadian-isles
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | engagement |
+|---------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BickYadh6dy/)      | 2018-05-06 |       |   131 |       328 |      39.94 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_710) | 2018-05-06 |   315 |    21 |       158 |      13.29 |
+|                                                   |            |   315 |   152 |       486 |      26.62 |
+
+#### Comments
+
+- `vk` <ins title="2020-04-17-18-20-39">dobryu_vecher</ins> Спасибо, админ. Как домой вернулась.
 
 ---
 

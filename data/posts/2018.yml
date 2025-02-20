@@ -21,7 +21,7 @@
     - service: vk
       id: 559
       published: 2018-01-01
-      updated: 2025-02-13-18-10-58
+      updated: 2025-02-20-19-02-44
       followers: 116
       likes: 16
       views: 187
@@ -49,7 +49,7 @@
     - service: vk
       id: 560
       published: 2018-01-02
-      updated: 2025-02-13-18-10-57
+      updated: 2025-02-20-19-02-43
       followers: 116
       likes: 17
       views: 240
@@ -77,7 +77,7 @@
     - service: vk
       id: 561
       published: 2018-01-03
-      updated: 2025-02-13-18-10-56
+      updated: 2025-02-20-19-02-42
       followers: 116
       likes: 21
       views: 251
@@ -103,7 +103,7 @@
     - service: vk
       id: 562
       published: 2018-01-04
-      updated: 2025-02-13-18-10-55
+      updated: 2025-02-20-19-02-41
       followers: 117
       likes: 10
       views: 185
@@ -130,7 +130,7 @@
     - service: vk
       id: 563
       published: 2018-01-05
-      updated: 2025-02-13-18-10-54
+      updated: 2025-02-20-19-02-40
       followers: 118
       likes: 8
       views: 181
@@ -164,7 +164,7 @@
     - service: vk
       id: 569
       published: 2018-01-06
-      updated: 2025-02-13-18-10-54
+      updated: 2025-02-20-19-02-39
       followers: 118
       likes: 14
       views: 186
@@ -217,7 +217,7 @@
     - service: vk
       id: 570
       published: 2018-01-07
-      updated: 2025-02-13-18-10-53
+      updated: 2025-02-20-19-02-38
       followers: 118
       likes: 12
       views: 196
@@ -250,7 +250,7 @@
     - service: vk
       id: 571
       published: 2018-01-08
-      updated: 2025-02-13-18-10-52
+      updated: 2025-02-20-19-02-37
       followers: 118
       likes: 12
       views: 199
@@ -274,7 +274,7 @@
     - service: vk
       id: 572
       published: 2018-01-09
-      updated: 2025-02-13-18-10-51
+      updated: 2025-02-20-19-02-36
       followers: 119
       likes: 16
       views: 181
@@ -328,7 +328,7 @@
     - service: vk
       id: 573
       published: 2018-01-10
-      updated: 2025-02-13-18-10-50
+      updated: 2025-02-20-19-02-36
       followers: 119
       likes: 14
       views: 167
@@ -355,7 +355,7 @@
     - service: vk
       id: 574
       published: 2018-01-11
-      updated: 2025-02-13-18-10-49
+      updated: 2025-02-20-19-02-35
       followers: 120
       likes: 16
       views: 170
@@ -415,7 +415,7 @@
     - service: vk
       id: 575
       published: 2018-01-12
-      updated: 2025-02-13-18-10-48
+      updated: 2025-02-20-19-02-34
       followers: 120
       likes: 17
       views: 195
@@ -440,7 +440,7 @@
     - service: vk
       id: 576
       published: 2018-01-13
-      updated: 2025-02-13-18-10-47
+      updated: 2025-02-20-19-02-33
       followers: 121
       likes: 19
       views: 190
@@ -495,7 +495,7 @@
     - service: vk
       id: 577
       published: 2018-01-14
-      updated: 2025-02-13-18-10-46
+      updated: 2025-02-20-19-02-32
       followers: 122
       likes: 7
       views: 178
@@ -11333,20 +11333,20 @@
       id: DGEBRCtzBuX
       mediaId: '18022461131420166'
       published: 2025-02-14-18-11-11
-      updated: 2025-02-19-19-02-04
+      updated: 2025-02-20-19-02-28
       followers: 1533
       likes: 78
-      views: 259
+      views: 268
       comments: !c |-
         CyOAkZPLQnlQXR7lgACwc29tZW9uZV9zaW1wbGU0MtkpVGhlIHNraWVzIGluIE1vcnJvd2luZCBh
         cmUgc29tZXRoaW5nIGVsc2UD
     - service: vk
       id: 2130
       published: 2025-02-14-18-11-33
-      updated: 2025-02-19-19-02-03
+      updated: 2025-02-20-19-02-28
       followers: 1070
       likes: 57
-      views: 493
+      views: 509
       reposts: 6
       comments: !c |-
         G/sBACwOzHO6zrBQug1T6SPj/+kvRvrW99MqZdgkFmlyLnBm7CilE7LZjL/f9kqVCnWbOZvTtnG8
@@ -11361,10 +11361,10 @@
         - 709
         - 710
       published: 2025-02-14-18-11-53
-      updated: 2025-02-19-19-02-03
+      updated: 2025-02-20-19-02-27
       followers: 675
       likes: 61
-      views: 345
+      views: 367
 2018-10-22-snowbound-airship:
   title: Snowbound Airship
   titleRu: Летучий корабль в снегах
