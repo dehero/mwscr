@@ -192,7 +192,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2025-02-13-00-36-12
+      updated: 2025-02-20-00-36-51
       followers: 894
       likes: 47
       views: 367
@@ -4178,30 +4178,30 @@
       id: DGQ5PExTAVB
       mediaId: '17889180243193197'
       published: 2025-02-19-18-11-09
-      updated: 2025-02-19-23-07-28
+      updated: 2025-02-20-00-36-47
       followers: 1536
-      likes: 45
-      views: 185
+      likes: 50
+      views: 199
       comments: !c |-
         iy2AkpPLQnlSAiYZgACqeW9zaGlfMjNpadkmSSBhbHdheXMgZ28gaW4gdGhlcmUgZXZlcnkgcGxh
         eXRocm91Z2iTy0J5UffPIIAAq2RlbGFub3NwaWVzp0NsYXNzaWMD
     - service: vk
       id: 2139
       published: 2025-02-19-18-11-18
-      updated: 2025-02-19-23-07-28
+      updated: 2025-02-20-00-36-46
       followers: 1102
-      likes: 11
-      views: 67
+      likes: 14
+      views: 76
       comments: !c |-
         CyeAkZPLQnlSAJoagACpdmxhZGtyMTE02TjQrdGC0L4g0L/QtdGJ0LXRgNGDINGPINGD0LfQvdCw
         0Y4g0LjQtyDRgtGL0YHRj9GH0Lgg8J+YgQM=
     - service: tg
       id: 715
       published: 2025-02-19-18-11-28
-      updated: 2025-02-19-23-07-28
+      updated: 2025-02-20-00-36-47
       followers: 681
       likes: 32
-      views: 119
+      views: 124
 2017-04-12-lets-set-sail:
   title: Let's Set Sail!
   titleRu: Отчаливаем!
@@ -9734,10 +9734,10 @@
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-02-13-00-36-11
+      updated: 2025-02-20-00-36-50
       followers: 1038
-      likes: 39
-      views: 418
+      likes: 40
+      views: 427
       reposts: 1
       comments: !c |-
         G1IA+J0JdiwXiwm2XHYcUe1IT5+tDJsEI0z2PGWlNCWbjYcPp1yKLYw4kWMgAT5zZLJTE42yKmre
@@ -9745,10 +9745,10 @@
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-02-13-00-36-10
+      updated: 2025-02-20-00-36-49
       followers: 644
       likes: 67
-      views: 522
+      views: 531
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
