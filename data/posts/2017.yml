@@ -4002,18 +4002,18 @@
     - service: vk
       id: 1893
       published: 2024-11-13-18-10-28
-      updated: 2025-02-13-03-12-43
+      updated: 2025-02-20-03-13-39
       followers: 1006
       likes: 45
-      views: 352
+      views: 353
       reposts: 1
     - service: tg
       id: 594
       published: 2024-11-13-18-10-36
-      updated: 2025-02-13-03-12-42
+      updated: 2025-02-20-03-13-38
       followers: 567
       likes: 54
-      views: 494
+      views: 498
 2017-04-08-museum-centurion:
   title: Museum Centurion
   titleRu: Музейный центурион
@@ -4178,30 +4178,30 @@
       id: DGQ5PExTAVB
       mediaId: '17889180243193197'
       published: 2025-02-19-18-11-09
-      updated: 2025-02-20-02-10-08
+      updated: 2025-02-20-03-13-35
       followers: 1536
-      likes: 51
-      views: 212
+      likes: 53
+      views: 220
       comments: !c |-
         iy2AkpPLQnlSAiYZgACqeW9zaGlfMjNpadkmSSBhbHdheXMgZ28gaW4gdGhlcmUgZXZlcnkgcGxh
         eXRocm91Z2iTy0J5UffPIIAAq2RlbGFub3NwaWVzp0NsYXNzaWMD
     - service: vk
       id: 2139
       published: 2025-02-19-18-11-18
-      updated: 2025-02-20-02-10-07
+      updated: 2025-02-20-03-13-35
       followers: 1102
-      likes: 16
-      views: 84
+      likes: 17
+      views: 89
       comments: !c |-
         CyeAkZPLQnlSAJoagACpdmxhZGtyMTE02TjQrdGC0L4g0L/QtdGJ0LXRgNGDINGPINGD0LfQvdCw
         0Y4g0LjQtyDRgtGL0YHRj9GH0Lgg8J+YgQM=
     - service: tg
       id: 715
       published: 2025-02-19-18-11-28
-      updated: 2025-02-20-02-10-07
+      updated: 2025-02-20-03-13-35
       followers: 681
-      likes: 32
-      views: 127
+      likes: 34
+      views: 132
 2017-04-12-lets-set-sail:
   title: Let's Set Sail!
   titleRu: Отчаливаем!
@@ -13968,17 +13968,17 @@
     - service: vk
       id: 1909
       published: 2024-11-20-18-10-51
-      updated: 2025-02-13-03-12-42
+      updated: 2025-02-20-03-13-38
       followers: 1007
       likes: 30
-      views: 280
+      views: 282
     - service: tg
       id: 601
       published: 2024-11-20-18-10-57
-      updated: 2025-02-13-03-12-42
+      updated: 2025-02-20-03-13-37
       followers: 574
       likes: 54
-      views: 484
+      views: 489
 2017-12-29-crab-creek:
   title: Crab Creek
   titleRu: Крабовый залив
