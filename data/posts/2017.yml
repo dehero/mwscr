@@ -4178,30 +4178,30 @@
       id: DGQ5PExTAVB
       mediaId: '17889180243193197'
       published: 2025-02-19-18-11-09
-      updated: 2025-02-20-11-02-07
+      updated: 2025-02-20-12-14-21
       followers: 1536
-      likes: 61
-      views: 269
+      likes: 63
+      views: 273
       comments: !c |-
         iy2AkpPLQnlSAiYZgACqeW9zaGlfMjNpadkmSSBhbHdheXMgZ28gaW4gdGhlcmUgZXZlcnkgcGxh
         eXRocm91Z2iTy0J5UffPIIAAq2RlbGFub3NwaWVzp0NsYXNzaWMD
     - service: vk
       id: 2139
       published: 2025-02-19-18-11-18
-      updated: 2025-02-20-11-02-06
+      updated: 2025-02-20-12-14-22
       followers: 1102
-      likes: 28
-      views: 142
+      likes: 29
+      views: 150
       comments: !c |-
         CyeAkZPLQnlSAJoagACpdmxhZGtyMTE02TjQrdGC0L4g0L/QtdGJ0LXRgNGDINGPINGD0LfQvdCw
         0Y4g0LjQtyDRgtGL0YHRj9GH0Lgg8J+YgQM=
     - service: tg
       id: 715
       published: 2025-02-19-18-11-28
-      updated: 2025-02-20-11-02-07
+      updated: 2025-02-20-12-14-22
       followers: 681
       likes: 43
-      views: 160
+      views: 163
 2017-04-12-lets-set-sail:
   title: Let's Set Sail!
   titleRu: Отчаливаем!
