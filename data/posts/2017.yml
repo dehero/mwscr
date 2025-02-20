@@ -2915,10 +2915,10 @@
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-02-13-20-08-51
+      updated: 2025-02-20-21-06-28
       followers: 1053
-      likes: 52
-      views: 323
+      likes: 55
+      views: 338
       reposts: 1
     - service: tg
       id: 669
@@ -4178,30 +4178,30 @@
       id: DGQ5PExTAVB
       mediaId: '17889180243193197'
       published: 2025-02-19-18-11-09
-      updated: 2025-02-20-20-08-52
+      updated: 2025-02-20-21-06-27
       followers: 1536
       likes: 66
-      views: 320
+      views: 330
       comments: !c |-
         iy2AkpPLQnlSAiYZgACqeW9zaGlfMjNpadkmSSBhbHdheXMgZ28gaW4gdGhlcmUgZXZlcnkgcGxh
         eXRocm91Z2iTy0J5UffPIIAAq2RlbGFub3NwaWVzp0NsYXNzaWMD
     - service: vk
       id: 2139
       published: 2025-02-19-18-11-18
-      updated: 2025-02-20-20-08-53
+      updated: 2025-02-20-21-06-26
       followers: 1102
       likes: 35
-      views: 175
+      views: 176
       comments: !c |-
         CyeAkZPLQnlSAJoagACpdmxhZGtyMTE02TjQrdGC0L4g0L/QtdGJ0LXRgNGDINGPINGD0LfQvdCw
         0Y4g0LjQtyDRgtGL0YHRj9GH0Lgg8J+YgQM=
     - service: tg
       id: 715
       published: 2025-02-19-18-11-28
-      updated: 2025-02-20-20-08-52
+      updated: 2025-02-20-21-06-26
       followers: 681
       likes: 45
-      views: 193
+      views: 197
 2017-04-12-lets-set-sail:
   title: Let's Set Sail!
   titleRu: Отчаливаем!
@@ -6951,10 +6951,10 @@
     - service: vk
       id: 1663
       published: 2024-08-01-04-18-52
-      updated: 2025-02-13-20-08-53
+      updated: 2025-02-20-21-06-30
       followers: 924
       likes: 31
-      views: 279
+      views: 280
       reposts: 2
 2017-06-22-the-dreamer-is:
   title: The Dreamer Is...
@@ -7162,24 +7162,24 @@
       id: DGTeDcPJGYV
       mediaId: '18079508434724391'
       published: 2025-02-20-18-11-21
-      updated: 2025-02-20-20-08-51
+      updated: 2025-02-20-21-06-24
       followers: 1537
-      likes: 26
-      views: 68
+      likes: 28
+      views: 78
     - service: vk
       id: 2142
       published: 2025-02-20-18-11-30
-      updated: 2025-02-20-20-08-51
+      updated: 2025-02-20-21-06-25
       followers: 1109
-      likes: 13
-      views: 55
+      likes: 16
+      views: 66
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
-      updated: 2025-02-20-20-08-51
+      updated: 2025-02-20-21-06-25
       followers: 681
-      likes: 28
-      views: 91
+      likes: 33
+      views: 100
       comments: !c |-
         G6sA4IzURvdSYujq0iU8oNfH1rBzKdUetAJ+CmVCmWg0QKHkhi2+GxywFwTBIONA444DjusOr2sm
         Y0kjHZfjS0+K+AvgLlitl1mthz8e5h9tUaAidTfAR+4zw5O26nqirdzKLba2giL/EVp4kiiioFQa
@@ -7506,7 +7506,7 @@
     - service: tg
       id: 352
       published: 2024-03-20-18-11-08
-      updated: 2025-02-13-20-08-54
+      updated: 2025-02-20-21-06-30
       followers: 352
       likes: 58
       views: 454
@@ -11509,7 +11509,7 @@
     - service: tg
       id: 337
       published: 2024-03-06-18-18-32
-      updated: 2025-02-13-20-08-55
+      updated: 2025-02-20-21-06-31
       followers: 343
       likes: 62
       views: 616
