@@ -2494,10 +2494,10 @@
     - service: vk
       id: 1641
       published: 2024-07-17-18-20-24
-      updated: 2025-02-13-15-08-36
+      updated: 2025-02-20-16-09-58
       followers: 919
       likes: 39
-      views: 313
+      views: 314
     - service: tg
       id: 472
       published: 2024-07-17-18-20-31
@@ -4086,10 +4086,10 @@
     - service: vk
       id: 1588
       published: 2024-06-19-18-19-29
-      updated: 2025-02-13-15-08-38
+      updated: 2025-02-20-16-10-00
       followers: 917
       likes: 44
-      views: 334
+      views: 335
       reposts: 4
       comments: !c |-
         G6cA8K0OeHOUKwmGXSbE1N5LowBvES7izBIKuALOEogn9wKZ7YZa6EHQRRrhQ9sF+2VxuvWmdEll
@@ -4098,10 +4098,10 @@
     - service: tg
       id: 444
       published: 2024-06-19-18-19-35
-      updated: 2025-02-13-15-08-35
+      updated: 2025-02-20-16-09-57
       followers: 387
       likes: 56
-      views: 487
+      views: 488
       comments: !c ixCAkZPLQnkDJCOFgACqYWxleF9lbXNvd6tCZWVuIHRoZXJlKQM=
 2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain:
   title: It's Cloudy in Balmora with a Chance of Rain
@@ -4178,30 +4178,30 @@
       id: DGQ5PExTAVB
       mediaId: '17889180243193197'
       published: 2025-02-19-18-11-09
-      updated: 2025-02-20-15-08-21
+      updated: 2025-02-20-16-09-56
       followers: 1536
       likes: 64
-      views: 288
+      views: 293
       comments: !c |-
         iy2AkpPLQnlSAiYZgACqeW9zaGlfMjNpadkmSSBhbHdheXMgZ28gaW4gdGhlcmUgZXZlcnkgcGxh
         eXRocm91Z2iTy0J5UffPIIAAq2RlbGFub3NwaWVzp0NsYXNzaWMD
     - service: vk
       id: 2139
       published: 2025-02-19-18-11-18
-      updated: 2025-02-20-15-08-20
+      updated: 2025-02-20-16-09-55
       followers: 1102
-      likes: 31
-      views: 160
+      likes: 32
+      views: 162
       comments: !c |-
         CyeAkZPLQnlSAJoagACpdmxhZGtyMTE02TjQrdGC0L4g0L/QtdGJ0LXRgNGDINGPINGD0LfQvdCw
         0Y4g0LjQtyDRgtGL0YHRj9GH0Lgg8J+YgQM=
     - service: tg
       id: 715
       published: 2025-02-19-18-11-28
-      updated: 2025-02-20-15-08-21
+      updated: 2025-02-20-16-09-55
       followers: 681
       likes: 44
-      views: 169
+      views: 172
 2017-04-12-lets-set-sail:
   title: Let's Set Sail!
   titleRu: Отчаливаем!
@@ -5613,10 +5613,10 @@
     - service: vk
       id: 1629
       published: 2024-07-10-18-22-25
-      updated: 2025-02-13-15-08-37
+      updated: 2025-02-20-16-09-59
       followers: 919
       likes: 37
-      views: 261
+      views: 262
       comments: !c |-
         iyyAkZPLQnkLdtlvgACraWQ2NDQ2NjUzMjLZQdCc0L7RgNC90YXQvtC70LQuINCT0L7RgNC+0LQg
         0YHQstC10YLQsCwg0LPQvtGA0L7QtCDQvNCw0LPQuNC4Li4uAw==
@@ -5675,10 +5675,10 @@
     - service: vk
       id: 1655
       published: 2024-07-24-18-21-03
-      updated: 2025-02-13-15-08-35
+      updated: 2025-02-20-16-09-57
       followers: 921
       likes: 44
-      views: 384
+      views: 385
       reposts: 1
     - service: tg
       id: 479
