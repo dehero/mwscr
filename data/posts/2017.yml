@@ -452,10 +452,10 @@
     - service: vk
       id: 1753
       published: 2024-09-12-18-31-04
-      updated: 2025-02-14-08-10-32
+      updated: 2025-02-21-08-11-03
       followers: 945
       likes: 39
-      views: 321
+      views: 322
       reposts: 1
       comments: !c |-
         G68A+J0HdiwYYWY9Oo+Inq/bEX6QAwopg6BJMMJkH1lQbiuhLjSr8Rw/eOZQdVsJpnJBxFdz2i9H
@@ -464,10 +464,10 @@
     - service: tg
       id: 530
       published: 2024-09-12-18-31-10
-      updated: 2025-02-14-08-10-28
+      updated: 2025-02-21-08-11-01
       followers: 555
       likes: 62
-      views: 520
+      views: 524
       comments: !c |-
         G2sAOIzUWa03lyNU+v/dPKLet8DKxxK83ZwWphNwEgdUuf7DBpwgBJhrtOAhIqWwqvVZ9s8YlcGe
         EXpd3PAUN1zXBzk0AsIamiCst/PwT+jEWR3WvxY2quDAMGdVSCEfqHDB4R4t8qrJwoaDBg==
@@ -4178,30 +4178,30 @@
       id: DGQ5PExTAVB
       mediaId: '17889180243193197'
       published: 2025-02-19-18-11-09
-      updated: 2025-02-21-07-08-18
+      updated: 2025-02-21-08-11-00
       followers: 1536
       likes: 70
-      views: 361
+      views: 362
       comments: !c |-
         iy2AkpPLQnlSAiYZgACqeW9zaGlfMjNpadkmSSBhbHdheXMgZ28gaW4gdGhlcmUgZXZlcnkgcGxh
         eXRocm91Z2iTy0J5UffPIIAAq2RlbGFub3NwaWVzp0NsYXNzaWMD
     - service: vk
       id: 2139
       published: 2025-02-19-18-11-18
-      updated: 2025-02-21-07-08-19
+      updated: 2025-02-21-08-11-00
       followers: 1102
       likes: 36
-      views: 188
+      views: 190
       comments: !c |-
         CyeAkZPLQnlSAJoagACpdmxhZGtyMTE02TjQrdGC0L4g0L/QtdGJ0LXRgNGDINGPINGD0LfQvdCw
         0Y4g0LjQtyDRgtGL0YHRj9GH0Lgg8J+YgQM=
     - service: tg
       id: 715
       published: 2025-02-19-18-11-28
-      updated: 2025-02-21-07-08-18
+      updated: 2025-02-21-08-11-00
       followers: 681
       likes: 47
-      views: 209
+      views: 212
 2017-04-12-lets-set-sail:
   title: Let's Set Sail!
   titleRu: Отчаливаем!
@@ -4265,17 +4265,17 @@
     - service: vk
       id: 1701
       published: 2024-08-22-18-19-48
-      updated: 2025-02-14-08-10-34
+      updated: 2025-02-21-08-11-07
       followers: 937
       likes: 31
-      views: 282
+      views: 283
     - service: tg
       id: 509
       published: 2024-08-22-18-19-55
-      updated: 2025-02-14-08-10-30
+      updated: 2025-02-21-08-11-04
       followers: 539
       likes: 55
-      views: 592
+      views: 593
 2017-04-14-in-the-bar:
   title: In the Bar
   titleRu: У барной стойки
@@ -7162,24 +7162,24 @@
       id: DGTeDcPJGYV
       mediaId: '18079508434724391'
       published: 2025-02-20-18-11-21
-      updated: 2025-02-21-07-08-17
+      updated: 2025-02-21-08-10-58
       followers: 1537
       likes: 39
-      views: 127
+      views: 131
     - service: vk
       id: 2142
       published: 2025-02-20-18-11-30
-      updated: 2025-02-21-07-08-17
+      updated: 2025-02-21-08-10-59
       followers: 1109
       likes: 26
-      views: 120
+      views: 130
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
-      updated: 2025-02-21-07-08-17
+      updated: 2025-02-21-08-10-59
       followers: 681
       likes: 39
-      views: 143
+      views: 146
       comments: !c |-
         G6sA4IzURvdSYujq0iU8oNfH1rBzKdUetAJ+CmVCmWg0QKHkhi2+GxywFwTBIONA444DjusOr2sm
         Y0kjHZfjS0+K+AvgLlitl1mthz8e5h9tUaAidTfAR+4zw5O26nqirdzKLba2giL/EVp4kiiioFQa
@@ -10987,17 +10987,17 @@
     - service: vk
       id: 1773
       published: 2024-09-19-18-29-58
-      updated: 2025-02-14-08-10-29
+      updated: 2025-02-21-08-11-02
       followers: 948
       likes: 37
-      views: 310
+      views: 312
     - service: tg
       id: 538
       published: 2024-09-19-18-30-04
-      updated: 2025-02-14-08-10-27
+      updated: 2025-02-21-08-11-01
       followers: 555
       likes: 59
-      views: 553
+      views: 559
 2017-10-10-on-the-pass:
   title: On the Pass
   titleRu: На перевале
