@@ -4178,27 +4178,27 @@
       id: DGQ5PExTAVB
       mediaId: '17889180243193197'
       published: 2025-02-19-18-11-09
-      updated: 2025-02-21-17-05-57
+      updated: 2025-02-21-18-10-28
       followers: 1536
       likes: 71
-      views: 383
+      views: 384
       comments: !c |-
         iy2AkpPLQnlSAiYZgACqeW9zaGlfMjNpadkmSSBhbHdheXMgZ28gaW4gdGhlcmUgZXZlcnkgcGxh
         eXRocm91Z2iTy0J5UffPIIAAq2RlbGFub3NwaWVzp0NsYXNzaWMD
     - service: vk
       id: 2139
       published: 2025-02-19-18-11-18
-      updated: 2025-02-21-17-05-57
+      updated: 2025-02-21-18-10-27
       followers: 1102
       likes: 38
-      views: 202
+      views: 203
       comments: !c |-
         CyeAkZPLQnlSAJoagACpdmxhZGtyMTE02TjQrdGC0L4g0L/QtdGJ0LXRgNGDINGPINGD0LfQvdCw
         0Y4g0LjQtyDRgtGL0YHRj9GH0Lgg8J+YgQM=
     - service: tg
       id: 715
       published: 2025-02-19-18-11-28
-      updated: 2025-02-21-17-05-57
+      updated: 2025-02-21-18-10-27
       followers: 681
       likes: 47
       views: 217
@@ -7163,24 +7163,24 @@
       id: DGTeDcPJGYV
       mediaId: '18079508434724391'
       published: 2025-02-20-18-11-21
-      updated: 2025-02-21-17-05-55
+      updated: 2025-02-21-18-10-25
       followers: 1537
-      likes: 46
-      views: 175
+      likes: 48
+      views: 181
     - service: vk
       id: 2142
       published: 2025-02-20-18-11-30
-      updated: 2025-02-21-17-05-56
+      updated: 2025-02-21-18-10-26
       followers: 1109
       likes: 28
-      views: 162
+      views: 164
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
-      updated: 2025-02-21-17-05-56
+      updated: 2025-02-21-18-10-26
       followers: 681
       likes: 41
-      views: 160
+      views: 162
       comments: !c |-
         G8oAAOTgmif+K7FhFQbIR5SNq7iCKnS41tFAh/vGzjXeZiiKsk3jyBjPMy7dof7ulEakkf1b7VvU
         zZWub4BlRCAd0g3kDVJBJdka/3qNSjcE0v9jW6RQgxQtgktZ/dOQ5YAsEGmO7OFShHUU1TQ3ikq+
@@ -9251,6 +9251,19 @@
       followers: 75
       likes: 7
       views: 109
+    - service: ig
+      id: DGWCyCXNBkE
+      mediaId: '18391620358107490'
+      published: 2025-02-21-18-10-45
+      followers: 1538
+    - service: vk
+      id: 2143
+      published: 2025-02-21-18-10-54
+      followers: 1112
+    - service: tg
+      id: 717
+      published: 2025-02-21-18-11-05
+      followers: 682
 2017-08-20-sadrith-mora-at-night:
   title: Sadrith Mora at Night
   titleRu: Садрит Мора в ночи

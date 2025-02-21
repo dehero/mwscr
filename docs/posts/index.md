@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`51 items`
+`52 items`
+
+## <span id="2025-02-21-surroundings-of-hlormaren">Surroundings of Hlormaren</span>
+
+`RU` В окрестностях Хлормарена
+
+<a href="https://instagram.com/p/BX-XJCjjcR1/" title="2017-08-19-surroundings-of-hlormaren"><img alt="store:/shots/2017-08-19-surroundings-of-hlormaren.png" src="../../assets/previews/shots/2017-08-19-surroundings-of-hlormaren.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-02-21-surroundings-of-hlormaren&amp;postContent=store%3A%2Fshots%2F2017-08-19-surroundings-of-hlormaren.png&amp;postTitle=Surroundings+of+Hlormaren&amp;postTitleRu=%D0%92+%D0%BE%D0%BA%D1%80%D0%B5%D1%81%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8F%D1%85+%D0%A5%D0%BB%D0%BE%D1%80%D0%BC%D0%B0%D1%80%D0%B5%D0%BD%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Bitter+Coast+Region%0AHlormaren&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Bitter Coast Region` `📍 Hlormaren` `🚀 OpenMW`
+
+```
+2025-02-21-surroundings-of-hlormaren
+```
+
+> `2017-08-19-surroundings-of-hlormaren`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BX-XJCjjcR1/)       | 2017-08-19 |       |    52 |       194 |       26.8 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_398)  | 2017-08-19 |   109 |     7 |        75 |       9.33 |
+| [`ig`](https://instagram.com/p/DGWCyCXNBkE/)       | 2025-02-21 |       |       |      1538 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2143) | 2025-02-21 |       |       |      1112 |            |
+| [`tg`](https://t.me/mwscr/717)                     | 2025-02-21 |       |       |       682 |            |
+|                                                    |            |       |       |      3332 |            |
 
 ## <span id="2025-02-20-floating-over-the-green-hills">Floating Over the Green Hills</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BVzIxzXj8mN/)       | 2017-06-26 |       |    71 |       184 |      38.59 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_334)  | 2017-06-26 |   110 |    10 |        65 |      15.38 |
-| [`ig`](https://instagram.com/p/DGTeDcPJGYV/)       | 2025-02-20 |   175 |    46 |      1537 |       2.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2142) | 2025-02-20 |   162 |    28 |      1109 |       2.52 |
-| [`tg`](https://t.me/mwscr/716)                     | 2025-02-20 |   160 |    41 |       681 |       6.02 |
-|                                                    |            |   497 |   115 |      3327 |       3.85 |
+| [`ig`](https://instagram.com/p/DGTeDcPJGYV/)       | 2025-02-20 |   181 |    48 |      1537 |       3.12 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2142) | 2025-02-20 |   164 |    28 |      1109 |       2.52 |
+| [`tg`](https://t.me/mwscr/716)                     | 2025-02-20 |   162 |    41 |       681 |       6.02 |
+|                                                    |            |   507 |   117 |      3327 |       3.89 |
 
 #### Comments
 
@@ -62,10 +89,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BSvOPsHDA_1/)       | 2017-04-11 |       |    68 |       172 |      39.53 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_249)  | 2017-04-11 |   138 |     4 |        52 |       7.69 |
-| [`ig`](https://instagram.com/p/DGQ5PExTAVB/)       | 2025-02-19 |   383 |    71 |      1536 |       4.62 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2139) | 2025-02-19 |   202 |    38 |      1102 |       3.45 |
+| [`ig`](https://instagram.com/p/DGQ5PExTAVB/)       | 2025-02-19 |   384 |    71 |      1536 |       4.62 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2139) | 2025-02-19 |   203 |    38 |      1102 |       3.45 |
 | [`tg`](https://t.me/mwscr/715)                     | 2025-02-19 |   217 |    47 |       681 |        6.9 |
-|                                                    |            |   802 |   156 |      3319 |       4.99 |
+|                                                    |            |   804 |   156 |      3319 |       4.99 |
 
 #### Comments
 
