@@ -1702,15 +1702,15 @@
     - service: vk
       id: 1573
       published: 2024-06-06-18-19-32
-      updated: 2025-02-14-21-02-24
+      updated: 2025-02-21-21-04-42
       followers: 916
       likes: 37
-      views: 287
+      views: 288
       reposts: 1
     - service: tg
       id: 431
       published: 2024-06-06-18-19-42
-      updated: 2025-02-14-21-02-20
+      updated: 2025-02-21-21-04-38
       followers: 384
       likes: 58
       views: 452
@@ -3542,10 +3542,10 @@
     - service: vk
       id: 1534
       published: 2024-05-16-18-18-18
-      updated: 2025-02-14-21-02-27
+      updated: 2025-02-21-21-04-44
       followers: 915
       likes: 41
-      views: 324
+      views: 326
       reposts: 1
       comments: !c |-
         G5AAqB2HcSyy8PJqYKMTI1Q6PV+3I/zjd6GH2ESSeLLPOZf6SkjuXPAXXW9JUaNUJB/j+4bydrPZ
@@ -3554,10 +3554,10 @@
     - service: tg
       id: 410
       published: 2024-05-16-18-18-25
-      updated: 2025-02-14-21-02-23
+      updated: 2025-02-21-21-04-41
       followers: 370
       likes: 58
-      views: 493
+      views: 495
       comments: !c |-
         iyuAkpPLQnj4TMeUAACpR2F0ZW1hdGU3tXRoZSBob29kIG9mIG1vcnJvd2luZJPLQnj4K14cgACr
         Ym9icm92bmlrb3a2R29vZCBldmVuaW5nLCBldmVyeW9uZQM=
@@ -5151,10 +5151,10 @@
     - service: vk
       id: 1543
       published: 2024-05-23-18-18-57
-      updated: 2025-02-14-21-02-26
+      updated: 2025-02-21-21-04-43
       followers: 917
       likes: 46
-      views: 295
+      views: 296
       reposts: 1
       comments: !c |-
         CyiAkZPLQnj6bH5AgACtY2x1YjEyODU3NDk4N9k20KPRgdGC0YzQtSDQndCw0LHQuNC4LCDQvtCx
@@ -5162,7 +5162,7 @@
     - service: tg
       id: 417
       published: 2024-05-23-18-19-02
-      updated: 2025-02-14-21-02-22
+      updated: 2025-02-21-21-04-40
       followers: 376
       likes: 64
       views: 510
@@ -5326,17 +5326,17 @@
     - service: vk
       id: 1526
       published: 2024-05-09-18-18-25
-      updated: 2025-02-14-21-02-28
+      updated: 2025-02-21-21-04-45
       followers: 913
       likes: 39
-      views: 278
+      views: 280
       comments: !c |-
         G2YA+J0JdizEZBhqMCRfIOqRNj6xAdBz4RNdWtCNvcQi3KEYDlrecpeVZjbK/YYgcj9B8DmrQpQ1
         ZfUpikZppQIxTHQ497v+B+ltqkCqtIwYnr/VGkxmm4xOTPlK00F8Txq6rd2I4NCMAQ==
     - service: tg
       id: 403
       published: 2024-05-09-18-18-32
-      updated: 2025-02-14-21-02-24
+      updated: 2025-02-21-21-04-41
       followers: 370
       likes: 61
       views: 463
@@ -7855,24 +7855,24 @@
       id: DFx_pEkJY6I
       mediaId: '18441845239072911'
       published: 2025-02-07-18-10-38
-      updated: 2025-02-14-21-02-18
+      updated: 2025-02-21-21-04-34
       followers: 1534
-      likes: 88
-      views: 302
+      likes: 94
+      views: 325
     - service: vk
       id: 2116
       published: 2025-02-07-18-10-45
-      updated: 2025-02-14-21-02-18
+      updated: 2025-02-21-21-04-35
       followers: 1062
-      likes: 39
-      views: 286
+      likes: 45
+      views: 340
     - service: tg
       id: 700
       published: 2025-02-07-18-10-54
-      updated: 2025-02-14-21-02-17
+      updated: 2025-02-21-21-04-35
       followers: 670
       likes: 60
-      views: 360
+      views: 437
 2018-07-28-sulfur-forest:
   title: Sulfur Forest
   titleRu: Серный лес
@@ -12981,25 +12981,25 @@
       id: DE7_wC1PgTr
       mediaId: '18065439076892825'
       published: 2025-01-17-18-52-37
-      updated: 2025-02-14-21-02-21
+      updated: 2025-02-21-21-04-37
       followers: 1525
       likes: 94
-      views: 392
+      views: 393
     - service: vk
       id: 2069
       published: 2025-01-17-18-52-43
-      updated: 2025-02-14-21-02-22
+      updated: 2025-02-21-21-04-39
       followers: 1053
       likes: 37
-      views: 285
+      views: 301
       reposts: 1
     - service: tg
       id: 670
       published: 2025-01-17-18-52-49
-      updated: 2025-02-14-21-02-19
+      updated: 2025-02-21-21-04-36
       followers: 655
       likes: 63
-      views: 465
+      views: 479
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели

@@ -1005,10 +1005,10 @@
     - service: vk
       id: 1554
       published: 2024-05-30-18-20-43
-      updated: 2025-02-14-21-02-25
+      updated: 2025-02-21-21-04-43
       followers: 916
       likes: 49
-      views: 402
+      views: 404
       reposts: 3
       comments: !c |-
         GwkBoCySx51PQfwqR0dUxI30xxOLKcAm4YiSPbIOTytzmS6JdmGtoNnDrOO/0PByzE2uy9Ky+UFN
@@ -1018,10 +1018,10 @@
     - service: tg
       id: 424
       published: 2024-05-30-18-20-52
-      updated: 2025-02-14-21-02-22
+      updated: 2025-02-21-21-04-39
       followers: 378
       likes: 60
-      views: 502
+      views: 503
 2017-01-28-1-meditative-evening-in-ahemmusa-camp:
   title: Meditative Evening in Ahemmusa Camp
   titleRu: Медитативный вечер в лагере Ахеммуза
@@ -7165,24 +7165,24 @@
       id: DGTeDcPJGYV
       mediaId: '18079508434724391'
       published: 2025-02-20-18-11-21
-      updated: 2025-02-21-20-08-33
+      updated: 2025-02-21-21-04-34
       followers: 1537
       likes: 51
-      views: 189
+      views: 190
     - service: vk
       id: 2142
       published: 2025-02-20-18-11-30
-      updated: 2025-02-21-20-08-33
+      updated: 2025-02-21-21-04-33
       followers: 1109
       likes: 28
-      views: 169
+      views: 170
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
-      updated: 2025-02-21-20-08-33
+      updated: 2025-02-21-21-04-34
       followers: 681
-      likes: 46
-      views: 185
+      likes: 47
+      views: 189
       comments: !c |-
         G8oAAOTgmif+K7FhFQbIR5SNq7iCKnS41tFAh/vGzjXeZiiKsk3jyBjPMy7dof7ulEakkf1b7VvU
         zZWub4BlRCAd0g3kDVJBJdka/3qNSjcE0v9jW6RQgxQtgktZ/dOQ5YAsEGmO7OFShHUU1TQ3ikq+
@@ -9258,24 +9258,24 @@
       id: DGWCyCXNBkE
       mediaId: '18391620358107490'
       published: 2025-02-21-18-10-45
-      updated: 2025-02-21-20-08-31
+      updated: 2025-02-21-21-04-32
       followers: 1538
-      likes: 25
-      views: 66
+      likes: 29
+      views: 92
     - service: vk
       id: 2143
       published: 2025-02-21-18-10-54
-      updated: 2025-02-21-20-08-32
+      updated: 2025-02-21-21-04-32
       followers: 1112
-      likes: 11
-      views: 55
+      likes: 16
+      views: 71
     - service: tg
       id: 717
       published: 2025-02-21-18-11-05
-      updated: 2025-02-21-20-08-32
+      updated: 2025-02-21-21-04-33
       followers: 682
-      likes: 31
-      views: 80
+      likes: 34
+      views: 89
 2017-08-20-sadrith-mora-at-night:
   title: Sadrith Mora at Night
   titleRu: Садрит Мора в ночи
@@ -11158,10 +11158,10 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-02-14-21-02-19
+      updated: 2025-02-21-21-04-36
       followers: 1534
       likes: 108
-      views: 474
+      views: 479
       comments: !c |-
         G98AwJyHsbGs8SG7EA7eih9t0NTcPsW/vq2uizWxqIi/eCNyVBIhirW6bgOcXKaTIz2e/Bc6Ny/R
         ACAoFa7mn55oGpDWWluB5m0lEnMYXq43vB5iSe1Zi/XWnnHuAfDHCx3fnHTgG0RPc5v++Q5kTduC
@@ -11170,11 +11170,11 @@
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-02-14-21-02-20
+      updated: 2025-02-21-21-04-37
       followers: 1057
       likes: 58
-      views: 342
-      reposts: 2
+      views: 374
+      reposts: 3
       comments: !c |-
         G1MCgKwOzFOmAyaDC3lcpr4TaSwTFXGwOKHXZirQjNMsCzhIJMJkTzSVbbHZjPZqyBaDhnTAyZh8
         mm1bI1AbVEIl4XVD/N8CKpyTUO1Ga/K/XDzBTRYr+xxCyNEUtdx59OCpZZFfy4IWhRVg0KI4wMQS
@@ -11185,10 +11185,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-02-14-21-02-18
+      updated: 2025-02-21-21-04-36
       followers: 662
-      likes: 72
-      views: 520
+      likes: 73
+      views: 546
       comments: !c CxiAkZPLQnlMaCGzgACobW9uZ2xlcmm8ZGFtbiB0aG9zZSBjYW5kZXMgYXJlIHByZXR0eQM=
 2017-10-14-land-of-ruins:
   title: Land of Ruins
@@ -13442,15 +13442,15 @@
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
-      updated: 2025-02-14-21-02-23
+      updated: 2025-02-21-21-04-40
       followers: 917
       likes: 43
-      views: 320
+      views: 321
       reposts: 2
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
-      updated: 2025-02-14-21-02-20
+      updated: 2025-02-21-21-04-38
       followers: 388
       likes: 56
       views: 487
