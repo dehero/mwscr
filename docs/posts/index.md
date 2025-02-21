@@ -28,16 +28,17 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BVzIxzXj8mN/)       | 2017-06-26 |       |    71 |       184 |      38.59 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_334)  | 2017-06-26 |   110 |    10 |        65 |      15.38 |
-| [`ig`](https://instagram.com/p/DGTeDcPJGYV/)       | 2025-02-20 |   156 |    43 |      1537 |        2.8 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2142) | 2025-02-20 |   153 |    27 |      1109 |       2.43 |
-| [`tg`](https://t.me/mwscr/716)                     | 2025-02-20 |   154 |    39 |       681 |       5.73 |
-|                                                    |            |   463 |   109 |      3327 |       3.65 |
+| [`ig`](https://instagram.com/p/DGTeDcPJGYV/)       | 2025-02-20 |   163 |    45 |      1537 |       2.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2142) | 2025-02-20 |   156 |    28 |      1109 |       2.52 |
+| [`tg`](https://t.me/mwscr/716)                     | 2025-02-20 |   156 |    40 |       681 |       5.87 |
+|                                                    |            |   475 |   113 |      3327 |       3.78 |
 
 #### Comments
 
 - `tg` <ins title="2025-02-20-18-12-22">Gatemate7</ins> 2017 is too old
   - <ins title="2025-02-20-18-14-46">mwscr</ins> More new screenshots soon
   - <ins title="2025-02-20-18-42-49">BarryBananaDragon</ins> The game is literally from the early 2000s. Why does it matter?
+- `tg` <ins title="2025-02-21-13-22-40">Alexey Stepanov</ins> 🐌
 
 ## <span id="2025-02-19-entrance-to-addamasartus">Entrance to Addamasartus</span>
 
@@ -61,10 +62,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BSvOPsHDA_1/)       | 2017-04-11 |       |    68 |       172 |      39.53 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_249)  | 2017-04-11 |   138 |     4 |        52 |       7.69 |
-| [`ig`](https://instagram.com/p/DGQ5PExTAVB/)       | 2025-02-19 |   377 |    70 |      1536 |       4.56 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2139) | 2025-02-19 |   197 |    36 |      1102 |       3.27 |
-| [`tg`](https://t.me/mwscr/715)                     | 2025-02-19 |   215 |    47 |       681 |        6.9 |
-|                                                    |            |   789 |   153 |      3319 |       4.91 |
+| [`ig`](https://instagram.com/p/DGQ5PExTAVB/)       | 2025-02-19 |   379 |    70 |      1536 |       4.56 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2139) | 2025-02-19 |   198 |    36 |      1102 |       3.27 |
+| [`tg`](https://t.me/mwscr/715)                     | 2025-02-19 |   216 |    47 |       681 |        6.9 |
+|                                                    |            |   793 |   153 |      3319 |       4.91 |
 
 #### Comments
 
@@ -81,6 +82,7 @@
 - `ig` <ins title="2025-02-19-18-33-57">delanospies</ins> Classic
 - `vk` <ins title="2025-02-19-21-07-37">vladkr114</ins> Это пещеру я узнаю из тысячи 😁
 - `ig` <ins title="2025-02-19-21-34-39">yoshi_23ii</ins> I always go in there every playthrough
+- `tg` <ins title="2025-02-21-13-23-09">Alexey Stepanov</ins> 💎
 
 ## <span id="2025-02-18-grazing-grazelands">Grazing Grazelands</span>
 
