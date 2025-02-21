@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BX-XJCjjcR1/)       | 2017-08-19 |       |    52 |       194 |       26.8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_398)  | 2017-08-19 |   109 |     7 |        75 |       9.33 |
-| [`ig`](https://instagram.com/p/DGWCyCXNBkE/)       | 2025-02-21 |    35 |    18 |      1538 |       1.17 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2143) | 2025-02-21 |    36 |     9 |      1112 |       0.81 |
-| [`tg`](https://t.me/mwscr/717)                     | 2025-02-21 |    60 |    24 |       682 |       3.52 |
-|                                                    |            |   131 |    51 |      3332 |       1.83 |
+| [`ig`](https://instagram.com/p/DGWCyCXNBkE/)       | 2025-02-21 |    66 |    25 |      1538 |       1.63 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2143) | 2025-02-21 |    55 |    11 |      1112 |       0.99 |
+| [`tg`](https://t.me/mwscr/717)                     | 2025-02-21 |    80 |    31 |       682 |       4.55 |
+|                                                    |            |   201 |    67 |      3332 |       2.39 |
 
 ## <span id="2025-02-20-floating-over-the-green-hills">Floating Over the Green Hills</span>
 
@@ -55,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BVzIxzXj8mN/)       | 2017-06-26 |       |    71 |       184 |      38.59 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_334)  | 2017-06-26 |   110 |    10 |        65 |      15.38 |
-| [`ig`](https://instagram.com/p/DGTeDcPJGYV/)       | 2025-02-20 |   186 |    49 |      1537 |       3.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2142) | 2025-02-20 |   168 |    28 |      1109 |       2.52 |
-| [`tg`](https://t.me/mwscr/716)                     | 2025-02-20 |   181 |    45 |       681 |       6.61 |
-|                                                    |            |   535 |   122 |      3327 |       4.11 |
+| [`ig`](https://instagram.com/p/DGTeDcPJGYV/)       | 2025-02-20 |   189 |    51 |      1537 |       3.32 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2142) | 2025-02-20 |   169 |    28 |      1109 |       2.52 |
+| [`tg`](https://t.me/mwscr/716)                     | 2025-02-20 |   185 |    46 |       681 |       6.75 |
+|                                                    |            |   543 |   125 |      3327 |        4.2 |
 
 #### Comments
 
@@ -172,8 +172,12 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_386)  | 2017-08-10 |   117 |     4 |        75 |       5.33 |
 | [`ig`](https://instagram.com/p/DGLvl1opXZD/)       | 2025-02-17 |   323 |    71 |      1539 |       4.61 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   270 |    28 |      1084 |       2.68 |
-| [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |   249 |    55 |       678 |       8.11 |
-|                                                    |            |   842 |   154 |      3301 |       5.13 |
+| [`tg`](https://t.me/mwscr/713)                     | 2025-02-17 |   279 |    55 |       678 |       8.11 |
+|                                                    |            |   872 |   154 |      3301 |       5.13 |
+
+#### Comments
+
+- `tg` <ins title="2025-02-21-13-23-31">Alexey Stepanov</ins> 🐴
 
 ## <span id="2025-02-16-nchurdamz-at-the-sunset">Nchurdamz at the Sunset</span>
 
@@ -197,10 +201,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BRXvJmKDcu0/)       | 2017-03-08 |       |    43 |       105 |      40.95 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_188)  | 2017-03-08 |   142 |     9 |        44 |          9 |
-| [`ig`](https://instagram.com/p/DGJKqKVyLQy/)       | 2025-02-16 |   504 |   118 |      1538 |       7.67 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2133) | 2025-02-16 |   309 |    41 |      1071 |       4.11 |
-| [`tg`](https://t.me/mwscr/712)                     | 2025-02-16 |   273 |    64 |       677 |       9.45 |
-|                                                    |            |  1086 |   223 |      3286 |       7.08 |
+| [`ig`](https://instagram.com/p/DGJKqKVyLQy/)       | 2025-02-16 |   508 |   118 |      1538 |       7.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2133) | 2025-02-16 |   322 |    41 |      1071 |       4.11 |
+| [`tg`](https://t.me/mwscr/712)                     | 2025-02-16 |   299 |    64 |       677 |       9.45 |
+|                                                    |            |  1129 |   223 |      3286 |       7.08 |
 
 #### Comments
 
@@ -208,6 +212,7 @@
 - `tg` <ins title="2025-02-16-18-18-28">aarychagoff</ins> Главное - не путать Нчурдамц и Нчардумц. 😁
 - `ig` <ins title="2025-02-17-16-24-34">tommytoja</ins> Keep up the great work!
 - `ig` <ins title="2025-02-17-18-36-09">blatantbeats</ins> This game is so ahead of its time
+- `tg` <ins title="2025-02-21-13-23-43">Alexey Stepanov</ins> 🌝
 
 ## <span id="2025-02-15-backdoor-to-tel-vos">Backdoor to Tel Vos</span>
 
@@ -231,14 +236,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BOwBgBAFlLP/)       | 2017-01-02 |       |    35 |        57 |       61.4 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_50)   | 2017-01-22 |    95 |     4 |         4 |          4 |
-| [`ig`](https://instagram.com/p/DGGnmWJT-BO/)       | 2025-02-15 |   480 |    91 |      1533 |       5.94 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2132) | 2025-02-15 |   303 |    49 |      1070 |       4.77 |
-| [`tg`](https://t.me/mwscr/711)                     | 2025-02-15 |   296 |    61 |       677 |       9.01 |
-|                                                    |            |  1079 |   201 |      3280 |       6.57 |
+| [`ig`](https://instagram.com/p/DGGnmWJT-BO/)       | 2025-02-15 |   490 |    92 |      1533 |          6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2132) | 2025-02-15 |   314 |    49 |      1070 |       4.77 |
+| [`tg`](https://t.me/mwscr/711)                     | 2025-02-15 |   310 |    61 |       677 |       9.01 |
+|                                                    |            |  1114 |   202 |      3280 |       6.59 |
 
 #### Comments
 
 - `ig` <ins title="2025-02-15-18-40-10">ny74t_4rt</ins> This is no dungeon it’s a fungeon
+- `tg` <ins title="2025-02-21-13-24-24">Alexey Stepanov</ins> 📜
 
 ## <span id="2025-02-14-trees-and-skies">Trees and Skies</span>
 
@@ -266,10 +272,10 @@
 | [`ig`](https://instagram.com/p/BpNQHT-BoiQ/)       | 2018-10-21 |       |   112 |       447 |      25.06 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_998)  | 2018-10-21 |   389 |    31 |           |            |
 | [`tg`](https://t.me/mwscr/89,90,91,92,93)          | 2018-10-21 |   235 |     3 |           |            |
-| [`ig`](https://instagram.com/p/DGEBRCtzBuX/)       | 2025-02-14 |   268 |    78 |      1533 |       5.09 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2130) | 2025-02-14 |   509 |    57 |      1070 |       5.89 |
-| [`tg`](https://t.me/mwscr/707,708,709,710)         | 2025-02-14 |   367 |    61 |       675 |       9.04 |
-|                                                    |            |  1144 |   196 |      3278 |       6.67 |
+| [`ig`](https://instagram.com/p/DGEBRCtzBuX/)       | 2025-02-14 |   271 |    78 |      1533 |       5.09 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2130) | 2025-02-14 |   519 |    57 |      1070 |       5.89 |
+| [`tg`](https://t.me/mwscr/707,708,709,710)         | 2025-02-14 |   385 |    61 |       675 |       9.04 |
+|                                                    |            |  1175 |   196 |      3278 |       6.67 |
 
 #### Comments
 
