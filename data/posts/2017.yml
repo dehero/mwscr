@@ -1509,14 +1509,14 @@
     - service: vk
       id: 1818
       published: 2024-10-10-18-10-22
-      updated: 2025-02-14-07-08-07
+      updated: 2025-02-21-07-08-22
       followers: 960
       likes: 35
-      views: 329
+      views: 331
     - service: tg
       id: 560
       published: 2024-10-10-18-10-28
-      updated: 2025-02-14-07-08-06
+      updated: 2025-02-21-07-08-20
       followers: 559
       likes: 62
       views: 487
@@ -2972,16 +2972,16 @@
     - service: vk
       id: 1840
       published: 2024-10-17-18-09-16
-      updated: 2025-02-14-07-08-06
+      updated: 2025-02-21-07-08-20
       followers: 965
       likes: 48
-      views: 552
+      views: 563
       reposts: 2
       comments: !c iwuAkZPLQnkp0j58gACnaHlhcnZhcqTwn6WwAw==
     - service: tg
       id: 567
       published: 2024-10-17-18-09-22
-      updated: 2025-02-14-07-08-05
+      updated: 2025-02-21-07-08-19
       followers: 562
       likes: 65
       views: 626
@@ -4178,30 +4178,30 @@
       id: DGQ5PExTAVB
       mediaId: '17889180243193197'
       published: 2025-02-19-18-11-09
-      updated: 2025-02-21-06-11-17
+      updated: 2025-02-21-07-08-18
       followers: 1536
       likes: 70
-      views: 358
+      views: 361
       comments: !c |-
         iy2AkpPLQnlSAiYZgACqeW9zaGlfMjNpadkmSSBhbHdheXMgZ28gaW4gdGhlcmUgZXZlcnkgcGxh
         eXRocm91Z2iTy0J5UffPIIAAq2RlbGFub3NwaWVzp0NsYXNzaWMD
     - service: vk
       id: 2139
       published: 2025-02-19-18-11-18
-      updated: 2025-02-21-06-11-18
+      updated: 2025-02-21-07-08-19
       followers: 1102
       likes: 36
-      views: 187
+      views: 188
       comments: !c |-
         CyeAkZPLQnlSAJoagACpdmxhZGtyMTE02TjQrdGC0L4g0L/QtdGJ0LXRgNGDINGPINGD0LfQvdCw
         0Y4g0LjQtyDRgtGL0YHRj9GH0Lgg8J+YgQM=
     - service: tg
       id: 715
       published: 2025-02-19-18-11-28
-      updated: 2025-02-21-06-11-17
+      updated: 2025-02-21-07-08-18
       followers: 681
       likes: 47
-      views: 207
+      views: 209
 2017-04-12-lets-set-sail:
   title: Let's Set Sail!
   titleRu: Отчаливаем!
@@ -7162,24 +7162,24 @@
       id: DGTeDcPJGYV
       mediaId: '18079508434724391'
       published: 2025-02-20-18-11-21
-      updated: 2025-02-21-06-11-16
+      updated: 2025-02-21-07-08-17
       followers: 1537
-      likes: 38
-      views: 126
+      likes: 39
+      views: 127
     - service: vk
       id: 2142
       published: 2025-02-20-18-11-30
-      updated: 2025-02-21-06-11-16
+      updated: 2025-02-21-07-08-17
       followers: 1109
       likes: 26
-      views: 114
+      views: 120
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
-      updated: 2025-02-21-06-11-16
+      updated: 2025-02-21-07-08-17
       followers: 681
       likes: 39
-      views: 137
+      views: 143
       comments: !c |-
         G6sA4IzURvdSYujq0iU8oNfH1rBzKdUetAJ+CmVCmWg0QKHkhi2+GxywFwTBIONA444DjusOr2sm
         Y0kjHZfjS0+K+AvgLlitl1mthz8e5h9tUaAidTfAR+4zw5O26nqirdzKLba2giL/EVp4kiiioFQa
@@ -12016,10 +12016,10 @@
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2025-02-14-07-08-08
+      updated: 2025-02-21-07-08-23
       followers: 958
       likes: 47
-      views: 349
+      views: 350
       reposts: 2
       comments: !c |-
         G5waALwUd6yMGpSFaiQroXyz8M0Va7TB0dnw1Hb8P7EGPyTSyW82fdldPH+jFLpKt06DRqgQOtP1
@@ -12064,10 +12064,10 @@
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2025-02-14-07-08-07
+      updated: 2025-02-21-07-08-21
       followers: 560
       likes: 65
-      views: 559
+      views: 561
       comments: !c ixiAkZPLQnkljeH0gACnQmFyYUZveL5UcnVseSwgdGhlIHJvYWQgbW9zdCB0cmF2ZWxsZWQD
 2017-11-06-shore-shroom:
   title: Shore Shroom
