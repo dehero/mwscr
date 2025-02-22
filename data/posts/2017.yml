@@ -260,7 +260,9 @@
   title: Dirty Muriel's Cornerclub and Tel Naga
   titleRu: Трактир Грязной Мюриэль и Тель Нага
   placement: Outdoors
-  location: Wolverine Hall
+  location:
+    - Wolverine Hall
+    - Sadrith Mora, Dirty Muriel's Cornerclub
   content: store:/shots/2017-01-08-dirty-muriels-cornerclub-and-tel-naga.png
   type: shot
   author: dehero
@@ -2149,6 +2151,7 @@
   title: Strider in the Storm
   titleRu: Страйдер внутри бури
   placement: Outdoors
+  location: Khuul
   content: store:/shots/2017-02-22-strider-in-the-storm.png
   type: shot
   author: dehero
@@ -10595,6 +10598,7 @@
   title: Bridges
   titleRu: Мосты
   placement: Outdoors
+  location: West Gash Region
   content: store:/shots/2017-09-26-bridges.png
   type: shot
   author: dehero
