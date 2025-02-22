@@ -4472,10 +4472,10 @@
     - service: vk
       id: 1842
       published: 2024-10-18-19-02-17
-      updated: 2025-02-15-12-11-54
+      updated: 2025-02-22-13-11-12
       followers: 965
       likes: 52
-      views: 433
+      views: 434
       reposts: 2
       comments: !c |-
         Gw4CYK0ObLcnlEH41dHzAetIIP6f/mKkb5b3r3qGTYIRJuca5KxNS6jfDR3nUG4o6txyNyf+Dx0T
@@ -4763,10 +4763,10 @@
     - service: vk
       id: 1754
       published: 2024-09-13-18-29-45
-      updated: 2025-02-15-12-11-55
+      updated: 2025-02-22-13-11-14
       followers: 946
       likes: 52
-      views: 397
+      views: 398
       reposts: 1
       comments: !c |-
         G2MGACwO7IbPG1WXEGdMm4iPriMk6eT/ee7t/YR3hWZ+eYIhKQ0sol2gNOuevo+Wy5ynPBQFoADY
@@ -5365,10 +5365,10 @@
     - service: vk
       id: 1721
       published: 2024-08-30-18-29-34
-      updated: 2025-02-15-12-11-58
+      updated: 2025-02-22-13-11-16
       followers: 941
       likes: 46
-      views: 326
+      views: 327
       reposts: 2
       comments: !c |-
         G/QCAJwJti2DbbiyKzYpPyaMbLBOYQRqLQkgLE6TIAwOocEgLCEkGP+mY9Tn3ZtrKyELJkEMTe7n
@@ -5382,10 +5382,10 @@
     - service: tg
       id: 517
       published: 2024-08-30-18-29-41
-      updated: 2025-02-15-12-11-53
+      updated: 2025-02-22-13-11-13
       followers: 545
       likes: 72
-      views: 618
+      views: 620
       comments: !c |-
         CzCAk5PLQnlHWu7dAACnS2FCQkJpRbjQrdGFLCBiYXJlZm9vdCBjaGlsZGhvb2STy0J5GnTGOYAA
         qmhpbW1lbGhlcnqk8J+Zj5PLQnkaUBbeAACremhlY2hrYV9kcnak8J+YjAM=
@@ -7168,21 +7168,21 @@
       id: DGTeDcPJGYV
       mediaId: '18079508434724391'
       published: 2025-02-20-18-11-21
-      updated: 2025-02-22-12-11-53
+      updated: 2025-02-22-13-11-10
       followers: 1537
       likes: 58
-      views: 216
+      views: 217
     - service: vk
       id: 2142
       published: 2025-02-20-18-11-30
-      updated: 2025-02-22-12-11-55
+      updated: 2025-02-22-13-11-11
       followers: 1109
       likes: 28
-      views: 188
+      views: 192
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
-      updated: 2025-02-22-12-11-54
+      updated: 2025-02-22-13-11-11
       followers: 681
       likes: 49
       views: 194
@@ -8066,15 +8066,15 @@
     - service: vk
       id: 1631
       published: 2024-07-12-18-21-28
-      updated: 2025-02-15-13-10-27
+      updated: 2025-02-22-13-11-24
       followers: 920
       likes: 33
-      views: 272
+      views: 273
       reposts: 1
     - service: tg
       id: 467
       published: 2024-07-12-18-21-35
-      updated: 2025-02-15-13-10-24
+      updated: 2025-02-22-13-11-21
       followers: 397
       likes: 59
       views: 488
@@ -9261,24 +9261,24 @@
       id: DGWCyCXNBkE
       mediaId: '18391620358107490'
       published: 2025-02-21-18-10-45
-      updated: 2025-02-22-12-11-52
+      updated: 2025-02-22-13-11-09
       followers: 1538
-      likes: 45
-      views: 171
+      likes: 46
+      views: 172
     - service: vk
       id: 2143
       published: 2025-02-21-18-10-54
-      updated: 2025-02-22-12-11-53
+      updated: 2025-02-22-13-11-10
       followers: 1112
       likes: 29
-      views: 141
+      views: 148
     - service: tg
       id: 717
       published: 2025-02-21-18-11-05
-      updated: 2025-02-22-12-11-53
+      updated: 2025-02-22-13-11-10
       followers: 682
       likes: 43
-      views: 125
+      views: 127
 2017-08-20-sadrith-mora-at-night:
   title: Sadrith Mora at Night
   titleRu: Садрит Мора в ночи
@@ -9917,10 +9917,10 @@
     - service: vk
       id: 1664
       published: 2024-08-02-18-20-03
-      updated: 2025-02-15-12-12-01
+      updated: 2025-02-22-13-11-20
       followers: 925
       likes: 45
-      views: 318
+      views: 319
       reposts: 1
       comments: !c |-
         izaAkpPLQnkRc1B4gACtQ2hlcm5vc290aW5lY9k60JAg0LLQtdC00Ywg0YHQvtC70YHRgtGF0LXQ
@@ -9928,7 +9928,7 @@
     - service: tg
       id: 488
       published: 2024-08-02-18-20-10
-      updated: 2025-02-15-12-11-57
+      updated: 2025-02-22-13-11-18
       followers: 428
       likes: 66
       views: 709

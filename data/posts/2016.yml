@@ -548,10 +548,10 @@
     - service: vk
       id: 1644
       published: 2024-07-19-18-20-33
-      updated: 2025-02-15-13-10-26
+      updated: 2025-02-22-13-11-23
       followers: 919
       likes: 49
-      views: 338
+      views: 339
       reposts: 1
       comments: !c |-
         Cx+AkZPLQnkNGxLUAACrbG9tYWV2X2xpdmXZJsKr0K3QuSwg0LzQtdC90Y8g0L/QvtC00L7QttC0
@@ -559,7 +559,7 @@
     - service: tg
       id: 474
       published: 2024-07-19-18-20-40
-      updated: 2025-02-15-12-11-58
+      updated: 2025-02-22-13-11-20
       followers: 400
       likes: 62
       views: 582
@@ -1678,10 +1678,10 @@
     - service: tg
       id: 446
       published: 2024-06-21-18-20-33
-      updated: 2025-02-15-13-10-26
+      updated: 2025-02-22-13-11-23
       followers: 386
       likes: 55
-      views: 537
+      views: 539
 2016-12-31-far-friends:
   title: Far Friends
   titleRu: Далёкие друзья
