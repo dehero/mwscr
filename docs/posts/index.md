@@ -4,7 +4,41 @@
 
 # Posted in 2025
 
-`52 items`
+`53 items`
+
+## <span id="2025-02-22-night-life">Night Life</span>
+
+`RU` Ночная жизнь
+
+<a href="https://instagram.com/p/BmrDQOxlm5N/" title="2017-04-09-deseles-house-of-earthly-delights"><img alt="store:/shots/2017-04-09-deseles-house-of-earthly-delights.png" src="../../assets/previews/shots/2017-04-09-deseles-house-of-earthly-delights.avif" /></a>
+<a href="https://instagram.com/p/BmrDQOxlm5N/" title="2017-04-05-bards-corner"><img alt="store:/shots/2017-04-05-bards-corner.png" src="../../assets/previews/shots/2017-04-05-bards-corner.avif" /></a>
+<a href="https://instagram.com/p/BmrDQOxlm5N/" title="2017-04-14-in-the-bar"><img alt="store:/shots/2017-04-14-in-the-bar.png" src="../../assets/previews/shots/2017-04-14-in-the-bar.avif" /></a>
+<a href="https://instagram.com/p/BmrDQOxlm5N/" title="2018-04-17-earthly-delights"><img alt="store:/shots/2018-04-17-earthly-delights.png" src="../../assets/previews/shots/2018-04-17-earthly-delights.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-02-22-night-life&amp;postContent=store%3A%2Fshots%2F2017-04-09-deseles-house-of-earthly-delights.png%0Astore%3A%2Fshots%2F2017-04-05-bards-corner.png%0Astore%3A%2Fshots%2F2017-04-14-in-the-bar.png%0Astore%3A%2Fshots%2F2018-04-17-earthly-delights.png&amp;postTitle=Night+Life&amp;postTitleRu=%D0%9D%D0%BE%D1%87%D0%BD%D0%B0%D1%8F+%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=nightlife&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-22-night-life&postLocation=)</code> `🚀 OpenMW` `nightlife`
+
+```
+2025-02-22-night-life
+```
+
+> `2018-08-19-night-life`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BmrDQOxlm5N/)       | 2018-08-19 |       |   114 |       397 |      28.72 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_866)  | 2018-08-19 |   287 |    19 |       201 |       9.45 |
+| [`ig`](https://instagram.com/p/DGYnsoItoGk/)       | 2025-02-22 |       |       |      1537 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2144) | 2025-02-22 |       |       |      1116 |            |
+| [`tg`](https://t.me/mwscr/718,719,720,721)         | 2025-02-22 |       |       |       682 |            |
+|                                                    |            |       |       |      3335 |            |
+
+#### Comments
+
+- `ig` <ins title="2018-08-19-19-46-14">socialmixin</ins> 👌
 
 ## <span id="2025-02-21-surroundings-of-hlormaren">Surroundings of Hlormaren</span>
 
@@ -29,9 +63,9 @@
 | [`ig`](https://instagram.com/p/BX-XJCjjcR1/)       | 2017-08-19 |       |    52 |       194 |       26.8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_398)  | 2017-08-19 |   109 |     7 |        75 |       9.33 |
 | [`ig`](https://instagram.com/p/DGWCyCXNBkE/)       | 2025-02-21 |   181 |    47 |      1538 |       3.06 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2143) | 2025-02-21 |   165 |    30 |      1112 |        2.7 |
-| [`tg`](https://t.me/mwscr/717)                     | 2025-02-21 |   134 |    43 |       682 |        6.3 |
-|                                                    |            |   480 |   120 |      3332 |       4.02 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2143) | 2025-02-21 |   168 |    30 |      1112 |        2.7 |
+| [`tg`](https://t.me/mwscr/717)                     | 2025-02-21 |   136 |    43 |       682 |        6.3 |
+|                                                    |            |   485 |   120 |      3332 |       4.02 |
 
 ## <span id="2025-02-20-floating-over-the-green-hills">Floating Over the Green Hills</span>
 
@@ -57,8 +91,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_334)  | 2017-06-26 |   110 |    10 |        65 |      15.38 |
 | [`ig`](https://instagram.com/p/DGTeDcPJGYV/)       | 2025-02-20 |   219 |    58 |      1537 |       3.77 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2142) | 2025-02-20 |   199 |    29 |      1109 |       2.61 |
-| [`tg`](https://t.me/mwscr/716)                     | 2025-02-20 |   198 |    49 |       681 |        7.2 |
-|                                                    |            |   616 |   136 |      3327 |       4.53 |
+| [`tg`](https://t.me/mwscr/716)                     | 2025-02-20 |   200 |    49 |       681 |        7.2 |
+|                                                    |            |   618 |   136 |      3327 |       4.53 |
 
 #### Comments
 
