@@ -6264,10 +6264,10 @@
     - service: vk
       id: 1857
       published: 2024-10-26-18-09-18
-      updated: 2025-02-16-06-09-57
+      updated: 2025-02-23-06-10-06
       followers: 1000
       likes: 53
-      views: 381
+      views: 382
       reposts: 3
       comments: !c |-
         GxwB4C0OzHOdB2ow3rAbn0ohbDz/z6GG8J/YBo3x1AmaE0pA1iBcvQ+01ULNLeRKqEZdNyPzHMPx
@@ -6278,10 +6278,10 @@
     - service: tg
       id: 576
       published: 2024-10-26-18-09-24
-      updated: 2025-02-16-06-09-57
+      updated: 2025-02-23-06-10-07
       followers: 564
       likes: 62
-      views: 620
+      views: 622
       comments: !c CxSAkpPLQnksrSYPAACobW9uZ2xlcmmgk8tCeSygVUwAAKh3aWx6dXVsbKAD
 2018-06-13-lich:
   title: Lich
@@ -8600,17 +8600,17 @@
       id: DGYnsoItoGk
       mediaId: '17897559681056464'
       published: 2025-02-22-18-11-47
-      updated: 2025-02-23-05-07-28
+      updated: 2025-02-23-06-09-58
       followers: 1537
-      likes: 78
-      views: 216
+      likes: 79
+      views: 223
     - service: vk
       id: 2144
       published: 2025-02-22-18-12-14
-      updated: 2025-02-23-05-07-28
+      updated: 2025-02-23-06-09-59
       followers: 1116
-      likes: 26
-      views: 146
+      likes: 27
+      views: 154
       reposts: 1
       comments: !c |-
         G78AICySx51PUfGqHB0jVDpR7Uhv/MUCoCbhiJI90AzaJjmTk1ooVJjYvXmqS7Q8/xxzk2upsrRs
@@ -8623,10 +8623,10 @@
         - 720
         - 721
       published: 2025-02-22-18-12-41
-      updated: 2025-02-23-05-07-29
+      updated: 2025-02-23-06-10-00
       followers: 682
       likes: 37
-      views: 166
+      views: 170
 2018-08-20-mushroom-glade:
   title: Mushroom Glade
   titleRu: Грибная поляна
@@ -9620,10 +9620,10 @@
     - service: vk
       id: 1916
       published: 2024-11-23-18-10-28
-      updated: 2025-02-16-06-09-54
+      updated: 2025-02-23-06-10-03
       followers: 1008
       likes: 40
-      views: 349
+      views: 351
       reposts: 2
       comments: !c |-
         G4kA+C0SbNsJb8cJbulDs+RE8f0twqe/STHJsEkwwmQvJxuGltY7/ikD9WRyFpuo/RQbI0aZI5Od
@@ -9631,10 +9631,10 @@
     - service: tg
       id: 604
       published: 2024-11-23-18-10-35
-      updated: 2025-02-16-06-09-53
+      updated: 2025-02-23-06-10-03
       followers: 575
       likes: 64
-      views: 611
+      views: 619
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище
