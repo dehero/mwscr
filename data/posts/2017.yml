@@ -2088,7 +2088,7 @@
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2025-02-16-17-02-14
+      updated: 2025-02-23-18-09-05
       followers: 386
       likes: 71
       views: 544
@@ -6819,7 +6819,7 @@
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2025-02-16-17-02-13
+      updated: 2025-02-23-18-09-04
       followers: 387
       likes: 60
       views: 496
@@ -7168,24 +7168,24 @@
       id: DGTeDcPJGYV
       mediaId: '18079508434724391'
       published: 2025-02-20-18-11-21
-      updated: 2025-02-22-18-08-50
+      updated: 2025-02-23-18-08-59
       followers: 1537
-      likes: 58
-      views: 219
+      likes: 60
+      views: 231
     - service: vk
       id: 2142
       published: 2025-02-20-18-11-30
-      updated: 2025-02-22-18-08-52
+      updated: 2025-02-23-18-09-01
       followers: 1109
-      likes: 29
-      views: 199
+      likes: 31
+      views: 226
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
-      updated: 2025-02-22-18-08-52
+      updated: 2025-02-23-18-09-00
       followers: 681
-      likes: 49
-      views: 200
+      likes: 51
+      views: 226
       comments: !c |-
         G8oAAOTgmif+K7FhFQbIR5SNq7iCKnS41tFAh/vGzjXeZiiKsk3jyBjPMy7dof7ulEakkf1b7VvU
         zZWub4BlRCAd0g3kDVJBJdka/3qNSjcE0v9jW6RQgxQtgktZ/dOQ5YAsEGmO7OFShHUU1TQ3ikq+
@@ -8386,6 +8386,19 @@
       followers: 71
       likes: 6
       views: 114
+    - service: ig
+      id: DGbMNfHvAh9
+      mediaId: '18123536320421155'
+      published: 2025-02-23-18-09-21
+      followers: 1537
+    - service: vk
+      id: 2146
+      published: 2025-02-23-18-09-28
+      followers: 1123
+    - service: tg
+      id: 722
+      published: 2025-02-23-18-09-36
+      followers: 683
 2017-07-29-near-berandas:
   title: Near Berandas
   titleRu: У Берандаса
@@ -9261,24 +9274,24 @@
       id: DGWCyCXNBkE
       mediaId: '18391620358107490'
       published: 2025-02-21-18-10-45
-      updated: 2025-02-23-17-01-27
+      updated: 2025-02-23-18-08-57
       followers: 1538
-      likes: 52
-      views: 209
+      likes: 54
+      views: 213
     - service: vk
       id: 2143
       published: 2025-02-21-18-10-54
-      updated: 2025-02-23-17-01-28
+      updated: 2025-02-23-18-08-59
       followers: 1112
       likes: 33
-      views: 203
+      views: 207
     - service: tg
       id: 717
       published: 2025-02-21-18-11-05
-      updated: 2025-02-23-17-01-29
+      updated: 2025-02-23-18-08-59
       followers: 682
       likes: 47
-      views: 182
+      views: 186
 2017-08-20-sadrith-mora-at-night:
   title: Sadrith Mora at Night
   titleRu: Садрит Мора в ночи
@@ -13568,10 +13581,10 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2025-02-16-17-02-13
+      updated: 2025-02-23-18-09-03
       followers: 919
       likes: 50
-      views: 293
+      views: 295
       reposts: 2
       comments: !c |-
         GwkDICwOeNMnhJTV1OIP4sZdED0fFzvCf3gQUKRJWGZNMwk0NSWe7AMNLEpXW8j1S7RazBOZBw/M
@@ -13585,7 +13598,7 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2025-02-16-17-02-11
+      updated: 2025-02-23-18-09-02
       followers: 393
       likes: 59
       views: 483
