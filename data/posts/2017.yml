@@ -2749,28 +2749,28 @@
       id: DGJKqKVyLQy
       mediaId: '18046144337035450'
       published: 2025-02-16-18-09-27
-      updated: 2025-02-22-21-02-25
+      updated: 2025-02-23-22-04-25
       followers: 1538
-      likes: 118
-      views: 515
+      likes: 119
+      views: 516
       comments: !c |-
         G2YAYJ2JsY2C85julNcsP29/KZ4czyYwnO2eoFRKsulKENL/PRLVxSlDhABracoDLvo5K524FAs2
         xtaXoBkNj7lew/zT8VkgFT4I7FMyRONjyr+SRhgDRKYj2tBSBjTJHTzcmw2lOEoO
     - service: vk
       id: 2133
       published: 2025-02-16-18-09-34
-      updated: 2025-02-22-21-02-26
+      updated: 2025-02-23-22-04-26
       followers: 1071
-      likes: 43
-      views: 339
+      likes: 44
+      views: 350
       reposts: 3
     - service: tg
       id: 712
       published: 2025-02-16-18-09-40
-      updated: 2025-02-22-21-02-27
+      updated: 2025-02-23-22-04-28
       followers: 677
       likes: 66
-      views: 309
+      views: 321
       comments: !c |-
         C0KAkpPLQnlSitoxgACvQWxleGV5IFN0ZXBhbm92pPCfjJ2Ty0J5UP+7EgAAq2FhcnljaGFnb2Zm
         2U3Qk9C70LDQstC90L7QtSAtINC90LUg0L/Rg9GC0LDRgtGMINCd0YfRg9GA0LTQsNC80YYg0Lgg
@@ -7114,17 +7114,17 @@
       id: DFlHfSRzWCN
       mediaId: '17955260624870999'
       published: 2025-02-02-18-09-05
-      updated: 2025-02-16-22-02-57
+      updated: 2025-02-23-22-04-27
       followers: 1536
       likes: 79
-      views: 271
+      views: 274
     - service: vk
       id: 2107
       published: 2025-02-02-18-09-12
-      updated: 2025-02-16-22-02-59
+      updated: 2025-02-23-22-04-28
       followers: 1060
-      likes: 49
-      views: 337
+      likes: 51
+      views: 370
       comments: !c |-
         GyIBMCwOeHPUIcRE+eFaNxlujf+nv9jOEr38g2ecYTMJFWFyLvy7rdCjVbpNum9D+cN5O3Vb7s8G
         Y9x2TE6OPERj1RtsXhQ661ZkeW5wOuCEDyDDgPOA44KjTmu0GxxEFBdJPdE8/v7842jfruv3ckKh
@@ -8390,24 +8390,24 @@
       id: DGbMNfHvAh9
       mediaId: '18123536320421155'
       published: 2025-02-23-18-09-21
-      updated: 2025-02-23-21-01-14
+      updated: 2025-02-23-22-04-23
       followers: 1537
-      likes: 31
-      views: 102
+      likes: 34
+      views: 116
     - service: vk
       id: 2146
       published: 2025-02-23-18-09-28
-      updated: 2025-02-23-21-01-14
+      updated: 2025-02-23-22-04-23
       followers: 1123
       likes: 8
-      views: 62
+      views: 68
     - service: tg
       id: 722
       published: 2025-02-23-18-09-36
-      updated: 2025-02-23-21-01-15
+      updated: 2025-02-23-22-04-24
       followers: 683
-      likes: 31
-      views: 96
+      likes: 32
+      views: 105
 2017-07-29-near-berandas:
   title: Near Berandas
   titleRu: У Берандаса
@@ -8870,10 +8870,10 @@
     - service: tg
       id: 713
       published: 2025-02-17-18-10-54
-      updated: 2025-02-22-21-02-26
+      updated: 2025-02-23-22-04-26
       followers: 678
       likes: 57
-      views: 293
+      views: 306
       comments: !c iw+AkZPLQnlSitdDgACvQWxleGV5IFN0ZXBhbm92pPCfkLQD
 2017-08-11-west-gash:
   title: West Gash
@@ -9730,7 +9730,7 @@
     - service: tg
       id: 405
       published: 2024-05-11-18-18-01
-      updated: 2025-02-16-22-03-04
+      updated: 2025-02-23-22-04-34
       followers: 371
       likes: 68
       views: 509
@@ -9738,10 +9738,10 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2025-02-16-22-03-05
+      updated: 2025-02-23-22-04-35
       followers: 915
       likes: 41
-      views: 286
+      views: 288
 2017-09-01-the-last-refuge:
   title: The Last Refuge
   titleRu: Последнее прибежище
