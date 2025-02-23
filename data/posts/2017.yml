@@ -4183,30 +4183,30 @@
       id: DGQ5PExTAVB
       mediaId: '17889180243193197'
       published: 2025-02-19-18-11-09
-      updated: 2025-02-22-19-01-31
+      updated: 2025-02-23-19-02-10
       followers: 1536
-      likes: 73
-      views: 396
+      likes: 74
+      views: 398
       comments: !c |-
         iy2AkpPLQnlSAiYZgACqeW9zaGlfMjNpadkmSSBhbHdheXMgZ28gaW4gdGhlcmUgZXZlcnkgcGxh
         eXRocm91Z2iTy0J5UffPIIAAq2RlbGFub3NwaWVzp0NsYXNzaWMD
     - service: vk
       id: 2139
       published: 2025-02-19-18-11-18
-      updated: 2025-02-22-19-01-32
+      updated: 2025-02-23-19-02-12
       followers: 1102
-      likes: 43
-      views: 242
+      likes: 45
+      views: 271
       comments: !c |-
         CyeAkZPLQnlSAJoagACpdmxhZGtyMTE02TjQrdGC0L4g0L/QtdGJ0LXRgNGDINGPINGD0LfQvdCw
         0Y4g0LjQtyDRgtGL0YHRj9GH0Lgg8J+YgQM=
     - service: tg
       id: 715
       published: 2025-02-19-18-11-28
-      updated: 2025-02-22-19-01-32
+      updated: 2025-02-23-19-02-11
       followers: 681
-      likes: 53
-      views: 251
+      likes: 54
+      views: 296
       comments: !c iw+AkZPLQnlSitHkgACvQWxleGV5IFN0ZXBhbm92pPCfko4D
 2017-04-12-lets-set-sail:
   title: Let's Set Sail!
@@ -8390,15 +8390,24 @@
       id: DGbMNfHvAh9
       mediaId: '18123536320421155'
       published: 2025-02-23-18-09-21
+      updated: 2025-02-23-19-02-08
       followers: 1537
+      likes: 17
+      views: 52
     - service: vk
       id: 2146
       published: 2025-02-23-18-09-28
+      updated: 2025-02-23-19-02-08
       followers: 1123
+      likes: 5
+      views: 38
     - service: tg
       id: 722
       published: 2025-02-23-18-09-36
+      updated: 2025-02-23-19-02-09
       followers: 683
+      likes: 20
+      views: 72
 2017-07-29-near-berandas:
   title: Near Berandas
   titleRu: У Берандаса
