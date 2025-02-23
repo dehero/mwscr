@@ -2044,10 +2044,10 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2025-02-16-16-07-41
+      updated: 2025-02-23-16-07-54
       followers: 927
       likes: 26
-      views: 266
+      views: 267
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
@@ -5245,15 +5245,15 @@
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2025-02-16-16-07-44
+      updated: 2025-02-23-16-07-57
       followers: 919
       likes: 56
-      views: 846
+      views: 847
       reposts: 5
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2025-02-16-16-07-41
+      updated: 2025-02-23-16-07-55
       followers: 400
       likes: 67
       views: 628
@@ -7576,10 +7576,10 @@
     - service: vk
       id: 1666
       published: 2024-08-03-18-19-32
-      updated: 2025-02-16-16-07-42
+      updated: 2025-02-23-16-07-55
       followers: 925
       likes: 33
-      views: 293
+      views: 294
     - service: tg
       id: 489
       published: 2024-08-03-18-19-41
@@ -8600,17 +8600,17 @@
       id: DGYnsoItoGk
       mediaId: '17897559681056464'
       published: 2025-02-22-18-11-47
-      updated: 2025-02-23-15-03-37
+      updated: 2025-02-23-16-07-51
       followers: 1537
-      likes: 93
-      views: 288
+      likes: 98
+      views: 298
     - service: vk
       id: 2144
       published: 2025-02-22-18-12-14
-      updated: 2025-02-23-15-03-38
+      updated: 2025-02-23-16-07-51
       followers: 1116
       likes: 38
-      views: 215
+      views: 222
       reposts: 1
       comments: !c |-
         G78AICySx51PUfGqHB0jVDpR7Uhv/MUCoCbhiJI90AzaJjmTk1ooVJjYvXmqS7Q8/xxzk2upsrRs
@@ -8623,10 +8623,10 @@
         - 720
         - 721
       published: 2025-02-22-18-12-41
-      updated: 2025-02-23-15-03-38
+      updated: 2025-02-23-16-07-52
       followers: 682
-      likes: 42
-      views: 196
+      likes: 43
+      views: 200
 2018-08-20-mushroom-glade:
   title: Mushroom Glade
   titleRu: Грибная поляна
