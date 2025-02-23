@@ -2080,10 +2080,10 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2025-02-16-20-08-06
+      updated: 2025-02-23-21-01-20
       followers: 916
       likes: 53
-      views: 432
+      views: 434
       reposts: 7
     - service: tg
       id: 440
@@ -6812,10 +6812,10 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2025-02-16-20-08-05
+      updated: 2025-02-23-21-01-19
       followers: 920
-      likes: 38
-      views: 295
+      likes: 39
+      views: 296
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
@@ -7133,10 +7133,10 @@
     - service: tg
       id: 692
       published: 2025-02-02-18-09-19
-      updated: 2025-02-16-20-08-03
+      updated: 2025-02-23-21-01-17
       followers: 662
       likes: 68
-      views: 581
+      views: 613
 2017-06-26-floating-over-the-green-hills:
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами
@@ -8390,24 +8390,24 @@
       id: DGbMNfHvAh9
       mediaId: '18123536320421155'
       published: 2025-02-23-18-09-21
-      updated: 2025-02-23-20-07-43
+      updated: 2025-02-23-21-01-14
       followers: 1537
-      likes: 26
-      views: 82
+      likes: 31
+      views: 102
     - service: vk
       id: 2146
       published: 2025-02-23-18-09-28
-      updated: 2025-02-23-20-07-43
+      updated: 2025-02-23-21-01-14
       followers: 1123
-      likes: 7
-      views: 54
+      likes: 8
+      views: 62
     - service: tg
       id: 722
       published: 2025-02-23-18-09-36
-      updated: 2025-02-23-20-07-43
+      updated: 2025-02-23-21-01-15
       followers: 683
-      likes: 30
-      views: 88
+      likes: 31
+      views: 96
 2017-07-29-near-berandas:
   title: Near Berandas
   titleRu: У Берандаса
