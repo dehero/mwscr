@@ -4412,10 +4412,10 @@
     - service: vk
       id: 1790
       published: 2024-09-29-18-09-02
-      updated: 2025-02-17-10-09-00
+      updated: 2025-02-24-10-09-44
       followers: 957
       likes: 38
-      views: 322
+      views: 324
       comments: !c |-
         G1IA+I2UbsI8COjcEy7SqmziswYcBlAIjjDvcW5jZ16hhCjNEiWmWKHajquaDLMuhTjHJvO93POS
         PPoLdjlDigYKBoRHDAYcUBCGipyJXOWCreK6
@@ -8600,17 +8600,17 @@
       id: DGYnsoItoGk
       mediaId: '17897559681056464'
       published: 2025-02-22-18-11-47
-      updated: 2025-02-24-09-09-48
+      updated: 2025-02-24-10-09-40
       followers: 1537
-      likes: 106
-      views: 356
+      likes: 108
+      views: 358
     - service: vk
       id: 2144
       published: 2025-02-22-18-12-14
-      updated: 2025-02-24-09-09-49
+      updated: 2025-02-24-10-09-42
       followers: 1116
       likes: 42
-      views: 257
+      views: 260
       reposts: 1
       comments: !c |-
         G78AICySx51PUfGqHB0jVDpR7Uhv/MUCoCbhiJI90AzaJjmTk1ooVJjYvXmqS7Q8/xxzk2upsrRs
@@ -8623,7 +8623,7 @@
         - 720
         - 721
       published: 2025-02-22-18-12-41
-      updated: 2025-02-24-09-09-50
+      updated: 2025-02-24-10-09-42
       followers: 682
       likes: 48
       views: 243
@@ -9403,10 +9403,10 @@
     - service: tg
       id: 526
       published: 2024-09-08-18-28-25
-      updated: 2025-02-17-10-09-00
+      updated: 2025-02-24-10-09-45
       followers: 554
       likes: 69
-      views: 626
+      views: 637
     - service: ig
       id: C_t_VnJxftA
       mediaId: '18019278437441496'
@@ -12191,10 +12191,10 @@
     - service: tg
       id: 533
       published: 2024-09-15-18-29-22
-      updated: 2025-02-17-10-08-59
+      updated: 2025-02-24-10-09-44
       followers: 557
       likes: 70
-      views: 535
+      views: 538
       comments: !c CxOAkZPLQnkfiGjEgACnbWxlbm5pY7Nza3kgaXMgYW1hemluZyBoZXJlAw==
 2018-11-11-through-the-snowy-forest:
   title: Through the Snowy Forest
@@ -12452,10 +12452,10 @@
     - service: tg
       id: 541
       published: 2024-09-22-18-28-23
-      updated: 2025-02-17-10-08-58
+      updated: 2025-02-24-10-09-43
       followers: 554
       likes: 68
-      views: 540
+      views: 688
       comments: !c ixCAkZPLQnkhuOWhgACpR2F0ZW1hdGU3rHBlcmZlY3QgZGF0ZQM=
 2018-11-18-horror-of-the-red-corridor:
   title: Horror of the Red Corridor
