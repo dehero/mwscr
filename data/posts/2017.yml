@@ -4371,17 +4371,17 @@
       id: DFnseKAT28i
       mediaId: '18140510668337607'
       published: 2025-02-03-18-10-45
-      updated: 2025-02-17-23-07-27
+      updated: 2025-02-24-23-07-48
       followers: 1535
-      likes: 99
-      views: 346
+      likes: 100
+      views: 352
     - service: vk
       id: 2110
       published: 2025-02-03-18-10-54
-      updated: 2025-02-17-23-07-29
+      updated: 2025-02-24-23-07-50
       followers: 1059
-      likes: 45
-      views: 381
+      likes: 47
+      views: 410
       reposts: 2
       comments: !c |-
         G6YCgKyLd9mEERHbmqbg0J0wvbMsjnriHg3hm1D+TH4sErRwQQpaKWClhJE9VacE8MGxAubmTGmO
@@ -4394,10 +4394,10 @@
     - service: tg
       id: 693
       published: 2025-02-03-18-11-03
-      updated: 2025-02-17-23-07-27
+      updated: 2025-02-24-23-07-51
       followers: 664
       likes: 66
-      views: 548
+      views: 571
       comments: !c |-
         iyqAkZPLQnlO8kY5gACqRGltYW1vdG9kcNk+0JrQsNC6INGA0LDQtyDRgdC10LnRh9Cw0YEg0L/R
         gNC+0YXQvtC20YMg0Y3RgtC4INC60LLQtdGB0YLRiykD
@@ -4960,7 +4960,7 @@
     - service: vk
       id: 1494
       published: 2024-04-14-20-32-17
-      updated: 2025-02-17-22-07-32
+      updated: 2025-02-24-23-08-03
       followers: 911
       likes: 41
       views: 303
@@ -4968,7 +4968,7 @@
     - service: tg
       id: 378
       published: 2024-04-14-20-32-22
-      updated: 2025-02-17-22-07-25
+      updated: 2025-02-24-23-07-57
       followers: 351
       likes: 64
       views: 542
@@ -8390,22 +8390,22 @@
       id: DGbMNfHvAh9
       mediaId: '18123536320421155'
       published: 2025-02-23-18-09-21
-      updated: 2025-02-24-22-01-18
+      updated: 2025-02-24-23-07-47
       followers: 1537
-      likes: 57
-      views: 205
+      likes: 58
+      views: 208
     - service: vk
       id: 2146
       published: 2025-02-23-18-09-28
-      updated: 2025-02-24-22-01-19
+      updated: 2025-02-24-23-07-49
       followers: 1123
       likes: 19
-      views: 165
+      views: 166
       reposts: 1
     - service: tg
       id: 722
       published: 2025-02-23-18-09-36
-      updated: 2025-02-24-22-01-19
+      updated: 2025-02-24-23-07-49
       followers: 683
       likes: 43
       views: 176
@@ -8871,10 +8871,10 @@
     - service: tg
       id: 713
       published: 2025-02-17-18-10-54
-      updated: 2025-02-23-22-04-26
+      updated: 2025-02-24-23-07-50
       followers: 678
       likes: 57
-      views: 306
+      views: 312
       comments: !c iw+AkZPLQnlSitdDgACvQWxleGV5IFN0ZXBhbm92pPCfkLQD
 2017-08-11-west-gash:
   title: West Gash
@@ -10284,10 +10284,10 @@
       id: DEfmNjaz7er
       mediaId: '18059335300902048'
       published: 2025-01-06-18-10-43
-      updated: 2025-02-17-22-07-26
+      updated: 2025-02-24-23-07-56
       followers: 1523
       likes: 97
-      views: 437
+      views: 438
       comments: !c |-
         G3oAYIzTHbGYg5/W/537hGd7E4oCH97dOkUDdBQtNqoCDPWA2/UtpWlx/lTzGDsXJdPi2Xa32Ejv
         PwJcgZPlOLcLKzOs1LBw7kThpkUFkxoIhyh99QJ8eAQm4uMKc2LgPDvrDA7Wp2VzHXd/bIAhqDKa
@@ -10295,10 +10295,10 @@
     - service: vk
       id: 2026
       published: 2025-01-06-18-10-49
-      updated: 2025-02-17-22-07-25
+      updated: 2025-02-24-23-07-55
       followers: 1048
       likes: 42
-      views: 340
+      views: 346
       reposts: 1
       comments: !c |-
         G4EA+J0JvAnrMji1L5ZQPE/eRjjiiJPEtkFSwS7BLqLkfbJ0cyUlMdRdkA/3z8yRyW4PHKI8KUpI
@@ -10306,10 +10306,10 @@
     - service: tg
       id: 655
       published: 2025-01-06-18-10-56
-      updated: 2025-02-17-22-07-22
+      updated: 2025-02-24-23-07-54
       followers: 645
       likes: 68
-      views: 525
+      views: 534
 2017-09-17-night-square:
   title: Night Square
   titleRu: Ночная площадь
@@ -12160,10 +12160,10 @@
     - service: vk
       id: 1547
       published: 2024-05-26-18-17-46
-      updated: 2025-02-17-22-07-28
+      updated: 2025-02-24-23-07-58
       followers: 918
       likes: 32
-      views: 292
+      views: 293
       reposts: 2
     - service: tg
       id: 420
