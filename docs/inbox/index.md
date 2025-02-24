@@ -6,16 +6,16 @@
 
 `8 items`
 
-## <span id="ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon">ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon</span>
+## <span id="ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon">Ash Statue in Maran-Adon</span>
 
 ![store:/inbox/ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon.png](../../assets/previews/inbox/ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon.avif "ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon")
 
 `shot` by [nazareth](../contributors.md#ohsweetnazareth)
 
 > [!WARNING]
-> Missing english title, russian title, editor's mark.
+> Missing russian title, editor's mark.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon&amp;postContent=store%3A%2Finbox%2Fohsweetnazareth.2025-02-20-ash-statue-in-maran-adon.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=ohsweetnazareth&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon&amp;postContent=store%3A%2Finbox%2Fohsweetnazareth.2025-02-20-ash-statue-in-maran-adon.png&amp;postTitle=Ash+Statue+in+Maran-Adon&amp;postTitleRu=&amp;postAuthor=ohsweetnazareth&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=Maran-Adon&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon&amp;mergeWithIds=) `📍 Maran-Adon`
 
 ```
 ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon
