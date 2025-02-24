@@ -6614,17 +6614,17 @@
     - service: vk
       id: 1667
       published: 2024-08-04-18-18-36
-      updated: 2025-02-17-16-08-59
+      updated: 2025-02-24-16-10-01
       followers: 927
       likes: 34
-      views: 279
+      views: 281
     - service: tg
       id: 490
       published: 2024-08-04-18-18-43
-      updated: 2025-02-17-16-08-57
+      updated: 2025-02-24-16-09-59
       followers: 476
       likes: 64
-      views: 838
+      views: 839
       comments: !c |-
         G+0AICwSeA71cYPQBcSN9t86gfLpT815tsVy0YiFw9Exdi1WnoC10haY72NAW73hjvNS7k9EIyng
         kAPxQKrtZrHURElT9upnyGaXYGB8a0Fb0gJKw0AifsIXf5AH3VhoZpHHgUN82Bye2kr4qQ6cPDuP
@@ -8600,17 +8600,17 @@
       id: DGYnsoItoGk
       mediaId: '17897559681056464'
       published: 2025-02-22-18-11-47
-      updated: 2025-02-24-15-09-02
+      updated: 2025-02-24-16-09-58
       followers: 1537
-      likes: 110
-      views: 368
+      likes: 111
+      views: 370
     - service: vk
       id: 2144
       published: 2025-02-22-18-12-14
-      updated: 2025-02-24-15-09-04
+      updated: 2025-02-24-16-09-59
       followers: 1116
       likes: 43
-      views: 270
+      views: 271
       reposts: 1
       comments: !c |-
         G78AICySx51PUfGqHB0jVDpR7Uhv/MUCoCbhiJI90AzaJjmTk1ooVJjYvXmqS7Q8/xxzk2upsrRs
@@ -8623,7 +8623,7 @@
         - 720
         - 721
       published: 2025-02-22-18-12-41
-      updated: 2025-02-24-15-09-03
+      updated: 2025-02-24-16-09-59
       followers: 682
       likes: 48
       views: 249
