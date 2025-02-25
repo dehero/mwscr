@@ -245,14 +245,14 @@
     - service: vk
       id: 1585
       published: 2024-06-17-18-19-59
-      updated: 2025-02-18-16-09-57
+      updated: 2025-02-25-16-10-14
       followers: 918
       likes: 33
-      views: 271
+      views: 272
     - service: tg
       id: 442
       published: 2024-06-17-18-20-05
-      updated: 2025-02-18-16-09-54
+      updated: 2025-02-25-16-10-14
       followers: 385
       likes: 58
       views: 483
@@ -5972,15 +5972,15 @@
     - service: vk
       id: 1610
       published: 2024-07-01-18-20-13
-      updated: 2025-02-18-16-09-56
+      updated: 2025-02-25-16-10-13
       followers: 918
       likes: 54
-      views: 330
+      views: 331
       reposts: 1
     - service: tg
       id: 456
       published: 2024-07-01-18-20-19
-      updated: 2025-02-18-16-09-53
+      updated: 2025-02-25-16-10-13
       followers: 390
       likes: 61
       views: 482
@@ -7571,10 +7571,10 @@
     - service: vk
       id: 1622
       published: 2024-07-08-18-20-25
-      updated: 2025-02-18-16-09-55
+      updated: 2025-02-25-16-10-12
       followers: 919
       likes: 37
-      views: 292
+      views: 293
       reposts: 2
       comments: !c |-
         G2kBQCwKbBu2NSy3aG+yVz+UohPxD3WxJdzxm9XDIz4P0oQv4KQgoECS93VuLRpaZbNZEiJMQLkh
@@ -7585,7 +7585,7 @@
     - service: tg
       id: 463
       published: 2024-07-08-18-20-34
-      updated: 2025-02-18-16-09-52
+      updated: 2025-02-25-16-10-12
       followers: 395
       likes: 60
       views: 495
@@ -8390,14 +8390,14 @@
       id: DGbMNfHvAh9
       mediaId: '18123536320421155'
       published: 2025-02-23-18-09-21
-      updated: 2025-02-25-15-08-31
+      updated: 2025-02-25-16-10-02
       followers: 1537
-      likes: 59
-      views: 221
+      likes: 61
+      views: 224
     - service: vk
       id: 2146
       published: 2025-02-23-18-09-28
-      updated: 2025-02-25-15-08-33
+      updated: 2025-02-25-16-10-03
       followers: 1123
       likes: 20
       views: 187
@@ -8405,10 +8405,10 @@
     - service: tg
       id: 722
       published: 2025-02-23-18-09-36
-      updated: 2025-02-25-15-08-32
+      updated: 2025-02-25-16-10-04
       followers: 683
       likes: 44
-      views: 195
+      views: 197
 2017-07-29-near-berandas:
   title: Near Berandas
   titleRu: У Берандаса
@@ -10521,18 +10521,18 @@
     - service: vk
       id: 1688
       published: 2024-08-12-18-30-39
-      updated: 2025-02-18-16-09-49
+      updated: 2025-02-25-16-10-06
       followers: 931
       likes: 41
-      views: 309
+      views: 310
       reposts: 1
     - service: tg
       id: 499
       published: 2024-08-12-18-30-46
-      updated: 2025-02-18-16-09-48
+      updated: 2025-02-25-16-10-06
       followers: 523
       likes: 60
-      views: 586
+      views: 587
       comments: !c |-
         G44A4MX/Oi0CGX8WDsU7YHi3p9S/V8UaaGviB3QecLPiWqVZOaJFmgQeslZeTDbmtTv+4o1/eGee
         dyuYUx1zKvoyrJipVECQqqtIHQhO4aM4sZ4q+pfzvVoqSC1Z9YZgJZ+Pe9FXVBHYXK00xLDdoNJg
@@ -10683,10 +10683,10 @@
     - service: vk
       id: 1650
       published: 2024-07-22-18-20-29
-      updated: 2025-02-18-16-09-53
+      updated: 2025-02-25-16-10-10
       followers: 920
       likes: 38
-      views: 310
+      views: 311
       reposts: 1
       comments: !c |-
         G6kAIKwOeDOWKwkaNpHUgwF3nX5E4I30Bzr0yQwXeBYmlNyDBbU5SwqykKdDOHk09tnZasAwTaMm
@@ -10695,10 +10695,10 @@
     - service: tg
       id: 477
       published: 2024-07-22-18-20-38
-      updated: 2025-02-18-16-09-51
+      updated: 2025-02-25-16-10-09
       followers: 400
       likes: 64
-      views: 601
+      views: 602
 2017-09-28-mining-company-office:
   title: Mining Company Office
   titleRu: Офис Горнодобывающей Компании
@@ -11254,15 +11254,15 @@
     - service: vk
       id: 1638
       published: 2024-07-15-18-20-44
-      updated: 2025-02-18-16-09-54
+      updated: 2025-02-25-16-10-11
       followers: 919
       likes: 42
-      views: 271
+      views: 272
       reposts: 1
     - service: tg
       id: 470
       published: 2024-07-15-18-20-51
-      updated: 2025-02-18-16-09-52
+      updated: 2025-02-25-16-10-10
       followers: 399
       likes: 62
       views: 784
