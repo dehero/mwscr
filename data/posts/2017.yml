@@ -1157,17 +1157,17 @@
     - service: vk
       id: 1814
       published: 2024-10-07-18-10-38
-      updated: 2025-02-18-08-11-07
+      updated: 2025-02-25-09-08-49
       followers: 958
-      likes: 41
-      views: 326
+      likes: 42
+      views: 328
     - service: tg
       id: 557
       published: 2024-10-07-18-10-45
-      updated: 2025-02-18-08-11-05
+      updated: 2025-02-25-09-08-46
       followers: 559
       likes: 62
-      views: 490
+      views: 492
 2017-01-31-clear-sky-over-caldera:
   title: Clear Sky Over Caldera
   titleRu: Чистое небо над Кальдерой
@@ -7465,10 +7465,10 @@
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2025-02-18-08-11-07
+      updated: 2025-02-25-09-08-48
       followers: 557
       likes: 67
-      views: 693
+      views: 739
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
@@ -8390,25 +8390,25 @@
       id: DGbMNfHvAh9
       mediaId: '18123536320421155'
       published: 2025-02-23-18-09-21
-      updated: 2025-02-25-08-11-05
+      updated: 2025-02-25-09-08-43
       followers: 1537
       likes: 58
-      views: 215
+      views: 216
     - service: vk
       id: 2146
       published: 2025-02-23-18-09-28
-      updated: 2025-02-25-08-11-07
+      updated: 2025-02-25-09-08-45
       followers: 1123
       likes: 19
-      views: 182
+      views: 183
       reposts: 1
     - service: tg
       id: 722
       published: 2025-02-23-18-09-36
-      updated: 2025-02-25-08-11-07
+      updated: 2025-02-25-09-08-45
       followers: 683
-      likes: 43
-      views: 181
+      likes: 44
+      views: 184
 2017-07-29-near-berandas:
   title: Near Berandas
   titleRu: У Берандаса
