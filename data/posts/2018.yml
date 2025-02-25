@@ -1225,10 +1225,10 @@
     - service: vk
       id: 1732
       published: 2024-09-02-18-29-04
-      updated: 2025-02-18-09-21-07
+      updated: 2025-02-25-10-08-52
       followers: 942
       likes: 40
-      views: 403
+      views: 404
       reposts: 2
       comments: !c |-
         iyOAkZPLQnlBcwQVAACpcWlyb25nNjY22THQkdC+0LbQtSDQvNC+0LksINC00L4g0YfQtdCz0L4g
@@ -1236,10 +1236,10 @@
     - service: tg
       id: 520
       published: 2024-09-02-18-29-11
-      updated: 2025-02-18-09-21-05
+      updated: 2025-02-25-10-08-50
       followers: 550
       likes: 62
-      views: 654
+      views: 657
 2018-02-03-omalen-ancestral-tomb:
   title: Omalen Ancestral Tomb
   titleRu: Родовая гробница Омаленов
@@ -1606,24 +1606,24 @@
       id: DGdxQcuy3jz
       mediaId: '17897784168141465'
       published: 2025-02-24-18-11-33
-      updated: 2025-02-25-09-08-43
+      updated: 2025-02-25-10-08-46
       followers: 1536
-      likes: 53
-      views: 162
+      likes: 57
+      views: 166
     - service: vk
       id: 2147
       published: 2025-02-24-18-11-42
-      updated: 2025-02-25-09-08-44
+      updated: 2025-02-25-10-08-47
       followers: 1124
       likes: 26
-      views: 149
+      views: 155
     - service: tg
       id: 723
       published: 2025-02-24-18-11-50
-      updated: 2025-02-25-09-08-44
+      updated: 2025-02-25-10-08-48
       followers: 685
       likes: 39
-      views: 148
+      views: 154
 2018-02-13-urshilaku-camp:
   title: Urshilaku Camp
   titleRu: Лагерь Уршилаку
@@ -5793,10 +5793,10 @@
     - service: vk
       id: 1745
       published: 2024-09-09-18-29-21
-      updated: 2025-02-18-09-21-06
+      updated: 2025-02-25-10-08-52
       followers: 945
       likes: 41
-      views: 307
+      views: 309
       comments: !c |-
         C0SAkpPLQnkeZvG9gACraWQyMDMyODMxNDiu0JrRgNCw0YHQuNCy0L6Ty0J5HvA6hAAAsGFydHlv
         bV9tZWxpa2hvZmbZRtCk0LDRhdCy0LXRgNC6INC60LDQuiDQvtGC0LTQtdC70YzQvdGL0Lkg0LLQ
@@ -5804,10 +5804,10 @@
     - service: tg
       id: 527
       published: 2024-09-09-18-29-28
-      updated: 2025-02-18-09-21-04
+      updated: 2025-02-25-10-08-49
       followers: 552
       likes: 66
-      views: 551
+      views: 553
       comments: !c |-
         G4gA6B0JNk5xo8u38hgRepaoedZal0GJlxGMYHIPuulzvrUogrrMzpajTcoiSdIcyfb7z+nXwQac
         aTqwrzLpsNCwAQcxxs3X5/055l8a47uPbxEuW3Jitcjpsi8+ihZceLnFkGer0sdtItqyhTA0N6lD
@@ -6539,10 +6539,10 @@
     - service: tg
       id: 513
       published: 2024-08-26-18-20-21
-      updated: 2025-02-18-09-21-06
+      updated: 2025-02-25-10-08-51
       followers: 544
       likes: 66
-      views: 599
+      views: 600
 2018-06-19-thelas-ancestral-tomb:
   title: Thelas Ancestral Tomb
   titleRu: Родовая гробница Телас
