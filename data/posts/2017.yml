@@ -2000,6 +2000,19 @@
       followers: 37
       likes: 12
       views: 160
+    - service: ig
+      id: DGgWEqITqlY
+      mediaId: '17891400153086102'
+      published: 2025-02-25-18-11-44
+      followers: 1536
+    - service: vk
+      id: 2148
+      published: 2025-02-25-18-11-51
+      followers: 1128
+    - service: tg
+      id: 724
+      published: 2025-02-25-18-11-58
+      followers: 684
 2017-02-19-first-stars-on-the-quay-of-suran:
   title: First Stars on the Quay of Suran
   titleRu: Первые звёзды на набережной Сурана
@@ -7168,24 +7181,24 @@
       id: DGTeDcPJGYV
       mediaId: '18079508434724391'
       published: 2025-02-20-18-11-21
-      updated: 2025-02-24-18-11-06
+      updated: 2025-02-25-18-11-26
       followers: 1537
       likes: 65
-      views: 339
+      views: 367
     - service: vk
       id: 2142
       published: 2025-02-20-18-11-30
-      updated: 2025-02-24-18-11-08
+      updated: 2025-02-25-18-11-27
       followers: 1109
       likes: 31
-      views: 239
+      views: 258
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
-      updated: 2025-02-24-18-11-07
+      updated: 2025-02-25-18-11-27
       followers: 681
-      likes: 53
-      views: 255
+      likes: 54
+      views: 296
       comments: !c |-
         G8oAAOTgmif+K7FhFQbIR5SNq7iCKnS41tFAh/vGzjXeZiiKsk3jyBjPMy7dof7ulEakkf1b7VvU
         zZWub4BlRCAd0g3kDVJBJdka/3qNSjcE0v9jW6RQgxQtgktZ/dOQ5YAsEGmO7OFShHUU1TQ3ikq+
@@ -9284,24 +9297,24 @@
       id: DGWCyCXNBkE
       mediaId: '18391620358107490'
       published: 2025-02-21-18-10-45
-      updated: 2025-02-24-18-11-05
+      updated: 2025-02-25-18-11-25
       followers: 1538
-      likes: 58
-      views: 228
+      likes: 60
+      views: 237
     - service: vk
       id: 2143
       published: 2025-02-21-18-10-54
-      updated: 2025-02-24-18-11-07
+      updated: 2025-02-25-18-11-26
       followers: 1112
-      likes: 34
-      views: 229
+      likes: 35
+      views: 249
     - service: tg
       id: 717
       published: 2025-02-21-18-11-05
-      updated: 2025-02-24-18-11-06
+      updated: 2025-02-25-18-11-26
       followers: 682
-      likes: 51
-      views: 210
+      likes: 52
+      views: 234
 2017-08-20-sadrith-mora-at-night:
   title: Sadrith Mora at Night
   titleRu: Садрит Мора в ночи

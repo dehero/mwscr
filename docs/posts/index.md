@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`55 items`
+`56 items`
+
+## <span id="2025-02-25-is-this-some-intimate-moment">Is This Some Intimate Moment?</span>
+
+`RU` Это какой-то интимный момент?
+
+<a href="https://instagram.com/p/BQpT1JwDAIf/" title="2017-02-18-is-this-some-intimate-moment"><img alt="store:/shots/2017-02-18-is-this-some-intimate-moment.png" src="../../assets/previews/shots/2017-02-18-is-this-some-intimate-moment.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-02-25-is-this-some-intimate-moment&amp;postContent=store%3A%2Fshots%2F2017-02-18-is-this-some-intimate-moment.png&amp;postTitle=Is+This+Some+Intimate+Moment%3F&amp;postTitleRu=%D0%AD%D1%82%D0%BE+%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D1%82%D0%BE+%D0%B8%D0%BD%D1%82%D0%B8%D0%BC%D0%BD%D1%8B%D0%B9+%D0%BC%D0%BE%D0%BC%D0%B5%D0%BD%D1%82%3F&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=love+bedroom+women&amp;postLocation=&amp;postMark=E&amp;postViolation=&amp;postTrash=&amp;postRequest=) `E` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-25-is-this-some-intimate-moment&postLocation=)</code> `🚀 OpenMW` `love` `bedroom` `women`
+
+```
+2025-02-25-is-this-some-intimate-moment
+```
+
+> `2017-02-18-is-this-some-intimate-moment`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BQpT1JwDAIf/)       | 2017-02-18 |       |    31 |        85 |      36.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_158)  | 2017-02-18 |   160 |    12 |        37 |         12 |
+| [`ig`](https://instagram.com/p/DGgWEqITqlY/)       | 2025-02-25 |       |       |      1536 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2148) | 2025-02-25 |       |       |      1128 |            |
+| [`tg`](https://t.me/mwscr/724)                     | 2025-02-25 |       |       |       684 |            |
+|                                                    |            |       |       |      3348 |            |
 
 ## <span id="2025-02-24-shores-of-the-plantation-region">Shores of the Plantation Region</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BfGyossjxsv/)       | 2018-02-12 |       |    85 |       286 |      29.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_611)  | 2018-02-12 |   191 |    15 |       130 |      11.54 |
-| [`ig`](https://instagram.com/p/DGdxQcuy3jz/)       | 2025-02-24 |   187 |    65 |      1536 |       4.23 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2147) | 2025-02-24 |   175 |    26 |      1124 |       2.31 |
+| [`ig`](https://instagram.com/p/DGdxQcuy3jz/)       | 2025-02-24 |   192 |    65 |      1536 |       4.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2147) | 2025-02-24 |   179 |    26 |      1124 |       2.31 |
 | [`tg`](https://t.me/mwscr/723)                     | 2025-02-24 |   168 |    39 |       685 |       5.69 |
-|                                                    |            |   530 |   130 |      3345 |       4.08 |
+|                                                    |            |   539 |   130 |      3345 |       4.08 |
 
 ## <span id="2025-02-23-on-the-roads-of-grazelands">On the Roads of Grazelands</span>
 
@@ -85,10 +112,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BmrDQOxlm5N/)       | 2018-08-19 |       |   114 |       397 |      28.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_866)  | 2018-08-19 |   287 |    19 |       201 |       9.45 |
-| [`ig`](https://instagram.com/p/DGYnsoItoGk/)       | 2025-02-22 |   379 |   112 |      1537 |       7.29 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2144) | 2025-02-22 |   272 |    43 |      1116 |       3.94 |
-| [`tg`](https://t.me/mwscr/718,719,720,721)         | 2025-02-22 |   250 |    49 |       682 |       7.18 |
-|                                                    |            |   901 |   204 |      3335 |       6.14 |
+| [`ig`](https://instagram.com/p/DGYnsoItoGk/)       | 2025-02-22 |   404 |   119 |      1537 |       7.74 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2144) | 2025-02-22 |   308 |    46 |      1116 |       4.21 |
+| [`tg`](https://t.me/mwscr/718,719,720,721)         | 2025-02-22 |   280 |    52 |       682 |       7.62 |
+|                                                    |            |   992 |   217 |      3335 |       6.53 |
 
 #### Comments
 
@@ -117,10 +144,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BX-XJCjjcR1/)       | 2017-08-19 |       |    52 |       194 |       26.8 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_398)  | 2017-08-19 |   109 |     7 |        75 |       9.33 |
-| [`ig`](https://instagram.com/p/DGWCyCXNBkE/)       | 2025-02-21 |   228 |    58 |      1538 |       3.77 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2143) | 2025-02-21 |   229 |    34 |      1112 |       3.06 |
-| [`tg`](https://t.me/mwscr/717)                     | 2025-02-21 |   210 |    51 |       682 |       7.48 |
-|                                                    |            |   667 |   143 |      3332 |       4.77 |
+| [`ig`](https://instagram.com/p/DGWCyCXNBkE/)       | 2025-02-21 |   237 |    60 |      1538 |        3.9 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2143) | 2025-02-21 |   249 |    35 |      1112 |       3.15 |
+| [`tg`](https://t.me/mwscr/717)                     | 2025-02-21 |   234 |    52 |       682 |       7.62 |
+|                                                    |            |   720 |   147 |      3332 |       4.89 |
 
 ## <span id="2025-02-20-floating-over-the-green-hills">Floating Over the Green Hills</span>
 
@@ -144,10 +171,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BVzIxzXj8mN/)       | 2017-06-26 |       |    71 |       184 |      38.59 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_334)  | 2017-06-26 |   110 |    10 |        65 |      15.38 |
-| [`ig`](https://instagram.com/p/DGTeDcPJGYV/)       | 2025-02-20 |   339 |    65 |      1537 |       4.23 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2142) | 2025-02-20 |   239 |    31 |      1109 |        2.8 |
-| [`tg`](https://t.me/mwscr/716)                     | 2025-02-20 |   255 |    53 |       681 |       7.78 |
-|                                                    |            |   833 |   149 |      3327 |       4.94 |
+| [`ig`](https://instagram.com/p/DGTeDcPJGYV/)       | 2025-02-20 |   367 |    65 |      1537 |       4.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2142) | 2025-02-20 |   258 |    31 |      1109 |        2.8 |
+| [`tg`](https://t.me/mwscr/716)                     | 2025-02-20 |   296 |    54 |       681 |       7.93 |
+|                                                    |            |   921 |   150 |      3327 |       4.98 |
 
 #### Comments
 
