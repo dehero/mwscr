@@ -179,18 +179,18 @@
     - service: vk
       id: 1876
       published: 2024-11-04-18-10-22
-      updated: 2025-02-18-06-11-06
+      updated: 2025-02-25-06-11-31
       followers: 1003
-      likes: 30
-      views: 303
+      likes: 31
+      views: 304
       reposts: 1
     - service: tg
       id: 585
       published: 2024-11-04-18-10-32
-      updated: 2025-02-18-06-11-06
+      updated: 2025-02-25-06-11-29
       followers: 565
       likes: 58
-      views: 623
+      views: 628
 2018-01-07-vistha-kai-warden-of-the-corprusarium:
   title: Vistha-Kai, Warden of the Corprusarium
   titleRu: Виста-Кай, смотритель Корпрусариума
@@ -1606,24 +1606,24 @@
       id: DGdxQcuy3jz
       mediaId: '17897784168141465'
       published: 2025-02-24-18-11-33
-      updated: 2025-02-25-05-08-26
+      updated: 2025-02-25-06-11-24
       followers: 1536
-      likes: 51
-      views: 148
+      likes: 52
+      views: 151
     - service: vk
       id: 2147
       published: 2025-02-24-18-11-42
-      updated: 2025-02-25-05-08-27
+      updated: 2025-02-25-06-11-25
       followers: 1124
-      likes: 21
-      views: 121
+      likes: 23
+      views: 125
     - service: tg
       id: 723
       published: 2025-02-24-18-11-50
-      updated: 2025-02-25-05-08-27
+      updated: 2025-02-25-06-11-25
       followers: 685
       likes: 35
-      views: 132
+      views: 133
 2018-02-13-urshilaku-camp:
   title: Urshilaku Camp
   titleRu: Лагерь Уршилаку
