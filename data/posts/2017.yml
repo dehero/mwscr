@@ -1285,17 +1285,17 @@
     - service: tg
       id: 572
       published: 2024-10-22-18-11-08
-      updated: 2025-02-19-10-08-41
+      updated: 2025-02-26-10-09-29
       followers: 561
       likes: 65
-      views: 671
+      views: 674
     - service: vk
       id: 1849
       published: 2024-10-22-19-02-11
-      updated: 2025-02-19-10-08-41
+      updated: 2025-02-26-10-09-30
       followers: 994
-      likes: 54
-      views: 370
+      likes: 55
+      views: 371
       reposts: 2
 2017-02-03-hlaalu-council-manor:
   title: Hlaalu Council Manor
@@ -2004,24 +2004,24 @@
       id: DGgWEqITqlY
       mediaId: '17891400153086102'
       published: 2025-02-25-18-11-44
-      updated: 2025-02-26-09-08-59
+      updated: 2025-02-26-10-09-24
       followers: 1536
       likes: 75
-      views: 205
+      views: 207
     - service: vk
       id: 2148
       published: 2025-02-25-18-11-51
-      updated: 2025-02-26-09-09-00
+      updated: 2025-02-26-10-09-25
       followers: 1128
       likes: 19
-      views: 151
+      views: 152
     - service: tg
       id: 724
       published: 2025-02-25-18-11-58
-      updated: 2025-02-26-09-09-01
+      updated: 2025-02-26-10-09-26
       followers: 684
       likes: 48
-      views: 258
+      views: 263
       comments: !c Cw+AkZPLQnlT5TGGAAClYW5zaXOtTGVhdmUgdGhlbSBiZQM=
 2017-02-19-first-stars-on-the-quay-of-suran:
   title: First Stars on the Quay of Suran
@@ -7827,17 +7827,17 @@
     - service: vk
       id: 1768
       published: 2024-09-17-18-30-40
-      updated: 2025-02-19-10-08-43
+      updated: 2025-02-26-10-09-31
       followers: 947
       likes: 43
-      views: 320
+      views: 321
     - service: tg
       id: 535
       published: 2024-09-17-18-30-46
-      updated: 2025-02-19-10-08-42
+      updated: 2025-02-26-10-09-29
       followers: 557
       likes: 68
-      views: 541
+      views: 544
 2017-07-13-corpse-preparation-volume-one:
   title: Corpse Preparation, Volume One
   titleRu: О подготовке тел, т. I
