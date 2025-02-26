@@ -28,14 +28,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BQpT1JwDAIf/)       | 2017-02-18 |       |    31 |        85 |      36.47 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_158)  | 2017-02-18 |   160 |    12 |        37 |         12 |
-| [`ig`](https://instagram.com/p/DGgWEqITqlY/)       | 2025-02-25 |   228 |    77 |      1536 |       5.01 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2148) | 2025-02-25 |   174 |    25 |      1128 |       2.22 |
-| [`tg`](https://t.me/mwscr/724)                     | 2025-02-25 |   273 |    48 |       684 |       7.02 |
-|                                                    |            |   675 |   150 |      3348 |       4.75 |
+| [`ig`](https://instagram.com/p/DGgWEqITqlY/)       | 2025-02-25 |   234 |    78 |      1536 |       5.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2148) | 2025-02-25 |   179 |    26 |      1128 |        2.3 |
+| [`tg`](https://t.me/mwscr/724)                     | 2025-02-25 |   279 |    49 |       684 |       7.16 |
+|                                                    |            |   692 |   153 |      3348 |       4.85 |
 
 #### Comments
 
 - `tg` <ins title="2025-02-25-18-16-28">ansis</ins> Leave them be
+- `vk` <ins title="2025-02-26-15-00-09">vladkr114</ins> Как же уютно обставлена комната
 
 ## <span id="2025-02-24-shores-of-the-plantation-region">Shores of the Plantation Region</span>
 
@@ -59,10 +60,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BfGyossjxsv/)       | 2018-02-12 |       |    85 |       286 |      29.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_611)  | 2018-02-12 |   191 |    15 |       130 |      11.54 |
-| [`ig`](https://instagram.com/p/DGdxQcuy3jz/)       | 2025-02-24 |   219 |    68 |      1536 |       4.43 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2147) | 2025-02-24 |   209 |    29 |      1124 |       2.58 |
-| [`tg`](https://t.me/mwscr/723)                     | 2025-02-24 |   233 |    45 |       685 |       6.57 |
-|                                                    |            |   661 |   142 |      3345 |       4.53 |
+| [`ig`](https://instagram.com/p/DGdxQcuy3jz/)       | 2025-02-24 |   222 |    68 |      1536 |       4.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2147) | 2025-02-24 |   211 |    29 |      1124 |       2.58 |
+| [`tg`](https://t.me/mwscr/723)                     | 2025-02-24 |   235 |    46 |       685 |       6.72 |
+|                                                    |            |   668 |   143 |      3345 |       4.57 |
 
 ## <span id="2025-02-23-on-the-roads-of-grazelands">On the Roads of Grazelands</span>
 
