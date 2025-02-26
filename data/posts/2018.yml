@@ -4398,15 +4398,28 @@
       id: DGi6yLqv5uO
       mediaId: '18053861423129834'
       published: 2025-02-26-18-11-00
+      updated: 2025-02-26-19-01-19
       followers: 1537
+      likes: 18
+      views: 35
     - service: vk
       id: 2150
       published: 2025-02-26-18-11-07
+      updated: 2025-02-26-19-01-19
       followers: 1134
+      likes: 9
+      views: 40
+      comments: !c |-
+        G38A4B0Jdizkg8YLDjYcodJ5vnZFuCAtaCZJhk2CR3jy/uBN8YmdxzOZ6Lm2ygO/TzixMocqDzbg
+        QAflcYFhIB6wMry6BJvh0Pt+eX6gx3c2hTiBjIhPaWLMU7yXUt5oT3JczV5OvLpoXcXovB5jd5fW
+        LNY6bYRi47DTY1nCCw==
     - service: tg
       id: 725
       published: 2025-02-26-18-11-14
+      updated: 2025-02-26-19-01-20
       followers: 685
+      likes: 26
+      views: 77
 2018-04-25-night-travellers:
   title: Night Travellers
   titleRu: Ночные странники
@@ -8635,17 +8648,17 @@
       id: DGYnsoItoGk
       mediaId: '17897559681056464'
       published: 2025-02-22-18-11-47
-      updated: 2025-02-25-18-11-23
+      updated: 2025-02-26-19-01-21
       followers: 1537
-      likes: 119
-      views: 404
+      likes: 122
+      views: 417
     - service: vk
       id: 2144
       published: 2025-02-22-18-12-14
-      updated: 2025-02-25-18-11-24
+      updated: 2025-02-26-19-01-23
       followers: 1116
-      likes: 46
-      views: 308
+      likes: 49
+      views: 336
       reposts: 1
       comments: !c |-
         G78AICySx51PUfGqHB0jVDpR7Uhv/MUCoCbhiJI90AzaJjmTk1ooVJjYvXmqS7Q8/xxzk2upsrRs
@@ -8658,10 +8671,10 @@
         - 720
         - 721
       published: 2025-02-22-18-12-41
-      updated: 2025-02-25-18-11-25
+      updated: 2025-02-26-19-01-23
       followers: 682
-      likes: 52
-      views: 280
+      likes: 54
+      views: 322
 2018-08-20-mushroom-glade:
   title: Mushroom Glade
   titleRu: Грибная поляна
