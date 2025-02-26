@@ -1606,24 +1606,24 @@
       id: DGdxQcuy3jz
       mediaId: '17897784168141465'
       published: 2025-02-24-18-11-33
-      updated: 2025-02-26-17-01-20
+      updated: 2025-02-26-18-10-42
       followers: 1536
       likes: 68
-      views: 223
+      views: 226
     - service: vk
       id: 2147
       published: 2025-02-24-18-11-42
-      updated: 2025-02-26-17-01-23
+      updated: 2025-02-26-18-10-43
       followers: 1124
       likes: 30
-      views: 212
+      views: 215
     - service: tg
       id: 723
       published: 2025-02-24-18-11-50
-      updated: 2025-02-26-17-01-22
+      updated: 2025-02-26-18-10-42
       followers: 685
       likes: 46
-      views: 238
+      views: 239
 2018-02-13-urshilaku-camp:
   title: Urshilaku Camp
   titleRu: Лагерь Уршилаку
@@ -4394,6 +4394,19 @@
       followers: 156
       likes: 18
       views: 239
+    - service: ig
+      id: DGi6yLqv5uO
+      mediaId: '18053861423129834'
+      published: 2025-02-26-18-11-00
+      followers: 1537
+    - service: vk
+      id: 2150
+      published: 2025-02-26-18-11-07
+      followers: 1134
+    - service: tg
+      id: 725
+      published: 2025-02-26-18-11-14
+      followers: 685
 2018-04-25-night-travellers:
   title: Night Travellers
   titleRu: Ночные странники

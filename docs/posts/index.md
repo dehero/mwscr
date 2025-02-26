@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`56 items`
+`57 items`
+
+## <span id="2025-02-26-did-you-hear-that-cry">Did You Hear That Cry?</span>
+
+`RU` Ты слышал этот вой?
+
+<a href="https://instagram.com/p/Bh9tNH1l1_Z/" title="2018-04-24-did-you-hear-that-cry"><img alt="store:/shots/2018-04-24-did-you-hear-that-cry.png" src="../../assets/previews/shots/2018-04-24-did-you-hear-that-cry.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-02-26-did-you-hear-that-cry&amp;postContent=store%3A%2Fshots%2F2018-04-24-did-you-hear-that-cry.png&amp;postTitle=Did+You+Hear+That+Cry%3F&amp;postTitleRu=%D0%A2%D1%8B+%D1%81%D0%BB%D1%8B%D1%88%D0%B0%D0%BB+%D1%8D%D1%82%D0%BE%D1%82+%D0%B2%D0%BE%D0%B9%3F&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Bloodmoon&amp;postTags=&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-26-did-you-hear-that-cry&postLocation=)</code> `🚀 OpenMW` `🔗 Bloodmoon`
+
+```
+2025-02-26-did-you-hear-that-cry
+```
+
+> `2018-04-24-did-you-hear-that-cry`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/Bh9tNH1l1_Z/)       | 2018-04-24 |       |    85 |       319 |      26.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_698)  | 2018-04-24 |   239 |    18 |       156 |      11.54 |
+| [`ig`](https://instagram.com/p/DGi6yLqv5uO/)       | 2025-02-26 |       |       |      1537 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2150) | 2025-02-26 |       |       |      1134 |            |
+| [`tg`](https://t.me/mwscr/725)                     | 2025-02-26 |       |       |       685 |            |
+|                                                    |            |       |       |      3356 |            |
 
 ## <span id="2025-02-25-is-this-some-intimate-moment">Is This Some Intimate Moment?</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BQpT1JwDAIf/)       | 2017-02-18 |       |    31 |        85 |      36.47 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_158)  | 2017-02-18 |   160 |    12 |        37 |         12 |
-| [`ig`](https://instagram.com/p/DGgWEqITqlY/)       | 2025-02-25 |   241 |    79 |      1536 |       5.14 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2148) | 2025-02-25 |   184 |    28 |      1128 |       2.48 |
-| [`tg`](https://t.me/mwscr/724)                     | 2025-02-25 |   282 |    49 |       684 |       7.16 |
-|                                                    |            |   707 |   156 |      3348 |       4.93 |
+| [`ig`](https://instagram.com/p/DGgWEqITqlY/)       | 2025-02-25 |   245 |    79 |      1536 |       5.14 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2148) | 2025-02-25 |   191 |    28 |      1128 |       2.48 |
+| [`tg`](https://t.me/mwscr/724)                     | 2025-02-25 |   286 |    49 |       684 |       7.16 |
+|                                                    |            |   722 |   156 |      3348 |       4.93 |
 
 #### Comments
 
@@ -60,10 +87,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BfGyossjxsv/)       | 2018-02-12 |       |    85 |       286 |      29.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_611)  | 2018-02-12 |   191 |    15 |       130 |      11.54 |
-| [`ig`](https://instagram.com/p/DGdxQcuy3jz/)       | 2025-02-24 |   223 |    68 |      1536 |       4.43 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2147) | 2025-02-24 |   212 |    30 |      1124 |       2.67 |
-| [`tg`](https://t.me/mwscr/723)                     | 2025-02-24 |   238 |    46 |       685 |       6.72 |
-|                                                    |            |   673 |   144 |      3345 |        4.6 |
+| [`ig`](https://instagram.com/p/DGdxQcuy3jz/)       | 2025-02-24 |   226 |    68 |      1536 |       4.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2147) | 2025-02-24 |   215 |    30 |      1124 |       2.67 |
+| [`tg`](https://t.me/mwscr/723)                     | 2025-02-24 |   239 |    46 |       685 |       6.72 |
+|                                                    |            |   680 |   144 |      3345 |        4.6 |
 
 ## <span id="2025-02-23-on-the-roads-of-grazelands">On the Roads of Grazelands</span>
 
@@ -87,10 +114,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BXFN1vmDwnK/)       | 2017-07-28 |       |    57 |       192 |      29.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_369)  | 2017-07-28 |   114 |     6 |        71 |       8.45 |
-| [`ig`](https://instagram.com/p/DGbMNfHvAh9/)       | 2025-02-23 |   225 |    62 |      1537 |       4.03 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2146) | 2025-02-23 |   189 |    20 |      1123 |       1.87 |
-| [`tg`](https://t.me/mwscr/722)                     | 2025-02-23 |   198 |    44 |       683 |       6.44 |
-|                                                    |            |   612 |   126 |      3343 |       4.12 |
+| [`ig`](https://instagram.com/p/DGbMNfHvAh9/)       | 2025-02-23 |   238 |    65 |      1537 |       4.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2146) | 2025-02-23 |   216 |    23 |      1123 |       2.14 |
+| [`tg`](https://t.me/mwscr/722)                     | 2025-02-23 |   223 |    47 |       683 |       6.88 |
+|                                                    |            |   677 |   135 |      3343 |       4.42 |
 
 ## <span id="2025-02-22-night-life">Night Life</span>
 
