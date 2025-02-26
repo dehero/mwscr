@@ -272,7 +272,7 @@
     - service: vk
       id: 56
       published: 2017-01-22
-      updated: 2025-02-18-23-07-46
+      updated: 2025-02-26-00-36-58
       likes: 5
       views: 72
     - service: ig
@@ -2004,24 +2004,24 @@
       id: DGgWEqITqlY
       mediaId: '17891400153086102'
       published: 2025-02-25-18-11-44
-      updated: 2025-02-25-23-07-41
+      updated: 2025-02-26-00-36-50
       followers: 1536
-      likes: 55
-      views: 138
+      likes: 59
+      views: 152
     - service: vk
       id: 2148
       published: 2025-02-25-18-11-51
-      updated: 2025-02-25-23-07-42
+      updated: 2025-02-26-00-36-51
       followers: 1128
       likes: 13
-      views: 95
+      views: 99
     - service: tg
       id: 724
       published: 2025-02-25-18-11-58
-      updated: 2025-02-25-23-07-43
+      updated: 2025-02-26-00-36-51
       followers: 684
       likes: 42
-      views: 215
+      views: 220
       comments: !c Cw+AkZPLQnlT5TGGAAClYW5zaXOtTGVhdmUgdGhlbSBiZQM=
 2017-02-19-first-stars-on-the-quay-of-suran:
   title: First Stars on the Quay of Suran
@@ -2630,10 +2630,10 @@
     - service: vk
       id: 1988
       published: 2024-12-24-18-10-38
-      updated: 2025-02-18-23-07-43
+      updated: 2025-02-26-00-36-55
       followers: 1028
       likes: 49
-      views: 412
+      views: 414
       reposts: 4
       comments: !c |-
         G+UAyJwHtqOdVUH8g2aySSee+J2kl0dhnkGGexMb6eQfpG6EERIlL7BmfAVh0bnFCjAgspnT0aDF
@@ -2642,10 +2642,10 @@
     - service: tg
       id: 636
       published: 2024-12-24-18-10-47
-      updated: 2025-02-18-23-07-42
+      updated: 2025-02-26-00-36-53
       followers: 603
       likes: 64
-      views: 680
+      views: 687
 2017-03-06-night-encounter-at-the-bridge:
   title: Night Encounter at the Bridge
   titleRu: Ночная встреча у моста
