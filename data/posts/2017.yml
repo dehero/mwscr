@@ -193,10 +193,10 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2025-02-20-00-36-51
+      updated: 2025-02-27-00-37-14
       followers: 894
       likes: 47
-      views: 367
+      views: 368
       reposts: 2
       comments: !c iw6AkZPLQnje54g+AACpdmxhZGtyMTE0qNCt0YXwn5iUAw==
     - service: tg
@@ -2004,14 +2004,14 @@
       id: DGgWEqITqlY
       mediaId: '17891400153086102'
       published: 2025-02-25-18-11-44
-      updated: 2025-02-26-23-07-48
+      updated: 2025-02-27-00-37-10
       followers: 1536
-      likes: 79
-      views: 260
+      likes: 80
+      views: 262
     - service: vk
       id: 2148
       published: 2025-02-25-18-11-51
-      updated: 2025-02-26-23-07-49
+      updated: 2025-02-27-00-37-10
       followers: 1128
       likes: 28
       views: 202
@@ -2021,10 +2021,10 @@
     - service: tg
       id: 724
       published: 2025-02-25-18-11-58
-      updated: 2025-02-26-23-07-50
+      updated: 2025-02-27-00-37-10
       followers: 684
       likes: 53
-      views: 308
+      views: 311
       comments: !c Cw+AkZPLQnlT5TGGAAClYW5zaXOtTGVhdmUgdGhlbSBiZQM=
 2017-02-19-first-stars-on-the-quay-of-suran:
   title: First Stars on the Quay of Suran
@@ -9838,10 +9838,10 @@
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-02-20-00-36-50
+      updated: 2025-02-27-00-37-13
       followers: 1038
       likes: 40
-      views: 427
+      views: 430
       reposts: 1
       comments: !c |-
         G1IA+J0JdiwXiwm2XHYcUe1IT5+tDJsEI0z2PGWlNCWbjYcPp1yKLYw4kWMgAT5zZLJTE42yKmre
@@ -9849,10 +9849,10 @@
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-02-20-00-36-49
+      updated: 2025-02-27-00-37-12
       followers: 644
       likes: 67
-      views: 531
+      views: 539
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
