@@ -4,7 +4,38 @@
 
 # Posted in 2025
 
-`57 items`
+`58 items`
+
+## <span id="2025-02-27-iron-enemy">Iron Enemy</span>
+
+`RU` Железный противник
+
+<a href="https://instagram.com/p/CfpUwXkMR-c/" title="2022-07-05-iron-enemy"><img alt="store:/shots/2022-07-05-iron-enemy.png" src="../../assets/previews/shots/2022-07-05-iron-enemy.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-02-27-iron-enemy&amp;postContent=store%3A%2Fshots%2F2022-07-05-iron-enemy.png&amp;postTitle=Iron+Enemy&amp;postTitleRu=%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B9+%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2%D0%BD%D0%B8%D0%BA&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-27-iron-enemy&postLocation=)</code> `🚀 OpenMW`
+
+```
+2025-02-27-iron-enemy
+```
+
+> `2022-07-05-iron-enemy`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/CfpUwXkMR-c/)       | 2022-07-05 |       |   137 |      1116 |      12.28 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1325) | 2022-07-05 |   463 |    44 |       738 |       5.96 |
+| [`tg`](https://t.me/mwscr/265)                     | 2022-07-05 |   648 |    43 |       253 |         17 |
+| [`ig`](https://instagram.com/p/DGlf1l3xMsg/)       | 2025-02-27 |       |       |      1537 |            |
+| [`tg`](https://t.me/mwscr/726)                     | 2025-02-27 |       |       |       686 |            |
+|                                                    |            |       |       |      2223 |            |
+
+#### Comments
+
+- `tg` <ins title="2022-07-06-14-40-37">mongleri</ins> pretty nice robot
 
 ## <span id="2025-02-26-did-you-hear-that-cry">Did You Hear That Cry?</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/Bh9tNH1l1_Z/)       | 2018-04-24 |       |    85 |       319 |      26.65 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_698)  | 2018-04-24 |   239 |    18 |       156 |      11.54 |
-| [`ig`](https://instagram.com/p/DGi6yLqv5uO/)       | 2025-02-26 |   195 |    60 |      1537 |        3.9 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2150) | 2025-02-26 |   213 |    25 |      1134 |        2.2 |
-| [`tg`](https://t.me/mwscr/725)                     | 2025-02-26 |   173 |    44 |       685 |       6.42 |
-|                                                    |            |   581 |   129 |      3356 |       4.18 |
+| [`ig`](https://instagram.com/p/DGi6yLqv5uO/)       | 2025-02-26 |   199 |    60 |      1537 |        3.9 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2150) | 2025-02-26 |   216 |    25 |      1134 |        2.2 |
+| [`tg`](https://t.me/mwscr/725)                     | 2025-02-26 |   174 |    45 |       685 |       6.57 |
+|                                                    |            |   589 |   130 |      3356 |       4.23 |
 
 #### Comments
 
@@ -61,10 +92,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BQpT1JwDAIf/)       | 2017-02-18 |       |    31 |        85 |      36.47 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_158)  | 2017-02-18 |   160 |    12 |        37 |         12 |
-| [`ig`](https://instagram.com/p/DGgWEqITqlY/)       | 2025-02-25 |   292 |    81 |      1536 |       5.27 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2148) | 2025-02-25 |   235 |    30 |      1128 |       2.66 |
-| [`tg`](https://t.me/mwscr/724)                     | 2025-02-25 |   332 |    53 |       684 |       7.75 |
-|                                                    |            |   859 |   164 |      3348 |       5.23 |
+| [`ig`](https://instagram.com/p/DGgWEqITqlY/)       | 2025-02-25 |   293 |    81 |      1536 |       5.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2148) | 2025-02-25 |   239 |    30 |      1128 |       2.66 |
+| [`tg`](https://t.me/mwscr/724)                     | 2025-02-25 |   333 |    53 |       684 |       7.75 |
+|                                                    |            |   865 |   164 |      3348 |       5.23 |
 
 #### Comments
 
@@ -93,10 +124,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BfGyossjxsv/)       | 2018-02-12 |       |    85 |       286 |      29.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_611)  | 2018-02-12 |   191 |    15 |       130 |      11.54 |
-| [`ig`](https://instagram.com/p/DGdxQcuy3jz/)       | 2025-02-24 |   226 |    68 |      1536 |       4.43 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2147) | 2025-02-24 |   215 |    30 |      1124 |       2.67 |
-| [`tg`](https://t.me/mwscr/723)                     | 2025-02-24 |   239 |    46 |       685 |       6.72 |
-|                                                    |            |   680 |   144 |      3345 |        4.6 |
+| [`ig`](https://instagram.com/p/DGdxQcuy3jz/)       | 2025-02-24 |   245 |    72 |      1536 |       4.69 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2147) | 2025-02-24 |   240 |    32 |      1124 |       2.85 |
+| [`tg`](https://t.me/mwscr/723)                     | 2025-02-24 |   262 |    49 |       685 |       7.15 |
+|                                                    |            |   747 |   153 |      3345 |        4.9 |
 
 ## <span id="2025-02-23-on-the-roads-of-grazelands">On the Roads of Grazelands</span>
 
@@ -120,10 +151,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BXFN1vmDwnK/)       | 2017-07-28 |       |    57 |       192 |      29.69 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_369)  | 2017-07-28 |   114 |     6 |        71 |       8.45 |
-| [`ig`](https://instagram.com/p/DGbMNfHvAh9/)       | 2025-02-23 |   238 |    65 |      1537 |       4.23 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2146) | 2025-02-23 |   216 |    23 |      1123 |       2.14 |
-| [`tg`](https://t.me/mwscr/722)                     | 2025-02-23 |   223 |    47 |       683 |       6.88 |
-|                                                    |            |   677 |   135 |      3343 |       4.42 |
+| [`ig`](https://instagram.com/p/DGbMNfHvAh9/)       | 2025-02-23 |   247 |    67 |      1537 |       4.36 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2146) | 2025-02-23 |   238 |    26 |      1123 |        2.4 |
+| [`tg`](https://t.me/mwscr/722)                     | 2025-02-23 |   259 |    47 |       683 |       6.88 |
+|                                                    |            |   744 |   140 |      3343 |       4.55 |
 
 ## <span id="2025-02-22-night-life">Night Life</span>
 
@@ -966,7 +997,7 @@
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BfWPktyjmEy/)       | 2018-02-18 |       |   133 |       288 |      46.18 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_622)  | 2018-02-18 |   216 |    24 |       131 |      19.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_622)  | 2018-02-18 |   217 |    24 |       131 |      19.08 |
 | [`ig`](https://instagram.com/p/DFa0i_9Tfls/)       | 2025-01-29 |   527 |   143 |      1533 |       9.33 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2095) | 2025-01-29 |   657 |    68 |      1057 |       7.19 |
 | [`tg`](https://t.me/mwscr/685,686,687,688)         | 2025-01-29 |   573 |    77 |       661 |      11.65 |
