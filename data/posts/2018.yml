@@ -3265,17 +3265,17 @@
     - service: tg
       id: 580
       published: 2024-10-30-18-10-40
-      updated: 2025-02-20-03-13-39
+      updated: 2025-02-27-03-17-04
       followers: 563
       likes: 59
-      views: 577
+      views: 581
     - service: vk
       id: 1867
       published: 2024-10-30-19-01-22
-      updated: 2025-02-20-03-13-40
+      updated: 2025-02-27-03-17-06
       followers: 1001
-      likes: 47
-      views: 325
+      likes: 48
+      views: 326
 2018-03-27-in-the-branches:
   title: In the Branches
   titleRu: Среди ветвей
@@ -4398,17 +4398,17 @@
       id: DGi6yLqv5uO
       mediaId: '18053861423129834'
       published: 2025-02-26-18-11-00
-      updated: 2025-02-27-02-13-22
+      updated: 2025-02-27-03-17-00
       followers: 1537
-      likes: 43
-      views: 137
+      likes: 45
+      views: 140
     - service: vk
       id: 2150
       published: 2025-02-26-18-11-07
-      updated: 2025-02-27-02-13-23
+      updated: 2025-02-27-03-17-00
       followers: 1134
-      likes: 15
-      views: 107
+      likes: 16
+      views: 116
       comments: !c |-
         G8MA6C0SbNsOZyPCO+nyiOzUKKLbEx5ID5pxpiVYZMmszq10Q0umYujf8OwTOestBokdspR9QqP6
         H67ZFDm/NJUT1Q1DVHl0cqAnPAgfvxZJAViiLcwD7mRoU4pgez9/PX/t9V4tChl8gmLdjXCEF52G
@@ -4416,10 +4416,10 @@
     - service: tg
       id: 725
       published: 2025-02-26-18-11-14
-      updated: 2025-02-27-02-13-24
+      updated: 2025-02-27-03-17-00
       followers: 685
       likes: 38
-      views: 129
+      views: 132
       comments: !c ixiAkZPLQnlUPOyCAACuZGlzbWFzdGVyZnJhbmW3TXVzdCBoYXZlIGJlZW4gdGhlIHdpbmQD
 2018-04-25-night-travellers:
   title: Night Travellers
