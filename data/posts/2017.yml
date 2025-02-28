@@ -7054,10 +7054,10 @@
     - service: vk
       id: 1445
       published: 2024-03-13-18-17-34
-      updated: 2025-02-21-02-10-46
+      updated: 2025-02-28-02-14-14
       followers: 897
       likes: 33
-      views: 287
+      views: 288
       reposts: 1
       comments: !c |-
         Cx2AkZPLQnjjldgQgACrbG9tYWV2X2xpdmXZItCU0L7RgNC+0LPQsCDQvdCwINCR0LDQu9GM0LzQ
@@ -7065,10 +7065,10 @@
     - service: tg
       id: 344
       published: 2024-03-13-18-17-41
-      updated: 2025-02-21-02-10-42
+      updated: 2025-02-28-02-14-11
       followers: 349
       likes: 64
-      views: 545
+      views: 546
       comments: !c |-
         G+4DIJwHtg3vDJUeLhr3Ytksel4GJ8VfjU2IonUTmmlCUlQZIZopShGVe2abWOWrKpxsJVc1M7kn
         geMPkkfqWXBuQjMYRir9LQt4FqkTGEiCtJHbYgK/vtTEf4JZTpRIXWb+bwn6MdAMw8yu066bbuxF
@@ -9267,10 +9267,10 @@
     - service: vk
       id: 1885
       published: 2024-11-07-18-10-36
-      updated: 2025-02-21-02-10-46
+      updated: 2025-02-28-02-14-13
       followers: 1005
-      likes: 32
-      views: 322
+      likes: 33
+      views: 324
       reposts: 1
     - service: tg
       id: 588
