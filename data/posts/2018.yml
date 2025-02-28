@@ -1724,18 +1724,18 @@
     - service: vk
       id: 1573
       published: 2024-06-06-18-19-32
-      updated: 2025-02-21-21-04-42
+      updated: 2025-02-28-21-07-35
       followers: 916
       likes: 37
-      views: 288
+      views: 289
       reposts: 1
     - service: tg
       id: 431
       published: 2024-06-06-18-19-42
-      updated: 2025-02-21-21-04-38
+      updated: 2025-02-28-21-07-33
       followers: 384
       likes: 58
-      views: 452
+      views: 453
       comments: !c |-
         G7MAqIzDOBYcDMJfsWXVnFEu7zM+nl2EJSiSIlYRtkDK4Z6s8CxM6zbmuLt3ot8pEKQopxyAh1jk
         zePgrBc/w93GwLW8Hq9S0OuUJCep8edTAHdoRb4bpW3TK9WWH18eCYis7wb1NnihaQ5St7hP1MFA
@@ -3566,10 +3566,10 @@
     - service: vk
       id: 1534
       published: 2024-05-16-18-18-18
-      updated: 2025-02-21-21-04-44
+      updated: 2025-02-28-21-07-39
       followers: 915
       likes: 41
-      views: 326
+      views: 327
       reposts: 1
       comments: !c |-
         G5AAqB2HcSyy8PJqYKMTI1Q6PV+3I/zjd6GH2ESSeLLPOZf6SkjuXPAXXW9JUaNUJB/j+4bydrPZ
@@ -3578,10 +3578,10 @@
     - service: tg
       id: 410
       published: 2024-05-16-18-18-25
-      updated: 2025-02-21-21-04-41
+      updated: 2025-02-28-21-07-37
       followers: 370
       likes: 58
-      views: 495
+      views: 496
       comments: !c |-
         iyuAkpPLQnj4TMeUAACpR2F0ZW1hdGU3tXRoZSBob29kIG9mIG1vcnJvd2luZJPLQnj4K14cgACr
         Ym9icm92bmlrb3a2R29vZCBldmVuaW5nLCBldmVyeW9uZQM=
@@ -5202,10 +5202,10 @@
     - service: vk
       id: 1543
       published: 2024-05-23-18-18-57
-      updated: 2025-02-21-21-04-43
+      updated: 2025-02-28-21-07-37
       followers: 917
       likes: 46
-      views: 296
+      views: 297
       reposts: 1
       comments: !c |-
         CyiAkZPLQnj6bH5AgACtY2x1YjEyODU3NDk4N9k20KPRgdGC0YzQtSDQndCw0LHQuNC4LCDQvtCx
@@ -5213,10 +5213,10 @@
     - service: tg
       id: 417
       published: 2024-05-23-18-19-02
-      updated: 2025-02-21-21-04-40
+      updated: 2025-02-28-21-07-36
       followers: 376
       likes: 64
-      views: 510
+      views: 511
       comments: !c |-
         G2oAQCwS7JgUo4JbFLbXSSe3HeXg9+/KYQItsUDKNkr9BMBz1MmRfp5K+w5JbUUYeeQlGtudUy7B
         wLwlLaTTmQ9+z+FzUiKPXXt1ry6YlTKDt9dsp6hVlso7Yzzs571EH2zjEEa1DC64MAcA
@@ -5377,20 +5377,20 @@
     - service: vk
       id: 1526
       published: 2024-05-09-18-18-25
-      updated: 2025-02-21-21-04-45
+      updated: 2025-02-28-21-07-40
       followers: 913
       likes: 39
-      views: 280
+      views: 281
       comments: !c |-
         G2YA+J0JdizEZBhqMCRfIOqRNj6xAdBz4RNdWtCNvcQi3KEYDlrecpeVZjbK/YYgcj9B8DmrQpQ1
         ZfUpikZppQIxTHQ497v+B+ltqkCqtIwYnr/VGkxmm4xOTPlK00F8Txq6rd2I4NCMAQ==
     - service: tg
       id: 403
       published: 2024-05-09-18-18-32
-      updated: 2025-02-21-21-04-41
+      updated: 2025-02-28-21-07-38
       followers: 370
       likes: 61
-      views: 463
+      views: 464
 2018-05-19-keep-calm-and-wait-for-nerevarine:
   title: Keep Calm and Wait for Nerevarine
   titleRu: Будь спокоен и жди Нереварина
@@ -7906,24 +7906,24 @@
       id: DFx_pEkJY6I
       mediaId: '18441845239072911'
       published: 2025-02-07-18-10-38
-      updated: 2025-02-21-21-04-34
+      updated: 2025-02-28-21-07-27
       followers: 1534
       likes: 94
-      views: 325
+      views: 331
     - service: vk
       id: 2116
       published: 2025-02-07-18-10-45
-      updated: 2025-02-21-21-04-35
+      updated: 2025-02-28-21-07-29
       followers: 1062
-      likes: 45
-      views: 340
+      likes: 46
+      views: 370
     - service: tg
       id: 700
       published: 2025-02-07-18-10-54
-      updated: 2025-02-21-21-04-35
+      updated: 2025-02-28-21-07-29
       followers: 670
-      likes: 60
-      views: 437
+      likes: 61
+      views: 466
 2018-07-28-sulfur-forest:
   title: Sulfur Forest
   titleRu: Серный лес
@@ -13064,25 +13064,25 @@
       id: DE7_wC1PgTr
       mediaId: '18065439076892825'
       published: 2025-01-17-18-52-37
-      updated: 2025-02-21-21-04-37
+      updated: 2025-02-28-21-07-31
       followers: 1525
       likes: 94
       views: 393
     - service: vk
       id: 2069
       published: 2025-01-17-18-52-43
-      updated: 2025-02-21-21-04-39
+      updated: 2025-02-28-21-07-33
       followers: 1053
-      likes: 37
-      views: 301
+      likes: 38
+      views: 312
       reposts: 1
     - service: tg
       id: 670
       published: 2025-01-17-18-52-49
-      updated: 2025-02-21-21-04-36
+      updated: 2025-02-28-21-07-31
       followers: 655
       likes: 63
-      views: 479
+      views: 493
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели
