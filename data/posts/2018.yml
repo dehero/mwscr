@@ -1662,10 +1662,10 @@
     - service: vk
       id: 1913
       published: 2024-11-21-18-10-57
-      updated: 2025-02-21-04-10-11
+      updated: 2025-02-28-04-10-26
       followers: 1008
-      likes: 40
-      views: 317
+      likes: 41
+      views: 320
       reposts: 1
       comments: !c |-
         G3YA+I3UVneQ7uh/zrWRjXhio6iwXVmlnZ11PM//8fQSugYeNuDMAqKEVtppwJudd+ApyK/Te9J5
@@ -1673,10 +1673,10 @@
     - service: tg
       id: 602
       published: 2024-11-21-18-11-06
-      updated: 2025-02-21-04-10-10
+      updated: 2025-02-28-04-10-25
       followers: 573
       likes: 59
-      views: 654
+      views: 660
       comments: !c |-
         G/YCQJwJti2ataDNL+M4kk7uCyXwIwUJRi3QIIgo6fV7VVlcRpcack6h+YFfuOZBD3hZqsJHVqu2
         wwAjy/VDrfO7o5vAfqNJc+tbkzZQhIGfWGFKqa71NYGvUU6LNhtj6pus4/b06Af76mNtiZc91e1P
@@ -4398,14 +4398,14 @@
       id: DGi6yLqv5uO
       mediaId: '18053861423129834'
       published: 2025-02-26-18-11-00
-      updated: 2025-02-28-03-17-20
+      updated: 2025-02-28-04-10-24
       followers: 1537
       likes: 62
-      views: 210
+      views: 211
     - service: vk
       id: 2150
       published: 2025-02-26-18-11-07
-      updated: 2025-02-28-03-17-22
+      updated: 2025-02-28-04-10-25
       followers: 1134
       likes: 25
       views: 230
@@ -4416,10 +4416,10 @@
     - service: tg
       id: 725
       published: 2025-02-26-18-11-14
-      updated: 2025-02-28-03-17-21
+      updated: 2025-02-28-04-10-24
       followers: 685
       likes: 49
-      views: 202
+      views: 203
       comments: !c ixiAkZPLQnlUPOyCAACuZGlzbWFzdGVyZnJhbmW3TXVzdCBoYXZlIGJlZW4gdGhlIHdpbmQD
 2018-04-25-night-travellers:
   title: Night Travellers
