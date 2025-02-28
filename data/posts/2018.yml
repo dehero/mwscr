@@ -1606,24 +1606,24 @@
       id: DGdxQcuy3jz
       mediaId: '17897784168141465'
       published: 2025-02-24-18-11-33
-      updated: 2025-02-27-18-11-16
+      updated: 2025-02-28-19-02-23
       followers: 1536
-      likes: 72
-      views: 245
+      likes: 78
+      views: 264
     - service: vk
       id: 2147
       published: 2025-02-24-18-11-42
-      updated: 2025-02-27-18-11-18
+      updated: 2025-02-28-19-02-24
       followers: 1124
       likes: 32
-      views: 240
+      views: 272
     - service: tg
       id: 723
       published: 2025-02-24-18-11-50
-      updated: 2025-02-27-18-11-18
+      updated: 2025-02-28-19-02-24
       followers: 685
       likes: 49
-      views: 262
+      views: 301
 2018-02-13-urshilaku-camp:
   title: Urshilaku Camp
   titleRu: Лагерь Уршилаку
@@ -8649,22 +8649,23 @@
       id: DGYnsoItoGk
       mediaId: '17897559681056464'
       published: 2025-02-22-18-11-47
-      updated: 2025-02-27-19-01-30
+      updated: 2025-02-28-19-02-25
       followers: 1537
-      likes: 123
-      views: 429
+      likes: 126
+      views: 436
     - service: vk
       id: 2144
       published: 2025-02-22-18-12-14
-      updated: 2025-02-27-19-01-27
+      updated: 2025-02-28-19-02-28
       followers: 1116
       likes: 50
-      views: 365
+      views: 389
       reposts: 2
       comments: !c |-
-        G78AICySx51PUfGqHB0jVDpR7Uhv/MUCoCbhiJI90AzaJjmTk1ooVJjYvXmqS7Q8/xxzk2upsrRs
-        sAEHLhlFA9EmqxyVXpRSKnWfl8fPf5bdxTv2L6VPn7YTlOBoVuQIiSYmLSVoSSNiAP/+4dX3BIgE
-        CEezEYhQgNAoEK0mEKmFiIscCUSroETLVvREEElwXTDb/R8T
+        GygBQJwJdizKCyxuEacaz/N/Q9J3/ENBdTziINMmuDOQgU7uw3ADmqrbhRYXCqFJ8CQk3fn28mWb
+        sujccic0GKEBm8lgMx5n0o2SKEd/nRxwYIFBHFAYH5rfoXlAYQ65jV23pxEdocAcr8eHtrz/1l77
+        iPXG/ss5D7vb0ztiUI625FQhHSkUFEhkwIz9s7P6pYAoIBztCBoLCBpAmyNg3BMznJU8liFOHBFS
+        Krp+L7Z+5zGAqv4tz9O3ZZKRXOebl3wSYPV1Q9FKruAKUtjAMEoy4D0+IP+r3ww=
     - service: tg
       id:
         - 718
@@ -8672,10 +8673,10 @@
         - 720
         - 721
       published: 2025-02-22-18-12-41
-      updated: 2025-02-27-19-01-28
+      updated: 2025-02-28-19-02-26
       followers: 682
-      likes: 54
-      views: 362
+      likes: 55
+      views: 387
 2018-08-20-mushroom-glade:
   title: Mushroom Glade
   titleRu: Грибная поляна
