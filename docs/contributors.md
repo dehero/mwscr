@@ -323,6 +323,16 @@ Roles: `foreigner`
 talos
 ```
 
+### Xnzayrpcad
+
+[Telegram](https://t.me/dryteuiop)
+
+Roles: `foreigner`  
+
+```
+xnzayrpcad
+```
+
 ### Yaroslav
 
 [Telegram](https://t.me/bondarets)
