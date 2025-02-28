@@ -4,7 +4,40 @@
 
 # Posted in 2025
 
-`58 items`
+`59 items`
+
+## <span id="2025-02-28-on-the-edge-of-a-dead-forest">On the Edge of a Dead Forest</span>
+
+`RU` На краю мёртвого леса
+
+<a href="https://instagram.com/p/BSIisrCDPfE/" title="2017-03-27-on-the-edge-of-a-dead-forest"><img alt="store:/shots/2017-03-27-on-the-edge-of-a-dead-forest.png" src="../../assets/previews/shots/2017-03-27-on-the-edge-of-a-dead-forest.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-02-28-on-the-edge-of-a-dead-forest&amp;postContent=store%3A%2Fshots%2F2017-03-27-on-the-edge-of-a-dead-forest.png&amp;postTitle=On+the+Edge+of+a+Dead+Forest&amp;postTitleRu=%D0%9D%D0%B0+%D0%BA%D1%80%D0%B0%D1%8E+%D0%BC%D1%91%D1%80%D1%82%D0%B2%D0%BE%D0%B3%D0%BE+%D0%BB%D0%B5%D1%81%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=campfire+deadforest+night&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-02-28-on-the-edge-of-a-dead-forest&postLocation=)</code> `🚀 OpenMW` `campfire` `deadforest` `night`
+
+```
+2025-02-28-on-the-edge-of-a-dead-forest
+```
+
+> `2017-03-27-on-the-edge-of-a-dead-forest`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BSIisrCDPfE/)       | 2017-03-27 |       |    66 |       163 |      40.49 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_232)  | 2017-03-27 |   119 |     6 |        48 |          6 |
+| [`ig`](https://instagram.com/p/DGoEZrcTQ53/)       | 2025-02-28 |       |       |      1536 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |       |       |      1148 |            |
+| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |       |       |       685 |            |
+|                                                    |            |       |       |      3369 |            |
+
+#### Comments
+
+- `ig` <ins title="2017-03-27-18-24-53">digitalboyare</ins> Now you&#39;ll die!
+- `ig` <ins title="2017-03-27-20-04-32">oefengod1</ins> Could you do one of Balmora or Suran? They always were my favorite cities.
+- `ig` <ins title="2017-03-27-20-25-03">mwscr</ins> @the_telvanni_mouth Of course, these cities were in the past and will appear in future posts.
 
 ## <span id="2025-02-27-iron-enemy">Iron Enemy</span>
 
@@ -29,10 +62,10 @@
 | [`ig`](https://instagram.com/p/CfpUwXkMR-c/)       | 2022-07-05 |       |   137 |      1116 |      12.28 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1325) | 2022-07-05 |   463 |    44 |       738 |       5.96 |
 | [`tg`](https://t.me/mwscr/265)                     | 2022-07-05 |   648 |    43 |       253 |         17 |
-| [`ig`](https://instagram.com/p/DGlf1l3xMsg/)       | 2025-02-27 |   176 |    62 |      1537 |       4.03 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2153) | 2025-02-27 |   192 |    22 |      1143 |       1.92 |
-| [`tg`](https://t.me/mwscr/726)                     | 2025-02-27 |   164 |    38 |       686 |       5.54 |
-|                                                    |            |   532 |   122 |      3366 |       3.83 |
+| [`ig`](https://instagram.com/p/DGlf1l3xMsg/)       | 2025-02-27 |   179 |    62 |      1537 |       4.03 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2153) | 2025-02-27 |   194 |    22 |      1143 |       1.92 |
+| [`tg`](https://t.me/mwscr/726)                     | 2025-02-27 |   165 |    39 |       686 |       5.69 |
+|                                                    |            |   538 |   123 |      3366 |       3.88 |
 
 #### Comments
 
@@ -61,9 +94,9 @@
 | [`ig`](https://instagram.com/p/Bh9tNH1l1_Z/)       | 2018-04-24 |       |    85 |       319 |      26.65 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_698)  | 2018-04-24 |   239 |    18 |       156 |      11.54 |
 | [`ig`](https://instagram.com/p/DGi6yLqv5uO/)       | 2025-02-26 |   223 |    64 |      1537 |       4.16 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2150) | 2025-02-26 |   267 |    26 |      1134 |       2.29 |
-| [`tg`](https://t.me/mwscr/725)                     | 2025-02-26 |   213 |    50 |       685 |        7.3 |
-|                                                    |            |   703 |   140 |      3356 |       4.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2150) | 2025-02-26 |   269 |    26 |      1134 |       2.29 |
+| [`tg`](https://t.me/mwscr/725)                     | 2025-02-26 |   213 |    51 |       685 |       7.45 |
+|                                                    |            |   705 |   141 |      3356 |       4.63 |
 
 #### Comments
 
