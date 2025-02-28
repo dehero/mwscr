@@ -458,10 +458,10 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2025-02-21-12-14-09
+      updated: 2025-02-28-13-16-19
       followers: 921
       likes: 44
-      views: 304
+      views: 306
       reposts: 2
     - service: tg
       id: 480
@@ -4398,17 +4398,17 @@
       id: DGi6yLqv5uO
       mediaId: '18053861423129834'
       published: 2025-02-26-18-11-00
-      updated: 2025-02-28-12-13-52
+      updated: 2025-02-28-13-16-17
       followers: 1537
       likes: 64
-      views: 219
+      views: 221
     - service: vk
       id: 2150
       published: 2025-02-26-18-11-07
-      updated: 2025-02-28-12-13-53
+      updated: 2025-02-28-13-16-17
       followers: 1134
-      likes: 25
-      views: 248
+      likes: 26
+      views: 253
       comments: !c |-
         G8MA6C0SbNsOZyPCO+nyiOzUKKLbEx5ID5pxpiVYZMmszq10Q0umYujf8OwTOestBokdspR9QqP6
         H67ZFDm/NJUT1Q1DVHl0cqAnPAgfvxZJAViiLcwD7mRoU4pgez9/PX/t9V4tChl8gmLdjXCEF52G
@@ -4416,7 +4416,7 @@
     - service: tg
       id: 725
       published: 2025-02-26-18-11-14
-      updated: 2025-02-28-12-13-53
+      updated: 2025-02-28-13-16-18
       followers: 685
       likes: 50
       views: 212
@@ -7737,10 +7737,10 @@
     - service: vk
       id: 1642
       published: 2024-07-18-18-21-19
-      updated: 2025-02-21-12-14-10
+      updated: 2025-02-28-13-16-20
       followers: 919
       likes: 39
-      views: 277
+      views: 278
       reposts: 1
       comments: !c |-
         iyqAkZTLQnkMd+OugACqcGtlbGxlcm1hbq/QmtCw0Log0LTQvtC80LCTy0J5DMzLRwAAsGFydHlv
@@ -7748,10 +7748,10 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2025-02-21-12-14-09
+      updated: 2025-02-28-13-16-19
       followers: 402
       likes: 61
-      views: 701
+      views: 703
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
