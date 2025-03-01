@@ -766,7 +766,7 @@
     - service: yt
       id: 8Waikj-VsSI
       published: 2017-01-22
-      updated: 2025-02-22-11-01-34
+      updated: 2025-03-01-11-01-50
       likes: 7
       views: 133
     - service: vk
@@ -1070,7 +1070,7 @@
     - service: yt
       id: lbg7_2GY9-U
       published: 2017-01-28
-      updated: 2025-02-22-11-01-33
+      updated: 2025-03-01-11-01-49
       likes: 25
       views: 573
       comments: !c CxOAkZPLQnaO0E6sgACqQE5hcnNNY2FpbrBJIGxvdmUgdGhpcyBzaGl0Aw==
@@ -1778,7 +1778,7 @@
     - service: yt
       id: Fd77v5UL_ek
       published: 2017-02-12
-      updated: 2025-02-22-11-01-32
+      updated: 2025-03-01-11-01-49
       likes: 33
       views: 685
       comments: !c |-
@@ -3601,25 +3601,25 @@
       id: DGoEZrcTQ53
       mediaId: '18045219143588330'
       published: 2025-02-28-18-11-14
-      updated: 2025-03-01-10-07-33
+      updated: 2025-03-01-11-01-49
       followers: 1536
       likes: 65
-      views: 207
+      views: 212
     - service: vk
       id: 2155
       published: 2025-02-28-18-11-21
-      updated: 2025-03-01-10-07-34
+      updated: 2025-03-01-11-01-50
       followers: 1148
-      likes: 30
-      views: 167
+      likes: 31
+      views: 173
       reposts: 1
     - service: tg
       id: 727
       published: 2025-02-28-18-11-29
-      updated: 2025-03-01-10-07-34
+      updated: 2025-03-01-11-01-51
       followers: 685
       likes: 40
-      views: 209
+      views: 211
 2017-03-28-entrance-arch-of-propylon-chamber:
   title: Entrance Arch of Propylon Chamber
   titleRu: Вход Арочного зала
@@ -4834,10 +4834,10 @@
     - service: tg
       id: 531
       published: 2024-09-13-18-29-51
-      updated: 2025-02-22-11-01-36
+      updated: 2025-03-01-11-01-52
       followers: 556
       likes: 53
-      views: 819
+      views: 831
       comments: !c iw6AkZPLQnke7nQrgAClYW5zaXOsUHJhaXNlIFZlaGshAw==
 2017-04-27-in-khuul:
   title: In Khuul
