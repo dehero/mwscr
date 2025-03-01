@@ -31,10 +31,10 @@
 | [`ig`](https://instagram.com/p/C33Su8Dq3KP/)       | 2024-02-27 |   894 |   233 |      1373 |      16.97 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1418) | 2024-02-27 |   368 |    47 |       894 |       5.48 |
 | [`tg`](https://t.me/mwscr/329)                     | 2024-02-27 |   619 |    91 |       337 |         27 |
-| [`ig`](https://instagram.com/p/DGqpESxxAE9/)       | 2025-03-01 |       |       |      1537 |            |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2157) | 2025-03-01 |       |       |      1150 |            |
-| [`tg`](https://t.me/mwscr/728)                     | 2025-03-01 |       |       |       687 |            |
-|                                                    |            |       |       |      3374 |            |
+| [`ig`](https://instagram.com/p/DGqpESxxAE9/)       | 2025-03-01 |    38 |    19 |      1537 |       1.24 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2157) | 2025-03-01 |    35 |     7 |      1150 |       0.61 |
+| [`tg`](https://t.me/mwscr/728)                     | 2025-03-01 |    77 |    21 |       687 |       3.06 |
+|                                                    |            |   150 |    47 |      3374 |       1.63 |
 
 #### Comments
 
@@ -47,6 +47,9 @@
 - `ig` <ins title="2024-02-27-23-28-32">swekg</ins> Me when it’s raining
 - `vk` <ins title="2024-02-28-06-48-12">vladkr114</ins> Эх😔
 - `ig` <ins title="2024-02-29-19-40-42">angelpeepee__</ins> Incredibke
+- `tg` <ins title="2025-03-01-18-12-49">Gatemate7</ins> wtf are they?
+  - <ins title="2025-03-01-18-29-47">BarryBananaDragon</ins> WDYM? Are you asking what Daedroth are?
+- `vk` <ins title="2025-03-01-19-00-52">id820702664</ins> Мимокрокодил
 
 ## <span id="2025-02-28-on-the-edge-of-a-dead-forest">On the Edge of a Dead Forest</span>
 
@@ -70,10 +73,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BSIisrCDPfE/)       | 2017-03-27 |       |    66 |       163 |      40.49 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_232)  | 2017-03-27 |   119 |     6 |        48 |          6 |
-| [`ig`](https://instagram.com/p/DGoEZrcTQ53/)       | 2025-02-28 |   246 |    74 |      1536 |       4.82 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |   217 |    33 |      1148 |       2.96 |
-| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |   229 |    42 |       685 |       6.13 |
-|                                                    |            |   692 |   149 |      3369 |       4.64 |
+| [`ig`](https://instagram.com/p/DGoEZrcTQ53/)       | 2025-02-28 |   248 |    74 |      1536 |       4.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |   218 |    33 |      1148 |       2.96 |
+| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |   248 |    45 |       685 |       6.57 |
+|                                                    |            |   714 |   152 |      3369 |       4.78 |
 
 #### Comments
 
@@ -135,10 +138,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/Bh9tNH1l1_Z/)       | 2018-04-24 |       |    85 |       319 |      26.65 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_698)  | 2018-04-24 |   239 |    18 |       156 |      11.54 |
-| [`ig`](https://instagram.com/p/DGi6yLqv5uO/)       | 2025-02-26 |   223 |    64 |      1537 |       4.16 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2150) | 2025-02-26 |   269 |    26 |      1134 |       2.29 |
-| [`tg`](https://t.me/mwscr/725)                     | 2025-02-26 |   213 |    51 |       685 |       7.45 |
-|                                                    |            |   705 |   141 |      3356 |       4.63 |
+| [`ig`](https://instagram.com/p/DGi6yLqv5uO/)       | 2025-02-26 |   235 |    66 |      1537 |       4.29 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2150) | 2025-02-26 |   293 |    27 |      1134 |       2.38 |
+| [`tg`](https://t.me/mwscr/725)                     | 2025-02-26 |   252 |    56 |       685 |       8.18 |
+|                                                    |            |   780 |   149 |      3356 |       4.95 |
 
 #### Comments
 
