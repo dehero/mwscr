@@ -31,10 +31,10 @@
 | [`ig`](https://instagram.com/p/C33Su8Dq3KP/)       | 2024-02-27 |   894 |   233 |      1373 |      16.97 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1418) | 2024-02-27 |   368 |    47 |       894 |       5.48 |
 | [`tg`](https://t.me/mwscr/329)                     | 2024-02-27 |   619 |    91 |       337 |         27 |
-| [`ig`](https://instagram.com/p/DGqpESxxAE9/)       | 2025-03-01 |    38 |    19 |      1537 |       1.24 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2157) | 2025-03-01 |    35 |     7 |      1150 |       0.61 |
-| [`tg`](https://t.me/mwscr/728)                     | 2025-03-01 |    77 |    21 |       687 |       3.06 |
-|                                                    |            |   150 |    47 |      3374 |       1.63 |
+| [`ig`](https://instagram.com/p/DGqpESxxAE9/)       | 2025-03-01 |    75 |    27 |      1537 |       1.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2157) | 2025-03-01 |    54 |     9 |      1150 |       0.87 |
+| [`tg`](https://t.me/mwscr/728)                     | 2025-03-01 |   105 |    30 |       687 |       4.37 |
+|                                                    |            |   234 |    66 |      3374 |       2.33 |
 
 #### Comments
 
@@ -71,12 +71,12 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BSIisrCDPfE/)       | 2017-03-27 |       |    66 |       163 |      40.49 |
+| [`ig`](https://instagram.com/p/BSIisrCDPfE/)       | 2017-03-27 |       |    65 |       163 |      39.88 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_232)  | 2017-03-27 |   119 |     6 |        48 |          6 |
-| [`ig`](https://instagram.com/p/DGoEZrcTQ53/)       | 2025-02-28 |   248 |    74 |      1536 |       4.82 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |   218 |    33 |      1148 |       2.96 |
-| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |   248 |    45 |       685 |       6.57 |
-|                                                    |            |   714 |   152 |      3369 |       4.78 |
+| [`ig`](https://instagram.com/p/DGoEZrcTQ53/)       | 2025-02-28 |   253 |    75 |      1536 |       4.88 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |   222 |    33 |      1148 |       2.96 |
+| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |   255 |    46 |       685 |       6.72 |
+|                                                    |            |   730 |   154 |      3369 |       4.85 |
 
 #### Comments
 
@@ -104,7 +104,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/CfpUwXkMR-c/)       | 2022-07-05 |       |   137 |      1116 |      12.28 |
+| [`ig`](https://instagram.com/p/CfpUwXkMR-c/)       | 2022-07-05 |       |   136 |      1116 |      12.19 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1325) | 2022-07-05 |   463 |    44 |       738 |       5.96 |
 | [`tg`](https://t.me/mwscr/265)                     | 2022-07-05 |   648 |    43 |       253 |         17 |
 | [`ig`](https://instagram.com/p/DGlf1l3xMsg/)       | 2025-02-27 |   209 |    65 |      1537 |       4.23 |
@@ -136,7 +136,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/Bh9tNH1l1_Z/)       | 2018-04-24 |       |    85 |       319 |      26.65 |
+| [`ig`](https://instagram.com/p/Bh9tNH1l1_Z/)       | 2018-04-24 |       |    84 |       319 |      26.33 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_698)  | 2018-04-24 |   239 |    18 |       156 |      11.54 |
 | [`ig`](https://instagram.com/p/DGi6yLqv5uO/)       | 2025-02-26 |   235 |    66 |      1537 |       4.29 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2150) | 2025-02-26 |   293 |    27 |      1134 |       2.38 |
@@ -169,12 +169,12 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BQpT1JwDAIf/)       | 2017-02-18 |       |    31 |        85 |      36.47 |
+| [`ig`](https://instagram.com/p/BQpT1JwDAIf/)       | 2017-02-18 |       |    30 |        85 |      35.29 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_158)  | 2017-02-18 |   160 |    12 |        37 |         12 |
-| [`ig`](https://instagram.com/p/DGgWEqITqlY/)       | 2025-02-25 |   309 |    85 |      1536 |       5.53 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2148) | 2025-02-25 |   277 |    33 |      1128 |       2.93 |
-| [`tg`](https://t.me/mwscr/724)                     | 2025-02-25 |   357 |    57 |       684 |       8.33 |
-|                                                    |            |   943 |   175 |      3348 |        5.6 |
+| [`ig`](https://instagram.com/p/DGgWEqITqlY/)       | 2025-02-25 |   319 |    86 |      1536 |        5.6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2148) | 2025-02-25 |   309 |    35 |      1128 |       3.19 |
+| [`tg`](https://t.me/mwscr/724)                     | 2025-02-25 |   403 |    59 |       684 |       8.63 |
+|                                                    |            |  1031 |   180 |      3348 |       5.81 |
 
 #### Comments
 
@@ -203,10 +203,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BfGyossjxsv/)       | 2018-02-12 |       |    85 |       286 |      29.72 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_611)  | 2018-02-12 |   191 |    15 |       130 |      11.54 |
-| [`ig`](https://instagram.com/p/DGdxQcuy3jz/)       | 2025-02-24 |   264 |    78 |      1536 |       5.08 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2147) | 2025-02-24 |   272 |    32 |      1124 |       2.85 |
-| [`tg`](https://t.me/mwscr/723)                     | 2025-02-24 |   301 |    49 |       685 |       7.15 |
-|                                                    |            |   837 |   159 |      3345 |       5.03 |
+| [`ig`](https://instagram.com/p/DGdxQcuy3jz/)       | 2025-02-24 |   271 |    80 |      1536 |       5.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2147) | 2025-02-24 |   289 |    32 |      1124 |       2.85 |
+| [`tg`](https://t.me/mwscr/723)                     | 2025-02-24 |   406 |    51 |       685 |       7.45 |
+|                                                    |            |   966 |   163 |      3345 |       5.17 |
 
 ## <span id="2025-02-23-on-the-roads-of-grazelands">On the Roads of Grazelands</span>
 
@@ -228,12 +228,12 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BXFN1vmDwnK/)       | 2017-07-28 |       |    57 |       192 |      29.69 |
+| [`ig`](https://instagram.com/p/BXFN1vmDwnK/)       | 2017-07-28 |       |    56 |       192 |      29.17 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_369)  | 2017-07-28 |   114 |     6 |        71 |       8.45 |
-| [`ig`](https://instagram.com/p/DGbMNfHvAh9/)       | 2025-02-23 |   251 |    69 |      1537 |       4.49 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2146) | 2025-02-23 |   262 |    26 |      1123 |        2.4 |
-| [`tg`](https://t.me/mwscr/722)                     | 2025-02-23 |   285 |    47 |       683 |       6.88 |
-|                                                    |            |   798 |   142 |      3343 |       4.59 |
+| [`ig`](https://instagram.com/p/DGbMNfHvAh9/)       | 2025-02-23 |   255 |    69 |      1537 |       4.49 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2146) | 2025-02-23 |   278 |    28 |      1123 |       2.58 |
+| [`tg`](https://t.me/mwscr/722)                     | 2025-02-23 |   385 |    48 |       683 |       7.03 |
+|                                                    |            |   918 |   145 |      3343 |        4.7 |
 
 ## <span id="2025-02-22-night-life">Night Life</span>
 
@@ -258,12 +258,12 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BmrDQOxlm5N/)       | 2018-08-19 |       |   114 |       397 |      28.72 |
+| [`ig`](https://instagram.com/p/BmrDQOxlm5N/)       | 2018-08-19 |       |   113 |       397 |      28.46 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_866)  | 2018-08-19 |   287 |    19 |       201 |       9.45 |
-| [`ig`](https://instagram.com/p/DGYnsoItoGk/)       | 2025-02-22 |   436 |   126 |      1537 |        8.2 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2144) | 2025-02-22 |   389 |    50 |      1116 |       4.66 |
-| [`tg`](https://t.me/mwscr/718,719,720,721)         | 2025-02-22 |   387 |    55 |       682 |       8.06 |
-|                                                    |            |  1212 |   231 |      3335 |       6.97 |
+| [`ig`](https://instagram.com/p/DGYnsoItoGk/)       | 2025-02-22 |   440 |   126 |      1537 |        8.2 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2144) | 2025-02-22 |   403 |    50 |      1116 |       4.66 |
+| [`tg`](https://t.me/mwscr/718,719,720,721)         | 2025-02-22 |   423 |    55 |       682 |       8.06 |
+|                                                    |            |  1266 |   231 |      3335 |       6.97 |
 
 #### Comments
 
@@ -291,7 +291,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BX-XJCjjcR1/)       | 2017-08-19 |       |    52 |       194 |       26.8 |
+| [`ig`](https://instagram.com/p/BX-XJCjjcR1/)       | 2017-08-19 |       |    51 |       194 |      26.29 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_398)  | 2017-08-19 |   109 |     7 |        75 |       9.33 |
 | [`ig`](https://instagram.com/p/DGWCyCXNBkE/)       | 2025-02-21 |   250 |    63 |      1538 |        4.1 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2143) | 2025-02-21 |   306 |    37 |      1112 |       3.33 |
@@ -318,7 +318,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BVzIxzXj8mN/)       | 2017-06-26 |       |    71 |       184 |      38.59 |
+| [`ig`](https://instagram.com/p/BVzIxzXj8mN/)       | 2017-06-26 |       |    70 |       184 |      38.04 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_334)  | 2017-06-26 |   110 |    10 |        65 |      15.38 |
 | [`ig`](https://instagram.com/p/DGTeDcPJGYV/)       | 2025-02-20 |   379 |    68 |      1537 |       4.42 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2142) | 2025-02-20 |   285 |    31 |      1109 |        2.8 |
@@ -352,7 +352,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BSvOPsHDA_1/)       | 2017-04-11 |       |    68 |       172 |      39.53 |
+| [`ig`](https://instagram.com/p/BSvOPsHDA_1/)       | 2017-04-11 |       |    67 |       172 |      38.95 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_249)  | 2017-04-11 |   138 |     4 |        52 |       7.69 |
 | [`ig`](https://instagram.com/p/DGQ5PExTAVB/)       | 2025-02-19 |   413 |    76 |      1536 |       4.95 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2139) | 2025-02-19 |   336 |    47 |      1102 |       4.26 |
@@ -396,7 +396,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/CHD60FLByRT/)       | 2020-11-01 |       |   128 |       915 |      13.99 |
+| [`ig`](https://instagram.com/p/CHD60FLByRT/)       | 2020-11-01 |       |   127 |       915 |      13.88 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1284) | 2020-11-01 |  1132 |    57 |       455 |      12.75 |
 | [`tg`](https://t.me/mwscr/239)                     | 2020-11-01 |  1292 |     6 |       167 |       3.59 |
 | [`ig`](https://instagram.com/p/DGOUfCCRu_h/)       | 2025-02-18 |   270 |    67 |      1539 |       4.35 |
@@ -433,7 +433,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BXm4Oamj1CB/)       | 2017-08-10 |       |    49 |       192 |      25.52 |
+| [`ig`](https://instagram.com/p/BXm4Oamj1CB/)       | 2017-08-10 |       |    48 |       192 |         25 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_386)  | 2017-08-10 |   117 |     4 |        75 |       5.33 |
 | [`ig`](https://instagram.com/p/DGLvl1opXZD/)       | 2025-02-17 |   369 |    74 |      1539 |       4.81 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2134) | 2025-02-17 |   309 |    31 |      1084 |       2.95 |
@@ -464,7 +464,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BRXvJmKDcu0/)       | 2017-03-08 |       |    43 |       105 |      40.95 |
+| [`ig`](https://instagram.com/p/BRXvJmKDcu0/)       | 2017-03-08 |       |    42 |       105 |         40 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_188)  | 2017-03-08 |   142 |     9 |        44 |          9 |
 | [`ig`](https://instagram.com/p/DGJKqKVyLQy/)       | 2025-02-16 |   516 |   119 |      1538 |       7.74 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2133) | 2025-02-16 |   350 |    44 |      1071 |       4.39 |
@@ -570,7 +570,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/CfKLDX6sxiS/)       | 2022-06-23 |       |   265 |      1088 |      24.36 |
+| [`ig`](https://instagram.com/p/CfKLDX6sxiS/)       | 2022-06-23 |       |   264 |      1088 |      24.26 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1303) | 2022-06-23 |   994 |    79 |       700 |         12 |
 | [`tg`](https://t.me/mwscr/246)                     | 2022-06-23 |  1169 |    85 |       226 |      37.61 |
 | [`ig`](https://instagram.com/p/DGBdJ0-PH1J/)       | 2025-02-13 |   493 |    97 |      1534 |       6.32 |
@@ -632,7 +632,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BqVKLbFhIw8/)       | 2018-11-18 |       |   119 |       474 |      25.11 |
+| [`ig`](https://instagram.com/p/BqVKLbFhIw8/)       | 2018-11-18 |       |   118 |       474 |      24.89 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1058) | 2018-11-18 |   535 |    37 |       286 |      12.94 |
 | [`tg`](https://t.me/mwscr/122)                     | 2018-11-18 |   366 |     3 |           |            |
 | [`ig`](https://instagram.com/p/DF-3pqzpcCB/)       | 2025-02-12 |   376 |   102 |      1534 |       6.65 |
@@ -668,7 +668,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BXuuXHvDyDT/)       | 2017-08-13 |       |    57 |       192 |      29.69 |
+| [`ig`](https://instagram.com/p/BXuuXHvDyDT/)       | 2017-08-13 |       |    56 |       192 |      29.17 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_391)  | 2017-08-13 |   117 |     8 |        74 |      10.81 |
 | [`ig`](https://instagram.com/p/DF8SqGItDLm/)       | 2025-02-11 |   263 |    59 |      1534 |       3.85 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2123) | 2025-02-11 |   353 |    50 |      1065 |       4.79 |
@@ -701,7 +701,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BQXP6BUFdVY/)       | 2017-02-11 |       |    27 |        83 |      32.53 |
+| [`ig`](https://instagram.com/p/BQXP6BUFdVY/)       | 2017-02-11 |       |    26 |        83 |      31.33 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_134)  | 2017-02-11 |   169 |     8 |        30 |          8 |
 | [`ig`](https://instagram.com/p/DF5uC6lv4wa/)       | 2025-02-10 |   336 |    81 |      1533 |       5.28 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2121) | 2025-02-10 |   453 |    36 |      1064 |       3.48 |
@@ -768,10 +768,10 @@
 | [`ig`](https://instagram.com/p/BuPHSbwhI-4/)       | 2019-02-23 |       |   140 |       778 |      17.99 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1132) | 2019-02-23 |   584 |    41 |       328 |       12.8 |
 | [`tg`](https://t.me/mwscr/155)                     | 2019-02-23 |   494 |     2 |           |            |
-| [`ig`](https://instagram.com/p/DF0kRfGTwtB/)       | 2025-02-08 |   275 |    80 |      1533 |       5.22 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2119) | 2025-02-08 |   284 |    37 |      1062 |       3.48 |
-| [`tg`](https://t.me/mwscr/701)                     | 2025-02-08 |   408 |    51 |       672 |       7.59 |
-|                                                    |            |   967 |   168 |      3267 |       5.43 |
+| [`ig`](https://instagram.com/p/DF0kRfGTwtB/)       | 2025-02-08 |   279 |    80 |      1533 |       5.22 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2119) | 2025-02-08 |   318 |    38 |      1062 |       3.58 |
+| [`tg`](https://t.me/mwscr/701)                     | 2025-02-08 |   440 |    52 |       672 |       7.74 |
+|                                                    |            |  1037 |   170 |      3267 |       5.51 |
 
 #### Comments
 
@@ -798,7 +798,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BlvxNcqFzw9/)       | 2018-07-27 |       |   113 |       363 |      31.13 |
+| [`ig`](https://instagram.com/p/BlvxNcqFzw9/)       | 2018-07-27 |       |   112 |       363 |      30.85 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_829)  | 2018-07-27 |   358 |    28 |       193 |      14.51 |
 | [`ig`](https://instagram.com/p/DFx_pEkJY6I/)       | 2025-02-07 |   331 |    94 |      1534 |       6.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2116) | 2025-02-07 |   370 |    46 |      1062 |       4.33 |
@@ -874,7 +874,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BWe7pOwj9Lf/)       | 2017-07-13 |       |    72 |       188 |       38.3 |
+| [`ig`](https://instagram.com/p/BWe7pOwj9Lf/)       | 2017-07-13 |       |    71 |       188 |      37.77 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_352)  | 2017-07-13 |   183 |    13 |        67 |       20.9 |
 | [`ig`](https://instagram.com/p/DFqRQNtS7PN/)       | 2025-02-04 |   397 |   106 |      1535 |       6.91 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2112) | 2025-02-04 |   285 |    27 |      1059 |       2.55 |
@@ -907,7 +907,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BS8Glo-D80J/)       | 2017-04-16 |       |    69 |       172 |      40.12 |
+| [`ig`](https://instagram.com/p/BS8Glo-D80J/)       | 2017-04-16 |       |    68 |       172 |      39.53 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_260)  | 2017-04-16 |   133 |     8 |        52 |      15.38 |
 | [`ig`](https://instagram.com/p/DFnseKAT28i/)       | 2025-02-03 |   352 |   100 |      1535 |       6.51 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2110) | 2025-02-03 |   410 |    47 |      1059 |       4.63 |
@@ -942,7 +942,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BVwhJnrDLbo/)       | 2017-06-25 |       |    65 |       184 |      35.33 |
+| [`ig`](https://instagram.com/p/BVwhJnrDLbo/)       | 2017-06-25 |       |    64 |       184 |      34.78 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_333)  | 2017-06-25 |    99 |     9 |        65 |      13.85 |
 | [`ig`](https://instagram.com/p/DFlHfSRzWCN/)       | 2025-02-02 |   274 |    79 |      1536 |       5.14 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2107) | 2025-02-02 |   370 |    51 |      1060 |       4.81 |
@@ -1001,7 +1001,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BaM4_DqjfYW/)       | 2017-10-13 |       |    68 |       223 |      30.49 |
+| [`ig`](https://instagram.com/p/BaM4_DqjfYW/)       | 2017-10-13 |       |    67 |       223 |      30.04 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_459)  | 2017-10-13 |   141 |    13 |        91 |      14.29 |
 | [`ig`](https://instagram.com/p/DFf-B2yTQHv/)       | 2025-01-31 |   482 |   109 |      1534 |       7.11 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2100) | 2025-01-31 |   398 |    59 |      1057 |       5.87 |
@@ -1040,7 +1040,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/B3ek-PUhulb/)       | 2019-10-11 |       |   202 |       831 |      24.31 |
+| [`ig`](https://instagram.com/p/B3ek-PUhulb/)       | 2019-10-11 |       |   201 |       831 |      24.19 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1192) | 2019-10-11 |   634 |    51 |       364 |      14.29 |
 | [`tg`](https://t.me/mwscr/195)                     | 2019-10-11 |   723 |     4 |           |            |
 | [`ig`](https://instagram.com/p/DFdZSvtpKtB/)       | 2025-01-30 |   431 |   103 |      1534 |       6.71 |
@@ -1240,7 +1240,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BWUanZtjxTc/)       | 2017-07-09 |       |    57 |       188 |      30.32 |
+| [`ig`](https://instagram.com/p/BWUanZtjxTc/)       | 2017-07-09 |       |    56 |       188 |      29.79 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_348)  | 2017-07-09 |   107 |     6 |        66 |       9.09 |
 | [`ig`](https://instagram.com/p/DFN8igoMuR6/)       | 2025-01-24 |   417 |   105 |      1530 |       6.86 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2084) | 2025-01-24 |   360 |    55 |      1054 |        5.5 |
@@ -1299,7 +1299,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/Cfe829FstUf/)       | 2022-07-01 |       |   132 |      1101 |      11.99 |
+| [`ig`](https://instagram.com/p/Cfe829FstUf/)       | 2022-07-01 |       |   131 |      1101 |       11.9 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1319) | 2022-07-01 |   543 |    58 |       738 |       8.13 |
 | [`tg`](https://t.me/mwscr/258)                     | 2022-07-01 |   630 |    47 |       247 |      19.03 |
 | [`ig`](https://instagram.com/p/DFIy-QvpBXC/)       | 2025-01-22 |   311 |    81 |      1529 |        5.3 |
@@ -1336,7 +1336,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BhUdSr4jFec/)       | 2018-04-08 |       |   121 |       314 |      38.54 |
+| [`ig`](https://instagram.com/p/BhUdSr4jFec/)       | 2018-04-08 |       |   120 |       314 |      38.22 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_681)  | 2018-04-08 |   208 |    21 |       150 |         14 |
 | [`ig`](https://instagram.com/p/DFGONk_zuDM/)       | 2025-01-21 |   550 |   152 |      1529 |       9.94 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2075) | 2025-01-21 |   475 |    52 |      1054 |        5.5 |
@@ -1475,7 +1475,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/Bq4kQSlB62U/)       | 2018-12-02 |       |   114 |       484 |      23.55 |
+| [`ig`](https://instagram.com/p/Bq4kQSlB62U/)       | 2018-12-02 |       |   113 |       484 |      23.35 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1086) | 2018-12-02 |  1040 |    38 |       298 |      12.75 |
 | [`tg`](https://t.me/mwscr/133)                     | 2018-12-02 |   432 |     2 |           |            |
 | [`ig`](https://instagram.com/p/DE7_wC1PgTr/)       | 2025-01-17 |   393 |    94 |      1525 |       6.16 |
@@ -1503,7 +1503,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BRfgcN7DM6L/)       | 2017-03-11 |       |    39 |       105 |      37.14 |
+| [`ig`](https://instagram.com/p/BRfgcN7DM6L/)       | 2017-03-11 |       |    38 |       105 |      36.19 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_192)  | 2017-03-11 |   144 |     8 |        45 |          9 |
 | [`ig`](https://instagram.com/p/DE5WIOBTqaO/)       | 2025-01-16 |   582 |   144 |      1522 |       9.46 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2068) | 2025-01-16 |   346 |    55 |      1053 |       5.32 |
@@ -1545,7 +1545,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BjVMKDAld2_/)       | 2018-05-28 |       |   138 |       336 |      41.07 |
+| [`ig`](https://instagram.com/p/BjVMKDAld2_/)       | 2018-05-28 |       |   137 |       336 |      40.77 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_746)  | 2018-05-28 |   280 |    25 |       167 |      14.97 |
 | [`ig`](https://instagram.com/p/DE2xU3uvvrq/)       | 2025-01-15 |   374 |    99 |      1522 |        6.5 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2067) | 2025-01-15 |   451 |    45 |      1053 |       4.46 |
@@ -1584,7 +1584,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/Bb7ZYdQj1JH/)       | 2017-11-25 |       |    68 |       240 |      28.33 |
+| [`ig`](https://instagram.com/p/Bb7ZYdQj1JH/)       | 2017-11-25 |       |    67 |       240 |      27.92 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_511)  | 2017-11-25 |   157 |    11 |       101 |      10.89 |
 | [`ig`](https://instagram.com/p/DE0MjAjSIq6/)       | 2025-01-14 |   362 |    77 |      1525 |       5.05 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2057) | 2025-01-14 |   355 |    61 |      1052 |       5.99 |
@@ -1618,7 +1618,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BomlPcyh2n3/)       | 2018-10-06 |       |   117 |       439 |      26.65 |
+| [`ig`](https://instagram.com/p/BomlPcyh2n3/)       | 2018-10-06 |       |   116 |       439 |      26.42 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_958)  | 2018-10-06 |   424 |    38 |       252 |      15.87 |
 | [`tg`](https://t.me/mwscr/66,67,68,69,70)          | 2018-10-06 |   203 |     3 |           |            |
 | [`ig`](https://instagram.com/p/DExn5skTWOM/)       | 2025-01-13 |   539 |   162 |      1524 |      10.63 |
@@ -1701,7 +1701,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BWR75lWDTgv/)       | 2017-07-08 |       |    70 |       188 |      37.23 |
+| [`ig`](https://instagram.com/p/BWR75lWDTgv/)       | 2017-07-08 |       |    69 |       188 |       36.7 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_346)  | 2017-07-08 |   168 |    10 |        66 |      15.15 |
 | [`ig`](https://instagram.com/p/DEseEMkJV7E/)       | 2025-01-11 |   466 |   139 |      1524 |       9.12 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2040) | 2025-01-11 |   350 |    37 |      1050 |       3.62 |
@@ -1741,7 +1741,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/Bcc7qNpj-6y/)       | 2017-12-08 |       |    80 |       249 |      32.13 |
+| [`ig`](https://instagram.com/p/Bcc7qNpj-6y/)       | 2017-12-08 |       |    79 |       249 |      31.73 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_527)  | 2017-12-08 |   197 |    19 |       108 |      17.59 |
 | [`ig`](https://instagram.com/p/DEp5abVM-CW/)       | 2025-01-10 |   705 |   138 |      1525 |       9.05 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2037) | 2025-01-10 |   537 |    40 |      1050 |       3.81 |
@@ -1783,7 +1783,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BnMZPStF4mh/)       | 2018-09-01 |       |   123 |       407 |      30.22 |
+| [`ig`](https://instagram.com/p/BnMZPStF4mh/)       | 2018-09-01 |       |   122 |       407 |      29.98 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_888)  | 2018-09-01 |   390 |    32 |       219 |      14.61 |
 | [`tg`](https://t.me/mwscr/4)                       | 2018-09-01 |   264 |     4 |           |            |
 | [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   644 |   109 |      1525 |       7.15 |
@@ -1882,7 +1882,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BZHD-qwgDrR/)       | 2017-09-16 |       |    59 |       210 |       28.1 |
+| [`ig`](https://instagram.com/p/BZHD-qwgDrR/)       | 2017-09-16 |       |    58 |       210 |      27.62 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_429)  | 2017-09-16 |   133 |    10 |        80 |       12.5 |
 | [`ig`](https://instagram.com/p/DEfmNjaz7er/)       | 2025-01-06 |   438 |    97 |      1523 |       6.37 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2026) | 2025-01-06 |   346 |    42 |      1048 |        4.1 |
@@ -1920,7 +1920,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/Cf4jg83s0fl/)       | 2022-07-11 |       |   358 |      1142 |      31.35 |
+| [`ig`](https://instagram.com/p/Cf4jg83s0fl/)       | 2022-07-11 |       |   357 |      1142 |      31.26 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1334) | 2022-07-11 |  1225 |   130 |       767 |      17.99 |
 | [`tg`](https://t.me/mwscr/271,272,273,274)         | 2022-07-11 |   737 |    56 |       257 |      21.79 |
 | [`ig`](https://instagram.com/p/DEdBVU5N41v/)       | 2025-01-05 |   602 |   189 |      1521 |      12.43 |
@@ -2003,7 +2003,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/Baw9lQADygR/)       | 2017-10-27 |       |    62 |       226 |      27.43 |
+| [`ig`](https://instagram.com/p/Baw9lQADygR/)       | 2017-10-27 |       |    61 |       226 |      26.99 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_480)  | 2017-10-27 |   201 |    13 |        93 |      13.98 |
 | [`ig`](https://instagram.com/p/DEX30_wv76a/)       | 2025-01-03 |   513 |   121 |      1520 |       7.96 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2014) | 2025-01-03 |   397 |    58 |      1041 |       5.76 |
@@ -2034,7 +2034,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/CGngmEPhfvt/)       | 2020-10-21 |       |   121 |       907 |      13.34 |
+| [`ig`](https://instagram.com/p/CGngmEPhfvt/)       | 2020-10-21 |       |   120 |       907 |      13.23 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1270) | 2020-10-21 |   810 |    60 |       449 |      13.59 |
 | [`tg`](https://t.me/mwscr/228)                     | 2020-10-21 |   844 |     7 |       165 |       4.24 |
 | [`ig`](https://instagram.com/p/DEVTC4Gyb5x/)       | 2025-01-02 |   410 |   112 |      1520 |       7.37 |
@@ -2073,7 +2073,7 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BYiJhBSjv3T/)       | 2017-09-02 |       |    96 |       199 |      48.24 |
+| [`ig`](https://instagram.com/p/BYiJhBSjv3T/)       | 2017-09-02 |       |    95 |       199 |      47.74 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_413)  | 2017-09-02 |   135 |     9 |        75 |         12 |
 | [`ig`](https://instagram.com/p/DESuLyyPPAX/)       | 2025-01-01 |   587 |   128 |      1520 |       8.42 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2008) | 2025-01-01 |   430 |    40 |      1038 |       3.95 |
