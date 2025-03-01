@@ -4,7 +4,49 @@
 
 # Posted in 2025
 
-`59 items`
+`60 items`
+
+## <span id="2025-03-01-daedroth-in-grazelands">Daedroth in Grazelands</span>
+
+`RU` Даэдрот в Грейзленде
+
+<a href="https://instagram.com/p/BO6INdEF_CJ/" title="2017-01-06-daedroth-in-grazelands"><img alt="store:/shots/2017-01-06-daedroth-in-grazelands.png" src="../../assets/previews/shots/2017-01-06-daedroth-in-grazelands.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-01-daedroth-in-grazelands&amp;postContent=store%3A%2Fshots%2F2017-01-06-daedroth-in-grazelands.png&amp;postTitle=Daedroth+in+Grazelands&amp;postTitleRu=%D0%94%D0%B0%D1%8D%D0%B4%D1%80%D0%BE%D1%82+%D0%B2+%D0%93%D1%80%D0%B5%D0%B9%D0%B7%D0%BB%D0%B5%D0%BD%D0%B4%D0%B5&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Grazelands+Region&amp;postMark=A1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A1` `📍 Grazelands Region` `🚀 OpenMW`
+
+```
+2025-03-01-daedroth-in-grazelands
+```
+
+> `2024-02-27-daedroth-in-grazelands`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BO6INdEF_CJ/)       | 2017-01-06 |       |    32 |        67 |      47.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_54)   | 2017-01-22 |    93 |     3 |         4 |          3 |
+| [`ig`](https://instagram.com/p/C33Su8Dq3KP/)       | 2024-02-27 |   894 |   233 |      1373 |      16.97 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1418) | 2024-02-27 |   368 |    47 |       894 |       5.48 |
+| [`tg`](https://t.me/mwscr/329)                     | 2024-02-27 |   619 |    91 |       337 |         27 |
+| [`ig`](https://instagram.com/p/DGqpESxxAE9/)       | 2025-03-01 |       |       |      1537 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2157) | 2025-03-01 |       |       |      1150 |            |
+| [`tg`](https://t.me/mwscr/728)                     | 2025-03-01 |       |       |       687 |            |
+|                                                    |            |       |       |      3374 |            |
+
+#### Comments
+
+- `ig` <ins title="2024-02-27-20-17-38">bell_nd</ins> Welcome back! Miss seeing these
+- `tg` <ins title="2024-02-27-20-56-06">quintus_fabius</ins> We&#39;re so back
+  - <ins title="2024-02-27-20-58-08">ansis</ins> .
+- `ig` <ins title="2024-02-27-22-46-56">yoshi_23ii</ins> What happened to these creatures in the next games?
+  - <ins title="2024-02-27-23-48-53">jaymescallen</ins> Daedroths were in Oblivion but not Skyrim.
+  - <ins title="2024-02-27-23-49-37">yoshi_23ii</ins> @jaymescallen I think there&#39;s some in ESO
+- `ig` <ins title="2024-02-27-23-28-32">swekg</ins> Me when it’s raining
+- `vk` <ins title="2024-02-28-06-48-12">vladkr114</ins> Эх😔
+- `ig` <ins title="2024-02-29-19-40-42">angelpeepee__</ins> Incredibke
 
 ## <span id="2025-02-28-on-the-edge-of-a-dead-forest">On the Edge of a Dead Forest</span>
 
@@ -28,10 +70,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BSIisrCDPfE/)       | 2017-03-27 |       |    66 |       163 |      40.49 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_232)  | 2017-03-27 |   119 |     6 |        48 |          6 |
-| [`ig`](https://instagram.com/p/DGoEZrcTQ53/)       | 2025-02-28 |   241 |    74 |      1536 |       4.82 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |   211 |    33 |      1148 |       2.96 |
-| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |   226 |    42 |       685 |       6.13 |
-|                                                    |            |   678 |   149 |      3369 |       4.64 |
+| [`ig`](https://instagram.com/p/DGoEZrcTQ53/)       | 2025-02-28 |   246 |    74 |      1536 |       4.82 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |   217 |    33 |      1148 |       2.96 |
+| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |   229 |    42 |       685 |       6.13 |
+|                                                    |            |   692 |   149 |      3369 |       4.64 |
 
 #### Comments
 
@@ -62,10 +104,10 @@
 | [`ig`](https://instagram.com/p/CfpUwXkMR-c/)       | 2022-07-05 |       |   137 |      1116 |      12.28 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1325) | 2022-07-05 |   463 |    44 |       738 |       5.96 |
 | [`tg`](https://t.me/mwscr/265)                     | 2022-07-05 |   648 |    43 |       253 |         17 |
-| [`ig`](https://instagram.com/p/DGlf1l3xMsg/)       | 2025-02-27 |   207 |    65 |      1537 |       4.23 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2153) | 2025-02-27 |   331 |    27 |      1143 |       2.45 |
-| [`tg`](https://t.me/mwscr/726)                     | 2025-02-27 |   208 |    49 |       686 |       7.14 |
-|                                                    |            |   746 |   141 |      3366 |       4.61 |
+| [`ig`](https://instagram.com/p/DGlf1l3xMsg/)       | 2025-02-27 |   209 |    65 |      1537 |       4.23 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2153) | 2025-02-27 |   335 |    27 |      1143 |       2.45 |
+| [`tg`](https://t.me/mwscr/726)                     | 2025-02-27 |   210 |    49 |       686 |       7.14 |
+|                                                    |            |   754 |   141 |      3366 |       4.61 |
 
 #### Comments
 
