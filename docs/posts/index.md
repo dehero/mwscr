@@ -4,7 +4,53 @@
 
 # Posted in 2025
 
-`60 items`
+`61 items`
+
+## <span id="2025-03-02-boats">Boats</span>
+
+`RU` Лодки
+
+<a href="https://instagram.com/p/CfmolBKM0ih/" title="2017-05-17-nice-time-to-go-boating"><img alt="store:/shots/2017-05-17-nice-time-to-go-boating.png" src="../../assets/previews/shots/2017-05-17-nice-time-to-go-boating.avif" /></a>
+<a href="https://instagram.com/p/CfmolBKM0ih/" title="2017-02-23-surroundings-of-pelagiad"><img alt="store:/shots/2017-02-23-surroundings-of-pelagiad.png" src="../../assets/previews/shots/2017-02-23-surroundings-of-pelagiad.avif" /></a>
+<a href="https://instagram.com/p/CfmolBKM0ih/" title="2018-05-12-two-sheds"><img alt="store:/shots/2018-05-12-two-sheds.png" src="../../assets/previews/shots/2018-05-12-two-sheds.avif" /></a>
+<a href="https://instagram.com/p/CfmolBKM0ih/" title="2018-03-13-to-the-sunset"><img alt="store:/shots/2018-03-13-to-the-sunset.png" src="../../assets/previews/shots/2018-03-13-to-the-sunset.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-02-boats&amp;postContent=store%3A%2Fshots%2F2017-05-17-nice-time-to-go-boating.png%0Astore%3A%2Fshots%2F2017-02-23-surroundings-of-pelagiad.png%0Astore%3A%2Fshots%2F2018-05-12-two-sheds.png%0Astore%3A%2Fshots%2F2018-03-13-to-the-sunset.png&amp;postTitle=Boats&amp;postTitleRu=%D0%9B%D0%BE%D0%B4%D0%BA%D0%B8&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=boat&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-03-02-boats&postLocation=)</code> `🚀 OpenMW` `boat`
+
+```
+2025-03-02-boats
+```
+
+> `2022-07-04-boats`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/CfmolBKM0ih/)       | 2022-07-04 |       |   208 |      1107 |      18.79 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1324) | 2022-07-04 |   487 |    64 |       738 |       9.08 |
+| [`tg`](https://t.me/mwscr/261,262,263,264)         | 2022-07-04 |   702 |    62 |       253 |      24.51 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2165) | 2025-03-02 |       |       |      1153 |            |
+| [`tg`](https://t.me/mwscr/729,730,731,732)         | 2025-03-02 |       |       |       687 |            |
+|                                                    |            |       |       |      1840 |            |
+
+#### Comments
+
+- `ig` <ins title="2022-07-04-20-27-59">66.carat.gold</ins> Boats
+- `tg` <ins title="2022-07-04-20-30-22">filippov_iurii</ins> Dacha...
+- `tg` <ins title="2022-07-04-20-31-52">deleted</ins> I love water in morrowind
+  - <ins title="2022-07-04-21-05-23">deleted</ins> This.
+- `ig` <ins title="2022-07-04-20-32-49">15vmg</ins> this is one of the best ig accounts ever I love it thank you
+- `ig` <ins title="2022-07-04-20-41-22">middleirongate</ins> In love with the level of photography on this account
+- `ig` <ins title="2022-07-04-21-23-43">istsieliz</ins> @_ale.vanessa_ 🤩✨
+  - <ins title="2022-07-04-21-25-59">_ale.van_</ins> 😢😍😍
+- `tg` <ins title="2022-07-04-21-50-55">alex_emsow</ins> The last one is fantastic!
+- `tg` <ins title="2022-07-04-22-17-02">deleted</ins> 👊
+- `tg` <ins title="2022-07-06-14-41-29">mongleri</ins> these screenshots have shaders i think
+  - <ins title="2022-07-06-14-42-03">mxmazur</ins> No, it&#39;s vanilla
+- `tg` <ins title="2022-07-06-14-42-15">mongleri</ins> very nice
 
 ## <span id="2025-03-01-daedroth-in-grazelands">Daedroth in Grazelands</span>
 
@@ -31,10 +77,10 @@
 | [`ig`](https://instagram.com/p/C33Su8Dq3KP/)       | 2024-02-27 |   894 |   233 |      1373 |      16.97 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1418) | 2024-02-27 |   368 |    47 |       894 |       5.48 |
 | [`tg`](https://t.me/mwscr/329)                     | 2024-02-27 |   619 |    91 |       337 |         27 |
-| [`ig`](https://instagram.com/p/DGqpESxxAE9/)       | 2025-03-01 |   200 |    62 |      1537 |       4.03 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2157) | 2025-03-01 |   176 |    21 |      1150 |       1.91 |
-| [`tg`](https://t.me/mwscr/728)                     | 2025-03-01 |   165 |    47 |       687 |       6.84 |
-|                                                    |            |   541 |   130 |      3374 |       4.26 |
+| [`ig`](https://instagram.com/p/DGqpESxxAE9/)       | 2025-03-01 |   204 |    64 |      1537 |       4.16 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2157) | 2025-03-01 |   182 |    22 |      1150 |          2 |
+| [`tg`](https://t.me/mwscr/728)                     | 2025-03-01 |   167 |    47 |       687 |       6.84 |
+|                                                    |            |   553 |   133 |      3374 |       4.34 |
 
 #### Comments
 
@@ -73,10 +119,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BSIisrCDPfE/)       | 2017-03-27 |       |    65 |       163 |      39.88 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_232)  | 2017-03-27 |   119 |     6 |        48 |          6 |
-| [`ig`](https://instagram.com/p/DGoEZrcTQ53/)       | 2025-02-28 |   298 |    80 |      1536 |       5.21 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |   274 |    38 |      1148 |        3.4 |
-| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |   281 |    50 |       685 |        7.3 |
-|                                                    |            |   853 |   168 |      3369 |        5.3 |
+| [`ig`](https://instagram.com/p/DGoEZrcTQ53/)       | 2025-02-28 |   299 |    80 |      1536 |       5.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |   276 |    39 |      1148 |       3.48 |
+| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |   284 |    50 |       685 |        7.3 |
+|                                                    |            |   859 |   169 |      3369 |       5.33 |
 
 #### Comments
 

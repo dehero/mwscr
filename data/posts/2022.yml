@@ -583,6 +583,18 @@
         CzsK6cTVGuWRIMUsSjOOCIRCjoh7HEmRetu5l/+TWlV4PxBmRbR3hDw5zBNORrPvy3ZjNOIhQZL0
         Y4qnwEVudizn7hFU3wy3Hb584OFoIhGdbdLDtbIo1bbakqOyPZcfEDp7IQSxGOCGQToBsFU7XH6H
         QCAA
+    - service: vk
+      id: 2165
+      published: 2025-03-02-18-10-15
+      followers: 1153
+    - service: tg
+      id:
+        - 729
+        - 730
+        - 731
+        - 732
+      published: 2025-03-02-18-10-35
+      followers: 687
 2022-07-05-iron-enemy:
   title: Iron Enemy
   titleRu: Железный противник
