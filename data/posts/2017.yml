@@ -213,26 +213,26 @@
       id: DGqpESxxAE9
       mediaId: '18125115151418097'
       published: 2025-03-01-18-10-06
-      updated: 2025-03-02-09-07-18
+      updated: 2025-03-02-10-07-32
       followers: 1537
-      likes: 54
-      views: 174
+      likes: 57
+      views: 178
     - service: vk
       id: 2157
       published: 2025-03-01-18-10-14
-      updated: 2025-03-02-09-07-19
+      updated: 2025-03-02-10-07-32
       followers: 1150
-      likes: 16
-      views: 134
+      likes: 18
+      views: 139
       reposts: 1
       comments: !c ixeAkZPLQnlVMVLqAACraWQ4MjA3MDI2NjS40JzQuNC80L7QutGA0L7QutC+0LTQuNC7Aw==
     - service: tg
       id: 728
       published: 2025-03-01-18-10-23
-      updated: 2025-03-02-09-07-19
+      updated: 2025-03-02-10-07-33
       followers: 687
       likes: 45
-      views: 153
+      views: 156
       comments: !c |-
         izOAkZTLQnlVLpMOgACpR2F0ZW1hdGU3rXd0ZiBhcmUgdGhleT+Ty0J5VS+Ll4AAsUJhcnJ5QmFu
         YW5hRHJhZ29u2SdXRFlNPyBBcmUgeW91IGFza2luZyB3aGF0IERhZWRyb3RoIGFyZT8D
@@ -3629,25 +3629,25 @@
       id: DGoEZrcTQ53
       mediaId: '18045219143588330'
       published: 2025-02-28-18-11-14
-      updated: 2025-03-02-09-07-19
+      updated: 2025-03-02-10-07-34
       followers: 1536
       likes: 78
       views: 287
     - service: vk
       id: 2155
       published: 2025-02-28-18-11-21
-      updated: 2025-03-02-09-07-21
+      updated: 2025-03-02-10-07-34
       followers: 1148
       likes: 37
-      views: 249
+      views: 251
       reposts: 1
     - service: tg
       id: 727
       published: 2025-02-28-18-11-29
-      updated: 2025-03-02-09-07-20
+      updated: 2025-03-02-10-07-34
       followers: 685
-      likes: 49
-      views: 274
+      likes: 50
+      views: 276
 2017-03-28-entrance-arch-of-propylon-chamber:
   title: Entrance Arch of Propylon Chamber
   titleRu: Вход Арочного зала
@@ -9224,10 +9224,10 @@
     - service: tg
       id: 540
       published: 2024-09-21-18-28-42
-      updated: 2025-02-23-10-07-18
+      updated: 2025-03-02-10-07-36
       followers: 555
       likes: 51
-      views: 526
+      views: 533
 2017-08-17-water-stone:
   title: Water Stone
   titleRu: Камень Воды
@@ -11435,10 +11435,10 @@
     - service: vk
       id: 1820
       published: 2024-10-12-18-08-42
-      updated: 2025-02-23-10-07-21
+      updated: 2025-03-02-10-07-37
       followers: 961
-      likes: 47
-      views: 394
+      likes: 48
+      views: 396
       reposts: 1
       comments: !c |-
         Cx2AkZPLQnkqY71QAACoZGV1czE5ODnZJdCf0YDQuNGA0YPRh9C10L3QvdCw0Y8g0YHQstGP0YLQ
@@ -12619,10 +12619,10 @@
     - service: tg
       id: 548
       published: 2024-09-28-18-08-47
-      updated: 2025-02-23-10-07-18
+      updated: 2025-03-02-10-07-35
       followers: 557
       likes: 70
-      views: 532
+      views: 537
 2017-11-17-pelagiad-descent-to-the-road:
   title: Pelagiad, Descent to the Road
   titleRu: Пелагиад, спуск к дороге
