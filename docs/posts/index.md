@@ -32,10 +32,10 @@
 | [`ig`](https://instagram.com/p/CfmolBKM0ih/)       | 2022-07-04 |       |   208 |      1107 |      18.79 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1324) | 2022-07-04 |   487 |    64 |       738 |       9.08 |
 | [`tg`](https://t.me/mwscr/261,262,263,264)         | 2022-07-04 |   702 |    62 |       253 |      24.51 |
-| [`ig`](https://instagram.com/p/DGtT0r1vKNh/)       | 2025-03-02 |   240 |    86 |      1538 |       5.59 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2165) | 2025-03-02 |   171 |    32 |      1153 |       3.12 |
-| [`tg`](https://t.me/mwscr/729,730,731,732)         | 2025-03-02 |   258 |    41 |       687 |       5.97 |
-|                                                    |            |   669 |   159 |      3378 |       4.89 |
+| [`ig`](https://instagram.com/p/DGtT0r1vKNh/)       | 2025-03-02 |   246 |    86 |      1538 |       5.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2165) | 2025-03-02 |   179 |    34 |      1153 |       3.38 |
+| [`tg`](https://t.me/mwscr/729,730,731,732)         | 2025-03-02 |   259 |    41 |       687 |       5.97 |
+|                                                    |            |   684 |   161 |      3378 |       4.98 |
 
 #### Comments
 
@@ -52,6 +52,7 @@
 - `tg` <ins title="2022-07-06-14-41-29">mongleri</ins> these screenshots have shaders i think
   - <ins title="2022-07-06-14-42-03">mxmazur</ins> No, it&#39;s vanilla
 - `tg` <ins title="2022-07-06-14-42-15">mongleri</ins> very nice
+- `vk` <ins title="2025-03-03-08-20-47">mibrnd</ins> Куда плывëм?
 
 ## <span id="2025-03-01-daedroth-in-grazelands">Daedroth in Grazelands</span>
 
@@ -78,10 +79,10 @@
 | [`ig`](https://instagram.com/p/C33Su8Dq3KP/)       | 2024-02-27 |   894 |   233 |      1373 |      16.97 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1418) | 2024-02-27 |   368 |    47 |       894 |       5.48 |
 | [`tg`](https://t.me/mwscr/329)                     | 2024-02-27 |   619 |    91 |       337 |         27 |
-| [`ig`](https://instagram.com/p/DGqpESxxAE9/)       | 2025-03-01 |   220 |    67 |      1537 |       4.36 |
+| [`ig`](https://instagram.com/p/DGqpESxxAE9/)       | 2025-03-01 |   222 |    68 |      1537 |       4.42 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2157) | 2025-03-01 |   212 |    24 |      1150 |       2.17 |
 | [`tg`](https://t.me/mwscr/728)                     | 2025-03-01 |   214 |    50 |       687 |       7.28 |
-|                                                    |            |   646 |   141 |      3374 |        4.6 |
+|                                                    |            |   648 |   142 |      3374 |       4.63 |
 
 #### Comments
 
