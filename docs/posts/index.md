@@ -4,7 +4,52 @@
 
 # Posted in 2025
 
-`61 items`
+`62 items`
+
+## <span id="2025-03-03-night-pasture">Night Pasture</span>
+
+`RU` Ночной выпас
+
+<a href="https://instagram.com/p/CHODTMgB4_L/" title="2020-11-05-night-pasture"><img alt="store:/shots/2020-11-05-night-pasture.png" src="../../assets/previews/shots/2020-11-05-night-pasture.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2020-11-05-21-12-57.png](../../assets/previews/inbox/dehero.2020-11-05-21-12-57.avif "dehero.2020-11-05-21-12-57")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-03-night-pasture&amp;postContent=store%3A%2Fshots%2F2020-11-05-night-pasture.png&amp;postTitle=Night+Pasture&amp;postTitleRu=%D0%9D%D0%BE%D1%87%D0%BD%D0%BE%D0%B9+%D0%B2%D1%8B%D0%BF%D0%B0%D1%81&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Omani+Manor&amp;postMark=A2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2020-11-05-21-12-57.png&amp;postRequest=) `A2` `📍 Omani Manor` `🚀 OpenMW`
+
+```
+2025-03-03-night-pasture
+```
+
+> `2020-11-05-night-pasture`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/CHODTMgB4_L/)       | 2020-11-05 |       |   174 |       918 |      18.95 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1287) | 2020-11-05 |  1532 |    91 |       456 |      21.05 |
+| [`tg`](https://t.me/mwscr/242)                     | 2020-11-05 |  1812 |    11 |       166 |       6.63 |
+| [`ig`](https://instagram.com/p/DGvyuWUyi_w/)       | 2025-03-03 |       |       |      1537 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2168) | 2025-03-03 |       |       |      1158 |            |
+| [`tg`](https://t.me/mwscr/733)                     | 2025-03-03 |       |       |       689 |            |
+|                                                    |            |       |       |      3384 |            |
+
+#### Comments
+
+- `ig` <ins title="2020-11-05-18-49-45">notyrobot</ins> I&#39;m playing this again.
+- `ig` <ins title="2020-11-05-18-53-21">driesssens</ins> So moody ✨
+- `ig` <ins title="2020-11-05-18-57-54">delanospies</ins> Nice one
+- `ig` <ins title="2020-11-05-19-02-42">lapant_</ins> - Do you keep playing? - Always...
+- `ig` <ins title="2020-11-05-19-07-37">_lijee__</ins> This one is amazing!
+- `ig` <ins title="2020-11-05-23-51-31">myownsol</ins> Would&#39;ve been a date night if not for the guard.😅
+- `tg` <ins title="2020-11-06-05-29-53">Redoranar</ins> ❤️
+- `tg` <ins title="2021-03-15-09-44-55">Lufendo</ins> whoah
 
 ## <span id="2025-03-02-boats">Boats</span>
 
@@ -33,9 +78,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1324) | 2022-07-04 |   487 |    64 |       738 |       9.08 |
 | [`tg`](https://t.me/mwscr/261,262,263,264)         | 2022-07-04 |   702 |    62 |       253 |      24.51 |
 | [`ig`](https://instagram.com/p/DGtT0r1vKNh/)       | 2025-03-02 |   274 |    97 |      1538 |       6.31 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2165) | 2025-03-02 |   242 |    42 |      1153 |       4.16 |
-| [`tg`](https://t.me/mwscr/729,730,731,732)         | 2025-03-02 |   285 |    44 |       687 |        6.4 |
-|                                                    |            |   801 |   183 |      3378 |       5.62 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2165) | 2025-03-02 |   249 |    43 |      1153 |       4.25 |
+| [`tg`](https://t.me/mwscr/729,730,731,732)         | 2025-03-02 |   288 |    44 |       687 |        6.4 |
+|                                                    |            |   811 |   184 |      3378 |       5.65 |
 
 #### Comments
 
@@ -121,10 +166,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BSIisrCDPfE/)       | 2017-03-27 |       |    65 |       163 |      39.88 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_232)  | 2017-03-27 |   119 |     6 |        48 |          6 |
-| [`ig`](https://instagram.com/p/DGoEZrcTQ53/)       | 2025-02-28 |   299 |    80 |      1536 |       5.21 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |   276 |    39 |      1148 |       3.48 |
-| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |   284 |    50 |       685 |        7.3 |
-|                                                    |            |   859 |   169 |      3369 |       5.33 |
+| [`ig`](https://instagram.com/p/DGoEZrcTQ53/)       | 2025-02-28 |   307 |    83 |      1536 |        5.4 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |   314 |    43 |      1148 |       3.83 |
+| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |   314 |    51 |       685 |       7.45 |
+|                                                    |            |   935 |   177 |      3369 |       5.56 |
 
 #### Comments
 

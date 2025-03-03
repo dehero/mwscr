@@ -1703,6 +1703,19 @@
       likes: 11
       views: 1812
       comments: !c ixmAkpPLQneDVGLdgACnTHVmZW5kb6V3aG9haJPLQndZwIVGgACpUmVkb3JhbmFypuKdpO+4jwM=
+    - service: ig
+      id: DGvyuWUyi_w
+      mediaId: '18057591365083693'
+      published: 2025-03-03-18-10-41
+      followers: 1537
+    - service: vk
+      id: 2168
+      published: 2025-03-03-18-10-48
+      followers: 1158
+    - service: tg
+      id: 733
+      published: 2025-03-03-18-10-55
+      followers: 689
 2020-11-07-mushroom-fields-forever:
   title: Mushroom Fields Forever
   titleRu: Вечно-грибные поля
