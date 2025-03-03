@@ -213,26 +213,26 @@
       id: DGqpESxxAE9
       mediaId: '18125115151418097'
       published: 2025-03-01-18-10-06
-      updated: 2025-03-03-05-09-12
+      updated: 2025-03-03-06-12-31
       followers: 1537
       likes: 66
       views: 216
     - service: vk
       id: 2157
       published: 2025-03-01-18-10-14
-      updated: 2025-03-03-05-09-13
+      updated: 2025-03-03-06-12-32
       followers: 1150
       likes: 24
-      views: 205
+      views: 207
       reposts: 1
       comments: !c ixeAkZPLQnlVMVLqAACraWQ4MjA3MDI2NjS40JzQuNC80L7QutGA0L7QutC+0LTQuNC7Aw==
     - service: tg
       id: 728
       published: 2025-03-01-18-10-23
-      updated: 2025-03-03-05-09-13
+      updated: 2025-03-03-06-12-32
       followers: 687
       likes: 50
-      views: 213
+      views: 214
       comments: !c |-
         izOAkZTLQnlVLpMOgACpR2F0ZW1hdGU3rXd0ZiBhcmUgdGhleT+Ty0J5VS+Ll4AAsUJhcnJ5QmFu
         YW5hRHJhZ29u2SdXRFlNPyBBcmUgeW91IGFza2luZyB3aGF0IERhZWRyb3RoIGFyZT8D
@@ -6669,18 +6669,18 @@
     - service: vk
       id: 1862
       published: 2024-10-27-18-09-23
-      updated: 2025-02-24-06-11-58
+      updated: 2025-03-03-06-12-34
       followers: 1000
-      likes: 36
-      views: 321
+      likes: 37
+      views: 323
       reposts: 1
     - service: tg
       id: 577
       published: 2024-10-27-18-09-29
-      updated: 2025-02-24-06-11-57
+      updated: 2025-03-03-06-12-33
       followers: 564
       likes: 62
-      views: 491
+      views: 492
 2017-06-11-castle-karstaag:
   title: Castle Karstaag
   titleRu: Замок Карстааг
