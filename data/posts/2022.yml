@@ -586,11 +586,11 @@
     - service: vk
       id: 2165
       published: 2025-03-02-18-10-15
-      updated: 2025-03-03-10-09-28
+      updated: 2025-03-03-11-01-12
       followers: 1153
-      likes: 36
-      views: 188
-      reposts: 5
+      likes: 37
+      views: 199
+      reposts: 6
       comments: !c CxSAkZPLQnlVsX4xgACmbWlicm5kttCa0YPQtNCwINC/0LvRi9Cyw6vQvD8D
     - service: tg
       id:
@@ -599,18 +599,18 @@
         - 731
         - 732
       published: 2025-03-02-18-10-35
-      updated: 2025-03-03-10-09-28
+      updated: 2025-03-03-11-01-12
       followers: 687
       likes: 42
-      views: 265
+      views: 266
     - service: ig
       id: DGtT0r1vKNh
       mediaId: '18013972115704127'
       published: 2025-03-02-19-02-11
-      updated: 2025-03-03-10-09-27
+      updated: 2025-03-03-11-01-11
       followers: 1538
-      likes: 88
-      views: 252
+      likes: 90
+      views: 255
 2022-07-05-iron-enemy:
   title: Iron Enemy
   titleRu: Железный противник
