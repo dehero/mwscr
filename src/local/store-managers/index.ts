@@ -2,10 +2,11 @@ import type { StoreItem, StoreManager } from '../../core/entities/store.js';
 import { storeIncludesPath } from '../../core/entities/store.js';
 import { store } from '../../core/stores/index.js';
 import { partition } from '../../core/utils/common-utils.js';
+import { localStoreManager } from './local-store-manager.js';
 import { siteStoreManager } from './site-store-manager.js';
 import { yandexDiskManager } from './yandex-disk-manager.js';
 
-const storeManagers: StoreManager[] = [yandexDiskManager, siteStoreManager];
+const storeManagers: StoreManager[] = [localStoreManager, yandexDiskManager, siteStoreManager];
 
 export const storeManager: StoreManager = {
   ...store,

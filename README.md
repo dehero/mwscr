@@ -110,6 +110,8 @@ YOUTUBE_API_KEY=
 
 YANDEX_DISK_STORE_PATH=
 YANDEX_DISK_ACCESS_TOKEN=
+
+LOCAL_STORE_PATH=
 ```
 
 There is a [receiving credentials](CREDENTIALS.md) help document for the project administrator to fill in these
@@ -180,7 +182,7 @@ As the project develops, it is planned to implement:
 - [ ] lists of tags and locations with the number of posts in them;
 - [x] adding multiple locations to a single post;
 - [ ] ~~`wallpaper`~~, ~~`wallpaper-v`~~ and `video-v` post types;
-- [ ] support for accessing storage via a local file system;
+- [x] support for accessing storage via a local file system;
 - [ ] Telegram bot for accepting requests ~~and works~~;
 - [ ] monthly releases of the archive with works for the previous month;
 - [x] project site for quick search of works by author, location, tags, etc.
