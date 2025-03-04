@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.40.0](https://github.com/dehero/mwscr/compare/v1.39.0...v1.40.0) (2025-03-04)
+
+### Features
+
+- implement local store manager
+  ([b20d5cd](https://github.com/dehero/mwscr/commit/b20d5cd1558624df4d6cedd2bda693ae48f58437))
+
 ## [1.39.0](https://github.com/dehero/mwscr/compare/v1.38.0...v1.39.0) (2025-03-04)
 
 ### Features
