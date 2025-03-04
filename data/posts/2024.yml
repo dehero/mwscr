@@ -994,10 +994,10 @@
     - service: tg
       id: 372
       published: 2024-04-08-18-19-56
-      updated: 2025-02-25-21-07-41
+      updated: 2025-03-04-22-07-43
       followers: 354
       likes: 60
-      views: 459
+      views: 460
 2024-04-09-telvanni-council-house:
   title: Telvanni Council House
   titleRu: Дом Совета Телванни
@@ -1211,10 +1211,10 @@
     - service: tg
       id: 379
       published: 2024-04-15-18-17-53
-      updated: 2025-02-25-21-07-40
+      updated: 2025-03-04-22-07-42
       followers: 352
       likes: 60
-      views: 527
+      views: 529
       comments: !c iw+AkZPLQnjuL9GnAACobW9uZ2xlcmmrbnV0dHkgcHV0dHkD
 2024-04-16-birth-of-fabricant: 2018-01-16-birth-of-fabricant
 2024-04-17-interior-garden: 2017-03-31-interior-garden
@@ -1337,18 +1337,18 @@
     - service: vk
       id: 1505
       published: 2024-04-22-18-17-36
-      updated: 2025-02-25-21-07-45
+      updated: 2025-03-04-22-07-48
       followers: 909
       likes: 31
-      views: 249
+      views: 250
       reposts: 2
     - service: tg
       id: 386
       published: 2024-04-22-18-17-44
-      updated: 2025-02-25-21-07-40
+      updated: 2025-03-04-22-07-42
       followers: 354
       likes: 65
-      views: 489
+      views: 490
 2024-04-23-evening-mournhold: 2017-11-28-evening-mournhold
 2024-04-24-muckspunges-on-the-coast:
   title: Muckspunges on the Coast
@@ -1452,17 +1452,17 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
-      updated: 2025-02-25-21-07-45
+      updated: 2025-03-04-22-07-47
       followers: 912
       likes: 36
       views: 267
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2025-02-25-21-07-39
+      updated: 2025-03-04-22-07-41
       followers: 354
       likes: 65
-      views: 490
+      views: 491
       comments: !c |-
         CxyAkZPLQnjzCJAGAACpcmVzaXN0X2l02SJXaGVyZSBkbyB0aGV5IGxlYWQsIGFjdHVhbGx5PyDw
         n6SUAw==
@@ -1626,7 +1626,7 @@
     - service: vk
       id: 1523
       published: 2024-05-06-18-21-06
-      updated: 2025-02-25-21-07-44
+      updated: 2025-03-04-22-07-46
       followers: 913
       likes: 44
       views: 325
@@ -1634,10 +1634,10 @@
     - service: tg
       id: 400
       published: 2024-05-06-18-21-14
-      updated: 2025-02-25-21-07-39
+      updated: 2025-03-04-22-07-41
       followers: 371
       likes: 60
-      views: 484
+      views: 485
 2024-05-07-campfire:
   title: Campfire
   titleRu: У костра
@@ -1963,7 +1963,7 @@
     - service: vk
       id: 1539
       published: 2024-05-20-18-19-27
-      updated: 2025-02-25-21-07-42
+      updated: 2025-03-04-22-07-44
       followers: 916
       likes: 36
       views: 278

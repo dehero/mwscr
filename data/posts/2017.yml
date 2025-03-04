@@ -1260,7 +1260,7 @@
     - service: vk
       id: 1531
       published: 2024-05-13-18-17-48
-      updated: 2025-02-25-21-07-43
+      updated: 2025-03-04-22-07-45
       followers: 915
       likes: 35
       views: 264
@@ -1268,10 +1268,10 @@
     - service: tg
       id: 407
       published: 2024-05-13-18-17-54
-      updated: 2025-02-25-21-07-38
+      updated: 2025-03-04-22-07-40
       followers: 370
       likes: 62
-      views: 447
+      views: 448
       comments: !c |-
         iz6AkZTLQnj3MuobgACpR2F0ZW1hdGU3vWhvdyBkbyBpIHN1Ym1pdCBhIHNjcmVlbnNob3Q/k8tC
         ePcy8qcAAKVtd3Njctk5aHR0cHM6Ly9naXRodWIuY29tL2RlaGVyby9td3Njci9ibG9iL21haW4v
@@ -5858,10 +5858,10 @@
     - service: tg
       id: 350
       published: 2024-03-18-18-11-16
-      updated: 2025-02-25-21-07-42
+      updated: 2025-03-04-22-07-44
       followers: 353
       likes: 55
-      views: 483
+      views: 484
 2017-05-19-queen-mother-in-her-chambers:
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
@@ -10557,7 +10557,7 @@
     - service: vk
       id: 1548
       published: 2024-05-27-18-19-06
-      updated: 2025-02-25-21-07-41
+      updated: 2025-03-04-22-07-42
       followers: 918
       likes: 36
       views: 272
@@ -12707,10 +12707,10 @@
     - service: tg
       id: 364
       published: 2024-04-01-18-11-06
-      updated: 2025-02-25-21-07-41
+      updated: 2025-03-04-22-07-43
       followers: 354
       likes: 61
-      views: 472
+      views: 473
       comments: !c CxOAkZPLQnjps+/8gACoQWVsbGFyaWGyVmVsZGlnIGZpbnQgYmlsZGUhAw==
 2017-11-19-bottle-collection:
   title: Bottle Collection
@@ -12904,17 +12904,17 @@
       id: DE0MjAjSIq6
       mediaId: '18023130176338578'
       published: 2025-01-14-18-10-31
-      updated: 2025-02-25-21-07-38
+      updated: 2025-03-04-22-07-44
       followers: 1525
       likes: 77
-      views: 362
+      views: 365
     - service: vk
       id: 2057
       published: 2025-01-14-18-10-37
-      updated: 2025-02-25-21-07-40
+      updated: 2025-03-04-22-07-41
       followers: 1052
       likes: 61
-      views: 355
+      views: 362
       reposts: 2
       comments: !c |-
         GwoBSJwJdiyXCQdrkR4XF/0TN4rwjxdwxhk2CR7hyT7VtvQJb084hCuDQrNXWILlTYy/nz1ZTnfH
@@ -12924,10 +12924,10 @@
     - service: tg
       id: 667
       published: 2025-01-14-18-10-44
-      updated: 2025-02-25-21-07-37
+      updated: 2025-03-04-22-07-39
       followers: 650
       likes: 69
-      views: 600
+      views: 608
 2017-11-26-in-the-cell-of-vuvil-senim:
   title: In the Cell of Vuvil Senim
   titleRu: В камере Вувила Сенима

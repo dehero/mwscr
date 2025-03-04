@@ -3782,10 +3782,10 @@
       id: DFGONk_zuDM
       mediaId: '18039249929460023'
       published: 2025-01-21-18-11-24
-      updated: 2025-02-25-21-07-37
+      updated: 2025-03-04-22-07-43
       followers: 1529
       likes: 152
-      views: 550
+      views: 555
       comments: !c |-
         GxQBKKwSeE7K+EXnLuyFgxIuErUmlxOAyr2E/i23pXqNgpRqaHZ8bvMDvINHhyE1UwnQedsRsO+9
         221Es8EgK8EM09L0hs+ttEe8yiUR+UzLl9Fzf6b86zBltxIGWIsUj2R5ui9GgqOowrmxd9OOwqYf
@@ -3794,10 +3794,10 @@
     - service: vk
       id: 2075
       published: 2025-01-21-18-11-42
-      updated: 2025-02-25-21-07-39
+      updated: 2025-03-04-22-07-40
       followers: 1054
       likes: 52
-      views: 475
+      views: 487
       reposts: 6
       comments: !c |-
         G/AA6B0Hdiyz8HB04MYu/p/nZCP8x7ehD7ETSeLJfaAFpW7GmEkSLPJ5WlI2erNqW+40ShKTtn+Y
@@ -3810,10 +3810,10 @@
         - 676
         - 677
       published: 2025-01-21-18-12-00
-      updated: 2025-02-25-21-07-36
+      updated: 2025-03-04-22-07-38
       followers: 654
-      likes: 73
-      views: 624
+      likes: 74
+      views: 633
 2018-04-09-empty-arena:
   title: Empty Arena
   titleRu: Пустая Арена
@@ -12116,24 +12116,24 @@
       id: DGyXlepu_64
       mediaId: '18059122184506345'
       published: 2025-03-04-18-11-17
-      updated: 2025-03-04-21-07-33
+      updated: 2025-03-04-22-07-35
       followers: 1538
-      likes: 23
-      views: 76
+      likes: 27
+      views: 88
     - service: vk
       id: 2169
       published: 2025-03-04-18-11-25
-      updated: 2025-03-04-21-07-33
+      updated: 2025-03-04-22-07-36
       followers: 1158
-      likes: 8
-      views: 55
+      likes: 9
+      views: 64
     - service: tg
       id: 734
       published: 2025-03-04-18-11-32
-      updated: 2025-03-04-21-07-33
+      updated: 2025-03-04-22-07-36
       followers: 690
-      likes: 32
-      views: 121
+      likes: 33
+      views: 128
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
