@@ -5846,7 +5846,7 @@
     - service: vk
       id: 1456
       published: 2024-03-18-18-11-07
-      updated: 2025-02-25-22-07-45
+      updated: 2025-03-04-23-07-53
       followers: 896
       likes: 32
       views: 282
@@ -7935,10 +7935,10 @@
       id: DFqRQNtS7PN
       mediaId: '18153897166344611'
       published: 2025-02-04-18-10-38
-      updated: 2025-02-25-23-07-45
+      updated: 2025-03-04-23-07-53
       followers: 1535
       likes: 106
-      views: 397
+      views: 403
       comments: !c |-
         G50AABSh0v//e/cIL32bgSybFNAfY1nD5qKo7Z2obQH9k0iaTk7PeNFIi9JjoHlbABBJ7VyfqK1r
         Sz2NZp9CUsXvb4ROvKAzpuXZiuBdc7zLhIKphqB4pj8hEeERKDsR7eWb1umcDEgafuvpRhjtfwuh
@@ -7946,17 +7946,17 @@
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
-      updated: 2025-02-25-23-07-45
+      updated: 2025-03-04-23-07-50
       followers: 1059
       likes: 27
-      views: 285
+      views: 308
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
-      updated: 2025-02-25-23-07-45
+      updated: 2025-03-04-23-07-49
       followers: 664
       likes: 65
-      views: 584
+      views: 602
 2017-07-14-near-the-night-campfire:
   title: Near the Night Campfire
   titleRu: Возле ночного костра
@@ -11892,10 +11892,10 @@
     - service: tg
       id: 656
       published: 2025-01-07-18-11-21
-      updated: 2025-02-25-23-07-46
+      updated: 2025-03-04-23-07-51
       followers: 646
       likes: 75
-      views: 580
+      views: 588
       comments: !c iw+AkZPLQnlEWvPWAACvQWxleGV5IFN0ZXBhbm92pPCfmI0D
 2017-10-29-wilted-littoral:
   title: Wilted Littoral
@@ -12700,7 +12700,7 @@
     - service: vk
       id: 1477
       published: 2024-04-01-18-10-59
-      updated: 2025-02-25-22-07-44
+      updated: 2025-03-04-23-07-52
       followers: 906
       likes: 33
       views: 311
