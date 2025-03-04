@@ -54,7 +54,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     let author: string | undefined;
 
     if (authorName) {
-      [author] = (await users.findEntry({ name: authorName })) || [];
+      [author] = (await users.findEntry((user) => user.name === authorName)) || [];
     }
 
     return { title, tags, request, author: author || USER_DEFAULT_AUTHOR };

@@ -140,8 +140,7 @@ export const userName = {
   id: 'userName',
   attributes: {
     label: 'Name',
-    description:
-      'Create new user or force set existing user name (for administrator). Leave blank if you have contributed with issues earlier.',
+    description: 'Write down your preferred user name. Leave blank if you have contributed with issues earlier.',
     placeholder: 'Jiub the Saint',
   },
 };
@@ -151,7 +150,7 @@ export const userProfileIg = {
   id: 'userProfileIg',
   attributes: {
     label: 'Instagram Profile',
-    description: "Write down author's Instagram profile link or name.",
+    description: 'Write down your Instagram profile name. Leave blank if you have contributed with issues earlier.',
     placeholder: 'jiub',
   },
 };
@@ -161,7 +160,7 @@ export const userProfileTg = {
   id: 'userProfileTg',
   attributes: {
     label: 'Telegram Profile',
-    description: "Write down author's Telegram profile link or name.",
+    description: 'Write down your Telegram profile name. Leave blank if you have contributed with issues earlier.',
     placeholder: 'saint_jiub',
   },
 };
@@ -171,7 +170,7 @@ export const userProfileVk = {
   id: 'userProfileVk',
   attributes: {
     label: 'VK Profile',
-    description: "Write down author's VK profile link or name.",
+    description: 'Write down your VK profile name. Leave blank if you have contributed with issues earlier.',
     placeholder: 'cliffracer_destroyer',
   },
 };

@@ -9,7 +9,6 @@ import {
   getPostEntryStats,
   getPostFirstPublished,
   getPostRating,
-  isPostEqual,
   mergePostWith,
   Post,
   PostAuthor,
@@ -140,8 +139,6 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
   abstract readonly name: PostsManagerName;
 
   readonly ItemSchema: Schema<TPost> = Post as Schema<TPost>;
-
-  protected isItemEqual = isPostEqual;
 
   protected mergeItemWith = mergePostWith;
 

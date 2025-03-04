@@ -1,6 +1,7 @@
 import { type GithubIssue } from '../../core/entities/github-issue.js';
 import { postLocation } from '../../core/entities/github-issue-field.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
+import { locationMatchesString } from '../../core/entities/location.js';
 import { mergePostLocations } from '../../core/entities/post.js';
 import { label } from '../../core/github-issues/post-location.js';
 import { listItems } from '../../core/utils/common-utils.js';
@@ -24,7 +25,9 @@ export async function resolve(issue: GithubIssue) {
   if (!rawLocation) {
     console.error(`Locations were not selected.`);
   } else {
-    const entries = await locations.findEntries(rawLocation.map((title) => ({ title })));
+    const entries = await Promise.all(
+      rawLocation.map((str) => locations.findEntry((location) => locationMatchesString(location, str))),
+    );
     const locationIds: string[] = [];
 
     for (const [i, element] of rawLocation.entries()) {

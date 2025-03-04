@@ -38,7 +38,10 @@ export class VKManager extends VKService implements PostingServiceManager {
     let author: string | undefined;
 
     if (authorName) {
-      [author] = (await users.findEntry({ name: authorName, nameRu: authorName, nameRuFrom: authorName })) || [];
+      [author] =
+        (await users.findEntry(
+          (user) => user.name === authorName || user.nameRu === authorName || user.nameRuFrom === authorName,
+        )) || [];
     }
 
     return { title, tags, author: author || USER_DEFAULT_AUTHOR };

@@ -319,7 +319,7 @@ export function getPostMarkFromScore(score?: number) {
   return PostMark.options.find((mark) => postMarkDescriptors[mark].score === integerScore);
 }
 
-export function isPostEqual(a: Post, b: Partial<Post>): boolean {
+export function isPostEqual(a: Post, b: Post): boolean {
   const date1 = getPostFirstPublished(b);
   const date2 = getPostFirstPublished(a);
 

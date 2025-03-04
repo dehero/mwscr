@@ -17,6 +17,14 @@ export interface Location {
   cell?: LocationCell | LocationCell[];
 }
 
+export function locationMatchesString(a: Location, searchString: string): boolean {
+  const lowerCaseSearchString = searchString.trim().toLocaleLowerCase();
+
+  return (
+    a.title.toLocaleLowerCase() === lowerCaseSearchString || a.titleRu?.toLocaleLowerCase() === lowerCaseSearchString
+  );
+}
+
 export function areNestedLocations(location1: string, location2: string) {
   return isNestedLocation(location1, location2) || isNestedLocation(location2, location1);
 }

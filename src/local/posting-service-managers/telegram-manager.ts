@@ -360,7 +360,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     let author: string | undefined;
 
     if (authorName) {
-      [author] = (await users.findEntry({ name: authorName })) || [];
+      [author] = (await users.findEntry((user) => user.name === authorName)) || [];
     }
 
     return { title: message, author: author || USER_DEFAULT_AUTHOR };

@@ -3,6 +3,7 @@ import TelegramBot from 'node-telegram-bot-api';
 import type { PostViolationDescriptor } from '../../core/entities/post.js';
 import { postViolationDescriptors } from '../../core/entities/post.js';
 import type { Resource } from '../../core/entities/resource.js';
+import { mergeUserWith } from '../../core/entities/user.js';
 import { site } from '../../core/services/site.js';
 import { telegram } from '../../core/services/telegram.js';
 import { asArray } from '../../core/utils/common-utils.js';
@@ -99,11 +100,21 @@ async function processMessage(message: TelegramBot.Message) {
   let author;
 
   try {
-    [author] = await users.mergeItem({
+    let userEntry = await users.findEntry(
+      (user) => user.profiles?.tg === message.from?.username || user.telegramBotChatId === message.chat.id,
+    );
+    if (!userEntry) {
+      userEntry = await users.addItem({ profiles: { tg: message.from.username } });
+    }
+
+    author = userEntry[0];
+
+    mergeUserWith(userEntry[1], {
       name: message.from.first_name,
       telegramBotChatId: message.chat.id,
       profiles: { tg: message.from.username },
     });
+
     await users.save();
   } catch (error) {
     if (error instanceof Error) {
@@ -123,7 +134,7 @@ async function processMessage(message: TelegramBot.Message) {
   } else if (message.document) {
     try {
       let adminUrl;
-      const [, admin] = (await users.findEntry({ admin: true })) ?? [];
+      const [, admin] = (await users.findEntry((user) => Boolean(user.admin))) ?? [];
       if (admin?.profiles?.tg) {
         adminUrl = telegram.getUserProfileUrl(admin.profiles.tg);
       }

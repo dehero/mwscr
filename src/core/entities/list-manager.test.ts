@@ -6,7 +6,7 @@ import { test2016ShotSkar, test2024WallpaperSuran, test2025ReferencedPostId } fr
 import { jsonDateReviver } from '../utils/date-utils.js';
 import type { ListReaderChunk } from './list-manager.js';
 import { ListManager } from './list-manager.js';
-import { isPostEqual, mergePostWith, Post } from './post.js';
+import { mergePostWith, Post } from './post.js';
 import type { Schema } from './schema.js';
 
 const initialData = {
@@ -20,7 +20,6 @@ class TestListManager extends ListManager<Post> {
   readonly name = 'test';
   readonly ItemSchema: Schema<Post> = Post;
 
-  protected isItemEqual = isPostEqual;
   protected mergeItemWith = mergePostWith;
 
   protected getItemChunkName = (id: string) => {
@@ -157,7 +156,7 @@ test('ListManager.addItem', async (t) => {
   });
 
   await t.test('should save arrays inside added item in patch as is', async () => {
-    const item = await manager.addItem(addedItem, addedId);
+    const [, item] = await manager.addItem(addedItem, addedId);
 
     item.posts?.push({ service: 'tg', id: 9999, published: new Date() });
 

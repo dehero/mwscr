@@ -146,24 +146,34 @@ export abstract class ListReader<TItem> {
     return Promise.all(ids.map((id) => this.getEntry(id)));
   }
 
-  async findEntry(value: Partial<TItem>): Promise<ListReaderEntry<TItem> | undefined> {
+  /**
+   * Returns first entry that fulfills predicate. If no entry found, it returns `undefined`.
+   */
+  async findEntry(predicate: (value: TItem) => boolean): Promise<ListReaderEntry<TItem> | undefined> {
     for await (const entry of this.readAllEntries(true)) {
-      if (this.isItemEqual(entry[1], value)) {
+      if (predicate(entry[1])) {
         return entry;
       }
     }
     return undefined;
   }
 
-  async findEntries(values: Partial<TItem>[]): Promise<Array<ListReaderEntry<TItem> | undefined>> {
-    return Promise.all(values.map((value) => this.findEntry(value)));
+  /**
+   * Returns an array of all entries in the list that fulfill the given predicate.
+   */
+  async filterEntries(predicate: (value: TItem) => boolean): Promise<Array<ListReaderEntry<TItem>>> {
+    const result = [];
+    for await (const entry of this.readAllEntries(true)) {
+      if (predicate(entry[1])) {
+        result.push(entry);
+      }
+    }
+    return result;
   }
 
   readAllEntries = (skipReferences?: boolean) => this.yieldAllEntries(skipReferences);
 
   readChunkEntries = (chunkName: string, skipReferences?: boolean) => this.yieldChunkEntries(chunkName, skipReferences);
-
-  protected abstract isItemEqual(a: TItem, b: Partial<TItem>): boolean;
 
   /**
    * Loads a chunk of the list by name. If the chunk is not already in memory,
@@ -411,32 +421,44 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
   }
 
   /**
-   * Adds a new item to the list.
+   * Adds a new item to the list. If the item is a string, it is assumed to be a reference to another item in the list.
+   * If `id` is not provided, `createItemId` method will be used to generate an ID for the new item.
    * @throws Error if an item with the given ID already exists.
    * @throws Error if the given reference item ID does not exist.
    * @throws Error if the given item is invalid according to the ItemSchema.
    */
-  async addItem(item: TItem | string, id: string): Promise<TItem> {
-    let parsedItem = item;
+  async addItem(item: TItem, id?: string): Promise<ListReaderEntry<TItem>>;
+  async addItem(item: string, id: string): Promise<ListReaderEntry<TItem>>;
+  async addItem(item: TItem | string, id?: string): Promise<ListReaderEntry<TItem>> {
+    let addedId = id;
+    let addedItem = item;
 
-    if (await this.getItem(id)) {
-      throw new Error(`Error adding "${id}": item already exists`);
-    }
-
-    if (typeof parsedItem === 'string') {
-      const refItem = await this.getItem(parsedItem);
-      if (!refItem) {
-        throw new Error(`Error adding "${id}": reference item "${parsedItem}" was not found`);
+    if (addedId) {
+      if (await this.getItem(addedId)) {
+        throw new Error(`Error adding "${addedId}": item already exists`);
       }
-      this.mergePatch({ [id]: parsedItem });
-      return refItem;
+    } else if (typeof addedItem !== 'string') {
+      addedId = await this.createItemId(addedItem);
     }
 
-    parsedItem = parseSchema(this.ItemSchema, parsedItem, (message: string) => `Error adding "${id}": ${message}`);
+    if (!addedId) {
+      throw new Error(`Error adding item: missing item ID`);
+    }
 
-    this.mergePatch({ [id]: parsedItem });
+    if (typeof addedItem === 'string') {
+      const refItem = await this.getItem(addedItem);
+      if (!refItem) {
+        throw new Error(`Error adding "${id}": reference item "${addedItem}" was not found`);
+      }
+      this.mergePatch({ [addedId]: addedItem });
+      return [addedId, refItem];
+    }
 
-    return parsedItem;
+    addedItem = parseSchema(this.ItemSchema, addedItem, (message: string) => `Error adding "${id}": ${message}`);
+
+    this.mergePatch({ [addedId]: addedItem });
+
+    return [addedId, addedItem];
   }
 
   async mergeItems(id: string, ...withIds: string[]): Promise<TItem> {
@@ -455,23 +477,6 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     }
 
     return item;
-  }
-
-  async mergeItem(item: TItem): Promise<ListReaderEntry<TItem>> {
-    const entry = await this.findEntry(item);
-
-    if (!entry) {
-      const id = this.createItemId(item);
-      if (!id) {
-        throw new Error(`Cannot create item ID for ${JSON.stringify(item)}`);
-      }
-
-      return [id, await this.addItem(item, id)];
-    }
-
-    this.mergeItemWith(entry[1], item);
-
-    return entry;
   }
 
   /**
@@ -514,11 +519,13 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     }
   }
 
-  protected createItemId(_item: TItem): string | undefined {
+  /**
+   * Creates a unique ID for the given item in the list.
+   * Must be implemented by the child class to use `addItem` method without `id` argument.
+   */
+  protected async createItemId(_item: TItem): Promise<string> {
     throw new Error(`Implement ${this.constructor.name}.createItemId method`);
   }
-
-  // protected abstract patchItem(item: TItem, patch: TItemPatch): void;
 
   protected abstract mergeItemWith(item: TItem, withItem: TItem): void;
 

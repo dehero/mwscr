@@ -14,9 +14,8 @@ import {
   postType,
   postViolation,
 } from '../../core/entities/github-issue-field.js';
-import type { ListReaderEntry } from '../../core/entities/list-manager.js';
 import { searchListReaderItem } from '../../core/entities/list-manager.js';
-import type { Location } from '../../core/entities/location.js';
+import { locationMatchesString } from '../../core/entities/location.js';
 import {
   mergeAuthors,
   mergePostContents,
@@ -88,9 +87,9 @@ export async function resolve(issue: GithubIssue) {
   post.violation = safeParseSchema(PostViolation, violationStr);
   post.location = mergePostLocations(
     rawLocation
-      ? (await locations.findEntries(rawLocation.map((title) => ({ title }))))
-          .filter((entry): entry is ListReaderEntry<Location> => typeof entry !== 'undefined')
-          .map(([id]) => id)
+      ? (
+          await locations.filterEntries((location) => rawLocation.some((str) => locationMatchesString(location, str)))
+        ).map(([id]) => id)
       : undefined,
   );
 

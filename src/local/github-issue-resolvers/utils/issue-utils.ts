@@ -1,7 +1,7 @@
 import type { GithubIssue } from '../../../core/entities/github-issue.js';
 import { userName, userProfileIg, userProfileTg, userProfileVk } from '../../../core/entities/github-issue-field.js';
 import type { ListReaderEntry } from '../../../core/entities/list-manager.js';
-import type { User } from '../../../core/entities/user.js';
+import { mergeUserWith, type User } from '../../../core/entities/user.js';
 import { users } from '../../data-managers/users.js';
 
 const MARKDOWN_LINK_REGEX = /\[([^\]]+)\]\(([^\)]+)\)/g;
@@ -59,27 +59,23 @@ export function extractIssueTextareaValue(field: IssueFieldWithLabel, text: stri
 }
 
 export async function extractIssueUser(issue: GithubIssue): Promise<ListReaderEntry<User>> {
-  try {
-    const [issueUserId, issueUser] = await users.mergeItem({ profiles: { gh: issue.user.login } });
-
-    const name = extractIssueFieldValue(userName, issue.body);
-    if (name) {
-      const [userId] = (await users.findEntry({ name })) ?? [];
-      // Administrator can override issue user, his name and profiles
-      // New user can set his own name and profiles
-      if (!userId || userId === issueUserId || issueUser.admin) {
-        const ig = extractIssueFieldValue(userProfileIg, issue.body);
-        const tg = extractIssueFieldValue(userProfileTg, issue.body);
-        const vk = extractIssueFieldValue(userProfileVk, issue.body);
-
-        return users.mergeItem({ name, profiles: { ig, tg, vk } });
-      }
-    }
-
-    return [issueUserId, issueUser];
-  } finally {
-    await users.save();
+  let entry = await users.findEntry((user) => user.profiles?.gh === issue.user.login);
+  if (!entry) {
+    entry = await users.addItem({ profiles: { gh: issue.user.login } });
   }
+
+  const name = extractIssueFieldValue(userName, issue.body);
+  const ig = extractIssueFieldValue(userProfileIg, issue.body);
+  const tg = extractIssueFieldValue(userProfileTg, issue.body);
+  const vk = extractIssueFieldValue(userProfileVk, issue.body);
+
+  const user: User = { name, profiles: { ig, tg, vk } };
+
+  mergeUserWith(entry[1], user);
+
+  await users.save();
+
+  return entry;
 }
 
 export function extractIssueLinks(text: string) {

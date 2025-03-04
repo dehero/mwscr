@@ -1,3 +1,4 @@
+import { locationMatchesString } from '../../core/entities/location.js';
 import { RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { locations } from '../data-managers/locations.js';
@@ -43,7 +44,8 @@ async function checkPostsLocation() {
       const locationTitles = asArray(post.location);
 
       for (const locationTitle of locationTitles) {
-        const [, location] = (await locations.findEntry({ title: locationTitle })) ?? [];
+        const [, location] =
+          (await locations.findEntry((location) => locationMatchesString(location, locationTitle))) ?? [];
         if (location?.title !== locationTitle) {
           console.error(`Location "${locationTitle}" not found for ${manager.name} item "${id}".`);
           if (location) {
