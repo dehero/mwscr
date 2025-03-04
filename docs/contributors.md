@@ -77,7 +77,7 @@ Likes: 210
 
 ### nazareth
 
-[Instagram](https://instagram.com/ohsweetnazareth/)
+[Instagram](https://instagram.com/ohsweetnazareth/), [GitHub](https://github.com/ohsweetnazareth)
 
 Roles: `author` `beginner`  
 Authored: 1 pending  
