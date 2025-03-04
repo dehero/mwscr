@@ -9106,18 +9106,18 @@
     - service: vk
       id: 1597
       published: 2024-06-24-18-20-03
-      updated: 2025-02-25-17-08-32
+      updated: 2025-03-04-18-10-57
       followers: 917
       likes: 52
-      views: 322
+      views: 323
       reposts: 2
     - service: tg
       id: 449
       published: 2024-06-24-18-20-11
-      updated: 2025-02-25-17-08-32
+      updated: 2025-03-04-18-10-56
       followers: 388
       likes: 66
-      views: 586
+      views: 588
 2018-09-01-haze-in-tel-branora:
   title: Haze in Tel Branora
   titleRu: Мгла в Тель Браноре
@@ -12112,6 +12112,19 @@
       updated: 2025-02-26-12-15-08
       likes: 3
       views: 308
+    - service: ig
+      id: DGyXlepu_64
+      mediaId: '18059122184506345'
+      published: 2025-03-04-18-11-17
+      followers: 1538
+    - service: vk
+      id: 2169
+      published: 2025-03-04-18-11-25
+      followers: 1158
+    - service: tg
+      id: 734
+      published: 2025-03-04-18-11-32
+      followers: 690
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша

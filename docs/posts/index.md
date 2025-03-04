@@ -4,7 +4,35 @@
 
 # Posted in 2025
 
-`62 items`
+`63 items`
+
+## <span id="2025-03-04-onnissiralis">Onnissiralis</span>
+
+`RU` Оннисиралис
+
+<a href="https://instagram.com/p/Bp46WVAhC87/" title="2018-11-07-onnissiralis"><img alt="store:/shots/2018-11-07-onnissiralis.png" src="../../assets/previews/shots/2018-11-07-onnissiralis.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-04-onnissiralis&amp;postContent=store%3A%2Fshots%2F2018-11-07-onnissiralis.png&amp;postTitle=Onnissiralis&amp;postTitleRu=%D0%9E%D0%BD%D0%BD%D0%B8%D1%81%D0%B8%D1%80%D0%B0%D0%BB%D0%B8%D1%81&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Onnissiralis&amp;postMark=B2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B2` `📍 Onnissiralis` `🚀 OpenMW`
+
+```
+2025-03-04-onnissiralis
+```
+
+> `2018-11-07-onnissiralis`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/Bp46WVAhC87/)       | 2018-11-07 |       |    94 |       457 |      20.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_1034) | 2018-11-07 |   479 |    26 |       285 |       9.12 |
+| [`tg`](https://t.me/mwscr/113)                     | 2018-11-07 |   308 |     3 |           |            |
+| [`ig`](https://instagram.com/p/DGyXlepu_64/)       | 2025-03-04 |       |       |      1538 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2169) | 2025-03-04 |       |       |      1158 |            |
+| [`tg`](https://t.me/mwscr/734)                     | 2025-03-04 |       |       |       690 |            |
+|                                                    |            |       |       |      3386 |            |
 
 ## <span id="2025-03-03-night-pasture">Night Pasture</span>
 
@@ -35,10 +63,10 @@
 | [`ig`](https://instagram.com/p/CHODTMgB4_L/)       | 2020-11-05 |       |   174 |       918 |      18.95 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1287) | 2020-11-05 |  1532 |    91 |       456 |      21.05 |
 | [`tg`](https://t.me/mwscr/242)                     | 2020-11-05 |  1812 |    11 |       166 |       6.63 |
-| [`ig`](https://instagram.com/p/DGvyuWUyi_w/)       | 2025-03-03 |   215 |    55 |      1537 |       3.58 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2168) | 2025-03-03 |   187 |    34 |      1158 |       3.11 |
+| [`ig`](https://instagram.com/p/DGvyuWUyi_w/)       | 2025-03-03 |   218 |    56 |      1537 |       3.64 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2168) | 2025-03-03 |   188 |    34 |      1158 |       3.11 |
 | [`tg`](https://t.me/mwscr/733)                     | 2025-03-03 |   178 |    46 |       689 |       6.68 |
-|                                                    |            |   580 |   135 |      3384 |       4.45 |
+|                                                    |            |   584 |   136 |      3384 |       4.48 |
 
 #### Comments
 
@@ -78,10 +106,10 @@
 | [`ig`](https://instagram.com/p/CfmolBKM0ih/)       | 2022-07-04 |       |   208 |      1107 |      18.79 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1324) | 2022-07-04 |   487 |    64 |       738 |       9.08 |
 | [`tg`](https://t.me/mwscr/261,262,263,264)         | 2022-07-04 |   702 |    62 |       253 |      24.51 |
-| [`ig`](https://instagram.com/p/DGtT0r1vKNh/)       | 2025-03-02 |   318 |   108 |      1538 |       7.02 |
+| [`ig`](https://instagram.com/p/DGtT0r1vKNh/)       | 2025-03-02 |   319 |   108 |      1538 |       7.02 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2165) | 2025-03-02 |   327 |    49 |      1153 |       4.77 |
 | [`tg`](https://t.me/mwscr/729,730,731,732)         | 2025-03-02 |   408 |    52 |       687 |       7.57 |
-|                                                    |            |  1053 |   209 |      3378 |       6.45 |
+|                                                    |            |  1054 |   209 |      3378 |       6.45 |
 
 #### Comments
 
@@ -167,10 +195,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BSIisrCDPfE/)       | 2017-03-27 |       |    65 |       163 |      39.88 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_232)  | 2017-03-27 |   119 |     6 |        48 |          6 |
-| [`ig`](https://instagram.com/p/DGoEZrcTQ53/)       | 2025-02-28 |   307 |    83 |      1536 |        5.4 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |   314 |    43 |      1148 |       3.83 |
-| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |   314 |    51 |       685 |       7.45 |
-|                                                    |            |   935 |   177 |      3369 |       5.56 |
+| [`ig`](https://instagram.com/p/DGoEZrcTQ53/)       | 2025-02-28 |   313 |    84 |      1536 |       5.47 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |   335 |    45 |      1148 |       4.01 |
+| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |   353 |    52 |       685 |       7.59 |
+|                                                    |            |  1001 |   181 |      3369 |       5.69 |
 
 #### Comments
 
