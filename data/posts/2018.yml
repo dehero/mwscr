@@ -4405,10 +4405,10 @@
     - service: vk
       id: 2150
       published: 2025-02-26-18-11-07
-      updated: 2025-03-03-20-08-42
+      updated: 2025-03-04-21-07-35
       followers: 1134
       likes: 28
-      views: 381
+      views: 397
       comments: !c |-
         G8MA6C0SbNsOZyPCO+nyiOzUKKLbEx5ID5pxpiVYZMmszq10Q0umYujf8OwTOestBokdspR9QqP6
         H67ZFDm/NJUT1Q1DVHl0cqAnPAgfvxZJAViiLcwD7mRoU4pgez9/PX/t9V4tChl8gmLdjXCEF52G
@@ -12116,24 +12116,24 @@
       id: DGyXlepu_64
       mediaId: '18059122184506345'
       published: 2025-03-04-18-11-17
-      updated: 2025-03-04-20-08-41
+      updated: 2025-03-04-21-07-33
       followers: 1538
-      likes: 19
-      views: 61
+      likes: 23
+      views: 76
     - service: vk
       id: 2169
       published: 2025-03-04-18-11-25
-      updated: 2025-03-04-20-08-41
+      updated: 2025-03-04-21-07-33
       followers: 1158
-      likes: 6
-      views: 44
+      likes: 8
+      views: 55
     - service: tg
       id: 734
       published: 2025-03-04-18-11-32
-      updated: 2025-03-04-20-08-42
+      updated: 2025-03-04-21-07-33
       followers: 690
-      likes: 30
-      views: 112
+      likes: 32
+      views: 121
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
