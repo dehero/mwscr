@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.39.0](https://github.com/dehero/mwscr/compare/v1.38.0...v1.39.0) (2025-03-04)
+
+### Features
+
+- refuse mergeItem method and finding GitHub issue user by name
+  ([efeb181](https://github.com/dehero/mwscr/commit/efeb181692fc35ef0bd56fea6c6c6b1619132b02))
+
 ## [1.38.0](https://github.com/dehero/mwscr/compare/v1.37.4...v1.38.0) (2025-02-20)
 
 ### Features
