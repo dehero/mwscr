@@ -6439,18 +6439,18 @@
     - service: vk
       id: 1987
       published: 2024-12-23-18-10-51
-      updated: 2025-02-25-02-12-37
+      updated: 2025-03-04-02-14-53
       followers: 1027
       likes: 36
-      views: 375
+      views: 379
       reposts: 2
     - service: tg
       id: 635
       published: 2024-12-23-18-10-58
-      updated: 2025-02-25-02-12-35
+      updated: 2025-03-04-02-14-52
       followers: 592
-      likes: 64
-      views: 583
+      likes: 65
+      views: 734
       comments: !c |-
         CzmAkpTLQnk/S682gACtTG9mdHlkZWx1c2lvbrtTZXggd2l0aCBhbG1hbGV4aWEgdGVhbfCfkYmT
         y0J5P0vaLoAApWFuc2lzslNodXQgdXAgYmxhc3BoZW1lcpPLQnk/S3UbgAClYW5zaXOqU2xheSBx
