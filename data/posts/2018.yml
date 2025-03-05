@@ -7959,17 +7959,17 @@
     - service: vk
       id: 1866
       published: 2024-10-29-18-10-39
-      updated: 2025-02-26-10-09-29
+      updated: 2025-03-05-11-01-35
       followers: 1000
       likes: 47
-      views: 319
+      views: 320
     - service: tg
       id: 579
       published: 2024-10-29-18-10-47
-      updated: 2025-02-26-10-09-28
+      updated: 2025-03-05-11-01-34
       followers: 564
       likes: 59
-      views: 562
+      views: 564
 2018-07-29-stone-guards:
   title: Stone Guards
   titleRu: Каменные стражи
@@ -12123,10 +12123,10 @@
     - service: vk
       id: 2169
       published: 2025-03-04-18-11-25
-      updated: 2025-03-05-10-08-56
+      updated: 2025-03-05-11-01-32
       followers: 1158
       likes: 24
-      views: 137
+      views: 143
       comments: !c |-
         G4ABSK0OzJOmoxnI9PKR9WxGqHSK4EZhEvhFMScWcIkV4css6Ku6CW0xnpCAQTf9SvrvG5BtM2dD
         NKbbcFgeHlu2B9Mqb9QJh8i9LSGtXXSayDw9DiMrAG0tgYQyDDOIk85wwesr4cVj7F6uiOf4fn4z
@@ -12136,10 +12136,10 @@
     - service: tg
       id: 734
       published: 2025-03-04-18-11-32
-      updated: 2025-03-05-10-08-56
+      updated: 2025-03-05-11-01-32
       followers: 690
       likes: 39
-      views: 165
+      views: 167
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
