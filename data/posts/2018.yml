@@ -510,7 +510,7 @@
     - service: vk
       id: 1815
       published: 2024-10-08-18-10-28
-      updated: 2025-02-26-06-12-13
+      updated: 2025-03-05-07-08-29
       followers: 958
       likes: 39
       views: 337
@@ -519,10 +519,10 @@
     - service: tg
       id: 558
       published: 2024-10-08-18-10-34
-      updated: 2025-02-26-06-12-10
+      updated: 2025-03-05-07-08-27
       followers: 559
       likes: 64
-      views: 492
+      views: 493
 2018-01-15-no-students-for-hasphat-antabolis:
   title: No Students for Hasphat Antabolis
   titleRu: Хасфат Антаболис в поиске учеников
@@ -1367,7 +1367,7 @@
     - service: vk
       id: 1712
       published: 2024-08-27-18-20-10
-      updated: 2025-02-26-06-12-17
+      updated: 2025-03-05-07-08-33
       followers: 939
       likes: 30
       views: 340
@@ -1375,10 +1375,10 @@
     - service: tg
       id: 514
       published: 2024-08-27-18-20-15
-      updated: 2025-02-26-06-12-13
+      updated: 2025-03-05-07-08-30
       followers: 544
       likes: 62
-      views: 628
+      views: 629
 2018-02-06-evening-trees:
   title: Evening Trees
   titleRu: Вечерние деревья
@@ -2858,17 +2858,17 @@
     - service: vk
       id: 1795
       published: 2024-10-01-18-12-42
-      updated: 2025-02-26-06-12-14
+      updated: 2025-03-05-07-08-30
       followers: 957
       likes: 36
-      views: 548
+      views: 555
     - service: tg
       id: 551
       published: 2024-10-01-18-12-49
-      updated: 2025-02-26-06-12-11
+      updated: 2025-03-05-07-08-28
       followers: 557
       likes: 59
-      views: 567
+      views: 568
 2018-03-17-suran-temple:
   title: Suran Temple
   titleRu: Храм в Суране
@@ -6104,18 +6104,18 @@
     - service: vk
       id: 1921
       published: 2024-11-26-18-11-20
-      updated: 2025-02-26-06-12-06
+      updated: 2025-03-05-07-08-23
       followers: 1010
       likes: 48
-      views: 545
+      views: 548
       reposts: 3
     - service: tg
       id: 607
       published: 2024-11-26-18-11-30
-      updated: 2025-02-26-06-12-06
+      updated: 2025-03-05-07-08-22
       followers: 577
       likes: 67
-      views: 608
+      views: 614
       comments: !c |-
         G50A4GRinb/QliLUtyRcN15D2i0LaoDrSphOTvR4IPwecCJpFgAG2Jbu0J5/G5Mi6hgJX2kOKmEL
         AECXZzAqQTHDqVA6DNLKP59wMaT8MvylJpKDOMQyepXfvrd7yIX29rwmr4Xg8W1jXMCYbgZRBBKL
@@ -7831,10 +7831,10 @@
     - service: vk
       id: 1829
       published: 2024-10-15-18-10-16
-      updated: 2025-02-26-06-12-12
+      updated: 2025-03-05-07-08-28
       followers: 964
       likes: 58
-      views: 677
+      views: 680
       reposts: 3
       comments: !c |-
         G8wCAKwK7Db0SzHo5mWOcC1a8xD/j9yjZM1L7Sc/qUKpIPWCtjawZTThyblkU1XZnuPmREIcr5cl
@@ -7847,10 +7847,10 @@
     - service: tg
       id: 565
       published: 2024-10-15-18-10-22
-      updated: 2025-02-26-06-12-09
+      updated: 2025-03-05-07-08-26
       followers: 562
       likes: 60
-      views: 543
+      views: 545
 2018-07-26-framed-by-lianas:
   title: Framed by Lianas
   titleRu: В обрамлении лиан
@@ -12116,17 +12116,17 @@
       id: DGyXlepu_64
       mediaId: '18059122184506345'
       published: 2025-03-04-18-11-17
-      updated: 2025-03-05-06-11-58
+      updated: 2025-03-05-07-08-20
       followers: 1538
-      likes: 46
-      views: 144
+      likes: 50
+      views: 154
     - service: vk
       id: 2169
       published: 2025-03-04-18-11-25
-      updated: 2025-03-05-06-11-57
+      updated: 2025-03-05-07-08-20
       followers: 1158
-      likes: 19
-      views: 109
+      likes: 22
+      views: 120
       comments: !c |-
         G4ABSK0OzJOmoxnI9PKR9WxGqHSK4EZhEvhFMScWcIkV4css6Ku6CW0xnpCAQTf9SvrvG5BtM2dD
         NKbbcFgeHlu2B9Mqb9QJh8i9LSGtXXSayDw9DiMrAG0tgYQyDDOIk85wwesr4cVj7F6uiOf4fn4z
@@ -12136,10 +12136,10 @@
     - service: tg
       id: 734
       published: 2025-03-04-18-11-32
-      updated: 2025-03-05-06-11-58
+      updated: 2025-03-05-07-08-21
       followers: 690
-      likes: 36
-      views: 151
+      likes: 37
+      views: 156
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
