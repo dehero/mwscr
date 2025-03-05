@@ -202,7 +202,7 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2025-02-26-23-07-54
+      updated: 2025-03-05-23-08-17
       followers: 337
       likes: 91
       views: 619
@@ -3329,17 +3329,17 @@
     - service: vk
       id: 2172
       published: 2025-03-05-18-11-47
-      updated: 2025-03-05-22-07-48
+      updated: 2025-03-05-23-08-12
       followers: 1160
       likes: 14
-      views: 88
+      views: 93
     - service: tg
       id: 735
       published: 2025-03-05-18-11-54
-      updated: 2025-03-05-22-07-48
+      updated: 2025-03-05-23-08-12
       followers: 691
-      likes: 37
-      views: 119
+      likes: 38
+      views: 125
 2017-03-20-sun-moon-vivec:
   title: Sun, Moon, Vivec
   titleRu: Солнце, луна, Вивек
@@ -4284,10 +4284,10 @@
     - service: vk
       id: 2139
       published: 2025-02-19-18-11-18
-      updated: 2025-02-26-22-08-00
+      updated: 2025-03-05-23-08-14
       followers: 1102
       likes: 47
-      views: 336
+      views: 384
       comments: !c |-
         CyeAkZPLQnlSAJoagACpdmxhZGtyMTE02TjQrdGC0L4g0L/QtdGJ0LXRgNGDINGPINGD0LfQvdCw
         0Y4g0LjQtyDRgtGL0YHRj9GH0Lgg8J+YgQM=
@@ -11515,7 +11515,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2025-02-26-23-07-56
+      updated: 2025-03-05-23-08-20
       followers: 904
       likes: 44
       views: 297
@@ -12586,7 +12586,7 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2025-02-26-23-07-58
+      updated: 2025-03-05-23-08-22
       followers: 895
       likes: 35
       views: 296
@@ -12594,10 +12594,10 @@
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2025-02-26-23-07-53
+      updated: 2025-03-05-23-08-16
       followers: 343
       likes: 69
-      views: 537
+      views: 538
       comments: !c ixOAkZPLQnjhAF9lAACucXVpbnR1c19mYWJpdXOt8J+Pg+KAjeKZgu+4jwM=
 2017-11-16-cozy-workplace-in-the-basement:
   title: Cozy Workplace in the Basement
