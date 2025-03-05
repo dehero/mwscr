@@ -12123,10 +12123,10 @@
     - service: vk
       id: 2169
       published: 2025-03-04-18-11-25
-      updated: 2025-03-05-08-11-22
+      updated: 2025-03-05-09-08-43
       followers: 1158
       likes: 24
-      views: 129
+      views: 134
       comments: !c |-
         G4ABSK0OzJOmoxnI9PKR9WxGqHSK4EZhEvhFMScWcIkV4css6Ku6CW0xnpCAQTf9SvrvG5BtM2dD
         NKbbcFgeHlu2B9Mqb9QJh8i9LSGtXXSayDw9DiMrAG0tgYQyDDOIk85wwesr4cVj7F6uiOf4fn4z
@@ -12136,10 +12136,10 @@
     - service: tg
       id: 734
       published: 2025-03-04-18-11-32
-      updated: 2025-03-05-08-11-22
+      updated: 2025-03-05-09-08-43
       followers: 690
-      likes: 38
-      views: 158
+      likes: 39
+      views: 160
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
