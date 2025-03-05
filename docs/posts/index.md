@@ -4,7 +4,33 @@
 
 # Posted in 2025
 
-`63 items`
+`64 items`
+
+## <span id="2025-03-05-stairs-in-vansunalit-egg-mine">Stairs in Vansunalit Egg Mine</span>
+
+`RU` Лестница в яичной шахте Вансуналит
+
+<a href="https://instagram.com/p/BRz3mYqjHTt/" title="2017-03-19-stairs-in-vansunalit-egg-mine"><img alt="store:/shots/2017-03-19-stairs-in-vansunalit-egg-mine.png" src="../../assets/previews/shots/2017-03-19-stairs-in-vansunalit-egg-mine.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-05-stairs-in-vansunalit-egg-mine&amp;postContent=store%3A%2Fshots%2F2017-03-19-stairs-in-vansunalit-egg-mine.png&amp;postTitle=Stairs+in+Vansunalit+Egg+Mine&amp;postTitleRu=%D0%9B%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D1%86%D0%B0+%D0%B2+%D1%8F%D0%B8%D1%87%D0%BD%D0%BE%D0%B9+%D1%88%D0%B0%D1%85%D1%82%D0%B5+%D0%92%D0%B0%D0%BD%D1%81%D1%83%D0%BD%D0%B0%D0%BB%D0%B8%D1%82&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=cave+stair&amp;postLocation=Vansunalit+Egg+Mine&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Vansunalit Egg Mine` `🚀 OpenMW` `cave` `stair`
+
+```
+2025-03-05-stairs-in-vansunalit-egg-mine
+```
+
+> `2017-03-19-stairs-in-vansunalit-egg-mine`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BRz3mYqjHTt/)       | 2017-03-19 |       |    54 |       138 |      39.13 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_219)  | 2017-03-19 |   130 |     9 |        46 |          9 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2172) | 2025-03-05 |       |       |      1160 |            |
+| [`tg`](https://t.me/mwscr/735)                     | 2025-03-05 |       |       |       691 |            |
+|                                                    |            |       |       |      1851 |            |
 
 ## <span id="2025-03-04-onnissiralis">Onnissiralis</span>
 
@@ -30,9 +56,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1034) | 2018-11-07 |   479 |    26 |       285 |       9.12 |
 | [`tg`](https://t.me/mwscr/113)                     | 2018-11-07 |   308 |     3 |           |            |
 | [`ig`](https://instagram.com/p/DGyXlepu_64/)       | 2025-03-04 |   154 |    50 |      1538 |       3.25 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2169) | 2025-03-04 |   165 |    25 |      1158 |       2.16 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2169) | 2025-03-04 |   170 |    25 |      1158 |       2.16 |
 | [`tg`](https://t.me/mwscr/734)                     | 2025-03-04 |   181 |    41 |       690 |       5.94 |
-|                                                    |            |   500 |   116 |      3386 |       3.78 |
+|                                                    |            |   505 |   116 |      3386 |       3.78 |
 
 #### Comments
 
@@ -201,9 +227,9 @@
 | [`ig`](https://instagram.com/p/BSIisrCDPfE/)       | 2017-03-27 |       |    65 |       163 |      39.88 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_232)  | 2017-03-27 |   119 |     6 |        48 |          6 |
 | [`ig`](https://instagram.com/p/DGoEZrcTQ53/)       | 2025-02-28 |   313 |    84 |      1536 |       5.47 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |   335 |    45 |      1148 |       4.01 |
-| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |   353 |    52 |       685 |       7.59 |
-|                                                    |            |  1001 |   181 |      3369 |       5.69 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2155) | 2025-02-28 |   347 |    45 |      1148 |       4.01 |
+| [`tg`](https://t.me/mwscr/727)                     | 2025-02-28 |   389 |    53 |       685 |       7.74 |
+|                                                    |            |  1049 |   182 |      3369 |       5.74 |
 
 #### Comments
 

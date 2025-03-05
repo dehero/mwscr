@@ -3326,6 +3326,14 @@
       followers: 46
       likes: 9
       views: 130
+    - service: vk
+      id: 2172
+      published: 2025-03-05-18-11-47
+      followers: 1160
+    - service: tg
+      id: 735
+      published: 2025-03-05-18-11-54
+      followers: 691
 2017-03-20-sun-moon-vivec:
   title: Sun, Moon, Vivec
   titleRu: Солнце, луна, Вивек
@@ -3636,18 +3644,18 @@
     - service: vk
       id: 2155
       published: 2025-02-28-18-11-21
-      updated: 2025-03-04-18-10-55
+      updated: 2025-03-05-18-11-35
       followers: 1148
       likes: 45
-      views: 335
+      views: 347
       reposts: 1
     - service: tg
       id: 727
       published: 2025-02-28-18-11-29
-      updated: 2025-03-04-18-10-55
+      updated: 2025-03-05-18-11-35
       followers: 685
-      likes: 52
-      views: 353
+      likes: 53
+      views: 389
 2017-03-28-entrance-arch-of-propylon-chamber:
   title: Entrance Arch of Propylon Chamber
   titleRu: Вход Арочного зала
