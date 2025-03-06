@@ -5112,7 +5112,7 @@
     - service: vk
       id: 718
       published: 2018-05-12
-      updated: 2025-02-27-16-10-25
+      updated: 2025-03-06-17-07-41
       followers: 160
       likes: 16
       views: 309
@@ -5156,7 +5156,7 @@
     - service: vk
       id: 719
       published: 2018-05-13
-      updated: 2025-02-27-16-10-24
+      updated: 2025-03-06-17-07-40
       followers: 160
       likes: 30
       views: 428
@@ -5184,7 +5184,7 @@
     - service: vk
       id: 721
       published: 2018-05-14
-      updated: 2025-02-27-16-10-23
+      updated: 2025-03-06-17-07-39
       followers: 159
       likes: 18
       views: 256
@@ -5244,7 +5244,7 @@
     - service: vk
       id: 728
       published: 2018-05-15
-      updated: 2025-02-27-16-10-22
+      updated: 2025-03-06-17-07-38
       followers: 159
       likes: 21
       views: 266
@@ -5278,7 +5278,7 @@
     - service: vk
       id: 729
       published: 2018-05-16
-      updated: 2025-02-27-16-10-22
+      updated: 2025-03-06-17-07-37
       followers: 163
       likes: 18
       views: 261
@@ -5332,7 +5332,7 @@
     - service: vk
       id: 730
       published: 2018-05-17
-      updated: 2025-02-27-16-10-21
+      updated: 2025-03-06-17-07-36
       followers: 163
       likes: 11
       views: 293
@@ -5358,7 +5358,7 @@
     - service: vk
       id: 731
       published: 2018-05-18
-      updated: 2025-02-27-16-10-20
+      updated: 2025-03-06-17-07-35
       followers: 163
       likes: 14
       views: 253
@@ -5415,7 +5415,7 @@
     - service: vk
       id: 732
       published: 2018-05-19
-      updated: 2025-02-27-16-10-19
+      updated: 2025-03-06-17-07-34
       followers: 163
       likes: 18
       views: 329
@@ -5476,7 +5476,7 @@
     - service: vk
       id: 735
       published: 2018-05-20
-      updated: 2025-02-27-16-10-18
+      updated: 2025-03-06-17-07-33
       followers: 164
       likes: 16
       views: 224
@@ -5505,7 +5505,7 @@
     - service: vk
       id: 736
       published: 2018-05-21
-      updated: 2025-02-27-16-10-17
+      updated: 2025-03-06-17-07-32
       followers: 165
       likes: 25
       views: 250
@@ -12116,17 +12116,17 @@
       id: DGyXlepu_64
       mediaId: '18059122184506345'
       published: 2025-03-04-18-11-17
-      updated: 2025-03-06-16-09-44
+      updated: 2025-03-06-17-07-26
       followers: 1538
       likes: 58
-      views: 197
+      views: 198
     - service: vk
       id: 2169
       published: 2025-03-04-18-11-25
-      updated: 2025-03-06-16-09-45
+      updated: 2025-03-06-17-07-27
       followers: 1158
       likes: 26
-      views: 193
+      views: 194
       comments: !c |-
         G4ABSK0OzJOmoxnI9PKR9WxGqHSK4EZhEvhFMScWcIkV4css6Ku6CW0xnpCAQTf9SvrvG5BtM2dD
         NKbbcFgeHlu2B9Mqb9QJh8i9LSGtXXSayDw9DiMrAG0tgYQyDDOIk85wwesr4cVj7F6uiOf4fn4z
@@ -12136,10 +12136,10 @@
     - service: tg
       id: 734
       published: 2025-03-04-18-11-32
-      updated: 2025-03-06-16-09-44
+      updated: 2025-03-06-17-07-27
       followers: 690
       likes: 46
-      views: 220
+      views: 222
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
