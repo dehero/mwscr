@@ -8939,25 +8939,28 @@
       id: DG3hLu6sdd-
       mediaId: '18057302924020189'
       published: 2025-03-06-18-11-21
-      updated: 2025-03-06-19-02-00
+      updated: 2025-03-06-20-08-55
       followers: 1536
-      likes: 18
-      views: 28
+      likes: 27
+      views: 58
     - service: vk
       id: 2173
       published: 2025-03-06-18-11-28
-      updated: 2025-03-06-19-01-59
+      updated: 2025-03-06-20-08-56
       followers: 1164
-      likes: 12
-      views: 38
-      reposts: 1
+      likes: 15
+      views: 62
+      reposts: 2
     - service: tg
       id: 736
       published: 2025-03-06-18-11-35
-      updated: 2025-03-06-19-01-59
+      updated: 2025-03-06-20-08-57
       followers: 691
-      likes: 24
-      views: 79
+      likes: 31
+      views: 102
+      comments: !c |-
+        CyiAkZPLQnlWzhbiAACmQzRINk802T3QodCw0LzQsNGPINGD0Y7RgtC90LDRjyDQutCw0YDRgtC4
+        0L3QutCwINCyINC80LjRgNC1IPCfkprwn5KaAw==
 2018-08-28-southern-shore-of-northern-land:
   title: Southern Shore of Northern Land
   titleRu: Южный берег северной земли
