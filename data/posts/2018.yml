@@ -5954,7 +5954,7 @@
     - service: vk
       id: 754
       published: 2018-06-03
-      updated: 2025-02-27-14-08-02
+      updated: 2025-03-06-15-08-37
       followers: 170
       likes: 21
       views: 256
@@ -12116,17 +12116,17 @@
       id: DGyXlepu_64
       mediaId: '18059122184506345'
       published: 2025-03-04-18-11-17
-      updated: 2025-03-06-14-07-58
+      updated: 2025-03-06-15-08-35
       followers: 1538
       likes: 58
       views: 196
     - service: vk
       id: 2169
       published: 2025-03-04-18-11-25
-      updated: 2025-03-06-14-07-59
+      updated: 2025-03-06-15-08-36
       followers: 1158
       likes: 26
-      views: 192
+      views: 193
       comments: !c |-
         G4ABSK0OzJOmoxnI9PKR9WxGqHSK4EZhEvhFMScWcIkV4css6Ku6CW0xnpCAQTf9SvrvG5BtM2dD
         NKbbcFgeHlu2B9Mqb9QJh8i9LSGtXXSayDw9DiMrAG0tgYQyDDOIk85wwesr4cVj7F6uiOf4fn4z
@@ -12136,10 +12136,10 @@
     - service: tg
       id: 734
       published: 2025-03-04-18-11-32
-      updated: 2025-03-06-14-07-58
+      updated: 2025-03-06-15-08-35
       followers: 690
       likes: 46
-      views: 219
+      views: 220
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
