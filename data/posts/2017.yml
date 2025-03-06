@@ -3329,25 +3329,25 @@
     - service: vk
       id: 2172
       published: 2025-03-05-18-11-47
-      updated: 2025-03-06-07-08-31
+      updated: 2025-03-06-08-11-17
       followers: 1160
       likes: 24
-      views: 140
+      views: 148
     - service: tg
       id: 735
       published: 2025-03-05-18-11-54
-      updated: 2025-03-06-07-08-32
+      updated: 2025-03-06-08-11-17
       followers: 691
-      likes: 42
-      views: 148
+      likes: 43
+      views: 150
     - service: ig
       id: DG2NNSvNgYM
       mediaId: '17935045454996090'
       published: 2025-03-06-05-57-32
-      updated: 2025-03-06-07-08-32
+      updated: 2025-03-06-08-11-16
       followers: 1536
-      likes: 13
-      views: 41
+      likes: 18
+      views: 60
 2017-03-20-sun-moon-vivec:
   title: Sun, Moon, Vivec
   titleRu: Солнце, луна, Вивек
@@ -6233,10 +6233,10 @@
     - service: vk
       id: 1923
       published: 2024-11-27-18-11-33
-      updated: 2025-02-27-07-08-32
+      updated: 2025-03-06-08-11-19
       followers: 1010
       likes: 62
-      views: 921
+      views: 928
       reposts: 4
     - service: tg
       id: 608
@@ -9646,7 +9646,7 @@
     - service: vk
       id: 1817
       published: 2024-10-09-18-11-13
-      updated: 2025-02-27-07-08-36
+      updated: 2025-03-06-08-11-23
       followers: 957
       likes: 44
       views: 362
@@ -9654,10 +9654,10 @@
     - service: tg
       id: 559
       published: 2024-10-09-18-11-21
-      updated: 2025-02-27-07-08-35
+      updated: 2025-03-06-08-11-21
       followers: 559
       likes: 68
-      views: 642
+      views: 646
 2017-08-27-deadly-pass:
   title: Deadly Pass
   titleRu: Смертельный проход
@@ -13630,15 +13630,15 @@
     - service: vk
       id: 1833
       published: 2024-10-16-18-11-44
-      updated: 2025-02-27-07-08-35
+      updated: 2025-03-06-08-11-22
       followers: 965
       likes: 44
-      views: 446
+      views: 448
       reposts: 3
     - service: tg
       id: 566
       published: 2024-10-16-18-11-53
-      updated: 2025-02-27-07-08-33
+      updated: 2025-03-06-08-11-20
       followers: 562
       likes: 65
       views: 526
