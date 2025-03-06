@@ -2763,7 +2763,7 @@
     - service: tg
       id: 416
       published: 2024-05-22-18-19-31
-      updated: 2025-02-27-18-11-26
+      updated: 2025-03-06-19-02-07
       followers: 375
       likes: 57
       views: 467
@@ -3329,25 +3329,25 @@
     - service: vk
       id: 2172
       published: 2025-03-05-18-11-47
-      updated: 2025-03-06-18-10-39
+      updated: 2025-03-06-19-02-00
       followers: 1160
       likes: 31
-      views: 192
+      views: 196
     - service: tg
       id: 735
       published: 2025-03-05-18-11-54
-      updated: 2025-03-06-18-10-40
+      updated: 2025-03-06-19-02-00
       followers: 691
-      likes: 45
-      views: 169
+      likes: 51
+      views: 186
     - service: ig
       id: DG2NNSvNgYM
       mediaId: '17935045454996090'
       published: 2025-03-06-05-57-32
-      updated: 2025-03-06-18-10-40
+      updated: 2025-03-06-19-02-02
       followers: 1536
       likes: 44
-      views: 172
+      views: 174
 2017-03-20-sun-moon-vivec:
   title: Sun, Moon, Vivec
   titleRu: Солнце, луна, Вивек
@@ -3658,18 +3658,18 @@
     - service: vk
       id: 2155
       published: 2025-02-28-18-11-21
-      updated: 2025-03-05-18-11-35
+      updated: 2025-03-06-19-02-02
       followers: 1148
-      likes: 45
-      views: 347
+      likes: 46
+      views: 361
       reposts: 1
     - service: tg
       id: 727
       published: 2025-02-28-18-11-29
-      updated: 2025-03-05-18-11-35
+      updated: 2025-03-06-19-02-01
       followers: 685
-      likes: 53
-      views: 389
+      likes: 54
+      views: 405
 2017-03-28-entrance-arch-of-propylon-chamber:
   title: Entrance Arch of Propylon Chamber
   titleRu: Вход Арочного зала
@@ -5175,10 +5175,10 @@
     - service: vk
       id: 1569
       published: 2024-06-05-18-19-31
-      updated: 2025-02-27-18-11-24
+      updated: 2025-03-06-19-02-08
       followers: 916
       likes: 45
-      views: 333
+      views: 334
       reposts: 4
       comments: !c |-
         G6wAIIzUTrWGL7XI/5jbUlwoi1lEkLbQ0UgyTZtn/P0jUXl6SRRamFJhVFtJ+u1ywgMd6W5wogFy
@@ -5187,7 +5187,7 @@
     - service: tg
       id: 430
       published: 2024-06-05-18-19-36
-      updated: 2025-02-27-18-11-24
+      updated: 2025-03-06-19-02-06
       followers: 385
       likes: 70
       views: 540
@@ -6395,14 +6395,14 @@
     - service: vk
       id: 1612
       published: 2024-07-03-18-19-45
-      updated: 2025-02-27-18-11-21
+      updated: 2025-03-06-19-02-04
       followers: 917
       likes: 28
       views: 237
     - service: tg
       id: 458
       published: 2024-07-03-18-19-53
-      updated: 2025-02-27-18-11-21
+      updated: 2025-03-06-19-02-04
       followers: 391
       likes: 50
       views: 457
@@ -7058,10 +7058,10 @@
     - service: tg
       id: 487
       published: 2024-08-01-03-18-14
-      updated: 2025-02-27-18-11-20
+      updated: 2025-03-06-19-02-03
       followers: 423
       likes: 60
-      views: 785
+      views: 788
       comments: !c Cw6AkZPLQnkTOt+EgACscHVzdG90aXZldHJhpPCfmIID
     - service: vk
       id: 1663
@@ -7277,10 +7277,10 @@
       id: DGTeDcPJGYV
       mediaId: '18079508434724391'
       published: 2025-02-20-18-11-21
-      updated: 2025-02-27-19-01-33
+      updated: 2025-03-06-19-02-05
       followers: 1537
-      likes: 68
-      views: 379
+      likes: 72
+      views: 398
     - service: vk
       id: 2142
       published: 2025-02-20-18-11-30
@@ -7291,10 +7291,10 @@
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
-      updated: 2025-02-27-19-01-31
+      updated: 2025-03-06-19-02-02
       followers: 681
-      likes: 54
-      views: 327
+      likes: 56
+      views: 401
       comments: !c |-
         G8oAAOTgmif+K7FhFQbIR5SNq7iCKnS41tFAh/vGzjXeZiiKsk3jyBjPMy7dof7ulEakkf1b7VvU
         zZWub4BlRCAd0g3kDVJBJdka/3qNSjcE0v9jW6RQgxQtgktZ/dOQ5YAsEGmO7OFShHUU1TQ3ikq+
@@ -11225,14 +11225,14 @@
     - service: vk
       id: 1603
       published: 2024-06-26-18-19-40
-      updated: 2025-02-27-18-11-22
+      updated: 2025-03-06-19-02-05
       followers: 917
       likes: 42
-      views: 268
+      views: 269
     - service: tg
       id: 451
       published: 2024-06-26-18-19-49
-      updated: 2025-02-27-18-11-23
+      updated: 2025-03-06-19-02-05
       followers: 388
       likes: 56
       views: 487
