@@ -3233,7 +3233,7 @@
     - service: vk
       id: 1690
       published: 2024-08-14-18-25-51
-      updated: 2025-02-27-10-09-17
+      updated: 2025-03-06-11-07-17
       followers: 931
       likes: 52
       views: 503
@@ -3241,10 +3241,10 @@
     - service: tg
       id: 501
       published: 2024-08-14-18-26-00
-      updated: 2025-02-27-10-09-14
+      updated: 2025-03-06-11-07-15
       followers: 527
       likes: 67
-      views: 667
+      views: 669
       comments: !c CxSAkZPLQnkVbD7xgACpcmVzaXN0X2l0s9Co0LXQtNC10LLRgCDinaTvuI8D
 2017-03-18-arrival-in-dagon-fel:
   title: Arrival in Dagon Fel
@@ -3329,25 +3329,25 @@
     - service: vk
       id: 2172
       published: 2025-03-05-18-11-47
-      updated: 2025-03-06-10-08-58
+      updated: 2025-03-06-11-07-10
       followers: 1160
       likes: 27
-      views: 159
+      views: 166
     - service: tg
       id: 735
       published: 2025-03-05-18-11-54
-      updated: 2025-03-06-10-08-58
+      updated: 2025-03-06-11-07-10
       followers: 691
       likes: 43
-      views: 157
+      views: 158
     - service: ig
       id: DG2NNSvNgYM
       mediaId: '17935045454996090'
       published: 2025-03-06-05-57-32
-      updated: 2025-03-06-10-08-59
+      updated: 2025-03-06-11-07-11
       followers: 1536
-      likes: 30
-      views: 92
+      likes: 32
+      views: 105
 2017-03-20-sun-moon-vivec:
   title: Sun, Moon, Vivec
   titleRu: Солнце, луна, Вивек
@@ -8231,7 +8231,7 @@
     - service: vk
       id: 1736
       published: 2024-09-04-18-31-41
-      updated: 2025-02-27-10-09-14
+      updated: 2025-03-06-11-07-14
       followers: 942
       likes: 37
       views: 348
@@ -8242,10 +8242,10 @@
     - service: tg
       id: 522
       published: 2024-09-04-18-31-49
-      updated: 2025-02-27-10-09-12
+      updated: 2025-03-06-11-07-13
       followers: 550
       likes: 68
-      views: 809
+      views: 811
 2017-07-21-scamp-defending-the-entrance-to-maelkashishi:
   title: Scamp Defending the Entrance to Maelkashishi
   titleRu: Скамп, охраняющий вход в Мелкашиши

@@ -374,7 +374,7 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2025-02-27-10-09-18
+      updated: 2025-03-06-11-07-18
       followers: 927
       likes: 47
       views: 333
@@ -382,7 +382,7 @@
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2025-02-27-10-09-15
+      updated: 2025-03-06-11-07-16
       followers: 504
       likes: 75
       views: 749
@@ -7213,14 +7213,14 @@
     - service: vk
       id: 1700
       published: 2024-08-21-18-19-57
-      updated: 2025-02-27-10-09-16
+      updated: 2025-03-06-11-07-16
       followers: 937
       likes: 41
       views: 299
     - service: tg
       id: 508
       published: 2024-08-21-18-20-03
-      updated: 2025-02-27-10-09-13
+      updated: 2025-03-06-11-07-15
       followers: 538
       likes: 60
       views: 576
@@ -11505,7 +11505,7 @@
     - service: vk
       id: 1000
       published: 2018-10-23
-      updated: 2025-02-27-11-07-09
+      updated: 2025-03-06-11-07-23
       followers: 257
       likes: 26
       views: 435
@@ -11544,7 +11544,7 @@
     - service: vk
       id: 1001
       published: 2018-10-24
-      updated: 2025-02-27-10-09-21
+      updated: 2025-03-06-11-07-22
       followers: 258
       likes: 48
       views: 1010
@@ -11581,7 +11581,7 @@
     - service: vk
       id: 1002
       published: 2018-10-25
-      updated: 2025-02-27-10-09-20
+      updated: 2025-03-06-11-07-21
       followers: 259
       likes: 39
       views: 667
@@ -11613,7 +11613,7 @@
     - service: vk
       id: 1003
       published: 2018-10-26
-      updated: 2025-02-27-10-09-20
+      updated: 2025-03-06-11-07-20
       followers: 258
       likes: 22
       views: 419
@@ -11648,7 +11648,7 @@
     - service: vk
       id: 1004
       published: 2018-10-27
-      updated: 2025-02-27-10-09-19
+      updated: 2025-03-06-11-07-19
       followers: 258
       likes: 35
       views: 588
@@ -12116,17 +12116,17 @@
       id: DGyXlepu_64
       mediaId: '18059122184506345'
       published: 2025-03-04-18-11-17
-      updated: 2025-03-06-10-09-00
+      updated: 2025-03-06-11-07-12
       followers: 1538
-      likes: 57
-      views: 193
+      likes: 58
+      views: 194
     - service: vk
       id: 2169
       published: 2025-03-04-18-11-25
-      updated: 2025-03-06-10-08-59
+      updated: 2025-03-06-11-07-11
       followers: 1158
       likes: 26
-      views: 189
+      views: 190
       comments: !c |-
         G4ABSK0OzJOmoxnI9PKR9WxGqHSK4EZhEvhFMScWcIkV4css6Ku6CW0xnpCAQTf9SvrvG5BtM2dD
         NKbbcFgeHlu2B9Mqb9QJh8i9LSGtXXSayDw9DiMrAG0tgYQyDDOIk85wwesr4cVj7F6uiOf4fn4z
@@ -12136,10 +12136,10 @@
     - service: tg
       id: 734
       published: 2025-03-04-18-11-32
-      updated: 2025-03-06-10-09-00
+      updated: 2025-03-06-11-07-12
       followers: 690
       likes: 45
-      views: 215
+      views: 216
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
