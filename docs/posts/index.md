@@ -4,7 +4,38 @@
 
 # Posted in 2025
 
-`64 items`
+`65 items`
+
+## <span id="2025-03-06-coming-to-gnaar-mok">Coming to Gnaar Mok</span>
+
+`RU` Прибытие в Гнаар Мок
+
+<a href="https://instagram.com/p/Bm_jw4ElpBd/" title="2018-08-27-coming-to-gnaar-mok"><img alt="store:/shots/2018-08-27-coming-to-gnaar-mok.png" src="../../assets/previews/shots/2018-08-27-coming-to-gnaar-mok.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-06-coming-to-gnaar-mok&amp;postContent=store%3A%2Fshots%2F2018-08-27-coming-to-gnaar-mok.png&amp;postTitle=Coming+to+Gnaar+Mok&amp;postTitleRu=%D0%9F%D1%80%D0%B8%D0%B1%D1%8B%D1%82%D0%B8%D0%B5+%D0%B2+%D0%93%D0%BD%D0%B0%D0%B0%D1%80+%D0%9C%D0%BE%D0%BA&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=rain+netch&amp;postLocation=Gnaar+Mok&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Gnaar Mok` `🚀 OpenMW` `rain` `netch`
+
+```
+2025-03-06-coming-to-gnaar-mok
+```
+
+> `2018-08-27-coming-to-gnaar-mok`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/Bm_jw4ElpBd/)       | 2018-08-27 |       |   104 |       405 |      25.68 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_879)  | 2018-08-27 |   459 |    29 |       217 |      13.36 |
+| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |       |       |      1536 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |       |       |      1164 |            |
+| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |       |       |       691 |            |
+|                                                    |            |       |       |      3391 |            |
+
+#### Comments
+
+- `vk` <ins title="2018-08-31-12-38-54">dead___end</ins> Там всегда такая погода. Тропики..
 
 ## <span id="2025-03-05-stairs-in-vansunalit-egg-mine">Stairs in Vansunalit Egg Mine</span>
 
@@ -28,10 +59,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BRz3mYqjHTt/)       | 2017-03-19 |       |    54 |       138 |      39.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_219)  | 2017-03-19 |   130 |     9 |        46 |          9 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2172) | 2025-03-05 |   188 |    29 |      1160 |        2.5 |
-| [`tg`](https://t.me/mwscr/735)                     | 2025-03-05 |   168 |    45 |       691 |       6.51 |
-| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   168 |    42 |      1536 |       2.73 |
-|                                                    |            |   524 |   116 |      3387 |       3.92 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2172) | 2025-03-05 |   192 |    31 |      1160 |       2.67 |
+| [`tg`](https://t.me/mwscr/735)                     | 2025-03-05 |   169 |    45 |       691 |       6.51 |
+| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   172 |    44 |      1536 |       2.86 |
+|                                                    |            |   533 |   120 |      3387 |       4.02 |
 
 ## <span id="2025-03-04-onnissiralis">Onnissiralis</span>
 
@@ -96,9 +127,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1287) | 2020-11-05 |  1532 |    91 |       456 |      21.05 |
 | [`tg`](https://t.me/mwscr/242)                     | 2020-11-05 |  1813 |    11 |       166 |       6.63 |
 | [`ig`](https://instagram.com/p/DGvyuWUyi_w/)       | 2025-03-03 |   322 |    69 |      1537 |       4.49 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2168) | 2025-03-03 |   244 |    41 |      1158 |       3.71 |
-| [`tg`](https://t.me/mwscr/733)                     | 2025-03-03 |   218 |    51 |       689 |        7.4 |
-|                                                    |            |   784 |   161 |      3384 |        5.2 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2168) | 2025-03-03 |   287 |    44 |      1158 |       3.97 |
+| [`tg`](https://t.me/mwscr/733)                     | 2025-03-03 |   241 |    53 |       689 |       7.69 |
+|                                                    |            |   850 |   166 |      3384 |       5.38 |
 
 #### Comments
 
@@ -139,9 +170,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1324) | 2022-07-04 |   487 |    64 |       738 |       9.08 |
 | [`tg`](https://t.me/mwscr/261,262,263,264)         | 2022-07-04 |   703 |    62 |       253 |      24.51 |
 | [`ig`](https://instagram.com/p/DGtT0r1vKNh/)       | 2025-03-02 |   338 |   114 |      1538 |       7.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2165) | 2025-03-02 |   372 |    54 |      1153 |        5.2 |
-| [`tg`](https://t.me/mwscr/729,730,731,732)         | 2025-03-02 |   445 |    57 |       687 |        8.3 |
-|                                                    |            |  1155 |   225 |      3378 |       6.97 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2165) | 2025-03-02 |   410 |    55 |      1153 |       5.29 |
+| [`tg`](https://t.me/mwscr/729,730,731,732)         | 2025-03-02 |   493 |    60 |       687 |       8.73 |
+|                                                    |            |  1241 |   229 |      3378 |       7.15 |
 
 #### Comments
 
@@ -187,9 +218,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1418) | 2024-02-27 |   368 |    47 |       894 |       5.48 |
 | [`tg`](https://t.me/mwscr/329)                     | 2024-02-27 |   619 |    91 |       337 |         27 |
 | [`ig`](https://instagram.com/p/DGqpESxxAE9/)       | 2025-03-01 |   252 |    79 |      1537 |       5.14 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2157) | 2025-03-01 |   279 |    30 |      1150 |        2.7 |
-| [`tg`](https://t.me/mwscr/728)                     | 2025-03-01 |   269 |    56 |       687 |       8.15 |
-|                                                    |            |   800 |   165 |      3374 |       5.33 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2157) | 2025-03-01 |   306 |    31 |      1150 |       2.78 |
+| [`tg`](https://t.me/mwscr/728)                     | 2025-03-01 |   317 |    56 |       687 |       8.15 |
+|                                                    |            |   875 |   166 |      3374 |       5.36 |
 
 #### Comments
 
