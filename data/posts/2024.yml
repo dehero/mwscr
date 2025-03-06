@@ -3201,10 +3201,10 @@
     - service: vk
       id: 1957
       published: 2024-12-11-18-16-04
-      updated: 2025-02-27-02-13-27
+      updated: 2025-03-06-02-14-45
       followers: 1022
       likes: 47
-      views: 359
+      views: 361
       comments: !c |-
         G6kA+J0HtiP6ZSAvPcidQliIorhF+CDFXJgFXELNRJbsueksqRg6budnXpk6p0/2YFEr0AGtLVqz
         fDfUnX/kpy4qzdQxPMEMO4L7+a1T/OBavj0og6B2Yj8PGgW99bzW86hadqj+ufWdBjcxj49EvEdn
@@ -3212,10 +3212,10 @@
     - service: tg
       id: 622
       published: 2024-12-11-18-16-12
-      updated: 2025-02-27-02-13-26
+      updated: 2025-03-06-02-14-45
       followers: 581
       likes: 69
-      views: 617
+      views: 621
     - service: ig
       id: DDcvXvhTd7j
       mediaId: '18474431095051833'
