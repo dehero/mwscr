@@ -3329,25 +3329,25 @@
     - service: vk
       id: 2172
       published: 2025-03-05-18-11-47
-      updated: 2025-03-06-11-07-10
+      updated: 2025-03-06-12-14-20
       followers: 1160
-      likes: 27
-      views: 166
+      likes: 28
+      views: 174
     - service: tg
       id: 735
       published: 2025-03-05-18-11-54
-      updated: 2025-03-06-11-07-10
+      updated: 2025-03-06-12-14-21
       followers: 691
       likes: 43
-      views: 158
+      views: 159
     - service: ig
       id: DG2NNSvNgYM
       mediaId: '17935045454996090'
       published: 2025-03-06-05-57-32
-      updated: 2025-03-06-11-07-11
+      updated: 2025-03-06-12-14-20
       followers: 1536
-      likes: 32
-      views: 105
+      likes: 35
+      views: 117
 2017-03-20-sun-moon-vivec:
   title: Sun, Moon, Vivec
   titleRu: Солнце, луна, Вивек
