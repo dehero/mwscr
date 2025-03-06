@@ -28,15 +28,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/Bm_jw4ElpBd/)       | 2018-08-27 |       |   104 |       405 |      25.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_879)  | 2018-08-27 |   459 |    29 |       217 |      13.36 |
-| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |    84 |    35 |      1536 |       2.28 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |    90 |    21 |      1164 |       2.06 |
-| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   126 |    37 |       691 |       5.35 |
-|                                                    |            |   300 |    93 |      3391 |       3.23 |
+| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |    93 |    39 |      1536 |       2.54 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |    96 |    21 |      1164 |       2.06 |
+| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   132 |    37 |       691 |       5.35 |
+|                                                    |            |   321 |    97 |      3391 |       3.32 |
 
 #### Comments
 
 - `vk` <ins title="2018-08-31-12-38-54">dead___end</ins> Там всегда такая погода. Тропики..
 - `tg` <ins title="2025-03-06-19-14-28">C4H6O4</ins> Самая уютная картинка в мире 💚💚
+- `tg` <ins title="2025-03-06-22-18-35">Gatemate7</ins> that feeling you get when you finally get out of the hood and see some civilized peoole
 
 ## <span id="2025-03-05-stairs-in-vansunalit-egg-mine">Stairs in Vansunalit Egg Mine</span>
 
@@ -61,9 +62,9 @@
 | [`ig`](https://instagram.com/p/BRz3mYqjHTt/)       | 2017-03-19 |       |    54 |       138 |      39.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_219)  | 2017-03-19 |   130 |     9 |        46 |          9 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2172) | 2025-03-05 |   206 |    33 |      1160 |       2.84 |
-| [`tg`](https://t.me/mwscr/735)                     | 2025-03-05 |   198 |    52 |       691 |       7.53 |
-| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   183 |    48 |      1536 |       3.13 |
-|                                                    |            |   587 |   133 |      3387 |        4.5 |
+| [`tg`](https://t.me/mwscr/735)                     | 2025-03-05 |   199 |    52 |       691 |       7.53 |
+| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   185 |    48 |      1536 |       3.13 |
+|                                                    |            |   590 |   133 |      3387 |        4.5 |
 
 ## <span id="2025-03-04-onnissiralis">Onnissiralis</span>
 
