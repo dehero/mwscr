@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BUTvUYijqU8/)       | 2017-05-20 |       |    58 |       178 |      32.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_296)  | 2017-05-20 |   111 |    10 |        56 |      17.86 |
-| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |    84 |    33 |      1537 |       2.15 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |    51 |    16 |      1171 |       1.45 |
-| [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |    91 |    24 |       691 |       3.47 |
-|                                                    |            |   226 |    73 |      3399 |       2.36 |
+| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   107 |    36 |      1537 |       2.34 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |    65 |    20 |      1171 |       1.79 |
+| [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |    99 |    27 |       691 |       3.91 |
+|                                                    |            |   271 |    83 |      3399 |       2.68 |
 
 #### Comments
 
@@ -60,9 +60,9 @@
 | [`ig`](https://instagram.com/p/Bm_jw4ElpBd/)       | 2018-08-27 |       |   104 |       405 |      25.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_879)  | 2018-08-27 |   459 |    29 |       217 |      13.36 |
 | [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   167 |    56 |      1536 |       3.65 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   219 |    34 |      1164 |       3.26 |
-| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   200 |    42 |       691 |       6.08 |
-|                                                    |            |   586 |   132 |      3391 |       4.33 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   222 |    35 |      1164 |       3.35 |
+| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   201 |    42 |       691 |       6.08 |
+|                                                    |            |   590 |   133 |      3391 |       4.36 |
 
 #### Comments
 
@@ -72,6 +72,7 @@
 - `tg` <ins title="2025-03-07-00-50-05">BarryBananaDragon</ins> Unironically better water effects than Avowed.
 - `tg` <ins title="2025-03-07-07-47-58">MaxUpsher</ins> Doubtful place, but quite... Pretty
 - `vk` <ins title="2025-03-07-17-52-47">id8402179</ins> Это скрины из игры с какими-то hd модами?
+- `vk` <ins title="2025-03-07-20-32-12">artyom_melikhoff</ins> Гнаар определённо мог. Да, вот такой уровень юмора.
 
 ## <span id="2025-03-05-stairs-in-vansunalit-egg-mine">Stairs in Vansunalit Egg Mine</span>
 
@@ -97,8 +98,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_219)  | 2017-03-19 |   130 |     9 |        46 |          9 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2172) | 2025-03-05 |   240 |    36 |      1160 |        3.1 |
 | [`tg`](https://t.me/mwscr/735)                     | 2025-03-05 |   214 |    52 |       691 |       7.53 |
-| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   237 |    56 |      1536 |       3.65 |
-|                                                    |            |   691 |   144 |      3387 |       4.76 |
+| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   238 |    56 |      1536 |       3.65 |
+|                                                    |            |   692 |   144 |      3387 |       4.76 |
 
 ## <span id="2025-03-04-onnissiralis">Onnissiralis</span>
 
