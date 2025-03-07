@@ -28,14 +28,15 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BUTvUYijqU8/)       | 2017-05-20 |       |    58 |       178 |      32.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_296)  | 2017-05-20 |   111 |    10 |        56 |      17.86 |
-| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   120 |    39 |      1537 |       2.54 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |    77 |    25 |      1171 |       2.22 |
-| [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |   106 |    28 |       691 |       4.05 |
-|                                                    |            |   303 |    92 |      3399 |       2.94 |
+| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   135 |    44 |      1537 |       2.86 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |    86 |    26 |      1171 |       2.31 |
+| [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |   113 |    29 |       691 |        4.2 |
+|                                                    |            |   334 |    99 |      3399 |       3.12 |
 
 #### Comments
 
 - `ig` <ins title="2025-03-07-18-39-40">stellarshift69</ins> this is such a beautiful picture
+- `ig` <ins title="2025-03-07-22-02-29">eastcoast_lg</ins> I was there once
 
 ## <span id="2025-03-06-coming-to-gnaar-mok">Coming to Gnaar Mok</span>
 
@@ -60,9 +61,9 @@
 | [`ig`](https://instagram.com/p/Bm_jw4ElpBd/)       | 2018-08-27 |       |   104 |       405 |      25.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_879)  | 2018-08-27 |   459 |    29 |       217 |      13.36 |
 | [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   167 |    56 |      1536 |       3.65 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   224 |    36 |      1164 |       3.44 |
-| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   203 |    42 |       691 |       6.08 |
-|                                                    |            |   594 |   134 |      3391 |       4.39 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   226 |    36 |      1164 |       3.44 |
+| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   205 |    42 |       691 |       6.08 |
+|                                                    |            |   598 |   134 |      3391 |       4.39 |
 
 #### Comments
 
