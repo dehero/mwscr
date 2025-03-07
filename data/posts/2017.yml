@@ -3344,10 +3344,10 @@
       id: DG2NNSvNgYM
       mediaId: '17935045454996090'
       published: 2025-03-06-05-57-32
-      updated: 2025-03-07-19-01-58
+      updated: 2025-03-07-20-09-00
       followers: 1536
       likes: 56
-      views: 235
+      views: 237
 2017-03-20-sun-moon-vivec:
   title: Sun, Moon, Vivec
   titleRu: Солнце, луна, Вивек
@@ -3658,18 +3658,18 @@
     - service: vk
       id: 2155
       published: 2025-02-28-18-11-21
-      updated: 2025-03-06-19-02-02
+      updated: 2025-03-07-20-09-01
       followers: 1148
-      likes: 46
-      views: 361
+      likes: 51
+      views: 378
       reposts: 1
     - service: tg
       id: 727
       published: 2025-02-28-18-11-29
-      updated: 2025-03-06-19-02-01
+      updated: 2025-03-07-20-09-00
       followers: 685
       likes: 54
-      views: 405
+      views: 416
 2017-03-28-entrance-arch-of-propylon-chamber:
   title: Entrance Arch of Propylon Chamber
   titleRu: Вход Арочного зала
@@ -5945,27 +5945,28 @@
       id: DG6F-d9uFqA
       mediaId: '17909380499997603'
       published: 2025-03-07-18-11-20
-      updated: 2025-03-07-19-01-57
+      updated: 2025-03-07-20-08-58
       followers: 1537
-      likes: 22
-      views: 47
+      likes: 33
+      views: 84
       comments: !c |-
         GzsA+I2ULuLeujvRd6Fv14ucg1ptp35JAo8k86SaXG5BDmmkI51HJv2E5Bx1Ge4PcCOre5nRR0uW
         lxUvKJED
     - service: vk
       id: 2175
       published: 2025-03-07-18-11-28
-      updated: 2025-03-07-19-01-55
+      updated: 2025-03-07-20-08-57
       followers: 1171
-      likes: 9
-      views: 23
+      likes: 16
+      views: 51
+      reposts: 1
     - service: tg
       id: 737
       published: 2025-03-07-18-11-36
-      updated: 2025-03-07-19-01-55
+      updated: 2025-03-07-20-08-57
       followers: 691
-      likes: 17
-      views: 62
+      likes: 24
+      views: 91
 2017-05-21-table-in-magic-shop:
   title: Table in Magic Shop
   titleRu: Столик в магазине магии
@@ -9418,24 +9419,24 @@
       id: DGWCyCXNBkE
       mediaId: '18391620358107490'
       published: 2025-02-21-18-10-45
-      updated: 2025-02-28-19-02-26
+      updated: 2025-03-07-20-09-02
       followers: 1538
-      likes: 63
-      views: 250
+      likes: 68
+      views: 275
     - service: vk
       id: 2143
       published: 2025-02-21-18-10-54
-      updated: 2025-02-28-19-02-28
+      updated: 2025-03-07-20-09-02
       followers: 1112
       likes: 37
-      views: 306
+      views: 351
     - service: tg
       id: 717
       published: 2025-02-21-18-11-05
-      updated: 2025-02-28-19-02-27
+      updated: 2025-03-07-20-09-02
       followers: 682
-      likes: 52
-      views: 308
+      likes: 55
+      views: 381
 2017-08-20-sadrith-mora-at-night:
   title: Sadrith Mora at Night
   titleRu: Садрит Мора в ночи
