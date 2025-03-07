@@ -2962,10 +2962,10 @@
       id: DE5WIOBTqaO
       mediaId: '18075654520713798'
       published: 2025-01-16-18-10-26
-      updated: 2025-02-27-23-08-30
+      updated: 2025-03-07-00-37-59
       followers: 1522
       likes: 144
-      views: 582
+      views: 584
       comments: !c |-
         G/MAYBwHzpkvTmcI9S+FLu3y9DG2gHIBiQZXB5Y87XmwixboGqAFK1CLbNlyW6rXqiEZ3W/eAH3+
         HY86YjRGqk9PNDCupUnQVtaWSIQhtUB/veHDc2h7JDVSPru+HSn+swCPLzu3InPz0rM3m3Iwgs7R
@@ -3329,25 +3329,25 @@
     - service: vk
       id: 2172
       published: 2025-03-05-18-11-47
-      updated: 2025-03-06-23-08-29
+      updated: 2025-03-07-00-37-51
       followers: 1160
       likes: 33
       views: 206
     - service: tg
       id: 735
       published: 2025-03-05-18-11-54
-      updated: 2025-03-06-23-08-28
+      updated: 2025-03-07-00-37-52
       followers: 691
       likes: 52
-      views: 199
+      views: 200
     - service: ig
       id: DG2NNSvNgYM
       mediaId: '17935045454996090'
       published: 2025-03-06-05-57-32
-      updated: 2025-03-06-23-08-28
+      updated: 2025-03-07-00-37-51
       followers: 1536
-      likes: 48
-      views: 185
+      likes: 49
+      views: 190
 2017-03-20-sun-moon-vivec:
   title: Sun, Moon, Vivec
   titleRu: Солнце, луна, Вивек
@@ -3855,14 +3855,14 @@
     - service: vk
       id: 1498
       published: 2024-04-17-18-17-53
-      updated: 2025-02-27-23-08-34
+      updated: 2025-03-07-00-37-58
       followers: 910
       likes: 31
       views: 248
     - service: tg
       id: 381
       published: 2024-04-17-18-17-59
-      updated: 2025-02-27-23-08-31
+      updated: 2025-03-07-00-37-55
       followers: 354
       likes: 69
       views: 455
@@ -6590,14 +6590,14 @@
     - service: vk
       id: 1479
       published: 2024-04-03-18-11-35
-      updated: 2025-02-27-23-08-35
+      updated: 2025-03-07-00-38-00
       followers: 906
       likes: 22
       views: 261
     - service: tg
       id: 366
       published: 2024-04-03-18-11-41
-      updated: 2025-02-27-23-08-33
+      updated: 2025-03-07-00-37-56
       followers: 353
       likes: 54
       views: 464
@@ -7614,7 +7614,7 @@
     - service: vk
       id: 1460
       published: 2024-03-20-18-11-01
-      updated: 2025-02-27-23-08-37
+      updated: 2025-03-07-00-38-02
       followers: 896
       likes: 30
       views: 280
@@ -11663,7 +11663,7 @@
     - service: vk
       id: 1438
       published: 2024-03-06-18-18-26
-      updated: 2025-02-27-23-08-38
+      updated: 2025-03-07-00-38-03
       followers: 894
       likes: 43
       views: 274
@@ -13236,17 +13236,17 @@
     - service: vk
       id: 1515
       published: 2024-05-01-18-18-32
-      updated: 2025-02-27-23-08-32
+      updated: 2025-03-07-00-37-57
       followers: 911
       likes: 28
       views: 257
     - service: tg
       id: 395
       published: 2024-05-01-18-18-41
-      updated: 2025-02-27-23-08-30
+      updated: 2025-03-07-00-37-54
       followers: 363
       likes: 59
-      views: 475
+      views: 476
 2017-12-04-ruins-in-a-mountain-dead-end:
   title: Ruins in a Mountain Dead End
   titleRu: Руины в горном тупике
