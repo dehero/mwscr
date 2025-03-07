@@ -1539,14 +1539,14 @@
     - service: vk
       id: 1818
       published: 2024-10-10-18-10-22
-      updated: 2025-02-28-07-08-32
+      updated: 2025-03-07-08-11-25
       followers: 960
       likes: 36
       views: 332
     - service: tg
       id: 560
       published: 2024-10-10-18-10-28
-      updated: 2025-02-28-07-08-31
+      updated: 2025-03-07-08-11-24
       followers: 559
       likes: 62
       views: 489
@@ -3329,14 +3329,14 @@
     - service: vk
       id: 2172
       published: 2025-03-05-18-11-47
-      updated: 2025-03-07-07-08-33
+      updated: 2025-03-07-08-11-23
       followers: 1160
       likes: 33
-      views: 214
+      views: 215
     - service: tg
       id: 735
       published: 2025-03-05-18-11-54
-      updated: 2025-03-07-07-08-33
+      updated: 2025-03-07-08-11-24
       followers: 691
       likes: 52
       views: 209
@@ -3344,10 +3344,10 @@
       id: DG2NNSvNgYM
       mediaId: '17935045454996090'
       published: 2025-03-06-05-57-32
-      updated: 2025-03-07-07-08-32
+      updated: 2025-03-07-08-11-23
       followers: 1536
       likes: 54
-      views: 209
+      views: 212
 2017-03-20-sun-moon-vivec:
   title: Sun, Moon, Vivec
   titleRu: Солнце, луна, Вивек
@@ -12178,7 +12178,7 @@
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2025-02-28-07-08-33
+      updated: 2025-03-07-08-11-26
       followers: 958
       likes: 47
       views: 352
@@ -12226,10 +12226,10 @@
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2025-02-28-07-08-32
+      updated: 2025-03-07-08-11-25
       followers: 560
       likes: 65
-      views: 564
+      views: 565
       comments: !c ixiAkZPLQnkljeH0gACnQmFyYUZveL5UcnVseSwgdGhlIHJvYWQgbW9zdCB0cmF2ZWxsZWQD
 2017-11-06-shore-shroom:
   title: Shore Shroom

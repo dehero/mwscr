@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/Bm_jw4ElpBd/)       | 2018-08-27 |       |   104 |       405 |      25.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_879)  | 2018-08-27 |   459 |    29 |       217 |      13.36 |
-| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   125 |    45 |      1536 |       2.93 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   155 |    29 |      1164 |       2.75 |
-| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   164 |    41 |       691 |       5.93 |
-|                                                    |            |   444 |   115 |      3391 |       3.87 |
+| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   131 |    45 |      1536 |       2.93 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   166 |    32 |      1164 |       3.01 |
+| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   166 |    42 |       691 |       6.08 |
+|                                                    |            |   463 |   119 |      3391 |          4 |
 
 #### Comments
 
@@ -39,6 +39,7 @@
 - `tg` <ins title="2025-03-06-19-14-28">C4H6O4</ins> Самая уютная картинка в мире 💚💚
 - `tg` <ins title="2025-03-06-22-18-35">Gatemate7</ins> that feeling you get when you finally get out of the hood and see some civilized peoole
 - `tg` <ins title="2025-03-07-00-50-05">BarryBananaDragon</ins> Unironically better water effects than Avowed.
+- `tg` <ins title="2025-03-07-07-47-58">MaxUpsher</ins> Doubtful place, but quite... Pretty
 
 ## <span id="2025-03-05-stairs-in-vansunalit-egg-mine">Stairs in Vansunalit Egg Mine</span>
 
@@ -62,10 +63,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BRz3mYqjHTt/)       | 2017-03-19 |       |    54 |       138 |      39.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_219)  | 2017-03-19 |   130 |     9 |        46 |          9 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2172) | 2025-03-05 |   214 |    33 |      1160 |       2.84 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2172) | 2025-03-05 |   215 |    33 |      1160 |       2.84 |
 | [`tg`](https://t.me/mwscr/735)                     | 2025-03-05 |   209 |    52 |       691 |       7.53 |
-| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   209 |    54 |      1536 |       3.52 |
-|                                                    |            |   632 |   139 |      3387 |       4.63 |
+| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   212 |    54 |      1536 |       3.52 |
+|                                                    |            |   636 |   139 |      3387 |       4.63 |
 
 ## <span id="2025-03-04-onnissiralis">Onnissiralis</span>
 
@@ -129,10 +130,10 @@
 | [`ig`](https://instagram.com/p/CHODTMgB4_L/)       | 2020-11-05 |       |   174 |       918 |      18.95 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1287) | 2020-11-05 |  1532 |    91 |       456 |      21.05 |
 | [`tg`](https://t.me/mwscr/242)                     | 2020-11-05 |  1813 |    11 |       166 |       6.63 |
-| [`ig`](https://instagram.com/p/DGvyuWUyi_w/)       | 2025-03-03 |   322 |    69 |      1537 |       4.49 |
+| [`ig`](https://instagram.com/p/DGvyuWUyi_w/)       | 2025-03-03 |   333 |    71 |      1537 |       4.62 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2168) | 2025-03-03 |   287 |    44 |      1158 |       3.97 |
 | [`tg`](https://t.me/mwscr/733)                     | 2025-03-03 |   241 |    53 |       689 |       7.69 |
-|                                                    |            |   850 |   166 |      3384 |       5.38 |
+|                                                    |            |   861 |   168 |      3384 |       5.43 |
 
 #### Comments
 
