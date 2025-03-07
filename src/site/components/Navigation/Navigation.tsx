@@ -13,6 +13,7 @@ import { usersRoute } from '../../routes/users-route.js';
 import { Button } from '../Button/Button.js';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Select } from '../Select/Select.js';
+import { Uploader } from '../Uploader/Uploader.jsx';
 import styles from './Navigation.module.css';
 
 const navigationItems = [
@@ -75,6 +76,8 @@ export const Navigation: Component = () => {
   return (
     <nav class={styles.container}>
       <div class={styles.shortcuts}>
+        <Uploader />
+
         <Button
           href={createDetachedDialogFragment('contributing', { tab: patchSize() > 0 ? 'patch' : 'variants' })}
           class={styles.patch}
