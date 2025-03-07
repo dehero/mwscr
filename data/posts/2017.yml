@@ -3329,25 +3329,25 @@
     - service: vk
       id: 2172
       published: 2025-03-05-18-11-47
-      updated: 2025-03-07-00-37-51
+      updated: 2025-03-07-02-15-44
       followers: 1160
       likes: 33
-      views: 206
+      views: 209
     - service: tg
       id: 735
       published: 2025-03-05-18-11-54
-      updated: 2025-03-07-00-37-52
+      updated: 2025-03-07-02-15-45
       followers: 691
       likes: 52
-      views: 200
+      views: 201
     - service: ig
       id: DG2NNSvNgYM
       mediaId: '17935045454996090'
       published: 2025-03-06-05-57-32
-      updated: 2025-03-07-00-37-51
+      updated: 2025-03-07-02-15-44
       followers: 1536
-      likes: 49
-      views: 190
+      likes: 50
+      views: 195
 2017-03-20-sun-moon-vivec:
   title: Sun, Moon, Vivec
   titleRu: Солнце, луна, Вивек
@@ -7137,7 +7137,7 @@
     - service: vk
       id: 1445
       published: 2024-03-13-18-17-34
-      updated: 2025-02-28-02-14-14
+      updated: 2025-03-07-02-15-52
       followers: 897
       likes: 33
       views: 288
@@ -7148,10 +7148,10 @@
     - service: tg
       id: 344
       published: 2024-03-13-18-17-41
-      updated: 2025-02-28-02-14-11
+      updated: 2025-03-07-02-15-48
       followers: 349
       likes: 64
-      views: 546
+      views: 547
       comments: !c |-
         G+4DIJwHtg3vDJUeLhr3Ytksel4GJ8VfjU2IonUTmmlCUlQZIZopShGVe2abWOWrKpxsJVc1M7kn
         geMPkkfqWXBuQjMYRir9LQt4FqkTGEiCtJHbYgK/vtTEf4JZTpRIXWb+bwn6MdAMw8yu066bbuxF
@@ -9350,7 +9350,7 @@
     - service: vk
       id: 1885
       published: 2024-11-07-18-10-36
-      updated: 2025-02-28-02-14-13
+      updated: 2025-03-07-02-15-51
       followers: 1005
       likes: 33
       views: 324

@@ -28,16 +28,17 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/Bm_jw4ElpBd/)       | 2018-08-27 |       |   104 |       405 |      25.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_879)  | 2018-08-27 |   459 |    29 |       217 |      13.36 |
-| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   100 |    39 |      1536 |       2.54 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   103 |    23 |      1164 |       2.23 |
-| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   137 |    38 |       691 |        5.5 |
-|                                                    |            |   340 |   100 |      3391 |       3.42 |
+| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   108 |    41 |      1536 |       2.67 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   112 |    26 |      1164 |       2.49 |
+| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   143 |    39 |       691 |       5.64 |
+|                                                    |            |   363 |   106 |      3391 |        3.6 |
 
 #### Comments
 
 - `vk` <ins title="2018-08-31-12-38-54">dead___end</ins> Там всегда такая погода. Тропики..
 - `tg` <ins title="2025-03-06-19-14-28">C4H6O4</ins> Самая уютная картинка в мире 💚💚
 - `tg` <ins title="2025-03-06-22-18-35">Gatemate7</ins> that feeling you get when you finally get out of the hood and see some civilized peoole
+- `tg` <ins title="2025-03-07-00-50-05">BarryBananaDragon</ins> Unironically better water effects than Avowed.
 
 ## <span id="2025-03-05-stairs-in-vansunalit-egg-mine">Stairs in Vansunalit Egg Mine</span>
 
@@ -61,10 +62,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BRz3mYqjHTt/)       | 2017-03-19 |       |    54 |       138 |      39.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_219)  | 2017-03-19 |   130 |     9 |        46 |          9 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2172) | 2025-03-05 |   206 |    33 |      1160 |       2.84 |
-| [`tg`](https://t.me/mwscr/735)                     | 2025-03-05 |   200 |    52 |       691 |       7.53 |
-| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   190 |    49 |      1536 |       3.19 |
-|                                                    |            |   596 |   134 |      3387 |       4.52 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2172) | 2025-03-05 |   209 |    33 |      1160 |       2.84 |
+| [`tg`](https://t.me/mwscr/735)                     | 2025-03-05 |   201 |    52 |       691 |       7.53 |
+| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   195 |    50 |      1536 |       3.26 |
+|                                                    |            |   605 |   135 |      3387 |       4.54 |
 
 ## <span id="2025-03-04-onnissiralis">Onnissiralis</span>
 
@@ -1979,10 +1980,10 @@
 | [`ig`](https://instagram.com/p/BnMZPStF4mh/)       | 2018-09-01 |       |   122 |       407 |      29.98 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_888)  | 2018-09-01 |   390 |    32 |       219 |      14.61 |
 | [`tg`](https://t.me/mwscr/4)                       | 2018-09-01 |   264 |     4 |           |            |
-| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   644 |   109 |      1525 |       7.15 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   396 |    59 |      1051 |        5.9 |
+| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   647 |   110 |      1525 |       7.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   398 |    59 |      1051 |        5.9 |
 | [`tg`](https://t.me/mwscr/658)                     | 2025-01-09 |   520 |    64 |       647 |       9.89 |
-|                                                    |            |  1560 |   232 |      3223 |       7.65 |
+|                                                    |            |  1565 |   233 |      3223 |       7.67 |
 
 #### Comments
 
