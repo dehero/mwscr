@@ -1,5 +1,7 @@
 export function getResourcePreviewUrl(url: string | undefined) {
-  return url?.replace(/^store:\/(.*)\..*/, '/previews/$1.avif');
+  return url
+    ?.replace(/^store:\/(.*)\..*/, '/previews/$1.avif')
+    .replace(/^https\:\/\/mwscr\.dehero\.site\/uploads\/(.*)\..*/, '/uploads/$1.webp');
 }
 
 // TODO: create lightweight video version and preview image automatically. Now used manual scripts:
