@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`65 items`
+`66 items`
+
+## <span id="2025-03-07-at-the-edge-of-the-world">At the Edge of the World</span>
+
+`RU` На краю света
+
+<a href="https://instagram.com/p/BUTvUYijqU8/" title="2017-05-20-at-the-edge-of-the-world"><img alt="store:/shots/2017-05-20-at-the-edge-of-the-world.png" src="../../assets/previews/shots/2017-05-20-at-the-edge-of-the-world.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-07-at-the-edge-of-the-world&amp;postContent=store%3A%2Fshots%2F2017-05-20-at-the-edge-of-the-world.png&amp;postTitle=At+the+Edge+of+the+World&amp;postTitleRu=%D0%9D%D0%B0+%D0%BA%D1%80%D0%B0%D1%8E+%D1%81%D0%B2%D0%B5%D1%82%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=flowers+sky+sea&amp;postLocation=Ascadian+Isles+Region&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Ascadian Isles Region` `🚀 OpenMW` `flowers` `sky` `sea`
+
+```
+2025-03-07-at-the-edge-of-the-world
+```
+
+> `2017-05-20-at-the-edge-of-the-world`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BUTvUYijqU8/)       | 2017-05-20 |       |    58 |       178 |      32.58 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_296)  | 2017-05-20 |   111 |    10 |        56 |      17.86 |
+| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |       |       |      1537 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |       |       |      1171 |            |
+| [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |       |       |       691 |            |
+|                                                    |            |       |       |      3399 |            |
 
 ## <span id="2025-03-06-coming-to-gnaar-mok">Coming to Gnaar Mok</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/Bm_jw4ElpBd/)       | 2018-08-27 |       |   104 |       405 |      25.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_879)  | 2018-08-27 |   459 |    29 |       217 |      13.36 |
-| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   158 |    56 |      1536 |       3.65 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   212 |    32 |      1164 |       3.09 |
-| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   180 |    42 |       691 |       6.08 |
-|                                                    |            |   550 |   130 |      3391 |       4.27 |
+| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   162 |    56 |      1536 |       3.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   215 |    33 |      1164 |       3.18 |
+| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   182 |    42 |       691 |       6.08 |
+|                                                    |            |   559 |   131 |      3391 |        4.3 |
 
 #### Comments
 
@@ -40,6 +67,7 @@
 - `tg` <ins title="2025-03-06-22-18-35">Gatemate7</ins> that feeling you get when you finally get out of the hood and see some civilized peoole
 - `tg` <ins title="2025-03-07-00-50-05">BarryBananaDragon</ins> Unironically better water effects than Avowed.
 - `tg` <ins title="2025-03-07-07-47-58">MaxUpsher</ins> Doubtful place, but quite... Pretty
+- `vk` <ins title="2025-03-07-17-52-47">id8402179</ins> Это скрины из игры с какими-то hd модами?
 
 ## <span id="2025-03-05-stairs-in-vansunalit-egg-mine">Stairs in Vansunalit Egg Mine</span>
 
@@ -63,10 +91,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BRz3mYqjHTt/)       | 2017-03-19 |       |    54 |       138 |      39.13 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_219)  | 2017-03-19 |   130 |     9 |        46 |          9 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2172) | 2025-03-05 |   237 |    36 |      1160 |        3.1 |
-| [`tg`](https://t.me/mwscr/735)                     | 2025-03-05 |   213 |    52 |       691 |       7.53 |
-| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   229 |    56 |      1536 |       3.65 |
-|                                                    |            |   679 |   144 |      3387 |       4.76 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2172) | 2025-03-05 |   240 |    36 |      1160 |        3.1 |
+| [`tg`](https://t.me/mwscr/735)                     | 2025-03-05 |   214 |    52 |       691 |       7.53 |
+| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   230 |    56 |      1536 |       3.65 |
+|                                                    |            |   684 |   144 |      3387 |       4.76 |
 
 ## <span id="2025-03-04-onnissiralis">Onnissiralis</span>
 
@@ -91,10 +119,10 @@
 | [`ig`](https://instagram.com/p/Bp46WVAhC87/)       | 2018-11-07 |       |    94 |       457 |      20.57 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1034) | 2018-11-07 |   479 |    26 |       285 |       9.12 |
 | [`tg`](https://t.me/mwscr/113)                     | 2018-11-07 |   308 |     3 |           |            |
-| [`ig`](https://instagram.com/p/DGyXlepu_64/)       | 2025-03-04 |   198 |    58 |      1538 |       3.77 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2169) | 2025-03-04 |   194 |    26 |      1158 |       2.25 |
-| [`tg`](https://t.me/mwscr/734)                     | 2025-03-04 |   222 |    46 |       690 |       6.67 |
-|                                                    |            |   614 |   130 |      3386 |       4.23 |
+| [`ig`](https://instagram.com/p/DGyXlepu_64/)       | 2025-03-04 |   201 |    58 |      1538 |       3.77 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2169) | 2025-03-04 |   226 |    30 |      1158 |       2.59 |
+| [`tg`](https://t.me/mwscr/734)                     | 2025-03-04 |   238 |    48 |       690 |       6.96 |
+|                                                    |            |   665 |   136 |      3386 |       4.44 |
 
 #### Comments
 
@@ -131,9 +159,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1287) | 2020-11-05 |  1532 |    91 |       456 |      21.05 |
 | [`tg`](https://t.me/mwscr/242)                     | 2020-11-05 |  1813 |    11 |       166 |       6.63 |
 | [`ig`](https://instagram.com/p/DGvyuWUyi_w/)       | 2025-03-03 |   333 |    71 |      1537 |       4.62 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2168) | 2025-03-03 |   287 |    44 |      1158 |       3.97 |
-| [`tg`](https://t.me/mwscr/733)                     | 2025-03-03 |   241 |    53 |       689 |       7.69 |
-|                                                    |            |   861 |   168 |      3384 |       5.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2168) | 2025-03-03 |   324 |    49 |      1158 |        4.4 |
+| [`tg`](https://t.me/mwscr/733)                     | 2025-03-03 |   268 |    54 |       689 |       7.84 |
+|                                                    |            |   925 |   174 |      3384 |       5.62 |
 
 #### Comments
 
@@ -174,9 +202,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1324) | 2022-07-04 |   487 |    64 |       738 |       9.08 |
 | [`tg`](https://t.me/mwscr/261,262,263,264)         | 2022-07-04 |   703 |    62 |       253 |      24.51 |
 | [`ig`](https://instagram.com/p/DGtT0r1vKNh/)       | 2025-03-02 |   354 |   117 |      1538 |       7.61 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2165) | 2025-03-02 |   410 |    55 |      1153 |       5.29 |
-| [`tg`](https://t.me/mwscr/729,730,731,732)         | 2025-03-02 |   493 |    60 |       687 |       8.73 |
-|                                                    |            |  1257 |   232 |      3378 |       7.21 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2165) | 2025-03-02 |   443 |    58 |      1153 |       5.55 |
+| [`tg`](https://t.me/mwscr/729,730,731,732)         | 2025-03-02 |   567 |    60 |       687 |       8.73 |
+|                                                    |            |  1364 |   235 |      3378 |        7.3 |
 
 #### Comments
 
@@ -222,9 +250,9 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_1418) | 2024-02-27 |   368 |    47 |       894 |       5.48 |
 | [`tg`](https://t.me/mwscr/329)                     | 2024-02-27 |   619 |    91 |       337 |         27 |
 | [`ig`](https://instagram.com/p/DGqpESxxAE9/)       | 2025-03-01 |   256 |    80 |      1537 |        5.2 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2157) | 2025-03-01 |   306 |    31 |      1150 |       2.78 |
-| [`tg`](https://t.me/mwscr/728)                     | 2025-03-01 |   317 |    56 |       687 |       8.15 |
-|                                                    |            |   879 |   167 |      3374 |       5.38 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2157) | 2025-03-01 |   322 |    32 |      1150 |       2.87 |
+| [`tg`](https://t.me/mwscr/728)                     | 2025-03-01 |   333 |    56 |       687 |       8.15 |
+|                                                    |            |   911 |   168 |      3374 |       5.41 |
 
 #### Comments
 

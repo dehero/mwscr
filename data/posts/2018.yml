@@ -8939,25 +8939,28 @@
       id: DG3hLu6sdd-
       mediaId: '18057302924020189'
       published: 2025-03-06-18-11-21
-      updated: 2025-03-07-17-07-13
+      updated: 2025-03-07-18-10-55
       followers: 1536
       likes: 56
-      views: 158
+      views: 162
     - service: vk
       id: 2173
       published: 2025-03-06-18-11-28
-      updated: 2025-03-07-17-07-14
+      updated: 2025-03-07-18-10-56
       followers: 1164
-      likes: 32
-      views: 212
+      likes: 33
+      views: 215
       reposts: 4
+      comments: !c |-
+        iy6AkZPLQnlXG9AZgACpaWQ4NDAyMTc52UfQrdGC0L4g0YHQutGA0LjQvdGLINC40Lcg0LjQs9GA
+        0Ysg0YEg0LrQsNC60LjQvNC4LdGC0L4gaGQg0LzQvtC00LDQvNC4PwM=
     - service: tg
       id: 736
       published: 2025-03-06-18-11-35
-      updated: 2025-03-07-17-07-14
+      updated: 2025-03-07-18-10-55
       followers: 691
       likes: 42
-      views: 180
+      views: 182
       comments: !c |-
         G0IBIGT4+9kTGiePiqKCo8PXlGVBDZTv2z7uUk/PcicaGP7+9mttSXoQFOBjUmaRlpbv7Ym+RvbT
         4ZrSU5Ol13brykkZ/skZANZyU1IfjDhtYZRwXarbY15s8WgRH3YShTxWFbZFo6m6h7eUWARbjikc
@@ -12145,17 +12148,17 @@
       id: DGyXlepu_64
       mediaId: '18059122184506345'
       published: 2025-03-04-18-11-17
-      updated: 2025-03-06-18-10-41
+      updated: 2025-03-07-18-10-57
       followers: 1538
       likes: 58
-      views: 198
+      views: 201
     - service: vk
       id: 2169
       published: 2025-03-04-18-11-25
-      updated: 2025-03-06-18-10-41
+      updated: 2025-03-07-18-10-59
       followers: 1158
-      likes: 26
-      views: 194
+      likes: 30
+      views: 226
       comments: !c |-
         G4ABSK0OzJOmoxnI9PKR9WxGqHSK4EZhEvhFMScWcIkV4css6Ku6CW0xnpCAQTf9SvrvG5BtM2dD
         NKbbcFgeHlu2B9Mqb9QJh8i9LSGtXXSayDw9DiMrAG0tgYQyDDOIk85wwesr4cVj7F6uiOf4fn4z
@@ -12165,10 +12168,10 @@
     - service: tg
       id: 734
       published: 2025-03-04-18-11-32
-      updated: 2025-03-06-18-10-42
+      updated: 2025-03-07-18-10-58
       followers: 690
-      likes: 46
-      views: 222
+      likes: 48
+      views: 238
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
