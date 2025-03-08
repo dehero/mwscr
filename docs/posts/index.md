@@ -4,7 +4,41 @@
 
 # Posted in 2025
 
-`66 items`
+`67 items`
+
+## <span id="2025-03-08-smoking-house">Smoking House</span>
+
+`RU` Дымящий дом
+
+<a href="https://instagram.com/p/Bkf7vqalVjT/" title="2018-06-26-smoking-house"><img alt="store:/shots/2018-06-26-smoking-house.png" src="../../assets/previews/shots/2018-06-26-smoking-house.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-08-smoking-house&amp;postContent=store%3A%2Fshots%2F2018-06-26-smoking-house.png&amp;postTitle=Smoking+House&amp;postTitleRu=%D0%94%D1%8B%D0%BC%D1%8F%D1%89%D0%B8%D0%B9+%D0%B4%D0%BE%D0%BC&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=house+smoke&amp;postLocation=&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-03-08-smoking-house&postLocation=)</code> `🚀 OpenMW` `house` `smoke`
+
+```
+2025-03-08-smoking-house
+```
+
+> `2018-06-26-smoking-house`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/Bkf7vqalVjT/)       | 2018-06-26 |       |   106 |       349 |      30.37 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_780)  | 2018-06-26 |   317 |    27 |       177 |      15.25 |
+| [`ig`](https://instagram.com/p/DG8qZooRvvl/)       | 2025-03-08 |       |       |      1536 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2179) | 2025-03-08 |       |       |      1174 |            |
+| [`tg`](https://t.me/mwscr/738)                     | 2025-03-08 |       |       |       691 |            |
+|                                                    |            |       |       |      3401 |            |
+
+#### Comments
+
+- `vk` <ins title="2018-06-27-11-36-13">id314007101</ins> Кальдера?
+- `ig` <ins title="2018-06-27-14-08-01">ysndr.a</ins> Seem very cozy
+- `vk` <ins title="2018-06-27-14-16-54">dehero</ins> Anhra, она.
+- `vk` <ins title="2018-06-27-14-32-31">crazycyrodiliccat</ins> Домящий дым
 
 ## <span id="2025-03-07-at-the-edge-of-the-world">At the Edge of the World</span>
 
@@ -28,10 +62,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BUTvUYijqU8/)       | 2017-05-20 |       |    58 |       178 |      32.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_296)  | 2017-05-20 |   111 |    10 |        56 |      17.86 |
-| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   308 |    77 |      1537 |       5.01 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |   201 |    45 |      1171 |       3.93 |
+| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   318 |    80 |      1537 |        5.2 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |   204 |    45 |      1171 |       3.93 |
 | [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |   162 |    46 |       691 |       6.66 |
-|                                                    |            |   671 |   168 |      3399 |        5.2 |
+|                                                    |            |   684 |   171 |      3399 |       5.26 |
 
 #### Comments
 
@@ -60,10 +94,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/Bm_jw4ElpBd/)       | 2018-08-27 |       |   104 |       405 |      25.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_879)  | 2018-08-27 |   459 |    29 |       217 |      13.36 |
-| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   181 |    60 |      1536 |       3.91 |
+| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   183 |    60 |      1536 |       3.91 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   266 |    36 |      1164 |       3.44 |
 | [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   219 |    45 |       691 |       6.51 |
-|                                                    |            |   666 |   141 |      3391 |       4.62 |
+|                                                    |            |   668 |   141 |      3391 |       4.62 |
 
 #### Comments
 
