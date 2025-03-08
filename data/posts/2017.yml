@@ -3344,10 +3344,10 @@
       id: DG2NNSvNgYM
       mediaId: '17935045454996090'
       published: 2025-03-06-05-57-32
-      updated: 2025-03-08-02-22-00
+      updated: 2025-03-08-03-01-24
       followers: 1536
-      likes: 58
-      views: 243
+      likes: 59
+      views: 244
 2017-03-20-sun-moon-vivec:
   title: Sun, Moon, Vivec
   titleRu: Солнце, луна, Вивек
@@ -5945,17 +5945,17 @@
       id: DG6F-d9uFqA
       mediaId: '17909380499997603'
       published: 2025-03-07-18-11-20
-      updated: 2025-03-08-02-21-58
+      updated: 2025-03-08-03-01-22
       followers: 1537
-      likes: 49
-      views: 158
+      likes: 50
+      views: 166
       comments: !c |-
         G2MAaI3TBTcW+XNovb1UxWTrNlUTkmgPn/L0K4oJmVLN9DJ0tjenHLDXWuBtAQZCx3uMzeUqruk4
         3n1Io3jjgkuoXWKV28+TVoQcF8Ft5wBPOzGjmG2IdTK8DJ0gqQA=
     - service: vk
       id: 2175
       published: 2025-03-07-18-11-28
-      updated: 2025-03-08-02-21-57
+      updated: 2025-03-08-03-01-21
       followers: 1171
       likes: 31
       views: 101
@@ -5963,7 +5963,7 @@
     - service: tg
       id: 737
       published: 2025-03-07-18-11-36
-      updated: 2025-03-08-02-21-58
+      updated: 2025-03-08-03-01-22
       followers: 691
       likes: 32
       views: 124
