@@ -28,10 +28,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/Bkf7vqalVjT/)       | 2018-06-26 |       |   106 |       349 |      30.37 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_780)  | 2018-06-26 |   317 |    27 |       177 |      15.25 |
-| [`ig`](https://instagram.com/p/DG8qZooRvvl/)       | 2025-03-08 |    39 |    19 |      1536 |       1.24 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2179) | 2025-03-08 |    29 |    12 |      1174 |       1.02 |
-| [`tg`](https://t.me/mwscr/738)                     | 2025-03-08 |    57 |    25 |       691 |       3.62 |
-|                                                    |            |   125 |    56 |      3401 |       1.96 |
+| [`ig`](https://instagram.com/p/DG8qZooRvvl/)       | 2025-03-08 |    82 |    31 |      1536 |       2.02 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2179) | 2025-03-08 |    63 |    18 |      1174 |       1.53 |
+| [`tg`](https://t.me/mwscr/738)                     | 2025-03-08 |    77 |    29 |       691 |        4.2 |
+|                                                    |            |   222 |    78 |      3401 |       2.58 |
 
 #### Comments
 
@@ -64,15 +64,16 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BUTvUYijqU8/)       | 2017-05-20 |       |    58 |       178 |      32.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_296)  | 2017-05-20 |   111 |    10 |        56 |      17.86 |
-| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   322 |    80 |      1537 |        5.2 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |   209 |    45 |      1171 |       3.93 |
-| [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |   172 |    49 |       691 |       7.09 |
-|                                                    |            |   703 |   174 |      3399 |       5.41 |
+| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   331 |    81 |      1537 |       5.27 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |   216 |    46 |      1171 |       4.01 |
+| [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |   181 |    50 |       691 |       7.24 |
+|                                                    |            |   728 |   177 |      3399 |       5.51 |
 
 #### Comments
 
 - `ig` <ins title="2025-03-07-18-39-40">stellarshift69</ins> this is such a beautiful picture
 - `ig` <ins title="2025-03-07-22-02-29">eastcoast_lg</ins> I was there once
+  - <ins title="2025-03-08-19-16-00">danielle_hiii</ins> that is such a sick smoke spot
 
 ## <span id="2025-03-06-coming-to-gnaar-mok">Coming to Gnaar Mok</span>
 
