@@ -220,19 +220,19 @@
     - service: vk
       id: 2157
       published: 2025-03-01-18-10-14
-      updated: 2025-03-07-18-11-02
+      updated: 2025-03-08-19-01-36
       followers: 1150
-      likes: 32
-      views: 322
+      likes: 33
+      views: 332
       reposts: 1
       comments: !c ixeAkZPLQnlVMVLqAACraWQ4MjA3MDI2NjS40JzQuNC80L7QutGA0L7QutC+0LTQuNC7Aw==
     - service: tg
       id: 728
       published: 2025-03-01-18-10-23
-      updated: 2025-03-07-18-11-00
+      updated: 2025-03-08-19-01-33
       followers: 687
-      likes: 56
-      views: 333
+      likes: 57
+      views: 346
       comments: !c |-
         izOAkZTLQnlVLpMOgACpR2F0ZW1hdGU3rXd0ZiBhcmUgdGhleT+Ty0J5VS+Ll4AAsUJhcnJ5QmFu
         YW5hRHJhZ29u2SdXRFlNPyBBcmUgeW91IGFza2luZyB3aGF0IERhZWRyb3RoIGFyZT8D
@@ -650,7 +650,7 @@
     - service: vk
       id: 1491
       published: 2024-04-12-18-14-50
-      updated: 2025-03-01-18-09-25
+      updated: 2025-03-08-19-01-40
       followers: 911
       likes: 35
       views: 271
@@ -658,7 +658,7 @@
     - service: tg
       id: 376
       published: 2024-04-12-18-15-00
-      updated: 2025-03-01-18-09-23
+      updated: 2025-03-08-19-01-35
       followers: 352
       likes: 70
       views: 473
@@ -972,7 +972,7 @@
       id: DDm8rCuSktl
       mediaId: '17874870825142216'
       published: 2024-12-15-18-10-16
-      updated: 2025-03-01-18-09-33
+      updated: 2025-03-08-19-01-48
       followers: 1508
       likes: 122
       views: 558
@@ -1946,10 +1946,10 @@
       id: DDaE2mRTAPD
       mediaId: '18161094118322156'
       published: 2024-12-10-18-11-38
-      updated: 2025-03-01-18-09-38
+      updated: 2025-03-08-19-01-55
       followers: 1503
       likes: 99
-      views: 554
+      views: 555
       comments: !c |-
         G4cA6BwJNm5xzbOEUKjzImGXTd18gmm7tmVZedxFc2pA7SLN1skBwQ2/f9+KAg8IAwmacSbhU9Ql
         w8lwp/8hATwBIOOdUuu747WNwtGvwKzWI2It7frdpEmzTBlt+n1q+JKEbH0AePgRenIJ
@@ -2312,7 +2312,7 @@
       id: DDFQmrONeev
       mediaId: '17864652573276614'
       published: 2024-12-02-16-10-14
-      updated: 2025-03-01-18-09-48
+      updated: 2025-03-08-19-02-06
       followers: 1493
       likes: 90
       views: 546
@@ -2404,10 +2404,10 @@
       id: DD2ZUynzw_D
       mediaId: '18007370558692881'
       published: 2024-12-21-18-09-15
-      updated: 2025-03-01-18-09-27
+      updated: 2025-03-08-19-01-42
       followers: 1507
       likes: 114
-      views: 628
+      views: 631
     - service: vk
       id: 1979
       published: 2024-12-21-18-09-23
@@ -2654,7 +2654,7 @@
       id: DD-H2l7TG0b
       mediaId: '18068585941681782'
       published: 2024-12-24-18-10-30
-      updated: 2025-03-01-18-09-24
+      updated: 2025-03-08-19-01-37
       followers: 1512
       likes: 123
       views: 508
@@ -3329,17 +3329,17 @@
     - service: vk
       id: 2172
       published: 2025-03-05-18-11-47
-      updated: 2025-03-07-18-10-58
+      updated: 2025-03-08-19-01-31
       followers: 1160
-      likes: 36
-      views: 240
+      likes: 38
+      views: 267
     - service: tg
       id: 735
       published: 2025-03-05-18-11-54
-      updated: 2025-03-07-18-10-56
+      updated: 2025-03-08-19-01-30
       followers: 691
-      likes: 52
-      views: 214
+      likes: 53
+      views: 242
     - service: ig
       id: DG2NNSvNgYM
       mediaId: '17935045454996090'
@@ -3704,7 +3704,7 @@
       id: DDsGdwGJCBM
       mediaId: '18149217184346348'
       published: 2024-12-17-18-12-01
-      updated: 2025-03-01-18-09-31
+      updated: 2025-03-08-19-01-46
       followers: 1508
       likes: 88
       views: 393
@@ -4987,14 +4987,14 @@
     - service: vk
       id: 1545
       published: 2024-05-24-18-19-24
-      updated: 2025-03-01-18-09-24
+      updated: 2025-03-08-19-01-38
       followers: 917
       likes: 38
       views: 294
     - service: tg
       id: 418
       published: 2024-05-24-18-19-31
-      updated: 2025-03-01-18-09-22
+      updated: 2025-03-08-19-01-34
       followers: 376
       likes: 57
       views: 511
@@ -5945,28 +5945,28 @@
       id: DG6F-d9uFqA
       mediaId: '17909380499997603'
       published: 2025-03-07-18-11-20
-      updated: 2025-03-08-18-07-49
+      updated: 2025-03-08-19-01-30
       followers: 1537
       likes: 80
-      views: 318
+      views: 322
       comments: !c |-
         G2MAaI3TBTcW+XNovb1UxWTrNlUTkmgPn/L0K4oJmVLN9DJ0tjenHLDXWuBtAQZCx3uMzeUqruk4
         3n1Io3jjgkuoXWKV28+TVoQcF8Ft5wBPOzGjmG2IdTK8DJ0gqQA=
     - service: vk
       id: 2175
       published: 2025-03-07-18-11-28
-      updated: 2025-03-08-18-07-47
+      updated: 2025-03-08-19-01-29
       followers: 1171
       likes: 45
-      views: 204
+      views: 209
       reposts: 1
     - service: tg
       id: 737
       published: 2025-03-07-18-11-36
-      updated: 2025-03-08-18-07-48
+      updated: 2025-03-08-19-01-29
       followers: 691
-      likes: 46
-      views: 162
+      likes: 49
+      views: 172
 2017-05-21-table-in-magic-shop:
   title: Table in Magic Shop
   titleRu: Столик в магазине магии
@@ -6480,7 +6480,7 @@
       id: DD7jFWAPhfk
       mediaId: '18047137612947250'
       published: 2024-12-23-18-10-44
-      updated: 2025-03-01-18-09-25
+      updated: 2025-03-08-19-01-39
       followers: 1511
       likes: 100
       views: 550
@@ -9759,7 +9759,7 @@
       id: DDEUIyXx4PK
       mediaId: '18039376562202644'
       published: 2024-12-02-07-21-52
-      updated: 2025-03-01-18-09-49
+      updated: 2025-03-08-19-02-07
       followers: 1493
       likes: 84
       views: 396
