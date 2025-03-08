@@ -4581,10 +4581,10 @@
     - service: vk
       id: 1842
       published: 2024-10-18-19-02-17
-      updated: 2025-03-01-13-12-42
+      updated: 2025-03-08-14-01-30
       followers: 965
       likes: 53
-      views: 438
+      views: 440
       reposts: 2
       comments: !c |-
         Gw4CYK0ObLcnlEH41dHzAetIIP6f/mKkb5b3r3qGTYIRJuca5KxNS6jfDR3nUG4o6txyNyf+Dx0T
@@ -4872,7 +4872,7 @@
     - service: vk
       id: 1754
       published: 2024-09-13-18-29-45
-      updated: 2025-03-01-13-12-43
+      updated: 2025-03-08-14-01-31
       followers: 946
       likes: 52
       views: 399
@@ -5474,7 +5474,7 @@
     - service: vk
       id: 1721
       published: 2024-08-30-18-29-34
-      updated: 2025-03-01-13-12-45
+      updated: 2025-03-08-14-01-33
       followers: 941
       likes: 46
       views: 328
@@ -5491,10 +5491,10 @@
     - service: tg
       id: 517
       published: 2024-08-30-18-29-41
-      updated: 2025-03-01-13-12-43
+      updated: 2025-03-08-14-01-30
       followers: 545
       likes: 72
-      views: 621
+      views: 622
       comments: !c |-
         CzCAk5PLQnlHWu7dAACnS2FCQkJpRbjQrdGFLCBiYXJlZm9vdCBjaGlsZGhvb2STy0J5GnTGOYAA
         qmhpbW1lbGhlcnqk8J+Zj5PLQnkaUBbeAACremhlY2hrYV9kcnak8J+YjAM=
@@ -5945,28 +5945,28 @@
       id: DG6F-d9uFqA
       mediaId: '17909380499997603'
       published: 2025-03-07-18-11-20
-      updated: 2025-03-08-13-02-04
+      updated: 2025-03-08-14-01-27
       followers: 1537
       likes: 71
-      views: 279
+      views: 285
       comments: !c |-
         G2MAaI3TBTcW+XNovb1UxWTrNlUTkmgPn/L0K4oJmVLN9DJ0tjenHLDXWuBtAQZCx3uMzeUqruk4
         3n1Io3jjgkuoXWKV28+TVoQcF8Ft5wBPOzGjmG2IdTK8DJ0gqQA=
     - service: vk
       id: 2175
       published: 2025-03-07-18-11-28
-      updated: 2025-03-08-13-02-03
+      updated: 2025-03-08-14-01-26
       followers: 1171
-      likes: 44
-      views: 185
+      likes: 45
+      views: 189
       reposts: 1
     - service: tg
       id: 737
       published: 2025-03-07-18-11-36
-      updated: 2025-03-08-13-02-04
+      updated: 2025-03-08-14-01-26
       followers: 691
-      likes: 42
-      views: 154
+      likes: 43
+      views: 157
 2017-05-21-table-in-magic-shop:
   title: Table in Magic Shop
   titleRu: Столик в магазине магии
@@ -8201,7 +8201,7 @@
     - service: vk
       id: 1631
       published: 2024-07-12-18-21-28
-      updated: 2025-03-01-13-12-53
+      updated: 2025-03-08-14-01-41
       followers: 920
       likes: 33
       views: 274
@@ -8209,7 +8209,7 @@
     - service: tg
       id: 467
       published: 2024-07-12-18-21-35
-      updated: 2025-03-01-13-12-50
+      updated: 2025-03-08-14-01-38
       followers: 397
       likes: 59
       views: 489
@@ -10075,7 +10075,7 @@
     - service: vk
       id: 1664
       published: 2024-08-02-18-20-03
-      updated: 2025-03-01-13-12-50
+      updated: 2025-03-08-14-01-38
       followers: 925
       likes: 45
       views: 320
@@ -10086,10 +10086,10 @@
     - service: tg
       id: 488
       published: 2024-08-02-18-20-10
-      updated: 2025-03-01-13-12-47
+      updated: 2025-03-08-14-01-35
       followers: 428
       likes: 66
-      views: 714
+      views: 715
 2017-09-07-wise-womans-table:
   title: Wise Woman's Table
   titleRu: Столик шаманки
