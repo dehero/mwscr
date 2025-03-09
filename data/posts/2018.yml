@@ -3871,7 +3871,7 @@
     - service: vk
       id: 1633
       published: 2024-07-13-18-18-57
-      updated: 2025-03-02-18-09-15
+      updated: 2025-03-09-19-01-31
       followers: 919
       likes: 44
       views: 318
@@ -3879,7 +3879,7 @@
     - service: tg
       id: 468
       published: 2024-07-13-18-19-05
-      updated: 2025-03-02-18-09-14
+      updated: 2025-03-09-19-01-31
       followers: 398
       likes: 61
       views: 515
@@ -6368,14 +6368,14 @@
     - service: tg
       id: 454
       published: 2024-06-29-18-18-56
-      updated: 2025-03-02-18-09-16
+      updated: 2025-03-09-19-01-33
       followers: 388
       likes: 58
       views: 645
     - service: vk
       id: 1608
       published: 2024-06-29-19-11-46
-      updated: 2025-03-02-18-09-18
+      updated: 2025-03-09-19-01-34
       followers: 918
       likes: 37
       views: 378
@@ -6833,18 +6833,18 @@
       id: DG8qZooRvvl
       mediaId: '18360241276135722'
       published: 2025-03-08-18-08-07
-      updated: 2025-03-09-18-07-55
+      updated: 2025-03-09-19-01-30
       followers: 1536
       likes: 85
-      views: 251
+      views: 252
       comments: !c ixKAkZPLQnlXb89GAACoYmVyc2thdGWxTXkgbG92ZWx5IENhbGRlcmED
     - service: vk
       id: 2179
       published: 2025-03-08-18-08-14
-      updated: 2025-03-09-18-07-55
+      updated: 2025-03-09-19-01-30
       followers: 1174
-      likes: 38
-      views: 230
+      likes: 40
+      views: 238
       reposts: 2
       comments: !c |-
         G1UBUJwH2bnihCvXzewJ+TBCkk6e/7jXPuGbWLphONgKSEDb7not4vVcslXdNMZcXRxhy/YGwmin
@@ -6855,10 +6855,10 @@
     - service: tg
       id: 738
       published: 2025-03-08-18-08-20
-      updated: 2025-03-09-18-07-56
+      updated: 2025-03-09-19-01-29
       followers: 691
-      likes: 50
-      views: 157
+      likes: 53
+      views: 175
 2018-06-27-arch-with-a-canopy:
   title: Arch with a Canopy
   titleRu: Арка с навесом
@@ -8797,15 +8797,24 @@
       id: DG_PNteTOGE
       mediaId: '18049718234224040'
       published: 2025-03-09-18-08-17
+      updated: 2025-03-09-19-01-28
       followers: 1535
+      likes: 16
+      views: 50
     - service: vk
       id: 2183
       published: 2025-03-09-18-08-24
+      updated: 2025-03-09-19-01-28
       followers: 1176
+      likes: 4
+      views: 50
     - service: tg
       id: 739
       published: 2025-03-09-18-08-31
+      updated: 2025-03-09-19-01-28
       followers: 693
+      likes: 23
+      views: 80
 2018-08-23-night-shipwreck:
   title: Night Shipwreck
   titleRu: Ночное кораблекрушение
