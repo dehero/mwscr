@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`67 items`
+`68 items`
+
+## <span id="2025-03-09-river-bank-in-west-gash">River Bank in West Gash</span>
+
+`RU` Берег реки в Западном нагорье
+
+<a href="https://instagram.com/p/BmytQzulbsP/" title="2018-08-22-river-bank-in-west-gash"><img alt="store:/shots/2018-08-22-river-bank-in-west-gash.png" src="../../assets/previews/shots/2018-08-22-river-bank-in-west-gash.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-09-river-bank-in-west-gash&amp;postContent=store%3A%2Fshots%2F2018-08-22-river-bank-in-west-gash.png&amp;postTitle=River+Bank+in+West+Gash&amp;postTitleRu=%D0%91%D0%B5%D1%80%D0%B5%D0%B3+%D1%80%D0%B5%D0%BA%D0%B8+%D0%B2+%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D0%BE%D0%BC+%D0%BD%D0%B0%D0%B3%D0%BE%D1%80%D1%8C%D0%B5&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=West+Gash+Region&amp;postMark=B2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B2` `📍 West Gash Region` `🚀 OpenMW`
+
+```
+2025-03-09-river-bank-in-west-gash
+```
+
+> `2018-08-22-river-bank-in-west-gash`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BmytQzulbsP/)       | 2018-08-22 |       |   111 |       400 |      27.75 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_871)  | 2018-08-22 |   333 |    18 |       203 |       8.87 |
+| [`ig`](https://instagram.com/p/DG_PNteTOGE/)       | 2025-03-09 |       |       |      1535 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2183) | 2025-03-09 |       |       |      1176 |            |
+| [`tg`](https://t.me/mwscr/739)                     | 2025-03-09 |       |       |       693 |            |
+|                                                    |            |       |       |      3404 |            |
 
 ## <span id="2025-03-08-smoking-house">Smoking House</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/Bkf7vqalVjT/)       | 2018-06-26 |       |   106 |       349 |      30.37 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_780)  | 2018-06-26 |   317 |    27 |       177 |      15.25 |
-| [`ig`](https://instagram.com/p/DG8qZooRvvl/)       | 2025-03-08 |   249 |    85 |      1536 |       5.53 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2179) | 2025-03-08 |   220 |    38 |      1174 |       3.41 |
-| [`tg`](https://t.me/mwscr/738)                     | 2025-03-08 |   155 |    50 |       691 |       7.24 |
-|                                                    |            |   624 |   173 |      3401 |       5.39 |
+| [`ig`](https://instagram.com/p/DG8qZooRvvl/)       | 2025-03-08 |   251 |    85 |      1536 |       5.53 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2179) | 2025-03-08 |   230 |    38 |      1174 |       3.41 |
+| [`tg`](https://t.me/mwscr/738)                     | 2025-03-08 |   157 |    50 |       691 |       7.24 |
+|                                                    |            |   638 |   173 |      3401 |       5.39 |
 
 #### Comments
 
@@ -66,10 +93,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BUTvUYijqU8/)       | 2017-05-20 |       |    58 |       178 |      32.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_296)  | 2017-05-20 |   111 |    10 |        56 |      17.86 |
-| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   376 |    88 |      1537 |       5.73 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |   246 |    51 |      1171 |       4.44 |
+| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   378 |    88 |      1537 |       5.73 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |   253 |    51 |      1171 |       4.44 |
 | [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |   215 |    54 |       691 |       7.81 |
-|                                                    |            |   837 |   193 |      3399 |       5.99 |
+|                                                    |            |   846 |   193 |      3399 |       5.99 |
 
 #### Comments
 
@@ -99,10 +126,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/Bm_jw4ElpBd/)       | 2018-08-27 |       |   104 |       405 |      25.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_879)  | 2018-08-27 |   459 |    29 |       217 |      13.36 |
-| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   183 |    60 |      1536 |       3.91 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   266 |    36 |      1164 |       3.44 |
-| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   219 |    45 |       691 |       6.51 |
-|                                                    |            |   668 |   141 |      3391 |       4.62 |
+| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   189 |    62 |      1536 |       4.04 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   299 |    38 |      1164 |       3.61 |
+| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   242 |    50 |       691 |       7.24 |
+|                                                    |            |   730 |   150 |      3391 |       4.96 |
 
 #### Comments
 
