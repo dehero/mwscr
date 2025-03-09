@@ -2411,7 +2411,7 @@
     - service: vk
       id: 1979
       published: 2024-12-21-18-09-23
-      updated: 2025-03-01-23-01-31
+      updated: 2025-03-09-00-33-39
       followers: 1026
       likes: 45
       views: 333
@@ -2419,10 +2419,10 @@
     - service: tg
       id: 632
       published: 2024-12-21-18-09-32
-      updated: 2025-03-01-23-01-29
+      updated: 2025-03-09-00-33-36
       followers: 584
       likes: 64
-      views: 674
+      views: 679
       comments: !c iwyAkZPLQnk+pqKHAACnZG1lcGlraKbQktCw0YMD
 2017-02-28-army-of-stone:
   title: Army of Stone
@@ -5945,10 +5945,10 @@
       id: DG6F-d9uFqA
       mediaId: '17909380499997603'
       published: 2025-03-07-18-11-20
-      updated: 2025-03-08-23-01-33
+      updated: 2025-03-09-00-33-39
       followers: 1537
       likes: 84
-      views: 339
+      views: 344
       comments: !c |-
         G5oAGIxUNX/zf64vujXveelsQpENHIK7ADqQxuu6wtfJiQbGtfbtGnXAtoAoTk/W3pRKCQTWtQYl
         CcU5r2e+RkGPCWy6nGbqFT3zKLwuJTpp4CK8kk8Adpoc2Lrn6aJl2/Yp3MdDub+T+qGrX1Cwhg//
@@ -5956,18 +5956,18 @@
     - service: vk
       id: 2175
       published: 2025-03-07-18-11-28
-      updated: 2025-03-08-23-01-31
+      updated: 2025-03-09-00-33-35
       followers: 1171
       likes: 46
-      views: 221
+      views: 222
       reposts: 1
     - service: tg
       id: 737
       published: 2025-03-07-18-11-36
-      updated: 2025-03-08-23-01-31
+      updated: 2025-03-09-00-33-35
       followers: 691
       likes: 51
-      views: 189
+      views: 190
 2017-05-21-table-in-magic-shop:
   title: Table in Magic Shop
   titleRu: Столик в магазине магии
@@ -13312,14 +13312,14 @@
     - service: vk
       id: 1574
       published: 2024-06-07-18-20-42
-      updated: 2025-03-01-23-01-31
+      updated: 2025-03-09-00-33-40
       followers: 916
       likes: 40
       views: 319
     - service: tg
       id: 432
       published: 2024-06-07-18-20-49
-      updated: 2025-03-01-23-01-29
+      updated: 2025-03-09-00-33-37
       followers: 384
       likes: 58
       views: 492
