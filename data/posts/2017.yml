@@ -213,10 +213,11 @@
       id: DGqpESxxAE9
       mediaId: '18125115151418097'
       published: 2025-03-01-18-10-06
-      updated: 2025-03-08-07-01-40
+      updated: 2025-03-09-08-09-21
       followers: 1537
-      likes: 80
-      views: 257
+      likes: 81
+      views: 262
+      comments: !c CxOAkZPLQnlXb9WfAACoYmVyc2thdGWySSBuZXZlciBsaWtlZCB0aGVtAw==
     - service: vk
       id: 2157
       published: 2025-03-01-18-10-14
@@ -5945,10 +5946,10 @@
       id: DG6F-d9uFqA
       mediaId: '17909380499997603'
       published: 2025-03-07-18-11-20
-      updated: 2025-03-09-07-01-19
+      updated: 2025-03-09-08-09-18
       followers: 1537
       likes: 87
-      views: 360
+      views: 361
       comments: !c |-
         G5oAGIxUNX/zf64vujXveelsQpENHIK7ADqQxuu6wtfJiQbGtfbtGnXAtoAoTk/W3pRKCQTWtQYl
         CcU5r2e+RkGPCWy6nGbqFT3zKLwuJTpp4CK8kk8Adpoc2Lrn6aJl2/Yp3MdDub+T+qGrX1Cwhg//
@@ -5956,15 +5957,15 @@
     - service: vk
       id: 2175
       published: 2025-03-07-18-11-28
-      updated: 2025-03-09-07-01-19
+      updated: 2025-03-09-08-09-16
       followers: 1171
       likes: 48
-      views: 229
+      views: 231
       reposts: 1
     - service: tg
       id: 737
       published: 2025-03-07-18-11-36
-      updated: 2025-03-09-07-01-18
+      updated: 2025-03-09-08-09-16
       followers: 691
       likes: 52
       views: 202
