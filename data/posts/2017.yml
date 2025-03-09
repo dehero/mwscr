@@ -5946,10 +5946,10 @@
       id: DG6F-d9uFqA
       mediaId: '17909380499997603'
       published: 2025-03-07-18-11-20
-      updated: 2025-03-09-09-01-33
+      updated: 2025-03-09-10-02-16
       followers: 1537
-      likes: 87
-      views: 363
+      likes: 88
+      views: 366
       comments: !c |-
         G5oAGIxUNX/zf64vujXveelsQpENHIK7ADqQxuu6wtfJiQbGtfbtGnXAtoAoTk/W3pRKCQTWtQYl
         CcU5r2e+RkGPCWy6nGbqFT3zKLwuJTpp4CK8kk8Adpoc2Lrn6aJl2/Yp3MdDub+T+qGrX1Cwhg//
@@ -5957,18 +5957,18 @@
     - service: vk
       id: 2175
       published: 2025-03-07-18-11-28
-      updated: 2025-03-09-09-01-32
+      updated: 2025-03-09-10-02-13
       followers: 1171
       likes: 48
-      views: 234
+      views: 235
       reposts: 1
     - service: tg
       id: 737
       published: 2025-03-07-18-11-36
-      updated: 2025-03-09-09-01-32
+      updated: 2025-03-09-10-02-12
       followers: 691
       likes: 52
-      views: 207
+      views: 209
 2017-05-21-table-in-magic-shop:
   title: Table in Magic Shop
   titleRu: Столик в магазине магии
@@ -8484,10 +8484,10 @@
     - service: vk
       id: 1872
       published: 2024-11-02-19-01-31
-      updated: 2025-03-02-09-07-22
+      updated: 2025-03-09-10-02-15
       followers: 1003
       likes: 31
-      views: 322
+      views: 324
       comments: !c |-
         G9UCACyPt6HxkyMyV7kiuBUPw1xy/PP9xZbwjf/ZFKI0oMA30KQpwCRdOVdrW7WEzHFnqHM6ncAP
         a5uINYhVuqWYyt39nMLDvi9tLJYFSKXvN81NTXa94fk7P2WHlJSi/Y/rMHlLd6PpwIY6463XfgrH
@@ -11506,7 +11506,7 @@
     - service: tg
       id: 562
       published: 2024-10-12-18-08-48
-      updated: 2025-03-02-09-07-22
+      updated: 2025-03-09-10-02-14
       followers: 557
       likes: 57
       views: 560
