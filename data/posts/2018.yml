@@ -6313,7 +6313,7 @@
     - service: vk
       id: 1857
       published: 2024-10-26-18-09-18
-      updated: 2025-03-02-06-11-03
+      updated: 2025-03-09-07-01-25
       followers: 1000
       likes: 54
       views: 384
@@ -6327,10 +6327,10 @@
     - service: tg
       id: 576
       published: 2024-10-26-18-09-24
-      updated: 2025-03-02-06-11-02
+      updated: 2025-03-09-07-01-23
       followers: 564
       likes: 62
-      views: 625
+      views: 626
       comments: !c CxSAkpPLQnksrSYPAACobW9uZ2xlcmmgk8tCeSygVUwAAKh3aWx6dXVsbKAD
 2018-06-13-lich:
   title: Lich
@@ -6833,18 +6833,18 @@
       id: DG8qZooRvvl
       mediaId: '18360241276135722'
       published: 2025-03-08-18-08-07
-      updated: 2025-03-09-06-08-47
+      updated: 2025-03-09-07-01-17
       followers: 1536
-      likes: 71
-      views: 194
+      likes: 72
+      views: 202
       comments: !c ixKAkZPLQnlXb89GAACoYmVyc2thdGWxTXkgbG92ZWx5IENhbGRlcmED
     - service: vk
       id: 2179
       published: 2025-03-08-18-08-14
-      updated: 2025-03-09-06-08-47
+      updated: 2025-03-09-07-01-17
       followers: 1174
       likes: 27
-      views: 125
+      views: 137
       reposts: 1
       comments: !c |-
         G8wA+J0H2bnihCtXf2hP0Ij4x9sIv07KMA6swAIuyONg4sk9srRupRRJINTBjvO215PlLqdjZsYI
@@ -6853,10 +6853,10 @@
     - service: tg
       id: 738
       published: 2025-03-08-18-08-20
-      updated: 2025-03-09-06-08-47
+      updated: 2025-03-09-07-01-17
       followers: 691
-      likes: 44
-      views: 126
+      likes: 46
+      views: 132
 2018-06-27-arch-with-a-canopy:
   title: Arch with a Canopy
   titleRu: Арка с навесом
@@ -9733,7 +9733,7 @@
     - service: vk
       id: 1916
       published: 2024-11-23-18-10-28
-      updated: 2025-03-02-06-11-00
+      updated: 2025-03-09-07-01-21
       followers: 1008
       likes: 41
       views: 354
@@ -9744,10 +9744,10 @@
     - service: tg
       id: 604
       published: 2024-11-23-18-10-35
-      updated: 2025-03-02-06-10-59
+      updated: 2025-03-09-07-01-20
       followers: 575
       likes: 64
-      views: 625
+      views: 629
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище
