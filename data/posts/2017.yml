@@ -3344,10 +3344,10 @@
       id: DG2NNSvNgYM
       mediaId: '17935045454996090'
       published: 2025-03-06-05-57-32
-      updated: 2025-03-08-05-02-24
+      updated: 2025-03-09-06-08-50
       followers: 1536
-      likes: 61
-      views: 247
+      likes: 65
+      views: 263
 2017-03-20-sun-moon-vivec:
   title: Sun, Moon, Vivec
   titleRu: Солнце, луна, Вивек
@@ -5945,10 +5945,10 @@
       id: DG6F-d9uFqA
       mediaId: '17909380499997603'
       published: 2025-03-07-18-11-20
-      updated: 2025-03-09-05-02-00
+      updated: 2025-03-09-06-08-49
       followers: 1537
       likes: 87
-      views: 357
+      views: 359
       comments: !c |-
         G5oAGIxUNX/zf64vujXveelsQpENHIK7ADqQxuu6wtfJiQbGtfbtGnXAtoAoTk/W3pRKCQTWtQYl
         CcU5r2e+RkGPCWy6nGbqFT3zKLwuJTpp4CK8kk8Adpoc2Lrn6aJl2/Yp3MdDub+T+qGrX1Cwhg//
@@ -5956,18 +5956,18 @@
     - service: vk
       id: 2175
       published: 2025-03-07-18-11-28
-      updated: 2025-03-09-05-01-59
+      updated: 2025-03-09-06-08-49
       followers: 1171
       likes: 48
-      views: 228
+      views: 229
       reposts: 1
     - service: tg
       id: 737
       published: 2025-03-07-18-11-36
-      updated: 2025-03-09-05-01-59
+      updated: 2025-03-09-06-08-48
       followers: 691
       likes: 51
-      views: 194
+      views: 197
 2017-05-21-table-in-magic-shop:
   title: Table in Magic Shop
   titleRu: Столик в магазине магии
