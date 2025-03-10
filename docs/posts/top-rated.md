@@ -1064,41 +1064,6 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_554) | 2017-12-27 |   206 |    18 |       114 |      15.79 |
 |                                                   |            |   206 |   117 |       376 |      26.79 |
 
-## <span id="2018-09-23-bridges">Bridges</span>
-
-`RU` Мосты
-
-<a href="https://instagram.com/p/BoFCn79hqRl/" title="2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz"><img alt="store:/shots/2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.png" src="../../assets/previews/shots/2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.avif" /></a>
-<a href="https://instagram.com/p/BoFCn79hqRl/" title="2017-09-26-bridges"><img alt="store:/shots/2017-09-26-bridges.png" src="../../assets/previews/shots/2017-09-26-bridges.avif" /></a>
-<a href="https://instagram.com/p/BoFCn79hqRl/" title="2018-02-22-bridge-at-the-border-of-two-regions"><img alt="store:/shots/2018-02-22-bridge-at-the-border-of-two-regions.png" src="../../assets/previews/shots/2018-02-22-bridge-at-the-border-of-two-regions.avif" /></a>
-<a href="https://instagram.com/p/BoFCn79hqRl/" title="2018-03-29-soaring-trail"><img alt="store:/shots/2018-03-29-soaring-trail.png" src="../../assets/previews/shots/2018-03-29-soaring-trail.avif" /></a>
-
-`shot-set` by [dehero](../contributors.md#dehero)
-
-[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-09-23-bridges&amp;postContent=store%3A%2Fshots%2F2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.png%0Astore%3A%2Fshots%2F2017-09-26-bridges.png%0Astore%3A%2Fshots%2F2018-02-22-bridge-at-the-border-of-two-regions.png%0Astore%3A%2Fshots%2F2018-03-29-soaring-trail.png&amp;postTitle=Bridges&amp;postTitleRu=%D0%9C%D0%BE%D1%81%D1%82%D1%8B&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=bridge&amp;postLocation=Arkngthunch-Sturdumz%0AWest+Gash+Region%0AAscadian+Isles+Region%0ABitter+Coast+Region&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Arkngthunch-Sturdumz` `📍 West Gash Region` `📍 Ascadian Isles Region` `📍 Bitter Coast Region` `🚀 OpenMW` `bridge`
-
-```
-2018-09-23-bridges
-```
-
-### Reactions
-
-|                                                    | published  | views | likes | followers | engagement |
-|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/BoFCn79hqRl/)       | 2018-09-23 |       |   145 |       427 |      33.96 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_940)  | 2018-09-23 |   453 |    44 |       238 |      19.33 |
-| [`tg`](https://t.me/mwscr/43,44,45,46,48)          | 2018-09-23 |   204 |     3 |           |            |
-| [`ig`](https://instagram.com/p/DHB0S2fT4UF/)       | 2025-03-10 |       |       |      1534 |            |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2184) | 2025-03-10 |       |       |      1177 |            |
-| [`tg`](https://t.me/mwscr/740,741,742,743)         | 2025-03-10 |       |       |       693 |            |
-|                                                    |            |   657 |   192 |           |      26.64 |
-
-#### Comments
-
-- `ig` <ins title="2018-09-23-19-23-44">voodoochild_4206923</ins> So happy people still love morrowind, even though it has quite a few flaws its one of my favorite games of all time
-- `ig` <ins title="2018-09-23-21-09-21">_lijee__</ins> Love this page so much!! Thx for posting
-  - <ins title="2018-09-24-09-52-50">mwscr</ins> @elijah_tha_prophet Thank you!
-
 ## <span id="2017-06-20-crossing-swampy-islands">Crossing Swampy Islands</span>
 
 `RU` Пересекая болотистые острова
@@ -1302,6 +1267,36 @@
 | [`ig`](https://instagram.com/p/BSVOs-GDRSn/)      | 2017-04-01 |       |    71 |       166 |      42.77 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_239) | 2017-04-01 |   136 |     5 |        50 |         10 |
 |                                                   |            |   136 |    76 |       216 |      26.39 |
+
+## <span id="2018-03-25-ships">Ships</span>
+
+`RU` Корабли
+
+<a href="https://instagram.com/p/BgwXvGMj4en/" title="2017-02-04-rumors-are-about-some-two-prisoners"><img alt="store:/shots/2017-02-04-rumors-are-about-some-two-prisoners.png" src="../../assets/previews/shots/2017-02-04-rumors-are-about-some-two-prisoners.avif" /></a>
+<a href="https://instagram.com/p/BgwXvGMj4en/" title="2017-06-16-in-the-port-of-tel-mora"><img alt="store:/shots/2017-06-16-in-the-port-of-tel-mora.png" src="../../assets/previews/shots/2017-06-16-in-the-port-of-tel-mora.avif" /></a>
+<a href="https://instagram.com/p/BgwXvGMj4en/" title="2017-07-10-inland-waters"><img alt="store:/shots/2017-07-10-inland-waters.png" src="../../assets/previews/shots/2017-07-10-inland-waters.avif" /></a>
+<a href="https://instagram.com/p/BgwXvGMj4en/" title="2017-02-15-sailboat-in-coastal-waters"><img alt="store:/shots/2017-02-15-sailboat-in-coastal-waters.png" src="../../assets/previews/shots/2017-02-15-sailboat-in-coastal-waters.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2018-03-25-ships&amp;postContent=store%3A%2Fshots%2F2017-02-04-rumors-are-about-some-two-prisoners.png%0Astore%3A%2Fshots%2F2017-06-16-in-the-port-of-tel-mora.png%0Astore%3A%2Fshots%2F2017-07-10-inland-waters.png%0Astore%3A%2Fshots%2F2017-02-15-sailboat-in-coastal-waters.png&amp;postTitle=Ships&amp;postTitleRu=%D0%9A%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D0%B8&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=ship&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2018-03-25-ships&postLocation=)</code> `🚀 OpenMW` `ship`
+
+```
+2018-03-25-ships
+```
+
+### Reactions
+
+|                                                   | published  | views | likes | followers | engagement |
+|---------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BgwXvGMj4en/)      | 2018-03-25 |       |   120 |       308 |      38.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_666) | 2018-03-25 |   202 |    20 |       145 |      13.79 |
+|                                                   |            |   202 |   140 |       453 |      26.38 |
+
+#### Comments
+
+- `ig` <ins title="2018-03-25-18-30-18">l3nku</ins> great!
+- `ig` <ins title="2018-03-25-18-54-02">youngscrolls</ins> I ship it
 
 ---
 

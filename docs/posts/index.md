@@ -32,16 +32,17 @@
 | [`ig`](https://instagram.com/p/BoFCn79hqRl/)       | 2018-09-23 |       |   145 |       427 |      33.96 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_940)  | 2018-09-23 |   453 |    44 |       238 |      19.33 |
 | [`tg`](https://t.me/mwscr/43,44,45,46,48)          | 2018-09-23 |   204 |     3 |           |            |
-| [`ig`](https://instagram.com/p/DHB0S2fT4UF/)       | 2025-03-10 |       |       |      1534 |            |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2184) | 2025-03-10 |       |       |      1177 |            |
-| [`tg`](https://t.me/mwscr/740,741,742,743)         | 2025-03-10 |       |       |       693 |            |
-|                                                    |            |       |       |      3404 |            |
+| [`ig`](https://instagram.com/p/DHB0S2fT4UF/)       | 2025-03-10 |    30 |    24 |      1534 |       1.56 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2184) | 2025-03-10 |    49 |    14 |      1177 |       1.19 |
+| [`tg`](https://t.me/mwscr/740,741,742,743)         | 2025-03-10 |   112 |    27 |       693 |        3.9 |
+|                                                    |            |   191 |    65 |      3404 |       2.22 |
 
 #### Comments
 
 - `ig` <ins title="2018-09-23-19-23-44">voodoochild_4206923</ins> So happy people still love morrowind, even though it has quite a few flaws its one of my favorite games of all time
 - `ig` <ins title="2018-09-23-21-09-21">_lijee__</ins> Love this page so much!! Thx for posting
   - <ins title="2018-09-24-09-52-50">mwscr</ins> @elijah_tha_prophet Thank you!
+- `tg` <ins title="2025-03-10-18-17-12">alice_rabbit_02</ins> Odai under the bridge
 
 ## <span id="2025-03-09-river-bank-in-west-gash">River Bank in West Gash</span>
 
@@ -65,10 +66,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BmytQzulbsP/)       | 2018-08-22 |       |   111 |       400 |      27.75 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_871)  | 2018-08-22 |   333 |    18 |       203 |       8.87 |
-| [`ig`](https://instagram.com/p/DG_PNteTOGE/)       | 2025-03-09 |   198 |    54 |      1535 |       3.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2183) | 2025-03-09 |   208 |    33 |      1176 |       2.89 |
-| [`tg`](https://t.me/mwscr/739)                     | 2025-03-09 |   225 |    45 |       693 |       6.49 |
-|                                                    |            |   631 |   132 |      3404 |        4.3 |
+| [`ig`](https://instagram.com/p/DG_PNteTOGE/)       | 2025-03-09 |   201 |    54 |      1535 |       3.52 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2183) | 2025-03-09 |   210 |    33 |      1176 |       2.89 |
+| [`tg`](https://t.me/mwscr/739)                     | 2025-03-09 |   250 |    51 |       693 |       7.36 |
+|                                                    |            |   661 |   138 |      3404 |       4.59 |
 
 ## <span id="2025-03-08-smoking-house">Smoking House</span>
 
