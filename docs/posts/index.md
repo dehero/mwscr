@@ -4,7 +4,44 @@
 
 # Posted in 2025
 
-`68 items`
+`69 items`
+
+## <span id="2025-03-10-bridges">Bridges</span>
+
+`RU` Мосты
+
+<a href="https://instagram.com/p/BoFCn79hqRl/" title="2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz"><img alt="store:/shots/2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.png" src="../../assets/previews/shots/2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.avif" /></a>
+<a href="https://instagram.com/p/BoFCn79hqRl/" title="2017-09-26-bridges"><img alt="store:/shots/2017-09-26-bridges.png" src="../../assets/previews/shots/2017-09-26-bridges.avif" /></a>
+<a href="https://instagram.com/p/BoFCn79hqRl/" title="2018-02-22-bridge-at-the-border-of-two-regions"><img alt="store:/shots/2018-02-22-bridge-at-the-border-of-two-regions.png" src="../../assets/previews/shots/2018-02-22-bridge-at-the-border-of-two-regions.avif" /></a>
+<a href="https://instagram.com/p/BoFCn79hqRl/" title="2018-03-29-soaring-trail"><img alt="store:/shots/2018-03-29-soaring-trail.png" src="../../assets/previews/shots/2018-03-29-soaring-trail.avif" /></a>
+
+`shot-set` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-10-bridges&amp;postContent=store%3A%2Fshots%2F2017-02-17-dwemer-bridge-to-arkngthunch-sturdumz.png%0Astore%3A%2Fshots%2F2017-09-26-bridges.png%0Astore%3A%2Fshots%2F2018-02-22-bridge-at-the-border-of-two-regions.png%0Astore%3A%2Fshots%2F2018-03-29-soaring-trail.png&amp;postTitle=Bridges&amp;postTitleRu=%D0%9C%D0%BE%D1%81%D1%82%D1%8B&amp;postAuthor=dehero&amp;postType=shot-set&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=bridge&amp;postLocation=Arkngthunch-Sturdumz%0AWest+Gash+Region%0AAscadian+Isles+Region%0ABitter+Coast+Region&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Arkngthunch-Sturdumz` `📍 West Gash Region` `📍 Ascadian Isles Region` `📍 Bitter Coast Region` `🚀 OpenMW` `bridge`
+
+```
+2025-03-10-bridges
+```
+
+> `2018-09-23-bridges`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BoFCn79hqRl/)       | 2018-09-23 |       |   145 |       427 |      33.96 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_940)  | 2018-09-23 |   453 |    44 |       238 |      19.33 |
+| [`tg`](https://t.me/mwscr/43,44,45,46,48)          | 2018-09-23 |   204 |     3 |           |            |
+| [`ig`](https://instagram.com/p/DHB0S2fT4UF/)       | 2025-03-10 |       |       |      1534 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2184) | 2025-03-10 |       |       |      1177 |            |
+| [`tg`](https://t.me/mwscr/740,741,742,743)         | 2025-03-10 |       |       |       693 |            |
+|                                                    |            |       |       |      3404 |            |
+
+#### Comments
+
+- `ig` <ins title="2018-09-23-19-23-44">voodoochild_4206923</ins> So happy people still love morrowind, even though it has quite a few flaws its one of my favorite games of all time
+- `ig` <ins title="2018-09-23-21-09-21">_lijee__</ins> Love this page so much!! Thx for posting
+  - <ins title="2018-09-24-09-52-50">mwscr</ins> @elijah_tha_prophet Thank you!
 
 ## <span id="2025-03-09-river-bank-in-west-gash">River Bank in West Gash</span>
 
@@ -28,10 +65,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BmytQzulbsP/)       | 2018-08-22 |       |   111 |       400 |      27.75 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_871)  | 2018-08-22 |   333 |    18 |       203 |       8.87 |
-| [`ig`](https://instagram.com/p/DG_PNteTOGE/)       | 2025-03-09 |   195 |    54 |      1535 |       3.52 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2183) | 2025-03-09 |   202 |    33 |      1176 |       2.89 |
-| [`tg`](https://t.me/mwscr/739)                     | 2025-03-09 |   223 |    44 |       693 |       6.35 |
-|                                                    |            |   620 |   131 |      3404 |       4.25 |
+| [`ig`](https://instagram.com/p/DG_PNteTOGE/)       | 2025-03-09 |   198 |    54 |      1535 |       3.52 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2183) | 2025-03-09 |   208 |    33 |      1176 |       2.89 |
+| [`tg`](https://t.me/mwscr/739)                     | 2025-03-09 |   225 |    45 |       693 |       6.49 |
+|                                                    |            |   631 |   132 |      3404 |        4.3 |
 
 ## <span id="2025-03-08-smoking-house">Smoking House</span>
 
@@ -93,10 +130,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BUTvUYijqU8/)       | 2017-05-20 |       |    58 |       178 |      32.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_296)  | 2017-05-20 |   111 |    10 |        56 |      17.86 |
-| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   378 |    88 |      1537 |       5.73 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |   253 |    51 |      1171 |       4.44 |
-| [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |   215 |    54 |       691 |       7.81 |
-|                                                    |            |   846 |   193 |      3399 |       5.99 |
+| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   400 |    91 |      1537 |       5.92 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |   281 |    56 |      1171 |       4.87 |
+| [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |   241 |    58 |       691 |       8.39 |
+|                                                    |            |   922 |   205 |      3399 |       6.39 |
 
 #### Comments
 
@@ -126,10 +163,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/Bm_jw4ElpBd/)       | 2018-08-27 |       |   104 |       405 |      25.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_879)  | 2018-08-27 |   459 |    29 |       217 |      13.36 |
-| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   189 |    62 |      1536 |       4.04 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   299 |    38 |      1164 |       3.61 |
-| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   242 |    50 |       691 |       7.24 |
-|                                                    |            |   730 |   150 |      3391 |       4.96 |
+| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   197 |    63 |      1536 |        4.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   334 |    39 |      1164 |       3.69 |
+| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   278 |    54 |       691 |       7.81 |
+|                                                    |            |   809 |   156 |      3391 |        5.2 |
 
 #### Comments
 

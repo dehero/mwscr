@@ -8797,25 +8797,25 @@
       id: DG_PNteTOGE
       mediaId: '18049718234224040'
       published: 2025-03-09-18-08-17
-      updated: 2025-03-10-17-07-58
+      updated: 2025-03-10-18-09-56
       followers: 1535
       likes: 54
-      views: 195
+      views: 198
     - service: vk
       id: 2183
       published: 2025-03-09-18-08-24
-      updated: 2025-03-10-17-07-58
+      updated: 2025-03-10-18-09-56
       followers: 1176
       likes: 33
-      views: 202
+      views: 208
       reposts: 1
     - service: tg
       id: 739
       published: 2025-03-09-18-08-31
-      updated: 2025-03-10-17-07-58
+      updated: 2025-03-10-18-09-57
       followers: 693
-      likes: 44
-      views: 223
+      likes: 45
+      views: 225
 2018-08-23-night-shipwreck:
   title: Night Shipwreck
   titleRu: Ночное кораблекрушение
@@ -8992,17 +8992,17 @@
       id: DG3hLu6sdd-
       mediaId: '18057302924020189'
       published: 2025-03-06-18-11-21
-      updated: 2025-03-09-18-07-59
+      updated: 2025-03-10-18-09-59
       followers: 1536
-      likes: 62
-      views: 189
+      likes: 63
+      views: 197
     - service: vk
       id: 2173
       published: 2025-03-06-18-11-28
-      updated: 2025-03-09-18-07-57
+      updated: 2025-03-10-18-09-59
       followers: 1164
-      likes: 38
-      views: 299
+      likes: 39
+      views: 334
       reposts: 4
       comments: !c |-
         G0wBYJwJdizEZBjcKUEWxD/fX2wJH8h+0CXOChrPAq4AC7LEk3NVN41GCI3WJA3fTrOvRdhPretK
@@ -9013,10 +9013,10 @@
     - service: tg
       id: 736
       published: 2025-03-06-18-11-35
-      updated: 2025-03-09-18-07-58
+      updated: 2025-03-10-18-09-58
       followers: 691
-      likes: 50
-      views: 242
+      likes: 54
+      views: 278
       comments: !c |-
         G0IBIGT4+9kTGiePiqKCo8PXlGVBDZTv2z7uUk/PcicaGP7+9mttSXoQFOBjUmaRlpbv7Ym+RvbT
         4ZrSU5Ol13brykkZ/skZANZyU1IfjDhtYZRwXarbY15s8WgRH3YShTxWFbZFo6m6h7eUWARbjikc
@@ -10242,6 +10242,23 @@
       updated: 2025-03-05-13-18-45
       likes: 3
       views: 204
+    - service: ig
+      id: DHB0S2fT4UF
+      mediaId: '18058157302870144'
+      published: 2025-03-10-18-10-45
+      followers: 1534
+    - service: vk
+      id: 2184
+      published: 2025-03-10-18-11-05
+      followers: 1177
+    - service: tg
+      id:
+        - 740
+        - 741
+        - 742
+        - 743
+      published: 2025-03-10-18-11-24
+      followers: 693
 2018-09-24-verminous-fabricant:
   title: Verminous Fabricant
   titleRu: Мерзкий фабрикант
