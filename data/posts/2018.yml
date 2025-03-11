@@ -2781,17 +2781,17 @@
     - service: vk
       id: 1865
       published: 2024-10-28-18-10-39
-      updated: 2025-03-04-09-08-41
+      updated: 2025-03-11-09-09-10
       followers: 1000
       likes: 51
-      views: 319
+      views: 321
     - service: tg
       id: 578
       published: 2024-10-28-18-10-46
-      updated: 2025-03-04-09-08-41
+      updated: 2025-03-11-09-09-09
       followers: 564
       likes: 60
-      views: 576
+      views: 578
 2018-03-15-the-other-side:
   title: The Other Side
   titleRu: По ту сторону
@@ -4215,10 +4215,10 @@
     - service: tg
       id: 564
       published: 2024-10-14-18-10-32
-      updated: 2025-03-04-09-08-43
+      updated: 2025-03-11-09-09-11
       followers: 561
       likes: 64
-      views: 506
+      views: 507
 2018-04-20-road-through-a-dead-forest:
   title: Road Through a Dead Forest
   titleRu: Дорога сквозь мёртвый лес
@@ -8797,22 +8797,22 @@
       id: DG_PNteTOGE
       mediaId: '18049718234224040'
       published: 2025-03-09-18-08-17
-      updated: 2025-03-11-08-11-24
+      updated: 2025-03-11-09-09-08
       followers: 1535
       likes: 55
-      views: 215
+      views: 216
     - service: vk
       id: 2183
       published: 2025-03-09-18-08-24
-      updated: 2025-03-11-08-11-24
+      updated: 2025-03-11-09-09-08
       followers: 1176
       likes: 34
-      views: 237
+      views: 239
       reposts: 2
     - service: tg
       id: 739
       published: 2025-03-09-18-08-31
-      updated: 2025-03-11-08-11-24
+      updated: 2025-03-11-09-09-09
       followers: 693
       likes: 53
       views: 268
@@ -10246,17 +10246,17 @@
       id: DHB0S2fT4UF
       mediaId: '18058157302870144'
       published: 2025-03-10-18-10-45
-      updated: 2025-03-11-08-11-22
+      updated: 2025-03-11-09-09-07
       followers: 1534
-      likes: 80
-      views: 207
+      likes: 82
+      views: 212
     - service: vk
       id: 2184
       published: 2025-03-10-18-11-05
-      updated: 2025-03-11-08-11-22
+      updated: 2025-03-11-09-09-06
       followers: 1177
-      likes: 41
-      views: 194
+      likes: 43
+      views: 208
       reposts: 2
       comments: !c |-
         izaAkpPLQnlYGUkEAACpcWlyb25nNjY2sdCa0YDQsNGB0LjQstC+0LUuk8tCeVg9IE8AAKppZDYz
@@ -10268,10 +10268,10 @@
         - 742
         - 743
       published: 2025-03-10-18-11-24
-      updated: 2025-03-11-08-11-23
+      updated: 2025-03-11-09-09-07
       followers: 693
-      likes: 48
-      views: 214
+      likes: 49
+      views: 218
       comments: !c CxiAkZPLQnlYFGcEAACvYWxpY2VfcmFiYml0XzAytU9kYWkgdW5kZXIgdGhlIGJyaWRnZQM=
 2018-09-24-verminous-fabricant:
   title: Verminous Fabricant
@@ -11020,10 +11020,10 @@
     - service: tg
       id: 571
       published: 2024-10-21-18-10-50
-      updated: 2025-03-04-09-08-42
+      updated: 2025-03-11-09-09-10
       followers: 562
       likes: 55
-      views: 725
+      views: 726
 2018-10-10-thunderstorm-cave:
   title: Thunderstorm Cave
   titleRu: Грозовая пещера
