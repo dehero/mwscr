@@ -179,18 +179,18 @@
     - service: vk
       id: 1876
       published: 2024-11-04-18-10-22
-      updated: 2025-03-04-06-11-37
+      updated: 2025-03-11-06-11-55
       followers: 1003
       likes: 31
-      views: 305
+      views: 306
       reposts: 1
     - service: tg
       id: 585
       published: 2024-11-04-18-10-32
-      updated: 2025-03-04-06-11-35
+      updated: 2025-03-11-06-11-54
       followers: 565
       likes: 58
-      views: 630
+      views: 632
 2018-01-07-vistha-kai-warden-of-the-corprusarium:
   title: Vistha-Kai, Warden of the Corprusarium
   titleRu: Виста-Кай, смотритель Корпрусариума
@@ -8797,25 +8797,25 @@
       id: DG_PNteTOGE
       mediaId: '18049718234224040'
       published: 2025-03-09-18-08-17
-      updated: 2025-03-11-05-08-46
+      updated: 2025-03-11-06-11-50
       followers: 1535
       likes: 55
-      views: 212
+      views: 213
     - service: vk
       id: 2183
       published: 2025-03-09-18-08-24
-      updated: 2025-03-11-05-08-46
+      updated: 2025-03-11-06-11-51
       followers: 1176
-      likes: 33
-      views: 230
+      likes: 34
+      views: 232
       reposts: 2
     - service: tg
       id: 739
       published: 2025-03-09-18-08-31
-      updated: 2025-03-11-05-08-46
+      updated: 2025-03-11-06-11-50
       followers: 693
       likes: 52
-      views: 266
+      views: 267
 2018-08-23-night-shipwreck:
   title: Night Shipwreck
   titleRu: Ночное кораблекрушение
@@ -10246,19 +10246,21 @@
       id: DHB0S2fT4UF
       mediaId: '18058157302870144'
       published: 2025-03-10-18-10-45
-      updated: 2025-03-11-05-08-45
+      updated: 2025-03-11-06-11-49
       followers: 1534
-      likes: 77
-      views: 189
+      likes: 79
+      views: 197
     - service: vk
       id: 2184
       published: 2025-03-10-18-11-05
-      updated: 2025-03-11-05-08-44
+      updated: 2025-03-11-06-11-48
       followers: 1177
-      likes: 33
-      views: 148
+      likes: 35
+      views: 165
       reposts: 2
-      comments: !c CxOAkZPLQnlYGUkEAACpcWlyb25nNjY2sdCa0YDQsNGB0LjQstC+0LUuAw==
+      comments: !c |-
+        izaAkpPLQnlYGUkEAACpcWlyb25nNjY2sdCa0YDQsNGB0LjQstC+0LUuk8tCeVg9IE8AAKppZDYz
+        NTcxNTIx2TDQnNC+0YHRgtGLINC+0LrRgNGD0LPQsCDQktCy0LDRgNC00LXQvdGE0LXQu9C7ISkD
     - service: tg
       id:
         - 740
@@ -10266,10 +10268,10 @@
         - 742
         - 743
       published: 2025-03-10-18-11-24
-      updated: 2025-03-11-05-08-45
+      updated: 2025-03-11-06-11-49
       followers: 693
-      likes: 42
-      views: 198
+      likes: 45
+      views: 205
       comments: !c CxiAkZPLQnlYFGcEAACvYWxpY2VfcmFiYml0XzAytU9kYWkgdW5kZXIgdGhlIGJyaWRnZQM=
 2018-09-24-verminous-fabricant:
   title: Verminous Fabricant

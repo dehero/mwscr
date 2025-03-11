@@ -32,10 +32,10 @@
 | [`ig`](https://instagram.com/p/BoFCn79hqRl/)       | 2018-09-23 |       |   145 |       427 |      33.96 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_940)  | 2018-09-23 |   453 |    44 |       238 |      19.33 |
 | [`tg`](https://t.me/mwscr/43,44,45,46,48)          | 2018-09-23 |   204 |     3 |           |            |
-| [`ig`](https://instagram.com/p/DHB0S2fT4UF/)       | 2025-03-10 |   189 |    77 |      1534 |       5.02 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2184) | 2025-03-10 |   148 |    33 |      1177 |       2.97 |
-| [`tg`](https://t.me/mwscr/740,741,742,743)         | 2025-03-10 |   198 |    42 |       693 |       6.06 |
-|                                                    |            |   535 |   152 |      3404 |       4.68 |
+| [`ig`](https://instagram.com/p/DHB0S2fT4UF/)       | 2025-03-10 |   197 |    79 |      1534 |       5.15 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2184) | 2025-03-10 |   165 |    35 |      1177 |       3.14 |
+| [`tg`](https://t.me/mwscr/740,741,742,743)         | 2025-03-10 |   205 |    45 |       693 |       6.49 |
+|                                                    |            |   567 |   159 |      3404 |       4.93 |
 
 #### Comments
 
@@ -44,6 +44,7 @@
   - <ins title="2018-09-24-09-52-50">mwscr</ins> @elijah_tha_prophet Thank you!
 - `tg` <ins title="2025-03-10-18-17-12">alice_rabbit_02</ins> Odai under the bridge
 - `vk` <ins title="2025-03-10-19-42-32">qirong666</ins> Красивое.
+- `vk` <ins title="2025-03-11-06-08-54">id63571521</ins> Мосты округа Вварденфелл!)
 
 ## <span id="2025-03-09-river-bank-in-west-gash">River Bank in West Gash</span>
 
@@ -67,10 +68,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BmytQzulbsP/)       | 2018-08-22 |       |   111 |       400 |      27.75 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_871)  | 2018-08-22 |   333 |    18 |       203 |       8.87 |
-| [`ig`](https://instagram.com/p/DG_PNteTOGE/)       | 2025-03-09 |   212 |    55 |      1535 |       3.58 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2183) | 2025-03-09 |   230 |    33 |      1176 |       2.98 |
-| [`tg`](https://t.me/mwscr/739)                     | 2025-03-09 |   266 |    52 |       693 |        7.5 |
-|                                                    |            |   708 |   140 |      3404 |       4.69 |
+| [`ig`](https://instagram.com/p/DG_PNteTOGE/)       | 2025-03-09 |   213 |    55 |      1535 |       3.58 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2183) | 2025-03-09 |   232 |    34 |      1176 |       3.06 |
+| [`tg`](https://t.me/mwscr/739)                     | 2025-03-09 |   267 |    52 |       693 |        7.5 |
+|                                                    |            |   712 |   141 |      3404 |       4.72 |
 
 ## <span id="2025-03-08-smoking-house">Smoking House</span>
 
@@ -205,8 +206,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_219)  | 2017-03-19 |   130 |     9 |        46 |          9 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2172) | 2025-03-05 |   298 |    44 |      1160 |       3.79 |
 | [`tg`](https://t.me/mwscr/735)                     | 2025-03-05 |   303 |    57 |       691 |       8.25 |
-| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   273 |    66 |      1536 |        4.3 |
-|                                                    |            |   874 |   167 |      3387 |       5.45 |
+| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   279 |    66 |      1536 |        4.3 |
+|                                                    |            |   880 |   167 |      3387 |       5.45 |
 
 ## <span id="2025-03-04-onnissiralis">Onnissiralis</span>
 
