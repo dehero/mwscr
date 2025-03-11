@@ -2,8 +2,8 @@ import './Page.css';
 import { DocumentEventListener } from '@solid-primitives/event-listener';
 import { debounce } from '@solid-primitives/scheduled';
 import { type Component, createSignal, type JSX, Show } from 'solid-js';
-import { usePageContext } from 'vike-solid/usePageContext';
-import { useRouteInfo } from '../../hooks/useRouteInfo.js';
+// import { usePageContext } from 'vike-solid/usePageContext';
+// import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { DetachedDialogsProvider } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Frame } from '../Frame/Frame.js';
 import { Navigation } from '../Navigation/Navigation.js';
@@ -16,8 +16,8 @@ export interface PageProps {
 }
 
 export const Page: Component<PageProps> = (props) => {
-  const pageContext = usePageContext();
-  const meta = () => useRouteInfo(pageContext).meta();
+  // const pageContext = usePageContext();
+  // const meta = () => useRouteInfo(pageContext).meta();
   const [showLoadingToast, setShowLoadingToast] = createSignal(true);
 
   const handleTransitionStart = debounce(() => setShowLoadingToast(true), 100);
@@ -47,7 +47,12 @@ export const Page: Component<PageProps> = (props) => {
       >
         <DetachedDialogsProvider>
           <Frame variant="thick" component="header" class={styles.header}>
-            <h1 class={styles.title}>{meta().title || 'Morrowind Screenshots'}</h1>
+            <h1 class={styles.title}>
+              {
+                // meta().title ||
+                'Morrowind Screenshots'
+              }
+            </h1>
           </Frame>
 
           <Navigation />

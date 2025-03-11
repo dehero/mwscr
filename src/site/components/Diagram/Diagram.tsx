@@ -1,6 +1,6 @@
+import { clientOnly } from '@solidjs/start';
 import clsx from 'clsx';
 import { type Component, Show } from 'solid-js';
-import { clientOnly } from 'vike-solid/clientOnly';
 import { Frame } from '../Frame/Frame.jsx';
 import styles from './Diagram.module.css';
 

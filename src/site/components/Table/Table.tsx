@@ -1,7 +1,7 @@
+import { clientOnly } from '@solidjs/start';
 import clsx from 'clsx';
 import { type Component, createMemo, type JSX, Show } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
-import { clientOnly } from 'vike-solid/clientOnly';
 import { formatDate } from '../../../core/utils/date-utils.js';
 import { Body } from './Body.jsx';
 import styles from './Table.module.css';

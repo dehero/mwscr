@@ -1,12 +1,12 @@
 import type { JSX } from 'solid-js';
 import { Show } from 'solid-js';
-import { usePageContext } from 'vike-solid/usePageContext';
+// import { usePageContext } from 'vike-solid/usePageContext';
 import icon from '../../../../assets/icon.png?format=avif&imagetools';
 import { getPostDateById } from '../../../core/entities/post.js';
 import { selectPostInfos } from '../../../core/entities/post-info.js';
 import { dateToString, formatDate, formatTime } from '../../../core/utils/date-utils.js';
-import { useRouteInfo } from '../../hooks/useRouteInfo.js';
-import { homeRoute } from '../../routes/home-route.js';
+// import { useRouteInfo } from '../../hooks/useRouteInfo.js';
+// import { homeRoute } from '../../routes/home-route.js';
 import { postRoute } from '../../routes/post-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { usersRoute } from '../../routes/users-route.js';
@@ -19,11 +19,25 @@ import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { PostHighlights } from '../PostHighlights/PostHighlights.js';
 import { PostTooltip } from '../PostTooltip/PostTooltip.js';
 import { Table } from '../Table/Table.js';
+import type { HomePageData } from './HomePage.data.js';
+// import { getData } from './HomePage.data.js';
 import styles from './HomePage.module.css';
 
 export const HomePage = (): JSX.Element => {
-  const pageContext = usePageContext();
-  const { data } = useRouteInfo(pageContext, homeRoute);
+  // const pageContext = usePageContext();
+  const data = (): HomePageData => ({
+    buildDate: new Date(),
+    totalPosts: { posts: 0, inbox: 0, trash: 0 },
+    authorCount: 0,
+    requesterCount: 0,
+    totalLikes: 0,
+    totalCommentCount: 0,
+    recentPostInfos: {
+      items: [],
+      params: {},
+      totalCount: 0,
+    },
+  });
 
   return (
     <>

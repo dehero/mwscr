@@ -1,4 +1,5 @@
 /// <reference types="vite/client" />
+/// <reference types="vinxi/types/client" />
 /// <reference types="../core/entities/location-info.js" />
 /// <reference types="../core/entities/post-info.js" />
 /// <reference types="../core/entities/user-info.js" />

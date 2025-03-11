@@ -1,9 +1,10 @@
+import { useLocation } from '@solidjs/router';
 import { type Component, For, Show } from 'solid-js';
-import { navigate } from 'vike/client/router';
-import { usePageContext } from 'vike-solid/usePageContext';
+// import { navigate } from 'vike/client/router';
+// import { usePageContext } from 'vike-solid/usePageContext';
 import type { Option } from '../../../core/entities/option.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
-import { useRouteInfo } from '../../hooks/useRouteInfo.js';
+// import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { homeRoute } from '../../routes/home-route.js';
 import type { RouteMatch } from '../../routes/index.js';
@@ -35,9 +36,13 @@ export function createOption({ route, params }: RouteMatch): Option {
 }
 
 export const Navigation: Component = () => {
-  const pageContext = usePageContext();
-  const pathname = () => pageContext.urlPathname;
-  const meta = () => useRouteInfo(pageContext).meta();
+  // const pageContext = usePageContext();
+  const pathname = () => useLocation().pathname;
+  const meta = () => ({
+    title: '',
+    label: '',
+    description: '',
+  }); //useRouteInfo(pageContext).meta();
 
   const patchSize = useLocalPatch();
 

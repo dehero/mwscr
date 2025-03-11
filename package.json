@@ -7,9 +7,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
+    "start": "vinxi start",
+    "build": "vinxi build",
     "preview": "vite preview",
+    "dev": "vinxi dev",
     "resolve-github-issue": "node --loader ts-node/esm src/local/resolve-github-issue.ts",
     "maintain": "node --loader ts-node/esm src/local/maintain.ts",
     "validate": "node --loader ts-node/esm src/local/validate.ts",
@@ -44,9 +45,6 @@
     "prettier": "^3.0.0",
     "tosource": "^2.0.0-alpha.3",
     "ts-node-test": "^0.4.3",
-    "vike": "^0.4.223",
-    "vike-solid": "^0.7.8",
-    "vite": "^5.4.11",
     "vite-imagetools": "^7.0.2",
     "vite-multiple-assets": "^1.2.10",
     "vite-plugin-static-copy": "^2.2.0"
@@ -66,6 +64,9 @@
     "@solid-primitives/scheduled": "^1.4.3",
     "@solid-primitives/storage": "^3.5.0",
     "@solid-primitives/upload": "^0.0.117",
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.15.3",
+    "@solidjs/start": "^1.1.3",
     "@thisbeyond/solid-dnd": "^0.7.5",
     "basic-ftp": "^5.0.5",
     "clsx": "^2.1.0",
@@ -87,12 +88,13 @@
     "relateurl": "^0.2.7",
     "rimraf": "^5.0.5",
     "sharp": "^0.33.2",
-    "solid-js": "^1.8.16",
+    "solid-js": "^1.9.2",
     "telegram": "2.17.10",
     "ts-node": "^10.8.1",
     "typescript": "^5.4.2",
     "valibot": "^1.0.0-beta.11",
     "vk-io": "^4.9.1",
-    "ya-disk": "^4.0.1"
+    "ya-disk": "^4.0.1",
+    "vinxi": "^0.5.3"
   }
 }
