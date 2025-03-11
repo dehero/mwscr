@@ -1261,18 +1261,18 @@
     - service: vk
       id: 1531
       published: 2024-05-13-18-17-48
-      updated: 2025-03-04-22-07-45
+      updated: 2025-03-11-23-08-03
       followers: 915
       likes: 35
-      views: 264
+      views: 265
       reposts: 1
     - service: tg
       id: 407
       published: 2024-05-13-18-17-54
-      updated: 2025-03-04-22-07-40
+      updated: 2025-03-11-23-07-58
       followers: 370
       likes: 62
-      views: 448
+      views: 449
       comments: !c |-
         iz6AkZTLQnj3MuobgACpR2F0ZW1hdGU3vWhvdyBkbyBpIHN1Ym1pdCBhIHNjcmVlbnNob3Q/k8tC
         ePcy8qcAAKVtd3Njctk5aHR0cHM6Ly9naXRodWIuY29tL2RlaGVyby9td3Njci9ibG9iL21haW4v
@@ -4068,28 +4068,28 @@
       id: DHEZOdXtjzH
       mediaId: '18064945003941974'
       published: 2025-03-11-18-11-56
-      updated: 2025-03-11-22-07-32
+      updated: 2025-03-11-23-07-52
       followers: 1534
-      likes: 42
-      views: 168
+      likes: 43
+      views: 177
       comments: !c |-
         iyWAkZPLQnlYaYmxgACpbnk3NHRfNHJ02TVJIGJlbGlldmUgdGhhdCBkdWRlIGlzIGFuIGFuY2Vz
         dG9yIG9mIGdlbmVyYWwgdHVsbGl1cwM=
     - service: vk
       id: 2187
       published: 2025-03-11-18-12-03
-      updated: 2025-03-11-22-07-31
+      updated: 2025-03-11-23-07-51
       followers: 1179
-      likes: 16
-      views: 102
+      likes: 17
+      views: 107
       reposts: 2
     - service: tg
       id: 744
       published: 2025-03-11-18-12-10
-      updated: 2025-03-11-22-07-32
+      updated: 2025-03-11-23-07-52
       followers: 695
-      likes: 29
-      views: 117
+      likes: 30
+      views: 125
 2017-04-07-trees-and-towers:
   title: Trees and Towers
   titleRu: Деревья и башни
@@ -5907,7 +5907,7 @@
     - service: tg
       id: 350
       published: 2024-03-18-18-11-16
-      updated: 2025-03-04-22-07-44
+      updated: 2025-03-11-23-08-02
       followers: 353
       likes: 55
       views: 484
@@ -8022,17 +8022,17 @@
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
-      updated: 2025-03-04-23-07-50
+      updated: 2025-03-11-23-07-56
       followers: 1059
       likes: 27
-      views: 308
+      views: 317
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
-      updated: 2025-03-04-23-07-49
+      updated: 2025-03-11-23-07-54
       followers: 664
       likes: 65
-      views: 602
+      views: 616
 2017-07-14-near-the-night-campfire:
   title: Near the Night Campfire
   titleRu: Возле ночного костра
@@ -10633,10 +10633,10 @@
     - service: vk
       id: 1548
       published: 2024-05-27-18-19-06
-      updated: 2025-03-04-22-07-42
+      updated: 2025-03-11-23-08-01
       followers: 918
       likes: 36
-      views: 272
+      views: 273
       comments: !c ixaAkZPLQnj7tpQ0gACmamVybW9yu9Cf0LDQsNGA0LjRgiDQstGL0YHQsNC60L7QvgM=
     - service: tg
       id: 421
@@ -12783,7 +12783,7 @@
     - service: tg
       id: 364
       published: 2024-04-01-18-11-06
-      updated: 2025-03-04-22-07-43
+      updated: 2025-03-11-23-08-01
       followers: 354
       likes: 61
       views: 473
@@ -12980,17 +12980,17 @@
       id: DE0MjAjSIq6
       mediaId: '18023130176338578'
       published: 2025-01-14-18-10-31
-      updated: 2025-03-04-22-07-44
+      updated: 2025-03-11-23-07-57
       followers: 1525
-      likes: 77
-      views: 365
+      likes: 76
+      views: 366
     - service: vk
       id: 2057
       published: 2025-01-14-18-10-37
-      updated: 2025-03-04-22-07-41
+      updated: 2025-03-11-23-08-00
       followers: 1052
       likes: 61
-      views: 362
+      views: 367
       reposts: 2
       comments: !c |-
         GwoBSJwJdiyXCQdrkR4XF/0TN4rwjxdwxhk2CR7hyT7VtvQJb084hCuDQrNXWILlTYy/nz1ZTnfH
@@ -13000,10 +13000,10 @@
     - service: tg
       id: 667
       published: 2025-01-14-18-10-44
-      updated: 2025-03-04-22-07-39
+      updated: 2025-03-11-23-07-56
       followers: 650
       likes: 69
-      views: 608
+      views: 613
 2017-11-26-in-the-cell-of-vuvil-senim:
   title: In the Cell of Vuvil Senim
   titleRu: В камере Вувила Сенима

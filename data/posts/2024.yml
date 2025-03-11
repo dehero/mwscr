@@ -994,7 +994,7 @@
     - service: tg
       id: 372
       published: 2024-04-08-18-19-56
-      updated: 2025-03-04-22-07-43
+      updated: 2025-03-11-23-08-00
       followers: 354
       likes: 60
       views: 460
@@ -1211,7 +1211,7 @@
     - service: tg
       id: 379
       published: 2024-04-15-18-17-53
-      updated: 2025-03-04-22-07-42
+      updated: 2025-03-11-23-08-00
       followers: 352
       likes: 60
       views: 529
@@ -1337,7 +1337,7 @@
     - service: vk
       id: 1505
       published: 2024-04-22-18-17-36
-      updated: 2025-03-04-22-07-48
+      updated: 2025-03-11-23-08-06
       followers: 909
       likes: 31
       views: 250
@@ -1345,7 +1345,7 @@
     - service: tg
       id: 386
       published: 2024-04-22-18-17-44
-      updated: 2025-03-04-22-07-42
+      updated: 2025-03-11-23-07-59
       followers: 354
       likes: 65
       views: 490
@@ -1452,14 +1452,14 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
-      updated: 2025-03-04-22-07-47
+      updated: 2025-03-11-23-08-05
       followers: 912
       likes: 36
       views: 267
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2025-03-04-22-07-41
+      updated: 2025-03-11-23-07-59
       followers: 354
       likes: 65
       views: 491
@@ -1626,7 +1626,7 @@
     - service: vk
       id: 1523
       published: 2024-05-06-18-21-06
-      updated: 2025-03-04-22-07-46
+      updated: 2025-03-11-23-08-04
       followers: 913
       likes: 44
       views: 325
@@ -1634,7 +1634,7 @@
     - service: tg
       id: 400
       published: 2024-05-06-18-21-14
-      updated: 2025-03-04-22-07-41
+      updated: 2025-03-11-23-07-58
       followers: 371
       likes: 60
       views: 485
@@ -1963,10 +1963,10 @@
     - service: vk
       id: 1539
       published: 2024-05-20-18-19-27
-      updated: 2025-03-04-22-07-44
+      updated: 2025-03-11-23-08-03
       followers: 916
       likes: 36
-      views: 278
+      views: 279
     - service: tg
       id: 414
       published: 2024-05-20-18-19-34
