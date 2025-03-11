@@ -4,7 +4,38 @@
 
 # Posted in 2025
 
-`69 items`
+`70 items`
+
+## <span id="2025-03-11-rainy-night-in-tel-aruhn">Rainy Night in Tel Aruhn</span>
+
+`RU` Дождливой ночью в Тель Аруне
+
+<a href="https://instagram.com/p/BSiYUKaDJ-7/" title="2017-04-06-rainy-night-in-tel-aruhn"><img alt="store:/shots/2017-04-06-rainy-night-in-tel-aruhn.png" src="../../assets/previews/shots/2017-04-06-rainy-night-in-tel-aruhn.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-11-rainy-night-in-tel-aruhn&amp;postContent=store%3A%2Fshots%2F2017-04-06-rainy-night-in-tel-aruhn.png&amp;postTitle=Rainy+Night+in+Tel+Aruhn&amp;postTitleRu=%D0%94%D0%BE%D0%B6%D0%B4%D0%BB%D0%B8%D0%B2%D0%BE%D0%B9+%D0%BD%D0%BE%D1%87%D1%8C%D1%8E+%D0%B2+%D0%A2%D0%B5%D0%BB%D1%8C+%D0%90%D1%80%D1%83%D0%BD%D0%B5&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=&amp;postLocation=Tel+Aruhn&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Tel Aruhn` `🚀 OpenMW`
+
+```
+2025-03-11-rainy-night-in-tel-aruhn
+```
+
+> `2017-04-06-rainy-night-in-tel-aruhn`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BSiYUKaDJ-7/)       | 2017-04-06 |       |    64 |       169 |      37.87 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_244)  | 2017-04-06 |   146 |     7 |        49 |          7 |
+| [`ig`](https://instagram.com/p/DHEZOdXtjzH/)       | 2025-03-11 |       |       |      1534 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2187) | 2025-03-11 |       |       |      1179 |            |
+| [`tg`](https://t.me/mwscr/744)                     | 2025-03-11 |       |       |       695 |            |
+|                                                    |            |       |       |      3408 |            |
+
+#### Comments
+
+- `ig` <ins title="2017-04-06-13-55-17">jauffrejam</ins> Beautiful
 
 ## <span id="2025-03-10-bridges">Bridges</span>
 
@@ -32,10 +63,10 @@
 | [`ig`](https://instagram.com/p/BoFCn79hqRl/)       | 2018-09-23 |       |   145 |       427 |      33.96 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_940)  | 2018-09-23 |   453 |    44 |       238 |      19.33 |
 | [`tg`](https://t.me/mwscr/43,44,45,46,48)          | 2018-09-23 |   204 |     3 |           |            |
-| [`ig`](https://instagram.com/p/DHB0S2fT4UF/)       | 2025-03-10 |   242 |    95 |      1534 |       6.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2184) | 2025-03-10 |   281 |    55 |      1177 |       5.01 |
-| [`tg`](https://t.me/mwscr/740,741,742,743)         | 2025-03-10 |   245 |    53 |       693 |       7.65 |
-|                                                    |            |   768 |   203 |      3404 |       6.28 |
+| [`ig`](https://instagram.com/p/DHB0S2fT4UF/)       | 2025-03-10 |   244 |    95 |      1534 |       6.19 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2184) | 2025-03-10 |   288 |    56 |      1177 |        5.1 |
+| [`tg`](https://t.me/mwscr/740,741,742,743)         | 2025-03-10 |   246 |    53 |       693 |       7.65 |
+|                                                    |            |   778 |   204 |      3404 |       6.31 |
 
 #### Comments
 
@@ -95,10 +126,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/Bkf7vqalVjT/)       | 2018-06-26 |       |   106 |       349 |      30.37 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_780)  | 2018-06-26 |   317 |    27 |       177 |      15.25 |
-| [`ig`](https://instagram.com/p/DG8qZooRvvl/)       | 2025-03-08 |   310 |    91 |      1536 |       5.92 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2179) | 2025-03-08 |   307 |    51 |      1174 |       4.51 |
-| [`tg`](https://t.me/mwscr/738)                     | 2025-03-08 |   208 |    58 |       691 |       8.39 |
-|                                                    |            |   825 |   200 |      3401 |       6.28 |
+| [`ig`](https://instagram.com/p/DG8qZooRvvl/)       | 2025-03-08 |   333 |    93 |      1536 |       6.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2179) | 2025-03-08 |   343 |    55 |      1174 |       4.86 |
+| [`tg`](https://t.me/mwscr/738)                     | 2025-03-08 |   233 |    62 |       691 |       8.97 |
+|                                                    |            |   909 |   210 |      3401 |       6.63 |
 
 #### Comments
 
@@ -133,10 +164,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BUTvUYijqU8/)       | 2017-05-20 |       |    58 |       178 |      32.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_296)  | 2017-05-20 |   111 |    10 |        56 |      17.86 |
-| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   400 |    91 |      1537 |       5.92 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |   281 |    56 |      1171 |       4.87 |
-| [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |   241 |    58 |       691 |       8.39 |
-|                                                    |            |   922 |   205 |      3399 |       6.39 |
+| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   411 |    92 |      1537 |       5.99 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |   324 |    60 |      1171 |       5.38 |
+| [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |   266 |    60 |       691 |       8.68 |
+|                                                    |            |  1001 |   212 |      3399 |       6.68 |
 
 #### Comments
 
@@ -166,10 +197,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/Bm_jw4ElpBd/)       | 2018-08-27 |       |   104 |       405 |      25.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_879)  | 2018-08-27 |   459 |    29 |       217 |      13.36 |
-| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   197 |    63 |      1536 |        4.1 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   334 |    39 |      1164 |       3.69 |
-| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   278 |    54 |       691 |       7.81 |
-|                                                    |            |   809 |   156 |      3391 |        5.2 |
+| [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   202 |    63 |      1536 |        4.1 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   352 |    40 |      1164 |       3.78 |
+| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   294 |    55 |       691 |       7.96 |
+|                                                    |            |   848 |   158 |      3391 |       5.28 |
 
 #### Comments
 
