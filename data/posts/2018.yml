@@ -2233,7 +2233,7 @@
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2025-03-04-00-38-08
+      updated: 2025-03-11-02-15-49
       followers: 894
       likes: 34
       views: 299
@@ -2315,7 +2315,7 @@
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
-      updated: 2025-03-04-00-38-02
+      updated: 2025-03-11-02-15-43
       followers: 909
       likes: 46
       views: 311
@@ -4997,7 +4997,7 @@
     - service: vk
       id: 1468
       published: 2024-03-24-18-11-49
-      updated: 2025-03-04-00-38-06
+      updated: 2025-03-11-02-15-46
       followers: 898
       likes: 41
       views: 350
@@ -8797,25 +8797,25 @@
       id: DG_PNteTOGE
       mediaId: '18049718234224040'
       published: 2025-03-09-18-08-17
-      updated: 2025-03-11-00-38-03
+      updated: 2025-03-11-02-15-37
       followers: 1535
-      likes: 54
-      views: 208
+      likes: 55
+      views: 209
     - service: vk
       id: 2183
       published: 2025-03-09-18-08-24
-      updated: 2025-03-11-00-38-04
+      updated: 2025-03-11-02-15-38
       followers: 1176
       likes: 33
-      views: 220
-      reposts: 1
+      views: 223
+      reposts: 2
     - service: tg
       id: 739
       published: 2025-03-09-18-08-31
-      updated: 2025-03-11-00-38-05
+      updated: 2025-03-11-02-15-36
       followers: 693
       likes: 52
-      views: 258
+      views: 260
 2018-08-23-night-shipwreck:
   title: Night Shipwreck
   titleRu: Ночное кораблекрушение
@@ -10246,17 +10246,17 @@
       id: DHB0S2fT4UF
       mediaId: '18058157302870144'
       published: 2025-03-10-18-10-45
-      updated: 2025-03-11-00-38-02
+      updated: 2025-03-11-02-15-35
       followers: 1534
-      likes: 72
-      views: 170
+      likes: 74
+      views: 175
     - service: vk
       id: 2184
       published: 2025-03-10-18-11-05
-      updated: 2025-03-11-00-38-02
+      updated: 2025-03-11-02-15-36
       followers: 1177
       likes: 29
-      views: 118
+      views: 128
       reposts: 1
       comments: !c CxOAkZPLQnlYGUkEAACpcWlyb25nNjY2sdCa0YDQsNGB0LjQstC+0LUuAw==
     - service: tg
@@ -10266,10 +10266,10 @@
         - 742
         - 743
       published: 2025-03-10-18-11-24
-      updated: 2025-03-11-00-38-03
+      updated: 2025-03-11-02-15-35
       followers: 693
-      likes: 36
-      views: 180
+      likes: 37
+      views: 185
       comments: !c CxiAkZPLQnlYFGcEAACvYWxpY2VfcmFiYml0XzAytU9kYWkgdW5kZXIgdGhlIGJyaWRnZQM=
 2018-09-24-verminous-fabricant:
   title: Verminous Fabricant
