@@ -80,7 +80,7 @@ Likes: 211
 [Instagram](https://instagram.com/ohsweetnazareth/), [GitHub](https://github.com/ohsweetnazareth)
 
 Roles: `author` `beginner`  
-Authored: 2 pending, 1 rejected  
+Authored: 3 pending, 1 rejected  
 
 ```
 ohsweetnazareth
