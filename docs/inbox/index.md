@@ -8,14 +8,14 @@
 
 ## <span id="ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791">Within the House of Earthly Delights, Suran</span>
 
-![store:/inbox/ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791](../../assets/previews/inbox/ohsweetnazareth.avif "ohsweetnazareth")
+![store:/inbox/ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791.png](../../assets/previews/inbox/ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791.avif "ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791")
 
 `shot` by [nazareth](../contributors.md#ohsweetnazareth)
 
 > [!WARNING]
-> Missing russian title, editor's mark, content should end with image extension ".png", ".webp" or ".jpg"", got "store:/inbox/ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791".
+> Missing russian title, editor's mark.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791&amp;postContent=store%3A%2Finbox%2Fohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791&amp;postTitle=Within+the+House+of+Earthly+Delights%2C+Suran&amp;postTitleRu=&amp;postAuthor=ohsweetnazareth&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791&amp;postContent=store%3A%2Finbox%2Fohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791.png&amp;postTitle=Within+the+House+of+Earthly+Delights%2C+Suran&amp;postTitleRu=&amp;postAuthor=ohsweetnazareth&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791&postLocation=)</code>
 
 ```
 ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791
@@ -23,14 +23,14 @@ ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791
 
 ## <span id="ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486">Keening&#39;s Respite in Odrosal Tower</span>
 
-![store:/inbox/ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486](../../assets/previews/inbox/ohsweetnazareth.avif "ohsweetnazareth")
+![store:/inbox/ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486.png](../../assets/previews/inbox/ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486.avif "ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486")
 
 `shot` by [nazareth](../contributors.md#ohsweetnazareth)
 
 > [!WARNING]
-> Missing russian title, editor's mark, content should end with image extension ".png", ".webp" or ".jpg"", got "store:/inbox/ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486".
+> Missing russian title, editor's mark.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486&amp;postContent=store%3A%2Finbox%2Fohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486&amp;postTitle=Keening%27s+Respite+in+Odrosal+Tower&amp;postTitleRu=&amp;postAuthor=ohsweetnazareth&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486&amp;postContent=store%3A%2Finbox%2Fohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486.png&amp;postTitle=Keening%27s+Respite+in+Odrosal+Tower&amp;postTitleRu=&amp;postAuthor=ohsweetnazareth&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486&postLocation=)</code>
 
 ```
 ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486
