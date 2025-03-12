@@ -55,10 +55,12 @@ export async function importResourceToStore(
   const author = template?.author || USER_UNKNOWN;
   const type = template?.type || 'shot';
 
-  const { name, ext } = posix.parse(filename);
+  const { name, ext: filenameExt } = posix.parse(filename);
+  const mimeExt = mimeType ? mime.getExtension(mimeType) : undefined;
   const [nameDate, nameTitle] = extractDateFromString(name);
   const [date, text] = extractDateFromString(template?.title ?? '');
   const title = postTitleFromString(text || nameTitle);
+  const ext = filenameExt || mimeExt ? `.${mimeExt}` : '';
 
   const hash = getRevisionHash(data ?? filename);
 
