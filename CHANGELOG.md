@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.41.1](https://github.com/dehero/mwscr/compare/v1.41.0...v1.41.1) (2025-03-12)
+
+### Bug Fixes
+
+- detect file extension from MIME when importing URLs without extension
+  ([b045115](https://github.com/dehero/mwscr/commit/b0451152a1d6920df4bfcdf0d6c32cb6bc69c8ec))
+
 ## [1.41.0](https://github.com/dehero/mwscr/compare/v1.40.0...v1.41.0) (2025-03-12)
 
 ### Features
