@@ -1648,10 +1648,10 @@
     - service: vk
       id: 1532
       published: 2024-05-14-18-18-38
-      updated: 2025-03-05-21-07-49
+      updated: 2025-03-12-22-07-59
       followers: 915
       likes: 47
-      views: 331
+      views: 332
       reposts: 1
     - service: tg
       id: 408
@@ -4068,9 +4068,9 @@
       id: DHEZOdXtjzH
       mediaId: '18064945003941974'
       published: 2025-03-11-18-11-56
-      updated: 2025-03-12-21-07-35
+      updated: 2025-03-12-22-07-50
       followers: 1534
-      likes: 67
+      likes: 68
       views: 307
       comments: !c |-
         iyWAkZPLQnlYaYmxgACpbnk3NHRfNHJ02TVJIGJlbGlldmUgdGhhdCBkdWRlIGlzIGFuIGFuY2Vz
@@ -4078,18 +4078,18 @@
     - service: vk
       id: 2187
       published: 2025-03-11-18-12-03
-      updated: 2025-03-12-21-07-34
+      updated: 2025-03-12-22-07-51
       followers: 1179
       likes: 42
-      views: 235
+      views: 240
       reposts: 3
     - service: tg
       id: 744
       published: 2025-03-11-18-12-10
-      updated: 2025-03-12-21-07-35
+      updated: 2025-03-12-22-07-50
       followers: 695
       likes: 49
-      views: 195
+      views: 196
 2017-04-07-trees-and-towers:
   title: Trees and Towers
   titleRu: Деревья и башни
@@ -11585,7 +11585,7 @@
     - service: tg
       id: 358
       published: 2024-03-26-18-10-55
-      updated: 2025-03-05-21-07-48
+      updated: 2025-03-12-22-07-58
       followers: 352
       likes: 68
       views: 549
@@ -13103,7 +13103,7 @@
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
-      updated: 2025-03-05-21-07-51
+      updated: 2025-03-12-22-08-02
       followers: 909
       likes: 40
       views: 306
@@ -13114,7 +13114,7 @@
     - service: tg
       id: 387
       published: 2024-04-23-18-17-22
-      updated: 2025-03-05-21-07-45
+      updated: 2025-03-12-22-07-54
       followers: 355
       likes: 62
       views: 1159
@@ -14034,24 +14034,24 @@
       id: DHG-AqUA2tH
       mediaId: '18086036761587107'
       published: 2025-03-12-18-11-50
-      updated: 2025-03-12-21-07-33
+      updated: 2025-03-12-22-07-48
       followers: 1535
-      likes: 40
-      views: 94
+      likes: 47
+      views: 117
     - service: vk
       id: 2189
       published: 2025-03-12-18-11-57
-      updated: 2025-03-12-21-07-33
+      updated: 2025-03-12-22-07-49
       followers: 1180
-      likes: 15
-      views: 74
+      likes: 16
+      views: 86
     - service: tg
       id: 745
       published: 2025-03-12-18-12-03
-      updated: 2025-03-12-21-07-34
+      updated: 2025-03-12-22-07-49
       followers: 695
-      likes: 33
-      views: 111
+      likes: 34
+      views: 122
 2017-12-23-secret-love:
   title: Secret Love
   titleRu: Тайная любовь
