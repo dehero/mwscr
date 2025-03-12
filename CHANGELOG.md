@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.41.2](https://github.com/dehero/mwscr/compare/v1.41.1...v1.41.2) (2025-03-12)
+
+### Bug Fixes
+
+- add constant redirects for reposts
+  ([b37ebbd](https://github.com/dehero/mwscr/commit/b37ebbd0b49f1d57db34910d4aacee5cfa9fb23b))
+
 ## [1.41.1](https://github.com/dehero/mwscr/compare/v1.41.0...v1.41.1) (2025-03-12)
 
 ### Bug Fixes
