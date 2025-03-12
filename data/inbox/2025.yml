@@ -1,10 +1,17 @@
 dehero.2025-01-19-18-13-26:
-  content:
+  title: Cold Beach
+  titleRu: Холодный пляж
+  location: West Gash Region
+  content: store:/inbox/dehero.2025-01-19-18-13-26.1.png
+  trash:
     - store:/inbox/dehero.2025-01-19-18-13-26.png
     - store:/inbox/dehero.2025-01-19-18-13-19.png
-    - store:/inbox/dehero.2025-01-19-18-13-26.1.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - beach
+  mark: B1
 dehero.2025-01-19-18-31-11:
   content: store:/inbox/dehero.2025-01-19-18-31-11.png
   type: shot
