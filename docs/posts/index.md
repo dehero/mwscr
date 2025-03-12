@@ -4,7 +4,34 @@
 
 # Posted in 2025
 
-`70 items`
+`71 items`
+
+## <span id="2025-03-12-note-to-telvon">Note to Telvon</span>
+
+`RU` Записка Телвону
+
+<a href="https://instagram.com/p/BdA6mOTjrmF/" title="2017-12-22-note-to-telvon"><img alt="store:/shots/2017-12-22-note-to-telvon.png" src="../../assets/previews/shots/2017-12-22-note-to-telvon.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-12-note-to-telvon&amp;postContent=store%3A%2Fshots%2F2017-12-22-note-to-telvon.png&amp;postTitle=Note+to+Telvon&amp;postTitleRu=%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D0%BA%D0%B0+%D0%A2%D0%B5%D0%BB%D0%B2%D0%BE%D0%BD%D1%83&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=candle&amp;postLocation=&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=2025-03-12-note-to-telvon&postLocation=)</code> `🚀 OpenMW` `candle`
+
+```
+2025-03-12-note-to-telvon
+```
+
+> `2017-12-22-note-to-telvon`
+
+### Reactions
+
+|                                                    | published  | views | likes | followers | engagement |
+|----------------------------------------------------|------------|------:|------:|----------:|-----------:|
+| [`ig`](https://instagram.com/p/BdA6mOTjrmF/)       | 2017-12-22 |       |    78 |       259 |      30.12 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_548)  | 2017-12-22 |   179 |    14 |       112 |       12.5 |
+| [`ig`](https://instagram.com/p/DHG-AqUA2tH/)       | 2025-03-12 |       |       |      1535 |            |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2189) | 2025-03-12 |       |       |      1180 |            |
+| [`tg`](https://t.me/mwscr/745)                     | 2025-03-12 |       |       |       695 |            |
+|                                                    |            |       |       |      3410 |            |
 
 ## <span id="2025-03-11-rainy-night-in-tel-aruhn">Rainy Night in Tel Aruhn</span>
 
@@ -28,10 +55,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BSiYUKaDJ-7/)       | 2017-04-06 |       |    64 |       169 |      37.87 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_244)  | 2017-04-06 |   146 |     7 |        49 |          7 |
-| [`ig`](https://instagram.com/p/DHEZOdXtjzH/)       | 2025-03-11 |   294 |    62 |      1534 |       4.04 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2187) | 2025-03-11 |   225 |    39 |      1179 |       3.56 |
-| [`tg`](https://t.me/mwscr/744)                     | 2025-03-11 |   169 |    44 |       695 |       6.33 |
-|                                                    |            |   688 |   145 |      3408 |       4.64 |
+| [`ig`](https://instagram.com/p/DHEZOdXtjzH/)       | 2025-03-11 |   296 |    64 |      1534 |       4.17 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2187) | 2025-03-11 |   227 |    40 |      1179 |       3.65 |
+| [`tg`](https://t.me/mwscr/744)                     | 2025-03-11 |   171 |    44 |       695 |       6.33 |
+|                                                    |            |   694 |   148 |      3408 |       4.72 |
 
 #### Comments
 
@@ -127,10 +154,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/Bkf7vqalVjT/)       | 2018-06-26 |       |   106 |       349 |      30.37 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_780)  | 2018-06-26 |   317 |    27 |       177 |      15.25 |
-| [`ig`](https://instagram.com/p/DG8qZooRvvl/)       | 2025-03-08 |   333 |    93 |      1536 |       6.05 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2179) | 2025-03-08 |   343 |    55 |      1174 |       4.86 |
-| [`tg`](https://t.me/mwscr/738)                     | 2025-03-08 |   233 |    62 |       691 |       8.97 |
-|                                                    |            |   909 |   210 |      3401 |       6.63 |
+| [`ig`](https://instagram.com/p/DG8qZooRvvl/)       | 2025-03-08 |   341 |    93 |      1536 |       6.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2179) | 2025-03-08 |   369 |    55 |      1174 |       4.86 |
+| [`tg`](https://t.me/mwscr/738)                     | 2025-03-08 |   262 |    62 |       691 |       8.97 |
+|                                                    |            |   972 |   210 |      3401 |       6.63 |
 
 #### Comments
 
@@ -142,6 +169,7 @@
 - `vk` <ins title="2025-03-08-18-44-47">artyom_melikhoff</ins> Кальдера🥰
 - `vk` <ins title="2025-03-09-05-56-36">peteevandrew</ins> Очень располагающая обстановка. Дым из печных труб, непогода, Кальдера))
 - `vk` <ins title="2025-03-09-12-11-21">liu_san</ins> Место паломничества к Ползуну, покровителю быстрого обогащения
+- `vk` <ins title="2025-03-12-15-54-00">thelittlebuddy</ins> Тайный внебрачный брат Фаргота ищет уже своё утерянное кольцо. <br>Но это уже совсем другая история...
 
 ## <span id="2025-03-07-at-the-edge-of-the-world">At the Edge of the World</span>
 
@@ -165,10 +193,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BUTvUYijqU8/)       | 2017-05-20 |       |    58 |       178 |      32.58 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_296)  | 2017-05-20 |   111 |    10 |        56 |      17.86 |
-| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   411 |    92 |      1537 |       5.99 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |   324 |    60 |      1171 |       5.38 |
-| [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |   266 |    60 |       691 |       8.68 |
-|                                                    |            |  1001 |   212 |      3399 |       6.68 |
+| [`ig`](https://instagram.com/p/DG6F-d9uFqA/)       | 2025-03-07 |   414 |    93 |      1537 |       6.05 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2175) | 2025-03-07 |   351 |    62 |      1171 |       5.55 |
+| [`tg`](https://t.me/mwscr/737)                     | 2025-03-07 |   295 |    61 |       691 |       8.83 |
+|                                                    |            |  1060 |   216 |      3399 |       6.81 |
 
 #### Comments
 
@@ -199,9 +227,9 @@
 | [`ig`](https://instagram.com/p/Bm_jw4ElpBd/)       | 2018-08-27 |       |   104 |       405 |      25.68 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_879)  | 2018-08-27 |   459 |    29 |       217 |      13.36 |
 | [`ig`](https://instagram.com/p/DG3hLu6sdd-/)       | 2025-03-06 |   202 |    63 |      1536 |        4.1 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   352 |    40 |      1164 |       3.78 |
-| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   294 |    55 |       691 |       7.96 |
-|                                                    |            |   848 |   158 |      3391 |       5.28 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2173) | 2025-03-06 |   368 |    40 |      1164 |       3.78 |
+| [`tg`](https://t.me/mwscr/736)                     | 2025-03-06 |   300 |    55 |       691 |       7.96 |
+|                                                    |            |   870 |   158 |      3391 |       5.28 |
 
 #### Comments
 
