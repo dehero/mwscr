@@ -875,10 +875,10 @@
     - service: vk
       id: 1747
       published: 2024-09-10-23-20-58
-      updated: 2025-03-05-20-09-19
+      updated: 2025-03-12-21-07-39
       followers: 945
       likes: 28
-      views: 360
+      views: 361
       comments: !c |-
         G/4AWJwHtvOUwOL5VzcQDEQF3UgP6NXjyEowwmQWsjlrzYTVezIejvaTSrupm0/y52u1NJPsqWlz
         iCUYwYPkdRgZTlpoxmmCAWks3YPRZCQDHGzA8QzbqNEI++PP+6cN/P6nXd/VlEykDBPrH+9cMdy9
@@ -887,7 +887,7 @@
     - service: tg
       id: 528
       published: 2024-09-10-23-21-05
-      updated: 2025-03-05-20-09-21
+      updated: 2025-03-12-21-07-39
       followers: 554
       likes: 55
       views: 559
@@ -1279,18 +1279,18 @@
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2025-03-05-20-09-22
+      updated: 2025-03-12-21-07-42
       followers: 926
       likes: 28
-      views: 285
+      views: 286
       reposts: 1
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2025-03-05-20-09-24
+      updated: 2025-03-12-21-07-42
       followers: 502
       likes: 70
-      views: 646
+      views: 647
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -3188,10 +3188,10 @@
     - service: tg
       id: 422
       published: 2024-05-28-18-19-16
-      updated: 2025-03-05-20-09-33
+      updated: 2025-03-12-21-07-51
       followers: 378
       likes: 64
-      views: 456
+      views: 457
 2018-03-25-ships:
   title: Ships
   titleRu: Корабли
@@ -4301,7 +4301,7 @@
     - service: tg
       id: 415
       published: 2024-05-21-18-18-59
-      updated: 2025-03-05-20-09-34
+      updated: 2025-03-12-21-07-52
       followers: 373
       likes: 57
       views: 484
@@ -4416,10 +4416,10 @@
     - service: tg
       id: 725
       published: 2025-02-26-18-11-14
-      updated: 2025-03-05-20-09-17
+      updated: 2025-03-12-21-07-37
       followers: 685
-      likes: 58
-      views: 330
+      likes: 59
+      views: 394
       comments: !c ixiAkZPLQnlUPOyCAACuZGlzbWFzdGVyZnJhbmW3TXVzdCBoYXZlIGJlZW4gdGhlIHdpbmQD
 2018-04-25-night-travellers:
   title: Night Travellers
@@ -5039,15 +5039,15 @@
     - service: vk
       id: 1628
       published: 2024-07-09-18-20-20
-      updated: 2025-03-05-20-09-26
+      updated: 2025-03-12-21-07-47
       followers: 920
       likes: 35
-      views: 261
+      views: 262
       reposts: 1
     - service: tg
       id: 464
       published: 2024-07-09-18-20-26
-      updated: 2025-03-05-20-09-28
+      updated: 2025-03-12-21-07-46
       followers: 396
       likes: 69
       views: 475
@@ -6176,10 +6176,10 @@
     - service: vk
       id: 1611
       published: 2024-07-02-18-20-16
-      updated: 2025-03-05-20-09-27
+      updated: 2025-03-12-21-07-48
       followers: 918
       likes: 40
-      views: 395
+      views: 397
       reposts: 1
       comments: !c |-
         G7oA+B2JsY2aLays8sOF+H+ek+kEv012hj7ETpJg4sl9RqnbLCF6DMViH+fi9Hxa3tQsSkXyY/xs
@@ -6188,7 +6188,7 @@
     - service: tg
       id: 457
       published: 2024-07-02-18-20-23
-      updated: 2025-03-05-20-09-29
+      updated: 2025-03-12-21-07-46
       followers: 391
       likes: 58
       views: 449
