@@ -4,7 +4,7 @@
 
 # Trash for 2025
 
-`1 items`
+`4 items`
 
 ## <span id="ohsweetnazareth.2025-03-11-worship-in-kogoruhn-hall-of-maki-f8316ec2">Worship in Kogoruhn, Hall of Maki</span>
 
@@ -19,6 +19,51 @@
 
 ```
 ohsweetnazareth.2025-03-11-worship-in-kogoruhn-hall-of-maki-f8316ec2
+```
+
+## <span id="ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791">Within the House of Earthly Delights, Suran</span>
+
+![store:/inbox/ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791.png](../../assets/previews/inbox/ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791.avif "ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791")
+
+`shot` by [nazareth](../contributors.md#ohsweetnazareth)
+
+> [!CAUTION]
+> [object Object].
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791&amp;postContent=store%3A%2Finbox%2Fohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791.png&amp;postTitle=Within+the+House+of+Earthly+Delights%2C+Suran&amp;postTitleRu=&amp;postAuthor=ohsweetnazareth&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=no-anti-aliasing&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791&postLocation=)</code>
+
+```
+ohsweetnazareth.2025-03-11-within-the-house-of-earthly-delights-suran-6744e791
+```
+
+## <span id="ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486">Keening&#39;s Respite in Odrosal Tower</span>
+
+![store:/inbox/ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486.png](../../assets/previews/inbox/ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486.avif "ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486")
+
+`shot` by [nazareth](../contributors.md#ohsweetnazareth)
+
+> [!CAUTION]
+> [object Object].
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486&amp;postContent=store%3A%2Finbox%2Fohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486.png&amp;postTitle=Keening%27s+Respite+in+Odrosal+Tower&amp;postTitleRu=&amp;postAuthor=ohsweetnazareth&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=no-anti-aliasing&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486&postLocation=)</code>
+
+```
+ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486
+```
+
+## <span id="ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon">Ash Statue in Maran-Adon</span>
+
+![store:/inbox/ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon.png](../../assets/previews/inbox/ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon.avif "ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon")
+
+`shot` by [nazareth](../contributors.md#ohsweetnazareth)
+
+> [!CAUTION]
+> [object Object].
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon&amp;postContent=store%3A%2Finbox%2Fohsweetnazareth.2025-02-20-ash-statue-in-maran-adon.png&amp;postTitle=Ash+Statue+in+Maran-Adon&amp;postTitleRu=&amp;postAuthor=ohsweetnazareth&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=Maran-Adon&amp;postMark=&amp;postViolation=no-anti-aliasing&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon&amp;mergeWithIds=) `📍 Maran-Adon`
+
+```
+ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon
 ```
 
 ---
