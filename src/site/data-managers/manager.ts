@@ -3,6 +3,7 @@ import { DataManager } from '../../core/entities/data-manager.js';
 import type { LocationInfo } from '../../core/entities/location-info.js';
 import type { PostInfo } from '../../core/entities/post-info.js';
 import type { PostsManagerName } from '../../core/entities/posts-manager.js';
+import type { TagInfo } from '../../core/entities/tag-info.js';
 import type { UserInfo } from '../../core/entities/user-info.js';
 import { jsonDateReviver } from '../../core/utils/date-utils.js';
 import { locations } from './locations.js';
@@ -56,6 +57,28 @@ class SiteDataManager extends DataManager {
 
         if (!Array.isArray(data)) {
           throw new TypeError(`File "${filename}" expected to be the array of post infos`);
+        }
+
+        return data;
+      } catch (error) {
+        throw new Error(`Failed to load "${filename}": ${error}`);
+      }
+    });
+  }
+
+  async getAllTagInfos(): Promise<TagInfo[]> {
+    if (this.patchSize > 0) {
+      return super.getAllTagInfos();
+    }
+
+    return this.createCache(this.getAllTagInfos.name, async () => {
+      const filename = '/data/tag-infos.json';
+
+      try {
+        const data = await fetch(filename).then((r) => r.json());
+
+        if (!Array.isArray(data)) {
+          throw new TypeError(`File "${filename}" expected to be the array of tag infos`);
         }
 
         return data;

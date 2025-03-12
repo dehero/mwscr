@@ -1,5 +1,11 @@
 ErrorDocument 404 /404.html
 
+# <IfModule mod_rewrite.c>
+# 	RewriteEngine on
+#   RewriteCond %{REQUEST_FILENAME} !-d
+#   RewriteRule ^(posts|inbox|trash)/[^/]+/(.*) $1/all/$2 [L,QSA]
+# </IfModule>
+
 <ifModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript
   AddOutputFilterByType DEFLATE application/json

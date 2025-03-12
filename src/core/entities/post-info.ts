@@ -1,6 +1,7 @@
 import type { DateRange, EntitySelection, SortDirection } from '../utils/common-types.js';
 import { asArray, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
 import { dateToString, formatDate, isDateInRange, isValidDate } from '../utils/date-utils.js';
+import type { DataManager } from './data-manager.js';
 import type { ListReaderItemStatus } from './list-manager.js';
 import { isNestedLocation } from './location.js';
 import type { Option } from './option.js';
@@ -9,7 +10,6 @@ import type {
   PostAddon,
   PostContent,
   PostEngine,
-  PostEntry,
   PostLocation,
   PostMark,
   PostPlacement,
@@ -18,17 +18,17 @@ import type {
   PostViolation,
 } from './post.js';
 import {
-  getPostCommentCount,
+  comparePostEntriesByDate,
   getPostDateById,
+  getPostEntriesFromSource,
   getPostEntryStats,
   getPostRating,
   postTypeDescriptors,
   postViolationDescriptors,
 } from './post.js';
-import type { PostsManager, PostsManagerName } from './posts-manager.js';
+import type { PostsManagerName } from './posts-manager.js';
 import { isPublishablePost, isTrashItem } from './posts-manager.js';
 import { createUserOption } from './user.js';
-import type { UsersManager } from './users-manager.js';
 
 export interface PostInfo {
   id: string;
@@ -100,52 +100,63 @@ export interface SelectPostInfosParams {
 
 export type PostInfoSelection = EntitySelection<PostInfo, SelectPostInfosParams>;
 
-export async function createPostInfo(
-  entry: PostEntry,
-  usersManager: UsersManager,
-  manager: PostsManager,
-): Promise<PostInfo> {
-  const [id, post, refId] = entry;
-  const errors: string[] = [];
-
-  const status = await manager.getItemStatus(id);
-
-  if (manager.name === 'inbox' && status !== 'removed' && !isTrashItem(post)) {
-    isPublishablePost(post, errors);
+export async function createPostInfos(managerName: string, dataManager: DataManager): Promise<PostInfo[]> {
+  const manager = dataManager.findPostsManager(managerName);
+  if (!manager) {
+    throw new Error(`Cannot find posts manager "${managerName}"`);
   }
+  const entries = [
+    ...(await getPostEntriesFromSource(() => manager.readAllEntries(false), comparePostEntriesByDate('desc'))),
+    ...(await manager.getRemovedEntries()),
+  ];
 
-  const stats = getPostEntryStats(entry);
+  return Promise.all(
+    entries.map(async (entry) => {
+      const [id, post, refId] = entry;
+      const errors: string[] = [];
 
-  return cleanupUndefinedProps({
-    id,
-    refId,
-    title: post.title,
-    titleRu: post.titleRu,
-    description: post.description,
-    descriptionRu: post.descriptionRu,
-    location: post.location,
-    placement: post.placement,
-    content: post.content,
-    type: post.type,
-    authorOptions: (await usersManager.getEntries(asArray(post.author))).map(createUserOption),
-    tags: post.tags,
-    engine: post.engine,
-    addon: post.addon,
-    requesterOption: post.request?.user ? createUserOption(await usersManager.getEntry(post.request.user)) : undefined,
-    request: post.request,
-    mark: post.mark,
-    violation: post.violation,
-    published: Boolean(post.posts?.length),
-    publishableErrors: errors.length > 0 ? errors : undefined,
-    commentCount: getPostCommentCount(post),
-    likes: stats.likes,
-    views: stats.views,
-    followers: stats.followers,
-    engagement: Number(stats.engagement.toFixed(2)),
-    rating: Number(getPostRating(post).toFixed(2)),
-    managerName: manager.name,
-    status,
-  });
+      const status = await manager.getItemStatus(id);
+
+      if (manager.name === 'inbox' && status !== 'removed' && !isTrashItem(post)) {
+        isPublishablePost(post, errors);
+      }
+
+      const stats = getPostEntryStats(entry);
+
+      return cleanupUndefinedProps({
+        id,
+        refId,
+        title: post.title,
+        titleRu: post.titleRu,
+        description: post.description,
+        descriptionRu: post.descriptionRu,
+        location: post.location,
+        placement: post.placement,
+        content: post.content,
+        type: post.type,
+        authorOptions: (await dataManager.users.getEntries(asArray(post.author))).map(createUserOption),
+        tags: post.tags,
+        engine: post.engine,
+        addon: post.addon,
+        requesterOption: post.request?.user
+          ? createUserOption(await dataManager.users.getEntry(post.request.user))
+          : undefined,
+        request: post.request,
+        mark: post.mark,
+        violation: post.violation,
+        published: Boolean(post.posts?.length),
+        publishableErrors: errors.length > 0 ? errors : undefined,
+        commentCount: stats.commentCount,
+        likes: stats.likes,
+        views: stats.views,
+        followers: stats.followers,
+        engagement: Number(stats.engagement.toFixed(2)),
+        rating: Number(getPostRating(post).toFixed(2)),
+        managerName: manager.name,
+        status,
+      });
+    }),
+  );
 }
 
 export function comparePostInfosById(direction: SortDirection): PostInfoComparator {

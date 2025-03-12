@@ -2,7 +2,7 @@ import type { InferOutput } from 'valibot';
 import { array, date, is, nonEmpty, object, optional, picklist, pipe, string, transform, trim, union } from 'valibot';
 import type { SortDirection } from '../utils/common-types.js';
 import { arrayFromAsync, asArray, cleanupUndefinedProps } from '../utils/common-utils.js';
-import { dateToString, isDateInRange, stringToDate } from '../utils/date-utils.js';
+import { dateToString, stringToDate } from '../utils/date-utils.js';
 import { areNestedLocations as areRelatedLocations } from './location.js';
 import type { MediaAspectRatio } from './media.js';
 import { postTitleFromString } from './post-title.js';
@@ -10,18 +10,14 @@ import { PostVariant } from './post-variant.js';
 import type { PublicationComment } from './publication.js';
 import {
   getPublicationEngagement,
-  getPublicationsAverageEngagement,
-  getPublicationsTotalFollowers,
-  getPublicationsTotalLikes,
-  getPublicationsTotalViews,
+  getPublicationsStats,
+  getRecentPublications,
   isPublicationEqual,
   mergePublications,
   Publication,
 } from './publication.js';
 import { RESOURCE_MISSING_IMAGE, RESOURCE_MISSING_VIDEO, ResourceUrl } from './resource.js';
 import { USER_DEFAULT_AUTHOR } from './user.js';
-
-export const POST_RECENTLY_PUBLISHED_DAYS = 31;
 
 export const PostTitle = pipe(string(), trim(), nonEmpty(), transform(postTitleFromString));
 export const PostTitleRu = pipe(string(), trim(), nonEmpty());
@@ -269,16 +265,6 @@ export function getAllPostCommentsSorted(publications: Publication[] | undefined
   );
 }
 
-export function getPostCommentCount(post: Post) {
-  return (
-    post.posts?.reduce(
-      (total, publication) =>
-        total + (publication.comments?.reduce((total, comment) => total + 1 + (comment.replies?.length ?? 0), 0) ?? 0),
-      0,
-    ) || 0
-  );
-}
-
 export function getPostFirstPublished(post: Pick<Post, 'posts'>) {
   return post.posts ? new Date(Math.min(...post.posts.map((post) => post.published.getTime()))) : undefined;
 }
@@ -287,27 +273,19 @@ export function getPostLastPublished(post: Pick<Post, 'posts'>) {
   return post.posts ? new Date(Math.max(...post.posts.map((post) => post.published.getTime()))) : undefined;
 }
 
-export function getPostEntryPublications([id, post]: PostEntry) {
-  const date = getPostDateById(id);
-  if (!date) {
-    return [];
-  }
-
-  const secondDate = new Date(date);
-  secondDate.setDate(secondDate.getDate() + POST_RECENTLY_PUBLISHED_DAYS);
-
-  return post.posts?.filter((post) => isDateInRange(post.published, [date, secondDate], 'date')) ?? [];
-}
-
 export function getPostEntryStats(entry: PostEntry) {
-  const publications = getPostEntryPublications(entry);
-
-  return {
-    likes: getPublicationsTotalLikes(publications),
-    followers: getPublicationsTotalFollowers(publications),
-    views: getPublicationsTotalViews(publications),
-    engagement: getPublicationsAverageEngagement(publications),
-  };
+  const date = getPostDateById(entry[0]);
+  if (!date || !entry[1].posts) {
+    return {
+      likes: 0,
+      views: 0,
+      engagement: 0,
+      followers: undefined,
+      commentCount: 0,
+    };
+  }
+  const publications = getRecentPublications(entry[1].posts, date);
+  return getPublicationsStats(publications);
 }
 
 export function getPostMarkFromScore(score?: number) {

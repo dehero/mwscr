@@ -1,7 +1,9 @@
 import type { InferOutput } from 'valibot';
 import { array, date, minValue, nonEmpty, number, object, optional, pipe, string, trim, unknown } from 'valibot';
 import { asArray } from '../utils/common-utils.js';
-import { getDaysPassed, getMinutesPassed } from '../utils/date-utils.js';
+import { getDaysPassed, getMinutesPassed, isDateInRange } from '../utils/date-utils.js';
+
+export const PUBLICATION_IS_RECENT_DAYS = 31;
 
 const BaseComment = object({ datetime: date(), author: pipe(string(), nonEmpty()), text: pipe(string(), trim()) });
 
@@ -115,4 +117,31 @@ export function getPublicationsTotalLikes(publications: Publication[]) {
 
 export function getPublicationsTotalViews(publications: Publication[]) {
   return publications.reduce((acc, publication) => acc + (publication.views ?? 0), 0);
+}
+
+export function getPublicationsCommentCount(publications: Publication[]) {
+  return (
+    publications.reduce(
+      (total, publication) =>
+        total + (publication.comments?.reduce((total, comment) => total + 1 + (comment.replies?.length ?? 0), 0) ?? 0),
+      0,
+    ) || 0
+  );
+}
+
+export function getRecentPublications(publications: Publication[], date: Date): Publication[] {
+  const secondDate = new Date(date);
+  secondDate.setDate(secondDate.getDate() + PUBLICATION_IS_RECENT_DAYS);
+
+  return publications.filter((publication) => isDateInRange(publication.published, [date, secondDate], 'date'));
+}
+
+export function getPublicationsStats(publications: Publication[]) {
+  return {
+    likes: getPublicationsTotalLikes(publications),
+    followers: getPublicationsTotalFollowers(publications),
+    views: getPublicationsTotalViews(publications),
+    engagement: getPublicationsAverageEngagement(publications),
+    commentCount: getPublicationsCommentCount(publications),
+  };
 }

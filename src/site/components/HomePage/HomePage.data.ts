@@ -1,7 +1,7 @@
 import type { DataManager } from '../../../core/entities/data-manager.js';
-import { POST_RECENTLY_PUBLISHED_DAYS } from '../../../core/entities/post.js';
 import type { PostInfoSelection } from '../../../core/entities/post-info.js';
 import type { PostsUsage } from '../../../core/entities/posts-usage.js';
+import { PUBLICATION_IS_RECENT_DAYS } from '../../../core/entities/publication.js';
 
 export interface HomePageData {
   buildDate: Date;
@@ -30,7 +30,7 @@ export async function getHomePageData(dataManager: DataManager): Promise<HomePag
   const recentPostInfos = await dataManager.selectPostInfos(
     'posts',
     { sortKey: 'date', sortDirection: 'desc' },
-    POST_RECENTLY_PUBLISHED_DAYS,
+    PUBLICATION_IS_RECENT_DAYS,
   );
 
   const totalLikes = postInfos.reduce((acc, info) => acc + info.likes, 0);

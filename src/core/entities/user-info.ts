@@ -1,12 +1,12 @@
 import type { EntitySelection, SortDirection } from '../utils/common-types.js';
-import { cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
+import { arrayFromAsync, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
+import type { DataManager } from './data-manager.js';
 import type { Option } from './option.js';
 import type { PostMark } from './post.js';
 import { getPostMarkFromScore } from './post.js';
-import { type PostsManager } from './posts-manager.js';
 import type { PostsUsage } from './posts-usage.js';
 import { comparePostsUsages, createPostsUsage } from './posts-usage.js';
-import type { UserEntry, UserRole } from './user.js';
+import type { UserRole } from './user.js';
 import { getUserEntryTitle } from './user.js';
 
 export interface UserInfo {
@@ -45,64 +45,70 @@ export const selectUserInfosSortOptions = [
 
 export type SelectUserInfosSortKey = (typeof selectUserInfosSortOptions)[number]['value'];
 
-export async function createUserInfo(userEntry: UserEntry, postsManagers: PostsManager[]): Promise<UserInfo> {
-  const [id, user] = userEntry;
+export async function createUserInfos(dataManager: DataManager): Promise<UserInfo[]> {
+  const entries = await arrayFromAsync(dataManager.users.readAllEntries());
 
-  const posts = postsManagers.find((manager) => manager.name === 'posts');
+  return Promise.all(
+    entries.map(async (entry) => {
+      const [id, user] = entry;
 
-  const authored = await createPostsUsage(postsManagers, 'getAuthorsUsageStats', id);
-  const drawn = await createPostsUsage(postsManagers, 'getDrawersUsageStats', id);
-  const requested = await createPostsUsage(postsManagers, 'getRequesterUsageStats', id);
+      const posts = dataManager.postsManagers.find((manager) => manager.name === 'posts');
 
-  const likes = (await posts?.getAuthorsLikesStats())?.get(id) || 0;
-  const views = (await posts?.getAuthorsViewsStats())?.get(id) || 0;
-  const engagement = Number((await posts?.getAuthorsEngagementStats())?.get(id)?.toFixed(2) || 0);
-  const mark = getPostMarkFromScore((await posts?.getAuthorsMarkScoreStats())?.get(id));
-  const rating = Number((await posts?.getAuthorsRatingStats())?.get(id)?.toFixed(2) || 0);
+      const authored = await createPostsUsage(dataManager.postsManagers, 'getAuthorsUsageStats', id);
+      const drawn = await createPostsUsage(dataManager.postsManagers, 'getDrawersUsageStats', id);
+      const requested = await createPostsUsage(dataManager.postsManagers, 'getRequesterUsageStats', id);
 
-  const roles: UserRole[] = [];
+      const likes = (await posts?.getAuthorsLikesStats())?.get(id) || 0;
+      const views = (await posts?.getAuthorsViewsStats())?.get(id) || 0;
+      const engagement = Number((await posts?.getAuthorsEngagementStats())?.get(id)?.toFixed(2) || 0);
+      const mark = getPostMarkFromScore((await posts?.getAuthorsMarkScoreStats())?.get(id));
+      const rating = Number((await posts?.getAuthorsRatingStats())?.get(id)?.toFixed(2) || 0);
 
-  if (user?.admin) {
-    roles.push('admin');
-  }
+      const roles: UserRole[] = [];
 
-  if (authored?.posts || authored?.inbox) {
-    roles.push('author');
-  }
+      if (user.admin) {
+        roles.push('admin');
+      }
 
-  if (drawn?.posts || drawn?.inbox) {
-    roles.push('drawer');
-  }
+      if (authored?.posts || authored?.inbox) {
+        roles.push('author');
+      }
 
-  if (requested?.posts || requested?.inbox) {
-    roles.push('requester');
-  }
+      if (drawn?.posts || drawn?.inbox) {
+        roles.push('drawer');
+      }
 
-  if (
-    !authored?.posts &&
-    !requested?.posts &&
-    (authored?.inbox || requested?.inbox || authored?.trash || requested?.trash)
-  ) {
-    roles.push('beginner');
-  }
+      if (requested?.posts || requested?.inbox) {
+        roles.push('requester');
+      }
 
-  if (roles.length === 0) {
-    roles.push('foreigner');
-  }
+      if (
+        !authored?.posts &&
+        !requested?.posts &&
+        (authored?.inbox || requested?.inbox || authored?.trash || requested?.trash)
+      ) {
+        roles.push('beginner');
+      }
 
-  return cleanupUndefinedProps({
-    id,
-    title: getUserEntryTitle(userEntry),
-    authored,
-    requested,
-    likes,
-    views,
-    engagement,
-    mark,
-    rating,
-    roles,
-    talkedToTelegramBot: Boolean(user?.telegramBotChatId),
-  });
+      if (roles.length === 0) {
+        roles.push('foreigner');
+      }
+
+      return cleanupUndefinedProps({
+        id,
+        title: getUserEntryTitle(entry),
+        authored,
+        requested,
+        likes,
+        views,
+        engagement,
+        mark,
+        rating,
+        roles,
+        talkedToTelegramBot: Boolean(user.telegramBotChatId),
+      });
+    }),
+  );
 }
 
 export function compareUserInfosById(direction: SortDirection): UserInfoComparator {

@@ -1,10 +1,7 @@
 import type { PostEntries, PostEntry } from '../../core/entities/post.js';
-import {
-  comparePostEntriesById,
-  getPostEntriesFromSource,
-  POST_RECENTLY_PUBLISHED_DAYS,
-} from '../../core/entities/post.js';
+import { comparePostEntriesById, getPostEntriesFromSource } from '../../core/entities/post.js';
 import type { PublishablePost } from '../../core/entities/posts-manager.js';
+import { PUBLICATION_IS_RECENT_DAYS } from '../../core/entities/publication.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { getDaysPassed, getHoursPassed } from '../../core/utils/date-utils.js';
 import { posts } from '../data-managers/posts.js';
@@ -64,7 +61,7 @@ async function findFirstUnpublishedPublicationEntry(
 
   for (const entry of publishablePostEntries) {
     const lastPublishedPost = entry[1].posts?.find(
-      (post) => post.service === service.id && getDaysPassed(post.published) <= POST_RECENTLY_PUBLISHED_DAYS,
+      (post) => post.service === service.id && getDaysPassed(post.published) <= PUBLICATION_IS_RECENT_DAYS,
     );
     if (lastPublishedPost) {
       // Do not publish too often

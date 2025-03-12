@@ -2,12 +2,13 @@ import { writeClipboard } from '@solid-primitives/clipboard';
 import clsx from 'clsx';
 import JsFileDownloader from 'js-file-downloader';
 import type { JSX } from 'solid-js';
-import { createMemo, createResource, createSignal, Match, onMount, Show, Switch } from 'solid-js';
+import { createEffect, createMemo, createResource, createSignal, Match, onMount, Show, Switch } from 'solid-js';
 import { navigate } from 'vike/client/router';
 import { usePageContext } from 'vike-solid/usePageContext';
 import { getPostDateById, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
 import { postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
+import { getPublicationsStats } from '../../../core/entities/publication.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { youtube } from '../../../core/services/youtube.js';
@@ -17,6 +18,7 @@ import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
+import { useSearchParams } from '../../hooks/useSearchParams.js';
 import YellowExclamationMark from '../../images/exclamation.svg';
 import { postRoute } from '../../routes/post-route.js';
 import { postsRoute } from '../../routes/posts-route.js';
@@ -43,7 +45,10 @@ import { UserTooltip } from '../UserTooltip/UserTooltip.js';
 import { VideoPlayer } from '../VideoPlayer/VideoPlayer.jsx';
 import { WorldMap } from '../WorldMap/WorldMap.js';
 import styles from './PostPage.module.css';
-// import { getResourcePreviewUrl } from '../../data-managers/resources.js';
+
+export interface PostPageSearchParams {
+  repostId?: string;
+}
 
 export const PostPage = (): JSX.Element => {
   const { addToast, messageBox } = useToaster();
@@ -54,16 +59,27 @@ export const PostPage = (): JSX.Element => {
   const [selectedContentIndex, setSelectedContentIndex] = createSignal(0);
   const [loadingFailedUrls, setLoadingFailedUrls] = createSignal<string[]>([]);
 
+  const [searchParams, setSearchParams] = useSearchParams<PostPageSearchParams>();
+  const repostId = () => searchParams().repostId;
+  const setRepostId = (repostId: string | undefined) =>
+    setSearchParams({ repostId: repostId !== params().id ? repostId : undefined });
+
   const [postInfo, { refetch }] = createResource(params, ({ managerName, id }) =>
     dataManager.getPostInfo(managerName, id),
   );
 
   useLocalPatch(refetch);
 
+  createEffect(() => {
+    if (postInfo()?.refId) {
+      // @ts-expect-error No proper typing
+      navigate(postRoute.createUrl({ managerName: params().managerName, id: postInfo()!.refId! }));
+    }
+  });
+
   const postActions = createMemo((): PostAction[] => postsManagerDescriptors[params().managerName].actions);
 
   const date = () => getPostDateById(params().id);
-  const refDate = () => (postInfo()?.refId ? getPostDateById(postInfo()!.refId!) : undefined);
 
   const title = () => postInfo()?.title || 'Untitled';
   const titleRu = () => postInfo()?.titleRu || 'Без названия';
@@ -74,6 +90,8 @@ export const PostPage = (): JSX.Element => {
 
   const selectedContent = () => content()[selectedContentIndex()];
   const selectedContentPublicUrl = () => contentPublicUrls()[selectedContentIndex()];
+
+  const stats = () => getPublicationsStats(data().publications ?? []);
 
   const youtubePost = () => data().publications?.find((post) => post.service === 'yt');
   const youtubeUrl = () => (youtubePost() ? youtube.getPublicationUrl(youtubePost()!, true) : undefined);
@@ -199,8 +217,9 @@ export const PostPage = (): JSX.Element => {
                       >
                         <Match
                           when={
-                            loadingFailedUrls().includes(selectedContentPublicUrl()!) ||
-                            loadingFailedUrls().includes(youtubeUrl()!)
+                            loadingFailedUrls().includes(selectedContentPublicUrl()!)
+                            //  ||
+                            // loadingFailedUrls().includes(youtubeUrl()!)
                           }
                         >
                           <Frame
@@ -388,14 +407,7 @@ export const PostPage = (): JSX.Element => {
 
               <Table
                 rows={[
-                  { label: 'Date', value: isValidDate(date()) ? date() : undefined },
-                  {
-                    label: 'Original Post Date',
-                    value: isValidDate(refDate()) ? refDate() : undefined,
-                    link: postInfo().refId
-                      ? postRoute.createUrl({ managerName: params().managerName, id: postInfo().refId! })
-                      : undefined,
-                  },
+                  { label: 'Original Date', value: isValidDate(date()) ? date() : undefined },
                   {
                     label: 'Type',
                     value: () => (
@@ -447,7 +459,27 @@ export const PostPage = (): JSX.Element => {
                   },
                   { label: 'Engine', value: postInfo().engine },
                   { label: 'Addon', value: postInfo().addon },
-
+                  {
+                    label: "Editor's Mark",
+                    value: postInfo().mark
+                      ? () => (
+                          <>
+                            <Icon
+                              color="combat"
+                              size="small"
+                              variant="flat"
+                              class={clsx(styles.icon, styles.tableIcon)}
+                            >
+                              {postInfo().mark?.[0]}
+                            </Icon>
+                            {postInfo().mark?.[1]}
+                          </>
+                        )
+                      : undefined,
+                    link: postInfo().mark
+                      ? postsRoute.createUrl({ managerName: 'posts', mark: postInfo().mark, original: 'true' })
+                      : undefined,
+                  },
                   {
                     label: 'Violation',
                     value: postInfo().violation
@@ -489,84 +521,44 @@ export const PostPage = (): JSX.Element => {
                 />
               </Show>
 
-              <Show when={data().usedTags?.length}>
+              <Show when={data().tagInfos?.length}>
                 <Divider />
 
                 <Table
                   label="Tags"
                   rows={
-                    data().usedTags?.map(([label, count]) => ({
-                      label,
-                      value: count,
-                      link: postsRoute.createUrl({ managerName: 'posts', tag: label, original: 'true' }),
+                    data().tagInfos?.map((info) => ({
+                      label: info.id,
+                      value: info.tagged?.posts,
+                      link: postsRoute.createUrl({ managerName: 'posts', tag: info.id, original: 'true' }),
                     })) ?? []
                   }
                   showEmptyValueRows
                 />
               </Show>
 
-              <Show when={postInfo().published || postInfo().mark}>
+              <Show when={data().publications}>
                 <Divider />
 
                 <Table
                   class={styles.table}
-                  label="Content Score"
+                  label="Total Reactions"
                   rows={[
                     {
-                      label: "Editor's Mark",
-                      value: postInfo().mark
-                        ? () => (
-                            <>
-                              <Icon
-                                color="combat"
-                                size="small"
-                                variant="flat"
-                                class={clsx(styles.icon, styles.tableIcon)}
-                              >
-                                {postInfo().mark?.[0]}
-                              </Icon>
-                              {postInfo().mark?.[1]}
-                            </>
-                          )
-                        : undefined,
-                      link: postInfo().mark
-                        ? postsRoute.createUrl({ managerName: 'posts', mark: postInfo().mark, original: 'true' })
-                        : undefined,
+                      label: 'Likes',
+                      value: stats().likes,
+                    },
+                    {
+                      label: 'Views',
+                      value: stats().views,
+                    },
+                    {
+                      label: 'Comments',
+                      value: stats().commentCount,
                     },
                     {
                       label: 'Rating',
                       value: postInfo().rating,
-                    },
-                  ]}
-                />
-              </Show>
-
-              <Show when={postInfo().published}>
-                <Divider />
-
-                <Table
-                  class={styles.table}
-                  label="Reactions"
-                  rows={[
-                    {
-                      label: 'Likes',
-                      value: postInfo().likes,
-                    },
-                    {
-                      label: 'Views',
-                      value: postInfo().views,
-                    },
-                    {
-                      label: 'Followers',
-                      value: postInfo().followers,
-                    },
-                    {
-                      label: 'Engagement',
-                      value: postInfo().engagement,
-                    },
-                    {
-                      label: 'Comments',
-                      value: postInfo().commentCount,
                     },
                   ]}
                 />
@@ -625,10 +617,20 @@ export const PostPage = (): JSX.Element => {
               </div>
             </Frame>
 
-            <Show when={postInfo().published}>
-              <PostComments publications={data().publications ?? []} class={styles.comments} />
+            <Show when={data().publications}>
+              {(publications) => (
+                <>
+                  <PostComments publications={publications()} class={styles.comments} />
 
-              <PostPublications publications={data().publications ?? []} class={styles.publications} />
+                  <PostPublications
+                    postIds={[params().id, ...(data().repostIds ?? [])]}
+                    selectedPostId={repostId() ?? params().id}
+                    onSelectPostId={setRepostId}
+                    publications={publications()}
+                    class={styles.publications}
+                  />
+                </>
+              )}
             </Show>
           </>
         )}

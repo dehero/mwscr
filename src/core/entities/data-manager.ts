@@ -1,17 +1,18 @@
-import { arrayFromAsync, asArray } from '../utils/common-utils.js';
+import { asArray } from '../utils/common-utils.js';
 import type { DataPatch } from './data-patch.js';
 import { isNestedLocation } from './location.js';
 import type { LocationInfo } from './location-info.js';
-import { createLocationInfo } from './location-info.js';
+import { createLocationInfos } from './location-info.js';
 import type { LocationsReader } from './locations-reader.js';
 import type { Option } from './option.js';
 import type { PostLocation } from './post.js';
-import { comparePostEntriesByDate, getPostEntriesFromSource } from './post.js';
 import type { PostInfo, PostInfoSelection, SelectPostInfosParams } from './post-info.js';
-import { createPostInfo, selectPostInfos } from './post-info.js';
+import { createPostInfos, selectPostInfos } from './post-info.js';
 import type { PostsManager, PostsManagerName } from './posts-manager.js';
+import type { TagInfo } from './tag-info.js';
+import { createTagInfos } from './tag-info.js';
 import type { SelectUserInfosParams, UserInfo } from './user-info.js';
-import { createUserInfo, selectUserInfos } from './user-info.js';
+import { createUserInfos, selectUserInfos } from './user-info.js';
 import type { UsersManager } from './users-manager.js';
 
 export interface DataManagerArgs {
@@ -115,47 +116,19 @@ export class DataManager {
   }
 
   async getAllPostInfos(managerName: PostsManagerName): Promise<PostInfo[]> {
-    return this.createCache(`${this.getAllPostInfos.name}.${managerName}`, async () => {
-      const manager = this.findPostsManager(managerName);
-      if (!manager) {
-        throw new Error(`Cannot find posts manager "${managerName}"`);
-      }
-      const entries = [
-        ...(await getPostEntriesFromSource(() => manager.readAllEntries(false), comparePostEntriesByDate('desc'))),
-        ...(await manager.getRemovedEntries()),
-      ];
-
-      return await Promise.all(entries.map((entry) => createPostInfo(entry, this.users, manager)));
-    });
+    return this.createCache(`${this.getAllPostInfos.name}.${managerName}`, () => createPostInfos(managerName, this));
   }
 
   async getAllLocationInfos(): Promise<LocationInfo[]> {
-    return this.createCache(this.getAllLocationInfos.name, async () => {
-      const entries = await arrayFromAsync(this.locations.readAllEntries());
+    return this.createCache(this.getAllLocationInfos.name, () => createLocationInfos(this));
+  }
 
-      return await Promise.all(entries.map((entry) => createLocationInfo(entry, this.postsManagers)));
-    });
+  async getAllTagInfos(): Promise<TagInfo[]> {
+    return this.createCache(this.getAllTagInfos.name, () => createTagInfos(this));
   }
 
   async getAllUserInfos(): Promise<UserInfo[]> {
-    return this.createCache(this.getAllUserInfos.name, async () => {
-      const entries = await arrayFromAsync(this.users.readAllEntries());
-
-      return await Promise.all(entries.map((entry) => createUserInfo(entry, this.postsManagers)));
-    });
-  }
-
-  async getTagOptions(managerName: string): Promise<Option<string>[]> {
-    const manager = this.findPostsManager(managerName);
-    if (!manager) {
-      throw new Error(`Cannot find posts manager "${managerName}"`);
-    }
-
-    const usedTags = await manager.getTagsUsageStats();
-
-    return [...usedTags]
-      .sort(([a], [b]) => a.localeCompare(b))
-      .map(([value, count]) => ({ value, label: `${value} (${count})` }));
+    return this.createCache(this.getAllUserInfos.name, () => createUserInfos(this));
   }
 
   async getLocationInfos(id: string | string[]): Promise<LocationInfo[] | undefined> {
@@ -174,6 +147,16 @@ export class DataManager {
 
   async getPostInfo(managerName: PostsManagerName, id: string) {
     return (await this.getAllPostInfos(managerName)).find((info) => info.id === id);
+  }
+
+  async getTagInfos(id: string | string[]): Promise<TagInfo[] | undefined> {
+    const ids = new Set(asArray(id));
+
+    if (ids.size === 0) {
+      return undefined;
+    }
+
+    return (await this.getAllTagInfos()).filter((info) => ids.has(info.id));
   }
 
   async getUserInfos(id: string | string[]): Promise<UserInfo[] | undefined> {

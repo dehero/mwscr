@@ -1,11 +1,10 @@
 import type { SortDirection } from '../utils/common-types.js';
-import { cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
-import type { ListReaderEntry } from './list-manager.js';
-import type { Location, LocationCell, LocationType } from './location.js';
+import { arrayFromAsync, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
+import type { DataManager } from './data-manager.js';
+import type { LocationCell, LocationType } from './location.js';
 import { isNestedLocation } from './location.js';
 import type { Option } from './option.js';
 import type { PostAddon } from './post.js';
-import type { PostsManager } from './posts-manager.js';
 import type { PostsUsage } from './posts-usage.js';
 import { createPostsUsage } from './posts-usage.js';
 import { locationToWorldMapPolygonSvg } from './world-map.js';
@@ -41,28 +40,27 @@ export const selectLocationInfosSortOptions = [
 
 export type SelectLocationInfosSortKey = (typeof selectLocationInfosSortOptions)[number]['value'];
 
-export async function createLocationInfo(
-  locationEntry: ListReaderEntry<Location>,
-  postManagers?: PostsManager[],
-): Promise<LocationInfo> {
-  const [id, location] = locationEntry;
-  let discovered;
+export async function createLocationInfos(dataManager: DataManager): Promise<LocationInfo[]> {
+  const entries = await arrayFromAsync(dataManager.locations.readAllEntries());
 
-  if (postManagers) {
-    discovered = await createPostsUsage(postManagers, 'getLocationsUsageStats', (location) =>
-      isNestedLocation(location, id),
-    );
-  }
+  return Promise.all(
+    entries.map(async (entry) => {
+      const [id, location] = entry;
+      const discovered = await createPostsUsage(dataManager.postsManagers, 'getLocationsUsageStats', (location) =>
+        isNestedLocation(location, id),
+      );
 
-  return cleanupUndefinedProps({
-    title: location.title,
-    titleRu: location.titleRu,
-    type: location.type,
-    addon: location.addon,
-    cell: location.cell,
-    discovered,
-    worldMapSvg: locationToWorldMapPolygonSvg(location),
-  });
+      return cleanupUndefinedProps({
+        title: location.title,
+        titleRu: location.titleRu,
+        type: location.type,
+        addon: location.addon,
+        cell: location.cell,
+        discovered,
+        worldMapSvg: locationToWorldMapPolygonSvg(location),
+      });
+    }),
+  );
 }
 
 export function compareLocationInfosByTitle(direction: SortDirection): LocationInfoComparator {

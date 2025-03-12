@@ -11,6 +11,7 @@ import pkg from './package.json';
 import { PostsManagerName } from './src/core/entities/posts-manager.js';
 import { dataManager } from './src/local/data-managers/manager.js';
 import { YAML_SCHEMA } from './src/local/data-managers/utils/yaml.js';
+import { postRoute } from './src/site/routes/post-route.js';
 
 export default defineConfig(({ isSsrBuild }) => ({
   root: 'src/site',
@@ -20,7 +21,10 @@ export default defineConfig(({ isSsrBuild }) => ({
   plugins: [
     imagetools(),
     // TODO: add sitemap after https://github.com/vikejs/vike/issues/1451 gets resolved
-    vike({ prerender: true, trailingSlash: true }),
+    vike({
+      prerender: true,
+      trailingSlash: true,
+    }),
     vikeSolid(),
     multiplePublicDirPlugin(['assets', 'src/site/public'], {
       ssr: isSsrBuild,
@@ -52,6 +56,12 @@ export default defineConfig(({ isSsrBuild }) => ({
           rename: 'index.json',
         },
         {
+          src: '../../data/**/*.yml',
+          dest: 'data',
+          transform: async () => JSON.stringify(await dataManager.getAllTagInfos()),
+          rename: 'tag-infos.json',
+        },
+        {
           src: '../../data/locations.yml',
           dest: 'data',
           transform: async () => JSON.stringify(await dataManager.getAllLocationInfos()),
@@ -69,6 +79,22 @@ export default defineConfig(({ isSsrBuild }) => ({
           transform: async () => JSON.stringify(await dataManager.getAllPostInfos(name)),
           rename: `infos.json`,
         })),
+        {
+          src: 'public/.htaccess',
+          dest: '',
+          transform: async (content) => {
+            const managerName = 'posts';
+            const postInfos = await dataManager.getAllPostInfos(managerName);
+
+            const redirects = postInfos
+              .filter((info) => info.refId)
+              .map(
+                (info) =>
+                  `Redirect 301 ${postRoute.createUrl({ managerName, id: info.id })} ${postRoute.createUrl({ managerName, id: info.refId!, repostId: info.id })}`,
+              );
+            return `${redirects.join('\n')}\n\n${content}`;
+          },
+        },
       ],
     }),
   ],

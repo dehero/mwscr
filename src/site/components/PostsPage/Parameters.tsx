@@ -288,7 +288,15 @@ export const Parameters: Component<ParametersProps> = (props) => {
                   <div class={styles.selectWrapper}>
                     <Select
                       name="tag"
-                      options={[ALL_OPTION, ...props.routeInfo.data().tagOptions]}
+                      options={[
+                        ALL_OPTION,
+                        ...[...props.routeInfo.data().tagInfos]
+                          .sort((a, b) => a.id.localeCompare(b.id))
+                          .map((info) => ({
+                            value: info.id,
+                            label: `${info.id} (${info.tagged?.[props.routeInfo.params().managerName]})`,
+                          })),
+                      ]}
                       value={props.parameters.tag()}
                       onChange={props.parameters.setTag}
                       class={styles.select}

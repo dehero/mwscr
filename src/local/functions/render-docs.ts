@@ -8,7 +8,8 @@ import {
   isRequestProposal,
   isTrashItem,
 } from '../../core/entities/posts-manager.js';
-import { inbox, posts, postsManagers, trash } from '../data-managers/posts.js';
+import { dataManager } from '../data-managers/manager.js';
+import { inbox, posts, trash } from '../data-managers/posts.js';
 import { users } from '../data-managers/users.js';
 import type { PostEntriesDoc } from '../doc-renderers/render-post-entries.js';
 import { renderPostEntriesDoc } from '../doc-renderers/render-post-entries.js';
@@ -241,8 +242,7 @@ async function renderContributors() {
 
   try {
     await renderUsers({
-      users,
-      postsManagers,
+      dataManager,
       doc: {
         filename,
         title: 'Contributors',
