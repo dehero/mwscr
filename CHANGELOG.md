@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.41.3](https://github.com/dehero/mwscr/compare/v1.41.2...v1.41.3) (2025-03-12)
+
+### Bug Fixes
+
+- **site:** make repost redirections work on client navigation
+  ([d5a508c](https://github.com/dehero/mwscr/commit/d5a508c180e70b99d287d15cba42c5a2493bfd4f))
+
 ## [1.41.2](https://github.com/dehero/mwscr/compare/v1.41.1...v1.41.2) (2025-03-12)
 
 ### Bug Fixes
