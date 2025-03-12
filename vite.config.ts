@@ -11,9 +11,9 @@ import pkg from './package.json';
 import { PostsManagerName } from './src/core/entities/posts-manager.js';
 import { dataManager } from './src/local/data-managers/manager.js';
 import { YAML_SCHEMA } from './src/local/data-managers/utils/yaml.js';
-import { postRoute } from './src/site/routes/post-route.js';
+import { getConstantRedirects } from './src/local/utils/vite-utils.js';
 
-export default defineConfig(({ isSsrBuild }) => ({
+export default defineConfig(async ({ isSsrBuild }) => ({
   root: 'src/site',
   define: {
     'import.meta.env.VITE_APP_VERSION': JSON.stringify('version' in pkg ? pkg.version : 'unknown'),
@@ -24,6 +24,7 @@ export default defineConfig(({ isSsrBuild }) => ({
     vike({
       prerender: true,
       trailingSlash: true,
+      redirects: Object.fromEntries(await getConstantRedirects()),
     }),
     vikeSolid(),
     multiplePublicDirPlugin(['assets', 'src/site/public'], {
@@ -83,15 +84,7 @@ export default defineConfig(({ isSsrBuild }) => ({
           src: 'public/.htaccess',
           dest: '',
           transform: async (content) => {
-            const managerName = 'posts';
-            const postInfos = await dataManager.getAllPostInfos(managerName);
-
-            const redirects = postInfos
-              .filter((info) => info.refId)
-              .map(
-                (info) =>
-                  `Redirect 301 ${postRoute.createUrl({ managerName, id: info.id })} ${postRoute.createUrl({ managerName, id: info.refId!, repostId: info.id })}`,
-              );
+            const redirects = [...(await getConstantRedirects())].map(([from, to]) => `Redirect 301 ${from} ${to}`);
             return `${redirects.join('\n')}\n\n${content}`;
           },
         },
