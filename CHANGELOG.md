@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.41.4](https://github.com/dehero/mwscr/compare/v1.41.3...v1.41.4) (2025-03-12)
+
+### Bug Fixes
+
+- **site:** make "Redirect 301" directive work on HTTPS
+  ([60509ad](https://github.com/dehero/mwscr/commit/60509ad0dd99e7c94b4f2ffd57f0e359ddbd7108))
+
 ## [1.41.3](https://github.com/dehero/mwscr/compare/v1.41.2...v1.41.3) (2025-03-12)
 
 ### Bug Fixes
