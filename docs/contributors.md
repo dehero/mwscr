@@ -65,6 +65,15 @@ Likes: 211
 3akrom
 ```
 
+### nazareth
+
+Roles: `author` `beginner`  
+Authored: 1 pending, 4 rejected  
+
+```
+ohsweetnazareth
+```
+
 ## Requesters
 
 ### buck-the-cuck
@@ -122,15 +131,6 @@ Requested: 1 rejected
 
 ```
 kayracik
-```
-
-### nazareth
-
-Roles: `beginner`  
-Authored: 4 rejected  
-
-```
-ohsweetnazareth
 ```
 
 ### Vladyslav Zhuk

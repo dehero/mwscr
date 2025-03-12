@@ -4,7 +4,22 @@
 
 # Inbox for 2025
 
-`7 items`
+`8 items`
+
+## <span id="ohsweetnazareth.2025-03-12-keenings-respite-in-odrosal-tower-c397bc43">Keening&#39;s Respite in Odrosal Tower</span>
+
+![store:/inbox/ohsweetnazareth.2025-03-12-keenings-respite-in-odrosal-tower-c397bc43.png](../../assets/previews/inbox/ohsweetnazareth.2025-03-12-keenings-respite-in-odrosal-tower-c397bc43.avif "ohsweetnazareth.2025-03-12-keenings-respite-in-odrosal-tower-c397bc43")
+
+`shot` by [nazareth](../contributors.md#ohsweetnazareth)
+
+> [!WARNING]
+> Missing russian title, editor's mark.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=ohsweetnazareth.2025-03-12-keenings-respite-in-odrosal-tower-c397bc43&amp;postContent=store%3A%2Finbox%2Fohsweetnazareth.2025-03-12-keenings-respite-in-odrosal-tower-c397bc43.png&amp;postTitle=Keening%27s+Respite+in+Odrosal+Tower&amp;postTitleRu=&amp;postAuthor=ohsweetnazareth&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=ohsweetnazareth.2025-03-12-keenings-respite-in-odrosal-tower-c397bc43&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=ohsweetnazareth.2025-03-12-keenings-respite-in-odrosal-tower-c397bc43&postLocation=)</code>
+
+```
+ohsweetnazareth.2025-03-12-keenings-respite-in-odrosal-tower-c397bc43
+```
 
 ## <span id="dehero.2025-01-19-19-12-11">dehero.2025-01-19-19-12-11</span>
 
