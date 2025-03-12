@@ -7,7 +7,7 @@
 ### dehero
 
 Roles: `admin` `author` `requester`  
-Authored: 979 posted, 18 pending, 68 rejected  
+Authored: 979 posted, 29 pending, 68 rejected  
 Requested: 6 pending  
 Likes: 120239  
 
