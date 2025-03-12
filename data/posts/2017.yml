@@ -3345,10 +3345,10 @@
       id: DG2NNSvNgYM
       mediaId: '17935045454996090'
       published: 2025-03-06-05-57-32
-      updated: 2025-03-11-06-11-52
+      updated: 2025-03-12-07-08-48
       followers: 1536
       likes: 66
-      views: 279
+      views: 280
 2017-03-20-sun-moon-vivec:
   title: Sun, Moon, Vivec
   titleRu: Солнце, луна, Вивек
@@ -4068,28 +4068,28 @@
       id: DHEZOdXtjzH
       mediaId: '18064945003941974'
       published: 2025-03-11-18-11-56
-      updated: 2025-03-12-06-11-43
+      updated: 2025-03-12-07-08-45
       followers: 1534
       likes: 51
-      views: 223
+      views: 228
       comments: !c |-
         iyWAkZPLQnlYaYmxgACpbnk3NHRfNHJ02TVJIGJlbGlldmUgdGhhdCBkdWRlIGlzIGFuIGFuY2Vz
         dG9yIG9mIGdlbmVyYWwgdHVsbGl1cwM=
     - service: vk
       id: 2187
       published: 2025-03-11-18-12-03
-      updated: 2025-03-12-06-11-42
+      updated: 2025-03-12-07-08-46
       followers: 1179
       likes: 26
-      views: 148
+      views: 156
       reposts: 3
     - service: tg
       id: 744
       published: 2025-03-11-18-12-10
-      updated: 2025-03-12-06-11-43
+      updated: 2025-03-12-07-08-46
       followers: 695
-      likes: 37
-      views: 151
+      likes: 38
+      views: 154
 2017-04-07-trees-and-towers:
   title: Trees and Towers
   titleRu: Деревья и башни
@@ -5565,10 +5565,10 @@
     - service: vk
       id: 1905
       published: 2024-11-19-18-11-05
-      updated: 2025-03-05-07-08-24
+      updated: 2025-03-12-07-08-51
       followers: 1006
       likes: 38
-      views: 589
+      views: 591
       reposts: 1
       comments: !c |-
         GzUDQCwLeENq8RuXOIYavU4Raq3DX9yE4+WIf77u2RI+/TM7C4F84jDjBAsST85Va0OhBQJhAYWY
@@ -5582,10 +5582,10 @@
     - service: tg
       id: 600
       published: 2024-11-19-18-11-14
-      updated: 2025-03-05-07-08-23
+      updated: 2025-03-12-07-08-49
       followers: 574
       likes: 56
-      views: 479
+      views: 481
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
@@ -6092,10 +6092,10 @@
     - service: vk
       id: 1891
       published: 2024-11-12-18-10-16
-      updated: 2025-03-05-07-08-25
+      updated: 2025-03-12-07-08-52
       followers: 1006
       likes: 35
-      views: 309
+      views: 310
       reposts: 1
       comments: !c |-
         G8kA+K2St4XgISW1mXaBj/+nv9gSvvEPu5RSBk0ikSfn6nQaJSdsRyA04y1aHWRy7DH9JUFbJpHX
@@ -6104,10 +6104,10 @@
     - service: tg
       id: 593
       published: 2024-11-12-18-10-24
-      updated: 2025-03-05-07-08-24
+      updated: 2025-03-12-07-08-50
       followers: 564
       likes: 60
-      views: 567
+      views: 569
 2017-05-24-near-the-ancient-dwelling:
   title: Near the Ancient Dwelling
   titleRu: У древнего жилища
@@ -9244,18 +9244,18 @@
     - service: tg
       id: 586
       published: 2024-11-05-18-10-44
-      updated: 2025-03-05-07-08-25
+      updated: 2025-03-12-07-08-51
       followers: 566
       likes: 64
-      views: 596
+      views: 597
       comments: !c iw2AkZPLQnkw+mTCgACrYmh1dmFuYXNyaWmk8J+klQM=
     - service: vk
       id: 1879
       published: 2024-11-05-19-01-20
-      updated: 2025-03-05-07-08-26
+      updated: 2025-03-12-07-08-54
       followers: 1003
       likes: 33
-      views: 367
+      views: 368
       reposts: 2
       comments: !c |-
         G5UA6OXnr/lJrjzx7Fo80qK2WScPh9EC/fBEhnPKgXtagC3htrvmd8pxpgFGSQuS49di/VBq3O+P
@@ -13188,17 +13188,17 @@
     - service: vk
       id: 1735
       published: 2024-09-03-18-29-25
-      updated: 2025-03-05-07-08-32
+      updated: 2025-03-12-07-08-59
       followers: 942
       likes: 26
-      views: 360
+      views: 361
     - service: tg
       id: 521
       published: 2024-09-03-18-29-34
-      updated: 2025-03-05-07-08-29
+      updated: 2025-03-12-07-08-55
       followers: 550
       likes: 65
-      views: 589
+      views: 590
 2017-12-01-speak-quickly-outlander:
   title: Speak Quickly, Outlander
   titleRu: Говори скорее
