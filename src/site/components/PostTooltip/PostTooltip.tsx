@@ -55,7 +55,15 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
             label: props.selected ? 'Unselect' : 'Select',
           }
         : undefined,
-      { url: postRoute.createUrl({ managerName: local.postInfo.managerName, id: local.postInfo.id }), label: 'View' },
+      {
+        url: postRoute.createUrl({
+          managerName: local.postInfo.managerName,
+          id: local.postInfo.id,
+          // id: local.postInfo.refId ? local.postInfo.refId : local.postInfo.id,
+          // repostId: local.postInfo.refId ? local.postInfo.id : undefined,
+        }),
+        label: 'View',
+      },
       props.postInfo.status !== 'removed' && postActions().includes('edit')
         ? {
             url: createDetachedDialogFragment('post-editing', {

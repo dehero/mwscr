@@ -68,14 +68,17 @@ export const PostPage = (): JSX.Element => {
     dataManager.getPostInfo(managerName, id),
   );
 
-  useLocalPatch(refetch);
-
   createEffect(() => {
     if (postInfo()?.refId) {
       // @ts-expect-error No proper typing
-      navigate(postRoute.createUrl({ managerName: params().managerName, id: postInfo()!.refId! }));
+      navigate(
+        postRoute.createUrl({ managerName: params().managerName, id: postInfo()!.refId!, repostId: postInfo()!.id }),
+        { overwriteLastHistoryEntry: true },
+      );
     }
   });
+
+  useLocalPatch(refetch);
 
   const postActions = createMemo((): PostAction[] => postsManagerDescriptors[params().managerName].actions);
 

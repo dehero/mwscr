@@ -22,8 +22,8 @@ export async function getPostPageData(dataManager: DataManager, params: PostRout
     throw render(404);
   }
 
-  const [, post] = params.id ? await manager.getEntry(params.id) : [];
-  if (!post) {
+  const [, post, refId] = params.id ? await manager.getEntry(params.id) : [];
+  if (!post || refId) {
     throw render(404);
   }
 
