@@ -384,7 +384,7 @@
 2025-03-01-daedroth-in-grazelands
 ```
 
-> `2024-02-27-daedroth-in-grazelands`
+> `2017-01-06-daedroth-in-grazelands`
 
 ### Reactions
 
