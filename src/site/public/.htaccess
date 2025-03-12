@@ -13,6 +13,9 @@ ErrorDocument 404 /404.html
 </ifModule>
 
 <ifModule mod_headers.c>
+  # Make "Redirect 301" directive work on HTTPS
+  Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
   <FilesMatch "\.(json|html)$">
     Header set Cache-Control "max-age=300"
   </FilesMatch>
