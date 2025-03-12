@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.41.0](https://github.com/dehero/mwscr/compare/v1.40.0...v1.41.0) (2025-03-12)
+
+### Features
+
+- **site:** don't create separate pages for reposts
+  ([f5bd75a](https://github.com/dehero/mwscr/commit/f5bd75a9855d0ada30f26815bcd7882491919dcf))
+
+### Bug Fixes
+
+- avoid reposting reposts ([c75aeb3](https://github.com/dehero/mwscr/commit/c75aeb3bb2c050d4353e03478fb8fec0d0351f2e))
+
 ## [1.40.0](https://github.com/dehero/mwscr/compare/v1.39.0...v1.40.0) (2025-03-04)
 
 ### Features
