@@ -4,7 +4,7 @@
 
 # Trash for 2025
 
-`8 items`
+`9 items`
 
 ## <span id="ohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d">Man&#39;s Best Friend, Ascadian Isles Region</span>
 
@@ -124,6 +124,19 @@ ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486
 
 ```
 ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon
+```
+
+## <span id="dehero.2025-01-19-18-52-27">dehero.2025-01-19-18-52-27</span>
+
+![store:/inbox/dehero.2025-01-19-18-52-27.png](../../assets/previews/inbox/dehero.2025-01-19-18-52-27.avif "dehero.2025-01-19-18-52-27")
+![store:/inbox/dehero.2025-01-19-18-52-08.png](../../assets/previews/inbox/dehero.2025-01-19-18-52-08.avif "dehero.2025-01-19-18-52-08")
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-01-19-18-52-27&amp;postContent=store%3A%2Finbox%2Fdehero.2025-01-19-18-52-27.png%0Astore%3A%2Finbox%2Fdehero.2025-01-19-18-52-08.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=D&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-01-19-18-52-27&amp;mergeWithIds=) `D` <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=dehero.2025-01-19-18-52-27&postLocation=)</code>
+
+```
+dehero.2025-01-19-18-52-27
 ```
 
 ---
