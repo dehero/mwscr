@@ -7,7 +7,7 @@
 ### dehero
 
 Roles: `admin` `author` `requester`  
-Authored: 979 posted, 29 pending, 68 rejected  
+Authored: 979 posted, 23 pending, 68 rejected  
 Requested: 6 pending  
 Likes: 120239  
 
@@ -65,15 +65,6 @@ Likes: 211
 3akrom
 ```
 
-### nazareth
-
-Roles: `author` `beginner`  
-Authored: 4 pending, 4 rejected  
-
-```
-ohsweetnazareth
-```
-
 ## Requesters
 
 ### buck-the-cuck
@@ -122,6 +113,15 @@ mighty-markyys
 ```
 
 ## Other
+
+### nazareth
+
+Roles: `beginner`  
+Authored: 8 rejected  
+
+```
+ohsweetnazareth
+```
 
 ### kayracik
 
