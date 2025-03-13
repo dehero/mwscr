@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.41.7](https://github.com/dehero/mwscr/compare/v1.41.6...v1.41.7) (2025-03-13)
+
+### Continuous Integration
+
+- **site:** use ssh-deploy action EXCLUDE option
+  ([ca86259](https://github.com/dehero/mwscr/commit/ca86259d779f366ab3ef8d2d6ee9caca34543797))
+
 ## [1.41.6](https://github.com/dehero/mwscr/compare/v1.41.5...v1.41.6) (2025-03-13)
 
 ### Continuous Integration
