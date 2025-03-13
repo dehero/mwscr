@@ -4,7 +4,36 @@
 
 # Posted in 2025
 
-`71 items`
+`72 items`
+
+## <span id="2025-03-13-cold-beach">Cold Beach</span>
+
+`RU` Холодный пляж
+
+<a href="https://instagram.com/p/DHJi1Y7yw0g/" title="2025-03-13-cold-beach"><img alt="store:/shots/2025-03-13-cold-beach.png" src="../../assets/previews/shots/2025-03-13-cold-beach.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2025-01-19-18-13-19.png](../../assets/previews/trash/dehero.2025-01-19-18-13-19.avif "dehero.2025-01-19-18-13-19")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-13-cold-beach&amp;postContent=store%3A%2Fshots%2F2025-03-13-cold-beach.png&amp;postTitle=Cold+Beach&amp;postTitleRu=%D0%A5%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9+%D0%BF%D0%BB%D1%8F%D0%B6&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=beach&amp;postLocation=West+Gash+Region&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Ftrash%2Fdehero.2025-01-19-18-13-19.png&amp;postRequest=) `B1` `📍 West Gash Region` `🚀 OpenMW` `beach`
+
+```
+2025-03-13-cold-beach
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DHJi1Y7yw0g/)       | 2025-03-13 |      1533 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2190) | 2025-03-13 |      1182 |
+| [`tg`](https://t.me/mwscr/746)                     | 2025-03-13 |       696 |
+|                                                    |            |      3411 |
 
 ## <span id="2025-03-12-note-to-telvon">Note to Telvon</span>
 
@@ -28,10 +57,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BdA6mOTjrmF/)       | 2017-12-22 |       |    78 |       259 |      30.12 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_548)  | 2017-12-22 |   179 |    14 |       112 |       12.5 |
-| [`ig`](https://instagram.com/p/DHG-AqUA2tH/)       | 2025-03-12 |   266 |    70 |      1535 |       4.56 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2189) | 2025-03-12 |   193 |    35 |      1180 |       3.05 |
-| [`tg`](https://t.me/mwscr/745)                     | 2025-03-12 |   177 |    54 |       695 |       7.77 |
-|                                                    |            |   636 |   159 |      3410 |       5.13 |
+| [`ig`](https://instagram.com/p/DHG-AqUA2tH/)       | 2025-03-12 |   271 |    70 |      1535 |       4.56 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2189) | 2025-03-12 |   195 |    35 |      1180 |       3.05 |
+| [`tg`](https://t.me/mwscr/745)                     | 2025-03-12 |   178 |    54 |       695 |       7.77 |
+|                                                    |            |   644 |   159 |      3410 |       5.13 |
 
 ## <span id="2025-03-11-rainy-night-in-tel-aruhn">Rainy Night in Tel Aruhn</span>
 
@@ -55,10 +84,10 @@
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/BSiYUKaDJ-7/)       | 2017-04-06 |       |    64 |       169 |      37.87 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_244)  | 2017-04-06 |   146 |     7 |        49 |          7 |
-| [`ig`](https://instagram.com/p/DHEZOdXtjzH/)       | 2025-03-11 |   332 |    75 |      1534 |       4.89 |
+| [`ig`](https://instagram.com/p/DHEZOdXtjzH/)       | 2025-03-11 |   333 |    76 |      1534 |       4.95 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2187) | 2025-03-11 |   271 |    47 |      1179 |       4.24 |
 | [`tg`](https://t.me/mwscr/744)                     | 2025-03-11 |   214 |    51 |       695 |       7.34 |
-|                                                    |            |   817 |   173 |      3408 |       5.49 |
+|                                                    |            |   818 |   174 |      3408 |       5.51 |
 
 #### Comments
 
