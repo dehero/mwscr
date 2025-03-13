@@ -72,7 +72,7 @@ jobs:
         uses: easingthemes/ssh-deploy@v5.1.0
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SITE_SSH_PRIVATE_KEY }}
-          ARGS: "-rltgoDzvO --delete --exclude='store'"
+          ARGS: "-rltgoDzvO --delete --exclude='/store'"
           SOURCE: 'dist/client/'
           REMOTE_HOST: ${{ secrets.SITE_SSH_HOST }}
           REMOTE_USER: ${{ secrets.SITE_SSH_USER }}
