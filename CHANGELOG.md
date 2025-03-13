@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.41.6](https://github.com/dehero/mwscr/compare/v1.41.5...v1.41.6) (2025-03-13)
+
+### Continuous Integration
+
+- **site:** use more specific path for directory excluded from deployment
+  ([49840ff](https://github.com/dehero/mwscr/commit/49840ff516b469452ef6fb4eb67d6225c454a694))
+
 ## [1.41.5](https://github.com/dehero/mwscr/compare/v1.41.4...v1.41.5) (2025-03-13)
 
 ### Continuous Integration
