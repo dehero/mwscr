@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.41.10](https://github.com/dehero/mwscr/compare/v1.41.9...v1.41.10) (2025-03-13)
+
+### Continuous Integration
+
+- **site:** don't output site hosting folders
+  ([05cc3e2](https://github.com/dehero/mwscr/commit/05cc3e2e6140d9cb400615fd6ba21deaecd1ac6c))
+
 ## [1.41.9](https://github.com/dehero/mwscr/compare/v1.41.8...v1.41.9) (2025-03-13)
 
 ### Continuous Integration
