@@ -374,18 +374,18 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2025-03-06-11-07-18
+      updated: 2025-03-13-11-07-36
       followers: 927
       likes: 47
-      views: 333
+      views: 334
       reposts: 2
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2025-03-06-11-07-16
+      updated: 2025-03-13-11-07-34
       followers: 504
       likes: 75
-      views: 749
+      views: 750
       comments: !c |-
         G3sA4J0J8eYvY9w1zRIh5EsnB5hJQAcNMEnwwAWchh42r6iW1W1P8amZ8uXij8eBHsGcTcmWmIBK
         4wYH7BVQHAU62AA47ilLSVUQFPt+yYqr3JMaFOvrN6RW9EHlhD0MB0O3Ze7vyPQIKRWX9Uhj9h5Y
@@ -7244,14 +7244,14 @@
     - service: vk
       id: 1700
       published: 2024-08-21-18-19-57
-      updated: 2025-03-06-11-07-16
+      updated: 2025-03-13-11-07-33
       followers: 937
       likes: 41
-      views: 299
+      views: 300
     - service: tg
       id: 508
       published: 2024-08-21-18-20-03
-      updated: 2025-03-06-11-07-15
+      updated: 2025-03-13-11-07-32
       followers: 538
       likes: 60
       views: 576
@@ -11625,7 +11625,7 @@
     - service: vk
       id: 1000
       published: 2018-10-23
-      updated: 2025-03-06-11-07-23
+      updated: 2025-03-13-11-07-40
       followers: 257
       likes: 26
       views: 435
@@ -11664,7 +11664,7 @@
     - service: vk
       id: 1001
       published: 2018-10-24
-      updated: 2025-03-06-11-07-22
+      updated: 2025-03-13-11-07-39
       followers: 258
       likes: 48
       views: 1010
@@ -11701,7 +11701,7 @@
     - service: vk
       id: 1002
       published: 2018-10-25
-      updated: 2025-03-06-11-07-21
+      updated: 2025-03-13-11-07-38
       followers: 259
       likes: 39
       views: 667
@@ -11733,7 +11733,7 @@
     - service: vk
       id: 1003
       published: 2018-10-26
-      updated: 2025-03-06-11-07-20
+      updated: 2025-03-13-11-07-38
       followers: 258
       likes: 22
       views: 419
@@ -11768,7 +11768,7 @@
     - service: vk
       id: 1004
       published: 2018-10-27
-      updated: 2025-03-06-11-07-19
+      updated: 2025-03-13-11-07-37
       followers: 258
       likes: 35
       views: 588
