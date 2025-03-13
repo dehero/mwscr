@@ -4068,17 +4068,17 @@
       id: DHEZOdXtjzH
       mediaId: '18064945003941974'
       published: 2025-03-11-18-11-56
-      updated: 2025-03-13-09-08-45
+      updated: 2025-03-13-10-09-20
       followers: 1534
       likes: 72
-      views: 322
+      views: 323
       comments: !c |-
         iyWAkZPLQnlYaYmxgACpbnk3NHRfNHJ02TVJIGJlbGlldmUgdGhhdCBkdWRlIGlzIGFuIGFuY2Vz
         dG9yIG9mIGdlbmVyYWwgdHVsbGl1cwM=
     - service: vk
       id: 2187
       published: 2025-03-11-18-12-03
-      updated: 2025-03-13-09-08-44
+      updated: 2025-03-13-10-09-20
       followers: 1179
       likes: 46
       views: 255
@@ -4086,10 +4086,10 @@
     - service: tg
       id: 744
       published: 2025-03-11-18-12-10
-      updated: 2025-03-13-09-08-44
+      updated: 2025-03-13-10-09-20
       followers: 695
       likes: 49
-      views: 203
+      views: 205
 2017-04-07-trees-and-towers:
   title: Trees and Towers
   titleRu: Деревья и башни
@@ -14034,24 +14034,25 @@
       id: DHG-AqUA2tH
       mediaId: '18086036761587107'
       published: 2025-03-12-18-11-50
-      updated: 2025-03-13-09-08-42
+      updated: 2025-03-13-10-09-18
       followers: 1535
       likes: 62
-      views: 218
+      views: 226
     - service: vk
       id: 2189
       published: 2025-03-12-18-11-57
-      updated: 2025-03-13-09-08-43
+      updated: 2025-03-13-10-09-19
       followers: 1180
-      likes: 30
-      views: 153
+      likes: 32
+      views: 157
+      reposts: 1
     - service: tg
       id: 745
       published: 2025-03-12-18-12-03
-      updated: 2025-03-13-09-08-42
+      updated: 2025-03-13-10-09-19
       followers: 695
-      likes: 48
-      views: 161
+      likes: 49
+      views: 162
 2017-12-23-secret-love:
   title: Secret Love
   titleRu: Тайная любовь
