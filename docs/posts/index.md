@@ -266,8 +266,8 @@
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_219)  | 2017-03-19 |   130 |     9 |        46 |          9 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2172) | 2025-03-05 |   331 |    48 |      1160 |       4.14 |
 | [`tg`](https://t.me/mwscr/735)                     | 2025-03-05 |   322 |    58 |       691 |       8.39 |
-| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   280 |    66 |      1536 |        4.3 |
-|                                                    |            |   933 |   172 |      3387 |       5.61 |
+| [`ig`](https://instagram.com/p/DG2NNSvNgYM/)       | 2025-03-06 |   283 |    66 |      1536 |        4.3 |
+|                                                    |            |   936 |   172 |      3387 |       5.61 |
 
 ## <span id="2025-03-04-onnissiralis">Onnissiralis</span>
 
