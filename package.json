@@ -55,7 +55,6 @@
     "@flatten-js/core": "^1.6.1",
     "@googleapis/youtube": "^13.1.0",
     "@minht11/solid-virtual-container": "^0.2.1",
-    "@samkirkland/ftp-deploy": "^1.2.4",
     "@sindresorhus/slugify": "^2.2.1",
     "@solid-primitives/clipboard": "^1.5.10",
     "@solid-primitives/event-listener": "^2.3.3",

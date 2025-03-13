@@ -65,7 +65,15 @@ jobs:
           npm run release
           git push --follow-tags origin main
 
-      - name: Build and deploy site
-        run: |
-          npm run build
-          npm run deploy
+      - name: Build site
+        run: npm run build
+
+      - name: Deploy site
+        uses: easingthemes/ssh-deploy@v5.1.0
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SITE_SSH_PRIVATE_KEY }}
+          ARGS: "-rltgoDzvO --delete --exclude='store'"
+          SOURCE: 'dist/client/'
+          REMOTE_HOST: ${{ secrets.SITE_SSH_HOST }}
+          REMOTE_USER: ${{ secrets.SITE_SSH_USER }}
+          TARGET: ${{ secrets.SITE_SSH_PATH }}
