@@ -14,7 +14,6 @@
     "maintain": "node --loader ts-node/esm src/local/maintain.ts",
     "validate": "node --loader ts-node/esm src/local/validate.ts",
     "release": "node --loader ts-node/esm src/local/release.ts",
-    "deploy": "node --loader ts-node/esm src/local/deploy.ts",
     "script": "node --loader ts-node/esm --",
     "test": "cross-env TEST_EXTENSIONS=.test.ts ts-node-test src",
     "typecheck": "tsc --noEmit",
