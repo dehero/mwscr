@@ -68,7 +68,7 @@ Likes: 211
 ### nazareth
 
 Roles: `author` `beginner`  
-Authored: 3 pending, 4 rejected  
+Authored: 4 pending, 4 rejected  
 
 ```
 ohsweetnazareth

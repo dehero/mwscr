@@ -4,7 +4,7 @@
 
 # Inbox for 2025
 
-`20 items`
+`21 items`
 
 ## <span id="ohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d">Man&#39;s Best Friend, Ascadian Isles Region</span>
 
@@ -34,6 +34,21 @@ ohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d
 
 ```
 ohsweetnazareth.2025-03-13-gloomy-night-at-manats-farmhouse-f2867eec
+```
+
+## <span id="ohsweetnazareth.2025-03-13-evening-at-ald-sotha-57687677">Evening at Ald Sotha</span>
+
+![store:/inbox/ohsweetnazareth.2025-03-13-evening-at-ald-sotha-57687677.png](../../assets/previews/inbox/ohsweetnazareth.2025-03-13-evening-at-ald-sotha-57687677.avif "ohsweetnazareth.2025-03-13-evening-at-ald-sotha-57687677")
+
+`shot` by [nazareth](../contributors.md#ohsweetnazareth)
+
+> [!WARNING]
+> Missing russian title, editor's mark.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=ohsweetnazareth.2025-03-13-evening-at-ald-sotha-57687677&amp;postContent=store%3A%2Finbox%2Fohsweetnazareth.2025-03-13-evening-at-ald-sotha-57687677.png&amp;postTitle=Evening+at+Ald+Sotha&amp;postTitleRu=&amp;postAuthor=ohsweetnazareth&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=ohsweetnazareth.2025-03-13-evening-at-ald-sotha-57687677&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=ohsweetnazareth.2025-03-13-evening-at-ald-sotha-57687677&postLocation=)</code>
+
+```
+ohsweetnazareth.2025-03-13-evening-at-ald-sotha-57687677
 ```
 
 ## <span id="ohsweetnazareth.2025-03-12-keenings-respite-in-odrosal-tower-c397bc43">Keening&#39;s Respite in Odrosal Tower</span>
