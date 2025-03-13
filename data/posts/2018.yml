@@ -5112,7 +5112,7 @@
     - service: vk
       id: 718
       published: 2018-05-12
-      updated: 2025-03-06-17-07-41
+      updated: 2025-03-13-17-27-31
       followers: 160
       likes: 16
       views: 309
@@ -5156,7 +5156,7 @@
     - service: vk
       id: 719
       published: 2018-05-13
-      updated: 2025-03-06-17-07-40
+      updated: 2025-03-13-17-27-30
       followers: 160
       likes: 30
       views: 428
@@ -5184,7 +5184,7 @@
     - service: vk
       id: 721
       published: 2018-05-14
-      updated: 2025-03-06-17-07-39
+      updated: 2025-03-13-17-27-29
       followers: 159
       likes: 18
       views: 256
@@ -5244,7 +5244,7 @@
     - service: vk
       id: 728
       published: 2018-05-15
-      updated: 2025-03-06-17-07-38
+      updated: 2025-03-13-17-27-28
       followers: 159
       likes: 21
       views: 266
@@ -5278,7 +5278,7 @@
     - service: vk
       id: 729
       published: 2018-05-16
-      updated: 2025-03-06-17-07-37
+      updated: 2025-03-13-17-27-27
       followers: 163
       likes: 18
       views: 261
@@ -5332,7 +5332,7 @@
     - service: vk
       id: 730
       published: 2018-05-17
-      updated: 2025-03-06-17-07-36
+      updated: 2025-03-13-17-27-26
       followers: 163
       likes: 11
       views: 293
@@ -5358,7 +5358,7 @@
     - service: vk
       id: 731
       published: 2018-05-18
-      updated: 2025-03-06-17-07-35
+      updated: 2025-03-13-17-27-25
       followers: 163
       likes: 14
       views: 253
@@ -5415,7 +5415,7 @@
     - service: vk
       id: 732
       published: 2018-05-19
-      updated: 2025-03-06-17-07-34
+      updated: 2025-03-13-17-27-24
       followers: 163
       likes: 18
       views: 329
@@ -5476,7 +5476,7 @@
     - service: vk
       id: 735
       published: 2018-05-20
-      updated: 2025-03-06-17-07-33
+      updated: 2025-03-13-17-27-23
       followers: 164
       likes: 16
       views: 224
@@ -5505,7 +5505,7 @@
     - service: vk
       id: 736
       published: 2018-05-21
-      updated: 2025-03-06-17-07-32
+      updated: 2025-03-13-17-27-23
       followers: 165
       likes: 25
       views: 250
@@ -8798,25 +8798,25 @@
       id: DG_PNteTOGE
       mediaId: '18049718234224040'
       published: 2025-03-09-18-08-17
-      updated: 2025-03-12-17-07-52
+      updated: 2025-03-13-17-27-18
       followers: 1535
-      likes: 58
-      views: 238
+      likes: 59
+      views: 243
     - service: vk
       id: 2183
       published: 2025-03-09-18-08-24
-      updated: 2025-03-12-17-07-53
+      updated: 2025-03-13-17-27-18
       followers: 1176
-      likes: 43
-      views: 305
+      likes: 46
+      views: 335
       reposts: 2
     - service: tg
       id: 739
       published: 2025-03-09-18-08-31
-      updated: 2025-03-12-17-07-52
+      updated: 2025-03-13-17-27-15
       followers: 693
       likes: 54
-      views: 295
+      views: 317
 2018-08-23-night-shipwreck:
   title: Night Shipwreck
   titleRu: Ночное кораблекрушение
@@ -10247,17 +10247,17 @@
       id: DHB0S2fT4UF
       mediaId: '18058157302870144'
       published: 2025-03-10-18-10-45
-      updated: 2025-03-12-17-26-45
+      updated: 2025-03-13-17-27-17
       followers: 1534
-      likes: 111
-      views: 292
+      likes: 117
+      views: 307
     - service: vk
       id: 2184
       published: 2025-03-10-18-11-05
-      updated: 2025-03-12-17-26-44
+      updated: 2025-03-13-17-27-16
       followers: 1177
-      likes: 57
-      views: 356
+      likes: 61
+      views: 380
       reposts: 4
       comments: !c |-
         izaAkpPLQnlYGUkEAACpcWlyb25nNjY2sdCa0YDQsNGB0LjQstC+0LUuk8tCeVg9IE8AAKppZDYz
@@ -10269,10 +10269,10 @@
         - 742
         - 743
       published: 2025-03-10-18-11-24
-      updated: 2025-03-12-17-26-45
+      updated: 2025-03-13-17-27-15
       followers: 693
-      likes: 57
-      views: 286
+      likes: 60
+      views: 310
       comments: !c CxiAkZPLQnlYFGcEAACvYWxpY2VfcmFiYml0XzAytU9kYWkgdW5kZXIgdGhlIGJyaWRnZQM=
 2018-09-24-verminous-fabricant:
   title: Verminous Fabricant
