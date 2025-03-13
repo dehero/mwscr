@@ -4,7 +4,22 @@
 
 # Inbox for 2025
 
-`19 items`
+`20 items`
+
+## <span id="ohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d">Man&#39;s Best Friend, Ascadian Isles Region</span>
+
+![store:/inbox/ohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d.png](../../assets/previews/inbox/ohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d.avif "ohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d")
+
+`shot` by [nazareth](../contributors.md#ohsweetnazareth)
+
+> [!WARNING]
+> Missing russian title, editor's mark.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=ohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d&amp;postContent=store%3A%2Finbox%2Fohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d.png&amp;postTitle=Man%27s+Best+Friend%2C+Ascadian+Isles+Region&amp;postTitleRu=&amp;postAuthor=ohsweetnazareth&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=ohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=ohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d&postLocation=)</code>
+
+```
+ohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d
+```
 
 ## <span id="ohsweetnazareth.2025-03-13-gloomy-night-at-manats-farmhouse-f2867eec">Gloomy Night at Manat&#39;s Farmhouse</span>
 
