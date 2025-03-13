@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.41.5](https://github.com/dehero/mwscr/compare/v1.41.4...v1.41.5) (2025-03-13)
+
+### Continuous Integration
+
+- **site:** deploy with rsync through SSH
+  ([963acf6](https://github.com/dehero/mwscr/commit/963acf68a8eedd0eabcf425d463994aea6a77ba7))
+
 ## [1.41.4](https://github.com/dehero/mwscr/compare/v1.41.3...v1.41.4) (2025-03-12)
 
 ### Bug Fixes
