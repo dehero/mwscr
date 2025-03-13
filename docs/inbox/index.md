@@ -42,13 +42,14 @@ dehero.2025-03-12-19-52-34
 ![store:/inbox/dehero.2025-03-12-19-49-58.png](../../assets/previews/inbox/dehero.2025-03-12-19-49-58.avif "dehero.2025-03-12-19-49-58")
 ![store:/inbox/dehero.2025-03-12-19-49-29.png](../../assets/previews/inbox/dehero.2025-03-12-19-49-29.avif "dehero.2025-03-12-19-49-29")
 ![store:/inbox/dehero.2025-03-12-19-48-54.png](../../assets/previews/inbox/dehero.2025-03-12-19-48-54.avif "dehero.2025-03-12-19-48-54")
+![store:/inbox/dehero.2025-03-12-19-49-58.1.png](../../assets/previews/inbox/dehero.2025-03-12-19-49-58.1.avif "dehero.2025-03-12-19-49-58.1")
 
 `shot` by [dehero](../contributors.md#dehero)
 
 > [!WARNING]
 > Missing english title, russian title, editor's mark, content should be resource string, got array.
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-03-12-19-49-58&amp;postContent=store%3A%2Finbox%2Fdehero.2025-03-12-19-49-58.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-49-29.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-48-54.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-03-12-19-49-58&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=dehero.2025-03-12-19-49-58&postLocation=)</code>
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-03-12-19-49-58&amp;postContent=store%3A%2Finbox%2Fdehero.2025-03-12-19-49-58.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-49-29.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-48-54.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-49-58.1.png&amp;postTitle=&amp;postTitleRu=&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=&amp;postAddon=&amp;postTags=&amp;postLocation=&amp;postMark=&amp;postViolation=&amp;postTrash=&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-03-12-19-49-58&amp;mergeWithIds=) <code>📍 [Locate](https://github.com/dehero/mwscr/issues/new?labels=post-location&template=post-location.yml&title=dehero.2025-03-12-19-49-58&postLocation=)</code>
 
 ```
 dehero.2025-03-12-19-49-58
