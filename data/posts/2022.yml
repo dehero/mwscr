@@ -434,10 +434,10 @@
     - service: vk
       id: 2077
       published: 2025-01-22-18-11-15
-      updated: 2025-03-05-23-08-16
+      updated: 2025-03-13-00-38-22
       followers: 1054
       likes: 38
-      views: 312
+      views: 317
       reposts: 1
       comments: !c |-
         G0kB6K2Od5WAvPjyGU2KFtE4LGSyKfmZggQWrMVJgpEoiempbgajLAgzFkr68XYgbsvdnLafo6Ig
@@ -447,10 +447,10 @@
     - service: tg
       id: 678
       published: 2025-01-22-18-11-24
-      updated: 2025-03-05-23-08-14
+      updated: 2025-03-13-00-38-20
       followers: 655
       likes: 66
-      views: 528
+      views: 532
 2022-07-02-niras-farys-priest:
   title: Niras Farys, Priest
   titleRu: Нирас Фарис, священник
@@ -1798,7 +1798,7 @@
     - service: vk
       id: 1377
       published: 2022-08-01
-      updated: 2025-03-06-00-38-02
+      updated: 2025-03-13-00-38-48
       followers: 797
       likes: 70
       views: 927
@@ -1843,7 +1843,7 @@
     - service: vk
       id: 1379
       published: 2022-08-02
-      updated: 2025-03-06-00-38-02
+      updated: 2025-03-13-00-38-47
       followers: 798
       likes: 82
       views: 1626
@@ -1886,7 +1886,7 @@
     - service: vk
       id: 1381
       published: 2022-08-03
-      updated: 2025-03-06-00-38-01
+      updated: 2025-03-13-00-38-46
       followers: 800
       likes: 74
       views: 1231
