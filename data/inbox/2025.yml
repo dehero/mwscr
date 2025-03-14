@@ -71,7 +71,7 @@ dehero.2025-03-12-19-49-58:
     - gold
     - weapon
     - candle
-  mark: B1
+  mark: A2
 dehero.2025-03-12-19-52-34:
   title: First Stars Above Assurnabitashpi
   titleRu: Первые звёзды над Ассурнабиташпи
@@ -88,11 +88,19 @@ dehero.2025-03-12-19-52-34:
     - star
   mark: A2
 dehero.2025-03-12-20-04-43:
-  content:
-    - store:/inbox/dehero.2025-03-12-20-04-43.1.png
-    - store:/inbox/dehero.2025-03-12-20-04-43.png
+  title: Night on the Plantation
+  titleRu: Ночь на плантации
+  placement: Outdoors
+  location: Dren Plantation
+  content: store:/inbox/dehero.2025-03-12-20-04-43.1.png
+  trash: store:/inbox/dehero.2025-03-12-20-04-43.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - night
+    - lantern
+  mark: B1
 dehero.2025-03-12-20-04-55:
   content: store:/inbox/dehero.2025-03-12-20-04-55.png
   type: shot

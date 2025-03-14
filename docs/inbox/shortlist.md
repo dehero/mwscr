@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`6 items`
+`8 items`
 
 ## <span id="dehero.2025-03-12-20-10-39">Lesley and Gwen</span>
 
@@ -47,6 +47,26 @@ dehero.2025-03-12-20-10-39
 dehero.2025-03-12-20-08-15
 ```
 
+## <span id="dehero.2025-03-12-20-04-43">Night on the Plantation</span>
+
+`RU` Ночь на плантации
+
+![store:/inbox/dehero.2025-03-12-20-04-43.1.png](../../assets/previews/inbox/dehero.2025-03-12-20-04-43.1.avif "dehero.2025-03-12-20-04-43.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2025-03-12-20-04-43.png](../../assets/previews/inbox/dehero.2025-03-12-20-04-43.avif "dehero.2025-03-12-20-04-43")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-03-12-20-04-43&amp;postContent=store%3A%2Finbox%2Fdehero.2025-03-12-20-04-43.1.png&amp;postTitle=Night+on+the+Plantation&amp;postTitleRu=%D0%9D%D0%BE%D1%87%D1%8C+%D0%BD%D0%B0+%D0%BF%D0%BB%D0%B0%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=night+lantern&amp;postLocation=Dren+Plantation&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-03-12-20-04-43.png&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-03-12-20-04-43&amp;mergeWithIds=) `B1` `📍 Dren Plantation` `🚀 OpenMW` `night` `lantern`
+
+```
+dehero.2025-03-12-20-04-43
+```
+
 ## <span id="dehero.2025-03-12-19-52-34">First Stars Above Assurnabitashpi</span>
 
 `RU` Первые звёзды над Ассурнабиташпи
@@ -83,7 +103,7 @@ dehero.2025-03-12-19-52-34
 
 `shot` by [dehero](../contributors.md#dehero)
 
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-03-12-19-49-58&amp;postContent=store%3A%2Finbox%2Fdehero.2025-03-12-19-49-58.1.png&amp;postTitle=Daedric+Tanto+and+Dwemer+Coins&amp;postTitleRu=%D0%94%D0%B0%D1%8D%D0%B4%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D1%82%D0%B0%D0%BD%D1%82%D0%BE+%D0%B8+%D0%B4%D0%B2%D0%B5%D0%BC%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B5+%D0%BC%D0%BE%D0%BD%D0%B5%D1%82%D1%8B&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=daedric+skull+gold+weapon+candle&amp;postLocation=Ald+Sotha%2C+Lower+Level&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-03-12-19-48-54.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-49-29.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-49-58.png&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-03-12-19-49-58&amp;mergeWithIds=) `B1` `📍 Ald Sotha, Lower Level` `🚀 OpenMW` `daedric` `skull` `gold` `weapon` `candle`
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-03-12-19-49-58&amp;postContent=store%3A%2Finbox%2Fdehero.2025-03-12-19-49-58.1.png&amp;postTitle=Daedric+Tanto+and+Dwemer+Coins&amp;postTitleRu=%D0%94%D0%B0%D1%8D%D0%B4%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D1%82%D0%B0%D0%BD%D1%82%D0%BE+%D0%B8+%D0%B4%D0%B2%D0%B5%D0%BC%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B5+%D0%BC%D0%BE%D0%BD%D0%B5%D1%82%D1%8B&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=daedric+skull+gold+weapon+candle&amp;postLocation=Ald+Sotha%2C+Lower+Level&amp;postMark=A2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-03-12-19-48-54.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-49-29.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-49-58.png&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-03-12-19-49-58&amp;mergeWithIds=) `A2` `📍 Ald Sotha, Lower Level` `🚀 OpenMW` `daedric` `skull` `gold` `weapon` `candle`
 
 ```
 dehero.2025-03-12-19-49-58
@@ -108,6 +128,26 @@ dehero.2025-03-12-19-49-58
 
 ```
 dehero.2025-03-12-19-45-28
+```
+
+## <span id="dehero.2024-12-31-16-39-41">Passage to the North</span>
+
+`RU` Проход на север
+
+![store:/inbox/dehero.2024-12-31-16-39-41.1.png](../../assets/previews/inbox/dehero.2024-12-31-16-39-41.1.avif "dehero.2024-12-31-16-39-41.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2024-12-31-16-39-41.png](../../assets/previews/inbox/dehero.2024-12-31-16-39-41.avif "dehero.2024-12-31-16-39-41")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2024-12-31-16-39-41&amp;postContent=store%3A%2Finbox%2Fdehero.2024-12-31-16-39-41.1.png&amp;postTitle=Passage+to+the+North&amp;postTitleRu=%D0%9F%D1%80%D0%BE%D1%85%D0%BE%D0%B4+%D0%BD%D0%B0+%D1%81%D0%B5%D0%B2%D0%B5%D1%80&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Bloodmoon&amp;postTags=arch+firtree+star+night&amp;postLocation=Fort+Frostmoth&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-12-31-16-39-41.png&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2024-12-31-16-39-41&amp;mergeWithIds=) `B1` `📍 Fort Frostmoth` `🚀 OpenMW` `🔗 Bloodmoon` `arch` `firtree` `star` `night`
+
+```
+dehero.2024-12-31-16-39-41
 ```
 
 ## <span id="dehero.2018-08-16-22-26-00">Peeping</span>
