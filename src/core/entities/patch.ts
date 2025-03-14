@@ -33,7 +33,7 @@ export function Patch<T extends object>(schema: ObjectSchema<T>) {
 }
 
 export function patchObject<T extends object>(target: T, patch: Patch<T>) {
-  for (const key of Object.keys(patch)) {
+  for (const key of Object.getOwnPropertyNames(patch)) {
     const oldValue = target[key as keyof T] as unknown;
     const newValue = patch[key as keyof T] as unknown;
 

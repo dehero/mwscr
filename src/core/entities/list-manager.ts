@@ -75,7 +75,7 @@ export abstract class ListReader<TItem> {
 
     for (const chunkName of chunkNames) {
       const chunk = await this.loadChunk(chunkName);
-      count += Object.keys(chunk).length;
+      count += Object.getOwnPropertyNames(chunk).length;
     }
 
     return count;
@@ -256,7 +256,7 @@ export abstract class ListReader<TItem> {
   ): AsyncGenerator<ListReaderEntry<TItem>> {
     const chunk = await this.loadChunk(chunkName);
 
-    for (const key of Object.keys(chunk)) {
+    for (const key of Object.getOwnPropertyNames(chunk)) {
       const value = chunk[key] as TItem | string;
       if (typeof value === 'string') {
         if (!skipReferences) {
@@ -372,36 +372,6 @@ export class ListManagerChunkProxy<TItem extends object> extends DeepProxy<ListR
 
         return result;
       },
-      has(target, key) {
-        const has = Reflect.has(target, key);
-        if (manager.skipProxy) {
-          return has;
-        }
-
-        const patchValue = getObjectValue(manager.getChunkPatch(chunkName), [...this.path, key.toString()]);
-        if (typeof patchValue !== 'undefined' && patchValue !== null) {
-          return true;
-        }
-
-        return has;
-      },
-      // https://stackoverflow.com/questions/40352613/why-does-object-keys-and-object-getownpropertynames-produce-different-output
-      // https://stackoverflow.com/questions/75148897/get-on-proxy-property-items-is-a-read-only-and-non-configurable-data-proper
-      getOwnPropertyDescriptor(target, key) {
-        const descriptor = Reflect.getOwnPropertyDescriptor(target, key);
-        if (manager.skipProxy) {
-          return descriptor;
-        }
-
-        const patchValue = getObjectValue(manager.getChunkPatch(chunkName), [...this.path, key.toString()]);
-        const hasProperty = typeof patchValue !== 'undefined' && patchValue !== null;
-
-        return {
-          ...descriptor,
-          configurable: descriptor?.configurable ?? hasProperty,
-          enumerable: descriptor?.enumerable ?? hasProperty,
-        };
-      },
     });
   }
 }
@@ -427,7 +397,7 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     if (!this.patch) {
       return [];
     }
-    const ids = Object.keys(this.patch).filter((id) => this.patch?.[id] === null);
+    const ids = Object.getOwnPropertyNames(this.patch).filter((id) => this.patch?.[id] === null);
     this.skipProxy = true;
     const result = await this.getEntries(ids);
     this.skipProxy = false;
@@ -572,7 +542,10 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     const data = await this.loadChunk(chunkName);
     const savedChunkNames = await this.getSavedChunkNames();
 
-    if (Object.keys(data).length === 0) {
+    // Don't use Object.keys, need to properly implement getOwnPropertyDescriptor for it:
+    // https://stackoverflow.com/questions/40352613/why-does-object-keys-and-object-getownpropertynames-produce-different-output
+    // https://stackoverflow.com/questions/75148897/get-on-proxy-property-items-is-a-read-only-and-non-configurable-data-proper
+    if (Object.getOwnPropertyNames(data).length === 0) {
       savedChunkNames.delete(chunkName);
       return this.removeChunkData(chunkName);
     }
@@ -601,7 +574,7 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     if (!this.patch) {
       return 0;
     }
-    return Object.keys(this.patch).length;
+    return Object.getOwnPropertyNames(this.patch).length;
   }
 
   /**
