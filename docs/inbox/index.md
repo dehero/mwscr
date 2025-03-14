@@ -4,7 +4,7 @@
 
 # Inbox for 2025
 
-`7 items`
+`8 items`
 
 ## <span id="dehero.2025-03-12-20-07-06">dehero.2025-03-12-20-07-06</span>
 
@@ -55,6 +55,31 @@ dehero.2025-03-12-20-05-39
 
 ```
 dehero.2025-03-12-20-04-55
+```
+
+## <span id="dehero.2025-03-12-19-37-20">Alone with the Helmet</span>
+
+`RU` Наедине со шлемом
+
+![store:/inbox/dehero.2025-03-12-19-37-20.1.png](../../assets/previews/inbox/dehero.2025-03-12-19-37-20.1.avif "dehero.2025-03-12-19-37-20.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2025-03-12-19-37-11.png](../../assets/previews/inbox/dehero.2025-03-12-19-37-11.avif "dehero.2025-03-12-19-37-11")
+![store:/inbox/dehero.2025-03-12-19-37-20.png](../../assets/previews/inbox/dehero.2025-03-12-19-37-20.avif "dehero.2025-03-12-19-37-20")
+![store:/inbox/dehero.2025-03-12-19-36-50.png](../../assets/previews/inbox/dehero.2025-03-12-19-36-50.avif "dehero.2025-03-12-19-36-50")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+> [!WARNING]
+> Missing editor's mark.
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-03-12-19-37-20&amp;postContent=store%3A%2Finbox%2Fdehero.2025-03-12-19-37-20.1.png&amp;postTitle=Alone+with+the+Helmet&amp;postTitleRu=%D0%9D%D0%B0%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5+%D1%81%D0%BE+%D1%88%D0%BB%D0%B5%D0%BC%D0%BE%D0%BC&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=ordinator&amp;postLocation=Vivec%2C+Ordinator+Barracks&amp;postMark=&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-03-12-19-37-11.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-37-20.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-36-50.png&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-03-12-19-37-20&amp;mergeWithIds=) `📍 Vivec, Ordinator Barracks` `🚀 OpenMW` `ordinator`
+
+```
+dehero.2025-03-12-19-37-20
 ```
 
 ## <span id="dehero.2025-01-19-19-12-11">dehero.2025-01-19-19-12-11</span>

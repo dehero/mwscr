@@ -50,7 +50,6 @@ dehero.2025-03-12-19-37-20:
   engine: OpenMW
   tags:
     - ordinator
-  mark: B1
 dehero.2025-03-12-19-45-28:
   title: Coming to Ald Sotha
   titleRu: Прибытие в Альд Соту
@@ -146,16 +145,3 @@ dehero.2025-03-12-20-08-15:
     - prison
     - cave
   mark: B1
-dehero.2025-03-12-20-10-39:
-  title: Lesley and Gwen
-  titleRu: Лесли и Гвен
-  placement: Indoors
-  location: Nund
-  content: store:/inbox/dehero.2025-03-12-20-10-39.1.png
-  trash: store:/inbox/dehero.2025-03-12-20-10-39.png
-  type: shot
-  author: dehero
-  engine: OpenMW
-  tags:
-    - cave
-  mark: B2

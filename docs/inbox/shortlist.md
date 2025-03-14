@@ -4,27 +4,7 @@
 
 # Shortlist
 
-`11 items`
-
-## <span id="dehero.2025-03-12-20-10-39">Lesley and Gwen</span>
-
-`RU` Лесли и Гвен
-
-![store:/inbox/dehero.2025-03-12-20-10-39.1.png](../../assets/previews/inbox/dehero.2025-03-12-20-10-39.1.avif "dehero.2025-03-12-20-10-39.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2025-03-12-20-10-39.png](../../assets/previews/inbox/dehero.2025-03-12-20-10-39.avif "dehero.2025-03-12-20-10-39")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-03-12-20-10-39&amp;postContent=store%3A%2Finbox%2Fdehero.2025-03-12-20-10-39.1.png&amp;postTitle=Lesley+and+Gwen&amp;postTitleRu=%D0%9B%D0%B5%D1%81%D0%BB%D0%B8+%D0%B8+%D0%93%D0%B2%D0%B5%D0%BD&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=cave&amp;postLocation=Nund&amp;postMark=B2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-03-12-20-10-39.png&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-03-12-20-10-39&amp;mergeWithIds=) `B2` `📍 Nund` `🚀 OpenMW` `cave`
-
-```
-dehero.2025-03-12-20-10-39
-```
+`8 items`
 
 ## <span id="dehero.2025-03-12-20-08-15">Wardens</span>
 
@@ -130,28 +110,6 @@ dehero.2025-03-12-19-49-58
 dehero.2025-03-12-19-45-28
 ```
 
-## <span id="dehero.2025-03-12-19-37-20">Alone with the Helmet</span>
-
-`RU` Наедине со шлемом
-
-![store:/inbox/dehero.2025-03-12-19-37-20.1.png](../../assets/previews/inbox/dehero.2025-03-12-19-37-20.1.avif "dehero.2025-03-12-19-37-20.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2025-03-12-19-37-11.png](../../assets/previews/inbox/dehero.2025-03-12-19-37-11.avif "dehero.2025-03-12-19-37-11")
-![store:/inbox/dehero.2025-03-12-19-37-20.png](../../assets/previews/inbox/dehero.2025-03-12-19-37-20.avif "dehero.2025-03-12-19-37-20")
-![store:/inbox/dehero.2025-03-12-19-36-50.png](../../assets/previews/inbox/dehero.2025-03-12-19-36-50.avif "dehero.2025-03-12-19-36-50")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-03-12-19-37-20&amp;postContent=store%3A%2Finbox%2Fdehero.2025-03-12-19-37-20.1.png&amp;postTitle=Alone+with+the+Helmet&amp;postTitleRu=%D0%9D%D0%B0%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5+%D1%81%D0%BE+%D1%88%D0%BB%D0%B5%D0%BC%D0%BE%D0%BC&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=ordinator&amp;postLocation=Vivec%2C+Ordinator+Barracks&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-03-12-19-37-11.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-37-20.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-36-50.png&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-03-12-19-37-20&amp;mergeWithIds=) `B1` `📍 Vivec, Ordinator Barracks` `🚀 OpenMW` `ordinator`
-
-```
-dehero.2025-03-12-19-37-20
-```
-
 ## <span id="dehero.2025-01-19-18-57-18">Repairing Centurion Palm</span>
 
 `RU` Ремонт руки центуриона
@@ -211,26 +169,6 @@ dehero.2024-12-31-16-39-41
 
 ```
 dehero.2024-02-17-10-41-10
-```
-
-## <span id="dehero.2018-08-16-22-26-00">Peeping</span>
-
-`RU` Подглядывание
-
-![store:/inbox/dehero.2018-08-16-22-26-00.1.png](../../assets/previews/inbox/dehero.2018-08-16-22-26-00.1.avif "dehero.2018-08-16-22-26-00.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2018-08-16-22-26-00.png](../../assets/previews/inbox/dehero.2018-08-16-22-26-00.avif "dehero.2018-08-16-22-26-00")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2018-08-16-22-26-00&amp;postContent=store%3A%2Finbox%2Fdehero.2018-08-16-22-26-00.1.png&amp;postTitle=Peeping&amp;postTitleRu=%D0%9F%D0%BE%D0%B4%D0%B3%D0%BB%D1%8F%D0%B4%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=tree&amp;postLocation=Ascadian+Isles+Region&amp;postMark=E&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2018-08-16-22-26-00.png&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2018-08-16-22-26-00&amp;mergeWithIds=) `E` `📍 Ascadian Isles Region` `🚀 OpenMW` `tree`
-
-```
-dehero.2018-08-16-22-26-00
 ```
 
 ---

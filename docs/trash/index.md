@@ -4,7 +4,7 @@
 
 # Trash for 2025
 
-`9 items`
+`10 items`
 
 ## <span id="ohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d">Man&#39;s Best Friend, Ascadian Isles Region</span>
 
@@ -124,6 +124,26 @@ ohsweetnazareth.2025-03-11-keenings-respite-in-odrosal-tower-eb40f486
 
 ```
 ohsweetnazareth.2025-02-20-ash-statue-in-maran-adon
+```
+
+## <span id="dehero.2025-03-12-20-10-39">Lesley and Gwen</span>
+
+`RU` Лесли и Гвен
+
+![store:/inbox/dehero.2025-03-12-20-10-39.1.png](../../assets/previews/inbox/dehero.2025-03-12-20-10-39.1.avif "dehero.2025-03-12-20-10-39.1")
+
+<details>
+<summary>Trash</summary>
+
+![store:/inbox/dehero.2025-03-12-20-10-39.png](../../assets/previews/inbox/dehero.2025-03-12-20-10-39.avif "dehero.2025-03-12-20-10-39")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-03-12-20-10-39&amp;postContent=store%3A%2Finbox%2Fdehero.2025-03-12-20-10-39.1.png&amp;postTitle=Lesley+and+Gwen&amp;postTitleRu=%D0%9B%D0%B5%D1%81%D0%BB%D0%B8+%D0%B8+%D0%93%D0%B2%D0%B5%D0%BD&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=cave&amp;postLocation=Nund&amp;postMark=F&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-03-12-20-10-39.png&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-03-12-20-10-39&amp;mergeWithIds=) `F` `📍 Nund` `🚀 OpenMW` `cave`
+
+```
+dehero.2025-03-12-20-10-39
 ```
 
 ## <span id="dehero.2025-01-19-18-52-27">dehero.2025-01-19-18-52-27</span>
