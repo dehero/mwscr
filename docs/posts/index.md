@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHJi1Y7yw0g/)       | 2025-03-13 |   129 |    37 |      1533 |       2.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2190) | 2025-03-13 |   148 |    28 |      1182 |       2.45 |
-| [`tg`](https://t.me/mwscr/746)                     | 2025-03-13 |   141 |    38 |       696 |       5.46 |
-|                                                    |            |   418 |   103 |      3411 |       3.44 |
+| [`ig`](https://instagram.com/p/DHJi1Y7yw0g/)       | 2025-03-13 |   134 |    37 |      1533 |       2.41 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2190) | 2025-03-13 |   151 |    29 |      1182 |       2.54 |
+| [`tg`](https://t.me/mwscr/746)                     | 2025-03-13 |   143 |    39 |       696 |        5.6 |
+|                                                    |            |   428 |   105 |      3411 |       3.52 |
 
 ## <span id="2025-03-12-note-to-telvon">Note to Telvon</span>
 
@@ -58,9 +58,9 @@
 | [`ig`](https://instagram.com/p/BdA6mOTjrmF/)       | 2017-12-22 |       |    78 |       259 |      30.12 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_548)  | 2017-12-22 |   179 |    14 |       112 |       12.5 |
 | [`ig`](https://instagram.com/p/DHG-AqUA2tH/)       | 2025-03-12 |   293 |    73 |      1535 |       4.76 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2189) | 2025-03-12 |   214 |    37 |      1180 |       3.22 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2189) | 2025-03-12 |   215 |    38 |      1180 |       3.31 |
 | [`tg`](https://t.me/mwscr/745)                     | 2025-03-12 |   201 |    56 |       695 |       8.06 |
-|                                                    |            |   708 |   166 |      3410 |       5.34 |
+|                                                    |            |   709 |   167 |      3410 |       5.37 |
 
 ## <span id="2025-03-11-rainy-night-in-tel-aruhn">Rainy Night in Tel Aruhn</span>
 
