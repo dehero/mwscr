@@ -170,6 +170,20 @@ test('ListManager.addItem', async (t) => {
 
     assert.deepStrictEqual(await manager.getAllChunkNames(), new Set(['2024', '2025', '2016']));
   });
+
+  await t.test("should create item from another item and keep it's changes", async () => {
+    const [existingId, existingItem] = await manager.getEntry(test2024WallpaperSuran[0]);
+
+    assert.ok(existingItem);
+
+    const newId = `${existingId}-new`;
+    existingItem.description = 'Changed Description';
+
+    await manager.addItem(existingItem, newId);
+    const newItem = await manager.getItem(newId);
+
+    assert.strictEqual(newItem?.description, 'Changed Description');
+  });
 });
 
 test('ListManager.removeItem', async (t) => {

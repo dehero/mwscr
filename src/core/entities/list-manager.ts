@@ -3,6 +3,7 @@ import type { InferOutput } from 'valibot';
 import { null as nullSchema, picklist, record, string, undefined as undefinedSchema, union } from 'valibot';
 import { arrayFromAsync, listItems } from '../utils/common-utils.js';
 import {
+  cloneObject,
   getObjectValue,
   isObject,
   isPlainObject,
@@ -453,6 +454,9 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
       this.mergePatch({ [addedId]: addedItem });
       return [addedId, refItem];
     }
+
+    // TODO: use better algorithm to add Proxy objects
+    addedItem = cloneObject(addedItem);
 
     addedItem = parseSchema(this.ItemSchema, addedItem, (message: string) => `Error adding "${id}": ${message}`);
 
