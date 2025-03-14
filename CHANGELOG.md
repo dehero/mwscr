@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.41.11](https://github.com/dehero/mwscr/compare/v1.41.10...v1.41.11) (2025-03-14)
+
+### Bug Fixes
+
+- move inbox items to trash with changes in content and trash
+  ([fe5a06a](https://github.com/dehero/mwscr/commit/fe5a06a31367e5adc5a7c0b9558e4914858e0828))
+
 ## [1.41.10](https://github.com/dehero/mwscr/compare/v1.41.9...v1.41.10) (2025-03-13)
 
 ### Continuous Integration
