@@ -483,10 +483,10 @@
     - service: vk
       id: 1753
       published: 2024-09-12-18-31-04
-      updated: 2025-03-07-10-08-54
+      updated: 2025-03-14-11-07-08
       followers: 945
       likes: 39
-      views: 325
+      views: 326
       reposts: 1
       comments: !c |-
         G68A+J0HdiwYYWY9Oo+Inq/bEX6QAwopg6BJMMJkH1lQbiuhLjSr8Rw/eOZQdVsJpnJBxFdz2i9H
@@ -495,10 +495,10 @@
     - service: tg
       id: 530
       published: 2024-09-12-18-31-10
-      updated: 2025-03-07-10-08-53
+      updated: 2025-03-14-11-07-07
       followers: 555
       likes: 62
-      views: 530
+      views: 531
       comments: !c |-
         G2sAOIzUWa03lyNU+v/dPKLet8DKxxK83ZwWphNwEgdUuf7DBpwgBJhrtOAhIqWwqvVZ9s8YlcGe
         EXpd3PAUN1zXBzk0AsIamiCst/PwT+jEWR3WvxY2quDAMGdVSCEfqHDB4R4t8qrJwoaDBg==
@@ -4397,14 +4397,14 @@
     - service: vk
       id: 1701
       published: 2024-08-22-18-19-48
-      updated: 2025-03-07-10-08-58
+      updated: 2025-03-14-11-07-11
       followers: 937
       likes: 31
-      views: 284
+      views: 285
     - service: tg
       id: 509
       published: 2024-08-22-18-19-55
-      updated: 2025-03-07-10-08-55
+      updated: 2025-03-14-11-07-11
       followers: 539
       likes: 55
       views: 594
@@ -11203,14 +11203,14 @@
     - service: vk
       id: 1773
       published: 2024-09-19-18-29-58
-      updated: 2025-03-07-10-08-53
+      updated: 2025-03-14-11-07-06
       followers: 948
       likes: 37
-      views: 313
+      views: 314
     - service: tg
       id: 538
       published: 2024-09-19-18-30-04
-      updated: 2025-03-07-10-08-52
+      updated: 2025-03-14-11-07-06
       followers: 555
       likes: 59
       views: 565
@@ -14034,22 +14034,22 @@
       id: DHG-AqUA2tH
       mediaId: '18086036761587107'
       published: 2025-03-12-18-11-50
-      updated: 2025-03-14-10-08-36
+      updated: 2025-03-14-11-07-05
       followers: 1535
       likes: 75
       views: 301
     - service: vk
       id: 2189
       published: 2025-03-12-18-11-57
-      updated: 2025-03-14-10-08-34
+      updated: 2025-03-14-11-07-05
       followers: 1180
       likes: 39
-      views: 221
+      views: 222
       reposts: 1
     - service: tg
       id: 745
       published: 2025-03-12-18-12-03
-      updated: 2025-03-14-10-08-34
+      updated: 2025-03-14-11-07-05
       followers: 695
       likes: 57
       views: 207
