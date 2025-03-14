@@ -3,10 +3,19 @@ dehero.2024-02-05-00-02-12:
   type: shot
   author: dehero
 dehero.2024-02-17-10-41-10:
+  title: Don't Go Left
+  titleRu: Не ходи налево
+  placement: Outdoors
+  location: Molag Amur Region
   content: store:/inbox/dehero.2024-02-17-10-41-10.1.png
   trash: store:/inbox/dehero.2024-02-17-10-41-10.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - night
+    - crossroads
+  mark: B1
 dehero.2024-02-17-10-55-28:
   content: store:/inbox/dehero.2024-02-17-10-53-49.1.png
   trash:
