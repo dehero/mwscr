@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHJi1Y7yw0g/)       | 2025-03-13 |   117 |    32 |      1533 |       2.09 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2190) | 2025-03-13 |   130 |    25 |      1182 |        2.2 |
-| [`tg`](https://t.me/mwscr/746)                     | 2025-03-13 |   132 |    35 |       696 |       5.03 |
-|                                                    |            |   379 |    92 |      3411 |       3.11 |
+| [`ig`](https://instagram.com/p/DHJi1Y7yw0g/)       | 2025-03-13 |   120 |    34 |      1533 |       2.22 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2190) | 2025-03-13 |   133 |    27 |      1182 |       2.37 |
+| [`tg`](https://t.me/mwscr/746)                     | 2025-03-13 |   134 |    38 |       696 |       5.46 |
+|                                                    |            |   387 |    99 |      3411 |       3.35 |
 
 ## <span id="2025-03-12-note-to-telvon">Note to Telvon</span>
 
@@ -58,9 +58,9 @@
 | [`ig`](https://instagram.com/p/BdA6mOTjrmF/)       | 2017-12-22 |       |    78 |       259 |      30.12 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_548)  | 2017-12-22 |   179 |    14 |       112 |       12.5 |
 | [`ig`](https://instagram.com/p/DHG-AqUA2tH/)       | 2025-03-12 |   286 |    72 |      1535 |       4.69 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2189) | 2025-03-12 |   208 |    36 |      1180 |       3.14 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2189) | 2025-03-12 |   210 |    36 |      1180 |       3.14 |
 | [`tg`](https://t.me/mwscr/745)                     | 2025-03-12 |   198 |    56 |       695 |       8.06 |
-|                                                    |            |   692 |   164 |      3410 |       5.29 |
+|                                                    |            |   694 |   164 |      3410 |       5.29 |
 
 ## <span id="2025-03-11-rainy-night-in-tel-aruhn">Rainy Night in Tel Aruhn</span>
 
@@ -2213,10 +2213,10 @@
 | [`ig`](https://instagram.com/p/BnMZPStF4mh/)       | 2018-09-01 |       |   122 |       407 |      29.98 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_888)  | 2018-09-01 |   390 |    32 |       219 |      14.61 |
 | [`tg`](https://t.me/mwscr/4)                       | 2018-09-01 |   264 |     4 |           |            |
-| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   647 |   110 |      1525 |       7.21 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   398 |    59 |      1051 |        5.9 |
+| [`ig`](https://instagram.com/p/DEnUpj_TlTF/)       | 2025-01-09 |   647 |   109 |      1525 |       7.15 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2036) | 2025-01-09 |   401 |    59 |      1051 |        5.9 |
 | [`tg`](https://t.me/mwscr/658)                     | 2025-01-09 |   521 |    64 |       647 |       9.89 |
-|                                                    |            |  1566 |   233 |      3223 |       7.67 |
+|                                                    |            |  1569 |   232 |      3223 |       7.65 |
 
 #### Comments
 
