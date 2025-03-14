@@ -66,26 +66,6 @@ dehero.2025-03-12-19-45-28:
     - daedric
     - ruin
   mark: B1
-dehero.2025-03-12-19-49-58:
-  title: Daedric Tanto and Dwemer Coins
-  titleRu: Даэдрический танто и двемерские монеты
-  placement: Indoors
-  location: Ald Sotha, Lower Level
-  content: store:/inbox/dehero.2025-03-12-19-49-58.1.png
-  trash:
-    - store:/inbox/dehero.2025-03-12-19-48-54.png
-    - store:/inbox/dehero.2025-03-12-19-49-29.png
-    - store:/inbox/dehero.2025-03-12-19-49-58.png
-  type: shot
-  author: dehero
-  engine: OpenMW
-  tags:
-    - daedric
-    - skull
-    - gold
-    - weapon
-    - candle
-  mark: A2
 dehero.2025-03-12-19-52-34:
   title: First Stars Above Assurnabitashpi
   titleRu: Первые звёзды над Ассурнабиташпи

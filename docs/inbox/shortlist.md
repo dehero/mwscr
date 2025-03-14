@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`8 items`
+`7 items`
 
 ## <span id="dehero.2025-03-12-20-08-15">Wardens</span>
 
@@ -65,28 +65,6 @@ dehero.2025-03-12-20-04-43
 
 ```
 dehero.2025-03-12-19-52-34
-```
-
-## <span id="dehero.2025-03-12-19-49-58">Daedric Tanto and Dwemer Coins</span>
-
-`RU` Даэдрический танто и двемерские монеты
-
-![store:/inbox/dehero.2025-03-12-19-49-58.1.png](../../assets/previews/inbox/dehero.2025-03-12-19-49-58.1.avif "dehero.2025-03-12-19-49-58.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2025-03-12-19-48-54.png](../../assets/previews/inbox/dehero.2025-03-12-19-48-54.avif "dehero.2025-03-12-19-48-54")
-![store:/inbox/dehero.2025-03-12-19-49-29.png](../../assets/previews/inbox/dehero.2025-03-12-19-49-29.avif "dehero.2025-03-12-19-49-29")
-![store:/inbox/dehero.2025-03-12-19-49-58.png](../../assets/previews/inbox/dehero.2025-03-12-19-49-58.avif "dehero.2025-03-12-19-49-58")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-03-12-19-49-58&amp;postContent=store%3A%2Finbox%2Fdehero.2025-03-12-19-49-58.1.png&amp;postTitle=Daedric+Tanto+and+Dwemer+Coins&amp;postTitleRu=%D0%94%D0%B0%D1%8D%D0%B4%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D1%82%D0%B0%D0%BD%D1%82%D0%BE+%D0%B8+%D0%B4%D0%B2%D0%B5%D0%BC%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B5+%D0%BC%D0%BE%D0%BD%D0%B5%D1%82%D1%8B&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=daedric+skull+gold+weapon+candle&amp;postLocation=Ald+Sotha%2C+Lower+Level&amp;postMark=A2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-03-12-19-48-54.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-49-29.png%0Astore%3A%2Finbox%2Fdehero.2025-03-12-19-49-58.png&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-03-12-19-49-58&amp;mergeWithIds=) `A2` `📍 Ald Sotha, Lower Level` `🚀 OpenMW` `daedric` `skull` `gold` `weapon` `candle`
-
-```
-dehero.2025-03-12-19-49-58
 ```
 
 ## <span id="dehero.2025-03-12-19-45-28">Coming to Ald Sotha</span>
