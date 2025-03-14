@@ -1540,17 +1540,17 @@
     - service: vk
       id: 1818
       published: 2024-10-10-18-10-22
-      updated: 2025-03-07-08-11-25
+      updated: 2025-03-14-08-27-03
       followers: 960
       likes: 36
-      views: 332
+      views: 333
     - service: tg
       id: 560
       published: 2024-10-10-18-10-28
-      updated: 2025-03-07-08-11-24
+      updated: 2025-03-14-08-27-03
       followers: 559
       likes: 62
-      views: 489
+      views: 490
 2017-02-08-moonmoth-legion-fort:
   title: Moonmoth Legion Fort
   titleRu: Форт Легиона Лунной Бабочки
@@ -12232,10 +12232,10 @@
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2025-03-07-08-11-26
+      updated: 2025-03-14-08-27-04
       followers: 958
       likes: 47
-      views: 352
+      views: 353
       reposts: 2
       comments: !c |-
         G5waALwUd6yMGpSFaiQroXyz8M0Va7TB0dnw1Hb8P7EGPyTSyW82fdldPH+jFLpKt06DRqgQOtP1
@@ -12280,7 +12280,7 @@
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2025-03-07-08-11-25
+      updated: 2025-03-14-08-27-03
       followers: 560
       likes: 65
       views: 565
@@ -14034,14 +14034,14 @@
       id: DHG-AqUA2tH
       mediaId: '18086036761587107'
       published: 2025-03-12-18-11-50
-      updated: 2025-03-14-08-11-02
+      updated: 2025-03-14-08-27-01
       followers: 1535
       likes: 75
       views: 298
     - service: vk
       id: 2189
       published: 2025-03-12-18-11-57
-      updated: 2025-03-14-08-11-03
+      updated: 2025-03-14-08-27-02
       followers: 1180
       likes: 39
       views: 218
@@ -14049,7 +14049,7 @@
     - service: tg
       id: 745
       published: 2025-03-12-18-12-03
-      updated: 2025-03-14-08-11-03
+      updated: 2025-03-14-08-27-01
       followers: 695
       likes: 57
       views: 205
