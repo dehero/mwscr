@@ -519,4 +519,11 @@
     - service: vk
       id: 2191
       published: 2025-03-14-18-11-24
+      updated: 2025-03-14-18-45-05
       followers: 1182
+      likes: 6
+      views: 36
+    - service: tg
+      id: 747
+      published: 2025-03-14-18-45-12
+      followers: 700
