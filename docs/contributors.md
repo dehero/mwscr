@@ -9,7 +9,7 @@
 Roles: `admin` `author` `requester`  
 Authored: 982 posted, 23 pending, 70 rejected  
 Requested: 6 pending  
-Likes: 120609  
+Likes: 120619  
 
 ```
 dehero
@@ -19,7 +19,7 @@ dehero
 
 Roles: `author`  
 Authored: 36 posted, 4 pending, 29 rejected  
-Likes: 7193  
+Likes: 7189  
 
 ```
 natty
@@ -29,7 +29,7 @@ natty
 
 Roles: `author`  
 Authored: 10 posted, 13 rejected  
-Likes: 2679  
+Likes: 2678  
 
 ```
 darkness-rifho
@@ -59,7 +59,7 @@ irina-bystritskaya
 
 Roles: `author`  
 Authored: 1 posted, 1 rejected  
-Likes: 211  
+Likes: 210  
 
 ```
 3akrom
