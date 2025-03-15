@@ -6833,18 +6833,20 @@
       id: DG8qZooRvvl
       mediaId: '18360241276135722'
       published: 2025-03-08-18-08-07
-      updated: 2025-03-14-20-08-47
+      updated: 2025-03-15-21-01-53
       followers: 1536
-      likes: 98
-      views: 352
-      comments: !c ixKAkZPLQnlXb89GAACoYmVyc2thdGWxTXkgbG92ZWx5IENhbGRlcmED
+      likes: 102
+      views: 362
+      comments: !c |-
+        iyqAkpPLQnlZjpgngACrZGFkZHlkYWdvdGi5Q3JlZXBlciBob3VzZSAjaW1jcmVlcGluZ5PLQnlX
+        b89GAACoYmVyc2thdGWxTXkgbG92ZWx5IENhbGRlcmED
     - service: vk
       id: 2179
       published: 2025-03-08-18-08-14
-      updated: 2025-03-14-20-08-47
+      updated: 2025-03-15-21-01-54
       followers: 1174
-      likes: 57
-      views: 393
+      likes: 58
+      views: 401
       reposts: 2
       comments: !c |-
         GyQCgCwOzHOhH0xZpyxzJwPxxj/vH+wTvmXJR8/D5oEXUJK0lnhyrieQtbmWZWgKSojYT78j9bvz
@@ -6856,10 +6858,10 @@
     - service: tg
       id: 738
       published: 2025-03-08-18-08-20
-      updated: 2025-03-14-20-08-45
+      updated: 2025-03-15-21-01-53
       followers: 691
-      likes: 64
-      views: 325
+      likes: 65
+      views: 343
 2018-06-27-arch-with-a-canopy:
   title: Arch with a Canopy
   titleRu: Арка с навесом
