@@ -4,7 +4,36 @@
 
 # Posted in 2025
 
-`73 items`
+`74 items`
+
+## <span id="2025-03-15-repairing-centurion-palm">Repairing Centurion Palm</span>
+
+`RU` Ремонт руки центуриона
+
+<a href="https://instagram.com/p/DHOsN5lvVJP/" title="2025-03-15-repairing-centurion-palm"><img alt="store:/shots/2025-03-15-repairing-centurion-palm.png" src="../../assets/previews/shots/2025-03-15-repairing-centurion-palm.avif" /></a>
+
+<details>
+<summary>Trash</summary>
+
+![store:/trash/dehero.2025-01-19-18-55-57.png](../../assets/previews/trash/dehero.2025-01-19-18-55-57.avif "dehero.2025-01-19-18-55-57")
+</details>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-15-repairing-centurion-palm&amp;postContent=store%3A%2Fshots%2F2025-03-15-repairing-centurion-palm.png&amp;postTitle=Repairing+Centurion+Palm&amp;postTitleRu=%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D1%80%D1%83%D0%BA%D0%B8+%D1%86%D0%B5%D0%BD%D1%82%D1%83%D1%80%D0%B8%D0%BE%D0%BD%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Tribunal&amp;postTags=&amp;postLocation=Bamz-Amschend%2C+Radac%27s+Forge&amp;postMark=B2&amp;postViolation=&amp;postTrash=store%3A%2Ftrash%2Fdehero.2025-01-19-18-55-57.png&amp;postRequest=) `B2` `📍 Bamz-Amschend, Radac's Forge` `🚀 OpenMW` `🔗 Tribunal`
+
+```
+2025-03-15-repairing-centurion-palm
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DHOsN5lvVJP/)       | 2025-03-15 |      1531 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2195) | 2025-03-15 |      1187 |
+| [`tg`](https://t.me/mwscr/748)                     | 2025-03-15 |       705 |
+|                                                    |            |      3423 |
 
 ## <span id="2025-03-14-daedric-tanto-and-dwemer-coins">Daedric Tanto and Dwemer Coins</span>
 
@@ -31,10 +60,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHMHiUehLEa/)       | 2025-03-14 |   333 |    90 |      1533 |       5.87 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2191) | 2025-03-14 |   206 |    28 |      1182 |       2.45 |
-| [`tg`](https://t.me/mwscr/747)                     | 2025-03-14 |   182 |    56 |       700 |          8 |
-|                                                    |            |   721 |   174 |      3415 |       5.44 |
+| [`ig`](https://instagram.com/p/DHMHiUehLEa/)       | 2025-03-14 |   341 |    92 |      1533 |          6 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2191) | 2025-03-14 |   212 |    28 |      1182 |       2.45 |
+| [`tg`](https://t.me/mwscr/747)                     | 2025-03-14 |   185 |    56 |       700 |          8 |
+|                                                    |            |   738 |   176 |      3415 |       5.48 |
 
 #### Comments
 
@@ -65,10 +94,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHJi1Y7yw0g/)       | 2025-03-13 |   254 |    53 |      1533 |       3.46 |
+| [`ig`](https://instagram.com/p/DHJi1Y7yw0g/)       | 2025-03-13 |   255 |    53 |      1533 |       3.46 |
 | [`vk`](https://vk.com/mwscr?w=wall-138249959_2190) | 2025-03-13 |   252 |    45 |      1182 |       3.89 |
-| [`tg`](https://t.me/mwscr/746)                     | 2025-03-13 |   233 |    54 |       696 |       7.76 |
-|                                                    |            |   739 |   152 |      3411 |       5.04 |
+| [`tg`](https://t.me/mwscr/746)                     | 2025-03-13 |   235 |    54 |       696 |       7.76 |
+|                                                    |            |   742 |   152 |      3411 |       5.04 |
 
 ## <span id="2025-03-12-note-to-telvon">Note to Telvon</span>
 

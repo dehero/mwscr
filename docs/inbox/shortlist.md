@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`7 items`
+`6 items`
 
 ## <span id="dehero.2025-03-12-20-08-15">Wardens</span>
 
@@ -86,27 +86,6 @@ dehero.2025-03-12-19-52-34
 
 ```
 dehero.2025-03-12-19-45-28
-```
-
-## <span id="dehero.2025-01-19-18-57-18">Repairing Centurion Palm</span>
-
-`RU` Ремонт руки центуриона
-
-![store:/inbox/dehero.2025-01-19-18-57-18.1.png](../../assets/previews/inbox/dehero.2025-01-19-18-57-18.1.avif "dehero.2025-01-19-18-57-18.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2025-01-19-18-55-57.png](../../assets/previews/inbox/dehero.2025-01-19-18-55-57.avif "dehero.2025-01-19-18-55-57")
-![store:/inbox/dehero.2025-01-19-18-57-18.png](../../assets/previews/inbox/dehero.2025-01-19-18-57-18.avif "dehero.2025-01-19-18-57-18")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-01-19-18-57-18&amp;postContent=store%3A%2Finbox%2Fdehero.2025-01-19-18-57-18.1.png&amp;postTitle=Repairing+Centurion+Palm&amp;postTitleRu=%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D1%80%D1%83%D0%BA%D0%B8+%D1%86%D0%B5%D0%BD%D1%82%D1%83%D1%80%D0%B8%D0%BE%D0%BD%D0%B0&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Tribunal&amp;postTags=&amp;postLocation=Bamz-Amschend%2C+Radac%27s+Forge&amp;postMark=B2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-01-19-18-55-57.png%0Astore%3A%2Finbox%2Fdehero.2025-01-19-18-57-18.png&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-01-19-18-57-18&amp;mergeWithIds=) `B2` `📍 Bamz-Amschend, Radac's Forge` `🚀 OpenMW` `🔗 Tribunal`
-
-```
-dehero.2025-01-19-18-57-18
 ```
 
 ## <span id="dehero.2024-12-31-16-39-41">Passage to the North</span>

@@ -469,14 +469,14 @@
       id: DHJi1Y7yw0g
       mediaId: '18265351090285238'
       published: 2025-03-13-18-12-07
-      updated: 2025-03-15-17-01-58
+      updated: 2025-03-15-18-09-55
       followers: 1533
       likes: 53
-      views: 254
+      views: 255
     - service: vk
       id: 2190
       published: 2025-03-13-18-12-13
-      updated: 2025-03-15-17-01-59
+      updated: 2025-03-15-18-09-55
       followers: 1182
       likes: 45
       views: 252
@@ -484,10 +484,10 @@
     - service: tg
       id: 746
       published: 2025-03-13-18-12-20
-      updated: 2025-03-15-17-01-59
+      updated: 2025-03-15-18-09-55
       followers: 696
       likes: 54
-      views: 233
+      views: 235
 2025-03-14-daedric-tanto-and-dwemer-coins:
   title: Daedric Tanto and Dwemer Coins
   titleRu: Даэдрический танто и двемерские монеты
@@ -512,17 +512,17 @@
       id: DHMHiUehLEa
       mediaId: '17888817927209771'
       published: 2025-03-14-18-11-18
-      updated: 2025-03-15-17-01-58
+      updated: 2025-03-15-18-09-54
       followers: 1533
-      likes: 90
-      views: 333
+      likes: 92
+      views: 341
     - service: vk
       id: 2191
       published: 2025-03-14-18-11-24
-      updated: 2025-03-15-17-01-58
+      updated: 2025-03-15-18-09-54
       followers: 1182
       likes: 28
-      views: 206
+      views: 212
       reposts: 1
       comments: !c |-
         G38A8J0Hdiw3olR9eCOK6EZ6rm+BB1aCRZbMggZSh9dmMJrgmPoj9ezb72lR0a9ue0xyjlxTNQqf
@@ -531,7 +531,33 @@
     - service: tg
       id: 747
       published: 2025-03-14-18-45-12
-      updated: 2025-03-15-17-01-59
+      updated: 2025-03-15-18-09-54
       followers: 700
       likes: 56
-      views: 182
+      views: 185
+2025-03-15-repairing-centurion-palm:
+  title: Repairing Centurion Palm
+  titleRu: Ремонт руки центуриона
+  placement: Indoors
+  location: Bamz-Amschend, Radac's Forge
+  content: store:/shots/2025-03-15-repairing-centurion-palm.png
+  trash: store:/trash/dehero.2025-01-19-18-55-57.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  addon: Tribunal
+  mark: B2
+  posts:
+    - service: ig
+      id: DHOsN5lvVJP
+      mediaId: '17881028616255970'
+      published: 2025-03-15-18-10-17
+      followers: 1531
+    - service: vk
+      id: 2195
+      published: 2025-03-15-18-10-23
+      followers: 1187
+    - service: tg
+      id: 748
+      published: 2025-03-15-18-10-30
+      followers: 705
