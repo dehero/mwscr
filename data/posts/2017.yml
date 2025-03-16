@@ -2412,18 +2412,18 @@
     - service: vk
       id: 1979
       published: 2024-12-21-18-09-23
-      updated: 2025-03-09-00-33-39
+      updated: 2025-03-16-00-41-22
       followers: 1026
       likes: 45
-      views: 333
+      views: 336
       reposts: 3
     - service: tg
       id: 632
       published: 2024-12-21-18-09-32
-      updated: 2025-03-09-00-33-36
+      updated: 2025-03-16-00-41-19
       followers: 584
       likes: 64
-      views: 679
+      views: 681
       comments: !c iwyAkZPLQnk+pqKHAACnZG1lcGlraKbQktCw0YMD
 2017-02-28-army-of-stone:
   title: Army of Stone
@@ -13339,17 +13339,17 @@
     - service: vk
       id: 1574
       published: 2024-06-07-18-20-42
-      updated: 2025-03-09-00-33-40
+      updated: 2025-03-16-00-41-22
       followers: 916
       likes: 40
-      views: 319
+      views: 320
     - service: tg
       id: 432
       published: 2024-06-07-18-20-49
-      updated: 2025-03-09-00-33-37
+      updated: 2025-03-16-00-41-20
       followers: 384
       likes: 58
-      views: 492
+      views: 493
 2017-12-05-in-the-boat-by-the-pier:
   title: In the Boat by the Pier
   titleRu: В лодке у причала
