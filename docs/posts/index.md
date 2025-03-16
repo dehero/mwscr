@@ -30,10 +30,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHOsN5lvVJP/)       | 2025-03-15 |   136 |    46 |      1531 |          3 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2195) | 2025-03-15 |   126 |    25 |      1187 |       2.11 |
-| [`tg`](https://t.me/mwscr/748)                     | 2025-03-15 |   134 |    35 |       705 |       4.96 |
-|                                                    |            |   396 |   106 |      3423 |       3.36 |
+| [`ig`](https://instagram.com/p/DHOsN5lvVJP/)       | 2025-03-15 |   139 |    46 |      1531 |          3 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2195) | 2025-03-15 |   136 |    29 |      1187 |       2.44 |
+| [`tg`](https://t.me/mwscr/748)                     | 2025-03-15 |   136 |    37 |       705 |       5.25 |
+|                                                    |            |   411 |   112 |      3423 |       3.57 |
 
 ## <span id="2025-03-14-daedric-tanto-and-dwemer-coins">Daedric Tanto and Dwemer Coins</span>
 
@@ -60,10 +60,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHMHiUehLEa/)       | 2025-03-14 |   376 |   102 |      1533 |       6.65 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2191) | 2025-03-14 |   237 |    30 |      1182 |       2.62 |
+| [`ig`](https://instagram.com/p/DHMHiUehLEa/)       | 2025-03-14 |   378 |   102 |      1533 |       6.65 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2191) | 2025-03-14 |   239 |    31 |      1182 |       2.71 |
 | [`tg`](https://t.me/mwscr/747)                     | 2025-03-14 |   225 |    60 |       700 |       8.57 |
-|                                                    |            |   838 |   192 |      3415 |       5.95 |
+|                                                    |            |   842 |   193 |      3415 |       5.98 |
 
 #### Comments
 
