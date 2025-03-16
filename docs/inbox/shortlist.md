@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`6 items`
+`5 items`
 
 ## <span id="dehero.2025-03-12-20-08-15">Wardens</span>
 
@@ -86,26 +86,6 @@ dehero.2025-03-12-19-52-34
 
 ```
 dehero.2025-03-12-19-45-28
-```
-
-## <span id="dehero.2024-12-31-16-39-41">Passage to the North</span>
-
-`RU` Проход на север
-
-![store:/inbox/dehero.2024-12-31-16-39-41.1.png](../../assets/previews/inbox/dehero.2024-12-31-16-39-41.1.avif "dehero.2024-12-31-16-39-41.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2024-12-31-16-39-41.png](../../assets/previews/inbox/dehero.2024-12-31-16-39-41.avif "dehero.2024-12-31-16-39-41")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2024-12-31-16-39-41&amp;postContent=store%3A%2Finbox%2Fdehero.2024-12-31-16-39-41.1.png&amp;postTitle=Passage+to+the+North&amp;postTitleRu=%D0%9F%D1%80%D0%BE%D1%85%D0%BE%D0%B4+%D0%BD%D0%B0+%D1%81%D0%B5%D0%B2%D0%B5%D1%80&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Bloodmoon&amp;postTags=arch+firtree+star+night&amp;postLocation=Fort+Frostmoth&amp;postMark=B1&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2024-12-31-16-39-41.png&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2024-12-31-16-39-41&amp;mergeWithIds=) `B1` `📍 Fort Frostmoth` `🚀 OpenMW` `🔗 Bloodmoon` `arch` `firtree` `star` `night`
-
-```
-dehero.2024-12-31-16-39-41
 ```
 
 ## <span id="dehero.2024-02-17-10-41-10">Don&#39;t Go Left</span>

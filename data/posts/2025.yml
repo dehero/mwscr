@@ -512,17 +512,17 @@
       id: DHMHiUehLEa
       mediaId: '17888817927209771'
       published: 2025-03-14-18-11-18
-      updated: 2025-03-16-17-02-15
+      updated: 2025-03-16-18-09-47
       followers: 1533
-      likes: 108
-      views: 408
+      likes: 109
+      views: 410
     - service: vk
       id: 2191
       published: 2025-03-14-18-11-24
-      updated: 2025-03-16-17-02-14
+      updated: 2025-03-16-18-09-48
       followers: 1182
       likes: 36
-      views: 279
+      views: 280
       reposts: 1
       comments: !c |-
         G38A8J0Hdiw3olR9eCOK6EZ6rm+BB1aCRZbMggZSh9dmMJrgmPoj9ezb72lR0a9ue0xyjlxTNQqf
@@ -531,7 +531,7 @@
     - service: tg
       id: 747
       published: 2025-03-14-18-45-12
-      updated: 2025-03-16-17-02-14
+      updated: 2025-03-16-18-09-47
       followers: 700
       likes: 62
       views: 237
@@ -552,21 +552,51 @@
       id: DHOsN5lvVJP
       mediaId: '17881028616255970'
       published: 2025-03-15-18-10-17
-      updated: 2025-03-16-17-02-14
+      updated: 2025-03-16-18-09-46
       followers: 1531
-      likes: 55
-      views: 230
+      likes: 56
+      views: 260
     - service: vk
       id: 2195
       published: 2025-03-15-18-10-23
-      updated: 2025-03-16-17-02-13
+      updated: 2025-03-16-18-09-47
       followers: 1187
-      likes: 43
-      views: 209
+      likes: 44
+      views: 212
     - service: tg
       id: 748
       published: 2025-03-15-18-10-30
-      updated: 2025-03-16-17-02-13
+      updated: 2025-03-16-18-09-47
       followers: 705
-      likes: 40
-      views: 166
+      likes: 41
+      views: 167
+2025-03-16-passage-to-the-north:
+  title: Passage to the North
+  titleRu: Проход на север
+  placement: Outdoors
+  location: Fort Frostmoth
+  content: store:/shots/2025-03-16-passage-to-the-north.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  addon: Bloodmoon
+  tags:
+    - arch
+    - firtree
+    - star
+    - night
+  mark: B1
+  posts:
+    - service: ig
+      id: DHRQ_vXzkDp
+      mediaId: '18060356425957792'
+      published: 2025-03-16-18-10-10
+      followers: 1534
+    - service: vk
+      id: 2196
+      published: 2025-03-16-18-10-17
+      followers: 1187
+    - service: tg
+      id: 749
+      published: 2025-03-16-18-10-24
+      followers: 705

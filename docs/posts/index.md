@@ -4,7 +4,30 @@
 
 # Posted in 2025
 
-`74 items`
+`75 items`
+
+## <span id="2025-03-16-passage-to-the-north">Passage to the North</span>
+
+`RU` Проход на север
+
+<a href="https://instagram.com/p/DHRQ_vXzkDp/" title="2025-03-16-passage-to-the-north"><img alt="store:/shots/2025-03-16-passage-to-the-north.png" src="../../assets/previews/shots/2025-03-16-passage-to-the-north.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-16-passage-to-the-north&amp;postContent=store%3A%2Fshots%2F2025-03-16-passage-to-the-north.png&amp;postTitle=Passage+to+the+North&amp;postTitleRu=%D0%9F%D1%80%D0%BE%D1%85%D0%BE%D0%B4+%D0%BD%D0%B0+%D1%81%D0%B5%D0%B2%D0%B5%D1%80&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=Bloodmoon&amp;postTags=arch+firtree+star+night&amp;postLocation=Fort+Frostmoth&amp;postMark=B1&amp;postViolation=&amp;postTrash=&amp;postRequest=) `B1` `📍 Fort Frostmoth` `🚀 OpenMW` `🔗 Bloodmoon` `arch` `firtree` `star` `night`
+
+```
+2025-03-16-passage-to-the-north
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DHRQ_vXzkDp/)       | 2025-03-16 |      1534 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2196) | 2025-03-16 |      1187 |
+| [`tg`](https://t.me/mwscr/749)                     | 2025-03-16 |       705 |
+|                                                    |            |      3426 |
 
 ## <span id="2025-03-15-repairing-centurion-palm">Repairing Centurion Palm</span>
 
@@ -30,10 +53,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHOsN5lvVJP/)       | 2025-03-15 |   230 |    55 |      1531 |       3.59 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2195) | 2025-03-15 |   209 |    43 |      1187 |       3.62 |
-| [`tg`](https://t.me/mwscr/748)                     | 2025-03-15 |   166 |    40 |       705 |       5.67 |
-|                                                    |            |   605 |   138 |      3423 |        4.3 |
+| [`ig`](https://instagram.com/p/DHOsN5lvVJP/)       | 2025-03-15 |   260 |    56 |      1531 |       3.66 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2195) | 2025-03-15 |   212 |    44 |      1187 |       3.71 |
+| [`tg`](https://t.me/mwscr/748)                     | 2025-03-15 |   167 |    41 |       705 |       5.82 |
+|                                                    |            |   639 |   141 |      3423 |       4.39 |
 
 ## <span id="2025-03-14-daedric-tanto-and-dwemer-coins">Daedric Tanto and Dwemer Coins</span>
 
@@ -60,10 +83,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHMHiUehLEa/)       | 2025-03-14 |   408 |   108 |      1533 |       7.05 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2191) | 2025-03-14 |   279 |    36 |      1182 |       3.13 |
+| [`ig`](https://instagram.com/p/DHMHiUehLEa/)       | 2025-03-14 |   410 |   109 |      1533 |       7.11 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2191) | 2025-03-14 |   280 |    36 |      1182 |       3.13 |
 | [`tg`](https://t.me/mwscr/747)                     | 2025-03-14 |   237 |    62 |       700 |       8.86 |
-|                                                    |            |   924 |   206 |      3415 |       6.34 |
+|                                                    |            |   927 |   207 |      3415 |       6.37 |
 
 #### Comments
 
