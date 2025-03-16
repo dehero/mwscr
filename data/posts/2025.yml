@@ -469,25 +469,25 @@
       id: DHJi1Y7yw0g
       mediaId: '18265351090285238'
       published: 2025-03-13-18-12-07
-      updated: 2025-03-15-18-09-55
+      updated: 2025-03-16-19-02-11
       followers: 1533
-      likes: 53
-      views: 255
+      likes: 54
+      views: 264
     - service: vk
       id: 2190
       published: 2025-03-13-18-12-13
-      updated: 2025-03-15-18-09-55
+      updated: 2025-03-16-19-02-12
       followers: 1182
-      likes: 45
-      views: 252
+      likes: 51
+      views: 285
       reposts: 1
     - service: tg
       id: 746
       published: 2025-03-13-18-12-20
-      updated: 2025-03-15-18-09-55
+      updated: 2025-03-16-19-02-11
       followers: 696
-      likes: 54
-      views: 235
+      likes: 58
+      views: 265
 2025-03-14-daedric-tanto-and-dwemer-coins:
   title: Daedric Tanto and Dwemer Coins
   titleRu: Даэдрический танто и двемерские монеты
@@ -552,24 +552,24 @@
       id: DHOsN5lvVJP
       mediaId: '17881028616255970'
       published: 2025-03-15-18-10-17
-      updated: 2025-03-16-18-09-46
+      updated: 2025-03-16-19-02-10
       followers: 1531
-      likes: 56
-      views: 260
+      likes: 58
+      views: 277
     - service: vk
       id: 2195
       published: 2025-03-15-18-10-23
-      updated: 2025-03-16-18-09-47
+      updated: 2025-03-16-19-02-11
       followers: 1187
       likes: 44
-      views: 212
+      views: 215
     - service: tg
       id: 748
       published: 2025-03-15-18-10-30
-      updated: 2025-03-16-18-09-47
+      updated: 2025-03-16-19-02-11
       followers: 705
-      likes: 41
-      views: 167
+      likes: 43
+      views: 181
 2025-03-16-passage-to-the-north:
   title: Passage to the North
   titleRu: Проход на север
@@ -591,12 +591,22 @@
       id: DHRQ_vXzkDp
       mediaId: '18060356425957792'
       published: 2025-03-16-18-10-10
+      updated: 2025-03-16-19-02-10
       followers: 1534
+      likes: 22
+      views: 51
     - service: vk
       id: 2196
       published: 2025-03-16-18-10-17
+      updated: 2025-03-16-19-02-10
       followers: 1187
+      likes: 18
+      views: 57
+      reposts: 2
     - service: tg
       id: 749
       published: 2025-03-16-18-10-24
+      updated: 2025-03-16-19-02-10
       followers: 705
+      likes: 23
+      views: 98
