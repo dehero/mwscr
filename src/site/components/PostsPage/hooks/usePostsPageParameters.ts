@@ -127,7 +127,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
   const setOriginal = (original: boolean | undefined) => setSearchParams({ original });
   const setPublishable = (publishable: boolean | undefined) => setSearchParams({ publishable });
   const setType = (type: PostType | undefined) => setSearchParams({ type });
-  const setTag = (tag: string | undefined) => setSearchParams({ tag });
+  const setTag = (tag: string | undefined) => setSearchParams({ tag, original: Boolean(tag) || undefined });
   const setLocation = (location: string | undefined) =>
     setSearchParams({ location, original: Boolean(location) || undefined });
   const setAuthor = (author: string | undefined) => setSearchParams({ author });
