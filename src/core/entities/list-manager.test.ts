@@ -103,6 +103,16 @@ test('ListManagerChunkProxy', async (t) => {
 
     assert.deepStrictEqual(manager.patch, { [refId]: { title: 'New Title' } });
   });
+
+  await t.test('should list added item property', async () => {
+    const item = await manager.getItem(changedId);
+    assert.ok(item);
+    assert.ok(!item.description);
+
+    item.description = 'Changed Description';
+
+    assert.strictEqual(Object.keys(item).includes('description'), true);
+  });
 });
 
 test('ListManager.addItem', async (t) => {

@@ -1,5 +1,6 @@
 import slugify from '@sindresorhus/slugify';
 import md5Hex from 'md5-hex';
+import { jsonDateReviver } from './date-utils.js';
 
 export function asArray<T>(value: T | T[] | undefined | null): T[] {
   return Array.isArray(value) ? value : typeof value !== 'undefined' && value != null ? [value] : [];
@@ -161,4 +162,9 @@ export function unknownToString(value?: unknown): string | undefined {
 
 export function getRevisionHash(data: Uint8Array | string) {
   return md5Hex(data).slice(0, 8);
+}
+
+export function cloneValueWithoutProxy(value: unknown) {
+  // TODO: make faster implementation than JSON stringify/parse
+  return typeof value === 'undefined' ? undefined : JSON.parse(JSON.stringify(value), jsonDateReviver);
 }

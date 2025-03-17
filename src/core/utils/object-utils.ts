@@ -1,5 +1,3 @@
-import { jsonDateReviver } from './date-utils.js';
-
 export const isProxy = Symbol('isProxy');
 
 export function isObject(value: unknown): value is Record<string, unknown> {
@@ -60,8 +58,4 @@ export function setObjectValue<TObjectType extends object>(object: TObjectType, 
       result[key] = value as TObjectType[typeof key];
     }
   }
-}
-
-export function cloneObject(object: object) {
-  return JSON.parse(JSON.stringify(object), jsonDateReviver);
 }

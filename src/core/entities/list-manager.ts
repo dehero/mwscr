@@ -1,9 +1,8 @@
 import { DeepProxy } from 'proxy-deep';
 import type { InferOutput } from 'valibot';
 import { null as nullSchema, picklist, record, string, undefined as undefinedSchema, union } from 'valibot';
-import { arrayFromAsync, listItems } from '../utils/common-utils.js';
+import { arrayFromAsync, cloneValueWithoutProxy, listItems } from '../utils/common-utils.js';
 import {
-  cloneObject,
   getObjectValue,
   isObject,
   isPlainObject,
@@ -75,7 +74,7 @@ export abstract class ListReader<TItem> {
 
     for (const chunkName of chunkNames) {
       const chunk = await this.loadChunk(chunkName);
-      count += Object.getOwnPropertyNames(chunk).length;
+      count += Object.keys(chunk).length;
     }
 
     return count;
@@ -256,7 +255,7 @@ export abstract class ListReader<TItem> {
   ): AsyncGenerator<ListReaderEntry<TItem>> {
     const chunk = await this.loadChunk(chunkName);
 
-    for (const key of Object.getOwnPropertyNames(chunk)) {
+    for (const key of Object.keys(chunk)) {
       const value = chunk[key] as TItem | string;
       if (typeof value === 'string') {
         if (!skipReferences) {
@@ -372,6 +371,36 @@ export class ListManagerChunkProxy<TItem extends object> extends DeepProxy<ListR
 
         return result;
       },
+      has(target, key) {
+        const has = Reflect.has(target, key);
+        if (manager.skipProxy) {
+          return has;
+        }
+
+        const patchValue = getObjectValue(manager.getChunkPatch(chunkName), [...this.path, key.toString()]);
+        if (typeof patchValue !== 'undefined' && patchValue !== null) {
+          return true;
+        }
+
+        return has;
+      },
+      // https://stackoverflow.com/questions/40352613/why-does-object-keys-and-object-getownpropertynames-produce-different-output
+      // https://stackoverflow.com/questions/75148897/get-on-proxy-property-items-is-a-read-only-and-non-configurable-data-proper
+      getOwnPropertyDescriptor(target, key) {
+        const descriptor = Reflect.getOwnPropertyDescriptor(target, key);
+        if (manager.skipProxy) {
+          return descriptor;
+        }
+
+        const patchValue = getObjectValue(manager.getChunkPatch(chunkName), [...this.path, key.toString()]);
+        const hasProperty = typeof patchValue !== 'undefined' && patchValue !== null;
+
+        return {
+          ...descriptor,
+          configurable: descriptor?.configurable ?? hasProperty,
+          enumerable: descriptor?.enumerable ?? hasProperty,
+        };
+      },
     });
   }
 }
@@ -397,7 +426,7 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     if (!this.patch) {
       return [];
     }
-    const ids = Object.getOwnPropertyNames(this.patch).filter((id) => this.patch?.[id] === null);
+    const ids = Object.keys(this.patch).filter((id) => this.patch?.[id] === null);
     this.skipProxy = true;
     const result = await this.getEntries(ids);
     this.skipProxy = false;
@@ -454,9 +483,6 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
       this.mergePatch({ [addedId]: addedItem });
       return [addedId, refItem];
     }
-
-    // TODO: use better algorithm to add Proxy objects
-    addedItem = cloneObject(addedItem);
 
     addedItem = parseSchema(this.ItemSchema, addedItem, (message: string) => `Error adding "${id}": ${message}`);
 
@@ -542,10 +568,7 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     const data = await this.loadChunk(chunkName);
     const savedChunkNames = await this.getSavedChunkNames();
 
-    // Don't use Object.keys, need to properly implement getOwnPropertyDescriptor for it:
-    // https://stackoverflow.com/questions/40352613/why-does-object-keys-and-object-getownpropertynames-produce-different-output
-    // https://stackoverflow.com/questions/75148897/get-on-proxy-property-items-is-a-read-only-and-non-configurable-data-proper
-    if (Object.getOwnPropertyNames(data).length === 0) {
+    if (Object.keys(data).length === 0) {
       savedChunkNames.delete(chunkName);
       return this.removeChunkData(chunkName);
     }
@@ -574,7 +597,7 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     if (!this.patch) {
       return 0;
     }
-    return Object.getOwnPropertyNames(this.patch).length;
+    return Object.keys(this.patch).length;
   }
 
   /**
@@ -587,15 +610,18 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
   mergePatch(patch: ListManagerPatch<TItem>) {
     for (const [id, itemPatch] of Object.entries(patch)) {
       const item = this.patch?.[id];
-      if (item && isObject(item) && isObject(itemPatch)) {
-        mergeObjects(item, itemPatch);
-      } else if (typeof itemPatch === 'undefined') {
+      // Ensure the value does not include Proxy objects
+      const clonedItemPatch = cloneValueWithoutProxy(itemPatch);
+
+      if (item && isObject(item) && isObject(clonedItemPatch)) {
+        mergeObjects(item, clonedItemPatch);
+      } else if (typeof clonedItemPatch === 'undefined') {
         delete this.patch?.[id];
       } else {
         if (!this.patch) {
           this.patch = {};
         }
-        this.patch[id] = itemPatch;
+        this.patch[id] = clonedItemPatch;
       }
     }
 
