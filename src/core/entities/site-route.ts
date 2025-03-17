@@ -37,6 +37,7 @@ export interface SiteRouteInfo<TParams extends SiteRouteParams, TData, TMeta ext
   meta: () => TMeta;
   data: () => TData;
   params: () => TParams;
+  loading: () => boolean;
 }
 
 export function parseSiteRouteFragment(fragment: string): SiteRouteFragment {

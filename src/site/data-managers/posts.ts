@@ -35,7 +35,10 @@ export class SitePostsManager<TPost extends Post = Post> extends PostsManager<TP
 
     if (typeof window !== 'undefined') {
       this.readLocalStorage();
-      window.addEventListener('storage', () => {
+      window.addEventListener('storage', (event) => {
+        if (event.key !== `${this.name}.patch`) {
+          return;
+        }
         this.clearCache();
       });
     }

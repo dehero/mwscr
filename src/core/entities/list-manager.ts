@@ -34,6 +34,9 @@ export abstract class ListReader<TItem> {
 
   protected cache: Record<string, unknown> = {};
 
+  // Do not use asynchronous code inside `skipProxy = true; ... skipProxy = false;`
+  skipProxy = false;
+
   protected createChunk(_chunkName: string, data: ListReaderChunk<TItem>): ListReaderChunk<TItem> {
     return data;
   }
@@ -117,7 +120,7 @@ export abstract class ListReader<TItem> {
    * The resolved entry will be returned, with the ID of the original entry and the resolved entry's ID as the reference.
    * If the referenced entry does not exist, the original ID will be returned with undefined as the entry.
    */
-  async getEntry(id: string): Promise<ListReaderEntry<TItem | undefined>> {
+  async getEntry(id: string, skipProxy?: boolean): Promise<ListReaderEntry<TItem | undefined>> {
     const chunkName = this.getItemChunkName(id);
     const allChunkNames = await this.getAllChunkNames();
 
@@ -126,10 +129,19 @@ export abstract class ListReader<TItem> {
     }
 
     const chunk = await this.loadChunk(chunkName);
+
+    if (skipProxy) {
+      this.skipProxy = true;
+    }
+
     const item = chunk[id];
 
+    if (skipProxy) {
+      this.skipProxy = false;
+    }
+
     if (typeof item === 'string') {
-      const entry = await this.getEntry(item);
+      const entry = await this.getEntry(item, skipProxy);
 
       return [id, entry[1], entry[2] || item];
     }
@@ -142,8 +154,8 @@ export abstract class ListReader<TItem> {
    * the IDs do not correspond to an item in the list, the returned array will
    * contain an entry with `undefined` as the item value.
    */
-  async getEntries(ids: string[]): Promise<ListReaderEntry<TItem | undefined>[]> {
-    return Promise.all(ids.map((id) => this.getEntry(id)));
+  async getEntries(ids: string[], skipProxy?: boolean): Promise<ListReaderEntry<TItem | undefined>[]> {
+    return Promise.all(ids.map((id) => this.getEntry(id, skipProxy)));
   }
 
   /**
@@ -408,7 +420,6 @@ export class ListManagerChunkProxy<TItem extends object> extends DeepProxy<ListR
 export abstract class ListManager<TItem extends object> extends ListReader<TItem> {
   abstract readonly ItemSchema: Schema<TItem>;
 
-  skipProxy = false;
   patch: ListManagerPatch<TItem> | undefined;
 
   protected createChunk(chunkName: string, data: ListReaderChunk<TItem>): ListReaderChunk<TItem> {
@@ -427,9 +438,7 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
       return [];
     }
     const ids = Object.keys(this.patch).filter((id) => this.patch?.[id] === null);
-    this.skipProxy = true;
-    const result = await this.getEntries(ids);
-    this.skipProxy = false;
+    const result = await this.getEntries(ids, true);
 
     return result.filter((entry): entry is ListReaderEntry<TItem> => typeof entry[1] !== 'undefined');
   }
@@ -643,8 +652,6 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
       return;
     }
 
-    this.skipProxy = true;
-
     const patchChunks: Record<string, ListManagerPatch<TItem>> = {};
 
     for (const [id, itemPatch] of Object.entries(this.patch)) {
@@ -656,10 +663,10 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
     for (const [chunkName, patch] of Object.entries(patchChunks)) {
       const chunk = await this.loadChunk(chunkName);
 
+      this.skipProxy = true;
       patchObject(chunk, patch as Patch<ListReaderChunk<TItem>>);
+      this.skipProxy = false;
     }
-
-    this.skipProxy = false;
   }
 
   clearPatch() {
@@ -696,9 +703,7 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
    * - 'removed' if the item will be removed
    */
   async getItemStatus(id: string): Promise<ListReaderItemStatus | undefined> {
-    this.skipProxy = true;
-    const entry = await this.getEntry(id);
-    this.skipProxy = false;
+    const entry = await this.getEntry(id, true);
 
     if (typeof this.patch?.[id] === 'undefined') {
       return undefined;

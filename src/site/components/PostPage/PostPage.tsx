@@ -53,7 +53,7 @@ export interface PostPageSearchParams {
 export const PostPage = (): JSX.Element => {
   const { addToast, messageBox } = useToaster();
   const pageContext = usePageContext();
-  const { data, params } = useRouteInfo(pageContext, postRoute);
+  const { data, params, loading } = useRouteInfo(pageContext, postRoute);
   let selectedContentRef: HTMLImageElement | undefined;
 
   const [selectedContentIndex, setSelectedContentIndex] = createSignal(0);
@@ -176,7 +176,7 @@ export const PostPage = (): JSX.Element => {
         postInfo()?.type && styles[postInfo()!.type],
       )}
     >
-      <Toast message="Loading Page" show={postInfo.loading} loading />
+      <Toast message="Loading Page" show={loading() || postInfo.loading} loading />
       <Toast message="Loading Content" show={content().length > 0 && isLoading()} loading />
       <Show when={postInfo()}>
         {(postInfo) => (

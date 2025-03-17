@@ -86,7 +86,7 @@ export function getPublicationEngagement(info?: Publication) {
 export function getPublicationsTotalFollowers(publications: Publication[]) {
   const serviceFollowers = Object.entries(
     Object.fromEntries(
-      publications
+      [...publications]
         .sort((a, b) => (a.followers ?? 0) - (b.followers ?? 0))
         .map((post) => [post.service, post.followers ?? 0]),
     ),

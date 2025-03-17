@@ -34,5 +34,7 @@ export function useRouteInfo<TParams extends SiteRouteParams, TData, TMeta exten
     return route.meta(params as TParams, data()) as TMeta;
   });
 
-  return { meta, data, params };
+  const loading = createMemo(() => clientData.loading);
+
+  return { meta, data, params, loading };
 }
