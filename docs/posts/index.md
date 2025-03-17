@@ -24,10 +24,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHRQ_vXzkDp/)       | 2025-03-16 |   314 |    95 |      1534 |       6.19 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2196) | 2025-03-16 |   295 |    63 |      1187 |       5.73 |
-| [`tg`](https://t.me/mwscr/749)                     | 2025-03-16 |   222 |    56 |       705 |       7.94 |
-|                                                    |            |   831 |   214 |      3426 |       6.62 |
+| [`ig`](https://instagram.com/p/DHRQ_vXzkDp/)       | 2025-03-16 |   319 |    96 |      1534 |       6.26 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2196) | 2025-03-16 |   304 |    64 |      1187 |       5.81 |
+| [`tg`](https://t.me/mwscr/749)                     | 2025-03-16 |   226 |    58 |       705 |       8.23 |
+|                                                    |            |   849 |   218 |      3426 |       6.77 |
 
 #### Comments
 
@@ -57,10 +57,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHOsN5lvVJP/)       | 2025-03-15 |   343 |    66 |      1531 |       4.31 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2195) | 2025-03-15 |   245 |    47 |      1187 |       3.96 |
+| [`ig`](https://instagram.com/p/DHOsN5lvVJP/)       | 2025-03-15 |   346 |    66 |      1531 |       4.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2195) | 2025-03-15 |   248 |    47 |      1187 |       3.96 |
 | [`tg`](https://t.me/mwscr/748)                     | 2025-03-15 |   209 |    50 |       705 |       7.09 |
-|                                                    |            |   797 |   163 |      3423 |       5.12 |
+|                                                    |            |   803 |   163 |      3423 |       5.12 |
 
 ## <span id="2025-03-14-daedric-tanto-and-dwemer-coins">Daedric Tanto and Dwemer Coins</span>
 
