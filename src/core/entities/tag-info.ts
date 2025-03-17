@@ -14,7 +14,7 @@ export async function createTagInfos(dataManager: DataManager): Promise<TagInfo[
     const tags = await manager.getTagsUsageStats();
 
     for (const [id, count] of tags) {
-      result.set(id, result.get(id) || { [manager.name]: count });
+      result.set(id, { ...result.get(id), [manager.name]: count });
     }
   }
 

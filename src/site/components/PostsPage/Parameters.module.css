@@ -70,6 +70,17 @@
   margin: 8px 12px;
 }
 
+.tagsWrapper {
+  overflow: hidden auto;
+  height: 500px;
+  flex-grow: 1;
+}
+
+.tags {
+  flex: 1 1 auto;
+  margin: 8px 12px;
+}
+
 .worldMap {
   max-height: 500px;
   flex-grow: 1;

@@ -29,7 +29,7 @@ import { Select } from '../Select/Select.js';
 import { Table } from '../Table/Table.jsx';
 import { Toast } from '../Toaster/Toaster.js';
 import { WorldMap } from '../WorldMap/WorldMap.jsx';
-import type { usePostsPageParameters } from './hooks/usePostsPageParameters.js';
+import type { FilterKey, usePostsPageParameters } from './hooks/usePostsPageParameters.js';
 import styles from './Parameters.module.css';
 import type { PostsPageData } from './PostsPage.data.js';
 import type { PostsPageInfo } from './PostsPage.jsx';
@@ -39,11 +39,20 @@ interface LocationOption extends Option {
   info?: LocationInfo;
 }
 
-const viewOptions = [
+interface TagOption extends Option {
+  postCount?: number;
+}
+
+interface ViewOption extends Option {
+  filter?: FilterKey;
+}
+
+const viewOptions: ViewOption[] = [
   { label: 'All', value: undefined },
-  { label: 'Locations', value: 'locations' },
-  { label: 'Map', value: 'map' },
-] as const satisfies Option[];
+  { label: 'Locations', value: 'locations', filter: 'location' },
+  { label: 'Tags', value: 'tags', filter: 'tag' },
+  { label: 'Map', value: 'map', filter: 'location' },
+] as const;
 
 type View = (typeof viewOptions)[number]['value'];
 
@@ -57,6 +66,7 @@ export interface ParametersProps {
 
 export const Parameters: Component<ParametersProps> = (props) => {
   let locationsWrapperRef: HTMLDivElement | undefined;
+  let tagsWrapperRef: HTMLDivElement | undefined;
   const narrowScreen = createMediaQuery('(max-width: 811px)');
 
   const [isSearching, setIsSearching] = createSignal(false);
@@ -72,6 +82,17 @@ export const Parameters: Component<ParametersProps> = (props) => {
         value: info.title,
         postCount: info.discovered?.[props.routeInfo.params().managerName],
         info,
+      }))
+      .sort((a, b) => a.label.localeCompare(b.label)),
+  ]);
+  const tagOptions = createMemo((): TagOption[] => [
+    ALL_OPTION,
+    ...props.routeInfo
+      .data()
+      .tagInfos.map((info) => ({
+        label: info.id,
+        value: info.id,
+        postCount: info.tagged?.[props.routeInfo.params().managerName],
       }))
       .sort((a, b) => a.label.localeCompare(b.label)),
   ]);
@@ -100,15 +121,22 @@ export const Parameters: Component<ParametersProps> = (props) => {
     locationOptions().find((option) => option.value === props.parameters.location()),
   );
 
+  const tagOption = createMemo(() => tagOptions().find((option) => option.value === props.parameters.tag()));
+
   const initialView = createMemo(() => {
-    const info = props.routeInfo
+    const locationInfo = props.routeInfo
       .data()
       .locationInfos.find((location) => location.title === props.parameters.location());
-    if (info) {
-      if (info.cell) {
+    if (locationInfo) {
+      if (locationInfo.cell) {
         return 'map';
       }
       return 'locations';
+    }
+
+    const tagInfo = props.routeInfo.data().tagInfos.find((tag) => tag.id === props.parameters.tag());
+    if (tagInfo) {
+      return 'tags';
     }
 
     return undefined;
@@ -141,7 +169,18 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </div>
             }
           >
-            <RadioGroup name="view" options={viewOptions} value={view()} onChange={setView} class={styles.view} />
+            <RadioGroup
+              name="view"
+              options={viewOptions.filter(
+                (option) =>
+                  !option.filter ||
+                  !props.routeInfo.meta().filters ||
+                  props.routeInfo.meta().filters?.includes(option.filter),
+              )}
+              value={view()}
+              onChange={setView}
+              class={styles.view}
+            />
           </Show>
 
           <Show when={narrowScreen()}>
@@ -284,24 +323,11 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('tag')}>
-                <Label label="Tag" vertical>
-                  <div class={styles.selectWrapper}>
-                    <Select
-                      name="tag"
-                      options={[
-                        ALL_OPTION,
-                        ...[...props.routeInfo.data().tagInfos]
-                          .sort((a, b) => a.id.localeCompare(b.id))
-                          .map((info) => ({
-                            value: info.id,
-                            label: `${info.id} (${info.tagged?.[props.routeInfo.params().managerName]})`,
-                          })),
-                      ]}
-                      value={props.parameters.tag()}
-                      onChange={props.parameters.setTag}
-                      class={styles.select}
-                    />
-                  </div>
+                <Label label="Tag" vertical class={styles.label}>
+                  <Button onClick={() => setView('tags')}>
+                    {tagOption()?.label}
+                    <Show when={tagOption()?.postCount}>{(postCount) => <> ({postCount})</>}</Show>
+                  </Button>
                 </Label>
               </Show>
 
@@ -433,6 +459,26 @@ export const Parameters: Component<ParametersProps> = (props) => {
                   },
                   selected: option.value === props.parameters.location(),
                   tooltip: option.info ? (ref) => <LocationTooltip forRef={ref} location={option.info!} /> : undefined,
+                }))}
+                showEmptyValueRows
+              />
+            </div>
+          </Match>
+          <Match when={view() === 'tags'}>
+            <div class={styles.tagsWrapper} ref={tagsWrapperRef}>
+              <Table
+                class={styles.tags}
+                scrollTarget={tagsWrapperRef}
+                label="Tags"
+                value="Post Count"
+                rows={tagOptions().map((option) => ({
+                  label: option.label,
+                  value: option.postCount,
+                  onClick: (e: Event) => {
+                    e.preventDefault();
+                    props.parameters.setTag(option.value);
+                  },
+                  selected: option.value === props.parameters.tag(),
                 }))}
                 showEmptyValueRows
               />
