@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.42.1](https://github.com/dehero/mwscr/compare/v1.42.0...v1.42.1) (2025-03-17)
+
+### Bug Fixes
+
+- re-implement ListManagerChunkProxy has and getOwnPropertyDescriptor methods to fix posts saving bug
+  ([b006cb4](https://github.com/dehero/mwscr/commit/b006cb467b2d413241f705ea8149f1512b628691))
+
 ## [1.42.0](https://github.com/dehero/mwscr/compare/v1.41.11...v1.42.0) (2025-03-14)
 
 ### Features
