@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.42.2](https://github.com/dehero/mwscr/compare/v1.42.1...v1.42.2) (2025-03-17)
+
+### Bug Fixes
+
+- **site:** avoid skipping patch when reading page data
+  ([e43a79f](https://github.com/dehero/mwscr/commit/e43a79f1147aa6af2ecbd3610d3f3fd8a2a18c26))
+- **site:** keep previous changes when submitting post dialog without changes
+  ([c4293a7](https://github.com/dehero/mwscr/commit/c4293a78e17e850736fad890d4604a1bf97f31c1))
+
 ## [1.42.1](https://github.com/dehero/mwscr/compare/v1.42.0...v1.42.1) (2025-03-17)
 
 ### Bug Fixes
