@@ -24,10 +24,14 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHRQ_vXzkDp/)       | 2025-03-16 |   281 |    83 |      1534 |       5.41 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2196) | 2025-03-16 |   229 |    52 |      1187 |        4.8 |
-| [`tg`](https://t.me/mwscr/749)                     | 2025-03-16 |   202 |    52 |       705 |       7.38 |
-|                                                    |            |   712 |   187 |      3426 |       5.86 |
+| [`ig`](https://instagram.com/p/DHRQ_vXzkDp/)       | 2025-03-16 |   287 |    86 |      1534 |       5.61 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2196) | 2025-03-16 |   246 |    57 |      1187 |       5.22 |
+| [`tg`](https://t.me/mwscr/749)                     | 2025-03-16 |   211 |    55 |       705 |        7.8 |
+|                                                    |            |   744 |   198 |      3426 |       6.21 |
+
+#### Comments
+
+- `tg` <ins title="2025-03-17-05-19-05">mlennic</ins> a masterpiece
 
 ## <span id="2025-03-15-repairing-centurion-palm">Repairing Centurion Palm</span>
 
@@ -53,10 +57,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHOsN5lvVJP/)       | 2025-03-15 |   332 |    66 |      1531 |       4.31 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2195) | 2025-03-15 |   232 |    46 |      1187 |       3.88 |
-| [`tg`](https://t.me/mwscr/748)                     | 2025-03-15 |   201 |    49 |       705 |       6.95 |
-|                                                    |            |   765 |   161 |      3423 |       5.05 |
+| [`ig`](https://instagram.com/p/DHOsN5lvVJP/)       | 2025-03-15 |   333 |    66 |      1531 |       4.31 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2195) | 2025-03-15 |   236 |    46 |      1187 |       3.88 |
+| [`tg`](https://t.me/mwscr/748)                     | 2025-03-15 |   205 |    49 |       705 |       6.95 |
+|                                                    |            |   774 |   161 |      3423 |       5.05 |
 
 ## <span id="2025-03-14-daedric-tanto-and-dwemer-coins">Daedric Tanto and Dwemer Coins</span>
 
