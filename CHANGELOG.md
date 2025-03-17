@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.43.1](https://github.com/dehero/mwscr/compare/v1.43.0...v1.43.1) (2025-03-17)
+
+### Bug Fixes
+
+- **site:** show original posts when selecting tag
+  ([1d57580](https://github.com/dehero/mwscr/commit/1d575801c412e3dade68484e573c95f975f696d0))
+
 ## [1.43.0](https://github.com/dehero/mwscr/compare/v1.42.2...v1.43.0) (2025-03-17)
 
 ### Features
