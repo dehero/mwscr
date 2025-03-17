@@ -24,10 +24,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHRQ_vXzkDp/)       | 2025-03-16 |   219 |    74 |      1534 |       4.82 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2196) | 2025-03-16 |   171 |    37 |      1187 |       3.54 |
-| [`tg`](https://t.me/mwscr/749)                     | 2025-03-16 |   182 |    46 |       705 |       6.52 |
-|                                                    |            |   572 |   157 |      3426 |       4.96 |
+| [`ig`](https://instagram.com/p/DHRQ_vXzkDp/)       | 2025-03-16 |   251 |    78 |      1534 |       5.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2196) | 2025-03-16 |   178 |    42 |      1187 |       3.96 |
+| [`tg`](https://t.me/mwscr/749)                     | 2025-03-16 |   184 |    47 |       705 |       6.67 |
+|                                                    |            |   613 |   167 |      3426 |       5.24 |
 
 ## <span id="2025-03-15-repairing-centurion-palm">Repairing Centurion Palm</span>
 
@@ -54,9 +54,9 @@
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
 | [`ig`](https://instagram.com/p/DHOsN5lvVJP/)       | 2025-03-15 |   324 |    64 |      1531 |       4.18 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2195) | 2025-03-15 |   223 |    45 |      1187 |       3.79 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2195) | 2025-03-15 |   225 |    45 |      1187 |       3.79 |
 | [`tg`](https://t.me/mwscr/748)                     | 2025-03-15 |   195 |    48 |       705 |       6.81 |
-|                                                    |            |   742 |   157 |      3423 |       4.93 |
+|                                                    |            |   744 |   157 |      3423 |       4.93 |
 
 ## <span id="2025-03-14-daedric-tanto-and-dwemer-coins">Daedric Tanto and Dwemer Coins</span>
 
