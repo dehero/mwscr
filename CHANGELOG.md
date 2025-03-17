@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.43.0](https://github.com/dehero/mwscr/compare/v1.42.2...v1.43.0) (2025-03-17)
+
+### Features
+
+- **site:** implement tags list with posts counts
+  ([bc5cdba](https://github.com/dehero/mwscr/commit/bc5cdbad0f1f11bff5f4966b6054f46fd4811441))
+
 ## [1.42.2](https://github.com/dehero/mwscr/compare/v1.42.1...v1.42.2) (2025-03-17)
 
 ### Bug Fixes
