@@ -2804,28 +2804,28 @@
       id: DGJKqKVyLQy
       mediaId: '18046144337035450'
       published: 2025-02-16-18-09-27
-      updated: 2025-03-10-00-32-37
+      updated: 2025-03-17-00-40-13
       followers: 1538
       likes: 121
-      views: 542
+      views: 545
       comments: !c |-
         G2YAYJ2JsY2C85julNcsP29/KZ4czyYwnO2eoFRKsulKENL/PRLVxSlDhABracoDLvo5K524FAs2
         xtaXoBkNj7lew/zT8VkgFT4I7FMyRONjyr+SRhgDRKYj2tBSBjTJHTzcmw2lOEoO
     - service: vk
       id: 2133
       published: 2025-02-16-18-09-34
-      updated: 2025-03-10-00-32-37
+      updated: 2025-03-17-00-40-13
       followers: 1071
       likes: 45
-      views: 423
+      views: 439
       reposts: 4
     - service: tg
       id: 712
       published: 2025-02-16-18-09-40
-      updated: 2025-03-10-00-32-36
+      updated: 2025-03-17-00-40-12
       followers: 677
-      likes: 71
-      views: 578
+      likes: 72
+      views: 598
       comments: !c |-
         C0KAkpPLQnlSitoxgACvQWxleGV5IFN0ZXBhbm92pPCfjJ2Ty0J5UP+7EgAAq2FhcnljaGFnb2Zm
         2U3Qk9C70LDQstC90L7QtSAtINC90LUg0L/Rg9GC0LDRgtGMINCd0YfRg9GA0LTQsNC80YYg0Lgg
@@ -7277,17 +7277,17 @@
       id: DFlHfSRzWCN
       mediaId: '17955260624870999'
       published: 2025-02-02-18-09-05
-      updated: 2025-03-10-00-32-39
+      updated: 2025-03-17-00-40-14
       followers: 1536
       likes: 80
-      views: 282
+      views: 283
     - service: vk
       id: 2107
       published: 2025-02-02-18-09-12
-      updated: 2025-03-10-00-32-38
+      updated: 2025-03-17-00-40-15
       followers: 1060
       likes: 51
-      views: 404
+      views: 412
       comments: !c |-
         GyIBMCwOeHPUIcRE+eFaNxlujf+nv9jOEr38g2ecYTMJFWFyLvy7rdCjVbpNum9D+cN5O3Vb7s8G
         Y9x2TE6OPERj1RtsXhQ661ZkeW5wOuCEDyDDgPOA44KjTmu0GxxEFBdJPdE8/v7842jfruv3ckKh
@@ -9894,7 +9894,7 @@
     - service: tg
       id: 405
       published: 2024-05-11-18-18-01
-      updated: 2025-03-10-00-32-44
+      updated: 2025-03-17-00-40-19
       followers: 371
       likes: 68
       views: 510
@@ -9902,10 +9902,10 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2025-03-10-00-32-45
+      updated: 2025-03-17-00-40-21
       followers: 915
       likes: 41
-      views: 289
+      views: 290
 2017-09-01-the-last-refuge:
   title: The Last Refuge
   titleRu: Последнее прибежище
