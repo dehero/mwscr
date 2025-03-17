@@ -4,7 +4,30 @@
 
 # Posted in 2025
 
-`75 items`
+`76 items`
+
+## <span id="2025-03-17-first-stars-above-assurnabitashpi">First Stars Above Assurnabitashpi</span>
+
+`RU` Первые звёзды над Ассурнабиташпи
+
+<a href="https://instagram.com/p/DHT1_LINHQR/" title="2025-03-17-first-stars-above-assurnabitashpi"><img alt="store:/shots/2025-03-17-first-stars-above-assurnabitashpi.png" src="../../assets/previews/shots/2025-03-17-first-stars-above-assurnabitashpi.avif" /></a>
+
+`shot` by [dehero](../contributors.md#dehero)
+
+[`Precise`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=2025-03-17-first-stars-above-assurnabitashpi&amp;postContent=store%3A%2Fshots%2F2025-03-17-first-stars-above-assurnabitashpi.png&amp;postTitle=First+Stars+Above+Assurnabitashpi&amp;postTitleRu=%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B5+%D0%B7%D0%B2%D1%91%D0%B7%D0%B4%D1%8B+%D0%BD%D0%B0%D0%B4+%D0%90%D1%81%D1%81%D1%83%D1%80%D0%BD%D0%B0%D0%B1%D0%B8%D1%82%D0%B0%D1%88%D0%BF%D0%B8&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=daedric+ruin+star&amp;postLocation=Assurnabitashpi&amp;postMark=A2&amp;postViolation=&amp;postTrash=&amp;postRequest=) `A2` `📍 Assurnabitashpi` `🚀 OpenMW` `daedric` `ruin` `star`
+
+```
+2025-03-17-first-stars-above-assurnabitashpi
+```
+
+### Reactions
+
+|                                                    | published  | followers |
+|----------------------------------------------------|------------|----------:|
+| [`ig`](https://instagram.com/p/DHT1_LINHQR/)       | 2025-03-17 |      1533 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2201) | 2025-03-17 |      1191 |
+| [`tg`](https://t.me/mwscr/750)                     | 2025-03-17 |       702 |
+|                                                    |            |      3426 |
 
 ## <span id="2025-03-16-passage-to-the-north">Passage to the North</span>
 
@@ -24,10 +47,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHRQ_vXzkDp/)       | 2025-03-16 |   391 |   112 |      1534 |        7.3 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2196) | 2025-03-16 |   358 |    68 |      1187 |       6.23 |
-| [`tg`](https://t.me/mwscr/749)                     | 2025-03-16 |   257 |    61 |       705 |       8.65 |
-|                                                    |            |  1006 |   241 |      3426 |        7.4 |
+| [`ig`](https://instagram.com/p/DHRQ_vXzkDp/)       | 2025-03-16 |   402 |   114 |      1534 |       7.43 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2196) | 2025-03-16 |   362 |    69 |      1187 |       6.32 |
+| [`tg`](https://t.me/mwscr/749)                     | 2025-03-16 |   258 |    62 |       705 |       8.79 |
+|                                                    |            |  1022 |   245 |      3426 |       7.51 |
 
 #### Comments
 
@@ -87,10 +110,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHMHiUehLEa/)       | 2025-03-14 |   410 |   109 |      1533 |       7.11 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2191) | 2025-03-14 |   280 |    36 |      1182 |       3.13 |
-| [`tg`](https://t.me/mwscr/747)                     | 2025-03-14 |   237 |    62 |       700 |       8.86 |
-|                                                    |            |   927 |   207 |      3415 |       6.37 |
+| [`ig`](https://instagram.com/p/DHMHiUehLEa/)       | 2025-03-14 |   441 |   116 |      1533 |       7.57 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2191) | 2025-03-14 |   321 |    42 |      1182 |       3.64 |
+| [`tg`](https://t.me/mwscr/747)                     | 2025-03-14 |   269 |    67 |       700 |       9.57 |
+|                                                    |            |  1031 |   225 |      3415 |       6.93 |
 
 #### Comments
 

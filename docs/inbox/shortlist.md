@@ -4,7 +4,7 @@
 
 # Shortlist
 
-`5 items`
+`4 items`
 
 ## <span id="dehero.2025-03-12-20-08-15">Wardens</span>
 
@@ -45,26 +45,6 @@ dehero.2025-03-12-20-08-15
 
 ```
 dehero.2025-03-12-20-04-43
-```
-
-## <span id="dehero.2025-03-12-19-52-34">First Stars Above Assurnabitashpi</span>
-
-`RU` Первые звёзды над Ассурнабиташпи
-
-![store:/inbox/dehero.2025-03-12-19-52-34.1.png](../../assets/previews/inbox/dehero.2025-03-12-19-52-34.1.avif "dehero.2025-03-12-19-52-34.1")
-
-<details>
-<summary>Trash</summary>
-
-![store:/inbox/dehero.2025-03-12-19-52-34.png](../../assets/previews/inbox/dehero.2025-03-12-19-52-34.avif "dehero.2025-03-12-19-52-34")
-</details>
-
-`shot` by [dehero](../contributors.md#dehero)
-
-[`Edit`](https://github.com/dehero/mwscr/issues/new?labels=post-editing&amp;template=post-editing.yml&amp;title=dehero.2025-03-12-19-52-34&amp;postContent=store%3A%2Finbox%2Fdehero.2025-03-12-19-52-34.1.png&amp;postTitle=First+Stars+Above+Assurnabitashpi&amp;postTitleRu=%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B5+%D0%B7%D0%B2%D1%91%D0%B7%D0%B4%D1%8B+%D0%BD%D0%B0%D0%B4+%D0%90%D1%81%D1%81%D1%83%D1%80%D0%BD%D0%B0%D0%B1%D0%B8%D1%82%D0%B0%D1%88%D0%BF%D0%B8&amp;postAuthor=dehero&amp;postType=shot&amp;postEngine=OpenMW&amp;postAddon=&amp;postTags=daedric+ruin+star&amp;postLocation=Assurnabitashpi&amp;postMark=A2&amp;postViolation=&amp;postTrash=store%3A%2Finbox%2Fdehero.2025-03-12-19-52-34.png&amp;postRequest=) [`Merge`](https://github.com/dehero/mwscr/issues/new?labels=post-merging&amp;template=post-merging.yml&amp;title=dehero.2025-03-12-19-52-34&amp;mergeWithIds=) `A2` `📍 Assurnabitashpi` `🚀 OpenMW` `daedric` `ruin` `star`
-
-```
-dehero.2025-03-12-19-52-34
 ```
 
 ## <span id="dehero.2025-03-12-19-45-28">Coming to Ald Sotha</span>

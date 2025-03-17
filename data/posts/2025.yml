@@ -512,17 +512,17 @@
       id: DHMHiUehLEa
       mediaId: '17888817927209771'
       published: 2025-03-14-18-11-18
-      updated: 2025-03-16-18-09-47
+      updated: 2025-03-17-18-11-26
       followers: 1533
-      likes: 109
-      views: 410
+      likes: 116
+      views: 441
     - service: vk
       id: 2191
       published: 2025-03-14-18-11-24
-      updated: 2025-03-16-18-09-48
+      updated: 2025-03-17-18-11-26
       followers: 1182
-      likes: 36
-      views: 280
+      likes: 42
+      views: 321
       reposts: 1
       comments: !c |-
         G38A8J0Hdiw3olR9eCOK6EZ6rm+BB1aCRZbMggZSh9dmMJrgmPoj9ezb72lR0a9ue0xyjlxTNQqf
@@ -531,10 +531,10 @@
     - service: tg
       id: 747
       published: 2025-03-14-18-45-12
-      updated: 2025-03-16-18-09-47
+      updated: 2025-03-17-18-11-26
       followers: 700
-      likes: 62
-      views: 237
+      likes: 67
+      views: 269
 2025-03-15-repairing-centurion-palm:
   title: Repairing Centurion Palm
   titleRu: Ремонт руки центуриона
@@ -591,23 +591,51 @@
       id: DHRQ_vXzkDp
       mediaId: '18060356425957792'
       published: 2025-03-16-18-10-10
-      updated: 2025-03-17-17-07-41
+      updated: 2025-03-17-18-11-25
       followers: 1534
-      likes: 112
-      views: 391
+      likes: 114
+      views: 402
     - service: vk
       id: 2196
       published: 2025-03-16-18-10-17
-      updated: 2025-03-17-17-07-41
+      updated: 2025-03-17-18-11-25
       followers: 1187
-      likes: 68
-      views: 358
+      likes: 69
+      views: 362
       reposts: 6
     - service: tg
       id: 749
       published: 2025-03-16-18-10-24
-      updated: 2025-03-17-17-07-41
+      updated: 2025-03-17-18-11-26
       followers: 705
-      likes: 61
-      views: 257
+      likes: 62
+      views: 258
       comments: !c CxCAkZPLQnlaKKkSgACnbWxlbm5pY61hIG1hc3RlcnBpZWNlAw==
+2025-03-17-first-stars-above-assurnabitashpi:
+  title: First Stars Above Assurnabitashpi
+  titleRu: Первые звёзды над Ассурнабиташпи
+  placement: Outdoors
+  location: Assurnabitashpi
+  content: store:/shots/2025-03-17-first-stars-above-assurnabitashpi.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - daedric
+    - ruin
+    - star
+  mark: A2
+  posts:
+    - service: ig
+      id: DHT1_LINHQR
+      mediaId: '18025436102415856'
+      published: 2025-03-17-18-11-53
+      followers: 1533
+    - service: vk
+      id: 2201
+      published: 2025-03-17-18-11-59
+      followers: 1191
+    - service: tg
+      id: 750
+      published: 2025-03-17-18-12-06
+      followers: 702
