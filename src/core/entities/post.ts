@@ -494,7 +494,7 @@ export function mergePostPlacements(
 }
 
 export function mergePostTags(tags1: string[] | undefined, tags2?: string[] | undefined): string[] | undefined {
-  const result = new Set([...(tags1 ?? []), ...(tags2 ?? [])]);
+  const result = new Set([...(tags1 ?? []), ...(tags2 ?? [])].filter(Boolean));
 
   return result.size > 0 ? [...result] : undefined;
 }

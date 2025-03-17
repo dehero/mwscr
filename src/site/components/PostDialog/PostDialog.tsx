@@ -167,13 +167,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
     switch (variant) {
       case 'patch': {
         return {
-          onClick: () => {
-            if (Object.keys(patch()).length === 0) {
-              manager()?.resetItemPatch(targetId);
-            } else {
-              manager()?.mergePatch({ [targetId]: patch() });
-            }
-          },
+          onClick: () => manager()?.mergePatch({ [targetId]: patch() }),
         };
       }
 
