@@ -109,8 +109,8 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
                 <GoldIcon class={styles.publishedIcon} />
               </Show>
 
-              <Show when={props.postInfo.rating}>
-                <span class={styles.rating}>{props.postInfo.rating}</span>
+              <Show when={props.postInfo.engagement}>
+                <span class={styles.engagement}>{props.postInfo.engagement}</span>
               </Show>
 
               <Show

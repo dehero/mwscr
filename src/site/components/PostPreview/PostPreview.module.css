@@ -70,7 +70,7 @@
   overflow: hidden;
 }
 
-.rating {
+.engagement {
   color: var(--color-text-light);
   flex-shrink: 0;
 }
