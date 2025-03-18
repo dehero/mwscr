@@ -9329,10 +9329,10 @@
     - service: vk
       id: 2205
       published: 2025-03-18-18-12-44
-      updated: 2025-03-18-20-01-26
+      updated: 2025-03-18-21-07-28
       followers: 1191
-      likes: 8
-      views: 64
+      likes: 12
+      views: 79
     - service: tg
       id:
         - 751
@@ -9340,15 +9340,18 @@
         - 753
         - 754
       published: 2025-03-18-18-13-11
-      updated: 2025-03-18-20-01-26
+      updated: 2025-03-18-21-07-28
       followers: 703
-      likes: 27
-      views: 99
+      likes: 31
+      views: 110
     - service: ig
       id: DHWnZ7-PxN_
       mediaId: '18055358941897825'
       published: 2025-03-18-20-02-10
+      updated: 2025-03-18-21-07-27
       followers: 1533
+      likes: 30
+      views: 63
 2018-09-03-discovering-telasero:
   title: Discovering Telasero
   titleRu: Выходя к Теласеро
@@ -12264,17 +12267,17 @@
       id: DGyXlepu_64
       mediaId: '18059122184506345'
       published: 2025-03-04-18-11-17
-      updated: 2025-03-11-21-02-45
+      updated: 2025-03-18-21-07-29
       followers: 1538
-      likes: 59
-      views: 218
+      likes: 62
+      views: 236
     - service: vk
       id: 2169
       published: 2025-03-04-18-11-25
-      updated: 2025-03-11-21-02-47
+      updated: 2025-03-18-21-07-32
       followers: 1158
       likes: 35
-      views: 318
+      views: 354
       comments: !c |-
         G0kCACwHbGMF2i8TrJOEZal8D/R+VqdO/PPPyYaTwP+ooJNZx8PEAq6EShJP7gOduRwO8+owi4Mi
         giI4h5hrr5/karZjDzDAiP5/7Sa7dokHlsVSuxCVtVlvqariP+cpERWMwYtCSO0pRzaTJDpN646P
@@ -12286,10 +12289,10 @@
     - service: tg
       id: 734
       published: 2025-03-04-18-11-32
-      updated: 2025-03-11-21-02-46
+      updated: 2025-03-18-21-07-30
       followers: 690
-      likes: 51
-      views: 322
+      likes: 53
+      views: 402
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
