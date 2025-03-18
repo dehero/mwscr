@@ -1532,15 +1532,15 @@
     - service: vk
       id: 1668
       published: 2024-08-05-18-20-39
-      updated: 2025-03-11-18-11-30
+      updated: 2025-03-18-18-11-50
       followers: 926
       likes: 43
-      views: 320
+      views: 322
       reposts: 2
     - service: tg
       id: 491
       published: 2024-08-05-18-20-53
-      updated: 2025-03-11-18-11-29
+      updated: 2025-03-18-18-11-48
       followers: 490
       likes: 75
       views: 691
@@ -2378,18 +2378,18 @@
     - service: vk
       id: 1698
       published: 2024-08-19-18-19-41
-      updated: 2025-03-11-18-11-28
+      updated: 2025-03-18-18-11-47
       followers: 934
       likes: 32
-      views: 302
+      views: 304
       reposts: 4
     - service: tg
       id: 506
       published: 2024-08-19-18-19-47
-      updated: 2025-03-11-18-11-27
+      updated: 2025-03-18-18-11-46
       followers: 534
       likes: 66
-      views: 612
+      views: 613
 2018-03-04-monsters:
   title: Monsters
   titleRu: Монстры
@@ -6904,15 +6904,15 @@
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
-      updated: 2025-03-11-18-11-32
+      updated: 2025-03-18-18-11-51
       followers: 924
       likes: 34
-      views: 271
+      views: 273
       reposts: 1
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
-      updated: 2025-03-11-18-11-30
+      updated: 2025-03-18-18-11-49
       followers: 414
       likes: 59
       views: 678
@@ -9200,18 +9200,18 @@
     - service: vk
       id: 1597
       published: 2024-06-24-18-20-03
-      updated: 2025-03-11-18-11-38
+      updated: 2025-03-18-18-11-57
       followers: 917
       likes: 52
-      views: 324
+      views: 325
       reposts: 2
     - service: tg
       id: 449
       published: 2024-06-24-18-20-11
-      updated: 2025-03-11-18-11-34
+      updated: 2025-03-18-18-11-56
       followers: 388
       likes: 66
-      views: 589
+      views: 590
 2018-09-01-haze-in-tel-branora:
   title: Haze in Tel Branora
   titleRu: Мгла в Тель Браноре
@@ -9326,6 +9326,18 @@
       updated: 2025-03-12-14-08-57
       likes: 3
       views: 222
+    - service: vk
+      id: 2205
+      published: 2025-03-18-18-12-44
+      followers: 1191
+    - service: tg
+      id:
+        - 751
+        - 752
+        - 753
+        - 754
+      published: 2025-03-18-18-13-11
+      followers: 703
 2018-09-03-discovering-telasero:
   title: Discovering Telasero
   titleRu: Выходя к Теласеро
