@@ -9329,7 +9329,10 @@
     - service: vk
       id: 2205
       published: 2025-03-18-18-12-44
+      updated: 2025-03-18-19-03-27
       followers: 1191
+      likes: 6
+      views: 40
     - service: tg
       id:
         - 751
@@ -9337,7 +9340,10 @@
         - 753
         - 754
       published: 2025-03-18-18-13-11
+      updated: 2025-03-18-19-03-27
       followers: 703
+      likes: 18
+      views: 71
 2018-09-03-discovering-telasero:
   title: Discovering Telasero
   titleRu: Выходя к Теласеро
