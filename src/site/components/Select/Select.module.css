@@ -14,6 +14,7 @@
   background-position-x: calc(100% - 4px);
   background-position-y: 4px;
   image-rendering: pixelated;
+  text-shadow: 1px 1px 1px black;
 }
 
 .select:focus,

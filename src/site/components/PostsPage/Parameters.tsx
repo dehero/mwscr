@@ -24,6 +24,7 @@ import { Frame } from '../Frame/Frame.js';
 import { Input } from '../Input/Input.js';
 import { Label } from '../Label/Label.js';
 import { LocationTooltip } from '../LocationTooltip/LocationTooltip.jsx';
+import { OverflowContainer } from '../OverflowContainer/OverflowContainer.jsx';
 import { RadioGroup } from '../RadioGroup/RadioGroup.js';
 import { Select } from '../Select/Select.js';
 import { Table } from '../Table/Table.jsx';
@@ -47,14 +48,14 @@ interface ViewOption extends Option {
   filter?: FilterKey;
 }
 
-const viewOptions: ViewOption[] = [
+const allViewOptions: ViewOption[] = [
   { label: 'All', value: undefined },
   { label: 'Locations', value: 'locations', filter: 'location' },
   { label: 'Tags', value: 'tags', filter: 'tag' },
   { label: 'Map', value: 'map', filter: 'location' },
 ] as const;
 
-type View = (typeof viewOptions)[number]['value'];
+type View = (typeof allViewOptions)[number]['value'];
 
 export interface ParametersProps {
   routeInfo: SiteRouteInfo<PostsRouteParams, PostsPageData, PostsPageInfo>;
@@ -70,6 +71,12 @@ export const Parameters: Component<ParametersProps> = (props) => {
   const narrowScreen = createMediaQuery('(max-width: 811px)');
 
   const [isSearching, setIsSearching] = createSignal(false);
+
+  const viewOptions = () =>
+    allViewOptions.filter(
+      (option) =>
+        !option.filter || !props.routeInfo.meta().filters || props.routeInfo.meta().filters?.includes(option.filter),
+    );
 
   const locationOptions = createMemo((): LocationOption[] => [
     ALL_OPTION,
@@ -169,18 +176,12 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </div>
             }
           >
-            <RadioGroup
-              name="view"
-              options={viewOptions.filter(
-                (option) =>
-                  !option.filter ||
-                  !props.routeInfo.meta().filters ||
-                  props.routeInfo.meta().filters?.includes(option.filter),
-              )}
-              value={view()}
-              onChange={setView}
-              class={styles.view}
-            />
+            <OverflowContainer
+              fallback={<Select options={viewOptions()} value={view()} onChange={setView} />}
+              containerClass={styles.viewWrapper}
+            >
+              <RadioGroup name="view" options={viewOptions()} value={view()} onChange={setView} class={styles.view} />
+            </OverflowContainer>
           </Show>
 
           <Show when={narrowScreen()}>

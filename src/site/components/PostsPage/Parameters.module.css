@@ -12,7 +12,7 @@
 
 .toolbar {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   gap: 8px;
   padding: 12px;
   justify-content: space-between;
@@ -21,6 +21,14 @@
 
 .toolbarDivider {
   margin: 0 12px;
+}
+
+.viewWrapper {
+  flex: 1 1 content;
+}
+
+.view {
+  flex-wrap: nowrap;
 }
 
 .parameters {
