@@ -2781,17 +2781,17 @@
     - service: vk
       id: 1865
       published: 2024-10-28-18-10-39
-      updated: 2025-03-11-09-09-10
+      updated: 2025-03-18-09-11-27
       followers: 1000
       likes: 51
-      views: 321
+      views: 323
     - service: tg
       id: 578
       published: 2024-10-28-18-10-46
-      updated: 2025-03-11-09-09-09
+      updated: 2025-03-18-09-11-27
       followers: 564
       likes: 60
-      views: 578
+      views: 579
 2018-03-15-the-other-side:
   title: The Other Side
   titleRu: По ту сторону
@@ -4215,10 +4215,10 @@
     - service: tg
       id: 564
       published: 2024-10-14-18-10-32
-      updated: 2025-03-11-09-09-11
+      updated: 2025-03-18-09-11-29
       followers: 561
       likes: 64
-      views: 507
+      views: 511
 2018-04-20-road-through-a-dead-forest:
   title: Road Through a Dead Forest
   titleRu: Дорога сквозь мёртвый лес
@@ -11026,10 +11026,10 @@
     - service: tg
       id: 571
       published: 2024-10-21-18-10-50
-      updated: 2025-03-11-09-09-10
+      updated: 2025-03-18-09-11-28
       followers: 562
       likes: 55
-      views: 726
+      views: 729
 2018-10-10-thunderstorm-cave:
   title: Thunderstorm Cave
   titleRu: Грозовая пещера
