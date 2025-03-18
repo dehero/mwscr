@@ -1,13 +1,10 @@
-[`README`](README.md) `CONTRIBUTING` [`Posts`](./docs/posts/index.md) [`Inbox`](./docs/inbox/index.md)
-[`Trash`](./docs/trash/index.md) [`Contributors`](./docs/contributors.md)
-
 `EN` [`RU`](CONTRIBUTING.ru.md)
 
 # Contributing Guidelines
 
 Here is the most important information for contributing to the [Morrowind Screenshots](https://github.com/dehero/mwscr)
-project. If you don't find the answer to your question, please let [administrator](docs/contributors.md#dehero) know in
-any convenient way.
+project. If you don't find the answer to your question, please let
+[administrator](https://mwscr.dehero.site/users/dehero/) know in any convenient way.
 
 ## Ways to contribute
 
@@ -24,8 +21,8 @@ convenient way:
   Issues.
 - [Send to administrator](mailto:dehero@outlook.com?subject=mwscr) via email.
 
-Proposed works will be automatically checked and will go to [inbox](docs/inbox/index.md). After [editing](#editing),
-your works will be published or rejected.
+Proposed works will be automatically checked and will go to [inbox](https://mwscr.dehero.site/inbox/). After
+[editing](#editing), your works will be published or rejected.
 
 > [!WARNING]  
 > When uploading files via Issues,
@@ -49,7 +46,8 @@ way:
 - Write a comment or private message to the administrator in any of the project accounts.
 - [Send to administrator](mailto:dehero@outlook.com?subject=mwscr) via email.
 
-Your request will be added to [inbox](docs/inbox/index.md) and will remain there, waiting for the appropriate material.
+Your request will be added to [inbox](https://mwscr.dehero.site/inbox/) and will remain there, waiting for the
+appropriate material.
 
 > [!WARNING]  
 > The request may be rejected if it does not meet the [minimum requirements](#minimum-requirements-to-works).
@@ -267,13 +265,13 @@ set playPath to 0
 ## Editing
 
 Editing is performed by the project administrator. You can follow the process on the pages of the
-[Inbox](docs/inbox/index.md) section. If you have any questions, write to [administrator](docs/contributors.md#dehero)
-in any convenient way.
+[Inbox](https://mwscr.dehero.site/inbox/) section. If you have any questions, write to
+[administrator](https://mwscr.dehero.site/users/dehero/) in any convenient way.
 
 ### Search for violations
 
 The content of the post is manually checked, and if any violations are found, the post is moved to
-[trash](docs/trash/index.md). Possible violations:
+[trash](https://mwscr.dehero.site/trash/). Possible violations:
 
 - Inappropriate content
 - Graphic issues
@@ -316,7 +314,8 @@ dehero.2024-02-17-10-53-36.1.png
 dehero.2024-02-17-10-53-36.2.png
 ```
 
-Processed versions will be added to [inbox](docs/inbox/index.md) the next time files are imported from the storage.
+Processed versions will be added to [inbox](https://mwscr.dehero.site/inbox/) the next time files are imported from the
+storage.
 
 ### Preparing a post
 
@@ -401,4 +400,4 @@ A work will receive the mark given in the title of the column if:
 1. All indicators marked `+` are completed;
 2. At least one of the indicators marked `±` is filled in.
 
-If the selected mark is not publishable, such work is moved to [trash](docs/trash/index.md).
+If the selected mark is not publishable, such work is moved to [trash](https://mwscr.dehero.site/trash/).

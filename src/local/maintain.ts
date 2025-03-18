@@ -7,7 +7,6 @@ import { importStoreInbox } from './functions/import-store-inbox.js';
 import { importTelegramBotUpdates } from './functions/import-telegram-bot-updates.js';
 import { maintainPreviews } from './functions/maintain-previews.js';
 import { publishPosts } from './functions/publish-posts.js';
-import { renderDocs } from './functions/render-docs.js';
 import { updatePosts } from './functions/update-posts.js';
 
 await createGithubIssueTemplates();
@@ -28,8 +27,6 @@ await createNewPost();
 await publishPosts();
 
 await maintainPreviews();
-
-await renderDocs();
 
 // Telegram waits for too long to disconnect, exit process manually
 process.exit();

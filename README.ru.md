@@ -1,6 +1,3 @@
-`README` [`CONTRIBUTING`](CONTRIBUTING.ru.md) [`Posts`](docs/posts/index.md) [`Inbox`](docs/inbox/index.md)
-[`Trash`](docs/trash/index.md) [`Contributors`](docs/contributors.md)
-
 [`EN`](README.md) `RU`
 
 # Morrowind Screenshots
@@ -23,10 +20,10 @@
 [Bethesda Softworks](https://elderscrolls.bethesda.net/en/morrowind). Большинство работ создано с помощью движка
 [OpenMW](https://openmw.org/), создаваемого на открытых началах. Основные материалы:
 
-- [Посты](docs/posts/index.md)
-- [Черновики](docs/inbox/index.md)
-- [Корзина](docs/trash/index.md)
-- [Участники проекта](docs/contributors.md)
+- [Посты](https://mwscr.dehero.site/posts/)
+- [Черновики](https://mwscr.dehero.site/inbox/)
+- [Корзина](https://mwscr.dehero.site/trash/)
+- [Участники](https://mwscr.dehero.site/users/)
 
 Если хотите принять участие в проекте, пожалуйста, прочитайте [руководство для участников](CONTRIBUTING.ru.md).
 
@@ -42,9 +39,9 @@
 
 ### Публикация
 
-[Черновики](docs/inbox/index.md), успешно прошедшие [редактуру](CONTRIBUTING.ru.md#редактура), попадают в
-[шорт-лист](docs/inbox/shortlist.md), откуда постепенно берутся для создания новых постов. Выбор нового поста происходит
-ежедневно.
+[Черновики](https://mwscr.dehero.site/inbox/), успешно прошедшие [редактуру](CONTRIBUTING.ru.md#редактура), попадают в
+[шорт-лист](https://mwscr.dehero.site/inbox/?publishable=true), откуда постепенно берутся для создания новых постов.
+Выбор нового поста происходит ежедневно.
 
 Пост публикуется одновременно во всех аккаунтах проекта, поддерживающих данный тип постов. В текст поста включаются:
 
@@ -68,12 +65,6 @@
 
 - [`data/users.yml`](data/users.yml) - информация об участниках проекта в формате `YAML`;
 - [`data/locations.yml`](data/locations.yml) - список игровых локаций в формате `YAML`.
-
-### Документы
-
-Для удобного просмотра данных проекта при любом изменении в репозитории происходит перегенерация документов
-[`docs`](docs) в формате `Markdown`. Все документы снабжены ссылками для удобной навигации между ними и для быстрого
-создания Issues к определённым постам.
 
 ### Дополнительные файлы
 
@@ -141,7 +132,6 @@ npm run maintain
    [`src/core/scenarios/posting.ts`](src/core/scenarios/posting.ts).
 7. Опубликовать в аккаунтах проекта не опубликованные посты из [`data/posts`](data/posts).
 8. Создать отсутствующие и удалить ненужные превью в [`assets/previews`](assets/previews).
-9. Обновить документы [`docs`](docs/).
 
 #### Обработка заявок
 

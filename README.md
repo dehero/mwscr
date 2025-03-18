@@ -1,6 +1,3 @@
-`README` [`CONTRIBUTING`](CONTRIBUTING.md) [`Posts`](docs/posts/index.md) [`Inbox`](docs/inbox/index.md)
-[`Trash`](docs/trash/index.md) [`Contributors`](docs/contributors.md)
-
 `EN` [`RU`](README.ru.md)
 
 # Morrowind Screenshots
@@ -23,10 +20,10 @@ The goal of the project is to seek out the hidden beauty and celebrate the visua
 game from [Bethesda Softworks](https://elderscrolls.bethesda.net/en/morrowind). Most of the content is created using the
 [OpenMW](https://openmw.org/) open source engine. Main materials:
 
-- [Posts](docs/posts/index.md)
-- [Inbox](docs/inbox/index.md)
-- [Trash](docs/trash/index.md)
-- [Contributors](docs/contributors.md)
+- [Posts](https://mwscr.dehero.site/posts/)
+- [Inbox](https://mwscr.dehero.site/inbox/)
+- [Trash](https://mwscr.dehero.site/trash/)
+- [Users](https://mwscr.dehero.site/users/)
 
 If you want to participate in the project, please read the [contributing guidelines](CONTRIBUTING.md).
 
@@ -42,9 +39,9 @@ If you want to participate in the project, please read the [contributing guideli
 
 ### Publication
 
-[Inbox items](docs/inbox/index.md) that have successfully passed [editing](CONTRIBUTING.md#editing) are placed on the
-[shortlist](docs/inbox/shortlist.md), from where they are gradually taken to create new posts. A new post is selected
-every day.
+[Inbox items](https://mwscr.dehero.site/inbox/) that have successfully passed [editing](CONTRIBUTING.md#editing) are
+placed on the [shortlist](https://mwscr.dehero.site/inbox/?publishable=true), from where they are gradually taken to
+create new posts. A new post is selected every day.
 
 The post is published simultaneously on all project accounts that support this type of post. The text of the post
 includes:
@@ -68,12 +65,6 @@ represented by links to the `store:` external storage, which only the project ad
 
 - [`data/users.yml`](data/users.yml) - information about project contributors in `YAML` format;
 - [`data/locations.yml`](data/locations.yml) - list of game locations in `YAML` format.
-
-### Documents
-
-For convenient viewing of the project data, any changes in the repository result in regeneration of [`docs`](docs)
-documents in `Markdown` format. All documents are linked for easy navigation between them and for quick creation of
-Issues for specific posts.
 
 ### Additional files
 
@@ -138,7 +129,6 @@ The sequence of steps is:
    [`src/core/scenarios/posting.ts`](src/core/scenarios/posting.ts).
 7. Publish unpublished posts from [`data/posts`](data/posts) to project accounts.
 8. Create missing and delete unnecessary previews in [`assets/previews`](assets/previews).
-9. Update documents [`docs`](docs/).
 
 #### Issue processing
 
