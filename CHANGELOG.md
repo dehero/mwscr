@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.45.0](https://github.com/dehero/mwscr/compare/v1.44.0...v1.45.0) (2025-03-18)
+
+### Features
+
+- **site:** implement OverflowContainer
+  ([a5aedc5](https://github.com/dehero/mwscr/commit/a5aedc533d3798132e5da4a3c1b9160fcf90a8b2))
+- **site:** show engagement not rating on post preview
+  ([ba52141](https://github.com/dehero/mwscr/commit/ba52141af59218c1fe058df09a3c2cd2648c64db))
+
+### Bug Fixes
+
+- **site:** improve posts page parameters toolbar on mobile
+  ([7fb9288](https://github.com/dehero/mwscr/commit/7fb9288d84a839dee3558b16d47c6bc890a890a5))
+
 ## [1.44.0](https://github.com/dehero/mwscr/compare/v1.43.1...v1.44.0) (2025-03-18)
 
 ### Features
