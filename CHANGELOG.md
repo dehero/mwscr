@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.44.0](https://github.com/dehero/mwscr/compare/v1.43.1...v1.44.0) (2025-03-18)
+
+### Features
+
+- remove auto-generated Markdown docs in favor of site pages
+  ([5665f35](https://github.com/dehero/mwscr/commit/5665f353a270a915c440c1e97f257f8e3ab08d27))
+
 ## [1.43.1](https://github.com/dehero/mwscr/compare/v1.43.0...v1.43.1) (2025-03-17)
 
 ### Bug Fixes
