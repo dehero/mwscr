@@ -3782,10 +3782,10 @@
       id: DFGONk_zuDM
       mediaId: '18039249929460023'
       published: 2025-01-21-18-11-24
-      updated: 2025-03-11-23-07-57
+      updated: 2025-03-18-23-08-02
       followers: 1529
       likes: 152
-      views: 556
+      views: 559
       comments: !c |-
         GxQBKKwSeE7K+EXnLuyFgxIuErUmlxOAyr2E/i23pXqNgpRqaHZ8bvMDvINHhyE1UwnQedsRsO+9
         221Es8EgK8EM09L0hs+ttEe8yiUR+UzLl9Fzf6b86zBltxIGWIsUj2R5ui9GgqOowrmxd9OOwqYf
@@ -3794,10 +3794,10 @@
     - service: vk
       id: 2075
       published: 2025-01-21-18-11-42
-      updated: 2025-03-11-23-07-59
+      updated: 2025-03-18-23-08-06
       followers: 1054
       likes: 52
-      views: 499
+      views: 509
       reposts: 6
       comments: !c |-
         G/AA6B0Hdiyz8HB04MYu/p/nZCP8x7ehD7ETSeLJfaAFpW7GmEkSLPJ5WlI2erNqW+40ShKTtn+Y
@@ -3810,10 +3810,10 @@
         - 676
         - 677
       published: 2025-01-21-18-12-00
-      updated: 2025-03-11-23-07-55
+      updated: 2025-03-18-23-08-04
       followers: 654
       likes: 74
-      views: 640
+      views: 646
 2018-04-09-empty-arena:
   title: Empty Arena
   titleRu: Пустая Арена
@@ -9329,10 +9329,10 @@
     - service: vk
       id: 2205
       published: 2025-03-18-18-12-44
-      updated: 2025-03-18-22-07-41
+      updated: 2025-03-18-23-08-00
       followers: 1191
       likes: 15
-      views: 93
+      views: 99
       reposts: 1
     - service: tg
       id:
@@ -9341,18 +9341,18 @@
         - 753
         - 754
       published: 2025-03-18-18-13-11
-      updated: 2025-03-18-22-07-42
+      updated: 2025-03-18-23-08-00
       followers: 703
-      likes: 34
-      views: 121
+      likes: 36
+      views: 126
     - service: ig
       id: DHWnZ7-PxN_
       mediaId: '18055358941897825'
       published: 2025-03-18-20-02-10
-      updated: 2025-03-18-22-07-41
+      updated: 2025-03-18-23-07-59
       followers: 1533
-      likes: 38
-      views: 89
+      likes: 47
+      views: 103
 2018-09-03-discovering-telasero:
   title: Discovering Telasero
   titleRu: Выходя к Теласеро
