@@ -343,7 +343,7 @@
     - service: vk
       id: 1442
       published: 2024-03-10-18-00-51
-      updated: 2025-03-11-02-15-48
+      updated: 2025-03-18-02-18-11
       followers: 895
       likes: 34
       views: 253
@@ -351,7 +351,7 @@
     - service: tg
       id: 341
       published: 2024-03-10-18-00-59
-      updated: 2025-03-11-00-38-16
+      updated: 2025-03-18-02-18-02
       followers: 349
       likes: 60
       views: 517
@@ -505,7 +505,7 @@
     - service: vk
       id: 1455
       published: 2024-03-17-18-09-55
-      updated: 2025-03-11-02-15-47
+      updated: 2025-03-18-02-18-11
       followers: 896
       likes: 42
       views: 328
@@ -514,7 +514,7 @@
     - service: tg
       id: 349
       published: 2024-03-17-18-10-02
-      updated: 2025-03-11-00-38-16
+      updated: 2025-03-18-02-18-01
       followers: 353
       likes: 64
       views: 502
@@ -821,7 +821,7 @@
     - service: vk
       id: 1476
       published: 2024-03-31-18-10-32
-      updated: 2025-03-11-02-15-45
+      updated: 2025-03-18-02-18-09
       followers: 905
       likes: 29
       views: 265
@@ -829,7 +829,7 @@
     - service: tg
       id: 363
       published: 2024-03-31-18-10-38
-      updated: 2025-03-11-00-38-14
+      updated: 2025-03-18-02-18-00
       followers: 354
       likes: 58
       views: 494
@@ -1583,7 +1583,7 @@
     - service: vk
       id: 1519
       published: 2024-05-05-18-17-05
-      updated: 2025-03-11-00-38-16
+      updated: 2025-03-18-02-18-05
       followers: 913
       likes: 38
       views: 277
@@ -1596,7 +1596,7 @@
     - service: tg
       id: 399
       published: 2024-05-05-18-17-11
-      updated: 2025-03-11-00-38-11
+      updated: 2025-03-18-02-17-57
       followers: 370
       likes: 61
       views: 485
@@ -1787,14 +1787,14 @@
     - service: tg
       id: 406
       published: 2024-05-12-18-20-07
-      updated: 2025-03-11-00-38-11
+      updated: 2025-03-18-02-17-57
       followers: 371
       likes: 57
       views: 461
     - service: vk
       id: 1530
       published: 2024-05-12-19-11-11
-      updated: 2025-03-11-00-38-15
+      updated: 2025-03-18-02-18-04
       followers: 915
       likes: 28
       views: 257
@@ -1922,7 +1922,7 @@
     - service: vk
       id: 1538
       published: 2024-05-19-18-18-25
-      updated: 2025-03-11-00-38-14
+      updated: 2025-03-18-02-18-03
       followers: 916
       likes: 39
       views: 256
@@ -2112,10 +2112,10 @@
     - service: vk
       id: 1576
       published: 2024-06-09-18-18-45
-      updated: 2025-03-11-00-38-11
+      updated: 2025-03-18-02-18-01
       followers: 916
       likes: 33
-      views: 285
+      views: 286
     - service: tg
       id: 434
       published: 2024-06-09-18-18-52
@@ -2853,10 +2853,10 @@
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
-      updated: 2025-03-11-02-15-40
+      updated: 2025-03-18-02-17-56
       followers: 575
       likes: 73
-      views: 519
+      views: 521
       comments: !c |-
         G2kAUBSh0oeuecAP9EJhFRSJmYumB11xBk9gJgkbcOCQWTiADb6eAidsOVIidkyXL2qMXf5QAx5S
         UYYdW5wE4bhwnxtLJg6/V/vFvNZrywLgUA67fudGFgFshkXdS1IUZNKAC+/2wpLoWa9bpxg=
@@ -3164,10 +3164,10 @@
     - service: vk
       id: 1953
       published: 2024-12-09-19-02-15
-      updated: 2025-03-11-02-15-41
+      updated: 2025-03-18-02-18-00
       followers: 1013
-      likes: 45
-      views: 519
+      likes: 46
+      views: 525
       reposts: 3
       comments: !c |-
         G5EA6J0JdizEZBhabhZBVMQtwh/PJUywSSjiZA90Y5YYFy6eC6qTYy7V5PshaQUeplDanGV7wGWL
@@ -3176,7 +3176,7 @@
     - service: tg
       id: 620
       published: 2024-12-09-19-02-22
-      updated: 2025-03-11-02-15-39
+      updated: 2025-03-18-02-17-55
       followers: 580
       likes: 63
       views: 488
@@ -3440,10 +3440,10 @@
     - service: vk
       id: 2004
       published: 2024-12-30-18-10-48
-      updated: 2025-03-11-02-15-39
+      updated: 2025-03-18-02-17-56
       followers: 1037
       likes: 53
-      views: 419
+      views: 424
       reposts: 6
       comments: !c |-
         G74BgCwS7FiSIbRJuw4H4p//LrY8Qn/Hd0EzTjyQTsBRhMl9utrO0JuhmQ32PYKHPxigumkNWu2d
@@ -3454,10 +3454,10 @@
     - service: tg
       id: 642
       published: 2024-12-30-18-10-55
-      updated: 2025-03-11-02-15-37
+      updated: 2025-03-18-02-17-53
       followers: 642
       likes: 77
-      views: 926
+      views: 933
 2024-12-31-a-look-into-the-darkness:
   title: A Look Into the Darkness
   titleRu: Взгляд в темноту
