@@ -591,22 +591,25 @@
       id: DHRQ_vXzkDp
       mediaId: '18060356425957792'
       published: 2025-03-16-18-10-10
-      updated: 2025-03-18-04-10-28
+      updated: 2025-03-18-05-09-10
       followers: 1534
       likes: 124
-      views: 456
+      views: 459
     - service: vk
       id: 2196
       published: 2025-03-16-18-10-17
-      updated: 2025-03-18-04-10-28
+      updated: 2025-03-18-05-09-11
       followers: 1187
-      likes: 75
-      views: 390
+      likes: 76
+      views: 393
       reposts: 6
+      comments: !c |-
+        iyaAkZPLQnlaeHkzgACraWQ4MjA3MDI2NjTZNdCSINCz0L7RgdGC0Lgg0Log0YHQutCw0LDQu9Cw
+        0Lwg0L3QsNCy0LXQtNCw0YLRjNGB0Y8uAw==
     - service: tg
       id: 749
       published: 2025-03-16-18-10-24
-      updated: 2025-03-18-04-10-28
+      updated: 2025-03-18-05-09-11
       followers: 705
       likes: 65
       views: 292
@@ -630,22 +633,22 @@
       id: DHT1_LINHQR
       mediaId: '18025436102415856'
       published: 2025-03-17-18-11-53
-      updated: 2025-03-18-04-10-27
+      updated: 2025-03-18-05-09-10
       followers: 1533
-      likes: 53
-      views: 242
+      likes: 55
+      views: 250
     - service: vk
       id: 2201
       published: 2025-03-17-18-11-59
-      updated: 2025-03-18-04-10-28
+      updated: 2025-03-18-05-09-10
       followers: 1191
-      likes: 23
-      views: 113
+      likes: 27
+      views: 123
       reposts: 1
     - service: tg
       id: 750
       published: 2025-03-17-18-12-06
-      updated: 2025-03-18-04-10-28
+      updated: 2025-03-18-05-09-11
       followers: 702
       likes: 38
-      views: 159
+      views: 161

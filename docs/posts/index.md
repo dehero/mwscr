@@ -24,10 +24,10 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHT1_LINHQR/)       | 2025-03-17 |   242 |    53 |      1533 |       3.46 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2201) | 2025-03-17 |   113 |    23 |      1191 |       2.02 |
-| [`tg`](https://t.me/mwscr/750)                     | 2025-03-17 |   159 |    38 |       702 |       5.41 |
-|                                                    |            |   514 |   114 |      3426 |       3.63 |
+| [`ig`](https://instagram.com/p/DHT1_LINHQR/)       | 2025-03-17 |   250 |    55 |      1533 |       3.59 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2201) | 2025-03-17 |   123 |    27 |      1191 |       2.35 |
+| [`tg`](https://t.me/mwscr/750)                     | 2025-03-17 |   161 |    38 |       702 |       5.41 |
+|                                                    |            |   534 |   120 |      3426 |       3.78 |
 
 ## <span id="2025-03-16-passage-to-the-north">Passage to the North</span>
 
@@ -47,14 +47,15 @@
 
 |                                                    | published  | views | likes | followers | engagement |
 |----------------------------------------------------|------------|------:|------:|----------:|-----------:|
-| [`ig`](https://instagram.com/p/DHRQ_vXzkDp/)       | 2025-03-16 |   456 |   124 |      1534 |       8.08 |
-| [`vk`](https://vk.com/mwscr?w=wall-138249959_2196) | 2025-03-16 |   390 |    75 |      1187 |       6.82 |
+| [`ig`](https://instagram.com/p/DHRQ_vXzkDp/)       | 2025-03-16 |   459 |   124 |      1534 |       8.08 |
+| [`vk`](https://vk.com/mwscr?w=wall-138249959_2196) | 2025-03-16 |   393 |    76 |      1187 |       6.91 |
 | [`tg`](https://t.me/mwscr/749)                     | 2025-03-16 |   292 |    65 |       705 |       9.22 |
-|                                                    |            |  1138 |   264 |      3426 |       8.04 |
+|                                                    |            |  1144 |   265 |      3426 |       8.07 |
 
 #### Comments
 
 - `tg` <ins title="2025-03-17-05-19-05">mlennic</ins> a masterpiece
+- `vk` <ins title="2025-03-18-04-33-55">id820702664</ins> В гости к скаалам наведаться.
 
 ## <span id="2025-03-15-repairing-centurion-palm">Repairing Centurion Palm</span>
 
