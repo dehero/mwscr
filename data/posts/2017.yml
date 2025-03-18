@@ -1185,17 +1185,17 @@
     - service: vk
       id: 1814
       published: 2024-10-07-18-10-38
-      updated: 2025-03-11-10-09-03
+      updated: 2025-03-18-11-07-36
       followers: 958
       likes: 42
-      views: 329
+      views: 331
     - service: tg
       id: 557
       published: 2024-10-07-18-10-45
-      updated: 2025-03-11-10-08-59
+      updated: 2025-03-18-11-07-33
       followers: 559
       likes: 62
-      views: 494
+      views: 500
 2017-01-31-clear-sky-over-caldera:
   title: Clear Sky Over Caldera
   titleRu: Чистое небо над Кальдерой
@@ -7619,19 +7619,19 @@
     - service: vk
       id: 1766
       published: 2024-09-16-18-30-47
-      updated: 2025-03-11-11-02-44
+      updated: 2025-03-18-11-07-40
       followers: 947
       likes: 52
-      views: 391
+      views: 394
       reposts: 3
       comments: !c ixOAkZPLQnkgEr9RgACpdW50aXRsbDNkstGD0Y7RgtC90LXQvdGM0LrQvgM=
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2025-03-11-10-09-02
+      updated: 2025-03-18-11-07-36
       followers: 557
       likes: 67
-      views: 764
+      views: 773
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
