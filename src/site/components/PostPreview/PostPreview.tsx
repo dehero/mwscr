@@ -7,6 +7,7 @@ import type { PostInfo } from '../../../core/entities/post-info.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { postRoute } from '../../routes/post-route.js';
+import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
@@ -35,7 +36,10 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
   const authorLetters = () => props.postInfo.authorOptions.map((option) => getUserTitleLetter(option.label));
   const requesterLetter = () =>
     props.postInfo.requesterOption ? getUserTitleLetter(props.postInfo.requesterOption.label) : undefined;
-  const url = () => postRoute.createUrl({ managerName: props.postInfo.managerName, id: props.postInfo.id });
+  const url = () =>
+    props.postInfo.status === 'added'
+      ? createDetachedDialogFragment('post-editing', { managerName: props.postInfo.managerName, id: props.postInfo.id })
+      : postRoute.createUrl({ managerName: props.postInfo.managerName, id: props.postInfo.id });
   const minHeightMultiplier = () => (props.postInfo.description ? undefined : 1);
   const aspectRatio = () =>
     getLimitedAspectRatio(

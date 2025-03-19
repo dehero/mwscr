@@ -1,5 +1,4 @@
 import type { OnBeforePrerenderStartAsync } from 'vike/types';
-// import { SITE_ROUTE_ALL } from '../../../core/entities/site-route.js';
 import { postsManagers } from '../../../local/data-managers/posts.js';
 import { postRoute } from '../../routes/post-route.js';
 
@@ -13,5 +12,4 @@ export async function onBeforePrerenderStart(): ReturnType<OnBeforePrerenderStar
       }),
     )
   ).flatMap((value) => value);
-  // return postsManagers.map((manager) => postRoute.createUrl({ managerName: manager.name, id: SITE_ROUTE_ALL }));
 }
