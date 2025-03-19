@@ -1,6 +1,6 @@
 import { makePersisted } from '@solid-primitives/storage';
 import type { JSX } from 'solid-js';
-import { createEffect, createResource, createSignal, For, Show } from 'solid-js';
+import { createEffect, createResource, createSignal, For } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import { TOPIC_INDEX_ID, type TopicEntry } from '../../../core/entities/topic.js';
 import { compareTopicInfosByTitle } from '../../../core/entities/topic-info.js';
@@ -10,6 +10,7 @@ import { helpRoute } from '../../routes/help-route.js';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
+import { TopicMessage } from '../TopicMessage/TopicMessage.jsx';
 import styles from './HelpPage.module.css';
 
 export const HelpPage = (): JSX.Element => {
@@ -81,16 +82,7 @@ export const HelpPage = (): JSX.Element => {
     <>
       <Frame component="main" class={styles.container} ref={containerRef}>
         <Frame class={styles.messages} ref={messagesRef}>
-          <For each={messageTopicEntries()}>
-            {([_, topic]) => (
-              <section class={styles.message}>
-                <Show when={topic.title}>
-                  <h2 class={styles.title}>{topic.title}</h2>
-                </Show>
-                <p class={styles.text} innerHTML={topic.html} />
-              </section>
-            )}
-          </For>
+          <For each={messageTopicEntries()}>{([_, topic]) => <TopicMessage topic={topic} />}</For>
         </Frame>
         <Frame class={styles.topics} component="ul">
           <li>

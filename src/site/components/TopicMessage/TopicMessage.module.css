@@ -1,0 +1,20 @@
+.title {
+  color: var(--color-text-light);
+  font-weight: inherit;
+  font-size: inherit;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.text {
+  margin: 0;
+}
+
+.text a {
+  color: var(--color-text-selected);
+  text-decoration: none;
+}
+
+.text a:hover {
+  color: var(--color-text-selected-hover);
+}

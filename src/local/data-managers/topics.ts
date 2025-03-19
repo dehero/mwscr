@@ -1,14 +1,10 @@
 import { readdir, readFile } from 'fs/promises';
-import { createTopicEntryFromMarkdown, getTopicBasenameFromId } from '../../core/entities/topic.js';
+import { createTopicEntryFromMarkdown } from '../../core/entities/topic.js';
 import { TopicsReader } from '../../core/entities/topics-reader.js';
 
 export const TOPICS_DIR = 'data/topics';
 
 class LocalTopicsReader extends TopicsReader {
-  protected getItemChunkName(id: string): string {
-    return getTopicBasenameFromId(id);
-  }
-
   protected async loadChunkNames(): Promise<string[]> {
     const files = await readdir(TOPICS_DIR);
 

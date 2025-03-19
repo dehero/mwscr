@@ -6,14 +6,17 @@ export function useHash(): [Accessor<string>, (value: string) => void] {
 
   createEffect(() => {
     const callback = () => setHash(window.location.hash);
+
     window.addEventListener('hashchange', callback);
     window.addEventListener('popstate', callback);
+    document.addEventListener('pagetransitionend', callback);
 
     callback();
 
     onCleanup(() => {
       window.removeEventListener('hashchange', callback);
       window.removeEventListener('popstate', callback);
+      document.removeEventListener('pagetransitionend', callback);
     });
   });
 

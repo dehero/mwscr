@@ -21,7 +21,7 @@ export function useSearchParams<TSearchParams extends object>(): [
       }
     });
     // @ts-expect-error No proper type for `navigate`
-    navigate(url.pathname + url.search, { overwriteLastHistoryEntry: true });
+    navigate(url.pathname + url.search + url.hash, { overwriteLastHistoryEntry: true });
   };
 
   return [searchParams, setSearchParams];
