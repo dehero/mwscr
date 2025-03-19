@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.47.0](https://github.com/dehero/mwscr/compare/v1.46.0...v1.47.0) (2025-03-19)
+
+### Features
+
+- **site:** improve posts page parameters controls
+  ([77fa204](https://github.com/dehero/mwscr/commit/77fa2049c60b0246a9d373b8bbb159b06b67f756))
+- **site:** use WEBM format for playing all videos
+  ([ccc2ff3](https://github.com/dehero/mwscr/commit/ccc2ff3bee3965246ee3dcc5c56ab4913728845d))
+
+### Bug Fixes
+
+- **docs:** link to core principles topic
+  ([6c97807](https://github.com/dehero/mwscr/commit/6c97807cabf4f67f25f44ae8c98bc96fecbd06a2))
+
 ## [1.46.0](https://github.com/dehero/mwscr/compare/v1.45.0...v1.46.0) (2025-03-19)
 
 ### Features
