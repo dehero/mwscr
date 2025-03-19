@@ -5565,10 +5565,10 @@
     - service: vk
       id: 1905
       published: 2024-11-19-18-11-05
-      updated: 2025-03-12-07-08-51
+      updated: 2025-03-19-07-09-07
       followers: 1006
       likes: 38
-      views: 591
+      views: 601
       reposts: 1
       comments: !c |-
         GzUDQCwLeENq8RuXOIYavU4Raq3DX9yE4+WIf77u2RI+/TM7C4F84jDjBAsST85Va0OhBQJhAYWY
@@ -5582,10 +5582,10 @@
     - service: tg
       id: 600
       published: 2024-11-19-18-11-14
-      updated: 2025-03-12-07-08-49
+      updated: 2025-03-19-07-09-07
       followers: 574
       likes: 56
-      views: 481
+      views: 482
 2017-05-11-inside-of-llethri-manor:
   title: Inside of Llethri Manor
   titleRu: В поместье Ллетри
@@ -6092,10 +6092,10 @@
     - service: vk
       id: 1891
       published: 2024-11-12-18-10-16
-      updated: 2025-03-12-07-08-52
+      updated: 2025-03-19-07-09-08
       followers: 1006
       likes: 35
-      views: 310
+      views: 312
       reposts: 1
       comments: !c |-
         G8kA+K2St4XgISW1mXaBj/+nv9gSvvEPu5RSBk0ikSfn6nQaJSdsRyA04y1aHWRy7DH9JUFbJpHX
@@ -6104,10 +6104,10 @@
     - service: tg
       id: 593
       published: 2024-11-12-18-10-24
-      updated: 2025-03-12-07-08-50
+      updated: 2025-03-19-07-09-08
       followers: 564
       likes: 60
-      views: 569
+      views: 570
 2017-05-24-near-the-ancient-dwelling:
   title: Near the Ancient Dwelling
   titleRu: У древнего жилища
@@ -9244,18 +9244,18 @@
     - service: tg
       id: 586
       published: 2024-11-05-18-10-44
-      updated: 2025-03-12-07-08-51
+      updated: 2025-03-19-07-09-09
       followers: 566
       likes: 64
-      views: 597
+      views: 600
       comments: !c iw2AkZPLQnkw+mTCgACrYmh1dmFuYXNyaWmk8J+klQM=
     - service: vk
       id: 1879
       published: 2024-11-05-19-01-20
-      updated: 2025-03-12-07-08-54
+      updated: 2025-03-19-07-09-09
       followers: 1003
       likes: 33
-      views: 368
+      views: 370
       reposts: 2
       comments: !c |-
         G5UA6OXnr/lJrjzx7Fo80qK2WScPh9EC/fBEhnPKgXtagC3htrvmd8pxpgFGSQuS49di/VBq3O+P
@@ -13188,17 +13188,17 @@
     - service: vk
       id: 1735
       published: 2024-09-03-18-29-25
-      updated: 2025-03-12-07-08-59
+      updated: 2025-03-19-07-09-15
       followers: 942
       likes: 26
-      views: 361
+      views: 363
     - service: tg
       id: 521
       published: 2024-09-03-18-29-34
-      updated: 2025-03-12-07-08-55
+      updated: 2025-03-19-07-09-15
       followers: 550
       likes: 65
-      views: 590
+      views: 591
 2017-12-01-speak-quickly-outlander:
   title: Speak Quickly, Outlander
   titleRu: Говори скорее
