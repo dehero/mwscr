@@ -85,7 +85,10 @@ export const ContributingDialog: DetachedDialog<ContributingDialogParams> = (pro
 
                 <Frame
                   component="a"
-                  href={postsRoute.createUrl({ managerName: 'posts', location: NONE_OPTION.value, original: 'true' })}
+                  href={
+                    postsRoute.createUrl({ managerName: 'posts', location: NONE_OPTION.value, original: 'true' }) +
+                    createDetachedDialogFragment('topic', { id: 'suggesting-location' })
+                  }
                   onClick={props.onClose}
                   variant="thin"
                   class={styles.variant}

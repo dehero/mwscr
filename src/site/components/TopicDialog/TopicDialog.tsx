@@ -27,7 +27,7 @@ export const TopicDialog: DetachedDialog<ContributingDialogParams> = (props) => 
         show={props.show && !topic.loading && Boolean(topic())}
         actions={[<Button onClick={props.onClose}>OK</Button>]}
       >
-        <TopicMessage topic={topic()!} class={styles.content} />
+        <TopicMessage topic={topic()!} class={styles.content} capitalizeTitle />
       </Dialog>
     </>
   );
