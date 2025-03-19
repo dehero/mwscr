@@ -1,23 +1,17 @@
 ErrorDocument 404 /404.html
 
-# <IfModule mod_rewrite.c>
-# 	RewriteEngine on
-#   RewriteCond %{REQUEST_FILENAME} !-d
-#   RewriteRule ^(posts|inbox|trash)/[^/]+/(.*) $1/all/$2 [L,QSA]
-# </IfModule>
-
 <IfModule mod_rewrite.c>
 	RewriteEngine on
   RewriteRule ^uploads\/$ uploads.php [L,QSA]    
 </IfModule>
 
-<ifModule mod_deflate.c>
+<IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript
   AddOutputFilterByType DEFLATE application/json
   AddOutputFilterByType DEFLATE application/x-font application/x-font-opentype application/x-font-otf application/x-font-truetype application/x-font-ttf font/opentype font/otf font/ttf
-</ifModule>
+</IfModule>
 
-<ifModule mod_headers.c>
+<IfModule mod_headers.c>
   # Make "Redirect 301" directive work on HTTPS
   Header always set Content-Security-Policy "upgrade-insecure-requests;"
 
@@ -25,7 +19,7 @@ ErrorDocument 404 /404.html
     Header set Cache-Control "max-age=300"
   </FilesMatch>
 
-  <FilesMatch "\.(jpg|jpeg|gif|avif|png|svg|ico|txt|webmanifest)$">
+  <FilesMatch "\.(jpg|jpeg|gif|avif|png|svg|webp|ico|txt|webmanifest)$">
     Header set Cache-Control "max-age=604800"
   </FilesMatch>
 

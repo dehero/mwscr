@@ -3,8 +3,6 @@ import type { DataManager } from './data-manager.js';
 
 const SITE_ROUTE_FRAGMENT_REGEX = /^#([^?]+)(\?.+)?$/;
 
-// export const SITE_ROUTE_ALL = 'all';
-
 export interface SiteRouteMeta {
   title: string;
   description?: string;

@@ -55,15 +55,17 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
             label: props.selected ? 'Unselect' : 'Select',
           }
         : undefined,
-      {
-        url: postRoute.createUrl({
-          managerName: local.postInfo.managerName,
-          id: local.postInfo.id,
-          // id: local.postInfo.refId ? local.postInfo.refId : local.postInfo.id,
-          // repostId: local.postInfo.refId ? local.postInfo.id : undefined,
-        }),
-        label: 'View',
-      },
+      props.postInfo.status !== 'added'
+        ? {
+            url: postRoute.createUrl({
+              managerName: local.postInfo.managerName,
+              id: local.postInfo.id,
+              // id: local.postInfo.refId ? local.postInfo.refId : local.postInfo.id,
+              // repostId: local.postInfo.refId ? local.postInfo.id : undefined,
+            }),
+            label: 'View',
+          }
+        : undefined,
       props.postInfo.status !== 'removed' && postActions().includes('edit')
         ? {
             url: createDetachedDialogFragment('post-editing', {
@@ -93,7 +95,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
         : undefined,
       props.postInfo.status
         ? {
-            label: 'Reset',
+            label: props.postInfo.status === 'added' ? 'Remove' : 'Restore',
             onExecute: handleReset,
           }
         : undefined,
