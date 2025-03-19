@@ -142,7 +142,9 @@ export const PostsPage = (): JSX.Element => {
                   <Button onClick={handleMerge}>Merge</Button>
                 ) : undefined,
                 parameters.preset() ? (
-                  <Button href={postsRoute.createUrl({ managerName: params().managerName })}>Reset</Button>
+                  <Button href={postsRoute.createUrl({ managerName: params().managerName })}>
+                    Reset<Show when={parameters.activeCount()}>{(count) => ` (${count()})`}</Show>
+                  </Button>
                 ) : undefined,
               ]}
             />

@@ -36,7 +36,7 @@ interface PostsPagePreset extends Option {
 }
 
 const presets = [
-  { value: undefined, label: 'All', searchParams: {} },
+  { value: undefined, label: 'All Posts', searchParams: {} },
   {
     value: 'editors-choice',
     label: "Editor's Choice",
@@ -94,6 +94,8 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
 
     return options;
   };
+
+  const activeCount = () => Object.keys(searchParams()).length;
 
   const original = () => stringToBool(searchParams().original);
   const publishable = () => stringToBool(searchParams().publishable);
@@ -180,5 +182,6 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     setDate,
     setStatus,
     setPlacement,
+    activeCount,
   };
 }

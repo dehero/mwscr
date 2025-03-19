@@ -49,7 +49,7 @@ interface ViewOption extends Option {
 }
 
 const allViewOptions: ViewOption[] = [
-  { label: 'All', value: undefined },
+  { label: 'All Options', value: undefined },
   { label: 'Locations', value: 'locations', filter: 'location' },
   { label: 'Tags', value: 'tags', filter: 'tag' },
   { label: 'Map', value: 'map', filter: 'location' },
