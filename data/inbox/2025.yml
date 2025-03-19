@@ -80,19 +80,3 @@ dehero.2025-03-12-20-07-06:
   content: store:/inbox/dehero.2025-03-12-20-07-06.png
   type: shot
   author: dehero
-dehero.2025-03-12-20-08-15:
-  title: Wardens
-  titleRu: Надзиратели
-  placement: Indoors
-  location: Ministry of Truth, Prison Keep
-  content: store:/inbox/dehero.2025-03-12-20-08-15.1.png
-  trash:
-    - store:/inbox/dehero.2025-03-12-20-07-51.png
-    - store:/inbox/dehero.2025-03-12-20-08-15.png
-  type: shot
-  author: dehero
-  engine: OpenMW
-  tags:
-    - prison
-    - cave
-  mark: B1
