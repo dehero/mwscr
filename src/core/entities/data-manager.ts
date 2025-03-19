@@ -11,6 +11,9 @@ import { createPostInfos, selectPostInfos } from './post-info.js';
 import type { PostsManager, PostsManagerName } from './posts-manager.js';
 import type { TagInfo } from './tag-info.js';
 import { createTagInfos } from './tag-info.js';
+import type { TopicInfo } from './topic-info.js';
+import { createTopicInfos } from './topic-info.js';
+import type { TopicsReader } from './topics-reader.js';
 import type { SelectUserInfosParams, UserInfo } from './user-info.js';
 import { createUserInfos, selectUserInfos } from './user-info.js';
 import type { UsersManager } from './users-manager.js';
@@ -19,12 +22,14 @@ export interface DataManagerArgs {
   postsManagers: PostsManager[];
   locations: LocationsReader;
   users: UsersManager;
+  topics: TopicsReader;
 }
 
 export class DataManager {
   readonly postsManagers: PostsManager[];
   readonly locations: LocationsReader;
   readonly users: UsersManager;
+  readonly topics: TopicsReader;
 
   protected cache: Record<string, unknown> = {};
 
@@ -43,6 +48,7 @@ export class DataManager {
     this.postsManagers = args.postsManagers;
     this.locations = args.locations;
     this.users = args.users;
+    this.topics = args.topics;
   }
 
   getPatch(): DataPatch {
@@ -129,6 +135,10 @@ export class DataManager {
 
   async getAllUserInfos(): Promise<UserInfo[]> {
     return this.createCache(this.getAllUserInfos.name, () => createUserInfos(this));
+  }
+
+  async getAllTopicInfos(): Promise<TopicInfo[]> {
+    return this.createCache(this.getAllTopicInfos.name, () => createTopicInfos(this));
   }
 
   async getLocationInfos(id: string | string[]): Promise<LocationInfo[] | undefined> {

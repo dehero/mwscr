@@ -4,10 +4,12 @@ import type { LocationInfo } from '../../core/entities/location-info.js';
 import type { PostInfo } from '../../core/entities/post-info.js';
 import type { PostsManagerName } from '../../core/entities/posts-manager.js';
 import type { TagInfo } from '../../core/entities/tag-info.js';
+import type { TopicInfo } from '../../core/entities/topic-info.js';
 import type { UserInfo } from '../../core/entities/user-info.js';
 import { jsonDateReviver } from '../../core/utils/date-utils.js';
 import { locations } from './locations.js';
 import { postsManagers } from './posts.js';
+import { topics } from './topics.js';
 import { users } from './users.js';
 
 class SiteDataManager extends DataManager {
@@ -109,10 +111,29 @@ class SiteDataManager extends DataManager {
       }
     });
   }
+
+  async getAllTopicInfos(): Promise<TopicInfo[]> {
+    return this.createCache(this.getAllTopicInfos.name, async () => {
+      const filename = '/data/topics/infos.json';
+
+      try {
+        const data = await fetch(filename).then((r) => r.json());
+
+        if (!Array.isArray(data)) {
+          throw new TypeError(`File "${filename}" expected to be the array of topic infos`);
+        }
+
+        return data;
+      } catch (error) {
+        throw new Error(`Failed to load "${filename}": ${error}`);
+      }
+    });
+  }
 }
 
 export const dataManager = new SiteDataManager({
   postsManagers,
   locations,
   users,
+  topics,
 });

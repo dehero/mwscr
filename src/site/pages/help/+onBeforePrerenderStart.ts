@@ -1,10 +1,8 @@
-import { readdir } from 'fs/promises';
-import { getTopicIdFromFilename } from '../../../core/entities/topic.js';
+import { dataManager } from '../../../local/data-managers/manager.js';
 import { helpRoute } from '../../routes/help-route.js';
-import { TOPICS_DIR } from './+data.js';
 
 export async function onBeforePrerenderStart() {
-  const filenames = await readdir(TOPICS_DIR);
+  const entries = await dataManager.topics.getAllEntries();
 
-  return filenames.map((file) => helpRoute.createUrl({ topicId: getTopicIdFromFilename(file) }));
+  return entries.map(([topicId]) => helpRoute.createUrl({ topicId }));
 }

@@ -9,6 +9,7 @@ import multiplePublicDirPlugin from 'vite-multiple-assets';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 import pkg from './package.json';
 import { PostsManagerName } from './src/core/entities/posts-manager.js';
+import { createTopicEntryFromMarkdown } from './src/core/entities/topic.js';
 import { dataManager } from './src/local/data-managers/manager.js';
 import { YAML_SCHEMA } from './src/local/data-managers/utils/yaml.js';
 import { getConstantRedirects } from './src/local/utils/vite-utils.js';
@@ -46,12 +47,19 @@ export default defineConfig(async ({ isSsrBuild }) => ({
           rename: (_fileName, _fileExtension, fullPath) => path.relative('./data', fullPath).replace(/.yml$/, '.json'),
         },
         {
-          src: '../../data/**/*.yml',
+          src: '../../data/**/*.md',
+          dest: 'data',
+          transform: (content, filename) =>
+            JSON.stringify(Object.fromEntries([createTopicEntryFromMarkdown(content, filename)])),
+          rename: (_fileName, _fileExtension, fullPath) => path.relative('./data', fullPath).replace(/.md$/, '.json'),
+        },
+        {
+          src: '../../data/**/*.{yml,md}',
           dest: 'data',
           transform: async () =>
             JSON.stringify(
-              (await fastGlob.glob('**/*.yml', { cwd: './data' })).map((filename) =>
-                filename.replace(/.yml$/, '.json'),
+              (await fastGlob.glob('**/*.{yml,md}', { cwd: './data' })).map((filename) =>
+                filename.replace(/.(yml|md)$/, '.json'),
               ),
             ),
           rename: 'index.json',
@@ -80,6 +88,12 @@ export default defineConfig(async ({ isSsrBuild }) => ({
           transform: async () => JSON.stringify(await dataManager.getAllPostInfos(name)),
           rename: `infos.json`,
         })),
+        {
+          src: `../../data/topics/*.md`,
+          dest: `data/topics`,
+          transform: async () => JSON.stringify(await dataManager.getAllTopicInfos()),
+          rename: `infos.json`,
+        },
         {
           src: 'public/.htaccess',
           dest: '',

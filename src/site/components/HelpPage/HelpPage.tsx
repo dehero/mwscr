@@ -1,8 +1,10 @@
 import { makePersisted } from '@solid-primitives/storage';
 import type { JSX } from 'solid-js';
-import { createEffect, createSignal, For, Show } from 'solid-js';
+import { createEffect, createResource, createSignal, For, Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
-import type { TopicEntry } from '../../../core/entities/topic.js';
+import { TOPIC_INDEX_ID, type TopicEntry } from '../../../core/entities/topic.js';
+import { compareTopicInfosByTitle } from '../../../core/entities/topic-info.js';
+import { dataManager } from '../../data-managers/manager.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { helpRoute } from '../../routes/help-route.js';
 import { createDetachedDialogFragment } from '../DetachedDialogsProvider/DetachedDialogsProvider.jsx';
@@ -13,12 +15,17 @@ import styles from './HelpPage.module.css';
 export const HelpPage = (): JSX.Element => {
   const pageContext = usePageContext();
   const { data, params } = useRouteInfo(pageContext, helpRoute);
-  const { topics } = data();
   const topicId = () => params().topicId;
 
-  const [messageTopicIds, setMessageTopicIds] = createSignal<string[]>([...new Set(['', topicId()])]);
-  const messageTopicEntries = (): TopicEntry[] =>
-    messageTopicIds().map((id) => [id, topics[id] ?? { relatedTopicIds: [] }]);
+  const indexTopicEntry = (): TopicEntry => [TOPIC_INDEX_ID, data().indexTopic];
+
+  const currentTopicEntry = (): TopicEntry => (data().topic ? [topicId(), data().topic!] : indexTopicEntry());
+
+  const [topicInfos] = createResource(() => dataManager.getAllTopicInfos());
+
+  const [messageTopicEntries, setMessageTopicEntries] = createSignal<TopicEntry[]>(
+    indexTopicEntry()[0] !== currentTopicEntry()[0] ? [indexTopicEntry(), currentTopicEntry()] : [indexTopicEntry()],
+  );
 
   let containerRef: HTMLDivElement | undefined;
   let messagesRef: HTMLDivElement | undefined;
@@ -44,16 +51,16 @@ export const HelpPage = (): JSX.Element => {
 
   const [openTopicIds, setOpenTopicIds] = createSignal(openTopicIdsFromMessages());
 
-  const openTopicEntries = () =>
-    [...Object.entries(topics)]
-      .filter(([id]) => id && openTopicIds().has(id))
-      .sort((a, b) => a[1].title?.localeCompare(b[1].title || '') || a[0].localeCompare(b[0]));
+  const openTopicInfos = () =>
+    topicInfos()
+      ?.filter((info) => openTopicIds().has(info.id))
+      .sort(compareTopicInfosByTitle('asc'));
 
   createEffect(() => {
-    const id = topicId();
+    const entry = currentTopicEntry();
 
-    if (messageTopicIds().at(-1) !== id) {
-      setMessageTopicIds((ids) => [...ids, id]);
+    if (messageTopicEntries().at(-1)?.[0] !== entry[0]) {
+      setMessageTopicEntries((entries) => [...entries, entry]);
     }
 
     messagesRef?.lastElementChild?.scrollIntoView({ behavior: 'smooth' });
@@ -104,11 +111,11 @@ export const HelpPage = (): JSX.Element => {
           <li>
             <Divider />
           </li>
-          <For each={openTopicEntries()}>
-            {([topicId, topic]) => (
+          <For each={openTopicInfos()}>
+            {(info) => (
               <li>
-                <a class={styles.topic} href={helpRoute.createUrl({ topicId })}>
-                  {topic.title}
+                <a class={styles.topic} href={helpRoute.createUrl({ topicId: info.id })}>
+                  {info.title}
                 </a>
               </li>
             )}
