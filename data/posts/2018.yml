@@ -9329,11 +9329,14 @@
     - service: vk
       id: 2205
       published: 2025-03-18-18-12-44
-      updated: 2025-03-19-07-09-03
+      updated: 2025-03-19-08-11-05
       followers: 1191
-      likes: 26
-      views: 148
+      likes: 30
+      views: 159
       reposts: 1
+      comments: !c |-
+        CyOAkZPLQnla10GbAACqaWQ2MzU3MTUyMdkv0JzQsNCx0YDQuNCz0LDRiCAtINGD0LbQsNGB0L3Q
+        viDQsdC10YHRj9GH0LjQtSED
     - service: tg
       id:
         - 751
@@ -9341,18 +9344,18 @@
         - 753
         - 754
       published: 2025-03-18-18-13-11
-      updated: 2025-03-19-07-09-04
+      updated: 2025-03-19-08-11-04
       followers: 703
-      likes: 41
-      views: 149
+      likes: 42
+      views: 155
     - service: ig
       id: DHWnZ7-PxN_
       mediaId: '18055358941897825'
       published: 2025-03-18-20-02-10
-      updated: 2025-03-19-07-09-02
+      updated: 2025-03-19-08-11-04
       followers: 1533
-      likes: 70
-      views: 177
+      likes: 74
+      views: 187
 2018-09-03-discovering-telasero:
   title: Discovering Telasero
   titleRu: Выходя к Теласеро
