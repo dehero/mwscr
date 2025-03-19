@@ -1049,16 +1049,16 @@
     - service: vk
       id: 1653
       published: 2024-07-23-18-20-55
-      updated: 2025-03-12-21-07-44
+      updated: 2025-03-19-22-07-48
       followers: 921
       likes: 40
-      views: 303
+      views: 305
       reposts: 2
       comments: !c CxeAkZPLQnkOQ9VJgACqbW9yYW5yZW1hcrjQlNCw0LbQtSDQvdC1INC00YPQvNCw0LkD
     - service: tg
       id: 478
       published: 2024-07-23-18-21-00
-      updated: 2025-03-12-21-07-44
+      updated: 2025-03-19-22-07-45
       followers: 400
       likes: 62
       views: 568
@@ -1282,7 +1282,7 @@
     - service: tg
       id: 429
       published: 2024-06-04-18-19-52
-      updated: 2025-03-12-21-07-50
+      updated: 2025-03-19-22-07-50
       followers: 383
       likes: 64
       views: 469

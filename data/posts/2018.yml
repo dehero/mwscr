@@ -1279,15 +1279,15 @@
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2025-03-12-21-07-42
+      updated: 2025-03-19-22-07-45
       followers: 926
       likes: 28
-      views: 286
+      views: 288
       reposts: 1
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2025-03-12-21-07-42
+      updated: 2025-03-19-22-07-44
       followers: 502
       likes: 70
       views: 647
@@ -3188,7 +3188,7 @@
     - service: tg
       id: 422
       published: 2024-05-28-18-19-16
-      updated: 2025-03-12-21-07-51
+      updated: 2025-03-19-22-07-51
       followers: 378
       likes: 64
       views: 457
@@ -4301,7 +4301,7 @@
     - service: tg
       id: 415
       published: 2024-05-21-18-18-59
-      updated: 2025-03-12-21-07-52
+      updated: 2025-03-19-22-07-52
       followers: 373
       likes: 57
       views: 484
@@ -5039,15 +5039,15 @@
     - service: vk
       id: 1628
       published: 2024-07-09-18-20-20
-      updated: 2025-03-12-21-07-47
+      updated: 2025-03-19-22-07-50
       followers: 920
       likes: 35
-      views: 262
+      views: 263
       reposts: 1
     - service: tg
       id: 464
       published: 2024-07-09-18-20-26
-      updated: 2025-03-12-21-07-46
+      updated: 2025-03-19-22-07-47
       followers: 396
       likes: 69
       views: 475
@@ -6176,10 +6176,10 @@
     - service: vk
       id: 1611
       published: 2024-07-02-18-20-16
-      updated: 2025-03-12-21-07-48
+      updated: 2025-03-19-22-07-51
       followers: 918
       likes: 40
-      views: 397
+      views: 399
       reposts: 1
       comments: !c |-
         G7oA+B2JsY2aLays8sOF+H+ek+kEv012hj7ETpJg4sl9RqnbLCF6DMViH+fi9Hxa3tQsSkXyY/xs
@@ -6188,7 +6188,7 @@
     - service: tg
       id: 457
       published: 2024-07-02-18-20-23
-      updated: 2025-03-12-21-07-46
+      updated: 2025-03-19-22-07-48
       followers: 391
       likes: 58
       views: 449
@@ -9329,10 +9329,10 @@
     - service: vk
       id: 2205
       published: 2025-03-18-18-12-44
-      updated: 2025-03-19-21-07-43
+      updated: 2025-03-19-22-07-43
       followers: 1191
       likes: 38
-      views: 220
+      views: 223
       reposts: 1
       comments: !c |-
         CyOAkZPLQnla10GbAACqaWQ2MzU3MTUyMdkv0JzQsNCx0YDQuNCz0LDRiCAtINGD0LbQsNGB0L3Q
@@ -9344,18 +9344,18 @@
         - 753
         - 754
       published: 2025-03-18-18-13-11
-      updated: 2025-03-19-21-07-43
+      updated: 2025-03-19-22-07-43
       followers: 703
       likes: 45
-      views: 187
+      views: 189
     - service: ig
       id: DHWnZ7-PxN_
       mediaId: '18055358941897825'
       published: 2025-03-18-20-02-10
-      updated: 2025-03-19-21-07-45
+      updated: 2025-03-19-22-07-46
       followers: 1533
-      likes: 86
-      views: 233
+      likes: 87
+      views: 234
 2018-09-03-discovering-telasero:
   title: Discovering Telasero
   titleRu: Выходя к Теласеро
