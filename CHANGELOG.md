@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.46.0](https://github.com/dehero/mwscr/compare/v1.45.0...v1.46.0) (2025-03-19)
+
+### Features
+
+- **site:** implement help topic dialogs
+  ([6186c42](https://github.com/dehero/mwscr/commit/6186c42755476a442266eff72efafed30de45f40))
+- **site:** move help topics to data and implement TopicsReader
+  ([8d8e117](https://github.com/dehero/mwscr/commit/8d8e1173aed7bb4e76cd03fba146c8186f1530c4))
+- **site:** show suggesting location topic on "Find Missing Location" contribution variant selection
+  ([367cd27](https://github.com/dehero/mwscr/commit/367cd27cec2459a2149c2dc068554bd16b112232))
+
 ## [1.45.0](https://github.com/dehero/mwscr/compare/v1.44.0...v1.45.0) (2025-03-18)
 
 ### Features
