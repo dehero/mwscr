@@ -2,6 +2,8 @@
 // Turn off all error reporting
 error_reporting(0);
 
+$uploadsDir = __DIR__ . '/uploads/';
+
 if (ob_get_length()) {
   http_response_code(500);
   echo ob_get_contents();
@@ -9,6 +11,7 @@ if (ob_get_length()) {
   $data = null;
 
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    deleteObsoleteUploads();
     $data = uploadFiles();
   }
 
@@ -73,10 +76,31 @@ function createImagePreview($filename)
   return $previewFileName;
 }
 
+function deleteObsoleteUploads()
+{
+  global $uploadsDir;
+
+  $filenames = scandir($uploadsDir);
+
+  foreach ($filenames as $filename) {
+    if ($filename === '.' || $filename === '..') {
+      continue;
+    }
+
+    $modifiedTime = filemtime("$uploadsDir/$filename");
+    $sevenDaysInSeconds = 60 * 60 * 24 * 7;
+
+    if (time() - $modifiedTime > $sevenDaysInSeconds) {
+      unlink("$uploadsDir/$filename");
+    }
+  }
+}
+
 function uploadFiles()
 {
+  global $uploadsDir;
+
   $baseUrl = 'https://mwscr.dehero.site/uploads/';
-  $uploadsDir = __DIR__ . '/uploads/';
   $files = $_FILES['file'];
   $result = [];
 
