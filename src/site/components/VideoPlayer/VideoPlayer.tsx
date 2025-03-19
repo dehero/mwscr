@@ -11,6 +11,7 @@ export interface VideoPlayerProps {
   onError?: () => void;
   class?: string;
   poster?: string;
+  title?: string;
 }
 
 export const VideoPlayer: Component<VideoPlayerProps> = (props) => {
@@ -26,6 +27,9 @@ export const VideoPlayer: Component<VideoPlayerProps> = (props) => {
       onerror={props.onError}
       src={props.src}
       poster={props.poster}
+      title={props.title}
+      // @ts-expect-error No proper typing
+      controlslist="nodownload"
     >
       {/* Chrome does not trigger error event for src added as source tag */}
       {/* <source src={props.src} type="video/mp4" /> */}

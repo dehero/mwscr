@@ -83,12 +83,6 @@
   box-sizing: border-box;
 }
 
-.youtubeVideo {
-  aspect-ratio: 16 / 9;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
 .info {
   display: flex;
   flex-flow: column nowrap;

@@ -11,11 +11,11 @@ import { postsManagerDescriptors } from '../../../core/entities/posts-manager.js
 import { getPublicationsStats } from '../../../core/entities/publication.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
-import { youtube } from '../../../core/services/youtube.js';
 import { store } from '../../../core/stores/index.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
 import { dataManager } from '../../data-managers/manager.js';
+import { getVideoLightweightUrl, getVideoPosterUrl } from '../../data-managers/resources.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
 import { useSearchParams } from '../../hooks/useSearchParams.js';
@@ -96,12 +96,9 @@ export const PostPage = (): JSX.Element => {
 
   const stats = () => getPublicationsStats(data().publications ?? []);
 
-  const youtubePost = () => data().publications?.find((post) => post.service === 'yt');
-  const youtubeUrl = () => (youtubePost() ? youtube.getPublicationUrl(youtubePost()!, true) : undefined);
-
   const withContent = () => content().length > 0;
   const withFullSizeContent = () =>
-    Boolean(postInfo()?.published || contentPublicUrls().find((url) => typeof url === 'string') || youtubePost());
+    Boolean(postInfo()?.published || contentPublicUrls().find((url) => typeof url === 'string'));
   const withContentSelection = () => withFullSizeContent() && content().length > 1;
   const withRequest = () => Boolean(postInfo()?.request);
 
@@ -218,13 +215,7 @@ export const PostPage = (): JSX.Element => {
                           />
                         }
                       >
-                        <Match
-                          when={
-                            loadingFailedUrls().includes(selectedContentPublicUrl()!)
-                            //  ||
-                            // loadingFailedUrls().includes(youtubeUrl()!)
-                          }
-                        >
+                        <Match when={loadingFailedUrls().includes(selectedContentPublicUrl()!)}>
                           <Frame
                             component="img"
                             src={YellowExclamationMark}
@@ -233,29 +224,14 @@ export const PostPage = (): JSX.Element => {
                             aria-label="yellow exclamation mark"
                           />
                         </Match>
-                        <Match when={resourceIsVideo(url()) && youtubeUrl()}>
-                          <Frame
-                            component="iframe"
-                            width={804}
-                            src={youtubeUrl()}
-                            title={alt() || url()}
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen
-                            // @ts-expect-error No proper typing
-                            frameborder="0"
-                            class={clsx(styles.selectedContent, styles.youtubeVideo)}
-                            onLoad={handleContentLoad}
-                            onError={() => handleContentError(youtubeUrl()!)}
-                            style={{ 'aspect-ratio': aspectRatio() }}
-                          />
-                        </Match>
                         <Match when={resourceIsVideo(url()) && selectedContentPublicUrl()}>
                           <VideoPlayer
-                            src={selectedContentPublicUrl()!}
-                            // poster={getResourcePreviewUrl(url())}
+                            title={alt() || url()}
+                            src={getVideoLightweightUrl(selectedContentPublicUrl()!)}
+                            poster={getVideoPosterUrl(selectedContentPublicUrl()!)}
                             aspectRatio={aspectRatio()}
                             onLoad={handleContentLoad}
-                            onError={() => handleContentError(selectedContentPublicUrl()!)}
+                            onError={() => handleContentError(getVideoLightweightUrl(selectedContentPublicUrl()!))}
                             class={styles.selectedContent}
                           />
                         </Match>
