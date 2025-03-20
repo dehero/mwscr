@@ -296,7 +296,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
             options={[
               { label: 'Save to Edits', value: 'patch' },
               { label: 'Create GitHub Issue', value: 'github-issue' },
-              { label: 'Sent via email', value: 'email' },
+              { label: 'Send via email', value: 'email' },
             ]}
             value={submitVariant()}
             onChange={setSubmitVariant}
@@ -417,7 +417,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                       <div class={styles.selectWrapper}>
                         <Select
                           options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
-                          name="author"
+                          name="location"
                           value={location}
                           onChange={(location) => setPostLocation(index(), location)}
                           class={styles.select}
