@@ -1590,10 +1590,10 @@
     - service: vk
       id: 1713
       published: 2024-08-28-18-23-48
-      updated: 2025-03-13-11-07-32
+      updated: 2025-03-20-12-15-07
       followers: 940
       likes: 49
-      views: 361
+      views: 363
       reposts: 3
       comments: !c |-
         GwwBwBwJti2HFfqqyxCCC6qYLuMT4T8eMAIUw/gqa1PB9SokripR95RD9dxzHcLxFpk0aqVzKxlL
@@ -1603,7 +1603,7 @@
     - service: tg
       id: 515
       published: 2024-08-28-18-23-56
-      updated: 2025-03-13-11-07-32
+      updated: 2025-03-20-12-15-06
       followers: 546
       likes: 70
       views: 640
