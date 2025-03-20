@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.48.0](https://github.com/dehero/mwscr/compare/v1.47.0...v1.48.0) (2025-03-20)
+
+### Features
+
+- **docs:** improve topics about violations
+  ([52f02f0](https://github.com/dehero/mwscr/commit/52f02f0aa2e271efb2c4e195e4886910e424795d))
+
+### Bug Fixes
+
+- **site:** fix post dialog mistypes
+  ([c3121ba](https://github.com/dehero/mwscr/commit/c3121baed6c2e28355e640a562d1681b85292409))
+
 ## [1.47.0](https://github.com/dehero/mwscr/compare/v1.46.0...v1.47.0) (2025-03-19)
 
 ### Features
