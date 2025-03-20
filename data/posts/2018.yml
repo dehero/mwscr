@@ -4628,10 +4628,10 @@
     - service: vk
       id: 1796
       published: 2024-10-02-18-10-34
-      updated: 2025-03-13-10-09-22
+      updated: 2025-03-20-11-07-35
       followers: 957
       likes: 34
-      views: 343
+      views: 345
       reposts: 1
       comments: !c |-
         G58A+B0HzvksjiT2HrnYIoRuT7iXLLUksUCSEivC5EbW1E3UH1MTzCJbi5Z2gf5qbNC0Jsk7Zwcb
@@ -8897,17 +8897,17 @@
     - service: vk
       id: 1772
       published: 2024-09-18-18-20-17
-      updated: 2025-03-13-10-09-23
+      updated: 2025-03-20-11-07-36
       followers: 947
       likes: 37
-      views: 311
+      views: 313
     - service: tg
       id: 537
       published: 2024-09-18-18-20-25
-      updated: 2025-03-13-10-09-21
+      updated: 2025-03-20-11-07-34
       followers: 556
       likes: 58
-      views: 535
+      views: 536
 2018-08-25-on-the-background-of-carpet:
   title: On the Background of Carpet
   titleRu: На фоне ковра
@@ -9329,10 +9329,10 @@
     - service: vk
       id: 2205
       published: 2025-03-18-18-12-44
-      updated: 2025-03-20-10-09-12
+      updated: 2025-03-20-11-07-33
       followers: 1191
       likes: 41
-      views: 253
+      views: 254
       reposts: 1
       comments: !c |-
         CyOAkZPLQnla10GbAACqaWQ2MzU3MTUyMdkv0JzQsNCx0YDQuNCz0LDRiCAtINGD0LbQsNGB0L3Q
@@ -9344,15 +9344,15 @@
         - 753
         - 754
       published: 2025-03-18-18-13-11
-      updated: 2025-03-20-10-09-12
+      updated: 2025-03-20-11-07-33
       followers: 703
       likes: 47
-      views: 210
+      views: 211
     - service: ig
       id: DHWnZ7-PxN_
       mediaId: '18055358941897825'
       published: 2025-03-18-20-02-10
-      updated: 2025-03-20-10-09-14
+      updated: 2025-03-20-11-07-35
       followers: 1533
       likes: 91
       views: 245
@@ -11838,7 +11838,7 @@
     - service: vk
       id: 1005
       published: 2018-10-28
-      updated: 2025-03-13-10-09-28
+      updated: 2025-03-20-11-07-43
       followers: 259
       likes: 37
       views: 417
@@ -11874,7 +11874,7 @@
     - service: vk
       id: 1007
       published: 2018-10-29
-      updated: 2025-03-13-10-09-27
+      updated: 2025-03-20-11-07-42
       followers: 266
       likes: 37
       views: 538
@@ -11942,7 +11942,7 @@
     - service: vk
       id: 1010
       published: 2018-10-30
-      updated: 2025-03-13-10-09-26
+      updated: 2025-03-20-11-07-41
       followers: 270
       likes: 35
       views: 523
@@ -12005,7 +12005,7 @@
     - service: vk
       id: 1018
       published: 2018-10-31
-      updated: 2025-03-13-10-09-25
+      updated: 2025-03-20-11-07-40
       followers: 271
       likes: 51
       views: 1023
@@ -12057,7 +12057,7 @@
     - service: vk
       id: 1022
       published: 2018-11-01
-      updated: 2025-03-13-10-09-24
+      updated: 2025-03-20-11-07-39
       followers: 278
       likes: 35
       views: 575

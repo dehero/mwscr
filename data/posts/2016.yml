@@ -176,10 +176,10 @@
     - service: vk
       id: 1750
       published: 2024-09-11-18-36-08
-      updated: 2025-03-13-11-07-30
+      updated: 2025-03-20-11-07-37
       followers: 945
       likes: 51
-      views: 417
+      views: 419
       reposts: 1
       comments: !c |-
         G2EA+B2pUx/KfdD/NlMTk8mSTAZLslnFIpYvY7CwMlbqUlu5B24yS00OcZz+KqPL1oZMZJFG2pRo
@@ -187,10 +187,10 @@
     - service: tg
       id: 529
       published: 2024-09-11-18-36-14
-      updated: 2025-03-13-11-07-30
+      updated: 2025-03-20-11-07-36
       followers: 555
       likes: 57
-      views: 897
+      views: 906
       comments: !c ixaAkZTLQnkeJgMugAClYW5zaXOnbXkgaG9tZZPLQnkeK5YvAACpR2F0ZW1hdGU3oAM=
 2016-11-20-5-galom-daeus:
   title: Galom Daeus
