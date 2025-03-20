@@ -154,8 +154,11 @@ async function processMessage(message: TelegramBot.Message) {
           const violation: PostViolationDescriptor = postViolationDescriptors[post.violation];
           replies.push(
             `${getRandomRejectPhrase()}\n<blockquote><b>${esc(asArray(post.content).join(', '))}</b>\n${
-              violation.reference
-                ? `<a href="${encodeURI(violation.reference)}">${violation.title}</a>`
+              violation.topicId
+                ? // TODO: don't use hardcoded site domain
+                  `<a href="${encodeURI(`https://mwscr.dehero.site/help/${violation.topicId}/`)}">${
+                    violation.title
+                  }</a>`
                 : violation.title
             }.${violation.solution ? ` ${violation.solution}` : ''}</blockquote>`,
           );

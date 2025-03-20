@@ -37,7 +37,6 @@ export const PostViolation = picklist([
   'non-vanilla-look',
   'uses-mods',
   'ui-visible',
-  'unclear-request',
   'unreachable-resource',
   'unsupported-resource',
 ]);
@@ -129,8 +128,8 @@ interface PostMarkDescriptor {
 export interface PostViolationDescriptor {
   title: string;
   letter: string;
+  topicId: string;
   solution?: string;
-  reference?: string;
 }
 
 type PostTagDescriptor = [tag: PostTag, rule: (post: Post) => boolean, parse?: (post: Post) => void];
@@ -188,34 +187,31 @@ export const postMarkDescriptors = Object.freeze<Record<PostMark, PostMarkDescri
 });
 
 export const postViolationDescriptors = Object.freeze<Record<PostViolation, PostViolationDescriptor>>({
-  'inappropriate-content': { title: 'Inappropriate content', letter: 'C' },
-  'jpeg-artifacts': { title: 'JPEG artifacts', letter: 'J' },
-  'graphic-issues': { title: 'Graphic issues', letter: 'G' },
-  'no-anti-aliasing': { title: 'No anti-aliasing', letter: 'A' },
-  'non-vanilla-look': { title: 'Non-vanilla look', letter: 'N' },
+  'inappropriate-content': { title: 'Inappropriate content', letter: 'C', topicId: 'appropriate-content' },
+  'jpeg-artifacts': { title: 'JPEG artifacts', letter: 'J', topicId: 'no-jpeg-artifacts' },
+  'graphic-issues': { title: 'Graphic issues', letter: 'G', topicId: 'no-graphic-issues' },
+  'no-anti-aliasing': { title: 'No anti-aliasing', topicId: 'anti-aliasing', letter: 'A' },
+  'non-vanilla-look': { title: 'Non-vanilla look', topicId: 'vanilla-look', letter: 'N' },
   'uses-mods': {
     title: 'Uses or requires mods',
-    reference: 'https://mwscr.dehero.site/help/no-mods/',
+    topicId: 'no-mods',
     letter: 'M',
   },
   'ui-visible': {
     title: 'UI is visible',
-    reference: 'https://mwscr.dehero.site/help/no-ui/',
+    topicId: 'no-ui',
     letter: 'U',
-  },
-  'unclear-request': {
-    title: 'Unclear request',
-    letter: 'Q',
   },
   'unreachable-resource': {
     title: 'Unreachable resource',
-    solution: 'Check the link to have no mistypes and for being acceptable without authorization.',
+    solution: 'Check the link to have no mistypes and for being accessible without authorization.',
+    topicId: 'available-resource',
     letter: 'R',
   },
   'unsupported-resource': {
     title: 'Unsupported resource',
     solution: 'Attach your work as PNG, MP4, AVI or ZIP file, respect file size restrictions.',
-    reference: 'https://mwscr.dehero.site/help/file-format/',
+    topicId: 'file-format',
     letter: 'R',
   },
 });
