@@ -2753,7 +2753,7 @@
     - service: vk
       id: 1541
       published: 2024-05-22-18-19-25
-      updated: 2025-03-13-22-07-27
+      updated: 2025-03-20-22-07-41
       followers: 917
       likes: 31
       views: 261
@@ -2975,18 +2975,18 @@
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-03-13-22-07-24
+      updated: 2025-03-20-22-07-38
       followers: 1053
       likes: 55
-      views: 354
+      views: 363
       reposts: 1
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-03-13-22-07-22
+      updated: 2025-03-20-22-07-36
       followers: 655
       likes: 73
-      views: 524
+      views: 531
       comments: !c |-
         Cx+AkZPLQnlHEE4ggACoQWVsbGFyaWHZKdCv0LrRliDQutC+0LvRjNC+0YDQuCwg0Y/QutCwINC6
         0YDQsNGB0LAhAw==
@@ -7120,10 +7120,10 @@
     - service: vk
       id: 1663
       published: 2024-08-01-04-18-52
-      updated: 2025-03-13-22-07-26
+      updated: 2025-03-20-22-07-40
       followers: 924
       likes: 31
-      views: 282
+      views: 284
       reposts: 2
 2017-06-22-the-dreamer-is:
   title: The Dreamer Is...
@@ -7338,10 +7338,10 @@
     - service: vk
       id: 2142
       published: 2025-02-20-18-11-30
-      updated: 2025-03-13-22-07-21
+      updated: 2025-03-20-22-07-35
       followers: 1109
       likes: 31
-      views: 348
+      views: 374
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
@@ -7675,10 +7675,10 @@
     - service: tg
       id: 352
       published: 2024-03-20-18-11-08
-      updated: 2025-03-13-22-07-25
+      updated: 2025-03-20-22-07-41
       followers: 352
       likes: 58
-      views: 455
+      views: 456
 2017-07-06-snowy-granius-meets-travelers-near-arkngthand:
   title: Snowy Granius Meets Travelers Near Arkngthand
   titleRu: Граниус Снежный встречает путников у Аркнтанда
@@ -9968,10 +9968,10 @@
       id: DESuLyyPPAX
       mediaId: '17995420544733093'
       published: 2025-01-01-18-10-15
-      updated: 2025-03-13-22-07-22
+      updated: 2025-03-20-22-07-40
       followers: 1520
       likes: 127
-      views: 590
+      views: 593
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21

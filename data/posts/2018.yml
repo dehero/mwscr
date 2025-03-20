@@ -355,7 +355,7 @@
     - service: vk
       id: 574
       published: 2018-01-11
-      updated: 2025-03-13-22-07-31
+      updated: 2025-03-20-22-07-46
       followers: 120
       likes: 16
       views: 170
@@ -415,7 +415,7 @@
     - service: vk
       id: 575
       published: 2018-01-12
-      updated: 2025-03-13-22-07-30
+      updated: 2025-03-20-22-07-45
       followers: 120
       likes: 17
       views: 195
@@ -440,7 +440,7 @@
     - service: vk
       id: 576
       published: 2018-01-13
-      updated: 2025-03-13-22-07-30
+      updated: 2025-03-20-22-07-44
       followers: 121
       likes: 19
       views: 191
@@ -495,7 +495,7 @@
     - service: vk
       id: 577
       published: 2018-01-14
-      updated: 2025-03-13-22-07-29
+      updated: 2025-03-20-22-07-43
       followers: 122
       likes: 7
       views: 178
@@ -10633,18 +10633,18 @@
     - service: vk
       id: 1883
       published: 2024-11-06-18-11-45
-      updated: 2025-03-13-22-07-25
+      updated: 2025-03-20-22-07-39
       followers: 1004
       likes: 39
-      views: 404
+      views: 407
       reposts: 3
     - service: tg
       id: 587
       published: 2024-11-06-18-11-51
-      updated: 2025-03-13-22-07-23
+      updated: 2025-03-20-22-07-37
       followers: 566
       likes: 59
-      views: 642
+      views: 643
 2018-10-02-shatalg:
   title: Shatalg
   titleRu: Шаталг
