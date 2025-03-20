@@ -77,5 +77,5 @@ jobs:
           REMOTE_HOST: ${{ secrets.SITE_SSH_HOST }}
           REMOTE_USER: ${{ secrets.SITE_SSH_USER }}
           TARGET: ${{ secrets.SITE_SSH_PATH }}
-          EXCLUDE: '/store/'
+          EXCLUDE: '/store/, /uploads/'
           SCRIPT_BEFORE: 'ls>/dev/null'
