@@ -956,18 +956,18 @@
     - service: vk
       id: 1990
       published: 2024-12-25-18-10-00
-      updated: 2025-03-13-00-38-27
+      updated: 2025-03-20-02-16-17
       followers: 1030
       likes: 38
-      views: 340
+      views: 348
       reposts: 1
     - service: tg
       id: 637
       published: 2024-12-25-18-10-08
-      updated: 2025-03-13-00-38-23
+      updated: 2025-03-20-02-16-14
       followers: 612
       likes: 65
-      views: 798
+      views: 801
       comments: !c |-
         CyiAkZTLQnlAVEbPAACtT2xtZXJfSXpkZXlsYbJXaGF0IGlzIHRoZSBwbGFjZT+Ty0J5QFYdBgAA
         pW13c2NytEFsZCBWZWxvdGhpLCBPdXRwb3N0Aw==
@@ -5733,18 +5733,18 @@
     - service: vk
       id: 2067
       published: 2025-01-15-18-10-29
-      updated: 2025-03-13-00-38-24
+      updated: 2025-03-20-02-16-13
       followers: 1053
       likes: 45
-      views: 467
+      views: 476
       reposts: 2
     - service: tg
       id: 668
       published: 2025-01-15-18-10-36
-      updated: 2025-03-13-00-38-20
+      updated: 2025-03-20-02-16-11
       followers: 654
       likes: 70
-      views: 577
+      views: 584
       comments: !c |-
         G6UCIKwObGPSS486iGLrDaMHpSneRv7G//OcbIT/+E6GGUwg2cSCCJL7TF3M+1cvJQrjCAGhbt0u
         K+2uFZa/n1uqa57Xt1TmiOgTxKRUOiX90jgKICaNkrzTw+jIzJPLBSpqtSa9x8d4RhnQtNAbTjEZ
@@ -9329,10 +9329,10 @@
     - service: vk
       id: 2205
       published: 2025-03-18-18-12-44
-      updated: 2025-03-20-00-37-49
+      updated: 2025-03-20-02-16-08
       followers: 1191
-      likes: 39
-      views: 228
+      likes: 40
+      views: 232
       reposts: 1
       comments: !c |-
         CyOAkZPLQnla10GbAACqaWQ2MzU3MTUyMdkv0JzQsNCx0YDQuNCz0LDRiCAtINGD0LbQsNGB0L3Q
@@ -9344,7 +9344,7 @@
         - 753
         - 754
       published: 2025-03-18-18-13-11
-      updated: 2025-03-20-00-37-49
+      updated: 2025-03-20-02-16-09
       followers: 703
       likes: 45
       views: 192
@@ -9352,10 +9352,10 @@
       id: DHWnZ7-PxN_
       mediaId: '18055358941897825'
       published: 2025-03-18-20-02-10
-      updated: 2025-03-20-00-37-50
+      updated: 2025-03-20-02-16-10
       followers: 1533
-      likes: 87
-      views: 234
+      likes: 89
+      views: 236
 2018-09-03-discovering-telasero:
   title: Discovering Telasero
   titleRu: Выходя к Теласеро
@@ -11509,18 +11509,18 @@
     - service: vk
       id: 2034
       published: 2025-01-08-18-10-54
-      updated: 2025-03-13-00-38-25
+      updated: 2025-03-20-02-16-15
       followers: 1052
       likes: 37
-      views: 351
+      views: 359
       reposts: 1
     - service: tg
       id: 657
       published: 2025-01-08-18-11-01
-      updated: 2025-03-13-00-38-21
+      updated: 2025-03-20-02-16-12
       followers: 646
       likes: 65
-      views: 510
+      views: 513
 2018-10-21-trees-and-skies:
   title: Trees and Skies
   titleRu: Деревья и небеса

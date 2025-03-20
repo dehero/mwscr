@@ -193,7 +193,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2025-03-13-00-38-32
+      updated: 2025-03-20-02-16-22
       followers: 894
       likes: 47
       views: 368
@@ -202,7 +202,7 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2025-03-13-00-38-24
+      updated: 2025-03-20-02-16-17
       followers: 337
       likes: 91
       views: 620
@@ -4319,10 +4319,10 @@
     - service: vk
       id: 2139
       published: 2025-02-19-18-11-18
-      updated: 2025-03-13-00-38-20
+      updated: 2025-03-20-02-16-10
       followers: 1102
       likes: 47
-      views: 404
+      views: 429
       comments: !c |-
         CyeAkZPLQnlSAJoagACpdmxhZGtyMTE02TjQrdGC0L4g0L/QtdGJ0LXRgNGDINGPINGD0LfQvdCw
         0Y4g0LjQtyDRgtGL0YHRj9GH0Lgg8J+YgQM=
@@ -9975,10 +9975,10 @@
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-03-13-00-38-26
+      updated: 2025-03-20-02-16-16
       followers: 1038
       likes: 40
-      views: 436
+      views: 444
       reposts: 1
       comments: !c |-
         G1IA+J0JdiwXiwm2XHYcUe1IT5+tDJsEI0z2PGWlNCWbjYcPp1yKLYw4kWMgAT5zZLJTE42yKmre
@@ -9986,10 +9986,10 @@
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-03-13-00-38-22
+      updated: 2025-03-20-02-16-13
       followers: 644
       likes: 68
-      views: 548
+      views: 553
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
@@ -11577,7 +11577,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2025-03-13-00-38-28
+      updated: 2025-03-20-02-16-19
       followers: 904
       likes: 44
       views: 297
@@ -12648,15 +12648,15 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2025-03-13-00-38-31
+      updated: 2025-03-20-02-16-21
       followers: 895
       likes: 35
-      views: 296
+      views: 297
       reposts: 2
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2025-03-13-00-38-23
+      updated: 2025-03-20-02-16-15
       followers: 343
       likes: 69
       views: 538
