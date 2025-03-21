@@ -1035,10 +1035,10 @@
     - service: vk
       id: 1554
       published: 2024-05-30-18-20-43
-      updated: 2025-03-14-22-07-31
+      updated: 2025-03-21-22-07-42
       followers: 916
       likes: 49
-      views: 406
+      views: 407
       reposts: 3
       comments: !c |-
         GwkBoCySx51PQfwqR0dUxI30xxOLKcAm4YiSPbIOTytzmS6JdmGtoNnDrOO/0PByzE2uy9Ky+UFN
@@ -1048,7 +1048,7 @@
     - service: tg
       id: 424
       published: 2024-05-30-18-20-52
-      updated: 2025-03-14-22-07-31
+      updated: 2025-03-21-22-07-38
       followers: 378
       likes: 60
       views: 508
@@ -11348,10 +11348,10 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-03-14-22-07-26
+      updated: 2025-03-21-22-07-37
       followers: 1534
       likes: 109
-      views: 485
+      views: 486
       comments: !c |-
         G98AwJyHsbGs8SG7EA7eih9t0NTcPsW/vq2uizWxqIi/eCNyVBIhirW6bgOcXKaTIz2e/Bc6Ny/R
         ACAoFa7mn55oGpDWWluB5m0lEnMYXq43vB5iSe1Zi/XWnnHuAfDHCx3fnHTgG0RPc5v++Q5kTduC
@@ -11360,10 +11360,10 @@
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-03-14-22-07-26
+      updated: 2025-03-21-22-07-37
       followers: 1057
       likes: 59
-      views: 414
+      views: 426
       reposts: 3
       comments: !c |-
         G1MCgKwOzFOmAyaDC3lcpr4TaSwTFXGwOKHXZirQjNMsCzhIJMJkTzSVbbHZjPZqyBaDhnTAyZh8
@@ -11375,10 +11375,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-03-14-22-07-25
+      updated: 2025-03-21-22-07-35
       followers: 662
       likes: 74
-      views: 599
+      views: 610
       comments: !c CxiAkZPLQnlMaCGzgACobW9uZ2xlcmm8ZGFtbiB0aG9zZSBjYW5kZXMgYXJlIHByZXR0eQM=
 2017-10-14-land-of-ruins:
   title: Land of Ruins
@@ -13632,18 +13632,18 @@
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
-      updated: 2025-03-14-22-07-28
+      updated: 2025-03-21-22-07-41
       followers: 917
       likes: 43
-      views: 324
+      views: 325
       reposts: 2
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
-      updated: 2025-03-14-22-07-28
+      updated: 2025-03-21-22-07-37
       followers: 388
       likes: 56
-      views: 490
+      views: 492
 2017-12-11-princess-of-dusk-and-dawn:
   title: Princess of Dusk and Dawn
   titleRu: Принцесса рассвета и заката
