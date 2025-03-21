@@ -5972,29 +5972,29 @@
       id: DG6F-d9uFqA
       mediaId: '17909380499997603'
       published: 2025-03-07-18-11-20
-      updated: 2025-03-14-20-08-50
+      updated: 2025-03-21-20-08-58
       followers: 1537
-      likes: 96
-      views: 423
+      likes: 103
+      views: 461
       comments: !c |-
-        G5oAGIxUNX/zf64vujXveelsQpENHIK7ADqQxuu6wtfJiQbGtfbtGnXAtoAoTk/W3pRKCQTWtQYl
-        CcU5r2e+RkGPCWy6nGbqFT3zKLwuJTpp4CK8kk8Adpoc2Lrn6aJl2/Yp3MdDub+T+qGrX1Cwhg//
-        3qcZSk7yRHOv8oCwnHQD
+        G8sAAIxUNX9D5zodj6J4GEVlowFGf0SA34M+NSdI43deZeHb8kTDMMOQv+u6+9FulM2HA9Hp9Iaf
+        PE6W2LOSF4Rnq9ccRaZgEVRyiZtXd06lUnlRYu4GCQpb12cgxWGPuYw9FmFuMd3awz+VYjLC2q/6
+        TwBWkV/OxcVi7Ga5XO5EA7QQfUl8GqVKIW4SUKHH/143mrb8OqVb1l5suFyjxE9uEQ==
     - service: vk
       id: 2175
       published: 2025-03-07-18-11-28
-      updated: 2025-03-14-20-08-48
+      updated: 2025-03-21-20-08-57
       followers: 1171
-      likes: 65
-      views: 375
+      likes: 67
+      views: 424
       reposts: 3
     - service: tg
       id: 737
       published: 2025-03-07-18-11-36
-      updated: 2025-03-14-20-08-46
+      updated: 2025-03-21-20-08-55
       followers: 691
-      likes: 63
-      views: 333
+      likes: 66
+      views: 400
 2017-05-21-table-in-magic-shop:
   title: Table in Magic Shop
   titleRu: Столик в магазине магии
