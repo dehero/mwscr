@@ -674,10 +674,10 @@
       id: DHZFSNPpzVk
       mediaId: '17997723893608305'
       published: 2025-03-19-19-01-44
-      updated: 2025-03-21-15-08-37
+      updated: 2025-03-21-16-09-46
       followers: 1533
-      likes: 73
-      views: 229
+      likes: 74
+      views: 231
       comments: !c |-
         G6gAUIzDOCb8dbCIPkIlnzr3gANMHhW2SGQKpsDfCAf0awKZdX86OdE7R1gQ1NYCTQMNAtAkndz8
         gv/pHEmJBGklxPY+nk/ZjQEGwBvFld+0Y5fHI6xO8WKEqd4B0VKzC+zkssOE+xm+x5ia7w+44s/M
@@ -685,10 +685,10 @@
     - service: vk
       id: 2208
       published: 2025-03-19-19-01-51
-      updated: 2025-03-21-15-08-36
+      updated: 2025-03-21-16-09-45
       followers: 1193
       likes: 33
-      views: 232
+      views: 233
       comments: !c |-
         G6oBIJwHtmOXhcHAfMErjeifuBjpH78OPcywKQj4KPFkH3m6tiwhfkiGPJCd3ANT3Zb7c9o2hIND
         eaqGrM6tBnA3dQNFmU4Zm7NQir1jthMdjgei+xtN6C/gOMOIK8BRRJmmG8MiGJIwX5kGweLz/ato
@@ -698,10 +698,10 @@
     - service: tg
       id: 755
       published: 2025-03-19-19-01-59
-      updated: 2025-03-21-15-08-35
+      updated: 2025-03-21-16-09-44
       followers: 705
       likes: 50
-      views: 224
+      views: 225
 2025-03-20-night-on-the-plantation:
   title: Night on the Plantation
   titleRu: Ночь на плантации
@@ -720,21 +720,21 @@
       id: DHbkbpctj9L
       mediaId: '18045629900366379'
       published: 2025-03-20-18-12-24
-      updated: 2025-03-21-15-08-36
+      updated: 2025-03-21-16-09-44
       followers: 1534
-      likes: 66
-      views: 220
+      likes: 67
+      views: 221
       comments: !c |-
         Cx2AkZPLQnlbTIrAgACpbnk3NHRfNHJ02SRJbW1hIGp1c3QgdGFrZSB0aGVzZSBkZWFkcmljIGdy
         ZWF2ZXMD
     - service: vk
       id: 2210
       published: 2025-03-20-18-12-31
-      updated: 2025-03-21-15-08-35
+      updated: 2025-03-21-16-09-44
       followers: 1198
-      likes: 33
-      views: 197
-      reposts: 1
+      likes: 35
+      views: 203
+      reposts: 2
       comments: !c |-
         G8IAEIzDuOH7Nd1EownJ6k//mUQolmAVDki4W/qnVsp43QP9QH29xfp/3ymFUKTPvzEmaGpVpUQn
         pwUWGL+sJQm3QKQlklOQi9MBzvYQUZx1F/ckk7kIpyRJGesaU21sRH7IkYkJWdhghhOWh06z5CvX
@@ -743,7 +743,7 @@
     - service: tg
       id: 756
       published: 2025-03-20-18-12-38
-      updated: 2025-03-21-15-08-35
+      updated: 2025-03-21-16-09-44
       followers: 705
       likes: 45
-      views: 171
+      views: 172
