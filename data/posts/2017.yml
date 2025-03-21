@@ -1540,17 +1540,17 @@
     - service: vk
       id: 1818
       published: 2024-10-10-18-10-22
-      updated: 2025-03-14-08-27-03
+      updated: 2025-03-21-09-08-27
       followers: 960
       likes: 36
-      views: 333
+      views: 336
     - service: tg
       id: 560
       published: 2024-10-10-18-10-28
-      updated: 2025-03-14-08-27-03
+      updated: 2025-03-21-09-08-26
       followers: 559
       likes: 62
-      views: 490
+      views: 494
 2017-02-08-moonmoth-legion-fort:
   title: Moonmoth Legion Fort
   titleRu: Форт Легиона Лунной Бабочки
@@ -12232,10 +12232,10 @@
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2025-03-14-08-27-04
+      updated: 2025-03-21-09-08-28
       followers: 958
       likes: 47
-      views: 353
+      views: 355
       reposts: 2
       comments: !c |-
         G5waALwUd6yMGpSFaiQroXyz8M0Va7TB0dnw1Hb8P7EGPyTSyW82fdldPH+jFLpKt06DRqgQOtP1
@@ -12280,10 +12280,10 @@
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2025-03-14-08-27-03
+      updated: 2025-03-21-09-08-27
       followers: 560
       likes: 65
-      views: 565
+      views: 569
       comments: !c ixiAkZPLQnkljeH0gACnQmFyYUZveL5UcnVseSwgdGhlIHJvYWQgbW9zdCB0cmF2ZWxsZWQD
 2017-11-06-shore-shroom:
   title: Shore Shroom
