@@ -458,10 +458,10 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2025-03-14-14-07-47
+      updated: 2025-03-21-14-08-07
       followers: 921
       likes: 44
-      views: 307
+      views: 309
       reposts: 2
     - service: tg
       id: 480
@@ -7770,10 +7770,10 @@
     - service: vk
       id: 1642
       published: 2024-07-18-18-21-19
-      updated: 2025-03-14-14-07-49
+      updated: 2025-03-21-14-08-08
       followers: 919
       likes: 39
-      views: 279
+      views: 281
       reposts: 1
       comments: !c |-
         iyqAkZTLQnkMd+OugACqcGtlbGxlcm1hbq/QmtCw0Log0LTQvtC80LCTy0J5DMzLRwAAsGFydHlv
@@ -7781,10 +7781,10 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2025-03-14-14-07-47
+      updated: 2025-03-21-14-08-13
       followers: 402
       likes: 61
-      views: 703
+      views: 705
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
