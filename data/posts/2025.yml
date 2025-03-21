@@ -674,9 +674,9 @@
       id: DHZFSNPpzVk
       mediaId: '17997723893608305'
       published: 2025-03-19-19-01-44
-      updated: 2025-03-21-16-09-46
+      updated: 2025-03-21-17-07-50
       followers: 1533
-      likes: 74
+      likes: 75
       views: 231
       comments: !c |-
         G6gAUIzDOCb8dbCIPkIlnzr3gANMHhW2SGQKpsDfCAf0awKZdX86OdE7R1gQ1NYCTQMNAtAkndz8
@@ -685,10 +685,10 @@
     - service: vk
       id: 2208
       published: 2025-03-19-19-01-51
-      updated: 2025-03-21-16-09-45
+      updated: 2025-03-21-17-07-49
       followers: 1193
       likes: 33
-      views: 233
+      views: 234
       comments: !c |-
         G6oBIJwHtmOXhcHAfMErjeifuBjpH78OPcywKQj4KPFkH3m6tiwhfkiGPJCd3ANT3Zb7c9o2hIND
         eaqGrM6tBnA3dQNFmU4Zm7NQir1jthMdjgei+xtN6C/gOMOIK8BRRJmmG8MiGJIwX5kGweLz/ato
@@ -698,7 +698,7 @@
     - service: tg
       id: 755
       published: 2025-03-19-19-01-59
-      updated: 2025-03-21-16-09-44
+      updated: 2025-03-21-17-07-49
       followers: 705
       likes: 50
       views: 225
@@ -720,20 +720,20 @@
       id: DHbkbpctj9L
       mediaId: '18045629900366379'
       published: 2025-03-20-18-12-24
-      updated: 2025-03-21-16-09-44
+      updated: 2025-03-21-17-07-49
       followers: 1534
       likes: 67
-      views: 221
+      views: 222
       comments: !c |-
         Cx2AkZPLQnlbTIrAgACpbnk3NHRfNHJ02SRJbW1hIGp1c3QgdGFrZSB0aGVzZSBkZWFkcmljIGdy
         ZWF2ZXMD
     - service: vk
       id: 2210
       published: 2025-03-20-18-12-31
-      updated: 2025-03-21-16-09-44
+      updated: 2025-03-21-17-07-48
       followers: 1198
       likes: 35
-      views: 203
+      views: 206
       reposts: 2
       comments: !c |-
         G8IAEIzDuOH7Nd1EownJ6k//mUQolmAVDki4W/qnVsp43QP9QH29xfp/3ymFUKTPvzEmaGpVpUQn
@@ -743,7 +743,10 @@
     - service: tg
       id: 756
       published: 2025-03-20-18-12-38
-      updated: 2025-03-21-16-09-44
+      updated: 2025-03-21-17-07-48
       followers: 705
-      likes: 45
-      views: 172
+      likes: 46
+      views: 174
+      comments: !c |-
+        G5gAaKwObLdpiOzc9XBvUSpuhEpPycnUFgomXlYA4Oq2GK0aLIZ4bCbBg8F7cB58SNEC0WwFmpsc
+        TjkAawstah5wdNC7HECfi44rUaLWly7elumALzb88LI3P4PogDmi5+gTA013wxoqn1GjEtI7qeMb
