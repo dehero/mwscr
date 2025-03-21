@@ -2482,10 +2482,10 @@
     - service: vk
       id: 1716
       published: 2024-08-29-18-29-05
-      updated: 2025-03-14-11-07-10
+      updated: 2025-03-21-12-14-36
       followers: 941
       likes: 32
-      views: 302
+      views: 304
       reposts: 2
       comments: !c |-
         CymAkZPLQnkZ/gDzgACrbG9tYWV2X2xpdmXZOtCt0YLQviDQvdC1INC00L7QttC00YwsINGN0YLQ
@@ -2493,7 +2493,7 @@
     - service: tg
       id: 516
       published: 2024-08-29-18-29-13
-      updated: 2025-03-14-11-07-10
+      updated: 2025-03-21-12-14-36
       followers: 544
       likes: 74
       views: 626
