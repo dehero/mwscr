@@ -845,10 +845,10 @@
     - service: vk
       id: 1868
       published: 2024-10-31-18-23-28
-      updated: 2025-03-14-05-39-02
+      updated: 2025-03-21-06-13-47
       followers: 1002
       likes: 35
-      views: 302
+      views: 305
       reposts: 1
       comments: !c |-
         GyYBAByJcSyK4yxpUhUhcCNPaHkVYJZQmEQalmCELzeh17kZq9MNQo3AhuiQl44b3MyjD1s1BMNg
@@ -857,10 +857,10 @@
     - service: tg
       id: 581
       published: 2024-10-31-18-23-34
-      updated: 2025-03-14-05-39-00
+      updated: 2025-03-21-06-13-45
       followers: 564
       likes: 68
-      views: 587
+      views: 588
       comments: !c |-
         CxyAkpPLQnkuQKV4AACqU2VidWxiYTUxOKTwn5igk8tCeS5AmQSAAK5TaGlza29yaWJhZmlzaKTw
         n5GBAw==
@@ -13420,10 +13420,10 @@
     - service: vk
       id: 1852
       published: 2024-10-24-18-10-30
-      updated: 2025-03-14-05-39-03
+      updated: 2025-03-21-06-13-48
       followers: 995
       likes: 49
-      views: 340
+      views: 343
       reposts: 2
       comments: !c |-
         GxYBiKwObOdpCDGx22QiDk2h91F8f2KAAvz0E4VCEG0pgp1WrISRPedcSeUlyJif7Oh1czGrB83G
@@ -13433,10 +13433,10 @@
     - service: tg
       id: 574
       published: 2024-10-24-18-10-36
-      updated: 2025-03-14-05-39-01
+      updated: 2025-03-21-06-13-46
       followers: 563
       likes: 61
-      views: 572
+      views: 574
 2017-12-07-puzzled-ashlanders:
   title: Puzzled Ashlanders
   titleRu: Озадаченные эшлендеры
