@@ -14,6 +14,11 @@ aleksey:
   name: Алексей
   profiles:
     tg: avrongols
+bassyleus:
+  telegramBotChatId: 783515562
+  name: Basileus
+  profiles:
+    tg: Bassyleus
 blu:
   telegramBotChatId: 5511607316
   name: Blu
