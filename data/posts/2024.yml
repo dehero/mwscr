@@ -214,17 +214,17 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2025-03-15-07-07-53
+      updated: 2025-03-22-08-10-38
       followers: 893
       likes: 35
       views: 262
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2025-03-15-07-07-48
+      updated: 2025-03-22-08-10-38
       followers: 345
       likes: 58
-      views: 562
+      views: 563
 2024-03-08-a-bridge-to-ascadian-isles:
   title: A Bridge to Ascadian Isles
   titleRu: Мост к Аскадианским островам
@@ -588,7 +588,7 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2025-03-15-07-07-52
+      updated: 2025-03-22-08-10-37
       followers: 896
       likes: 42
       views: 304
@@ -599,10 +599,10 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2025-03-15-07-07-47
+      updated: 2025-03-22-08-10-36
       followers: 352
-      likes: 58
-      views: 478
+      likes: 59
+      views: 480
       comments: !c |-
         CymAkZTLQnjmKMfPAACpR2F0ZW1hdGU32SZ0aGlzIGlzIGEgbWFzb25pYyBsb2RnZT8gbm90IG1v
         cnJvd2luZJPLQnjmKXtAgAClYW5zaXOlaGFoYWgD
@@ -902,7 +902,7 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2025-03-15-07-07-50
+      updated: 2025-03-22-08-10-34
       followers: 906
       likes: 51
       views: 442
@@ -910,10 +910,10 @@
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2025-03-15-07-07-45
+      updated: 2025-03-22-08-10-34
       followers: 354
       likes: 62
-      views: 487
+      views: 488
 2024-04-05-rain-of-sparks: 2017-09-29-rain-of-sparks
 2024-04-06-falling-towers:
   title: Falling Towers
@@ -1110,17 +1110,17 @@
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2025-03-15-07-07-49
+      updated: 2025-03-22-08-10-34
       followers: 911
       likes: 27
-      views: 235
+      views: 236
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2025-03-15-07-07-45
+      updated: 2025-03-22-08-10-33
       followers: 352
       likes: 67
-      views: 1120
+      views: 1121
 2024-04-12-sadrith-mora-gateway-inn: 2017-01-19-sadrith-mora-gateway-inn
 2024-04-13-manwe:
   title: Manwe
@@ -3042,17 +3042,17 @@
     - service: tg
       id: 617
       published: 2024-12-06-18-11-36
-      updated: 2025-03-15-07-07-38
+      updated: 2025-03-22-08-10-21
       followers: 578
       likes: 58
       views: 486
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2025-03-15-07-07-39
+      updated: 2025-03-22-08-10-21
       followers: 1013
       likes: 43
-      views: 392
+      views: 398
       reposts: 3
 2024-12-07-farm-watchman:
   title: Farm Watchman

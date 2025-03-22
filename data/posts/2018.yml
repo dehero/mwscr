@@ -3507,18 +3507,18 @@
     - service: vk
       id: 1886
       published: 2024-11-08-18-40-06
-      updated: 2025-03-15-07-07-43
+      updated: 2025-03-22-08-10-26
       followers: 1005
       likes: 35
-      views: 287
+      views: 290
       reposts: 1
     - service: tg
       id: 589
       published: 2024-11-08-18-40-14
-      updated: 2025-03-15-07-07-40
+      updated: 2025-03-22-08-10-24
       followers: 566
       likes: 57
-      views: 501
+      views: 502
     - service: ig
       id: DCIGFNUyeex
       mediaId: '18064329940739266'
@@ -3926,10 +3926,10 @@
     - service: vk
       id: 1855
       published: 2024-10-25-18-10-15
-      updated: 2025-03-15-08-10-02
+      updated: 2025-03-22-08-10-28
       followers: 997
       likes: 42
-      views: 311
+      views: 314
       reposts: 1
       comments: !c |-
         G9QBgCwKbGOzhuhJv0vFoSZyr8ka/09/MdI3/lv0MNMSTBJPzgVdVbcLLW8EAkGCAkdSHpZv29cJ
@@ -3940,10 +3940,10 @@
     - service: tg
       id: 575
       published: 2024-10-25-18-10-23
-      updated: 2025-03-15-08-10-02
+      updated: 2025-03-22-08-10-28
       followers: 563
       likes: 60
-      views: 587
+      views: 589
 2018-04-12-mushroom-stairs:
   title: Mushroom Stairs
   titleRu: Грибная лестница
@@ -12118,10 +12118,10 @@
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2025-03-15-08-10-03
+      updated: 2025-03-22-08-10-29
       followers: 961
       likes: 32
-      views: 341
+      views: 344
     - service: tg
       id: 561
       published: 2024-10-11-18-10-00
