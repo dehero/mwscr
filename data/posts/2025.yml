@@ -720,20 +720,20 @@
       id: DHbkbpctj9L
       mediaId: '18045629900366379'
       published: 2025-03-20-18-12-24
-      updated: 2025-03-22-17-02-40
+      updated: 2025-03-22-18-09-38
       followers: 1534
       likes: 79
-      views: 266
+      views: 269
       comments: !c |-
         Cx2AkZPLQnlbTIrAgACpbnk3NHRfNHJ02SRJbW1hIGp1c3QgdGFrZSB0aGVzZSBkZWFkcmljIGdy
         ZWF2ZXMD
     - service: vk
       id: 2210
       published: 2025-03-20-18-12-31
-      updated: 2025-03-22-17-02-40
+      updated: 2025-03-22-18-09-38
       followers: 1198
       likes: 40
-      views: 264
+      views: 267
       reposts: 2
       comments: !c |-
         G8IAEIzDuOH7Nd1EownJ6k//mUQolmAVDki4W/qnVsp43QP9QH29xfp/3ymFUKTPvzEmaGpVpUQn
@@ -743,7 +743,7 @@
     - service: tg
       id: 756
       published: 2025-03-20-18-12-38
-      updated: 2025-03-22-17-02-40
+      updated: 2025-03-22-18-09-38
       followers: 705
       likes: 51
       views: 223
@@ -770,25 +770,52 @@
       id: DHeJIQXp2lR
       mediaId: '18059169389480822'
       published: 2025-03-21-18-11-32
-      updated: 2025-03-22-17-02-39
+      updated: 2025-03-22-18-09-37
       followers: 1535
-      likes: 61
-      views: 264
+      likes: 62
+      views: 275
     - service: vk
       id: 2216
       published: 2025-03-21-18-11-38
-      updated: 2025-03-22-17-02-39
+      updated: 2025-03-22-18-09-37
       followers: 1200
-      likes: 43
-      views: 224
+      likes: 44
+      views: 228
       reposts: 2
     - service: tg
       id: 757
       published: 2025-03-21-18-11-44
-      updated: 2025-03-22-17-02-39
+      updated: 2025-03-22-18-09-38
       followers: 706
       likes: 40
-      views: 180
+      views: 181
       comments: !c |-
         G1YA6I3THbFr/owRKn3q5iv8vY7dFlqTugTHsqhAEuoCSqwGcUvbChtwwJ5EPs60yUGVSE5i9zC9
         rN/ZPgBcHBoUwI/TknWQmVCX1H8g5XKKF9dVQ6LC/mO/AQ==
+2025-03-22-dont-go-left:
+  title: Don't Go Left
+  titleRu: Не ходи налево
+  placement: Outdoors
+  location: Molag Amur Region
+  content: store:/shots/2025-03-22-dont-go-left.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - night
+    - crossroads
+  mark: B1
+  posts:
+    - service: ig
+      id: DHgtwWYt6AA
+      mediaId: '18081512209635569'
+      published: 2025-03-22-18-10-07
+      followers: 1535
+    - service: vk
+      id: 2217
+      published: 2025-03-22-18-10-15
+      followers: 1202
+    - service: tg
+      id: 758
+      published: 2025-03-22-18-10-23
+      followers: 708
