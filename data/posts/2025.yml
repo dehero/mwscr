@@ -813,21 +813,49 @@
       id: DHgtwWYt6AA
       mediaId: '18081512209635569'
       published: 2025-03-22-18-10-07
-      updated: 2025-03-23-18-09-51
+      updated: 2025-03-23-18-44-23
       followers: 1535
       likes: 66
       views: 230
     - service: vk
       id: 2217
       published: 2025-03-22-18-10-15
-      updated: 2025-03-23-18-09-50
+      updated: 2025-03-23-18-44-23
       followers: 1202
-      likes: 39
-      views: 207
+      likes: 40
+      views: 212
     - service: tg
       id: 758
       published: 2025-03-22-18-10-23
-      updated: 2025-03-23-18-09-50
+      updated: 2025-03-23-18-44-23
       followers: 708
       likes: 42
-      views: 327
+      views: 328
+2025-03-23-avus-belvilo:
+  title: Avus Belvilo
+  titleRu: Авус Бельвило
+  placement: Indoors
+  location: Dren Plantation, Storage Shack
+  content: store:/shots/2025-03-23-avus-belvilo.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - dunmer
+    - shack
+    - lantern
+  mark: B1
+  posts:
+    - service: ig
+      id: DHjWhNzx9Dt
+      mediaId: '17885959356234177'
+      published: 2025-03-23-18-44-46
+      followers: 1531
+    - service: vk
+      id: 2219
+      published: 2025-03-23-18-44-52
+      followers: 1206
+    - service: tg
+      id: 759
+      published: 2025-03-23-18-44-58
+      followers: 709
