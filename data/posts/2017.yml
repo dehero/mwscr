@@ -213,10 +213,10 @@
       id: DGqpESxxAE9
       mediaId: '18125115151418097'
       published: 2025-03-01-18-10-06
-      updated: 2025-03-16-08-09-49
+      updated: 2025-03-23-08-09-59
       followers: 1537
       likes: 84
-      views: 278
+      views: 284
       comments: !c CxOAkZPLQnlXb9WfAACoYmVyc2thdGWySSBuZXZlciBsaWtlZCB0aGVtAw==
     - service: vk
       id: 2157
@@ -2297,18 +2297,18 @@
     - service: vk
       id: 1927
       published: 2024-11-30-18-09-35
-      updated: 2025-03-16-07-07-36
+      updated: 2025-03-23-08-10-00
       followers: 1012
       likes: 38
-      views: 321
+      views: 326
       reposts: 1
     - service: tg
       id: 611
       published: 2024-11-30-18-09-42
-      updated: 2025-03-16-07-07-36
+      updated: 2025-03-23-08-09-59
       followers: 576
       likes: 62
-      views: 619
+      views: 620
     - service: ig
       id: DDFQmrONeev
       mediaId: '17864652573276614'
@@ -2871,20 +2871,20 @@
     - service: vk
       id: 1887
       published: 2024-11-09-18-08-47
-      updated: 2025-03-16-07-07-39
+      updated: 2025-03-23-08-10-03
       followers: 1006
       likes: 57
-      views: 371
+      views: 374
       comments: !c |-
         G2wA+C0OzHOdDmzoisHxBSnkR1HcIvzxJOMo8CTBJpHIkz3Mbeys0xmFSEJobmPt3Tmt25QgCLJM
         NrrNoAmfwiBxP59f27nb8h6cHX+oPlDn4tRSxaGBkCzrtA7L+CADgUw7jhpGVAM=
     - service: tg
       id: 590
       published: 2024-11-09-18-09-56
-      updated: 2025-03-16-07-07-39
+      updated: 2025-03-23-08-10-02
       followers: 564
       likes: 64
-      views: 647
+      views: 648
 2017-03-10-aldruhn-guild-of-mages:
   title: Ald'ruhn, Guild of Mages
   titleRu: Альд'рун, Гильдия Магов
@@ -8500,10 +8500,10 @@
     - service: tg
       id: 583
       published: 2024-11-02-18-09-25
-      updated: 2025-03-16-07-07-40
+      updated: 2025-03-23-08-10-02
       followers: 565
       likes: 62
-      views: 610
+      views: 611
       comments: !c |-
         Cx2AkZPLQnku4vuTAACtTG9mdHlkZWx1c2lvbtkgSGFpbCB0byB0aGV5IGFyZSBmYXRoZXIgc3Bs
         aW50ZXID
