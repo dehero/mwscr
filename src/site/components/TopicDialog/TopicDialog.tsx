@@ -13,21 +13,21 @@ export interface ContributingDialogParams extends SiteRouteParams {
 }
 
 export const TopicDialog: DetachedDialog<ContributingDialogParams> = (props) => {
-  const [topic] = createResource(
+  const [topicEntry] = createResource(
     () => props.params,
-    (params) => (params.id ? dataManager.topics.getItem(params.id) : undefined),
+    (params) => (params.id ? dataManager.topics.getEntry(params.id) : undefined),
   );
 
   return (
     <>
-      <Toast message="Loading Topic" show={props.show && topic.loading} loading />
+      <Toast message="Loading Topic" show={props.show && topicEntry.loading} loading />
       <Dialog
         modal
         {...props}
-        show={props.show && !topic.loading && Boolean(topic())}
+        show={props.show && !topicEntry.loading && Boolean(topicEntry())}
         actions={[<Button onClick={props.onClose}>OK</Button>]}
       >
-        <TopicMessage topic={topic()!} class={styles.content} capitalizeTitle />
+        <TopicMessage topicEntry={topicEntry()!} class={styles.content} />
       </Dialog>
     </>
   );

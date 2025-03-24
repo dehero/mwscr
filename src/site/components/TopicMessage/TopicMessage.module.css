@@ -18,3 +18,17 @@
 .text a:hover {
   color: var(--color-text-selected-hover);
 }
+
+.text.disableLinks a,
+.text.disableLinks a:hover {
+  color: inherit;
+}
+
+.violationTitle {
+  color: var(--color-text-light);
+  margin: 12px 0 2px 0;
+}
+
+.icon {
+  margin-right: 4px;
+}

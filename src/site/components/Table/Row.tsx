@@ -34,6 +34,7 @@ export const Row: Component<RowProps> = (props) => {
         style={props.style}
         tabIndex={props.tabIndex}
         onClick={props.row.onClick}
+        target={props.row.linkTarget}
       >
         <div class={clsx(styles.label, props.lightLabels && styles.lightLabel)} role="cell">
           <Show when={props.row.labelIcon}>

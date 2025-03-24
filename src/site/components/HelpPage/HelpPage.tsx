@@ -34,7 +34,7 @@ export const HelpPage = (): JSX.Element => {
   const openTopicIdsFromMessages = () =>
     new Set(
       messageTopicEntries()
-        .flatMap(([id, topic]) => [id, ...topic.relatedTopicIds])
+        .flatMap(([id, topic]) => [id, ...(topic?.relatedTopicIds ?? [])])
         .filter(Boolean),
     );
 
@@ -82,7 +82,7 @@ export const HelpPage = (): JSX.Element => {
     <>
       <Frame component="main" class={styles.container} ref={containerRef}>
         <Frame class={styles.messages} ref={messagesRef}>
-          <For each={messageTopicEntries()}>{([_, topic]) => <TopicMessage topic={topic} />}</For>
+          <For each={messageTopicEntries()}>{(entry) => <TopicMessage topicEntry={entry} />}</For>
         </Frame>
         <Frame class={styles.topics} component="ul">
           <li>

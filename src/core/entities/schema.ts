@@ -7,7 +7,7 @@ import type {
   RecordSchema as ValibotRecordSchema,
 } from 'valibot';
 import { is, safeParse } from 'valibot';
-import { partition, uncapitalizeFirstLetter } from '../utils/common-utils.js';
+import { listItems, partition, uncapitalizeFirstLetter } from '../utils/common-utils.js';
 import { getFieldTitle } from './field.js';
 
 export type Schema<TOutput> = BaseSchema<unknown, TOutput, BaseIssue<unknown>>;
@@ -88,32 +88,42 @@ function getFieldTitleFromPath(path: IssuePathItem[] | undefined) {
   return path?.map((item) => uncapitalizeFirstLetter(getFieldTitle(String(item.key)))).join(' in ');
 }
 
-function validbotIssuesToMessages(issues: BaseIssue<unknown>[]): string[] {
-  const messages: string[] = [];
+function validbotIssuesToMessages(issues: BaseIssue<unknown>[], path?: BaseIssue<unknown>['path']): string[] {
+  const messages: Set<string> = new Set();
 
-  let [outputIssues, restIssues] = partition(
-    issues,
+  let [outputIssues, restIssues] = partition(issues, (issue) => issue.type === 'union');
+
+  if (outputIssues.length > 0) {
+    for (const issue of outputIssues) {
+      messages.add(listItems(validbotIssuesToMessages(issue.issues ?? [], issue.path ?? path)));
+    }
+  }
+
+  [outputIssues, restIssues] = partition(
+    restIssues,
     (issue) => issue.kind === 'schema' && issue.received === typeof undefined,
   );
 
   if (outputIssues.length > 0) {
-    const fields = new Set(outputIssues.map((issue) => getFieldTitleFromPath(issue.path)));
-    messages.push(`missing ${[...fields].join(', ')}`);
+    const fields = new Set(outputIssues.map((issue) => getFieldTitleFromPath(issue.path ?? path)));
+    messages.add(`missing ${[...fields].join(', ')}`);
   }
 
   [outputIssues, restIssues] = partition(restIssues, (issue) => issue.kind === 'schema');
 
-  messages.push(
-    ...outputIssues.map(
-      (issue) =>
-        `${getFieldTitleFromPath(issue.path)} ${uncapitalizeFirstLetter(issue.message)}, got ${uncapitalizeFirstLetter(
-          issue.received,
-        )}`,
-    ),
-    ...restIssues.map((issue) =>
-      [getFieldTitleFromPath(issue.path), uncapitalizeFirstLetter(issue.message)].filter(Boolean).join(' '),
-    ),
-  );
+  for (const issue of outputIssues) {
+    messages.add(
+      `${getFieldTitleFromPath(issue.path ?? path)} ${uncapitalizeFirstLetter(
+        issue.message,
+      )}, got ${uncapitalizeFirstLetter(issue.received)}`,
+    );
+  }
 
-  return messages;
+  for (const issue of restIssues) {
+    messages.add(
+      [getFieldTitleFromPath(issue.path ?? path), uncapitalizeFirstLetter(issue.message)].filter(Boolean).join(' '),
+    );
+  }
+
+  return [...messages];
 }

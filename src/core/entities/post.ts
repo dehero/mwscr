@@ -22,7 +22,7 @@ import { USER_DEFAULT_AUTHOR } from './user.js';
 export const PostTitle = pipe(string(), trim(), nonEmpty(), transform(postTitleFromString));
 export const PostTitleRu = pipe(string(), trim(), nonEmpty());
 export const PostDescription = pipe(string(), trim(), nonEmpty());
-export const PostContent = union([ResourceUrl, array(ResourceUrl)]);
+export const PostContent = union([ResourceUrl, array(ResourceUrl, 'Should be a list of resource strings')]);
 export const PostLocation = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
 export const PostPlacement = picklist(['Indoors', 'Outdoors', 'Mixed']);
 export const PostType = picklist(PostVariant.options.map((type) => type.entries.type.literal));

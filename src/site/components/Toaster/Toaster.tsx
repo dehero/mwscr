@@ -53,7 +53,7 @@ export const Toaster: Component<ToasterProps> = (props) => {
   const [isAnimatingLoader, setIsAnimatingLoader] = createSignal(true);
   const [messageBoxProps, setMessageBoxProps] = createSignal<MessageBoxProps | undefined>();
 
-  const addToast = (message: string, duration = 3000, loading = false) => {
+  const addToast = (message: string, duration = 5000, loading = false) => {
     const id = createToastId();
     toasts.set(id, { message, loading });
     if (duration > 0 && duration !== Infinity) {

@@ -7,9 +7,6 @@
 .shortcuts {
   float: right;
   margin: 8px 0px;
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 4px;
 }
 
 .menu {
