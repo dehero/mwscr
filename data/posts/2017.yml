@@ -2497,7 +2497,7 @@
     - service: vk
       id: 1454
       published: 2024-03-16-18-10-42
-      updated: 2025-03-17-02-18-38
+      updated: 2025-03-24-02-21-15
       followers: 896
       likes: 37
       views: 295
@@ -2505,10 +2505,10 @@
     - service: tg
       id: 348
       published: 2024-03-16-18-10-49
-      updated: 2025-03-17-02-18-35
+      updated: 2025-03-24-02-21-12
       followers: 353
       likes: 55
-      views: 456
+      views: 458
 2017-03-02-tel-vos:
   title: Tel Vos
   titleRu: Тель Вос
@@ -9894,15 +9894,15 @@
     - service: tg
       id: 405
       published: 2024-05-11-18-18-01
-      updated: 2025-03-17-00-40-19
+      updated: 2025-03-24-02-21-06
       followers: 371
       likes: 68
-      views: 510
+      views: 511
       comments: !c ixmAkZPLQnj2j4vXgACuc3Rhc3lham95c3RpY2u50L7Rh9C10L3RjCDQutGA0LDRgdC40LLQvgM=
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2025-03-17-00-40-21
+      updated: 2025-03-24-02-21-08
       followers: 915
       likes: 41
       views: 290
