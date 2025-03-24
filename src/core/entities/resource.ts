@@ -8,17 +8,24 @@ export const ResourceType = picklist(['image', 'video', 'archive']);
 export const ImageResourceExtension = picklist(['.png', '.webp', '.jpg']);
 export const VideoResourceExtension = picklist(['.avi', '.mp4']);
 
-export const RESOURCE_MISSING_IMAGE = 'MISSING_IMAGE.png';
-export const RESOURCE_MISSING_VIDEO = 'MISSING_VIDEO.mp4';
+export const RESOURCE_MISSING_IMAGE = 'store:/MISSING_IMAGE.png';
+export const RESOURCE_MISSING_VIDEO = 'store:/MISSING_VIDEO.mp4';
 
 export type ResourceProtocol = InferOutput<typeof ResourceProtocol>;
 export type ResourceType = InferOutput<typeof ResourceType>;
 
-export const ResourceUrl = pipe(string('Should be resource string'), nonEmpty('Should not be empty'));
+export const ResourceUrl = pipe(
+  string('Should be resource string'),
+  nonEmpty('Should not be empty'),
+  custom(
+    (value) => ResourceProtocol.options.some((protocol) => String(value).startsWith(protocol)),
+    `Should start with protocol ${listItems(ResourceProtocol.options, true)}"`,
+  ),
+);
 
 export const ImageResourceUrl = pipe(
   ResourceUrl,
-  custom<`${string}${InferOutput<typeof ImageResourceExtension>}`>(
+  custom<`${ResourceUrl}${InferOutput<typeof ImageResourceExtension>}`>(
     (value) => ImageResourceExtension.options.some((ext) => String(value).endsWith(ext)),
     `Should end with image extension ${listItems(ImageResourceExtension.options, true)}"`,
   ),
@@ -26,7 +33,7 @@ export const ImageResourceUrl = pipe(
 
 export const VideoResourceUrl = pipe(
   ResourceUrl,
-  custom<`${string}${InferOutput<typeof VideoResourceExtension>}`>(
+  custom<`${ResourceUrl}${InferOutput<typeof VideoResourceExtension>}`>(
     (value) => VideoResourceExtension.options.some((ext) => String(value).endsWith(ext)),
     `Should end with video extension ${listItems(VideoResourceExtension.options, true)}"`,
   ),

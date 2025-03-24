@@ -67,3 +67,11 @@
   margin-right: 4px;
   vertical-align: middle;
 }
+
+.shrink_value .label {
+  flex-shrink: 0;
+}
+
+.shrink_label .value {
+  flex-shrink: 0;
+}

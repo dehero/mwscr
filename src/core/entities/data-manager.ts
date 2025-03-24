@@ -4,7 +4,6 @@ import { isNestedLocation } from './location.js';
 import type { LocationInfo } from './location-info.js';
 import { createLocationInfos } from './location-info.js';
 import type { LocationsReader } from './locations-reader.js';
-import type { Option } from './option.js';
 import type { PostLocation } from './post.js';
 import type { PostInfo, PostInfoSelection, SelectPostInfosParams } from './post-info.js';
 import { createPostInfos, selectPostInfos } from './post-info.js';
@@ -183,10 +182,18 @@ export class DataManager {
     return [...ids].map((id) => infos.get(id)).filter((info): info is UserInfo => typeof info !== 'undefined');
   }
 
-  async getUserOptions(id: string | string[]): Promise<Option<string>[]> {
-    const infos = await this.getUserInfos(id);
+  async getTopicInfos(id: string | string[]): Promise<TopicInfo[] | undefined> {
+    const ids = new Set(asArray(id));
 
-    return infos?.map((info) => ({ label: info.title, value: info.id })) ?? [];
+    if (ids.size === 0) {
+      return undefined;
+    }
+
+    const infos = new Map(
+      (await this.getAllTopicInfos()).filter((info) => ids.has(info.id)).map((info) => [info.id, info]),
+    );
+
+    return [...ids].map((id) => infos.get(id)).filter((info): info is TopicInfo => typeof info !== 'undefined');
   }
 
   async getUserInfo(id: string) {

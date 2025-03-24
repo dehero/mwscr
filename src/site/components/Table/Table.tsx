@@ -18,6 +18,7 @@ export interface TableRow {
   value?: TableValue;
   valueIcon?: JSX.Element;
   link?: string;
+  linkTarget?: '_blank' | '_self' | '_parent' | '_top';
   selected?: boolean;
   onClick?: (e: Event) => void;
   tooltip?: (forRef: HTMLElement) => JSX.Element;
@@ -29,6 +30,7 @@ export interface TableProps extends TableRow {
   lightLabels?: boolean;
   scrollTarget?: HTMLElement;
   showEmptyValueRows?: boolean;
+  shrink?: 'label' | 'value';
 }
 
 export function renderValue(value: TableValue) {
@@ -64,7 +66,11 @@ export const Table: Component<TableProps> = (props) => {
   };
 
   return (
-    <div class={clsx(styles.table, props.class)} role="table" ref={ref}>
+    <div
+      class={clsx(styles.table, props.shrink && styles[`shrink_${props.shrink}`], props.class)}
+      role="table"
+      ref={ref}
+    >
       <Show when={hasHeader()}>
         <div class={styles.header} role="rowgroup">
           <Dynamic
@@ -72,6 +78,7 @@ export const Table: Component<TableProps> = (props) => {
             href={props.link}
             class={clsx(styles.row, props.link && styles.link)}
             role="row"
+            target={props.linkTarget}
           >
             <div class={styles.label} role="columnheader">
               {props.label}

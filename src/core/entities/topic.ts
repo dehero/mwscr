@@ -4,7 +4,7 @@ export interface Topic {
   relatedTopicIds: string[];
 }
 
-export type TopicEntry = [string, Topic];
+export type TopicEntry = [string, Topic | undefined, ...unknown[]];
 
 const TOPIC_DOUBLE_BR_REGEX = /(?:\r?\n){2}/gm;
 const TOPIC_BR_REGEX = /\s\s$/gm;
