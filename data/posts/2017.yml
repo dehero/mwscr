@@ -3962,15 +3962,25 @@
       id: DHl3itkPoyP
       mediaId: '17898884301156540'
       published: 2025-03-24-18-11-47
+      updated: 2025-03-24-19-01-19
       followers: 1529
+      likes: 22
+      views: 35
+      comments: !c CxGAkZPLQnlclo3oAACpaXN0c2llbGl6reKdpO+4j+KAjfCflKUD
     - service: vk
       id: 2220
       published: 2025-03-24-18-11-55
+      updated: 2025-03-24-19-01-18
       followers: 1209
+      likes: 7
+      views: 42
     - service: tg
       id: 760
       published: 2025-03-24-18-12-01
+      updated: 2025-03-24-19-01-18
       followers: 709
+      likes: 21
+      views: 83
 2017-04-03-gnisis:
   title: Gnisis
   titleRu: Гнисис
