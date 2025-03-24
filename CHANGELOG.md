@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.49.0](https://github.com/dehero/mwscr/compare/v1.48.0...v1.49.0) (2025-03-24)
+
+### Features
+
+- **site:** delete obsolete uploads after 7 days
+  ([4305e80](https://github.com/dehero/mwscr/commit/4305e8002b22b4d41d6294cb485ad15e974aa9f8))
+- **site:** implement file uploading
+  ([c21928d](https://github.com/dehero/mwscr/commit/c21928d4f0d8cb8d9a0c99a253f138cf4b90c5d5))
+- **site:** re-implement post proposal dialog to support file uploading and links inserting
+  ([1440b2e](https://github.com/dehero/mwscr/commit/1440b2e2264016be69a345452d0e2ffa72edfedd))
+- **site:** use post editing dialog to view uploaded posts
+  ([e96f24d](https://github.com/dehero/mwscr/commit/e96f24df3ce7a00e4a80e7f2aff3757907372a15))
+
+### Bug Fixes
+
+- ignore typing issues for now
+  ([3f7a4e3](https://github.com/dehero/mwscr/commit/3f7a4e3570403e519996368041a67b3e79babf5e))
+
+### Continuous Integration
+
+- exclude uploads folder from synchronization on site deploy
+  ([9b5fc1f](https://github.com/dehero/mwscr/commit/9b5fc1f52fc5bf50c1812d6d4bd125bac0d0b2d8))
+
 ## [1.48.0](https://github.com/dehero/mwscr/compare/v1.47.0...v1.48.0) (2025-03-20)
 
 ### Features
