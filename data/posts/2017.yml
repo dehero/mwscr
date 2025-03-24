@@ -1364,14 +1364,14 @@
     - service: vk
       id: 1697
       published: 2024-08-18-18-17-50
-      updated: 2025-03-17-18-11-27
+      updated: 2025-03-24-18-11-32
       followers: 934
       likes: 38
-      views: 286
+      views: 287
     - service: tg
       id: 505
       published: 2024-08-18-18-17-57
-      updated: 2025-03-17-18-11-27
+      updated: 2025-03-24-18-11-31
       followers: 529
       likes: 59
       views: 613
@@ -3958,6 +3958,19 @@
       comments: !c |-
         iyaAkpPLQnjj7YABgACqaGltbWVsaGVyeqbimLrvuI+Ty0J44+SyWAAAqUdhdGVtYXRlN7xnb2lu
         ZyB0aHJ1IHRoZSBob29kIGF0IG5pZ2h0Aw==
+    - service: ig
+      id: DHl3itkPoyP
+      mediaId: '17898884301156540'
+      published: 2025-03-24-18-11-47
+      followers: 1529
+    - service: vk
+      id: 2220
+      published: 2025-03-24-18-11-55
+      followers: 1209
+    - service: tg
+      id: 760
+      published: 2025-03-24-18-12-01
+      followers: 709
 2017-04-03-gnisis:
   title: Gnisis
   titleRu: Гнисис
