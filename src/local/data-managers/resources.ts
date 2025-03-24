@@ -70,6 +70,7 @@ export async function copyResource(fromUrl: string, toUrl: string): Promise<void
           return storeManager.copy(from.pathname, to.pathname);
         }
         case 'file:':
+          // @ts-expect-error TODO: resolve typing issues
           return fs.writeFile(to.pathname, await storeManager.get(from.pathname));
         default:
       }
@@ -241,6 +242,7 @@ export async function writeResource(url: string, data: Buffer) {
     case 'store:':
       return storeManager.put(pathname, data);
     case 'file:':
+      // @ts-expect-error TODO: resolve typing issues
       return fs.writeFile(pathname, data);
     default:
   }
