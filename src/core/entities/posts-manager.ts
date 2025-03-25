@@ -22,7 +22,7 @@ import {
 import type { PostAction } from './post-action.js';
 import { PostVariant } from './post-variant.js';
 import type { Schema } from './schema.js';
-import { checkSchema } from './schema.js';
+import { checkSchema, safeParseSchema } from './schema.js';
 
 export const ViolatingProposal = object({ ...Post.entries, violation: PostViolation });
 export const OrdinaryProposal = object({ ...Post.entries, mark: literal('D') });
@@ -133,6 +133,18 @@ export function createRequestProposalId(request: RequestProposal) {
   const hash = getRevisionHash(request.request.text);
 
   return createInboxItemId(request.request.user, request.request.date, hash);
+}
+
+export function createPostPath(managerName: PostsManagerName, id: string) {
+  return `${managerName}/${id}`;
+}
+
+export function parsePostPath(path: string): { managerName?: PostsManagerName; id?: string } {
+  const parts = path.split('/').filter(Boolean);
+  const managerName = safeParseSchema(PostsManagerName, parts[0]);
+  const id = parts[1];
+
+  return { managerName, id };
 }
 
 export abstract class PostsManager<TPost extends Post = Post> extends ListManager<TPost> {

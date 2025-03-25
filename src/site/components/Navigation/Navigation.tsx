@@ -76,7 +76,7 @@ export const Navigation: Component = () => {
     <nav class={styles.container}>
       <div class={styles.shortcuts}>
         <Button
-          href={createDetachedDialogFragment('contributing', { tab: patchSize() > 0 ? 'patch' : 'variants' })}
+          href={createDetachedDialogFragment('contributing', patchSize() > 0 ? 'patch' : 'variants')}
           class={styles.patch}
         >
           <Show fallback="Contribute" when={patchSize() > 0}>

@@ -1,4 +1,4 @@
-import type { PostsManagerName } from '../../core/entities/posts-manager.js';
+import { createPostPath, type PostsManagerName } from '../../core/entities/posts-manager.js';
 import type { SiteRoute, SiteRouteParams } from '../../core/entities/site-route.js';
 import type { PostPageData } from '../components/PostPage/PostPage.data.js';
 import { getPostPageData } from '../components/PostPage/PostPage.data.js';
@@ -24,7 +24,7 @@ export const postRoute: SiteRoute<PostRouteParams, PostPageData> = {
       Object.entries(rest).filter((item): item is [string, string] => typeof item[1] === 'string'),
     );
 
-    return `/${params.managerName}/${params.id}/${searchParams.size > 0 ? '?' : ''}${searchParams.toString()}`;
+    return `/${createPostPath(managerName, id)}/${searchParams.size > 0 ? '?' : ''}${searchParams.toString()}`;
   },
   getData: getPostPageData,
   // dynamic: true,

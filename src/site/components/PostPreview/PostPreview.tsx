@@ -4,6 +4,7 @@ import { Dynamic } from 'solid-js/web';
 import { getLimitedAspectRatio } from '../../../core/entities/media.js';
 import { postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
+import { createPostPath } from '../../../core/entities/posts-manager.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { postRoute } from '../../routes/post-route.js';
@@ -38,7 +39,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
     props.postInfo.requesterOption ? getUserTitleLetter(props.postInfo.requesterOption.label) : undefined;
   const url = () =>
     props.postInfo.status === 'added'
-      ? createDetachedDialogFragment('post-editing', { managerName: props.postInfo.managerName, id: props.postInfo.id })
+      ? createDetachedDialogFragment('post-editing', createPostPath(props.postInfo.managerName, props.postInfo.id))
       : postRoute.createUrl({ managerName: props.postInfo.managerName, id: props.postInfo.id });
   const minHeightMultiplier = () => (props.postInfo.description ? undefined : 1);
   const aspectRatio = () =>

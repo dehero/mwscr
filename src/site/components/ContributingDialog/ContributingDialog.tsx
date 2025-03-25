@@ -1,6 +1,5 @@
 import { Match, Switch } from 'solid-js';
 import { NONE_OPTION } from '../../../core/entities/option.js';
-import type { SiteRouteParams } from '../../../core/entities/site-route.js';
 import { useLocalPatch } from '../../hooks/useLocalPatch.js';
 import { postsRoute } from '../../routes/posts-route.js';
 import { Button } from '../Button/Button.jsx';
@@ -16,12 +15,8 @@ import styles from './ContributingDialog.module.css';
 
 export type ContributingDialogTab = 'patch' | 'variants';
 
-export interface ContributingDialogParams extends SiteRouteParams {
-  tab?: ContributingDialogTab;
-}
-
-export const ContributingDialog: DetachedDialog<ContributingDialogParams> = (props) => {
-  const tab = () => props.params.tab ?? 'variants';
+export const ContributingDialog: DetachedDialog<ContributingDialogTab> = (props) => {
+  const tab = () => props.pathname ?? 'variants';
   const patchSize = useLocalPatch();
 
   return (
@@ -38,13 +33,10 @@ export const ContributingDialog: DetachedDialog<ContributingDialogParams> = (pro
     >
       <div class={styles.container}>
         <div class={styles.tabs}>
-          <Button
-            active={tab() === 'variants'}
-            href={createDetachedDialogFragment('contributing', { tab: 'variants' })}
-          >
+          <Button active={tab() === 'variants'} href={createDetachedDialogFragment('contributing', 'variants')}>
             Variants
           </Button>
-          <Button active={tab() === 'patch'} href={createDetachedDialogFragment('contributing', { tab: 'patch' })}>
+          <Button active={tab() === 'patch'} href={createDetachedDialogFragment('contributing', 'patch')}>
             Edits {patchSize() > 0 ? ` (${patchSize()})` : ''}
           </Button>
         </div>
@@ -87,7 +79,7 @@ export const ContributingDialog: DetachedDialog<ContributingDialogParams> = (pro
                   component="a"
                   href={
                     postsRoute.createUrl({ managerName: 'posts', location: NONE_OPTION.value, original: 'true' }) +
-                    createDetachedDialogFragment('topic', { id: 'suggesting-location' })
+                    createDetachedDialogFragment('topic', 'suggesting-location')
                   }
                   onClick={props.onClose}
                   variant="thin"

@@ -3,7 +3,7 @@ import { createMemo } from 'solid-js';
 import { getPostDateById, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
-import { postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
+import { createPostPath, postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
 import { asArray, capitalizeFirstLetter } from '../../../core/utils/common-utils.js';
 import { formatDate, isValidDate } from '../../../core/utils/date-utils.js';
@@ -68,28 +68,28 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
         : undefined,
       props.postInfo.status !== 'removed' && postActions().includes('edit')
         ? {
-            url: createDetachedDialogFragment('post-editing', {
-              managerName: local.postInfo.managerName,
-              id: local.postInfo.id,
-            }),
+            url: createDetachedDialogFragment(
+              'post-editing',
+              createPostPath(local.postInfo.managerName, local.postInfo.id),
+            ),
             label: 'Edit',
           }
         : undefined,
       props.postInfo.status !== 'removed' && postActions().includes('precise')
         ? {
-            url: createDetachedDialogFragment('post-precising', {
-              managerName: local.postInfo.managerName,
-              id: local.postInfo.id,
-            }),
+            url: createDetachedDialogFragment(
+              'post-precising',
+              createPostPath(local.postInfo.managerName, local.postInfo.id),
+            ),
             label: 'Precise',
           }
         : undefined,
       props.postInfo.status !== 'removed' && !local.postInfo.location && postActions().includes('locate')
         ? {
-            url: createDetachedDialogFragment('post-location', {
-              id: local.postInfo.id,
-              managerName: local.postInfo.managerName,
-            }),
+            url: createDetachedDialogFragment(
+              'post-location',
+              createPostPath(local.postInfo.managerName, local.postInfo.id),
+            ),
             label: 'Locate',
           }
         : undefined,

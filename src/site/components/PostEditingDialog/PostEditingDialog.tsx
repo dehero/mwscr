@@ -1,7 +1,7 @@
-import type { PostRouteParams } from '../../routes/post-route.js';
+import { parsePostPath } from '../../../core/entities/posts-manager.js';
 import { type DetachedDialog } from '../DetachedDialogsProvider/DetachedDialogsProvider.js';
 import { PostDialog } from '../PostDialog/PostDialog.js';
 
-export const PostEditingDialog: DetachedDialog<PostRouteParams> = (props) => {
-  return <PostDialog preset="edit" {...props} {...props.params} />;
+export const PostEditingDialog: DetachedDialog = (props) => {
+  return <PostDialog preset="edit" {...props} {...props.params} {...parsePostPath(props.pathname ?? '')} />;
 };

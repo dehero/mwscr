@@ -7,7 +7,7 @@ import { navigate } from 'vike/client/router';
 import { usePageContext } from 'vike-solid/usePageContext';
 import { getPostDateById, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostAction } from '../../../core/entities/post-action.js';
-import { postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
+import { createPostPath, postsManagerDescriptors } from '../../../core/entities/posts-manager.js';
 import { getPublicationsStats } from '../../../core/entities/publication.js';
 import { parseResourceUrl, resourceIsImage, resourceIsVideo } from '../../../core/entities/resource.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
@@ -326,10 +326,10 @@ export const PostPage = (): JSX.Element => {
                 <div class={styles.actions}>
                   <Show when={postInfo().status !== 'removed' && postActions().includes('edit')}>
                     <Button
-                      href={createDetachedDialogFragment('post-editing', {
-                        id: params().id,
-                        managerName: params().managerName,
-                      })}
+                      href={createDetachedDialogFragment(
+                        'post-editing',
+                        createPostPath(params().managerName, params().id),
+                      )}
                       class={styles.action}
                     >
                       Edit
@@ -338,10 +338,10 @@ export const PostPage = (): JSX.Element => {
 
                   <Show when={postInfo().status !== 'removed' && postActions().includes('precise')}>
                     <Button
-                      href={createDetachedDialogFragment('post-precising', {
-                        id: params().id,
-                        managerName: params().managerName,
-                      })}
+                      href={createDetachedDialogFragment(
+                        'post-precising',
+                        createPostPath(params().managerName, params().id),
+                      )}
                       class={styles.action}
                     >
                       Precise
@@ -350,10 +350,10 @@ export const PostPage = (): JSX.Element => {
 
                   <Show when={postInfo().status !== 'removed' && postActions().includes('merge')}>
                     <Button
-                      href={createDetachedDialogFragment('post-merge', {
-                        id: params().id,
-                        managerName: params().managerName,
-                      })}
+                      href={createDetachedDialogFragment(
+                        'post-merge',
+                        createPostPath(params().managerName, params().id),
+                      )}
                       class={styles.action}
                     >
                       Merge
@@ -365,10 +365,10 @@ export const PostPage = (): JSX.Element => {
                   >
                     <Button
                       class={styles.action}
-                      href={createDetachedDialogFragment('post-location', {
-                        id: params().id,
-                        managerName: params().managerName,
-                      })}
+                      href={createDetachedDialogFragment(
+                        'post-location',
+                        createPostPath(params().managerName, params().id),
+                      )}
                     >
                       Locate
                     </Button>

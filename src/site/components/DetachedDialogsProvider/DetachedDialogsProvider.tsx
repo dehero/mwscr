@@ -13,13 +13,17 @@ import { SponsorshipDialog } from '../SponsorshipDialog/SponsorshipDialog.jsx';
 import { SubscriptionDialog } from '../SubscriptionDialog/SubscriptionDialog.jsx';
 import { TopicDialog } from '../TopicDialog/TopicDialog.jsx';
 
-export interface DetachedDialogProps<TParams extends SiteRouteParams> {
+export interface DetachedDialogProps<TPathname extends string, TParams extends SiteRouteParams> {
   show: boolean;
   onClose: () => void;
+  pathname?: TPathname;
   params: Partial<TParams>;
 }
 
-export type DetachedDialog<TParams extends SiteRouteParams = SiteRouteParams> = Component<DetachedDialogProps<TParams>>;
+export type DetachedDialog<
+  TPathname extends string = string,
+  TParams extends SiteRouteParams = SiteRouteParams,
+> = Component<DetachedDialogProps<TPathname, TParams>>;
 
 const detachedDialogs = {
   'post-editing': PostEditingDialog,
@@ -29,31 +33,40 @@ const detachedDialogs = {
   'post-request': PostRequestDialog,
   'post-precising': PostPrecisingDialog,
   subscription: SubscriptionDialog,
-  contributing: ContributingDialog,
+  contributing: ContributingDialog as DetachedDialog,
   sponsorship: SponsorshipDialog,
   topic: TopicDialog,
 } satisfies Record<string, DetachedDialog | undefined>;
 
 export type DialogName = keyof typeof detachedDialogs;
 
-export type DialogParams<T extends DialogName> = (typeof detachedDialogs)[T] extends DetachedDialog<infer TParams>
+export type DialogParams<T extends DialogName> = (typeof detachedDialogs)[T] extends DetachedDialog<
+  string,
+  infer TParams
+>
   ? TParams
   : never;
 
-export function createDetachedDialogFragment<TDialogName extends DialogName, TParams extends DialogParams<TDialogName>>(
-  dialogName: TDialogName,
-  params: TParams = {} as TParams,
-) {
+export function createDetachedDialogFragment<
+  TDialogName extends DialogName,
+  TPathname extends string,
+  TParams extends DialogParams<TDialogName>,
+>(dialogName: TDialogName, pathname?: TPathname, params: TParams = {} as TParams) {
   return stringifySiteRouteFragment({
-    pathname: dialogName,
+    pathname: [dialogName, pathname].filter(Boolean).join('/'),
     searchParams: params as unknown as TParams,
   });
 }
 
 function parseDetachedDialogFragment(fragment: string) {
   const { pathname, searchParams } = parseSiteRouteFragment(fragment);
+  const [dialogName, ...rest] = pathname?.split('/') ?? [];
 
-  return { [pathname as DialogName]: searchParams as unknown as DialogParams<DialogName> };
+  return {
+    dialogName: dialogName as DialogName | undefined,
+    pathname: rest.join('/') || undefined,
+    params: searchParams as unknown as DialogParams<DialogName> | undefined,
+  };
 }
 
 export interface DialogsProviderProps {
@@ -71,9 +84,10 @@ export const DetachedDialogsProvider: Component<DialogsProviderProps> = (props: 
       <For each={Object.entries(detachedDialogs)}>
         {([dialogName, Dialog]) => (
           <Dialog
-            show={Boolean(fragment()[dialogName])}
+            show={fragment().dialogName === dialogName}
             onClose={() => setHash('')}
-            params={fragment()[dialogName] ?? {}}
+            pathname={fragment().pathname}
+            params={fragment().params ?? {}}
           />
         )}
       </For>

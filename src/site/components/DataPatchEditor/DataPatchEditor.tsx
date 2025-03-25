@@ -122,15 +122,14 @@ export const DataPatchEditor: Component<DataPatchEditorProps> = (props) => {
           value: manager.patchSize,
           link:
             postsRoute.createUrl({ managerName: manager.name, status: ANY_OPTION.value }) +
-            createDetachedDialogFragment('contributing', { tab: 'patch' }),
+            createDetachedDialogFragment('contributing', 'patch'),
         }),
       ),
       {
         label: 'Users',
         value: dataManager.users.patchSize,
         link:
-          usersRoute.createUrl({ status: ANY_OPTION.value }) +
-          createDetachedDialogFragment('contributing', { tab: 'patch' }),
+          usersRoute.createUrl({ status: ANY_OPTION.value }) + createDetachedDialogFragment('contributing', 'patch'),
       },
     ]);
 

@@ -4,6 +4,7 @@ import { createMemo, createResource, createSignal, Show } from 'solid-js';
 import { navigate } from 'vike/client/router';
 import { PostViolation, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
+import { createPostPath } from '../../../core/entities/posts-manager.js';
 import type { TopicInfo } from '../../../core/entities/topic-info.js';
 import { USER_UNKNOWN } from '../../../core/entities/user.js';
 import { createIssueUrl as createProposalIssueUrl } from '../../../core/github-issues/post-proposal.js';
@@ -305,10 +306,10 @@ export const PostProposalDialog: DetachedDialog = (props) => {
                   </Tooltip>
                 ) : undefined,
               link: item.postInfo
-                ? createDetachedDialogFragment('post-editing', {
-                    managerName: item.postInfo.managerName,
-                    id: item.postInfo.id,
-                  })
+                ? createDetachedDialogFragment(
+                    'post-editing',
+                    createPostPath(item.postInfo.managerName, item.postInfo.id),
+                  )
                 : undefined,
             }))}
             showEmptyValueRows
