@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.50.0](https://github.com/dehero/mwscr/compare/v1.49.1...v1.50.0) (2025-03-25)
+
+### Features
+
+- remove post merging issue and obsolete site dialog
+  ([9769722](https://github.com/dehero/mwscr/commit/9769722b5a4a901666b17494a7e81af94c0637c1))
+- **site:** use pathname for detached dialogs
+  ([fbc348a](https://github.com/dehero/mwscr/commit/fbc348a7d0787774302320f834e22b208eb467f6))
+- use post path for editing and location GitHub issues
+  ([62838d9](https://github.com/dehero/mwscr/commit/62838d9b51b22b4e8be995715dbaf3bd2ff64f91))
+
 ## [1.49.1](https://github.com/dehero/mwscr/compare/v1.49.0...v1.49.1) (2025-03-25)
 
 ### Bug Fixes
