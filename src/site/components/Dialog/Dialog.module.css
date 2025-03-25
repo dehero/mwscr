@@ -76,8 +76,17 @@
   display: flex;
   flex-flow: row wrap;
   padding: 12px 8px 0 8px;
-  gap: 4px;
+  gap: 6px;
   flex-shrink: 0;
   align-items: baseline;
   justify-content: flex-end;
+  min-width: 100%;
+  max-width: min-content;
+  box-sizing: border-box;
+}
+
+.actions {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 4px;
 }

@@ -49,7 +49,7 @@ export const Dialog: Component<DialogProps> = (props) => {
                 <div class={styles.footer}>
                   {props.summary}
                   <Spacer />
-                  {props.actions}
+                  <div class={styles.actions}>{props.actions}</div>
                   <Show when={!props.title}>
                     <Spacer />
                   </Show>
