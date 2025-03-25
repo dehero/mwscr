@@ -3962,10 +3962,10 @@
       id: DHl3itkPoyP
       mediaId: '17898884301156540'
       published: 2025-03-24-18-11-47
-      updated: 2025-03-25-05-09-06
+      updated: 2025-03-25-06-12-21
       followers: 1529
-      likes: 55
-      views: 179
+      likes: 59
+      views: 184
       comments: !c |-
         G50ACGXock949i1Ol/C8+zEGRdnYCws4oPQpK5BygxMNlII0sigAjMdhA86ot2lc6L9G65n2Msdf
         HMOOJCVCWTFUjjJuSVKHNiXzNkBQZii9qfH4x7iDeCVEysQNcEJsiSM3U22voiJTogdEKJuULgNO
@@ -3973,18 +3973,18 @@
     - service: vk
       id: 2220
       published: 2025-03-24-18-11-55
-      updated: 2025-03-25-05-09-05
+      updated: 2025-03-25-06-12-19
       followers: 1209
-      likes: 34
-      views: 147
+      likes: 35
+      views: 153
       reposts: 2
     - service: tg
       id: 760
       published: 2025-03-24-18-12-01
-      updated: 2025-03-25-05-09-05
+      updated: 2025-03-25-06-12-19
       followers: 709
-      likes: 41
-      views: 144
+      likes: 42
+      views: 149
 2017-04-03-gnisis:
   title: Gnisis
   titleRu: Гнисис

@@ -2835,21 +2835,22 @@
     - service: vk
       id: 1930
       published: 2024-12-02-18-11-17
-      updated: 2025-03-18-05-09-12
+      updated: 2025-03-25-06-12-21
       followers: 1012
       likes: 60
-      views: 420
+      views: 426
       reposts: 4
       comments: !c |-
-        G4sDgJwHtq1j7WCxwft04Zj1+H/invYJH7YzuyDJcoLNJMFOnDWeJYEkJYkn55Kl0JkFsgkNZEBd
-        afYB5Z7cn5QnXP/hckd61wK8bIFFASYw33u/9r9FrQE0wRLJKKOuIV+U0AFGffb4g8DO/81eFmC4
-        qBeIzwmUZdPG5jiMAk0XZ5M/WETdHdB9zuOrt7EQg7L1Tz8+/9qvetmzx/bznHXdUEqNMZh5LRps
-        5gbvQhK6TeIRBJazcVrKZEgFwDvzMmJ9Jojc3MBLAiELmAxc9NFTaPJ1p9MHdRP+/+L4fhmbYCKg
-        VYyug1loiWue+JJ4hHOyRaW7v6v4ByQZK/5OKCsfmLEtULzuBiS/HcfxdXuOtCN0NnMJzrObuTzH
-        JJLW8b/64msCETXl1nXn93E/v2VytzJ2Q7vUiocvBqnnug1iZRgUc8iDQqkbyyZNZAqR/DQ/lLEK
-        ghZg4YGZ+RMsEI+TzE0pS/l5BNEERYaymE/UZLC0//f2nZmezmb3JoX1nT2kCus8nSh8WxDP9IRb
-        ICNGT1vzirGdlU4KQPkuZ7g2mJoDskNHlaZG83CuEUCug0umXqH7+x/oT/sPI174xhE1d7DmmVGm
-        Z0e/JcQupX+Ph+NnxVQzQrhCI2FT0gww2D1OvvgAWRjir3gB
+        G/oDIJwFduNL4eHFfK74GgxF7FHxz8e92Cd8mD7eOYK1cCzjsdCO1yJYzyVbiy59IItQQAJUqjWt
+        c2WvzzxH+C04lTgUwaQFCRawtMfdfbs/yzo2UMH7fzdNArlrC6ZjrudrcUx9k+b/Zi8LMFzUiwKR
+        saxN0761bGyOwyjQdNny0gM7ogM925b8gz5tFOnpSltS//Tl1a/qI7fWk2X6eGVzHI8x5nketq4T
+        NdJzjeafJPSYSIMQSMyG0qRMBG/g8+a8HEkdHXhqp7HNBFwWWNLYxGl6iel0MKurBwIXjv8fy4eH
+        2DO+kkOWhZo9EdeBRfEJmwkMst43DCyb7ZXx+iOCyBb9/VC+gqDEyEDpoMM3z2pZltd3o8oqIfDU
+        cwE2xvbRj2NPI5GUgX+ZIdhFW5QnKsuTb0dlPWSJljhxEPmZ68LPgwUh7LoPyLI8StHqQaEMxPIB
+        FNlAIl8dz1ZzGTglVIcbpuffYAFpKInUBrOUbwxC1EESoTzmwysiGMr/2/mZnxHhcnkCYv9iG1Kl
+        sTFqUbm9IJ2pic070rMYKNOuMt9nZSMEwHw2xbjXCNsB44gxLBWF7OlOwTqlIC7ZVAsVX42v8HPU
+        Zg4dsDVrMAuZvEkjSOzd0WVPJ4/JzEDmJJ/opzIHWURJqZOQKndQhNsjbSkK8q5H68Np904TPxji
+        GEJfMMYuQ99SizOlGMAU920Olw0WcyRCFAuRtUtDRWs0BgAzbUosS4OFeA9f
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
