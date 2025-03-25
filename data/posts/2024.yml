@@ -1970,10 +1970,10 @@
     - service: tg
       id: 414
       published: 2024-05-20-18-19-34
-      updated: 2025-03-18-18-12-01
+      updated: 2025-03-25-19-02-23
       followers: 372
       likes: 63
-      views: 512
+      views: 513
       comments: !c |-
         izKAkZTLQnj8XdeKgACoZ2xpZGVyMTPZI0h1aCB3aGVyZSdzIHRoaXM/IE11cnVkaXVzIEZsYWNl
         dXM/k8tCePxd3p8AAKlHYXRlbWF0ZTe4eW91ciBwZnAgaXMgc28gY3V0ZSDwn5izAw==
@@ -2148,7 +2148,7 @@
     - service: vk
       id: 1577
       published: 2024-06-10-18-20-20
-      updated: 2025-03-18-18-11-59
+      updated: 2025-03-25-19-02-28
       followers: 916
       likes: 33
       views: 284
@@ -2156,7 +2156,7 @@
     - service: tg
       id: 435
       published: 2024-06-10-18-20-28
-      updated: 2025-03-18-18-11-58
+      updated: 2025-03-25-19-02-21
       followers: 383
       likes: 55
       views: 451
@@ -3434,10 +3434,10 @@
       id: DENkpSrzZO6
       mediaId: '18034340228150471'
       published: 2024-12-30-18-10-42
-      updated: 2025-03-18-18-11-45
+      updated: 2025-03-25-19-02-15
       followers: 1520
       likes: 157
-      views: 1092
+      views: 1102
     - service: vk
       id: 2004
       published: 2024-12-30-18-10-48
