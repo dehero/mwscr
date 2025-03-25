@@ -1185,17 +1185,17 @@
     - service: vk
       id: 1814
       published: 2024-10-07-18-10-38
-      updated: 2025-03-18-11-07-36
+      updated: 2025-03-25-12-14-58
       followers: 958
       likes: 42
       views: 331
     - service: tg
       id: 557
       published: 2024-10-07-18-10-45
-      updated: 2025-03-18-11-07-33
+      updated: 2025-03-25-12-14-54
       followers: 559
       likes: 62
-      views: 500
+      views: 501
 2017-01-31-clear-sky-over-caldera:
   title: Clear Sky Over Caldera
   titleRu: Чистое небо над Кальдерой
@@ -3962,29 +3962,30 @@
       id: DHl3itkPoyP
       mediaId: '17898884301156540'
       published: 2025-03-24-18-11-47
-      updated: 2025-03-25-11-01-24
+      updated: 2025-03-25-12-14-54
       followers: 1529
       likes: 64
-      views: 212
+      views: 215
       comments: !c |-
-        G50ACGXock949i1Ol/C8+zEGRdnYCws4oPQpK5BygxMNlII0sigAjMdhA86ot2lc6L9G65n2Msdf
-        HMOOJCVCWTFUjjJuSVKHNiXzNkBQZii9qfH4x7iDeCVEysQNcEJsiSM3U22voiJTogdEKJuULgNO
-        BmkoSooOwXfaKzWT6JTf054zTIOjRM4/B+PV514NimWj1ho=
+        G9kAoGRwbksRs0y1kvWy674rmkg0cYsQMpFEJdEgFNDJAfFJH1jSVhh4EAWAeRboxtJL2uEgiMWg
+        f7XmPZyN7H9+APY0RASWdYWH+iVIa0QKYiFlIgnMQq1O4cPG5u1pk0xBXO90OWl8IjK/42rZWm5/
+        HwAbuD0DCBpO3XRLcUg83alGdY5IxhBlTYjABtSwicemMIEkWSNM33GnEGffKr4B2PK6ofMQ8bnj
+        a7j4XMuvfBHQxhI=
     - service: vk
       id: 2220
       published: 2025-03-24-18-11-55
-      updated: 2025-03-25-11-01-22
+      updated: 2025-03-25-12-14-52
       followers: 1209
-      likes: 40
-      views: 193
+      likes: 41
+      views: 197
       reposts: 3
     - service: tg
       id: 760
       published: 2025-03-24-18-12-01
-      updated: 2025-03-25-11-01-23
+      updated: 2025-03-25-12-14-53
       followers: 709
-      likes: 45
-      views: 164
+      likes: 46
+      views: 170
 2017-04-03-gnisis:
   title: Gnisis
   titleRu: Гнисис
@@ -7646,7 +7647,7 @@
     - service: vk
       id: 1766
       published: 2024-09-16-18-30-47
-      updated: 2025-03-18-11-07-40
+      updated: 2025-03-25-12-15-01
       followers: 947
       likes: 52
       views: 394
@@ -7655,10 +7656,10 @@
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2025-03-18-11-07-36
+      updated: 2025-03-25-12-14-57
       followers: 557
       likes: 67
-      views: 773
+      views: 781
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
