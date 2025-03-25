@@ -50,14 +50,14 @@ const submitVariants: SubmitVariantDescriptor[] = [
     id: 'upload-files',
     label: 'Upload files to Inbox',
     description:
-      "Send works directly to site Inbox, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
+      "Send images directly to Inbox, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
     allowedFormats: [['PNG', '≤ 5MB']],
   },
   {
     id: 'insert-links',
     label: 'Insert links to Inbox',
     description:
-      "Insert links to images or videos directly to site Inbox, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
+      "Insert links to images or videos directly to Inbox, then edit proposed posts in-place. Changes are visible only in your current browser until you send Edits to the project's repository.",
     allowedFormats: [
       ['PNG', '≤ 5MB'],
       ['MP4, AVI', '≤ 200MB'],
@@ -78,7 +78,7 @@ const submitVariants: SubmitVariantDescriptor[] = [
     id: 'github-issue',
     label: 'Send files via GitHub Issue',
     description:
-      "Create GitHub Issue in project's repository with your files attached. Use GitHub issue editor to add your files or links. After the issue is created, it will be automatically processed by project's workflow.",
+      "Create GitHub Issue in project's repository with your images or videos attached. Use ZIP archives to send large or multiple files. After the issue is created, files will be automatically checked by project's repository workflow and added to Inbox if everything is ok.",
     allowedFormats: [
       ['PNG', '≤ 5MB'],
       ['MP4', '≤ 10MB'],
@@ -89,7 +89,7 @@ const submitVariants: SubmitVariantDescriptor[] = [
     id: 'email',
     label: 'Send files via email',
     description:
-      'Send files to project administrator via email. He will check them manually and put to Inbox if everything is ok.',
+      'Send images or videos to project administrator via email. He will check them manually and put to Inbox if everything is ok. Use ZIP archives to send large or multiple files.',
     allowedFormats: [['PNG'], ['MP4, AVI'], ['ZIP']],
   },
 ] as const;
