@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.49.1](https://github.com/dehero/mwscr/compare/v1.49.0...v1.49.1) (2025-03-25)
+
+### Bug Fixes
+
+- preserve item changes when moving from inbox to trash
+  ([338952e](https://github.com/dehero/mwscr/commit/338952e6ddc37a04ae303b25eaae9becf49eac2e))
+- **site:** clear selection on posts manager change
+  ([a35acd7](https://github.com/dehero/mwscr/commit/a35acd73782eaa63b229e5dde317f44e188d4175))
+- **site:** improve post proposal variants descriptions
+  ([2c9f057](https://github.com/dehero/mwscr/commit/2c9f057d768bce8c57798ca713796e6b93cb8c6d))
+- **site:** minimize Dialog footer width
+  ([63d45f4](https://github.com/dehero/mwscr/commit/63d45f484faf145579f910faebbf60bfe8d1c880))
+
 ## [1.49.0](https://github.com/dehero/mwscr/compare/v1.48.0...v1.49.0) (2025-03-24)
 
 ### Features
