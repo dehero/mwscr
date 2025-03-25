@@ -65,8 +65,17 @@ dehero.2025-03-12-20-11-51:
   type: shot
   author: dehero
 dehero.2025-03-25-20-28-05:
-  content:
-    - store:/inbox/dehero.2025-03-25-20-28-05.1.png
-    - store:/inbox/dehero.2025-03-25-20-28-05.png
+  title: Under Gateway Inn
+  titleRu: Под Привратным
+  placement: Outdoors
+  location: Sadrith Mora, Gateway Inn
+  content: store:/inbox/dehero.2025-03-25-20-28-05.1.png
+  trash: store:/inbox/dehero.2025-03-25-20-28-05.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - gate
+    - guard
+    - lantern
+  mark: A2
