@@ -110,9 +110,9 @@ export const PostPage = (): JSX.Element => {
     setSelectedContentIndex(index);
   };
 
-  const copyIdToClipboard = () => {
-    writeClipboard(params().id);
-    addToast('Post ID copied to clipboard');
+  const copyPathToClipboard = () => {
+    writeClipboard(createPostPath(params().managerName, params().id));
+    addToast('Post path copied to clipboard');
   };
 
   const handleContentLoad = () => {
@@ -576,8 +576,8 @@ export const PostPage = (): JSX.Element => {
 
               <div class={styles.footer}>
                 <div class={styles.id}>
-                  <Input value={params().id} readonly />
-                  <Button class={styles.copy} onClick={copyIdToClipboard}>
+                  <Input value={createPostPath(params().managerName, params().id)} readonly />
+                  <Button class={styles.copy} onClick={copyPathToClipboard}>
                     Copy
                   </Button>
                 </div>

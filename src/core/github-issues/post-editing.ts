@@ -19,11 +19,11 @@ import { asArray } from '../utils/common-utils.js';
 
 export const label = 'post-editing';
 
-export function createIssueUrl(id?: string, post?: Post): string {
+export function createIssueUrl(path?: string, post?: Post): string {
   const url = new URL(GITHUB_ISSUE_CREATE_URL);
   url.searchParams.set('labels', label);
   url.searchParams.set('template', `${label}.yml`);
-  url.searchParams.set('title', id || '');
+  url.searchParams.set('title', path || '');
   url.searchParams.set(postContent.id, asArray(post?.content).join('\n'));
   url.searchParams.set(postTitle.id, post?.title || '');
   url.searchParams.set(postTitleRu.id, post?.titleRu || '');

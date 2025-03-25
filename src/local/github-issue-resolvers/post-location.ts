@@ -1,12 +1,12 @@
 import { type GithubIssue } from '../../core/entities/github-issue.js';
 import { postLocation } from '../../core/entities/github-issue-field.js';
-import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import { locationMatchesString } from '../../core/entities/location.js';
 import { mergePostLocations } from '../../core/entities/post.js';
+import { parsePostPath } from '../../core/entities/posts-manager.js';
 import { label } from '../../core/github-issues/post-location.js';
 import { listItems } from '../../core/utils/common-utils.js';
 import { locations } from '../data-managers/locations.js';
-import { inbox, posts, trash } from '../data-managers/posts.js';
+import { dataManager } from '../data-managers/manager.js';
 import { extractIssueTextareaValue, extractIssueUser } from './utils/issue-utils.js';
 
 export * from '../../core/github-issues/post-location.js';
@@ -18,8 +18,21 @@ export async function resolve(issue: GithubIssue) {
     throw new Error(`Post ${label} is not allowed for non-administrator user "${userId}".`);
   }
 
-  const id = issue.title;
-  const [post, manager] = await searchListReaderItem(id, [posts, inbox, trash]);
+  const { managerName, id } = parsePostPath(issue.title);
+  if (!managerName || !id) {
+    throw new Error(`Cannot get posts manager name and post ID from issue title.`);
+  }
+
+  const manager = dataManager.findPostsManager(managerName);
+  if (!manager) {
+    throw new Error(`Cannot find manager name "${managerName}".`);
+  }
+
+  const post = await manager.getItem(id);
+  if (!post) {
+    throw new Error(`Cannot find items "${id}" through ${manager.name} items.`);
+  }
+
   const rawLocation = extractIssueTextareaValue(postLocation, issue.body)?.split(/\r?\n/).filter(Boolean);
 
   if (!rawLocation) {

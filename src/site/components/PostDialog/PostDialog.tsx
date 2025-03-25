@@ -21,6 +21,7 @@ import {
   PostViolation,
   postViolationDescriptors,
 } from '../../../core/entities/post.js';
+import { createPostPath } from '../../../core/entities/posts-manager.js';
 import { createIssueUrl as createEditIssueUrl } from '../../../core/github-issues/post-editing.js';
 import { createIssueUrl as createLocateIssueUrl } from '../../../core/github-issues/post-location.js';
 import { email } from '../../../core/services/email.js';
@@ -160,7 +161,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
     const targetId = entry?.[2] ?? entry?.[0];
     const variant = submitVariant();
 
-    if (!targetId) {
+    if (!manager() || !targetId) {
       return undefined;
     }
 
@@ -176,10 +177,10 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
 
         switch (local.preset) {
           case 'edit':
-            href = createEditIssueUrl(targetId, post()!);
+            href = createEditIssueUrl(createPostPath(manager()!.name, targetId), post()!);
             break;
           case 'locate':
-            href = createLocateIssueUrl(targetId, post().location);
+            href = createLocateIssueUrl(createPostPath(manager()!.name, targetId), post().location);
             break;
           default:
         }

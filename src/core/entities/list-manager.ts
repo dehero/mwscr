@@ -1,7 +1,7 @@
 import { DeepProxy } from 'proxy-deep';
 import type { InferOutput } from 'valibot';
 import { null as nullSchema, picklist, record, string, undefined as undefinedSchema, union } from 'valibot';
-import { arrayFromAsync, cloneValueWithoutProxy, listItems } from '../utils/common-utils.js';
+import { arrayFromAsync, cloneValueWithoutProxy } from '../utils/common-utils.js';
 import {
   getObjectValue,
   isObject,
@@ -719,18 +719,4 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
 
     return 'changed';
   }
-}
-
-export async function searchListReaderItem<
-  TListReader extends ListReader<object>,
-  TItem extends TListReader extends ListReader<infer T> ? T : never,
->(id: string, managers: TListReader[]): Promise<[TItem, TListReader]> {
-  for (const manager of managers) {
-    const item = await manager.getItem(id);
-    if (item) {
-      return [item as TItem, manager];
-    }
-  }
-
-  throw new Error(`Cannot find items "${id}" through ${listItems(managers.map(({ name }) => name))} items.`);
 }

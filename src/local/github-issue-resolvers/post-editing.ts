@@ -14,7 +14,6 @@ import {
   postType,
   postViolation,
 } from '../../core/entities/github-issue-field.js';
-import { searchListReaderItem } from '../../core/entities/list-manager.js';
 import { locationMatchesString } from '../../core/entities/location.js';
 import {
   mergeAuthors,
@@ -26,12 +25,13 @@ import {
   PostType,
   PostViolation,
 } from '../../core/entities/post.js';
+import { parsePostPath } from '../../core/entities/posts-manager.js';
 import { ResourceUrl } from '../../core/entities/resource.js';
 import { safeParseSchema } from '../../core/entities/schema.js';
 import { label } from '../../core/github-issues/post-editing.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { locations } from '../data-managers/locations.js';
-import { inbox, trash } from '../data-managers/posts.js';
+import { dataManager } from '../data-managers/manager.js';
 import {
   extractIssueFieldValue,
   extractIssueTextareaValue,
@@ -42,12 +42,25 @@ import {
 export * from '../../core/github-issues/post-editing.js';
 
 export async function resolve(issue: GithubIssue) {
-  const id = issue.title;
-  const [post, manager] = await searchListReaderItem(id, [inbox, trash]);
   const [userId, user] = await extractIssueUser(issue);
 
   if (!user.admin) {
     throw new Error(`Post ${label} is not allowed for non-administrator user "${userId}".`);
+  }
+
+  const { managerName, id } = parsePostPath(issue.title);
+  if (!managerName || !id) {
+    throw new Error(`Cannot get posts manager name and post ID from issue title.`);
+  }
+
+  const manager = dataManager.findPostsManager(managerName);
+  if (!manager) {
+    throw new Error(`Cannot find manager name "${managerName}".`);
+  }
+
+  const post = await manager.getItem(id);
+  if (!post) {
+    throw new Error(`Cannot find items "${id}" through ${manager.name} items.`);
   }
 
   const typeStr = extractIssueFieldValue(postType, issue.body);
@@ -105,7 +118,7 @@ export async function resolve(issue: GithubIssue) {
 export async function createIssueTemplate() {
   return {
     name: 'Edit Post',
-    description: 'Paste in the title the ID of post.',
+    description: 'Paste in the title the path of post.',
     labels: [label],
     body: [
       postContent,
