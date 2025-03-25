@@ -1,5 +1,5 @@
 name: Edit Post
-description: Paste in the title the ID of post.
+description: Paste in the title the path of post.
 labels:
   - post-editing
 body:
