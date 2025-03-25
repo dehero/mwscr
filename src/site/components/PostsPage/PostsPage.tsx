@@ -1,7 +1,7 @@
 import { createMediaQuery } from '@solid-primitives/media';
 import { makePersisted } from '@solid-primitives/storage';
 import type { JSX } from 'solid-js';
-import { createMemo, createResource, createSignal, Show } from 'solid-js';
+import { createEffect, createMemo, createResource, createSignal, on, Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import type { PostAction } from '../../../core/entities/post-action.js';
 import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../core/entities/post-info.js';
@@ -64,6 +64,15 @@ export const PostsPage = (): JSX.Element => {
   });
 
   const [selected, setSelected] = createSignal<string[]>([]);
+
+  // Clear selection on manager change
+  createEffect(
+    on(
+      () => params().managerName,
+      () => setSelected([]),
+      { defer: true },
+    ),
+  );
 
   const handleSelectedChange = (id: string, value: boolean) => {
     if (!value) {
