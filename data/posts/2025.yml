@@ -854,23 +854,51 @@
       id: DHjWhNzx9Dt
       mediaId: '17885959356234177'
       published: 2025-03-23-18-44-46
-      updated: 2025-03-25-17-55-31
+      updated: 2025-03-25-18-11-20
       followers: 1531
       likes: 86
       views: 303
     - service: vk
       id: 2219
       published: 2025-03-23-18-44-52
-      updated: 2025-03-25-17-55-32
+      updated: 2025-03-25-18-11-19
       followers: 1206
       likes: 19
-      views: 232
+      views: 233
       reposts: 1
     - service: tg
       id: 759
       published: 2025-03-23-18-44-58
-      updated: 2025-03-25-17-55-30
+      updated: 2025-03-25-18-11-19
       followers: 709
       likes: 41
       views: 214
 2025-03-24-night-street-of-balmora: 2017-04-02-night-street-of-balmora
+2025-03-25-under-gateway-inn:
+  title: Under Gateway Inn
+  titleRu: Под Привратным
+  placement: Outdoors
+  location: Sadrith Mora, Gateway Inn
+  content: store:/shots/2025-03-25-under-gateway-inn.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - gate
+    - guard
+    - lantern
+  mark: A2
+  posts:
+    - service: ig
+      id: DHocVJePZM9
+      mediaId: '18490868689036203'
+      published: 2025-03-25-18-11-44
+      followers: 1531
+    - service: vk
+      id: 2222
+      published: 2025-03-25-18-11-50
+      followers: 1211
+    - service: tg
+      id: 761
+      published: 2025-03-25-18-11-57
+      followers: 709
