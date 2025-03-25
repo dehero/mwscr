@@ -5,7 +5,6 @@ import { useHash } from '../../hooks/useHash.js';
 import { ContributingDialog } from '../ContributingDialog/ContributingDialog.jsx';
 import { PostEditingDialog } from '../PostEditingDialog/PostEditingDialog.jsx';
 import { PostLocationDialog } from '../PostLocationDialog/PostLocationDialog.jsx';
-import { PostMergeDialog } from '../PostMergeDialog/PostMergeDialog.jsx';
 import { PostPrecisingDialog } from '../PostPrecisingDialog/PostPrecisingDialog.jsx';
 import { PostProposalDialog } from '../PostProposalDialog/PostProposalDialog.jsx';
 import { PostRequestDialog } from '../PostRequestDialog/PostRequestDialog.jsx';
@@ -28,7 +27,6 @@ export type DetachedDialog<
 const detachedDialogs = {
   'post-editing': PostEditingDialog,
   'post-location': PostLocationDialog,
-  'post-merge': PostMergeDialog,
   'post-proposal': PostProposalDialog,
   'post-request': PostRequestDialog,
   'post-precising': PostPrecisingDialog,

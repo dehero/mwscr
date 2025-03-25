@@ -125,16 +125,6 @@ export const postRequestText = {
   },
 };
 
-export const mergeWithIds = {
-  type: 'textarea',
-  id: 'mergeWithIds',
-  attributes: {
-    label: 'Merge with IDs',
-    description: 'Paste post IDs which you would like to merge with',
-    render: 'txt',
-  },
-};
-
 export const userName = {
   type: 'input',
   id: 'userName',

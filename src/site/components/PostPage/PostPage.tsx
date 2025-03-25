@@ -348,18 +348,6 @@ export const PostPage = (): JSX.Element => {
                     </Button>
                   </Show>
 
-                  <Show when={postInfo().status !== 'removed' && postActions().includes('merge')}>
-                    <Button
-                      href={createDetachedDialogFragment(
-                        'post-merge',
-                        createPostPath(params().managerName, params().id),
-                      )}
-                      class={styles.action}
-                    >
-                      Merge
-                    </Button>
-                  </Show>
-
                   <Show
                     when={postInfo().status !== 'removed' && !postInfo().location && postActions().includes('locate')}
                   >
