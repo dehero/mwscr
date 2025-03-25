@@ -2780,14 +2780,14 @@
     - service: vk
       id: 1865
       published: 2024-10-28-18-10-39
-      updated: 2025-03-18-09-11-27
+      updated: 2025-03-25-10-09-23
       followers: 1000
       likes: 51
-      views: 323
+      views: 324
     - service: tg
       id: 578
       published: 2024-10-28-18-10-46
-      updated: 2025-03-18-09-11-27
+      updated: 2025-03-25-10-09-22
       followers: 564
       likes: 60
       views: 579
@@ -4214,7 +4214,7 @@
     - service: tg
       id: 564
       published: 2024-10-14-18-10-32
-      updated: 2025-03-18-09-11-29
+      updated: 2025-03-25-10-09-24
       followers: 561
       likes: 64
       views: 511
@@ -11060,7 +11060,7 @@
     - service: tg
       id: 571
       published: 2024-10-21-18-10-50
-      updated: 2025-03-18-09-11-28
+      updated: 2025-03-25-10-09-23
       followers: 562
       likes: 55
       views: 729
