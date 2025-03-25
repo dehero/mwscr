@@ -674,10 +674,10 @@
       id: DHZFSNPpzVk
       mediaId: '17997723893608305'
       published: 2025-03-19-19-01-44
-      updated: 2025-03-24-20-08-49
+      updated: 2025-03-25-20-09-07
       followers: 1533
-      likes: 77
-      views: 272
+      likes: 79
+      views: 277
       comments: !c |-
         G6gAUIzDOCb8dbCIPkIlnzr3gANMHhW2SGQKpsDfCAf0awKZdX86OdE7R1gQ1NYCTQMNAtAkndz8
         gv/pHEmJBGklxPY+nk/ZjQEGwBvFld+0Y5fHI6xO8WKEqd4B0VKzC+zkssOE+xm+x5ia7w+44s/M
@@ -685,10 +685,10 @@
     - service: vk
       id: 2208
       published: 2025-03-19-19-01-51
-      updated: 2025-03-24-20-08-48
+      updated: 2025-03-25-20-09-05
       followers: 1193
       likes: 39
-      views: 298
+      views: 307
       comments: !c |-
         G6oBIJwHtmOXhcHAfMErjeifuBjpH78OPcywKQj4KPFkH3m6tiwhfkiGPJCd3ANT3Zb7c9o2hIND
         eaqGrM6tBnA3dQNFmU4Zm7NQir1jthMdjgei+xtN6C/gOMOIK8BRRJmmG8MiGJIwX5kGweLz/ato
@@ -698,10 +698,10 @@
     - service: tg
       id: 755
       published: 2025-03-19-19-01-59
-      updated: 2025-03-24-20-08-48
+      updated: 2025-03-25-20-09-04
       followers: 705
       likes: 54
-      views: 318
+      views: 327
 2025-03-20-night-on-the-plantation:
   title: Night on the Plantation
   titleRu: Ночь на плантации
@@ -893,17 +893,17 @@
       id: DHocVJePZM9
       mediaId: '18490868689036203'
       published: 2025-03-25-18-11-44
-      updated: 2025-03-25-19-02-10
+      updated: 2025-03-25-20-09-02
       followers: 1531
-      likes: 21
-      views: 41
+      likes: 42
+      views: 89
     - service: vk
       id: 2222
       published: 2025-03-25-18-11-50
-      updated: 2025-03-25-19-02-13
+      updated: 2025-03-25-20-09-02
       followers: 1211
-      likes: 6
-      views: 51
+      likes: 8
+      views: 75
       comments: !c |-
         G84A4J0Hxi3zhkHkn0euHCHJLP0TN4rwA8VYxE0CGZzsw9O5ldANxVAPeMcELtTkiCON6f6DpC3z
         XGouvDx0TjnSgDjBjGKPJOToezRgY2wujSDKz/vL+IPju34vF7f/s2aH5AHZkK7pKznQYEyDID4B
@@ -911,7 +911,7 @@
     - service: tg
       id: 761
       published: 2025-03-25-18-11-57
-      updated: 2025-03-25-19-02-11
+      updated: 2025-03-25-20-09-02
       followers: 709
-      likes: 26
-      views: 80
+      likes: 31
+      views: 104

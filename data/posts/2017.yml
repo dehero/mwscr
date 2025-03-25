@@ -3962,10 +3962,10 @@
       id: DHl3itkPoyP
       mediaId: '17898884301156540'
       published: 2025-03-24-18-11-47
-      updated: 2025-03-25-19-02-12
+      updated: 2025-03-25-20-09-04
       followers: 1529
       likes: 74
-      views: 242
+      views: 243
       comments: !c |-
         G9kAoGRwbksRs0y1kvWy674rmkg0cYsQMpFEJdEgFNDJAfFJH1jSVhh4EAWAeRboxtJL2uEgiMWg
         f7XmPZyN7H9+APY0RASWdYWH+iVIa0QKYiFlIgnMQq1O4cPG5u1pk0xBXO90OWl8IjK/42rZWm5/
@@ -3974,7 +3974,7 @@
     - service: vk
       id: 2220
       published: 2025-03-24-18-11-55
-      updated: 2025-03-25-19-02-14
+      updated: 2025-03-25-20-09-03
       followers: 1209
       likes: 46
       views: 236
@@ -3982,10 +3982,10 @@
     - service: tg
       id: 760
       published: 2025-03-24-18-12-01
-      updated: 2025-03-25-19-02-11
+      updated: 2025-03-25-20-09-03
       followers: 709
       likes: 52
-      views: 197
+      views: 203
 2017-04-03-gnisis:
   title: Gnisis
   titleRu: Гнисис
@@ -4096,10 +4096,10 @@
       id: DHEZOdXtjzH
       mediaId: '18064945003941974'
       published: 2025-03-11-18-11-56
-      updated: 2025-03-18-19-03-31
+      updated: 2025-03-25-20-09-08
       followers: 1534
-      likes: 87
-      views: 383
+      likes: 90
+      views: 417
       comments: !c |-
         iyWAkZPLQnlYaYmxgACpbnk3NHRfNHJ02TVJIGJlbGlldmUgdGhhdCBkdWRlIGlzIGFuIGFuY2Vz
         dG9yIG9mIGdlbmVyYWwgdHVsbGl1cwM=
@@ -4114,10 +4114,10 @@
     - service: tg
       id: 744
       published: 2025-03-11-18-12-10
-      updated: 2025-03-18-19-03-30
+      updated: 2025-03-25-20-09-06
       followers: 695
-      likes: 60
-      views: 330
+      likes: 61
+      views: 439
 2017-04-07-trees-and-towers:
   title: Trees and Towers
   titleRu: Деревья и башни
