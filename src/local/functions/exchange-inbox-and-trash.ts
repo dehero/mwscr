@@ -20,11 +20,11 @@ async function cleanupInbox() {
       if (isTrashItem(item)) {
         try {
           await moveInboxItemResourcesToTrash(item);
-          await inbox.removeItem(id);
           await trash.addItem(item, id);
+          await inbox.removeItem(id);
 
-          await inbox.save();
           await trash.save();
+          await inbox.save();
 
           console.info(`Moved rejected inbox item "${id}" to trash.`);
         } catch (error) {
