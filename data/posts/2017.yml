@@ -1444,7 +1444,7 @@
     - service: vk
       id: 1598
       published: 2024-06-25-18-21-05
-      updated: 2025-03-19-22-07-53
+      updated: 2025-03-26-23-08-29
       followers: 917
       likes: 45
       views: 331
@@ -1452,10 +1452,10 @@
     - service: tg
       id: 450
       published: 2024-06-25-18-21-11
-      updated: 2025-03-19-22-07-48
+      updated: 2025-03-26-23-08-22
       followers: 388
       likes: 64
-      views: 589
+      views: 590
 2017-02-06-maurrie-is-waiting-for-nelos:
   title: Maurrie Is Waiting for Nelos
   titleRu: Морри ждёт Нелоса
@@ -1648,7 +1648,7 @@
     - service: vk
       id: 1532
       published: 2024-05-14-18-18-38
-      updated: 2025-03-19-23-08-05
+      updated: 2025-03-26-23-08-35
       followers: 915
       likes: 47
       views: 332
@@ -1656,7 +1656,7 @@
     - service: tg
       id: 408
       published: 2024-05-14-18-18-46
-      updated: 2025-03-19-22-07-52
+      updated: 2025-03-26-23-08-26
       followers: 370
       likes: 61
       views: 450
@@ -5472,7 +5472,7 @@
     - service: vk
       id: 1639
       published: 2024-07-16-18-20-48
-      updated: 2025-03-19-22-07-49
+      updated: 2025-03-26-23-08-25
       followers: 919
       likes: 28
       views: 266
@@ -5480,10 +5480,10 @@
     - service: tg
       id: 471
       published: 2024-07-16-18-20-54
-      updated: 2025-03-19-22-07-46
+      updated: 2025-03-26-23-08-19
       followers: 400
       likes: 54
-      views: 558
+      views: 559
 2017-05-09-youd-better-do-what-they-say:
   title: You'd Better Do What They Say
   titleRu: Вам лучше сделать, как они говорят
@@ -9675,17 +9675,17 @@
     - service: vk
       id: 1587
       published: 2024-06-18-18-20-59
-      updated: 2025-03-19-22-07-54
+      updated: 2025-03-26-23-08-30
       followers: 917
       likes: 37
       views: 278
     - service: tg
       id: 443
       published: 2024-06-18-18-21-06
-      updated: 2025-03-19-22-07-49
+      updated: 2025-03-26-23-08-23
       followers: 385
       likes: 56
-      views: 477
+      views: 478
 2017-08-26-raven-rock:
   title: Raven Rock
   titleRu: Воронья Скала
@@ -10349,14 +10349,14 @@
     - service: vk
       id: 1661
       published: 2024-07-30-18-20-32
-      updated: 2025-03-19-22-07-47
+      updated: 2025-03-26-23-08-22
       followers: 924
       likes: 32
       views: 258
     - service: tg
       id: 485
       published: 2024-07-30-18-20-38
-      updated: 2025-03-19-22-07-44
+      updated: 2025-03-26-23-08-18
       followers: 418
       likes: 52
       views: 661
@@ -11613,10 +11613,10 @@
     - service: tg
       id: 358
       published: 2024-03-26-18-10-55
-      updated: 2025-03-19-23-08-01
+      updated: 2025-03-26-23-08-31
       followers: 352
       likes: 68
-      views: 549
+      views: 550
       comments: !c |-
         G9kBAIzDdOMtD8uLoNCb/uY3rEvgXRaFcVs8ojGmRePvATimyLdobakOeKISVRqhnL/uvmhIEaJX
         IlM39fHx8YF4jiaXdWGcZZLo0n0eQm8T8ZGeji5LY4lh62Ne3NjmP1g4BM1EkzH5Ymsiv7nDKENw
@@ -13131,7 +13131,7 @@
     - service: vk
       id: 1506
       published: 2024-04-23-18-17-15
-      updated: 2025-03-19-23-08-07
+      updated: 2025-03-26-23-08-37
       followers: 909
       likes: 40
       views: 306
@@ -13142,7 +13142,7 @@
     - service: tg
       id: 387
       published: 2024-04-23-18-17-22
-      updated: 2025-03-19-23-07-58
+      updated: 2025-03-26-23-08-28
       followers: 355
       likes: 62
       views: 1159

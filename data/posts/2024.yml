@@ -428,10 +428,10 @@
     - service: tg
       id: 343
       published: 2024-03-12-18-18-01
-      updated: 2025-03-19-23-08-02
+      updated: 2025-03-26-23-08-32
       followers: 350
-      likes: 64
-      views: 530
+      likes: 65
+      views: 532
       comments: !c CxCAkZPLQnjjPwNOAACx2YXYrdmF2K8g2K7Yp9mE2K+jV293Aw==
 2024-03-13-haze: 2017-06-23-haze
 2024-03-14-night-street-of-balmora: 2017-04-02-night-street-of-balmora
@@ -558,10 +558,10 @@
     - service: tg
       id: 351
       published: 2024-03-19-18-11-30
-      updated: 2025-03-19-23-08-02
+      updated: 2025-03-26-23-08-31
       followers: 352
       likes: 69
-      views: 484
+      views: 485
 2024-03-20-banner-of-house-dagoth: 2017-07-05-banner-of-house-dagoth
 2024-03-21-first-stars-above-falasmaryon:
   title: First Stars Above Falasmaryon
@@ -867,10 +867,10 @@
     - service: tg
       id: 365
       published: 2024-04-02-18-11-28
-      updated: 2025-03-19-23-08-01
+      updated: 2025-03-26-23-08-30
       followers: 355
       likes: 56
-      views: 476
+      views: 477
 2024-04-03-god-of-madness-and-his-follower: 2017-06-07-god-of-madness-and-his-follower
 2024-04-04-view-of-elf-skerring:
   title: View of Elf-Skerring
@@ -1028,7 +1028,7 @@
     - service: vk
       id: 1488
       published: 2024-04-09-18-16-08
-      updated: 2025-03-19-23-08-09
+      updated: 2025-03-26-23-08-39
       followers: 911
       likes: 39
       views: 261
@@ -1036,10 +1036,10 @@
     - service: tg
       id: 373
       published: 2024-04-09-18-16-14
-      updated: 2025-03-19-23-08-00
+      updated: 2025-03-26-23-08-30
       followers: 353
-      likes: 67
-      views: 457
+      likes: 68
+      views: 459
 2024-04-10-sun-mushrooms:
   title: Sun Mushrooms
   titleRu: Солнечные грибы
@@ -1662,7 +1662,7 @@
     - service: vk
       id: 1524
       published: 2024-05-07-18-18-49
-      updated: 2025-03-19-23-08-06
+      updated: 2025-03-26-23-08-35
       followers: 913
       likes: 34
       views: 268
@@ -1670,7 +1670,7 @@
     - service: tg
       id: 401
       published: 2024-05-07-18-18-56
-      updated: 2025-03-19-22-07-53
+      updated: 2025-03-26-23-08-27
       followers: 371
       likes: 56
       views: 464
@@ -2191,14 +2191,14 @@
     - service: vk
       id: 1578
       published: 2024-06-11-18-21-03
-      updated: 2025-03-19-23-08-01
+      updated: 2025-03-26-23-08-31
       followers: 916
       likes: 34
       views: 286
     - service: tg
       id: 436
       published: 2024-06-11-18-21-09
-      updated: 2025-03-19-22-07-50
+      updated: 2025-03-26-23-08-23
       followers: 384
       likes: 56
       views: 452
