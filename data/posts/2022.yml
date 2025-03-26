@@ -224,7 +224,15 @@
     - service: vk
       id: 2226
       published: 2025-03-26-18-12-43
+      updated: 2025-03-26-19-01-34
       followers: 1213
+      likes: 11
+      views: 45
+      comments: !c |-
+        GykBgJwHto1qPbB49qw2BzH+H7lnAcfB47+/1Eu8eUso4uRcsnTq4vP8JjterBAbpAX+81aD7bgq
+        p3dfsTFXpS41zdNFlkcnp3wAOxwPlED0tUUaEgXOsVLVsCqGwx/z/vz68rxx+T6yWqy5/+vqsKHO
+        tNCDSZUKUENviHIwwxHcACS5cpZHAoG4SDhYEqCC1DmYVQFsZkRrH32lf1aJEU1Cfcjv8LQSXZja
+        TwTK+31uRXyTx3GcHvaSjUYL9T/3BQ==
     - service: tg
       id:
         - 762
@@ -232,7 +240,15 @@
         - 764
         - 765
       published: 2025-03-26-18-13-07
+      updated: 2025-03-26-19-01-34
       followers: 710
+      likes: 22
+      views: 110
+    - service: ig
+      id: DHrG6TzS39F
+      mediaId: '17904383484108059'
+      published: 2025-03-26-19-02-16
+      followers: 1532
 2022-06-27-going-out-of-mournhold-armory:
   title: Going Out of Mournhold Armory
   titleRu: Выходя из оружейной Морнхолда
