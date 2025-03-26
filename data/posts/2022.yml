@@ -221,6 +221,18 @@
         pDkCezMsgmU4m3QmMKbJZ0/dOrQUMuoM0XSKQrTV4JGnpHxRB4wLWzoPa709EuFbBZOGDPVzwdZ/
         AbAzSOQKlcRoEohPcIpq8Na4DT5NSX0CjlHhCA64wxsqwzMFPlEFlTeM8pN/FlEZnhPBSrWfOAy7
         NZ1IB312/+I/XtQB
+    - service: vk
+      id: 2226
+      published: 2025-03-26-18-12-43
+      followers: 1213
+    - service: tg
+      id:
+        - 762
+        - 763
+        - 764
+        - 765
+      published: 2025-03-26-18-13-07
+      followers: 710
 2022-06-27-going-out-of-mournhold-armory:
   title: Going Out of Mournhold Armory
   titleRu: Выходя из оружейной Морнхолда

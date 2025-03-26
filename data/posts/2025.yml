@@ -813,17 +813,17 @@
       id: DHgtwWYt6AA
       mediaId: '18081512209635569'
       published: 2025-03-22-18-10-07
-      updated: 2025-03-25-17-55-32
+      updated: 2025-03-26-18-11-50
       followers: 1535
-      likes: 83
-      views: 305
+      likes: 85
+      views: 315
     - service: vk
       id: 2217
       published: 2025-03-22-18-10-15
-      updated: 2025-03-25-17-55-32
+      updated: 2025-03-26-18-11-48
       followers: 1202
       likes: 43
-      views: 276
+      views: 298
       comments: !c |-
         G6QA4J0HdizyAotV1mcQT/i3CG9x+1RmYRJggi2xSJN3QW1zmXahXcSPSP4EN1nu5ATfTMrsmxmc
         7LABB+4ZJDAI7Pz9itlynu7n07Xv/Ht6z2PdmLxC+mFpSEFrK2u6pTfioPRdPBBiqgNXE3sUiyho
@@ -831,10 +831,11 @@
     - service: tg
       id: 758
       published: 2025-03-22-18-10-23
-      updated: 2025-03-25-17-55-31
+      updated: 2025-03-26-18-11-48
       followers: 708
-      likes: 52
-      views: 402
+      likes: 54
+      views: 434
+      comments: !c iw6AkZPLQnldJXDDgACpTWF4VXBzaGVyqEdvIExlZnQuAw==
 2025-03-23-avus-belvilo:
   title: Avus Belvilo
   titleRu: Авус Бельвило
@@ -854,25 +855,25 @@
       id: DHjWhNzx9Dt
       mediaId: '17885959356234177'
       published: 2025-03-23-18-44-46
-      updated: 2025-03-25-18-11-20
+      updated: 2025-03-26-18-11-49
       followers: 1531
-      likes: 86
-      views: 303
+      likes: 87
+      views: 318
     - service: vk
       id: 2219
       published: 2025-03-23-18-44-52
-      updated: 2025-03-25-18-11-19
+      updated: 2025-03-26-18-11-47
       followers: 1206
-      likes: 19
-      views: 233
+      likes: 21
+      views: 252
       reposts: 1
     - service: tg
       id: 759
       published: 2025-03-23-18-44-58
-      updated: 2025-03-25-18-11-19
+      updated: 2025-03-26-18-11-47
       followers: 709
       likes: 41
-      views: 214
+      views: 237
 2025-03-24-night-street-of-balmora: 2017-04-02-night-street-of-balmora
 2025-03-25-under-gateway-inn:
   title: Under Gateway Inn
@@ -893,17 +894,17 @@
       id: DHocVJePZM9
       mediaId: '18490868689036203'
       published: 2025-03-25-18-11-44
-      updated: 2025-03-26-17-07-57
+      updated: 2025-03-26-18-11-45
       followers: 1531
-      likes: 99
-      views: 240
+      likes: 102
+      views: 247
     - service: vk
       id: 2222
       published: 2025-03-25-18-11-50
-      updated: 2025-03-26-17-07-57
+      updated: 2025-03-26-18-11-45
       followers: 1211
       likes: 39
-      views: 233
+      views: 235
       comments: !c |-
         Gz8BAJwHxq3xYEP05NduYjB64E82wq+T8RA2mFRUiU8gKLLkHg5stH0J2ZQmgKLAKd5SFhIzo6tN
         u5sJlCJUUUkmdJuSaASurne2PNIEcy7rPJKiKOEMexvozEbTG3odPjyElFbwef598H6B6XODwaT7
@@ -912,7 +913,8 @@
     - service: tg
       id: 761
       published: 2025-03-25-18-11-57
-      updated: 2025-03-26-17-07-57
+      updated: 2025-03-26-18-11-46
       followers: 709
       likes: 44
-      views: 173
+      views: 174
+2025-03-26-candelabra: 2022-06-26-candelabra
