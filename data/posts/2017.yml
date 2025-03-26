@@ -300,7 +300,7 @@
     - service: vk
       id: 56
       published: 2017-01-22
-      updated: 2025-03-19-02-17-15
+      updated: 2025-03-26-02-18-06
       likes: 5
       views: 72
     - service: ig
@@ -1261,7 +1261,7 @@
     - service: vk
       id: 1531
       published: 2024-05-13-18-17-48
-      updated: 2025-03-19-02-17-07
+      updated: 2025-03-26-02-17-57
       followers: 915
       likes: 35
       views: 265
@@ -2662,10 +2662,10 @@
     - service: vk
       id: 1988
       published: 2024-12-24-18-10-38
-      updated: 2025-03-19-02-17-04
+      updated: 2025-03-26-02-17-55
       followers: 1028
       likes: 49
-      views: 428
+      views: 432
       reposts: 4
       comments: !c |-
         G+UAyJwHtqOdVUH8g2aySSee+J2kl0dhnkGGexMb6eQfpG6EERIlL7BmfAVh0bnFCjAgspnT0aDF
@@ -2674,10 +2674,10 @@
     - service: tg
       id: 636
       published: 2024-12-24-18-10-47
-      updated: 2025-03-19-02-17-01
+      updated: 2025-03-26-02-17-51
       followers: 603
       likes: 64
-      views: 700
+      views: 702
 2017-03-06-night-encounter-at-the-bridge:
   title: Night Encounter at the Bridge
   titleRu: Ночная встреча у моста
@@ -3962,10 +3962,10 @@
       id: DHl3itkPoyP
       mediaId: '17898884301156540'
       published: 2025-03-24-18-11-47
-      updated: 2025-03-26-00-38-41
+      updated: 2025-03-26-02-17-52
       followers: 1529
-      likes: 74
-      views: 254
+      likes: 76
+      views: 258
       comments: !c |-
         G9kAoGRwbksRs0y1kvWy674rmkg0cYsQMpFEJdEgFNDJAfFJH1jSVhh4EAWAeRboxtJL2uEgiMWg
         f7XmPZyN7H9+APY0RASWdYWH+iVIa0QKYiFlIgnMQq1O4cPG5u1pk0xBXO90OWl8IjK/42rZWm5/
@@ -3974,7 +3974,7 @@
     - service: vk
       id: 2220
       published: 2025-03-24-18-11-55
-      updated: 2025-03-26-00-38-40
+      updated: 2025-03-26-02-17-50
       followers: 1209
       likes: 47
       views: 238
@@ -3982,10 +3982,10 @@
     - service: tg
       id: 760
       published: 2025-03-24-18-12-01
-      updated: 2025-03-26-00-38-40
+      updated: 2025-03-26-02-17-50
       followers: 709
       likes: 52
-      views: 211
+      views: 212
 2017-04-03-gnisis:
   title: Gnisis
   titleRu: Гнисис
@@ -5923,7 +5923,7 @@
     - service: vk
       id: 1456
       published: 2024-03-18-18-11-07
-      updated: 2025-03-19-02-17-13
+      updated: 2025-03-26-02-18-04
       followers: 896
       likes: 32
       views: 282
@@ -10661,7 +10661,7 @@
     - service: vk
       id: 1548
       published: 2024-05-27-18-19-06
-      updated: 2025-03-19-02-17-05
+      updated: 2025-03-26-02-17-56
       followers: 918
       likes: 36
       views: 274
@@ -11970,18 +11970,18 @@
       id: DEiLC17uOow
       mediaId: '18081052477524929'
       published: 2025-01-07-18-11-04
-      updated: 2025-03-19-02-17-02
+      updated: 2025-03-26-02-17-54
       followers: 1524
-      likes: 115
-      views: 456
+      likes: 116
+      views: 458
       comments: !c CxiAkZPLQnlEKOv5gACpaXN0c2llbGl6u09uZSBvZiB0aGUgbmljZXN0IHRvd25zIOKcqAM=
     - service: vk
       id: 2028
       published: 2025-01-07-18-11-12
-      updated: 2025-03-19-02-17-02
+      updated: 2025-03-26-02-17-53
       followers: 1049
       likes: 54
-      views: 415
+      views: 419
       reposts: 4
       comments: !c |-
         G5UDQCwPbLcJBLprx+HWndCTiP+nv+f3OaGjzbx/Zz7EkWeJBVwCQZEla4umn/t5X0g9ZQgUkFwK
@@ -12804,7 +12804,7 @@
     - service: vk
       id: 1477
       published: 2024-04-01-18-10-59
-      updated: 2025-03-19-02-17-11
+      updated: 2025-03-26-02-18-02
       followers: 906
       likes: 33
       views: 311
@@ -13015,10 +13015,10 @@
     - service: vk
       id: 2057
       published: 2025-01-14-18-10-37
-      updated: 2025-03-19-02-17-01
+      updated: 2025-03-26-02-17-52
       followers: 1052
       likes: 61
-      views: 374
+      views: 379
       reposts: 2
       comments: !c |-
         GwoBSJwJdiyXCQdrkR4XF/0TN4rwjxdwxhk2CR7hyT7VtvQJb084hCuDQrNXWILlTYy/nz1ZTnfH
