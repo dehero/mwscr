@@ -224,17 +224,18 @@
     - service: vk
       id: 2226
       published: 2025-03-26-18-12-43
-      updated: 2025-03-26-20-09-27
+      updated: 2025-03-26-21-07-35
       followers: 1213
-      likes: 21
-      views: 89
+      likes: 27
+      views: 108
       reposts: 2
       comments: !c |-
-        G4kBACwOzHOdDmzomk6FkBfqR//IwQItDj63WEq8eSuRIKLkHlmqbuANwiiSC7uXNy9jHZY3sdtg
-        Uwhi1+5PYcxXqUtNknXNtU0ZW7Y3DljnaVhoWL5hG3iwjRfZyNYd6uqN6JiOmEz0mOf7V1rpfsbh
-        c4O3LsT4z5OhFXcmhRzMwpgAjjxBpIMpHYKuA7G1dH49FgSsk0iDRQEYGK+D+TGAVqtEljXOTn0y
-        viUBbDDJY36D2fJIiu1HAkHwcyNjJF1Mrx5xkwovtfc/7uPVLJOPlzm+0iVJPkqaK/UXW4TpRjfr
-        TWRKx2gLswUCVYYE
+        G/4BYJwHtvOUwOLBN90aBAuY+H/inhVocfC05luAGUXQeLOzAgtLtHIu2aq6gTcIo0iu8KO8ednf
+        Xd2Wi8UHS7GVfUfwXFw1dXVuxM4G0IJJ7tQ5i8lQsgktd/xiieYWHQW/VgsoeUhqQUsCLbBAQ8xI
+        Uk/16Fn6jkXGiKmwj/l8/9ktbV5x+nmFKIu5//OiKYu7k0IOpmPMAUe+INJglgpBFUCsL81WY0HA
+        Ko80WBSAgfEYzMYAynpH9HKBbiRztu04hjaTdPI7eKtqSbHzi0Cm67mRAbLukQ+fhMmMrSv/f3vv
+        L6aKfr7o+J1bkoXAuUc2OXS/GCJA71RZlMiUxmgIbwUCrQo3UNYe+NkTdgLXY6PmDHriOogPBQML
+        U5RjVDI9xkcHOwY3bw==
     - service: tg
       id:
         - 762
@@ -242,18 +243,18 @@
         - 764
         - 765
       published: 2025-03-26-18-13-07
-      updated: 2025-03-26-20-09-27
+      updated: 2025-03-26-21-07-35
       followers: 710
-      likes: 25
-      views: 130
+      likes: 28
+      views: 142
     - service: ig
       id: DHrG6TzS39F
       mediaId: '17904383484108059'
       published: 2025-03-26-19-02-16
-      updated: 2025-03-26-20-09-27
+      updated: 2025-03-26-21-07-35
       followers: 1532
-      likes: 27
-      views: 56
+      likes: 37
+      views: 88
 2022-06-27-going-out-of-mournhold-armory:
   title: Going Out of Mournhold Armory
   titleRu: Выходя из оружейной Морнхолда
