@@ -874,7 +874,7 @@
     - service: vk
       id: 1747
       published: 2024-09-10-23-20-58
-      updated: 2025-03-19-21-07-48
+      updated: 2025-03-26-22-07-46
       followers: 945
       likes: 28
       views: 364
@@ -886,10 +886,10 @@
     - service: tg
       id: 528
       published: 2024-09-10-23-21-05
-      updated: 2025-03-19-21-07-49
+      updated: 2025-03-26-22-07-45
       followers: 554
       likes: 55
-      views: 561
+      views: 562
 2018-01-24-in-the-misty-emptiness:
   title: In the Misty Emptiness
   titleRu: В туманной пустоте
@@ -4415,10 +4415,10 @@
     - service: tg
       id: 725
       published: 2025-02-26-18-11-14
-      updated: 2025-03-19-21-07-46
+      updated: 2025-03-26-22-07-43
       followers: 685
       likes: 61
-      views: 425
+      views: 452
       comments: !c ixiAkZPLQnlUPOyCAACuZGlzbWFzdGVyZnJhbmW3TXVzdCBoYXZlIGJlZW4gdGhlIHdpbmQD
 2018-04-25-night-travellers:
   title: Night Travellers
