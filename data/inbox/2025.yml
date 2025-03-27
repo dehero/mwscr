@@ -84,42 +84,29 @@ dehero.2025-03-27-19-53-45:
   content: store:/inbox/dehero.2025-03-27-19-53-45.png
   type: shot
   author: dehero
-dehero.2025-03-27-19-59-13:
-  content: store:/inbox/dehero.2025-03-27-19-59-13.png
-  type: shot
-  author: dehero
 dehero.2025-03-27-20-00-55:
-  content: store:/inbox/dehero.2025-03-27-20-00-55.png
-  type: shot
-  author: dehero
-dehero.2025-03-27-20-01-30:
-  content: store:/inbox/dehero.2025-03-27-20-01-30.png
-  type: shot
-  author: dehero
-dehero.2025-03-27-20-01-57:
-  content: store:/inbox/dehero.2025-03-27-20-01-57.png
+  content:
+    - store:/inbox/dehero.2025-03-27-20-00-55.png
+    - store:/inbox/dehero.2025-03-27-19-59-13.png
+    - store:/inbox/dehero.2025-03-27-20-01-30.png
   type: shot
   author: dehero
 dehero.2025-03-27-20-02-45:
-  content: store:/inbox/dehero.2025-03-27-20-02-45.png
+  content:
+    - store:/inbox/dehero.2025-03-27-20-02-45.png
+    - store:/inbox/dehero.2025-03-27-20-01-57.png
   type: shot
   author: dehero
 dehero.2025-03-27-20-05-10:
   content: store:/inbox/dehero.2025-03-27-20-05-10.png
   type: shot
   author: dehero
-dehero.2025-03-27-20-06-34:
-  content: store:/inbox/dehero.2025-03-27-20-06-34.png
-  type: shot
-  author: dehero
-dehero.2025-03-27-20-06-38:
-  content: store:/inbox/dehero.2025-03-27-20-06-38.png
-  type: shot
-  author: dehero
 dehero.2025-03-27-20-06-42:
   content:
     - store:/inbox/dehero.2025-03-27-20-06-42.1.png
     - store:/inbox/dehero.2025-03-27-20-06-42.png
+    - store:/inbox/dehero.2025-03-27-20-06-38.png
+    - store:/inbox/dehero.2025-03-27-20-06-34.png
   type: shot
   author: dehero
 dehero.2025-03-27-20-23-36:
