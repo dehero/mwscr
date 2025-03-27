@@ -34,6 +34,9 @@ export const HomePage = (): JSX.Element => {
           const recentMostEngagingPostInfo = () =>
             selectPostInfos(data().recentPostInfos.items, { sortDirection: 'desc', sortKey: 'engagement' }, 1);
 
+          const recentEditorsChoicePostInfo = () =>
+            selectPostInfos(data().recentPostInfos.items, { sortKey: 'mark', sortDirection: 'desc' }, 1);
+
           return (
             <Frame component="main" class={styles.container}>
               <Frame class={styles.about}>
@@ -202,9 +205,7 @@ export const HomePage = (): JSX.Element => {
                     { label: 'Last Post', primary: true, selection: data().recentPostInfos },
                     { label: 'Last Original Post', primary: true, selection: data().lastOriginalPostInfo },
                     { label: 'Recent Engaging Post', primary: true, selection: recentMostEngagingPostInfo() },
-                    { label: "Editor's Choice Post", selection: data().editorsChoicePostInfo },
-                    { label: 'Top Rated Post', selection: data().topRatedPostInfo },
-                    { label: 'Top Liked Post', selection: data().topLikedPostInfo },
+                    { label: "Recent Editor's Choice Post", selection: recentEditorsChoicePostInfo() },
                     { label: 'Last Fulfilled Request', selection: data().lastFulfilledPostInfo },
                     // TODO: Last Week Top Rated Post, Current Month Top Rated Post, Previous Month Top Rated Post etc.
                   ]}

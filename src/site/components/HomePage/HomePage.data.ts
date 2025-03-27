@@ -9,12 +9,9 @@ export interface HomePageData {
   authorCount: number;
   requesterCount: number;
   lastOriginalPostInfo?: PostInfoSelection;
-  topRatedPostInfo?: PostInfoSelection;
-  topLikedPostInfo?: PostInfoSelection;
   lastFulfilledPostInfo?: PostInfoSelection;
   lastProposedPostInfo?: PostInfoSelection;
   lastRequestedPostInfo?: PostInfoSelection;
-  editorsChoicePostInfo?: PostInfoSelection;
   totalLikes: number;
   totalCommentCount: number;
   recentPostInfos: PostInfoSelection;
@@ -60,9 +57,6 @@ export async function getHomePageData(dataManager: DataManager): Promise<HomePag
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    topRatedPostInfo: await dataManager.selectPostInfo('posts', { sortKey: 'rating', sortDirection: 'desc' }),
-    editorsChoicePostInfo: await dataManager.selectPostInfo('posts', { sortKey: 'mark', sortDirection: 'desc' }),
-    topLikedPostInfo: await dataManager.selectPostInfo('posts', { sortKey: 'likes', sortDirection: 'desc' }),
     lastFulfilledPostInfo: await dataManager.selectPostInfo('posts', {
       requester: 'any',
       sortKey: 'date',
