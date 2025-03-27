@@ -1837,7 +1837,7 @@
     - service: tg
       id: 409
       published: 2024-05-15-18-18-39
-      updated: 2025-03-20-19-04-04
+      updated: 2025-03-27-19-12-27
       followers: 370
       likes: 57
       views: 471
@@ -2236,7 +2236,7 @@
     - service: vk
       id: 1579
       published: 2024-06-12-18-20-23
-      updated: 2025-03-20-19-04-02
+      updated: 2025-03-27-19-12-28
       followers: 915
       likes: 35
       views: 296
@@ -2247,10 +2247,10 @@
     - service: tg
       id: 437
       published: 2024-06-12-18-20-29
-      updated: 2025-03-20-19-04-00
+      updated: 2025-03-27-19-12-24
       followers: 384
       likes: 54
-      views: 480
+      views: 482
 2024-06-13-propylon:
   title: Propylon
   titleRu: Пропильон
