@@ -6315,10 +6315,10 @@
     - service: vk
       id: 1923
       published: 2024-11-27-18-11-33
-      updated: 2025-03-20-10-09-14
+      updated: 2025-03-27-11-07-35
       followers: 1010
       likes: 62
-      views: 937
+      views: 939
       reposts: 4
     - service: tg
       id: 608
@@ -9728,7 +9728,7 @@
     - service: vk
       id: 1817
       published: 2024-10-09-18-11-13
-      updated: 2025-03-20-10-09-18
+      updated: 2025-03-27-11-07-39
       followers: 957
       likes: 44
       views: 365
@@ -9736,10 +9736,10 @@
     - service: tg
       id: 559
       published: 2024-10-09-18-11-21
-      updated: 2025-03-20-10-09-15
+      updated: 2025-03-27-11-07-35
       followers: 559
       likes: 68
-      views: 652
+      views: 653
 2017-08-27-deadly-pass:
   title: Deadly Pass
   titleRu: Смертельный проход
@@ -13712,18 +13712,18 @@
     - service: vk
       id: 1833
       published: 2024-10-16-18-11-44
-      updated: 2025-03-20-10-09-17
+      updated: 2025-03-27-11-07-38
       followers: 965
       likes: 44
-      views: 453
+      views: 454
       reposts: 3
     - service: tg
       id: 566
       published: 2024-10-16-18-11-53
-      updated: 2025-03-20-10-09-14
+      updated: 2025-03-27-11-07-35
       followers: 562
       likes: 65
-      views: 531
+      views: 532
       comments: !c |-
         iyuAkZTLQnkpaLsDAACuU2hpc2tvcmliYWZpc2i9d2hlcmUgaXMgdGhpcyBzdGF0dWUgbG9jYXRl
         ZD+Ty0J5KWm0CQAApW13c2Nyr1NocmluZSBvZiBBenVyYQM=
