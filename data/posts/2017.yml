@@ -193,7 +193,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2025-03-20-02-16-22
+      updated: 2025-03-27-02-18-12
       followers: 894
       likes: 47
       views: 368
@@ -202,10 +202,10 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2025-03-20-02-16-17
+      updated: 2025-03-27-02-18-04
       followers: 337
-      likes: 91
-      views: 620
+      likes: 92
+      views: 621
       comments: !c |-
         ixyAkZTLQnjexabnAACucXVpbnR1c19mYWJpdXOtV2UncmUgc28gYmFja5PLQnjexcSwAAClYW5z
         aXOhLgM=
@@ -4347,10 +4347,10 @@
     - service: vk
       id: 2139
       published: 2025-02-19-18-11-18
-      updated: 2025-03-20-02-16-10
+      updated: 2025-03-27-02-18-00
       followers: 1102
       likes: 47
-      views: 429
+      views: 442
       comments: !c |-
         CyeAkZPLQnlSAJoagACpdmxhZGtyMTE02TjQrdGC0L4g0L/QtdGJ0LXRgNGDINGPINGD0LfQvdCw
         0Y4g0LjQtyDRgtGL0YHRj9GH0Lgg8J+YgQM=
@@ -10003,10 +10003,10 @@
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-03-20-02-16-16
+      updated: 2025-03-27-02-18-06
       followers: 1038
       likes: 40
-      views: 444
+      views: 447
       reposts: 1
       comments: !c |-
         G1IA+J0JdiwXiwm2XHYcUe1IT5+tDJsEI0z2PGWlNCWbjYcPp1yKLYw4kWMgAT5zZLJTE42yKmre
@@ -10014,10 +10014,10 @@
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-03-20-02-16-13
+      updated: 2025-03-27-02-18-02
       followers: 644
       likes: 68
-      views: 553
+      views: 557
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
@@ -11605,7 +11605,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2025-03-20-02-16-19
+      updated: 2025-03-27-02-18-09
       followers: 904
       likes: 44
       views: 297
@@ -12676,7 +12676,7 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2025-03-20-02-16-21
+      updated: 2025-03-27-02-18-11
       followers: 895
       likes: 35
       views: 297
@@ -12684,10 +12684,10 @@
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2025-03-20-02-16-15
+      updated: 2025-03-27-02-18-03
       followers: 343
       likes: 69
-      views: 538
+      views: 539
       comments: !c ixOAkZPLQnjhAF9lAACucXVpbnR1c19mYWJpdXOt8J+Pg+KAjeKZgu+4jwM=
 2017-11-16-cozy-workplace-in-the-basement:
   title: Cozy Workplace in the Basement

@@ -360,18 +360,18 @@
     - service: vk
       id: 2114
       published: 2025-02-05-18-11-07
-      updated: 2025-03-20-02-16-11
+      updated: 2025-03-27-02-18-02
       followers: 1060
       likes: 49
-      views: 437
+      views: 445
       reposts: 3
     - service: tg
       id: 695
       published: 2025-02-05-18-11-12
-      updated: 2025-03-20-02-16-10
+      updated: 2025-03-27-02-17-59
       followers: 664
       likes: 61
-      views: 643
+      views: 653
 2025-02-06-night-watch:
   title: Night Watch
   titleRu: Ночной дозор
@@ -894,20 +894,20 @@
       id: DHocVJePZM9
       mediaId: '18490868689036203'
       published: 2025-03-25-18-11-44
-      updated: 2025-03-27-00-38-39
+      updated: 2025-03-27-02-18-03
       followers: 1531
-      likes: 106
-      views: 262
+      likes: 107
+      views: 268
       comments: !c |-
         iyaAkZPLQnldSmYwgACvcGFsbWVyX2dpYmxldHRl2TFMaXRlcmFsbHkganVzdCBwYXNzZWQgYnkg
         aGVyZSB0aGUgb3RoZXIgZGF5ISDwn5iuAw==
     - service: vk
       id: 2222
       published: 2025-03-25-18-11-50
-      updated: 2025-03-27-00-38-37
+      updated: 2025-03-27-02-17-59
       followers: 1211
       likes: 40
-      views: 256
+      views: 262
       comments: !c |-
         Gz8BAJwHxq3xYEP05NduYjB64E82wq+T8RA2mFRUiU8gKLLkHg5stH0J2ZQmgKLAKd5SFhIzo6tN
         u5sJlCJUUUkmdJuSaASurne2PNIEcy7rPJKiKOEMexvozEbTG3odPjyElFbwef598H6B6XODwaT7
@@ -916,8 +916,8 @@
     - service: tg
       id: 761
       published: 2025-03-25-18-11-57
-      updated: 2025-03-27-00-38-37
+      updated: 2025-03-27-02-17-59
       followers: 709
       likes: 45
-      views: 206
+      views: 207
 2025-03-26-candelabra: 2022-06-26-candelabra
