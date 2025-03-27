@@ -2756,7 +2756,7 @@
     - service: vk
       id: 1541
       published: 2024-05-22-18-19-25
-      updated: 2025-03-20-22-07-41
+      updated: 2025-03-27-22-14-16
       followers: 917
       likes: 31
       views: 261
@@ -2978,18 +2978,18 @@
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-03-20-22-07-38
+      updated: 2025-03-27-22-14-12
       followers: 1053
       likes: 55
-      views: 363
+      views: 366
       reposts: 1
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-03-20-22-07-36
+      updated: 2025-03-27-22-14-10
       followers: 655
       likes: 73
-      views: 531
+      views: 537
       comments: !c |-
         Cx+AkZPLQnlHEE4ggACoQWVsbGFyaWHZKdCv0LrRliDQutC+0LvRjNC+0YDQuCwg0Y/QutCwINC6
         0YDQsNGB0LAhAw==
@@ -7151,7 +7151,7 @@
     - service: vk
       id: 1663
       published: 2024-08-01-04-18-52
-      updated: 2025-03-20-22-07-40
+      updated: 2025-03-27-22-14-14
       followers: 924
       likes: 31
       views: 284
@@ -7369,10 +7369,10 @@
     - service: vk
       id: 2142
       published: 2025-02-20-18-11-30
-      updated: 2025-03-20-22-07-35
+      updated: 2025-03-27-22-14-09
       followers: 1109
       likes: 31
-      views: 374
+      views: 388
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
@@ -7706,10 +7706,10 @@
     - service: tg
       id: 352
       published: 2024-03-20-18-11-08
-      updated: 2025-03-20-22-07-41
+      updated: 2025-03-27-22-14-15
       followers: 352
       likes: 58
-      views: 456
+      views: 458
 2017-07-06-snowy-granius-meets-travelers-near-arkngthand:
   title: Snowy Granius Meets Travelers Near Arkngthand
   titleRu: Граниус Снежный встречает путников у Аркнтанда
@@ -9999,10 +9999,10 @@
       id: DESuLyyPPAX
       mediaId: '17995420544733093'
       published: 2025-01-01-18-10-15
-      updated: 2025-03-20-22-07-40
+      updated: 2025-03-27-22-14-11
       followers: 1520
       likes: 127
-      views: 593
+      views: 594
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21

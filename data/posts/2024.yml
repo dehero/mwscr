@@ -736,10 +736,10 @@
     - service: tg
       id: 359
       published: 2024-03-27-18-12-06
-      updated: 2025-03-20-22-07-40
+      updated: 2025-03-27-22-14-14
       followers: 354
       likes: 65
-      views: 493
+      views: 494
       comments: !c |-
         Gx8BAIxUNX9/v7a2kaHhr6KSaSbTxSwxVBE9T65NP3H7Tb90ha6ubkv1IeWdn3N40SoIj5akPYpd
         ui2pJ6tkGCaZwF92uh+qPDpBjWFHjrAnb/NEUrEcnjB40i6/JwWOpAe84UIg6oPwPJTUSAFSRkR9
@@ -1072,10 +1072,10 @@
     - service: tg
       id: 374
       published: 2024-04-10-18-19-36
-      updated: 2025-03-20-22-07-39
+      updated: 2025-03-27-22-14-13
       followers: 353
       likes: 58
-      views: 494
+      views: 495
 2024-04-11-heros-skeleton:
   title: Hero's Skeleton
   titleRu: Скелет героя
@@ -1710,10 +1710,10 @@
     - service: tg
       id: 402
       published: 2024-05-08-18-19-25
-      updated: 2025-03-20-22-07-38
+      updated: 2025-03-27-22-14-12
       followers: 370
       likes: 69
-      views: 461
+      views: 462
       comments: !c |-
         G2AA4J2JMW64j72aESq9ASJPW7UQ4OSyGqhXtpnqTNVgEEsZIih4PN/kpvhcDw45YD+GbblnHGh5
         mtVyFLOddjw/S/BhWucvect4ORxM1LBdeN1C3YZ7gyaXzVIzFocsiQVfAQ==
@@ -1830,7 +1830,7 @@
     - service: vk
       id: 1533
       published: 2024-05-15-18-18-32
-      updated: 2025-03-20-22-07-42
+      updated: 2025-03-27-22-14-16
       followers: 915
       likes: 39
       views: 262
