@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.51.0](https://github.com/dehero/mwscr/compare/v1.50.0...v1.51.0) (2025-03-27)
+
+### Features
+
+- **site:** make home page highlighted posts more dynamic
+  ([e974dc7](https://github.com/dehero/mwscr/commit/e974dc78e5ec3e2b3eef49a137868bfff62bab45))
+
+### Bug Fixes
+
+- count post followers including services it was not published to
+  ([213081a](https://github.com/dehero/mwscr/commit/213081a374146b58d24dc15a27051243752e9b28))
+
 ## [1.50.0](https://github.com/dehero/mwscr/compare/v1.49.1...v1.50.0) (2025-03-25)
 
 ### Features
