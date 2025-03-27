@@ -1087,8 +1087,7 @@
 2017-01-28-2-meditative-night-in-ahemmusa-camp:
   title: Meditative Night in Ahemmusa Camp
   titleRu: Ночь медитации в лагере Ахеммуза
-  description:
-    Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
+  description: Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
   descriptionRu: Камера была закреплена дождливым вечером над юртой ашхана и оставалась там до утра.
   placement: Outdoors
   location: Ahemmusa Camp
@@ -2564,10 +2563,10 @@
     - service: tg
       id: 472
       published: 2024-07-17-18-20-31
-      updated: 2025-03-20-14-08-46
+      updated: 2025-03-27-14-08-55
       followers: 401
       likes: 67
-      views: 599
+      views: 601
       comments: !c ixWAkZPLQnkMHzc+AACnZGVsZXRlZLhteSBkcmVhbSBpcyB0byBsaXZlIGhlcmUD
 2017-03-03-grazelands:
   title: Grazelands
@@ -5797,10 +5796,10 @@
     - service: tg
       id: 465
       published: 2024-07-10-18-22-34
-      updated: 2025-03-20-14-08-48
+      updated: 2025-03-27-14-08-56
       followers: 396
       likes: 58
-      views: 552
+      views: 554
     - service: ig
       id: C9WWNUkOIO0
       mediaId: '18014944706197372'
@@ -5857,10 +5856,10 @@
     - service: tg
       id: 479
       published: 2024-07-24-18-21-09
-      updated: 2025-03-20-14-08-43
+      updated: 2025-03-27-14-08-54
       followers: 400
       likes: 59
-      views: 615
+      views: 617
 2017-05-17-nice-time-to-go-boating:
   title: Nice Time to Go Boating
   titleRu: Хорошее время, чтобы поплавать на лодке
@@ -5947,7 +5946,7 @@
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
   placement: Indoors
-  location: "Mournhold, Royal Palace: Barenziah's Chambers"
+  location: 'Mournhold, Royal Palace: Barenziah''s Chambers'
   content: store:/shots/2017-05-19-queen-mother-in-her-chambers.png
   type: shot
   author: dehero
