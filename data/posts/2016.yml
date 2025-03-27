@@ -176,7 +176,7 @@
     - service: vk
       id: 1750
       published: 2024-09-11-18-36-08
-      updated: 2025-03-20-11-07-37
+      updated: 2025-03-27-12-15-23
       followers: 945
       likes: 51
       views: 419
@@ -187,10 +187,10 @@
     - service: tg
       id: 529
       published: 2024-09-11-18-36-14
-      updated: 2025-03-20-11-07-36
+      updated: 2025-03-27-12-15-20
       followers: 555
       likes: 57
-      views: 906
+      views: 915
       comments: !c ixaAkZTLQnkeJgMugAClYW5zaXOnbXkgaG9tZZPLQnkeK5YvAACpR2F0ZW1hdGU3oAM=
 2016-11-20-5-galom-daeus:
   title: Galom Daeus
@@ -1587,7 +1587,7 @@
     - service: vk
       id: 1713
       published: 2024-08-28-18-23-48
-      updated: 2025-03-20-12-15-07
+      updated: 2025-03-27-12-15-25
       followers: 940
       likes: 49
       views: 363
@@ -1600,10 +1600,10 @@
     - service: tg
       id: 515
       published: 2024-08-28-18-23-56
-      updated: 2025-03-20-12-15-06
+      updated: 2025-03-27-12-15-22
       followers: 546
       likes: 70
-      views: 640
+      views: 641
 2016-12-29-entering-holamayan-monastery:
   title: Entering Holamayan Monastery
   titleRu: Вход в монастырь Холамаян

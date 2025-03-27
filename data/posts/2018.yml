@@ -373,7 +373,7 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2025-03-20-12-15-10
+      updated: 2025-03-27-12-15-28
       followers: 927
       likes: 47
       views: 336
@@ -381,10 +381,10 @@
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2025-03-20-12-15-08
+      updated: 2025-03-27-12-15-24
       followers: 504
       likes: 75
-      views: 750
+      views: 752
       comments: !c |-
         G3sA4J0J8eYvY9w1zRIh5EsnB5hJQAcNMEnwwAWchh42r6iW1W1P8amZ8uXij8eBHsGcTcmWmIBK
         4wYH7BVQHAU62AA47ilLSVUQFPt+yYqr3JMaFOvrN6RW9EHlhD0MB0O3Ze7vyPQIKRWX9Uhj9h5Y
@@ -4627,7 +4627,7 @@
     - service: vk
       id: 1796
       published: 2024-10-02-18-10-34
-      updated: 2025-03-20-11-07-35
+      updated: 2025-03-27-12-15-20
       followers: 957
       likes: 34
       views: 345
@@ -7245,17 +7245,17 @@
     - service: vk
       id: 1700
       published: 2024-08-21-18-19-57
-      updated: 2025-03-20-12-15-07
+      updated: 2025-03-27-12-15-26
       followers: 937
       likes: 41
       views: 302
     - service: tg
       id: 508
       published: 2024-08-21-18-20-03
-      updated: 2025-03-20-12-15-07
+      updated: 2025-03-27-12-15-22
       followers: 538
       likes: 60
-      views: 577
+      views: 578
 2018-07-08-statues-of-gods:
   title: Statues of Gods
   titleRu: Статуи богов
@@ -8896,17 +8896,17 @@
     - service: vk
       id: 1772
       published: 2024-09-18-18-20-17
-      updated: 2025-03-20-11-07-36
+      updated: 2025-03-27-12-15-22
       followers: 947
       likes: 37
       views: 313
     - service: tg
       id: 537
       published: 2024-09-18-18-20-25
-      updated: 2025-03-20-11-07-34
+      updated: 2025-03-27-12-15-20
       followers: 556
       likes: 58
-      views: 536
+      views: 537
 2018-08-25-on-the-background-of-carpet:
   title: On the Background of Carpet
   titleRu: На фоне ковра
@@ -11634,7 +11634,7 @@
     - service: vk
       id: 999
       published: 2018-10-22
-      updated: 2025-03-20-12-15-15
+      updated: 2025-03-27-12-15-38
       followers: 257
       likes: 26
       views: 393
@@ -11664,7 +11664,7 @@
     - service: vk
       id: 1000
       published: 2018-10-23
-      updated: 2025-03-20-12-15-14
+      updated: 2025-03-27-12-15-37
       followers: 257
       likes: 26
       views: 435
@@ -11703,7 +11703,7 @@
     - service: vk
       id: 1001
       published: 2018-10-24
-      updated: 2025-03-20-12-15-13
+      updated: 2025-03-27-12-15-36
       followers: 258
       likes: 48
       views: 1010
@@ -11740,7 +11740,7 @@
     - service: vk
       id: 1002
       published: 2018-10-25
-      updated: 2025-03-20-12-15-12
+      updated: 2025-03-27-12-15-35
       followers: 259
       likes: 39
       views: 667
@@ -11772,7 +11772,7 @@
     - service: vk
       id: 1003
       published: 2018-10-26
-      updated: 2025-03-20-12-15-11
+      updated: 2025-03-27-12-15-34
       followers: 258
       likes: 22
       views: 419
@@ -11807,7 +11807,7 @@
     - service: vk
       id: 1004
       published: 2018-10-27
-      updated: 2025-03-20-12-15-11
+      updated: 2025-03-27-12-15-33
       followers: 258
       likes: 35
       views: 588
@@ -11842,7 +11842,7 @@
     - service: vk
       id: 1005
       published: 2018-10-28
-      updated: 2025-03-20-11-07-43
+      updated: 2025-03-27-12-15-32
       followers: 259
       likes: 37
       views: 417
@@ -11878,7 +11878,7 @@
     - service: vk
       id: 1007
       published: 2018-10-29
-      updated: 2025-03-20-11-07-42
+      updated: 2025-03-27-12-15-32
       followers: 266
       likes: 37
       views: 538
@@ -11946,7 +11946,7 @@
     - service: vk
       id: 1010
       published: 2018-10-30
-      updated: 2025-03-20-11-07-41
+      updated: 2025-03-27-12-15-31
       followers: 270
       likes: 35
       views: 523
@@ -12009,7 +12009,7 @@
     - service: vk
       id: 1018
       published: 2018-10-31
-      updated: 2025-03-20-11-07-40
+      updated: 2025-03-27-12-15-30
       followers: 271
       likes: 51
       views: 1023
@@ -12061,7 +12061,7 @@
     - service: vk
       id: 1022
       published: 2018-11-01
-      updated: 2025-03-20-11-07-39
+      updated: 2025-03-27-12-15-29
       followers: 278
       likes: 35
       views: 575
