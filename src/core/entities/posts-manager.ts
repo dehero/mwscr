@@ -5,6 +5,8 @@ import { dateToString } from '../utils/date-utils.js';
 import type { ListReaderStats } from './list-manager.js';
 import { ListManager, ListManagerPatch } from './list-manager.js';
 import {
+  comparePostEntriesByDate,
+  getPostDateById,
   getPostDrawer,
   getPostEntryStats,
   getPostFirstPublished,
@@ -21,6 +23,7 @@ import {
 } from './post.js';
 import type { PostAction } from './post-action.js';
 import { PostVariant } from './post-variant.js';
+import { getRecentPublications } from './publication.js';
 import type { Schema } from './schema.js';
 import { checkSchema, safeParseSchema } from './schema.js';
 
@@ -290,6 +293,34 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
         if (post.request?.user) {
           stats.set(post.request.user, (stats.get(post.request.user) || 0) + 1);
         }
+      }
+
+      return stats;
+    });
+  }
+
+  async getFollowersCountStats(): Promise<ListReaderStats> {
+    return this.createCache(this.getFollowersCountStats.name, async () => {
+      const lastStats = new Map<string, number>();
+      const stats = new Map<string, number>();
+      const entries = (await this.getAllEntries()).sort(comparePostEntriesByDate('asc'));
+
+      for await (const [id, post] of entries) {
+        const date = getPostDateById(id);
+        if (date && post.posts) {
+          const publications = getRecentPublications(post.posts, date);
+
+          for (const publication of publications) {
+            if (publication.followers) {
+              lastStats.set(publication.service, publication.followers);
+            }
+          }
+        }
+
+        stats.set(
+          id,
+          [...lastStats.values()].reduce((a, b) => a + b, 0),
+        );
       }
 
       return stats;

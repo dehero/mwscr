@@ -110,6 +110,8 @@ export async function createPostInfos(managerName: string, dataManager: DataMana
     ...(await manager.getRemovedEntries()),
   ];
 
+  const followersStats = await manager.getFollowersCountStats();
+
   return Promise.all(
     entries.map(async (entry) => {
       const [id, post, refId] = entry;
@@ -149,7 +151,7 @@ export async function createPostInfos(managerName: string, dataManager: DataMana
         commentCount: stats.commentCount,
         likes: stats.likes,
         views: stats.views,
-        followers: stats.followers,
+        followers: followersStats.get(id),
         engagement: Number(stats.engagement.toFixed(2)),
         rating: Number(getPostRating(post).toFixed(2)),
         managerName: manager.name,
