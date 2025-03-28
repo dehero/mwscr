@@ -1723,7 +1723,7 @@
     - service: vk
       id: 1573
       published: 2024-06-06-18-19-32
-      updated: 2025-03-21-22-07-41
+      updated: 2025-03-28-22-14-56
       followers: 916
       likes: 37
       views: 291
@@ -1731,10 +1731,10 @@
     - service: tg
       id: 431
       published: 2024-06-06-18-19-42
-      updated: 2025-03-21-22-07-38
+      updated: 2025-03-28-22-14-55
       followers: 384
       likes: 58
-      views: 454
+      views: 455
       comments: !c |-
         G7MAqIzDOBYcDMJfsWXVnFEu7zM+nl2EJSiSIlYRtkDK4Z6s8CxM6zbmuLt3ot8pEKQopxyAh1jk
         zePgrBc/w93GwLW8Hq9S0OuUJCep8edTAHdoRb4bpW3TK9WWH18eCYis7wb1NnihaQ5St7hP1MFA
@@ -5201,7 +5201,7 @@
     - service: vk
       id: 1543
       published: 2024-05-23-18-18-57
-      updated: 2025-03-21-22-07-43
+      updated: 2025-03-28-22-14-58
       followers: 917
       likes: 46
       views: 298
@@ -5212,10 +5212,10 @@
     - service: tg
       id: 417
       published: 2024-05-23-18-19-02
-      updated: 2025-03-21-22-07-40
+      updated: 2025-03-28-22-14-58
       followers: 376
       likes: 64
-      views: 511
+      views: 512
       comments: !c |-
         G2oAQCwS7JgUo4JbFLbXSSe3HeXg9+/KYQItsUDKNkr9BMBz1MmRfp5K+w5JbUUYeeQlGtudUy7B
         wLwlLaTTmQ9+z+FzUiKPXXt1ry6YlTKDt9dsp6hVlso7Yzzs571EH2zjEEa1DC64MAcA
@@ -7938,24 +7938,24 @@
       id: DFx_pEkJY6I
       mediaId: '18441845239072911'
       published: 2025-02-07-18-10-38
-      updated: 2025-03-21-22-07-35
+      updated: 2025-03-28-22-14-48
       followers: 1534
       likes: 94
-      views: 335
+      views: 337
     - service: vk
       id: 2116
       published: 2025-02-07-18-10-45
-      updated: 2025-03-21-22-07-36
+      updated: 2025-03-28-22-14-50
       followers: 1062
       likes: 47
-      views: 409
+      views: 418
     - service: tg
       id: 700
       published: 2025-02-07-18-10-54
-      updated: 2025-03-21-22-07-34
+      updated: 2025-03-28-22-14-50
       followers: 670
       likes: 62
-      views: 513
+      views: 520
 2018-07-28-sulfur-forest:
   title: Sulfur Forest
   titleRu: Серный лес
@@ -13253,25 +13253,25 @@
       id: DE7_wC1PgTr
       mediaId: '18065439076892825'
       published: 2025-01-17-18-52-37
-      updated: 2025-03-21-22-07-39
+      updated: 2025-03-28-22-14-51
       followers: 1525
       likes: 93
       views: 396
     - service: vk
       id: 2069
       published: 2025-01-17-18-52-43
-      updated: 2025-03-21-22-07-39
+      updated: 2025-03-28-22-14-53
       followers: 1053
       likes: 38
-      views: 326
+      views: 329
       reposts: 1
     - service: tg
       id: 670
       published: 2025-01-17-18-52-49
-      updated: 2025-03-21-22-07-36
+      updated: 2025-03-28-22-14-53
       followers: 655
       likes: 63
-      views: 511
+      views: 517
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели
