@@ -94,7 +94,9 @@ export class DataManager {
   }
 
   async findWorldMapLocationInfo(location: PostLocation): Promise<LocationInfo | undefined> {
-    const allLocationInfos = await this.getAllLocationInfos();
+    const allLocationInfos = (await this.getAllLocationInfos())
+      .filter((info) => info.cell)
+      .sort((a, b) => b.title.length - a.title.length);
     const locationInfos = (await this.getLocationInfos(location)) ?? [];
 
     if (locationInfos.length === 0) {
@@ -103,7 +105,7 @@ export class DataManager {
 
     for (const locationInfo of locationInfos) {
       if (!locationInfo.cell) {
-        const result = allLocationInfos.find((info) => info.cell && isNestedLocation(locationInfo.title, info.title));
+        const result = allLocationInfos.find((info) => isNestedLocation(locationInfo.title, info.title));
         if (result) {
           return result;
         }
