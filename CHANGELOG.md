@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.51.1](https://github.com/dehero/mwscr/compare/v1.51.0...v1.51.1) (2025-03-28)
+
+### Bug Fixes
+
+- **site:** resolve error when first initializing initial view for posts parameters
+  ([42ab441](https://github.com/dehero/mwscr/commit/42ab44110490a1dae6f67b556ac6f8613c2b8db6))
+- **site:** show map for nested locations on post page
+  ([d4251b2](https://github.com/dehero/mwscr/commit/d4251b283d93b65cf633e176b40b94feb9b427ae))
+
 ## [1.51.0](https://github.com/dehero/mwscr/compare/v1.50.0...v1.51.0) (2025-03-27)
 
 ### Features
