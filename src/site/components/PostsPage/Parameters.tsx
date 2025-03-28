@@ -1,6 +1,6 @@
 import { createMediaQuery } from '@solid-primitives/media';
 import clsx from 'clsx';
-import { type Component, createMemo, createSignal, Match, Show, Switch } from 'solid-js';
+import { type Component, createMemo, createSignal, Match, onMount, Show, Switch } from 'solid-js';
 import { ListReaderItemStatus } from '../../../core/entities/list-manager.js';
 import type { LocationInfo } from '../../../core/entities/location-info.js';
 import type { Option } from '../../../core/entities/option.js';
@@ -130,10 +130,11 @@ export const Parameters: Component<ParametersProps> = (props) => {
 
   const tagOption = createMemo(() => tagOptions().find((option) => option.value === props.parameters.tag()));
 
-  const initialView = createMemo(() => {
+  const detectInitialView = () => {
     const locationInfo = props.routeInfo
       .data()
       .locationInfos.find((location) => location.title === props.parameters.location());
+
     if (locationInfo) {
       if (locationInfo.cell) {
         return 'map';
@@ -147,9 +148,13 @@ export const Parameters: Component<ParametersProps> = (props) => {
     }
 
     return undefined;
+  };
+
+  onMount(() => {
+    setView(detectInitialView());
   });
 
-  const [view, setView] = createSignal<View>(initialView());
+  const [view, setView] = createSignal<View>();
   const expanded = () => !narrowScreen() || props.expandedOnNarrowScreen;
 
   return (
@@ -202,7 +207,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
 
       <Show when={expanded()}>
         <Switch>
-          <Match when={typeof view() === 'undefined'}>
+          <Match when={typeof view() === 'undefined'} keyed>
             <form class={styles.parameters}>
               <Label label="Preset" vertical>
                 <div class={styles.selectWrapper}>
@@ -444,7 +449,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Show>
             </form>
           </Match>
-          <Match when={view() === 'locations'}>
+          <Match when={view() === 'locations'} keyed>
             <div class={styles.locationsWrapper} ref={locationsWrapperRef}>
               <Table
                 class={styles.locations}
@@ -465,7 +470,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               />
             </div>
           </Match>
-          <Match when={view() === 'tags'}>
+          <Match when={view() === 'tags'} keyed>
             <div class={styles.tagsWrapper} ref={tagsWrapperRef}>
               <Table
                 class={styles.tags}
@@ -485,7 +490,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
               />
             </div>
           </Match>
-          <Match when={view() === 'map'}>
+          <Match when={view() === 'map'} keyed>
             <WorldMap
               locations={props.routeInfo.data().locationInfos}
               class={styles.worldMap}
