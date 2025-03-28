@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.51.3](https://github.com/dehero/mwscr/compare/v1.51.2...v1.51.3) (2025-03-28)
+
+### Bug Fixes
+
+- **site:** fix empty "Total Reactions" block for new post
+  ([2c48697](https://github.com/dehero/mwscr/commit/2c486974f6d86372e6d0962084fb8f25f21610e2))
+- **site:** rename Reset post button to Restore
+  ([6c9da60](https://github.com/dehero/mwscr/commit/6c9da602a6d0f93ca2b1122e7e14aade3f346d03))
+
 ## [1.51.2](https://github.com/dehero/mwscr/compare/v1.51.1...v1.51.2) (2025-03-28)
 
 ### Bug Fixes
