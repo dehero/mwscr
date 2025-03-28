@@ -110,8 +110,17 @@ dehero.2025-03-27-20-06-42:
   type: shot
   author: dehero
 dehero.2025-03-27-20-23-36:
+  title: In the Greenery of Mournhold
+  titleRu: В зелени Морнхолда
+  placement: Outdoors
   location: Mournhold, Great Bazaar
   content: store:/inbox/dehero.2025-03-27-20-23-36.1.png
   trash: store:/inbox/dehero.2025-03-27-20-23-36.png
   type: shot
   author: dehero
+  engine: OpenMW
+  addon: Tribunal
+  tags:
+    - tree
+    - flower
+  mark: B1
