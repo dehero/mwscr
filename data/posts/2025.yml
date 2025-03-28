@@ -813,17 +813,17 @@
       id: DHgtwWYt6AA
       mediaId: '18081512209635569'
       published: 2025-03-22-18-10-07
-      updated: 2025-03-27-19-12-28
+      updated: 2025-03-28-19-13-03
       followers: 1535
       likes: 86
-      views: 321
+      views: 325
     - service: vk
       id: 2217
       published: 2025-03-22-18-10-15
-      updated: 2025-03-27-19-12-20
+      updated: 2025-03-28-19-13-03
       followers: 1202
       likes: 44
-      views: 313
+      views: 330
       comments: !c |-
         G6QA4J0HdizyAotV1mcQT/i3CG9x+1RmYRJggi2xSJN3QW1zmXahXcSPSP4EN1nu5ATfTMrsmxmc
         7LABB+4ZJDAI7Pz9itlynu7n07Xv/Ht6z2PdmLxC+mFpSEFrK2u6pTfioPRdPBBiqgNXE3sUiyho
@@ -831,10 +831,10 @@
     - service: tg
       id: 758
       published: 2025-03-22-18-10-23
-      updated: 2025-03-27-19-12-19
+      updated: 2025-03-28-19-13-03
       followers: 708
-      likes: 55
-      views: 481
+      likes: 57
+      views: 494
       comments: !c iw6AkZPLQnldJXDDgACpTWF4VXBzaGVyqEdvIExlZnQuAw==
 2025-03-23-avus-belvilo:
   title: Avus Belvilo
@@ -855,25 +855,25 @@
       id: DHjWhNzx9Dt
       mediaId: '17885959356234177'
       published: 2025-03-23-18-44-46
-      updated: 2025-03-27-19-12-27
+      updated: 2025-03-28-19-13-02
       followers: 1531
       likes: 88
-      views: 328
+      views: 337
     - service: vk
       id: 2219
       published: 2025-03-23-18-44-52
-      updated: 2025-03-27-19-12-19
+      updated: 2025-03-28-19-13-02
       followers: 1206
       likes: 25
-      views: 274
+      views: 291
       reposts: 1
     - service: tg
       id: 759
       published: 2025-03-23-18-44-58
-      updated: 2025-03-27-19-12-19
+      updated: 2025-03-28-19-13-02
       followers: 709
-      likes: 41
-      views: 303
+      likes: 44
+      views: 320
 2025-03-24-night-street-of-balmora: 2017-04-02-night-street-of-balmora
 2025-03-25-under-gateway-inn:
   title: Under Gateway Inn
@@ -941,12 +941,21 @@
       id: DHwL277s2b2
       mediaId: '17842154709456486'
       published: 2025-03-28-18-21-41
+      updated: 2025-03-28-19-12-59
       followers: 1528
+      likes: 22
+      views: 73
     - service: vk
       id: 2238
       published: 2025-03-28-18-21-53
+      updated: 2025-03-28-19-12-59
       followers: 1217
+      likes: 12
+      views: 54
     - service: tg
       id: 768
       published: 2025-03-28-18-22-02
+      updated: 2025-03-28-19-13-00
       followers: 709
+      likes: 25
+      views: 87
