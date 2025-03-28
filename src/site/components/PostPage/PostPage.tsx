@@ -364,7 +364,7 @@ export const PostPage = (): JSX.Element => {
 
                   <Show when={postInfo().status}>
                     <Button class={styles.action} onClick={handleReset}>
-                      Reset
+                      {postInfo().status === 'added' ? 'Remove' : 'Restore'}
                     </Button>
                   </Show>
                 </div>
