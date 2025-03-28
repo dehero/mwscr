@@ -894,20 +894,20 @@
       id: DHocVJePZM9
       mediaId: '18490868689036203'
       published: 2025-03-25-18-11-44
-      updated: 2025-03-27-18-11-40
+      updated: 2025-03-28-18-21-16
       followers: 1531
-      likes: 111
-      views: 293
+      likes: 115
+      views: 311
       comments: !c |-
         iyaAkZPLQnldSmYwgACvcGFsbWVyX2dpYmxldHRl2TFMaXRlcmFsbHkganVzdCBwYXNzZWQgYnkg
         aGVyZSB0aGUgb3RoZXIgZGF5ISDwn5iuAw==
     - service: vk
       id: 2222
       published: 2025-03-25-18-11-50
-      updated: 2025-03-27-18-11-38
+      updated: 2025-03-28-18-21-14
       followers: 1211
-      likes: 45
-      views: 289
+      likes: 46
+      views: 324
       comments: !c |-
         Gz8BAJwHxq3xYEP05NduYjB64E82wq+T8RA2mFRUiU8gKLLkHg5stH0J2ZQmgKLAKd5SFhIzo6tN
         u5sJlCJUUUkmdJuSaASurne2PNIEcy7rPJKiKOEMexvozEbTG3odPjyElFbwef598H6B6XODwaT7
@@ -916,9 +916,37 @@
     - service: tg
       id: 761
       published: 2025-03-25-18-11-57
-      updated: 2025-03-27-18-11-38
+      updated: 2025-03-28-18-21-14
       followers: 709
-      likes: 50
-      views: 305
+      likes: 52
+      views: 338
 2025-03-26-candelabra: 2022-06-26-candelabra
 2025-03-27-spinning-wheel: 2023-08-03-spinning-wheel
+2025-03-28-in-the-greenery-of-mournhold:
+  title: In the Greenery of Mournhold
+  titleRu: В зелени Морнхолда
+  placement: Outdoors
+  location: Mournhold, Great Bazaar
+  content: store:/shots/2025-03-28-in-the-greenery-of-mournhold.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  addon: Tribunal
+  tags:
+    - tree
+    - flower
+  mark: B1
+  posts:
+    - service: ig
+      id: DHwL277s2b2
+      mediaId: '17842154709456486'
+      published: 2025-03-28-18-21-41
+      followers: 1528
+    - service: vk
+      id: 2238
+      published: 2025-03-28-18-21-53
+      followers: 1217
+    - service: tg
+      id: 768
+      published: 2025-03-28-18-22-02
+      followers: 709
