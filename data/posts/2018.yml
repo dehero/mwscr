@@ -465,10 +465,10 @@
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2025-03-21-12-14-40
+      updated: 2025-03-28-12-29-29
       followers: 399
       likes: 72
-      views: 681
+      views: 682
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -8544,7 +8544,7 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2025-03-21-12-14-35
+      updated: 2025-03-28-12-29-27
       followers: 943
       likes: 27
       views: 283
@@ -8555,10 +8555,10 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2025-03-21-12-14-35
+      updated: 2025-03-28-12-29-25
       followers: 551
       likes: 57
-      views: 549
+      views: 550
 2018-08-16-wall-of-suran:
   title: Wall of Suran
   titleRu: Стена Сурана
@@ -9080,10 +9080,10 @@
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2025-03-21-12-14-40
+      updated: 2025-03-28-12-29-31
       followers: 927
       likes: 38
-      views: 373
+      views: 377
       reposts: 2
       comments: !c |-
         CyKAkZPLQnkTND+3gACxY2xpZmZyYWNlcnNraWxsZXLZJtCl0L7RgNC60LXRgDog0LzRj9C90Y8g
@@ -9091,10 +9091,10 @@
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2025-03-21-12-14-38
+      updated: 2025-03-28-12-29-28
       followers: 508
       likes: 66
-      views: 630
+      views: 632
       comments: !c ixGAkZPLQnkT2JKcgACoZGFhcmthbmGvd2FubmEgbGl2ZSBoZXJlAw==
 2018-08-29-darius:
   title: Darius
@@ -10824,7 +10824,7 @@
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2025-03-21-12-14-39
+      updated: 2025-03-28-12-29-31
       followers: 932
       likes: 36
       views: 326
@@ -10834,10 +10834,10 @@
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2025-03-21-12-14-37
+      updated: 2025-03-28-12-29-27
       followers: 527
       likes: 60
-      views: 653
+      views: 655
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
