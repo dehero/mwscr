@@ -504,7 +504,11 @@ export const PostPage = (): JSX.Element => {
                 />
               </Show>
 
-              <Show when={data().publications}>
+              <Show
+                when={
+                  stats().likes || stats().views || stats().commentCount || postInfo().followers || postInfo().rating
+                }
+              >
                 <Divider />
 
                 <Table
@@ -522,6 +526,10 @@ export const PostPage = (): JSX.Element => {
                     {
                       label: 'Comments',
                       value: stats().commentCount,
+                    },
+                    {
+                      label: 'Followers',
+                      value: postInfo().followers,
                     },
                     {
                       label: 'Rating',
