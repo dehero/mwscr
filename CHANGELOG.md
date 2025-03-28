@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.51.2](https://github.com/dehero/mwscr/compare/v1.51.1...v1.51.2) (2025-03-28)
+
+### Bug Fixes
+
+- **site:** find closest location on world map for post location
+  ([8f53dad](https://github.com/dehero/mwscr/commit/8f53dad694677909a93ac5ea56ccb541bd3707b1))
+
 ## [1.51.1](https://github.com/dehero/mwscr/compare/v1.51.0...v1.51.1) (2025-03-28)
 
 ### Bug Fixes
