@@ -221,19 +221,19 @@
     - service: vk
       id: 2157
       published: 2025-03-01-18-10-14
-      updated: 2025-03-22-20-08-09
+      updated: 2025-03-29-20-15-04
       followers: 1150
       likes: 33
-      views: 387
+      views: 405
       reposts: 1
       comments: !c ixeAkZPLQnlVMVLqAACraWQ4MjA3MDI2NjS40JzQuNC80L7QutGA0L7QutC+0LTQuNC7Aw==
     - service: tg
       id: 728
       published: 2025-03-01-18-10-23
-      updated: 2025-03-22-20-08-06
+      updated: 2025-03-29-20-15-03
       followers: 687
       likes: 60
-      views: 440
+      views: 464
       comments: !c |-
         izOAkZTLQnlVLpMOgACpR2F0ZW1hdGU3rXd0ZiBhcmUgdGhleT+Ty0J5VS+Ll4AAsUJhcnJ5QmFu
         YW5hRHJhZ29u2SdXRFlNPyBBcmUgeW91IGFza2luZyB3aGF0IERhZWRyb3RoIGFyZT8D
@@ -651,7 +651,7 @@
     - service: vk
       id: 1491
       published: 2024-04-12-18-14-50
-      updated: 2025-03-22-20-08-14
+      updated: 2025-03-29-20-15-08
       followers: 911
       likes: 35
       views: 271
@@ -659,7 +659,7 @@
     - service: tg
       id: 376
       published: 2024-04-12-18-15-00
-      updated: 2025-03-22-20-08-08
+      updated: 2025-03-29-20-15-07
       followers: 352
       likes: 70
       views: 475
@@ -2408,7 +2408,7 @@
       id: DD2ZUynzw_D
       mediaId: '18007370558692881'
       published: 2024-12-21-18-09-15
-      updated: 2025-03-22-20-08-12
+      updated: 2025-03-29-20-15-09
       followers: 1507
       likes: 113
       views: 634
@@ -2658,7 +2658,7 @@
       id: DD-H2l7TG0b
       mediaId: '18068585941681782'
       published: 2024-12-24-18-10-30
-      updated: 2025-03-22-20-08-10
+      updated: 2025-03-29-20-15-06
       followers: 1512
       likes: 122
       views: 512
@@ -3708,7 +3708,7 @@
       id: DDsGdwGJCBM
       mediaId: '18149217184346348'
       published: 2024-12-17-18-12-01
-      updated: 2025-03-22-20-08-16
+      updated: 2025-03-29-20-15-13
       followers: 1508
       likes: 87
       views: 396
@@ -3965,10 +3965,10 @@
       id: DHl3itkPoyP
       mediaId: '17898884301156540'
       published: 2025-03-24-18-11-47
-      updated: 2025-03-28-19-13-02
+      updated: 2025-03-29-20-15-01
       followers: 1529
       likes: 87
-      views: 361
+      views: 368
       comments: !c |-
         G9kAoGRwbksRs0y1kvWy674rmkg0cYsQMpFEJdEgFNDJAfFJH1jSVhh4EAWAeRboxtJL2uEgiMWg
         f7XmPZyN7H9+APY0RASWdYWH+iVIa0QKYiFlIgnMQq1O4cPG5u1pk0xBXO90OWl8IjK/42rZWm5/
@@ -3977,18 +3977,18 @@
     - service: vk
       id: 2220
       published: 2025-03-24-18-11-55
-      updated: 2025-03-28-19-13-01
+      updated: 2025-03-29-20-15-01
       followers: 1209
       likes: 62
-      views: 347
+      views: 368
       reposts: 4
     - service: tg
       id: 760
       published: 2025-03-24-18-12-01
-      updated: 2025-03-28-19-13-01
+      updated: 2025-03-29-20-15-00
       followers: 709
-      likes: 56
-      views: 304
+      likes: 58
+      views: 318
 2017-04-03-gnisis:
   title: Gnisis
   titleRu: Гнисис
@@ -5045,17 +5045,17 @@
     - service: vk
       id: 1545
       published: 2024-05-24-18-19-24
-      updated: 2025-03-22-20-08-13
+      updated: 2025-03-29-20-15-07
       followers: 917
       likes: 38
       views: 295
     - service: tg
       id: 418
       published: 2024-05-24-18-19-31
-      updated: 2025-03-22-20-08-08
+      updated: 2025-03-29-20-15-06
       followers: 376
       likes: 57
-      views: 512
+      views: 513
       comments: !c |-
         ix6AkZTLQnj6vWCNAACpQm9yaXNfaW5rs9Ch0L7Qu9GF0YHRgtC10LnQvD+Ty0J4+r5/qQAApW13
         c2NypNCU0LAD
@@ -6539,7 +6539,7 @@
       id: DD7jFWAPhfk
       mediaId: '18047137612947250'
       published: 2024-12-23-18-10-44
-      updated: 2025-03-22-20-08-11
+      updated: 2025-03-29-20-15-07
       followers: 1511
       likes: 99
       views: 554
