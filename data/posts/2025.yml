@@ -941,22 +941,51 @@
       id: DHwL277s2b2
       mediaId: '17842154709456486'
       published: 2025-03-28-18-21-41
-      updated: 2025-03-29-17-09-38
+      updated: 2025-03-29-18-18-50
       followers: 1528
-      likes: 81
-      views: 285
+      likes: 84
+      views: 301
     - service: vk
       id: 2238
       published: 2025-03-28-18-21-53
-      updated: 2025-03-29-17-09-38
+      updated: 2025-03-29-18-18-50
       followers: 1217
       likes: 46
-      views: 214
+      views: 219
       reposts: 1
     - service: tg
       id: 768
       published: 2025-03-28-18-22-02
-      updated: 2025-03-29-17-09-38
+      updated: 2025-03-29-18-18-50
       followers: 709
       likes: 53
-      views: 175
+      views: 180
+2025-03-29-bridle-of-foreigners:
+  title: Bridle of Foreigners
+  titleRu: Мост чужеземцев
+  placement: Outdoors
+  location: Vivec, Foreign Quarter
+  content: store:/shots/2025-03-29-bridle-of-foreigners.png
+  trash: store:/trash/dehero.2025-03-27-20-34-42.1.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - bridge
+    - tree
+    - mushroom
+  mark: B1
+  posts:
+    - service: ig
+      id: DHywXRryiOS
+      mediaId: '17870650785244683'
+      published: 2025-03-29-18-19-12
+      followers: 1530
+    - service: vk
+      id: 2241
+      published: 2025-03-29-18-19-18
+      followers: 1217
+    - service: tg
+      id: 769
+      published: 2025-03-29-18-19-24
+      followers: 710
