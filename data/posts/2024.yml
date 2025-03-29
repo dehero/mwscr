@@ -214,14 +214,14 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2025-03-22-08-10-38
+      updated: 2025-03-29-08-18-15
       followers: 893
       likes: 35
       views: 262
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2025-03-22-08-10-38
+      updated: 2025-03-29-08-18-10
       followers: 345
       likes: 58
       views: 563
@@ -588,7 +588,7 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2025-03-22-08-10-37
+      updated: 2025-03-29-08-18-13
       followers: 896
       likes: 42
       views: 304
@@ -599,10 +599,10 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2025-03-22-08-10-36
+      updated: 2025-03-29-08-18-08
       followers: 352
       likes: 59
-      views: 480
+      views: 481
       comments: !c |-
         CymAkZTLQnjmKMfPAACpR2F0ZW1hdGU32SZ0aGlzIGlzIGEgbWFzb25pYyBsb2RnZT8gbm90IG1v
         cnJvd2luZJPLQnjmKXtAgAClYW5zaXOlaGFoYWgD
@@ -902,7 +902,7 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2025-03-22-08-10-34
+      updated: 2025-03-29-08-18-12
       followers: 906
       likes: 51
       views: 442
@@ -910,7 +910,7 @@
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2025-03-22-08-10-34
+      updated: 2025-03-29-08-18-06
       followers: 354
       likes: 62
       views: 488
@@ -1110,14 +1110,14 @@
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2025-03-22-08-10-34
+      updated: 2025-03-29-08-18-11
       followers: 911
       likes: 27
       views: 236
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2025-03-22-08-10-33
+      updated: 2025-03-29-08-18-06
       followers: 352
       likes: 67
       views: 1121
@@ -3043,17 +3043,17 @@
     - service: tg
       id: 617
       published: 2024-12-06-18-11-36
-      updated: 2025-03-22-08-10-21
+      updated: 2025-03-29-08-17-57
       followers: 578
       likes: 58
-      views: 486
+      views: 490
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2025-03-22-08-10-21
+      updated: 2025-03-29-08-17-58
       followers: 1013
       likes: 43
-      views: 398
+      views: 399
       reposts: 3
 2024-12-07-farm-watchman:
   title: Farm Watchman
