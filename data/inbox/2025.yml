@@ -76,16 +76,23 @@ dehero.2025-03-25-20-43-03:
   content: store:/inbox/dehero.2025-03-25-20-43-03.png
   type: shot
   author: dehero
-dehero.2025-03-27-19-49-51:
-  content: store:/inbox/dehero.2025-03-27-19-49-51.png
-  type: shot
-  author: dehero
 dehero.2025-03-27-19-49-57:
-  content:
-    - store:/inbox/dehero.2025-03-27-19-49-57.1.png
+  title: Frozen Water Stone
+  titleRu: Камень Замороженной Воды
+  placement: Outdoors
+  location: Solstheim, Moesring Mountains
+  content: store:/inbox/dehero.2025-03-27-19-49-57.1.png
+  trash:
+    - store:/inbox/dehero.2025-03-27-19-49-51.png
     - store:/inbox/dehero.2025-03-27-19-49-57.png
   type: shot
   author: dehero
+  engine: OpenMW
+  addon: Bloodmoon
+  tags:
+    - snow
+    - stone
+  mark: B1
 dehero.2025-03-27-19-53-45:
   content: store:/inbox/dehero.2025-03-27-19-53-45.png
   type: shot
