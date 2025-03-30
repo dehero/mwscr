@@ -2146,10 +2146,10 @@
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2025-03-23-20-08-20
+      updated: 2025-03-30-20-15-51
       followers: 386
       likes: 71
-      views: 547
+      views: 548
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -3965,10 +3965,10 @@
       id: DHl3itkPoyP
       mediaId: '17898884301156540'
       published: 2025-03-24-18-11-47
-      updated: 2025-03-29-20-15-01
+      updated: 2025-03-30-20-15-51
       followers: 1529
-      likes: 87
-      views: 368
+      likes: 88
+      views: 373
       comments: !c |-
         G9kAoGRwbksRs0y1kvWy674rmkg0cYsQMpFEJdEgFNDJAfFJH1jSVhh4EAWAeRboxtJL2uEgiMWg
         f7XmPZyN7H9+APY0RASWdYWH+iVIa0QKYiFlIgnMQq1O4cPG5u1pk0xBXO90OWl8IjK/42rZWm5/
@@ -3977,18 +3977,18 @@
     - service: vk
       id: 2220
       published: 2025-03-24-18-11-55
-      updated: 2025-03-29-20-15-01
+      updated: 2025-03-30-20-15-46
       followers: 1209
-      likes: 62
-      views: 368
-      reposts: 4
+      likes: 63
+      views: 384
+      reposts: 5
     - service: tg
       id: 760
       published: 2025-03-24-18-12-01
-      updated: 2025-03-29-20-15-00
+      updated: 2025-03-30-20-15-45
       followers: 709
-      likes: 58
-      views: 318
+      likes: 59
+      views: 333
 2017-04-03-gnisis:
   title: Gnisis
   titleRu: Гнисис
@@ -7014,10 +7014,10 @@
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2025-03-23-20-08-19
+      updated: 2025-03-30-20-15-50
       followers: 387
       likes: 60
-      views: 499
+      views: 500
 2017-06-18-manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
@@ -13787,7 +13787,7 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2025-03-23-20-08-21
+      updated: 2025-03-30-20-15-53
       followers: 919
       likes: 50
       views: 298
@@ -13804,10 +13804,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2025-03-23-20-08-18
+      updated: 2025-03-30-20-15-49
       followers: 393
       likes: 59
-      views: 485
+      views: 486
     - service: ig
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
