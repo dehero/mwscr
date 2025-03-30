@@ -941,22 +941,22 @@
       id: DHwL277s2b2
       mediaId: '17842154709456486'
       published: 2025-03-28-18-21-41
-      updated: 2025-03-30-17-46-44
+      updated: 2025-03-30-18-18-53
       followers: 1528
       likes: 93
       views: 359
     - service: vk
       id: 2238
       published: 2025-03-28-18-21-53
-      updated: 2025-03-30-17-46-42
+      updated: 2025-03-30-18-18-54
       followers: 1217
       likes: 51
-      views: 257
+      views: 258
       reposts: 1
     - service: tg
       id: 768
       published: 2025-03-28-18-22-02
-      updated: 2025-03-30-17-46-42
+      updated: 2025-03-30-18-18-53
       followers: 709
       likes: 56
       views: 229
@@ -980,21 +980,50 @@
       id: DHywXRryiOS
       mediaId: '17870650785244683'
       published: 2025-03-29-18-19-12
-      updated: 2025-03-30-17-46-43
+      updated: 2025-03-30-18-18-53
       followers: 1530
       likes: 55
       views: 202
     - service: vk
       id: 2241
       published: 2025-03-29-18-19-18
-      updated: 2025-03-30-17-46-41
+      updated: 2025-03-30-18-18-53
       followers: 1217
       likes: 33
       views: 191
     - service: tg
       id: 769
       published: 2025-03-29-18-19-24
-      updated: 2025-03-30-17-46-41
+      updated: 2025-03-30-18-18-53
       followers: 710
       likes: 46
       views: 173
+2025-03-30-frozen-water-stone:
+  title: Frozen Water Stone
+  titleRu: Камень Замороженной Воды
+  placement: Outdoors
+  location: Solstheim, Moesring Mountains
+  content: store:/shots/2025-03-30-frozen-water-stone.png
+  trash: store:/trash/dehero.2025-03-27-19-49-51.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  addon: Bloodmoon
+  tags:
+    - snow
+    - stone
+  mark: B1
+  posts:
+    - service: ig
+      id: DH1VK5hz4Cs
+      mediaId: '18031676621335004'
+      published: 2025-03-30-18-19-19
+      followers: 1529
+    - service: vk
+      id: 2242
+      published: 2025-03-30-18-19-26
+      followers: 1220
+    - service: tg
+      id: 770
+      published: 2025-03-30-18-19-32
+      followers: 711
