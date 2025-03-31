@@ -981,7 +981,7 @@
     - service: vk
       id: 1963
       published: 2024-12-15-18-10-25
-      updated: 2025-03-24-05-09-13
+      updated: 2025-03-31-05-16-13
       followers: 1027
       likes: 56
       views: 467
@@ -992,10 +992,10 @@
     - service: tg
       id: 626
       published: 2024-12-15-18-11-17
-      updated: 2025-03-24-05-09-12
+      updated: 2025-03-31-05-16-09
       followers: 580
       likes: 68
-      views: 642
+      views: 647
       comments: !c |-
         G4kAMBwHuWn0btmfJgwjVLpVc74SIRvHZVVfXQ2AjhyBItmpJRQO92TqODxdfgxhAw6YW3BczMYB
         Tw4Sr2xyGvuZzN/ehodzxraRaCJTKAQsGQvs8MCORhJ1JBywo5ZnPVF8/mape+SabJOplUJFy4U1
@@ -4852,7 +4852,7 @@
     - service: vk
       id: 1919
       published: 2024-11-24-18-09-24
-      updated: 2025-03-24-05-09-17
+      updated: 2025-03-31-05-16-16
       followers: 1008
       likes: 38
       views: 341
@@ -4860,10 +4860,10 @@
     - service: tg
       id: 605
       published: 2024-11-24-18-09-33
-      updated: 2025-03-24-05-09-14
+      updated: 2025-03-31-05-16-11
       followers: 576
       likes: 65
-      views: 648
+      views: 652
 2017-04-25-castle-ebonheart:
   title: Castle Ebonheart
   titleRu: Замок Эбенгард
