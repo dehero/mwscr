@@ -108,9 +108,18 @@ dehero.2025-03-27-20-06-42:
   type: shot
   author: dehero
 dehero.2025-03-27-20-08-38:
-  content:
+  title: Sixth House Hammer
+  titleRu: Молот шестого дома
+  placement: Indoors
+  location: Abinabi
+  content: store:/inbox/dehero.2025-03-27-20-08-38.2.png
+  trash:
     - store:/inbox/dehero.2025-03-27-20-08-38.1.png
     - store:/inbox/dehero.2025-03-27-20-08-38.png
-    - store:/inbox/dehero.2025-03-27-20-08-38.2.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - candle
+    - hammer
+  mark: B1
