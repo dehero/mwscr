@@ -2545,7 +2545,7 @@
     - service: vk
       id: 1537
       published: 2024-05-18-18-18-31
-      updated: 2025-03-24-02-21-07
+      updated: 2025-03-31-03-03-42
       followers: 915
       likes: 27
       views: 275
@@ -2553,7 +2553,7 @@
     - service: tg
       id: 412
       published: 2024-05-18-18-18-39
-      updated: 2025-03-24-02-21-05
+      updated: 2025-03-31-03-03-38
       followers: 372
       likes: 52
       views: 448
@@ -4738,7 +4738,7 @@
     - service: vk
       id: 1511
       published: 2024-04-27-18-16-27
-      updated: 2025-03-24-02-21-10
+      updated: 2025-03-31-03-03-45
       followers: 911
       likes: 30
       views: 255
@@ -4746,10 +4746,10 @@
     - service: tg
       id: 391
       published: 2024-04-27-18-16-36
-      updated: 2025-03-24-02-21-09
+      updated: 2025-03-31-03-03-40
       followers: 354
       likes: 59
-      views: 492
+      views: 493
 2018-05-04-table-for-two:
   title: Table for Two
   titleRu: Столик на двоих
@@ -7530,10 +7530,10 @@
     - service: tg
       id: 633
       published: 2024-12-22-18-09-11
-      updated: 2025-03-24-02-21-04
+      updated: 2025-03-31-03-03-37
       followers: 584
       likes: 68
-      views: 803
+      views: 808
 2018-07-17-safe-harbour:
   title: Safe Harbour
   titleRu: Тихая гавань
@@ -10722,10 +10722,10 @@
     - service: vk
       id: 1996
       published: 2024-12-29-18-00-28
-      updated: 2025-03-24-02-21-06
+      updated: 2025-03-31-03-03-41
       followers: 1037
       likes: 39
-      views: 436
+      views: 437
       reposts: 1
       comments: !c |-
         G7EBwJwHtiP6ZSCfeipl5Br/j9yzT/j0b8WQRVyBtxVhcu6WTue0ffylv5BTsl/ewAGK2c5iCC3M
