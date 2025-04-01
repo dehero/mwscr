@@ -4099,10 +4099,10 @@
       id: DHEZOdXtjzH
       mediaId: '18064945003941974'
       published: 2025-03-11-18-11-56
-      updated: 2025-03-25-20-09-08
+      updated: 2025-04-01-20-17-57
       followers: 1534
-      likes: 90
-      views: 417
+      likes: 91
+      views: 426
       comments: !c |-
         iyWAkZPLQnlYaYmxgACpbnk3NHRfNHJ02TVJIGJlbGlldmUgdGhhdCBkdWRlIGlzIGFuIGFuY2Vz
         dG9yIG9mIGdlbmVyYWwgdHVsbGl1cwM=
@@ -4117,10 +4117,10 @@
     - service: tg
       id: 744
       published: 2025-03-11-18-12-10
-      updated: 2025-03-25-20-09-06
+      updated: 2025-04-01-20-17-54
       followers: 695
-      likes: 61
-      views: 439
+      likes: 62
+      views: 474
 2017-04-07-trees-and-towers:
   title: Trees and Towers
   titleRu: Деревья и башни

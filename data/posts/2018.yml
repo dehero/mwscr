@@ -9333,11 +9333,11 @@
     - service: vk
       id: 2205
       published: 2025-03-18-18-12-44
-      updated: 2025-03-25-20-09-06
+      updated: 2025-04-01-20-17-53
       followers: 1191
-      likes: 49
-      views: 383
-      reposts: 2
+      likes: 51
+      views: 433
+      reposts: 3
       comments: !c |-
         CyOAkZPLQnla10GbAACqaWQ2MzU3MTUyMdkv0JzQsNCx0YDQuNCz0LDRiCAtINGD0LbQsNGB0L3Q
         viDQsdC10YHRj9GH0LjQtSED
@@ -9348,10 +9348,10 @@
         - 753
         - 754
       published: 2025-03-18-18-13-11
-      updated: 2025-03-25-20-09-05
+      updated: 2025-04-01-20-17-53
       followers: 703
-      likes: 57
-      views: 396
+      likes: 60
+      views: 521
     - service: ig
       id: DHWnZ7-PxN_
       mediaId: '18055358941897825'
