@@ -480,7 +480,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                     <Input
                       name="tags"
                       value={asArray(post().tags).join(' ')}
-                      onChange={(value) => setPatchField('tags', mergePostTags(value.split(' ')))}
+                      onBlur={(e) => setPatchField('tags', mergePostTags(e.target.value.split(' ')))}
                     />
                   </Label>
                 </Show>

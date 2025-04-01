@@ -1,6 +1,7 @@
 import { debounce } from '@solid-primitives/scheduled';
 import clsx from 'clsx';
-import { type Component, createEffect, createSignal, Show } from 'solid-js';
+import type { Component, JSX } from 'solid-js';
+import { createEffect, createSignal, Show } from 'solid-js';
 import { Frame } from '../Frame/Frame.js';
 import styles from './Input.module.css';
 
@@ -9,6 +10,7 @@ export interface InputProps {
   name?: string;
   onChange?: (value: string) => void;
   onDebouncedChange?: (value: string) => void;
+  onBlur?: JSX.FocusEventHandlerUnion<HTMLInputElement | HTMLTextAreaElement, FocusEvent>;
   value?: string;
   multiline?: boolean;
   readonly?: boolean;
@@ -39,6 +41,7 @@ export const Input: Component<InputProps> = (props) => {
           class={clsx(styles.input, props.class)}
           name={props.name}
           onInput={(e) => handleInput(e.target.value)}
+          onBlur={props.onBlur}
           value={localValue()}
           readonly={props.readonly}
         />
@@ -50,6 +53,7 @@ export const Input: Component<InputProps> = (props) => {
         name={props.name}
         rows={props.rows}
         onInput={(e) => handleInput(e.target.value)}
+        onBlur={props.onBlur}
         value={localValue()}
         readonly={props.readonly}
       />
