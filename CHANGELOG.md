@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.51.4](https://github.com/dehero/mwscr/compare/v1.51.3...v1.51.4) (2025-04-01)
+
+### Bug Fixes
+
+- **site:** leave trailing spaces when editing post tags
+  ([2e03acc](https://github.com/dehero/mwscr/commit/2e03acc1dcc91687deb077b5dc8ae45ee00de56f))
+
 ## [1.51.3](https://github.com/dehero/mwscr/compare/v1.51.2...v1.51.3) (2025-03-28)
 
 ### Bug Fixes
