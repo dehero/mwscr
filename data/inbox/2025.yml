@@ -94,25 +94,38 @@ dehero.2025-03-27-20-02-45:
   type: shot
   author: dehero
 dehero.2025-03-27-20-05-10:
-  content:
-    - store:/inbox/dehero.2025-03-27-20-05-10.png
+  title: Fire Fern
+  titleRu: Огненный папоротник
+  placement: Outdoors
+  location: Ashlands Region
+  content: store:/inbox/dehero.2025-03-27-20-05-10.2.png
+  trash:
     - store:/inbox/dehero.2025-03-27-20-05-10.1.png
-    - store:/inbox/dehero.2025-03-27-20-05-10.2.png
+    - store:/inbox/dehero.2025-03-27-20-05-10.png
   type: shot
   author: dehero
+  engine: OpenMW
+  mark: B1
 dehero.2025-03-27-20-06-42:
-  content:
+  title: Near Abinabi
+  titleRu: У Абинаби
+  placement: Outdoors
+  location:
+    - Ashlands Region
+    - Abinabi
+  content: store:/inbox/dehero.2025-03-27-20-06-38.1.png
+  trash:
+    - store:/inbox/dehero.2025-03-27-20-06-34.png
+    - store:/inbox/dehero.2025-03-27-20-06-42.2.png
+    - store:/inbox/dehero.2025-03-27-20-06-38.png
     - store:/inbox/dehero.2025-03-27-20-06-42.1.png
     - store:/inbox/dehero.2025-03-27-20-06-42.png
-    - store:/inbox/dehero.2025-03-27-20-06-38.png
-    - store:/inbox/dehero.2025-03-27-20-06-34.png
-    - store:/inbox/dehero.2025-03-27-20-06-38.1.png
-    - store:/inbox/dehero.2025-03-27-20-06-42.2.png
   type: shot
   author: dehero
+  engine: OpenMW
+  mark: B1
 dehero.2025-03-27-20-30-10:
-  content:
-    - store:/inbox/dehero.2025-03-27-20-30-10.1.png
-    - store:/inbox/dehero.2025-03-27-20-30-10.png
+  content: store:/inbox/dehero.2025-03-27-20-30-10.1.png
+  trash: store:/inbox/dehero.2025-03-27-20-30-10.png
   type: shot
   author: dehero
