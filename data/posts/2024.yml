@@ -428,7 +428,7 @@
     - service: tg
       id: 343
       published: 2024-03-12-18-18-01
-      updated: 2025-03-26-23-08-32
+      updated: 2025-04-02-23-14-36
       followers: 350
       likes: 65
       views: 532
@@ -558,7 +558,7 @@
     - service: tg
       id: 351
       published: 2024-03-19-18-11-30
-      updated: 2025-03-26-23-08-31
+      updated: 2025-04-02-23-14-35
       followers: 352
       likes: 69
       views: 485
@@ -867,7 +867,7 @@
     - service: tg
       id: 365
       published: 2024-04-02-18-11-28
-      updated: 2025-03-26-23-08-30
+      updated: 2025-04-02-23-14-34
       followers: 355
       likes: 56
       views: 477
@@ -1028,7 +1028,7 @@
     - service: vk
       id: 1488
       published: 2024-04-09-18-16-08
-      updated: 2025-03-26-23-08-39
+      updated: 2025-04-02-23-14-43
       followers: 911
       likes: 39
       views: 261
@@ -1036,7 +1036,7 @@
     - service: tg
       id: 373
       published: 2024-04-09-18-16-14
-      updated: 2025-03-26-23-08-30
+      updated: 2025-04-02-23-14-34
       followers: 353
       likes: 68
       views: 459
@@ -1662,7 +1662,7 @@
     - service: vk
       id: 1524
       published: 2024-05-07-18-18-49
-      updated: 2025-03-26-23-08-35
+      updated: 2025-04-02-23-14-39
       followers: 913
       likes: 34
       views: 268
@@ -1670,7 +1670,7 @@
     - service: tg
       id: 401
       published: 2024-05-07-18-18-56
-      updated: 2025-03-26-23-08-27
+      updated: 2025-04-02-23-14-30
       followers: 371
       likes: 56
       views: 464
@@ -2191,17 +2191,17 @@
     - service: vk
       id: 1578
       published: 2024-06-11-18-21-03
-      updated: 2025-03-26-23-08-31
+      updated: 2025-04-02-23-14-35
       followers: 916
       likes: 34
       views: 286
     - service: tg
       id: 436
       published: 2024-06-11-18-21-09
-      updated: 2025-03-26-23-08-23
+      updated: 2025-04-02-23-14-27
       followers: 384
       likes: 56
-      views: 452
+      views: 453
 2024-06-12-beran-ancestral-tomb:
   title: Beran Ancestral Tomb
   titleRu: Родовая гробница Беранов
