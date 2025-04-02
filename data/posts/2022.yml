@@ -224,10 +224,10 @@
     - service: vk
       id: 2226
       published: 2025-03-26-18-12-43
-      updated: 2025-04-01-18-21-21
+      updated: 2025-04-02-19-12-57
       followers: 1213
-      likes: 75
-      views: 516
+      likes: 76
+      views: 532
       reposts: 3
       comments: !c |-
         G84DAJwHto1qPbB48I2ZIBjQKD4O3w+acHuaRtHSjAJSPeMduHME6h5ZtDax9WbCqN1VTe9JSUkf
@@ -246,10 +246,10 @@
         - 764
         - 765
       published: 2025-03-26-18-13-07
-      updated: 2025-04-01-18-21-21
+      updated: 2025-04-02-19-12-56
       followers: 710
       likes: 59
-      views: 513
+      views: 559
     - service: ig
       id: DHrG6TzS39F
       mediaId: '17904383484108059'
