@@ -674,10 +674,10 @@
       id: DHZFSNPpzVk
       mediaId: '17997723893608305'
       published: 2025-03-19-19-01-44
-      updated: 2025-03-26-20-09-30
+      updated: 2025-04-02-20-17-05
       followers: 1533
-      likes: 81
-      views: 286
+      likes: 85
+      views: 317
       comments: !c |-
         G6gAUIzDOCb8dbCIPkIlnzr3gANMHhW2SGQKpsDfCAf0awKZdX86OdE7R1gQ1NYCTQMNAtAkndz8
         gv/pHEmJBGklxPY+nk/ZjQEGwBvFld+0Y5fHI6xO8WKEqd4B0VKzC+zkssOE+xm+x5ia7w+44s/M
@@ -685,10 +685,10 @@
     - service: vk
       id: 2208
       published: 2025-03-19-19-01-51
-      updated: 2025-03-26-20-09-30
+      updated: 2025-04-02-20-17-04
       followers: 1193
       likes: 39
-      views: 317
+      views: 353
       comments: !c |-
         G6oBIJwHtmOXhcHAfMErjeifuBjpH78OPcywKQj4KPFkH3m6tiwhfkiGPJCd3ANT3Zb7c9o2hIND
         eaqGrM6tBnA3dQNFmU4Zm7NQir1jthMdjgei+xtN6C/gOMOIK8BRRJmmG8MiGJIwX5kGweLz/ato
@@ -698,10 +698,10 @@
     - service: tg
       id: 755
       published: 2025-03-19-19-01-59
-      updated: 2025-03-26-20-09-28
+      updated: 2025-04-02-20-17-04
       followers: 705
-      likes: 54
-      views: 352
+      likes: 57
+      views: 467
 2025-03-20-night-on-the-plantation:
   title: Night on the Plantation
   titleRu: Ночь на плантации
@@ -1104,21 +1104,21 @@
       id: DH9D0jwvcyL
       mediaId: '18064211581802770'
       published: 2025-04-02-18-21-37
-      updated: 2025-04-02-19-12-54
+      updated: 2025-04-02-20-17-02
       followers: 1529
-      likes: 18
-      views: 34
+      likes: 26
+      views: 74
     - service: vk
       id: 2252
       published: 2025-04-02-18-21-44
-      updated: 2025-04-02-19-12-55
+      updated: 2025-04-02-20-17-02
       followers: 1228
-      likes: 7
-      views: 35
+      likes: 11
+      views: 52
     - service: tg
       id: 775
       published: 2025-04-02-18-21-50
-      updated: 2025-04-02-19-12-55
+      updated: 2025-04-02-20-17-03
       followers: 713
-      likes: 18
-      views: 75
+      likes: 24
+      views: 92
