@@ -112,7 +112,15 @@ dehero.2025-03-27-20-06-42:
   engine: OpenMW
   mark: B1
 dehero.2025-03-27-20-30-10:
+  title: Near Curio Manor
+  titleRu: У поместья Курио
+  placement: Indoors
+  location:
+    - Vivec, Curio Manor
+    - Vivec, Hlaalu Plaza
   content: store:/inbox/dehero.2025-03-27-20-30-10.1.png
   trash: store:/inbox/dehero.2025-03-27-20-30-10.png
   type: shot
   author: dehero
+  engine: OpenMW
+  mark: B1
