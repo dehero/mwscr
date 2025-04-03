@@ -2756,7 +2756,7 @@
     - service: vk
       id: 1541
       published: 2024-05-22-18-19-25
-      updated: 2025-03-27-22-14-16
+      updated: 2025-04-03-23-15-45
       followers: 917
       likes: 31
       views: 261
@@ -2978,18 +2978,18 @@
     - service: vk
       id: 2068
       published: 2025-01-16-18-10-34
-      updated: 2025-03-27-22-14-12
+      updated: 2025-04-03-23-15-42
       followers: 1053
       likes: 55
-      views: 366
+      views: 368
       reposts: 1
     - service: tg
       id: 669
       published: 2025-01-16-18-10-50
-      updated: 2025-03-27-22-14-10
+      updated: 2025-04-03-23-15-38
       followers: 655
       likes: 73
-      views: 537
+      views: 540
       comments: !c |-
         Cx+AkZPLQnlHEE4ggACoQWVsbGFyaWHZKdCv0LrRliDQutC+0LvRjNC+0YDQuCwg0Y/QutCwINC6
         0YDQsNGB0LAhAw==
@@ -7152,7 +7152,7 @@
     - service: vk
       id: 1663
       published: 2024-08-01-04-18-52
-      updated: 2025-03-27-22-14-14
+      updated: 2025-04-03-23-15-44
       followers: 924
       likes: 31
       views: 284
@@ -7370,10 +7370,10 @@
     - service: vk
       id: 2142
       published: 2025-02-20-18-11-30
-      updated: 2025-03-27-22-14-09
+      updated: 2025-04-03-23-15-38
       followers: 1109
       likes: 31
-      views: 388
+      views: 395
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
@@ -7707,7 +7707,7 @@
     - service: tg
       id: 352
       published: 2024-03-20-18-11-08
-      updated: 2025-03-27-22-14-15
+      updated: 2025-04-03-23-15-41
       followers: 352
       likes: 58
       views: 458
@@ -10001,7 +10001,7 @@
       id: DESuLyyPPAX
       mediaId: '17995420544733093'
       published: 2025-01-01-18-10-15
-      updated: 2025-03-27-22-14-11
+      updated: 2025-04-03-23-15-40
       followers: 1520
       likes: 127
       views: 594
@@ -13255,7 +13255,7 @@
     - service: vk
       id: 517
       published: 2017-12-01
-      updated: 2025-03-27-23-15-34
+      updated: 2025-04-03-23-16-26
       followers: 103
       likes: 13
       views: 158
@@ -13280,7 +13280,7 @@
     - service: vk
       id: 519
       published: 2017-12-02
-      updated: 2025-03-27-23-15-34
+      updated: 2025-04-03-23-16-25
       followers: 103
       likes: 14
       views: 205
@@ -13305,7 +13305,7 @@
     - service: vk
       id: 521
       published: 2017-12-03
-      updated: 2025-03-27-23-15-33
+      updated: 2025-04-03-23-16-24
       followers: 104
       likes: 14
       views: 160
@@ -13357,7 +13357,7 @@
     - service: vk
       id: 523
       published: 2017-12-04
-      updated: 2025-03-27-23-15-32
+      updated: 2025-04-03-23-16-23
       followers: 105
       likes: 17
       views: 220
@@ -13409,7 +13409,7 @@
     - service: vk
       id: 524
       published: 2017-12-05
-      updated: 2025-03-27-23-15-31
+      updated: 2025-04-03-23-16-22
       followers: 105
       likes: 13
       views: 168
@@ -13435,7 +13435,7 @@
     - service: vk
       id: 525
       published: 2017-12-06
-      updated: 2025-03-27-23-15-30
+      updated: 2025-04-03-23-16-21
       followers: 106
       likes: 15
       views: 171
@@ -13490,7 +13490,7 @@
     - service: vk
       id: 526
       published: 2017-12-07
-      updated: 2025-03-27-23-15-29
+      updated: 2025-04-03-23-16-20
       followers: 106
       likes: 20
       views: 178
@@ -13543,7 +13543,7 @@
     - service: vk
       id: 527
       published: 2017-12-08
-      updated: 2025-03-27-23-15-28
+      updated: 2025-04-03-23-16-19
       followers: 108
       likes: 19
       views: 197
@@ -13610,7 +13610,7 @@
     - service: vk
       id: 529
       published: 2017-12-09
-      updated: 2025-03-27-23-15-27
+      updated: 2025-04-03-23-16-19
       followers: 108
       likes: 20
       views: 203
@@ -13645,7 +13645,7 @@
     - service: vk
       id: 533
       published: 2017-12-10
-      updated: 2025-03-27-23-15-26
+      updated: 2025-04-03-23-16-18
       followers: 108
       likes: 15
       views: 174
@@ -13701,7 +13701,7 @@
     - service: vk
       id: 537
       published: 2017-12-11
-      updated: 2025-03-27-23-15-25
+      updated: 2025-04-03-23-16-17
       followers: 108
       likes: 17
       views: 166
@@ -13755,7 +13755,7 @@
     - service: vk
       id: 538
       published: 2017-12-12
-      updated: 2025-03-27-23-15-24
+      updated: 2025-04-03-23-16-16
       followers: 108
       likes: 14
       views: 203
@@ -13780,7 +13780,7 @@
     - service: vk
       id: 539
       published: 2017-12-13
-      updated: 2025-03-27-23-15-24
+      updated: 2025-04-03-23-16-15
       followers: 108
       likes: 14
       views: 162
@@ -13837,7 +13837,7 @@
     - service: vk
       id: 540
       published: 2017-12-14
-      updated: 2025-03-27-23-15-23
+      updated: 2025-04-03-23-16-14
       followers: 109
       likes: 16
       views: 181
@@ -13865,7 +13865,7 @@
     - service: vk
       id: 541
       published: 2017-12-15
-      updated: 2025-03-27-23-15-22
+      updated: 2025-04-03-23-16-13
       followers: 110
       likes: 14
       views: 224
@@ -13893,7 +13893,7 @@
     - service: vk
       id: 542
       published: 2017-12-16
-      updated: 2025-03-27-23-15-21
+      updated: 2025-04-03-23-16-12
       followers: 110
       likes: 11
       views: 166
@@ -13922,7 +13922,7 @@
     - service: vk
       id: 543
       published: 2017-12-17
-      updated: 2025-03-27-23-15-20
+      updated: 2025-04-03-23-16-11
       followers: 110
       likes: 11
       views: 171
@@ -13948,7 +13948,7 @@
     - service: vk
       id: 544
       published: 2017-12-18
-      updated: 2025-03-27-23-15-19
+      updated: 2025-04-03-23-16-11
       followers: 110
       likes: 18
       views: 185
@@ -13973,7 +13973,7 @@
     - service: vk
       id: 545
       published: 2017-12-19
-      updated: 2025-03-27-23-15-18
+      updated: 2025-04-03-23-16-10
       followers: 110
       likes: 15
       views: 244
@@ -14001,7 +14001,7 @@
     - service: vk
       id: 546
       published: 2017-12-20
-      updated: 2025-03-27-23-15-17
+      updated: 2025-04-03-23-16-09
       followers: 111
       likes: 12
       views: 165
@@ -14033,7 +14033,7 @@
     - service: vk
       id: 547
       published: 2017-12-21
-      updated: 2025-03-27-23-15-16
+      updated: 2025-04-03-23-16-08
       followers: 112
       likes: 11
       views: 170
@@ -14059,7 +14059,7 @@
     - service: vk
       id: 548
       published: 2017-12-22
-      updated: 2025-03-27-23-15-15
+      updated: 2025-04-03-23-16-07
       followers: 112
       likes: 14
       views: 179
@@ -14107,7 +14107,7 @@
     - service: vk
       id: 549
       published: 2017-12-23
-      updated: 2025-03-27-23-15-15
+      updated: 2025-04-03-23-16-06
       followers: 113
       likes: 13
       views: 176
@@ -14140,7 +14140,7 @@
     - service: vk
       id: 550
       published: 2017-12-24
-      updated: 2025-03-27-23-15-14
+      updated: 2025-04-03-23-16-05
       followers: 113
       likes: 23
       views: 316
@@ -14167,7 +14167,7 @@
     - service: vk
       id: 552
       published: 2017-12-25
-      updated: 2025-03-27-23-15-13
+      updated: 2025-04-03-23-16-04
       followers: 114
       likes: 15
       views: 172
@@ -14194,7 +14194,7 @@
     - service: vk
       id: 553
       published: 2017-12-26
-      updated: 2025-03-27-23-15-12
+      updated: 2025-04-03-23-16-03
       followers: 114
       likes: 14
       views: 168
@@ -14221,7 +14221,7 @@
     - service: vk
       id: 554
       published: 2017-12-27
-      updated: 2025-03-27-23-15-11
+      updated: 2025-04-03-23-16-03
       followers: 114
       likes: 18
       views: 206
@@ -14247,7 +14247,7 @@
     - service: vk
       id: 555
       published: 2017-12-28
-      updated: 2025-03-27-23-15-10
+      updated: 2025-04-03-23-16-02
       followers: 115
       likes: 11
       views: 163
@@ -14298,7 +14298,7 @@
     - service: vk
       id: 556
       published: 2017-12-29
-      updated: 2025-03-27-23-15-09
+      updated: 2025-04-03-23-16-01
       followers: 115
       likes: 16
       views: 168
@@ -14327,7 +14327,7 @@
     - service: vk
       id: 557
       published: 2017-12-30
-      updated: 2025-03-27-23-15-08
+      updated: 2025-04-03-23-16-00
       followers: 115
       likes: 13
       views: 160
@@ -14358,7 +14358,7 @@
     - service: vk
       id: 558
       published: 2017-12-31
-      updated: 2025-03-27-23-15-07
+      updated: 2025-04-03-23-15-59
       followers: 115
       likes: 12
       views: 188

@@ -21,7 +21,7 @@
     - service: vk
       id: 559
       published: 2018-01-01
-      updated: 2025-03-27-23-15-06
+      updated: 2025-04-03-23-15-58
       followers: 116
       likes: 16
       views: 187
@@ -49,7 +49,7 @@
     - service: vk
       id: 560
       published: 2018-01-02
-      updated: 2025-03-27-23-15-05
+      updated: 2025-04-03-23-15-57
       followers: 116
       likes: 17
       views: 240
@@ -77,7 +77,7 @@
     - service: vk
       id: 561
       published: 2018-01-03
-      updated: 2025-03-27-23-15-04
+      updated: 2025-04-03-23-15-56
       followers: 116
       likes: 21
       views: 252
@@ -103,7 +103,7 @@
     - service: vk
       id: 562
       published: 2018-01-04
-      updated: 2025-03-27-23-15-03
+      updated: 2025-04-03-23-15-55
       followers: 117
       likes: 10
       views: 185
@@ -130,7 +130,7 @@
     - service: vk
       id: 563
       published: 2018-01-05
-      updated: 2025-03-27-23-15-02
+      updated: 2025-04-03-23-15-55
       followers: 118
       likes: 8
       views: 181
@@ -164,7 +164,7 @@
     - service: vk
       id: 569
       published: 2018-01-06
-      updated: 2025-03-27-23-15-02
+      updated: 2025-04-03-23-15-54
       followers: 118
       likes: 14
       views: 186
@@ -217,7 +217,7 @@
     - service: vk
       id: 570
       published: 2018-01-07
-      updated: 2025-03-27-23-15-01
+      updated: 2025-04-03-23-15-53
       followers: 118
       likes: 12
       views: 196
@@ -250,7 +250,7 @@
     - service: vk
       id: 571
       published: 2018-01-08
-      updated: 2025-03-27-23-15-00
+      updated: 2025-04-03-23-15-52
       followers: 118
       likes: 12
       views: 199
@@ -274,7 +274,7 @@
     - service: vk
       id: 572
       published: 2018-01-09
-      updated: 2025-03-27-23-14-59
+      updated: 2025-04-03-23-15-51
       followers: 119
       likes: 16
       views: 181
@@ -328,7 +328,7 @@
     - service: vk
       id: 573
       published: 2018-01-10
-      updated: 2025-03-27-23-14-58
+      updated: 2025-04-03-23-15-50
       followers: 119
       likes: 14
       views: 167
@@ -355,7 +355,7 @@
     - service: vk
       id: 574
       published: 2018-01-11
-      updated: 2025-03-27-22-14-20
+      updated: 2025-04-03-23-15-49
       followers: 120
       likes: 16
       views: 170
@@ -414,7 +414,7 @@
     - service: vk
       id: 575
       published: 2018-01-12
-      updated: 2025-03-27-22-14-19
+      updated: 2025-04-03-23-15-48
       followers: 120
       likes: 17
       views: 195
@@ -439,7 +439,7 @@
     - service: vk
       id: 576
       published: 2018-01-13
-      updated: 2025-03-27-22-14-18
+      updated: 2025-04-03-23-15-47
       followers: 121
       likes: 19
       views: 191
@@ -494,7 +494,7 @@
     - service: vk
       id: 577
       published: 2018-01-14
-      updated: 2025-03-27-22-14-17
+      updated: 2025-04-03-23-15-46
       followers: 122
       likes: 7
       views: 178
@@ -3228,17 +3228,18 @@
       id: DH_on50PeWM
       mediaId: '18040719383615627'
       published: 2025-04-03-18-21-40
-      updated: 2025-04-03-22-14-06
+      updated: 2025-04-03-23-15-35
       followers: 1528
-      likes: 58
-      views: 132
+      likes: 60
+      views: 142
     - service: vk
       id: 2253
       published: 2025-04-03-18-22-06
-      updated: 2025-04-03-22-14-06
+      updated: 2025-04-03-23-15-35
       followers: 1231
-      likes: 16
-      views: 81
+      likes: 17
+      views: 90
+      reposts: 2
     - service: tg
       id:
         - 776
@@ -3246,10 +3247,10 @@
         - 778
         - 779
       published: 2025-04-03-18-22-28
-      updated: 2025-04-03-22-14-07
+      updated: 2025-04-03-23-15-36
       followers: 714
-      likes: 33
-      views: 119
+      likes: 34
+      views: 122
 2018-03-26-traces-of-shipwreck:
   title: Traces of Shipwreck
   titleRu: Следы кораблекрушения
@@ -10658,7 +10659,7 @@
     - service: vk
       id: 1883
       published: 2024-11-06-18-11-45
-      updated: 2025-03-27-22-14-13
+      updated: 2025-04-03-23-15-43
       followers: 1004
       likes: 39
       views: 407
@@ -10666,10 +10667,10 @@
     - service: tg
       id: 587
       published: 2024-11-06-18-11-51
-      updated: 2025-03-27-22-14-11
+      updated: 2025-04-03-23-15-39
       followers: 566
       likes: 59
-      views: 645
+      views: 647
 2018-10-02-shatalg:
   title: Shatalg
   titleRu: Шаталг
