@@ -465,10 +465,10 @@
     - service: tg
       id: 480
       published: 2024-07-25-18-20-32
-      updated: 2025-03-28-12-29-29
+      updated: 2025-04-04-12-29-51
       followers: 399
       likes: 72
-      views: 682
+      views: 684
       comments: !c |-
         G2kAwGT+r/mf3zvw1GhvsNPIZVqkH+DWVkXTNc4DbmIktcaXUDzGyrkk01NmHD/kJvy/Ey2wsjLL
         ZG/fcc3mr7ebk6Pv+rv/Xr4n/dnwKQCmTq6cLK+yzaN4QBIFQlpgaTiVIAtJ88A=
@@ -3228,17 +3228,17 @@
       id: DH_on50PeWM
       mediaId: '18040719383615627'
       published: 2025-04-03-18-21-40
-      updated: 2025-04-04-11-14-18
+      updated: 2025-04-04-12-29-43
       followers: 1528
-      likes: 81
-      views: 209
+      likes: 83
+      views: 217
     - service: vk
       id: 2253
       published: 2025-04-03-18-22-06
-      updated: 2025-04-04-11-14-18
+      updated: 2025-04-04-12-29-44
       followers: 1231
-      likes: 46
-      views: 228
+      likes: 47
+      views: 249
       reposts: 5
     - service: tg
       id:
@@ -3247,10 +3247,10 @@
         - 778
         - 779
       published: 2025-04-03-18-22-28
-      updated: 2025-04-04-11-14-19
+      updated: 2025-04-04-12-29-44
       followers: 714
-      likes: 41
-      views: 159
+      likes: 42
+      views: 160
 2018-03-26-traces-of-shipwreck:
   title: Traces of Shipwreck
   titleRu: Следы кораблекрушения
@@ -8571,7 +8571,7 @@
     - service: vk
       id: 1737
       published: 2024-09-05-18-28-36
-      updated: 2025-03-28-12-29-27
+      updated: 2025-04-04-12-29-49
       followers: 943
       likes: 27
       views: 283
@@ -8582,7 +8582,7 @@
     - service: tg
       id: 523
       published: 2024-09-05-18-28-44
-      updated: 2025-03-28-12-29-25
+      updated: 2025-04-04-12-29-47
       followers: 551
       likes: 57
       views: 550
@@ -9107,10 +9107,10 @@
     - service: vk
       id: 1674
       published: 2024-08-08-18-20-48
-      updated: 2025-03-28-12-29-31
+      updated: 2025-04-04-12-29-53
       followers: 927
       likes: 38
-      views: 377
+      views: 380
       reposts: 2
       comments: !c |-
         CyKAkZPLQnkTND+3gACxY2xpZmZyYWNlcnNraWxsZXLZJtCl0L7RgNC60LXRgDog0LzRj9C90Y8g
@@ -9118,7 +9118,7 @@
     - service: tg
       id: 494
       published: 2024-08-08-18-20-54
-      updated: 2025-03-28-12-29-28
+      updated: 2025-04-04-12-29-50
       followers: 508
       likes: 66
       views: 632
@@ -10851,7 +10851,7 @@
     - service: vk
       id: 1691
       published: 2024-08-15-18-20-37
-      updated: 2025-03-28-12-29-31
+      updated: 2025-04-04-12-29-52
       followers: 932
       likes: 36
       views: 326
@@ -10861,10 +10861,10 @@
     - service: tg
       id: 502
       published: 2024-08-15-18-20-44
-      updated: 2025-03-28-12-29-27
+      updated: 2025-04-04-12-29-49
       followers: 527
       likes: 60
-      views: 655
+      views: 657
 2018-10-06-herds-of-netches:
   title: Herds of Netches
   titleRu: Стада нетчей
