@@ -1661,7 +1661,7 @@
     - service: vk
       id: 1913
       published: 2024-11-21-18-10-57
-      updated: 2025-03-28-05-15-22
+      updated: 2025-04-04-05-16-11
       followers: 1008
       likes: 41
       views: 325
@@ -1672,10 +1672,10 @@
     - service: tg
       id: 602
       published: 2024-11-21-18-11-06
-      updated: 2025-03-28-05-15-21
+      updated: 2025-04-04-05-16-10
       followers: 573
       likes: 59
-      views: 670
+      views: 673
       comments: !c |-
         G/YCQJwJti2ataDNL+M4kk7uCyXwIwUJRi3QIIgo6fV7VVlcRpcack6h+YFfuOZBD3hZqsJHVqu2
         wwAjy/VDrfO7o5vAfqNJc+tbkzZQhIGfWGFKqa71NYGvUU6LNhtj6pus4/b06Af76mNtiZc91e1P
@@ -3228,17 +3228,17 @@
       id: DH_on50PeWM
       mediaId: '18040719383615627'
       published: 2025-04-03-18-21-40
-      updated: 2025-04-04-04-18-21
+      updated: 2025-04-04-05-16-09
       followers: 1528
-      likes: 69
-      views: 169
+      likes: 71
+      views: 173
     - service: vk
       id: 2253
       published: 2025-04-03-18-22-06
-      updated: 2025-04-04-04-18-22
+      updated: 2025-04-04-05-16-08
       followers: 1231
-      likes: 28
-      views: 130
+      likes: 31
+      views: 147
       reposts: 2
     - service: tg
       id:
@@ -3247,10 +3247,10 @@
         - 778
         - 779
       published: 2025-04-03-18-22-28
-      updated: 2025-04-04-04-18-23
+      updated: 2025-04-04-05-16-09
       followers: 714
-      likes: 35
-      views: 140
+      likes: 39
+      views: 148
 2018-03-26-traces-of-shipwreck:
   title: Traces of Shipwreck
   titleRu: Следы кораблекрушения
