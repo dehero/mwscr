@@ -3228,17 +3228,17 @@
       id: DH_on50PeWM
       mediaId: '18040719383615627'
       published: 2025-04-03-18-21-40
-      updated: 2025-04-04-17-13-51
+      updated: 2025-04-04-18-20-39
       followers: 1528
-      likes: 84
-      views: 229
+      likes: 85
+      views: 230
     - service: vk
       id: 2253
       published: 2025-04-03-18-22-06
-      updated: 2025-04-04-17-13-51
+      updated: 2025-04-04-18-20-40
       followers: 1231
-      likes: 48
-      views: 274
+      likes: 49
+      views: 281
       reposts: 5
     - service: tg
       id:
@@ -3247,10 +3247,10 @@
         - 778
         - 779
       published: 2025-04-03-18-22-28
-      updated: 2025-04-04-17-13-52
+      updated: 2025-04-04-18-20-41
       followers: 714
       likes: 43
-      views: 166
+      views: 168
 2018-03-26-traces-of-shipwreck:
   title: Traces of Shipwreck
   titleRu: Следы кораблекрушения
@@ -7419,6 +7419,19 @@
       followers: 186
       likes: 21
       views: 258
+    - service: ig
+      id: DICNVU7Mtr7
+      mediaId: '17905033959037709'
+      published: 2025-04-04-18-20-57
+      followers: 1527
+    - service: vk
+      id: 2254
+      published: 2025-04-04-18-21-04
+      followers: 1231
+    - service: tg
+      id: 780
+      published: 2025-04-04-18-21-10
+      followers: 714
 2018-07-13-time-to-sleep:
   title: Time to Sleep
   titleRu: Время спать
