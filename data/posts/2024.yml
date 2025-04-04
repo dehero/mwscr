@@ -54,7 +54,7 @@
     - service: tg
       id: 330
       published: 2024-02-28-19-19-34
-      updated: 2025-03-28-03-33-02
+      updated: 2025-04-04-04-18-27
       followers: 338
       likes: 74
       views: 634
@@ -2995,7 +2995,7 @@
     - service: vk
       id: 1943
       published: 2024-12-05-18-10-12
-      updated: 2025-03-28-03-33-05
+      updated: 2025-04-04-04-18-28
       followers: 1013
       likes: 63
       views: 471
@@ -3008,10 +3008,10 @@
     - service: tg
       id: 616
       published: 2024-12-05-18-10-19
-      updated: 2025-03-28-03-33-00
+      updated: 2025-04-04-04-18-26
       followers: 578
       likes: 73
-      views: 533
+      views: 536
 2024-12-06-tel-naga-great-hall:
   title: Tel Naga Great Hall
   titleRu: Большой Зал Тель Наги
@@ -3254,7 +3254,7 @@
     - service: vk
       id: 1959
       published: 2024-12-12-18-11-51
-      updated: 2025-03-28-03-33-02
+      updated: 2025-04-04-04-18-27
       followers: 1023
       likes: 45
       views: 383
@@ -3266,10 +3266,10 @@
     - service: tg
       id: 623
       published: 2024-12-12-18-11-57
-      updated: 2025-03-28-03-33-00
+      updated: 2025-04-04-04-18-25
       followers: 580
       likes: 63
-      views: 621
+      views: 624
 2024-12-13-redoran-stronghold-of-molag-mar: 2016-12-06-redoran-stronghold-of-molag-mar
 2024-12-14-gathal-llethri: 2018-11-30-gathal-llethri
 2024-12-15-aleft: 2017-01-26-aleft
@@ -3309,10 +3309,10 @@
     - service: vk
       id: 1991
       published: 2024-12-26-19-32-05
-      updated: 2025-03-28-03-33-00
+      updated: 2025-04-04-04-18-25
       followers: 1031
       likes: 57
-      views: 467
+      views: 468
       reposts: 3
       comments: !c |-
         G+sAOKwOzEOi+ZuB4LkjW4+c/MTz+Dc+wrtnbYWhJVmaBVyCEf797VyouZVSLfGHoAzwBB0cexx5
@@ -3322,10 +3322,10 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2025-03-28-03-32-59
+      updated: 2025-04-04-04-18-24
       followers: 626
       likes: 74
-      views: 940
+      views: 948
 2024-12-27-tiny-boat:
   title: Tiny Boat
   titleRu: Маленькая лодочка
