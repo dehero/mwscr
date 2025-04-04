@@ -768,7 +768,7 @@
     - service: vk
       id: 1894
       published: 2024-11-14-18-11-03
-      updated: 2025-03-28-06-21-30
+      updated: 2025-04-04-06-21-54
       followers: 1005
       likes: 38
       views: 342
@@ -776,10 +776,10 @@
     - service: tg
       id: 595
       published: 2024-11-14-18-11-10
-      updated: 2025-03-28-06-21-29
+      updated: 2025-04-04-06-21-53
       followers: 570
       likes: 58
-      views: 837
+      views: 839
 2018-01-21-dwemer-tower-of-dagon-fel:
   title: Dwemer Tower of Dagon Fel
   titleRu: Двемерская башня Дагон Фела
@@ -3228,17 +3228,17 @@
       id: DH_on50PeWM
       mediaId: '18040719383615627'
       published: 2025-04-03-18-21-40
-      updated: 2025-04-04-05-16-09
+      updated: 2025-04-04-06-21-51
       followers: 1528
-      likes: 71
-      views: 173
+      likes: 74
+      views: 180
     - service: vk
       id: 2253
       published: 2025-04-03-18-22-06
-      updated: 2025-04-04-05-16-08
+      updated: 2025-04-04-06-21-51
       followers: 1231
-      likes: 31
-      views: 147
+      likes: 36
+      views: 165
       reposts: 2
     - service: tg
       id:
@@ -3247,10 +3247,10 @@
         - 778
         - 779
       published: 2025-04-03-18-22-28
-      updated: 2025-04-04-05-16-09
+      updated: 2025-04-04-06-21-52
       followers: 714
-      likes: 39
-      views: 148
+      likes: 40
+      views: 151
 2018-03-26-traces-of-shipwreck:
   title: Traces of Shipwreck
   titleRu: Следы кораблекрушения
