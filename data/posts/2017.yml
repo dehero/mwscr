@@ -1542,17 +1542,17 @@
     - service: vk
       id: 1818
       published: 2024-10-10-18-10-22
-      updated: 2025-03-28-09-16-28
+      updated: 2025-04-04-09-17-02
       followers: 960
       likes: 36
       views: 336
     - service: tg
       id: 560
       published: 2024-10-10-18-10-28
-      updated: 2025-03-28-09-16-26
+      updated: 2025-04-04-09-17-00
       followers: 559
       likes: 62
-      views: 495
+      views: 497
 2017-02-08-moonmoth-legion-fort:
   title: Moonmoth Legion Fort
   titleRu: Форт Легиона Лунной Бабочки
@@ -3035,19 +3035,19 @@
     - service: vk
       id: 1840
       published: 2024-10-17-18-09-16
-      updated: 2025-03-28-08-20-10
+      updated: 2025-04-04-09-17-00
       followers: 965
       likes: 49
-      views: 592
+      views: 594
       reposts: 2
       comments: !c iwuAkZPLQnkp0j58gACnaHlhcnZhcqTwn6WwAw==
     - service: tg
       id: 567
       published: 2024-10-17-18-09-22
-      updated: 2025-03-28-08-20-09
+      updated: 2025-04-04-09-16-59
       followers: 562
       likes: 65
-      views: 635
+      views: 637
 2017-03-13-sandy-shore:
   title: Sandy Shore
   titleRu: Песчаный берег
@@ -12265,7 +12265,7 @@
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2025-03-28-09-16-29
+      updated: 2025-04-04-09-17-03
       followers: 958
       likes: 47
       views: 355
@@ -12313,10 +12313,10 @@
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2025-03-28-09-16-27
+      updated: 2025-04-04-09-17-01
       followers: 560
       likes: 65
-      views: 570
+      views: 572
       comments: !c ixiAkZPLQnkljeH0gACnQmFyYUZveL5UcnVseSwgdGhlIHJvYWQgbW9zdCB0cmF2ZWxsZWQD
 2017-11-06-shore-shroom:
   title: Shore Shroom
