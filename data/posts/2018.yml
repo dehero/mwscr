@@ -3228,14 +3228,14 @@
       id: DH_on50PeWM
       mediaId: '18040719383615627'
       published: 2025-04-03-18-21-40
-      updated: 2025-04-05-01-09-35
+      updated: 2025-04-05-02-55-19
       followers: 1528
       likes: 88
-      views: 247
+      views: 248
     - service: vk
       id: 2253
       published: 2025-04-03-18-22-06
-      updated: 2025-04-05-01-09-36
+      updated: 2025-04-05-02-55-19
       followers: 1231
       likes: 53
       views: 300
@@ -3247,10 +3247,10 @@
         - 778
         - 779
       published: 2025-04-03-18-22-28
-      updated: 2025-04-05-01-09-36
+      updated: 2025-04-05-02-55-18
       followers: 714
       likes: 46
-      views: 193
+      views: 195
 2018-03-26-traces-of-shipwreck:
   title: Traces of Shipwreck
   titleRu: Следы кораблекрушения
@@ -7423,26 +7423,32 @@
       id: DICNVU7Mtr7
       mediaId: '17905033959037709'
       published: 2025-04-04-18-20-57
-      updated: 2025-04-05-01-09-34
+      updated: 2025-04-05-02-55-17
       followers: 1527
-      likes: 48
-      views: 128
+      likes: 51
+      views: 138
     - service: vk
       id: 2254
       published: 2025-04-04-18-21-04
-      updated: 2025-04-05-01-09-34
+      updated: 2025-04-05-02-55-18
       followers: 1231
-      likes: 22
-      views: 113
+      likes: 24
+      views: 122
       reposts: 1
+      comments: !c |-
+        G4MA4C0KbOc4cYWi22OzID3/aPR8uyL8QKln2CR4hCf79Iae8xw1RNs3Ni8ZuN51FsOhjGUP2eMD
+        VmR5sAEHbgFTgPF2l2KznO2+364d6ztYQZkE6d2hjQdZTzuKjceU7kXJbdnspv7QOA4IvDVQWSaq
+        kWYBFg==
     - service: tg
       id: 780
       published: 2025-04-04-18-21-10
-      updated: 2025-04-05-01-09-34
+      updated: 2025-04-05-02-55-17
       followers: 714
-      likes: 35
-      views: 201
-      comments: !c iw+AkZPLQnlgLW8PgACvVmFpbCBBc3Rvcid6a2l5pPCfpKkD
+      likes: 36
+      views: 210
+      comments: !c |-
+        Cx6AkpPLQnlgOvAXgACtT2xtZXJfSXpkZXlsYaTwn5GBk8tCeWAtbw+AAK9WYWlsIEFzdG9yJ3pr
+        aXmk8J+kqQM=
 2018-07-13-time-to-sleep:
   title: Time to Sleep
   titleRu: Время спать
