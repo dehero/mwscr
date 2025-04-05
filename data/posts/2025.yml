@@ -1125,3 +1125,15 @@
       views: 369
 2025-04-03-ships: 2018-03-25-ships
 2025-04-04-through-the-waterfalls: 2018-07-12-through-the-waterfalls
+2025-04-05-near-curio-manor:
+  title: Near Curio Manor
+  titleRu: У поместья Курио
+  placement: Indoors
+  location:
+    - Vivec, Curio Manor
+    - Vivec, Hlaalu Plaza
+  content: store:/shots/2025-04-05-near-curio-manor.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  mark: B1
