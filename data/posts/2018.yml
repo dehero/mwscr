@@ -3228,17 +3228,17 @@
       id: DH_on50PeWM
       mediaId: '18040719383615627'
       published: 2025-04-03-18-21-40
-      updated: 2025-04-05-11-12-11
+      updated: 2025-04-05-12-26-50
       followers: 1528
       likes: 94
-      views: 271
+      views: 272
     - service: vk
       id: 2253
       published: 2025-04-03-18-22-06
-      updated: 2025-04-05-11-12-12
+      updated: 2025-04-05-12-26-50
       followers: 1231
       likes: 53
-      views: 318
+      views: 320
       reposts: 5
     - service: tg
       id:
@@ -3247,10 +3247,10 @@
         - 778
         - 779
       published: 2025-04-03-18-22-28
-      updated: 2025-04-05-11-12-12
+      updated: 2025-04-05-12-26-49
       followers: 714
       likes: 49
-      views: 203
+      views: 204
 2018-03-26-traces-of-shipwreck:
   title: Traces of Shipwreck
   titleRu: Следы кораблекрушения
@@ -7423,17 +7423,17 @@
       id: DICNVU7Mtr7
       mediaId: '17905033959037709'
       published: 2025-04-04-18-20-57
-      updated: 2025-04-05-11-12-10
+      updated: 2025-04-05-12-26-48
       followers: 1527
-      likes: 55
-      views: 176
+      likes: 58
+      views: 179
     - service: vk
       id: 2254
       published: 2025-04-04-18-21-04
-      updated: 2025-04-05-11-12-11
+      updated: 2025-04-05-12-26-48
       followers: 1231
-      likes: 32
-      views: 186
+      likes: 34
+      views: 192
       reposts: 1
       comments: !c |-
         G4MA4C0KbOc4cYWi22OzID3/aPR8uyL8QKln2CR4hCf79Iae8xw1RNs3Ni8ZuN51FsOhjGUP2eMD
@@ -7442,10 +7442,10 @@
     - service: tg
       id: 780
       published: 2025-04-04-18-21-10
-      updated: 2025-04-05-11-12-11
+      updated: 2025-04-05-12-26-48
       followers: 714
-      likes: 44
-      views: 246
+      likes: 45
+      views: 251
       comments: !c |-
         Cx6AkpPLQnlgOvAXgACtT2xtZXJfSXpkZXlsYaTwn5GBk8tCeWAtbw+AAK9WYWlsIEFzdG9yJ3pr
         aXmk8J+kqQM=
@@ -12181,10 +12181,10 @@
     - service: tg
       id: 561
       published: 2024-10-11-18-10-00
-      updated: 2025-03-29-11-12-37
+      updated: 2025-04-05-12-26-50
       followers: 558
       likes: 55
-      views: 508
+      views: 509
 2018-11-04-dwemer-bay:
   title: Dwemer Bay
   titleRu: Двемерская бухта
@@ -12949,7 +12949,7 @@
     - service: vk
       id: 1774
       published: 2024-09-20-18-30-28
-      updated: 2025-03-29-11-12-40
+      updated: 2025-04-05-12-26-54
       followers: 949
       likes: 42
       views: 363
@@ -12959,7 +12959,7 @@
     - service: tg
       id: 539
       published: 2024-09-20-18-30-37
-      updated: 2025-03-29-11-12-39
+      updated: 2025-04-05-12-26-52
       followers: 555
       likes: 58
       views: 546
