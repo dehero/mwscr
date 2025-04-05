@@ -813,17 +813,18 @@
       id: DHgtwWYt6AA
       mediaId: '18081512209635569'
       published: 2025-03-22-18-10-07
-      updated: 2025-03-29-20-15-02
+      updated: 2025-04-05-20-15-08
       followers: 1535
-      likes: 87
-      views: 331
+      likes: 88
+      views: 346
     - service: vk
       id: 2217
       published: 2025-03-22-18-10-15
-      updated: 2025-03-29-20-15-03
+      updated: 2025-04-05-20-15-08
       followers: 1202
-      likes: 44
-      views: 342
+      likes: 47
+      views: 372
+      reposts: 1
       comments: !c |-
         G6QA4J0HdizyAotV1mcQT/i3CG9x+1RmYRJggi2xSJN3QW1zmXahXcSPSP4EN1nu5ATfTMrsmxmc
         7LABB+4ZJDAI7Pz9itlynu7n07Xv/Ht6z2PdmLxC+mFpSEFrK2u6pTfioPRdPBBiqgNXE3sUiyho
@@ -831,10 +832,10 @@
     - service: tg
       id: 758
       published: 2025-03-22-18-10-23
-      updated: 2025-03-29-20-15-03
+      updated: 2025-04-05-20-15-08
       followers: 708
-      likes: 57
-      views: 503
+      likes: 61
+      views: 587
       comments: !c iw6AkZPLQnldJXDDgACpTWF4VXBzaGVyqEdvIExlZnQuAw==
 2025-03-23-avus-belvilo:
   title: Avus Belvilo
@@ -1142,12 +1143,21 @@
       id: DIE7Sw4h_-B
       mediaId: '18085611472717318'
       published: 2025-04-05-19-41-01
+      updated: 2025-04-05-20-15-06
       followers: 1527
+      likes: 15
+      views: 21
     - service: vk
       id: 2256
       published: 2025-04-05-19-41-10
+      updated: 2025-04-05-20-15-06
       followers: 1231
+      likes: 4
+      views: 32
     - service: tg
       id: 781
       published: 2025-04-05-19-41-19
+      updated: 2025-04-05-20-15-06
       followers: 716
+      likes: 14
+      views: 58

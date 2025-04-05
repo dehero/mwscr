@@ -221,19 +221,19 @@
     - service: vk
       id: 2157
       published: 2025-03-01-18-10-14
-      updated: 2025-03-29-20-15-04
+      updated: 2025-04-05-20-15-10
       followers: 1150
-      likes: 33
-      views: 405
+      likes: 34
+      views: 414
       reposts: 1
       comments: !c ixeAkZPLQnlVMVLqAACraWQ4MjA3MDI2NjS40JzQuNC80L7QutGA0L7QutC+0LTQuNC7Aw==
     - service: tg
       id: 728
       published: 2025-03-01-18-10-23
-      updated: 2025-03-29-20-15-03
+      updated: 2025-04-05-20-15-09
       followers: 687
-      likes: 60
-      views: 464
+      likes: 61
+      views: 481
       comments: !c |-
         izOAkZTLQnlVLpMOgACpR2F0ZW1hdGU3rXd0ZiBhcmUgdGhleT+Ty0J5VS+Ll4AAsUJhcnJ5QmFu
         YW5hRHJhZ29u2SdXRFlNPyBBcmUgeW91IGFza2luZyB3aGF0IERhZWRyb3RoIGFyZT8D
