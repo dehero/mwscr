@@ -4640,7 +4640,7 @@
     - service: vk
       id: 1842
       published: 2024-10-18-19-02-17
-      updated: 2025-03-29-16-16-35
+      updated: 2025-04-05-16-17-56
       followers: 965
       likes: 53
       views: 444
@@ -4931,7 +4931,7 @@
     - service: vk
       id: 1754
       published: 2024-09-13-18-29-45
-      updated: 2025-03-29-16-16-37
+      updated: 2025-04-05-16-17-57
       followers: 946
       likes: 52
       views: 403
@@ -5533,7 +5533,7 @@
     - service: vk
       id: 1721
       published: 2024-08-30-18-29-34
-      updated: 2025-03-29-16-16-39
+      updated: 2025-04-05-16-18-00
       followers: 941
       likes: 46
       views: 331
@@ -5550,10 +5550,10 @@
     - service: tg
       id: 517
       published: 2024-08-30-18-29-41
-      updated: 2025-03-29-16-16-35
+      updated: 2025-04-05-16-17-55
       followers: 545
       likes: 72
-      views: 624
+      views: 625
       comments: !c |-
         CzCAk5PLQnlHWu7dAACnS2FCQkJpRbjQrdGFLCBiYXJlZm9vdCBjaGlsZGhvb2STy0J5GnTGOYAA
         qmhpbW1lbGhlcnqk8J+Zj5PLQnkaUBbeAACremhlY2hrYV9kcnak8J+YjAM=
@@ -8261,7 +8261,7 @@
     - service: vk
       id: 1631
       published: 2024-07-12-18-21-28
-      updated: 2025-03-29-16-16-47
+      updated: 2025-04-05-16-18-07
       followers: 920
       likes: 33
       views: 276
@@ -8269,10 +8269,10 @@
     - service: tg
       id: 467
       published: 2024-07-12-18-21-35
-      updated: 2025-03-29-16-16-41
+      updated: 2025-04-05-16-18-01
       followers: 397
       likes: 59
-      views: 492
+      views: 494
     - service: ig
       id: C9YKgzryToO
       mediaId: '17930722637791965'
@@ -10136,7 +10136,7 @@
     - service: vk
       id: 1664
       published: 2024-08-02-18-20-03
-      updated: 2025-03-29-16-16-44
+      updated: 2025-04-05-16-18-04
       followers: 925
       likes: 45
       views: 323
@@ -10147,7 +10147,7 @@
     - service: tg
       id: 488
       published: 2024-08-02-18-20-10
-      updated: 2025-03-29-16-16-38
+      updated: 2025-04-05-16-17-58
       followers: 428
       likes: 66
       views: 719
