@@ -3901,7 +3901,7 @@
     - service: vk
       id: 1633
       published: 2024-07-13-18-18-57
-      updated: 2025-03-30-20-15-52
+      updated: 2025-04-06-21-13-56
       followers: 919
       likes: 44
       views: 321
@@ -3909,10 +3909,10 @@
     - service: tg
       id: 468
       published: 2024-07-13-18-19-05
-      updated: 2025-03-30-20-15-48
+      updated: 2025-04-06-21-13-52
       followers: 398
       likes: 61
-      views: 518
+      views: 519
     - service: ig
       id: C9ZBvgVxQqH
       mediaId: '17951687612696908'
@@ -6398,14 +6398,14 @@
     - service: tg
       id: 454
       published: 2024-06-29-18-18-56
-      updated: 2025-03-30-20-15-49
+      updated: 2025-04-06-21-13-54
       followers: 388
       likes: 58
       views: 648
     - service: vk
       id: 1608
       published: 2024-06-29-19-11-46
-      updated: 2025-03-30-20-15-54
+      updated: 2025-04-06-21-13-58
       followers: 918
       likes: 37
       views: 381
@@ -8863,25 +8863,25 @@
       id: DG_PNteTOGE
       mediaId: '18049718234224040'
       published: 2025-03-09-18-08-17
-      updated: 2025-03-30-20-15-54
+      updated: 2025-04-06-21-13-52
       followers: 1535
       likes: 63
-      views: 282
+      views: 285
     - service: vk
       id: 2183
       published: 2025-03-09-18-08-24
-      updated: 2025-03-30-20-15-49
+      updated: 2025-04-06-21-13-53
       followers: 1176
-      likes: 53
-      views: 450
+      likes: 54
+      views: 462
       reposts: 2
     - service: tg
       id: 739
       published: 2025-03-09-18-08-31
-      updated: 2025-03-30-20-15-47
+      updated: 2025-04-06-21-13-51
       followers: 693
-      likes: 59
-      views: 522
+      likes: 60
+      views: 551
 2018-08-23-night-shipwreck:
   title: Night Shipwreck
   titleRu: Ночное кораблекрушение
