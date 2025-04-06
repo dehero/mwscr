@@ -396,6 +396,19 @@
       followers: 123
       likes: 3
       views: 816
+    - service: ig
+      id: DIHXzHAS7jP
+      mediaId: '18068053375935699'
+      published: 2025-04-06-18-28-36
+      followers: 1528
+    - service: vk
+      id: 2258
+      published: 2025-04-06-18-28-44
+      followers: 1233
+    - service: tg
+      id: 782
+      published: 2025-04-06-18-28-50
+      followers: 717
 2020-05-22-apothecary-door:
   title: Apothecary Door
   titleRu: Дверь аптекаря
