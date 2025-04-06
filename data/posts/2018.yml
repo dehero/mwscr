@@ -2065,7 +2065,7 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2025-03-30-17-46-43
+      updated: 2025-04-06-18-18-52
       followers: 927
       likes: 26
       views: 271
@@ -3228,18 +3228,22 @@
       id: DH_on50PeWM
       mediaId: '18040719383615627'
       published: 2025-04-03-18-21-40
-      updated: 2025-04-05-18-18-42
+      updated: 2025-04-06-18-18-50
       followers: 1528
-      likes: 96
-      views: 288
+      likes: 100
+      views: 310
     - service: vk
       id: 2253
       published: 2025-04-03-18-22-06
-      updated: 2025-04-05-18-18-43
+      updated: 2025-04-06-18-18-51
       followers: 1231
-      likes: 53
-      views: 331
+      likes: 62
+      views: 382
       reposts: 5
+      comments: !c |-
+        G7sA8C0ObBtJ+TFBtLCOeMaPUOkUxY30x1MoKEowkCahiJM9spxuL6EakqHyTR1yj/DtvZjTkLLu
+        B5N744Gsw9zkspXMmxscaIBpoBoQJV44yXGgjRAa1cp6P1/2equI99hxzu1vKNQR746CR6NsrbxM
+        AykROBj2z4MEGp9fSJFHg8s1cQNS5cFh2cEUCCJ5Q9AN//Nd
     - service: tg
       id:
         - 776
@@ -3247,10 +3251,10 @@
         - 778
         - 779
       published: 2025-04-03-18-22-28
-      updated: 2025-04-05-18-18-43
+      updated: 2025-04-06-18-18-50
       followers: 714
-      likes: 50
-      views: 208
+      likes: 53
+      views: 237
 2018-03-26-traces-of-shipwreck:
   title: Traces of Shipwreck
   titleRu: Следы кораблекрушения
@@ -5320,7 +5324,7 @@
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2025-03-30-17-46-46
+      updated: 2025-04-06-18-18-55
       followers: 919
       likes: 56
       views: 855
@@ -5328,7 +5332,7 @@
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2025-03-30-17-46-43
+      updated: 2025-04-06-18-18-52
       followers: 400
       likes: 67
       views: 631
@@ -7423,17 +7427,17 @@
       id: DICNVU7Mtr7
       mediaId: '17905033959037709'
       published: 2025-04-04-18-20-57
-      updated: 2025-04-06-17-12-40
+      updated: 2025-04-06-18-18-49
       followers: 1527
       likes: 73
-      views: 237
+      views: 242
     - service: vk
       id: 2254
       published: 2025-04-04-18-21-04
-      updated: 2025-04-06-17-12-39
+      updated: 2025-04-06-18-18-49
       followers: 1231
       likes: 44
-      views: 260
+      views: 263
       reposts: 2
       comments: !c |-
         G4MA4C0KbOc4cYWi22OzID3/aPR8uyL8QKln2CR4hCf79Iae8xw1RNs3Ni8ZuN51FsOhjGUP2eMD
@@ -7442,10 +7446,10 @@
     - service: tg
       id: 780
       published: 2025-04-04-18-21-10
-      updated: 2025-04-06-17-12-39
+      updated: 2025-04-06-18-18-48
       followers: 714
       likes: 53
-      views: 321
+      views: 324
       comments: !c |-
         Cx6AkpPLQnlgOvAXgACtT2xtZXJfSXpkZXlsYaTwn5GBk8tCeWAtbw+AAK9WYWlsIEFzdG9yJ3pr
         aXmk8J+kqQM=
@@ -7714,7 +7718,7 @@
     - service: vk
       id: 1666
       published: 2024-08-03-18-19-32
-      updated: 2025-03-30-17-46-44
+      updated: 2025-04-06-18-18-53
       followers: 925
       likes: 33
       views: 298
