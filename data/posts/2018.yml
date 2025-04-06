@@ -6339,7 +6339,7 @@
     - service: vk
       id: 1857
       published: 2024-10-26-18-09-18
-      updated: 2025-03-30-08-18-10
+      updated: 2025-04-06-09-14-43
       followers: 1000
       likes: 54
       views: 388
@@ -6353,10 +6353,10 @@
     - service: tg
       id: 576
       published: 2024-10-26-18-09-24
-      updated: 2025-03-30-08-18-08
+      updated: 2025-04-06-09-14-43
       followers: 564
       likes: 62
-      views: 631
+      views: 633
       comments: !c CxSAkpPLQnksrSYPAACobW9uZ2xlcmmgk8tCeSygVUwAAKh3aWx6dXVsbKAD
 2018-06-13-lich:
   title: Lich
@@ -7423,17 +7423,17 @@
       id: DICNVU7Mtr7
       mediaId: '17905033959037709'
       published: 2025-04-04-18-20-57
-      updated: 2025-04-06-08-17-49
+      updated: 2025-04-06-09-14-39
       followers: 1527
       likes: 71
-      views: 225
+      views: 226
     - service: vk
       id: 2254
       published: 2025-04-04-18-21-04
-      updated: 2025-04-06-08-17-50
+      updated: 2025-04-06-09-14-36
       followers: 1231
       likes: 42
-      views: 244
+      views: 247
       reposts: 2
       comments: !c |-
         G4MA4C0KbOc4cYWi22OzID3/aPR8uyL8QKln2CR4hCf79Iae8xw1RNs3Ni8ZuN51FsOhjGUP2eMD
@@ -7442,10 +7442,10 @@
     - service: tg
       id: 780
       published: 2025-04-04-18-21-10
-      updated: 2025-04-06-08-17-50
+      updated: 2025-04-06-09-14-36
       followers: 714
-      likes: 51
-      views: 306
+      likes: 52
+      views: 309
       comments: !c |-
         Cx6AkpPLQnlgOvAXgACtT2xtZXJfSXpkZXlsYaTwn5GBk8tCeWAtbw+AAK9WYWlsIEFzdG9yJ3pr
         aXmk8J+kqQM=
@@ -9855,7 +9855,7 @@
     - service: vk
       id: 1916
       published: 2024-11-23-18-10-28
-      updated: 2025-03-30-08-18-07
+      updated: 2025-04-06-09-14-39
       followers: 1008
       likes: 41
       views: 360
@@ -9866,10 +9866,10 @@
     - service: tg
       id: 604
       published: 2024-11-23-18-10-35
-      updated: 2025-03-30-08-18-05
+      updated: 2025-04-06-09-14-39
       followers: 575
       likes: 64
-      views: 639
+      views: 640
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище
