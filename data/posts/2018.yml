@@ -3038,10 +3038,10 @@
     - service: tg
       id: 569
       published: 2024-10-19-18-09-05
-      updated: 2025-03-30-10-14-47
+      updated: 2025-04-06-10-15-32
       followers: 561
       likes: 65
-      views: 906
+      views: 907
 2018-03-22-welcome-to-vivec-scum:
   title: Welcome to Vivec, Scum
   titleRu: Добро пожаловать в Вивек, ничтожество
@@ -7423,17 +7423,17 @@
       id: DICNVU7Mtr7
       mediaId: '17905033959037709'
       published: 2025-04-04-18-20-57
-      updated: 2025-04-06-09-14-39
+      updated: 2025-04-06-10-15-31
       followers: 1527
-      likes: 71
-      views: 226
+      likes: 72
+      views: 229
     - service: vk
       id: 2254
       published: 2025-04-04-18-21-04
-      updated: 2025-04-06-09-14-36
+      updated: 2025-04-06-10-15-30
       followers: 1231
-      likes: 42
-      views: 247
+      likes: 43
+      views: 250
       reposts: 2
       comments: !c |-
         G4MA4C0KbOc4cYWi22OzID3/aPR8uyL8QKln2CR4hCf79Iae8xw1RNs3Ni8ZuN51FsOhjGUP2eMD
@@ -7442,7 +7442,7 @@
     - service: tg
       id: 780
       published: 2025-04-04-18-21-10
-      updated: 2025-04-06-09-14-36
+      updated: 2025-04-06-10-15-30
       followers: 714
       likes: 52
       views: 309
