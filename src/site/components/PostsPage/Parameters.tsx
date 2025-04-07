@@ -6,6 +6,7 @@ import type { LocationInfo } from '../../../core/entities/location-info.js';
 import type { Option } from '../../../core/entities/option.js';
 import { ALL_OPTION, ANY_OPTION, NONE_OPTION } from '../../../core/entities/option.js';
 import {
+  PostAddon,
   PostMark,
   PostPlacement,
   PostType,
@@ -325,6 +326,20 @@ export const Parameters: Component<ParametersProps> = (props) => {
                     {locationOption()?.label}
                     <Show when={locationOption()?.postCount}>{(postCount) => <> ({postCount})</>}</Show>
                   </Button>
+                </Label>
+              </Show>
+
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('addon')}>
+                <Label label="Addon" vertical>
+                  <div class={styles.selectWrapper}>
+                    <Select
+                      name="addon"
+                      options={[ALL_OPTION, ANY_OPTION, NONE_OPTION, ...PostAddon.options.map((value) => ({ value }))]}
+                      value={props.parameters.addon()}
+                      onChange={props.parameters.setAddon}
+                      class={styles.select}
+                    />
+                  </div>
                 </Label>
               </Show>
 

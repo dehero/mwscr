@@ -425,7 +425,11 @@ export const PostPage = (): JSX.Element => {
                     link: postsRoute.createUrl({ managerName: params().managerName, placement: postInfo().placement }),
                   },
                   { label: 'Engine', value: postInfo().engine },
-                  { label: 'Addon', value: postInfo().addon },
+                  {
+                    label: 'Addon',
+                    value: postInfo().addon,
+                    link: postsRoute.createUrl({ managerName: params().managerName, addon: postInfo().addon }),
+                  },
                   {
                     label: "Editor's Mark",
                     value: postInfo().mark

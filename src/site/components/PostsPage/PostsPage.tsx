@@ -36,6 +36,7 @@ export interface PostsPageSearchParams {
   sort?: string;
   date?: string;
   status?: string;
+  addon?: string;
 }
 
 export interface PostsPageInfo extends SiteRouteMeta {
@@ -116,6 +117,7 @@ export const PostsPage = (): JSX.Element => {
     date: parameters.date(),
     status: parameters.status(),
     placement: parameters.placement(),
+    addon: parameters.addon(),
   });
 
   const [postInfos, { refetch }] = createResource(selectParams, (selectParams) =>

@@ -96,6 +96,7 @@ export interface SelectPostInfosParams {
   sortDirection?: SortDirection;
   date?: DateRange;
   status?: ListReaderItemStatus | typeof ANY_OPTION.value | typeof NONE_OPTION.value;
+  addon?: PostAddon | typeof ANY_OPTION.value | typeof NONE_OPTION.value;
 }
 
 export type PostInfoSelection = EntitySelection<PostInfo, SelectPostInfosParams>;
@@ -248,6 +249,10 @@ export const selectPostInfos = (
           (params.placement === ANY_OPTION.value && info.placement) ||
           (params.placement === NONE_OPTION.value && !info.placement) ||
           info.placement === params.placement) &&
+        (typeof params.addon === 'undefined' ||
+          (params.addon === ANY_OPTION.value && info.addon) ||
+          (params.addon === NONE_OPTION.value && !info.addon) ||
+          info.addon === params.addon) &&
         (typeof params.type === 'undefined' || info.type === params.type) &&
         (typeof params.tag === 'undefined' || info.tags?.includes(params.tag)) &&
         (typeof params.author === 'undefined' || info.authorOptions.some((option) => option.value === params.author)) &&
@@ -338,6 +343,16 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
       result.push('with mixed placement');
     } else {
       result.push(`placed ${params.placement.toLocaleLowerCase()}`);
+    }
+  }
+
+  if (params.addon) {
+    if (params.addon === ANY_OPTION.value) {
+      result.push('with any addon');
+    } else if (params.addon === NONE_OPTION.value) {
+      result.push('with no addon');
+    } else {
+      result.push(`with "${params.addon.toLocaleLowerCase()}" addon`);
     }
   }
 

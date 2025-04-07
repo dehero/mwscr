@@ -1,7 +1,7 @@
 import { ListReaderItemStatus } from '../../../../core/entities/list-manager.js';
 import type { Option } from '../../../../core/entities/option.js';
 import { ANY_OPTION, NONE_OPTION } from '../../../../core/entities/option.js';
-import { PostMark, PostPlacement, PostType, PostViolation } from '../../../../core/entities/post.js';
+import { PostAddon, PostMark, PostPlacement, PostType, PostViolation } from '../../../../core/entities/post.js';
 import type { SelectPostInfosParams, SelectPostInfosSortKey } from '../../../../core/entities/post-info.js';
 import { selectPostInfosSortOptions } from '../../../../core/entities/post-info.js';
 import { safeParseSchema } from '../../../../core/entities/schema.js';
@@ -74,6 +74,7 @@ export type FilterKey = keyof Pick<
   | 'date'
   | 'status'
   | 'placement'
+  | 'addon'
 >;
 
 export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams, unknown, PostsPageInfo>) {
@@ -123,6 +124,10 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     [ANY_OPTION.value, NONE_OPTION.value, ...PostPlacement.options].find(
       (placement) => placement === searchParams().placement,
     ) as SelectPostInfosParams['placement'];
+  const addon = () =>
+    [ANY_OPTION.value, NONE_OPTION.value, ...PostAddon.options].find(
+      (addon) => addon === searchParams().addon,
+    ) as SelectPostInfosParams['addon'];
 
   const setPreset = (preset: string | undefined) =>
     setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.searchParams });
@@ -146,6 +151,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
   };
   const setStatus = (status: SelectPostInfosParams['status'] | undefined) => setSearchParams({ status });
   const setPlacement = (placement: SelectPostInfosParams['placement'] | undefined) => setSearchParams({ placement });
+  const setAddon = (addon: SelectPostInfosParams['addon'] | undefined) => setSearchParams({ addon });
 
   return {
     sortOptions,
@@ -166,6 +172,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     date,
     status,
     placement,
+    addon,
     setPreset,
     setOriginal,
     setPublishable,
@@ -182,6 +189,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     setDate,
     setStatus,
     setPlacement,
+    setAddon,
     activeCount,
   };
 }
