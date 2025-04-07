@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.52.0](https://github.com/dehero/mwscr/compare/v1.51.4...v1.52.0) (2025-04-07)
+
+### Features
+
+- **site:** implement addon posts filter
+  ([4641972](https://github.com/dehero/mwscr/commit/4641972deaeff495773028c5b083f1610725f7fb))
+
 ## [1.51.4](https://github.com/dehero/mwscr/compare/v1.51.3...v1.51.4) (2025-04-01)
 
 ### Bug Fixes
