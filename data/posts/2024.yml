@@ -3127,7 +3127,7 @@
     - service: vk
       id: 1950
       published: 2024-12-08-18-10-10
-      updated: 2025-03-31-05-16-14
+      updated: 2025-04-07-05-16-24
       followers: 1012
       likes: 34
       views: 359
@@ -3135,10 +3135,10 @@
     - service: tg
       id: 619
       published: 2024-12-08-18-10-15
-      updated: 2025-03-31-05-16-10
+      updated: 2025-04-07-05-16-21
       followers: 581
       likes: 63
-      views: 488
+      views: 490
 2024-12-09-bridge-over-the-gorge:
   title: Bridge Over the Gorge
   titleRu: Мост над ущельем
