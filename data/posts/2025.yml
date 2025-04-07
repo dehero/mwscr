@@ -1143,7 +1143,7 @@
       id: DIE7Sw4h_-B
       mediaId: '18085611472717318'
       published: 2025-04-05-19-41-01
-      updated: 2025-04-07-17-14-11
+      updated: 2025-04-07-18-21-03
       followers: 1527
       likes: 92
       views: 332
@@ -1151,16 +1151,42 @@
     - service: vk
       id: 2256
       published: 2025-04-05-19-41-10
-      updated: 2025-04-07-17-14-11
+      updated: 2025-04-07-18-21-02
       followers: 1231
       likes: 58
-      views: 506
+      views: 509
       reposts: 4
     - service: tg
       id: 781
       published: 2025-04-05-19-41-19
-      updated: 2025-04-07-17-14-10
+      updated: 2025-04-07-18-21-02
       followers: 716
-      likes: 54
-      views: 213
+      likes: 55
+      views: 215
 2025-04-06-deadly-attack: 2020-05-21-deadly-attack
+2025-04-07-peeping:
+  title: Peeping
+  titleRu: Подглядывание
+  placement: Outdoors
+  location: Ascadian Isles Region
+  content: store:/shots/2025-04-07-peeping.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - tree
+  mark: C
+  posts:
+    - service: ig
+      id: DIJ7yCpz_km
+      mediaId: '18039298691620562'
+      published: 2025-04-07-18-21-31
+      followers: 1529
+    - service: vk
+      id: 2260
+      published: 2025-04-07-18-21-38
+      followers: 1235
+    - service: tg
+      id: 783
+      published: 2025-04-07-18-21-45
+      followers: 717
