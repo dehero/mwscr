@@ -825,10 +825,10 @@
     - service: vk
       id: 2120
       published: 2025-02-09-18-09-21
-      updated: 2025-03-31-01-14-07
+      updated: 2025-04-07-03-01-52
       followers: 1063
       likes: 43
-      views: 407
+      views: 409
       reposts: 1
     - service: tg
       id: 702
@@ -1482,10 +1482,10 @@
         - 661
         - 662
       published: 2025-01-12-18-10-23
-      updated: 2025-03-31-01-14-08
+      updated: 2025-04-07-03-01-55
       followers: 648
       likes: 66
-      views: 600
+      views: 603
       comments: !c |-
         G30CgCwOeHPoJNRUmP1wJwQFokIufMKLfx70xSrQpAZNClouQWVW1YkEoUkD5JLrJbuXJh46P/Tz
         N03F1LVmA+/YFx0MQinmXdHkN7au525ZYrFY9uYs1l3IAfB3SPgUP207Zph9pS1qSWEYUETpNh9v
