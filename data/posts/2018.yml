@@ -2545,7 +2545,7 @@
     - service: vk
       id: 1537
       published: 2024-05-18-18-18-31
-      updated: 2025-03-31-03-03-42
+      updated: 2025-04-07-04-19-09
       followers: 915
       likes: 27
       views: 275
@@ -2553,7 +2553,7 @@
     - service: tg
       id: 412
       published: 2024-05-18-18-18-39
-      updated: 2025-03-31-03-03-38
+      updated: 2025-04-07-04-19-06
       followers: 372
       likes: 52
       views: 448
@@ -4769,7 +4769,7 @@
     - service: vk
       id: 1511
       published: 2024-04-27-18-16-27
-      updated: 2025-03-31-03-03-45
+      updated: 2025-04-07-04-19-12
       followers: 911
       likes: 30
       views: 255
@@ -4777,7 +4777,7 @@
     - service: tg
       id: 391
       published: 2024-04-27-18-16-36
-      updated: 2025-03-31-03-03-40
+      updated: 2025-04-07-04-19-08
       followers: 354
       likes: 59
       views: 493
@@ -7591,10 +7591,10 @@
     - service: tg
       id: 633
       published: 2024-12-22-18-09-11
-      updated: 2025-03-31-03-03-37
+      updated: 2025-04-07-04-19-05
       followers: 584
       likes: 68
-      views: 808
+      views: 813
 2018-07-17-safe-harbour:
   title: Safe Harbour
   titleRu: Тихая гавань
@@ -10783,7 +10783,7 @@
     - service: vk
       id: 1996
       published: 2024-12-29-18-00-28
-      updated: 2025-03-31-03-03-41
+      updated: 2025-04-07-04-19-08
       followers: 1037
       likes: 39
       views: 437
