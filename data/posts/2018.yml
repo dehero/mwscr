@@ -2232,7 +2232,7 @@
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2025-04-01-03-10-41
+      updated: 2025-04-08-03-34-20
       followers: 894
       likes: 34
       views: 299
@@ -2240,7 +2240,7 @@
     - service: tg
       id: 334
       published: 2024-03-03-18-16-50
-      updated: 2025-04-01-03-10-32
+      updated: 2025-04-08-03-34-09
       followers: 341
       likes: 64
       views: 532
@@ -2314,7 +2314,7 @@
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
-      updated: 2025-04-01-03-10-35
+      updated: 2025-04-08-03-34-14
       followers: 909
       likes: 46
       views: 311
@@ -2326,7 +2326,7 @@
     - service: tg
       id: 385
       published: 2024-04-21-18-17-47
-      updated: 2025-04-01-03-10-27
+      updated: 2025-04-08-03-34-05
       followers: 354
       likes: 64
       views: 472
@@ -5027,14 +5027,14 @@
     - service: vk
       id: 1468
       published: 2024-03-24-18-11-49
-      updated: 2025-04-01-03-10-39
+      updated: 2025-04-08-03-34-18
       followers: 898
       likes: 41
       views: 351
     - service: tg
       id: 356
       published: 2024-03-24-18-11-58
-      updated: 2025-04-01-03-10-30
+      updated: 2025-04-08-03-34-08
       followers: 352
       likes: 60
       views: 547
@@ -10953,7 +10953,7 @@
       id: DExn5skTWOM
       mediaId: '17876857326238567'
       published: 2025-01-13-18-11-48
-      updated: 2025-04-01-03-10-25
+      updated: 2025-04-08-03-34-03
       followers: 1524
       likes: 161
       views: 546
@@ -10963,7 +10963,7 @@
     - service: vk
       id: 2052
       published: 2025-01-13-18-12-09
-      updated: 2025-04-01-03-10-23
+      updated: 2025-04-08-03-34-02
       followers: 1052
       likes: 52
       views: 385
@@ -10991,10 +10991,10 @@
         - 665
         - 666
       published: 2025-01-13-18-12-27
-      updated: 2025-04-01-03-10-21
+      updated: 2025-04-08-03-34-00
       followers: 648
       likes: 65
-      views: 899
+      views: 904
 2018-10-07-on-the-way-to-the-crater:
   title: On the Way to the Crater
   titleRu: На пути к кратеру
