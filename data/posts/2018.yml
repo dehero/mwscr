@@ -1531,7 +1531,7 @@
     - service: vk
       id: 1668
       published: 2024-08-05-18-20-39
-      updated: 2025-04-01-19-12-56
+      updated: 2025-04-08-19-13-45
       followers: 926
       likes: 43
       views: 322
@@ -1539,10 +1539,10 @@
     - service: tg
       id: 491
       published: 2024-08-05-18-20-53
-      updated: 2025-04-01-19-12-56
+      updated: 2025-04-08-19-13-41
       followers: 490
       likes: 75
-      views: 694
+      views: 697
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
@@ -2377,7 +2377,7 @@
     - service: vk
       id: 1698
       published: 2024-08-19-18-19-41
-      updated: 2025-04-01-19-12-53
+      updated: 2025-04-08-19-13-42
       followers: 934
       likes: 32
       views: 304
@@ -2385,10 +2385,10 @@
     - service: tg
       id: 506
       published: 2024-08-19-18-19-47
-      updated: 2025-04-01-19-12-53
+      updated: 2025-04-08-19-13-40
       followers: 534
       likes: 66
-      views: 615
+      views: 617
 2018-03-04-monsters:
   title: Monsters
   titleRu: Монстры
@@ -3228,17 +3228,17 @@
       id: DH_on50PeWM
       mediaId: '18040719383615627'
       published: 2025-04-03-18-21-40
-      updated: 2025-04-07-18-21-05
+      updated: 2025-04-08-19-13-39
       followers: 1528
       likes: 105
-      views: 329
+      views: 339
     - service: vk
       id: 2253
       published: 2025-04-03-18-22-06
-      updated: 2025-04-07-18-21-06
+      updated: 2025-04-08-19-13-39
       followers: 1231
-      likes: 67
-      views: 411
+      likes: 68
+      views: 446
       reposts: 5
       comments: !c |-
         G7sA8C0ObBtJ+TFBtLCOeMaPUOkUxY30x1MoKEowkCahiJM9spxuL6EakqHyTR1yj/DtvZjTkLLu
@@ -3251,10 +3251,10 @@
         - 778
         - 779
       published: 2025-04-03-18-22-28
-      updated: 2025-04-07-18-21-03
+      updated: 2025-04-08-19-13-37
       followers: 714
-      likes: 55
-      views: 269
+      likes: 58
+      views: 311
 2018-03-26-traces-of-shipwreck:
   title: Traces of Shipwreck
   titleRu: Следы кораблекрушения
@@ -6934,7 +6934,7 @@
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
-      updated: 2025-04-01-19-12-57
+      updated: 2025-04-08-19-13-46
       followers: 924
       likes: 34
       views: 273
@@ -6942,10 +6942,10 @@
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
-      updated: 2025-04-01-19-12-57
+      updated: 2025-04-08-19-13-43
       followers: 414
       likes: 59
-      views: 679
+      views: 680
 2018-06-28-light-on-the-water:
   title: Light on the Water
   titleRu: Свет над водой
@@ -7427,29 +7427,31 @@
       id: DICNVU7Mtr7
       mediaId: '17905033959037709'
       published: 2025-04-04-18-20-57
-      updated: 2025-04-07-18-21-04
+      updated: 2025-04-08-19-13-38
       followers: 1527
-      likes: 76
-      views: 255
+      likes: 77
+      views: 266
     - service: vk
       id: 2254
       published: 2025-04-04-18-21-04
-      updated: 2025-04-07-18-21-04
+      updated: 2025-04-08-19-13-38
       followers: 1231
-      likes: 48
-      views: 290
+      likes: 50
+      views: 313
       reposts: 2
       comments: !c |-
-        G4MA4C0KbOc4cYWi22OzID3/aPR8uyL8QKln2CR4hCf79Iae8xw1RNs3Ni8ZuN51FsOhjGUP2eMD
-        VmR5sAEHbgFTgPF2l2KznO2+364d6ztYQZkE6d2hjQdZTzuKjceU7kXJbdnspv7QOA4IvDVQWSaq
-        kWYBFg==
+        G+oBQCwKbGPJ4lFB7GvZFHYLP9bron/6e/YJ73jzSBNOLNCmhIow2WPLTUspNpOh/NheuAE/y1tO
+        bD4lslLu/zfYm591qanATRarDt2hpKhFlme50wINTP8oT04TbUs40wP+JW1PnCcW1DYnwcktCjma
+        /o1ir8+f5hDPdf0eSAW5ddVFae4wsuVjxCXO1e3QoDxpnQF73I+zQYMUHGqCtM66/0e2eP9pSf89
+        r+/DLBjx991nYLgtXwJq7007UGKOBAby+AOrsuixHIiT1hgb2+MRITXhNj78J+xNXEyZqdNWF0ZW
+        OmFSZMBGJ7G36YDZsmviiwnQ7KlkgLpgEL44n4EmqTk0wXPgB3XmAWnTNAwIlkZ3A+VTDw==
     - service: tg
       id: 780
       published: 2025-04-04-18-21-10
-      updated: 2025-04-07-18-21-03
+      updated: 2025-04-08-19-13-37
       followers: 714
-      likes: 59
-      views: 354
+      likes: 62
+      views: 398
       comments: !c |-
         Cx6AkpPLQnlgOvAXgACtT2xtZXJfSXpkZXlsYaTwn5GBk8tCeWAtbw+AAK9WYWlsIEFzdG9yJ3pr
         aXmk8J+kqQM=
@@ -9265,7 +9267,7 @@
     - service: vk
       id: 1597
       published: 2024-06-24-18-20-03
-      updated: 2025-04-01-19-13-03
+      updated: 2025-04-08-19-13-52
       followers: 917
       likes: 52
       views: 325
@@ -9273,7 +9275,7 @@
     - service: tg
       id: 449
       published: 2024-06-24-18-20-11
-      updated: 2025-04-01-19-13-03
+      updated: 2025-04-08-19-13-47
       followers: 388
       likes: 66
       views: 594
