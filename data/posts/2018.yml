@@ -2780,17 +2780,17 @@
     - service: vk
       id: 1865
       published: 2024-10-28-18-10-39
-      updated: 2025-04-01-10-16-58
+      updated: 2025-04-08-10-17-08
       followers: 1000
       likes: 51
       views: 324
     - service: tg
       id: 578
       published: 2024-10-28-18-10-46
-      updated: 2025-04-01-10-16-57
+      updated: 2025-04-08-10-17-06
       followers: 564
       likes: 60
-      views: 581
+      views: 582
 2018-03-15-the-other-side:
   title: The Other Side
   titleRu: По ту сторону
@@ -4245,7 +4245,7 @@
     - service: tg
       id: 564
       published: 2024-10-14-18-10-32
-      updated: 2025-04-01-10-16-59
+      updated: 2025-04-08-10-17-08
       followers: 561
       likes: 64
       views: 514
@@ -11121,10 +11121,10 @@
     - service: tg
       id: 571
       published: 2024-10-21-18-10-50
-      updated: 2025-04-01-10-16-58
+      updated: 2025-04-08-10-17-07
       followers: 562
       likes: 55
-      views: 731
+      views: 732
 2018-10-10-thunderstorm-cave:
   title: Thunderstorm Cave
   titleRu: Грозовая пещера
