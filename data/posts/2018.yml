@@ -9396,10 +9396,10 @@
     - service: vk
       id: 2205
       published: 2025-03-18-18-12-44
-      updated: 2025-04-01-20-17-53
+      updated: 2025-04-08-21-14-41
       followers: 1191
       likes: 51
-      views: 433
+      views: 457
       reposts: 3
       comments: !c |-
         CyOAkZPLQnla10GbAACqaWQ2MzU3MTUyMdkv0JzQsNCx0YDQuNCz0LDRiCAtINGD0LbQsNGB0L3Q
@@ -9411,10 +9411,10 @@
         - 753
         - 754
       published: 2025-03-18-18-13-11
-      updated: 2025-04-01-20-17-53
+      updated: 2025-04-08-21-14-39
       followers: 703
-      likes: 60
-      views: 521
+      likes: 61
+      views: 553
     - service: ig
       id: DHWnZ7-PxN_
       mediaId: '18055358941897825'
@@ -12338,17 +12338,17 @@
       id: DGyXlepu_64
       mediaId: '18059122184506345'
       published: 2025-03-04-18-11-17
-      updated: 2025-04-01-21-14-21
+      updated: 2025-04-08-21-14-43
       followers: 1538
       likes: 64
-      views: 243
+      views: 245
     - service: vk
       id: 2169
       published: 2025-03-04-18-11-25
-      updated: 2025-04-01-21-14-20
+      updated: 2025-04-08-21-14-44
       followers: 1158
       likes: 36
-      views: 393
+      views: 404
       comments: !c |-
         G0kCACwHbGMF2i8TrJOEZal8D/R+VqdO/PPPyYaTwP+ooJNZx8PEAq6EShJP7gOduRwO8+owi4Mi
         giI4h5hrr5/karZjDzDAiP5/7Sa7dokHlsVSuxCVtVlvqariP+cpERWMwYtCSO0pRzaTJDpN646P
@@ -12360,10 +12360,10 @@
     - service: tg
       id: 734
       published: 2025-03-04-18-11-32
-      updated: 2025-04-01-21-14-18
+      updated: 2025-04-08-21-14-41
       followers: 690
-      likes: 55
-      views: 454
+      likes: 56
+      views: 470
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша

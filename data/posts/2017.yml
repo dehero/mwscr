@@ -2035,10 +2035,10 @@
       id: DGgWEqITqlY
       mediaId: '17891400153086102'
       published: 2025-02-25-18-11-44
-      updated: 2025-04-01-21-14-22
+      updated: 2025-04-08-21-14-44
       followers: 1536
       likes: 96
-      views: 385
+      views: 387
     - service: vk
       id: 2148
       published: 2025-02-25-18-11-51
@@ -4099,28 +4099,28 @@
       id: DHEZOdXtjzH
       mediaId: '18064945003941974'
       published: 2025-03-11-18-11-56
-      updated: 2025-04-01-20-17-57
+      updated: 2025-04-08-21-14-42
       followers: 1534
       likes: 91
-      views: 426
+      views: 428
       comments: !c |-
         iyWAkZPLQnlYaYmxgACpbnk3NHRfNHJ02TVJIGJlbGlldmUgdGhhdCBkdWRlIGlzIGFuIGFuY2Vz
         dG9yIG9mIGdlbmVyYWwgdHVsbGl1cwM=
     - service: vk
       id: 2187
       published: 2025-03-11-18-12-03
-      updated: 2025-04-01-21-14-19
+      updated: 2025-04-08-21-14-43
       followers: 1179
       likes: 61
-      views: 428
-      reposts: 3
+      views: 446
+      reposts: 4
     - service: tg
       id: 744
       published: 2025-03-11-18-12-10
-      updated: 2025-04-01-20-17-54
+      updated: 2025-04-08-21-14-40
       followers: 695
-      likes: 62
-      views: 474
+      likes: 63
+      views: 499
 2017-04-07-trees-and-towers:
   title: Trees and Towers
   titleRu: Деревья и башни
