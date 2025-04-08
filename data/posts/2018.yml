@@ -1224,7 +1224,7 @@
     - service: vk
       id: 1732
       published: 2024-09-02-18-29-04
-      updated: 2025-04-01-12-31-48
+      updated: 2025-04-08-13-26-11
       followers: 942
       likes: 40
       views: 407
@@ -1235,7 +1235,7 @@
     - service: tg
       id: 520
       published: 2024-09-02-18-29-11
-      updated: 2025-04-01-12-31-44
+      updated: 2025-04-08-13-26-07
       followers: 550
       likes: 62
       views: 666
@@ -3091,7 +3091,7 @@
     - service: vk
       id: 1792
       published: 2024-09-30-18-10-27
-      updated: 2025-04-01-12-31-44
+      updated: 2025-04-08-13-26-06
       followers: 957
       likes: 45
       views: 368
@@ -3106,10 +3106,10 @@
     - service: tg
       id: 550
       published: 2024-09-30-18-10-33
-      updated: 2025-04-01-12-31-40
+      updated: 2025-04-08-13-26-03
       followers: 558
       likes: 68
-      views: 522
+      views: 523
       comments: !c |-
         G4QAwBwHuRnrjhXVgx9isZgRKh0ib1L8INqHFlhnqmLG2G9CPyXq6DDo5Za7Pes/0AP+2r6sLXur
         C8K0eSqJ5QEX8Ta1MinElS5lSvWmlIKZYhqHF/vdtWqRiuXqfn8+BYBNeprQL0QOg3ULwmQBRleh
@@ -4236,10 +4236,10 @@
     - service: vk
       id: 1824
       published: 2024-10-14-18-10-26
-      updated: 2025-04-01-12-31-41
+      updated: 2025-04-08-13-26-04
       followers: 964
       likes: 49
-      views: 422
+      views: 423
       reposts: 1
       comments: !c CxKAkZPLQnko8uKOAACraWQ4MTA5MDA2OTSt0KHQutC+0YDQviApKQM=
     - service: tg
@@ -5850,7 +5850,7 @@
     - service: vk
       id: 1745
       published: 2024-09-09-18-29-21
-      updated: 2025-04-01-12-31-47
+      updated: 2025-04-08-13-26-10
       followers: 945
       likes: 41
       views: 312
@@ -5861,7 +5861,7 @@
     - service: tg
       id: 527
       published: 2024-09-09-18-29-28
-      updated: 2025-04-01-12-31-43
+      updated: 2025-04-08-13-26-06
       followers: 552
       likes: 66
       views: 561
@@ -6596,10 +6596,10 @@
     - service: tg
       id: 513
       published: 2024-08-26-18-20-21
-      updated: 2025-04-01-12-31-45
+      updated: 2025-04-08-13-26-08
       followers: 544
       likes: 66
-      views: 604
+      views: 606
 2018-06-19-thelas-ancestral-tomb:
   title: Thelas Ancestral Tomb
   titleRu: Родовая гробница Телас
@@ -11114,7 +11114,7 @@
     - service: vk
       id: 1848
       published: 2024-10-21-18-10-44
-      updated: 2025-04-01-12-31-40
+      updated: 2025-04-08-13-26-02
       followers: 993
       likes: 41
       views: 344
