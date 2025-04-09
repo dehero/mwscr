@@ -300,7 +300,7 @@
     - service: vk
       id: 56
       published: 2017-01-22
-      updated: 2025-04-02-02-59-10
+      updated: 2025-04-09-02-59-40
       likes: 5
       views: 72
     - service: ig
@@ -1263,15 +1263,15 @@
     - service: vk
       id: 1531
       published: 2024-05-13-18-17-48
-      updated: 2025-04-02-02-59-01
+      updated: 2025-04-09-02-59-31
       followers: 915
       likes: 35
-      views: 265
+      views: 266
       reposts: 1
     - service: tg
       id: 407
       published: 2024-05-13-18-17-54
-      updated: 2025-04-02-01-11-37
+      updated: 2025-04-09-02-59-23
       followers: 370
       likes: 62
       views: 449
@@ -2665,7 +2665,7 @@
     - service: vk
       id: 1988
       published: 2024-12-24-18-10-38
-      updated: 2025-04-02-02-58-59
+      updated: 2025-04-09-02-59-28
       followers: 1028
       likes: 49
       views: 433
@@ -2677,10 +2677,10 @@
     - service: tg
       id: 636
       published: 2024-12-24-18-10-47
-      updated: 2025-04-02-02-58-55
+      updated: 2025-04-09-02-59-22
       followers: 603
       likes: 64
-      views: 707
+      views: 709
 2017-03-06-night-encounter-at-the-bridge:
   title: Night Encounter at the Bridge
   titleRu: Ночная встреча у моста
@@ -5927,7 +5927,7 @@
     - service: vk
       id: 1456
       published: 2024-03-18-18-11-07
-      updated: 2025-04-02-02-59-08
+      updated: 2025-04-09-02-59-37
       followers: 896
       likes: 32
       views: 282
@@ -5939,10 +5939,10 @@
     - service: tg
       id: 350
       published: 2024-03-18-18-11-16
-      updated: 2025-04-02-01-11-41
+      updated: 2025-04-09-02-59-28
       followers: 353
       likes: 55
-      views: 485
+      views: 486
 2017-05-19-queen-mother-in-her-chambers:
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
@@ -8043,10 +8043,10 @@
       id: DFqRQNtS7PN
       mediaId: '18153897166344611'
       published: 2025-02-04-18-10-38
-      updated: 2025-04-02-01-11-39
+      updated: 2025-04-09-02-59-22
       followers: 1535
       likes: 106
-      views: 404
+      views: 405
       comments: !c |-
         G50AABSh0v//e/cIL32bgSybFNAfY1nD5qKo7Z2obQH9k0iaTk7PeNFIi9JjoHlbABBJ7VyfqK1r
         Sz2NZp9CUsXvb4ROvKAzpuXZiuBdc7zLhIKphqB4pj8hEeERKDsR7eWb1umcDEgafuvpRhjtfwuh
@@ -8054,17 +8054,17 @@
     - service: vk
       id: 2112
       published: 2025-02-04-18-10-44
-      updated: 2025-04-02-01-11-35
+      updated: 2025-04-09-02-59-20
       followers: 1059
       likes: 27
-      views: 344
+      views: 346
     - service: tg
       id: 694
       published: 2025-02-04-18-10-51
-      updated: 2025-04-02-01-11-34
+      updated: 2025-04-09-02-59-18
       followers: 664
       likes: 65
-      views: 648
+      views: 652
 2017-07-14-near-the-night-campfire:
   title: Near the Night Campfire
   titleRu: Возле ночного костра
@@ -10666,7 +10666,7 @@
     - service: vk
       id: 1548
       published: 2024-05-27-18-19-06
-      updated: 2025-04-02-02-59-00
+      updated: 2025-04-09-02-59-29
       followers: 918
       likes: 36
       views: 274
@@ -11975,15 +11975,15 @@
       id: DEiLC17uOow
       mediaId: '18081052477524929'
       published: 2025-01-07-18-11-04
-      updated: 2025-04-02-02-58-56
+      updated: 2025-04-09-02-59-29
       followers: 1524
       likes: 116
-      views: 458
+      views: 459
       comments: !c CxiAkZPLQnlEKOv5gACpaXN0c2llbGl6u09uZSBvZiB0aGUgbmljZXN0IHRvd25zIOKcqAM=
     - service: vk
       id: 2028
       published: 2025-01-07-18-11-12
-      updated: 2025-04-02-02-58-57
+      updated: 2025-04-09-02-59-25
       followers: 1049
       likes: 54
       views: 420
@@ -12001,10 +12001,10 @@
     - service: tg
       id: 656
       published: 2025-01-07-18-11-21
-      updated: 2025-04-02-01-11-37
+      updated: 2025-04-09-02-59-21
       followers: 646
       likes: 75
-      views: 605
+      views: 607
       comments: !c iw+AkZPLQnlEWvPWAACvQWxleGV5IFN0ZXBhbm92pPCfmI0D
 2017-10-29-wilted-littoral:
   title: Wilted Littoral
@@ -12809,14 +12809,14 @@
     - service: vk
       id: 1477
       published: 2024-04-01-18-10-59
-      updated: 2025-04-02-02-59-06
+      updated: 2025-04-09-02-59-36
       followers: 906
       likes: 33
       views: 311
     - service: tg
       id: 364
       published: 2024-04-01-18-11-06
-      updated: 2025-04-02-01-11-40
+      updated: 2025-04-09-02-59-27
       followers: 354
       likes: 61
       views: 474
@@ -13013,14 +13013,14 @@
       id: DE0MjAjSIq6
       mediaId: '18023130176338578'
       published: 2025-01-14-18-10-31
-      updated: 2025-04-02-01-11-43
+      updated: 2025-04-09-02-59-27
       followers: 1525
       likes: 76
-      views: 371
+      views: 372
     - service: vk
       id: 2057
       published: 2025-01-14-18-10-37
-      updated: 2025-04-02-02-58-56
+      updated: 2025-04-09-02-59-24
       followers: 1052
       likes: 61
       views: 381
@@ -13033,10 +13033,10 @@
     - service: tg
       id: 667
       published: 2025-01-14-18-10-44
-      updated: 2025-04-02-01-11-36
+      updated: 2025-04-09-02-59-20
       followers: 650
       likes: 69
-      views: 627
+      views: 631
 2017-11-26-in-the-cell-of-vuvil-senim:
   title: In the Cell of Vuvil Senim
   titleRu: В камере Вувила Сенима
