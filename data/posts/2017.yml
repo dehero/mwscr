@@ -1960,7 +1960,7 @@
     - service: vk
       id: 1954
       published: 2024-12-10-18-11-44
-      updated: 2025-04-02-03-36-29
+      updated: 2025-04-09-04-18-42
       followers: 1018
       likes: 46
       views: 417
@@ -1971,7 +1971,7 @@
     - service: tg
       id: 621
       published: 2024-12-10-18-11-50
-      updated: 2025-04-02-03-36-27
+      updated: 2025-04-09-04-18-42
       followers: 581
       likes: 71
       views: 777
@@ -3715,7 +3715,7 @@
     - service: vk
       id: 1967
       published: 2024-12-17-18-12-07
-      updated: 2025-04-02-03-36-28
+      updated: 2025-04-09-04-18-41
       followers: 1028
       likes: 39
       views: 387
@@ -3728,10 +3728,10 @@
     - service: tg
       id: 628
       published: 2024-12-17-18-12-14
-      updated: 2025-04-02-03-36-27
+      updated: 2025-04-09-04-18-40
       followers: 581
       likes: 64
-      views: 637
+      views: 640
 2017-03-29-guilds-and-stores:
   title: Guilds and Stores
   titleRu: Гильдии и магазины
