@@ -509,7 +509,7 @@
     - service: vk
       id: 1815
       published: 2024-10-08-18-10-28
-      updated: 2025-04-02-08-20-48
+      updated: 2025-04-09-08-22-07
       followers: 958
       likes: 39
       views: 340
@@ -518,7 +518,7 @@
     - service: tg
       id: 558
       published: 2024-10-08-18-10-34
-      updated: 2025-04-02-08-20-43
+      updated: 2025-04-09-08-22-03
       followers: 559
       likes: 64
       views: 502
@@ -1366,18 +1366,18 @@
     - service: vk
       id: 1712
       published: 2024-08-27-18-20-10
-      updated: 2025-04-02-08-20-52
+      updated: 2025-04-09-08-22-10
       followers: 939
       likes: 30
-      views: 344
+      views: 346
       reposts: 1
     - service: tg
       id: 514
       published: 2024-08-27-18-20-15
-      updated: 2025-04-02-08-20-46
+      updated: 2025-04-09-08-22-06
       followers: 544
       likes: 62
-      views: 631
+      views: 632
 2018-02-06-evening-trees:
   title: Evening Trees
   titleRu: Вечерние деревья
@@ -2857,17 +2857,17 @@
     - service: vk
       id: 1795
       published: 2024-10-01-18-12-42
-      updated: 2025-04-02-08-20-49
+      updated: 2025-04-09-08-22-08
       followers: 957
       likes: 36
       views: 561
     - service: tg
       id: 551
       published: 2024-10-01-18-12-49
-      updated: 2025-04-02-08-20-44
+      updated: 2025-04-09-08-22-04
       followers: 557
       likes: 59
-      views: 577
+      views: 578
 2018-03-17-suran-temple:
   title: Suran Temple
   titleRu: Храм в Суране
@@ -6134,18 +6134,18 @@
     - service: vk
       id: 1921
       published: 2024-11-26-18-11-20
-      updated: 2025-04-02-08-20-41
+      updated: 2025-04-09-08-22-00
       followers: 1010
       likes: 48
-      views: 558
+      views: 559
       reposts: 3
     - service: tg
       id: 607
       published: 2024-11-26-18-11-30
-      updated: 2025-04-02-08-20-39
+      updated: 2025-04-09-08-21-59
       followers: 577
       likes: 67
-      views: 625
+      views: 628
       comments: !c |-
         G50A4GRinb/QliLUtyRcN15D2i0LaoDrSphOTvR4IPwecCJpFgAG2Jbu0J5/G5Mi6hgJX2kOKmEL
         AECXZzAqQTHDqVA6DNLKP59wMaT8MvylJpKDOMQyepXfvrd7yIX29rwmr4Xg8W1jXMCYbgZRBBKL
@@ -7926,7 +7926,7 @@
     - service: vk
       id: 1829
       published: 2024-10-15-18-10-16
-      updated: 2025-04-02-08-20-47
+      updated: 2025-04-09-08-22-05
       followers: 964
       likes: 58
       views: 689
@@ -7942,7 +7942,7 @@
     - service: tg
       id: 565
       published: 2024-10-15-18-10-22
-      updated: 2025-04-02-08-20-43
+      updated: 2025-04-09-08-22-02
       followers: 562
       likes: 60
       views: 553
