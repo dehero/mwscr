@@ -1679,7 +1679,7 @@
     - service: vk
       id: 1286
       published: 2020-11-03
-      updated: 2025-04-03-03-34-31
+      updated: 2025-04-10-03-36-10
       followers: 456
       likes: 69
       views: 1328
@@ -1720,7 +1720,7 @@
     - service: vk
       id: 1287
       published: 2020-11-05
-      updated: 2025-04-03-03-34-30
+      updated: 2025-04-10-03-36-09
       followers: 456
       likes: 91
       views: 1532
@@ -1780,7 +1780,7 @@
     - service: vk
       id: 1288
       published: 2020-11-07
-      updated: 2025-04-03-03-34-29
+      updated: 2025-04-10-03-36-08
       followers: 457
       likes: 79
       views: 1652
@@ -1824,10 +1824,10 @@
     - service: vk
       id: 1290
       published: 2020-11-09
-      updated: 2025-04-03-03-34-29
+      updated: 2025-04-10-03-36-07
       followers: 459
       likes: 108
-      views: 2269
+      views: 2271
       reposts: 7
       comments: !c |-
         iziAkpPLQnf5h13wAACraWQxNjc3MDE4ODO70KLQsNC6INGB0L/QvtC60L7QudC90L4g4pyok8tC
@@ -1867,7 +1867,7 @@
     - service: vk
       id: 1291
       published: 2020-11-11
-      updated: 2025-04-03-03-34-28
+      updated: 2025-04-10-03-36-07
       followers: 459
       likes: 109
       views: 2096
