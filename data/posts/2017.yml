@@ -156,25 +156,25 @@
       id: DIRqOTPPgLv
       mediaId: '18039545984234760'
       published: 2025-04-10-18-22-00
-      updated: 2025-04-10-19-12-54
+      updated: 2025-04-10-20-16-50
       followers: 1530
-      likes: 27
-      views: 52
+      likes: 34
+      views: 77
       comments: !c ixWAkZPLQnliDx+PgACrZGVsYW5vc3BpZXO0Q2FsZGVyYSBtYWdlcyBndWlsZD8D
     - service: vk
       id: 2266
       published: 2025-04-10-18-22-07
-      updated: 2025-04-10-19-12-53
+      updated: 2025-04-10-20-16-49
       followers: 1246
-      likes: 5
-      views: 33
+      likes: 9
+      views: 56
     - service: tg
       id: 786
       published: 2025-04-10-18-22-13
-      updated: 2025-04-10-19-12-53
+      updated: 2025-04-10-20-16-50
       followers: 722
-      likes: 17
-      views: 111
+      likes: 32
+      views: 163
 2017-01-06-daedroth-in-grazelands:
   title: Daedroth in Grazelands
   titleRu: Даэдрот в Грейзленде
@@ -2579,7 +2579,7 @@
     - service: vk
       id: 1641
       published: 2024-07-17-18-20-24
-      updated: 2025-04-03-19-13-11
+      updated: 2025-04-10-20-16-57
       followers: 919
       likes: 39
       views: 318
@@ -2626,25 +2626,25 @@
       id: DIPFYnUzxpW
       mediaId: '18064733975505663'
       published: 2025-04-09-18-21-37
-      updated: 2025-04-10-19-12-56
+      updated: 2025-04-10-20-16-52
       followers: 1530
       likes: 60
-      views: 198
+      views: 199
     - service: vk
       id: 2264
       published: 2025-04-09-18-21-43
-      updated: 2025-04-10-19-12-55
+      updated: 2025-04-10-20-16-51
       followers: 1243
       likes: 43
-      views: 219
+      views: 220
       reposts: 1
     - service: tg
       id: 785
       published: 2025-04-09-18-21-51
-      updated: 2025-04-10-19-12-54
+      updated: 2025-04-10-20-16-51
       followers: 719
-      likes: 55
-      views: 221
+      likes: 58
+      views: 238
 2017-03-04-boooo:
   title: Boooo!
   titleRu: У-у-у-у-у!
@@ -2813,7 +2813,7 @@
     - service: tg
       id: 416
       published: 2024-05-22-18-19-31
-      updated: 2025-04-03-19-13-17
+      updated: 2025-04-10-20-17-02
       followers: 375
       likes: 57
       views: 469
@@ -4294,7 +4294,7 @@
     - service: vk
       id: 1588
       published: 2024-06-19-18-19-29
-      updated: 2025-04-03-19-13-16
+      updated: 2025-04-10-20-17-03
       followers: 917
       likes: 44
       views: 338
@@ -5280,7 +5280,7 @@
     - service: vk
       id: 1569
       published: 2024-06-05-18-19-31
-      updated: 2025-04-03-19-13-18
+      updated: 2025-04-10-20-17-05
       followers: 916
       likes: 45
       views: 337
@@ -5292,7 +5292,7 @@
     - service: tg
       id: 430
       published: 2024-06-05-18-19-36
-      updated: 2025-04-03-19-13-15
+      updated: 2025-04-10-20-17-01
       followers: 385
       likes: 70
       views: 542
@@ -5833,7 +5833,7 @@
     - service: vk
       id: 1629
       published: 2024-07-10-18-22-25
-      updated: 2025-04-03-19-13-12
+      updated: 2025-04-10-20-16-59
       followers: 919
       likes: 37
       views: 265
@@ -6527,17 +6527,17 @@
     - service: vk
       id: 1612
       published: 2024-07-03-18-19-45
-      updated: 2025-04-03-19-13-14
+      updated: 2025-04-10-20-17-00
       followers: 917
       likes: 28
       views: 239
     - service: tg
       id: 458
       published: 2024-07-03-18-19-53
-      updated: 2025-04-03-19-13-12
+      updated: 2025-04-10-20-16-58
       followers: 391
       likes: 50
-      views: 459
+      views: 460
       comments: !c |-
         CyGAkZTLQnkHndcVAACrYm9icm92bmlrb3azUklQIEQuIEJyeWFudCAg8J+qppPLQnkHngW2gACp
         R2F0ZW1hdGU3oz8/PwM=
@@ -7190,10 +7190,10 @@
     - service: tg
       id: 487
       published: 2024-08-01-03-18-14
-      updated: 2025-04-03-19-13-11
+      updated: 2025-04-10-20-16-57
       followers: 423
       likes: 60
-      views: 792
+      views: 797
       comments: !c Cw6AkZPLQnkTOt+EgACscHVzdG90aXZldHJhpPCfmIID
     - service: vk
       id: 1663
@@ -7409,10 +7409,10 @@
       id: DGTeDcPJGYV
       mediaId: '18079508434724391'
       published: 2025-02-20-18-11-21
-      updated: 2025-04-03-19-13-09
+      updated: 2025-04-10-20-17-01
       followers: 1537
       likes: 72
-      views: 406
+      views: 408
     - service: vk
       id: 2142
       published: 2025-02-20-18-11-30
@@ -7423,10 +7423,10 @@
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
-      updated: 2025-04-03-19-13-10
+      updated: 2025-04-10-20-16-55
       followers: 681
       likes: 58
-      views: 473
+      views: 483
       comments: !c |-
         G8oAAOTgmif+K7FhFQbIR5SNq7iCKnS41tFAh/vGzjXeZiiKsk3jyBjPMy7dof7ulEakkf1b7VvU
         zZWub4BlRCAd0g3kDVJBJdka/3qNSjcE0v9jW6RQgxQtgktZ/dOQ5YAsEGmO7OFShHUU1TQ3ikq+
@@ -11358,17 +11358,17 @@
     - service: vk
       id: 1603
       published: 2024-06-26-18-19-40
-      updated: 2025-04-03-19-13-15
+      updated: 2025-04-10-20-17-02
       followers: 917
       likes: 42
       views: 271
     - service: tg
       id: 451
       published: 2024-06-26-18-19-49
-      updated: 2025-04-03-19-13-13
+      updated: 2025-04-10-20-16-59
       followers: 388
       likes: 56
-      views: 490
+      views: 491
 2017-10-12-gnaar-mok:
   title: Gnaar Mok
   titleRu: Гнаар Мок
