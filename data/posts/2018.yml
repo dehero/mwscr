@@ -592,15 +592,15 @@
     - service: vk
       id: 1497
       published: 2024-04-16-18-16-52
-      updated: 2025-04-02-23-14-42
+      updated: 2025-04-10-01-11-41
       followers: 910
       likes: 33
-      views: 290
+      views: 291
       reposts: 3
     - service: tg
       id: 380
       published: 2024-04-16-18-16-59
-      updated: 2025-04-02-23-14-32
+      updated: 2025-04-10-01-11-37
       followers: 353
       likes: 59
       views: 458
@@ -1139,14 +1139,14 @@
     - service: vk
       id: 1514
       published: 2024-04-30-20-27-56
-      updated: 2025-04-02-23-14-40
+      updated: 2025-04-10-01-11-39
       followers: 911
       likes: 30
       views: 241
     - service: tg
       id: 394
       published: 2024-04-30-20-28-22
-      updated: 2025-04-02-23-14-31
+      updated: 2025-04-10-01-11-35
       followers: 363
       likes: 67
       views: 502
@@ -1278,7 +1278,7 @@
     - service: vk
       id: 1669
       published: 2024-08-06-18-20-57
-      updated: 2025-04-02-23-14-25
+      updated: 2025-04-10-01-11-24
       followers: 926
       likes: 28
       views: 288
@@ -1286,10 +1286,10 @@
     - service: tg
       id: 492
       published: 2024-08-06-18-21-04
-      updated: 2025-04-02-23-14-21
+      updated: 2025-04-10-01-11-22
       followers: 502
       likes: 70
-      views: 648
+      views: 649
 2018-02-04-sadrith-mora:
   title: Sadrith Mora
   titleRu: Садрит Мора
@@ -1884,10 +1884,10 @@
     - service: vk
       id: 2095
       published: 2025-01-29-18-11-37
-      updated: 2025-04-02-23-14-23
+      updated: 2025-04-10-01-11-23
       followers: 1057
       likes: 69
-      views: 733
+      views: 739
       reposts: 8
       comments: !c |-
         GxEBAJwHdsOHkZra5wqfOAwF/+/uH+GNKJOCxNqytMDbasvjMDkf9P/8uZBWpdNRaqc9PI2yKDrP
@@ -1902,10 +1902,10 @@
         - 687
         - 688
       published: 2025-01-29-18-12-03
-      updated: 2025-04-02-23-14-20
+      updated: 2025-04-10-01-11-21
       followers: 661
       likes: 78
-      views: 630
+      views: 636
       comments: !c |-
         G24A4BRKO//n+oQfeMlZYFFhA47n0+1S/ATPDU40wQC4gANJMAAbwO5OKPUSgHs7fvSiEJK5gktw
         +qAI+angKRYYV5W/A695+QfgpVZhv/hBPnRJVX4T6BRwaOHk3RRw5+SbQiyuzJonDyk95Ag=
@@ -3176,7 +3176,7 @@
     - service: vk
       id: 1550
       published: 2024-05-28-18-19-10
-      updated: 2025-04-02-23-14-37
+      updated: 2025-04-10-01-11-34
       followers: 917
       likes: 25
       views: 294
@@ -3187,7 +3187,7 @@
     - service: tg
       id: 422
       published: 2024-05-28-18-19-16
-      updated: 2025-04-02-23-14-28
+      updated: 2025-04-10-01-11-32
       followers: 378
       likes: 64
       views: 457
@@ -4324,14 +4324,14 @@
     - service: vk
       id: 1540
       published: 2024-05-21-18-18-53
-      updated: 2025-04-02-23-14-38
+      updated: 2025-04-10-01-11-36
       followers: 916
       likes: 26
       views: 300
     - service: tg
       id: 415
       published: 2024-05-21-18-18-59
-      updated: 2025-04-02-23-14-29
+      updated: 2025-04-10-01-11-32
       followers: 373
       likes: 57
       views: 486
@@ -4435,10 +4435,10 @@
     - service: vk
       id: 2150
       published: 2025-02-26-18-11-07
-      updated: 2025-04-02-23-14-21
+      updated: 2025-04-10-01-11-20
       followers: 1134
       likes: 31
-      views: 493
+      views: 499
       comments: !c |-
         G8MA6C0SbNsOZyPCO+nyiOzUKKLbEx5ID5pxpiVYZMmszq10Q0umYujf8OwTOestBokdspR9QqP6
         H67ZFDm/NJUT1Q1DVHl0cqAnPAgfvxZJAViiLcwD7mRoU4pgez9/PX/t9V4tChl8gmLdjXCEF52G
@@ -5069,7 +5069,7 @@
     - service: vk
       id: 1628
       published: 2024-07-09-18-20-20
-      updated: 2025-04-02-23-14-30
+      updated: 2025-04-10-01-11-28
       followers: 920
       likes: 35
       views: 263
@@ -5077,10 +5077,10 @@
     - service: tg
       id: 464
       published: 2024-07-09-18-20-26
-      updated: 2025-04-02-23-14-24
+      updated: 2025-04-10-01-11-26
       followers: 396
       likes: 69
-      views: 477
+      views: 478
     - service: ig
       id: C9VfE-NtTXs
       mediaId: '18072831043475404'
@@ -6206,7 +6206,7 @@
     - service: vk
       id: 1611
       published: 2024-07-02-18-20-16
-      updated: 2025-04-02-23-14-31
+      updated: 2025-04-10-01-11-29
       followers: 918
       likes: 40
       views: 400
@@ -6218,10 +6218,10 @@
     - service: tg
       id: 457
       published: 2024-07-02-18-20-23
-      updated: 2025-04-02-23-14-25
+      updated: 2025-04-10-01-11-27
       followers: 391
       likes: 58
-      views: 452
+      views: 453
     - service: ig
       id: C9O19DjtjrY
       mediaId: '17907523406989990'
@@ -12804,10 +12804,10 @@
     - service: vk
       id: 2126
       published: 2025-02-12-18-35-09
-      updated: 2025-04-02-23-14-22
+      updated: 2025-04-10-01-11-22
       followers: 1066
       likes: 35
-      views: 411
+      views: 415
       reposts: 2
       comments: !c |-
         G1UBAJwJto2K9cDiFUhZnnieuGGW6D8vLoSCtJIEd5vYCJP3XblZYmQ72TjeZy0aklreYv5n4+t3
@@ -12817,10 +12817,10 @@
     - service: tg
       id: 705
       published: 2025-02-12-18-35-16
-      updated: 2025-04-02-23-14-19
+      updated: 2025-04-10-01-11-20
       followers: 674
       likes: 62
-      views: 682
+      views: 707
 2018-11-19-the-city-of-gondolas:
   title: The City of Gondolas
   titleRu: Город гондол
