@@ -156,15 +156,25 @@
       id: DIRqOTPPgLv
       mediaId: '18039545984234760'
       published: 2025-04-10-18-22-00
+      updated: 2025-04-10-19-12-54
       followers: 1530
+      likes: 27
+      views: 52
+      comments: !c ixWAkZPLQnliDx+PgACrZGVsYW5vc3BpZXO0Q2FsZGVyYSBtYWdlcyBndWlsZD8D
     - service: vk
       id: 2266
       published: 2025-04-10-18-22-07
+      updated: 2025-04-10-19-12-53
       followers: 1246
+      likes: 5
+      views: 33
     - service: tg
       id: 786
       published: 2025-04-10-18-22-13
+      updated: 2025-04-10-19-12-53
       followers: 722
+      likes: 17
+      views: 111
 2017-01-06-daedroth-in-grazelands:
   title: Daedroth in Grazelands
   titleRu: Даэдрот в Грейзленде
@@ -2616,25 +2626,25 @@
       id: DIPFYnUzxpW
       mediaId: '18064733975505663'
       published: 2025-04-09-18-21-37
-      updated: 2025-04-10-18-20-18
+      updated: 2025-04-10-19-12-56
       followers: 1530
-      likes: 59
-      views: 197
+      likes: 60
+      views: 198
     - service: vk
       id: 2264
       published: 2025-04-09-18-21-43
-      updated: 2025-04-10-18-20-17
+      updated: 2025-04-10-19-12-55
       followers: 1243
       likes: 43
-      views: 216
+      views: 219
       reposts: 1
     - service: tg
       id: 785
       published: 2025-04-09-18-21-51
-      updated: 2025-04-10-18-20-18
+      updated: 2025-04-10-19-12-54
       followers: 719
-      likes: 54
-      views: 196
+      likes: 55
+      views: 221
 2017-03-04-boooo:
   title: Boooo!
   titleRu: У-у-у-у-у!
@@ -4296,10 +4306,10 @@
     - service: tg
       id: 444
       published: 2024-06-19-18-19-35
-      updated: 2025-04-03-18-20-43
+      updated: 2025-04-10-19-12-57
       followers: 387
       likes: 56
-      views: 491
+      views: 493
       comments: !c ixCAkZPLQnkDJCOFgACqYWxleF9lbXNvd6tCZWVuIHRoZXJlKQM=
 2017-04-10-its-cloudy-in-balmora-with-a-chance-of-rain:
   title: It's Cloudy in Balmora with a Chance of Rain
@@ -5885,7 +5895,7 @@
     - service: vk
       id: 1655
       published: 2024-07-24-18-21-03
-      updated: 2025-04-03-18-20-45
+      updated: 2025-04-10-19-12-59
       followers: 921
       likes: 44
       views: 389
