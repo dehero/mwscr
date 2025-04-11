@@ -7318,6 +7318,23 @@
       followers: 185
       likes: 20
       views: 261
+    - service: ig
+      id: DIUPBh-BgJ-
+      mediaId: '17949874319950561'
+      published: 2025-04-11-18-22-01
+      followers: 1530
+    - service: vk
+      id: 2269
+      published: 2025-04-11-18-22-27
+      followers: 1247
+    - service: tg
+      id:
+        - 788
+        - 789
+        - 790
+        - 791
+      published: 2025-04-11-18-22-52
+      followers: 720
 2018-07-09-plans-of-vivec:
   title: Plans of Vivec
   titleRu: Планы Вивека
