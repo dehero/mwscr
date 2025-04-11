@@ -156,18 +156,18 @@
       id: DIRqOTPPgLv
       mediaId: '18039545984234760'
       published: 2025-04-10-18-22-00
-      updated: 2025-04-11-05-16-34
+      updated: 2025-04-11-06-22-03
       followers: 1530
-      likes: 56
-      views: 166
+      likes: 58
+      views: 175
       comments: !c ixWAkZPLQnliDx+PgACrZGVsYW5vc3BpZXO0Q2FsZGVyYSBtYWdlcyBndWlsZD8D
     - service: vk
       id: 2266
       published: 2025-04-10-18-22-07
-      updated: 2025-04-11-05-16-33
+      updated: 2025-04-11-06-22-04
       followers: 1246
-      likes: 23
-      views: 119
+      likes: 25
+      views: 127
       comments: !c |-
         G5kA+J0Jxo2LXy94RYqbinr6G+n7rFmGTWKRJntmt1KVikOMWpeVMM4Y7EunJ3vOcroLArtYFVke
         bMAJemCWWcLTCZA7ADw87x8v85n4btGHZIOzXwqkWeh0qnKiDRa3UTtk5TzkYto6YM+OZ3vdVIgR
@@ -175,10 +175,10 @@
     - service: tg
       id: 786
       published: 2025-04-10-18-22-13
-      updated: 2025-04-11-05-16-34
+      updated: 2025-04-11-06-22-04
       followers: 722
       likes: 38
-      views: 223
+      views: 230
 2017-01-06-daedroth-in-grazelands:
   title: Daedroth in Grazelands
   titleRu: Даэдрот в Грейзленде
@@ -873,7 +873,7 @@
     - service: vk
       id: 1868
       published: 2024-10-31-18-23-28
-      updated: 2025-04-04-06-21-55
+      updated: 2025-04-11-06-22-09
       followers: 1002
       likes: 35
       views: 305
@@ -885,10 +885,10 @@
     - service: tg
       id: 581
       published: 2024-10-31-18-23-34
-      updated: 2025-04-04-06-21-54
+      updated: 2025-04-11-06-22-07
       followers: 564
       likes: 68
-      views: 592
+      views: 593
       comments: !c |-
         CxyAkpPLQnkuQKV4AACqU2VidWxiYTUxOKTwn5igk8tCeS5AmQSAAK5TaGlza29yaWJhZmlzaKTw
         n5GBAw==
@@ -2630,25 +2630,30 @@
       id: DIPFYnUzxpW
       mediaId: '18064733975505663'
       published: 2025-04-09-18-21-37
-      updated: 2025-04-11-05-16-35
+      updated: 2025-04-11-06-22-05
       followers: 1530
       likes: 62
-      views: 208
+      views: 210
     - service: vk
       id: 2264
       published: 2025-04-09-18-21-43
-      updated: 2025-04-11-05-16-35
+      updated: 2025-04-11-06-22-06
       followers: 1243
-      likes: 45
-      views: 230
+      likes: 46
+      views: 232
       reposts: 1
+      comments: !c |-
+        G0kB4BwJNk7x4Um70fNjsqX46XNpMS0MRNBsiWIJtrByrwq5thK6Kb0KHqgbqG5HW7TqxgUJT+Y1
+        tjzlXL8ssC6IMOHAArGA02SDOllVTBYvnn3w2ud77fexX7+W3/E6z8f9+V+7ESzk2IFaufBvkjLi
+        q6xDPMg+p1oGpqtcBKFsyp18AFOIw6Qu1gA8N3JxpMcj2FS5SaVVi1v9CZTDfxCwiGNLvaHAY5h3
+        oTsBr6GennQc5CFzWdkA
     - service: tg
       id: 785
       published: 2025-04-09-18-21-51
-      updated: 2025-04-11-05-16-35
+      updated: 2025-04-11-06-22-05
       followers: 719
       likes: 59
-      views: 257
+      views: 263
 2017-03-04-boooo:
   title: Boooo!
   titleRu: У-у-у-у-у!
@@ -13503,7 +13508,7 @@
     - service: vk
       id: 1852
       published: 2024-10-24-18-10-30
-      updated: 2025-04-04-06-21-56
+      updated: 2025-04-11-06-22-10
       followers: 995
       likes: 49
       views: 343
@@ -13516,7 +13521,7 @@
     - service: tg
       id: 574
       published: 2024-10-24-18-10-36
-      updated: 2025-04-04-06-21-56
+      updated: 2025-04-11-06-22-08
       followers: 563
       likes: 61
       views: 577
