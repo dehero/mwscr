@@ -9,6 +9,7 @@ import {
   createPostPublicationTags,
   getPostFirstPublished,
   getPostTypeFromContent,
+  postAddonDescriptors,
   postTypeDescriptors,
 } from '../../core/entities/post.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
@@ -68,7 +69,12 @@ export class VKManager extends VKService implements PostingServiceManager {
     const lines: string[] = [];
     const tags = createPostPublicationTags(post);
     const contributors: string[] = [];
-    const titlePrefix = post.type !== 'shot' ? postTypeDescriptors[post.type].titleRu : undefined;
+    const titlePrefix = [
+      post.type !== 'shot' ? postTypeDescriptors[post.type].titleRu : undefined,
+      post.addon && !postAddonDescriptors[post.addon].official ? post.addon : undefined,
+    ]
+      .filter(Boolean)
+      .join(' ');
 
     if (post.titleRu) {
       lines.push([titlePrefix, post.titleRu].filter(Boolean).join(': '));
@@ -90,11 +96,13 @@ export class VKManager extends VKService implements PostingServiceManager {
       lines.push(contributors.join(' '));
     }
 
-    if (tags.length > 0) {
-      lines.push(tags.map((tag) => `#${tag}`).join(' '));
-    }
-
     lines.push('');
+
+    const description = post.descriptionRu || post.description;
+
+    if (description) {
+      lines.push(description);
+    }
 
     const locationIds = asArray(post.location);
     if (locationIds.length > 0) {
@@ -125,6 +133,11 @@ export class VKManager extends VKService implements PostingServiceManager {
     }
 
     lines.push(`Посмотреть и скачать: ${site.getPostUrl(id)}`);
+
+    if (tags.length > 0) {
+      lines.push('');
+      lines.push(tags.map((tag) => `#${tag}`).join(' '));
+    }
 
     return lines.join('\n');
   }

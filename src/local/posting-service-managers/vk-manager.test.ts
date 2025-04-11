@@ -15,7 +15,7 @@ test('createCaption', async (t) => {
 
     assert.strictEqual(
       caption,
-      "Альд'рун, под Скаром\nот someone\n#morrowind #elderscrolls #screenshot #openmw #sometag #anothertag\n\nАльд'рун, Район поместий\n20.11.2016\nПосмотреть и скачать: https://mwscr.dehero.site/posts/2016-11-20-ald-ruhn-under-skar/",
+      "Альд'рун, под Скаром\nот someone\n\nАльд'рун, Район поместий\n20.11.2016\nПосмотреть и скачать: https://mwscr.dehero.site/posts/2016-11-20-ald-ruhn-under-skar/\n\n#morrowind #elderscrolls #screenshot #openmw #sometag #anothertag",
     );
   });
 
@@ -26,7 +26,7 @@ test('createCaption', async (t) => {
 
     assert.strictEqual(
       caption,
-      'Вертикальные обои: Звезды над Сураном\nот someone\n#morrowind #elderscrolls #wallpaper #openmw #sometag #anothertag\n\nСуран\nПосмотреть и скачать: https://mwscr.dehero.site/posts/2024-08-07-stars-above-suran/',
+      'Вертикальные обои: Звезды над Сураном\nот someone\n\nСуран\nПосмотреть и скачать: https://mwscr.dehero.site/posts/2024-08-07-stars-above-suran/\n\n#morrowind #elderscrolls #wallpaper #openmw #sometag #anothertag',
     );
   });
 
@@ -37,7 +37,7 @@ test('createCaption', async (t) => {
 
     assert.strictEqual(
       caption,
-      'Перерисовка: Мзанч\nот @club207258733 (Ирины Быстрицкой)\n#morrowind #elderscrolls #drawing #screenshot #openmw #dwemer #ruin\n\nПосмотреть и скачать: https://mwscr.dehero.site/posts/2025-01-04-mzahnch/',
+      'Перерисовка: Мзанч\nот @club207258733 (Ирины Быстрицкой)\n\nПосмотреть и скачать: https://mwscr.dehero.site/posts/2025-01-04-mzahnch/\n\n#morrowind #elderscrolls #drawing #screenshot #openmw #dwemer #ruin',
     );
   });
 });

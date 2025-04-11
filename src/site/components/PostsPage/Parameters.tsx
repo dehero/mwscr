@@ -250,12 +250,27 @@ export const Parameters: Component<ParametersProps> = (props) => {
               </Label>
 
               <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('original')}>
-                <Label label="Originality" component="div" vertical>
+                <Label label="Recency" component="div" vertical>
                   <RadioGroup
                     name="original"
                     options={[ALL_OPTION, { value: 'true', label: 'Originals' }, { value: 'false', label: 'Reposts' }]}
                     value={boolToString(props.parameters.original())}
                     onChange={(value) => props.parameters.setOriginal(stringToBool(value))}
+                  />
+                </Label>
+              </Show>
+
+              <Show when={!props.routeInfo.meta().filters || props.routeInfo.meta().filters!.includes('official')}>
+                <Label label="Origin" component="div" vertical>
+                  <RadioGroup
+                    name="official"
+                    options={[
+                      ALL_OPTION,
+                      { value: 'true', label: 'Official' },
+                      { value: 'false', label: 'Third-Party' },
+                    ]}
+                    value={boolToString(props.parameters.official())}
+                    onChange={(value) => props.parameters.setOfficial(stringToBool(value))}
                   />
                 </Label>
               </Show>

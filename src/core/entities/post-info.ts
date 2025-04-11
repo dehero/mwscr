@@ -23,6 +23,7 @@ import {
   getPostEntriesFromSource,
   getPostEntryStats,
   getPostRating,
+  postAddonDescriptors,
   postTypeDescriptors,
   postViolationDescriptors,
 } from './post.js';
@@ -92,6 +93,7 @@ export interface SelectPostInfosParams {
   violation?: PostViolation | typeof ANY_OPTION.value | typeof NONE_OPTION.value;
   publishable?: boolean;
   original?: boolean;
+  official?: boolean;
   sortKey?: SelectPostInfosSortKey;
   sortDirection?: SortDirection;
   date?: DateRange;
@@ -233,13 +235,16 @@ export const selectPostInfos = (
     const date = getPostDateById(info.id);
 
     return Boolean(
-      (typeof params.publishable === 'undefined' || params.publishable !== Boolean(info.publishableErrors?.length)) &&
+      (typeof params.publishable === 'undefined' ||
+        params.publishable !== Boolean(info.status === 'removed' || info.publishableErrors?.length)) &&
         (typeof params.requester === 'undefined' ||
           (params.requester === ANY_OPTION.value && info.requesterOption) ||
           (params.requester === NONE_OPTION.value && !info.requesterOption) ||
           info.requesterOption?.value === params.requester) &&
         (typeof params.date === 'undefined' ||
           (isValidDate(date) ? isDateInRange(date, params.date, 'date') : false)) &&
+        (typeof params.official === 'undefined' ||
+          params.official === (info.addon ? postAddonDescriptors[info.addon].official : true)) &&
         (typeof params.original === 'undefined' || params.original !== Boolean(info.refId)) &&
         (typeof params.status === 'undefined' ||
           (params.status === ANY_OPTION.value && info.status) ||
@@ -308,6 +313,10 @@ export function selectPostInfosResultToString(count: number, params: SelectPostI
     result.push(`${postTypeDescriptors[params.type].title.toLocaleLowerCase()}${count !== 1 ? 's' : ''}`);
   } else {
     result.push(`post${count !== 1 ? 's' : ''}`);
+  }
+
+  if (typeof params.official !== 'undefined') {
+    result.push(params.official ? 'without third-party expansions' : 'with third-party expansions');
   }
 
   if (params.status) {

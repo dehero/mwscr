@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import { type Component, createSignal, For, Show } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
 import { getLimitedAspectRatio } from '../../../core/entities/media.js';
-import { postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
+import { postAddonDescriptors, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
 import { createPostPath } from '../../../core/entities/posts-manager.js';
 import { getUserTitleLetter } from '../../../core/entities/user.js';
@@ -118,17 +118,11 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
                 <span class={styles.engagement}>{props.postInfo.engagement}</span>
               </Show>
 
-              <Show
-                when={
-                  props.postInfo.status !== 'removed' &&
-                  (authorLetters().length > 0 ||
-                    requesterLetter() ||
-                    props.postInfo.mark ||
-                    props.postInfo.violation ||
-                    props.postInfo.publishableErrors ||
-                    props.postInfo.status)
-                }
-              >
+              <Show when={props.postInfo.status !== 'removed'}>
+                <Show when={props.postInfo.addon && !postAddonDescriptors[props.postInfo.addon].official}>
+                  <span class={styles.addon}>{props.postInfo.addon}</span>
+                </Show>
+
                 <Frame class={styles.icons}>
                   <Icon color="combat" size="small" variant="flat">
                     <PostTypeGlyph type={props.postInfo.type} />

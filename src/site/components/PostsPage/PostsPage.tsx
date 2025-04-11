@@ -32,6 +32,7 @@ export interface PostsPageSearchParams {
   violation?: string;
   publishable?: string;
   original?: string;
+  official?: string;
   search?: string;
   sort?: string;
   date?: string;
@@ -110,6 +111,7 @@ export const PostsPage = (): JSX.Element => {
     mark: parameters.mark(),
     violation: parameters.violation(),
     original: parameters.original(),
+    official: parameters.official(),
     publishable: parameters.publishable(),
     search: parameters.search(),
     sortKey: parameters.sortKey(),

@@ -25,10 +25,12 @@ const emptySearchParams: PostsPageSearchParams = {
   violation: undefined,
   publishable: undefined,
   original: undefined,
+  official: undefined,
   search: undefined,
   sort: undefined,
   date: undefined,
   status: undefined,
+  addon: undefined,
 };
 
 interface PostsPagePreset extends Option {
@@ -75,6 +77,7 @@ export type FilterKey = keyof Pick<
   | 'status'
   | 'placement'
   | 'addon'
+  | 'official'
 >;
 
 export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams, unknown, PostsPageInfo>) {
@@ -99,6 +102,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
   const activeCount = () => Object.keys(searchParams()).length;
 
   const original = () => stringToBool(searchParams().original);
+  const official = () => stringToBool(searchParams().official);
   const publishable = () => stringToBool(searchParams().publishable);
   const type = () => safeParseSchema(PostType, searchParams().type);
   const tag = () => searchParams().tag;
@@ -132,6 +136,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
   const setPreset = (preset: string | undefined) =>
     setSearchParams({ ...emptySearchParams, ...presetOptions().find((item) => item.value === preset)?.searchParams });
   const setOriginal = (original: boolean | undefined) => setSearchParams({ original });
+  const setOfficial = (official: boolean | undefined) => setSearchParams({ official });
   const setPublishable = (publishable: boolean | undefined) => setSearchParams({ publishable });
   const setType = (type: PostType | undefined) => setSearchParams({ type });
   const setTag = (tag: string | undefined) => setSearchParams({ tag, original: Boolean(tag) || undefined });
@@ -158,6 +163,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     presetOptions,
     preset,
     original,
+    official,
     publishable,
     type,
     tag,
@@ -174,6 +180,7 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     placement,
     addon,
     setPreset,
+    setOfficial,
     setOriginal,
     setPublishable,
     setType,

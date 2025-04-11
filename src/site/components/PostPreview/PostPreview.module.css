@@ -83,7 +83,18 @@
   flex-flow: row nowrap;
 }
 
+.addon {
+  position: absolute;
+  top: -27px;
+  left: 6px;
+  text-shadow: 1px 1px 1px black;
+  color: var(--color-text-light);
+}
+
 .description {
-  display: -webkit-box;
-  line-clamp: 3;
+  overflow: hidden;
+  flex: 1 1 auto;
+  width: 200%;
+  column-count: 2;
+  column-fill: auto;
 }

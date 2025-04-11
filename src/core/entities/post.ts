@@ -26,7 +26,7 @@ export const PostContent = union([ResourceUrl, array(ResourceUrl, 'Should be a l
 export const PostLocation = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
 export const PostPlacement = picklist(['Indoors', 'Outdoors', 'Mixed']);
 export const PostType = picklist(PostVariant.options.map((type) => type.entries.type.literal));
-export const PostAddon = picklist(['Tribunal', 'Bloodmoon']);
+export const PostAddon = picklist(['Tribunal', 'Bloodmoon', 'Tamriel Rebuilt']);
 export const PostEngine = picklist(['OpenMW', 'Vanilla']);
 export const PostMark = picklist(['A1', 'A2', 'B1', 'B2', 'C', 'D', 'E', 'F']);
 export const PostViolation = picklist([
@@ -121,6 +121,11 @@ interface PostTypeDescriptor {
   aspectRatio: MediaAspectRatio;
 }
 
+interface PostAddonDescriptor {
+  official: boolean;
+  tag: string;
+}
+
 interface PostMarkDescriptor {
   score: number;
 }
@@ -133,6 +138,12 @@ export interface PostViolationDescriptor {
 }
 
 type PostTagDescriptor = [tag: PostTag, rule: (post: Post) => boolean, parse?: (post: Post) => void];
+
+export const postAddonDescriptors = Object.freeze<Record<PostAddon, PostAddonDescriptor>>({
+  Bloodmoon: { official: true, tag: 'bloodmoon' },
+  Tribunal: { official: true, tag: 'tribunal' },
+  'Tamriel Rebuilt': { official: false, tag: 'tamrielrebuilt' },
+});
 
 const defaultTags = Object.freeze<PostTagDescriptor[]>([
   ['morrowind', () => true],
@@ -158,7 +169,11 @@ const defaultTags = Object.freeze<PostTagDescriptor[]>([
     (post) => (post.type = ['wallpaper', 'wallpaper-v'].includes(post.type) ? post.type : 'wallpaper'),
   ],
   ...PostAddon.options.map(
-    (tag): PostTagDescriptor => [tag, (post) => post.addon === tag, (post) => (post.addon = post.addon || tag)],
+    (addon): PostTagDescriptor => [
+      postAddonDescriptors[addon].tag,
+      (post) => post.addon === addon,
+      (post) => (post.addon = post.addon || addon),
+    ],
   ),
   ...PostEngine.options.map(
     (tag): PostTagDescriptor => [tag, (post) => post.engine === tag, (post) => (post.engine = post.engine || tag)],
@@ -374,6 +389,19 @@ export function getPostMarkDistance(mark: PostMark, postEntries: PostEntries): P
   }
 
   return { id: undefined, distance: Infinity, message: 'mark not used before' };
+}
+
+export function getPostThirdPartyDistance(postEntries: PostEntries): PostDistance {
+  let distance = 0;
+  for (const [id, post] of postEntries) {
+    if (post.addon && !postAddonDescriptors[post.addon].official) {
+      return { id, distance, message: `found third-party content in "${id}" at distance ${distance}` };
+    }
+
+    distance++;
+  }
+
+  return { id: undefined, distance: Infinity, message: 'third-party content hasn not been posted before' };
 }
 
 export function getPostRelatedLocationDistance(location: PostLocation, postEntries: PostEntries): PostDistance {

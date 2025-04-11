@@ -6,7 +6,12 @@ import { Logger, LogLevel } from 'telegram/extensions/Logger.js';
 // eslint-disable-next-line import/extensions
 import { StringSession } from 'telegram/sessions/index.js';
 import type { Post, PostEntry } from '../../core/entities/post.js';
-import { getPostFirstPublished, getPostTypeFromContent, postTypeDescriptors } from '../../core/entities/post.js';
+import {
+  getPostFirstPublished,
+  getPostTypeFromContent,
+  postAddonDescriptors,
+  postTypeDescriptors,
+} from '../../core/entities/post.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import { parseResourceUrl, RESOURCE_MISSING_IMAGE } from '../../core/entities/resource.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
@@ -96,7 +101,12 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
     const lines: string[] = [];
     const contributors: string[] = [];
-    const titlePrefix = post.type !== 'shot' ? postTypeDescriptors[post.type].title : undefined;
+    const titlePrefix = [
+      post.addon && !postAddonDescriptors[post.addon].official ? post.addon : undefined,
+      post.type !== 'shot' ? postTypeDescriptors[post.type].title : undefined,
+    ]
+      .filter(Boolean)
+      .join(' ');
 
     if (post.title) {
       lines.push([titlePrefix, post.title].filter(Boolean).join(': '));
@@ -119,6 +129,10 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     }
 
     lines.push('');
+
+    if (post.description) {
+      lines.push(post.description);
+    }
 
     const locationsToMention = asArray(post.location).filter((location) => location !== post.title);
     if (locationsToMention.length > 0) {

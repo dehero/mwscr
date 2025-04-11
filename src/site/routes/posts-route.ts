@@ -25,6 +25,7 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
       'status',
       'placement',
       'addon',
+      'official',
     ],
   },
   inbox: {
@@ -33,7 +34,20 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
     description: 'Pending posts of Morrowind Screenshots project.',
     sortKeys: ['date', 'id'],
     presetKeys: ['shortlist', 'requests', 'edits'],
-    filters: ['date', 'author', 'publishable', 'requester', 'location', 'mark', 'tag', 'type', 'status', 'placement'],
+    filters: [
+      'date',
+      'author',
+      'publishable',
+      'requester',
+      'location',
+      'mark',
+      'tag',
+      'type',
+      'status',
+      'placement',
+      'addon',
+      'official',
+    ],
   },
   trash: {
     label: 'Trash',
@@ -41,7 +55,7 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
     description: 'Rejected posts of Morrowind Screenshots project.',
     sortKeys: ['date', 'id'],
     presetKeys: ['revisit', 'violations', 'edits'],
-    filters: ['date', 'mark', 'violation', 'location', 'tag', 'type', 'author', 'status', 'placement'],
+    filters: ['date', 'mark', 'violation', 'location', 'tag', 'type', 'author', 'status', 'placement', 'addon'],
   },
 };
 

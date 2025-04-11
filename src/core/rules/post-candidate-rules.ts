@@ -4,7 +4,9 @@ import {
   getPostContentDistance,
   getPostMarkDistance,
   getPostRelatedLocationDistance,
+  getPostThirdPartyDistance,
   getPostTypeDistance,
+  postAddonDescriptors,
 } from '../entities/post.js';
 import type { PublishablePost } from '../entities/posts-manager.js';
 import type { Rule } from '../entities/rule.js';
@@ -108,6 +110,26 @@ export function needMinRelatedLocationDistance(minLocationDistance: number): Pos
     const { distance, message } = getPostRelatedLocationDistance(post.location, postEntries);
     if (distance < minLocationDistance) {
       return `${message}, expected minimum ${minLocationDistance}`;
+    }
+
+    return undefined;
+  };
+}
+
+export function needMinThirdPartyDistance(minThirdPartyDistance: number): PostCandidateRule {
+  return (post: PublishablePost, postEntries?: PostEntries) => {
+    if (!postEntries) {
+      return undefined;
+    }
+
+    if (!post.addon || postAddonDescriptors[post.addon].official) {
+      return undefined;
+    }
+
+    const { distance, message } = getPostThirdPartyDistance(postEntries);
+
+    if (distance < minThirdPartyDistance) {
+      return `${message}, expected minimum ${minThirdPartyDistance}`;
     }
 
     return undefined;

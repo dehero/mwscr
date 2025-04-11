@@ -95,9 +95,10 @@ for the same purpose.
 ### No modifications
 
 There should be no content or graphical modifications to the game, except for official modifications from Bethesda
-Softworks. Work will be rejected if there are textures, models, objects, or situations that could not have been in the
-original game. Currently, the use of official addons Tribunal and Bloodmoon and [auxiliary plugins](#auxiliary-plugins)
-is allowed.
+Softworks and the white list of unofficial addons. Work will be rejected if there are textures, models, objects, or
+situations that could not have been in the original game. Currently, the use of official addons Tribunal and Bloodmoon
+and [auxiliary plugins](#auxiliary-plugins) is allowed. The white list of unofficial addons currently includes only
+[Tamriel Rebuilt](https://www.tamriel-rebuilt.org/).
 
 > [!IMPORTANT]  
 > Remember that mysterious fog, an understated color scheme, and strange angular shapes are important parts of the
