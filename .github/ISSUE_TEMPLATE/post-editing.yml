@@ -39,7 +39,7 @@ body:
     id: postAddon
     attributes:
       label: Addon
-      placeholder: Tribunal Bloodmoon
+      placeholder: Tribunal Bloodmoon Tamriel Rebuilt
   - type: input
     id: postTags
     attributes:
