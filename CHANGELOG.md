@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.53.0](https://github.com/dehero/mwscr/compare/v1.52.0...v1.53.0) (2025-04-11)
+
+### Features
+
+- support posts from Tamriel Rebuilt
+  ([cbe72dc](https://github.com/dehero/mwscr/commit/cbe72dceba9f5361beb9724450b74edb10af390a))
+
 ## [1.52.0](https://github.com/dehero/mwscr/compare/v1.51.4...v1.52.0) (2025-04-07)
 
 ### Features
