@@ -156,18 +156,18 @@
       id: DIRqOTPPgLv
       mediaId: '18039545984234760'
       published: 2025-04-10-18-22-00
-      updated: 2025-04-11-22-14-23
+      updated: 2025-04-11-23-14-44
       followers: 1530
-      likes: 74
-      views: 243
+      likes: 76
+      views: 246
       comments: !c ixWAkZPLQnliDx+PgACrZGVsYW5vc3BpZXO0Q2FsZGVyYSBtYWdlcyBndWlsZD8D
     - service: vk
       id: 2266
       published: 2025-04-10-18-22-07
-      updated: 2025-04-11-22-14-22
+      updated: 2025-04-11-23-14-44
       followers: 1246
       likes: 37
-      views: 211
+      views: 212
       reposts: 1
       comments: !c |-
         G5kA+J0Jxo2LXy94RYqbinr6G+n7rFmGTWKRJntmt1KVikOMWpeVMM4Y7EunJ3vOcroLArtYFVke
@@ -176,10 +176,10 @@
     - service: tg
       id: 786
       published: 2025-04-10-18-22-13
-      updated: 2025-04-11-22-14-21
+      updated: 2025-04-11-23-14-44
       followers: 722
       likes: 46
-      views: 318
+      views: 319
 2017-01-06-daedroth-in-grazelands:
   title: Daedroth in Grazelands
   titleRu: Даэдрот в Грейзленде
@@ -1064,7 +1064,7 @@
     - service: vk
       id: 1554
       published: 2024-05-30-18-20-43
-      updated: 2025-04-04-23-14-30
+      updated: 2025-04-11-23-14-54
       followers: 916
       likes: 49
       views: 407
@@ -1077,7 +1077,7 @@
     - service: tg
       id: 424
       published: 2024-05-30-18-20-52
-      updated: 2025-04-04-23-14-27
+      updated: 2025-04-11-23-14-51
       followers: 378
       likes: 60
       views: 509
@@ -11437,10 +11437,10 @@
       id: DFf-B2yTQHv
       mediaId: '18034411085196878'
       published: 2025-01-31-18-10-14
-      updated: 2025-04-04-23-14-27
+      updated: 2025-04-11-23-14-48
       followers: 1534
       likes: 109
-      views: 488
+      views: 489
       comments: !c |-
         G98AwJyHsbGs8SG7EA7eih9t0NTcPsW/vq2uizWxqIi/eCNyVBIhirW6bgOcXKaTIz2e/Bc6Ny/R
         ACAoFa7mn55oGpDWWluB5m0lEnMYXq43vB5iSe1Zi/XWnnHuAfDHCx3fnHTgG0RPc5v++Q5kTduC
@@ -11449,10 +11449,10 @@
     - service: vk
       id: 2100
       published: 2025-01-31-18-10-20
-      updated: 2025-04-04-23-14-26
+      updated: 2025-04-11-23-14-49
       followers: 1057
       likes: 59
-      views: 435
+      views: 439
       reposts: 3
       comments: !c |-
         G1MCgKwOzFOmAyaDC3lcpr4TaSwTFXGwOKHXZirQjNMsCzhIJMJkTzSVbbHZjPZqyBaDhnTAyZh8
@@ -11464,10 +11464,10 @@
     - service: tg
       id: 690
       published: 2025-01-31-18-10-27
-      updated: 2025-04-04-23-14-23
+      updated: 2025-04-11-23-14-46
       followers: 662
       likes: 74
-      views: 621
+      views: 625
       comments: !c CxiAkZPLQnlMaCGzgACobW9uZ2xlcmm8ZGFtbiB0aG9zZSBjYW5kZXMgYXJlIHByZXR0eQM=
 2017-10-14-land-of-ruins:
   title: Land of Ruins
@@ -13721,7 +13721,7 @@
     - service: vk
       id: 1606
       published: 2024-06-27-18-19-01
-      updated: 2025-04-04-23-14-29
+      updated: 2025-04-11-23-14-52
       followers: 917
       likes: 43
       views: 325
@@ -13729,10 +13729,10 @@
     - service: tg
       id: 452
       published: 2024-06-27-18-19-08
-      updated: 2025-04-04-23-14-25
+      updated: 2025-04-11-23-14-49
       followers: 388
       likes: 56
-      views: 495
+      views: 496
 2017-12-11-princess-of-dusk-and-dawn:
   title: Princess of Dusk and Dawn
   titleRu: Принцесса рассвета и заката
