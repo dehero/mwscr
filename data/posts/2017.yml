@@ -2174,10 +2174,10 @@
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2025-04-06-21-13-56
+      updated: 2025-04-13-22-14-13
       followers: 386
       likes: 71
-      views: 548
+      views: 549
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -7071,10 +7071,10 @@
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2025-04-06-21-13-55
+      updated: 2025-04-13-22-14-11
       followers: 387
       likes: 60
-      views: 500
+      views: 501
 2017-06-18-manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
@@ -8642,25 +8642,25 @@
       id: DGbMNfHvAh9
       mediaId: '18123536320421155'
       published: 2025-02-23-18-09-21
-      updated: 2025-04-06-22-13-55
+      updated: 2025-04-13-22-14-06
       followers: 1537
       likes: 74
-      views: 294
+      views: 296
     - service: vk
       id: 2146
       published: 2025-02-23-18-09-28
-      updated: 2025-04-06-22-13-54
+      updated: 2025-04-13-22-14-08
       followers: 1123
       likes: 30
-      views: 394
+      views: 397
       reposts: 1
     - service: tg
       id: 722
       published: 2025-02-23-18-09-36
-      updated: 2025-04-06-22-13-53
+      updated: 2025-04-13-22-14-07
       followers: 683
       likes: 53
-      views: 636
+      views: 648
 2017-07-29-near-berandas:
   title: Near Berandas
   titleRu: У Берандаса
@@ -10507,18 +10507,18 @@
       id: DIZYY-GBfkh
       mediaId: '17965962740884241'
       published: 2025-04-13-18-20-05
-      updated: 2025-04-13-21-13-49
+      updated: 2025-04-13-22-14-00
       followers: 1530
-      likes: 32
-      views: 96
+      likes: 35
+      views: 111
     - service: vk
       id: 2274
       published: 2025-04-13-18-20-14
-      updated: 2025-04-13-21-13-50
+      updated: 2025-04-13-22-14-01
       followers: 1253
-      likes: 20
-      views: 100
-      reposts: 2
+      likes: 22
+      views: 108
+      reposts: 3
       comments: !c |-
         G4oA+K0SeDO2eElquoUzKPoT4nnsRvp3dlsHnEFtLcOWYITJ+87N53zNEsQ1QU4mqlmMmmZXbDbW
         ZY5Mdh3glAhgiQJcKHB43t/ioFf57nMVdh5QsUNx1GiBkZUCfiwgNa1SOKbnttrCERCmVTSCINAt
@@ -10526,10 +10526,10 @@
     - service: tg
       id: 793
       published: 2025-04-13-18-20-23
-      updated: 2025-04-13-21-13-50
+      updated: 2025-04-13-22-14-01
       followers: 720
-      likes: 24
-      views: 109
+      likes: 25
+      views: 118
       comments: !c |-
         GykFACwSeI5yOys/GydQE8H/u/s4z6+2PbEAqAXY1vaJv5yjc6NYSibUT4Th1Qs1t9gJkZw8fgwD
         k83QzPqfc9pdjHojVL1Z4JaFJUp+AYVxm51RqwEUv2durRMavf77iHjaPPL6HWnSaNCWKtbwx3Jt
@@ -13883,7 +13883,7 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2025-04-06-21-13-57
+      updated: 2025-04-13-22-14-11
       followers: 919
       likes: 50
       views: 298
@@ -13900,10 +13900,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2025-04-06-21-13-53
+      updated: 2025-04-13-22-14-09
       followers: 393
       likes: 59
-      views: 486
+      views: 487
     - service: ig
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
