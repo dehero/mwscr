@@ -1490,25 +1490,25 @@
       id: DIWzgM9v3TC
       mediaId: '17948929952822343'
       published: 2025-04-12-18-19-18
-      updated: 2025-04-13-08-18-17
+      updated: 2025-04-13-09-16-21
       followers: 1530
-      likes: 39
-      views: 149
+      likes: 40
+      views: 151
     - service: vk
       id: 2273
       published: 2025-04-12-18-19-27
-      updated: 2025-04-13-08-18-19
+      updated: 2025-04-13-09-16-21
       followers: 1249
-      likes: 32
-      views: 166
+      likes: 35
+      views: 175
       reposts: 1
     - service: tg
       id: 792
       published: 2025-04-12-18-19-36
-      updated: 2025-04-13-08-18-18
+      updated: 2025-04-13-09-16-22
       followers: 720
-      likes: 40
-      views: 148
+      likes: 41
+      views: 150
 2018-02-10-in-the-evening-canals-of-vivec:
   title: In the Evening Canals of Vivec
   titleRu: В вечерних каналах Вивека
@@ -6366,10 +6366,10 @@
     - service: vk
       id: 1857
       published: 2024-10-26-18-09-18
-      updated: 2025-04-06-09-14-43
+      updated: 2025-04-13-09-16-30
       followers: 1000
       likes: 54
-      views: 388
+      views: 389
       reposts: 3
       comments: !c |-
         GxwB4C0OzHOdB2ow3rAbn0ohbDz/z6GG8J/YBo3x1AmaE0pA1iBcvQ+01ULNLeRKqEZdNyPzHMPx
@@ -6380,10 +6380,10 @@
     - service: tg
       id: 576
       published: 2024-10-26-18-09-24
-      updated: 2025-04-06-09-14-43
+      updated: 2025-04-13-09-16-29
       followers: 564
       likes: 62
-      views: 633
+      views: 634
       comments: !c CxSAkpPLQnksrSYPAACobW9uZ2xlcmmgk8tCeSygVUwAAKh3aWx6dXVsbKAD
 2018-06-13-lich:
   title: Lich
@@ -7345,20 +7345,20 @@
       id: DIUPBh-BgJ-
       mediaId: '17949874319950561'
       published: 2025-04-11-18-22-01
-      updated: 2025-04-13-08-18-19
+      updated: 2025-04-13-09-16-23
       followers: 1530
-      likes: 106
-      views: 341
+      likes: 107
+      views: 344
       comments: !c |-
         G0EA6I2ULsK8BIhcteUJZ2mCRVb3d42WJE10igNaD0LIKVFJHymxr/ts4igxHBh4Vq8vweROfLua
         NRg=
     - service: vk
       id: 2269
       published: 2025-04-11-18-22-27
-      updated: 2025-04-13-08-18-21
+      updated: 2025-04-13-09-16-23
       followers: 1247
       likes: 47
-      views: 303
+      views: 306
       reposts: 4
       comments: !c |-
         G4gA+B2J6caCfOzYLxUaz1e3wAJdoEPfrCkLJNCbRCNL3scg21ZSEYMhPcODR9202bFnlhS0tWV3
@@ -7371,7 +7371,7 @@
         - 790
         - 791
       published: 2025-04-11-18-22-52
-      updated: 2025-04-13-08-18-20
+      updated: 2025-04-13-09-16-23
       followers: 720
       likes: 58
       views: 228
@@ -9923,7 +9923,7 @@
     - service: vk
       id: 1916
       published: 2024-11-23-18-10-28
-      updated: 2025-04-06-09-14-39
+      updated: 2025-04-13-09-16-26
       followers: 1008
       likes: 41
       views: 360
@@ -9934,10 +9934,10 @@
     - service: tg
       id: 604
       published: 2024-11-23-18-10-35
-      updated: 2025-04-06-09-14-39
+      updated: 2025-04-13-09-16-26
       followers: 575
       likes: 64
-      views: 640
+      views: 643
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище
