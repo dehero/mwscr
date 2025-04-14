@@ -102,15 +102,19 @@ dehero.2025-03-27-20-02-45:
   author: dehero
   addon: Bloodmoon
 dehero.2025-04-10-20-12-41:
+  title: Chapel of Mara
+  placement: Outdoors
   location: Andothren
-  content:
+  content: store:/inbox/dehero.2025-04-10-20-12-05.1.png
+  trash:
     - store:/inbox/dehero.2025-04-10-20-12-41.png
     - store:/inbox/dehero.2025-04-10-20-12-05.png
-    - store:/inbox/dehero.2025-04-10-20-12-05.1.png
     - store:/inbox/dehero.2025-04-10-20-12-41.1.png
   type: shot
   author: dehero
+  engine: OpenMW
   addon: Tamriel Rebuilt
+  mark: B1
 dehero.2025-04-10-20-14-32:
   location: Andothren
   content:
