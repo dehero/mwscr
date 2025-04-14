@@ -109,20 +109,19 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
             <div class={styles.title}>{title()}</div>
             <Show when={props.postInfo.refId}>*</Show>
             <Spacer />
-            <span class={styles.attributes}>
-              <Show when={props.postInfo.published}>
-                <GoldIcon class={styles.publishedIcon} />
-              </Show>
+            <Show when={props.postInfo.published}>
+              <GoldIcon class={styles.publishedIcon} />
+            </Show>
 
-              <Show when={props.postInfo.engagement}>
-                <span class={styles.engagement}>{props.postInfo.engagement}</span>
-              </Show>
+            <Show when={props.postInfo.engagement}>
+              <span class={styles.engagement}>{props.postInfo.engagement}</span>
+            </Show>
 
-              <Show when={props.postInfo.status !== 'removed'}>
+            <Show when={props.postInfo.status !== 'removed'}>
+              <div class={styles.attributes}>
                 <Show when={props.postInfo.addon && !postAddonDescriptors[props.postInfo.addon].official}>
                   <span class={styles.addon}>{props.postInfo.addon}</span>
                 </Show>
-
                 <Frame class={styles.icons}>
                   <Icon color="combat" size="small" variant="flat">
                     <PostTypeGlyph type={props.postInfo.type} />
@@ -171,8 +170,8 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
                     </Icon>
                   </Show>
                 </Frame>
-              </Show>
-            </span>
+              </div>
+            </Show>
           </div>
           <Show when={props.postInfo.description}>
             <Divider />

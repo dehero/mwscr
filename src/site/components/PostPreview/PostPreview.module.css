@@ -57,13 +57,6 @@
   margin: 0;
 }
 
-.attributes {
-  display: inline-flex;
-  flex-flow: row nowrap;
-  gap: 4px;
-  margin-left: 4px;
-}
-
 .title {
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -73,22 +66,40 @@
 .engagement {
   color: var(--color-text-light);
   flex-shrink: 0;
+  margin-left: 4px;
+}
+
+.publishedIcon {
+  margin-left: 4px;
+}
+
+.attributes {
+  position: absolute;
+  top: -29px;
+  left: 2px;
+  right: 2px;
+  display: inline-grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: 'addon icons';
+  flex-flow: row nowrap;
+  gap: 4px;
+  overflow: hidden;
 }
 
 .icons {
-  position: absolute;
-  top: -29px;
-  right: 2px;
+  grid-area: icons;
   display: inline-flex;
   flex-flow: row nowrap;
 }
 
 .addon {
-  position: absolute;
-  top: -27px;
-  left: 6px;
+  grid-area: addon;
+  text-overflow: ellipsis;
   text-shadow: 1px 1px 1px black;
   color: var(--color-text-light);
+  white-space: nowrap;
+  margin: 2px 0 0 2px;
+  overflow: hidden;
 }
 
 .description {
