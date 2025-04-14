@@ -13,6 +13,7 @@ import {
   mergePostLocations,
   mergePostTags,
   PostAddon,
+  postAddonDescriptors,
   PostEngine,
   PostMark,
   PostPlacement,
@@ -335,7 +336,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                     <Input
                       name="title"
                       value={post().title ?? undefined}
-                      onChange={(value) => setPatchField('title', value)}
+                      onChange={(value) => setPatchField('title', value || undefined)}
                     />
                   </Label>
                 </Show>
@@ -344,7 +345,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                   <Input
                     name="description"
                     value={post().description ?? undefined}
-                    onChange={(value) => setPatchField('description', value)}
+                    onChange={(value) => setPatchField('description', value || undefined)}
                     multiline
                     rows={5}
                     class={styles.input}
@@ -360,7 +361,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                     <Input
                       name="titleRu"
                       value={post().titleRu ?? undefined}
-                      onChange={(value) => setPatchField('titleRu', value)}
+                      onChange={(value) => setPatchField('titleRu', value || undefined)}
                     />
                   </Label>
                 </Show>
@@ -369,7 +370,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                   <Input
                     name="descriptionRu"
                     value={post().descriptionRu ?? undefined}
-                    onChange={(value) => setPatchField('descriptionRu', value)}
+                    onChange={(value) => setPatchField('descriptionRu', value || undefined)}
                     multiline
                     rows={5}
                     class={styles.input}
@@ -412,30 +413,41 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
 
             <Show when={preset().fields.includes('location')}>
               <Label label="Location" class={styles.location} vertical>
-                <fieldset class={clsx(styles.fieldset, styles.locations)}>
-                  <For each={asArray(post().location)}>
-                    {(location, index) => (
-                      <div class={styles.selectWrapper}>
-                        <Select
-                          options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
-                          name="location"
-                          value={location}
-                          onChange={(location) => setPostLocation(index(), location)}
-                          class={styles.select}
-                        />
-                      </div>
-                    )}
-                  </For>
-                  <div class={styles.selectWrapper}>
-                    <Select
-                      options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
+                <Show
+                  when={!post().addon || postAddonDescriptors[post().addon!].official}
+                  fallback={
+                    <Input
                       name="location"
-                      value={undefined}
-                      onChange={(location) => setPostLocation(asArray(post().location).length, location)}
-                      class={styles.select}
+                      value={asArray(post().location).join('')}
+                      onChange={(value) => setPatchField('location', mergePostLocations(value))}
                     />
-                  </div>
-                </fieldset>
+                  }
+                >
+                  <fieldset class={clsx(styles.fieldset, styles.locations)}>
+                    <For each={asArray(post().location)}>
+                      {(location, index) => (
+                        <div class={styles.selectWrapper}>
+                          <Select
+                            options={[{ label: '[Remove]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
+                            name="location"
+                            value={location}
+                            onChange={(location) => setPostLocation(index(), location)}
+                            class={styles.select}
+                          />
+                        </div>
+                      )}
+                    </For>
+                    <div class={styles.selectWrapper}>
+                      <Select
+                        options={[{ label: '[Add]', value: EMPTY_OPTION.value }, ...(locationOptions() ?? [])]}
+                        name="location"
+                        value={undefined}
+                        onChange={(location) => setPostLocation(asArray(post().location).length, location)}
+                        class={styles.select}
+                      />
+                    </div>
+                  </fieldset>
+                </Show>
               </Label>
             </Show>
 

@@ -1,10 +1,10 @@
 import type { SortDirection } from '../utils/common-types.js';
 import { arrayFromAsync, cleanupUndefinedProps, getSearchTokens, search } from '../utils/common-utils.js';
 import type { DataManager } from './data-manager.js';
-import type { LocationCell, LocationType } from './location.js';
+import type { Location, LocationCell, LocationType } from './location.js';
 import { isNestedLocation } from './location.js';
 import type { Option } from './option.js';
-import type { PostAddon } from './post.js';
+import { type PostAddon, postAddonDescriptors } from './post.js';
 import type { PostsUsage } from './posts-usage.js';
 import { createPostsUsage } from './posts-usage.js';
 import { locationToWorldMapPolygonSvg } from './world-map.js';
@@ -41,7 +41,26 @@ export const selectLocationInfosSortOptions = [
 export type SelectLocationInfosSortKey = (typeof selectLocationInfosSortOptions)[number]['value'];
 
 export async function createLocationInfos(dataManager: DataManager): Promise<LocationInfo[]> {
-  const entries = await arrayFromAsync(dataManager.locations.readAllEntries());
+  const unofficialLocations: Map<string, PostAddon> = new Map();
+
+  for (const manager of dataManager.postsManagers) {
+    const entries = await manager.getAllEntries();
+    for (const [, post] of entries) {
+      if (
+        post.addon &&
+        !postAddonDescriptors[post.addon].official &&
+        typeof post.location === 'string' &&
+        !unofficialLocations.has(post.location)
+      ) {
+        unofficialLocations.set(post.location, post.addon);
+      }
+    }
+  }
+
+  const entries = [
+    ...(await arrayFromAsync(dataManager.locations.readAllEntries())),
+    ...[...unofficialLocations].map(([title, addon]): [string, Location] => [title, { title, type: 'virtual', addon }]),
+  ];
 
   return Promise.all(
     entries.map(async (entry) => {
