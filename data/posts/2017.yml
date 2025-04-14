@@ -5809,7 +5809,7 @@
     - service: tg
       id: 519
       published: 2024-09-01-18-27-20
-      updated: 2025-04-07-11-13-28
+      updated: 2025-04-14-11-13-41
       followers: 547
       likes: 62
       views: 540
@@ -10507,17 +10507,17 @@
       id: DIZYY-GBfkh
       mediaId: '17965962740884241'
       published: 2025-04-13-18-20-05
-      updated: 2025-04-14-10-17-43
+      updated: 2025-04-14-11-13-34
       followers: 1530
       likes: 52
-      views: 185
+      views: 187
     - service: vk
       id: 2274
       published: 2025-04-13-18-20-14
-      updated: 2025-04-14-10-17-44
+      updated: 2025-04-14-11-13-34
       followers: 1253
       likes: 42
-      views: 227
+      views: 237
       reposts: 4
       comments: !c |-
         G7IBKCwKbGNj6LChUY9CT31bGMWXEY9/Ilb0pfaT/mRYm8HaLKOBDnQw0MkIJ/dcua2EaKiGhmzc
@@ -10528,10 +10528,10 @@
     - service: tg
       id: 793
       published: 2025-04-13-18-20-23
-      updated: 2025-04-14-10-17-44
+      updated: 2025-04-14-11-13-35
       followers: 720
       likes: 38
-      views: 162
+      views: 163
       comments: !c |-
         G5MFACwOzFOfDuzxzG8qC8s6RjeC/ue2vL7+6uCXZtbcRUMThAVTstzp3CyW0OyE+okwvHqh5ha7
         IRqyMXD8GAYmm6GZ9evXVpkr6WGabqgiMn3P0P17oqE0iFASreAy8Nd//t5pgAEHYp17/hqtTWNZ
@@ -12173,7 +12173,7 @@
     - service: vk
       id: 1821
       published: 2024-10-13-18-09-16
-      updated: 2025-04-07-11-13-25
+      updated: 2025-04-14-11-13-38
       followers: 963
       likes: 44
       views: 428
@@ -12182,7 +12182,7 @@
     - service: tg
       id: 563
       published: 2024-10-13-18-09-22
-      updated: 2025-04-07-11-13-24
+      updated: 2025-04-14-11-13-37
       followers: 559
       likes: 64
       views: 534
