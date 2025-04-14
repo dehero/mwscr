@@ -99,8 +99,7 @@ dehero.2025-03-27-20-02-45:
   author: dehero
   addon: Bloodmoon
 dehero.2025-04-10-20-12-41:
-  description: Andothren
-  descriptionRu: Андотрен
+  location: Andothren
   content:
     - store:/inbox/dehero.2025-04-10-20-12-41.png
     - store:/inbox/dehero.2025-04-10-20-12-05.png
@@ -108,8 +107,7 @@ dehero.2025-04-10-20-12-41:
   author: dehero
   addon: Tamriel Rebuilt
 dehero.2025-04-10-20-14-32:
-  description: Andothren
-  descriptionRu: Андотрен
+  location: Andothren
   content:
     - store:/inbox/dehero.2025-04-10-20-14-32.png
     - store:/inbox/dehero.2025-04-10-20-14-14.png
@@ -117,15 +115,13 @@ dehero.2025-04-10-20-14-32:
   author: dehero
   addon: Tamriel Rebuilt
 dehero.2025-04-10-20-16-44:
-  description: Andothren
-  descriptionRu: Андотрен
+  location: Andothren
   content: store:/inbox/dehero.2025-04-10-20-16-44.png
   type: shot
   author: dehero
   addon: Tamriel Rebuilt
 dehero.2025-04-10-20-18-14:
-  description: Andothren
-  descriptionRu: Андотрен
+  location: Andothren
   content:
     - store:/inbox/dehero.2025-04-10-20-18-14.png
     - store:/inbox/dehero.2025-04-10-20-17-42.png
