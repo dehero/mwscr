@@ -1009,7 +1009,7 @@
     - service: vk
       id: 1963
       published: 2024-12-15-18-10-25
-      updated: 2025-04-07-05-16-23
+      updated: 2025-04-14-05-16-49
       followers: 1027
       likes: 56
       views: 467
@@ -1020,10 +1020,10 @@
     - service: tg
       id: 626
       published: 2024-12-15-18-11-17
-      updated: 2025-04-07-05-16-21
+      updated: 2025-04-14-05-16-43
       followers: 580
       likes: 68
-      views: 651
+      views: 652
       comments: !c |-
         G4kAMBwHuWn0btmfJgwjVLpVc74SIRvHZVVfXQ2AjhyBItmpJRQO92TqODxdfgxhAw6YW3BczMYB
         Tw4Sr2xyGvuZzN/ehodzxraRaCJTKAQsGQvs8MCORhJ1JBywo5ZnPVF8/mape+SabJOplUJFy4U1
@@ -2528,7 +2528,7 @@
     - service: vk
       id: 1454
       published: 2024-03-16-18-10-42
-      updated: 2025-04-07-04-19-17
+      updated: 2025-04-14-05-17-03
       followers: 896
       likes: 37
       views: 295
@@ -2536,7 +2536,7 @@
     - service: tg
       id: 348
       published: 2024-03-16-18-10-49
-      updated: 2025-04-07-04-19-11
+      updated: 2025-04-14-05-16-53
       followers: 353
       likes: 55
       views: 459
@@ -4909,7 +4909,7 @@
     - service: vk
       id: 1919
       published: 2024-11-24-18-09-24
-      updated: 2025-04-07-05-16-26
+      updated: 2025-04-14-05-16-52
       followers: 1008
       likes: 38
       views: 341
@@ -4917,10 +4917,10 @@
     - service: tg
       id: 605
       published: 2024-11-24-18-09-33
-      updated: 2025-04-07-05-16-23
+      updated: 2025-04-14-05-16-45
       followers: 576
       likes: 65
-      views: 655
+      views: 658
 2017-04-25-castle-ebonheart:
   title: Castle Ebonheart
   titleRu: Замок Эбенгард
@@ -9984,7 +9984,7 @@
     - service: tg
       id: 405
       published: 2024-05-11-18-18-01
-      updated: 2025-04-07-04-19-07
+      updated: 2025-04-14-05-16-49
       followers: 371
       likes: 68
       views: 513
@@ -9992,7 +9992,7 @@
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2025-04-07-04-19-10
+      updated: 2025-04-14-05-16-56
       followers: 915
       likes: 41
       views: 290
@@ -10507,17 +10507,17 @@
       id: DIZYY-GBfkh
       mediaId: '17965962740884241'
       published: 2025-04-13-18-20-05
-      updated: 2025-04-14-04-18-32
+      updated: 2025-04-14-05-16-39
       followers: 1530
-      likes: 44
-      views: 159
+      likes: 45
+      views: 166
     - service: vk
       id: 2274
       published: 2025-04-13-18-20-14
-      updated: 2025-04-14-04-18-32
+      updated: 2025-04-14-05-16-40
       followers: 1253
       likes: 37
-      views: 156
+      views: 169
       reposts: 4
       comments: !c |-
         G4oA+K0SeDO2eElquoUzKPoT4nnsRvp3dlsHnEFtLcOWYITJ+87N53zNEsQ1QU4mqlmMmmZXbDbW
@@ -10526,10 +10526,10 @@
     - service: tg
       id: 793
       published: 2025-04-13-18-20-23
-      updated: 2025-04-14-04-18-31
+      updated: 2025-04-14-05-16-40
       followers: 720
-      likes: 33
-      views: 138
+      likes: 35
+      views: 142
       comments: !c |-
         GykFACwSeI5yOys/GydQE8H/u/s4z6+2PbEAqAXY1vaJv5yjc6NYSibUT4Th1Qs1t9gJkZw8fgwD
         k83QzPqfc9pdjHojVL1Z4JaFJUp+AYVxm51RqwEUv2durRMavf77iHjaPPL6HWnSaNCWKtbwx3Jt
