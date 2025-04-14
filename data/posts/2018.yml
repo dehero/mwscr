@@ -7345,20 +7345,20 @@
       id: DIUPBh-BgJ-
       mediaId: '17949874319950561'
       published: 2025-04-11-18-22-01
-      updated: 2025-04-13-18-19-39
+      updated: 2025-04-14-18-21-26
       followers: 1530
-      likes: 117
-      views: 380
+      likes: 120
+      views: 410
       comments: !c |-
         G0EA6I2ULsK8BIhcteUJZ2mCRVb3d42WJE10igNaD0LIKVFJHymxr/ts4igxHBh4Vq8vweROfLua
         NRg=
     - service: vk
       id: 2269
       published: 2025-04-11-18-22-27
-      updated: 2025-04-13-18-19-40
+      updated: 2025-04-14-18-21-26
       followers: 1247
-      likes: 49
-      views: 323
+      likes: 50
+      views: 352
       reposts: 4
       comments: !c |-
         G4gA+B2J6caCfOzYLxUaz1e3wAJdoEPfrCkLJNCbRCNL3scg21ZSEYMhPcODR9202bFnlhS0tWV3
@@ -7371,10 +7371,10 @@
         - 790
         - 791
       published: 2025-04-11-18-22-52
-      updated: 2025-04-13-18-19-40
+      updated: 2025-04-14-18-21-27
       followers: 720
       likes: 59
-      views: 237
+      views: 262
       comments: !c |-
         Gy8BAOTgmk+4sgKNtoj+6o0KLIOmjQWSp8+z0WxPTzSKIMdaQW1Zkh/oSgdrfrFfb/V5KSRJbrf2
         2RvcbY1CIfVBkG2whvI4zaGFfAXla4oO9gf0A66wV2lipXCDi/m3ngyi7+Lp/20hG1Lmi9wBFnCD
@@ -7685,6 +7685,19 @@
       followers: 187
       likes: 17
       views: 261
+    - service: ig
+      id: DIb9YQlAy9w
+      mediaId: '18053498783517076'
+      published: 2025-04-14-18-21-46
+      followers: 1530
+    - service: vk
+      id: 2278
+      published: 2025-04-14-18-21-56
+      followers: 1255
+    - service: tg
+      id: 794
+      published: 2025-04-14-18-22-04
+      followers: 720
 2018-07-18-view-of-private-property:
   title: View of Private Property
   titleRu: Вид на частную собственность
