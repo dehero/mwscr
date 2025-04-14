@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.53.1](https://github.com/dehero/mwscr/compare/v1.53.0...v1.53.1) (2025-04-14)
+
+### Bug Fixes
+
+- **site:** add ellipsis to unofficial addon name
+  ([ef11a18](https://github.com/dehero/mwscr/commit/ef11a18fc6f0141c6173e3a18b8b9345d38c4af5))
+
 ## [1.53.0](https://github.com/dehero/mwscr/compare/v1.52.0...v1.53.0) (2025-04-11)
 
 ### Features
