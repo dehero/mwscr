@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.54.0](https://github.com/dehero/mwscr/compare/v1.53.1...v1.54.0) (2025-04-14)
+
+### Features
+
+- **site:** allow unofficial addons locations in locations list
+  ([6ed60fc](https://github.com/dehero/mwscr/commit/6ed60fc54e8b4ad63aa83323bc99fd65409726b1))
+
 ## [1.53.1](https://github.com/dehero/mwscr/compare/v1.53.0...v1.53.1) (2025-04-14)
 
 ### Bug Fixes
