@@ -73,7 +73,9 @@ dehero.2025-03-25-20-40-01:
   type: shot
   author: dehero
 dehero.2025-03-25-20-40-54:
-  content: store:/inbox/dehero.2025-03-25-20-40-54.png
+  content:
+    - store:/inbox/dehero.2025-03-25-20-40-54.png
+    - store:/inbox/dehero.2025-03-25-20-40-54.1.png
   type: shot
   author: dehero
 dehero.2025-03-25-20-43-03:
@@ -89,6 +91,7 @@ dehero.2025-03-27-20-00-55:
     - store:/inbox/dehero.2025-03-27-20-00-55.png
     - store:/inbox/dehero.2025-03-27-19-59-13.png
     - store:/inbox/dehero.2025-03-27-20-01-30.png
+    - store:/inbox/dehero.2025-03-27-19-59-13.1.png
   type: shot
   author: dehero
 dehero.2025-03-27-20-02-45:
@@ -103,6 +106,8 @@ dehero.2025-04-10-20-12-41:
   content:
     - store:/inbox/dehero.2025-04-10-20-12-41.png
     - store:/inbox/dehero.2025-04-10-20-12-05.png
+    - store:/inbox/dehero.2025-04-10-20-12-05.1.png
+    - store:/inbox/dehero.2025-04-10-20-12-41.1.png
   type: shot
   author: dehero
   addon: Tamriel Rebuilt
