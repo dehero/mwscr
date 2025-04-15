@@ -179,7 +179,7 @@
     - service: vk
       id: 1876
       published: 2024-11-04-18-10-22
-      updated: 2025-04-08-08-21-15
+      updated: 2025-04-15-08-21-32
       followers: 1003
       likes: 31
       views: 310
@@ -187,10 +187,10 @@
     - service: tg
       id: 585
       published: 2024-11-04-18-10-32
-      updated: 2025-04-08-08-21-14
+      updated: 2025-04-15-08-21-30
       followers: 565
       likes: 58
-      views: 639
+      views: 640
 2018-01-07-vistha-kai-warden-of-the-corprusarium:
   title: Vistha-Kai, Warden of the Corprusarium
   titleRu: Виста-Кай, смотритель Корпрусариума
@@ -7689,24 +7689,24 @@
       id: DIb9YQlAy9w
       mediaId: '18053498783517076'
       published: 2025-04-14-18-21-46
-      updated: 2025-04-15-07-15-50
+      updated: 2025-04-15-08-21-26
       followers: 1530
       likes: 43
-      views: 133
+      views: 135
     - service: vk
       id: 2278
       published: 2025-04-14-18-21-56
-      updated: 2025-04-15-07-15-51
+      updated: 2025-04-15-08-21-25
       followers: 1255
-      likes: 31
-      views: 146
+      likes: 32
+      views: 153
     - service: tg
       id: 794
       published: 2025-04-14-18-22-04
-      updated: 2025-04-15-07-15-51
+      updated: 2025-04-15-08-21-26
       followers: 720
       likes: 43
-      views: 138
+      views: 139
 2018-07-18-view-of-private-property:
   title: View of Private Property
   titleRu: Вид на частную собственность
