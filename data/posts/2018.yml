@@ -1554,7 +1554,7 @@
     - service: vk
       id: 1668
       published: 2024-08-05-18-20-39
-      updated: 2025-04-08-19-13-45
+      updated: 2025-04-15-20-17-25
       followers: 926
       likes: 43
       views: 322
@@ -1562,10 +1562,10 @@
     - service: tg
       id: 491
       published: 2024-08-05-18-20-53
-      updated: 2025-04-08-19-13-41
+      updated: 2025-04-15-20-17-22
       followers: 490
       likes: 75
-      views: 697
+      views: 698
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
@@ -2400,7 +2400,7 @@
     - service: vk
       id: 1698
       published: 2024-08-19-18-19-41
-      updated: 2025-04-08-19-13-42
+      updated: 2025-04-15-20-17-22
       followers: 934
       likes: 32
       views: 304
@@ -2408,7 +2408,7 @@
     - service: tg
       id: 506
       published: 2024-08-19-18-19-47
-      updated: 2025-04-08-19-13-40
+      updated: 2025-04-15-20-17-20
       followers: 534
       likes: 66
       views: 617
@@ -6957,7 +6957,7 @@
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
-      updated: 2025-04-08-19-13-46
+      updated: 2025-04-15-20-17-26
       followers: 924
       likes: 34
       views: 273
@@ -6965,7 +6965,7 @@
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
-      updated: 2025-04-08-19-13-43
+      updated: 2025-04-15-20-17-23
       followers: 414
       likes: 59
       views: 680
@@ -7689,25 +7689,25 @@
       id: DIb9YQlAy9w
       mediaId: '18053498783517076'
       published: 2025-04-14-18-21-46
-      updated: 2025-04-15-19-12-54
+      updated: 2025-04-15-20-17-20
       followers: 1530
       likes: 49
-      views: 166
+      views: 167
     - service: vk
       id: 2278
       published: 2025-04-14-18-21-56
-      updated: 2025-04-15-19-12-54
+      updated: 2025-04-15-20-17-19
       followers: 1255
       likes: 40
-      views: 196
+      views: 201
       reposts: 1
     - service: tg
       id: 794
       published: 2025-04-14-18-22-04
-      updated: 2025-04-15-19-12-53
+      updated: 2025-04-15-20-17-19
       followers: 720
-      likes: 49
-      views: 182
+      likes: 50
+      views: 191
 2018-07-18-view-of-private-property:
   title: View of Private Property
   titleRu: Вид на частную собственность
@@ -9352,7 +9352,7 @@
     - service: vk
       id: 1597
       published: 2024-06-24-18-20-03
-      updated: 2025-04-08-19-13-52
+      updated: 2025-04-15-20-17-32
       followers: 917
       likes: 52
       views: 325
@@ -9360,7 +9360,7 @@
     - service: tg
       id: 449
       published: 2024-06-24-18-20-11
-      updated: 2025-04-08-19-13-47
+      updated: 2025-04-15-20-17-27
       followers: 388
       likes: 66
       views: 594
@@ -13159,24 +13159,25 @@
       id: DIeh88ZJPRt
       mediaId: '18063533009052020'
       published: 2025-04-15-18-19-50
-      updated: 2025-04-15-19-12-52
+      updated: 2025-04-15-20-17-18
       followers: 1529
-      likes: 14
-      views: 45
+      likes: 21
+      views: 79
+      comments: !c Cw6AkZPLQnljrg26gACrZGVsYW5vc3BpZXOlU3BvdD8D
     - service: vk
       id: 2279
       published: 2025-04-15-18-19-56
-      updated: 2025-04-15-19-12-52
+      updated: 2025-04-15-20-17-18
       followers: 1258
-      likes: 8
-      views: 57
+      likes: 12
+      views: 79
     - service: tg
       id: 795
       published: 2025-04-15-18-20-03
-      updated: 2025-04-15-19-12-53
+      updated: 2025-04-15-20-17-17
       followers: 720
-      likes: 22
-      views: 73
+      likes: 34
+      views: 102
 2018-11-24-ministry-of-truth:
   title: Ministry of Truth
   titleRu: Министерство Правды
