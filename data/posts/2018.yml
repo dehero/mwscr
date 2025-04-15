@@ -2803,14 +2803,14 @@
     - service: vk
       id: 1865
       published: 2024-10-28-18-10-39
-      updated: 2025-04-08-10-17-08
+      updated: 2025-04-15-10-17-27
       followers: 1000
       likes: 51
       views: 324
     - service: tg
       id: 578
       published: 2024-10-28-18-10-46
-      updated: 2025-04-08-10-17-06
+      updated: 2025-04-15-10-17-26
       followers: 564
       likes: 60
       views: 582
@@ -4268,7 +4268,7 @@
     - service: tg
       id: 564
       published: 2024-10-14-18-10-32
-      updated: 2025-04-08-10-17-08
+      updated: 2025-04-15-10-17-28
       followers: 561
       likes: 64
       views: 514
@@ -7689,24 +7689,24 @@
       id: DIb9YQlAy9w
       mediaId: '18053498783517076'
       published: 2025-04-14-18-21-46
-      updated: 2025-04-15-09-17-24
+      updated: 2025-04-15-10-17-27
       followers: 1530
       likes: 44
       views: 139
     - service: vk
       id: 2278
       published: 2025-04-14-18-21-56
-      updated: 2025-04-15-09-17-24
+      updated: 2025-04-15-10-17-24
       followers: 1255
-      likes: 33
-      views: 159
+      likes: 34
+      views: 161
     - service: tg
       id: 794
       published: 2025-04-14-18-22-04
-      updated: 2025-04-15-09-17-25
+      updated: 2025-04-15-10-17-25
       followers: 720
-      likes: 45
-      views: 141
+      likes: 46
+      views: 143
 2018-07-18-view-of-private-property:
   title: View of Private Property
   titleRu: Вид на частную собственность
@@ -11207,7 +11207,7 @@
     - service: tg
       id: 571
       published: 2024-10-21-18-10-50
-      updated: 2025-04-08-10-17-07
+      updated: 2025-04-15-10-17-28
       followers: 562
       likes: 55
       views: 732
