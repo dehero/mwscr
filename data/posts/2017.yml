@@ -1215,14 +1215,14 @@
     - service: vk
       id: 1814
       published: 2024-10-07-18-10-38
-      updated: 2025-04-08-13-26-05
+      updated: 2025-04-15-13-26-23
       followers: 958
       likes: 42
       views: 331
     - service: tg
       id: 557
       published: 2024-10-07-18-10-45
-      updated: 2025-04-08-13-26-02
+      updated: 2025-04-15-13-26-19
       followers: 559
       likes: 62
       views: 504
@@ -7708,19 +7708,19 @@
     - service: vk
       id: 1766
       published: 2024-09-16-18-30-47
-      updated: 2025-04-08-13-26-09
+      updated: 2025-04-15-13-26-26
       followers: 947
       likes: 52
-      views: 396
+      views: 397
       reposts: 3
       comments: !c ixOAkZPLQnkgEr9RgACpdW50aXRsbDNkstGD0Y7RgtC90LXQvdGM0LrQvgM=
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2025-04-08-13-26-05
+      updated: 2025-04-15-13-26-22
       followers: 557
       likes: 67
-      views: 802
+      views: 812
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
@@ -10507,17 +10507,17 @@
       id: DIZYY-GBfkh
       mediaId: '17965962740884241'
       published: 2025-04-13-18-20-05
-      updated: 2025-04-15-12-30-45
+      updated: 2025-04-15-13-26-19
       followers: 1530
-      likes: 61
-      views: 233
+      likes: 62
+      views: 235
     - service: vk
       id: 2274
       published: 2025-04-13-18-20-14
-      updated: 2025-04-15-12-30-45
+      updated: 2025-04-15-13-26-18
       followers: 1253
       likes: 52
-      views: 313
+      views: 315
       reposts: 4
       comments: !c |-
         G7IBKCwKbGNj6LChUY9CT31bGMWXEY9/Ilb0pfaT/mRYm8HaLKOBDnQw0MkIJ/dcua2EaKiGhmzc
@@ -10528,10 +10528,10 @@
     - service: tg
       id: 793
       published: 2025-04-13-18-20-23
-      updated: 2025-04-15-12-30-44
+      updated: 2025-04-15-13-26-18
       followers: 720
       likes: 52
-      views: 227
+      views: 228
       comments: !c |-
         G5MFACwOzFOfDuzxzG8qC8s6RjeC/ue2vL7+6uCXZtbcRUMThAVTstzp3CyW0OyE+okwvHqh5ha7
         IRqyMXD8GAYmm6GZ9evXVpkr6WGabqgiMn3P0P17oqE0iFASreAy8Nd//t5pgAEHYp17/hqtTWNZ

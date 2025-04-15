@@ -1224,7 +1224,7 @@
     - service: vk
       id: 1732
       published: 2024-09-02-18-29-04
-      updated: 2025-04-08-13-26-11
+      updated: 2025-04-15-13-26-28
       followers: 942
       likes: 40
       views: 407
@@ -1235,7 +1235,7 @@
     - service: tg
       id: 520
       published: 2024-09-02-18-29-11
-      updated: 2025-04-08-13-26-07
+      updated: 2025-04-15-13-26-23
       followers: 550
       likes: 62
       views: 666
@@ -3114,7 +3114,7 @@
     - service: vk
       id: 1792
       published: 2024-09-30-18-10-27
-      updated: 2025-04-08-13-26-06
+      updated: 2025-04-15-13-26-25
       followers: 957
       likes: 45
       views: 368
@@ -3129,7 +3129,7 @@
     - service: tg
       id: 550
       published: 2024-09-30-18-10-33
-      updated: 2025-04-08-13-26-03
+      updated: 2025-04-15-13-26-20
       followers: 558
       likes: 68
       views: 523
@@ -4259,7 +4259,7 @@
     - service: vk
       id: 1824
       published: 2024-10-14-18-10-26
-      updated: 2025-04-08-13-26-04
+      updated: 2025-04-15-13-26-21
       followers: 964
       likes: 49
       views: 423
@@ -5873,7 +5873,7 @@
     - service: vk
       id: 1745
       published: 2024-09-09-18-29-21
-      updated: 2025-04-08-13-26-10
+      updated: 2025-04-15-13-26-27
       followers: 945
       likes: 41
       views: 312
@@ -5884,7 +5884,7 @@
     - service: tg
       id: 527
       published: 2024-09-09-18-29-28
-      updated: 2025-04-08-13-26-06
+      updated: 2025-04-15-13-26-22
       followers: 552
       likes: 66
       views: 561
@@ -6619,7 +6619,7 @@
     - service: tg
       id: 513
       published: 2024-08-26-18-20-21
-      updated: 2025-04-08-13-26-08
+      updated: 2025-04-15-13-26-24
       followers: 544
       likes: 66
       views: 606
@@ -7689,24 +7689,24 @@
       id: DIb9YQlAy9w
       mediaId: '18053498783517076'
       published: 2025-04-14-18-21-46
-      updated: 2025-04-15-12-30-43
+      updated: 2025-04-15-13-26-17
       followers: 1530
       likes: 47
-      views: 146
+      views: 150
     - service: vk
       id: 2278
       published: 2025-04-14-18-21-56
-      updated: 2025-04-15-12-30-43
+      updated: 2025-04-15-13-26-16
       followers: 1255
-      likes: 35
-      views: 166
+      likes: 36
+      views: 172
     - service: tg
       id: 794
       published: 2025-04-14-18-22-04
-      updated: 2025-04-15-12-30-43
+      updated: 2025-04-15-13-26-17
       followers: 720
       likes: 47
-      views: 149
+      views: 150
 2018-07-18-view-of-private-property:
   title: View of Private Property
   titleRu: Вид на частную собственность
@@ -11200,7 +11200,7 @@
     - service: vk
       id: 1848
       published: 2024-10-21-18-10-44
-      updated: 2025-04-08-13-26-02
+      updated: 2025-04-15-13-26-20
       followers: 993
       likes: 41
       views: 344
