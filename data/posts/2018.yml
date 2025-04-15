@@ -7689,21 +7689,22 @@
       id: DIb9YQlAy9w
       mediaId: '18053498783517076'
       published: 2025-04-14-18-21-46
-      updated: 2025-04-15-17-56-03
+      updated: 2025-04-15-18-19-34
       followers: 1530
       likes: 49
       views: 165
     - service: vk
       id: 2278
       published: 2025-04-14-18-21-56
-      updated: 2025-04-15-17-56-03
+      updated: 2025-04-15-18-19-33
       followers: 1255
-      likes: 38
-      views: 189
+      likes: 39
+      views: 191
+      reposts: 1
     - service: tg
       id: 794
       published: 2025-04-14-18-22-04
-      updated: 2025-04-15-17-56-04
+      updated: 2025-04-15-18-19-33
       followers: 720
       likes: 47
       views: 159
@@ -13154,6 +13155,19 @@
       updated: 2025-04-09-13-27-40
       likes: 3
       views: 378
+    - service: ig
+      id: DIeh88ZJPRt
+      mediaId: '18063533009052020'
+      published: 2025-04-15-18-19-50
+      followers: 1529
+    - service: vk
+      id: 2279
+      published: 2025-04-15-18-19-56
+      followers: 1258
+    - service: tg
+      id: 795
+      published: 2025-04-15-18-20-03
+      followers: 720
 2018-11-24-ministry-of-truth:
   title: Ministry of Truth
   titleRu: Министерство Правды
