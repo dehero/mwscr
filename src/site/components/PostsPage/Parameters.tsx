@@ -9,8 +9,6 @@ import {
   PostAddon,
   PostMark,
   PostPlacement,
-  PostType,
-  postTypeDescriptors,
   PostViolation,
   postViolationDescriptors,
 } from '../../../core/entities/post.js';
@@ -302,12 +300,7 @@ export const Parameters: Component<ParametersProps> = (props) => {
                   <div class={styles.selectWrapper}>
                     <Select
                       name="type"
-                      options={[
-                        ALL_OPTION,
-                        ...PostType.options
-                          .map((value) => ({ value, label: postTypeDescriptors[value].title }))
-                          .sort((a, b) => a.label.localeCompare(b.label)),
-                      ]}
+                      options={props.parameters.typeOptions()}
                       value={props.parameters.type()}
                       onChange={props.parameters.setType}
                       class={styles.select}

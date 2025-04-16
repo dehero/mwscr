@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import type { Component, JSX } from 'solid-js';
-import { For, Show } from 'solid-js';
+import { For, Match, Show, Switch } from 'solid-js';
 import { getLimitedAspectRatio } from '../../../core/entities/media.js';
 import type { PostContent, PostType } from '../../../core/entities/post.js';
 import { postTypeDescriptors } from '../../../core/entities/post.js';
@@ -23,16 +23,18 @@ export interface PostContentPreviewProps {
 export const PostContentPreview: Component<PostContentPreviewProps> = (props) => {
   const content = () => asArray(props.content).slice(0, 4);
   const aspectRatio = () =>
-    getLimitedAspectRatio(
-      postTypeDescriptors[props.type].aspectRatio,
-      props.minHeightMultiplier,
-      props.maxHeightMultiplier,
-    );
+    postTypeDescriptors[props.type].aspectRatio
+      ? getLimitedAspectRatio(
+          postTypeDescriptors[props.type].aspectRatio!,
+          props.minHeightMultiplier,
+          props.maxHeightMultiplier,
+        )
+      : undefined;
+  const alignCrop = () => (postTypeDescriptors[props.type].aspectRatio ? 'center' : 'top');
 
   return (
     <Show when={content().length > 0} fallback={props.fallback}>
-      <Show
-        when={content().length > 2}
+      <Switch
         fallback={
           <ResourcePreview
             url={content()[0] || ''}
@@ -40,17 +42,27 @@ export const PostContentPreview: Component<PostContentPreviewProps> = (props) =>
             class={props.class}
             alt={props.alt}
             frameState={props.frameState}
+            alignCrop={alignCrop()}
           />
         }
       >
-        <div class={clsx(props.class, styles.setContainer)}>
-          <For each={content()}>
-            {(url) => (
-              <ResourcePreview url={url} class={styles.setItem} aspectRatio="1/1" frameState={props.frameState} />
-            )}
-          </For>
-        </div>
-      </Show>
+        <Match when={content().length === 3}>
+          <div class={clsx(props.class, styles.tripleContainer)}>
+            <For each={content()}>
+              {(url) => <ResourcePreview url={url} class={styles.tripleItem} frameState={props.frameState} />}
+            </For>
+          </div>
+        </Match>
+        <Match when={content().length > 3}>
+          <div class={clsx(props.class, styles.setContainer)}>
+            <For each={content()}>
+              {(url) => (
+                <ResourcePreview url={url} class={styles.setItem} aspectRatio="1/1" frameState={props.frameState} />
+              )}
+            </For>
+          </div>
+        </Match>
+      </Switch>
     </Show>
   );
 };

@@ -1,6 +1,10 @@
 import type { Component } from 'solid-js';
 import { type PostType, postTypeDescriptors } from '../../../core/entities/post.js';
 import Clip from '../../images/post-type-clip.svg';
+import Mention from '../../images/post-type-mention.svg';
+import News from '../../images/post-type-news.svg';
+import Outtakes from '../../images/post-type-outtakes.svg';
+import Photoshop from '../../images/post-type-photoshop.svg';
 import Redrawing from '../../images/post-type-redrawing.svg';
 import Shot from '../../images/post-type-shot.svg';
 import ShotSet from '../../images/post-type-shot-set.svg';
@@ -16,6 +20,10 @@ const glyphs: Record<PostType, string> = {
   'wallpaper-v': WallpaperV,
   redrawing: Redrawing,
   video: Video,
+  mention: Mention,
+  news: News,
+  photoshop: Photoshop,
+  outtakes: Outtakes,
 };
 
 export interface PostTypeGlyphProps {

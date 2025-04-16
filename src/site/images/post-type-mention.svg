@@ -5,14 +5,22 @@
    viewBox="0 0 0.167 0.167"
    version="1.1"
    id="svg2311"
-   sodipodi:docname="post-type-redrawing.svg"
+   sodipodi:docname="post-type-mention.svg"
    inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs2315" />
+     id="defs2315">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.0835 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="0.167 : 0.0835 : 1"
+       inkscape:persp3d-origin="0.0835 : 0.055666667 : 1"
+       id="perspective3098" />
+  </defs>
   <sodipodi:namedview
      id="namedview2313"
      pagecolor="#ffffff"
@@ -23,9 +31,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="true"
-     inkscape:zoom="32"
-     inkscape:cx="-0.5625"
-     inkscape:cy="9.78125"
+     inkscape:zoom="64"
+     inkscape:cx="8.265625"
+     inkscape:cy="7.890625"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="-8"
@@ -48,12 +56,8 @@
   <path
      d="M 0.0104375,0.0104375 V 0.062625 H 0.020875 v -0.04175 h 0.04175 V 0.0104375 Z"
      id="path2309" />
-  <rect
-     style="fill:#000000;stroke-width:0.00738043;paint-order:fill markers stroke"
-     id="rect2809"
-     width="0.010437498"
-     height="0.104375"
-     x="0.11286809"
-     y="-0.052187502"
-     transform="rotate(45)" />
+  <path
+     id="path3121"
+     style="color:#000000;fill:#000000;paint-order:fill markers stroke"
+     d="M 0.0730625 0.04175 L 0.0730625 0.062625 L 0.0835 0.062625 L 0.0835 0.0521875 L 0.1148125 0.0521875 L 0.1148125 0.0835 L 0.104375 0.0835 L 0.104375 0.0939375 L 0.12525 0.0939375 L 0.12525 0.04175 L 0.0730625 0.04175 z M 0.04175 0.0730625 L 0.04175 0.12525 L 0.0939375 0.12525 L 0.0939375 0.104375 L 0.0835 0.104375 L 0.0835 0.1148125 L 0.0521875 0.1148125 L 0.0521875 0.0835 L 0.062625 0.0835 L 0.062625 0.0730625 L 0.04175 0.0730625 z " />
 </svg>

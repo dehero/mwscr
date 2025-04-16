@@ -1,5 +1,10 @@
-import { literal, object, tuple, variant } from 'valibot';
+import type { InferOutput } from 'valibot';
+import { literal, nonEmpty, object, pipe, string, trim, tuple, variant } from 'valibot';
 import { ImageResourceUrl, VideoResourceUrl } from './resource.js';
+
+export const PostDescription = pipe(string(), trim(), nonEmpty());
+
+export type PostDescription = InferOutput<typeof PostDescription>;
 
 export const Shot = object({
   type: literal('shot'),
@@ -39,4 +44,37 @@ export const Clip = object({
   content: VideoResourceUrl,
 });
 
-export const PostVariant = variant('type', [Shot, ShotSet, Redrawing, Video, Clip, Wallpaper, VerticalWallpaper]);
+export const Outtakes = object({
+  type: literal('outtakes'),
+  content: tuple([ImageResourceUrl, ImageResourceUrl, ImageResourceUrl], 'Should be 3 screenshot resources'),
+});
+
+export const News = object({
+  type: literal('news'),
+  description: PostDescription,
+  descriptionRu: PostDescription,
+});
+
+export const Mention = object({
+  type: literal('mention'),
+  snapshot: ImageResourceUrl,
+});
+
+export const Photoshop = object({
+  type: literal('photoshop'),
+  content: tuple([ImageResourceUrl, ImageResourceUrl], 'Should be a tuple of photoshopped and original shot resources'),
+});
+
+export const PostVariant = variant('type', [
+  Shot,
+  ShotSet,
+  Redrawing,
+  Video,
+  Clip,
+  Wallpaper,
+  VerticalWallpaper,
+  News,
+  Mention,
+  Photoshop,
+  Outtakes,
+]);

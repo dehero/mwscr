@@ -31,6 +31,7 @@ import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import { Input } from '../Input/Input.js';
 import { LocationTooltip } from '../LocationTooltip/LocationTooltip.js';
+import { Markdown } from '../Markdown/Markdown.jsx';
 import { PostComments } from '../PostComments/PostComments.js';
 import { PostPublications } from '../PostPublications/PostPublications.js';
 import { PostTypeGlyph } from '../PostTypeGlyph/PostTypeGlyph.jsx';
@@ -45,6 +46,12 @@ import { UserTooltip } from '../UserTooltip/UserTooltip.js';
 import { VideoPlayer } from '../VideoPlayer/VideoPlayer.jsx';
 import { WorldMap } from '../WorldMap/WorldMap.js';
 import styles from './PostPage.module.css';
+
+interface ContentInfo {
+  url: string;
+  publicUrl?: string;
+  scrollable: boolean;
+}
 
 export interface PostPageSearchParams {
   repostId?: string;
@@ -86,26 +93,35 @@ export const PostPage = (): JSX.Element => {
 
   const title = () => postInfo()?.title || 'Untitled';
   const titleRu = () => postInfo()?.titleRu || 'Без названия';
-  const content = () => asArray(postInfo()?.content);
-  const contentPublicUrls = () => content().map((url) => store.getPublicUrl(parseResourceUrl(url).pathname));
+  const contentInfos = (): ContentInfo[] => [
+    ...asArray(postInfo()?.content).map((url) => ({
+      url,
+      publicUrl: store.getPublicUrl(parseResourceUrl(url).pathname),
+      scrollable: false,
+    })),
+    ...asArray(postInfo()?.snapshot).map((url) => ({
+      url,
+      publicUrl: store.getPublicUrl(parseResourceUrl(url).pathname),
+      scrollable: true,
+    })),
+  ];
   const aspectRatio = () => (postInfo() ? postTypeDescriptors[postInfo()!.type].aspectRatio : '1/1');
   const alt = () => postInfo()?.tags?.join(' ');
 
-  const selectedContent = () => content()[selectedContentIndex()];
-  const selectedContentPublicUrl = () => contentPublicUrls()[selectedContentIndex()];
+  const selectedContentInfo = () => contentInfos()[selectedContentIndex()];
 
   const stats = () => getPublicationsStats(data().publications ?? []);
 
-  const withContent = () => content().length > 0;
+  const withContent = () => contentInfos().length > 0;
   const withFullSizeContent = () =>
-    Boolean(postInfo()?.published || contentPublicUrls().find((url) => typeof url === 'string'));
-  const withContentSelection = () => withFullSizeContent() && content().length > 1;
+    Boolean(postInfo()?.published || contentInfos().find(({ publicUrl }) => typeof publicUrl === 'string'));
+  const withContentSelection = () => withFullSizeContent() && contentInfos().length > 1;
   const withRequest = () => Boolean(postInfo()?.request);
 
   const [isLoading, setIsLoading] = createSignal(true);
 
   const selectContent = (url: string) => {
-    const index = content().findIndex((u) => u === url);
+    const index = contentInfos().findIndex((info) => info.url === url);
     setIsLoading(true);
     setSelectedContentIndex(index);
   };
@@ -128,7 +144,7 @@ export const PostPage = (): JSX.Element => {
   const handleContentDownload = async (e: Event) => {
     e.preventDefault();
 
-    const href = selectedContentPublicUrl();
+    const href = selectedContentInfo()?.publicUrl;
     if (href) {
       const downloader = new JsFileDownloader({ url: href, autoStart: false, nativeFallbackOnError: true });
       try {
@@ -152,7 +168,7 @@ export const PostPage = (): JSX.Element => {
   };
 
   onMount(() => {
-    const src = selectedContentPublicUrl();
+    const src = selectedContentInfo()?.publicUrl;
     if (selectedContentRef && src) {
       // Force trigger onLoad event after hydration by changing src
       selectedContentRef.src = src;
@@ -174,7 +190,7 @@ export const PostPage = (): JSX.Element => {
       )}
     >
       <Toast message="Loading Page" show={loading() || postInfo.loading} loading />
-      <Toast message="Loading Content" show={content().length > 0 && isLoading()} loading />
+      <Toast message="Loading Content" show={contentInfos().length > 0 && isLoading()} loading />
       <Show when={postInfo()}>
         {(postInfo) => (
           <>
@@ -183,39 +199,39 @@ export const PostPage = (): JSX.Element => {
                 when={withFullSizeContent()}
                 fallback={
                   <ResourcePreviews
-                    urls={content()}
+                    urls={contentInfos().map(({ url }) => url)}
                     showTooltip
                     onLoad={handleContentLoad}
                     class={styles.contentPreviews}
                   />
                 }
               >
-                <Show when={content().length > 1}>
+                <Show when={contentInfos().length > 1}>
                   <ResourceSelector
-                    urls={content()}
-                    aspectRatio={aspectRatio()}
+                    urls={contentInfos().map(({ url }) => url)}
+                    aspectRatio={aspectRatio() ?? '1 / 1'}
                     onSelect={selectContent}
-                    selected={selectedContent()}
+                    selected={selectedContentInfo()!.url}
                     class={styles.contentSelector}
                   />
                 </Show>
 
-                <Show when={selectedContent()}>
-                  {(url) => (
+                <Show when={selectedContentInfo()}>
+                  {(info) => (
                     <section class={styles.selectedContentWrapper}>
                       <Switch
                         fallback={
                           <ResourcePreview
-                            url={url()}
+                            url={info().url}
                             aspectRatio={aspectRatio()}
                             onLoad={handleContentLoad}
                             showTooltip
                             class={styles.selectedContent}
-                            alt={alt() || url()}
+                            alt={alt() || info().url}
                           />
                         }
                       >
-                        <Match when={loadingFailedUrls().includes(selectedContentPublicUrl()!)}>
+                        <Match when={info().publicUrl && loadingFailedUrls().includes(info().publicUrl!)}>
                           <Frame
                             component="img"
                             src={YellowExclamationMark}
@@ -224,37 +240,56 @@ export const PostPage = (): JSX.Element => {
                             aria-label="yellow exclamation mark"
                           />
                         </Match>
-                        <Match when={resourceIsVideo(url()) && selectedContentPublicUrl()}>
+                        <Match when={resourceIsVideo(info().url) && info().publicUrl}>
                           <VideoPlayer
-                            title={alt() || url()}
-                            src={getVideoLightweightUrl(selectedContentPublicUrl()!)}
-                            poster={getVideoPosterUrl(selectedContentPublicUrl()!)}
+                            title={alt() || info().url}
+                            src={getVideoLightweightUrl(info().publicUrl!)}
+                            poster={getVideoPosterUrl(info().publicUrl!)}
                             aspectRatio={aspectRatio()}
                             onLoad={handleContentLoad}
-                            onError={() => handleContentError(getVideoLightweightUrl(selectedContentPublicUrl()!))}
+                            onError={() => handleContentError(getVideoLightweightUrl(info().publicUrl!))}
                             class={styles.selectedContent}
                           />
                         </Match>
-                        <Match when={resourceIsImage(url()) && selectedContentPublicUrl()}>
-                          <Frame
-                            component="img"
-                            ref={selectedContentRef}
-                            src={selectedContentPublicUrl()}
-                            class={clsx(styles.selectedContent, styles.image)}
-                            onLoad={handleContentLoad}
-                            onError={() => handleContentError(selectedContentPublicUrl()!)}
-                            style={{ 'aspect-ratio': aspectRatio() }}
-                            aria-label={alt() || url()}
-                          />
-
-                          <Button
-                            href={selectedContentPublicUrl()}
-                            onClick={handleContentDownload}
-                            class={styles.downloadButton}
-                            target="_blank"
+                        <Match when={resourceIsImage(info().url) && info().publicUrl}>
+                          <Show
+                            when={!info().scrollable}
+                            fallback={
+                              <Frame class={styles.selectedContentScrollable}>
+                                <img
+                                  class={styles.scrollableImage}
+                                  ref={selectedContentRef}
+                                  src={info().publicUrl!}
+                                  onLoad={handleContentLoad}
+                                  onError={() => handleContentError(info().publicUrl!)}
+                                  aria-label={alt() || info().url}
+                                />
+                              </Frame>
+                            }
                           >
-                            Download
-                          </Button>
+                            <Frame
+                              component="img"
+                              ref={selectedContentRef}
+                              src={info().publicUrl!}
+                              class={clsx(styles.selectedContent, styles.image)}
+                              onLoad={handleContentLoad}
+                              onError={() => handleContentError(info().publicUrl!)}
+                              style={{
+                                'aspect-ratio': aspectRatio(),
+                                'object-fit': aspectRatio() ? 'cover' : 'contain',
+                              }}
+                              aria-label={alt() || info().url}
+                            />
+
+                            <Button
+                              href={info().publicUrl}
+                              onClick={handleContentDownload}
+                              class={styles.downloadButton}
+                              target="_blank"
+                            >
+                              Download
+                            </Button>
+                          </Show>
                         </Match>
                       </Switch>
                     </section>
@@ -289,10 +324,10 @@ export const PostPage = (): JSX.Element => {
                 <Show when={postInfo().description || postInfo().descriptionRu}>
                   <section class={styles.descriptions}>
                     <Show when={postInfo().description}>
-                      <p class={styles.description}>{postInfo().description}</p>
+                      <Markdown>{postInfo().description!}</Markdown>
                     </Show>
                     <Show when={postInfo().descriptionRu}>
-                      <p class={styles.description}>{postInfo().descriptionRu}</p>
+                      <Markdown>{postInfo().descriptionRu!}</Markdown>
                     </Show>
                   </section>
                 </Show>

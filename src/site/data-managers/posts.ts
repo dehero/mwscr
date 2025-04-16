@@ -114,6 +114,12 @@ export const posts = new SitePostsManager<PublishablePost>({
   ItemSchema: PublishablePost,
 });
 
+export const extras = new SitePostsManager<PublishablePost>({
+  name: 'extras',
+  getItemChunkName: getPublishedPostChunkName,
+  ItemSchema: PublishablePost,
+});
+
 export const inbox = new SitePostsManager<InboxItem>({
   name: 'inbox',
   getItemChunkName: getProposedPostChunkName,
@@ -126,4 +132,4 @@ export const trash = new SitePostsManager<TrashOrInboxItem>({
   ItemSchema: TrashOrInboxItem,
 });
 
-export const postsManagers: SitePostsManager[] = [posts, inbox, trash];
+export const postsManagers: SitePostsManager[] = [posts, extras, inbox, trash];
