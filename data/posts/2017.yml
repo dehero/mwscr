@@ -5654,10 +5654,10 @@
     - service: vk
       id: 1905
       published: 2024-11-19-18-11-05
-      updated: 2025-04-09-08-22-01
+      updated: 2025-04-16-09-17-51
       followers: 1006
       likes: 38
-      views: 608
+      views: 612
       reposts: 1
       comments: !c |-
         GzUDQCwLeENq8RuXOIYavU4Raq3DX9yE4+WIf77u2RI+/TM7C4F84jDjBAsST85Va0OhBQJhAYWY
@@ -5671,7 +5671,7 @@
     - service: tg
       id: 600
       published: 2024-11-19-18-11-14
-      updated: 2025-04-09-08-22-00
+      updated: 2025-04-16-09-17-50
       followers: 574
       likes: 56
       views: 489
@@ -6181,7 +6181,7 @@
     - service: vk
       id: 1891
       published: 2024-11-12-18-10-16
-      updated: 2025-04-09-08-22-03
+      updated: 2025-04-16-09-17-52
       followers: 1006
       likes: 35
       views: 313
@@ -6193,7 +6193,7 @@
     - service: tg
       id: 593
       published: 2024-11-12-18-10-24
-      updated: 2025-04-09-08-22-01
+      updated: 2025-04-16-09-17-51
       followers: 564
       likes: 60
       views: 576
@@ -9333,7 +9333,7 @@
     - service: tg
       id: 586
       published: 2024-11-05-18-10-44
-      updated: 2025-04-09-08-22-02
+      updated: 2025-04-16-09-17-53
       followers: 566
       likes: 64
       views: 607
@@ -9341,7 +9341,7 @@
     - service: vk
       id: 1879
       published: 2024-11-05-19-01-20
-      updated: 2025-04-09-08-22-04
+      updated: 2025-04-16-09-17-53
       followers: 1003
       likes: 33
       views: 371
@@ -13320,14 +13320,14 @@
     - service: vk
       id: 1735
       published: 2024-09-03-18-29-25
-      updated: 2025-04-09-08-22-09
+      updated: 2025-04-16-09-17-59
       followers: 942
       likes: 26
       views: 363
     - service: tg
       id: 521
       published: 2024-09-03-18-29-34
-      updated: 2025-04-09-08-22-06
+      updated: 2025-04-16-09-17-57
       followers: 550
       likes: 65
       views: 593

@@ -509,7 +509,7 @@
     - service: vk
       id: 1815
       published: 2024-10-08-18-10-28
-      updated: 2025-04-09-08-22-07
+      updated: 2025-04-16-09-17-56
       followers: 958
       likes: 39
       views: 340
@@ -518,7 +518,7 @@
     - service: tg
       id: 558
       published: 2024-10-08-18-10-34
-      updated: 2025-04-09-08-22-03
+      updated: 2025-04-16-09-17-55
       followers: 559
       likes: 64
       views: 502
@@ -1366,15 +1366,15 @@
     - service: vk
       id: 1712
       published: 2024-08-27-18-20-10
-      updated: 2025-04-09-08-22-10
+      updated: 2025-04-16-09-18-00
       followers: 939
       likes: 30
-      views: 346
+      views: 348
       reposts: 1
     - service: tg
       id: 514
       published: 2024-08-27-18-20-15
-      updated: 2025-04-09-08-22-06
+      updated: 2025-04-16-09-17-58
       followers: 544
       likes: 62
       views: 632
@@ -2880,14 +2880,14 @@
     - service: vk
       id: 1795
       published: 2024-10-01-18-12-42
-      updated: 2025-04-09-08-22-08
+      updated: 2025-04-16-09-17-57
       followers: 957
       likes: 36
-      views: 561
+      views: 562
     - service: tg
       id: 551
       published: 2024-10-01-18-12-49
-      updated: 2025-04-09-08-22-04
+      updated: 2025-04-16-09-17-55
       followers: 557
       likes: 59
       views: 578
@@ -6157,7 +6157,7 @@
     - service: vk
       id: 1921
       published: 2024-11-26-18-11-20
-      updated: 2025-04-09-08-22-00
+      updated: 2025-04-16-09-17-49
       followers: 1010
       likes: 48
       views: 559
@@ -6165,10 +6165,10 @@
     - service: tg
       id: 607
       published: 2024-11-26-18-11-30
-      updated: 2025-04-09-08-21-59
+      updated: 2025-04-16-09-17-49
       followers: 577
       likes: 67
-      views: 628
+      views: 629
       comments: !c |-
         G50A4GRinb/QliLUtyRcN15D2i0LaoDrSphOTvR4IPwecCJpFgAG2Jbu0J5/G5Mi6hgJX2kOKmEL
         AECXZzAqQTHDqVA6DNLKP59wMaT8MvylJpKDOMQyepXfvrd7yIX29rwmr4Xg8W1jXMCYbgZRBBKL
@@ -7689,22 +7689,22 @@
       id: DIb9YQlAy9w
       mediaId: '18053498783517076'
       published: 2025-04-14-18-21-46
-      updated: 2025-04-16-07-15-45
+      updated: 2025-04-16-09-17-48
       followers: 1530
       likes: 53
-      views: 178
+      views: 179
     - service: vk
       id: 2278
       published: 2025-04-14-18-21-56
-      updated: 2025-04-16-08-21-26
+      updated: 2025-04-16-09-17-47
       followers: 1255
-      likes: 44
-      views: 239
+      likes: 45
+      views: 243
       reposts: 2
     - service: tg
       id: 794
       published: 2025-04-14-18-22-04
-      updated: 2025-04-16-08-21-26
+      updated: 2025-04-16-09-17-48
       followers: 720
       likes: 53
       views: 209
@@ -8011,7 +8011,7 @@
     - service: vk
       id: 1829
       published: 2024-10-15-18-10-16
-      updated: 2025-04-09-08-22-05
+      updated: 2025-04-16-09-17-54
       followers: 964
       likes: 58
       views: 689
@@ -8027,10 +8027,10 @@
     - service: tg
       id: 565
       published: 2024-10-15-18-10-22
-      updated: 2025-04-09-08-22-02
+      updated: 2025-04-16-09-17-54
       followers: 562
       likes: 60
-      views: 553
+      views: 554
 2018-07-26-framed-by-lianas:
   title: Framed by Lianas
   titleRu: В обрамлении лиан
@@ -13159,23 +13159,23 @@
       id: DIeh88ZJPRt
       mediaId: '18063533009052020'
       published: 2025-04-15-18-19-50
-      updated: 2025-04-16-08-21-25
+      updated: 2025-04-16-09-17-46
       followers: 1529
-      likes: 49
-      views: 179
+      likes: 50
+      views: 182
       comments: !c Cw6AkZPLQnljrg26gACrZGVsYW5vc3BpZXOlU3BvdD8D
     - service: vk
       id: 2279
       published: 2025-04-15-18-19-56
-      updated: 2025-04-16-08-21-24
+      updated: 2025-04-16-09-17-46
       followers: 1258
-      likes: 35
-      views: 183
+      likes: 36
+      views: 190
       reposts: 1
     - service: tg
       id: 795
       published: 2025-04-15-18-20-03
-      updated: 2025-04-16-08-21-25
+      updated: 2025-04-16-09-17-47
       followers: 720
       likes: 48
       views: 151
