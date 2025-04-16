@@ -81,6 +81,13 @@ export const posts = new LocalPostsManager<PublishablePost>({
   ItemSchema: PublishablePost,
 });
 
+export const extras = new LocalPostsManager<PublishablePost>({
+  name: 'extras',
+  dirPath: 'data/extras',
+  getItemChunkName: getPublishedPostChunkName,
+  ItemSchema: PublishablePost,
+});
+
 export const inbox = new LocalPostsManager<InboxItem>({
   name: 'inbox',
   dirPath: 'data/inbox',
@@ -96,4 +103,4 @@ export const trash = new LocalPostsManager<TrashItem | InboxItem>({
   ItemSchema: TrashOrInboxItem,
 });
 
-export const postsManagers: PostsManager[] = [posts, inbox, trash];
+export const postsManagers: PostsManager[] = [posts, extras, inbox, trash];

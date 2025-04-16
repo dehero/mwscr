@@ -41,6 +41,7 @@ export interface PostInfo {
   location?: PostLocation;
   placement?: PostPlacement;
   content?: PostContent;
+  snapshot?: PostContent;
   type: PostType;
   authorOptions: Option[];
   tags?: string[];
@@ -138,6 +139,7 @@ export async function createPostInfos(managerName: string, dataManager: DataMana
         location: post.location,
         placement: post.placement,
         content: post.content,
+        snapshot: post.snapshot,
         type: post.type,
         authorOptions: (await dataManager.users.getEntries(asArray(post.author))).map(createUserOption),
         tags: post.tags,

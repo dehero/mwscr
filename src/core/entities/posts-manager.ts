@@ -1,5 +1,5 @@
 import type { InferOutput } from 'valibot';
-import { intersect, literal, object, picklist, union } from 'valibot';
+import { intersect, notValue, object, picklist, pipe, union } from 'valibot';
 import { asArray, getRevisionHash, textToId } from '../utils/common-utils.js';
 import { dateToString } from '../utils/date-utils.js';
 import type { ListReaderStats } from './list-manager.js';
@@ -19,6 +19,7 @@ import {
   PostRequest,
   PostTitle,
   PostTitleRu,
+  PostType,
   PostViolation,
 } from './post.js';
 import type { PostAction } from './post-action.js';
@@ -27,13 +28,20 @@ import { getRecentPublications } from './publication.js';
 import type { Schema } from './schema.js';
 import { checkSchema, safeParseSchema } from './schema.js';
 
-export const ViolatingProposal = object({ ...Post.entries, violation: PostViolation });
-export const OrdinaryProposal = object({ ...Post.entries, mark: literal('D') });
-export const ReferenceProposal = object({ ...Post.entries, mark: literal('F') });
+export const ViolatingProposal = object({
+  ...Post.entries,
+  violation: PostViolation,
+  type: pipe(PostType, notValue('outtakes')),
+});
+export const RejectedProposal = object({
+  ...Post.entries,
+  mark: picklist(['D', 'F']),
+  type: pipe(PostType, notValue('outtakes')),
+});
 export const DraftProposal = object({ ...Post.entries, content: PostContent, author: PostAuthor });
 export const RequestProposal = object({ ...Post.entries, request: PostRequest });
 
-export const TrashItem = union([ViolatingProposal, OrdinaryProposal, ReferenceProposal]);
+export const TrashItem = union([ViolatingProposal, RejectedProposal]);
 export const InboxItem = union([DraftProposal, RequestProposal]);
 export const TrashOrInboxItem = union([TrashItem, InboxItem]);
 
@@ -50,8 +58,7 @@ export const PublishablePost = intersect([
 ]);
 
 export type ViolatingProposal = InferOutput<typeof ViolatingProposal>;
-export type OrdinaryProposal = InferOutput<typeof OrdinaryProposal>;
-export type ReferenceProposal = InferOutput<typeof ReferenceProposal>;
+export type RejectedProposal = InferOutput<typeof RejectedProposal>;
 export type DraftProposal = InferOutput<typeof DraftProposal>;
 export type RequestProposal = InferOutput<typeof RequestProposal>;
 
@@ -60,7 +67,7 @@ export type InboxItem = InferOutput<typeof InboxItem>;
 export type TrashOrInboxItem = InferOutput<typeof TrashOrInboxItem>;
 export type PublishablePost = InferOutput<typeof PublishablePost>;
 
-export const PostsManagerName = picklist(['posts', 'inbox', 'trash']);
+export const PostsManagerName = picklist(['posts', 'extras', 'inbox', 'trash']);
 export type PostsManagerName = InferOutput<typeof PostsManagerName>;
 
 export const PostsManagerPatch = ListManagerPatch<Post>(Post);
@@ -74,13 +81,10 @@ export interface PostsManagerDescriptor {
 
 export const postsManagerDescriptors = Object.freeze<Record<PostsManagerName, PostsManagerDescriptor>>({
   posts: { title: 'Posts', label: 'posted', actions: ['locate', 'precise'] },
+  extras: { title: 'Extras', label: 'extras', actions: ['precise'] },
   inbox: { title: 'Inbox', label: 'pending', actions: ['edit', 'merge'] },
   trash: { title: 'Trash', label: 'rejected', actions: ['edit', 'merge'] },
 });
-
-export function isReferenceProposal(post: Post, errors?: string[]): post is ReferenceProposal {
-  return checkSchema(ReferenceProposal, post, errors);
-}
 
 export function isTrashItem(post: Post, errors?: string[]): post is TrashItem {
   return checkSchema(TrashItem, post, errors);
@@ -88,18 +92,6 @@ export function isTrashItem(post: Post, errors?: string[]): post is TrashItem {
 
 export function isPublishablePost(post: Post, errors?: string[]): post is PublishablePost {
   return checkSchema(PublishablePost, post, errors);
-}
-
-export function isRequestProposal(post: Post, errors?: string[]): post is RequestProposal {
-  return checkSchema(RequestProposal, post, errors);
-}
-
-export function isInboxItem(post: Post, errors?: string[]): post is InboxItem {
-  return checkSchema(InboxItem, post, errors);
-}
-
-export function isTrashOrInboxItem(post: Post, errors?: string[]): post is TrashItem | InboxItem {
-  return checkSchema(TrashOrInboxItem, post, errors);
 }
 
 export function getPublishedPostChunkName(id: string) {

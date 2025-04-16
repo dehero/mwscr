@@ -27,6 +27,15 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
       'addon',
       'official',
     ],
+    typeKeys: ['shot', 'shot-set', 'clip', 'video', 'wallpaper', 'wallpaper-v'],
+  },
+  extras: {
+    label: 'Extras',
+    title: 'Extras',
+    description: 'Extras of Morrowind Screenshots project.',
+    presetKeys: ['news', 'redrawings', 'photoshops', 'edits'],
+    typeKeys: ['news', 'mention', 'photoshop', 'redrawing', 'outtakes'],
+    filters: ['date', 'author', 'tag', 'type', 'status'],
   },
   inbox: {
     label: 'Inbox',

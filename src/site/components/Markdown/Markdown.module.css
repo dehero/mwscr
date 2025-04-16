@@ -1,0 +1,13 @@
+.markdown {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.markdown a {
+  text-decoration: none;
+  color: var(--color-text-selected);
+}
+
+.markdown a:hover {
+  color: var(--color-text-selected-hover);
+}

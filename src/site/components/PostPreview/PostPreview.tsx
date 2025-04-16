@@ -13,6 +13,7 @@ import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
+import { Markdown } from '../Markdown/Markdown.jsx';
 import { PostContentPreview } from '../PostContentPreview/PostContentPreview.jsx';
 import { PostTooltip } from '../PostTooltip/PostTooltip.js';
 import { PostTypeGlyph } from '../PostTypeGlyph/PostTypeGlyph.jsx';
@@ -44,7 +45,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
   const minHeightMultiplier = () => (props.postInfo.description ? undefined : 1);
   const aspectRatio = () =>
     getLimitedAspectRatio(
-      postTypeDescriptors[props.postInfo.type].aspectRatio,
+      postTypeDescriptors[props.postInfo.type].aspectRatio ?? '1/1',
       minHeightMultiplier(),
       props.maxHeightMultiplier,
     );
@@ -76,7 +77,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
       >
         <PostContentPreview
           class={styles.image}
-          content={props.postInfo.content}
+          content={props.postInfo.content ?? props.postInfo.snapshot}
           type={props.postInfo.type}
           alt={alt()}
           frameState={frameState()}
@@ -173,9 +174,15 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
               </div>
             </Show>
           </div>
-          <Show when={props.postInfo.description}>
-            <Divider />
-            <div class={styles.description}>{props.postInfo.description}</div>
+          <Show when={props.postInfo.description ?? props.postInfo.descriptionRu}>
+            {(description) => (
+              <>
+                <Divider />
+                <div class={styles.description}>
+                  <Markdown disableLinks>{description()}</Markdown>
+                </div>
+              </>
+            )}
           </Show>
         </Frame>
       </Show>

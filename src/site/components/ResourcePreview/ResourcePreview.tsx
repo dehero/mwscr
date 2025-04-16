@@ -1,11 +1,6 @@
 import clsx from 'clsx';
 import type { Component } from 'solid-js';
-import {
-  //Match,
-  onMount,
-  Show,
-  // Switch
-} from 'solid-js';
+import { mergeProps, onMount, Show } from 'solid-js';
 import type { MediaAspectRatio } from '../../../core/entities/media.js';
 // import { parseResourceUrl } from '../../../core/entities/resource.js';
 import { getResourcePreviewUrl } from '../../data-managers/resources.js';
@@ -25,9 +20,12 @@ export interface ResourcePreviewProps {
   aspectRatio?: MediaAspectRatio;
   alt?: string;
   frameState?: FrameState;
+  alignCrop?: 'center' | 'top';
 }
 
 export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
+  const merged = mergeProps({ alignCrop: 'center' }, props);
+
   const { addToast } = useToaster();
   // const parsedUrl = () => parseResourceUrl(props.url);
   const url = () => getResourcePreviewUrl(props.url);
@@ -76,7 +74,7 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
             component="img"
             src={url}
             ref={ref}
-            class={clsx(styles.preview, props.class)}
+            class={clsx(styles.preview, merged.alignCrop && styles[merged.alignCrop], props.class)}
             draggable="false"
             onLoad={handleLoad}
             onError={handleError}
@@ -84,7 +82,6 @@ export const ResourcePreview: Component<ResourcePreviewProps> = (props) => {
             aria-label={url === YellowExclamationMark ? 'yellow exclamation mark' : props.alt || props.url}
             state={props.frameState}
           />
-
           <Show when={props.showTooltip}>
             <Tooltip forRef={ref}>{props.url}</Tooltip>
           </Show>

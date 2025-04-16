@@ -1,3 +1,5 @@
+import { markdownToHtml } from './markdown.js';
+
 export interface Topic {
   title?: string;
   html?: string;
@@ -6,9 +8,6 @@ export interface Topic {
 
 export type TopicEntry = [string, Topic | undefined, ...unknown[]];
 
-const TOPIC_DOUBLE_BR_REGEX = /(?:\r?\n){2}/gm;
-const TOPIC_BR_REGEX = /\s\s$/gm;
-const TOPIC_TITLE_REGEX = /#\s*(.*)/m;
 const TOPIC_ID_REGEX = /([^\/\\]+).md$/;
 
 export const TOPIC_INDEX_ID = '';
@@ -30,28 +29,20 @@ export function getTopicBasenameFromId(id: string) {
 export function createTopicEntryFromMarkdown(code: string, filename: string): TopicEntry {
   const id = getTopicIdFromFilename(filename);
   const relatedTopicIds: string[] = [];
-  let title;
 
-  const html = code
-    .replace(TOPIC_TITLE_REGEX, (_, match) => {
-      title = match;
-      return '';
-    })
-    .replaceAll(/\[([^\]]+)\]\(([^)]+)\)/gm, (_, title, url) => {
-      let href = url;
-      const external = !url.startsWith('./');
-      if (!external) {
-        const [, topicId] = TOPIC_ID_REGEX.exec(url) ?? [];
-        if (topicId) {
-          relatedTopicIds.push(topicId);
-          href = `/help/${topicId}/`;
-        }
+  const { html, title } = markdownToHtml(code, (url) => {
+    let href = url;
+    const external = !url.startsWith('./');
+    if (!external) {
+      const [, topicId] = TOPIC_ID_REGEX.exec(url) ?? [];
+      if (topicId) {
+        relatedTopicIds.push(topicId);
+        href = `/help/${topicId}/`;
       }
-      return `<a href="${href}"${external ? ' target="_blank"' : ''}>${title}</a>`;
-    })
-    .trim()
-    .replaceAll(TOPIC_DOUBLE_BR_REGEX, '<br /><br />')
-    .replaceAll(TOPIC_BR_REGEX, '<br />');
+    }
+
+    return [href, external];
+  });
 
   return [id, { title, html, relatedTopicIds }];
 }
