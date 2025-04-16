@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.54.1](https://github.com/dehero/mwscr/compare/v1.54.0...v1.54.1) (2025-04-16)
+
+### Documentation
+
+- update core principles to support white list of third-party mods
+  ([edaa2dd](https://github.com/dehero/mwscr/commit/edaa2dd367fd45394fe84c9b499b86197a48d37c))
+
 ## [1.54.0](https://github.com/dehero/mwscr/compare/v1.53.1...v1.54.0) (2025-04-14)
 
 ### Features
