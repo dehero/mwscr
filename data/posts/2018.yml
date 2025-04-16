@@ -874,7 +874,7 @@
     - service: vk
       id: 1747
       published: 2024-09-10-23-20-58
-      updated: 2025-04-09-22-14-32
+      updated: 2025-04-16-23-14-45
       followers: 945
       likes: 28
       views: 364
@@ -886,7 +886,7 @@
     - service: tg
       id: 528
       published: 2024-09-10-23-21-05
-      updated: 2025-04-09-22-14-31
+      updated: 2025-04-16-23-14-42
       followers: 554
       likes: 55
       views: 563
@@ -13159,15 +13159,15 @@
       id: DIeh88ZJPRt
       mediaId: '18063533009052020'
       published: 2025-04-15-18-19-50
-      updated: 2025-04-16-22-14-32
+      updated: 2025-04-16-23-14-40
       followers: 1529
       likes: 66
-      views: 224
+      views: 227
       comments: !c Cw6AkZPLQnljrg26gACrZGVsYW5vc3BpZXOlU3BvdD8D
     - service: vk
       id: 2279
       published: 2025-04-15-18-19-56
-      updated: 2025-04-16-22-14-32
+      updated: 2025-04-16-23-14-41
       followers: 1258
       likes: 39
       views: 244
@@ -13175,10 +13175,10 @@
     - service: tg
       id: 795
       published: 2025-04-15-18-20-03
-      updated: 2025-04-16-22-14-30
+      updated: 2025-04-16-23-14-40
       followers: 720
       likes: 59
-      views: 216
+      views: 217
 2018-11-24-ministry-of-truth:
   title: Ministry of Truth
   titleRu: Министерство Правды

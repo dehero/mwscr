@@ -738,7 +738,7 @@
     - service: vk
       id: 1699
       published: 2024-08-20-18-20-17
-      updated: 2025-04-09-22-14-33
+      updated: 2025-04-16-23-14-46
       followers: 936
       likes: 45
       views: 322
@@ -746,7 +746,7 @@
     - service: tg
       id: 507
       published: 2024-08-20-18-20-26
-      updated: 2025-04-09-22-14-32
+      updated: 2025-04-16-23-14-43
       followers: 534
       likes: 61
       views: 646
@@ -3390,10 +3390,10 @@
     - service: vk
       id: 2172
       published: 2025-03-05-18-11-47
-      updated: 2025-04-09-22-14-30
+      updated: 2025-04-16-23-14-43
       followers: 1160
       likes: 50
-      views: 418
+      views: 421
     - service: tg
       id: 735
       published: 2025-03-05-18-11-54
@@ -4417,10 +4417,10 @@
     - service: tg
       id: 715
       published: 2025-02-19-18-11-28
-      updated: 2025-04-09-22-14-30
+      updated: 2025-04-16-23-14-41
       followers: 681
       likes: 61
-      views: 513
+      views: 523
       comments: !c iw+AkZPLQnlSitHkgACvQWxleGV5IFN0ZXBhbm92pPCfko4D
 2017-04-12-lets-set-sail:
   title: Let's Set Sail!
