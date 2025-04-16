@@ -3835,10 +3835,10 @@
       id: DFGONk_zuDM
       mediaId: '18039249929460023'
       published: 2025-01-21-18-11-24
-      updated: 2025-04-09-02-59-25
+      updated: 2025-04-16-03-02-33
       followers: 1529
       likes: 153
-      views: 572
+      views: 574
       comments: !c |-
         GxQBKKwSeE7K+EXnLuyFgxIuErUmlxOAyr2E/i23pXqNgpRqaHZ8bvMDvINHhyE1UwnQedsRsO+9
         221Es8EgK8EM09L0hs+ttEe8yiUR+UzLl9Fzf6b86zBltxIGWIsUj2R5ui9GgqOowrmxd9OOwqYf
@@ -3847,10 +3847,10 @@
     - service: vk
       id: 2075
       published: 2025-01-21-18-11-42
-      updated: 2025-04-09-02-59-22
+      updated: 2025-04-16-03-02-30
       followers: 1054
       likes: 52
-      views: 522
+      views: 523
       reposts: 6
       comments: !c |-
         G/AA6B0Hdiyz8HB04MYu/p/nZCP8x7ehD7ETSeLJfaAFpW7GmEkSLPJ5WlI2erNqW+40ShKTtn+Y
@@ -3863,10 +3863,10 @@
         - 676
         - 677
       published: 2025-01-21-18-12-00
-      updated: 2025-04-09-02-59-19
+      updated: 2025-04-16-03-02-28
       followers: 654
       likes: 74
-      views: 663
+      views: 665
 2018-04-09-empty-arena:
   title: Empty Arena
   titleRu: Пустая Арена
@@ -7689,25 +7689,25 @@
       id: DIb9YQlAy9w
       mediaId: '18053498783517076'
       published: 2025-04-14-18-21-46
-      updated: 2025-04-16-01-13-14
+      updated: 2025-04-16-03-02-26
       followers: 1530
       likes: 51
-      views: 172
+      views: 173
     - service: vk
       id: 2278
       published: 2025-04-14-18-21-56
-      updated: 2025-04-16-01-13-14
+      updated: 2025-04-16-03-02-24
       followers: 1255
       likes: 43
-      views: 223
+      views: 224
       reposts: 2
     - service: tg
       id: 794
       published: 2025-04-14-18-22-04
-      updated: 2025-04-16-01-13-14
+      updated: 2025-04-16-03-02-24
       followers: 720
       likes: 52
-      views: 197
+      views: 199
 2018-07-18-view-of-private-property:
   title: View of Private Property
   titleRu: Вид на частную собственность
@@ -13159,26 +13159,26 @@
       id: DIeh88ZJPRt
       mediaId: '18063533009052020'
       published: 2025-04-15-18-19-50
-      updated: 2025-04-16-01-13-13
+      updated: 2025-04-16-03-02-25
       followers: 1529
-      likes: 42
-      views: 147
+      likes: 44
+      views: 157
       comments: !c Cw6AkZPLQnljrg26gACrZGVsYW5vc3BpZXOlU3BvdD8D
     - service: vk
       id: 2279
       published: 2025-04-15-18-19-56
-      updated: 2025-04-16-01-13-12
+      updated: 2025-04-16-03-02-23
       followers: 1258
-      likes: 23
-      views: 125
+      likes: 24
+      views: 136
       reposts: 1
     - service: tg
       id: 795
       published: 2025-04-15-18-20-03
-      updated: 2025-04-16-01-13-13
+      updated: 2025-04-16-03-02-23
       followers: 720
-      likes: 41
-      views: 122
+      likes: 43
+      views: 127
 2018-11-24-ministry-of-truth:
   title: Ministry of Truth
   titleRu: Министерство Правды
