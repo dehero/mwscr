@@ -21,21 +21,29 @@ game from [Bethesda Softworks](https://elderscrolls.bethesda.net/en/morrowind). 
 [OpenMW](https://openmw.org/) open source engine. Main materials:
 
 - [Posts](https://mwscr.dehero.site/posts/)
+- [Extras](https://mwscr.dehero.site/extras/)
 - [Inbox](https://mwscr.dehero.site/inbox/)
 - [Trash](https://mwscr.dehero.site/trash/)
 - [Users](https://mwscr.dehero.site/users/)
 
 If you want to participate in the project, please read the [contributing guidelines](CONTRIBUTING.md).
 
-### Post types
+### Main post types
 
 - `shot` - square screenshot;
 - `shot-set` - thematic set of four previously published square screenshots;
-- `redrawing` - a drawing based on a previously published screenshot;
 - `wallpaper` - rectangular screenshot suitable as desktop wallpaper;
 - `wallpaper-v` - vertical screenshot suitable as mobile phone wallpaper;
 - `clip` - a square video up to 1 minute long;
 - `video` - rectangular video up to 1 hour long.
+
+### Additional post types
+
+- `news` - project news;
+- `mention` - mention of the project;
+- `photoshop` - a photomontage based on a previously published screenshot;
+- `redrawing` - a drawing based on a previously published screenshot;
+- `outtakes` - interesting screenshots that were rejected or violate the rules of the project.
 
 ### Publication
 
@@ -59,9 +67,10 @@ Previously published posts may be published again, without changes, or as part o
 
 ### Data
 
-Information about published [`data/posts`](data/posts), proposed [`data/inbox`](data/inbox) and rejected
-[`data/trash`](data/trash) posts is stored by year in `YAML` format. The original works, due to their large size, are
-represented by links to the `store:` external storage, which only the project administrator has access to. Other files:
+Information about main [`data/posts`](data/posts), extra [`data/extras`](data/extras), proposed
+[`data/inbox`](data/inbox) and rejected [`data/trash`](data/trash) posts is stored by year in `YAML` format. The
+original works, due to their large size, are represented by links to the `store:` external storage, which only the
+project administrator has access to. Other files:
 
 - [`data/users.yml`](data/users.yml) - information about project contributors in `YAML` format;
 - [`data/locations.yml`](data/locations.yml) - list of game locations in `YAML` format.
@@ -124,10 +133,10 @@ The sequence of steps is:
 2. Add to [`data/posts`](data/posts) posts manually created in project accounts by the administrator.
 3. Import to [`data/inbox`](data/inbox) new files from the `store:/inbox` added manually by the administrator.
 4. Delete rejected posts to [`data/trash`](data/trash`), restore posts from the trash to [`data/inbox`](data/inbox`).
-5. Get reactions to posts in [`data/posts`](data/posts`) from project accounts.
-6. Create a new post in [`data/posts`](data/posts) according to the scenarios described in
-   [`src/core/scenarios/posting.ts`](src/core/scenarios/posting.ts).
-7. Publish unpublished posts from [`data/posts`](data/posts) to project accounts.
+5. Get reactions to posts in [`data/posts`](data/posts`) and [`data/extras`](data/extras`) from project accounts.
+6. Create a new post in [`data/posts`](data/posts) or [`data/extras`](data/extras) according to the scenarios described
+   in [`src/core/scenarios/posting.ts`](src/core/scenarios/posting.ts).
+7. Publish unpublished posts from [`data/posts`](data/posts) and [`data/extras`](data/extras) to project accounts.
 8. Create missing and delete unnecessary previews in [`assets/previews`](assets/previews).
 
 #### Issue processing
