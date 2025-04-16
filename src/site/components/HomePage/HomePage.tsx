@@ -45,7 +45,7 @@ export const HomePage = (): JSX.Element => {
                   <p class={styles.title}>Morrowind Screenshots</p>
                   <p class={styles.description}>
                     Original screenshots and videos from The&nbsp;Elder&nbsp;Scrolls&nbsp;III:&nbsp;Morrowind.
-                    No&nbsp;third-party mods. No&nbsp;color filters. No&nbsp;interface.
+                    No&nbsp;graphic and unlore mods. No&nbsp;color filters. No&nbsp;interface.
                   </p>
                 </section>
                 <p class={styles.links}>

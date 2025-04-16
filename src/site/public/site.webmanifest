@@ -1,1 +1,20 @@
-{"name":"Morrowind Screenshots","short_name":"mwscr","description":"Original screenshots and videos from The Elder Scrolls III: Morrowind. No third-party mods. No color filters. No interface.","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#000000","background_color":"#ffffff","display":"standalone"}
+{
+    "name": "Morrowind Screenshots",
+    "short_name": "mwscr",
+    "description": "Original screenshots and videos from The Elder Scrolls III: Morrowind. No graphic and unlore mods. No color filters. No interface.",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

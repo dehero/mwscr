@@ -4,7 +4,7 @@
 
 ![Morrowind Screenshots](assets/icon.png)
 
-Оригинальные скриншоты и видео из The Elder Scrolls III: Morrowind. Моды, созданные третьими лицами, не используются.
+Оригинальные скриншоты и видео из The Elder Scrolls III: Morrowind. Графические и нелорные моды не используются.
 Цветовые фильтры не применяются. Элементы интерфейса скрыты.
 
 - [Сайт](https://mwscr.dehero.site)

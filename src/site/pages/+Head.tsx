@@ -19,7 +19,7 @@ export default function Head() {
         name="description"
         content={
           meta().description ||
-          'Original screenshots and videos from The Elder Scrolls III: Morrowind. No third-party mods. No color filters. No interface.'
+          'Original screenshots and videos from The Elder Scrolls III: Morrowind. No graphic and unlore mods. No color filters. No interface.'
         }
       />
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

@@ -4,7 +4,7 @@
 
 ![Morrowind Screenshots](assets/icon.png)
 
-Original screenshots and videos from The Elder Scrolls III: Morrowind. No third-party mods. No color filters. No
+Original screenshots and videos from The Elder Scrolls III: Morrowind. No graphic and unlore mods. No color filters. No
 interface.
 
 - [Site](https://mwscr.dehero.site)

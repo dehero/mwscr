@@ -42,6 +42,7 @@
   flex-flow: column nowrap;
   align-items: center;
   gap: 4px;
+  max-width: 100%;
 }
 
 .title {
@@ -53,7 +54,9 @@
   margin: 0;
   text-wrap: balance;
   text-align: center;
-  max-width: 320px;
+  width: 320px;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .links {
