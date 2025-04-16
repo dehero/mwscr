@@ -646,24 +646,25 @@
       id: DIhG_1uAMEY
       mediaId: '17901096612163942'
       published: 2025-04-16-18-22-02
-      updated: 2025-04-16-19-11-55
+      updated: 2025-04-16-20-17-52
       followers: 1529
-      likes: 16
-      views: 49
+      likes: 29
+      views: 81
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2025-04-16-19-11-54
+      updated: 2025-04-16-20-17-52
       followers: 1261
-      likes: 10
-      views: 40
+      likes: 14
+      views: 75
+      reposts: 1
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2025-04-16-19-11-54
+      updated: 2025-04-16-20-17-51
       followers: 720
-      likes: 20
-      views: 79
+      likes: 27
+      views: 98
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
