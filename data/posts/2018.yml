@@ -955,7 +955,7 @@
     - service: vk
       id: 1990
       published: 2024-12-25-18-10-00
-      updated: 2025-04-10-02-58-52
+      updated: 2025-04-17-03-01-19
       followers: 1030
       likes: 38
       views: 352
@@ -963,10 +963,10 @@
     - service: tg
       id: 637
       published: 2024-12-25-18-10-08
-      updated: 2025-04-10-02-58-49
+      updated: 2025-04-17-03-01-15
       followers: 612
       likes: 66
-      views: 828
+      views: 831
       comments: !c |-
         CyiAkZTLQnlAVEbPAACtT2xtZXJfSXpkZXlsYbJXaGF0IGlzIHRoZSBwbGFjZT+Ty0J5QFYdBgAA
         pW13c2NytEFsZCBWZWxvdGhpLCBPdXRwb3N0Aw==
@@ -5786,7 +5786,7 @@
     - service: vk
       id: 2067
       published: 2025-01-15-18-10-29
-      updated: 2025-04-10-02-58-49
+      updated: 2025-04-17-03-01-15
       followers: 1053
       likes: 45
       views: 485
@@ -5794,10 +5794,10 @@
     - service: tg
       id: 668
       published: 2025-01-15-18-10-36
-      updated: 2025-04-10-02-58-46
+      updated: 2025-04-17-03-01-13
       followers: 654
       likes: 70
-      views: 597
+      views: 600
       comments: !c |-
         G6UCIKwObGPSS486iGLrDaMHpSneRv7G//OcbIT/+E6GGUwg2cSCCJL7TF3M+1cvJQrjCAGhbt0u
         K+2uFZa/n1uqa57Xt1TmiOgTxKRUOiX90jgKICaNkrzTw+jIzJPLBSpqtSa9x8d4RhnQtNAbTjEZ
@@ -11661,7 +11661,7 @@
     - service: vk
       id: 2034
       published: 2025-01-08-18-10-54
-      updated: 2025-04-10-02-58-50
+      updated: 2025-04-17-03-01-17
       followers: 1052
       likes: 37
       views: 365
@@ -11669,7 +11669,7 @@
     - service: tg
       id: 657
       published: 2025-01-08-18-11-01
-      updated: 2025-04-10-02-58-47
+      updated: 2025-04-17-03-01-14
       followers: 646
       likes: 65
       views: 522
@@ -13159,15 +13159,15 @@
       id: DIeh88ZJPRt
       mediaId: '18063533009052020'
       published: 2025-04-15-18-19-50
-      updated: 2025-04-17-01-12-18
+      updated: 2025-04-17-03-01-11
       followers: 1529
-      likes: 67
-      views: 230
+      likes: 68
+      views: 231
       comments: !c Cw6AkZPLQnljrg26gACrZGVsYW5vc3BpZXOlU3BvdD8D
     - service: vk
       id: 2279
       published: 2025-04-15-18-19-56
-      updated: 2025-04-17-01-12-18
+      updated: 2025-04-17-03-01-11
       followers: 1258
       likes: 39
       views: 246
@@ -13175,10 +13175,10 @@
     - service: tg
       id: 795
       published: 2025-04-15-18-20-03
-      updated: 2025-04-17-01-12-17
+      updated: 2025-04-17-03-01-10
       followers: 720
-      likes: 59
-      views: 218
+      likes: 60
+      views: 220
 2018-11-24-ministry-of-truth:
   title: Ministry of Truth
   titleRu: Министерство Правды
