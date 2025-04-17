@@ -8,7 +8,8 @@
 adele:
   telegramBotChatId: 1924823021
   name: Adele
-  profiles: {}
+  profiles:
+    tg: Shiskoribafish
 aleksey:
   telegramBotChatId: 451735380
   name: Алексей
