@@ -1257,3 +1257,31 @@
 2025-04-14-safe-harbour: 2018-07-17-safe-harbour
 2025-04-15-flooded-door: 2018-11-23-flooded-door
 2025-04-16-arvs-drelen: 2016-12-01-arvs-drelen
+2025-04-17-chapel-of-mara:
+  title: Chapel of Mara
+  titleRu: Часовня Мары
+  placement: Outdoors
+  location: Andothren
+  content: store:/shots/2025-04-17-chapel-of-mara.png
+  trash:
+    - store:/trash/dehero.2025-04-10-20-12-41.png
+    - store:/trash/dehero.2025-04-10-20-12-41.1.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  addon: Tamriel Rebuilt
+  mark: B1
+  posts:
+    - service: ig
+      id: DIjt7ZKtHxm
+      mediaId: '18052409132258231'
+      published: 2025-04-17-18-40-41
+      followers: 1529
+    - service: vk
+      id: 2289
+      published: 2025-04-17-18-40-50
+      followers: 1260
+    - service: tg
+      id: 799
+      published: 2025-04-17-18-40-59
+      followers: 721
