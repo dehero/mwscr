@@ -51,6 +51,11 @@ deviltrigger:
   name: DevilTrigger
   profiles:
     tg: zxcqwe431
+dmepikh:
+  name: Dmitry Epikhin
+  nameRu: Дмитрий Епихин
+  profiles:
+    tg: dmepikh
 dmitrii:
   telegramBotChatId: 300009119
   name: Dmitrii
@@ -65,6 +70,11 @@ ekaterina:
   name: Ekaterina
   profiles:
     tg: berskate
+eklersgovnom:
+  name: Aleksey Gusev
+  nameRu: Алексей Гусев
+  profiles:
+    vk: eklersgovnom
 eldrad:
   telegramBotChatId: 398125107
   name: Эльдра́д
@@ -83,6 +93,10 @@ id172608176:
   name: Владимир
   profiles:
     vk: id172608176
+id810900694:
+  name: Сергей Бакашинов
+  profiles:
+    vk: id810900694
 irina-bystritskaya:
   name: Irina Bystritskaya
   nameRu: Ирина Быстрицкая
@@ -108,6 +122,10 @@ mighty-markyys:
     ig: mighty_markyys
 natty:
   name: Natty
+rachille:
+  name: Rachille
+  profiles:
+    ig: rachilleart
 nihil-sum:
   telegramBotChatId: 563711962
   name: Nihil sum

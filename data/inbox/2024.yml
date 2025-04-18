@@ -52,3 +52,49 @@ natty.2024-10-06-15-21-49:
   content: store:/inbox/natty.2024-10-06-15-21-49.png
   type: shot
   author: natty
+rachille.2024-04-04-at-bitter-coast:
+  title: At the Bitter Coast
+  titleRu: На Горьком берегу
+  description: '[Original post on Facebook](https://www.facebook.com/share/p/1F7v7JGRsF/)'
+  content:
+    - store:/inbox/2024-04-04-nerevarine-at-the-bitter-coast.jpg
+    - store:/shots/2020-05-24-at-the-bitter-coast.png
+  type: redrawing
+  author: rachille
+rachille.2024-06-25-dark-sanctuary-of-dark:
+  title: Dark Sanctuary of Dark
+  titleRu: Святилище тьмы во тьме
+  description: '[Original post in Tumblr](https://rachilleart.tumblr.com/post/754270188615188480)'
+  content:
+    - store:/inbox/2024-06-25-dark-sanctuary-of-dark.png
+    - store:/shots/2018-05-09-dark-sanctuary-of-dark.png
+  type: redrawing
+  author: rachille
+eklersgovnom.2024-08-06-puzzled-ashlanders:
+  title: Puzzled Student
+  titleRu: Озадаченный ученик
+  descriptionRu: '[Original comment on VK](https://vk.com/morrowind?w=wall-17291_162975)'
+  content:
+    - store:/inbox/2024-08-06-puzzled-student.jpg
+    - store:/shots/2017-12-07-puzzled-ashlanders.png
+  snapshot: store:/inbox/2024-08-06-vk-morrowind.png
+  type: photoshop
+  author: eklersgovnom
+anonimous.2024-08-17-reddit-site-link:
+  title: Link to Site on Reddit
+  titleRu: Ссылка на сайт в Reddit
+  description: >-
+    [This website with Morrowind screenshots looks gorgeous, just had to share
+    it](https://www.reddit.com/r/Morrowind/comments/1eummhw/this_website_with_morrowind_screenshots_looks/)
+  snapshot: store:/inbox/2024-08-17-reddit.png
+  type: mention
+id810900694.2024-10-13-giant-rat-scum:
+  title: Scum
+  titleRu: Ничтожество
+  descriptionRu: '[Комментарии](https://vk.com/mwscr?w=wall-138249959_1821)'
+  content:
+    - store:/inbox/2024-10-13-giant-rat-scum.jpg
+    - store:/shots/2017-10-30-rat-and-mudcrab.png
+  snapshot: store:/inbox/2024-10-13-giant-rat-shapshot.jpg
+  type: photoshop
+  author: id810900694
