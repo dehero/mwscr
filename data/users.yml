@@ -122,10 +122,6 @@ mighty-markyys:
     ig: mighty_markyys
 natty:
   name: Natty
-rachille:
-  name: Rachille
-  profiles:
-    ig: rachilleart
 nihil-sum:
   telegramBotChatId: 563711962
   name: Nihil sum
@@ -146,6 +142,10 @@ psyangst:
   name: psyangst
   profiles:
     tg: psyangst
+rachille:
+  name: Rachille
+  profiles:
+    ig: rachilleart
 remmlah:
   name: RemmLah
 spicebag:
