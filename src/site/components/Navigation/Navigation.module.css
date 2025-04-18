@@ -37,7 +37,7 @@
   color: var(--color-text-selected-hover);
 }
 
-@media only screen and (min-width: 555px) {
+@media only screen and (min-width: 596px) {
   .menu {
     display: none;
   }
