@@ -119,7 +119,7 @@
     - service: vk
       id: 1924
       published: 2024-11-28-18-10-44
-      updated: 2025-04-11-04-19-36
+      updated: 2025-04-18-05-15-54
       followers: 1012
       likes: 50
       views: 435
@@ -131,10 +131,10 @@
     - service: tg
       id: 609
       published: 2024-11-28-18-10-52
-      updated: 2025-04-11-04-19-33
+      updated: 2025-04-18-05-15-51
       followers: 578
       likes: 59
-      views: 673
+      views: 675
 2016-11-20-4-aldruhn-under-skar:
   title: Ald'ruhn, Under-Skar
   titleRu: Альд'рун, под Скаром
@@ -646,25 +646,25 @@
       id: DIhG_1uAMEY
       mediaId: '17901096612163942'
       published: 2025-04-16-18-22-02
-      updated: 2025-04-18-04-18-19
+      updated: 2025-04-18-05-15-48
       followers: 1529
       likes: 72
-      views: 264
+      views: 266
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2025-04-18-04-18-19
+      updated: 2025-04-18-05-15-49
       followers: 1261
       likes: 46
-      views: 236
+      views: 238
       reposts: 2
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2025-04-18-04-18-19
+      updated: 2025-04-18-05-15-48
       followers: 720
       likes: 49
-      views: 215
+      views: 217
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
