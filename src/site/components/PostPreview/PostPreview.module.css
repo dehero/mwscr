@@ -71,6 +71,7 @@
 
 .publishedIcon {
   margin-left: 4px;
+  flex-shrink: 0;
 }
 
 .attributes {
