@@ -1,27 +1,36 @@
 import type { PostEntries } from '../../core/entities/post.js';
+import type { PostsManager } from '../../core/entities/posts-manager.js';
 import type { Publication } from '../../core/entities/publication.js';
 import { isPublicationUpdatable } from '../../core/entities/publication.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
-import { posts } from '../data-managers/posts.js';
+import { extras, posts } from '../data-managers/posts.js';
 import { postingServiceManagers } from '../posting-service-managers/index.js';
 
-export async function updatePosts() {
-  console.group('Updating published posts reactions...');
+export async function updatePublications() {
+  console.group('Updating reactions for publications...');
 
-  try {
-    const postEntries = await posts.getAllEntries(true);
+  for (const manager of [posts, extras]) {
+    try {
+      const postEntries = await manager.getAllEntries(true);
 
-    await Promise.all(postingServiceManagers.map((service) => updatePublications(service, postEntries)));
-  } catch (error) {
-    if (error instanceof Error) {
-      console.error(`Error updating posts: ${error.message}`);
+      await Promise.all(
+        postingServiceManagers.map((service) => updateServicePublications(manager, service, postEntries)),
+      );
+    } catch (error) {
+      if (error instanceof Error) {
+        console.error(`Error updating reactions: ${error.message}`);
+      }
     }
   }
 
   console.groupEnd();
 }
 
-async function updatePublications(service: PostingServiceManager, postEntries: PostEntries) {
+async function updateServicePublications(
+  manager: PostsManager,
+  service: PostingServiceManager,
+  postEntries: PostEntries,
+) {
   let failCount = 0;
 
   const updatablePublications = postEntries
@@ -34,11 +43,11 @@ async function updatePublications(service: PostingServiceManager, postEntries: P
     .sort((a, b) => b[1].published.getTime() - a[1].published.getTime());
 
   if (updatablePublications.length === 0) {
-    console.info(`No ${service.name} posts to update.`);
+    console.info(`No ${service.name} publications to update.`);
     return;
   }
 
-  console.info(`Found ${updatablePublications.length} ${service.name} posts to update.`);
+  console.info(`Found ${updatablePublications.length} ${service.name} publications to update.`);
 
   try {
     await service.connect();
@@ -52,7 +61,7 @@ async function updatePublications(service: PostingServiceManager, postEntries: P
   for (const [id, publication] of updatablePublications) {
     try {
       await service.updatePublication(publication);
-      await posts.save();
+      await manager.save();
       console.info(`Updated ${service.name} reactions for post "${id}".`);
       failCount = 0;
     } catch (error) {
