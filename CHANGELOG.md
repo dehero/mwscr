@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.54.2](https://github.com/dehero/mwscr/compare/v1.54.1...v1.54.2) (2025-04-18)
+
+### Bug Fixes
+
+- **site:** don't shrink gold icon on post previews
+  ([7044ad8](https://github.com/dehero/mwscr/commit/7044ad88e16a83f1f0ec5f3298e50df4dffd53c6))
+
 ## [1.54.1](https://github.com/dehero/mwscr/compare/v1.54.0...v1.54.1) (2025-04-16)
 
 ### Documentation
