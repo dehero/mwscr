@@ -1226,10 +1226,10 @@
       id: DIjt7ZKtHxm
       mediaId: '18052409132258231'
       published: 2025-04-17-18-40-41
-      updated: 2025-04-18-12-26-45
+      updated: 2025-04-18-13-04-00
       followers: 1529
-      likes: 117
-      views: 340
+      likes: 121
+      views: 350
       comments: !c |-
         GyIBIJwHtq1iPeiwaJobpov6NwTSwblwojeK4llZ2kA6BatAtn99en+xib1ODgAvB7klFbYs8FKr
         AdrcPlXNl9lOcKkGFvma7KPXUVdAuwu7C4TTbZ4enzqWEEkwjD7m7aV2SgO8LbeqY7NxH6CZTRvz
@@ -1238,17 +1238,17 @@
     - service: vk
       id: 2289
       published: 2025-04-17-18-40-50
-      updated: 2025-04-18-12-26-44
+      updated: 2025-04-18-13-03-59
       followers: 1260
-      likes: 39
-      views: 184
+      likes: 40
+      views: 185
     - service: tg
       id: 799
       published: 2025-04-17-18-40-59
-      updated: 2025-04-18-12-26-44
+      updated: 2025-04-18-13-03-59
       followers: 721
-      likes: 53
-      views: 226
+      likes: 54
+      views: 227
       comments: !c |-
         G4UBQCwObGN0Yw7zyMaNf25KWsoh8f/IPSN9mnzwwANp3uKEgh9oW+TJuebazMHYBLMpWlSkC3Mw
         /rht95a3z1kTaJF6d4bfBJODTYp0coaZFjRvJWlHjRJIPK4I9J+eBlhgWi3J24F/wLsVvpvd4HrD
