@@ -646,22 +646,25 @@
       id: DIhG_1uAMEY
       mediaId: '17901096612163942'
       published: 2025-04-16-18-22-02
-      updated: 2025-04-18-09-16-36
+      updated: 2025-04-18-10-16-42
       followers: 1529
-      likes: 72
-      views: 268
+      likes: 73
+      views: 270
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2025-04-18-09-16-37
+      updated: 2025-04-18-10-16-42
       followers: 1261
       likes: 47
-      views: 251
+      views: 256
       reposts: 2
+      comments: !c |-
+        G3MA+C0SzNOZIrBxyzn4pCAU2IEHFAjFAZdQxMkOdTWlBCks4wLeP73ICyTQyOLa2rKs//L9dMAX
+        TXaRzcNETgPQQDww+vzZQBLXHM/9UlYEe8uVJbPkN1F39VS+wKSmdjpjz+jBQqExOXmOJNwb
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2025-04-18-09-16-36
+      updated: 2025-04-18-10-16-41
       followers: 720
       likes: 49
       views: 222
