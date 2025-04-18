@@ -25,7 +25,9 @@ body:
     id: postType
     attributes:
       label: Post Type
-      placeholder: shot shot-set redrawing video clip wallpaper wallpaper-v
+      placeholder: >-
+        shot shot-set redrawing video clip wallpaper wallpaper-v news mention
+        photoshop outtakes
   - type: input
     id: postAuthor
     attributes:

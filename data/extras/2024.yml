@@ -15,13 +15,13 @@
     - service: tg
       id: 368
       published: 2024-04-05-09-52-44
-      updated: 2025-04-10-06-44-55
+      updated: 2025-04-18-12-26-48
       likes: 21
-      views: 494
+      views: 496
     - service: vk
       id: 1482
       published: 2024-04-05-09-53-00
-      updated: 2025-04-10-06-44-57
+      updated: 2025-04-18-12-26-49
       likes: 9
       views: 188
 2024-08-09-site:
@@ -43,9 +43,9 @@
     - service: tg
       id: 495
       published: 2024-08-09-14-41-38
-      updated: 2025-04-10-06-44-54
+      updated: 2025-04-18-12-26-48
       likes: 79
-      views: 1466
+      views: 1469
       comments: !c |-
         G+MAwKyOt6ENtniK76qti2Fogn1j2yLFYx1agHUxS4QsmnjVbOvv0eK7jXlXfAkap3W7EfQiaI8S
         mq67JzrC8iSIC1m+ld3p5DixgPjZMc0TL9fAWh64yUqXZvgs4FilxYUR83wXtKDRtuHrkmL4b8X5
@@ -54,9 +54,9 @@
     - service: vk
       id: 1677
       published: 2024-08-09-14-41-38
-      updated: 2025-04-10-06-44-56
+      updated: 2025-04-18-12-26-49
       likes: 53
-      views: 381
+      views: 382
       reposts: 9
       comments: !c |-
         G8cCIByHcSyy8PJqoBpB8P/8Mf80GuRNo7QCcL7mBBlPGyjKJpbnggx4zrZKit6Hhv6m6AR//ppn
@@ -98,9 +98,9 @@
     - service: tg
       id: 634
       published: 2024-12-23-09-00-15
-      updated: 2025-04-10-06-44-54
+      updated: 2025-04-18-12-26-48
       likes: 64
-      views: 631
+      views: 634
       comments: !c |-
         G60AQByHcSyyoLzamF5muyfbzsc7nwwWJhpwge887IKAw6D6uVLdVLbx+DvdnP0nwJacLc+sx5nr
         5ECPgWnP0kOAfqx5erLyEP8xhiL9lvktvX6B1YaotvPXhnw7FisU1IrVs8DCB6Ou4BPcr4gjLXBR
@@ -108,7 +108,7 @@
     - service: vk
       id: 1986
       published: 2024-12-23-09-00-15
-      updated: 2025-04-10-06-44-55
+      updated: 2025-04-18-12-26-48
       likes: 37
-      views: 308
+      views: 309
       reposts: 8

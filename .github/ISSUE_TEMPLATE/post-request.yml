@@ -16,6 +16,10 @@ body:
         - clip
         - wallpaper
         - wallpaper-v
+        - news
+        - mention
+        - photoshop
+        - outtakes
       default: 0
     validations:
       required: true
