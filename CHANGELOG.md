@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.55.0](https://github.com/dehero/mwscr/compare/v1.54.2...v1.55.0) (2025-04-18)
+
+### Features
+
+- add store paths for extra post types
+  ([99ddbaf](https://github.com/dehero/mwscr/commit/99ddbaf04cf063006dce0f7baf9105af4829d299))
+- setup initial extras content
+  ([ea18c76](https://github.com/dehero/mwscr/commit/ea18c761353b1fc7c5acb26541be07ace74aa582))
+- **site:** implement Extras section and extra post types
+  ([1eb03c4](https://github.com/dehero/mwscr/commit/1eb03c49d7f0cd62a46584fe1cb7a9ac8e7912b8))
+- update publications from Extras
+  ([0f615f8](https://github.com/dehero/mwscr/commit/0f615f8a9ea1de988e2d094d48a743fa7997ccbc))
+
+### Bug Fixes
+
+- **site:** avoid navigation buttons wrapping
+  ([c685b0c](https://github.com/dehero/mwscr/commit/c685b0c778513be2995d57c2103662f6e81d195e))
+
+### Documentation
+
+- write about Extras section
+  ([aae0805](https://github.com/dehero/mwscr/commit/aae08051ade7e4c32b27764be74b59e0dbf4aaf3))
+
 ## [1.54.2](https://github.com/dehero/mwscr/compare/v1.54.1...v1.54.2) (2025-04-18)
 
 ### Bug Fixes
