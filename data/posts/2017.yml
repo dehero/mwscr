@@ -6061,10 +6061,10 @@
       id: DG6F-d9uFqA
       mediaId: '17909380499997603'
       published: 2025-03-07-18-11-20
-      updated: 2025-04-11-21-14-15
+      updated: 2025-04-18-22-14-30
       followers: 1537
       likes: 105
-      views: 472
+      views: 474
       comments: !c |-
         G8sAAIxUNX9D5zodj6J4GEVlowFGf0SA34M+NSdI43deZeHb8kTDMMOQv+u6+9FulM2HA9Hp9Iaf
         PE6W2LOSF4Rnq9ccRaZgEVRyiZtXd06lUnlRYu4GCQpb12cgxWGPuYw9FmFuMd3awz+VYjLC2q/6
@@ -6072,18 +6072,18 @@
     - service: vk
       id: 2175
       published: 2025-03-07-18-11-28
-      updated: 2025-04-11-21-14-14
+      updated: 2025-04-18-22-14-29
       followers: 1171
       likes: 69
-      views: 471
+      views: 475
       reposts: 3
     - service: tg
       id: 737
       published: 2025-03-07-18-11-36
-      updated: 2025-04-11-21-14-11
+      updated: 2025-04-18-22-14-25
       followers: 691
       likes: 69
-      views: 472
+      views: 483
 2017-05-21-table-in-magic-shop:
   title: Table in Magic Shop
   titleRu: Столик в магазине магии
