@@ -10,6 +10,10 @@ export const STORE_VIDEOS_DIR = 'videos';
 export const STORE_INBOX_DIR = 'inbox';
 export const STORE_TRASH_DIR = 'trash';
 export const STORE_WALLPAPERS_DIR = 'wallpapers';
+export const STORE_NEWS_DIR = 'news';
+export const STORE_SNAPSHOTS_DIR = 'snapshots';
+export const STORE_PHOTOSHOPS_DIR = 'photoshops';
+export const STORE_OUTTAKES_DIR = 'outtakes';
 
 export const STORE_INBOX_ITEM_NAME_REGEX = /^([^.]+)\.(\d{4}-\d{2}-\d{2})-([^.]+)(?:\.(\d+))?$/;
 export const STORE_SHOTS_NAME_REGEX = /^(\d{4}-\d{2}-\d{2})-(.+)$/;
@@ -79,6 +83,7 @@ export function parseStoreResourceUrl(url: string): StoreResourceParsedUrl {
       originalUrl = variant ? `store:/${dir}/${author}.${dateStr}-${key}${ext}` : undefined;
       break;
     case STORE_DRAWINGS_DIR:
+    case STORE_OUTTAKES_DIR:
     case STORE_SHOTS_DIR:
     case STORE_VIDEOS_DIR:
     case STORE_WALLPAPERS_DIR:
@@ -109,6 +114,14 @@ export function getTargetStoreDirFromPostType(type: PostType) {
     case 'wallpaper':
     case 'wallpaper-v':
       return STORE_WALLPAPERS_DIR;
+    case 'news':
+      return STORE_NEWS_DIR;
+    case 'photoshop':
+      return STORE_PHOTOSHOPS_DIR;
+    case 'redrawing':
+      return STORE_DRAWINGS_DIR;
+    case 'outtakes':
+      return STORE_OUTTAKES_DIR;
     default:
   }
 
