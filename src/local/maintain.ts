@@ -7,7 +7,7 @@ import { importStoreInbox } from './functions/import-store-inbox.js';
 import { importTelegramBotUpdates } from './functions/import-telegram-bot-updates.js';
 import { maintainPreviews } from './functions/maintain-previews.js';
 import { publishPosts } from './functions/publish-posts.js';
-import { updatePosts } from './functions/update-posts.js';
+import { updatePublications } from './functions/update-publications.js';
 
 await createGithubIssueTemplates();
 
@@ -20,7 +20,7 @@ await importTelegramBotUpdates();
 
 await exchangeInboxAndTrash();
 
-await updatePosts();
+await updatePublications();
 
 await createNewPost();
 
