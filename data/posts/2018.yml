@@ -10738,17 +10738,18 @@
       id: DIo1NeaN-no
       mediaId: '18130126402416964'
       published: 2025-04-19-18-20-30
-      updated: 2025-04-19-19-12-38
+      updated: 2025-04-19-20-15-20
       followers: 1529
-      likes: 14
-      views: 36
+      likes: 23
+      views: 62
     - service: vk
       id: 2295
       published: 2025-04-19-18-20-51
-      updated: 2025-04-19-19-12-38
+      updated: 2025-04-19-20-15-20
       followers: 1263
-      likes: 9
-      views: 51
+      likes: 13
+      views: 78
+      reposts: 1
     - service: tg
       id:
         - 801
@@ -10756,10 +10757,15 @@
         - 803
         - 804
       published: 2025-04-19-18-21-12
-      updated: 2025-04-19-19-12-39
+      updated: 2025-04-19-20-15-21
       followers: 722
-      likes: 20
-      views: 82
+      likes: 29
+      views: 105
+      comments: !c |-
+        G3kBwJwHtq0l+zgYrWHn2Zjon7jYEf7xmyJPPE4DbQo0iDjZBxnbSumWNJHhK+weim1i6IZiqqZi
+        quc9orDBQlpYTtOThZQ/V9kuCSmSCm5w4JRkFmlCiT9QypPC0JKDNNDW7fWhz70+/968vx7H7+ZM
+        IaAtV59GpDIEPIRiSRUwSBRPaH6K5GkMpsApa/pDSQdZLnMllljxCnEu2KMgU9OhHA4BfwkPCLVg
+        mYwT52hThDvP3WWQranhSE/at0tAUSW7Z2JZTHrfsP6R5/G9P8o0zcvaRljm20Cy2CwBLg==
 2018-10-01-near-the-fighters-guild-of-aldruhn:
   title: Near the Fighters Guild of Ald'ruhn
   titleRu: У Гильдии бойцов Альд'руна
