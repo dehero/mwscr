@@ -79,12 +79,11 @@ dehero.2025-03-27-20-00-55:
   titleRu: У Друскашти
   placement: Outdoors
   location: Druscashti
-  content:
-    - store:/inbox/dehero.2025-03-27-19-59-13.1.png
-    - store:/inbox/dehero.2025-03-27-19-59-13.3.png
+  content: store:/inbox/dehero.2025-03-27-19-59-13.3.png
   trash:
     - store:/inbox/dehero.2025-03-27-20-00-55.png
     - store:/inbox/dehero.2025-03-27-19-59-13.png
+    - store:/inbox/dehero.2025-03-27-19-59-13.1.png
     - store:/inbox/dehero.2025-03-27-20-01-30.png
     - store:/inbox/dehero.2025-03-27-19-59-13.2.png
   type: shot
@@ -92,6 +91,7 @@ dehero.2025-03-27-20-00-55:
   engine: OpenMW
   tags:
     - dwemer
+  mark: B1
 dehero.2025-03-27-20-02-45:
   content:
     - store:/inbox/dehero.2025-03-27-20-02-45.png
