@@ -79,7 +79,9 @@ dehero.2025-03-27-20-00-55:
   titleRu: У Друскашти
   placement: Outdoors
   location: Druscashti
-  content: store:/inbox/dehero.2025-03-27-19-59-13.1.png
+  content:
+    - store:/inbox/dehero.2025-03-27-19-59-13.1.png
+    - store:/inbox/dehero.2025-03-27-19-59-13.3.png
   trash:
     - store:/inbox/dehero.2025-03-27-20-00-55.png
     - store:/inbox/dehero.2025-03-27-19-59-13.png
