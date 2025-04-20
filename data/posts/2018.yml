@@ -2095,10 +2095,10 @@
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
-      updated: 2025-04-13-17-12-58
+      updated: 2025-04-20-17-14-08
       followers: 514
       likes: 55
-      views: 599
+      views: 601
       comments: !c |-
         G7cAAByJcSzJSmHuRqj0e9b12/Lle1fJSuhLDoUzXwh9E0SGvCYo3OAEkjDBQPiJBtFxGnE9KwEo
         8XwbHLtnJX0NKwhijU0V0OTUbxHMYtnFBziBA7iFGzjFArbtbnCFBTjAYgtHWMM2HTk/sUnOr3Sa
@@ -7812,10 +7812,10 @@
     - service: tg
       id: 489
       published: 2024-08-03-18-19-41
-      updated: 2025-04-13-17-12-59
+      updated: 2025-04-20-17-14-09
       followers: 428
       likes: 57
-      views: 6693
+      views: 6702
       comments: !c |-
         izGAkZTLQnkRxbvWAACremhlY2hrYV9kcnak8J+YjZPLQnkRxdocAAClYW5zaXPZNmV2ZXJ5IGdy
         YXplbGFuZGVyIGJveSBsb3ZlcyBoaW1zZWxmIGEgZ3VhciBoZXJkZXIgZ2lybAM=
@@ -10738,17 +10738,17 @@
       id: DIo1NeaN-no
       mediaId: '18130126402416964'
       published: 2025-04-19-18-20-30
-      updated: 2025-04-20-16-17-18
+      updated: 2025-04-20-17-14-04
       followers: 1529
       likes: 62
-      views: 219
+      views: 224
     - service: vk
       id: 2295
       published: 2025-04-19-18-20-51
-      updated: 2025-04-20-16-17-19
+      updated: 2025-04-20-17-14-05
       followers: 1263
       likes: 32
-      views: 222
+      views: 226
       reposts: 1
     - service: tg
       id:
@@ -10757,7 +10757,7 @@
         - 803
         - 804
       published: 2025-04-19-18-21-12
-      updated: 2025-04-20-16-17-19
+      updated: 2025-04-20-17-14-05
       followers: 722
       likes: 46
       views: 172
