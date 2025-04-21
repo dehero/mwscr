@@ -56,14 +56,11 @@ dehero.2025-03-25-20-31-52:
   content: store:/inbox/dehero.2025-03-25-20-31-52.png
   type: shot
   author: dehero
-dehero.2025-03-25-20-40-01:
-  content: store:/inbox/dehero.2025-03-25-20-40-01.png
-  type: shot
-  author: dehero
 dehero.2025-03-25-20-40-54:
   content:
-    - store:/inbox/dehero.2025-03-25-20-40-54.png
     - store:/inbox/dehero.2025-03-25-20-40-54.1.png
+    - store:/inbox/dehero.2025-03-25-20-40-01.png
+  trash: store:/inbox/dehero.2025-03-25-20-40-54.png
   type: shot
   author: dehero
 dehero.2025-03-25-20-43-03:
@@ -123,19 +120,23 @@ dehero.2025-04-10-20-19-51:
   author: dehero
   addon: Tamriel Rebuilt
 dehero.2025-04-19-20-24-21:
-  content:
-    - store:/inbox/dehero.2025-04-19-20-24-21.png
-    - store:/inbox/dehero.2025-04-19-20-24-21.1.png
+  title: Rainy Coast
+  titleRu: Дождливый берег
+  location: Bitter Coast Region
+  content: store:/inbox/dehero.2025-04-19-20-24-21.1.png
+  trash: store:/inbox/dehero.2025-04-19-20-24-21.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - tree
+    - mushroom
+    - rain
+  mark: A2
 dehero.2025-04-19-20-25-50:
   content:
     - store:/inbox/dehero.2025-04-19-20-25-50.png
     - store:/inbox/dehero.2025-04-19-20-25-50.1.png
-  type: shot
-  author: dehero
-dehero.2025-04-19-20-26-12:
-  content:
     - store:/inbox/dehero.2025-04-19-20-26-12.png
     - store:/inbox/dehero.2025-04-19-20-26-12.1.png
   type: shot
