@@ -123,14 +123,20 @@ dehero.2025-04-10-20-19-51:
   author: dehero
   addon: Tamriel Rebuilt
 dehero.2025-04-19-20-24-21:
-  content: store:/inbox/dehero.2025-04-19-20-24-21.png
+  content:
+    - store:/inbox/dehero.2025-04-19-20-24-21.png
+    - store:/inbox/dehero.2025-04-19-20-24-21.1.png
   type: shot
   author: dehero
 dehero.2025-04-19-20-25-50:
-  content: store:/inbox/dehero.2025-04-19-20-25-50.png
+  content:
+    - store:/inbox/dehero.2025-04-19-20-25-50.png
+    - store:/inbox/dehero.2025-04-19-20-25-50.1.png
   type: shot
   author: dehero
 dehero.2025-04-19-20-26-12:
-  content: store:/inbox/dehero.2025-04-19-20-26-12.png
+  content:
+    - store:/inbox/dehero.2025-04-19-20-26-12.png
+    - store:/inbox/dehero.2025-04-19-20-26-12.1.png
   type: shot
   author: dehero
