@@ -1361,17 +1361,17 @@
       id: DIuE0v8qyZk
       mediaId: '18093214405575653'
       published: 2025-04-21-19-13-13
-      updated: 2025-04-23-17-39-43
+      updated: 2025-04-23-18-24-04
       followers: 1530
       likes: 101
       comments: !c CxqAkZPLQnll4c1PAACrZGVsYW5vc3BpZXO9TG92ZSB0aGlzIHNwb3Qgd2l0aCB0aGUgZG9ja3MD
     - service: vk
       id: 2299
       published: 2025-04-21-19-13-20
-      updated: 2025-04-23-17-39-43
+      updated: 2025-04-23-18-24-03
       followers: 1266
-      likes: 69
-      views: 414
+      likes: 70
+      views: 416
       reposts: 3
       comments: !c |-
         G3EA+I2UbsI8n/+bHyb4NA0w0WhT27K9jnfCiP+6Fz+4DZ/zXURgUsIGnIhnlltEG98njKNORX77
@@ -1379,7 +1379,7 @@
     - service: tg
       id: 807
       published: 2025-04-21-19-13-26
-      updated: 2025-04-23-17-39-43
+      updated: 2025-04-23-18-24-03
       followers: 723
       likes: 60
       views: 324
@@ -1388,3 +1388,32 @@
         sBNyceyDgDPqfgsCLC3yxOuluFzKHONUB/DBBlpx92vwA9SlVCxn8Lx/6hKWz35s5388BoNcoPUV
         vo6FPLg7HSvj0tgUQeD48RoPQ5rsBmUHD/LmPSDw4Mvh6Wf43qPFiilUd6VKeQA=
 2025-04-22-please-no-more-kwama-eggs: 2018-09-28-please-no-more-kwama-eggs
+2025-04-23-kwama-trolley:
+  title: Kwama Trolley
+  titleRu: Вагонетка квама
+  placement: Indoors
+  location: Shulk Egg Mine, Mining Camp
+  content: store:/shots/2025-04-23-kwama-trolley.png
+  trash:
+    - store:/trash/dehero.2025-03-25-20-40-54.1.png
+    - store:/trash/dehero.2025-03-25-20-40-54.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - cave
+  mark: B2
+  posts:
+    - service: ig
+      id: DIzI2IpTLkI
+      mediaId: '17987354294807991'
+      published: 2025-04-23-18-24-31
+      followers: 1532
+    - service: vk
+      id: 2303
+      published: 2025-04-23-18-24-39
+      followers: 1266
+    - service: tg
+      id: 809
+      published: 2025-04-23-18-24-45
+      followers: 725

@@ -76,22 +76,6 @@ dehero.2025-03-25-20-31-52:
   content: store:/inbox/dehero.2025-03-25-20-31-52.png
   type: shot
   author: dehero
-dehero.2025-03-25-20-40-54:
-  title: Kwama Trolley
-  titleRu: Вагонетка квама
-  placement: Indoors
-  location: Shulk Egg Mine, Mining Camp
-  content: store:/inbox/dehero.2025-03-25-20-40-01.1.png
-  trash:
-    - store:/inbox/dehero.2025-03-25-20-40-54.1.png
-    - store:/inbox/dehero.2025-03-25-20-40-54.png
-    - store:/inbox/dehero.2025-03-25-20-40-01.png
-  type: shot
-  author: dehero
-  engine: OpenMW
-  tags:
-    - cave
-  mark: B2
 dehero.2025-03-25-20-43-03:
   content: store:/inbox/dehero.2025-03-25-20-43-03.png
   type: shot
