@@ -509,7 +509,7 @@
     - service: vk
       id: 1815
       published: 2024-10-08-18-10-28
-      updated: 2025-04-16-09-17-56
+      updated: 2025-04-23-12-56-55
       followers: 958
       likes: 39
       views: 340
@@ -518,10 +518,10 @@
     - service: tg
       id: 558
       published: 2024-10-08-18-10-34
-      updated: 2025-04-16-09-17-55
+      updated: 2025-04-23-12-56-45
       followers: 559
       likes: 64
-      views: 502
+      views: 503
 2018-01-15-no-students-for-hasphat-antabolis:
   title: No Students for Hasphat Antabolis
   titleRu: Хасфат Антаболис в поиске учеников
@@ -1366,7 +1366,7 @@
     - service: vk
       id: 1712
       published: 2024-08-27-18-20-10
-      updated: 2025-04-16-09-18-00
+      updated: 2025-04-23-12-57-01
       followers: 939
       likes: 30
       views: 348
@@ -1374,10 +1374,10 @@
     - service: tg
       id: 514
       published: 2024-08-27-18-20-15
-      updated: 2025-04-16-09-17-58
+      updated: 2025-04-23-12-56-49
       followers: 544
       likes: 62
-      views: 632
+      views: 634
 2018-02-06-evening-trees:
   title: Evening Trees
   titleRu: Вечерние деревья
@@ -1554,7 +1554,7 @@
     - service: vk
       id: 1668
       published: 2024-08-05-18-20-39
-      updated: 2025-04-15-20-17-25
+      updated: 2025-04-23-12-57-04
       followers: 926
       likes: 43
       views: 322
@@ -1562,10 +1562,10 @@
     - service: tg
       id: 491
       published: 2024-08-05-18-20-53
-      updated: 2025-04-15-20-17-22
+      updated: 2025-04-23-12-56-52
       followers: 490
       likes: 75
-      views: 698
+      views: 700
 2018-02-11-ghostfence:
   title: Ghostfence
   titleRu: Призрачный предел
@@ -2400,7 +2400,7 @@
     - service: vk
       id: 1698
       published: 2024-08-19-18-19-41
-      updated: 2025-04-15-20-17-22
+      updated: 2025-04-23-12-57-02
       followers: 934
       likes: 32
       views: 304
@@ -2408,10 +2408,10 @@
     - service: tg
       id: 506
       published: 2024-08-19-18-19-47
-      updated: 2025-04-15-20-17-20
+      updated: 2025-04-23-12-56-50
       followers: 534
       likes: 66
-      views: 617
+      views: 619
 2018-03-04-monsters:
   title: Monsters
   titleRu: Монстры
@@ -2880,17 +2880,17 @@
     - service: vk
       id: 1795
       published: 2024-10-01-18-12-42
-      updated: 2025-04-16-09-17-57
+      updated: 2025-04-23-12-56-56
       followers: 957
       likes: 36
-      views: 562
+      views: 563
     - service: tg
       id: 551
       published: 2024-10-01-18-12-49
-      updated: 2025-04-16-09-17-55
+      updated: 2025-04-23-12-56-46
       followers: 557
       likes: 59
-      views: 578
+      views: 580
 2018-03-17-suran-temple:
   title: Suran Temple
   titleRu: Храм в Суране
@@ -3835,7 +3835,7 @@
       id: DFGONk_zuDM
       mediaId: '18039249929460023'
       published: 2025-01-21-18-11-24
-      updated: 2025-04-16-03-02-33
+      updated: 2025-04-23-12-56-34
       followers: 1529
       likes: 153
       views: 574
@@ -3847,10 +3847,10 @@
     - service: vk
       id: 2075
       published: 2025-01-21-18-11-42
-      updated: 2025-04-16-03-02-30
+      updated: 2025-04-23-12-56-36
       followers: 1054
       likes: 52
-      views: 523
+      views: 525
       reposts: 6
       comments: !c |-
         G/AA6B0Hdiyz8HB04MYu/p/nZCP8x7ehD7ETSeLJfaAFpW7GmEkSLPJ5WlI2erNqW+40ShKTtn+Y
@@ -3863,10 +3863,10 @@
         - 676
         - 677
       published: 2025-01-21-18-12-00
-      updated: 2025-04-16-03-02-28
+      updated: 2025-04-23-12-56-23
       followers: 654
       likes: 74
-      views: 665
+      views: 670
 2018-04-09-empty-arena:
   title: Empty Arena
   titleRu: Пустая Арена
@@ -5958,7 +5958,7 @@
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
   placement: Indoors
-  location: "Mournhold, Royal Palace: Guards' Quarters"
+  location: 'Mournhold, Royal Palace: Guards'' Quarters'
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   author: dehero
@@ -6157,18 +6157,18 @@
     - service: vk
       id: 1921
       published: 2024-11-26-18-11-20
-      updated: 2025-04-16-09-17-49
+      updated: 2025-04-23-12-56-45
       followers: 1010
       likes: 48
-      views: 559
+      views: 561
       reposts: 3
     - service: tg
       id: 607
       published: 2024-11-26-18-11-30
-      updated: 2025-04-16-09-17-49
+      updated: 2025-04-23-12-56-32
       followers: 577
       likes: 67
-      views: 629
+      views: 632
       comments: !c |-
         G50A4GRinb/QliLUtyRcN15D2i0LaoDrSphOTvR4IPwecCJpFgAG2Jbu0J5/G5Mi6hgJX2kOKmEL
         AECXZzAqQTHDqVA6DNLKP59wMaT8MvylJpKDOMQyepXfvrd7yIX29rwmr4Xg8W1jXMCYbgZRBBKL
@@ -6263,7 +6263,7 @@
   placement: Indoors
   location:
     - Imperial Prison Ship
-    - "Mournhold, Royal Palace: Barenziah's Chambers"
+    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
     - Tower of Tel Fyr, Hall of Fyr
     - Seyda Neen, Census and Excise Office
   content:
@@ -6957,7 +6957,7 @@
     - service: vk
       id: 1660
       published: 2024-07-29-18-20-53
-      updated: 2025-04-15-20-17-26
+      updated: 2025-04-23-12-57-05
       followers: 924
       likes: 34
       views: 273
@@ -6965,10 +6965,10 @@
     - service: tg
       id: 484
       published: 2024-07-29-18-21-01
-      updated: 2025-04-15-20-17-23
+      updated: 2025-04-23-12-56-53
       followers: 414
       likes: 59
-      views: 680
+      views: 682
 2018-06-28-light-on-the-water:
   title: Light on the Water
   titleRu: Свет над водой
@@ -8011,7 +8011,7 @@
     - service: vk
       id: 1829
       published: 2024-10-15-18-10-16
-      updated: 2025-04-16-09-17-54
+      updated: 2025-04-23-12-56-53
       followers: 964
       likes: 58
       views: 689
@@ -8027,10 +8027,10 @@
     - service: tg
       id: 565
       published: 2024-10-15-18-10-22
-      updated: 2025-04-16-09-17-54
+      updated: 2025-04-23-12-56-44
       followers: 562
       likes: 60
-      views: 554
+      views: 557
 2018-07-26-framed-by-lianas:
   title: Framed by Lianas
   titleRu: В обрамлении лиан
@@ -8139,17 +8139,17 @@
     - service: vk
       id: 1866
       published: 2024-10-29-18-10-39
-      updated: 2025-04-16-12-31-12
+      updated: 2025-04-23-12-56-50
       followers: 1000
       likes: 47
       views: 324
     - service: tg
       id: 579
       published: 2024-10-29-18-10-47
-      updated: 2025-04-16-12-31-11
+      updated: 2025-04-23-12-56-43
       followers: 564
       likes: 59
-      views: 569
+      views: 573
 2018-07-29-stone-guards:
   title: Stone Guards
   titleRu: Каменные стражи
@@ -9352,7 +9352,7 @@
     - service: vk
       id: 1597
       published: 2024-06-24-18-20-03
-      updated: 2025-04-15-20-17-32
+      updated: 2025-04-23-12-57-09
       followers: 917
       likes: 52
       views: 325
@@ -9360,10 +9360,10 @@
     - service: tg
       id: 449
       published: 2024-06-24-18-20-11
-      updated: 2025-04-15-20-17-27
+      updated: 2025-04-23-12-56-57
       followers: 388
       likes: 66
-      views: 594
+      views: 595
 2018-09-01-haze-in-tel-branora:
   title: Haze in Tel Branora
   titleRu: Мгла в Тель Браноре
@@ -9481,10 +9481,10 @@
     - service: vk
       id: 2205
       published: 2025-03-18-18-12-44
-      updated: 2025-04-15-21-14-55
+      updated: 2025-04-23-12-56-22
       followers: 1191
       likes: 51
-      views: 467
+      views: 478
       reposts: 3
       comments: !c |-
         CyOAkZPLQnla10GbAACqaWQ2MzU3MTUyMdkv0JzQsNCx0YDQuNCz0LDRiCAtINGD0LbQsNGB0L3Q
@@ -9496,15 +9496,15 @@
         - 753
         - 754
       published: 2025-03-18-18-13-11
-      updated: 2025-04-15-21-14-53
+      updated: 2025-04-23-12-56-16
       followers: 703
       likes: 61
-      views: 569
+      views: 579
     - service: ig
       id: DHWnZ7-PxN_
       mediaId: '18055358941897825'
       published: 2025-03-18-20-02-10
-      updated: 2025-04-16-01-13-16
+      updated: 2025-04-23-12-56-21
       followers: 1533
       likes: 106
       views: 348
@@ -10661,15 +10661,28 @@
       id: DIwjvpdAFVC
       mediaId: '18036192113308979'
       published: 2025-04-22-19-21-00
+      updated: 2025-04-23-12-56-09
       followers: 1530
+      likes: 82
     - service: vk
       id: 2301
       published: 2025-04-22-19-21-00
+      updated: 2025-04-23-12-56-10
       followers: 1265
+      likes: 35
+      views: 296
+      reposts: 1
+      comments: !c |-
+        G6sAAJwJtg2LbZi8si8GoUHYboRrXGoFGXYJRpj8W95yl9Pbb4qNICSFev/4KV7myGQnTh67G5ym
+        WeqBhRjgNuICeloL+P25P7QeM+LtiQq3ogMMWBJnyZLJ3FNm44hkBcPH95BRQCPEScvjjAAp95qs
+        2go=
     - service: tg
       id: 808
       published: 2025-04-22-19-57-23
+      updated: 2025-04-23-12-56-10
       followers: 724
+      likes: 51
+      views: 197
 2018-09-29-towers-of-arkngthand:
   title: Towers of Arkngthand
   titleRu: Башни Аркнтанда
@@ -10751,18 +10764,18 @@
       id: DIo1NeaN-no
       mediaId: '18130126402416964'
       published: 2025-04-19-18-20-30
-      updated: 2025-04-21-17-31-10
+      updated: 2025-04-23-12-56-12
       followers: 1529
-      likes: 81
+      likes: 89
       views: 293
     - service: vk
       id: 2295
       published: 2025-04-19-18-20-51
-      updated: 2025-04-21-18-20-43
+      updated: 2025-04-23-12-56-13
       followers: 1263
-      likes: 37
-      views: 276
-      reposts: 1
+      likes: 52
+      views: 335
+      reposts: 2
     - service: tg
       id:
         - 801
@@ -10770,10 +10783,10 @@
         - 803
         - 804
       published: 2025-04-19-18-21-12
-      updated: 2025-04-21-18-20-42
+      updated: 2025-04-23-12-56-12
       followers: 722
-      likes: 50
-      views: 218
+      likes: 57
+      views: 284
       comments: !c |-
         G3kBwJwHtq0l+zgYrWHn2Zjon7jYEf7xmyJPPE4DbQo0iDjZBxnbSumWNJHhK+weim1i6IZiqqZi
         quc9orDBQlpYTtOThZQ/V9kuCSmSCm5w4JRkFmlCiT9QypPC0JKDNNDW7fWhz70+/968vx7H7+ZM
@@ -12468,17 +12481,17 @@
       id: DGyXlepu_64
       mediaId: '18059122184506345'
       published: 2025-03-04-18-11-17
-      updated: 2025-04-15-21-14-58
+      updated: 2025-04-23-12-56-24
       followers: 1538
       likes: 64
       views: 246
     - service: vk
       id: 2169
       published: 2025-03-04-18-11-25
-      updated: 2025-04-15-21-14-57
+      updated: 2025-04-23-12-56-26
       followers: 1158
       likes: 36
-      views: 406
+      views: 410
       comments: !c |-
         G0kCACwHbGMF2i8TrJOEZal8D/R+VqdO/PPPyYaTwP+ooJNZx8PEAq6EShJP7gOduRwO8+owi4Mi
         giI4h5hrr5/karZjDzDAiP5/7Sa7dokHlsVSuxCVtVlvqariP+cpERWMwYtCSO0pRzaTJDpN646P
@@ -12490,10 +12503,10 @@
     - service: tg
       id: 734
       published: 2025-03-04-18-11-32
-      updated: 2025-04-15-21-14-55
+      updated: 2025-04-23-12-56-18
       followers: 690
       likes: 56
-      views: 479
+      views: 485
 2018-11-08-bittercup:
   title: Bittercup
   titleRu: Горькая Чаша
@@ -13204,9 +13217,9 @@
       id: DIeh88ZJPRt
       mediaId: '18063533009052020'
       published: 2025-04-15-18-19-50
-      updated: 2025-04-21-20-17-14
+      updated: 2025-04-23-12-56-17
       followers: 1529
-      likes: 78
+      likes: 79
       views: 297
       comments: !c |-
         ix+AkZTLQnljrg26gACrZGVsYW5vc3BpZXOlU3BvdD+Ty0J5ZHSk1wAApW13c2Nysm5vdCByZWNv
@@ -13214,19 +13227,19 @@
     - service: vk
       id: 2279
       published: 2025-04-15-18-19-56
-      updated: 2025-04-21-20-17-16
+      updated: 2025-04-23-12-56-17
       followers: 1258
-      likes: 53
-      views: 379
+      likes: 57
+      views: 395
       reposts: 1
       comments: !c CxaAkZPLQnllW6DrgACuZWxsZW5fcmlwbGV5eXmy0J3QvtGB0YLQsNC70YzQttC4Aw==
     - service: tg
       id: 795
       published: 2025-04-15-18-20-03
-      updated: 2025-04-21-20-17-15
+      updated: 2025-04-23-12-56-14
       followers: 720
       likes: 68
-      views: 313
+      views: 322
 2018-11-24-ministry-of-truth:
   title: Ministry of Truth
   titleRu: Министерство Правды

@@ -646,17 +646,17 @@
       id: DIhG_1uAMEY
       mediaId: '17901096612163942'
       published: 2025-04-16-18-22-02
-      updated: 2025-04-21-20-17-13
+      updated: 2025-04-23-12-56-16
       followers: 1529
       likes: 84
       views: 307
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2025-04-21-20-17-14
+      updated: 2025-04-23-12-56-15
       followers: 1261
-      likes: 68
-      views: 404
+      likes: 73
+      views: 441
       reposts: 2
       comments: !c |-
         G3MA+C0SzNOZIrBxyzn4pCAU2IEHFAjFAZdQxMkOdTWlBCks4wLeP73ICyTQyOLa2rKs//L9dMAX
@@ -664,10 +664,10 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2025-04-21-20-17-14
+      updated: 2025-04-23-12-56-14
       followers: 720
       likes: 55
-      views: 341
+      views: 364
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
@@ -996,7 +996,7 @@
     - service: vk
       id: 1561
       published: 2024-06-03-18-20-43
-      updated: 2025-04-15-20-17-35
+      updated: 2025-04-23-12-57-12
       followers: 915
       likes: 36
       views: 292
@@ -1005,10 +1005,10 @@
     - service: tg
       id: 428
       published: 2024-06-03-18-20-51
-      updated: 2025-04-15-20-17-30
+      updated: 2025-04-23-12-56-59
       followers: 383
       likes: 59
-      views: 486
+      views: 488
 2016-12-11-khajiit-gives-away:
   title: Khajiit Gives Away
   titleRu: Каджит себя выдал
