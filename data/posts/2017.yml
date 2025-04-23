@@ -738,7 +738,7 @@
     - service: vk
       id: 1699
       published: 2024-08-20-18-20-17
-      updated: 2025-04-16-23-14-46
+      updated: 2025-04-23-23-16-03
       followers: 936
       likes: 45
       views: 322
@@ -746,10 +746,10 @@
     - service: tg
       id: 507
       published: 2024-08-20-18-20-26
-      updated: 2025-04-16-23-14-43
+      updated: 2025-04-23-23-16-02
       followers: 534
       likes: 61
-      views: 646
+      views: 648
 2017-01-21-building-akulakhan:
   title: Building Akulakhan
   titleRu: Строительство Акулахана
@@ -3390,10 +3390,10 @@
     - service: vk
       id: 2172
       published: 2025-03-05-18-11-47
-      updated: 2025-04-16-23-14-43
+      updated: 2025-04-23-23-16-00
       followers: 1160
       likes: 50
-      views: 421
+      views: 424
     - service: tg
       id: 735
       published: 2025-03-05-18-11-54
@@ -4417,10 +4417,10 @@
     - service: tg
       id: 715
       published: 2025-02-19-18-11-28
-      updated: 2025-04-16-23-14-41
+      updated: 2025-04-23-23-16-00
       followers: 681
       likes: 61
-      views: 523
+      views: 525
       comments: !c iw+AkZPLQnlSitHkgACvQWxleGV5IFN0ZXBhbm92pPCfko4D
 2017-04-12-lets-set-sail:
   title: Let's Set Sail!
