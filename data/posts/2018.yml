@@ -373,7 +373,7 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2025-04-17-13-25-30
+      updated: 2025-04-24-13-28-24
       followers: 927
       likes: 47
       views: 336
@@ -381,10 +381,10 @@
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2025-04-17-13-25-25
+      updated: 2025-04-24-13-28-22
       followers: 504
       likes: 75
-      views: 755
+      views: 758
       comments: !c |-
         G3sA4J0J8eYvY9w1zRIh5EsnB5hJQAcNMEnwwAWchh42r6iW1W1P8amZ8uXij8eBHsGcTcmWmIBK
         4wYH7BVQHAU62AA47ilLSVUQFPt+yYqr3JMaFOvrN6RW9EHlhD0MB0O3Ze7vyPQIKRWX9Uhj9h5Y
@@ -4681,7 +4681,7 @@
     - service: vk
       id: 1796
       published: 2024-10-02-18-10-34
-      updated: 2025-04-17-13-25-23
+      updated: 2025-04-24-13-28-17
       followers: 957
       likes: 34
       views: 345
@@ -4693,10 +4693,10 @@
     - service: tg
       id: 552
       published: 2024-10-02-18-10-41
-      updated: 2025-04-17-13-25-20
+      updated: 2025-04-24-13-28-15
       followers: 560
       likes: 66
-      views: 536
+      views: 538
 2018-05-01-view-of-bthanchend:
   title: View of Bthanchend
   titleRu: Вид на Бтанченд
@@ -7299,17 +7299,17 @@
     - service: vk
       id: 1700
       published: 2024-08-21-18-19-57
-      updated: 2025-04-17-13-25-29
+      updated: 2025-04-24-13-28-22
       followers: 937
       likes: 41
       views: 302
     - service: tg
       id: 508
       published: 2024-08-21-18-20-03
-      updated: 2025-04-17-13-25-24
+      updated: 2025-04-24-13-28-20
       followers: 538
       likes: 60
-      views: 579
+      views: 581
 2018-07-08-statues-of-gods:
   title: Statues of Gods
   titleRu: Статуи богов
@@ -9044,17 +9044,17 @@
     - service: vk
       id: 1772
       published: 2024-09-18-18-20-17
-      updated: 2025-04-17-13-25-25
+      updated: 2025-04-24-13-28-18
       followers: 947
       likes: 37
       views: 313
     - service: tg
       id: 537
       published: 2024-09-18-18-20-25
-      updated: 2025-04-17-13-25-21
+      updated: 2025-04-24-13-28-17
       followers: 556
       likes: 58
-      views: 539
+      views: 540
 2018-08-25-on-the-background-of-carpet:
   title: On the Background of Carpet
   titleRu: На фоне ковра
@@ -10661,25 +10661,26 @@
       id: DIwjvpdAFVC
       mediaId: '18036192113308979'
       published: 2025-04-22-19-21-00
-      updated: 2025-04-24-12-34-18
+      updated: 2025-04-24-13-28-06
       followers: 1530
-      likes: 107
+      likes: 108
     - service: vk
       id: 2301
       published: 2025-04-22-19-21-00
-      updated: 2025-04-24-12-34-19
+      updated: 2025-04-24-13-28-07
       followers: 1265
       likes: 52
-      views: 398
+      views: 402
       reposts: 1
       comments: !c |-
-        G6sAAJwJtg2LbZi8si8GoUHYboRrXGoFGXYJRpj8W95yl9Pbb4qNICSFev/4KV7myGQnTh67G5ym
-        WeqBhRjgNuICeloL+P25P7QeM+LtiQq3ogMMWBJnyZLJ3FNm44hkBcPH95BRQCPEScvjjAAp95qs
-        2go=
+        G/IAQCwOzHOPR1SQem5LTt4onr/RJ3zFlXqmJdYRnsxC6blsI+MVpT7xzG21bpKpbKvWbDgdWgQN
+        hvTl6R8+dZssr5xdlZm5wWmaLTj5YCMOuK2bbbb4ADZ4yNY/FUHy/fP+s37bWr8bESUiVb1n98BG
+        a9jMQqN5TGaxCO04fT4H3wCrCCuUJ0+AfGr+WSe2faxecljfNSZm4cDX66jXMA4oNI39HAIpOepu
+        Axc=
     - service: tg
       id: 808
       published: 2025-04-22-19-57-23
-      updated: 2025-04-24-12-34-18
+      updated: 2025-04-24-13-28-08
       followers: 724
       likes: 62
       views: 255
@@ -10764,17 +10765,17 @@
       id: DIo1NeaN-no
       mediaId: '18130126402416964'
       published: 2025-04-19-18-20-30
-      updated: 2025-04-23-12-56-12
+      updated: 2025-04-24-13-28-08
       followers: 1529
       likes: 89
       views: 293
     - service: vk
       id: 2295
       published: 2025-04-19-18-20-51
-      updated: 2025-04-23-12-56-13
+      updated: 2025-04-24-13-28-08
       followers: 1263
       likes: 52
-      views: 335
+      views: 362
       reposts: 2
     - service: tg
       id:
@@ -10783,10 +10784,10 @@
         - 803
         - 804
       published: 2025-04-19-18-21-12
-      updated: 2025-04-23-12-56-12
+      updated: 2025-04-24-13-28-09
       followers: 722
-      likes: 57
-      views: 284
+      likes: 62
+      views: 331
       comments: !c |-
         G3kBwJwHtq0l+zgYrWHn2Zjon7jYEf7xmyJPPE4DbQo0iDjZBxnbSumWNJHhK+weim1i6IZiqqZi
         quc9orDBQlpYTtOThZQ/V9kuCSmSCm5w4JRkFmlCiT9QypPC0JKDNNDW7fWhz70+/968vx7H7+ZM
@@ -11840,7 +11841,7 @@
     - service: vk
       id: 999
       published: 2018-10-22
-      updated: 2025-04-17-13-27-06
+      updated: 2025-04-24-13-30-00
       followers: 257
       likes: 26
       views: 393
@@ -11870,7 +11871,7 @@
     - service: vk
       id: 1000
       published: 2018-10-23
-      updated: 2025-04-17-13-27-05
+      updated: 2025-04-24-13-29-59
       followers: 257
       likes: 26
       views: 435
@@ -11909,7 +11910,7 @@
     - service: vk
       id: 1001
       published: 2018-10-24
-      updated: 2025-04-17-13-27-04
+      updated: 2025-04-24-13-29-58
       followers: 258
       likes: 48
       views: 1016
@@ -11946,7 +11947,7 @@
     - service: vk
       id: 1002
       published: 2018-10-25
-      updated: 2025-04-17-13-27-03
+      updated: 2025-04-24-13-29-57
       followers: 259
       likes: 39
       views: 667
@@ -11978,7 +11979,7 @@
     - service: vk
       id: 1003
       published: 2018-10-26
-      updated: 2025-04-17-13-27-02
+      updated: 2025-04-24-13-29-56
       followers: 258
       likes: 22
       views: 419
@@ -12013,7 +12014,7 @@
     - service: vk
       id: 1004
       published: 2018-10-27
-      updated: 2025-04-17-13-27-01
+      updated: 2025-04-24-13-29-55
       followers: 258
       likes: 35
       views: 588
@@ -12048,7 +12049,7 @@
     - service: vk
       id: 1005
       published: 2018-10-28
-      updated: 2025-04-17-13-27-00
+      updated: 2025-04-24-13-29-54
       followers: 259
       likes: 37
       views: 417
@@ -12084,7 +12085,7 @@
     - service: vk
       id: 1007
       published: 2018-10-29
-      updated: 2025-04-17-13-27-00
+      updated: 2025-04-24-13-29-53
       followers: 266
       likes: 37
       views: 538
@@ -12152,7 +12153,7 @@
     - service: vk
       id: 1010
       published: 2018-10-30
-      updated: 2025-04-17-13-26-59
+      updated: 2025-04-24-13-29-52
       followers: 270
       likes: 35
       views: 523
@@ -12215,7 +12216,7 @@
     - service: vk
       id: 1018
       published: 2018-10-31
-      updated: 2025-04-17-13-26-58
+      updated: 2025-04-24-13-29-51
       followers: 271
       likes: 51
       views: 1023
@@ -12267,7 +12268,7 @@
     - service: vk
       id: 1022
       published: 2018-11-01
-      updated: 2025-04-17-13-26-57
+      updated: 2025-04-24-13-29-50
       followers: 278
       likes: 35
       views: 575
@@ -12301,7 +12302,7 @@
     - service: vk
       id: 1025
       published: 2018-11-02
-      updated: 2025-04-17-13-26-56
+      updated: 2025-04-24-13-29-49
       followers: 279
       likes: 29
       views: 466
@@ -12355,7 +12356,7 @@
     - service: vk
       id: 1026
       published: 2018-11-04
-      updated: 2025-04-17-13-26-55
+      updated: 2025-04-24-13-29-48
       followers: 280
       likes: 29
       views: 443
@@ -12389,7 +12390,7 @@
     - service: vk
       id: 1027
       published: 2018-11-05
-      updated: 2025-04-17-13-26-54
+      updated: 2025-04-24-13-29-47
       followers: 282
       likes: 24
       views: 479
@@ -12430,7 +12431,7 @@
     - service: vk
       id: 1031
       published: 2018-11-06
-      updated: 2025-04-17-13-26-53
+      updated: 2025-04-24-13-29-46
       followers: 284
       likes: 25
       views: 496
@@ -12467,7 +12468,7 @@
     - service: vk
       id: 1034
       published: 2018-11-07
-      updated: 2025-04-17-13-26-52
+      updated: 2025-04-24-13-29-45
       followers: 285
       likes: 26
       views: 479
@@ -12528,7 +12529,7 @@
     - service: vk
       id: 1035
       published: 2018-11-08
-      updated: 2025-04-17-13-26-51
+      updated: 2025-04-24-13-29-44
       followers: 285
       likes: 36
       views: 514
@@ -12553,7 +12554,7 @@
     - service: vk
       id: 1850
       published: 2024-10-23-18-10-16
-      updated: 2025-04-17-13-25-20
+      updated: 2025-04-24-13-28-13
       followers: 994
       likes: 45
       views: 355
@@ -12566,10 +12567,10 @@
     - service: tg
       id: 573
       published: 2024-10-23-18-10-22
-      updated: 2025-04-17-13-25-17
+      updated: 2025-04-24-13-28-12
       followers: 563
       likes: 68
-      views: 555
+      views: 559
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов
@@ -12596,7 +12597,7 @@
     - service: vk
       id: 1048
       published: 2018-11-09
-      updated: 2025-04-17-13-26-50
+      updated: 2025-04-24-13-29-43
       followers: 283
       likes: 45
       views: 574
@@ -12669,7 +12670,7 @@
     - service: vk
       id: 1052
       published: 2018-11-11
-      updated: 2025-04-17-13-26-49
+      updated: 2025-04-24-13-29-42
       followers: 285
       likes: 38
       views: 571
@@ -12701,7 +12702,7 @@
     - service: vk
       id: 1053
       published: 2018-11-13
-      updated: 2025-04-17-13-26-48
+      updated: 2025-04-24-13-29-41
       followers: 285
       likes: 40
       views: 517
@@ -12733,7 +12734,7 @@
     - service: vk
       id: 1054
       published: 2018-11-14
-      updated: 2025-04-17-13-26-48
+      updated: 2025-04-24-13-29-40
       followers: 285
       likes: 30
       views: 483
@@ -12763,7 +12764,7 @@
     - service: vk
       id: 1055
       published: 2018-11-15
-      updated: 2025-04-17-13-26-47
+      updated: 2025-04-24-13-29-39
       followers: 286
       likes: 36
       views: 507
@@ -12799,7 +12800,7 @@
     - service: vk
       id: 1056
       published: 2018-11-16
-      updated: 2025-04-17-13-26-46
+      updated: 2025-04-24-13-29-38
       followers: 286
       likes: 29
       views: 499
@@ -12860,7 +12861,7 @@
     - service: vk
       id: 1057
       published: 2018-11-17
-      updated: 2025-04-17-13-26-45
+      updated: 2025-04-24-13-29-37
       followers: 286
       likes: 58
       views: 661
@@ -12922,7 +12923,7 @@
     - service: vk
       id: 1058
       published: 2018-11-18
-      updated: 2025-04-17-13-26-44
+      updated: 2025-04-24-13-29-36
       followers: 286
       likes: 37
       views: 535
@@ -12991,7 +12992,7 @@
     - service: vk
       id: 1060
       published: 2018-11-19
-      updated: 2025-04-17-13-26-43
+      updated: 2025-04-24-13-29-36
       followers: 287
       likes: 46
       views: 595
@@ -13025,7 +13026,7 @@
     - service: vk
       id: 1061
       published: 2018-11-20
-      updated: 2025-04-17-13-26-42
+      updated: 2025-04-24-13-29-35
       followers: 287
       likes: 37
       views: 705
@@ -13074,7 +13075,7 @@
     - service: vk
       id: 1069
       published: 2018-11-21
-      updated: 2025-04-17-13-26-41
+      updated: 2025-04-24-13-29-34
       followers: 287
       likes: 35
       views: 1043
@@ -13138,7 +13139,7 @@
     - service: vk
       id: 1071
       published: 2018-11-22
-      updated: 2025-04-17-13-26-40
+      updated: 2025-04-24-13-29-33
       followers: 287
       likes: 37
       views: 997
@@ -13196,7 +13197,7 @@
     - service: vk
       id: 1072
       published: 2018-11-23
-      updated: 2025-04-17-13-26-39
+      updated: 2025-04-24-13-29-32
       followers: 287
       likes: 34
       views: 990
@@ -13263,7 +13264,7 @@
     - service: vk
       id: 1075
       published: 2018-11-24
-      updated: 2025-04-17-13-26-38
+      updated: 2025-04-24-13-29-31
       followers: 288
       likes: 38
       views: 1108
@@ -13301,7 +13302,7 @@
     - service: vk
       id: 1076
       published: 2018-11-26
-      updated: 2025-04-17-13-26-37
+      updated: 2025-04-24-13-29-30
       followers: 293
       likes: 48
       views: 702
@@ -13338,7 +13339,7 @@
     - service: vk
       id: 1077
       published: 2018-11-28
-      updated: 2025-04-17-13-26-37
+      updated: 2025-04-24-13-29-29
       followers: 296
       likes: 43
       views: 1074
@@ -13378,7 +13379,7 @@
     - service: vk
       id: 1078
       published: 2018-11-29
-      updated: 2025-04-17-13-26-36
+      updated: 2025-04-24-13-29-28
       followers: 296
       likes: 52
       views: 1218
@@ -13414,7 +13415,7 @@
     - service: vk
       id: 1084
       published: 2018-11-30
-      updated: 2025-04-17-13-26-35
+      updated: 2025-04-24-13-29-27
       followers: 296
       likes: 35
       views: 1163
@@ -13472,7 +13473,7 @@
     - service: vk
       id: 1086
       published: 2018-12-02
-      updated: 2025-04-17-13-26-34
+      updated: 2025-04-24-13-29-26
       followers: 298
       likes: 38
       views: 1040
@@ -13527,7 +13528,7 @@
     - service: vk
       id: 1087
       published: 2018-12-04
-      updated: 2025-04-17-13-26-33
+      updated: 2025-04-24-13-29-25
       followers: 301
       likes: 48
       views: 1322
@@ -13564,7 +13565,7 @@
     - service: vk
       id: 1088
       published: 2018-12-05
-      updated: 2025-04-17-13-26-32
+      updated: 2025-04-24-13-29-24
       followers: 302
       likes: 41
       views: 889

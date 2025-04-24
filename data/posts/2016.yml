@@ -176,7 +176,7 @@
     - service: vk
       id: 1750
       published: 2024-09-11-18-36-08
-      updated: 2025-04-17-13-25-26
+      updated: 2025-04-24-13-28-19
       followers: 945
       likes: 51
       views: 419
@@ -187,10 +187,10 @@
     - service: tg
       id: 529
       published: 2024-09-11-18-36-14
-      updated: 2025-04-17-13-25-22
+      updated: 2025-04-24-13-28-18
       followers: 555
       likes: 57
-      views: 944
+      views: 958
       comments: !c ixaAkZTLQnkeJgMugAClYW5zaXOnbXkgaG9tZZPLQnkeK5YvAACpR2F0ZW1hdGU3oAM=
 2016-11-20-5-galom-daeus:
   title: Galom Daeus
@@ -646,17 +646,17 @@
       id: DIhG_1uAMEY
       mediaId: '17901096612163942'
       published: 2025-04-16-18-22-02
-      updated: 2025-04-23-12-56-16
+      updated: 2025-04-24-13-28-13
       followers: 1529
-      likes: 84
+      likes: 85
       views: 307
     - service: vk
       id: 2282
       published: 2025-04-16-18-22-11
-      updated: 2025-04-23-12-56-15
+      updated: 2025-04-24-13-28-11
       followers: 1261
       likes: 73
-      views: 441
+      views: 448
       reposts: 2
       comments: !c |-
         G3MA+C0SzNOZIrBxyzn4pCAU2IEHFAjFAZdQxMkOdTWlBCks4wLeP73ICyTQyOLa2rKs//L9dMAX
@@ -664,10 +664,10 @@
     - service: tg
       id: 797
       published: 2025-04-16-18-22-22
-      updated: 2025-04-23-12-56-14
+      updated: 2025-04-24-13-28-11
       followers: 720
       likes: 55
-      views: 364
+      views: 381
 2016-12-02-molag-mar:
   title: Molag Mar
   titleRu: Молаг Мар
@@ -1613,7 +1613,7 @@
     - service: vk
       id: 1713
       published: 2024-08-28-18-23-48
-      updated: 2025-04-17-13-25-28
+      updated: 2025-04-24-13-28-21
       followers: 940
       likes: 49
       views: 363
@@ -1626,10 +1626,10 @@
     - service: tg
       id: 515
       published: 2024-08-28-18-23-56
-      updated: 2025-04-17-13-25-23
+      updated: 2025-04-24-13-28-19
       followers: 546
       likes: 70
-      views: 643
+      views: 645
 2016-12-29-entering-holamayan-monastery:
   title: Entering Holamayan Monastery
   titleRu: Вход в монастырь Холамаян
