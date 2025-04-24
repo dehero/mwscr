@@ -7206,10 +7206,10 @@
     - service: vk
       id: 1969
       published: 2024-12-18-18-12-01
-      updated: 2025-04-17-04-18-53
+      updated: 2025-04-24-04-20-02
       followers: 1028
       likes: 54
-      views: 426
+      views: 427
       reposts: 5
       comments: !c |-
         Gw8GAKwPuDm+AtLgqOgdv9NZzV+GVejGP/9/8fuEdz1q/po3WBBnUBJ5EniBB5LsA5p46rvYg0dY
@@ -7228,10 +7228,10 @@
     - service: tg
       id: 629
       published: 2024-12-18-18-12-11
-      updated: 2025-04-17-04-18-51
+      updated: 2025-04-24-04-20-01
       followers: 582
       likes: 68
-      views: 670
+      views: 672
       comments: !c |-
         CzCAkZPLQnk9sjAogACpcmVzaXN0X2l02UrQktGLINGC0L7QttC1INGB0LvRi9GI0LjRgtC1INC/
         0LjRgdC6INGN0YLQvtC5INC60YDRi9GB0Ysg0LLQtNCw0LvQuD8g8J+YhQM=
@@ -10661,16 +10661,16 @@
       id: DIwjvpdAFVC
       mediaId: '18036192113308979'
       published: 2025-04-22-19-21-00
-      updated: 2025-04-24-03-04-37
+      updated: 2025-04-24-04-20-00
       followers: 1530
       likes: 103
     - service: vk
       id: 2301
       published: 2025-04-22-19-21-00
-      updated: 2025-04-24-03-04-38
+      updated: 2025-04-24-04-20-01
       followers: 1265
       likes: 45
-      views: 357
+      views: 359
       reposts: 1
       comments: !c |-
         G6sAAJwJtg2LbZi8si8GoUHYboRrXGoFGXYJRpj8W95yl9Pbb4qNICSFev/4KV7myGQnTh67G5ym
@@ -10679,10 +10679,10 @@
     - service: tg
       id: 808
       published: 2025-04-22-19-57-23
-      updated: 2025-04-24-03-04-38
+      updated: 2025-04-24-04-20-00
       followers: 724
       likes: 58
-      views: 238
+      views: 240
 2018-09-29-towers-of-arkngthand:
   title: Towers of Arkngthand
   titleRu: Башни Аркнтанда
