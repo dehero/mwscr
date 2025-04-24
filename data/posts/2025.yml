@@ -670,7 +670,7 @@
       id: DHbkbpctj9L
       mediaId: '18045629900366379'
       published: 2025-03-20-18-12-24
-      updated: 2025-04-17-21-14-45
+      updated: 2025-04-24-21-16-02
       followers: 1534
       likes: 86
       views: 336
@@ -693,10 +693,10 @@
     - service: tg
       id: 756
       published: 2025-03-20-18-12-38
-      updated: 2025-04-17-21-14-39
+      updated: 2025-04-24-21-15-58
       followers: 705
       likes: 63
-      views: 482
+      views: 495
       comments: !c |-
         G8QA4IyTpVJZlVREI9sk04pbylSSWGJ0POHrjMqo+CWkt49Q/rdtXeeWXkOkBKNKUIq6I52c6JUO
         V/j8wFGgAUjiGQUew+uZFNwUxVt9+QlhADD4KkU7k+bn//tquoPoLsPfnAhQ7d/XqLLRhuwghEbQ
@@ -1408,23 +1408,23 @@
       id: DIzI2IpTLkI
       mediaId: '17987354294807991'
       published: 2025-04-23-18-24-31
-      updated: 2025-04-24-20-18-38
+      updated: 2025-04-24-21-15-56
       followers: 1532
       likes: 57
     - service: vk
       id: 2303
       published: 2025-04-23-18-24-39
-      updated: 2025-04-24-20-18-38
+      updated: 2025-04-24-21-15-56
       followers: 1266
       likes: 24
       views: 205
     - service: tg
       id: 809
       published: 2025-04-23-18-24-45
-      updated: 2025-04-24-20-18-38
+      updated: 2025-04-24-21-15-56
       followers: 725
       likes: 49
-      views: 207
+      views: 208
 2025-04-24-forgotten-basket:
   title: Forgotten Basket
   titleRu: Забытая корзина
@@ -1444,24 +1444,24 @@
       id: DI1tfb4O5Qb
       mediaId: '17953046774955328'
       published: 2025-04-24-18-23-13
-      updated: 2025-04-24-20-18-38
+      updated: 2025-04-24-21-15-56
       followers: 1533
-      likes: 20
+      likes: 25
       comments: !c |-
         G0wAIB0JNk7y8a6RXE8vwthaUC0uSbDaxU52oOeMUGslscEGHDi00IIDzbMOHsPrHw4pt/dVOh+A
         KxxpJ6h91mA3HFELsPBZsweKAg==
     - service: vk
       id: 2305
       published: 2025-04-24-18-23-20
-      updated: 2025-04-24-20-18-37
+      updated: 2025-04-24-21-15-55
       followers: 1268
-      likes: 11
-      views: 71
+      likes: 14
+      views: 87
       reposts: 1
     - service: tg
       id: 810
       published: 2025-04-24-18-23-26
-      updated: 2025-04-24-20-18-38
+      updated: 2025-04-24-21-15-56
       followers: 725
-      likes: 26
-      views: 139
+      likes: 29
+      views: 148

@@ -156,18 +156,21 @@
       id: DIRqOTPPgLv
       mediaId: '18039545984234760'
       published: 2025-04-10-18-22-00
-      updated: 2025-04-17-21-14-42
+      updated: 2025-04-24-21-15-58
       followers: 1530
-      likes: 84
+      likes: 85
       views: 325
-      comments: !c ixWAkZPLQnliDx+PgACrZGVsYW5vc3BpZXO0Q2FsZGVyYSBtYWdlcyBndWlsZD8D
+      comments: !c |-
+        G9oAQI3UTrcmDoNc3GsgHsE46ZLAogg3dRMwwD4aC3QOkOj/21s4S7BLI+iN8xtANt6+gX6RB1to
+        88FscI4VU5hVzh+EvzBr7cQE2eIzbVDXz0OZzq+OmiSdEGhRns4gX8smkS9rZ3J/AV0/rbT7HE+g
+        7L7LpKERbJToU9inMkzpspzD2NCh4Kih6LZEUByQP+fuczgco1ykyuiV9dOxSCQ=
     - service: vk
       id: 2266
       published: 2025-04-10-18-22-07
-      updated: 2025-04-17-21-14-41
+      updated: 2025-04-24-21-15-57
       followers: 1246
-      likes: 48
-      views: 367
+      likes: 50
+      views: 391
       reposts: 2
       comments: !c |-
         G5kA+J0Jxo2LXy94RYqbinr6G+n7rFmGTWKRJntmt1KVikOMWpeVMM4Y7EunJ3vOcroLArtYFVke
@@ -176,10 +179,10 @@
     - service: tg
       id: 786
       published: 2025-04-10-18-22-13
-      updated: 2025-04-17-21-14-38
+      updated: 2025-04-24-21-15-57
       followers: 722
-      likes: 55
-      views: 450
+      likes: 58
+      views: 506
 2017-01-06-daedroth-in-grazelands:
   title: Daedroth in Grazelands
   titleRu: Даэдрот в Грейзленде
@@ -2584,7 +2587,7 @@
     - service: vk
       id: 1641
       published: 2024-07-17-18-20-24
-      updated: 2025-04-17-21-14-46
+      updated: 2025-04-24-21-16-02
       followers: 919
       likes: 39
       views: 318
@@ -2824,7 +2827,7 @@
     - service: tg
       id: 416
       published: 2024-05-22-18-19-31
-      updated: 2025-04-17-21-14-47
+      updated: 2025-04-24-21-16-09
       followers: 375
       likes: 57
       views: 470
@@ -4305,7 +4308,7 @@
     - service: vk
       id: 1588
       published: 2024-06-19-18-19-29
-      updated: 2025-04-17-21-14-50
+      updated: 2025-04-24-21-16-07
       followers: 917
       likes: 44
       views: 338
@@ -5291,7 +5294,7 @@
     - service: vk
       id: 1569
       published: 2024-06-05-18-19-31
-      updated: 2025-04-17-21-14-52
+      updated: 2025-04-24-21-16-09
       followers: 916
       likes: 45
       views: 337
@@ -5303,10 +5306,10 @@
     - service: tg
       id: 430
       published: 2024-06-05-18-19-36
-      updated: 2025-04-17-21-14-45
+      updated: 2025-04-24-21-16-07
       followers: 385
       likes: 70
-      views: 543
+      views: 544
       comments: !c |-
         izKAkpPLQnj/GH6FgACvQWxleGV5IFN0ZXBhbm92v015IGhlYXJ0IHN0YXJ0ZWQgYmVhdGluZyBm
         YXN0ZXKTy0J4/poWK4AAqUdhdGVtYXRlN7ZpdCBpcyBzbyBiZWF1dGlmdWwuLi4uAw==
@@ -5844,7 +5847,7 @@
     - service: vk
       id: 1629
       published: 2024-07-10-18-22-25
-      updated: 2025-04-17-21-14-48
+      updated: 2025-04-24-21-16-03
       followers: 919
       likes: 37
       views: 265
@@ -6538,14 +6541,14 @@
     - service: vk
       id: 1612
       published: 2024-07-03-18-19-45
-      updated: 2025-04-17-21-14-49
+      updated: 2025-04-24-21-16-05
       followers: 917
       likes: 28
       views: 239
     - service: tg
       id: 458
       published: 2024-07-03-18-19-53
-      updated: 2025-04-17-21-14-42
+      updated: 2025-04-24-21-16-03
       followers: 391
       likes: 50
       views: 461
@@ -7201,10 +7204,10 @@
     - service: tg
       id: 487
       published: 2024-08-01-03-18-14
-      updated: 2025-04-17-21-14-41
+      updated: 2025-04-24-21-16-02
       followers: 423
       likes: 60
-      views: 798
+      views: 799
       comments: !c Cw6AkZPLQnkTOt+EgACscHVzdG90aXZldHJhpPCfmIID
     - service: vk
       id: 1663
@@ -7420,7 +7423,7 @@
       id: DGTeDcPJGYV
       mediaId: '18079508434724391'
       published: 2025-02-20-18-11-21
-      updated: 2025-04-17-21-14-47
+      updated: 2025-04-24-21-16-04
       followers: 1537
       likes: 72
       views: 409
@@ -7434,10 +7437,10 @@
     - service: tg
       id: 716
       published: 2025-02-20-18-11-40
-      updated: 2025-04-17-21-14-40
+      updated: 2025-04-24-21-16-00
       followers: 681
       likes: 58
-      views: 491
+      views: 494
       comments: !c |-
         G8oAAOTgmif+K7FhFQbIR5SNq7iCKnS41tFAh/vGzjXeZiiKsk3jyBjPMy7dof7ulEakkf1b7VvU
         zZWub4BlRCAd0g3kDVJBJdka/3qNSjcE0v9jW6RQgxQtgktZ/dOQ5YAsEGmO7OFShHUU1TQ3ikq+
@@ -11410,14 +11413,14 @@
     - service: vk
       id: 1603
       published: 2024-06-26-18-19-40
-      updated: 2025-04-17-21-14-49
+      updated: 2025-04-24-21-16-06
       followers: 917
       likes: 42
       views: 271
     - service: tg
       id: 451
       published: 2024-06-26-18-19-49
-      updated: 2025-04-17-21-14-44
+      updated: 2025-04-24-21-16-05
       followers: 388
       likes: 56
       views: 492
