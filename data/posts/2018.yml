@@ -10164,7 +10164,7 @@
     - service: vk
       id: 929
       published: 2018-09-17
-      updated: 2025-04-17-16-19-51
+      updated: 2025-04-24-16-20-43
       followers: 232
       likes: 22
       views: 345
@@ -10199,7 +10199,7 @@
     - service: vk
       id: 933
       published: 2018-09-18
-      updated: 2025-04-17-16-19-50
+      updated: 2025-04-24-16-20-42
       followers: 231
       likes: 29
       views: 441
@@ -10661,16 +10661,16 @@
       id: DIwjvpdAFVC
       mediaId: '18036192113308979'
       published: 2025-04-22-19-21-00
-      updated: 2025-04-24-15-18-10
+      updated: 2025-04-24-16-20-40
       followers: 1530
       likes: 108
     - service: vk
       id: 2301
       published: 2025-04-22-19-21-00
-      updated: 2025-04-24-15-18-10
+      updated: 2025-04-24-16-20-41
       followers: 1265
       likes: 52
-      views: 404
+      views: 410
       reposts: 1
       comments: !c |-
         G/IAQCwOzHOPR1SQem5LTt4onr/RJ3zFlXqmJdYRnsxC6blsI+MVpT7xzG21bpKpbKvWbDgdWgQN
@@ -10680,10 +10680,10 @@
     - service: tg
       id: 808
       published: 2025-04-22-19-57-23
-      updated: 2025-04-24-15-18-09
+      updated: 2025-04-24-16-20-41
       followers: 724
       likes: 62
-      views: 256
+      views: 257
 2018-09-29-towers-of-arkngthand:
   title: Towers of Arkngthand
   titleRu: Башни Аркнтанда
