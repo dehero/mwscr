@@ -2216,7 +2216,7 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2025-04-18-16-18-45
+      updated: 2025-04-25-16-20-16
       followers: 919
       likes: 32
       views: 281
@@ -2224,7 +2224,7 @@
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2025-04-18-16-18-42
+      updated: 2025-04-25-16-20-13
       followers: 391
       likes: 57
       views: 587
@@ -3347,7 +3347,7 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2025-04-18-16-18-46
+      updated: 2025-04-25-16-20-17
       followers: 919
       likes: 49
       views: 341
@@ -3355,13 +3355,13 @@
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2025-04-18-16-18-42
+      updated: 2025-04-25-16-20-14
       followers: 387
       likes: 65
       views: 507
       comments: !c |-
-        CySAkZPLQnkECYQ5gACqQmVybXVkYV9tZtkx0K3RgtC+INCy0YvQs9C70Y/QtNC40YIg0YLQsNC6
-        INC/0YDQtdC60YDQsNGB0L3QvgM=
+        iyeAkZPLQnkECYQ5gACxQmVybXVkYV9CaWdGYW1vdXPZMdCt0YLQviDQstGL0LPQu9GP0LTQuNGC
+        INGC0LDQuiDQv9GA0LXQutGA0LDRgdC90L4D
 2017-03-19-stairs-in-vansunalit-egg-mine:
   title: Stairs in Vansunalit Egg Mine
   titleRu: Лестница в яичной шахте Вансуналит
@@ -4827,17 +4827,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2025-04-18-16-18-44
+      updated: 2025-04-25-16-20-15
       followers: 920
       likes: 40
       views: 269
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2025-04-18-16-18-41
+      updated: 2025-04-25-16-20-12
       followers: 397
       likes: 62
-      views: 519
+      views: 520
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
