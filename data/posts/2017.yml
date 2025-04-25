@@ -1573,14 +1573,14 @@
     - service: vk
       id: 1818
       published: 2024-10-10-18-10-22
-      updated: 2025-04-18-10-16-44
+      updated: 2025-04-25-10-17-48
       followers: 960
       likes: 36
       views: 336
     - service: tg
       id: 560
       published: 2024-10-10-18-10-28
-      updated: 2025-04-18-10-16-43
+      updated: 2025-04-25-10-17-47
       followers: 559
       likes: 62
       views: 498
@@ -3095,19 +3095,19 @@
     - service: vk
       id: 1840
       published: 2024-10-17-18-09-16
-      updated: 2025-04-18-10-16-42
+      updated: 2025-04-25-10-17-46
       followers: 965
       likes: 49
-      views: 604
+      views: 608
       reposts: 2
       comments: !c iwuAkZPLQnkp0j58gACnaHlhcnZhcqTwn6WwAw==
     - service: tg
       id: 567
       published: 2024-10-17-18-09-22
-      updated: 2025-04-18-10-16-42
+      updated: 2025-04-25-10-17-46
       followers: 562
       likes: 65
-      views: 638
+      views: 639
 2017-03-13-sandy-shore:
   title: Sandy Shore
   titleRu: Песчаный берег
@@ -12366,7 +12366,7 @@
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2025-04-18-10-16-45
+      updated: 2025-04-25-10-17-49
       followers: 958
       likes: 47
       views: 355
@@ -12414,10 +12414,10 @@
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2025-04-18-10-16-44
+      updated: 2025-04-25-10-17-47
       followers: 560
       likes: 65
-      views: 573
+      views: 574
       comments: !c ixiAkZPLQnkljeH0gACnQmFyYUZveL5UcnVseSwgdGhlIHJvYWQgbW9zdCB0cmF2ZWxsZWQD
 2017-11-06-shore-shroom:
   title: Shore Shroom
