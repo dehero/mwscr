@@ -105,14 +105,21 @@ dehero.2025-04-10-20-16-44:
   author: dehero
   addon: Tamriel Rebuilt
 dehero.2025-04-10-20-18-14:
+  title: Along the Street
+  titleRu: Вдоль по улице
+  placement: Outdoors
   location: Andothren
-  content:
+  content: store:/inbox/dehero.2025-04-10-20-17-42.1.png
+  trash:
     - store:/inbox/dehero.2025-04-10-20-18-14.png
     - store:/inbox/dehero.2025-04-10-20-17-42.png
-    - store:/inbox/dehero.2025-04-10-20-17-42.1.png
   type: shot
   author: dehero
+  engine: OpenMW
   addon: Tamriel Rebuilt
+  tags:
+    - street
+  mark: B1
 dehero.2025-04-10-20-19-51:
   content: store:/inbox/dehero.2025-04-10-20-19-51.png
   type: shot
