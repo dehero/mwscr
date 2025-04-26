@@ -3347,7 +3347,7 @@
     - service: vk
       id: 1994
       published: 2024-12-27-18-10-40
-      updated: 2025-04-19-06-20-34
+      updated: 2025-04-26-06-21-20
       followers: 1033
       likes: 49
       views: 396
@@ -3355,10 +3355,10 @@
     - service: tg
       id: 639
       published: 2024-12-27-18-10-46
-      updated: 2025-04-19-06-20-33
+      updated: 2025-04-26-06-21-20
       followers: 631
       likes: 68
-      views: 719
+      views: 720
 2024-12-28-vivecs-feat:
   title: Vivec's Feat
   titleRu: Подвиг Вивека
