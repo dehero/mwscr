@@ -1629,7 +1629,7 @@
     - service: vk
       id: 1472
       published: 2024-03-28-18-11-42
-      updated: 2025-04-19-10-15-00
+      updated: 2025-04-26-10-16-04
       followers: 906
       likes: 38
       views: 311
@@ -1637,7 +1637,7 @@
     - service: tg
       id: 360
       published: 2024-03-28-18-11-49
-      updated: 2025-04-19-10-14-54
+      updated: 2025-04-26-10-15-58
       followers: 355
       likes: 59
       views: 473
@@ -3715,7 +3715,7 @@
       id: DGoEZrcTQ53
       mediaId: '18045219143588330'
       published: 2025-02-28-18-11-14
-      updated: 2025-04-19-10-14-45
+      updated: 2025-04-26-10-15-48
       followers: 1536
       likes: 90
       views: 352
@@ -3866,7 +3866,7 @@
     - service: vk
       id: 1426
       published: 2024-02-29-18-00-56
-      updated: 2025-04-19-10-15-04
+      updated: 2025-04-26-10-16-07
       followers: 894
       likes: 52
       views: 376
@@ -3877,10 +3877,10 @@
     - service: tg
       id: 331
       published: 2024-02-29-18-01-07
-      updated: 2025-04-19-10-14-57
+      updated: 2025-04-26-10-16-01
       followers: 338
-      likes: 82
-      views: 652
+      likes: 83
+      views: 653
 2017-03-31-interior-garden:
   title: Interior Garden
   titleRu: Внутренний сад
@@ -4000,7 +4000,7 @@
     - service: vk
       id: 1448
       published: 2024-03-14-18-12-16
-      updated: 2025-04-19-10-15-02
+      updated: 2025-04-26-10-16-05
       followers: 896
       likes: 51
       views: 380
@@ -4014,7 +4014,7 @@
     - service: tg
       id: 346
       published: 2024-03-14-18-12-22
-      updated: 2025-04-19-10-14-56
+      updated: 2025-04-26-10-16-00
       followers: 351
       likes: 68
       views: 526
@@ -4692,10 +4692,10 @@
     - service: tg
       id: 568
       published: 2024-10-18-18-10-48
-      updated: 2025-04-19-10-14-50
+      updated: 2025-04-26-10-15-53
       followers: 561
       likes: 68
-      views: 653
+      views: 654
       comments: !c Cw6AkZPLQnkqSlCGAACtTG9mdHlkZWx1c2lvbqN3b3cD
     - service: vk
       id: 1842
@@ -8203,7 +8203,7 @@
     - service: tg
       id: 354
       published: 2024-03-22
-      updated: 2025-04-19-10-14-55
+      updated: 2025-04-26-10-15-58
       followers: 353
       likes: 65
       views: 544
@@ -8846,17 +8846,17 @@
     - service: vk
       id: 1516
       published: 2024-05-02-18-21-03
-      updated: 2025-04-19-10-14-56
+      updated: 2025-04-26-10-15-59
       followers: 912
       likes: 29
       views: 240
     - service: tg
       id: 396
       published: 2024-05-02-18-21-10
-      updated: 2025-04-19-10-14-51
+      updated: 2025-04-26-10-15-54
       followers: 364
       likes: 55
-      views: 482
+      views: 483
 2017-08-03-maelkashishi:
   title: Maelkashishi
   titleRu: Мелкашиши
@@ -9201,15 +9201,15 @@
     - service: tg
       id: 582
       published: 2024-11-01-18-10-31
-      updated: 2025-04-19-10-14-48
+      updated: 2025-04-26-10-15-52
       followers: 565
       likes: 56
-      views: 612
+      views: 614
       comments: !c iw2AkZPLQnkuyHj0AACremhlY2hrYV9kcnak8J+lugM=
     - service: vk
       id: 1871
       published: 2024-11-01-19-02-16
-      updated: 2025-04-19-10-14-52
+      updated: 2025-04-26-10-15-55
       followers: 1002
       likes: 37
       views: 330
@@ -9505,10 +9505,10 @@
     - service: tg
       id: 588
       published: 2024-11-07-18-10-45
-      updated: 2025-04-19-10-14-48
+      updated: 2025-04-26-10-15-51
       followers: 566
       likes: 53
-      views: 628
+      views: 630
 2017-08-19-surroundings-of-hlormaren:
   title: Surroundings of Hlormaren
   titleRu: В окрестностях Хлормарена
@@ -9864,7 +9864,7 @@
     - service: vk
       id: 1926
       published: 2024-11-29-18-10-46
-      updated: 2025-04-19-10-14-46
+      updated: 2025-04-26-10-15-50
       followers: 1011
       likes: 39
       views: 324
@@ -9872,10 +9872,10 @@
     - service: tg
       id: 610
       published: 2024-11-29-18-10-55
-      updated: 2025-04-19-10-14-44
+      updated: 2025-04-26-10-15-48
       followers: 578
       likes: 58
-      views: 604
+      views: 606
     - service: ig
       id: DDEUIyXx4PK
       mediaId: '18039376562202644'
@@ -10464,7 +10464,7 @@
     - service: vk
       id: 1509
       published: 2024-04-25-18-18-02
-      updated: 2025-04-19-10-14-57
+      updated: 2025-04-26-10-16-00
       followers: 910
       likes: 54
       views: 384
@@ -10472,7 +10472,7 @@
     - service: tg
       id: 389
       published: 2024-04-25-18-18-08
-      updated: 2025-04-19-10-14-52
+      updated: 2025-04-26-10-15-55
       followers: 354
       likes: 74
       views: 542
@@ -12620,17 +12620,17 @@
     - service: vk
       id: 1895
       published: 2024-11-15-18-11-10
-      updated: 2025-04-19-10-14-49
+      updated: 2025-04-26-10-15-52
       followers: 1006
       likes: 43
       views: 325
     - service: tg
       id: 596
       published: 2024-11-15-18-11-17
-      updated: 2025-04-19-10-14-46
+      updated: 2025-04-26-10-15-49
       followers: 572
       likes: 64
-      views: 631
+      views: 633
 2017-11-12-ice-shivers:
   title: Ice Shivers
   titleRu: Ледяные обломки
