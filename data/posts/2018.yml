@@ -2088,10 +2088,10 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2025-04-20-19-11-48
+      updated: 2025-04-27-20-18-01
       followers: 927
       likes: 26
-      views: 271
+      views: 272
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
@@ -5347,15 +5347,15 @@
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2025-04-20-19-11-51
+      updated: 2025-04-27-20-18-04
       followers: 919
       likes: 56
-      views: 855
+      views: 859
       reposts: 5
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2025-04-20-19-11-48
+      updated: 2025-04-27-20-17-59
       followers: 400
       likes: 67
       views: 634
@@ -5744,11 +5744,16 @@
       id: DI9b7EaStjL
       mediaId: '18084597403711990'
       published: 2025-04-27-18-24-00
+      updated: 2025-04-27-20-17-56
       followers: 1350
+      likes: 35
     - service: vk
       id: 2308
       published: 2025-04-27-18-24-00
+      updated: 2025-04-27-20-17-55
       followers: 1274
+      likes: 18
+      views: 79
     - service: tg
       id:
         - 817
@@ -5756,7 +5761,10 @@
         - 819
         - 820
       published: 2025-04-27-18-52-00
+      updated: 2025-04-27-20-17-56
       followers: 726
+      likes: 25
+      views: 92
 2018-05-28-passing-by-pelagiad:
   title: Passing by Pelagiad
   titleRu: Проезжая Пелагиад
@@ -5975,7 +5983,7 @@
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
   placement: Indoors
-  location: "Mournhold, Royal Palace: Guards' Quarters"
+  location: 'Mournhold, Royal Palace: Guards'' Quarters'
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   author: dehero
@@ -6280,7 +6288,7 @@
   placement: Indoors
   location:
     - Imperial Prison Ship
-    - "Mournhold, Royal Palace: Barenziah's Chambers"
+    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
     - Tower of Tel Fyr, Hall of Fyr
     - Seyda Neen, Census and Excise Office
   content:
@@ -7822,10 +7830,10 @@
     - service: vk
       id: 1666
       published: 2024-08-03-18-19-32
-      updated: 2025-04-20-19-11-49
+      updated: 2025-04-27-20-18-02
       followers: 925
       likes: 33
-      views: 298
+      views: 299
     - service: tg
       id: 489
       published: 2024-08-03-18-19-41
