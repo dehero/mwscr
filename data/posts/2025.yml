@@ -1510,3 +1510,31 @@
       followers: 725
       likes: 50
       views: 271
+2025-04-26-along-the-street:
+  title: Along the Street
+  titleRu: Вдоль по улице
+  placement: Outdoors
+  location: Andothren
+  content: store:/shots/2025-04-26-along-the-street.png
+  trash: store:/trash/dehero.2025-04-10-20-18-14.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  addon: Tamriel Rebuilt
+  tags:
+    - street
+  mark: B1
+  posts:
+    - service: ig
+      id: DI620bCz9HG
+      mediaId: '17965778672882734'
+      published: 2025-04-26-18-21-00
+      followers: 1530
+    - service: vk
+      id: 2307
+      published: 2025-04-26-18-21-00
+      followers: 1274
+    - service: tg
+      id: 816
+      published: 2025-04-25-20-01-00
+      followers: 725
