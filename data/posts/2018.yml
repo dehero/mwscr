@@ -4898,10 +4898,10 @@
     - service: tg
       id: 612
       published: 2024-12-01-18-09-57
-      updated: 2025-04-21-05-16-51
+      updated: 2025-04-28-05-23-35
       followers: 576
       likes: 66
-      views: 659
+      views: 660
     - service: ig
       id: DDGK86wO8YJ
       mediaId: '18296802376229812'
@@ -5744,16 +5744,16 @@
       id: DI9b7EaStjL
       mediaId: '18084597403711990'
       published: 2025-04-27-18-24-00
-      updated: 2025-04-28-04-21-02
+      updated: 2025-04-28-05-23-31
       followers: 1350
-      likes: 75
+      likes: 77
     - service: vk
       id: 2308
       published: 2025-04-27-18-24-00
-      updated: 2025-04-28-04-21-03
+      updated: 2025-04-28-05-23-31
       followers: 1274
-      likes: 30
-      views: 143
+      likes: 31
+      views: 153
       reposts: 1
     - service: tg
       id:
@@ -5762,10 +5762,10 @@
         - 819
         - 820
       published: 2025-04-27-18-52-00
-      updated: 2025-04-28-04-21-03
+      updated: 2025-04-28-05-23-32
       followers: 726
-      likes: 41
-      views: 154
+      likes: 43
+      views: 159
 2018-05-28-passing-by-pelagiad:
   title: Passing by Pelagiad
   titleRu: Проезжая Пелагиад
@@ -7681,10 +7681,10 @@
     - service: tg
       id: 633
       published: 2024-12-22-18-09-11
-      updated: 2025-04-21-05-16-49
+      updated: 2025-04-28-05-23-33
       followers: 584
       likes: 68
-      views: 820
+      views: 821
 2018-07-17-safe-harbour:
   title: Safe Harbour
   titleRu: Тихая гавань
@@ -10350,7 +10350,7 @@
     - service: tg
       id: 598
       published: 2024-11-17-18-09-44
-      updated: 2025-04-21-05-16-53
+      updated: 2025-04-28-05-23-37
       followers: 573
       likes: 57
       views: 618
@@ -10955,10 +10955,10 @@
     - service: vk
       id: 1996
       published: 2024-12-29-18-00-28
-      updated: 2025-04-21-05-16-52
+      updated: 2025-04-28-05-23-34
       followers: 1037
       likes: 39
-      views: 438
+      views: 439
       reposts: 1
       comments: !c |-
         G7EBwJwHtiP6ZSCfeipl5Br/j9yzT/j0b8WQRVyBtxVhcu6WTue0ffylv5BTsl/ewAGK2c5iCC3M
@@ -13196,7 +13196,7 @@
     - service: tg
       id: 591
       published: 2024-11-10-18-10-13
-      updated: 2025-04-21-05-16-53
+      updated: 2025-04-28-05-23-38
       followers: 564
       likes: 57
       views: 644
