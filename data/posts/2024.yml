@@ -132,7 +132,7 @@
     - service: vk
       id: 1433
       published: 2024-03-02-18-18-15
-      updated: 2025-04-21-14-14-44
+      updated: 2025-04-28-14-20-02
       followers: 895
       likes: 32
       views: 289
@@ -140,10 +140,10 @@
     - service: tg
       id: 333
       published: 2024-03-02-18-18-22
-      updated: 2025-04-21-14-14-39
+      updated: 2025-04-28-14-19-56
       followers: 340
       likes: 72
-      views: 577
+      views: 578
 2024-03-03-exit: 2018-02-28-exit
 2024-03-04-an-old-sprout:
   title: An Old Sprout
