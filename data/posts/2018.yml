@@ -5744,21 +5744,23 @@
       id: DI9b7EaStjL
       mediaId: '18084597403711990'
       published: 2025-04-27-18-24-00
-      updated: 2025-04-28-15-18-56
+      updated: 2025-04-28-16-20-51
       followers: 1530
-      likes: 86
+      likes: 87
     - service: vk
       id: 2308
       published: 2025-04-27-18-24-00
-      updated: 2025-04-28-15-18-57
+      updated: 2025-04-28-16-20-52
       followers: 1274
       likes: 47
-      views: 249
+      views: 255
       reposts: 3
       comments: !c |-
-        G+YA4C0OeHPoJNT0BiXdmyk++kdOLOHXJi1DxQa6DHg0wsk95+ZzvhJKJs3B995apkS1ae/+zbDh
-        5yZzZLIbh+wslgdc/Jjy5UoMU/a0LHZ67d+ff+tdv6/j9wgq/AUNHNvEyK1Ogp8lq6Ke0WuKJi96
-        vjYlz4VyDmyozUmABuUeCGDuU1AbilTOSaUwDYpQAw0eD6GLoQfFnQU=
+        G28BoCwOzNM/RWBxBxaOYn46ED0vB4vwa1tBlmnYioI40FagQYsCTZN7oIHkxM0SmtVi6KiguH/c
+        akfGJRhqlO3uTfPMC5xYEmidI0OTvcjOIGYXMLZ1hAGFFGjAbdFTe6Bne5Ab9ktuSbkMub/evyF9
+        +8dl8drbblX476VsycfIyNUGjH8WLVHi17IaQZ1NaJlSUdn4gKHp062VRQWUOq0HZoGdSYFqkGJ7
+        3PZaMQ2kIBrKPDwITQyS6rN0tyL3vc+2eJ6PO4fTZrNHh4Lnsxk+EJPqBUOg3gWVtQEEwbnh7MpS
+        3VA86ynOPBoTfsf5vzs=
     - service: tg
       id:
         - 817
@@ -5766,7 +5768,7 @@
         - 819
         - 820
       published: 2025-04-27-18-52-00
-      updated: 2025-04-28-15-18-56
+      updated: 2025-04-28-16-20-51
       followers: 726
       likes: 50
       views: 183
