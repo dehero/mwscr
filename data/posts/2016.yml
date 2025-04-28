@@ -86,15 +86,31 @@
       id: DJAA3vczYsp
       mediaId: '18111942022482311'
       published: 2025-04-28-18-24-57
+      updated: 2025-04-28-19-14-16
       followers: 1530
+      likes: 26
     - service: vk
       id: 2312
       published: 2025-04-28-18-25-04
+      updated: 2025-04-28-19-14-16
       followers: 1274
+      likes: 9
+      views: 32
+      comments: !c |-
+        G8sAYB2Jsa2Cvfx42gUtYkcE3kb4ICMYL5Es4hIrwuReN1dK11J0fiA/2//+3EeMpjVOINtmdf7I
+        phOdllMOHNoCCjj2RMMDfke45/D6uBwyrVzv53eX4jPWOr4zFZgbySXFDwjlfssfxsHZnQPtvhIX
+        dNdCxeZNjkJgPmOmx8ini8F6sQkK+STAdAQ7a63MhMM8D16Evs1/FY33arK2zeYu6s870SDlEQ==
     - service: tg
       id: 821
       published: 2025-04-28-18-25-09
+      updated: 2025-04-28-19-14-17
       followers: 726
+      likes: 28
+      views: 65
+      comments: !c |-
+        G+EA4J3J495TJ5Z1p4ji+1uED+irZtwEFmGa7GGTSLrN57oi5A9EG4niPN6g5kbOpGZq/0fATTeq
+        NVsLeTo5cPm+nS/2JZJLYIlmHHTGqlQc0S/s5jifvH9LbNd93v9FJqHbGJ0xkEBjboK8/9i4EDkY
+        riESVVci9XOrbfJKtFZ7rRsrjgol5ZMFcLYvhVfVoNdYNEeh3JD597sA
 2016-11-20-3-molag-amur:
   title: Molag Amur
   titleRu: Молаг Амур
