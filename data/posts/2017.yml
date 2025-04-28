@@ -2169,10 +2169,10 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2025-04-21-03-07-47
+      updated: 2025-04-28-03-09-20
       followers: 916
       likes: 53
-      views: 439
+      views: 441
       reposts: 7
     - service: tg
       id: 440
@@ -2867,7 +2867,7 @@
       id: DGJKqKVyLQy
       mediaId: '18046144337035450'
       published: 2025-02-16-18-09-27
-      updated: 2025-04-21-03-07-39
+      updated: 2025-04-28-03-09-13
       followers: 1538
       likes: 121
       views: 555
@@ -2877,18 +2877,18 @@
     - service: vk
       id: 2133
       published: 2025-02-16-18-09-34
-      updated: 2025-04-21-03-07-41
+      updated: 2025-04-28-03-09-13
       followers: 1071
       likes: 45
-      views: 476
+      views: 480
       reposts: 4
     - service: tg
       id: 712
       published: 2025-02-16-18-09-40
-      updated: 2025-04-21-03-07-39
+      updated: 2025-04-28-03-09-11
       followers: 677
       likes: 74
-      views: 681
+      views: 683
       comments: !c |-
         C0KAkpPLQnlSitoxgACvQWxleGV5IFN0ZXBhbm92pPCfjJ2Ty0J5UP+7EgAAq2FhcnljaGFnb2Zm
         2U3Qk9C70LDQstC90L7QtSAtINC90LUg0L/Rg9GC0LDRgtGMINCd0YfRg9GA0LTQsNC80YYg0Lgg
@@ -7067,10 +7067,10 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2025-04-21-03-07-46
+      updated: 2025-04-28-03-09-19
       followers: 920
       likes: 39
-      views: 300
+      views: 301
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
@@ -7369,17 +7369,17 @@
       id: DFlHfSRzWCN
       mediaId: '17955260624870999'
       published: 2025-02-02-18-09-05
-      updated: 2025-04-21-03-07-40
+      updated: 2025-04-28-03-09-14
       followers: 1536
-      likes: 80
+      likes: 79
       views: 288
     - service: vk
       id: 2107
       published: 2025-02-02-18-09-12
-      updated: 2025-04-21-03-07-43
+      updated: 2025-04-28-03-09-16
       followers: 1060
       likes: 51
-      views: 436
+      views: 438
       comments: !c |-
         GyIBMCwOeHPUIcRE+eFaNxlujf+nv9jOEr38g2ecYTMJFWFyLvy7rdCjVbpNum9D+cN5O3Vb7s8G
         Y9x2TE6OPERj1RtsXhQ661ZkeW5wOuCEDyDDgPOA44KjTmu0GxxEFBdJPdE8/v7842jfruv3ckKh
@@ -7388,7 +7388,7 @@
     - service: tg
       id: 692
       published: 2025-02-02-18-09-19
-      updated: 2025-04-21-03-07-40
+      updated: 2025-04-28-03-09-12
       followers: 662
       likes: 69
       views: 689
