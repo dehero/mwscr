@@ -5744,23 +5744,25 @@
       id: DI9b7EaStjL
       mediaId: '18084597403711990'
       published: 2025-04-27-18-24-00
-      updated: 2025-04-28-16-20-51
+      updated: 2025-04-28-17-15-23
       followers: 1530
-      likes: 87
+      likes: 88
     - service: vk
       id: 2308
       published: 2025-04-27-18-24-00
-      updated: 2025-04-28-16-20-52
+      updated: 2025-04-28-17-15-22
       followers: 1274
       likes: 47
-      views: 255
+      views: 262
       reposts: 3
       comments: !c |-
-        G28BoCwOzNM/RWBxBxaOYn46ED0vB4vwa1tBlmnYioI40FagQYsCTZN7oIHkxM0SmtVi6KiguH/c
-        akfGJRhqlO3uTfPMC5xYEmidI0OTvcjOIGYXMLZ1hAGFFGjAbdFTe6Bne5Ab9ktuSbkMub/evyF9
-        +8dl8drbblX476VsycfIyNUGjH8WLVHi17IaQZ1NaJlSUdn4gKHp062VRQWUOq0HZoGdSYFqkGJ7
-        3PZaMQ2kIBrKPDwITQyS6rN0tyL3vc+2eJ6PO4fTZrNHh4Lnsxk+EJPqBUOg3gWVtQEEwbnh7MpS
-        3VA86ynOPBoTfsf5vzs=
+        G20CAKwK7HZmwxHh0bsUt/2KsszY8c8/R20I/xmb2m1IOh5utHKgq0AnCjRd72sBCSRVN4xwWAwJ
+        QpaxQem/3v69GW+CQx3N7u7aq739GnBiSaAJViClSXY22TkyNNnNdmEBBsb7BTShBRhZ1F1AiURR
+        6zqPLXPXzwOlJOm2Pdzozm8eXkvrOb9ePB1Zr1X4d6HiqXwaUWJHwcg/ixYT+zVvYanzhC6T2ymP
+        D4i0wQps5Uigzm+2QUKwZ6qgGpBia8R4TagGUmANdRwcCZ0ycGrOKm3pfu/Ltni8Oj10cra/v1e3
+        Ch55M0iCozZ6wWBmn/TL4A5QEeLPYe3OqWkQzjYLabmo+TvO/2cHU/v1gcvDrwOk1FLg14InBCwG
+        KmKRdsky3LmZyhXdKmiOqVjONmLyB6JmyBYYIyaB6L47gyNj5X23q4EE9R0u8AlV7ZFyNmH20eyL
+        02aZinVIAQ==
     - service: tg
       id:
         - 817
@@ -5768,10 +5770,10 @@
         - 819
         - 820
       published: 2025-04-27-18-52-00
-      updated: 2025-04-28-16-20-51
+      updated: 2025-04-28-17-15-23
       followers: 726
-      likes: 50
-      views: 183
+      likes: 51
+      views: 186
 2018-05-28-passing-by-pelagiad:
   title: Passing by Pelagiad
   titleRu: Проезжая Пелагиад
