@@ -179,18 +179,18 @@
     - service: vk
       id: 1876
       published: 2024-11-04-18-10-22
-      updated: 2025-04-22-09-17-10
+      updated: 2025-04-29-09-19-23
       followers: 1003
       likes: 31
-      views: 310
+      views: 311
       reposts: 1
     - service: tg
       id: 585
       published: 2024-11-04-18-10-32
-      updated: 2025-04-22-09-17-09
+      updated: 2025-04-29-09-19-21
       followers: 565
       likes: 58
-      views: 642
+      views: 643
 2018-01-07-vistha-kai-warden-of-the-corprusarium:
   title: Vistha-Kai, Warden of the Corprusarium
   titleRu: Виста-Кай, смотритель Корпрусариума
@@ -5744,16 +5744,16 @@
       id: DI9b7EaStjL
       mediaId: '18084597403711990'
       published: 2025-04-27-18-24-00
-      updated: 2025-04-29-08-24-29
+      updated: 2025-04-29-09-19-17
       followers: 1530
       likes: 95
     - service: vk
       id: 2308
       published: 2025-04-27-18-24-00
-      updated: 2025-04-29-08-24-30
+      updated: 2025-04-29-09-19-18
       followers: 1274
-      likes: 61
-      views: 319
+      likes: 64
+      views: 328
       reposts: 4
       comments: !c |-
         G20CAKwK7HZmwxHh0bsUt/2KsszY8c8/R20I/xmb2m1IOh5utHKgq0AnCjRd72sBCSRVN4xwWAwJ
@@ -5770,10 +5770,10 @@
         - 819
         - 820
       published: 2025-04-27-18-52-00
-      updated: 2025-04-29-08-24-30
+      updated: 2025-04-29-09-19-18
       followers: 726
-      likes: 58
-      views: 218
+      likes: 59
+      views: 222
 2018-05-28-passing-by-pelagiad:
   title: Passing by Pelagiad
   titleRu: Проезжая Пелагиад
