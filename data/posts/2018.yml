@@ -2255,7 +2255,7 @@
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2025-04-22-05-16-30
+      updated: 2025-04-29-05-18-05
       followers: 894
       likes: 34
       views: 299
@@ -2263,10 +2263,10 @@
     - service: tg
       id: 334
       published: 2024-03-03-18-16-50
-      updated: 2025-04-22-05-16-19
+      updated: 2025-04-29-05-17-59
       followers: 341
       likes: 64
-      views: 534
+      views: 535
 2018-03-01-guardess-of-assernerairan:
   title: Guardess of Assernerairan
   titleRu: Охранница Ассернерайрана
@@ -2337,7 +2337,7 @@
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
-      updated: 2025-04-22-05-16-24
+      updated: 2025-04-29-05-17-59
       followers: 909
       likes: 46
       views: 311
@@ -2349,7 +2349,7 @@
     - service: tg
       id: 385
       published: 2024-04-21-18-17-47
-      updated: 2025-04-22-05-16-15
+      updated: 2025-04-29-05-17-53
       followers: 354
       likes: 64
       views: 474
@@ -5050,14 +5050,14 @@
     - service: vk
       id: 1468
       published: 2024-03-24-18-11-49
-      updated: 2025-04-22-05-16-28
+      updated: 2025-04-29-05-18-03
       followers: 898
       likes: 41
       views: 351
     - service: tg
       id: 356
       published: 2024-03-24-18-11-58
-      updated: 2025-04-22-05-16-18
+      updated: 2025-04-29-05-17-57
       followers: 352
       likes: 60
       views: 549
@@ -5744,16 +5744,16 @@
       id: DI9b7EaStjL
       mediaId: '18084597403711990'
       published: 2025-04-27-18-24-00
-      updated: 2025-04-29-04-20-00
+      updated: 2025-04-29-05-17-40
       followers: 1530
       likes: 94
     - service: vk
       id: 2308
       published: 2025-04-27-18-24-00
-      updated: 2025-04-29-04-20-00
+      updated: 2025-04-29-05-17-41
       followers: 1274
       likes: 59
-      views: 302
+      views: 306
       reposts: 4
       comments: !c |-
         G20CAKwK7HZmwxHh0bsUt/2KsszY8c8/R20I/xmb2m1IOh5utHKgq0AnCjRd72sBCSRVN4xwWAwJ
@@ -5770,10 +5770,10 @@
         - 819
         - 820
       published: 2025-04-27-18-52-00
-      updated: 2025-04-29-04-19-59
+      updated: 2025-04-29-05-17-42
       followers: 726
       likes: 57
-      views: 212
+      views: 215
 2018-05-28-passing-by-pelagiad:
   title: Passing by Pelagiad
   titleRu: Проезжая Пелагиад
@@ -11133,7 +11133,7 @@
       id: DExn5skTWOM
       mediaId: '17876857326238567'
       published: 2025-01-13-18-11-48
-      updated: 2025-04-22-05-16-13
+      updated: 2025-04-29-05-17-45
       followers: 1524
       likes: 161
       views: 548
@@ -11143,10 +11143,10 @@
     - service: vk
       id: 2052
       published: 2025-01-13-18-12-09
-      updated: 2025-04-22-05-16-12
+      updated: 2025-04-29-05-17-47
       followers: 1052
       likes: 52
-      views: 386
+      views: 387
       reposts: 2
       comments: !c |-
         G2QHACwO7MavWeDuMRRl0wk1Qm8l/p84/FxeobeftqWChCAWq2KZWGnApRHVc8WCXaVVO5TEoxzC
@@ -11171,10 +11171,10 @@
         - 665
         - 666
       published: 2025-01-13-18-12-27
-      updated: 2025-04-22-05-16-09
+      updated: 2025-04-29-05-17-46
       followers: 648
       likes: 65
-      views: 910
+      views: 915
 2018-10-07-on-the-way-to-the-crater:
   title: On the Way to the Crater
   titleRu: На пути к кратеру
