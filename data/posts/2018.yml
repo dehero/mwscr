@@ -2803,17 +2803,17 @@
     - service: vk
       id: 1865
       published: 2024-10-28-18-10-39
-      updated: 2025-04-22-11-13-49
+      updated: 2025-04-29-11-15-11
       followers: 1000
       likes: 51
-      views: 324
+      views: 325
     - service: tg
       id: 578
       published: 2024-10-28-18-10-46
-      updated: 2025-04-22-11-13-48
+      updated: 2025-04-29-11-15-11
       followers: 564
       likes: 60
-      views: 586
+      views: 587
 2018-03-15-the-other-side:
   title: The Other Side
   titleRu: По ту сторону
@@ -4268,10 +4268,10 @@
     - service: tg
       id: 564
       published: 2024-10-14-18-10-32
-      updated: 2025-04-22-11-13-50
+      updated: 2025-04-29-11-15-13
       followers: 561
       likes: 64
-      views: 517
+      views: 519
 2018-04-20-road-through-a-dead-forest:
   title: Road Through a Dead Forest
   titleRu: Дорога сквозь мёртвый лес
@@ -5744,16 +5744,16 @@
       id: DI9b7EaStjL
       mediaId: '18084597403711990'
       published: 2025-04-27-18-24-00
-      updated: 2025-04-29-10-19-46
+      updated: 2025-04-29-11-15-08
       followers: 1530
       likes: 95
     - service: vk
       id: 2308
       published: 2025-04-27-18-24-00
-      updated: 2025-04-29-10-19-45
+      updated: 2025-04-29-11-15-10
       followers: 1274
-      likes: 64
-      views: 331
+      likes: 65
+      views: 335
       reposts: 4
       comments: !c |-
         G20CAKwK7HZmwxHh0bsUt/2KsszY8c8/R20I/xmb2m1IOh5utHKgq0AnCjRd72sBCSRVN4xwWAwJ
@@ -5770,10 +5770,10 @@
         - 819
         - 820
       published: 2025-04-27-18-52-00
-      updated: 2025-04-29-10-19-45
+      updated: 2025-04-29-11-15-10
       followers: 726
-      likes: 59
-      views: 226
+      likes: 60
+      views: 227
 2018-05-28-passing-by-pelagiad:
   title: Passing by Pelagiad
   titleRu: Проезжая Пелагиад
@@ -11301,10 +11301,10 @@
     - service: tg
       id: 571
       published: 2024-10-21-18-10-50
-      updated: 2025-04-22-11-13-50
+      updated: 2025-04-29-11-15-12
       followers: 562
       likes: 55
-      views: 735
+      views: 736
 2018-10-10-thunderstorm-cave:
   title: Thunderstorm Cave
   titleRu: Грозовая пещера
