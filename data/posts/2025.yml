@@ -1361,17 +1361,17 @@
       id: DIuE0v8qyZk
       mediaId: '18093214405575653'
       published: 2025-04-21-19-13-13
-      updated: 2025-04-28-06-32-01
+      updated: 2025-04-29-07-18-23
       followers: 1530
-      likes: 106
+      likes: 107
       comments: !c CxqAkZPLQnll4c1PAACrZGVsYW5vc3BpZXO9TG92ZSB0aGlzIHNwb3Qgd2l0aCB0aGUgZG9ja3MD
     - service: vk
       id: 2299
       published: 2025-04-21-19-13-20
-      updated: 2025-04-28-06-32-03
+      updated: 2025-04-29-07-18-24
       followers: 1266
-      likes: 84
-      views: 559
+      likes: 85
+      views: 569
       reposts: 3
       comments: !c |-
         G3EA+I2UbsI8n/+bHyb4NA0w0WhT27K9jnfCiP+6Fz+4DZ/zXURgUsIGnIhnlltEG98njKNORX77
@@ -1379,10 +1379,10 @@
     - service: tg
       id: 807
       published: 2025-04-21-19-13-26
-      updated: 2025-04-28-06-32-01
+      updated: 2025-04-29-07-18-23
       followers: 723
-      likes: 69
-      views: 442
+      likes: 71
+      views: 453
       comments: !c |-
         G7IA4K0OeFNfqOFAIOvm4vXlESqdf/65YYQ/wJKykDLobICb0eQ+nLVNQ+qCSYsKVkO3utB/xz24
         sBNyceyDgDPqfgsCLC3yxOuluFzKHONUB/DBBlpx92vwA9SlVCxn8Lx/6hKWz35s5388BoNcoPUV
@@ -1408,24 +1408,24 @@
       id: DIzI2IpTLkI
       mediaId: '17987354294807991'
       published: 2025-04-23-18-24-31
-      updated: 2025-04-28-06-31-59
+      updated: 2025-04-29-07-18-20
       followers: 1532
       likes: 64
     - service: vk
       id: 2303
       published: 2025-04-23-18-24-39
-      updated: 2025-04-28-06-32-01
+      updated: 2025-04-29-07-18-22
       followers: 1266
-      likes: 31
-      views: 271
+      likes: 34
+      views: 284
       reposts: 1
     - service: tg
       id: 809
       published: 2025-04-23-18-24-45
-      updated: 2025-04-28-06-31-59
+      updated: 2025-04-29-07-18-22
       followers: 725
-      likes: 55
-      views: 328
+      likes: 57
+      views: 357
 2025-04-24-forgotten-basket:
   title: Forgotten Basket
   titleRu: Забытая корзина
