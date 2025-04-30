@@ -45,20 +45,20 @@
     - service: tg
       id: 246
       published: 2022-06-23
-      updated: 2025-04-23-13-27-33
+      updated: 2025-04-30-14-17-22
       followers: 226
       likes: 86
-      views: 1183
+      views: 1186
       comments: !c |-
-        G94CIJwFzpnxUOgaujj5cqZE8BT7+7/TXwl7H5sYv1nN6QRD59lQf/XktQHjwLrO4yuPTn2BThsL
-        C1atjamf7LtfGdvqFU0LPsGjL1BLuzRM1v6fc+kyPk51M42mpI2Ko4/2DujQI6kAj8625aN61Cco
-        JnONQ/AYIvvVxvxLQjns6mQScNhpVpWwdUYTYURTmgrGCp5w9Q+Co8ERGEHDyGAaVaCCJ5LJRCia
-        AHcz/d/MlFm6jbOiylQnMNXGFLqOfG8CfuqhU5LuL2V4+XuCC1fCKXyMMfxZ+ZnT98XMUYD6zlZV
-        aK+OHwE614Ij+HpO/Z9mbiVQ+/jyTm22RV2ZBEUnDqBwtdg9KFcJJr/60d9u5SlgaKVpyHqB3P8R
-        ctKlAtPcjSt+vZN2DRhHbZmBXMp0uFnZmRnkJWTf1TwMfvNUe7i1m5NPh/m1dyp+CbejhZC7NkD9
-        n5aXJa+4Xo3EuCjKlBkGtimqMHHl/PQjWNt447IGBYbtSU4xixGfn/D9e0aog1k66+64T9A+Thdy
-        ftAt+HRKiXY6tLFO9JwsMnbAnJ/h6NBhPk4u0eH3ybp5QTGcr03qhuLkmTvCo6wlNE7zzNwVW+Rp
-        gE0wIVSFJQm16XRGzE+6/Gkfj/bo1H86uFuMWxnfffckyfSDFEYXLMLJEQ==
+        G98CQBwF7p7CIpbT09MXRvDU3+s/wg3IFcp4Ha+VMsFopdKbSD1L9P/ktQHjwLrO4yuv1vTHJ44d
+        kAQsIMhPePcRXBFdxweELQofe7YW+OBcuozDqW6m0ZS0UXHR+v+BHj2SCvDV6Y5tgpcgw2KdhEKD
+        lODfBvXXmOXXXPMUWOUtyzIElcx1I4xoC1DBWMETLr4lOBocgRE0jAzehlWggif2Z5kIRRPgxpia
+        /19uvY6CtfPYJWEdSsJ0KUmAfO8U/NRDr0XuL2Vk+QeKC2vhFBWB+Q4/Kz+zfF/MXAWoT2xPhe7p
+        xQpAHTLBCr5etfmdbq8GaLTevG3Mtugar4rmTrRgPREbL3yCiuoLBv52K9cASyvNQNYbLH90kE2X
+        5lAzakrHz6OZLSewVlk9QK7pJN9d2ZkZ5CVkn9Q8DH7zUne5dYeTT0/4de9Q0jzsnHSDUasANL/T
+        XdvwTvwhQVEHj54uSWKlxNmSWjPzN08I/fc1jmHkUBovDBp1BbH9Ct+/e4Q6BLcj3Yl5EHSf04Wc
+        H3QLPr32oT0L/zEZz5wsMnbErM9wcugJHyeX6MnrZDu8mBjJ1450Q3Hy1FbwbCEOra2jlKtxS5jQ
+        RGiCqk2V56mQBJPOiPlB1z/d59Fdvf5PrdvZuJNJnY839lJE1CCwCUV4VQQ=
     - service: ig
       id: DGBdJ0-PH1J
       mediaId: '17864937378336640'
@@ -118,16 +118,16 @@
     - service: tg
       id: 247
       published: 2022-06-24
-      updated: 2025-04-23-13-27-32
+      updated: 2025-04-30-14-17-22
       followers: 236
       likes: 58
       views: 726
       comments: !c |-
-        GygBCBwHuTn0gjPNyvzyX9b0qit0E2TFikhoAnQ0dohCLh7fl2fcMij1nmHCcx3opxl8k/YyY5pa
-        JwcaIPclklCHLJZED9oW1MmmCRV+s36CTD06/rR3+j89YR6ipVI5Ea01WJ3vMvj+hBS/rqtikl8v
-        80vleiNaSGfj/L939nT4ae/M6X8zzG20VM/WL7WHcrs8evREG8miFeNjrFbWevIt8tCfht0gPUUL
-        yU44WayX26wM5zQBtAT4iJqPRWiNwaQpzVBAK9G4HxPmrh7tdgtx1oYDGK3lQ4USmTZ8OMkDaEqL
-        HmlCcz4G0IQmAIVgUcOoVheHJnpnbQvbk4VysVx7AQA=
+        GykBABwHuTn0gjPNyvzy8df0qit0E2TFikhoAnQErkMQcvH4vjzjlqnblsNLtkcNdZ4LO/hlxjT1
+        09MwwIC0WvM0oYIopgNnB/12vWFc/LLlsTyud/tPc6P/6AH1EMzl8pFgqUKrXGyAnB7GqD9dr7JR
+        djnPzuXLlWAmngyz/87paftpbsxof1PUbTBXTpYvlVtmXKzy6AhWollL2sdQKa+MYBvEHf9UzBrg
+        KZiJNvzRbDlfp0U4kwFMpjAKkrMxEJkLwSBDMkLC/KTC/PD7hu+1XJk2YQOilWxsXEghWbDBhM/o
+        mOBdJ1raBmQAIyEMCpyolfm+Ad417eQ3RzP5bL70sv0=
 2022-06-26-candelabra:
   title: Candelabra
   titleRu: Канделябры
@@ -172,7 +172,7 @@
         - 252
         - 253
       published: 2022-06-26
-      updated: 2025-04-23-13-27-31
+      updated: 2025-04-30-14-17-22
       followers: 242
       likes: 57
       views: 688
