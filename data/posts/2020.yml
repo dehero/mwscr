@@ -41,7 +41,7 @@
     - service: tg
       id: 203
       published: 2020-05-13
-      updated: 2025-04-23-14-18-10
+      updated: 2025-04-30-15-19-02
       followers: 117
       likes: 2
       views: 696
@@ -83,7 +83,7 @@
     - service: tg
       id: 204
       published: 2020-05-14
-      updated: 2025-04-23-14-18-10
+      updated: 2025-04-30-15-19-02
       followers: 116
       likes: 2
       views: 695
@@ -154,10 +154,10 @@
     - service: tg
       id: 205
       published: 2020-05-15
-      updated: 2025-04-23-14-18-09
+      updated: 2025-04-30-15-19-02
       followers: 116
       likes: 4
-      views: 708
+      views: 709
 2020-05-16-tel-mora:
   title: Tel Mora
   titleRu: Тель Мора
@@ -193,7 +193,7 @@
     - service: tg
       id: 206
       published: 2020-05-16
-      updated: 2025-04-23-14-18-09
+      updated: 2025-04-30-15-19-01
       followers: 118
       likes: 5
       views: 724
@@ -229,7 +229,7 @@
     - service: tg
       id: 207
       published: 2020-05-17
-      updated: 2025-04-23-14-18-08
+      updated: 2025-04-30-15-19-01
       followers: 118
       likes: 4
       views: 705
@@ -268,7 +268,7 @@
     - service: tg
       id: 208
       published: 2020-05-18
-      updated: 2025-04-23-14-18-08
+      updated: 2025-04-30-15-19-01
       followers: 119
       likes: 3
       views: 729
@@ -312,10 +312,10 @@
     - service: tg
       id: 209
       published: 2020-05-19
-      updated: 2025-04-23-14-18-07
+      updated: 2025-04-30-15-19-00
       followers: 120
       likes: 4
-      views: 738
+      views: 739
 2020-05-20-bridges:
   title: Bridges
   titleRu: Мосты
@@ -356,10 +356,10 @@
     - service: tg
       id: 210
       published: 2020-05-20
-      updated: 2025-04-23-14-18-07
+      updated: 2025-04-30-15-19-00
       followers: 122
       likes: 4
-      views: 799
+      views: 800
 2020-05-21-deadly-attack:
   title: Deadly Attack
   titleRu: Смертельная атака
@@ -392,10 +392,10 @@
     - service: tg
       id: 211
       published: 2020-05-21
-      updated: 2025-04-23-14-18-06
+      updated: 2025-04-30-15-19-00
       followers: 123
       likes: 3
-      views: 817
+      views: 818
     - service: ig
       id: DIHXzHAS7jP
       mediaId: '18068053375935699'
@@ -458,10 +458,10 @@
     - service: tg
       id: 212
       published: 2020-05-22
-      updated: 2025-04-23-14-18-06
+      updated: 2025-04-30-15-18-59
       followers: 125
       likes: 3
-      views: 820
+      views: 821
 2020-05-23-rainy-day-in-sadrith-mora:
   title: Rainy Day in Sadrith Mora
   titleRu: Дождливый день в Садрит Море
@@ -496,10 +496,10 @@
     - service: tg
       id: 213
       published: 2020-05-23
-      updated: 2025-04-23-14-18-05
+      updated: 2025-04-30-15-18-59
       followers: 126
       likes: 3
-      views: 878
+      views: 879
 2020-05-24-at-the-bitter-coast:
   title: At the Bitter Coast
   titleRu: На Горьком берегу
@@ -533,10 +533,10 @@
     - service: tg
       id: 214
       published: 2020-05-24
-      updated: 2025-04-23-14-18-05
+      updated: 2025-04-30-15-18-59
       followers: 126
       likes: 3
-      views: 1039
+      views: 1040
 2020-05-25-water-supply:
   title: Water Supply
   titleRu: Запас воды
@@ -573,7 +573,7 @@
     - service: tg
       id: 215
       published: 2020-05-25
-      updated: 2025-04-23-14-18-04
+      updated: 2025-04-30-15-18-58
       followers: 126
       likes: 3
       views: 1044
@@ -615,7 +615,7 @@
     - service: tg
       id: 216
       published: 2020-05-26
-      updated: 2025-04-23-14-18-03
+      updated: 2025-04-30-15-18-58
       followers: 125
       likes: 3
       views: 1117
@@ -655,7 +655,7 @@
     - service: tg
       id: 217
       published: 2020-10-10
-      updated: 2025-04-23-14-18-03
+      updated: 2025-04-30-15-18-58
       followers: 159
       likes: 4
       views: 711
@@ -702,7 +702,7 @@
     - service: tg
       id: 218
       published: 2020-10-11
-      updated: 2025-04-23-14-18-02
+      updated: 2025-04-30-15-18-57
       followers: 162
       likes: 5
       views: 729
@@ -749,10 +749,10 @@
     - service: tg
       id: 219
       published: 2020-10-12
-      updated: 2025-04-23-14-18-01
+      updated: 2025-04-30-15-18-57
       followers: 163
       likes: 6
-      views: 784
+      views: 785
       comments: !c |-
         G50BIIzTJTanMkc+/ZzGldh/WdCkgRx6YFAdsQVENYUvahc11elVE9rgTV0WDsNCm2HnPUqzcZch
         unaeuevx2UPRcWkak6b4vbL4bqy5JYoKRe27I+FcMZANFA+VjuCeQLVUBZW+9fM7LJq6h1eZPyO4
@@ -803,7 +803,7 @@
     - service: tg
       id: 220
       published: 2020-10-13
-      updated: 2025-04-23-14-18-01
+      updated: 2025-04-30-15-18-56
       followers: 166
       likes: 5
       views: 712
@@ -842,7 +842,7 @@
     - service: tg
       id: 221
       published: 2020-10-14
-      updated: 2025-04-23-14-18-00
+      updated: 2025-04-30-15-18-56
       followers: 167
       likes: 4
       views: 726
@@ -885,7 +885,7 @@
     - service: tg
       id: 222
       published: 2020-10-15
-      updated: 2025-04-23-14-18-00
+      updated: 2025-04-30-15-18-56
       followers: 166
       likes: 4
       views: 729
@@ -921,7 +921,7 @@
     - service: tg
       id: 223
       published: 2020-10-16
-      updated: 2025-04-23-14-17-59
+      updated: 2025-04-30-15-18-55
       followers: 165
       likes: 3
       views: 732
@@ -965,7 +965,7 @@
     - service: tg
       id: 224
       published: 2020-10-17
-      updated: 2025-04-23-14-17-58
+      updated: 2025-04-30-15-18-55
       followers: 165
       likes: 4
       views: 777
@@ -1006,7 +1006,7 @@
     - service: tg
       id: 225
       published: 2020-10-18
-      updated: 2025-04-23-14-17-58
+      updated: 2025-04-30-15-18-54
       followers: 165
       likes: 5
       views: 797
@@ -1041,7 +1041,7 @@
     - service: tg
       id: 226
       published: 2020-10-19
-      updated: 2025-04-23-14-17-57
+      updated: 2025-04-30-15-18-54
       followers: 165
       likes: 3
       views: 805
@@ -1087,7 +1087,7 @@
     - service: tg
       id: 227
       published: 2020-10-20
-      updated: 2025-04-23-14-17-56
+      updated: 2025-04-30-15-18-53
       followers: 165
       likes: 4
       views: 830
@@ -1130,7 +1130,7 @@
     - service: tg
       id: 228
       published: 2020-10-21
-      updated: 2025-04-23-14-17-56
+      updated: 2025-04-30-15-18-53
       followers: 165
       likes: 7
       views: 846
@@ -1196,7 +1196,7 @@
     - service: tg
       id: 229
       published: 2020-10-22
-      updated: 2025-04-23-14-17-55
+      updated: 2025-04-30-15-18-53
       followers: 164
       likes: 4
       views: 871
@@ -1234,7 +1234,7 @@
     - service: tg
       id: 230
       published: 2020-10-23
-      updated: 2025-04-23-14-17-55
+      updated: 2025-04-30-15-18-52
       followers: 165
       likes: 5
       views: 900
@@ -1276,7 +1276,7 @@
     - service: tg
       id: 231
       published: 2020-10-24
-      updated: 2025-04-23-14-17-54
+      updated: 2025-04-30-15-18-52
       followers: 166
       likes: 4
       views: 938
@@ -1312,7 +1312,7 @@
     - service: tg
       id: 232
       published: 2020-10-25
-      updated: 2025-04-23-14-17-53
+      updated: 2025-04-30-15-18-51
       followers: 166
       likes: 4
       views: 980
@@ -1350,7 +1350,7 @@
     - service: tg
       id: 233
       published: 2020-10-26
-      updated: 2025-04-23-14-17-53
+      updated: 2025-04-30-15-18-51
       followers: 167
       likes: 3
       views: 1010
@@ -1389,7 +1389,7 @@
     - service: tg
       id: 234
       published: 2020-10-27
-      updated: 2025-04-23-14-17-52
+      updated: 2025-04-30-15-18-50
       followers: 167
       likes: 3
       views: 1026
@@ -1425,7 +1425,7 @@
     - service: tg
       id: 235
       published: 2020-10-28
-      updated: 2025-04-23-14-17-52
+      updated: 2025-04-30-15-18-50
       followers: 167
       likes: 5
       views: 1104
@@ -1467,7 +1467,7 @@
     - service: tg
       id: 236
       published: 2020-10-29
-      updated: 2025-04-23-14-17-51
+      updated: 2025-04-30-15-18-50
       followers: 167
       likes: 4
       views: 1128
@@ -1508,7 +1508,7 @@
     - service: tg
       id: 237
       published: 2020-10-30
-      updated: 2025-04-23-14-17-50
+      updated: 2025-04-30-15-18-49
       followers: 167
       likes: 5
       views: 1148
