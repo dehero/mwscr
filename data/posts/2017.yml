@@ -11122,6 +11122,19 @@
       followers: 79
       likes: 15
       views: 136
+    - service: ig
+      id: DJFKZxPzbyu
+      mediaId: '18068607500505132'
+      published: 2025-04-30-18-24-27
+      followers: 1531
+    - service: vk
+      id: 2323
+      published: 2025-04-30-18-24-34
+      followers: 1275
+    - service: tg
+      id: 823
+      published: 2025-04-30-18-24-40
+      followers: 729
 2017-10-02-beran-ancestral-tomb:
   title: Beran Ancestral Tomb
   titleRu: Родовая гробница Беранов
@@ -11179,16 +11192,16 @@
       id: DJClirxzB0D
       mediaId: '18027358649445461'
       published: 2025-04-29-18-23-54
-      updated: 2025-04-30-17-15-37
+      updated: 2025-04-30-18-24-05
       followers: 1532
       likes: 54
     - service: vk
       id: 2319
       published: 2025-04-29-18-24-00
-      updated: 2025-04-30-17-15-37
+      updated: 2025-04-30-18-24-06
       followers: 1274
-      likes: 36
-      views: 219
+      likes: 37
+      views: 224
       comments: !c |-
         G7cBQJwHts1iO1w8X/V2rJnmkBEqnYqxmClefRBDtSUfvmVLEqulWWZ1Om+EvJIdoRkH2lveSFWK
         1KTd3ftgvzFVK0Klbutv8Rr+FMzncMEwFN67KWhp+vQ0wAgCoNaSyFsQR5xBeLHjTX6yl8MCbsPn
@@ -11198,10 +11211,10 @@
     - service: tg
       id: 822
       published: 2025-04-29-18-30-21
-      updated: 2025-04-30-17-15-38
+      updated: 2025-04-30-18-24-06
       followers: 728
-      likes: 42
-      views: 156
+      likes: 43
+      views: 157
 2017-10-04-in-the-evening-time:
   title: In the Evening Time
   titleRu: В вечерний час
