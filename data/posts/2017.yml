@@ -741,18 +741,18 @@
     - service: vk
       id: 1699
       published: 2024-08-20-18-20-17
-      updated: 2025-04-23-23-16-03
+      updated: 2025-04-30-23-17-05
       followers: 936
       likes: 45
-      views: 322
+      views: 323
       reposts: 4
     - service: tg
       id: 507
       published: 2024-08-20-18-20-26
-      updated: 2025-04-23-23-16-02
+      updated: 2025-04-30-23-17-04
       followers: 534
       likes: 61
-      views: 648
+      views: 649
 2017-01-21-building-akulakhan:
   title: Building Akulakhan
   titleRu: Строительство Акулахана
@@ -3393,10 +3393,10 @@
     - service: vk
       id: 2172
       published: 2025-03-05-18-11-47
-      updated: 2025-04-23-23-16-00
+      updated: 2025-04-30-23-17-02
       followers: 1160
-      likes: 50
-      views: 424
+      likes: 51
+      views: 428
     - service: tg
       id: 735
       published: 2025-03-05-18-11-54
@@ -4420,10 +4420,10 @@
     - service: tg
       id: 715
       published: 2025-02-19-18-11-28
-      updated: 2025-04-23-23-16-00
+      updated: 2025-04-30-23-17-01
       followers: 681
       likes: 61
-      views: 525
+      views: 528
       comments: !c iw+AkZPLQnlSitHkgACvQWxleGV5IFN0ZXBhbm92pPCfko4D
 2017-04-12-lets-set-sail:
   title: Let's Set Sail!
@@ -11126,24 +11126,24 @@
       id: DJFKZxPzbyu
       mediaId: '18068607500505132'
       published: 2025-04-30-18-24-27
-      updated: 2025-04-30-22-16-33
+      updated: 2025-04-30-23-16-58
       followers: 1531
-      likes: 29
+      likes: 31
       comments: !c CxGAkZPLQnlogOztAACud2FsdGVyX255cXZpc3SoYXdlc29tZSED
     - service: vk
       id: 2323
       published: 2025-04-30-18-24-34
-      updated: 2025-04-30-22-16-33
+      updated: 2025-04-30-23-16-58
       followers: 1275
-      likes: 18
-      views: 94
+      likes: 19
+      views: 99
     - service: tg
       id: 823
       published: 2025-04-30-18-24-40
-      updated: 2025-04-30-22-16-34
+      updated: 2025-04-30-23-16-59
       followers: 729
-      likes: 32
-      views: 124
+      likes: 33
+      views: 129
       comments: !c |-
         G4QCIBwF7p6iDLHcfkxvQ2T089dqeACX3mJhYQUl0MSvyaCNpgTevmvBA9oT2seuhAIqC0uigmz3
         p4AG3OwE8aD0//+m6AcMhN9tDtvDytqAWeZZp1G9jvkL4f14/KuYziOO+0IajQTNXaT7FzPQk1uL
@@ -11209,16 +11209,16 @@
       id: DJClirxzB0D
       mediaId: '18027358649445461'
       published: 2025-04-29-18-23-54
-      updated: 2025-04-30-22-16-34
+      updated: 2025-04-30-23-17-00
       followers: 1532
       likes: 55
     - service: vk
       id: 2319
       published: 2025-04-29-18-24-00
-      updated: 2025-04-30-22-16-35
+      updated: 2025-04-30-23-17-00
       followers: 1274
       likes: 38
-      views: 231
+      views: 232
       comments: !c |-
         G7cBQJwHts1iO1w8X/V2rJnmkBEqnYqxmClefRBDtSUfvmVLEqulWWZ1Om+EvJIdoRkH2lveSFWK
         1KTd3ftgvzFVK0Klbutv8Rr+FMzncMEwFN67KWhp+vQ0wAgCoNaSyFsQR5xBeLHjTX6yl8MCbsPn
@@ -11228,7 +11228,7 @@
     - service: tg
       id: 822
       published: 2025-04-29-18-30-21
-      updated: 2025-04-30-22-16-35
+      updated: 2025-04-30-23-17-00
       followers: 728
       likes: 48
       views: 192
