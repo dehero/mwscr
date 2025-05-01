@@ -11396,7 +11396,7 @@
     - service: vk
       id: 979
       published: 2018-10-12
-      updated: 2025-04-24-14-16-05
+      updated: 2025-05-01-15-17-44
       followers: 255
       likes: 46
       views: 524
@@ -11455,7 +11455,7 @@
     - service: vk
       id: 980
       published: 2018-10-13
-      updated: 2025-04-24-14-16-04
+      updated: 2025-05-01-15-17-43
       followers: 255
       likes: 29
       views: 397
@@ -11517,7 +11517,7 @@
     - service: vk
       id: 981
       published: 2018-10-14
-      updated: 2025-04-24-14-16-03
+      updated: 2025-05-01-15-17-43
       followers: 255
       likes: 36
       views: 425
@@ -11557,14 +11557,14 @@
     - service: vk
       id: 986
       published: 2018-10-15
-      updated: 2025-04-24-14-16-02
+      updated: 2025-05-01-15-17-42
       followers: 255
       likes: 29
       views: 434
       comments: !c |-
-        G5kA+B0JNk7x4Um7Ef+yS/XnZoyNzRSb0k0ToklNuRdVIdFt9hx/rxB0dYporsgFdTI5y+m8Scwm
-        pKRlESgktPQCLiCDDt2Px7dxvd7a3Zk0XTv3w7S86BiQJ1wQ5QtHUhuKYAjp4aqojx4QZ6MyaZQE
-        VSBLspzkKp0qho78x5yfLA==
+        G5YA+J0JdqyVgQuL71IYEXIjfbasFkRJoi0LrEiTe0wDSrfZc/y9QtDVKaK5IhfUyeQsp/MmMZuQ
+        kg5Dc7OTsqQEV7nQzsF+PL7r/dauhW2IcZ5edCzIGy6I+MKR1IYQLKX9HSvqoweKdquYtGqCCshI
+        1pNctVth6PAfc36yAA==
     - service: tg
       id: 83
       published: 2018-10-15
@@ -11597,7 +11597,7 @@
     - service: vk
       id: 987
       published: 2018-10-16
-      updated: 2025-04-24-14-16-01
+      updated: 2025-05-01-15-17-41
       followers: 256
       likes: 37
       views: 458
@@ -11631,7 +11631,7 @@
     - service: vk
       id: 988
       published: 2018-10-18
-      updated: 2025-04-24-14-16-00
+      updated: 2025-05-01-15-17-40
       followers: 256
       likes: 40
       views: 437
@@ -11671,7 +11671,7 @@
     - service: vk
       id: 993
       published: 2018-10-19
-      updated: 2025-04-24-14-15-59
+      updated: 2025-05-01-15-17-39
       followers: 257
       likes: 33
       views: 424
@@ -11703,7 +11703,7 @@
     - service: vk
       id: 995
       published: 2018-10-20
-      updated: 2025-04-24-14-15-58
+      updated: 2025-05-01-15-17-38
       followers: 257
       likes: 35
       views: 437
@@ -11798,7 +11798,7 @@
     - service: vk
       id: 998
       published: 2018-10-21
-      updated: 2025-04-24-14-15-57
+      updated: 2025-05-01-15-17-37
       likes: 31
       views: 395
       reposts: 1
