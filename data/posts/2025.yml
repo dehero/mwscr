@@ -1445,27 +1445,27 @@
       id: DI1tfb4O5Qb
       mediaId: '17953046774955328'
       published: 2025-04-24-18-23-13
-      updated: 2025-04-30-19-14-14
+      updated: 2025-05-01-20-18-09
       followers: 1533
-      likes: 80
+      likes: 81
       comments: !c |-
         G0wAIB0JNk7y8a6RXE8vwthaUC0uSbDaxU52oOeMUGslscEGHDi00IIDzbMOHsPrHw4pt/dVOh+A
         KxxpJ6h91mA3HFELsPBZsweKAg==
     - service: vk
       id: 2305
       published: 2025-04-24-18-23-20
-      updated: 2025-04-30-19-14-14
+      updated: 2025-05-01-20-18-09
       followers: 1268
       likes: 59
-      views: 397
+      views: 406
       reposts: 1
     - service: tg
       id: 810
       published: 2025-04-24-18-23-26
-      updated: 2025-04-30-19-14-14
+      updated: 2025-05-01-20-18-08
       followers: 725
       likes: 59
-      views: 500
+      views: 523
 2025-04-25-st-delyn-and-masser:
   title: St. Delyn and Masser
   titleRu: Святой Делин и Массер
@@ -1493,24 +1493,27 @@
       id: DI4akuMBZYf
       mediaId: '17903200332153825'
       published: 2025-04-25-19-35-40
-      updated: 2025-04-30-19-14-13
+      updated: 2025-05-01-20-18-08
       followers: 1531
-      likes: 100
+      likes: 102
     - service: vk
       id: 2306
       published: 2025-04-25-19-35-47
-      updated: 2025-04-30-19-14-14
+      updated: 2025-05-01-20-18-08
       followers: 1271
-      likes: 63
-      views: 504
+      likes: 65
+      views: 528
       reposts: 3
+      comments: !c |-
+        G2wA+I2UbsI8COjUcIQ+viYHOIAbMLpsLApw2pLMe6xY7WxKyDpC5Ybd/B4mcsAecEKB8vcuoIZ8
+        UHLYjmfSVI8gVOSqs9i1I9sNQ/+X4nIQsmMnx4riQb4uUAgYTlMxRgBIk7KVY+ACMPGPswc=
     - service: tg
       id: 811
       published: 2025-04-25-19-35-54
-      updated: 2025-04-30-19-14-13
+      updated: 2025-05-01-20-18-08
       followers: 725
       likes: 64
-      views: 455
+      views: 493
 2025-04-26-along-the-street:
   title: Along the Street
   titleRu: Вдоль по улице
