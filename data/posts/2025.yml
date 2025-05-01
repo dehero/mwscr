@@ -310,18 +310,18 @@
     - service: vk
       id: 2114
       published: 2025-02-05-18-11-07
-      updated: 2025-04-24-03-04-40
+      updated: 2025-05-01-03-15-19
       followers: 1060
       likes: 49
-      views: 457
+      views: 459
       reposts: 3
     - service: tg
       id: 695
       published: 2025-02-05-18-11-12
-      updated: 2025-04-24-03-04-39
+      updated: 2025-05-01-03-15-18
       followers: 664
       likes: 62
-      views: 676
+      views: 679
 2025-02-06-night-watch:
   title: Night Watch
   titleRu: Ночной дозор
