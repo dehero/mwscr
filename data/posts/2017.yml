@@ -2594,7 +2594,7 @@
     - service: tg
       id: 472
       published: 2024-07-17-18-20-31
-      updated: 2025-04-24-15-18-12
+      updated: 2025-05-01-16-21-50
       followers: 401
       likes: 67
       views: 605
@@ -5857,10 +5857,10 @@
     - service: tg
       id: 465
       published: 2024-07-10-18-22-34
-      updated: 2025-04-24-15-18-13
+      updated: 2025-05-01-16-21-51
       followers: 396
       likes: 58
-      views: 557
+      views: 558
     - service: ig
       id: C9WWNUkOIO0
       mediaId: '18014944706197372'
@@ -5917,10 +5917,10 @@
     - service: tg
       id: 479
       published: 2024-07-24-18-21-09
-      updated: 2025-04-24-15-18-11
+      updated: 2025-05-01-16-21-49
       followers: 400
       likes: 59
-      views: 623
+      views: 624
 2017-05-17-nice-time-to-go-boating:
   title: Nice Time to Go Boating
   titleRu: Хорошее время, чтобы поплавать на лодке
@@ -11126,19 +11126,19 @@
       id: DJFKZxPzbyu
       mediaId: '18068607500505132'
       published: 2025-04-30-18-24-27
-      updated: 2025-05-01-15-17-36
+      updated: 2025-05-01-16-21-47
       followers: 1531
-      likes: 49
+      likes: 50
       comments: !c |-
         G2kA+I2UbuZkhEofvDnCxonNEvq7p2cBl0hUIkUBBV4RBhM5cI8wsUD0e6VyUP0D0rluD5rZVd4L
         OJ3SOJSUNwqnhN+8oJG3yWM2BtT2CYcsa4Tbg2a2fD8Ax6gSDqWZ/cBj2usRGxA=
     - service: vk
       id: 2323
       published: 2025-04-30-18-24-34
-      updated: 2025-05-01-15-17-34
+      updated: 2025-05-01-16-21-46
       followers: 1275
-      likes: 28
-      views: 187
+      likes: 30
+      views: 191
       comments: !c |-
         G4gA+B0JdizLwsM37ETjefI2wn8+GvJgGXYJRpi8n9Mt5PoY9ciGMq69Ox717bs9DSnNupYFB5xo
         ZKUgLomVJaCDUX8/Xxvn7b/Ge+0Qr/RU+d1FMI6UocI3LCV2FWWWZd7RyOQZNwSdOAPcY2PEii4w
@@ -11146,10 +11146,10 @@
     - service: tg
       id: 823
       published: 2025-04-30-18-24-40
-      updated: 2025-05-01-15-17-34
+      updated: 2025-05-01-16-21-46
       followers: 729
       likes: 47
-      views: 181
+      views: 183
       comments: !c |-
         G4QCIBwF7p6iDLHcfkxvQ2T089dqeACX3mJhYQUl0MSvyaCNpgTevmvBA9oT2seuhAIqC0uigmz3
         p4AG3OwE8aD0//+m6AcMhN9tDtvDytqAWeZZp1G9jvkL4f14/KuYziOO+0IajQTNXaT7FzPQk1uL
@@ -11215,16 +11215,16 @@
       id: DJClirxzB0D
       mediaId: '18027358649445461'
       published: 2025-04-29-18-23-54
-      updated: 2025-05-01-15-17-37
+      updated: 2025-05-01-16-21-48
       followers: 1532
       likes: 59
     - service: vk
       id: 2319
       published: 2025-04-29-18-24-00
-      updated: 2025-05-01-15-17-35
+      updated: 2025-05-01-16-21-48
       followers: 1274
       likes: 43
-      views: 257
+      views: 259
       comments: !c |-
         G5kDACwOeBOrY4+oPnXcThPWQI4imwyNUYds0rywdSjZBKcBIwgW4zCzqpsYIS/UkwtXBgt8Xevz
         3LJII6znp2Ai/+g6tTacD2yg53rrUha++yAF2WxsbB+bWjShmBSu8/ji5f3vmZpXoOMUKEm1hj95
@@ -11238,10 +11238,10 @@
     - service: tg
       id: 822
       published: 2025-04-29-18-30-21
-      updated: 2025-05-01-15-17-35
+      updated: 2025-05-01-16-21-47
       followers: 728
       likes: 50
-      views: 217
+      views: 218
 2017-10-04-in-the-evening-time:
   title: In the Evening Time
   titleRu: В вечерний час
