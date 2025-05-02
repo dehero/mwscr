@@ -5744,16 +5744,16 @@
       id: DI9b7EaStjL
       mediaId: '18084597403711990'
       published: 2025-04-27-18-24-00
-      updated: 2025-05-01-19-14-03
+      updated: 2025-05-02-19-14-21
       followers: 1530
-      likes: 98
+      likes: 101
     - service: vk
       id: 2308
       published: 2025-04-27-18-24-00
-      updated: 2025-05-01-19-14-04
+      updated: 2025-05-02-19-14-22
       followers: 1274
-      likes: 74
-      views: 446
+      likes: 75
+      views: 471
       reposts: 4
       comments: !c |-
         G20CAKwK7HZmwxHh0bsUt/2KsszY8c8/R20I/xmb2m1IOh5utHKgq0AnCjRd72sBCSRVN4xwWAwJ
@@ -5770,10 +5770,10 @@
         - 819
         - 820
       published: 2025-04-27-18-52-00
-      updated: 2025-05-01-19-14-02
+      updated: 2025-05-02-19-14-22
       followers: 726
       likes: 64
-      views: 311
+      views: 355
 2018-05-28-passing-by-pelagiad:
   title: Passing by Pelagiad
   titleRu: Проезжая Пелагиад
@@ -8832,15 +8832,24 @@
       id: DJKT7xjPNr-
       mediaId: '18011268017545550'
       published: 2025-05-02-18-23-57
+      updated: 2025-05-02-19-14-18
       followers: 1532
+      likes: 18
     - service: vk
       id: 2331
       published: 2025-05-02-18-24-06
+      updated: 2025-05-02-19-14-19
       followers: 1275
+      likes: 10
+      views: 44
     - service: tg
       id: 825
       published: 2025-05-02-18-24-15
+      updated: 2025-05-02-19-14-19
       followers: 736
+      likes: 27
+      views: 79
+      comments: !c CxeAkZTLQnlpJEVVAAClYW5zaXOkTnV0c5PLQnlpJaADAACpR2F0ZW1hdGU3pG51dHMD
 2018-08-19-night-life:
   title: Night Life
   titleRu: Ночная жизнь
