@@ -8828,6 +8828,19 @@
       likes: 23
       views: 360
       comments: !c CxSAkZPLQnZVMXlLgACqZGVhZF9fX2VuZLLQodGC0YDQsNGI0L3Qvi4oKCgD
+    - service: ig
+      id: DJKT7xjPNr-
+      mediaId: '18011268017545550'
+      published: 2025-05-02-18-23-57
+      followers: 1532
+    - service: vk
+      id: 2331
+      published: 2025-05-02-18-24-06
+      followers: 1275
+    - service: tg
+      id: 825
+      published: 2025-05-02-18-24-15
+      followers: 736
 2018-08-19-night-life:
   title: Night Life
   titleRu: Ночная жизнь
