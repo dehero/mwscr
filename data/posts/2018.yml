@@ -1746,7 +1746,7 @@
     - service: vk
       id: 1573
       published: 2024-06-06-18-19-32
-      updated: 2025-04-26-01-14-33
+      updated: 2025-05-03-01-18-49
       followers: 916
       likes: 37
       views: 291
@@ -1754,10 +1754,10 @@
     - service: tg
       id: 431
       published: 2024-06-06-18-19-42
-      updated: 2025-04-26-01-14-29
+      updated: 2025-05-03-01-18-46
       followers: 384
       likes: 58
-      views: 456
+      views: 457
       comments: !c |-
         G7MAqIzDOBYcDMJfsWXVnFEu7zM+nl2EJSiSIlYRtkDK4Z6s8CxM6zbmuLt3ot8pEKQopxyAh1jk
         zePgrBc/w93GwLW8Hq9S0OuUJCep8edTAHdoRb4bpW3TK9WWH18eCYis7wb1NnihaQ5St7hP1MFA
@@ -5255,7 +5255,7 @@
     - service: vk
       id: 1543
       published: 2024-05-23-18-18-57
-      updated: 2025-04-26-01-14-35
+      updated: 2025-05-03-01-18-51
       followers: 917
       likes: 46
       views: 298
@@ -5266,10 +5266,10 @@
     - service: tg
       id: 417
       published: 2024-05-23-18-19-02
-      updated: 2025-04-26-01-14-31
+      updated: 2025-05-03-01-18-47
       followers: 376
       likes: 64
-      views: 514
+      views: 515
       comments: !c |-
         G2oAQCwS7JgUo4JbFLbXSSe3HeXg9+/KYQItsUDKNkr9BMBz1MmRfp5K+w5JbUUYeeQlGtudUy7B
         wLwlLaTTmQ9+z+FzUiKPXXt1ry6YlTKDt9dsp6hVlso7Yzzs571EH2zjEEa1DC64MAcA
@@ -8120,24 +8120,24 @@
       id: DFx_pEkJY6I
       mediaId: '18441845239072911'
       published: 2025-02-07-18-10-38
-      updated: 2025-04-26-01-14-25
+      updated: 2025-05-03-01-18-41
       followers: 1534
-      likes: 94
+      likes: 95
       views: 340
     - service: vk
       id: 2116
       published: 2025-02-07-18-10-45
-      updated: 2025-04-26-01-14-28
+      updated: 2025-05-03-01-18-44
       followers: 1062
       likes: 47
-      views: 429
+      views: 430
     - service: tg
       id: 700
       published: 2025-02-07-18-10-54
-      updated: 2025-04-26-01-14-25
+      updated: 2025-05-03-01-18-41
       followers: 670
       likes: 62
-      views: 537
+      views: 543
 2018-07-28-sulfur-forest:
   title: Sulfur Forest
   titleRu: Серный лес
@@ -8832,23 +8832,23 @@
       id: DJKT7xjPNr-
       mediaId: '18011268017545550'
       published: 2025-05-02-18-23-57
-      updated: 2025-05-02-23-16-05
+      updated: 2025-05-03-01-18-39
       followers: 1532
-      likes: 40
+      likes: 44
     - service: vk
       id: 2331
       published: 2025-05-02-18-24-06
-      updated: 2025-05-02-23-16-05
+      updated: 2025-05-03-01-18-39
       followers: 1275
-      likes: 17
-      views: 104
+      likes: 19
+      views: 108
     - service: tg
       id: 825
       published: 2025-05-02-18-24-15
-      updated: 2025-05-02-23-16-06
+      updated: 2025-05-03-01-18-39
       followers: 736
-      likes: 37
-      views: 121
+      likes: 39
+      views: 127
       comments: !c CxeAkZTLQnlpJEVVAAClYW5zaXOkTnV0c5PLQnlpJaADAACpR2F0ZW1hdGU3pG51dHMD
 2018-08-19-night-life:
   title: Night Life
@@ -11850,10 +11850,10 @@
     - service: vk
       id: 2130
       published: 2025-02-14-18-11-33
-      updated: 2025-04-26-01-14-26
+      updated: 2025-05-03-01-18-42
       followers: 1070
       likes: 58
-      views: 669
+      views: 670
       reposts: 7
       comments: !c |-
         G/sBACwOzHO6zrBQug1T6SPj/+kvRvrW99MqZdgkFmlyLnBm7CilE7LZjL/f9kqVCnWbOZvTtnG8
@@ -13545,25 +13545,25 @@
       id: DE7_wC1PgTr
       mediaId: '18065439076892825'
       published: 2025-01-17-18-52-37
-      updated: 2025-04-26-01-14-30
+      updated: 2025-05-03-01-18-45
       followers: 1525
       likes: 92
       views: 398
     - service: vk
       id: 2069
       published: 2025-01-17-18-52-43
-      updated: 2025-04-26-01-14-31
+      updated: 2025-05-03-01-18-47
       followers: 1053
       likes: 38
-      views: 333
+      views: 334
       reposts: 1
     - service: tg
       id: 670
       published: 2025-01-17-18-52-49
-      updated: 2025-04-26-01-14-27
+      updated: 2025-05-03-01-18-43
       followers: 655
       likes: 63
-      views: 529
+      views: 532
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели
