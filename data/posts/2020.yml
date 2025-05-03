@@ -816,15 +816,23 @@
       id: DJM4hitTnhd
       mediaId: '18005959631685697'
       published: 2025-05-03-18-22-10
+      updated: 2025-05-03-19-13-10
       followers: 1533
+      likes: 18
     - service: vk
       id: 2332
       published: 2025-05-03-18-22-20
+      updated: 2025-05-03-19-13-10
       followers: 1275
+      likes: 12
+      views: 50
     - service: tg
       id: 826
       published: 2025-05-03-18-22-30
+      updated: 2025-05-03-19-13-11
       followers: 736
+      likes: 29
+      views: 85
 2020-10-14-random-visitor:
   title: Random Visitor
   titleRu: Случайный посетитель
