@@ -3619,10 +3619,10 @@
     - service: vk
       id: 1534
       published: 2024-05-16-18-18-18
-      updated: 2025-04-26-02-58-03
+      updated: 2025-05-03-03-02-29
       followers: 915
       likes: 41
-      views: 329
+      views: 330
       reposts: 1
       comments: !c |-
         G5AAqB2HcSyy8PJqYKMTI1Q6PV+3I/zjd6GH2ESSeLLPOZf6SkjuXPAXXW9JUaNUJB/j+4bydrPZ
@@ -3631,10 +3631,10 @@
     - service: tg
       id: 410
       published: 2024-05-16-18-18-25
-      updated: 2025-04-26-02-58-01
+      updated: 2025-05-03-03-02-29
       followers: 370
       likes: 58
-      views: 500
+      views: 502
       comments: !c |-
         iyuAkpPLQnj4TMeUAACpR2F0ZW1hdGU3tXRoZSBob29kIG9mIG1vcnJvd2luZJPLQnj4K14cgACr
         Ym9icm92bmlrb3a2R29vZCBldmVuaW5nLCBldmVyeW9uZQM=
@@ -5430,20 +5430,20 @@
     - service: vk
       id: 1526
       published: 2024-05-09-18-18-25
-      updated: 2025-04-26-02-58-04
+      updated: 2025-05-03-03-02-30
       followers: 913
       likes: 39
-      views: 281
+      views: 282
       comments: !c |-
         G2YA+J0JdizEZBhqMCRfIOqRNj6xAdBz4RNdWtCNvcQi3KEYDlrecpeVZjbK/YYgcj9B8DmrQpQ1
         ZfUpikZppQIxTHQ497v+B+ltqkCqtIwYnr/VGkxmm4xOTPlK00F8Txq6rd2I4NCMAQ==
     - service: tg
       id: 403
       published: 2024-05-09-18-18-32
-      updated: 2025-04-26-02-58-02
+      updated: 2025-05-03-03-02-30
       followers: 370
       likes: 61
-      views: 469
+      views: 470
 2018-05-19-keep-calm-and-wait-for-nerevarine:
   title: Keep Calm and Wait for Nerevarine
   titleRu: Будь спокоен и жди Нереварина
@@ -8832,23 +8832,23 @@
       id: DJKT7xjPNr-
       mediaId: '18011268017545550'
       published: 2025-05-02-18-23-57
-      updated: 2025-05-03-01-18-39
+      updated: 2025-05-03-03-02-27
       followers: 1532
-      likes: 44
+      likes: 48
     - service: vk
       id: 2331
       published: 2025-05-02-18-24-06
-      updated: 2025-05-03-01-18-39
+      updated: 2025-05-03-03-02-26
       followers: 1275
-      likes: 19
-      views: 108
+      likes: 24
+      views: 125
     - service: tg
       id: 825
       published: 2025-05-02-18-24-15
-      updated: 2025-05-03-01-18-39
+      updated: 2025-05-03-03-02-27
       followers: 736
       likes: 39
-      views: 127
+      views: 129
       comments: !c CxeAkZTLQnlpJEVVAAClYW5zaXOkTnV0c5PLQnlpJaADAACpR2F0ZW1hdGU3pG51dHMD
 2018-08-19-night-life:
   title: Night Life
