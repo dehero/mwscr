@@ -822,17 +822,17 @@
     - service: vk
       id: 2332
       published: 2025-05-03-18-22-20
-      updated: 2025-05-03-22-15-33
+      updated: 2025-05-03-23-15-41
       followers: 1275
-      likes: 24
-      views: 107
+      likes: 25
+      views: 115
     - service: tg
       id: 826
       published: 2025-05-03-18-22-30
-      updated: 2025-05-03-22-15-33
+      updated: 2025-05-03-23-15-41
       followers: 736
       likes: 36
-      views: 121
+      views: 123
 2020-10-14-random-visitor:
   title: Random Visitor
   titleRu: Случайный посетитель
