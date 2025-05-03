@@ -1443,16 +1443,16 @@
       id: DJHvRY6OFPj
       mediaId: '17899687557075981'
       published: 2025-05-01-18-25-07
-      updated: 2025-05-03-15-16-24
+      updated: 2025-05-03-16-19-41
       followers: 1532
       likes: 100
     - service: vk
       id: 2329
       published: 2025-05-01-18-25-16
-      updated: 2025-05-03-15-16-23
+      updated: 2025-05-03-16-19-42
       followers: 1275
       likes: 32
-      views: 264
+      views: 265
       comments: !c |-
         G1gBYKwSeHNYPclimHI1n5Sopz/RI/RA8kFjHMNOBUtY2YP323aE1u1hIh+msgdU7WLOKMH7vWmC
         vnnAxEMuc2S0C0e9yPLc4FADgYAyTzYacNDJIxh0cBvi8wmeNQIp/fn++/Ffar8XKtweFyty8DqB
@@ -1461,11 +1461,13 @@
     - service: tg
       id: 824
       published: 2025-05-01-18-25-26
-      updated: 2025-05-03-15-16-23
+      updated: 2025-05-03-16-19-42
       followers: 734
-      likes: 58
-      views: 230
-      comments: !c CwuAkZPLQnlo0zVhAACmQzRINk80pPCfmJAD
+      likes: 59
+      views: 233
+      comments: !c |-
+        iyeAk5PLQnlpbfo6gACnYnJnMTA5Mq1Db3JwcnVzYXJpdW0/k8tCeWlt86MAAKlNYXhVcHNoZXKk
+        8J+YkpPLQnlo0zVhAACmQzRINk80pPCfmJAD
 2020-10-29-red-passage:
   title: Red Passage
   titleRu: Красный переход
