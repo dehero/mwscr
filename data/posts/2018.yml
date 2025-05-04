@@ -8838,17 +8838,21 @@
     - service: vk
       id: 2331
       published: 2025-05-02-18-24-06
-      updated: 2025-05-04-01-27-43
+      updated: 2025-05-04-03-15-25
       followers: 1275
-      likes: 39
-      views: 268
+      likes: 42
+      views: 272
+      comments: !c |-
+        G34A+B0JNk5xo8u3YkgipF2EAwo01Ei7RCNLfqAbC7nail2Qoxyc0L+3UsQkRKHZXFAEM6Y937qp
+        cgMbcOCeYJyYLHbX8E5FJbk79/uZb3Ax3qZBjyVVxserIQyNFYlaT7oYFZHnia+sqRTHqfxdlO7O
+        6S1M
     - service: tg
       id: 825
       published: 2025-05-02-18-24-15
-      updated: 2025-05-04-01-27-43
+      updated: 2025-05-04-03-15-25
       followers: 736
       likes: 53
-      views: 214
+      views: 215
       comments: !c CxeAkZTLQnlpJEVVAAClYW5zaXOkTnV0c5PLQnlpJaADAACpR2F0ZW1hdGU3pG51dHMD
 2018-08-19-night-life:
   title: Night Life
