@@ -822,20 +822,20 @@
     - service: vk
       id: 2332
       published: 2025-05-03-18-22-20
-      updated: 2025-05-04-05-16-49
+      updated: 2025-05-04-06-23-26
       followers: 1275
-      likes: 34
-      views: 153
+      likes: 36
+      views: 166
       comments: !c |-
         G4EA+J0JdizEZBhaToDMxD//3kb4deqTDDsJRhh0n7uQlnHPF07c4FTjzQLcvmGYhuXMkcluSRzK
         KC2JQg8Wbe7nM+fVH+u9DqDC9OSScGk8cRDK4tOEFZWq0ZSleZsGB8p2oLEkEXsD
     - service: tg
       id: 826
       published: 2025-05-03-18-22-30
-      updated: 2025-05-04-05-16-50
+      updated: 2025-05-04-06-23-26
       followers: 736
-      likes: 43
-      views: 146
+      likes: 46
+      views: 156
 2020-10-14-random-visitor:
   title: Random Visitor
   titleRu: Случайный посетитель
