@@ -980,18 +980,18 @@
     - service: vk
       id: 2242
       published: 2025-03-30-18-19-26
-      updated: 2025-04-27-22-16-00
+      updated: 2025-05-04-23-16-05
       followers: 1220
-      likes: 44
-      views: 420
+      likes: 45
+      views: 426
       reposts: 4
     - service: tg
       id: 770
       published: 2025-03-30-18-19-32
-      updated: 2025-04-27-22-15-59
+      updated: 2025-05-04-23-16-05
       followers: 711
       likes: 62
-      views: 542
+      views: 556
       comments: !c |-
         G30AoJ0H2ZnlxOl+2qWvASJLU42ektZaqtb3Dk7PezbQSzqeL94MfAUAkaWjraCDEz0Yb2AJ3gLQ
         BHMbG57l1ueQqL5eL7OYtp91ZzbqLg7aW6x8IIPY6R8OKRx8KO4pXckpu6T70CDExcz6VQn7TsRN
