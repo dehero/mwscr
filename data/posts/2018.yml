@@ -6400,7 +6400,7 @@
     - service: vk
       id: 1857
       published: 2024-10-26-18-09-18
-      updated: 2025-04-27-10-18-57
+      updated: 2025-05-04-11-13-36
       followers: 1000
       likes: 54
       views: 390
@@ -6414,10 +6414,10 @@
     - service: tg
       id: 576
       published: 2024-10-26-18-09-24
-      updated: 2025-04-27-10-18-55
+      updated: 2025-05-04-11-13-34
       followers: 564
       likes: 62
-      views: 639
+      views: 642
       comments: !c CxSAkpPLQnksrSYPAACobW9uZ2xlcmmgk8tCeSygVUwAAKh3aWx6dXVsbKAD
 2018-06-13-lich:
   title: Lich
@@ -8838,10 +8838,10 @@
     - service: vk
       id: 2331
       published: 2025-05-02-18-24-06
-      updated: 2025-05-04-10-17-16
+      updated: 2025-05-04-11-13-30
       followers: 1275
-      likes: 44
-      views: 284
+      likes: 45
+      views: 285
       comments: !c |-
         G9gAUByJcSzKwstXNFUwQpJZIuQWYND8QQo0kyRLE2wlVmTJPWTbQq4foqXYBzocD3+a3WKXtroQ
         hebOV8E56jadExS5AR2cBhggDCgOwyDM+W6RVQ4pOjk40k/wQxbXot5dzy/nfuJUw3egAT2VXDE+
@@ -8850,7 +8850,7 @@
     - service: tg
       id: 825
       published: 2025-05-02-18-24-15
-      updated: 2025-05-04-10-17-15
+      updated: 2025-05-04-11-13-29
       followers: 736
       likes: 53
       views: 227
@@ -10007,10 +10007,10 @@
     - service: vk
       id: 1916
       published: 2024-11-23-18-10-28
-      updated: 2025-04-27-10-18-54
+      updated: 2025-05-04-11-13-32
       followers: 1008
       likes: 41
-      views: 361
+      views: 362
       reposts: 2
       comments: !c |-
         G4kA+C0SbNsJb8cJbulDs+RE8f0twqe/STHJsEkwwmQvJxuGltY7/ikD9WRyFpuo/RQbI0aZI5Od
@@ -10018,10 +10018,10 @@
     - service: tg
       id: 604
       published: 2024-11-23-18-10-35
-      updated: 2025-04-27-10-18-51
+      updated: 2025-05-04-11-13-31
       followers: 575
       likes: 64
-      views: 647
+      views: 650
 2018-09-13-another-coven:
   title: Another Coven
   titleRu: Новое сборище
