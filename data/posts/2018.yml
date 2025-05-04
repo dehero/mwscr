@@ -8838,18 +8838,19 @@
     - service: vk
       id: 2331
       published: 2025-05-02-18-24-06
-      updated: 2025-05-04-03-15-25
+      updated: 2025-05-04-04-20-59
       followers: 1275
-      likes: 42
-      views: 272
+      likes: 43
+      views: 274
       comments: !c |-
-        G34A+B0JNk5xo8u3YkgipF2EAwo01Ei7RCNLfqAbC7nail2Qoxyc0L+3UsQkRKHZXFAEM6Y937qp
-        cgMbcOCeYJyYLHbX8E5FJbk79/uZb3Ax3qZBjyVVxserIQyNFYlaT7oYFZHnia+sqRTHqfxdlO7O
-        6S1M
+        G9gAUByJcSzKwstXNFUwQpJZIuQWYND8QQo0kyRLE2wlVmTJPWTbQq4foqXYBzocD3+a3WKXtroQ
+        hebOV8E56jadExS5AR2cBhggDCgOwyDM+W6RVQ4pOjk40k/wQxbXot5dzy/nfuJUw3egAT2VXDE+
+        vDqi4WCNjXp3ahpV5jrH1oNXJR1D+es1p3PPE75UabkZftc4330j4sBYfLGMW52Py0jmAFmS+eij
+        968aahwh
     - service: tg
       id: 825
       published: 2025-05-02-18-24-15
-      updated: 2025-05-04-03-15-25
+      updated: 2025-05-04-04-20-59
       followers: 736
       likes: 53
       views: 215
