@@ -1991,18 +1991,18 @@
     - service: vk
       id: 2337
       published: 2025-05-04-18-22-19
-      updated: 2025-05-04-20-17-58
+      updated: 2025-05-04-21-15-34
       followers: 1274
-      likes: 14
-      views: 85
+      likes: 15
+      views: 98
       reposts: 1
     - service: tg
       id: 827
       published: 2025-05-04-18-22-26
-      updated: 2025-05-04-20-17-58
+      updated: 2025-05-04-21-15-35
       followers: 736
-      likes: 25
-      views: 97
+      likes: 27
+      views: 104
 2018-02-21-view-from-the-coastal-rocks:
   title: View from the Coastal Rocks
   titleRu: Вид из прибрежных скал
@@ -2103,7 +2103,7 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2025-04-27-20-18-01
+      updated: 2025-05-04-21-15-39
       followers: 927
       likes: 26
       views: 272
@@ -5362,18 +5362,18 @@
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2025-04-27-20-18-04
+      updated: 2025-05-04-21-15-42
       followers: 919
       likes: 56
-      views: 859
+      views: 860
       reposts: 5
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2025-04-27-20-17-59
+      updated: 2025-05-04-21-15-38
       followers: 400
       likes: 67
-      views: 634
+      views: 635
       comments: !c CxWAkZPLQnkNGo4EAACpR2F0ZW1hdGU3tXRoaXMgaXMgZnJvbSAyMDE4IHRobwM=
 2018-05-17-inviting-nchuleft:
   title: Inviting Nchuleft
@@ -7854,7 +7854,7 @@
     - service: vk
       id: 1666
       published: 2024-08-03-18-19-32
-      updated: 2025-04-27-20-18-02
+      updated: 2025-05-04-21-15-40
       followers: 925
       likes: 33
       views: 299

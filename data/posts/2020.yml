@@ -408,10 +408,10 @@
     - service: vk
       id: 2258
       published: 2025-04-06-18-28-44
-      updated: 2025-04-27-20-18-01
+      updated: 2025-05-04-21-15-38
       followers: 1233
-      likes: 45
-      views: 410
+      likes: 47
+      views: 419
       reposts: 3
       comments: !c |-
         G2EA+I3DuOE7infT1vn/f/MTxh8ozhOPx7J9vJNAOhdF8z5swAacByI9DAqHWZFCd5zskpPt+RlL
@@ -419,10 +419,10 @@
     - service: tg
       id: 782
       published: 2025-04-06-18-28-50
-      updated: 2025-04-27-20-17-58
+      updated: 2025-05-04-21-15-36
       followers: 717
       likes: 59
-      views: 527
+      views: 545
       comments: !c |-
         G2AAkGXqWku4dlZ0Xgkc0fbA/8A5nlbFCRtw4FTwArz6sAHHHGKa2PZpPHlRg34l9gAseaN2EqN2
         yD9MndqNgz4RNDmSt+J8ea9GYGqkVVDttKyGtW/U0HYMOx5QKCL2bT4o
@@ -822,10 +822,10 @@
     - service: vk
       id: 2332
       published: 2025-05-03-18-22-20
-      updated: 2025-05-04-20-17-59
+      updated: 2025-05-04-21-15-35
       followers: 1275
       likes: 50
-      views: 257
+      views: 262
       reposts: 1
       comments: !c |-
         G4EA+J0JdizEZBhaToDMxD//3kb4deqTDDsJRhh0n7uQlnHPF07c4FTjzQLcvmGYhuXMkcluSRzK
@@ -833,10 +833,10 @@
     - service: tg
       id: 826
       published: 2025-05-03-18-22-30
-      updated: 2025-05-04-20-17-59
+      updated: 2025-05-04-21-15-36
       followers: 736
       likes: 56
-      views: 209
+      views: 214
 2020-10-14-random-visitor:
   title: Random Visitor
   titleRu: Случайный посетитель
