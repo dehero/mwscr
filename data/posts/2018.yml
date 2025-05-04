@@ -8838,10 +8838,10 @@
     - service: vk
       id: 2331
       published: 2025-05-02-18-24-06
-      updated: 2025-05-04-13-23-46
+      updated: 2025-05-04-14-14-52
       followers: 1275
-      likes: 45
-      views: 289
+      likes: 46
+      views: 291
       comments: !c |-
         G9gAUByJcSzKwstXNFUwQpJZIuQWYND8QQo0kyRLE2wlVmTJPWTbQq4foqXYBzocD3+a3WKXtroQ
         hebOV8E56jadExS5AR2cBhggDCgOwyDM+W6RVQ4pOjk40k/wQxbXot5dzy/nfuJUw3egAT2VXDE+
@@ -8850,7 +8850,7 @@
     - service: tg
       id: 825
       published: 2025-05-02-18-24-15
-      updated: 2025-05-04-13-23-45
+      updated: 2025-05-04-14-14-52
       followers: 736
       likes: 53
       views: 230
