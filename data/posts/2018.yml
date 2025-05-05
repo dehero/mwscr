@@ -1991,25 +1991,25 @@
     - service: vk
       id: 2337
       published: 2025-05-04-18-22-19
-      updated: 2025-05-05-17-15-39
+      updated: 2025-05-05-18-20-50
       followers: 1274
-      likes: 31
-      views: 220
+      likes: 32
+      views: 223
       reposts: 1
     - service: tg
       id: 827
       published: 2025-05-04-18-22-26
-      updated: 2025-05-05-17-15-40
+      updated: 2025-05-05-18-20-51
       followers: 736
-      likes: 46
-      views: 183
+      likes: 47
+      views: 185
     - service: ig
       id: DJQrnOitwg4
       mediaId: '18057956966153632'
       published: 2025-05-05-05-46-20
-      updated: 2025-05-05-17-15-38
+      updated: 2025-05-05-18-20-50
       followers: 1532
-      likes: 47
+      likes: 48
 2018-02-21-view-from-the-coastal-rocks:
   title: View from the Coastal Rocks
   titleRu: Вид из прибрежных скал
@@ -4161,6 +4161,23 @@
       followers: 153
       likes: 23
       views: 234
+    - service: ig
+      id: DJSCDBPNh5G
+      mediaId: '18074365795804472'
+      published: 2025-05-05-18-21-33
+      followers: 1531
+    - service: vk
+      id: 2338
+      published: 2025-05-05-18-21-56
+      followers: 1277
+    - service: tg
+      id:
+        - 828
+        - 829
+        - 830
+        - 831
+      published: 2025-05-05-18-22-16
+      followers: 736
 2018-04-16-dont-look-back:
   title: Don't Look Back
   titleRu: Не оборачивайся
