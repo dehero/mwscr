@@ -2169,10 +2169,10 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2025-04-28-03-09-20
+      updated: 2025-05-05-03-11-46
       followers: 916
       likes: 53
-      views: 441
+      views: 443
       reposts: 7
     - service: tg
       id: 440
@@ -2877,18 +2877,18 @@
     - service: vk
       id: 2133
       published: 2025-02-16-18-09-34
-      updated: 2025-04-28-03-09-13
+      updated: 2025-05-05-03-11-40
       followers: 1071
       likes: 45
-      views: 480
+      views: 481
       reposts: 4
     - service: tg
       id: 712
       published: 2025-02-16-18-09-40
-      updated: 2025-04-28-03-09-11
+      updated: 2025-05-05-03-11-40
       followers: 677
       likes: 74
-      views: 683
+      views: 690
       comments: !c |-
         C0KAkpPLQnlSitoxgACvQWxleGV5IFN0ZXBhbm92pPCfjJ2Ty0J5UP+7EgAAq2FhcnljaGFnb2Zm
         2U3Qk9C70LDQstC90L7QtSAtINC90LUg0L/Rg9GC0LDRgtGMINCd0YfRg9GA0LTQsNC80YYg0Lgg
@@ -7068,10 +7068,10 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2025-04-28-03-09-19
+      updated: 2025-05-05-03-11-45
       followers: 920
       likes: 39
-      views: 301
+      views: 302
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
@@ -7377,10 +7377,10 @@
     - service: vk
       id: 2107
       published: 2025-02-02-18-09-12
-      updated: 2025-04-28-03-09-16
+      updated: 2025-05-05-03-11-42
       followers: 1060
       likes: 51
-      views: 438
+      views: 439
       comments: !c |-
         GyIBMCwOeHPUIcRE+eFaNxlujf+nv9jOEr38g2ecYTMJFWFyLvy7rdCjVbpNum9D+cN5O3Vb7s8G
         Y9x2TE6OPERj1RtsXhQ661ZkeW5wOuCEDyDDgPOA44KjTmu0GxxEFBdJPdE8/v7842jfruv3ckKh
@@ -7389,10 +7389,10 @@
     - service: tg
       id: 692
       published: 2025-02-02-18-09-19
-      updated: 2025-04-28-03-09-12
+      updated: 2025-05-05-03-11-40
       followers: 662
       likes: 69
-      views: 689
+      views: 695
 2017-06-26-floating-over-the-green-hills:
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами

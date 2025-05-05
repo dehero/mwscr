@@ -1991,18 +1991,18 @@
     - service: vk
       id: 2337
       published: 2025-05-04-18-22-19
-      updated: 2025-05-05-01-23-38
+      updated: 2025-05-05-03-11-38
       followers: 1274
-      likes: 24
-      views: 133
+      likes: 27
+      views: 142
       reposts: 1
     - service: tg
       id: 827
       published: 2025-05-04-18-22-26
-      updated: 2025-05-05-01-23-39
+      updated: 2025-05-05-03-11-38
       followers: 736
-      likes: 32
-      views: 122
+      likes: 33
+      views: 129
 2018-02-21-view-from-the-coastal-rocks:
   title: View from the Coastal Rocks
   titleRu: Вид из прибрежных скал
@@ -2531,18 +2531,18 @@
     - service: vk
       id: 2072
       published: 2025-01-19-18-09-17
-      updated: 2025-04-28-03-09-18
+      updated: 2025-05-05-03-11-44
       followers: 1054
       likes: 44
-      views: 385
+      views: 386
       reposts: 2
     - service: tg
       id: 672
       published: 2025-01-19-18-09-23
-      updated: 2025-04-28-03-09-14
+      updated: 2025-05-05-03-11-42
       followers: 655
       likes: 66
-      views: 561
+      views: 564
       comments: !c Cw+AkZPLQnlH/DsZgACvVmFpbCBBc3Rvcid6a2l5o3dvdwM=
 2018-03-07-in-the-yard-of-wolverine-hall:
   title: In the Yard of Wolverine Hall
@@ -4858,10 +4858,10 @@
     - service: vk
       id: 1546
       published: 2024-05-25-18-18-01
-      updated: 2025-04-28-03-09-20
+      updated: 2025-05-05-03-11-47
       followers: 918
       likes: 37
-      views: 298
+      views: 299
     - service: tg
       id: 419
       published: 2024-05-25-18-18-08
@@ -11020,10 +11020,10 @@
     - service: tg
       id: 641
       published: 2024-12-29-18-00-34
-      updated: 2025-04-28-03-09-15
+      updated: 2025-05-05-03-11-43
       followers: 642
       likes: 68
-      views: 593
+      views: 596
 2018-10-04-netch-over-the-puddle:
   title: Netch Over the Puddle
   titleRu: Нетч над лужей
