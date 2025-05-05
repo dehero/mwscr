@@ -1991,15 +1991,15 @@
     - service: vk
       id: 2337
       published: 2025-05-04-18-22-19
-      updated: 2025-05-05-20-19-29
+      updated: 2025-05-05-21-16-16
       followers: 1274
-      likes: 33
-      views: 230
+      likes: 34
+      views: 233
       reposts: 1
     - service: tg
       id: 827
       published: 2025-05-04-18-22-26
-      updated: 2025-05-05-20-19-30
+      updated: 2025-05-05-21-16-17
       followers: 736
       likes: 49
       views: 206
@@ -2007,9 +2007,9 @@
       id: DJQrnOitwg4
       mediaId: '18057956966153632'
       published: 2025-05-05-05-46-20
-      updated: 2025-05-05-20-19-28
+      updated: 2025-05-05-21-16-16
       followers: 1532
-      likes: 49
+      likes: 50
 2018-02-21-view-from-the-coastal-rocks:
   title: View from the Coastal Rocks
   titleRu: Вид из прибрежных скал
@@ -4165,17 +4165,17 @@
       id: DJSCDBPNh5G
       mediaId: '18074365795804472'
       published: 2025-05-05-18-21-33
-      updated: 2025-05-05-20-19-27
+      updated: 2025-05-05-21-16-15
       followers: 1531
-      likes: 60
+      likes: 67
     - service: vk
       id: 2338
       published: 2025-05-05-18-21-56
-      updated: 2025-05-05-20-19-27
+      updated: 2025-05-05-21-16-14
       followers: 1277
-      likes: 43
-      views: 169
-      reposts: 4
+      likes: 48
+      views: 210
+      reposts: 5
       comments: !c CxeAkZPLQnlqHM4WgACpdmxhZGtyMTE0udCe0YfQtdC90Ywg0LrRgNCw0YHQuNCy0L4D
     - service: tg
       id:
@@ -4184,10 +4184,10 @@
         - 830
         - 831
       published: 2025-05-05-18-22-16
-      updated: 2025-05-05-20-19-28
+      updated: 2025-05-05-21-16-15
       followers: 736
-      likes: 33
-      views: 98
+      likes: 34
+      views: 109
       comments: !c |-
         G4sAIGXwZuJf+5h/4Z3+s0Af4LfEA0onB3pQ+HeIrC2INdAvtzFcUxQkGlGjPG+fPkZkuE/E6xp8
         QVKDzG/DzP35WRht33H9y00FsrINk7AZlZUAo7keBzRuioP2q2HDnXLg0yQmr7jK7UA6zasqz1px
