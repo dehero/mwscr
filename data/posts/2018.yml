@@ -1991,23 +1991,23 @@
     - service: vk
       id: 2337
       published: 2025-05-04-18-22-19
-      updated: 2025-05-05-19-12-51
+      updated: 2025-05-05-20-19-29
       followers: 1274
-      likes: 32
-      views: 227
+      likes: 33
+      views: 230
       reposts: 1
     - service: tg
       id: 827
       published: 2025-05-04-18-22-26
-      updated: 2025-05-05-19-12-50
+      updated: 2025-05-05-20-19-30
       followers: 736
       likes: 49
-      views: 202
+      views: 206
     - service: ig
       id: DJQrnOitwg4
       mediaId: '18057956966153632'
       published: 2025-05-05-05-46-20
-      updated: 2025-05-05-19-12-49
+      updated: 2025-05-05-20-19-28
       followers: 1532
       likes: 49
 2018-02-21-view-from-the-coastal-rocks:
@@ -4165,17 +4165,17 @@
       id: DJSCDBPNh5G
       mediaId: '18074365795804472'
       published: 2025-05-05-18-21-33
-      updated: 2025-05-05-19-12-48
+      updated: 2025-05-05-20-19-27
       followers: 1531
-      likes: 39
+      likes: 60
     - service: vk
       id: 2338
       published: 2025-05-05-18-21-56
-      updated: 2025-05-05-19-12-49
+      updated: 2025-05-05-20-19-27
       followers: 1277
-      likes: 29
-      views: 109
-      reposts: 3
+      likes: 43
+      views: 169
+      reposts: 4
       comments: !c CxeAkZPLQnlqHM4WgACpdmxhZGtyMTE0udCe0YfQtdC90Ywg0LrRgNCw0YHQuNCy0L4D
     - service: tg
       id:
@@ -4184,10 +4184,10 @@
         - 830
         - 831
       published: 2025-05-05-18-22-16
-      updated: 2025-05-05-19-12-49
+      updated: 2025-05-05-20-19-28
       followers: 736
-      likes: 25
-      views: 76
+      likes: 33
+      views: 98
       comments: !c |-
         G4sAIGXwZuJf+5h/4Z3+s0Af4LfEA0onB3pQ+HeIrC2INdAvtzFcUxQkGlGjPG+fPkZkuE/E6xp8
         QVKDzG/DzP35WRht33H9y00FsrINk7AZlZUAo7keBzRuioP2q2HDnXLg0yQmr7jK7UA6zasqz1px
@@ -6810,10 +6810,10 @@
     - service: tg
       id: 490
       published: 2024-08-04-18-18-43
-      updated: 2025-04-28-20-18-32
+      updated: 2025-05-05-20-19-36
       followers: 476
       likes: 64
-      views: 851
+      views: 852
       comments: !c |-
         G+0AICwSeA71cYPQBcSN9t86gfLpT815tsVy0YiFw9Exdi1WnoC10haY72NAW73hjvNS7k9EIyng
         kAPxQKrtZrHURElT9upnyGaXYGB8a0Fb0gJKw0AifsIXf5AH3VhoZpHHgUN82Bye2kr4qQ6cPDuP
@@ -7776,25 +7776,25 @@
       id: DIb9YQlAy9w
       mediaId: '18053498783517076'
       published: 2025-04-14-18-21-46
-      updated: 2025-04-28-20-18-30
+      updated: 2025-05-05-20-19-29
       followers: 1530
       likes: 62
       views: 228
     - service: vk
       id: 2278
       published: 2025-04-14-18-21-56
-      updated: 2025-04-28-20-18-32
+      updated: 2025-05-05-20-19-34
       followers: 1255
-      likes: 63
-      views: 403
+      likes: 64
+      views: 420
       reposts: 3
     - service: tg
       id: 794
       published: 2025-04-14-18-22-04
-      updated: 2025-04-28-20-18-31
+      updated: 2025-05-05-20-19-34
       followers: 720
-      likes: 58
-      views: 412
+      likes: 59
+      views: 443
 2018-07-18-view-of-private-property:
   title: View of Private Property
   titleRu: Вид на частную собственность
