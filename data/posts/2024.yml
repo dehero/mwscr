@@ -132,15 +132,15 @@
     - service: vk
       id: 1433
       published: 2024-03-02-18-18-15
-      updated: 2025-04-28-14-20-02
+      updated: 2025-05-05-15-18-51
       followers: 895
       likes: 32
-      views: 289
+      views: 290
       comments: !c CxWAkZPLQnjgl4lCgACpaWQ0OTM2NTEztdC+0YHRgtGA0L7Rg9C80L3QvuKdpAM=
     - service: tg
       id: 333
       published: 2024-03-02-18-18-22
-      updated: 2025-04-28-14-19-56
+      updated: 2025-05-05-15-18-46
       followers: 340
       likes: 72
       views: 578
