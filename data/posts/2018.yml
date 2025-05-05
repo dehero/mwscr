@@ -1991,25 +1991,25 @@
     - service: vk
       id: 2337
       published: 2025-05-04-18-22-19
-      updated: 2025-05-05-12-35-21
+      updated: 2025-05-05-13-28-27
       followers: 1274
       likes: 30
-      views: 200
+      views: 201
       reposts: 1
     - service: tg
       id: 827
       published: 2025-05-04-18-22-26
-      updated: 2025-05-05-12-35-21
+      updated: 2025-05-05-13-28-25
       followers: 736
       likes: 45
-      views: 174
+      views: 177
     - service: ig
       id: DJQrnOitwg4
       mediaId: '18057956966153632'
       published: 2025-05-05-05-46-20
-      updated: 2025-05-05-12-35-20
+      updated: 2025-05-05-13-28-25
       followers: 1532
-      likes: 37
+      likes: 39
 2018-02-21-view-from-the-coastal-rocks:
   title: View from the Coastal Rocks
   titleRu: Вид из прибрежных скал
@@ -4536,10 +4536,10 @@
     - service: vk
       id: 1790
       published: 2024-09-29-18-09-02
-      updated: 2025-04-28-12-36-10
+      updated: 2025-05-05-13-28-32
       followers: 957
       likes: 38
-      views: 329
+      views: 330
       comments: !c |-
         G1IA+I2UbsI8COjcEy7SqmziswYcBlAIjjDvcW5jZ16hhCjNEiWmWKHajquaDLMuhTjHJvO93POS
         PPoLdjlDigYKBoRHDAYcUBCGipyJXOWCreK6
@@ -9812,10 +9812,10 @@
     - service: tg
       id: 526
       published: 2024-09-08-18-28-25
-      updated: 2025-04-28-12-36-10
+      updated: 2025-05-05-13-28-31
       followers: 554
       likes: 69
-      views: 651
+      views: 653
     - service: ig
       id: C_t_VnJxftA
       mediaId: '18019278437441496'
@@ -12722,10 +12722,10 @@
     - service: tg
       id: 533
       published: 2024-09-15-18-29-22
-      updated: 2025-04-28-12-36-09
+      updated: 2025-05-05-13-28-30
       followers: 557
       likes: 70
-      views: 547
+      views: 549
       comments: !c CxOAkZPLQnkfiGjEgACnbWxlbm5pY7Nza3kgaXMgYW1hemluZyBoZXJlAw==
 2018-11-11-through-the-snowy-forest:
   title: Through the Snowy Forest
@@ -12983,10 +12983,10 @@
     - service: tg
       id: 541
       published: 2024-09-22-18-28-23
-      updated: 2025-04-28-12-36-08
+      updated: 2025-05-05-13-28-29
       followers: 554
       likes: 68
-      views: 854
+      views: 862
       comments: !c ixCAkZPLQnkhuOWhgACpR2F0ZW1hdGU3rHBlcmZlY3QgZGF0ZQM=
 2018-11-18-horror-of-the-red-corridor:
   title: Horror of the Red Corridor
