@@ -1991,23 +1991,25 @@
     - service: vk
       id: 2337
       published: 2025-05-04-18-22-19
-      updated: 2025-05-05-05-18-26
+      updated: 2025-05-05-06-26-19
       followers: 1274
-      likes: 27
-      views: 158
+      likes: 30
+      views: 166
       reposts: 1
     - service: tg
       id: 827
       published: 2025-05-04-18-22-26
-      updated: 2025-05-05-05-18-27
+      updated: 2025-05-05-06-26-19
       followers: 736
-      likes: 37
-      views: 139
+      likes: 38
+      views: 145
     - service: ig
       id: DJQrnOitwg4
       mediaId: '18057956966153632'
       published: 2025-05-05-05-46-20
+      updated: 2025-05-05-06-26-18
       followers: 1532
+      likes: 8
 2018-02-21-view-from-the-coastal-rocks:
   title: View from the Coastal Rocks
   titleRu: Вид из прибрежных скал
