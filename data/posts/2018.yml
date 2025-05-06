@@ -1991,15 +1991,15 @@
     - service: vk
       id: 2337
       published: 2025-05-04-18-22-19
-      updated: 2025-05-06-06-25-08
+      updated: 2025-05-06-07-18-03
       followers: 1274
       likes: 35
-      views: 242
+      views: 245
       reposts: 1
     - service: tg
       id: 827
       published: 2025-05-04-18-22-26
-      updated: 2025-05-06-06-25-08
+      updated: 2025-05-06-07-18-02
       followers: 736
       likes: 52
       views: 225
@@ -2007,7 +2007,7 @@
       id: DJQrnOitwg4
       mediaId: '18057956966153632'
       published: 2025-05-05-05-46-20
-      updated: 2025-05-06-06-25-09
+      updated: 2025-05-06-07-18-02
       followers: 1532
       likes: 51
 2018-02-21-view-from-the-coastal-rocks:
@@ -4165,16 +4165,16 @@
       id: DJSCDBPNh5G
       mediaId: '18074365795804472'
       published: 2025-05-05-18-21-33
-      updated: 2025-05-06-06-25-06
+      updated: 2025-05-06-07-18-00
       followers: 1531
-      likes: 121
+      likes: 124
     - service: vk
       id: 2338
       published: 2025-05-05-18-21-56
-      updated: 2025-05-06-06-25-07
+      updated: 2025-05-06-07-18-01
       followers: 1277
-      likes: 75
-      views: 397
+      likes: 81
+      views: 430
       reposts: 7
       comments: !c CxeAkZPLQnlqHM4WgACpdmxhZGtyMTE0udCe0YfQtdC90Ywg0LrRgNCw0YHQuNCy0L4D
     - service: tg
@@ -4184,15 +4184,16 @@
         - 830
         - 831
       published: 2025-05-05-18-22-16
-      updated: 2025-05-06-06-25-07
+      updated: 2025-05-06-07-18-01
       followers: 736
       likes: 44
-      views: 158
+      views: 159
       comments: !c |-
-        GzABQByJcSzJgq3r+/lrnvjq6ao9A/TnZdsBbwOsFB/QFYB4ZrvHW+5A+E3v/vdbGr4VJ7VQImvt
-        Necmgz1XmQuvUUbp/vgfxEqrvKr2XzJNi9PJzAyBIAPm0GMIKZl003HM0Cx26DEYjdkNE3bDGhBQ
-        DhPc2uuJcJ8ij+nR+xry2JDUSjXHDU1kHkDjDoc08/XSgSwL5pqRT4nwY8VIkeYiQ/Rlg6XFvh07
-        Kci1+uk5yLB9WZO9uIZGZuLRoS57cO2EfvDEMB1wGFu2WiSZAw==
+        G1MBAByJcSzJgq3r+/lrTjyfLkszbPzrOmzABVYpPqArAPGGyXaPZ7kTffLc7vq1pY9FHydtSWKB
+        RhakabtKHm+xtuyhw8lzd/x3Q6laXrr9Z0xRwmg41n0gSIMJRBnCTAZVtyzdTxe7qCGkGjNrOqx7
+        RaAg74eQodhcr9jiK3SqvyWIutiACMasZrfa6jZ2HyGHqaW1LIsA4LtGlbQcnGcO4Oc0gH/zidOO
+        DOPQk8TFk/2YYk+k2EjjXVFjUSa4R48TSobOLTmh6YqK6ITF/R728RxKogN3U8RfoOi6BRajVClB
+        Jb0=
 2018-04-16-dont-look-back:
   title: Don't Look Back
   titleRu: Не оборачивайся
