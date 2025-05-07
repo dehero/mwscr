@@ -1567,3 +1567,22 @@
 2025-05-04-nook-of-arena: 2018-02-20-nook-of-arena
 2025-05-05-views-of-solstheim: 2018-04-15-views-of-solstheim
 2025-05-06-reed-view: 2023-08-02-reed-view
+2025-05-07-entrance-to-punammu:
+  title: Entrance to Punammu
+  titleRu: Вход в Пунамму
+  placement: Outdoors
+  location:
+    - Ascadian Isles Region
+    - Punammu
+  content: store:/shots/2025-05-07-entrance-to-punammu.png
+  trash:
+    - store:/trash/dehero.2025-04-19-20-26-12.png
+    - store:/trash/dehero.2025-04-19-20-26-12.1.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - water
+    - tree
+    - stone
+  mark: B1

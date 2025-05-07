@@ -87,26 +87,6 @@ dehero.2025-04-10-20-19-51:
   type: shot
   author: dehero
   addon: Tamriel Rebuilt
-dehero.2025-04-19-20-25-50:
-  title: Entrance to Punammu
-  titleRu: Вход в Пунамму
-  placement: Outdoors
-  location:
-    - Ascadian Isles Region
-    - Punammu
-  content: store:/inbox/dehero.2025-04-19-20-25-50.1.png
-  trash:
-    - store:/inbox/dehero.2025-04-19-20-26-12.png
-    - store:/inbox/dehero.2025-04-19-20-26-12.1.png
-    - store:/inbox/dehero.2025-04-19-20-25-50.png
-  type: shot
-  author: dehero
-  engine: OpenMW
-  tags:
-    - water
-    - tree
-    - stone
-  mark: B1
 ohsweetnazareth.2025-05-02-keenings-respite-b6ff886e:
   title: Keening's Respite
   content: store:/inbox/ohsweetnazareth.2025-05-02-keenings-respite-b6ff886e.png
