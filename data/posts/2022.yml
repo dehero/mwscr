@@ -45,10 +45,10 @@
     - service: tg
       id: 246
       published: 2022-06-23
-      updated: 2025-04-30-14-17-22
+      updated: 2025-05-07-14-18-50
       followers: 226
       likes: 86
-      views: 1186
+      views: 1187
       comments: !c |-
         G98CQBwF7p7CIpbT09MXRvDU3+s/wg3IFcp4Ha+VMsFopdKbSD1L9P/ktQHjwLrO4yuv1vTHJ44d
         kAQsIMhPePcRXBFdxweELQofe7YW+OBcuozDqW6m0ZS0UXHR+v+BHj2SCvDV6Y5tgpcgw2KdhEKD
@@ -118,7 +118,7 @@
     - service: tg
       id: 247
       published: 2022-06-24
-      updated: 2025-04-30-14-17-22
+      updated: 2025-05-07-14-18-49
       followers: 236
       likes: 58
       views: 726
@@ -172,7 +172,7 @@
         - 252
         - 253
       published: 2022-06-26
-      updated: 2025-04-30-14-17-22
+      updated: 2025-05-07-14-18-48
       followers: 242
       likes: 57
       views: 688
