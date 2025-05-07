@@ -1591,8 +1591,20 @@
       id: DJXO80Ttu2G
       mediaId: '18112495996486562'
       published: 2025-05-07-18-50-31
+      updated: 2025-05-07-19-15-58
       followers: 1534
+      likes: 6
     - service: tg
       id: 833
       published: 2025-05-07-18-50-42
+      updated: 2025-05-07-19-15-59
       followers: 737
+      likes: 20
+      views: 76
+      comments: !c |-
+        CyGAkZTLQnlqwWzpAACpR2F0ZW1hdGU3qm5vIGRhdGUuLj+Ty0J5asFzA4AApW13c2NyslRoaXMg
+        b25lIGlzIHJlY2VudAM=
+    - service: vk
+      id: 2344
+      published: 2025-05-07-19-16-08
+      followers: 1282
