@@ -44,7 +44,7 @@
     - service: tg
       id: 308
       published: 2023-07-28
-      updated: 2025-04-30-13-28-36
+      updated: 2025-05-07-13-32-26
       followers: 316
       likes: 79
       views: 938
@@ -98,7 +98,7 @@
     - service: tg
       id: 309
       published: 2023-07-29
-      updated: 2025-04-30-13-28-35
+      updated: 2025-05-07-13-32-26
       followers: 319
       likes: 70
       views: 710
@@ -135,7 +135,7 @@
     - service: tg
       id: 310
       published: 2023-07-30
-      updated: 2025-04-30-13-28-35
+      updated: 2025-05-07-13-32-26
       followers: 319
       likes: 57
       views: 703
@@ -175,7 +175,7 @@
     - service: tg
       id: 311
       published: 2023-07-31
-      updated: 2025-04-30-13-28-34
+      updated: 2025-05-07-13-32-25
       followers: 317
       likes: 61
       views: 756
@@ -216,7 +216,7 @@
     - service: tg
       id: 312
       published: 2023-08-01
-      updated: 2025-04-30-13-28-34
+      updated: 2025-05-07-13-32-25
       followers: 317
       likes: 67
       views: 761
@@ -254,7 +254,7 @@
     - service: tg
       id: 313
       published: 2023-08-02
-      updated: 2025-04-30-13-28-34
+      updated: 2025-05-07-13-32-25
       followers: 316
       likes: 55
       views: 884
@@ -262,23 +262,23 @@
       id: DJUnMgEs2ay
       mediaId: '18082683772680416'
       published: 2025-05-06-18-24-38
-      updated: 2025-05-07-12-37-02
+      updated: 2025-05-07-13-31-17
       followers: 1533
       likes: 34
     - service: vk
       id: 2341
       published: 2025-05-06-18-24-44
-      updated: 2025-05-07-12-37-03
+      updated: 2025-05-07-13-31-16
       followers: 1281
       likes: 29
-      views: 184
+      views: 186
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2025-05-07-12-37-04
+      updated: 2025-05-07-13-31-16
       followers: 738
-      likes: 44
-      views: 235
+      likes: 45
+      views: 237
 2023-08-03-spinning-wheel:
   title: Spinning-Wheel
   titleRu: Прялка
@@ -314,7 +314,7 @@
     - service: tg
       id: 314
       published: 2023-08-03
-      updated: 2025-04-30-13-28-33
+      updated: 2025-05-07-13-32-24
       followers: 317
       likes: 46
       views: 886
@@ -380,7 +380,7 @@
     - service: tg
       id: 315
       published: 2023-08-04
-      updated: 2025-04-30-13-28-33
+      updated: 2025-05-07-13-32-24
       followers: 320
       likes: 62
       views: 849
@@ -416,7 +416,7 @@
     - service: tg
       id: 316
       published: 2023-08-05
-      updated: 2025-04-30-13-28-32
+      updated: 2025-05-07-13-32-23
       followers: 321
       likes: 57
       views: 743
@@ -456,7 +456,7 @@
     - service: tg
       id: 317
       published: 2023-08-06
-      updated: 2025-04-30-13-28-32
+      updated: 2025-05-07-13-32-23
       followers: 320
       likes: 52
       views: 812
@@ -495,7 +495,7 @@
     - service: tg
       id: 318
       published: 2023-08-07
-      updated: 2025-04-30-13-28-31
+      updated: 2025-05-07-13-32-22
       followers: 319
       likes: 65
       views: 838
@@ -532,7 +532,7 @@
     - service: tg
       id: 319
       published: 2023-08-08
-      updated: 2025-04-30-13-28-31
+      updated: 2025-05-07-13-32-22
       followers: 319
       likes: 56
       views: 911
@@ -572,7 +572,7 @@
     - service: tg
       id: 320
       published: 2023-08-09
-      updated: 2025-04-30-13-28-30
+      updated: 2025-05-07-13-32-22
       followers: 319
       likes: 73
       views: 995
@@ -580,25 +580,25 @@
       id: DH6fBvXBznp
       mediaId: '18070466110880575'
       published: 2025-04-01-18-21-38
-      updated: 2025-04-30-13-27-29
+      updated: 2025-05-07-13-31-23
       followers: 1529
-      likes: 93
+      likes: 95
       views: 434
     - service: vk
       id: 2251
       published: 2025-04-01-18-21-46
-      updated: 2025-04-30-13-27-31
+      updated: 2025-05-07-13-31-21
       followers: 1226
       likes: 75
-      views: 412
+      views: 420
       reposts: 2
     - service: tg
       id: 773
       published: 2025-04-01-18-21-57
-      updated: 2025-04-30-13-27-29
+      updated: 2025-05-07-13-31-19
       followers: 712
       likes: 67
-      views: 581
+      views: 592
 2023-08-10-behind-a-barrel:
   title: Behind a Barrel
   titleRu: За бочкой
@@ -631,7 +631,7 @@
     - service: tg
       id: 321
       published: 2023-08-10
-      updated: 2025-04-30-13-28-30
+      updated: 2025-05-07-13-32-21
       followers: 320
       likes: 55
       views: 1186
@@ -689,7 +689,7 @@
         - 324
         - 325
       published: 2023-08-11
-      updated: 2025-04-30-13-28-30
+      updated: 2025-05-07-13-32-21
       followers: 322
       likes: 62
       views: 1336
@@ -726,7 +726,7 @@
     - service: tg
       id: 326
       published: 2023-09-16
-      updated: 2025-04-30-13-28-29
+      updated: 2025-05-07-13-32-20
       followers: 325
       likes: 62
       views: 1117
@@ -767,7 +767,7 @@
     - service: tg
       id: 327
       published: 2023-09-17
-      updated: 2025-04-30-13-28-29
+      updated: 2025-05-07-13-32-20
       followers: 326
       likes: 55
       views: 1313
@@ -809,7 +809,7 @@
     - service: tg
       id: 328
       published: 2023-09-18
-      updated: 2025-04-30-13-28-28
+      updated: 2025-05-07-13-32-20
       followers: 327
       likes: 89
       views: 3248
