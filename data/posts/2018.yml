@@ -8893,10 +8893,10 @@
     - service: vk
       id: 2331
       published: 2025-05-02-18-24-06
-      updated: 2025-05-06-20-19-44
+      updated: 2025-05-07-20-21-02
       followers: 1275
-      likes: 55
-      views: 367
+      likes: 57
+      views: 392
       comments: !c |-
         G9gAUByJcSzKwstXNFUwQpJZIuQWYND8QQo0kyRLE2wlVmTJPWTbQq4foqXYBzocD3+a3WKXtroQ
         hebOV8E56jadExS5AR2cBhggDCgOwyDM+W6RVQ4pOjk40k/wQxbXot5dzy/nfuJUw3egAT2VXDE+
@@ -8905,10 +8905,10 @@
     - service: tg
       id: 825
       published: 2025-05-02-18-24-15
-      updated: 2025-05-06-20-19-44
+      updated: 2025-05-07-20-21-01
       followers: 736
-      likes: 60
-      views: 328
+      likes: 61
+      views: 365
       comments: !c CxeAkZTLQnlpJEVVAAClYW5zaXOkTnV0c5PLQnlpJaADAACpR2F0ZW1hdGU3pG51dHMD
 2018-08-19-night-life:
   title: Night Life
