@@ -955,18 +955,18 @@
     - service: vk
       id: 1990
       published: 2024-12-25-18-10-00
-      updated: 2025-05-01-03-15-25
+      updated: 2025-05-08-04-23-27
       followers: 1030
       likes: 38
-      views: 354
+      views: 356
       reposts: 1
     - service: tg
       id: 637
       published: 2024-12-25-18-10-08
-      updated: 2025-05-01-03-15-21
+      updated: 2025-05-08-04-23-23
       followers: 612
       likes: 66
-      views: 836
+      views: 839
       comments: !c |-
         CyiAkZTLQnlAVEbPAACtT2xtZXJfSXpkZXlsYbJXaGF0IGlzIHRoZSBwbGFjZT+Ty0J5QFYdBgAA
         pW13c2NytEFsZCBWZWxvdGhpLCBPdXRwb3N0Aw==
@@ -5876,18 +5876,18 @@
     - service: vk
       id: 2067
       published: 2025-01-15-18-10-29
-      updated: 2025-05-01-03-15-21
+      updated: 2025-05-08-04-23-23
       followers: 1053
       likes: 45
-      views: 490
+      views: 492
       reposts: 2
     - service: tg
       id: 668
       published: 2025-01-15-18-10-36
-      updated: 2025-05-01-03-15-19
+      updated: 2025-05-08-04-23-20
       followers: 654
       likes: 70
-      views: 606
+      views: 609
       comments: !c |-
         G6UCIKwObGPSS486iGLrDaMHpSneRv7G//OcbIT/+E6GGUwg2cSCCJL7TF3M+1cvJQrjCAGhbt0u
         K+2uFZa/n1uqa57Xt1TmiOgTxKRUOiX90jgKICaNkrzTw+jIzJPLBSpqtSa9x8d4RhnQtNAbTjEZ
@@ -7295,10 +7295,10 @@
     - service: vk
       id: 1969
       published: 2024-12-18-18-12-01
-      updated: 2025-05-01-04-22-51
+      updated: 2025-05-08-04-23-28
       followers: 1028
       likes: 54
-      views: 428
+      views: 430
       reposts: 5
       comments: !c |-
         Gw8GAKwPuDm+AtLgqOgdv9NZzV+GVejGP/9/8fuEdz1q/po3WBBnUBJ5EniBB5LsA5p46rvYg0dY
@@ -7317,10 +7317,10 @@
     - service: tg
       id: 629
       published: 2024-12-18-18-12-11
-      updated: 2025-05-01-04-22-50
+      updated: 2025-05-08-04-23-24
       followers: 582
       likes: 68
-      views: 673
+      views: 675
       comments: !c |-
         CzCAkZPLQnk9sjAogACpcmVzaXN0X2l02UrQktGLINGC0L7QttC1INGB0LvRi9GI0LjRgtC1INC/
         0LjRgdC6INGN0YLQvtC5INC60YDRi9GB0Ysg0LLQtNCw0LvQuD8g8J+YhQM=
@@ -11838,18 +11838,18 @@
     - service: vk
       id: 2034
       published: 2025-01-08-18-10-54
-      updated: 2025-05-01-03-15-23
+      updated: 2025-05-08-04-23-25
       followers: 1052
       likes: 37
-      views: 369
+      views: 371
       reposts: 1
     - service: tg
       id: 657
       published: 2025-01-08-18-11-01
-      updated: 2025-05-01-03-15-19
+      updated: 2025-05-08-04-23-21
       followers: 646
       likes: 65
-      views: 527
+      views: 530
 2018-10-21-trees-and-skies:
   title: Trees and Skies
   titleRu: Деревья и небеса
