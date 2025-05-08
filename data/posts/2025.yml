@@ -1611,3 +1611,30 @@
       followers: 1282
       likes: 31
       views: 207
+2025-05-08-prayer:
+  title: Prayer
+  titleRu: Молитва
+  placement: Indoors
+  location: Maran-Adon
+  content: store:/shots/2025-05-08-prayer.png
+  trash: store:/trash/ohsweetnazareth.2025-05-02-prayer-in-maran-adon-84a70516.1.png
+  type: shot
+  author: ohsweetnazareth
+  engine: OpenMW
+  tags:
+    - candle
+  mark: B1
+  posts:
+    - service: ig
+      id: DJZywRGJZ2H
+      mediaId: '18065517287296383'
+      published: 2025-05-08-18-41-51
+      followers: 1534
+    - service: vk
+      id: 2346
+      published: 2025-05-08-18-41-58
+      followers: 1283
+    - service: tg
+      id: 834
+      published: 2025-05-08-18-42-05
+      followers: 737
