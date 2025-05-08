@@ -5854,7 +5854,7 @@
     - service: vk
       id: 746
       published: 2018-05-28
-      updated: 2025-05-01-20-19-16
+      updated: 2025-05-08-20-22-02
       followers: 167
       likes: 25
       views: 280
@@ -5928,7 +5928,7 @@
     - service: vk
       id: 748
       published: 2018-05-29
-      updated: 2025-05-01-20-19-15
+      updated: 2025-05-08-20-22-01
       followers: 167
       likes: 42
       views: 704
@@ -5959,7 +5959,7 @@
     - service: vk
       id: 749
       published: 2018-05-30
-      updated: 2025-05-01-20-19-14
+      updated: 2025-05-08-20-22-01
       followers: 167
       likes: 21
       views: 271
@@ -6016,7 +6016,7 @@
     - service: vk
       id: 750
       published: 2018-05-31
-      updated: 2025-05-01-20-19-13
+      updated: 2025-05-08-20-22-00
       followers: 168
       likes: 19
       views: 283
@@ -6043,7 +6043,7 @@
     - service: vk
       id: 752
       published: 2018-06-01
-      updated: 2025-05-01-20-19-12
+      updated: 2025-05-08-20-21-59
       followers: 168
       likes: 20
       views: 270
@@ -6070,7 +6070,7 @@
     - service: vk
       id: 753
       published: 2018-06-02
-      updated: 2025-05-01-20-19-11
+      updated: 2025-05-08-20-21-58
       followers: 168
       likes: 16
       views: 281
@@ -6100,7 +6100,7 @@
     - service: vk
       id: 754
       published: 2018-06-03
-      updated: 2025-05-01-20-19-10
+      updated: 2025-05-08-20-21-57
       followers: 170
       likes: 21
       views: 256
@@ -6128,7 +6128,7 @@
     - service: vk
       id: 755
       published: 2018-06-04
-      updated: 2025-05-01-20-19-09
+      updated: 2025-05-08-20-21-56
       followers: 172
       likes: 17
       views: 267
@@ -6155,7 +6155,7 @@
     - service: vk
       id: 756
       published: 2018-06-05
-      updated: 2025-05-01-20-19-08
+      updated: 2025-05-08-20-21-55
       followers: 172
       likes: 17
       views: 267
@@ -6210,7 +6210,7 @@
     - service: vk
       id: 758
       published: 2018-06-06
-      updated: 2025-05-01-20-19-07
+      updated: 2025-05-08-20-21-54
       followers: 171
       likes: 19
       views: 252
@@ -6235,7 +6235,7 @@
     - service: vk
       id: 759
       published: 2018-06-07
-      updated: 2025-05-01-20-19-06
+      updated: 2025-05-08-20-21-53
       followers: 172
       likes: 25
       views: 289
@@ -6288,7 +6288,7 @@
     - service: vk
       id: 760
       published: 2018-06-08
-      updated: 2025-05-01-20-19-05
+      updated: 2025-05-08-20-21-52
       followers: 172
       likes: 14
       views: 259
@@ -6315,7 +6315,7 @@
     - service: vk
       id: 761
       published: 2018-06-09
-      updated: 2025-05-01-20-19-04
+      updated: 2025-05-08-20-21-51
       followers: 173
       likes: 23
       views: 256
@@ -6384,7 +6384,7 @@
     - service: vk
       id: 762
       published: 2018-06-10
-      updated: 2025-05-01-20-19-03
+      updated: 2025-05-08-20-21-50
       followers: 173
       likes: 22
       views: 247
@@ -6410,7 +6410,7 @@
     - service: vk
       id: 763
       published: 2018-06-11
-      updated: 2025-05-01-20-19-02
+      updated: 2025-05-08-20-21-49
       followers: 173
       likes: 15
       views: 254
@@ -6442,7 +6442,7 @@
     - service: vk
       id: 764
       published: 2018-06-12
-      updated: 2025-05-01-20-19-01
+      updated: 2025-05-08-20-21-49
       followers: 173
       likes: 21
       views: 321
@@ -6501,10 +6501,10 @@
     - service: vk
       id: 765
       published: 2018-06-13
-      updated: 2025-05-01-20-19-01
+      updated: 2025-05-08-20-21-48
       followers: 173
       likes: 20
-      views: 347
+      views: 348
       comments: !c |-
         G08BIJwJdgzFbAQqd0E8wZ9sMIKb/33QycoSC4MokoFHkSXvzLaF2iyZM1swpHdu52D8U4PWNs3Z
         EDUkwQOTgojW+3/EsMFCW+1WWapOTq8HlaAFFGCCsQYWaKlFgXOsRIfahLe/uK6//5yP+2txv7cB
@@ -6559,10 +6559,10 @@
     - service: vk
       id: 766
       published: 2018-06-14
-      updated: 2025-05-01-20-19-00
+      updated: 2025-05-08-20-21-47
       followers: 174
       likes: 19
-      views: 273
+      views: 274
 2018-06-15-under-the-magic-eye:
   title: Under the Magic Eye
   titleRu: Под магическим глазом
@@ -6588,10 +6588,10 @@
     - service: vk
       id: 767
       published: 2018-06-15
-      updated: 2025-05-01-20-18-59
+      updated: 2025-05-08-20-21-46
       followers: 174
       likes: 19
-      views: 262
+      views: 263
       comments: !c |-
         G+IAqJ0JdizEZBha7pZA9HzcKMIfexJIHGhTYkF4Aif71G0lFcFQp/xn7jhDFWpyrC2mv39I2lIP
         NsbmlZA6awcOORE7WKIJcFsgLdiAg1iH8WF857r/fdTz+87l3TeJ0O7/g60EgxMq0mW4O+uYLIJA
@@ -6622,10 +6622,10 @@
     - service: vk
       id: 770
       published: 2018-06-16
-      updated: 2025-05-01-20-18-58
+      updated: 2025-05-08-20-21-45
       followers: 174
       likes: 19
-      views: 306
+      views: 307
       reposts: 1
 2018-06-17-forts-of-imperial-legion:
   title: Forts of Imperial Legion
@@ -6661,10 +6661,10 @@
     - service: vk
       id: 771
       published: 2018-06-17
-      updated: 2025-05-01-20-18-57
+      updated: 2025-05-08-20-21-44
       followers: 174
       likes: 20
-      views: 269
+      views: 270
 2018-06-18-azura-from-underwater:
   title: Azura from Underwater
   titleRu: Азура из-под воды
@@ -6689,10 +6689,10 @@
     - service: vk
       id: 772
       published: 2018-06-18
-      updated: 2025-05-01-20-18-56
+      updated: 2025-05-08-20-21-43
       followers: 174
       likes: 23
-      views: 295
+      views: 296
     - service: ig
       id: C_JJkgzvCqD
       mediaId: '18017561102445866'
@@ -6738,10 +6738,10 @@
     - service: vk
       id: 773
       published: 2018-06-19
-      updated: 2025-05-01-20-18-55
+      updated: 2025-05-08-20-21-42
       followers: 174
       likes: 16
-      views: 250
+      views: 251
 2018-06-20-redoran-lantern:
   title: Redoran Lantern
   titleRu: Редоранский фонарь
@@ -6767,10 +6767,10 @@
     - service: vk
       id: 774
       published: 2018-06-20
-      updated: 2025-05-01-20-18-54
+      updated: 2025-05-08-20-21-41
       followers: 175
       likes: 15
-      views: 393
+      views: 394
 2018-06-21-ice-cave-in-the-ice-bay:
   title: Ice Cave in the Ice Bay
   titleRu: Ледяная пещера в ледяном заливе
@@ -6792,10 +6792,10 @@
     - service: vk
       id: 775
       published: 2018-06-21
-      updated: 2025-05-01-20-18-53
+      updated: 2025-05-08-20-21-40
       followers: 176
       likes: 19
-      views: 285
+      views: 286
     - service: ig
       id: C-Qf406SXhK
       mediaId: '18036187178042222'
@@ -6848,10 +6848,10 @@
     - service: vk
       id: 776
       published: 2018-06-22
-      updated: 2025-05-01-20-18-52
+      updated: 2025-05-08-20-21-39
       followers: 177
       likes: 20
-      views: 557
+      views: 558
       reposts: 2
 2018-06-23-canals:
   title: Canals
@@ -6879,10 +6879,10 @@
     - service: vk
       id: 777
       published: 2018-06-23
-      updated: 2025-05-01-20-18-51
+      updated: 2025-05-08-20-21-38
       followers: 177
       likes: 21
-      views: 263
+      views: 264
 2018-06-24-night-encounters:
   title: Night Encounters
   titleRu: Ночные встречи
@@ -6912,10 +6912,10 @@
     - service: vk
       id: 778
       published: 2018-06-24
-      updated: 2025-05-01-20-18-50
+      updated: 2025-05-08-20-21-37
       followers: 177
       likes: 24
-      views: 255
+      views: 256
 2018-06-25-treasures:
   title: Treasures
   titleRu: Сокровища
@@ -6938,10 +6938,10 @@
     - service: vk
       id: 779
       published: 2018-06-25
-      updated: 2025-05-01-20-18-49
+      updated: 2025-05-08-20-21-36
       followers: 177
       likes: 24
-      views: 280
+      views: 281
 2018-06-26-smoking-house:
   title: Smoking House
   titleRu: Дымящий дом
@@ -6966,10 +6966,10 @@
     - service: vk
       id: 780
       published: 2018-06-26
-      updated: 2025-05-01-20-18-48
+      updated: 2025-05-08-20-21-36
       followers: 177
       likes: 27
-      views: 317
+      views: 318
       comments: !c |-
         Cz2Ak5PLQnZEEHk8gACraWQzMTQwMDcxMDGx0JrQsNC70YzQtNC10YDQsD+Ty0J2RBmq/wAApmRl
         aGVyb65BbmhyYSwg0L7QvdCwLpPLQnZEGo/BgACxY3JhenljeXJvZGlsaWNjYXS10JTQvtC80Y/R
@@ -7030,10 +7030,10 @@
     - service: vk
       id: 784
       published: 2018-06-27
-      updated: 2025-05-01-20-18-47
+      updated: 2025-05-08-20-21-35
       followers: 178
       likes: 20
-      views: 286
+      views: 287
     - service: ig
       id: C-BDYFOzGbE
       mediaId: '17855726970227801'
@@ -7085,10 +7085,10 @@
     - service: vk
       id: 786
       published: 2018-06-28
-      updated: 2025-05-01-20-18-46
+      updated: 2025-05-08-20-21-34
       followers: 178
       likes: 19
-      views: 267
+      views: 268
 2018-06-29-road-to-a-dwemer-tower:
   title: Road to a Dwemer Tower
   titleRu: Дорога к двемерской башне
@@ -7112,10 +7112,10 @@
     - service: vk
       id: 787
       published: 2018-06-29
-      updated: 2025-05-01-20-18-46
+      updated: 2025-05-08-20-21-33
       followers: 180
       likes: 22
-      views: 271
+      views: 272
 2018-06-30-gloomy-northern-forest:
   title: Gloomy Northern Forest
   titleRu: Хмурый северный лес
@@ -7139,10 +7139,10 @@
     - service: vk
       id: 790
       published: 2018-06-30
-      updated: 2025-05-01-20-18-45
+      updated: 2025-05-08-20-21-32
       followers: 180
       likes: 20
-      views: 267
+      views: 268
 2018-07-01-dwemer-towers:
   title: Dwemer Towers
   titleRu: Башни двемеров
@@ -7172,10 +7172,10 @@
     - service: vk
       id: 791
       published: 2018-07-01
-      updated: 2025-05-01-20-18-44
+      updated: 2025-05-08-20-21-31
       followers: 182
       likes: 24
-      views: 276
+      views: 277
 2018-07-02-daedric-hall:
   title: Daedric Hall
   titleRu: Даэдрический зал
@@ -7199,10 +7199,10 @@
     - service: vk
       id: 792
       published: 2018-07-02
-      updated: 2025-05-01-20-18-43
+      updated: 2025-05-08-20-21-30
       followers: 185
       likes: 14
-      views: 266
+      views: 267
 2018-07-03-labyrinth-of-houses:
   title: Labyrinth of Houses
   titleRu: Лабиринт домов
@@ -7230,10 +7230,10 @@
     - service: vk
       id: 793
       published: 2018-07-03
-      updated: 2025-05-01-20-18-42
+      updated: 2025-05-08-20-21-29
       followers: 185
       likes: 15
-      views: 276
+      views: 277
 2018-07-04-view-of-tel-vos:
   title: View of Tel Vos
   titleRu: Вид на Тель Вос
@@ -7255,10 +7255,10 @@
     - service: vk
       id: 794
       published: 2018-07-04
-      updated: 2025-05-01-20-18-41
+      updated: 2025-05-08-20-21-28
       followers: 185
       likes: 15
-      views: 257
+      views: 258
 2018-07-05-a-little-rat-entering-holamayan:
   title: A Little Rat Entering Holamayan
   titleRu: Маленькая крыса входит в Холамаян
@@ -7280,10 +7280,10 @@
     - service: vk
       id: 795
       published: 2018-07-05
-      updated: 2025-05-01-20-18-40
+      updated: 2025-05-08-20-21-27
       followers: 185
       likes: 19
-      views: 262
+      views: 263
     - service: ig
       id: DDurPUTvhQa
       mediaId: '18060616894904245'
@@ -7351,10 +7351,10 @@
     - service: vk
       id: 797
       published: 2018-07-06
-      updated: 2025-05-01-20-18-39
+      updated: 2025-05-08-20-21-26
       followers: 185
       likes: 16
-      views: 249
+      views: 250
 2018-07-07-streets-of-vos:
   title: Streets of Vos
   titleRu: Улицы Воса
@@ -7376,10 +7376,10 @@
     - service: vk
       id: 798
       published: 2018-07-07
-      updated: 2025-05-01-20-18-38
+      updated: 2025-05-08-20-21-25
       followers: 185
       likes: 21
-      views: 252
+      views: 253
     - service: ig
       id: C-8RjrEOZBz
       mediaId: '17871768504158345'
@@ -7429,10 +7429,10 @@
     - service: vk
       id: 799
       published: 2018-07-08
-      updated: 2025-05-01-20-18-37
+      updated: 2025-05-08-20-21-25
       followers: 185
       likes: 20
-      views: 261
+      views: 262
     - service: ig
       id: DIUPBh-BgJ-
       mediaId: '17949874319950561'
@@ -7493,10 +7493,10 @@
     - service: vk
       id: 800
       published: 2018-07-09
-      updated: 2025-05-01-20-18-36
+      updated: 2025-05-08-20-21-24
       followers: 185
       likes: 20
-      views: 258
+      views: 259
 2018-07-10-balmora-temple:
   title: Balmora, Temple
   titleRu: Балмора, Храм
@@ -7520,10 +7520,10 @@
     - service: vk
       id: 801
       published: 2018-07-10
-      updated: 2025-05-01-20-18-35
+      updated: 2025-05-08-20-21-23
       followers: 185
       likes: 16
-      views: 254
+      views: 255
 2018-07-11-casual-viewer:
   title: Casual Viewer
   titleRu: Случайный зритель
@@ -7546,10 +7546,10 @@
     - service: vk
       id: 802
       published: 2018-07-11
-      updated: 2025-05-01-20-18-34
+      updated: 2025-05-08-20-21-22
       followers: 186
       likes: 22
-      views: 278
+      views: 279
 2018-07-12-through-the-waterfalls:
   title: Through the Waterfalls
   titleRu: Сквозь водопады
@@ -7573,10 +7573,10 @@
     - service: vk
       id: 803
       published: 2018-07-12
-      updated: 2025-05-01-20-18-33
+      updated: 2025-05-08-20-21-21
       followers: 186
       likes: 21
-      views: 258
+      views: 259
     - service: ig
       id: DICNVU7Mtr7
       mediaId: '17905033959037709'
@@ -7631,10 +7631,10 @@
     - service: vk
       id: 804
       published: 2018-07-13
-      updated: 2025-05-01-20-18-32
+      updated: 2025-05-08-20-21-20
       followers: 186
       likes: 18
-      views: 269
+      views: 270
 2018-07-14-passing-guard:
   title: Passing Guard
   titleRu: Проходящий стражник
@@ -7658,10 +7658,10 @@
     - service: vk
       id: 806
       published: 2018-07-14
-      updated: 2025-05-01-20-18-32
+      updated: 2025-05-08-20-21-19
       followers: 186
       likes: 20
-      views: 283
+      views: 284
       comments: !c CxGAkZPLQnZRg5iwgACqZnVuZ2lybDY2NqxULXR10L/QuNGG0LAD
 2018-07-15-in-the-shadow-of-ancestral-tombs:
   title: In the Shadow of Ancestral Tombs
@@ -7689,10 +7689,10 @@
     - service: vk
       id: 807
       published: 2018-07-15
-      updated: 2025-05-01-20-18-31
+      updated: 2025-05-08-20-21-18
       followers: 187
       likes: 19
-      views: 307
+      views: 308
       comments: !c |-
         G5MA+J0HdoOzsTD9FR2ZBuKf30+2FB99LHbBX0VEZsliqaZmOTcKuulzvlork0GjJ5OzGqWfMSbY
         JM3ScUsijEkxSR/QOSh6f356Npbte1/Ptc7L7fpYr7/5aA2rxvrttRYM8vGo8EH7MASxa1wZuyEp
@@ -7723,10 +7723,10 @@
     - service: vk
       id: 808
       published: 2018-07-16
-      updated: 2025-05-01-20-18-30
+      updated: 2025-05-08-20-21-17
       followers: 187
       likes: 26
-      views: 272
+      views: 273
       comments: !c CxqAkZPLQnZLIC5uAACscGV0ZWV2YW5kcmV3vNCT0L7RgNGM0LrQuNC5INCx0LXRgNC10LMuLi4D
     - service: ig
       id: DD4-FTdvHGs
@@ -7773,10 +7773,10 @@
     - service: vk
       id: 809
       published: 2018-07-17
-      updated: 2025-05-01-20-18-29
+      updated: 2025-05-08-20-21-16
       followers: 187
       likes: 17
-      views: 261
+      views: 262
     - service: ig
       id: DIb9YQlAy9w
       mediaId: '18053498783517076'
@@ -7822,10 +7822,10 @@
     - service: vk
       id: 810
       published: 2018-07-18
-      updated: 2025-05-01-20-18-28
+      updated: 2025-05-08-20-21-15
       followers: 188
       likes: 21
-      views: 272
+      views: 273
       comments: !c CxOAkZPLQnZLICrEgACscGV0ZWV2YW5kcmV3rtCYINC00L7QttC00YwuAw==
 2018-07-19-stores-of-great-bazaar:
   title: Stores of Great Bazaar
@@ -7849,10 +7849,10 @@
     - service: vk
       id: 814
       published: 2018-07-19
-      updated: 2025-05-01-20-18-27
+      updated: 2025-05-08-20-21-14
       followers: 189
       likes: 16
-      views: 297
+      views: 298
       comments: !c |-
         G3oAqBwJNk5yowaPRBDFtpBULHkJZOhUvL1o9SZWf7qmpnvzCT3ZQ8talYpxG4OyQ29IZDkJLEXK
         vU7nVyTWZTNTnr1qVFWTrFMOqmnrcOFlxsmaZ2AYhtdzmeOkLDDz/Iok/zRwrZruYJpNqtbmwEGZ
@@ -7879,10 +7879,10 @@
     - service: vk
       id: 816
       published: 2018-07-20
-      updated: 2025-05-01-20-18-26
+      updated: 2025-05-08-20-21-13
       followers: 188
       likes: 16
-      views: 260
+      views: 261
       comments: !c |-
         iyKAkZPLQnZMA2ZmAACscGV0ZWV2YW5kcmV32SzQktC10YHRjCDQlNC+0Lwg0KDQtdC00L7RgNCw
         0L0g0LrQvtGA0LzQuNGCIQM=
@@ -7935,10 +7935,10 @@
     - service: vk
       id: 817
       published: 2018-07-21
-      updated: 2025-05-01-20-18-25
+      updated: 2025-05-08-20-21-13
       followers: 190
       likes: 18
-      views: 250
+      views: 251
       comments: !c |-
         G0cA+MWAcy2MWmA8kdRooNEoRLOB4v+GT/xJkCQc5T8TgbTS/JJCmVb/BFHYhm8YoWLqrhH9RGTA
         iRkjDpxv8sZ5A3Y0mDBgnJxWBg==
@@ -7966,10 +7966,10 @@
     - service: vk
       id: 821
       published: 2018-07-22
-      updated: 2025-05-01-20-18-24
+      updated: 2025-05-08-20-21-12
       followers: 190
       likes: 22
-      views: 335
+      views: 336
       reposts: 1
 2018-07-23-along-the-street:
   title: Along the Street
@@ -7994,10 +7994,10 @@
     - service: vk
       id: 822
       published: 2018-07-23
-      updated: 2025-05-01-20-18-23
+      updated: 2025-05-08-20-21-11
       followers: 191
       likes: 18
-      views: 259
+      views: 260
     - service: ig
       id: C9kur6MPT8G
       mediaId: '18044941120917928'
@@ -8048,10 +8048,10 @@
     - service: vk
       id: 823
       published: 2018-07-24
-      updated: 2025-05-01-20-18-22
+      updated: 2025-05-08-20-21-10
       followers: 191
       likes: 17
-      views: 348
+      views: 349
       comments: !c |-
         G4UAoI2E3ETrZfklHEao5DxfuyJcoGUOMOASaiayk/dNbvDc1G/nxmNqtG7n8gTO4tu1wSEn4gfM
         LcGWBVhmUrUUjGh1nw93iP+Y1riTd+x203LGZkVQkFWRqCxkUnR3IdmfG+BN2ZJlh1ckQ3YvTG4t
@@ -8076,10 +8076,10 @@
     - service: vk
       id: 825
       published: 2018-07-25
-      updated: 2025-05-01-20-18-21
+      updated: 2025-05-08-20-21-09
       followers: 191
       likes: 27
-      views: 316
+      views: 317
       reposts: 2
       comments: !c |-
         G7oEIKwOzFOmAyYLad1ExmyeUVEXku75Ob/4V0ADIY/02NCcyzD+W2Mtk5KCkCdHVN0u0Aqt2o7v
@@ -8144,10 +8144,10 @@
     - service: vk
       id: 828
       published: 2018-07-26
-      updated: 2025-05-01-20-18-20
+      updated: 2025-05-08-20-21-08
       followers: 193
       likes: 20
-      views: 259
+      views: 260
 2018-07-27-the-book-of-dawn-and-dusk:
   title: The Book of Dawn and Dusk
   titleRu: Книга рассвета и заката
@@ -8170,10 +8170,10 @@
     - service: vk
       id: 829
       published: 2018-07-27
-      updated: 2025-05-01-20-18-19
+      updated: 2025-05-08-20-21-07
       followers: 193
       likes: 28
-      views: 358
+      views: 359
     - service: ig
       id: DFx_pEkJY6I
       mediaId: '18441845239072911'
@@ -8216,10 +8216,10 @@
     - service: vk
       id: 831
       published: 2018-07-28
-      updated: 2025-05-01-20-18-18
+      updated: 2025-05-08-20-21-06
       followers: 194
       likes: 12
-      views: 252
+      views: 253
     - service: ig
       id: DBt7V1XPqIp
       mediaId: '17850192069283490'
@@ -8272,10 +8272,10 @@
     - service: vk
       id: 832
       published: 2018-07-29
-      updated: 2025-05-01-20-18-17
+      updated: 2025-05-08-20-21-05
       followers: 193
       likes: 22
-      views: 339
+      views: 340
       reposts: 1
 2018-07-30-mad-gentleman:
   title: Mad Gentleman
@@ -8299,10 +8299,10 @@
     - service: vk
       id: 833
       published: 2018-07-30
-      updated: 2025-05-01-20-18-16
+      updated: 2025-05-08-20-21-04
       followers: 194
       likes: 24
-      views: 339
+      views: 340
 2018-07-31-spires:
   title: Spires
   titleRu: Острия
@@ -8327,10 +8327,10 @@
     - service: vk
       id: 834
       published: 2018-07-31
-      updated: 2025-05-01-20-18-15
+      updated: 2025-05-08-20-21-03
       followers: 196
       likes: 16
-      views: 313
+      views: 314
 2018-08-01-under-attack:
   title: Under Attack
   titleRu: Под ударом
@@ -8351,10 +8351,10 @@
     - service: vk
       id: 835
       published: 2018-08-01
-      updated: 2025-05-01-20-18-15
+      updated: 2025-05-08-20-21-02
       followers: 196
       likes: 16
-      views: 270
+      views: 271
 2018-08-02-alongshore:
   title: Alongshore
   titleRu: Вдоль берега
@@ -8376,10 +8376,10 @@
     - service: vk
       id: 836
       published: 2018-08-02
-      updated: 2025-05-01-20-18-14
+      updated: 2025-05-08-20-21-01
       followers: 196
       likes: 12
-      views: 258
+      views: 259
 2018-08-03-the-road-to-hlormaren:
   title: The Road to Hlormaren
   titleRu: Дорога к Хлормарену
@@ -8405,10 +8405,10 @@
     - service: vk
       id: 837
       published: 2018-08-03
-      updated: 2025-05-01-20-18-13
+      updated: 2025-05-08-20-21-00
       followers: 197
       likes: 17
-      views: 273
+      views: 274
 2018-08-04-verene-mene:
   title: Verene Mene
   titleRu: Вирин Мин
@@ -8433,10 +8433,10 @@
     - service: vk
       id: 838
       published: 2018-08-04
-      updated: 2025-05-01-20-18-12
+      updated: 2025-05-08-20-20-59
       followers: 197
       likes: 15
-      views: 353
+      views: 354
 2018-08-05-welcome:
   title: Welcome
   titleRu: Добро пожаловать
@@ -8466,10 +8466,10 @@
     - service: vk
       id: 839
       published: 2018-08-05
-      updated: 2025-05-01-20-18-11
+      updated: 2025-05-08-20-20-59
       followers: 197
       likes: 23
-      views: 270
+      views: 271
 2018-08-06-uncovered-animunculi:
   title: Uncovered Animunculi
   titleRu: Неизвестный анимункули
@@ -8493,10 +8493,10 @@
     - service: vk
       id: 840
       published: 2018-08-06
-      updated: 2025-05-01-20-18-10
+      updated: 2025-05-08-20-20-58
       followers: 197
       likes: 24
-      views: 283
+      views: 284
 2018-08-07-spear-of-god:
   title: Spear of God
   titleRu: Копьё бога

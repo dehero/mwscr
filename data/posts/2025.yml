@@ -1446,27 +1446,27 @@
       id: DI1tfb4O5Qb
       mediaId: '17953046774955328'
       published: 2025-04-24-18-23-13
-      updated: 2025-05-01-20-18-09
+      updated: 2025-05-08-20-20-57
       followers: 1533
-      likes: 81
+      likes: 84
       comments: !c |-
         G0wAIB0JNk7y8a6RXE8vwthaUC0uSbDaxU52oOeMUGslscEGHDi00IIDzbMOHsPrHw4pt/dVOh+A
         KxxpJ6h91mA3HFELsPBZsweKAg==
     - service: vk
       id: 2305
       published: 2025-04-24-18-23-20
-      updated: 2025-05-01-20-18-09
+      updated: 2025-05-08-20-20-57
       followers: 1268
-      likes: 59
-      views: 406
-      reposts: 1
+      likes: 62
+      views: 441
+      reposts: 2
     - service: tg
       id: 810
       published: 2025-04-24-18-23-26
-      updated: 2025-05-01-20-18-08
+      updated: 2025-05-08-20-20-56
       followers: 725
-      likes: 59
-      views: 523
+      likes: 60
+      views: 610
 2025-04-25-st-delyn-and-masser:
   title: St. Delyn and Masser
   titleRu: Святой Делин и Массер
@@ -1591,26 +1591,26 @@
       id: DJXO80Ttu2G
       mediaId: '18112495996486562'
       published: 2025-05-07-18-50-31
-      updated: 2025-05-08-19-16-09
+      updated: 2025-05-08-20-20-56
       followers: 1534
       likes: 49
     - service: tg
       id: 833
       published: 2025-05-07-18-50-42
-      updated: 2025-05-08-19-16-09
+      updated: 2025-05-08-20-20-56
       followers: 737
       likes: 55
-      views: 205
+      views: 215
       comments: !c |-
         CyGAkZTLQnlqwWzpAACpR2F0ZW1hdGU3qm5vIGRhdGUuLj+Ty0J5asFzA4AApW13c2NyslRoaXMg
         b25lIGlzIHJlY2VudAM=
     - service: vk
       id: 2344
       published: 2025-05-07-19-16-08
-      updated: 2025-05-08-19-16-09
+      updated: 2025-05-08-20-20-56
       followers: 1282
       likes: 32
-      views: 211
+      views: 216
 2025-05-08-prayer:
   title: Prayer
   titleRu: Молитва
@@ -1629,21 +1629,27 @@
       id: DJZywRGJZ2H
       mediaId: '18065517287296383'
       published: 2025-05-08-18-41-51
-      updated: 2025-05-08-19-16-08
+      updated: 2025-05-08-20-20-55
       followers: 1534
-      likes: 14
+      likes: 23
       comments: !c CxiAkZPLQnlrE9RegACocHJvbXR5NzW8QGNhbmRsZXNfX2ZlbSDwnZOKIPCfh6kg8J+HsgM=
     - service: vk
       id: 2346
       published: 2025-05-08-18-41-58
-      updated: 2025-05-08-19-16-08
+      updated: 2025-05-08-20-20-55
       followers: 1283
-      likes: 4
-      views: 38
+      likes: 7
+      views: 61
+      reposts: 1
     - service: tg
       id: 834
       published: 2025-05-08-18-42-05
-      updated: 2025-05-08-19-16-09
+      updated: 2025-05-08-20-20-55
       followers: 737
-      likes: 20
-      views: 59
+      likes: 26
+      views: 93
+      comments: !c |-
+        G+oAIORszjem1efqais7BslXpPuRQ6HATqIxW/yy+D090IQCkhZUy6I0o8QyCCy10/WG5XlkCg41
+        cTxdvoWNLx5HW/aqIjdD5Kby6k3FLfWsANfPo1u4Ij1750HHpQk03cyTgxoEUCbb+ycUf4zdMCKX
+        /uN8BPnMjiMXI7jD1E0WlA7DuSFXoROvoC4t71MaZJrRh0I0KhGU1XEJyEHdD0zyD4Xpk7XahiUu
+        M05e
