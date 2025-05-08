@@ -1992,18 +1992,18 @@
     - service: vk
       id: 2337
       published: 2025-05-04-18-22-19
-      updated: 2025-05-07-17-16-15
+      updated: 2025-05-08-17-16-35
       followers: 1274
-      likes: 41
-      views: 296
+      likes: 44
+      views: 321
       reposts: 1
     - service: tg
       id: 827
       published: 2025-05-04-18-22-26
-      updated: 2025-05-07-17-16-15
+      updated: 2025-05-08-17-16-34
       followers: 736
-      likes: 55
-      views: 262
+      likes: 56
+      views: 292
     - service: ig
       id: DJQrnOitwg4
       mediaId: '18057956966153632'
@@ -4166,18 +4166,21 @@
       id: DJSCDBPNh5G
       mediaId: '18074365795804472'
       published: 2025-05-05-18-21-33
-      updated: 2025-05-07-17-16-13
+      updated: 2025-05-08-17-16-32
       followers: 1531
-      likes: 152
+      likes: 158
     - service: vk
       id: 2338
       published: 2025-05-05-18-21-56
-      updated: 2025-05-07-17-16-13
+      updated: 2025-05-08-17-16-34
       followers: 1277
-      likes: 112
-      views: 780
-      reposts: 11
-      comments: !c CxeAkZPLQnlqHM4WgACpdmxhZGtyMTE0udCe0YfQtdC90Ywg0LrRgNCw0YHQuNCy0L4D
+      likes: 120
+      views: 930
+      reposts: 15
+      comments: !c |-
+        G8YAIJwJdizEZBhaTsY0jGRDlPx4glU4EhxohGZGLZlyMz1Q3Yy78BKhB2HkWXjXHUkiB43sWJ2y
+        U/+rBYUaaEvsSZOb7ZQTDRSiDFsS4IHPeD1sjJ3rlKBR1+/nHzmHV8/yvQn3UgH0V4tNZyShVDsA
+        4H79t+PJlK5DwXGDPpT5SBucmDYPbOh1JM0o0yMk/XwJxYnzaMKrF/aLi5UF+vpH3gA=
     - service: tg
       id:
         - 828
@@ -4185,10 +4188,10 @@
         - 830
         - 831
       published: 2025-05-05-18-22-16
-      updated: 2025-05-07-17-16-14
+      updated: 2025-05-08-17-16-33
       followers: 736
-      likes: 62
-      views: 241
+      likes: 67
+      views: 270
       comments: !c |-
         G7cBQORqbV8JWTeimtQbQ3y5d1xCl9BMM6ES0idkuvl5+1LlqtV7ZzqbciZcFzBFipJJ8f8xdyXe
         3ovbjkhi8pzN78EeP/g8MOzI2kcKiWJP0hQrrXkQ8QF+aQqUSsjnyOCbFWGGsluzi+FNVArqPlMl
