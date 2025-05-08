@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.55.3](https://github.com/dehero/mwscr/compare/v1.55.2...v1.55.3) (2025-05-08)
+
+### Bug Fixes
+
+- temporarily disable site store managing
+  ([de552ac](https://github.com/dehero/mwscr/commit/de552ac90d5557c96f60c3e83da219fd460b2cb1))
+
 ## [1.55.2](https://github.com/dehero/mwscr/compare/v1.55.1...v1.55.2) (2025-05-08)
 
 ### Bug Fixes
