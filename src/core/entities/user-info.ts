@@ -70,11 +70,11 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
         roles.push('admin');
       }
 
-      if (authored?.posts || authored?.inbox) {
+      if (authored?.posts || authored?.extras) {
         roles.push('author');
       }
 
-      if (drawn?.posts || drawn?.inbox) {
+      if (drawn?.posts || drawn?.extras || drawn?.inbox) {
         roles.push('drawer');
       }
 
@@ -84,7 +84,9 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
 
       if (
         !authored?.posts &&
+        !authored?.extras &&
         !requested?.posts &&
+        !requested?.extras &&
         (authored?.inbox || requested?.inbox || authored?.trash || requested?.trash)
       ) {
         roles.push('beginner');
