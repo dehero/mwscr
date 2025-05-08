@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.55.2](https://github.com/dehero/mwscr/compare/v1.55.1...v1.55.2) (2025-05-08)
+
+### Bug Fixes
+
+- add retries to site store manager
+  ([be9dfd3](https://github.com/dehero/mwscr/commit/be9dfd3eb93f2f0bef90466edbacd0b70ec512e3))
+- consider extras when defining user roles
+  ([e73f306](https://github.com/dehero/mwscr/commit/e73f306ba7bd8e357457ee985b9dbe5f644c2ca1))
+- return updating inbox ([b962866](https://github.com/dehero/mwscr/commit/b9628667038b041d812f05f859431006835ae6c8))
+
 ## [1.55.1](https://github.com/dehero/mwscr/compare/v1.55.0...v1.55.1) (2025-05-07)
 
 ### Bug Fixes
