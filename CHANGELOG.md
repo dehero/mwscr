@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.55.1](https://github.com/dehero/mwscr/compare/v1.55.0...v1.55.1) (2025-05-07)
+
+### Bug Fixes
+
+- temporarily avoid updating inbox and uploading shots to site
+  ([0ef4f3c](https://github.com/dehero/mwscr/commit/0ef4f3c15685743343f2a697bd9d2bf36483ff07))
+
 ## [1.55.0](https://github.com/dehero/mwscr/compare/v1.54.2...v1.55.0) (2025-04-18)
 
 ### Features
