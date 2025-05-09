@@ -514,10 +514,10 @@
     - service: vk
       id: 1753
       published: 2024-09-12-18-31-04
-      updated: 2025-05-02-12-34-02
+      updated: 2025-05-09-12-37-03
       followers: 945
       likes: 39
-      views: 330
+      views: 331
       reposts: 1
       comments: !c |-
         G68A+J0HdiwYYWY9Oo+Inq/bEX6QAwopg6BJMMJkH1lQbiuhLjSr8Rw/eOZQdVsJpnJBxFdz2i9H
@@ -526,7 +526,7 @@
     - service: tg
       id: 530
       published: 2024-09-12-18-31-10
-      updated: 2025-05-02-12-34-00
+      updated: 2025-05-09-12-37-02
       followers: 555
       likes: 62
       views: 537
@@ -4488,17 +4488,17 @@
     - service: vk
       id: 1701
       published: 2024-08-22-18-19-48
-      updated: 2025-05-02-12-34-06
+      updated: 2025-05-09-12-37-07
       followers: 937
       likes: 31
       views: 288
     - service: tg
       id: 509
       published: 2024-08-22-18-19-55
-      updated: 2025-05-02-12-34-02
+      updated: 2025-05-09-12-37-05
       followers: 539
       likes: 55
-      views: 600
+      views: 601
 2017-04-14-in-the-bar:
   title: In the Bar
   titleRu: У барной стойки
@@ -11406,14 +11406,14 @@
     - service: vk
       id: 1773
       published: 2024-09-19-18-29-58
-      updated: 2025-05-02-12-34-00
+      updated: 2025-05-09-12-37-02
       followers: 948
       likes: 37
-      views: 317
+      views: 318
     - service: tg
       id: 538
       published: 2024-09-19-18-30-04
-      updated: 2025-05-02-12-33-59
+      updated: 2025-05-09-12-37-01
       followers: 555
       likes: 59
       views: 571
