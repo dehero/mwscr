@@ -1591,13 +1591,13 @@
       id: DJXO80Ttu2G
       mediaId: '18112495996486562'
       published: 2025-05-07-18-50-31
-      updated: 2025-05-09-03-09-42
+      updated: 2025-05-09-04-23-06
       followers: 1534
-      likes: 49
+      likes: 50
     - service: tg
       id: 833
       published: 2025-05-07-18-50-42
-      updated: 2025-05-09-03-09-41
+      updated: 2025-05-09-04-23-05
       followers: 737
       likes: 58
       views: 221
@@ -1607,10 +1607,10 @@
     - service: vk
       id: 2344
       published: 2025-05-07-19-16-08
-      updated: 2025-05-09-03-09-42
+      updated: 2025-05-09-04-23-05
       followers: 1282
-      likes: 34
-      views: 224
+      likes: 35
+      views: 226
 2025-05-08-prayer:
   title: Prayer
   titleRu: Молитва
@@ -1629,22 +1629,25 @@
       id: DJZywRGJZ2H
       mediaId: '18065517287296383'
       published: 2025-05-08-18-41-51
-      updated: 2025-05-09-03-09-41
+      updated: 2025-05-09-04-23-05
       followers: 1534
-      likes: 42
-      comments: !c CxiAkZPLQnlrE9RegACocHJvbXR5NzW8QGNhbmRsZXNfX2ZlbSDwnZOKIPCfh6kg8J+HsgM=
+      likes: 45
+      comments: !c |-
+        G3YAiI1UNX//d2rAA/JPg1vzQjDWpLNO6nEbbWlxwaKdYok12IATD8yTgXWRUU+bgqByILMy8CzG
+        1DXzn/5SYzRKp/b/TJWBFxs21BmYDhhAP0YIwTLtT2RWBvqlYuqcl1lSD5LwlC0jtWOn0jTXSWA5
+        km1Mq0se
     - service: vk
       id: 2346
       published: 2025-05-08-18-41-58
-      updated: 2025-05-09-03-09-41
+      updated: 2025-05-09-04-23-05
       followers: 1283
-      likes: 13
-      views: 108
+      likes: 14
+      views: 115
       reposts: 1
     - service: tg
       id: 834
       published: 2025-05-08-18-42-05
-      updated: 2025-05-09-03-09-41
+      updated: 2025-05-09-04-23-05
       followers: 737
       likes: 34
       views: 134
