@@ -10919,15 +10919,27 @@
       id: DJe6N6qRXko
       mediaId: '18069240529766997'
       published: 2025-05-10-18-23-16
+      updated: 2025-05-10-19-13-45
       followers: 1537
+      likes: 10
+      comments: !c |-
+        CyCAkZPLQnlrt2nPgAC5YWxsLl8ucHJvbW90aW9uLl8ud29ybGQuMrtAY2FuZGxlc19mZW0g8J2T
+        iiDwn4epIPCfh7ID
     - service: vk
       id: 2349
       published: 2025-05-10-18-23-24
+      updated: 2025-05-10-19-13-44
       followers: 1287
+      likes: 9
+      views: 43
+      reposts: 2
     - service: tg
       id: 836
       published: 2025-05-10-18-23-30
+      updated: 2025-05-10-19-13-45
       followers: 738
+      likes: 20
+      views: 75
 2017-09-26-bridges:
   title: Bridges
   titleRu: Мосты
