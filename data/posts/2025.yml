@@ -1629,9 +1629,9 @@
       id: DJZywRGJZ2H
       mediaId: '18065517287296383'
       published: 2025-05-08-18-41-51
-      updated: 2025-05-10-10-18-25
+      updated: 2025-05-10-11-15-18
       followers: 1534
-      likes: 65
+      likes: 66
       comments: !c |-
         C0mAkpTLQnlrNDKAgACvb2hzd2VldG5hemFyZXRo2SpzbyBnbGFkIHRvIGJlIGFwYXJ0IG9mIHRo
         ZSBwcm9qZWN0ISEhIPCfjJ6Ty0J5az3m4IAApW13c2Nyq05pY2Ugc3RhcnQhk8tCeWsT1F6AAKhw
@@ -1639,15 +1639,15 @@
     - service: vk
       id: 2346
       published: 2025-05-08-18-41-58
-      updated: 2025-05-10-10-18-25
+      updated: 2025-05-10-11-15-14
       followers: 1283
       likes: 24
-      views: 225
+      views: 228
       reposts: 1
     - service: tg
       id: 834
       published: 2025-05-08-18-42-05
-      updated: 2025-05-10-10-18-24
+      updated: 2025-05-10-11-15-14
       followers: 737
       likes: 51
       views: 222
@@ -1676,21 +1676,21 @@
       id: DJcVy4EBKEs
       mediaId: '18047181881523178'
       published: 2025-05-09-18-26-00
-      updated: 2025-05-10-10-18-24
+      updated: 2025-05-10-11-15-15
       followers: 1534
-      likes: 32
+      likes: 36
     - service: vk
       id: 2348
       published: 2025-05-09-18-26-00
-      updated: 2025-05-10-10-18-24
+      updated: 2025-05-10-11-15-14
       followers: 1283
       likes: 32
-      views: 337
+      views: 349
       reposts: 3
     - service: tg
       id: 835
       published: 2025-05-09-19-00-00
-      updated: 2025-05-10-10-18-24
+      updated: 2025-05-10-11-15-14
       followers: 737
       likes: 48
       views: 155
