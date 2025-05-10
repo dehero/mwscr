@@ -214,14 +214,14 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2025-05-03-10-16-55
+      updated: 2025-05-10-10-18-43
       followers: 893
       likes: 35
       views: 263
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2025-05-03-10-16-53
+      updated: 2025-05-10-10-18-38
       followers: 345
       likes: 58
       views: 565
@@ -586,7 +586,7 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2025-05-03-10-16-53
+      updated: 2025-05-10-10-18-42
       followers: 896
       likes: 42
       views: 305
@@ -597,7 +597,7 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2025-05-03-10-16-51
+      updated: 2025-05-10-10-18-37
       followers: 352
       likes: 59
       views: 486
@@ -900,7 +900,7 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2025-05-03-10-16-51
+      updated: 2025-05-10-10-18-40
       followers: 906
       likes: 51
       views: 443
@@ -908,10 +908,10 @@
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2025-05-03-10-16-49
+      updated: 2025-05-10-10-18-35
       followers: 354
       likes: 62
-      views: 492
+      views: 493
 2024-04-05-rain-of-sparks: 2017-09-29-rain-of-sparks
 2024-04-06-falling-towers:
   title: Falling Towers
@@ -1108,17 +1108,17 @@
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2025-05-03-10-16-50
+      updated: 2025-05-10-10-18-39
       followers: 911
       likes: 27
       views: 237
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2025-05-03-10-16-48
+      updated: 2025-05-10-10-18-34
       followers: 352
       likes: 67
-      views: 1127
+      views: 1129
 2024-04-12-sadrith-mora-gateway-inn: 2017-01-19-sadrith-mora-gateway-inn
 2024-04-13-manwe:
   title: Manwe
@@ -3041,14 +3041,14 @@
     - service: tg
       id: 617
       published: 2024-12-06-18-11-36
-      updated: 2025-05-03-10-16-38
+      updated: 2025-05-10-10-18-25
       followers: 578
       likes: 58
-      views: 503
+      views: 505
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2025-05-03-10-16-38
+      updated: 2025-05-10-10-18-26
       followers: 1013
       likes: 43
       views: 402
