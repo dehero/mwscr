@@ -5351,7 +5351,7 @@
     - service: vk
       id: 1705
       published: 2024-08-24-18-18-18
-      updated: 2025-05-04-18-22-00
+      updated: 2025-05-11-18-23-17
       followers: 940
       likes: 35
       views: 313
@@ -5359,10 +5359,10 @@
     - service: tg
       id: 511
       published: 2024-08-24-18-18-25
-      updated: 2025-05-04-18-22-00
+      updated: 2025-05-11-18-23-16
       followers: 541
       likes: 55
-      views: 581
+      views: 583
 2017-05-05-sunset-fir-trees:
   title: Sunset Fir-Trees
   titleRu: Закатные ели
@@ -5427,7 +5427,7 @@
     - service: vk
       id: 1695
       published: 2024-08-17-18-19-02
-      updated: 2025-05-04-18-22-01
+      updated: 2025-05-11-18-23-18
       followers: 934
       likes: 32
       views: 281
@@ -5435,10 +5435,10 @@
     - service: tg
       id: 504
       published: 2024-08-17-18-19-11
-      updated: 2025-05-04-18-22-01
+      updated: 2025-05-11-18-23-18
       followers: 527
       likes: 61
-      views: 644
+      views: 645
       comments: !c |-
         G5kAGKyOt6Fh2DII9SraGD9X/MgjVPrf33zCH3gV4CCaONb5A6mtc51HiSdUhy6Lw0sQm6m2eEF7
         10hP2eKS5i0PNuCAvQgHGxBmPLvAIdUUWLSgYygr1ZEd4Y7zHD3ybT007Y+2bxgCxB5X7rrk7kIe
@@ -10919,7 +10919,7 @@
       id: DJe6N6qRXko
       mediaId: '18069240529766997'
       published: 2025-05-10-18-23-16
-      updated: 2025-05-11-17-14-42
+      updated: 2025-05-11-18-23-14
       followers: 1537
       likes: 56
       comments: !c |-
@@ -10928,15 +10928,15 @@
     - service: vk
       id: 2349
       published: 2025-05-10-18-23-24
-      updated: 2025-05-11-17-14-42
+      updated: 2025-05-11-18-23-14
       followers: 1287
       likes: 39
-      views: 237
+      views: 241
       reposts: 4
     - service: tg
       id: 836
       published: 2025-05-10-18-23-30
-      updated: 2025-05-11-17-14-41
+      updated: 2025-05-11-18-23-14
       followers: 738
       likes: 44
       views: 228
