@@ -289,7 +289,7 @@
     - service: vk
       id: 1607
       published: 2024-06-28-18-19-25
-      updated: 2025-05-04-06-23-59
+      updated: 2025-05-11-06-25-47
       followers: 917
       likes: 38
       views: 300
@@ -297,7 +297,7 @@
     - service: tg
       id: 453
       published: 2024-06-28-18-19-31
-      updated: 2025-05-04-06-23-58
+      updated: 2025-05-11-06-25-44
       followers: 387
       likes: 59
       views: 563
@@ -697,7 +697,7 @@
     - service: vk
       id: 1739
       published: 2024-09-06-18-29-47
-      updated: 2025-05-04-06-23-50
+      updated: 2025-05-11-06-25-37
       followers: 943
       likes: 33
       views: 351
@@ -713,10 +713,10 @@
     - service: tg
       id: 524
       published: 2024-09-06-18-29-55
-      updated: 2025-05-04-06-23-38
+      updated: 2025-05-11-06-25-26
       followers: 551
       likes: 66
-      views: 597
+      views: 599
       comments: !c |-
         G9EAYJwH2anxBLva/Y3sGEkF9bHffopvfgqKWEk0KpUkYo3okRJ1LzVwnRslZCLFUO8nTlFum6OQ
         ohy+sCBcGNj64mKxOOjd4ERjzCGMSmjTXSfaY2w8W/Sl5Ph8do7Gqfgq27FUcK0DMd5N4EBt1YwP
@@ -1497,18 +1497,18 @@
     - service: vk
       id: 2273
       published: 2025-04-12-18-19-27
-      updated: 2025-05-04-06-23-28
+      updated: 2025-05-11-06-25-15
       followers: 1249
-      likes: 61
-      views: 434
+      likes: 62
+      views: 450
       reposts: 1
     - service: tg
       id: 792
       published: 2025-04-12-18-19-36
-      updated: 2025-05-04-06-23-27
+      updated: 2025-05-11-06-25-15
       followers: 720
       likes: 58
-      views: 501
+      views: 520
 2018-02-10-in-the-evening-canals-of-vivec:
   title: In the Evening Canals of Vivec
   titleRu: В вечерних каналах Вивека
@@ -3468,7 +3468,7 @@
     - service: vk
       id: 1702
       published: 2024-08-23-18-19-34
-      updated: 2025-05-04-06-23-52
+      updated: 2025-05-11-06-25-39
       followers: 939
       likes: 42
       views: 290
@@ -3491,10 +3491,10 @@
     - service: tg
       id: 510
       published: 2024-08-23-18-19-41
-      updated: 2025-05-04-06-23-40
+      updated: 2025-05-11-06-25-27
       followers: 538
       likes: 60
-      views: 603
+      views: 604
 2018-03-31-vori-likes-to-come-here:
   title: Vori Likes to Come Here
   titleRu: Вори любит сюда приходить
@@ -4057,7 +4057,7 @@
     - service: vk
       id: 1683
       published: 2024-08-09-18-20-05
-      updated: 2025-05-04-06-23-54
+      updated: 2025-05-11-06-25-41
       followers: 927
       likes: 33
       views: 295
@@ -4065,10 +4065,10 @@
     - service: tg
       id: 496
       published: 2024-08-09-18-20-14
-      updated: 2025-05-04-06-23-41
+      updated: 2025-05-11-06-25-29
       followers: 513
       likes: 72
-      views: 665
+      views: 666
 2018-04-13-solitary-pier:
   title: Solitary Pier
   titleRu: Уединённый причал
@@ -6175,7 +6175,7 @@
     - service: vk
       id: 1657
       published: 2024-07-26-18-20-40
-      updated: 2025-05-04-06-23-56
+      updated: 2025-05-11-06-25-42
       followers: 923
       likes: 34
       views: 283
@@ -6183,10 +6183,10 @@
     - service: tg
       id: 481
       published: 2024-07-26-18-20-48
-      updated: 2025-05-04-06-23-43
+      updated: 2025-05-11-06-25-30
       followers: 400
       likes: 69
-      views: 647
+      views: 648
       comments: !c CwuAkZPLQnkPIJkoAACmQzRINk80pPCfmI4D
 2018-06-06-i-think-i-got-sick:
   title: I Think I Got Sick
@@ -6988,10 +6988,10 @@
     - service: vk
       id: 2179
       published: 2025-03-08-18-08-14
-      updated: 2025-05-04-06-23-33
+      updated: 2025-05-11-06-25-20
       followers: 1174
       likes: 61
-      views: 500
+      views: 505
       reposts: 2
       comments: !c |-
         GyQCgCwOzHOhH0xZpyxzJwPxxj/vH+wTvmXJR8/D5oEXUJK0lnhyrieQtbmWZWgKSojYT78j9bvz
@@ -7003,10 +7003,10 @@
     - service: tg
       id: 738
       published: 2025-03-08-18-08-20
-      updated: 2025-05-04-06-23-30
+      updated: 2025-05-11-06-25-17
       followers: 691
       likes: 70
-      views: 530
+      views: 531
 2018-06-27-arch-with-a-canopy:
   title: Arch with a Canopy
   titleRu: Арка с навесом
@@ -8955,10 +8955,10 @@
     - service: vk
       id: 2144
       published: 2025-02-22-18-12-14
-      updated: 2025-05-04-06-23-36
+      updated: 2025-05-11-06-25-22
       followers: 1116
       likes: 53
-      views: 521
+      views: 525
       reposts: 2
       comments: !c |-
         GygBQJwJdizKCyxuEacaz/N/Q9J3/ENBdTziINMmuDOQgU7uw3ADmqrbhRYXCqFJ8CQk3fn28mWb
@@ -8972,10 +8972,10 @@
         - 720
         - 721
       published: 2025-02-22-18-12-41
-      updated: 2025-05-04-06-23-31
+      updated: 2025-05-11-06-25-19
       followers: 682
       likes: 62
-      views: 655
+      views: 657
       comments: !c |-
         CxyAkZPLQnlZNcqDAACtT2xtZXJfSXpkZXlsYb9XaGF0IGEgbmljZSBwbGFjZSEg8J+UpfCflKXw
         n5SlAw==
@@ -10115,14 +10115,14 @@
     - service: tg
       id: 460
       published: 2024-07-05-18-19-50
-      updated: 2025-05-04-06-23-45
+      updated: 2025-05-11-06-25-32
       followers: 393
       likes: 52
       views: 467
     - service: vk
       id: 1615
       published: 2024-07-05-19-12-06
-      updated: 2025-05-04-06-23-58
+      updated: 2025-05-11-06-25-45
       followers: 919
       likes: 32
       views: 299
@@ -11505,14 +11505,14 @@
     - service: vk
       id: 1693
       published: 2024-08-16-18-20-13
-      updated: 2025-05-04-06-23-53
+      updated: 2025-05-11-06-25-40
       followers: 933
       likes: 46
       views: 293
     - service: tg
       id: 503
       published: 2024-08-16-18-20-22
-      updated: 2025-05-04-06-23-40
+      updated: 2025-05-11-06-25-28
       followers: 527
       likes: 67
       views: 680
@@ -13558,17 +13558,17 @@
     - service: vk
       id: 1962
       published: 2024-12-14-18-10-09
-      updated: 2025-05-04-06-23-46
+      updated: 2025-05-11-06-25-33
       followers: 1026
       likes: 43
-      views: 374
+      views: 375
     - service: tg
       id: 625
       published: 2024-12-14-18-10-18
-      updated: 2025-05-04-06-23-37
+      updated: 2025-05-11-06-25-25
       followers: 581
       likes: 59
-      views: 583
+      views: 584
       comments: !c |-
         ixuAkZPLQnk8ZjQfAACmQzRINk802SR0aGlzIGhhaXJzdHlsZSBvbiBkdW5tZXJzLi4g8J+kjPCf
         kqQD
