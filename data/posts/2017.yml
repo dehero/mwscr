@@ -5056,7 +5056,7 @@
     - service: vk
       id: 1575
       published: 2024-06-08-18-18-38
-      updated: 2025-05-04-21-15-43
+      updated: 2025-05-11-21-16-30
       followers: 916
       likes: 36
       views: 322
@@ -5064,7 +5064,7 @@
     - service: tg
       id: 433
       published: 2024-06-08-18-18-44
-      updated: 2025-05-04-21-15-38
+      updated: 2025-05-11-21-16-26
       followers: 384
       likes: 55
       views: 477
@@ -5480,7 +5480,7 @@
     - service: vk
       id: 1658
       published: 2024-07-27-18-20-23
-      updated: 2025-05-04-21-15-41
+      updated: 2025-05-11-21-16-28
       followers: 923
       likes: 34
       views: 302
@@ -5488,10 +5488,10 @@
     - service: tg
       id: 482
       published: 2024-07-27-18-20-29
-      updated: 2025-05-04-21-15-37
+      updated: 2025-05-11-21-16-25
       followers: 401
       likes: 57
-      views: 634
+      views: 635
       comments: !c |-
         G/kAgByHcSyxjmBicU1/f/MRp4m1cSwu4M4/WGtxG2Qs22JRFvd/NwML9D8P80ADvTEWSuinVRma
         Tk40MH47SAuowMKQIo6zdIfPHSOmprQ+rncT67T+DEEpGYRvZb4nHr7OCgLfhTugNQLOoXtlQt+4
@@ -10518,10 +10518,10 @@
     - service: vk
       id: 2274
       published: 2025-04-13-18-20-14
-      updated: 2025-05-04-21-15-36
+      updated: 2025-05-11-21-16-24
       followers: 1253
-      likes: 64
-      views: 503
+      likes: 65
+      views: 525
       reposts: 4
       comments: !c |-
         G7IBKCwKbGNj6LChUY9CT31bGMWXEY9/Ilb0pfaT/mRYm8HaLKOBDnQw0MkIJ/dcua2EaKiGhmzc
@@ -10919,27 +10919,27 @@
       id: DJe6N6qRXko
       mediaId: '18069240529766997'
       published: 2025-05-10-18-23-16
-      updated: 2025-05-11-20-18-58
+      updated: 2025-05-11-21-16-23
       followers: 1537
-      likes: 59
+      likes: 60
       comments: !c |-
         CyCAkZPLQnlrt2nPgAC5YWxsLl8ucHJvbW90aW9uLl8ud29ybGQuMrtAY2FuZGxlc19mZW0g8J2T
         iiDwn4epIPCfh7ID
     - service: vk
       id: 2349
       published: 2025-05-10-18-23-24
-      updated: 2025-05-11-20-18-57
+      updated: 2025-05-11-21-16-22
       followers: 1287
       likes: 40
-      views: 247
+      views: 249
       reposts: 4
     - service: tg
       id: 836
       published: 2025-05-10-18-23-30
-      updated: 2025-05-11-20-18-56
+      updated: 2025-05-11-21-16-23
       followers: 738
       likes: 47
-      views: 241
+      views: 243
       comments: !c |-
         G3gAQB0JdozLSnLtkUeodPivXRF+oIwCCZaaVkoSbDI64IPjcA8fRN7ELuhyeiHjzbBJwtkURU8C
         DTbggL1scFgGv06wfpRQLM99Xr/a869J18ZKoCBQQBUrsgfoF+AwCvNFy3CgX1dMvfrPWCBTEeTi
