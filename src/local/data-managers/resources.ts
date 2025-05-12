@@ -48,27 +48,8 @@ export async function copyResource(fromUrl: string, toUrl: string): Promise<void
   switch (from.protocol) {
     case 'store:':
       switch (to.protocol) {
-        case 'store:': {
-          // Copy preview
-          const fromPreviewPath = getResourcePreviewPath(fromUrl);
-          const toPreviewPath = getResourcePreviewPath(toUrl);
-          if (fromPreviewPath && toPreviewPath && fromPreviewPath !== toPreviewPath) {
-            try {
-              await fs.mkdir(posix.dirname(toPreviewPath), { recursive: true });
-            } catch {
-              // Ignore
-            }
-            try {
-              await fs.copyFile(fromPreviewPath, toPreviewPath);
-            } catch (error) {
-              if (error instanceof Error) {
-                console.error(`Unable to copy preview "${fromPreviewPath}" to "${toPreviewPath}": ${error.message}`);
-              }
-            }
-          }
-
+        case 'store:':
           return storeManager.copy(from.pathname, to.pathname);
-        }
         case 'file:':
           // @ts-expect-error TODO: resolve typing issues
           return fs.writeFile(to.pathname, await storeManager.get(from.pathname));
@@ -126,27 +107,8 @@ export async function moveResource(fromUrl: string, toUrl: string) {
   switch (from.protocol) {
     case 'store:':
       switch (to.protocol) {
-        case 'store:': {
-          // Rename preview
-          const fromPreviewPath = getResourcePreviewPath(fromUrl);
-          const toPreviewPath = getResourcePreviewPath(toUrl);
-          if (fromPreviewPath && toPreviewPath && fromPreviewPath !== toPreviewPath) {
-            try {
-              await fs.mkdir(posix.dirname(toPreviewPath), { recursive: true });
-            } catch {
-              // Ignore
-            }
-            try {
-              await fs.rename(fromPreviewPath, toPreviewPath);
-            } catch (error) {
-              if (error instanceof Error) {
-                console.error(`Unable to move preview "${fromPreviewPath}" to "${toPreviewPath}": ${error.message}`);
-              }
-            }
-          }
-
+        case 'store:':
           return storeManager.move(from.pathname, to.pathname);
-        }
         case 'file:':
           await copyResource(fromUrl, toUrl);
           return storeManager.remove(from.pathname);
@@ -214,19 +176,8 @@ export async function removeResource(url: string): Promise<void> {
   }
 
   switch (protocol) {
-    case 'store:': {
-      const previewPath = getResourcePreviewPath(url);
-      if (previewPath) {
-        try {
-          await fs.rm(previewPath);
-        } catch (error) {
-          if (error instanceof Error) {
-            console.error(`Unable to remove preview "${previewPath}": ${error.message}`);
-          }
-        }
-      }
+    case 'store:':
       return storeManager.remove(pathname);
-    }
     case 'file:':
       return fs.rm(pathname);
     default:
