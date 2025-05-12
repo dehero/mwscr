@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.55.5](https://github.com/dehero/mwscr/compare/v1.55.4...v1.55.5) (2025-05-12)
+
+### Bug Fixes
+
+- don't forget first error on rollback failure
+  ([5939cb6](https://github.com/dehero/mwscr/commit/5939cb6f19e0c28452d6fb723b15687ea051c4ee))
+- temporarily disable site store manager, unable to fix now
+  ([bb1afac](https://github.com/dehero/mwscr/commit/bb1afac3c0a0efbe2eb19d4038e6797efde99352))
+
 ## [1.55.4](https://github.com/dehero/mwscr/compare/v1.55.3...v1.55.4) (2025-05-12)
 
 ### Bug Fixes
