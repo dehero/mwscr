@@ -33,7 +33,7 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
     label: 'Extras',
     title: 'Extras',
     description: 'Extras of Morrowind Screenshots project.',
-    presetKeys: ['news', 'redrawings', 'photoshops', 'edits'],
+    presetKeys: ['edits'],
     typeKeys: ['news', 'mention', 'photoshop', 'redrawing', 'outtakes'],
     filters: ['date', 'author', 'tag', 'type', 'status'],
   },
