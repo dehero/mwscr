@@ -31,7 +31,12 @@ export const storeManager: StoreManager = {
         await Promise.all(fromToStores.map((store) => store.copy(from, to)));
       }
     } catch (error) {
-      await this.remove(to);
+      try {
+        await this.remove(to);
+      } catch {
+        // TODO: handle no rollback error
+      }
+
       throw error;
     }
   },
@@ -90,17 +95,21 @@ export const storeManager: StoreManager = {
         await Promise.all(fromToStores.map((store) => store.move(from, to)));
       }
     } catch (error) {
-      await Promise.allSettled(fromToStores.map((store) => store.move(to, from)));
+      try {
+        await Promise.allSettled(fromToStores.map((store) => store.move(to, from)));
 
-      if (fromStores.length > 0) {
-        const stream = await Promise.any([this.getStream(from), this.getStream(to)]);
+        if (fromStores.length > 0) {
+          const stream = await Promise.any([this.getStream(from), this.getStream(to)]);
 
-        if (stream) {
-          await Promise.allSettled(fromStores.map((store) => store.putStream(from, stream)));
+          if (stream) {
+            await Promise.allSettled(fromStores.map((store) => store.putStream(from, stream)));
+          }
         }
-      }
 
-      await Promise.allSettled(toStores.map((store) => store.remove(to)));
+        await Promise.allSettled(toStores.map((store) => store.remove(to)));
+      } catch {
+        // TODO: handle no rollback error
+      }
 
       throw error;
     }
@@ -110,7 +119,11 @@ export const storeManager: StoreManager = {
     try {
       await Promise.all(storeManagers.filter(storeIncludesPath(path)).map((store) => store.put(path, data)));
     } catch (error) {
-      await this.remove(path);
+      try {
+        await this.remove(path);
+      } catch {
+        // TODO: handle no rollback error
+      }
       throw error;
     }
   },
