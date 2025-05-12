@@ -2177,10 +2177,10 @@
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2025-05-05-01-23-50
+      updated: 2025-05-12-01-38-37
       followers: 386
       likes: 71
-      views: 553
+      views: 554
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -7075,7 +7075,7 @@
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2025-05-05-01-23-48
+      updated: 2025-05-12-01-38-36
       followers: 387
       likes: 60
       views: 503
@@ -8653,18 +8653,18 @@
     - service: vk
       id: 2146
       published: 2025-02-23-18-09-28
-      updated: 2025-05-05-01-23-45
+      updated: 2025-05-12-01-38-36
       followers: 1123
       likes: 31
-      views: 407
+      views: 412
       reposts: 1
     - service: tg
       id: 722
       published: 2025-02-23-18-09-36
-      updated: 2025-05-05-01-23-43
+      updated: 2025-05-12-01-38-33
       followers: 683
       likes: 53
-      views: 664
+      views: 666
 2017-07-29-near-berandas:
   title: Near Berandas
   titleRu: У Берандаса
@@ -10919,24 +10919,24 @@
       id: DJe6N6qRXko
       mediaId: '18069240529766997'
       published: 2025-05-10-18-23-16
-      updated: 2025-05-11-23-16-56
+      updated: 2025-05-12-01-38-30
       followers: 1537
-      likes: 61
+      likes: 64
       comments: !c |-
         CyCAkZPLQnlrt2nPgAC5YWxsLl8ucHJvbW90aW9uLl8ud29ybGQuMrtAY2FuZGxlc19mZW0g8J2T
         iiDwn4epIPCfh7ID
     - service: vk
       id: 2349
       published: 2025-05-10-18-23-24
-      updated: 2025-05-11-23-16-57
+      updated: 2025-05-12-01-38-30
       followers: 1287
       likes: 40
-      views: 254
+      views: 255
       reposts: 4
     - service: tg
       id: 836
       published: 2025-05-10-18-23-30
-      updated: 2025-05-11-23-16-57
+      updated: 2025-05-12-01-38-29
       followers: 738
       likes: 48
       views: 249
@@ -13986,7 +13986,7 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2025-05-05-01-23-47
+      updated: 2025-05-12-01-38-39
       followers: 919
       likes: 50
       views: 300
@@ -14003,7 +14003,7 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2025-05-05-01-23-46
+      updated: 2025-05-12-01-38-35
       followers: 393
       likes: 59
       views: 489

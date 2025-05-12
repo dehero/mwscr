@@ -586,10 +586,10 @@
     - service: vk
       id: 2165
       published: 2025-03-02-18-10-15
-      updated: 2025-05-05-01-23-44
+      updated: 2025-05-12-01-38-35
       followers: 1153
       likes: 65
-      views: 568
+      views: 573
       reposts: 6
       comments: !c CxSAkZPLQnlVsX4xgACmbWlicm5kttCa0YPQtNCwINC/0LvRi9Cyw6vQvD8D
     - service: tg
@@ -599,10 +599,10 @@
         - 731
         - 732
       published: 2025-03-02-18-10-35
-      updated: 2025-05-05-01-23-43
+      updated: 2025-05-12-01-38-32
       followers: 687
       likes: 66
-      views: 946
+      views: 953
     - service: ig
       id: DGtT0r1vKNh
       mediaId: '18013972115704127'
@@ -1142,23 +1142,24 @@
       id: DJhfDECR-oE
       mediaId: '17878519680307342'
       published: 2025-05-11-18-23-34
-      updated: 2025-05-11-23-16-55
+      updated: 2025-05-12-01-38-29
       followers: 1540
-      likes: 42
+      likes: 46
     - service: vk
       id: 2350
       published: 2025-05-11-18-23-47
-      updated: 2025-05-11-23-16-56
+      updated: 2025-05-12-01-38-29
       followers: 1292
-      likes: 15
-      views: 102
+      likes: 17
+      views: 118
+      reposts: 1
     - service: tg
       id: 838
       published: 2025-05-11-18-23-53
-      updated: 2025-05-11-23-16-56
+      updated: 2025-05-12-01-38-29
       followers: 738
-      likes: 35
-      views: 134
+      likes: 36
+      views: 138
 2022-07-16-two-at-the-lantern:
   title: Two at the Lantern
   titleRu: Двое у фонаря
