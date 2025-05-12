@@ -4,12 +4,12 @@ import { copyResource, moveResource, removeResource } from './resources.js';
 
 test('copyResource', async (t) => {
   await t.test('copy external resource to inbox', async () => {
-    after(() => removeResource('store:/shots/external-resource-copy-test.png'));
+    after(() => removeResource('store:/inbox/external-resource-copy-test.png'));
 
     await assert.doesNotReject(
       copyResource(
         'https://raw.githubusercontent.com/dehero/mwscr/refs/heads/main/assets/icon.png',
-        'store:/shots/external-resource-copy-test.png',
+        'store:/inbox/external-resource-copy-test.png',
       ),
     );
   });
