@@ -2169,10 +2169,10 @@
     - service: vk
       id: 1582
       published: 2024-06-15-18-19-44
-      updated: 2025-05-05-03-11-46
+      updated: 2025-05-12-03-13-47
       followers: 916
       likes: 53
-      views: 443
+      views: 444
       reposts: 7
     - service: tg
       id: 440
@@ -2877,18 +2877,18 @@
     - service: vk
       id: 2133
       published: 2025-02-16-18-09-34
-      updated: 2025-05-05-03-11-40
+      updated: 2025-05-12-03-13-40
       followers: 1071
       likes: 45
-      views: 481
+      views: 485
       reposts: 4
     - service: tg
       id: 712
       published: 2025-02-16-18-09-40
-      updated: 2025-05-05-03-11-40
+      updated: 2025-05-12-03-13-40
       followers: 677
       likes: 74
-      views: 690
+      views: 692
       comments: !c |-
         C0KAkpPLQnlSitoxgACvQWxleGV5IFN0ZXBhbm92pPCfjJ2Ty0J5UP+7EgAAq2FhcnljaGFnb2Zm
         2U3Qk9C70LDQstC90L7QtSAtINC90LUg0L/Rg9GC0LDRgtGMINCd0YfRg9GA0LTQsNC80YYg0Lgg
@@ -7068,7 +7068,7 @@
     - service: vk
       id: 1594
       published: 2024-06-22-18-18-49
-      updated: 2025-05-05-03-11-45
+      updated: 2025-05-12-03-13-46
       followers: 920
       likes: 39
       views: 302
@@ -7377,10 +7377,10 @@
     - service: vk
       id: 2107
       published: 2025-02-02-18-09-12
-      updated: 2025-05-05-03-11-42
+      updated: 2025-05-12-03-13-43
       followers: 1060
       likes: 51
-      views: 439
+      views: 441
       comments: !c |-
         GyIBMCwOeHPUIcRE+eFaNxlujf+nv9jOEr38g2ecYTMJFWFyLvy7rdCjVbpNum9D+cN5O3Vb7s8G
         Y9x2TE6OPERj1RtsXhQ661ZkeW5wOuCEDyDDgPOA44KjTmu0GxxEFBdJPdE8/v7842jfruv3ckKh
@@ -7389,10 +7389,10 @@
     - service: tg
       id: 692
       published: 2025-02-02-18-09-19
-      updated: 2025-05-05-03-11-40
+      updated: 2025-05-12-03-13-41
       followers: 662
       likes: 69
-      views: 695
+      views: 697
 2017-06-26-floating-over-the-green-hills:
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами
@@ -10919,24 +10919,24 @@
       id: DJe6N6qRXko
       mediaId: '18069240529766997'
       published: 2025-05-10-18-23-16
-      updated: 2025-05-12-01-38-30
+      updated: 2025-05-12-03-13-38
       followers: 1537
-      likes: 64
+      likes: 67
       comments: !c |-
         CyCAkZPLQnlrt2nPgAC5YWxsLl8ucHJvbW90aW9uLl8ud29ybGQuMrtAY2FuZGxlc19mZW0g8J2T
         iiDwn4epIPCfh7ID
     - service: vk
       id: 2349
       published: 2025-05-10-18-23-24
-      updated: 2025-05-12-01-38-30
+      updated: 2025-05-12-03-13-39
       followers: 1287
       likes: 40
-      views: 255
+      views: 256
       reposts: 4
     - service: tg
       id: 836
       published: 2025-05-10-18-23-30
-      updated: 2025-05-12-01-38-29
+      updated: 2025-05-12-03-13-39
       followers: 738
       likes: 48
       views: 249
