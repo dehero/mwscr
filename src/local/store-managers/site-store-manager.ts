@@ -26,14 +26,15 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
         if (i === RETRY_COUNT - 1) {
           throw error;
         }
-        console.log(`Retrying after 2s (${i + 2}/${RETRY_COUNT})...`);
-        await sleep(2000);
+        console.log(`Retrying after 1s (${i + 2}/${RETRY_COUNT})...`);
+        await sleep(1000);
       }
     }
   }
 
   private async connect() {
-    const { SITE_FTP_HOST, SITE_FTP_USER, SITE_FTP_PASSWORD, SITE_FTP_STORE_PATH } = process.env;
+    const { SITE_FTP_HOST, SITE_FTP_USER, SITE_FTP_PASSWORD, SITE_FTP_STORE_PATH, NODE_TLS_REJECT_UNAUTHORIZED } =
+      process.env;
     if (!SITE_FTP_HOST) {
       throw new Error('Need site FTP host');
     }
@@ -59,6 +60,7 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
         host: SITE_FTP_HOST,
         user: SITE_FTP_USER,
         password: SITE_FTP_PASSWORD,
+        secure: !Number(NODE_TLS_REJECT_UNAUTHORIZED) ? false : 'implicit',
       });
     }
 
