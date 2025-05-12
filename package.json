@@ -16,6 +16,7 @@
     "release": "node --loader ts-node/esm src/local/release.ts",
     "script": "node --loader ts-node/esm --",
     "test": "cross-env TEST_EXTENSIONS=.test.ts ts-node-test src",
+    "test-resource-management": "cross-env TEST_EXTENSIONS=.test.ts ts-node-test src/local/data-managers/resources.test.ts",
     "typecheck": "tsc --noEmit",
     "eslint": "eslint ./src/**/*.{ts,tsx} ./*.md",
     "eslint-fix": "eslint ./src/**/*.{ts,tsx} ./*.md --fix",

@@ -47,6 +47,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Test resource management
+        run: npm run test-resource-management
+
       - name: Run and commit maintenance
         run: |
           npm run maintain
