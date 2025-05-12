@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.55.4](https://github.com/dehero/mwscr/compare/v1.55.3...v1.55.4) (2025-05-12)
+
+### Bug Fixes
+
+- add site FTP retry logging and connection closing
+  ([1d411e7](https://github.com/dehero/mwscr/commit/1d411e7c2de9964c154c4c32d1a93f10555973cf))
+- don't maintain resource previews when managing resources
+  ([39d5653](https://github.com/dehero/mwscr/commit/39d565379a7a340e9597fbfdb918185ef4ea2f1b))
+- remove non-existing Posts page preset references
+  ([8f476cb](https://github.com/dehero/mwscr/commit/8f476cb4613de4fc6fcad6e67597ac52b8d2c214))
+- use implicit TLS for site FTP connection
+  ([3e99ed6](https://github.com/dehero/mwscr/commit/3e99ed66c01baa954c3485497eb319cd8bd52e98))
+- use temporary file for site FTP upload
+  ([f1ae56c](https://github.com/dehero/mwscr/commit/f1ae56cb977a73e2afa81c50b281c0d180e03b3b))
+
 ## [1.55.3](https://github.com/dehero/mwscr/compare/v1.55.2...v1.55.3) (2025-05-08)
 
 ### Bug Fixes
