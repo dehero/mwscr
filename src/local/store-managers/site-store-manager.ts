@@ -3,7 +3,7 @@ import { Client } from 'basic-ftp';
 import { Duplex, Readable } from 'stream';
 import type { StoreItem, StoreManager } from '../../core/entities/store.js';
 import { SiteStore } from '../../core/stores/site-store.js';
-import { debounce } from '../../core/utils/common-utils.js';
+import { debounce, sleep } from '../../core/utils/common-utils.js';
 import { streamToBuffer } from '../utils/data-utils.js';
 
 const RETRY_COUNT = 5;
@@ -19,9 +19,12 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
         await method();
         return;
       } catch (error) {
+        this.client?.close();
         if (i === RETRY_COUNT - 1) {
           throw error;
         }
+        console.log(`Retrying after 2s (${i + 2}/${RETRY_COUNT})...`);
+        await sleep(2000);
       }
     }
   }
