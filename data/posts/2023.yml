@@ -262,16 +262,16 @@
       id: DJUnMgEs2ay
       mediaId: '18082683772680416'
       published: 2025-05-06-18-24-38
-      updated: 2025-05-11-19-14-03
+      updated: 2025-05-12-19-16-18
       followers: 1533
-      likes: 45
+      likes: 46
     - service: vk
       id: 2341
       published: 2025-05-06-18-24-44
-      updated: 2025-05-11-19-14-06
+      updated: 2025-05-12-19-16-21
       followers: 1281
-      likes: 40
-      views: 342
+      likes: 43
+      views: 358
       reposts: 2
       comments: !c |-
         G+MA8CwOeHPoJNRUyRBO5j5ZR6h0/p/nZCP8x3emviUScAlGmNznNn3OV6LI2RSqbVTMyZIE0ZR3
@@ -280,10 +280,10 @@
     - service: tg
       id: 832
       published: 2025-05-06-18-24-51
-      updated: 2025-05-11-19-14-03
+      updated: 2025-05-12-19-16-19
       followers: 738
       likes: 61
-      views: 428
+      views: 454
 2023-08-03-spinning-wheel:
   title: Spinning-Wheel
   titleRu: Прялка
