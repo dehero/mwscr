@@ -1,6 +1,9 @@
+import { createWriteStream } from 'fs';
 import { posix } from 'path';
 import { Client } from 'basic-ftp';
+import { finished } from 'node:stream/promises';
 import { Duplex, Readable } from 'stream';
+import { tmpNameSync } from 'tmp';
 import type { StoreItem, StoreManager } from '../../core/entities/store.js';
 import { SiteStore } from '../../core/stores/site-store.js';
 import { debounce, sleep } from '../../core/utils/common-utils.js';
@@ -152,9 +155,14 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
         const site = await this.connect();
         const filename = posix.join(site.path, path);
 
+        const tempFileName = tmpNameSync();
+        const writeStream = createWriteStream(tempFileName, { flags: 'w' });
+        stream.pipe(writeStream);
+        await finished(writeStream);
+
         await site.client.ensureDir(posix.dirname(filename));
         await site.client.cd('/');
-        await site.client.uploadFrom(new Readable().wrap(stream), filename);
+        await site.client.uploadFrom(tempFileName, filename);
       } finally {
         this.waitAndClose();
       }
