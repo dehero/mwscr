@@ -6,10 +6,7 @@ import type { PreviewSize } from 'ya-disk';
 import yaDisk from 'ya-disk';
 import type { StoreItem, StoreManager } from '../../core/entities/store.js';
 
-type FilesResourceList = Awaited<ReturnType<typeof yaDisk.list>>;
-
-const previewUrlCache: Map<string, string | undefined> = new Map();
-const dirCache: Map<string, StoreItem[]> = new Map();
+type FilesResourceList = Awaited<ReturnType<typeof yaDisk.list>> & { total: number };
 
 function diskPathToStoreUrl(path: string) {
   const { YANDEX_DISK_STORE_PATH: storePath } = process.env;
@@ -18,6 +15,9 @@ function diskPathToStoreUrl(path: string) {
 }
 
 export class YandexDiskManager implements StoreManager {
+  private previewUrlCache: Map<string, string | undefined> = new Map();
+  private dirCache: Map<string, StoreItem[]> = new Map();
+
   private connect() {
     const { YANDEX_DISK_ACCESS_TOKEN: token, YANDEX_DISK_STORE_PATH: path } = process.env;
     if (!token) {
@@ -48,6 +48,9 @@ export class YandexDiskManager implements StoreManager {
 
     try {
       await yaDisk.resources.copy(token, fromPath, toPath);
+
+      this.dirCache.delete(posix.dirname(from));
+      this.dirCache.delete(posix.dirname(to));
     } catch (error) {
       if (error instanceof Error && error.name === 'DiskResourceAlreadyExistsError') {
         await this.remove(to);
@@ -88,7 +91,7 @@ export class YandexDiskManager implements StoreManager {
     const size: PreviewSize = width ? `${width}x${height || ''}` : height ? `${width || ''}x${height}` : 'XXXL';
     const cacheId = `${path}:${size}`;
 
-    const result = previewUrlCache.get(cacheId);
+    const result = this.previewUrlCache.get(cacheId);
     if (result) {
       return result;
     }
@@ -102,7 +105,7 @@ export class YandexDiskManager implements StoreManager {
       preview_crop: false,
     });
 
-    previewUrlCache.set(cacheId, resource.preview);
+    this.previewUrlCache.set(cacheId, resource.preview);
 
     return resource.preview;
   }
@@ -124,6 +127,8 @@ export class YandexDiskManager implements StoreManager {
     if (!response.ok) {
       throw new Error(await response.text());
     }
+
+    this.dirCache.delete(posix.dirname(path));
   }
 
   async put(path: string, data: Iterable<unknown> | AsyncIterable<unknown>) {
@@ -138,6 +143,9 @@ export class YandexDiskManager implements StoreManager {
 
     try {
       await yaDisk.resources.move(token, fromPath, toPath);
+
+      this.dirCache.delete(posix.dirname(from));
+      this.dirCache.delete(posix.dirname(to));
     } catch (error) {
       if (error instanceof Error && error.name === 'DiskResourceAlreadyExistsError') {
         await this.remove(to);
@@ -148,33 +156,46 @@ export class YandexDiskManager implements StoreManager {
   }
 
   async readdir(path: string): Promise<StoreItem[]> {
-    let result = dirCache.get(path);
+    let result = this.dirCache.get(path);
     if (result) {
       return result;
     }
 
     const store = this.connect();
 
-    const resource = await yaDisk.meta.get(store.token, posix.join(store.path, path), {
-      // TODO: implement pagination
-      limit: 1000,
-      sort: 'name',
-      fields: '_embedded.items.name,_embedded.items.path,_embedded.items.type',
-    });
+    result = [];
 
-    if (!resource._embedded) {
-      return [];
-    }
+    const limit = 1000;
+    let offset = 0;
+    let total = 0;
 
-    const { items } = resource._embedded as unknown as FilesResourceList;
+    do {
+      const resource = await yaDisk.meta.get(store.token, posix.join(store.path, path), {
+        offset,
+        limit,
+        sort: 'name',
+        fields: '_embedded.items.name,_embedded.items.path,_embedded.items.type,_embedded.total',
+      });
 
-    result = items.map((item) => ({
-      name: item.name,
-      url: diskPathToStoreUrl(item.path),
-      isDirectory: item.type === 'dir',
-    }));
+      if (!resource._embedded) {
+        throw new Error('Unable to read directory');
+      }
 
-    dirCache.set(path, result);
+      const embedded = resource._embedded as unknown as FilesResourceList;
+
+      result.push(
+        ...embedded.items.map((item) => ({
+          name: item.name,
+          url: diskPathToStoreUrl(item.path),
+          isDirectory: item.type === 'dir',
+        })),
+      );
+
+      offset += limit;
+      total = embedded.total;
+    } while (offset < total);
+
+    this.dirCache.set(path, result);
 
     return result;
   }
@@ -183,6 +204,8 @@ export class YandexDiskManager implements StoreManager {
     const store = this.connect();
 
     await yaDisk.resources.remove(store.token, posix.join(store.path, path));
+
+    this.dirCache.delete(posix.dirname(path));
 
     // TODO: Track operation progress https://yandex.com/dev/disk/api/reference/delete.html
   }
