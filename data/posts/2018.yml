@@ -2826,17 +2826,17 @@
     - service: vk
       id: 1865
       published: 2024-10-28-18-10-39
-      updated: 2025-05-06-12-36-56
+      updated: 2025-05-13-12-42-03
       followers: 1000
       likes: 51
       views: 325
     - service: tg
       id: 578
       published: 2024-10-28-18-10-46
-      updated: 2025-05-06-12-36-56
+      updated: 2025-05-13-12-42-01
       followers: 564
       likes: 60
-      views: 588
+      views: 591
 2018-03-15-the-other-side:
   title: The Other Side
   titleRu: По ту сторону
@@ -4327,7 +4327,7 @@
     - service: tg
       id: 564
       published: 2024-10-14-18-10-32
-      updated: 2025-05-06-12-36-58
+      updated: 2025-05-13-12-42-03
       followers: 561
       likes: 64
       views: 520
@@ -11390,7 +11390,7 @@
     - service: tg
       id: 571
       published: 2024-10-21-18-10-50
-      updated: 2025-05-06-12-36-57
+      updated: 2025-05-13-12-42-02
       followers: 562
       likes: 55
       views: 737
