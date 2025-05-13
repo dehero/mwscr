@@ -1218,14 +1218,14 @@
     - service: vk
       id: 1814
       published: 2024-10-07-18-10-38
-      updated: 2025-05-06-15-23-22
+      updated: 2025-05-13-16-24-58
       followers: 958
       likes: 42
       views: 332
     - service: tg
       id: 557
       published: 2024-10-07-18-10-45
-      updated: 2025-05-06-15-23-18
+      updated: 2025-05-13-16-24-54
       followers: 559
       likes: 62
       views: 507
@@ -7712,7 +7712,7 @@
     - service: vk
       id: 1766
       published: 2024-09-16-18-30-47
-      updated: 2025-05-06-15-23-25
+      updated: 2025-05-13-16-25-01
       followers: 947
       likes: 52
       views: 399
@@ -7721,10 +7721,10 @@
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2025-05-06-15-23-21
+      updated: 2025-05-13-16-24-56
       followers: 557
       likes: 67
-      views: 841
+      views: 850
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
@@ -8216,16 +8216,16 @@
       id: DJkERH7vAmT
       mediaId: '18043218413207443'
       published: 2025-05-12-18-27-18
-      updated: 2025-05-13-15-20-40
+      updated: 2025-05-13-16-24-52
       followers: 1539
-      likes: 111
+      likes: 112
     - service: vk
       id: 2352
       published: 2025-05-12-18-27-26
-      updated: 2025-05-13-15-20-40
+      updated: 2025-05-13-16-24-53
       followers: 1295
-      likes: 44
-      views: 287
+      likes: 45
+      views: 296
       comments: !c |-
         G/EA4J0JdizCZBhaTiCK4hZB8BrEkFjjUQlGmOyRpW4rJZz+kIShG6iH7W1rrNbuBHZbM5qN01NF
         LBCi11ivzpGZye4GR57QzkMEk4U4eEBtg4esNdFOMMH9fHWO9ndY3qPnYgbaPFnpoK3xfrZHkwHH
@@ -8234,10 +8234,10 @@
     - service: tg
       id: 839
       published: 2025-05-12-18-27-33
-      updated: 2025-05-13-15-20-41
+      updated: 2025-05-13-16-24-52
       followers: 736
       likes: 53
-      views: 175
+      views: 177
       comments: !c |-
         Cy+AkZTLQnlsXKu4AACpR2F0ZW1hdGU3vnRoaXMgZHVkZSBpcyBzaWNrIGFuZCBkZW1lbnRlZJPL
         QnlsXOWUgAClYW5zaXO6Qm9sZCBjb21pbmcgZnJvbSB5b3Ugbid3YWgD
