@@ -3666,7 +3666,7 @@
     - service: vk
       id: 1583
       published: 2024-06-16-18-19-48
-      updated: 2025-05-06-01-21-11
+      updated: 2025-05-13-01-28-18
       followers: 918
       likes: 52
       views: 384
@@ -3674,10 +3674,10 @@
     - service: tg
       id: 441
       published: 2024-06-16-18-19-56
-      updated: 2025-05-06-01-21-05
+      updated: 2025-05-13-01-28-14
       followers: 386
       likes: 60
-      views: 551
+      views: 553
 2017-03-27-on-the-edge-of-a-dead-forest:
   title: On the Edge of a Dead Forest
   titleRu: На краю мёртвого леса
@@ -7579,7 +7579,7 @@
     - service: vk
       id: 1659
       published: 2024-07-28-18-20-53
-      updated: 2025-05-06-01-21-04
+      updated: 2025-05-13-01-28-11
       followers: 923
       likes: 38
       views: 314
@@ -7587,10 +7587,10 @@
     - service: tg
       id: 483
       published: 2024-07-28-18-21-02
-      updated: 2025-05-06-01-21-00
+      updated: 2025-05-13-01-28-09
       followers: 402
       likes: 59
-      views: 2381
+      views: 2383
 2017-07-01-training-room:
   title: Training Room
   titleRu: Тренировочная комната
@@ -8216,26 +8216,26 @@
       id: DJkERH7vAmT
       mediaId: '18043218413207443'
       published: 2025-05-12-18-27-18
-      updated: 2025-05-12-23-17-58
+      updated: 2025-05-13-01-28-03
       followers: 1539
-      likes: 78
+      likes: 89
     - service: vk
       id: 2352
       published: 2025-05-12-18-27-26
-      updated: 2025-05-12-23-17-58
+      updated: 2025-05-13-01-28-03
       followers: 1295
-      likes: 25
-      views: 115
+      likes: 26
+      views: 129
       comments: !c |-
         CySAkZPLQnlsYveJAACraWQ1OTkzMjAwNjnZMNCt0YUsINGB0LXQudGH0LDRgSDQsdGLINCyINCf
         0LXQu9Cw0LPQuNCw0LQg8J+YjAM=
     - service: tg
       id: 839
       published: 2025-05-12-18-27-33
-      updated: 2025-05-12-23-17-59
+      updated: 2025-05-13-01-28-04
       followers: 736
-      likes: 40
-      views: 134
+      likes: 41
+      views: 138
       comments: !c |-
         Cy+AkZTLQnlsXKu4AACpR2F0ZW1hdGU3vnRoaXMgZHVkZSBpcyBzaWNrIGFuZCBkZW1lbnRlZJPL
         QnlsXOWUgAClYW5zaXO6Qm9sZCBjb21pbmcgZnJvbSB5b3Ugbid3YWgD
@@ -8731,7 +8731,7 @@
     - service: vk
       id: 1635
       published: 2024-07-14-18-21-58
-      updated: 2025-05-06-01-21-06
+      updated: 2025-05-13-01-28-13
       followers: 919
       likes: 31
       views: 273
@@ -8744,10 +8744,10 @@
     - service: tg
       id: 469
       published: 2024-07-14-18-22-05
-      updated: 2025-05-06-01-21-02
+      updated: 2025-05-13-01-28-10
       followers: 398
       likes: 53
-      views: 512
+      views: 513
       comments: !c ixOAkZPLQnkLJ8TOgAClYW5zaXO2QmVhdXRpZnVsIGFuY2llbnQgc2l0ZQM=
 2017-07-30-in-the-sanctuary:
   title: In the Sanctuary
@@ -12590,10 +12590,10 @@
     - service: tg
       id: 420
       published: 2024-05-26-18-17-52
-      updated: 2025-05-06-01-21-07
+      updated: 2025-05-13-01-28-17
       followers: 377
       likes: 63
-      views: 457
+      views: 458
 2017-11-07-corridor-keeper:
   title: Corridor Keeper
   titleRu: Хранитель прохода
@@ -12786,17 +12786,17 @@
     - service: vk
       id: 1609
       published: 2024-06-30-18-20-32
-      updated: 2025-05-06-01-21-09
+      updated: 2025-05-13-01-28-16
       followers: 918
       likes: 36
       views: 260
     - service: tg
       id: 455
       published: 2024-06-30-18-20-40
-      updated: 2025-05-06-01-21-03
+      updated: 2025-05-13-01-28-13
       followers: 388
       likes: 57
-      views: 685
+      views: 686
     - service: ig
       id: C9NHQl1t7nN
       mediaId: '18003207311373105'
@@ -13723,7 +13723,7 @@
     - service: vk
       id: 1621
       published: 2024-07-07-18-18-57
-      updated: 2025-05-06-01-21-08
+      updated: 2025-05-13-01-28-15
       followers: 919
       likes: 37
       views: 301
@@ -13734,10 +13734,10 @@
     - service: tg
       id: 462
       published: 2024-07-07-18-19-06
-      updated: 2025-05-06-01-21-02
+      updated: 2025-05-13-01-28-12
       followers: 393
       likes: 55
-      views: 527
+      views: 528
     - service: ig
       id: C9TlW1WTRtX
       mediaId: '18036502003995219'
