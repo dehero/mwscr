@@ -34,7 +34,13 @@ jobs:
       YANDEX_DISK_ACCESS_TOKEN: '${{ secrets.YANDEX_DISK_ACCESS_TOKEN }}'
       YOUTUBE_API_KEY: '${{ secrets.YOUTUBE_API_KEY }}'
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+        if: github.event_name != 'push'
+
+      - name: Checkout with tags
+        uses: actions/checkout@v3
+        if: github.event_name == 'push'
         with:
           fetch-depth: 2147483647
 
@@ -66,6 +72,7 @@ jobs:
           git push
 
       - name: Create and commit release
+        if: github.event_name == 'push'
         run: |
           git config user.email ${{ env.GITHUB_BOT_EMAIL }}
           git config user.name ${{ env.GITHUB_BOT_NAME }}
