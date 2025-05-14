@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.56.0](https://github.com/dehero/mwscr/compare/v1.55.5...v1.56.0) (2025-05-14)
+
+### Features
+
+- replace node-ssh package with ssh2-sftp-client
+  ([dc633a9](https://github.com/dehero/mwscr/commit/dc633a93ee19e130a04cfa03ee81e2549495b633))
+- use SSH for site store manager
+  ([15da400](https://github.com/dehero/mwscr/commit/15da40034d3766027f8314df2ab9479b9d79bb55))
+
+### Bug Fixes
+
+- complete readdir method for Yandex.Disk manager
+  ([92821fc](https://github.com/dehero/mwscr/commit/92821fc08bb7904b890eee2664510cc380e4e6cc))
+
+### Continuous Integration
+
+- export SITE_SSH* secrets, remove SITE_FTP*
+  ([4c82bbc](https://github.com/dehero/mwscr/commit/4c82bbc9379028c05af81fa0f0929fb8c5fd86b8))
+
 ## [1.55.5](https://github.com/dehero/mwscr/compare/v1.55.4...v1.55.5) (2025-05-12)
 
 ### Bug Fixes
