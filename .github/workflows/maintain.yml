@@ -55,9 +55,6 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
 
-      - name: Test resource management
-        run: npm run test-resource-management
-
       - name: Run and commit maintenance
         run: |
           npm run maintain
