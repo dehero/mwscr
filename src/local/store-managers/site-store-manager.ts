@@ -1,18 +1,21 @@
 import { posix } from 'path';
 import { finished } from 'node:stream/promises';
-import { NodeSSH } from 'node-ssh';
+import SFTPClient from 'ssh2-sftp-client';
 import { Readable } from 'stream';
 import type { StoreItem, StoreManager } from '../../core/entities/store.js';
 import { SiteStore } from '../../core/stores/site-store.js';
-import { debounce } from '../../core/utils/common-utils.js';
 import { streamToBuffer } from '../utils/data-utils.js';
 
 export class SiteStoreManager extends SiteStore implements StoreManager {
-  client: NodeSSH | undefined;
-
-  private waitAndClose = debounce(() => this.client?.dispose(), 1000);
+  private client: SFTPClient | undefined;
+  private disconnectTimer: NodeJS.Timeout | undefined;
 
   private async connect() {
+    if (this.disconnectTimer) {
+      clearTimeout(this.disconnectTimer);
+      this.disconnectTimer = undefined;
+    }
+
     const { SITE_SSH_HOST, SITE_SSH_USER, SITE_SSH_PRIVATE_KEY, SITE_SSH_STORE_PATH } = process.env;
     if (!SITE_SSH_HOST) {
       throw new Error('Need site SSH host');
@@ -31,10 +34,8 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
     }
 
     if (!this.client) {
-      this.client = new NodeSSH();
-    }
+      this.client = new SFTPClient();
 
-    if (!this.client.isConnected()) {
       await this.client.connect({
         host: SITE_SSH_HOST,
         username: SITE_SSH_USER,
@@ -42,138 +43,127 @@ export class SiteStoreManager extends SiteStore implements StoreManager {
       });
     }
 
-    return { client: this.client, path: SITE_SSH_STORE_PATH };
+    return { path: SITE_SSH_STORE_PATH, client: this.client };
+  }
+
+  private disconnect() {
+    if (this.disconnectTimer) {
+      clearTimeout(this.disconnectTimer);
+    }
+
+    this.disconnectTimer = setTimeout(() => {
+      this.client?.end();
+      this.client = undefined;
+      this.disconnectTimer = undefined;
+    }, 1000);
   }
 
   async copy(from: string, to: string): Promise<void> {
+    const site = await this.connect();
+
     try {
-      const { client, path } = await this.connect();
-      const fromPath = posix.join(path, from);
-      const toPath = posix.join(path, to);
+      const fromPath = posix.join(site.path, from);
+      const toPath = posix.join(site.path, to);
 
-      await client.mkdir(posix.dirname(toPath));
-
-      const response = await client.execCommand(`cp -r ${fromPath} ${toPath}`);
-
-      if (response.code !== 0) {
-        throw new Error(response.stderr);
-      }
+      await site.client.mkdir(posix.dirname(toPath), true);
+      await site.client.rcopy(fromPath, toPath);
     } finally {
-      this.waitAndClose();
+      this.disconnect();
     }
   }
 
   async exists(path: string): Promise<boolean> {
-    try {
-      const site = await this.connect();
-      const sftp = await site.client.requestSFTP();
+    const site = await this.connect();
 
-      return new Promise((resolve) => sftp.exists(posix.join(site.path, path), (result) => resolve(result)));
+    try {
+      const result = await site.client.exists(posix.join(site.path, path));
+
+      return Boolean(result);
     } finally {
-      this.waitAndClose();
+      this.disconnect();
     }
   }
 
   async get(path: string): Promise<Buffer> {
+    const site = await this.connect();
+
     try {
-      const site = await this.connect();
-      const sftp = await site.client.requestSFTP();
-      const stream = sftp.createReadStream(posix.join(site.path, path));
+      const stream = site.client.createReadStream(posix.join(site.path, path));
 
       return streamToBuffer(stream);
     } finally {
-      this.waitAndClose();
+      this.disconnect();
     }
   }
 
   async getStream(path: string): Promise<NodeJS.ReadableStream | null> {
-    try {
-      const site = await this.connect();
-      const sftp = await site.client.requestSFTP();
+    const site = await this.connect();
 
-      return sftp.createReadStream(posix.join(site.path, path));
+    try {
+      return site.client.createReadStream(posix.join(site.path, path));
     } finally {
-      this.waitAndClose();
+      this.disconnect();
     }
   }
 
   async move(from: string, to: string): Promise<void> {
+    const site = await this.connect();
+
     try {
-      const { client, path } = await this.connect();
-      const fromPath = posix.join(path, from);
-      const toPath = posix.join(path, to);
-      const sftp = await client.requestSFTP();
+      const fromPath = posix.join(site.path, from);
+      const toPath = posix.join(site.path, to);
 
-      await client.mkdir(posix.dirname(toPath));
-
-      return new Promise((resolve, reject) => sftp.rename(fromPath, toPath, (err) => (err ? reject(err) : resolve())));
+      await site.client.mkdir(posix.dirname(toPath), true);
+      await site.client.rename(fromPath, toPath);
     } finally {
-      this.waitAndClose();
+      this.disconnect();
     }
   }
 
   async put(path: string, data: Iterable<unknown> | AsyncIterable<unknown>): Promise<void> {
     const stream = Readable.from(data);
 
-    try {
-      return this.putStream(path, stream);
-    } finally {
-      this.waitAndClose();
-    }
+    return this.putStream(path, stream);
   }
 
   async putStream(path: string, stream: NodeJS.ReadableStream): Promise<void> {
+    const site = await this.connect();
+
     try {
-      const site = await this.connect();
-      const sftp = await site.client.requestSFTP();
-
       const filename = posix.join(site.path, path);
-      await site.client.mkdir(posix.dirname(filename));
+      await site.client.mkdir(posix.dirname(filename), true);
 
-      const writeStream = sftp.createWriteStream(filename);
+      const writeStream = site.client.createWriteStream(filename);
       stream.pipe(writeStream);
-
-      return finished(writeStream);
+      await finished(writeStream);
     } finally {
-      this.waitAndClose();
+      this.disconnect();
     }
   }
 
   async readdir(path: string): Promise<StoreItem[]> {
-    try {
-      const site = await this.connect();
-      const sftp = await site.client.requestSFTP();
+    const site = await this.connect();
 
-      return new Promise((resolve, reject) => {
-        sftp.readdir(posix.join(site.path, path), (err, list) => {
-          if (err) reject(err);
-          resolve(
-            list.map((item) => ({
-              name: item.filename,
-              url: `store:/${posix.join(path, item.filename)}`,
-              isDirectory: item.longname.startsWith('d'),
-            })),
-          );
-        });
-      });
+    try {
+      const list = await site.client.list(posix.join(site.path, path));
+
+      return list.map((item) => ({
+        name: item.name,
+        url: `store:/${posix.join(path, item.name)}`,
+        isDirectory: item.type === 'd',
+      }));
     } finally {
-      this.waitAndClose();
+      this.disconnect();
     }
   }
 
   async remove(path: string): Promise<void> {
-    try {
-      const site = await this.connect();
-      const sftp = await site.client.requestSFTP();
+    const site = await this.connect();
 
-      return new Promise((resolve, reject) => {
-        sftp.unlink(posix.join(site.path, path), (err) => {
-          if (err) reject(err);
-          resolve();
-        });
-      });
+    try {
+      await site.client.delete(posix.join(site.path, path));
     } finally {
-      this.waitAndClose();
+      this.disconnect();
     }
   }
 }
