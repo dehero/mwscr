@@ -73,16 +73,36 @@
     - service: tg
       id: 796
       published: 2025-04-16-15-35-00
+      updated: 2025-05-14-12-27-24
       followers: 720
+      likes: 35
+      views: 474
+      comments: !c |-
+        G9sBwJwHdsOysbAKgQ76S/w//sEifPP6bBG3VaBRhMm5ZKnL0bKsbiK7kI9XzDfXaHbLXdGkStW2
+        d8bddpZlSZKTb3q97l+kKIVyOL+dn+tVe3qiUQs0AA9akGSHkwd6oRscrxdt/gtdb/j8RG0eK2Hz
+        +fqFir8MXT73ToyXckF17e2Ai+zfPe+fhMJc97qDhGkwwKNWeolLFIu926R6CaaGSf2HZM1WFgVI
+        iM5cPojJT+aFITTViyCi3+/4otweymcC8RxkeOeN9mel/7kf/YyCbP1LjZpmsFIEFeJ8OI+woLrO
+        QKyFMy2LiTOITxI0k95kcOaLnTnsaYwIIybBe8B0aEndCHLeCsyniwQKQ8sO
     - service: vk
       id: 2281
       published: 2025-04-16-15-36-00
+      updated: 2025-05-14-12-27-24
       followers: 1261
-    - service: ig
+      likes: 58
+      views: 522
+      reposts: 1
+      comments: !c |-
+        G98BAJwJtq2C9WJxwzztoIwk/uH/hp+wMOEMKuh4NvCdAY7WiDa4b3Tba6GRSIGU1ddF+w34PVRG
+        d+CQnbO8hSpUoZrgQ1Tyu43Z2J75WkStfAsuT/UB4wGyv6ekY9tY58vGAitgSz4Wl6XP83HoMzZY
+        2VpqqZ+8nj/v4t/Lx3ifuljeN7kz+8GJ1eKcAbjdNTycBFLfoPe7mAKmginMn3P+c5Sk0AC1zDe6
+        vR54PRorq5bhvfKAfiua8aVL2OLhrEbu3yUKwEIMPvkg//9gfNcd8g9/rQ2wuY6K21oMn2rBoJuy
+        C5BW4Mhd2TjRbhujXOBBI2DcG/qeUue9OIY0CLyQUUsEAJcniimAEozR0hJ2LBhB8juk9T4h8QCZ
+        FdYEI1zYra+cjcJyrAgkxjdTgpVhIFlDV1O0m/AnC0NYLA==
+    - type: story
+      service: ig
       mediaId: '3612115338922286789'
       published: 2025-04-16-15-35-00
       updated: 2025-05-14-12-09-00
-      type: story
       followers: 1529
       likes: 453
       views: 26

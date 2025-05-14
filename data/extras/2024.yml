@@ -26,14 +26,14 @@
       followers: 908
       likes: 9
       views: 189
-    - service: ig
+    - type: story
+      service: ig
       mediaId: '3339426476279746828'
-      type: story
+      published: 2024-04-05-09-53-00
+      updated: 2025-05-14-10-22-00
       followers: 1406
       likes: 16
       views: 431
-      published: 2024-04-05-09-53-00
-      updated: 2025-05-14-10-22-00
 2024-08-09-site:
   title: Starting Site
   titleRu: Запуск сайта
@@ -78,9 +78,9 @@
         2snTvy5jJ9JmgAEpsVMLjRyhdHAgVggItTGOPDc8KNCBawwDPGPeo9oEQgaZMT596J8kBRAk9e3F
         pXt4iC3dZaSjJhzfpRxXfnxNIq+d+0YecTClLcJWaLHY2URCzl0nkaubq3NJogrLUxOoBRQuqMgK
         oDC9iuVtOIsJ75YS2RQg3MIc6pvbp8e520KlixJLd/3P35ppAhDShm0EZIFMggA=
-    - service: ig
+    - type: story
+      service: ig
       mediaId: '3430892934473638321'
-      type: story
       published: 2024-08-09-14-41-38
       updated: 2025-05-14-11-00-00
       followers: 1437
@@ -106,14 +106,23 @@
     - service: tg
       id: 536
       published: 2024-09-18-15-02-00
+      updated: 2025-05-14-12-27-24
       followers: 556
+      likes: 23
+      views: 553
     - service: vk
       id: 1770
       published: 2024-09-18-15-00-00
+      updated: 2025-05-14-12-27-24
       followers: 947
-    - service: ig
+      likes: 11
+      views: 388
+      comments: !c |-
+        G2cA+I3EdGuHjOWLU7EFRrsIHySUtCSDoEswwmQja/DcEKN1IDO+ZYP8oFnCb1VkQQgt6QAL65z2
+        edpKb4Jy55AIKgi5or+h1WZm56HX5dWOEb1uZeDVTV0Ne3jUp83OrMdNz5LN87tmAQ==
+    - type: story
+      service: ig
       mediaId: '3459965774560664539'
-      type: story
       published: 2024-09-18-15-00-00
       updated: 2025-05-14-14-42-00
       followers: 1459
@@ -167,9 +176,9 @@
       likes: 37
       views: 313
       reposts: 8
-    - service: ig
+    - type: story
+      service: ig
       mediaId: '3339426476279746828'
-      type: story
       published: 2024-12-23-09-00-15
       updated: 2025-05-14-11-08-00
       followers: 1511
