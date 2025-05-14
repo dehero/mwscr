@@ -184,21 +184,21 @@
     - service: vk
       id: 2226
       published: 2025-03-26-18-12-43
-      updated: 2025-05-07-20-21-06
+      updated: 2025-05-14-21-14-50
       followers: 1213
       likes: 81
-      views: 610
+      views: 615
       reposts: 3
       comments: !c |-
-        G84DAJwHto1qPbB48I2ZIBjQKD4O3w+acHuaRtHSjAJSPeMduHME6h5ZtDax9WbCqN1VTe9JSUkf
-        8uh0TuuLGzflS3uSEdiwV/5Gfr2J9WPnLZrf4BNIQooXkombcQkFhG2aG2SMBVb/9NYF+oTTtpG8
-        eaY+ZnuO0l5OEiXqlP4xt09f1517YwWLlzPG6DERvXPZpSzujBRyYHSMGeCQO4h6YCwVgkpArE89
-        thoWBKyySAMTBWBg3B4YGwMoaytRkmNSRm3iSjqVTotJHua3o5WjiqRYXSQQ/MuOLzJHTpst2PZR
-        bTKn1yjv//Xe3Dsrdbz0cceHdMlRYTlLyRG7S3/HEHH6nSpSgUz1MBpCK0GgVaIN6KT+4E7bQ54o
-        cHZfUmw24Kf6tu/l5IQds6rMSb3kdnc4fqa5YfrR5+s/jpdzzTw3QHjnp//YaTBZf2eFEfotDchg
-        kuw2t6aYuJGz0O4lW4WBAQKUxFAEp6HnnchCCRteI5OGExjCndKQMRe8Z7lzWgA102vZL2cnFGUm
-        mVmMLopxk1np1BkA68GQsBQte1H42Z0RUALpbE87z2WpjsIxhHaDrEdmUdSrdnLl0bNki7Pjc3S/
-        nQjcE4MFtqqxMBdMcq8c
+        G80DAJwHdoOzsbCDT9QYRgGKJ55DDWjC6zSLoqOLrFaQ6X2+gTdXYP4jq9Ymtt5MGLW7quk9KSnp
+        Qx6dzmk9MeOufGlPMgIb9sp/u5FYd9xYC8LOuPeENaFkiZBMncoRi2jcsmlusNxT1gRbFMsFbLdA
+        BZlWkKqUCGve/+oj+okYdZttYua86Y+5ffqaO277GIOXM0FvMRC9c+RSFvdGChmIjmUNMOQuRDsQ
+        SxWFqoBYTzu2CgsCVrWSAikFYMG4CsTGApTVSlTkM0ijbcZmuim5bia5mN+M1rzCpLL1I4HQmz++
+        yDYKWuxg5afapGleqrz/13dz76zlo+HHHO+nMytIykMdDNxV+X/BEKWKalQNZGqH0RBaEwRaTVRx
+        47gcDD5OatYFBTa3ldN9Duin+8r1auWDGbNVmNN0yekmHD7bnKt+9/n6j+PlfLIMBXDv/PSPnQW1
+        z2+jLsLPtgEJUkkxfTTFZBv9Fi7+xlZFIECAEkOpNPQIkxVK6fAamWbcF1g0QyFDQ/dWT51xAVSD
+        ruW+nJxwKX2VWYvRXRE3mS2degNgPQjxSvGqF4dvjIxLglxbpadeDxdOYhThIqj1lVgM6aq5uvLo
+        WTLFrH2Ot9upwH0wWGB3KxbWBZNslQM=
     - service: tg
       id:
         - 762
@@ -206,10 +206,10 @@
         - 764
         - 765
       published: 2025-03-26-18-13-07
-      updated: 2025-05-07-20-21-04
+      updated: 2025-05-14-21-14-49
       followers: 710
       likes: 61
-      views: 712
+      views: 721
     - service: ig
       id: DHrG6TzS39F
       mediaId: '17904383484108059'
