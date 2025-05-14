@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.56.2](https://github.com/dehero/mwscr/compare/v1.56.1...v1.56.2) (2025-05-14)
+
+### Continuous Integration
+
+- optimize checkout and release on maintenance
+  ([1aa7cde](https://github.com/dehero/mwscr/commit/1aa7cde09c418b3ef9803d7fccdea2d9de044742))
+
 ## [1.56.1](https://github.com/dehero/mwscr/compare/v1.56.0...v1.56.1) (2025-05-14)
 
 ### Continuous Integration
