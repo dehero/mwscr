@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.57.0](https://github.com/dehero/mwscr/compare/v1.56.2...v1.57.0) (2025-05-14)
+
+### Features
+
+- bind Instagram stories with restored news
+  ([960c2f4](https://github.com/dehero/mwscr/commit/960c2f41248001b358514ca2c362ace9f71e4ad8))
+
 ## [1.56.2](https://github.com/dehero/mwscr/compare/v1.56.1...v1.56.2) (2025-05-14)
 
 ### Continuous Integration
