@@ -117,8 +117,15 @@ ohsweetnazareth.2025-05-10-barkeep-in-indarys-manor-796acb11:
   author: ohsweetnazareth
 ohsweetnazareth.2025-05-10-scribes-station-71356704:
   title: Scribe's Station
-  content:
-    - store:/inbox/ohsweetnazareth.2025-05-10-scribes-station-71356704.png
-    - store:/inbox/ohsweetnazareth.2025-05-10-scribes-station-71356704.1.png
-  type: shot
+  titleRu: Убежище писателя
+  placement: Indoors
+  content: store:/inbox/ohsweetnazareth.2025-05-10-scribes-station-71356704.1.png
+  trash: store:/inbox/ohsweetnazareth.2025-05-10-scribes-station-71356704.png
+  type: wallpaper
   author: ohsweetnazareth
+  engine: OpenMW
+  tags:
+    - book
+    - table
+    - scroll
+  mark: A2
