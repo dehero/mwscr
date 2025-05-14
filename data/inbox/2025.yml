@@ -36,7 +36,9 @@ dehero.2025-03-12-20-11-51:
   type: shot
   author: dehero
 dehero.2025-03-25-20-31-52:
-  content: store:/inbox/dehero.2025-03-25-20-31-52.png
+  content:
+    - store:/inbox/dehero.2025-03-25-20-31-52.png
+    - store:/inbox/dehero.2025-03-25-20-31-52.1.png
   type: shot
   author: dehero
 dehero.2025-03-25-20-43-03:
@@ -78,7 +80,9 @@ dehero.2025-04-10-20-14-32:
   addon: Tamriel Rebuilt
 dehero.2025-04-10-20-16-44:
   location: Andothren
-  content: store:/inbox/dehero.2025-04-10-20-16-44.png
+  content:
+    - store:/inbox/dehero.2025-04-10-20-16-44.png
+    - store:/inbox/dehero.2025-04-10-20-16-44.1.png
   type: shot
   author: dehero
   addon: Tamriel Rebuilt
@@ -113,6 +117,8 @@ ohsweetnazareth.2025-05-10-barkeep-in-indarys-manor-796acb11:
   author: ohsweetnazareth
 ohsweetnazareth.2025-05-10-scribes-station-71356704:
   title: Scribe's Station
-  content: store:/inbox/ohsweetnazareth.2025-05-10-scribes-station-71356704.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-05-10-scribes-station-71356704.png
+    - store:/inbox/ohsweetnazareth.2025-05-10-scribes-station-71356704.1.png
   type: shot
   author: ohsweetnazareth
