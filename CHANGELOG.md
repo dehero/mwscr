@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.56.1](https://github.com/dehero/mwscr/compare/v1.56.0...v1.56.1) (2025-05-14)
+
+### Continuous Integration
+
+- add node_modules cache ([6cdacf3](https://github.com/dehero/mwscr/commit/6cdacf3180b3990b369e7848641c6a65d5050970))
+- remove resource management test
+  ([fe4d64a](https://github.com/dehero/mwscr/commit/fe4d64ac7ea5758f2216630bce981a77b3dcc93e))
+
 ## [1.56.0](https://github.com/dehero/mwscr/compare/v1.55.5...v1.56.0) (2025-05-14)
 
 ### Features
