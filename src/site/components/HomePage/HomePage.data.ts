@@ -12,6 +12,8 @@ export interface HomePageData {
   lastFulfilledPostInfo?: PostInfoSelection;
   lastProposedPostInfo?: PostInfoSelection;
   lastRequestedPostInfo?: PostInfoSelection;
+  lastNewsPostInfo?: PostInfoSelection;
+  lastRedrawingPostInfo?: PostInfoSelection;
   totalLikes: number;
   totalCommentCount: number;
   recentPostInfos: PostInfoSelection;
@@ -69,6 +71,18 @@ export async function getHomePageData(dataManager: DataManager): Promise<HomePag
     }),
     lastRequestedPostInfo: await dataManager.selectPostInfo('inbox', {
       requester: 'any',
+      sortKey: 'date',
+      sortDirection: 'desc',
+    }),
+    lastNewsPostInfo: await dataManager.selectPostInfo('extras', {
+      type: 'news',
+      original: true,
+      sortKey: 'date',
+      sortDirection: 'desc',
+    }),
+    lastRedrawingPostInfo: await dataManager.selectPostInfo('extras', {
+      type: 'redrawing',
+      original: true,
       sortKey: 'date',
       sortDirection: 'desc',
     }),

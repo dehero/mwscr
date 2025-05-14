@@ -16,6 +16,7 @@ export interface UserPreviewProps {
 export const UserPreview: Component<UserPreviewProps> = (props) => {
   const [ref, setRef] = createSignal<HTMLElement>();
   const url = () => userRoute.createUrl({ id: props.userInfo.id });
+  const authored = () => (props.userInfo.authored?.posts ?? 0) + (props.userInfo.authored?.extras ?? 0);
 
   return (
     <Frame component="a" class={clsx(styles.container, props.class)} ref={setRef} href={url()}>
@@ -25,10 +26,10 @@ export const UserPreview: Component<UserPreviewProps> = (props) => {
 
       <span class={styles.title}>{props.userInfo.title}</span>
 
-      <Show when={props.userInfo.authored?.posts}>
+      <Show when={authored()}>
         <span class={styles.published}>
           <GoldIcon />
-          {props.userInfo.authored!.posts}
+          {authored()}
         </span>
       </Show>
 

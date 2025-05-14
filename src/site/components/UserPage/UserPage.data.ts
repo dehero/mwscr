@@ -21,6 +21,8 @@ export interface UserPageData {
   lastRejectedPostInfo?: PostInfoSelection;
   lastRejectedRequestInfo?: PostInfoSelection;
   editorsChoicePostInfo?: PostInfoSelection;
+  lastNewsPostInfo?: PostInfoSelection;
+  lastRedrawingPostInfo?: PostInfoSelection;
 }
 
 export async function getUserPageData(dataManager: DataManager, params: UserRouteParams): Promise<UserPageData> {
@@ -90,6 +92,20 @@ export async function getUserPageData(dataManager: DataManager, params: UserRout
     }),
     lastRejectedRequestInfo: await dataManager.selectPostInfo('trash', {
       requester: params.id,
+      sortKey: 'date',
+      sortDirection: 'desc',
+    }),
+    lastNewsPostInfo: await dataManager.selectPostInfo('extras', {
+      author: params.id,
+      original: true,
+      type: 'news',
+      sortKey: 'date',
+      sortDirection: 'desc',
+    }),
+    lastRedrawingPostInfo: await dataManager.selectPostInfo('extras', {
+      author: params.id,
+      original: true,
+      type: 'redrawing',
       sortKey: 'date',
       sortDirection: 'desc',
     }),

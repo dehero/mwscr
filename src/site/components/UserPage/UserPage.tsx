@@ -84,6 +84,18 @@ export const UserPage = (): JSX.Element => {
                     link: postsRoute.createUrl({ managerName: 'posts', author: id(), original: 'true' }),
                   },
                   {
+                    label: 'Extras',
+                    value: userInfo().authored?.extras
+                      ? () => (
+                          <>
+                            <GoldIcon class={styles.goldIcon} />
+                            {userInfo().authored!.extras}
+                          </>
+                        )
+                      : undefined,
+                    link: postsRoute.createUrl({ managerName: 'extras', author: id(), original: 'true' }),
+                  },
+                  {
                     label: 'Inbox',
                     value: userInfo().authored?.inbox,
                     link: postsRoute.createUrl({ managerName: 'inbox', author: id() }),
@@ -108,6 +120,11 @@ export const UserPage = (): JSX.Element => {
                     label: 'Posts',
                     value: userInfo().requested?.posts,
                     link: postsRoute.createUrl({ managerName: 'posts', requester: id() }),
+                  },
+                  {
+                    label: 'Extras',
+                    value: userInfo().requested?.extras,
+                    link: postsRoute.createUrl({ managerName: 'extras', requester: id() }),
                   },
                   {
                     label: 'Inbox',
@@ -200,6 +217,14 @@ export const UserPage = (): JSX.Element => {
                 { label: 'Top Liked Post', selection: data().topLikedPostInfo },
                 { label: 'Less Liked Post', selection: data().lessLikedPostInfo },
                 { label: 'Last Fulfilled Request', selection: data().lastFulfilledPostInfo },
+              ]}
+            />
+
+            <PostHighlights
+              class={styles.postHighlights}
+              items={[
+                { label: 'Last News', primary: true, selection: data().lastNewsPostInfo },
+                { label: 'Last Redrawing', primary: true, selection: data().lastRedrawingPostInfo },
               ]}
             />
 

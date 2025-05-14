@@ -45,7 +45,7 @@ export const UserTooltip: Component<UserTooltipProps> = (props) => {
           <Show when={authored()}>
             <span class={styles.contribution}>
               {'Authored: '}
-              <Show when={userInfo().authored?.posts}>
+              <Show when={userInfo().authored?.posts || userInfo().authored?.extras}>
                 <GoldIcon class={styles.icon} />
               </Show>
               {authored()}

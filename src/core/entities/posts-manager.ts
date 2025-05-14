@@ -80,8 +80,8 @@ export interface PostsManagerDescriptor {
 }
 
 export const postsManagerDescriptors = Object.freeze<Record<PostsManagerName, PostsManagerDescriptor>>({
-  posts: { title: 'Posts', label: 'posted', actions: ['locate', 'precise'] },
-  extras: { title: 'Extras', label: 'extras', actions: ['precise'] },
+  posts: { title: 'Posts', label: 'primary', actions: ['locate', 'precise'] },
+  extras: { title: 'Extras', label: 'extra', actions: ['precise'] },
   inbox: { title: 'Inbox', label: 'pending', actions: ['edit', 'merge'] },
   trash: { title: 'Trash', label: 'rejected', actions: ['edit', 'merge'] },
 });

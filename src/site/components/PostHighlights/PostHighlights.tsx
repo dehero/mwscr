@@ -7,7 +7,7 @@ import { PostPreview } from '../PostPreview/PostPreview.js';
 import styles from './PostHighlights.module.css';
 
 export const POST_HIGHIGHT_CHARACTERISTICS = ['First', 'Last', 'Less', 'Top'] as const;
-export const POST_HIGHIGHT_TYPES = ['Post', 'Proposal', 'Request'] as const;
+export const POST_HIGHIGHT_TYPES = ['Post', 'Proposal', 'Request', 'News', 'Redrawing'] as const;
 
 export type PostHighlightCharacteristic = (typeof POST_HIGHIGHT_CHARACTERISTICS)[number];
 export type PostHighlightType = (typeof POST_HIGHIGHT_TYPES)[number];

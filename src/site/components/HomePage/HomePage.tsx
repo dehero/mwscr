@@ -119,6 +119,18 @@ export const HomePage = (): JSX.Element => {
                       link: postsRoute.createUrl({ managerName: 'posts' }),
                     },
                     {
+                      label: 'Extras',
+                      value: data().totalPosts.extras
+                        ? () => (
+                            <>
+                              <GoldIcon class={styles.goldIcon} />
+                              {data().totalPosts.extras}
+                            </>
+                          )
+                        : undefined,
+                      link: postsRoute.createUrl({ managerName: 'extras' }),
+                    },
+                    {
                       label: 'Inbox',
                       value: data().totalPosts.inbox,
                       link: postsRoute.createUrl({ managerName: 'inbox' }),
@@ -208,6 +220,14 @@ export const HomePage = (): JSX.Element => {
                     { label: "Recent Editor's Choice Post", selection: recentEditorsChoicePostInfo() },
                     { label: 'Last Fulfilled Request', selection: data().lastFulfilledPostInfo },
                     // TODO: Last Week Top Rated Post, Current Month Top Rated Post, Previous Month Top Rated Post etc.
+                  ]}
+                />
+
+                <PostHighlights
+                  class={styles.postHighlights}
+                  items={[
+                    { label: 'Last News', primary: true, selection: data().lastNewsPostInfo },
+                    { label: 'Last Redrawing', primary: true, selection: data().lastRedrawingPostInfo },
                   ]}
                 />
 
