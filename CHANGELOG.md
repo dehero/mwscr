@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.58.0](https://github.com/dehero/mwscr/compare/v1.57.0...v1.58.0) (2025-05-14)
+
+### Features
+
+- integrate extras to home and user pages better
+  ([be3a924](https://github.com/dehero/mwscr/commit/be3a924f784ccc0327c26ce7cad19b910dec4349))
+
 ## [1.57.0](https://github.com/dehero/mwscr/compare/v1.56.2...v1.57.0) (2025-05-14)
 
 ### Features
