@@ -6,6 +6,9 @@ import { Publication } from '../entities/publication.js';
 import { checkSchema } from '../entities/schema.js';
 import type { PostingService } from '../entities/service.js';
 
+export const INSTAGRAM_HIGHLIGHTS_ALBUM_ID = 'aGlnaGxpZ2h0OjE3OTkzNTcwNTM3Mzg1MTA3';
+export const INSTAGRAM_ACCOUNT_ID = '4170501247';
+
 export const InstagramPost = intersect([
   object({ ...Post.entries, title: PostTitle }),
   variant('type', [Redrawing, Shot, ShotSet, Wallpaper, VerticalWallpaper]),
@@ -20,8 +23,11 @@ export class Instagram implements PostingService<InstagramPublication> {
   readonly id = 'ig';
   readonly name = 'Instagram';
 
-  isPost(publication: Publication): publication is InstagramPublication {
-    return publication.service === this.id && typeof publication.id === 'string';
+  isPublication(publication: Publication): publication is InstagramPublication {
+    return (
+      publication.service === this.id &&
+      (typeof publication.id === 'string' || (publication.type === 'story' && typeof publication.mediaId === 'string'))
+    );
   }
 
   canPublishPost(post: Post, errors: string[] = []): post is InstagramPost {
@@ -29,9 +35,13 @@ export class Instagram implements PostingService<InstagramPublication> {
   }
 
   getPublicationUrl(publication: Publication) {
-    if (!this.isPost(publication)) {
+    if (!this.isPublication(publication)) {
       return;
     }
+    if (publication.type === 'story') {
+      return `https://instagram.com/s/${INSTAGRAM_HIGHLIGHTS_ALBUM_ID}?story_media_id=${publication.mediaId}_${INSTAGRAM_ACCOUNT_ID}`;
+    }
+
     return `https://instagram.com/p/${publication.id}/`;
   }
 

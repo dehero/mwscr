@@ -1,11 +1,27 @@
 import type { InferOutput } from 'valibot';
-import { array, date, minValue, nonEmpty, number, object, optional, pipe, string, trim, unknown } from 'valibot';
+import {
+  array,
+  date,
+  minValue,
+  nonEmpty,
+  number,
+  object,
+  optional,
+  picklist,
+  pipe,
+  string,
+  trim,
+  unknown,
+} from 'valibot';
 import { asArray } from '../utils/common-utils.js';
 import { getDaysPassed, getMinutesPassed, isDateInRange } from '../utils/date-utils.js';
 
 export const PUBLICATION_IS_RECENT_DAYS = 31;
 
 const BaseComment = object({ datetime: date(), author: pipe(string(), nonEmpty()), text: pipe(string(), trim()) });
+
+export const PublicationType = picklist(['story']);
+export type PublicationType = InferOutput<typeof PublicationType>;
 
 export const PublicationComment = object({
   ...BaseComment.entries,
@@ -21,6 +37,7 @@ export const Publication = object({
   id: unknown(),
   code: optional(pipe(string(), nonEmpty())),
   mediaId: optional(pipe(string(), nonEmpty())),
+  type: optional(PublicationType),
   published: date(),
   updated: optional(date()),
   followers: optional(pipe(number(), minValue(0))),

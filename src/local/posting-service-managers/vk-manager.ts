@@ -283,7 +283,7 @@ export class VKManager extends VKService implements PostingServiceManager {
   }
 
   async updatePublication(publication: Publication) {
-    if (!this.isPost(publication)) {
+    if (!this.isPublication(publication)) {
       return;
     }
 
@@ -303,7 +303,7 @@ export class VKManager extends VKService implements PostingServiceManager {
   }
 
   async grabPosts(afterPublication?: Publication) {
-    if (afterPublication && !this.isPost(afterPublication)) {
+    if (afterPublication && !this.isPublication(afterPublication)) {
       throw new Error(`Invalid ${this.name} post`);
     }
 

@@ -250,7 +250,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
         throw new Error(`Cannot get post ${this.name} story id`);
       }
 
-      newPublications.push({ service: 'ig', id, mediaId, followers, published: new Date() });
+      newPublications.push({ service: 'ig', id, mediaId, type: 'story', followers, published: new Date() });
     }
 
     post.posts = [...(post.posts ?? []), ...newPublications];
@@ -394,16 +394,25 @@ export class InstagramManager extends Instagram implements PostingServiceManager
   }
 
   async updatePublication(publication: Publication) {
-    if (!this.isPost(publication) || !publication.mediaId) {
+    if (!this.isPublication(publication) || !publication.mediaId) {
       return;
     }
 
-    const { likes, views, comments } = await this.grabPostInfo(publication.mediaId);
+    try {
+      const { likes, views, comments } = await this.grabPostInfo(publication.mediaId);
 
-    publication.likes = likes;
-    publication.views = views || publication.views;
-    publication.comments = comments || publication.comments;
-    publication.updated = new Date();
+      publication.likes = likes;
+      publication.views = views || publication.views;
+      publication.comments = comments || publication.comments;
+      publication.updated = new Date();
+    } catch (error) {
+      // Allow updating stories to fail (lack of API to do it for saved stories)
+      if (publication.type === 'story') {
+        return;
+      }
+
+      throw error;
+    }
   }
 
   async grabFollowerCount() {
@@ -416,7 +425,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
   }
 
   async grabPosts(afterPublication?: Publication) {
-    if (afterPublication && !this.isPost(afterPublication)) {
+    if (afterPublication && !this.isPublication(afterPublication)) {
       throw new Error(`Invalid ${this.name} post`);
     }
 

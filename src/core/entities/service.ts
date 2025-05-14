@@ -22,7 +22,7 @@ export interface Service {
 }
 
 export interface PostingService<TPublication extends Publication = Publication> extends Service {
-  isPost(publication: Publication): publication is TPublication;
+  isPublication(publication: Publication): publication is TPublication;
 
   getSubscriptionUrl(): string;
 

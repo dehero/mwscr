@@ -16,7 +16,7 @@ export class YouTube implements PostingService<YouTubePublication> {
   readonly id = 'yt';
   readonly name = 'YouTube';
 
-  isPost(publication: Publication): publication is YouTubePublication {
+  isPublication(publication: Publication): publication is YouTubePublication {
     return publication.service === this.id && typeof publication.id === 'string';
   }
 

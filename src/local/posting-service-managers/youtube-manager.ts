@@ -86,7 +86,7 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
   }
 
   async updatePublication(publication: Publication) {
-    if (!this.isPost(publication)) {
+    if (!this.isPublication(publication)) {
       return;
     }
 

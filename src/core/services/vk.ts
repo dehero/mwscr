@@ -27,7 +27,7 @@ export class VK implements PostingService<VKPublication> {
   readonly name = 'VK';
   readonly sponsorshipName = 'VK Donut';
 
-  isPost(publication: Publication): publication is VKPublication {
+  isPublication(publication: Publication): publication is VKPublication {
     return publication.service === this.id && typeof publication.id === 'number';
   }
 
@@ -40,7 +40,7 @@ export class VK implements PostingService<VKPublication> {
   }
 
   getPublicationUrl(publication: Publication) {
-    if (!this.isPost(publication)) {
+    if (!this.isPublication(publication)) {
       return;
     }
     return `https://vk.com/${VK_GROUP_NAME}?w=wall${VK_GROUP_ID}_${publication.id}`;

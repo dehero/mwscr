@@ -27,7 +27,7 @@ export class Telegram implements PostingService<TelegramPublication> {
   readonly name = 'Telegram';
   readonly sponsorshipName = 'Telegram Stars';
 
-  isPost(publication: Publication): publication is TelegramPublication {
+  isPublication(publication: Publication): publication is TelegramPublication {
     return (
       publication.service === this.id &&
       (typeof publication.id === 'number' ||
@@ -40,7 +40,7 @@ export class Telegram implements PostingService<TelegramPublication> {
   }
 
   getPublicationUrl(publication: Publication) {
-    if (!this.isPost(publication)) {
+    if (!this.isPublication(publication)) {
       return;
     }
     return `https://t.me/${TELEGRAM_CHANNEL}/${publication.id}`;
