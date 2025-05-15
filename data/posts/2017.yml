@@ -4224,7 +4224,7 @@
     - service: vk
       id: 1893
       published: 2024-11-13-18-10-28
-      updated: 2025-05-08-06-28-13
+      updated: 2025-05-15-07-18-33
       followers: 1006
       likes: 46
       views: 362
@@ -4232,7 +4232,7 @@
     - service: tg
       id: 594
       published: 2024-11-13-18-10-36
-      updated: 2025-05-08-06-28-12
+      updated: 2025-05-15-07-18-31
       followers: 567
       likes: 54
       views: 520
@@ -11185,9 +11185,9 @@
       id: DJFKZxPzbyu
       mediaId: '18068607500505132'
       published: 2025-04-30-18-24-27
-      updated: 2025-05-08-06-28-11
+      updated: 2025-05-15-07-18-30
       followers: 1531
-      likes: 65
+      likes: 69
       comments: !c |-
         G2kA+I2UbuZkhEofvDnCxonNEvq7p2cBl0hUIkUBBV4RBhM5cI8wsUD0e6VyUP0D0rluD5rZVd4L
         OJ3SOJSUNwqnhN+8oJG3yWM2BtT2CYcsa4Tbg2a2fD8Ax6gSDqWZ/cBj2usRGxA=
@@ -14493,17 +14493,17 @@
     - service: vk
       id: 1909
       published: 2024-11-20-18-10-51
-      updated: 2025-05-08-06-28-12
+      updated: 2025-05-15-07-18-31
       followers: 1007
       likes: 31
       views: 292
     - service: tg
       id: 601
       published: 2024-11-20-18-10-57
-      updated: 2025-05-08-06-28-11
+      updated: 2025-05-15-07-18-30
       followers: 574
       likes: 54
-      views: 514
+      views: 515
 2017-12-29-crab-creek:
   title: Crab Creek
   titleRu: Крабовый залив
