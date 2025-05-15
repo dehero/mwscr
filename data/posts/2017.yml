@@ -224,7 +224,7 @@
     - service: vk
       id: 1418
       published: 2024-02-27-20-14-21
-      updated: 2025-05-08-04-23-34
+      updated: 2025-05-15-05-19-17
       followers: 894
       likes: 47
       views: 369
@@ -233,10 +233,10 @@
     - service: tg
       id: 329
       published: 2024-02-27-20-14-31
-      updated: 2025-05-08-04-23-26
+      updated: 2025-05-15-05-19-11
       followers: 337
       likes: 93
-      views: 626
+      views: 628
       comments: !c |-
         ixyAkZTLQnjexabnAACucXVpbnR1c19mYWJpdXOtV2UncmUgc28gYmFja5PLQnjexcSwAAClYW5z
         aXOhLgM=
@@ -4410,10 +4410,10 @@
     - service: vk
       id: 2139
       published: 2025-02-19-18-11-18
-      updated: 2025-05-08-04-23-20
+      updated: 2025-05-15-05-19-03
       followers: 1102
       likes: 47
-      views: 466
+      views: 469
       comments: !c |-
         CyeAkZPLQnlSAJoagACpdmxhZGtyMTE02TjQrdGC0L4g0L/QtdGJ0LXRgNGDINGPINGD0LfQvdCw
         0Y4g0LjQtyDRgtGL0YHRj9GH0Lgg8J+YgQM=
@@ -10098,7 +10098,7 @@
     - service: vk
       id: 2008
       published: 2025-01-01-18-10-21
-      updated: 2025-05-08-04-23-26
+      updated: 2025-05-15-05-19-08
       followers: 1038
       likes: 40
       views: 452
@@ -10109,10 +10109,10 @@
     - service: tg
       id: 644
       published: 2025-01-01-18-10-27
-      updated: 2025-05-08-04-23-22
+      updated: 2025-05-15-05-19-05
       followers: 644
       likes: 68
-      views: 573
+      views: 574
 2017-09-03-night-halt:
   title: Night Halt
   titleRu: Ночной привал
@@ -11839,7 +11839,7 @@
     - service: vk
       id: 1470
       published: 2024-03-26-18-10-44
-      updated: 2025-05-08-04-23-31
+      updated: 2025-05-15-05-19-13
       followers: 904
       likes: 44
       views: 298
@@ -12910,7 +12910,7 @@
     - service: vk
       id: 1437
       published: 2024-03-05-18-17-31
-      updated: 2025-05-08-04-23-33
+      updated: 2025-05-15-05-19-16
       followers: 895
       likes: 35
       views: 298
@@ -12918,10 +12918,10 @@
     - service: tg
       id: 336
       published: 2024-03-05-18-17-38
-      updated: 2025-05-08-04-23-25
+      updated: 2025-05-15-05-19-10
       followers: 343
       likes: 69
-      views: 543
+      views: 544
       comments: !c ixOAkZPLQnjhAF9lAACucXVpbnR1c19mYWJpdXOt8J+Pg+KAjeKZgu+4jwM=
 2017-11-16-cozy-workplace-in-the-basement:
   title: Cozy Workplace in the Basement
