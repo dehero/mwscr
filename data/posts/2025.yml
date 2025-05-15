@@ -1629,7 +1629,7 @@
       id: DJZywRGJZ2H
       mediaId: '18065517287296383'
       published: 2025-05-08-18-41-51
-      updated: 2025-05-14-18-34-14
+      updated: 2025-05-15-19-14-45
       followers: 1534
       likes: 79
       comments: !c |-
@@ -1639,18 +1639,18 @@
     - service: vk
       id: 2346
       published: 2025-05-08-18-41-58
-      updated: 2025-05-14-18-34-13
+      updated: 2025-05-15-19-14-49
       followers: 1283
       likes: 34
-      views: 332
+      views: 344
       reposts: 1
     - service: tg
       id: 834
       published: 2025-05-08-18-42-05
-      updated: 2025-05-14-18-34-13
+      updated: 2025-05-15-19-14-44
       followers: 737
-      likes: 60
-      views: 331
+      likes: 62
+      views: 347
       comments: !c |-
         G1gBIBRKe7WmZ0yA10XISCRHtMlswnsP6ELCfWwktMa04zu1ZLkDfcAoILgrqBW1JC1JE8tiibIQ
         o3Sbz+l0e0SCRUUxuPG8r5y7i/zshHhvotNW9DVp/708MlAFCqPPgWSCPa02khk3GoEhRzr0J2b1
@@ -1676,24 +1676,24 @@
       id: DJcVy4EBKEs
       mediaId: '18047181881523178'
       published: 2025-05-09-18-26-00
-      updated: 2025-05-14-18-34-12
+      updated: 2025-05-15-19-14-43
       followers: 1534
       likes: 55
     - service: vk
       id: 2348
       published: 2025-05-09-18-26-00
-      updated: 2025-05-14-18-34-12
+      updated: 2025-05-15-19-14-49
       followers: 1283
       likes: 57
-      views: 585
+      views: 606
       reposts: 3
     - service: tg
       id: 835
       published: 2025-05-09-19-00-00
-      updated: 2025-05-14-18-34-13
+      updated: 2025-05-15-19-14-43
       followers: 737
-      likes: 68
-      views: 408
+      likes: 70
+      views: 428
 2025-05-10-in-a-mushroom-house: 2017-09-25-in-a-mushroom-house
 2025-05-11-sail-on: 2022-07-15-sail-on
 2025-05-12-i-greet-you-in-pelagiad-traveler: 2017-07-15-i-greet-you-in-pelagiad-traveler
@@ -1716,9 +1716,9 @@
       id: DJpOwZOv5pD
       mediaId: '17868720897367195'
       published: 2025-05-14-18-35-11
-      updated: 2025-05-15-18-26-24
+      updated: 2025-05-15-19-14-43
       followers: 1538
-      likes: 56
+      likes: 58
       comments: !c |-
         G8oAABwJ5XbKxPpxRySDhs61AhoNbzZq+2it4EUkHej7P1Ck0XQdQla5TCdHer3YDX9oRR5Zqunk
         gDjSb0l4fJoFlmKGpRvDUJZ9QWQIQ3+XntVFUCSC3NU9OQjTyNbT/1lOBn6URxEcr7XdSQ+7ZdTu
@@ -1727,10 +1727,10 @@
     - service: vk
       id: 2357
       published: 2025-05-14-18-35-17
-      updated: 2025-05-15-18-26-23
+      updated: 2025-05-15-19-14-48
       followers: 1295
       likes: 40
-      views: 410
+      views: 420
       reposts: 3
       comments: !c |-
         G7IA8J0FdiyeUDZoHfrAwzJCpcP/P6dGLPo1k8Mh6anNbXtZT8EWSAHnfW660oKhMH53dhWLzC1z
@@ -1739,10 +1739,10 @@
     - service: tg
       id: 844
       published: 2025-05-14-18-35-24
-      updated: 2025-05-15-18-26-23
+      updated: 2025-05-15-19-14-43
       followers: 738
-      likes: 49
-      views: 184
+      likes: 50
+      views: 194
 2025-05-15-stone-flora:
   title: Stone Flora
   titleRu: Каменная флора
@@ -1760,12 +1760,20 @@
       id: DJrzZA1NH8R
       mediaId: '18077087548889753'
       published: 2025-05-15-18-33-43
+      updated: 2025-05-15-19-14-42
       followers: 1537
+      likes: 6
     - service: vk
       id: 2360
       published: 2025-05-15-18-33-50
+      updated: 2025-05-15-19-14-47
       followers: 1299
+      likes: 5
+      views: 38
     - service: tg
       id: 845
       published: 2025-05-15-18-33-57
+      updated: 2025-05-15-19-14-42
       followers: 738
+      likes: 20
+      views: 67
