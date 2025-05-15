@@ -36,11 +36,18 @@ dehero.2025-03-12-20-11-51:
   type: shot
   author: dehero
 dehero.2025-03-25-20-31-52:
-  content:
-    - store:/inbox/dehero.2025-03-25-20-31-52.png
-    - store:/inbox/dehero.2025-03-25-20-31-52.1.png
+  title: Stone Flora
+  titleRu: Каменная флора
+  placement: Outdoors
+  content: store:/inbox/dehero.2025-03-25-20-31-52.1.png
+  trash: store:/inbox/dehero.2025-03-25-20-31-52.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - daedric
+    - ruin
+  mark: B1
 dehero.2025-03-25-20-43-03:
   content: store:/inbox/dehero.2025-03-25-20-43-03.png
   type: shot
