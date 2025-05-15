@@ -11,6 +11,7 @@
     - store:/news/2024-04-05-github.jpg
     - store:/news/2024-04-05-ig-github.jpg
   type: news
+  author: dehero
   posts:
     - service: tg
       id: 368

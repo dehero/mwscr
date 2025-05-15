@@ -7,7 +7,9 @@
     - store:/drawings/2022-06-25-night-pasture.png
     - store:/shots/2020-11-05-night-pasture.png
   type: redrawing
-  author: irina-bystritskaya
+  author:
+    - irina-bystritskaya
+    - dehero
   engine: OpenMW
   mark: C
   posts:
