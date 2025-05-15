@@ -1716,17 +1716,21 @@
       id: DJpOwZOv5pD
       mediaId: '17868720897367195'
       published: 2025-05-14-18-35-11
-      updated: 2025-05-15-17-16-40
+      updated: 2025-05-15-18-26-24
       followers: 1538
-      likes: 54
-      comments: !c CxWAkZPLQnltBBgSAACrZGVsYW5vc3BpZXOzV2FpdCB3aGVyZSBpcyB0aGlzPwM=
+      likes: 56
+      comments: !c |-
+        G8oAABwJ5XbKxPpxRySDhs61AhoNbzZq+2it4EUkHej7P1Ck0XQdQla5TCdHer3YDX9oRR5Zqunk
+        gDjSb0l4fJoFlmKGpRvDUJZ9QWQIQ3+XntVFUCSC3NU9OQjTyNbT/1lOBn6URxEcr7XdSQ+7ZdTu
+        +RHIjZzomaU1lp2xomU/7pJJSMdYbZeHIG8vtQubOCFXAFzsAHTwageanNQp8OUgTDp4A5NnvAVD
+        ruxM95ch7BE=
     - service: vk
       id: 2357
       published: 2025-05-14-18-35-17
-      updated: 2025-05-15-17-16-40
+      updated: 2025-05-15-18-26-23
       followers: 1295
       likes: 40
-      views: 403
+      views: 410
       reposts: 3
       comments: !c |-
         G7IA8J0FdiyeUDZoHfrAwzJCpcP/P6dGLPo1k8Mh6anNbXtZT8EWSAHnfW660oKhMH53dhWLzC1z
@@ -1735,7 +1739,7 @@
     - service: tg
       id: 844
       published: 2025-05-14-18-35-24
-      updated: 2025-05-15-17-16-40
+      updated: 2025-05-15-18-26-23
       followers: 738
       likes: 49
       views: 184
