@@ -15,6 +15,11 @@ import {
 } from 'instagram-graph-api';
 import fetch, { File, FormData } from 'node-fetch';
 import sharp from 'sharp';
+import {
+  aspectRatioFromSize,
+  getAspectRatioHeightMultiplier,
+  getLimitedAspectRatio,
+} from '../../core/entities/media.js';
 import type { Post, PostEntry } from '../../core/entities/post.js';
 import {
   createPostPublicationTags,
@@ -191,22 +196,23 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     // Connect to Instagram API
     const { ig } = await this.connect();
 
-    let maxHeightMultiplier;
-
-    switch (post.type) {
-      case 'wallpaper-v':
-        maxHeightMultiplier = 1.25;
-        break;
-      case 'wallpaper':
-        maxHeightMultiplier = 0.5625;
-        break;
-      default:
-        maxHeightMultiplier = 1;
-    }
-
     const [file] = await readResource(firstContent);
     const firstImage = sharp(file);
-    const { width = 0 } = await firstImage.metadata();
+    const firstImageMetadata = await firstImage.metadata();
+    const width = firstImageMetadata.width;
+
+    if (!width) {
+      throw new Error('Cannot get image width');
+    }
+
+    let aspectRatio = postTypeDescriptors[post.type].aspectRatio;
+    if (!aspectRatio) {
+      aspectRatio = aspectRatioFromSize(width, firstImageMetadata.height ?? 0);
+    }
+
+    const limitedAspectRatio = getLimitedAspectRatio(aspectRatio, 0.5625, 1.25);
+    const maxHeightMultiplier = getAspectRatioHeightMultiplier(limitedAspectRatio);
+
     const height = Math.floor(width * maxHeightMultiplier);
 
     const caption = await this.createCaption(entry);
@@ -215,7 +221,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
     let containerId;
 
-    if (post.type === 'redrawing' || post.type === 'shot-set') {
+    if (restContent.length > 0) {
       const children = [firstContainerId];
 
       for (const url of restContent) {
