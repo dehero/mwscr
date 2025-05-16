@@ -1,7 +1,7 @@
 import type { InferOutput } from 'valibot';
 import { intersect, number, object, variant } from 'valibot';
 import { Post, PostTitleRu } from '../entities/post.js';
-import { Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
+import { Outtakes, Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
 import { Publication } from '../entities/publication.js';
 import { checkSchema } from '../entities/schema.js';
 import type { PostingService } from '../entities/service.js';
@@ -11,7 +11,7 @@ export const VK_GROUP_ID = -138249959;
 
 export const VKPost = intersect([
   object({ ...Post.entries, titleRu: PostTitleRu }),
-  variant('type', [Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper]),
+  variant('type', [Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper, Outtakes]),
 ]);
 
 export const VKPublication = object({

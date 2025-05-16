@@ -66,3 +66,15 @@ export const test2025RedrawingMzahnch: PostEntry = [
     tags: ['dwemer', 'ruin'],
   },
 ];
+
+export const test2025OuttakesCaves: PostEntry = [
+  '2025-05-15-caves',
+  {
+    title: 'Caves',
+    titleRu: 'Пещеры',
+    type: 'outtakes',
+    author: 'dehero',
+    engine: 'OpenMW',
+    tags: ['cave'],
+  },
+];

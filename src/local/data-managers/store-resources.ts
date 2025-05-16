@@ -178,6 +178,7 @@ export async function moveResourceToStoreDir(url: string, dir: string) {
 
 export async function movePublishedPostResources([id, post]: PostEntry<PublishablePost>) {
   switch (post.type) {
+    case 'outtakes':
     case 'shot':
     case 'wallpaper':
     case 'wallpaper-v': {
@@ -186,23 +187,34 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
         throw new Error(`Unable to detect target store directory for post type "${post.type}"`);
       }
 
-      const { ext, originalUrl } = parseStoreResourceUrl(post.content);
-      const newUrl = `store:/${dir}/${id}${ext}`;
-      const { originalUrl: newOriginalUrl } = parseStoreResourceUrl(newUrl);
+      const content = asArray(post.content);
+      const newContent: ImageResourceUrl[] = [];
 
-      assertSchema(ImageResourceUrl, newUrl, (message) => `Cannot create published shot url: ${message}`);
+      for (const url of content) {
+        const { ext, originalUrl } = parseStoreResourceUrl(url);
+        const newUrl = `store:/${dir}/${id}${ext}` as string;
+        const { originalUrl: newOriginalUrl } = parseStoreResourceUrl(newUrl);
 
-      if (post.content !== RESOURCE_MISSING_IMAGE) {
-        await moveResource(post.content, newUrl);
+        assertSchema(ImageResourceUrl, newUrl, (message) => `Cannot create published shot url: ${message}`);
+
+        if (url !== RESOURCE_MISSING_IMAGE) {
+          await moveResource(url, newUrl);
+        }
+
+        if (originalUrl && newOriginalUrl && (await resourceExists(originalUrl))) {
+          // TODO: find usage for original preview (now not represented in docs)
+          await moveResource(originalUrl, newOriginalUrl);
+          post.trash = mergePostContents(asArray(post.trash).filter((url) => url !== originalUrl));
+        }
+
+        newContent.push(newUrl);
       }
 
-      if (originalUrl && newOriginalUrl && (await resourceExists(originalUrl))) {
-        // TODO: find usage for original preview (now not represented in docs)
-        await moveResource(originalUrl, newOriginalUrl);
-        post.trash = mergePostContents(asArray(post.trash).filter((url) => url !== originalUrl));
+      if (newContent.length !== content.length) {
+        throw new Error(`Unable to move all resources for post type "${post.type}"`);
       }
 
-      post.content = newUrl;
+      post.content = mergePostContents(newContent) as typeof post.content;
       break;
     }
     case 'shot-set': {
