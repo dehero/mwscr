@@ -35,7 +35,7 @@
     - service: vk
       id: 1420
       published: 2024-02-28-19-19-28
-      updated: 2025-05-09-05-19-18
+      updated: 2025-05-16-06-28-08
       followers: 894
       likes: 40
       views: 328
@@ -54,10 +54,10 @@
     - service: tg
       id: 330
       published: 2024-02-28-19-19-34
-      updated: 2025-05-09-05-19-10
+      updated: 2025-05-16-06-27-57
       followers: 338
       likes: 75
-      views: 638
+      views: 639
       comments: !c ixaAkZPLQnjfHLDigACqc3lvbWFkeW9tYbdteSBmYXZvdXJpdGUgdGcgY2hhbm5lbAM=
 2024-02-29-morning-hunt: 2017-03-30-morning-hunt
 2024-03-01-rat-in-the-pasture:
@@ -726,7 +726,7 @@
     - service: vk
       id: 1471
       published: 2024-03-27-18-11-59
-      updated: 2025-05-09-05-19-14
+      updated: 2025-05-16-06-28-05
       followers: 905
       likes: 30
       views: 276
@@ -1063,7 +1063,7 @@
     - service: vk
       id: 1489
       published: 2024-04-10-18-19-29
-      updated: 2025-05-09-05-19-12
+      updated: 2025-05-16-06-28-03
       followers: 911
       likes: 30
       views: 230
@@ -1377,7 +1377,7 @@
     - service: vk
       id: 1508
       published: 2024-04-24-18-17-29
-      updated: 2025-05-09-05-19-10
+      updated: 2025-05-16-06-28-01
       followers: 909
       likes: 31
       views: 279
@@ -1385,10 +1385,10 @@
     - service: tg
       id: 388
       published: 2024-04-24-18-17-38
-      updated: 2025-05-09-05-19-06
+      updated: 2025-05-16-06-27-54
       followers: 354
       likes: 66
-      views: 517
+      views: 518
 2024-04-25-abandoned-island: 2017-09-14-abandoned-island
 2024-04-26-winter-and-summer:
   title: Winter and Summer
@@ -1700,10 +1700,10 @@
     - service: vk
       id: 1525
       published: 2024-05-08-18-19-16
-      updated: 2025-05-09-05-19-08
+      updated: 2025-05-16-06-28-00
       followers: 913
       likes: 42
-      views: 302
+      views: 303
       reposts: 1
     - service: tg
       id: 402
@@ -2993,7 +2993,7 @@
     - service: vk
       id: 1943
       published: 2024-12-05-18-10-12
-      updated: 2025-05-09-05-19-06
+      updated: 2025-05-16-06-27-57
       followers: 1013
       likes: 63
       views: 475
@@ -3006,10 +3006,10 @@
     - service: tg
       id: 616
       published: 2024-12-05-18-10-19
-      updated: 2025-05-09-05-19-04
+      updated: 2025-05-16-06-27-52
       followers: 578
       likes: 73
-      views: 549
+      views: 550
 2024-12-06-tel-naga-great-hall:
   title: Tel Naga Great Hall
   titleRu: Большой Зал Тель Наги
@@ -3252,7 +3252,7 @@
     - service: vk
       id: 1959
       published: 2024-12-12-18-11-51
-      updated: 2025-05-09-05-19-05
+      updated: 2025-05-16-06-27-57
       followers: 1023
       likes: 45
       views: 388
@@ -3264,10 +3264,10 @@
     - service: tg
       id: 623
       published: 2024-12-12-18-11-57
-      updated: 2025-05-09-05-19-04
+      updated: 2025-05-16-06-27-51
       followers: 580
       likes: 63
-      views: 636
+      views: 637
 2024-12-13-redoran-stronghold-of-molag-mar: 2016-12-06-redoran-stronghold-of-molag-mar
 2024-12-14-gathal-llethri: 2018-11-30-gathal-llethri
 2024-12-15-aleft: 2017-01-26-aleft
@@ -3307,7 +3307,7 @@
     - service: vk
       id: 1991
       published: 2024-12-26-19-32-05
-      updated: 2025-05-09-05-19-03
+      updated: 2025-05-16-06-27-54
       followers: 1031
       likes: 57
       views: 472
@@ -3320,10 +3320,10 @@
     - service: tg
       id: 638
       published: 2024-12-26-19-32-13
-      updated: 2025-05-09-05-19-02
+      updated: 2025-05-16-06-27-50
       followers: 626
       likes: 74
-      views: 974
+      views: 976
 2024-12-27-tiny-boat:
   title: Tiny Boat
   titleRu: Маленькая лодочка
