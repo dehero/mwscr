@@ -15,13 +15,16 @@ bassyleus.2024-10-17-ruins-on-the-thirr-f007704a:
   author: bassyleus
   addon: Tamriel Rebuilt
 dehero.2024-02-05-00-02-12:
-  content: store:/inbox/dehero.2024-02-05-00-02-12.png
+  content:
+    - store:/inbox/dehero.2024-02-05-00-02-12.png
+    - store:/inbox/dehero.2024-02-05-00-02-12.1.png
   type: shot
   author: dehero
 dehero.2024-02-05-00-03-32:
   location: Beran Ancestral Tomb
   content:
     - store:/inbox/dehero.2024-02-05-00-03-32.png
+    - store:/inbox/dehero.2024-02-05-00-03-32.1.png
   type: outtakes
   author: dehero
   mark: F
