@@ -13,9 +13,22 @@ dehero.2018-01-08-falasmaryon:
     user: dehero
     text: Slide slowly between candles in Falasmaryon corridors.
 dehero.2018-09-19-22-01-03:
+  title: Cave Passages
+  titleRu: Пещерные проходы
+  placement: Indoors
   content:
-    - store:/inbox/dehero.2018-09-19-22-01-03.png
     - store:/inbox/dehero.2020-10-18-22-13-34.png
+    - store:/inbox/natty.2024-03-28-20-29-36.1.png
+    - store:/inbox/dehero.2018-09-19-22-01-03.png
+  trash:
+    - store:/inbox/natty.2024-03-28-20-29-36.png
+    - store:/inbox/natty.2024-03-28-20-28-08.png
+    - store:/inbox/natty.2024-03-28-20-27-32.png
   type: outtakes
-  author: dehero
-  mark: F
+  author:
+    - dehero
+    - natty
+  engine: OpenMW
+  tags:
+    - cave
+    - door
