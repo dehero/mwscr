@@ -2216,7 +2216,7 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2025-05-09-16-23-14
+      updated: 2025-05-16-17-15-18
       followers: 919
       likes: 32
       views: 283
@@ -2224,10 +2224,10 @@
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2025-05-09-16-23-11
+      updated: 2025-05-16-17-15-15
       followers: 391
       likes: 57
-      views: 589
+      views: 590
     - service: ig
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
@@ -3347,7 +3347,7 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2025-05-09-16-23-15
+      updated: 2025-05-16-17-15-19
       followers: 919
       likes: 49
       views: 343
@@ -3355,12 +3355,12 @@
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2025-05-09-16-23-12
+      updated: 2025-05-16-17-15-16
       followers: 387
       likes: 65
-      views: 509
+      views: 510
       comments: !c |-
-        iyeAkZPLQnkECYQ5gACxQmVybXVkYV9CaWdGYW1vdXPZMdCt0YLQviDQstGL0LPQu9GP0LTQuNGC
+        iyeAkZPLQnkECYQ5gACxQmVybXVkYV94aHJpc3RpYW7ZMdCt0YLQviDQstGL0LPQu9GP0LTQuNGC
         INGC0LDQuiDQv9GA0LXQutGA0LDRgdC90L4D
 2017-03-19-stairs-in-vansunalit-egg-mine:
   title: Stairs in Vansunalit Egg Mine
@@ -4827,17 +4827,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2025-05-09-16-23-13
+      updated: 2025-05-16-17-15-17
       followers: 920
       likes: 40
       views: 271
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2025-05-09-16-23-10
+      updated: 2025-05-16-17-15-14
       followers: 397
       likes: 62
-      views: 522
+      views: 523
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
