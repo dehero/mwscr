@@ -16,15 +16,17 @@ dehero.2018-09-19-22-01-03:
   title: Cave Passages
   titleRu: Пещерные проходы
   placement: Indoors
+  location: Beran Ancestral Tomb
   content:
-    - store:/inbox/dehero.2020-10-18-22-13-34.png
     - store:/inbox/natty.2024-03-28-20-29-36.1.png
-    - store:/inbox/dehero.2018-09-19-22-01-03.png
-    - store:/inbox/dehero.2018-09-19-22-01-03.1.png
+    - store:/inbox/dehero.2020-10-18-22-13-34.png
+    - store:/inbox/dehero.2024-02-05-00-03-32.png
   trash:
     - store:/inbox/natty.2024-03-28-20-29-36.png
     - store:/inbox/natty.2024-03-28-20-28-08.png
     - store:/inbox/natty.2024-03-28-20-27-32.png
+    - store:/inbox/dehero.2018-09-19-22-01-03.1.png
+    - store:/inbox/dehero.2018-09-19-22-01-03.png
   type: outtakes
   author:
     - dehero

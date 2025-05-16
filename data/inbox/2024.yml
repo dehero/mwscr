@@ -20,14 +20,6 @@ dehero.2024-02-05-00-02-12:
     - store:/inbox/dehero.2024-02-05-00-02-12.1.png
   type: shot
   author: dehero
-dehero.2024-02-05-00-03-32:
-  location: Beran Ancestral Tomb
-  content:
-    - store:/inbox/dehero.2024-02-05-00-03-32.png
-    - store:/inbox/dehero.2024-02-05-00-03-32.1.png
-  type: outtakes
-  author: dehero
-  mark: F
 dehero.2024-02-17-10-55-28:
   content: store:/inbox/dehero.2024-02-17-10-53-49.1.png
   trash:
@@ -55,7 +47,8 @@ dehero.2024-12-26-21-22-27:
 eklersgovnom.2024-08-06-puzzled-ashlanders:
   title: Puzzled Student
   titleRu: Озадаченный ученик
-  descriptionRu: '[Original comment on VK](https://vk.com/morrowind?w=wall-17291_162975)'
+  description: '[Original comment on VK](https://vk.com/morrowind?w=wall-17291_162975)'
+  descriptionRu: '[Оригинальный комментарий ВК](https://vk.com/morrowind?w=wall-17291_162975)'
   content:
     - store:/inbox/2024-08-06-puzzled-student.jpg
     - store:/shots/2017-12-07-puzzled-ashlanders.png
@@ -98,8 +91,10 @@ rachille.2024-06-25-dark-sanctuary-of-dark:
   title: Dark Sanctuary of Dark
   titleRu: Святилище тьмы во тьме
   description: '[Original post in Tumblr](https://rachilleart.tumblr.com/post/754270188615188480)'
+  descriptionRu: '[Оригинальный пост Tumblr](https://rachilleart.tumblr.com/post/754270188615188480)'
   content:
     - store:/inbox/2024-06-25-dark-sanctuary-of-dark.png
     - store:/shots/2018-05-09-dark-sanctuary-of-dark.png
   type: redrawing
   author: rachille
+  mark: B1
