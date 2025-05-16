@@ -1716,7 +1716,7 @@
       id: DJpOwZOv5pD
       mediaId: '17868720897367195'
       published: 2025-05-14-18-35-11
-      updated: 2025-05-16-04-23-00
+      updated: 2025-05-16-05-19-01
       followers: 1538
       likes: 59
       comments: !c |-
@@ -1727,10 +1727,10 @@
     - service: vk
       id: 2357
       published: 2025-05-14-18-35-17
-      updated: 2025-05-16-04-23-00
+      updated: 2025-05-16-05-19-00
       followers: 1295
       likes: 41
-      views: 451
+      views: 453
       reposts: 3
       comments: !c |-
         G7AA6J0FdiyeUDZoHfrAw9ARKh2qmDPGxb4N6ugokwJaIMfkOhWOhKmQuOd0Ky0YCkM/mVyeZG1u
@@ -1739,10 +1739,10 @@
     - service: tg
       id: 844
       published: 2025-05-14-18-35-24
-      updated: 2025-05-16-04-23-00
+      updated: 2025-05-16-05-19-00
       followers: 738
-      likes: 52
-      views: 213
+      likes: 53
+      views: 215
 2025-05-15-stone-flora:
   title: Stone Flora
   titleRu: Каменная флора
@@ -1760,20 +1760,20 @@
       id: DJrzZA1NH8R
       mediaId: '18077087548889753'
       published: 2025-05-15-18-33-43
-      updated: 2025-05-16-04-22-59
+      updated: 2025-05-16-05-18-59
       followers: 1537
-      likes: 37
+      likes: 41
     - service: vk
       id: 2360
       published: 2025-05-15-18-33-50
-      updated: 2025-05-16-04-22-59
+      updated: 2025-05-16-05-18-59
       followers: 1299
-      likes: 13
-      views: 109
+      likes: 14
+      views: 118
     - service: tg
       id: 845
       published: 2025-05-15-18-33-57
-      updated: 2025-05-16-04-23-00
+      updated: 2025-05-16-05-18-59
       followers: 738
-      likes: 38
-      views: 124
+      likes: 41
+      views: 129
