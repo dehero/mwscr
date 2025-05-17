@@ -3642,7 +3642,7 @@
     - service: vk
       id: 1534
       published: 2024-05-16-18-18-18
-      updated: 2025-05-10-03-03-30
+      updated: 2025-05-17-03-07-04
       followers: 915
       likes: 41
       views: 330
@@ -3654,10 +3654,10 @@
     - service: tg
       id: 410
       published: 2024-05-16-18-18-25
-      updated: 2025-05-10-03-03-29
+      updated: 2025-05-17-03-07-03
       followers: 370
       likes: 58
-      views: 502
+      views: 503
       comments: !c |-
         iyuAkpPLQnj4TMeUAACpR2F0ZW1hdGU3tXRoZSBob29kIG9mIG1vcnJvd2luZJPLQnj4K14cgACr
         Ym9icm92bmlrb3a2R29vZCBldmVuaW5nLCBldmVyeW9uZQM=
@@ -5489,7 +5489,7 @@
     - service: vk
       id: 1526
       published: 2024-05-09-18-18-25
-      updated: 2025-05-10-03-03-31
+      updated: 2025-05-17-03-07-05
       followers: 913
       likes: 39
       views: 282
@@ -5499,10 +5499,10 @@
     - service: tg
       id: 403
       published: 2024-05-09-18-18-32
-      updated: 2025-05-10-03-03-30
+      updated: 2025-05-17-03-07-04
       followers: 370
       likes: 61
-      views: 470
+      views: 471
 2018-05-19-keep-calm-and-wait-for-nerevarine:
   title: Keep Calm and Wait for Nerevarine
   titleRu: Будь спокоен и жди Нереварина
