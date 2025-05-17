@@ -1746,7 +1746,7 @@
     - service: vk
       id: 1573
       published: 2024-06-06-18-19-32
-      updated: 2025-05-10-01-23-56
+      updated: 2025-05-17-01-25-17
       followers: 916
       likes: 37
       views: 291
@@ -1754,10 +1754,10 @@
     - service: tg
       id: 431
       published: 2024-06-06-18-19-42
-      updated: 2025-05-10-01-23-54
+      updated: 2025-05-17-01-25-14
       followers: 384
       likes: 58
-      views: 457
+      views: 458
       comments: !c |-
         G7MAqIzDOBYcDMJfsWXVnFEu7zM+nl2EJSiSIlYRtkDK4Z6s8CxM6zbmuLt3ot8pEKQopxyAh1jk
         zePgrBc/w93GwLW8Hq9S0OuUJCep8edTAHdoRb4bpW3TK9WWH18eCYis7wb1NnihaQ5St7hP1MFA
@@ -5314,7 +5314,7 @@
     - service: vk
       id: 1543
       published: 2024-05-23-18-18-57
-      updated: 2025-05-10-01-23-58
+      updated: 2025-05-17-01-25-19
       followers: 917
       likes: 46
       views: 299
@@ -5325,10 +5325,10 @@
     - service: tg
       id: 417
       published: 2024-05-23-18-19-02
-      updated: 2025-05-10-01-23-56
+      updated: 2025-05-17-01-25-15
       followers: 376
       likes: 64
-      views: 515
+      views: 516
       comments: !c |-
         G2oAQCwS7JgUo4JbFLbXSSe3HeXg9+/KYQItsUDKNkr9BMBz1MmRfp5K+w5JbUUYeeQlGtudUy7B
         wLwlLaTTmQ9+z+FzUiKPXXt1ry6YlTKDt9dsp6hVlso7Yzzs571EH2zjEEa1DC64MAcA
@@ -8204,24 +8204,24 @@
       id: DFx_pEkJY6I
       mediaId: '18441845239072911'
       published: 2025-02-07-18-10-38
-      updated: 2025-05-10-01-23-48
+      updated: 2025-05-17-01-25-09
       followers: 1534
       likes: 95
       views: 340
     - service: vk
       id: 2116
       published: 2025-02-07-18-10-45
-      updated: 2025-05-10-01-23-51
+      updated: 2025-05-17-01-25-13
       followers: 1062
       likes: 47
-      views: 433
+      views: 435
     - service: tg
       id: 700
       published: 2025-02-07-18-10-54
-      updated: 2025-05-10-01-23-49
+      updated: 2025-05-17-01-25-10
       followers: 670
       likes: 62
-      views: 544
+      views: 551
 2018-07-28-sulfur-forest:
   title: Sulfur Forest
   titleRu: Серный лес
@@ -11941,10 +11941,10 @@
     - service: vk
       id: 2130
       published: 2025-02-14-18-11-33
-      updated: 2025-05-10-01-23-49
+      updated: 2025-05-17-01-25-11
       followers: 1070
       likes: 58
-      views: 674
+      views: 676
       reposts: 7
       comments: !c |-
         G/sBACwOzHO6zrBQug1T6SPj/+kvRvrW99MqZdgkFmlyLnBm7CilE7LZjL/f9kqVCnWbOZvTtnG8
@@ -13636,25 +13636,25 @@
       id: DE7_wC1PgTr
       mediaId: '18065439076892825'
       published: 2025-01-17-18-52-37
-      updated: 2025-05-10-01-23-51
+      updated: 2025-05-17-01-25-12
       followers: 1525
       likes: 92
       views: 398
     - service: vk
       id: 2069
       published: 2025-01-17-18-52-43
-      updated: 2025-05-10-01-23-53
+      updated: 2025-05-17-01-25-16
       followers: 1053
       likes: 38
-      views: 336
+      views: 338
       reposts: 1
     - service: tg
       id: 670
       published: 2025-01-17-18-52-49
-      updated: 2025-05-10-01-23-52
+      updated: 2025-05-17-01-25-12
       followers: 655
       likes: 63
-      views: 533
+      views: 536
 2018-12-04-rocks-and-fir-trees:
   title: Rocks and Firtrees
   titleRu: Скалы и ели
