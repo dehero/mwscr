@@ -269,18 +269,18 @@
     - service: vk
       id: 2105
       published: 2025-02-01-18-09-25
-      updated: 2025-05-11-06-25-25
+      updated: 2025-05-18-18-14-18
       followers: 1059
       likes: 40
-      views: 451
+      views: 453
       reposts: 3
     - service: tg
       id: 691
       published: 2025-02-01-18-09-32
-      updated: 2025-05-11-06-25-21
+      updated: 2025-05-18-18-14-09
       followers: 662
       likes: 68
-      views: 608
+      views: 614
 2025-02-02-heran-ancestral-tomb: 2017-06-25-heran-ancestral-tomb
 2025-02-03-tree-stone: 2017-04-16-tree-stone
 2025-02-04-corpse-preparation-volume-one: 2017-07-13-corpse-preparation-volume-one
@@ -511,17 +511,17 @@
     - service: vk
       id: 2195
       published: 2025-03-15-18-10-23
-      updated: 2025-05-11-06-25-19
+      updated: 2025-05-18-18-14-12
       followers: 1187
       likes: 61
-      views: 478
+      views: 482
     - service: tg
       id: 748
       published: 2025-03-15-18-10-30
-      updated: 2025-05-11-06-25-17
+      updated: 2025-05-18-18-14-05
       followers: 705
       likes: 59
-      views: 515
+      views: 522
 2025-03-16-passage-to-the-north:
   title: Passage to the North
   titleRu: Проход на север
@@ -770,11 +770,11 @@
     - service: vk
       id: 2217
       published: 2025-03-22-18-10-15
-      updated: 2025-05-11-06-25-18
+      updated: 2025-05-18-18-14-11
       followers: 1202
       likes: 48
-      views: 418
-      reposts: 1
+      views: 423
+      reposts: 2
       comments: !c |-
         G6QA4J0HdizyAotV1mcQT/i3CG9x+1RmYRJggi2xSJN3QW1zmXahXcSPSP4EN1nu5ATfTMrsmxmc
         7LABB+4ZJDAI7Pz9itlynu7n07Xv/Ht6z2PdmLxC+mFpSEFrK2u6pTfioPRdPBBiqgNXE3sUiyho
@@ -782,10 +782,10 @@
     - service: tg
       id: 758
       published: 2025-03-22-18-10-23
-      updated: 2025-05-11-06-25-17
+      updated: 2025-05-18-18-14-04
       followers: 708
       likes: 62
-      views: 658
+      views: 667
       comments: !c iw6AkZPLQnldJXDDgACpTWF4VXBzaGVyqEdvIExlZnQuAw==
 2025-03-23-avus-belvilo:
   title: Avus Belvilo
@@ -941,17 +941,17 @@
     - service: vk
       id: 2241
       published: 2025-03-29-18-19-18
-      updated: 2025-05-11-06-25-17
+      updated: 2025-05-18-18-14-10
       followers: 1217
       likes: 53
-      views: 378
+      views: 382
     - service: tg
       id: 769
       published: 2025-03-29-18-19-24
-      updated: 2025-05-11-06-25-16
+      updated: 2025-05-18-18-14-04
       followers: 710
       likes: 61
-      views: 479
+      views: 492
 2025-03-30-frozen-water-stone:
   title: Frozen Water Stone
   titleRu: Камень Замороженной Воды
@@ -1101,18 +1101,18 @@
     - service: vk
       id: 2256
       published: 2025-04-05-19-41-10
-      updated: 2025-05-11-06-25-16
+      updated: 2025-05-18-18-14-09
       followers: 1231
       likes: 75
-      views: 786
+      views: 798
       reposts: 5
     - service: tg
       id: 781
       published: 2025-04-05-19-41-19
-      updated: 2025-05-11-06-25-16
+      updated: 2025-05-18-18-14-04
       followers: 716
-      likes: 65
-      views: 479
+      likes: 67
+      views: 496
 2025-04-06-deadly-attack: 2020-05-21-deadly-attack
 2025-04-07-peeping:
   title: Peeping
@@ -1534,24 +1534,24 @@
       id: DI620bCz9HG
       mediaId: '17965778672882734'
       published: 2025-04-26-18-21-00
-      updated: 2025-05-10-20-18-54
+      updated: 2025-05-18-18-14-04
       followers: 1530
       likes: 102
     - service: vk
       id: 2307
       published: 2025-04-26-18-21-00
-      updated: 2025-05-10-20-18-54
+      updated: 2025-05-18-18-14-06
       followers: 1274
       likes: 66
-      views: 439
+      views: 455
       reposts: 3
     - service: tg
       id: 816
       published: 2025-04-26-20-01-00
-      updated: 2025-05-10-23-16-41
+      updated: 2025-05-18-18-14-01
       followers: 725
-      likes: 67
-      views: 497
+      likes: 70
+      views: 537
       comments: !c |-
         G/wAgIyTXPt4M0KS2f851wi/jUZ7XjYfSCRV2AaaFxF8gFE83Dv7dXsP/7nTAwwD4v8qbK2Aj6Lk
         lgagpaJxgdzRr88rU5wx0XdRvvjUYN0JYiPaqu21Y9GUAjJUdAFi6ZCWhguoNynlP5gBmVbwQfI0
@@ -1716,9 +1716,9 @@
       id: DJpOwZOv5pD
       mediaId: '17868720897367195'
       published: 2025-05-14-18-35-11
-      updated: 2025-05-16-18-25-46
+      updated: 2025-05-18-18-13-58
       followers: 1538
-      likes: 63
+      likes: 68
       comments: !c |-
         G8oAABwJ5XbKxPpxRySDhs61AhoNbzZq+2it4EUkHej7P1Ck0XQdQla5TCdHer3YDX9oRR5Zqunk
         gDjSb0l4fJoFlmKGpRvDUJZ9QWQIQ3+XntVFUCSC3NU9OQjTyNbT/1lOBn6URxEcr7XdSQ+7ZdTu
@@ -1727,10 +1727,10 @@
     - service: vk
       id: 2357
       published: 2025-05-14-18-35-17
-      updated: 2025-05-16-18-25-44
+      updated: 2025-05-18-18-13-59
       followers: 1295
-      likes: 42
-      views: 511
+      likes: 47
+      views: 606
       reposts: 3
       comments: !c |-
         G7AA6J0FdiyeUDZoHfrAw9ARKh2qmDPGxb4N6ugokwJaIMfkOhWOhKmQuOd0Ky0YCkM/mVyeZG1u
@@ -1739,10 +1739,10 @@
     - service: tg
       id: 844
       published: 2025-05-14-18-35-24
-      updated: 2025-05-16-18-25-45
+      updated: 2025-05-18-18-13-57
       followers: 738
-      likes: 54
-      views: 226
+      likes: 59
+      views: 297
 2025-05-15-stone-flora:
   title: Stone Flora
   titleRu: Каменная флора
@@ -1760,23 +1760,23 @@
       id: DJrzZA1NH8R
       mediaId: '18077087548889753'
       published: 2025-05-15-18-33-43
-      updated: 2025-05-17-17-14-50
+      updated: 2025-05-18-18-13-56
       followers: 1537
-      likes: 56
+      likes: 60
     - service: vk
       id: 2360
       published: 2025-05-15-18-33-50
-      updated: 2025-05-17-17-14-50
+      updated: 2025-05-18-18-13-58
       followers: 1299
-      likes: 25
-      views: 227
+      likes: 30
+      views: 262
     - service: tg
       id: 845
       published: 2025-05-15-18-33-57
-      updated: 2025-05-17-17-14-50
+      updated: 2025-05-18-18-13-56
       followers: 738
-      likes: 55
-      views: 230
+      likes: 57
+      views: 257
 2025-05-16-on-the-balcony-at-night:
   title: On the Balcony at Night
   titleRu: Ночью на балконе
@@ -1796,22 +1796,24 @@
     - service: vk
       id: 2361
       published: 2025-05-16-19-04-32
-      updated: 2025-05-17-17-14-49
+      updated: 2025-05-18-18-13-57
       followers: 1298
-      likes: 39
-      views: 232
+      likes: 49
+      views: 307
+      comments: !c ixmAkZPLQnluA24JgACraWQ4ODkyMjI5OTm80KLQsNC60YHQuCDQstGL0LfRi9Cy0LDQu9C4PwM=
     - service: tg
       id: 846
       published: 2025-05-16-19-04-36
-      updated: 2025-05-17-17-14-49
+      updated: 2025-05-18-18-13-56
       followers: 738
-      likes: 53
-      views: 184
+      likes: 56
+      views: 234
     - service: ig
       id: DJub-ccJoIM
       mediaId: '18125693140432838'
       published: 2025-05-16-19-06-54
-      updated: 2025-05-17-17-14-50
+      updated: 2025-05-18-18-13-56
       followers: 1537
-      likes: 74
+      likes: 94
 2025-05-17-skaal-circle: 2019-10-21-skaal-circle
+2025-05-18-moon-and-stars: 2017-04-15-moon-and-stars

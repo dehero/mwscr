@@ -665,17 +665,17 @@
     - service: vk
       id: 2119
       published: 2025-02-08-18-09-23
-      updated: 2025-05-11-06-25-24
+      updated: 2025-05-18-18-14-17
       followers: 1062
       likes: 38
-      views: 378
+      views: 380
     - service: tg
       id: 701
       published: 2025-02-08-18-09-32
-      updated: 2025-05-11-06-25-21
+      updated: 2025-05-18-18-14-09
       followers: 672
       likes: 53
-      views: 515
+      views: 522
 2019-02-24-mehrunes-dagon-and-his-worshiper:
   title: Mehrunes Dagon and His Worshiper
   titleRu: Мехрун Дагон и его идолопоклонник
@@ -2148,18 +2148,18 @@
     - service: vk
       id: 2086
       published: 2025-01-25-18-09-30
-      updated: 2025-05-11-06-25-26
+      updated: 2025-05-18-18-14-19
       followers: 1054
       likes: 33
-      views: 318
+      views: 320
       reposts: 1
     - service: tg
       id: 681
       published: 2025-01-25-18-09-38
-      updated: 2025-05-11-06-25-22
+      updated: 2025-05-18-18-14-10
       followers: 658
       likes: 63
-      views: 544
+      views: 549
 2019-10-21-skaal-circle:
   title: Skaal Circle
   titleRu: Круг Скаалов
@@ -2206,15 +2206,27 @@
       id: DJw73hzz0MB
       mediaId: '18133230601416067'
       published: 2025-05-17-18-24-00
+      updated: 2025-05-18-18-13-55
       followers: 1536
+      likes: 55
     - service: vk
       id: 2362
       published: 2025-05-17-18-24-00
+      updated: 2025-05-18-18-13-56
       followers: 1300
+      likes: 42
+      views: 259
+      reposts: 2
+      comments: !c |-
+        G28A+I3DOBYcmpuZYgv+v10f4dPwO1PmSZIn2CQYYXIuLuzTU8wTybTSIODAgrf6v/1NijBIoaXZ
+        weefgwz2ebimXz+7O3qA0nLMoX5EcEiSKzOGNiklSZQ1VGSU4YWhjS+X8ti/AQ==
     - service: tg
       id: 847
       published: 2025-05-17-19-13-22
+      updated: 2025-05-18-18-13-56
       followers: 737
+      likes: 49
+      views: 165
 2019-10-22-the-wind-is-getting-stronger:
   title: The Wind Is Getting Stronger
   titleRu: Ветер крепчает
@@ -2268,18 +2280,18 @@
     - service: tg
       id: 671
       published: 2025-01-18-18-09-39
-      updated: 2025-05-11-06-25-22
+      updated: 2025-05-18-18-14-10
       followers: 655
       likes: 65
-      views: 635
+      views: 638
       comments: !c Cw+AkZPLQnlH1o6RgACnbWxlbm5pY6tsb3MgYW5nZWxlcwM=
     - service: vk
       id: 2070
       published: 2025-01-18-19-01-37
-      updated: 2025-05-11-06-25-28
+      updated: 2025-05-18-18-14-19
       followers: 1054
       likes: 41
-      views: 351
+      views: 353
       comments: !c |-
         G24A+I3UTjccqT345/9U0i8YDgUkxz9mrQ4bYwqUbN6HrVA/GSqlyIJQ7O6NlgQgj1qSAbAQUNof
         H27X+6EDcK9i27JBZbtRkH59eLIBUw/RCDG8BiylKaclbTTWEOdJQn0NUILLUUZD9c2f9ivchg==
