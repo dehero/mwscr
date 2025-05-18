@@ -4560,24 +4560,25 @@
       id: DJzfrg7uEpm
       mediaId: '18144753580380531'
       published: 2025-05-18-18-15-26
-      updated: 2025-05-18-21-10-44
+      updated: 2025-05-18-22-11-17
       followers: 1536
-      likes: 61
+      likes: 63
     - service: vk
       id: 2366
       published: 2025-05-18-18-15-33
-      updated: 2025-05-18-21-10-44
+      updated: 2025-05-18-22-11-17
       followers: 1300
-      likes: 23
-      views: 103
+      likes: 25
+      views: 116
+      reposts: 1
       comments: !c CxiAkZPLQnluUf5XgAC0ZmlsYXZhbmRyZWxfb2ZmaWNpYWyw0LTRg9GI0LXQstC90L7QtQM=
     - service: tg
       id: 848
       published: 2025-05-18-18-15-38
-      updated: 2025-05-18-21-10-45
+      updated: 2025-05-18-22-11-18
       followers: 737
-      likes: 36
-      views: 161
+      likes: 39
+      views: 172
 2017-04-16-tree-stone:
   title: Tree Stone
   titleRu: Камень дерева
@@ -5078,7 +5079,7 @@
     - service: vk
       id: 1575
       published: 2024-06-08-18-18-38
-      updated: 2025-05-11-21-16-30
+      updated: 2025-05-18-22-11-26
       followers: 916
       likes: 36
       views: 322
@@ -5086,10 +5087,10 @@
     - service: tg
       id: 433
       published: 2024-06-08-18-18-44
-      updated: 2025-05-11-21-16-26
+      updated: 2025-05-18-22-11-21
       followers: 384
       likes: 55
-      views: 477
+      views: 478
 2017-04-28-gloomy-barrow:
   title: Gloomy Barrow
   titleRu: Мрачный курган
@@ -5502,7 +5503,7 @@
     - service: vk
       id: 1658
       published: 2024-07-27-18-20-23
-      updated: 2025-05-11-21-16-28
+      updated: 2025-05-18-22-11-24
       followers: 923
       likes: 34
       views: 302
@@ -5510,10 +5511,10 @@
     - service: tg
       id: 482
       published: 2024-07-27-18-20-29
-      updated: 2025-05-11-21-16-25
+      updated: 2025-05-18-22-11-19
       followers: 401
       likes: 57
-      views: 635
+      views: 637
       comments: !c |-
         G/kAgByHcSyxjmBicU1/f/MRp4m1cSwu4M4/WGtxG2Qs22JRFvd/NwML9D8P80ADvTEWSuinVRma
         Tk40MH47SAuowMKQIo6zdIfPHSOmprQ+rncT67T+DEEpGYRvZb4nHr7OCgLfhTugNQLOoXtlQt+4
@@ -10569,11 +10570,11 @@
     - service: vk
       id: 2274
       published: 2025-04-13-18-20-14
-      updated: 2025-05-11-21-16-24
+      updated: 2025-05-18-22-11-20
       followers: 1253
       likes: 65
-      views: 525
-      reposts: 4
+      views: 531
+      reposts: 5
       comments: !c |-
         G7IBKCwKbGNj6LChUY9CT31bGMWXEY9/Ilb0pfaT/mRYm8HaLKOBDnQw0MkIJ/dcua2EaKiGhmzc
         8OcjhO3CIXdRiFm2/aS7ugZhKoGVOTLZiSb3a8sD9i7rLqhI8w80wIBG3pAGjNOTBaFTno5sQ1R8
