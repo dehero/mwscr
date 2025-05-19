@@ -81,7 +81,10 @@ ohsweetnazareth.2025-05-02-keenings-respite-b6ff886e:
 ohsweetnazareth.2025-05-09-mans-best-friend-343f0ab1:
   title: Man's Best Friend
   location: Ascadian Isles Region
-  content: store:/inbox/ohsweetnazareth.2025-05-09-mans-best-friend-343f0ab1.png
+  content:
+    - store:/inbox/ohsweetnazareth.2025-05-09-mans-best-friend-343f0ab1.png
+    - store:/inbox/ohsweetnazareth.2025-05-09-mans-best-friend-343f0ab1.1.png
+    - store:/inbox/ohsweetnazareth.2025-05-09-mans-best-friend-65431301.1.png
   trash:
     - store:/inbox/ohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d.png
     - store:/inbox/ohsweetnazareth.2025-05-09-mans-best-friend-5aa8bc58.png
