@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.58.2](https://github.com/dehero/mwscr/compare/v1.58.1...v1.58.2) (2025-05-19)
+
+### Continuous Integration
+
+- don't display server folder list
+  ([7c3052b](https://github.com/dehero/mwscr/commit/7c3052b3071be1362a6f3b536795708a0ff7fc5f))
+
 ## [1.58.1](https://github.com/dehero/mwscr/compare/v1.58.0...v1.58.1) (2025-05-19)
 
 ### Continuous Integration
