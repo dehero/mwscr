@@ -2177,10 +2177,10 @@
     - service: tg
       id: 440
       published: 2024-06-15-18-19-53
-      updated: 2025-05-12-01-38-37
+      updated: 2025-05-19-03-13-56
       followers: 386
       likes: 71
-      views: 554
+      views: 555
       comments: !c |-
         G4UAMIyUbsJ8hEqHKubMRNgI8zLQCk3jK3ynCtEFbIGEAbI1GvdkQaczwiIUDk9IZsbpYQNONEAY
         KOIBaKTzAySolKz29vAqz11fx9h5lHZrUK8+ic5jaWEf5I/e4bU9HdYG/wqpRKliYACbEsQgxRxC
@@ -2877,18 +2877,18 @@
     - service: vk
       id: 2133
       published: 2025-02-16-18-09-34
-      updated: 2025-05-12-03-13-40
+      updated: 2025-05-19-03-13-50
       followers: 1071
       likes: 45
-      views: 485
+      views: 486
       reposts: 4
     - service: tg
       id: 712
       published: 2025-02-16-18-09-40
-      updated: 2025-05-12-03-13-40
+      updated: 2025-05-19-03-13-49
       followers: 677
       likes: 74
-      views: 692
+      views: 699
       comments: !c |-
         C0KAkpPLQnlSitoxgACvQWxleGV5IFN0ZXBhbm92pPCfjJ2Ty0J5UP+7EgAAq2FhcnljaGFnb2Zm
         2U3Qk9C70LDQstC90L7QtSAtINC90LUg0L/Rg9GC0LDRgtGMINCd0YfRg9GA0LTQsNC80YYg0Lgg
@@ -4560,25 +4560,25 @@
       id: DJzfrg7uEpm
       mediaId: '18144753580380531'
       published: 2025-05-18-18-15-26
-      updated: 2025-05-19-01-03-49
+      updated: 2025-05-19-03-13-42
       followers: 1536
-      likes: 68
+      likes: 79
     - service: vk
       id: 2366
       published: 2025-05-18-18-15-33
-      updated: 2025-05-19-01-03-50
+      updated: 2025-05-19-03-13-43
       followers: 1300
-      likes: 26
-      views: 128
+      likes: 30
+      views: 143
       reposts: 1
       comments: !c CxiAkZPLQnluUf5XgAC0ZmlsYXZhbmRyZWxfb2ZmaWNpYWyw0LTRg9GI0LXQstC90L7QtQM=
     - service: tg
       id: 848
       published: 2025-05-18-18-15-38
-      updated: 2025-05-19-01-03-50
+      updated: 2025-05-19-03-13-44
       followers: 737
-      likes: 40
-      views: 187
+      likes: 42
+      views: 195
 2017-04-16-tree-stone:
   title: Tree Stone
   titleRu: Камень дерева
@@ -7098,10 +7098,10 @@
     - service: tg
       id: 447
       published: 2024-06-22-18-18-57
-      updated: 2025-05-12-01-38-36
+      updated: 2025-05-19-03-13-55
       followers: 387
       likes: 60
-      views: 503
+      views: 504
 2017-06-18-manse-andus-behind-the-bar:
   title: Manse Andus Behind the Bar
   titleRu: Манс Андус за барной стойкой
@@ -7412,10 +7412,10 @@
     - service: tg
       id: 692
       published: 2025-02-02-18-09-19
-      updated: 2025-05-12-03-13-41
+      updated: 2025-05-19-03-13-50
       followers: 662
       likes: 69
-      views: 697
+      views: 703
 2017-06-26-floating-over-the-green-hills:
   title: Floating Over the Green Hills
   titleRu: Паря над зелёными холмами
@@ -8705,18 +8705,18 @@
     - service: vk
       id: 2146
       published: 2025-02-23-18-09-28
-      updated: 2025-05-12-01-38-36
+      updated: 2025-05-19-03-13-49
       followers: 1123
       likes: 31
-      views: 412
+      views: 413
       reposts: 1
     - service: tg
       id: 722
       published: 2025-02-23-18-09-36
-      updated: 2025-05-12-01-38-33
+      updated: 2025-05-19-03-13-48
       followers: 683
       likes: 53
-      views: 666
+      views: 671
 2017-07-29-near-berandas:
   title: Near Berandas
   titleRu: У Берандаса
@@ -14039,7 +14039,7 @@
     - service: vk
       id: 1616
       published: 2024-07-06-18-18-40
-      updated: 2025-05-12-01-38-39
+      updated: 2025-05-19-03-13-53
       followers: 919
       likes: 50
       views: 300
@@ -14056,10 +14056,10 @@
     - service: tg
       id: 461
       published: 2024-07-06-18-18-45
-      updated: 2025-05-12-01-38-35
+      updated: 2025-05-19-03-13-53
       followers: 393
       likes: 59
-      views: 489
+      views: 490
     - service: ig
       id: C9StBG6pd7s
       mediaId: '18023598689200233'
