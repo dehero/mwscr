@@ -95,9 +95,9 @@ jobs:
           EXCLUDE: '/store/, /uploads/'
           SCRIPT_BEFORE: |
             whoami
-            ls -al
+            ls -al > /dev/null
           SCRIPT_AFTER: |
             whoami
-            ls -al
-            echo $RSYNC_STDOUT    # Print rsync output
+            ls -al > /dev/null
+            echo $RSYNC_STDOUT
             exit
