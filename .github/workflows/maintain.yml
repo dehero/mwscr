@@ -93,4 +93,11 @@ jobs:
           REMOTE_USER: ${{ env.SITE_SSH_USER }}
           TARGET: ${{ env.SITE_SSH_PATH }}
           EXCLUDE: '/store/, /uploads/'
-          SCRIPT_BEFORE: 'ls>/dev/null'
+          SCRIPT_BEFORE: |
+            whoami
+            ls -al
+          SCRIPT_AFTER: |
+            whoami
+            ls -al
+            echo $RSYNC_STDOUT    # Print rsync output
+            exit
