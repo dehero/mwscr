@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.58.1](https://github.com/dehero/mwscr/compare/v1.58.0...v1.58.1) (2025-05-19)
+
+### Continuous Integration
+
+- add additional before and after scripts for SSH deploy
+  ([6e44e68](https://github.com/dehero/mwscr/commit/6e44e6814ba740752ff495cf5b015ea52f317d03))
+
 ## [1.58.0](https://github.com/dehero/mwscr/compare/v1.57.0...v1.58.0) (2025-05-14)
 
 ### Features
