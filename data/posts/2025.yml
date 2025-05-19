@@ -1717,9 +1717,9 @@
       id: DJpOwZOv5pD
       mediaId: '17868720897367195'
       published: 2025-05-14-18-35-11
-      updated: 2025-05-18-18-13-58
+      updated: 2025-05-19-18-18-06
       followers: 1538
-      likes: 68
+      likes: 69
       comments: !c |-
         G8oAABwJ5XbKxPpxRySDhs61AhoNbzZq+2it4EUkHej7P1Ck0XQdQla5TCdHer3YDX9oRR5Zqunk
         gDjSb0l4fJoFlmKGpRvDUJZ9QWQIQ3+XntVFUCSC3NU9OQjTyNbT/1lOBn6URxEcr7XdSQ+7ZdTu
@@ -1728,10 +1728,10 @@
     - service: vk
       id: 2357
       published: 2025-05-14-18-35-17
-      updated: 2025-05-18-18-13-59
+      updated: 2025-05-19-18-18-05
       followers: 1295
-      likes: 47
-      views: 606
+      likes: 50
+      views: 661
       reposts: 3
       comments: !c |-
         G7AA6J0FdiyeUDZoHfrAw9ARKh2qmDPGxb4N6ugokwJaIMfkOhWOhKmQuOd0Ky0YCkM/mVyeZG1u
@@ -1740,10 +1740,10 @@
     - service: tg
       id: 844
       published: 2025-05-14-18-35-24
-      updated: 2025-05-18-18-13-57
+      updated: 2025-05-19-18-18-04
       followers: 738
-      likes: 59
-      views: 297
+      likes: 60
+      views: 322
 2025-05-15-stone-flora:
   title: Stone Flora
   titleRu: Каменная флора
@@ -1761,23 +1761,23 @@
       id: DJrzZA1NH8R
       mediaId: '18077087548889753'
       published: 2025-05-15-18-33-43
-      updated: 2025-05-18-18-13-56
+      updated: 2025-05-19-18-18-04
       followers: 1537
-      likes: 60
+      likes: 62
     - service: vk
       id: 2360
       published: 2025-05-15-18-33-50
-      updated: 2025-05-18-18-13-58
+      updated: 2025-05-19-18-18-04
       followers: 1299
-      likes: 30
-      views: 262
+      likes: 31
+      views: 280
     - service: tg
       id: 845
       published: 2025-05-15-18-33-57
-      updated: 2025-05-18-18-13-56
+      updated: 2025-05-19-18-18-03
       followers: 738
-      likes: 57
-      views: 257
+      likes: 59
+      views: 297
 2025-05-16-on-the-balcony-at-night:
   title: On the Balcony at Night
   titleRu: Ночью на балконе
@@ -1797,24 +1797,24 @@
     - service: vk
       id: 2361
       published: 2025-05-16-19-04-32
-      updated: 2025-05-18-18-13-57
+      updated: 2025-05-19-18-18-03
       followers: 1298
-      likes: 49
-      views: 307
+      likes: 54
+      views: 342
       comments: !c ixmAkZPLQnluA24JgACraWQ4ODkyMjI5OTm80KLQsNC60YHQuCDQstGL0LfRi9Cy0LDQu9C4PwM=
     - service: tg
       id: 846
       published: 2025-05-16-19-04-36
-      updated: 2025-05-18-18-13-56
+      updated: 2025-05-19-18-18-03
       followers: 738
-      likes: 56
-      views: 234
+      likes: 61
+      views: 269
     - service: ig
       id: DJub-ccJoIM
       mediaId: '18125693140432838'
       published: 2025-05-16-19-06-54
-      updated: 2025-05-18-18-13-56
+      updated: 2025-05-19-18-18-03
       followers: 1537
-      likes: 94
+      likes: 99
 2025-05-17-skaal-circle: 2019-10-21-skaal-circle
 2025-05-18-moon-and-stars: 2017-04-15-moon-and-stars
