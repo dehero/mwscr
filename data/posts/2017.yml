@@ -1012,7 +1012,7 @@
     - service: vk
       id: 1963
       published: 2024-12-15-18-10-25
-      updated: 2025-05-12-07-19-29
+      updated: 2025-05-19-08-19-10
       followers: 1027
       likes: 56
       views: 471
@@ -2531,7 +2531,7 @@
     - service: vk
       id: 1454
       published: 2024-03-16-18-10-42
-      updated: 2025-05-12-07-19-43
+      updated: 2025-05-19-08-19-24
       followers: 896
       likes: 37
       views: 296
@@ -2539,10 +2539,10 @@
     - service: tg
       id: 348
       published: 2024-03-16-18-10-49
-      updated: 2025-05-12-07-19-35
+      updated: 2025-05-19-08-19-17
       followers: 353
       likes: 55
-      views: 462
+      views: 463
 2017-03-02-tel-vos:
   title: Tel Vos
   titleRu: Тель Вос
@@ -4560,25 +4560,25 @@
       id: DJzfrg7uEpm
       mediaId: '18144753580380531'
       published: 2025-05-18-18-15-26
-      updated: 2025-05-19-07-13-32
+      updated: 2025-05-19-08-19-06
       followers: 1536
-      likes: 84
+      likes: 85
     - service: vk
       id: 2366
       published: 2025-05-18-18-15-33
-      updated: 2025-05-19-07-13-33
+      updated: 2025-05-19-08-19-06
       followers: 1300
-      likes: 37
-      views: 196
+      likes: 39
+      views: 210
       reposts: 2
       comments: !c CxiAkZPLQnluUf5XgAC0ZmlsYXZhbmRyZWxfb2ZmaWNpYWyw0LTRg9GI0LXQstC90L7QtQM=
     - service: tg
       id: 848
       published: 2025-05-18-18-15-38
-      updated: 2025-05-19-07-13-33
+      updated: 2025-05-19-08-19-07
       followers: 737
-      likes: 50
-      views: 227
+      likes: 51
+      views: 236
 2017-04-16-tree-stone:
   title: Tree Stone
   titleRu: Камень дерева
@@ -4935,7 +4935,7 @@
     - service: vk
       id: 1919
       published: 2024-11-24-18-09-24
-      updated: 2025-05-12-07-19-32
+      updated: 2025-05-19-08-19-13
       followers: 1008
       likes: 38
       views: 343
@@ -10040,15 +10040,15 @@
     - service: tg
       id: 405
       published: 2024-05-11-18-18-01
-      updated: 2025-05-12-07-19-29
+      updated: 2025-05-19-08-19-11
       followers: 371
       likes: 68
-      views: 518
+      views: 519
       comments: !c ixmAkZPLQnj2j4vXgACuc3Rhc3lham95c3RpY2u50L7Rh9C10L3RjCDQutGA0LDRgdC40LLQvgM=
     - service: vk
       id: 1529
       published: 2024-05-11-19-11-21
-      updated: 2025-05-12-07-19-37
+      updated: 2025-05-19-08-19-18
       followers: 915
       likes: 41
       views: 291
