@@ -1818,3 +1818,29 @@
       likes: 99
 2025-05-17-skaal-circle: 2019-10-21-skaal-circle
 2025-05-18-moon-and-stars: 2017-04-15-moon-and-stars
+2025-05-19-entrance-control:
+  title: Entrance Control
+  titleRu: Контроль входа
+  placement: Indoors
+  location: Ministry of Truth, Holding Cells
+  content: store:/shots/2025-05-19-entrance-control.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - cave
+  mark: B1
+  posts:
+    - service: vk
+      id: 2368
+      published: 2025-05-16-19-06-00
+      followers: 1302
+    - service: tg
+      id: 849
+      published: 2025-05-19-19-10-00
+      followers: 737
+    - service: ig
+      id: DJ2KWFrP9qY
+      mediaId: '18075948961895723'
+      published: 2025-05-19-19-06-00
+      followers: 1535
