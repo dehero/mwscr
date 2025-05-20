@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.58.3](https://github.com/dehero/mwscr/compare/v1.58.2...v1.58.3) (2025-05-20)
+
+### Bug Fixes
+
+- enable Telegram connection logging to debug publishing
+  ([f182547](https://github.com/dehero/mwscr/commit/f182547ac4d888466855f4c4ba8984baa0fc02a7))
+
 ## [1.58.2](https://github.com/dehero/mwscr/compare/v1.58.1...v1.58.2) (2025-05-19)
 
 ### Continuous Integration
