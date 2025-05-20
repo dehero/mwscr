@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.58.4](https://github.com/dehero/mwscr/compare/v1.58.3...v1.58.4) (2025-05-20)
+
+### Bug Fixes
+
+- set debug log level for Telegram
+  ([6ea2f78](https://github.com/dehero/mwscr/commit/6ea2f786d13df6d328c7901eaf4f678d5666c22e))
+
 ## [1.58.3](https://github.com/dehero/mwscr/compare/v1.58.2...v1.58.3) (2025-05-20)
 
 ### Bug Fixes
