@@ -1,8 +1,11 @@
 import 'dotenv/config';
 import { createInterface } from 'readline';
 import { Api, TelegramClient } from 'telegram';
-// eslint-disable-next-line import/extensions
-import { Logger, LogLevel } from 'telegram/extensions/Logger.js';
+import {
+  // Logger,
+  LogLevel,
+  // eslint-disable-next-line import/extensions
+} from 'telegram/extensions/Logger.js';
 // eslint-disable-next-line import/extensions
 import { StringSession } from 'telegram/sessions/index.js';
 import type { Post, PostEntry } from '../../core/entities/post.js';
@@ -46,7 +49,10 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
         new StringSession(TELEGRAM_SESSION || ''),
         Number(TELEGRAM_API_APP_ID),
         TELEGRAM_API_APP_HASH,
-        { connectionRetries: 5, baseLogger: new Logger(LogLevel.NONE) },
+        {
+          connectionRetries: 5,
+          //  baseLogger: new Logger(LogLevel.NONE)
+        },
       );
 
       this.tg.setLogLevel(LogLevel.NONE);
