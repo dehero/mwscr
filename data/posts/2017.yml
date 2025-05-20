@@ -11305,10 +11305,10 @@
     - service: vk
       id: 2319
       published: 2025-04-29-18-24-00
-      updated: 2025-05-13-20-21-27
+      updated: 2025-05-20-20-25-11
       followers: 1274
       likes: 55
-      views: 400
+      views: 411
       comments: !c |-
         G9cDACwOTLxuijF6eBLvRjT+dUPCSCbzGPXIJcuEnUM5luA0IDQhWIzD9JxFlwtnhHyhdvfCpbSs
         jJD8z7k20iTYnqfgwPdrlRp5d35gB5qDN+OI9y5B/B9DIH3BJVaVx3d1pt7EYocnEJJoDHd3ArJH
@@ -11323,10 +11323,10 @@
     - service: tg
       id: 822
       published: 2025-04-29-18-30-21
-      updated: 2025-05-13-20-21-26
+      updated: 2025-05-20-20-25-11
       followers: 728
-      likes: 56
-      views: 432
+      likes: 58
+      views: 470
 2017-10-04-in-the-evening-time:
   title: In the Evening Time
   titleRu: В вечерний час
