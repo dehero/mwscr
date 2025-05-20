@@ -1218,17 +1218,17 @@
     - service: vk
       id: 1814
       published: 2024-10-07-18-10-38
-      updated: 2025-05-13-16-24-58
+      updated: 2025-05-20-16-28-37
       followers: 958
       likes: 42
-      views: 332
+      views: 333
     - service: tg
       id: 557
       published: 2024-10-07-18-10-45
-      updated: 2025-05-13-16-24-54
+      updated: 2025-05-20-16-28-36
       followers: 559
       likes: 62
-      views: 507
+      views: 508
 2017-01-31-clear-sky-over-caldera:
   title: Clear Sky Over Caldera
   titleRu: Чистое небо над Кальдерой
@@ -4560,22 +4560,22 @@
       id: DJzfrg7uEpm
       mediaId: '18144753580380531'
       published: 2025-05-18-18-15-26
-      updated: 2025-05-20-15-24-45
+      updated: 2025-05-20-16-28-34
       followers: 1536
-      likes: 107
+      likes: 108
     - service: vk
       id: 2366
       published: 2025-05-18-18-15-33
-      updated: 2025-05-20-15-24-45
+      updated: 2025-05-20-16-28-33
       followers: 1300
-      likes: 57
-      views: 326
+      likes: 58
+      views: 328
       reposts: 2
       comments: !c CxiAkZPLQnluUf5XgAC0ZmlsYXZhbmRyZWxfb2ZmaWNpYWyw0LTRg9GI0LXQstC90L7QtQM=
     - service: tg
       id: 848
       published: 2025-05-18-18-15-38
-      updated: 2025-05-20-15-24-46
+      updated: 2025-05-20-16-28-34
       followers: 737
       likes: 62
       views: 328
@@ -7735,19 +7735,19 @@
     - service: vk
       id: 1766
       published: 2024-09-16-18-30-47
-      updated: 2025-05-13-16-25-01
+      updated: 2025-05-20-16-28-40
       followers: 947
       likes: 52
-      views: 399
+      views: 401
       reposts: 3
       comments: !c ixOAkZPLQnkgEr9RgACpdW50aXRsbDNkstGD0Y7RgtC90LXQvdGM0LrQvgM=
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2025-05-13-16-24-56
+      updated: 2025-05-20-16-28-39
       followers: 557
       likes: 67
-      views: 850
+      views: 854
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth

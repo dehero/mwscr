@@ -2561,10 +2561,10 @@
     - service: vk
       id: 1779
       published: 2024-09-23-18-31-03
-      updated: 2025-05-13-16-25-01
+      updated: 2025-05-20-16-28-40
       followers: 958
       likes: 51
-      views: 356
+      views: 357
       reposts: 2
       comments: !c |-
         G6sA4C0OzHPi3YhgMYcPLbipI1Q6UXmG8OYtYYthp4IlrOyB6maUu9DLIeEMVrexeR0ReNvLCDqt
@@ -2573,10 +2573,10 @@
     - service: tg
       id: 542
       published: 2024-09-23-18-31-11
-      updated: 2025-05-13-16-24-56
+      updated: 2025-05-20-16-28-38
       followers: 556
       likes: 65
-      views: 543
+      views: 544
 2024-09-24-towers-and-castle:
   title: Towers and Castle
   titleRu: Башни и замок
