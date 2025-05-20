@@ -1717,7 +1717,7 @@
       id: DJpOwZOv5pD
       mediaId: '17868720897367195'
       published: 2025-05-14-18-35-11
-      updated: 2025-05-19-18-18-06
+      updated: 2025-05-20-18-31-54
       followers: 1538
       likes: 69
       comments: !c |-
@@ -1728,10 +1728,10 @@
     - service: vk
       id: 2357
       published: 2025-05-14-18-35-17
-      updated: 2025-05-19-18-18-05
+      updated: 2025-05-20-18-31-53
       followers: 1295
-      likes: 50
-      views: 661
+      likes: 51
+      views: 698
       reposts: 3
       comments: !c |-
         G7AA6J0FdiyeUDZoHfrAw9ARKh2qmDPGxb4N6ugokwJaIMfkOhWOhKmQuOd0Ky0YCkM/mVyeZG1u
@@ -1740,10 +1740,10 @@
     - service: tg
       id: 844
       published: 2025-05-14-18-35-24
-      updated: 2025-05-19-18-18-04
+      updated: 2025-05-20-18-31-52
       followers: 738
-      likes: 60
-      views: 322
+      likes: 62
+      views: 342
 2025-05-15-stone-flora:
   title: Stone Flora
   titleRu: Каменная флора
@@ -1761,23 +1761,23 @@
       id: DJrzZA1NH8R
       mediaId: '18077087548889753'
       published: 2025-05-15-18-33-43
-      updated: 2025-05-19-18-18-04
+      updated: 2025-05-20-18-31-52
       followers: 1537
-      likes: 62
+      likes: 65
     - service: vk
       id: 2360
       published: 2025-05-15-18-33-50
-      updated: 2025-05-19-18-18-04
+      updated: 2025-05-20-18-31-52
       followers: 1299
-      likes: 31
-      views: 280
+      likes: 32
+      views: 295
     - service: tg
       id: 845
       published: 2025-05-15-18-33-57
-      updated: 2025-05-19-18-18-03
+      updated: 2025-05-20-18-31-52
       followers: 738
-      likes: 59
-      views: 297
+      likes: 60
+      views: 319
 2025-05-16-on-the-balcony-at-night:
   title: On the Balcony at Night
   titleRu: Ночью на балконе
@@ -1797,25 +1797,25 @@
     - service: vk
       id: 2361
       published: 2025-05-16-19-04-32
-      updated: 2025-05-19-18-18-03
+      updated: 2025-05-20-18-31-51
       followers: 1298
-      likes: 54
-      views: 342
+      likes: 56
+      views: 369
       comments: !c ixmAkZPLQnluA24JgACraWQ4ODkyMjI5OTm80KLQsNC60YHQuCDQstGL0LfRi9Cy0LDQu9C4PwM=
     - service: tg
       id: 846
       published: 2025-05-16-19-04-36
-      updated: 2025-05-19-18-18-03
+      updated: 2025-05-20-18-31-51
       followers: 738
-      likes: 61
-      views: 269
+      likes: 62
+      views: 307
     - service: ig
       id: DJub-ccJoIM
       mediaId: '18125693140432838'
       published: 2025-05-16-19-06-54
-      updated: 2025-05-19-18-18-03
+      updated: 2025-05-20-18-31-52
       followers: 1537
-      likes: 99
+      likes: 100
 2025-05-17-skaal-circle: 2019-10-21-skaal-circle
 2025-05-18-moon-and-stars: 2017-04-15-moon-and-stars
 2025-05-19-entrance-control:
@@ -1844,14 +1844,46 @@
     - service: tg
       id: 849
       published: 2025-05-19-19-10-00
-      updated: 2025-05-20-17-19-26
+      updated: 2025-05-20-18-31-50
       followers: 737
       likes: 45
-      views: 183
+      views: 184
     - service: ig
       id: DJ2KWFrP9qY
       mediaId: '18075948961895723'
       published: 2025-05-19-19-06-00
-      updated: 2025-05-20-17-19-25
+      updated: 2025-05-20-18-31-50
       followers: 1535
       likes: 42
+2025-05-20-mans-best-friend:
+  title: Man's Best Friend
+  titleRu: Лучший друг человека
+  placement: Outdoors
+  location: Ascadian Isles Region
+  content: store:/shots/2025-05-20-mans-best-friend.png
+  trash:
+    - store:/trash/ohsweetnazareth.2025-03-13-mans-best-friend-ascadian-isles-region-5f4c4b3d.png
+    - store:/trash/ohsweetnazareth.2025-05-09-mans-best-friend-343f0ab1.1.png
+    - store:/trash/ohsweetnazareth.2025-05-09-mans-best-friend-5aa8bc58.png
+    - store:/trash/ohsweetnazareth.2025-05-09-mans-best-friend-2ee95367.png
+    - store:/trash/ohsweetnazareth.2025-05-09-mans-best-friend-343f0ab1.png
+  type: shot
+  author: ohsweetnazareth
+  engine: OpenMW
+  tags:
+    - guar
+  mark: B1
+  posts:
+    - service: ig
+      id: DJ4rRUYtdEB
+      mediaId: '18355838557194446'
+      published: 2025-05-20-18-32-56
+      followers: 1535
+    - service: vk
+      id: 2370
+      published: 2025-05-20-18-33-04
+      followers: 1302
+    - service: tg
+      id: 850
+      published: 2025-05-20-18-33-11
+      followers: 736
