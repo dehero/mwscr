@@ -1844,15 +1844,15 @@
     - service: tg
       id: 849
       published: 2025-05-19-19-10-00
-      updated: 2025-05-20-18-31-50
+      updated: 2025-05-20-19-17-23
       followers: 737
-      likes: 45
-      views: 184
+      likes: 46
+      views: 201
     - service: ig
       id: DJ2KWFrP9qY
       mediaId: '18075948961895723'
       published: 2025-05-19-19-06-00
-      updated: 2025-05-20-18-31-50
+      updated: 2025-05-20-19-17-23
       followers: 1535
       likes: 42
 2025-05-20-mans-best-friend:
@@ -1878,12 +1878,21 @@
       id: DJ4rRUYtdEB
       mediaId: '18355838557194446'
       published: 2025-05-20-18-32-56
+      updated: 2025-05-20-19-17-23
       followers: 1535
+      likes: 24
     - service: vk
       id: 2370
       published: 2025-05-20-18-33-04
+      updated: 2025-05-20-19-17-22
       followers: 1302
+      likes: 8
+      views: 32
     - service: tg
       id: 850
       published: 2025-05-20-18-33-11
+      updated: 2025-05-20-19-17-22
       followers: 736
+      likes: 18
+      views: 76
+      comments: !c ixiAkZPLQnlu7+FJgACpaWRkcWQwMTEwvEZhcmdvdGggaXMgbWFuJ3MgYmVzdCBmcmllbmQD
