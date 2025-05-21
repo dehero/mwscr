@@ -1844,17 +1844,17 @@
     - service: tg
       id: 849
       published: 2025-05-19-19-10-00
-      updated: 2025-05-21-11-18-42
+      updated: 2025-05-21-12-45-56
       followers: 737
-      likes: 51
-      views: 234
+      likes: 52
+      views: 235
     - service: ig
       id: DJ2KWFrP9qY
       mediaId: '18075948961895723'
       published: 2025-05-19-19-06-00
-      updated: 2025-05-21-11-18-42
+      updated: 2025-05-21-12-45-56
       followers: 1535
-      likes: 45
+      likes: 46
 2025-05-20-mans-best-friend:
   title: Man's Best Friend
   titleRu: Лучший друг человека
@@ -1878,26 +1878,26 @@
       id: DJ4rRUYtdEB
       mediaId: '18355838557194446'
       published: 2025-05-20-18-32-56
-      updated: 2025-05-21-11-18-41
+      updated: 2025-05-21-12-45-56
       followers: 1535
-      likes: 100
+      likes: 101
       comments: !c |-
         ix+AkpPLQnlu9m/BAACrZGVsYW5vc3BpZXOpQGRyYXZlbmp2k8tCeW70IuMAAKtzaXJfd2FjbG92
         ZahDb3JreSEhIQM=
     - service: vk
       id: 2370
       published: 2025-05-20-18-33-04
-      updated: 2025-05-21-11-18-41
+      updated: 2025-05-21-12-45-55
       followers: 1302
-      likes: 34
-      views: 182
+      likes: 35
+      views: 186
     - service: tg
       id: 850
       published: 2025-05-20-18-33-11
-      updated: 2025-05-21-11-18-41
+      updated: 2025-05-21-12-45-56
       followers: 736
       likes: 48
-      views: 175
+      views: 178
       comments: !c |-
         C0eAkZXLQnlu7+FJgACpaWRkcWQwMTEwvEZhcmdvdGggaXMgbWFuJ3MgYmVzdCBmcmllbmSTy0J5
         bv58TQAAqUdhdGVtYXRlN7hpIGxvdmUgeW91LiBwbHMgbWFycnkgbWWTy0J5bv3dnAAArUxvZnR5
