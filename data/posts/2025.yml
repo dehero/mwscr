@@ -219,24 +219,24 @@
       id: DFYPtihpryV
       mediaId: '17881924440227138'
       published: 2025-01-28-18-10-49
-      updated: 2025-05-14-13-47-03
+      updated: 2025-05-21-14-22-35
       followers: 1535
       likes: 102
       views: 396
     - service: vk
       id: 2094
       published: 2025-01-28-18-10-56
-      updated: 2025-05-14-13-46-58
+      updated: 2025-05-21-14-22-40
       followers: 1056
       likes: 34
-      views: 349
+      views: 351
     - service: tg
       id: 684
       published: 2025-01-28-18-11-02
-      updated: 2025-05-14-13-46-50
+      updated: 2025-05-21-14-22-34
       followers: 661
       likes: 60
-      views: 535
+      views: 540
 2025-01-29-balmora: 2018-02-18-balmora
 2025-01-30-red-threat: 2019-10-11-red-threat
 2025-01-31-cult-of-candles: 2017-10-13-cult-of-candles
@@ -845,7 +845,7 @@
       id: DHocVJePZM9
       mediaId: '18490868689036203'
       published: 2025-03-25-18-11-44
-      updated: 2025-05-14-13-46-47
+      updated: 2025-05-21-14-22-25
       followers: 1531
       likes: 124
       views: 523
@@ -855,10 +855,10 @@
     - service: vk
       id: 2222
       published: 2025-03-25-18-11-50
-      updated: 2025-05-14-13-46-46
+      updated: 2025-05-21-14-22-26
       followers: 1211
       likes: 53
-      views: 465
+      views: 469
       comments: !c |-
         Gz8BAJwHxq3xYEP05NduYjB64E82wq+T8RA2mFRUiU8gKLLkHg5stH0J2ZQmgKLAKd5SFhIzo6tN
         u5sJlCJUUUkmdJuSaASurne2PNIEcy7rPJKiKOEMexvozEbTG3odPjyElFbwef598H6B6XODwaT7
@@ -867,10 +867,10 @@
     - service: tg
       id: 761
       published: 2025-03-25-18-11-57
-      updated: 2025-05-14-13-46-43
+      updated: 2025-05-21-14-22-25
       followers: 709
       likes: 59
-      views: 552
+      views: 557
 2025-03-26-candelabra: 2022-06-26-candelabra
 2025-03-27-spinning-wheel: 2023-08-03-spinning-wheel
 2025-03-28-in-the-greenery-of-mournhold:
@@ -1181,24 +1181,24 @@
       id: DIMgh64SRjb
       mediaId: '18302038342209861'
       published: 2025-04-08-18-21-05
-      updated: 2025-05-14-13-46-45
+      updated: 2025-05-21-14-22-24
       followers: 1530
       likes: 62
       views: 248
     - service: vk
       id: 2263
       published: 2025-04-08-18-21-15
-      updated: 2025-05-14-13-46-43
+      updated: 2025-05-21-14-22-24
       followers: 1239
       likes: 50
-      views: 366
+      views: 368
     - service: tg
       id: 784
       published: 2025-04-08-18-21-23
-      updated: 2025-05-14-13-46-42
+      updated: 2025-05-21-14-22-24
       followers: 717
-      likes: 55
-      views: 534
+      likes: 56
+      views: 544
 2025-04-09-grazelands: 2017-03-03-grazelands
 2025-04-10-alchemy-corner: 2017-01-05-alchemy-corner
 2025-04-11-statues-of-gods: 2018-07-08-statues-of-gods
@@ -1844,17 +1844,17 @@
     - service: tg
       id: 849
       published: 2025-05-19-19-10-00
-      updated: 2025-05-21-13-33-10
+      updated: 2025-05-21-14-22-23
       followers: 737
       likes: 52
-      views: 236
+      views: 238
     - service: ig
       id: DJ2KWFrP9qY
       mediaId: '18075948961895723'
       published: 2025-05-19-19-06-00
-      updated: 2025-05-21-13-33-10
+      updated: 2025-05-21-14-22-22
       followers: 1535
-      likes: 46
+      likes: 47
 2025-05-20-mans-best-friend:
   title: Man's Best Friend
   titleRu: Лучший друг человека
@@ -1878,26 +1878,27 @@
       id: DJ4rRUYtdEB
       mediaId: '18355838557194446'
       published: 2025-05-20-18-32-56
-      updated: 2025-05-21-13-33-09
+      updated: 2025-05-21-14-22-21
       followers: 1535
-      likes: 102
+      likes: 104
       comments: !c |-
         ix+AkpPLQnlu9m/BAACrZGVsYW5vc3BpZXOpQGRyYXZlbmp2k8tCeW70IuMAAKtzaXJfd2FjbG92
         ZahDb3JreSEhIQM=
     - service: vk
       id: 2370
       published: 2025-05-20-18-33-04
-      updated: 2025-05-21-13-33-09
+      updated: 2025-05-21-14-22-22
       followers: 1302
       likes: 36
-      views: 193
+      views: 195
+      comments: !c iw+AkZPLQnlvMpkfAACraWQxNzU5NDI0MTio0JzQtdGA0LAD
     - service: tg
       id: 850
       published: 2025-05-20-18-33-11
-      updated: 2025-05-21-13-33-09
+      updated: 2025-05-21-14-22-22
       followers: 736
       likes: 49
-      views: 180
+      views: 182
       comments: !c |-
         C0eAkZXLQnlu7+FJgACpaWRkcWQwMTEwvEZhcmdvdGggaXMgbWFuJ3MgYmVzdCBmcmllbmSTy0J5
         bv58TQAAqUdhdGVtYXRlN7hpIGxvdmUgeW91LiBwbHMgbWFycnkgbWWTy0J5bv3dnAAArUxvZnR5
