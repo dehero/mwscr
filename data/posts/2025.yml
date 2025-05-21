@@ -1834,25 +1834,25 @@
     - service: vk
       id: 2368
       published: 2025-05-16-19-06-00
-      updated: 2025-05-20-05-39-10
+      updated: 2025-05-21-06-32-15
       followers: 1302
-      likes: 28
-      views: 134
+      likes: 43
+      views: 279
       comments: !c |-
         G2gA+B0JdqzJ4MOpM3bR8+2K8APFHGmT6JGd7IN33wl4YIENBv91tVO3tfKUHspDFlx9EFFsZ2C6
         2KopW6LkFC4E9/26/Ims9R10YBSvDfOb9snrOJg9CgwrIwXDUZSinEh2MBK5bLtxAw==
     - service: tg
       id: 849
       published: 2025-05-19-19-10-00
-      updated: 2025-05-21-05-22-01
+      updated: 2025-05-21-06-32-15
       followers: 737
       likes: 48
-      views: 219
+      views: 221
     - service: ig
       id: DJ2KWFrP9qY
       mediaId: '18075948961895723'
       published: 2025-05-19-19-06-00
-      updated: 2025-05-21-05-22-02
+      updated: 2025-05-21-06-32-18
       followers: 1535
       likes: 45
 2025-05-20-mans-best-friend:
@@ -1878,26 +1878,26 @@
       id: DJ4rRUYtdEB
       mediaId: '18355838557194446'
       published: 2025-05-20-18-32-56
-      updated: 2025-05-21-05-22-01
+      updated: 2025-05-21-06-32-16
       followers: 1535
-      likes: 84
+      likes: 89
       comments: !c |-
         ix+AkpPLQnlu9m/BAACrZGVsYW5vc3BpZXOpQGRyYXZlbmp2k8tCeW70IuMAAKtzaXJfd2FjbG92
         ZahDb3JreSEhIQM=
     - service: vk
       id: 2370
       published: 2025-05-20-18-33-04
-      updated: 2025-05-21-05-22-01
+      updated: 2025-05-21-06-32-14
       followers: 1302
-      likes: 24
-      views: 121
+      likes: 27
+      views: 138
     - service: tg
       id: 850
       published: 2025-05-20-18-33-11
-      updated: 2025-05-21-05-22-01
+      updated: 2025-05-21-06-32-15
       followers: 736
-      likes: 42
-      views: 147
+      likes: 43
+      views: 151
       comments: !c |-
         C0eAkZXLQnlu7+FJgACpaWRkcWQwMTEwvEZhcmdvdGggaXMgbWFuJ3MgYmVzdCBmcmllbmSTy0J5
         bv58TQAAqUdhdGVtYXRlN7hpIGxvdmUgeW91LiBwbHMgbWFycnkgbWWTy0J5bv3dnAAArUxvZnR5
