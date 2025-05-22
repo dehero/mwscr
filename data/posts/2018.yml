@@ -6051,7 +6051,7 @@
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
   placement: Indoors
-  location: 'Mournhold, Royal Palace: Guards'' Quarters'
+  location: "Mournhold, Royal Palace: Guards' Quarters"
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   author: dehero
@@ -6355,7 +6355,7 @@
   placement: Indoors
   location:
     - Imperial Prison Ship
-    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
+    - "Mournhold, Royal Palace: Barenziah's Chambers"
     - Tower of Tel Fyr, Hall of Fyr
     - Seyda Neen, Census and Excise Office
   content:
@@ -9255,6 +9255,23 @@
       followers: 210
       likes: 27
       views: 332
+    - service: ig
+      id: DJ7P-LogMB-
+      mediaId: '18124830985440252'
+      published: 2025-05-21-18-32-00
+      followers: 1540
+    - service: vk
+      id: 2374
+      published: 2025-05-21-18-32-00
+      followers: 1302
+    - service: tg
+      id:
+        - 851
+        - 852
+        - 853
+        - 854
+      published: 2025-05-20-18-48-00
+      followers: 738
 2018-08-27-coming-to-gnaar-mok:
   title: Coming to Gnaar Mok
   titleRu: Прибытие в Гнаар Мок
