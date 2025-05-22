@@ -420,7 +420,7 @@
     - service: vk
       id: 1444
       published: 2024-03-12-18-17-53
-      updated: 2025-05-15-05-19-15
+      updated: 2025-05-22-08-54-08
       followers: 896
       likes: 33
       views: 279
@@ -428,7 +428,7 @@
     - service: tg
       id: 343
       published: 2024-03-12-18-18-01
-      updated: 2025-05-15-04-22-29
+      updated: 2025-05-22-08-54-00
       followers: 350
       likes: 65
       views: 537
@@ -548,7 +548,7 @@
     - service: vk
       id: 1459
       published: 2024-03-19-18-11-25
-      updated: 2025-05-15-05-19-14
+      updated: 2025-05-22-08-54-08
       followers: 896
       likes: 43
       views: 279
@@ -556,7 +556,7 @@
     - service: tg
       id: 351
       published: 2024-03-19-18-11-30
-      updated: 2025-05-15-04-22-28
+      updated: 2025-05-22-08-53-59
       followers: 352
       likes: 69
       views: 491
@@ -858,14 +858,14 @@
     - service: vk
       id: 1478
       published: 2024-04-02-18-11-20
-      updated: 2025-05-15-05-19-12
+      updated: 2025-05-22-08-54-06
       followers: 906
       likes: 25
       views: 265
     - service: tg
       id: 365
       published: 2024-04-02-18-11-28
-      updated: 2025-05-15-04-22-27
+      updated: 2025-05-22-08-53-58
       followers: 355
       likes: 56
       views: 482
@@ -1026,7 +1026,7 @@
     - service: vk
       id: 1488
       published: 2024-04-09-18-16-08
-      updated: 2025-05-15-04-22-37
+      updated: 2025-05-22-08-54-05
       followers: 911
       likes: 39
       views: 262
@@ -1034,7 +1034,7 @@
     - service: tg
       id: 373
       published: 2024-04-09-18-16-14
-      updated: 2025-05-15-04-22-27
+      updated: 2025-05-22-08-53-57
       followers: 353
       likes: 68
       views: 466
@@ -1660,15 +1660,15 @@
     - service: vk
       id: 1524
       published: 2024-05-07-18-18-49
-      updated: 2025-05-15-04-22-33
+      updated: 2025-05-22-08-54-02
       followers: 913
       likes: 34
-      views: 269
+      views: 270
       reposts: 1
     - service: tg
       id: 401
       published: 2024-05-07-18-18-56
-      updated: 2025-05-15-04-22-24
+      updated: 2025-05-22-08-53-54
       followers: 371
       likes: 57
       views: 470
@@ -2189,17 +2189,17 @@
     - service: vk
       id: 1578
       published: 2024-06-11-18-21-03
-      updated: 2025-05-15-04-22-29
+      updated: 2025-05-22-08-53-57
       followers: 916
       likes: 34
-      views: 287
+      views: 288
     - service: tg
       id: 436
       published: 2024-06-11-18-21-09
-      updated: 2025-05-15-04-22-21
+      updated: 2025-05-22-08-53-49
       followers: 384
       likes: 56
-      views: 456
+      views: 457
 2024-06-12-beran-ancestral-tomb:
   title: Beran Ancestral Tomb
   titleRu: Родовая гробница Беранов
@@ -2420,18 +2420,18 @@
     - service: vk
       id: 1689
       published: 2024-08-13-18-55-56
-      updated: 2025-05-15-01-24-23
+      updated: 2025-05-22-08-53-46
       followers: 931
       likes: 41
-      views: 348
+      views: 350
       reposts: 2
     - service: tg
       id: 500
       published: 2024-08-13-18-56-05
-      updated: 2025-05-15-01-24-21
+      updated: 2025-05-22-08-53-42
       followers: 527
       likes: 76
-      views: 806
+      views: 807
       comments: !c |-
         G3kA4B0Jdgzl/xiA0ZI0dfM1anveebi2d1Gb/p5+J1giRRFkWUblGFpvNvW8OeWAuVogYXLks97u
         Nobb9VRc0ajTfjyRtJUTAnALIeCIxq1A4PrcQCqnTuvPQE+fRetu9IXW8UTSetUfgCsfyYoQb0mc
@@ -2646,18 +2646,18 @@
     - service: vk
       id: 1782
       published: 2024-09-25
-      updated: 2025-05-15-01-24-20
+      updated: 2025-05-22-08-53-42
       followers: 958
       likes: 30
-      views: 320
+      views: 322
       reposts: 1
     - service: tg
       id: 543
       published: 2024-09-25
-      updated: 2025-05-15-01-24-19
+      updated: 2025-05-22-08-53-40
       followers: 557
       likes: 56
-      views: 595
+      views: 598
 2024-09-26-bread-and-wine: 2018-10-29-bread-and-wine
 2024-09-27-the-two-towers: 2017-03-25-the-two-towers
 2024-09-28-cozy-workplace-in-the-basement: 2017-11-16-cozy-workplace-in-the-basement
@@ -2948,18 +2948,18 @@
     - service: vk
       id: 1941
       published: 2024-12-04-19-10-14
-      updated: 2025-05-15-07-18-30
+      updated: 2025-05-22-08-53-38
       followers: 1013
       likes: 58
-      views: 401
+      views: 403
       reposts: 1
     - service: tg
       id: 615
       published: 2024-12-04-19-10-20
-      updated: 2025-05-15-07-18-29
+      updated: 2025-05-22-08-53-28
       followers: 574
       likes: 64
-      views: 593
+      views: 594
       comments: !c CxCAkZPLQnk5aAVMgACuZGlzbWFzdGVyZnJhbmWm4pqh77iPAw==
 2024-12-05-in-the-evening-at-census-and-excise-office:
   title: In the Evening at Census and Excise Office
@@ -3200,10 +3200,10 @@
     - service: vk
       id: 1957
       published: 2024-12-11-18-16-04
-      updated: 2025-05-15-05-19-12
+      updated: 2025-05-22-08-53-37
       followers: 1022
       likes: 47
-      views: 374
+      views: 375
       comments: !c |-
         G6kA+J0HtiP6ZSAvPcidQliIorhF+CDFXJgFXELNRJbsueksqRg6budnXpk6p0/2YFEr0AGtLVqz
         fDfUnX/kpy4qzdQxPMEMO4L7+a1T/OBavj0og6B2Yj8PGgW99bzW86hadqj+ufWdBjcxj49EvEdn
@@ -3211,10 +3211,10 @@
     - service: tg
       id: 622
       published: 2024-12-11-18-16-12
-      updated: 2025-05-15-05-19-09
+      updated: 2025-05-22-08-53-28
       followers: 581
       likes: 69
-      views: 642
+      views: 643
     - service: ig
       id: DDcvXvhTd7j
       mediaId: '18474431095051833'
@@ -3479,7 +3479,7 @@
       id: DEQJZBKzzA5
       mediaId: '18055957414807240'
       published: 2024-12-31-18-10-17
-      updated: 2025-05-15-08-25-58
+      updated: 2025-05-22-08-53-28
       followers: 1519
       likes: 118
       views: 556
