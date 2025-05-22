@@ -3297,15 +3297,15 @@
     - service: vk
       id: 1690
       published: 2024-08-14-18-25-51
-      updated: 2025-05-15-14-19-34
+      updated: 2025-05-22-15-13-01
       followers: 931
       likes: 52
-      views: 507
+      views: 509
       reposts: 6
     - service: tg
       id: 501
       published: 2024-08-14-18-26-00
-      updated: 2025-05-15-14-19-29
+      updated: 2025-05-22-15-12-57
       followers: 527
       likes: 67
       views: 677
@@ -6403,10 +6403,10 @@
     - service: vk
       id: 1923
       published: 2024-11-27-18-11-33
-      updated: 2025-05-15-14-19-22
+      updated: 2025-05-22-15-12-50
       followers: 1010
       likes: 62
-      views: 965
+      views: 969
       reposts: 4
     - service: tg
       id: 608
@@ -8431,10 +8431,10 @@
     - service: vk
       id: 1736
       published: 2024-09-04-18-31-41
-      updated: 2025-05-15-14-19-31
+      updated: 2025-05-22-15-12-59
       followers: 942
       likes: 37
-      views: 353
+      views: 355
       reposts: 1
       comments: !c |-
         G2gA8I3EOBZyaL5sQalXwo83ZS7pMtGRTe4sbylpRShCtrkqmDHJ9pL9JnShKTa/kQLYgBPwkAKQ
@@ -8442,10 +8442,10 @@
     - service: tg
       id: 522
       published: 2024-09-04-18-31-49
-      updated: 2025-05-15-14-19-26
+      updated: 2025-05-22-15-12-54
       followers: 550
       likes: 68
-      views: 823
+      views: 825
 2017-07-21-scamp-defending-the-entrance-to-maelkashishi:
   title: Scamp Defending the Entrance to Maelkashishi
   titleRu: Скамп, охраняющий вход в Мелкашиши
@@ -9847,18 +9847,18 @@
     - service: vk
       id: 1817
       published: 2024-10-09-18-11-13
-      updated: 2025-05-15-14-19-27
+      updated: 2025-05-22-15-12-54
       followers: 957
       likes: 44
-      views: 366
+      views: 368
       reposts: 1
     - service: tg
       id: 559
       published: 2024-10-09-18-11-21
-      updated: 2025-05-15-14-19-23
+      updated: 2025-05-22-15-12-50
       followers: 559
       likes: 68
-      views: 658
+      views: 660
 2017-08-27-deadly-pass:
   title: Deadly Pass
   titleRu: Смертельный проход
@@ -13970,18 +13970,18 @@
     - service: vk
       id: 1833
       published: 2024-10-16-18-11-44
-      updated: 2025-05-15-14-19-25
+      updated: 2025-05-22-15-12-53
       followers: 965
       likes: 44
-      views: 455
+      views: 457
       reposts: 3
     - service: tg
       id: 566
       published: 2024-10-16-18-11-53
-      updated: 2025-05-15-14-19-23
+      updated: 2025-05-22-15-12-49
       followers: 562
       likes: 65
-      views: 539
+      views: 541
       comments: !c |-
         iyuAkZTLQnkpaLsDAACuU2hpc2tvcmliYWZpc2i9d2hlcmUgaXMgdGhpcyBzdGF0dWUgbG9jYXRl
         ZD+Ty0J5KWm0CQAApW13c2Nyr1NocmluZSBvZiBBenVyYQM=
