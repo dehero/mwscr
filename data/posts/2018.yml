@@ -6051,7 +6051,7 @@
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
   placement: Indoors
-  location: 'Mournhold, Royal Palace: Guards'' Quarters'
+  location: "Mournhold, Royal Palace: Guards' Quarters"
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   author: dehero
@@ -6355,7 +6355,7 @@
   placement: Indoors
   location:
     - Imperial Prison Ship
-    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
+    - "Mournhold, Royal Palace: Barenziah's Chambers"
     - Tower of Tel Fyr, Hall of Fyr
     - Seyda Neen, Census and Excise Office
   content:
@@ -8679,6 +8679,19 @@
         0mTq354Mln/W1Zpd5nDPP700wAgD0BYlrSChQG54sPO/newsdxsbz12RI4JAcnvfvx4af7mH/2LO
         eZz7y5K+NSlGX+3RAyog5OkDtER8RNBNtyr+iGqHIGXF7TQjWjQE6mv8idkOw9EbXdvoScFck87e
         I1Fd8frXIf/NRIIVdGM1Vt3r6VFKBdWn6OsX3vH5GWipa3jIAA==
+    - service: ig
+      id: DJ9zCeLzLg-
+      mediaId: '17959089899926145'
+      published: 2025-05-22-18-17-00
+      followers: 1542
+    - service: vk
+      id: 2377
+      published: 2025-05-22-18-17-00
+      followers: 1302
+    - service: tg
+      id: 855
+      published: 2025-05-22-18-58-00
+      followers: 739
 2018-08-12-waterfalls:
   title: Waterfalls
   titleRu: Водопады
