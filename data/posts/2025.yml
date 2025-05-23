@@ -1928,21 +1928,28 @@
     - service: vk
       id: 2379
       published: 2025-05-23-19-07-05
-      updated: 2025-05-23-20-16-44
+      updated: 2025-05-23-21-12-12
       followers: 1302
-      likes: 4
-      views: 34
+      likes: 8
+      views: 57
+      reposts: 1
+      comments: !c |-
+        CxuAkZPLQnlv73GagACtQ2hlcm5vc290aW5lY73QrdGC0L4g0L/RgNC10LrRgNCw0YHQvdC+8J+Z
+        jwM=
     - service: tg
       id: 856
       published: 2025-05-23-19-07-10
-      updated: 2025-05-23-20-16-44
+      updated: 2025-05-23-21-12-12
       followers: 739
-      likes: 14
-      views: 61
+      likes: 21
+      views: 84
+      comments: !c |-
+        CyiAkZPLQnlv78YTgADZLNCU0LDQvdGPIOGmk+qrneqqls+B6qqu4aaT6qud6qqA6qC44ZuV6qqu
+        6qqct9CQINCyINC00LDQu9C4INC90LXRgtGHAw==
     - service: ig
       id: DKAd6dBoO4v
       mediaId: '18508216570057020'
       published: 2025-05-23-19-10-12
-      updated: 2025-05-23-20-16-44
+      updated: 2025-05-23-21-12-12
       followers: 1542
-      likes: 21
+      likes: 27
