@@ -1573,10 +1573,10 @@
     - service: vk
       id: 1818
       published: 2024-10-10-18-10-22
-      updated: 2025-05-16-11-15-38
+      updated: 2025-05-23-12-29-17
       followers: 960
       likes: 36
-      views: 337
+      views: 339
     - service: tg
       id: 560
       published: 2024-10-10-18-10-28
@@ -12518,10 +12518,10 @@
     - service: vk
       id: 1799
       published: 2024-10-03-18-10-11
-      updated: 2025-05-16-11-15-40
+      updated: 2025-05-23-12-29-18
       followers: 958
       likes: 47
-      views: 357
+      views: 359
       reposts: 2
       comments: !c |-
         G5waALwUd6yMGpSFaiQroXyz8M0Va7TB0dnw1Hb8P7EGPyTSyW82fdldPH+jFLpKt06DRqgQOtP1
@@ -12566,10 +12566,10 @@
     - service: tg
       id: 553
       published: 2024-10-03-18-10-19
-      updated: 2025-05-16-11-15-38
+      updated: 2025-05-23-12-29-14
       followers: 560
       likes: 65
-      views: 576
+      views: 577
       comments: !c ixiAkZPLQnkljeH0gACnQmFyYUZveL5UcnVseSwgdGhlIHJvYWQgbW9zdCB0cmF2ZWxsZWQD
 2017-11-06-shore-shroom:
   title: Shore Shroom
