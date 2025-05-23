@@ -1477,7 +1477,6 @@
   trash:
     - store:/trash/dehero.2025-01-19-19-12-11.png
     - store:/trash/dehero.2025-01-19-19-11-26.png
-    - store:/trash/dehero.2025-01-19-19-10-43.png
     - store:/trash/dehero.2025-01-19-19-12-08.png
     - store:/trash/dehero.2025-01-19-19-12-11.1.png
     - store:/trash/dehero.2025-01-19-19-12-08.1.png
@@ -1664,7 +1663,6 @@
   placement: Outdoors
   location: Bitter Coast Region
   content: store:/shots/2025-05-09-coastal-guards.png
-  trash: store:/trash/dehero.2024-12-26-21-26-25.png
   type: shot
   author: dehero
   engine: OpenMW
