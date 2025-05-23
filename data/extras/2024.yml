@@ -17,14 +17,14 @@
     - service: tg
       id: 368
       published: 2024-04-05-09-52-44
-      updated: 2025-05-16-12-37-56
+      updated: 2025-05-23-13-26-20
       followers: 355
       likes: 21
       views: 501
     - service: vk
       id: 1482
       published: 2024-04-05-09-53-00
-      updated: 2025-05-16-12-37-57
+      updated: 2025-05-23-13-26-21
       followers: 908
       likes: 9
       views: 189
@@ -56,10 +56,10 @@
     - service: tg
       id: 495
       published: 2024-08-09-14-41-38
-      updated: 2025-05-16-12-37-56
+      updated: 2025-05-23-13-26-19
       followers: 513
       likes: 79
-      views: 1480
+      views: 1483
       comments: !c |-
         G+MAwKyOt6ENtniK76qti2Fogn1j2yLFYx1agHUxS4QsmnjVbOvv0eK7jXlXfAkap3W7EfQiaI8S
         mq67JzrC8iSIC1m+ld3p5DixgPjZMc0TL9fAWh64yUqXZvgs4FilxYUR83wXtKDRtuHrkmL4b8X5
@@ -68,10 +68,10 @@
     - service: vk
       id: 1677
       published: 2024-08-09-14-41-38
-      updated: 2025-05-16-12-37-56
+      updated: 2025-05-23-13-26-20
       followers: 927
       likes: 53
-      views: 384
+      views: 386
       reposts: 9
       comments: !c |-
         G8QCQJwHto1sOxwMPRAf1xoGFo3Z1QILs7VAlkDIerZlYaprWSggV+MwI8wL/c62Soreh4b+pugE
@@ -165,10 +165,10 @@
     - service: tg
       id: 634
       published: 2024-12-23-09-00-15
-      updated: 2025-05-16-12-37-55
+      updated: 2025-05-23-13-26-19
       followers: 592
       likes: 64
-      views: 643
+      views: 644
       comments: !c |-
         G60AQByHcSyyoLzamF5muyfbzsc7nwwWJhpwge887IKAw6D6uVLdVLbx+DvdnP0nwJacLc+sx5nr
         5ECPgWnP0kOAfqx5erLyEP8xhiL9lvktvX6B1YaotvPXhnw7FisU1IrVs8DCB6Ou4BPcr4gjLXBR
@@ -176,10 +176,10 @@
     - service: vk
       id: 1986
       published: 2024-12-23-09-00-15
-      updated: 2025-05-16-12-37-56
+      updated: 2025-05-23-13-26-19
       followers: 1027
       likes: 37
-      views: 314
+      views: 316
       reposts: 8
     - type: story
       service: ig
