@@ -87,7 +87,7 @@
     "sharp": "^0.33.2",
     "solid-js": "^1.8.16",
     "ssh2-sftp-client": "^12.0.0",
-    "telegram": "2.17.10",
+    "telegram": "^2.26.22",
     "ts-node": "^10.8.1",
     "typescript": "^5.4.2",
     "valibot": "^1.0.0-beta.11",
