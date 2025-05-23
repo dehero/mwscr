@@ -1908,3 +1908,28 @@
         ZGVsdXNpb263RmFyZ290aCBpcyBhbiBpZGlvdPCfmJQD
 2025-05-21-interiors-of-aldruhn: 2018-08-26-interiors-of-aldruhn
 2025-05-22-anhaedra: 2018-08-11-anhaedra
+2025-05-23-under-an-incline:
+  title: Under an Incline
+  titleRu: Под уклоном
+  placement: Outdoors
+  location: Kushtashpi
+  content: store:/shots/2025-05-23-under-an-incline.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - tree
+    - rain
+    - netch
+    - daedric
+    - ruin
+  mark: A2
+  posts:
+    - service: vk
+      id: 2379
+      published: 2025-05-23-19-07-05
+      followers: 1302
+    - service: tg
+      id: 856
+      published: 2025-05-23-19-07-10
+      followers: 739
