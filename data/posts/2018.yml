@@ -8683,9 +8683,9 @@
       id: DJ9zCeLzLg-
       mediaId: '17959089899926145'
       published: 2025-05-22-18-17-00
-      updated: 2025-05-24-12-26-50
+      updated: 2025-05-24-13-23-27
       followers: 1542
-      likes: 116
+      likes: 117
       comments: !c |-
         C0yAlJPLQnlwG61VgACpemFjX3Nwcnluq1doYXQgYSB1bml0k8tCeW/TQM6AALFjYW1pc29sZW9y
         Z2FuaXF1ZaVPaCBub5PLQnlvnOIbAACtZGFuaWVsbGVfaGlpaaxOYXN0eSBmZWxsYS6Ty0J5b5at
@@ -8693,10 +8693,10 @@
     - service: vk
       id: 2377
       published: 2025-05-22-18-17-00
-      updated: 2025-05-24-12-26-49
+      updated: 2025-05-24-13-23-27
       followers: 1302
       likes: 35
-      views: 306
+      views: 308
       reposts: 1
       comments: !c |-
         GwABACwOeHNwJczMXYOUBHlhI1Q6/RMXO+AD+tpMiUaURJGXWBEm+5xtlVANnwLu5ZzsANI8hIoV
@@ -8706,7 +8706,7 @@
     - service: tg
       id: 855
       published: 2025-05-22-18-58-00
-      updated: 2025-05-24-12-26-49
+      updated: 2025-05-24-13-23-26
       followers: 739
       likes: 47
       views: 219
