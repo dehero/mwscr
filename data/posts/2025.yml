@@ -1928,10 +1928,10 @@
     - service: vk
       id: 2379
       published: 2025-05-23-19-07-05
-      updated: 2025-05-24-10-14-05
+      updated: 2025-05-24-11-11-07
       followers: 1302
-      likes: 22
-      views: 147
+      likes: 23
+      views: 154
       reposts: 1
       comments: !c |-
         CxuAkZPLQnlv73GagACtQ2hlcm5vc290aW5lY73QrdGC0L4g0L/RgNC10LrRgNCw0YHQvdC+8J+Z
@@ -1939,10 +1939,10 @@
     - service: tg
       id: 856
       published: 2025-05-23-19-07-10
-      updated: 2025-05-24-10-14-05
+      updated: 2025-05-24-11-11-07
       followers: 739
       likes: 39
-      views: 145
+      views: 149
       comments: !c |-
         CyiAkZPLQnlv78YTgADZLNCU0LDQvdGPIOGmk+qrneqqls+B6qqu4aaT6qud6qqA6qC44ZuV6qqu
         6qqct9CQINCyINC00LDQu9C4INC90LXRgtGHAw==
@@ -1950,6 +1950,6 @@
       id: DKAd6dBoO4v
       mediaId: '18508216570057020'
       published: 2025-05-23-19-10-12
-      updated: 2025-05-24-10-14-04
+      updated: 2025-05-24-11-11-07
       followers: 1542
-      likes: 42
+      likes: 43
