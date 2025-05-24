@@ -3583,15 +3583,15 @@
     - service: vk
       id: 1886
       published: 2024-11-08-18-40-06
-      updated: 2025-05-17-11-14-13
+      updated: 2025-05-24-12-26-56
       followers: 1005
       likes: 35
-      views: 292
+      views: 294
       reposts: 1
     - service: tg
       id: 589
       published: 2024-11-08-18-40-14
-      updated: 2025-05-17-11-14-10
+      updated: 2025-05-24-12-26-53
       followers: 566
       likes: 57
       views: 515
@@ -4002,10 +4002,10 @@
     - service: vk
       id: 1855
       published: 2024-10-25-18-10-15
-      updated: 2025-05-17-11-14-16
+      updated: 2025-05-24-12-26-58
       followers: 997
       likes: 42
-      views: 315
+      views: 317
       reposts: 1
       comments: !c |-
         G9QBgCwKbGOzhuhJv0vFoSZyr8ka/09/MdI3/lv0MNMSTBJPzgVdVbcLLW8EAkGCAkdSHpZv29cJ
@@ -4016,10 +4016,10 @@
     - service: tg
       id: 575
       published: 2024-10-25-18-10-23
-      updated: 2025-05-17-11-14-12
+      updated: 2025-05-24-12-26-55
       followers: 563
       likes: 60
-      views: 602
+      views: 603
 2018-04-12-mushroom-stairs:
   title: Mushroom Stairs
   titleRu: Грибная лестница
@@ -8683,7 +8683,7 @@
       id: DJ9zCeLzLg-
       mediaId: '17959089899926145'
       published: 2025-05-22-18-17-00
-      updated: 2025-05-24-11-11-09
+      updated: 2025-05-24-12-26-50
       followers: 1542
       likes: 116
       comments: !c |-
@@ -8693,10 +8693,10 @@
     - service: vk
       id: 2377
       published: 2025-05-22-18-17-00
-      updated: 2025-05-24-11-11-08
+      updated: 2025-05-24-12-26-49
       followers: 1302
       likes: 35
-      views: 305
+      views: 306
       reposts: 1
       comments: !c |-
         GwABACwOeHNwJczMXYOUBHlhI1Q6/RMXO+AD+tpMiUaURJGXWBEm+5xtlVANnwLu5ZzsANI8hIoV
@@ -8706,10 +8706,10 @@
     - service: tg
       id: 855
       published: 2025-05-22-18-58-00
-      updated: 2025-05-24-11-11-08
+      updated: 2025-05-24-12-26-49
       followers: 739
       likes: 47
-      views: 217
+      views: 219
       comments: !c |-
         G7IAOIyTY+1o30eo9P//5j+ggDueUBaHUrw3rYFtkDaG6aWPX91mio/NkH2QDcGBs5iiVXTKieSc
         QosCsQAT/vZiUak7lGiky1XTNvLoYXRBDQ16aDFbp/F/kTLoeb0/g17i1u/uXh4J/xINygAK82Kh
@@ -12549,10 +12549,10 @@
     - service: vk
       id: 1819
       published: 2024-10-11-18-09-53
-      updated: 2025-05-17-11-14-17
+      updated: 2025-05-24-12-27-00
       followers: 961
       likes: 32
-      views: 345
+      views: 347
     - service: tg
       id: 561
       published: 2024-10-11-18-10-00

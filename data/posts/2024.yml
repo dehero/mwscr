@@ -214,14 +214,14 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2025-05-17-11-14-26
+      updated: 2025-05-24-12-27-08
       followers: 893
       likes: 35
       views: 263
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2025-05-17-11-14-20
+      updated: 2025-05-24-12-27-02
       followers: 345
       likes: 58
       views: 566
@@ -586,7 +586,7 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2025-05-17-11-14-24
+      updated: 2025-05-24-12-27-06
       followers: 896
       likes: 42
       views: 305
@@ -597,7 +597,7 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2025-05-17-11-14-18
+      updated: 2025-05-24-12-27-01
       followers: 352
       likes: 59
       views: 489
@@ -900,15 +900,15 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2025-05-17-11-14-22
+      updated: 2025-05-24-12-27-05
       followers: 906
       likes: 51
-      views: 443
+      views: 444
       reposts: 4
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2025-05-17-11-14-16
+      updated: 2025-05-24-12-26-58
       followers: 354
       likes: 62
       views: 494
@@ -1108,14 +1108,14 @@
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2025-05-17-11-14-22
+      updated: 2025-05-24-12-27-04
       followers: 911
       likes: 27
       views: 237
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2025-05-17-11-14-16
+      updated: 2025-05-24-12-26-58
       followers: 352
       likes: 67
       views: 1130
@@ -3041,17 +3041,17 @@
     - service: tg
       id: 617
       published: 2024-12-06-18-11-36
-      updated: 2025-05-17-11-14-07
+      updated: 2025-05-24-12-26-50
       followers: 578
       likes: 58
       views: 507
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2025-05-17-11-14-08
+      updated: 2025-05-24-12-26-51
       followers: 1013
       likes: 43
-      views: 402
+      views: 404
       reposts: 3
 2024-12-07-farm-watchman:
   title: Farm Watchman
