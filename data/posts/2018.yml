@@ -8683,9 +8683,9 @@
       id: DJ9zCeLzLg-
       mediaId: '17959089899926145'
       published: 2025-05-22-18-17-00
-      updated: 2025-05-24-14-12-30
+      updated: 2025-05-24-15-13-15
       followers: 1542
-      likes: 117
+      likes: 119
       comments: !c |-
         C0yAlJPLQnlwG61VgACpemFjX3Nwcnluq1doYXQgYSB1bml0k8tCeW/TQM6AALFjYW1pc29sZW9y
         Z2FuaXF1ZaVPaCBub5PLQnlvnOIbAACtZGFuaWVsbGVfaGlpaaxOYXN0eSBmZWxsYS6Ty0J5b5at
@@ -8693,7 +8693,7 @@
     - service: vk
       id: 2377
       published: 2025-05-22-18-17-00
-      updated: 2025-05-24-14-12-31
+      updated: 2025-05-24-15-13-15
       followers: 1302
       likes: 35
       views: 309
@@ -8706,7 +8706,7 @@
     - service: tg
       id: 855
       published: 2025-05-22-18-58-00
-      updated: 2025-05-24-14-12-30
+      updated: 2025-05-24-15-13-14
       followers: 739
       likes: 47
       views: 219
@@ -13324,20 +13324,20 @@
     - service: vk
       id: 1774
       published: 2024-09-20-18-30-28
-      updated: 2025-05-17-14-15-39
+      updated: 2025-05-24-15-13-19
       followers: 949
       likes: 42
-      views: 365
+      views: 367
       comments: !c |-
         G2AA+J0Jto2E9THoiiB8kPHEexvhDac4HGCCvQSCCJN/zsPnvEZilqbsbGI8mxlVotYrmu/5gyw1
         gcWmGqGd1f38dc09r4zvhCIBT/ttSg1qGQZOX7pUQi8CDkHIRscrk7UA
     - service: tg
       id: 539
       published: 2024-09-20-18-30-37
-      updated: 2025-05-17-14-15-37
+      updated: 2025-05-24-15-13-16
       followers: 555
       likes: 58
-      views: 553
+      views: 554
 2018-11-22-three-trees-by-the-road:
   title: Three Trees by the Road
   titleRu: Три дерева у дороги
