@@ -1847,17 +1847,17 @@
     - service: tg
       id: 849
       published: 2025-05-19-19-10-00
-      updated: 2025-05-23-06-21-14
+      updated: 2025-05-24-07-13-11
       followers: 737
       likes: 56
-      views: 271
+      views: 324
     - service: ig
       id: DJ2KWFrP9qY
       mediaId: '18075948961895723'
       published: 2025-05-19-19-06-00
-      updated: 2025-05-23-06-21-15
+      updated: 2025-05-24-07-13-12
       followers: 1535
-      likes: 53
+      likes: 55
 2025-05-20-mans-best-friend:
   title: Man's Best Friend
   titleRu: Лучший друг человека
@@ -1928,10 +1928,10 @@
     - service: vk
       id: 2379
       published: 2025-05-23-19-07-05
-      updated: 2025-05-24-06-19-10
+      updated: 2025-05-24-07-13-09
       followers: 1302
-      likes: 20
-      views: 120
+      likes: 21
+      views: 125
       reposts: 1
       comments: !c |-
         CxuAkZPLQnlv73GagACtQ2hlcm5vc290aW5lY73QrdGC0L4g0L/RgNC10LrRgNCw0YHQvdC+8J+Z
@@ -1939,10 +1939,10 @@
     - service: tg
       id: 856
       published: 2025-05-23-19-07-10
-      updated: 2025-05-24-06-19-10
+      updated: 2025-05-24-07-13-09
       followers: 739
-      likes: 36
-      views: 134
+      likes: 37
+      views: 140
       comments: !c |-
         CyiAkZPLQnlv78YTgADZLNCU0LDQvdGPIOGmk+qrneqqls+B6qqu4aaT6qud6qqA6qC44ZuV6qqu
         6qqct9CQINCyINC00LDQu9C4INC90LXRgtGHAw==
@@ -1950,6 +1950,6 @@
       id: DKAd6dBoO4v
       mediaId: '18508216570057020'
       published: 2025-05-23-19-10-12
-      updated: 2025-05-24-06-19-09
+      updated: 2025-05-24-07-13-09
       followers: 1542
-      likes: 39
+      likes: 41
