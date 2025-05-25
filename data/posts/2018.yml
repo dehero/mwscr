@@ -1992,18 +1992,18 @@
     - service: vk
       id: 2337
       published: 2025-05-04-18-22-19
-      updated: 2025-05-18-20-13-15
+      updated: 2025-05-25-20-15-14
       followers: 1274
-      likes: 47
-      views: 388
+      likes: 48
+      views: 399
       reposts: 1
     - service: tg
       id: 827
       published: 2025-05-04-18-22-26
-      updated: 2025-05-18-20-13-14
+      updated: 2025-05-25-20-15-12
       followers: 736
       likes: 63
-      views: 450
+      views: 472
     - service: ig
       id: DJQrnOitwg4
       mediaId: '18057956966153632'
@@ -9294,24 +9294,26 @@
       id: DJ7P-LogMB-
       mediaId: '18124830985440252'
       published: 2025-05-21-18-32-00
-      updated: 2025-05-24-19-11-03
+      updated: 2025-05-25-20-15-12
       followers: 1540
-      likes: 118
+      likes: 124
     - service: vk
       id: 2374
       published: 2025-05-21-18-32-00
-      updated: 2025-05-24-19-11-03
+      updated: 2025-05-25-20-15-13
       followers: 1302
-      likes: 51
-      views: 276
+      likes: 54
+      views: 295
       reposts: 3
       comments: !c |-
-        GysCACwSbBsJ2YeD0VliPsf/85xswqN/fGfoSZZJkQSJJfepuhlhn5CgEbKMPQzWdlBu01zN6d5N
-        ERx+7mae37edLWWtKNUEmxtmMxNS//ffXSCB0vtbljxotbXmAUV/FUUYYHx62wF9hlM3PUXBS5Sa
-        FSbJEfT7/fkPzd2O3xOp9zTUail50L+fCZCDL+59sLJSeSjPsCbI14jdd6hFhT7H0oh/cMxc/mIi
-        I883QxM5lXZQ177nBF1d4DfQAwmpYdWpnhVCRgaRMhAP+k8tRJLoYc17lYHBNmvSS+EkI2P+ehCO
-        72O2p5JXywgvfP+cZFoMVMzSCLt57HVZ1Qg4ZYJbnidDzwtz2ZIDaKQMjSz8ln84lK6k6s3NvjYL
-        4SUf6HgEaL/mlP6nYQoQYFrKNw==
+        GyADACwKbBt5dlSQ1oPc69NicvR8f88Sjq4283tAceJJ1kzENYkFQWJf9mg22YyQSyBohOyOv9Dt
+        2j5UulWMxclqQea65QsXNgiDUShBUIrK+37b1u6cxuxcEQoSTcOiM2r+zq//uaXXDRYQH+fB4X/x
+        SRdIz2sb4HA8GkUxTJ1unygeYnFkpVFshDIvvz57ZWlaDv87CS7U7EUgDt0/HAugHHxi3oe7TB39
+        OI8thiFvw/L1vaU46XOuq6knOMy5/Bs7MuX5t6FGUtR1cIde4wOmnMBvkB5wkF0E28rfCvHFs521
+        7gCeSEgcun/OdVFlsMZsSpN+JI0lJPTeq77/4/Dp+zQfqMwY2+7d12iKlY0TEUj17L5rzMLQxyX7
+        UtfWWh4Y3d41CAcXo2fdGLVpSi+B1qSGBCrpsGRrLdcPnPEC7e37vglpK9wbm/r5VD0hMEZB/bv5
+        NOMGjy0hrov7vpcDXSBxsx5kQywSVk6WchwjHTukudBLHQn5xVdbEsCSk7PTfyoy/YcXmtLCznGJ
+        u0WU2uRYxfRSYIpUh/ccxwF0gHKmKfIC
     - service: tg
       id:
         - 851
@@ -12910,24 +12912,28 @@
       id: DKFhu5-P9Yy
       mediaId: '17909599452038799'
       published: 2025-05-25-18-19-43
-      updated: 2025-05-25-19-11-04
+      updated: 2025-05-25-20-15-10
       followers: 1543
-      likes: 14
+      likes: 24
     - service: vk
       id: 2383
       published: 2025-05-25-18-19-50
-      updated: 2025-05-25-19-11-04
+      updated: 2025-05-25-20-15-10
       followers: 1308
-      likes: 11
-      views: 44
+      likes: 15
+      views: 75
+      reposts: 1
       comments: !c CxiAkZPLQnlwjRh9gACtQ2hlcm5vc290aW5lY7fQntGE0LjQs9C10L3QvdC+4p2k8J+ZjwM=
     - service: tg
       id: 858
       published: 2025-05-25-18-19-56
-      updated: 2025-05-25-19-11-03
+      updated: 2025-05-25-20-15-10
       followers: 740
-      likes: 20
-      views: 64
+      likes: 25
+      views: 82
+      comments: !c |-
+        G2gA+I2UbsI8KOi0EJ6liiQcrhZs3yp1KpXgCeosvnMMV1JdaCIIu5ZJYJU6JG23xyta9E+/wopn
+        UlatCUfj3tBeNtXiH5OY1Vob7RHNQTMeMVoBrSmoAx0YHhsAtcFaGa3LBw==
 2018-11-13-couple-in-love:
   title: Couple in Love
   titleRu: Влюблённая парочка
