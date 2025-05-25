@@ -2118,10 +2118,10 @@
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
-      updated: 2025-05-18-19-09-26
+      updated: 2025-05-25-19-11-08
       followers: 514
       likes: 55
-      views: 605
+      views: 607
       comments: !c |-
         G7cAAByJcSzJSmHuRqj0e9b12/Lle1fJSuhLDoUzXwh9E0SGvCYo3OAEkjDBQPiJBtFxGnE9KwEo
         8XwbHLtnJX0NKwhijU0V0OTUbxHMYtnFBziBA7iFGzjFArbtbnCFBTjAYgtHWMM2HTk/sUnOr3Sa
@@ -7930,10 +7930,10 @@
     - service: tg
       id: 489
       published: 2024-08-03-18-19-41
-      updated: 2025-05-18-19-09-27
+      updated: 2025-05-25-19-11-09
       followers: 428
       likes: 57
-      views: 6722
+      views: 6725
       comments: !c |-
         izGAkZTLQnkRxbvWAACremhlY2hrYV9kcnak8J+YjZPLQnkRxdocAAClYW5zaXPZNmV2ZXJ5IGdy
         YXplbGFuZGVyIGJveSBsb3ZlcyBoaW1zZWxmIGEgZ3VhciBoZXJkZXIgZ2lybAM=
@@ -8706,10 +8706,10 @@
     - service: tg
       id: 855
       published: 2025-05-22-18-58-00
-      updated: 2025-05-24-18-18-32
+      updated: 2025-05-25-19-11-05
       followers: 739
-      likes: 47
-      views: 224
+      likes: 51
+      views: 254
       comments: !c |-
         G7IAOIyTY+1o30eo9P//5j+ggDueUBaHUrw3rYFtkDaG6aWPX91mio/NkH2QDcGBs5iiVXTKieSc
         QosCsQAT/vZiUak7lGiky1XTNvLoYXRBDQ16aDFbp/F/kTLoeb0/g17i1u/uXh4J/xINygAK82Kh
@@ -9319,10 +9319,10 @@
         - 853
         - 854
       published: 2025-05-20-18-48-00
-      updated: 2025-05-24-18-18-33
+      updated: 2025-05-25-19-11-05
       followers: 738
-      likes: 58
-      views: 243
+      likes: 61
+      views: 287
       comments: !c |-
         G5cCAByJsa2D7dg+aLqIHs///9E+TugubwQKvJVoJOEEOA0E098Hw/RR66u6KYlwCKERngT1BPRJ
         SDdeGOPbh841hAkkSWpEUdZXCEcB39lpHvi/g70m3fHLUbFbV/wHULuNB2BTOoeqnufitgjqsaJZ
@@ -12910,15 +12910,24 @@
       id: DKFhu5-P9Yy
       mediaId: '17909599452038799'
       published: 2025-05-25-18-19-43
+      updated: 2025-05-25-19-11-04
       followers: 1543
+      likes: 14
     - service: vk
       id: 2383
       published: 2025-05-25-18-19-50
+      updated: 2025-05-25-19-11-04
       followers: 1308
+      likes: 11
+      views: 44
+      comments: !c CxiAkZPLQnlwjRh9gACtQ2hlcm5vc290aW5lY7fQntGE0LjQs9C10L3QvdC+4p2k8J+ZjwM=
     - service: tg
       id: 858
       published: 2025-05-25-18-19-56
+      updated: 2025-05-25-19-11-03
       followers: 740
+      likes: 20
+      views: 64
 2018-11-13-couple-in-love:
   title: Couple in Love
   titleRu: Влюблённая парочка
