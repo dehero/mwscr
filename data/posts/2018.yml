@@ -2111,10 +2111,10 @@
     - service: vk
       id: 1686
       published: 2024-08-10-18-18-59
-      updated: 2025-05-18-22-11-22
+      updated: 2025-05-25-22-13-36
       followers: 927
       likes: 26
-      views: 272
+      views: 274
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
@@ -5406,15 +5406,15 @@
     - service: vk
       id: 1646
       published: 2024-07-20-18-20-53
-      updated: 2025-05-18-22-11-25
+      updated: 2025-05-25-22-13-39
       followers: 919
       likes: 56
-      views: 861
+      views: 862
       reposts: 5
     - service: tg
       id: 475
       published: 2024-07-20-18-21-00
-      updated: 2025-05-18-22-11-20
+      updated: 2025-05-25-22-13-34
       followers: 400
       likes: 67
       views: 635
@@ -7923,10 +7923,10 @@
     - service: vk
       id: 1666
       published: 2024-08-03-18-19-32
-      updated: 2025-05-18-22-11-23
+      updated: 2025-05-25-22-13-37
       followers: 925
       likes: 33
-      views: 299
+      views: 301
     - service: tg
       id: 489
       published: 2024-08-03-18-19-41
@@ -12912,25 +12912,25 @@
       id: DKFhu5-P9Yy
       mediaId: '17909599452038799'
       published: 2025-05-25-18-19-43
-      updated: 2025-05-25-21-12-41
+      updated: 2025-05-25-22-13-31
       followers: 1543
-      likes: 31
+      likes: 35
     - service: vk
       id: 2383
       published: 2025-05-25-18-19-50
-      updated: 2025-05-25-21-12-42
+      updated: 2025-05-25-22-13-32
       followers: 1308
-      likes: 17
-      views: 91
+      likes: 18
+      views: 97
       reposts: 1
       comments: !c CxiAkZPLQnlwjRh9gACtQ2hlcm5vc290aW5lY7fQntGE0LjQs9C10L3QvdC+4p2k8J+ZjwM=
     - service: tg
       id: 858
       published: 2025-05-25-18-19-56
-      updated: 2025-05-25-21-12-41
+      updated: 2025-05-25-22-13-31
       followers: 740
-      likes: 29
-      views: 100
+      likes: 34
+      views: 108
       comments: !c |-
         G2gA+I2UbsI8KOi0EJ6liiQcrhZs3yp1KpXgCeosvnMMV1JdaCIIu5ZJYJU6JG23xyta9E+/wopn
         UlatCUfj3tBeNtXiH5OY1Vob7RHNQTMeMVoBrSmoAx0YHhsAtcFaGa3LBw==
