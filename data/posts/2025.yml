@@ -1847,17 +1847,17 @@
     - service: tg
       id: 849
       published: 2025-05-19-19-10-00
-      updated: 2025-05-24-07-13-11
+      updated: 2025-05-25-07-13-19
       followers: 737
-      likes: 56
-      views: 324
+      likes: 57
+      views: 344
     - service: ig
       id: DJ2KWFrP9qY
       mediaId: '18075948961895723'
       published: 2025-05-19-19-06-00
-      updated: 2025-05-24-07-13-12
+      updated: 2025-05-25-07-13-19
       followers: 1535
-      likes: 55
+      likes: 56
 2025-05-20-mans-best-friend:
   title: Man's Best Friend
   titleRu: Лучший друг человека
@@ -1928,7 +1928,7 @@
     - service: vk
       id: 2379
       published: 2025-05-23-19-07-05
-      updated: 2025-05-25-06-19-24
+      updated: 2025-05-25-07-13-19
       followers: 1302
       likes: 27
       views: 189
@@ -1939,10 +1939,10 @@
     - service: tg
       id: 856
       published: 2025-05-23-19-07-10
-      updated: 2025-05-25-06-19-24
+      updated: 2025-05-25-07-13-19
       followers: 739
-      likes: 49
-      views: 200
+      likes: 51
+      views: 207
       comments: !c |-
         CyiAkZPLQnlv78YTgADZLNCU0LDQvdGPIOGmk+qrneqqls+B6qqu4aaT6qud6qqA6qC44ZuV6qqu
         6qqct9CQINCyINC00LDQu9C4INC90LXRgtGHAw==
@@ -1950,7 +1950,7 @@
       id: DKAd6dBoO4v
       mediaId: '18508216570057020'
       published: 2025-05-23-19-10-12
-      updated: 2025-05-25-06-19-24
+      updated: 2025-05-25-07-13-19
       followers: 1542
       likes: 51
 2025-05-24-snug-corridor: 2023-07-30-snug-corridor-by-darkness-rifho
