@@ -31,6 +31,7 @@ export async function resolve(issue: GithubIssue) {
 
   const id = createRequestProposalId(request);
   await inbox.addItem(request, id);
+  await inbox.save();
 
   console.info(`Created post request "${id}".`);
 }
