@@ -134,23 +134,24 @@
     - service: vk
       id: 2089
       published: 2025-01-26-18-09-31
-      updated: 2025-05-19-04-21-02
+      updated: 2025-05-26-04-21-22
       followers: 1055
       likes: 55
-      views: 456
+      views: 458
       reposts: 4
     - service: tg
       id: 682
       published: 2025-01-26-18-09-37
-      updated: 2025-05-19-03-13-51
+      updated: 2025-05-26-04-21-15
       followers: 660
       likes: 72
-      views: 579
+      views: 581
       comments: !c |-
-        G5YCAJwHtu1wK5R0P8ONnYLm/1x7wwGOcBat87jIeJ4/yq9K/MBO6PBgAy6SRAabaMbTbQU5X4qq
-        R0+5z1u0foV27wMuE1im77AMAKY3bDsuOawoORTfCH2MUTD8a0jvMFNq1HsxfDo0PLzG4ESjz/eq
-        OJhG/mFXPUslV62WvrL6+4rgSgGBgL6CIkABAAgAI0AYD7Qx4ETwAtDHIC0VAIDH88LXmDy3B1fX
-        oSIV9NdyPr2ctBdd1MnNyvU6tnBGZJctppu5PoY5PTZS1W5qnBq0TbKXd3wJ
+        G7oCCBwJNi5y09zTqewSzizgUALd/r8ftCQ4QxPn2g1Hmj6L1nnXV58/pmWIF7fQ41eHzNRN/q3/
+        aLOQ5xDoogBLx1b5ADw725BkySWmvCD+Zr93qtyperJUn71WK6q5XSwJfimyC6usQMfVbzopr1Oq
+        /QkAeNP006Sz6Xei4Syk1VeO3ilHA4Ar+OWHnVFlk9COIv8L9j/tm1xBRAj8FUHgAEAAPIFsGdYK
+        gqSUWYKF0UwAYLoEfq0ih39cXcVkHe06XhKxthPjXdLkMna5yCbylFT7a2c0zbFPcPDjg9Kjkt7Q
+        q4VCO6sF
 2025-01-27-fishing-in-the-rain:
   title: Fishing in the Rain
   titleRu: Рыбалка под дождём
@@ -550,10 +551,10 @@
     - service: vk
       id: 2196
       published: 2025-03-16-18-10-17
-      updated: 2025-05-19-03-13-46
+      updated: 2025-05-26-04-21-13
       followers: 1187
       likes: 100
-      views: 737
+      views: 738
       reposts: 8
       comments: !c |-
         iyaAkZPLQnlaeHkzgACraWQ4MjA3MDI2NjTZNdCSINCz0L7RgdGC0Lgg0Log0YHQutCw0LDQu9Cw
@@ -561,10 +562,10 @@
     - service: tg
       id: 749
       published: 2025-03-16-18-10-24
-      updated: 2025-05-19-03-13-46
+      updated: 2025-05-26-04-21-11
       followers: 705
       likes: 78
-      views: 768
+      views: 770
       comments: !c CxCAkZPLQnlaKKkSgACnbWxlbm5pY61hIG1hc3RlcnBpZWNlAw==
 2025-03-17-first-stars-above-assurnabitashpi:
   title: First Stars Above Assurnabitashpi
@@ -813,18 +814,18 @@
     - service: vk
       id: 2219
       published: 2025-03-23-18-44-52
-      updated: 2025-05-19-03-13-45
+      updated: 2025-05-26-04-21-12
       followers: 1206
       likes: 28
-      views: 399
+      views: 401
       reposts: 1
     - service: tg
       id: 759
       published: 2025-03-23-18-44-58
-      updated: 2025-05-19-03-13-45
+      updated: 2025-05-26-04-21-11
       followers: 709
       likes: 50
-      views: 488
+      views: 489
 2025-03-24-night-street-of-balmora: 2017-04-02-night-street-of-balmora
 2025-03-25-under-gateway-inn:
   title: Under Gateway Inn
