@@ -1799,7 +1799,7 @@
     - service: vk
       id: 2168
       published: 2025-03-03-18-10-48
-      updated: 2025-05-20-05-39-23
+      updated: 2025-05-27-11-00-53
       followers: 1158
       likes: 57
       views: 477
@@ -1807,10 +1807,10 @@
     - service: tg
       id: 733
       published: 2025-03-03-18-10-55
-      updated: 2025-05-20-05-39-17
+      updated: 2025-05-27-11-00-46
       followers: 689
       likes: 64
-      views: 533
+      views: 535
       comments: !c iw+AkZPLQnlV2wIfgACvVmFpbCBBc3Rvcid6a2l5pPCfmIID
 2020-11-07-mushroom-fields-forever:
   title: Mushroom Fields Forever

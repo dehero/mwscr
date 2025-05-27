@@ -1119,8 +1119,7 @@
 2017-01-28-2-meditative-night-in-ahemmusa-camp:
   title: Meditative Night in Ahemmusa Camp
   titleRu: Ночь медитации в лагере Ахеммуза
-  description:
-    Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
+  description: Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
   descriptionRu: Камера была закреплена дождливым вечером над юртой ашхана и оставалась там до утра.
   placement: Outdoors
   location: Ahemmusa Camp
@@ -1399,17 +1398,17 @@
     - service: vk
       id: 1697
       published: 2024-08-18-18-17-50
-      updated: 2025-05-20-05-39-37
+      updated: 2025-05-27-11-01-12
       followers: 934
       likes: 38
-      views: 289
+      views: 290
     - service: tg
       id: 505
       published: 2024-08-18-18-17-57
-      updated: 2025-05-20-05-39-27
+      updated: 2025-05-27-11-01-06
       followers: 529
       likes: 59
-      views: 620
+      views: 622
       comments: !c CxWAkZPLQnkZFt9GAACncGFybHNlebfQu9GD0YfRiNC40Lkg0LrQsNC90LDQuwM=
 2017-02-04-rumors-are-about-some-two-prisoners:
   title: Rumors Are About Some Two Prisoners
@@ -3141,15 +3140,36 @@
       id: DKIGkWExlW9
       mediaId: 17851461927460444
       published: 2025-05-26-18-20-00
+      updated: 2025-05-27-11-00-32
       followers: 1545
+      likes: 65
+      comments: !c |-
+        iziAkZTLQnlw4C0LgACrc3Bhc25ha3JvdmnZPm9uZSBvZiB0aGUgYmVzdCBzaG90cyBJ4oCZdmUg
+        c2VlbiBvbiB0aGlzIGFjYywgaWYgbm90IHRoZSBiZXN0k8tCeXDhRooAAKVtd3NjcqpUaGFuayB5
+        b3UhAw==
     - service: vk
       id: 2392
       published: 2025-05-26-18-20-00
+      updated: 2025-05-27-11-00-29
       followers: 1309
+      likes: 35
+      views: 191
+      reposts: 2
+      comments: !c |-
+        iyKAkZPLQnlxDOPSgAC0ZmlsYXZhbmRyZWxfb2ZmaWNpYWzZJNCU0L4g0YHQuNGFINC/0L7RgCDQ
+        stC40LQg0LjQvNC10LXRggM=
     - service: tg
       id: 859
       published: 2025-05-26-19-35-00
+      updated: 2025-05-27-11-00-30
       followers: 741
+      likes: 49
+      views: 158
+      comments: !c |-
+        G+EAIJwHtq1wuxTtQvqZOPj//rRP+MDSLKEEMAHaJtyr7ay2QlDP1bV1bh73FXSeOhKsNUumyPKW
+        qpK1Yr/9b37smE9KV5qQpSDaTOjc4ETDwSAaBx7saQB8C3jQjdXD8wXFNLAor9fPrNf/3253ToVI
+        krNuj/TkJu/oqala+QBXHWAu6mHNG+23/p3b1RQos4jE/TF22Cjj/Nb7KRcujUBtJ2zUAGpiSmNT
+        g3AYjZFBQpORdxmCiNFcXYsj2XtMGq0EU1uIFyCg1cI8YGVx27oH
 2017-03-14-dagon-fel-itar-the-gentles-house:
   title: Dagon Fel, Itar the Gentle's House
   titleRu: Дагон Фел, Дом Итара Благородного
@@ -3218,17 +3238,17 @@
     - service: vk
       id: 1920
       published: 2024-11-25-18-10-47
-      updated: 2025-05-20-10-24-33
+      updated: 2025-05-27-11-01-07
       followers: 1009
       likes: 53
-      views: 336
+      views: 337
     - service: tg
       id: 606
       published: 2024-11-25-18-10-54
-      updated: 2025-05-20-10-24-34
+      updated: 2025-05-27-11-01-03
       followers: 575
       likes: 65
-      views: 851
+      views: 853
       comments: !c iw6AkZPLQnk3MqrUgACtT2xtZXJfSXpkZXlsYaTwn5KpAw==
 2017-03-16-in-the-chambers-of-nchurdamz:
   title: In the Chambers of Nchurdamz
@@ -3681,7 +3701,7 @@
     - service: vk
       id: 1583
       published: 2024-06-16-18-19-48
-      updated: 2025-05-20-05-39-46
+      updated: 2025-05-27-11-01-22
       followers: 918
       likes: 52
       views: 384
@@ -3689,10 +3709,10 @@
     - service: tg
       id: 441
       published: 2024-06-16-18-19-56
-      updated: 2025-05-20-05-39-41
+      updated: 2025-05-27-11-01-14
       followers: 386
       likes: 60
-      views: 553
+      views: 554
 2017-03-27-on-the-edge-of-a-dead-forest:
   title: On the Edge of a Dead Forest
   titleRu: На краю мёртвого леса
@@ -4040,7 +4060,7 @@
       id: DHl3itkPoyP
       mediaId: '17898884301156540'
       published: 2025-03-24-18-11-47
-      updated: 2025-05-20-05-39-15
+      updated: 2025-05-27-11-00-49
       followers: 1529
       likes: 94
       views: 402
@@ -4052,18 +4072,18 @@
     - service: vk
       id: 2220
       published: 2025-03-24-18-11-55
-      updated: 2025-05-20-05-39-19
+      updated: 2025-05-27-11-00-47
       followers: 1209
       likes: 69
-      views: 476
+      views: 478
       reposts: 4
     - service: tg
       id: 760
       published: 2025-03-24-18-12-01
-      updated: 2025-05-20-05-39-14
+      updated: 2025-05-27-11-00-44
       followers: 709
       likes: 65
-      views: 508
+      views: 510
 2017-04-03-gnisis:
   title: Gnisis
   titleRu: Гнисис
@@ -4627,17 +4647,17 @@
       id: DFnseKAT28i
       mediaId: '18140510668337607'
       published: 2025-02-03-18-10-45
-      updated: 2025-05-20-05-39-19
+      updated: 2025-05-27-11-00-54
       followers: 1535
       likes: 101
       views: 363
     - service: vk
       id: 2110
       published: 2025-02-03-18-10-54
-      updated: 2025-05-20-05-39-27
+      updated: 2025-05-27-11-00-56
       followers: 1059
       likes: 48
-      views: 489
+      views: 490
       reposts: 2
       comments: !c |-
         G3sIAKwHbMdnNCMQgxFZRSqhuSEm6p66VXH88/7E1eipl6n9pG0yi9MkBI0wCI1ASAx4jKg5V8ul
@@ -4660,10 +4680,10 @@
     - service: tg
       id: 693
       published: 2025-02-03-18-11-03
-      updated: 2025-05-20-05-39-20
+      updated: 2025-05-27-11-00-49
       followers: 664
       likes: 66
-      views: 662
+      views: 665
       comments: !c |-
         iyqAkZPLQnlO8kY5gACqRGltYW1vdG9kcNk+0JrQsNC6INGA0LDQtyDRgdC10LnRh9Cw0YEg0L/R
         gNC+0YXQvtC20YMg0Y3RgtC4INC60LLQtdGB0YLRiykD
@@ -5226,7 +5246,7 @@
     - service: vk
       id: 1494
       published: 2024-04-14-20-32-17
-      updated: 2025-05-20-05-39-54
+      updated: 2025-05-27-11-01-30
       followers: 911
       likes: 41
       views: 309
@@ -5234,10 +5254,10 @@
     - service: tg
       id: 378
       published: 2024-04-14-20-32-22
-      updated: 2025-05-20-05-39-47
+      updated: 2025-05-27-11-01-21
       followers: 351
       likes: 64
-      views: 550
+      views: 551
 2017-05-01-altmer-camp:
   title: Altmer Camp
   titleRu: Лагерь альтмеров
@@ -6046,7 +6066,7 @@
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
   placement: Indoors
-  location: "Mournhold, Royal Palace: Barenziah's Chambers"
+  location: 'Mournhold, Royal Palace: Barenziah''s Chambers'
   content: store:/shots/2017-05-19-queen-mother-in-her-chambers.png
   type: shot
   author: dehero
@@ -6646,18 +6666,18 @@
     - service: vk
       id: 1987
       published: 2024-12-23-18-10-51
-      updated: 2025-05-20-05-39-34
+      updated: 2025-05-27-11-01-03
       followers: 1027
       likes: 36
-      views: 403
+      views: 404
       reposts: 2
     - service: tg
       id: 635
       published: 2024-12-23-18-10-58
-      updated: 2025-05-20-05-39-24
+      updated: 2025-05-27-11-00-56
       followers: 592
       likes: 65
-      views: 796
+      views: 798
       comments: !c |-
         CzmAkpTLQnk/S682gACtTG9mdHlkZWx1c2lvbrtTZXggd2l0aCBhbG1hbGV4aWEgdGVhbfCfkYmT
         y0J5P0vaLoAApWFuc2lzslNodXQgdXAgYmxhc3BoZW1lcpPLQnk/S3UbgAClYW5zaXOqU2xheSBx
@@ -7617,18 +7637,18 @@
     - service: vk
       id: 1659
       published: 2024-07-28-18-20-53
-      updated: 2025-05-20-05-39-39
+      updated: 2025-05-27-11-01-15
       followers: 923
       likes: 38
-      views: 315
+      views: 316
       reposts: 2
     - service: tg
       id: 483
       published: 2024-07-28-18-21-02
-      updated: 2025-05-20-05-39-29
+      updated: 2025-05-27-11-01-08
       followers: 402
       likes: 59
-      views: 2387
+      views: 2390
 2017-07-01-training-room:
   title: Training Room
   titleRu: Тренировочная комната
@@ -8254,16 +8274,16 @@
       id: DJkERH7vAmT
       mediaId: '18043218413207443'
       published: 2025-05-12-18-27-18
-      updated: 2025-05-19-18-18-08
+      updated: 2025-05-27-11-00-40
       followers: 1539
-      likes: 138
+      likes: 142
     - service: vk
       id: 2352
       published: 2025-05-12-18-27-26
-      updated: 2025-05-19-18-18-07
+      updated: 2025-05-27-11-00-38
       followers: 1295
       likes: 63
-      views: 491
+      views: 518
       reposts: 1
       comments: !c |-
         G/EA4J0JdizCZBhaTiCK4hZB8BrEkFjjUQlGmOyRpW4rJZz+kIShG6iH7W1rrNbuBHZbM5qN01NF
@@ -8273,10 +8293,10 @@
     - service: tg
       id: 839
       published: 2025-05-12-18-27-33
-      updated: 2025-05-19-18-18-05
+      updated: 2025-05-27-11-00-37
       followers: 736
       likes: 71
-      views: 381
+      views: 461
       comments: !c |-
         Cy+AkZTLQnlsXKu4AACpR2F0ZW1hdGU3vnRoaXMgZHVkZSBpcyBzaWNrIGFuZCBkZW1lbnRlZJPL
         QnlsXOWUgAClYW5zaXO6Qm9sZCBjb21pbmcgZnJvbSB5b3Ugbid3YWgD
@@ -8772,7 +8792,7 @@
     - service: vk
       id: 1635
       published: 2024-07-14-18-21-58
-      updated: 2025-05-20-05-39-42
+      updated: 2025-05-27-11-01-17
       followers: 919
       likes: 31
       views: 274
@@ -8785,10 +8805,10 @@
     - service: tg
       id: 469
       published: 2024-07-14-18-22-05
-      updated: 2025-05-20-05-39-30
+      updated: 2025-05-27-11-01-10
       followers: 398
       likes: 53
-      views: 513
+      views: 514
       comments: !c ixOAkZPLQnkLJ8TOgAClYW5zaXO2QmVhdXRpZnVsIGFuY2llbnQgc2l0ZQM=
 2017-07-30-in-the-sanctuary:
   title: In the Sanctuary
@@ -9180,14 +9200,14 @@
       id: DGLvl1opXZD
       mediaId: '17906384352096938'
       published: 2025-02-17-18-10-41
-      updated: 2025-05-20-05-39-18
+      updated: 2025-05-27-11-00-53
       followers: 1539
       likes: 78
       views: 404
     - service: vk
       id: 2134
       published: 2025-02-17-18-10-47
-      updated: 2025-05-20-05-39-26
+      updated: 2025-05-27-11-00-55
       followers: 1084
       likes: 32
       views: 446
@@ -9195,10 +9215,10 @@
     - service: tg
       id: 713
       published: 2025-02-17-18-10-54
-      updated: 2025-05-20-05-39-19
+      updated: 2025-05-27-11-00-48
       followers: 678
       likes: 62
-      views: 497
+      views: 498
       comments: !c iw+AkZPLQnlSitdDgACvQWxleGV5IFN0ZXBhbm92pPCfkLQD
 2017-08-11-west-gash:
   title: West Gash
@@ -9512,18 +9532,18 @@
     - service: vk
       id: 1904
       published: 2024-11-18-18-10-48
-      updated: 2025-05-20-10-24-35
+      updated: 2025-05-27-11-01-09
       followers: 1007
       likes: 39
-      views: 342
+      views: 343
       reposts: 2
     - service: tg
       id: 599
       published: 2024-11-18-18-10-58
-      updated: 2025-05-20-10-24-36
+      updated: 2025-05-27-11-01-04
       followers: 573
       likes: 59
-      views: 670
+      views: 671
       comments: !c |-
         G2YAoI3EOIZy8WWIoRih0o/OHdn/g5f/0gZcSWsbaIJGkgxojnHofytOG082bMCBQxD5OIiv1+jV
         JxTs5hzmT3bC8gIchl0/t0tf/Hy+iygucZx6xKs8f4KDaD2sCjVt6SeJw84NkgIA
@@ -10651,7 +10671,7 @@
       id: DEfmNjaz7er
       mediaId: '18059335300902048'
       published: 2025-01-06-18-10-43
-      updated: 2025-05-20-05-39-25
+      updated: 2025-05-27-11-01-00
       followers: 1523
       likes: 97
       views: 447
@@ -10662,10 +10682,10 @@
     - service: vk
       id: 2026
       published: 2025-01-06-18-10-49
-      updated: 2025-05-20-05-39-33
+      updated: 2025-05-27-11-01-01
       followers: 1048
       likes: 42
-      views: 372
+      views: 373
       reposts: 1
       comments: !c |-
         G4EA+J0JvAnrMji1L5ZQPE/eRjjiiJPEtkFSwS7BLqLkfbJ0cyUlMdRdkA/3z8yRyW4PHKI8KUpI
@@ -10673,10 +10693,10 @@
     - service: tg
       id: 655
       published: 2025-01-06-18-10-56
-      updated: 2025-05-20-05-39-23
+      updated: 2025-05-27-11-00-53
       followers: 645
       likes: 68
-      views: 576
+      views: 577
 2017-09-17-night-square:
   title: Night Square
   titleRu: Ночная площадь
@@ -12624,18 +12644,18 @@
     - service: vk
       id: 1547
       published: 2024-05-26-18-17-46
-      updated: 2025-05-20-05-39-49
+      updated: 2025-05-27-11-01-25
       followers: 918
       likes: 32
-      views: 297
+      views: 298
       reposts: 2
     - service: tg
       id: 420
       published: 2024-05-26-18-17-52
-      updated: 2025-05-20-05-39-43
+      updated: 2025-05-27-11-01-16
       followers: 377
       likes: 63
-      views: 458
+      views: 459
 2017-11-07-corridor-keeper:
   title: Corridor Keeper
   titleRu: Хранитель прохода
@@ -12828,17 +12848,17 @@
     - service: vk
       id: 1609
       published: 2024-06-30-18-20-32
-      updated: 2025-05-20-05-39-44
+      updated: 2025-05-27-11-01-19
       followers: 918
       likes: 36
-      views: 260
+      views: 261
     - service: tg
       id: 455
       published: 2024-06-30-18-20-40
-      updated: 2025-05-20-05-39-32
+      updated: 2025-05-27-11-01-12
       followers: 388
       likes: 57
-      views: 686
+      views: 687
     - service: ig
       id: C9NHQl1t7nN
       mediaId: '18003207311373105'
@@ -13765,7 +13785,7 @@
     - service: vk
       id: 1621
       published: 2024-07-07-18-18-57
-      updated: 2025-05-20-05-39-43
+      updated: 2025-05-27-11-01-18
       followers: 919
       likes: 37
       views: 302
@@ -13776,10 +13796,10 @@
     - service: tg
       id: 462
       published: 2024-07-07-18-19-06
-      updated: 2025-05-20-05-39-31
+      updated: 2025-05-27-11-01-11
       followers: 393
       likes: 55
-      views: 528
+      views: 529
     - service: ig
       id: C9TlW1WTRtX
       mediaId: '18036502003995219'
