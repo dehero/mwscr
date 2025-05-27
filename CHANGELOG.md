@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.58.6](https://github.com/dehero/mwscr/compare/v1.58.5...v1.58.6) (2025-05-27)
+
+### Bug Fixes
+
+- save inbox after resolving post request issue
+  ([124e23d](https://github.com/dehero/mwscr/commit/124e23d03f5779276253a4bd2290408444b30b40))
+
 ## [1.58.5](https://github.com/dehero/mwscr/compare/v1.58.4...v1.58.5) (2025-05-23)
 
 ### Bug Fixes
