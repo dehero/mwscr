@@ -1219,17 +1219,17 @@
     - service: vk
       id: 1814
       published: 2024-10-07-18-10-38
-      updated: 2025-05-20-16-28-37
+      updated: 2025-05-27-17-09-22
       followers: 958
       likes: 42
-      views: 333
+      views: 334
     - service: tg
       id: 557
       published: 2024-10-07-18-10-45
-      updated: 2025-05-20-16-28-36
+      updated: 2025-05-27-17-09-18
       followers: 559
       likes: 62
-      views: 508
+      views: 510
 2017-01-31-clear-sky-over-caldera:
   title: Clear Sky Over Caldera
   titleRu: Чистое небо над Кальдерой
@@ -3140,7 +3140,7 @@
       id: DKIGkWExlW9
       mediaId: 17851461927460444
       published: 2025-05-26-18-20-00
-      updated: 2025-05-27-16-12-50
+      updated: 2025-05-27-17-09-20
       followers: 1545
       likes: 68
       comments: !c |-
@@ -3150,10 +3150,10 @@
     - service: vk
       id: 2392
       published: 2025-05-26-18-20-00
-      updated: 2025-05-27-16-12-48
+      updated: 2025-05-27-17-09-16
       followers: 1309
       likes: 38
-      views: 224
+      views: 235
       reposts: 2
       comments: !c |-
         iyKAkZPLQnlxDOPSgAC0ZmlsYXZhbmRyZWxfb2ZmaWNpYWzZJNCU0L4g0YHQuNGFINC/0L7RgCDQ
@@ -3161,7 +3161,7 @@
     - service: tg
       id: 859
       published: 2025-05-26-19-35-00
-      updated: 2025-05-27-16-12-47
+      updated: 2025-05-27-17-09-16
       followers: 741
       likes: 53
       views: 169
@@ -7771,19 +7771,19 @@
     - service: vk
       id: 1766
       published: 2024-09-16-18-30-47
-      updated: 2025-05-20-16-28-40
+      updated: 2025-05-27-17-09-26
       followers: 947
       likes: 52
-      views: 401
+      views: 402
       reposts: 3
       comments: !c ixOAkZPLQnkgEr9RgACpdW50aXRsbDNkstGD0Y7RgtC90LXQvdGM0LrQvgM=
     - service: tg
       id: 534
       published: 2024-09-16-18-30-56
-      updated: 2025-05-20-16-28-39
+      updated: 2025-05-27-17-09-20
       followers: 557
       likes: 67
-      views: 854
+      views: 856
       comments: !c ixWAkZPLQnkfwrfFAACmQzRINk80uSJMb29rcyBsaWtlIGEgZHJlYW0iIPCfpKkD
 2017-07-05-banner-of-house-dagoth:
   title: Banner of House Dagoth
