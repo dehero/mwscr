@@ -3140,9 +3140,9 @@
       id: DKIGkWExlW9
       mediaId: 17851461927460444
       published: 2025-05-26-18-20-00
-      updated: 2025-05-27-20-11-28
+      updated: 2025-05-27-21-09-32
       followers: 1545
-      likes: 70
+      likes: 71
       comments: !c |-
         iziAkZTLQnlw4C0LgACrc3Bhc25ha3JvdmnZPm9uZSBvZiB0aGUgYmVzdCBzaG90cyBJ4oCZdmUg
         c2VlbiBvbiB0aGlzIGFjYywgaWYgbm90IHRoZSBiZXN0k8tCeXDhRooAAKVtd3NjcqpUaGFuayB5
@@ -3150,10 +3150,10 @@
     - service: vk
       id: 2392
       published: 2025-05-26-18-20-00
-      updated: 2025-05-27-20-11-27
+      updated: 2025-05-27-21-09-31
       followers: 1309
-      likes: 39
-      views: 251
+      likes: 40
+      views: 255
       reposts: 2
       comments: !c |-
         iyKAkZPLQnlxDOPSgAC0ZmlsYXZhbmRyZWxfb2ZmaWNpYWzZJNCU0L4g0YHQuNGFINC/0L7RgCDQ
@@ -3161,10 +3161,10 @@
     - service: tg
       id: 859
       published: 2025-05-26-19-35-00
-      updated: 2025-05-27-20-11-27
+      updated: 2025-05-27-21-09-30
       followers: 741
       likes: 56
-      views: 198
+      views: 199
       comments: !c |-
         G3oBgCwO7MbOGx1qoEvxpr8R/RMXO8IvnAUaWM0kHvgFGhRpsk+nc0KbJxfywl3YAjTvYcPsFqMg
         agt1MfhtKBzdCV2Rgqypojtrm6kaDMloK/LwDz7K6fz0MS/kpWAcjIW0Mp0cQZIGol+UaUiRBoHc
@@ -11341,10 +11341,10 @@
     - service: vk
       id: 2319
       published: 2025-04-29-18-24-00
-      updated: 2025-05-20-20-25-11
+      updated: 2025-05-27-21-09-33
       followers: 1274
       likes: 55
-      views: 411
+      views: 422
       comments: !c |-
         G9cDACwOTLxuijF6eBLvRjT+dUPCSCbzGPXIJcuEnUM5luA0IDQhWIzD9JxFlwtnhHyhdvfCpbSs
         jJD8z7k20iTYnqfgwPdrlRp5d35gB5qDN+OI9y5B/B9DIH3BJVaVx3d1pt7EYocnEJJoDHd3ArJH
@@ -11359,10 +11359,10 @@
     - service: tg
       id: 822
       published: 2025-04-29-18-30-21
-      updated: 2025-05-20-20-25-11
+      updated: 2025-05-27-21-09-31
       followers: 728
       likes: 58
-      views: 470
+      views: 487
 2017-10-04-in-the-evening-time:
   title: In the Evening Time
   titleRu: В вечерний час
