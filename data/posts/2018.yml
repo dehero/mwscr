@@ -4131,11 +4131,18 @@
     - service: vk
       id: 2394
       published: 2025-05-27-18-13-01
+      updated: 2025-05-27-19-08-01
       followers: 1309
+      likes: 7
+      views: 36
+      reposts: 1
     - service: tg
       id: 860
       published: 2025-05-27-18-13-08
+      updated: 2025-05-27-19-08-00
       followers: 741
+      likes: 25
+      views: 82
 2018-04-15-views-of-solstheim:
   title: Views of Solstheim
   titleRu: Виды Солстхейма
@@ -7709,16 +7716,16 @@
       id: DJmpK9eTUmw
       mediaId: '18067704613955191'
       published: 2025-05-13-18-28-15
-      updated: 2025-05-20-18-31-54
+      updated: 2025-05-27-19-08-03
       followers: 1538
-      likes: 77
+      likes: 81
     - service: vk
       id: 2356
       published: 2025-05-13-18-28-37
-      updated: 2025-05-20-18-31-53
+      updated: 2025-05-27-19-08-04
       followers: 1295
       likes: 48
-      views: 413
+      views: 435
       reposts: 3
     - service: tg
       id:
@@ -7727,10 +7734,10 @@
         - 842
         - 843
       published: 2025-05-13-18-28-57
-      updated: 2025-05-20-18-31-53
+      updated: 2025-05-27-19-08-04
       followers: 738
       likes: 62
-      views: 428
+      views: 543
 2018-07-16-to-the-swamps:
   title: To the Swamps
   titleRu: К болотам
