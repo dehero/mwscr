@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.58.8](https://github.com/dehero/mwscr/compare/v1.58.7...v1.58.8) (2025-05-28)
+
+### Continuous Integration
+
+- add site connectivity test
+  ([339d2df](https://github.com/dehero/mwscr/commit/339d2df57e3ad7814b771c9d4206c8f55a2c364e))
+
 ## [1.58.7](https://github.com/dehero/mwscr/compare/v1.58.6...v1.58.7) (2025-05-28)
 
 ### Bug Fixes
