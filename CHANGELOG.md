@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.59.0](https://github.com/dehero/mwscr/compare/v1.58.8...v1.59.0) (2025-05-28)
+
+### Features
+
+- add snapshot field to post editing dialog
+  ([bfb5c57](https://github.com/dehero/mwscr/commit/bfb5c57cffcaeb604b072977dc8d6848f501dfc2))
+- always use index in published item IDs
+  ([1f4b91b](https://github.com/dehero/mwscr/commit/1f4b91b7810c1df1414e0b256c7e33f38b4b5823))
+
 ## [1.58.8](https://github.com/dehero/mwscr/compare/v1.58.7...v1.58.8) (2025-05-28)
 
 ### Continuous Integration
