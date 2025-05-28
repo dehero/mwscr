@@ -3,6 +3,7 @@ import type { ListReaderChunk } from '../../core/entities/list-manager.js';
 import type { Post } from '../../core/entities/post.js';
 import type { PostsManagerName, TrashItem } from '../../core/entities/posts-manager.js';
 import {
+  createPublishedPostId,
   getProposedPostChunkName,
   getPublishedPostChunkName,
   InboxItem,
@@ -18,20 +19,23 @@ import { loadYaml, saveYaml } from './utils/yaml.js';
 interface LocalPostsManagerProps<TPost extends Post> {
   name: PostsManagerName;
   dirPath: string;
+  createItemId?: (item: TPost) => Promise<string>;
   getItemChunkName: (id: string) => string;
   ItemSchema: Schema<TPost>;
 }
 
 class LocalPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
   readonly name: PostsManagerName;
+  readonly createItemId: (item: TPost) => Promise<string>;
   readonly getItemChunkName: (id: string) => string;
   readonly dirPath: string;
   readonly ItemSchema: Schema<TPost>;
 
-  constructor({ name, dirPath, getItemChunkName, ItemSchema }: LocalPostsManagerProps<TPost>) {
+  constructor({ name, dirPath, getItemChunkName, createItemId, ItemSchema }: LocalPostsManagerProps<TPost>) {
     super();
     this.name = name;
     this.dirPath = dirPath;
+    this.createItemId = createItemId ?? ((item) => super.createItemId(item));
     this.getItemChunkName = getItemChunkName;
     this.ItemSchema = ItemSchema;
   }
@@ -77,6 +81,7 @@ class LocalPostsManager<TPost extends Post = Post> extends PostsManager<TPost> {
 export const posts = new LocalPostsManager<PublishablePost>({
   name: 'posts',
   dirPath: 'data/posts',
+  createItemId: createPublishedPostId,
   getItemChunkName: getPublishedPostChunkName,
   ItemSchema: PublishablePost,
 });
@@ -84,6 +89,7 @@ export const posts = new LocalPostsManager<PublishablePost>({
 export const extras = new LocalPostsManager<PublishablePost>({
   name: 'extras',
   dirPath: 'data/extras',
+  createItemId: createPublishedPostId,
   getItemChunkName: getPublishedPostChunkName,
   ItemSchema: PublishablePost,
 });

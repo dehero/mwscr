@@ -94,6 +94,20 @@ export function isPublishablePost(post: Post, errors?: string[]): post is Publis
   return checkSchema(PublishablePost, post, errors);
 }
 
+export async function createPublishedPostId(this: PostsManager, post: PublishablePost) {
+  const created = getPostFirstPublished(post) ?? new Date();
+  const dateStr = dateToString(created);
+  const name = textToId(post.title);
+
+  const index = (await this.getItemCount(dateStr)) + 1;
+
+  if (index > 9) {
+    throw new Error('Too many posts for one day (maximum 9)');
+  }
+
+  return [dateStr, index, name].filter((item) => Boolean(item)).join('-');
+}
+
 export function getPublishedPostChunkName(id: string) {
   const chunkName = id.slice(0, 4);
 
@@ -105,18 +119,6 @@ export function getPublishedPostChunkName(id: string) {
 
 export function getProposedPostChunkName(id: string) {
   return id.split('.')[1]?.split('-')[0] ?? new Date().getFullYear().toString();
-}
-
-export function createNewPostId(post: PublishablePost, index?: number) {
-  const created = getPostFirstPublished(post) ?? new Date();
-  const dateStr = dateToString(created);
-  const name = textToId(post.title);
-
-  return [dateStr, index, name].filter((item) => Boolean(item)).join('-');
-}
-
-export function createRepostId(post: PublishablePost) {
-  return createNewPostId({ ...post, posts: undefined });
 }
 
 export function createInboxItemId(creator: string | string[], date: Date, title: string, hash?: string): string {

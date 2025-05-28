@@ -1,7 +1,7 @@
 import type { Post, PostEntry } from '../../core/entities/post.js';
 import { isPostEqual, mergePostWith } from '../../core/entities/post.js';
 import type { PublishablePost } from '../../core/entities/posts-manager.js';
-import { createNewPostId, isPublishablePost } from '../../core/entities/posts-manager.js';
+import { isPublishablePost } from '../../core/entities/posts-manager.js';
 import type { Publication } from '../../core/entities/publication.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { arrayFromAsync } from '../../core/utils/common-utils.js';
@@ -60,7 +60,7 @@ async function grabManualPublications(service: PostingServiceManager) {
           throw new Error(errors.join(', ') || 'cannot add post');
         }
 
-        const newId = createNewPostId(newPost);
+        const newId = await posts.createItemId(newPost);
         await posts.addItem(newPost, newId);
         await posts.save();
 

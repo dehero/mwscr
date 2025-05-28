@@ -1,7 +1,7 @@
 import type { PostEntries, PostEntry } from '../../core/entities/post.js';
 import { comparePostEntriesById, getPostEntriesFromSource } from '../../core/entities/post.js';
 import type { PostsManager, PublishablePost } from '../../core/entities/posts-manager.js';
-import { createNewPostId, createRepostId, isPublishablePost } from '../../core/entities/posts-manager.js';
+import { isPublishablePost } from '../../core/entities/posts-manager.js';
 import { checkRules } from '../../core/entities/rule.js';
 import type { PostingScenario } from '../../core/scenarios/posting.js';
 import { postingScenarios } from '../../core/scenarios/posting.js';
@@ -27,7 +27,7 @@ export async function createNewPost() {
       const [id, post] = entry;
 
       if (!post.posts) {
-        const newId = createNewPostId(post);
+        const newId = await posts.createItemId(post);
 
         await movePublishedPostResources([newId, post]);
 
@@ -39,7 +39,7 @@ export async function createNewPost() {
 
         console.info(`Created post "${newId}" from inbox item "${id}".`);
       } else {
-        const newId = createRepostId(post);
+        const newId = await posts.createItemId({ ...post, posts: undefined });
 
         posts.addItem(id, newId);
         await posts.save();

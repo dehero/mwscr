@@ -71,13 +71,19 @@ export abstract class ListReader<TItem> {
   /**
    * Returns the total number of items in the list across all chunks.
    */
-  async getItemCount(): Promise<number> {
+  async getItemCount(idStartsWith?: string): Promise<number> {
     const chunkNames = await this.getAllChunkNames();
     let count = 0;
 
     for (const chunkName of chunkNames) {
       const chunk = await this.loadChunk(chunkName);
-      count += Object.keys(chunk).length;
+      const keys = Object.keys(chunk);
+
+      if (idStartsWith) {
+        count += keys.filter((id) => id.startsWith(idStartsWith)).length;
+      } else {
+        count += keys.length;
+      }
     }
 
     return count;
@@ -562,7 +568,7 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
    * Creates a unique ID for the given item in the list.
    * Must be implemented by the child class to use `addItem` method without `id` argument.
    */
-  protected async createItemId(_item: TItem): Promise<string> {
+  async createItemId(_item: TItem): Promise<string> {
     throw new Error(`Implement ${this.constructor.name}.createItemId method`);
   }
 

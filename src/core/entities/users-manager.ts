@@ -10,7 +10,7 @@ export abstract class UsersManager extends ListManager<User> {
 
   readonly ItemSchema = User;
 
-  protected async createItemId(item: User): Promise<string> {
+  async createItemId(item: User): Promise<string> {
     let baseId = textToId(item.name ?? '');
     if (!baseId) {
       baseId = textToId(Object.values(item.profiles || {})[0] ?? '');
