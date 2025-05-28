@@ -59,6 +59,10 @@ jobs:
           git pull --rebase -X ours
           git push
 
+      - name: Test site connectivity
+        run: |
+          curl -sS ${{ secrets.SITE_SSH_HOST }}
+
       - name: Build site
         run: npm run build
 
