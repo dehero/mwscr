@@ -4131,27 +4131,27 @@
     - service: vk
       id: 2394
       published: 2025-05-27-18-13-01
-      updated: 2025-05-28-17-14-06
+      updated: 2025-05-28-18-19-13
       followers: 1309
-      likes: 36
-      views: 281
+      likes: 37
+      views: 287
       reposts: 3
       comments: !c CxmAkZPLQnlxWYKRgACpbXJfcHJpbW92vdCi0LXQu9GMINCj0LLQuNGA0LjRgirimJ3wn5iDAw==
     - service: tg
       id: 860
       published: 2025-05-27-18-13-08
-      updated: 2025-05-28-17-14-06
+      updated: 2025-05-28-18-19-14
       followers: 741
       likes: 46
-      views: 168
+      views: 169
       comments: !c Cw+AkZPLQnlxMrKIgACuc3Rhc3lham95c3RpY2uk8J+RjQM=
     - service: ig
       id: DKMJ91kMjAm
       mediaId: '18104481643464130'
       published: 2025-05-28-08-07-00
-      updated: 2025-05-28-17-14-05
+      updated: 2025-05-28-18-19-14
       followers: 1548
-      likes: 54
+      likes: 55
 2018-04-15-views-of-solstheim:
   title: Views of Solstheim
   titleRu: Виды Солстхейма
@@ -9648,9 +9648,9 @@
     - service: tg
       id: 4
       published: 2018-09-01
-      updated: 2025-05-21-17-19-16
+      updated: 2025-05-28-18-19-36
       likes: 4
-      views: 274
+      views: 275
     - service: ig
       id: DEnUpj_TlTF
       mediaId: '18017017646452657'
@@ -9727,7 +9727,7 @@
         - 7
         - 8
       published: 2018-09-02
-      updated: 2025-05-21-17-19-15
+      updated: 2025-05-28-18-19-35
       likes: 3
       views: 230
     - service: vk
@@ -9793,7 +9793,7 @@
     - service: tg
       id: 9
       published: 2018-09-03
-      updated: 2025-05-21-17-19-14
+      updated: 2025-05-28-18-19-34
       likes: 2
       views: 209
 2018-09-04-near-the-ghostgate:
@@ -9827,7 +9827,7 @@
     - service: tg
       id: 10
       published: 2018-09-04
-      updated: 2025-05-21-17-19-13
+      updated: 2025-05-28-18-19-32
       likes: 2
       views: 204
     - service: ig
@@ -9889,7 +9889,7 @@
     - service: tg
       id: 11
       published: 2018-09-05
-      updated: 2025-05-21-17-19-12
+      updated: 2025-05-28-18-19-31
       likes: 2
       views: 191
 2018-09-06-in-the-wisewomans-yurt:
@@ -9928,7 +9928,7 @@
     - service: tg
       id: 12
       published: 2018-09-06
-      updated: 2025-05-21-17-19-11
+      updated: 2025-05-28-18-19-30
       likes: 3
       views: 190
 2018-09-07-red-light:
@@ -9964,7 +9964,7 @@
     - service: tg
       id: 13
       published: 2018-09-07
-      updated: 2025-05-21-17-19-10
+      updated: 2025-05-28-18-19-29
       likes: 2
       views: 220
     - service: vk
@@ -10023,7 +10023,7 @@
     - service: tg
       id: 14
       published: 2018-09-08
-      updated: 2025-05-21-17-19-09
+      updated: 2025-05-28-18-19-28
       likes: 3
       views: 313
 2018-09-09-wild-beasts-of-solstheim:
@@ -10072,7 +10072,7 @@
         - 23
         - 25
       published: 2018-09-09
-      updated: 2025-05-21-17-19-08
+      updated: 2025-05-28-18-19-27
       likes: 3
       views: 210
 2018-09-10-foggy-loneliness:
@@ -10113,7 +10113,7 @@
     - service: tg
       id: 26
       published: 2018-09-10
-      updated: 2025-05-21-17-19-07
+      updated: 2025-05-28-18-19-26
       likes: 2
       views: 188
 2018-09-11-galmis-dren-smuggler:
@@ -10149,7 +10149,7 @@
     - service: tg
       id: 27
       published: 2018-09-11
-      updated: 2025-05-21-17-19-06
+      updated: 2025-05-28-18-19-25
       likes: 3
       views: 191
 2018-09-12-forager:
@@ -10184,7 +10184,7 @@
     - service: tg
       id: 28
       published: 2018-09-12
-      updated: 2025-05-21-17-19-06
+      updated: 2025-05-28-18-19-24
       likes: 4
       views: 190
     - service: ig
@@ -10242,7 +10242,7 @@
     - service: tg
       id: 29
       published: 2018-09-13
-      updated: 2025-05-21-17-19-05
+      updated: 2025-05-28-18-19-24
       likes: 2
       views: 214
     - service: tg
@@ -10306,7 +10306,7 @@
     - service: tg
       id: 30
       published: 2018-09-14
-      updated: 2025-05-21-17-19-04
+      updated: 2025-05-28-18-19-23
       likes: 3
       views: 187
 2018-09-15-dark-vaults-of-nammu:
@@ -10344,7 +10344,7 @@
     - service: tg
       id: 31
       published: 2018-09-15
-      updated: 2025-05-21-17-19-03
+      updated: 2025-05-28-18-19-22
       likes: 3
       views: 192
 2018-09-16-city-lights:
@@ -10390,7 +10390,7 @@
         - 35
         - 36
       published: 2018-09-16
-      updated: 2025-05-21-17-19-02
+      updated: 2025-05-28-18-19-21
       likes: 2
       views: 204
 2018-09-17-dren-plantation:
@@ -10428,7 +10428,7 @@
     - service: tg
       id: 37
       published: 2018-09-17
-      updated: 2025-05-21-17-19-01
+      updated: 2025-05-28-18-19-20
       likes: 2
       views: 192
 2018-09-18-dead-grove:
@@ -10462,7 +10462,7 @@
     - service: tg
       id: 38
       published: 2018-09-18
-      updated: 2025-05-21-17-19-00
+      updated: 2025-05-28-18-19-19
       likes: 3
       views: 189
 2018-09-19-teris-raledran-and-rollie-the-guar:
@@ -10498,7 +10498,7 @@
     - service: tg
       id: 39
       published: 2018-09-19
-      updated: 2025-05-21-17-18-59
+      updated: 2025-05-28-18-19-18
       likes: 4
       views: 197
 2018-09-20-in-the-west-wing-of-gateway-inn:
@@ -12941,16 +12941,16 @@
       id: DKFhu5-P9Yy
       mediaId: '17909599452038799'
       published: 2025-05-25-18-19-43
-      updated: 2025-05-27-18-12-42
+      updated: 2025-05-28-18-19-18
       followers: 1543
-      likes: 65
+      likes: 66
     - service: vk
       id: 2383
       published: 2025-05-25-18-19-50
-      updated: 2025-05-27-18-12-40
+      updated: 2025-05-28-18-19-17
       followers: 1308
-      likes: 45
-      views: 250
+      likes: 47
+      views: 265
       reposts: 2
       comments: !c |-
         G5kAqIyUbsJ8hCSz8Dx/P7/gx6eflkAb4ICiyyJpHs2zgeS5OCqgqdtKSlcwJL0Mx3TXDY4DC5wT
@@ -12959,10 +12959,10 @@
     - service: tg
       id: 858
       published: 2025-05-25-18-19-56
-      updated: 2025-05-27-18-12-40
+      updated: 2025-05-28-18-19-16
       followers: 740
-      likes: 56
-      views: 218
+      likes: 58
+      views: 239
       comments: !c |-
         G9IA4B0Hdqwx+HA4srcfodLpeT1Jf7xmTaq+bMIbweSenuq5XsfXEBlTPTr3hLMJN5XPftRBd79o
         n1rgO8aB+0o32sDbgjNdJ1YPULCYt+v55T67X4fYd6gfCVJZpYU4hH7Pjc/JhrFmZfDH1075AYRa
