@@ -29,7 +29,7 @@ const shotSet: PostingScenario = [
 
 const shot: PostingScenario = [
   'shot',
-  [afterHour(18), lastPublishedHoursAgo(12), lastPostedDaysAgo(1)],
+  [afterHour(18), lastPostedDaysAgo(1)],
   [
     needCertainType('shot'),
     needMinMarkDistance('C', 14),
