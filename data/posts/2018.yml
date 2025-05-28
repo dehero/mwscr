@@ -4131,16 +4131,16 @@
     - service: vk
       id: 2394
       published: 2025-05-27-18-13-01
-      updated: 2025-05-28-10-16-27
+      updated: 2025-05-28-11-12-57
       followers: 1309
-      likes: 31
-      views: 240
+      likes: 32
+      views: 244
       reposts: 3
       comments: !c CxmAkZPLQnlxWYKRgACpbXJfcHJpbW92vdCi0LXQu9GMINCj0LLQuNGA0LjRgirimJ3wn5iDAw==
     - service: tg
       id: 860
       published: 2025-05-27-18-13-08
-      updated: 2025-05-28-10-16-27
+      updated: 2025-05-28-11-12-57
       followers: 741
       likes: 43
       views: 157
@@ -4149,9 +4149,9 @@
       id: DKMJ91kMjAm
       mediaId: '18104481643464130'
       published: 2025-05-28-08-07-00
-      updated: 2025-05-28-10-16-26
+      updated: 2025-05-28-11-12-56
       followers: 1548
-      likes: 25
+      likes: 31
 2018-04-15-views-of-solstheim:
   title: Views of Solstheim
   titleRu: Виды Солстхейма
@@ -8707,20 +8707,22 @@
       id: DJ9zCeLzLg-
       mediaId: '17959089899926145'
       published: 2025-05-22-18-17-00
-      updated: 2025-05-27-11-00-36
+      updated: 2025-05-28-11-13-01
       followers: 1542
-      likes: 132
+      likes: 134
       comments: !c |-
-        C0yAlJPLQnlwG61VgACpemFjX3Nwcnluq1doYXQgYSB1bml0k8tCeW/TQM6AALFjYW1pc29sZW9y
-        Z2FuaXF1ZaVPaCBub5PLQnlvnOIbAACtZGFuaWVsbGVfaGlpaaxOYXN0eSBmZWxsYS6Ty0J5b5at
-        PQAAqXRlcnZhZ2FudLxEb24ndCB3b3JyeS4gSSdsbCBiZSBnZW50bGUuAw==
+        G0gBYIzDOBacOmEwOff3c1toXNfNE58mVhrk6ZvYn3gidEsczbQTGpGETs78Ql8lSXELgE+aQJY7
+        0ccH4uu2toegrEX0QYu1rC1Jc24+g7HjjJLykKTYfr36WhmO97UFcTPpd0JaBHnvD5d9ssSpsnBe
+        SXo4ijA9oobgmdlyDpntyNvey2M1+u/gVIiAbDqEoqXJfklOgsEuw76cGkEN4ZAGJkQYAc1dBkLq
+        0AiraVDXfHWuZFWMg6j0r3cgJns7GKD4xxvfquxZMXbhl/Q+TGHfJunjfN9+nSDumuxb4LogmpZl
+        3UqOk9LXKTIq2Wj6fU4gymRD9pNPYF9IyBxHUYnIFFyXVIB8f1RdQA==
     - service: vk
       id: 2377
       published: 2025-05-22-18-17-00
-      updated: 2025-05-27-11-00-34
+      updated: 2025-05-28-11-13-02
       followers: 1302
-      likes: 42
-      views: 388
+      likes: 44
+      views: 400
       reposts: 1
       comments: !c |-
         GwABACwOeHNwJczMXYOUBHlhI1Q6/RMXO+AD+tpMiUaURJGXWBEm+5xtlVANnwLu5ZzsANI8hIoV
@@ -8730,10 +8732,10 @@
     - service: tg
       id: 855
       published: 2025-05-22-18-58-00
-      updated: 2025-05-27-11-00-33
+      updated: 2025-05-28-11-13-00
       followers: 739
-      likes: 52
-      views: 306
+      likes: 53
+      views: 319
       comments: !c |-
         G7IAOIyTY+1o30eo9P//5j+ggDueUBaHUrw3rYFtkDaG6aWPX91mio/NkH2QDcGBs5iiVXTKieSc
         QosCsQAT/vZiUak7lGiky1XTNvLoYXRBDQ16aDFbp/F/kTLoeb0/g17i1u/uXh4J/xINygAK82Kh
@@ -9318,16 +9320,16 @@
       id: DJ7P-LogMB-
       mediaId: '18124830985440252'
       published: 2025-05-21-18-32-00
-      updated: 2025-05-27-11-00-37
+      updated: 2025-05-28-11-13-02
       followers: 1540
-      likes: 126
+      likes: 127
     - service: vk
       id: 2374
       published: 2025-05-21-18-32-00
-      updated: 2025-05-27-11-00-35
+      updated: 2025-05-28-11-13-03
       followers: 1302
       likes: 60
-      views: 323
+      views: 327
       reposts: 3
       comments: !c |-
         G1kFACwKbBtb9qkgrYH86XI7QpJO/qG/9/0nHDqamZvK4Yh3axQPaCsgrYm1vzbZV8sxWIaNA85V
@@ -9348,10 +9350,10 @@
         - 853
         - 854
       published: 2025-05-20-18-48-00
-      updated: 2025-05-27-11-00-34
+      updated: 2025-05-28-11-13-01
       followers: 738
       likes: 62
-      views: 343
+      views: 365
       comments: !c |-
         G5cCAByJsa2D7dg+aLqIHs///9E+TugubwQKvJVoJOEEOA0E098Hw/RR66u6KYlwCKERngT1BPRJ
         SDdeGOPbh841hAkkSWpEUdZXCEcB39lpHvi/g70m3fHLUbFbV/wHULuNB2BTOoeqnufitgjqsaJZ
