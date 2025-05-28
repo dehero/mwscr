@@ -48,7 +48,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
         TELEGRAM_API_APP_HASH,
         {
           connectionRetries: 5,
-          reconnectRetries: 0, // Don't try to reconnect to avoid infinite script execution
+          reconnectRetries: 1, // Reconnect only once to avoid infinite script execution
           baseLogger: new Logger(LogLevel.DEBUG),
         },
       );
