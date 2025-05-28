@@ -4131,25 +4131,27 @@
     - service: vk
       id: 2394
       published: 2025-05-27-18-13-01
-      updated: 2025-05-28-07-56-22
+      updated: 2025-05-28-09-16-12
       followers: 1309
-      likes: 28
-      views: 199
+      likes: 31
+      views: 231
       reposts: 2
       comments: !c CxmAkZPLQnlxWYKRgACpbXJfcHJpbW92vdCi0LXQu9GMINCj0LLQuNGA0LjRgirimJ3wn5iDAw==
     - service: tg
       id: 860
       published: 2025-05-27-18-13-08
-      updated: 2025-05-28-07-56-22
+      updated: 2025-05-28-09-16-11
       followers: 741
-      likes: 41
-      views: 149
+      likes: 43
+      views: 156
       comments: !c Cw+AkZPLQnlxMrKIgACuc3Rhc3lham95c3RpY2uk8J+RjQM=
     - service: ig
       id: DKMJ91kMjAm
       mediaId: '18104481643464130'
       published: 2025-05-28-08-07-00
+      updated: 2025-05-28-09-16-10
       followers: 1548
+      likes: 18
 2018-04-15-views-of-solstheim:
   title: Views of Solstheim
   titleRu: Виды Солстхейма
@@ -6073,7 +6075,7 @@
   title: Mournhold Cactus
   titleRu: Морнхолдский кактус
   placement: Indoors
-  location: "Mournhold, Royal Palace: Guards' Quarters"
+  location: 'Mournhold, Royal Palace: Guards'' Quarters'
   content: store:/shots/2018-06-02-mournhold-cactus.png
   type: shot
   author: dehero
@@ -6377,7 +6379,7 @@
   placement: Indoors
   location:
     - Imperial Prison Ship
-    - "Mournhold, Royal Palace: Barenziah's Chambers"
+    - 'Mournhold, Royal Palace: Barenziah''s Chambers'
     - Tower of Tel Fyr, Hall of Fyr
     - Seyda Neen, Census and Excise Office
   content:
@@ -10909,7 +10911,7 @@
       id: DIwjvpdAFVC
       mediaId: '18036192113308979'
       published: 2025-04-22-19-21-00
-      updated: 2025-05-21-08-29-37
+      updated: 2025-05-28-09-16-14
       followers: 1530
       likes: 125
     - service: vk
@@ -10929,10 +10931,10 @@
     - service: tg
       id: 808
       published: 2025-04-22-19-57-23
-      updated: 2025-05-21-08-29-36
+      updated: 2025-05-28-09-16-15
       followers: 724
       likes: 72
-      views: 528
+      views: 538
 2018-09-29-towers-of-arkngthand:
   title: Towers of Arkngthand
   titleRu: Башни Аркнтанда
