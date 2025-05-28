@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.58.7](https://github.com/dehero/mwscr/compare/v1.58.6...v1.58.7) (2025-05-28)
+
+### Bug Fixes
+
+- adjust Telegram reconnect retries
+  ([17bbf4d](https://github.com/dehero/mwscr/commit/17bbf4de6b62fc24cd6e9ecb8e26d45641a914d4))
+
 ## [1.58.6](https://github.com/dehero/mwscr/compare/v1.58.5...v1.58.6) (2025-05-27)
 
 ### Bug Fixes
