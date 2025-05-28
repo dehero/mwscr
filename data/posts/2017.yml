@@ -3140,9 +3140,9 @@
       id: DKIGkWExlW9
       mediaId: 17851461927460444
       published: 2025-05-26-18-20-00
-      updated: 2025-05-28-04-14-59
+      updated: 2025-05-28-05-10-55
       followers: 1545
-      likes: 79
+      likes: 80
       comments: !c |-
         iziAkZTLQnlw4C0LgACrc3Bhc25ha3JvdmnZPm9uZSBvZiB0aGUgYmVzdCBzaG90cyBJ4oCZdmUg
         c2VlbiBvbiB0aGlzIGFjYywgaWYgbm90IHRoZSBiZXN0k8tCeXDhRooAAKVtd3NjcqpUaGFuayB5
@@ -3150,10 +3150,10 @@
     - service: vk
       id: 2392
       published: 2025-05-26-18-20-00
-      updated: 2025-05-28-04-14-59
+      updated: 2025-05-28-05-10-56
       followers: 1309
-      likes: 44
-      views: 273
+      likes: 46
+      views: 278
       reposts: 2
       comments: !c |-
         iyKAkZPLQnlxDOPSgAC0ZmlsYXZhbmRyZWxfb2ZmaWNpYWzZJNCU0L4g0YHQuNGFINC/0L7RgCDQ
@@ -3161,7 +3161,7 @@
     - service: tg
       id: 859
       published: 2025-05-26-19-35-00
-      updated: 2025-05-28-04-14-58
+      updated: 2025-05-28-05-10-55
       followers: 741
       likes: 56
       views: 205

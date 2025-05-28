@@ -4131,18 +4131,18 @@
     - service: vk
       id: 2394
       published: 2025-05-27-18-13-01
-      updated: 2025-05-28-04-14-58
+      updated: 2025-05-28-05-10-53
       followers: 1309
-      likes: 18
-      views: 132
-      reposts: 1
+      likes: 19
+      views: 144
+      reposts: 2
     - service: tg
       id: 860
       published: 2025-05-27-18-13-08
-      updated: 2025-05-28-04-14-57
+      updated: 2025-05-28-05-10-54
       followers: 741
       likes: 40
-      views: 139
+      views: 143
       comments: !c Cw+AkZPLQnlxMrKIgACuc3Rhc3lham95c3RpY2uk8J+RjQM=
 2018-04-15-views-of-solstheim:
   title: Views of Solstheim
