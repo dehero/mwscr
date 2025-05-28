@@ -19,7 +19,7 @@ import { Frame } from '../Frame/Frame.js';
 import { ResourcePreview } from '../ResourcePreview/ResourcePreview.js';
 import styles from './PostContentEditor.module.css';
 
-const containerIds = ['content', 'trash'] as const;
+const containerIds = ['content', 'snapshot', 'trash'] as const;
 
 type ContainerId = (typeof containerIds)[number];
 
@@ -30,6 +30,8 @@ function getContainerLabel(id: ContainerId) {
   switch (id) {
     case 'content':
       return 'Content';
+    case 'snapshot':
+      return 'Snapshot';
     case 'trash':
       return 'Trash';
     default:
@@ -46,7 +48,12 @@ const Item: Component<ItemProps> = (props) => {
   const [context] = useDragDropContext() ?? [];
   return (
     <div ref={sortable} class={clsx(styles.item, sortable.isActiveDraggable && styles.draggedItem)}>
-      <ResourcePreview url={props.url} showTooltip={!context?.active.draggable} />
+      <ResourcePreview
+        url={props.url}
+        showTooltip={!context?.active.draggable}
+        // aspectRatio="1 / 1"
+        class={styles.preview}
+      />
     </div>
   );
 };
@@ -59,7 +66,7 @@ interface ListProps {
 const List: Component<ListProps> = (props) => {
   const droppable = createDroppable(props.id);
   return (
-    <label>
+    <label class={styles.container}>
       <span class={styles.label}>{getContainerLabel(props.id)}</span>
       <Frame ref={droppable} class={styles.list}>
         <SortableProvider ids={props.urls}>
@@ -72,16 +79,26 @@ const List: Component<ListProps> = (props) => {
 
 export interface PostContentEditorProps {
   content: PostContent | undefined;
+  snapshot: PostContent | undefined;
   trash: PostContent | undefined;
-  onChange: (content: PostContent | undefined, trash: PostContent | undefined) => void;
+  onChange: (
+    content: PostContent | undefined,
+    snapshot: PostContent | undefined,
+    trash: PostContent | undefined,
+  ) => void;
 }
 
 export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
-  const containers = () => ({ content: asArray(props.content), trash: asArray(props.trash) });
+  const containers = () => ({
+    content: asArray(props.content),
+    snapshot: asArray(props.snapshot),
+    trash: asArray(props.trash),
+  });
   const setContainerItems = (containerId: ContainerId, items: (items: string[]) => string[]) => {
     const changedContent = mergePostContents(items(containers()[containerId]));
     props.onChange(
       containerId === 'content' ? changedContent : props.content,
+      containerId === 'snapshot' ? changedContent : props.snapshot,
       containerId === 'trash' ? changedContent : props.trash,
     );
   };
@@ -179,7 +196,7 @@ export const PostContentEditor: Component<PostContentEditorProps> = (props) => {
       <DragOverlay class={styles.dragOverlay}>
         {(draggable) => (
           <div class={styles.item}>
-            <ResourcePreview url={draggable?.id.toString() || ''} />
+            <ResourcePreview url={draggable?.id.toString() || ''} aspectRatio="1 / 1" class={styles.preview} />
           </div>
         )}
       </DragOverlay>

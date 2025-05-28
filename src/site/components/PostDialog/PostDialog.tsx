@@ -56,6 +56,7 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
     title: 'Edit Post',
     fields: [
       'content',
+      'snapshot',
       'trash',
       'title',
       'titleRu',
@@ -219,8 +220,11 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
 
   const form = createUniqueId();
 
-  const setPostContentAndTrash = (content: PostContent | undefined, trash: PostContent | undefined) =>
-    setPatch({ ...patch(), content, trash });
+  const setPostContentFields = (
+    content: PostContent | undefined,
+    snapshot: PostContent | undefined,
+    trash: PostContent | undefined,
+  ) => setPatch({ ...patch(), content, snapshot, trash });
   const setPostRequest = (request: Partial<PostRequest>) => {
     const oldRequest = post().request;
     const user = 'user' in request ? request.user : oldRequest?.user;
@@ -321,11 +325,18 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
           </Show>
 
           <form id={form} class={styles.form}>
-            <Show when={preset().fields.includes('content') || preset().fields.includes('trash')}>
+            <Show
+              when={
+                preset().fields.includes('content') ||
+                preset().fields.includes('snapshot') ||
+                preset().fields.includes('trash')
+              }
+            >
               <PostContentEditor
                 content={post().content ?? undefined}
+                snapshot={post().snapshot ?? undefined}
                 trash={post().trash ?? undefined}
-                onChange={setPostContentAndTrash}
+                onChange={setPostContentFields}
               />
             </Show>
 

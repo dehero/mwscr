@@ -1,3 +1,12 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.container:nth-child(3) {
+  grid-column: span 2;
+}
+
 .list {
   display: flex;
   flex-flow: row wrap;
@@ -5,16 +14,17 @@
   padding: 4px;
   min-height: 96px;
   box-sizing: border-box;
+  flex: 1 1 auto;
 }
 
 .label {
   display: block;
   margin-bottom: 2px;
+  flex: 0 0 auto;
 }
 
 .item {
   cursor: move;
-  max-width: 84px;
   touch-action: none;
   user-select: none;
 }
@@ -25,4 +35,8 @@
 
 .dragOverlay {
   z-index: 99999;
+}
+
+.preview {
+  max-height: 84px;
 }
