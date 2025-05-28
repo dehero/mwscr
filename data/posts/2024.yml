@@ -172,7 +172,7 @@
     - service: vk
       id: 1436
       published: 2024-03-04-18-18-05
-      updated: 2025-05-21-14-23-28
+      updated: 2025-05-28-15-16-08
       followers: 895
       likes: 36
       views: 301
@@ -180,7 +180,7 @@
     - service: tg
       id: 335
       published: 2024-03-04-18-18-12
-      updated: 2025-05-21-14-23-24
+      updated: 2025-05-28-15-16-02
       followers: 344
       likes: 68
       views: 586
@@ -381,7 +381,7 @@
     - service: vk
       id: 1443
       published: 2024-03-11-18-08-24
-      updated: 2025-05-21-14-23-28
+      updated: 2025-05-28-15-16-08
       followers: 896
       likes: 40
       views: 378
@@ -389,7 +389,7 @@
     - service: tg
       id: 342
       published: 2024-03-11-18-08-30
-      updated: 2025-05-21-14-23-16
+      updated: 2025-05-28-15-15-52
       followers: 350
       likes: 63
       views: 607
@@ -681,14 +681,14 @@
     - service: vk
       id: 1469
       published: 2024-03-25-18-11-40
-      updated: 2025-05-21-14-23-26
+      updated: 2025-05-28-15-16-06
       followers: 902
       likes: 43
       views: 334
     - service: tg
       id: 357
       published: 2024-03-25-18-11-47
-      updated: 2025-05-21-14-23-15
+      updated: 2025-05-28-15-15-51
       followers: 352
       likes: 64
       views: 467
@@ -984,7 +984,7 @@
     - service: vk
       id: 1487
       published: 2024-04-08-18-19-47
-      updated: 2025-05-21-14-23-24
+      updated: 2025-05-28-15-16-04
       followers: 909
       likes: 31
       views: 202
@@ -992,10 +992,10 @@
     - service: tg
       id: 372
       published: 2024-04-08-18-19-56
-      updated: 2025-05-21-14-23-13
+      updated: 2025-05-28-15-15-49
       followers: 354
       likes: 61
-      views: 468
+      views: 469
 2024-04-09-telvanni-council-house:
   title: Telvanni Council House
   titleRu: Дом Совета Телванни
@@ -1200,7 +1200,7 @@
     - service: vk
       id: 1495
       published: 2024-04-15-18-17-46
-      updated: 2025-05-21-14-23-24
+      updated: 2025-05-28-15-16-03
       followers: 910
       likes: 47
       views: 296
@@ -1209,10 +1209,10 @@
     - service: tg
       id: 379
       published: 2024-04-15-18-17-53
-      updated: 2025-05-21-14-23-13
+      updated: 2025-05-28-15-15-49
       followers: 352
       likes: 60
-      views: 538
+      views: 539
       comments: !c iw+AkZPLQnjuL9GnAACobW9uZ2xlcmmrbnV0dHkgcHV0dHkD
 2024-04-16-birth-of-fabricant: 2018-01-16-birth-of-fabricant
 2024-04-17-interior-garden: 2017-03-31-interior-garden
@@ -1335,7 +1335,7 @@
     - service: vk
       id: 1505
       published: 2024-04-22-18-17-36
-      updated: 2025-05-21-14-23-23
+      updated: 2025-05-28-15-16-03
       followers: 909
       likes: 31
       views: 251
@@ -1343,10 +1343,10 @@
     - service: tg
       id: 386
       published: 2024-04-22-18-17-44
-      updated: 2025-05-21-14-23-12
+      updated: 2025-05-28-15-15-48
       followers: 354
       likes: 65
-      views: 495
+      views: 496
 2024-04-23-evening-mournhold: 2017-11-28-evening-mournhold
 2024-04-24-muckspunges-on-the-coast:
   title: Muckspunges on the Coast
@@ -1450,17 +1450,17 @@
     - service: vk
       id: 1513
       published: 2024-04-29-18-18-03
-      updated: 2025-05-21-14-23-22
+      updated: 2025-05-28-15-16-02
       followers: 912
       likes: 36
       views: 268
     - service: tg
       id: 393
       published: 2024-04-29-18-18-10
-      updated: 2025-05-21-14-23-12
+      updated: 2025-05-28-15-15-48
       followers: 354
       likes: 65
-      views: 497
+      views: 498
       comments: !c |-
         CxyAkZPLQnjzCJAGAACpcmVzaXN0X2l02SJXaGVyZSBkbyB0aGV5IGxlYWQsIGFjdHVhbGx5PyDw
         n6SUAw==
@@ -1624,7 +1624,7 @@
     - service: vk
       id: 1523
       published: 2024-05-06-18-21-06
-      updated: 2025-05-21-14-23-21
+      updated: 2025-05-28-15-16-01
       followers: 913
       likes: 44
       views: 328
@@ -1632,10 +1632,10 @@
     - service: tg
       id: 400
       published: 2024-05-06-18-21-14
-      updated: 2025-05-21-14-23-11
+      updated: 2025-05-28-15-15-48
       followers: 371
       likes: 61
-      views: 490
+      views: 491
 2024-05-07-campfire:
   title: Campfire
   titleRu: У костра
@@ -1961,17 +1961,17 @@
     - service: vk
       id: 1539
       published: 2024-05-20-18-19-27
-      updated: 2025-05-21-14-23-20
+      updated: 2025-05-28-15-16-00
       followers: 916
       likes: 36
       views: 281
     - service: tg
       id: 414
       published: 2024-05-20-18-19-34
-      updated: 2025-05-21-14-23-10
+      updated: 2025-05-28-15-15-46
       followers: 372
       likes: 63
-      views: 518
+      views: 520
       comments: !c |-
         izKAkZTLQnj8XdeKgACoZ2xpZGVyMTPZI0h1aCB3aGVyZSdzIHRoaXM/IE11cnVkaXVzIEZsYWNl
         dXM/k8tCePxd3p8AAKlHYXRlbWF0ZTe4eW91ciBwZnAgaXMgc28gY3V0ZSDwn5izAw==
@@ -2146,7 +2146,7 @@
     - service: vk
       id: 1577
       published: 2024-06-10-18-20-20
-      updated: 2025-05-21-14-23-17
+      updated: 2025-05-28-15-15-57
       followers: 916
       likes: 33
       views: 285
@@ -2154,10 +2154,10 @@
     - service: tg
       id: 435
       published: 2024-06-10-18-20-28
-      updated: 2025-05-21-14-23-07
+      updated: 2025-05-28-15-15-45
       followers: 383
       likes: 55
-      views: 456
+      views: 457
 2024-06-11-emperor-parasols-under-the-rain-of-stars:
   title: Emperor Parasols Under the Rain of Stars
   titleRu: Императорские зонтики под звёздным дождем
@@ -2603,7 +2603,7 @@
     - service: vk
       id: 1781
       published: 2024-09-24-18-31-51
-      updated: 2025-05-21-14-23-01
+      updated: 2025-05-28-15-15-43
       followers: 959
       likes: 40
       views: 330
@@ -2611,10 +2611,10 @@
     - service: tg
       id: 543
       published: 2024-09-24-18-31-57
-      updated: 2025-05-21-14-22-54
+      updated: 2025-05-28-15-15-32
       followers: 556
       likes: 56
-      views: 598
+      views: 600
 2024-09-25-the-hand-of-almalexia:
   title: The Hand of Almalexia
   titleRu: Рука Альмалексии
@@ -2904,17 +2904,17 @@
     - service: vk
       id: 1937
       published: 2024-12-03-22-09-03
-      updated: 2025-05-21-14-22-49
+      updated: 2025-05-28-15-15-28
       followers: 1012
       likes: 37
       views: 362
     - service: tg
       id: 614
       published: 2024-12-03-22-09-13
-      updated: 2025-05-21-14-22-42
+      updated: 2025-05-28-15-15-16
       followers: 574
       likes: 57
-      views: 497
+      views: 498
 2024-12-04-flash-of-lightning:
   title: Flash of Lightning
   titleRu: Вспышка молнии
@@ -3432,7 +3432,7 @@
       id: DENkpSrzZO6
       mediaId: '18034340228150471'
       published: 2024-12-30-18-10-42
-      updated: 2025-05-21-14-22-39
+      updated: 2025-05-28-15-15-44
       followers: 1520
       likes: 157
       views: 1121
@@ -3486,7 +3486,7 @@
     - service: vk
       id: 2007
       published: 2024-12-31-18-10-25
-      updated: 2025-05-21-14-22-45
+      updated: 2025-05-28-15-15-24
       followers: 1038
       likes: 44
       views: 386
@@ -3499,8 +3499,8 @@
     - service: tg
       id: 643
       published: 2024-12-31-18-10-35
-      updated: 2025-05-21-14-22-39
+      updated: 2025-05-28-15-15-13
       followers: 643
       likes: 69
-      views: 578
+      views: 579
       comments: !c ixGAkZPLQnlC1wULgACpR2F0ZW1hdGU3rm1lIGluIHRoZSBob29kAw==
