@@ -172,11 +172,6 @@ export class VKManager extends VKService implements PostingServiceManager {
       throw new Error(`Cannot publish post to ${this.name}`);
     }
 
-    const content = asArray<string>(post.content);
-    if (content.length === 0) {
-      throw new Error('No content found');
-    }
-
     if (DEBUG_PUBLISHING) {
       console.log(`Published to ${this.name} with caption:\n${await this.createCaption(entry)}`);
       return;
@@ -185,23 +180,45 @@ export class VKManager extends VKService implements PostingServiceManager {
     const { vk } = await this.connect();
     const attachments: string[] = [];
 
-    for (const url of content) {
-      const [file] = await readResource(url);
+    const content = asArray<string>(post.content);
 
-      const photo = await vk.upload.wallPhoto({
-        source: {
-          value: file,
-        },
-        group_id: Math.abs(VK_GROUP_ID),
-      });
+    if (post.type === 'news') {
+      const url = content[0];
+      if (url) {
+        const [file] = await readResource(url);
 
-      attachments.push(photo.toString());
+        const photo = await vk.upload.wallPhoto({
+          source: {
+            value: file,
+          },
+          group_id: Math.abs(VK_GROUP_ID),
+        });
+
+        attachments.push(photo.toString());
+      }
+    } else {
+      if (content.length === 0) {
+        throw new Error('No content found');
+      }
+
+      for (const url of content) {
+        const [file] = await readResource(url);
+
+        const photo = await vk.upload.wallPhoto({
+          source: {
+            value: file,
+          },
+          group_id: Math.abs(VK_GROUP_ID),
+        });
+
+        attachments.push(photo.toString());
+      }
     }
 
     const result = await vk.api.wall.post({
       owner_id: VK_GROUP_ID,
       from_group: true,
-      attachments,
+      attachments: attachments.length > 0 ? attachments : undefined,
       message: await this.createCaption(entry),
       // Tip for carousel: https://qna.habr.com/q/1362230
     });

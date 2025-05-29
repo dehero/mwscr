@@ -321,10 +321,6 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
   async publishPostEntry(entry: PostEntry): Promise<void> {
     const [, post] = entry;
-    const content = asArray(post.content);
-    if (content.length === 0) {
-      throw new Error('No content found');
-    }
 
     if (DEBUG_PUBLISHING) {
       console.log(`Published to ${this.name} with caption:\n${await this.createCaption(entry)}`);
@@ -335,22 +331,45 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
     const followers = await this.grabFollowerCount();
 
+    const content = asArray(post.content);
     const files = [];
 
-    for (const url of content) {
-      const { base } = parseResourceUrl(url);
-      const [file] = await readResource(url);
-      // @ts-expect-error Untyped property
-      file.name = base;
+    if (post.type === 'news') {
+      const url = content[0];
+      if (url) {
+        const { base } = parseResourceUrl(url);
+        const [file] = await readResource(url);
+        // @ts-expect-error Untyped property
+        file.name = base;
 
-      files.push(file);
+        files.push(file);
+      }
+    } else {
+      if (content.length === 0) {
+        throw new Error('No content found');
+      }
+
+      for (const url of content) {
+        const { base } = parseResourceUrl(url);
+        const [file] = await readResource(url);
+        // @ts-expect-error Untyped property
+        file.name = base;
+
+        files.push(file);
+      }
     }
 
-    const result = await tg.sendFile(TELEGRAM_CHANNEL, {
-      caption: await this.createCaption(entry),
-      file: files.length > 1 ? files : files[0]!,
-      parseMode: 'html',
-    });
+    let result;
+
+    if (files.length > 0) {
+      result = await tg.sendFile(TELEGRAM_CHANNEL, {
+        caption: await this.createCaption(entry),
+        file: files.length > 1 ? files : files[0]!,
+        parseMode: 'html',
+      });
+    } else {
+      result = await tg.sendMessage(TELEGRAM_CHANNEL, { message: await this.createCaption(entry), parseMode: 'html' });
+    }
 
     const id = Array.isArray(result) ? result.map((item: Api.Message) => item.id) : result.id;
 
