@@ -80,6 +80,7 @@
     "mime": "^3.0.0",
     "msgpackr": "^1.9.5",
     "node-fetch": "^3.2.6",
+    "node-html-to-image": "^5.0.0",
     "node-telegram-bot-api": "^0.66.0",
     "picomatch": "^4.0.2",
     "proxy-deep": "^4.0.1",

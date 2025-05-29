@@ -1,0 +1,90 @@
+:root {
+  --color-text: #caa560;
+  --color-text-light: #dfc89e;
+  --color-background: #000000;
+  font-family: MysticCards, serif;
+  font-size: 50px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-background);
+  color: var(--color-text);
+  width: 1080px;
+  height: 1920px;
+  padding: 3rem 1rem;
+  margin: 0;
+  gap: 0.5rem;
+  box-sizing: border-box;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+  border-color: var(--color-text);
+  border-style: solid;
+  border-image-repeat: repeat;
+  border-width: 2px;
+  border-image-source: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAAAmVBMVEUAAABKLxVTOR9QNhtHLBPGqXGzmWdiQB9OMRjYxpbbvoddPB9FLBlTNBRNMhMzHg7UvozGtoriw4ayo3W8onColGdTOyHexY++rn7Yu5HVuY/dwovBsoLDrH3Aq3vTrnXQrHSPhWJALBY9KhQmGAkYDQbPxpzYwZHAtInfwITCqXW9pHKvn3KplGdQNRrbzKaon3qojmYFAgGFVbhdAAAAAXRSTlMAQObYZgAAAK5JREFUOMvt1McRg0AUA9Bld8HknJwNBpxj/8UZ2QXIBfBvmnnzTxqJ4WGlpnspsqTZLZ3VZhFbJ9M9367HXzzkcSdqbZczJT3Dl0YYaNVGhkS2fcR7G+nXW1i2IDeKOCIGYr4nBmKtiIGoNTEQTkAMRBUSA7E1iIFIfGIgMvYJovCIgcglMRCuIgbCnBEDkZbEjGKqyp9VaSQxo5j69O0T/1QNbOmeneh7tnRd/wEkVxHfoDyVCgAAAABJRU5ErkJggg==');
+  border-image-slice: 2;
+  flex: 0 1 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  zoom: 400%;
+}
+
+img.cut {
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.ref {
+  position: relative;
+  margin-top: -0.5rem;
+  width: 100%;
+}
+
+.ref img {
+  max-width: 33%;
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  flex: 0 0 auto;
+  line-height: 1.25;
+  overflow: hidden;
+  font-size: 1em;
+  font-weight: normal;
+  color: var(--color-text-light);
+}
+
+p {
+  margin: 0;
+  text-align: center;
+  flex: 0 0 auto;
+  line-height: 1.25;
+  overflow: hidden;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+ul {
+  margin: 0;
+  flex: 0 0 auto;
+  line-height: 1.25;
+  overflow: hidden;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
