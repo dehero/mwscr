@@ -1,7 +1,7 @@
 import type { InferOutput } from 'valibot';
 import { array, intersect, number, object, union, variant } from 'valibot';
 import { Post, PostTitle } from '../entities/post.js';
-import { Outtakes, Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
+import { News, Outtakes, Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
 import { Publication } from '../entities/publication.js';
 import { checkSchema } from '../entities/schema.js';
 import type { PostingService } from '../entities/service.js';
@@ -11,7 +11,7 @@ export const TELEGRAM_BOT_NAME = 'mwscrbot';
 
 export const TelegramPost = intersect([
   object({ ...Post.entries, title: PostTitle }),
-  variant('type', [Redrawing, Shot, ShotSet, Wallpaper, VerticalWallpaper, Outtakes]),
+  variant('type', [Redrawing, Shot, ShotSet, Wallpaper, VerticalWallpaper, Outtakes, News]),
 ]);
 
 export const TelegramPublication = object({
