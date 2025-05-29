@@ -1,7 +1,17 @@
 import type { InferOutput } from 'valibot';
 import { intersect, nonEmpty, object, pipe, string, variant } from 'valibot';
 import { Post, PostTitle } from '../entities/post.js';
-import { Outtakes, Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
+import {
+  Mention,
+  News,
+  Outtakes,
+  Photoshop,
+  Redrawing,
+  Shot,
+  ShotSet,
+  VerticalWallpaper,
+  Wallpaper,
+} from '../entities/post-variant.js';
 import { Publication } from '../entities/publication.js';
 import { checkSchema } from '../entities/schema.js';
 import type { PostingService } from '../entities/service.js';
@@ -11,7 +21,7 @@ export const INSTAGRAM_ACCOUNT_ID = '4170501247';
 
 export const InstagramPost = intersect([
   object({ ...Post.entries, title: PostTitle }),
-  variant('type', [Redrawing, Shot, ShotSet, Wallpaper, VerticalWallpaper, Outtakes]),
+  variant('type', [Redrawing, Shot, ShotSet, Wallpaper, VerticalWallpaper, Outtakes, News, Photoshop, Mention]),
 ]);
 
 export const InstagramPublication = object({ ...Publication.entries, id: pipe(string(), nonEmpty()) });

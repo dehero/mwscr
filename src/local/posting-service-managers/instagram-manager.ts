@@ -39,6 +39,7 @@ import { asArray } from '../../core/utils/common-utils.js';
 import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
 import { readResource } from '../data-managers/resources.js';
 import { users } from '../data-managers/users.js';
+import { createPostStory } from '../renderers/stories.js';
 
 const INSTAGRAM_PAGE_ID = '17841404237421312'; // Instagram Business ID
 
@@ -183,14 +184,33 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
   async publishPostEntry(entry: PostEntry): Promise<void> {
     const [, post] = entry;
-    const [firstContent, ...restContent] = asArray(post.content);
-    if (!firstContent) {
-      throw new Error('No content found');
-    }
 
     if (DEBUG_PUBLISHING) {
       console.log(`Published to ${this.name} with caption:\n${await this.createCaption(entry)}`);
       return;
+    }
+
+    let newPublications;
+
+    switch (post.type) {
+      case 'news':
+      case 'mention':
+      case 'photoshop':
+        newPublications = await this.publishPostEntryAsStory(entry);
+        break;
+      default:
+        newPublications = await this.publishPostEntryAsPhoto(entry);
+    }
+
+    post.posts = [...(post.posts ?? []), ...newPublications];
+  }
+
+  async publishPostEntryAsPhoto(entry: PostEntry): Promise<InstagramPublication[]> {
+    const [, post] = entry;
+
+    const [firstContent, ...restContent] = asArray(post.content);
+    if (!firstContent) {
+      throw new Error('No content found');
     }
 
     // Connect to Instagram API
@@ -259,7 +279,28 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       newPublications.push({ service: 'ig', id, mediaId, type: 'story', followers, published: new Date() });
     }
 
-    post.posts = [...(post.posts ?? []), ...newPublications];
+    return newPublications;
+  }
+
+  async publishPostEntryAsStory(entry: PostEntry): Promise<InstagramPublication[]> {
+    const [, post] = entry;
+
+    const { image } = await createPostStory(post);
+
+    const { ig } = await this.connect();
+
+    const imageUrl = await this.getCroppedImageUrl(sharp(image), 1920, 1080);
+    const containerId = await this.createContainer(ig.newPostPageStoriesPhotoMediaRequest(imageUrl));
+    const [mediaId, mediaInfo] = await this.publishContainer(containerId);
+    const id = mediaInfo.getShortcode() || mediaInfo.getIgId();
+
+    if (!id) {
+      throw new Error(`Cannot get post ${this.name} story id`);
+    }
+
+    const followers = await this.grabFollowerCount();
+
+    return [{ service: 'ig', id, mediaId, type: 'story', followers, published: new Date() }];
   }
 
   async publishContainer(containerId: string): Promise<[string, GetMediaInfoResponse]> {
