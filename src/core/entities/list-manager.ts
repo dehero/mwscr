@@ -18,7 +18,7 @@ export const LIST_READER_CHUNK_NAME_DEFAULT = 'default';
 
 export const ListReaderItemStatus = picklist(['added', 'changed', 'removed']);
 
-export type ListReaderEntry<TItem> = [id: string, item: TItem, refId?: string];
+export type ListReaderEntry<TItem> = [id: string, item: TItem, readerName: string, refId?: string];
 
 export type ListReaderChunk<TItem> = Record<string, TItem | string>;
 
@@ -131,7 +131,7 @@ export abstract class ListReader<TItem> {
     const allChunkNames = await this.getAllChunkNames();
 
     if (!allChunkNames.has(chunkName)) {
-      return [id, undefined];
+      return [id, undefined, this.name];
     }
 
     const chunk = await this.loadChunk(chunkName);
@@ -149,10 +149,10 @@ export abstract class ListReader<TItem> {
     if (typeof item === 'string') {
       const entry = await this.getEntry(item, skipProxy);
 
-      return [id, entry[1], entry[2] || item];
+      return [id, entry[1], this.name, entry[2] || item];
     }
 
-    return [id, item];
+    return [id, item, this.name];
   }
 
   /**
@@ -281,10 +281,10 @@ export abstract class ListReader<TItem> {
           if (!item) {
             throw new Error(`Item "${value}" not found`);
           }
-          yield [key, item, value];
+          yield [key, item, this.name, value];
         }
       } else {
-        yield [key, value];
+        yield [key, value, this.name];
       }
     }
   }
@@ -496,14 +496,14 @@ export abstract class ListManager<TItem extends object> extends ListReader<TItem
         throw new Error(`Error adding "${id}": reference item "${addedItem}" was not found`);
       }
       this.mergePatch({ [addedId]: addedItem });
-      return [addedId, refItem];
+      return [addedId, refItem, this.name];
     }
 
     addedItem = parseSchema(this.ItemSchema, addedItem, (message: string) => `Error adding "${id}": ${message}`);
 
     this.mergePatch({ [addedId]: addedItem });
 
-    return [addedId, addedItem];
+    return [addedId, addedItem, this.name];
   }
 
   async mergeItems(id: string, ...withIds: string[]): Promise<TItem> {

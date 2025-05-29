@@ -3,6 +3,7 @@ import { array, date, is, nonEmpty, object, optional, picklist, pipe, string, tr
 import type { SortDirection } from '../utils/common-types.js';
 import { arrayFromAsync, asArray, cleanupUndefinedProps } from '../utils/common-utils.js';
 import { dateToString, stringToDate } from '../utils/date-utils.js';
+import type { ListReaderEntry } from './list-manager.js';
 import { areNestedLocations as areRelatedLocations } from './location.js';
 import type { MediaAspectRatio } from './media.js';
 import { postTitleFromString } from './post-title.js';
@@ -96,7 +97,7 @@ export type PostRequest = InferOutput<typeof PostRequest>;
 
 export type Post = InferOutput<typeof Post>;
 
-export type PostEntry<TPost extends Post = Post> = [id: string, post: TPost, refId?: string];
+export type PostEntry<TPost extends Post = Post> = ListReaderEntry<TPost>;
 export type PostEntries<TPost extends Post = Post> = ReadonlyArray<PostEntry<TPost>>;
 export type PostEntriesComparator = (a: PostEntry, b: PostEntry) => number;
 export type PostFilter<TPost extends Post, TFilteredPost extends TPost> = (post: Post) => post is TFilteredPost;
