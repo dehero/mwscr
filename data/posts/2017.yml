@@ -12177,11 +12177,17 @@
     - service: vk
       id: 2399
       published: 2025-05-29-18-21-36
+      updated: 2025-05-29-19-11-41
       followers: 1310
+      likes: 4
+      views: 37
     - service: tg
       id: 862
       published: 2025-05-29-18-21-42
+      updated: 2025-05-29-19-11-40
       followers: 742
+      likes: 21
+      views: 71
 2017-10-27-nchurdamz-in-sunset-haze:
   title: Nchurdamz in Sunset Haze
   titleRu: Нчурдамц в закатной дымке
