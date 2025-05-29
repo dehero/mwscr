@@ -5,7 +5,7 @@ export class Site implements Service {
   readonly name = 'Morrowind Screenshots';
   readonly origin = 'https://mwscr.dehero.site';
 
-  getPostUrl(postId: string, managerName = 'posts') {
+  getPostUrl(postId: string, managerName: string) {
     return `${this.origin}/${managerName}/${postId}/`;
   }
 

@@ -149,7 +149,7 @@ export abstract class ListReader<TItem> {
     if (typeof item === 'string') {
       const entry = await this.getEntry(item, skipProxy);
 
-      return [id, entry[1], this.name, entry[2] || item];
+      return [id, entry[1], this.name, entry[3] || item];
     }
 
     return [id, item, this.name];

@@ -95,7 +95,7 @@ test('ListManagerChunkProxy', async (t) => {
   });
 
   await t.test('should patch referenced item', async () => {
-    const [, item, refId] = await manager.getEntry(test2025ReferencedPostId);
+    const [, item, , refId] = await manager.getEntry(test2025ReferencedPostId);
 
     assert.ok(item && refId);
 

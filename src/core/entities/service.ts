@@ -14,7 +14,7 @@ export interface Service {
 
   getSponsorshipUrl?: () => string;
 
-  getPostUrl?: (postId: string) => string | undefined;
+  getPostUrl?: (postId: string, managerName: string) => string | undefined;
 
   getUserMessagingUrl?: (userId: string, options?: ServiceMessagingOptions) => string | undefined;
 

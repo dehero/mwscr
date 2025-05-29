@@ -4,6 +4,7 @@ import { VK } from 'vk-io';
 import type { WallWallComment } from 'vk-io/lib/api/schemas/objects';
 // @ts-expect-error No proper typing
 import type { WallGetCommentExtendedResponse } from 'vk-io/lib/api/schemas/responses';
+import { markdownToText } from '../../core/entities/markdown.js';
 import type { Post, PostEntry } from '../../core/entities/post.js';
 import {
   createPostPublicationTags,
@@ -64,44 +65,47 @@ export class VKManager extends VKService implements PostingServiceManager {
   }
 
   async createCaption(entry: PostEntry) {
-    const [id, post] = entry;
+    const [id, post, managerName] = entry;
 
     const lines: string[] = [];
+
+    const description = markdownToText(post.descriptionRu || post.description || '', true);
     const tags = createPostPublicationTags(post);
-    const contributors: string[] = [];
-    const titlePrefix = [
-      post.type !== 'shot' ? postTypeDescriptors[post.type].titleRu : undefined,
-      post.addon && !postAddonDescriptors[post.addon].official ? post.addon : undefined,
-    ]
-      .filter(Boolean)
-      .join(' ');
 
-    if (post.titleRu) {
-      lines.push([titlePrefix, post.titleRu].filter(Boolean).join(': '));
-    } else if (titlePrefix) {
-      lines.push(titlePrefix);
+    if (post.type !== 'news') {
+      const contributors: string[] = [];
+      const titlePrefix = [
+        post.type !== 'shot' ? postTypeDescriptors[post.type].titleRu : undefined,
+        post.addon && !postAddonDescriptors[post.addon].official ? post.addon : undefined,
+      ]
+        .filter(Boolean)
+        .join(' ');
+
+      if (post.titleRu) {
+        lines.push([titlePrefix, post.titleRu].filter(Boolean).join(': '));
+      } else if (titlePrefix) {
+        lines.push(titlePrefix);
+      }
+
+      // TODO: mention USER_DEFAULT_AUTHOR in shot-sets created not just by USER_DEFAULT_AUTHOR
+      const authors = asArray(post.author).filter((author) => author !== USER_DEFAULT_AUTHOR);
+      if (authors.length > 0) {
+        contributors.push(`от ${await this.mentionUsers(authors)}`);
+      }
+
+      if (post.request && post.request.user !== USER_DEFAULT_AUTHOR) {
+        contributors.push(`по запросу ${await this.mentionUsers(post.request.user)}`);
+      }
+
+      if (contributors.length > 0) {
+        lines.push(contributors.join(' '));
+      }
+
+      lines.push('');
     }
 
-    // TODO: mention USER_DEFAULT_AUTHOR in shot-sets created not just by USER_DEFAULT_AUTHOR
-    const authors = asArray(post.author).filter((author) => author !== USER_DEFAULT_AUTHOR);
-    if (authors.length > 0) {
-      contributors.push(`от ${await this.mentionUsers(authors)}`);
-    }
-
-    if (post.request && post.request.user !== USER_DEFAULT_AUTHOR) {
-      contributors.push(`по запросу ${await this.mentionUsers(post.request.user)}`);
-    }
-
-    if (contributors.length > 0) {
-      lines.push(contributors.join(' '));
-    }
-
-    lines.push('');
-
-    const description = post.descriptionRu || post.description;
-
-    if (description) {
-      lines.push(description);
+    if (description.text) {
+      lines.push(description.text);
     }
 
     const locationIds = asArray(post.location);
@@ -132,7 +136,7 @@ export class VKManager extends VKService implements PostingServiceManager {
       lines.push(formatDate(firstPublished, 'ru-RU'));
     }
 
-    lines.push(`Посмотреть и скачать: ${site.getPostUrl(id)}`);
+    lines.push(`Подробности: ${site.getPostUrl(id, managerName)}`);
 
     if (tags.length > 0) {
       lines.push('');
@@ -167,7 +171,7 @@ export class VKManager extends VKService implements PostingServiceManager {
       throw new Error(`Cannot publish post to ${this.name}`);
     }
 
-    const content = asArray(post.content);
+    const content = asArray<string>(post.content);
     if (content.length === 0) {
       throw new Error('No content found');
     }
