@@ -373,7 +373,7 @@
     - service: vk
       id: 1673
       published: 2024-08-07-18-19-48
-      updated: 2025-05-22-15-13-02
+      updated: 2025-05-29-15-16-40
       followers: 927
       likes: 47
       views: 339
@@ -381,10 +381,10 @@
     - service: tg
       id: 493
       published: 2024-08-07-18-19-54
-      updated: 2025-05-22-15-12-58
+      updated: 2025-05-29-15-16-33
       followers: 504
       likes: 75
-      views: 765
+      views: 767
       comments: !c |-
         G3sA4J0J8eYvY9w1zRIh5EsnB5hJQAcNMEnwwAWchh42r6iW1W1P8amZ8uXij8eBHsGcTcmWmIBK
         4wYH7BVQHAU62AA47ilLSVUQFPt+yYqr3JMaFOvrN6RW9EHlhD0MB0O3Ze7vyPQIKRWX9Uhj9h5Y
@@ -4131,10 +4131,10 @@
     - service: vk
       id: 2394
       published: 2025-05-27-18-13-01
-      updated: 2025-05-29-14-15-17
+      updated: 2025-05-29-15-16-21
       followers: 1309
       likes: 44
-      views: 361
+      views: 363
       reposts: 3
       comments: !c |-
         GzQCICwSbBsG5WMGuw7yZfw/cc+K8HEzfdDMssCbCayE8sRWzgXbWaCFUpUtw1ztBYkOi204xST5
@@ -4146,16 +4146,16 @@
     - service: tg
       id: 860
       published: 2025-05-27-18-13-08
-      updated: 2025-05-29-14-15-19
+      updated: 2025-05-29-15-16-20
       followers: 741
       likes: 59
-      views: 233
+      views: 234
       comments: !c Cw+AkZPLQnlxMrKIgACuc3Rhc3lham95c3RpY2uk8J+RjQM=
     - service: ig
       id: DKMJ91kMjAm
       mediaId: '18104481643464130'
       published: 2025-05-28-08-07-00
-      updated: 2025-05-29-14-15-18
+      updated: 2025-05-29-15-16-23
       followers: 1548
       likes: 72
 2018-04-15-views-of-solstheim:
@@ -4770,7 +4770,7 @@
     - service: vk
       id: 1796
       published: 2024-10-02-18-10-34
-      updated: 2025-05-22-15-12-55
+      updated: 2025-05-29-15-16-32
       followers: 957
       likes: 34
       views: 350
@@ -4782,10 +4782,10 @@
     - service: tg
       id: 552
       published: 2024-10-02-18-10-41
-      updated: 2025-05-22-15-12-51
+      updated: 2025-05-29-15-16-26
       followers: 560
       likes: 66
-      views: 543
+      views: 545
 2018-05-01-view-of-bthanchend:
   title: View of Bthanchend
   titleRu: Вид на Бтанченд
@@ -7421,17 +7421,17 @@
     - service: vk
       id: 1700
       published: 2024-08-21-18-19-57
-      updated: 2025-05-22-15-13-00
+      updated: 2025-05-29-15-16-38
       followers: 937
       likes: 41
       views: 305
     - service: tg
       id: 508
       published: 2024-08-21-18-20-03
-      updated: 2025-05-22-15-12-56
+      updated: 2025-05-29-15-16-31
       followers: 538
       likes: 60
-      views: 585
+      views: 588
 2018-07-08-statues-of-gods:
   title: Statues of Gods
   titleRu: Статуи богов
@@ -9256,17 +9256,17 @@
     - service: vk
       id: 1772
       published: 2024-09-18-18-20-17
-      updated: 2025-05-22-15-12-56
+      updated: 2025-05-29-15-16-34
       followers: 947
       likes: 37
       views: 317
     - service: tg
       id: 537
       published: 2024-09-18-18-20-25
-      updated: 2025-05-22-15-12-53
+      updated: 2025-05-29-15-16-28
       followers: 556
       likes: 58
-      views: 544
+      views: 545
 2018-08-25-on-the-background-of-carpet:
   title: On the Background of Carpet
   titleRu: На фоне ковра
@@ -12816,7 +12816,7 @@
     - service: vk
       id: 1850
       published: 2024-10-23-18-10-16
-      updated: 2025-05-22-15-12-52
+      updated: 2025-05-29-15-16-27
       followers: 994
       likes: 45
       views: 358
@@ -12829,10 +12829,10 @@
     - service: tg
       id: 573
       published: 2024-10-23-18-10-22
-      updated: 2025-05-22-15-12-48
+      updated: 2025-05-29-15-16-22
       followers: 563
       likes: 68
-      views: 564
+      views: 566
 2018-11-09-dusk-in-the-skaal-village:
   title: Dusk in the Skaal Village
   titleRu: Сумерки в деревне Скаалов
