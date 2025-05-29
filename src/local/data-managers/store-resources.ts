@@ -137,7 +137,7 @@ export async function importResourceToStore(
     violation,
   };
 
-  return [[id, draft]];
+  return [[id, draft, 'inbox']];
 }
 
 export async function moveInboxItemResourcesToTrash(post: InboxItem) {

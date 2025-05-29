@@ -29,7 +29,7 @@ export async function createNewPost() {
       if (!post.posts) {
         const newId = await posts.createItemId(post);
 
-        await movePublishedPostResources([newId, post]);
+        await movePublishedPostResources([newId, post, posts.name]);
 
         await posts.addItem(post, newId);
         await inbox.removeItem(id);
@@ -81,11 +81,11 @@ export async function selectPostFromScenario(
     );
     const candidates: PostEntry<PublishablePost>[] = [];
 
-    for (const [id, post] of postEntries) {
+    for (const [id, post, managerName] of postEntries) {
       const errors: string[] = [];
 
       if (checkRules(postCandidateRules, post, errors, publishedPostEntries)) {
-        candidates.push([id, post]);
+        candidates.push([id, post, managerName]);
       } else {
         console.info(`Skipped post "${id}": ${errors.join(', ')}`);
       }
