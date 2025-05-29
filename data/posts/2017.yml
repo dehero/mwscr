@@ -12177,23 +12177,25 @@
     - service: vk
       id: 2399
       published: 2025-05-29-18-21-36
-      updated: 2025-05-29-19-27-40
+      updated: 2025-05-29-20-20-51
       followers: 1310
-      likes: 6
-      views: 43
+      likes: 9
+      views: 67
       reposts: 1
     - service: tg
       id: 862
       published: 2025-05-29-18-21-42
-      updated: 2025-05-29-19-27-39
+      updated: 2025-05-29-20-20-50
       followers: 742
-      likes: 24
-      views: 78
+      likes: 29
+      views: 90
     - service: ig
       id: DKP8TOYsgAS
       mediaId: '17923840794081256'
       published: 2025-05-29-19-23-00
+      updated: 2025-05-29-20-20-52
       followers: 1547
+      likes: 15
 2017-10-27-nchurdamz-in-sunset-haze:
   title: Nchurdamz in Sunset Haze
   titleRu: Нчурдамц в закатной дымке
