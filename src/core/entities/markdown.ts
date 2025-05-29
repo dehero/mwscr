@@ -34,6 +34,23 @@ export function markdownToInlineHtml(markdown: string, linkReplacer?: MarkdownLi
   return { html, title };
 }
 
+export function markdownToTelegramHtml(markdown: string) {
+  let title;
+  const html = markdown
+    .replace(MARKDOWN_TITLE_REGEX, (_, match) => {
+      title = match;
+      return '';
+    })
+    .replaceAll(MARKDOWN_LINK_REGEX, (_, title, url) => {
+      return url ? `<a href="${url}">${title}</a>` : title;
+    })
+    .trim()
+    .replaceAll(MARKDOWN_DOUBLE_BR_REGEX, '\n\n')
+    .replaceAll(MARKDOWN_BR_REGEX, '\n');
+
+  return { html, title };
+}
+
 export function markdownToText(markdown: string, appendlinks?: boolean) {
   let title;
   const links: string[] = [];

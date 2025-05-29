@@ -5,6 +5,7 @@ import { Api, TelegramClient } from 'telegram';
 import { Logger, LogLevel } from 'telegram/extensions/Logger.js';
 // eslint-disable-next-line import/extensions
 import { StringSession } from 'telegram/sessions/index.js';
+import { markdownToTelegramHtml } from '../../core/entities/markdown.js';
 import type { Post, PostEntry } from '../../core/entities/post.js';
 import {
   getPostFirstPublished,
@@ -104,38 +105,44 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     const [id, post, managerName] = entry;
 
     const lines: string[] = [];
-    const contributors: string[] = [];
-    const titlePrefix = [
-      post.addon && !postAddonDescriptors[post.addon].official ? post.addon : undefined,
-      post.type !== 'shot' ? postTypeDescriptors[post.type].title : undefined,
-    ]
-      .filter(Boolean)
-      .join(' ');
 
-    if (post.title) {
-      lines.push([titlePrefix, post.title].filter(Boolean).join(': '));
-    } else if (titlePrefix) {
-      lines.push(titlePrefix);
+    const description = markdownToTelegramHtml(post.description || '').html;
+
+    if (post.type !== 'news') {
+      const contributors: string[] = [];
+      const titlePrefix = [
+        post.addon && !postAddonDescriptors[post.addon].official ? post.addon : undefined,
+        post.type !== 'shot' ? postTypeDescriptors[post.type].title : undefined,
+      ]
+        .filter(Boolean)
+        .join(' ');
+
+      if (post.title) {
+        lines.push([titlePrefix, post.title].filter(Boolean).join(': '));
+      } else if (titlePrefix) {
+        lines.push(titlePrefix);
+      }
+
+      // TODO: mention USER_DEFAULT_AUTHOR in shot-sets created not just by USER_DEFAULT_AUTHOR
+      const authors = asArray(post.author).filter((author) => author !== USER_DEFAULT_AUTHOR);
+      if (authors.length > 0) {
+        contributors.push(`by ${await this.mentionUsers(authors)}`);
+      }
+
+      if (post.request && post.request.user !== USER_DEFAULT_AUTHOR) {
+        contributors.push(`requested by ${await this.mentionUsers(post.request.user)}`);
+      }
+
+      if (contributors.length > 0) {
+        lines.push(contributors.join(' '));
+      }
+
+      lines.push('');
     }
 
-    // TODO: mention USER_DEFAULT_AUTHOR in shot-sets created not just by USER_DEFAULT_AUTHOR
-    const authors = asArray(post.author).filter((author) => author !== USER_DEFAULT_AUTHOR);
-    if (authors.length > 0) {
-      contributors.push(`by ${await this.mentionUsers(authors)}`);
-    }
-
-    if (post.request && post.request.user !== USER_DEFAULT_AUTHOR) {
-      contributors.push(`requested by ${await this.mentionUsers(post.request.user)}`);
-    }
-
-    if (contributors.length > 0) {
-      lines.push(contributors.join(' '));
-    }
-
-    lines.push('');
-
-    if (post.description) {
-      lines.push(post.description);
+    if (description) {
+      lines.push(description);
+      lines.push('');
     }
 
     const locationsToMention = asArray(post.location).filter((location) => location !== post.title);
@@ -148,7 +155,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       lines.push(formatDate(firstPublished));
     }
 
-    lines.push(`<a href="${site.getPostUrl(id, managerName)}">View and Download</a>`);
+    lines.push(`<a href="${site.getPostUrl(id, managerName)}">Details</a>`);
 
     return lines.join('\n');
   }
