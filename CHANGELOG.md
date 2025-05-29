@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.59.2](https://github.com/dehero/mwscr/compare/v1.59.1...v1.59.2) (2025-05-29)
+
+### Continuous Integration
+
+- use self-hosted runners ([a6f6532](https://github.com/dehero/mwscr/commit/a6f6532321a1dc49ac643696809501137524d13d))
+
 ## [1.59.1](https://github.com/dehero/mwscr/compare/v1.59.0...v1.59.1) (2025-05-29)
 
 ### Bug Fixes
