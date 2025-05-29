@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.59.1](https://github.com/dehero/mwscr/compare/v1.59.0...v1.59.1) (2025-05-29)
+
+### Bug Fixes
+
+- temporarily disable lastPublishedHoursAgo for shots
+  ([d619f17](https://github.com/dehero/mwscr/commit/d619f175f9c90b82f06619427f840bcf2d25a38b))
+
 ## [1.59.0](https://github.com/dehero/mwscr/compare/v1.58.8...v1.59.0) (2025-05-28)
 
 ### Features
