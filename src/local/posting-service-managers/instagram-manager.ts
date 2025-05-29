@@ -15,6 +15,7 @@ import {
 } from 'instagram-graph-api';
 import fetch, { File, FormData } from 'node-fetch';
 import sharp from 'sharp';
+import { markdownToText } from '../../core/entities/markdown.js';
 import {
   aspectRatioFromSize,
   getAspectRatioHeightMultiplier,
@@ -70,6 +71,8 @@ export class InstagramManager extends Instagram implements PostingServiceManager
   async createCaption(entry: PostEntry) {
     const [id, post, managerName] = entry;
     const lines: string[] = [];
+
+    const description = markdownToText(post.description || '', true).text;
     const tags = createPostPublicationTags(post);
     const contributors: string[] = [];
     const titlePrefix = [
@@ -101,8 +104,9 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
     lines.push('');
 
-    if (post.description) {
-      lines.push(post.description);
+    if (description) {
+      lines.push(description);
+      lines.push('');
     }
 
     const locationsToMention = asArray(post.location).filter((location) => location !== post.title);
@@ -115,7 +119,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       lines.push(formatDate(firstPublished));
     }
 
-    lines.push(`View and Download: ${site.getPostUrl(id, managerName)}`);
+    lines.push(`Details: ${site.getPostUrl(id, managerName)}`);
 
     if (tags.length > 0) {
       lines.push('');

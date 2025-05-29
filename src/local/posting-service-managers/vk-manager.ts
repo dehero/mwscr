@@ -69,7 +69,7 @@ export class VKManager extends VKService implements PostingServiceManager {
 
     const lines: string[] = [];
 
-    const description = markdownToText(post.descriptionRu || post.description || '', true);
+    const description = markdownToText(post.descriptionRu || post.description || '', true).text;
     const tags = createPostPublicationTags(post);
 
     if (post.type !== 'news') {
@@ -104,8 +104,9 @@ export class VKManager extends VKService implements PostingServiceManager {
       lines.push('');
     }
 
-    if (description.text) {
-      lines.push(description.text);
+    if (description) {
+      lines.push(description);
+      lines.push('');
     }
 
     const locationIds = asArray(post.location);
