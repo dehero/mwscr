@@ -1,5 +1,5 @@
 import type { Component } from 'solid-js';
-import { markdownToHtml } from '../../../core/entities/markdown.js';
+import { markdownToInlineHtml } from '../../../core/entities/markdown.js';
 import styles from './Markdown.module.css';
 
 interface MarkdownProps {
@@ -8,7 +8,7 @@ interface MarkdownProps {
 }
 
 export const Markdown: Component<MarkdownProps> = (props) => {
-  const html = () => markdownToHtml(props.children, props.disableLinks ? () => [] : undefined).html;
+  const html = () => markdownToInlineHtml(props.children, props.disableLinks ? () => [] : undefined).html;
 
   return <p class={styles.markdown} innerHTML={html()} />;
 };

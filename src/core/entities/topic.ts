@@ -1,4 +1,4 @@
-import { markdownToHtml } from './markdown.js';
+import { markdownToInlineHtml } from './markdown.js';
 
 export interface Topic {
   title?: string;
@@ -30,7 +30,7 @@ export function createTopicEntryFromMarkdown(code: string, filename: string): To
   const id = getTopicIdFromFilename(filename);
   const relatedTopicIds: string[] = [];
 
-  const { html, title } = markdownToHtml(code, (url) => {
+  const { html, title } = markdownToInlineHtml(code, (url) => {
     let href = url;
     const external = !url.startsWith('./');
     if (!external) {
