@@ -13,7 +13,7 @@ on:
 
 jobs:
   maintain:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     env:
       DEBUG_PUBLISHING: '${{ vars.DEBUG_PUBLISHING }}'
       GITHUB_BOT_EMAIL: '${{ secrets.BOT_EMAIL }}'

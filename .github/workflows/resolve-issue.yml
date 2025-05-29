@@ -14,7 +14,7 @@ jobs:
       'post-proposal') || contains(github.event.issue.labels.*.name, 'post-request') ||
       contains(github.event.issue.labels.*.name, 'post-editing') || contains(github.event.issue.labels.*.name,
       'post-location')
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     env:
       GITHUB_ACTION_CONTEXT: ${{ toJson(github) }}
       GITHUB_BOT_EMAIL: '${{ secrets.BOT_EMAIL }}'
