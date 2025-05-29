@@ -1,0 +1,86 @@
+name: test
+
+concurrency:
+  group: test
+
+on:
+  push:
+    branches:
+      - test-deploy
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: self-hosted
+    env:
+      DEBUG_PUBLISHING: '${{ vars.DEBUG_PUBLISHING }}'
+      GITHUB_BOT_EMAIL: '${{ secrets.BOT_EMAIL }}'
+      GITHUB_BOT_NAME: '${{ secrets.BOT_NAME }}'
+      INSTAGRAM_ACCESS_TOKEN: '${{ secrets.INSTAGRAM_ACCESS_TOKEN }}'
+      SITE_SSH_HOST: '${{ secrets.SITE_SSH_HOST }}'
+      SITE_SSH_USER: '${{ secrets.SITE_SSH_USER }}'
+      SITE_SSH_PRIVATE_KEY: '${{ secrets.SITE_SSH_PRIVATE_KEY }}'
+      SITE_SSH_PATH: '${{ secrets.SITE_SSH_PATH }}'
+      SITE_SSH_STORE_PATH: '${{ secrets.SITE_SSH_STORE_PATH }}'
+      TELEGRAM_API_APP_HASH: '${{ secrets.TELEGRAM_API_APP_HASH }}'
+      TELEGRAM_API_APP_ID: '${{ secrets.TELEGRAM_API_APP_ID }}'
+      TELEGRAM_PHONE_NUMBER: '${{ secrets.TELEGRAM_PHONE_NUMBER }}'
+      TELEGRAM_SESSION: '${{ secrets.TELEGRAM_SESSION }}'
+      TELEGRAM_BOT_ACCESS_TOKEN: '${{ secrets.TELEGRAM_BOT_ACCESS_TOKEN }}'
+      VK_ACCESS_TOKEN: '${{ secrets.VK_ACCESS_TOKEN }}'
+      YANDEX_DISK_STORE_PATH: '${{ secrets.YANDEX_DISK_STORE_PATH }}'
+      YANDEX_DISK_ACCESS_TOKEN: '${{ secrets.YANDEX_DISK_ACCESS_TOKEN }}'
+      YOUTUBE_API_KEY: '${{ secrets.YOUTUBE_API_KEY }}'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        if: github.event_name != 'push'
+
+      - name: Checkout with tags
+        uses: actions/checkout@v3
+        if: github.event_name == 'push'
+        with:
+          fetch-depth: 2147483647
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+
+      - name: Cache dependencies
+        id: cache
+        uses: actions/cache@v3
+        with:
+          path: ./node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+
+      - name: Install dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Test site connectivity
+        run: |
+          curl -sS ${{ secrets.SITE_SSH_HOST }}
+
+      - name: Build site
+        run: npm run build
+
+      - name: Deploy site
+        uses: easingthemes/ssh-deploy@v5.1.0
+        env:
+          SSH_PRIVATE_KEY: ${{ env.SITE_SSH_PRIVATE_KEY }}
+          ARGS: '-rltgoDzvO --delete'
+          SOURCE: 'dist/client/'
+          REMOTE_HOST: ${{ env.SITE_SSH_HOST }}
+          REMOTE_USER: ${{ env.SITE_SSH_USER }}
+          TARGET: ${{ env.SITE_SSH_PATH }}
+          EXCLUDE: '/store/, /uploads/'
+          SCRIPT_BEFORE: |
+            whoami
+            ls -al > /dev/null
+          SCRIPT_AFTER: |
+            whoami
+            ls -al > /dev/null
+            echo $RSYNC_STDOUT
+            exit
