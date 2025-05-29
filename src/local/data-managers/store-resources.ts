@@ -15,6 +15,7 @@ import {
   parseStoreResourceUrl,
   STORE_DRAWINGS_DIR,
   STORE_INBOX_DIR,
+  STORE_SNAPSHOTS_DIR,
   STORE_TRASH_DIR,
 } from '../../core/entities/store.js';
 import { USER_UNKNOWN } from '../../core/entities/user.js';
@@ -178,6 +179,7 @@ export async function moveResourceToStoreDir(url: string, dir: string) {
 
 export async function movePublishedPostResources([id, post]: PostEntry<PublishablePost>) {
   switch (post.type) {
+    case 'photoshop':
     case 'outtakes':
     case 'shot':
     case 'wallpaper':
@@ -190,9 +192,12 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
       const content = asArray(post.content);
       const newContent: ImageResourceUrl[] = [];
 
-      for (const url of content) {
+      for (let i = 0; i < content.length; i++) {
+        const url = content[i]!;
+
         const { ext, originalUrl } = parseStoreResourceUrl(url);
-        const newUrl = `store:/${dir}/${id}${ext}` as string;
+        const indexStr = content.length > 1 ? `-${i}` : '';
+        const newUrl = `store:/${dir}/${id}${indexStr}${ext}` as string;
         const { originalUrl: newOriginalUrl } = parseStoreResourceUrl(newUrl);
 
         assertSchema(ImageResourceUrl, newUrl, (message) => `Cannot create published shot url: ${message}`);
@@ -246,6 +251,23 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
     default:
       throw new Error(`Cannot move content for post type "${post.type}"`);
   }
+
+  const snapshot = asArray(post.snapshot);
+  const newSnapshot = [];
+  for (let i = 0; i < snapshot.length; i++) {
+    const url = snapshot[i]!;
+
+    const { ext } = parseStoreResourceUrl(url);
+    const indexStr = snapshot.length > 1 ? `-${i}` : '';
+    const newUrl = `store:/${STORE_SNAPSHOTS_DIR}/${id}${indexStr}${ext}` as string;
+
+    if (url !== RESOURCE_MISSING_IMAGE) {
+      await moveResource(url, newUrl);
+    }
+
+    newSnapshot.push(newUrl);
+  }
+  post.snapshot = mergePostContents(newSnapshot);
 
   const inboxDirUrl = `store:/${STORE_INBOX_DIR}`;
   const trashInboxUrls = asArray(post.trash).filter((url) => url.startsWith(inboxDirUrl));
