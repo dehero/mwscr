@@ -875,6 +875,41 @@
       views: 561
 2025-03-26-candelabra: 2022-06-26-candelabra
 2025-03-27-spinning-wheel: 2023-08-03-spinning-wheel
+2025-03-28-1-oblivion-in-mundus:
+  title: Oblivion in Mundus
+  titleRu: Обливион в Мундусе
+  placement: Outdoors
+  content: store:/shots/2025-03-28-1-oblivion-in-mundus.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - lava
+    - cliffracer
+    - roadsign
+  mark: B1
+  posts:
+    - service: vk
+      id: 2396
+      published: 2025-05-28-18-32-00
+      updated: 2025-05-29-07-58-14
+      followers: 1310
+      likes: 18
+      views: 140
+    - service: tg
+      id: 861
+      published: 2025-05-28-18-37-00
+      updated: 2025-05-29-07-58-14
+      followers: 742
+      likes: 48
+      views: 171
+    - service: ig
+      id: DKNSEHkMasf
+      mediaId: '17848191828475879'
+      published: 2025-05-28-18-37-00
+      updated: 2025-05-29-07-58-14
+      followers: 1549
+      likes: 38
 2025-03-28-in-the-greenery-of-mournhold:
   title: In the Greenery of Mournhold
   titleRu: В зелени Морнхолда
@@ -1957,30 +1992,3 @@
 2025-05-24-snug-corridor: 2023-07-30-snug-corridor-by-darkness-rifho
 2025-05-25-through-the-snowy-forest: 2018-11-11-through-the-snowy-forest
 2025-05-27-you-shall-not-pass: 2018-04-14-you-shall-not-pass
-2025-03-28-1-oblivion-in-mundus:
-  title: Oblivion in Mundus
-  titleRu: Обливион в Мундусе
-  placement: Outdoors
-  content: store:/shots/2025-03-28-1-oblivion-in-mundus.png
-  type: shot
-  author: dehero
-  engine: OpenMW
-  tags:
-    - lava
-    - cliffracer
-    - roadsign
-  mark: B1
-  posts:
-    - service: vk
-      id: 2396
-      published: 2025-05-28-18-32-00
-      followers: 1310
-    - service: tg
-      id: 861
-      published: 2025-05-28-18-37-00
-      followers: 742
-    - service: ig
-      id: DKNSEHkMasf
-      mediaId: '17848191828475879'
-      published: 2025-05-28-18-37-00
-      followers: 1549
