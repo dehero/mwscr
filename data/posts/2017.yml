@@ -1119,7 +1119,8 @@
 2017-01-28-2-meditative-night-in-ahemmusa-camp:
   title: Meditative Night in Ahemmusa Camp
   titleRu: Ночь медитации в лагере Ахеммуза
-  description: Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
+  description:
+    Camera was placed in Ahemmusa Camp over the yurt of ashkhan in the rainy evening. It stayed there until morning.
   descriptionRu: Камера была закреплена дождливым вечером над юртой ашхана и оставалась там до утра.
   placement: Outdoors
   location: Ahemmusa Camp
@@ -6067,7 +6068,7 @@
   title: Queen Mother in Her Chambers
   titleRu: Королева-мать в своих покоях
   placement: Indoors
-  location: 'Mournhold, Royal Palace: Barenziah''s Chambers'
+  location: "Mournhold, Royal Palace: Barenziah's Chambers"
   content: store:/shots/2017-05-19-queen-mother-in-her-chambers.png
   type: shot
   author: dehero
@@ -12188,6 +12189,11 @@
       followers: 742
       likes: 21
       views: 71
+    - service: ig
+      id: DKP8TOYsgAS
+      mediaId: '17923840794081256'
+      published: 2025-05-29-19-23-00
+      followers: 1547
 2017-10-27-nchurdamz-in-sunset-haze:
   title: Nchurdamz in Sunset Haze
   titleRu: Нчурдамц в закатной дымке
