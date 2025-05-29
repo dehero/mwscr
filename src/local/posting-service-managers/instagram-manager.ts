@@ -68,7 +68,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
   }
 
   async createCaption(entry: PostEntry) {
-    const [id, post] = entry;
+    const [id, post, managerName] = entry;
     const lines: string[] = [];
     const tags = createPostPublicationTags(post);
     const contributors: string[] = [];
@@ -115,7 +115,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       lines.push(formatDate(firstPublished));
     }
 
-    lines.push(`View and Download: ${site.getPostUrl(id)}`);
+    lines.push(`View and Download: ${site.getPostUrl(id, managerName)}`);
 
     if (tags.length > 0) {
       lines.push('');

@@ -101,7 +101,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
   }
 
   async createCaption(entry: PostEntry) {
-    const [id, post] = entry;
+    const [id, post, managerName] = entry;
 
     const lines: string[] = [];
     const contributors: string[] = [];
@@ -148,7 +148,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       lines.push(formatDate(firstPublished));
     }
 
-    lines.push(`<a href="${site.getPostUrl(id)}">View and Download</a>`);
+    lines.push(`<a href="${site.getPostUrl(id, managerName)}">View and Download</a>`);
 
     return lines.join('\n');
   }
