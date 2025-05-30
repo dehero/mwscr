@@ -43,12 +43,13 @@ export async function publishPostToService(service: PostingServiceManager, entry
     await service.connect();
     await service.publishPostEntry(entry);
     await posts.save();
-    await service.disconnect();
     console.info(`Published post "${id}" to ${service.name}.`);
   } catch (error) {
     if (error instanceof Error) {
       console.error(`Error publishing post "${id}" to ${service.name}: ${error.message}`);
     }
+  } finally {
+    await service.disconnect();
   }
 }
 

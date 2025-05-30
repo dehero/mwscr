@@ -13,7 +13,6 @@ import {
   PublicMediaField,
   SimplePostMetric,
 } from 'instagram-graph-api';
-import fetch, { File, FormData } from 'node-fetch';
 import sharp from 'sharp';
 import { markdownToText } from '../../core/entities/markdown.js';
 import {
@@ -41,12 +40,14 @@ import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
 import { readResource } from '../data-managers/resources.js';
 import { users } from '../data-managers/users.js';
 import { createPostStory } from '../renderers/stories.js';
+import { siteStoreManager } from '../store-managers/site-store-manager.js';
 
 const INSTAGRAM_PAGE_ID = '17841404237421312'; // Instagram Business ID
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 
 export class InstagramManager extends Instagram implements PostingServiceManager {
+  private tempFiles: string[] = [];
   ig: Client | undefined;
 
   async parseCaption(caption: string) {
@@ -145,25 +146,17 @@ export class InstagramManager extends Instagram implements PostingServiceManager
   }
 
   async getUploadUrl(data: Buffer) {
-    const formData = new FormData();
-    formData.set('file', new File([data], 'temp.jpeg', { type: 'image/jpeg' }));
+    const filename = `instagram-upload-${this.tempFiles.length + 1}-${Date.now()}.jpeg`;
+    this.tempFiles.push(filename);
 
-    const serviceUrl = 'https://tmpfiles.org';
+    await siteStoreManager.put(filename, data);
+    const url = siteStoreManager.getPublicUrl(filename);
 
-    const response = await fetch(`${serviceUrl}/api/v1/upload`, {
-      method: 'POST',
-      headers: {
-        accept: 'application/json',
-      },
-      body: formData,
-    });
-    const details = (await response.json()) as { status?: string; data?: { url: string } } | undefined;
-
-    if (details?.status === 'success' && typeof details.data?.url === 'string') {
-      return details.data.url.replace(serviceUrl, `${serviceUrl}/dl`);
+    if (!url) {
+      throw new Error(`Cannot get public URL for ${filename}`);
     }
 
-    throw new Error(`Cannot upload file to ${serviceUrl}`);
+    return url;
   }
 
   async getCroppedImageUrl(image: sharp.Sharp, width: number, height: number): Promise<string> {
@@ -340,7 +333,16 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     return containerId;
   }
 
-  async disconnect() {}
+  async disconnect() {
+    for (const file of this.tempFiles) {
+      try {
+        await siteStoreManager.remove(file);
+      } catch {
+        // Ignore error
+      }
+    }
+    this.tempFiles = [];
+  }
 
   async grabPostInfo(mediaId: string) {
     const { ig } = await this.connect();
