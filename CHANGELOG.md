@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.60.0](https://github.com/dehero/mwscr/compare/v1.59.2...v1.60.0) (2025-05-30)
+
+### Features
+
+- allow publishing news without image
+  ([de01859](https://github.com/dehero/mwscr/commit/de018594da5ad2e47e4596eb407b3b033c99f7fb))
+- implement moving post snapshot files on posting
+  ([e981649](https://github.com/dehero/mwscr/commit/e981649d4ea57f46e80dd2a2cb6b5c73b6aedcb3))
+- implement outtakes publishing
+  ([4ca410d](https://github.com/dehero/mwscr/commit/4ca410d776a1155a025c7fe685ef029f43dccee5))
+- implement publishing news in Telegram
+  ([8e10de7](https://github.com/dehero/mwscr/commit/8e10de762f0160059ab124878d7719803f1dcf06))
+- implement publishing news on VK
+  ([1a27959](https://github.com/dehero/mwscr/commit/1a27959dba039c3c5d32cc89d0610a2a3eabd17d))
+- implement publishing news, photoshop and mention post types in Instagram as stories
+  ([80dded4](https://github.com/dehero/mwscr/commit/80dded469678f19b106bab9fd5f9de28669466fd))
+- implement rendering post stories
+  ([1e5126d](https://github.com/dehero/mwscr/commit/1e5126dd3cb5d23bdda28d9b855dc70075b55dcb))
+
+### Bug Fixes
+
+- adjust Instagram and VK post captions
+  ([306ea47](https://github.com/dehero/mwscr/commit/306ea47563f84a5a3d53e0a89dca0c14a6c7f4a3))
+- treat line breaks inside paragraph as spaces when converting to text
+  ([4b603d5](https://github.com/dehero/mwscr/commit/4b603d5d763af4e06d095ae8235f0f4b44c5b4c0))
+
+### Code Refactoring
+
+- add reader name to all ListReader entries
+  ([71313c3](https://github.com/dehero/mwscr/commit/71313c3e7e16aad2dab793617edcd69c0c856e58))
+
 ## [1.59.2](https://github.com/dehero/mwscr/compare/v1.59.1...v1.59.2) (2025-05-29)
 
 ### Continuous Integration
