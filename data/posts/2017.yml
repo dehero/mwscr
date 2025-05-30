@@ -514,7 +514,7 @@
     - service: vk
       id: 1753
       published: 2024-09-12-18-31-04
-      updated: 2025-05-23-13-26-11
+      updated: 2025-05-30-13-29-18
       followers: 945
       likes: 39
       views: 333
@@ -526,10 +526,10 @@
     - service: tg
       id: 530
       published: 2024-09-12-18-31-10
-      updated: 2025-05-23-13-26-09
+      updated: 2025-05-30-13-29-15
       followers: 555
       likes: 62
-      views: 538
+      views: 540
       comments: !c |-
         G2sAOIzUWa03lyNU+v/dPKLet8DKxxK83ZwWphNwEgdUuf7DBpwgBJhrtOAhIqWwqvVZ9s8YlcGe
         EXpd3PAUN1zXBzk0AsIamiCst/PwT+jEWR3WvxY2quDAMGdVSCEfqHDB4R4t8qrJwoaDBg==
@@ -4524,17 +4524,17 @@
     - service: vk
       id: 1701
       published: 2024-08-22-18-19-48
-      updated: 2025-05-23-13-26-15
+      updated: 2025-05-30-13-29-22
       followers: 937
       likes: 31
       views: 290
     - service: tg
       id: 509
       published: 2024-08-22-18-19-55
-      updated: 2025-05-23-13-26-11
+      updated: 2025-05-30-13-29-17
       followers: 539
       likes: 55
-      views: 604
+      views: 606
 2017-04-14-in-the-bar:
   title: In the Bar
   titleRu: У барной стойки
@@ -11525,17 +11525,17 @@
     - service: vk
       id: 1773
       published: 2024-09-19-18-29-58
-      updated: 2025-05-23-13-26-10
+      updated: 2025-05-30-13-29-15
       followers: 948
       likes: 37
       views: 320
     - service: tg
       id: 538
       published: 2024-09-19-18-30-04
-      updated: 2025-05-23-13-26-08
+      updated: 2025-05-30-13-29-14
       followers: 555
       likes: 59
-      views: 574
+      views: 575
 2017-10-10-on-the-pass:
   title: On the Pass
   titleRu: На перевале
@@ -12177,24 +12177,24 @@
     - service: vk
       id: 2399
       published: 2025-05-29-18-21-36
-      updated: 2025-05-30-12-37-00
+      updated: 2025-05-30-13-29-12
       followers: 1310
       likes: 29
-      views: 184
+      views: 187
       reposts: 1
     - service: tg
       id: 862
       published: 2025-05-29-18-21-42
-      updated: 2025-05-30-12-36-59
+      updated: 2025-05-30-13-29-11
       followers: 742
-      likes: 43
-      views: 162
+      likes: 45
+      views: 167
       comments: !c iw2AkZPLQnlyDmP9AACrS2F3YXpha3kyMjOk8J+ZggM=
     - service: ig
       id: DKP8TOYsgAS
       mediaId: '17923840794081256'
       published: 2025-05-29-19-23-00
-      updated: 2025-05-30-12-37-01
+      updated: 2025-05-30-13-29-13
       followers: 1547
       likes: 42
 2017-10-27-nchurdamz-in-sunset-haze:
