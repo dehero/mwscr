@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.60.2](https://github.com/dehero/mwscr/compare/v1.60.1...v1.60.2) (2025-05-30)
+
+### Bug Fixes
+
+- use site store to keep temporary files while uploading to Instagram, refuse insecure tmpfiles.org
+  ([f63de66](https://github.com/dehero/mwscr/commit/f63de6605231ea341aa4e2f65d817c0793361a55))
+
 ## [1.60.1](https://github.com/dehero/mwscr/compare/v1.60.0...v1.60.1) (2025-05-30)
 
 ### Bug Fixes
