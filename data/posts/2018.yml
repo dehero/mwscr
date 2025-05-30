@@ -4131,10 +4131,10 @@
     - service: vk
       id: 2394
       published: 2025-05-27-18-13-01
-      updated: 2025-05-29-17-15-05
+      updated: 2025-05-30-17-16-19
       followers: 1309
-      likes: 45
-      views: 370
+      likes: 50
+      views: 419
       reposts: 3
       comments: !c |-
         GzQCICwSbBsG5WMGuw7yZfw/cc+K8HEzfdDMssCbCayE8sRWzgXbWaCFUpUtw1ztBYkOi204xST5
@@ -4146,10 +4146,10 @@
     - service: tg
       id: 860
       published: 2025-05-27-18-13-08
-      updated: 2025-05-29-17-15-04
+      updated: 2025-05-30-17-16-18
       followers: 741
-      likes: 59
-      views: 237
+      likes: 60
+      views: 264
       comments: !c Cw+AkZPLQnlxMrKIgACuc3Rhc3lham95c3RpY2uk8J+RjQM=
     - service: ig
       id: DKMJ91kMjAm
