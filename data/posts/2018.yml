@@ -6699,11 +6699,16 @@
       id: DKSaiD2gKqm
       mediaId: '18100557748550234'
       published: 2025-05-30-18-26-54
+      updated: 2025-05-30-19-15-03
       followers: 1549
+      likes: 12
     - service: vk
       id: 2402
       published: 2025-05-30-18-27-08
+      updated: 2025-05-30-19-15-00
       followers: 1313
+      likes: 12
+      views: 43
     - service: tg
       id:
         - 863
@@ -6711,7 +6716,11 @@
         - 865
         - 866
       published: 2025-05-30-18-29-34
+      updated: 2025-05-30-19-15-01
       followers: 743
+      likes: 19
+      views: 56
+      comments: !c iw2AkZPLQnlyKUbNAACrS2F3YXpha3kyMjOk8J+RjQM=
 2018-06-18-azura-from-underwater:
   title: Azura from Underwater
   titleRu: Азура из-под воды
