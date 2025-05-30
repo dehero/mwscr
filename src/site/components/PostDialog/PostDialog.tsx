@@ -160,7 +160,7 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
   const [submitVariant, setSubmitVariant] = createSignal<'patch' | 'github-issue' | 'email'>('patch');
   const submitButtonProps = createMemo(() => {
     const entry = postEntry();
-    const targetId = entry?.[2] ?? entry?.[0];
+    const targetId = entry?.[3] ?? entry?.[0];
     const variant = submitVariant();
 
     if (!manager() || !targetId) {

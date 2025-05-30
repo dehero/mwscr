@@ -164,7 +164,7 @@ export abstract class PostsManager<TPost extends Post = Post> extends ListManage
       for await (const entry of this.readAllEntries()) {
         const stats = getPostEntryStats(entry);
 
-        if (!entry[2])
+        if (!entry[3])
           asArray(entry[1].author).forEach((author) => {
             likes.set(author, (likes.get(author) || 0) + stats.likes);
             views.set(author, (views.get(author) || 0) + stats.views);

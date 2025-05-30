@@ -118,7 +118,7 @@ export async function createPostInfos(managerName: string, dataManager: DataMana
 
   return Promise.all(
     entries.map(async (entry) => {
-      const [id, post, refId] = entry;
+      const [id, post, , refId] = entry;
       const errors: string[] = [];
 
       const status = await manager.getItemStatus(id);

@@ -22,12 +22,12 @@ export async function getPostPageData(dataManager: DataManager, params: PostRout
     throw render(404);
   }
 
-  const [, post, refId] = params.id ? await manager.getEntry(params.id) : [];
+  const [, post, , refId] = params.id ? await manager.getEntry(params.id) : [];
   if (!post || refId) {
     throw render(404);
   }
 
-  const repostIds = (await manager.getAllEntries()).filter((entry) => entry[2] === params.id).map((entry) => entry[0]);
+  const repostIds = (await manager.getAllEntries()).filter((entry) => entry[3] === params.id).map((entry) => entry[0]);
 
   let tagInfos;
   let locationInfos;
