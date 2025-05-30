@@ -1581,10 +1581,10 @@
     - service: tg
       id: 560
       published: 2024-10-10-18-10-28
-      updated: 2025-05-23-11-12-41
+      updated: 2025-05-30-11-15-37
       followers: 559
       likes: 62
-      views: 502
+      views: 504
 2017-02-08-moonmoth-legion-fort:
   title: Moonmoth Legion Fort
   titleRu: Форт Легиона Лунной Бабочки
@@ -3096,19 +3096,19 @@
     - service: vk
       id: 1840
       published: 2024-10-17-18-09-16
-      updated: 2025-05-23-11-12-42
+      updated: 2025-05-30-11-15-39
       followers: 965
       likes: 49
-      views: 641
+      views: 644
       reposts: 2
       comments: !c iwuAkZPLQnkp0j58gACnaHlhcnZhcqTwn6WwAw==
     - service: tg
       id: 567
       published: 2024-10-17-18-09-22
-      updated: 2025-05-23-11-12-40
+      updated: 2025-05-30-11-15-36
       followers: 562
       likes: 65
-      views: 644
+      views: 646
 2017-03-13-sandy-shore:
   title: Sandy Shore
   titleRu: Песчаный берег
@@ -12177,23 +12177,24 @@
     - service: vk
       id: 2399
       published: 2025-05-29-18-21-36
-      updated: 2025-05-30-10-21-56
+      updated: 2025-05-30-11-15-31
       followers: 1310
       likes: 28
-      views: 169
+      views: 178
       reposts: 1
     - service: tg
       id: 862
       published: 2025-05-29-18-21-42
-      updated: 2025-05-30-10-21-57
+      updated: 2025-05-30-11-15-33
       followers: 742
-      likes: 40
-      views: 151
+      likes: 41
+      views: 153
+      comments: !c iw2AkZPLQnlyDmP9AACrS2F3YXpha3kyMjOk8J+ZggM=
     - service: ig
       id: DKP8TOYsgAS
       mediaId: '17923840794081256'
       published: 2025-05-29-19-23-00
-      updated: 2025-05-30-10-21-57
+      updated: 2025-05-30-11-15-33
       followers: 1547
       likes: 42
 2017-10-27-nchurdamz-in-sunset-haze:
