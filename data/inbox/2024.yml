@@ -91,10 +91,16 @@ rachille.2024-06-25-dark-sanctuary-of-dark:
   title: Dark Sanctuary of Dark
   titleRu: Святилище тьмы во тьме
   description: '[Original post in Tumblr](https://rachilleart.tumblr.com/post/754270188615188480)'
-  descriptionRu: '[Оригинальный пост Tumblr](https://rachilleart.tumblr.com/post/754270188615188480)'
+  descriptionRu: '[Оригинальный пост в Tumblr](https://rachilleart.tumblr.com/post/754270188615188480)'
+  placement: Indoors
   content:
     - store:/inbox/2024-06-25-dark-sanctuary-of-dark.png
     - store:/shots/2018-05-09-dark-sanctuary-of-dark.png
   type: redrawing
-  author: rachille
+  author:
+    - rachille
+    - dehero
+  tags:
+    - candle
+    - sanctuary
   mark: B1
