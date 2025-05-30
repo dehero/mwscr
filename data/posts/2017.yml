@@ -2217,7 +2217,7 @@
     - service: vk
       id: 1613
       published: 2024-07-04-18-19-51
-      updated: 2025-05-23-18-19-34
+      updated: 2025-05-30-18-25-52
       followers: 919
       likes: 32
       views: 284
@@ -2225,10 +2225,10 @@
     - service: tg
       id: 459
       published: 2024-07-04-18-19-57
-      updated: 2025-05-23-18-19-31
+      updated: 2025-05-30-18-25-45
       followers: 391
       likes: 57
-      views: 590
+      views: 592
     - service: ig
       id: C9Q29Eus5LH
       mediaId: '17938456571848548'
@@ -3140,9 +3140,9 @@
       id: DKIGkWExlW9
       mediaId: 17851461927460444
       published: 2025-05-26-18-20-00
-      updated: 2025-05-29-18-21-17
+      updated: 2025-05-30-18-25-46
       followers: 1545
-      likes: 87
+      likes: 90
       comments: !c |-
         iziAkZTLQnlw4C0LgACrc3Bhc25ha3JvdmnZPm9uZSBvZiB0aGUgYmVzdCBzaG90cyBJ4oCZdmUg
         c2VlbiBvbiB0aGlzIGFjYywgaWYgbm90IHRoZSBiZXN0k8tCeXDhRooAAKVtd3NjcqpUaGFuayB5
@@ -3150,10 +3150,10 @@
     - service: vk
       id: 2392
       published: 2025-05-26-18-20-00
-      updated: 2025-05-29-18-21-12
+      updated: 2025-05-30-18-25-41
       followers: 1309
-      likes: 51
-      views: 349
+      likes: 53
+      views: 375
       reposts: 2
       comments: !c |-
         iyKAkZPLQnlxDOPSgAC0ZmlsYXZhbmRyZWxfb2ZmaWNpYWzZJNCU0L4g0YHQuNGFINC/0L7RgCDQ
@@ -3161,10 +3161,10 @@
     - service: tg
       id: 859
       published: 2025-05-26-19-35-00
-      updated: 2025-05-29-18-21-11
+      updated: 2025-05-30-18-25-39
       followers: 741
-      likes: 65
-      views: 255
+      likes: 66
+      views: 294
       comments: !c |-
         G3oBgCwO7MbOGx1qoEvxpr8R/RMXO8IvnAUaWM0kHvgFGhRpsk+nc0KbJxfywl3YAjTvYcPsFqMg
         agt1MfhtKBzdCV2Rgqypojtrm6kaDMloK/LwDz7K6fz0MS/kpWAcjIW0Mp0cQZIGol+UaUiRBoHc
@@ -3383,7 +3383,7 @@
     - service: vk
       id: 1592
       published: 2024-06-20-18-21-13
-      updated: 2025-05-23-18-19-35
+      updated: 2025-05-30-18-25-53
       followers: 919
       likes: 49
       views: 344
@@ -3391,13 +3391,13 @@
     - service: tg
       id: 445
       published: 2024-06-20-18-21-20
-      updated: 2025-05-23-18-19-32
+      updated: 2025-05-30-18-25-46
       followers: 387
       likes: 65
-      views: 510
+      views: 512
       comments: !c |-
-        CymAkZPLQnkECYQ5gAC0QmVybXVkYV9yaW9kZWphbmVpcm/ZMdCt0YLQviDQstGL0LPQu9GP0LTQ
-        uNGCINGC0LDQuiDQv9GA0LXQutGA0LDRgdC90L4D
+        iyWAkZPLQnkECYQ5gACtUGVyY29jZXRmb3J0edkx0K3RgtC+INCy0YvQs9C70Y/QtNC40YIg0YLQ
+        sNC6INC/0YDQtdC60YDQsNGB0L3QvgM=
 2017-03-19-stairs-in-vansunalit-egg-mine:
   title: Stairs in Vansunalit Egg Mine
   titleRu: Лестница в яичной шахте Вансуналит
@@ -4886,17 +4886,17 @@
     - service: vk
       id: 1630
       published: 2024-07-11-18-20-26
-      updated: 2025-05-23-18-19-34
+      updated: 2025-05-30-18-25-50
       followers: 920
       likes: 40
       views: 272
     - service: tg
       id: 466
       published: 2024-07-11-18-20-33
-      updated: 2025-05-23-18-19-30
+      updated: 2025-05-30-18-25-44
       followers: 397
       likes: 62
-      views: 523
+      views: 524
     - service: ig
       id: C9XOKgcRpUF
       mediaId: '18054171460670191'
@@ -12177,26 +12177,30 @@
     - service: vk
       id: 2399
       published: 2025-05-29-18-21-36
-      updated: 2025-05-30-17-16-15
+      updated: 2025-05-30-18-25-37
       followers: 1310
-      likes: 33
-      views: 203
+      likes: 35
+      views: 213
       reposts: 1
+      comments: !c |-
+        G/cA8K0KzHP6w6ggGjaT9uCjxv/jn1jCp00+aBFquExwhJNznW2VEi2V4x4fp2zqttzNadu4Hj4w
+        V0Mzc2SyawQnyeTySpLkYsnY5/tfZz+4fq9V+L8FTuLhQmZpznRSoUllGGk+pMBnAoolpzKjY9Jd
+        kcYZC7J/vOjmGlJZWyuQQvNE2xQTwjyqQLhDUXE1F8wZr2ZDwjQDwX0D
     - service: tg
       id: 862
       published: 2025-05-29-18-21-42
-      updated: 2025-05-30-17-16-16
+      updated: 2025-05-30-18-25-36
       followers: 742
       likes: 46
-      views: 174
+      views: 176
       comments: !c iw2AkZPLQnlyDmP9AACrS2F3YXpha3kyMjOk8J+ZggM=
     - service: ig
       id: DKP8TOYsgAS
       mediaId: '17923840794081256'
       published: 2025-05-29-19-23-00
-      updated: 2025-05-30-17-16-17
+      updated: 2025-05-30-18-25-38
       followers: 1547
-      likes: 43
+      likes: 44
 2017-10-27-nchurdamz-in-sunset-haze:
   title: Nchurdamz in Sunset Haze
   titleRu: Нчурдамц в закатной дымке

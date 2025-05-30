@@ -457,7 +457,7 @@
     - service: vk
       id: 1656
       published: 2024-07-25-18-20-25
-      updated: 2025-05-23-18-19-31
+      updated: 2025-05-30-18-25-48
       followers: 921
       likes: 44
       views: 313
@@ -6695,6 +6695,23 @@
       followers: 174
       likes: 20
       views: 270
+    - service: ig
+      id: DKSaiD2gKqm
+      mediaId: '18100557748550234'
+      published: 2025-05-30-18-26-54
+      followers: 1549
+    - service: vk
+      id: 2402
+      published: 2025-05-30-18-27-08
+      followers: 1313
+    - service: tg
+      id:
+        - 863
+        - 864
+        - 865
+        - 866
+      published: 2025-05-30-18-29-34
+      followers: 743
 2018-06-18-azura-from-underwater:
   title: Azura from Underwater
   titleRu: Азура из-под воды
@@ -8065,7 +8082,7 @@
     - service: vk
       id: 1642
       published: 2024-07-18-18-21-19
-      updated: 2025-05-23-18-19-33
+      updated: 2025-05-30-18-25-49
       followers: 919
       likes: 39
       views: 284
@@ -8076,10 +8093,10 @@
     - service: tg
       id: 473
       published: 2024-07-18-18-21-26
-      updated: 2025-05-23-18-19-29
+      updated: 2025-05-30-18-25-41
       followers: 402
       likes: 61
-      views: 715
+      views: 716
 2018-07-24-flaming-archer:
   title: Flaming Archer
   titleRu: Пылающий лучник
@@ -12947,16 +12964,16 @@
       id: DKFhu5-P9Yy
       mediaId: '17909599452038799'
       published: 2025-05-25-18-19-43
-      updated: 2025-05-29-18-21-18
+      updated: 2025-05-30-18-25-47
       followers: 1543
       likes: 67
     - service: vk
       id: 2383
       published: 2025-05-25-18-19-50
-      updated: 2025-05-29-18-21-14
+      updated: 2025-05-30-18-25-43
       followers: 1308
       likes: 47
-      views: 280
+      views: 293
       reposts: 2
       comments: !c |-
         G5kAqIyUbsJ8hCSz8Dx/P7/gx6eflkAb4ICiyyJpHs2zgeS5OCqgqdtKSlcwJL0Mx3TXDY4DC5wT
@@ -12965,10 +12982,10 @@
     - service: tg
       id: 858
       published: 2025-05-25-18-19-56
-      updated: 2025-05-29-18-21-13
+      updated: 2025-05-30-18-25-40
       followers: 740
       likes: 63
-      views: 295
+      views: 314
       comments: !c |-
         G9IA4B0Hdqwx+HA4srcfodLpeT1Jf7xmTaq+bMIbweSenuq5XsfXEBlTPTr3hLMJN5XPftRBd79o
         n1rgO8aB+0o32sDbgjNdJ1YPULCYt+v55T67X4fYd6gfCVJZpYU4hH7Pjc/JhrFmZfDH1075AYRa
