@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.60.1](https://github.com/dehero/mwscr/compare/v1.60.0...v1.60.1) (2025-05-30)
+
+### Bug Fixes
+
+- get refId from another tuple position for post entries
+  ([49fa057](https://github.com/dehero/mwscr/commit/49fa057fe297abe6a9b7e4cfab7220466dee3b71))
+
 ## [1.60.0](https://github.com/dehero/mwscr/compare/v1.59.2...v1.60.0) (2025-05-30)
 
 ### Features
