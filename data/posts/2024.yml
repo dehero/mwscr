@@ -214,14 +214,14 @@
     - service: vk
       id: 1439
       published: 2024-03-07-18-17-51
-      updated: 2025-05-24-12-27-08
+      updated: 2025-05-31-12-34-50
       followers: 893
       likes: 35
       views: 263
     - service: tg
       id: 338
       published: 2024-03-07-18-17-57
-      updated: 2025-05-24-12-27-02
+      updated: 2025-05-31-12-34-44
       followers: 345
       likes: 58
       views: 566
@@ -586,7 +586,7 @@
     - service: vk
       id: 1461
       published: 2024-03-21-18-11-23
-      updated: 2025-05-24-12-27-06
+      updated: 2025-05-31-12-34-48
       followers: 896
       likes: 42
       views: 305
@@ -597,10 +597,10 @@
     - service: tg
       id: 353
       published: 2024-03-21-18-11-29
-      updated: 2025-05-24-12-27-01
+      updated: 2025-05-31-12-34-42
       followers: 352
       likes: 59
-      views: 489
+      views: 490
       comments: !c |-
         CymAkZTLQnjmKMfPAACpR2F0ZW1hdGU32SZ0aGlzIGlzIGEgbWFzb25pYyBsb2RnZT8gbm90IG1v
         cnJvd2luZJPLQnjmKXtAgAClYW5zaXOlaGFoYWgD
@@ -900,7 +900,7 @@
     - service: vk
       id: 1480
       published: 2024-04-04-18-12-04
-      updated: 2025-05-24-12-27-05
+      updated: 2025-05-31-12-34-45
       followers: 906
       likes: 51
       views: 444
@@ -908,10 +908,10 @@
     - service: tg
       id: 367
       published: 2024-04-04-18-12-10
-      updated: 2025-05-24-12-26-58
+      updated: 2025-05-31-12-34-38
       followers: 354
       likes: 62
-      views: 494
+      views: 496
 2024-04-05-rain-of-sparks: 2017-09-29-rain-of-sparks
 2024-04-06-falling-towers:
   title: Falling Towers
@@ -1108,17 +1108,17 @@
     - service: vk
       id: 1490
       published: 2024-04-11-18-17-20
-      updated: 2025-05-24-12-27-04
+      updated: 2025-05-31-12-34-44
       followers: 911
       likes: 27
       views: 237
     - service: tg
       id: 375
       published: 2024-04-11-18-17-30
-      updated: 2025-05-24-12-26-58
+      updated: 2025-05-31-12-34-37
       followers: 352
       likes: 67
-      views: 1130
+      views: 1131
 2024-04-12-sadrith-mora-gateway-inn: 2017-01-19-sadrith-mora-gateway-inn
 2024-04-13-manwe:
   title: Manwe
@@ -3041,14 +3041,14 @@
     - service: tg
       id: 617
       published: 2024-12-06-18-11-36
-      updated: 2025-05-24-12-26-50
+      updated: 2025-05-31-12-34-19
       followers: 578
       likes: 58
-      views: 507
+      views: 509
     - service: vk
       id: 1945
       published: 2024-12-06-19-01-31
-      updated: 2025-05-24-12-26-51
+      updated: 2025-05-31-12-34-20
       followers: 1013
       likes: 43
       views: 404
