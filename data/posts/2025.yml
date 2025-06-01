@@ -271,18 +271,18 @@
     - service: vk
       id: 2105
       published: 2025-02-01-18-09-25
-      updated: 2025-05-25-18-18-36
+      updated: 2025-06-01-18-24-16
       followers: 1059
       likes: 40
-      views: 455
+      views: 456
       reposts: 3
     - service: tg
       id: 691
       published: 2025-02-01-18-09-32
-      updated: 2025-05-25-18-18-27
+      updated: 2025-06-01-18-24-05
       followers: 662
       likes: 68
-      views: 614
+      views: 615
 2025-02-02-heran-ancestral-tomb: 2017-06-25-heran-ancestral-tomb
 2025-02-03-tree-stone: 2017-04-16-tree-stone
 2025-02-04-corpse-preparation-volume-one: 2017-07-13-corpse-preparation-volume-one
@@ -513,17 +513,17 @@
     - service: vk
       id: 2195
       published: 2025-03-15-18-10-23
-      updated: 2025-05-25-18-18-29
+      updated: 2025-06-01-18-24-06
       followers: 1187
       likes: 61
-      views: 484
+      views: 488
     - service: tg
       id: 748
       published: 2025-03-15-18-10-30
-      updated: 2025-05-25-18-18-23
+      updated: 2025-06-01-18-24-00
       followers: 705
       likes: 59
-      views: 523
+      views: 527
 2025-03-16-passage-to-the-north:
   title: Passage to the North
   titleRu: Проход на север
@@ -772,10 +772,10 @@
     - service: vk
       id: 2217
       published: 2025-03-22-18-10-15
-      updated: 2025-05-25-18-18-28
+      updated: 2025-06-01-18-24-05
       followers: 1202
       likes: 48
-      views: 425
+      views: 428
       reposts: 2
       comments: !c |-
         G6QA4J0HdizyAotV1mcQT/i3CG9x+1RmYRJggi2xSJN3QW1zmXahXcSPSP4EN1nu5ATfTMrsmxmc
@@ -784,10 +784,10 @@
     - service: tg
       id: 758
       published: 2025-03-22-18-10-23
-      updated: 2025-05-25-18-18-23
+      updated: 2025-06-01-18-23-59
       followers: 708
       likes: 62
-      views: 668
+      views: 671
       comments: !c iw6AkZPLQnldJXDDgACpTWF4VXBzaGVyqEdvIExlZnQuAw==
 2025-03-23-avus-belvilo:
   title: Avus Belvilo
@@ -943,17 +943,17 @@
     - service: vk
       id: 2241
       published: 2025-03-29-18-19-18
-      updated: 2025-05-25-18-18-27
+      updated: 2025-06-01-18-24-04
       followers: 1217
       likes: 53
-      views: 385
+      views: 388
     - service: tg
       id: 769
       published: 2025-03-29-18-19-24
-      updated: 2025-05-25-18-18-22
+      updated: 2025-06-01-18-23-59
       followers: 710
       likes: 61
-      views: 495
+      views: 500
 2025-03-30-frozen-water-stone:
   title: Frozen Water Stone
   titleRu: Камень Замороженной Воды
@@ -1103,18 +1103,18 @@
     - service: vk
       id: 2256
       published: 2025-04-05-19-41-10
-      updated: 2025-05-25-18-18-27
+      updated: 2025-06-01-18-24-02
       followers: 1231
       likes: 75
-      views: 804
+      views: 810
       reposts: 5
     - service: tg
       id: 781
       published: 2025-04-05-19-41-19
-      updated: 2025-05-25-18-18-22
+      updated: 2025-06-01-18-23-58
       followers: 716
       likes: 67
-      views: 501
+      views: 505
 2025-04-06-deadly-attack: 2020-05-21-deadly-attack
 2025-04-07-peeping:
   title: Peeping
@@ -1536,24 +1536,24 @@
       id: DI620bCz9HG
       mediaId: '17965778672882734'
       published: 2025-04-26-18-21-00
-      updated: 2025-05-25-18-18-24
+      updated: 2025-06-01-18-24-00
       followers: 1530
       likes: 102
     - service: vk
       id: 2307
       published: 2025-04-26-18-21-00
-      updated: 2025-05-25-18-18-23
+      updated: 2025-06-01-18-23-57
       followers: 1274
       likes: 67
-      views: 466
+      views: 473
       reposts: 3
     - service: tg
       id: 816
       published: 2025-04-26-20-01-00
-      updated: 2025-05-25-18-18-19
+      updated: 2025-06-01-18-23-55
       followers: 725
       likes: 70
-      views: 550
+      views: 564
       comments: !c |-
         G/UA4I2Uq/3A3v+ca4Tf1sBl84FE0kXbHVBkcXs0DvfOft3eQ8lOdGD8tw0HCzjK8wAgCYLa4TQ1
         51XOk+i5VH7IGUd0JYipGjJDUb+julqc3CROBVLa9SxZBvC/Ucp0AD4meYuBFrXgW2rhFWgdkEw1
@@ -1995,3 +1995,4 @@
 2025-05-29-1-centurion-spider: 2017-10-26-centurion-spider
 2025-05-30-1-forts-of-imperial-legion: 2018-06-17-forts-of-imperial-legion
 2025-05-31-1-dren-plantation: 2018-09-17-dren-plantation
+2025-06-01-1-daedric-exit: 2019-02-18-daedric-exit
