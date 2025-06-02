@@ -129,8 +129,13 @@
     - service: vk
       id: 2417
       published: 2025-06-02-11-38-59
+      updated: 2025-06-02-11-54-48
       followers: 1315
+      views: 19
     - service: tg
       id: 870
       published: 2025-06-02-11-39-00
+      updated: 2025-06-02-11-54-47
       followers: 742
+      likes: 3
+      views: 62
