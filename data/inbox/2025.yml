@@ -63,11 +63,19 @@ dehero.2025-05-23-e1e29151:
       Remake old Morrowind screenshots (https://www.imperial-library.info/content/morrowind-screenshots) published by
       Bethesda itself during the promotion of the game.
 dehero.2025-06-01-15-19-26:
-  content:
-    - store:/inbox/dehero.2025-06-01-15-19-26.png
-    - store:/inbox/dehero.2025-06-01-15-19-26.1.png
+  title: From the Ground to the Sky
+  titleRu: От земли до неба
+  placement: Outdoors
+  location: Vivec
+  content: store:/inbox/dehero.2025-06-01-15-19-26.1.png
+  trash: store:/inbox/dehero.2025-06-01-15-19-26.png
   type: shot
   author: dehero
+  engine: OpenMW
+  tags:
+    - tree
+    - sky
+  mark: A1
 ohsweetnazareth.2025-05-02-keenings-respite-b6ff886e:
   title: Keening's Respite
   content: store:/inbox/ohsweetnazareth.2025-05-02-keenings-respite-b6ff886e.png
