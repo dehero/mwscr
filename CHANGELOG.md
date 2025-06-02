@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.61.1](https://github.com/dehero/mwscr/compare/v1.61.0...v1.61.1) (2025-06-02)
+
+### Bug Fixes
+
+- allow lossy drawing formats to be uploaded to site
+  ([78a1485](https://github.com/dehero/mwscr/commit/78a14854b82ab4d9f9c6e355666b6b4568ed404d))
+- use semicolon to split locations in publication captions
+  ([10e3298](https://github.com/dehero/mwscr/commit/10e3298c6d2024b713a2da55f85c73869b8b9e91))
+
 ## [1.61.0](https://github.com/dehero/mwscr/compare/v1.60.2...v1.61.0) (2025-06-02)
 
 ### Features
