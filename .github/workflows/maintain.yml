@@ -80,10 +80,6 @@ jobs:
           npm run release
           git push --follow-tags origin main
 
-      - name: Test site connectivity
-        run: |
-          curl -sS ${{ secrets.SITE_SSH_HOST }}
-
       - name: Build site
         run: npm run build
 
