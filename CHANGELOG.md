@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.61.6](https://github.com/dehero/mwscr/compare/v1.61.4...v1.61.6) (2025-06-02)
+
+### Bug Fixes
+
+- add more puppeteer args to make it work in GitHub Actions
+  ([039cc97](https://github.com/dehero/mwscr/commit/039cc97e608f629943db6da39d60a6a01f1a044c))
+- allow redrawings to be posted after 2 other extras
+  ([30cdb5c](https://github.com/dehero/mwscr/commit/30cdb5cb5f16fee2d7447d9f1b87dbdbed7cb751))
+- allow redrawings to be posted in the same day as other extra post
+  ([be815fd](https://github.com/dehero/mwscr/commit/be815fd4949b1e87033c39adacc5c28e1e50b18a))
+- swap width and height for Instagram stories
+  ([b73f3d2](https://github.com/dehero/mwscr/commit/b73f3d2172cd915028d62b0ce69d2059e822a234))
+
 ## [1.61.5](https://github.com/dehero/mwscr/compare/v1.61.4...v1.61.5) (2025-06-02)
 
 ### Bug Fixes
