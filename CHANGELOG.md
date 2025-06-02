@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.61.4](https://github.com/dehero/mwscr/compare/v1.61.3...v1.61.4) (2025-06-02)
+
+### Bug Fixes
+
+- run puppeteer without sandbox to turn html into images
+  ([83da071](https://github.com/dehero/mwscr/commit/83da07161ae92e9cf36adf266cab0dd58f1489ad))
+
+### Continuous Integration
+
+- remove site connectivity test
+  ([3669032](https://github.com/dehero/mwscr/commit/3669032a37c9602ccd2dd8713b4764ae49aac9db))
+
 ## [1.61.3](https://github.com/dehero/mwscr/compare/v1.61.2...v1.61.3) (2025-06-02)
 
 ### Bug Fixes
