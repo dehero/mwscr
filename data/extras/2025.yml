@@ -129,30 +129,31 @@
     - service: vk
       id: 2417
       published: 2025-06-02-11-38-59
-      updated: 2025-06-02-13-31-49
+      updated: 2025-06-02-14-06-47
       followers: 1315
-      likes: 13
-      views: 100
+      likes: 16
+      views: 118
       comments: !c |-
-        GyUGQKwOeJPlKqPNLWN0H4j+icN/WxG68+i3dAtaBc0EtAKGQlj3ULQ20Ou0njC2101MLw3kSIHP
-        q7olaIlHSJRvW5aPcD6uFEJhDOmS8pw5Mto6ubwQbl7+7YcWkKbRcllwJ1EWvJ3Q+1L1Klrfo1vk
-        KTQ4LMIjaxEKoeu/cCzmtZ34KxxNxY8+f/+1nvP9+Ono55sBVPhx6pl5X/ouUH06kJkfqEtXgBA+
-        xQL4YyoaR50NoBSrmbJIwaSaEkOmA8eUNeyumxuvIDGJ7MG0PwXCMg6lloexWcVfS0UCRnug/nr9
-        iVBN7CUPLV9TR1P7y/34sG79cuGXgkE++yG2ILQ2MK+Py/TGKvnIFTAnGZqjaXqNcSIb3a1DggsJ
-        itd7YZ60KJYJCG4OsWJDihgvrmo9pOirSnL+REUWaCWrCNGyTKOEQZj0zuud8TzJLTr9C4We7qX5
-        gUgwnk0Wc+Io8eBunW6R9ITKGQZcALVtOFCqaxa5s7dzKm8M9//kd/bK+p8W1hIcoAxXIwv5Aq1g
-        8LRoKPzfATaZX/83SmSicLgtog+GvVYFUoEVVZGDJxSecDBNx2BEakzek+kiP0AhuyWrGA34gghD
-        ertqpKGIOiUiO/gyk1Xjnynu6Q2HXXwBQVVPb/x1l5DNBu9SC/2aspmmEW8YnSOlG/9ht/scnyD/
-        w1BaZ4PIYOAEoaLOEcxjKvBWPRfKZzjmge3JkAaXWcVhnlDhkCn3FD8dC0X9rHg6L6cRR53NeXch
-        UAIhpAIAQYYhkiyyFD9sWf+2LLdPLOuzOWiugct7Mvb2wZDqgGHk5/9etksOmZLvQtWljsdtLsbd
-        jCgo7bY/jYFjSODkCg7JFAXLUw==
+        GxwHIKwOeJPpKqM1mFlidB+uUFTIElYaYNTlFa04hEHpqnEEYelCoVCyzipUVSa4b47nnYCDG8+t
+        Va9LElW3BKNwGo+QKL+2GR/Z/3GlUJ50SXnuHJlf7XoyHVp+63TbJSFF/P+fU9u4yChbpetUzrt5
+        BUZFtP0/YBUZVd252glLIFSVHAs3m9baM3uuAJWhdZL7p4/ffx07+r3/cPLzZQEq/HHuSJlf+t3D
+        +nRGZnrCmK4Ekd4kl8CfL2kcdDKAYqhKDq8KlJlUk8pQjPSj1Kjqwd3p1i1viXwgrJ2lr1ehPH+L
+        CeNhaNn4EywJ8IGo/ccOG6FauZc4ej57j2bX7/vx9t0kf7vypcwg10BEQaMdAnrDMdc3lv5HZJA7
+        6dMcdqf3GqcKR2wQYRcmIEL+fE/MQQvKMgGB6DlaNiSX9ZIrs4fkfluq7l9RkgVaqllC9CzUyGcg
+        FNMHnciDiNH5T6jo4Z6aD4QU46OphRTZTb3C3aYtFPUk6wxnHAPtbbihUHIbidkbndprDgeA9u7Y
+        Mw1AQtqCFqAD0rUDoS8lFjl4GDcs/pfgpv/5/2yyc1GYb4sSCB62KqUVaKnKHF4x9mSiPAYStbl5
+        D6bj/BmWsoWwytHQl0QQGQcrqEDudvJF3xEIFPeRgSbHVzYcY3wBoYWHt/waBbRzg8fUYoelspm2
+        pdDw9xxZ3fIX3ucLkeccgLFXRac9EcJQCpKlThPOZFrw2p7H5BpWHuQeLK2hn30rPtwkq3CYK99p
+        Pp6FStqQP5y3uxlGPa05S9RdEobgDUCCJBhRBRwJPXw0q6TnR1nUZ3OmuQaCE5rsZMHeDhAjQPuD
+        7eLoLRNF9pLt0sD9ThfrImmKSiRnDg/cRvy3j0LhAhqJ6asor/l4AV1oct81GTWpWcKL0ClEPyt3
+        oh5W47ASZe90gKpZ3wOlnasYN/bVZemK6VyjdMFBwHe4wSL2JwndVYbYShVEAA==
     - service: tg
       id: 870
       published: 2025-06-02-11-39-00
-      updated: 2025-06-02-13-31-49
+      updated: 2025-06-02-14-06-46
       followers: 742
-      likes: 11
-      views: 124
+      likes: 12
+      views: 137
       comments: !c |-
         G/0BACwSeI5kd+PmqyF6EIp/vr/YJ3zjzUrjO54lHlm2AbbQRFhwLpRzWjXhzBhU2F+WwJO2V2kH
         pW5iblbiJEb93wJrQlmDUViPMUBtrtqysR1iEjZ4k2txtZl3ZBfrDvSmF73iv12u4TmKskQDijws
@@ -165,7 +166,7 @@
       id: DKZjF5dOuJ5
       mediaId: '17981850905702315'
       published: 2025-06-02-12-56-23
-      updated: 2025-06-02-13-31-50
+      updated: 2025-06-02-14-06-47
       followers: 1551
 2025-06-02-2-two-ways:
   title: Two Ways
@@ -193,7 +194,10 @@
     - service: vk
       id: 2423
       published: 2025-06-02-13-46-51
+      updated: 2025-06-02-14-06-46
       followers: 1315
+      likes: 5
+      views: 21
     - service: tg
       id:
         - 871
