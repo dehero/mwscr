@@ -284,20 +284,24 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
     const { image } = await createPostStory(post);
 
-    const { ig } = await this.connect();
+    // const { ig } = await this.connect();
 
-    const imageUrl = await this.getCroppedImageUrl(sharp(image), 1920, 1080);
-    const containerId = await this.createContainer(ig.newPostPageStoriesPhotoMediaRequest(imageUrl));
-    const [mediaId, mediaInfo] = await this.publishContainer(containerId);
-    const id = mediaInfo.getShortcode() || mediaInfo.getIgId();
+    const imageUrl = await this.getCroppedImageUrl(sharp(image), 1080, 1920);
+    // const containerId = await this.createContainer(ig.newPostPageStoriesPhotoMediaRequest(imageUrl));
+    // const [mediaId, mediaInfo] = await this.publishContainer(containerId);
+    // const id = mediaInfo.getShortcode() || mediaInfo.getIgId();
 
-    if (!id) {
-      throw new Error(`Cannot get post ${this.name} story id`);
-    }
+    // if (!id) {
+    //   throw new Error(`Cannot get post ${this.name} story id`);
+    // }
 
-    const followers = await this.grabFollowerCount();
+    // const followers = await this.grabFollowerCount();
 
-    return [{ service: 'ig', id, mediaId, type: 'story', followers, published: new Date() }];
+    // return [{ service: 'ig', id, mediaId, type: 'story', followers, published: new Date() }];
+
+    console.log(imageUrl);
+
+    return [];
   }
 
   async publishContainer(containerId: string): Promise<[string, GetMediaInfoResponse]> {
