@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.61.2](https://github.com/dehero/mwscr/compare/v1.61.1...v1.61.2) (2025-06-02)
+
+### Bug Fixes
+
+- allow news to have no content to be published
+  ([4e8908b](https://github.com/dehero/mwscr/commit/4e8908b123ae1b94c66e68ea122828530b9956fa))
+- decrease minimum publishing gap
+  ([692b9c1](https://github.com/dehero/mwscr/commit/692b9c19134c751ccde71dc2dce27b90e825ef12))
+- resolve typing issues ([760159c](https://github.com/dehero/mwscr/commit/760159c022e74554ea23397446471fd010125dc7))
+- show placeholder content for news post preview without content
+  ([b0cc28c](https://github.com/dehero/mwscr/commit/b0cc28ce25cc2d6603e0eac35bd2a9d6e733b8c6))
+
+### Performance Improvements
+
+- disable Telegram debug messages
+  ([4a37e76](https://github.com/dehero/mwscr/commit/4a37e76e281b943ac556a8a5d196d2eef9b49793))
+
 ## [1.61.1](https://github.com/dehero/mwscr/compare/v1.61.0...v1.61.1) (2025-06-02)
 
 ### Bug Fixes
