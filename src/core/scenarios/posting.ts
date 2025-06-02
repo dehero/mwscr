@@ -54,7 +54,7 @@ const redrawing: PostingScenario = {
   postingRules: [afterHour(9)],
   postCandidateRules: [
     needCertainType('redrawing'),
-    needMinTypeDistance(14),
+    needMinTypeDistance(2),
     needMinContentDistance(PUBLICATION_IS_RECENT_DAYS),
   ],
 };
