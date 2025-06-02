@@ -179,6 +179,7 @@ export async function moveResourceToStoreDir(url: string, dir: string) {
 
 export async function movePublishedPostResources([id, post]: PostEntry<PublishablePost>) {
   switch (post.type) {
+    case 'news':
     case 'photoshop':
     case 'outtakes':
     case 'shot':
@@ -189,7 +190,7 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
         throw new Error(`Unable to detect target store directory for post type "${post.type}"`);
       }
 
-      const content = asArray(post.content);
+      const content = asArray<string>(post.content);
       const newContent: ImageResourceUrl[] = [];
 
       for (let i = 0; i < content.length; i++) {
