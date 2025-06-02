@@ -4,14 +4,15 @@ import { PUBLICATION_IS_RECENT_DAYS, PUBLICATION_MINIMUM_GAP_HOURS } from '../..
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { getDaysPassed, getHoursPassed } from '../../core/utils/date-utils.js';
 import { dataManager } from '../data-managers/manager.js';
-import { extras, posts } from '../data-managers/posts.js';
+import { posts } from '../data-managers/posts.js';
 import { postingServiceManagers } from '../posting-service-managers/index.js';
 
 export async function publishPosts() {
   console.group(`Publishing posts...`);
 
   const comparator = comparePostEntriesByDate('desc');
-  const publicPostEntries = [...(await posts.getAllEntries()), ...(await extras.getAllEntries())].sort(comparator);
+  // const publicPostEntries = [...(await posts.getAllEntries()), ...(await extras.getAllEntries())].sort(comparator);
+  const publicPostEntries = (await posts.getAllEntries()).sort(comparator);
 
   try {
     for (const service of postingServiceManagers) {
