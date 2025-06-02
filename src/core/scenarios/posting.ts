@@ -1,16 +1,16 @@
 import type { PostsManagerName, PublicPostsManagerName } from '../entities/posts-manager.js';
-import { PUBLICATION_IS_RECENT_DAYS } from '../entities/publication.js';
+// import { PUBLICATION_IS_RECENT_DAYS } from '../entities/publication.js';
 import type { PostCandidateRule } from '../rules/post-candidate-rules.js';
-import {
-  // needAnnouncement,
-  needMaxMarkDistance,
-  needMinAuthorDistance,
-  needMinContentDistance,
-  needMinMarkDistance,
-  needMinRelatedLocationDistance,
-  needMinThirdPartyDistance,
-  needMinTypeDistance,
-} from '../rules/post-candidate-rules.js';
+// import {
+//   // needAnnouncement,
+//   needMaxMarkDistance,
+//   needMinAuthorDistance,
+//   needMinContentDistance,
+//   needMinMarkDistance,
+//   needMinRelatedLocationDistance,
+//   needMinThirdPartyDistance,
+//   needMinTypeDistance,
+// } from '../rules/post-candidate-rules.js';
 import { needCertainType } from '../rules/post-rules.js';
 import type { PostingRule } from '../rules/posting-rules.js';
 import { afterHour, lastPostedDaysAgo } from '../rules/posting-rules.js';
@@ -39,78 +39,81 @@ export interface PostingScenario {
 //   postCandidateRules: [needAnnouncement],
 // };
 
-const news: PostingScenario = {
-  title: 'news',
-  sourceManagers: ['inbox'],
-  targetManager: 'extras',
-  postingRules: [afterHour(9)],
-  postCandidateRules: [needCertainType('news')],
-};
+// const news: PostingScenario = {
+//   title: 'news',
+//   sourceManagers: ['inbox'],
+//   targetManager: 'extras',
+//   postingRules: [afterHour(9)],
+//   postCandidateRules: [needCertainType('news')],
+// };
 
-const redrawing: PostingScenario = {
-  title: 'redrawing',
-  sourceManagers: ['inbox'],
-  targetManager: 'extras',
-  postingRules: [afterHour(9)],
-  postCandidateRules: [
-    needCertainType('redrawing'),
-    needMinTypeDistance(2),
-    needMinContentDistance(PUBLICATION_IS_RECENT_DAYS),
-  ],
-};
+// const redrawing: PostingScenario = {
+//   title: 'redrawing',
+//   sourceManagers: ['inbox'],
+//   targetManager: 'extras',
+//   postingRules: [afterHour(9)],
+//   postCandidateRules: [
+//     needCertainType('redrawing'),
+//     needMinTypeDistance(2),
+//     needMinContentDistance(PUBLICATION_IS_RECENT_DAYS),
+//   ],
+// };
 
 const shot: PostingScenario = {
   title: 'shot',
-  sourceManagers: ['inbox', 'posts'],
+  sourceManagers: [
+    'inbox',
+    // 'posts'
+  ],
   targetManager: 'posts',
   postingRules: [afterHour(18), lastPostedDaysAgo(1)],
   postCandidateRules: [
     needCertainType('shot'),
-    needMinMarkDistance('C', 14),
-    needMinMarkDistance('B2', 4),
-    needMinMarkDistance('A2', 1),
-    needMaxMarkDistance('A2', 7),
-    needMinMarkDistance('A1', 7),
-    needMaxMarkDistance('A1', 21),
-    needMinAuthorDistance(1),
-    needMinContentDistance(365),
-    needMinRelatedLocationDistance(2),
-    needMinThirdPartyDistance(7),
+    // needMinMarkDistance('C', 14),
+    // needMinMarkDistance('B2', 4),
+    // needMinMarkDistance('A2', 1),
+    // needMaxMarkDistance('A2', 7),
+    // needMinMarkDistance('A1', 7),
+    // needMaxMarkDistance('A1', 21),
+    // needMinAuthorDistance(1),
+    // needMinContentDistance(365),
+    // needMinRelatedLocationDistance(2),
+    // needMinThirdPartyDistance(7),
   ],
 };
 
-const shotSet: PostingScenario = {
-  title: 'shot-set',
-  sourceManagers: ['inbox', 'posts'],
-  targetManager: 'posts',
-  postingRules: [afterHour(18), lastPostedDaysAgo(1)],
-  postCandidateRules: [
-    needCertainType('shot-set'),
-    needMinTypeDistance(7),
-    needMinContentDistance(91),
-    needMinThirdPartyDistance(7),
-  ],
-};
+// const shotSet: PostingScenario = {
+//   title: 'shot-set',
+//   sourceManagers: ['inbox', 'posts'],
+//   targetManager: 'posts',
+//   postingRules: [afterHour(18), lastPostedDaysAgo(1)],
+//   postCandidateRules: [
+//     needCertainType('shot-set'),
+//     needMinTypeDistance(7),
+//     needMinContentDistance(91),
+//     needMinThirdPartyDistance(7),
+//   ],
+// };
 
-const wallpaper: PostingScenario = {
-  title: 'wallpaper',
-  sourceManagers: ['inbox', 'posts'],
-  targetManager: 'posts',
-  postingRules: [afterHour(18), lastPostedDaysAgo(1)],
-  postCandidateRules: [
-    needCertainType('wallpaper', 'wallpaper-v'),
-    needMinTypeDistance(7),
-    needMinContentDistance(365),
-    needMinThirdPartyDistance(7),
-  ],
-};
+// const wallpaper: PostingScenario = {
+//   title: 'wallpaper',
+//   sourceManagers: ['inbox', 'posts'],
+//   targetManager: 'posts',
+//   postingRules: [afterHour(18), lastPostedDaysAgo(1)],
+//   postCandidateRules: [
+//     needCertainType('wallpaper', 'wallpaper-v'),
+//     needMinTypeDistance(7),
+//     needMinContentDistance(365),
+//     needMinThirdPartyDistance(7),
+//   ],
+// };
 
 export const postingScenarios: PostingScenario[] = [
   // announcedPost,
   // announcedExtra,
-  news,
-  wallpaper,
-  shotSet,
+  // news,
+  // wallpaper,
+  // shotSet,
   shot,
-  redrawing,
+  // redrawing,
 ];
