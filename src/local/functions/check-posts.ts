@@ -19,7 +19,7 @@ async function checkPostsContent() {
 
   for (const manager of [posts, inbox]) {
     for await (const [id, post] of manager.readAllEntries()) {
-      const content = asArray(post.content);
+      const content = asArray<string>(post.content);
 
       if (post.violation === 'unreachable-resource') {
         continue;
