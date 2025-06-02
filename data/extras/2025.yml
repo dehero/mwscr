@@ -167,3 +167,30 @@
       published: 2025-06-02-12-56-23
       updated: 2025-06-02-13-31-50
       followers: 1551
+2025-06-02-2-two-ways:
+  title: Two Ways
+  titleRu: Два пути
+  description: >-
+    [Original post on
+    Reddit](https://www.reddit.com/r/Morrowind/comments/w83bac/silt_strider_art_posca_pens_based_on_a_picture/)
+  descriptionRu: >-
+    [Оригинальный пост на
+    Reddit](https://www.reddit.com/r/Morrowind/comments/w83bac/silt_strider_art_posca_pens_based_on_a_picture/)
+  placement: Outdoors
+  location: Ald-ruhn
+  content:
+    - store:/drawings/2025-06-02-2-two-ways.webp
+    - store:/shots/2018-09-22-two-ways.png
+  snapshot: store:/snapshots/2025-06-02-2-two-ways.png
+  type: redrawing
+  author:
+    - remmlah
+    - dehero
+  tags:
+    - siltstrider
+  mark: A2
+  posts:
+    - service: vk
+      id: 2423
+      published: 2025-06-02-13-46-51
+      followers: 1315
