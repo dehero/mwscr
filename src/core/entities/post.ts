@@ -43,6 +43,7 @@ export const PostViolation = picklist([
 export const PostAuthor = union([pipe(string(), nonEmpty()), array(pipe(string(), nonEmpty()))]);
 export const PostTag = pipe(string(), nonEmpty());
 export const PostRequest = object({ date: date(), user: pipe(string(), nonEmpty()), text: pipe(string(), nonEmpty()) });
+export const PostAnnouncement = pipe(string(), nonEmpty());
 
 export const Post = pipe(
   object({
@@ -63,6 +64,7 @@ export const Post = pipe(
     request: optional(PostRequest),
     mark: optional(PostMark),
     violation: optional(PostViolation),
+    announcement: optional(PostAnnouncement),
     posts: optional(array(Publication)),
   }),
   transform((input) => {
@@ -462,6 +464,7 @@ export function mergePostWith(post: Post, withPost: Post) {
   post.mark = post.mark || withPost.mark;
   post.violation = post.violation || withPost.violation;
   post.posts = mergePublications(post.posts, withPost.posts);
+  post.announcement = post.announcement || withPost.announcement;
 }
 
 export function mergeAuthors(author1: PostAuthor | undefined, author2?: PostAuthor | undefined) {

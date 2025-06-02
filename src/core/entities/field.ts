@@ -22,6 +22,7 @@ export const Field = picklist([
   'reject',
   'mark',
   'violation',
+  'announcement',
   'posts',
 
   // Request
