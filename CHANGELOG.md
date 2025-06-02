@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.61.0](https://github.com/dehero/mwscr/compare/v1.60.2...v1.61.0) (2025-06-02)
+
+### Features
+
+- add post announcement field for future use
+  ([0e7d0dd](https://github.com/dehero/mwscr/commit/0e7d0dd94437359d2b6477602a04d49e8cb1d80e))
+- implement posting for extras sections
+  ([0eb573a](https://github.com/dehero/mwscr/commit/0eb573a69cf23bf4b74c163fe1026515e89c8e23))
+
 ## [1.60.2](https://github.com/dehero/mwscr/compare/v1.60.1...v1.60.2) (2025-05-30)
 
 ### Bug Fixes
