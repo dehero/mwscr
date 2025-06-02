@@ -1974,25 +1974,38 @@
     - service: vk
       id: 2396
       published: 2025-05-28-18-32-00
-      updated: 2025-06-01-19-14-20
+      updated: 2025-06-02-19-27-55
       followers: 1310
-      likes: 29
-      views: 286
+      likes: 30
+      views: 300
     - service: tg
       id: 861
       published: 2025-05-28-18-37-00
-      updated: 2025-06-01-19-14-18
+      updated: 2025-06-02-19-27-55
       followers: 742
-      likes: 62
-      views: 317
+      likes: 64
+      views: 368
     - service: ig
       id: DKNSEHkMasf
       mediaId: '17848191828475879'
       published: 2025-05-28-18-37-00
-      updated: 2025-06-01-19-14-25
+      updated: 2025-06-02-19-27-58
       followers: 1549
       likes: 53
 2025-05-29-1-centurion-spider: 2017-10-26-centurion-spider
 2025-05-30-1-forts-of-imperial-legion: 2018-06-17-forts-of-imperial-legion
 2025-05-31-1-dren-plantation: 2018-09-17-dren-plantation
 2025-06-01-1-daedric-exit: 2019-02-18-daedric-exit
+2025-06-02-1-from-the-ground-to-the-sky:
+  title: From the Ground to the Sky
+  titleRu: От земли до неба
+  placement: Outdoors
+  location: Vivec
+  content: store:/shots/2025-06-02-1-from-the-ground-to-the-sky.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - tree
+    - sky
+  mark: A1
