@@ -9888,7 +9888,7 @@
     - service: vk
       id: 1707
       published: 2024-08-25-18-18-20
-      updated: 2025-05-26-16-17-46
+      updated: 2025-06-02-16-24-15
       followers: 940
       likes: 34
       views: 297
@@ -9896,10 +9896,10 @@
     - service: tg
       id: 512
       published: 2024-08-25-18-18-26
-      updated: 2025-05-26-16-17-41
+      updated: 2025-06-02-16-24-10
       followers: 542
       likes: 62
-      views: 627
+      views: 629
 2018-09-05-bonewalker:
   title: Bonewalker
   titleRu: Ходячий труп
@@ -10017,7 +10017,7 @@
     - service: vk
       id: 1743
       published: 2024-09-08-18-28-17
-      updated: 2025-05-26-16-17-44
+      updated: 2025-06-02-16-24-13
       followers: 944
       likes: 59
       views: 615
@@ -10482,16 +10482,16 @@
       id: DKU_C3Nt-Fl
       mediaId: '18029956733666899'
       published: 2025-05-31-18-24-25
-      updated: 2025-06-02-15-59-01
+      updated: 2025-06-02-16-24-09
       followers: 1548
       likes: 54
     - service: vk
       id: 2406
       published: 2025-05-31-18-24-31
-      updated: 2025-06-02-15-59-00
+      updated: 2025-06-02-16-24-08
       followers: 1314
       likes: 49
-      views: 317
+      views: 318
       reposts: 1
       comments: !c |-
         GxkCICwO7GbWj2Kwt9AUwlcVFjKYKPlIEkICUuDAeQIzclMzbqan3FRbzGiE9QRBSBC29K/53m4d
@@ -10503,10 +10503,10 @@
     - service: tg
       id: 867
       published: 2025-05-31-18-24-37
-      updated: 2025-06-02-15-58-59
+      updated: 2025-06-02-16-24-07
       followers: 743
       likes: 56
-      views: 262
+      views: 263
       comments: !c iw2AkZPLQnlym4pEAACrS2F3YXpha3kyMjOk8J+YjAM=
 2018-09-18-dead-grove:
   title: Dead Grove
@@ -12959,7 +12959,7 @@
     - service: vk
       id: 1764
       published: 2024-09-15-18-29-14
-      updated: 2025-05-26-16-17-44
+      updated: 2025-06-02-16-24-12
       followers: 947
       likes: 57
       views: 420
@@ -13252,7 +13252,7 @@
     - service: vk
       id: 1777
       published: 2024-09-22-18-28-15
-      updated: 2025-05-26-16-17-42
+      updated: 2025-06-02-16-24-10
       followers: 956
       likes: 59
       views: 497
