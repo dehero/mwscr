@@ -128,7 +128,7 @@ export class VKManager extends VKService implements PostingServiceManager {
       }
 
       if (locationTitles.length > 0) {
-        lines.push(locationTitles.join(', '));
+        lines.push(locationTitles.join('; '));
       }
     }
 
