@@ -17,7 +17,7 @@ import { asArray } from '../utils/common-utils.js';
 import { getDaysPassed, getMinutesPassed, isDateInRange } from '../utils/date-utils.js';
 
 export const PUBLICATION_IS_RECENT_DAYS = 31;
-export const PUBLICATION_MINIMUM_GAP_HOURS = 8;
+export const PUBLICATION_MINIMUM_GAP_HOURS = 2;
 
 const BaseComment = object({ datetime: date(), author: pipe(string(), nonEmpty()), text: pipe(string(), trim()) });
 
