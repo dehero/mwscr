@@ -51,7 +51,7 @@ const redrawing: PostingScenario = {
   title: 'redrawing',
   sourceManagers: ['inbox'],
   targetManager: 'extras',
-  postingRules: [afterHour(9), lastPostedDaysAgo(1)],
+  postingRules: [afterHour(9)],
   postCandidateRules: [
     needCertainType('redrawing'),
     needMinTypeDistance(14),
