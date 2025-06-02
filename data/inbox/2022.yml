@@ -15,12 +15,22 @@ irina-bystritskaya.2022-06-25-drawing-003:
 remmlah.2022-07-26-two-ways:
   title: Two Ways
   titleRu: Два пути
-  description:
-    '[Original post on
-    Reddit](https://www.reddit.com/r/Morrowind/comments/w83bac/silt_strider_art_posca_pens_based_on_a_picture/)'
+  description: >-
+    [Original post on
+    Reddit](https://www.reddit.com/r/Morrowind/comments/w83bac/silt_strider_art_posca_pens_based_on_a_picture/)
+  descriptionRu: >-
+    [Оригинальный пост в
+    Reddit](https://www.reddit.com/r/Morrowind/comments/w83bac/silt_strider_art_posca_pens_based_on_a_picture/)
+  placement: Outdoors
+  location: Ald-ruhn
   content:
     - store:/inbox/2022-07-26-remmlah-two-ways.webp
     - store:/shots/2018-09-22-two-ways.png
   snapshot: store:/inbox/2022-07-26-reddit.png
   type: redrawing
-  author: remmlah
+  author:
+    - remmlah
+    - dehero
+  tags:
+    - siltstrider
+  mark: A2
