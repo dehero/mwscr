@@ -129,13 +129,27 @@
     - service: vk
       id: 2417
       published: 2025-06-02-11-38-59
-      updated: 2025-06-02-11-54-48
+      updated: 2025-06-02-12-55-17
       followers: 1315
-      views: 19
+      likes: 8
+      views: 74
     - service: tg
       id: 870
       published: 2025-06-02-11-39-00
-      updated: 2025-06-02-11-54-47
+      updated: 2025-06-02-12-55-17
       followers: 742
-      likes: 3
-      views: 62
+      likes: 10
+      views: 111
+      comments: !c |-
+        G/0BACwSeI5kd+PmqyF6EIp/vr/YJ3zjzUrjO54lHlm2AbbQRFhwLpRzWjXhzBhU2F+WwJO2V2kH
+        pW5iblbiJEb93wJrQlmDUViPMUBtrtqysR1iEjZ4k2txtZl3ZBfrDvSmF73iv12u4TmKskQDijws
+        wYyib0l6w9LvotQcMuSH4/Xbpm1P63PPrzhoXyNB6Wi6DyTKBacqylzt425ImsBIMstCzd1Rdw4V
+        YE3jQUoQbEvq9QsfmbLemqwT2wUCYj8AwHdV50OH9q9OHtuACMiBEeMkdKqcFbFoSkGH5r/tC41W
+        5GoceNG0u9SJC4gBWKTGESFuSIdzkzXEZRZnk8XTgVCmcjIsk1Z10vNkrEgTb8nY63+t7w08atyv
+        7388TzfR/nLeqAE=
+    - type: story
+      service: ig
+      id: DKZjF5dOuJ5
+      mediaId: '17981850905702315'
+      published: 2025-06-02-12-56-23
+      followers: 1551
