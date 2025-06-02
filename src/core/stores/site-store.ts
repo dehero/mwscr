@@ -4,7 +4,7 @@ import { site } from '../services/site.js';
 export class SiteStore implements Store {
   include = [
     'shots/*.png',
-    'drawings/*.png',
+    'drawings/*.{png,webp,jpg}',
     'wallpapers/*.png',
     'videos/*.{mp4,avi,jpg,webm}',
     'news/*.{jpg,png}',
