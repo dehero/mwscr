@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.61.8](https://github.com/dehero/mwscr/compare/v1.61.7...v1.61.8) (2025-06-02)
+
+### Bug Fixes
+
+- temporarily leave minimal shot posting scenario
+  ([4c1e06f](https://github.com/dehero/mwscr/commit/4c1e06fadd9bbe84e7bee0d737cc1e7c467b7fb3))
+- temporarily exclude extras from publishing algorithm
+  ([3fdd166](https://github.com/dehero/mwscr/commit/3fdd166f3116810e45e17debd206e75843eca0df))
+
 ## [1.61.7](https://github.com/dehero/mwscr/compare/v1.61.6...v1.61.7) (2025-06-02)
 
 ### Bug Fixes
