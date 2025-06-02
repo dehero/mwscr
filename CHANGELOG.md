@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.61.3](https://github.com/dehero/mwscr/compare/v1.61.2...v1.61.3) (2025-06-02)
+
+### Bug Fixes
+
+- don't fail moving content for news without content
+  ([525446a](https://github.com/dehero/mwscr/commit/525446a98090770b0224ab56091a41984701fc06))
+
 ## [1.61.2](https://github.com/dehero/mwscr/compare/v1.61.1...v1.61.2) (2025-06-02)
 
 ### Bug Fixes
