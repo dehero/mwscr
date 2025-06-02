@@ -107,3 +107,35 @@
       followers: 1529
       likes: 26
       views: 453
+2025-06-02-1-publishing-extras:
+  title: Publishing Extras
+  titleRu: Публикация дополнительных материалов
+  description: |-
+    Дорогие подписчики! Начиная с сегодняшнего дня на канале между основными постами будут нерегулярно публиковаться
+    различные дополнительные материалы проекта в форме постов и историй. На сегодняшний день
+    [дополнительные материалы](https://mwscr.dehero.site/extras/) —
+    это новости (как этот пост), и перерисовки скриншотов художниками (раньше они были среди основных постов).
+    В планах есть и другие виды материалов. Появление каждого из них будет сопровождаться дополнительным анонсом.
+  descriptionRu: >-
+    Dear followers! Starting today, the channel will occasionally publish various extra materials of the project
+
+    between the main posts in the form of posts and stories. To date, [the extras](https://mwscr.dehero.site/extras/)
+
+    are the news (like this post) and the redrawings of screenshots by artists (previously, they were among the main
+    posts).
+
+    There are other types of materials in the plans. The appearance of each of them will be accompanied by an additional
+
+    announcement.
+  type: news
+  author: dehero
+  mark: A2
+  posts:
+    - service: vk
+      id: 2416
+      published: 2025-06-02-11-26-07
+      followers: 1315
+    - service: tg
+      id: 869
+      published: 2025-06-02-11-26-08
+      followers: 742
