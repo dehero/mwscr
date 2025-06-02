@@ -50,11 +50,11 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
         {
           connectionRetries: 5,
           reconnectRetries: 1, // Reconnect only once to avoid infinite script execution
-          baseLogger: new Logger(LogLevel.DEBUG),
+          baseLogger: new Logger(LogLevel.NONE),
         },
       );
 
-      this.tg.setLogLevel(LogLevel.DEBUG);
+      this.tg.setLogLevel(LogLevel.NONE);
 
       const readline = createInterface({
         input: process.stdin,
