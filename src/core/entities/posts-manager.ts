@@ -70,6 +70,9 @@ export type PublishablePost = InferOutput<typeof PublishablePost>;
 export const PostsManagerName = picklist(['posts', 'extras', 'inbox', 'trash']);
 export type PostsManagerName = InferOutput<typeof PostsManagerName>;
 
+export const PublicPostsManagerName = picklist(['posts', 'extras']);
+export type PublicPostsManagerName = InferOutput<typeof PublicPostsManagerName>;
+
 export const PostsManagerPatch = ListManagerPatch<Post>(Post);
 export type PostsManagerPatch = InferOutput<typeof PostsManagerPatch>;
 

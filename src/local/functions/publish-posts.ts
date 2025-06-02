@@ -1,20 +1,21 @@
-import type { PostEntries, PostEntry } from '../../core/entities/post.js';
-import { comparePostEntriesById, getPostEntriesFromSource } from '../../core/entities/post.js';
-import type { PublishablePost } from '../../core/entities/posts-manager.js';
-import { PUBLICATION_IS_RECENT_DAYS } from '../../core/entities/publication.js';
+import type { PostEntry } from '../../core/entities/post.js';
+import { comparePostEntriesByDate } from '../../core/entities/post.js';
+import { PUBLICATION_IS_RECENT_DAYS, PUBLICATION_MINIMUM_GAP_HOURS } from '../../core/entities/publication.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { getDaysPassed, getHoursPassed } from '../../core/utils/date-utils.js';
-import { posts } from '../data-managers/posts.js';
+import { dataManager } from '../data-managers/manager.js';
+import { extras, posts } from '../data-managers/posts.js';
 import { postingServiceManagers } from '../posting-service-managers/index.js';
 
 export async function publishPosts() {
   console.group(`Publishing posts...`);
 
-  const publishedPostEntries = await getPostEntriesFromSource(posts.readAllEntries, comparePostEntriesById('desc'));
+  const comparator = comparePostEntriesByDate('desc');
+  const publicPostEntries = [...(await posts.getAllEntries()), ...(await extras.getAllEntries())].sort(comparator);
 
   try {
     for (const service of postingServiceManagers) {
-      const entry = await findFirstUnpublishedPublicationEntry(publishedPostEntries, service);
+      const entry = await findFirstUnpublishedPostEntry(publicPostEntries, service);
       if (entry) {
         await publishPostToService(service, entry);
       } else {
@@ -31,7 +32,12 @@ export async function publishPosts() {
 }
 
 export async function publishPostToService(service: PostingServiceManager, entry: PostEntry) {
-  const [id, post] = entry;
+  const [id, post, managerName] = entry;
+  const postsManager = dataManager.findPostsManager(managerName);
+
+  if (!postsManager) {
+    throw new Error(`Cannot find posts manager "${managerName}".`);
+  }
 
   if (!service.canPublishPost(post)) {
     console.info(`Cannot publish post ${id} to ${service.name}.`);
@@ -42,7 +48,7 @@ export async function publishPostToService(service: PostingServiceManager, entry
     console.info(`Publishing post "${id}" to ${service.name}...`);
     await service.connect();
     await service.publishPostEntry(entry);
-    await posts.save();
+    await postsManager.save();
     console.info(`Published post "${id}" to ${service.name}.`);
   } catch (error) {
     if (error instanceof Error) {
@@ -53,22 +59,20 @@ export async function publishPostToService(service: PostingServiceManager, entry
   }
 }
 
-async function findFirstUnpublishedPublicationEntry(
-  publishedPostEntries: PostEntries<PublishablePost>,
-  service: PostingServiceManager,
-) {
-  const publishablePostEntries = publishedPostEntries.filter(([, post]) => service.canPublishPost(post));
-  let result: PostEntry<PublishablePost> | undefined;
+async function findFirstUnpublishedPostEntry(postEntries: PostEntry[], service: PostingServiceManager) {
+  const publishableEntries = postEntries.filter((entry) => service.canPublishPost(entry[1]));
+  let result: PostEntry | undefined;
 
-  for (const entry of publishablePostEntries) {
-    const lastPublishedPost = entry[1].posts?.find(
+  for (const entry of publishableEntries) {
+    const lastPublication = entry[1].posts?.find(
       (post) => post.service === service.id && getDaysPassed(post.published) <= PUBLICATION_IS_RECENT_DAYS,
     );
-    if (lastPublishedPost) {
+    if (lastPublication) {
       // Do not publish too often
-      if (getHoursPassed(lastPublishedPost.published) < 8) {
+      if (getHoursPassed(lastPublication.published) < PUBLICATION_MINIMUM_GAP_HOURS) {
         return undefined;
       }
+      // Find last publication and take next entry after it
       break;
     }
     result = entry;

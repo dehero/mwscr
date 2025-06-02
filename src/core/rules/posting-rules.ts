@@ -1,9 +1,15 @@
 import type { PostEntries } from '../entities/post.js';
 import { getPostDateById, getPostLastPublished } from '../entities/post.js';
+import type { PublicPostsManagerName } from '../entities/posts-manager.js';
 import type { Rule } from '../entities/rule.js';
 import { getDaysPassed, getHoursPassed, isValidDate } from '../utils/date-utils.js';
 
-export type PostingRule = Rule<undefined, PostEntries>;
+export interface PostingRuleContext {
+  targetManager: PublicPostsManagerName;
+  publicPostEntries: Record<PublicPostsManagerName, PostEntries>;
+}
+
+export type PostingRule = Rule<undefined, PostingRuleContext>;
 
 export function onWeekDay(weekDay: number): PostingRule {
   const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -29,12 +35,12 @@ export function afterHour(hour: number): PostingRule {
 }
 
 export function lastPublishedHoursAgo(hours: number): PostingRule {
-  return (_value: unknown, postEntries?: PostEntries) => {
-    if (!postEntries) {
+  return (_value: unknown, context?: PostingRuleContext) => {
+    if (!context) {
       return undefined;
     }
 
-    const [, post] = postEntries[0] ?? [];
+    const [, post] = context.publicPostEntries[context.targetManager][0] ?? [];
     if (!post) {
       return undefined;
     }
@@ -54,12 +60,12 @@ export function lastPublishedHoursAgo(hours: number): PostingRule {
 }
 
 export function lastPostedDaysAgo(days: number): PostingRule {
-  return (_value: unknown, postEntries?: PostEntries) => {
-    if (!postEntries) {
+  return (_value: unknown, context?: PostingRuleContext) => {
+    if (!context) {
       return undefined;
     }
 
-    const [id] = postEntries[0] ?? [];
+    const [id] = context.publicPostEntries[context.targetManager][0] ?? [];
     if (!id) {
       return undefined;
     }
