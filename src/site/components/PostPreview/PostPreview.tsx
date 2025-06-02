@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import { type Component, createSignal, For, Show } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
+import avatar from '../../../../assets/avatar.png?format=avif&imagetools';
 import { getLimitedAspectRatio } from '../../../core/entities/media.js';
 import { postAddonDescriptors, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
@@ -77,7 +78,7 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
       >
         <PostContentPreview
           class={styles.image}
-          content={props.postInfo.content ?? props.postInfo.snapshot}
+          content={props.postInfo.content ?? props.postInfo.snapshot ?? (!props.postInfo.request ? avatar : undefined)}
           type={props.postInfo.type}
           alt={alt()}
           frameState={frameState()}
