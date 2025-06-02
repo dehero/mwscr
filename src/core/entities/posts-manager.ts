@@ -51,7 +51,6 @@ export const PublishablePost = intersect([
     title: PostTitle,
     titleRu: PostTitleRu,
     author: PostAuthor,
-    content: PostContent,
     mark: picklist(['A1', 'A2', 'B1', 'B2', 'C', 'E']),
   }),
   PostVariant,
