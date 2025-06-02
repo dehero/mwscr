@@ -1,6 +1,8 @@
-// import { POST_RECENTLY_PUBLISHED_DAYS } from '../entities/post.js';
+import type { PostsManagerName, PublicPostsManagerName } from '../entities/posts-manager.js';
+import { PUBLICATION_IS_RECENT_DAYS } from '../entities/publication.js';
 import type { PostCandidateRule } from '../rules/post-candidate-rules.js';
 import {
+  // needAnnouncement,
   needMaxMarkDistance,
   needMinAuthorDistance,
   needMinContentDistance,
@@ -11,26 +13,58 @@ import {
 } from '../rules/post-candidate-rules.js';
 import { needCertainType } from '../rules/post-rules.js';
 import type { PostingRule } from '../rules/posting-rules.js';
-import { afterHour, lastPostedDaysAgo, lastPublishedHoursAgo } from '../rules/posting-rules.js';
+import { afterHour, lastPostedDaysAgo } from '../rules/posting-rules.js';
 
-export type PostingScenario = [title: string, postingRules: PostingRule[], postCandidateRules: PostCandidateRule[]];
+export interface PostingScenario {
+  title: string;
+  sourceManagers: PostsManagerName[];
+  targetManager: PublicPostsManagerName;
+  postingRules: PostingRule[];
+  postCandidateRules: PostCandidateRule[];
+}
 
-// const redrawing: PostingScenario = [
-//   'redrawing',
-//   [afterHour(18), lastPublishedHoursAgo(12), lastPostedDaysAgo(1)],
-//   [needCertainType('redrawing'), needMinTypeDistance(14), needMinContentDistance(POST_RECENTLY_PUBLISHED_DAYS)],
-// ];
+// const announcedPost: PostingScenario = {
+//   title: 'announced post',
+//   sourceManagers: ['inbox'],
+//   targetManager: 'posts',
+//   postingRules: [afterHour(18), lastPostedDaysAgo(1)],
+//   postCandidateRules: [needAnnouncement],
+// };
 
-const shotSet: PostingScenario = [
-  'shot-set',
-  [afterHour(18), lastPublishedHoursAgo(12), lastPostedDaysAgo(1)],
-  [needCertainType('shot-set'), needMinTypeDistance(7), needMinContentDistance(91), needMinThirdPartyDistance(7)],
-];
+// const announcedExtra: PostingScenario = {
+//   title: 'announced extra',
+//   sourceManagers: ['inbox'],
+//   targetManager: 'extras',
+//   postingRules: [afterHour(9)],
+//   postCandidateRules: [needAnnouncement],
+// };
 
-const shot: PostingScenario = [
-  'shot',
-  [afterHour(18), lastPostedDaysAgo(1)],
-  [
+const news: PostingScenario = {
+  title: 'news',
+  sourceManagers: ['inbox'],
+  targetManager: 'extras',
+  postingRules: [afterHour(9)],
+  postCandidateRules: [needCertainType('news')],
+};
+
+const redrawing: PostingScenario = {
+  title: 'redrawing',
+  sourceManagers: ['inbox'],
+  targetManager: 'extras',
+  postingRules: [afterHour(9), lastPostedDaysAgo(1)],
+  postCandidateRules: [
+    needCertainType('redrawing'),
+    needMinTypeDistance(14),
+    needMinContentDistance(PUBLICATION_IS_RECENT_DAYS),
+  ],
+};
+
+const shot: PostingScenario = {
+  title: 'shot',
+  sourceManagers: ['inbox', 'posts'],
+  targetManager: 'posts',
+  postingRules: [afterHour(18), lastPostedDaysAgo(1)],
+  postCandidateRules: [
     needCertainType('shot'),
     needMinMarkDistance('C', 14),
     needMinMarkDistance('B2', 4),
@@ -43,21 +77,40 @@ const shot: PostingScenario = [
     needMinRelatedLocationDistance(2),
     needMinThirdPartyDistance(7),
   ],
-];
+};
 
-const wallpaper: PostingScenario = [
-  'wallpaper',
-  [afterHour(18), lastPublishedHoursAgo(12), lastPostedDaysAgo(1)],
-  [
+const shotSet: PostingScenario = {
+  title: 'shot-set',
+  sourceManagers: ['inbox', 'posts'],
+  targetManager: 'posts',
+  postingRules: [afterHour(18), lastPostedDaysAgo(1)],
+  postCandidateRules: [
+    needCertainType('shot-set'),
+    needMinTypeDistance(7),
+    needMinContentDistance(91),
+    needMinThirdPartyDistance(7),
+  ],
+};
+
+const wallpaper: PostingScenario = {
+  title: 'wallpaper',
+  sourceManagers: ['inbox', 'posts'],
+  targetManager: 'posts',
+  postingRules: [afterHour(18), lastPostedDaysAgo(1)],
+  postCandidateRules: [
     needCertainType('wallpaper', 'wallpaper-v'),
     needMinTypeDistance(7),
     needMinContentDistance(365),
     needMinThirdPartyDistance(7),
   ],
-];
+};
 
 export const postingScenarios: PostingScenario[] = [
-  wallpaper, //redrawing,
+  // announcedPost,
+  // announcedExtra,
+  news,
+  wallpaper,
   shotSet,
   shot,
+  redrawing,
 ];

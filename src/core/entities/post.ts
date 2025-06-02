@@ -413,7 +413,7 @@ export function getPostThirdPartyDistance(postEntries: PostEntries): PostDistanc
     distance++;
   }
 
-  return { id: undefined, distance: Infinity, message: 'third-party content hasn not been posted before' };
+  return { id: undefined, distance: Infinity, message: 'third-party content has not been posted before' };
 }
 
 export function getPostRelatedLocationDistance(location: PostLocation, postEntries: PostEntries): PostDistance {
@@ -440,6 +440,19 @@ export function getPostRelatedLocationDistance(location: PostLocation, postEntri
   }
 
   return { id: undefined, distance: Infinity, message: 'location not used before' };
+}
+
+export function getPostIdDistance(id: string, postEntries: PostEntries): PostDistance {
+  let distance = 0;
+  for (const [entryId] of postEntries) {
+    if (entryId === id) {
+      return { id, distance, message: `found id "${id}" at distance ${distance}` };
+    }
+
+    distance++;
+  }
+
+  return { id: undefined, distance: Infinity, message: `id "${id}" not found` };
 }
 
 export function getPostDrawer(post: Post) {

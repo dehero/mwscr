@@ -1,48 +1,70 @@
-import type { PostEntries, PostEntry } from '../../core/entities/post.js';
-import { comparePostEntriesById, getPostEntriesFromSource } from '../../core/entities/post.js';
+import type { PostEntry } from '../../core/entities/post.js';
+import { comparePostEntriesByDate, getPostEntriesFromSource } from '../../core/entities/post.js';
 import type { PostsManager, PublishablePost } from '../../core/entities/posts-manager.js';
-import { isPublishablePost } from '../../core/entities/posts-manager.js';
+import { isPublishablePost, PublicPostsManagerName } from '../../core/entities/posts-manager.js';
 import { checkRules } from '../../core/entities/rule.js';
+import type { PostingRuleContext } from '../../core/rules/posting-rules.js';
 import type { PostingScenario } from '../../core/scenarios/posting.js';
 import { postingScenarios } from '../../core/scenarios/posting.js';
-import { inbox, posts } from '../data-managers/posts.js';
+import { dataManager } from '../data-managers/manager.js';
 import { movePublishedPostResources } from '../data-managers/store-resources.js';
 
 const DEBUG_POSTING = Boolean(process.env.DEBUG_POSTING) || false;
+
+interface ScenarioResult {
+  sourceManager: PostsManager;
+  entry: PostEntry<PublishablePost>;
+}
 
 export async function createNewPost() {
   console.group(`Creating new post...`);
 
   try {
-    const publishedPostEntries = await getPostEntriesFromSource(posts.readAllEntries, comparePostEntriesById('desc'));
-
-    const postsManagers = [inbox, posts];
+    const comparator = comparePostEntriesByDate('desc');
+    const publicPostEntries = Object.fromEntries(
+      await Promise.all(
+        PublicPostsManagerName.options.map((managerName) =>
+          (async () => [
+            managerName,
+            (await dataManager.findPostsManager(managerName)!.getAllEntries()).sort(comparator),
+          ])(),
+        ),
+      ),
+    );
 
     for (const postingScenario of postingScenarios) {
-      const entry = await selectPostFromScenario(postingScenario, postsManagers, publishedPostEntries);
-      if (!entry) {
+      const targetManager = dataManager.findPostsManager(postingScenario.targetManager);
+      if (!targetManager) {
+        throw new Error(`Target manager "${postingScenario.targetManager}" not found.`);
+      }
+
+      const context: PostingRuleContext = { targetManager: postingScenario.targetManager, publicPostEntries };
+
+      const scenarioResult = await selectPostByScenario(postingScenario, context);
+      if (!scenarioResult) {
         continue;
       }
 
+      const { sourceManager, entry } = scenarioResult;
       const [id, post] = entry;
 
-      if (!post.posts) {
-        const newId = await posts.createItemId(post);
+      if (sourceManager !== targetManager) {
+        const newId = await targetManager.createItemId(post);
 
-        await movePublishedPostResources([newId, post, posts.name]);
+        await movePublishedPostResources([newId, post, targetManager.name]);
 
-        await posts.addItem(post, newId);
-        await inbox.removeItem(id);
+        await targetManager.addItem(post, newId);
+        await sourceManager.removeItem(id);
 
-        await posts.save();
-        await inbox.save();
+        await targetManager.save();
+        await sourceManager.save();
 
-        console.info(`Created post "${newId}" from inbox item "${id}".`);
+        console.info(`Created post "${newId}" from ${sourceManager.name} item "${id}".`);
       } else {
-        const newId = await posts.createItemId({ ...post, posts: undefined });
+        const newId = await targetManager.createItemId({ ...post, posts: undefined });
 
-        posts.addItem(id, newId);
-        await posts.save();
+        targetManager.addItem(id, newId);
+        await targetManager.save();
 
         console.info(`Reposted "${id}" as "${newId}".`);
       }
@@ -58,33 +80,35 @@ export async function createNewPost() {
   console.groupEnd();
 }
 
-export async function selectPostFromScenario(
+export async function selectPostByScenario(
   postingScenario: PostingScenario,
-  postManagers: PostsManager[],
-  publishedPostEntries: PostEntries,
-): Promise<PostEntry<PublishablePost> | undefined> {
-  const [title, postingRules, postCandidateRules] = postingScenario;
+  context: PostingRuleContext,
+): Promise<ScenarioResult | undefined> {
   const errors: string[] = [];
 
-  if (!checkRules(postingRules, undefined, errors, publishedPostEntries) && !DEBUG_POSTING) {
-    console.info(`Skipped scenario "${title}": ${errors.join(', ')}.`);
+  if (!checkRules(postingScenario.postingRules, undefined, errors, context) && !DEBUG_POSTING) {
+    console.info(`Skipped scenario "${postingScenario.title}": ${errors.join(', ')}.`);
     return;
   }
 
-  for (const postManager of postManagers) {
-    console.info(`Running scenario "${title}" on ${postManager.name} items...`);
+  const sourceManagers = dataManager.postsManagers.filter((manager) =>
+    postingScenario.sourceManagers.includes(manager.name),
+  );
 
-    const postEntries = await getPostEntriesFromSource(
-      () => postManager.readAllEntries(true),
+  for (const sourceManager of sourceManagers) {
+    console.info(`Running scenario "${postingScenario.title}" on ${sourceManager.name} items...`);
+
+    const sourcePostEntries = await getPostEntriesFromSource(
+      () => sourceManager.readAllEntries(true),
       undefined,
       isPublishablePost,
     );
     const candidates: PostEntry<PublishablePost>[] = [];
 
-    for (const [id, post, managerName] of postEntries) {
+    for (const [id, post, managerName] of sourcePostEntries) {
       const errors: string[] = [];
 
-      if (checkRules(postCandidateRules, post, errors, publishedPostEntries)) {
+      if (checkRules(postingScenario.postCandidateRules, post, errors, context)) {
         candidates.push([id, post, managerName]);
       } else {
         console.info(`Skipped post "${id}": ${errors.join(', ')}`);
@@ -96,14 +120,21 @@ export async function selectPostFromScenario(
       continue;
     }
 
+    let candidate;
+
     if (candidates.length === 1) {
       console.info(`Found ${candidates.length} post candidate, selecting it...`);
-      return candidates[0];
+      candidate = candidates[0];
+    } else {
+      console.info(`Found ${candidates.length} post candidates, selecting random one...`);
+      candidate = candidates[Math.floor(Math.random() * candidates.length)] ?? undefined;
     }
 
-    console.info(`Found ${candidates.length} post candidates, selecting random one...`);
+    if (candidate) {
+      return { sourceManager, entry: candidate };
+    }
 
-    return candidates[Math.floor(Math.random() * candidates.length)] ?? undefined;
+    return undefined;
   }
 
   return undefined;
