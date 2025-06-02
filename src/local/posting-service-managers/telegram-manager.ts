@@ -1,5 +1,6 @@
 import 'dotenv/config';
 import { createInterface } from 'readline';
+import sharp from 'sharp';
 import { Api, TelegramClient } from 'telegram';
 // eslint-disable-next-line import/extensions
 import { Logger, LogLevel } from 'telegram/extensions/Logger.js';
@@ -350,10 +351,21 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       }
 
       for (const url of content) {
-        const { base } = parseResourceUrl(url);
-        const [file] = await readResource(url);
+        const { base, name } = parseResourceUrl(url);
+        const [data, mimeType] = await readResource(url);
+        let file;
+        let filename;
+
+        if (mimeType === 'image/webp') {
+          file = await sharp(data).png({ quality: 100 }).toBuffer();
+          filename = `${name}.png`;
+        } else {
+          file = data;
+          filename = base;
+        }
+
         // @ts-expect-error Untyped property
-        file.name = base;
+        file.name = filename;
 
         files.push(file);
       }
