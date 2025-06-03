@@ -2014,20 +2014,26 @@
       id: DKaQwt2uJXd
       mediaId: '17879001432222743'
       published: 2025-06-02-19-35-29
-      updated: 2025-06-03-03-18-18
+      updated: 2025-06-03-04-29-45
       followers: 1550
-      likes: 52
+      likes: 54
     - service: vk
       id: 2424
       published: 2025-06-02-19-35-34
-      updated: 2025-06-03-03-18-18
+      updated: 2025-06-03-04-29-45
       followers: 1316
-      likes: 15
-      views: 86
+      likes: 18
+      views: 98
+      comments: !c |-
+        G5EBAJwFdiy8wGJlxGD9TbZ4Qm58hKdtBZxxkDXP4tYCjAL/IF/e2dwKIRlKcHP99siD4J3TLtW6
+        aIIkULh/rKn+YJ85MtkQyxMNzPvrPOCAApvoaOQNMJvRwAY63Sbe3qoVFK5kR59cz5/lIdrnMXyr
+        hFCFgUUdFKQ9at4K7mqZ+R2daurLnVFwbU/eLQ1F8HOTt2PcYfQtHhX0liJsT7oXQl9DfQFtyC7U
+        IDNy/KacvmGDwO5fPjqs1NyLDtQVid4XAsAAbQBAAl2D4cTbjaM/p2OHdhRPU2dKe/5VB37oM0Wz
+        DHJhZWdBPtDt+4Y7QamIhfk4Ag==
     - service: tg
       id: 873
       published: 2025-06-02-19-35-38
-      updated: 2025-06-03-03-18-18
+      updated: 2025-06-03-04-29-44
       followers: 742
-      likes: 37
-      views: 112
+      likes: 39
+      views: 120
