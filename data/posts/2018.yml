@@ -179,7 +179,7 @@
     - service: vk
       id: 1876
       published: 2024-11-04-18-10-22
-      updated: 2025-05-27-11-01-11
+      updated: 2025-06-03-11-21-00
       followers: 1003
       likes: 31
       views: 314
@@ -187,10 +187,10 @@
     - service: tg
       id: 585
       published: 2024-11-04-18-10-32
-      updated: 2025-05-27-11-01-05
+      updated: 2025-06-03-11-20-45
       followers: 565
       likes: 58
-      views: 648
+      views: 650
 2018-01-07-vistha-kai-warden-of-the-corprusarium:
   title: Vistha-Kai, Warden of the Corprusarium
   titleRu: Виста-Кай, смотритель Корпрусариума
@@ -1628,24 +1628,24 @@
       id: DGdxQcuy3jz
       mediaId: '17897784168141465'
       published: 2025-02-24-18-11-33
-      updated: 2025-05-27-11-00-51
+      updated: 2025-06-03-11-20-40
       followers: 1536
       likes: 86
       views: 315
     - service: vk
       id: 2147
       published: 2025-02-24-18-11-42
-      updated: 2025-05-27-11-00-54
+      updated: 2025-06-03-11-20-34
       followers: 1124
       likes: 34
-      views: 435
+      views: 437
     - service: tg
       id: 723
       published: 2025-02-24-18-11-50
-      updated: 2025-05-27-11-00-47
+      updated: 2025-06-03-11-20-25
       followers: 685
-      likes: 58
-      views: 678
+      likes: 59
+      views: 680
 2018-02-13-urshilaku-camp:
   title: Urshilaku Camp
   titleRu: Лагерь Уршилаку
@@ -2278,7 +2278,7 @@
     - service: vk
       id: 1434
       published: 2024-03-03-18-16-44
-      updated: 2025-05-27-11-01-35
+      updated: 2025-06-03-11-21-26
       followers: 894
       likes: 34
       views: 300
@@ -2286,7 +2286,7 @@
     - service: tg
       id: 334
       published: 2024-03-03-18-16-50
-      updated: 2025-05-27-11-01-25
+      updated: 2025-06-03-11-21-04
       followers: 341
       likes: 64
       views: 536
@@ -2360,7 +2360,7 @@
     - service: vk
       id: 1503
       published: 2024-04-21-18-17-40
-      updated: 2025-05-27-11-01-29
+      updated: 2025-06-03-11-21-19
       followers: 909
       likes: 46
       views: 312
@@ -2372,7 +2372,7 @@
     - service: tg
       id: 385
       published: 2024-04-21-18-17-47
-      updated: 2025-05-27-11-01-20
+      updated: 2025-06-03-11-20-59
       followers: 354
       likes: 64
       views: 478
@@ -3805,7 +3805,7 @@
     - service: vk
       id: 1595
       published: 2024-06-23-18-18-57
-      updated: 2025-05-27-11-01-21
+      updated: 2025-06-03-11-21-10
       followers: 918
       likes: 36
       views: 299
@@ -3819,7 +3819,7 @@
     - service: tg
       id: 448
       published: 2024-06-23-18-19-06
-      updated: 2025-05-27-11-01-13
+      updated: 2025-06-03-11-20-53
       followers: 389
       likes: 53
       views: 505
@@ -4199,16 +4199,16 @@
       id: DJSCDBPNh5G
       mediaId: '18074365795804472'
       published: 2025-05-05-18-21-33
-      updated: 2025-05-27-11-00-42
+      updated: 2025-06-03-11-20-21
       followers: 1531
-      likes: 173
+      likes: 175
     - service: vk
       id: 2338
       published: 2025-05-05-18-21-56
-      updated: 2025-05-27-11-00-40
+      updated: 2025-06-03-11-20-19
       followers: 1277
       likes: 132
-      views: 1218
+      views: 1240
       reposts: 17
       comments: !c |-
         G8YAIJwJdizEZBhaTsY0jGRDlPx4glU4EhxohGZGLZlyMz1Q3Yy78BKhB2HkWXjXHUkiB43sWJ2y
@@ -4221,10 +4221,10 @@
         - 830
         - 831
       published: 2025-05-05-18-22-16
-      updated: 2025-05-27-11-00-39
+      updated: 2025-06-03-11-20-17
       followers: 736
-      likes: 78
-      views: 580
+      likes: 79
+      views: 603
       comments: !c |-
         G7cBQORqbV8JWTeimtQbQ3y5d1xCl9BMM6ES0idkuvl5+1LlqtV7ZzqbciZcFzBFipJJ8f8xdyXe
         3ovbjkhi8pzN78EeP/g8MOzI2kcKiWJP0hQrrXkQ8QF+aQqUSsjnyOCbFWGGsluzi+FNVArqPlMl
@@ -5142,17 +5142,17 @@
     - service: vk
       id: 1468
       published: 2024-03-24-18-11-49
-      updated: 2025-05-27-11-01-33
+      updated: 2025-06-03-11-21-23
       followers: 898
       likes: 41
       views: 353
     - service: tg
       id: 356
       published: 2024-03-24-18-11-58
-      updated: 2025-05-27-11-01-23
+      updated: 2025-06-03-11-21-01
       followers: 352
       likes: 60
-      views: 550
+      views: 551
       comments: !c iw2AkZPLQnjnGx3lAACrYm9icm92bmlrb3ak8J+VrwM=
 2018-05-10-drooping-sun-of-molag-amur:
   title: Drooping Sun of Molag Amur
@@ -6879,14 +6879,14 @@
     - service: vk
       id: 1667
       published: 2024-08-04-18-18-36
-      updated: 2025-05-27-11-01-14
+      updated: 2025-06-03-11-21-03
       followers: 927
       likes: 34
       views: 288
     - service: tg
       id: 490
       published: 2024-08-04-18-18-43
-      updated: 2025-05-27-11-01-07
+      updated: 2025-06-03-11-20-47
       followers: 476
       likes: 64
       views: 857
@@ -7878,25 +7878,25 @@
       id: DIb9YQlAy9w
       mediaId: '18053498783517076'
       published: 2025-04-14-18-21-46
-      updated: 2025-05-27-11-00-44
+      updated: 2025-06-03-11-20-28
       followers: 1530
       likes: 64
       views: 228
     - service: vk
       id: 2278
       published: 2025-04-14-18-21-56
-      updated: 2025-05-27-11-00-43
+      updated: 2025-06-03-11-20-24
       followers: 1255
       likes: 65
-      views: 447
+      views: 451
       reposts: 3
     - service: tg
       id: 794
       published: 2025-04-14-18-22-04
-      updated: 2025-05-27-11-00-41
+      updated: 2025-06-03-11-20-20
       followers: 720
       likes: 60
-      views: 488
+      views: 494
 2018-07-18-view-of-private-property:
   title: View of Private Property
   titleRu: Вид на частную собственность
@@ -10765,17 +10765,17 @@
       id: DHB0S2fT4UF
       mediaId: '18058157302870144'
       published: 2025-03-10-18-10-45
-      updated: 2025-05-27-11-00-51
+      updated: 2025-06-03-11-20-39
       followers: 1534
       likes: 134
       views: 383
     - service: vk
       id: 2184
       published: 2025-03-10-18-11-05
-      updated: 2025-05-27-11-00-50
+      updated: 2025-06-03-11-20-32
       followers: 1177
       likes: 77
-      views: 591
+      views: 595
       reposts: 5
       comments: !c |-
         izaAkpPLQnlYGUkEAACpcWlyb25nNjY2sdCa0YDQsNGB0LjQstC+0LUuk8tCeVg9IE8AAKppZDYz
@@ -10787,10 +10787,10 @@
         - 742
         - 743
       published: 2025-03-10-18-11-24
-      updated: 2025-05-27-11-00-46
+      updated: 2025-06-03-11-20-23
       followers: 693
       likes: 71
-      views: 690
+      views: 692
       comments: !c CxiAkZPLQnlYFGcEAACvYWxpY2VfcmFiYml0XzAytU9kYWkgdW5kZXIgdGhlIGJyaWRnZQM=
 2018-09-24-verminous-fabricant:
   title: Verminous Fabricant
@@ -10837,7 +10837,7 @@
     - service: vk
       id: 1648
       published: 2024-07-21-18-19-00
-      updated: 2025-05-27-11-01-16
+      updated: 2025-06-03-11-21-06
       followers: 919
       likes: 26
       views: 289
@@ -10847,7 +10847,7 @@
     - service: tg
       id: 476
       published: 2024-07-21-18-19-07
-      updated: 2025-05-27-11-01-09
+      updated: 2025-06-03-11-20-49
       followers: 400
       likes: 52
       views: 592
@@ -11254,7 +11254,7 @@
       id: DEK-qqtJkm9
       mediaId: '17873375394164737'
       published: 2024-12-29-18-00-22
-      updated: 2025-05-27-11-01-01
+      updated: 2025-06-03-11-20-56
       followers: 1519
       likes: 130
       views: 579
@@ -11433,7 +11433,7 @@
       id: DExn5skTWOM
       mediaId: '17876857326238567'
       published: 2025-01-13-18-11-48
-      updated: 2025-05-27-11-00-58
+      updated: 2025-06-03-11-20-51
       followers: 1524
       likes: 162
       views: 548
@@ -11443,10 +11443,10 @@
     - service: vk
       id: 2052
       published: 2025-01-13-18-12-09
-      updated: 2025-05-27-11-00-59
+      updated: 2025-06-03-11-20-41
       followers: 1052
       likes: 52
-      views: 392
+      views: 393
       reposts: 2
       comments: !c |-
         G2QHACwO7MavWeDuMRRl0wk1Qm8l/p84/FxeobeftqWChCAWq2KZWGnApRHVc8WCXaVVO5TEoxzC
@@ -11471,7 +11471,7 @@
         - 665
         - 666
       published: 2025-01-13-18-12-27
-      updated: 2025-05-27-11-00-52
+      updated: 2025-06-03-11-20-29
       followers: 648
       likes: 65
       views: 929

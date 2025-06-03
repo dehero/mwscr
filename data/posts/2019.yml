@@ -491,24 +491,24 @@
       id: DKXj-6XtLsC
       mediaId: '18279810676261476'
       published: 2025-06-01-18-25-42
-      updated: 2025-06-03-10-25-48
+      updated: 2025-06-03-11-20-14
       followers: 1551
       likes: 67
     - service: vk
       id: 2412
       published: 2025-06-01-18-25-47
-      updated: 2025-06-03-10-25-48
+      updated: 2025-06-03-11-20-14
       followers: 1314
-      likes: 52
-      views: 362
+      likes: 53
+      views: 366
       reposts: 1
     - service: tg
       id: 868
       published: 2025-06-01-18-25-50
-      updated: 2025-06-03-10-25-48
+      updated: 2025-06-03-11-20-14
       followers: 742
       likes: 57
-      views: 253
+      views: 254
       comments: !c iw2AkZPLQnlyzUJLAACrS2F3YXpha3kyMjOk8J+rpQM=
 2019-02-19-sandy-shore-of-west-gash:
   title: Sandy Shore of West Gash
@@ -1701,7 +1701,7 @@
     - service: vk
       id: 1890
       published: 2024-11-11-18-10-04
-      updated: 2025-05-27-11-01-10
+      updated: 2025-06-03-11-20-58
       followers: 1006
       likes: 43
       views: 384
@@ -1709,10 +1709,10 @@
     - service: tg
       id: 592
       published: 2024-11-11-18-10-12
-      updated: 2025-05-27-11-01-05
+      updated: 2025-06-03-11-20-37
       followers: 564
       likes: 65
-      views: 560
+      views: 562
 2019-10-06-dwemer-telescope:
   title: Dwemer Telescope
   titleRu: Двемерский телескоп
