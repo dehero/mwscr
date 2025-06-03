@@ -31,10 +31,6 @@ dehero.2025-03-12-20-11-51:
   content: store:/inbox/dehero.2025-03-12-20-11-51.png
   type: shot
   author: dehero
-dehero.2025-03-25-20-43-03:
-  content: store:/inbox/dehero.2025-03-25-20-43-03.png
-  type: shot
-  author: dehero
 dehero.2025-03-27-19-53-45:
   content: store:/inbox/dehero.2025-03-27-19-53-45.png
   type: shot
@@ -67,23 +63,12 @@ dehero.2025-06-01-15-04-24:
   type: shot
   author: dehero
 dehero.2025-06-01-15-06-11:
-  content: store:/inbox/dehero.2025-06-01-15-06-11.png
-  type: shot
-  author: dehero
-dehero.2025-06-01-15-06-13:
-  content: store:/inbox/dehero.2025-06-01-15-06-13.png
-  type: shot
-  author: dehero
-dehero.2025-06-01-15-06-16:
-  content: store:/inbox/dehero.2025-06-01-15-06-16.png
-  type: shot
-  author: dehero
-dehero.2025-06-01-15-06-17:
-  content: store:/inbox/dehero.2025-06-01-15-06-17.png
-  type: shot
-  author: dehero
-dehero.2025-06-01-15-06-47:
-  content: store:/inbox/dehero.2025-06-01-15-06-47.png
+  content:
+    - store:/inbox/dehero.2025-06-01-15-06-11.png
+    - store:/inbox/dehero.2025-06-01-15-06-16.png
+    - store:/inbox/dehero.2025-06-01-15-06-13.png
+    - store:/inbox/dehero.2025-06-01-15-06-17.png
+    - store:/inbox/dehero.2025-06-01-15-06-47.png
   type: shot
   author: dehero
 dehero.2025-06-01-15-17-14:
@@ -91,27 +76,17 @@ dehero.2025-06-01-15-17-14:
   type: shot
   author: dehero
 dehero.2025-06-01-15-22-03:
-  content: store:/inbox/dehero.2025-06-01-15-22-03.png
-  type: shot
-  author: dehero
-dehero.2025-06-01-15-22-17:
-  content: store:/inbox/dehero.2025-06-01-15-22-17.png
-  type: shot
-  author: dehero
-dehero.2025-06-01-15-23-01:
-  content: store:/inbox/dehero.2025-06-01-15-23-01.png
-  type: shot
-  author: dehero
-dehero.2025-06-01-15-26-59:
-  content: store:/inbox/dehero.2025-06-01-15-26-59.png
-  type: shot
-  author: dehero
-dehero.2025-06-01-15-27-32:
-  content: store:/inbox/dehero.2025-06-01-15-27-32.png
+  content:
+    - store:/inbox/dehero.2025-06-01-15-22-03.png
+    - store:/inbox/dehero.2025-06-01-15-23-01.png
+    - store:/inbox/dehero.2025-06-01-15-22-17.png
   type: shot
   author: dehero
 dehero.2025-06-01-15-27-47:
-  content: store:/inbox/dehero.2025-06-01-15-27-47.png
+  content:
+    - store:/inbox/dehero.2025-06-01-15-27-47.png
+    - store:/inbox/dehero.2025-06-01-15-27-32.png
+    - store:/inbox/dehero.2025-06-01-15-26-59.png
   type: shot
   author: dehero
 dehero.2025-06-01-15-28-59:
@@ -119,27 +94,17 @@ dehero.2025-06-01-15-28-59:
   type: shot
   author: dehero
 dehero.2025-06-01-15-29-38:
-  content: store:/inbox/dehero.2025-06-01-15-29-38.png
-  type: shot
-  author: dehero
-dehero.2025-06-01-15-30-13:
-  content: store:/inbox/dehero.2025-06-01-15-30-13.png
-  type: shot
-  author: dehero
-dehero.2025-06-01-15-30-31:
-  content: store:/inbox/dehero.2025-06-01-15-30-31.png
-  type: shot
-  author: dehero
-dehero.2025-06-01-15-30-44:
-  content: store:/inbox/dehero.2025-06-01-15-30-44.png
-  type: shot
-  author: dehero
-dehero.2025-06-01-15-35-02:
-  content: store:/inbox/dehero.2025-06-01-15-35-02.png
+  content:
+    - store:/inbox/dehero.2025-06-01-15-29-38.png
+    - store:/inbox/dehero.2025-06-01-15-30-44.png
+    - store:/inbox/dehero.2025-06-01-15-30-31.png
+    - store:/inbox/dehero.2025-06-01-15-30-13.png
   type: shot
   author: dehero
 dehero.2025-06-01-15-35-46:
-  content: store:/inbox/dehero.2025-06-01-15-35-46.png
+  content:
+    - store:/inbox/dehero.2025-06-01-15-35-46.png
+    - store:/inbox/dehero.2025-06-01-15-35-02.png
   type: shot
   author: dehero
 ohsweetnazareth.2025-05-02-keenings-respite-b6ff886e:
