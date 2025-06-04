@@ -2014,16 +2014,16 @@
       id: DKaQwt2uJXd
       mediaId: '17879001432222743'
       published: 2025-06-02-19-35-29
-      updated: 2025-06-04-13-36-57
+      updated: 2025-06-04-14-19-35
       followers: 1550
       likes: 76
     - service: vk
       id: 2424
       published: 2025-06-02-19-35-34
-      updated: 2025-06-04-13-36-57
+      updated: 2025-06-04-14-19-34
       followers: 1316
       likes: 57
-      views: 324
+      views: 328
       reposts: 1
       comments: !c |-
         GwcQAKwKeJOhZ52WXDPQLQI9s59Ru3r88zV892Nj1JtVqZsiTJyhtvE4NINGokBoPP1ci8b28g7v
@@ -2055,10 +2055,10 @@
     - service: tg
       id: 873
       published: 2025-06-02-19-35-38
-      updated: 2025-06-04-13-36-56
+      updated: 2025-06-04-14-19-33
       followers: 742
       likes: 60
-      views: 220
+      views: 222
       comments: !c iw2AkZPLQnlzWYltAACrS2F3YXpha3kyMjOk8J+MnwM=
 2025-06-03-1-reading-drinking-and-sleeping:
   title: Reading, Drinking and Sleeping
@@ -2079,21 +2079,24 @@
       id: DKcufv5tCvj
       mediaId: '17945438613004441'
       published: 2025-06-03-18-33-44
-      updated: 2025-06-04-13-36-56
+      updated: 2025-06-04-14-19-34
       followers: 1551
-      likes: 47
+      likes: 49
     - service: vk
       id: 2439
       published: 2025-06-03-18-33-49
-      updated: 2025-06-04-13-36-55
+      updated: 2025-06-04-14-19-33
       followers: 1317
-      likes: 31
-      views: 160
+      likes: 32
+      views: 164
       reposts: 1
+      comments: !c |-
+        G3YA+B0JNk7x4Um7wZN/+4Q3b4fe1sfkfpIF2hJqCxNL3sPcic/5ssmCglycTjnxDLa/LqgORRSW
+        tJIz/OPQ4Ly+2ser+2jPUn2dq/pWffx9/NogaHERRB4TvGhWdCAQDgdIJMafgjC4cCghMxM=
     - service: tg
       id: 874
       published: 2025-06-03-18-33-52
-      updated: 2025-06-04-13-36-56
+      updated: 2025-06-04-14-19-32
       followers: 743
       likes: 52
       views: 162
