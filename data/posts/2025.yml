@@ -2014,16 +2014,16 @@
       id: DKaQwt2uJXd
       mediaId: '17879001432222743'
       published: 2025-06-02-19-35-29
-      updated: 2025-06-04-19-18-02
+      updated: 2025-06-04-19-33-41
       followers: 1550
       likes: 79
     - service: vk
       id: 2424
       published: 2025-06-02-19-35-34
-      updated: 2025-06-04-19-18-02
+      updated: 2025-06-04-19-33-40
       followers: 1316
       likes: 58
-      views: 341
+      views: 342
       reposts: 1
       comments: !c |-
         GwcQAKwKeJOhZ52WXDPQLQI9s59Ru3r88zV892Nj1JtVqZsiTJyhtvE4NINGokBoPP1ci8b28g7v
@@ -2055,7 +2055,7 @@
     - service: tg
       id: 873
       published: 2025-06-02-19-35-38
-      updated: 2025-06-04-19-18-02
+      updated: 2025-06-04-19-33-40
       followers: 742
       likes: 62
       views: 231
@@ -2079,13 +2079,13 @@
       id: DKcufv5tCvj
       mediaId: '17945438613004441'
       published: 2025-06-03-18-33-44
-      updated: 2025-06-04-19-18-01
+      updated: 2025-06-04-19-33-40
       followers: 1551
       likes: 53
     - service: vk
       id: 2439
       published: 2025-06-03-18-33-49
-      updated: 2025-06-04-19-18-01
+      updated: 2025-06-04-19-33-39
       followers: 1317
       likes: 35
       views: 181
@@ -2096,7 +2096,7 @@
     - service: tg
       id: 874
       published: 2025-06-03-18-33-52
-      updated: 2025-06-04-19-18-02
+      updated: 2025-06-04-19-33-39
       followers: 743
       likes: 54
       views: 173
@@ -2107,3 +2107,31 @@
         x2vFXE7ixubr2/w0nSxWRBMP2TbSbWgESQEuB0DFFUGJi8UFEOA6Pd9CAtAU/LNxxMPhGhdhVDd7
         rRaT6SaWzdRbyVqyZeTfAQRGfppB5HVKcR6EYw//JRMS5JhqUFLB3FBiGF6cChioOOYaFQjuXOHa
         9utgPvJuuN8BQK6LyWXU7UBr+pNau0OKrjbZ23WGNeTzgGwN
+2025-06-04-1-waiting-for-buyers:
+  title: Waiting for Buyers
+  titleRu: В ожидании покупателей
+  placement: Indoors
+  location: Suran, Oran Manor
+  content: store:/shots/2025-06-04-1-waiting-for-buyers.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - candle
+    - shop
+    - weapon
+  mark: A2
+  posts:
+    - service: ig
+      id: DKfaN-ROaDd
+      mediaId: '18177645532325763'
+      published: 2025-06-04-19-34-18
+      followers: 1552
+    - service: vk
+      id: 2444
+      published: 2025-06-04-19-34-23
+      followers: 1317
+    - service: tg
+      id: 875
+      published: 2025-06-04-19-34-26
+      followers: 744
