@@ -1597,7 +1597,7 @@
     - service: tg
       id: 238
       published: 2020-10-31
-      updated: 2025-05-28-15-17-06
+      updated: 2025-06-04-15-47-32
       followers: 167
       likes: 5
       views: 1264
@@ -1630,7 +1630,7 @@
     - service: tg
       id: 239
       published: 2020-11-01
-      updated: 2025-05-28-15-17-06
+      updated: 2025-06-04-15-47-32
       followers: 167
       likes: 6
       views: 1296
@@ -1642,17 +1642,17 @@
       id: DGOUfCCRu_h
       mediaId: '18033866441571025'
       published: 2025-02-18-18-11-31
-      updated: 2025-05-28-15-15-26
+      updated: 2025-06-04-15-45-50
       followers: 1539
       likes: 72
       views: 301
     - service: vk
       id: 2137
       published: 2025-02-18-18-11-39
-      updated: 2025-05-28-15-15-14
+      updated: 2025-06-04-15-45-43
       followers: 1092
       likes: 36
-      views: 459
+      views: 460
       reposts: 1
       comments: !c |-
         G6sA8JwJdiyXCQdrkYxJf0TgbTjB35iTABMtsSJM7nVulNANSUJi6scdQ2K1qM4tZs5AXg3W/I1i
@@ -1661,10 +1661,10 @@
     - service: tg
       id: 714
       published: 2025-02-18-18-11-48
-      updated: 2025-05-28-15-15-06
+      updated: 2025-06-04-15-45-31
       followers: 678
       likes: 59
-      views: 635
+      views: 636
       comments: !c iw+AkZPLQnlSitTSgACvQWxleGV5IFN0ZXBhbm92pPCfkKYD
 2020-11-02-dead-reflections:
   title: Dead Reflections
@@ -1701,7 +1701,7 @@
     - service: tg
       id: 240
       published: 2020-11-02
-      updated: 2025-05-28-15-17-06
+      updated: 2025-06-04-15-47-31
       followers: 166
       likes: 12
       views: 1387
@@ -1742,7 +1742,7 @@
     - service: tg
       id: 241
       published: 2020-11-03
-      updated: 2025-05-28-15-17-06
+      updated: 2025-06-04-15-47-31
       followers: 166
       likes: 10
       views: 1593
@@ -1783,7 +1783,7 @@
     - service: tg
       id: 242
       published: 2020-11-05
-      updated: 2025-05-28-15-17-05
+      updated: 2025-06-04-15-47-31
       followers: 166
       likes: 11
       views: 1815
@@ -1843,15 +1843,15 @@
     - service: tg
       id: 243
       published: 2020-11-07
-      updated: 2025-05-28-15-17-05
+      updated: 2025-06-04-15-47-31
       followers: 167
       likes: 10
       views: 1957
       comments: !c |-
-        G8kAAMQH92sr/TRdaSrNfTsVxCpNzd+PVEKi4pQTDZDDALHmQXY8eMhK+yXFPA30v6vqnSPSDULW
-        s+FylLJcPBKubmEcO7jANa6whytw9zxjpItsWWm4lGE5C4vSSrw0/zvRC0TtGY+Q7UK+EDdnqlYd
-        RqPxME/Fzbg4wiqZlmeEA86i+r/rIivZMm2Wab628Dfdt5oF9VztthELZ1kpmGSRcLz2I8EsrrHD
-        deMEu7haGJbr5npwgjMccl2EcAY=
+        G8gAAMQH92sr/TRdaSrNfTsVxCpNzd+PVEKi4pQTDZDDALHmQXY8eMhK+yXF/Az0v6vqnSPSDULW
+        suEyZbl4JFzdwjh2cIFrXGEPV9zuecZIF9my0nApw3IWFqWVeGn+d6IXiNozHiHbhXwhbs40rTqM
+        RuNhnoqbcXGEVTItxwgHnEX1f9dFVrJl2izTfG3hb7pvNQvqudptIxbOslIwySLheO1HgllcY4fr
+        xgl2cTUwLNfN9eAEZzjkugjhDA==
 2020-11-09-erna-the-quiets-house:
   title: Erna the Quiet's House
   titleRu: Дом Эрны Спокойной
@@ -1891,7 +1891,7 @@
     - service: tg
       id: 244
       published: 2020-11-09
-      updated: 2025-05-28-15-17-05
+      updated: 2025-06-04-15-47-30
       followers: 169
       likes: 14
       views: 2506
@@ -1935,7 +1935,7 @@
     - service: tg
       id: 245
       published: 2020-11-11
-      updated: 2025-05-28-15-17-04
+      updated: 2025-06-04-15-47-30
       followers: 169
       likes: 18
       views: 2565

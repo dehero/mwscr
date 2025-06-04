@@ -44,7 +44,7 @@
     - service: tg
       id: 308
       published: 2023-07-28
-      updated: 2025-05-28-15-16-09
+      updated: 2025-06-04-15-46-45
       followers: 316
       likes: 79
       views: 942
@@ -98,7 +98,7 @@
     - service: tg
       id: 309
       published: 2023-07-29
-      updated: 2025-05-28-15-16-09
+      updated: 2025-06-04-15-46-44
       followers: 319
       likes: 70
       views: 713
@@ -135,7 +135,7 @@
     - service: tg
       id: 310
       published: 2023-07-30
-      updated: 2025-05-28-15-16-08
+      updated: 2025-06-04-15-46-44
       followers: 319
       likes: 57
       views: 706
@@ -196,7 +196,7 @@
     - service: tg
       id: 311
       published: 2023-07-31
-      updated: 2025-05-28-15-16-08
+      updated: 2025-06-04-15-46-43
       followers: 317
       likes: 61
       views: 759
@@ -237,7 +237,7 @@
     - service: tg
       id: 312
       published: 2023-08-01
-      updated: 2025-05-28-15-16-08
+      updated: 2025-06-04-15-46-43
       followers: 317
       likes: 67
       views: 764
@@ -275,7 +275,7 @@
     - service: tg
       id: 313
       published: 2023-08-02
-      updated: 2025-05-28-15-16-07
+      updated: 2025-06-04-15-46-42
       followers: 316
       likes: 55
       views: 887
@@ -340,7 +340,7 @@
     - service: tg
       id: 314
       published: 2023-08-03
-      updated: 2025-05-28-15-16-06
+      updated: 2025-06-04-15-46-42
       followers: 317
       likes: 46
       views: 889
@@ -406,7 +406,7 @@
     - service: tg
       id: 315
       published: 2023-08-04
-      updated: 2025-05-28-15-16-06
+      updated: 2025-06-04-15-46-41
       followers: 320
       likes: 62
       views: 853
@@ -442,7 +442,7 @@
     - service: tg
       id: 316
       published: 2023-08-05
-      updated: 2025-05-28-15-16-06
+      updated: 2025-06-04-15-46-41
       followers: 321
       likes: 57
       views: 746
@@ -482,7 +482,7 @@
     - service: tg
       id: 317
       published: 2023-08-06
-      updated: 2025-05-28-15-16-05
+      updated: 2025-06-04-15-46-41
       followers: 320
       likes: 52
       views: 815
@@ -521,7 +521,7 @@
     - service: tg
       id: 318
       published: 2023-08-07
-      updated: 2025-05-28-15-16-05
+      updated: 2025-06-04-15-46-40
       followers: 319
       likes: 65
       views: 841
@@ -558,7 +558,7 @@
     - service: tg
       id: 319
       published: 2023-08-08
-      updated: 2025-05-28-15-16-05
+      updated: 2025-06-04-15-46-40
       followers: 319
       likes: 56
       views: 914
@@ -598,7 +598,7 @@
     - service: tg
       id: 320
       published: 2023-08-09
-      updated: 2025-05-28-15-16-04
+      updated: 2025-06-04-15-46-40
       followers: 319
       likes: 73
       views: 998
@@ -606,25 +606,25 @@
       id: DH6fBvXBznp
       mediaId: '18070466110880575'
       published: 2025-04-01-18-21-38
-      updated: 2025-05-28-15-15-12
+      updated: 2025-06-04-15-45-32
       followers: 1529
       likes: 95
       views: 434
     - service: vk
       id: 2251
       published: 2025-04-01-18-21-46
-      updated: 2025-05-28-15-15-05
+      updated: 2025-06-04-15-45-30
       followers: 1226
       likes: 75
-      views: 433
+      views: 437
       reposts: 3
     - service: tg
       id: 773
       published: 2025-04-01-18-21-57
-      updated: 2025-05-28-15-15-02
+      updated: 2025-06-04-15-45-26
       followers: 712
       likes: 68
-      views: 617
+      views: 626
 2023-08-10-behind-a-barrel:
   title: Behind a Barrel
   titleRu: За бочкой
@@ -657,7 +657,7 @@
     - service: tg
       id: 321
       published: 2023-08-10
-      updated: 2025-05-28-15-16-04
+      updated: 2025-06-04-15-46-39
       followers: 320
       likes: 55
       views: 1187
@@ -715,7 +715,7 @@
         - 324
         - 325
       published: 2023-08-11
-      updated: 2025-05-28-15-16-04
+      updated: 2025-06-04-15-46-38
       followers: 322
       likes: 62
       views: 1337
@@ -752,16 +752,15 @@
     - service: tg
       id: 326
       published: 2023-09-16
-      updated: 2025-05-28-15-16-03
+      updated: 2025-06-04-15-46-38
       followers: 325
       likes: 62
       views: 1119
       comments: !c |-
-        G30BoJwHdsOLFRFnPJCXOE0NEVE30htvAn3ABIPMvgTLAguTPZ1bCdWuZusFGEzkA+cccAJPh9E2
-        oS4KWlPb9mg62lKBBt5sJzrnEf9t40Ek3eWBRmGAEXwW5ZTe8HTcCA5hJb/N6xfzP3N2ALgPNXMj
-        Oc5XceK8WcijOrvSRz6an0gkbcXXmFqkIjVSBvh7aV30pOOS1j62acWg0RABHrSB5R8Itm6PLK1R
-        6Q5wxiwaiF08WxCamSyVhlkE6rkZoH7XrtH98exvEbClmDvPrRnstmyY2oTiuXCaFS2MgSqMn78r
-        Ug2dXxU/We4v
+        G3gBoJwJvAnLsyHi2w7QR0TdSG+8CfQ5SjDzL/AoCyxM9nQ6jbDz/4XvgQYCo4PnBvwCvkiTvO1N
+        Qauf2irpaC8FeFueaM4ZVBxEUjcf6IBmMPzZaErpyaKQzyAYXhzn9evZJ90HAHd1be6/eglj2vqV
+        S7iV31gUL8Q1HiswUZa4AOo9ivodtF5S5FJxIQBjIRI0FDPyH4yKWpJIERnbCs50yWbEh2f3Ay81
+        tsL1ct/6B4fPnyZ14QL//G0SDhQJp7UNg68Ebg8jaTAaNHHysAZJGI/3ypQT5gft1fn4Ag==
 2023-09-17-stone-arches-by-darkness-rifho:
   title: Stone Arches
   titleRu: Каменные арки
@@ -793,7 +792,7 @@
     - service: tg
       id: 327
       published: 2023-09-17
-      updated: 2025-05-28-15-16-03
+      updated: 2025-06-04-15-46-37
       followers: 326
       likes: 55
       views: 1315
@@ -835,10 +834,10 @@
     - service: tg
       id: 328
       published: 2023-09-18
-      updated: 2025-05-28-15-16-02
+      updated: 2025-06-04-15-46-37
       followers: 327
       likes: 89
-      views: 3277
+      views: 3278
       comments: !c |-
         Cy+Ak5PLQnjfEx14AACsdmlvbGV0c3BpZGVyqkFhYWFoIPCfjJmTy0J4vdqE9IAAr0FsZXhleSBT
         dGVwYW5vdqTwn5Kpk8tCeKq60WUAAK1PbG1lcl9JemRleWxhpPCfmLsD
