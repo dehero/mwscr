@@ -340,8 +340,28 @@ export class VKManager extends VKService implements PostingServiceManager {
     };
   }
 
+  async grabStoryInfo(storyId: number) {
+    const { vk } = await this.connect();
+
+    const response = await vk.api.stories.getById({ stories: [`${VK_GROUP_ID}_${storyId}`] });
+
+    const story = response.items[0];
+
+    return {
+      views: story?.views || undefined,
+    };
+  }
+
   async updatePublication(publication: Publication) {
     if (!this.isPublication(publication)) {
+      return;
+    }
+
+    if (publication.type === 'story') {
+      const { views } = await this.grabStoryInfo(publication.id);
+
+      publication.views = views;
+      publication.updated = new Date();
       return;
     }
 
