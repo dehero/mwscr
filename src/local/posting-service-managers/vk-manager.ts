@@ -139,7 +139,7 @@ export class VKManager extends VKService implements PostingServiceManager {
 
     lines.push(`Подробности: ${site.getPostUrl(id, managerName)}`);
 
-    if (tags.length > 0) {
+    if (post.type !== 'news' && tags.length > 0) {
       lines.push('');
       lines.push(tags.map((tag) => `#${tag}`).join(' '));
     }

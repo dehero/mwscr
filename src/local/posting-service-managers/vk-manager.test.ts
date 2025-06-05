@@ -65,7 +65,7 @@ test('createCaption', async (t) => {
 
     assert.strictEqual(
       caption,
-      'Дорогие подписчики! Делюсь с вами интервью, взятым у меня игровым блогером Дмитрием Епихиным. Оно полностью посвящено рассказу о проекте Morrowind Screenshots и о Morrowind в целом. Приятного чтения!\n\nDTF (Русский): https://dtf.ru/screenshots/3312760-fotografiruyu-morrowind-uzhe-15-let-intervyu-s-osnovatelem-proekta-morrowind-screenshots\nStopGame (Русский): https://stopgame.ru/blogs/topic/117167/fotografiruyu_morrowind_uzhe_15_let_interview_s_osnovatelem_proekta_morrowind_screenshots\nMedium (Английский): https://medium.com/@dmepikh/ive-been-photographing-morrowind-for-15-years-interview-with-the-founder-of-the-morrowind-a5ee65712217\n\nПодробности: https://mwscr.dehero.site/extras/2025-05-15-interview/\n\n#morrowind #elderscrolls',
+      'Дорогие подписчики! Делюсь с вами интервью, взятым у меня игровым блогером Дмитрием Епихиным. Оно полностью посвящено рассказу о проекте Morrowind Screenshots и о Morrowind в целом. Приятного чтения!\n\nDTF (Русский): https://dtf.ru/screenshots/3312760-fotografiruyu-morrowind-uzhe-15-let-intervyu-s-osnovatelem-proekta-morrowind-screenshots\nStopGame (Русский): https://stopgame.ru/blogs/topic/117167/fotografiruyu_morrowind_uzhe_15_let_interview_s_osnovatelem_proekta_morrowind_screenshots\nMedium (Английский): https://medium.com/@dmepikh/ive-been-photographing-morrowind-for-15-years-interview-with-the-founder-of-the-morrowind-a5ee65712217\n\nПодробности: https://mwscr.dehero.site/extras/2025-05-15-interview/',
     );
   });
 });
