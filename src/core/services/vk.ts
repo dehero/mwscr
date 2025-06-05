@@ -1,7 +1,17 @@
 import type { InferOutput } from 'valibot';
 import { intersect, number, object, variant } from 'valibot';
 import { Post, PostTitleRu } from '../entities/post.js';
-import { News, Outtakes, Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
+import {
+  Mention,
+  News,
+  Outtakes,
+  Photoshop,
+  Redrawing,
+  Shot,
+  ShotSet,
+  VerticalWallpaper,
+  Wallpaper,
+} from '../entities/post-variant.js';
 import { Publication } from '../entities/publication.js';
 import { checkSchema } from '../entities/schema.js';
 import type { PostingService } from '../entities/service.js';
@@ -11,7 +21,7 @@ export const VK_GROUP_ID = -138249959;
 
 export const VKPost = intersect([
   object({ ...Post.entries, titleRu: PostTitleRu }),
-  variant('type', [Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper, Outtakes, News]),
+  variant('type', [Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper, Outtakes, News, Photoshop, Mention]),
 ]);
 
 export const VKPublication = object({
@@ -43,6 +53,11 @@ export class VK implements PostingService<VKPublication> {
     if (!this.isPublication(publication)) {
       return;
     }
+
+    if (publication.type === 'story') {
+      return `https://vk.com/${VK_GROUP_NAME}?w=story${VK_GROUP_ID}_${publication.id}`;
+    }
+
     return `https://vk.com/${VK_GROUP_NAME}?w=wall${VK_GROUP_ID}_${publication.id}`;
   }
 

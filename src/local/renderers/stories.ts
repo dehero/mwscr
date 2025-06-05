@@ -9,7 +9,7 @@ import { htmlToImage } from '../utils/image-utils.js';
 let storyStyle: string | undefined;
 let fontDataUrl: string | undefined;
 
-export async function createPostStory(post: Post) {
+export async function createPostStory(post: Post, ru?: boolean) {
   const content = asArray(post.content);
   const snapshot = asArray(post.snapshot);
   let imageUrl;
@@ -35,8 +35,8 @@ export async function createPostStory(post: Post) {
   }
 
   const html = await createStoryHtml({
-    title: post.title,
-    description: post.description,
+    title: ru ? post.titleRu : post.title,
+    description: ru ? post.descriptionRu : post.description,
     imageUrl,
     refImageUrl,
   });

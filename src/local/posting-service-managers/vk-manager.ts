@@ -25,6 +25,7 @@ import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
 import { locations } from '../data-managers/locations.js';
 import { readResource } from '../data-managers/resources.js';
 import { users } from '../data-managers/users.js';
+import { createPostStory } from '../renderers/stories.js';
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 
@@ -177,6 +178,23 @@ export class VKManager extends VKService implements PostingServiceManager {
       return;
     }
 
+    let newPublications;
+
+    switch (post.type) {
+      case 'mention':
+      case 'photoshop':
+        newPublications = await this.publishPostEntryAsStory(entry);
+        break;
+      default:
+        newPublications = await this.publishPostEntryAsPhoto(entry);
+    }
+
+    post.posts = [...(post.posts ?? []), ...newPublications];
+  }
+
+  async publishPostEntryAsPhoto(entry: PostEntry): Promise<VKPublication[]> {
+    const [, post] = entry;
+
     const { vk } = await this.connect();
     const attachments: string[] = [];
 
@@ -224,9 +242,27 @@ export class VKManager extends VKService implements PostingServiceManager {
     });
     const followers = await this.grabFollowerCount();
 
-    const publication: VKPublication = { service: this.id, id: result.post_id, followers, published: new Date() };
+    return [{ service: this.id, id: result.post_id, followers, published: new Date() }];
+  }
 
-    post.posts = [...(post.posts ?? []), publication];
+  async publishPostEntryAsStory(entry: PostEntry): Promise<VKPublication[]> {
+    const [id, post, managerName] = entry;
+    const { vk } = await this.connect();
+
+    const { image } = await createPostStory(post, true);
+    const linkUrl = site.getPostUrl(id, managerName);
+
+    const result = await vk.upload.storiesPhoto({
+      source: { value: image },
+      add_to_news: 1,
+      link_url: linkUrl,
+      link_text: 'learn_more',
+      group_id: Math.abs(VK_GROUP_ID),
+    });
+
+    const followers = await this.grabFollowerCount();
+
+    return [{ service: this.id, id: result.id, type: 'story', followers, published: new Date() }];
   }
 
   private getCommentInfo(message: WallWallComment, result: WallGetCommentExtendedResponse) {
