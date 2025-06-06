@@ -194,27 +194,27 @@
     - service: vk
       id: 2423
       published: 2025-06-02-13-46-51
-      updated: 2025-06-05-14-23-36
+      updated: 2025-06-06-15-11-49
       followers: 1315
-      likes: 23
-      views: 186
+      likes: 24
+      views: 209
     - service: tg
       id:
         - 871
         - 872
       published: 2025-06-02-14-03-54
-      updated: 2025-06-05-14-23-36
+      updated: 2025-06-06-15-11-49
       followers: 743
       likes: 55
-      views: 268
+      views: 284
       comments: !c iw2AkZPLQnlzHJ+tAACrS2F3YXpha3kyMjOk8J+RjQM=
     - service: ig
       id: DKZzrNXu-ap
       mediaId: '18307423723240522'
       published: 2025-06-02-15-21-18
-      updated: 2025-06-05-14-23-38
+      updated: 2025-06-06-15-11-51
       followers: 1551
-      likes: 73
+      likes: 80
       comments: !c |-
         CzaAkpTLQnlzIls0gACpc2hub3p3YXJkrlllcyEgTW9yZSBhcnQhk8tCeXMkL3eAAKVtd3NjcrlJ
         dCdzIHVwIHRvIHRob3NlIHdobyBkcmF3k8tCeXMUyZKAAKloZXkuam9ueV+q8J+UpeKdpO+4jwM=
