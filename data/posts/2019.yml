@@ -491,24 +491,28 @@
       id: DKXj-6XtLsC
       mediaId: '18279810676261476'
       published: 2025-06-01-18-25-42
-      updated: 2025-06-04-18-32-38
+      updated: 2025-06-06-08-51-49
       followers: 1551
-      likes: 74
+      likes: 76
     - service: vk
       id: 2412
       published: 2025-06-01-18-25-47
-      updated: 2025-06-04-18-32-35
+      updated: 2025-06-06-08-51-45
       followers: 1314
-      likes: 58
-      views: 425
+      likes: 60
+      views: 469
       reposts: 1
+      comments: !c |-
+        G7gA4J0JNk6oR3kXHkR1e8LjJgk0wySIsusPqAm4LKJkF3MbO/OKYRiFlQ1cha2DQw5crhi0ADAI
+        pYbhHq7TeX3zvh3e1p5lzfTf2AKjQGQfw8tQfhgb21HwhAasxeT7COzZPQMOB46YpmUjUb4aYtPy
+        IDBwsIAa
     - service: tg
       id: 868
       published: 2025-06-01-18-25-50
-      updated: 2025-06-04-18-32-32
+      updated: 2025-06-06-08-51-42
       followers: 742
       likes: 58
-      views: 271
+      views: 324
       comments: !c iw2AkZPLQnlyzUJLAACrS2F3YXpha3kyMjOk8J+rpQM=
 2019-02-19-sandy-shore-of-west-gash:
   title: Sandy Shore of West Gash
@@ -1432,7 +1436,7 @@
     - service: vk
       id: 1976
       published: 2024-12-19-18-10-51
-      updated: 2025-05-30-07-18-32
+      updated: 2025-06-06-08-52-17
       followers: 1027
       likes: 64
       views: 436
@@ -1440,7 +1444,7 @@
     - service: tg
       id: 630
       published: 2024-12-19-18-10-59
-      updated: 2025-05-30-07-18-26
+      updated: 2025-06-06-08-52-01
       followers: 584
       likes: 71
       views: 576
@@ -1945,7 +1949,7 @@
       id: DFdZSvtpKtB
       mediaId: '17890976667176344'
       published: 2025-01-30-18-10-45
-      updated: 2025-05-30-06-29-45
+      updated: 2025-06-06-08-52-20
       followers: 1534
       likes: 103
       views: 437
@@ -1955,15 +1959,15 @@
     - service: vk
       id: 2098
       published: 2025-01-30-18-10-52
-      updated: 2025-05-30-07-18-25
+      updated: 2025-06-06-08-52-08
       followers: 1057
       likes: 41
-      views: 361
+      views: 362
       reposts: 1
     - service: tg
       id: 689
       published: 2025-01-30-18-10-59
-      updated: 2025-05-30-06-29-25
+      updated: 2025-06-06-08-51-58
       followers: 661
       likes: 73
       views: 677
