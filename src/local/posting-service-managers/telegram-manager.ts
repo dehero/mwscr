@@ -3,6 +3,8 @@ import { createInterface } from 'readline';
 import sharp from 'sharp';
 import { Api, TelegramClient } from 'telegram';
 // eslint-disable-next-line import/extensions
+import { CustomFile } from 'telegram/client/uploads.js';
+// eslint-disable-next-line import/extensions
 import { Logger, LogLevel } from 'telegram/extensions/Logger.js';
 // eslint-disable-next-line import/extensions
 import { StringSession } from 'telegram/sessions/index.js';
@@ -25,6 +27,7 @@ import { asArray } from '../../core/utils/common-utils.js';
 import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
 import { readResource } from '../data-managers/resources.js';
 import { users } from '../data-managers/users.js';
+import { createPostStory } from '../renderers/stories.js';
 
 const DEBUG_PUBLISHING = Boolean(process.env.DEBUG_PUBLISHING) || false;
 
@@ -163,13 +166,14 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
   async grabPostInfo(
     id: number | number[],
-  ): Promise<{ likes?: number; views?: number; comments?: PublicationComment[] }> {
+  ): Promise<{ likes?: number; views?: number; reposts?: number; comments?: PublicationComment[] }> {
     if (Array.isArray(id)) {
       const infos = await Promise.all(id.map((id) => this.grabPostInfo(id)));
 
       return {
         likes: Math.max(...infos.map((info) => info.likes || 0)) || undefined,
         views: Math.max(...infos.map((info) => info.views || 0)) || undefined,
+        reposts: Math.max(...infos.map((info) => info.reposts || 0)) || undefined,
         comments: infos.find((info) => info.comments)?.comments,
       };
     }
@@ -202,8 +206,34 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     return {
       likes,
       views: message.views,
+      reposts: message.forwards,
       comments,
     };
+  }
+
+  async grabStoryInfo(id: number | number[]): Promise<{ likes?: number; views?: number; reposts?: number }> {
+    if (Array.isArray(id)) {
+      throw new TypeError(`Can't grab story info for multiple stories`);
+    }
+
+    const { tg } = await this.connect();
+
+    const result = await tg.invoke(new Api.stories.GetStoriesByID({ peer: TELEGRAM_CHANNEL, id: [id] }));
+
+    if (!(result instanceof Api.stories.Stories)) {
+      throw new TypeError(`Wrong story info API response type for ${id}`);
+    }
+
+    const story = result.stories[0];
+    if (!(story instanceof Api.StoryItem)) {
+      throw new TypeError(`Wrong story info API response type for ${id}`);
+    }
+
+    const views = story.views?.viewsCount;
+    const likes = story.views?.reactionsCount;
+    const reposts = story.views?.forwardsCount;
+
+    return { views, likes, reposts };
   }
 
   getCommentInfo(message: Api.Message, result: Api.messages.ChannelMessages) {
@@ -312,6 +342,14 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       return;
     }
 
+    if (publication.type === 'story') {
+      const { views } = await this.grabStoryInfo(publication.id);
+
+      publication.views = views;
+      publication.updated = new Date();
+      return;
+    }
+
     const { likes, views, comments } = await this.grabPostInfo(publication.id);
 
     publication.likes = likes;
@@ -323,11 +361,30 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
   async publishPostEntry(entry: PostEntry): Promise<void> {
     const [, post] = entry;
 
+    if (!this.canPublishPost(post)) {
+      throw new Error(`Cannot publish post to ${this.name}`);
+    }
+
     if (DEBUG_PUBLISHING) {
       console.log(`Published to ${this.name} with caption:\n${await this.createCaption(entry)}`);
       return;
     }
+    let newPublications;
 
+    switch (post.type) {
+      case 'mention':
+      case 'photoshop':
+        newPublications = await this.publishPostEntryAsStory(entry);
+        break;
+      default:
+        newPublications = await this.publishPostEntryAsPhoto(entry);
+    }
+
+    post.posts = [...(post.posts ?? []), ...newPublications];
+  }
+
+  async publishPostEntryAsPhoto(entry: PostEntry): Promise<TelegramPublication[]> {
+    const [, post] = entry;
     const { tg } = await this.connect();
 
     const followers = await this.grabFollowerCount();
@@ -392,7 +449,46 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       published: new Date(),
     };
 
-    post.posts = [...(post.posts ?? []), publication];
+    return [publication];
+  }
+
+  async publishPostEntryAsStory(entry: PostEntry): Promise<TelegramPublication[]> {
+    const [, post] = entry;
+
+    const { tg } = await this.connect();
+    const { image } = await createPostStory(post);
+    const media = await tg.uploadFile({ file: new CustomFile('story.png', image.length, '', image), workers: 1 });
+
+    const result = await tg.invoke(
+      new Api.stories.SendStory({
+        peer: TELEGRAM_CHANNEL,
+        media: new Api.InputMediaUploadedPhoto({ file: media, ttlSeconds: 43 }),
+        privacyRules: [new Api.InputPrivacyValueAllowAll(undefined)],
+        pinned: true,
+        period: 2 * 86400,
+      }),
+    );
+
+    if (!(result instanceof Api.Updates)) {
+      throw new TypeError(`Wrong send story API response type for ${this.name}.`);
+    }
+
+    const storyId = result.updates.find((update) => update instanceof Api.UpdateStoryID)?.id;
+    if (!storyId) {
+      throw new TypeError(`Unable to get story ID from API response for ${this.name}.`);
+    }
+
+    const followers = await this.grabFollowerCount();
+
+    const publication: TelegramPublication = {
+      service: this.id,
+      id: storyId,
+      type: 'story',
+      followers,
+      published: new Date(),
+    };
+
+    return [publication];
   }
 
   async grabFollowerCount() {
