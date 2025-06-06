@@ -1,7 +1,17 @@
 import type { InferOutput } from 'valibot';
 import { array, intersect, number, object, union, variant } from 'valibot';
 import { Post, PostTitle } from '../entities/post.js';
-import { News, Outtakes, Redrawing, Shot, ShotSet, VerticalWallpaper, Wallpaper } from '../entities/post-variant.js';
+import {
+  Mention,
+  News,
+  Outtakes,
+  Photoshop,
+  Redrawing,
+  Shot,
+  ShotSet,
+  VerticalWallpaper,
+  Wallpaper,
+} from '../entities/post-variant.js';
 import { Publication } from '../entities/publication.js';
 import { checkSchema } from '../entities/schema.js';
 import type { PostingService } from '../entities/service.js';
@@ -11,7 +21,7 @@ export const TELEGRAM_BOT_NAME = 'mwscrbot';
 
 export const TelegramPost = intersect([
   object({ ...Post.entries, title: PostTitle }),
-  variant('type', [Redrawing, Shot, ShotSet, Wallpaper, VerticalWallpaper, Outtakes, News]),
+  variant('type', [Redrawing, Shot, ShotSet, Wallpaper, VerticalWallpaper, Outtakes, News, Photoshop, Mention]),
 ]);
 
 export const TelegramPublication = object({
@@ -43,6 +53,10 @@ export class Telegram implements PostingService<TelegramPublication> {
     if (!this.isPublication(publication)) {
       return;
     }
+    if (publication.type === 'story') {
+      return `https://t.me/${TELEGRAM_CHANNEL}/s/${publication.id}`;
+    }
+
     return `https://t.me/${TELEGRAM_CHANNEL}/${publication.id}`;
   }
 
