@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.62.0](https://github.com/dehero/mwscr/compare/v1.61.8...v1.62.0) (2025-06-06)
+
+### Features
+
+- implement publishing stories to Telegram with receiving story statistics
+  ([06ae4cc](https://github.com/dehero/mwscr/commit/06ae4cc4afa1b92eb2191164696961469606c7f5))
+- implement publishing stories to VK
+  ([0bb45f8](https://github.com/dehero/mwscr/commit/0bb45f8790a61ab002d0ded22ff751f0e1d6f7c7))
+- implement receiving VK story view statistics
+  ([f80ceed](https://github.com/dehero/mwscr/commit/f80ceedac94decc7fc2c6889e9f917e9f55d8077))
+
+### Bug Fixes
+
+- don't use tags for VK news
+  ([7c5da14](https://github.com/dehero/mwscr/commit/7c5da1423f71145a67293801e268fdb700229939))
+
 ## [1.61.8](https://github.com/dehero/mwscr/compare/v1.61.7...v1.61.8) (2025-06-02)
 
 ### Bug Fixes
