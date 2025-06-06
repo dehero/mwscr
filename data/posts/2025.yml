@@ -2192,3 +2192,34 @@
       followers: 743
       likes: 47
       views: 158
+2025-06-06-1-lava-gorge:
+  title: Lava Gorge
+  titleRu: Лавовое ущелье
+  placement: Outdoors
+  location: Molag Amur Region
+  content: store:/shots/2025-06-06-1-lava-gorge.png
+  trash:
+    - store:/trash/dehero.2025-06-01-15-26-59.1.png
+    - store:/trash/dehero.2025-06-01-15-26-59.png
+    - store:/trash/dehero.2025-06-01-15-27-32.png
+  type: shot
+  author: dehero
+  engine: OpenMW
+  tags:
+    - lava
+    - bridge
+  mark: B1
+  posts:
+    - service: ig
+      id: DKkbWumNkIK
+      mediaId: '17883190830299023'
+      published: 2025-06-06-18-20-26
+      followers: 1551
+    - service: vk
+      id: 2450
+      published: 2025-06-06-18-20-31
+      followers: 1316
+    - service: tg
+      id: 877
+      published: 2025-06-06-18-20-35
+      followers: 743
