@@ -1,16 +1,16 @@
 import type { PostsManagerName, PublicPostsManagerName } from '../entities/posts-manager.js';
 // import { PUBLICATION_IS_RECENT_DAYS } from '../entities/publication.js';
 import type { PostCandidateRule } from '../rules/post-candidate-rules.js';
-// import {
+import {
 //   // needAnnouncement,
-//   needMaxMarkDistance,
-//   needMinAuthorDistance,
-//   needMinContentDistance,
-//   needMinMarkDistance,
-//   needMinRelatedLocationDistance,
-//   needMinThirdPartyDistance,
+  needMaxMarkDistance,
+  needMinAuthorDistance,
+  needMinContentDistance,
+  needMinMarkDistance,
+  needMinRelatedLocationDistance,
+  needMinThirdPartyDistance,
 //   needMinTypeDistance,
-// } from '../rules/post-candidate-rules.js';
+} from '../rules/post-candidate-rules.js';
 import { needCertainType } from '../rules/post-rules.js';
 import type { PostingRule } from '../rules/posting-rules.js';
 import { afterHour, lastPostedDaysAgo } from '../rules/posting-rules.js';
@@ -63,22 +63,22 @@ const shot: PostingScenario = {
   title: 'shot',
   sourceManagers: [
     'inbox',
-    // 'posts'
+    'posts'
   ],
   targetManager: 'posts',
   postingRules: [afterHour(18), lastPostedDaysAgo(1)],
   postCandidateRules: [
     needCertainType('shot'),
-    // needMinMarkDistance('C', 14),
-    // needMinMarkDistance('B2', 4),
-    // needMinMarkDistance('A2', 1),
-    // needMaxMarkDistance('A2', 7),
-    // needMinMarkDistance('A1', 7),
-    // needMaxMarkDistance('A1', 21),
-    // needMinAuthorDistance(1),
-    // needMinContentDistance(365),
-    // needMinRelatedLocationDistance(2),
-    // needMinThirdPartyDistance(7),
+    needMinMarkDistance('C', 14),
+    needMinMarkDistance('B2', 4),
+    needMinMarkDistance('A2', 1),
+    needMaxMarkDistance('A2', 7),
+    needMinMarkDistance('A1', 7),
+    needMaxMarkDistance('A1', 21),
+    needMinAuthorDistance(1),
+    needMinContentDistance(365),
+    needMinRelatedLocationDistance(2),
+    needMinThirdPartyDistance(7),
   ],
 };
 
