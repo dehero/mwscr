@@ -2118,7 +2118,7 @@
     - service: tg
       id: 497
       published: 2024-08-10-18-19-08
-      updated: 2025-06-01-19-14-26
+      updated: 2025-06-08-20-13-55
       followers: 514
       likes: 55
       views: 609
@@ -7624,10 +7624,10 @@
     - service: vk
       id: 2453
       published: 2025-06-08-18-16-43
-      updated: 2025-06-08-19-10-45
+      updated: 2025-06-08-20-13-48
       followers: 1316
-      likes: 7
-      views: 45
+      likes: 14
+      views: 76
       comments: !c |-
         G/kAgJwJdqyVgQtr1MMRKh1K3YTBiMaTSkuWUNQoCYKAsYDwCDPjMPdyOrdSAoUxS/gU3BW9bs6c
         FWzGPocGwR5M9fBKqwOZHGgAkOHXvAUYS+SttQUkRcRzeB0oj6K1Z/f763XwEPnyGrmd3RhI4KsR
@@ -7636,15 +7636,20 @@
     - service: tg
       id: 879
       published: 2025-06-08-18-16-51
-      updated: 2025-06-08-19-10-46
+      updated: 2025-06-08-20-13-47
       followers: 742
-      likes: 22
-      views: 71
+      likes: 29
+      views: 85
     - service: ig
       id: DKpq6H_N3Ka
       mediaId: '18072534205930276'
       published: 2025-06-08-19-12-32
+      updated: 2025-06-08-20-13-50
       followers: 1553
+      likes: 15
+      comments: !c |-
+        ix+AkZPLQnl1EkowgACsaHVudGVyLmRyZXc22SZIb25lc3RseSBoZSBpcyBkcmlwcGVkIGRvd24g
+        bGlrZSBjcmF6eQM=
 2018-07-12-through-the-waterfalls:
   title: Through the Waterfalls
   titleRu: Сквозь водопады
@@ -8025,10 +8030,10 @@
     - service: tg
       id: 489
       published: 2024-08-03-18-19-41
-      updated: 2025-06-01-19-14-28
+      updated: 2025-06-08-20-13-56
       followers: 428
       likes: 57
-      views: 6728
+      views: 6729
       comments: !c |-
         izGAkZTLQnkRxbvWAACremhlY2hrYV9kcnak8J+YjZPLQnkRxdocAAClYW5zaXPZNmV2ZXJ5IGdy
         YXplbGFuZGVyIGJveSBsb3ZlcyBoaW1zZWxmIGEgZ3VhciBoZXJkZXIgZ2lybAM=
@@ -13045,16 +13050,16 @@
       id: DKFhu5-P9Yy
       mediaId: '17909599452038799'
       published: 2025-05-25-18-19-43
-      updated: 2025-06-01-19-14-31
+      updated: 2025-06-08-20-13-58
       followers: 1543
       likes: 68
     - service: vk
       id: 2383
       published: 2025-05-25-18-19-50
-      updated: 2025-06-01-19-14-27
+      updated: 2025-06-08-20-13-57
       followers: 1308
       likes: 47
-      views: 306
+      views: 329
       reposts: 2
       comments: !c |-
         G5kAqIyUbsJ8hCSz8Dx/P7/gx6eflkAb4ICiyyJpHs2zgeS5OCqgqdtKSlcwJL0Mx3TXDY4DC5wT
@@ -13063,10 +13068,10 @@
     - service: tg
       id: 858
       published: 2025-05-25-18-19-56
-      updated: 2025-06-01-19-14-21
+      updated: 2025-06-08-20-13-51
       followers: 740
       likes: 64
-      views: 340
+      views: 418
       comments: !c |-
         G9IA4B0Hdqwx+HA4srcfodLpeT1Jf7xmTaq+bMIbweSenuq5XsfXEBlTPTr3hLMJN5XPftRBd79o
         n1rgO8aB+0o32sDbgjNdJ1YPULCYt+v55T67X4fYd6gfCVJZpYU4hH7Pjc/JhrFmZfDH1075AYRa
