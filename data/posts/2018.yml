@@ -1992,18 +1992,18 @@
     - service: vk
       id: 2337
       published: 2025-05-04-18-22-19
-      updated: 2025-06-01-20-19-48
+      updated: 2025-06-08-21-11-53
       followers: 1274
       likes: 48
-      views: 408
+      views: 416
       reposts: 1
     - service: tg
       id: 827
       published: 2025-05-04-18-22-26
-      updated: 2025-06-01-20-19-47
+      updated: 2025-06-08-21-11-51
       followers: 736
       likes: 64
-      views: 494
+      views: 507
     - service: ig
       id: DJQrnOitwg4
       mediaId: '18057956966153632'
@@ -7624,10 +7624,10 @@
     - service: vk
       id: 2453
       published: 2025-06-08-18-16-43
-      updated: 2025-06-08-20-13-48
+      updated: 2025-06-08-21-11-49
       followers: 1316
-      likes: 14
-      views: 76
+      likes: 17
+      views: 87
       comments: !c |-
         G/kAgJwJdqyVgQtr1MMRKh1K3YTBiMaTSkuWUNQoCYKAsYDwCDPjMPdyOrdSAoUxS/gU3BW9bs6c
         FWzGPocGwR5M9fBKqwOZHGgAkOHXvAUYS+SttQUkRcRzeB0oj6K1Z/f763XwEPnyGrmd3RhI4KsR
@@ -7636,17 +7636,17 @@
     - service: tg
       id: 879
       published: 2025-06-08-18-16-51
-      updated: 2025-06-08-20-13-47
+      updated: 2025-06-08-21-11-48
       followers: 742
-      likes: 29
-      views: 85
+      likes: 33
+      views: 95
     - service: ig
       id: DKpq6H_N3Ka
       mediaId: '18072534205930276'
       published: 2025-06-08-19-12-32
-      updated: 2025-06-08-20-13-50
+      updated: 2025-06-08-21-11-52
       followers: 1553
-      likes: 15
+      likes: 20
       comments: !c |-
         ix+AkZPLQnl1EkowgACsaHVudGVyLmRyZXc22SZIb25lc3RseSBoZSBpcyBkcmlwcGVkIGRvd24g
         bGlrZSBjcmF6eQM=
