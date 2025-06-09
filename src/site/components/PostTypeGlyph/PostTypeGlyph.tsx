@@ -1,5 +1,6 @@
 import type { Component } from 'solid-js';
 import { type PostType, postTypeDescriptors } from '../../../core/entities/post.js';
+import Achievement from '../../images/post-type-achievement.svg';
 import Clip from '../../images/post-type-clip.svg';
 import Mention from '../../images/post-type-mention.svg';
 import News from '../../images/post-type-news.svg';
@@ -24,6 +25,7 @@ const glyphs: Record<PostType, string> = {
   news: News,
   photoshop: Photoshop,
   outtakes: Outtakes,
+  achievement: Achievement,
 };
 
 export interface PostTypeGlyphProps {

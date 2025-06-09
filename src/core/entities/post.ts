@@ -119,6 +119,8 @@ export interface PostDistance {
 interface PostTypeDescriptor {
   title: string;
   titleRu: string;
+  titleMultiple: string;
+  titleMultipleRu: string;
   letter: string;
   aspectRatio?: MediaAspectRatio;
 }
@@ -186,19 +188,98 @@ const defaultTags = Object.freeze<PostTagDescriptor[]>([
     (tag): PostTagDescriptor => [tag, (post) => post.engine === tag, (post) => (post.engine = post.engine || tag)],
   ),
 ]);
-
 export const postTypeDescriptors = Object.freeze<Record<PostType, PostTypeDescriptor>>({
-  shot: { title: 'Shot', titleRu: 'Кадр', letter: 'S', aspectRatio: '1/1' },
-  'shot-set': { title: 'Shot-Set', titleRu: 'Подборка', letter: 'H', aspectRatio: '1/1' },
-  video: { title: 'Video', titleRu: 'Видео', letter: 'V', aspectRatio: '16/9' },
-  clip: { title: 'Clip', titleRu: 'Клип', letter: 'C', aspectRatio: '1/1' },
-  redrawing: { title: 'Redrawing', titleRu: 'Перерисовка', letter: 'R', aspectRatio: '1/1' },
-  wallpaper: { title: 'Wallpaper', titleRu: 'Обои', letter: 'W', aspectRatio: '16/9' },
-  'wallpaper-v': { title: 'Vertical Wallpaper', titleRu: 'Вертикальные обои', letter: 'M', aspectRatio: '9/19.5' },
-  mention: { title: 'Mention', titleRu: 'Упоминание', letter: 'M' },
-  news: { title: 'News', titleRu: 'Новость', letter: 'N' },
-  photoshop: { title: 'Photoshop', titleRu: 'Фотомонтаж', letter: 'P' },
-  outtakes: { title: 'Outtakes', titleRu: 'Невошедшее', letter: 'E' },
+  shot: {
+    title: 'Shot',
+    titleRu: 'Кадр',
+    titleMultiple: 'Shots',
+    titleMultipleRu: 'Кадры',
+    letter: 'S',
+    aspectRatio: '1/1',
+  },
+  'shot-set': {
+    title: 'Shot-Set',
+    titleRu: 'Подборка',
+    titleMultiple: 'Shot-Sets',
+    titleMultipleRu: 'Подборки',
+    letter: 'H',
+    aspectRatio: '1/1',
+  },
+  video: {
+    title: 'Video',
+    titleRu: 'Видео',
+    titleMultiple: 'Videos',
+    titleMultipleRu: 'Видео',
+    letter: 'V',
+    aspectRatio: '16/9',
+  },
+  clip: {
+    title: 'Clip',
+    titleRu: 'Клип',
+    titleMultiple: 'Clips',
+    titleMultipleRu: 'Клипы',
+    letter: 'C',
+    aspectRatio: '1/1',
+  },
+  redrawing: {
+    title: 'Redrawing',
+    titleRu: 'Перерисовка',
+    titleMultiple: 'Redrawings',
+    titleMultipleRu: 'Перерисовки',
+    letter: 'R',
+    aspectRatio: '1/1',
+  },
+  wallpaper: {
+    title: 'Wallpaper',
+    titleRu: 'Обои',
+    titleMultiple: 'Wallpapers',
+    titleMultipleRu: 'Обои',
+    letter: 'W',
+    aspectRatio: '16/9',
+  },
+  'wallpaper-v': {
+    title: 'Vertical Wallpaper',
+    titleRu: 'Вертикальные обои',
+    titleMultiple: 'Vertical Wallpapers',
+    titleMultipleRu: 'Вертикальные обои',
+    letter: 'M',
+    aspectRatio: '9/19.5',
+  },
+  mention: {
+    title: 'Mention',
+    titleRu: 'Упоминание',
+    titleMultiple: 'Mentions',
+    titleMultipleRu: 'Упоминания',
+    letter: 'M',
+  },
+  news: {
+    title: 'News',
+    titleRu: 'Новость',
+    titleMultiple: 'News',
+    titleMultipleRu: 'Новости',
+    letter: 'N',
+  },
+  photoshop: {
+    title: 'Photoshop',
+    titleRu: 'Фотомонтаж',
+    titleMultiple: 'Photoshops',
+    titleMultipleRu: 'Фотомонтажи',
+    letter: 'P',
+  },
+  outtakes: {
+    title: 'Outtakes',
+    titleRu: 'Невошедшее',
+    titleMultiple: 'Outtakes',
+    titleMultipleRu: 'Невошедшее',
+    letter: 'E',
+  },
+  achievement: {
+    title: 'Achievement',
+    titleRu: 'Достижение',
+    titleMultiple: 'Achievements',
+    titleMultipleRu: 'Достижения',
+    letter: 'A',
+  },
 });
 
 export const postMarkDescriptors = Object.freeze<Record<PostMark, PostMarkDescriptor>>({

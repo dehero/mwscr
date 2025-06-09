@@ -7,7 +7,17 @@ import { PostPreview } from '../PostPreview/PostPreview.js';
 import styles from './PostHighlights.module.css';
 
 export const POST_HIGHIGHT_CHARACTERISTICS = ['First', 'Last', 'Less', 'Top'] as const;
-export const POST_HIGHIGHT_TYPES = ['Post', 'Proposal', 'Request', 'News', 'Redrawing'] as const;
+export const POST_HIGHIGHT_TYPES = [
+  'Post',
+  'Proposal',
+  'Request',
+  'News',
+  'Redrawing',
+  'Achievement',
+  'Mention',
+  'Photoshop',
+  'Outtakes',
+] as const;
 
 export type PostHighlightCharacteristic = (typeof POST_HIGHIGHT_CHARACTERISTICS)[number];
 export type PostHighlightType = (typeof POST_HIGHIGHT_TYPES)[number];
@@ -83,7 +93,7 @@ export const PostHighlights: Component<PostPreviewsProps> = (props) => {
         <For each={groups()}>
           {({ labels, postInfo, primary }) => (
             <Label label={createGroupLabel(labels)} vertical class={clsx(styles.item, primary && styles.primary)}>
-              <PostPreview postInfo={postInfo} class={styles.preview} />
+              <PostPreview postInfo={postInfo} class={styles.preview} maxHeightMultiplier={1} />
             </Label>
           )}
         </For>
