@@ -956,24 +956,27 @@
     - service: vk
       id: 2458
       published: 2025-06-09-18-28-37
-      updated: 2025-06-09-20-21-52
+      updated: 2025-06-09-21-18-28
       followers: 1318
-      likes: 17
-      views: 57
+      likes: 18
+      views: 65
     - service: tg
       id: 880
       published: 2025-06-09-18-28-42
-      updated: 2025-06-09-20-21-52
+      updated: 2025-06-09-21-18-29
       followers: 745
-      likes: 32
-      views: 96
+      likes: 35
+      views: 111
     - service: ig
       id: DKsQFHnMKMW
       mediaId: '17910543366036193'
       published: 2025-06-09-19-15-50
-      updated: 2025-06-09-20-21-52
+      updated: 2025-06-09-21-18-30
       followers: 1553
-      likes: 30
+      likes: 43
+      comments: !c |-
+        CyuAkZPLQnl1aBk7AACsZWFzdGNvYXN0X2xn2T1UaGlzIGdhbWUgaGFzIGFuIGFtYmlhbmNlIHRo
+        YXQgdGhlIG90aGVycyBzb21laG93IGxhY2sg4p2k77iPAw==
 2024-04-07-sheogorad: 2016-11-21-sheogorad
 2024-04-08-lava-fork:
   title: Lava Fork
