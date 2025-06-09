@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.63.0](https://github.com/dehero/mwscr/compare/v1.62.1...v1.63.0) (2025-06-09)
+
+### Features
+
+- add achievement post type ([2c9f022](https://github.com/dehero/mwscr/commit/2c9f022641b006f2aac4f6bdb5a3a8ba20527a87))
+
+### Bug Fixes
+
+- **site:** sort post types by label
+  ([7ad24d6](https://github.com/dehero/mwscr/commit/7ad24d6db71c2b11cca2b839930d7f5edd77de8e))
+
 ## [1.62.1](https://github.com/dehero/mwscr/compare/v1.62.0...v1.62.1) (2025-06-07)
 
 ### Bug Fixes
