@@ -109,7 +109,8 @@ export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams
     ALL_OPTION,
     ...PostType.options
       .filter((item) => !meta().typeKeys || meta().typeKeys?.includes(item))
-      .map((value) => ({ value, label: postTypeDescriptors[value].title })),
+      .map((value) => ({ value, label: postTypeDescriptors[value].title }))
+      .sort((a, b) => a.label.localeCompare(b.label)),
   ];
 
   const activeCount = () => Object.keys(searchParams()).length;
