@@ -7621,29 +7621,31 @@
     - service: vk
       id: 2453
       published: 2025-06-08-18-16-43
-      updated: 2025-06-09-11-07-49
+      updated: 2025-06-09-12-41-21
       followers: 1316
-      likes: 28
-      views: 195
+      likes: 31
+      views: 212
       comments: !c |-
-        G/kAgJwJdqyVgQtr1MMRKh1K3YTBiMaTSkuWUNQoCYKAsYDwCDPjMPdyOrdSAoUxS/gU3BW9bs6c
-        FWzGPocGwR5M9fBKqwOZHGgAkOHXvAUYS+SttQUkRcRzeB0oj6K1Z/f763XwEPnyGrmd3RhI4KsR
-        Tbq7YUhApCmZlAhO/Q4eYEHo7g+t/D23RS1HyXmPOlmbPXBoqx1NRXG4hTzJzPM+i/2gZYuoXfNQ
-        U7zB3i4EoEQi1DgA
+        G/UBYKwSeDO2eElquoV4MtwLIyTp5B/+TzbCrzunjWeWbJ2TBFnCBR6kiSX3YapuxoibhxCEpTnt
+        s3+sCIu2LXNWsBn7NhU5GIi5WYKhPHzmyGQ3gxEbnkqrGzynwwHADKOsHtiW3IAHPVna8aIXGtED
+        4jaFnmdgsZ5kIu3h+frlR+qR0vvWJ/Or/8XJQTVZ4rquQ+PAOKJBCbx+iRciDgFQz7zwn+X3ot+5
+        1vv96Nzb/N907G0+jQZZ9os8Hs14ex+d+1bW3aQs5+FyCF/g3fceASInURQA2vWe0/S57tsmwO/v
+        v1qk8tBgP6GomIYvEMYEhiQlaCwjJm6nLEZQ3hNi4mqYeBPKdXoKLIQtvFT5w0tbfMBOnQB66yoy
+        I7pWYdhbImVBpBNYHuh5Bg==
     - service: tg
       id: 879
       published: 2025-06-08-18-16-51
-      updated: 2025-06-09-11-07-50
+      updated: 2025-06-09-12-41-22
       followers: 742
       likes: 48
-      views: 152
+      views: 155
     - service: ig
       id: DKpq6H_N3Ka
       mediaId: '18072534205930276'
       published: 2025-06-08-19-12-32
-      updated: 2025-06-09-11-07-52
+      updated: 2025-06-09-12-41-23
       followers: 1553
-      likes: 66
+      likes: 69
       comments: !c |-
         G3kAwIzEOCZy+NJsTd184M7HxC7qPOoS+7FbW7BEJ1DGJeByNjTjwOEx8M7TbjIAHM5tbHie6BAb
         dXrsR+k6mr8C4K0k1jUjJhawp913JaNyH9mgYjm+NvIYOMXXykU6OieHWcZ7KFZbUFv2Nulk01Cy
