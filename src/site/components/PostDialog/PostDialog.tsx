@@ -72,6 +72,7 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
       'mark',
       'violation',
       'request',
+      'created',
     ],
     features: ['useColumnLayout'],
   },
@@ -91,6 +92,7 @@ export const postDialogPresetDescriptors = Object.freeze<Record<PostDialogPreset
       'placement',
       'mark',
       'request',
+      'created',
     ],
     features: ['previewContent'],
   },
@@ -607,6 +609,17 @@ export const PostDialog: Component<PostDialogProps> = (props) => {
                     />
                   </Show>
                 </fieldset>
+              </Label>
+            </Show>
+
+            <Show when={preset().fields.includes('created')}>
+              <Label label="Created" vertical>
+                <DatePicker
+                  value={post().created}
+                  period={false}
+                  onChange={(value) => setPatchField('created', value)}
+                  emptyLabel="Pick Date"
+                />
               </Label>
             </Show>
           </form>

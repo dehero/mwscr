@@ -62,6 +62,7 @@ export interface PostInfo {
   rating: number;
   managerName: PostsManagerName;
   status?: ListReaderItemStatus;
+  created?: Date;
 }
 
 export type PostInfoComparator = (a: PostInfo, b: PostInfo) => number;
@@ -153,6 +154,7 @@ export async function createPostInfos(managerName: string, dataManager: DataMana
         violation: post.violation,
         published: Boolean(post.posts?.length),
         publishableErrors: errors.length > 0 ? errors : undefined,
+        created: post.created,
         commentCount: stats.commentCount,
         likes: stats.likes,
         views: stats.views,

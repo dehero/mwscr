@@ -137,6 +137,10 @@
   text-align: center;
 }
 
+.date {
+  text-align: center;
+}
+
 .id {
   display: grid;
   grid-template-columns: 1fr auto;

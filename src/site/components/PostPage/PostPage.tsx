@@ -340,6 +340,10 @@ export const PostPage = (): JSX.Element => {
                 </span>
               </Show>
 
+              <Show when={isValidDate(date())}>
+                <span class={styles.date}>{formatDate(date()!)}</span>
+              </Show>
+
               <Show when={postInfo().status}>
                 {(status) => (
                   <span class={styles.status}>
@@ -409,7 +413,7 @@ export const PostPage = (): JSX.Element => {
 
               <Table
                 rows={[
-                  { label: 'Original Date', value: isValidDate(date()) ? date() : undefined },
+                  { label: 'Created', value: postInfo().created },
                   {
                     label: 'Type',
                     value: () => (

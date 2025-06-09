@@ -124,7 +124,7 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       </Show>
       <Show when={isValidDate(date())}>
         <span class={styles.date}>
-          Date: {formatDate(date()!)}
+          {formatDate(date()!)}
           <Show when={isValidDate(refDate())}>*</Show>
         </span>
       </Show>
@@ -198,6 +198,9 @@ export const PostTooltip: Component<PostTooltipProps> = (props) => {
       </Show>
       <Show when={local.postInfo.tags?.length}>
         <span class={styles.tags}>Tags: {local.postInfo.tags?.join(', ')}</span>
+      </Show>
+      <Show when={isValidDate(local.postInfo.created)}>
+        <span class={styles.created}>Created: {formatDate(local.postInfo.created!)}</span>
       </Show>
       <Show when={local.postInfo.rating}>
         <span class={styles.rating}>Rating: {local.postInfo.rating}</span>

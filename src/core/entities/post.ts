@@ -65,6 +65,7 @@ export const Post = pipe(
     mark: optional(PostMark),
     violation: optional(PostViolation),
     announcement: optional(PostAnnouncement),
+    created: optional(date()),
     posts: optional(array(Publication)),
   }),
   transform((input) => {
@@ -559,6 +560,7 @@ export function mergePostWith(post: Post, withPost: Post) {
   post.violation = post.violation || withPost.violation;
   post.posts = mergePublications(post.posts, withPost.posts);
   post.announcement = post.announcement || withPost.announcement;
+  post.created = post.created || withPost.created;
 }
 
 export function mergeAuthors(author1: PostAuthor | undefined, author2?: PostAuthor | undefined) {
