@@ -2539,18 +2539,18 @@
     - service: vk
       id: 2072
       published: 2025-01-19-18-09-17
-      updated: 2025-06-02-04-29-34
+      updated: 2025-06-09-05-15-46
       followers: 1054
       likes: 44
-      views: 391
+      views: 392
       reposts: 2
     - service: tg
       id: 672
       published: 2025-01-19-18-09-23
-      updated: 2025-06-02-04-29-26
+      updated: 2025-06-09-05-15-36
       followers: 655
       likes: 66
-      views: 570
+      views: 571
       comments: !c Cw+AkZPLQnlH/DsZgACvVmFpbCBBc3Rvcid6a2l5o3dvdwM=
 2018-03-07-in-the-yard-of-wolverine-hall:
   title: In the Yard of Wolverine Hall
@@ -3947,7 +3947,7 @@
     - service: vk
       id: 1633
       published: 2024-07-13-18-18-57
-      updated: 2025-06-02-04-29-35
+      updated: 2025-06-09-05-15-47
       followers: 919
       likes: 44
       views: 324
@@ -3955,7 +3955,7 @@
     - service: tg
       id: 468
       published: 2024-07-13-18-19-05
-      updated: 2025-06-02-04-29-29
+      updated: 2025-06-09-05-15-39
       followers: 398
       likes: 61
       views: 525
@@ -4935,17 +4935,17 @@
     - service: vk
       id: 1546
       published: 2024-05-25-18-18-01
-      updated: 2025-06-02-04-29-41
+      updated: 2025-06-09-05-15-53
       followers: 918
       likes: 37
       views: 300
     - service: tg
       id: 419
       published: 2024-05-25-18-18-08
-      updated: 2025-06-02-04-29-33
+      updated: 2025-06-09-05-15-44
       followers: 377
       likes: 62
-      views: 477
+      views: 478
 2018-05-05-uncle-sweetshares-workshop:
   title: Uncle Sweetshare's Workshop
   titleRu: Мастерская Дядюшки Сладкая Доля
@@ -6546,14 +6546,14 @@
     - service: tg
       id: 454
       published: 2024-06-29-18-18-56
-      updated: 2025-06-02-04-29-31
+      updated: 2025-06-09-05-15-41
       followers: 388
       likes: 58
-      views: 656
+      views: 657
     - service: vk
       id: 1608
       published: 2024-06-29-19-11-46
-      updated: 2025-06-02-04-29-37
+      updated: 2025-06-09-05-15-49
       followers: 918
       likes: 37
       views: 386
@@ -7624,10 +7624,10 @@
     - service: vk
       id: 2453
       published: 2025-06-08-18-16-43
-      updated: 2025-06-09-04-25-41
+      updated: 2025-06-09-05-15-28
       followers: 1316
-      likes: 21
-      views: 133
+      likes: 22
+      views: 144
       comments: !c |-
         G/kAgJwJdqyVgQtr1MMRKh1K3YTBiMaTSkuWUNQoCYKAsYDwCDPjMPdyOrdSAoUxS/gU3BW9bs6c
         FWzGPocGwR5M9fBKqwOZHGgAkOHXvAUYS+SttQUkRcRzeB0oj6K1Z/f763XwEPnyGrmd3RhI4KsR
@@ -7636,17 +7636,17 @@
     - service: tg
       id: 879
       published: 2025-06-08-18-16-51
-      updated: 2025-06-09-04-25-40
+      updated: 2025-06-09-05-15-27
       followers: 742
-      likes: 41
-      views: 127
+      likes: 43
+      views: 131
     - service: ig
       id: DKpq6H_N3Ka
       mediaId: '18072534205930276'
       published: 2025-06-08-19-12-32
-      updated: 2025-06-09-04-25-44
+      updated: 2025-06-09-05-15-30
       followers: 1553
-      likes: 48
+      likes: 50
       comments: !c |-
         G3kAwIzEOCZy+NJsTd184M7HxC7qPOoS+7FbW7BEJ1DGJeByNjTjwOEx8M7TbjIAHM5tbHie6BAb
         dXrsR+k6mr8C4K0k1jUjJhawp913JaNyH9mgYjm+NvIYOMXXykU6OieHWcZ7KFZbUFv2Nulk01Cy
@@ -9240,18 +9240,18 @@
     - service: vk
       id: 2183
       published: 2025-03-09-18-08-24
-      updated: 2025-06-02-04-29-23
+      updated: 2025-06-09-05-15-35
       followers: 1176
       likes: 55
-      views: 488
+      views: 491
       reposts: 2
     - service: tg
       id: 739
       published: 2025-03-09-18-08-31
-      updated: 2025-06-02-04-29-21
+      updated: 2025-06-09-05-15-31
       followers: 693
       likes: 60
-      views: 601
+      views: 603
 2018-08-23-night-shipwreck:
   title: Night Shipwreck
   titleRu: Ночное кораблекрушение
@@ -11306,10 +11306,10 @@
     - service: tg
       id: 641
       published: 2024-12-29-18-00-34
-      updated: 2025-06-02-04-29-28
+      updated: 2025-06-09-05-15-37
       followers: 642
       likes: 68
-      views: 601
+      views: 602
 2018-10-04-netch-over-the-puddle:
   title: Netch Over the Puddle
   titleRu: Нетч над лужей
