@@ -4603,7 +4603,7 @@
     - service: vk
       id: 1790
       published: 2024-09-29-18-09-02
-      updated: 2025-06-02-14-19-53
+      updated: 2025-06-09-14-23-13
       followers: 957
       likes: 38
       views: 332
@@ -7621,10 +7621,10 @@
     - service: vk
       id: 2453
       published: 2025-06-08-18-16-43
-      updated: 2025-06-09-13-37-04
+      updated: 2025-06-09-14-23-04
       followers: 1316
-      likes: 31
-      views: 213
+      likes: 34
+      views: 217
       comments: !c |-
         G/UBYKwSeDO2eElquoV4MtwLIyTp5B/+TzbCrzunjWeWbJ2TBFnCBR6kiSX3YapuxoibhxCEpTnt
         s3+sCIu2LXNWsBn7NhU5GIi5WYKhPHzmyGQ3gxEbnkqrGzynwwHADKOsHtiW3IAHPVna8aIXGtED
@@ -7635,7 +7635,7 @@
     - service: tg
       id: 879
       published: 2025-06-08-18-16-51
-      updated: 2025-06-09-13-37-03
+      updated: 2025-06-09-14-23-03
       followers: 742
       likes: 48
       views: 156
@@ -7643,9 +7643,9 @@
       id: DKpq6H_N3Ka
       mediaId: '18072534205930276'
       published: 2025-06-08-19-12-32
-      updated: 2025-06-09-13-37-06
+      updated: 2025-06-09-14-23-06
       followers: 1553
-      likes: 70
+      likes: 72
       comments: !c |-
         G3kAwIzEOCZy+NJsTd184M7HxC7qPOoS+7FbW7BEJ1DGJeByNjTjwOEx8M7TbjIAHM5tbHie6BAb
         dXrsR+k6mr8C4K0k1jUjJhawp913JaNyH9mgYjm+NvIYOMXXykU6OieHWcZ7KFZbUFv2Nulk01Cy
@@ -10057,10 +10057,10 @@
     - service: tg
       id: 526
       published: 2024-09-08-18-28-25
-      updated: 2025-06-02-14-19-51
+      updated: 2025-06-09-14-23-10
       followers: 554
       likes: 69
-      views: 661
+      views: 664
     - service: ig
       id: C_t_VnJxftA
       mediaId: '18019278437441496'
@@ -13002,10 +13002,10 @@
     - service: tg
       id: 533
       published: 2024-09-15-18-29-22
-      updated: 2025-06-02-14-19-51
+      updated: 2025-06-09-14-23-09
       followers: 557
       likes: 70
-      views: 553
+      views: 556
       comments: !c CxOAkZPLQnkfiGjEgACnbWxlbm5pY7Nza3kgaXMgYW1hemluZyBoZXJlAw==
 2018-11-11-through-the-snowy-forest:
   title: Through the Snowy Forest
@@ -13293,10 +13293,10 @@
     - service: tg
       id: 541
       published: 2024-09-22-18-28-23
-      updated: 2025-06-02-14-19-49
+      updated: 2025-06-09-14-23-09
       followers: 554
       likes: 68
-      views: 877
+      views: 881
       comments: !c ixCAkZPLQnkhuOWhgACpR2F0ZW1hdGU3rHBlcmZlY3QgZGF0ZQM=
 2018-11-18-horror-of-the-red-corridor:
   title: Horror of the Red Corridor

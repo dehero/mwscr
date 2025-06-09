@@ -129,7 +129,7 @@
     - service: vk
       id: 2417
       published: 2025-06-02-11-38-59
-      updated: 2025-06-08-14-11-30
+      updated: 2025-06-09-14-23-15
       followers: 1315
       likes: 31
       views: 315
@@ -150,10 +150,10 @@
     - service: tg
       id: 870
       published: 2025-06-02-11-39-00
-      updated: 2025-06-08-14-11-30
+      updated: 2025-06-09-14-23-14
       followers: 742
       likes: 19
-      views: 329
+      views: 338
       comments: !c |-
         G/0BACwSeI5kd+PmqyF6EIp/vr/YJ3zjzUrjO54lHlm2AbbQRFhwLpRzWjXhzBhU2F+WwJO2V2kH
         pW5iblbiJEb93wJrQlmDUViPMUBtrtqysR1iEjZ4k2txtZl3ZBfrDvSmF73iv12u4TmKskQDijws
@@ -187,10 +187,10 @@
   author:
     - remmlah
     - dehero
+  created: 2022-07-26
   tags:
     - siltstrider
   mark: A2
-  created: 2022-07-26
   posts:
     - service: vk
       id: 2423
