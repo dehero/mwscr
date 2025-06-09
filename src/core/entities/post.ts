@@ -424,7 +424,7 @@ export function getPostContentDistance(content: PostContent, postEntries: PostEn
   let distance = 0;
 
   for (const [id, post] of postEntries) {
-    const postContent = [...asArray(post.content), ...asArray(post.trash)];
+    const postContent = [...asArray(post.content), ...asArray(post.snapshot), ...asArray(post.trash)];
 
     for (const url of urls) {
       if (postContent.includes(url)) {
