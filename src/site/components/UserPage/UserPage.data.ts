@@ -1,5 +1,6 @@
 import type { DataManager } from '../../../core/entities/data-manager.js';
 import type { Link } from '../../../core/entities/link.js';
+import { PostType } from '../../../core/entities/post.js';
 import type { PostInfoSelection } from '../../../core/entities/post-info.js';
 import { createUserLinks } from '../../../core/entities/user.js';
 import type { UserInfo } from '../../../core/entities/user-info.js';
@@ -21,8 +22,7 @@ export interface UserPageData {
   lastRejectedPostInfo?: PostInfoSelection;
   lastRejectedRequestInfo?: PostInfoSelection;
   editorsChoicePostInfo?: PostInfoSelection;
-  lastNewsPostInfo?: PostInfoSelection;
-  lastRedrawingPostInfo?: PostInfoSelection;
+  lastExtraPostInfos: Array<[PostType, PostInfoSelection | undefined]>;
 }
 
 export async function getUserPageData(dataManager: DataManager, params: UserRouteParams): Promise<UserPageData> {
@@ -95,19 +95,20 @@ export async function getUserPageData(dataManager: DataManager, params: UserRout
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    lastNewsPostInfo: await dataManager.selectPostInfo('extras', {
-      author: params.id,
-      original: true,
-      type: 'news',
-      sortKey: 'date',
-      sortDirection: 'desc',
-    }),
-    lastRedrawingPostInfo: await dataManager.selectPostInfo('extras', {
-      author: params.id,
-      original: true,
-      type: 'redrawing',
-      sortKey: 'date',
-      sortDirection: 'desc',
-    }),
+    lastExtraPostInfos: (
+      await Promise.all(
+        PostType.options.map(
+          async (postType): Promise<[PostType, PostInfoSelection | undefined]> => [
+            postType,
+            await dataManager.selectPostInfo('extras', {
+              author: params.id,
+              type: postType,
+              sortKey: 'date',
+              sortDirection: 'desc',
+            }),
+          ],
+        ),
+      )
+    ).filter(([, info]) => info?.totalCount),
   };
 }

@@ -22,25 +22,6 @@ import { usePostsPageParameters } from './hooks/usePostsPageParameters.js';
 import { Parameters } from './Parameters.jsx';
 import styles from './PostsPage.module.css';
 
-export interface PostsPageSearchParams {
-  type?: string;
-  tag?: string;
-  location?: string;
-  placement?: string;
-  author?: string;
-  requester?: string;
-  mark?: string;
-  violation?: string;
-  publishable?: string;
-  original?: string;
-  official?: string;
-  search?: string;
-  sort?: string;
-  date?: string;
-  status?: string;
-  addon?: string;
-}
-
 export interface PostsPageInfo extends SiteRouteMeta {
   presetKeys?: PresetKey extends undefined ? never : PresetKey[];
   filters?: FilterKey[];

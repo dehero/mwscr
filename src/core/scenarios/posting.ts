@@ -2,14 +2,14 @@ import type { PostsManagerName, PublicPostsManagerName } from '../entities/posts
 // import { PUBLICATION_IS_RECENT_DAYS } from '../entities/publication.js';
 import type { PostCandidateRule } from '../rules/post-candidate-rules.js';
 import {
-//   // needAnnouncement,
+  //   // needAnnouncement,
   needMaxMarkDistance,
   needMinAuthorDistance,
   needMinContentDistance,
   needMinMarkDistance,
   needMinRelatedLocationDistance,
   needMinThirdPartyDistance,
-//   needMinTypeDistance,
+  //   needMinTypeDistance,
 } from '../rules/post-candidate-rules.js';
 import { needCertainType } from '../rules/post-rules.js';
 import type { PostingRule } from '../rules/posting-rules.js';
@@ -61,10 +61,7 @@ export interface PostingScenario {
 
 const shot: PostingScenario = {
   title: 'shot',
-  sourceManagers: [
-    'inbox',
-    'posts'
-  ],
+  sourceManagers: ['inbox', 'posts'],
   targetManager: 'posts',
   postingRules: [afterHour(18), lastPostedDaysAgo(1)],
   postCandidateRules: [

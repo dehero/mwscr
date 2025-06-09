@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import type { JSX } from 'solid-js';
 import { For, Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
+import { postTypeDescriptors } from '../../../core/entities/post.js';
 import { isPostsUsageEmpty } from '../../../core/entities/posts-usage.js';
 import { telegram, TELEGRAM_BOT_NAME } from '../../../core/services/telegram.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
@@ -14,7 +15,9 @@ import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
 import { Icon } from '../Icon/Icon.js';
 import { Input } from '../Input/Input.js';
+import type { PostHighlightsItem } from '../PostHighlights/PostHighlights.js';
 import { PostHighlights } from '../PostHighlights/PostHighlights.js';
+import { getPostsPageSearchParamsFromSelectionParams } from '../PostsPage/PostsPage.data.js';
 import { Spacer } from '../Spacer/Spacer.js';
 import { Table } from '../Table/Table.js';
 import { useToaster } from '../Toaster/Toaster.js';
@@ -83,18 +86,21 @@ export const UserPage = (): JSX.Element => {
                       : undefined,
                     link: postsRoute.createUrl({ managerName: 'posts', author: id(), original: 'true' }),
                   },
-                  {
-                    label: 'Extras',
-                    value: userInfo().authored?.extras
+                  ...data().lastExtraPostInfos.map(([type, selection]) => ({
+                    label: postTypeDescriptors[type].titleMultiple,
+                    link: postsRoute.createUrl({
+                      managerName: 'extras',
+                      ...getPostsPageSearchParamsFromSelectionParams(selection?.params),
+                    }),
+                    value: selection?.totalCount
                       ? () => (
                           <>
                             <GoldIcon class={styles.goldIcon} />
-                            {userInfo().authored!.extras}
+                            {selection.totalCount}
                           </>
                         )
                       : undefined,
-                    link: postsRoute.createUrl({ managerName: 'extras', author: id(), original: 'true' }),
-                  },
+                  })),
                   {
                     label: 'Inbox',
                     value: userInfo().authored?.inbox,
@@ -222,10 +228,13 @@ export const UserPage = (): JSX.Element => {
 
             <PostHighlights
               class={styles.postHighlights}
-              items={[
-                { label: 'Last News', primary: true, selection: data().lastNewsPostInfo },
-                { label: 'Last Redrawing', primary: true, selection: data().lastRedrawingPostInfo },
-              ]}
+              items={data().lastExtraPostInfos.map(
+                ([type, selection]): PostHighlightsItem => ({
+                  label: `Last ${postTypeDescriptors[type].title}` as PostHighlightsItem['label'],
+                  primary: true,
+                  selection,
+                }),
+              )}
             />
 
             <PostHighlights

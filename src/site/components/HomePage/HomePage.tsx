@@ -2,7 +2,7 @@ import type { JSX } from 'solid-js';
 import { Show } from 'solid-js';
 import { usePageContext } from 'vike-solid/usePageContext';
 import icon from '../../../../assets/icon.png?format=avif&imagetools';
-import { getPostDateById } from '../../../core/entities/post.js';
+import { getPostDateById, postTypeDescriptors } from '../../../core/entities/post.js';
 import { selectPostInfos } from '../../../core/entities/post-info.js';
 import { dateToString, formatDate, formatTime } from '../../../core/utils/date-utils.js';
 import { useRouteInfo } from '../../hooks/useRouteInfo.js';
@@ -16,6 +16,7 @@ import { Diagram } from '../Diagram/Diagram.js';
 import { Divider } from '../Divider/Divider.js';
 import { Frame } from '../Frame/Frame.js';
 import { GoldIcon } from '../GoldIcon/GoldIcon.js';
+import type { PostHighlightsItem } from '../PostHighlights/PostHighlights.js';
 import { PostHighlights } from '../PostHighlights/PostHighlights.js';
 import { PostTooltip } from '../PostTooltip/PostTooltip.js';
 import { Table } from '../Table/Table.js';
@@ -225,10 +226,13 @@ export const HomePage = (): JSX.Element => {
 
                 <PostHighlights
                   class={styles.postHighlights}
-                  items={[
-                    { label: 'Last News', primary: true, selection: data().lastNewsPostInfo },
-                    { label: 'Last Redrawing', primary: true, selection: data().lastRedrawingPostInfo },
-                  ]}
+                  items={data().lastExtraPostInfos.map(
+                    ([type, selection]): PostHighlightsItem => ({
+                      label: `Last ${postTypeDescriptors[type].title}` as PostHighlightsItem['label'],
+                      primary: true,
+                      selection,
+                    }),
+                  )}
                 />
 
                 <PostHighlights

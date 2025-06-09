@@ -14,7 +14,6 @@ import {
 } from '../../../core/entities/post.js';
 import type { SiteRouteInfo } from '../../../core/entities/site-route.js';
 import { boolToString, capitalizeFirstLetter, stringToBool } from '../../../core/utils/common-utils.js';
-import type { PostsRouteParams } from '../../routes/posts-route.js';
 import { Button } from '../Button/Button.js';
 import { Checkbox } from '../Checkbox/Checkbox.js';
 import { DatePicker } from '../DatePicker/DatePicker.jsx';
@@ -31,7 +30,7 @@ import { Toast } from '../Toaster/Toaster.js';
 import { WorldMap } from '../WorldMap/WorldMap.jsx';
 import type { FilterKey, usePostsPageParameters } from './hooks/usePostsPageParameters.js';
 import styles from './Parameters.module.css';
-import type { PostsPageData } from './PostsPage.data.js';
+import type { PostsPageData, PostsPageParams } from './PostsPage.data.js';
 import type { PostsPageInfo } from './PostsPage.jsx';
 
 interface LocationOption extends Option {
@@ -57,7 +56,7 @@ const allViewOptions: ViewOption[] = [
 type View = (typeof allViewOptions)[number]['value'];
 
 export interface ParametersProps {
-  routeInfo: SiteRouteInfo<PostsRouteParams, PostsPageData, PostsPageInfo>;
+  routeInfo: SiteRouteInfo<PostsPageParams, PostsPageData, PostsPageInfo>;
   parameters: ReturnType<typeof usePostsPageParameters>;
   class?: string;
   expandedOnNarrowScreen: boolean;

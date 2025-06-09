@@ -1,4 +1,5 @@
 import type { DataManager } from '../../../core/entities/data-manager.js';
+import { PostType } from '../../../core/entities/post.js';
 import type { PostInfoSelection } from '../../../core/entities/post-info.js';
 import type { PostsUsage } from '../../../core/entities/posts-usage.js';
 import { PUBLICATION_IS_RECENT_DAYS } from '../../../core/entities/publication.js';
@@ -12,8 +13,7 @@ export interface HomePageData {
   lastFulfilledPostInfo?: PostInfoSelection;
   lastProposedPostInfo?: PostInfoSelection;
   lastRequestedPostInfo?: PostInfoSelection;
-  lastNewsPostInfo?: PostInfoSelection;
-  lastRedrawingPostInfo?: PostInfoSelection;
+  lastExtraPostInfos: Array<[PostType, PostInfoSelection | undefined]>;
   totalLikes: number;
   totalCommentCount: number;
   recentPostInfos: PostInfoSelection;
@@ -74,18 +74,20 @@ export async function getHomePageData(dataManager: DataManager): Promise<HomePag
       sortKey: 'date',
       sortDirection: 'desc',
     }),
-    lastNewsPostInfo: await dataManager.selectPostInfo('extras', {
-      type: 'news',
-      original: true,
-      sortKey: 'date',
-      sortDirection: 'desc',
-    }),
-    lastRedrawingPostInfo: await dataManager.selectPostInfo('extras', {
-      type: 'redrawing',
-      original: true,
-      sortKey: 'date',
-      sortDirection: 'desc',
-    }),
+    lastExtraPostInfos: (
+      await Promise.all(
+        PostType.options.map(
+          async (postType): Promise<[PostType, PostInfoSelection | undefined]> => [
+            postType,
+            await dataManager.selectPostInfo('extras', {
+              type: postType,
+              sortKey: 'date',
+              sortDirection: 'desc',
+            }),
+          ],
+        ),
+      )
+    ).filter(([, info]) => info?.totalCount),
     totalLikes,
     totalCommentCount,
     recentPostInfos,

@@ -1,8 +1,35 @@
 import type { DataManager } from '../../../core/entities/data-manager.js';
 import type { LocationInfo } from '../../../core/entities/location-info.js';
+import type { SelectPostInfosParams } from '../../../core/entities/post-info.js';
+import type { PostsManagerName } from '../../../core/entities/posts-manager.js';
+import type { SiteRouteParams } from '../../../core/entities/site-route.js';
 import type { TagInfo } from '../../../core/entities/tag-info.js';
 import type { UserInfo } from '../../../core/entities/user-info.js';
-import type { PostsRouteParams } from '../../routes/posts-route.js';
+import { cleanupUndefinedProps, unknownToString } from '../../../core/utils/common-utils.js';
+import { dateRangeToString } from '../../../core/utils/date-utils.js';
+
+export interface PostsPageSearchParams {
+  type?: string;
+  tag?: string;
+  location?: string;
+  placement?: string;
+  author?: string;
+  requester?: string;
+  mark?: string;
+  violation?: string;
+  publishable?: string;
+  original?: string;
+  official?: string;
+  search?: string;
+  sort?: string;
+  date?: string;
+  status?: string;
+  addon?: string;
+}
+
+export interface PostsPageParams extends SiteRouteParams, PostsPageSearchParams {
+  managerName: PostsManagerName;
+}
 
 export interface PostsPageData {
   authorInfos: UserInfo[];
@@ -11,7 +38,37 @@ export interface PostsPageData {
   tagInfos: TagInfo[];
 }
 
-export async function getPostsPageData(dataManager: DataManager, params: PostsRouteParams): Promise<PostsPageData> {
+export function getPostsPageSearchParamsFromSelectionParams(
+  params: SelectPostInfosParams | undefined,
+): PostsPageSearchParams | undefined {
+  if (!params) {
+    return undefined;
+  }
+
+  return cleanupUndefinedProps({
+    type: unknownToString(params.type),
+    tag: unknownToString(params.tag),
+    location: unknownToString(params.location),
+    placement: unknownToString(params.placement),
+    author: unknownToString(params.author),
+    requester: unknownToString(params.requester),
+    mark: unknownToString(params.mark),
+    violation: unknownToString(params.violation),
+    publishable: unknownToString(params.publishable),
+    original: unknownToString(params.original),
+    official: unknownToString(params.official),
+    search: unknownToString(params.search),
+    sort:
+      params.sortKey || params.sortDirection
+        ? unknownToString(`${params.sortKey ?? 'date'},${params.sortDirection ?? 'desc'}`)
+        : undefined,
+    date: unknownToString(params.date ? dateRangeToString(params.date) : undefined),
+    status: unknownToString(params.status),
+    addon: unknownToString(params.addon),
+  });
+}
+
+export async function getPostsPageData(dataManager: DataManager, params: PostsPageParams): Promise<PostsPageData> {
   const userInfos = await dataManager.getAllUserInfos();
   const locationInfos = await dataManager.getAllLocationInfos();
   const tagInfos = await dataManager.getAllTagInfos();

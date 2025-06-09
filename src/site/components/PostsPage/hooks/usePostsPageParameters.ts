@@ -18,8 +18,8 @@ import { stringToBool } from '../../../../core/utils/common-utils.js';
 import { dateRangeToString, stringToDateRange } from '../../../../core/utils/date-utils.js';
 import { isObjectEqual } from '../../../../core/utils/object-utils.js';
 import { useSearchParams } from '../../../hooks/useSearchParams.js';
-import type { PostsRouteParams } from '../../../routes/posts-route.js';
-import type { PostsPageInfo, PostsPageSearchParams } from '../PostsPage.jsx';
+import type { PostsPageParams, PostsPageSearchParams } from '../PostsPage.data.js';
+import type { PostsPageInfo } from '../PostsPage.jsx';
 
 const emptySearchParams: PostsPageSearchParams = {
   type: undefined,
@@ -87,7 +87,7 @@ export type FilterKey = keyof Pick<
   | 'official'
 >;
 
-export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsRouteParams, unknown, PostsPageInfo>) {
+export function usePostsPageParameters(routeInfo: SiteRouteInfo<PostsPageParams, unknown, PostsPageInfo>) {
   const { meta } = routeInfo;
   const [searchParams, setSearchParams] = useSearchParams<PostsPageSearchParams>();
 
