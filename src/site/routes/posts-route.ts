@@ -34,7 +34,7 @@ export const postsRouteInfos: Record<PostsManagerName, PostsPageInfo> = {
     title: 'Extras',
     description: 'Extras of Morrowind Screenshots project.',
     presetKeys: ['edits'],
-    typeKeys: ['news', 'mention', 'photoshop', 'redrawing', 'outtakes'],
+    typeKeys: ['news', 'mention', 'photoshop', 'redrawing', 'outtakes', 'achievement'],
     filters: ['date', 'author', 'tag', 'type', 'status'],
   },
   inbox: {

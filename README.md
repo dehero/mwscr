@@ -43,7 +43,8 @@ If you want to participate in the project, please read the [contributing guideli
 - `mention` - mention of the project;
 - `photoshop` - a photomontage based on a previously published screenshot;
 - `redrawing` - a drawing based on a previously published screenshot;
-- `outtakes` - interesting screenshots that were rejected or violate the rules of the project.
+- `outtakes` - interesting screenshots that were rejected or violate the rules of the project;
+- `achievement` - a special achievement in the project or in the game.
 
 ### Publication
 

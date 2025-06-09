@@ -1,6 +1,6 @@
 import type { InferOutput } from 'valibot';
-import { literal, nonEmpty, object, pipe, string, trim, tuple, variant } from 'valibot';
-import { ImageResourceUrl, VideoResourceUrl } from './resource.js';
+import { array, literal, nonEmpty, object, pipe, string, trim, tuple, union, variant } from 'valibot';
+import { ImageResourceUrl, LosslessImageResourceUrl, VideoResourceUrl } from './resource.js';
 
 export const PostDescription = pipe(string(), trim(), nonEmpty());
 
@@ -8,30 +8,30 @@ export type PostDescription = InferOutput<typeof PostDescription>;
 
 export const Shot = object({
   type: literal('shot'),
-  content: ImageResourceUrl,
+  content: LosslessImageResourceUrl,
 });
 
 export const ShotSet = object({
   type: literal('shot-set'),
   content: tuple(
-    [ImageResourceUrl, ImageResourceUrl, ImageResourceUrl, ImageResourceUrl],
+    [LosslessImageResourceUrl, LosslessImageResourceUrl, LosslessImageResourceUrl, LosslessImageResourceUrl],
     'Should be 4 shot resources',
   ),
 });
 
 export const Redrawing = object({
   type: literal('redrawing'),
-  content: tuple([ImageResourceUrl, ImageResourceUrl], 'Should be a tuple of drawing and shot resources'),
+  content: tuple([ImageResourceUrl, LosslessImageResourceUrl], 'Should be a tuple of drawing and shot resources'),
 });
 
 export const Wallpaper = object({
   type: literal('wallpaper'),
-  content: ImageResourceUrl,
+  content: LosslessImageResourceUrl,
 });
 
 export const VerticalWallpaper = object({
   type: literal('wallpaper-v'),
-  content: ImageResourceUrl,
+  content: LosslessImageResourceUrl,
 });
 
 export const Video = object({
@@ -62,7 +62,15 @@ export const Mention = object({
 
 export const Photoshop = object({
   type: literal('photoshop'),
-  content: tuple([ImageResourceUrl, ImageResourceUrl], 'Should be a tuple of photoshopped and original shot resources'),
+  content: tuple(
+    [ImageResourceUrl, LosslessImageResourceUrl],
+    'Should be a tuple of photoshopped and original shot resources',
+  ),
+});
+
+export const Achievement = object({
+  type: literal('achievement'),
+  snapshot: union([ImageResourceUrl, array(ImageResourceUrl, 'Should be a list of resource strings')]),
 });
 
 export const PostVariant = variant('type', [
@@ -77,4 +85,5 @@ export const PostVariant = variant('type', [
   Mention,
   Photoshop,
   Outtakes,
+  Achievement,
 ]);

@@ -5,6 +5,7 @@ import { listItems } from '../utils/common-utils.js';
 export const ResourceProtocol = picklist(['store:', 'file:', 'http:', 'https:']);
 export const ResourceType = picklist(['image', 'video', 'archive']);
 
+export const LosslessImageResourceExtension = picklist(['.png']);
 export const ImageResourceExtension = picklist(['.png', '.webp', '.jpg']);
 export const VideoResourceExtension = picklist(['.avi', '.mp4']);
 
@@ -20,6 +21,14 @@ export const ResourceUrl = pipe(
   custom(
     (value) => ResourceProtocol.options.some((protocol) => String(value).startsWith(protocol)),
     `Should start with protocol ${listItems(ResourceProtocol.options, true)}"`,
+  ),
+);
+
+export const LosslessImageResourceUrl = pipe(
+  ResourceUrl,
+  custom<`${ResourceUrl}${InferOutput<typeof LosslessImageResourceExtension>}`>(
+    (value) => LosslessImageResourceExtension.options.some((ext) => String(value).endsWith(ext)),
+    `Should end with image extension ${listItems(LosslessImageResourceExtension.options, true)}"`,
   ),
 );
 
@@ -40,6 +49,7 @@ export const VideoResourceUrl = pipe(
 );
 
 export type ResourceUrl = InferOutput<typeof ResourceUrl>;
+export type LosslessImageResourceUrl = InferOutput<typeof LosslessImageResourceUrl>;
 export type ImageResourceUrl = InferOutput<typeof ImageResourceUrl>;
 export type VideoResourceUrl = InferOutput<typeof VideoResourceUrl>;
 
