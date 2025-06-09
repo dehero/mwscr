@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.63.1](https://github.com/dehero/mwscr/compare/v1.63.0...v1.63.1) (2025-06-09)
+
+### Bug Fixes
+
+- consider snapshot post field when searching for files not added to Inbox
+  ([a7eb520](https://github.com/dehero/mwscr/commit/a7eb52085487e95e00e16737f0394656d2a85749))
+
 ## [1.63.0](https://github.com/dehero/mwscr/compare/v1.62.1...v1.63.0) (2025-06-09)
 
 ### Features
