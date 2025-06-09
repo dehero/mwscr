@@ -7624,10 +7624,10 @@
     - service: vk
       id: 2453
       published: 2025-06-08-18-16-43
-      updated: 2025-06-08-23-12-32
+      updated: 2025-06-09-01-07-22
       followers: 1316
-      likes: 17
-      views: 103
+      likes: 19
+      views: 114
       comments: !c |-
         G/kAgJwJdqyVgQtr1MMRKh1K3YTBiMaTSkuWUNQoCYKAsYDwCDPjMPdyOrdSAoUxS/gU3BW9bs6c
         FWzGPocGwR5M9fBKqwOZHGgAkOHXvAUYS+SttQUkRcRzeB0oj6K1Z/f763XwEPnyGrmd3RhI4KsR
@@ -7636,20 +7636,21 @@
     - service: tg
       id: 879
       published: 2025-06-08-18-16-51
-      updated: 2025-06-08-23-12-31
+      updated: 2025-06-09-01-07-21
       followers: 742
-      likes: 36
-      views: 106
+      likes: 40
+      views: 117
     - service: ig
       id: DKpq6H_N3Ka
       mediaId: '18072534205930276'
       published: 2025-06-08-19-12-32
-      updated: 2025-06-08-23-12-34
+      updated: 2025-06-09-01-07-23
       followers: 1553
-      likes: 31
+      likes: 37
       comments: !c |-
-        ix+AkZPLQnl1EkowgACsaHVudGVyLmRyZXc22SZIb25lc3RseSBoZSBpcyBkcmlwcGVkIGRvd24g
-        bGlrZSBjcmF6eQM=
+        G3kAwIzEOCZy+NJsTd184M7HxC7qPOoS+7FbW7BEJ1DGJeByNjTjwOEx8M7TbjIAHM5tbHie6BAb
+        dXrsR+k6mr8C4K0k1jUjJhawp913JaNyH9mgYjm+NvIYOMXXykU6OieHWcZ7KFZbUFv2Nulk01Cy
+        aTClwR3cVg==
 2018-07-12-through-the-waterfalls:
   title: Through the Waterfalls
   titleRu: Сквозь водопады
