@@ -227,13 +227,18 @@ export const selectPostInfos = (
   params: SelectPostInfosParams,
   limit?: number,
 ): PostInfoSelection => {
-  const localParams: SelectPostInfosParams = { ...params, sortKey: 'date', sortDirection: 'desc' };
+  const localParams: SelectPostInfosParams = {
+    ...params,
+    sortKey: params.sortKey ?? 'date',
+    sortDirection: params.sortDirection ?? 'desc',
+  };
 
   const comparator =
-    selectPostInfosSortOptions.find((comparator) => comparator.value === params.sortKey)?.fn ?? comparePostInfosByDate;
+    selectPostInfosSortOptions.find((comparator) => comparator.value === localParams.sortKey)?.fn ??
+    comparePostInfosByDate;
   const searchTokens = getSearchTokens(params.search);
 
-  const items = [...postInfos].sort(comparator(params.sortDirection ?? 'desc')).filter((info) => {
+  const items = [...postInfos].sort(comparator(localParams.sortDirection ?? 'desc')).filter((info) => {
     const date = getPostDateById(info.id);
 
     return Boolean(
