@@ -953,6 +953,14 @@
       followers: 354
       likes: 69
       views: 475
+    - service: vk
+      id: 2458
+      published: 2025-06-09-18-28-37
+      followers: 1318
+    - service: tg
+      id: 880
+      published: 2025-06-09-18-28-42
+      followers: 745
 2024-04-07-sheogorad: 2016-11-21-sheogorad
 2024-04-08-lava-fork:
   title: Lava Fork
