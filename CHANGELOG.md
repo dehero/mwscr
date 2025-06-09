@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.64.0](https://github.com/dehero/mwscr/compare/v1.63.1...v1.64.0) (2025-06-09)
+
+### Features
+
+- **site:** show extras grouped by types on user and home page
+  ([11c2307](https://github.com/dehero/mwscr/commit/11c2307e351c1c0304c2243556a5aa042582c61d))
+
+### Bug Fixes
+
+- **site:** hide description block for post previews without visible description
+  ([156ca2e](https://github.com/dehero/mwscr/commit/156ca2ed5aafdb718b57e984bd0b5cc4dbea827a))
+- **site:** show right sorting for current posts selection descriptor
+  ([9b0edae](https://github.com/dehero/mwscr/commit/9b0edaedeac521f25be11abcbe51b8eca0c87468))
+
 ## [1.63.1](https://github.com/dehero/mwscr/compare/v1.63.0...v1.63.1) (2025-06-09)
 
 ### Bug Fixes
