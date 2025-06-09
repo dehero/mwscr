@@ -7621,10 +7621,10 @@
     - service: vk
       id: 2453
       published: 2025-06-08-18-16-43
-      updated: 2025-06-09-22-18-50
+      updated: 2025-06-09-23-18-47
       followers: 1316
-      likes: 37
-      views: 240
+      likes: 38
+      views: 243
       comments: !c |-
         G/UBYKwSeDO2eElquoV4MtwLIyTp5B/+TzbCrzunjWeWbJ2TBFnCBR6kiSX3YapuxoibhxCEpTnt
         s3+sCIu2LXNWsBn7NhU5GIi5WYKhPHzmyGQ3gxEbnkqrGzynwwHADKOsHtiW3IAHPVna8aIXGtED
@@ -7635,15 +7635,15 @@
     - service: tg
       id: 879
       published: 2025-06-08-18-16-51
-      updated: 2025-06-09-22-18-49
+      updated: 2025-06-09-23-18-45
       followers: 742
       likes: 53
-      views: 200
+      views: 203
     - service: ig
       id: DKpq6H_N3Ka
       mediaId: '18072534205930276'
       published: 2025-06-08-19-12-32
-      updated: 2025-06-09-22-18-52
+      updated: 2025-06-09-23-18-48
       followers: 1553
       likes: 80
       comments: !c |-
