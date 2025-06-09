@@ -20,6 +20,7 @@ body:
         - mention
         - photoshop
         - outtakes
+        - achievement
       default: 0
     validations:
       required: true
