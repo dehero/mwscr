@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import { type Component, createSignal, For, Show } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
 import avatar from '../../../../assets/avatar.png?format=avif&imagetools';
+import { markdownToInlineHtml } from '../../../core/entities/markdown.js';
 import { getLimitedAspectRatio } from '../../../core/entities/media.js';
 import { postAddonDescriptors, postTypeDescriptors, postViolationDescriptors } from '../../../core/entities/post.js';
 import type { PostInfo } from '../../../core/entities/post-info.js';
@@ -52,6 +53,9 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
     );
   const alt = () => props.postInfo.tags?.join(' ');
   const frameState = () => (props.selected ? 'selected' : props.postInfo.status ? 'unsaved' : undefined);
+
+  const description = () => props.postInfo.description ?? props.postInfo.descriptionRu ?? '';
+  const hasRenderableDescription = () => markdownToInlineHtml(description(), () => []).html.length > 0;
 
   const [ref, setRef] = createSignal<HTMLElement>();
 
@@ -175,15 +179,11 @@ export const PostPreview: Component<PostPreviewProps> = (props) => {
               </div>
             </Show>
           </div>
-          <Show when={props.postInfo.description ?? props.postInfo.descriptionRu}>
-            {(description) => (
-              <>
-                <Divider />
-                <div class={styles.description}>
-                  <Markdown disableLinks>{description()}</Markdown>
-                </div>
-              </>
-            )}
+          <Show when={hasRenderableDescription()}>
+            <Divider />
+            <div class={styles.description}>
+              <Markdown disableLinks>{description()}</Markdown>
+            </div>
           </Show>
         </Frame>
       </Show>
