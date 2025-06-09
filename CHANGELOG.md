@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.65.0](https://github.com/dehero/mwscr/compare/v1.64.0...v1.65.0) (2025-06-09)
+
+### Features
+
+- add post creation date field
+  ([b9c095d](https://github.com/dehero/mwscr/commit/b9c095d300e45273e259c287f1dab0898e00d52e))
+
 ## [1.64.0](https://github.com/dehero/mwscr/compare/v1.63.1...v1.64.0) (2025-06-09)
 
 ### Features
