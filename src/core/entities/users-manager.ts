@@ -13,7 +13,7 @@ export abstract class UsersManager extends ListManager<User> {
   async createItemId(item: User): Promise<string> {
     let baseId = textToId(item.name ?? '');
     if (!baseId) {
-      baseId = textToId(Object.values(item.profiles || {})[0] ?? '');
+      baseId = textToId(Object.values(item.profiles || {})[0]?.username ?? '');
     }
 
     let index = 2;

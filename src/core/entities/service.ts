@@ -18,7 +18,7 @@ export interface Service {
 
   getUserMessagingUrl?: (userId: string, options?: ServiceMessagingOptions) => string | undefined;
 
-  getUserProfileUrl: (userId: string) => string | undefined;
+  getUserProfileUrl: (username: string) => string | undefined;
 }
 
 export interface PostingService<TPublication extends Publication = Publication> extends Service {

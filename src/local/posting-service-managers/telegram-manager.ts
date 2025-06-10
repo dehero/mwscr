@@ -97,7 +97,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     for (const userId of userIds) {
       const user = await users.getItem(userId);
       const name = user?.name || userId;
-      const profile = user?.profiles?.[this.id];
+      const profile = user?.profiles?.[this.id]?.username;
 
       mentions.push(profile ? `<a href="${encodeURI(this.getUserProfileUrl(profile))}">${name}</a>` : name);
     }

@@ -8,19 +8,26 @@ export const USER_DEFAULT_AUTHOR = 'dehero';
 export const USER_UNKNOWN = 'anonimous';
 
 export const UserRole = picklist(['admin', 'author', 'requester', 'drawer', 'beginner', 'foreigner']);
-export const UserProfiles = record(pipe(string(), nonEmpty()), optional(pipe(string(), trim(), nonEmpty())));
+
+export const UserProfile = object({
+  id: optional(number()),
+  username: optional(pipe(string(), trim(), nonEmpty())),
+  channel: optional(pipe(string(), trim(), nonEmpty())),
+  botChatId: optional(number()),
+});
+
+export const UserProfiles = record(pipe(string(), nonEmpty()), optional(UserProfile));
 
 export const User = object({
   name: optional(pipe(string(), trim(), nonEmpty())),
   nameRu: optional(pipe(string(), trim(), nonEmpty())),
   nameRuFrom: optional(pipe(string(), trim(), nonEmpty())),
   admin: optional(boolean()),
-  telegramBotChatId: optional(number()),
   profiles: optional(UserProfiles),
 });
 
 export type UserRole = InferOutput<typeof UserRole>;
-export type UserProfiles = Record<string, string | undefined>;
+export type UserProfiles = InferOutput<typeof UserProfiles>;
 export type User = InferOutput<typeof User>;
 
 export type UserEntry = [string, User | undefined, ...unknown[]];
@@ -29,9 +36,9 @@ export function createUserLinks(userEntry: UserEntry, services: Service[]): Link
   const links = [];
 
   for (const service of services) {
-    const userId = userEntry[1]?.profiles?.[service.id];
-    if (userId) {
-      const url = service.getUserProfileUrl(userId);
+    const username = userEntry[1]?.profiles?.[service.id]?.username;
+    if (username) {
+      const url = service.getUserProfileUrl(username);
       if (url) {
         links.push({ text: service.name, url });
       }
@@ -62,10 +69,12 @@ export function isUserEqual(a: User, b: User) {
       (a.name && a.name === b.name) ||
       (a.nameRu && a.nameRu === b.nameRu) ||
       (a.nameRuFrom && a.nameRuFrom === b.nameRuFrom) ||
-      (a.telegramBotChatId && a.telegramBotChatId === b.telegramBotChatId) ||
       (a.profiles &&
         Object.entries(a.profiles).some(
-          ([service, profile]) => profile === b.profiles?.[service as keyof UserProfiles],
+          ([service, profile]) =>
+            profile?.username === b.profiles?.[service as keyof UserProfiles]?.username ||
+            profile?.id === b.profiles?.[service as keyof UserProfiles]?.id ||
+            profile?.channel === b.profiles?.[service as keyof UserProfiles]?.channel,
         )),
   );
 }
@@ -74,7 +83,6 @@ export function mergeUserWith(user: User, withUser: User) {
   user.name = user.name || withUser.name || undefined;
   user.nameRu = user.nameRu || withUser.nameRu || undefined;
   user.nameRuFrom = user.nameRuFrom || withUser.nameRuFrom || undefined;
-  user.telegramBotChatId = user.telegramBotChatId || withUser.telegramBotChatId || undefined;
   user.profiles = mergeUserProfiles(user.profiles, withUser.profiles);
 }
 

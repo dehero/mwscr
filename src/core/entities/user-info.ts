@@ -107,7 +107,7 @@ export async function createUserInfos(dataManager: DataManager): Promise<UserInf
         mark,
         rating,
         roles,
-        talkedToTelegramBot: Boolean(user.telegramBotChatId),
+        talkedToTelegramBot: Boolean(user.profiles?.tg?.botChatId),
       });
     }),
   );

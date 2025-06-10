@@ -61,15 +61,22 @@ export function extractIssueTextareaValue(field: IssueFieldWithLabel, text: stri
 export async function extractIssueUser(issue: GithubIssue): Promise<ListReaderEntry<User>> {
   let entry = await users.findEntry((user) => user.profiles?.gh === issue.user.login);
   if (!entry) {
-    entry = await users.addItem({ profiles: { gh: issue.user.login } });
+    entry = await users.addItem({ profiles: { gh: { username: issue.user.login } } });
   }
 
   const name = extractIssueFieldValue(userName, issue.body);
-  const ig = extractIssueFieldValue(userProfileIg, issue.body);
-  const tg = extractIssueFieldValue(userProfileTg, issue.body);
-  const vk = extractIssueFieldValue(userProfileVk, issue.body);
+  const igUsername = extractIssueFieldValue(userProfileIg, issue.body);
+  const tgUsername = extractIssueFieldValue(userProfileTg, issue.body);
+  const vkUsername = extractIssueFieldValue(userProfileVk, issue.body);
 
-  const user: User = { name, profiles: { ig, tg, vk } };
+  const user: User = {
+    name,
+    profiles: {
+      ig: igUsername ? { username: igUsername } : undefined,
+      tg: tgUsername ? { username: tgUsername } : undefined,
+      vk: vkUsername ? { username: vkUsername } : undefined,
+    },
+  };
 
   mergeUserWith(entry[1], user);
 
