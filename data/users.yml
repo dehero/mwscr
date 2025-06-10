@@ -1,194 +1,209 @@
 3akrom:
-  telegramBotChatId: 988831875
   name: 3akrom
   nameRu: 3акром
   nameRuFrom: 3акрома
   profiles:
-    tg: taletale
+    tg:
+      botChatId: 988831875
+      username: taletale
 adele:
-  telegramBotChatId: 1924823021
-  name: Adele
   profiles:
-    tg: Shiskoribafish
+    tg:
+      botChatId: 1924823021
+      username: Shiskoribafish
 aleksey:
-  telegramBotChatId: 451735380
-  name: Aleksey
-  nameRu: Алексей
   profiles:
-    tg: avrongols
+    tg:
+      botChatId: 451735380
+      username: avrongols
 arseniy-dyak:
   telegramBotChatId: 8182789616
   name: Arseniy Dyak
   nameRu: Арсений Дьяк
   profiles: {}
 bassyleus:
-  telegramBotChatId: 783515562
-  name: Basileus
   profiles:
-    tg: Bassyleus
+    tg:
+      botChatId: 783515562
+      username: Bassyleus
 blu:
-  telegramBotChatId: 5511607316
-  name: Blu
   profiles:
-    tg: tcnspih
+    tg:
+      botChatId: 5511607316
+      username: tcnspih
 buck-the-cuck:
-  telegramBotChatId: 5062369834
-  name: fhgfh
   profiles:
-    ig: buck_the_cuck
+    tg:
+      botChatId: 5062369834
+      username: fhgfh
 caius-cosades:
-  telegramBotChatId: 6483220506
-  name: CAIUS COSADES
   profiles:
-    tg: Gatemate7
+    tg:
+      botChatId: 6483220506
+      username: Gatemate7
 darkness-rifho:
   name: Darkness Rifho
   profiles:
-    tg: midnight_in_mind
+    tg:
+      username: midnight_in_mind
 dehero:
-  telegramBotChatId: 414295239
-  name: dehero
-  admin: true
   profiles:
-    em: dehero@outlook.com
-    gh: dehero
-    tg: deherole
-    vk: dehero
+    tg:
+      botChatId: 414295239
+      username: deherole
+    em:
+      username: dehero@outlook.com
+    gh:
+      username: dehero
+    vk:
+      username: dehero
 deviltrigger:
-  telegramBotChatId: 7096566258
-  name: DevilTrigger
   profiles:
-    tg: zxcqwe431
+    tg:
+      botChatId: 7096566258
+      username: zxcqwe431
 dmepikh:
   name: Dmitry Epikhin
   nameRu: Дмитрий Епихин
   profiles:
-    tg: dmepikh
+    tg:
+      username: dmepikh
 dmitrii:
-  telegramBotChatId: 300009119
-  name: Dmitrii
   profiles:
-    tg: dm4by
+    tg:
+      botChatId: 300009119
+      username: dm4by
 eastcoast-lg:
   name: Luke Gordon
   profiles:
-    ig: eastcoast_lg
+    ig:
+      username: eastcoast_lg
 ekaterina:
-  telegramBotChatId: 816585640
-  name: Ekaterina
   profiles:
-    tg: berskate
+    tg:
+      botChatId: 816585640
+      username: berskate
 eklersgovnom:
   name: Aleksey Gusev
   nameRu: Алексей Гусев
   profiles:
-    vk: eklersgovnom
+    vk:
+      username: eklersgovnom
 eldrad:
-  telegramBotChatId: 398125107
-  name: Eldrad
-  nameRu: Эльдра́д
   profiles:
-    tg: Master_Eldrad
+    tg:
+      botChatId: 398125107
+      username: Master_Eldrad
 gleb:
-  telegramBotChatId: 5357370117
-  name: Gleb
   profiles:
-    tg: glebiris
+    tg:
+      botChatId: 5357370117
+      username: glebiris
 i-love-the-night:
   name: Max Lis
   nameRu: Макс Лис
   profiles:
-    vk: i_love_the_night
+    vk:
+      username: i_love_the_night
 id172608176:
   name: Vladimir
   nameRu: Владимир
   profiles:
-    vk: id172608176
+    vk:
+      username: id172608176
 id810900694:
   name: Sergey Bakashinov
   nameRu: Сергей Бакашинов
   profiles:
-    vk: id810900694
+    vk:
+      username: id810900694
 irina-bystritskaya:
   name: Irina Bystritskaya
   nameRu: Ирина Быстрицкая
   nameRuFrom: Ирины Быстрицкой
   profiles:
-    vk: club207258733
+    vk:
+      username: club207258733
 kayracik:
   name: kayracik
   profiles:
-    gh: Helvgen
+    gh:
+      username: Helvgen
 knives-out:
   name: Knives Out
   profiles:
-    vk: id270989157
+    vk:
+      username: id270989157
 konstantin:
-  telegramBotChatId: 234404737
-  name: Konstantin
   profiles:
-    tg: epszaw
+    tg:
+      botChatId: 234404737
+      username: epszaw
 mighty-markyys:
   name: Markus Alapoti
   profiles:
-    ig: mighty_markyys
+    ig:
+      username: mighty_markyys
 natty:
   name: Natty
 nihil-sum:
-  telegramBotChatId: 563711962
-  name: Nihil sum
   profiles:
-    tg: syomadyoma
+    tg:
+      botChatId: 563711962
+      username: syomadyoma
 ohsweetnazareth:
   name: nazareth
   profiles:
-    gh: ohsweetnazareth
-    ig: ohsweetnazareth
+    gh:
+      username: ohsweetnazareth
+    ig:
+      username: ohsweetnazareth
 oleh:
-  telegramBotChatId: 5645256528
-  name: Oleh
   profiles:
-    tg: OlehShyha
+    tg:
+      botChatId: 5645256528
+      username: OlehShyha
 psyangst:
-  telegramBotChatId: 257836200
-  name: psyangst
   profiles:
-    tg: psyangst
+    tg:
+      botChatId: 257836200
+      username: psyangst
 rachille:
   name: Rachille
   profiles:
-    ig: rachilleart
+    ig:
+      username: rachilleart
 remmlah:
   name: RemmLah
 rocksweet:
-  telegramBotChatId: 456985367
-  name: Sweet
   profiles:
-    tg: rocksweet
+    tg:
+      botChatId: 456985367
+      username: rocksweet
 spicebag:
-  telegramBotChatId: 1110940743
-  name: Spicebag
   profiles:
-    tg: discodoyler
+    tg:
+      botChatId: 1110940743
+      username: discodoyler
 talos:
-  telegramBotChatId: 7165366272
-  name: Talos
-  nameRu: Талос
   profiles:
-    tg: Feixiaomein
+    tg:
+      botChatId: 7165366272
+      username: Feixiaomein
 vladyslav-zhuk:
   name: Vladyslav Zhuk
   nameRu: Владислав Жук
 xnzayrpcad:
-  telegramBotChatId: 7523695427
-  name: Xnzayrpcad
   profiles:
-    tg: dryteuiop
+    tg:
+      botChatId: 7523695427
+      username: dryteuiop
 yarlinnie:
   profiles:
-    tg: yarlinnie
+    tg:
+      username: yarlinnie
 yaroslav:
-  telegramBotChatId: 393415568
-  name: Yaroslav
   profiles:
-    tg: bondarets
+    tg:
+      botChatId: 393415568
+      username: bondarets

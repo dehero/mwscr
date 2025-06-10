@@ -137,7 +137,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
     for (const userId of userIds) {
       const user = await users.getItem(userId);
       const name = user?.name || userId;
-      const profile = user?.profiles?.[this.id];
+      const profile = user?.profiles?.[this.id]?.username;
 
       mentions.push(profile ? `@${profile}` : name);
     }
