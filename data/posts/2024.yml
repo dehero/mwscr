@@ -956,22 +956,22 @@
     - service: vk
       id: 2458
       published: 2025-06-09-18-28-37
-      updated: 2025-06-10-12-40-14
+      updated: 2025-06-10-13-33-14
       followers: 1318
-      likes: 30
-      views: 148
+      likes: 31
+      views: 155
     - service: tg
       id: 880
       published: 2025-06-09-18-28-42
-      updated: 2025-06-10-12-40-14
+      updated: 2025-06-10-13-33-14
       followers: 745
       likes: 53
-      views: 175
+      views: 176
     - service: ig
       id: DKsQFHnMKMW
       mediaId: '17910543366036193'
       published: 2025-06-09-19-15-50
-      updated: 2025-06-10-12-40-15
+      updated: 2025-06-10-13-33-17
       followers: 1553
       likes: 69
       comments: !c |-
