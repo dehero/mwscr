@@ -956,24 +956,24 @@
     - service: vk
       id: 2458
       published: 2025-06-09-18-28-37
-      updated: 2025-06-10-06-28-45
+      updated: 2025-06-10-07-18-59
       followers: 1318
       likes: 28
-      views: 120
+      views: 126
     - service: tg
       id: 880
       published: 2025-06-09-18-28-42
-      updated: 2025-06-10-06-28-44
+      updated: 2025-06-10-07-18-59
       followers: 745
       likes: 49
-      views: 151
+      views: 156
     - service: ig
       id: DKsQFHnMKMW
       mediaId: '17910543366036193'
       published: 2025-06-09-19-15-50
-      updated: 2025-06-10-06-28-46
+      updated: 2025-06-10-07-19-00
       followers: 1553
-      likes: 61
+      likes: 64
       comments: !c |-
         CyuAkZPLQnl1aBk7AACsZWFzdGNvYXN0X2xn2T1UaGlzIGdhbWUgaGFzIGFuIGFtYmlhbmNlIHRo
         YXQgdGhlIG90aGVycyBzb21laG93IGxhY2sg4p2k77iPAw==
