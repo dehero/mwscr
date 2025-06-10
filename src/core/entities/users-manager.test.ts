@@ -33,7 +33,7 @@ test('UsersManager.createItemId', async (t) => {
     const user: User = {
       name: '         ',
       profiles: {
-        ig: 'john_doe',
+        ig: { username: 'john_doe' },
       },
     };
     const id = await manager.createItemId(user);
@@ -44,8 +44,8 @@ test('UsersManager.createItemId', async (t) => {
     const user: User = {
       name: '',
       profiles: {
-        ig: 'john_doe',
-        tg: 'john_doe2',
+        ig: { username: 'john_doe' },
+        tg: { username: 'john_doe2' },
       },
     };
     const id = await manager.createItemId(user);
