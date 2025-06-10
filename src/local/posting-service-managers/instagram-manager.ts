@@ -392,6 +392,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
       CommentField.REPLIES,
       CommentField.TIMESTAMP,
       CommentField.USERNAME,
+      CommentField.USER,
       CommentField.TEXT,
     );
     const response = await request.execute();
@@ -403,9 +404,13 @@ export class InstagramManager extends Instagram implements PostingServiceManager
         continue;
       }
 
+      const [author] = await users.mergeOrAddItem({
+        name: item.username,
+        profiles: { [this.id]: { id: item.user?.id, username: item.username } },
+      });
+
       const replies: PublicationComment[] = [];
-      const author = item.username;
-      const mention = `@${author}`;
+      const mention = `@${item.username}`;
       const text = item.text.trim();
 
       if (item.replies?.data.length) {
@@ -414,6 +419,7 @@ export class InstagramManager extends Instagram implements PostingServiceManager
           item.id,
           CommentField.ID,
           CommentField.TIMESTAMP,
+          CommentField.USER,
           CommentField.USERNAME,
           CommentField.TEXT,
         );
@@ -426,7 +432,10 @@ export class InstagramManager extends Instagram implements PostingServiceManager
           }
 
           const datetime = new Date(childItem.timestamp);
-          const author = childItem.username;
+          const [author] = await users.mergeOrAddItem({
+            name: childItem.username,
+            profiles: { [this.id]: { id: childItem.user?.id, username: childItem.username } },
+          });
 
           let text = childItem.text;
           if (text.startsWith(mention)) {
@@ -442,6 +451,8 @@ export class InstagramManager extends Instagram implements PostingServiceManager
 
       comments.push({ datetime, author, text, replies });
     }
+
+    await users.save();
 
     return comments.length > 0 ? comments : undefined;
   }
