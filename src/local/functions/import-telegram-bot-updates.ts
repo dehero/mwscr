@@ -101,18 +101,17 @@ async function processMessage(message: TelegramBot.Message) {
 
   try {
     let userEntry = await users.findEntry(
-      (user) => user.profiles?.tg === message.from?.username || user.telegramBotChatId === message.chat.id,
+      (user) => user.profiles?.tg === message.from?.username || user.profiles?.tg?.botChatId === message.chat.id,
     );
     if (!userEntry) {
-      userEntry = await users.addItem({ profiles: { tg: message.from.username } });
+      userEntry = await users.addItem({ profiles: { tg: { username: message.from.username } } });
     }
 
     author = userEntry[0];
 
     mergeUserWith(userEntry[1], {
       name: message.from.first_name,
-      telegramBotChatId: message.chat.id,
-      profiles: { tg: message.from.username },
+      profiles: { tg: { username: message.from.username, botChatId: message.chat.id } },
     });
 
     await users.save();
@@ -135,8 +134,8 @@ async function processMessage(message: TelegramBot.Message) {
     try {
       let adminUrl;
       const [, admin] = (await users.findEntry((user) => Boolean(user.admin))) ?? [];
-      if (admin?.profiles?.tg) {
-        adminUrl = telegram.getUserProfileUrl(admin.profiles.tg);
+      if (admin?.profiles?.tg?.username) {
+        adminUrl = telegram.getUserProfileUrl(admin.profiles.tg.username);
       }
 
       const url = await bot.getFileLink(message.document.file_id);
