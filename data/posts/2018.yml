@@ -2826,17 +2826,17 @@
     - service: vk
       id: 1865
       published: 2024-10-28-18-10-39
-      updated: 2025-06-03-13-36-02
+      updated: 2025-06-10-14-19-51
       followers: 1000
       likes: 51
       views: 327
     - service: tg
       id: 578
       published: 2024-10-28-18-10-46
-      updated: 2025-06-03-13-36-00
+      updated: 2025-06-10-14-19-50
       followers: 564
       likes: 60
-      views: 595
+      views: 596
 2018-03-15-the-other-side:
   title: The Other Side
   titleRu: По ту сторону
@@ -4357,10 +4357,10 @@
     - service: tg
       id: 564
       published: 2024-10-14-18-10-32
-      updated: 2025-06-03-13-36-03
+      updated: 2025-06-10-14-19-53
       followers: 561
       likes: 64
-      views: 523
+      views: 524
 2018-04-20-road-through-a-dead-forest:
   title: Road Through a Dead Forest
   titleRu: Дорога сквозь мёртвый лес
@@ -7621,10 +7621,10 @@
     - service: vk
       id: 2453
       published: 2025-06-08-18-16-43
-      updated: 2025-06-10-13-33-16
+      updated: 2025-06-10-14-19-49
       followers: 1316
-      likes: 40
-      views: 270
+      likes: 41
+      views: 272
       comments: !c |-
         G/UBYKwSeDO2eElquoV4MtwLIyTp5B/+TzbCrzunjWeWbJ2TBFnCBR6kiSX3YapuxoibhxCEpTnt
         s3+sCIu2LXNWsBn7NhU5GIi5WYKhPHzmyGQ3gxEbnkqrGzynwwHADKOsHtiW3IAHPVna8aIXGtED
@@ -7635,7 +7635,7 @@
     - service: tg
       id: 879
       published: 2025-06-08-18-16-51
-      updated: 2025-06-10-13-33-15
+      updated: 2025-06-10-14-19-48
       followers: 742
       likes: 55
       views: 220
@@ -7643,7 +7643,7 @@
       id: DKpq6H_N3Ka
       mediaId: '18072534205930276'
       published: 2025-06-08-19-12-32
-      updated: 2025-06-10-13-33-18
+      updated: 2025-06-10-14-19-53
       followers: 1553
       likes: 86
       comments: !c |-
@@ -11632,10 +11632,10 @@
     - service: tg
       id: 571
       published: 2024-10-21-18-10-50
-      updated: 2025-06-03-13-36-01
+      updated: 2025-06-10-14-19-52
       followers: 562
       likes: 55
-      views: 742
+      views: 744
 2018-10-10-thunderstorm-cave:
   title: Thunderstorm Cave
   titleRu: Грозовая пещера
