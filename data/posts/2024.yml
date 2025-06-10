@@ -343,7 +343,7 @@
     - service: vk
       id: 1442
       published: 2024-03-10-18-00-51
-      updated: 2025-06-03-11-21-25
+      updated: 2025-06-10-12-41-33
       followers: 895
       likes: 34
       views: 254
@@ -351,10 +351,10 @@
     - service: tg
       id: 341
       published: 2024-03-10-18-00-59
-      updated: 2025-06-03-11-21-04
+      updated: 2025-06-10-12-41-11
       followers: 349
       likes: 60
-      views: 525
+      views: 526
 2024-03-11-gray-thorns:
   title: Gray Thorns
   titleRu: Серые шипы
@@ -503,7 +503,7 @@
     - service: vk
       id: 1455
       published: 2024-03-17-18-09-55
-      updated: 2025-06-03-11-21-24
+      updated: 2025-06-10-12-41-32
       followers: 896
       likes: 42
       views: 329
@@ -512,7 +512,7 @@
     - service: tg
       id: 349
       published: 2024-03-17-18-10-02
-      updated: 2025-06-03-11-21-03
+      updated: 2025-06-10-12-41-10
       followers: 353
       likes: 64
       views: 511
@@ -819,7 +819,7 @@
     - service: vk
       id: 1476
       published: 2024-03-31-18-10-32
-      updated: 2025-06-03-11-21-22
+      updated: 2025-06-10-12-41-30
       followers: 905
       likes: 29
       views: 267
@@ -827,7 +827,7 @@
     - service: tg
       id: 363
       published: 2024-03-31-18-10-38
-      updated: 2025-06-03-11-21-01
+      updated: 2025-06-10-12-41-08
       followers: 354
       likes: 58
       views: 500
@@ -956,22 +956,22 @@
     - service: vk
       id: 2458
       published: 2025-06-09-18-28-37
-      updated: 2025-06-10-11-16-59
+      updated: 2025-06-10-12-40-14
       followers: 1318
-      likes: 29
-      views: 144
+      likes: 30
+      views: 148
     - service: tg
       id: 880
       published: 2025-06-09-18-28-42
-      updated: 2025-06-10-11-16-59
+      updated: 2025-06-10-12-40-14
       followers: 745
-      likes: 51
-      views: 170
+      likes: 53
+      views: 175
     - service: ig
       id: DKsQFHnMKMW
       mediaId: '17910543366036193'
       published: 2025-06-09-19-15-50
-      updated: 2025-06-10-11-17-01
+      updated: 2025-06-10-12-40-15
       followers: 1553
       likes: 69
       comments: !c |-
@@ -1605,7 +1605,7 @@
     - service: vk
       id: 1519
       published: 2024-05-05-18-17-05
-      updated: 2025-06-03-11-21-18
+      updated: 2025-06-10-12-41-25
       followers: 913
       likes: 38
       views: 279
@@ -1618,10 +1618,10 @@
     - service: tg
       id: 399
       published: 2024-05-05-18-17-11
-      updated: 2025-06-03-11-20-58
+      updated: 2025-06-10-12-41-04
       followers: 370
       likes: 62
-      views: 491
+      views: 492
 2024-05-06-alchemist-table:
   title: Alchemist Table
   titleRu: Стол алхимика
@@ -1809,14 +1809,14 @@
     - service: tg
       id: 406
       published: 2024-05-12-18-20-07
-      updated: 2025-06-03-11-20-58
+      updated: 2025-06-10-12-41-03
       followers: 371
       likes: 57
       views: 472
     - service: vk
       id: 1530
       published: 2024-05-12-19-11-11
-      updated: 2025-06-03-11-21-17
+      updated: 2025-06-10-12-41-24
       followers: 915
       likes: 28
       views: 259
@@ -1944,7 +1944,7 @@
     - service: vk
       id: 1538
       published: 2024-05-19-18-18-25
-      updated: 2025-06-03-11-21-16
+      updated: 2025-06-10-12-41-24
       followers: 916
       likes: 39
       views: 259
@@ -1952,7 +1952,7 @@
     - service: tg
       id: 413
       published: 2024-05-19-18-18-32
-      updated: 2025-06-03-11-20-58
+      updated: 2025-06-10-12-41-02
       followers: 372
       likes: 61
       views: 544
@@ -2134,14 +2134,14 @@
     - service: vk
       id: 1576
       published: 2024-06-09-18-18-45
-      updated: 2025-06-03-11-21-13
+      updated: 2025-06-10-12-41-21
       followers: 916
       likes: 33
       views: 288
     - service: tg
       id: 434
       published: 2024-06-09-18-18-52
-      updated: 2025-06-03-11-20-55
+      updated: 2025-06-10-12-41-01
       followers: 384
       likes: 58
       views: 512
@@ -2857,7 +2857,7 @@
     - service: vk
       id: 1930
       published: 2024-12-02-18-11-17
-      updated: 2025-06-03-11-20-53
+      updated: 2025-06-10-12-41-02
       followers: 1012
       likes: 60
       views: 432
@@ -2876,10 +2876,10 @@
     - service: tg
       id: 613
       published: 2024-12-02-18-11-24
-      updated: 2025-06-03-11-20-33
+      updated: 2025-06-10-12-40-37
       followers: 575
       likes: 73
-      views: 539
+      views: 540
       comments: !c |-
         G2kAUBSh0oeuecAP9EJhFRSJmYumB11xBk9gJgkbcOCQWTiADb6eAidsOVIidkyXL2qMXf5QAx5S
         UYYdW5wE4bhwnxtLJg6/V/vFvNZrywLgUA67fudGFgFshkXdS1IUZNKAC+/2wpLoWa9bpxg=
@@ -3187,10 +3187,10 @@
     - service: vk
       id: 1953
       published: 2024-12-09-19-02-15
-      updated: 2025-06-03-11-20-50
+      updated: 2025-06-10-12-41-00
       followers: 1013
       likes: 46
-      views: 566
+      views: 568
       reposts: 3
       comments: !c |-
         G5EA6J0JdizEZBhabhZBVMQtwh/PJUywSSjiZA90Y5YYFy6eC6qTYy7V5PshaQUeplDanGV7wGWL
@@ -3199,10 +3199,10 @@
     - service: tg
       id: 620
       published: 2024-12-09-19-02-22
-      updated: 2025-06-03-11-20-33
+      updated: 2025-06-10-12-40-37
       followers: 580
       likes: 63
-      views: 507
+      views: 508
 2024-12-10-sunrise-over-the-ash-forest: 2017-02-16-sunrise-over-the-ash-forest
 2024-12-11-night-calmness:
   title: Night Calmness
@@ -3463,7 +3463,7 @@
     - service: vk
       id: 2004
       published: 2024-12-30-18-10-48
-      updated: 2025-06-03-11-20-45
+      updated: 2025-06-10-12-40-52
       followers: 1037
       likes: 53
       views: 438
@@ -3477,10 +3477,10 @@
     - service: tg
       id: 642
       published: 2024-12-30-18-10-55
-      updated: 2025-06-03-11-20-31
+      updated: 2025-06-10-12-40-35
       followers: 642
       likes: 78
-      views: 981
+      views: 982
 2024-12-31-a-look-into-the-darkness:
   title: A Look Into the Darkness
   titleRu: Взгляд в темноту
