@@ -956,24 +956,24 @@
     - service: vk
       id: 2458
       published: 2025-06-09-18-28-37
-      updated: 2025-06-10-17-17-10
+      updated: 2025-06-10-18-27-41
       followers: 1318
       likes: 33
-      views: 166
+      views: 167
     - service: tg
       id: 880
       published: 2025-06-09-18-28-42
-      updated: 2025-06-10-17-17-09
+      updated: 2025-06-10-18-27-41
       followers: 745
-      likes: 53
-      views: 182
+      likes: 54
+      views: 184
     - service: ig
       id: DKsQFHnMKMW
       mediaId: '17910543366036193'
       published: 2025-06-09-19-15-50
-      updated: 2025-06-10-17-17-12
+      updated: 2025-06-10-18-27-42
       followers: 1553
-      likes: 69
+      likes: 70
       comments: !c |-
         CyuAkZPLQnl1aBk7AACsZWFzdGNvYXN0X2xn2T1UaGlzIGdhbWUgaGFzIGFuIGFtYmlhbmNlIHRo
         YXQgdGhlIG90aGVycyBzb21laG93IGxhY2sg4p2k77iPAw==
@@ -2585,7 +2585,7 @@
     - service: vk
       id: 1779
       published: 2024-09-23-18-31-03
-      updated: 2025-06-03-17-21-58
+      updated: 2025-06-10-18-27-53
       followers: 958
       likes: 51
       views: 358
@@ -2597,10 +2597,10 @@
     - service: tg
       id: 542
       published: 2024-09-23-18-31-11
-      updated: 2025-06-03-17-21-51
+      updated: 2025-06-10-18-27-47
       followers: 556
       likes: 65
-      views: 546
+      views: 548
 2024-09-24-towers-and-castle:
   title: Towers and Castle
   titleRu: Башни и замок
