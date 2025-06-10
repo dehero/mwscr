@@ -1,4 +1,5 @@
 import 'dotenv/config';
+import transliterate from '@sindresorhus/transliterate';
 import { createInterface } from 'readline';
 import sharp from 'sharp';
 import { Api, TelegramClient } from 'telegram';
@@ -236,7 +237,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
     return { views, likes, reposts };
   }
 
-  getCommentInfo(message: Api.Message, result: Api.messages.ChannelMessages) {
+  async getCommentInfo(message: Api.Message, result: Api.messages.ChannelMessages) {
     const userId = message.fromId instanceof Api.PeerUser ? message.fromId.userId : undefined;
     let author: string;
 
@@ -245,9 +246,19 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       if (!(user instanceof Api.User)) {
         return;
       }
-      author = user.deleted
+
+      const nameRu = user.deleted
         ? 'deleted'
-        : user.username || [user.firstName, user.lastName].filter((item) => Boolean(item)).join(' ');
+        : [user.firstName, user.lastName].filter((item) => Boolean(item)).join(' ') ||
+          user.username ||
+          user.id.toString();
+      const name = transliterate(nameRu);
+
+      [author] = await users.mergeOrAddItem({
+        name,
+        nameRu: nameRu !== name ? nameRu : undefined,
+        profiles: { [this.id]: { id: user.id.toString(), username: user.username || undefined } },
+      });
     } else {
       author = TELEGRAM_CHANNEL;
     }
@@ -258,6 +269,8 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
 
     const datetime = new Date(message.date * 1000);
     const text = message.message || alt || '';
+
+    await users.save();
 
     return { datetime, author, text };
   }
@@ -300,7 +313,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
         continue;
       }
 
-      const info = this.getCommentInfo(message, result);
+      const info = await this.getCommentInfo(message, result);
       if (!info) {
         continue;
       }
@@ -315,7 +328,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
           continue;
         }
 
-        const info = this.getCommentInfo(childItem, result);
+        const info = await this.getCommentInfo(childItem, result);
         if (!info) {
           continue;
         }
