@@ -10,7 +10,7 @@ export const USER_UNKNOWN = 'anonimous';
 export const UserRole = picklist(['admin', 'author', 'requester', 'drawer', 'beginner', 'foreigner']);
 
 export const UserProfile = object({
-  id: optional(number()),
+  id: optional(pipe(string(), trim(), nonEmpty())),
   username: optional(pipe(string(), trim(), nonEmpty())),
   channel: optional(pipe(string(), trim(), nonEmpty())),
   botChatId: optional(number()),
@@ -27,6 +27,7 @@ export const User = object({
 });
 
 export type UserRole = InferOutput<typeof UserRole>;
+export type UserProfile = InferOutput<typeof UserProfile>;
 export type UserProfiles = InferOutput<typeof UserProfiles>;
 export type User = InferOutput<typeof User>;
 
@@ -65,17 +66,13 @@ export function createUserOption(entry: UserEntry): Option {
 
 export function isUserEqual(a: User, b: User) {
   return Boolean(
-    (a.admin && a.admin === b.admin) ||
-      (a.name && a.name === b.name) ||
-      (a.nameRu && a.nameRu === b.nameRu) ||
-      (a.nameRuFrom && a.nameRuFrom === b.nameRuFrom) ||
-      (a.profiles &&
-        Object.entries(a.profiles).some(
-          ([service, profile]) =>
-            profile?.username === b.profiles?.[service as keyof UserProfiles]?.username ||
-            profile?.id === b.profiles?.[service as keyof UserProfiles]?.id ||
-            profile?.channel === b.profiles?.[service as keyof UserProfiles]?.channel,
-        )),
+    a.profiles &&
+      Object.entries(a.profiles).some(
+        ([service, profile]) =>
+          (profile?.id && profile.id === b.profiles?.[service as keyof UserProfiles]?.id) ||
+          (profile?.username && profile.username === b.profiles?.[service as keyof UserProfiles]?.username) ||
+          (profile?.channel && profile.channel === b.profiles?.[service as keyof UserProfiles]?.channel),
+      ),
   );
 }
 

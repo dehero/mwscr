@@ -1,4 +1,5 @@
 import 'dotenv/config';
+import transliterate from '@sindresorhus/transliterate';
 import { VK } from 'vk-io';
 // @ts-expect-error No proper typing
 import type { WallWallComment } from 'vk-io/lib/api/schemas/objects';
@@ -265,7 +266,7 @@ export class VKManager extends VKService implements PostingServiceManager {
     return [{ service: this.id, id: result.id, type: 'story', followers, published: new Date() }];
   }
 
-  private getCommentInfo(message: WallWallComment, result: WallGetCommentExtendedResponse) {
+  private async getCommentInfo(message: WallWallComment, result: WallGetCommentExtendedResponse) {
     const user =
       // @ts-expect-error No proper typing
       result.profiles.find((profile) => profile.id === message.from_id) ||
@@ -276,10 +277,19 @@ export class VKManager extends VKService implements PostingServiceManager {
       return;
     }
 
-    const author = user.screen_name || `id${user.id}`;
+    const nameRu = [user.first_name, user.last_name].filter((item) => Boolean(item)).join(' ') || user.screen_name;
+    const name = transliterate(nameRu);
+
+    const [author] = await users.mergeOrAddItem({
+      name,
+      nameRu: nameRu !== name ? nameRu : undefined,
+      profiles: { [this.id]: { id: user.id.toString(), username: user.screen_name || `id${user.id}` } },
+    });
 
     const datetime = new Date(message.date * 1000);
     const text = message.text.replace(/\[[^|]+\|([^\]]+)\]/gm, '$1').trim();
+
+    await users.save();
 
     return { datetime, author, text };
   }
@@ -299,7 +309,7 @@ export class VKManager extends VKService implements PostingServiceManager {
     })) as unknown as WallGetCommentExtendedResponse;
 
     for (const item of result.items) {
-      const info = this.getCommentInfo(item, result);
+      const info = await this.getCommentInfo(item, result);
       if (!info) {
         continue;
       }
@@ -307,7 +317,7 @@ export class VKManager extends VKService implements PostingServiceManager {
       const replies: PublicationComment[] = [];
 
       for (const childItem of item.thread.items) {
-        const info = this.getCommentInfo(childItem, result);
+        const info = await this.getCommentInfo(childItem, result);
         if (!info) {
           continue;
         }

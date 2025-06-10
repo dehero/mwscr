@@ -1,9 +1,11 @@
 import type { youtube_v3 } from '@googleapis/youtube';
 import { youtube } from '@googleapis/youtube';
+import transliterate from '@sindresorhus/transliterate';
 import type { PostEntry } from '../../core/entities/post.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { YouTube } from '../../core/services/youtube.js';
+import { users } from '../data-managers/users.js';
 
 const YOUTUBE_CHANNEL_ID = 'UCoSD49h3Nrss_Zix8boMwlw';
 
@@ -59,7 +61,7 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
     }
 
     for (const item of data.items) {
-      const info = this.getCommentInfo(item);
+      const info = await this.getCommentInfo(item);
       if (!info) {
         continue;
       }
@@ -72,15 +74,25 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
     return comments.length > 0 ? comments : undefined;
   }
 
-  private getCommentInfo(commentThread: youtube_v3.Schema$CommentThread) {
+  private async getCommentInfo(commentThread: youtube_v3.Schema$CommentThread) {
     const { snippet } = commentThread.snippet?.topLevelComment ?? {};
     if (!snippet?.publishedAt || !snippet.authorDisplayName || !snippet.textDisplay) {
       return;
     }
 
     const text = snippet.textDisplay;
-    const author = snippet.authorDisplayName;
+    const nameRu = snippet.authorDisplayName;
+    const name = transliterate(nameRu);
+
+    const [author] = await users.mergeOrAddItem({
+      name,
+      nameRu: nameRu !== name ? nameRu : undefined,
+      profiles: { [this.id]: { id: snippet.authorChannelId?.value || undefined, username: snippet.authorDisplayName } },
+    });
+
     const datetime = new Date(snippet.publishedAt);
+
+    await users.save();
 
     return { datetime, author, text };
   }

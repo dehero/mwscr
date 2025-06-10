@@ -1,6 +1,7 @@
 import { textToId } from '../utils/common-utils.js';
+import type { ListReaderEntry } from './list-manager.js';
 import { ListManager, ListManagerPatch } from './list-manager.js';
-import { mergeUserWith, User } from './user.js';
+import { isUserEqual, mergeUserWith, User } from './user.js';
 
 export const UsersManagerPatch = ListManagerPatch<User>(User);
 export type UsersManagerPatch = ListManagerPatch<User>;
@@ -25,6 +26,16 @@ export abstract class UsersManager extends ListManager<User> {
     }
 
     return result;
+  }
+
+  async mergeOrAddItem(item: User): Promise<ListReaderEntry<User>> {
+    const result = await this.findEntry((user) => isUserEqual(user, item));
+    if (result) {
+      this.mergeItemWith(result[1], item);
+      return result;
+    }
+
+    return this.addItem(item);
   }
 
   protected mergeItemWith = mergeUserWith;
