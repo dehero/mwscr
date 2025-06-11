@@ -2214,23 +2214,24 @@
       id: DKuvboUsa5q
       mediaId: '17854670706409174'
       published: 2025-06-10-18-28-20
-      updated: 2025-06-11-18-28-18
+      updated: 2025-06-11-19-15-34
       followers: 1553
-      likes: 57
+      likes: 59
     - service: vk
       id: 2459
       published: 2025-06-10-18-28-26
-      updated: 2025-06-11-18-28-17
+      updated: 2025-06-11-19-15-32
       followers: 1318
-      likes: 39
-      views: 209
+      likes: 40
+      views: 212
+      reposts: 1
     - service: tg
       id: 881
       published: 2025-06-10-18-28-29
-      updated: 2025-06-11-18-28-16
+      updated: 2025-06-11-19-15-33
       followers: 746
-      likes: 49
-      views: 167
+      likes: 52
+      views: 188
 2018-02-27-fieldwork:
   title: Fieldwork
   titleRu: Полевые работы
@@ -5415,15 +5416,25 @@
       id: DKxUckuMUki
       mediaId: '17851054788436404'
       published: 2025-06-11-18-30-09
+      updated: 2025-06-11-19-15-31
       followers: 1554
+      likes: 11
     - service: vk
       id: 2460
       published: 2025-06-11-18-30-15
+      updated: 2025-06-11-19-15-30
       followers: 1320
+      likes: 4
+      views: 36
+      reposts: 1
     - service: tg
       id: 882
       published: 2025-06-11-18-30-19
+      updated: 2025-06-11-19-15-32
       followers: 746
+      likes: 18
+      views: 72
+      comments: !c iw2AkZPLQnl2BZG7AACrS2F3YXpha3kyMjOk8J+QjAM=
 2018-05-16-let-the-sun-rise:
   title: Let the Sun Rise
   titleRu: Пусть восходит солнце
@@ -9758,7 +9769,7 @@
     - service: tg
       id: 4
       published: 2018-09-01
-      updated: 2025-06-04-18-32-53
+      updated: 2025-06-11-19-15-50
       likes: 4
       views: 276
     - service: ig
@@ -9837,7 +9848,7 @@
         - 7
         - 8
       published: 2018-09-02
-      updated: 2025-06-04-18-32-52
+      updated: 2025-06-11-19-15-49
       likes: 3
       views: 231
     - service: vk
@@ -9903,7 +9914,7 @@
     - service: tg
       id: 9
       published: 2018-09-03
-      updated: 2025-06-04-18-32-51
+      updated: 2025-06-11-19-15-48
       likes: 2
       views: 210
 2018-09-04-near-the-ghostgate:
@@ -9937,9 +9948,9 @@
     - service: tg
       id: 10
       published: 2018-09-04
-      updated: 2025-06-04-18-32-50
+      updated: 2025-06-11-19-15-48
       likes: 2
-      views: 205
+      views: 206
     - service: ig
       id: C_Gkjg6Nfuj
       mediaId: '17929160141924204'
@@ -9999,7 +10010,7 @@
     - service: tg
       id: 11
       published: 2018-09-05
-      updated: 2025-06-04-18-32-49
+      updated: 2025-06-11-19-15-47
       likes: 2
       views: 192
 2018-09-06-in-the-wisewomans-yurt:
@@ -10038,7 +10049,7 @@
     - service: tg
       id: 12
       published: 2018-09-06
-      updated: 2025-06-04-18-32-48
+      updated: 2025-06-11-19-15-46
       likes: 3
       views: 191
 2018-09-07-red-light:
@@ -10074,9 +10085,9 @@
     - service: tg
       id: 13
       published: 2018-09-07
-      updated: 2025-06-04-18-32-48
+      updated: 2025-06-11-19-15-45
       likes: 2
-      views: 221
+      views: 222
     - service: vk
       id: 1743
       published: 2024-09-08-18-28-17
@@ -10133,9 +10144,9 @@
     - service: tg
       id: 14
       published: 2018-09-08
-      updated: 2025-06-04-18-32-47
+      updated: 2025-06-11-19-15-44
       likes: 3
-      views: 314
+      views: 315
 2018-09-09-wild-beasts-of-solstheim:
   title: Wild Beasts of Solstheim
   titleRu: Дикие звери Солстхейма
@@ -10182,9 +10193,9 @@
         - 23
         - 25
       published: 2018-09-09
-      updated: 2025-06-04-18-32-46
+      updated: 2025-06-11-19-15-43
       likes: 3
-      views: 211
+      views: 212
 2018-09-10-foggy-loneliness:
   title: Foggy Loneliness
   titleRu: Туманное одиночество
@@ -10223,9 +10234,9 @@
     - service: tg
       id: 26
       published: 2018-09-10
-      updated: 2025-06-04-18-32-45
+      updated: 2025-06-11-19-15-42
       likes: 2
-      views: 189
+      views: 190
 2018-09-11-galmis-dren-smuggler:
   title: Galmis Dren, Smuggler
   titleRu: Гальмис Дрен, контрабандист
@@ -10259,9 +10270,9 @@
     - service: tg
       id: 27
       published: 2018-09-11
-      updated: 2025-06-04-18-32-44
+      updated: 2025-06-11-19-15-42
       likes: 3
-      views: 192
+      views: 193
 2018-09-12-forager:
   title: Forager
   titleRu: Фуражир
@@ -10294,7 +10305,7 @@
     - service: tg
       id: 28
       published: 2018-09-12
-      updated: 2025-06-04-18-32-43
+      updated: 2025-06-11-19-15-41
       likes: 4
       views: 191
     - service: ig
@@ -10352,7 +10363,7 @@
     - service: tg
       id: 29
       published: 2018-09-13
-      updated: 2025-06-04-18-32-42
+      updated: 2025-06-11-19-15-40
       likes: 2
       views: 215
     - service: tg
@@ -10416,9 +10427,9 @@
     - service: tg
       id: 30
       published: 2018-09-14
-      updated: 2025-06-04-18-32-41
+      updated: 2025-06-11-19-15-39
       likes: 3
-      views: 188
+      views: 189
 2018-09-15-dark-vaults-of-nammu:
   title: Dark Vaults of Nammu
   titleRu: Тёмные своды Намму
@@ -10454,7 +10465,7 @@
     - service: tg
       id: 31
       published: 2018-09-15
-      updated: 2025-06-04-18-32-41
+      updated: 2025-06-11-19-15-38
       likes: 3
       views: 193
 2018-09-16-city-lights:
@@ -10500,7 +10511,7 @@
         - 35
         - 36
       published: 2018-09-16
-      updated: 2025-06-04-18-32-39
+      updated: 2025-06-11-19-15-37
       likes: 2
       views: 205
 2018-09-17-dren-plantation:
@@ -10538,7 +10549,7 @@
     - service: tg
       id: 37
       published: 2018-09-17
-      updated: 2025-06-04-18-32-38
+      updated: 2025-06-11-19-15-37
       likes: 2
       views: 193
     - service: ig
@@ -10603,7 +10614,7 @@
     - service: tg
       id: 38
       published: 2018-09-18
-      updated: 2025-06-04-18-32-36
+      updated: 2025-06-11-19-15-36
       likes: 3
       views: 190
 2018-09-19-teris-raledran-and-rollie-the-guar:
@@ -10639,7 +10650,7 @@
     - service: tg
       id: 39
       published: 2018-09-19
-      updated: 2025-06-04-18-32-35
+      updated: 2025-06-11-19-15-35
       likes: 4
       views: 198
 2018-09-20-in-the-west-wing-of-gateway-inn:
