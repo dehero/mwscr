@@ -420,7 +420,7 @@
     - service: vk
       id: 1444
       published: 2024-03-12-18-17-53
-      updated: 2025-06-05-09-26-50
+      updated: 2025-06-12-10-22-44
       followers: 896
       likes: 33
       views: 279
@@ -428,7 +428,7 @@
     - service: tg
       id: 343
       published: 2024-03-12-18-18-01
-      updated: 2025-06-05-09-26-28
+      updated: 2025-06-12-10-22-19
       followers: 350
       likes: 65
       views: 537
@@ -548,7 +548,7 @@
     - service: vk
       id: 1459
       published: 2024-03-19-18-11-25
-      updated: 2025-06-05-09-26-50
+      updated: 2025-06-12-10-22-43
       followers: 896
       likes: 43
       views: 279
@@ -556,10 +556,10 @@
     - service: tg
       id: 351
       published: 2024-03-19-18-11-30
-      updated: 2025-06-05-09-26-27
+      updated: 2025-06-12-10-22-18
       followers: 352
       likes: 69
-      views: 491
+      views: 492
 2024-03-20-banner-of-house-dagoth: 2017-07-05-banner-of-house-dagoth
 2024-03-21-first-stars-above-falasmaryon:
   title: First Stars Above Falasmaryon
@@ -858,14 +858,14 @@
     - service: vk
       id: 1478
       published: 2024-04-02-18-11-20
-      updated: 2025-06-05-09-26-48
+      updated: 2025-06-12-10-22-41
       followers: 906
       likes: 25
       views: 265
     - service: tg
       id: 365
       published: 2024-04-02-18-11-28
-      updated: 2025-06-05-09-26-27
+      updated: 2025-06-12-10-22-17
       followers: 355
       likes: 56
       views: 483
@@ -1050,7 +1050,7 @@
     - service: vk
       id: 1488
       published: 2024-04-09-18-16-08
-      updated: 2025-06-05-09-26-47
+      updated: 2025-06-12-10-22-40
       followers: 911
       likes: 39
       views: 262
@@ -1058,7 +1058,7 @@
     - service: tg
       id: 373
       published: 2024-04-09-18-16-14
-      updated: 2025-06-05-09-26-26
+      updated: 2025-06-12-10-22-16
       followers: 353
       likes: 68
       views: 467
@@ -1684,7 +1684,7 @@
     - service: vk
       id: 1524
       published: 2024-05-07-18-18-49
-      updated: 2025-06-05-09-26-43
+      updated: 2025-06-12-10-22-36
       followers: 913
       likes: 34
       views: 270
@@ -1692,10 +1692,10 @@
     - service: tg
       id: 401
       published: 2024-05-07-18-18-56
-      updated: 2025-06-05-09-26-21
+      updated: 2025-06-12-10-22-11
       followers: 371
       likes: 57
-      views: 471
+      views: 472
 2024-05-08-slaves-sleep-peacefully-in-their-shacks:
   title: Slaves Sleep Peacefully in Their Shacks
   titleRu: Рабы мирно спят в своих хижинах
@@ -2213,14 +2213,14 @@
     - service: vk
       id: 1578
       published: 2024-06-11-18-21-03
-      updated: 2025-06-05-09-26-38
+      updated: 2025-06-12-10-22-32
       followers: 916
       likes: 34
       views: 288
     - service: tg
       id: 436
       published: 2024-06-11-18-21-09
-      updated: 2025-06-05-09-26-15
+      updated: 2025-06-12-10-22-05
       followers: 384
       likes: 56
       views: 458
@@ -2444,15 +2444,15 @@
     - service: vk
       id: 1689
       published: 2024-08-13-18-55-56
-      updated: 2025-06-05-09-26-26
+      updated: 2025-06-12-10-22-22
       followers: 931
       likes: 41
-      views: 352
+      views: 353
       reposts: 2
     - service: tg
       id: 500
       published: 2024-08-13-18-56-05
-      updated: 2025-06-05-09-26-06
+      updated: 2025-06-12-10-21-53
       followers: 527
       likes: 76
       views: 810
@@ -2670,7 +2670,7 @@
     - service: vk
       id: 1782
       published: 2024-09-25
-      updated: 2025-06-05-09-26-21
+      updated: 2025-06-12-10-22-18
       followers: 958
       likes: 30
       views: 322
@@ -2678,10 +2678,10 @@
     - service: tg
       id: 543
       published: 2024-09-25
-      updated: 2025-06-05-09-25-58
+      updated: 2025-06-12-10-21-50
       followers: 557
       likes: 56
-      views: 600
+      views: 602
 2024-09-26-bread-and-wine: 2018-10-29-bread-and-wine
 2024-09-27-the-two-towers: 2017-03-25-the-two-towers
 2024-09-28-cozy-workplace-in-the-basement: 2017-11-16-cozy-workplace-in-the-basement
@@ -2972,7 +2972,7 @@
     - service: vk
       id: 1941
       published: 2024-12-04-19-10-14
-      updated: 2025-06-05-09-26-13
+      updated: 2025-06-12-10-22-11
       followers: 1013
       likes: 58
       views: 403
@@ -2980,10 +2980,10 @@
     - service: tg
       id: 615
       published: 2024-12-04-19-10-20
-      updated: 2025-06-05-09-25-52
+      updated: 2025-06-12-10-21-44
       followers: 574
       likes: 64
-      views: 595
+      views: 596
       comments: !c CxCAkZPLQnk5aAVMgACuZGlzbWFzdGVyZnJhbmWm4pqh77iPAw==
 2024-12-05-in-the-evening-at-census-and-excise-office:
   title: In the Evening at Census and Excise Office
@@ -3224,7 +3224,7 @@
     - service: vk
       id: 1957
       published: 2024-12-11-18-16-04
-      updated: 2025-06-05-09-26-11
+      updated: 2025-06-12-10-22-09
       followers: 1022
       likes: 47
       views: 375
@@ -3235,10 +3235,10 @@
     - service: tg
       id: 622
       published: 2024-12-11-18-16-12
-      updated: 2025-06-05-09-25-52
+      updated: 2025-06-12-10-21-43
       followers: 581
       likes: 69
-      views: 645
+      views: 646
     - service: ig
       id: DDcvXvhTd7j
       mediaId: '18474431095051833'
@@ -3503,7 +3503,7 @@
       id: DEQJZBKzzA5
       mediaId: '18055957414807240'
       published: 2024-12-31-18-10-17
-      updated: 2025-06-05-09-26-20
+      updated: 2025-06-12-10-22-16
       followers: 1519
       likes: 118
       views: 556
