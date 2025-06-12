@@ -21,11 +21,23 @@ export async function maintainPreviews() {
       }
       const urls = [...asArray(post.content), ...asArray(post.snapshot), ...asArray(post.trash)];
       for (const url of urls) {
-        const previewPath = await createResourcePreview(url);
+        const previewPath = await createResourcePreview(url, 320, 320);
         if (previewPath) {
           deletablePreviewPaths.delete(previewPath);
         }
       }
+    }
+  }
+
+  for await (const [, user] of dataManager.users.readAllEntries(true)) {
+    const url = user.avatar;
+    if (!url) {
+      continue;
+    }
+
+    const previewPath = await createResourcePreview(url, 64, 64);
+    if (previewPath) {
+      deletablePreviewPaths.delete(previewPath);
     }
   }
 

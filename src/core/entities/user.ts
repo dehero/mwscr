@@ -2,6 +2,7 @@ import type { InferOutput } from 'valibot';
 import { boolean, nonEmpty, number, object, optional, picklist, pipe, record, string, trim } from 'valibot';
 import type { Link } from './link.js';
 import type { Option } from './option.js';
+import { ImageResourceUrl } from './resource.js';
 import type { Service } from './service.js';
 
 export const USER_DEFAULT_AUTHOR = 'dehero';
@@ -22,6 +23,7 @@ export const User = object({
   name: optional(pipe(string(), trim(), nonEmpty())),
   nameRu: optional(pipe(string(), trim(), nonEmpty())),
   nameRuFrom: optional(pipe(string(), trim(), nonEmpty())),
+  avatar: optional(ImageResourceUrl),
   admin: optional(boolean()),
   profiles: optional(UserProfiles),
 });
@@ -80,6 +82,7 @@ export function mergeUserWith(user: User, withUser: User) {
   user.name = user.name || withUser.name || undefined;
   user.nameRu = user.nameRu || withUser.nameRu || undefined;
   user.nameRuFrom = user.nameRuFrom || withUser.nameRuFrom || undefined;
+  user.avatar = user.avatar || withUser.avatar || undefined;
   user.profiles = mergeUserProfiles(user.profiles, withUser.profiles);
 }
 

@@ -27,6 +27,7 @@ import { Telegram, TELEGRAM_CHANNEL } from '../../core/services/telegram.js';
 import { asArray } from '../../core/utils/common-utils.js';
 import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
 import { readResource } from '../data-managers/resources.js';
+import { saveUserAvatar } from '../data-managers/store-resources.js';
 import { users } from '../data-managers/users.js';
 import { createPostStory } from '../renderers/stories.js';
 
@@ -247,6 +248,16 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
         return;
       }
 
+      const avatar =
+        user.photo instanceof Api.UserProfilePhoto
+          ? await saveUserAvatar(async () => {
+              const { tg } = await this.connect();
+              const data = await tg.downloadProfilePhoto(user.id, { isBig: true });
+
+              return Buffer.isBuffer(data) ? data : undefined;
+            }, `${this.id}-${user.photo.photoId.toString()}.jpg`)
+          : undefined;
+
       const nameRu = user.deleted
         ? 'deleted'
         : [user.firstName, user.lastName].filter((item) => Boolean(item)).join(' ') ||
@@ -257,6 +268,7 @@ export class TelegramManager extends Telegram implements PostingServiceManager {
       [author] = await users.mergeOrAddItem({
         name,
         nameRu: nameRu !== name ? nameRu : undefined,
+        avatar,
         profiles: { [this.id]: { id: user.id.toString(), username: user.username || undefined } },
       });
     } else {
