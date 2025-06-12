@@ -37,7 +37,11 @@ async function updateServicePublications(
     .flatMap(
       ([id, post]): Array<[id: string, publication: Publication]> =>
         post.posts
-          ?.filter((publication) => publication.service === service.id && isPublicationUpdatable(publication))
+          ?.filter(
+            (publication) =>
+              publication.service === service.id &&
+              (isPublicationUpdatable(publication) || Boolean(process.env.FORCE_UPDATE_PUBLICATIONS)),
+          )
           ?.map((publication) => [id, publication]) ?? [],
     )
     .sort((a, b) => b[1].published.getTime() - a[1].published.getTime());
