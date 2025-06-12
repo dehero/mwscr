@@ -5,6 +5,8 @@ import type { PostEntry } from '../../core/entities/post.js';
 import type { Publication, PublicationComment } from '../../core/entities/publication.js';
 import type { PostingServiceManager } from '../../core/entities/service.js';
 import { YouTube } from '../../core/services/youtube.js';
+import { getRevisionHash } from '../../core/utils/common-utils.js';
+import { saveUserAvatar } from '../data-managers/store-resources.js';
 import { users } from '../data-managers/users.js';
 
 const YOUTUBE_CHANNEL_ID = 'UCoSD49h3Nrss_Zix8boMwlw';
@@ -83,10 +85,15 @@ export class YouTubeManager extends YouTube implements PostingServiceManager {
     const text = snippet.textDisplay;
     const nameRu = snippet.authorDisplayName;
     const name = transliterate(nameRu);
+    const avatar = await saveUserAvatar(
+      snippet.authorProfileImageUrl ?? undefined,
+      `${this.id}-${getRevisionHash(snippet.authorProfileImageUrl ?? '')}.jpg`,
+    );
 
     const [author] = await users.mergeOrAddItem({
       name,
       nameRu: nameRu !== name ? nameRu : undefined,
+      avatar,
       profiles: { [this.id]: { id: snippet.authorChannelId?.value || undefined, username: snippet.authorDisplayName } },
     });
 

@@ -13,6 +13,7 @@ import { assertSchema } from '../../core/entities/schema.js';
 import {
   getTargetStoreDirFromPostType,
   parseStoreResourceUrl,
+  STORE_AVATARS_DIR,
   STORE_DRAWINGS_DIR,
   STORE_INBOX_DIR,
   STORE_SNAPSHOTS_DIR,
@@ -275,4 +276,30 @@ export async function movePublishedPostResources([id, post]: PostEntry<Publishab
   const trashUrls = await Promise.all(trashInboxUrls.map((url) => moveResourceToStoreDir(url, STORE_TRASH_DIR)));
 
   post.trash = mergePostContents(trashUrls);
+}
+
+export async function saveUserAvatar(
+  resource: string | (() => Promise<Buffer | undefined>) | undefined,
+  filename: ImageResourceUrl,
+): Promise<ImageResourceUrl | undefined> {
+  if (!resource) {
+    return undefined;
+  }
+
+  const newUrl: ImageResourceUrl = `store:/${STORE_AVATARS_DIR}/${filename}`;
+
+  if (!(await resourceExists(newUrl))) {
+    if (typeof resource === 'string') {
+      await moveResource(resource, newUrl);
+    } else {
+      const data = await resource();
+      if (data && data.byteLength > 0) {
+        await writeResource(newUrl, data);
+      } else {
+        return undefined;
+      }
+    }
+  }
+
+  return newUrl;
 }

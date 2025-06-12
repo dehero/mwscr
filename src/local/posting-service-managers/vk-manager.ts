@@ -21,10 +21,11 @@ import { USER_DEFAULT_AUTHOR } from '../../core/entities/user.js';
 import { site } from '../../core/services/site.js';
 import type { VKPublication } from '../../core/services/vk.js';
 import { VK as VKService, VK_GROUP_ID, VK_GROUP_NAME } from '../../core/services/vk.js';
-import { asArray, randomDelay } from '../../core/utils/common-utils.js';
+import { asArray, getRevisionHash, randomDelay } from '../../core/utils/common-utils.js';
 import { formatDate, getDaysPassed } from '../../core/utils/date-utils.js';
 import { locations } from '../data-managers/locations.js';
 import { readResource } from '../data-managers/resources.js';
+import { saveUserAvatar } from '../data-managers/store-resources.js';
 import { users } from '../data-managers/users.js';
 import { createPostStory } from '../renderers/stories.js';
 
@@ -279,10 +280,12 @@ export class VKManager extends VKService implements PostingServiceManager {
 
     const nameRu = [user.first_name, user.last_name].filter((item) => Boolean(item)).join(' ') || user.screen_name;
     const name = transliterate(nameRu);
+    const avatar = await saveUserAvatar(user.photo_max_orig, `${this.id}-${getRevisionHash(user.photo_max_orig)}.jpg`);
 
     const [author] = await users.mergeOrAddItem({
       name,
       nameRu: nameRu !== name ? nameRu : undefined,
+      avatar,
       profiles: { [this.id]: { id: user.id.toString(), username: user.screen_name || `id${user.id}` } },
     });
 
@@ -305,7 +308,7 @@ export class VKManager extends VKService implements PostingServiceManager {
       sort: 'asc',
       thread_items_count: 10,
       extended: true,
-      fields: ['screen_name'],
+      fields: ['screen_name', 'photo_max_orig'],
     })) as unknown as WallGetCommentExtendedResponse;
 
     for (const item of result.items) {
