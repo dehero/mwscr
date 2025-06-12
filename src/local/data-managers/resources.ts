@@ -225,7 +225,7 @@ export async function getResourcePreviewUrl(url: string, width?: number, height?
   }
 }
 
-export async function createResourcePreview(url: string): Promise<string | undefined> {
+export async function createResourcePreview(url: string, width: number, height: number): Promise<string | undefined> {
   const filename = getResourcePreviewPath(url);
   if (!filename) {
     return;
@@ -249,7 +249,7 @@ export async function createResourcePreview(url: string): Promise<string | undef
 
   try {
     const [data] = await readResource(previewUrl);
-    const preview = sharp(data).resize(320, 320, { fit: 'outside' });
+    const preview = sharp(data).resize(width, height, { fit: 'outside' });
     if (isVideo) {
       preview.composite([{ input: './assets/play.png' }]);
     }

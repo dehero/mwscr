@@ -48,6 +48,7 @@ export const Field = picklist([
   'name',
   'nameRu',
   'nameRuFrom',
+  'avatar',
   'admin',
   'profiles',
 
